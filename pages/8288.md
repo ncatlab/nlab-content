@@ -1393,7 +1393,119 @@ and hence $0 \to F(A) \to F(B) \to F(C) \to $ is a short exact sequence itself p
 =--
 
 
-For further discussion along these lines see at _[[derived functor in homological algebra]]_.
+We now discuss how the derived functor of an additive functor $F$ may also be computed not necessarily with genuine injective/projective resolutions, but with (just) $F$-injective/$F$-projective resolutions, such as $F$-acyclic resolutions, as defined [above](#FResolutions).
+
+Let $\mathcal{A}$ be an [[abelian category]] with [[injective object|enough injectives]].
+Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[additive functor|additive]] [[left exact functor]] with [[right derived functor]] $R_\bullet F$, def. \ref{RightDerivedFunctorOfLeftExactFunctor}. Finally let $\mathcal{I} \subset \mathcal{A}$ be a subcategory of $F$-injective objects, def. \ref{FInjectives}.
+
+
++-- {: .num_lemma #FPreservesNullnessOfFInjectiveComplexes}
+###### Lemma
+
+If a [[cochain complex]] $A^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ is [[quasi-isomorphism|quasi-isomorphic]] to 0, 
+
+$$
+  X^\bullet \stackrel{\simeq_{qi}}{\to} 0
+$$
+
+then also $F(X^\bullet) \in Ch^\bullet(\mathcal{B})$ is quasi-isomorphic to 0
+
+$$
+  F(X^\bullet) \stackrel{\simeq_{qi}}{\to} 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the following collection of [[short exact sequences]] obtained from the [[long exact sequence]] $X^\bullet$:
+
+$$
+  0 \to X^0 \stackrel{d^0}{\to} X^1 \stackrel{d^1}{\to} im(d^1) \to 0
+$$
+
+$$
+  0 \to im(d^1) \to X^2 \stackrel{d^2}{\to} im(d^2) \to 0
+$$
+
+$$
+  0 \to im(d^2) \to X^3 \stackrel{d^3}{\to} im(d^3) \to 0
+$$
+
+and so on. Going by [[induction]] through this list and using the second condition in def. \ref{FInjectives} we have that all the $im(d^n)$ are in $\mathcal{I}$. Then the third condition in def. \ref{FInjectives} says that all the sequences
+
+$$
+  0 \to F(im(d^n)) \to F(X^n+1) \to F(im(d^{n+1})) \to 0
+$$
+
+are [[short exact sequence|exact]]. But this means that 
+
+$$
+  0 \to F(X^0)\to F(X^1) \to F(X^2) \to \cdots
+$$
+
+is exact, hence that $F(X^\bullet)$ is quasi-isomorphic to 0.
+
+
+=--
+
+
++-- {: .num_theorem #DerivedFFromFInjectiveResolution}
+###### Theorem
+
+For $A \in \mathcal{A}$ an object with $F$-injective resolution $A \stackrel{\simeq_{qi}}{\to} I_F^\bullet$, def. \ref{FProjectivesResolution}, we have for each $n \in \mathbb{N}$ an [[isomorphism]]
+
+$$  
+  R^n F(A) \simeq H^n(F(I_F^\bullet))
+$$
+
+between the $n$th right derived functor, def. \ref{RightDerivedFunctorOfLeftExactFunctor} of $F$ evaluated on $A$ and the [[cochain cohomology]] of $F$ applied to the $F$-injective resolution $I_F^\bullet$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ExistenceOfInjectiveResolutions} we can also find an injective resolution $A \stackrel{\simeq_{qi}}{\to} I^\bullet$. By prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} there is a lift of the identity on $A$ to a [[chain map]] $I^\bullet_F \to I^\bullet$ such that the [[diagram]]
+
+$$
+  \array{
+     A &\stackrel{\simeq_{qi}}{\to}& I_F^\bullet
+     \\
+     \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+     \\
+     A &\stackrel{\simeq_{qi}}{\to}& I^\bullet
+  }
+$$
+
+[[commuting diagram|commutes]] in $Ch^\bullet(\mathcal{A})$. Therefore by the [[2-out-of-3]] property of [[quasi-isomorphisms]] it follows that $f$ is a quasi-isomorphism
+
+Let $Cone(f) \in Ch^\bullet(\mathcal{A})$ be the [[mapping cone]] of $f$ and let $I^\bullet \to Cone(f)$ be the canonical [[chain map]] into it. By the explicit formulas for mapping cones, we have that 
+
+1. there is an [[isomorphism]] $F(Cone(f)) \simeq Cone(F(f))$;
+
+1. $Cone(f) \in Ch^\bullet(\mathcal{I})\subset Ch^\bullet(\mathcal{A})$ (because $F$-injective objects are closed under [[direct sum]]).
+
+The first implies that we have a [[homology exact sequence]]
+
+$$
+  \cdots \to H^n(I^\bullet) \to H^n(I_F^\bullet) \to H^n(Cone(f)^\bullet)
+   \to H^{n+1}(I^\bullet) \to H^{n+1}(I_F^\bullet) \to H^{n+1}(Cone(f)^\bullet) \to \cdots
+  \,.
+$$
+
+Observe that with $f^\bullet$ a quasi-isomorphism $Cone(f^\bullet)$ is quasi-isomorphic to 0. Therefore 
+The second item above implies with lemma \ref{FPreservesNullnessOfFInjectiveComplexes} that also $F(Cone(f))$ is quasi-isomorphic to 0. This finally means that the above homology exact sequences consists of exact pieces of the form
+
+$$
+  0 \to (R^n F(A)\coloneqq H^n(I^\bullet) \stackrel{\simeq}{\to} H^n(I_F^\bullet) \to 0
+  \,.
+$$
+
+=--
+
 
 ### Derived Hom-functor/$Ext$-functor and extensions
  {#DerivedHomFunctor}
