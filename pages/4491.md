@@ -1,15 +1,29 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 Let $f : X \to Y$ be a morphism of [[scheme]]s. Let $\Delta : X \to X \times_Y X$ be the diagonal map. We say that $f$ is __separated__ if $\Delta(X)$ is a [[closed subspace]] of $X \times_Y X$.
 
 We say that scheme $X$ is __separated__ if the canonical map $X \to \operatorname{Spec} \mathbb{Z}$ is separated.
 
-Separated schemes are analogous to [[Hausdorff space|Hausdorff topological spaces]] (which are also sometimes called 'separated').  The characterization in terms of the diagonal map is precisely the same as that used for Hausdorff [[locales]].
+Separated schemes are analogous to [[Hausdorff space|Hausdorff topological spaces]] (which are also sometimes called 'separated') and more generally of [[Hausdorff toposes]].  The characterization in terms of the diagonal map is precisely the same as that used for Hausdorff [[locales]]. See _[[separated geometric morphism]]_ for more.
+
+## Properties
 
 There is a [[valuative criterion of separatedness]]. See Hartshorne or [[EGA II]] for more details.
 
+## Related concepts
 
-[[!redirects separated morphism]]
-[[!redirects separated morphisms]]
-[[!redirects separated morphism of schemes]]
+
+* [[separated geometric morphism]]
+
+* [[Hausdorff topos]], [[Hausdorff topological space]]
+
+
 [[!redirects separated morphisms of schemes]]
 [[!redirects separated scheme]]
 [[!redirects separated schemes]]
