@@ -110,16 +110,17 @@ The original text is
 
 * {#Bredon67} [[Glen Bredon]], _Equivariant cohomology theories_, Springer Lecture Notes in Mathematics Vol. 34. 1967.
 
-A quick review is in
+Reviews include
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], pages 9-10 of _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
+* Paolo Masulli, section 2 of _Equivariant homotopy: $KR$-theory_, Master thesis (2011) ([pdf](http://www.math.ku.dk/~jg/students/masulli.msthesis.2011.pdf))
 
 There is an interesting (nontrivially) equivalent definition by Moerdijk and Svensson, using the [[Grothendieck construction]] for a certain $Cat$-valued presheaf on the orbit category. 
 
 * [[Ieke Moerdijk|I. Moerdijk]], J-A. Svensson, _The equivariant Serre spectral sequence_, Proc. Amer. Math. Soc. __118__ (1993), no. 1, 263--278 [doi:10.2307/2160037](http://dx.doi.org/10.2307/2160037)
 
-Further remarks on this are in  
+Further remarks on this and on the [[twisted cohomology]]-version is in
 
 * G. Mukherjee, N. Pandey, _Equivariant cohomology with local coefficients_ ([pdf](http://www.ams.org/proc/2002-130-01/S0002-9939-01-06377-8/S0002-9939-01-06377-8.pdf))
 
@@ -128,6 +129,8 @@ Further remarks on this are in
 * H. Honkasalo, _A sheaf-theoretic approach to the equivariant Serre spectral sequence_, J. Math. Sci. Univ. Tokyo
 4 (1997), 53--65 ([pdf](http://journal.ms.u-tokyo.ac.jp/pdf/jms040103.pdf))
 
-For orbifolds there is a generalization of $K$-theory which is closely related to the Bredon cohomology (rather than usual equivariant cohomology):
+For [[orbifolds]] there is a generalization of $K$-theory which is closely related to the Bredon cohomology (rather than usual equivariant cohomology):
 
-* Alejandro Adem, Yongbin Ruan, _Twisted Orbifold K-Theory_, Commun.Math.Phys. 237 (2003) 533-556, [doi:10.1007/s00220-003-0849-x](http://dx.doi.org/10.1007/s00220-003-0849-x) [arXiv](http://front.math.ucdavis.edu/0107.5168)
+* Alejandro Adem, Yongbin Ruan, _Twisted Orbifold K-Theory_, Commun.Math.Phys. 237 (2003) 533-556, [doi:10.1007/s00220-003-0849-x](http://dx.doi.org/10.1007/s00220-003-0849-x) ([arXiv:0107.5168](http://front.math.ucdavis.edu/0107.5168))
+
+
