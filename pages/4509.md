@@ -77,12 +77,6 @@ There are further generalizations like unbounded resolutions etc.
 [[!redirects cofibrant resolutions]]
 
 
-[[!redirects projective resolution]]
-[[!redirects injective resolution]]
-[[!redirects projective resolutions]]
-[[!redirects injective resolutions]]
-
-
 [[!redirects cofibrant replacement functor]]
 [[!redirects fibrant replacement functor]]
 
