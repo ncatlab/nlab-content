@@ -1,4 +1,3 @@
-
 #Contents#
 * table of contents
 {:toc}
@@ -29,3 +28,5 @@ Construction by [[Kaluza-Klein mechanism|KK-reduction]] of the [[6d (2,0)-superc
 * Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
 
 For more along these lines see at _[[N=2 D=4 super Yang-Mills theory]]_.
+
+[[!redirecrts N=1 D=4 sYM]]
