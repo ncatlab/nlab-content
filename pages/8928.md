@@ -26,7 +26,7 @@ the [[black hole]] [[spacetime]] is regarded as a strongly coupled condensate of
 
 Now, if the configuration has a sufficient amount of [[supersymmetry]] preserved, then one knows that certain observables are actually independent of the coupling constant, and accordingly these observables are the same for black holes as for the corresponding D-brane configurations in flat space.
 
-The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. For these configurations one may compute the number of quantum microstates of open strings attached to them, hence the corresponding [[entropy]]. By the above reasoning this may then be compared to the [[Bekenstein-Hawking entropy]] of the corresponding (supersymmetric) black hole. And indeed there results match.
+The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. For these configurations one may compute the number of quantum microstates of open strings attached to them, hence the corresponding [[entropy]]. By the above reasoning this may then be compared to the [[Bekenstein-Hawking entropy]] of the corresponding (supersymmetric) black hole. And indeed there results match, see the [References](#References) below.
 
 ## Related concepts
 
@@ -54,6 +54,7 @@ The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. 
 
 
 ## References
+ {#References}
 
 The original computations are due to
 
