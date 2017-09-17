@@ -24,12 +24,14 @@ See also [[commutative localization]] and [[localization of a ring]] (noncommuta
 
 ## Definition
 
-Let $R$ be a [[commutative ring]]. Let $S \hookrightarrow U(R)$ be a [[subset]] of the underlying set.
+Let $R$ be a [[commutative ring]]. Let $S \hookrightarrow U(R)$ be a [[multiplicative subset]] of the underlying [[set]].
+
+The following gives the [[universal property]] of the localization.
 
 +-- {: .num_defn }
 ###### Definition
 
-The **localization** $L_S \colon R \to R[S^{-1}]$ is a homomorphism to another commutative ring $R[S^{-1}]$ such that 
+The **localization** $L_S \colon R \to R[S^{-1}]$ is a [[homomorphism]] to another commutative ring $R[S^{-1}]$ such that 
 
 1. for all elements $s \in S \hookrightarrow R$ the image $L_S(s) \in R[S^{-1}]$ is invertible (is a [[unit]]);
 
@@ -48,12 +50,55 @@ The **localization** $L_S \colon R \to R[S^{-1}]$ is a homomorphism to another c
 
 =--
 
+The following gives an explicit description of the localization
+
++-- {: .num_defn }
+###### Definition
+
+The localization of $R$ at a [[multiplicative subset]] $S$ is the [[commutative ring]] whose underlying  [[set]] is the set of [[equivalence classes]] on $R \times S$ under the [[equivalence relation]]
+
+$$
+  (r_1, s_1) \sim (r_2, s_2) 
+  \;\;\Leftrightarrow\;\;
+  \exists u \in S
+  \;
+  (r_1 s_2- r_2 s_1) u = 0 \;\in R
+  \,.
+$$
+
+Write $r s^{-1}$ for the [[equivalence class]] of $(r,s)$. On this set, addition and multiplication is defined by
+
+$$
+  r_1 s_1^{-1} + r_2 s_2^{-1} \coloneqq (r_1 s_2 + r_2 s_1) (s_1 s_2)^{-1}
+$$
+
+$$
+  (r_1 s_1^{-1})(r_2 s_2^{-1}) \coloneqq r_1 r_2 (s_1 s_2)^{-1}
+  \,.
+$$
+
+
+=--
+
+(e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
+
++-- {: .num_remark }
+###### Remark
+
+The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of the localization maps $R \longrightarrow R[S^{-1}]$ (under forming [[spectrum of a commutative ring|spectra]]) serve as the standard [[open immersion of schemes|open immersions]] that define the [[Zariski topology]] on [[algebraic varieties]].
+
+=--
+
 ## Related concepts
 
 * [[localization of a module]]
 
 * [[localization of a ring]], [[localization of a category]]
 
+
+## References
+
+* [[The Stacks Project]], 10.9. _Localization_
 
 [[!redirects localizations of a commutative ring]]
 
