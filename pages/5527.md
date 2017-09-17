@@ -40,9 +40,9 @@ $$
 
 which is in general simpler. 
 
-The sequence asymptotes to the homology of $C$ by approximating [[cycles]] and [[boundaries]] of $C$ by their "$r$-approximation": an $r$-approximate cycle is a [[chain]] in filtering degree $p$ whose [[differential]] vanishes only up to terms that are $r$ steps lower in filtering degree, and an $r$-approximate boundary in filtering degree $p$ is a cycle that is the differential of a chain which may be (only) up to $r$-degrees higher in filtering degree. The correspoding $r$-approximate homology of $C$ in filtering degree $p$ is the term $E^r_{p,\bullet}$ of the spectral sequence.
+The sequence asymptotes to the homology of $C_\bullet$ by approximating [[cycles]] and [[boundaries]] of $C$ by their "$r$-approximation": an _$r$-approximate cycle_ is a [[chain]] in filtering degree $p$ whose [[differential]] vanishes only up to terms that are $r$ steps lower in filtering degree, and an $r$-approximate boundary in filtering degree $p$ is a cycle that is the differential of a chain which may be (only) up to $r$-degrees higher in filtering degree. The corresponding $r$-approximate homology of $C_\bullet$ in filtering degree $p$ is the term $E^r_{p,\bullet}$ of the spectral sequence.
 
-Clearly, if the filtering is bounded then $\infty$-approximate homology is the correct homology, and so the spectral sequence converges to the correct homology. But the point is that typically it collapses at some low finite degree $r$, and so allows one to obtain the genuine homology from some finite $r$-approximate homology.
+Clearly, if the filtering is bounded then $\infty$-approximate homology is the correct homology, and so the spectral sequence converges to the correct homology. But the point is that typically it reaches the correct value already at some low finite degree $r$ (it "collapses"), and so allows one to obtain the genuine homology from some finite $r$-approximate homology.
 
 
 One may also regard the spectral sequence of a filtered complex as a tool for organizing data derivable from the families of [[long exact sequence in homology]]
@@ -64,7 +64,7 @@ $$
 which are induced by the short exact sequences 
 
 $$
-  0 \to F_{p-1}C_q \to F_p C_q \to F_p C_q / F_{p-1} C_q \to 0
+  0 \to F_{p-1}C_q \hookrightarrow F_p C_q \to F_p C_q / F_{p-1} C_q \to 0
 $$
 
 coming from the filtering.
@@ -74,14 +74,16 @@ coming from the filtering.
 
 We give the definition 
 
-* [explicitly](#ExplicitDefinition)
+* [via relative homology](#ExplicitDefinition)
 
 and
 
 * [via exact couples](#ViaExactCouples).
 
-### Explicitly
+### Via relative homology
  {#ExplicitDefinition}
+
+Let $\mathcal{A}$ be an [[abelian category]], such as $\mathcal{A} = R$[[Mod]] for some [[ring]] $R$.
 
 Let 
 
@@ -94,7 +96,74 @@ $$
   C_\bullet
 $$
 
-be a [[filtered object|filtered]] [[chain complex]] with [[associated graded|associated graded]] complex denoted $G_\bullet C_\bullet$.
+be a [[filtered chain complex]] in $\mathcal{A}$, with [[associated graded]] complex denoted $G_\bullet C_\bullet$.
+
+In more detail this means that
+
+1. $[\cdots \stackrel{\partial_{n}}{\to} C_n \stackrel{\partial_{n-1}}{\to}] C_{n-1} \to \cdots]$ is a [[chain complex]], hence $\{C_n\}$ are [[objects]] in $\mathcal{A}$ ($R$-[[modules]]) and $\{\partial_n\}$ are [[morphisms]] (module [[homomorphisms]]) with $\partial_n \circ \partial_{n+1} = 0$;
+
+1. For each $n \in \mathbb{Z}$ there is a [[filtered object|filtering]] $F_\bullet C_n$ on $C_n$ and all these filterings are compatible with the [[diffreentials]] in that 
+
+   $$
+     \partial(F_p C_n) \subset F_p C_{n-1}
+   $$
+
+1. The grading associated to the filtreing is suhh that the $p$-graded element in $C_n$ are those in the [[quotient]]
+
+   $$
+     G_p C_n \coloneqq \frac{F_p C_n}{ F_{p-1} C_n}
+     \,.
+   $$
+
+
+
+#### $r$-Approximate cycles and boundaries
+ {#InterpretationOfTerms}
+
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above, write for all $r,p,q \in \mathbb[Z}$
+
+$$
+  \begin{aligned}
+   Z^r_{p,q} 
+   & \coloneqq
+   \left\{
+     c \in G_p C_{p+q}
+     |
+     \partial c = 0 \, mod G_{p-r} C_{\bullet}
+   \right\}
+   \\
+   & = 
+  \left\{
+   c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1}
+  \right\}/ F_{p-1}C_{p+q}
+ \end{aligned}
+$$
+
+These are the $(p+q)$-chains in filtering degree $p$ whose differential vanishes modulo terms of filtering degree $p-r$: **the $r$-approximate $(p,q)$-[[chains]]**.
+
+Write similarly
+
+$$
+  B^{r}_{p,q}
+  \coloneqq
+  \partial(
+    F_{p+r-1} C_{p+q+1}
+  ) / F_{p-1}C_{p+q}
+  \,,
+$$
+
+the group of $r$-approximate $(p,q)$-[[boundaries]].
+
+=--
+
+
+
+#### $r$-Approximate homology groups: the spectral sequence
+
 
 +-- {: .num_defn #ExplicitForm}
 ###### Definition
@@ -102,8 +171,12 @@ be a [[filtered object|filtered]] [[chain complex]] with [[associated graded|ass
 For $r,p,q \in \mathbb{Z}$ define objects
 
 $$
-  E^r_{p,q}
-   \coloneqq
+  \begin{aligned}
+    E^r_{p,q}
+    & \coloneqq
+    \frac{Z^r_{p,q}}{B^r_{p,q}}
+    \\
+    & = 
   \frac{
     \left\{
      x \in F_p C_{p+q} \,|\, \partial x \in F_{p-r} C_{p+q-1}
@@ -127,7 +200,7 @@ given by $\partial^C$.
 +-- {: .num_remark}
 ###### Remark
 
-The group $E^r_{p,q}$ is to be thought of as the _approximate_ chain homology of $C_\bullet$ in degree $p+q$ where the differential is required to vanish only "to order $r$" (is in $F_{p-r}$) and boundaries are similarly modded out only in order $r$. More discussion of this is [below](#InterpretationOfTerms).
+The group $E^r_{p,q}$ is to be thought of as the _approximate_ chain homology of $C_\bullet$ in degree $p+q$ where the differential is required to vanish only "to order $r$" (is in $F_{p-r}$) and boundaries are similarly quotiented out only in order $r$. 
 
 =--
 
@@ -179,7 +252,13 @@ The whole of the spectral sequence can be defined as the [[spectral sequence]] o
 
 $$ D\overset{\varphi}{\to} D \to E \to D $$
 
-where $D = \bigoplus_i H^{\bullet}(F_i)$, where $\varphi$ is the cohomology morphism induced by the inclusion of chain complexes $F_i\to F_{i+1}$ and $E = \bigoplus_i H^\bullet(F_i/F_{i-1})$, the total cohomology of the associated bigraded complex.  (The usual bigrading of the initial term is a bit weird maybe, but we'll get used to that.)
+where 
+
+* $D \coloneqq \bigoplus_i H^{\bullet}(F_i) $
+
+* and where $\varphi$ is the cohomology morphism induced by the inclusion of chain complexes $F_i\to F_{i+1}$ 
+
+* and $E \coloneqq \bigoplus_i H^\bullet(F_i/F_{i-1})$ is the total cohomology of the associated bigraded complex.  
 
 At every stage we have a new family of long exact sequences
 
@@ -208,53 +287,7 @@ is the homology of the degree-$p$ piece.
 
 =--
 
-### Interpretation of the terms: $r$-approximate cycles/boundaries
- {#InterpretationOfTerms}
 
-The terms $E^r_{p,q}$ in def. \ref{ExplicitForm}
-have a natural interpretation as the _$r$-approximate homology groups_ of $C_\bullet$, in the following sense.
-
-+-- {: .num_defn}
-###### Definition
-
-Write
-
-$$
-  Z^r_{p,q} 
-   \coloneqq
-  \left\{
-   c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q}
-  \right\}/ F_{p-1}C_{p+q}
-$$
-
-These are the $(p+q)$-chains in filtering degree $p$ whose differential vanishes modulo terms of filtering degree $p-r$: **the $r$-approximate $(p,q)$-[[chains]]**.
-
-Write similarly
-
-$$
-  B^{r}_{p,q}
-  \coloneqq
-  \partial(A^{r-1}_{p+r-1,q}) / F_{p-1}C_{p+q}
-  \,,
-$$
-
-the group of $r$-approximate $(p,q)$-[[boundaries]].
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-With this notation the groups in def. \ref{ExplicitForm} are simply the
-$r$-approximate [[homology groups]]:
-
-$$
-  E^r_{p,q} = 
-  \frac{Z^r_{p,q}}{B^r_{p,q}}
-  \,.
-$$
-
-=--
 
 ### Convergence
 
