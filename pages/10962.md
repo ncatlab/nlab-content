@@ -21,7 +21,9 @@
 
 The term _beable_ was proposed in ([Bell 75](#Bell75)) as a replacement in [[quantum physics]] of the traditional term _[[observable]]_. While the latter is typically given a precise mathematical meaning which does express the way in which the [[physical system]] may be, the word "observable" alludes to the complicated and subtle issue of something (a [[quantum measurement]] device) or even somebody (a concious experimentor) "observing" these ways of the system to be. The point of the term "beable" is to help conceptually cleanly separate the [[being]] of quantum systems from whatever it means to observe them.
 
-In ([Bell 75](#Bell75)) to further justify this recourse is made to [[Niels Bohr]]'s expressed view that whatever [[quantum physics]] really is, it must be possible to communicate statements about it in terms of classical [[logic]]. (This same argument was much later used to motivate [[Bohr toposes]].)
+In ([Bell 75](#Bell75)) to further justify this recourse is made to [[Niels Bohr]]'s expressed view that whatever [[quantum physics]] really is, it must be possible to communicate statements about it in terms of classical [[logic]]. 
+
+This same argument was much later used to motivate [[Bohr toposes]]. In this context, the [[Kochen-Specker theorem]] proves the absence of certain global sections. In this language, a beable defines a local section.
 
 In practice of theoretical physics most everytime one writes "observable" it should, by this logic, rather be "beable". While this might be reasonable, as a convention of conversation it has not been picked up.
 
@@ -35,5 +37,12 @@ Discussion of beables in the context of [[causal locality]] in [[AQFT]] is in
 Further discussion is in 
 
 * [[John Bell]], _Beables for quantum field theory_ (1984) ([pdf](http://prac.us.edu.pl/~ztpce/QM/Bell_beables.pdf))
+
+A more technical development can be found here:
+
+* Hans Halvorson, Rob Clifton,  Maximal Beable Subalgebras of Quantum-Mechanical Observables [arXiv:quant-ph/9905042](http://arxiv.org/abs/quant-ph/9905042)
+
+* Yuichiro Kitajima, Interpretations of Quantum Mechanics in Terms of Beable Algebras,
+([pdf](http://link.springer.com/article/10.1007/s10773-005-4051-0))
 
 [[!redirects beables]]
