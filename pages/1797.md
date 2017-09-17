@@ -99,7 +99,7 @@ Therefore, in any 2-category, the following data are all equivalent (i.e. form e
 
 * A morphism $f$ together with the structure of adjoint equivalence data $(f,g,\eta,\varepsilon)$.
 
-However, they are *not* equivalent to the category of the following data:
+In other words, adjoint equivalences are the way to make the property of "being an equivalence" completely into "algebraic" structure.  However, they are *not* equivalent to the category of the following data:
 
 * A morphism $f$ together with the structure of a morphism $g\colon Y \to X$ and arbitrary isomorphisms $\eta\colon 1 \cong g f$ and $\varepsilon\colon f g \cong 1$.
 
@@ -108,6 +108,16 @@ However, they are *not* equivalent to the category of the following data:
 ### Intervals in homotopy theory
 
 One instance of the usefulness of adjoint equivalences is that the "[[walking structure|walking]] adjoint equivalence" 2-category is equivalent to the [[point]].  Thus, it can be used as an [[interval object]] in $2Cat$, and in fact it is one of the generating cofibrations for the [[canonical model structure|canonical (Lack) model structure]] on $2Cat$.  This is not true of the "walking non-adjoint equivalence."
+
+### Defining tricategories
+
+The original definition of [[tricategory]] by Gordon-Power-Street involved coherence 2-morphisms with the property of being equivalences in the relevant hom-bicategories.  This is fine for most purposes, but for others it is insufficient, such as the following.
+
+* Since "being an equivalence" is not algebraic structure, the GPS definition of tricategory, taken literally, is not an algebraic structure.  In particular, it is not [[monadic functor|monadic]] over 3-[[globular sets]], nor is it the algebras for a [[globular operad]].  Such monadicity is important if one wants to state [[coherence theorems]] as properties of [[free object|free]] structures.
+
+* The definition of 3-functors and higher [[transfors]] between tricategories include data and axioms that involve composites incorporating not just the coherence equivalences, but their pseudo-inverses.  Therefore, strictly speaking these definitions are not well-defined unless the definition of tricategory comes with chosen pseudo-inverses for these coherence equivalences---in which case one should certainly also choose full adjoint equivalence data in order that the space of choices be contractible.
+
+These problems are, of course, easy to remedy by simply requiring adjoint equivalence data rather than merely single equivalence morphisms.  This change was first written down by Gurski.
 
 ### Cartesian closed 2-categories
 
