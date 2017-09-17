@@ -30,7 +30,7 @@ Given sets $S$ and $V$, suppose that there is a [[surjection]] from $S$ to the [
 
 Let $f: S \to (S \to V)$ be any function, and consider the function $g: S \to V$ given by
 $$ g(a) = n(f(a)(a)) .$$
-That is, if one uses [[internal hom|currying]] to interpret $f$ as a function from $S \times S$ to $V$, then $g$ is defined using the diagonal map $\Delta_S$ as
+That is, if one uses [[currying]] to interpret $f$ as a function from $S \times S$ to $V$, then $g$ is defined using the diagonal map $\Delta_S$ as
 $$ S \stackrel{\Delta_S}\to S \times S \stackrel{f}\to V \stackrel{n}\to V .$$
 
 Now suppose that $f$ is surjective.  Then there must be some element $a: S$ such that $f(a) = g$.  But then
