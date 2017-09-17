@@ -141,4 +141,8 @@ A very neat Tannaka theorem for stacks is proved in
 
 * [[Jacob Lurie]], _Tannaka duality for geometric stacks_, [math.AG/0412266](http://arxiv.org/abs/math/0412266)
 
+See also talk 
+
+* B. Toen, [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (video)
+
 [[!redirects Tannaka reconstruction]]
