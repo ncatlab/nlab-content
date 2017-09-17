@@ -352,7 +352,7 @@ $$[X, Y ]_n =asS(X; Dec^{n+1}Y )\,,$$
 where $Dec$ is the [[decalage]] functor.
 
 **Definition**
-For $S$ a simplicial set, let $\hat S$ denote the augmented simplicial set which equals $S$ in all degrees except in degree -1, where it is the point, $({\hat S})_{-1} = pt$. This is the **tivial augmentation** of $S$.
+For $S$ a simplicial set, let $\hat S$ denote the augmented simplicial set which equals $S$ in all degrees except in degree -1, where it is the point, $({\hat S})_{-1} = pt$. This is the **trivial augmentation** of $S$.
 
 **Definition**
 The **join** of two ordinary [[simplicial set]]s $S_1$ and $S_2$ is the join of their _trivial augmentation_ :
