@@ -126,6 +126,14 @@ By the discussion at [[n-vector space]] this allows to identify Hopf algebras wi
 
 (For instance ([FHLT, p. 27](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups))).
 
+More general 3-vector spaces are given by _[[hopfish algebras]]_.
+
+## Related concepts
+
+* [[quasi-Hopf algebra]]
+
+* [[hopfish algebra]]
+
 ## References
 
 For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
@@ -148,7 +156,7 @@ For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http:
 
 * M. Sweedler, _Hopf algebras_, Benjamin 1969.
 
-* William C. Waterhouse, _Introduction to affine group schemes_, Graduate Texts in Mathematics __66_, Springer 1979. xi+164 pp.
+* William C. Waterhouse, _Introduction to affine group schemes_, Graduate Texts in Mathematics __66__, Springer 1979. xi+164 pp.
 
 
 [[!redirects antipode]]
