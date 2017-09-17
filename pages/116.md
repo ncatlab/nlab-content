@@ -208,7 +208,6 @@ For more see [[counterexamples in algebra]].
 
 ## Related concepts
 
-
 * [[2-group]]
 
 * [[n-group]]
@@ -224,6 +223,8 @@ For more see [[counterexamples in algebra]].
   * [[topological group]], [[Lie group]], [[loop group]], 
 
   * [[group commutator]], [[commutator subgroup]]
+
+  * [[group character]]
 
 * [[ring]], [[ring object]]
 
