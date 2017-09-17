@@ -123,6 +123,9 @@ Of course, the categorical notion of terminal object matches the *negative* defi
 * [[empty type]]
 * [[contractible type]]
 
+[[!include homotopy n-types - table]]
+
+
 
 [[!redirects unit type]]
 [[!redirects unit types]]
