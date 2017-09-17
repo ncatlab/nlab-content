@@ -572,6 +572,14 @@ Every finitely-generated free $k$-module is a [[free module]], hence everey fini
 
 =--
 
++-- {: .num_example #RestrictionAndExtensionOfScalars}
+###### Example
+
+For $f : S \to R$ a [[homomorphism]] of [[rings]],
+[[restriction of scalars]] produces $R$-modules $f_* N$ from $S$-modules $N$ and [[extension of scalars]] produces $S$-modules $f_! N$ from $R$-modules $N$.
+
+=--
+
 +-- {: .num_example #SubmodulesInExamples}
 ###### Example
 
