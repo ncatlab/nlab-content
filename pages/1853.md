@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -65,6 +65,7 @@ That this is indeed the case is the main statement in
 * [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0109158v2))
 
 ### In singular cohomology ###
+ {#InSingularCohomology}
 
 A special case of the cup product on Moore complexes is the complex of [[singular cohomology]], which is the Moore complex of the cosimplicial algebra of functions on the singular simplicial set of a topological space.
 
@@ -91,6 +92,8 @@ $$
   a \smile b = (d_L^* a) \cdot (d_R^* b)
   \,.
 $$
+
+> There is some glue missing here to connect this back to the above general definition, something involving the [[Eilenberg-Zilber map]].
 
 This means that $(a \smile b)_{i_0, \cdots, i_{p+q}} = a_{i_0, \cdots, i_p} \cdot b_{i_p, \cdots, i_{p+q}}$.
 
