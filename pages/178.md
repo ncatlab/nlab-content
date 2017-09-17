@@ -1204,6 +1204,10 @@ $$
 
 We have seen [above](#UniversalLieGroupPrincipalBundle) that the universal $G$-principal bundle $\mathbf{E}G$ is itself naturally modeled as a Lie [[2-group]] $INN(G)$. In the next section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we discuss Lie 2-groups and the canonical differential forms with values in a [[Lie 2-algebra]] on these. We shall now discuss how, in a sense, for the Lie 2-group $\mathbf{E}G = INN(G)$ this universal form is the _universal [[Ehresmann connection]]_ on the universal $G$-principal bundle. The reader not familiar with the section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) should skip this section here to come back later. This section here is a corollary or special case of example application of that section.
 
+
+###### The universal pseudo-connection
+
+
 The Lie 2-group $INN(G)$ is the one coming from the [[crossed module]] $(G \stackrel{Id}{\to} G)$. Its [[Lie 2-algebra]] is accordingly that given by the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$. In section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we find a replacement for $\mathbf{\flat}\mathbf{B} INN(G)$ and $\mathbf{\flat}_{dR} \mathbf{B}INN(G)$ that induces a realization of the Maurer-Cartan form on the Lie 2-group $\mathbf{E}G$ in terms of a span
 
 $$
@@ -1225,7 +1229,6 @@ $$
   U 
   \mapsto
   \left\{
-     \left.
     \array{
         && (0,0)
        \\
@@ -1237,7 +1240,7 @@ $$
       &&\stackrel{(e,\lambda)}{\to}&&
       (A_2 = g_2^{-1} d g_2 + a_2, F_{A_2})
     }
-    right|
+     \;\;\; | \;\;\;
      \begin{array}
        A_i \in \Omega^1(U,\mathfrak{g})  
        \\
@@ -1246,6 +1249,7 @@ $$
        f \in C^\infty(U,G)
      \end{array}
   \right\}
+  \,,
 $$
 
 where the cone on the right is a 2-cell in the model for $\mathbf{\flat}_{dR}\mathbf{B}INN(G)$ and constitutes a morphism from the object 
@@ -1254,7 +1258,7 @@ $$
   \array{
     0
     \\
-    \doownarrow^{\mathrlap{(g_1,a_1)}}
+    \downarrow^{\mathrlap{(g_1,a_1)}}
     \\
     (A_1 = g_1^{-1} d g_1 + a_1, F_{A_1})
   }
@@ -1266,7 +1270,7 @@ $$
   \array{
     0
     \\
-    \doownarrow^{\mathrlap{(g_2,a_2)}}
+    \downarrow^{\mathrlap{(g_2,a_2)}}
     \\
     (A_2 = g_2^{-1} d g_2 + a_2, F_{A_2})
   }
@@ -1311,9 +1315,8 @@ $$
   U 
   \mapsto
   \left\{
-     \left.
         (a_1) \stackrel{(f,\lambda)}{\to} A_2 = g^{-1}(A_1 + d)g + \lambda
-    right|
+    \;\;\; | \;\;\;
      \begin{array}
        a_i, \lambda \in \Omega^1(U,\mathfrak{g})  
        \\
@@ -1323,7 +1326,7 @@ $$
   \,.
 $$
 
-The evident forgetful functor $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \mathbf{B}_{diff} G$ is, similar to the previous argument, a weak equivalence.
+The evident forgetful functor $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \mathbf{B}_{diff} G$ is, similarly to the previous argument, a weak equivalence.
 
 Therefore the morphism of Lie groupoids
 
@@ -1331,7 +1334,7 @@ $$
   \mathbf{E}_{diff}G \to \mathbf{B}_{diff}G
 $$
 
-that we have obtained is indeed another model for the universal $G$-principal bundle. For $\{U_i \to X\}$ a [[good open cover]] of a smooth manifold $X$ and $C(\{U_i\})$ the [[Cech nerve|Cech groupoid]] we have that a morphism
+that we have obtained is indeed another model for the universal $G$-principal bundle, somewhat bigger than the canonical one. For $\{U_i \to X\}$ a [[good open cover]] of a smooth manifold $X$ and $C(\{U_i\})$ the [[Cech nerve|Cech groupoid]] we have that a morphism
 
 $$
   X \stackrel{\simeq}{\leftarrow}
@@ -1340,10 +1343,76 @@ $$
   \mathbf{B}_{diff}G
 $$
 
-of groupoid-valued presheaves is a $G$-[[Cech cohomology|Cech cocycle]] on $X$ _together with_ on each patch $U_i$ a choise of [[Lie-algebra valued 1-form]] $A_i \in \Omega^1(U_i, \mathfrak{g})$. These 1-forms do _not_ need to satisfy any condition on double overlaps (yet): by the above characterization the failur of the $(A_i)$ to satisfy the usual Cech-de Rham cocycle condition for a conneciton on a bundle is measure on double overlaps by the forms $\lambda_{i j}$. This is sometimes called a _pseudo-connection_ . 
+of groupoid-valued presheaves is a $G$-[[Cech cohomology|Cech cocycle]] on $X$ _together with_ on each patch $U_i$ a choice of a [[Lie-algebra valued 1-form]] $A_i \in \Omega^1(U_i, \mathfrak{g})$. These 1-forms do _not_ need to satisfy any condition on double overlaps (yet): by the above characterization the failure of the $(A_i)$ to satisfy the usual Cech-de Rham cocycle condition for a connection on a bundle is measure on double overlaps by the forms 
+
+$$
+  \lambda_{i j}
+  =
+  A_j - g_{ij}^{-1}(A_i + d)g_{ij}
+  \,.
+$$ 
+
+Such dataa is sometimes called a _pseudo-connection_ . 
 
 
+###### The universal curvature characteristic forms
 
+In order to obtain the universal [[curvature characteristic form]]s of the universal pseudo-connection we need to find the universal coefficient object in the bottom right of
+
+$$
+  \array{
+     G &\stackrel{\theta_G}{\to}& \mathbf{\flat}_{dR} \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{E}_{diff}G &\stackrel{\theta_{\mathbf{E}G}}{\to}&
+    \mathbf{\flat}_{dR}\mathbf{B} INN(G)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}_{diff} G &\to& Q
+  }
+  \,.
+$$
+
+We obtain such from those combinations of the universal [[curvature]] form in $\theta_{\mathbf{E}G}$ that are invariant under the $G$-action which defines the quotient $\mathbf{E}_{diff}G \to \mathbf{B}_{diff}G = (\mathbf{E}_{diff}G)/G$. These are [[invariant polynomial]]s evaluated on the [[curvature form]]s. 
+
+Indeed the [[Chevalley-Eilenberg algebra]] the Lie algebra coefficient $\mathfrak{g}$ in $\mathbf{\flat}_{dR} \mathbf{B}G$ is the of the Lie algebra itself, while that of $\mathbf{\flat}_{dR} \mathbf{B} INN(G)$ is that of the [[Lie 2-algebra]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$ which is the [[Weil algebra]] of $\mathfrak{g}$, and the algebra of invariant polynomials inside the Weil algebra $inv(\mathfrak{g}) \hookrightarrow W(\mathfrak{g})$ is precisely characterized as being the universal object that is invariant under $G$-actions on $W(\mathfrak{g})$ in the strong sense that we have a commuting diagram
+
+$$
+  \array{
+     CE(\mathfrak{g}) &{\swarrow \nwarrow^0} \atop {\nwarrow \searrow}& CE(\mathfrak{g})
+     \\
+     \uparrow && \uparrow
+    \\
+     W(\mathfrak{g}) &{\swarrow \nwarrow^0} \atop {\nwarrow \searrow}& W(\mathfrak{g})
+     \\
+     \uparrow && \uparrow
+    \\
+    inv(\mathfrak{g}) &\stackrel{0}{\leftarrow& inv(\mathfrak{g})
+  }
+  \,,
+$$
+
+of inner derivations. 
+
+So define $\mathbf{\flat}_{dR}\tilde \mathbf{B}^n \mathbb{R}$ to be the Lie groupoid whose
+
+* $U$-parameterized families of objects are closed $n$-forms $\omega \in \Omega^n_{closed}(U)$;
+
+* $U$-parameterized families of morphisms are $(n-1)$-forms modulo $d$ : $\\kappa \in \Omega^{n-1}(U)/{in d}$.
+
+Then evaluation of curvature in invariant polynomials yields a morphism
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}  INN(G)
+  \to
+  \prod_i \mathbf{\flat}_{dR}\tilde \mathbf{B}^{n_i} \mathbb{R}
+$$
+
+that fits into  the above diagram.
+
+###### The universal connection
 
 In total we find a model for the universal (pseudo-)[[Ehresmann connection]] on the universal $G$-principal bundle
 
@@ -1457,7 +1526,7 @@ The Lie [[2-groupoid]] $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} G_1
     B' = \alpha_{g^{-1}}(
       B + d a + [a \wedge a] + \alpha_*(A \wedge a)
     )
-    \.
+    \,.
   $$
 
   The composite of two 1-morphisms
@@ -1503,7 +1572,7 @@ This is the [[2-groupoid of Lie 2-algebra-valued forms]] as described in [defini
 +-- {: .un_cor }
 ###### Corollary
 
-The 2-groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is as the one above, discarding the piece $C^\infty(-,G_1)$ in the 1-morphisms and the piece $C^\infty(-,G_2)$ in the 2-morphismms.
+The 2-groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is as the one above, discarding the piece $C^\infty(-,G_1)$ in the 1-morphisms and the piece f$C^\infty(-,G_2)$ in the 2-morphismms.
 
 =--
 
