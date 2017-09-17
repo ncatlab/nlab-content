@@ -1,3 +1,8 @@
+
+# Walking structures
+* tables of contents
+{: toc}
+
 ## Definition
 
 If X is a type of structure that can be defined in a [[category]], [[higher category]], or category with some sort of [[stuff, structure, property|structure]], then the **walking X** is an informal term for the *free category (resp. higher category, category with suitable structure) containing an X*.
@@ -6,6 +11,9 @@ More precisely, if $StructCat$ denotes some (higher) category of categories with
 $$ StructCat([X],C) \simeq \{Xs \; in \; C\}$$
 between the hom-set/category/space from $[X]$ to $C$, for any $C\in StructCat$, and the set/category/space of all Xs in $C$.
 
+Pronunciation is as in 'John is a walking almanac.'.
+
+
 ## Examples
 
 * The [[interval category]] is the *walking arrow*.
@@ -13,6 +21,7 @@ between the hom-set/category/space from $[X]$ to $C$, for any $C\in StructCat$, 
 * The augmented/algebraist's [[simplex category]] is the *walking [[monoid]]* (in a [[monoidal category]]).
 
 * The [[syntactic category]] of a [[theory]] $T$ in some [[doctrine]] $D$ is the "walking $T$-model" (in a $D$-category).  In particular, the [[classifying topos]] of a [[geometric theory]] $T$ is the "walking $T$-model" *qua* [[Grothendieck topos]] (where the morphisms are the left-adjoint parts of [[geometric morphisms]]).
+
 
 ## References
 
