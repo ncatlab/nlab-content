@@ -17,7 +17,7 @@ Two divisors are called _linearly equivalent_ if their difference is a principal
 
 ### Relation to line bundles and the Picard group
 
-Under suitable conditions the [[Poincaré duality|Poincaré dual]] of a divisor may hence define the [[first Chern class]] of an [[algebraic line bundle]] and this construction yields group homomorphism from the group of divisors to the [[Picard group]]. After quotienting out linear equivalenceof divisors this yields an inclusion and in complex geometry this inclusion exhibits precisely the subgroup of the [[Picard group]] of [[holomorphic line bundle]] which admit at least one global holomorphic section ([e.g. Huybrechts 04, cor. 2.3.20](#Huybrechts04)).
+Under suitable conditions the [[Poincaré duality|Poincaré dual]] of a divisor may hence define the [[first Chern class]] of an [[algebraic line bundle]] and this construction yields group homomorphism from the group of divisors to the [[Picard group]]. After quotienting out linear equivalence of divisors this yields an inclusion and in complex geometry this inclusion exhibits precisely the subgroup of the [[Picard group]] of [[holomorphic line bundle]] which admit at least one global holomorphic section ([e.g. Huybrechts 04, cor. 2.3.20](#Huybrechts04)).
 
 
 ## Examples
