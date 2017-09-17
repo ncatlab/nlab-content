@@ -1,18 +1,42 @@
+
+> This entry is about the notion in [[algebra]]. For the different concept of the same name in [[differential geometry]] see at _[[vector field]]_ and in [[physics]] see at _[[classical field theory]]_ and _[[quantum field theory]]_.
+
+***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Fields
-* tic
+* table of contents
 {: toc}
 
 
-## Idea
+## Definition
 
-In [[classical mathematics]], a **field** is a [[commutative ring]] in which every nonzero element has a multiplicative inverse and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero). They are studied in *field theory* which is a branch of commutative algebra. If one drops commutativity, then the result is a [[skewfield]], though sometimes said for simplicity just field. For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
+In [[classical mathematics]], a **field** is a [[commutative ring]] in which every nonzero element has a multiplicative [[inverse]] and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero). 
 
-Fields are not as well-behaved categorically as most other common algebraic structures ([[group]]s, [[ring]]s, [[module]]s, etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]]. 
+Fields are studied in *field theory* which is a branch of commutative algebra. 
 
-The words 'field' and 'field theory' are also used in mathematical physics and geometry with a completely different meaning denoting a quantity over some space, thus [[vector field]]s, classical [[scalar field]]s, classical [[tangent vector field]]s, [[quantum field]]s and so on.  Probably these should be summarised at something like [[physical field]].
+Not assuming the commutativity axiom, then the result is a [[skewfield]] (also in some contexts simply called a "field"). 
+
+For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
+
+## Properties
+
+### Category of fields
+
+Fields are not as well-behaved [[category theory|categorically]] as most other common algebraic structures ([[groups]], [[rings]], [[modules]], etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]]. 
 
 
-## Accessibility and sketchability {#AccSketch}
+
+### Accessibility and sketchability {#AccSketch}
 
 The [[category]] of fields and field homomorphisms (a full subcategory of the category of [[rings]]) is not complete or cocomplete.  In particular, it lacks a terminal object and also lacks an initial object (though it has a [[weakly initial set]], namely the set of [[prime field]]s).  In particular, it is therefore not [[algebraic category|algebraic]] or [[locally presentable category|locally presentable]].
 
@@ -27,7 +51,7 @@ where the map labeled "0" picks out the element $0\in F$, then the object $P$ is
 Note that this gives us the notion of *discrete* field (see the next section).
 
 
-## Constructive notions ##
+### Constructive notions 
 
 For the same reason, in [[constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
 
@@ -45,38 +69,19 @@ A residue field is a Heyting field if and only if it is a [[local ring]]. Furthe
 
 Counterexamples were remarked above, but to be explicit: The (Dedekind) real numbers form a Heyting field which need not be discrete. The MacNeille real numbers form a residue field which need not be Heyting; see section D4.7 of _Sketches of an Elephant_.
 
+## Examples
 
-## Discussion ##
+* [[rational numbers]]
 
-This discussion was originally at [[vector space]], but most of it is really about fields.
+* [[real numbers]]
 
-_[[Eric Forgy]] says_: Is there a nice _arrow theoretic_ way to define vector spaces?
+* [[p-adic numbers]]
 
-_[[Urs Schreiber|Urs]] says_: There is comparatively nice abstract nonsense to be said about _rings_. For instance, a [[ring]] is a category with one object [[enriched category|enriched in]] the category of abelian groups. From that starting point the concepts of ring theory develop rather naturally from pure category theoretic reasoning. In particular [[module|modules]] over rings appear naturally.
+## Related concepts
 
-For some reason this is different when rings are refined to _fields_ and modules to vector spaces. The very concept of a _field_ is somehow not as natural from a category theoretic perspective, or at least I don't see how it is. This problem becomes very manifest when one tries to categorify fields and vector spaces: it is very straightforward to categorify rings and their modules, but their refinement to categorified fields  and vector spaces is harder.
+* [[ring]]
 
-_[[Eric Forgy|Eric]] says_: <nowiki>*tongue in cheek*</nowiki> Well, fields are closely tied to the continuum and we know the continuum is not natural :)
-
-_[[Toby Bartels|Toby]] says_: \*tongue where it belongs\* A field may be defined a ring that has been decomposed (as a set) as the sum of a point and a group, with the point being the zero element and the the group being a multiplicative submonoid. However, this definition does not work in constructive analysis; one cannot prove constructively that the ring of real numbers has this property. Instead, one must define a field to be a ring equipped with an [[apartness relation]] satisfying some properties (which I can write down if desired). Classically, an apartness relation is a vacuous structure, but in constructive mathematics its properties have a very topological flavour, even though it\'s much simpler than a topology. All of the deep issues about the continuum are already there in the constructivists\' notion of apartness, which they require to even define what a field is.
-
-_[[John Baez|John]] says_: As Toby notes, fields are a somewhat awkward concept in constructive mathematics.  The basic problem is that their definition involves a clause "if $x \ne 0$, then $x$ has an inverse..."  A clause of the for "if something is not true, then..." is rather annoying in constructive mathematics.  This means fields are not very nice if you're trying to do math in an arbitrary topos.  And since topos theory was invented when Grothendieck was working on algebraic geometry, this should mean that fields are not very nice when you're trying to do algebraic geometry!   
-
-Of course this is a bit shocking, since the first thing an elementary text on algebraic geometry does is say "Let $k$ be a field."  But Grothendieck's revolutionary approach to algebraic geometry also downplays the importance of fields, so presumably it all hangs together once you understand it.
-
-I wish I understood this better.  There's a nice exposition of <i>a little bit</i> of these ideas in Mac Lane and Moerdijk's <i>Sheaves in Geometry and Logic: A First Introduction to Topos Theory</i>.  Look up 'local ring' in their index: you'll see that unlike the notion of field, the notion of [local ring](http://en.wikipedia.org/wiki/Local_ring) can be defined using 'geometric logic', which is (very roughly) the kind of logic that works well in topoi.
-
-_[[Eric Forgy|Eric]] says_: The wikipedia article on [Category of fields](http://en.wikipedia.org/wiki/Category_of_fields) has some interesting things to say about the difficulties with fields in category theory.
-
-If fields are less than perfectly natural, then vector spaces are somewhat troublesome too. But what about the [tangent bundle of a category](http://golem.ph.utexas.edu/category/2007/07/tangent_categories.html)? That idea is very pretty. In what way does it fail to converge to the usual concept of a tangent space, which should contain vector spaces (obviously)? <nowiki>[Edit: Sorry. The answer was in the very link I provided, but any further light on the subject would be appreciated.]</nowiki>
-
-_[[Toby Bartels|Toby]] says_: Rather than think about the category of fields, shouldn\'t we think of fields as [[dichotomy between nice objects and nice categories|nice objects in the nice category]] of rings? Modules, after all, behave beautifully.
-
-_[[John Baez|John]] says_: Unlike the category of fields, the category of vector spaces is not troublesome at all!  But there's no contradiction here.  When Eric wrote "fields are less than perfectly natural", he was being a bit vague.  Fields are wonderfully well-behaved rings, and rings form a wonderfully well-behaved category.  But the category of fields is not so nice.  As Toby notes, this is [[dichotomy between nice objects and nice categories|completely typical]].  So, if we fix a field and take the category of vector spaces over it, that category is wonderfully nice.
-
-I have a question.  This article says the category of fields is 'accessible', and it says that an accessible category is the category of models of a [[sketch]].  What sort of sketch does the job for fields.  They're not models of a finite limits theory, so I assume we also need some colimits in our sketch.  How does this work?   Which  constructive definition(s) of field do we use?
-
-_[[Gonçalo Marques]]_:  The [[sketch]] for fields is described on page 248 of "Category theory for computing science" by Michael Barr and Charles Wells (3rd edition). They use what they call "finite discrete sketches". It does involve a cocone. 
+* [[field with one element]]
 
 
 [[!redirects field]]
