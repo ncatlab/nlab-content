@@ -301,7 +301,7 @@ The modern reformulation of their notion of hypercover in terms of simplicial pr
 
 A disucssion of hypercovers of topological spaces is in 
 
-* [[Dan Dugger]], _Hypercovers in topology_ ([pdf](http://www.math.uiuc.edu/K-theory/0528/hypercover.pdf))
+* [[Dan Dugger]] and [[Daniel Isaksen]], _Hypercovers in topology_ ([pdf](http://www.math.uiuc.edu/K-theory/0528/hypercover.pdf))
 
 A discussion in a topos with enough points in in 
 
