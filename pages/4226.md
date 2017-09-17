@@ -25,6 +25,10 @@ Motivic integration has been introduced in the talk of [[Maxim Kontsevich]] at O
 
 Later, more general framework of motivic integration in model theory has been put forward by Denef and Loeser, partly based on Denef's work on $p$-adic integration. More recent work using model theoretical approach is by Hrushovski and Kazhdan. 
 
+## Related concepts
+
+* [[p-adic integration]]
+
 ## References
 
 * Jan Denef, [[François  Loeser]], _Definable sets, motives and $p$-adic integrals_,  J. Amer. Math. Soc. __14__ (2001),  no. 2, 429--469, [doi](http://dx.doi.org/10.1090/S0894-0347-00-00360-X)
