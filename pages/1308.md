@@ -38,8 +38,10 @@ Let $C$ be a [[2-category]] and $x \in C$ an [[object]]. Write $Id_x$ for the [[
 
 =--
 
++-- {: .proof}
+###### Proof
 
-## Proof
+The [[pasting diagram]]-proof is depicted for instance <a href="http://cheng.staff.shef.ac.uk/degeneracy/eggclock.pdf">here</a>.
 
 The basic equation that we have (that one operation $*$ is a homomorphism with respect to another operation $\circ$) is
 $$ (a \circ b) * (c \circ d) = (a * c) \circ (b * d) .$$
@@ -71,6 +73,7 @@ Note that if you start with the slick monoid-in-$Mon$ approach, then only (4&5) 
 $$ a * b = (a \circ 1) * (1 \circ b) = (a * 1) \circ (1 * b) = a \circ b = (1 * a) \circ (b * 1) = (1 * b) \circ (a * 1) = b * a ,$$
 where the desired results involve the first, middle, and last expressions.
 
+=--
 
 ## Corollaries
 
@@ -81,15 +84,23 @@ A $2$-tuply monoidal $1$-[[1-category|category]], if defined as a pointed simply
 Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
 
 
+
 ## References
 
-The argument is really much more interesting if proved (and applied) geometrically, as in these VIDEO lectures from the Catsters:
-*  [Eckmann-Hilton 1](http://www.youtube.com/watch?v=Rjdo-RWQVIY);
-*  [Eckmann-Hilton 2](http://www.youtube.com/watch?v=wnRqo7UHa-k).
+
+* [[The Catsters]]
+
+  _Eckmann-Hilton 1_ ([video](http://www.youtube.com/watch?v=Rjdo-RWQVIY))
+  
+  _Eckmann-Hilton 2_ ([video](http://www.youtube.com/watch?v=wnRqo7UHa-k))
 
 For higher analogues see 
-*  (within the discussion of commutative algebraic monads) [[Nikolai Durov]], New approach to Arakelov geometry, [arXiv:0704.2030](http://arxiv.org/abs/0704.2030)
-*  M. A. Batanin, The Eckmann-Hilton argument and higher operads,  Adv. Math.  217  (2008),  no. 1, 334--385; [arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281)
+
+within the discussion of commutative algebraic monads
+
+* [[Nikolai Durov]], _New approach to Arakelov geometry_ , ([arXiv:0704.2030](http://arxiv.org/abs/0704.2030))
+
+*  [[Michael Batanin]], _The Eckmann-Hilton argument and higher operads_ ,  Adv. Math.  217  (2008),  no. 1, 334--385; ([arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281))
 
 
 [[!redirects Eckmann-Hilton argument]]
