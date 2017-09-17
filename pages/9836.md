@@ -1,8 +1,15 @@
 
+Bruce Even Blackadar
+
 * [webpage](http://wolfweb.unr.edu/homepage/bruceb/)
+
+* [Wikipedia page](http://de.wikipedia.org/wiki/Bruce_Blackadar) (German)
 
 ## Related entries
 
 * _[[K-Theory for Operator Algebras]]_
 
 category: people
+
+[[!redirects Bruce Even Blackadar]]
+
