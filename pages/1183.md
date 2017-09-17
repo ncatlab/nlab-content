@@ -283,7 +283,60 @@ It acts
 ### Classical $\sigma$-models
  {#ExpositionClassicalSigmaModels}
 
-(...)
+
+A _classical $\sigma$-model_ is a [classical field theory](#ExpositionClassicalFieldTheory) such that
+
+* the [[configuration space]]s $Conf_{\Sigma}$ are [[mapping spaces]] $\mathbf{H}(\Sigma,X)$ in some suitable category -- some [[cohesive (infinity,1)-topos|higher topos]] in fact -- , for $X$ some fixed [[object]] of that category called _[[target space]]_ ;
+ 
+* the bundles $V_{\Sigma} : Conf_{\Sigma} \to \mathcal{C}$ "of internal states" over these mapping spaces are 
+
+  * the [[transgression]] to these [[mapping space]]s...
+
+  * ...of an [[associated infinity-bundle|associated higher bundle]]... 
+
+  * ...asscociated to a [[circle n-bundle with connection]] on [[target space]]...
+
+  * ...encoded by a classifying morphism
+
+    $$
+      \alpha : X \to \mathbf{B}^{n} U(1)
+    $$
+
+    into the [[circle n-group]] in $\mathbf{H}$; equipped with an [[connection on an infinity-bundle|n-connection]] $\nabla$...
+
+  * ...where the [[associated bundle|association]] is via a [[representation]]
+
+    $$
+      \rho : \mathbf{B}^{n+1} U(1) \to (n+1) Vect
+    $$
+
+    on [[n-vector spaces]], which is usually taken to be the canonical 1-dimensional one.
+
+  One calls $(\alpha,\nabla)$ the [[background gauge field]] of the $\sigma$-model.
+
+* The [[action functional]]s $\exp(i S(-))_{\hat \Sigma}$ are given by the [[higher parallel transport]] of $\nabla$ over $\hat \Sigma$.
+
+So an $n$-dimensional $\sigma$-model is a classical field theory that is [[representable functor|represented]], in a sense, by a [[circle n-bundle with connection]] on some [[target space]].
+
+More specifically and more simply, in cases where $X$ is just a [[discrete ∞-groupoid]]  -- the case of  <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons%20theory#DiscreteTargets">sigma-models of Dijkgraaf-Witten type</a>, every [[principal ∞-bundle]] on $X$ is necessarily <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos%20--%20structures#FlatDifferentialCohomology">flat</a>, hence the [[background gauge field]] is given just by the morphism
+
+$$
+  \alpha : X \to \mathbf{B}^{n} U(1)
+  \,.
+$$
+
+Then for $\hat \Sigma$ a closed $n$-dimensional manifold, the [[action functional]] of the sigma-model on $\Sigma$ on a field configuration $\gamma : \hat \Sigma \to X$ has the value
+
+$$
+  \exp(i S(\gamma))_{\hat \Sigma}
+  = 
+  \int_{\hat \Sigma} [\alpha]
+$$
+
+being the evaluation of $[\alpha]$ regarded as a class in [[ordinary cohomology]] $H^n(\hat \Sigma, U(1))$ evaluated on the [[fundamental class]] of $X$. 
+
+One says that $[\alpha]$ is the [[Lagrangian]] of the theory.
+
 
 ### Quantum $\sigma$-models
  {#ExpositionQuantumSigmaModels} 
@@ -341,7 +394,7 @@ A grand picture developing this approach further is sketched in
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_  ([arXiv](http://arxiv.org/abs/0905.0731))
  {#FHLT}
 
-A discussion of 2 or 2+1-dimensional $\Sigma$-models whose target is an [[derived stack]]/[[infinity-stack]] is in
+A discussion of 2- or (2+1)-dimensional $\Sigma$-models whose target is an [[derived stack]]/[[infinity-stack]] is in
 
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld centers in derived geometry_ ([arXiv](http://arxiv.org/abs/0805.0157)) .
 
