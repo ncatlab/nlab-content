@@ -13,10 +13,6 @@
 =--
 =--
 
-* **crossed complex** $\Leftarrow$ [[crossed module]] $\Rightarrow$ [[2-crossed module]]
-
-* [[dg-Lie algebra]] $\Leftarrow$ [[differential crossed module]] $\Rightarrow$ [[differential 2-crossed module]]
-
 
 #Contents#
 * automatic table of contents goes here
@@ -33,11 +29,6 @@ See also [[homotopy n-type]].
 
 One way to think of a crossed complex is as a chain complex in which the bottom part is a crossed module and the rest is a chain complex of modules over the fundamental group of the crossed complex (that is its cokernel).  This is easy to think of in the case where there is a single object (*crossed complex of groups*), and it is a simple step to extend to the many object case.
 
-
-
-## History
-
-Crossed complexes were defined by Blakers in 1948 (following a suggestion of [[Samuel Eilenberg]]) and developed by Whitehead in 1949 and 1950 (but these authors used different terminology). They were applied by [[Johannes Huebschmann]] to [[group cohomology]] in 1980. They were further developed in  series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]], and partly because they were found equivalent to form of (strict) cubical $\omega$-groupoid with _connections_. This equivalence enabled a number of new results, including van Kampen type theorems and monoidal closed structures for crossed complexes. 
 
 ## Definition
 
@@ -512,7 +503,23 @@ with $\partial$ induced from the boundary in the Moore complex.
 The category of [[crossed complexes]] form a variety in the category of all [[hypercrossed complexes]]. Alternatively, groupoid T-complexes (the groupoid version of [[group T-complex]]) form
 a variety in the category of all simplicial groups.
 
+
+## Related concpepts
+
+* [[crossed module]], [[differential crossed module]]
+
+* [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
+
+* **crossed complex**
+
+* [[hypercrossed complex]]
+
+
+
 ## References
+
+Crossed complexes were defined by Blakers in 1948 (following a suggestion of [[Samuel Eilenberg]]) and developed by Whitehead in 1949 and 1950 (but these authors used different terminology). They were applied by [[Johannes Huebschmann]] to [[group cohomology]] in 1980. They were further developed in  series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]], and partly because they were found equivalent to form of (strict) cubical $\omega$-groupoid with _connections_. This equivalence enabled a number of new results, including van Kampen type theorems and monoidal closed structures for crossed complexes. 
+
 
 Textbook treatment is in 
 
