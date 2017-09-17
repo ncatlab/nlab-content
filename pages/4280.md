@@ -6,15 +6,15 @@
 
 ## Idea
 
-This page will collect a few notions and facts about [[representations]] of [[C-star algebras]] that are of importance to [[AQFT]]. Maybe some of those will be moved to their own page in the future...
+This page will collect a few notions and facts about [[representations]] of [[C-star-algebras]] that are of importance to [[AQFT]]. Maybe some of those will be moved to their own page in the future...
 
-In [[AQFT]] the observables are given by a [[causal net of algebras]], usually $C^*-$algebras. A concrete physical system corresponds to a [[state]] of the algebra of all observables, which leads, via the [[GNS-construction]], to a representation of this algebra on a concrete Hilbert-space. In this way the familiar picture of [[quantum mechanics]] reappears. The interpretation of states and their representation as modelling concrete physical systems means that a systematic study of all representation of a given algebra of observables is central to [[AQFT]].
+In [[AQFT]] the observables are given by a [[causal net of algebras]], usually $C^*$-algebras. A concrete physical system corresponds to a [[state]] of the algebra of all observables, which leads, via the [[GNS construction]], to a representation of this algebra on a concrete Hilbert space. In this way the familiar picture of [[quantum mechanics]] reappears. The interpretation of states and their representation as modelling concrete physical systems means that a systematic study of all representation of a given algebra of observables is central to [[AQFT]].
 
 ## Definition
 
 +-- {: .un_def}
 ###### Definition
-A **representation** $\pi$ of a $C^*-algebra$ $A$ on a [[Hilbert space]] $H$ is a $*$-homomorphism from $A$ to the algebra of [[bounded operators]] on $H$.
+A **representation** $\pi$ of a $C^*$-algebra $A$ on a [[Hilbert space]] $H$ is a $*$-homomorphism from $A$ to the algebra of [[bounded operators]] on $H$.
 =--
 
 Note that the _continuity_ is not an axiom, but a theorem, it follows from the algebraic properties.
