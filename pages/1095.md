@@ -376,7 +376,7 @@ For $X,Y$ two $(\infty,1)$-toposes, write $Geom(X,Y) \subset Func(X,Y)$ for the 
 +-- {: .num_lemma}
 ###### Lemma
 
-For $C$ an [[essentially small (∞,1)-category|small]] [[(n,1)-category]] equipped with the structure of an [[(∞,1)-site]] and for $Y$ an [[(∞,1)-topos]], the [[truncated|truncation functor]]
+For $C$ an [[essentially small (∞,1)-category|small]] [[(n,1)-category]] with [[finite (∞,1)-limits]] and equipped with the structure of an [[(∞,1)-site]] and for $Y$ an [[(∞,1)-topos]], the [[truncated|truncation functor]]
 
 $$
   \tau_{\leq n-1} : 
@@ -529,4 +529,3 @@ The full picture in terms of Grothendieck-[[(∞,1)-topos]]es of [[(∞,1)-sheav
 [[!redirects (∞,1)-toposes of (∞,1)-sheaves]]
 [[!redirects (infinity,1)-topos of (infinity,1)-sheaves]]
 [[!redirects (infinity,1)-toposes of (infinity,1)-sheaves]]
-
