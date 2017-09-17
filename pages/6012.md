@@ -50,7 +50,7 @@ Historically the notion is introduced in
 
 For a unified treatment in Abelian and [[triangulated categories]] see
 
-* Apostolos Beligiannis, Idun Reiten, _Homological and homotopical aspects of torsion theories_, [pdf](http://www.math.uoi.gr/~abeligia/torsion.pdf)
+* Apostolos Beligiannis, Idun Reiten, _Homological and homotopical aspects of torsion theories_,  Mem. Amer. Math. Soc. 188 (2007), no. 883, viii+207 pp. [pdf](http://www.math.uoi.gr/~abeligia/torsion.pdf)
 
 As explained there, in triangulated context, torsion pairs are in 1-1 correspondence with [[t-structure]]s. One could
 also study a relation between torsion theories on an abelian
