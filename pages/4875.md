@@ -69,6 +69,8 @@ The [[site]] of definition for the [[Cahiers topos]] is the category of spaces t
 
 * [[superpoint]]
 
+* [[infinitesimal extension]]
+
 [[!include cohesion - table]]
 
 [[!redirects infinitesimally thickened points]]
