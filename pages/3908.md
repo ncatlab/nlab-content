@@ -1,4 +1,4 @@
-__Pavel Etingof__ is a mathematician at MIT ([web](http://www-math.mit.edu/~etingof/))
+__Pavel Etingof__ is a mathematician at MIT ([web](http://www-math.mit.edu/~etingof/)). He has been one of the main developers of the theory of [[fusion categories]].
 
 category: people
 
