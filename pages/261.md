@@ -187,7 +187,7 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 * [[simplicial homotopy theory]]
 
-* [[simplicial group]]
+* [[simplicial group]], [[reduced simplicial set]]
 
 * [[bisimplicial set]]
 
