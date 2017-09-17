@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[continuous function]] between two [[topological spaces]] that are each [[weak homotopy equivalence|weakly homotopy equivalent]] to the [[circle]] is up to homotopy defined by how much it "winds" one circle around the other. This is it' _winding number_, an [[integer]]. Equivalently this is the element in the [[fundamental group]] of the codomain which is represented by the map.
+
+A special case of the _[[degree of a continuous function]]_.
+
+
+## Related construction
+
+* [[clutching construction]]
+
+[[!redirects winding numbers]]
