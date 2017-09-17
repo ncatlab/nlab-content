@@ -1,7 +1,14 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
+
 
 
 The intention of this page is to list a wide choice of main books and comprehensive reviews in [[mathematical physics]]. The irrelevant repetitions and minor, too specialized and too obsolete books for any major purpose should be avoided. We avoid references for quantum groups as they are many and the main ones can be found at the [[quantum group]] entry; similarly we avoided the relevant books on Kac-Moody algebras and groups but included the books on related VOAs and the Pressley-Segal book. 
@@ -175,7 +182,9 @@ The related subject of positive energy representations for loop groups is repres
 * geometrical background for [[Anton Kapustin]]'s course at Caltech: [list](http://theory.caltech.edu/~kapustin/Ph229/recbooks.html)
 
 * John Baez: _How to Learn Math and Physics_  ([here] (http://math.ucr.edu/home/baez/books.html))
-* Frederic Paugam, _Towards the mathematics of QFT_, [pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf), unfinished notes, 370 pp.
+
+* [[Frédéric Paugam]], _[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf)_ unfinished notes, 370 pp.
+
 * [[books about string theory]]
 * various lectures notes in mathematical physics, Ulrich Theis' list at [Jena](http://www.personal.uni-jena.de/~p5thul2/notes/math.html)
 
