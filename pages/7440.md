@@ -442,6 +442,48 @@ $$
 
 The corresponding model category presentation is that of _[[n-fold complete Segal spaces]]_.
 
+### The internal self-reflection / internal base $(\infty,1)$-topos
+ {#InternalBaseTopos}
+
+For $\mathbf{H}$ an [[(∞,1)-topos]] it should come canonically
+equipped (for each choice of [[regular cardinal]] $\kappa$)
+with an internal category object $\mathcal{Type} \in Cat(\mathbf{H})$,
+which is the canonical internal [[base (∞,1)-topos]], classifying the
+(relatively $\kappa$-compact part of) the 
+[[codomain fibration]]-[[(∞,2)-sheaf]] on $\mathbf{H}$.
+
+In the [[syntax]] of [[homotopy type theory]] the corresponding
+simplicial object should be
+
+$$
+  \array{
+    \vdots &&  \vdots & \vdots
+    \\
+    \downarrow \downarrow \downarrow \downarrow
+    \\
+    \mathcal{Type}_2 & \coloneqq & [ (f,g,h) : \sum_{(A,B,C) : Type_\kappa \times Type_\kappa \times Type_\kappa} (A \to B)\times (B \to C) \times (A \to C)  & \dashv (g\circ f = h) : Type_\kappa ]
+    \\
+    \downarrow \downarrow \downarrow
+    \\
+    \mathcal{Type}_1 & \coloneqq & [ (A,B) : Type_{\kappa} & \vdash A \to B : Type_\kappa ]
+    \\
+    \downarrow  \downarrow
+    \\
+    \mathcal{Type}_0 & \coloneqq  & [ & \vdash Type_{\kappa} : Type_\lambda]
+  }
+  \,,
+$$
+
+where $\lambda \gt \kappa$ is another [[regular cardinal]] and where $Type_\kappa$ and $Type_\lambda$ are the corresponding [[object classifier in an (infinity,1)-topos|object classifiers]] of the $(\infty,1)$-topos $\mathbf{H}$;
+
+and equipped with the evident degeneracy maps
+
+$$
+  A : Type \vdash s_0 A \to (A \to A)
+$$
+
+etc. In the [[categorical semantics]] in a [[type-theoretic model category]] this makes a fibrant and cofibrant [[Reedy model structure|Reedy diagram]], it manifestly satisfies the [[Segal conditions]], and it is precisely [[univalence]] in the type theory that makes this a _[[complete Segal space]]_ object. 
+
 ## Related concepts
 
 * [[internal category]], [[internal functor]]
