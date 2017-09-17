@@ -1,0 +1,11 @@
+
+
+| |  |  |  |  |  |  |  |  |  |
+|--|--|--|--|--|--|--|--|--|--|
+| covering [[moduli space]] |  |  |  |  | [[level structure on an elliptic curve|of level-n structures]] ([[modular curve]]) |  |  |  |  |
+| | $\ast$  | $\to$ |  | $\to$ | $\mathcal{M}_{\overline{ell}}[n]$  |  |  |  |  |
+| | $\downarrow$ |  |  |  | $\downarrow$ |  |  |  |  |
+|  | $\mathcal{M}_{1dTori}$ | $\hookrightarrow$ |  $\mathcal{M}_{Tate}$ | $\hookrightarrow$ | $\mathcal{M}_{\overline{ell}}$ | $\hookrightarrow$ | $\mathcal{M}_{cub}$  | $\to$  | $\mathcal{M}_{FG}$
+| [[moduli stack]] | of [1d tori](torus#InAlgebraicGeometry)  |  | of [[Tate curves]] | | [[moduli stack of elliptic curves|of elliptic curves]] |  | of [[cubic curves]] | |  [[moduli stack of formal groups|of formal groups]] |
+| $\mathcal{O}^{top}_{\Sigma}$ | [[KU]] |  | $KU[ [q] ]$ |  | [[elliptic spectrum]] |  |  |  | [[complex oriented cohomology theory]] |
+| $\Gamma(-, \mathcal{O}^{top}) = $ | ([[KO]] $\hookrightarrow$ [[KU]]) = [[KR-theory]] |  | [[Tate K-theory]] ($KO[ [q] ] \hookrightarrow KU[ [q] ]$) |  |  [[tmf|Tmf]] $\to Tmf(n)$  |  |  [[tmf]]  |  |  $\mathbb{S}$ |  
