@@ -1,0 +1,11 @@
+
+
+## Idea
+
+a [[Grothendieck topology]] for [[analytic spaces]].
+
+## References
+
+* {#Berkovich09} [[Vladimir Berkovich]], section 3.2 of _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
+
+
