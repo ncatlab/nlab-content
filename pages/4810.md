@@ -12,4 +12,8 @@ Usual [[flag variety|flag varieties]] are projective varieties, hence they have 
 
 * A. Joseph, Quantum groups and their primitive ideals, Springer 1995.
 
+
+[[!redirects quantum flag manifold]]
 [[!redirects quantum flag manifolds]]
+[[!redirects quantum flag variety]]
+[[!redirects quantum flag varieties]]
