@@ -54,7 +54,7 @@ Thus the key to transgression is to understand the conditions where the map $g \
 
 A related construction called _transgression_ is the following
 
-For $P \to X$ a [[fiber bundle]] with typical fiber $F$ and $[\omega] \in H_{dR}^n(F)$ a class in [[de Rham cohomology]] of the fiber, we say this is _transgessive_ if 
+For $P \to X$ a [[fiber bundle]] with typical fiber $i : F \hookrightarrow P $ and $[\omega] \in H_{dR}^n(F)$ a class in [[de Rham cohomology]] of the fiber, we say this is _transgessive_ if 
 
 * there exists a form $cs \in \Omega^{n}(P)$ on the total space of the bundle;
 
@@ -63,6 +63,28 @@ For $P \to X$ a [[fiber bundle]] with typical fiber $F$ and $[\omega] \in H_{dR}
 * and such that $d \omega$ is the pull-back of a form $\kappa \in \Omega^{n+1}(X)$ on the based along the bundle projection .
 
 See for instance section 9 of ([Borel](#Borel)).
+
+This construction really exhibits transgression as a special case of the [[connecting homomorphism]] in cohomology
+
+$$
+  H^n(F) \to H^{n+1}(X) 
+$$
+
+that is induced from the [[short exact sequence]] of cocycles
+
+$$
+  ker(i^*) \hookrightarrow \Omega^\bullet(P) \stackrel{i^*}{\to} \Omega^\bullet(F)
+$$
+
+by restricting to those elements for which it factors through
+
+$$
+  \Omega^\bullet(X) \hookrightarrow ker(i^*)
+  \,.
+$$
+
+For more on this see [[Chern-Simons element]].
+
 
 ## Examples
 
