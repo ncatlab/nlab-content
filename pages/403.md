@@ -35,6 +35,8 @@ There is a more general notion of an [[internal category in a monoidal category]
 
 ## Definition
 
+### Internal category
+
 Let $A$ be any [[category]]. A **category internal to $A$** consists of 
 
 * an [[object]] _of objects_ $C_0 \in A$;
@@ -115,6 +117,8 @@ $$
 
 Notice that inherent to this definition is the assumption that the pullbacks involved actually exist. This holds automatically when the [[ambient category]] $A$ has finite [[limit|limits]], but there are some important examples such as $A =\,$ [[Diff]] where this is not the case.  Here it is helpful to assume simply that $s$ and $t$ have all pullbacks; in the case of $Diff$ this occurs if they are submersions.
 
+### Internal groupoid
+
 A [[groupoid]] internal to $A$ is all of the above 
 
  * such that the cartesian product $C_1 \times C_1$ exists
@@ -149,38 +153,20 @@ A [[groupoid]] internal to $A$ is all of the above
      }
    $$
 
+### Internal functors
+
+[[functor|Functors]] between internal categories are defined in a similar fashion. See [[functor]].  But if the ambient category does not satisfy the [[axiom of choice]] it is often better to use [[anafunctor|anafunctors]] instead; this makes sense when $C$ is a [[superextensive site]].
+
+
 ### Alternative definition
 
 If $A$ has all pullbacks, then we can form the bicategory $Span(A)$ of [[span|spans]] in $A$.  A category in $A$ is precisely a [[monad]] in $Span(A)$.  The underlying 1-cell is given by the span $(s,t) : C_0 \leftarrow C_1 \to C_0$, and the pullback $C_1 \times_{C_0} C_1$ is the vertex of the composite span $(s,t) \circ (s,t)$.  The morphisms $e$ and $c$ are required to be morphisms of spans, which is equivalent to imposing the source and target axioms above.  Finally the unit and associativity axioms for monads imply those above.
 
 This approach makes it easy to define the notion of [[internal profunctor]].
 
+### Internal nerve
 
-## Examples
-
-A [[small category]] is a category internal to [[Set]].  In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is a subset of the [[Cartesian product]].
-
-Historically, the motivating example was (apparently) the notion of [[Lie groupoids]]: a small Lie groupoid is a [[groupoid]] internal to the category [[Diff]] of [[smooth manifolds]]. This generalises immediately to a [[smooth category]]. Similarly, a [[topological groupoid]] is a groupoid internal to [[Top]]. (Warning: the term 'topological category' usually means a [[topological concrete category]], an unrelated notion. Sometimes (e.g. in Jacob Luries ''[[Higher Topos Theory (book)|Higher Topos Theory]]'') a 'topological category' is defined to be a $Top$-[[enriched category]], which is a special case of the internal definition if it is interpreted [[strict category|strictly]] and the collection of objects is small.)  In these examples, $C_0$ is a "space of objects" and $C_1$ a "space of morphisms".
-
-Further examples:
-
-* A category internal to [[Set]] is a [[small category]]
-* A groupoid internal to [[definable sets]] is a [[definable groupoid]].
-* A [[cocategory]] in $C$ is a category internal to $C^{op}$.
-* A [[double category]] is a category internal to [[Cat]]. 
-* A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
-* A [[crossed module]] is equivalent to a category internal to [[Grp]].
-* A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
-
-
-## Internal functors
-
-Functors between internal categories are defined in a similar fashion. See [[functor]].  But if the ambient category does not satisfy the [[axiom of choice]] it is often better to use [[anafunctor|anafunctors]] instead; this makes sense when $C$ is a [[superextensive site]].
-
-
-## Internal nerve
-
-The idea of the nerve of a small category can be generalised to give an *internal nerve* construction. Recall (from [[nerve]]), the basic idea is that, for a small category, $D$, its nerve, $N(D)$, is a simplicial set whose set of $n$-simplices is the set of sequences of composable morphisms of length $n$ in $D$. This set can be given by a (multiple) pullback of copies of $D_1$.  That description will carry across to give a nerve construction for an internal category.  
+The notion of [[nerve]] of a [[small category]] can be generalised to give an *internal nerve* construction. For a small category, $D$, its [[nerve]], $N(D)$, is a simplicial set whose set of $n$-simplices is the set of sequences of composable morphisms of length $n$ in $D$. This set can be given by a (multiple) pullback of copies of $D_1$.  That description will carry across to give a nerve construction for an internal category.  
 
 If $C$ is an internal category in some category $A$, (which thus has, at least, the pullbacks required for the constructions to make sense),its nerve $N(C)$ (or if more precision is needed $N_{int}(C)$, or similar) is the [[simplicial object]] in $A$ with 
 
@@ -193,16 +179,46 @@ and so on.  Face and degeneracy morphisms are induced from the structural moprhi
 
 Internal functors between internal categories induce simplicial morphisms between the corresponding nerves.
 
-###Example
-A 2-group is an internal category in [[Grp]] and so has an internal nerve, which is a simplicial object in [[Grp]], that is  a [[simplicial group]].  If the 2-group corresponds to a [[crossed module]],$(C\stackrel{\delta}{\to}P)$, then the simplicial group nerve of $(C\stackrel{\delta}{\to}P)$ has [[Moore complex]] having $P$ in dimension 0, and $C$ in dimension 1, with the trivial group in all other dimensions. The only possible non-trivial boundary map from dimension 1 to dimension 0 is then the boundary $\delta$ of the crossed module. 
-
-## Higher internal category
+### Higher internal categories
 
 One can also look at this in [[higher category theory]] and consider internal [[n-category|n-categories]]. See
+
+* [[n-fold category]]
 
 * [[internal infinity-groupoid]]
 
 * [[internal (infinity,1)-category]]
+
+* [[internal (infinity,n)-category]]
+
+
+
+## Examples
+
+A [[small category]] is a category internal to [[Set]].  In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is a subset of the [[Cartesian product]].
+
+Historically, the motivating example was (apparently) the notion of [[Lie groupoids]]: a small Lie groupoid is a [[groupoid]] internal to the category [[Diff]] of [[smooth manifolds]]. This generalises immediately to a [[smooth category]]. Similarly, a [[topological groupoid]] is a groupoid internal to [[Top]]. (Warning: the term 'topological category' usually means a [[topological concrete category]], an unrelated notion. Sometimes a 'topological category' is defined to be a $Top$-[[enriched category]], which is a special case of the internal definition if it is interpreted [[strict category|strictly]] and the collection of objects is small.)  In these examples, $C_0$ is a "space of objects" and $C_1$ a "space of morphisms".
+
+Further examples:
+
+* A category internal to [[Set]] is a [[small category]]
+* A groupoid internal to [[definable sets]] is a [[definable groupoid]].
+* A [[cocategory]] in $C$ is a category internal to $C^{op}$.
+* A [[double category]] is a category internal to [[Cat]]. 
+* A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
+* A [[crossed module]] is equivalent to a category internal to [[Grp]].
+* A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
+
+
+* A [[2-group]] is an internal category in [[Grp]] and so has an internal nerve, which is a simplicial object in [[Grp]], that is  a [[simplicial group]].  If the 2-group corresponds to a [[crossed module]], $(C\stackrel{\delta}{\to}P)$, then the simplicial group nerve of $(C\stackrel{\delta}{\to}P)$ has [[Moore complex]] having $P$ in dimension 0, and $C$ in dimension 1, with the trivial group in all other dimensions. The only possible non-trivial boundary map from dimension 1 to dimension 0 is then the boundary $\delta$ of the crossed module. 
+
+## Properties
+ {#Properties}
+
+### Cartesian closure
+ {#CartesianClosure}
+
+If the ambient category $\mathcal{C}$ is a [[cartesian closed category]], then the category $Cat(\mathcal{C})$ of categories internal to $\mathcal{C}$ is also cartesian closed. ([Johnstonet, remark after B2.3.15](#Johnstone))
 
 ## Related concepts
 
@@ -229,6 +245,7 @@ A detailed discussion with emphasis on the correct [[anafunctor]] morphisms betw
 Discussion with emphasis on [[topos theory]] is in section B.2.3 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
 
 and in section V.7 of 
 
