@@ -513,6 +513,8 @@ This kind of diagram under forming $\pi_0$ has been traditionally known from [[o
 
 ## Related concepts
 
+* [[sheaf of spectra]]
+
 * [[twisted generalized cohomology]]
 
 * [[twisted bivariant cohomology]]
