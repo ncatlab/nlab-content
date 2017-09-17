@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,7 +8,7 @@
 =--
 =--
 
-> This entry is about the phenomenon of _universality_ in [[physics]]. See also [[universal property]] for a (different) concept of a similar name in [[mathematics]].
+> This entry is about the phenomenon of [[universality]] in [[physics]]. See also [[universal property]] for a (different) concept of a similar name in [[mathematics]].
 
 ***
 
