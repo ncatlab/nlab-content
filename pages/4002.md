@@ -171,6 +171,8 @@ and so the extra left adjoint $\Pi_0 \circ X_!$ preserves the terminal object. B
 
 * **connected topos** / [[∞-connected (∞,1)-topos]]
 
+* [[strongly connected topos]]
+
 * [[totally connected topos]] / [[totally connected (∞,1)-topos]]
 
 * [[local topos]] / [[local (∞,1)-topos]].
