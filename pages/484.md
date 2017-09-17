@@ -37,9 +37,11 @@ Setoids are still important in [[foundations]] of mathematics where quotient set
 
 ## Variants and generalizations
 
-The notion of _equivalence relation_ [[internalization|internal]] to a suitable [[category]] is the notion of __[[congruence]]__.
+* A _partial equivalence relation_ is a symmetric and transitive relation. 
 
-The generalization of this to [[(∞,1)-category theory]] is that of _[[groupoid object in an (∞,1)-category]]_.
+* The notion of _equivalence relation_ [[internalization|internal]] to a suitable [[category]] is the notion of __[[congruence]]__.
+
+* The generalization of this to [[(∞,1)-category theory]] is that of _[[groupoid object in an (∞,1)-category]]_.
 
 
 
