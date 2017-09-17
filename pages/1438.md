@@ -16,7 +16,7 @@ F(X) & \overset{F(i)}{\to} & F(F(X)) \\
 X & \underset{i}{\to} & F(X)
 }$$ 
 
-commutes. Now it is trivial, in fact tautological that $\alpha$ is itself an $F$-algebra map $F(X) \to X$. Thus $\alpha \circ i = 1_X$, since both sides of the equation are $F$-algebra maps $X \to X$ and $X$ is initial. As a result, $F(\alpha) \circ f(i) = 1_{F(X)}$, so that $i \circ \alpha = 1_{F(X)}$ according to the commutative square. Hence $\alpha$ is an isomorphism, with inverse $i$.
+commutes. Now it is trivial, in fact tautological that $\alpha$ is itself an $F$-algebra map $F(X) \to X$. Thus $\alpha \circ i = 1_X$, since both sides of the equation are $F$-algebra maps $X \to X$ and $X$ is initial. As a result, $F(\alpha) \circ F(i) = 1_{F(X)}$, so that $i \circ \alpha = 1_{F(X)}$ according to the commutative square. Hence $\alpha$ is an isomorphism, with inverse $i$.
 =--
 
 
