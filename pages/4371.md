@@ -41,7 +41,7 @@ Classically, we have $L = L_{\neg\neg}$ if and only if $L$ is the [[discrete loc
 
 The notion of double negation sublocale may be [[categorification|categorified]] from locales to [[toposes]].  
 
-If $E$ is a [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negation]] operator $\neg \colon \Omega \to \Omega$, defined by virtue of the fact that $\Omega$ is an [[internal]] [[Heyting algebra]].  
+If $E$ is a [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negation]] operator $\neg \colon \Omega \to \Omega$, defined by virtue of the fact that $\Omega$ is an [[internalisation|internal]] [[Heyting algebra]].  
 
 ### Definition
 
@@ -110,6 +110,7 @@ This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).
 In a presheaf topos (on a small category) the notions of *$\neg\neg$-topology* and that of *[[dense topology]]* coincide.
 =--
 
+
 ## References
 
 Section VI of
@@ -118,21 +119,20 @@ Section VI of
 {#MacLaneMoerdijk}
 
 
-
-[[!redirects double-negation topology]]
-[[!redirects double-negation topologies]]
-[[!redirects double negation topology]]
-[[!redirects double negation topologies]]
-
 [[!redirects double negation]]
 [[!redirects double negations]]
 [[!redirects double-negation]]
 
 [[!redirects double negation sublocale]]
 [[!redirects double negation sublocales]]
-[[!redirects double negation nucleus]]
-[[!redirects double negation nuclei]]
 [[!redirects double-negation sublocale]]
 [[!redirects double-negation sublocales]]
+[[!redirects double negation nucleus]]
+[[!redirects double negation nuclei]]
 [[!redirects double-negation nucleus]]
 [[!redirects double-negation nuclei]]
+
+[[!redirects double negation topology]]
+[[!redirects double negation topologies]]
+[[!redirects double-negation topology]]
+[[!redirects double-negation topologies]]
