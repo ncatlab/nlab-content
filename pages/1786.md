@@ -64,6 +64,12 @@ Given an [[A-∞ space]] in the [[(∞,1)-category]] [[∞Grpd]]/[[Top]], its im
 
 Further discussion of this is also at _[loop space -- Homotopy associative strructure](loop+space#AInfinityStructure)_
 
+## Related concepts
+
+* [[topological monoid]]
+
+* [[group completion]]
+
 ## References
 
 The terminology $H$-space is a definition in a Chapter IV, Section 1 (dedicated to loop spaces) of 
