@@ -1,5 +1,5 @@
 
-> This is about tensor quantities in the sense of [[differential geometry]] and [[physics]]. For the different notion of  the same nale in [[enriched category theory]] see under _[[copower]]_. 
+> This is about tensor quantities in the sense of [[multilinear algebra]], [[differential geometry]] and [[physics]]. For the different notion of a tensor in [[enriched category theory]] see under _[[copower]]_. 
 
 ***
 
