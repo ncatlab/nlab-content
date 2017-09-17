@@ -29,7 +29,7 @@ the conjectural Ads/CFT correspondence asserts an identification of the [[state]
 
 [[type II string theory]] on 5d [[anti de Sitter spacetime]] is dual to [[4d super Yang-Mills theory]].
 
-### $AdS_7 / CFT_7$
+### $AdS_7 / CFT_6$
 
 [[11-dimensional supergravity]] on 7d [[anti de Sitter spacetime]] is dual to the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]].
 
@@ -83,13 +83,13 @@ Further references include:
 
 * [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
 
-### $AdS_5 - CFT_4$
+### $AdS_5 / CFT_4$
 
 ### $AdS_7 / CFT_6$
 
 * A. J. Nurmagambetov, I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
 
-The fact that the Chern-Simons term in [[11-dimensional supergravity]] compactfied on an $S^4$ is a _nonabelian_ [[higher dimensional Chern-Simons theory]] in $d = 7$, due the [[quantum anomaly]] cancellation, is clear from the original source, equation (3.14) of
+The fact that the Chern-Simons term in [[11-dimensional supergravity]] compactified on an $S^4$ is a _nonabelian_ [[higher dimensional Chern-Simons theory]] in $d = 7$, due the [[quantum anomaly]] cancellation, is clear from the original source, equation (3.14) of
 
 * [[Michael Duff]], James T. Liu, R. Minasian, _Eleven Dimensional Origin of String/String Duality: A One Loop Test_ ([arXiv:hep-th/9506126](http://arxiv.org/abs/hep-th/9506126))
 
