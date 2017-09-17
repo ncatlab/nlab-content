@@ -114,7 +114,7 @@ Modal type theory with an eye towards [[homotopy type theory]] is discussed in
 
 * [[UF-IAS-2012]], _[Modal type theory](http://uf-ias-2012.wikispaces.com/Modal+type+theory)_
 
-Mondadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
+Monadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
 
 * [[Andrzej Filinski]], _Representing Layered Monads_, POPL 1999. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.46.2016))
     
