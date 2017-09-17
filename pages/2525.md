@@ -1,30 +1,29 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Variational calculus
-+--{: .hide}
++-- {: .hide}
 [[!include variational calculus - contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 #### Equality and Equivalence
-+--{: .hide}
++-- {: .hide}
 [[!include equality and equivalence - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The **Euler-Lagrange [[equations]]** of a [[functional]] characterize in [[variational calculus]] the _[[extrema]]_ of that functional, hence its _[[critical locus]]_. 
+The **Euler-Lagrange [[equations]]** of a [[nonlinear functional]] characterize in [[variational calculus]] the _[[extrema]]_ of that functional, hence its _[[critical locus]]_. 
 
 This originates from and is mainly used in [[physics]], where the functional in question is the _[[action functional]]_ of a [[physical system]], and where its critical points encode the physically observable [[particle]] [[trajectories]] and [[field (physics)|field]] configurations by the _[[principle of extremal action]]_.
 
