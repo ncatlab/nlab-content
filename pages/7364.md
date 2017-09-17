@@ -23,20 +23,31 @@ An _elliptic fibration_ is a [[bundle]] of [[elliptic curves]], possibly includi
 
 An _elliptic surface_ is an elliptic fibration over an [[algebraic curve]].
 
-## Definition
 
-(...)
+## Properties
+
+### Classification by local systems with modular group coefficients
+
+Write $SL_2(\mathbb{Z})$ for the [[special linear group]] in dimension 2 with [[integer]] [[coefficients]] and write $SL_2(\mathbb{Z}) \to PSL_2(\mathbb{Z})$ for the [[projection]] to the corresponding [[projective linear group]]. Regarding this as the [[Möbius group]] it comes with its natural [[action]] on the [[upper half plane]] $\mathfrak{h}$. The [[homotopy quotient]]  $\mathcal{M}_{ell}(\mathbb{C}) = \mathfrak{h}//SL_2(\mathbb{Z})$ is the [[moduli stack of elliptic curves]] over the complex numbers.
+
+Accordingly, to any $SL_2(\mathbb{Z})$-[[principal bundle]] $P \to B$  (necessarily [[flat connection|flat]] since $SL_2(\mathbb{Z})$ is a [[discrete group]], hence a "[[local system]]") is [[associated bundle|associated]] a $\mathfrak{h}$-[[fiber bundle]] such that a [[section]] of it defines a non-[[singularity|singular]] elliptic fibration. 
+
+One may turn this around: Given an elliptic fibration $E \to B$, then away from the points $S\subset B$ over which the fiber is singular, it is given by an $SL_2(\mathbb{Z})$-local system together with a section of the associated upper-half plane bundle on $B-S$. 
+
+With due technical care, this data uniquely characterizes the elliptic fibration (e.g. [Miranda 88, prop. VI.3.3](#Miranda88)).
 
 ## Related entries
 
-* [[F-theory]], [[K3]]
+* [[F-theory]]
+
+* [[K3]]
 
 ## References
 
 * Wikipedia, _[elliptic surface](http://en.wikipedia.org/wiki/Elliptic_surface)_
 
 
-* [[Rick Miranda]], _The basic theory of elliptic surfaces_, lecture notes 1988 ([pdf](http://www.math.colostate.edu/~miranda/BTES-Miranda.pdf))
+* {#Miranda88} [[Rick Miranda]], _The basic theory of elliptic surfaces_, lecture notes 1988 ([pdf](http://www.math.colostate.edu/~miranda/BTES-Miranda.pdf))
 
 * Viacheslav Nikulin, _Elliptic fibrations on K3 surfaces_ ([arXiv:1010.3904](http://arxiv.org/abs/1010.3904))
 
