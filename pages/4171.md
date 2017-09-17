@@ -22,9 +22,33 @@ It is closely related to [[multisymplectic geometry]] and [[n-symplectic manifol
 ## Definition
 
 
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$, an **[[n-plectic vector space]]**
+is a [[vector space]] $V$ (over the [[real numbers]]) equipped with an $(n+1)$-linear skew function
+
+$$
+  \omega : \wedge^{n+1} V \to \mathbb{R}
+$$
+
+such that regarded as a function
+
+$$
+  V \to \wedge^n V^*
+$$
+
+is has trivial [[kernel]].
+
+=--
+
 Let $X$ be a [[smooth manifold]], $\omega \in \Omega^{n+1}(X)$ a [[differential form]].
 
-We say $(X,\omega)$ is a **$n$-plectic** manifold if
++-- {: .num_defn}
+###### Definition
+
+
+We say $(X,\omega)$ is a **$n$-plectic manifold** if
 
 * $\omega$ is closed: $d \omega = 0$;
 
@@ -43,7 +67,9 @@ We say $(X,\omega)$ is a **$n$-plectic** manifold if
 
   is [[injective]].  
 
-This is also called [[multisymplectic geometry]].
+=--
+
+See also the definition at _[[multisymplectic geometry]]_.
 
 ## Examples
 
@@ -365,3 +391,6 @@ See also the references at [[multisymplectic geometry]] and [[n-symplectic manif
 
 [[!redirects n-plectic manifold]]
 [[!redirects n-plectic manifolds]]
+
+[[!redirects Poisson Lie n-algebra]]
+[[!redirects Poisson Lie n-algebras]]
