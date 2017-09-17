@@ -2,9 +2,9 @@ There are several different (sometimes related) mathematical objects called ''sp
 
 * [[spectrum]] in [[stable homotopy theory]].
 
-Most other meanings are instances of [[spectral theory]] including
+* [[spectrum (geometry)]] in [[geometry]]
 
-* _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) spectrum of a commutative or noncommutative ring, _[[analytic spectrum]]_, _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_ of a triangulated category etc.
+* inlcuding [[spectral theory]] such _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) spectrum of a commutative or noncommutative ring, _[[analytic spectrum]]_, _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_ of a triangulated category etc.
 
 There is also a notion of 
 
