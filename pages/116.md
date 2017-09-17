@@ -230,6 +230,8 @@ For more see [[counterexamples in algebra]].
 
     * [[torsion subgroup]]
 
+  * [[coset]], [[coset space]]
+
   * [[abelian group]], [[anabelian group]], 
 
   * [[group commutator]], [[commutator subgroup]], [[abelianization]]
