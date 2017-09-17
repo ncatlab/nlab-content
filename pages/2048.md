@@ -94,6 +94,8 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 * [[triangulated categories of sheaves]]
 * [[Bondal-Orlov reconstruction theorem]]
 
+* [[coherent cohomology]]
+
 ##References
 
 * [[J-P. Serre]], _[[Faisceaux algébriques cohérents]]_, Ann. of Math. (2) __61__,  (1955) 197--278, [doi](http://dx.doi.org/10.2307/1969915).
