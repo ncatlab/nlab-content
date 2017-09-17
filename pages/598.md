@@ -269,7 +269,17 @@ This is for instance in [GoerssJardine, chapter 5](#GoerssJardine).
 See also <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">group object in an (∞,1)-category -- models for groups in ∞Grpd</a>.
 
 
+### Closed monoidal structure
+ {#ClosedMonoidalStructure}
 
+The [[category]] $sAb$ of simplicial abelian groups is naturally a [[monoidal category]], with the tensor product being degreewise that of abelian groups. This is indeed a [[closed monoidal category]]. For $A, B$ The [[internal hom]] $[A,B]$ is the simplicial abelian group whose underlying simplicial set is
+
+$$
+  [A,B] : [n] \mapsto Hom_{sAb}(A \otimes \mathbb{Z}[\Delta[n]], B)
+  \,,
+$$
+
+where $\mathbf{Z}[-] : sSet \to sAb$ is degreewise the [[free construction|free]] abelian group functor.
 
 ## Delooping and simplicial principal bundles  {#DeloopingAndBundle}
 
