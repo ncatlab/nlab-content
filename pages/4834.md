@@ -117,7 +117,7 @@ The most expressive is given by the following choice of sorts, axioms and relati
 (Here $\{\ast, \Box\}$ denotes the 2-element set.)
 
 The other systems omit some of the last three relations.
-Some specific systems:
+Some specific systems are the following:
 
 name                                                  | $(\ast, \ast)$ | $(\ast, \square)$ | $(\square, \ast)$ | $(\square, \square)$ | 
 ------------------------------------------------------|----------------|-------------------|-------------------|----------------------|
@@ -125,6 +125,23 @@ $\lambda\rightarrow$ [[simply typed lambda calculus]] | yes            |        
 [[LF]]                               | yes            | yes               |                   |                      |
 $\lambda2$ [[system F]]                                                | yes            |                   | yes               |                      |
 [[calculus of constructions]]                          | yes            | yes               | yes               | yes                  |
+
+#### Calculus of constructions {#CalculusOfConstructions}
+
+For instance for the [[calculus of constructions]] we have 
+
+* $* =$ [[Prop]], the _[[type of propositions]]_
+
+* $\Box = $ [[Type]], the _[[type of types]]_.
+
+The single axiom $* \colon \Box$ hence says that $Prop \colon Type$, hence that [[Prop]] is a [[type]]. 
+
+The relations express the usual rule for [[dependent product type]]: 
+
+* a dependent product over a generic [[dependent type]] is itself some type;
+
+* but if the dependent product is over a [[proposition]] then it is in fact itself a proposition, namely the [[universal quantifier|universal quantification]] of the given definition.
+ 
 
 ### Inconsistent systems ### 
 
