@@ -23,8 +23,142 @@ I thought breaking lines was allowed: $x_{n = 0}$?
 
 I thought breaking lines was allowed: $x_n = 0$?
 
+$\left ( {} \right )$
 
 Also, does $y ^{3}$ work?
+
+What about $\begin{matrix}
+a \\
+b
+\end{bmatrix}$?
+
+b hello b world b : everyone
+$
+a
+b
+c
+d
+$
+
+1. <p></p>
+    +-- {: .num_enumb #toposnatnum}
+    =--
+    This property says, informally, that there is a set consisting of the natural
+numbers.
+
+    What are the 'the natural numbers', though? One way to get at an answer is to use
+the principle that sequences can be defined recursively. That is, given a set $X$, an
+element $x \in X$, and a map $r\colon X \to X$, there is a unique sequence
+$(x_{n})_{n = 0}^{\infty }$ in $X$ such that
+\begin{equation}
+\label{eqrecursion} x_{0} = x, \quad x_{n + 1} = r(x_{n}) \quad (n \in
+\mathbb{N}).
+\end{equation}
+A sequence $(x_{n})_{n = 0}^{\infty }$ in $X$ is just a map
+$f\colon \mathbb{N}\to X$, and if we write $s\colon \mathbb{N}\to \mathbb{N}$ for the
+function $n \mapsto n + 1$ ('successor'), then&nbsp;\eqref{eqrecursion} says exactly
+that the diagram
+\begin{equation}
+\label{eqnat} \begin{matrix} 1 & \overset{0}{\begin{svg} [[!include SVG rightarrow]]\end{svg}} & \mathbb{N} & \stackrel{s}{\begin{svg} [[!include SVG rightarrow]]\end{svg}} & \mathbb{N} \\ & \mathrlap{\quad x} \array{\begin{svg} [[!include SVG searrow]]\end{svg}} &\array{\begin{svg} [[!include SVG downarrow]]\end{svg}}\mathrlap{f} & &\array{\begin{svg} [[!include SVG downarrow]]\end{svg}}\mathrlap{f} \\ &&X &\stackrel{r}{\begin{svg} [[!include SVG rightarrow]]\end{svg}} &X \end{matrix}
+\end{equation}
+commutes.
+
+    +-- {: .num_thm #thmg}
+    ###### Definition ######
+    Let $\mathcal{E}$ be a category with a terminal object, $1$. A **_natural numbers object_{: style="font-style: normal"}** in $\mathcal{E}$ is a triple $(N, 0, s)$, with $N \in \mathcal{E}$, $0\colon 1 \to N$, and $s\colon N \to N$, that is initial as such: for any triple $(X, x, r)$ of the same type, there is a unique map $f\colon N \to X$ such that&nbsp;\eqref{eqnat} commutes (with $N$ in place of $\mathbb{N}$).
+    =--
+
+---
+
+1. <p></p>
+    +-- {: .num_enumb #toposnatnum}
+    =--
+    This property says, informally, that there is a set consisting of the natural
+numbers.
+
+    What are the 'the natural numbers', though? One way to get at an answer is to use
+the principle that sequences can be defined recursively. That is, given a set $X$, an
+element $x \in X$, and a map $r\colon X \to X$, there is a unique sequence
+$(x_{n})_{n = 0}^{\infty }$ in $X$ such that
+    \begin{equation}
+    \label{eqrecursion} x_{0} = x, \quad x_{n + 1} = r(x_{n}) \quad (n \in
+\mathbb{N}).
+    \end{equation}
+    A sequence $(x_{n})_{n = 0}^{\infty }$ in $X$ is just a map
+$f\colon \mathbb{N}\to X$, and if we write $s\colon \mathbb{N}\to \mathbb{N}$ for the
+function $n \mapsto n + 1$ ('successor'), then&nbsp;\eqref{eqrecursion} says exactly
+that the diagram
+    \begin{equation}
+    \label{eqnat} \begin{matrix} 1 & \overset{0}{\begin{svg} [[!include SVG rightarrow]]\end{svg}} & \mathbb{N} & \stackrel{s}{\begin{svg} [[!include SVG rightarrow]]\end{svg}} & \mathbb{N} \\ & \mathrlap{\quad x} \array{\begin{svg} [[!include SVG searrow]]\end{svg}} &\array{\begin{svg} [[!include SVG downarrow]]\end{svg}}\mathrlap{f} & &\array{\begin{svg} [[!include SVG downarrow]]\end{svg}}\mathrlap{f} \\ &&X &\stackrel{r}{\begin{svg} [[!include SVG rightarrow]]\end{svg}} &X \end{matrix}
+    \end{equation}
+    commutes.
+
+
+    +-- {: .num_theorem #thmg}
+    ###### Definition ######
+    Let $\mathcal{E}$ be a category with a terminal object, $1$. A **_natural numbers
+object_{: style="font-style: normal"}** in $\mathcal{E}$ is a triple $(N, 0, s)$, with
+$N \in \mathcal{E}$, $0\colon 1 \to N$, and $s\colon N \to N$, that is initial as
+such: for any triple $(X, x, r)$ of the same type, there is a unique map
+$f\colon N \to X$ such that&nbsp;\eqref{eqnat} commutes (with $N$ in place of
+$\mathbb{N}$).
+    =--
+
+    Property&nbsp;**3** is, then, that $\mathbf{Set}$ has a natural numbers object.
+
+
+---
+
+1. This property says, informally, that there is a set consisting of the natural
+numbers. 
+
+   What are the 'the natural numbers', though?  One way to get at an answer is
+to use the principle that sequences can be defined recursively.  That is,
+given a set $X$, an element $x \in X$, and a map $r\colon X \to X$, there is a
+unique sequence $(x_{n})_{n = 0}^{\infty}$ in $X$ such that 
+\[
+\label{recursion}
+x_{0} = x,
+\quad
+x_{n + 1} = r(x_{n}) 
+\quad(n \in\mathbb{N}).
+\]
+A sequence $(x_{n})_{n = 0}^{\infty}$ in $X$ is just a map $f\colon\mathbb{N}\to X$,
+and if we write $s\colon\mathbb{N}\to\mathbb{N}$ for the function $n \mapsto n + 1$
+('successor'), then&nbsp;\eqref{recursion} says exactly that the diagram
+\begin{equation}\label{nat}
+\begin{matrix}
+1 & \overset{0}{\begin{svg}[[!include SVG rightarrow]]\end{svg}} & \mathbb{N} & \stackrel{s}{\begin{svg}[[!include SVG rightarrow]]\end{svg}} & \mathbb{N} \\
+& \mathrlap{\quad x} \array{\begin{svg}[[!include SVG searrow]]\end{svg}}   &\array{\begin{svg}[[!include SVG downarrow]]\end{svg}}\mathrlap{f} & &\array{\begin{svg}[[!include SVG downarrow]]\end{svg}}\mathrlap{f} \\
+&&X &\stackrel{r}{\begin{svg}[[!include SVG rightarrow]]\end{svg}} &X      
+\end{matrix}
+\end{equation}
+commutes.
+
+
+   +-- {: .num_theorem #DefNatNum}
+   ###### Definition ######
+   Let $\mathcal{E}$ be a category with a terminal object, $1$.  A **natural numbers
+object** in $\mathcal{E}$ is a triple $(N, 0, s)$, with $N \in\mathcal{E}$, $0\colon1 \to N$, and
+$s\colon N \to N$, that is initial as such: for any triple $(X, x, r)$ of
+the same type, there is a unique map $f\colon N \to X$ such that&nbsp;\eqref{nat}
+commutes (with $N$ in place of $\mathbb{N}$).
+
+   =--
+
+---
+
+$$
+\begin{matrix}
+X \times X
+& \overset{\text{sym}}{\begin{svg}[[!include SVG rightarrow]]\end{svg}} X \times X \overset{i \times i}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}
+& X \times X \\
+\mathllap{\quad m} \array{\begin{svg} [[!include SVG downarrow]]\end{svg}} && \array{\begin{svg} [[!include SVG downarrow]]\end{svg}} \mathrlap{m} \\
+X & \underset{i}{\begin{svg}[[!include SVG triplelengthrightarrow]]\end{svg}} & X
+\end{matrix}
+$$
+
+
 
 ***
 
