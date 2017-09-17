@@ -219,14 +219,13 @@ A **module** $N$ over a ring $R$ is
         \\
         {}^{\mathllap{Id_R \otimes \alpha}}\downarrow 
         && 
-        \downarrow^{\mathrlap{alpha}}
+        \downarrow^{\mathrlap{\alpha}}
         \\
         R \otimes N &\to& N 
      }
    $$
 
-   [[commuting diagram|commutes]] in [[Ab]],  which means that for all elements
-   as before we have
+   [[commuting diagram|commutes]] in [[Ab]],  which means that for all elements as before we have
 
    $$
      (r_1 \cdot r_2) n = r_1 (r_2 n)
@@ -239,7 +238,7 @@ A **module** $N$ over a ring $R$ is
      \array{
         1 \otimes N &&\stackrel{1 \otimes id_N}{\to}&& R \otimes N
         \\
-        & \searrow && \swarrow_{\mathrlab{\alpha}}
+        & \searrow && \swarrow_{\mathrlap{\alpha}}
         \\
         && N
      }
