@@ -1,0 +1,75 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+# h-Propositions
+* table of contents
+{:toc}
+
+## Idea
+
+In [[homotopy type theory]], the notion of **h-proposition** (or just a **proposition**, if no ambiguity will result) is an internalization of the notion of [[proposition]] / [[(-1)-truncated]] object.
+
+h-Propositions are how [[logic]] is embedded into homotopy type theory, via the [[propositions as some types]] / [[bracket types]] approach.
+
+## Definition
+
+There are many equivalent definitions of h-propositions.  Perhaps the simplest is as follows.  Let $A$ be a [[type]] in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  We define a new type $isProp(A)$ as follows:
+
+$$ isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} (x=y) $$
+
+In [[propositions as types]] language, this can be pronounced as "every two elements of $A$ are equal".
+
+Here are two provably [[equivalence in homotopy type theory|equivalent]] definitions:
+
+$$ isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isContr(x=y) $$
+$$ isProp(A) \coloneqq (A \to isContr(A)) $$
+
+The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "contractible if inhabited".
+
+## Properties
+
+* We can prove that for any $A$, the type $isProp(A)$ is an h-proposition, i.e. $isProp(isProp(A))$.  Thus, any two inhabitants of $isProp(A)$ (witnesses that $A$ is an h-proposition) are "equal".
+
+* If $A$ and $B$ are h-props and there exist maps $A\to B$ and $B\to A$, then $A$ and $B$ are [[equivalence in homotopy type theory|equivalent]].
+
+## Coq code
+
+* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/HLevel.v)
+
+## Semantics
+
+Let $\mathcal{C}$ be a [[locally cartesian closed category]] with sufficient structure to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[trivial cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.)
+
+Then for a fibrant object $A$, the object $isProp(A)$ defined above (with the first definition) is obtained by taking dependent product of the path-object $A^I \to A\times A$ along the projection $A\times A\to 1$.  By adjunction, a [[global element]] of $isProp(A)$ is therefore equivalent to a [[section]] of the path-object, which exactly means a (right) [[homotopy]] between the two projections $A\times A\;\rightrightarrows\; A$.  The existence of such a homotopy, in turn, is equivalent to saying that *any two maps $X\;\rightrightarrows\; A$ are homotopic*.
+
+More generally, we may apply this locally.  Suppose that $A\to B$ is a fibration, which we can regard as a dependent type
+$$x\colon B \vdash A(x)\colon Type.$$
+Then we have a dependent type
+$$x\colon B \vdash isProp(A(x))\colon Type$$
+represented by a fibration $isProp(A)\to B$.  By applying the above argument in the [[slice category]] $\mathcal{C}/B$, we see that $isProp(A)\to B$ has a [[section]] exactly when any two maps in $\mathcal{C}/B$ into $A\to B$ are homotopic over $B$.  We can also construct the type
+$$\prod_{x\colon B} isProp(A(x))$$
+in global context, which has a global element precisely when $isProp(A)\to B$ has a section.
+
+## Remarks
+
+* h-Propositions are also said to be of **h-level 1**.
+
+[[!redirects h-propositions]]
+[[!redirects h-prop]]
+[[!redirects h-props]]
+[[!redirects hProp]]
+[[!redirects hProps]]
+[[!redirects h-level 1]]
+[[!redirects h-level 1 type]]
+[[!redirects h-level 1 types]]
+[[!redirects isProp]]
+[[!redirects (-1)-truncated type]]
+[[!redirects (-1)-truncated types]]
