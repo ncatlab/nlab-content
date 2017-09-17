@@ -1,5 +1,5 @@
 
-**Locally presentable category theory.**
+**Locally presentable categories:** [[large categories|Large categories]] whose [[objects]] arise from [[small object|small]] [[generators]] under [[small colimit|small]] [[relations]].
 
 | [[(n,r)-categories]]... | satisfying [[Giraud's axioms]] |  inclusion of [[left exact functor|left exaxt]] [[localizations]] |  [[generators and relations|generated]] under [[colimits]] from [[small objects]] |   | [[localization]] of [[free cocompletion]] |  | [[generators and relations|generated]] under [[filtered colimits]] from [[small objects]]   |
 |--|--|--|--|--|----|--|--|
