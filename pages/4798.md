@@ -89,6 +89,8 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 * [[gauge group]], [[gauge fixing]]
 
+* [[large gauge transformation]]
+
 * [[higher gauge transformation]]
 
 * [[spontaneously broken symmetry]]
@@ -110,4 +112,5 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 [[!redirects gauge equivalence]]
 [[!redirects gauge equivalences]]
+
 
