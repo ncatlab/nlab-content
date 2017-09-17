@@ -45,6 +45,8 @@ Surveys include
 
 Lecture notes include
 
+* {#Wassermann11} [[Antony Wassermann]], _Kac-Moody and Virasoro algebras_, course notes (2011) ([pdf](https://www.dpmms.cam.ac.uk/~ajw/course11.pdf))
+
 * [[Hermann Nicolai]], _Infinite dimensional symmetries_ (2009) ([pdf](http://www.itp.uni-hannover.de/~lechtenf/Events/Lectures/nicolai.pdf))
 
 The standard textbook is
