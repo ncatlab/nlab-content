@@ -333,6 +333,7 @@ Let $T\mathbf{H}$ be a tangent cohesive $(\infty,1)$-topos and write $T_\ast \ma
 +-- {: .num_prop}
 ###### Proposition
 
+
 For every $A \in T_\ast \mathbf{H}$ the [[natural transformation|naturality square]] 
 
 $$
@@ -414,8 +415,91 @@ $$
   \,.
 $$
 
+But of course by the generality of the above  proposition, such an $\widehat{A}$ sits itself again in its fracture-like pullback diagram.
 
 =--
+
+Dually:
+
++-- {: .num_prop}
+###### Proposition
+
+For every $A \in T_\ast \mathbf{H}$ the [[natural transformation|naturality square]] 
+
+$$
+  \array{
+    \flat(\Pi_{dR} \Sigma^{-1} A) &\longrightarrow & \Pi_{dR}(\Sigma^{-1} A)
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat A &\stackrel{}{\longrightarrow}& A 
+  }
+$$
+
+(of the [[flat modality]] applied to the [[homotopy fiber]] of the [[unit of a monad|unit]] of the [[shape modality]]) is an [[(∞,1)-pullback]] square.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+As before but dually, the diagram extends to a morphism of 
+[[homotopy cofiber]] diagrams of the form
+
+$$
+  \array{
+    \flat(\Pi_{dR} \Sigma^{-1} A) &\longrightarrow & \Pi_{dR}(\Omega A)
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat A &\stackrel{}{\longrightarrow}& A 
+    \\
+    \downarrow && \downarrow 
+    \\
+    \flat \Pi(A) &\stackrel{\simeq}{\longrightarrow}& \Pi(A) 
+  }
+  \,,
+$$
+
+and by [[cohesion]] the bottom horizontal morphism is an [[equivalence in an (infinity,1)-category|equivalence]].
+
+=--
+
+Combining these two statements yields the following.
+
++-- {: .num_cor #TheDifferentialDiagram}
+###### Corollary
+
+For $\mathbf{H}$ a [[cohesive (∞,1)-topos]]
+every [[stable homotopy type]] $A \in Stab(\mathbf{H}) \hookrightarrow T \mathbf{H}$ sits inside a [[diagram]] of the form
+
+$$
+  \array{
+    &&  \Pi_{dR} \Sigma^{-1} A && \longrightarrow && \flat_{dR}\Sigma A
+    \\
+    & \nearrow & & \searrow & & \nearrow && \searrow
+    \\
+    \flat (\Pi_{dR} \Sigma^{-1}A )&& && A && && \Pi(\flat_{dR}\Sigma A)
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow
+    \\
+    && \flat A && \longrightarrow && \Pi A
+  }
+  \,,
+$$
+
+where the two diagonals ar [[fiber sequences]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This kind of diagram under forming $\pi_0$ has been traditionally known from [[ordinary differential cohomology]] and from [[differential K-theory]], and had been used in proposals to axiomatize [[differential cohomology]]. Here we see that this holds fully generally for every stable cohesive homotopy type. If one still regards this diagram as characteristic of "differential" refinement it hence exhibits every cohesive stable type as a [[coefficients]] of _some_ [[differential cohomology]] theory. This is a strong version of the synthetic notion 
+"[[schreiber:differential cohomology in a cohesive topos]]" .
+
+=--
+
 
 
 ## Related concepts
