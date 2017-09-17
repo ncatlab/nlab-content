@@ -24,7 +24,7 @@
 
 ## Idea 
 
-A _topos_ is a [[category]] that looks like a category of [[space]]s that sit by [[local homeomorphism]]s over a given base space: all spaces that are _locally modeled on_ a given base space.
+There are many different perspectives on the notion of _topos_.  One useful one is that a topos is a [[category]] that looks like a category of [[space]]s that sit by [[local homeomorphism]]s over a given base [[space]]: all spaces that are _locally modeled on_ a given base space.
 
 The archetypical class of examples are [[sheaf topos]]es $Sh(X) = Et(X)$ over a [[topological space]] $X$: these are the categories of [[etale space]]s over $X$, topological spaces $Y$ that are equipped with a [[local homeomorphisms]] $Y \to X$. 
 
@@ -36,9 +36,13 @@ On the one hand this may be thought of as saying that toposes are _very nice cat
 
 On the other hand, by de-emphasizing the geometric interpretation of their objects and just using their good abstract properties, this means that toposes are contexts with a powerful [[internal logic]]. The internal logic of toposes is [[intuitionistic logic|intuitionistic]] [[higher order logic]]. This means that, while the [[law of excluded middle]] and the [[axiom of choice]] may fail, apart from that, every logical statement not depending on these does hold [[internalization|internal to]] _every_ topos.
 
-For this reason toposes are often studied as abstract contexts "in which one can do mathematics", disregarding their interpretation as categories of spaces. The two equivalent points of views on toposes, as being about geometry and about logic at the same time, is part of the richness of topos theory.
+For this reason toposes are often studied as abstract contexts "in which one can do mathematics", independently of their interpretation as categories of spaces. These two points of views on toposes, as being about geometry and about logic at the same time, is part of the richness of topos theory.
 
+On a third hand, however, we can de-emphasize the role of the objects of the topos and instead treat the topos itself as a "generalized space" (and in particular, a [[categorification|categorified]] space).  We then consider the topos $Sh(X)$ as a representative of $X$ itself, while toposes not of this form are "honestly generalized" spaces.  This point of view is supported by the fact that the assignment $X\mapsto Sh(X)$ is a full embedding of (sufficiently nice) spaces into toposes, and that many topological properties of a space $X$ can be detected at the level of $Sh(X)$.  (This is even more true once we pass to [[(∞,1)-toposes]].)
 
+From this point of view, the objects of a topos (regarded as a category) should be thought of instead as *sheaves on* that topos (regarded as a generalized space).  And just as sheaves on a topological space can be identified with local homeomorphisms over it, such "sheaves on a topos" (i.e. objects of the topos *qua* category) can be identified with other *toposes* that sit over the given topos via a [[etale geometric morphism|local homeomorphism of toposes]].
+
+Finally, mixing this point of view with the second one, we can regard toposes over a given topos $E$ instead as "toposes in the $E$-world of mathematics."  For this reason, theory of toposes over a given base is formally quite similar to that of arbitrary toposes.  And coming full circle, this fact allows the use of "base change arguments" as a very useful technical tool, even if our interest is only in one or two particular toposes *qua* categories.
 
 
 ## Definition 
