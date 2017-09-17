@@ -26,7 +26,13 @@ The definition of absolute Hodge cohomology originates around
 
 see also the references at _[[Hodge theory]]_ for background.
 
-A review with an eye towards [[differential algebraic K-theory]] and in terms of [[differential forms with logarithmic singularities]] is in 
+Application to [[Beilinson regulators]] appeaits in 
+
+* [[Jose Ignacio Burgos]] and Steve Wang, _Higher Bott-Chern forms and Beilinson's regulator_, Invent. Math. 132 (1998), no. 2, 261{305. MR 1621424 (99j:14008)
+
+and then with application to [[differential algebraic K-theory]] and in terms of [[differential forms with logarithmic singularities]] is in 
 
 * {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], section 3.1 of _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
  
+
+[[!redirects absolute Hodge cohomology]]
