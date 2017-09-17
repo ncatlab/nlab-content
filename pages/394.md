@@ -1,16 +1,21 @@
+
+# Essentially surjective functors
+* table of contents
+{: toc}
+
 ## Idea
 
-A [[functor]] $F:C\to D$ is **essentially surjective**, or **essentially surjective on object** (sometimes abbreviated to **eso**), if it is surjective on objects "up to isomorphism".
+A [[functor]] $F\colon C \to D$ is **essentially surjective**, or **essentially surjective on objects** (sometimes abbreviated to **eso**), if it is surjective on objects "up to isomorphism".
+
 
 ## Definition
 
-$F:C\to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.
+$F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.
+
 
 ## Examples
 
 * A functor between [[discrete categories]] (or, more generally, [[skeletal categories]]) is essentially surjective iff it is a [[surjective function]] between the classes of objects.
-
-## Properties
 
 * Any [[bijective-on-objects functor]] is essentially surjective.
 
@@ -18,12 +23,19 @@ $F:C\to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, the
 
 * If $g f$ is essentially surjective, then $g$ is essentially surjective.
 
-* An essentially surjective functor is additionally [[fully faithful functor|fully faithful]] precisely when it is an [[equivalence of categories]].  In fact, there is an [[factorization system in a 2-category|orthogonal factorization system]] (in the up-to-isomorphism 2-categorical sense) on $Cat$, in which eso functors are the left class and fully faithful functors are the right class.
+* An essentially surjective functor is additionally [[fully faithful functor|fully faithful]] precisely when it is an [[equivalence of categories]].
+
+
+## Properties
+
+* Strengthening the last example, there is an [[factorization system in a 2-category|orthogonal factorization system]] (in the up-to-isomorphism [[strict 2-category|strict]] sense) on $Cat$, in which eso functors are the left class and fully faithful functors are the right class.
 
   This is an "up-to-isomorphism" version of the [[bo-ff factorization system]], which is a 1-categorical orthogonal factorization system on $Cat$ in which the left class consists of [[bijective-on-objects functors]].  Thus essentially surjective is a non-[[evil]] version of "bijective on objects", i.e. the version which views $Cat$ as a bicategory.
 
 * In any 2-category there is a notion of [[eso morphism]] which generalizes the essentially surjective functors in [[Cat]].  In a [[regular 2-category]], these form a [[factorization system in a 2-category]] together with the [[ff morphisms]].
 
+
+[[!redirects essentially surjective functor]]
 [[!redirects essentially surjective functors]]
 [[!redirects essentially surjective on objects functor]]
 [[!redirects essentially surjective on objects functors]]
