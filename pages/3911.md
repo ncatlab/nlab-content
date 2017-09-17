@@ -49,7 +49,7 @@ $$
 $$
 where $\tau$ is called the [[Pontrjagin-Thom collaps map]].
 
-Explicitly, as sets we have $\Sigma^n B_+ \simeq B \times \mathbb{R}^n \cup \{\infty\}$ and $Th(N_{(e,p)}(E)) = N_{(e,p)} \cup \{\infty\}$, and for $U \subset \Sigma^n B_+$ a tubular neightbourhood of $E$ and $\phi : U \to D(N_{(e,p)}(E))$ an isomorphism, the map 
+Explicitly, as sets we have $\Sigma^n B_+ \simeq B \times \mathbb{R}^n \cup \{\infty\}$ and $Th(N_{(e,p)}(E)) = N_{(e,p)} \cup \{\infty\}$, and for $U \subset \Sigma^n B_+$ a tubular neightbourhood of $E$ and $\phi : U \to N_{(e,p)}(E)$ an isomorphism, the map 
 
 $$
   \tau : \Sigma^n B_+ \stackrel{}{\to} Th(N_{(p,e)}(E))
@@ -106,6 +106,11 @@ This operation is independend of the choices involved. It is the **fiber integra
 
 ## Examples
 
+When $B$ is a point, one obtains integration aginst the fundamental class of $E$, 
+$$
+\int_E:H^\bullet(E)\to H^{\bullet-dim E}(*)
+$$
+taking values in the coefficients of the given chomology theory. Note that in this case $\Sigma^n B_+=S^n$, and this hints to a relationship between the Thom-Pontryagin construction and [[Spanier-Whitehead duality]]. And indeed [[Atiyah duality]] gives a homotopy equivalence between the [[Thom spectrum]] of the stable normal bundle of $E$ and the Spanier-Whitehead dual of $E$.
 ...
 
 ## References
