@@ -280,6 +280,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[intensional type theory]], [[observational type theory]], [[extensional type theory]]
 
+* [[type-theoretic model category]], [[fibrant type]]
+
 * [[synthetic homotopy theory]]
 
 * [[HoTT methods for homotopy theorists]]
