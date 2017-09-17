@@ -127,6 +127,9 @@ The Kochen-Specker theorem is equivalent to the statement that in the presheaf [
 
 * [[Bohr topos]]
 
+* [[hidden variable theory]]
+
+* [[Bell's inequalities]]
 
 ## References
 
