@@ -68,7 +68,7 @@ For $X,Y \in \mathcal{C}^{\ast/}$ two [[pointed objects]] in $\mathcal{C}$, thei
 $$
   X \wedge Y
   \coloneqq
-  1_{\mathcal{C}} \underset{(X \otimes \ast)\coprod (Y \otimes \ast)}{\coprod} (X \otimes Y)
+  \ast \underset{(X \otimes \ast)\coprod (Y \otimes \ast)}{\coprod} (X \otimes Y)
 $$
 
 regarded as a pointed object via the induced [[co-projection]] from $\ast$.
