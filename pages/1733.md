@@ -16,3 +16,8 @@ Algebraic topology is generally the study of [[functor]]s from [[nice categories
 *  [[model category]], [[model structure on topological spaces]], [[homotopy category]]
 *  [[fibration sequence]], [[cofibration sequence]] 
 *  [[Freudenthal suspension theorem]], [[Whitehead theorem]] 
+
+
+## Online resources
+
+There is [a thread on this at MathOverflow](http://mathoverflow.net/questions/18041/algebraic-topology-beyond-the-basicsany-texts-bridging-the-gap).
