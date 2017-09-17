@@ -49,6 +49,8 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in the category [[Grp]] of [[groups]] is a [[simplicial group]]. See also [[Dold-Kan correspondence]].
 
+* A simplicial object in the category of [[topological group]]s is a [[simplicial topological group]].
+
 * A simplicial object in [[Ring]] is a [[simplicial ring]].
 
 * A cosimplicial object in the category of [[rings]] ([[algebras]]) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
@@ -128,7 +130,9 @@ $$
 
 =--
 
+## References
 
+* [[Peter May]], _Simplicial objects in algebraic topology_ University of chicago press, 1967, ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 
 
 [[!redirects simplicial objects]]
