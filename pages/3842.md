@@ -36,11 +36,14 @@ bijection with left-exact-reflective subcategories of a presheaf
 category, i.e. geometric subtoposes.  You can define a subtopos in
 other ways, but it will always end up being *equivalent* to one
 determined by a Grothendieck topology on $C$.
+
+[[Urs Schreiber]]: Yes, the $n$Lab is your friend, just follow its links: [[category of sheaves]].
+
 =--
 
 ## In higher category theory
 
-For [[( ,1)-category]] theory see [[( ,1)-category of ( ,1)-presheaves]].
+For [[(∞,1)-category]] theory see [[(∞,1)-category of (∞,1)-presheaves]].
 
 [[!redirects categories of presheaves]]
 [[!redirects presheaf category]]
