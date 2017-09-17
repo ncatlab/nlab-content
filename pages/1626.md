@@ -107,6 +107,8 @@ As a contrast to a path-connected space, a **totally path-disconnected** space i
 
 * [[almost connected topological group]]
 
+* A space in which the only connected subspaces are the singletons and the empty set is called [[totally disconnected space]].
+
 
 [[!redirects connected space]]
 [[!redirects connected spaces]]
@@ -140,10 +142,6 @@ As a contrast to a path-connected space, a **totally path-disconnected** space i
 [[!redirects locally path-connected topological space]]
 [[!redirects locally path-connected topological spaces]]
 
-[[!redirects totally disconnected space]]
-[[!redirects totally disconnected spaces]]
-[[!redirects totally disconnected topological space]]
-[[!redirects totally disconnected topological spaces]]
 
 [[!redirects connected component]]
 [[!redirects connected components]]
