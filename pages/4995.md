@@ -205,92 +205,86 @@ This encodes the [[concrete (∞,1)-sheaf|concrete]] objects in $\mathbf{H}$.
 
 ### Infinitesimal objects {#InfinitesimalObjects}
 
-On a cohesive $(\infty,1)$-topos there are canonical natural 
-transformations $\Gamma \to \Pi$ and $Disc \to CoDisc$ that are themselves
-adjoint to each other in a sense described below. 
++-- {: .un_def}
+###### Definition
+
+An object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ for which
+
+$$
+  \Pi \mathbf{B}\mathfrak{g} \simeq *
+$$ 
+
+and
+
+$$
+  \Gamma \mathbf{B}\mathfrak{g} \simeq *
+$$
+
+we call an **infinitesimal object**.
+
+Write
+
+$$
+  \mathbf{L}\hookrightarrow \mathbf{H} 
+$$
+
+for the full [[sub-(∞,1)-category]] on infinitesimal objects.
+
+=--
 
 +-- {: .un_def}
 ###### Definition
 
-Let 
+Define
 
 $$
-  \alpha
-  :
-  (\mathbf{\flat}
-  \to
-  \mathbf{\Pi})
-  :=
-  (
-  Disc \Gamma
-  \stackrel{\epsilon}{\to} 
-  Id
-  \stackrel{\iota}{\to}
-  Disc \Pi
-  )
+  */\mathbf{H}
+  \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\underset{\mathbf{\flat}_{dR}}{\to}}
+  \mathbf{H}
 $$
 
-be the composite of of the counit of $(Disc \dashv \Gamma)$ with the unit of $(\Pi \dashv Disc)$.
-
-This induces
-
-$$
-  \Gamma(\alpha) : \Gamma \to \Pi
-$$
-
-By the [[(∞,1)-Yoneda lemma]] composite transformation natural in $X$
+by forming the [[(∞,1)-pullback]]
 
 $$
   \array{
-     \mathbf{H}(X, CoDisc A)
-     &\stackrel{\simeq}{\leftarrow}& 
-     \mathbf{S}(\Gamma X, A)
-     \\
-     {}^{\mathllap{\Gamma(\alpha)}}\downarrow
-     \\
-     \mathbf{H}(X, Disc A)
-     &\stackrel{\simeq}{\to}&
-     \mathbf{S}(\Pi X, A)
+    \mathbf{\flat}_{dR} A &\to& Disc \Gamma A
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& A
   }
 $$
 
-defines an adjoint transformation
+and the [[(∞,1)-colimit|(∞,1)-pushout]]
 
 $$
-  CoDisc \to Disc
+  \array{
+    X &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    Disc \Pi X &\to& \mathbf{\Pi}_{dR}X
+  }
+  \,.
+$$
+
+Write
+
+$$
+  Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}
   \,.
 $$
 
 =--
 
++-- {: .un_prop}
+###### Proposition
 
-+-- {: .un_def}
-###### Definition
-
-Write 
-
-$$
-  \mathbf{L} \hookrightarrow \mathbf{H}
-$$
-
-for the full [[sub-(∞,1)-category]] on those objects $X \in \mathbf{H}$ for which $\mathbf{\flat}X \to \mathbf{\Pi}X$ and hence $\Gamma X \to \Pi X$ is an [[equivalence in a quasi-category|equivalence]] in [[∞Grpd]].
-
-We call this the sub-$(\infty,1)$-category of **infinitesimally thickened discrete objects** of $\mathbf{H}$.
+For $A \in \mathbf{H}$ we have $Lie A \in \mathbf{L} \hookrightarrow \mathbf{H}$.
 
 =--
-
-
 
 Examples of objects in $\mathbf{L}$ are _infinitesimal_ cohesive $\infty$-groups: [[∞-Lie algebroid|∞-Lie algebras]] $\mathbf{B}\mathfrak{g}$. For the moment, see there for more details in this.
-
-The coreflector $Lie : \mathbf{H} \to \mathbf{L}$ acts as discretization combined with Lie-differentiation: for $\mathbf{B}\mathfrak{h} \in \mathbf{L} \hookrightarrow \mathbf{H}$ and $\mathbf{B}G \in \mathbf{H}$ we have
-
-$$
-  \mathbf{H}(\mathbf{B}\mathfrak{h}, \mathbf{B}G)
-  \simeq
-  \mathbf{H}(\mathbf{B}\mathfrak{h}, Lie(\mathbf{B}G))
-  \,.
-$$
 
 
 ### Concordance {#Concordance}
