@@ -1,6 +1,27 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
+
+
+* [[group cohomology]]
+
+  * **nonabelian group cohomology**, [[groupoid cohomology]]
+
+* [[group extension]]
+
+* [[Lie group cohomology]] 
+
+  * [[∞-Lie groupoid cohomology]]
+
+***
+
 
 This entry largely discusses [[Schreier theory]] of nonabelian [[group extension]]s -- but from the [[nPOV]].
 
