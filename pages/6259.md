@@ -235,6 +235,8 @@ See at _[intermediate Jacobian -- For complex K-theory](intermediate+Jacobian#Fo
 
 [[!include square roots of line bundles - table]]
 
+* [[bosonization]]
+
 * [[higher dimensional Chern-Simons theory]]
 
 * [[holographic principle]], [[AdS-CFT]]
@@ -272,7 +274,7 @@ Original reference on self-dual/chiral fields include
 
 The chiral boson in 2d is discussed in detail in 
 
-* {#GBMNV} [[Luis Alvarez-Gaumé]], J.-B. Bost, [[Greg Moore]], P. Nelson, [[Cumrun Vafa]], _Bosonization On Higher Genus Riemann Surfaces_, Commun. Math. Phys. 112 (1987) 503. 
+* {#GBMNV} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Greg Moore]], P. Nelson, [[Cumrun Vafa]], _Bosonization On Higher Genus Riemann Surfaces_, Commun. Math. Phys. 112 (1987) 503. 
 
 A quick exposition of the basic idea is in
 
