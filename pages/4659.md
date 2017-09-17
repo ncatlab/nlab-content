@@ -49,6 +49,10 @@ An infinite-dimensional generalization of semisimple Lie algebras are [[Kac-Mood
 
 * Robert Cahn, _Semisimple Lie algebras and their representation_ ([pdf](http://phyweb.lbl.gov/~rncahn/www/liealgebras/texall.pdf))
 
+Basics of the representation theory of semisimple Lie algebras is surveyed in 
+
+* [[Joseph Bernstein]], _Lectures on Lie Algebras_, in:
+Representation Theory, Complex Analysis and Integral Geometry, Birkhauser (2012), 97-133, [pdf](http://wwwmath.tau.ac.il/~bernstei/Publication_list/publication_texts/bernsteinLieNotes_book.pdf)
 
 [[!redirects semisimple Lie algebra]]
 [[!redirects semisimple Lie algebras]]
