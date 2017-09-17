@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The _[[Leray spectral sequence]]_ is the special case of the Grothendieck spectral sequence for the case where the two functors being composed are a [[direct image|push-foward]] of [[sheaves]] of [[abelian groups]] along a [[continuous map]] $f : X \to Y$ followed by the push-forward $X \to *$ to the point. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
+
+## Properties
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $X, Y$ be suitable [[sites]] and $f : X \to Y$ be a morphism of sites. () Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bulle(Sh(Y,Ab))$ be the [[model structure on chain complexes|model categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
+
+$$
+  \Gamma_X : \mathcal{C} \stackrel{f_*}{\to} \mathcal{D} \stackrel{\Gamma_Y}{\to} Ch_\bullet(Ab)
+  \,.
+$$
+
+Then for $A \in Sh(X,Ab)$ a sheaf of abelian groups on $X$ there is a cohomology spectral sequence
+
+$$
+  E_r^{p,q} := H^p(Y, R^q f_* A)
+$$
+
+that converges as
+
+$$
+  E_r^{p,q} \Rightarrow H^{p+q}(X, A)
+$$
+
+and hence computes the cohomology of $X$ with coefficients in $A$ in terms of the cohomology of $Y$ with coefficients in the push-forward of $A$.
+
+=--
