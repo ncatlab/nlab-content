@@ -155,7 +155,14 @@ $$
   \,.
 $$
 
+## Examples
+
+* [[K-invariants]]
+
+* [[universal characteristic class]]
+
 ## Related concepts
+
 
 * [[universal characteristic class]];
 
