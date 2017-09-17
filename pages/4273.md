@@ -3,6 +3,7 @@
 
 ## related $n$Lab entries
 
-* [[factorizationn algebra]]
+* [[factorization algebra]]
+
 
 category: people
