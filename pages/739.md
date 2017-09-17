@@ -111,9 +111,11 @@ Any group has a [[profinite completion of a group|profinite completion]].
 
 ## Analogues of the group algebra construction
 
-If $G$ is a profinite or pro-p group, the best replacement for the group algebra of $G$  in this context will be  a [[pseudocompact algebra]].  This is the completed group algebra defined as the inverse limit of the ordinary group algebras $k[G/U]$ as $U$ varies through the open normal subgroups of $G$. Here the coefficient ring $k$ will be chosen itself to be a [[pseudocompact ring]]. As finite rings are pseudocompact, one of the most appropriate choices will be a $k = \mathbb{Z}_p$, the field of $p$ elements; (see the book by Dixon et al, below).
+If $G$ is a profinite or pro-p group, the best replacement for the group algebra of $G$  in this context will be  a [[pseudocompact ring|pseudocompact algebra]].  This is the completed group algebra defined as the inverse limit of the ordinary group algebras $k[G/U]$ as $U$ varies through the open normal subgroups of $G$. Here the coefficient ring $k$ will be chosen itself to be a [[pseudocompact ring]]. As finite rings are pseudocompact, one of the most appropriate choices will be a $k = \mathbb{Z}_p$, the field of $p$ elements; (see the book by Dixon et al, below).
 
 ## Related concepts
+
+* [[pro-object]]
 
 * [[profinite completion of a group]]
 
@@ -130,7 +132,7 @@ Introductory lectures include
 * [[Hendrik Lenstra]], _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
  {#Lenstra}
 
-A recent textbook is
+A fairly recent textbook is
 
 * L. Ribes and P. Zalesskii, 2000, _Profinite groups_, volume 40 of Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge, Springer-Verlag, 
 Berlin. 
