@@ -1,0 +1,5 @@
+_Spectral networks_ were introduced in
+
+* Davide Gaiotto, Gregory W. Moore, Andrew Neitzke, _Spectral networks_, [arxiv/1204.4824](http://arxiv.org/abs/1204.4824)
+
+[[!redirects spectral networks]]
