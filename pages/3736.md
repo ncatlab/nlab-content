@@ -746,6 +746,9 @@ $$
 
 establishes an equivalence of an algebraic with the standard geometric model for $(\infty,1)$-categories.
 
+## Related concepts
+
+* [[algebraic model category]]
 
 ## References
 
