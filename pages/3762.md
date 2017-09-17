@@ -23,6 +23,13 @@ There are several articles trying to attach zeta functions attached to [[triangu
 
 ## References
 
+### General
+
+A general review is in 
+
+* [[Alain Connes]], [[Matilde Marcolli]], chapter II of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+
 
 ### In algebraic geometry
 
