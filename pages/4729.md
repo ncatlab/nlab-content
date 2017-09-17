@@ -427,7 +427,7 @@ where the sum is over all higher brackets of the [[L-∞ algebra]] $\mathfrak{g}
 +-- {: .proof}
 ###### Proof
 
-This is the result of applying the contraction $\itota_{\partial s}$ to the defining equation for the [[curvature]] $F_A$ of $A$ using the nature of the [[Weil algebra]]:
+This is the result of applying the contraction $\iota_{\partial s}$ to the defining equation for the [[curvature]] $F_A$ of $A$ using the nature of the [[Weil algebra]]:
 
 $$
   F_A = d_{dR} A + [A \wedge A] + [A \wedge A \wedge A] + \cdots
