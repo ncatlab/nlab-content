@@ -1208,15 +1208,17 @@ We base the formulation of [[physics]]/[[string theory]] on the [[foundations]] 
 
 Traditionally a _[[homotopy type]]_ is a [[topological space]] regarded up to [[weak homotopy equivalence]]. This is very different from regarding it up to [[homeomorphism]] and instead views it as an [[∞-groupoid]]: its [[fundamental ∞-groupoid]]. This models [[homotopy]] and hence [[gauge transformations]], but does not yet model [[geometry]]. 
 
-More generally, there are _geometric homotopy types_, traditionally called [[∞-stacks]] or [[(∞,1)-sheaves]].
+More generally, there are _geometric homotopy types_, traditionally called [[∞-stacks]] or [[(∞,1)-sheaves]]. The [[categorical semantics|interpretation]] of [[homotopy type theory]] that these form is an _[[(∞,1)-topos]]_ $\mathbf{H}$. 
+
+
 
 
 #### Cohomology
 
-(...)
+A [[group object in an (infinity,1)-category|group object]] in an [[(∞,1)-topos]] is a groupal [[A-∞ algebra|A-∞]]-homotopy type: an _[[∞-group]]_.
 
 
-[[looping and delooping]]
+By [[looping and delooping]] there is an [[equivalence of (∞,1)-categories|equivalence]]
 
 $$
   Grp(\mathbf{H})
@@ -1224,14 +1226,44 @@ $$
   \mathbf{H}_{\geq 1}^{*/}
 $$
 
-$$
-  H^n(X,A) \coloneqq \pi_0 \mathbf{H}(X, \mathbf{B}^n A)
-$$
+between group objects and [[pointed object|pointed]] [[connected object in a (∞,1)-topos|connected]] homtopy types.
+
+For $A$ a group object which admits an $n$-fold [[delooping]] $\mathbf{B}^n A$ and $X \in \mathbf{H}$ any object, we write
+
+* $\mathbf{H}(X, \mathbf{B}^n A)$ for the space of degree-$n$ $A$-cocycles on $X$;
+
+* $H^n(X,A) \coloneqq \pi_0 \mathbf{H}(X, \mathbf{B}^n A)$
+
+  for the degree-$n$ $A$-[[cohomology]] of $X$.
 
 
 #### Principal bundles
 
-(...)
+For $G \in Grp(\mathbf{H})$, $G$-cocycles on $X$ have an equivalent geometric interpretation as $G$-[[ptincpal ∞-bundles]]: morphisms
+
+$$
+  \array{
+    P 
+    \\
+    \downarrow
+    \\
+    X
+  }
+$$
+
+equipped with a $G$-[[action]] $\rho : P \times G \to P$ such that the [[(∞,1)-colimit|∞-quotient]] of the action is $X$.
+
+$$
+  \mathbf{H}(X, \mathbf{B}G)
+   \stackrel{\overset{\underset{\to}{\lim}{\to}}{\leftarrow}}{\underoverset{fib}{\simeq}{\to}}
+  G Bund(X)    
+$$
+
+([NSS](#NSS))
+
+
++-- {: .num_remark }
+###### Remark
 
 
 $g : X \to \mathbf{B}G$
@@ -1255,55 +1287,105 @@ $$
   \end{aligned}
 $$
 
+(...)
+
+=--
+
 #### Twisted cohomology
  {#TwistedCohomology}
 
+
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{B}G \in \mathbf{H}$, the collection of morphisms into $\mathbf{B}G$ is the [[slice (∞,1)-topos]] $\mathbf{H}_{/ \mathbf{B}G}$.
+
+The [[cohomology]] of $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as follows
+
+1. a coefficient object $\mathbf{c} : E \to \mathbf{B}G$ is a _universal bundle of coefficients_;
+
+1. a domain object $\phi : X \to \mathbf{B}G$ is a _twisting bundle_;
+
+1. a [[cocycle]] 
+
+   $$
+     \array{
+       X &&\stackrel{\sigma}{\to}&& E
+       \\
+       & {}_{\mathllap{\phi}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{c}}}
+       \\
+       && \mathbf{B}G
+     }
+   $$ 
+
+   is a [[section]] of the [[(∞,1)-pullback]] bundle $\phi^* E \to X$;
+
+* the [[cohomology]] 
+
+  $$
+    \mathbf{c}Struc_{\phi}(X)
+    \coloneqq
+    \mathbf{c}(\phi)
+    \coloneqq
+    \mathbf{H}_{/\mathbf{B}G}(\phi, \mathbf{c})
+  $$
+
+  is the $\phi$-[[twisted cohomology]] of $X$ (with coefficients in the [[homotopy fiber]] $F$ of $\mathbf{c}$).
 
 +-- {: .num_remark }
 ###### Remark
 
 
-Let 
-
-$$
-  \array{
-    F &\to& A
-    \\
-    && \downarrow^{\mathrlap{p}}
-    \\
-    && B 
-  }
-$$
-
-be a universal coefficient $\infty$-bundle
-and let $\phi : X \to B$ be a twist. Then the $\phi$-twisted $F$-cohomology is equivalent to the sections of the [[homotopy pullback|pullback]]-bundle $\phi^* A$, in fact there is an [[equivalence in an (infinity,1)-category|equivalence]] of [[cocycles]]
-
-$$
-  [X,A]_{(\phi, \mathbf{c})} \simeq \Gamma_X(\phi^* A)
-  \,.
-$$
-
-
 Equivalently, in the [[syntax]] of [[homotopy type theory]], this is the statement
 
 $$
-  b : B \vdash (X(b) \to A(b)) : Type
+  \vdash \prod_{b \in \mathbf{B}G} (X(b) \to E(b)) : Type
   \;\;
   =
   \;\;
-  b : B \vdash \prod_{x : X(b)} A(\phi(x)) : Type
+  \vdash \prod_{b \in \mathbf{B}G} \prod_{x : X(b)} E(\phi(x)) : Type
   \,.
 $$
 
-While on the right this expresses the collection of the pullback bundle, the left hand side expresses explicitly a $B$-parameterized collection of cocycles $X(b) \to A(b)$.
+While on the right this expresses the collection of sections of the pullback bundle, the left hand side expresses explicitly a $\mathbf{B}G$-parameterized collection of cocycles $X(b) \to E(b)$.
 
 =--
 
 #### Associated and twisted bundles
 
-(...)
+For
+
+$$
+  \array{
+    \mathbf{B}A &\to& \mathbf{B}\hat G
+    \\
+    && \downarrow^{\mathrlap{\mathbf{c}}}
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+a universal coefficient bundle in $\mathbf{H}$ and $\phi : X \to \mathbf{B}G$ a twist and $\sigma : X \to \mathbf{B}\hat G$ a section, hence a cocycle in $\phi$-[[twisted cohomology]], the corresponding geometric object is the [[twisted ∞-bundle]] $\tilde \sigma$ on the total space $P$ of $\phi$
+
+$$
+  \array{
+    \tilde P &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    P &\stackrel{\tilde \sigma}{\to}& \mathbf{B}A &\to& * 
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X 
+     &\stackrel{\sigma}{\to}&
+   \mathbf{B}\hat G
+     &\stackrel{\mathbf{c}}{\to}&
+   \mathbf{B}G
+  }
+  \,.
+$$
+
 
 ### Cohesive homotopy-type theory
+
 
 
 
@@ -1338,6 +1420,9 @@ The smooth and differential refinements of these structures have been jointly de
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
+ {#NSS}
 
 A general theory of smooth homotopy-type theory is laid out in 
 
