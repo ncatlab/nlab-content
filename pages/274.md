@@ -122,7 +122,7 @@ $$
 
 are in fact [[isomorphisms]] / [[bijections]] of sets. This property of the [[nerve]] of an ordinary category goes by the name _Segal condition_ and is what gave Segal categories its name.
 
-
+One may also form the $n$-fold [[comma object]]-fiber product of a choice of base points $\pi_0(C) \to C$ with itself. This yields a Segal category incarnation of $C$ where in degree 1 we have the [[groupoid]] [[core]] of the [[arrow category]] of $C$. For more on this see at _[Segal space -- Examples - From a category](Segal+space#ConstructionFromACategory)_.
 
 ## Related concepts
 
