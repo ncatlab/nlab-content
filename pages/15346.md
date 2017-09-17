@@ -9,6 +9,8 @@ one version of [[analytic spaces]] over [[nonarchimedean fields]].
 
 * [[perfectoid space]]
 
+* [[global analytic geometry]]
+
 
 ## References
 
@@ -24,6 +26,7 @@ Review with an eye towards [[perfectoid spaces]] is in
 
 * [[Peter Scholze]], section 2 of _Perfectoid spaces_ ([arXiv:1111.4914](http://arxiv.org/abs/1111.4914))
 
+[[!redirects Huber spaces]]
 
 [[!redirects Huber adic space]]
 [[!redirects Huber adic spaces]]
