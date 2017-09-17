@@ -846,3 +846,6 @@ For more on the pre-history of the notion of cohomology see
 
 
 [[!redirects cohomologies]]
+
+[[!redirects cohomology class]]
+[[!redirects cohomology classes]]
