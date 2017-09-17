@@ -93,3 +93,4 @@ technical reports, CEA, Saclay (2006).
 
 
 
+[[!redirects directed algebraic topology]]
