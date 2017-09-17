@@ -55,14 +55,14 @@ be the [[(2,1)-category]] of [[span]]s of [[finite set]]s:
     }
   $$
 
-  in [[FinSet]] whith the vertical morphism an [[isomorphism]].
+  in [[FinSet]] with the vertical morphism an [[isomorphism]].
 
 =--
 
 +-- {: .un_prop}
 ###### Observation
 
-The [[homotopy category of an (infinity,1)-category|homtopy category]] of $2Comm$ is the category $Comm$ that is the [[Lawvere theory]] of commutative [[monoid]]s.
+The [[homotopy category of an (infinity,1)-category|homotopy category]] of $2Comm$ is the category $Comm$ that is the [[Lawvere theory]] of commutative [[monoid]]s.
 
 =--
 
@@ -78,7 +78,7 @@ $$
   f : F[k] \to F[l]
 $$
 
-are in natural bikection to $k$-tuples of elements of $F[l]$. Such elements in turn are sums $a_1 + a_1 + \cdots + a_1 + a_2 + a_2 + \cdots + a_2 + a_3 + \cdots$ of copies of the $l$ generators, hence are in bijection to sequences of natural numbers $(n_{1}, \cdots, n_l)$. Hence morphisms $f : F[k] \to F[l]$ are in bijection to $k \times l$-[[matrices]] with entries in the [[natural number]]s. 
+are in natural bijection to $k$-tuples of elements of $F[l]$. Such elements in turn are sums $a_1 + a_1 + \cdots + a_1 + a_2 + a_2 + \cdots + a_2 + a_3 + \cdots$ of copies of the $l$ generators, hence are in bijection to sequences of natural numbers $(n_{1}, \cdots, n_l)$. Hence morphisms $f : F[k] \to F[l]$ are in bijection to $k \times l$-[[matrices]] with entries in the [[natural number]]s. 
 
 One checks that under this identification composition of morphisms corresponds to matrix multiplication.
 
