@@ -321,6 +321,11 @@ Discussion of etale morphisms between [[E-infinity rings]]/[[spectral schemes]] 
 
 * [[Jacob Lurie]], section 8.5 of _[[Higher Algebra]]_
 
+and generally in [[E-∞ geometry]] in 
+
+* [[Jacob Lurie]], section 1.2 of _[[Quasi-Coherent Sheaves and
+Tannaka Duality Theorems]]_
+
 [[!redirects étale morphism of schemes]]
 
 [[!redirects etale morphisms of schemes]]
