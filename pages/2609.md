@@ -1,4 +1,4 @@
-* [Webpage](http://people.fas.harvard.edu/~amathew/)
+* [Webpage](http://math.berkeley.edu/~amathew/)
 
 * [[Akhil Mathew]], The Galois group of a stable homotopy theory, [arXiv](http://arxiv.org/abs/1404.2156).
 
