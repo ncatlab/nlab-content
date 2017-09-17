@@ -30,11 +30,11 @@ Let $V$ be a finitely generated free module over a commutative ring $R$, and let
 ###### Proof 
 Via $\phi_f$, regard $V$ as an $R[t]$-module, and with regard to some $R$-basis $\{v_i\}_{1 \leq i \leq n}$ of $V$, represent $f$ by a matrix $A$. Now consider $t \cdot I_n - A$ as an $n \times n$ matrix $B(t)$ with entries in $R[t]$. By definition of the module structure, this matrix $B(t)$, seen as acting on $V^n$, annihilates the length $n$ column vector $c$ whose $i^{th}$ row entry is $v_i$. 
 
-By the previous lemma, there is $\tilde{B}(t)$ such that $\tilde{B}(t) B(t)$ is $\det(t \cdot I_n - f)$ times the identity matrix. It follows that 
+By the previous lemma, there is $\tilde{B}(t)$ such that $\tilde{B}(t) B(t)$ is $\det(t \cdot I_n - A)$ times the identity matrix. It follows that 
 
-$$\det(t \cdot I_n - f) V = \tilde{B}(t) B(t) c = \tilde{B}(t) 0 = 0$$ 
+$$\det(t \cdot I_n - A) c = \tilde{B}(t) B(t) c = \tilde{B}(t) 0 = 0$$ 
 
-i.e., $\det(t \cdot I_n - f) \cdot v_i = 0$ for each $i$. Since the $v_i$ form an $R$-basis, the $R[t]$-scalar $\det(t \cdot I_n - f)$ annihilates the $R[t]$-module $V$, as was to be shown. 
+i.e., $\det(t \cdot I_n - A) \cdot v_i = 0$ for each $i$. Since the $v_i$ form an $R$-basis, the $R[t]$-scalar $\det(t \cdot I_n - A)$ annihilates the $R[t]$-module $V$, as was to be shown. 
 =-- 
 
 The Cayley-Hamilton theorem easily generalizes to finitely generated $R$-modules (not necessarily free) as follows. Let $f \colon V \to V$ be a module endomorphism, and suppose $\pi \colon R^n \to V$ is an epimorphism. Since $R^n$ is projective, the map $f \circ \pi$ can be lifted through $\pi$ to a map $A \colon R^n \to R^n$. Let $P(t)$ be the characteristic polynomial of $A$. 
