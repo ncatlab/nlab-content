@@ -43,7 +43,7 @@ An **elliptic curve** over a  [[commutative ring]] $R$ is a [[group object]] in 
 +-- {: .num_remark}
 ###### Remark
 
-This implies that an elliptic curva has [[genus|genus of a surface]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
+This implies that an elliptic curve has [[genus|genus of a surface]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
 
 =--
 
@@ -54,6 +54,7 @@ An elliptic curve over a [[field]] of [[positive number|positive]] [[characteris
 
 =--
 
+Elliptic curves are examples of solutions to [[Diophantine equations]] of degree 3.
 
 ### Over the complex numbers
 
@@ -186,6 +187,11 @@ Classical accounts of the general case include
 * [[Pierre Deligne]], _Courbes Elliptiques: Formulaire (d'apres J. Tate)_ ([web](http://modular.math.washington.edu/Tables/antwerp/deligne/))
 
 * Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024)
+
+Discussion of elliptic curves over the [[p-adic numbers]] includes
+
+* Rosa Winter, _Elliptic curves over $\mathbb{Q}_p$_, 2011 ([pdf](http://www.math.leidenuniv.nl/scripties/BachWinter.pdf))
+
 
 See also
 
