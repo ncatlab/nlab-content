@@ -24,6 +24,12 @@ A [[manifold]], possibly [[infinite dimensional manifold|infinite-dimensional]],
 
 One should note that this usage of the adjective 'convenient' is different to that in 'convenient category', for example of smooth spaces. In that case the _category_ is convenient, whereas here the _objects_ are convenient.
 
+## Properties 
+
+### Embedding into the Cahiers-topos
+
+Together with [[convenient vector spaces]], convenient manifods embed into the [[Cahier topos]] of [[synthetic differential geometry|synthetic differential]] [[smooth spaces]]. See at _[[Cahiers topos]]_ for more on this.
+
 ## Related concepts
 
 * [[Banach manifold]]
