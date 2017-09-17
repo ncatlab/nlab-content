@@ -93,6 +93,14 @@ $$
 
 =--
 
++-- {: .num_example }
+###### Example
+
+In the slice category $Set/X$, the inner hom is explicitly given by
+$$ [\langle E \stackrel{f}{\to} X \rangle, \langle F \stackrel{g}{\to} X \rangle]_{Set/X} = \{ (x,h) | x \in X, h : f^{-1}(x) \to g^{-1}(x) \}. $$
+
+=--
+
 +-- {: .num_prop}
 ###### Proposition
 
