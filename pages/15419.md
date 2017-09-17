@@ -38,16 +38,39 @@ It is also the function field analogy which induces the conjecture of the [[geom
 In summary then the analogy says that the theory of [[number fields]]and of [[function fields]] both looks much like a [[global analytic geometry]]-version of the theory [[complex curves]], 
 
 
-
+## Formalizations
+ {#Formalizations}
 
 To date the function field analogy remains just that, an [[analogy]], though various research programs may be thought of as trying to provide a context in which the analogy would become a consequence of a systematic theory (see e.g. the introduction of [v.d. Geer et al 05](#vdGeer05)). This includes 
 
 * [[Arakelov geometry]];
 
-* geometry "over [[F1]]";
-
 * [[global analytic geometry]].
 
+* geometry "over [[F1]]".
+
+Regarding the last point, in particular [[Borger's absolute geometry]] ([Borger 09](#Borger09)) makes precise the analogy between [[Spec(Z)]] and the [[polynomial ring]] $k[z]$/[[entire holomorphic function]]-ring $\mathcal{O}_{\mathbb{C}}$ by interpreting the analog of the canonical [[derivation]] $\frac{\partial}{\partial z}$ on the latter two as the [[Fermat quotient]] operation, and more generally by interpreting the lift of this to arithmetic spaces over ${Spec}(\mathbb{Z})$ as lifts of [[Frobenius homomorphisms]] as given by [[Lambda-ring]] structures. See at _[Borger's absolute geometry -- Motivation](Borger%27s+absolute+geometry#Motivation)_ for more on this.
+
+  In this context the analogy between geometry over [[number fields]] and over [[function fields]] is made precise by showing ([Borger 09, section 7](#Borger09)) that for any smooth connected curve $S/\mathbb{F}_q$ over a [[finite field]] $\mathbb{F}_q$ the standard [[geometric morphism]] of ("big") [[toposes]]
+
+  $$
+    Spec(S/\mathbb{F}_q)\longrightarrow Spec(\mathbb{F}_q)
+  $$
+
+  factors through an alternative base topos $\widetilde Spec(\mathbb{F}_q)$
+
+  $$
+    Spec(S/\mathbb{F}_q)\longrightarrow \widetilde Spec(\mathbb{F}_q) \longrightarrow Spec(\mathbb{F}_q)
+  $$
+
+  which, while different from $Spec(\mathbb{F}_q)$ is "close" to $Spec(\mathbb{F}_q)$ in some precise sense, but which has the advantage that its construction does exist for $q = 1$ in that there is directly analogous
+
+  $$
+    Spec(\mathbb{Z}) \longrightarrow \widetilde Spec(\mathbb{F}_1)
+    \,,
+  $$
+
+  where the notation $\widetilde Spec(\mathbb{F}_1)$ here stands for Borger's the topos over [[Lambda-rings]], see at _[[Borger's absolute geometry]]_ for the actual details.
 
 ## Overview
  {#Overview}
@@ -96,3 +119,7 @@ Discussion including also the complex-analytic side includes
 and a comparison of the number theory to that of [[foliations]] is in 
 
 * {#Deninger07} [[Christopher Deninger]], _Analogies between analysis on foliated spaces and arithmetic geometry_ ([arXiv:0709.2801](http://arxiv.org/abs/0709.2801))
+
+An actual formalization of the analogy between geometry over number fields and function fields is in 
+
+* {#Borger09} [[James Borger]], section 7 of _Lambda-rings and the field with one element_ ([arXiv/0906.3146](http://arxiv.org/abs/0906.3146))
