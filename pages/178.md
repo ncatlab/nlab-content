@@ -191,7 +191,7 @@ We discuss the general abstract
 +-- {: .un_prop}
 ###### Proposition
 
-Let $X \in Smooth \infty Grpd$ have a presentation by a [[simplicial presheaf]] $X_\bullet \in [CartSp_{smooth}, sSet]$ that degreewise is a [[paracompact topological space|paracompact]] [[smooth manifold]]. Then the image of $X$ under the [[fundamental ∞-groupoid in a locally ∞-connecte (∞,1)-topos]]-functor
+Let $X \in Smooth \infty Grpd$ have a presentation by a [[simplicial presheaf]] $X_\bullet \in [CartSp_{smooth}, sSet]$ that degreewise is a [[paracompact topological space|paracompact]] [[smooth manifold]]. Then the image of $X$ under the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor
 
 $$
   Smooth \infty Grpd \stackrel{\Pi}{\to}
