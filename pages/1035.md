@@ -37,7 +37,7 @@ An **additive category** is
 
 * The Ab-enrichment of an additive category does not have to be given a priori.  Any category with finite biproducts is automatically enriched over abelian [[monoids]] (as described at [[biproduct]]), so an additive category may be defined as a category with finite biproducts whose [[hom-object|hom-monoids]] happen to be [[groups]].  (The requirement that the hom-monoids be groups can even be stated in elementary terms without discussing enrichment at all, but to do so is not very enlightening.)  Note that the entire $Ab$-enriched structure follows automatically for [[abelian category|abelian categories]].
 
-* Some authors use **additive category** to simply mean an Ab-enriched category, with no further assumptions.
+* Some authors use **additive category** to simply mean an Ab-enriched category, with no further assumptions. It can also be used to mean a $CMon$-enriched (commutative monoid enriched) category, with or without assumptions of products. 
 
 * The natural [[morphisms]] *between* additive categories are the [[additive functors]].
 
