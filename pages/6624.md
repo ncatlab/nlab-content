@@ -1,0 +1,41 @@
+
+# Simulations
+* table of contents
+{: toc}
+
+## Idea
+
+A simulation is a [[morphism]] of [[coalgebras]].
+
+
+## Definition
+
+Let $C$ be a [[category]], and let $F\colon C \to C$ be an [[endofunctor]].  Recall that a [[coalgebra of an endofunctor|coalgebra]] of $F$ is an [[object]] $X$ of $C$ equipped with a [[morphism]] $\theta\colon X \to F(X)$.
+
++-- {: .un_defn}
+###### Definition
+
+Given two coalgebras $X, X'$ of $F$, a __simulation__ of $X$ in $X'$ is a morphism $s\colon X \to X'$ in $C$ such that $F(s) \circ \theta = \theta' \circ s$.  That is, this [[commutative diagram|diagram commutes]]:
+$$ \array {
+            X & \overset{\theta}\to & F(X) \\
+            \llap{s}\downarrow & & \downarrow\rlap{F(s)} \\
+            X' & \underset{\theta'}\to & F(X')
+          } $$
+=--
+
+The terminology comes from [[computer science]], and we should probably explain what it's about.
+
+
+## Example: relations
+
+Consider the [[category of sets]] and the (covariant) [[power set]] functor $\mathcal{P}$.  A coalgebra of $\mathcal{P}$ is a [[set]] $X$ equipped with a [[function]] $\theta\colon X \to \mathcal{P}(X)$, which is the same thing as a [[binary relation]] $\prec$ on $X$.  To fix the notation, we write $a \prec b$ ($a$ __precedes__ $b$) if $a \in \theta(b)$.
+
+Then in concrete terms, a simulation of $X$ in $X'$ is a function $s\colon X \to X'$ such that
+* $s(a) \prec' s(b)$ whenever $a \prec b$, and
+* $t = s(a)$ for some $a \prec b$ whenever $t \prec' s(b)$.
+
+Simulations are commonly used as morphisms between sets equipped with [[well founded relation|well-founded]] or [[extensional relation|extensional]] relations.  In particular, between [[well-ordered sets]] (sets equipped with relations that are both well-founded and extensional, as well as [[transitive relation|transitive]]), a simulation (if it exists) is unique, and we recover the usual [[poset|ordered]] [[proper class|class]] of [[ordinal numbers]] as a [[thin category]].
+
+
+[[!redirects simulation]]
+[[!redirects simulations]]
