@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -41,10 +52,19 @@ Noncommutative formal geometry, concerned with objects like infinitesimal neighb
 
 ## Related concepts
 
+* [[groupoid algebra]]
+
 * [[noncommutative scheme]]
 
 * [[non-commutative analytic space]]
 
 * [[QFT on non-commutative spacetime]]
 
+## References
+
+* [[Alain Connes]], _[[Noncommutative Geometry]]_
+
+
 [[!redirects non-commutative geometry]]
+
+
