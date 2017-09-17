@@ -32,7 +32,7 @@ $$
 of the $-s$ power of $H$, which, if $H$ is suitably self-adjoint, is
 the [[sum]] of the $-s$-powers of all its [[eigenvalues]], as a function of $s$. This is analogous to the _[[Riemann zeta function]]_ and the [[Dedekind zeta function]] (or would be if there were something like a [[Laplace operator]] on [[Spec(Z)]] or more generally on an [[arithmetic curve]], see at _[[function field analogy]]_).
 
-The exponetial of the derivative of the zeta function and $n = 0$ also encodes the [[functional determinant]] of $H$, a regularized version ("zeta function regularization") of the naive and generally ill-defined product of all eigenvalues. As such zeta functions play a central role in [[quantum field theory]].
+The exponential of the derivative of the zeta function at $n = 0$ also encodes the [[functional determinant]] of $H$, a regularized version ("zeta function regularization") of the naive and generally ill-defined product of all eigenvalues. As such, zeta functions play a central role in [[quantum field theory]].
 
 Generally, the values of $\zeta_H(s)$ of interest in [[physics]] (when regarding $H$ as a [[Hamilton operator]]) are those for (low) integral $s$. These are just the _[[special values of L-functions]]_.
 
@@ -51,7 +51,7 @@ for its [[eigenvalues]].
 +-- {: .num_defn #ZetaBySeries}
 ###### Definition
 
-The _zeta function_ of $H$ is the [[holomorphic]] function defined by the [[series]]
+The _zeta function_ of $H$ is the [[holomorphic function]] defined by the [[series]]
 
 $$
   \begin{aligned}
@@ -93,7 +93,7 @@ $$
   \,.
 $$
 
-Via the [[analytic continuation]] involved in defining $\eta_H(0)$ in the first place, this may be thought of as a _regularization_ of the ill-defined  naive definition "$\prod_n \lambda^n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _zeta function regularization_.
+Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first place, this may be thought of as a _regularization_ of the ill-defined  naive definition "$\prod_n \lambda_n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _zeta function regularization_.
 
 If $H = D^2$ has a square root $D$ (a [[Dirac operator]]-type square root as in [[supersymmetric quantum mechanics]]) then under some conditions on the growth of the eigenvalues, then the functional determinant may also be expressed in terms of the [[eta function]] of $D$ as
 
