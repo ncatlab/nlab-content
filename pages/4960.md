@@ -130,23 +130,19 @@ There are several further axioms that one may want to impose in order to formali
 ###### Definition
 
 For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that 
-**cohesive pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
+**cohesive pieces have points** or equivalently that **discrete objects are concrete** in $\mathcal{E}$ if the [[natural transformation]]
 
 $$
-  f_* X
-  \stackrel{f_* (\iota_X)}{\to}
-  f_* f^* f_! X
-  \stackrel{\simeq}{\to}
-  f_! X
+  f_* X \stackrel{\simeq}{\to} f_! f^* f_* X \to f_! X 
 $$
 
-is an [[epimorphism]] for all $X \in \mathcal{E}$. This is equivalent to the transformation
+is an [[epimorphism]] for all $X \in \mathcal{E}$, equivalently if the transformation
 
 $$
-  f^* S \stackrel{\simeq}{\to} f^* f_* f^! S \stackrel{\epsilon_{f^! S}}{\to} f^! S
+  f^* S \to f^! f_* f^* S \stackrel{\simeq}{\to} f^! S
 $$
 
-being a [[monomorphism]] for all $S \in \mathcal{S}$ .
+is a [[monomorphism]] for all $S \in \mathcal{S}$ .
 
 
 We say **pieces of powers are powers of pieces** if for all $S \in \mathcal{S}$ and $X \in E$ the natural morphism
@@ -782,20 +778,27 @@ where $G$ denotes the fundamental representation of $G$ on itself. Therefore $\P
 
 ## Related concepts
 
-* [[essential geometric morphism]]
-
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
-* [[connected topos]] / [[∞-connected (∞,1)-topos]]
+  * [[connected topos]] / [[∞-connected (∞,1)-topos]]
 
-* [[strongly connected topos]]
+  * [[strongly connected topos]] / [[strongly ∞-connected (∞,1)-topos]]
+
+  * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
 
 * [[local topos]] / [[local (∞,1)-topos]].
 
-* [[totally connected topos]] / [[totally connected (∞,1)-topos]]
-
 * **cohesive topos** / [[cohesive (∞,1)-topos]]
 
+and
+
+* [[locally connected site]], [[locally ∞-connected site]]
+
+* [[connected site]]
+
+* [[local site]]
+
+* [[cohesive site]]
 
 
 
