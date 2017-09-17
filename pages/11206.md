@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Related concepts
+
+* [[computable function]]
+
+[[computable analysis]]
+
+* [[Type Two Theory of Effectivity]]
+
+## References
+
+In [[computable analysis]]:
+
+* {#Weihrauch00} [[Klaus Weihrauch]], _Computable Analysis_ Berlin: Springer, 2000
+
