@@ -124,13 +124,13 @@ where
 +-- {: .num_prop }
 ###### Proposition
 
-The completed zeta function, def. \ref{CompletedRiemannZetaFunction}, has an [[integral]]-representation in terms of the [[Jacobi theta function]]
+The completed zeta function, def. \ref{CompletedRiemannZetaFunction}, is the [[Mellin transform]] of the [[Jacobi theta function]]
 
 $$
   \theta(x)\coloneqq \underset{n \in \mathbb{Z}}{\sum} \exp(- \pi n ^2 x)
 $$
 
-in the form
+in that
 
 $$
   \begin{aligned}
