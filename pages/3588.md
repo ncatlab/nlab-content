@@ -1,8 +1,12 @@
 
 **[[natural deduction]]**
 
-**[[type theory]]** 
+* [[type formation rule]]
+* [[term introduction rule]]
+* [[term elimination rule]]
+* [[computation rule]]
 
+**[[type theory]]** 
 ([[dependent type theory|dependent]], [[intensional type theory|intensional]], [[homotopy type theory]])
 
 **[[syntax]]**
