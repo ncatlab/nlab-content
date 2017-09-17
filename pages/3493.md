@@ -2,7 +2,6 @@
 
 * _Galois groupoids and covering morphisms in topos theory_,  Galois theory, Hopf algebras, and semiabelian categories,  131--161, Fields Inst. Commun. __43__, Amer. Math. Soc. 2004, [links](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.7071).
 
-* (with Dubuc), [arXiv/0706.1771](http://arxiv.org/abs/0706.1771)
 
 * _Classifying toposes and fundamental localic groupoids_, Category theory 1991 (Montreal, PQ, 1991), 75--96, CMS Conf. Proc. __13__, Amer. Math. Soc. 1992.
 
