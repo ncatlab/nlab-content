@@ -247,7 +247,7 @@ A discussion of $\sigma$-models of higher gauge theory type is at
 
 * [[Urs Schreiber]], _[[schreiber:infinity-Chern-Simons theory]]_ .
 
-Concrete applications of $\sigma$-models with target [[stack]]s (typically smooth ones, hence [[smooth infinity-groupoid|smooth groupoid]]s) in [[string theory]] and [[supergravity]] are discussed for instance in
+Concrete applications of $\sigma$-models with target [[stacks]] (typically smooth ones, hence [[smooth groupoids]]) in [[string theory]] and [[supergravity]] are discussed for instance in
 
 * [[Tony Pantev]], [[Eric Sharpe]], _String compactifications on Calabi-Yau stacks_, Nucl.Phys. B733 (2006) 233-296, ([arXiv:hep-th/0502044](http://arxiv.org/abs/hep-th/0502044))
 
@@ -256,6 +256,11 @@ Concrete applications of $\sigma$-models with target [[stack]]s (typically smoot
 
 * S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_, ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
  {#HellermanSharpe}
+
+Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on stacks ([[moduli stacks]] of [[Higgs bundles]] over a given [[algebraic curve]]) is in 
+
+* {#Witten08} [[Edward Witten]], section 6 of _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_ ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
+
 
 
 [[!redirects sigma-models]]
