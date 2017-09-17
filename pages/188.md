@@ -49,7 +49,7 @@ Classical monoids are of course just monoids in [[Set]] with the [[cartesian pro
 By the [[microcosm principle]], in order to define monoid objects in $C$, $C$ itself must be a "categorified monoid" in some way.  The natural requirement is that it be a [[monoidal category]].  In fact, it suffices if $C$ is a [[multicategory]].  Contrast this with a [[group object]], which can only be defined in a [[cartesian monoidal category]] (or a [[cartesian multicategory]]).
 
 
-### In string diagrams
+### In terms of string diagrams
 
 The data of a monoid may be written in [[string diagrams]] as:
 
@@ -74,6 +74,14 @@ But taking this too literally may create conflicts in notation.  To avoid this, 
 Similarly, a monoid in $(C,\otimes,I)$ may be defined as the [[hom-object]] of a $C$-[[enriched category]] with a single object, equipped with its composition and identity-assigning morphisms; and so on, as in the classical (i.e. $\mathbf{Set}$-enriched) case.
 
 For more on this see also [[group]].
+
+
+### $\mathcal{O}$-Monoids over an $(\infty,1)$-Operad
+
+The notion of _associative monoids_ discussed above are controled by the 
+[[associative operad]]. More generally in [[higher algebra]], for $\mathcal{O}$ any [[operad]] or [[(infinity,1)-operad]], one can consider **$\mathcal{O}$-monoids**. ([Lurie, def. 2.4.2.1](#Lurie))
+
+These are closely related to [[(infinity,1)-algebras over an (infinity,1)-operad]] with respect to $\mathcal{O}$ ([Lurie, prop. 2.4.2.5](#Lurie)).
 
 
 ## Properties
