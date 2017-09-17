@@ -1,20 +1,25 @@
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+<div class="rightHandSide toc">
+[[!include enriched category theory contents]]
+</div>
+
+# Algebroids
+* table of contents
+{: toc}
+
 
 ## Idea
 
-The concept _algebroid_ is the [[horizontal categorification|many object version]] (or oidification)  of the concept _[[unital associative algebra]]_.
+An algebroid is a [[category]] whose [[hom-sets]] are all [[vector spaces]] (or [[modules]]).  This concept is a [[horizontal categorification]] of the concept of (unital associative) [[unital associative algebra|algebra]].
 
 
+## Definitions
 
-## Definition
+Fix a [[commutative ring]] $K$.  (Often we want $K$ to be a [[field]], such as the field $\mathbb{C}$ of [[complex numbers]].)
 
-An **algebroid** is a [[category]] [[enriched category|enriched over]] ([[Vect]],$\otimes$).
+A __$K$-algebroid__, is a [[enriched category|category enriched]] over $K\,$[[Mod]], the [[monoidal category]] of $K$-[[modules]] with the usual [[tensor product]].  (Note that we usually speak of $K\,$[[Vect]] instead of $K\,Mod$ when $K$ is a field.)
 
-
-This is also called a [[linear category]].
+Just as a $\mathbb{Z}$-algebra is the same thing as a [[ring]], so a $\mathbb{Z}$-algebroid is the same thing as a [[ringoid]].
 
 
 ## Remarks
@@ -22,6 +27,8 @@ This is also called a [[linear category]].
 * An [[unital associative algebra|algebra]] is an algebroid with a single object. Hence a one-object $Vect$-enriched category. See [[horizontal categorification]].
 
 * Compare with similar '[[oidification|oidfied]]' concepts such as [[groupoid]] and [[ringoid]].
+
+* A [[linear category]] is an [[additive category|additive]] algebroid.
 
 * Beware that a [[Lie algebroid]] is not a special case of an algebroid in the above sense, just as a [[Lie algebra]] is not a [[unital associative algebra]]. The point is that there is a restrictive and a general sense of "algebra". In the restrictive sense an algebra is an associative unital algebra, hence a [[monoid]] in $Vect$, hence a one-object $Vect$-enriched category. But in a more general sense an algebra is an algebra over an [[operad]]. It is this more general sense in terms of which Lie algebras are special cases of algebras and [[Lie algebroid]]s their [[horizontal categorification]].
 
