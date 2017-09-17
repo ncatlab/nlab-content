@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
+=--
+=--
+
+
 1. [Introduction](#intro)
 3. Manifold Structure
   2. [[linear mapping spaces|Linear Mapping Spaces]]
