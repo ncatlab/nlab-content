@@ -35,11 +35,34 @@ A morphism $h:M\to N$ of Poisson manifolds is a morphism of smooth manifolds suc
 
 ## Examples
 
-* Every [[symplectic manifold]] carries a natural Poisson structure; however, such Poisson manifolds are very special. It is a basic theorem that Poisson structures on a manifold are equivalent to the smooth [[foliation]]s of the underlying manifold such that each leaf is a symplectic manifold.
++-- {: .num_example}
+###### Example
 
-* The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Poisson manifold, the _[[Lie-Poisson structure]]_. Its leaves are called [[coadjoint orbits]].
+Every [[symplectic manifold]] carries a natural Poisson structure; however, such Poisson manifolds are very special. It is a basic theorem that Poisson structures on a manifold are equivalent to the smooth [[foliation]]s of the underlying manifold such that each leaf is a symplectic manifold.
 
-* Every [[local action functional]] defines the [[Peierls bracket]] on [[covariant phase space]] (where in fact it is symplectic) and also "off-shell" on all of configuration space, where it is a genuine Poisson bracket, the canonocal Poisson bracket of the corresponding [[prequantum field theory]].
+=--
+
++-- {: .num_example}
+###### Example
+
+
+The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Poisson manifold, the _[[Lie-Poisson structure]]_. Its leaves are called [[coadjoint orbits]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Given a [[symplectic manifold]] $(X,\omega)$ and given a [[Hamiltonian]] [[function]] $H \colon X \longrightarrow \mathbb{R}$, there is a Poisson bracket on the functions on the [[smooth space|smooth]] [[path space]] $[I,X]$ (the "space of histories" or "space of [[trajectories]]"), for $I = [0,1]$ the closed [[interval]], which is such that its [[symplectic leaves]] are each a copy of $X$, but regarded as the space of initial conditions for evolution with respect to $H$ with a [[source]] term added. For more on this see at _[[off-shell Poisson bracket]]_.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Every [[local action functional]] which admits a [[Green's function]] for its [[equations of motion]] defines the [[Peierls bracket]] on [[covariant phase space]] (where in fact it is symplectic) and also "[[off-shell Poisson bracket|off-shell]]" on all of configuration space, where it is a genuine Poisson bracket, the canonocal Poisson bracket of the corresponding [[prequantum field theory]].
+
+=--
 
 ## Properties
 
