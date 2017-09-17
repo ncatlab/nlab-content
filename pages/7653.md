@@ -1269,6 +1269,8 @@ We now apply this to the above Whitehead tower.
 
 #### Smooth Whitehead tower
 
+We state the smooth refinement of the above Whitehead tower and then explain some aspects of how it is constructed.
+
 **Theorem** There is a smooth geometric refinement of the [above Whitehead tower](#WhiteheadTower) of [[homotopy type|bare homotopy types]] to a tower of [[smooth infinity-groupoid|smooth homotopy types]]/[[smooth ∞-stacks]] of the form
 
 $$
@@ -1315,6 +1317,62 @@ and where
 * $\tfrac{1}{2} \mathbf{p}_1$ classifies the universal [[Chern-Simons circle 3-bundle]];
 
 * $\tfrac{1}{6} \mathbf{p}_2$ classifies the universal [[Chern-Simons circle 7-bundle]].
+
+This is constructed using essentially the following three tools for presenting presheaves of higher groupoids:
+
+1. The [[Dold-Kan correspondence]] 
+
+   $$
+     \Xi : Ch_{\geq 0} \stackrel{\simeq}{\to} sAb \to sSet
+   $$ 
+
+   and its prolongation to presheaves
+
+   $$
+     \Xi : [SmthMfd^{op}, Ch_{\geq 0}) \stackrel{\simeq}{\to} [SmthMfd^{op},sAb] \to [SmthMfd^{op},sSet]
+   $$ 
+
+   allows to use presheaves of [[chain complexes]] of [[abelian groups]] to present presheaves of strict $\infty$-groupoids with strict abelian group structure. 
+
+   For instance
+  
+   $$
+     \mathbf{B}^n U(1) \simeq \Xi( C^\infty(-,U(1))[n] )
+   $$
+
+   is equivalent to the image under the DK correspondence of the sheaf of chain complexes which is concentrated in degree $n$ on the group of $U(1)$-valued functions.
+
+1. Some [nonabelian generalizations](Dold-Kan+correspondence#StatementGeneral) of the Dold-Kan correspondence allow to use chain complexes of not entirely abelian groups -- _[[crossed complexes]]_ -- to present a few more classes of $\infty$-groupoids. Notably nonabelian 2-term chain complex called [[crossed modules]]
+
+   $$
+     G_1 \stackrel{\delta}{\to} G_0
+   $$
+
+   serve to present [[strict 2-groups]].
+
+   For instance, one way to construct the [[string 2-group]] $String$ above is via the crossed module $\hat \Omega_* Spin \to P_* Spin$ induced from the [[Kac-Moody central extension]] of the [[loop group]] of $Spin$.
+
+1. The [[Lie integration]] $\tau_{\leq n} \exp(\mathfrak{g})$ of an [[L-∞ algebra]] $\mathfrak{g}$ yields the corresponding [[smooth ∞-group]] $G$. For instance the [[string 2-group]] $String$ above is also equivalently given by $\mathbf{B} String \simeq \tau_{\leq 2} \exp(\mathfrak{string})$, where $\mathfrak{string}$ is the [[string Lie 2-algebra]].
+
+Using these tools, the stages of the above smooth Whitehead tower are constructed as follows:
+
+* the morphism $\mathbf{w}_1 : \mathbf{B}O \to \mathbf{B} \mathbb{Z}_2$ is directly induced from the canonical Lie group homomorphism $O \to \mathbb{Z}_2$.
+
+* the morphism $\mathbf{w}_2 : \mathbf{B}SO \to \mathbf{B}^2 \mathbb{Z}_2$ in $\mathbf{H}$ is presented by the [[infinity-anafunctor|zig-zag]] of crossed modules
+
+  $$
+    \array{
+       (\mathbb{Z}_2 \to Spin) &\stackrel{}{\to}& (\mathbb{Z}_2 \to 1)
+       \\
+       {}^{\mathllap{\simeq}}\downarrow
+       \\
+       (1 \to SO)
+    }
+  $$
+
+* the morphism $\tfrac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$ is constructed ([FSSa](#FSSa)) as the [[Lie integration]] of the canonical [[infinity-Lie algebra cohomology|L-∞ 3-cocylce]] $\mathbf{B}\mu_3 : \mathbf{B}\mathfrak{so} \to \mathbf{B}^3 \mathbb{R}$.
+  
+* similarly $\tfrac{1}{6}\mathbf{p}_2 \simeq \exp(\mu_7)$ is the Lie integration of a canonical 7-cocycle $\mathbf{B}\mu_7 : \mathbf{B}\mathfrak{string} \to \mathbf{B}^7 \mathbb{R}$ ([FSSa](#FSSa)).
 
 
 #### Differential refinement
