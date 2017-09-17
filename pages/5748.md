@@ -15,11 +15,73 @@
 
 ## Definition
 
-A _(linear) complex structure_ on a [[vector space]] $V$ is an [[automorphism]] $J : V \to V$ that squares to minus the identity: $J \circ J = - Id$.
++-- {: .num_defn #LinearComplexStructure}
+###### Definition
 
-An _almost complex structure_ on a [[smooth manifold]] $X$ is a smooth [[section]] $J \in \Gamma(T X \otimes T^* X)$ such that, over each point $x \in X$, $J$ is a linear complex structure on that [[tangent space]] $T_x X$ under the canonical identification $End T_x X \simeq T_x X\otimes T_x^* X$. Equivalently this is a [[reduction of the structure group]] of the [[tangent bundle]] to the [[complex numbers|complex]] [[general linear group]] along $GL(n,\mathbb{C}) \hookrightarrow GL(2n,\mathbb{R})$.
+A _(linear) complex structure_ on a [[vector space]] $V$ is an [[automorphism]] $J : V \to V$ that squares to minus the [[identity]]: $J \circ J = - Id$.
+
+=--
+
+More generally, an almost complex structure on a [[smooth manifold]] is essentially a [[fiber]]-wise complex structure on its [[tangent spaces]]:
+
++-- {: .num_defn}
+###### Definition
+
+An _almost complex structure_ on a [[smooth manifold]] $X$ (of even [[dimension]]) is a smooth [[section]] $J \in \Gamma(T X \otimes T^* X)$ such that, over each point $x \in X$, $J$ is a linear complex structure, def. \ref{LinearComplexStructure}, on that [[tangent space]] $T_x X$ under the canonical identification $End T_x X \simeq T_x X\otimes T_x^* X$. 
+
+=--
+
+Equivalently, stated more intrinsically:
+
++-- {: .num_defn}
+###### Definition
+
+An _almost complex structure_ on a [[smooth manifold]] $X$ of [[dimension]] $2 n$ is a [[reduction of the structure group]] of the [[tangent bundle]] to the [[complex numbers|complex]] [[general linear group]] along $GL(n,\mathbb{C}) \hookrightarrow GL(2n,\mathbb{R})$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In terms of modulating maps of bundles into their [[smooth infinity-groupoid|smooth]] [[moduli stacks]], this means that an almost complex structure is a lift in the following [[diagram]] in [[Smooth∞Grpd]]:
+
+$$
+  \array{
+    && \mathbf{B} GL(n,\mathbb{C})
+    \\
+    & {}^{\mathllap{alm.compl.str.}}\nearrow & \downarrow^{\mathrlap{}}
+    \\
+    X
+    &\underoverset{\tau}{tang.\,bund.}{\to}&
+    \mathbf{B} GL(2n,\mathbb{R})
+  }
+  \,.
+$$
+
+Notice that by further [[reduction of the structure group|reduction]] along the [[maximal compact subgroup]] inclusion of the [[unitary group]] this yields explicitly a unitary/hermitean vector bundle structure
+
+$$
+  \array{
+    && \mathbf{B} U(n)
+    \\
+    & {}^{\mathllap{herm.alm.compl.str.}}\nearrow & \downarrow^{\mathrlap{}}
+    \\
+    X
+    &\underoverset{\tau}{tang.\,bund.}{\to}&
+    \mathbf{B} GL(2n,\mathbb{R})
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn}
+###### Definition
 
 A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[complex manifold]] on $X$. Every such defines  an almost complex structure and almost complex structures arising this way are called _integrable_ .
+
+=--
 
 ## Properties
 
@@ -31,7 +93,20 @@ The _Newlander-Nierenberg theorem_ states that an almost complex structure $J$ o
 
 ### Relation to $Spin^c$-structures
 
-Every almost complex structure canonically induces a [[spin^c-structure]]. See there for more.
+Every almost complex structure canonically induces a [[spin^c-structure]] by postcomposition with the universal [[characteristic map]] $\phi$ in the [[diagram]]
+
+$$
+  \array{
+    \mathbf{B}U(n) &\stackrel{\phi}{\to}& \mathbf{B}Spin^c &\to& \mathbf{B}U(1)
+    \\
+    &\searrow& \downarrow && \downarrow^{\mathrlap{}}
+    \\
+    && \mathbf{B}SO(2n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+  }
+  \,.
+$$
+
+See at _[[spin^c-structure]]_ for more.
 
 ## References
 
