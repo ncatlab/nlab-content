@@ -15,12 +15,19 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition 
 
-An [[object]] $P$ of a [[category]] $C$ is **projective** (with respect to epimorphisms) if for any [[morphism]] $f:P \to B$ and any [[epimorphism]] $q:A \to B$, $f$ factors through $q$ by some morphism $P\to A$.
++-- {: .num_defn}
+###### Definition
+
+An [[object]] $P$ of a [[category]] $C$ is **projective** (with respect to [[epimorphisms]]) if it has the [[left lifting property]] against [[epimorphisms]]. 
+
+=--
+
+This means that $P$ is projective if for any [[morphism]] $f:P \to B$ and any [[epimorphism]] $q:A \to B$, $f$ factors through $q$ by some morphism $P\to A$.
 
 $$
   \array{
@@ -33,18 +40,38 @@ $$
   \,.
 $$
 
-Another way to say  this is that the [[hom-functor]] $Hom(P,-)$ preserves epimorphisms.
+Yet another way to say  this is that the [[hom-functor]] $Hom(P,-)$ preserves epimorphisms.
 
++-- {: .num_remark}
+###### Remark
+
+This generalizes the notion of _[[projective modules]]_ over a [[ring]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+There are variations of the definition where "epimorphism" is replaced by some other type of morphism, such as a [[regular epimorphism]] or [[strong epimorphism]] or the left class in some [[orthogonal factorization system]].  In this case one may speak of **regular projectives** and so on.  In a [[regular category]] "projective" almost always means "regular projective."
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[duality|dual]] notion is that of _[[injective objects]]_. 
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
 
 A category $C$ has **enough projectives** if for every object $X$ there is an epimorphism $P\to X$ where $P$ is projective.
 
-**Remarks**
+=--
 
-* Projective object generalizes the notion of [[projective module]] over a ring.
 
-* The [[duality|dual]] notion is [[injective object]]. 
-
-* There are variations of the definition where "epimorphism" is replaced by some other type of morphism, such as a [[regular epimorphism]] or [[strong epimorphism]] or the left class in some [[orthogonal factorization system]].  In this case one may speak of **regular projectives** and so on.  In a [[regular category]] "projective" almost always means "regular projective."
 
 ## Properties
 
@@ -56,6 +83,9 @@ A category $C$ has **enough projectives** if for every object $X$ there is an ep
 ## Examples
 
 * An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[free group]].
+
+* For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]].
+
 
 
 [[!redirects enough projectives]]
