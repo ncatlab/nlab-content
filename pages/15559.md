@@ -36,6 +36,15 @@ The [[functional equation]] of the Dedekind zeta function follows from its [[ade
 
 The Dedekind zeta function has an expression as an integral over a kernel given by a [[Hecke theta function]] ([Kowalski (2.3) (2.4)](#Kowalski)).
 
+### Analogs over complex curves
+
+The [[function field analogy]] in view of the discussion at _[[zeta function of an elliptic differential operator]]_ says that the Dedekind zeta function is [[analogy|analogous]] to the regulated [[functional determinant|functional trace]] of a would-be "[[Dirac operator]] on [[Spec(Z)]]".
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
+Other identifications/analogies of the Riemann zeta function (and more generally the [[Dedekind zeta-function]]) with [[partition functions]] in [[phyiscs]] have been proposed, in particular the _[[Bost-Connes system]]_.
+
+
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 
