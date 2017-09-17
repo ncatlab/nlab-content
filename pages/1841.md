@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include physicscontents]]
 </div>
@@ -27,6 +26,8 @@ The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]]
 
 +-- {: .query}
 [[Tim van Beek]]: How about a short historical section: electricity and magnetism were discovered independently, Maxwell's equations in classical vector analysis which allows the formulation as a tensor F as below, and "magnetism is a consequence of electrostatics and covariance, hence the composite noun electromagnetism"?
+
+[[Ian Durham]]: I'm all for it, but I doubt my opinion counts.  Nevertheless, I'd be willing to write a section on it.
 =-- 
 
 Physical experiment shows that the electromagnetic [[field strength]] on a pseudo-Riemannian spacetime $X$ has the following properties.
@@ -257,6 +258,7 @@ the restrictions of $\gamma$ to the left and the right half of the interval, we 
      tra(\gamma_2)\cdot tra(\gamma_1) = tra(\circ\gamma_1)
      \,.
    $$
+
 
 In **summary** this says that the interaction part of the exponentiated action of the electrically charged in the background of an electromagnetic field in the absence of magnetic current is
 
