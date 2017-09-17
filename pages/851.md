@@ -30,7 +30,7 @@ $$
   \,,
 $$
 
-hence 1-morphisms $f$ as inficated together with a [[homotopy]] $\eta \colon p_2 \circ f \stackrel{\simeq}{\to} p_1$; and generally whose [[n-morphisms]] are [[diagrams]] 
+hence 1-morphisms $f$ as indicated together with a [[homotopy]] $\eta \colon p_2 \circ f \stackrel{\simeq}{\to} p_1$; and generally whose [[n-morphisms]] are [[diagrams]] 
 
 $$
   \Delta[n+1] = \Delta[n] \star \Delta[0]\to C
