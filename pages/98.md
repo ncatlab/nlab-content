@@ -200,7 +200,7 @@ $$
   \,.
 $$
 
-Since by the above example the dg-algebra on he right has a single generator in degree $n$ and vanishing differential, such a morphism is precisely the same thing as a degree $n$-element in $CE(\mathfrak{g})$, i.e. an element  $\omega \in \wedge^n \maathfrak{g}^*$ which is closed under the CE-differential 
+Since by the above example the dg-algebra on he right has a single generator in degree $n$ and vanishing differential, such a morphism is precisely the same thing as a degree $n$-element in $CE(\mathfrak{g})$, i.e. an element  $\omega \in \wedge^n \mathfrak{g}^*$ which is closed under the CE-differential 
 
 $$
   d_{CE} \omega = 0
