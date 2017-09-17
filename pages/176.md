@@ -208,7 +208,7 @@ and
 $$
 \overline{L_{-n}} := \frac{1}{2 \pi i} \oint_{| \zeta | = 1} \frac{\overline{T}(\zeta)}{\zeta^{n+1}} d\zeta
 $$
-are well defined and satisfy the commutation relations of two commuting [[Virasoro algebras]] with the same central charge.
+are well defined and satisfy the commutation relations of two commuting [[Virasoro algebra|Virasoro algebras]] with the same central charge.
 =--
 
 +-- {: .un_defn}
