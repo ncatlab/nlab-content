@@ -87,7 +87,7 @@ It was when [[Todd Trimble]] made this point to [[Ross Street]] that Street bega
 
 There is a [[vertical categorification|categorification]] of associahedra discussed in
 
-* [[Stefan Forcey]], _A categorification of associahedra_ ([web](http://faculty.tnstate.edu/sforcey/ct06.htm))
+* {#Forcey12} [[Stefan Forcey]], _Quotients of the multiplihedron as categorified associahedra_, Homology Homotopy Appl. Volume 10, Number 2 (2008), 227-256. ([Euclid](http://projecteuclid.org/euclid.hha/1251811075))
 
 ## References
 
