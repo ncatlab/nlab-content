@@ -149,7 +149,7 @@ Let $G$ be a finite [[group]] as above. We describe the generalizaton of the abo
      [O_G^{op}, C]_{loc}
    $$
 
-   on the [[functor category]] from the [[orbit category]] of $G$ to $C$ by taking the generating cofibratoins to be
+   on the [[functor category]] from the [[orbit category]] of $G$ to $C$ by taking the generating cofibrations to be
 
    $$
      I_{O_G} := \{G/H \times i\}_{i \in I, H \subset G}
