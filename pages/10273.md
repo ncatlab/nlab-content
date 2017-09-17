@@ -785,6 +785,193 @@ In order to formalize this in generality, one needs a general formalization of [
 =--
 
 
+### Lie integration of $L_\infty$-cocycles
+
+The datum going into [[schreiber:∞-Wess-Zumino-Witten theory]] is  [[smooth super ∞-group]] $G$ which is the [[Lie integration]] of a given [[super L-∞ algebra]] $\mathfrak{g}$, and is a [[L-∞ algebra cohomology|cocycle]] $\mu$ on $\mathfrak{g}$.
+
+We discuss here how [[Lie integration]] relates $\mathfrak{g}$ to $G$ and how the Lie integration of the cocycle $\mu$ induces a smooth universal [[characteristic map]] $\exp(\mu) \colon \mathbf{B}G \longrightarrow \mathbf{B}^n (\mathbb{R}/\Gamma)$ ([Fiorenza-Schreiber-Stasheff 12](#FiorenzaSchreiberStasheff12)).
+
++-- {: .num_defn}
+###### Definition
+
+
+Given a ([[super L-∞ algebra|super]]-)[[L-∞ algebra]] $\mathfrak{g}$, its [[Lie integration]] is the [[∞-stack]]
+
+$$
+  \exp(\mathfrak{g})
+  \colon
+  U \mapsto
+  \left(
+   \Delta[k] \maptso
+   \Omega^\bullet_{flat,vert,si}(U \times \Delta^k, \mathfrak{g})
+  \right)
+$$
+
+which assigns to a test ([[super Cartesian space]]-)[[Cartesian space]] $U$ the [[Kan complex]] whose $k$-[[simplices]] are smooth [[L-∞ algebra valued differential forms]] on $U \times \Delta^k$ which are
+
+1. flat
+
+1. vertical, this means that all their "legs" are along $\Delta^k$
+
+1. have [[sitting instants]]: such that the [[boundary]] of the [[simplex]] has a [[neighbourhood]] such that in this neighbourhood the differential form is constant in the direction perpendicular to the boundary (this condition makes the [[simplicial set]] indeed by a [[Kan complex]]).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $\mathfrak{g}$ be an  ordinary [[Lie algebra]] then the [[truncated|1-truncation]] of $\exp(\mathfrak{g})$ is the [[delooping]] of the simply connected [[Lie group]] $G$ corresponding to $\mathfrak{g}$ under traditional [[Lie theory]]:
+
+$$
+  \tau_1 \exp(\mathfrak{g}) \simeq \mathbf{B}G
+  \,.
+$$
+
+In fact also 
+
+$$
+  \tau_2 \exp(\mathfrak{g}) \simeq \mathbf{B}G
+$$
+
+but $\tau_3 \exp(\mathfrak{g})$ is different from $\mathbf{B}G$ if $\pi_3(G) $ is non-trivial.
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $\mathfrak{g}$ a [[semisimple Lie algebra]] and 
+$\mathfrak{string}(\mathfrak{g})$ its [[string Lie 2-algebra]], then
+
+$$
+  \tau_2 \exp(\mathfrak{string}(\mathfrak{g}))
+  \simeq
+  \mathbf{B}String(G)
+  \,,
+$$
+
+where $String(G)$ is the smooth [[string 2-group]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The $\exp$-construction clearly extends to a [[functor]]
+
+$$
+  s L_\infty Alg
+  \longrightarrow
+  Func(sCartSp^{op}, KanCplx)
+  \longrightarrow
+  \mathbf{H}
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+An [[L-∞ algebra cohomology|L-∞ cocycle]] of degree $n+1$ on $\mathfrak{g}$ is a [[homomorphism]] of [[L-∞ algebras]] of the form
+
+$$
+  \mu
+  \;\colon\;
+  \mathfrak{g}
+   \longrightarrow
+  \mathbb{R}[n]
+  \,.
+$$
+
+=--
+
+Hence given a cocycle $\mu$, universal [[Lie integration]] produces a morphism of [[smooth super ∞-groupoids]] of the form
+
+$$
+  \exp(\mu)
+  \;\colon\;
+  \exp(\mathfrak{g})
+  \longrightarrow
+  \exp(\mathbb{R}[n])
+  \simeq
+  \mathbf{B}^{n+1}\mathbb{R}
+  \,.
+$$
+
++-- {: .num_defn}
+###### Definition
+
+Say that the [[periods]] of $\mu$ are all values in $\mathbb{R}$ obtained by [[integration]] of the $(n+1)$-form on an $(n+1)$-[[sphere]] in the image of the biundary of an $(n+1)$-simplex under this map. Write $\Gamma_\mu \hookrightarrow \mathbb{R}$ for the [[subgroup]] of such [[periods]]
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+Under [[truncated|truncation]] the universal [[Lie integration]] above descents to an $(n+1)$-[[∞-group cohomology|∞-group cocycle]] with [[coefficients]] in $\mathbb{R}/\Gamma_{\mu}$:
+
+$$
+  \array{
+    \exp(\mathfrak{g})
+    &\stackrel{\exp(\mu)}{\longrightarrow}&
+    \mathbf{B}^{n+1}\mathbb{R}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G
+    &\stackrel{}{\longrigtharrow}&
+    \mathbf{B}^{n+1}(\mathbb{R}/\Gamma_\mu)
+  }
+$$
+
+where
+
+$$
+  \mathbf{B}G \coloneqq \tau_n \exp(\mathfrak{g})
+  \,.
+$$
+
+=--
+
+Proof: Use the standard [[coskeleton|simplicial (n+1)-coskeleton]] model for the $n$-truncation.
+
+
++-- {: .num_example}
+###### Example
+
+For $\mathfrak{g}$ a [[semisimple Lie algebra]]
+with its canonical 3-cocycle $\mu = \langle -,[-,-]\rangle$, 
+then 
+
+$$
+  \exp(\langle -,[-,-]\rangle)
+  \simeq
+  \mathbf{c}_2
+  \;\colon\;
+  \mathbf{B}G
+  \longrightarrow
+  \mathbf{B}^3 U(1)
+$$
+
+is the smooth refinement of the [[fractional first Pontryagin class]]/[[second Chern class]] whose [[homotopy fiber]] is the [[delooping]] of the [[string 2-group]]
+
+$$
+  \array{
+    \mathbf{B}String(G)
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G &\stackrel{\mathbf{c}_2}{\longrightarrow}&
+    \mathbf{B}^3 U(1)
+  }
+$$
+
+=--
+
+
+
 ### WZW $n$-bundles
  {#WZWnBundle}
 
@@ -973,6 +1160,9 @@ $$
 
   in [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
   {#DeligneFreed99}
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Phyiscs, Volume 16 Issue 1 (2012) ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
+  {#FiorenzaSchreiberStasheff12}
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
   {#FSS13a}
