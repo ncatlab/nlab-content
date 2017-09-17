@@ -168,9 +168,9 @@ category) is $B^A \cong !A\multimap B$.
 
 ## Game semantics
 
-We can interpret any proposition in linear logic as a game between two players: we and they. The overall rules are perfectly symmetric between us and them, although no individual game is. At any given moment in a game, exactly one of these three situations obtains: it is our turn, it is their turn, we have won, or they have won; the last two states continue forever afterwards (and the game is over).  If it is our turn, then they are winninger; if it is their turn, then we are winning.  So there are two ways to win: because the game is over (and a winner has been decided), or because it is forever the other players turn (either because they have no move or because every move results in its still being their turn).
+We can interpret any proposition in linear logic as a game between two players: we and they. The overall rules are perfectly symmetric between us and them, although no individual game is. At any given moment in a game, exactly one of these three situations obtains: it is our turn, it is their turn, we have won, or they have won; the last two states continue forever afterwards (and the game is over).  If it is our turn, then they are winning; if it is their turn, then we are winning.  So there are two ways to win: because the game is over (and a winner has been decided), or because it is forever the other players turn (either because they have no move or because every move results in it still being their turn).
 
-This is a little complicated, but it\'s important to distinguish the four constants:
+This is a little complicated, but it\'s important in order to be able to distinguish the four constants:
 
 *  In $\top$, it is their turn, but they have no moves; the game never ends, but we win.
 *  Dually, in $\mathbf{0}$, it is our turn, but we have no moves; the game never ends, but they win.
