@@ -52,7 +52,11 @@
 
 * **[[geometric quantization]]**
 
-  * [[geometric quantization of symplectic groupoids]], [[prequantum line bundle]]
+  * [[geometric quantization of symplectic groupoids]]
+
+  * [[prequantum line bundle]]
+
+    * [[contact manifold]], [[contactomorphism]]
 
   * [[geometric quantization of symplectic ∞-groupoids]]
 
