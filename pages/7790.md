@@ -58,6 +58,10 @@ in [[Smooth∞Grpd]].
 
 * [[Kac-Moody algebra]], [[loop group]]
 
+* [[G2]], [[F4]],
+
+  [[E6]], [[E7]],  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
+
 Kay moody groups appear as [[U-duality]] groups in [[11-dimensional supergravity]] [[Kaluza-Klein mechanism|compactified]] to low dimensions.
 
 ## References
