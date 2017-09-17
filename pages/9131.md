@@ -1,0 +1,74 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the specification of [[theory (physics)|physical theories]] sometimes it is assumed that the space of [[field (physics)|fields]] on some [[spacetime]]/[[worldvolume]] $X$ is the space of [[sections]] of some [[fiber bundle]] $E \to X$. This is then called the _field bundle_.
+
++-- {: .num_remark}
+###### Remark
+
+The dual [[jet bundle]] of the field bundle serves as the _[[extended phase space]]_ in [[multisymplectic geometry]].
+The [[de Rham complex]] of the [[jet bundle]] of the field bundle, equipped with its canonical horizontal/vertical bigrading, is the _[[variational bicomplex]]_ of the system.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The notion of field bundle captures only some aspects of the general notion of spaces of physical fields. See at _[[field (physics)]]_ in the section _[The idea of field bundles and its problems](field+%28physics%29#IdeaOfFieldBundlesAndItsProblems)_.
+
+=--
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+For $E \to X$ the trivial bundle $X \times \mathbb{R} \to X $ or $X \times \mathbb{C} \to X$ a smooth section is simply a [[smooth function]] on $X$ with values in the [[real numbers]] or [[complex numbers]], respectively. In [[physics]] this is called a _[[scalar field]]_.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+More generally, for $V$ a [[vector space]], the trivial field bundle $X \times V \to X$ has as secton $V$-valued functions. These are also called _linear [[sigma-model]]_ fields.
+
+Still more generally, if $Y$ is any manifold, then the sections of the tricial field bundle $X \times Y \to X$ are called _non-linear [[sigma-model]]_ fields.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[smooth manifold]] and $E \to X$ some [[tensor product]] of copies of the [[tangent bundle]] $T X \to X$ and the [[cotangent bundle]] $T^* X \to X$ a section is a [[tensor field]] of the corresponding rank.
+
+Many physical fields are related to tensor fields, but few are genuinely tensor fields. See at _[[field (physics)]]_ for more on this. 
+
+=--
+
+## Related concepts
+
+* [[field (physics)]]
+
+* [[extended phase space]]
+
+## References
+
+Section _[Fields](geometry%20of%20physics#Fields)_ at 
+
+* _[[geometry of physics]]_
+
