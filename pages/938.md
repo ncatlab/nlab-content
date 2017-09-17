@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+
 # Weak homotopy equivalences
 * tic
 {: toc}
@@ -10,7 +16,9 @@ There are (at least) two notions of equivalence in [[homotopy theory]].  _Weak h
 There are actually two related concepts here: whether two spaces are weakly homotopy equivalent and whether a map between spaces is a weak homotopy equivalence.  The former is usually defined in terms of the latter.
 
 
-## Definition for topological spaces
+## For topological spaces
+
+### Definition
 
 A **weak homotopy equivalence** between [[topological space]]s is a continuous map which induces [[isomorphism]]s on all [[homotopy group]]s.  More precisely, $f:X\to Y$ is a weak homotopy equivalence if
 1. $f$ induces an isomorphism $f_*:\Pi_0(X)\to \Pi_0(Y)$ of sets of [[path component]]s, and
@@ -26,7 +34,7 @@ Since the the existence of a weak homotopy equivalence is reflexive and transiti
 
 The [[homotopy category]] of [[Top]] with respect to weak homotopy equivalences is [[Ho(Top)]]${}_{whe}$.
 
-## Properties
+### Properties
 
 Any [[homotopy equivalence]] is a weak homotopy equivalence.  It requires a little bit of thought to prove this, because $f$ and its homotopy inverse $g$ need not preserve any chosen basepoint.  But for any $x\in X$ and any $n\ge 1$, we have a diagram
 $$\array{\pi_n(X,x) & & \to & & \pi_n(X,g(f(x)))\\
@@ -39,7 +47,8 @@ Conversely, any weak homotopy equivalence between [[m-cofibrant space]]s (spaces
 Weak homotopy equivalences are the [[weak equivalence]]s in the classical "Quillen" [[model structure on topological spaces]], and also in the "mixed" model structure.
 
 
-## Other types of weak homotopy equivalence
+## For other kinds of spaces
+
 
 A map of [[simplicial set]]s is called a weak homotopy equivalence if its [[geometric realization]] is a weak homotopy equivalence of topological spaces, as above.  (Since the geometric realization of any simpicial set is a CW complex, in this case its geometric realization is actually a homotopy equivalence.)  These are the weak equivalences in the classical [[model structure on simplicial sets]].
 
