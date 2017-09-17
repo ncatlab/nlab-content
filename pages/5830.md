@@ -98,6 +98,23 @@ $$
 $$
 
 
+More generally, we can define arbitrary pullbacks. If `f : A -> C` and `g : B -> C`, the [[homotopy pullback]] of `f` and `g` is defined by
+
+    {a : A & {b : B & f a ~~> g b}}
+
+together with the obvious projections to `A` and `B` and the homotopy between the composites.
+(a proof can be found [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v))
+
+Using [[higher inductive types]], we can also define [[homotopy pushouts]]. if `g : C -> A` and `f : C -> B`, the [[homotopy pushout]] of `f` and `g` is defined by
+
+    Inductive hopushout :=
+      | inl : A -> hopushout
+      | inr : B -> hopushout
+      | glue : forall x : C, inl (g x) ~~> inr (f x).
+
+together with the map `inl`, `inr` and the homotopy `glue`.
+(see [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pushout.v) for the proof)
+
 ## Related concepts
 
 * [[type theory]], [[internal logic]]
