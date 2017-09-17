@@ -13,12 +13,12 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A $G$-**torsor** for a [[group]] $G$ is an [[inhabited object]]/[[space]] $P$ with an [[action]] $\rho : G \times P \to P$ by $G$ that is
+For $G$ a [[group]],  a $G$-**torsor** is an [[inhabited object]]/[[space]] $P$ with an [[action]] $\rho : G \times P \to P$ by $G$ that is
 
 * free: only the identity element acts trivially;
 
@@ -56,7 +56,7 @@ The [[object]]s of $C$ we sometimes call [[space]]s. Examples to keep in mind ar
 +-- {: .un_defn}
 ###### Definition
 
-A left **$G$-torsor** over a [[group]] $G$ is an [[inhabited object]] $P$ equipped with a $G$-[[action]], $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
+A left **$G$-torsor** is an [[inhabited object]] $P$ equipped with a $G$-[[action]], $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
 
 $$\langle \rho, \pi_2 \rangle: G \times P \to P \times P$$ 
 
