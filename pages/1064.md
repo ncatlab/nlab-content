@@ -76,7 +76,9 @@ Various generic classes of examples of additive and abelian categories are of re
 
 ## Related concepts
 
-* [[stable (infinity,1)-category]]
-
+* [[delta-functor]]
 * [[category of chain complexes]]
 * [[derived category]]
+* [[stable (infinity,1)-category]]
+
+
