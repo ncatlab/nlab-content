@@ -19,11 +19,11 @@ gerbe caloron transform_, joint with Raymond Vozzo.
 
 * _$Con(ZF+\neg WISC)$_, unpublished preprint, [[davidroberts:Con(ZF+notWISC)|webpage]].
 
-* _The universal simplicial bundle is a simplicial group_, [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). To appear in the [New York Journal of Mathematics](http://nyjm.albany.edu/nyjm.html).
+* _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886).
 
 * _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]]. Submitted for publication.
 
-* _On the existence of bibundles_, Proc. London Math. Soc. (2012) 105 (6): 1290-1314, [journal version](http://plms.oxfordjournals.org/content/105/6/1290), [arXiv:1102.4388](http://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
+* _On the existence of bibundles_, [Proc. London Math. Soc.](http://www.lms.ac.uk/publication/plms) (2012) 105 (6): 1290-1314, [journal version](http://plms.oxfordjournals.org/content/105/6/1290), [arXiv:1102.4388](http://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
 
 * _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
 
