@@ -47,14 +47,12 @@ by this definition, modular forms are not really functions on the upper half pla
 * wikipedia: [modular form](http://en.wikipedia.org/wiki/Modular_form)
 
 [[!redirects integral modular form]]
-[[!redirects topological modular form]]
 [[!redirects weak modular form]]
 [[!redirects modular function]]
 [[!redirects integral modular function]]
 [[!redirects weak integral modular form]]
 
 [[!redirects integral modular forms]]
-[[!redirects topological modular forms]]
 [[!redirects weak modular forms]]
 [[!redirects modular functions]]
 [[!redirects integral modular functions]]
