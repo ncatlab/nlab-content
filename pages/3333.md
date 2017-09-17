@@ -14,11 +14,7 @@
 =--
 =--
 
-* [[loop space object]] / [[delooping]]
 
-* [[free loop space object]] / **derived loop space**
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -38,12 +34,10 @@ Free loop space objects come naturally equipped with various structures of inter
 
 ## Definition
 
-### Intrinsic $(\infty,1)$-categorical definition
-
 +-- {: .un_defn}
 ###### Definition
 
-In an [[(∞,1)-category]] $C$, for $X \in C$ an [[object]], its **free loop space object** $\mathcal{L}X$ is the $(\infty,1)$-[[pullback]]
+In an [[(∞,1)-category]] $C$ with [[(∞,1)-pullback]]s, for $X \in C$ an [[object]], its **free loop space object** $\mathcal{L}X$ is the $(\infty,1)$-pullback
 
 $$
   \array{
@@ -57,6 +51,10 @@ $$
 $$
 
 =--
+
++-- {: .un_remark}
+###### Remark
+
 
 This is the $(\infty,1)$-categorical [[span trace]] of the identity-[[span]]
 
@@ -75,10 +73,14 @@ $$
   \,.
 $$
 
+=--
+
+## Properties
+
 
 ### Models by homotopy pullbacks {#HomPullModel}
 
-To see what this amounts to in more detail, assume that the [[(∞,1)-category]] is modeled by a [[homotopical category]], say for simplicity a [[category of fibrant objects]], for instance the full subcategory on fibrant objects of a [[model category]]. 
+To see what the definition of a free loop space objectamounts to in more detail, assume that the [[(∞,1)-category]] is modeled by a [[homotopical category]], say for simplicity a [[category of fibrant objects]], for instance the full subcategory on fibrant objects of a [[model category]]. 
 
 Then following the discussion at [[homotopy pullback]] and [[generalized universal bundle]] we can compute the about $(\infty,1)$-pullback as the ordinary [[limit]] 
 
@@ -102,7 +104,6 @@ where $(X\times X)^I$ is a [[path space object]] for $X \times X$.  At least if 
 From this description one sees that $\mathcal{L}X$ is built from _pairs of paths_ in $X$ with coinciding endpoints, that are _glued at their coinciding endpoint_ . So the loops here are all built from two semi-ciricle paths.
 
 
-## Properties
 
 ### Relation to based loop space object
 
@@ -138,58 +139,108 @@ $$
 
 which builds based loops on $X$ from two consecutive paths, the first starting at the basepoint $x$, the second ending there. This is weakly equivalent $\Omega_x X = \Omega^I_x X \stackrel{\simeq}{\to} \Omega^{I \vee I} X$ to the based [[loop space object]] $\Omega_x X$ built from just the path space object $X^I$ with a single copy of $I$, by standard arguments as for instance form page 12 on in 
 
-* Ken Brown, _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_ .
+* [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_ .
 
-### Categorical circle action
+### In an $(\infty,1)$-topos {#InATopos}
 
-If in addition $C$ has $(\infty,1)$-[[pushout]]s, then a [[point]] $x : {*} \to \mathcal{L}X$ of the free loop space object is (by definition of limit) the same thing as a map from the [[pushout]]   
-
-$$
-  S^1_{C} := \lim_\to \left( 
-   {*} \leftarrow {*}\coprod{*}\to{*} \right)
-  \,
-$$
-to $X$. A map $S^1_C \to X$ out of this is, by the nature of [[homotopy pullback|homotopy pushout]]s, two points $x_1 , x_2 : {*} \to X$ and two(!) homotopies 
+We consider now the case that $C = \mathbf{H}$ is an  [[(∞,1)-topos]] (of [[(∞,1)-sheaves]]/[[∞-stack]]s). This comes canonically with its [[terminal object|terminal]] [[global section]]s [[(∞,1)-geometric morphism]]
 
 $$
-  \left(
+  (LConst \dashv \Gamma) : \mathbf{H} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \infty Grpd
+  \,.
+$$ 
+
+#### As a mapping space object
+
++-- {: .un_defn}
+###### Definition/Proposition
+
+Write 
+
+$$
+  S^1 \in Top \simeq \infty Grpd \stackrel{LConst}{\hookrightarrow} \mathbf{H}
+$$
+
+for the [[circle]]. In [[Top]] this is the usual topological circle. In [[∞Grpd]] this is (the [[homotopy type]] of) the [[fundamental ∞-groupoid]] of the topological circle. We may tink of this as the [[(∞,1)-pushout]]
+
+$$
   \array{
-    & \nearrow \searrow^{\simeq}
+    * \coprod * &\to& *
     \\
-    x_1 && x_2
+    \downarrow && \downarrow
     \\
-    & \searrow \nearrow_{\simeq}
+    * &\to& S^1
   }
-  \right)
-  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
-  \in C
 $$
 
-which may be thought of as forming a circle. So $S^1_C$ behaves like a cellular model for the circle with two vertices and two semi-circles. Compare this to the discussion of the nature of $\mathcal{L}X$ [above](#HomPullModel).
-This is isomorphic to ${*}//\mathbb{Z}$, i.e., the [[classifying space]]/[[delooping]] $\mathbf{B}\mathbb{Z}$ in $C$. 
+in $\infty Grpd$. In $\mathbf{H}$ we still write $S^1$ for the [[constant ∞-stack]] on this, the image of this under $LConst$. Since $LConst$ is a [[left adjoint]] and hence preserves this oushout, there is no risk of confusion.
 
-Since in [[Top]] all these objects are represented by $S^1$, it is reasonable to call them the **circle object** of the $(\infty,1)$-category $C$. Using the [[Yoneda lemma for (∞,1)-categories]] this means that the free loop space $\mathcal{L}X$ represents the [[(∞,1)-presheaf]]
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that the given $(\infty,1)$-pushout indeed produces the circle, we use the standard [[model structure on simplicial sets]] $sSet_{Quillen}$ to [[presentable (∞,1)-category|present]] [[∞Grpd]]. In $sSet_{Quillen}$ the $(\infty,1)$-pushout is computed by the [[homotopy pushout]]. By general facts about this, it may be computed as an ordinary [[pushout]] in [[sSet]] once we pass to an equivalent pushout diagram in which at least one morphism is a [[monomorphism]]. This is the case for
 
 $$
-  Maps_C(S^1_{C},X) : U \mapsto C(S^1_C \times U, X)
+  \array{
+    * \coprod * &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[1] &\to& \Delta[1]/\partial \Delta[1]
+  }
+  \,.
 $$
 
-on $C$. The natural [[action]] of the monoid $End_C(S^1_{C})$ on $S^1_{C}$ itself induces an action 
-$$
-  End_C(S^1_{C}) \times Maps_C(S^1_{C},X) \to Maps_C(S^1_{C},X)
-$$
-and, assuming $C$ is closed, again by Yoneda this gives an action
-$$
-  End_C(S^1_{C}) \times \mathcal{L}X \to \mathcal{L}X.
-$$
-Since the action of $End_C(S^1_{C})$ on $\mathcal{L}X$ is just precomposition with a morphism, one sees that if $f:X\to Y$ is a morphism in $C$, then the induced morphism $\mathcal{L}f:\mathcal{L}X\to\mathcal{L}Y$ is $End_C(S^1_{C})$-equivariant.
+=--
 
-Restriction to the subgroup $Aut_{0,C}(S^1_C)\subseteq End_C(S^1_{C})$ consisting of automorphisms of $S^1_C$ homotopy equivalent to the identity, gives the **categorical circle action**
-$$
-  Aut_{0,C}(S^1_C) \times \mathcal{L}X \to \mathcal{L}X
-$$
-on $\mathcal{L}X$. When $C=$ [[Top]] this action is the usual _rotation of the loops_ in $X$; indeed, the connected component of the identity in the group of topological automorphisms of $S^1$ is homotopically equivalent to the subgroup of rigid rotations.
+Since every [[(∞,1)-topos]] is a [[cartesian closed (∞,1)-category]] we have for every object $X \in \mathbf{H}$ an [[internal hom]]-[[(∞,1)-functor]]
 
+$$
+  [X,-] : \mathbf{H} \to \mathbf{H}
+  \,.
+$$
+
++-- {: .un_prop}
+###### Proposition
+
+There is a natural [[equivalence in an (∞,1)-category|equivalence]]
+
+$$
+  \mathcal{L}X \simeq [S^1 , X]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from the above by the fact (see <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">closed monoidal structure on (∞,1)-toposes</a>) that the internal hom in an $(\infty,1)$-topos preserves finite colimits in its first argument and all limits in its second argument. This yields
+
+$$
+  \begin{aligned}
+    [S^1 ,X] &\simeq [* \coprod_{* \coprod *} *, X]
+    \\
+      & \simeq
+      [*,X] \times_{[* \coprod *, X]} [*,X]
+     \\
+      & \simeq X \times_{X \times X} X
+     \\
+     & \simeq \mathcal{L}X
+     \,.
+  \end{aligned}
+$$
+
+=--
+
+#### Intrinsic circle action
+
+The realization of the free loop space object as an internal hom out of the circle induced a canonical [[action]] of the circle on $\mathcal{L}X$.
+
+(...)
 
 #### Details {#DetailsCircAct}
 
@@ -537,6 +588,17 @@ The Hom-space $C(\mathcal{L}X,\mathbb{C})$ is a model for the graded commutative
 In the case that $G=GL(\infty;\mathbb{C})$, the compatibility of the trace with [[direct sum]]s and [[tensor product]]s of [[vector bundle]]s over $X$ makes the above construction a [[ring]] homomorphism $K(X)\to H_{dR}(X)$ from the [[topological K-theory]] of $X$ to [[de Rham cohomology]], hence a very good candidate to being the [[Chern character]] 
 
 ( _to be completed..._ )
+
+
+
+## Related concepts
+
+* [[loop space object]] / [[delooping]]
+
+* **free loop space object** / [[derived loop space]]
+
+
+
 
 ## References
 
