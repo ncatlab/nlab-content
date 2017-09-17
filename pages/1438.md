@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -199,12 +198,9 @@ A brief review of some basics with an eye towards [[inductive types]] is in sect
 
 The relation to [[free monads]] is discussed in 
 
-* [Maciej](#http://maciejcs.wordpress.com/), _[Free monads and their algebras](http://maciejcs.wordpress.com/2012/04/17/free-monads-and-their-algebras/)_
+* [Maciej](http://maciejcs.wordpress.com/), _[Free monads and their algebras](http://maciejcs.wordpress.com/2012/04/17/free-monads-and-their-algebras/)_
  {#Maciej}
 
-
-[[!redirects initial algebra]]
-[[!redirects initial algebras]]
 
 [[!redirects initial algebra of an endofunctor]]
 [[!redirects initial algebras of an endofunctor]]
