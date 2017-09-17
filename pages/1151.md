@@ -516,7 +516,7 @@ Several familiar "cohomology theories" are not so much genuine cohomology theori
 +--{.query}
 Zoran: I am not happy with this assertion. First of all the notion of the derived functor is fundamental and it makes sense even in setups when the injective resolutions do not exist. Abelian sheaf cohomology IS a derived functor of the global sections functor, not a specific technique to computing it. On the other hand, the injective resolutions ARE a specific technique to compute the derived functor. It is also not clear in this entry if it is about sheaves on topological spaces or on sites or some more general setup. 
 
-Urs: I have posted a reply <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=391&amp;page=1#Item_5">here</a>. Let's sort this out, improve the entry and remove this query box here.
+Urs: I have posted a reply [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=391&page=1#Item_5). Let's sort this out, improve the entry and remove this query box here.
 =--
 
 
