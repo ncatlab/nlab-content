@@ -8,9 +8,26 @@ Is it also true for non-compact?
 
 
 [[!redirects Calabi-Yau]]
+[[!redirects Calabi–Yau]]
+[[!redirects Calabi--Yau]]
 
 [[!redirects Calabi-Yau space]]
-[[!redirects Calabi-Yau manifold]]
-
 [[!redirects Calabi-Yau spaces]]
+[[!redirects Calabi–Yau space]]
+[[!redirects Calabi–Yau spaces]]
+[[!redirects Calabi--Yau space]]
+[[!redirects Calabi--Yau spaces]]
+
+[[!redirects Calabi-Yau manifold]]
 [[!redirects Calabi-Yau manifolds]]
+[[!redirects Calabi–Yau manifold]]
+[[!redirects Calabi–Yau manifolds]]
+[[!redirects Calabi--Yau manifold]]
+[[!redirects Calabi--Yau manifolds]]
+
+[[!redirects Calabi-Yau variety]]
+[[!redirects Calabi-Yau varieties]]
+[[!redirects Calabi–Yau variety]]
+[[!redirects Calabi–Yau varieties]]
+[[!redirects Calabi--Yau variety]]
+[[!redirects Calabi--Yau varieties]]
