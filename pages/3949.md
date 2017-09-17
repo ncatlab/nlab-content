@@ -15,6 +15,8 @@ Some things I am considering trying to write about, or contribute to. (This is m
 * whether pigs have wings
 
 
+### I ATEN'T DEAD ###
+(just snowed under with other projects and commitments)
 
 category: people
 
