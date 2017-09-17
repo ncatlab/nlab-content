@@ -12,7 +12,6 @@ The [[set]] of real numbers also carries naturally the structure of a [[topologi
 Together with its [[cartesian products]] -- the [[Cartesian spaces]] $\mathbb{R}^n$ for [[natural numbers]] $n \in \mathbb{N}$ -- the real line $\mathbb{R}$ is a standard formalization of the idea of _continuous space_.  The more general concept of ([[smooth manifold|smooth]]) _[[manifold]]_ is modeled on these Cartesian spaces. These, in turn are standard models for the notion of [[space]] in particular in [[physics]] (see _[[spacetime]]_), or at least in [[classical physics]]. See at _[[geometry of physics]]_ for more on this.
 
 
-
 ## History
 
 The original idea of a real number came from [[geometry]]; one thinks of a real number as specifying a _point on a line_, with _[[line]]_ understood as the abstract idea of the object that a pencil and a ruler draw on a piece of paper.  (More precisely, given two distinct points on the line, called $0$ and $1$, you get a [[bijection]] between the points and the real numbers.)
@@ -145,6 +144,7 @@ There are alternative topologies on $\mathbb{R}$ sometimes considered:
 * the [[discrete topology]] (not very interesting),
 * the [[order topology]] or [[absolute-value topology]] (the usual topology),
 * the [[upper-interval topology]] or the [[lower-interval topology]],
+* the [[lower semicontinuous topology]] or the [[upper semicontinuous topology]],
 * the [[K-topology]].
 
 Another variant of $\mathbb{R}$ as a topological space is the
