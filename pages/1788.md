@@ -5,10 +5,18 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
++-- {: .query}
+
 No sand in this box.
+
+=--
+
+
 
 
 ***
+
+
 
 category: meta
 
