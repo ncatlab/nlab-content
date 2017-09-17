@@ -4,6 +4,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
 #### Synthetic differential geometry
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
