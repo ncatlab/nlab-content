@@ -6,7 +6,25 @@
 
 ## Idea
 
-The Reidemeister trace, developed by Reidemeister and Wecken, is an algebraic invariant of a selfmap of a compact [[polyhedron]] which, if successfully computed, gives both the [[Lefschetz numbers]] and [[Nielsen numbers]].
+The Reidemeister trace, developed by Reidemeister and Wecken, is an algebraic invariant of a self-map of a "finite" topological space.  It gives information about the existence or nonexistence of fixed points, and refines both the [[Lefschetz number]] and [[Nielsen number]].
+
+## Definition
+
+Suppose $M$ is a closed manifold and $f\colon M\to M$ a self-map.  Deform $f$ so that it has isolated fixed points.  We say that two fixed points $x$ and $y$ are in the same [[fixed-point class]] if there is a path $\gamma$ from $x$ to $y$ such that $f(\gamma)$ is [[homotopy|homotopic]] to $\gamma$ rel the endpoints ($x$ and $y$).  Let $\mathbb{Z}[\pi_1(M)_f]$ denote the free abelian group on the set of fixed-point classes.  Then the **Reidemeister trace** of $f$ is the formal sum
+
+$$ R(f) \coloneqq \sum_{f(x)=x} ind_f(x) \cdot [x] \in \mathbb{Z}[\pi_1(M)_f] $$
+
+where $ind_f(x)$ is the [[index]] of the fixed point $x$ of $f$.  This definition is homotopy invariant.
+
+An equivalent definition can be obtained algebraically, or category-theoretically using the [[bicategorical trace]].
+
+## Properties
+
+* The sum of all the coefficients in the Reidemeister trace is the [[Lefschetz number]] $L(f)$.
+
+* The number of nonzero coefficients in the Reidemeister trace is the [[Nielsen number]] $N(f)$.
+
+* If $M$ is a closed manifold of dimension at least 3, and $R(f)=0$, then $f$ is homotopic to a map without fixed points.  Thus, the Reidemeister trace supports a converse to the [[Lefschetz fixed-point theorem]].
 
 ## References
 
