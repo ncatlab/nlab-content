@@ -321,7 +321,11 @@ Conversely, given a functor $D'$ as above satisfying the axioms as given above, 
 Does (Der4) on Beck-Chevalley conditions carry back over?  Does this require a "pointed version of Cisinski's theorem"?
 =--
 
-Finally, of course each category $D(A) = D'(A')$ has a zero object, so $D$ is a pointed derivator.  Thus, $Set_*$-enrichment is an essentially equivalent way to express the notion of pointed derivator.  This approach was used by Franke (see below).
+Finally, of course each category $D(A) = D'(A')$ has a zero object, so $D$ is a pointed derivator.  Thus, it seems that $Set_*$-enrichment is an essentially equivalent way to express the notion of pointed derivator.  (This approach was used by Franke (see below).)
+
++--{: .query}
+However, what is not immediately clear is that passing from $D$ to $D'$ and back to $D$ again gives the same derivator.  At first sight this seems to require a stronger theorem about homotopy exactness with zeros than is stated above, one in which the square need not be homotopy exact without zeros.
+=--
 
 
 ## The pointed reflection
