@@ -700,6 +700,23 @@ A standard textbook on the application of BRST-BV to [[gauge theory]] is
 
 * MO: [what is the BV formalism and its uses](http://mathoverflow.net/questions/30352/what-is-the-batalin-vilkovisky-formalism-and-what-are-its-uses-in-mathematics/32443#32443)
 
+### Multisymplectic BRST
+ {#ReferencesMultisymplectic}
+
+In the context of [[multisymplectic geometry]]
+
+* Sean Hrabak, _Ambient Diffeomorphism Symmetries of Embedded Submanifolds, Multisymplectic BRST and Pseudoholomorphic Embeddings_ ([arXiv:math-ph/9904026](http://arxiv.org/abs/math-ph/9904026))
+
+* Sean Hrabak, _On a Multisymplectic Formulation of the Classical BRST symmetry for First Order Field Theories Part I: Algebraic Structures_ ([arXiv:math-ph/9901012](http://arxiv.org/abs/math-ph/9901012))
+
+* Sean Hrabak, _On a Multisymplectic Formulation of the Classical BRST Symmetry for First Order Field Theories Part II: Geometric Structures_ ([arXiv:math-ph/9901013](http://arxiv.org/abs/math-ph/9901013))
+
+based on 
+
+* I. Kanatchikov, _On field theoretic generalizations of a Poisson algebra_, Rept.Math.Phys. 40 (1997) 225 ([arXiv:hep-th/9710069](http://arxiv.org/abs/hep-th/9710069))
+
+
+
 [[!redirects Batalin-Vilkovisky formalism]]
 [[!redirects Batalin-Vilkovisky theory]]
 [[!redirects BV-theory]]
