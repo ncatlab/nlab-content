@@ -15,7 +15,7 @@
 
 ## Idea
 
-What is called _functional calculus_ or _function calculus_ are operations by which for $f$ a [[function]] (on the [[complex number]]s , for instance) and $a$ a suitable [[operator]] (on a [[Hilbert space]], for instance) one makes sense of the expression $f(a)$ as a new operator. Usually one requires that the assignment $f \mapsto f(a)$ is an algebra [[homomorphism]], but not always, namely in some contexts as [[quantization]] the ordering effects may not respect the homomorphism property, see [[Weyl calculus]]. 
+What is called _functional calculus_ or _function calculus_ are operations by which for $f$ a [[function]] (on the [[complex number]]s , for instance) and $a$ a suitable [[operator]] (on a [[Hilbert space]], for instance) one makes sense of the expression $f(a)$ as a new operator. Usually one requires that the assignment $f \mapsto f(a)$ is an algebra [[homomorphism]], but not always, namely in some contexts as [[quantization]] the ordering effects may not respect the homomorphism property, see [[Weyl functional calculus]]. 
 
 ## Statements
 
