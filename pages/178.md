@@ -196,7 +196,7 @@ $$
 +-- {: .un_prop #RelativeTopologicalCohesion}
 ###### Proposition
 
-The functor $i$ extends to a triple of [[adjoint (∞,1)-functor]]s
+The functor $i$ extends to an [[essential (∞,1)-geometric morphism]]
 
 $$
   (i_! \dashv i^* \dashv i_*)
@@ -327,6 +327,9 @@ We discuss the general abstract
 ### Geometric homotopy and Galois theory     
   {#StrucGeometricHomotopy}
 
+
+We discuss the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">intrinsic fundamental ∞-groupioid</a> construction realized in $Smooth \infty Grpd$.
+
 +-- {: .un_prop #UnderlyingSimplicialTopologicalSpace}
 ###### Proposition
 
@@ -337,7 +340,7 @@ If $X \in Smooth\infty Grpd$ is presented by $X_\bullet \in SmoothMfd^{op} \hook
 +-- {: .proof}
 ###### Proof
 
-Let first $X \in SmoothMfd \hookrightarrow SmoothMfd^{\Delta^{op}}$ be simplicially constants. Then there is a differentiably [[good open cover]] $\{U_i \to X\}$ such that the [[Cech nerve]] projection
+Let first $X \in SmoothMfd \hookrightarrow SmoothMfd^{\Delta^{op}}$ be simplicially constant. Then there is a differentiably [[good open cover]] $\{U_i \to X\}$ such that the [[Cech nerve]] projection
 
 $$
   \left(
@@ -371,7 +374,7 @@ $$
     & \simeq
   \int^{[k] \in \Delta}
     \Delta[k] \cdot \coprod_{i_0, \cdots, i_k}
-         Lan_i 
+         i 
            (U_{i_0} \times_X \cdots \times_X U_{i_k})
    \\
     & \simeq
@@ -386,7 +389,7 @@ $$
 
 The last step follows from observing that we have manifestly the [[Cech nerve]] as before, but now of the underlying [[topological space]]s of the $\{U_i\}$ and of $X$. 
 
-The claim then follows for general simplicial spaces by obsering that $X_\bullet = \int^{[k] \in \Delta} \Delta[k] X_k \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ presents the  [[(∞,1)-colimit]] over $X_\bullet : \Delta^{op} \to SmoothMfd \hookrightarrow Smooth \infty Grpd$ and the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $i_!$ preserves these [[(∞,1)-colimit]]s. 
+The claim then follows for general simplicial spaces by observing that $X_\bullet = \int^{[k] \in \Delta} \Delta[k] X_k \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ presents the  [[(∞,1)-colimit]] over $X_\bullet : \Delta^{op} \to SmoothMfd \hookrightarrow Smooth \infty Grpd$ and the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $i_!$ preserves these [[(∞,1)-colimit]]s. 
 
 =--
 
@@ -799,12 +802,13 @@ $$
   \,.
 $$
 
-More generally, for $X_\bullet \in SmoothMfd^{\Delta^{op}}$ we have
+More generally, for $X_\bullet \in SmoothMfd^{\Delta^{op}}$ 
+presenting an object in $Smooth \infty Grpd$ we have
 
 $$
   H_{Smooth}(X_\bullet, Disc A)
   \simeq
-  H_{Top}(|X_\bullet|, |A|)
+  H_{Top}(|X|, |A|)
   \,.
 $$
 
@@ -813,7 +817,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This follows directly from the $(\Pi \dashv Disc)$-[[adjunction]] and the [above proposition](#StrucGeometricHomotopy) asserting that $|\Pi(X_\bullet)| \simeq |X_\bullet|$ is the ordinary [[geometric realization of simplicial topological spaces]].
+This follows from the $(\Pi \dashv Disc)$-[[adjunction]] and the [above proposition](#StrucGeometricHomotopy) asserting that $|\Pi(X_\bullet)| \simeq |X_\bullet|$ is the ordinary [[geometric realization of simplicial topological spaces]].
 
 =---
 
@@ -976,7 +980,7 @@ $$
   \,.
 $$
 
-We discuss how this related to other definitions of <a href="http://ncatlab.org/nlab/show/group+cohomology#LieGroupcohomology">Lie group cohomology</a> in the literature.
+We discuss how this relates to other definitions of <a href="http://ncatlab.org/nlab/show/group+cohomology#LieGroupcohomology">Lie group cohomology</a> in the literature.
 
 +-- {: .un_defn}
 ###### Definition
@@ -1245,22 +1249,28 @@ Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the
 +-- {: .un_prop}
 ###### Proposition
 
-For $G$ a [[compact topological space|compact]] [[Lie group]] and $A$ either 
+For $G$ a [[Lie group]] and $A$ either 
 
-1. a [[discrete group]]
+1. a [[discrete group|discrete]] [[abelian group]];
 
 1. the additive Lie group of [[real numbers]] $\mathbb{R}$;
 
-1. the [[circle group]] $\mathbb{R}/Z = U(1)$
-
-the intrinsic cohomology of $G$ in $Smooth\infty Grpd$ coincides with the refined [[Lie group cohomology]] of ([Segal](#Segal))([Brylinski](#Brylinski))
+the intrinsic cohomology of $G$ in $Smooth\infty Grpd$ coincides with the refined [[Lie group cohomology]] of ([Segal](#Segal)/[Brylinski](#Brylinski))
 
 $$
-  H^n_{Smooth\infty Grpd}(\mathbf{B}G, A) \simeq H^n_{diffr}(G,A)
+  H^n_{Smooth\infty Grpd}(\mathbf{B}G, A) \simeq H^n_{Segal}(G,A)
   \,.
 $$
 
-In particular we have
+In particular we have in general
+
+$$
+  H^n_{Smooth\infty Grpd}(\mathbf{B}G, \mathbb{Z})
+  \simeq
+  H^{n}_{top}(B G, \mathbb{Z})
+$$
+
+and for $G$ [[compact topological space|compact]] also
 
 $$
   H^n_{Smooth\infty Grpd}(\mathbf{B}G, U(1))
