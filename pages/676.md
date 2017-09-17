@@ -153,6 +153,8 @@
 
   * Phenomena
 
+    * [[universality class]]
+
     * [[quantum anomaly]]
 
       * [[Green-Schwarz mechanism]]
@@ -162,6 +164,8 @@
     * [[spontaneously broken symmetry]]
 
     * [[Kaluza-Klein mechanism]]
+
+
 
   * Types of quantum field thories
 
