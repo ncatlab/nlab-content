@@ -1,0 +1,20 @@
+## Definition
+
+An **elegant Reedy category** is a [[Reedy category]] $R$ such that
+
+* every [[span]] of codegeneracy maps in $R$ has an [[absolute colimit|absolute]] [[pushout]] in $R$ that also consists of codegeneracy maps.
+
+In particular, this implies that every codegeneracy map is a [[split epimorphism]].
+
+## Model structures
+
++-- {: .un_theorem}
+###### Theorem
+If $R$ is an elegant Reedy category and $M$ is a [[model category]] in which the [[cofibrations]] are exactly the [[monomorphisms]], then the [[Reedy model structure]] and the [[injective model structure]] on $M^{R^{op}}$ coincide.
+=--
+
+## References
+
+* [[Julie Bergner]] and [[Charles Rezk]], *Reedy categories and the $\Theta$-construction*, [arXiv](http://arxiv.org/abs/1110.1066)
+
+[[!redirects elegant Reedy categories]]
