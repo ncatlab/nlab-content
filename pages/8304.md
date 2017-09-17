@@ -54,16 +54,24 @@ Hence abelianization is the _[[free construction]]_ of an abelian group from a g
 
 ### Examples
 
-Given a [[pointed space]] $(X,a)$, its first [[homology group]] with coefficients in the [[integers]] is the abelianisation of its [[fundamental group]]:
+#### Homotopy groups
+
++-- {: .num_example }
+###### Example
+
+Given a [[pointed space|pointed]] [[connected topological space]] $(X,a)$, its first [[singular homology|singular]] [[homology group]] with coefficients in the [[integers]] is the abelianisation of its [[fundamental group]]:
 $$ H_1(X,\mathbb{Z}) \cong \pi_1(X,a)^{ab} .$$
 This is a [[natural isomorphism]] filling the following diagram of [[functors]]:
 $$ \array {
-   Top_* & \overset{\pi_1}\longrightarrow & Grp \\
+   Top_{\geq 1}^{*/} & \overset{\pi_1}\longrightarrow & Grp \\
    \llap{U}\downarrow & & \downarrow\rlap{ab} \\
    Top & \underset{H_1({-},\mathbb{Z})}\longrightarrow & Ab Grp
 } $$
 (where $U$ [[forgetful functor|forgets]] the point).
 
+=--
+
+For more discussion of this see at _[[singular homology]]_ the section _[Relation to homotopy groups](singular%20homology#RelationToHomotopyGroups)_.
 
 #### Free abelian groups
 
@@ -96,7 +104,7 @@ $$
 and $(-)^{ab} \circ F_{grp}$ is left adjoint to $U_{grp} \circ U$. 
 
 
-## Monoids etc
+## For monoids etc
 
 Abelianisation of monoids works pretty much like abelianisation of groups.
 
@@ -105,7 +113,7 @@ We can also do abelianisation of [[monoid objects]] in many [[monoidal categorie
 We can even form abelianisations of [[semigroups]] or [[magmas]].
 
 
-## Lie algebras
+## For Lie algebras
 
 Lie algebras are not monoid objects in any category, but one still considers [[abelian Lie algebras]], which may be identified with their underlying [[vector spaces]].  These are so called because they correspond to abelian [[Lie groups]].  Lie algebras also can be abelianised.
 
