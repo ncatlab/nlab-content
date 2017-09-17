@@ -450,6 +450,10 @@ For discussion of the geometric quantization of the
 [[bosonic string]] 2d [[sigma-model]] see at
 _[string -- Symplectic geometry and geometric quantization](string#ReferencesSymplecticGeometryAndGeometricQuantization)_.
 
+Discussion of geometric quantization of [[self-dual higher gauge theory]] is in 
+
+* Samuel Monnier, _Geometric quantization and the metric dependence of the self-dual field theory_ ([arXiv:1011.5890](http://arxiv.org/abs/1011.5890))
+
 ### Relation to other formalisms
 
 Discussion of the relation of geometric quantization to [[deformation quantization]] is in 
