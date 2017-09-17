@@ -519,9 +519,12 @@ Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sp
 
 ## Related concepts
 
-* [[J-homomorphism and chromatic homotopy]]
+* [[Thom spectra]], [[MO]]
 
 * [[orientation in generalized cohomology]]
+
+* [[J-homomorphism and chromatic homotopy]]
+
 
 ## References
 
