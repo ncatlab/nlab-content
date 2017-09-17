@@ -131,6 +131,7 @@ $$
 
 At least in low categorical dimension one has the definition of the [[path n-groupoid]] $\mathbf{P}_n(X)$ of a smooth manifold, whose $n$-morphisms are [[thin homotopy]]-classes of smooth functions $[0,1]^n \to X$. Parallel $n$-transport with only the $(n+1)$-curvature form possibly nontrivial and all the lower curvature degree 1- to $n$-forms nontrivial may be expressed in terms of smooth $n$-functors out of $\mathbf{P}_n$ ([SWI](#SWI), [SWII](#SWII), [MartinsPickenI](#MartinsPickenI), [MartinsPickenII](#MartinsPickenII)).
 
+### 2-Transport
 
 We work now concretely in the category $2DiffeoGrpd$ of [[2-groupoid]]s [[internalization|internal to]] the category of [[diffeological space]]s.
 
@@ -149,7 +150,7 @@ i.e. morphisms in $2DiffeoGrpd$ are characterized by [[Lie 2-algebra valued diff
 +-- {: .un_defn}
 ###### Definition
 
-Given a morphism $F : \mathbf{P}_2(X) \to \mathbf{B}G$ we construct a$\mathfrak{g}_1$-valued 2-form  $B_F \in \Omega^2(X, \mathfrak{g}_1)$ as follows.
+Given a morphism $F : \mathbf{P}_2(X) \to \mathbf{B}G$ we construct a $\mathfrak{g}_1$-valued 2-form  $B_F \in \Omega^2(X, \mathfrak{g}_1)$ as follows.
 
 To find the value of $B_F$ on two vectors $v_1, v_2 \in T_p X$ at some point, _choose_ any smooth function
 
@@ -194,7 +195,7 @@ $$
   \mathbb{R}^2 \stackrel{\Sigma_{\mathbb{R}}}{\to}
   2Mor \mathbf{P}_2(\mathbb{R}^2)
   \stackrel{\Gamma_*}{\to}
-  2Mor \mathbf{P}_2(\mathbb{X})
+  2Mor \mathbf{P}_2(X)
   \stackrel{F}{\to}
   G_0 \times G_1
   \stackrel{p_2}{\to}
@@ -206,7 +207,7 @@ Then set
 
 $$
   B_F(v_1, w_1) := 
-   \frac{\partial^2 F_\Gamma}{\partial s \partial t}|_{(0,0)}
+   \frac{\partial^2 F_\Gamma}{\partial x \partial y}|_{(0,0)}
   \,.
 $$
  
@@ -215,7 +216,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-This definition is well defined, in that it does not depend on the choices made. Moreover, the 2-form defines this way is smooth.
+This is well defined, in that $B_F(v_1,v_2)$ does not depend on the choices made. Moreover, the 2-form defines this way is smooth.
 
 =--
 
@@ -224,19 +225,78 @@ This definition is well defined, in that it does not depend on the choices made.
 
 To see that the definition does not depend on the choice of $\Gamma$, proceed as follows.
 
-Let $\Gamma, \Gamma' : \mathbb{R}^2 \to X$ be two smooth maps as in the defnition.  By restricting, if necessary, to a neighbourhood of the origin of $\mathbb{R}^2$, we may assume that these maps land in a single coordinate pathc in $X$. Using the vector space structure of $\mathbb{R}^n$ defined by such a pathch, define a smooth homotopy
+For given vectors $v_1,v_2 \in \T_X X$ let $\Gamma, \Gamma' : \mathbb{R}^2 \to X$ be two choices of smooth maps as in the defnition.  By restricting, if necessary, to a neighbourhood of the origin of $\mathbb{R}^2$, we may assume without restriction that these maps land in a single coordinate patch in $X$. Using the vector space structure of $\mathbb{R}^n$ defined by such a patch, define a smooth homotopy
 
 $$
   \tau : [0,1]^3 \to X : (x,y,z) \mapsto (1-z)\Gamma(x,y) + z \Gamma'(x,y)
 $$
 
-There is a smooth factorization
+Let 
 
 $$
-  \mathbb{R}^3 \to Z \to X
+  Z = \{(x,y,w) \in [0,1]^3 | 0 \leq w \leq \frac{1}{2}(x^2 + y^2) \}
 $$
 
-(...)
+and consider the map $f : [0,1]^3 \to Z$ given by
+
+$$
+  f : (x,y,z) \mapsto (x,y, \frac{1}{2}(x^2 + y^2) z)
+$$
+
+and the map $g : Z \to X$ given away from $(x^2 + y^2) = 0$ by
+
+$$
+  g : (x,y,w) \mapsto \tau(x,y, 2 \frac{w}{x^2 + y^2})
+  \,.
+$$
+
+Using [[Hadamard's lemma]] and the fact that by constructon $\tau$ has vanishing 0th and 1st order differentials at the origin it follows that this is indeed a [[smooth function]].
+
+We want to similarly factor the smooth family of bigons $[0,1]^3 \to 2Mor(\mathbf{P}_2(X))$ given by
+
+$$
+  [0,1]^3 \times [0,1]^2 \to X
+$$
+
+$$
+  ((x,y,z),(s,t)) \mapsto \tau(s x, t y, z)
+$$
+
+as $[0,1]^3 \times [0,1]^2 \to Z \times [0,1]^2 \to Z \to X$
+
+$$
+  ((x,y,z),(s,t)) 
+    \mapsto
+  ((x, y, \frac{1}{2}(x^2 + y^2)), (s,t))
+    \mapsto
+  (s x , t y, \frac{1}{2}((s x)^2 + (t y)^2)z)
+    \mapsto
+  \tau(s x, s y, z)
+  \,.
+$$
+
+As before using Hadamard's lemma this is a sequence of smooth functions. Under the hom-adjunction it corresponds to a factorization of $G_\Gamma : [0,1]^3 \to 2 Mor(\mathbf{P}_2(X))$ into
+
+$$
+ G_\Gamma :  [0,1]^3 \stackrel{f}{\to} Z \to 2 Mor(\mathbf{P}_2(X))
+  \,.
+$$
+
+By the above construction we have the the push-forwards
+
+$$
+  f_* : \frac{\partial}{\partial x}(x=0,y=0,z)  
+    \mapsto
+    \frac{\partial}{\partial x}(x= 0, y = 0, w = 0)
+$$
+
+and similarly for $\frac{\partial}{\partial y}$ are indendent of $z$. It follows by the [[chain rule]] that also 
+
+$$
+  \frac{\partial^2 G_\Gamma}{\partial x \partial y}|_{(x=0,y=0)} 
+$$
+
+is independent of $z$. But at $z = 0$ this equals $\frac{\partial^2 F_\Gamma}{\partial x \partial y}|_{(x=0,y=0)}$, while at $z = 1$ it equals $\frac{\partial^2 F_{\Gamma'}}{\partial x \partial y}|_{(x=0,y=0)}$. Therefore these two are equal.
 
 =--
 
