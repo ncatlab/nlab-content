@@ -24,6 +24,8 @@ The generalization in [[(∞,1)-category theory]] of the notion of _[[group of u
 
 ## Definition
 
+### Unaugmented definition
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -51,6 +53,11 @@ $$
 $$
 
 =--
+
+### Augented definition
+ {#AugmentedDefinition}
+
+There is slight refinement of the above definition, which essentially adds one 0-th "grading" homotopy group to $B gl_1(E)$ and thereby makes the $\infty$-group of units of [[E-∞ rings]] be canonically [[augmented ∞-group|augmented]] over the [[sphere spectrum]] ([Sagave 11](#Sagave11)).
 
 ## Properties
  {#Properties}
@@ -204,6 +211,7 @@ A construction in terms of a [[model structure on spectra]] is in
 A refinement of the construction of $\infty$-groups of units to [[augmented ∞-groups]] over the [[sphere spectrum]], such as to distinguish $gl_1$ of a [[periodic E-∞ ring]] from its connective cover, is in
 
 * Steffen Sagave, _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
+ {#Sagave11}
 
 based on ([Schlichtkrull 04](#Schlichtkrull04)).
 
