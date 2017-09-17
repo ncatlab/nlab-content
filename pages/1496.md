@@ -15,7 +15,7 @@
 
 ## Idea
 
-A Banach space $\mathcal{B}$ is both a [[vector space]] and a [[normed space]], such that the norm induced metric turns $\mathcal{B}$ into a _[[complete space|complete]]_ [[metric space]], and the induced topology turns $\mathcal{B}$ into a [[topological vector space]].
+A Banach space $\mathcal{B}$ is both a [[vector space]] over $\mathbb{R}$ and a [[normed space]], such that the norm induced metric turns $\mathcal{B}$ into a _[[complete space|complete]]_ [[metric space]], and the induced topology turns $\mathcal{B}$ into a [[topological vector space]].
 
 A source of simple Banach spaces comes from considering a [[Cartesian space]] $\mathbb{R}^n$ with the norm:
 
