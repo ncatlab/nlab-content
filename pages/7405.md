@@ -23,9 +23,22 @@ $$
 
 from the [[category]] of [[distributive lattices]] to that of completely distributive [[algebraic lattices]]. This is [[left adjoint]] to the corresponding [[forgetful functor]].
 
+### For Heyting algebras
+
+The canonical extension $L^\delta$ of a distributive lattice $L$ is a complete and completely distributive lattice.
+
+In particular the canonical extension is a [[Heyting algebra]]. If $L$ is itself already a Heyting algebra, then $e_L : L \to L^\delta$ preserves the Heyting [[implication]]. Also, canonical extension preserves homomorphisms of Heyting algebras. Hence it restricts to a functor
+
+$$
+  (-)^\delta : HeytingAlgebra \to HeytingAlgebra
+  \,.
+$$
+
+
 ### For coherent categories
 
 (...)
+
 
 ## Related concepts
 
