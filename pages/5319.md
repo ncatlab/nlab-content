@@ -49,6 +49,30 @@ The interpretation, in [[simplicial complex]], of the points of $|K|$ as convex 
 
 * If $K'$ and  $K''$ are subdivisions of $K$ then there is a subdivision $K'''$  of $K$ that is a subdivision of both $K'$ and $K''$.
 
+These statements thus assert that the subdivisions of a simplicial complex $K$ form a directed set with respect to the partial ordering defined by the relation of subdivision. (We will return to this later in this entry.)
+
+Given any simplex, $s\in K$ (or put more pedantically $s \in S(K)$), and using the [[simplicial complex|Canonical Construction]] of $|K|$, we can assign an _open simplex_, $\langle s \rangle$, to $s$. We first recall, from [[simplicial complex]], that $|K|$ is constructed as follows: 
+
+$|K|$ is the set of all functions from $V(K)$ to  the closed interval $[0,1]$ such that
+
+* if $\alpha \in |K|$, the set
+ 
+$$\{v \in V(K) \mid \alpha(v)  \neq  0\}$$
+
+is a simplex of $K$;
+
+ * for each $v\in V(K)$,  
+$$\sum_{\alpha \in V(K)} \alpha (v) = 1.$$
+ 
+(We then give this set a topology (see [[simpliial complex]]).)
+
++--{: .un_defn}
+######Definition
+For $s\in K$, the **open simplex**, $\langle s \rangle\subet |K|$ is defined  by 
+$$\langle s \rangle = \{ \alpha \in |K| \mid \alpha(v) \neq 0 \Rightleftarrow v\in s\}.$$
+=--
+Beware although a closed simplex  will be a closed subset of $|K|$, an open simplex need not be open in $|K|. However every $\langle s \rangle$ is and open set of $|s|$. (see Spanier, p. 112, for a discussion.)
+
 ##Barycentric subdivision (classical geometric forms)
 The barycentric subdivision is one of the best known and most useful natural subdivisions available in general.  (Other are also used, for instance, the middle edge or [[ordinal subdivision]].)  The barycentric subdivision has the good property that it exists without recourse to the realisation process, although usually introduced via that process. It is in that form that it is  discussed in [[subdivision]].  Here we give the 'classical' form and go from that towards the other functorial form.
 
