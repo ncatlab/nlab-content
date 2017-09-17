@@ -131,7 +131,7 @@ An article on [[interval arithmetic]] is probably the right place to talk about 
 
 Instead of starting with rational numbers, we could use any [[dense suborder|dense]] subset of $\mathbb{Q}$; the result would be equivalent.  For example, we could start with the [[dyadic number]]s to show more explicitly how real numbers are represented by rational numbers written in binary notation.  Alternatively, we could start with something larger than (or incomparable with) $\mathbb{Q}$ that is still a dense subset of $\mathbb{R}$ (although you have to know what $\mathbb{R}$ is to state this).  For example, we could start with the real [[algebraic number]]s or the [[computable number]]s.
 
-The basic theory also generalises immediately to any unbounded, [[dense order|dense]] linearly ordered set $S$; again, the result is equivalent as long as $S$ is a [[countably infinite set]].  The theory may be generalised further even to orders which may not be unbounded, dense, or even linear, but this requires modifications; see [[Dedekind completion]] (if we ever write that) or Sections 4.31--39 of _[[HAF]]_.
+The basic theory also generalises immediately to any unbounded, [[dense order|dense]] linearly ordered set $S$; again, the result is equivalent as long as $S$ is a [[countably infinite set]].  The theory may be generalised further even to orders which may not be unbounded, dense, or even linear, but this requires modifications; see [[Dedekind completion]] or Sections 4.31--39 of _[[HAF]]_.
 
 
 ## References
