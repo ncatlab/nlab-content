@@ -1,0 +1,77 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition 
+
+Let $R$ be an [[E-∞ ring]] and $A$ an [[A-∞ algebra]] over $R$.
+
++-- {: .num_defn}
+###### Definition
+
+An **augmentation** of $A$ is an $R$-[[A-∞ algebra]] [[homomorphism]]
+
+$$
+  \epsilon \colon A \to R
+ \,.
+$$
+
+=--
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+An augmentation of an [[E-∞ ring]] $R$ itself, being an [[A-∞ algebra]] over the [[sphere spectrum]] $\mathbb{S}$, is a homomorphism 
+
+$$
+  \epsilon \colon R \to \mathbb{S}
+$$
+
+to the [[sphere spectrum]], regarded as an [[E-∞ ring]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+A [[bipermutative category]] $\mathcal{C}$ induces (as discussed there) an [[E-∞ ring]] $\vert \mathcal{C}\vert$. If $\mathcal{C}$ is equipped with a bi-[[monoidal functor]] $\mathcal{C} \to \mathcal{Z}$ then this induces an augmentation of $\vert \mathcal{C}\vert$ over $H \mathbb{Z}$, the [[Eilenberg-MacLane spectrum]] of the [[integers]].
+
+=--
+
+See for instance ([Arone-Hess](#AroneHess))
+
+## Related concepts
+
+* [[augmented algebra]], [[augmentation ideal]]
+
+* [[augmentation]], [[augmented simplicial set]]
+
+
+## References
+
+Augmentation over the [[sphere spectrum]] appears in
+
+* Steffen Sagave, _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
+
+Augmentation over the [[Eilenberg-MacLane spectrum]] $H\mathbb{Z}$ appears in
+
+* Fregory Arone, [[Kathryn Hess]], _Augmented $\Gamma$-spaces, the stabe rank filtration, and a $b u$-analogue of the Whitehead conjectur_ ([pdf](http://www.math.union.edu/~leshk/papers/FilteredGammaSpaces-revision.pdf))
+ {#AroneHess}
+
+[[!redirects augmented A-infinity-algebras]]
+
+[[!redirects augmented A-∞ algebra]]
+[[!redirects augmented A-∞ algebras]]
