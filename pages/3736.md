@@ -266,7 +266,48 @@ This is ([Nikolaus, prop. 24](#Nikolaus))
 +-- {: .proof}
 ###### Proof
 
+By one of the equivalent statements of [[Beck's monadicity theorem]] we have to check that
+
+1. $U$ has a [[left adjoint]],
+1. $U$ reflects [[isomorphisms]] (i.e. it is [[conservative functor|conservative]]), and
+1. $D$ has, and $U$ [[preserved limit|preserves]], coequalizers of $U$-split pairs.
+
+
+The first item we already checked above. 
+
+For the second item it is sufficient to observe that if $f : X \to Y$ is a morphism in $Alg C$ such that $U f$ has an inverse $g : U Y \to U X$, then it follows that $g$ must preserve fillers, hence itself constitutes the underlying morphism of an inverse if $f$ in $Alg C$.
+
+For the third item, let $f,g : X \to Y$ be two morphisms in $Alg C$ such that the [[coequalizer]]
+
+$$
+  U X \stackrel{\overset{U f}{\to}}{\underset{U g}{\to}}
+  U Y
+  \stackrel{\pi}{\to}
+  Q
+$$
+
+exists in $C$, together with [[section]]s $s$ of $\pi$ and $t$ of $U(f)$ such that $s \circ \pi = U(t) \circ t$. We need to equip $Q$ with fillers such that it becomes the coequalizer of $f,g$ in $Alg C$.
+
+For $h : A_j \to Q$ a horn, declare that its filler is the the chosen filler of $s \circ h$
+
+$$
+  \array{
+    A_j &\stackrel{h}{\to}& Q 
+    \\
+    \downarrow && \downarrow^{\mathrlap{s}} & \searrow^{\mathrlap{Id}}
+    \\
+    B_j &\to& Y &\stackrel{\pi}{\to} & Q
+  }
+  \,.
+$$
+
+We check now that this choice indeed makes $Q$ the coequalizer in $Alg C$.
+
+First of all we need to check that $\pi$ preserves the chose fillers.
+
 (...)
+
+
 
 =--
 ## Examples
