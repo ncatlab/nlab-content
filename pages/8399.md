@@ -49,6 +49,24 @@ The idea of general covariance has a long and convoluted history and the literat
 
 We discuss how to formalize the notion of general covariance in [[homotopy type theory]], hence internal to any [[(∞,1)-topos]]. For exposition, background and further details on the discussion of [[classical field theory|classical]]/[[quantum field theory]] in this fashion see ([Schreiber, ESI lectures](#SchreiberLectures)) and ([Schreiber-Shulman](#SchreiberShulman)).
 
+### Introduction
+
+The fundamental idea of traditional [[dependent type theory]] is that [[terms]] and [[types]] may appear _in [[context]]_ of other types. The traditional interpretation of such a dependent type
+
+$$
+  x : \Gamma \vdash A(x) : Type
+$$
+
+is simply that of a $\Gamma$-parameterized family [[bundle]] over types whose element over $x \in \Gamma$ is $A(X)$.
+
+But in [[intensional type theory]] and genuinely so in [[homotopy type theory]], the types themselves are [[homotopy types]] and a [[type in context]] is now in general something more refined than just a family of types. It is really a family of types _equipped_ with [[equivariance]] structure with respect to the [[homotopy groups]] of the context type.
+
+Hence in homotopy theory [[types in context]] generically satisfy an [[equivariance]]-principle.
+
+Specifically, if the context type is [[n-connected object in an (infinity,1)-topos|connected]] and [[pointed object|pointed]], then it is equivalent to the [[delooping]] $\Gamma \simeq \mathbf{B}G$ of an [[∞-group]] $G$. One finds -- this is discussed at _[[∞-action]]_ -- that the [[context]] defined by the type $\mathbf{B}G$ is that of $G$-[[equivariance]]: every type in the context is a type in the original context, but now equipped with a $G$-[[∞-action]]. Notably [[cohomology]] in the $\mathbf{B}G$-context is $G$-[[equivariant cohomology]], and so on.
+
+In the following we discuss what happens if in homotopy type theory one passes to such an equivariant context in the case that $G$ is an [[automorphism ∞-group]]. We show that in this context the usual rules of homotopy type theory automatically induce the principle of general covariance and naturally procude configurations spaces of generally covariant field thoeries which interpreted in smooth models are [[Lie integrations]] of [[BRST complexes]] with diffeomorphism ghosts.
+
 ### The ambient theory
 
 Write $\mathbf{H}$ for the ambient [[homotopy type theory]], or rather an [[categorical semantics|interpretation]] given by an [[(∞,1)-topos]].
