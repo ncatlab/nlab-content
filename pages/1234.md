@@ -5,7 +5,9 @@
 
 ## Idea
 
-A category of _pure motives_ or _pure [[Chow motives]]_ is informally a certain linearization or [[additive and abelian categories|abelianization]] of a category of (say smooth projective) [[algebraic varieties]] over a field.
+The category of _pure_ [[motives]] has [[smooth variety|smooth]] [[projective varieties]] as its [[objects]], while the category of [[mixed motives]] is supposed to be constructed from all [[smooth varieties]].  
+
+Specifically, a category of _pure [[Chow motives]]_ is informally a certain linearization or [[additive and abelian categories|abelianization]] of a category of (say smooth projective) [[algebraic varieties]] over a field.
 
 See also [[motive]]
 
@@ -28,4 +30,6 @@ see also
 * Bruno Kahn, [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
 
 category: algebraic geometry
+
 [[!redirects pure motives]]
+[[!redirects category of pure motives]]
