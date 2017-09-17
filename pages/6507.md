@@ -1,12 +1,11 @@
+
 In the terminology of [[Bill Lawvere]]:
 
-* a [[Lawvere theory]] $T$ is an _abstract general_;
+* a [[Lawvere theory]] (or the equivalent in any [[doctrine]]) $T$ is an _abstract general_;
 
 * the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$ is a _concrete general_;
 
 * an [[object]] of any $T Mod(E)$ is a _concrete particular_.
-
-(is the last one right?)
 
 
 [[!redirects abstract general]]
