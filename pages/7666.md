@@ -15,7 +15,7 @@
 
 ## Idea
 
-Local boundedness of a [[category]] is a generalization of the notion of [[locally presentable category|local presentability]] that includes the catgeory of [[topological spaces]].
+Local boundedness of a [[category]] is a generalization of the notion of [[locally presentable category|local presentability]] that includes the category of [[topological spaces]].
 
 ## Context
 
