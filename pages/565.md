@@ -59,7 +59,8 @@ This abstract nonsense indicates the usual collection of examples of concrete ca
 
 +--{: .un_theorem}
 ###### Theorem
-A [[finitely complete category]] is concrete, in the sense that it admits a faithful functor to $Set$, if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] subobjects.
+A [[finitely complete category]] is concrete, in the sense that it admits a [[faithful functor]] to [[Set]], if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] [[subobject]]s.
+
 =--
 +--{: .proof}
 ###### Proof
@@ -67,7 +68,7 @@ A [[finitely complete category]] is concrete, in the sense that it admits a fait
 
 (Actually, Isbell proved a more general condition which applies to categories that may lack finite limits.)
 
-"If" was proven by [[Peter Freyd]], "Concreteness", JPAA 3 (1973).  The argument is rather more involved, passing through [[additive categories]], and is not reproduced here.
+"If" was proven in ([Freyd](#Freyd)).  The argument is rather more involved, passing through [[additive categories]], and is not reproduced here.
 =--
 
 
@@ -82,6 +83,9 @@ One can consider concrete categories over any base category $X$ instead of neces
 
 * [[John Isbell]], _Two set-theoretical theorems in categories_ , Fund. Math 53 (1963)
 {#Isbell}
+
+* [[Peter Freyd]], _Concreteness_ , JPAA 3 (1973)
+{#Freyd}
 
 [[!redirects concrete category]]
 [[!redirects concrete categories]]
