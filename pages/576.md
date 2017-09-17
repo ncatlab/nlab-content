@@ -82,7 +82,7 @@ constitutes a dagger-compact category structure.
 
 See for instance ([Selinger, remark 4.5](#Selinger)).
 
-Applied for instance to the category of finite-dimensional [[inner prduct spaces]] this dagger-operation sends [[matrices]] to their [[transposed matrix]]. 
+Applied for instance to the category of finite-dimensional [[inner product spaces]] this dagger-operation sends [[matrices]] to their [[transposed matrix]]. 
 
 
 ## References
