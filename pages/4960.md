@@ -160,15 +160,83 @@ where we use that by definition $f^*$ is full and faithful and then that $f_!$ p
 
 =--
 
+## Properties {#Properties}
+
++-- {: .un_theorem}
+###### Theorem
+
+
+Let $(\Pi \dashv Disc \dashv \Gamma \dashv Codisc) :  E \to S$ be a cohesive topos with $\Gamma X \to \Pi X$ an [[epimorphism]] for all $X$.
+
+Let $s^* : L \hookrightarrow E$ be the [[full subcategory]] on those objects $X$ for which $\Gamma X \to \Pi X$ is an [[isomorphism]]. Then
+
+1. $L$ is a [[reflective subcategory]] and a [[coreflective subcategory]]
+
+   $$
+     (s_! \dashv s^* \dashv s_*)
+     : 
+     E
+       \stackrel{\overset{s_!}{\to}}{\stackrel{\overset{s^*}{\leftarrow}}{\underset{s_*}{\to}}}
+     L 
+   $$
+
+1. $s_*$ preserves [[coproduct]]s.
+
+1. the components of the reflector $X \to s_! s^* X$ are [[epimorphism]]s.
+
+=--
+
+This is [theorem 2](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf#page=5) in ([Lawvere](#Lawvere)).
+
++-- {: .proof}
+###### Proof
+
+Since $\Gamma$ is a [[left adjoint]] it preserves [[colimit]]s, as does of course $\Pi$. Therefore the collection of objects for which $\Gamma X \to \Pi X$ is an isomorphism is closed under colimits and hence $L$ has all colimits and the inclusion $s^* : L \hookrightarrow E$ obviously preserves them. Using the [[adjoint functor theorem]] this implies that $s^*$ has a right adjoint $s_*$. 
+
+(...details...) 
+
+Since $\Pi$ by assumption preserves finite products and $\Gamma$ preserves all products, it follows that $L$ is also closed under finite products and in particular contains the [[terminal object]] $*$. Since $E$, being a [[topos]], is an [[extensive category]], it follows that $s_*$ preserves coproducts.
+
+(...details...)
+
+Using that $\Gamma X \to \Pi X$ is an epi, we find that $L$ is also closed under [[subobject]]s: if $Y \hookrightarrow X$ is a [[monomorphism]] then if in
+
+$$
+  \array{
+     \Gamma Y &\to& \Gamma X
+     \\
+     \downarrow && \downarrow^{\mathrlap{\simeq}}
+     \\
+     \Pi Y &\to& \Pi X
+  }
+$$
+
+the right vertical morphism is an iso, then so is the left vertical one.
+
+(...details...).
+
+It then also follows that $L$ is closed under arbitrary products.
+
+(...details...)
+
+This implies the existence of $s_!$ and the fact that $X \to s^* s_! X$ is epi.
+
+(...details...)
+
+=--
+
+
+
 ## Examples
 
-A trivial class of examples is:
+A class of examples is obtained from toposes over a [[cohesive site]]:
 
-* Every topos is cohesive over itself.
++-- {: .un_theorem}
+###### Theorem
 
-A large class of examples is obtained from toposes over a [[cohesive site]]:
+Let $C$ be a [[cohesive site]]. The [[sheaf topos]] $Sh(C)$ is cohesive.
 
-* the [[sheaf topos]] on a [[cohesive site]] is a cohesive topos.
+=--
 
 This includes...
 
