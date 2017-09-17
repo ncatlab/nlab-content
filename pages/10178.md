@@ -217,8 +217,8 @@ The point of this [[axiom]] is that the [[higher category theory|higher categori
 
 | [[fundamental physics]] | [[foundations|foundational]] [[mathematics]] |  experimental bound on violation |
 |---|---|--|
-| [[gauge principle]] | [[homotopy theory]]  |  no violation  |
-| [[causal locality]] | [[higher category theory]] |  $\lessapprox 10^{-2}$[[fm]] ([Grigoriev 79](causal+locality#Microcausality)) |
+| [[gauge principle]] | [[homotopy theory]]  |     |
+| [[causal locality]] | [[higher category theory]] |  $\lessapprox 10^{-17}m$ ([Grigoriev 79](causal+locality#Microcausality)), $\leq 10^{-20}m$ ([[LHC]]) |
 
 
 The [[cobordism hypothesis]] provides a good characterization of the space of _all_ such $Z \colon Bord_n^\otimes \to \mathcal{C}^\otimes$. But for modelling _[[physics]]_ there are typically more restrictions to be imposed.
