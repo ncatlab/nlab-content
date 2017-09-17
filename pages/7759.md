@@ -1,6 +1,6 @@
 In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary classes]] of [[structure in model theory|structures]] beyond first-order theories (e.g. for the infinitary logic $L_{\omega_1,\omega}$) as introduced by [[Saharon Shelah]]. Its theory is also more general than the homogeneous model theory. 
 
-An __abstract elementary class__ is a __nonempty__ class $K$ of structures for a given signature $L(K)$, that is closed under [[isomorphisms]] and equipped with a strong substructure relation $\prec_K$ (strong substructure relation means that if $M\prec_K N$ and $M_0\subset M$ is a substructure, then $M_0 \prec_K N$) that is a [[partial order]] satisfying the axioms on union of chains (Tarski-Vaught), coherence and downward Loewenheim-Skolem properties. More precisely, $\prec_K$ is a partial order such that 
+An __abstract elementary class__ is a __nonempty__ class $K$ of structures for a given signature with language $L(K)$, that is closed under [[isomorphisms]] and equipped with a strong substructure relation $\prec_K$ (strong substructure relation means that if $M\prec_K N$ and $M_0\subset M$ is a substructure, then $M_0 \prec_K N$) that is a [[partial order]] satisfying the axioms on union of chains (Tarski-Vaught), coherence and downward Loewenheim-Skolem properties. More precisely, $\prec_K$ is a partial order such that 
 
 (A0) if $M,N\in K$, $M\prec_K N$ then $M\subset N$
 
