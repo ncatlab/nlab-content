@@ -27,6 +27,25 @@ Instead of bare manifolds one can consider manifolds with extra structure, such 
 
 A ring [[homomorphism]] out of the cobordism ring is a [[genus]].
 
+For $T$ a fixed [[manifold]] there is a relative version $\Omega_\bullet(T)$ of the cobordism ring: 
+
+* elements are classes modulo cobordism over $T$ of manifolds equipped with [[smooth function]]s to $T$;
+
+* multiplication of $[f : X \to T]$ with $[g : Y \to T]$ is given by _transversal intersection_ $X \cap_T Y$ over $T$: perturb $f$ such $(f',g)$ becomes [[transversal maps]] and then form the [[pullback]] $X \times_{(f',g)} Y$ in [[Diff]].
+
+This product is graded in that it satisfies the **dimension formula**
+
+$$
+  (dim T - dim X) + (dim T - dim Y) = dim T - dim (X \cap_T Y)
+$$
+
+hence
+
+$$
+  dim (X \cap_T Y ) = (dim X + dim Y) - dim T
+  \,.
+$$
+
 ## Higher category interpretation
 
 The cobordism ring finds its natural interpretation in [[higher category theory]].
