@@ -87,6 +87,10 @@ and
 *  [[Ulrich Bunke|U. Bunke]], P. Rumpf and [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_ ([arXiv](http://arxiv.org/abs/math.GT/0501487))
 {#BunkeRumpfSchick08}
 
+A refined description is in 
+
+* [[Ulrich Bunke]], [[Thomas Nikolaus]], _T-Duality via Gerby Geometry and Reductions_ ([arXiv:1305.6050](http://arxiv.org/abs/1305.6050))
+
 There is a [[C*-algebra]]ic version of toplogical T-duality, discussed for instance at
 
 * V. Mathai and [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv](http://arxiv.org/abs/hep-th/0401168))
@@ -117,4 +121,3 @@ A transcript a a talk by Varghese Mathai on topological T-duality is here:
   * I: [Overview](http://golem.ph.utexas.edu/string/archives/000827.html)
 
   * II: [T-dual K-classes by Fourier-Mukai](http://golem.ph.utexas.edu/string/archives/000828.html).
-
