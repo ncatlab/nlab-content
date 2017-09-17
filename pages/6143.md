@@ -38,9 +38,10 @@ A left (right) [[Haar measure]] on a locally compact topological group is a nonz
 
 ## Related concepts
 
+* [[compact topological group]], [[compact Lie group]]
+
 * [[maximal compact subgroup]]
 
-* [[compact Lie group]]
 
 ## References
 
