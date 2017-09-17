@@ -1,4 +1,4 @@
-The content formerly on this page can now be found at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Riffs_and_Rotes)
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Riffs_and_Rotes)
 
 [[!redirects riff]]
 [[!redirects rote]]
