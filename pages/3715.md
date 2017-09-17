@@ -154,6 +154,106 @@ Caution: the following are rough notes from a talk by [[J.D.S. Jones]] (Cambridg
 
 This was shown in ([Kontsevich 97](#Kontsevich97)). There the deformed product is constructed by a kind of [[Feynman diagram]] [[perturbation series]]. Later this was identified as the perturbation series of the [[Poisson sigma-model]] for the given Poisson manifold. See there for more details.
 
+
+
+
+
+
+#### Deformation of Algebraic Varieties #### 
+
+Let $X$ be a smooth algebraic variety over a field $\mathbb{k}$ of characteristic $0$. The analogue of the HKR Theorem here is this:
+
++-- {: .num_theorem #SwYe}
+###### Theorem 
+**(Swan, [Yekutieli](http://dx.doi.org/10.4153/CJM-2002-051-8)).** 
+There is a canonical isomorphism 
+\[ \operatorname{Ext}^i_{X^2}(\mathcal{O}_X, \mathcal{O}_X) \cong 
+\bigoplus_q \operatorname{H}^{i - q}(X, \bigwedge^q (\mathcal{T}_X)) . \]
+=--
+
+Here $\mathcal{T}_X$ is the tangent sheaf of $X$, and $X$ is embedded diagonally in $X^2$. 
+
+This is a consequence of the following result. Let $\mathcal{C}_{cd, X}$ be the sheaf of continuous Hochschild cochains of $X$. It is a bounded below complex of quasi-coherent $\mathcal{O}_X$-modules.
+
++-- {: .num_theorem #Yek1}
+###### Theorem 
+**([Yekutieli](http://dx.doi.org/10.4153/CJM-2002-051-8)).** 
+
+1. There is a canonical isomorphism 
+\[ \operatorname{R} \mathcal{Hom}_{X^2}(\mathcal{O}_X, \mathcal{O}_X) \cong 
+\mathcal{C}_{cd, X} \]
+in the derived category of $\mathcal{O}_X$-modules. 
+
+2. There is a canonical quasi-isomorphism of complexes of sheaves 
+\[  \bigoplus_q \bigwedge^q (\mathcal{T}_X)[-q] \to \mathcal{C}_{cd, X}  . \] 
+
+3. Therefore there is a  canonical isomorphism 
+\[ \operatorname{R} \mathcal{Hom}_{X^2}(\mathcal{O}_X, \mathcal{O}_X) \cong 
+\bigoplus_q \bigwedge^q (\mathcal{T}_X)[-q] \]
+in the derived category of $\mathcal{O}_X$-modules. 
+=--
+
+
+The relation to deformation quantization is this: $\mathcal{C}_{cd, X}$ is a shift by $1$ of the sheaf of $\mathcal{D}_{poly, X}$ of polydifferential operators (viewed only as a complex of quasi-coherent $\mathcal{O}_X$-modules). Similarly, 
+$\bigoplus_q \bigwedge^q (\mathcal{T}_X)[-q]$
+is the shift by $1$ of the sheaf $\mathcal{T}_{poly, X}$ of polyvector fields. Thus item 2 in the theorem above says that there is a canonical $\mathcal{O}_X$-linear quasi-isomorphism 
+\[ \mathcal{T}_{poly, X} \to \mathcal{D}_{poly, X} . \]
+Trying to replicate the global formality theorem of Kontsevich, one would like to upgrade this to an $\mathrm{L}_{\infty}$ quasi-isomorphism. 
+However, it seems that in general this cannot be done directly, but only after a suitable resolution. 
+
+Here is the result. (See also [Van den Bergh](http://dx.doi.org/10.1016/j.jalgebra.2007.02.012).) 
+Any quasi-coherent sheaf $\mathcal{M}$ on $X$ admits a canonical flasque resolution called the mixed resolution:
+\[ \mathcal{M} \to \operatorname{Mix}(\mathcal{M}) . \]
+This "mixes" the jet resolution with the Cech resolution (corresponding to an affine open covering of $X$ that we suppress). 
+In particular there is a quasi-isomorphisms of sheaves of DG algebras 
+\[ \mathcal{T}_{poly, X} \to \operatorname{Mix}(\mathcal{T}_{poly, X}) \]
+and 
+\[ \mathcal{D}_{poly, X} \to \operatorname{Mix}(\mathcal{D}_{poly, X}) . \]
+
++-- {: .num_theorem #Yek2}
+###### Theorem 
+**([Yekutieli](http://www.math.bgu.ac.il/~amyekut/publications/def-quant/def-quant.html)).** 
+There is an  $\mathrm{L}_{\infty}$ quasi-isomorphism
+\[ \Psi : \operatorname{Mix}(\mathcal{T}_{poly, X}) \to 
+\operatorname{Mix}(\mathcal{D}_{poly, X}) \]
+whose $1$-st order term commutes with the HKR quasi-isomorphism above. It is independent of choices up to quasi-isomorphism.
+=--
+
+A Poisson deformation of $\mathcal{O}_X$ is a sheaf $\mathcal{A}$ of Poisson 
+$\mathbb{k}[[\hbar]]$-algebras on $X$, with an isomorphism
+$\mathbb{k} \otimes_{\mathbb{k}[[\hbar]]} \mathcal{A} \cong \mathcal{O}_X$
+called an augmentation. Likewise an associative deformation of $\mathcal{O}_X$ is a sheaf $\mathcal{A}$ of associative unital (but noncommutative) 
+$\mathbb{k}[[\hbar]]$-algebras on $X$, with an augmentation to $\mathcal{O}_X$.
+
+[Theorem 3](#Yek2) implies:
+
++-- {: .num_theorem #Yek3}
+###### Theorem 
+**(Yekutieli).** 
+Assume that the cohomology groups
+$\operatorname{H}^{1}(X, \mathcal{O}_X)$ and 
+$\operatorname{H}^{2}(X, \mathcal{O}_X)$ vanish. Then there is a canonical bijection 
+\[ \mathrm{quant} : \quad
+\frac{ \{ \text{ Poisson deformations of} \; \mathcal{O}_X \} }{\text{isomorphism}} \quad \xrightarrow{\, \simeq \,} \quad 
+\frac{ \{ \text{ associative deformations of} \; \mathcal{O}_X \} }{\text{isomorphism}}  \] 
+called quantization. It preserves first order brackets. 
+=--
+
+A proof of this theorem when $X$ is affine is 
+[here](http://www.math.bgu.ac.il/~amyekut/publications/def-quant/def-quant.html). 
+For the full statement see 
+[this paper](http://www.math.bgu.ac.il/~amyekut/publications/twisted-defs/twisted-defs.html). 
+
+For twisted (or stacky) deformations there is a corresponding (but much more difficult to state and prove). See the 
+[paper](http://www.math.bgu.ac.il/~amyekut/publications/twisted-defs/twisted-defs.html)
+and the 
+[survey](http://www.math.bgu.ac.il/~amyekut/publications/tw-defs-surv/tw-defs-surv.html).
+
+
+
+
+
+
 #### Gerstenhaber's deformation theory by Hochschild (co)homology
 
 Let $V$ be a $k$-vector space and consider $C^p(V,V) = \Hom(V^{\otimes p}, V)$.  We define a "circle operator" $\circ$ as follows: for $f \in C^p(V,V)$ and $g \in C^q(V,V)$, we define $f \circ g \in C^{p+q-1}(V,V)$ as the map
