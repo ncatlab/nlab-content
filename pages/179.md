@@ -1310,6 +1310,10 @@ The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in s
 [[!redirects L-∞ algebroid]]
 [[!redirects L-∞ Lie algebroid]]
 
+[[!redirects L-∞-algebroids]]
+[[!redirects L-∞ algebroids]]
+[[!redirects L-∞ Lie algebroids]]
+
 
 [[!redirects Lie-∞-algebroid]]
 [[!redirects Lie-∞-algebroids]]
