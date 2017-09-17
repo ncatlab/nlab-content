@@ -2821,8 +2821,180 @@ a $k$-cell in $\exp(\mathfrak{g})_{conn}$ parameterized by $U \in CartSp$ is
 
 =--
 
+
+
+##### Objects: connection forms
+
+An [[object]] of $\exp(\mathfrak{g})(U)$ is a dg-algebra morphism
+
+$$
+  \Omega^\bullet(U)
+  \leftarrow
+  W(\mathfrak{g})
+  :
+  A
+  \,.
+$$
+
+Since the [[Weil algebra]] $W(\mathfrak{g})$ is a free dg-algebra, this is equivalently a morphism of [[graded vector space]]s
+
+$$
+  \Omega^\bullet(U)
+  \leftarrow
+  \wedge^1 \mathfrak{g}^*
+  :
+  A
+  \,.
+$$
+
+This is equivalently an element of degree 1
+
+$$
+  A \in \Omega^\bullet(U) \otimes \mathfrak{g}
+  \,,
+$$
+
+where the graded vector space $\mathfrak{g}$ is regarded as being in non-positive degrees.
+
+
+##### 1-Morphisms: integration of infinitesimal gauge transformations
+
+The 1-[[morphism]]s in $\exp(\mathfrak{g})(X)$ may be thought of as [[gauge transformation]]s between $\mathfrak{a}$-valued forms. We unwind what these look like concretely.
+
+For ease of notation, let $\mathfrak{a} = \mathfrak{g}$ be an [[∞-Lie algebra]].
+
++-- {: .un_defn}
+###### Definition
+
+Given a 1-morphism in $\exp(\mathfrak{g})(X)$, represented by $\mathfrak{g}$-valued forms
+
+$$
+  \Omega^\bullet(U \times \Delta^1) 
+  \leftarrow
+  W(\mathfrak{g})
+  : 
+  A
+$$
+
+consider the unique decomposition
+
+$$
+  A = A_U + ( A_{vert} := \lambda \wedge d t)  \; \; 
+  \,,
+$$
+
+with $A_U$ the horizonal differential form component and $t : \Delta^1 = [0,1] \to \mathbb{R}$ the canonical coordinate.
+
+We call $\lambda$ the **gauge parameter** . This is a function on $\Delta^1$ with values in 0-forms on $U$ for $\mathfrak{g}$ an ordinary [[Lie algebra]], plus 1-forms on $U$ for $\mathfrak{g}$ a [[Lie 2-algebra]], plus 2-forms for a Lie 3-algebra, and so forth.
+
+=--
+
+We describe now how this enccodes a gauge transformation
+
+$$
+  A_0(s=1) \stackrel{\lambda}{\to} A_U(s = 1)
+  \,.
+$$
+
++-- {: .un_lemma}
+###### Observation
+
+The condition that all [[curvature characteristic form]]s descent to $U$ in that $A$ completes to a diagram
+
+$$
+  \array{
+      \Omega^\bullet(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{a})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U)
+      &\stackrel{\langle F_A\rangle}{\leftarrow}&
+      inv(\mathfrak{g})
+  }
+$$
+
+is solved by requiring all components 
+
+$$
+  \Omega^\bullet(U \times \Delta^1)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{r^a}{\leftarrow}
+  \wedge^1 \mathfrak{g}^*
+  F_A^a
+$$
+
+of the [[curvature]] forms to vanish when evaluated on the [[vector field]] $\partial_s$ along $\partial_s$.
+
+By the nature of the [[Weil algebra]] we have
+
+$$
+  \frac{d}{d s} A_U
+  =
+  d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
+  + 
+  (F_A)(\partial_s, \cdots)
+  \,,
+$$
+
+so that this condition is a system of ordinary [[differential equation]]s of the form
+
+\[
+  \frac{d}{d s} A_U
+  =
+  d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
+  \,,
+\]
+
+where the sum is over all higher brackets of the [[∞-Lie algebra]] $\mathfrak{g}$.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+Define the **[[covariant derivative]] of the gauge parameter** to be
+
+$$
+  \nabla \lambda := d \lambda + [A \wedge \lambda] + [A \wedge A \wedge \lambda] + \cdots
+  \,.
+$$
+
+=--
+
+In this notation we have
+
+* the general identity 
+
+  \[
+    \frac{d}{d s} A_U = \nabla \lambda + (F_A)_s
+    \label{ShiftedGaugeTrafo}
+  \]
+
+* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]**
+
+  \[
+    \frac{d}{d s} A_U = \nabla \lambda
+    \label{GaugeTrafo}
+    \,.
+  \]
+
+This is known as the equation for **infinitesimal [[gauge transformation]]s** of an $\infty$-Lie algebra valued form. 
+
++-- {: .un_lemma}
+###### Observation
+
+By [[Lie integration]] we have that $A_{vert}$ -- and hence $\lambda$ -- defines an element $\exp(\lambda)$ in the [[∞-Lie group]] that integrates $\mathfrak{g}$. 
+
+The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ for the initial values $A_U(s = 0)$ we may think of as the result of acting on $A_U(0)$ with the gauge transformatin $\exp(\lambda)$. 
+
+=--
+
 +-- {: .un_example}
 ###### Example
+**(in ordinary bundles)**
 
 Let $X $ be a [[smooth manifold]] and $\{U_i \to X\}$ an [[open cover]], $C(U)$ its [[Cech nerve]] and consider [[∞-anafunctor]]s from $X$ to $\exp(\mathfrak{g})_{conn}$
 
@@ -2857,6 +3029,7 @@ This is, in low degree, explicitly the following data:
       \frac{\partial}{\partial t} A_{i j}
       =
       d_U \lambda + [\lambda, A]
+      \,.
     $$
 
     for the initial value $A_{i j}(0) = A_i$ this has the unique solution
@@ -2866,7 +3039,24 @@ This is, in low degree, explicitly the following data:
       \,,
     $$
 
-    where $g_{i j}(t)$ is the [[parallel transport]] of $\lambda$.
+    where $g_{i j}(t)$ is the [[parallel transport]] of $\lambda$:
+
+    $$
+      \begin{aligned}
+        &
+        \frac{\partial}{\partial t}
+        \left(
+           g_{ij}(t)^{-1} (A_{i j} + d_{U}) g_{i j}(t)
+        \right)
+        \\
+        = &
+        g_{ij}(t)^{-1} (A_{i j} + d_{U}) \lambda g_{i j}(t)
+        -
+        g_{ij}(t)^{-1} \lambda (A_{i j} + d_{U}) g_{i j}(t)    
+      \end{aligned}
+    $$
+
+    (where for ease of notaton we write actions as if $G$ were a [[matrix Lie group]]).
 
     In particular this implies that the endpoints of the path of $\mathfrak{g}$-valued 1-forms are related by the usual cocycle condition in $\mathbf{B}G_{conn}$
 
@@ -2879,11 +3069,31 @@ This is, in low degree, explicitly the following data:
 
 =--
 
-So a cocycle with values in $\exp(\mathfrak{g})_{conn}$ is (in low degrees, i.e. up to the truncation that we finally come to in a moment) a lift of an ordinary cocycle with values in $\mathbf{B}G_{diff}$, where every transition function is resolved to a _path_ of gauge transformations and so on. Such lifts are not unfamilia, they appeart notably in ([BrylinskiMacLaughlin](#BrylinskiMaxLaughlin)) in an algorithm for constructing [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne cocycles]] refining the ordinary [[Chern-Weil homomorphism]]. We shall demonstrate now how this algorithm is essentially nothing but the $\infty$-anafunctor-composition of the cocycle $(\hat g, \hat \nabla)$ with the extended characteristic map $\exp(\mu)_{diff}$.
+We have see that a cocycle with values in $\exp(\mathfrak{g})_{conn}$ is (in low degrees, i.e. up to the truncation that we finally come to in a moment) a lift of an ordinary cocycle with values in $\mathbf{B}G_{diff}$, where every transition function is resolved to a _path_ of gauge transformations and so on. Such lifts are not unfamilia, they appeart notably in ([BrylinskiMacLaughlin](#BrylinskiMaxLaughlin)) in an algorithm for constructing [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne cocycles]] refining the ordinary [[Chern-Weil homomorphism]]. We shall demonstrate now how this algorithm is essentially nothing but the $\infty$-anafunctor-composition of the cocycle $(\hat g, \hat \nabla)$ with the extended characteristic map $\exp(\mu)_{diff}$.
 
 
 
-For that purpose, suppose $\mathfrak{g}$ is such that the $(n+1)$-[[coskeleton]] $\mathbf{cosk}_{n+1} \exp(\mathfrak{g}) \stackrel{\simeq}{\to} \simeq \mathbf{B}G$ for the desired $G$. Then the periods of $\mu$ over $(n+1)$-balls cut out a lattice $\Gamma \subset \mathbb{R}$ and thus we get an [[infinity-anafunctor]]
+
+
+##### $k$-Morphisms: higher order gauge transformations
+
+(..)
+
+
+#### Dirac quantization conditions
+
+So far we discussed the untruncated $\exp(\mathfrak{g})_{conn}$. The real object of interest is the $k$-[[truncated]] version $\tau_k \exp(\mathfrak{g})_{conn}$ where $k \in \mathbb{N}$ is such that $\tau_k \exp)\mathfrak{g} \simeq \mathbf{B}G$ is the delooping of the $\infty$-Lie group in question. 
+
+Under such a truncation, the integrated $\infty$-Lie algebra cocycle $\exp(\mu) : \exp(\mathfrak{g}) \to \exp(\mathfrak{b^{n-1}\mathbb{R}})$ will no longer be simplicial maps to $\exp(b^{n-1}\mathb{R})$. Instead, the [[period]]s of $\mu$ will cut out a [[lattice]] $\Gamma$ in $\mathbb{R}$, and $\exp(\mu)$ does descent to the quotient of $\mathbb{R}$ by that lattice
+
+$$
+  \exp(\mu) : \tau_k \exp(\mathfrak{g}) \to \mathbf{B}^n \mathbb{R}/\Gamma
+  \,.
+$$
+
+We now say this again in more detail.
+
+Suppose $\mathfrak{g}$ is such that the $(n+1)$-[[coskeleton]] $\mathbf{cosk}_{n+1} \exp(\mathfrak{g}) \stackrel{\simeq}{\to} \simeq \mathbf{B}G$ for the desired $G$. Then the periods of $\mu$ over $(n+1)$-balls cut out a lattice $\Gamma \subset \mathbb{R}$ and thus we get an [[infinity-anafunctor]]
 
 $$
   \array{
@@ -3072,7 +3282,7 @@ $$
      \\
      inv(\mathfrak{g})
      &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
-     inv(b^k \mathbb{R}) & = CE(b^{k+1} \mathbb{R})
+     inv(b^k \mathbb{R}) 
      &&&
      invariant\;polynomial
   }
