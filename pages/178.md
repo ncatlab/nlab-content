@@ -359,6 +359,8 @@ This section is at
 
     * [[smooth 2-group]]
 
+    * [[Kan-fibrant simplicial manifold]]
+
     * [[smooth spectrum]]
 
   * [[synthetic differential ∞-groupoid]]
