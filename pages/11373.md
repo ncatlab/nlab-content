@@ -15,9 +15,9 @@
 
 ## Idea
 
-_BICEP2_  is the name of an astrophysical [[experiment]] (their [webpage](http://www.cfa.harvard.edu/CMB/bicep2/)) which released its data in March 2014. The experiment claims to have detected a pattern called the "B-mode" in the polarization of the [[cosmic microwave background]] (CMB). 
+_BICEP2_  (for "Background Imaging of Cosmic Extragalactic Polarization") is the name of an astrophysical [[experiment]] (their [webpage](http://www.cfa.harvard.edu/CMB/bicep2/)) which released its data in March 2014. The experiment claims to have detected a pattern called the "B-mode" in the polarization of the [[cosmic microwave background]] (CMB). 
 
-This data, if confirmed, is widely thought to be due to a [[gravitational wave]] mode created during the period of [[cosmic inflation]] by a [[quantum fluctuation]] in the [[field (physics)|field]] of [[gravity]] which then at the era of decoupling left the characteristic B-mode imprint on the CMB. This fact alone is regarded as further strong evidence for the already excellent experimental evidence for [[cosmic inflation]] as such (competing models did not predict such gravitational waves to be strong enough to be detectable in this way).
+This data, if confirmed, is widely thought to be due to a [[gravitational wave]] mode created during the period of [[cosmic inflation]] by a [[vacuum fluctuation]] in the [[field (physics)|field]] of [[gravity]] which then at the era of decoupling left the characteristic B-mode imprint on the CMB. This fact alone is regarded as further strong evidence for the already excellent experimental evidence for [[cosmic inflation]] as such (competing models did not predict such gravitational waves to be strong enough to be detectable in this way).
 
 What singles out the BICEP2 result over previous confirmations of cosmic inflation is that the data also gives a quantitative value for the [[energy]] scale at which cosmic inflation happened (the [[mass]] of the hypothetical [[inflaton]]), namely at around $10^{16}$[[GeV]]. This is ntoeworthy as being only two order of magnituded below the [[Planck scale]], and hence 12 or so orders of magnitude above energies available in current accelerator [[experiments]] (the [[LHC]]). Also, it is at least a curious coincidence that this is precisely the hypothetical [[GUT]] scale.
 
@@ -28,6 +28,9 @@ It is thought that this value rules out a large number of variant models of [[co
 
 * [BICEP2 webpage](http://www.cfa.harvard.edu/CMB/bicep2/)
 
+* [general BICEP webpage](http://bicep.caltech.edu/public/
+
+)
 Discussion of the results on the web includes
 
 * [[Matthew Strassler]], _[BICEP2: New Evidence Of Cosmic Inflation!](http://profmattstrassler.com/2014/03/17/bicep2-new-evidence-of-cosmic-inflation/)_
