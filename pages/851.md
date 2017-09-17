@@ -306,6 +306,8 @@ This appears as ([Lurie, prop. 1.2.13.8](#Lurie)).
 
 * [[arrow (∞,1)-category]], [[arrow (∞,1)-topos]]
 
+* [[slice 2-category]]
+
 ## References
 
 Section 1.2.9 of 
