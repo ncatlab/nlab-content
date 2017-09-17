@@ -28,7 +28,7 @@ A 2-category consists of
 
 * [[2-morphisms]] between morphisms.
 
-The morphisms can be [[composition|composed]] along the objects, while the 2-morphisms can be composed in two different directions: along objects -- called [[vertical composition]] -- and along morphisms -- called [[horizontal composition]].  The composition of morphisms is allowed to be associative only up to [[coherent]] [[associator]] 2-morphisms.
+The morphisms can be [[composition|composed]] along the objects, while the 2-morphisms can be composed in two different directions: along objects -- called [[horizontal composition]] -- and along morphisms -- called [[vertical composition]].  The composition of morphisms is allowed to be associative only up to [[coherent]] [[associator]] 2-morphisms.
 
 2-Categories are also a [[horizontal categorification]] of [[monoidal categories]]: they are like monoidal categories with many objects. 
 
