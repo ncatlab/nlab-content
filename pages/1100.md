@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,8 +22,8 @@
 
 Recall the following familiar 1-categorical statement:
 
-* Working in the 1-[[category]] [[Set]] of [[0-category|0-categories]] is the same as  doing [[set theory]]. The point of [[sheaf topos|sheaf]] [[toposes]] is to pass to _parameterized_  [[0-category|0-categories]], namely  [[presheaf]] categories: these [[topos|topoi]] behave much like the category [[Set]] but their objects are generalized  [[spaces]] that may carry 
-more structure, for instance they may be [[generalized smooth space]]s if one considers (pre)[[sheaf|sheaves]] on [[Diff]].
+* Working in the 1-[[category]] [[Set]] of [[0-category|0-categories]] amounts to doing [[set theory]]. The point of [[sheaf topos|sheaf]] [[toposes]] is to pass to _parameterized_  [[0-category|0-categories]], namely  [[presheaf]] categories. Althought these [[topos|topoi]] behave much like the 1-topos [[Set]], their objects are generalized [[spaces]] that may carry 
+more structure. For instance, a (pre)[[sheaf]] on [[Diff]] is a [[generalized smooth space]].
 
 One can think of $(\infty,1)$-toposes as the generalization of the above situation from $1$ to $(\infty,1)$  (recall the notion of [[(n,r)-category]] and see the general discussion at [[∞-topos]]):
 
