@@ -25,6 +25,8 @@ So far this work is presented in the two articles
 
 * **IntTrans** [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
 
+  appendix: _Morita equivalence for convolution categories_ ([pdf](http://pages.uoregon.edu/njp/bfn.pdf))
+
 * **CharTheo** [[David Ben-Zvi]], [[David Nadler]], _The Character Theory of a Complex Group_ ([arXiv](http://arxiv.org/abs/0904.1247))
 
 
