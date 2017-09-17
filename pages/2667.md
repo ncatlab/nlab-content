@@ -1,7 +1,6 @@
 #Contents#
 * automatic table of contents goes here
 {:toc}
-[Justin Bieber Wallpaper](http://justinbieberwallpaper.info/), [Angry Birds Game Online](http://www.angrybirdsgameonline.us/), [Hi Res Wallpaper](http://hireswallpaper.org/), [Mari Berkomunitas Di Faceblog](http://athamz.info/mari-berkomunitas-di-faceblog/), [Athamz Blog](http://athamz.info/)
 
 ## Idea and definition ##
 
