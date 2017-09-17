@@ -67,7 +67,7 @@ on the [[BRST-BV formalism]] for describing [[gauge theories]].
 
 ### 17.2) Koszul-Tate resolution and longitudinal $d$
 
-* [[Kszul-Tate resolution]]
+* [[Koszul-Tate resolution]]
 
 ### 17.3) BRST symmetry -- master equation
 
