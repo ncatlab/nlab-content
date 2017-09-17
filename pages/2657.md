@@ -30,6 +30,8 @@ Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P.
 
 * D. Kaledin, _Cartier isomorphism and Hodge theory in the non-commutative case_,  Arithmetic geometry,  537--562, Clay Math. Proc. __8__, Amer. Math. Soc. 2009, [arxiv/0708.1574](http://arxiv.org/abs/0708.1574)
 
+* D. Kaledin, _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex)
+
 * Claus Hertling, Christian Sevenheck, _Twistor structures, $tt^*$-geometry and singularity theory_, [arxiv/0807.2199](http://arxiv.org/abs/0807.2199)
 
 * C. Herltling, C. Sabbah, _Fourier-Laplace transform of flat unitary connections and TERP structures_, [arxiv/0912.2754](http://arxiv.org/abs/0912.2754)
