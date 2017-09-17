@@ -1,6 +1,6 @@
 The **Calculus of Constructions** (CoC), devised by [[Thierry Coquand]] and [[Gerard Huet|Gérard Huet]], is a [[higher-order logic|higher-order]] formalism for [[constructive mathematics|constructive]] proof in [[natural deduction]] style.
 
-When supplemented by [[inductive type]]s, it become the __Calculus of Inductive Constructions__ (CIC).  Sometimes [[coninductive type]]s are included as well, as in the implementation in the proof assitant Coq.
+When supplemented by [[inductive type]]s, it become the __Calculus of Inductive Constructions__ (CIC).  Sometimes [[coninductive type]]s are included as well, as in the implementation in the proof assistant Coq.
 
 
 ## References
