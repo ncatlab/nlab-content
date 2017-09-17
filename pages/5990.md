@@ -27,4 +27,12 @@ In May 2011 [[Graeme Segal]] gave a series of lectures on the topic of [[quantum
 
   * part II ([mp4](http://www.mpim-bonn.mpg.de/sites/default/files/videos/download/segal_qft_2011_part2.mp4))
 
+  * part III ([mp4](http://www.mpim-bonn.mpg.de/sites/default/files/videos/download/segal_qft_2011_part3.mp4))
+
+  * part IV ([mp4](http://www.mpim-bonn.mpg.de/sites/default/files/videos/download/segal_qft_2011_part4.mp4))
+
+  * part V ([mp4](http://www.mpim-bonn.mpg.de/sites/default/files/videos/download/segal_qft_2011_part5.mp4))
+
+  * part VI ([mp4](http://www.mpim-bonn.mpg.de/sites/default/files/videos/download/segal_qft_2011_part6.mp4))
+
 category: reference
