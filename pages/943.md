@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context###
+### Context
 #### Topology
 +-- {: .hide}
 [[!include topology - contents]]
@@ -11,7 +11,7 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -65,7 +65,7 @@ Take $X = Y = \mathbb{N}$ (the set of [[natural numbers]]) with the [[discrete t
 
 $$LCH(X \times \mathbb{N}, \mathbb{N}) \cong LCH(\sum_{\mathbb{N}} X, \mathbb{N}) \cong \prod_{\mathbb{N}} LCH(X, \mathbb{N})$$ 
 
-where the last functor in $X$, in order to be [[representable functor|representable]], would have to be represented by a product $\prod_{\mathbb{N}} \mathbb{N}$. However, there is no such product in the category of locally compact Hausdorff spaces. The topological product is in fact homeomorphic to the [[Baire space]] of [[irrational number|irrationals]] (say between $0$ and $1$) via the regular [[continued fraction]] expansion, and this is not locally compact.
+where the last functor in $X$, in order to be [[representable functor|representable]], would have to be represented by a product $\prod_{\mathbb{N}} \mathbb{N}$. However, there is no such product in the category of locally compact Hausdorff spaces. The topological product is in fact homeomorphic to [[Baire space of irrational numbers|Baire space]], and this is not locally compact.
 
 
 ## "Nice" versus "convenient" categories of spaces
