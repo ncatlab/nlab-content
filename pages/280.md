@@ -115,6 +115,9 @@ As an example, within the category of [[profinite group]]s, not all objects have
 
 * [[representation theory]], [[invariant theory]]
 
+## References
+
+* [[Patrick Morandi]], _Group actions_ ([pdf](http://sierra.nmsu.edu/morandi/notes/groupactions.pdf))
 
 [[!redirects action]]
 [[!redirects actions]]
