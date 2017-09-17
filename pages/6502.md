@@ -66,7 +66,7 @@ $$
   \mathbb{R}^{d+1}
 $$
 
-is [[Lorentzian spacetime]]. Therefore an $(O(d,1)\hookrightarrow Iso(d,1))$-Cartan connection is nothing but an $O(d,1)$-connection on a manifold whose [[tangent space]]s look like [[Minkowski spacetime]]: this is  nothing but a [[pseudo-Riemannian manifold]] from the perspective discussed at [[first-order formulation of gravity]]:
+is [[Lorentzian spacetime]]. Therefore an $(O(d,1)\hookrightarrow Iso(d,1))$-Cartan connection is equivalently an $O(d,1)$-connection on a manifold whose [[tangent space]]s look like [[Minkowski spacetime]]: this is  equivalently a [[pseudo-Riemannian manifold]] from the perspective discussed at [[first-order formulation of gravity]]:
 
 the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]]. 
 
@@ -88,6 +88,11 @@ the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]].
 
   * [[higher parallel transport]]
 
+ local model                |   global geometry
+----------------------------|----------------------------
+ [[Klein geometry]]         |   _Cartan geometry_
+ [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
+ [[higher Klein geometry]]  |   [[higher Cartan geometry]]
 
 
 
