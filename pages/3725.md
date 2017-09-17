@@ -1,6 +1,6 @@
 
 
-* [[David Roberts]], _[[Fundamental Bigroupoids and 2-Covering Spaces]]_ ([pdf](http://ncatlab.org/davidroberts/files/DMR_thesis.pdf))
+* [[David Roberts]], _[[Fundamental Bigroupoids and 2-Covering Spaces]]_ ([pdf](http://ncatlab.org/davidroberts/files/DMRthesis_final.pdf))
 
 This PhD thesis is about a special case of the notion of [[Whitehead tower in an (∞,1)-topos]] in the context of the [[(∞,1)-topos]] of [[topological ∞-groupoid]]s. Notably it introduces the notion of a **2-covering space** of a [[topological space]] as a certain topological groupoid over that space.
 
