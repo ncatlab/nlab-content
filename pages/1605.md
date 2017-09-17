@@ -29,12 +29,23 @@ For this to make sense, whatever a doctrine is, it must in particular induce a 2
 
 ## Definitions
 
-A number of people, starting with Lawvere, have defined "doctrine" to mean [[2-monad]] (particularly a 2-monad on $Cat$).  This may seem reasonable, since all the examples of doctrines we considered above are, in fact, (the algebras for) some 2-monad on $Cat$.  However, it is not really correct.  At a lower level, the "theories" considered above of which a doctrine is supposed to be a categorification are also _not_ the same as [[monad]]s.
+### As 2-monads
 
-In particular, the morphisms between such theories are not all representable by morphisms of monads.  For instance, there is a morphism of theories from the theory of commutative rings to the theory of abelian groups which sends a ring to its multiplicative group of units, but this is not induced by any morphism of monads because it does not preserve the underlying set.  Likewise, not all "morphisms of doctrines" are representable by morphisms of 2-monads.
+A number of people, starting with Lawvere, have defined "doctrine" to mean [[2-monad]] (particularly a 2-monad on $Cat$).  This may seem reasonable, since all the examples of doctrines we considered above are, in fact, (the algebras for) some 2-monad on $Cat$.  However, it is not really correct.
 
-The word doctrine can also be used to design a particular setting for categorical logic (e.g., categories with finite products, etc...).
-This can also be formalized in a more general way using weak higher categories. This generalization is necessary to treat complicated algebraic structures like symmetric operads or higher operads in a categorical logical way.
+At a lower level, the "theories" considered above of which a doctrine is supposed to be a categorification are also _not_ the same as [[monad]]s.  In particular, the morphisms between such theories are not all representable by morphisms of monads.  For instance, there is a morphism of theories from the theory of commutative rings to the theory of abelian groups which sends a ring to its multiplicative group of units, but this is not induced by any morphism of monads because it does not preserve the underlying set.
+
+Likewise, not all "morphisms of doctrines" are representable by morphisms of 2-monads.
+
+### As 2-categories
+
+Another possible definition of "doctrine" is just "a [[2-category]]".  In this approach, we identify a doctrine with its category of models (in [[Cat]]).  This has the advantage of simplicity.  Moreover, we can say easily what a model of a theory in a doctrine is: it is just a morphism in the 2-category (of models of that doctrine).  It is also easy to generalize to [[Higher doctrines]] (given a notion of higher category).
+
+However, while useful, this approach has the disadvantage of being too broad: there are many 2-categories that we would not really want to consider as being the category of models of some doctrine.
+
+### As logics
+
+The word "doctrine" can also be used to design a particular setting for categorical logic (e.g., categories with finite products, [[geometric logic]] etc...; see [[internal logic]]).  This can also be formalized in a more general way using weak higher categories.  This generalization is necessary to treat complicated algebraic structures like symmetric operads or higher operads in a categorical logical way.
 
 ## Related concepts
 
@@ -47,19 +58,17 @@ This can also be formalized in a more general way using weak higher categories. 
 
 ## References
 
-For a simple abstract (non-computational) definition of a notion of doctrine, pedagogically aimed and based on weak n-categories, see:
-
-* [[Frédéric Paugam]]: Chapter 1 of
-[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
-
-and
-
-* [[Higher doctrines]].
-
-Other references:
+General discussions of the "doctrine" concept:
 
 * [Algebraic Geometry for Category Theorists (blog post)](http://golem.ph.utexas.edu/category/2009/06/algebraic_geometry_for_categor.html)
 
 * [Doctrines by Dolan and Baez](http://ncatlab.org/johnbaez/show/Doctrines)
 
 * [A duality relative to a limit doctrine](http://www.emis.de/journals/TAC/volumes/10/20/10-20abs.html) by C. Centazzo and E.M. Vitale 
+
+A pedadogically aimed study of higher doctrines, using the simple definition of doctrines as (weak) [[n-categories]]:
+
+* [[Frédéric Paugam]]: Chapter 1 of
+[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
+
+* [[Higher doctrines]].
