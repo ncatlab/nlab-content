@@ -1,7 +1,18 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category Theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -53,7 +64,9 @@ Sometimes the condition of a sieve being closed under the operation of precompos
 This is probably called a _sieve_ because it "sifts out" the 'special' maps into $c$ from the set of _all_ maps into $c$.  (Note that 'sieve' is the noun, while 'sift' is the verb.)
 
 
-## Relation to subfunctors 
+## Properties
+
+### Relation to subfunctors 
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
 
@@ -177,18 +190,9 @@ So the set is just the set of maps from $V$ to $X$ that factor through one of th
 =--
 
 
+### Sieves as covers
 
-
-## Examples
-
-* For $X$ a [[topological space]] let $Op(X)$ be the [[category of open subsets]] of $X$ and consider presheaves $PSh(X) := [Op(X)^{op}, Set]$ on $X$. For any open subset $c = V \in Op(X)$ let $\{d_i\} = \{U_i\}$ be a cover of $V$ by open subsets $U_i$ in the ordinary sense (i.e. each $U_i$ is an open subset of $V$ and their joint union is $V$, $\bigcup_i U_i = V$), then  $\pi : (\coprod_i Y(U_i)) \stackrel{\coprod_i U_i \hookrightarrow_i X}{\to} Y(V)$ (with $Y$ the [[Yoneda embedding]]) is a [[local epimorphism]] of presheaves on $V$ and its [[image]] -- or equivalently its [[coimage]] -- is the subfunctor $(F := \bigcup_i Y(U_i)) \hookrightarrow Y(V)$ that sends each $W \in Op(X)$ to the set of maps $W \to V$ that factor through one of the $U_i$. The collection of all such maps for all choice of $W$ is the corresponding _covering sieve_ $\{ f : W \to V  \in Mor(S) \;|\; f = W \to U_i \to V  \}$.
-
-* The situation for more general [[sites]] $S$ other than $Op(X)$ is literally the same as above, with $U_i, W, V$ etc. objects of $S$.
-
-
-
-
-### A detailed description of what's going on 
+#### Introduction and overview
 
 The following is a pedagogical step-by-step description of the crucial aspects of sieves as covers.
 
@@ -470,7 +474,7 @@ When one passes from just presheaves to [[(∞,1)-presheaves]], then [[cover]]in
 
 
 
-## Recovering the sheaf condition from morphisms out of the sieve
+#### The sheaf condition from morphisms out of a sieve
 
 We now show that the subfunctor $F_S$ associated with a sieve $S$ coming from a cover $\{U_i \to X\}$ is the _right_ kind of morphism to require a [[sheaf]] to be a [[local object]] for, by demonstrating that using it the usual [[sheaf|sheaf condition]] on a presheaf with respect to the cover $\coprod_i U_i$ is reproduced:
 
@@ -534,6 +538,19 @@ $$
 $$
 
 and hence identifies $Hom(F,G)$ indeed as the set of [[descent]] data for the [[sheaf]] condition on $G$. 
+
+
+
+
+## Examples
+
+* For $X$ a [[topological space]] let $Op(X)$ be the [[category of open subsets]] of $X$ and consider presheaves $PSh(X) := [Op(X)^{op}, Set]$ on $X$. For any open subset $c = V \in Op(X)$ let $\{d_i\} = \{U_i\}$ be a cover of $V$ by open subsets $U_i$ in the ordinary sense (i.e. each $U_i$ is an open subset of $V$ and their joint union is $V$, $\bigcup_i U_i = V$), then  $\pi : (\coprod_i Y(U_i)) \stackrel{\coprod_i U_i \hookrightarrow_i X}{\to} Y(V)$ (with $Y$ the [[Yoneda embedding]]) is a [[local epimorphism]] of presheaves on $V$ and its [[image]] -- or equivalently its [[coimage]] -- is the subfunctor $(F := \bigcup_i Y(U_i)) \hookrightarrow Y(V)$ that sends each $W \in Op(X)$ to the set of maps $W \to V$ that factor through one of the $U_i$. The collection of all such maps for all choice of $W$ is the corresponding _covering sieve_ $\{ f : W \to V  \in Mor(S) \;|\; f = W \to U_i \to V  \}$.
+
+* The situation for more general [[sites]] $S$ other than $Op(X)$ is literally the same as above, with $U_i, W, V$ etc. objects of $S$.
+
+
+
+
 
 
 
