@@ -1,4 +1,4 @@
 
-* [webpage](www.home.uni-osnabrueck.de/gbiederm/)
+* [webpage](http://www.home.uni-osnabrueck.de/gbiederm/)
 
 category: people
