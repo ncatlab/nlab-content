@@ -10,3 +10,9 @@ $$
 $$
 
 For the moment see at _[[sheaf]]_ for more...
+
+## References
+
+[[Peter Johnstone]], Sketches of an [[Elephant]] - a topos theory compendium, Section C.2.2, proof of proposition 2.2.6, p.551
+
+
