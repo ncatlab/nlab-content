@@ -456,6 +456,8 @@ if $H$ has weight $2k+1$.
 ### General
  {#GeneralDescripion}
 
+> under construction, see also ([Hopkins-Quick 12](#HopkinsQuick12))...
+
 The formulation of the traditional intermediate 
 Jacobian by remark \ref{AsFiberOf0TruncationOnFractureSquare}
 above suggest the following generalization.
@@ -693,7 +695,7 @@ For the [[RR-field]] component in degree 4 of [[type IIA superstring theory]]: (
 
 ## References
 
-### General
+### In ordinary differential cohomology
 
 The definition of the Griffith intermediate Jacobian is due to
 
@@ -761,6 +763,10 @@ The relation of Theta characteristics on [[intermediate Jacobians]] to [[self-du
 and the argument there was made rigorous in 
 
 * {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+### For generalized cohomology
+
+* {#HopkinsQuick12} [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_ ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173))
  
 [[!redirects intermediate Jacobians]]
 
