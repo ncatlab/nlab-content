@@ -234,7 +234,7 @@ The popularity of the term was notably pushed by [[Toby Bartels]], who considere
 
 A development and exposition of the general setup taking Makkai's and Bartels' motivations and the theory of [[homotopical category|homotopical categories]] into account is
 
-* [[David Roberts]], _Internal categories and anafunctors_ (PhD thesis, chapter I) ([pdf](http://ncatlab.org/davidroberts/files/internal_cats_and_anafunctors.pdf))
+* [[David Roberts]], _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363)
 
 Since anafunctors are a special case of a more general concept, they, or the general theory applying to them, has been considered under different terms elsewhere. 
 
