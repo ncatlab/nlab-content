@@ -365,6 +365,8 @@ For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic ma
 
 * [[Euler class]]
 
+* [[orbifold Euler characteristic]]
+
 ## References
 
 A standard textbook reference for topological Euler characteristics is page p. 156 and onwards in
