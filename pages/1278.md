@@ -408,11 +408,19 @@ Discussion with an eye towards applications in [[physics]]/[[string theory]]/[[h
 
 * [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
 
+Discussion in the context of [[cohesion]] is in 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+
+and specifically for [[tangent (infinity,1)-topos|stable cohesion]] in
+
+* [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+
+
 
 ## Lectures and talks ##
 
 * The talks by [[Dan Freed]], Schick, [[Ulrich Bunke]] and Schreiber at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]. Much of the above material is taken from Thomas Schick's lecture there.
 
 * Simons Center Workshop on Differential Cohomology January 10, 2011- January 14, 2011 ([web](http://www.scgp.stonybrook.edu/?q=node/21))
-
 
