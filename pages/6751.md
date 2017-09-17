@@ -219,6 +219,85 @@ The group $G$ canonically [[action|acts]] on the [[coset space]] $G/G_{\lambda}$
 (...)
 
 
+### Wilson loops and 1d Chern-Simons $\sigma$-models with target the coadjoint orbit
+ {#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit}
+
+Above (...) we discussed how an [[irreducible representation|irreducible]] [[unitary representation]] of $G$ is encoded by the [[prequantization]] of a  [[coadjoint orbit]] $(\mathcal{O}_\lambda, \nu_\lambda)$. Here we discuss how to express [[Wilson loops]]/[[holonomy]] of $G$-[[principal connections]] in this representation as the [[path integral]] of a topological particle charged under this background field, whose [[action functional]] is that of a [[1-dimensional Chern-Simons theory]].
+
+Let $A|_{S^1} \in \Omega^1(S^1, \mathfrak{g})$ be a [[Lie algebra valued 1-form]] on the circle, equivalently a $G$-[[principal connection]] on the circle. 
+
+For 
+
+$$
+  \rho : G \to Aut(V)
+$$
+
+a [[representation]] of $G$, write
+
+$$
+  W_{S^1}^R(A) :=  hol^R_{S^1}(A) := Tr_R( tra_{S^1}(A) )
+$$
+
+for the [[holonomy]] of $A$ around the circle in this representation, which is the [[trace]] of its [[parallel transport]] around the circle (for any basepoint). If one thinks of $A$ as a [[background gauge field]] then this is alse called a [[Wilson loop]].
+
++-- {: .num_defn #ActionFunctionalForTopologicalChargedParticle}
+###### Definition
+
+Let the [[action functional]]
+
+$$
+  \exp(i CS_\lambda(-)^A) 
+  \;\colon\;  
+  [S^1, G/T] \to U(1)
+$$
+
+be given by sending $g T : S^1 \to G/T$ represented by $g : S^1 \to G$ to
+
+$$
+  \exp(i \int_{S^1} \langle \lambda, A^g\rangle )
+  \,,
+$$
+
+where 
+
+$$
+  A^g := Ad_g(A) + g^* \theta
+$$
+
+is the [[gauge transformation]] of $A$ under $g$. 
+
+=--
+
++-- {: .num_prop #WilsonLoopIsPartitionFunctionOf1dCSSigmaModel}
+###### Proposition
+
+The [[Wilson loop]] of $A$ over $S^1$ in the unitarry irreducible representation $R$ is proportional to the [[path integral]] of the 1-dimensional [[sigma-model]] with 
+
+1. [[target space]] the [[coadjoint orbit]] $\mathcal{O}_\lambda \simeq G/T$ for $\langle \lambda, - \rangle$ the [[weight (in representation theory)|weight]] corresponding to $R$ under the [[Borel-Weil-Bott theorem]]
+
+1. [[action functional]] the functional of def. \ref{ActionFunctionalForTopologicalChargedParticle}:
+
+$$
+  W_{S^1}^R(A)
+  \propto
+  \int_{[S^1, \mathcal{O}_\lambda]}
+  D(g T)
+  \exp(i \int_{S^1}  \langle \lambda, A^g\rangle)
+  \,.
+$$
+
+=--
+
+See for instance ([Beasley, (4.55)](#Beasley)). 
+
++-- {: .num_remark }
+###### Remark
+
+Notice that since $\mathcal{O}_\lambda$ is a [[manifold]] of finite [[dimension]], the [[path integral]] for a point particle with this target space can be and has been defined rigorously, see at _[[path integral]]_.
+
+=--
+
+
 ## Formulation in higher geometry
  {#FormulationInHigherGeometry}
 
@@ -442,6 +521,178 @@ $$
 $$
 
 =--
+
+### Extended Chern-Simons theory and Wilson loops
+ {#ExtendedChern-SimonsTheoryAndWilsonLoops}
+
+We discuss how an [[extended Lagrangian]] 
+for $G$-[[Chern-Simons theory]] with [[Wilson loop]] [[QFT with defects|defects]] is naturally obtained from the above [[higher geometry|higher geometric]] formulation of the orbit method. In particular we discuss how the relation between Wilson loops and [[1-dimensional Chern-Simons theory]] [[sigma-models]] with [[target space]] the [[coadjoint orbit]], as discussed  [above](#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit) is naturally obtained this way.
+
+Let $\Sigma$ be a [[orientation|oriented]] [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] 3 and let $\iota_\Sigma : S^1 \hookrightarrow \Sigma$ be a [[submanifold]] inclusion of the [[circle]]. 
+
+Let $R$ be an irreducible unitary representaiton of $G$ and let $\langle \lambda,-\rangle$ be a [[weight (in representation theory)|weight]] corresponding to it by the [[Borel-Weil-Bott theorem]].
+
+Regarding th inclusion $\iota_\Sigma$ as an object in the [[arrow category]] $\mathbf{H}^{\Delta^1}$, say that a [[gauge field]] configuration for $G$-[[Chern-Simons theory]] on $\Sigma$ with Wilson loop $\iota_\Sigma$ in the representation $R$ is a map
+
+$$
+  \phi 
+  \;\colon\;
+  \iota_\Sigma
+  \to 
+  \mathbf{J}
+$$ 
+
+in $\mathbf{H}^{\Delta^1}$. Such a map is equivalently by a square
+
+$$
+  \array{
+    S^1 &\stackrel{(A|_{S^1})^g}{\to}& \Omega^1(-,\mathfrak{g})//T
+    \\
+    \downarrow^{\mathrlap{\iota_X}} 
+    &\swArrow_{g}&   
+    \downarrow^{\mathrlap{\mathbf{J}}}
+    \\
+    \Sigma
+    &\stackrel{A}{\to}&
+    \mathbf{B}G_{conn}
+  }
+$$
+
+in $\mathbf{H}$. 
+In components this is 
+
+* a $G$-[[principal connection]] $A$ on $\Sigma$;
+
+* a $G$-valued function $g$ on $S^1$
+
+which fixes the field on the circle defect to be $(A|_{S^1})^g$, as indicated. 
+
+Moreover, a _[[gauge transformation]]_ between two such fields $\kappa : \phi \Rightarrow \phi'$ is a $G$-gauge transformation of $A$ and  a $T$-gauge transformation of $A|_{S^1}$ such that these intertwine the component maps $g$ and $g'$. If we keep the bulk gauge field $A$ fixed, then his means that two fields $\phi$ and $\phi'$ as above are gauge equivalent precisely if there is a function $t : S^1 \to T$ such that $g = g' t$, hence gauge [[equivalence classes]] of fields for fixed bulk gauge field $A$ are parameterized by their components $[g] = [g'] \in [S^1, G/T]$ with values in the coset space, hence in the coadjoint orbit.
+
+For every such field configuration we can evaluate two [[action functionals]]: 
+
+1. that of 3d [[Chern-Simons theory]], whose [[extended Lagrangian]] is $\mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$;
+
+1. that of the [[1-dimensional Chern-Simons theory]] discussed [above](#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit) whose [[extended Lagrangian]] is $\langle \lambda, \mathbf{\theta}\rangle : \Omega^1(-,\mathfrak{g})//T \to \mathbf{B}U(1)_{conn}$, by prop. \ref{Extended1dCSLagrangianFromLambda}.
+
+These are obtained by postcomposing the above square on the right by these [[extended Lagrangians]] and then preforming the [[fiber integration in ordinary differential cohomology]] over $S^1$ and over $\Sigma$, respectively. 
+
+$$
+  \array{
+    S^1 &\stackrel{(A|_{S^1})^g}{\to}& \Omega^1(-,\mathfrak{g})//T
+    &\stackrel{\langle \lambda, \mathbf{\theta}\rangle}{\to}&
+    \mathbf{B}U(1)_{conn}
+    \\
+    \downarrow^{\mathrlap{\iota_X}} 
+    &\swArrow_{g}&   
+    \downarrow^{\mathrlap{\mathbf{J}}}
+    \\
+    \Sigma
+    &\stackrel{A}{\to}&
+    \mathbf{B}G_{conn}
+    &\stackrel{\mathbf{c}}{\to}&
+    \mathbf{B}U(1)_{conn}
+  }
+  \,.
+$$
+
+For the bottom map this gives the ordinary action functional of [[Chern-Simons theory]]. For the top map inspection of the proof of prop. \ref{Extended1dCSLagrangianFromLambda} shows that this gives the 1d Chern-Simons action whose [[partition function]] is the [[Wilson loop]] observable by prop. \ref{WilsonLoopIsPartitionFunctionOf1dCSSigmaModel} above. 
+
+More formally, we have an extended Chern-Simons theory as follows. 
+
+The [[moduli space]] of fields $\phi : \iota_X \to \mathbf{H}$ as above is the [[homotopy pullback]]
+
+$$
+  \array{
+    \mathbf{Fields}(S^1 \hookrightarrow \Sigma)
+    &\stackrel{}{\to}&
+    [S^1, \Omega^1(-,\mathfrak{g})//T]
+    \\
+    \downarrow &\swArrow_\simeq& \downarrow 
+    \\
+    [\Sigma, \mathbf{B}G_{conn}]
+    &\to&
+    [S^1, \mathbf{B}G_{conn}]
+  }
+  \,.
+$$
+
+Postcomposing the two projections with the two [[transgressions]] of the [[extended Lagrangians]]
+
+$$
+  \exp(2 \pi i \int_\Sigma[\Sigma, \mathbf{c}]) 
+  \;\colon\;
+  [\Sigma, \mathbf{B}G_{conn}]
+  \stackrel{[\Sigma, \mathbf{c}]}{\to}
+  [\Sigma, \mathbf{B}^3 U(1)_{conn}]
+  \stackrel{\exp(2 \pi i \int_\Sigma (-))}{\to}
+  U(1)
+$$
+
+and
+
+$$
+  \exp(2 \pi i \int_\Sigma[\Sigma, \langle \lambda, -\rangle]) 
+  \;\colon\;
+  [S^1, \Omega^1(-,\mathfrak{g})//T]
+  \stackrel{[\Sigma, \langle \lambda , -\rangle]}{\to}
+  [S^1, \mathbf{B} U(1)_{conn}]
+  \stackrel{\exp(2 \pi i \int_{S^1} (-))}{\to}
+  U(1)
+$$
+
+and then forming the product yields the action functional
+
+$$
+  \exp(2 \pi i \int_{S^1}[S^1, \langle -\rangle])
+   \cdot
+  \exp(2 \pi i \int_{\Sigma}[\Sigma, \mathbf{c}])
+  \;:\;
+  \mathbf{Fields}(S^1 \hookrightarrow \Sigma)
+  \to U(1)
+  \,.
+$$
+
+This is the action functional of 3d $G$-[[Chern-Simons theory]] on $\Sigma$ with Wilson loop $\iota_\Sigma$ in the representation determined by $\lambda$.
+
+Similarly, in [[codimension]] 1 let $\Sigma_2$ now be a 2-dimensional closed manifold, thought of as a slice of $\Sigma$ above, and let $\coprod_i {*} \to \Sigma_2$ be the inclusion of points, thought of as the punctures of the Wilson line above through this slice. Then we have [[prequantum bundles]] given by [[transgression]] of the extended Lagrangians to codimension 1
+
+$$
+  \exp(2 \pi i \int_{\Sigma_2}[\Sigma, \mathbf{c}]) 
+  \;\colon\;
+  [\Sigma_2, \mathbf{B}G_{conn}]
+  \stackrel{[\Sigma_2, \mathbf{c}]}{\to}
+  [\Sigma_2, \mathbf{B}^3 U(1)_{conn}]
+  \stackrel{\exp(2 \pi i \int_{\Sigma_2} (-))}{\to}
+  \mathbf{B}U(1)_{conn}
+$$
+
+and
+
+$$
+  \exp(2 \pi i \int_{\coprod_i {*}}[\coprod_i {*}, \langle \lambda, -\rangle]) 
+  \;\colon\;
+  [\coprod_i {*}, \Omega^1(-,\mathfrak{g})//T]
+  \stackrel{[\coprod_i {*}, \langle \lambda , -\rangle]}{\to}
+  [\coprod_i {*}, \mathbf{B} U(1)_{conn}]
+  \stackrel{\exp(2 \pi i \int_{\coprod_i {*}} (-))}{\to}
+  \mathbf{B}U(1)_{conn}
+$$
+
+and hence a total prequantum bundle
+
+$$
+  \exp(2 \pi i \int_{\coprod_i {*}}[\coprod_i {*}, \langle -\rangle])
+   \otimes
+  \exp(2 \pi i \int_{\Sigma_2}[\Sigma_2, \mathbf{c}])
+  \;:\;
+  \mathbf{Fields}(S^1 \hookrightarrow \Sigma)
+  \to U(1)
+  \,.
+$$
+
+One checks that this is indeed the correct prequantization as considered in ([Witten 98, p. 22](#Witten)).
+
 
 
 ## Theorems
