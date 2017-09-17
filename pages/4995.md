@@ -415,10 +415,14 @@ Moreover, if $\mathbf{H}$ is a [[cartesian closed category]], then $\Pi$ preserv
 The last statement follows from the $(\infty,1)$-category analog of the discussion [here](http://ncatlab.org/nlab/show/reflective+subcategory#ReflectiveSubcategoriesOfCartesianClosedCategotries).
 
 
-### Formulation in homotopy type theory
+### In homotopy type theory
   {#DefinitionInHomotopyTypeTheory}
 
-A formulation of the [internal definition](#InternalDefinition) of cohesiveness in the formal language of [[Coq]]-[[homotopy type theory]] is given in ([Shulman](#Shulman))
+The axioms for cohesion, in the [internal version](#InternalDefinition), can be formulated in [[homotopy type theory]], the [[internal language of an (∞,1)-topos]].
+
+The corresponging [[Coq]]-[[HoTT]] code is in ([Shulman](#Shulman)).
+
+For more see _[[cohesive homotopy type theory]]_.
 
 
 ## Properties
