@@ -1,6 +1,15 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+=--
+=--
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -26,6 +35,10 @@ Nor does this definition assert that the right dual of an object is isomorphic t
 
 In practice, algebraic geometers are the most frequent users of the term 'rigid', and they focus on the symmetric monoidal case, so they ignore the difference between right and left duals.
 
+
+## Related concepts
+
+* [[(∞,n)-category with duals]]
 
 [[!redirects rigid monoidal category]]
 [[!redirects rigid monoidal categories]]
