@@ -7,7 +7,7 @@
 
 A **finite set** is a set $A$ for which there exists a [[bijection]] between $A$ and the set $[n] \coloneqq \{k\in N | k\lt n\}$ for some $n\in N$, where $N$ is the natural numbers.
 
-Classically, the finite sets are the [[finitely presentable object|finitely presentable objects]] in [[Set]].
+Classically, the finite sets are the [[finitely presentable object|finitely presentable objects]] in [[Set]]. Constructively, the same is true if _finitely presented_ is properly interpreted, see there for details.
 
 The category [[FinSet]] of finite sets and functions between them is essentially the subject matter of [[combinatorics]]; it\'s fundamental in the subject of [[structure types]].
 
