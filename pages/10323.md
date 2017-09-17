@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _continous field of $C^\ast$-algebras_ is a [[topological space]] $X$ and a [[C*-algebra]] $A_x$ for each point $ x \in X$, such that in some sense these algebras vary continuously as $x$ varies in $X$. Hence it is a kind of topological [[bundle]] of $C^\ast$-algebras.
+
+## Applications
+
+### In strict deformation quantization
+
+In [[C* algebraic deformation quantization]] continuous fields of $C^\ast$-algebras over subspaces of the standard [[interval]] (tyically $\{1 , \frac{1}{2}, \frac{1}{3}, \cdots, 0\} \hookrightarrow [0,1]$) such that in the [[limit of a sequence|limit]] this becomes a [[Poisson algebra]] constitute [[deformation quantizations]] of this Poisson algebra.
+
+## References
+
+* [[Marius Dadarlat]], _Continuous fields of $C^\ast$-algebras over finite dimensional spaces_ ([arXiv:math/0611405](http://arxiv.org/abs/math/0611405))
+
+[[!redirects continuous fields of C*-algebras]]
