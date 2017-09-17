@@ -10,6 +10,8 @@ Many of the important theorems of [[measure theory]] fail to hold in full genera
 
 ## Definition
 
+The following definition is in elementary terms; but we will see that there are many other characterizations.
+
 Let $\mu$ be a [[positive measure]] on an [[abstract set]] $X$.  (That is, certain [[subsets]] of $X$, forming a $\sigma$-[[sigma-algebra|algebra]], are [[measurable set|measurable]] by $\mu$, and $\mu$ maps these sets to the space $[0,\infty]$ of [[lower real numbers]] in a [[monotone function|monotone]] and [[countably additive measure|countably additive]] way.)
 
 Given two measurable subsets $E$ and $F$, $E$ __essentially contains__ $F$ if the set
@@ -25,12 +27,35 @@ Then $\mu$ is __localizable__ if the following conditions both apply:
    *  $E$ essentially contains each element of $\mathcal{C}$; and
    *  Given any measurable set $F$ that essentially contains every element of $\mathcal{C}$, $F$ essentially contains $E$.
 
-   (This set $E$ is essentially unique, in that it essentially contains and is essentially contained in any other set with the same property; we call $E$ [[the]] __essential supremum__ of $\mathcal{C}$.)
+   (This set $E$ is essentially unique, in that it essentially contains and is essentially contained in any other set with the same property; we call $E$ [[the]] __essential supremum__ $\sup \mathcal{C}$ of $\mathcal{C}$.)
 
 We generalize to [[measures]] taking place in some space other than $[0,\infty]$: a $\mu$ is __localizable__ if ${|\mu|}$ is, as long as $\mu$ has an [[absolute value]] (or [[total variation]]) ${|\mu|}$ that takes values in $[0,\infty]$.
+
+
+## Examples
+
+Every $\sigma$-[[sigma-finite measure|finite]] measure is localizable.  (Since this includes so many examples, the theorems below are often stated for $\sigma$-finite measures.)
+
+
+## Properties
+
+The following [[sheaf]] condition is fundamental:  Given any [[cover]] $\mathcal{U}$ of $X$ by [[measurable sets]] and a $\mathcal{U}$-indexed [[family]] $f$ of [[partial function|partial]] [[measurable functions]] (with $\dom f_A = A$), if always $f_A = f_B$ almost everywhere on $A \cap B$ (meaning that there is a [[full set]] $E$ such that $f_A = f_B$ on $A \cap B \cap E$), then there exists a (necessarily unique up to [[almost equality]]) measurable (and total) function $\sup f$ such that always $\sup f = f_A$ almost everywhere on $A$.  (This is Theorem 213N in [Fremlin](#Fremlin).  I don\'t know if it characterizes localizable measures.)
+
+
+## References
+
+This giant treatise on all of [[measure theory]] is free (in both senses) online:
+
+*  D.H. Fremlin, _Measure Theory_, [web](http://www.essex.ac.uk/maths/people/fremlin/mt.htm)
+   {#Fremlin}
 
 
 [[!redirects localizable measure]]
 [[!redirects localizable measures]]
 [[!redirects localisable measure]]
 [[!redirects localizable measures]]
+
+[[!redirects localizable measure space]]
+[[!redirects localizable measure spaces]]
+[[!redirects localisable measure space]]
+[[!redirects localizable measure spaces]]
