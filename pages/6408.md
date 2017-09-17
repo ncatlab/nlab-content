@@ -1,0 +1,13 @@
+Given a unital ring (or only a monoid) $R$ and a **central** multiplicative subset $S\subset Z(R)\subset R$ (i.e. set containing $1\in R$ and with every two elements containing their product, and such that all its elements are central in $R$) the ring of fractions (monoid of fractions, respectively) $S^{-1} R$ is sometimes said to be the __commutative localization__ of $R$ at $S$; the same name is also given to the canonical map $R\to S^{-1} R$ of rings (monoids resp.). 
+
+Localization of commutative rings at multiplicative subsets is the typical examples. 
+
+Commutative localization can be extended to left modules $M\to S^{-1} M$ where the left $S^{-1} R$-module $S^{-1} M$ can be defined elementary, with the underlying set consisting of equivalence classes $(s,m)\in S\times M$ where $(s,m)\cong (t,n)$ iff $t m = s n$, multiplication by scalar $(s^{-1} r)(t^{-1} m):= (ts)^{-1} (r m)$ and addition
+$s^{-1} m + t^{-1} n := (s t)^{-1}(t m + s n)$.
+
+It can be then shown that this elementary approach is equivalent to the definition via the formula $S^{-1}M = S^{-1} R\otimes_R M$. 
+
+The basic result is that the commutative localization $S^{-1} R$ is a flat left module over $R$, the property which holds for more general [[Ore localization]]. 
+
+Commutative localization in which also $R$ is commutative is a basic procedure used in defining [[algebraic scheme]] as locally ringed spaces. Another special case of this procedure is forming the [[quotient field]] of a commutative [[integral domain]]. 
+
