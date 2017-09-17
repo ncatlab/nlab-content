@@ -58,6 +58,8 @@ follows from existence of
 
 * [[Weil conjecture]]
 
+* [[Grothendieck-Lefschetz trace formula]]
+
 ## References
 
 ### For ordinary cohomology
