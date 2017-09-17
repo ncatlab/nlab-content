@@ -175,6 +175,242 @@ A basic example is given by 2-dimensional motivic quantization over [[KU]]. A ca
 But motivic quantization is not bound to deal with supersymmetric field theories, it is just that the [[phase and phase space in physics|higher phases]] are always naturally super-graded. Notably plain [[quantum mechanics]] encoded by traditional [[symplectic manifolds|symplectic]] or generally [[Poisson manifold|Poisson]] [[phase spaces]] is naturally subsumed. See below the example _[The Poisson manifold at the boundary of 2d Chern-Simons theory](#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory)_.
 
 
+## Expositional summary
+
+> under construction
+
+### 1. Local prequantum field theory
+
+By the [[cobordism hypothesis]]-[[theorem]], 
+
+[[topological field theory|topological]] [[local field theory]] is
+
+
+$$
+  Z \;\colon\; Bord_n^\otimes \to \mathcal{C}^\otimes
+  \,.
+$$
+
+Here for [[quantum theory|quantum]] [[field theory]], $\mathcal{C}$ is to be an $n$-dimensional analog of a [[category of modules]] $E Mod$, for $E$ an [[E-∞ ring]], for instance $E Mod^{\Box^n}$.
+
+$$
+  Z \; \colon \;
+  Bord_n^\otimes \to (E Mod^{\Box^n})^\otimes
+  \,.
+$$
+
+But most quantum field theories of interested both in nature and in theory are very special examples of this general definition, in that they arise via a process of [[quantization]] from spaces of [[field (physics)|fields]] equipped with [[action functionals]] -- from [[higher differential geometry|higher differential geometric data]]
+
+
+So let $\mathbf{H}$ be a category of spaces (of [[field (physics)|fields]]). 
+
+For instance 
+
+* for $\mathbf{Fields} = X \in \mathbf{H}$ a [[manifold]] this is a [[sigma-model]] [[field (physics)|field]], 
+
+* or for $\mathbf{Fields} = \mathbf{B}G_{conn}$ a [[moduli stack]] of [[principal connections]] this is a [[gauge field]]. 
+
+Let $Corr_n(\mathbf{H})$ be $n$-fold [[correspondences]] in $\mathbf{C}$. A [[morphism]] here is a space of [[trajectories]]
+
+$$
+  \array{
+    && \mathbf{Fields}_{\mathrm{trajectories}}
+    \\
+    &   \stackrel{}{\swarrow}
+    &&
+    \searrow
+    \\
+    \mathbf{Fields}_{in}
+     && &&
+    \mathbf{Fields}_{out}
+  }
+$$
+
+
+Then 
+
+$$
+  \array{
+    Bord_n^\otimes
+    \\
+    & {}_{\mathllap{\mathbf{Fields}}}\searrow 
+    \\
+    && 
+    Corr_n(\mathbf{H})^\otimes
+  }
+$$
+
+defines _field content_, a functor that sends a [[manifold]] $\Sigma$ to 
+
+$$
+  \mathbf{Fields}(\Sigma)
+  \simeq
+  [\Pi(\Sigma), \mathbf{Fields}]
+$$
+
+the "[[phase space]]" of "flat fields" on $\Sigma$.
+
+Let $\mathbf{B}^n U(1)$ be [[phase and phase space in physics|physical phases]] then the [[slice (∞,1)-topos]]
+
+$$
+  \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
+$$
+
+is the collection of [[local Lagrangians]]/[[local action functionals]]:
+
+$$
+  \array{
+    \mathbf{Fields}
+    \\
+    \downarrow^{\mathrlap{\exp(i S)}}
+    \\
+    \mathbf{B}^n U(1)_{conn}
+  }
+  \,.
+$$
+
+Now $Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)$ contains trajectories equipped with action functionals.
+
+Notice that by the "[[holographic principle]] of [[homotopy theory]]" (if you wish), this induces action functionals of lower degree in higher dimension
+
+$$
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow && \searrow 
+    \\
+    \mathbf{Fields}_{\mathrm{in}}
+    && 
+     \swArrow 
+    &&
+    \mathbf{Fields}_{\mathrm{out}}
+    \\
+    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+    \\
+    && \mathbf{B}^n U(1)
+  }
+  \;\;\;\;\;
+  \simeq
+  \;\;\;\;\;
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow &\downarrow^{\exp(i S)}& \searrow 
+    \\
+    \ast
+    &\leftarrow& 
+      \mathbf{B}^{n-1}U(1)
+    &\rightarrow&
+    \ast
+    \\
+    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+    \\
+    && \mathbf{B}^n U(1)
+  }
+  \,.
+$$
+
+So in top dimension these are the traditional [[action functionals]] with values in the [[circle group]] $U(1)$.
+
+So in conclusion, a [[local action functional]] $\exp(i S)$ on a species $\mathbf{Fields}$ of [[field (physics)|physical fields]] a lift
+
+$$
+  \array{
+    Bord_n^\otimes
+     &\stackrel{\exp(i S)}{\to}& 
+    Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+    \\
+    & {}_{\mathllap{Fields}}\searrow & \downarrow
+    \\
+    && Corr_n\left(\mathbf{H}\right)^\otimes
+  }
+$$
+
+is a [[local prequantum field theory]].
+
+
+What we need now for [[quantization]] is a [[path integral]]
+map that adds up the values of the action functional over the space of trajectories.
+
+$$
+  \int [D(-)] (-)
+  \;\;
+   \colon
+  \;\;
+   Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to 
+   (E Mod^{\Box^n})^\otimes
+$$
+
+As such this will in general only exist for [[schreiber:∞-Dijkgraaf-Witten theory]] where $\mathbf{Fields}$ is a [[discrete ∞-groupoid]] and hence has a "counting measure".
+
+In the general case the path integral requires that we _choose_ a suitable [[measure]]/[[orientation]] on the spaces of fields. 
+
+We see below what this means, for the moment let's just write $Corr^{or}_n(\mathbf{H}_{/\mathbf{B}^n U(1)})^\otimes$ as a mnemonic for a suitable [[(∞,n)-category]] of suitably oriented/measured spaces of fields with action functional. If we then can make sense of the [[path integral]] then we can paste the ingredients together to finally get
+
+$$
+  \array{
+    \int [D \phi] \exp(i S(\phi))
+    &
+    \colon
+    &
+    Bord_n^\otimes
+     &\stackrel{\exp(i S)}{\to}& 
+    Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+    &\stackrel{\int [-] (-)}{\to}&
+    \left(
+     E Mod^{\Box^n}
+    \right)^\otimes
+    \\
+    && & {}_{\mathllap{Fields}}\searrow & \downarrow
+    \\
+    && && Corr_n\left(\mathbf{H}\right)^\otimes
+  }
+$$
+
+
+
+
+### 2. Cohomological quantization
+
+
+Traditionally this is done under the embedding 
+
+$$
+  U(1) \hookrightarrow GL_1(\mathbb{C})
+$$ 
+
+So here now we are to choose a map
+
+$$
+  \mathbf{B}^{n-1}U(1) \to GL_1(E)
+$$
+
+into the [[∞-group of units]] of the base [[E-∞ ring]].
+
+Then for $\exp(i S)$ the composite
+
+$$
+  \chi
+   \;
+   \colon
+   \;
+  \mathbf{Fields}
+    \stackrel{\exp(i S)}{\to}
+  \mathbf{B}^n U(1)
+    \stackrel{}{\to}
+  \mathbf{B} GL_1(E)
+    \stackrel{}{\to}
+  Pic(E)
+    \to 
+  E Mod
+$$
+
+exhibits an [[(∞,1)-module bundle]] bundle, which is in fact an $E$-line bundle.
+
+### 3. Examples
+
+(...)
 
 ## **I)** General theory
  {#GeneralTheory}
