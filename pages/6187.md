@@ -1,0 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+* [[Klaas Landsman]], _Mathematical Topics Between Classical and Quantum Mechanics_ Springer 
+
+on [[classical mechanics]] and [[quantum mechanics]]
+
+category: reference
