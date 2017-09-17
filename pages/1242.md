@@ -282,9 +282,7 @@ in the context of the [[salamander lemma]] and the [[snake lemma]].
 
 [[!redirects long exact sequence]]
 [[!redirects short exact sequence]]
-[[!redirects split exact sequence]]
 
 
 [[!redirects long exact sequences]]
 [[!redirects short exact sequences]]
-[[!redirects split exact sequences]]
