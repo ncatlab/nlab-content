@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _proper map of toposes_ is the generalization to [[toposes]] of the notion of [[proper map]] of [[topological spaces]].
+
+## Definition
+
+A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called _proper_ if it exhibits $\mathcal{F}$ as a [[compact topos]] over $\mathcal{E}$.
+
+(...)
+
+
+## References
+
+* [[Ieke Moerdijk]], J.J.C. Vermeulen, _Proper maps of toposes_, American Mathematical Society (2000)
+
+[[!redirects proper maps of toposes]]
+
+[[!redirects proper geometric morphism]]
+[[!redirects proper geometric morphisms]]
