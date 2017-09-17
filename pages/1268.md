@@ -65,14 +65,16 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 
 * [[D-scheme]]
 
+* [[crystalline cohomology]]
 
 ## References 
 
 A comprehensive account is in chapter 2 of
 
-* [[Alexander Beilinson] and [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
+* [[Alexander Beilinson]] and [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
 
 * A. Beilinson, I. N. Bernstein, _A proof of Jantzen conjecture_, Adv. in Soviet Math. 16, Part 1 (1993), 1-50. MR95a:22022
+
 * S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
 * Notes on D-modules: Joseph Bernstein's notes [ps](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.ps), [dvi](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.dvi), Peter Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf), Dragan Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf), , [Localization and representation theory of reductive Lie groups](http://www.math.utah.edu/~milicic/Eprints/book.pdf); [[nlab:Victor Ginzburg]]'s 1998 Chicago notes [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Ginzburg.pdf); A. Braverman-T. Chmutova, _Lectures on algebraic D-modules_, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/Dmod_brav.pdf)
 * D. Gieseker, _Flat vector bundles and the fundamental group in non-zero characteristics_,  Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4)  2  (1975), no. 1, 1--31. 
