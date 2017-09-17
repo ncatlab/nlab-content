@@ -1029,3 +1029,6 @@ in terms of [[enriched model category|enriched]] [[tractable model category|trac
 
 [[!redirects bousfield localization]]
 [[!redirects Bousfield localisation]]
+
+[[!redirects left Bousfield localization]]
+[[!redirects rigth Bousfield localization]]
