@@ -46,7 +46,31 @@ Testing ... $\int_{0}^{1} \sin(3t) t^2 \mathrm{dt}$.
 *3.3*{:d}
 : way
 
+Let's quote some maths:
 
+> This is a quote
+$$
+x^2 + y^2
+$$
+This is afterwards
+
+This is after a line
+
+> This is a quote
+> $$
+x^2 + y^2
+> $$
+This is afterwards
+
+This is after a line
+
+> This is a quote
+> $$
+> x^2 + y^2
+> $$
+This is afterwards
+
+This is after a line
 
 category: meta
 
