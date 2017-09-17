@@ -53,12 +53,14 @@ $$
 
 * **$(\infty,1)$-presheaf**
 
+* [[(∞,n)-presheaf]]
+
 
 ## References ##
 
 Section 5.1 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]].
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 [[!redirects (∞,1)-presheaf]]
 [[!redirects (∞,1)-presheaves]]
