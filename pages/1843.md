@@ -22,9 +22,9 @@
 
 The **Kalb-Ramond field** or **B-field** is the [[gauge field]] that generalizes the [[electromagnetic field]] from point particles to [[string theory|strings]].
 
-Recall that the [[electromagnetic field]] is modeled as a [[cocycle]] in degree 2 ordinary [[differential cohomology]] and that this mathematical model is fixed by the fact that charged particles that trace out 1-dimensional trajectories couple to the electromagnetic field by an [[action functional]] that sends each trajectory to the holonomy of a $U(1)$-[[connection on a bundle|connection]] on it.
+Recall that the [[electromagnetic field]] is modeled as a [[cocycle]] in degree 2 [[ordinary differential cohomology]] and that this mathematical model is fixed by the fact that charged particles that trace out 1-dimensional trajectories couple to the electromagnetic field by an [[action functional]] that sends each trajectory to the holonomy of a $U(1)$-[[connection on a bundle|connection]] on it.
 
-When replacing particles with 1-dimensional trajectories by [[string theory|strings]] with 2-dimensional trajectories, one accordingly expects that they may couple to a higher degree background field given by a degree 3 ordinary differential cocycle.
+When replacing particles with 1-dimensional trajectories by [[string theory|strings]] with 2-dimensional trajectories, one accordingly expects that they may couple to a higher degree background field given by a degree 3 [[ordinary differential cohomology]] cocycle.
 
 In [[string theory]] this situation arises and the corresponding background field appears, where it is called the _Kalb-Ramond field_  .
 
@@ -55,7 +55,7 @@ The next higher degree analog of the electromagnetic field is the [[supergravity
 
 ## Mathematical model from (formal) physical input 
 
-The derivation of the fact that the Kalb-Ramond field that is locally given by a 2-form is globally really a degree 3 [[Deligne cohomology|Deligne cocycle]] proceeds in in entire analogy with the corresponding discussion of the [[electromagnetic field]]:
+The derivation of the fact that the Kalb-Ramond field that is locally given by a 2-form is globally really a degree 3 cocycle in the [[Deligne cohomology]] model for [[ordinary differential cohomology]] proceeds in in entire analogy with the corresponding discussion of the [[electromagnetic field]]:
 
 * **classical background** The [[field strength]] 3-form $H \in \Omega^3(X)$ is required to be closed, $d H_3 = 0$.
 
