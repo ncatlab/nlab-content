@@ -14,6 +14,7 @@ $$
   \,.
 $$
 
+If all stabilizer groups are trivial, then the action is called a _free action_.
 
 ### General abstract characterization  {#GeneralAbstract}
 
@@ -49,8 +50,101 @@ $$
   \,.
 $$
 
-This characterization immediately generalizes to stabilizer [[∞-groups]] of [∞-group actions](/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#GroupRepresentations).
+This characterization immediately generalizes to stabilizer [[∞-groups]] of [∞-group actions](/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#GroupRepresentations). This we discuss [below](#ForInfinityGroupActions)
 
+### For $\infty$-group actions
+ {#ForInfinityGroupActions}
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] and $G \in \infty Grp(G)$ be an [[∞-group]] object in $\mathbf{H}$. Write $\mathbf{B}G \in \mathbf{H}$ for its [[delooping]] object.
+
+Then for $X \in \mathbf{H}$ any other object, an [[action]] of $G$ on $X$ is an object $X \sslash G$ and a [[fiber sequence]] of the form
+
+$$
+  X \to X\sslash G \stackrel{\rho}{\to} \mathbf{B}G
+  \,.
+$$
+
+The action as a morphism $X \times G \to X$ is recovered from this by the [[(∞,1)-pullback]]
+
+$$
+  \array{
+     X \times G &\to& X
+     \\
+     \downarrow && \downarrow
+     \\
+     X &\to& X\sslash G
+  }
+  \,.
+$$
+
+Now for $x : * \to X$ any [[global element]], the **stabilizer $\infty$-group** of $\rho$ at $x$ is the [[loop space object]]
+
+$$
+  Stab_\rho(x) := \Omega_x (X\sslash G)
+ \,.
+$$
+
+This is equipped with a canonical morphism of [[∞-group]] objects
+
+$$
+  i_x : Stab_\rho(x) \to G
+$$
+
+given by the [[fiber sequence|looping]] of $\rho$
+
+$$
+  i_x := \Omega_x(\rho)
+  \,.
+$$
+
+## Examples
+
+### For an $\infty$-group acting on itself
+
+For $G$ any [[∞-group]] in an [[(∞,1)-topos]] $\mathbf{H}$, its (right) [[action]] on itself is given by the [[looping and delooping|looping/delooping]] [[fiber sequence]]
+
+$$
+  G \to * \stackrel{\rho}{\to} \mathbf{B}G
+  \,.
+$$
+
+Clearly, for every point $g \in G$ we have $Stab_{\rho}(g) \simeq * \times_* * \simeq *$ is trivial. Hence the action is free.
+
+### Stabilizers of shapes
+
+For $X\sslash G \stackrel{\rho}{\to} \mathbf{B}G$ an [[action]], and $Y \in \mathbf{H}$ any other object, we get an induced action $\rho_Y$ on the [[internal hom]] $[Y,X]$ defined as the [[(∞,1)-pullback]] 
+
+$$
+  \array{
+    [Y,X]\sslash G &\to& [Y, X\sslash G]
+    \\
+    \downarrow^{\mathrlap{\rho_Y}} 
+    && 
+    \downarrow^{\mathrlap{[Y, \rho]}}
+    \\
+    \mathbf{B}G
+    &\to&
+    [Y, \mathbf{B}G]
+  }
+  \,,
+$$
+
+where the bottom morphism is the [[internal hom]] [[adjunct]] of the [[projection]] $Y \times \mathbf{B}G \to \mathbf{B}G$.
+
+Then for $f : Y \to X$ a "shape" $Y$ in $X$, the stabilizer ∞-group of $Y$ under $\rho$ is $Stab_{\rho_Y}(f)$.
+
+The morphism of $\infty$-groups
+
+$$
+  i_f : Stab_{\rho_Y}(f) \to G
+$$
+
+characterizes the [[higher Klein geometry]] induced by $f : Y \to X$.
+
+
+[[!redirects stabilizer groups]]
+[[!redirects stabiliser group]]
+[[!redirects stabiliser groups]]
 
 
 [[!redirects stabilizer]]
@@ -58,8 +152,18 @@ This characterization immediately generalizes to stabilizer [[∞-groups]] of [�
 [[!redirects stabilizers]]
 [[!redirects stabilisers]]
 
-[[!redirects stabiliser subgroup]]
+[[!redirects stabilizer ∞-group]]
+[[!redirects stabilizer infinity-group]]
+[[!redirects stabiliser ∞-group]]
+[[!redirects stabiliser infinity-group]]
+[[!redirects stabilizer ∞-groups]]
+[[!redirects stabilizer infinity-groups]]
+[[!redirects stabiliser ∞-groups]]
+[[!redirects stabiliser infinity-groups]]
 
+
+[[!redirects stabilizer subgroup]]
+[[!redirects stabiliser subgroup]]
 [[!redirects stabilizer subgroups]]
 [[!redirects stabiliser subgroups]]
 
