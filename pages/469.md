@@ -84,7 +84,7 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
 ##References#
 
-In [[enriched category theory]] the enriching category is taken to be closed monoids. Accordingly the standard textbook on enriched category theory
+In [[enriched category theory]] the enriching category is taken to be closed monoidal. Accordingly the standard textbook on enriched category theory
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_, section 1.5, ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)) 
 
