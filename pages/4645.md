@@ -1006,7 +1006,7 @@ $$
 
 ### Parallel transport in low dimensions {#LowDimension}
 
-With a decent handle on principal $\infty$-bundles as described [above](#ModelForPrincipalInfinityBundle) we now turn to the description of [[connection on an ∞-bundle|connections on ∞-bundles]]. It will turn out that the above [[cocycle]]-description of $G$-principal $\infty$-bundles in terms of  [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \stackrel{g}{\to} \mathbf{B}G$ has, under mild conditions, a natural generalization where $\mathbf{B}G$ is replaced by a [[concrete ∞-sheaf|non-concrete]] [[∞-Lie groupoid]] $\mathbf{B}G_{conn}$ which we may think of as the [[∞-groupoid of ∞-Lie algebra valued forms]]. This comes with a canonical map $\mathbf{B}G_{conn} \to \mathbf{B}G$ and an $\infty$-connection $\nabla$ on the $\infty$-bundle classified by $g$ is simply a lift
+With a decent handle on principal $\infty$-bundles as described [above](#ModelForPrincipalInfinityBundle) we now turn to the description of [[connection on an ∞-bundle|connections on ∞-bundles]]. It will turn out that the above [[cocycle]]-description of $G$-principal $\infty$-bundles in terms of  [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \stackrel{g}{\to} \mathbf{B}G$ has, under mild conditions, a natural generalization where $\mathbf{B}G$ is replaced by a [[concrete sheaf|non-concrete]] [[∞-Lie groupoid]] $\mathbf{B}G_{conn}$ which we may think of as the [[∞-groupoid of ∞-Lie algebra valued forms]]. This comes with a canonical map $\mathbf{B}G_{conn} \to \mathbf{B}G$ and an $\infty$-connection $\nabla$ on the $\infty$-bundle classified by $g$ is simply a lift
 
 $$
   \array{
@@ -1029,14 +1029,14 @@ In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-
 
 1. Why are these formulas what they are? What is the general abstract concept of an $\infty$-connection? What are its defining abstract properties?
 
-A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]] to aspects of which we are here giving the introduction. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close. What we describe is a generalization of the concept of [[parallel transport]] to [[higher parallel transport]]. As we shall see, this is naturally expressed in terms of [[∞-anafunctor]]s out of [[path n-groupoid]]s. (In the full theory these arise canonically in the context of an [[c-connected (∞,1)-topos]] in the form of the [[schreiber:path ∞-groupoid]]).
+A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]]. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close. What we describe is a generalization of the concept of [[parallel transport]] to [[higher parallel transport]]. As we shall see, this is naturally expressed in terms of [[∞-anafunctor]]s out of [[path n-groupoid]]s. This reflects how the full abstract theory arises in the context of an [[∞-connected (∞,1)-topos]] that comes canonically with a notion of [[schreiber:path ∞-groupoid]]s.
 
 
-We start by reviewing the classical theory of [[connection on a bundle]] in a way that will make its generalization to higher connections relatively straightforward in
+We being below the discussion of $\infty$-connection by reviewing the classical theory of [[connection on a bundle]] in a way that will make its generalization to higher connections relatively straightforward:
 
 * [Connections on principal bundles](#ConnectionOnPrincipalBundle).
 
-In the analogous we we can then describe certain classes of [[connections on a 2-bundle]] including the notion of [[connection on a bundle gerbe]] in
+In an analogous way we we can then describe certain classes of [[connections on a 2-bundle]] -- subsuming the notion of [[connection on a bundle gerbe]] -- in
 
 * [Connections on 2-bundles](#ConnectionOn2Bundle).
 
@@ -1044,7 +1044,7 @@ With that in hand we then revisit the discussion of connections on ordinary bund
 
 * [Curvature characteristics of 1-bundles](#CurvatureCharacteristicsI).
 
-This turns out to be the kind of formulation of [[connections on an ∞-bundle]] that drops out of the general abstract theory described at [[∞-Chhern-Weil homomorphism]]. In classical terms, its full formulation involves the description of [[circle n-bundles with connecton]] in terms of [[Deligne cohomolohy]] and the description of the [[∞-groupoid of ∞-Lie algebra valued forms]] in terms of [[dg-algebra]] homomorphisms. The first aspect we discuss in 
+This turns out to be the kind of formulation of [[connections on an ∞-bundle]] that drops out of the general abstract theory described at [[∞-Chern-Weil homomorphism]]. In classical terms, its full formulation involves the description of [[circle n-bundles with connection]] in terms of [[Deligne cohomology]] and the description of the [[∞-groupoid of ∞-Lie algebra valued forms]] in terms of [[dg-algebra]] homomorphisms. The first aspect we discuss in 
 
 * [Circle n-bundles with connection](#c)
 
@@ -1056,9 +1056,9 @@ The combination of these two aspects yields naturally an explicit model for the 
 
 * [The ∞-Chern-Weil homomorphism](#ChernWeilHomomorphism)
 
-Taken together, these cnstructions allow us to express a good deal of the general theory with classical tools. As an example, we describe how the classicall Cech-Deligne cocycle construction of the Chern-Weil homomorphism (by Brylisnki and Maclaughline) drops out from these constructions:
+Taken together, these cnstructions allow us to express a good deal of the general $\infty$-Chern-Weil theory with classical tools. As an example, we describe how the classical Cech-Deligne cocycle construction of the refined [[Chern-Weil homomorphism]] (by [BrylinskiMacLaughlin](#BrylinskiMacLaughlin)) drops out from these constructions:
 
-* [Example: The hern-Simons circle 3-bundle](#ChernSimons3Bund).
+* [Example: The Chern-Simons circle 3-bundle](#ChernSimons3Bund).
 
 
 
@@ -2398,6 +2398,11 @@ A detailed account of the description of (abelian and nonabelian) [[gerbe]]s/[[b
 
   1. _Connections on nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 {#SW}
+
+The description of there refined Chern-Weil homomorphisms in terms of Cech-Deligne cohomology was discussed in
+
+* [[Jean-Luc Brylinski]], Dennis MacLaughlin, _Cech cocycles for characteristic classes_ , Communications in Mathematical Phiysics, Volume 178, Number 1 (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">web</a>)
+{#BrylinskiMacLaughlin}
 
 The Yoga of $\infty$-Lie algebra valued connections and the $\infty$-Chern-Weil homomorphism in local data is from 
 
