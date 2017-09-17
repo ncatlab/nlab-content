@@ -1,4 +1,9 @@
-#Definition
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 In any category, a **cospan** is a diagram like this:
 $$
@@ -10,16 +15,20 @@ $$
        &
        & \swarrow_g
       && 
-     \\
-     
+     \\     
      &&&&
      c
      &&&&
   }
 $$
+
+A cospan that admits a [[cone]] is called a [[quadrable cospan]].
+
 A cospan in the category $C$ is the same as a [[span]] in the [[opposite category]] $C^{op}$.  So, all general facts about cospans in $C$ are general facts about spans in $C^{op}$, and the reader may turn to the entry on [[span|spans]] to learn more.
 
-#See also#
+
+
+## See also
 
 * [[Cospans in Algebraic Topology]]
 * [[multispan]]
