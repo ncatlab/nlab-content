@@ -6,4 +6,9 @@ In the language of the $2$-poset [[Rel]] of sets and relations, a relation $R: A
 $$R^2 \subseteq R$$
 from which it follows that $R^n \subseteq R$ for any positive [[natural number]] $n$.  To include the case where $n = 0$, we must explicitly state that the relation is [[reflexive relation|reflexive]].
 
-Transitive relations are often understood as [[order]]s.
+Transitive relations are often understood as [[orders]].
+
+
+[[!redirects transitive relation]]
+[[!redirects transitivity]]
+[[!redirects transitive]]
