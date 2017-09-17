@@ -56,6 +56,10 @@ A [[groupoid convolution algebra]] is naturally a star-alegbra, with the [[invol
 More generally the [[category convolution algebra]] of a [[dagger-category]] is a star algebra, with the involution being the pullback along the dagger-operation.
 
 
+## Related concepts
+
+* [[star-representation]]
+
 [[!redirects star-algebra]]
 [[!redirects star-algebras]]
 [[!redirects star algebra]]
