@@ -111,3 +111,5 @@ The **language** of $\Sigma$ is the initial interpretation.
 
 [[!redirects relation symbol]]
 [[!redirects function symbol]]
+[[!redirects relation symbols]]
+[[!redirects function symbols]]
