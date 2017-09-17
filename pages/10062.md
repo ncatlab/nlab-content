@@ -1,0 +1,26 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Any [[dg-category]] $\mathcal{C}$ presents a [[stable (infinity,1)-category]]. One way to construct this is to apply the [[Dold-Kan correspondence]] on each [[hom-object]] to produce an fibrant [[sSet-enriched category]] and then, if desired, form the [[homotopy coherent nerve]] of that to obtain a [[quasi-category]]. 
+
+On the other hand, the _dg-nerve_ of $\mathcal{C}$ is a more direct construction that directly sends the dg-category to a [[simplicial set]] which is the [[quasi-category]] incarnation of the corresponding [[stable (∞,1)-category]].
+
+To the extent that one may think of $\mathcal{C}$ as analogous to a [[category of chain complexes]], the dg-nerve may be thought of producing the [[simplicial set]] whose $k$-[[simplices]] are the [[local systems]] on $\Delta^k$ with [[coefficients]] in $\mathcal{C}$ ([[flat ∞-connections]] with coefficients in $\mathcal{C}$).
+
+## References
+
+Definition 2.2 in 
+
+* [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_ ([arXiv:0908.2843](http://arxiv.org/abs/0908.2843))
+
+Constructon 1.3.1.6 in 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+[[!redirects dg-nerves]]
+[[!redirects nerve of a dg-category]]
+[[!redirects nerves of dg-categories]]
