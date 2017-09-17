@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Complex geometry
++-- {: .hide}
+[[!include synthetic complex geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Chow's theorem_ states that a [[complex analytic space]] which is given as a [[closed subset]] of a complex [[projective space]] is a complex [[algebraic variety]].
+
+## Related concepts
+
+* [[comparison theorem (étale cohomology)]]
+
+* [[GAGA]]
+
+
+## References
+
+* [[Wei-Liang Chow]], ...
+
