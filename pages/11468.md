@@ -24,7 +24,7 @@ What is called _$p$-adic string theory_ is the study of a variant of [[scatterin
 
 ### Open string amplitudes
 
-The original observation is that of ([Volovich 87](#Volovich87), reviewed in [VVZ 95, section XIV](#VVZ95)) that the [[integral]] expression for the [[Veneziano amplitude]] of the [[open string|open]] [[bosonic string]] naturally generalizes from an integral over the [[real numbers]] (which in this case parameterize the [[boundary]] of the [[open string]] [[worldsheet]]) to the [[p-adic numbers]]. 
+The original observation is that of ([Volovich 87](#Volovich87), reviewed in [VVZ 95, section XIV](#VVZ95)) that the [[integral]] expression for the [[Veneziano amplitude]] of the [[open string|open]] [[bosonic string]] naturally generalizes from an integral over the [[real numbers]] (which in this case parameterize the [[boundary]] of the [[open string]] [[worldsheet]]) to the [[p-adic numbers]] by _[[adelic integration]]_.
 
 The main result here is ([Freund-Witten 87](#FreundWitten87)) that the ordinary [[Veneziano amplitude]] equals the inverse of the product of its $p$-adic versions, for all primes $p$. With due regularization this result carries over to other [[string scattering amplitudes]], too. When forming these products one also speaks of _[[ring of adeles|adelic]] string theory_.
 
@@ -86,53 +86,6 @@ Discussion of [[tachyon condensation]] in $p$-adic string theory includes
 
 * {#Cottrell02} William Cottrell, _$p$-adic Strings and Tachyon Condensation_, 2002 ([pdf](http://jfi.uchicago.edu/~tten/teaching/Phys.291/Cottrell_Freund_2002.pdf))
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 [[!redirects adelic string theory]]
