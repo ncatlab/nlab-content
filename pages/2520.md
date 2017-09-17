@@ -67,6 +67,10 @@ More precisely, an action functional $S : C \to \mathbb{A}^1$ is called local if
 
   where $j_\infty(\phi) = (\phi, \partial_i \phi, \cdots)$ is the jet-prolongation of $\phi$ (the collection of all its higher partial derivatives).
 
++-- {: .query}
+[[Tobias Fritz]]: I think that this definition doesn't cover all the relevant cases: in gauge theory, the configuration space is not the space of sections of one bundle, but rather the bundle itself can vary. Even more generally, I imagine that one could take the configuration space to be a (higher) sheaf and still make sense of a local action?
+=--
+
 Consider action functional for on a configuration space of 
 [[smooth function]]s from the line to a [[smooth manifold]] $X$.
 
