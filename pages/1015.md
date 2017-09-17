@@ -1,7 +1,18 @@
 
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++--{: .hide}
 [[!include mathematicscontents]]
-</div>
+=--
+=--
+=--
 
 # Contents
 * automatic table of contents goes here
