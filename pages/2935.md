@@ -2,9 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### $\infty$-Chern-Simons theory
 +--{: .hide}
-[[!include infinity-Lie theory - contents]]
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 #### Physics
 +--{: .hide}
