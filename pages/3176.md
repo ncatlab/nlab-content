@@ -75,6 +75,36 @@ A [[functor]] $F : \mathcal{E} \to \mathcal{F}$ between [[elementary toposes]] i
 
 ## Properties
 
+### General
+
++-- {: .num_prop #LeftRightAdjoint}
+###### Proposition
+
+A logical functor has a [[left adjoint]] precisely if it has a [[right adjoint]].
+
+=--
+
+This appears as ([Johnstone, cor. 2.2.10](#Johnstone)).
+
++-- {: .proof}
+###### Proof
+
+For $F : \mathcal{E} \to \mathcal{F}$ a logical functor, we have by definition a [[diagram]]
+
+$$
+  \array{
+     \mathcal{E}^{op} &\stackrel{F^{op}}{\to}& \mathcal{F}^{op}
+     \\
+     {}^{\mathllap{P}}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{P}}
+     \\
+     \mathcal{E} &\stackrel{F}{\to}& \mathcal{F}
+  }
+$$
+
+in [[Cat]]. This satisfies the assumptions of the [[adjoint lifting theorem]] and hence $F$ has a right adjoint precisely if $F^{op}$ does. But a right adjoint of $F^{op}$ is a left adjoint of $F$, and vice versa.
+
+=--
+
 ### Preserved structures
 
 In particular, a logical functor preserves the truth of all sentences in the [[internal logic]].  If it is moreover [[conservative functor|conservative]], then it also *reflects* the truth of such sentences.  For example, the [[transfer principle]] of [[nonstandard analysis]] can be stated as the fact that a certain functor is logical and conservative.
