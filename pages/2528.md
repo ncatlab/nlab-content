@@ -26,7 +26,7 @@ In his seminal work _The Foundations of Constructive Analysis_ (1967), [[Errett 
 
 1. You must state what one must do to construct an element of the set;
 2. Given two elements constructed as in (1), you must state what one must do to prove that the elements are equal;
-3. You must prove that the relation defined in (2) is reflexive, symmetric, and transitive (which can be phrased in similar 'what one must do' terms, but that\'s kind of wordy).
+3. You must prove that the relation defined in (2) is reflexive, symmetric, and transitive.
 
 If you only do (1), then you don\'t have a set, according to Bishop; you only have a __preset__.
 
