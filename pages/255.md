@@ -148,7 +148,7 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 ## Related concepts
 
 
-* [[adjunction]], [[comonad]], [[adjoint monad]], [[algebra over a monad]], [[monad with arities]], [[distributive law]], [[monoidal monad]]
+* [[adjunction]], [[comonad]], [[adjoint monad]], [[algebra over a monad]], [[monad with arities]], [[distributive law]], [[monoidal monad]], [[cartesian monad]]
 
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
