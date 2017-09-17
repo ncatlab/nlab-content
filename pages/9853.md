@@ -1,4 +1,12 @@
 
-A _multifunction_ is a [[function]] of several [[variables]], hence aequivalently is an ordiary [[function]] on a [[product]] space.
+A _multifunction_ is a [[function]] of several [[variables]], hence equivalently an ordinary [[function]] on a [[cartesian product]].  [[set|Sets]] and multifunctions form a [[multicategory]].
 
+
+[[!redirects multifunction]]
 [[!redirects multifunctions]]
+[[!redirects multiary function]]
+[[!redirects multiary functions]]
+[[!redirects multi-ary function]]
+[[!redirects multi-ary functions]]
+[[!redirects function of several variables]]
+[[!redirects functions of several variables]]
