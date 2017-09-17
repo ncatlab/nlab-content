@@ -163,7 +163,7 @@ is the identity [[(∞,1)-functor]].
 
 ## Related entries 
 
-Related $n$lab entries include [[cotangent complex]], [[Maurer-Cartan equation]], [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]. Deformation problems are often phrased in terms of [[differential graded Lie algebras]], and, more generally, [[L-infinity algebras]]. 
+Related $n$lab entries include [[cotangent complex]], [[Maurer-Cartan equation]], [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]. Deformation problems are often phrased in terms of [[differential graded Lie algebras]], and, more generally, [[L-infinity algebras]]. See also discussion at MathOverflow: [def theory and dgla-s](http://mathoverflow.net/questions/385/deformation-theory-and-differential-graded-lie-algebras).
 
 ## References
 
@@ -210,6 +210,10 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. MR2247603 (2008e
 __253__, n. 1, 25--62 (2006) [doi:10.1007/s00209-005-0875-9](http://dx.doi.org/10.1007/s00209-005-0875-9)
 
 * S. Merkulov, B. Vallette, _Deformation theory of properads_, [arXiv:0707.0889](http://arxiv.org/abs/0707.0889)
+
+* V. Hinich, _DG coalgebras as formal stacks_, J. Pure Appl. Algebra __162__ (2001), no. 2-3, 209--250 (<a href="http://dx.doi.org/10.1016/S0022-4049(00)00121-3">doi</a>), [math.AG/9812034](http://arxiv.org/abs/math.AG/9812034).
+
+* Vladimir Hinich,  _Formal deformations of sheaves of algebras_, video of a talk at MSRI 2002, [link](http://www.msri.org/publications/ln/msri/2002/hodgetheory/hinich/1/index.html)  
 
 * W. Lowen, M. Van den Bergh, _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
 
