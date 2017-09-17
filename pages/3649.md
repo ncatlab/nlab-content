@@ -41,6 +41,7 @@ Jet bundles were first introduced by [[Charles Ehresmann]].
 
 * D. J. Saunders, _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
+* Arthemy Kiselev, _The twelve lectures in the (non)commutative geometry of differential equations_, preprint IHES M/12/13 [pdf](http://preprints.ihes.fr/2012/M/M-12-13.pdf)
 
 [[!redirects jet space]]
 [[!redirects jet spaces]]
