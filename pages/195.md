@@ -67,6 +67,8 @@ Finally, skeletality is mostly meaningless in HoTT because paths are the only no
 
 ## Related concepts
 
+* [[Bishop set]]
+
 [[!include homotopy n-types - table]]
 
 
