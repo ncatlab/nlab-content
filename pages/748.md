@@ -58,7 +58,6 @@ The assignment of overcategories $C/c$ to objects $c \in C$ extends to a [[funct
 
 $$
   C/(-) : C \to Cat
-  \,,
 $$
 
 Under the [[Grothendieck construction]] this functor corresponds to the [[codomain fibration]]
