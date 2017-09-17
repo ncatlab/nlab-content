@@ -103,7 +103,7 @@ Here are some more important examples of 2-limits, all of which come in strict a
 
 * [[Steve Lack]], _A 2-categories companion_ ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535))
 
-* [[Steve Lack]], _Homotopy theoretic aspects of 2-monads- ([arXiv:math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646)).
+* [[Steve Lack]], _Homotopy theoretic aspects of 2-monads_ ([arXiv:math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646)).
 
 * [[Nicola Gambino]], _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf))
 
