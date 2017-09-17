@@ -87,8 +87,6 @@
 
   * [[hyperconnected geometric morphism]]
 
-  * [[cohesive topos]] 
-
 * [[logical morphism]]
 
 
@@ -100,7 +98,11 @@
 
 * [[petit topos|petit topos/gros topos]]
 
-* [[locally connected topos]], [[connected topos]]
+* [[locally connected topos]], [[connected topos]], [[totally connected topos]], [[strongly connected topos]]
+
+* [[local topos]]
+
+* [[cohesive topos]]
 
 * [[classifying topos]]
 
