@@ -23,6 +23,9 @@ The word _orbifold_ was invented in ([Thurston 1992](#Thurston)), while the orig
 
 There is also a notion of finite stabilizers in [[algebraic geometry]]. A singular variety is called an (algebraic) _orbifold_ if it has only so-called _orbifold singularities_.
 
+## Definition
+
+An orbifold is a stack presented by an [[orbifold groupoid]].
 
 ## Properties
 
