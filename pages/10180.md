@@ -9,10 +9,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -62,11 +61,14 @@ A related point of view is that $FinSet^{op}$ is the [[free construction|free]] 
 
 =--
 
-###Remark
++-- {: .un_remark}
+###### Remark
+
 What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Blass]] that $\mathcal{S}$ has an object classifier $\mathcal{S}[U]$ precisely if $\mathcal{S}$ has a [[natural number object]]. A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that classifying toposes for [[geometric theories]] over $\mathcal{S}$ exist precisely if the object classifier $\mathcal{S}[U]$ exists.
+=--
+
 
 ## References
-
 
 * [[Peter Johnstone]], section D3.2 in _[[Sketches of an Elephant]]_
 
@@ -78,3 +80,7 @@ What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Bl
 
 * [[Richard Garner]], _Lawvere theories, finitary monads and Cauchy-completion_ ([arXiv:1307.2963](http://arxiv.org/abs/1307.2963))
  {#Garner13}
+
+
+[[!redirects classifying topos for the theory of objects]]
+[[!redirects classifying topos of the theory of objects]]
