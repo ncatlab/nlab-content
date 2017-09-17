@@ -9,19 +9,23 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc} 
-
+{: toc} 
 
 ## Idea
 
-In [[type theory]] the _bottom type_ is the [[type]] with no [[term]].
+In [[type theory]] the _empty type_ is the [[type]] with no [[term]].
 
-In a [[model]] by [[categorical semantics]] the unit type maps to an [[initial object]].
+In a [[model]] by [[categorical semantics]], this is an [[initial object]]. In [[set theory]], it is an [[empty set]].
+
 
 ## Related concepts
 
 * [[unit type]]
 
+
+[[!redirects bottom type]]
 [[!redirects bottom types]]
+[[!redirects empty type]]
+[[!redirects empty types]]
