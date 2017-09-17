@@ -368,11 +368,11 @@ taking values in the coefficients of the given cohomology theory. Note that in t
 
 ## Related concepts
 
-* [[Gysin map]]
-
 * [[Grothendieck-Riemann-Roch theorem]]
 
 * [[geometric quantization by push-forward]]
+
+[[!include generalized fiber integration synonyms - table]]
 
 ## References
 
