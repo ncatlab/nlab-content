@@ -213,6 +213,7 @@ If $X$ is not connected, we can easily reduce to the case that it is.
 
 
 ### General
+ {#PropertiesGeneral}
 
 +-- {: .num_prop}
 ###### Proposition
