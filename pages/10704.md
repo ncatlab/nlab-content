@@ -15,7 +15,8 @@
 
 ## Idea
 
-The **localization of a space** or spectrum with respect to some [[primes]] is a homotopical analogue of the notion of [[localization of a commutative ring]], specifically the ring $\mathbb{Z}$ of [[integers]], with respect to some primes.  In good cases, at least, this localization acts on the [[homotopy groups|homotopy]] and/or [[homology groups]] as algebraic localization.  (For spaces, there are multiple inequivalent notions of localization, although all agree on [[nilpotent spaces]].)
+
+The **localization of a space** (really: [[homotopy type]], [[∞-groupoid]]) or [[spectrum]] with respect to some [[prime numbers]] is a [[homotopy theory|homotopical]] analogue of the notion of [[localization of a commutative ring]] (or rather of [[localization of a module]]), specifically the ring $\mathbb{Z}$ of [[integers]], with respect to some [[prime numbers]].  In good cases, at least, this localization acts on the [[homotopy groups|homotopy]] and/or [[homology groups]] as algebraic localization.  (For spaces, there are multiple inequivalent notions of localization, although all agree on [[nilpotent spaces]].)
 
 Localization in this sense is closely related to [[Bousfield localization]].  The localization of spectra is a [[Bousfield localization of spectra]], while one of the constructions of localization of spaces is a Bousfield localization of model categories.  The present notion of localization should not be confused with the [[completion of a space]], which is a different sort of Bousfield localization.
 
@@ -23,44 +24,112 @@ Localization in this sense is closely related to [[Bousfield localization]].  Th
 
 ### Sets of primes
 
-For all of this page, let $T$ be a set of primes, with $\neg T$ the set of primes not in $T$.  The most important cases are:
+For all of this page, 
+
+* let $T$ be a [[set]] of [[prime numbers]], 
+
+* write $\neg T$ for the set of primes not in $T$.  
+
+
++-- {: .num_defn}
+###### Definition
+
+Write $\mathbb{Z}_T$ for the [[commutative ring|ring]] of [[integers]] [[localization of a commutative ring|localized]] by inverting all primes in $\neg T$, i.e. the subring of $\mathbb{Q}$ whose denominators are products of primes in $\neg T$.  
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The most important cases are:
 
 * $T = \{p\}$ for a prime $p$.  In this case, $T$-localization will be **localization at $p$** or **$p$-localization**.
 
 * $T = \neg \{p\}$, the set of all primes except $p$.  In this case, $T$-localization will be **localization away from $p$**.
 
-* $T = \emptyset$.  In this caes, $T$-localization will be **rationalization**.
+* $T = \emptyset$.  In this case, $T$-localization will be **[[rationalization]]**.
 
-In general, let $\mathbb{Z}_T$ denote the ring of integers [[localization of a commutative ring|localized]] by inverting all primes in $\neg T$, i.e. the subring of $\mathbb{Q}$ whose denominators are products of primes in $\neg T$.  Thus, $\mathbb{Z}_\emptyset = \mathbb{Q}$ while $\mathbb{Z}_{\neg\{p\}} = \mathbb{Z}[\frac{1}{p}]$, and $\mathbb{Z}_{\{p\}} = \mathbb{Z}_{(p)}$ is the integers localized at the [[prime ideal]] $(p)$.
+In these cases:
 
-Note that the analogous theory of the [[completion of a space]] involves the [[cyclic groups]] $\mathbb{Z}/p\mathbb{Z}$ (sometimes written $\mathbb{F}_p$) and/or the [[p-adic integers]] $\mathbb{Z}_p$ instead of $\mathbb{Z}_T$.
+*  $\mathbb{Z}_\emptyset = \mathbb{Q}$ is the [[rational numbers]];
+
+* $\mathbb{Z}_{\neg\{p\}} = \mathbb{Z}[\frac{1}{p}]$;
+
+* $\mathbb{Z}_{\{p\}} = \mathbb{Z}_{(p)}$ is the integers localized at the [[prime ideal]] $(p)$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+The analogous theory of the [[completion of a space]] involves the [[cyclic groups]] $\mathbb{Z}/p\mathbb{Z}$ -- written $\mathbb{F}_p$ when regarded as a [[finite field]] -- and/or the [[p-adic integers]] $\mathbb{Z}_p$ instead of $\mathbb{Z}_T$.
+
+For the relation of that to completion see remark \ref{RelationToCompletion} below.
+
+Hence beware the subtle but crucial difference in what a subscript means, depending on wich symbol is being subscriped and whether there are parenthesis or not:
+
+* $\mathbb{Z}_{(p)}$: inverting all primes except $p$;
+
+* $\mathbb{F}_p$: quotient by $p$;
+
+* $\mathbb{Z}_p$: [[formal completion]] at $p$.
+
+=--
+
 
 ### Local groups
 
++-- {: .num_defn #TLocalGroup}
+###### Definition
+
 A [[group]] $G$ is said to be **$T$-local** if the $p^{th}$ power map $G\to G$ is a bijection for all $p\in \neg T$.
 
-If $G$ is [[abelian group|abelian]], then this map is a group homomorphism and is  generally written additively as multiplication by $p$.  In this case the following are equivalent:
+=--
 
-* $G$ is $T$-local.
++-- {: .num_prop #CharacterizationOfAbelianLocalGroups}
+###### Proposition
 
-* $G$ admits a structure of $\mathbb{Z}_T$-[[module]] (necessarily unique).
+If $G$ is [[abelian group|abelian]], then this map is a group [[homomorphism]] and is  generally written additively as multiplication by $p$.  In this case the following are equivalent:
+
+* $G$ is $T$-local;
+
+* $G$ admits a structure of $\mathbb{Z}_T$-[[module]] (necessarily unique);
 
 * The [[tensor product]] $G\otimes \mathbb{Z}/p\mathbb{Z}$ with the [[cyclic group]] of order $p$ is equal to zero for all $p\in\neg T$.
 
-The second characterization implies that $T$-local abelian groups are [[reflective subcategory|reflective]] in [[Ab]]: the reflection is the [[extension of scalars]] functor $(\mathbb{Z}_T \otimes -)$.  In fact, $T$-local nonabelian groups are also reflective in [[Grp]], but the construction is less pretty.
+=--
+
++-- {: .num_prop}
+###### Remark
+
+The second characterization in prop. \ref{CharacterizationOfAbelianLocalGroups} implies that $T$-local abelian groups are [[reflective subcategory|reflective]] in [[Ab]]: the reflection is the [[extension of scalars]] functor $(\mathbb{Z}_T \otimes -)$.  In fact, $T$-local nonabelian groups are also reflective in [[Grp]], but the construction is less pretty.
+
+=--
 
 ## Definitions
 
 ### Localization of spectra
 
-A [[spectrum]] $X$ is called **$T$-local** (or $\mathbb{Z}_T$-local, if there is potential for confusion) if its [[homotopy groups]] are $T$-local abelian groups.
++-- {: .num_defn #TLocalSpectrum}
+###### Definition
 
-The **$T$-localization** of a spectrum is its reflection into $T$-local spectra.  This can be constructed as the [[Bousfield localization of spectra]] with respect to the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}_T$.  It can also be constructed as a [[Bousfield localization of model categories]] where we invert the maps that induce an isomorphism on [[generalized homology]] with coefficients in $H \mathbb{Z}_T$; these are called **$\mathbb{Z}_T$-homology isomorphisms**.
+A [[spectrum]] $X$ is called **$T$-local** (or $\mathbb{Z}_T$-local, if there is potential for confusion) if its [[homotopy groups]] are $T$-local abelian groups, def. \ref{TLocalGroup}.
 
-+-- {: .un_remark}
-###### Remark
-A $\neg\{p\}$-local spectrum is also called **$\mathbb{Z}/p\mathbb{Z}$-acyclic**.  According to the general theory of [[Bousfield localization of spectra]], they are "dual" to the "$\mathbb{Z}/p\mathbb{Z}$-local spectra", in the sense that $X$ is $\mathbb{Z}/p\mathbb{Z}$-local if every map $Y \to X$ out of a $\mathbb{Z}/p\mathbb{Z}$-acyclic $Y$ is [[null homotopy|null homotopic]].  $\mathbb{Z}/p\mathbb{Z}$-local spectra are also known as *$p$-complete* spectra, and are the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p\mathbb{Z}$.  See [May-Ponto, example 19.2.3](#MayPonto) [Lurie, example 8](#Lurie).
+The **$T$-localization** of a spectrum is its [[reflective sub-(infinity,1)-category|reflection]] into $T$-local spectra.  
+
 =--
+
++-- {: .num_remark}
+###### Remark
+
+The $T$-localization, def. \ref{TLocalSpectrum}, may be constructed as the [[Bousfield localization of spectra]] with respect to the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}_T$.  
+
+It can also be constructed as a [[Bousfield localization of model categories]] where we invert the maps that induce an isomorphism on [[generalized homology]] with [[coefficients]] in $H \mathbb{Z}_T$; these are called **$\mathbb{Z}_T$-homology isomorphisms**. See at _[[homology localization]]_.
+
+=--
+
+
 
 ### Localization of nilpotent spaces
 
@@ -98,7 +167,49 @@ One can of course state the other two characterizations of "$T$-local space" fro
 
 ## Properties
 
+### Relation to completion
+ {#RelationToCompletion}
+
++-- {: .num_remark #RelationToCompletion}
+###### Remark
+**(relation to completion)**
+
+A $\neg\{p\}$-local spectrum is also called **$\mathbb{Z}/p\mathbb{Z}$-acyclic**.  According to the general theory of [[Bousfield localization of spectra]], they are "dual" to the "$\mathbb{Z}/p\mathbb{Z}$-local spectra", in the sense that $X$ is $\mathbb{Z}/p\mathbb{Z}$-local if every map $Y \to X$ out of a $\mathbb{Z}/p\mathbb{Z}$-acyclic $Y$ is [[null homotopy|null homotopic]].  
+
+$\mathbb{Z}/p\mathbb{Z}$-local spectra are also known as *$p$-complete* spectra, and are the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p\mathbb{Z}$.  
+
+=--
+
+See ([May-Ponto, example 19.2.3](#MayPonto), [Lurie, example 8](#Lurie)).
+
+In summary:
+
+[[!include localization and completion -- table]]
+
++-- {: .num_remark}
+###### Remark
+
+In terms of [[arithmetic geometry]] this may be understood as follows:
+
+1. $\mathbb{F}_p = \mathbb{Z}/(p \mathbb{Z})$ is the [[ring of functions]] exactly on the point $(p)\in $ [[Spec(Z)]]
+
+1. $\mathbb{Z}_p$ is the functions on the [[formal neighbourhood]] of $(p)$.
+
+1. $\mathbb{Z}_{(p)}$ is the ring of functions defined _not_ on any point $(p^\prime)$ with $p^\prime \neq p$, hence on the complement of the complement of $(p)$;
+
+
+So...
+
+=--
+
+### Basic properties
+
+* [[fracture theorem]]
+
+### In chromatic homotopy theory
+
 Many of the basic constructions and theorems in [[chromatic homotopy theory]] apply to [[finite spectrum|finite]] $p$-local spectra, such as
+
 
 * [[telescopic localization]]
 
@@ -106,7 +217,6 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * [[chromatic convergence theorem]]
 
-* [[fracture theorem]]
 
 
 ## Examples
