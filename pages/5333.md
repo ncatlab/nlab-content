@@ -106,6 +106,8 @@ Heterotic strings were introduced in
 
 * [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B258 (1985) 46
 
+* {#Schellekens91} [[Bert Schellekens]], _Classification of Ten-Dimensional Heterotic Strings_, Phys.Lett. B277 (1992) 277-284 ([arXiv:hep-th/9112006](http://arxiv.org/abs/hep-th/9112006))
+
 Textbook accounts include
 
 
