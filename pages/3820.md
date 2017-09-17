@@ -91,6 +91,25 @@ $$
   \,.
 $$
 
+The above definition of $EL$ and $\theta$ in terms of $\delta S$ yields the following identity upon taking another exterior variational derivative of both sides
+
+$$
+  \delta(\delta S(\phi)) = 0
+  = \int_X \left[
+    \delta(EL(\phi)) \wedge \delta\phi
+    + d_{dR} \delta \theta_phi(\delta \phi) \right]
+  \, ,
+$$
+
+where the first term on the right clearly vanishes when pulled back to the shell, $EL(\phi)=0$ on $X$. This implies that the presymplectic potential current is de Rham closed on shell:
+
+$$
+  d_{dR} \iota^* \omega = d_{dR} \iota^* (\delta \theta_\phi(\delta\phi)) = 0
+  \, ,
+$$
+
+where $\iota$ is the embedding of the solutions of the [[Euler-Lagrange equation]]s into the space of all field configurations.
+
 The variational 1-form
 
 $$
