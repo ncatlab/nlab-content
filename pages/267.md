@@ -22,6 +22,8 @@ Examples for possible shapes used to model higher categories are
 
 * [[trees]].
 
+* [[cell category|globular cells]]
+
 * [[opetopes]], aka [[multitopes]].
 
 There are corresponding categories whose 
