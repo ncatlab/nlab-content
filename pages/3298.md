@@ -2020,6 +2020,7 @@ A considerably refined discussion of this which almost makes the construction of
 
 * [[Grégory Ginot]], Thomas Tradler, [[Mahmoud Zeinalian]], _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
 {#GinotTradlerZeinalian}
+* Nathalie Wahl, Craig Westerland, _Hochschild homology of structured algebras_, [arxiv/1110.0651](http://arxiv.org/abs/1110.0651)
 
 
 The full $(\infty,1)$-categorical picture of Hochschild homology as the cohomology of [[derived stack|derived]] [[free loop space object]]s is due to
