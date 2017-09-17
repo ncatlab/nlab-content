@@ -9,7 +9,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -17,32 +17,35 @@
 
 The _one-point compactification_ of a [[topological space]] is a new [[compact space]] obtained by adding a single new point to the original space.
 
-This is also known as the _Alexandroff compactification_ or _Alexandroff extension_ after a 1924 paper by [[Pavel Aleksandrov|Павел Сергеевич Александров]] (then transliterated 'P.S. Aleksandroff').
+This is also known as the _Alexandroff compactification_ after a 1924 paper by [[Pavel Aleksandrov|Павел Сергеевич Александров]] (then transliterated 'P.S. Aleksandroff').
+
+The one-point compactification is usually applied to a non-[[compact space|compact]] [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] space.  In the more general situation, it may not really be a [[compactification]] and hence is called the _one-point extension_ or _Alexandroff extension_.
+
 
 ## Definition
 
-Let $X$ be a [[compact space|non-compact]] but [[locally compact space|locally compact]] [[Hausdorff space]]. Its **one-point compactification** $X^*$ is the topological space 
+Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the topological space 
 
-* whose underlying [[set]] is $X \cup \{\infty\}$ 
+* whose underlying [[set]] is the [[disjoint union]] $X \cup \{\infty\}$ 
 
 * and whose [[open set]]s are 
 
   1. the open subsets of $U$;
 
-  1. subsets $V$ that contain $\infty$ such that $X \setminus V$ is closed and [[compact space|compact]].
+  1. subsets $V$ that contain $\infty$ such that $X \setminus V$ is [[closed subspace|closed]] and [[compact space|compact]].
 
 
 ## Properties
 
 $X^*$ is [[compact space|compact]].
 
-
-The evident inclusion $X \to X^*$ is an open [[embedding]].
-
+The evident inclusion $X \to X^*$ is an [[open map|open]] [[embedding]].
 
 The one-point compactification is [[universal property|universal]] among all compact spaces into which $X$ has an open embedding, so it is [[essentially unique]].
 
-$X^*$ is technically a [[compactification]] of $X$ (meaning that $X$ is [[dense subspace|dense]] in $X^*$) only if $X$ was not already compact.  $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ was already both Hausdorff and [[locally compact space|locally compact]].
+$X$ is [[dense subspace|dense]] in $X^*$ iff $X$ is not already compact.  Note that $X^*$ is technically a [[compactification]] of $X$ only in this case.
+
+$X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]].
 
 
 ## References
@@ -50,12 +53,24 @@ $X^*$ is technically a [[compactification]] of $X$ (meaning that $X$ is [[dense 
 * John Kelly, _General Topology_ (1975)
 
 
+[[!redirects one-point compactification]]
+[[!redirects one-point compactifications]]
 [[!redirects Alexandroff compactification]]
+[[!redirects Alexandroff compactifications]]
 [[!redirects Alexandrov compactification]]
+[[!redirects Alexandrov compactifications]]
 [[!redirects Aleksandrov compactification]]
+[[!redirects Aleksandrov compactifications]]
 [[!redirects Александров compactification]]
+[[!redirects Александров compactifications]]
+
 [[!redirects one-point extension]]
+[[!redirects one-point extensions]]
 [[!redirects Alexandroff extension]]
+[[!redirects Alexandroff extensions]]
 [[!redirects Alexandrov extension]]
+[[!redirects Alexandrov extensions]]
 [[!redirects Aleksandrov extension]]
+[[!redirects Aleksandrov extensions]]
 [[!redirects Александров extension]]
+[[!redirects Александров extensions]]
