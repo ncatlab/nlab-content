@@ -1,7 +1,18 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -169,7 +180,37 @@ It turns out to be possible and useful to discuss just the _topological_ aspects
 This sub-phenomenon is discussed in more detail at [[topological T-duality]].
 
 
-## Geometric T-duality in generalized complex geometry {#TdualityIngcg}
+## Geometric T-duality 
+
+### In terms of generalized differential cohomology
+ {#InDiffCohomology}
+
+[[gauge field|Gauge field]]s are [[cocycle]]s in [[differential cohomology]]. The [[Kalb-Ramond field]] is given by degree-3 [[ordinary differential cohomology]], the differential refinement on degree-3 [[integral cohomology]]. The [[RR-field]] is given by [[differential K-theory]]. 
+
+Induced by the morphisms $\mathbf{c}(n)$ in the [[fiber sequence]]s
+
+$$
+  \mathbf{B}U(1) \to \mathbf{B} U(n) \to \mathbf{B} PU(n) 
+  \stackrel{\mathbf{c}_n}{\to} \mathbf{B}^2 U(1)
+$$
+
+is induced a notion of [[twisted cohomology]] which makes the Kalb-Ramonf field act as a twist for [[twisted K-theory]].
+
+In these terms, the setup of T-duality is a [[correspondence]] of [[Kalb-Ramond field]]s over [[spacetime]] [[torus]]-bundles $P \to X$ and $\hat P \to X$ that induces an integral transform
+
+$$
+  K_{diff}^{\bullet + \tau}(P)
+  \to 
+  K_{diff}^{\bullet + \tau -1}(\hat P)
+$$
+
+of twisted differential K-theory classes.
+
+This is an [[isomorphism]] -- the action of the T-duality isomorphism on the Kalb-Ramond field and the RR-field.
+
+See ([KahleValentino](#KahleValentino)).
+
+### In generalized complex geometry {#TdualityIngcg}
 
 Another approach to the study of T-duality takes a somewhat complementary point of view and ignores the  [[Eilenberg-MacLane spectrum|integral cohomology]] class in $H^3(X,\mathbb{Z})$ of the [[gerbe]] but does consider the [[Riemannian metric]].
 
@@ -186,9 +227,16 @@ One special cases of T-duality is [[mirror symmetry]].
 
 ## References
 
+Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
 
+* [[Alexander Kahle]], [[Alessandro Valentino]], _T-duality and differential K-theory_ ([arXiv](http://arxiv.org/abs/0912.2516))
+  {#KahleValentino}
 
-T-duality is identified as an [[isomorphism]] of [[standard Courant algebroid]]s in section 4 of
+More physically oriented discussion of this is in 
+
+* Katrin Becker, Aaron Bergman, _Geometric Aspects of D-branes and T-duality_ ([arXiv:0908.2249](http://arxiv.org/abs/0908.2249))
+
+Geometric T-duality is identified as an [[isomorphism]] of [[standard Courant algebroid]]s in section 4 of
 
 * Cavalcanti, [[Marco Gualtieri|Gualtieri]], _Generalized complex geometry and T-duality_ ([pdf](http://www.math.uu.nl/people/cavalcan/homepage/Research_files/t-duality.pdf))
 
@@ -201,3 +249,5 @@ Further references are
 * Willie Carl Merrell, _Application of superspace techniques to effective actions, complex geometry and T-duality in String theory_ ([pdf](http://www.lib.umd.edu/drum/bitstream/1903/6865/1/umi-umd-4355.pdf))
 
 * Peggy Kao, _T-duality and Poisson-Lie T-duality in generalized geometry_ ([pdf](http://tpsrv.anu.edu.au/Members/bouwknegt/Kao.pdf))
+
+For references on [[topological T-duality]] see there.
