@@ -230,7 +230,7 @@ $$
 
 of the [[category of presheaves]] on $A$ 
 (which is the [[free cocompletion]] of $A$) on the flat functors is the 
-free cocompletion under [[filtered colimits]].
+free cocompletion under [[filtered colimits]].  When regarded in this way, flat functors are also known as [[ind-objects]].
 
 +-- {: .num_prop}
 ###### Proposition
