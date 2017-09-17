@@ -392,26 +392,39 @@ $$
 
 ### For super vector spaces
 
-The category $SVect$ of [[super vector space]]s has objects $\mathbb{Z}/2$-[[graded vector space]]s with morphisms being _even_ linear maps between them (linear maps which send even things to even things and odd things to odd things):
+The category $SVect$ of [[super vector spaces]] is the category of $\mathbb{Z}/2$-[[graded vector spaces]].  Thus, its objects are pairs of vector spaces $(V_+,V_-)$, with $V_+$ called the *even* part and $V_-$ the *odd* part.  The morphisms in $SVect$ are likewise pairs of linear maps, i.e. we define $SVect$ to be $Vect \times Vect = Vect^{\mathbb{Z}/2}$, as usual for any sort of graded object.  With this definition of the category $SVect$, we capture the concepts of superalgebra and so on in succinct categorical terms.
+
+Because the morphisms in $SVect$ send even things to even things and odd things to odd things, they are sometimes called _even_ linear maps, and one may write
 $$
- Hom_SVect (V, W) = Even Lin(V,W).
+ SVect(V, W) = Even Lin(V,W).
 $$
-This convention allows one nicely to capture the concepts of superalgebra and so on in succinct categorical terms. But occasionally one does need to refer to the _odd_ linear maps. This is the function of the internal hom:
+Note that $SVect$ is [[enriched category|enriched]] over $Vect$, i.e. these hom-sets are vector spaces.
+
+Occasionally, however, one does need to refer to the _odd_ linear maps, which send even things to odd things and odd things to even things.  That is, an odd linear map $V\to W$ is a pair of linear maps $V_+ \to W_-$ and $V_-\to W_+$.  The internal-hom in $SVect$ allows us to capture these as well: it is the following super vector space:
 $$
- hom_SVect (V, W) = Lin(V,W).
+  [V,W]_+ = Even Lin(V,W) \qquad
+  [V,W]_- = Odd Lin(V,W).
 $$
-Note that $hom_{SVect}$ is indeed a super vector space, with the even elements being those maps which preserve the grading and the odd elements being those which change it. One uses this definition to turn SVect into a [[closed monoidal category]]. 
+With this definition, $SVect$ becomes a [[closed monoidal category]].
+
+We can equivalently regard a super vector spaces $(V_+,V_-)$ as being the [[direct sum]] vector space $V_+ \oplus V_-$ equipped with this direct sum decomposition.  If we view the internal-hom $[V,W]$ in this way as well, then we have
+$$
+ [V, W] = Even Lin(V,W) \oplus Odd Lin(V,W) = Lin(V,W).
+$$
+In other words, any linear map between these "summed" super vector spaces decomposes uniquely as the sum of an even linear map and an odd one.
 
 
 ### For Banach spaces
 
 A similar thing happens in the category $Ban$ of [[Banach spaces]] and [[short linear operators]].  The external hom consists of only the *short* linear maps (those bounded by $1$):
-$$ Hom_Ban(V,W) = \{ f\colon Lin(V,W) \;|\; {\|f\|} \leq 1 \} .$$
+$$ Ban(V,W) = \{ f\colon Lin(V,W) \;|\; {\|f\|} \leq 1 \} .$$
 This definition of morphism recovers the most specific notion of [[isomorphism]] of Banach spaces, as well as defining the [[product]] and [[coproduct]] as the [[direct sum]] completed with $p = \infty$ or $p = 1$ respectively.
 
 But the internal hom is the Banach space of *all* bounded linear maps:
-$$ hom_Ban(V,W) = \{ f\colon Lin(V,W) \;|\; {\|f\|} \lt \infty \} .$$
+$$ [V,W] = \{ f\colon Lin(V,W) \;|\; {\|f\|} \lt \infty \} .$$
 This is a Banach space and makes $Ban$ into a [[closed category]].
+
+
 
 ## Related concepts
 
