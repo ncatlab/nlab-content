@@ -56,6 +56,8 @@ Given a [[vector space]] $V$, the $n$-fold [[tensor product]] of this space with
 
 * [[cofree coalgebra]]
 
+* [[extended power]]
+
 [[!redirects tensor power]]
 [[!redirects tensor powers]]
 
