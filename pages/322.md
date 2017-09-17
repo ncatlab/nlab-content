@@ -337,7 +337,6 @@ See also related discussion at [[club]].
 
 ### Specific examples
 
-
 * [[endomorphism operad]]
 
 * [[associative operad]]
@@ -348,7 +347,9 @@ See also related discussion at [[club]].
 
   * [[E-k operad]]
 
-  * [[E-infinity operad]]
+    * [[E-infinity operad]]
+
+    * [[framed little 2-disk operad]]
 
 * [[Lie operad]]
 
