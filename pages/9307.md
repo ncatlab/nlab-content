@@ -20,10 +20,18 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-_Higher differential geometry_ is the incarnation of [[differential geometry]] in [[higher geometry]]. If the ambient [[(∞,1)-topos]] is not [[n-localic (∞,1)-topos|1-localic]] then one also speaks of [[derived differential geometry]].
+_Higher differential geometry_ is the incarnation of [[differential geometry]] in [[higher geometry]]. Hence it is concerned with [[n-groupoid]]-versions of [[smooth spaces]] for _higher_ $n$, where the traditional theory is contained in the case $n = 0$. For $n = 1$ these higher structures are _[[Lie groupoids]]_, _[[differentiable stacks]]_, their infinitesimal approximation by [[Lie algebroids]] and the generalization to _[[smooth stacks]]_. For higher $n$ this includes ([[deloopings]] of) [[Lie 2-groups]], [[Lie 3-groups]].
+
+Fully generally, higher differential geometry hence replaces [[smooth manifolds]] (and possibly variants such as [[supermanifolds]], [[formal manifolds]], [[dg-manifolds]] etc.) by _[[∞-stacks]]_ ([[(∞,1)-sheaves]]) on the [[site]] of all such. Technically this means that higher differential geometry is the study of an _[[(∞,1)-topos]]_ into which standard [[differential geometry]] faithfully embeds.
+This then allows to speak of [[smooth ∞-groups]], [[Lie ∞-algebroids]].
+
+If the ambient [[(∞,1)-topos]] is not [[n-localic (∞,1)-topos|1-localic]] (for instance over a genuine site of [[dg-manifolds]]) then one also speaks of _[[derived differential geometry]]_.
 
 See at _[[motivation for higher differential geometry]]_ for motivation.
+
+The standard variants of [[differential geometry]] have their higher analogs, for instance [[symplectic geometry]] generalizes to [[higher symplectic geometry]] and [[prequantum geometry]] to [[higher prequantum geometry]].
 
 ## Formalizations
 
