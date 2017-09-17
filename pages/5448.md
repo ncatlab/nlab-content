@@ -82,7 +82,7 @@ Chaper 27.8 in
 * [[Aise Johan de Jong]], _[[The Stacks Project]]_
 {#deJong}
 
-W. C. Waterhouse, Basically bounded functors and flat sheaves, Pacific Journal of Mathematics 57 (1975), no. 2, 597--610 (available at ProjectEuclid.org)
+* W. C. Waterhouse, _Basically bounded functors and flat sheaves_, Pacific Journal of Mathematics __57__ (1975), no. 2, 597--610 [MR396578](http://www.ams.org/mathscinet-getitem?mr=396578), [euclid](http://projecteuclid.org/euclid.pjm/1102906018)
 
 [[!redirects fpqc-site]]
 [[!redirects fpqc topology]]
