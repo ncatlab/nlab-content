@@ -37,6 +37,12 @@ The [[homotopy groups]] of the sphere spectrum are the [[stable homotopy groups 
 
 The sphere spectrum is naturally an [[E-∞ ring]] and in fact is the [[initial object]] in the [[(∞,1)-category]] of [[ring spectra]]. It is the higher version of the [[ring]] $\mathbb{Z}$ of [[integer]]s.
 
+## Related concepts
+
+* [[spherical fibration]]
+
+* [[superalgebra]]
+
 ## References
 
 Lecture notes include
