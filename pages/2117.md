@@ -44,7 +44,7 @@ See also a [Wikipedia article](https://secure.wikimedia.org/wikipedia/en/wiki/Un
 
 If set theory is the [[foundation of mathematics]], then the universes above are part of metamathematics rather than mathematics itself.  However, we can also look for [[small categories]] or sets that exist within set theory and have the properties of a universe.
 
-There is already a hint of this in the hierarchy $V_\alpha$ out of which the von Neumann universe is built.  For some values of $\alpha$, $V_\alpha$ might be a sufficiently large and complete collection of [[sets]] in which to do ordinary mathematics.  From the [[nPOV]], we can instead look at the category $SET_\alpha$ of these sets and the [[functions]] between them, although it\'s more common to think about $SET_\kappa$ for some [[cardinal number]] $\kappa$.
+There is already a hint of this in the hierarchy $V_\alpha$ out of which the von Neumann universe is built.  For some values of $\alpha$, $V_\alpha$ might be a sufficiently large and complete collection of [[sets]] in which to do ordinary mathematics.  From the [[nPOV]], we can instead look at the category $Set_\alpha$ of these sets and the [[functions]] between them, although it\'s more common to think about $Set_\kappa$ for some [[cardinal number]] $\kappa$.
 
 An [[infinite set]] is a simple example, as [[finite mathematics]] can be done inside it.  Going beyond this, a [[Grothendieck universe]] is a set within which other infinite sets exist but which is complete under the operations of [[material set theory]] that are needed for ordinary mathematics.  The [[structural set theory|structural]] analogue is a [[universe in the topos]] $SET$.
 
