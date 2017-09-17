@@ -30,6 +30,10 @@ include:
 
 * S. Mac Lane, 1967, _Homology_ , number 114 in Grundlehren, Springer.
 
+a work on [[philosophy of mathematics]]:
+
+* Mac Lane, S. (1986). Mathematics form and function. Springer.
+
 
 ###Papers of particular relevance to subjects in the nLab
 
