@@ -52,7 +52,7 @@ Since in the effective theory around $\phi_0$ the [[vacuum]] state where all the
 
 ### Scalars in mexican hat potential
 
-A standard example which is both very simple but at the same time of central importance in one of the main applications in the [[standard model of particle physics]] -- the [[Higgs effect]] -- is this:
+A standard example which is both very simple but at the same time of central importance in one of the main applications in the [[standard model of particle physics]] -- the [[electroweak symmetry breaking]] via the [[Higgs mechanism]] -- is this:
 
 Let $Conf = C^\infty(X = [0,1]^d, \mathbb{R}^N)$ be the configuration space of $N$ real scalar fields and take the action functional to be
 
