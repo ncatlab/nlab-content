@@ -1,0 +1,13 @@
+
+A [[logical framework]].
+
+## Related concepts
+
+* [[Automath]]
+
+* [[Elf]]
+
+## References
+
+* [Twelf homepage](http://twelf.org/wiki/Main_Page)
+
