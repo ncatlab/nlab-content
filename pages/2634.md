@@ -85,6 +85,10 @@ $U(0,t) = $exp$\left(-\frac{i}{\hbar}H t\right),$
 
 provided the Hamiltonian is time-independent.
 
+## Related concepts
+
+* [[quantum operator]]
+
 
 [[!redirects Hamiltonian]]
 [[!redirects hamiltonian]]
