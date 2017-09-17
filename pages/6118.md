@@ -510,11 +510,12 @@ $$f(\bar{A}) \subseteq \widebar{f(A)}$$
 for any $A \subseteq X$ (easy exercise). For $x \in \bar{A}$, lemma \ref{closed} shows there is $F: \beta(X)$ with $A \in F$ and $F \rightsquigarrow x$. Under the supposition we have $\beta(f)(F) \rightsquigarrow f(x)$, and we also have $f(A) \in \beta(f)(F)$, because $A \subseteq f^{-1}(f(A))$ and $F$ is upward closed and $A \in F$ implies $f^{-1}(f(A)) \in F$. Then again by lemma \ref{closed}, $f(A) \in \beta(f)(F)$ and $\beta(f)(F) \rightsquigarrow f(x)$ implies $f(x) \in \widebar{f(A)}$, as desired. 
 =-- 
 
-+-- {: .num_corollary} 
-###### Corollary 
-**(Barr)** 
++-- {: .num_cor #equivalence}
+###### Corollary (Barr)
+
 The category of topological spaces is equivalent (even isomorphic to) the category of lax $\beta$-modules and lax morphisms between them. 
 =-- 
+
 
 ## Properties 
 
