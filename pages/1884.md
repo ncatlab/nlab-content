@@ -115,7 +115,7 @@ $$
 Write 
 
 $$
-  K(X) := Vect(X)_\sim
+  \tilde K(X) := Vect(X)_\sim
 $$
 
 for the [[quotient set]] of [[equivalence class]]es. 
@@ -125,7 +125,7 @@ for the [[quotient set]] of [[equivalence class]]es.
 +-- {: .num_prop #KGroupIsIndeedAGroup}
 ###### Proposition
 
-With $X$ compact Hausdorff as in the assumption, we have that fiberwise [[direct sum]] of vector bundles equips $K(X)$ with the structure of an [[abelian group]]. Together with the fiberwise [[tensor product]] of vector bundles this yields a [[ring]]. 
+With $X$ compact Hausdorff as in the assumption, we have that fiberwise [[direct sum]] of vector bundles equips $\tilde K(X)$ with the structure of an [[abelian group]]. Together with the fiberwise [[tensor product]] of vector bundles this yields a [[ring]]. 
 
 =--
 
@@ -257,7 +257,7 @@ $$
 
 while $B U$ has nontrivial [[homotopy group]]s in arbitrary higher degree. (See below).
 
-But there is the group $U(\mathcal{H})_{\mathcal{K}} \subset U(\mathcal{H})$ of unitary operators that differ from the [[identiy]] by a [[compact operator]]. This is essentially $U = \Omega B U$ (...). See below (...)
+But there is the group $U(\mathcal{H})_{\mathcal{K}} \subset U(\mathcal{H})$ of unitary operators that differ from the [[identity]] by a [[compact operator]]. This is essentially $U = \Omega B U$ (...). See below (...)
 
 =--
 
@@ -273,6 +273,14 @@ $$
 $$
 
 is a [[classifying space]] for complex $K$ theory: for every compact Hausdorff topological space $X$, we have an isomorphism of groups
+
+$$
+  \tilde K(X)
+  \simeq
+  [X, B U ]
+  \,.
+$$
+
 
 $$
   K(X)
