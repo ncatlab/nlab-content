@@ -218,6 +218,12 @@ An introduction and survey (with an eye towards [[homotopy type theory]]) is in 
 * [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
  {#Warren}
 
+A discussion of ML dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
+
+* R. A. G. Seely, _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+
+
+
 [[!redirects Martin-Lof dependent type theory]]
 [[!redirects Martin-Löf dependent type theory]]
 [[!redirects Martin-Lof type theory]]
