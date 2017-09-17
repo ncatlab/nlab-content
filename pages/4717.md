@@ -43,9 +43,15 @@ Similarly, there is $2$-morphism $\epsilon\colon L \circ R \to id_Y$, called the
 
 ## Properties
 
+### General
+
 Unit and counit of an adjunction satisfy the [[triangle identities]].
 
 An [[adjunct]] is given by precomposition with a unit or postcomposition with a counit.
+
+### Relation to monads
+
+Every [[adjunction]] $(L \dashv R)$ gives rise to a [[monad]] $T \coloneqq R \circ L$. The [[unit of a monad|unit of this monad]] $id \to T$ is the unit of the adjunction, $id \to R \circ L$.
 
 ## Related concepts
 
@@ -53,7 +59,11 @@ An [[adjunct]] is given by precomposition with a unit or postcomposition with a 
 
 * [[zig-zag law]]/[[triangle identity]]
 
-* **unit of an adjunction**
+* [[unit]]
+
+  * **unit of an adjunction**
+
+  * [[unit of a monad]]
 
 * [[adjunct]]
 
