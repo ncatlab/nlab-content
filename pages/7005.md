@@ -223,9 +223,11 @@ A commented version of a formal proof of this fact can be found in ([Bauer-Lumsd
 ### Canonicity
  {#Canonicity}
 
-It is currently open whether the univalence axiom is "computationally effective" in that it enjoys [[canonicity]]. 
+It is currently open whether the univalence axiom enjoys [[canonicity]] in general, but for the special case of [[1-truncated]] homotopy types ([[groupoids]]) (and two nested univalent [[universes]] and [[function extensionality]]) [[canonicity]] has been show in ([Shulman 12, section 13](#Shulman12)), hence that in univalent homotopy 1-type theory every [[term]] of [[type]] of the [[natural numbers]] is [[propositional equality|propositionally equal]] to a [[numeral]].
 
-But for the special case of [[1-truncated]] homotopy types ([[groupoids]]) (and two nested univalent [[universes]] and [[function extensionality]]) [[canonicity]] has been show in ([Shulman 12, section 13](#Shulman12)). This uses [[Artin gluing]] of a suitable [[type-theoretic model category|type-theoretic fibration category]] with the [[category]] [[Set]] and [[Grpd]], respectively, effectively induceing canonicity from these categories. By ([Shulman 12, remark 13.13](#Shulman12)) for this construction to generalize one needs a sufficiently strict [[global sections]] functor with values in [[infinity-groupoids]].
+(Notice that [[canonicity]] here does not yet imply [[computational effectiveness]] which would mean also an [[algorithm]] to extract that [[numeral]] from the given [[term]]).
+
+The construction in ([Shulman 12, section 13](#Shulman12)) uses [[Artin gluing]] of a suitable [[type-theoretic model category|type-theoretic fibration category]] with the [[category]] [[Set]] and [[Grpd]], respectively, effectively inducing canonicity from these categories. By ([Shulman 12, remark 13.13](#Shulman12)) for this construction to generalize one needs a sufficiently strict [[global sections]] functor with values in [[infinity-groupoids]].
 
 Another approach to solving canonicity is to build a model for [[homotopy type theory]] inside [[extensional type theory]] to then induce canonicity from the latter to the former. In this direction goes the work of ([Coquand-Huber 13](#CoquandHuber13)) which models univalent homtopy type theory in [[constructive mathematics|constructive]] [[cubical sets]].
 
