@@ -120,7 +120,7 @@ The [[category]] __$Ban {*} Coalg$__ of Banach $*$-coalgebras has, as objects, B
 $$ f(x^*) = f(x)^* $$
 for all $x\colon A$.
 
-There are also $C^*$-[[C-star-coalgebra|coalgebras]], which will have their own page soon.
+There are also $C^*$-[[C-star-coalgebra|coalgebras]], which have their own page.
 
 
 ## Examples
