@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Gabriele_Veneziano)
+
+category: people
