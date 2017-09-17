@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In [[intuitionistic mathematics]], the concept of _choice sequence_ is a [[constructive mathematics|constructive]] formulation of the concept of _[[sequence]]_.
+
+## References
+
+* Wikipedia, _[Choice sequence](http://en.wikipedia.org/wiki/Choice_sequence)_
+
+[[!redirects choice sequences]]
