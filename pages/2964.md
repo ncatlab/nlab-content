@@ -23,24 +23,6 @@ Then we can make two constructions from this scheme:
 
   * One special case is when this is an [[action groupoid]].  The resulting simplicial scheme should be thought of as the Borel space for the action on $Y$.
 
-+--{: .query}
-[[David Roberts]]: One could write $Y//X$ for this nerve, as you are considering it as the weak or homotopy quotient. This would help when trying to draw diagrams of simpilicial schemes.
-
-[[Ben Webster]]: Sorry, that is way too confusing for me.  Double-slashes are for [[GIT quotient|GIT quotients]] in my world. Also, for whatever reason they look awful on this site.  Even adding negative spaces doesn't make them look less unpleasant.
-
-[[David Roberts]]: Sure. There should be a double slash command in LaTeX - it\'s probably in some obscure package not usable here.
-
-[[Ben Webster]]: In normal LaTeX, two negative spaces (\!) is about right, but here they don't seem to work.  I don't consider negative spaces obscure.
-
-[[David Roberts]]:I mean a single command, like that for double vertical lines (\backslash |)
-
-[[Urs Schreiber]]: possibly the command for double shash is \sslash. It produces "$\sslash$". But I don't have the required font installed, so I can't be sure.
-
-[[Ben Webster]]: Well, it works on one of my computers, so it's the right command...
-
-[[David Roberts]]:Well I'm glad we've cleared up that burning question :)
-=--
-
 
 ##Linearization, and the function sheaf correspondence
 
