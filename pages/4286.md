@@ -21,7 +21,14 @@ Black holes are considered theoretically for [[gravity|gravitational theories]] 
 
 ## Empirical observation
 
+See
+
+* [[observing black holes]].
+
+
 Some candidate [[astrophysics|astrophysical]] objects which seem to point to black hole have been observed. 
+
+
 
 ## References
 
@@ -29,7 +36,6 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 * [[Croatian black hole school]], 2010
 
-* [[observing black holes]]
 
 [[!redirects black holes]]
 [[!redirects black hole spacetime]]
