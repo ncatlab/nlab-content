@@ -82,7 +82,7 @@ of sheaves with values in [[combinatorial spectrum|combinatorial spectra]]
 internal to abelian groups.
 
 
-Let how $F \in Sh(X,Ab)$ be a [[sheaf]] on a [[site]] $X$ with vlues in the category [[Ab]] of abelian groups.
+Let how $F \in Sh(X,Ab)$ be a [[sheaf]] on a [[site]] $X$ with values in the category [[Ab]] of abelian groups.
 
 For $n \in \mathbb{N}$ write $B^n F \in Sh(X, Ch_+(Ab))$ for the [[complex]] of [[sheaf|sheaves]] with values in abelian groups which is trivial everywhere except in degree $n$, where it is given by $F$.
 
