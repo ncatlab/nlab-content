@@ -63,3 +63,5 @@ is the corresponding [[local action functional]].
 [[!redirects Lagrangian density]]
 
 [[!redirects Lagrangian mechanics]]
+
+[[!redirects Lagrangians]]
