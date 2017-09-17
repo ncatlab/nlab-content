@@ -97,6 +97,15 @@ where on the right $(-)^\ast$ denotes the continuous linear dual.
 
 First noticed in ([Serre](#Serre)).
 
+### Relation to $Spin^c$-structures
+
+A [[complex manifold]], being in particular an [[almost complex manifold]], carries a canonical [[spin^c structure]]. The corresponding [[Spin^c Dirac operator]] identifies with the Dolbeault operator under the identification of the [[spinor bundle]] with that of [[holomorphic differential forms]]
+
+$$
+  S(X) \simeq \wedge^{0,\bullet} T^\ast X
+  \,.
+$$
+
 ## References
 
 * Zachary Maddock, _Dolbeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
