@@ -149,15 +149,49 @@ In this case,
 ### As a lax colimit
  {#AsALaxColimit}
 
-The Grothendieck construction on $F : C \to Cat$ is equivalently the [[lax colimit]] of $F$
+The Grothendieck construction on $F : C \to Cat$ is equivalently the [[lax colimit]] of $F$.  That means that for each category $X$ there is an [[equivalence|equivalence of categories]]
 
 $$
-  \int F \simeq laxcolim F
-  \,.
+  Lax(F, \Delta X) \simeq [{\textstyle \int} F, X]
 $$
 
-For the moment see [here](http://ncatlab.org/nlab/show/2-limit#2ColimitsInCat) at _[[2-limit]]_ for a little bit more on this.
+that is natural in $X$, where $\Delta X$ is the constant functor with value $X$.
 
+A [[lax natural transformation]] $\alpha$ from $F$ to $\Delta X$ is given by
+
+* for each object $c$ of $C$, a functor $\alpha_c \colon F c \to X$, and
+* for each morphism $m \colon c \to d$ in $C$, a [[natural transformation]] $\alpha_m \colon \alpha_c \Rightarrow \alpha_d \circ m_*$ (writing $m_* = F m$),
+
+such that $\alpha_{1_c}$ is the isomorphism $F 1_c \cong 1_{F c}$ given by [[pseudofunctor|pseudofunctoriality]] of $F$, and that if $m \colon c \to d$, $n \colon d \to e$ is a composable pair in $C$, then $\alpha_{n m}$ is equal to the obvious [[pasting]] of $\alpha_m$ and $\alpha_n$.
+
+We want to show that to each such lax transformation there corresponds an essentially unique functor $\int F \to X$.  So firstly, given $\alpha$ as above, let $A$ be the functor that sends $x \in F c$ to $\alpha_c x$, and acts on arrows as
+
+$$
+  (m \colon c \to d, f \colon m_* x \to y)
+  \quad \mapsto \quad
+  \alpha_c x \overset{\alpha_m x}{\to}
+  \alpha_d m_* x \overset{\alpha_d f}{\to} \alpha_d y
+$$
+
+That $A$ is a functor follows from the coherence properties of $\alpha$ with respect to identities and composition in $C$.
+
+Conversely, if $A \colon \int F \to X$ is a functor, we get a lax transformation $\alpha$ as follows:
+
+* For each $c \in C$, $\alpha_c$ is the restriction of $A$ to the category $F c$, which is the subcategory of $\int F$ whose objects are those of $F c$ and whose morphisms are those with first component an identity morphism.  This clearly makes $\alpha_c$ a functor.
+* For each $m \colon c \to d$ in $C$, $\alpha_m$ has components $\alpha_c x \to \alpha_d m_* x$ given by $A$'s value at the morphism $(m,1_{m_* x})$.  This is a natural transformation because, if $k \colon x \to x'$ is a morphism in $F c$, then both sides of the naturality square are the value of $A$ at the morphism $(m, m_*k)$.
+
+As one might expect, the coherence conditions on the resulting $\alpha$ follow from the functoriality of $A$.
+
+It is then easy to check that these two mappings form a bijection between the objects of $Lax(F, \Delta X)$ and $[\int F, X]$.
+
+As for the morphisms involved, the [[modifications]] between lax transformations and the [[natural transformations]] between functors, it is straightforward to show that these are in bijective correspondence too.  Hence we have shown that the above equivalence holds.
+
+By inspecting the above proof, it is easy to see that the lax transformation associated to a functor $\int F \to X$ is a [[pseudonatural transformation]] if and only if the functor inverts (i.e. sends to an isomorphism) each member of the class $S$ of morphisms of $\int F$ whose second component is an identity.  (These are in fact the [[cartesian morphism|opcartesian]] morphisms with respect to the projection $\int F \to C$.)  The [[localization]] $\int F[S^{-1}]$ is therefore the (weak) [[2-colimit]] of $F$:
+
+$$
+  Ps(F, \Delta X) \simeq [{\textstyle \int} F, X]_{S^{-1}}
+   \simeq [{\textstyle \int} F[S^{-1}], X]
+$$
 
 ### The equivalence between fibrations and pseudofunctors
 
