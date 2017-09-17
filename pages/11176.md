@@ -2,6 +2,7 @@
 
 __This page is a work in progress.__
 
+
 ### Idea ###
 
 Apply type theory to quantum computing to obtain interesting results/algorithms/lower bounds/etc.
