@@ -65,8 +65,32 @@ For more details on this construction see the section <a href="http://ncatlab.or
 
 As discussed there, too, this construction generalizes to more general [[simplicial topological group]]s and classifying spaces for their [[principal ∞-bundle]]s.
 
+#### For orthogonal and unitary structure groups
 
+For $G = O(n)$ the [[orthogonal group]] and
+$G = U(n)$ the unitary group, there are standard realizations of the corresponding classifying spaces as [[direct limits]] of [[Grassmannian]] spaces. (See for instance ([May, p. 196](#May)), where some of the following is taken from).
 
+Let $V_n(\mathbb{R}^q)$ be the [[Stiefel variety]] of orthonormal $n$-frames in the [[Cartesian space]] $\mathbb{R}^q$. Its points are $n$-[[tuples]] of orthonormal [[vectors]] in $\mathbb{R}^q$, and it is topologized as a [[subspace topology|subspace]] of $(\mathbb{R}^q)^n$,
+or, equivalently, as a subspace of $(S^{q-1})^n$. It is a [[compact space|compact]] [[manifold]]. 
+
+Let $G_n(\mathbb{R}^q)$ be the [[Grassmannian]] of $n$-planes in $\mathbb{R}^q$. Its points are the n-dimensional subspaces
+of $\mathbb{R}^q$. Sending an $n$-tuple of orthonormal vectors to the $n$-plane they span gives
+a surjective function $V_n(\mathbb{R}^q) \to G_n(\mathbb{R}^q)$, and we topologize $G_n(\mathbb{R}^q)$ as a [[quotient topology|quotient]] space of $V_n(\mathbb{R}^q)$. It too is a compact manifold. 
+
+The standard inclusion of $\mathbb{R}^q$ in $\mathbb{R}^{q+1}$ induces inclusions
+$V_n(\mathbb{R}^q) \hookrightarrow V_n(\mathbb{R}^{q+1})$ and $G_n(\mathbb{R}^q) \hookrightarrow G_n(\mathbb{R}^{q+1})$. We define $V_n(\mathbb{R}^\infty)$ and $G_n(\mathbb{R}^\infty)$ to be the unions of the $V_n(\mathbb{R}^q)$ and $G_n(\mathbb{R}^q)$, with the topology of the union. 
+
+Then $G_n(\mathbb{R}^\infty)$ is a model for the classifying space $B O(n)$.
+
+For instance 
+
+$$
+  G_1(\mathbb{R}^\infty)
+  =
+  \mathbb{R}P^\infty
+$$
+
+is the [[real projective space|real]] [[projective space]] that classifies [[line bundles]].
 
 ### For crossed complexes
 
@@ -164,5 +188,10 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 * Cartan-Schwarz, ....
  {#CartanSchwarz}
+
+A concise introduction of classifying spaces of [[vector bundles]] is around p. 196 of 
+
+* [[Peter May]], _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+  {#May}
 
 [[!redirects classifying spaces]]
