@@ -22,14 +22,14 @@
 
 _Higher Klein geometry_ is the generalization of [[Klein geometry]] from traditional ([[differential geometry|differential]]) [[geometry]] to [[higher geometry]]:
 
-where Klein geometry is about ([[Lie group]]s)[[group]] and their [[quotient]]s, higher Klein geometry is about ([[smooth infinity-group|smooth]])[[∞-groups]] and their [[groupoid object in an (∞,1)-category|∞-quotients]].
+where Klein geometry is about ([[Lie group|Lie]]) [[groups]] and their [[quotient]]s, higher Klein geometry is about ([[smooth infinity-group|smooth]]) [[∞-groups]] and their [[groupoid object in an (∞,1)-category|∞-quotients]].
 
 The way that the generalization proceeds is clear after the following observation.
 
 +-- {: .num_prop}
 ###### Observation
 
-Let $G$ be a [[discrete group]] and $H \hookrightarrow G$ a subgroup. Write $\mathbf{B}G$ and $\mathbf{B}H$ for the corresponding [[groupoid]]s with a single object. Then the [[action groupoid]] $G//H$ is the [[homotopy fiber]] of the inclusion [[functor]]
+Let $G$ be a [[discrete group]] and $H \hookrightarrow G$ a subgroup. Write $\mathbf{B}G$ and $\mathbf{B}H$ for the corresponding [[delooping]] [[groupoid]]s with a single object. Then the [[action groupoid]] $G//H$ is the [[homotopy fiber]] of the inclusion [[functor]]
 
 $$
   \mathbf{B}H \to \mathbf{B}G
@@ -98,6 +98,8 @@ $$
 for $i$ any morphism between two [[connected]] objects, as indicated. 
 
 =--
+
+Notice that (by the discussion at [[looping and delooping]], and using that a [[cohesive (∞,1)-topos]] has [[homotopy dimension]] 0) every connected object indeed is the delooping of an [[∞-group]] object.
 
 ## Examples
 
