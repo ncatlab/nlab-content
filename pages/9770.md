@@ -1,11 +1,13 @@
 
-
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
 A [[characteristic class]].
 
-
+By the [[Hirzebruch-Riemann-Roch theorem]] the [[index]] of the [[Dolbeault operator]] is the Todd genus (e.g. [Gilkey 95, section 5.2](#Gilkey95)). (More generally so for the [[Spin^c Dirac operator]]).
 
 ## Related concepts
 
@@ -13,9 +15,16 @@ A [[characteristic class]].
 
 * [[Grothendieck-Riemann-Roch theorem]]
 
+[[!include genera and partition functions - table]]
+
 ## References
 
-named after [[John Arthur Todd]]
+Named after [[John Arthur Todd]]
+
+Reviews include
+
+* {#Gilkey95} [[Peter Gilkey]], section 5.2 of _Invariance Theory: The Heat Equation and the Atiyah-Singer Index Theorem_, 1995
+
 
 * Wikipedia, _[Todd class](http://en.wikipedia.org/wiki/Todd_class)_
 
