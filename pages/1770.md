@@ -1,12 +1,17 @@
-# Idea #
+# Smooth spaces
+* table of contents
+{: toc}
+
+## Idea
 
 Following the logic of [[space and quantity]], a _smooth space_ is, in full generality, a space that may be probed by standard smooth test spaces.
 
 See [[generalized smooth space]] for more on the general idea and for examples and variations.
 
-Here standard smooth test spaces may be taken to be smooth [[manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth open balls $D^n_{int} \subset \mathbb{R}^n$, one may just as well consider just smooth balls as test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
+Here standard smooth test spaces may be taken to be [[smooth manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth open balls $D^n_{int} \subset \mathbb{R}^n$, one may just as well consider just smooth balls as test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
 
-#Definition#
+
+## Definition
 
 The category of **smooth space**s is the [[sheaf]] [[topos]]
 
@@ -43,7 +48,8 @@ $$
   \,.
 $$
 
-#Examples#
+
+## Examples
 
 * The category of ordinary [[manifolds]] is a
   full subcategory of smooth spaces:
@@ -63,7 +69,7 @@ $$
   called the
   category of [[diffeological spaces]].
 
-  * The standard class of examples of smooth spaces that motivate their use even in cases where one starts out being intersted just in smooth [[manifolds]] are **mapping spaces**: for $X$ and $\Sigma$ two smooth spaces (possibly just ordinary smooth manifolds), by the [[closed monoidal structure on presheaves]] the **mapping space** $[\Sigma,X]$, i.e. the space of smooth maps $\Sigma \to X$ exists again naturally as a smooth. By the general formula it is given as a [[sheaf]] by the assignment
+  * The standard class of examples of smooth spaces that motivate their use even in cases where one starts out being intersted just in [[smooth manifolds]] are **mapping spaces**: for $X$ and $\Sigma$ two smooth spaces (possibly just ordinary smooth manifolds), by the [[closed monoidal structure on presheaves]] the **mapping space** $[\Sigma,X]$, i.e. the space of smooth maps $\Sigma \to X$ exists again naturally as a smooth. By the general formula it is given as a [[sheaf]] by the assignment
 
     $$
       [\Sigma,X] : U \mapsto SmoothSp(\Sigma \times U, X)
@@ -104,7 +110,8 @@ $$
   for the [[(∞,1)-topos]] of 
   [[smooth ∞-stacks]].
 
-# Topos points and stalks #
+
+## Topos points and stalks
 
 +-- {: .un_lemma }
 ###### Lemma
@@ -142,9 +149,7 @@ $D^n$ for $n \in \mathbb{N}$.
 =--
 
 
-
-
-#References#
+## References
 
 The category $SmoothSp := Sh(Diff)$ is discussed with an eye towards its generalization to [[smooth ∞-stacks]]  in section 3.4, from page 29 on in
 
@@ -153,4 +158,6 @@ The category $SmoothSp := Sh(Diff)$ is discussed with an eye towards its general
 
 The [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36. (they are mentioned before on p. 31).
 
+
+[[!redirects smooth space]]
 [[!redirects smooth spaces]]
