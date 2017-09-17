@@ -385,7 +385,7 @@ Some further discussion of discrete fibrations can be found in
 
 A useful review of discrete fibrations is in
 
-* [[Emily Riehl]], _Two-sided discrete fibrations in 2-categories and bicategories_ 2010 ([pdf](http://math.uchicago.edu/~eriehl/fibrations.pdf))
+* [[Emily Riehl]], _Two-sided discrete fibrations in 2-categories and bicategories_ 2010 ([pdf](http://www.math.harvard.edu/~eriehl/fibrations.pdf))
 {#Riehl}
 
 [[!redirects two-sided fibrations]]
