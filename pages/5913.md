@@ -22,8 +22,9 @@ Notice that the terminology is slightly confusing: every topos is a [[coherent c
 
 ## Properties
 
-+-- {: .num_prop }
-###### Proposition
++-- {: .num_theorem }
+###### Theorem
+**[[Deligne completeness theorem]]**
 
 Every coherent topos has [[point of a topos|enough points]].
 
@@ -43,6 +44,8 @@ Every coherent topos has [[point of a topos|enough points]].
 * [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], **coherent topos**
 
 * [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
+
+* [[coherent (∞,1)-topos]]
 
 ## References
 
