@@ -26,9 +26,17 @@ A [[locally convex topological vector space]], $E$, is said to be **locally comp
 
 The equivalence of these two forms part of Theorem 2.14 of [KM](#KM).
 
+## Examples
+
+* A [[Cartesian space]] $\mathbb{R}^n$ carries a unique structure of a convenient vector space.
+
+* For $X$ and $Y$ to convenient vector spaces, the vector space of [[smooth function]]s $C^\infty(X,Y)$ is again a convenient vector space. This is to a large degree the motivating example. It makes the category of convenient vector spaces by Cartesian closed. (See below).
+
 ## Properties
 
-The definition of a convenient vector space has a natural interpretation in terms of [[Frölicher space]]s. It may also be related to [[synthetic differential geometry]]: convenient vector spaces form a [[full subcategory]] of the [[Cahiers topos]].
+* The [[category]] of convenient vector spaces and [[smooth function]]s between them is a [[cartesian closed category]].
+
+* The definition of a convenient vector space has a natural interpretation in terms of [[Frölicher space]]s. It may also be related to [[synthetic differential geometry]]: convenient vector spaces form a [[full subcategory]] of the [[Cahiers topos]].
 
 ##Reference
 
