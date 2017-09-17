@@ -15,7 +15,7 @@ The book
 
   _Practical Foundations for Programming Languages_
 
-  Cambridge University Press (2012)
+  Cambridge University Press (2012) [draft pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
 
 lays the foundations of the theory of [[programming languages]] in terms of [[type theory]].
 
@@ -25,6 +25,6 @@ lays the foundations of the theory of [[programming languages]] in terms of [[ty
 * [[Practical Foundations of Mathematics]]
 
 
-category: reference
+category: reference, applications
 
 [[!redirects Practical Foundations for Programming Languages]]
