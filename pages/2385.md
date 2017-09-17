@@ -134,8 +134,8 @@ A review of the constructions is on the first two pages of
 
 The deRham space construction on spaces ([[scheme]]s) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
 
-* [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
- {#SimpsonTeleman}
+* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+ 
 
 which goes on to assert the existence of its [[derived functor]] on the [[homotopy category]] $Ho Sh_\infty(C)$ of [[∞-stack]]s in proposition 3.3. on the same page.
 
@@ -143,6 +143,43 @@ The characterization of [[formally smooth scheme]] as above is also on that page
 
 See also online comments by [[David Ben-Zvi]]  [here](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023287) and [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c026218) on the $n$Caf&eacute;. and [here](http://mathoverflow.net/questions/10556/d-modules-derham-spaces-and-microlocalization) on MO.
 
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
 
 
 [[!redirects deRham space]]
