@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+> this entry is under construction. Much of what should eventually go here is currently at [[Lie infinity-groupoid|smooth ∞-groupoid]] and [[schreiber:path ∞-groupoid]].
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -6,12 +22,12 @@
 
 ## Idea 
 
-A _topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[topology]].
+A _topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form of [[topology]].
 
 
 ## Definition
 
-Let $TopBalls$ be the site of [[open ball]]s with the [[good open cover]] [[coverage]].
+Let $TopBalls$ be the [[site]] of [[open ball]]s with the [[good open cover]] [[coverage]].
 
 +-- {: .un_defn}
 ###### Definition
