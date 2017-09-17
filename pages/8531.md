@@ -39,7 +39,7 @@ $$
 
 This is called the **[[coextension of scalars]]** along the ring homomorphism $\mathbb{Z} \to R$.
 
-The [[unit of an adjunction|unit]] of the $(U \dash R_*)$ [[adjunction]]
+The [[unit of an adjunction|unit]] of the $(U \dashv R_*)$ [[adjunction]]
 
 $$
   \epsilon_N : N \to R_*(U(N))
@@ -59,6 +59,10 @@ $$
 $$
 
 =--
+
+## Related concepts
+
+* [[extension of scalars]] $\dashv$ [[restriction of scalars]] $\dashv$ **coextension of scalars**
 
 
 
