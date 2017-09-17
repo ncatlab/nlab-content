@@ -39,7 +39,7 @@ In particular, the underlying additive group of the field $\mathbb{R}$ of [[real
 
 Although the field $\mathbb{C}$ of [[complex numbers]] is not an ordered field (since it is not *[[linear order|linearly]]* ordered), its underlying additive group is still an ordered group (where $a \leq b$ means that $b - a$ is a nonnegative real number).
 
-Given a [[topological vector space]] $V$, we often consider its [[dual space]] $V^*$, consisting of the [[continuous map|continuous]] [[linear maps]] from $V$ to its [[base field]], which is usually either $\mathbb{R}$ or $\mathbb{C}$.  This inherits a partial order from the [[target]] field, and then the underlying additive group is an ordered group; in fact, we have an [[ordered algebra]].  (This is the main sort of example that I know of, but that probably just reflects my own limited knowledge.)
+Given a [[topological vector space]] $V$, we often consider its [[dual vector space]] $V^*$, consisting of the [[continuous map|continuous]] [[linear maps]] from $V$ to its [[base field]], which is usually either $\mathbb{R}$ or $\mathbb{C}$.  This inherits a partial order from the [[target]] field, and then the underlying additive group is an ordered group; in fact, we have an [[ordered algebra]].  (This is the main sort of example that I know of, but that probably just reflects my own limited knowledge.)
 
 More generally, if $V$ is any [[set]], $G$ is any ordered group, and $F$ is any collection of [[functions]] from $V$ to $G$, as long as $F$ is a [[subgroup]] of the group of all functions from $V$ to $G$, then $F$ is an ordered group.
 
