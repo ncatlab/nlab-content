@@ -1,0 +1,11 @@
+
+
+* [webpage](http://www.math.purdue.edu/~walterb/)
+
+## related $n$Lab entries
+
+* [[model structure on dg-coalgebras]]
+
+* [[model structure on dg-Lie algebras]]
+
+category: people
