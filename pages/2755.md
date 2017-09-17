@@ -54,7 +54,7 @@ and the $N$-th power corresponds to replacing $\hbar$ by $\hbar/N$. Thus one get
 
 ### Formulation in geometric quantization
 
-In the context of [[geometric quantization]] the classical limit corresponds to taking high [[tensor powers]] of the [[prequantum line bundle]] with itself. See at _[[Planck's constant]]_ the section [Plancks's constant - In geometric quantization](Planck%27s%20constant#InGeometricQuantization). 
+In the context of [[geometric quantization]] the classical limit corresponds to taking high [[tensor powers]] of the [[prequantum line bundle]] with itself. See at _[[Planck's constant]]_ the section [Planck's constant - In geometric quantization](Planck%27s%20constant#InGeometricQuantization). 
 
 
 ## References 
