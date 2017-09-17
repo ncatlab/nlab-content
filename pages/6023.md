@@ -39,6 +39,7 @@ The collection of all probability distributions on a measurable space carries va
 
 * [[Gaussian probability distribution]]
 
+
 ## Related concepts
 
 * [[probability space]]
