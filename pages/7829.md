@@ -151,7 +151,13 @@ Introductions and surveys include
 * {#Richardson} [[Ken Richardson]], _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
 
 * Xianzhe Dai, _Eta invariant and holonomy_ Chern Centennial (2011) ([pdf slides](http://www.nim.nankai.edu.cn/activites/conferences/Chern-Centennial-20111024/ppt_pdf/1027pm-XZDai.pdf))
+
 * Wikipedia, _[Eta invariant](http://en.wikipedia.org/wiki/Eta_invariant)_
+
+
+Formulation in the broader context of bordism theory is in 
+
+* [[Ulrich Bunke]], _On the topological contents of eta invariants_ ([arXiv:1103.4217](http://arxiv.org/abs/1103.4217))
 
 Further discussion of the relation to [[holonomy]] is in
 
@@ -171,7 +177,9 @@ Discussion of the case over [[Riemann surfaces]] includes
 
 * {#Park01} Jinsung Park, _Eta invariants and regularized determinants for odd dimensional hyperbolic manifolds with cusps_ ([arXiv:0111175](http://arxiv.org/abs/math/0111175))
 
-Eta invariants play role in 
+Discussion in relation to [[analytic torsion]] and [[Chern-Simons theory]] includes
+
+* {#Lott90} [[John Lott]], _Eta and torsion_, 1990 ([pdf](http://math.berkeley.edu/~lott/lhouches.pdf))
 
 * Lisa C. Jeffrey, _Symplectic quantum mechanics and Chern=Simons gauge theory I_,  [arxiv/1210.6635](http://arxiv.org/abs/1210.6635)
 
