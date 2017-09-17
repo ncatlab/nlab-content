@@ -249,10 +249,10 @@ This is [[Higher Topos Theory|HTT, theorem 6.1.0.6 (4) iv)]].
 When the ambient [[(∞,1)-category]] is an [[(∞,1)-topos]] then -- by the $\infty$-Giraud axioms -- all groupoid objects are [[quotient object|effective]], meaning that for
 
 $$
-  \mathbf{B}G = \lim_{\leftarrow} U_\bullet
+  \mathbf{B}G = \lim_{\to} U_\bullet
 $$
 
-we have
+the [[(∞,1)-colimit]] over the group object $U_\bullet$ we have that $U_\bullet$ is reproduced as the Cech nerve of $* \to \mathbf{B}G$
 
 $$
   \left(
