@@ -1,0 +1,13 @@
+## Motivation
+
+A series is a formal precursor to a various notions of a sum of an infinite sequence. 
+
+## Definition
+
+An (ordinary) __series__ $\sum_{n=0}^\infty a_n$ whose members are the elements $a_n$ in a given additive group is an ordered pair of a [[sequence]] $(a_n)_{n=0}^\infty$ and a sequence $(b_k)_k$ of its partial sums $b_k = \sum_{n=0}^k a_k$.
+
+## Applications: sum of a series
+
+The sum of a series is a limit of its sequence of partial sums if this sequence converges (in whatever suitable sense). However, the variants of this notion depends on convergence properties, kind of topology on the space where the members of the sequence belong to and is often corrected/made precise by resummation, renormalization and similar devices. 
+
+category: analysis
