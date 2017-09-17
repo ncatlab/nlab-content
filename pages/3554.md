@@ -1,4 +1,4 @@
-In the original form of [[shape theory|abstract shape theory]], the restrictions that (i) it should refer to a _subcategory_ of 'nice' or 'good' objects, and (ii) that subcategory should be [[pro-reflective]] ([[dense subcategory| shape theorist's 'dense']]) were unnecessarily restrictive, eliminating interesting situations where similar constructions could be useful, and tended to obscure the nature of certain of the results, which were more much general than was initially apparent.
+In the original form of [[shape theory|abstract shape theory]], the restrictions that (i) it should refer to a _subcategory_ of 'nice' or 'good' objects, and (ii) that subcategory should be [[pro-reflective subcategory|pro-reflective]] ([[dense subcategory|shape theorist's 'dense']]) were unnecessarily restrictive, eliminating interesting situations where similar constructions could be useful, and tended to obscure the nature of certain of the results, which were more much general than was initially apparent.
 
 This was explored by Deleanu and Hilton in the early 1970s. 
 
