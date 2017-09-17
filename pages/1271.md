@@ -19,13 +19,13 @@
 
 ## Idea
 
-Not every [[abelian category]] is a [[concrete category]], such as [[Ab]] or $R$[[Mod]], hence its [[objects]] do not necessrily have underlying [[sets]] whose elements one can reason about. To circumvent this and reason by "diagram chases" of elements in general abelian categories, one can instead use [[generalized elements]] in a suitable way. 
+Not every [[abelian category]] is a [[concrete category]], such as [[Ab]] or $R$[[Mod]], hence its [[objects]] do not necessrily have underlying [[sets]] whose elements one can reason about. To circumvent this and reason by "[[diagram chasing|diagram chases]]" of elements in general abelian categories, one can instead use [[generalized elements]] in a suitable way. 
 
 This is closely related to embedding the abelian category fully-faithfully and exactly into a concrete abelian category. See at _[[abelian category]]_ the section _[Embedding theorems](abelian+category#EmbeddingTheorems)_ for more on this.
 
 ## Definition
 
-One definition goes likes this ([MacLane, VIII.4](#MacLane) and also for instance [Gelfand-Mainin, II.5](#Gelfand-Manin)):
+One definition goes likes this ([MacLane, VIII.4](#MacLane) and also for instance [Gelfand-Manin, II.5](#Gelfand-Manin)):
 
 An __element__ of an [[object]] $W$ in a given [[abelian category]] $\mathcal{A}$ is an [[equivalence class]] $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to X'$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to X'$. 
 
