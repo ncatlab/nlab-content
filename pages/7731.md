@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+### General
+
+Given a [[fiber sequence]] $A \to B \stackrel{f}{\to} C$ of [[classifying spaces]]/[[moduli stacks]] and given a "$B$-structure" in the form of a morphism ([[cocycle]]) $c : X \to B$, then a lift $\hat c$ through $A \to B$ to an "$A$-structure" exists precisely if the induced $C$-structure $f(c) : X \to C$ is trivializable in $C$-[[cohomology]]. One says that $[f(c)]$ it is the **obstruction** to lifting the $B$-structure to an $A$-structure.
+
+### Twisted cohomology
+
+Conversely, by the [[universal property]] of [[fiber sequences]], $A$-cocycles are equivalent to $B$-cocycles whose obstruction class under $f$ is trivial. 
+
+Therefore it makes sense to ask for the [[infinity-groupoid]] of $B$-cocycles whose class under $f$ has some other fixed value $\chi$. This gives $\chi$-_[[twisted cohomology]]_ with coefficients in $A$.
+
+
+
+## Examples
+
+(...)
+
+
+[[!redirects obstructions]]
