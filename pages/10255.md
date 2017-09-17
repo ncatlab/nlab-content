@@ -1,0 +1,27 @@
+
+This page collects some links related to
+
+* [[Daniel Freed]]
+
+  _Five lectures on supersymmetry_
+
+  American Mathematical Society (1999)
+
+on [[superalgebra]], [[supergeometry]] and [[supersymmetry]].
+
+See in conjunction also
+
+* [[Daniel Freed]], _Classical field theory and supersymmetry_, IAS/Park City Mathematics Series
+Volume 11, 2001 ([pdf](http://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+
+and 
+
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
+[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
+
+with its section
+
+* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+
+
+category: reference
