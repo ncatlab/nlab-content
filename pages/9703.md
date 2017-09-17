@@ -19,6 +19,8 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 * [[domain wall]], [[monopole]]
 
+* [[vortex]]
+
 There is *no* real relation to _[[strings]]_ as in [[string theory]].
 
 
