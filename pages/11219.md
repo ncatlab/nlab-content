@@ -1,0 +1,19 @@
+
+* [[natural number]]
+
+* [[integer number]]
+
+* [[rational number]]
+
+* [[real number]]
+
+* [[irrational number]]
+
+* [[complex number]]
+
+* [[adic number]]
+
+(...)
+
+[[!redirects numbers]]
+
