@@ -41,3 +41,8 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 
 [[!redirects strings]]
 [[!redirects F1-brane]]
+
+[[!redirects open string]]
+[[!redirects open strings]]
+[[!redirects closed string]]
+[[!redirects closed strings]]
