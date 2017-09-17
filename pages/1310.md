@@ -217,6 +217,8 @@ with Lie representations of $(g,A)$ as objects and chain comoplexes as above as 
 
 ### Relation to coherent complexes of sheaves 
 
+The following is a [[homotopy theory|homotopy-theoretic]]-refinement of the classical [[Koszul-Malgrange theorem]].
+
 +-- {: .num_theorem}
 ###### Theorem
 
@@ -230,7 +232,7 @@ to the _bounded [[derived category]] of [[chain complexes]] of [[abelian sheaves
 
 =--
 
-This is ([Block 05, theorem 2.22](#Block05)).
+This is ([Block 05, theorem 2.22](#Block05) (in the counting of version 1 on the arXiv!)).
 
 The objects of $Rep(T_{hol} X)$ are literally complexes of smooth vector bundles that are equipped with "half a flat connection", namely with a flat covariant derivative only along holomorphic tangent vectors. It is an old result that [[holomorphic vector bundles]] (see there) are equivalent to such smooth vector bundles with "half a flat connection". This is what the theorem is based on.
 
