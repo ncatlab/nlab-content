@@ -58,6 +58,8 @@ Of particular importance is the notion of **strong generator** which is obtained
 
 If the inclusion of the full subcategory on the objects $\{S_a\}$ is [[dense functor|dense]], sometimes $\{S_a\}$ is said to be a **dense generator**.  This is the strongest sort of generator.
 
+Note that some authors (for instance [[Locally Presentable and Accessible Categories|Aadamek and Rosicky]]) use the term **strong generator** to refer to what is here called an **extremal generator**.
+
 ## Related concepts
 
 * **generator**
