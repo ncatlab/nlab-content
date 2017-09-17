@@ -19,6 +19,9 @@ Please do not confuse the terminology with the case of a functor which is a [[Gr
 
 [[!include structure on algebras and their module categories - table]]
 
+## See also
+
+* [[Tannakian category]]
 
 ## Literature
 
@@ -26,3 +29,5 @@ Please do not confuse the terminology with the case of a functor which is a [[Gr
 * P. Deligne, [[Catégories Tannakiennes]]
 
 [[!redirects fiber functors]]
+[[!redirects fibre functor]]
+[[!redirects fibre functors]]
