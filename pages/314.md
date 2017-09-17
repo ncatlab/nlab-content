@@ -15,7 +15,7 @@
 
 
 #Contents#
-* tic
+* table of contents
 {:toc}
 
 ## Idea
