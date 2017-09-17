@@ -96,7 +96,7 @@ To see this, consder the example (discussed in detail [below](#LieAlgebrasToLieG
 
 =--
 
-For the purposes of $\infty$-Lie theory therefore instead one wants to [[trucated|truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
+For the purposes of $\infty$-Lie theory therefore instead one wants to [[truncated|truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
 
 $$
   \mathbf{cosk}_{n+1}\exp(\mathfrak{a})_{bare}  
@@ -106,7 +106,8 @@ $$
 
 This divides out [[k-morphism|n-morphisms]] by $(n+1)$-morphisms and forgets all higher higher nontrivial morphisms, hence all higher homotopy groups.
 
-### Integration to an $\infty$-Lie groupoid
+
+### Integration to an $\infty$-Lie groupoid {#SmoothIntegration}
 
 We now discuss Lie integration of $\infty$-Lie algebroids to [[∞-Lie groupoid]]s.
 
@@ -115,36 +116,47 @@ For discussing smooth families of $d$-paths we need the following technical noti
 +-- {: .un_defn}
 ###### Definition
 
-We say a [[differential form]] $\omega$ on the $n$-simplex $\Delta^n$ has **sitting instants** if for all $k \in \mathbb{N}$ we have that each $k$-face $\delta_k^i(\Delta^n)$ of $\Delta^n$ has an open neighbourhood $U_{\delta_k^i(\Delta^n)} \subset \Delta^n$ such that $\omega$ restricted to that neighbourhood is constant in the direction perpendicular to the boundary.
+We say a [[differential form]] $\omega$ on the $n$-simplex $\Delta^n$ has **sitting instants** if it satisfies the following recursive condition:
+
+For $n = 0$, every differential form has sitting instants. For $n \geq 1$, $\omega$ has sitting instants if 
+
+1. for every $(n-1)$-face $\partial_i \Delta^{n-1} \hookrightarrow \Delta^n$ of $\Delta^n$ there is a neighbourhood of that face in $\Delta^n$ such that $\omega$ restricted to that neighbourhood is constant in the direction perpendicular to the boundary;
+
+1. the restriction $\partial_i^* \omega$ has sitting instants on $\Delta^{n-1}$.
+
+Define $\Omega^\bullet_{si}(\Delta^n) \subset \Omega^\bullet(\Delta^n)$ to be the sub-[[dg-algebra]] of the [[de Rham complex]] on those forms that have sitting instants. Similarly, for $U \in Diff$, let $\Omega^\bullet_{si}(U \times \Delta^n)$ be the subcomplex of forms on $U \times \Delta^n$ that have sitting instant with respect to $\Delta^n$.
+
+Finally, we write $\Omega^\bullet(U \times \Delta^n)_{vert}$ for the dg-algebra of forms with sitting instants that are also [[vertical differential form]]s with respect to the projection $U \times \Delta^n \to U$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The condition of sitting instants serves to make smooth differential forms not be affected by the boundaties and corners of $\Delta^n$. Notably for $\omega_j \in \Omega^\bullet_{si}(\Delta^{n-1})$ a collection of forms with sitting instants on the $(n-1)$-cells of a horn $\Lambda^n_i$ that coincide on adjacent boundaries, and for
 
 $$
-  \mathcal{L}_{v^\perp} \omega|_{U_{\delta_k^i(\Delta^n)}} = 0
-  \,.
+  p : \Delta^n \to \Lambda^{n-1}_i
 $$
 
-Define $\Omega^\bullet_{si}(\Delta^n) \subset \Omega^\bullet(\Delta^n)$ to be the sub-[[dg-algebra]] of the [[de Rham complex]] on those forms that have sitting instants. 
+a standard piecewise smooth [[retract]]s, the pullbacks
+
+$$
+  p^* \omega_i 
+$$
+
+glue to a single smooth form (with sitting instants) on $\Delta^n$.
 
 =--
 
-We may at times, here or in other entries, abuse notation and just write $\Omega^\bullet(\Delta^n)$ instead, when the context of Lie integration is clear.
++-- {: .un_remark}
+###### Remark
 
-We also will write in the following $C^\infty(U) \otimes C^\infty(\Delta^n)$ for the _completed_ tensor product of algebras, or else the ordinary tensor product of [[smooth algebra]]s, hence for $C^\infty(U \times \Delta^n)$. So we write 
-
-$$
-  C^\infty(U) \otimes \Omega^\bullet(\Delta^n)
-  =
-  ((\wedge^\bullet_{C^\infty(U \times \Delta^n)}
-  \Gamma(T^* \Delta^n))_{si}, d_{Delta^n}
-$$ 
-
-for the [[dg-algebra]] obtained from the full de Rham complex on $U \times \Delta^n$ by discarding $\Gamma(T^* U)$.
-
-+-- {: .un_defn}
-###### Definition
-
-For a [[smooth manifold]] $U$ and $C^\infty(U)$ its $\mathbb{R}$-algebra of [[smooth function]]s, we write $C^\infty(U)\otimes \Omega^\bullet_{si}(\Delta^n)$ for the ordinary algebraic [[tensor product]] over $\mathbb{R}$. This becomes a [[dg-algebra]] by regarding $C^\infty(U)$ as a dg-algebra concentrated in degree 0.
+Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does not imply that there is a neighbourhood of the boundary of $\Delta^n$ on which $\omega$ is entirely constant. It is important for the following constructions that in the vicinity of the boundary $\omgea$ is allowed to vary parallel to the boundary, just not perpendicular to it.
 
 =--
+
+We may at times, here or in other entries, abuse notation and omit the subscript ${}_{si}$ when the context of Lie integration is understood.
 
 
 
@@ -159,7 +171,7 @@ $$
   \exp(\mathfrak{a})
   : 
   (U,[n]) \mapsto 
-  Hom_{dgAlg}(CE(\mathfrak{a}), C^\infty(U)\otimes \Omega^\bullet(\Delta^n))
+  Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(U \times \Delta^n)_{vert})
   \,,
 $$
 
