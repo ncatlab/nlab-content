@@ -132,6 +132,10 @@ and
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_ ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
 
+Articles that use Fivebrane structures include
+
+* Boris Botvinnik, Mohammed Labbi, _Highly connected manifolds of positive $p$-curvature_ ([arXiv:1201.1849](http://arxiv.org/abs/1201.1849))
+
 [[!redirects fivebrane structure]]
 
 [[!redirects Fivebrane structures]]
