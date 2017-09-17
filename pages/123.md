@@ -42,36 +42,9 @@ A **functor** $F$ from a [[category]] $C$ to a category $D$ is a map sending eac
 
 * $F$ preserves [[identity morphisms]]: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
 
-Or equivalently, since compositions $g f = g\circ f$ (commuting triangles) and identities $1_x$ (commuting loops) are both simple commuting diagrams, we can combine the above conditions to the single statement
+We can also define a functor in a slightly different way, but first we need a definition:
 
-* $F$ preserves commuting diagrams.
-
-Given morphisms $f:X\to Y$, $g:Y\to Z$, and $h:X\to Z$, declaring the triangle commutes amounts to declaring 
-$$h = g\circ f.$$ 
-In this case, for $F:C\to D$ to preserve the commutative triangle means 
-$$F(h) = F(g)\circ F(f)$$
-as depicted below
-
-<img src="http://ncatlab.org/nlab/files/functor.jpg" width = "300"/>
-
-Preserving commuting triangles means $F$ preserves compositions. 
-
-Given morphisms $f:X\to Y$, $g:Y\to Z$, and $h:Z\to X$, declaring the loop commutes amounts to declaring 
-$$1_X = h\circ g\circ f.$$
-In this case, for $F:C\to D$ to preserve the commutative loop means 
-$$F(1_X) = F(h)\circ F(g)\circ F(f)$$
-as depicted below
-
-<img src="http://ncatlab.org/nlab/files/commuteloop.jpg" width = "300"/>
-
-However, it means more than that. Since any commutative loop is equal to the identity morphism, we must also have
-$$1_{F(X)} = F(h)\circ F(g)\circ F(f)$$
-implying
-$$F(1_X) = 1_{F(X)}.$$
-
-Preserving commuting loops means $F$ preserves identity morphisms.
-
-Another equivalent way to say this is that a functor $F : C \to D$ is precisely a morphism of [[simplicial set]]s $N(F) : N(C) \to N(D)$ between the [[nerve]]s of these categories
+An equivalent way to say this is that a functor $F : C \to D$ is precisely a morphism of [[simplicial set]]s $N(F) : N(C) \to N(D)$ between the [[nerve]]s of these categories
 
 * the [[object]]s of $C$ and $D$ are the 0-cells of $N(C)$ and $N(D)$, so $N(F)_0 : N(F)_0 \to N(F)_0$ maps objects of $C$ to objects of $D$;
 
