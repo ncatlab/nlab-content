@@ -72,7 +72,7 @@ The original publication is
 * [[Errett Bishop]], _Foundations of Constructive Analysis_. New York: McGraw-Hill (1967)
  {#Bishop}
 
-A detailed discussion is in 
+in the context of [[constructive analysis]]. A detailed discussion is in 
 
 * M. Hofmann, _Extensional constructs in Intensional Type theory_, Springer (1997)
 
