@@ -11,9 +11,9 @@
 
 The [[∞-Lie groupoid|Lie groupoid]] of _Lie algebra valued forms_ is a kind of differential refinement of the [[delooping]] [[∞-Lie groupoid|Lie groupoid]] $\mathbf{B}G$ of a [[Lie group]] $G$:
 
-its $U$-parameterized smooth families of objects are _Lie algebra valued forms_ on $U$. Its $U$-parameterized families of morphisms are gauge transformations of these forms by $G$-valued [[smooth function]]s on $U$.
+its $U$-parameterized smooth families of objects are _[[Lie algebra]] valued [[differential form]]s_ on $U$. Its $U$-parameterized families of morphisms are gauge transformations of these forms by $G$-valued [[smooth function]]s on $U$.
 
-For more see the discussion at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroups">∞-Lie groupoid -- Lie groups</a>.
+For more discussion of this see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroups">∞-Lie groupoid -- Lie groups</a>.
 
 ## Definition 
 
@@ -59,8 +59,6 @@ $$
 =--
 
 
-## Remarks 
-
 * There is the obvious projection
   $$
     \bar \mathbf{B}G \to \mathbf{B}G
@@ -74,6 +72,11 @@ For $G = U(n)$ these differential cocycles model the [[Yang-Mills field]] in phy
 * For $G = U(1)$ the sheaf $\bar \mathbf{B}U(1)(-)$ coincides with the the [[Deligne cohomology|Deligne complex]] in degree 2, $\bar \mathbf{B}U(1)\simeq \mathbb{Z}(2)_D^\infty$, as described there. 
 
   * This corresponds to the [[electromagnetic field]].
+
+
+## Generalization
+
+See [[2-groupoid of Lie 2-algebra valued forms]].
 
 
 ## References
