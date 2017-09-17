@@ -164,7 +164,7 @@ See ([Zanelli](#Zanelli)).
 
 For instance for $\mu_7$ the 7-cocycle on a [[semisimple Lie algebra]], $CS_{\mu_7}(A)$ is the corresponding Chern-Simons 7-form, corresponding to the second [[Pontryagin class]].
 
-Notice that this we may also think of as a 7-cocycle on the corresponding [[string Lie 2-algebra]]. As such it is the one that classifies the extension to the [[fivebrane Lie 6-algebra]]. The corresponding Chern-Simons 7-form appears as the local conneciton data in the [[Chern-Simons 7-bundle with connection]] that obstructions the lift from a [[differential string structure]] to a differential [[fivebrane structure]].
+Notice that this we may also think of as a 7-cocycle on the corresponding [[string Lie 2-algebra]]. As such it is the one that classifies the extension to the [[fivebrane Lie 6-algebra]]. The corresponding Chern-Simons 7-form appears as the local conneciton data in the [[Chern-Simons circle 7-bundle with connection]] that obstructions the lift from a [[differential string structure]] to a differential [[fivebrane structure]].
 
 
 ### On strict Lie 2-algebras -- BF-theory action functional {#BF}
@@ -260,12 +260,116 @@ $$
 
 
 
-### On symplectic $\infty$-Lie algebroids
+### On symplectic $\infty$-Lie algebroids -- The AKSZ Lagrangian
 
 
-A [[schreiber:symplectic ∞-Lie algebroid]] / [[n-symplectic manifold]] $(\mathfrak{a}, \omega)$ is nothing but an [[∞-Lie algebroid]] equipped with a binary non-degenerate [[invariant polynomial]].
+A [[schreiber:symplectic ∞-Lie algebroid]] / [[n-symplectic manifold]] $(\mathfrak{a}, \omega)$ is a [[∞-Lie algebroid|Lie n-algebra]] $\mathfrak{a}$ equipped with a binary non-degenerate [[invariant polynomial]] $\omega \in W(\mathfrak{a})$ of degree $n+2$.
 
 The corresponding Chern-Simons elements of $\omega$ are the integrands for the [[action functional]]s of various [[TQFT]] [[sigma-model]]s.
+
+With $\{-,-\} : CE(\mathfrak{a}) \otimes CE(\mathfrak{a) \to CE(\mathfrak{a})$ the [[Poisson bracket]] induced by $\omega$ we have that there exists a [[∞-Lie algebra cocycle]]  $\mu \in CE(\mathfrak{a})$ such that
+
+$$
+  d_{CE(\mathfrak{a})} = \{\mu, -\}
+  \,.
+$$
+
+So in particular $\mu$ being a cocycle means that 
+
+$$
+  d_{CE(\mathfrak{a})} \mu = \{\mu, \mu\} = 0
+  \,.
+$$
+
++-- {: .un_prop}
+###### Proposition
+
+The cocycle $\mu$ is in transgression with $\frac{1}{2}\omega$. If in local coordinates we have
+
+$$
+  \omega = \omega_{a b} \mathbf{d}x^a \wedge \mathbf{d}x^b
+$$
+
+then the corresponding Chern-Simons element $cs \in \mathbf{W}(\mathfrak{a})$ is
+
+$$
+  cs = \frac{1}{2}\omega_{a b} x^a \wedge \mathbf{d}x^b + \mu
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To safe typing signs, we write as if all functions were even graded. By standard reasoning the computation holds true then also for arbitrary grading with the usual signs inserted.
+
+Observe that on unshifted generators we have
+
+$$
+  \mathbf{d}x^b \omega_{a b} \{x^a  , -\} = \mathbf{d}
+$$
+
+(where on the right we have the shift derivation in the Weil algebra). Therefore acting with the differential of the [[Weil algebra]] on 
+the first term in $cs$ yields
+
+$$
+  \begin{aligned}
+    d_{W(\mathfrak{a})}  (\omega_{a b}x^a \wedge \mathbf{d}x^b )
+    &= 
+    \omega_{a b}\mathbf{d}x^a \wedge \mathbf{d}x^b 
+    +
+    (\mathbf{d}\omega_{a b}) x^a \wedge \mathbf{d}x^b
+    +
+    \{ \mu, \omega_{a b}x^a \} \mathbf{d}x^b
+    -
+    \omega_{a b} x^a \mathbf{d}\{\mu, x^b\}
+    \\
+    &=
+    \omega_{a b}\mathbf{d}x^a \wedge \mathbf{d}x^b 
+    +
+    \{ \mu, \omega_{a b}x^a \} \mathbf{d}x^b
+    +
+    \omega_{a b} (\mathbf{d} x^a) \wedge \{\mu, x^b\}
+    \\
+    & =
+    \omega_{a b}\mathbf{d}x^a \wedge \mathbf{d}x^b 
+    -
+    2 \mathbf{d}\mu
+   \end{aligned}
+$$
+
+(...)
+
+=--
+
++-- {: .remark}
+###### Remark
+
+
+The Chern-Simons action functional corresponding to this Chern-Simons element
+on $\mathfrak{a}$ is that considered in [[AKSZ-theory]]. 
+
+=--
+
+We spell out some low-dimensional cases explicitly
+
+#### On a symplectic manifold -- The topological particle
+
+For $X$ a [[smooth manifold]] we may regard its cotangent bundle
+$\mathfrak{a} = T^* X$ as a Lie 0-algebroid and the canonical 2-form 
+$\omega \in W(\mathfrak{a}) = \Omega^\bullet(X)$ as a binary invariant 
+polynomial in degree 2.
+
+The Chern-Simons element is the canonical 1-form $\alpha$ which in local coordinates is $\alpha = p_i d q^i$.
+
+The corresponding action functional on the line 
+
+$$
+  \int_{\mathbb{R}} \gamma^* (p d_{dR} q^i)
+$$
+
+is the familiar term for the action functional of the particle (missing the kinetic term, which makes it "topological").
 
 #### On a Poisson Lie algebroid -- The Poisson $\sigma$-model
 
