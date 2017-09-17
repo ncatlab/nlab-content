@@ -117,4 +117,11 @@ give some commutation rule on $\mathfrak{b} \times k$ satisfying Jacobi identity
 
 In order to satisfy the Jacobi identity, this pair needs to form a nonabelian 2-cocycle in the sense of [[nonabelian Lie algebra cohomology]].
 
+## Examples
+
+* [[Kostant Souriau extension]]
+
 [[!redirects Lie algebra extensions]]
+
+[[!redirects extension of Lie algebras]]
+[[!redirects extensions of Lie algebras]]
