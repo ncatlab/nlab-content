@@ -1,4 +1,8 @@
 
+> This page is about **algebra as a theory**. If you are looking for the term **algebra as an object** see [[associative algebra]] or [[algebra over an operad]] or the like. See below for more.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,19 +13,18 @@
 =--
 =--
 
+
+
+
+
+
 [[geometry]] $\leftarrow$ [[Isbell duality]]  $\rightarrow$ **algebra**
 
 ***
 
 
-
-
-> This page is about **algebra as a theory**. If you are looking for the term **algebra as an object** see [[associative algebra]] or [[algebra over an operad]] or the like. See below for more.
-
-***
-
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
