@@ -65,6 +65,8 @@ See the definition at [[pseudofunctor]], and let the [[natural isomorphisms]] in
 
 +--{.query}
 Isn't it odd not to require any extra condition at all on the coherence morphisms? I would have expected a definition where they are required to be split epi, or require that the codomain be a subobject of the domain. Is there a name for something like that?
+
+[[Mike Shulman]]: One could certainly add that as a condition, but I don't think I've ever heard of anyone having a use for it, or giving it a name.  The interesting examples listed above (and others) don't use any such condition.
 =--
 
 
