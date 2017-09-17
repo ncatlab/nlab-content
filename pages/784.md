@@ -40,6 +40,8 @@ $$
 
 is a [[homotopy pullback]] square.
 
+A Segal space for which $X_0$ is a [[discrete space]] is called a _[[Segal category]]_. See there for more dicussion.
+
 ## Related notions
 
 * [[reduced Segal space]], [[Segal category]], 
