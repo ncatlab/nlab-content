@@ -31,9 +31,11 @@ One (or rather: three) of the [[exceptional Lie groups]].
 
 ### General
 
-A survey is in
+Surveys are in
 
-* wikipedia, _[G2](http://en.wikipedia.org/wiki/G2_%28mathematics%29)_
+* Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
+
+* Wikipedia, _[G2](http://en.wikipedia.org/wiki/G2_%28mathematics%29)_
 
 Cohomological properties are discussed in 
 
