@@ -5,7 +5,7 @@ This can be thought of as:
 
 *  the vector space $\mathbb{R}^2$ made into an [[associative algebra|algebra]] by the rule
    $$ (a, b) \cdot (c, d) = (a c + b d, a d + b c) ;$$
-*  the [[direct product]] of $\mathbb{R}^2$ as a [[ring]];
+*  $\mathbb{R}^2$ as a direct product $\mathbb{R} \times \mathbb{R}$ of [[ring|rings]];
 *  the subalgebra of those $2$-by-$2$ real [[matrix|matrices]] of the form
    $$ \left(\array { a & b \\ b & a } \right);$$
 *  the [[polynomial]] ring $\mathbb{R}[\mathrm{x}]$ modulo $\mathrm{x}^2 - 1$;
