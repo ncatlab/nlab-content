@@ -1,4 +1,10 @@
 
+
+##Terminology##
+
+The twisted arrow category is an alternative name for [[category of factorisations]]. That latter name is applied when discussing natural systems  and [[Baues-Wirsching cohomology]], whilst the name _twisted arrow category_ is more often used in discussing Kan extensions and within the categorical literature.
+
+
 ## Definition ##
 
 The twisted arrow category $Tw(C)$ of $C$ a category is the [[category of elements]] of its [[hom-functor]]: 
