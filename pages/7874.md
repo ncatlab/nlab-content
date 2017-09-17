@@ -56,6 +56,8 @@ See the Idea-section at _[[tmf]]_ and at _[[Witten genus]]_ for more background.
 
 ## Related concepts
 
+* [[spin orientation of Tate K-theory]]
+
 * [[sigma-orientation]]
 
 * [[logarithmic cohomology operation]]
