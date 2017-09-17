@@ -125,6 +125,10 @@ $$
 I would be more comfortable if instead of $C(X)\otimes C(Y)$ we had $C(somthing)$, but this should become clear once we write down what the map above is, some expression in terms of Kraus operators I presume.
 
 Personally I think that instead of identifying the objects of the category with the algebras $Mat(m \times m, \mathbb{C})$ (or better, $End(H)$), we should consider the isomorphic category with objects $H$, but with the arrows as before. This allows us to generalise the inputs of the channel to a mix of classical and quantum, as you indicate. The real substance is to show that composites (as I consider in the previous paragraph) exist and behave as they should.
+
+[[Ian Durham]]: There's one sticky wicket there: not all quantum channels are reversible so they're not necessarily isomorphisms (unless I'm mis-interpreting you).  From an information theoretic perspective, there are some quantum channels for which perfect recovery of the initial information, even with environmental assistance, is not possible.  So I would certainly say that _some_ quantum channels are isomorphic categories, but not all.
+
+Regarding composites, normally it is just a composite of Kraus operators (see my first revision of the [quantum channel](http://ncatlab.org/nlab/revision/quantum+channel/1) page).  Regarding the categories, though, I think I may have actually been able to show that it behaves as expected using a commutative square.
 =--
 
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
