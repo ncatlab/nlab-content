@@ -91,7 +91,9 @@ $$
   \,.
 $$
 
-By the discussion at _[Integrality and modularity](#IntegralityAndModularity)_ a [[modular form]] with respect to the variable $q$. Such functions which are power series of two variables $z$ and $q$ with elliptic nature in $z$ and modular nature in $q$ are called _[[Jacobi forms]]_ ([Zagier 86, p. 8](#Zagier86), [Ando-French-Ganter 08](#AndoFrenchGanter08)) .
+By the discussion at _[Integrality and modularity](#IntegralityAndModularity)_ a [[modular form]] with respect to the variable $q$. Such functions which are power series of two variables $z$ and $q$ with elliptic nature in $z$ and modular nature in $q$ are called _[[Jacobi forms]]_ ([Zagier 86, p. 8](#Zagier86), [Ando-French-Ganter 08](#AndoFrenchGanter08)).
+
+In fact $K_w$ above is proportional to (the inverse of) the [[Weierstrass sigma-function]] (see e.g. [Ando Basterra 00, section 5.1](#AndoBasterra00)).
 
 ### Integrality and modularity
  {#IntegralityAndModularity}
@@ -212,7 +214,7 @@ and for more on the [[sigma-orientation]] see
 
 * [[Matthew Ando]], _The sigma orientation for analytic circle-equivariant elliptic cohomology_, Geom. Topol. 7 (2003) 91-153 ([arXiv:math/0201092](http://arxiv.org/abs/math/0201092))
 
-* [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_ ([arXiv:0008192](http://arxiv.org/abs/math/0008192))
+* {#AndoBasterra00} [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_ ([arXiv:0008192](http://arxiv.org/abs/math/0008192))
 
 ### Via index theory of would-be Dirac operators on loop space
 
