@@ -15,37 +15,50 @@
 
 ## Definition
 
-On an [[orientation|oriented]] $3$-dimensional [[manifold]], what [[Michael Atiyah]] and [[Edward Witten]] called a **$2$-framing** is a $p_1$-[[twisted differential c-structures|structure]], where $p_1$ is the first [[Pontryagin class]]
+For $X$ a [[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension]]al [[manifold]], write 
+
+$$
+  2 T X := T X \oplus T X
+$$
+
+for the fiberwise [[direct sum]] of the [[tangent bundle]] with itself. Via the [[diagonal]] embedding
+
+$$
+  SO(3) \to SO(3) \times SO(3) \hookrightarrow SO(6)
+$$
+
+this naturally induces a [[special orthogonal group|SO(6)]]-[[principal bundle]]. Due to the low dimension, this always lifts to a [[spin group|spin(6)]]-[[principal bundle]].
+
+A **2-framing** on $X$ is a [[homotopy]] class of trivializations of this Spin-bundle.
+
+This can be reformulated ([Douglas, Schommer-Pries, Snyder](#DSPS)) in terms of  
+$p_1$-[[twisted differential c-structures|structure]], where $p_1$ is the first [[Pontryagin class]]
 
 $$
   p_1\colon B SO(3) \to K(\mathbb{Z},4)
   \,.
 $$
 
-So a choice of $2$-framing on an orientation $o_X\colon X \to B SO(3)$ is a choice of lift $\hat{o}_X$
-
-$$
-  \array{
-    && 
-    hofib(p_1) &\to& {*}
-    \\  
-    &{}^{\hat o_X}\nearrow& \downarrow && \downarrow
-    \\
-    X
-    &\stackrel{o_X}{\to}&
-    B SO(3)
-    &\stackrel{p_1}{\to}&
-    K(\mathbb{Z},4)
-  }
-$$
-
-to the [[homotopy fiber]] of $p_1$.
-
 
 ## Related concepts
 
-The same idea applied to $3$-manifolds with [[spin structure]] leads to [[string structure]].
+* [[string structure]].
 
+## References
+
+The idea is originally due to 
+
+* [[Edward Witten]], _Quantum field theory and the Jones Polynomial_ , Comm. Math. Phys.  121 (1989)
+
+in the context of [[Chern-Simons theory]]. The term "2-framing" for this concept was then introduced in
+
+* [[Michael Atiyah]], _On framings of 3-manifolds_ , Topology, Vol. 29, No 1, pp. 1-7 (1990)
+  {#Atiyah1990}
+
+The role in the context of the [[cobordism hypothesis]] and [[fusion categories]] is highlighted in 
+
+* [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], in preparation ([pdf slides](http://www.crcg.de/wiki/images/4/44/HamburgTalk--schommer-pries.pdf))
+ {#DSPS}
 
 [[!redirects 2-framing]]
 [[!redirects 2-framings]]
