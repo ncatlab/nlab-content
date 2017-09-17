@@ -144,11 +144,11 @@ This follows by the [[pasting law]] for pullbacks: let $f : X \to Y$ and $g : Y 
 
 $$
   \array{
-    u^* X &\stackrel{u^* f }{\to}& u^* Y &\stackrel{u^* g}{\to}& u^* Y
+    u^* X &\stackrel{u^* f }{\to}& u^* Y &\stackrel{u^* g}{\to}& u^* Z
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    u^! X &\stackrel{u^! f }{\to}& u^! Y &\stackrel{u^! g}{\to}& u^! Y    
+    u^! X &\stackrel{u^! f }{\to}& u^! Y &\stackrel{u^! g}{\to}& u^! Z    
   }
 $$
 
@@ -237,9 +237,10 @@ $$
   \array{
     u^* A \times_Y X &\to& u^* X &\stackrel{\phi_X}{\to}&  u^! X
     \\
-    \downarrow && \downarrow^{\mathrlap{u^* f}} && \downarrow^{\mathrlap{u^! f}}
+    \downarrow && \downarrow^{\mathrlap{u^* f}} 
+                      && \downarrow^{\mathrlap{u^! f}}
     \\
-    u^* A &\to& u^* Y &\stackrel{\phi_X}{\to}& u^! Y
+    u^* A &\to& u^* Y &\stackrel{\phi_Y}{\to}& u^! Y
   }
 $$
 
@@ -250,7 +251,7 @@ $$
      u^* A \times_Y X &\stackrel{\phi_{A \times_Y X}}{\to}& u^! A \times_Y A
      &\stackrel{}{\to}& u^! X
      \\
-     \downarrow^{} && \downarrow && \downarrow^{\mathrlap{u^* f}}
+     \downarrow^{} && \downarrow && \downarrow^{\mathrlap{u^! f}}
      \\
      u^* A &\stackrel{\phi_A}{\to}& u^! A &\to& u^! Y
   }
