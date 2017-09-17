@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -15,7 +14,7 @@
 
 ## Idea
 
-The commonly accepted standard [[foundation of mathematics]] today is a material [[set theory]], $ZFC$ or Zermelo--Frankel set theory with the [[axiom of choice]].
+The commonly accepted standard [[foundation of mathematics]] today is a material [[set theory]], $ZFC$ or Zermelo--Fraenkel set theory with the [[axiom of choice]].
 
 
 ## History
@@ -69,7 +68,7 @@ Another variant is __bounded Zermelo set theory__ ($BZ$), which is like $\mathrm
 
 ### Constructive versions
 
-The most well-known foundations for [[constructive mathematics]] through material set theory are [[Peter Aczel]]\'s __constructive Zermelo--Frankel set theory__ ($CZF$) and [[John Myhill]]\'s __intuitionistic Zermelo--Fraenkel set theory__ ($IZF$).
+The most well-known foundations for [[constructive mathematics]] through material set theory are [[Peter Aczel]]\'s __constructive Zermelo--Fraenkel set theory__ ($CZF$) and [[John Myhill]]\'s __intuitionistic Zermelo--Fraenkel set theory__ ($IZF$).
 
 $CZF$ uses axioms (1--8) and (10), usually weak forms, in [[intuitionistic logic]]; specifically, it uses Bounded Separation for (5), Strong Collection for (6), and an intermediate (Subset Collection) form of (7).  $IZF$ is simliar, but it uses Full Separation for (5) and the full strength of (7); Myhill\'s original version uses only Replacement for (6), but Collection (equivalent to Strong Collection using Full Separation) is standard now.
 
