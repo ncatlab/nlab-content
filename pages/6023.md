@@ -51,6 +51,8 @@ The collection of all probability distributions on a measurable space carries va
 
 * [[entropy]]
 
+* [[positive-operator valued probability measure]]
+
 [[!redirects probability distribution]]
 [[!redirects probability distributions]]
 [[!redirects probability measure]]
