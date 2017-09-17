@@ -196,6 +196,8 @@ $$
 
 * [[relations]], [[bicategory of relations]]
 
+* [[sheaf with transfer]], [[Mackey functor]]
+
 ## References
 
 For references on 1- and 2-categories of spans see at _[[span]]_.
