@@ -1,0 +1,31 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+## Related concepts
+
+* [[being]]
+
+## References
+
+* [[Hegel]], _[[Science of Logic]]_
+
+* [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
+
