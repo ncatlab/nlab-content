@@ -36,6 +36,8 @@ When the spaces and spectra in question carry an [[action]] of a [[group]] $G$ t
 
 * [[S-theory]]
 
+* [[noncommutative stable homotopy theory]]
+
 ## References
 
 An excellent general survey is
