@@ -31,4 +31,5 @@ The existence of the school of thought called _Geometric Algebra_ goes back to
 
 Comprehensive [[mechanics]] textbooks written in this style are for instance
 
-...
+* Chris Doran, Anthony Lasenby, _Geometric algebra for physicists_ Cambridge University Press (2003) ([pdf](http://catdir.loc.gov/catdir/samples/cam033/2002035182.pdf))
+
