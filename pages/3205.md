@@ -40,7 +40,7 @@ A nascent CatLab may now be found at [[joyalscatlab:HomePage|joyalscatlab]], alt
 
 ## Further developments
 
-[[André]]: I have interrupted working in the CatLab last Spring because of some urgent things to do. I hope to return in some near future. There was recently a discussion in the category list about terminology in the CatLab (the "evil" terminology). The discussion drifted toward the implication of John Baez on fighting the ecological disaster. I applauded to John's involvement, but I believe his position is overly pessimistic. But my reply to John was blocked by the moderator of the category list for technical reasons that I do not understand. I am reproducing this reply here:
+[[André]]: I have interrupted working in the CatLab last Spring because of some urgent things to do. I hope to return in some near future. There was recently a discussion in the category list about terminology used in the CatLab (the "evil" terminology). The discussion drifted and John mentioned his implication into fighting the ecological disaster. I applaud to John's involvement, but I believe his position is overly pessimistic. But my reply to John was blocked by the moderator of the category list for technical reasons that I do not understand. I am reproducing this reply here:
 
 > October 1,2010
 
