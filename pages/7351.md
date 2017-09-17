@@ -3,6 +3,7 @@
 category: people
 
 [[!redirects Robert Pare]]
-[[!redirects Robert Paré]]
+[[!redirects Robert Pare]]
 [[!redirects Bob Pare]]
 [[!redirects Bob Paré]]
+[[!redirects Paré]]
