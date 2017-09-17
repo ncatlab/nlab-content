@@ -70,7 +70,7 @@ $$
   \partial_n  \circ \partial_{n+1} = 0
 $$ 
 
-(the [[zero morphism]]) for all $n \in \mathbb{N}$.  
+(the [[zero morphism]]) for all $n \in \mathbb{Z}$.  
 
 =--
 
