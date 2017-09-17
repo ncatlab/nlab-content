@@ -66,6 +66,11 @@ The Chern-Gauss-Bonnet theorem goes back to
 
 * [[ Shiing-shen Chern]], _A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds_ , Annals, 45 (1944), 747-752.
 
+A classical textbook reference is chapter X of volume II of
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+
 Discussion is for instance in 
 
 * Denis Bell, _The Gauss-Bonnet theorem for vector bundles_ ([pdf](http://www.unf.edu/~dbell/GBT.pdf))
