@@ -108,7 +108,7 @@ $$
   \,.
 $$
 
-One checks that this indeed makes all the components be natural and makes the origina morphism exist.
+One checks that this indeed implies that all the components are natural and gives the existence of  the original morphism.
 
 Notice that in general $\lambda$ is _not_ an [[isomorphism]].
 
