@@ -21,16 +21,24 @@ The net is called **dual** if every index is dual i.e. satisfies duality.
 
 A weaker concept is that of **essentially dual**:
 
-Define an extension $\cap M_k$ of the net $M_k$ via 
+Define an extension $(\hat M_k)$ of the net $(M_k)$ via 
 
 $$
 \hat M_k = (\bigcup_{j \perp i} M_j)'
 $$
-This extension is not necessarily a [[causal net]] anymore. If it is, then it is dual by definition. The net $M_k$ is **essentially dual**, if the extended net $\hat M_k$ is dual, which is true iff $\hat M_k$ is causal.
+This extension is not necessarily a [[causal net]] anymore. If it is, then it is dual by definition. The net $(M_k)$ is **essentially dual**, if the extended net $(\hat M_k)$ is dual, which is true iff $(\hat M_k)$ is causal.
 
-The net $M_k$ is called **maximal** if there is no proper extension which satisfies the [[causality condition]].
+The net $(M_k)$ is called **maximal** if there is no proper extension which satisfies the [[causality condition]].
 
+## Examples ##
+A [[Haag-Kastler vacuum representation]] satisfies **Haag duality** if every double cone aka diamond is a dual index. The reason for this relaxation is that full duality of every index is often too restrictive, so that the less restrictive Haag duality plays an important role in the theory.
 
+Let $J_0$ be the index set of diamonds, a [[Haag-Kastler vacuum representation]] is **essentially Haag dual** if the net $M(J_0)$ (that is the original net restricted to diamonds as indices) is essentially dual.
+
+[[!redirects Haag duality]]
+[[!redirects Haag dual]]
+[[!redirects essentially Haag dual]]
+[[!redirects essential Haag duality]]
 [[!redirects maximal net]]
 [[!redirects maximal nets]]
 [[!redirects dual net]]
