@@ -60,7 +60,7 @@ In [[ETop∞Grpd]] and those contexts containing it, the internal notions of  [[
 
 We state the definition in several equivalent ways.
 
-1. [externally](#ExternalDefinition) in the [[meta logic]];
+1. [externally](#ExternalDefinition) in the ambient context;
 
 1. [internally](#InternalDefinition) to the cohesive $(\infty,1)$-topos itselfs;
 
