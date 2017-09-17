@@ -24,6 +24,8 @@ A series of results on [[moduli spaces of connections]] in the presence of [[com
 
 Recalled for instance as ([Scheinost-Schottenloher 96, theorem 1.15](#ScheinostSchottenloher96)).
 
+The correspondence between [[stable vector bundle|semi-stable vector bundles]] and [[Hermite-Einstein connections]] holds more generally over [[complex manifolds]], where it is known as the _[[Kobayashi-Hitchin correspondence]]_.
+
 This result is a key step in the construction of the [[Kähler polarization]] on a [[moduli space of flat connections]] via [[symplectic reduction]] ([Scheinost-Schottenloher 96, corollary 1.16](#ScheinostSchottenloher96)), a [[non-abelian cohomology|non-abelian]] version of the Griffiths [[intermediate Jacobian]] $J^1$.
 
 ## Related concepts
