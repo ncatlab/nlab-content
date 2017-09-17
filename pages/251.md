@@ -128,6 +128,8 @@ In some double categories, however, even pinwheels can be composed, due to certa
 
 * [[2-category equipped with proarrows]]
 
+* [[double functor]], [[vertical transformation]], [[horizontal transformation]]
+
 * [[double profunctor]]
 
 * [[framed bicategory]]
