@@ -353,13 +353,13 @@ This is notably the case for [[(∞,1)-category]] theory, where we have the [[(�
 #### For permutation $\infty$-representations
  {#ForInfinityPermutations}
 
-By applying the $(\infty,1)$-Yoneda lemma verbatim four times in a row as above [for permutation representations](#ForPermutationRepresentations), we obtain the following statement for "$\infty$-permutation representations".
+By applying the $(\infty,1)$-Yoneda lemma verbatim four times in a row as above [for permutation representations](#ForPermutationRepresentations), we obtain the following statement for [[∞-permutation representations]].
 
 +-- {: .un_theorem}
 ###### Theorem
 **(Tannaka duality for $\infty$-permutation representations)**
 
-Let $G$ be an [[∞-group]] and $Rep_{\infty Grpd}(G) := Func(\mathbf{B}G, \infty Grpd)$ the [[(∞,1)-category of (∞,1)-functors]] from its [[delooping]] [[∞-groupoid]] to [[∞Grpd]]. Let $F :  Rep_{\infty Grpd}(G) \to \infty Grpd$ be the fiber functor that remembers the underlying $\infty$-groupoid. Then there is an [[equivalence in a quasi-category]]
+Let $G$ be an [[∞-group]] and $Rep_{\infty Grpd}(G) := Func(\mathbf{B}G, \infty Grpd)$ the [[category of representations|category of]] [[∞-permutation representations]], the [[(∞,1)-category of (∞,1)-functors]] from its [[delooping]] [[∞-groupoid]] to [[∞Grpd]]. Let $F :  Rep_{\infty Grpd}(G) \to \infty Grpd$ be the fiber functor that remembers the underlying $\infty$-groupoid. Then there is an [[equivalence in a quasi-category]]
 
 $$
   End(Rep_{\infty Grpd}(G) \to \infty Grp) \simeq G
