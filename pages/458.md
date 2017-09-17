@@ -38,7 +38,7 @@ A **frame homomorphism** $\phi: A\to B$ is a function which preserves finite mee
 
 Note: By the [[adjoint functor theorem]] (AFT) for posets, a frame also has all meets, but a frame homomorphism need not preserve them.  Again by the AFT, a frame is automatically a [[Heyting algebra]], but again a frame homomorphism need not preserve the [[Heyting implication]].
 
-The [[category]] [[Loc]] of **locales** is the [[opposite category|opposite]] of the category of frames
+The [[category]] [[Locale]] of **locales** is the [[opposite category|opposite]] of the category of frames
 
 $$
   Loc := Frm^{op}
@@ -51,10 +51,10 @@ That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the
 
 ### Category of locales
 
-The category [[Loc]] of locales [[internalization|internal to]] a [[topos]] $E$ is equivalent to the category of [[localic geometric morphisms]] $E \to S$ in [[Topos]].
+The category [[Locale]] of locales [[internalization|internal to]] a [[topos]] $E$ is equivalent to the category of [[localic geometric morphisms]] $E \to S$ in [[Topos]].
 
 $$
-  Loc(S) \simeq (Topos/S)_{loc}
+  Locale(S) \simeq (Topos/S)_{loc}
   \,.
 $$
 
@@ -63,13 +63,15 @@ See [[localic geometric morphism]] for more.
 
 ### Relation to topological spaces
 
-Every topological space $X$ has a frame of open sets $O(X)$, and therefore gives rise to a locale $X_l$.  For every continuous function $f:X\to Y$ between spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_l\to Y_l$ of locales.  Thus we have a functor $(-)_l:Top \to Loc$.
+Every topological space $X$ has a frame of open sets $O(X)$, and therefore gives rise to a locale $X_l$.  For every continuous function $f:X\to Y$ between spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_l\to Y_l$ of locales.  Thus we have a functor $(-)_l:Top \to Locale$.
 
 Conversely, if $X$ is any locale, we define a **point** of $X$ to be a continuous map $1\to X$.  Here $1$ is the terminal locale, which can be defined as the locale $1_l$ corresponding to the terminal space.  Explicitly, we have $O(1) = P(1)$, the powerset of $1$ (the initial frame, the set of [[truth value]]s, which is 2 classically or in a [[Boolean topos]]).  Since a frame homomorphism $O(X)\to P(1)$ is determined by the preimage of $1$, a point can also be described more explicitly as a _completely prime filter_: an upwards-closed subset $F$ of $O(X)$ such that $X\in F$ ($X$ denotes the top element of $O(X)$), if $U,V\in F$ then $U\cap V\in F$, and if  $\bigcup_i U_i\in F$ then $U_i\in F$ for some $i$.
 
 The elements of $O(X)$ induce a topology on the set of points of $X$ in an obvious way, thereby giving rise to a topological space $X_p$.  Any continuous map $f:X\to Y$ of locales induces a continuous map $f_p:X_p\to Y_p$ of spaces, so we have another functor $(-)_P:Loc\to Top$.
 
 It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this is an [[idempotent adjunction]], and therefore it restricts to an equivalence between the fixed subcategories on either side.  A space with $X\cong X_{lp}$ is called **[[sober space|sober]]**, while a locale with $X\cong X_{pl}$ is called **spatial**.
+
+
 
 ### Relation to toposes {#RelationToToposes}
 
@@ -114,7 +116,7 @@ Write [[Topos]] for the category of [[Grothendieck topos]]es and [[geometric mor
 +-- {: .un_prop}
 ###### Proposition
 
-This construction defines a [[full and faithful functor]] $Sh(-) : $ [[Loc]] $\to$ [[Topos]].
+This construction defines a [[full and faithful functor]] $Sh(-) : $ [[Locale]] $\to$ [[Topos]].
 
 =--
 
@@ -133,7 +135,7 @@ A topos in the image of $Sh(-) : Loc \to Topos$ is called a [[localic topos]].
 The functor $Sh(-) : Loc \to Topos$ has a [[left adjoint]] 
 
 $$
-  L : Topos \to Loc
+  L : Topos \to Locale
 $$
 
 given by sending a [[topos]] $\mathcal{E}$ to the locale that is formally dual to the [[frame]] of [[subobject]]s of the [[terminal object]] of $\mathcal{E}$:
@@ -149,12 +151,59 @@ This appears for instance as [MacLaneMoerdijk, seciotn IX.5 prop 3](#MacLaneMoer
 
 The functor $L$ here is also called **localic reflection**.
 
+
+
+
 In summary this means that locales form a [[reflective subcategory]] or [[Topos]]
 
 $$ 
-  Loc \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+  Locale \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
   Topos
 $$
+
++-- {: .un_prop}
+###### Proposition
+
+The poset of [[subobject]] $Sub_{\mathca{E}}(*)$ of the terminal object of $\mathcal{E}$ is equivalent to the full [[subcategory]] $\tau_{\leq -1}(\mathcal{E})$ of $\mathcal{E}$ on the $(-1)$-[[truncated]] objects of $E$.
+
+$$
+  Sub_{\mathcal{E}}(*) \simeq \tau_{\leq -1} \mathcal{E}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A $(-1)$-[[truncated]] sheaf $X$ is one whose values over any object are either the singleton set, or the [[empty set]]
+
+$$
+  X(X) \in \{*, \emptyset\} = \subset Set
+  \,.
+$$
+
+A [[monomorphism]] of sheaves is a [[natural transformation]] that is degreewise a monomorphism of sets. Therefore the [[subobject]]s of the terminal sheaf (that assigns the singleton set to every object) are precisely the sheaves of this form.
+
+=--
+
+We may think of a [[frame]] as a [[(0,1)-topos]]. Then localic reflection is reflection of 1-toposes onto $(0,1)$-toposes and is given by $(-1)$-truncation: for $X$ a locale, $Sh(X)$ the corresponding [[localic topos]] and $\mathcal{E}$ any Grothendieck topos we have a natural equivalence
+
+$$
+  1Topos( \mathcal{E},  Sh X) \simeq (0,1)Topos(\tau_{\leq -1} \mathcal{E}, O(X))
+$$
+
+which is
+
+$$
+  \cdots \simeq Frame(O(X), Sub_{mathcal{E}}(*))
+  \simeq
+  Locale(L \mathcal{E} , X)
+  \,.
+$$
+
+This is the beginning of a pattern in [[higher topos theory]], described at [[n-localic ((∞,1)-topos]].
+
 
 ## Related concepts ##
 
@@ -163,6 +212,8 @@ $$
 * A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck topos]] is to a [[locale]].
 
 * A [[group object]] [[internalization|internal]] to locales or an [[internal groupoid]] in locales is a [[localic group]] or [[localic groupoid]], respectively. 
+
+
 
 ## Examples
 
