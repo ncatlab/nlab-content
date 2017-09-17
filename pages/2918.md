@@ -1,10 +1,9 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Physics
@@ -18,10 +17,10 @@
 * table of contents
 {: toc}
 
-
 ## Idea
 
 The _Legendre transformation_ is an operation on [[convex function]]s from a real [[normed vector space]] to the [[real line]]; it is one of the cornerstones of [[convex analysis]]. The space of arguments changes accordingly.
+
 
 ## In classical mechanics -- Hamiltonians and Lagrangians
 
@@ -33,18 +32,20 @@ In many dimensions, hybrid versions are possible. When the physics of the system
 
 See also [wikipedia:Legendre transformation](http://ncatlab.org/nlab/edit/Legendre+transformation) and [wikipedia:Legendre-Fenchel transformation](http://en.wikipedia.org/wiki/Legendre-Fenchel_transformation); the two wikipedia articles have much detail in certain specific approaches and cases, but also miss some of the basic ones to be balanced. 
 
+
 ### Via prequantized Lagrangian correspondences
 
 See at _[[prequantized Lagrangian correspondence]]_.
+
 
 ### In multisymplectic geometry
 
 See at _[multisymplectic geometry -- de Donder-Weyl-hamilton equations of motion](multisymplectic+geometry#DonderWeylHamiltonFieldEquations)_.
 
+
 ## Related concepts
 
 * [[canonical coordinates]], [[canonical momenta]]
-
 
 [[!include Hamiltonian and Lagrangian -- table]]
 
@@ -65,6 +66,11 @@ Discussion of Legendre transformation in the context of [[Lie algebroids]] is in
 
 * Juan Carlos Marrero, _Nonholonomic mechanics: a Lie algebroid perspective_ ([pdf talk notes](http://www.gmcnetwork.org/files/eia08/talks/Talk-Santiago08-JuanCarlosMarrero.pdf))
 
+
 category: physics
 
 [[!redirects Legendre transform]]
+[[!redirects Legendre transforms]]
+[[!redirects Legendre transformation]]
+[[!redirects Legendre transformations]]
+[[!redirects Legendre transfomation]]
