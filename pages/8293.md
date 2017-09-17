@@ -38,7 +38,7 @@ Let $\kappa$ be a regular [[cardinal]]. A **$\kappa$-pure morphism** in a [[cate
     \,,
   $$
 
-  then there exists a (not necessarily unique) morphism $\bar{a} : B' \to A$ in $\mathcal{C}$ such that $a = \bar{a} \circ f$.
+  then there exists a (not necessarily unique) morphism $\bar{a} : B' \to A$ in $\mathcal{C}$ such that $a = \bar{a} \circ f'$. (We do not assert any compatibility with $b$, however.)
 
 A **$\kappa$-pure subobject** is a $\kappa$-pure monomorphism.
 
