@@ -153,13 +153,16 @@ crossed module.  This will not be proved here, but is not that difficult.  (Of c
 
 ## Related concepts 
 
-* **crossed module**, [[differential crossed module]]
+* [[group]]
 
-* [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
+* [[2-group]], **crossed module**, [[differential crossed module]]
 
-* [[crossed complex]]
+* [[3-group]], [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
 
-* [[hypercrossed complex]]
+* [[n-group]]
+
+* [[∞-group]], [[simplicial group]], [[crossed complex]], [[hypercrossed complex]]
+
 
 ## References
 
