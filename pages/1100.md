@@ -185,7 +185,7 @@ The intrinsic [[higher category theory|category-theoretic]] definition of an [[(
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-building on ideas by [[Charles Rezk]]. There is is also proven that the Brown-Joyal-Jardine-To&euml;-Vezzosi models indeed precisely model $\infty$-stack $(\infty,1)$-toposes. Details on this relation are at [[models for ∞-stack (∞,1)-toposes].
+building on ideas by [[Charles Rezk]]. There is is also proven that the Brown-Joyal-Jardine-To&euml;n-Vezzosi models indeed precisely model $\infty$-stack $(\infty,1)$-toposes. Details on this relation are at [[models for ∞-stack (∞,1)-toposes].
 
 
 
