@@ -79,7 +79,7 @@ $$
   C_\bullet : sAb \to Ch_\bullet^+
 $$
 
-as well as the normalized chains/normalize Moore complex functor
+as well as the normalized chains/normalized Moore complex functor
 
 $$
   N_\bullet : sAb \to Ch_\bullet^+
@@ -168,7 +168,20 @@ Since the normalized Moore complex functor $N_\bullet$ is an equivalence of cate
 
 =--
 
-For more details see [[oplax monoidal structure]].
+For more details see [[oplax monoidal functor]].
+
++-- {: .un_remark }
+###### Remark
+
+The upshot is that $N$ and $G$ are both pretty close to being [[strong monoidal functor]]s, but fail to be so. If they were, the monoidal 
+Dold-Kan correspondence would be a simple corollary of the Dold-Kan correspondence and would hold at the level of 1-categories.
+
+Explicitly, the failure of $N$ to be strong monoidal is in that 
+the [[Eilenberg-Zilber map]] is (on normalized chain complexes) a [[right inverse]] to the [[Alexander-Whitney map]], but not a [[left inverse]]. But it _is_ a homotopy-inverse: because the components of the [[Alexander-Whitney map]] are (as discussed there) [[quasi-isomorphism]]s. By [[category with weak equivalences|2-out-of-3]] it follows that also the EZ-maps are quasi-isomorphisms and that these are indeed inverse to the AW map in the [[homotopy category]] of chain complexes (the [[derived category]]).
+
+Therefore we expect that the monoidal Dold-Kan correspondence holds, while not necessarily at the level of ordinary categories, at least at the level of [[homotopical categories]]. This is indeed the case, as discussed below.
+
+=--
 
 +-- {: .un_remark }
 ###### Remark
@@ -180,7 +193,7 @@ Note that
 
 * and the lax structure of $\Gamma$ 
 
-are not symmetric, i.e. they do not respect the symmetry of the monoidal structure.  They do, however, respect it up to homotopy, i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in ([Richter](#Richter)).
+are not [[symmetric monoidal functor]]s, i.e. they do not respect the [[symmetric monoidal category]] structure.  However, this, toos, they do respect up to [[homotopy]], i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in ([Richter](#Richter)).
 
 =--
 
@@ -203,7 +216,7 @@ $$
 
 for the ordinary [[Dold-Kan correspondence]]. $Ch_\bullet^+$ denotes the [[connective]] chain complexes: non-negatively graded. 
 
-Since $N$ and $\Gamma$ are strictly inverse to each other, this may be regarded as a pair of [[adjoint functor]]s in two ways. Moreover, with respect to the standard [[model category]] structures (the projective [[model structure on chain complexes]] (fibrations the degreewise surjections in positive degree) and the projective [[model structure on T-algebras|model structure on simplicial abelian groups]] (fibrations the underlying [[Kan fibration]])s ) both adjunctions are [[Quillen equivalence]]s.
+Since $N$ and $\Gamma$ are strictly inverse to each other, this may be regarded as a pair of [[adjoint functor]]s in two ways. Moreover, with respect to the standard [[model category]] structures (the projective [[model structure on chain complexes]] (fibrations the degreewise surjections in positive degree) and the projective [[model structure on simplicial T-algebras|model structure on simplicial abelian groups]] (fibrations the underlying [[Kan fibration]])s ) both adjunctions are [[Quillen equivalence]]s.
 
 Let 
 
