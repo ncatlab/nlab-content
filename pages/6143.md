@@ -1,6 +1,28 @@
-A priori one may define a __locally compact topological group__ as a topological group $G$ whose underlying topological space is [[locally compact topological space|locally compact]]. In practice, one also assumes that $G$ is Hausdorff; we will follow this condition in the discussion of the properties (If not, then $G/\overline{\{1\}}$ is Hausdorff.). One often says just "locally compact group".
 
-Locally compact topological groups are the standard object of study in classical abstract harmonic analysis. The crucial properties of locally compact groups is that they posses a left (right) Haar measure $\rho$ and that $L^1(\rho)$ has a structure of a Banach $*$-algebra. A left (right) [[Haar measure]] on a [[locally compact topological group]] is a nonzero [[Radon measure]] which is invariant under the left (right) multiplications by elements in the group. A topological subgroup $H$ of a locally compact topological group $G$ is itself locally compact (in [[induced topology]]) iff it is closed in $G$.  
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A priori one may define a __locally compact topological group__ as a [[topological group]] $G$ whose underlying [[topological space]] is [[locally compact topological space|locally compact]]. In practice, one also assumes that $G$ is [[Hausdorff space|Hausdorff]]; we will follow this condition in the discussion of the properties (If not, then $G/\overline{\{1\}}$ is Hausdorff.). One often says just "locally compact group".
+
+## Properties
+
+Locally compact topological groups are the standard object of study in classical abstract [[harmonic analysis]]. The crucial properties of locally compact groups is that they posses a left (right) [[Haar measure]] $\rho$ and that $L^1(\rho)$ has a structure of a 
+[[Banach algebra|Banach]] $*$-[[star-algebra|algebra]]. A left (right) [[Haar measure]] on a [[locally compact topological group]] is a nonzero [[Radon measure]] which is invariant under the left (right) multiplications by elements in the group. A topological subgroup $H$ of a locally compact topological group $G$ is itself locally compact (in [[induced topology]]) iff it is closed in $G$.  
+
+## References
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Adv. Math. CRC Press 1995 
 
