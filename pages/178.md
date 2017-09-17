@@ -418,34 +418,6 @@ is a [[Kan complex]] [[internalization|internal to]] [[diffeological space]]s.
 =--
 
 
-+-- {: .un_prop #DiffeologicalKanComplexesAreConcrete}
-###### Proposition
-
-Let $X$ be a diffeological $\infty$-groupoid. Regarded as an object
-in $Smooth \infty Grpd$ under the composite morphism
-
-$$
-  X \in Sh(CartSp_{smooth})^{\Delta^{op}} 
-   \hookrightarrow
-    [CartSp_{smooth}^{op}, sSet] 
-  \to 
-   ([CartSp_{smooth}^{op}, sSet]_{proj,loc})^\circ 
-   \simeq 
-  Smooth \infty Grpd
-$$ 
-
-this is a
-<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete object</a>.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the general properties discussed at [[cohesive (∞,1)-topos]] we have that $Smooth \infty Grpd$ is a [[hypercomplete (∞,1)-topos]]. Hence we may equivalently model it by the local [[model structure on simplicial sheaves]] on $CartSp_{smooth}$. Notice that any diffeological Kan complex is naturally a fibrant object in the global model structure on simplicial sheaves.
-By definition of the local model structure, the morphism from any simplicial sheaf to its local cofibrant-fibrant [[resolution]] is an isomorphism on all [[categorical homotopy groups in an (infinity,1)-topos|homotopy sheaves]]. Since the [[quasitopos]] of [[diffeological space]]s is closed under the finite [[limit]]s and [[colimit]]s involved in defining homotopy sheaves, these are themselves [[concrete sheaves]]. 
-
-=--
 
 
 
@@ -2563,44 +2535,6 @@ with the evident structure maps given by pullback of [[differential form]]s.
 
 For references related to this definition see _[[Lie integration]]_ .
 
-+-- {: .un_prop}
-###### Proposition
-
-The objects $\exp(\mathfrak{g})$ are [concrete objects](#StrucConcreteObjects).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We claim that the object $\exp(\mathfrak{g})$
-is a [diffeological Kan complex](#DiffeologicalKanComplex).
-By [a proposition above](DiffeologicalKanComplexesAreConcrete) 
-this implies that it is concrete.
-
-To see this, first notice that for each $n \in \mathbb{N}$ the
-presheaf $\exp(\mathfrak{g})_n : CartSp_{smooth}^{op} \to Set$
-is indeed [[sheaf]]. This follows from the fact that 
-$\Omega^\bullet : CartSp_{smooth}^{op} \to Set$ is a sheaf.
-
-Moreover, by definition of [[vertical differential form]]s
-we have that [[dg-algebra]] homomorphisms 
-$A : CE(\mathfrak{g}) \to \Omega_{vert}^\bullet(U \times \Delta^n)$
-are encoded by sets of certain [[function]]s $f_A : U \to \Omega^\bullet(\Delta^n) \otimes \mathfrak{g}$.
-
-Each such function is determined by its value on all points of $U$, and therefore the map
-
-$$
-  \{
-      f_A : U \to \Omega^\bullet(\Delta^n) \otimes \mathfrak{g}
-  \}
-    \to
-  Set(CartSp(*,U),\Omega^\bullet(\Delta^n) \otimes \mathfrak{g})
-$$
-
-is an injection.
-
-=--
 
 
 +-- {: .un_prop}
