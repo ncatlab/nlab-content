@@ -232,6 +232,10 @@ Most books on [[topos theory]] include some discussion of toposes\' [[internal l
 
 *  [[Peter Johnstone]] (2003). _[[Elephant|Sketches of an elephant]]_. Part D (in volume 2).
 
+A historical account is in 
+
+* [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
+ {#Troelstra91}
 
 [[!redirects constructive]]
 [[!redirects constructive mathematics]]
