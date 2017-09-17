@@ -51,6 +51,10 @@ where $\gamma$ is [[Euler's constant]].
 * Integral representation: 
 $$\Gamma(x) = \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}.$$ 
 
+## Related concepts
+
+* [[completed Riemann zeta function]]
+
 
 ## References 
 
