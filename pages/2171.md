@@ -324,7 +324,7 @@ Let $C_n \hookrightarrow \mathbb{C}^n$ be the space of configurations of $n$ poi
 The _braid group_ $Br_n$ is the [[fundamental group]] $\pi_1(C_n/S_n, [p])$. The _pure braid group_ $P_n$ is $\pi_1(C_n, p)$. 
 =-- 
 
-Evidently a braid $\beta$ is represented by a path $\alpha: I \to C_n/S_n$ with $\alpha(0) = [p] = \alpha(1)$. Such a path may be uniquely lifted through the covering projection $\pi: C_n \to C_n/S_n$ to a path $\tilde{\alpha}$ such that $\tilde{\alpha}(0) = p$. The end of the path $\tilde{\alpha}(1)$ has the same underlying subset as $p$ but with coordinates permuted: $\tilde{\alpha}(1) = (\sigma(1), \sigma(2), \ldots, \sigma(n))$. Thus we have a map $\beta \mapsto \sigma$ appearing as the quotient map of an exact sequence 
+Evidently a braid $\beta$ is represented by a path $\alpha: I \to C_n/S_n$ with $\alpha(0) = [p] = \alpha(1)$. Such a path may be uniquely lifted through the covering projection $\pi: C_n \to C_n/S_n$ to a path $\tilde{\alpha}$ such that $\tilde{\alpha}(0) = p$. The end of the path $\tilde{\alpha}(1)$ has the same underlying subset as $p$ but with coordinates permuted: $\tilde{\alpha}(1) = (\sigma(1), \sigma(2), \ldots, \sigma(n))$. Thus the braid $\beta$ is exhibited by $n$ non-intersecting strands, each one connecting an $i$ to $\sigma(i)$, and we have a map $\beta \mapsto \sigma$ appearing as the quotient map of an exact sequence 
 
 $$1 \to P_n \to Br_n \to S_n \to 1$$ 
 
