@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -60,7 +60,7 @@ The morphism $f$ being an [[effective monomorphism]] means that $\tilde f$ is an
 
 ### In $Top$
 
-A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precisely if this is an injection such that the topology on $U$ is the [[induced topology]]. This is an **embedding of topological spaces**.
+A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precisely if this is an injection such that the topology on $U$ is the [[induced topology]]. This is an **[[embedding of topological spaces]]**.
 
 ### In $SmothMfd$
 
