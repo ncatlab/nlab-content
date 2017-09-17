@@ -27,9 +27,9 @@ A standard example is the notion of _[[monoid object]]_ which make sense in a _[
 
 The term "micricosm principe" arises from the idea that the monoid object (the 'microcosm') can only thrive in a category (a 'macrocosm') that resembles itself. 
 
-## Formalization
+## Formalization for algebras over (∞,1)-operads
 
-A formalization of, arguably, this principle was given (independently) in ([Lurie](##Lurie)) in the more general context of [[higher algebra]] in [[homotopy theory]]/[[(∞,1)-category theory]]:
+The microcosm principle is a general heuristic, but in some contexts, a general version of it can be proven formally.  One such formalization was given (independently) in ([Lurie](##Lurie)) in the context of [[higher algebra]] in [[homotopy theory]]/[[(∞,1)-category theory]]:
 
 given an [[(∞,1)-operad]] $\mathcal{O}$ we have:
 
@@ -50,7 +50,7 @@ Discussion is in
 
 * [The Microcosm Principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html)
 
-A formalization that arguably captures the principle is in 
+One formalization is in
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
