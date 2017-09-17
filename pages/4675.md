@@ -177,17 +177,43 @@ For the case where the the underlying integral class of the twist is trivial, es
  {#GeneralProperties}
 
 
-+-- {: .num_prop #PropertiesOfTrivialIntegralTwistClass}
-###### Proposition
++-- {: .num_prop #GroupoidOfStringStructures}
+###### Observation
 
-If the underlying [[integral cohomology]] class of the twist is trivial, $c(tw) = 0 \in H^3(X, \mathbb{Z})$, then $tw$-twisted differential string structures on a $Spin$-[[connection on a bundle|connection]] $\nabla$ are characterized by a globally defined 3-form on $X$, that differs from the [[Chern-Simons form]] of $\nabla$ by a closed 3-form with integral [[period]]s.
+The [[∞-groupoid]] $String_{tw,diff}(X)$ of twisted differential string structures is [[2-truncated]], hence is a [[2-groupoid]].
 
 =--
 
-This appears as ([Waldorf, theorem 1.3.3](#Waldorf)).
++-- {: .proof}
+###### Proof
+
+This follows from the [[long exact sequence of homotopy groups]] associated to the defining [[(∞,1)-pullback]], using that
+
+* $\mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))$ is a [[3-groupoid]];
+
+* $\mathbf{H}(X, \mathbf{B}Spin)$ is a [[1-groupoid]];
+
+* $H^4_{diff}(X)$ is a [[0-groupoid]].
+
+=--
+
+See also ([Waldorf, cor. 1.1.5](#Waldorf)).
+
++-- {: .num_prop #PropertiesOfTrivialIntegralTwistClass}
+###### Observation
+
+If the underlying [[integral cohomology]] class of the twist is trivial, $c(tw) = 0 \in H^3(X, \mathbb{Z})$, then a $tw$-twisted differential string structures on a $Spin$-[[connection on a bundle|connection]] $\nabla$ are characterized by a globally defined 3-form on $X$.
+
+=--
+
+This 3-form is the globally defined connection 3-form of an appropriate [[circle n-bundle with connection|circle 3-bundle with connection]] equivalent to the [[Chern-Simons circle 3-bundle]] $CS(\nabla)$ whose underlying 3-bundle is by assumption trivial: on a trivial circle $n$-bundle every connection may be represented by a globally defined $n$-form.
+
+This statement appears as ([Waldorf, theorem 1.3.3](#Waldorf)), where circle 3-bundles are modeled as [[bundle 2-gerbe]]s. The explicit construction of the globally defined 3-form in this model is spelled out in lemma 3.2.4 there.
+
 
 +-- {: .proof}
 ###### Proof
+
 
 Elements in the defining [[homotopy pullback]] from def. \ref{DifferentialStringStructure} over a given [[connection on a bundle|connection]] $\nabla \in \mathbf{H}(X,\mathbf{B} Spin)_{conn}$ are chracterized by an element $[\alpha] \in H^4_{diff}(X)$ and an [[equivalence in an (infinity,1)-category|equivalence]]
 
@@ -195,7 +221,7 @@ $$
   \Omega : CS(\nabla) \stackrel{\simeq}{\to} \alpha
 $$
 
-between the corresponding [[Chern-Simons circle 3-bundle]] and the given [[circle n-bundle with connection|circle 3-bundle]] $\alpha$. In the case at hand, both have underlying trivial class $c(CS(\nabla)) = c(\alpha) = 0$ .
+between the corresponding [[Chern-Simons circle 3-bundle]] and the given [[circle n-bundle with connection|circle 3-bundle]] $\alpha$. In the case at hand, both have underlying trivial class $c(CS(\nabla)) = c(\alpha) = 0$.
 
 By the [characteristic class exact sequence](http://nlab.mathforge.org/nlab/show/ordinary%20differential%20cohomology#AbstractProperties)
 
@@ -207,7 +233,8 @@ $$
 
 any two classes in $\pi_0 \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1)) \simeq H^4_{diff}(X)$ that have trivial underlying class in $\pi_0 \mathbf{H}(X, \mathbf{B}^3 U(1)) \simeq H^4(X, \mathbb{Z})$ differ by a 3-form modulo a closed 3-form with integral periods.
 
-Therefore the tiwst $tw$ itself is identified with a globally defined 3-form (the global connection 3-form on a trivial [[circle n-bundle with connection|circle 3-bundle with connection]]). Since also the [[Chern-Simons circle 3-bundle]] $\frac{1}{2}\mathbf{p}_1(\nabla)$ has trivial underlying class by assumption, and has as globally defined connection form the [[Chern-Simons form]] $CS(\nablla)$, up to an exact from, the claim follows.
+Therefore both $[\alpha]$ as well as $[CS(\nabla)] \in H^4_{diff}(X)$ are given by a globally defined 3-form modulo an integral form: the global connection 3-form on these trivial [[circle n-bundle with connection|circle 3-bundles with connection]].
+
 
 =--
 
