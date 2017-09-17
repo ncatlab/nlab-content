@@ -1,12 +1,17 @@
+
 +-- {: .standout}
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
 =--
 
 ***
 
-No sand in this box.
+[[compact object#CompactnessInAdditiveCategories]]
 
-[pdf](http://people.mpim-bonn.mpg.de/zagier/files/cntp-3-2/fulltext.pdf)
+[[compact object#CompactnessInAdditiveCategories|compact object]]
+
+[compact object](http://ncatlab.org/nlab/show/compact+object#CompactnessInAdditiveCategories)
+
+[compact object](compact+object#CompactnessInAdditiveCategories)
 
 ***
 
