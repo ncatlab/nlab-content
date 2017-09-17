@@ -454,6 +454,7 @@ $$
 
 is the set of smooth functions $Y \to E_8$ (to be thought of as the the set of [[gauge transformation]]s from the trivial $E_8$-[[principal bundle]] on $Y$ to itself). 
 
+
 =--
 
 
@@ -725,8 +726,8 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 
 The state-of-the-art in the literature concerning attempts to find the correct mathematical model for the supergravity C-field seems to be
 
-* E. Diaconescu, [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
- {#DFM}
+* {#DFM} E. Diaconescu, [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
+ 
 
 A summary and rview of this is in 
 
