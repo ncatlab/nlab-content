@@ -11,6 +11,18 @@ In the [[stack semantics]] of $E$, a locally internal category "looks like" an o
 
 Locally internal categories can also be identified with [[Grothendieck fibrations]] or [[indexed categories]] over $E$ which satisfy a certain "representability" or "comprehensibility" condition.
 
+If we also take care of the appropriate morphisms have the following:
+
++-- {: .un_remark}
+###### Remark
+(1)  Every [[indexed functor]] between locally internal categories is an [[enriched functor]]. [Elephant](#Elephant), proof of Proposition B2.2.2
+
+(2a) Let $S$ be a [[locally cartesian closed category]], let $F:S\to S$ be an $S$-enriched functor whose underlying (ordinary) functor preserves pullbacks. Then $F$ extends to an $S$-[[indexed functor]].
+		
+ (2b) ([[Robert Pare]]) If this indexed functor preserves pullbacks (as an indexed functor) and if it induces the given enrichment, this extension is unique (up to a canonical isomorphism). [Elephant](#Elephant)  B2.2.8
+=--
+
+
 Of course, $E$ does not have to be a topos.  For the definition, it suffices for $E$ to have finite limits, although the notion is best-behaved when $E$ is [[locally cartesian closed category|locally cartesian closed]] (for instance, in that case the [[codomain fibration]] of $E$ is an example).
 
 ## References
@@ -19,6 +31,6 @@ Of course, $E$ does not have to be a topos.  For the definition, it suffices for
 
 * Locally internal categories, Appendix in: P. Johnstone, Topos theory, 1977
 
-* Chapter B2.2 of [[Sketches of an Elephant]]
+* Chapter B2.2 of [[Sketches of an Elephant]]{#Elephant}
 
 [[!redirects locally internal categories]]
