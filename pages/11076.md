@@ -14,17 +14,13 @@ $${|s|} = \{\alpha \in {|X|}: \alpha(v) \gt 0 \; implies \; v \in s\}.$$
 
 This may be identified with a standard affine simplex, and we topologize ${|s|}$ so that this identification is a homeomorphism. ${|X|}$ is then given the coherent topology: the largest topology rendering each inclusion ${|s|} \hookrightarrow {|X|}$ is continuous. 
 
-We let $\langle s \rangle$ denote the _open_ simplex: 
-
-$$\langle s \rangle = \{\alpha \in {|X|}: \alpha(v) \neq 0 \; iff \; v \in s\}.$$ 
-
 If $X, Y$ are simplicial complexes, then a function $f: X_0 \to {|Y|}$ can be extended linearly to a continuous map $\tilde{f}: {|X|} \to {|Y|}$ by the rule 
 
-$$\tilde(f)(\alpha) = \sum_{v \in X_0} \alpha(v)f(v),$$ 
+$$\tilde{f}(\alpha) = \sum_{v \in X_0} \alpha(v)f(v),$$ 
 
-provided that for every simplex $s$ of $X$, all convex combinations of elements of $f(s)$ lie in ${|Y|}$. 
+provided that for every simplex $s$ of $X$, all convex combinations of elements of $f(s)$ lie in ${|Y|}$. Naturally this is the case if $f = j \circ \phi$ where $\phi: X_0 \to Y_0$ is a simplicial map and $j: Y_0 \to {|Y|}$ is the natural inclusion. 
 
-We may then define a general _subdivision_ (not necessarily an iterated barycentric subdivision) of a simplicial complex $X$ to be a simplicial complex $X'$ such that 
+We may then define a general _subdivision_ (not necessarily an iterated barycentric [[subdivision]]) of a simplicial complex $X$ to be a simplicial complex $X'$ such that 
 
 * Vertices of $X'$ are points of ${|X|}$, 
 
@@ -32,4 +28,30 @@ We may then define a general _subdivision_ (not necessarily an iterated barycent
 
 * The linear map $\tilde{i}: {|X'|} \to {|X|}$ induced from the inclusion $i: X' \hookrightarrow {|X|}$ is a homeomorphism. 
 
-(to be continued) 
+Often one treats such $\tilde{i}$ as an identity map. 
+
++-- {: .num_defn} 
+###### Definition 
+Let $X, Y$ be simplicial complexes, and let $f: {|X|} \to {|Y|}$ be a continuous map. A simplicial map $\phi: X \to Y$ is a **simplicial approximation** to $f$ if $f(\alpha) \in {|s|}$ implies ${|\phi|}(\alpha) \in {|s|}$. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+Suppose $\phi: X \to Y$ is a simplicial approximation to a map $f: {|X|} \to {|Y|}$, and suppose $f = {|\phi|}$ on a subset $A \subseteq {|X|}$. Then there is a homotopy ${|\phi|} \simeq f \; rel \; A$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Define the homotopy $H$ by $H(\alpha, t) = t f(\alpha) + (1-t){|\phi|}(\alpha)$. This makes sense since if $f(\alpha) \in {|s|}$, then ${|\phi|}(\alpha) \in {|s|}$ and ${|s|}$ is closed under convex combinations. Clearly $H(\alpha, t) = f(\alpha)$ for all $t$ on a set where $f$ and ${|\phi|}$ agree. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+Given simplicial pairs $(X, A)$, $(Y, B)$ and a map of pairs $f: ({|X|}, {|A|}) \to ({|Y|}, {|B|})$, there is a subdivision $i: (X', A') \hookrightarrow ({|X|}, {|A|})$ and a simplicial approximation $\phi: (X', A') \to (Y, B)$ to $f \circ \tilde{i}: ({|X'|}, {|A'|}) \to ({|Y|}, {|B|})$. 
+
+Moreover, if $(X, A)$ is a finite simplicial pair, we may choose the subdivision to be an iterated barycentric subdivision $(sd^n X, sd^n A)$ for any sufficiently large $n$ (given $f$). 
+=-- 
+
+## References 
+
+* Edwin Spanier, _Algebraic Topology_, McGraw-Hill. 
