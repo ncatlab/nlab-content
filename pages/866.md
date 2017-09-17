@@ -82,8 +82,16 @@ As a [[function]] may be seen as a functional, entire relation, so the category 
 Most of the preceding makes sense in any [[category]] with enough [[product]]s; giving rise to [[internal relation|internal relations]]. Probably the trickiest bit is the definition of composition of binary relations, so not every category with finite products has an [[allegory]] of relations.  In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [[regular category|regular]].  It can then be recovered from this allegory by looking at the functional and entire relations.
 
 
+[[!redirects relation]]
 [[!redirects relations]]
-[[!redirects binary relation]]
-[[!redirects binary relations]]
 [[!redirects relation theory]]
 [[!redirects theory of relations]]
+
+[[!redirects nullary relation]]
+[[!redirects nullary relations]]
+
+[[!redirects unary relation]]
+[[!redirects unary relations]]
+
+[[!redirects binary relation]]
+[[!redirects binary relations]]
