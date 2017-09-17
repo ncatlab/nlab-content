@@ -46,6 +46,11 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
   This may be understood as a special case of an [[algebra over a Lawvere theory]], here the [[Lawvere theory]] [[CartSp]].
 
+## Properties
+
+### Tannaka duality
+
+[[!include structure on algebras and their module categories - table]]
 
 ## Related concepts
 
