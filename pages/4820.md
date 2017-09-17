@@ -187,6 +187,16 @@ The CS 7-bundle as an [[circle n-bundle with connection|circle 7-bundle with con
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Hisham Sati]], _[[schreiber:Cech cocycles for differential characteristic classes]]_
 
+and identified as part of the [[11-dimensional supergravity]] Chern-Simons terms after [[KK-reduction]] on $S^4$ to [[7-dimensional supergravity]] (for [[AdS/CFT]] duality with the [[M5-brane]] [[worldvolume]] [[6d (2,0)-superconformal QFT|6d (2,0)-superfonformal]] [[schreiber:∞-Wess-Zumino-Witten theory]]) in
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_
+
+
+
 [[!redirects Chern-Simons circle 7-bundle]]
 
 [[!redirects Chern-Simons circle 7-bundles]]
+
+[[!redirects universal Chern-Simons circle 7-connection]]
