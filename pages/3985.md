@@ -50,7 +50,7 @@ $$
 may be understood as exhibiting a [[localization of an (∞,1)-category|localization]] of $C$ at those morphisms that $L$ sends to [[equivalence in a quasi-category|equivalence]]s in $D$. If $L$ preserves [[finite limit]]s (is a left [[exact functor]]), then this is an **exact localization**
 
 
-### Local objects and local morphisms
+### Local objects and local morphisms {#LocalObjects}
 
 One finds, as discussed [below](#Properties), that reflective subcategories may be entirely characterized by the class of morphisms that the localization functor $Loc : C \to C$ sends to weak equivalences.
 
