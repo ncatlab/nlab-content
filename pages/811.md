@@ -1,5 +1,19 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -92,7 +106,9 @@ One expects that in this way, the $(n+1)$-category of fibered $n$-categories ove
 
 ## Related concepts
 
-A notion of fibration of [[(∞,1)-category|(∞,1)-categories]] exists in terms of [[Cartesian fibration]]s of [[simplicial set]]s.
+* [[Grothendieck fibration]]
+
+A notion of fibration of [[(∞,1)-category|(∞,1)-categories]] exists in terms of [[Cartesian fibration]]s of [[simplicial set]]s. (See also [[left fibration]], and [[right fibration]] .)
 
 
 ## References 
