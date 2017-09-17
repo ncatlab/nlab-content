@@ -52,10 +52,23 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 * [[synthetic differential geometry]]
 
 * [[derived differential geometry]]
-
 * [[Lie theory]]
 
-* some modern subfields of differential geometry: [[symplectic geometry]], [[contact geometry]], [[Riemannian geometry]], Finsler, pseudoriemannian, [[symmetric space]]s, [[Fréchet manifold]]s
+* some modern subfields of differential geometry include:
+
+  * [[symplectic geometry]], 
+
+  * [[contact geometry]], 
+
+  * [[complex geometry]],
+
+  * [[Riemannian geometry]], 
+  
+  * [[Finsler geometry]], 
+
+  * [[symmetric spaces]], 
+  
+  * [[Fréchet manifolds]]
 
  local model                |   global geometry
 ----------------------------|-----------------
