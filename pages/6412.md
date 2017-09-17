@@ -35,7 +35,7 @@ $$
 0 \longrightarrow \mathbf{Z}_p\stackrel{p^n}\longrightarrow \mathbf{Z}_p\longrightarrow p^n\mathbf{Z} \longrightarrow 0
 $$
 
-is an exact sequence of abelian groups, hence also $\mathbf{Z}_p/p^n\mathbf{Z}_p\cong \mathbf{Z}/p^n\mathbf{Z}$.
+is an [[exact sequence]] of [[abelian groups]], hence also $\mathbf{Z}_p/p^n\mathbf{Z}_p\cong \mathbf{Z}/p^n\mathbf{Z}$.
 
 An element $u$ in $\mathbf{Z}_p$ is invertible (and called a $p$-adic unit) iff $u$ is not divisible by $p$. 
 
@@ -82,7 +82,7 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 
 * [[p-adic integer]]
 
-* [[p-adic analytic space]]
+* [[p-adic analytic space]], [[non-commutative analytic space]]
 
 ## References
 
