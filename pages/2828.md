@@ -43,3 +43,5 @@ structures in profinite homotopy theory,
 category: people
 
 [[!redirects D. Sullivan]]
+[[!redirects Sullivan]]
+
