@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,7 +14,13 @@
 =--
 =--
 
-_Differential geometry_ is the [[higher geometry]] modeled on 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Differential geometry_ is the [[higher geometry|geometry]] modeled on 
 the [[pregeometry (for structured (infinity,1)-toposes)|pre-geometry]] $\mathcal{G} = $[[CartSp]].
 
 * A [[smooth manifold]] (see there for details) is a locally $CartSp$-representable object in the [[sheaf topos]] $Sh(CartSp)$.
@@ -24,8 +31,31 @@ the [[pregeometry (for structured (infinity,1)-toposes)|pre-geometry]] $\mathcal
 
 * an [[∞-Lie groupoid]] is an object in the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$.
 
-Similarly, standard models of [[synthetic differential geometry]] are [[higher geometry]] modeled on the [[pregeometry (for structured (infinity,1)-toposes)|pre-geometry]] $\mathcal{G} = $[[ThCartSp]]. To wit, the [[cohesive topos]] $Sh(ThCartSp)$ is the [[smooth topos]] called the [[Cahiers topos]].
+Similarly, standard models of [[synthetic differential geometry]] in [[higher geometry]] are modeled on the [[pregeometry (for structured (infinity,1)-toposes)|pre-geometry]] $\mathcal{G} = $[[ThCartSp]]. To wit, the [[cohesive topos]] $Sh(ThCartSp)$ is the [[smooth topos]] called the [[Cahiers topos]]:
 
 * an [[infinitesimal space]] is a certain object in $ThCartSp$;
 
 * an [[∞-Lie algebroid]] is a certain object in the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(ThCartSp)$.
+
+## Related concepts
+
+* [[synthetic differential geometry]]
+
+* [[Lie theory]]
+
+* [[Riemannian geometry]]
+
+
+
+## References
+ {#References}
+
+A comprehensive standard textbook is
+
+* Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of Differential Geometry_ , Wiley Classics Library
+
+Among online lecture notes there is
+
+* Sigmundur Gudmundsson, _An Introduction to Riemannian Geometry_ ([pdf](http://www.maths.lth.se/matematiklu/personal/sigma/Riemann.pdf))
+
+and much more (...)
