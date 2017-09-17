@@ -53,6 +53,10 @@
 
   * [[Deligne cohomology]]
 
+    * [[de Rham cohomology]]
+
+    * [[Dolbeault cohomology]]
+
   * [[etale cohomology]]
 
     * [[group of units]], [[Picard group]], [[Brauer group]]
