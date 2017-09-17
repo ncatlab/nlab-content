@@ -7,4 +7,8 @@ For 1-parameter groups of symmetries in classical mechanics, the formulation and
 
 * V. Arnold, _Mathematical methods of classical mechanics_
 
-For more general case see the books by Peter Olver. 
+For more general case see the books by Peter Olver.
+
+
+[[!redirects conservation law]]
+[[!redirects conservation laws]]
