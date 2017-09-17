@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The loop contributions of [[Feynman diagrams]] are typically would-be [[traces]] over inverse powers $H^{-n}$ of the relativistic particle [[Hamiltonian]].
+
+For instance for the free [[scalar particle]] of [[mass]] $m$ in 4d [[Minkowski spacetime]] the 1-loop term is 
+
+$$
+  \propto \int d^4 \; \mathbf{p} \frac{1}{\mathbf{p}^2+ m^2}
+$$
+
+where the integral would naively be over all of $\mathbb{R}^4$, which is of course not well defined. The integrand here is typically called the _Feynman  propagator_ or _propagator_ for short (e.g. [Kleinert 11, 8.1](#Kleinert11)). 
+
+Several methods are considered for _[[regularization (physics)|regularizing]]_, hence making sense of it as a finite expression. One of these is [[zeta function regularization]]. Here one notices that the [[zeta function of an elliptic differential operator|zeta function]] of the [[wave operator]]/[[Laplace operator]] $H = \mathbf{p}^2 + m^2$ is well-defined for $\Re(s) \gt 1$ by the naive [[trace]]
+
+$$
+  \zeta_H(s)\coloneq Tr( H^{-s} )
+$$
+
+and defined from there by [[analytic continuation]] on allmost all of the [[complex plane]]. The [[special values of L-functions|special value]] at $s = 1$ (or its [[residue]]) is the regularized Feynman propagator.
+
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
+
+## References
+
+* {#Kleinert11} [[Hagen Kleinert]], V. Schulte-Frohlinde, _Critical properties of $\phi^4$-Theories_ 2001 ([pdf](http://users.physik.fu-berlin.de/~kleinert/b8/psfiles/08.pdf))
