@@ -1,0 +1,4 @@
+
+* [webpage](http://www.math.buffalo.edu/~dimock/)
+
+category: people
