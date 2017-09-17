@@ -31,3 +31,4 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 
 * [[twisted ordinary cohomology]]
 
+* [[affine modality]]
