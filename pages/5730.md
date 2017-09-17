@@ -54,6 +54,8 @@ A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Y
 
 ### Other examples
 
+* [[Riemann sphere]]
+
 * [[Stein manifolds]]
 
 ## Related concepts
