@@ -1,0 +1,3 @@
+##Dilatino##
+
+It is the [superpartner](http://ncatlab.org/nlab/show/supersymmetry) of the [dilaton](http://ncatlab.org/nlab/show/dilaton). It combines with the [axion](http://en.wikipedia.org/wiki/Axion) to form a complex scalar field.
