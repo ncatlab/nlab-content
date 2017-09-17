@@ -17,11 +17,15 @@ In an $n$-[[n-category|category]], or most generally an $\infty$-[[infinity-cate
 
 ## Definition
 
-In a [[geometric model of higher categories]], the $k$-morphisms are literally $k$-cells in the sense of a [[simplicial set]].  In any case, all models of higher categories have them.
+All notions of higher category have $k$-morphisms, but the shapes may depend on the model (or theory) employed. 
 
+For a simplicially based [[geometric model of higher categories]], i.e., simplicial sets subject to some filler conditions, the $k$-morphisms are literally $k$-cells in the sense of a [[simplicial set]]. This applies for example to [[quasi-category|quasi-categories]], weak $n$-categories in the sense of Street, and the weak complicial sets of Verity. In other geometric models, based not on simplices but on other shapes such as [[opetope|opetopes]] (Baez-Dolan), [[multitope|multitopes]] (Hermida-Makkai-Power), or $n$-[[Theta category|disks]] (Joyal), a higher category is a presheaf 
 
+$$X: Shapes^{op} \to Set$$ 
 
-Every $k$-morphism $f$ has a $(k-1)$-morphism $\sigma f$ as its [[source]] and a $(k-1)$-morphism $\tau f$ as its [[target]].  The source $(k-2)$-morphisms $\sigma \sigma f$ and $\sigma \tau f$ must be the same (or at least [[equivalence|equivalent]] in a coherent fashion, although for most models of higher categories they are strictly [[equality|equal]]), as must the target $(k-2)$-morphisms $\tau \sigma f$ and $\tau \tau f$.
+again subject to some filler conditions, and in each case $k$-morphisms are elements of $X(\sigma)$ where $\sigma$ is a shape of dimension $k$. Still other shapes (e.g., [[cubical category|cubes]]) are possible (see also [[n-fold category]]). 
+
+Many notions of algebraic higher category, such as those due to Batanin, Leinster, Penon, and Trimble, are algebras over certain [[globular operad|globular operads]], so that each higher category $X$ is a structure on an underlying [[globular set]] $U(X)$. In that case, the $k$-morphisms are the $k$-cells of $U(X)$. In such globularly based definitions, every $k$-morphism $f$ has a $(k-1)$-morphism $\sigma f$ as its [[source]] and a $(k-1)$-morphism $\tau f$ as its [[target]], and the source $(k-2)$-morphisms $\sigma \sigma f$ and $\sigma \tau f$ must be the same, as must the target $(k-2)$-morphisms $\tau \sigma f$ and $\tau \tau f$.
 
 A $1$-morphism may simply be called a [[morphism]]; a $0$-morphism is an [[object]].
 
