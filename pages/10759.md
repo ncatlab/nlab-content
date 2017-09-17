@@ -1138,6 +1138,18 @@ Let $\mathcal{C} = Spec^{op}$ be the opposite (∞,1)-category of spectra, let $
 
 =--
 
++-- {: .num_example #SpectralSequenceOfASimplicialStableHomotopyType}
+###### Example
+
+
+For $\mathcal{C}$ a [[stable (∞,1)-category]] and $X_\bullet$ a [[simplicial object in an (∞,1)-category]] in $\mathcal{C}$, then the [[simplicial skeleta]] of $X$ give it the structure of a [[filtered object in an (∞,1)-category]]. The corresponding [[spectral sequence of a filtered stable homotopy type]] has as its first page the [[Moore complexes]] of the corresponding [[simplicial objects]] of [[homotopy groups]].
+
+See at _[[spectral sequence of a simplicial stable homotopy type]]_.
+
+=--
+
+As a special case of example \ref{SpectralSequenceOfASimplicialStableHomotopyType} we have:
+
 +-- {: .num_example }
 ###### Example
 
