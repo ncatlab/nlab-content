@@ -1,8 +1,6 @@
 
 **[[topos theory]]**
 
-**[[Elephant|Sketches of an Elephant]]**
-
 ## Background
 
 * [[category theory]]
@@ -38,7 +36,12 @@
       * [[sheaf]]
 
       * [[sheafification]]
-  
+
+* [[quasitopos]]
+
+
+## Internal Logic
+
   * [[internal logic]]
 
     * [[type theory]]
@@ -47,9 +50,7 @@
 
     * [[natural numbers object]]
 
-* [[quasitopos]]
-
-
+  
 ## Topos morphisms
 
 * [[geometric morphism]]
@@ -75,6 +76,7 @@
   * [[hyperconnected geometric morphism]]
 
 * [[logical morphism]]
+
 
 ## Extra stuff, structure, properties
 
