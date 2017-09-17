@@ -1,4 +1,5 @@
-For now, see [Wikipedia](http://en.wikipedia.org/wiki/Zamolodchikov_equation).
 
+
+see _[[Knizhnik-Zamolodchikov equation]]_
 
 [[!redirects Zamolodchikov equation -- history]]
