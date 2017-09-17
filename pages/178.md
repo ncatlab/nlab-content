@@ -4450,7 +4450,10 @@ in $\infty Grpd$\,.
 
 ## References
 
-> ... to be done ... not even close to a beginning of anything comprehensive ...
+A discussion of $\infty$-Lie groupoids as $(\infty,1)$-sheaves on $CartSp$ is in
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
+
 
 For more references see 
 
@@ -4461,7 +4464,6 @@ Some useful notes on the topic of $\infty$-stacks on the site [[Diff]] is in the
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 However, there the emphasis is on the [[localization of an (infinity,1)-category|localization]] to those $\infty$-stacks that are in fact homotopy invariant and hence collapse to discrete $\infty$-groupoids. See also [[topological ∞-groupoid]].
-
 
 The proposal for descent objects for strict $\infty$-groupoid-valued presheaves discussed in [Descent for strict infinity-groupoids](#DescentForStrictInf) appeared in 
 
