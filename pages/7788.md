@@ -30,6 +30,8 @@ A hyperbolic [[Kac-Moody Lie algebra]] in the E-series
 
 $E_{11}$ is conjectured ([West 01](#West01)) to be the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 0 dimensions.
 
+[[!include U-duality -- table]]
+
 
 ## References
 
