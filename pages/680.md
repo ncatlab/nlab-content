@@ -577,6 +577,10 @@ gives seven equivalent categories with the equivalences all expressing  nonabeli
 
 * Ashley, N., _Simplicial T-complexes and crossed complexes: a  nonabelian version of a theorem of Dold and Kan_. University of Wales PhD Thesis, (1978);  Dissertationes Math. (Rozprawy Mat.) 265 (1988) 1--61. 
 
+The relation of these with the abelian version is given in 
+
+* Brown, R. and Higgins, P.~J., _Cubical abelian groups with connections are equivalent to   chain complexes_. Homology Homotopy Appl. 5~(1) (2003) 49--52. 
+
 The discussion of Dold--Kan in the general context of [[semi-abelian category|semi-abelian categories]] is in
 
 * [[Dominique Bourn]], _Moore normalisation and Dold--Kan theorem for semi-Abelian categories_, in 
