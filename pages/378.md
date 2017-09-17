@@ -282,7 +282,7 @@ Fibrant replacement in $sSet_{Quillen}$ models the process of _$\infty$-groupoid
 
 * [[model structure on topological spaces]], [[model structure on simplicial presheaves]]
 
-* [[model structure on semi-simplicial types]]
+* [[model structure on semi-simplicial sets]]
 
 ## References 
 
