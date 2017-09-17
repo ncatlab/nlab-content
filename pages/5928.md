@@ -87,7 +87,7 @@ See [[classifying topos]] and [[locally ringed topos]] for more details on this.
 
 ## Related concepts
 
-* [[fppf site]], [[fpqc site]], [[étale site]]
+[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ [[Nisnevich site]] $\to$ **Zariski site**
 
 ## References
 
