@@ -20,15 +20,15 @@
 
 A _cohesive $(\infty,1)$-topos_ is a [[big topos|big]] [[(∞,1)-topos]] $\mathbf{H}$ that provides a context of generalized [[space]]s in which [[higher geometry]] makes sense. 
 
-It is an $(\infty,1)$-topos whose [[global section]] [[(∞,1)-geometric morphism]] $(Disc \dashv \Gamma): \mathbf{H} \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}} $ [[∞Grpd]] admits a further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ and a further right adjoint $CoDisc$: 
+It is an $(\infty,1)$-topos whose [[global section]] [[(∞,1)-geometric morphism]] $(Disc \dashv \Gamma): \mathbf{H} \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}} $ [[∞Grpd]] admits a further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ and a further right adjoint $coDisc$: 
 
 $$
-  (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : \mathbf{H} \to \infty Grpd
+  (\Pi \dashv Disc \dashv \Gamma \dashv coDdisc) : \mathbf{H} \to \infty Grpd
 $$ 
 
-with $Disc$ and $Codisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|(∞,1)-product]]s. Here
+with $Disc$ and $coFisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|(∞,1)-product]]s. Here
 
-1. the existence of $CoDisc$ induces a sub-[[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _[[concrete (∞,1)-sheaf|concrete objects]]_ that behave like [[∞-groupoid]]s _equipped with extra cohesive structure_ , such as with [[topology|continuous structure]], [[smooth structure]], etc.
+1. the existence of $coDisc$ induces a sub-[[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _[[concrete (∞,1)-sheaf|concrete objects]]_ that behave like [[∞-groupoid]]s _equipped with extra cohesive structure_ , such as with [[topology|continuous structure]], [[smooth structure]], etc.
 
 1. the existence of $\Pi$ induces a notion of [[geometric homotopy groups in an (∞,1)-topos|geometric]] [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]], hence under $|-| : \infty Grpd \simeq $ [[Top]] of [[geometric realization]] $|\Pi(-)|$ of objects in $\mathbf{H}$.
 
@@ -40,16 +40,24 @@ The existence of such an [[adjoint quadruple]] of adjoint $(\infty,1)$-functors 
 
 Examples of cohesive $(\infty,1)$-toposes include
 
+* the $(\infty,1)$-topos $\mathbf{H} = $[[Disc∞Grpd]] of [[discrete ∞-groupoid]]s; 
+
 * the $(\infty,1)$-topos $\mathbf{H} = $ [[ETop∞Grpd]] of [[Euclidean-topological ∞-groupoids]];
 
-* the $(\infty,1)$-topos $\mathbf{H} = $ [[Smooth∞Grpd]] of [[smooth ∞-groupoids]] 
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[Smooth∞Grpd]] of [[smooth ∞-groupoids]]; 
 
-* the $(\infty,1)$-topos $\mathbf{H} = $ [[SynthDiff∞Grpd]] of [[synthetic differential ∞-groupoids]].
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[SynthDiff∞Grpd]] of [[synthetic differential ∞-groupoids]];
 
-In the first the internal notion of [[Galois theory]] subsumes the usual one (over well-behaved topological spaces). In the latter also the notions of [[Lie theory]], [[differential cohomology]] and [[Chern-Weil theory]] subsume the uual ones --- and generalize them to higher smooth geoemtry.
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[Super∞Grpd]] of [[super ∞-groupoids]];
+
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[SmoothSuper∞Grpd]] of [[smooth super ∞-groupoids]].
+
+In [[ETop∞Grpd]] and those contexts containing it, the internal notions of  [[geometric realization]], [[geometric homotopy groups in an (infinity,1)-topos|geometric homotopy]] and [[Galois theory]] subsume the usual ones (over well-behaved topological spaces). In [[Smooth∞Grpd]] also the notions of [[Lie theory]], [[differential cohomology]] and [[Chern-Weil theory]] subsume the usual ones. In [[SynthDiff∞Grpd]] the internal notion of [[Lie algebra]] and [[Lie algebroid]] subsumes the traditional one --- and generalizes them to higher smooth geometry.
 
 
 ## Definition
+
+The definition is the immediate analog of the definition of a [[cohesive topos]].
 
 +-- {: .num_defn #CohesiveInfinTopos}
 ###### Definition
@@ -271,6 +279,12 @@ Examples of [[∞-cohesive site]]s are
 
 As a context for geometric spaces and paths in geometric spaces, cohesive $(\infty,1)$-toposes are a natural context in which to formulate fundamental fundamental [[physics]]. See [[higher category theory and physics]] for more on this.
 
+See also
+
+* [[∞-Chern-Weil theory]]
+
+* [[schreiber:∞-Chern-Simons theory]]
+
 
 ## Related concepts
 
@@ -311,9 +325,9 @@ Several aspects of the discussion here are, more or less explicitly, in
 {#SimpsonTeleman}
 
 For instance something similar to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the 
-[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3. The notion of geometric realization, \ref{GeometricRealization}, is touched on around remark 2.22, referring to
+[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3. The notion of geometric realization (see <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos%20--%20structures#Homotopy">structures in a cohesive (∞,1)-topos -- geometric realization</a>), is touched on around remark 2.22, referring to
 
-* [[Carlos Simpson]], _The topological realization of a simplicial presheaf_ , [arXiv:q-alg/9609004](http://arxiv.org/abs/q-alg/9609004).
+* [[Carlos Simpson]], _The topological realization of a simplicial presheaf_ , ([arXiv:q-alg/9609004](http://arxiv.org/abs/q-alg/9609004)).
  {#Simpson} 
 
 But, more or less explicitly, the presentation of geometric realization of simplicial presheaves is much older, going back to Artin-Mazur. See [[geometric homotopy groups in an (∞,1)-topos]] for a detailed commented list of literature.
