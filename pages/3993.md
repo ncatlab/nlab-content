@@ -1,11 +1,10 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A **Horn theory** is a [[theory]] in which every axiom has certain special form.
+A **Horn theory** is a [[theory]] in which every axiom has a certain special form.
 
 ## Definition
 
