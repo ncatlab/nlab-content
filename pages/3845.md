@@ -105,6 +105,10 @@ Also related are various notions of categories of shapes, including
 
 * [[compositions in cubical sets]]
 
+## Related concepts
+
+* [[pasting law]] for [[pullbacks]]/[[homotopy pullbacks]]
+
 ## References
 
 The notion of pasting in a [[2-category]] was introduced in
