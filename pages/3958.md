@@ -120,7 +120,7 @@ given by the [[over-(∞,1)-topos]] of the [[big topos|big]] [[(∞,1)-sheaf (�
 +-- {: .un_defn}
 ###### Definition
 
-Say an object $X$ in the [[sheaf topos]] $Sh(CartSp)$ (see [[diffeological space]] ) is _locally representable_ if there exists a family of [[monomorphism]]s $\{U_i \hookrightarrow X\}_{i \in X}$ with $U_i \in CartSp \stackrel{j}{\hookrightarrow} Sh(CartSp)$ such that the canonical morphism our of the [[coproduct]]
+Say a [[concret sheaf|concrete object]] $X$ in the [[sheaf topos]] $Sh(CartSp)$ -- a [[diffeological space]] -- is _locally representable_ if there exists a family of open embeddings $\{U_i \hookrightarrow X\}_{i \in X}$ with $U_i \in CartSp \stackrel{j}{\hookrightarrow} Sh(CartSp)$ such that the canonical morphism our of the [[coproduct]]
 
 $$
   \coprod_i U_i \to X
@@ -169,7 +169,7 @@ in $PSh(CartSp)$, where $S(\{U_i\})$ is the [[sieve]] corresponding to the cover
 
 Essentially by the definition of the [[coverage]] on $CartSp$, it follows that [[sheafification]] takes this subfunctor inclusion to an [[isomorphism]]. This shows that $X$ is indeed the tip of the coequalizer in $Sh(CartSp)$ as above, and hence that it is a locally representable sheaf.
 
-Conversely, suppose that for $X \in Sh(CartSp)$ there is a family of monomorphisms $\{U_i \hookrightarrow X\}$ such that we have a coequalizer diagram
+Conversely, suppose that for $X \in Conc(Sh(CartSp)) \hookrightarrow Sh(CartSp)$ there is a family of open embeddings $\{U_i \hookrightarrow X\}$ such that we have a coequalizer diagram
 
 $$
   \coprod_{i, j} U_i \times_X U_j \stackrel{\to}{\to} \coprod_{i} U_i \to X
