@@ -76,7 +76,7 @@ $$F \rightsquigarrow_\xi x \;\;\; \Leftrightarrow \;\;\; (\forall_{U \in P(S)})\
 
 Conversely, a topology $\mathcal{O}$ can be retrieved from its notion of convergence: under the ultrafilter principle, the neighborhood filter of a point $x$ is just the intersection of all ultrafilters containing it (hence all $F$ such that $F \rightsquigarrow x$), and then a set is open if it is a neighborhood of all of its elements. Accordingly, for general "notions of convergence" $\xi \in Rel(\beta S, S)$, we define a collection $\tau(\xi) \subseteq P(S)$ by 
 
-$$\tau(\xi) \coloneqq \{U \subseteq S: (x \in U \; \wedge\; F \rightsquigarrow_\xi x) \Rightarrow U \in F\}.$$ 
+$$\tau(\xi) \coloneqq \{U \subseteq S: \; (\forall_{F: \beta S, x: S})\; (x \in U \; \wedge\; F \rightsquigarrow_\xi x) \Rightarrow U \in F\}.$$ 
 
 +-- {: .num_prop #topology} 
 ###### Proposition 
@@ -110,15 +110,34 @@ If $\mathcal{O}$ is a topology on $S$, then $\mathcal{O} = \tau(conv(\mathcal{O}
 
 +-- {: .proof} 
 ###### Proof 
-We already have $\mathcal{O} \subseteq \tau(conv(\mathcal{O}))$ from Proposition \ref{galois}. For the other direction, we must show that any $V$ belonging to $\tau(conv(\mathcal{O}))$ is a neighborhood of each of its points. Suppose the contrary: that $x \in V$ but $V$ is not a neighborhood of $x$. Then for every neighborhood $U \in N_x$, we have $U \cap \neg V \neq \emptyset$, so that sets of this form generate a filter. Extend to an ultrafilter $F$; clearly we have $F \rightsquigarrow x$ and $\neg V \in F$, but since $F \rightsquigarrow x$ and $V \in \tau(conv(\mathcal{O}))$ and $x \in V$, we also have $V \in F$, which is inconsistent with $\neg V \in F$. 
+We already have $\mathcal{O} \subseteq \tau(conv(\mathcal{O}))$ from Proposition \ref{galois}. For the other direction, we must show that any $V$ belonging to $\tau(conv(\mathcal{O}))$ is an $\mathcal{O}$-neighborhood of each of its points. Suppose the contrary: that $x \in V$ but $V$ is not an $\mathcal{O}$-neighborhood of $x$. Then for every neighborhood $U \in N_x$, we have $U \cap \neg V \neq \emptyset$, so that sets of this form generate a filter. By the ultrafilter principle, we may extend this filter to an ultrafilter $F$; clearly we have $F \rightsquigarrow x$ and $\neg V \in F$, but since $F \rightsquigarrow x$ and $V \in \tau(conv(\mathcal{O}))$ and $x \in V$, we also have $V \in F$, which is inconsistent with $\neg V \in F$. 
 =-- 
 
-These propositions demonstrate that a topological space is a particular type of [[pseudotopological space]].  (A pseudotopological space is just a relational $\beta$-module which omits the "associativity" axiom.) All that remains is to check the unit condition 
+Propositions \ref{galois} and \ref{fix} more or less show that a topological space $(S, \mathcal{O})$ is a particular type of [[pseudotopological space]]: 
+
++-- {: .num_defn} 
+###### Definition 
+A pseudotopological space is set $S$ equipped with a relation $\xi: \beta S \to S$ such that $1_S \leq \xi \circ u_S$. 
+=--  
+
+All that remains is to check is: 
+
++-- {: .num_prop #pseudo} 
+###### Proposition 
+The lax unit condition $1_S \leq \xi \circ u_S$ holds if $\xi = conv(\mathcal{O})$, for a topology $\mathcal{O}$. 
+=-- 
+
+The unit $u_S: S \to \beta S$ may also be denoted $prin_S$, as it takes an element $x \in S$ to the principal ultrafilter 
+
+$$prin_S(x) = \{U \subseteq S: x \in U\}$$ 
+
+and now the unit condition says $prin_S(x) \rightsquigarrow_\xi x$ for all $x$. For $\xi = conv(\mathcal{O})$, this says $N_x \subseteq prin_S(x)$, or that $x \in V$ for all neighborhoods $V \in N_x$, which is a tautology. 
 
 One of our goals is to prove the following theorem: 
 
 +-- {: .num_theorem #conc} 
 ###### Theorem 
+**(Main Theorem)** 
 An arrow $\xi: \beta(S) \to S$ in $Rel$ is of the form $conv(\tau(\xi))$ if and only if the following inequalities are satisfied: 
 
 $$1_S \leq \xi \circ prin_S, \qquad \xi \circ \beta(\xi) \leq \xi \circ m_S$$ 
@@ -193,11 +212,11 @@ Referring to the pullback diagram in Remark \ref{oplax}, let $Q = R \times_Y S$ 
 
 $$\beta(R \times_Y S) \to \beta(R) \times_{\beta(Y)} \beta(S)$$ 
 
-is epic. Viewing this as a continuous map between compact Hausdorff spaces, it suffices to show that the canonical map 
+is epic. Viewing this as a continuous map between compact Hausdorff spaces (see the article on [compacta](http://ncatlab.org/nlab/show/compactum#ultrafilters_form_a_compactum_23), it suffices to show that the canonical map 
 
 $$R \times_Y S \to \beta(R) \times_{\beta(Y)} \beta(S)$$ 
 
-has a dense image (cf. the proof of Theorem \ref{free}). Let $(G, H) \in \beta(R) \times_{\beta(Y)} \beta(S)$, so that $\beta(g)(G) = \beta(h)(H)$ are the same ultrafilter $J \in \beta(Y)$. Let $\hat{A}$ and $\hat{B}$ be basic open neighborhoods of $G$ and $H$ in $\beta(R)$ and $\beta(S)$ respectively; we must show that there is $(r, s) \in R \times_Y S$ such that 
+has a dense image. Let $(G, H) \in \beta(R) \times_{\beta(Y)} \beta(S)$, so that $\beta(g)(G) = \beta(h)(H)$ are the same ultrafilter $J \in \beta(Y)$. Let $\hat{A}$ and $\hat{B}$ be basic open neighborhoods of $G$ and $H$ in $\beta(R)$ and $\beta(S)$ respectively; we must show that there is $(r, s) \in R \times_Y S$ such that 
 
 $$(prin(r), prin(s)) \in \hat{A} \times \hat{B}$$ 
 
@@ -208,9 +227,9 @@ $$J = \beta(g)(G) \coloneqq \{C \subseteq Y: g^{-1}(C) \in G\}$$
 and similarly $h(B) \in J$. It follows that $g(A) \cap h(B) \in J$ so that $g(A) \cap h(B) \neq \emptyset$. Any element $y \in g(A) \cap h(B)$ can be written as $y = g(r)$ and $y = h(s)$ for some $r \in A$ and $s \in B$, and this completes the proof. 
 =-- 
 
-## Proof of theorem \ref{conc} 
+## Proof of Main Theorem 
 
-We now resume the main line of development. 
+We now return to the task of proving theorem \ref{conc}. 
 
 +-- {: .num_remark} 
 ###### Remark 
@@ -224,10 +243,71 @@ The following conditions are equivalent:
 
 Indeed, $conv \circ \tau \circ conv = conv$ by general properties of Galois connections. Applying $conv \circ \tau$ to both sides of the first equation, we have 
 
-$$conv(\tau(\xi)) = (conv \circ \tau \circ conv)(\mathcal{O}) =  conv(\mathcal{O}) = \xi$$ 
+$$conv(\tau(\xi)) = (conv \circ \tau \circ conv)(\mathcal{C}) =  conv(\mathcal{C}) = \xi$$ 
 
-so the first equation implies the third. Which in turn implies the second, since we know that collections $\mathcal{O}$ of the form $\tau(\xi)$ are topologies. The second equation trivially implies the first. 
+so the first equation implies the third. Which in turn implies the second, since we know by proposition \ref{topology} that collections $\mathcal{O}$ of the form $\tau(\xi)$ are topologies. The second equation trivially implies the first. 
 =-- 
+
+We now break up our Main Theorem into the following two theorems. 
+
++-- {: .num_theorem} 
+###### Theorem 
+If $\xi = conv(\mathcal{O})$ for a topology $\mathcal{O}$, then the two inequalities of (eq:rel1) are satisfied. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The first inequality (lax unit condition) was already verified in proposition \ref{pseudo}. For the second (lax associativity), this translates into the condition 
+
+$$\label{conv1} \array{
+ & & (\mathcal{U}: \beta\beta S, x: S)\;\; \exists_{F: \beta S} \mathcal{U} \rightsquigarrow_{\beta(\xi)} F \; \wedge \; F \rightsquigarrow_\xi x \\ 
+ &\vdash & m_S(\mathcal{U}) \rightsquigarrow_\xi x.
+}$$ 
+
+Let us represent the relation $\xi$ by a span 
+
+$$\beta S \stackrel{\pi_1}{\leftarrow} \xi \stackrel{\pi_2}{\to} S$$ 
+
+so that $\beta(\xi)$ is represented by the span 
+
+$$\beta\beta S \stackrel{\beta(\pi_1)}{\leftarrow} \beta(\xi) \stackrel{\beta(\pi_2)}{\to} \beta S.$$ 
+
+Meanwhile, recall that $\beta(\pi_1)(\mathcal{G})$ for $\mathcal{G} \in \beta(\xi)$ is defined to be 
+
+$$\{W \subseteq \beta S: \pi_1^{-1}(W) \in \mathcal{G}\}$$ 
+
+and $\beta(\pi_2)(\mathcal{G})$ is defined similarly. So $\mathcal{U} \rightsquigarrow_{\beta(\xi)} F$ as in (eq:conv1) translates to the condition 
+
+$$\exists_{\mathcal{G} \in \beta(\xi)} \mathcal{U} = \{W \subseteq \beta S: \pi_1^{-1}(W) \in \mathcal{G}\} \; \wedge \; F = \{A \subseteq S: \pi_2^{-1}(A) \in \mathcal{G}\}$$ 
+
+Next, the monad multiplication $m_S: \beta \beta S \to \beta S$ is defined by 
+
+$$(\mathcal{U}: \beta\beta S) \;\; m_S(\mathcal{U}) \coloneqq \{A \subseteq S: \delta(A) \in \mathcal{U}\}$$ 
+
+where $\delta(A) = \{F \in \beta S: A \in F\}$. 
+
+Thus, (eq:conv1) translates into the following entailment:  
+
+$$\array{
+ & & \exists_{\mathcal{G}: \beta \xi, F: \beta S} \;\; \mathcal{U} = \{W \subseteq \beta S: \pi_1^{-1}(W) \in \mathcal{G}\} \; \wedge \; F = \{A \subseteq S: \pi_2^{-1}(A) \in \mathcal{G}\} \; \wedge \; N_x \subseteq F \\ 
+ & \vdash & 
+\forall_{U: P S} U \in N_x \Rightarrow \delta(U) \in \mathcal{U}.
+}$$ 
+
+This can be condensed into the statement (treating $\mathcal{G}$ as a free variable): 
+
+$$\array{
+ & & N_x \subseteq \{A \subseteq S: \pi_2^{-1}(A) \in \mathcal{G}\} \\ 
+ & \vdash & \forall_{U: P S} U \in N_x \Rightarrow \delta(U) \in \{W \subseteq \beta S: \pi^{-1}(W) \in \mathcal{G}\}.
+}$$ 
+
+The hypothesis says that for $U \in N_x$, we have $\pi_2^{-1}(U) \in \mathcal{G}$, and from this we wish to conclude $\pi_1^{-1}(\delta(U)) \in \mathcal{G}$. This would naturally follow if 
+
+$$\forall_{U \in N_x} \pi_2^{-1}(U) \subseteq \pi_1^{-1}(\delta(U)).$$ 
+
+But a pair $(F, y)$ belongs to $\pi_2^{-1}(U)$ if $F \rightsquigarrow_\xi y$ and $y \in U$; we want to show this implies $F = \pi_1(F, y)$ belongs to $\delta(U)$, or in other words that $U \in F$. But this is tautological, from how convergence is defined in terms of a topology. 
+=--
+
 
 ## Properties
 
