@@ -1,3 +1,7 @@
+# Categories in SEAR
+* table of contents
+{: toc}
+
 ## Outline
 
 In response to a [request](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c027419), this page explains how to define a [[small category]] using [[SEAR]] as [[foundations]].  Note that, while SEAR speaks no [[evil]] in that one cannot compare arbitrary sets for equality, it has no provision for small types with no notion of equality.  Thus we will be formalising small [[strict category|strict categories]], and it will be possible to say evil things about them.
@@ -37,3 +41,9 @@ Take a relation $m : U \looparrowright E$ as the _family of small sets_.  Then a
 +-- {: .standout}
 Hopefully it\'s obvious, but this not completed.  It would be nice to carry the development to the point that, given any family of sets, the relatively small categories in this sense form a category in the above sense.
 =--
+
+
+[[!redirects category in SEAR]]
+[[!redirects categories in SEAR]]
+[[!redirects SEAR category]]
+[[!redirects SEAR categories]]
