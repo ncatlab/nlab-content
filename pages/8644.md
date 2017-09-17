@@ -65,6 +65,8 @@ Notice that this is precisely the argument which for $G = U(1)$ the [[circle gro
 
 ## Related concepts
 
+* [[non-perturbative effect]]
+
 * [[Yang-Mills instanton]]
 
   * [[BPTS-instanton]]
@@ -73,6 +75,9 @@ Notice that this is precisely the argument which for $G = U(1)$ the [[circle gro
  {#References}
 
 Physics-style  surveys include the introductory lecture notes
+
+* Marcos Marino, _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
+
 
 * Hilmar Forkel, _A Primer on Instantons in QCD_ ([arXiv:hep-ph/0009136](http://arxiv.org/abs/hep-ph/0009136))
  {#Forkel}
