@@ -336,6 +336,7 @@ $$
   \,.
 $$
 
+
 So finally with the [[(∞,1)-Yoneda lemma]] we have
 
 $$
@@ -454,7 +455,7 @@ And the [[model category]] theory models have been known since [[Andre Joyal]] p
 
 This work used 1-categorical [[site]]s. The generalization to [[(∞,1)-category|(∞,1)categorical sites]] -- modeled by [[model sites]] -- was discussed in
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028))
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics 193.2 (2005): 257-372. ([arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028))
 
 and "model topos"-theory was also developed in
 
