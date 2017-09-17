@@ -23,7 +23,7 @@ Modal logics have semantics given in terms of [[frame (modal logic)|Kripke frame
 
 The modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ in to the usual propositional logics. (For the moment, these will be unary operators and we will not be considering operators that have more than one input. The general case is discussed in the books on modal logic listed below.)
 
-## Multimodal Logics## 
+## Modal Languages## {#modal+language}
 
 We will give a modal language with $n$ modal operators, $\Diamond_i$, $i = 1,\ldots, n$, which can  be applied to propositions of the language to form new propositions.  If $n=1$, we will refer to the language, defined below,  as the _basic modal language_.
 
@@ -58,9 +58,11 @@ where the $p_\lambda$ are the propositional variables ordered by finite ordinals
 
 1. Another formulation replaces $\vee$ and $\neg$ by implication $\phi_1\to \phi_2$.
 
+
+Modal logics
 +--{: .un_defn}
 ######Definition ######
-A **logic** in $\mathcal{L}_\omega(n)$ is any set $\Lambda$ of $\mathcal{L}_\omega(n)$-formulae such that   
+A **modal logic** in $\mathcal{L}_\omega(n)$ is any set $\Lambda$ of $\mathcal{L}_\omega(n)$-formulae such that   
 
 * $\Lambda$ includes all $\mathcal{L}_\omega(n)$-formulae that are instances of tautologies, 
  
