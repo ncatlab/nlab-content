@@ -1,5 +1,9 @@
 
-**[[type theory]]** ([[dependent type theory|dependent]], [[intensional type theory|intensional]], [[homotopy type theory]])
+**[[natural deduction]]**
+
+**[[type theory]]** 
+
+([[dependent type theory|dependent]], [[intensional type theory|intensional]], [[homotopy type theory]])
 
 **[[syntax]]**
 
