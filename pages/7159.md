@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[derived geometry]] corresponding to [[differential geometry]]: over the [[Lawvere theory]] for [[smooth algebra]]s ($C^\infty$-rings):
+
+See
+
+* [[smooth (∞,1)-algebra]], [[simplicial C-∞-ring]]
+
+* [[derived smooth manifold]]
+
+* [[derived critical locus]]
+
+## References
+
+* _[[schreiber:Seminar on derived differential geometry]]_
+
