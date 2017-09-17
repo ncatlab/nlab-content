@@ -90,7 +90,7 @@ Let $X$ be a [[compact space|compact]] [[Hausdorff space|Hausdorff]] [[topologic
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
 ###### Lemma
 
-For every vector bundle $E \to X$ (with $X$ compact Hausdorff) there exists a vector bundle $E' \to X$ such that 
+For every vector bundle $E \to X$ (with $X$ [[compact space|compact]] [[Hausdorff space|Hausdorff]]) there exists a [[vector bundle]] $E' \to X$ such that 
 
 $$
   E \oplus E' \simeq I^{rank E + rank E'}
@@ -167,11 +167,12 @@ is isomorphic to a trivial bundle for some $n$. This is the case by lemma \ref{D
 +-- {: .num_prop #EquivalenceToGrothendieckGroup}
 ###### Proposition
 
-$K(X)$ is isomorphic to the [[Grothendieck group]] of $(Vect(X), \oplus)$.
+$\tilde K(X)$ is isomorphic to the [[Grothendieck group]] of $(Vect(X), \oplus)$.
 
 =--
 
 However, def. \ref{DefinitionOfKClasses} is more directly related to the definition of K-theory by a classifying space, hence by a [[spectrum]]. This we discuss [below](#ClassifyingSpace).
+
 
 ## Properties
 
@@ -277,13 +278,13 @@ But there is the group $U(\mathcal{H})_{\mathcal{K}} \subset U(\mathcal{H})$ of 
 
 Write $\mathbb{Z}$ for the set of [[integer]]s regarded as a [[discrete topological space]].
 
-The product space
+The product spaces
 
 $$
-  B U \times \mathbb{Z}
+  B O \times \mathbb{Z}\,,\;\;\;\;\;B U \times \mathbb{Z}
 $$
 
-is a [[classifying space]] for complex $K$ theory: for every compact Hausdorff topological space $X$, we have an isomorphism of groups
+are [[classifying space]]s for real and complex $K$-theory, respectively: for every compact Hausdorff topological space $X$, we have an isomorphism of groups
 
 $$
   \tilde K(X)
@@ -302,8 +303,47 @@ $$
 
 =--
 
-See ([Friedlander, prop. 3.2](#Friedlander)).
+See for instance ([Friedlander, prop. 3.2](#Friedlander)) or ([Karoubi, prop. 1.32, theorem 1.33](#Karoubi)).
 
++-- {: .proof}
+###### Proof
+
+First consider the statement for reduced cohomology $\tilde K(X)$:
+
+Since a [[compact topological space]] is a [[compact object]] in [[Top]] (and using that the [[classifying space]]s $B U(n)$ are (see there) [[paracompact topological space]]s, hence normal, and since the inclusion morphisms are closed inclusions (...)) the [[hom-functor]] out of it commutes with the [[filtered colimit]]
+
+$$
+  \begin{aligned}
+    Top(X, B U)
+    &=
+    Top(X, {\lim_\to}_n B U(n))
+    \\
+    & \simeq {\lim_\to}_n Top(X, B U (n))
+  \end{aligned}
+  \,.
+$$
+
+Since $[X, B U(n)] \simeq U(n) Bund(X)$, in the last line the colimit is over [[vector bundle]]s of all ranks and identifies two if they become isomorphic after adding a trivial bundle of some finite rank.
+
+For the full statement use that by prop. \ref{missing} we have
+
+$$
+  K(X) \simeq H^0(X, \mathbb{Z}) \oplus \tilde K(X)
+  \,.
+$$
+
+Because $H^0(X,\mathbb{Z}) \simeq [X, \mathbb{Z}]$ it follows that
+
+$$
+  H^0(X, \mathbb{Z}) \oplus \tilde K(X)
+  \simeq
+  [X, \mathbb{Z}] \times [X, B U]
+  \simeq
+  [X, B U \times \mathbb{Z}]
+  \,.
+$$
+
+=--
 
 
 ### Spectrum 
@@ -322,6 +362,8 @@ Introductions are in
 * [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
  {#Friedlander}
 
+
+* [[Max Karoubi]], _K-theory: an introduction_ 
 
 A discussion of the topological K-theory of [[classifying space]]s of [[Lie group]]s is in 
 
