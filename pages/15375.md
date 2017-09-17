@@ -9,6 +9,22 @@ A [[normed algebra]] that is a [[field]].
 
 If [[complete space|complete]] then: a _complete normed field_.
 
+
+## Examples
+
+* Every [[field]] carries the trivial norm constant on 1 (which is [[non-archimedean]]) and is complete with respect to this norm 
+
+
+
+## Properties
+
+### Relation to algebraic closure
+ {#RelationToAlgebraicClosure}
+
+The norm of a [[non-archimedean field]] extends uniquely to its [[algebraic closure]] and the completion of that with respect to this norm is still algebraically closed ([Bosch-Guntzer-Remmert 84, prop. 3.4.1.3](#BoschGuntzerRemmert84)).
+
+For example the [[p-adic complex numbers]] $\mathbb{C}_p$ arise this way from the [[p-adic rational numbers]] $\mathbb{Q}_p$.
+
 ## Related concepts
 
 * [[normed division algebra]]
@@ -19,7 +35,11 @@ If [[complete space|complete]] then: a _complete normed field_.
 
 ## References
 
+
+
 * {#Tornheim52} Leonard Tornheim, _Normed fields over the real and complex fields_, Michigan Math. J. Volume 1, Issue 1 (1952), 61-68. ([Euclid](http://projecteuclid.org/euclid.mmj/1028989727))
+
+* {#BoschGuntzerRemmert84} S. Bosch, U. Guntzer, and R. Remmert, _Non-Archimedean analysis_, Grundlehren der Mathematischen Wissenschaften, vol. 261, Springer-Verlag, Berlin, 1984.
 
 [[!redirects normed fields]]
 
