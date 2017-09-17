@@ -26,7 +26,7 @@ A *strongly $\infty$-connected site* is a [[site]] satisfying sufficient conditi
 ###### Definition
 
 
-Let $C$ be a locally and globally [[∞-connected site]]; we say it is a **strongly $\infty$-connected site** if it is also a [[cosifted (∞,1)-category]].
+Let $C$ be a [[∞-connected site|∞-connected locally ∞-connected site]]; we say it is a **strongly $\infty$-connected site** if it is also a [[cosifted (∞,1)-category]].
 
 =--
 
