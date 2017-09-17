@@ -616,6 +616,7 @@ and in codimension 2 ([[Wess-Zumino-Witten model]]) implicitly in
 * [[Anton Alexeev]], [[Harald Grosse]], [[Volker Schomerus]], _Combinatorial quantization of the Hamiltonian Chern-Simons theory_ ([pdf](http://www.mat.univie.ac.at/~esiprpr/esi079.pdf))
 
 #### Perturbative quantization
+ {#ReferencesPerturbativeQuantization}
 
 Discussion of quantization using [[perturbation theory]] is in 
 
@@ -624,6 +625,21 @@ Discussion of quantization using [[perturbation theory]] is in
   _Chern-Simons Perturbation Theory_ ([arXiv:hep-th/9110056](http://arxiv.org/abs/hep-th/9110056))
 
   _Chern--Simons Perturbation Theory II_ ([arXiv](http://arxiv.org/abs/hep-th/9304087))
+
+Discussion in terms of [[BV-BRST formalism]] is in 
+
+* [[Anton Alekseev]], Yves Barmaz, [[Pavel Mnev]], _Chern-Simons Theory with Wilson Lines and Boundary in the BV-BFV Formalism_ ([arXiv:1212.6256](arxiv.org/abs/1212.6256))
+
+based on 
+
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_ ([arXiv:1201.0290](http://arxiv.org/abs/1201.0290))
+
+
+On p. 3 there it says:
+
+> There is a consensus that perturbative quantization of the classical Chern-Simons theory gives the same asymptotical expansions as the combinatorial topological field theory based on quantized universal enveloping algebras at roots of unity (45), or, equivalently, on the modular category corresponding to the Wess-Zumino-Witten conformal field theory (56, 42) with the first semiclassical computations involving torsion made in (56). However this conjecture is still open despite a number of important results in this direction, see for example (47, 3).
+  
+> One of the reasons why the conjecture is still open is that for manifolds with boundary the perturbative quantization of Chern-Simons theory has not been developed yet. On the other hand, for closed manifolds the perturbation theory involving Feynman diagrams was developed in (32, 27, 7) and in (5, 35, 13). For the latest development see (19). Closing this gap and developing the perturbative quantization of Chern-Simons theory for manifolds with boundary is one of the main motivations for the project started in this paper.
 
 
 #### As second quantization of the A- or B-model
