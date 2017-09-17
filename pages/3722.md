@@ -39,6 +39,8 @@ The idea is that this subspace is the part of $X$ which does not involve $U$ (he
 
 ## Related concepts
 
+* [[open subset]], [[clopen subset]]
+
 * [[closed cover]]
 
 * [[Moore closure]]
