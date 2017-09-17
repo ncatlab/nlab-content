@@ -24,7 +24,7 @@ Some things I am considering trying to write about, or contribute to. (This is m
 J.M.F. Castillo. The hitchhiker guide to categorical Banach space theory. Part I.
 Extracta Math. 25(2) (2010), 103--149.
 
-(Currently freely available on the [journal's website](http://www.eweb.unex.es/eweb/extracta/)[.](http://www.careersay.com) )
+(Currently freely available on the [journal's website](http://www.eweb.unex.es/eweb/extracta/) )
 
 category: people
 
