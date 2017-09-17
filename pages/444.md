@@ -413,10 +413,9 @@ For many purposes it is convenient to conceive categories and especially [[∞-c
 ###Internal nerve###
 A variant of the nerve construction can also be applied _internally_ within a category, to any internal category, see the discussion at [[internal category]].
 
-## References
 
 
-### Related concepts
+## Related concepts
 
 * [[monad with arities]]
 
@@ -426,7 +425,10 @@ A variant of the nerve construction can also be applied _internally_ within a ca
 
 * [[homotopy coherent nerve]]
 
-### Articles
+* [[dg-nerve]]
+
+
+## References
 
 * [[W. G. Dwyer]], [[D. M. Kan]], Singular functors and realization functors, Nederl. Akad. Wetensch. Indag. Math. 46 (1984), no. 2, 147--153. [pdf](http://www.nd.edu/~wgd/Dvi/SingularAndRealization.pdf)
 
