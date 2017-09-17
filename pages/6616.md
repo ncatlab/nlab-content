@@ -4,16 +4,22 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
-+--{: .hide}
-[[!include infinity-Lie theory - contents]]
-=--
 #### Symplectic geometry
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
 =--
 =--
+=--
+
+
 
 
 #Contents#
@@ -71,6 +77,10 @@ $$
 from the [[Lie integration]] of $\mathfrak{a}$ to the de Rham coefficient object: this is an $(n+2)$-form on a [[smooth ∞-groupoid]] (as discussed at [smooth ∞-groupoid -- structures -- de Rham cohomology](http://ncatlab.org/nlab/show/smooth+infinity-groupoid+--+structures#StrucDeRham)) and hence equips $\exp(\mathfrak{a})$ with the structure of a symplectic $\infty$-groupoid. 
 
 We spell this out in some special cases.
+
+### $n = 0$ -- Symplectic manifolds
+
+A [[symplectic Lie n-algebroid|symplectic Lie 0-algebroid]] is simply a [[symplectic mannifold]], and so is its [[Lie integration]].
 
 ### $n = 1$ -- Symplectic groupoids from Poisson Lie algebroids
 
@@ -245,6 +255,7 @@ This completes the proof.
 ## Geometric quantization of symplectic $\infty$-groupoids
 
 ### Idea
+ {#GeometricQuantizationIdea}
 
 The notion of _[[symplectic manifold]]_ formalizes in [[physics]] the notion of a _[[classical mechanical system]]_ . The notion of _[[geometric quantization]]_ of a symplectic manifold is one formalization of the general concept in physics of _[[quantization]]_ of such a system to a [[quantum mechanical system]]. 
 
@@ -268,12 +279,75 @@ There is a natural formalization of these higher symplectic structures in the co
 We shall show below that all notions of geometric quantization of symplectic $\infty$-groupoids have a natural interpretation in terms of these canonical structures. For instance the higher "prequantum line bundle" is nothing but the [[circle n-bundle with connection]] that the [[∞-Chern-Weil homomorphism]] assigns to the symplectic form, regarded as an $L_\infty$-[[invariant polynomial]], and the corresponding "[[holographic principle|holographic]]" [[TQFT]] -- the _[[AKSZ sigma-model]]_ -- is that given by the induced [[schreiber:∞-Chern-Simons theory|∞-Chern-Simons functional]].
 
 
+### Prequantum circle $(n+1)$-bundle 
+ {#PrequantumBundles}
+
+Let $(X, \omega)$ be a symplectic $\infty$-groupoid. Then $\omega$ represents a class
+
+$$
+  [\omega] \in H^{n+2}_{dR}(X)
+  \,.
+$$
+
+We say this form is _integral_ if it is in the image of the [[curvature]]-projection 
+
+$$
+  curv : H^{n+1}_{diff}(X,U(1)) \to H^{n+2}_{dR}(X)
+$$
+
+from the [[ordinary differential cohomology]] of $X$.
+
+In this case we say a **prequantum [[circle n-bundle with connection|circle (n+1)-bundle with connection]]** for $(X,\omega)$ is a lift of $\omega$ to $\mathbf{H}_{diff}(X, \mathbf{B}^{n+1}U(1))$.
+
+Write $\hat X \to X$ for the underlying [[circle n-group|circle (n+1)-group]]-[[principal ∞-bundle]].
+
++-- {: .num_prop}
+###### Proposition
+
+If $(X, \omega)$ indeed comes from the [[Lie integration]] of a [[symplectic Lie n-algebroid]] $(\mathfrak{P}, \omega)$ such that the [[period]]s of the [[L-∞ cocycle]] $\pi$ that $\omega$ [[Chern-Simons element|transgresses to]] are integral, then $\hat X$ is the [[Lie integration]] of the [[L-∞ extension]] 
+
+$$
+  b^{n}\mathbb{R} \to  \hat \mathfrak{P} \to \mathfrak{P}
+$$
+
+classified by $\pi$:
+
+$$
+  \hat X \simeq \tau_{n+1} \exp(\hat \mathfrak{P})
+  \,.
+$$
+
+=--
+
+#### Examples
+
+##### $n= 1$ -- Ordinary prequantum line bundle
+
+See [[geometric quantization of symplectic groupoids]].
+
+##### $n = 2$ -- String Lie 2-algebra
+
+For $\mathfrak{g}$ a [[semisimple Lie algebra]] with  quadratic [[invariant polynomial]] $\omega$, the pair $(b \mathfrak{g}, \omega)$ is a [[symplectic Lie n-algebroid|symplectic Lie 2-algebroid]] ([[Courant Lie 2-algebroid]]) over the point.
+
+In this case the infinitesimal prequantum line 2-bundle is the [[delooping]] of the [[string Lie 2-algebra]]
+
+$$
+  \widehat b \mathfrak{g} \simeq b \mathfrak{string}
+$$
+
+and the prequantum [[circle n-group|circle 2-group]] [[principal 2-bundle]] is the [[delooping]] of the [[smooth string 2-group]]
+
+$$
+  (\hat X \to X) = 
+  (\mathbf{B}String \to \mathbf{B}G)
+  \,.
+$$
 
 ### Details
 
 (...)
 
-> under construction
+> to be merged / absorbed / rewritten
 
 We discuss the [[geometric quantization]] of symplectic $\infty$-groupoids by generalizing the [[geometric quantization of symplectic groupoids]].
 
@@ -344,3 +418,6 @@ Some ingredients for the geometric quantization of symplectic Lie $n$-algebroids
 [[!redirects symplectic ∞-groupoid]]
 [[!redirects symplectic ∞-groupoids]]
 [[!redirects symplectic infinity-groupoids]]
+
+[[!redirects geometric quantization of symplectic ∞-groupoids]]
+[[!redirects geometric quantization of symplectic infinity-groupoids]]
