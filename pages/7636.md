@@ -15,13 +15,14 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-To a large extent, [[type theory]] and [[category theory]] overlap or are equivalent, and more generally so are [[homotopy type theory]] and [[(∞,1)-category theory]]. One may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory. 
+To a large extent, [[type theory]] and [[category theory]] overlap or are equivalent, and more generally so are [[homotopy type theory]] and [[(∞,1)-category theory]]. One may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory.
+ 
 
 ## Overview
  {#Overview}
@@ -45,6 +46,7 @@ We discuss here formalizations and proofs of the relation/equivalence between va
 * [Homotopy type theory and locally cartesian closed (∞,1)-categories](#HomotopyTypeTheory)
 
 * [Homotopy type theory with univalence and elementary (∞,1)-toposes](#HomotopyWithUnivalence)
+
 
 ### First-order logic and hyperdoctrines
  {#FirstOrderLogic}
@@ -70,6 +72,7 @@ $$
 =--
 
 ([Seely, 1984a](#SeelyA))
+
 
 ### Dependent type theory and locally cartesian closed categories
  {#DependentTypeTheory}
@@ -97,6 +100,7 @@ $$
 This was originally claimed as an [[equivalence of categories]] ([Seely, theorem 6.3](#Seely)). However, that argument did not properly treat a subtlety central to the whole subject: that [[substitution]] of [[terms]] for [[variables]] composes strictly, while its [[categorical semantics]] by [[pullback]] is by the [[universal construction|very nature]] of pullbacks only defined up to [[isomorphism]]. This problem was pointed out and a way to fix it was given in ([Curien](#Curien)) and ([Hofmann](#Hofmann)), which however lost sight of the equivalence of categories. Finally  ([Clairambault-Dybjer](#ClairambaultDybjer)) solved both problems by promoting the statement to an [[equivalence of 2-categories]].
 
 We now indicate some of the details.
+
 
 #### Type theories
 
@@ -131,6 +135,7 @@ A **[[dependent type theory]]** or **[[Martin-Löf type theory]]** $T$ is a _[[t
 
 
 =--
+
 
 #### Category of contexts
 
@@ -305,10 +310,12 @@ Given a [[locally cartesian closed category]] $C$, define the corresponding [[de
 
 (...)
 
+
 ### Homotopy type theory with univalence and elementary $(\infty,1)$-toposes
  {#HomotopyWithUnivalence}
 
 (...)
+
 
 ## References
 
@@ -361,3 +368,8 @@ A precise definition of [[elementary (infinity,1)-topos]] inspired by giving a n
 
 * [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
 
+
+[[!redirects relation between type theory and category theory]]
+[[!redirects the relation between type theory and category theory]]
+[[!redirects relation between category theory and type theory]]
+[[!redirects the relation between category theory and type theory]]
