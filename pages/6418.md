@@ -84,6 +84,7 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 * [[Witt Cohomology]]
 
 * [[Lambda-ring]]
+* [[Hochschild-Witt complex]] and Kaledin's non-commutative Witt vectors
 
 ## References
 
