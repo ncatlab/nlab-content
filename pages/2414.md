@@ -26,6 +26,8 @@ This entry here indicates how 1-dimensional [[FQFT]]s may be related to [[topolo
 > **raw material**: this are notes taken more or less verbatim in a seminar -- needs polishing
 
 
+
+
 Previous:
 
 * [[Axiomatic field theories and their motivation from topology]].
@@ -33,6 +35,13 @@ Previous:
 Next
 
 * [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## $(1,1)d$ EFTs
 
 recall the **commercial for supergeometry**  with which we ended [last time](Axiomatic field theories and their motivation from topology): the grading introduced by supergemetry makes it possible to have push-forward diagrams of the kind:
 
@@ -275,7 +284,7 @@ such that
 
 $$
   KO^*(pt) \stackrel{\simeq_{\mathbb{Q}}}{\to}
-  \maathbb{Z}[u,u^{-1}]
+  \mathbb{Z}[u,u^{-1}]
 $$
 
 $$
@@ -379,3 +388,16 @@ $$
 **question** if we don't divide out [[concordance]], do we get [[differential K-theory]] on the right?
 
 **answer** presumeably, but not worked out yet
+
+## Related concepts
+
+* [[spectral triple]]
+
+* [[spectral action]]
+
+* [[higher category theory and physics]]: <a href="http://ncatlab.org/nlab/show/higher+category+theory+and+physics#SpecStandModAndGravity">Spectral standard model and gravity</a>
+
+* **(1,1)-dimensional Euclidean field theories and K-theory**
+  
+
+* [[2-spectral triple]]
