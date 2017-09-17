@@ -103,3 +103,5 @@ Standard textbooks on [[classical mechanics]] include
 
 [[!redirects phase spaces]]
 [[!redirects covariant phase spaces]]
+
+[[!redirects reduced phase space]]
