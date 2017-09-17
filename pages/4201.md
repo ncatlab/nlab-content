@@ -34,6 +34,8 @@ if all sets $M$ have a causal complement and if
 
 (iv) there is a sequence $(Y_n)_{n=1}^{\infty}$ of mutually different subsets with $Y_n^{\perp} \neq \emptyset$ and $\bigcup Y_n = X$.
 
-The latter condition is needed to get an _unbounded_ [[poset]], the unboundedness is part of the definition of a  [[causal index set]].
+The latter condition is needed to get a _$\sigma$-bounded_ [[poset]]; the $\sigma$-boundedness is part of the definition of a  [[causal index set]].
 
+
+[[!redirects causal complement]]
 [[!redirects causal complements]]
