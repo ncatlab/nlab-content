@@ -132,6 +132,14 @@ Instead, physicists use *coarse-grained* entropy, which corresponds mathematical
 
 Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$.  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
 
+#### Gravitational entropy
+
+* gravitational entropy
+
+  * [[Bekenstein-Hawking entropy]]
+
+  * [[generalized second law of thermodynamics]]
+
 
 ## References
 {#References}
