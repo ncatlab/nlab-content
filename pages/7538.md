@@ -1,0 +1,24 @@
+
+# Line integrals
+* table of contents
+{: toc}
+
+## Idea
+
+A _line integral_ is an [[integral]] along a [[curve]].  These are also called _path integrals_ (not to be confused with the [[path integral]] in quantum field theory, which is integration over a space of curves rather than along a curve in some space) and _contour integrals_ (in [[complex analysis]]).
+
+By the modern understanding of the integration of [[differential forms]], one integrates $1$-forms ([[cotangent vector fields]]) along [[orientation|oriented]] curves, and so this would be the natural way to understand a line integral.  However, there are several slightly different line integrals, and not all of them are reducible to integration of $1$-forms along oriented curves.  Sometimes we have to fall back on more basic notions, ultimately the integration of [[pseudoform|pseudo]]-$1$-forms on a $1$-dimensional space.
+
+
+## References
+
+Here are a couple of old Usenet posts that explain how line integrals of *scalar* fields should be viewed in terms of forms and pseudoforms.
+
+* [first](https://groups.google.com/group/sci.physics.research/msg/2774cbbc982e200e)
+* [second](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90)
+
+
+[[!redirects line integral]]
+[[!redirects line integrals]]
+[[!redirects contour integral]]
+[[!redirects contour integrals]]
