@@ -22,7 +22,7 @@
 
 ## Idea
 
-An _enriched model category_ is an [[enriched category]] $C$ together with the structure of a [[model category]] on the underlying [[category]] $C_0$ such that both structures are compatible in a reasonable way.
+An _enriched model category_ is an [[enriched category]] $C$ together with the structure of a [[model category]] on the [underlying category](http://ncatlab.org/nlab/show/enriched+category#BaseChange) $C_0$ such that both structures are compatible in a reasonable way.
 
 
 ## Definition
@@ -35,7 +35,7 @@ A **$V$-enriched model category** is
 
   * which is [[power]]ed and [[copower]]ed over $V$;
 
-* with the structure of a [[model category]] on the underlying category $C_0$
+* with the structure of a [[model category]] on the [underlying category](http://ncatlab.org/nlab/show/enriched+category#BaseChange) $C_0$
 
 * such that 
 
