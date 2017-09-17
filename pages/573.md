@@ -301,7 +301,7 @@ from the generating strict $n$-categories, def. \ref{nCatGen} into its category 
 1. $i$ preserves the [fundamental pushouts](#FundamentalPushouts);
    and sends (...) to an equivalence.
 
-1. the [[base change]] [[adjoint triple]] in $Cat_{(\infty,n)}$ exists along morphisms with codomain in the image of $i$;
+1. the [[base change]] [[adjoint triple]] in $Cat_{(\infty,n)}$ exists along morphisms with codomain a [[globe]];
 
 and such that $\mathcal{C}$ is [[universal property|universal]] with respect to these properties in that for any other $j : Str n Cat_{gen} \hookrightarrow \mathcal{C}$ satisfying these three conditions it factors through $i$
 
@@ -324,6 +324,63 @@ By the first axiom, the localization demanded in the universal property is essen
 For more on this see prop. \ref{AutomorphismInfinityGroup} below.
 
 =--
+
++-- {: .num_remark #GauntIs0Truncted}
+###### Remark
+
+The gaunt $n$-categories, def. \ref{GauntStrictNCategories} are indeed among the [[n-truncated object in an (∞,1)-category|0-truncated]] objects: since we are looking at just the [[(∞,1)-category]] of $(\infty,n)$-categories, instead of more generally the $(\infty,n+1)$-category the non-invertible [[transfors]] between $n$-categories are disregarded and so if an object $X \in Cat_{(\infty,n)}$ has no non-trivial invertible cells, then for every other objeyt $Y$, the hom-$\infty$-groupoid $Cat_{(\infty,n)}(Y,X)$ is 0-truncated, hence is a set.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The first axiom in particular says that $Cat_{(\infty,n)}$ is a [[presentable (∞,1)-category]], and hence so are all its [[over-(∞,1)-category|slices]]. In view of this the [[adjoint (∞,1)-functor theorem]] says that the third condition is equivalent to [[(∞,1)-pullbacks]] 
+
+$$
+  f^* : Cat_{(\infty,n)}/_{i(G_k)} \to Cat_{(\infty,n)}/X
+$$
+
+along morphisms of the form $X \to i(G_k)$ preserving [[(∞,1)-colimits]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Without the restriction that the codomain of $f$ in the above is a [[globe]], the pullback $f^*$ will in general fail to preserves colimits. For a simple example of this, consider the [[pushout]] diagram in [[Cat]] $\hookrightarrow Cat_{(\infty,1)}$ given by
+
+$$
+  \array{
+     \Delta[0] &\stackrel{\delta_1}{\to}& \Delta[1]
+     \\
+     {}^{\mathllap{\delta_0}}\downarrow && \downarrow^{\mathrlap{\delta_0}}
+     \\
+     \Delta[1] &\stackrel{\delta_2}{\to}& \Delta[2]
+  }
+  \,.
+$$
+
+Notice that this is indeed also a [[homotopy pushout]]/[[(∞,1)-pushout]] since, by remark \ref{GauntIs0Truncted}, all objects in volved are 0-truncated.
+
+Regard this canonically as a pushout diagram in the [[slice category]] $Cat_{/\Delta[2]}$ and consider then the pullback $\delta_1^* : Cat_{/\Delta[1]} \to Cat_{/\Delta[1]}$ along the remaining face $\delta_1 : \Delta[1] \to \Delta[2]$. This yields the diagram
+
+$$
+  \array{
+     \emptyset &\stackrel{}{\to}& \emptyset
+     \\
+     {}^{}\downarrow && \downarrow^{}
+     \\
+     \emptyset &\stackrel{}{\to}& \Delta[1]
+  }
+  \,,
+$$
+
+which evidently no longer is a pushout.
+
+=--
+
+(See also the discussion [here](http://golem.ph.utexas.edu/category/2011/11/the_1category_of_ncategories.html#c040335)).
 
 #### Presentation
 
