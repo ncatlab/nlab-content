@@ -12,4 +12,7 @@
 
 The _Jones polynomial_ is a [[knot invariant]]. It is a special case of the [[HOMFLY-PT polynomial]]. See there for more details.
 
+* [[Edward Witten]], _Quantum field theory and the Jones polynomial_, Commun. Math. Phys. 121,351-399 (1989) [pdf](www.maths.ed.ac.uk/~aar/papers/witten.pdf)
+* V. F. R. Jones, _Index for subfactors_, Invent. Math. __72__, I (I983); _A polynomial invariant for links via yon Neumann algebras_, Bull. AMS __12__, 103 (1985); _Hecke algebra representations of braid groups and link polynomials_, Ann. Math. __126__, 335 (1987)
+
 category: knot theory
