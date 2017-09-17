@@ -9,7 +9,7 @@ $$
 where $(x)_0 =1$ and for positive integer $k = 1,2,\ldots$,
 
 $$
-(k)_k = x (x+1) (x+2)\cdots (x+ k-1)
+(x)_k = x (x+1) (x+2)\cdots (x+ k-1)
 $$
 
 is the shifted factorial.
