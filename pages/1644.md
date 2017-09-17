@@ -1,25 +1,97 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-## Usual notion
+## Definition
 
-The __core__ $core(C)$ of a [[category]] $C$ is its maximal [[subcategory|sub]]-[[groupoid]]: the [[subcategory]] consisting of all objects but with [[morphism]]s only the [[isomorphism]]s.
++-- {: .num_defn #CoreOfCategories}
+###### Definition
 
-We usually think of a groupoid as a special kind of category, but we can also think of a category as a groupoid equipped with additional morphisms.  (This is possible because [[Grpd]] is a [[reflective subcategory]] of [[Cat]].)  One level decategorified, we usually think in the opposite way: a [[poset]] is a [[set]] equipped with a [[partial order]], but we can also think of a set as a special kind of poset (specifically, a [[symmetric relation|symmetric]] one).
+For $C \in $ [[Cat]] a [[category]], its **core**
+
+$core(C) \in$ [[Grpd]]  
+
+is the [[groupoid]] which is the maximal [[subcategory|sub]]-[[groupoid]] of $C$: the [[subcategory]] consisting of all objects of $C$ but with [[morphisms]] only the [[isomorphisms]] of $C$.
+
+This construction extends to a 1-[[functor]]
+
+$$
+  Core \colon Cat \to Grpd
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+We usually think of a groupoid as a special kind of category, but we can also think of a category as a groupoid equipped with additional morphisms.  (This is possible because [[Grpd]] is a [[reflective subcategory]] of [[Cat]].)  One level [[decategorification|decategorified]], we usually think in the opposite way: a [[poset]] is a [[set]] equipped with a [[partial order]], but we can also think of a set as a special kind of poset (specifically, a [[symmetric relation|symmetric]] one).
+
+=--
+
+## Properties
+
+### Universal property
+
++-- {: .num_prop }
+###### Proposition
+
+The core-functor of def. \ref{CoreOfCategories} is [[right adjoint]] to the [[forgetful functor]] $U \colon Grpd \to Cat$ from groupoids to categories. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Given a [[category]] $C$ and a [[groupoid]] $A$, a [[functor]]
+
+$$
+ A \to C
+$$
+
+(hence a functor out of the underlying category $U(A)$ of $A$)
+has to send [[isomorphisms]] to isomorphisms, hence has to send every [[morphism]] of $A$ to an [[isomorphism]] in $C$. This means that it factors through the core-inclusion
+
+$$
+  A \to Core(C) \to C
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The [[left adjoint]] to $U \colon Grpd \to Cat$ is the [[localization]] functor that universally inverts every morphism in $C$. On [[nerves]] this is [[Kan fibrant replacement]].
+
+=--
+
 
 
 ## Variations and generalizations
 
 ### $\dagger$-Categories
 
-The __core__ of a [[dagger category]] consists of its unitary isomorphisms only.  This is why, for example, it makes sense to think of [[Hilb]] either as a category whose morphisms are linear maps bounded by $1$ or as a dagger category whose morphisms are all linear maps; either way, the core is the same (invertible linear maps of norm exactly $1$).
+The __core__ of a [[dagger category]] consists of its [[unitary morphism|unitary]] isomorphisms only.  This is why, for example, it makes sense to think of [[Hilb]] either as a category whose morphisms are linear maps bounded by $1$ or as a dagger category whose morphisms are all linear maps; either way, the core is the same (invertible linear maps of norm exactly $1$).
 
 
 ### Higher categories
 
 The __core__ of an $n$-[[n-category|category]] is the $n$-[[n-groupoid|groupoid]] consisting only of [[equivalence]]s at each level; the __core__ of an $\infty$-[[infinity-category|category]] is similarly an $\infty$-[[infinity-groupoid|groupoid]]: the core of a [[quasicategory]] is the maximal [[Kan complex]] inside it.
+
+For more on this see also at _[[category object in an (infinity,1)-category]]_.
 
 
 [[!redirects core]]
