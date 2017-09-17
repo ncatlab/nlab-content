@@ -1,8 +1,9 @@
+
+# Pure sets
 * toc
-{:toc}
+{: toc}
 
-
-# Motivation
+## Motivation
 
 In [[material set theory]], there is an intuitive conception of what a [[set]] is, which may be stated informally as follows: a set is a collection of sets.  Actually, it is possible to have [[urelemente]] in a material set theory, although the most common axiom systems do not allow this; in any case we can say that a *pure* set is a collection of pure sets.
 
@@ -11,7 +12,7 @@ The primary motivation for [[structural set theory]] is that this conception of 
 There is also a very practical point to this exercise: the translation between material and structural set theories.  Any model of a material set theory is already a model of a corresponding structural set theory, but we go through the yoga below to construct a model of a material set theory out a model of a structural set theory.  In particular, we must do this to prove that two set theories (one material and one structural) are equiconsistent.
 
 
-# Idea
+## Idea
 
 Taking a structural notion of [[set]] as granted, we wish to define a __pure set__ to be a set of pure sets.  On the face of it, this is a circular definition, but like many such definitions, it can be made precise in (at least) two ways: [[recursion|recursively]] and [[corecursion|corecursively]].
 
@@ -30,7 +31,7 @@ In addition, the meaning of this definition changes according to whether our [[s
   From this point of view, the definition of pure set provides a construction of a model of material set theory within a model of structural set theory: a global relation of $\in$ can be defined between pure sets which will satisfy the axioms of some material set theory.  (Of course, the sets in a model of material set theory always model a structural set theory, so this is the 'difficult' direction of the equivalence between the two types of set theory.)  Whether we use the recursive or corecursive definition determines whether the resulting material set theory will satisfy the axiom of foundation or the axiom of anti-foundation.  Note that using these two choices, the composite operation "material $\to$ structural $\to$ material" reduces to the standard proofs of the relative consistency of the axioms of foundation and anti-foundation, since the passage from material to structural requires neither one.
 
 
-# Formalisation in material set theory
+## Formalisation in material set theory
 
 In material set theory without urelements, every set is a pure set.  If there are urelements, so that not all sets are pure, then it is easy to define the class of pure sets as follows:
 
@@ -42,7 +43,7 @@ A set $x$ is **pure** if given any sequence $x_n \in x_{n-1} \in \dots \in x_1 \
 Whether this produces the well-founded pure sets or the ill-founded ones depends on whether the axiom of foundation is satisfied in the ambient set theory.
 
 
-# Formalization in structural set theory
+## Formalization in structural set theory
 
 In a structural set theory like [[ETCS]] or [[SEAR]], we can model a pure set by a graph describing its hereditary membership relation.
 
@@ -50,7 +51,8 @@ One way to state the basic theoretical idea is that the class of well-founded se
 
 The discussion which follows is phrased informally, like most mathematics.  However, it is purely structural and can be interpreted in any structural set theory.  For instance, the definition below of a "graph" as a set with a binary relation should be formalized as a set $G$ together with an injection $R \hookrightarrow N\times N$.
 
-## Membership graphs ##
+
+### Membership graphs
 
 To describe a pure set, we must give all the elements of that set, each of which is a pure set and thus must have its own elements, which are also pure sets, and so on.  A convenient way to "picture" a pure set is with a *graph*.
 
@@ -80,7 +82,7 @@ An APG gives all the data necessary to characterize a pure set $X$, and the pure
 If we want to think of these elements as pure sets themselves, then we can "externalize" them into separate APGs.  Specifically, for any node $z$ in a graph $G$, the subgraph consisting of all those nodes which admit some path to $z$ is an APG, which describes the pure set represented by $z$; we write it as $G/z$ and call it the **full subgraph** of $G$ rooted at $z$.  If $G$ is an APG and $z$ is a child of the root, we say that $G/z$ is an **immediate subgraph** of $G$.  The immediate subgraphs of $G$ represent the pure sets that are the "elements" of the pure set represented by $G$.  Thus, the APG $G$ pictures the hierarchy of elements of $X$, where each immediate subgraph $G/z$ corresponds to its root $z$, and $\to$ is interpreted as membership.
 
 
-## Examples of APGs ##
+### Examples of APGs
 
 Note that the nodes in most of the pictures below have labels, but these are for illustration only; they are *not* part of the structure defining the tree.
 
@@ -122,7 +124,7 @@ $$ \array {
 In both cases, the unique immediate subgraphs verify that $\bullet \in \bullet$.
 
 
-## Ambiguities ##
+### Ambiguities
 
 APGs are sufficient to describe all pure sets, but multiple APGs, even non-isomorphic ones, can represent the "same" pure set.  Firstly, we have so far not eliminated the possibility of duplicate branches.  For instance, the pure set $2_Z$ can also be represented as $\{\star, \star\}$:
 $$ \array {
@@ -152,13 +154,13 @@ $$ \array {
 The issue here is that the "same" pure set can occur in more than one place in the membership hierarchy of a pure set, and we have to choose whether or not to identify them in the graph.  There are three solutions to this problem:
 
 1. Demand that duplicate occurrences of a pure set always be represented separately.
-1. Demand that duplicate occurrences always be identified, wherever they occur.
-1. Define a notion of "equivalence" between APGs which is looser than isomorphism.
+2. Demand that duplicate occurrences always be identified, wherever they occur.
+3. Define a notion of "equivalence" between APGs which is looser than isomorphism.
 
 These are of course related; the first two can be seen as specifying a particular isomorphism class within each of the equivalence classes defined by the third.  In particular, they all result in equivalent notions of pure set, when they all apply.  (However, in [[predicative mathematics|predicative]] set theories, it seems that only the first method is applicable.)  We will consider them all in turn.
 
 
-## Membership trees ##
+### Membership trees
 
 A natural way to ensure that the same node is never "shared" between two occurrences is to require that our APGs be *trees*.
 
@@ -204,13 +206,13 @@ The argument for the [[axiom of extensionality]] is perhaps the most interesting
 (Note, though, that this is only the "weak" version of extensionality.  This is sufficient for well-founded sets, but we may need to strengthen rigidity somehow to obtain stronger notions of [[extensional relation|extensionality]], which are generally more appropriate for ill-founded sets.  More precisely, the well-founded rigid trees model the usual axioms of extensionality and foundation, while arbitrary rigid trees model not Aczel's axiom of anti-foundation AFA, but its "Scott" variant, SAFA.)
 
 
-## Extensional graphs ##
+### Extensional graphs
 
 The "tree" representation can be thought of as an _unwrapped_ picture; we now consider a _wrapped_ picture in which there is no duplication at all.  The natural way to ensure this is to require our graphs to be [[extensional relation|extensional]].  For well-founded graphs, this is easy: a well-founded graph is *extensional* if for any nodes $x$ and $y$ such that for all $z$, we have $z\to x$ iff $z\to y$, then necessarily $x=y$.  For non-well-founded graphs, we need the notion of "strong extensionality" defined as follows.
 
 +-- {: .un_defn}
 ###### Definition
-If $G$ and $H$ are graphs, a **bisimulation** from $G$ to $H$ is a binary relation $\sim$ from $G$ to $H$ such that for any $x\in G$ and $y\in H$ with $x\sim y$, then:
+If $G$ and $H$ are graphs, a **[[bisimulation]]** from $G$ to $H$ is a binary relation $\sim$ from $G$ to $H$ such that for any $x\in G$ and $y\in H$ with $x\sim y$, then:
 
 * For any $a\to x$, there is some $b\in H$ with $b\to y$ and $a\sim b$, and
 * For any $b\to y$, there is some $a\in G$ with $a\to x$ and $a\sim b$.
@@ -251,7 +253,7 @@ Again we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc
 Now an extensional accessible graph models a [[hereditarily finite set]] iff the graph itself is finite and $\to$ is decidable.
 
 
-## Equivalence ##
+### Equivalence
 
 Finally, we consider the third solution to the ambiguity problem, and its relation to the first two: defining a looser notion of equivalence between APGs.  Recall the notion of bisimulation.  We say that two APGs $G$ and $H$ are **equivalent** if there is a bisimulation $\sim$ from $G$ to $H$ such that $\top\sim\top$.  Note that if $\sim$ is a bisimulation from $G$ to $H$ such that $x\sim y$, then the APGs $G/x$ and $H/y$ are equivalent; this justifies the interpretation of a bisimulation.
 
@@ -289,8 +291,10 @@ In conclusion, there are two extreme ways to represent a pure set by an isomorph
 Note that the version on the left is the unwrapping of the loop; we would like a stronger version of rigidity that would rule out the version on the right.  As it is, the best that we have come up with is simply: isomorphic to the unwrapping of some extensional APG.  Technically this works, but it is not very satifsying.
 
 
-# References #
+## References
 
 *  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://standish.stanford.edu/pdf/00000056.pdf).
 
+
+[[!redirects pure set]]
 [[!redirects pure sets]]
