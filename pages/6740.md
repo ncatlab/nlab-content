@@ -20,7 +20,7 @@ As a preliminary step, consider the [[category]] $Comp Bool Alg$ of [[complete b
 
 By one definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a [[complete measure space]] $X$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $\mathcal{M}/\mathcal{N}$ of [[measurable subsets]] of $X$ modulo [[null subsets]].  (Note that the measure on $X$ is irrelevant except to specify the null subsets.)  In this way, $Meas Loc$ becomes [[equivalence of categories|equivalent]] to the category $Loc Meas$ of [[localisable measurable spaces]].
 
-By another definition, a complete boolean algebra $L$ is a __measurable locale__ if it has ['sufficiently many'](http://mathoverflow.net/questions/71259/which-complete-boolean-algebras-arise-as-the-algebras-of-projections-of-commutati) normal measures (see below) valued in $[0,\infty]$.
+By another definition, a complete boolean algebra $L$ is a __measurable locale__ if every element $x \neq 0$ of $L$ there is a normal measure (see below) $\mu$ on $L$ valued in $[0,\infty]$ such that $\mu(x) = 1$.
 
 By yet another definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a commutative $W^*$-[[W-star-algebra|algebra]] $A$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $Proj(A)$ of [[projection operator]]s in $A$; see [[idempotent operator]] for a construction of $Proj(A)$.  In this way, $Meas Loc$ becomes [[dual equivalence|dual]] to the category $Comm W^* Alg$ of commutative $W^*$-algebras.
 
