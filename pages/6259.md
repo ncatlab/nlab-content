@@ -175,6 +175,10 @@ The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of 
 
 ## References
 
+An survey and introduction is in 
+
+* [[Greg Moore]], _A Minicourse on Generalized Abelian Gauge Theory, Self-Dual Theories, and Differential Cohomology_, Lectures at Simons Center for Geometry and Physics (2011) ([pdf](http://www.physics.rutgers.edu/~gmoore/SCGP-Minicourse.pdf))
+
 Original reference on self-dual/chiral fields include
 
 * X. Bekaert, [[Marc Henneaux]], _Comments on Chiral $p$-Forms_ ([arXiv:hep-th/9806062](http://arxiv.org/abs/hep-th/9806062))
