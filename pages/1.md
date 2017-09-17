@@ -71,7 +71,7 @@ If you wish to make use of content obtained from the $n$Lab, you are free and en
 Conversely, if you contribute material to the $n$Lab, you are making it publically available and should be aware that others may use it (whatever you decide to do with it elsewhere) or, in fact, edit it. In the first case you trust that they will cite your contributions properly, in the second that they respect it and only improve on it. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
 Usually this works well. If there is need for discussion, the 
-[nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene.[loan modification](http://www.mycaal.com)
+[nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene.
 
 ## Software requirements
  {#SoftwareRequirements}
