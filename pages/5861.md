@@ -56,13 +56,9 @@ $$
   \mathbf{H}_{th}
 $$
 
-where $i_!$ is 
+where $i_!$ is  a [[full and faithful (∞,1)-functor|full and faithful]] and [[left exact (∞,1)-functor]]
 
-* a [[full and faithful (∞,1)-functor]] 
-
-* that preserves the [[terminal object in an (∞,1)-category|terminal object]] and is in fact [[left exact (∞,1)-functor|left exact]].
-
-> (need to decide if left exactness is the default condition or should go by a special name such as "exact differential cohesion").
+> This used to demand instead of left exactness just preservation of finite products, and this is still what is considered in some related entries...
 
 Equivalently this means that $(i_! \dashv i^\ast) \colon \mathbf{H}_{th} \longrightarrow \mathbf{H}$ is a [[local geometric morphism]] with a further [[right adjoint]] to the right adjoint to the [[direct image]].
 
