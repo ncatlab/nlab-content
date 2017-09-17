@@ -10,9 +10,15 @@ _$L$-functions_ are certain [[meromorphic functions]] generalizing the
 
 Many L-functions have mutually similar deep features like satisfaction of a functional equation etc. The generalized [[Riemann conjecture]] is concerned with zeros of the _[[Dirichlet zeta function]]_ for which the L-series is complicated from the classical Riemann case by the presence of the additional parameter, the Dirichlet character. 
 
+## Examples
+
+* [[Hasse-Weil L-function]]
+
 ## Related entries
 
 * [[S-duality]], [[automorphic form]], [[Langlands program]], [[Alexander Beilinson]]
+
+* [[motivic L-function]]
 
 ## References
 
