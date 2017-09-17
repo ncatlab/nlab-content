@@ -63,6 +63,8 @@ For $X$, $Y$ two differentiable stacks, there is the [[mapping stack]] $[X,Y]$, 
 
   * **differentiable stack**
 
+    * [[groupoid K-theory]]
+
 * [[geometric ∞-stack]]
 
 * [[cohesive ∞-groupoid]]
