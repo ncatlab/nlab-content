@@ -112,9 +112,9 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[moduli space of Riemannian metrics]]
 
-* [[moduli space of connections]]
+* [[moduli space of connections]], [[moduli space of flat connections]]
 
-* [[moduli space of flat connections]]
+* [[moduli space of (higher) line bundles]]
 
 ## Related concepts 
 
