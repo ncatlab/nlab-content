@@ -236,14 +236,14 @@ If in the above situation $\mathcal{E}_1$ and $\mathcal{E}_2$ have [[finite limi
 1. for $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_3$, the left quotient is
 
    $$  
-     f \backslash g : B \backslash X \to B \backslash Y \times_{A \backslash Y} A \backslash X
+     f \bar \backslash g : B \backslash X \to B \backslash Y \times_{A \backslash Y} A \backslash X
      \,;
    $$
 
 1. for $f : S \to T$ in $\mathcal{E}_2$ and $g : X \to Y$ in $\mathcal{E}_3$, the right quotient is
 
    $$  
-      g / f : X / T \to Y / T \times_{Y / S} X / S
+      g \bar / f : X / T \to Y / T \times_{Y / S} X / S
      \,;
    $$
 
@@ -259,11 +259,11 @@ $$
   \;\;
   \Leftrightarrow
   \;\;
-  U \pitchfork f/v
+  U \pitchfork f \bar /v
   \;\;
   \Leftrightarrow
   \;\;
-  v \pitchfork u \backslash f
+  v \pitchfork u \bar \backslash f
   \,.
 $$
 
@@ -291,6 +291,19 @@ $$
   \,.
 $$
 
+Write
+
+$$
+  \otimes [\Delta, Set] \times [\Delta^{op}, \mathcal{E}] \to\mathcal{E} 
+$$
+
+for the functor given by the [[coend]]
+
+$$
+  S \otimes X = \int^{n \in \Delta} S_n \cdot X_n
+  \,.
+$$
+
 =--
 
 (Here on the right we have the canonical [[tensoring]] of $\mathcal{E}$ over [[Set]], where $S_n \cdot X \simeq \coprod_{s \in S_n} X$.)
@@ -311,9 +324,15 @@ Let $f : X \to Y$ be a morphism in $[\Delta^{op}, sSet]$. Then
 * the [[Reedy model structure|relative matching morphism]] of $f$ at stage $n$ is
 
   $$
-    (\partial \Delta[n] \hookrightarrow \Delta[n])\backslash f
-    \,.
+    (\partial \Delta[n] \hookrightarrow \Delta[n]) \bar \backslash f
+    \,;
   $$
+
+* the object $(\partial \Delta^c) \otimes X$ is the _latching object_ at stage $n$;
+
+* the morphism $(\partial \Delta^c \to \Delta)\otimes X$ is the canonical morphism out of the latching object into $X_n$;
+
+* the morphism $(\partial \Delta^c \to \Delta) \bar \otimes f$ is the _relative latching morphism_ of $f$.
 
 =--
 
