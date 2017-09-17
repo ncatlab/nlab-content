@@ -1,3 +1,4 @@
+
 # Contents
 * automatic table of contents goes here
 {:toc}
@@ -24,18 +25,22 @@ A cardinal that is not regular is called **singular**.
 
 ### Finite regular cardinals?
 
-Traditionally, one requires regular cardinals to be infinite.  This clause may be removed, in which case $0$, $1$, and $2$ are all regular cardinals.  (See the examples below.)  However, we may rule out these examples by listing the definition (in terms of $Set_{\lt\kappa}$) as follows:
+Traditionally, one requires regular cardinals to be infinite.  This clause may be removed, in which case $0$, $1$, and $2$ are all regular cardinals.  (See the examples below.)
+
+Other modifications of the definition which are equivalent for infinite cardinals may include some of $0$, $1$, and $2$ but not all.  For instance, if we regard an indexed [[disjoint union]] $\sum_{i\in\lambda} \alpha_i$ as a binary operation taking as input $\lambda$ and a $\lambda$-indexed family $\alpha$, then closure under this binary operation as in the above definition also entails closure under the ternary version $\sum_{i\in\lambda} \sum_{j\in \mu_i} \alpha_{i,j}$, and so on.  The unary version is simply the identity operation, whereas the nullary version will always output the [[singleton set]] $1$.  (This can be seen by thinking in terms of trees of uniform finite height, or remembering that a [[dependent sum]] includes a binary [[product]] as a special case, so a nullary dependent sum should at least include a nullary product.)  Thus, from this perspective (which is the relevant one for some applications, such as [[familial regularity and exactness]]), $2$ is a regular cardinal, but $0$ and $1$ are not.
+
+We may rule out all three finite regular cardinals by additionally generalising from indexed disjoint unions to binary and nullary disjoint unions.
+
+Then in terms of $Set_{\lt\kappa}$, the (potential) conditions on a (possibly finite) regular cardinal are as follows:
 
 1.  $Set_{\lt\kappa}$ is closed under coproducts of size $\lt\kappa$.
 2.  $Set_{\lt\kappa}$ is closed under binary coproducts.
 3.  $Set_{\lt\kappa}$ is closed under nullary coproducts (taking the [[initial object]]).
-4.  $Set_{\lt\kappa}$ has a nullary [[copower]].
+4.  $Set_{\lt\kappa}$ has a nullary [[copower]] (or something like that).
 
 These are all variations on the theme of closure under coproducts.
 
-Clauses (2--4) hold of all infinite cardinals, while clauses (2&4) together force $\kappa$ to be greater than any finite cardinal.
-
-Other modifications of the definition which are equivalent for infinite cardinals may include some of 0, 1, and 2 but not all.  For instance, if we regard an indexed sum $\sum_{i\in\lambda} \alpha_i$ as a "binary" operation taking as input $\lambda$ and a $\lambda$-indexed family $\alpha$, then closure under this "binary" operation as in the above definition also entails closure under the "ternary" version $\sum_{i\in\lambda} \sum_{j\in \mu_i} \alpha_{i,j}$, and so on.  The "unary" version is simply the identity operation, whereas the "nullary" version will always output $1$.  (This can be seen by thinking in terms of trees of uniform finite height, or remembering that a [[dependent sum]] includes a binary [[product]] as a special case, so a nullary dependent sum should at least include a nullary product.)  Thus, from this perspective (which is the relevant one for some applications, such as [[familial regularity and exactness]]), 2 is a regular cardinal, but 0 and 1 are not.
+Clauses (2--4) hold of all infinite cardinals, while clauses (2&4) together force $\kappa$ to be greater than any finite cardinal.  However, if we require only clauses (1&2), then $2$ is a regular cardinal.
 
 
 ### In weak foundations
