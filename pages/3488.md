@@ -121,7 +121,7 @@ In the literature this statement is known somewhat implicitly in slightly weaker
 
   * [[Carlos Simpson]], [[Constantin Teleman]], _de Rham's theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 
-  and the definition before that states essentially what the above proposition states at the level of [[homotopy category|homotopy categories]]: it asserts that if $C$ has contractible objects, that then there exists a left adjoint $Ho(\Pi):Ho(Sh_{(\infty,1)}(C)) \to Ho(\infty Grpd)$. They also give the explicit formula which is is stated at [[schreiber:homotopy ∞-groupoid]].
+  and the definition before that states essentially what the above proposition states at the level of [[homotopy category|homotopy categories]]: it asserts that if $C$ has contractible objects, that then there exists a left adjoint $Ho(\Pi):Ho(Sh_{(\infty,1)}(C)) \to Ho(\infty Grpd)$. They also give the explicit formula which is stated at [[schreiber:homotopy ∞-groupoid]].
 
 
 [[!redirects locally connected topos]]
