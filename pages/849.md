@@ -135,6 +135,12 @@ $$
 
 =--
 
+### Relation to function types
+
+The internal hom is the [[categorical semantics]] of what in [[type theory]] are [[function types]]
+
+[[!include function type natural deduction - table]]
+
 ## Examples
  {#Examples}
 
