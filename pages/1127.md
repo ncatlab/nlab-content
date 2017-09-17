@@ -26,6 +26,7 @@ This means that a **Grothendieck category** is an [[abelian category|abelian]] [
 Dually a *co-Grothendieck category* is an AB5$^*$ category 
 with a [[cogenerator]]. The category of abelian groups is not a co-Grothendieck category. Any abelian category which is simultaneously Grothendieck and co-Grothendieck has just a single object (see Freyd's book, p.116). 
 
+
 #Properties#
 
 A Grothendieck category $C$ satisfies the following properties.
@@ -39,6 +40,8 @@ A Grothendieck category $C$ satisfies the following properties.
 * If $C$ is equipped with [[category with translation|translation]] $T : C \to C$, then for every [[complex]] $X \in Cplx(C)$ there exists a [[quasi-isomorphism]] of [[complex]]es $X \to I$ such that $I$ is [[injective object|homotopically injective]].
 
 * it satisfies Pierre Gabriel's sup property: every small family of subobjects of a given object $X$ has a [[supremum]] which is a subobject of $X$
+
+Much of the localization theory of rings generalize to general Grothendieck categories. 
 
 #Examples#
 
@@ -59,3 +62,5 @@ The relation to complexes is in section 14.1.
 See also the book 
 
 * Peter Freyd, Abelian categories, Harper 1966. 
+
+[[!redirects Grothendieck categories]]
