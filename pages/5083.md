@@ -142,7 +142,12 @@ $$
 =--
 
 
+## Related concepts
+
+* [[shape of an (∞,1)-topos]]
+
+* **coshape of an $(\infty,1)$-topos**
 
 
-
+[[!redirects coshape of an (∞,1)-topos]]
 
