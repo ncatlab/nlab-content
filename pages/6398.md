@@ -48,6 +48,9 @@ There are several different incarnations of the superstring.
    
     * [[super Riemann surface]]
 
+    * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
+
+
   * [[membrane]]
 
 * [[string theory]], [[supersymmetry]]
