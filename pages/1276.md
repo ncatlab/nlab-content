@@ -1,4 +1,41 @@
-Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]], say $M$, is __flat__ if tensoring with $M$ over $A$ as a functor from left $A$-modules to left $A$-modules is an [[exact functor]] (sends short exact sequences to short exact sequences).  Note that tensoring with $M$ is automatically right exact, so it is equivalent to require that tensoring with $M$ be left exact.  Since [[Mod]] is [[finitely complete category|finitely complete]], this is also equivalent to requiring that tensoring with $M$ be a [[flat functor]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+### In terms of exact functors
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]], say $M$, is __flat__ if [[tensoring]] with $M$ over $A$ as a [[functor]] from left $A$-modules to left $A$-modules is an [[exact functor]] (sends [[short exact sequences]] to short exact sequences).  
+
+=--
+
++-- {: .num_remark}
+###### Remarks
+
+* Tensoring with $M$ is automatically right exact, so it is equivalent to require that tensoring with $M$ be left exact.  Since [[Mod]] is [[finitely complete category|finitely complete]], this is also equivalent to requiring that tensoring with $M$ be a [[flat functor]].
+
+* On an [[abelian category]], the notions of _[[exact functor]]_ and _[[flat functor]]_ coincide.
+
+* The ring may be taken non-unital without any change.
+
+=--
+
+### In terms of identities
 
 There is a characterisation of flatness that says that a left $A$-module $M$ is flat if and only if "everything (that happens in $M$) happens for a reason (in $A$)".
 
@@ -12,6 +49,5 @@ The module $M$ being flat is equivalent to being able always to do this.
 
 This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
 
-In the case of an [[abelian category]], the notions of exact and [[flat functors]] coincide.
 
-The ring may be taken non-unital without any change.
+[[!redirects flat modules]]
