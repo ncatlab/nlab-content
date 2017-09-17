@@ -294,6 +294,9 @@ $$
 Finally observe that $G_p H_p(X) \simeq H_p(X)$ by the definition of the filtering on the homology as $F_p H_p(X) \coloneq image(H_p(X_p) \to H_p(X))$ and by standard properties of singular homology of [[CW complexes]] discusses at _[CW complex -- singular homology](CW+complex#SingularHomology)_.
 
 
+## Software
+
+There are convenient software implementations for large-scale computations of cellular homology: one may use [LinBox](http://www.linalg.org), [CHomP](http://chomp.rutgers.edu) or [Perseus](http://www.sas.upenn.edu/~vnanda/perseus).
 =--
 
 
@@ -301,7 +304,7 @@ Finally observe that $G_p H_p(X) \simeq H_p(X)$ by the definition of the filteri
 
 A standard textbook account is from p. 139 on in 
 
-*  [[Alan Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, Cambridge Univ. Press 2002, 
+*  [[Allen Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, Cambridge Univ. Press 2002, 
 
 Lecture notes include
 
