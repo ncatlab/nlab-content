@@ -26,6 +26,8 @@ There are attempts/speculations/proposals to use [[p-adic numbers]] in place of 
 
 ### Reviews
 
+* [p-adic and adelic physics website](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics7.htm)
+
 * Branko Dragovich, _Non-Archimedean Geometry and Physics on Adelic Spaces_ ([arXiv:math-ph/0306023](http://arxiv.org/abs/math-ph/0306023))
 
 * Branko Dragovich, _$p$-Adic and Adelic Quantum Mechanics_ ([arXiv:hep-th/0312046](http://arxiv.org/abs/hep-th/0312046))
@@ -43,3 +45,6 @@ See also
 
 * Branko Dragovich, _Nonlocal dynamics of p-adic strings_, ([arxiv/1011.0912](http://arxiv.org/abs/1011.0912))
 
+A relation of $p$-adic string theory to number-theoretic [[Langlands duality]] is hypothesized and explored somewhat it
+
+* Michele Nardelli, _On the link between the structure of A-branes observed in the homological mirror symmetry and the classical theory of automorphic forms: mathematical connections with the modular elliptic curves, $p$-adic and adelic numbers and $p$-adic and adelic strings_, in [p-adic and adelic physics](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics7.htm) ([pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/nardelli_branes.pdf))
