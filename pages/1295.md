@@ -144,7 +144,12 @@ The dependent product plays a role in the definition of [[universe in a topos]].
 
 ## References
 
-Some aspects are discussed in section IV of 
+Standard textbook accounts include section A1.5.3 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+and section IV of 
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
   {#MacLaneMoerdijk}
