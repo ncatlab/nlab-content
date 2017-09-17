@@ -26,6 +26,14 @@ $$
 
 (...)
 
+
+## Related concepts
+
+* [[torsion of a metric connection]]
+
+* [[Poincare Lie algebra]]
+
 [[!redirects Riemann curvature]]
+[[!redirects Riemannian curvature]]
 
 [[!redirects Riemann tensor]]
