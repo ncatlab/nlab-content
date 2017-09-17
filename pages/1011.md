@@ -27,6 +27,8 @@ One is often interested in whether an arbitrary category $D$ has [[limit]]s and 
 
 * [[finite set]]
 
+* [[finite homotopy type]]
+
 * [[finite (∞,1)-category]]
 
 
