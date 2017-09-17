@@ -64,6 +64,8 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 
 * [[CW approximation]]
 
+* [[cellular homology]]
+
 * [[simplicial set]], [[geometric realization]]
 
 ## References
