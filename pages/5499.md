@@ -198,9 +198,18 @@ $C$.
 
 ### Where are the adjunctions? ###
 
-All the instances above can be formalised as adjunctions. $G$ then 
-becomes a functor which maps a set of examples to an object which is in some 
-sense the "completion" of that set. It acquires a right adjoint $F$ which 
+All the instances above can be formalised as adjunctions. Here's a summary of the proof, via [[Galois connection|Galois connections]]:
+* $E$ and $C$ are posets.
+* $G$ and $F$ are order-preserving, which is a necessary condition in the definition of Galois connection. 
+* $G$ and $F$ satisfy the Galois connection condition.
+* A Galois connection is a special case of an adjunction.
+The first three follow (I hope) from the properties of my particular
+examples; the fourth is a standard result.
+
+... check that the examples I pasted in actually do satisfy this...
+
+$G$ can be regarded as a functor which maps a set of examples to an object which is in some 
+sense the "completion" of that set: the good old "free completion". It acquires a right adjoint $F$ which 
 maps this object back to the set of all possible examples derivable from this 
 completion object. 
 
@@ -226,7 +235,7 @@ $i:I_E \Rightarrow G;E$.
 (I need to relate this to the notion of limiting amount of information, 
 showing how that arises from the adjunction.) 
 
-...Insert proof that the relevant entities are indeed categories, functors, NTs, etc. Use GC's. Find out how to draw diagrams. ...
+...Find out how to draw diagrams. ...
 
 ...Find out why function composition e.g. $FG$, isn't appearing in maths font. ...
 
