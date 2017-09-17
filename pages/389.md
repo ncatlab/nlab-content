@@ -1,1 +1,3 @@
 There is an [[orthogonal factorization system]] on the category [[Cat]] whose left class is the class of [[bo functor|bijective-on-objects functors]], or "bo functors" and whose right class is the class of [[full and faithful functor|full and faithful functors]], or "ff functors".  It is in fact an [[enhanced factorization system]], and it can be constructed using [[generalized kernels]].
+
+[[!redirects (bo,ff) factorization system]]
