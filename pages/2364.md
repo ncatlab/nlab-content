@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,7 +21,7 @@
 
 The _Landweber exactness criterion_ determins if a given [[formal group law]] does arise as the formal group law defined by a [[weakly periodic cohomology theory]].
 
-Notice that since every [[formal group law]] over a [[ring]] $R$ is classified by a ring homomorphism $f : MP({\ast}) \to R$ where by []Quillen's theorem on MU|Quillen's theorem] $MP({\ast})$ is the [[Lazard ring]]. So for every formal group one obtains a contravariant [[functor]] on [[topological space]]s given by the assignment
+Notice that since every [[formal group law]] over a [[ring]] $R$ is classified by a ring homomorphism $f : MP({\ast}) \to R$ where by [[Quillen's theorem on MU|Quillen's theorem]] $MP({\ast})$ is the [[Lazard ring]]. So for every formal group one obtains a contravariant [[functor]] on [[topological space]]s given by the [[extension of scalars]]-assignment
 
 $$
   X \mapsto A_f^n(X) := MP^n(X) \otimes_{MP({*})} R
