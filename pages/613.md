@@ -162,12 +162,12 @@ Strict versions of fundamental $\infty$-groupoids are discussed in
 
 See also
 
-* [[Ronnie Brown]] and [[P. J. Higgins]], Colimit theorems for relative homotopy groups, J. Pure Appl. Algebra 22 (1981) 11-41.
+* [[Ronnie Brown]] and [[Philip Higgins]], Colimit theorems for relative homotopy groups, J. Pure Appl. Algebra 22 (1981) 11-41.
 
 *  [[Ronnie Brown]], A new higher homotopy groupoid: the fundamental  globular $\omega$-groupoid of a filtered space, Homotopy, Homology and Applications, 10 (2008), No. 1, pp.327-343.
 
 
-* [[R. Steiner]], Resolutions of spaces by  $n$-cubes of fibrations, J. London Math. Soc.(2), 34, 169-176, 1986.
+* [[Richard Steiner]], Resolutions of spaces by  $n$-cubes of fibrations, J. London Math. Soc.(2), 34, 169-176, 1986.
 
 
 [[!redirects fundamental infinity-groupoids]]
