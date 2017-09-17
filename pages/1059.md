@@ -1,21 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-## Contents
+# Strict epimorphisms
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
 A **strict epimorphism** in a [[category]] $C$ is a [[morphism]] which is the joint [[coequalizer]] of all parallel pairs of [[morphism]]s that it coequalizes.  In other words, $f:B\to C$ is a strict epimorphism if it is the [[colimit]] of the (possibly large) diagram consisting of all [[parallel morphisms|parallel pairs]] $g,h:A \;\rightrightarrows\; B$ such that $f g = f h$.  Although the definition does not include this explicitly, it follows that $f$ is an [[epimorphism]]. A __strict monomorphism__ is a morphism such that its dual is strict epimorphism in the dual category.
+
 
 ## Relation to other epimorphism classes
 
@@ -23,15 +24,23 @@ If $C$ has [[pullback]]s, then any such $g,h$ factor uniquely through the [[kern
 
 It is easy to see that in _any_ category, any regular epimorphism is strict.  In a category without pullbacks, it seems that not every strict epimorphism need be regular.  However, every strict epimorphism is [[strong epimorphism|strong]], and hence [[extremal epimorphism|extremal]], for the same reason that any regular epimorphism is.
 
+
 ## Properties
 
 If the composition $g\circ f$ is a strict epimorphism then $g$ is a strict epimorphism.
+
 
 ## References
 
 * [[Masaki Kashiwara]], Pierre Shapira, _[[Categories and Sheaves]]_ , p. 115-116.
 
+
+[[!redirects strict epimorphism]]
+[[!redirects strict epimorphisms]]
 [[!redirects strict epi]]
 [[!redirects strict epis]]
-[[!redirects strict epimorphisms]]
+
 [[!redirects strict monomorphism]]
+[[!redirects strict monomorphisms]]
+[[!redirects strict mono]]
+[[!redirects strict monos]]
