@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A _local isomorphism_ in a [[presheaf]] category $PSh(S)$ is a morphism that becomes an [[isomorphism]] after passing to  [[sheaf|sheaves]] with respect to a given [[Grothendieck topology]] on $S$.
 
@@ -19,7 +24,8 @@ $$
   \,.
 $$
 
-#Axioms#
+
+## Axioms
 
 A system of **local isomorphism**s on $PSh(S)$ is any collection of morphisms satisyfing
 
@@ -170,7 +176,7 @@ is a limit over isomorphisms, hence an isomorphism.
 
 This is in section 16.2 of
 
-* Kashiwara-Schapira, [[Categories and Sheaves]] .
+* Kashiwara-Schapira, _[[Categories and Sheaves]]_ .
 
 See in particular exercise 16.5 there for the characterization of [[Grothendieck topology|Grothendieck topologies]] in terms of local isomorphisms.
 
