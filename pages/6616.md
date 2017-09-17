@@ -511,7 +511,8 @@ of [[simplicial presheaves]]. Now the same argument as above applies on $P_* X$.
 
   * [[symplectic groupoid]]
 
-* [[smooth ∞-groupoid]]
+* [[higher geometric quantization]]
+
 
 
 ## References
@@ -546,8 +547,6 @@ Some ingredients for the geometric quantization of symplectic Lie $n$-algebroids
 
 [[!redirects geometric quantization of symplectic ∞-groupoids]]
 [[!redirects geometric quantization of symplectic infinity-groupoids]]
-
-[[!redirects higher geometric quantization]]
 
 [[!redirects n-plectic ∞-groupoid]]
 [[!redirects n-plectic infinity-groupoid]]
