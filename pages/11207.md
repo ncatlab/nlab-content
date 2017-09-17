@@ -29,6 +29,8 @@
 
 * [[computable real number]]
 
+* [[computable physics]]
+
 ## References
 
 A standard textbook is 
