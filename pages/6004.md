@@ -1,9 +1,28 @@
 
-This entry is about the textbook
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Category Theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+This entry is is to record the textbook
 
 * [[Francis Borceux]], _Handbook of Categorical Algebra_
-  {#Borceux}
 
-(...)
+  1: Basic Category Theory
+
+  2: Categories and Structures
+
+  3: Categories of Sheaves
+
+on [[category theory]] and [[topos theory]].
 
 category: reference
