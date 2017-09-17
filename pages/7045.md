@@ -136,7 +136,7 @@ A formal proof in [[homotopy type theory]] that the type of [[homotopy n-types]]
 
 * Nicolai Kraus, C. Sattler, _The universe $\mathcal{U}_n$ is not an $n$-type_ May 2013 ([pdf](http://red.cs.nott.ac.uk/~ngk/universes.pdf))
 
-Categorical semantics for [[univalence|univalent]] type universes is discussed in
+[[(∞,1)-category theory|(∞,1)-Categorical]] semantics for [[univalence|univalent]] type universes is discussed in
 
 * {#KapulkinLumsdaineVoevodsky12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], _The Simplicial Model of Univalent Foundations_ ([arXiv:1211.2851](http://arxiv.org/abs/1211.2851))
 
@@ -155,4 +155,3 @@ Categorical semantics for [[univalence|univalent]] type universes is discussed i
 
 [[!redirects universe in type theory]]
 [[!redirects universes in type theory]]
-
