@@ -5,11 +5,18 @@
 
 
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Background and history#
+## Idea
+
+Chern-Simons theory is the [[sigma-model]] [[TQFT]] whose target space is the smooth [[delooping]] $\mathbf{B}G$ of a [[Lie group]] $G$ and whose baackground [[gauge field]] is a [[Chern-Simons 2-gerbe]] on $\mathbf{B}G$.
+
+For $G$ a discrete group the corresponding (much simpler) theory is [[Dijkgraaf-Witten theory]].
+
+## Background and history
 
 The words "Chern--Simons theory" can mean various things to various people, but here it generally refers to the three-dimensional [[TQFT|topological quantum field theory]] introduced by [[Edward Witten]] in his seminal paper from 1989, ["Quantum field theory and the Jones polynomial"](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), the paper which went a large way to him obtaining the Fields medal. 
 
@@ -31,7 +38,7 @@ q = e^{\frac{2 \pi i}{k+2}}.
 \]
 Said heuristically: the [[Jones polynomial]] of the knot $K$ can be understood as the "average value" over all connections of the _trace of the holonomy of the connection_ around the knot $K$. Note that this idea can be generalized by varying the gauge group $G$ from $SU(2)$ to some other Lie group; the representation in which the trace is evaluated can also be altered. Each of these modifications gives rise to a knot invariant.  
 
-# Viewpoint from extended topological quantum field theory#
+## Viewpoint from extended topological quantum field theory
 
 The beautiful thing about Chern--Simons theory is that Witten was able use the _locality_ property of the [[path integral]] to give a _nonperturbative_ way to actually compute it. In this way Chern--Simons theory has become the 'poster-child' of [[extended topological quantum field theory]] since it exemplifies the main idea: take advantage of the higher gluing laws in order to compute geometric quantities. 
 
@@ -66,7 +73,7 @@ A point $\mapsto$ the 2-category of unitary [[2-representation]]s of the [[group
 
 Still others think of the [[2-category]] assigned to the [[point]] in different terms.
 
-# Other features of Chern--Simons theory#
+## Other features of Chern--Simons theory
 
 We have only focused on the "purely [[higher category theory|n-categorical]]" aspects of Chern--Simons theory so far and ignored hundreds of tremendously important topics, such as: 
 
@@ -78,7 +85,7 @@ We have only focused on the "purely [[higher category theory|n-categorical]]" as
 
 But there are two other recent features of Chern--Simons theory which I would personally (Bruce Bartlett) like to mention.
 
-## Chern--Simons theory and modular forms
+### Chern--Simons theory and modular forms
 
 Trying to interest your [[number theory]] friends with Chern--Simons theory? How about this: the Chern--Simons [[path integral]] $Z(k)$ above is (in a certain precise sense) a _[[modular form]]_. This correspondence between the Chern--Simons quantum invariants and [[modular form]]s sheds light in both directions, and is a fascinating idea to [[Bruce Bartlett|me]]. The key words here (which I don't understand) are "Eichler integral" and  "mock theta function". See:
 
@@ -86,7 +93,7 @@ Trying to interest your [[number theory]] friends with Chern--Simons theory? How
 
 * Hikami, Quantum invariant, modular forms, and lattice points, [arXiv](http://arxiv.org/abs/math-ph/0409016). See also the follow ups to this paper. 
 
-## The Morse theory of Chern--Simons theory
+### The Morse theory of Chern--Simons theory
 
 In a recent [talk](http://www.math.columbia.edu/~woit/wordpress/?p=2357), Witten outlined a new approach to Chern--Simons theory which perhaps gives an alternative nonperturbative definition of the [[path integral]]. Quoting from [Not Even Wrong](http://www.math.columbia.edu/~woit/wordpress/?p=2357):
 
@@ -106,14 +113,14 @@ In this way we can make sense of the integral $I$ by {\em defining} it as the in
 \]
 This new definition actually converges, and makes sense. Apparantly the same technique can be used to interpret the Chern--Simons path integral in the case of complex $k$. Witten argues that this viewpoint is useful if we try to interpret Chern--Simons theory as a theory of three-dimensional gravity, 
 
-## Chern--Simons theory: 20 years on
+### Chern--Simons theory: 20 years on
 
 This year marked the 20th anniversary of Witten's seminal paper _Quantum field theory and the Jones polynomial_ and there were a number of conferences marking this event. If anyone has notes for these conferences please say so, I ([[Bruce Bartlett|Bruce]]) would be very grateful!
 
 * [Chern-Simons Gauge Theory: 20 years after](http://www.hausdorff-center.uni-bonn.de/event/2009/gauge_theory/) was a workshop at the Max Planck Institute in Bonn from 3--7 August 2009.
 * (More here...)
 
-## Geometric quantization and Chern--Simons theory?
+### Geometric quantization and Chern--Simons theory?
 In [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), Witten makes the tantalizing observation that the "trace" occuring in the "trace of the holonomy around the knot" term in the path integral should _itself_ be seen as a path integral. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]] (password required).   
 
 ##Chern--Simons theory and knot homology
