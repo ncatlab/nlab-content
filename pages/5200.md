@@ -76,7 +76,7 @@ More on $S4$, $S5_{(m)}$ and their applications in Artificial Intelligence can b
 * J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995.
 
 
-General books on modal logics which treat  these logics thoroughly in the general context include e
+General books on modal logics which treat  these logics thoroughly in the general context include 
 
 * [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
 
