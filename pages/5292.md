@@ -61,7 +61,7 @@ This is due to ([Getzler](#Getzler)).
 
 Write $R \beta_j$ for the [[ribbon braid group]] on $j$ elements and $P R \beta_j$ for the [[kernel]] of the surjection $R \beta_j \to \Sigma_j$ onto the [[symmetric group]].
 
-Say that a [[ribbon operad]] $P$ is an **$R_\infty$-operad$ if the [[ribbon braid group]]s  act freely and properly on $P$ and if each [[topological space]] $P(k)$ is [[contractible]].
+Say that a [[ribbon operad]] $P$ is an **$R_\infty$-operad** if the [[ribbon braid group]]s  act freely and properly on $P$ and if each [[topological space]] $P(k)$ is [[contractible]].
 
 =--
 
@@ -74,6 +74,12 @@ If $P$ is an $R_\infty$-operad, then the sequence of quotient spaces $\{P(n)/P R
 =--
 
 This is ([Wahl, lemma 1.5.17](#Wahl)).
+
+# Related concpets
+
+* **framed little 2-disk operad**
+
+* [[framed little n-disk operad]]
 
 ## References
 
