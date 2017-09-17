@@ -35,3 +35,6 @@ The [[nLab:string theory|string]] worldsheet [[Green-Schwarz mechanism]] which t
 
 [[!redirects Pfaffian bundle]]
 [[!redirects Pfaffian bundles]]
+
+[[!redirects pfaffian line bundle]]
+[[!redirects pfaffian line bundles]]
