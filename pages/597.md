@@ -33,7 +33,7 @@ For example:
 
 * If ${|I|} = 1$, a congruence is the same as the ordinary internal notion of [[congruence]].  In this case [[quotient object|quotient]]s and [[kernel pair|kernels]] reduce to the usual notions.
 
-* If ${|I|} = 0$, a congruence or sink contains no data.  The empty congruence is, trivially, the kernel of the empty sink, and a quotient for the empty congruence is an [[initial object]].
+* If ${|I|} = 0$, a congruence contains no data and a sink is just an object in C.  The empty congruence is, trivially, the kernel of the empty sink with target B, and a quotient for the empty congruence is an [[initial object]].
 
 * Given a family of objects $\{A_i\}$, define a congruence by $R_{i i}=A_i$ and $R_{i j}=0$ (an initial object) if $i \neq j$.  Call a congruence of this sort _trivial_ (empty congruences are always trivial).  Then a quotient for a trivial congruence is a [[coproduct]] of the objects $A_i$, and the kernel of a sink $\{f_i\colon A_i\to B\}$ is trivial iff the $f_i$ are disjoint monomorphisms.
 
