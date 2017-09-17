@@ -31,8 +31,8 @@ There are two basic approaches possible: to define what a __real number__ is, as
 
 Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of $\mathbb{Q}$ (the set of [[rational numbers]]) such that:
 
-*  If $b \in L$, then $a \in L$ for some $a \lt b$.
-*  If $a \in U$, then $b \in U$ for some $a \lt b$.
+*  If $a \in L$, then $b \in L$ for some $b \gt a$.
+*  If $b \in U$, then $a \in U$ for some $a \lt b$.
 *  If $a \lt b$ are rational numbers, then $a \in L$ or $b \in U$.  (\*)
 *  If $a \in L$ and $b \in U$, then $a \lt b$.
 
