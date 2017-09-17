@@ -28,5 +28,6 @@ The following is a partial list of pages that are closely related to my research
 * [[davidroberts:which smooth paths do I use]]
 * [[davidroberts:topological fundamental bigroupoid]]
 * [[smooth loop space]]
+* [[schedule]]
 
 category: people
