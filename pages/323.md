@@ -183,15 +183,18 @@ $$
   \,.
 $$
 
-This are three commuting squares: the two inner ones and the outer one.
+There are three commuting squares: the two inner ones and the outer one.
 
 +-- {: .un_prop}
 ###### Proposition
 
-If either two of these three squares are pullback squares, then so is the third.
+If any two of these three squares are pullback squares, then so is the third.
 
 =--
 
++-- {: .proof}
+_Proof_.  Pasting a morphism into $a$ with the outer square gives rise to a function from morphisms into $a$ to commuting squares over the bottom and right edges of the diagram.  This function factors through the set of squares over the cospan in the left-hand inner square, by way of pasting with the left and right squares in turn.  All three squares are pullbacks iff the functions are isomorphisms, which by the 2-out-of-3 property is true if any two of them are, i.e. if any two of the squares are pullbacks.
+=--
 
 
 ## See also:
