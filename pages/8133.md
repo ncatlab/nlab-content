@@ -1,11 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Banach coalgebras
 * table of contents
 {: toc}
 
 ## Idea
 
-Banach coalgebras (or cogebras) are like [[Banach algebras]], but [[coalgebras]].  The [[dual space|dual]] of a Banach coalgebra is a Banach algebra (but not conversely).  We can also consider Banach [[bialgebras]] (or bigebras).
+Banach coalgebras (or cogebras) are like [[Banach algebras]], but [[coalgebras]].  The [[dual vector space|dual]] of a Banach coalgebra is a Banach algebra (but not conversely).  We can also consider Banach [[bialgebras]] (or bigebras).
 
 
 ## Definitions
@@ -64,7 +78,7 @@ The category __$Ban Bialg$__ of Banach bialgebras has, as objects, Banach bialge
 
 ## Dual Banach algebras
 
-If $A$ is a Banach coalgebra, then the [[dual space]] $A^*$ is a [[Banach algebra]].  Actually, this is more general than $A^* = [A,K]$; if $B$ is any Banach algebra, then so is $[A,B]$ (the Banach space of [[bounded linear maps]] from $A$ to $B$).
+If $A$ is a Banach coalgebra, then the [[dual vector space]] $A^*$ is a [[Banach algebra]].  Actually, this is more general than $A^* = [A,K]$; if $B$ is any Banach algebra, then so is $[A,B]$ (the Banach space of [[bounded linear maps]] from $A$ to $B$).
 
 This result is nothing special about Banach (co)algebras; it holds in any [[closed monoidal category]].  The multiplication operation in $[A,B]$ is given by
 $$ (\lambda \mu) x = m (\lambda \otimes \mu) \Delta x ,$$
