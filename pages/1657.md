@@ -199,7 +199,7 @@ Other topics: absolute continuity, etc.
 
 ## Noncommutative measure theory
 
-Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]] $L^\infty(X,\mu)$ where $(X,\mu)$ is some measure space (which is irrelevant) on a [[localisable measurable space]], and this extends to a [[dual category|duality]] between localisable measurable spaces and commutative von Neumann algebras.  This is similar to the correspondence between commutative $C^*$-[[C-star algebra|algebras]] and [[locally compact Hausdorff space]]s, which is the central approach to [[noncommutative geometry]].  It is useful to exploit the intuition that the theory of (noncommutative) von Neumann algebras is a noncommutative analogue of classical measure theory.
+Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]] $L^\infty(X,\mu)$ where $\mu$ is some measure (which is irrelevant) on a [[localisable measurable space]], and this extends to a [[dual category|duality]] between localisable measurable spaces and commutative von Neumann algebras.  This is similar to the correspondence between commutative $C^*$-[[C-star algebra|algebras]] and [[locally compact Hausdorff space]]s, which is the central approach to [[noncommutative geometry]].  It is useful to exploit the intuition that the theory of (noncommutative) von Neumann algebras is a noncommutative analogue of classical measure theory.
 
 
 ## Examples
@@ -282,5 +282,3 @@ _Toby_:  I should note that, even given what I wrote above, there is still a *sl
 [[!redirects integrable functions]]
 [[!redirects absolutely integrable function]]
 [[!redirects absolutely integrable functions]]
-[[!redirects Lebesgue space]]
-[[!redirects Lebesgue spaces]]
