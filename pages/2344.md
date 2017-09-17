@@ -9,7 +9,7 @@
 
 ## Idea
 
-A **derivator** is a refinement of a [[homotopy category]] which also includes information about [[homotopy limits]] and colimits.  In some cases derivators can be used where one might otherwise need to use [[(∞,1)-categories]], which can be helpful since their theory is much simpler and purely (2-)categorical.  They were invented by [[Grothendieck]] and Heller.
+A **derivator** is a refinement of a [[homotopy category]] which also includes information about [[homotopy limits]] and colimits.  In some cases derivators can be used where one might otherwise need to use [[(∞,1)-categories]], which can be helpful since their theory is much simpler and purely (2-)categorical.  They were invented independently by [[Grothendieck]] and Heller.
 
 ## Motivation
 
