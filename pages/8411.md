@@ -1,0 +1,7 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
+
+category: people
+
+[[!redirects Gottfried Wilhelm Leibniz]]
+
