@@ -3234,9 +3234,68 @@ We have the following morphisms between these:
 
 
 
-### For the $\infty$-Chern-Weil homomorphism {#CWHomomorphismSummary}
+### For connections on $G$-principal $\infty$-bundles {#CWHomomorphismSummary}
 
-For $\mathfrak{g}$ an [[∞-Lie algebra]] we have the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$, the [[Weil algebra]] $W(\mathfrak{g})$ and the algebra of [[invariant polynomial]]s $inv(\mathfrak{g})$, with canonical morphisms
+For $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally an [[∞-Lie algebroid]] and $\exp(\mathfrak{g}) \in [CartSp^{op},sSet]$ its untruncated [[Lie integration]], the  [[simplicial presheaf]] $\exp(\mathfrak{g})_{conn}$  of [[∞-Lie algebra valued differential forms]] is such that lifts $\nabla$
+
+$$
+  \array{
+    && \exp(\mathfrak{g})_{conn}
+    \\
+    & {}^{\nabla}\nearrow & \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \exp(\mathfrak{g})
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$ 
+
+of $\exp(\mathfrak{g})$-cocycles $g$ constitute a [[connection on an ∞-bundle]] on the [[principal ∞-bundle]] defined by $g$:
+
+$$
+  \exp(\mathfrak{g})_{conn}
+  : 
+  (U,[k])
+  \mapsto
+  \left\{
+  \array{
+     \Omega^\bullet_{vert}(U \times \Delta^n)
+     &\stackrel{A_{vert}}{\leftarrow}&
+     CE(\mathfrak{g})
+     &&&
+     transition\;function\;/\;Cech\;cocycle
+     \\
+     \uparrow && \uparrow &&&& first\;Ehresmann\;condition
+     \\
+     \Omega^\bullet(U \times \Delta^n)
+     &\stackrel{A}{\leftarrow}&
+     W(\mathfrak{g})
+     &&& 
+     connection
+     \\
+     \uparrow && \uparrow &&&& second\; Ehresmann\;condition
+     \\
+     \Omega^\bullet(U)
+     &\stackrel{\langle F_A\rangle}{\leftarrow}&
+     inv(\mathfrak{g})
+     &&&
+     curvature\;characteristics
+  }
+  \right\}
+  \,.
+$$
+
+For fixed $U \in $ [[CartSp]] and $k \in \Delta$ the sets on the right are sets of  [[∞-Lie algebra valued differential forms]] on $U \times \Delta^k$ subject two conditions:
+
+1. restricted to the fibers the forms become flat and coincide with the forms that define the transition functions;
+
+1. their [[curvature characteristic form]]s $\langle F_A \rangle$ descend to the base.
+
+
+Here $\Omega^\bullet(U \times \Delta^k)_{vert}$ are the [[vertical differential form]]s on the trivial simplex bundle $U \times \Delta^k \to U$ 
+and on the right we have the canonical sequence [[Chevalley-Eilenberg algebra]] $\leftarrow$ [[Weil algebra]] $\leftarrow$ [[invariant polynomial]]s and all morphisms are [[dg-algebra]] morphisms. 
 
 $$
   \array{
@@ -3256,13 +3315,13 @@ $$
 
 A triple consisting of
 
-* an [[∞-Lie algebra cocycle]] $\mu$ of $\mathfrak{g}$ 
+* an [[∞-Lie algebra cocycle]] $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ 
 
-* in transgression with an [[invariant polynomial]] $\langle - \rangle$
+* in transgression with an [[invariant polynomial]] $\langle - \rangle_\mu$
 
 * mediated by a [[Chern-Simons element]] $cs_\mu$ 
 
-is exhibited by a commuting diagram
+is exhibited by a [[commuting diagram]]
 
 $$
   \array{
@@ -3290,36 +3349,20 @@ $$
 
 in [[dgAlg]].
 
-A [[connection on an ∞-bundle|connection with values in]] $\mathfrak{g}$ is encoded by [[simplicial presheaves]] of [[∞-Lie algebra valued differential forms]] that assign sets of diagrams of the form
+
+The $\infty$-Chern-Weil homomorphism at this untruncated level is postcomposition with the lift of
 
 $$
-  \array{
-     \Omega^\bullet_{vert}(U \times \Delta^n)
-     &\stackrel{A_{vert}}{\leftarrow}&
-     CE(\mathfrak{g})
-     &&&
-     transition\;function\;/\;Cech\;cocycle
-     \\
-     \uparrow && \uparrow
-     \\
-     \Omega^\bullet(U \times \Delta^n)
-     &\stackrel{A}{\leftarrow}&
-     W(\mathfrak{g})
-     &&& 
-     connection
-     \\
-     \uparrow && \uparrow
-     \\
-     \Omega^\bullet(U)
-     &\stackrel{\langle F_A\rangle}{\leftarrow}&
-     inv(\mathfrak{g})
-     &&&
-     curvature
-  }
-  \,.
+  \exp(\mu)  : \exp(\mathfrak{g}) \to \exp(b^{n-1}\mathbb{R})
 $$
 
-The $\infty$-Chern-Weil homomorphism is at this level of local data (before coonsidering truncations and quotients) the operation that takes the $\mathfrak{g}$-connection to a $b^k \mathbb{R}$-connection by forming the [[pasting]] composite of these two diagrams
+to the map
+
+$$
+  \exp(\mu)_{conn} : \exp(\mathfrak{g})_{conn} \to \exp(b^{n-1}\mathbb{R})_{conn}
+$$
+
+given by forming the [[pasting]] composites
 
 $$
   \array{
@@ -3359,6 +3402,18 @@ $$
   \,.
 $$
 
+This produces a $b^{n-1}\mathbb{R}$-valued connections with local connection forms the [[Chern-Simons form]]s $CS_\mu(A)$ and with curvature the [[curvature characteristic form]] $\langle - \rangle_\mu$.
+
+Under [[truncated|truncation]] $\exp(\mathfrak{g}) \to \tau_n \exp(\mathfrak{g}) \simeq \mathbf{B}G$ this decends under suitable conditions to the genuine refine $\infty$-Chern-Weil homomorphism
+
+$$
+  \exp(\mu)_{conn} : 
+  \mathbf{B}G_{conn} = \tau_n \exp(\mathfrak{g})_{conn}
+  \to 
+  (\mathbf{B}^n \mathbb{R}/\Gamma)_{conn}
+$$
+
+that sends principal $\infty$-bundles with connection to [[circle n-bundles with connection]].
 
 ## References
 
