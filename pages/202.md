@@ -18,6 +18,10 @@ On the other hand, if we regard $Grp$ as a full sub-$2$-category of $Grpd_*$, th
 
 Precisely analogous statements hold for the category [[Alg]] of algebras.
 
+## Related entries
+
+* [[Ab]], [[TopGrp]]
+
 
 [[!redirects Group]]
 
