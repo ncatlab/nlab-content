@@ -43,6 +43,7 @@ Now let $G$ and $H$ be Lie groupoids. A [[manifold]] $M$ with a left $G$-action 
 
 * [[Michael Murray]], _Bispaces and bibundles_ ([pdf slides](http://www.mpim-bonn.mpg.de/digitalAssets/7050_Murray.pdf))
 
+* [[Michael Murray]], [[David Roberts]], [[Danny Stevenson]], _On the existence of bibundles_ LMS (2012)([arXiv:1102.4388](http://arxiv.org/abs/1102.4388))
 
 [[!redirects bibundle]]
 [[!redirects bibundles]]
