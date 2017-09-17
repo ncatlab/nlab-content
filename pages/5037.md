@@ -25,9 +25,9 @@ The reason for the notation $F$ and $P$ should be clear.
 +-- {: . un_example}
 ###### Examples
 
-*  If for all $\phi$ we have $P\phi \to GP\phi$, then _whatever has happened will always have happened_, which seems reasonable so this might be a suitable 'general truth' we might want a temporal logic to contain.
+*  If for all $\phi$ we have $P\phi \to G P\phi$, then _whatever has happened will always have happened_, which seems reasonable so this might be a suitable 'general truth' we might want a temporal logic to contain.
 
-*  If we had in our logic that $F\phi \to FF\phi$, then this would means that if $\phi$ is true at some future time, then at some future time it will be true that $\phi$ will be true at some future time, so _between any two instants there must be a third_, and the general truth of this would say something about the 'internal structure' of time as modelled by such a logic. 
+*  If we had in our logic that $F\phi \to F F\phi$, then this would means that if $\phi$ is true at some future time, then at some future time it will be true that $\phi$ will be true at some future time, so _between any two instants there must be a third_, and the general truth of this would say something about the 'internal structure' of time as modelled by such a logic. 
 =--
 
 This basic temporal language does not yet really constitute a sensible logic that could model important features of 'time'. but we can still look at models so as to see what properties of the models can be identified as corresponding to seemingly feasible formulae in the language.
@@ -35,7 +35,7 @@ This basic temporal language does not yet really constitute a sensible logic tha
 
 ## Frames and Models for BTL
 
-A _frame_ for BTL will be a set, $T$, with two binary relations $R_F$ and $R_P$.  We have $R_F xy$ reads that 'at $x$, $y$ is in the future'  - but, in the ordinary common sense meaning of words, this should mean $R_P yx$ and conversely.  In other words $R_P$ should be the _converse_ or [[opposite relation]] of $R_F$. 
+A _frame_ for BTL will be a set, $T$, with two binary relations $R_F$ and $R_P$.  We have $R_F x y$ reads that 'at $x$, $y$ is in the future'  - but, in the ordinary common sense meaning of words, this should mean $R_P y x$ and conversely.  In other words $R_P$ should be the _converse_ or [[opposite relation]] of $R_F$. 
 
 (In general, if $R$ is a binary relation on a set $X$, then its [[opposite relation]] is defined by 
 
@@ -59,7 +59,7 @@ but, of course, this is still a long way from having a logic that looks as if it
 
 One condition it would be natural to impose is transitivity of $R_F$, since if $F\phi$ is true at some future time, then clearly, $\phi$ itself must also be true at some future time, i.e., later on still!  This leads one to ask that 
 
-$$(4) \quad\quad    FF\phi \to F\phi$$
+$$(4) \quad\quad    F F\phi \to F\phi$$
 
 should be in our logic,  (and similarly for $P$, but that will hold in the bidirectional models since if $R$ is transitive then so will be $R^{op}$).
 
