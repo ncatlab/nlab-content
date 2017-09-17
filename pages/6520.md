@@ -24,7 +24,8 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 
 * [[Yang-Mills instanton]]
 
-## Literature
+## References
+ {#References}
 
 See also literature at [[Yang-Mills instanton]].
 * [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
