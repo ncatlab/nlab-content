@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -12,6 +13,10 @@
 =--
 =--
 
+# Faithful representations
+* table of contents
+{: toc}
+
 ## Idea
 
 A [[representation]] of an algebraic object, such as a [[group]] or an [[algebra]], is a way of studying it by making it act on some object.  The hope being that the behaviour of the object makes it easier to see the structure of the acting object.  Another way of thinking of such a representation is that it is a [[homomorphism]] of the acting object into some other object that is (presumably) better understood.  Making a group or algebra act on a vector space is the same as giving a homomorphism into the corresponding [[general linear group]] or [[endomorphism algebra]], making a group act on a set maps it into the corresponding [[permutation group]].
@@ -19,6 +24,7 @@ A [[representation]] of an algebraic object, such as a [[group]] or an [[algebra
 When studying an object via its representation then we really only "see" that part of the object that the representation sees.  Thus there is the potential for forgetting information when passing to a representation.  This can be a good thing, but it might not be.  It is important to classify the possible scenarios and the label **faithful representation** is used for when no information is lost.  This is in line with other uses of the word [[faithful]].
 
 Thus when we have a faithful representation, we can distinguish two elements of the acting object by their actions: if they always do the same thing then they were the same element.
+
 
 ## Definition
 
@@ -28,3 +34,7 @@ A **faithful representation** is one where the adjoint mapping is injective.
 
 In detail for groups acting on vector spaces: let $G$ be a [[group]] and $V$ a [[vector space]].  An action of $G$ on $V$ defines a group homomorphism $G \to \GL(V)$.  If this is [[injective]] then we say that the representation is a **faithful representation**.
 =--
+
+
+[[!redirects faithful representation]]
+[[!redirects faithful representations]]
