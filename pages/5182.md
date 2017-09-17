@@ -25,6 +25,8 @@ A [[model category]] structure on a category of [[spectra]] presents a [[stable 
 
 ## Related concepts
 
+* [[model structure on presheaves of spectra]]
+
 * [[model structure for dendroidal left fibrations]]
 
 ## References
