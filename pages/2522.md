@@ -145,13 +145,16 @@ Around the same time Golfand and Likhtman in Russia wrote down the [[super Poinc
 
 * [[supersymmetry and Calabi-Yau manifolds]]
 
+* [[supermanifold]], [[supergravity]], [[superstring theory]]
+
 ## References
 
-Related $n$Lab entries: [[supermanifold]], [[supergravity]], [[superstring theory]]. 
 
-A decent textbook reference for the general theory is for instance
+Texbook references include
 
 * V. S. Varadarajan, _Supersymmetry for mathematicians: An introduction _ AMS (2004)
+
+* [[Daniel Freed]], _Five lectures on supersymmetry_ AMS (1999)
 
 A fair bit of detail on supersymmetry and of [[supergravity]] with an eye towards their role in [[string theory]] is in 
 
