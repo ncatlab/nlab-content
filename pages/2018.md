@@ -24,6 +24,8 @@ Spectra of noetherian rings are glued together to define [[noetherian scheme|loc
 
 ## Related concepts
 
+* [[Noetherian module]]
+
 * [[Noetherian poset]]
 
 * [[Noetherian E-∞ ring]]
