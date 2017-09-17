@@ -338,7 +338,11 @@ For more details see [[semilattice of commutative subalgebras]].
 
 * [[Jordan-Lie-Banach algebra]]
 
-* [[Alfsen-Shultz theorem]]
+* [[order-theoretic structure in quantum mechanics]]
+
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
 
 ## References
 
