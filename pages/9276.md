@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Darboux's theorem states that a [[smooth manifold]] equipped with a [[differential 1-form]] $\theta$ which is sufficiently non-degenerate admits local [[coordinate charts]] $\mathbb{R}^{2n}$ such on which $\theta$ takes the canonical form $\sum_{k} x^{2k} d x^{2k+1}$.
+
+In particular for $(X, \omega)$ a [[symplectic manifold]] there are local charts in which $\omega$ takes the form $\sum_{k} d x^{2k} \wedge d x^{2k+1}$.
+
+## References
+
+* Wikipedia, _[Darboux theorem](http://en.wikipedia.org/wiki/Darboux%27s_theorem)_
+
+
+[[!redirects Darboux theorem]]
