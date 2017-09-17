@@ -16,7 +16,7 @@ Suppose a scheme $S$ is defined over  a field $k$, so is equipped with a morphis
 +-- {: .num_defn}
 ###### Definition
 
-A **geometric point++ $\xi$ in $S$ is a [[morphism]] from $Spec(\overline{k}))$ to $S$ where $\overline{k}$ is an [[algebraic closure]] of $k$.
+A **geometric point** $\xi$ in $S$ is a [[morphism]] from $Spec(\overline{k})$ to $S$ where $\overline{k}$ is an [[algebraic closure]] of $k$.
 
 =--
 
