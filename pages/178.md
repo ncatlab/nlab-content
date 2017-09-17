@@ -1190,7 +1190,8 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{\flat}_{dR}\mathbf{E}G &\to& \mathbf{\flat} \mathbf{E}G
+    \mathbf{\flat}_{dR}\mathbf{B}\mathbf{E}G &\to& 
+   \mathbf{\flat} \mathbf{B}\mathbf{E}G
   }
 $$
 
@@ -1206,12 +1207,14 @@ $$
           {}^{\mathllap{f}}\swArrow
        & \searrow^{\mathrlap{(g_2,a_2)}}
        \\
-      (g_1^{-1} d g_1, d a_1 + [a_1 \wedge a_1])
-      &\stackrel{(f,f^{-1} d f)}{\to}&&&
-      (g_2^{-1} d g_2, d a_2 + [a_2 \wedge a_2])
+      (g_1^{-1} d g_1 + a_1, d a_1 + [a_1 \wedge a_1])
+      &&\stackrel{(e,q)}{\to}&&
+      (g_2^{-1} d g_2 + a_2, d a_2 + [a_2 \wedge a_2])
     }
   \right\}
 $$
+
+spring
 
 
 The universal form on $\mathbf{E}G$ 
@@ -1286,7 +1289,7 @@ The $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} 
 * a [[morphism]] $(g,a) : (A,B) \to (A',B')$ is a pair
 
   $$  
-    g \in C^\infy(U,G_1)\,,\;\;\; a \in \Omega^1(U,\mathfrak{g}_2)
+    g \in C^\infty(U,G_1)\,,\;\;\; a \in \Omega^1(U,\mathfrak{g}_2)
   $$
 
   such that
