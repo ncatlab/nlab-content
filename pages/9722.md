@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -17,4 +17,5 @@ The category $sAb$ of [[simplicial abelian groups]]. Equivalently that of [[simp
 
 * [[KanCplx]]
 
-category: categories
+
+category: category
