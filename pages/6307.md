@@ -1,16 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Factorization categories
 * table of contents
 {: toc}
 
 ## Idea
 
-The _factorization category_ (also called the _interval category_) $Fact(f)$ of an arrow $f$ in a category $C$ is a way of organizing its binary factorizations $f = p\circ q$ into a category. 
+The _factorization category_ (also called the _interval category_) $Fact(f)$ of a [[morphism]] $f$ in a [[category]] $C$ is a way of organizing its binary factorizations $f = p\circ q$ into a category. 
 
 
 ## Definition
 
-The objects of $Fact(f)$ are factorizations 
+The [[objects]] of $Fact(f)$ are factorizations 
 
 \[
 \begin{matrix}
@@ -22,7 +32,7 @@ The objects of $Fact(f)$ are factorizations
 \end{matrix}
 \]
 
-so that $f = p_2 p_1$, and a morphism from $(p_1, D, p_2)$ to $(q_1, E, q_2)$ is a morphism $h \colon D \to E$ making everything in sight commute. There's an obvious projection functor
+so that $f = p_2 p_1$, and a [[morphism]] from $(p_1, D, p_2)$ to $(q_1, E, q_2)$ is a morphism $h \colon D \to E$ making everything in sight commute. There's an obvious projection [[functor]]
 \[  
   P_f \colon Fact(f) \to C
 \]
@@ -31,7 +41,7 @@ which maps $(p_1, D, p_2)$ to $D$ and $h\colon (p_1, D, p_2) \to (q_1, E, q_2)$ 
 
 ### As iterated comma categories
 
-In terms of slice categories, a morphism $f: A \to B$ can be viewed as
+In terms of [[slice categories]], a morphism $f: A \to B$ can be viewed as
 
 1. an object in $C/B$
 2. or an object in $A / C$
@@ -46,7 +56,7 @@ the cool fact is that the two other options yield $Fact(f)$
 +-- {: .un_lemma }
 ###### Lemma
 
-$Fact(f) \cong f/(C/B) \cong (A / C)/f$, and the following diagram commutes
+$Fact(f) \cong f/(C/B) \cong (A / C)/f$, and the following [[diagram]] [[commuting diagram|commutes]]
 \[
 \array{
     (A / C)/f &\stackrel{\cong}{\to}&   Fact(f)  & \stackrel{\cong}{\leftarrow} & f/(C/B)
@@ -69,21 +79,21 @@ $Fact(f) \cong f/(C/B) \cong (A / C)/f$, and the following diagram commutes
 
 There is a fairly simple characterization of the categories arising as factorization categories of some $f$ in a category $C$. First of all, note that $Fact(f)$ always has 
 
-* an initial object $f = f\circ id$ 
-* a terminal object $f = id \circ f$
+* an [[initial object]] $f = f\circ id$ 
+* a [[terminal object]] $f = id \circ f$
 
 conversely, for any category $D$ with initial and terminal objects $0, 1$ denoting the unique morphism $! \colon 0 \to 1$ we have that
 \[
 \pi_! \colon Fact(!) \to D
 \]
-is an equivalence. We get then
+is an [[equivalence]]. We get then
 
 > a category is equivalent to some $Fact(f)$ iff it has initial and terminal objects  
 
 
 ### Factorization categories vs the category of factorizations
 
-We can view $Fact(f)$ as a full reflective subcategory of the [[over-category]] $f / tw(C)$; here $f$ is viewed as an object of the [[category of factorizations]] $tw(C)$ of its ambient category $C$. There's a functor
+We can view $Fact(f)$ as a full [[reflective subcategory]] of the [[over-category]] $f / tw(C)$; here $f$ is viewed as an object of the [[category of factorizations]] $tw(C)$ of its ambient category $C$. There's a functor
 
 \[
   U_f \colon Fact(f) \to tw(C)
@@ -103,7 +113,7 @@ which on objects is
 
 and on arrows $U(h) = (h, id)$.
 
-This functor has a _left_ adjoint
+This functor has a _[[left adjoint|left]]_ [[adjoint functor|adjoint]]
 
 \[
   F_f \colon tw(C)/f \to Fact(f)
