@@ -121,7 +121,7 @@ for some chosen retraction $r$. In other words, models of the untyped [[lambda c
 
 ## Realizability toposes 
 
-From any PCA, a corresponding "realizability tripos" can be constructed, from which, in turn, a corresponding "realizability topos" can be constructed, as outlined in the article on [[tripos|triposes]]. 
+From any PCA, a corresponding "[[realizability]] [[tripos]]" can be constructed, from which, in turn, a corresponding "realizability topos" can be constructed, as outlined in the article on [[tripos|triposes]]. 
 
 A preliminary technical task is to encode pairing and unpairing functions by elements of $A$. By this we mean functions $p \colon A \times A \to A$, $l \colon A \to A$, $r \colon A \to A$ such that for all $(a, a') \in A \times A$, we have $(a, a') = (l(p(a, a')), r(p(a, a')))$. One way of doing this is to put 
 
@@ -201,11 +201,15 @@ is a functor preorder map that preserves Heyting prealgebra structure.
 
 Furthermore, in the case of a projection map $f \colon Z \times Y \to Y$, there will be left and right adjoints to $P(A)^f \colon P(A)^Y \to P(A)^{Z \times Y} (\cong (P(A)^Z)^Y)$, as induced by the union and intersection maps from $P(A)^Z$ to $P(A)$.
 
+## Related concepts
+
+* [[realizability]]
+
 ## References 
 
-Pieter J.W. Hofstra, Partial Combinatory Algebras and Realizability Toposes, 
+* {#Hofstra} Pieter J.W. Hofstra, _Partial Combinatory Algebras and Realizability Toposes_, 
 ([web](http://mysite.science.uottawa.ca/phofstra/)) ([pdf](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CF8QFjAB&url=http%3A%2F%2Fmysite.science.uottawa.ca%2Fphofstra%2FKananaskis.pdf&ei=georUITcEebV0QGctIGwDg&usg=AFQjCNFywYRYAfzrgHFq5AsaBZ5li_qfyQ&sig2=BCT05ts3GBLntD2VZazC4w))
-{#Hofstra}
+
 
 
 [[!redirects combinatory algebra]] 
