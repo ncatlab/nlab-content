@@ -134,6 +134,12 @@ In particular they are classified by the intrinsic $n+1$st $A$-[[cohomology]] of
 
 * The [[fivebrane 6-group]] is an extension in $\mathbf{H} = $ [[Smooth∞Grpd]] of the [[string 2-group]] by the [[circle n-group|circle 6-group]].
 
+## Related concepts
+
+* [[central extension]]
+
+* [[centrally extended groupoid]]
+
 ## References
 
 The general concept is discussed in section 4.3 of 
