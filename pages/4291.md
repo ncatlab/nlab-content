@@ -21,9 +21,20 @@ A [[short exact sequence]] $0\to A\to B\to C\to 0$ in an [[abelian category]] is
 
 This is equivalent to the existence of a [[section]] of $B\to C$ or a [[retract]] $B\to A$.
 
+Generally, a [[long exact sequence]] $C_\bullet$ is _split exact_ if the [[weak homotopy equivalence]] from the 0-chain complex, namely the [[quasi-isomorphism]] $0 \to C_\bullet$ is actually a [[chain homotopy]]-[[homotopy equivalence]], in that the [[identity]] on $C_\bullet$ has a [[null homotopy]]. 
+
+
+
 ### In a semi-abelian category
 
 There is a nnabelian analog of split exact sequences in [[semiabelian categories]]. See there.
+
+## References
+
+For instance section 1.4 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Alhgebra]]_
+
 
 [[!redirects split sequence]]
 
