@@ -512,7 +512,7 @@ set of examples.
 
 ### 19. Galois Connections, intension versus extension, and syntax versus semantics ###
 
-Jeremy Gibbons reminded me on reading this that 
+Jeremy Gibbons reminded me that 
 [[Galois connection|Galois connections]] are
 used in [[Formal Concept Analysis]] to map
 between the intension (set of
