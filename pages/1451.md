@@ -11,3 +11,5 @@ See
 * [[synthetic differential geometry]].
 
 category: people
+
+[[!redirects A. Kock]]
