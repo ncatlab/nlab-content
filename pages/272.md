@@ -20,7 +20,7 @@
 
 ## Idea
 
-**Algebraic Quantum Field Theory** or **Axiomatic Quantum Field Theory** or **AQFT** for short is a formalization of [[quantum field theory]] that axiomatizes the assignment of _algebras of observables_ to patches of parameter space that one expects a quantum field theory to provide.
+**Algebraic Quantum Field Theory** or **Axiomatic Quantum Field Theory** or **AQFT** for short is a formalization of [[quantum field theory]] (and specifically full, hence [[non-perturbative quantum field theory]]) that axiomatizes the assignment of _[[algebras of observables]]_ to patches of parameter space ([[spacetime]], [[worldvolume]]) that one expects a quantum field theory to provide.
 
 As such, the approach of AQFT is roughly dual to that of [[FQFT]], where instead _spaces of states_ are assigned to boundaries of [[cobordism]]s and propagation maps between state spaces to cobordisms themselves.
 
@@ -174,7 +174,13 @@ A classic of the trade is this one:
 
 Recent account of the principle of locality in AQFT from the point of view of traditional school
 
-* [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
+* [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found.Phys. 34 (2004) 501-527 ([arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143))
+
+* [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi]
+(http://dx.doi.org/10.1063/1.3276100)
+
+* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 1913
+
 
 Talk slides include
 
@@ -253,4 +259,3 @@ The role of [[von Neumann algebra factor]]s is discussed in
 
 [[!redirects algebraic quantum field theory]]
 [[!redirects algebraic quantum field theories]]
-
