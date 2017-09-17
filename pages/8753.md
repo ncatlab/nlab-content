@@ -46,27 +46,66 @@ For instance ([Lurie, def. 6.1.2.2](#Lurie)).
 
 ## Properties
 
-### Powering
+### Powering over simplicial sets
  {#Powering}
 
 Assume that $\mathcal{C}$ has all [[(∞,1)-limits]]. 
 The following is a model for the [[powering]] of simplicial objects in $\mathcal{C}$ by simplicial sets.
 
-+-- {: .num_defn}
++-- {: .num_defn #PoweringByLimitOverCategoryOfSimplices}
 ###### Definition
 
 Let $\mathcal{C} \in QCat \hookrightarrow sSet$ be an [[(∞,1)-category]] incarnated as a [[quasi-category]], and let $X \colon \Delta^{op} \to \mathcal{C}$ be a simplicial object. Then for $K \in sSet$ any [[simplicial set]], write
 
 $$
-  X[K] \colon \Delta_{/K}^{op} \to \Delta^{op} \stackrel{X}{\to} \mathcal{C}
-  \,,
+  X(K) 
+    \colon 
+  \underset{\leftarrow}{\lim}
+  \left(
+    \Delta_{/K}^{op} \to \Delta^{op} \stackrel{X}{\to} \mathcal{C}
+  \right)
 $$
 
-where the first homomorphism is the projection from the [[category of elements]] of $K$.
+for the [[(∞,1)-limit]] (if it exists) of composite [[(∞,1)-functor]] of $X_\bullet$ with the projection from (the [[opposite category]] of) the [[category of simplices]] of $K$.
 
 =--
 
-This is discussed in ([Lurie HTT 4.2.3](#Lurie)). Also ([Lurie, notation 1.1.7](#LurieGood)).
+This is discussed in ([Lurie HTT 4.2.3](#Lurie)). See also around ([Lurie 2, notation 1.1.7](#LurieGood)).
+
++-- {: .num_remark}
+###### Remark
+
+The inclusion $\Delta_{/K}^{nd} \hookrightarrow \Delta_{K}$ of the [[full subcategory]] on non-degenerate simplicies is a [[homotopy cofinal functor]] (as discussed there). Therefore the $(\infty,1)$-limit in def. \ref{PoweringByLimitOverCategoryOfSimplices} may equivalently be taken over this category of non-degenerate simplices.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $K = \Delta^1 \coprod_{\Delta^0} \Delta^1$ the simplicial set consisting of two consecutive edges, we have for $X_\bullet \in \mathcal{C}^{\Delta^\bullet}$ that
+
+$$
+  X(K) \simeq X_1 \underset{X_0}{\times} X_1
+$$
+
+is the [[homotopy fiber product]] in
+
+$$
+  \array{
+    && X(K)
+    \\
+    & \swarrow && \searrow
+    \\
+    X_1 &&&& X_1
+    \\
+    & {}_{\mathllap{\partial_1}}\searrow && \swarrow_{\mathrlap{\partial_0}}
+    \\
+    && X_0
+  }
+  \,.
+$$
+
+=--
 
 +-- {: .num_prop #SlicingOverPoweringOfSimplicialObjects}
 ###### Proposition
