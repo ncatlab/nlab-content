@@ -68,6 +68,9 @@ Both [[Coq]] and [[Agda]] have systems to manage universe sizes and [[universe e
 
 ## References
 
+
+* [[Martin Hofmann]], section 2.1.6 of _Syntax and semantics of dependent types_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985))
+
 * [[Erik Palmgren]], _On Universes in Type Theory_  ([pdf](http://www2.math.uu.se/~palmgren/universe.pdf))
 
 Detailed discussion of the type of types in [[Coq]] is in
