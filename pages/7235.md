@@ -21,6 +21,13 @@
 
 One of the [[exceptional Lie groups]].
 
+## Proeperties
+
+### As U-Duality group of 4d SuGra
+
+$E_7$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 4 dimensions.
+
+
 ## Related concepts
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
