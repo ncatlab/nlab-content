@@ -259,7 +259,13 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 * [[supergravity Lie 6-algebra]]
 
-## Relation to $\infty$-Lie groupoids
+## Properties
+
+### Model category structure 
+
+See [[model structure for L-∞ algebras]].
+
+### Relation to $\infty$-Lie groupoids
 
 In generalization to how a [[Lie algebra]] integrates to a [[Lie group]], $L_\infty$-algebras integrate to [[∞-Lie group]]s.
 
