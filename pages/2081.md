@@ -13,3 +13,6 @@ Flabbiness is a local property: if $F|_U$ is flabby for every sufficiently small
 Flabby sheaves were probably first studied in [[Tohoku]], where flabby [[resolution]]s were also considered. A classical reference is Godement's monograph. 
 
 [[!redirects flasque sheaf]]
+[[!redirects flabby sheaves]]
+[[!redirects flasque sheaves]]
+
