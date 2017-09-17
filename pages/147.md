@@ -35,7 +35,7 @@ $$
   \mathcal{E} \simeq Sh(C,J)
 $$
 
-to the [[sheaf topos]] over a site, ones says that $(C,J)$ is a **site of definition** for $\mathcal{E}$.
+to the [[sheaf topos]] over a site, one says that $(C,J)$ is a **site of definition** for $\mathcal{E}$.
 
 =--
 
@@ -112,12 +112,26 @@ If $C$ has [[finite limit]]s then the condition that $f : C \to D$ is a [[flat f
 ## Properties
 
 
+### Subcanonical sites
+
++-- {: .num_prop #CharacterizationOfSubcanonicalSites}
+###### Proposition
+
+For $\mathcal{E}$ a [[sheaf topos]] the [[essentially small category|essentially small]] site of definition $(\mathcal{C}, J)$ of $\mathcal{E}$ such that $J$ is a [[subcanonical coverage]] are precisely the [[full subcategories]] on [[generating families]] of objects equipped with the coverages induced from the [[canonical coverage]] of $\mathcal{E}$.
+
+=--
+
+This appears as ([Johnstone, prop. C2.2.16](#Johnstone)).
+
+
+
+
 ### Morphisms of sites and geometric morphisms
  {#MorphismsOfSitesAndGeometricMorphisms}
 
 We discuss how morphisms of sites, def. \ref{MorphismOfSites}, induce [[geometric morphism]]s of the corresponding [[sheaf topos]]es, and how the converse holds, too, under certain conditions.
 
-+-- {: .num_prop}
++-- {: .num_prop #MorphismsOfSitesInduceGeometricMorphisms}
 ###### Proposition
 
 Let $f : (C,J) \to (D,K)$ be a [morphism of sites](#MorphismOfSites). 
@@ -138,7 +152,56 @@ where $f_*$ is the restriction of $f$ to sheaves.
 +-- {: .proof}
 ###### Proof
 
-By the assumption that $f$ preserves covers we have that the restriction of $(-)\circ f$ to $Sh_K(D)$ indeed factors through $Sh_C(C) \hookrightarrow PSh(C)$.Also $(-)\circ f$ preserves all [[limit]]s, because for presheaves these are computed objectwise. And since the inclusion $Sh_K(D) \to PSh(D)$ is [[right adjoint]] (to [[sheafification]]) we have that 
+By the assumption that $f$ preserves covers we have that the restriction of $(-)\circ f$ to $Sh_K(D)$ indeed factors through $Sh_C(C) \hookrightarrow PSh(C)$. 
+
+Because for $\{U_i \to U\}$ a [[cover]] in $C$ and $F$ a [[sheaf]] on $D$, we have that (assuming here for simplicity that $C$ has finite limits)
+
+$$
+  \begin{aligned}
+    PSh_C( \lim_\to ( \coprod_{i, j} U_i \prod_{U} U_j)
+    \stackrel{\to}{\to}
+      \coprod_{i} U_i )
+    \;,\;
+    F(f(-))
+    )
+    & \simeq 
+    \lim_{\leftarrow}
+     \left(
+      \prod_{i,j} PSh( U_i \prod_U U_j, F(f(-)))
+       \stackrel{\leftarrow}{\leftarrow}
+       \prod_i PSh(U_i , F(f(-)))
+     \right)
+    \\
+    & \simeq
+    \lim_{\leftarrow}
+     \left(
+      \prod_{i,j} F(f(U_i \prod_U U_j)))
+       \stackrel{\leftarrow}{\leftarrow}
+       \prod_i F(f(U_i))
+     \right)   
+    \\
+    & \simeq
+    \lim_{\leftarrow}
+     \left(
+      \prod_{i,j} F(f(U_i) \prod_{f(U)} f(U_j))))
+       \stackrel{\leftarrow}{\leftarrow}
+       \prod_i F(f(U_i))
+     \right)       
+    \\
+    & \simeq
+    PSh_D( \lim_\to ( \coprod_{i, j} f(U_i) \prod_{f(U)} f(U_j))
+    \stackrel{\to}{\to}
+      \coprod_{i} f(U_i) )
+    \;,\;
+    F
+   )         
+  \end{aligned}
+  \,,
+$$
+
+where we used the [[Yoneda lemma]] and the assumption that $f$ preserves the [[pullback]]s involved.
+
+Also $(-)\circ f$ preserves all [[limit]]s, because for presheaves these are computed objectwise. And since the inclusion $Sh_K(D) \to PSh(D)$ is [[right adjoint]] (to [[sheafification]]) we have that 
 
 $$
   f_* : Sh_K(D) \hookrightarrow PSh(D) \stackrel{(-)\circ f}{\to} Sh_J(C)
@@ -155,11 +218,11 @@ $$
 Here the first morphism preserves all limits, the last one all finite limits. Hence the composite preserves all finite limits if the left [[Kan extension]] $Lan_f$ does. This is the case if $f$ is a [[flat functor]].
 
 (Because the left [[Kan extension]] is given by the [[colimit]] 
-$Lan_f X : d \mapsto {\lim_{\to}}((f^{op}/d) \to C^{op} \stackrel{X}{\to})$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] by definition if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s ).
+$Lan_f X : d \mapsto {\lim_{\to}}((f^{op}/d) \to C^{op} \stackrel{X}{\to} Set)$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] by definition if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s ).
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #GeometricMorphismsOverCartesianSitesComesFromMorphismsOfSites}
 ###### Proposition
 
 Let $(\mathcal{C}, J)$ and $(\mathcal{D}, K)$ be [[cartesian site]]s such that $\mathcal{C}$ is a [[small category]], $\mathcal{D}$ is an [[essentially small category]] and the [[coverage]] $K$ is [[subcanonical coverage|subcanonical]]. 
@@ -170,17 +233,17 @@ $$
   f : Sh(\mathcal{D}, K) \to Sh(\mathcal{C}, J)
 $$
 
-is induced by a morphism of [[sites]] (see there)
+is induced by a morphism of sites, def. \ref{MorphismOfSites},
 
 $$
-  (\mathcal{D}, K) \leftarrow (\mathcal{C}, J)  
+  (\mathcal{D}, K) \leftarrow (\mathcal{C}, J)  : F
 $$
 
 precisely if the [[inverse image]] of $f$ respects the [[Yoneda embedding]]s $j$ as
 
 $$
   \array{
-    \mathcal{D } &\leftarrow& \mathcal{C}
+    \mathcal{D } &\stackrel{F}{\leftarrow}& \mathcal{C}
     \\
     {}^{\mathllap{j_{\mathcal{D}}}}\downarrow && \downarrow^{\mathrlap{j_{\mathcal{C}}}}
     \\
@@ -197,7 +260,13 @@ This appears as ([Johnstone, lemma C2.3.8](#Johnstone)).
 +-- {: .proof}
 ###### Proof
 
-It suffices to observe that the factorization, if it exists, is a morphism of sites.
+It suffices to show that given $f$, the factorization $F$ is, if it exists, necessarily a morphism of sites: because since $f^*$ is [[left adjoint]] and thus preserves all [[colimit]]s and every object in $Sh(C)$ is a colimit of [[representable functor|representables]], $f^*$ is fixed by the factorization and by uniqueness of [[adjoint functor]]s together with its [[right adjoint]] it is then the geometric morphism induced from the morphism of sites, by prop. \ref{MorphismsOfSitesInduceGeometricMorphisms}.
+
+So we show that $F$ is necessarily a morphisms of sites: 
+
+1. since the [[Yoneda embedding]] and [[sheafification]] as well as [[inverse image]]s preserve finite limits, so does $f^* j_{\mathcal{C}}$ and hence $F$ preserves finite limits, hence is a [[flat functor]];
+
+1. $f^* h_{\mathcal{C}}$ preserves [[covering]]s (maps them to [[epimorphism]]s in $Sh(D, K)$) and since $K$ is assumed to be subcanonical it follows from prop. \ref{CharacterizationOfSubcanonicalSites} that $j_{\mathcal{D}}$ also reflects covers. Therefore $F$ preserves covers.
 
 =--
 
@@ -209,7 +278,7 @@ Let $(\mathcal{C},J)$ be a [[small category|small]] [[cartesian site]] and let $
 $$
   Topos(\mathcal{E}, Sh(\mathcal{C}, J))
   \simeq
-  Site((\mathcal{J}, J), (\mathcal{E}, C))
+  Site((\mathcal{C}, J), \mathcal{E})
 $$
 
 between the [[geometric morphism]]s from $\mathcal{E}$ to $Sh(\mathcal{C}, J)$ and the morphisms of [[site]]s from $(\mathcal{C}, J)$ to the [[big site]] $(\mathcal{E}, C)$ for $C$ the [[canonical coverage]] on $\mathcal{E}$.
@@ -217,6 +286,13 @@ between the [[geometric morphism]]s from $\mathcal{E}$ to $Sh(\mathcal{C}, J)$ a
 =--
 
 This appears as ([Johnstone, cor. C2.3.9](#Johnstone)).
+
++-- {: .proof}
+###### Proof
+
+Since for the [[canonical coverage]] the [[Yoneda embedding]] is the [[identity]], this follows directly from prop. \ref{GeometricMorphismsOverCartesianSitesComesFromMorphismsOfSites}.
+
+=--
 
 +-- {: .num_remark }
 ###### Remark
