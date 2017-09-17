@@ -1,23 +1,37 @@
 
 **[[Higher Topos Theory|(∞,1)-topos theory]]**
 
+## Background ##
+
+* [[sheaf and topos theory]]
+
+* [[(∞,1)-category]]
+
+* [[(∞,1)-functor]]
+
+* [[(∞,1)-presheaf]]
+
+* [[(∞,1)-category of (∞,1)-presheaves]]
+
 ## Definitions ##
+
+* [[(∞,1)-site]]
+
+* [[reflective sub-(∞,1)-category]]
+
+  * [[localization of an (∞,1)-category]]
+
+  * [[topological localization]]
+
+  * [[hypercompletion]]
+
+* [[(∞,1)-category of (∞,1)-sheaves]]
+
+  * [[(∞,1)-sheaf]]/[[∞-stack]]/[[derived stack]]
 
 * [[(∞,1)-topos]]
 
 * [[(n,1)-topos]]
-
-* [[(∞,1)-category of (∞,1)-sheaves]]
-
-  * [[(∞,1)-category]]
-
-  * [[(∞,1)-presheaf]]
-
-  * [[(∞,1)-sheaf]]/[[∞-stack]]
-
-* [[models for ∞-stack (∞,1)-toposes]]
-
-  * [[model structure on simplicial presheaves]]
 
 ## Characterization ##
 
@@ -26,6 +40,27 @@
 * [[object classifier]]
 
 * [[groupoid object in an (∞,1)-category|groupoid object in an (∞,1)-topos]]
+
+## Extra stuff, structure and property
+
+* [[hypercomplete (∞,1)-topos]]
+
+* [[structured (∞,1)-topos]]
+
+* [[locally n-connected (n,1)-topos]]
+
+## Models ##
+
+* [[models for ∞-stack (∞,1)-toposes]]
+
+  * [[model category]]
+
+  * [[model structure on functors]]
+
+  * [[model site]]/[[sSet-site]]
+
+  * [[model structure on simplicial presheaves]]
+
 
 ## Constructions  ##
 
@@ -37,12 +72,17 @@
 
 * [[homotopy groups in an (∞,1)-topos|homotopy]]
 
-  * [[Postnikov tower in an (∞,1)-category|Postnikov towers]]
+  * [[Postnikov tower in an (∞,1)-category|Postnikov tower]]
 
-  * [[Whitehead tower in an (∞,1)-topos|Whitehead towers]]
+  * [[Whitehead tower in an (∞,1)-topos|Whitehead tower]]
 
 * [[rational homotopy theory in an (∞,1)-topos|rational homotopy]]
 
-[Edit this sidebar](/nlab/edit/%28infinity%2C1%29-topos+-+contents)
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/%28infinity%2C1%29-topos+-+contents)</div>
+
+
+
+
 
 [[!redirects infinity,1-topos - contents]]
