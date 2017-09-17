@@ -88,6 +88,22 @@ It makes sense to say an object is $(-1)$ connected if it is either initial or e
 
 * An object is a **degree $n$-[[Eilenberg-MacLane object]]** if its is both $n$-connected as well as $n$-truncated, i.e. if its only nontrivial homotopy group is in degree $n$.
 
+## Examples
+
+### Of the circle
+
+The first homotopy group of the [[circle]] $S^1$ is the group of [[integer]]s.
+
+$$
+  \pi_1(S^1) \simeq \mathbb{Z}
+  \,.
+$$
+
+A formalization of a proof of this in [[homotopy type theory]] is in ([Shulman](#ShulmanPi1S1)).
+
+### Of spheres
+
+(...)
 
 ## History 
 
@@ -126,5 +142,12 @@ For the special case that the object $B$ here is a [[co-group object]], this _ho
 The standard example is that where $B = S^n$ is the $n$-[[sphere]]. This naturally comes with an co-group structure up to homotopy, which is precisely the structure underlying the co-category structure of the [[interval object]] and more generally that underlying the mechanism of the [[Trimble n-category]].
 
 As opposed to [[cohomology]] where people are used to talking about [[generalized cohomology]], "homotopy" usually just means this ordinary homotopy for $B = S^n$.
+
+## References
+
+### Formalization in HoTT
+
+* [[Mike Shulman]], _[P1S1.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/Pi1S1.v)_
+{#ShulmanPi1S1}
 
 [[!redirects homotopy groups]]
