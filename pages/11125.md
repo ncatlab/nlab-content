@@ -1,7 +1,7 @@
 
 * [webpage](http://people.cs.uchicago.edu/~brady/)
 
-## Some wrtings
+## Some writings
 
 * with [[Todd Trimble]], _[[A string diagram calculus for predicate logic]]_
 
