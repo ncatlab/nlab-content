@@ -32,7 +32,11 @@ Similarly, if one already looks at [[p-local spectra]] then torsion approximatio
 
 ## Properties
 
-Under suitable conditions, torsion approximation forms an [[adjoint modality]] with [[adic completion]]. See at _[Fracturing for chain complexes](fracture+theorem#CompletionAndTorsionOnDerivedCategories)_ for more on this.
+### As a modality in arithmetic cohesion
+
+Under suitable conditions, torsion approximation forms an [[adjoint modality]] with [[adic completion]]. 
+
+[[!include arithmetic cohesion -- table]]
 
 ## References
 
