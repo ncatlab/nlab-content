@@ -360,6 +360,10 @@ See [[Deligne-Mumford stack]] for details.
 
 There should be a geometry $\mathcal{G}$ such that $\mathcal{G}$-[[generalized scheme]]s are precisely [[derived smooth manifold]]s.
 
+## Related concepts
+
+Analogous structures in the axiomatic context of [[differential cohesion]] are discussed in _[differential cohesion -- structure sheaves](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#StructureSheaves)_.
+
 ## References 
 
 The general theory is developed in
