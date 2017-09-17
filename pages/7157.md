@@ -31,6 +31,7 @@ In ([Lurie, section 1.3](#Lurie)) a recursive definition is given: a (complete) 
 This is discussed at _[[n-fold complete Segal space]]_.
 
 ### Dyckerhoff-Kapranov
+ {#DyckerhoffKapranov}
 
 In ([DyckerhoffKapranov](#DyckerhoffKapranov)) a 2-Segal space is defined to be a simplicial space with a higher analog of the weak composition operation known from [[Segal spaces]].
 
@@ -49,16 +50,20 @@ $$
 
 are [[weak equivalences]].
 
-
+**Warning**. These Dyckerhoff-Kaparanov "higher Segal spaces" are not like [[(∞,2)-categories]] or similar. Rather, they are apparently a model for [[(∞,1)-operads]].
 
 ## References
+
+The notion of higher Segal space as a modl for [[(∞,n)-categories]] is discussed in
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus I_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
   {#Lurie}
 
-The notion of 2-Segal space above is due to [[Mikhail Kapranov]] and Tobias Dyckerhoff.
+For more references along these lines see at _[[n-fold complete Segal space]]_
 
-* Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([ArXiv](http://arxiv.org/abs/1212.3563))
+The Dyckerhoff-Kapranov "higher Segal spaces" [above](#DyckerhoffKapranov) are discussed in
+
+* Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([arxiv:1212.3563](http://arxiv.org/abs/1212.3563))
 
 * Tobias Dyckerhoff, _Higher Segal spaces _, talk at Steklov Mathematical Institute (2011) ([video](http://www.mathnet.ru/php/presentation.phtml?presentid=3718&option_lang=eng))
  {#DyckerhoffKapranov}
