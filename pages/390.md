@@ -37,6 +37,8 @@ In general, $(-)^\perp$ and ${}^\perp(-)$ form a [[Galois connection]] on the [[
 
 If $C$ is a [[locally presentable category]], then for any *small set* of maps $A$, the prefactorization system $({}^\perp(A^\perp),A^\perp)$ is actually a factorization system.  The argument is by a transfinite construction similar to the [[small object argument]].
 
+On the other hand, if $(E,M)$ is any prefactorization system for which $M$ consists of monomorphisms and $C$ is [[complete category|complete]] and [[well-powered category|well-powered]], then $(E,M)$ is actually a factorization system.  (Of course, there is a dual statement as well.)  In fact something slightly more general is true; see [[M-complete category]] for this and other related ways to construct factorization systems.
+
 
 ## Examples #
 
@@ -81,3 +83,5 @@ Several classical examples of OFS $(E,M)$:
 [[!redirects unique factorization systems]]
 [[!redirects unique factorisation system]]
 [[!redirects unique factorisation systems]]
+[[!redirects prefactorization system]]
+[[!redirects prefactorization systems]]
