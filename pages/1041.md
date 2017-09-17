@@ -53,7 +53,7 @@ These two conditions are indeed equivalent.
 +-- {: .proof}
 ###### Proof
 
-The first condition implies that if $f$ is a [[monomorphism]] then $f\cong \ker(\coker(f))$ so $f$ is a kernel. Dually if $f$ is an [[epimorphism]] it follows that $f \conq coker(ker(f))$. So (1) implies (2).
+The first condition implies that if $f$ is a [[monomorphism]] then $f\cong \ker(\coker(f))$ so $f$ is a kernel. Dually if $f$ is an [[epimorphism]] it follows that $f \cong coker(ker(f))$. So (1) implies (2).
 
 The converse can be found in, among other places, Chapter VIII of ([MacLane](#MacLane)).
 
@@ -65,7 +65,9 @@ The converse can be found in, among other places, Chapter VIII of ([MacLane](#Ma
 
 * The notion of abelian category is self-dual: [[opposite category|opposite]] of any abelian category is abelian. 
 
-* In an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that $(epi, mono)$ is an [[orthogonal factorization system]].  Furthermore, again since every monic is regular, every abelian category is [[balanced category|balanced]].
+* In an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that $(epi, mono)$ is an [[orthogonal factorization system]].  Some references claim that this property characterizes abelian categories among pre-abelian ones, but it is not clear to the authors of this page why this should be so, although we do not currently have a counterexample; see [this discussion](http://nforum.mathforge.org/discussion/4094/?Focus=33415#Comment_33415).
+
+* Again since every monic is regular, every abelian category is [[balanced category|balanced]].
 
 * The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) [[locally small category|locally small]] category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident from the start and does not need to be constructed in this way.  (A similar statement is true for [[additive categories]], although the most natural result in that case gives only enrichment over abelian [[monoids]]; see [[semiadditive category]].)
 
