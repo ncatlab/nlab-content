@@ -95,7 +95,7 @@ A __category__ $C$ consists of
    *  composition satisfies the [[unit law|left and right unit laws]]:
       for each pair $x,y$ of objects, if $f \in C_1(x,y)$, then $1_y \circ f = f = f \circ 1_x$.
 
-People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ instead of $C_1$ and $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ instead of $C_1(x,y)$.  One usually writes $f\colon x \to y$ to state that $f \in C_1(x,y)$.  Finally, people often write $C_1$ or $Mor(C)$ for the [[disjoint union]] $\biguplus_{x \in C_0} \biguplus_{y \in C_0} C_1(x,y)$.
+People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ instead of $C_0$ and $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ instead of $C_1(x,y)$.  One usually writes $f\colon x \to y$ to state that $f \in C_1(x,y)$.  Finally, people often write $C_1$ or $Mor(C)$ for the [[disjoint union]] $\biguplus_{x \in C_0} \biguplus_{y \in C_0} C_1(x,y)$.
 
 
 ### Size issues
