@@ -35,6 +35,8 @@ Any [[cocomplete category|cocomplete]] and [[epi-cocomplete category|epi-cocompl
 
 Also, totality lifts along [[solid functors]]; that is, if the [[codomain]] of a solid functor is total, then so is its domain.  See ([Tholen](#Tholen)) for a proof.  This implies that the following types of categories are total:
 
+* any [[reflective subcategory]] of a total category
+
 * any category which is [[monadic]] over [[Set]]
 
 * any category admitting a [[topological functor]] to [[Set]]
