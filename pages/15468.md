@@ -1,3 +1,3 @@
-Intan Maisara: Macam nak balik jek dorang nih? Biar betul?? Aku dah lah datang lambat. Takkan cancel sebab aku kot..mustahil..mustahil.
- <a href="http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2291" >nike air Jordan 1 Retro 89 Mujeres Blanco</a>
-[url=http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2291]nike air Jordan 1 Retro 89 Mujeres Blanco[/url]
+Masa terus berlalu pergi, sampai Za tak sedar kita berdua semakin dewasa dalam meneruskan kehidupan ini. Lantas berbagai-bagai impian yang Za bina. Za ingin bina kehidupan ini dengan Nizam. Bermacam-macam impian yang telah za cipta untuk bersama Nizam. Namun siapa sangka, dugaan yang datang semakin kencang hingga memaksa Za korbankan perasaan Za. Tapi Nizam??? kenapa Nizam tidak pernah sedar dan memahami akan segala apa yang Za hadapi sendirian selama ini.
+ <a href="http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=1145" >Nike Air Max Shake Evolve Rosa Baratos</a>
+[url=http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=1145]Nike Air Max Shake Evolve Rosa Baratos[/url]
