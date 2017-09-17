@@ -3445,7 +3445,7 @@ $$
 
 that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^k)$ to $(-1)^{k+1}$ times  its [[fiber integration]] $\int_{\Delta^k} \omega$.
 
-+-- {: .un_prop}
++-- {: .un_prop #FiberIntegrationAsWeakEquivalenceForDeRhamCoefficientPresentations}
 ###### Proposition
 
 This map yields a morphism of simplicial presheaves
@@ -3654,7 +3654,7 @@ $\theta \in \Omega^1_{flat}(G,\mathfrak{g})$.
 =--
 
 
-#### The universal curvature characteristic on $\mathbf{}B^n U(1)$   
+#### The universal curvature characteristic on $\mathbf{B}^n U(1)$   
  {#CurvatureCharacteristicOnCircleNGroup}
 
 We discuss presentations of <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteritsics</a> $\mathbf{B}^n U(1)\to \mthbf{\flat}_{dR}\mathbf{B}^{n+1} U(1)$ and $\mathbf{B}^n \mathbb{R}\to \mthbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$ by constructions in $[CartSp_{smooth}^{op}, sSet]$.
@@ -3910,16 +3910,16 @@ and in turn the top left vertical morphism $curv : \mathbf{B}_{diff}^n U(1) \to 
 Notice that the evident forgetful morphism $\mathbf{B}^n U(1) \stackrel{}{\leftarrow} \mathbf{B}^n_{diff} U(1)$ is indeed a weak equivalence.
 
 
-In the section on [de Rham coefficients for exponentiated Lie algebras](#spring) we had discussed an equivalent presentation of most of the objects above. We now formulate the curvature characteristic in this alternative form.
+In the section on [de Rham coefficients for exponentiated Lie algebras](#DifferentialCoefficientsOfLieInt) we had discussed an equivalent presentation of most of the objects above. We now formulate the curvature characteristic in this alternative form.
 
 
 +-- {: .un_prop }
 ###### Observation
 
-We may write the [[simplicial presheaf]] $\mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}$ from [above](#spring) equivalently as follows
+We may write the [[simplicial presheaf]] $\mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}$ from [above](#DifferentialCoefficientsOfLieInt) equivalently as follows
 
 $$
-  \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathb{R}_{smp}
+  \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}
   :
   (U, [k]) 
    \mapsto
@@ -3931,7 +3931,7 @@ $$
        \uparrow && \uparrow
        \\
        \Omega_{si}^\bullet(U \times \Delta^k)
-        &\stackrel{A}{\to}&
+        &\stackrel{A}{\leftarrow}&
        CE(b^{n}\mathbb{R})
     }    
   \right\}
@@ -3943,9 +3943,34 @@ where on the right we have the set of [[commuting diagram]]s in [[dgAlg]] of the
 
 =--
 
++-- {: .un_def }
+###### Definition
+
+Write $W(b^{n-1}\mathbb{R)) \in $ [[dgAlg]] for the [[Weil algebra]] of the 
+line Lie $n$-algebra, defined to be the [[free functor|free]] commutative [[dg-algebra]] on a single generator in degree $n$, hence the graded commutative algebra on a generator in degree $n$ and a generator in degree $(n+1)$ equipped with the differential that takes the former to the latter.
+
+=--
+
++-- {: .un_prop }
+###### Observation
+
+We have a [[natural ismorphism]]
+
+$$
+  Hom_{dgAlg}(W(b^{n-1}) \mathbb{R}, \Omega^\bullet(U))
+  \simeq
+  \Omega^n(U)
+$$
+
+between dg-algebra homomorphisms $A : W(b^{n-1}\mathbb{R}) \to \Omega^\bullet(X)$ from the Weil algebra of $b^{n-1}\mathbb{R}$ to the de Rham complex and degree-$n$ differential forms not necessarily closed.
+
+There is a canonical dg-algebra homomorphism $W(b^{n-1}\mathbb{R}) \to CE(b^{n-1}\mathbb{R})$ and the differential $n$-form corresponding to $A$ factors through this morphism preciselly if the [[curvature]] $d_{dR} A$ of $A$ vanishes.
+
+=--
 
 +-- {: .un_def }
 ###### Definition
+
 
 Let $\mathbf{B}^n \mathbb{R}_{diff,smp} \in [CartSp_{smooth}^{op}, sSet]$ be the [[simplicial presheaf]] defined by
 
@@ -3960,7 +3985,7 @@ $$
        \uparrow && \uparrow
        \\
        \Omega_{si}^\bullet(U \times \Delta^k)
-        &\stackrel{A}{\to}&
+        &\stackrel{A}{\leftarrow}&
        W(b^{n-1}\mathbb{R})
     }
   \right\}
@@ -3972,9 +3997,17 @@ as indicated.
 
 =--
 
-An element of $\mathbf{B}^n \mathbb{R}_{diff,smp}(U)[k]$ is a smooth $n$-form $A$ (with sitting instants) on $U \timde \Delta^k$ such that its [[curvature]] $(n+1)$-form $d A$ vanishes when restricted in all arguments to [[vector field]]s tangent to $\Delta^k$. We may write this as $d A \in \Omega^{\bullet \geq 1, \bullet}_{si}(U \times \Delta^k)$.
++-- {: .un_remark }
+###### Remark
 
-There are canonical morphism 
+This means that an element of $\mathbf{B}^n \mathbb{R}_{diff,smp}(U)[k]$ is a smooth $n$-form $A$ (with sitting instants) on $U \times \Delta^k$ such that its [[curvature]] $(n+1)$-form $d A$ vanishes when restricted in all arguments to [[vector field]]s tangent to $\Delta^k$. We may write this condition as $d A \in \Omega^{\bullet \geq 1, \bullet}_{si}(U \times \Delta^k)$.
+
+=--
+
++-- {: .un_observation }
+###### Observation
+
+There are canonical morphisms 
 
 $$
   \array{
@@ -3988,7 +4021,7 @@ $$
   }
 $$
 
-where the vertical map is given by remembering only the top horizonatal morphism in the above square diagram, and the vertical morphism is given by
+in $[CartSp_{smooth}^{op}, sSet]$, where the vertical map is given by remembering only the top horizontal morphism in the above square diagram, and the vertical morphism is given by
 forming the pasting composite
 
 $$
@@ -4002,7 +4035,7 @@ $$
        \uparrow && \uparrow
        \\
        \Omega_{si}^\bullet(U \times \Delta^k)
-        &\stackrel{A}{\to}&
+        &\stackrel{A}{\leftarrow}&
        W(b^{n-1}\mathbb{R})
     }
   \right\}
@@ -4018,10 +4051,10 @@ $$
        \uparrow && \uparrow && \uparrow
        \\
        \Omega_{si}^\bullet(U \times \Delta^k)
-        &\stackrel{A}{\to}&
+        &\stackrel{A}{\leftarrow}&
        W(b^{n-1}\mathbb{R})
         &\stackrel{}{\leftarrow}&
-       CE(b^{n\mathbb{R}})
+       CE(b^{n}\mathbb{R})
     }
   \right\}  
   \,.
@@ -4030,7 +4063,7 @@ $$
 +-- {: .un_prop }
 ###### Proposition 
 
-This span is a presentation in $[CartSp_{smooth}^{op}, sSet]$ of the canonical curvature characteristic $curv : \mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}$.
+This span is a presentation in $[CartSp_{smooth}^{op}, sSet]$ of the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteritsics</a> $curv : \mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$.
 
 =--
 
@@ -4060,18 +4093,18 @@ $$
     \leftarrow
     W(b^{n-1} \mathbb{R})
     \leftarrow
-    CE(b^{n-1} \mathbb{R})
+    CE(b^{n} \mathbb{R})
   \}
   \,.
 $$
 
-Here the simplicial presheaf on the left is that which assigns the set of arbitrary $n$-forms (with sittin instants but not necessarily closed) on $U \times \Delta^k$ and the map is simply given by sending such an $n$-form $A$ to the $(n+1)$-form $d_{dR} A$.
+Here the simplicial presheaf on the left is that which assigns the set of arbitrary $n$-forms (with sitting instants but not necessarily closed) on $U \times \Delta^k$ and the map is simply given by sending such an $n$-form $A$ to the $(n+1)$-form $d_{dR} A$.
 
-It is evident that the simplicial presheaf on the left resolves the point: since there is no condition on the forms clearly every form on $U \times \Delta^k$ is in the image of the map of the [[Moore complex|normalized chain complex]] of a form on $U \timde \Delta^{k+1}$: such is given by any form that is, up to a sign, equal to the given form on one $n$-face and 0 on all the other faces. Clearly such a form exists.
+It is evident that the simplicial presheaf on the left resolves the point: since there is no condition on the forms every form on $U \times \Delta^k$ is in the image of the map of the [[Moore complex|normalized chain complex]] of a form on $U \times \Delta^{k+1}$: such is given by any form that is, up to a sign, equal to the given form on one $n$-face and 0 on all the other faces. Clearly such forms exist.
 
-Moreover, this morphism is a fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
+Moreover, this morphism is a fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$, for instanxce because its image under the [[Moore complex|normalized chains complex]] functor is a degreewise surjection, by the [[Poincare lemma]].
 
-Now we observe that we have over each $(U,[k])$ a double pullback diagram
+Now we observe that we have over each $(U,[k])$ a double pullback diagram in [[Set]]
 
 $$
   \array{
@@ -4108,7 +4141,7 @@ $$
     \left\{
       \array{
         \Omega^\bullet_{si, vert}(U \times \Delta^k)
-        &\stackrel{0}{\leftarrow}&
+        &\stackrel{}{\leftarrow}&
         0
         \\
         \uparrow && \uparrow
@@ -4135,7 +4168,19 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    * &\to&
+    \left\{
+      \array{
+        \Omega^\bullet_{si,vert}(U \times \Delta^k)
+        &\leftarrow& 0
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet_{si}(U \times \Delta^k)
+        &\stackrel{}{\leftarrow}&
+        0
+      }
+    \right\}    
+     &\to&
     \left\{
       \array{
         \Omega^\bullet_{si,vert}(U \times \Delta^k)
@@ -4149,13 +4194,63 @@ $$
       }
     \right\}    
   }
-  \,.
+  \,,
 $$
 
-The bottom square is the one we already discussed for the de Rham coefficients. Since the to right vertical morphism is a fibration, also the top square is a [[homotopy pullback]] and hence exhibits the defining 
+hence a coresponding pullback diagram of simplicial presheaves, that we claim 
+is a presentation for the defining double [[(∞,1)-pullback]] 
+
+$$
+  \array{
+    \mathbf{B}^n \mathbb{R} &\to& *
+    \\
+    {}^{\mathllap{curv}}\downarrow && \downarrow
+    \\
+    \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}
+    &\to&
+    \mathbf{\flat} \mathbf{B}^{n+1}
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to&  \mathbf{B}^{n+1} \mathbb{R}
+  }
+$$
+
+for $curv$.
+
+The bottom square is the one we already discussed for the de Rham coefficients. Since the top right vertical morphism is a fibration, also the top square is a [[homotopy pullback]] and hence exhibits the defining 
 $(\infty,1)$-pullback for curv.
 
 =--
+
+
+
++-- {: .un_prop }
+###### Corollary
+
+The degreewise map
+
+$$
+  (-1)^{\bullet+1}
+  \int_{\Delta^\bullet} :
+  \mathbf{B}^n \mathbb{R}_{diff,smp}
+  \to  
+  \mathbf{B}^n \mathbb{R}_{diff,chn}
+$$
+
+that sends an $n$-form $A \in \Omega^n(U \times \Delta^k)$ and its [[curvature]] $d A$ to $(-1)^{k+1}$ times  its [[fiber integration]] $(\int_{\Delta^k} A, \int_{\Delta^k} d A)$ is a weak equivalence in 
+$[CartSp_{smooth}^{op}, sSet]_{proj}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since under [[homotopy pullback]]s a weak equivalence of diagrams is sent to a weak equivalence. See the analagous argument 
+[above](#FiberIntegrationAsWeakEquivalenceForDeRhamCoefficientPresentations).
+
+=--
+
 
 ### Differential cohomology {#StrucDifferentialCohomology}
 
