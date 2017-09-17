@@ -55,6 +55,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) For discussions about material (both maths and metas) here on the nLab.
 
+* Categories-List [archives](http://blog.gmane.org/gmane.science.mathematics.categories) (email discussion forum about category theory)
+
 ### Collections
 
 * [MathOnline](http://mathonline.andreaferretti.it/) is dedicated to collecting free mathematics resources, like books, lecture notes, videos and more. Using reviews, votes, and a tagging system, all this material is kept organized.
