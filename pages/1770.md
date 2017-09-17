@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _smooth space_ as discussed here, is a joint generalization of [[smooth manifolds]] and [[diffeological spaces]]: it is a space that can be _probed_ by smooth [[Cartesian spaces]] (in the sense discussed in the exposition at _[[motivation for sheaves, cohomology and higher stacks]]_).
+A _smooth space_ or _smooth set_ as discussed here, is a joint generalization of [[smooth manifolds]] and [[diffeological spaces]]: it is a space that can be _probed_ by smooth [[Cartesian spaces]] (in the sense discussed in the exposition at _[[motivation for sheaves, cohomology and higher stacks]]_).
 
 Following the logic of [[space and quantity]], a _smooth space_ is, in full generality, a space that may be probed by standard smooth test spaces.
 See [[generalized smooth space]] for more on the general idea and for examples and variations.
@@ -189,9 +189,15 @@ For more discussion of this see [[synthetic differential ∞-groupoid]]
 
 ### Higher smooth geometry
 
-The topos of smooth spaces has an evident generalization from [[geometry]] to [[higher geometry]] to an [[(∞,1)-topos]] of [[smooth ∞-groupoids]]. See there for more details. From this perspective it would be more systematic to speak of $Sh(CartSp)$ as 
+The topos of smooth spaces has an evident generalization from [[geometry]] to [[higher geometry]], hence from [[differential geometry]] to [[higher differential geometry]]: to an [[(∞,1)-topos]] of _[[smooth ∞-groupoids]]_. See there for more details. 
+
 
 ## References
+
+Lecture notes are at
+
+* _[[geometry of physics]] -- [smooth spaces](geometry+of+physics#SmoothSpaces)_ 
+
 
 The [[concrete objects|concrete]] smooth spaces are known as _[[diffeological spaces]]_. See there for more references.
 
@@ -207,3 +213,6 @@ As a [[cohesive topos]] smooth spaces are discuss in sections 1.2, 1.3 and 3.3 i
 
 [[!redirects smooth space]]
 [[!redirects smooth spaces]]
+
+[[!redirects smooth set]]
+[[!redirects smooth sets]]
