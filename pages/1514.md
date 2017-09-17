@@ -98,7 +98,7 @@ Is there an easy way to see how the Hamiltonian transforms into the Lagrangian i
 More abstractly, the Euclidean path integral for the [[quantum mechanics]] of a [[charged particle]] may be defined by [[integration]] the gauge-coupling action again the [[Wiener measure]] on the space of paths.
 
 
-Consider a [[Riemannian manifold]] $(X,g)$ -- hence a [[background field]] of [[gravity]] -- and a [[connection on a bundle|conenction]] $\nabla : X \to \mathbf{B}U(1)_{conn}$  -- hence an [[electromagnetic field|electromagnetic]] [[background gauge field]].
+Consider a [[Riemannian manifold]] $(X,g)$ -- hence a [[background field]] of [[gravity]] -- and a [[connection on a bundle|connection]] $\nabla : X \to \mathbf{B}U(1)_{conn}$  -- hence an [[electromagnetic field|electromagnetic]] [[background gauge field]].
 
 The gauge-coupling [[interaction]] term is given by the [[parallel transport]] of this connection
 
