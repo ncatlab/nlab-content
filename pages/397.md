@@ -169,6 +169,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Thomas Nikolaus]]
 * [[Thomas Streicher]]
 * [[Tim Porter]]
+* [[Tim Richter]]
 * [[Tim Silverman]]
 * [[Tim van Beek]]
 * [[Tobias Fritz]]
