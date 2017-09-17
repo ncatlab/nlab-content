@@ -1,0 +1,36 @@
+The following constructions are due Baues and Wirsching.
+
+Given a small category $I$, one defines a __category of factorizations__ $FI$ as follows. The objects of $FI$ are the morphisms of $I$. A morphism from $x:i\to j$ to $y : k\to l$ is a commutative square of the form (note the direction of arrows!)
+$$\array{
+i & \stackrel{v}\longleftarrow & k\\
+{x}^{\mathllap{}}\downarrow&&\downarrow{y}^{\mathrlap{}}\\
+j &\stackrel{u}\longrightarrow & l
+}$$
+In other words, it is a pair $(u,v)$ which factorizes $y = u\circ x \circ v$. The composition is defined in the obvious way: $(u',v')\circ (u,v) := (u'\circ u, v\circ v')$. For a morphism $f$ in $I$, one usually denotes $D(f)$ by $D_f$ and uses the abbreviation $D_i = D_{id_i}$ for every object $i$ in $I$. Other conventions include
+$u_* = D(u,Id) : D_x\to D_{ux}$ and $v^* = D(Id, v) : D_x\to D_{xv}$. 
+
+A __natural system__ on $I$ is a functor $D : FI\to Ab$.
+
+Simple examples of natural systems are provided from the consideration of the sequence of functors
+
+$$
+FI \stackrel{(i\overset{x}\to j)\mapsto (i,j)}\longrightarrow
+I^{op}\times I \stackrel{(i,j)\mapsto j}\longrightarrow I
+$$
+which implies that any functor $I\to Ab$ and, more generally, any functor $I^{op}\times I\to Ab$ provides (after precomposing with the canonical functor from $FI$) a natural system on $I$.
+
+Natural systems on $I$ are the coefficients of a __Baues-Wirsching cohomology__ of small categories. Namely, the Baues-Wirsching cochain complex $C^*(I,D)$ has 
+
+$$
+C^n(I,D) = \prod D_{x_1\cdots x_n}
+$$
+
+where the product is over all $i_n\stackrel{x_n}\longrightarrow \ldots \stackrel{x_1}\longrightarrow i_0$.
+
+* H.-J. Baues, _Algebraic homotopy_, Cambridge Studies in Adv, Math. __15__, Camb, Univ. Press 1989.
+
+* H.-J. Baues, G. Wirsching, _Cohomology of small categories_, J. Pure Appl. Alg. __38__ (1985), 187-211.
+
+* T. Pirashvili, _On the center and Baues-Wirsching cohomology_, Georgian Math. J. __16__ (2009) 1, 131-144
+
+[[!redirects natural system]]
