@@ -192,6 +192,20 @@ _Toby_:  That works too.  (Well, I don\'t like 'categorical', but that\'s a sepa
 =--
 
 
+## Related concepts
+
+* [[homotopy]]
+
+* **transfor**
+
+  * [[natural transformation]]
+
+  * [[pseudonatural transformation]]
+
+  * [[lax natural transformation]]
+
+
+
 [[!redirects (n,j)-transformation]]
 [[!redirects j-transformation]]
 [[!redirects k-transformation]]
