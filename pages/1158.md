@@ -460,3 +460,6 @@ See also the references given at _[differential cohomology hexagon -- Deligne co
 [[!redirects Deligne complex]]
 
 [[!redirects Deligne complexes]]
+
+[[!redirects Deligne-Beilinson cohomology]]
+[[!redirects Beilinson-Deligne cohomology]]
