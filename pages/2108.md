@@ -953,6 +953,12 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 
   * [[semiclassical approximation]]
 
+* [[Borel-Weil-Bott theorem]]
+
+  * [[orbit method]]
+
+  * [[Schubert calculus]]
+
 [[!include Isbell duality - table]]
 
 
