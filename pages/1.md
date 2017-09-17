@@ -69,12 +69,15 @@ If after looking around for a while you feel like contributing yourself, you are
 
 If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://nforum.mathforge.org/)!
 
+
 ## Using the $n$Lab
  {#TermsOfUse}
 
 One goal of the $n$Lab is to help make information widely available and usefully related to other information.  In this users and contributors are expected to follow traditional academic practice:
 
 * Using and distributing content obtained from the $n$Lab is free and encouraged if you acknowledge the source, as usual in academia.
+
+  (There is currently no consensus on a more formal license statement, but if it matters check if relevant individual contributors state such on their nLab homepages.)
 
   If you cite a page you may want to point to a specific version of it, because $n$Lab pages can change.  You can find a list of all the versions of a page by clicking on the **History** link at the bottom of the page itself.
 
