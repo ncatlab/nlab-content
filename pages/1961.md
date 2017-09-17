@@ -164,6 +164,7 @@ See [[Frölicher space]] and [[diffeological space]] for the definitions in thei
 
 [[!include infinitesimal and local - table]]
 
+* in [[homotopy theory]]/[[Goodwillie calculus]]: [[tangent (∞,1)-category]]
 
 ## References
 
