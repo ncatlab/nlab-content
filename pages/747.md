@@ -324,6 +324,70 @@ This follows directly from the single defining condition on a [[coverage]] on $C
 
 =--
 
+## Presentation of $(\infty,1)$-toposes {#PresentationOfInfiniToposes}
+
+
++-- {: .un_def}
+###### Definition
+
+Let $C$ be a [[site]].
+Let $[C^{op}, sSet]_{proj}$ be the projective [[model structure on simplicial presheaves]] over $C$. 
+
+Let $W = \{C(\{U_i\}) \to U\}$ be the set of [[Cech nerve]] projections in $[C, sSet]$ for each [[covering]] $\{U_i \to U\}$ in $C$.
+
+Write
+
+$$
+  (Id \dashv Id)
+  : 
+  [C^{op}, sSet]_{proj,loc}
+  \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [C^{op}, sSet]_{proj}
+$$
+
+for the [[Bousfield localization of model categories|left Bousfield localization]] at $W$.
+
+Write $([C^{op}, sSet]_{proj})^\circ$ for the full sub-[[simplicially enriched category]] on the fibrant-cofibrant objects, similarly for
+$([CartSp^{op}, sSet]_{proj,loc})^\circ$.
+
+=--
+
++-- {: .un_prop #PresentationOfTheInfinTopos}
+###### Proposition
+
+We have an [[equivalence of (∞,1)-categories]]
+
+$$
+  \array{
+    Sh_{(\infty,1)}(C)
+    &\stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}& 
+    PSh_{(\infty,1)}(C)
+    \\
+    \uparrow^{\mathrlap{\simeq}} &&
+    \uparrow^{\mathrlap{\simeq}}
+    \\
+    ([C^{op}, sSet]_{proj,loc})^\circ
+    &
+    \stackrel
+       { \overset{\mathbb{L} Id}{\leftarrow} }
+       { \underset{\mathbb{R}Id}{\to} }
+    &
+    ([C^{op}, sSet]_{proj})^\circ
+  }
+  \,,
+$$
+
+where at the bottom we have the left and right [[derived functor]]s of the identity functors, as discussed at [[simplicial Quillen adjunction]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows using the arguments in the proof of [[Higher Topos Theory|HTT, 6.5.2.14]] and [[Higher Topos Theory|HTT, prop. A.3.7.6]].
+
+=--
+
 
 ## Fibrant and cofibrant objects {#FibAndCofibObjects}
 
@@ -810,11 +874,57 @@ By the above discussion of the Cech-localization of $[C^{op}, sSet]_{proj}$, thi
 =--
 
 
-## Homotopy (co)limits
+## Homotopy (co)limits {#HomotopyLimits}
 
 Properties of [[homotopy limit]]s and [[homotopy colimit]]s of simplicial presheaves are discussed at
 
 * [Homotopy (co)limits of simplicial (pre)sheaves](http://ncatlab.org/nlab/show/homotopy+limit#SimpSheaves)
+
+Let $C$ be a [[site]].
+
++-- {: .un_prop}
+###### Proposition
+
+Let $F : D \to [C^{op}, sSet]$ be a [[finite limit|finite]] diagram.
+
+Write $\mathbb{R}_{glob}\lim_{\leftarrow} F \in [CartSp^{op}, sSet]$ for any representative of the [[homotopy limit]] over $F$ computed in the global model structure $[C^{op}, sSet]_{proj}$, well defined up to [[isomorphism]] in the [[homotopy category]]. 
+
+Then $\mathbb{R}_{glob}\lim_{\leftarrow} F \in [C^{op},sSet]$ presents also the [[homotopy limit]] of $F$ computed in the local model structure $[CartSp^{op}, sSet]_{proj,loc}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[(∞,1)-limit]] the [[homotopy limit]] 
+$\mathbb{R}\lim_{\leftarrow}$ computes the corresponding [[(∞,1)-limit]]
+and [[(∞,1)-sheafification]] $L $ is a left
+[[exact (∞,1)-functor]] and preserves these finite [[(∞,1)-limit]]s:
+
+$$
+  \array{
+     ([D, [C^{op}, sSet]_{proj, loc}]_{inj})^\circ
+     &\stackrel{L_*}{\leftarrow}&
+     ([D, [C^{op}, sSet]_{proj}]_{inj})^\circ
+     \\
+     \downarrow^{\mathrlap{\mathbb{R} \lim_\leftarrow}}
+     &&
+     \downarrow^{\mathrlap{\mathbb{R} \lim_\leftarrow}}
+     \\
+     ([C^{op}, sSet]_{proj,loc})^\circ
+     &\stackrel{L \simeq \mathbb{L} Id}{\leftarrow}&
+     ([C^{op}, sSet]_{proj})^\circ
+  }
+ \,.
+$$
+
+Here $L \simeq \mathbb{L} Id$ is the left [[derived functor]] of the identity for the [above](#PresentationOfTheInfinTopos) left Bousfield localization. Since left Bousfield localization does not change the cofibrations and includes the global weak equivalences into the local weak equivalences, the postcomposition of the diagram $F$ with $\mathbb{L} Id$ is given by cofibrant replacement in the local structure, too. But the [[homotopy limit]] of the diagram is invariant, up to equivalence, under cofibrant replacement, and hence a finite homotopy limit diagram in the global structure is also one in the local structure.
+
+=--
+
+
+
+
 
 
 ## Related concepts
