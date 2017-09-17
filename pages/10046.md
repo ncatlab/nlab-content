@@ -17,6 +17,7 @@
 
 Let $P$ be a [[poset]] with [[directed joins]].
 
+
 ### Elementary definition
 
 +-- {: .un_defn}
@@ -56,18 +57,20 @@ This characterization generalizes directly to the notion of [[continuous categor
 
 ## Morphisms
 
-...
+Since a continuous poset must have directed joins, the obvious [[morphisms]] in a [[category]] whose [[objects]] are continuous posets would be the [[Scott-continuous functions]], that is those that preserve directed joins.  (These always preserve the order; that is, they are [[monotone functions]].)
+
+Between continuous lattices, we may use the same morphisms; or we may more generally use those Scott-continuous functions that preserve the [[semilattice]] structure of finitary [[joins]], in other words, the [[suplattice]] morphisms that preserve all joins.  However, because a suplattice is a [[complete lattice]], another common choice is to use the Scott-continuous functions that are also [[inflattice]] morphisms, that is those that also preserve all [[meets]].  Another choice might be the complete-lattice morphisms, those that preserve all meets and all joins.
 
 
 ## Properties
 
 * Continuous lattices are those [[complete lattices]] for which taking [[suprema]] of directed subsets commutes with taking [[infima]] of arbitrary subsets. 
 
-* A [[frame]] is a continuous lattice just when its corresponding [[locale]] is [[locally compact locale|locally compact]], or equivalently [[exponentiable object|exponentiable]] in the [[category of locales]].
+* A [[frame]] is a continuous lattice just when its corresponding [[locale]] is [[locally compact locale|locally compact]], or equivalently [[exponentiable object|exponentiable]] in the [[category of locales]].  A [[continuous map]] between such locales is [[proper map|proper]] iff its [[direct image]] function (which is always an inflattice morphism) is Scott-continuous.
 
-* The [[forgetful functor]] $U$ from the category of continuous lattices (with morphisms those maps preserving directed joins and arbitrary meets) to the [[category of sets]] is a [[monadic functor]]. Here the left adjoint of $U$ takes a set $X$ to the lattice of [[filters]] on $X$ (that is filters in the [[power set]] Boolean algebra $P X$). 
+* The [[forgetful functor]] $U$ from the category of continuous lattices to the [[category of sets]] is [[monadic functor|monadic]] if we use Scott-continous inflattice morphisms. Here the left adjoint of $U$ takes a set $X$ to the lattice of [[filters]] on $X$ (that is filters in the [[power set]] Boolean algebra $P X$). 
 
-* The category of continuous lattices, with morphisms those maps which preserve directed joins (aka [[Scott-continuous function]]s), is a [[cartesian closed category]]. This category was used by [[Dana Scott]] to construct models of the untyped [[lambda calculus]]. 
+* The category of continuous lattices is [[cartesian closed category|cartesian closed]] if we use all Scott-continous functions.  This category was used by [[Dana Scott]] to construct models of the untyped [[lambda calculus]]. 
 
 
 ## Related pages
