@@ -17,6 +17,16 @@
 * table of contents
 {:toc}
 
+## Idea
+
+(..)
+
+## Properties
+
+### Functional determinant and Analytic torsion
+
+The [[functional determinant]] of Laplace operator on a given space of [[differential p-forms]] appears as factor of the _[[analytic torsion]]_ of the given [[Riemannian manifold]].
+
 ## Related entries
 
 * [[heat kernel]]
