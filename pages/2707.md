@@ -250,6 +250,11 @@ A brief exposition is in
 
 * [[Barry Mazur]], _What is... a Motive?_ ([pdf](http://www.ams.org/notices/200410/what-is.pdf))
 
+A review is also in chapter I of
+
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+
 Lectures include
 
 * [[M. Levine]], _Six lectures on motives_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Levine/Levine.pdf))
