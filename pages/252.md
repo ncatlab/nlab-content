@@ -1,13 +1,18 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Enriched category theory
 +--{: .hide}
 [[!include enriched category theory contents]]
 =--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
