@@ -353,7 +353,7 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
   [[Peter Johnstone]], _[[Stone Spaces]]_
   [Johnstone]: #Johnstone
 
-
+* B. Badzioch, "Algebraic Theories in Homotopy Theory", Annals of Mathematics, 155, 895--913 (2002).
 
 [[!redirects algebraic theories]]
 
