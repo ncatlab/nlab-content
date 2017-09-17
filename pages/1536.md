@@ -488,9 +488,18 @@ For more details see
 The term 'Grothendieck Construction' is applied in the literature to at least two very different constructions (and as [[Alexander Grothendieck|Grothendieck]] introduced so many new ideas and constructions to mathematics, perhaps there are others!). One concerns the construction of a [[fibered category]] from a [[pseudofunctor]] and will be treated in more detail in the entry on [[Grothendieck fibration]].  The other referes to constructing the [[Grothendieck group]] is  in the context of [[K-theory]] from isomorphism classes of vector bundles on a space by the introduction of formal inverses, 'virtual bundles'.  This constructs an Abelian group from the semi-group of isomorphism classes.
 
 
+## Examples
 
+A [[representable functor]] $C(-,X) :  C^{op} \to Set \hookrightarrow Cat$ maps under the Grothendieck construction to the [[slice category]] $C/X$. The corresponding fibrations $C/X \to C$ are also called [[representable fibered categories]].
 
-##References##
+## References
+
+A standard textbook reference is sections A1.1.7, B1.3.1 in
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+See also
 
 * [Grothendieck construction](http://en.wikipedia.org/wiki/Grothendieck_construction) (Wikipedia)
 * [The Grothendieck Construction](http://online.itp.ucsb.edu/online/ktheory/wu/) (UCSB ITP Seminar)
