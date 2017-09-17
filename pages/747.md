@@ -546,6 +546,10 @@ This is in prop 2.8 of
 
 ## Local fibrations
 
+A _local fibration_ or _local weak equivalence_ of simplicial (pre)sheaves is defined to be one whose lifting property is satisfied after refining to some cover.
+
+**Warning**. Notice that this is a priori unrelated to equivalences and fibrations with respect to any local model structure. 
+
 If the [[site]] $C$ has [[point of a topos|enough points]], then local fibrations of simplicial presheaves are equivalently those that are  [[stalk]]wise fibrations of simplicial sets.
 
 This is discussed in ([Jardine 96](#Jardine96)).
