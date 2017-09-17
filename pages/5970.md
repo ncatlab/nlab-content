@@ -7,7 +7,7 @@
 
 * [[Lagrangian]], [[local action functional]]
 
-* [[Euler-Lagrange equations]]
+* [[Euler-Lagrange equations]], [[de Donder-Weyl formalism]]
 
 * [[covariant phase space]]
 
