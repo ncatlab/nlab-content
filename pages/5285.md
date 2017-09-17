@@ -24,17 +24,55 @@ The _singular homology_ of a [[topological space]] $X$ is its ordinary [[homolog
 a **singular $n$-[[chain]]** in the singular homology of $X$ is a formal linear combination of [[continuous maps]] $\Delta^n \to X$ (an element in the [[free abelian group]] spanned by these maps) from the topological $n$-simplex, and an $n$-[[cycle]] in the singular homology is such a chain such that its oriented [[boundary]] vanishes. Two singular chains are **homologous** if they differ by a boudary. The **singular homology** of $X$ in degree $n$ is the group of $n$-cycles modulo modulo those that are boundaries.
 
 ## Definition
+ {#Definition}
+
+
+Let $X \in $ [[Top]] be [[topological space]]. 
+Write $Sing X \in $ [[sSet]] for its [[singular simplicial complex]]. 
 
 +-- {: .num_defn }
 ###### Definition
 
-For $X$ a [[topological space]], $Sing X \in $ [[sSet]] its [[singular simplicial complex]] write $\mathbb{Z}[Sing X] \in Ab^{\Delta^{op}}$ for the [[free functor|free]] abelian [[simplicial group]] on $X$. 
+For $n \in \mathbb{N}$, a **singular $n$-chain** on $X$ is
+an element in the [[free abelian group]] $\mathbb{Z}[(Sing X)_n]$:
 
-Its [[Moore complex]] $N_\bullet(\mathbb{Z}[Sing X]) \in Ch_\bullet^+$ is the **singular complex** of $X$. Its chain [[homology]] is the ordinary **singular homology** of $X$.
+a [[formal linear combinations]] of [[singular simplices]] in $X$.
 
 =--
 
-One usually write $H_n(X, \mathbb{Z})$ or just $H_n(X)$ for the singular homology of $X$ in degree $n$.
++-- {: .num_remark }
+###### Remark
+
+These are the [[chains on a simplicial set]] on $Sing X$.
+
+=--
+
+The groups of singular chains combine to the [[simplicial abelian group]]
+$\mathbb{Z}[Sing X] \in Ab^{\Delta^{op}}$. 
+
++-- {: .num_defn }
+###### Definition
+
+The [[alternating face map complex]] 
+
+$$
+  C_\bullet(\mathbb{Z}[Sing X]) \in Ch_\bullet
+$$ 
+
+is the **singular complex** of $X$. 
+
+Its [[chain homology]] is the ordinary **singular homology** of $X$.
+
+=--
+
+One usually writes $H_n(X, \mathbb{Z})$ or just $H_n(X)$ for the singular homology of $X$ in degree $n$.
+
++-- {: .num_remark }
+###### Remark
+
+This means that a [[singular chain]] is a [[cycle]] if the formal linear combination of the oriented [[boundaries]] of all its constituent [[singular simplices]] sums to 0.
+
+=--
 
 More generally, for $R$ any unital [[ring]] one can form the degreewise [[free module]] $R[Sing X]$ over $R$. The corresponding homology is the _singular homology with coefficients in $R$, denoted $H_n(X,R)$.
 
