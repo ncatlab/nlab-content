@@ -158,15 +158,17 @@ There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative gener
 
 * [[commutative C-star-algebra]]
 
+* [[Hopf C-star-algebra]]
+
 * [[C-star coalgebra]]
-
-* [[dense subalgebra]], [[F-star-algebra]]
-
-* [[state on an operator algebra]]
 
 * [[von Neumann algebra]]
 
 * [[Jordan-Lie-Banach algebra]]
+
+* [[dense subalgebra]], [[F-star-algebra]]
+
+* [[state on an operator algebra]]
 
 * [[AQFT]]
 
