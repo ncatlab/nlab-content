@@ -70,7 +70,7 @@ $$
 ### Relation to Chern roots and the splitting principle
  {#RelationToChernRootsAndSplittingPrinciple}
 
-A group character, hence a group [[homomorphism]] $G \to U(1)$ induces a map of [[classifying spaces]] $B G \to B U(1) \simeq K(\mathbb{Z,2})$. Similarly for the restriction to the [[maximal torus]] [above](#Weights), which induces
+A group character, hence a group [[homomorphism]] $G \to U(1)$ induces a map of [[classifying spaces]] $B G \to B U(1) \simeq K(\mathbb{Z},2)$. Similarly for the restriction to the [[maximal torus]] [above](#Weights), which induces
 
 $$
   B U(1)^n \simeq B T \to B G \to B U(1)\simeq K(\mathbb{Z},2)
