@@ -15,9 +15,9 @@
 
 ## Definition
 
-The _theory of objects_ is the [[theory]] over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]].
+The _theory of objects_ is the [[theory]] over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]], and no axioms.
 
-So [[model]] for this theory in a [[topos]] $\mathcal{E}$ is just an [[object]] of $\mathcal{E}$.
+So a [[model]] for this theory in a [[topos]], or more generally a category, $\mathcal{E}$ is just an [[object]] of $\mathcal{E}$.
 
 ## Properties
 
@@ -30,10 +30,10 @@ The [[classifying topos]] for the theory of objects is the [[presheaf topos]] $[
 
 See at _[[classifying topos for the theory of objects]]_.
 
+For more general base toposes $\mathcal{S}$ it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
 
 ## References
 
 Section D3.2 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
-
