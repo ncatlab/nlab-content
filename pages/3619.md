@@ -48,7 +48,7 @@ An example of a local stochastic operation is as follows. Suppose Alice and Bob 
 
 \[ U : \mathbb{C}^2 \otimes H_1 \rightarrow \mathbb{C}^2 \otimes H_1 \]
 
-on her qubit as well as her part of the state $|\Psi\rangle$. She then measures the ancilla qubit. If she gets an outcome of $|0\rangle$, she has performed some operation $L : H_A \rightarrow H_A$ and if she gets outcome $|0\rangle$ she has performed $L' : H_A \rightarrow H_A$. The probability of Alice successfully performing $L$ is then the probability of getting the outcome of $|0\rangle$ when she performed her measurement.
+on her qubit as well as her part of the state $|\Psi\rangle$. She then measures the ancilla qubit. If she gets an outcome of $|0\rangle$, she has performed some operation $L : H_A \rightarrow H_A$ and if she gets outcome $|1\rangle$ she has performed $L' : H_A \rightarrow H_A$. The probability of Alice successfully performing $L$ is then the probability of getting the outcome of $|0\rangle$ when she performed her measurement.
 
 +-- {: .num_theorem}
 ###### Theorem
