@@ -221,6 +221,7 @@ Discussion in terms of [[twisted bundles]]/[[bundle gerbe modules]] is in
 also [FHT 07, around p. 26](#FHT07)
 
 * [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
+ {#TuXuLG03}
 
 (which establishes the relation to [[KK-theory]])
 
