@@ -85,6 +85,8 @@ A third option is to define a new notion: a functor **forgets at most property-l
 
 Property-like structure becomes much more prevalent for higher categories.  For example, the forgetful functor from the 2-category of [[cartesian monoidal categories]] (and product-preserving functors) to [[Cat]] is essentially $(k\ge 2)$-surjective, and its induced functor between 2-groupoids is essentially $(k\ge 1)$-surjective; thus it forgets property-like structure.  See also [[lax-idempotent 2-monad]].
 
+Note that property-like structure is known in traditional [[logic]] as __categorical__ structure.  Obviously, this term can be confusing in [[categorial logic]]!
+
 
 ## A factorisation system
 
