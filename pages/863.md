@@ -44,7 +44,7 @@ Of course, the big example here is the field of [[real number]]s.  Both the Dede
 
 The Mac Neille real numbers have both $\lt$ and $\leq$; however, in this case, neither is a linear or total order, nor can they be defined in terms of one another.
 
-Baire space and Cantor space, being representable as subspaces of the real line, of course are linearly ordered.  It\'s also interesting to see them as coming from the (discrete) linear orders on $\mathbf{N}$ and $\mathbf{2}$, which they are $\mathbf{N}$-fold products of.
+[[Baire space]] and [[Cantor space]], being representable as subspaces of the real line, of course are linearly ordered.  It\'s also interesting to see them as coming from the (discrete) linear orders on $\mathbf{N}$ and $\mathbf{2}$, which they are $\mathbf{N}$-fold products of.
 
 
 ## Relation to total orders
