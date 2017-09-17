@@ -234,7 +234,67 @@ This is ([Cisinski, prop. 8.1.31, 8.1.35](#Cisinski)).
 
 #### The class of crossed group sites
 
-(...) ([Berger-Moerdijk, section 2](#BergerMoerdijk))
++-- {: .num_defn }
+###### Definition
+
+For $S$ a [[small category]], a **crossed $S$-group** is a [[presheaf]] $G : S^{op} \to Set$ equipped with
+
+1. for each object $s \in S$ a group structure on $G_s$;
+
+1. for all $s, r\in S$ a left $G_r$-[[action]] on the [[hom-set]] $S(s,r)$ ;
+
+such that for all morphisms $\alpha : s \to r$ and $\beta : t \to s$ in $S$ and $g,h \in G_r$ we have
+
+1. $g_*( \alpha \circ \beta)  = g_*(\alpha) \circ \alpha^*(g)_* \beta$;
+
+1. $g_* (id_r) = id_r$;
+
+1. $\alpha^* (g \cdot h) = h_*(\alpha)^*(g)\cdot \alpha^*(h)$;
+
+1. $\alpha^*(e_r) = e_s$;
+
+where $g_*$, $h_*$ denotes the group action and $\alpha^* : G_r \to G_s$ the presheaf map. 
+
+The **total category** $S G$ of an crossed $S$-group $G$ is the category with the same objects as $S$, and with morphisms $r \to s$ being pairs $(\alpha, g) \in S(s,r)\times G_r$ and with composition defined by
+
+$$
+  (\alpha, g) \circ (\beta, h)
+  = 
+  (\alpha \cdot g_*(\beta), \beta^*(g) \cdot h)
+  \,.
+$$ 
+
+=--
+
+([Ber-Moe, def. 2.1](#BergerMoerdijk)).
+
++-- {: .num_defn }
+###### Definition
+
+If $S$ is equipped with a generalized Reedy structure, then an $S$-crossed group $G$ is called **compatible** with that generalized Reedy structure if 
+
+1. the $G$-action respects $S^+$ and $S^-$;
+
+1. if $\alpha : r \to s$ is in $S^-$ and $g \in G_s$ such that $\alpha^* (g) = e_r$ and $g_*(\alpha) = \alpha$, then $g = e_s$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The category $\Omega_{pl}$ of planar finite rooted [[trees]] is a strict [[Reedy categiry]]. The category $\Omega$ of non-planar finite rooted [[trees]] is the total category of an $\Omega_{pl}$-crossed group which to a planar tree $T$ assigns its group of non-planar automorphisms.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed group. Then there exists a unique dualizabe generalized Reedy structure on $S G$ for which the embedding $S \hookrightarrow S G$ is a morphism of generalized Reedy categories.
+
+=--
+
+([Ber-Moe, prop. 2.10](#BergerMoerdijk)).
+
 
 ## References
 
