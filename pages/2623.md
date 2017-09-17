@@ -157,6 +157,11 @@ In the context of [[BV theory|BRST-BV quantization]] these statements are subsum
 
 ## References {#References}
 
+A discussion of renormalization in the context of [[AQFT]], as well as a detailed comparison of major renormalization schemes is in
+
+* [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
+
+
 An introduction and review to the Hopf-algebraic description of renormalization is in 
 
 * Christian Brouder, _Quantum field theory meets Hopf algebra_ ([arxiv:hep-th/0611153](http://de.arxiv.org/abs/hep-th/0611153))
