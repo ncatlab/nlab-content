@@ -3,7 +3,7 @@
 
 * web: [http://www.ams.org/mathscinet](http://www.ams.org/mathscinet/), European MPI Bonn [mirror](http://mathscinet.mpim-bonn.mpg.de/mathscinet/)
 
-It requires subscription, but some of its services, most notably the so called **Relay Station** does not. Relay Station gives the full reference (and sometimes a link to the journal) called by the MR number of the review, but does not provide the abstract or the review unless one has a subscription. 
+It requires subscription, but some of its services, most notably the so called **Relay Station** does not. Relay Station gives the full reference (and sometimes a link to the journal) called by the MR number of the review, but does not provide the abstract or the review unless one has a subscription.
 
 MR numbers have two formats. Relay station accepts both formats. To link from $n$lab, the URL is of the following form:
 
@@ -18,6 +18,12 @@ and MR1289330 has the URL
 **http://www.ams.org/mathscinet-getitem?mr=1289330
  
 The links should work: [MR92a:81191](http://www.ams.org/mathscinet-getitem?mr=92a:81191), [MR1289330](http://www.ams.org/mathscinet-getitem?mr=1289330)
+
+MR numbers can be discovered using the free **MR Lookup** service:
+
+* <http://www.ams.org/mrlookup>
+
+This can also provide citations in BibTeX format.  The [MRef](http://www.ams.org/mref/) tool can also be used to parse citations copied and pasted from elsewhere.
 
 A short redirect to this page is MR (i.e. <nowiki>[[MR]]</nowiki>).
 
