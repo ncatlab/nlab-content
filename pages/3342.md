@@ -66,19 +66,31 @@ An automorphismus of an algebra $\alpha \mathcal{M} \rightarrow \mathcal{M}$ is 
 ###Definition of Vacuum Representations
 A net of von Neumann algebras $\mathcal{M}(\mathcal{O})$ on a common Hilbert space $(\mathcal{H})$, indexed by $\mathcal{O} \in \mathcal{J}$, is called a **vacuum respresentation** (on the 4-dimensional Minkowski spacetime) if it satisfies the following axioms:
 
++-- {: .num_theorem #isotony}
 * (V1) **isotony**: $\mathcal{O}_1 \subset \mathcal{O}_2 implies \mathcal{M}(\mathcal{O}_1) \subseteq \mathcal{M}(\mathcal{O}_2)$
+=--
 
++-- {: .num_theorem #additivity}
 * (V2) **additivity**: $\mathcal{O} = \bigcup_j \mathcal{O}_j$ implies  $\mathcal{M}(\mathcal{O}) = ( \bigcup_j \mathcal{M}(\mathcal{O}_j) )'' $ 
+=--
 
++-- {: .num_theorem #locality}
 * (V3) **locality**, see [[local net]]: $\mathcal{O}_1 \perp \mathcal{O}_2 implies \mathcal{M}(\mathcal{O}_1) \subseteq  (\mathcal{M}(\mathcal{O}_2))' $
+=--
 
++-- {: .num_theorem #covariance}
 * (V4) **covariance**: There is a strongly continuous unitary representation $\mathcal{U}(\mathcal{P})$ of $\mathcal{P}$ such that for each $g \in \mathcal{P}$ the following holds: $\mathcal{M}(g\mathcal{O}) = \mathcal{U}(g) \mathcal{M}(\mathcal{O}) \mathcal{U}(g)^{-1}$
+=--
 
++-- {: .num_theorem #spectrum_condition}
 * (V5) **spectrum condition**: $spec\mathcal{U}(\mathcal{T}) \subseteq clo \mathcal{V}_+$
+=--
 
 Note: $\mathcal{T}$ is the abelian subgroup of translations, and $\mathcal{V}_+$ is the (open) forward cone at 0, see above. For the definiton of the spectrum of the representation $\mathcal{U}(\mathcal{T})$ see [[spectral measure]].
 
++-- {: .num_theorem #existence_of_vacuum_vector}
 * (V6) **existence of a vacuum vector**: There exists a vector $\Omega \in \mathcal{H}, \|\Omega\| = 1$, such that $( \bigcup_{\mathcal{O}\in\mathcal{J}}\mathcal{M}(\mathcal{O} ) \Omega$ is dense in $\mathcal{H}$ and $\mathcal{U}(g)\Omega = \Omega$ for all $g \in \mathcal{P}$
+=--
 
 Note: The _uniqueness_ is sometimes part of the axioms, but not here. Instead we will cite theorems that will specify necessary and sufficient conditions to ensure that there is a _unique_ vacuum vector. 
 
@@ -92,6 +104,8 @@ The $C^*-$algebra $\mathcal{A} := clo_{\| \cdot \|} ( \bigcup_{\mathcal{O}\in\ma
 A vacuum representation is called **irreducible** if $\mathcal{R} = \mathcal{L}(\mathcal{H})$ (the global algebra is the whole algebra of all bounded linear operators on the given Hilbert space), it is called **factorial** if $\mathcal{R}$ is a factor.
 
 * Wikipedia on [factors] (http://en.wikipedia.org/wiki/Von_Neumann_algebra#Factors) of von Neumann algebras.
+
+The subspace of $\mathcal{H}$ that is invariant under the action of the translation group $\mathcal{T}$ is not trivial due to the axiom \ref{existence_of_vacuum_vector}. If it is one-dimensional, we will say that the vacuum representation has a **unique vacuum vector** (the space is then necessarily the subspace $\C\Omega$).
 
 ###Classical Theorems 
 ...will be cited here
