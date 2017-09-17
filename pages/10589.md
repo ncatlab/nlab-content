@@ -24,6 +24,8 @@ Later [[Alexander Grothendieck]] found that the relevant [[cohomology]] theory i
 
 * [[Riemann zeta function]]
 
+* [[Frobenius endomorphism]]
+
 ## References
 
 * [[James Milne]], section 26 of _[[Lectures on Étale Cohomology]]_
