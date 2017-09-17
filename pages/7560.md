@@ -79,7 +79,16 @@ $$
 \lang a,i,b\rang = \begin{cases}a & i = 0 \\ b & i = 1\end{cases}
 $$
 
-Concretely, $A +_\sigma B$ may be described as the category $A + B$ together with exactly one arrow $a \to b$ adjoined for every object $a \in A, b \in B$ (in other words, as the [[cograph of a profunctor|collage]] of $A$ and $B$ along the terminal profunctor).
+Concretely, $A +_\sigma B$ may be described as the category $A + B$ together with exactly one arrow $a \to b$ adjoined for every object $a \in A, b \in B$ (in other words, as the [[cograph of a profunctor|collage]] of $A$ and $B$ along the terminal profunctor). 
+
+Equivalently, $A +_\sigma B$ may be described as the colimit of the diagram 
+
+$$\array{
+ & & A \times B & & & & A \times B & & \\
+ & \mathllap{\pi_1}\; \swarrow & & \searrow \; \mathrlap{i_0} & & \mathllap{i_1}\; \swarrow & & \searrow \; \mathrlap{\pi_2} & \\ 
+A & & & & A \times 2 \times B & & & & B. 
+}$$
+
 
 ## References
 
