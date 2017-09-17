@@ -865,8 +865,8 @@ Notice the minus sign here, coming from the definition of a [[differential objec
  {#HomologyExactSequencesAndFiberSequences}
 
 We discuss the relation between mapping cones 
-in [[categories of chain complexes]], as [above](#InChainComplexes) 
-to  [[long exact sequences in homology]]. For an exposition of the following see there the section _[Relation to homotopy fiber sequences](long+exact+sequence+in+homology#RelationToHomotopyFiberSequences)_.
+in [[categories of chain complexes]], as [above](#InChainComplexes), 
+and  [[long exact sequences in homology]]. For an exposition of the following see there the section _[Relation to homotopy fiber sequences](long+exact+sequence+in+homology#RelationToHomotopyFiberSequences)_.
 
 Let $f : X_\bullet \top Y_\bullet$ be a [[chain map]]
 and write $cone(f) \in Ch_\bullet(\mathcal{A})$
@@ -900,7 +900,7 @@ $$
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #ProjectionOutOfChainComplexMappingConeIsHoCofiber}
 ###### Proposition
 
 The chain map $p : cone(f)_\bullet \to X[1]_\bullet$
@@ -967,6 +967,54 @@ $$
 
 =--
 
++-- {: .num_lemma #ConeInjectionEquivalentToZigzag}
+###### Lemma
+
+The [[chain map]]
+
+$$
+  h_\bullet : cone(f)_\bullet \to Z_\bullet
+$$
+
+given in components by
+
+$$
+  h_n : Y_n \oplus X_{n-1} \to Y_n \stackrel{}{\to} Z_n
+$$
+
+is a [[quasi-isomorphism]] and the morphism $i_\bullet : Y_\bullet \to cone(f)_\bullet$ is eqivalent to the [[zigzag]]
+
+$$
+  \array{
+    && cone(f)_\bullet 
+    \\
+    && \downarrow^{\mathrlap{h}}_{\mathrlap{\simeq}}
+    \\
+    Y_\bullet &\to& Z_\bullet
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that we have a [[commuting diagram]]
+$$
+  \array{
+    && cone(f)_\bullet 
+    \\
+    & {}^{\mathllap{i_\bullet}}\nearrow& \downarrow^{\mathrlap{h}}_{\mathrlap{\simeq}}
+    \\
+    Y_\bullet &\to& Z_\bullet
+  }
+$$
+
+since the composite morphism is the inclusion of $Y$ followed by the bottom morphism on $Y$. This diagram gives a morphism of [[cocones]] under the diagram defining $cone(f)$ in prop. \ref{HomotopyCofiberByFactorizationLemma}. Since by the above both of these cocones are homotopy-colimiting, this is a quasi-isomorphism. 
+
+=--
+
 +-- {: .num_theorem }
 ###### Theorem
 
@@ -983,9 +1031,9 @@ $$
   H_n(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
 $$
 
-sends the homotopy cofiber sequence of $f$, cor. \ref{HomotopyCofiberSequenceOfChainMap}, 
-[[long exact sequence in homology]] induced by the short
-exact sequence
+sends the homotopy cofiber sequence of $f$, cor. \ref{HomotopyCofiberSequenceOfChainMap}, to the 
+[[long exact sequence in homology]] induced by the given short
+exact sequence, hence to
 
 $$
   H_n(X_\bullet)
@@ -1002,41 +1050,25 @@ $$
    \stackrel{\delta}{\to}
   H_{n-2}(X_\bullet)
    \to \cdots
-  \,.
+  \,,
 $$
+
+where $\delta_n$ is the $n$th [[connecting homomorphism]].
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Observe that 
-
-$$
-  H_n( X[k]_\bullet) \simeq H_{n-k}(X_\bullet)
-  \,.
-$$
-
-One checks then that the canonical morphism
-
-$$
-  h_\bullet : cone(f)_\bullet \to Z_\bullet
-$$
-
-given in components by
-
-$$
-  h_n : Y_n \oplus X_{n-1} \to Y_n \stackrel{}{\to} Z_n
-$$
-
-is a [[quasi-isomorphism]]. This allows to write the 
-homotopy fiber sequence as the [[zigzag]]
+By lemma \ref{ConeInjectionEquivalentToZigzag} the 
+homotopy cofiber sequence is equivalen to the [[zigzag]]
 
 $$
   \array{
      && && && && && cone(f)[1]_\bullet &\to& \cdots
      \\
-     && && && && \downarrow^{\mathrlap{h[1]_\bullet}}_{\mathrlap{\simeq}}
+     && && && && && \downarrow^{\mathrlap{h[1]_\bullet}}_{\mathrlap{\simeq}}
      \\
      && && cone(f)_\bullet &\to& X[1]_\bullet &\stackrel{f[1]_\bullet}{\to}& Y[1]_\bullet &\to& Z[1]_\bullet
      \\
@@ -1051,9 +1083,61 @@ $$
   \,.
 $$
 
-One checks that applying $H_n(-)$ to the zig-s 
-reproduces the [[connecting homomorphism]].
+Observe that 
 
+$$
+  H_n( X[k]_\bullet) \simeq H_{n-k}(X_\bullet)
+  \,.
+$$
+
+It is therefore sufficient to check that 
+
+$$
+  H_n
+  \left(
+    \array{
+      cone(f)_\bullet &\to& X[1]_\bullet
+      \\
+      \downarrow^{\mathrlap{\simeq}}
+      \\
+      Z_\bullet
+    }
+  \right)
+  \;\;
+   : 
+  \;\;
+  H_n(Z_\bullet) \to H_{n-1}(X_\bullet)
+$$
+
+equals the [[connecting homomorphism]] $\delta_n$ induced by the short exact sequence.
+
+This map sends a homology element $[z_n] \in H_n(Z_\bullet)$ represented by a [[cycle]] $z_n \in Z_n$ first to a cycle $(x_{n-1}, y_n) \in cone(f)_n$ lifting it (and since the vertical morphism is a quasi-isomorphism we are in particular guaranteed that such exists) and then sends this along the horizontal map. By prop. \ref{ProjectionOutOfChainComplexMappingConeIsHoCofiber} the horizontal map is just the projection, and hence the assignment is of the form
+
+$$
+  [z_n] \mapsto [x_{n-1}, y_n] \mapsto [x_{n-1}]
+  \,.
+$$
+
+It remains therfore to determine those cycles $(x_{n-1}, y_n) \in cone(f)_n$ which lift a cycle $z_n$. By lemma \ref{HomotopyCofiberByFactorizationLemma}
+a lift of chains is any pair of the form $(x_{n-1}, \hat z_n)$ where $\hat z_n$ is a lift through $Y_n \to X_n$. So $x_{n-1}$ has to be found such that this pair is a cycle.
+By prop. \ref{ComponentsOfMappingConeInChainComplexes} the differential acts on it by
+
+$$
+  \partial^{cone(f)} (x_{n-1}, \hat z_n)
+  = 
+  (  \partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
+$$
+
+and so the condition is that $x_{n-1} \coloneqq \partial^Y \hat z_n$ (which implies $\partial^X x_{n-1} = \partial^X \partial^Y \hat z_n = \partial^Y \partial^Y \hat z_n = 0$ due to the fact that $f_n$ is assumed to be an inclusion, hence that $\partial^X$ is the restriction of $\partial^Y$ to elements in $X_n$).
+
+In summary this means that the image of the zig-zag under homology sends
+
+$$
+  [z_n]_Z \mapsto -[\partial^Y \hat z_n]_X
+  \,.
+$$
+
+By the discussion [there](connecting%20homomorphism#OnHomologyInTermsOfElements), this is indeed the action of the [[connecting homomorphism]].
 
 =--
 
