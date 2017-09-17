@@ -1,4 +1,7 @@
-**Shinichi Mochizuki** is a Japanese algebraic/arithmetic geometer, developing Grothendieck's program of so-called anabelian geometry.
+**Shinichi Mochizuki** is a Japanese algebraic/arithmetic geometer, developing Grothendieck's program of so-called [[anabelian geometry]].
+
+
+* [Wikipedia page](http://en.wikipedia.org/wiki/Shinichi_Mochizuki)
 
 category: people
 
