@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _Gerstenhaber algebra_ is essentially a [[Poisson algebra]] [[internalization|internal]] to a [[category of chain complexes]].
+A _Gerstenhaber algebra_ is a [[Poisson n-algebra|Poisson 2-algebra]], a [[Poisson algebra]] in graded vector spaces with Poisson bracket of degree -1.
 
 ## Definition
 
