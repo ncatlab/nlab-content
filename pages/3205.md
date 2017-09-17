@@ -7,7 +7,7 @@
 
 A very interesting discussion took place at the **nForum** involving [[André Joyal]], [[Urs Schreiber]], and others:
 
-* [The nLab in the eyes of others](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=548)
+* [The nLab in the eyes of others](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=548)
 
 It was there that the germ of a potentially exciting idea arose. Just as the **nLab** itself arose out of the needs of a community built up around the **[nCafe](http://golem.ph.utexas.edu/category/)**, could a new **CatLab** be built around the **[Category Theory Mailing List](http://blog.gmane.org/gmane.science.mathematics.categories)**?
 
