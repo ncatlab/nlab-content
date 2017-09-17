@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -15,9 +17,9 @@
 
 ## Idea
 
-_Quantum chromodynamics_ ("QCD") is the [[quantum field theory]] of [[Yang-Mills theory]]: it describes the [[quantum theory]] of  [[gluon]]s and [[quark]]s.
+_Quantum chromodynamics_ ("QCD") is the [[quantum field theory]] of [[Yang-Mills theory]]: it describes the [[quantum theory]] of  [[gluons]] and [[quarks]].
 
-The corresponding [[effective field theory]] that describes [[bound states]] such [[protons]] is [[quantum hadrodynamics]].
+The corresponding [[effective field theory]] that describes [[bound states]] such as [[protons]] is [[quantum hadrodynamics]].
 
 ## Related concepts
 
@@ -28,4 +30,10 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
     * [[QED]]
 
     * **QCD**
+
+## Referemces
+
+(...)
+
+* [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
 
