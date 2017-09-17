@@ -1,0 +1,141 @@
+#Contents#
+* table of contents 
+{: toc}
+
+## Introduction 
+
+Both category theory and graph theory study patterns based on diagrams consisting of nodes and edges. Despite this surface impression, there is in fact very little interaction between the scientific communities of category theorists and of graph theorists. 
+
+This article is a modest bridge, indicating that the category of graphs (in the usual graph-theorist's sense -- see for example [Diestel](#Diestel)) has some very nice properties. 
+
+## Simple graphs as relations 
+
+By a **simple [[graph]]**, we mean a set $V$ equipped with a symmetric reflexive relation $E$. Morphisms between simple graphs are functions which respect the given relations. Elements of $V$ are called _vertices_. Write $E(x, y)$ to say $(x, y) \in E$. 
+
+When drawing graphs, we put an edge between vertices $x$, $y$ iff $x \neq y$ and $E(x, y)$. In particular, we will not bother drawing an edge between $x$ and itself; we can think of it as tacitly there if we like. Perhaps better yet, that tacit edge can be thought of as a path of length $0$ from $x$ to itself (and who bothers drawing a path of length $0$?). In any case, it is clear that there is a natural bijection between 
+
+* simple graph structures on $V$ in the graph-theorist's sense (i.e., graphs that are undirected, loop-free, and with at most one edge between two vertices), and 
+
+* reflexive symmetric relations on $V$; 
+
+thus we are within our rights to identify these two concepts. 
+
+This maneuver allows a notion of morphism between simple graphs which includes natural operations like edge contractions as quotients. Namely, if $f \colon G \to H$ is a morphism as defined above, and if we have $G(x, y)$ and $f(x) = f(y) = v$, we still have $H(f(x), f(y))$ by default, so we can think of $f$ as contracting the edge between $x$ and $y$ in $G$ down to an edge of length $0$ between $v$ and itself in $H$. 
+
+The category of simple graphs is denoted by $SimpGph$. 
+
+## Properties of $SimpGph$ 
+
+The category $SimpGph$ has very good properties. For example,  
+
++-- {: .num_theorem} 
+###### Theorem 
+$SimpGph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular category]] and even a [[logos]]. It is also $\infty$-[[extensive category|extensive]]. 
+=-- 
+
+See for example [Adamek and Herrlich](#AdamHerr). 
+
+It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $Vert \colon SimpGph \to Set$ be the underlying vertex-set functor. We have two easy results:  
+
++-- {: .num_prop} 
+###### Proposition 
+$Vert$ reflects monos and epis (because $Vert$ is faithful). 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+$Vert$ preserves limits and colimits (because it has a left adjoint $Disc$ and a right adjoint $Codisc$). 
+=-- 
+
+It follows that $Vert \colon SimpGph \to Set$ both preserves and reflects monos and epis. As a result, we can prove various simple exactness results in $SimpGph$. For instance: 
+
++-- {: .num_lem}
+###### Lemma 
+In $SimpGph$, the pushout of any mono is a mono. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose we have a pushout diagram in $SimpGph$: 
+
+$$\array{
+G & \to & H \\
+ ^\mathllap{mono} \downarrow & & \downarrow^\mathrlap{k} \\ 
+G' & \to & H'
+}$$ 
+
+Since $Vert$ preserves both pushouts and monos, and since the pushout of a mono in $Set$ is a mono, we have that $Vert(k)$ is monic in $Set$. Since $Vert$ reflects monos, this means $k$ is monic in $SimpGph$. 
+=-- 
+
+### Equalizers and coequalizers
+
+If $f, g \colon G \stackrel{\to}{\to} H$ are maps in $SimpGph$, then their [[equalizer]] $Eq(f, g) = i \colon K \to G$ is given at the vertex level by 
+
+$$Vert(i) = Eq(Vert(f), Vert(g))$$ 
+
+and at the edge level by $K(x, y) \Leftrightarrow G(i(x), i(y))$; in other words, if $x, y$ belong to $K$ and there is an edge between them in $G$, then that edge lies in $K$. To express this last condition, we say the subgraph $i$ is _full_ (at the edge level). 
+
+Thus, $i$ is a regular mono in $SimpGph$ iff both $Vert(i)$ is monic in $Set$ and $i$ is full at the edge level. 
+
+The coequalizer of $f$ and $g$, say $Coeq(f, g) = q \colon H \to Q$, is given at the vertex level by 
+
+$$Vert(q) = Coeq(Vert(f), Vert(g))$$ 
+
+and at the edge level by taking the image of the composite $E_H \hookrightarrow Vert(H)^2 \stackrel{q^2}{\to} Vert(Q)^2$, so that 
+
+$$Q(x, y) \Leftrightarrow \exists_{u, v} H(u, v) \wedge q(u) = x \wedge q(v) = y.$$ 
+
+Thus, $q$ is a regular mono if it is surjective at both the vertex and edge levels. 
+
+### Ternary factorization 
+
+The category of simple graphs has a [[ternary factorization system]] as follows: each morphism $f \colon G \to H$ factors as 
+
+$$G \stackrel{q}{\to} G' \stackrel{a}{\to} H' \stackrel{i}{\to} H$$ 
+
+where 
+
+* $q$ is a collection of edge contractions induced by a surjection between vertex-sets, and is a regular epi; 
+
+* $a$ induces an identity between vertex-sets (hence is jointly monic and epic), but without necessarily being full at the edge level; 
+
+* $i$ is given by an injection between vertex-sets and is full at the edge level, and (thus) is a regular mono. 
+
+The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. To round out
+the discussion, we prove that regular monos are stable under pushout (which ensures that the epi-(regular mono) factorization is an [[orthogonal factorization system]]). 
+
++-- {: .num_lem} 
+###### Lemma 
+In $SimpGph$, the pushout of any regular mono along any map is a regular mono. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $j \colon G \to H$ be a regular mono in $SimpGph$, and let $f \colon G \to G'$ be any map. Form the pushout of the pair $(j, f)$ as a coequalizer diagram 
+
+$$G \stackrel{\overset{i_1 \circ j}{\to}}{\underset{i_2 \circ f}{\to}} H \sqcup G' \stackrel{q}{\to} H'$$ 
+
+where $i_1 \colon H \to H \sqcup G'$, $i_2 \colon G' \to H\sqcup G'$ are the coproduct inclusions. We are trying to show that $q \circ i_2$ is a regular mono. Certainly $Vert(q i_2)$ is monic in $Set$ (again since $Vert$ preserves monos and pushouts), so we just have to check that $q i_2$ is full at the edge level. So, suppose $H'(q i_2(x), q i_2 (y))$; we must show $G'(x, y)$. According to how we form coequalizers $q$, there exist $u, v \in H \sqcup G'$ such that $q(u) = q i_2(x)$, $q(v) = q i_2(y)$, and $(H \sqcup G')(u, v)$. Since $H$ and $G'$ are embedded disjointly in their coproduct, we have that 
+
+* either both $u$ and $v$ belong to the $G'$-component, in which case $u = i_2(x)$ and $v = i_2(y)$ (but in that case we're done because $G'(x, y)$ follows from $(H \sqcup G')(i_2 x, i_2 y)$, according to how the coproduct $H \sqcup G'$ is constructed);  
+
+* or both $u$ and $v$ belong to the $H$-component. But according to how pushouts are constructed at the vertex level, this means there exist $g_1, g_2 \in G$ such that $f(g_1) = x$, $j(g_1) = u$ and $f(g_2) = y$, $j(g_2) = v$. Since $H(u, v)$, or $H(j(g_1), j(g_2))$, and $j$ is full at the edge level (because it is a regular mono), we have $G(g_1, g_2)$, and therefore $G'(f(g_1), f(g_2))$ or $G'(x, y)$, as desired. 
+=-- 
+
++-- {: .num_theorem}
+###### Theorem 
+$SimpGph$ is co-regular, i.e., $SimpGph^{op}$ is regular. 
+=-- 
+
++-- {: .proof} 
+###### Proof
+This is obvious from the first definition of "regular" given [here](http://ncatlab.org/nlab/show/regular+category#definition_10). 
+=-- 
+
+## References 
+
+* Reinhard Diestel, Graph Theory (Second Edition), Graduate Texts in Mathematics 173, Springer (2000). 
+{#Diestel}
+
+* J. Adamek and H. Herrlich, Cartesian closed categories, quasitopoi, and topological universes. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
+{#AdamHerr} 
