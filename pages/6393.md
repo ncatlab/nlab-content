@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
@@ -12,6 +16,8 @@
 =--
 =--
 =--
+
+
 
 
 #Contents#
