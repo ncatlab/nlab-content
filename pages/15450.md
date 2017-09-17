@@ -15,7 +15,9 @@
 
 ## Idea
 
-The analog of the [[Riemann zeta function]] for _[[number fields]]_.
+The Goss zeta function is an [[analogy|analog]] (under the [[function field analogy]]) of the [[Riemann zeta function]] for _[[number fields]]_.
+
+Like the [[Weil zeta function]].
 
 ## Properties
 
