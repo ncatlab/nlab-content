@@ -246,5 +246,8 @@ A collection of references on the equivalent reformulation of connections in ter
 
 For more see the references at [[connection on a bundle]].
 
+A discussion of parallel transport in the [[tangent bundle]] in terms of [[synthetic differential geometry]] (motivated by a discussion of [[gravity]]) is in 
 
+* [[Gonzalo Reyes]], _General Relativity: Affine connections, parallel
+transport and sprays_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2009/01/affineconnections.pdf))
 
