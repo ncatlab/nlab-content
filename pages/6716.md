@@ -25,15 +25,6 @@ of the [[product]] of the [[spin group]] with the [[circle group]] by the common
 
 ## Properties
 
-### As homotopy fiber of smooth $\mathbf{W}_3$
- {#AsHomotopyFiberOfSmoothW3}
-
-We dicuss in the following that 
-
-1. the universal third [[integral Stiefel-Whitney class]] $W_3$ has an esentially unique lift from [[∞Grpd]] $\simeq$ [[Top]] to [[Smooth∞Grpd]];
-
-* the smooth [[delooping]] $\mathbf{B}Spin^c \in Smooth\infty Grpd$ is the [[homotopy fiber]] of $\mathbf{W}_3$, hence is the [[circle n-bundle|circle 2-bundle]] over $\mathbf{B} SO$ classified by $\mathbf{W}_3$. 
-
 
 +-- {: .num_prop}
 ###### Proposition
@@ -48,6 +39,19 @@ $$
 where $U(1) \to Spin^c$ is the canonical inclusion into the defining product $U(1) \to Spin \times U(1) \to Spin \times_{\mathbb{Z}_2} U(1)$.
 
 =--
+
+### General
+
+### As homotopy fiber of smooth $\mathbf{W}_3$
+ {#AsHomotopyFiberOfSmoothW3}
+
+We dicuss in the following that 
+
+1. the universal third [[integral Stiefel-Whitney class]] $W_3$ has an esentially unique lift from [[∞Grpd]] $\simeq$ [[Top]] to [[Smooth∞Grpd]];
+
+* the smooth [[delooping]] $\mathbf{B}Spin^c \in Smooth\infty Grpd$ is the [[homotopy fiber]] of $\mathbf{W}_3$, hence is the [[circle n-bundle|circle 2-bundle]] over $\mathbf{B} SO$ classified by $\mathbf{W}_3$. 
+
+
 
 +-- {: .num_prop #SpinCAsHomotopyPullbackOfW2AndC1}
 ###### Proposition
@@ -277,26 +281,26 @@ Since $\mathbb{R}$ is contractible, we have indeed under [[geometric realization
 $$
   \array{
     \vert\mathbf{B}^2(\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z})\vert
-    &\stackrel{}{\to}&
+    &\stackrel{\vert \hat {\mathbf{\beta}}_2\vert}{\to}&
     \vert
-      \mathbf{B}^2 (\mathbb{Z} \stackrel{\cdot}{\to} \mathbb{R})
+      \mathbf{B}^2 (\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{R})
     \vert
     \\
     \downarrow^{\mathrlap{\simeq}}
     &&
     \downarrow^{\mathrlap{\simeq}}
     \\
-    \mathbf{B}^2(\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z})
+    \vert\mathbf{B}^2(\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z})\vert
     &\to&
-    \mathbf{B}^2(\mathbb{Z} \to 1)
+    \vert\mathbf{B}^2(\mathbb{Z} \to 1)\vert
     \\
     \downarrow^{\mathrlap{\simeq}}
     &&
     \downarrow^{\mathrlap{\simeq}}
     \\
-    B^2 \mathbb{Z}_2
+    \vert B^2 \mathbb{Z}_2\vert
      & \stackrel{\beta_2}{\to}&
-    B^3 \mathbb{Z}
+    \vert B^3 \mathbb{Z}\vert
   }
   \,.
 $$
