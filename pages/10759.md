@@ -649,6 +649,10 @@ according to def. \ref{ChanComplexInducedFromZComplex}.
 
 =--
 
+([[Higher Algebra|Higher Algebra, construction 1.2.2.6]])
+
+Another equivalent indexing convention can be useful:
+
 +-- {: .num_defn }
 ###### Definition
 
@@ -681,7 +685,6 @@ for the case  $i=q-r$, $j=q$, and $k=q+r$.
 =--
 
 
-([[Higher Algebra|Higher Algebra, construction 1.2.2.6]])
 
 
 +-- {: .num_prop}
@@ -714,7 +717,7 @@ $$
   E_{r+1}^{p,q}
   \simeq
   \frac{
-   ker(d_r \colon E_r^{p,1} \to E_r^{p-r, q+r-1})
+   ker(d_r \colon E_r^{p,q} \to E_r^{p-r, q+r-1})
   }{
    im(d_r \colon E_r^{p+r, q-r+1} \to E_r^{p,q})
   }
@@ -737,8 +740,8 @@ $$
 
 
 Since $d_r$ is by definition the [[image]] morphism of a [[connecting homomorphism]], for showing $d_r \circ d_r = 0$ it suffices to show that the connecting homomorphisms compose to the [[zero morphism]], 
-$\delta_r \circ \delta_r \simeq 0$. This is the same kind of argument
-as in the proof of prop. \ref{ZComplexInCInducedChainComplexInHoC}.
+$\delta_r \circ \delta_r \simeq 0$. This is the argument
+as in the proof of prop. \ref{ZComplexInCInducedChainComplexInHoC}, generalized from vertical steps of length 1 to vertical steps of length $r$.
 
 Explicitly, we have the pasting diagram 
 
@@ -757,7 +760,7 @@ $$
 $$
 
 where the squares labeled "c" are (co-)cartesian ([[homotopy pushouts]]). 
-By the [[universal property]] of the pushout applied twice, this induces a factorization
+By the [[universal property]] of the pushout, this induces a factorization
 
 $$
   \array{
@@ -791,7 +794,78 @@ $$
 
 in $\mathcal{C}$.
 
-Next, to show the homology isomorphisms (...)
+Next, to show the homology isomorphisms.
+
+Consider for fixed $p,q,r$ the usual abbreviation
+
+$$
+  C \coloneqq E_r^{p,q}
+$$
+
+for the $r$-relative [[chains]],
+
+$$
+   Z \coloneqq ker(d_r \colon E_r^{p,q} \to E_r^{p-r, q+r-1})
+$$
+
+for the $r$-relative [[cycles]] and
+
+$$
+  B \coloneqq im(d_r \colon E_r^{p+r, q-r+1} \to E_r^{p,q})
+$$
+
+for the $r$-relative boundaries, all in bidegree $p,q$.
+
+We claim that the canonical maps induce a sequence of morphisms in $\mathcal{A}$ of the form
+
+$$
+  \pi_{p+q} X(p-r-1, p)
+   \stackrel{\phi}{\to}
+  Z
+   \stackrel{\phi'}{\to}
+  Z/B
+   \stackrel{\psi'}{\to}
+  C/B
+   \stackrel{\psi}{\to}
+  \pi_{p+q} X(p-1, p+r)
+$$
+
+and that $\phi'\circ \phi$ is an [[epimorphism]] and $\psi \circ \phi'$ is a [[monomorphism]]. By the uniqueness of the [[image]] factorization in the [[abelian category]] $\mathcal{A}$, this will prove the proposition.
+
+To see that that $\pi_{p+q} X(p-r-1,p)$ is indeed in the [[kernel]] of $d_r$ consider the [[commuting diagram]]
+
+$$
+  \array{
+    \pi_{p+q} X(p-r-1,p) &\longrightarrow& \pi_{p+q-1} X(p-2r, p- r-1)
+    \\
+    \downarrow && \downarrow
+    \\
+    \pi_{p+q} X(p-r, p) &\longrightarrow& \pi_{p+q-1}X(p-2r, p-r)
+    \\
+    E_r^{p,q} &\stackrel{d_r}{\longrightarrow}& E_r^{p-r, q+r-1}
+    \\
+    && \downarrow & \searrow
+    \\
+    && && \pi_{p+q-1} X(p - r - 1, p-r)
+    \\
+    && \downarrow & \swarrow
+    \\
+    && \pi_{p+q-1} X(p - r - 1, p - 1)
+  }
+  \,.
+$$
+
+Since the bottom right moprhism is a [[monomorphism]] by construction, the claim is equivalently that the total composite from top-left to bottom right is zero. By commutativity of the diagram this factors through the composite from top-right to bottom-right. As indicated, this in turn factors through two consecutive morphisms of an $(i \leq j \leq k)$-square, which by definition of $\mathbb{Z}$-chain complex is null-homotopic.
+
+By an dual argument one has that $\pi_{p+q}X(p-1, p+r)$ is in the [[coimage]] of $d_r$. This shows that we indeed have the above sequence of morphisms $\stackrel{\phi}{\to}\stackrel{\phi'}{\to}\stackrel{\psi'}{\to}\stackrel{\psi}{\to}$.
+
+It now only remains to show that $\phi$ is an [[epimorphism]] (dually $\psi$ will be a [[monomorphism]].)
+
+(..)
+
+
+
+
 
 =--
 
