@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _tower_ is a [[diagram]] of the shape of the [[poset]] of [[natural numbers]]
+
+$$
+  \cdots \to X_2 \to X_1 \to X_0 
+  \,.
+$$
+
+
+A [[limit]] over a diagram of this form is called a [[sequential limit]]/[[directed limit]].
+
+## Related concepts
+
+* [[Postnikov tower]]
+
+[[!redirects tower diagram]]
+[[!redirects towers]]
+[[!redirects tower diagrams]]
