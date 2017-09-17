@@ -47,7 +47,7 @@ A [[class]] $R \subset Mor(\mathcal{E})$ of [[morphism]]s in a [[topos]] $\mathc
 
 1. If the pullback of a morphism $f$ along an [[epimorphism]] lands in $R$, then $f$ is also in $R$.
 
-1. For every [[set]] $S$ the canonical morphism $(\coprod_{s \in S} *) \to *$ from the $S$-fold [[coproduct]] of the [[terminal object]] to the terminal object in in $R$.
+1. For every [[set]] $S$ the canonical morphism $(\coprod_{s \in S} *) \to *$ from the $S$-fold [[coproduct]] of the [[terminal object]] to the terminal object is in $R$.
 
 1. For $\{X_i \stackrel{f_i}{\to} Y_i\}_{i \in I} \subset R$ then also the [[coproduct]] $\coprod_i X_i \to \coprod_i Y_i$ is in $R$.
 
