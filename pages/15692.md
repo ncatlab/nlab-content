@@ -36,7 +36,7 @@ $$
   \zeta_H(s)\coloneqq Tr( H^{-s} )
 $$
 
-and defined from there by [[analytic continuation]] on allmost all of the [[complex plane]]. The [[special values of L-functions|special value]] at $s = 1$ (or its [[principal value]]) is the regularized Feynman propagator.
+and defined from there by [[analytic continuation]] on allmost all of the [[complex plane]]. The [[special values of L-functions|special value]] at $s = 1$ (or its [[principal value]]) is the regularized Feynman propagator. See ([BCEMZ 03, section 2.4.2](#BCEMZ03)).
 
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
@@ -44,7 +44,12 @@ and defined from there by [[analytic continuation]] on allmost all of the [[comp
 
 ## References
 
+Textbook accounts include
+
+* {#BCEMZ03} A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]], S. Zerbini, section 2 of _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
+
 Lecture notes include
+
 
 * {#GFP} _Green functions and propagators_ ([[GreenFunctionsAndPropagators.pdf:file]])
 
@@ -53,7 +58,11 @@ Lecture notes include
 
 * {#Kleinert11} [[Hagen Kleinert]], V. Schulte-Frohlinde, _Critical properties of $\phi^4$-Theories_ 2001 ([pdf](http://users.physik.fu-berlin.de/~kleinert/b8/psfiles/08.pdf))
 
+The zeta function regularization method originates around
+
 * {#Speer71} [[Eugene Speer]], _On the structure of Analytic Renormalization_, Comm. math. Phys. 23, 23-36 (1971) ([Euclid](http://projecteuclid.org/euclid.cmp/1103857549))
+
+and a comprehensive discussion is in ([BCEMZ 03, section 2](#BCEMZ03)).
 
 [[!redirects Feynman propagators]]
 
