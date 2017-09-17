@@ -40,6 +40,12 @@ A _relative $\mathcal{I}$-cell complex_ (relative to any object $A$) is any morp
 
 * A [[Sullivan model]] is a cell complex with respect to the generating cofibrations in the standard [[model structure on dg-algebras]].
 
+## References
+
+A discussion in the context of [[algebraic model categories]] is in 
+
+* [[Emily Riehl]], _Cellularity in algebraic model structures_ ([blog post](http://golem.ph.utexas.edu/category/2011/12/cellularity_in_algebraic_model.html#c040417))
+
 [[!redirects cell complexes]]
 
 [[!redirects relative cell complex]]
