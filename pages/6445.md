@@ -72,7 +72,7 @@ A _pregeometry_ is a (possibly infinite) matroid (given by a set $X$ equipped wi
 
 The language of independence, spanning, and basis carry over as before. A maximal independent set spans (i.e., is a basis), and maximal independent sets exist according to [[axiom of choice|Zorn's lemma]]. Again we have a notion of dimension by the following proposition. 
 
-+-- {: .num_prop} 
++-- {: .num_prop #welldefined} 
 ###### Proposition 
 In a pregeometry $(X, \mathbf{C})$, any two bases have the same cardinality. 
 =-- 
