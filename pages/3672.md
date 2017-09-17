@@ -1,7 +1,7 @@
 
 There is a close relationship between 
 
-* the four normed [[division algebra|division algebras]] 
+* the four [[normed division algebras]] 
 
 * [[spin geometry]], 
 
