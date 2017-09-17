@@ -21,15 +21,15 @@
 ## Idea
 
 
-The traditional [[Chern character]] on [[complex K-theory]] happens to be a map from [[complex oriented cohomology theory]] of [[chromatic level]]1 to one of chromatic level 0 ([[ordinary cohomology]]).
+The traditional [[Chern character]] on [[complex K-theory]] happens to be a map from [[complex oriented cohomology theory]] of [[chromatic level]] 1 to one of chromatic level 0 ([[ordinary cohomology]]).
 
-More generally one may ask for _higher chromatic Chern characters_, that mak [[generalized cohomology theories]] of some [[chromatic level]] to another of some other level.
+More generally, one may ask for _higher chromatic Chern characters_ that map a [[generalized cohomology theory]] of some [[chromatic level]] to another of some other level.
 
 This has been considered for
 
 * maps from [[elliptic cohomology]]/[[tmf]] to [[K-theory]], see at _[[elliptic Chern character]]_
 
-* maps from [[Morava E-theory]] at level $(n+1)$ to [[Morave E-theory]} at level $n$, tensored with some ring. see at _[[E-theoretic Chern character]]_.
+* maps from [[Morava E-theory]] at level $(n+1)$ to Morava E-theory at level $n$, tensored with some ring, see at _[[E-theoretic Chern character]]_.
 
 ## References
 
