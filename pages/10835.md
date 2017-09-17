@@ -118,6 +118,11 @@ A review of the proof in low degree is in
 * [[James Milne]], prop. 6.8 of _[[Lectures on Étale Cohomology]]_
  {#Milne}
 
+Discussion from the point of view of [[Sweedler corings]] and a full proof of the descent theorem is in 
+
+*  [[Tomasz Brzezinski]], [[Robert Wisbauer]], section 29 of _Corings and Comodules_, Cambridge University Press, London Math. Soc. LN 309 (2003), ([errata pdf](http://www.math.uni-duesseldorf.de/~wisbauer/corinerr.pdf))
+
+
 [[!redirects Amitsur complexes]]
 
 [[!redirects descent theorem]]
