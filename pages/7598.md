@@ -1,11 +1,26 @@
 +-- {: .num_defn}
 ###### Definition
-A diagram $F:P\to M$ is called _projectively cofibrant_ if $0\to F$ has the lifing property with respect to component-wise acyclic fibrations.
+A [[diagram]] $F:P\to M$ is called _projectively [[cofibrant object|cofibrant]]_ if $0\to F$ has the left lifing property with respect to component-wise acyclic fibrations.
+
+In other words $F$ is [[projective object|projectively]] cofibrant if for any component-wise acyclic fibration $A\to B$ and any morphism $X\to B$ there is a lift
+
+$$\array{
+&&A
+\\
+&
+\nearrow&\downarrow
+\\
+X
+&\to&
+B
+}$$
+
+making the triangle commute.
 =--
 
 +-- {: .num_example}
 ###### Example
-1. A span is projectively cofibrant if it is a diagram of cofibrations
+1. A span is projectively cofibrant if it is a diagram of cofibrations in that the objects of the span are cofibrant and the morphisms are cofibrations.
 
 1. A _cotower_ - i.e. a diagram with domain $(\mathbb{N},\le)$ is projectively cofibrant if it is a diagram of cofibrations and its value in $0$ is cofibrant.
 =--
