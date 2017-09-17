@@ -11,8 +11,16 @@
 
 The term _cartesian category_ can mean either of
 
+* [[cartesian monoidal category]]
 * [[finitely complete category]]
 
-* [[cartesian monoidal category]]
+The first of these is the traditional meaning, while the second is advocated in the [[Elephant]].  It is probably best to avoid the ambiguous term.
 
+
+Compare [[locally cartesian category]], which is unambiguous.
+
+
+[[!redirects cartesian category]]
 [[!redirects cartesian categories]]
+[[!redirects Cartesian category]]
+[[!redirects Cartesian categories]]
