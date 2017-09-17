@@ -43,9 +43,12 @@ We all make notes as we read papers, read books and doodle on pads of paper. The
 
 =--
 
-For more see [[About]].
+For more see 
 
-We originally designed this place as an adjunct to the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), but it\'s more independent now.
+* [[schreiber:What is... the nLab]]?
+
+* [[About]].
+
 
 
 ## Discussion, Comments, Questions
