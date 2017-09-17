@@ -27,3 +27,6 @@ In [[higher topos theory]] there are corresponding analogs of this theorem
 [[!redirects Giraud theorem]]
 
 [[!redirects Giraud theorems]]
+
+[[!redirects Giraud-Rezk-Lurie axiom]]
+[[!redirects Giraud-Rezk-Lurie axioms]]
