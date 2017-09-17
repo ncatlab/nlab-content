@@ -660,7 +660,7 @@ The object $\infty$-Lie groupoid $\mathbf{\flat}\mathbf{B}G \in \infty LieGrpd$ 
 $$
   \mathbf{\flat}\mathbf{B}G 
   =
-  \Xi[G\times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{
+  \Xi[C^\infty(-,G)\times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{
    \overset{Ad_{p_1}(p_2)+ p_1 d p_1^{-1}}{\to}}{\underset{p_2}{\to}} \Omega^1_{flat}(-,\mathfrak{g})]
   \,,
 $$
@@ -671,6 +671,7 @@ This is the [[groupoid of Lie-algebra valued forms]] restricted to flat forms.
 
 =--
 
+In other words, $U = \mathbb{R}^n$-parameterized family of objects of $\mathbf{\flat}\mathbf{B}G$ is given by an element $A \in \Omega^1(U)\otimes \mathfrak{g}$^such that $d_{dR} A + [A ,\wedge A]  = 0$, and a $U$-parameterized family of morphisms $g : A \to A'$ is given by a smooth function $f \in C^\infty(U,G)$ such that $A' = Ad_g A + g d g^{-1}$.
 
 +-- {: .proof}
 ###### Proof
@@ -678,7 +679,7 @@ This is the [[groupoid of Lie-algebra valued forms]] restricted to flat forms.
 By the above discussion we have that the object in question is
 
 $$
-  \mathbb{L}Lconst \circ \mathbb{R}\Gamma \mathbf{B}G
+  \mathbb{L}LConst \circ \mathbb{R}\Gamma \mathbf{B}G
   \,,
 $$
 
@@ -714,7 +715,71 @@ Finally we need to show that $N( G \times \Omega^1_{flat}(-,\mathfrak{g}) \stack
 A detailed discussion of how this arises concretely from the formula
 $[\mathbf{\Pi}_1(-), \mathbf{B}G]$ for the [[nLab:right adjoint]] of $\mathbf{\Pi} = LConst \circ \Pi$ and how it is the coefficient object for smooth flat $G$-principal bundles is in [SchrWalI](http://arxiv.org/abs/0705.0452).
 
++-- {: .un_cor }
+###### Corollary
 
+The object 
+$\mathbf{\flat}_{dR}\mathbf{B}G $
+of <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">flat intrinsic de Rham coefficients</a> of $\mathbf{B}G$ is represented in $[CartSp^{op}, sSet]$ by the 0-[[truncated]] [[sheaf]] of flat $\mathfrak{g}$-valued forms
+
+$$
+  U \mapsto \Omega^1_{flat}(U,\mathfrak{g})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The diagram
+
+$$
+  \array{
+     \Omega^1_{flat}(-,\mathfrak{g) &\to&
+     \Xi[C^\infty(-,G)\times \Omega^1_{flat}(-,G) \stackrel{\t}{\to} \Omega^1_{flat}(-,\mathfrak{g})]
+     \\
+     \downarrow && \downarrow
+     \\
+     * &\to& \Xi[C^\infty(-,G) \stackrel{\to}}{\to} *]
+  }
+$$
+
+is a [[pullback]] diagram in $[CartSp^{op}, sSet]_{proj}$ with all objects fibrant and the right vertical morphism being a fibration. Therefore this is a [[homotopy pullback]]. By the above statements and since [[∞-stackification]] preserves finite [[limit]]s, this also models the [[limit in a quasi-category|(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{\flat}_{dR} \mathbf{B}G &\to& \mathbf{\flat} \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .un_remark }
+###### Remark
+
+Writing $T U$ for the [[tangent Lie algebroid]] of $U$ the flat de Rham object of $\mathbf{B}G$ may be also be written as
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}G : U \mapsto Hom(T U, \mathfrak{g})
+  \,,
+$$ 
+
+where on the right we have the set of morphisms of [[Lie algebroid]]s. Equivalently in terms of [[Chevalley-Eilenberg algebra]]s this is 
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}G : 
+  U \mapsto Hom_{dgAlg}(CE(\mathfrak{g}),(\Omega^\bullet(U), d_{dR}))
+  \,,
+$$ 
+
+=--
 
 
 #### Strict Lie 2-groups {#StrictLie2Groups}
