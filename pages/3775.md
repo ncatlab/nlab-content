@@ -3,13 +3,13 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Niels Henrik Abel]], [[Abhyankar|Shreeram Shankar Abhyankar]], [[Suren Arakelov]] ([[Arakelov geometry]]), [[Michael Artin]]
 
-* [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Berthelot]] ([web](http://perso.univ-rennes1.fr/pierre.berthelot)), [[Roman Bezrukavnikov]], [[Spencer Bloch]], [[Enrico Bombieri]], [[Armand Borel]], [[Alexei Bondal]], [[Paul Bressler]]
+* [[Kai Behrend]], [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Berthelot]] ([web](http://perso.univ-rennes1.fr/pierre.berthelot)), [[Roman Bezrukavnikov]], [[Spencer Bloch]], [[Enrico Bombieri]], [[Armand Borel]], [[Alexei Bondal]], [[Paul Bressler]]
 
 * [[Pierre Cartier]], [[Guido Castelnuovo]], [[Denis-Charles Cisinski]]
 
 * [[Pierre Deligne]], [[Duiliu-Emanuel Diaconescu]], [[Vladimir Drinfeld]], [[Nikolai Durov]]
 
-* [[Federigo Enriquez]]
+* [[Federigo Enriques]]
 
 * [[Gerd Faltings]], [[Edward Frenkel]], [[William Fulton]]
  
@@ -29,7 +29,7 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Hiraku Nakajima]], [[Mudumbai Seshachalu Narasimhan]], [[Amnon Neeman]], [[Madhav Nori]]
 
-* [[Arthur Ogus]] [berkeley](http://math.berkeley.edu/~ogus), [[Andrei Okounkov]], [[Dmitri Orlov]]
+* [[Arthur Ogus]] [berkeley](http://math.berkeley.edu/~ogus), [[Andrei Okounkov]], [[Martin Olsson]], [[Dmitri Orlov]]
 
 * [[Rahul Pandharipande]], [[Tony Pantev]], [[Alexander Polishchuk]]
 
