@@ -109,7 +109,7 @@ $$
 +-- {: .num_defn #CyclesForHodgeComplexOverComplexNumbers}
 ###### Definition
 
-While $\Omega^\bullet \simeq \Omega^\bullet_{\mathbb{Z}}$ below we use the chain-level truncation $\Omega^{\bulleq \geq 0}$ which is no longer in the image of $Disc$, hence no longer a [[flat modality]]-[[modal type]].
+While $\Omega^\bullet \simeq \Omega^\bullet_{\mathbb{Z}}$, below we use the chain-level truncation $\Omega^{\bullet \geq 0}$ which is no longer in the image of $Disc$, hence no longer a [[flat modality]]-[[modal type]].
 
 =--
 
@@ -123,7 +123,7 @@ $$
 
 for the [[stack]] which to $X\times S \in SmthMfd \times Sch_{\mathbb{Z}}$ assigns the groupoid of locally free and locally finitely generated $pr_S^\ast \mathcal{O}_S$-[[modules]] (modules over the [[inverse image]] of the [[structure sheaf]] of $S$ under the [[projection]] map $X \times S \to S$).
 
-This is a commutative monoid object with respect to [[direct sum]]. Write
+This is a [[commutative monoid]] object with respect to [[direct sum]]. Write
 
 $$
   K \coloneqq \mathcal{K}(\mathbf{Vect}_{lc}^{\oplus})
