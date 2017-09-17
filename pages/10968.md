@@ -1,5 +1,5 @@
 
-This entry provides commented references on the topic of [[noncommutative algebraic geometry]].
+This entry provides commented references on the topic of [[derived noncommutative algebraic geometry]].
 
 ***
 
@@ -29,6 +29,10 @@ The [[Chow motive]] of a [[smooth]] [[projective variety]] may be reconstructed 
 
 * [[Alexander Kuznetsov]], _Base change for semiorthogonal decompositions_, 2007, [arXiv](http://arxiv.org/abs/0711.1734).
 
+* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld centers in derived algebraic geometry_, 2008, ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157)).
+
+An [[(infinity,1)-category|(infinity,1)-categorical]] version of Orlov's representability theorem, which is further generalized to (smooth proper) [[derived stacks]].
+
 * [[Alexander Kuznetsov]], _Hochschild homology and semiorthogonal decompositions_, 2009, [arXiv](http://arxiv.org/abs/0904.4330).
 
 * [[Valery Lunts]], [[Dmitri Orlov]], _Uniqueness of enhancement for triangulated categories_, 2009, [arXiv](http://arxiv.org/abs/0908.4187).
@@ -42,3 +46,7 @@ Describes how to glue two [[dg-categories]] in such a way that the [[homotopy ca
 * [[Sergei Gorchinskiy]], [[Dmitri Orlov]], _Geometric phantom categories_, 2012, [arXiv](http://arxiv.org/pdf/1209.6183v2.pdf).
 
 If an [[admissible subcategory]] of the bounded [[derived category]] of [[coherent sheaves]] on a [[smooth]] [[projective variety]] is a [[phantom]], has vanishing [[Hochschild homology]] and [[Grothendieck group]], then its [[noncommutative motive]] vanishes.  In particular its higher [[K-theory]] also vanishes.
+
+* [[David Ben-Zvi]], [[David Nadler]], Anatoly Preygel, _Integral transforms for coherent sheaves_ ([arXiv:1312.7164](http://arxiv.org/abs/1312.7164))
+
+The [[(infinity,1)-category|(infinity,1)-categorical]] representability theorem of (Ben-Zvi-Francis-Nadler 2008) is extended to the non-smooth case.
