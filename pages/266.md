@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -218,6 +217,7 @@ assert that
 
 There is also a *local* definition of "the Kan extension of a given functor $f$ along $p$" which can exist even if the entire functor defined above does not.  This is a generalization of the fact that a *particular* diagram of shape $C$ can have a limit even if not every such diagram does.  It is also a special case of the fact discussed at [[adjoint functor]] that an adjoint functor can fail to exist completely, but may still be partially defined.  If the local Kan extension of every single functor exists for some given $p\colon C\to C'$ and $D$, then these local Kan extensions fit together to define a functor which is the global Kan extension.
 
+
 Thus, by the general notion of "partial adjoints"; we say
 
 +-- {: .num_defn #LocalKanExtension}
@@ -270,7 +270,7 @@ By the usual reasoning (see e.g. [[Categories Work]], chapter IV, theorem 2), if
 +-- {: .num_remark #InHigherCats}
 ###### Remark
 
-The definition in this form makes sense not just in [[Cat]] but in every [[2-category]]. In slightly different terminology, the left Kan extension of a 1-cell $F:C\to D$ along a 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.  Equivalently, it is such a pair such that for every $G\colon C' \to D$, the function
+The definition in this form makes sense not just in [[Cat]] but in every [[2-category]]. In slightly different terminology, the left Kan extension of a 1-cell $F:C\to D$ along a 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which [[reflections|reflects]] the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.  Equivalently, it is such a pair such that for every $G\colon C' \to D$, the function
 $$ K(C',D)(Lan_p F, G) \xrightarrow{- \cdot \alpha} K(C,D)(F, G \circ p) $$
 is a [[bijection]].
 
@@ -638,6 +638,7 @@ $$
 $$
 is spoken of as _pulling back_ a functor on $C'$ to a functor on $C$, as this operation goes in the direction opposite to that of $p$ itself.  For this reason, we have above denoted this functor by $p^*$.  Likewise, one might call the (left or right) Kan extensions along $p$ a _push forward_ of functors from $C$ to functors on $C'$.
 
+
 This notation also coincides with that for [[geometric morphisms]] in one case: any functor $p\colon C\to C'$ between small categories induces a geometric morphism $[C,Set] \to [C',Set]$ of [[presheaf topos|presheaf toposes]], whose [[inverse image]] is the above $p^*$ and whose [[direct image]] $p_*$ is the right Kan extension functor.  Note that $p^*$ preserves (finite) limits, as required of an inverse image functor, since it has a left adjoint, namely *left* Kan extension.
 
 On the other hand, if $p$ is additionally a [[flat functor]], then the above precomposition functor is also the *direct* image of a geometric morphism, whose inverse image is given by *left* Kan extension (which preserves finite limits when $p$ is flat).  More generally, if $C^{op}$ and $(C')^{op}$ are [[sites]] and $p^{op}\colon C^{op}\to (C')^{op}$ is flat and preserves covering families (i.e. it is a [[morphism of sites]]), then precomposition is the direct image of a geometric morphism $Sh(C^{op})\to Sh((C')^{op})$ between sheaf toposes.
@@ -652,6 +653,7 @@ $$
   \,,
 $$
 via the usual inverse image $f^{-1} : O(X)^{op} \to O(X')^{op}$ of open subsets.
+
 
 Thus, in such cases, the functor $p^*$, which looks like a pullback of functors along $p = f^{-1}$, corresponds geometrically to a _push-forward_ of (pre)sheaves along $f$.  Therefore, in [[presheaf]] literature (such as [[Categories and Sheaves]]) the precomposition functor induced by $p$ is usually denoted $p_*$ and not $p^*$.
 
