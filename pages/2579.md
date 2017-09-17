@@ -28,7 +28,27 @@ See also [[formal group]].
 
 ## Examples
 
-Every [[algebraic group]] is in particular a group scheme.
+* Given any group $G$, one can form the constant group scheme $G_X$ over $X$. 
+
+* Every [[algebraic group]] is in particular a group scheme.
+
+* The functor $\mathbb{G}_m$ is a group scheme given by $\mathbb{G}_m(S)=\Gamma(S, \mathcal{O}_S)^\times$. A scheme is sent to the invertible elements of its global functions.
+
+* The functor $\mathbb{G}_a$ is a group scheme given by $\mathbb{G}_a(S)=\Gamma(S, \mathcal{O}_S)$ the additive group of the ring of global functions.
+
+* $\alpha_p$ is the subgroup scheme of $\mathbb{G}_a$ of $p$-nilpotent elements.
+
+* $\mu_p$ is the subgroup scheme of $\mathbb{G}_m$ of $p$-th roots of unity.
+
+## Morphisms
+
+A morphism of group schemes $G\to H$ is a morphism of schemes that is a group homomorphism on any choice of values of points. This is more easily stated by saying that a morphism of group schemes must be a [[natural transformation]] between the functor of points.
+
+## Cartier Dual
+
+Suppose now that $G$ is a finite flat commutative group scheme (over $X$). The Cartier dual of $G$ is given by the functor $G^D(S)=Hom (G\otimes S, \mathbb{G}_m \otimes S)$. The Hom is taken in the category of group schemes over $S$.
+
+For example, $\alpha_p^D\simeq \alpha_p$.  
 
 ## References
 
