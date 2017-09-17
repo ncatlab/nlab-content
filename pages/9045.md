@@ -161,6 +161,8 @@ When the [[complex manifold]] $X$ happens to be a [[Kähler manifold]] then the 
 
 * [[intermediate Jacobian]]
 
+* [[Lefschetz decomposition]]
+
 ## References
 
 Textbook accounts include
