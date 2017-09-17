@@ -32,7 +32,14 @@ For $\mathcal{T}$ a [[topos]], a **Cisinski model structure** on $\mathcal{T}$ i
 +-- {: .num_remark}
 ###### Remark
 
-Notice that every [[topos]] is an [[adhesive category]], so that monomorphisms are automatically preserved by [[pushout]].
+Since every [[topos]] is a [[locally presentable category]], a Cisinski model structure is in particular a [[combinatorial model category]] structure.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Since every [[topos]] is an [[adhesive category]], monomorphisms are automatically preserved by [[pushout]].
 
 =--
 
