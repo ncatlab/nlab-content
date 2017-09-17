@@ -6,7 +6,7 @@
 
 ## Idea
 
-In [[measure theory]], a null set is a [[subset]] of a [[measure space]] (or [[measurable space]]) that is so small that it can be neglected: it might as well be the [[empty subset]]; its measure is [[zero]].  Similarly, a full set is a subset that is so large that it might as well be the [[improper subset]] (the entire space).
+In [[measure theory]], a _null set_ is a [[subset]] of a [[measure space]] (or [[measurable space]]) that is so small that it can be neglected: it might as well be the [[empty subset]]; its measure is [[zero]].  Similarly, a _full set_ is a subset that is so large that it might as well be the [[improper subset]] (the entire space).  One also says that a null set has _null measure_ and a full set has _full measure_.
 
 Traditionally, full sets are not usually referred to explicitly; in [[classical mathematics]], they are simply the [[complements]] of null sets.  However, they are often referred to implicitly through such terminology as 'almost everywhere'.  Also, in [[constructive mathematics]], full sets are more fundamental than null sets; they are not simply the complements of the latter.
 
@@ -22,11 +22,13 @@ In a traditional [[measure space]], we have an abstract [[set]] $X$, a $\sigma$-
 
 A measurable subset $B$ of $X$ is __full__ if, given any measurable set $A$, $\mu(B \cap A) = \mu(A)$; an arbitrary subset of $X$ is __full__ if it\'s a [[superset]] of a full measurable set.  [[de Morgan duality|Dually]], a measurable set $B$ is __null__ if, given any measurable set $A$, $\mu(B \cup A) = \mu(A)$; an arbitrary subset of $X$ is __null__ if it\'s a [[subset]] of a null measurable set.
 
-Some equivalent characterisations:
+Some equivalent characterisations ([[constructive mathematics|constructively]] valid for measures on [[Cheng spaces]] except as stated):
 *  A measurable set $B$ is null iff $\mu(C) = 0$ for every measurable subset of $B$.
 *  If $\mu$ is a [[positive measure]], then a measurable set $B$ is null iff $\mu(B) = 0$.
 *  If $\mu$ is a [[finite measure]] with total measure $I$, then a measurable set $B$ is full iff $\mu(C) = I$ for every measurable superset of $B$.
 *  If $\mu$ is both positive and finite (so a [[probability measure]] up to rescaling), then a measurable set $B$ is full iff $\mu(B) = I$.
+*  A set is null iff its complement is full.
+*  Using [[excluded middle]], a set is full iff its complement is null; constructively, only the 'only if' half holds.
 
 ...
 
@@ -35,7 +37,18 @@ Some equivalent characterisations:
 [[!redirects null sets]]
 [[!redirects null subset]]
 [[!redirects null subsets]]
+[[!redirects null measure]]
+[[!redirects set of null measure]]
+[[!redirects sets of null measure]]
+[[!redirects subset of null measure]]
+[[!redirects subsets of null measure]]
+
 [[!redirects full set]]
 [[!redirects full sets]]
 [[!redirects full subset]]
 [[!redirects full subsets]]
+[[!redirects full measure]]
+[[!redirects set of full measure]]
+[[!redirects sets of full measure]]
+[[!redirects subset of full measure]]
+[[!redirects subsets of full measure]]
