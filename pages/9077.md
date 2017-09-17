@@ -38,7 +38,7 @@ The [[Lie algebra]] of a maximal torus of $G$ is called a [[Cartan subalgebra]] 
 
 * [[Cartan subalgebra]]
 
-* [[wight (in representation theory)]], [[root (in representation theory)]]
+* [[weight (in representation theory)]], [[root (in representation theory)]]
 
 * [[orbit method]]
 
