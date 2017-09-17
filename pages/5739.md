@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,7 +16,7 @@
 
 For $A$ an [[associative algebra|algebra]] and $I \subset A$ an [[ideal]], a **Koszul-Tate resolution** is a [[resolution]] of the [[quotient]] $A/I$ by a cochain [[dg-algebra]] in non-positive degree that is degreewise free/[[projective object|projective]].
 
-It is a refinement of a [[Koszul complex]].
+It is a refinement of a [[Koszul complex]] or rather an extension.
 
 ## Applications
 
