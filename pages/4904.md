@@ -176,6 +176,8 @@ See at _[[model structure on simplicial Lie algebras]]_.
 
 ## Related concepts
 
+* [[model structure on cosimplicial algebras]]
+
 * [[model structure on monoids]]
 
 * [[algebra over a monad]]
