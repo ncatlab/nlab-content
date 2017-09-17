@@ -306,7 +306,7 @@ The [[adjunction]] $(W_! \dashv hcN_d)$ from [above](#LeftAdjoint) is a [[Quille
 
 Section 7 in 
 
-* [[Ieke Moerdijk]], [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_, [math.CT/0701295](http://arxiv.org/abs/math/0701295)
+* [[Ieke Moerdijk]], [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_, ([math.CT/0701295](http://arxiv.org/abs/math/0701295))
  {#MoerdijkWeiss}
 
 Section 4 in
