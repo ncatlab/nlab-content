@@ -3,7 +3,7 @@
 [[!include topos theory - contents]]
 </div>
 
-# Contents
+# Pretoposes
 * automatic table of contents goes here
 {: toc}
 
