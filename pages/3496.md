@@ -111,7 +111,19 @@ Composing this with the counit $f^* f_* \Rightarrow Id$ produces the transformat
 
 ## Examples
 
-For any morphism $f\colon A\to B$ in a topos $E$, the induced geometric morphism $f\colon E/A \to E/B$ is essential.
+### Etale geometric morphisms
+
+For any morphism $f\colon A\to B$ in a topos $E$, the induced geometric morphism $f\colon E/A \to E/B$ of [[overcategory]] [[topos]]es is essential. 
+
+For the case $B = *$ the [[terminal object]], the geometric morphism
+
+$$
+  \pi : E/A \to E
+$$
+
+is also called an [[etale geometric morphism]].
+
+### Locally connected toposes
 
 A [[locally connected topos]] $E$ is one where the [[global section]] [[geometric morphism]] $\Gamma : E \to Set$ is essential. 
 
