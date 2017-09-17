@@ -18,7 +18,7 @@
 {:toc}
 
 ## Idea
-**Morita equivalence** is a categorical concept of equivalence that is in general weaker than [[isomorphism]] or [[equivalence]] (of category). The concept has originated in [[ring theory]] in K. Morita's groundbreaking investigation into the equivalence relation between rings $R, S$ induced by an equivalence $Mod_R\cong Mod_S$ of their category of modules.
+**Morita equivalence** is a [[category theory|category theoretic]] concept of [[equivalence]] that is in general weaker than [[isomorphism]] or [[equivalence of categories]]. The concept has originated in [[ring theory]] in K. Morita's groundbreaking investigation into the equivalence relation between rings $R, S$ induced by an equivalence $Mod_R\cong Mod_S$ of their category of modules.
 
 Nowadays, the term is applied in different but closely related senses in a wide range of mathematical fields, and one speaks of _Morita equivalent_ [[categories]], [[algebraic theories]], [[geometric theories]] and so on.
 
