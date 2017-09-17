@@ -19,7 +19,7 @@
 
 ## Idea
 
-The notion of _structured $(\infty,1)$-topos_ is a generalization of the notion of a [[locally ringed space]] for [[topological space]]s generalized to [[little topos|litte]] [[(∞,1)-topos]]es. This is a way to formalize [[higher geometry]]/[[derived geometry]]-structure on [[little topos|little]] [[(∞,1)-topos]]s.
+The notion of _structured $(\infty,1)$-topos_ is a generalization of the notion of a [[locally ringed space]] and locally [[]ringed topos] generalized to [[(∞,1)-topos]]es. This is a way to formalize [[higher geometry]]/[[derived geometry]]-structure on [[little topos|little]] [[(∞,1)-topos]]s.
 
 So a structured $(\infty,1)$-topos is an [[(∞,1)-topos]] $\mathcal{X}$ equipped with an [[(∞,1)-sheaf|(∞,1)-]][[structure sheaf]] $\mathcal{O}$ that we think of as the collection of _functions_ on $\mathcal{X}$ that preserve extra geometric structure -- for instance [[topology|continuous structure]] or [[smooth structure]].
 
@@ -587,6 +587,8 @@ $$
 possible. They describe **[[derived smooth manifolds]]** as described in [DerSmooth](http://math.berkeley.edu/~dspivak/thesis2.pdf).
 
 ## Related concepts
+
+* [[ringed space]], [[ringed site]], [[ringed topos]]
 
 * **structured $(\infty,1)$-topos**
 
