@@ -704,6 +704,12 @@ for the moment see [[schreiber:infinity-Dijkgraaf-Witten theory]]
 
 Above we have discussed some standard [classical sigma-models](#ExpositionClassical) and [higher gauge theories as sigma-models](#GaugeTheoryAsSigmaModel), also mostly classically. Here we talk about the [[quantization]] of these models (or some of them) to [[QFT]]s: _quantum $\sigma$-models_ .
 
+### Particle on the line
+
+for the moment see the discussion at
+
+* [[path integral as a pull-push transform]]
+
 ### Topological string on a smooth manifold and string topology operations
  {#StringTopology}
 
