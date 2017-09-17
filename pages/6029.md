@@ -37,7 +37,7 @@ discusses how to extract notions of particles from a [[local net of observables]
 
 * [[relativistic particle]], [[spinning particle]], [[superparticle]]
 
-* [[fundamental particle]]
+* [[fundamental particle]], [[antiparticle]]
 
 * [[standard model of particle physics]]
 
