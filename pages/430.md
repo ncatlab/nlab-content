@@ -6,11 +6,11 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher linear algebra
+#### Linear algebra
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -131,7 +131,13 @@ The canonical [[ring object]] of the [[Zariski site|gros Zariski topos]] of any 
 
 * [[ring]]
 
-* [[finite field]], [[number field]]
+* [[finite field]], 
+
+* [[global field]] 
+
+  * [[number field]]
+
+  * [[function field]] (over a finite field)
 
 * [[positive characteristic]]
 
