@@ -34,3 +34,5 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 * [[general covariance]]
 
 [[!redirects General Relativity]]
+
+[[!redirects theory of general relativity]]
