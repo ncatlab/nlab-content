@@ -1,9 +1,18 @@
-<div class="rightHandSide toc">
-[[!include manifolds and cobordisms - contents]]
-***
-[[!include functorial quantum field theory - contents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and Cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+#### Functorial Quantum Field Theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
