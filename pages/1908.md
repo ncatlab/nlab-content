@@ -46,6 +46,13 @@ $$
   \,.
 $$
 
+For instance forming the [[homotopy category of an (∞,1)-category]] means decategorifying as
+
+$$
+  (\infty,1)Cat \to 1 Cat
+  \,.
+$$
+
 Therefore one way to think of [[vertical categorification]] is as a [[right inverse]] to decategorification.
 
 
