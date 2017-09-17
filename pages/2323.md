@@ -62,6 +62,9 @@
 
     * [[separated (2,1)-presheaf]]
   
+* [[(∞,2)-topos]]
+
+* [[(∞,n)-topos]]
 
 ## Characterization ##
 
