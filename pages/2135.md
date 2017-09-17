@@ -396,7 +396,11 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 
 * Finally, to make contact with the application to the derived moduli stack of derived elliptic curves, it seems that in [[Spectral Schemes]] a derived Deligne-Mumford stack (with derived in the sense of having replaced ordinary commutative rings by [[E-∞ ring]]s) is gonna be a 1-localic  $(E_\infty Ring^{fin})^{op}$-[[generalized scheme]].
 
+## Related concepts
 
+* [[gros topos]]
+
+* [[cohesive (∞,1)-topos]]
 
 
 [[!redirects spaces]]
