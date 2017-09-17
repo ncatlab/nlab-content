@@ -2,3 +2,5 @@
 * [wikipedia page](http://en.wikipedia.org/wiki/Victor_Kac)
 
 category: people
+[[!redirects V. G. Kac]]
+[[!redirects Victor G. Kac]]
