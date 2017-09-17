@@ -23,7 +23,7 @@ For example, a cofree coalgebra on a [[vector space]] $V$ consists of a coalgebr
 
 ## Constructions 
 
-The forgetful functor $U \colon Coalg(M) \to M$ [[preserved colimit|preserves]] and [[reflected colimit|reflects]] (creates) any [[colimits]] which happen to exist, analogous to the fact that the forgetful functor $Alg(M) \to M$ preserves and reflects [[limits]]. Therefore, under hypotheses of an [[adjoint functor theorem]] (which almost always obtain in cases of practical interest), $U$ will indeed have a right adjoint. 
+The [[forgetful functor]] $U \colon Coalg(M) \to M$ [[preserved colimit|preserves]] and [[reflected colimit|reflects]] ([[created limit|creates]]) any [[colimits]] which happen to exist, analogous to the fact that the forgetful functor $Alg(M) \to M$ preserves and reflects [[limits]]. Therefore, under hypotheses of an [[adjoint functor theorem]] (which almost always obtain in cases of practical interest), $U$ will indeed have a [[right adjoint]]. 
 
 ### Modules over a commutative ring 
 
