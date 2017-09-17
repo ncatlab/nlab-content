@@ -1,3 +1,4 @@
+
 # Extended real numbers
 * table of contents
 {: toc}
@@ -6,7 +7,7 @@
 
 An extended real number is usually a [[real number]], but it might be $\pm\infty$.  We can also think of an extended real number as a number of the form $\log(1/t - 1)$ for $t \in [0,1]$ (including $t = 0,1$) or a number of the form $\tan t$ for $t$ a real number (including an odd multiple of $\pi/2$).
 
-There are actually two slightly different notions that both go by the name 'extended real number': one in which $\infty$ and $-\infty$ are distinct (the logarithm), and one in which they are identified (the tangent).  The latter kind forms a [[quotient set|quotient space]] of the former.
+There are actually two slightly different notions that both go by the name 'extended real number': one in which $\infty$ and $-\infty$ are distinct (the [[logarithm]]), and one in which they are identified (the [[tangent]]).  The latter kind forms a [[quotient set|quotient space]] of the former.
 
 
 ## Definitions
