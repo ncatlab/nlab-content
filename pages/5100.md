@@ -41,6 +41,8 @@ That's because I changed it at the same time as I responded to your initial comm
 
 The best place to discuss nLab pages is not here on the lab itself but on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum).  If you'd like to discuss this page further then that's the place to do it.
 
+Finn, I like your new version of the page better, but I am still pretty confused about Johnstone's choice of language in the Elephant.  But we can discuss it elsewhere.  Feel free to delete this conversation if you feel it is crufting up the page.  Thanks for your patience! -- [[Adam]]
+
 =--
 
 
