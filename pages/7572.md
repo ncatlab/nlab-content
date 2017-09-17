@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Heine-Borel theorem_ asserts that a [[subspace]] $S \subset \mathbb{R}^n$ of a [[Euclidean space]] is a [[compact topological space]] precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]].
+
+More generally, it says that a [[metric space]] is [[compact space|compact]] precisely if it is [[complete metric space|complete]] and [[totally bounded metric space|totally bounded]].
+
+## References
+
+The theorem is due to [[Eduard Heine]] and [[Émile Borel]].
+
+A proof is spelled out for instance at
+
+* [ProofWiki](http://www.proofwiki.org/wiki/Main_Page),  _Heine-Borel Theorem [(General case)](http://www.proofwiki.org/wiki/Heine-Borel_Theorem_%28General_Case%29),  [(Special case)](http://www.proofwiki.org/wiki/Heine-Borel_Theorem_%28Special_Case%29)_
