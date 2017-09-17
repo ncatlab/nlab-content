@@ -242,6 +242,25 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[inner fibration]]
 
+#### 2.3.1 Correspondences
+
+* [[correspondence]]
+
+* [[graph of a functor]], [[cograph of a functor]]
+
+#### 2.3.2 Stability properties of inner fibrations
+
+(...)
+
+#### 2.3.3 Minimal fibrations
+
+* [[minimal inner fibration]]
+
+#### 2.3.4 $n$-Categories
+
+* [[(n,1)-category]]
+
+* [[coskeleton]]
 
 
 ### 2.4 Cartesian fibrations
