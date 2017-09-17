@@ -1,8 +1,12 @@
-# Idea
+#Contents#
++ automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A [[geometric morphism]] is *locally connected* if it behaves as though its fibers are locally connected spaces.  In particular, a [[Grothendieck topos]] $E$ is [[locally connected topos|locally connected]] iff the unique morphism to $Set$ (the terminal Grothendieck topos, i.e. the [[point]] in the category of topoi) is locally connected.
 
-# Definition
+## Definition
 
 A geometric morphism $F \underoverset{f_*}{f^*}{\rightleftarrows} E$ is **locally connected** if it satisfies the following equivalent conditions:
 
@@ -12,11 +16,11 @@ A geometric morphism $F \underoverset{f_*}{f^*}{\rightleftarrows} E$ is **locall
 
 1. For any morphism $h\colon A\to B$ in $E$, the canonically defined transformation $f^* \circ \Pi_h \to \Pi_{f^*h} \circ f^*$ is an isomorphism.
 
-# Properties
+## Properties
 
 If $f$ is locally connected, then it makes sense to think of the left adjoint $f_!$ as assigning to an object of $F$ its "set of connected components" in $E$.  In particular, if $f$ is locally connected, then it is moreover [[connected geometric morphism|connected]] if and only if $f_!$ preserves the terminal object.  However, not every connected geometric morphism is locally connected.
 
-# References
+## References
 
 * Section C3.3 of the [[Elephant]]
 
