@@ -1,0 +1,17 @@
+
+## Definition
+
+The [[formal group]]  of the [[multiplicative group]] .
+
+Its formal group law $f(x,y) \in R[ [x,y] ]$ is
+
+$$
+  f(x,y) = x + y + x y
+  \,.
+$$
+
+## Related concepts
+
+* [[K-theory spectrum]]
+
+[[!redirects formal multiplicative groups]]
