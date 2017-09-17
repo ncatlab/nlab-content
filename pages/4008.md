@@ -9,7 +9,7 @@ A **connected limit** is a [[limit]] over a [[connected category]]. Similarly, a
 
 ## Connection with wide pullbacks
 
-A basic example of a connected limit is a [[wide pullback]], where the limit is taken over a diagram whose underlying shape is the [[poset]] obtained by adjoining a [[top element|terminal element]] to a [[set|discrete poset]]. 
+A basic example of a connected limit is a [[wide pullback]], where the limit is taken over a diagram whose underlying shape is the [[poset]] obtained by freely adjoining a [[top element|terminal element]] to a [[set|discrete poset]]. 
 
 +-- {: .un_lem}
 ######Lemma 
