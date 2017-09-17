@@ -185,6 +185,19 @@ By first applying various "completion" processes to syntactic categories before 
 
 But see [[Mitchell–Bénabou language]] for the version in a [[topos]].
 
+## Relation to categories of contexts
+
+One can formalize the construction of the internal language of a (suitable) category to a [[functor]]
+
+$$
+  Lan : Categories \to TypeTheories
+$$
+
+with values in suitable [[type theories]]. This is the [[right adjoint]] of an [[adjunction]] whose left adjoint is forming the [[category of contexts]] of a type theory.
+
+For more on this see there at _[Categorical semantics](http://ncatlab.org/nlab/show/type+theory#CategoricalSemantics)_.
+
+
 
 ## Examples
 
@@ -411,17 +424,29 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 
 ## References 
 
-* Most books on topos theory develop some internal logic, at least in the context of a topos.  For example:
+Most books on topos theory develop some internal logic, at least in the context of a topos.  For example:
 
 * [[Saunders Mac Lane]] [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
 
-* Goldblatt, "Topoi: the categorial analysis of logic" 
+* Goldblatt, _Topoi: the categorial analysis of logic_
 
-* Part D of [[Elephant|Sketches of an Elephant]] is comprehensive.
+Part D of
 
-* "Categorical Logic and Type Theory" by Jacobs works in the even more general context of [[Grothendieck fibration|fibrations]], allowing us to associate to each object $A$ an arbitrary poset instead of $Sub(A)$.
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-* Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of [[display morphisms]].
+is comprehensive.
+
+The book
+
+* Jacobs, _Categorical Logic and Type Theory_ 
+
+works in the even more general context of [[Grothendieck fibration|fibrations]], allowing us to associate to each object $A$ an arbitrary poset instead of $Sub(A)$.
+
+The book
+
+* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_ 
+
+is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of [[display morphisms]].
 
 A discussion of [[dependent type theory]] as the [[internal language]] of [[locally cartesian closed categories]] is in 
 
