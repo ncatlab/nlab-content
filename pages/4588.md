@@ -200,5 +200,11 @@ genEntry(x) =>
 
 The END.
 
++-- {: .query}
+
+[[Stephen Britton]]: Hello Rod. Welcome to the nLab! At the [discussion on the status of the database of categories](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1754&page=1#Item_0) you talked about using JavaScript, XML, and GreaseMonkey to do a database project. Are those the only things that I would need for a rapid prototype of the database? I ask because I am trying to get my hands dirty with the project early. Do you know of any links to good introductory material on JSON, XML, and databases? Will you please list them if you do? You stated in a previous comment that all browsers recognize JavaScript. Why is conversion between JavaScript and XML necessary? The answer may be obvious, but I have never used JavaScript and may need more details.  Please leave your comments [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1754&page=1#Item_0) as I check this discussion often. Thanks.
+
+=--
+
 category: people
 
