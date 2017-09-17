@@ -72,6 +72,8 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 * **preorder**
 
+  * [[upper bound]], [[lower bound]]
+
 * [[partial order]]
 
 * [[thin category]]
