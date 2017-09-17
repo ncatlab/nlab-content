@@ -205,7 +205,7 @@ A proof may be found [here](http://topologicalmusings.wordpress.com/2008/08/04/c
 The regular continued fraction for [[pi|Ludolph's number]] $\pi$ displays no regularity, but other types of continued fractions do. See [Wikipedia](http://en.wikipedia.org/wiki/Pi#Continued_fractions). 
 =-- 
 
-The popularity of certain rational approximations to [pi] such as $frac{22}{7}$ or $\frac{355}{113}$ can be explained by the fact that these are rational approximants obtained by truncating the regular continued fraction for $\pi$, coupled with the following result. 
+The popularity of certain rational approximations to [[pi]] such as $\frac{22}{7}$ or $\frac{355}{113}$ can be explained by the fact that these are rational approximants obtained by truncating the regular continued fraction for $\pi$, coupled with the following result. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
