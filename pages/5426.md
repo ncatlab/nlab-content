@@ -108,7 +108,7 @@ A similar construction exists in every [[cohesive (∞,1)-topos]]. See the discu
 
 An introduction to the general theor
 
-* [[Ludmil Katzarkov]], [[Tony Pantev]], [[Bertrand Toën]]], _Schematic homotopy types and non-abelian Hodge theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0107/0107129v5.pdf))
+* [[Ludmil Katzarkov]], [[Tony Pantev]], [[Bertrand Toën]], _Schematic homotopy types and non-abelian Hodge theory_, [math.AG/0107129](http://arxiv.org/abs/math/0107129)
 
 * [[Bertrand Toën]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
 {#Toen}
