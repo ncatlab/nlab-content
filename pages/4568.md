@@ -18,7 +18,7 @@ There are also many-sorted infinitary Lawvere theories, as well as $\kappa$-ary 
 
 ## Definitions
 
-A __many-sorted infinitary Lawvere theory__ is a [[locally small category]] $\mathcal{D}$ with all small [[products]] and a small collection $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.
+A __many-sorted infinitary Lawvere theory__ is a [[locally small category]] $\mathcal{D}$ with all small [[products]] and with a small collection $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.
 
 Given a small [[set]] $S$, an __$S$-sorted infinitary Lawvere theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an $S$-indexed family $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.  (Note that an $S$-indexed family of objects is precisely a [[functor]] to $\mathcal{D}$ from the [[discrete category]] on $S$.)
 
@@ -41,11 +41,12 @@ A __finitary Lawvere theory__ is a locally small pointed category $(\mathcal{D},
 
 See [the n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1673) for more preliminary results.
 
+
 ## Algebraic Categories
 
 +-- {: .un_lemma}
 ###### Conjecture
-A multi-sorted infinitary Lawvere theory $\mathcal{D}$ defines an [[algebraic category]] over [[Set]] by taking the [[functor category]] consisting of all **product-preserving** covariant functors from $\mathcal{D}$ in to $Set$.
+A multi-sorted infinitary Lawvere theory $\mathcal{D}$ defines a [[monadic category]] over [[Set]] by taking the [[functor category]] consisting of all **product-preserving** covariant functors from $\mathcal{D}$ in to $Set$.
 =--
 
 Let us write this functor category as $Prod[\mathcal{D},Set]$ and start by showing that it is a [[locally small category]].
