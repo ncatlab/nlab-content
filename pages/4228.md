@@ -45,6 +45,20 @@ $$
 ## Properties
 
 
++-- {: .un_prop}
+###### Proposition
+
+The [[category]] of [[convenient vector space]]s embeds as a [[full subcategory]] into the Cahiers topos.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+[Kock86](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)
+
+=--
+
 
 ## References
 
