@@ -63,7 +63,7 @@ Write $k[ [x] ]$ for the [[ring]] of [[formal power series]] in one
 variable over a [[field]] $k$. The ring $k[ [x] ]$ bears some resemblances
 with the category of [[pointed object|pointed]] [[homotopy type]]s (= pointed spaces up to [[weak homotopy equivalence]]s). The category of pointed
 homotopy types is a ring (the product is the [[smash product]]
-and the sum is the [[wedge]]).
+and the sum is the [[wedge sum]]).
 
 
 The following dictionary indicates what the correspondence between the two subjects is.
