@@ -599,7 +599,7 @@ contributions by J. E. McClure.
 
 A brief exposition appears as example 3.7 in 
 
-* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032), [slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf)).
+* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032), [slides](http://www.sandiego.edu/~shulman/papers/ccrtraces.pdf)).
  {#PontoShulman}
 
 
