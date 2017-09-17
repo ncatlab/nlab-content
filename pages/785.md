@@ -196,7 +196,7 @@ $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
 
 
-A useful class of example of this is implied by the following:
+A useful class of examples of this is implied by the following:
 
 +-- {: .num_prop }
 ###### Proposition
