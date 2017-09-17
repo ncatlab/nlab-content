@@ -1,4 +1,19 @@
-__Magnetohydrodynamics__ is a physical description of a charged fluid (typically plasma) in the presence of electromagnetic field. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+__Magnetohydrodynamics__ is a physical description of a charged fluid (typically a plasma) in the presence of an [[electromagnetic field]]. 
+
+## Related concepts
+
+* [[electromagnetism]]
+
+* [[hydrodynamics]]
+
+## References
 
 * wikipedia: [magnetohydrodynamics](http://en.wikipedia.org/wiki/Magnetohydrodynamics)
 
