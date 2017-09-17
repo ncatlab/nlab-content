@@ -1125,6 +1125,10 @@ recalled in
 * [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 {#Brylinski}
 
+which parallels 
+
+* [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
+{#Segal}
 
 [[!redirects synthetic differential ∞-groupoid]]
 [[!redirects synthetic differential ∞-groupoids]]
