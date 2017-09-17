@@ -9,21 +9,15 @@
 =--
 =--
 
-* **sheaf**
-
-* [[2-sheaf]] / [[stack]]
-
-* [[(∞,1)-sheaf]] / [[∞-stack]] 
 
 
-***
 
 #Contents#
 * tic
 {:toc}
 
 
-#Idea#
+## Idea
 
 A _sheaf_ is a [[presheaf]] that satisfies [[descent]].
 
@@ -42,7 +36,7 @@ $$
 
 A presheaf is a _sheaf_ if this canonical morphism is an [[isomorphism]], i.e. which is a [[local object]] with respect to [[local isomorphism]]s (or already for [[dense monomorphism]]s).
 
-#Remarks#
+**Remarks**
 
 * The [[vertical categorification|categorifications]] of sheaves are
   * [[stack|stacks]];
@@ -50,7 +44,7 @@ A presheaf is a _sheaf_ if this canonical morphism is an [[isomorphism]], i.e. w
 
 Here the [[descent]] set ($0$-category) is replaced by a [[descent]] [[category]] or $\infty$-[[infinity-category|category]]. Notably in the context of [[(infinity,1)-category]] theory the [[(infinity,1)-category of (infinity,1)-sheaves]] has literally the same definition as the [[category of sheaves]] itself as a [[geometric embedding]] into the corresponding collection of presheaves.
 
-#Definition#
+## Definition
 
 There are many different equivalent aspects of the definition of sheaf.
 
@@ -98,12 +92,10 @@ Conversely, every category of sheaves, hence every [[Grothendieck topology]] ari
 The notion of sheaf and of [[sheafification]] makes sense for presheaves with values in some classes of categories $A$ other than sets, notably for $A$ a [[Grothendieck category]]. Such [[abelian sheaf|abelian sheaves]] give rise to [[abelian sheaf cohomology]].
 
 
-##Remarks##
-
-* The definition of [[category of sheaves]] as [[geometric embedding]] into [[presheaf]] categories is the one that generalizes straightforward to an [[(infinity,1)-category|(infinity,1)-categorical]] context where it yields a notion of [[infinity-stack]] in terms of [[(infinity,1)-category of (infinity,1)-sheaves]].
+**Remark** The definition of [[category of sheaves]] as [[geometric embedding]] into [[presheaf]] categories is the one that generalizes straightforward to an [[(infinity,1)-category|(infinity,1)-categorical]] context where it yields a notion of [[infinity-stack]] in terms of [[(infinity,1)-category of (infinity,1)-sheaves]].
 
 
-#Explicit description#
+## Explicit description
 
 
 We now describe the derivation and the detailed description of various aspects of sheaves, the [[descent]] condition for sheaves and [[sheafification]], relating it to all the related notions
@@ -133,7 +125,7 @@ We now describe the derivation and the detailed description of various aspects o
   * [[local epimorphism]]
 
 
-## In terms of geometric embedding ##
+### In terms of geometric embedding 
 
 Here we start by assuming that a [[geometric embedding]] into a [[presheaf]] category is given and derive the consequences.
 
@@ -507,7 +499,7 @@ for $W \to U \times_X U$ a cover. For higher [[stack]]s the hypercover is in gen
 =--
 
 
-## In terms of sieves ##
+### In terms of sieves
 
 One formalization of the descent set is obtained from representing a cover $Y$ by the corresponding [[presheaf]] $S_Y : C^{op} \to Set$ -- a [[sieve]] -- and defining the descent set as
 
@@ -526,7 +518,7 @@ $$G(c) \stackrel{Yoneda}{\cong} Set^{C^{op}}(\hom(-, c), G) \stackrel{Set^{C^{op
 
 is an isomorphism.
 
-## In terms of orientals ##
+### In terms of orientals 
 
 When generalizing sheaves to  [[stack|stacks]] and then to  [[infinity-stack|infinity-stacks]] the Hom-set $Set^{C^{op}}(F, G)$ in the above definition, representing the descent set (0-category), needs to be generalized to a corresponding [[category]] or [[infinity-category]] [[functor category|of infinity-functors]] whose objects are the $\infty$-functors from the cover/sieve $F$ to the presheaf $G$, whose morphisms are homotopies between these, whose higher morphisms are the higher homotopies. The technical problem is to formalize these $\infty$-categories of $\infty$-functors. This is one of the central issues of [[higher category theory]].
 
@@ -584,7 +576,7 @@ From the above explicit characterization of $Desc(Y,G)$ this is manifestly the f
 
 
 
-#Examples#
+## Examples
 
 The archetypical example of sheaves are _sheaves of functions_:
 
@@ -593,7 +585,16 @@ The archetypical example of sheaves are _sheaves of functions_:
 * for $X$ a complex manifold and $\mathbb{C}$ a complex manifold, the assignment $U \mapsto C_{hol}{X,\mathbb{C}}$ of holomorphic functions in a sheaf.
 
 
-#References#
+## Related concepts
+
+* [[presheaf]] /  **sheaf** / [[cosheaf]]
+
+* [[2-sheaf]] / [[stack]]
+
+* [[(∞,1)-sheaf]] / [[∞-stack]] 
+
+
+## References
 
 The book by MacLane and Moerdijk has an emphasis on the [[topos]]-theoretic aspects of sheaves:
 
