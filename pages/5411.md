@@ -26,14 +26,14 @@ A _symmetric monoidal $(\infty,1)$-category_ is the analog of a [[symmetric mono
 
 ### Dualizable objects
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 An object $X$ in a symmetric monoidal $(\infty,n)$-category is called **dualizable** if ...
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Claim
 
 Let $C$ be a symmetric monoidal $(\infty,n)$-category. Then there exists another symmetric monoidal $(\infty,n)$-category $C^{fd}$ and a symmetric monoidal functor 
@@ -44,7 +44,7 @@ $$
 
 such that $C^{fd}$ has duals and is [[universal property|universal]] with these properties:
 
-for any symmetric monoidal $(\infty,n)$-category with duals $D$ and any symmetric monoidal functor $F : D \to C$ there exists a symmetric monoidal functor $f : D \to C^{fd}$, unique up to equivalence, and an equivalence
+for any symmetric monoidal [[(∞,n)-category with duals]] $D$ and any symmetric monoidal functor $F : D \to C$ there exists a symmetric monoidal functor $f : D \to C^{fd}$, unique up to equivalence, and an equivalence
 
 $$
   \array{
@@ -61,17 +61,17 @@ $$
 
 This appears as ([Lurie, claim 2.3.19](#Lurie)).
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 $C^{fd}$ is obtained from $C$ by discarding all objects that do not have duals and all [[k-morphism]]s that do not admit right and left adjoints. 
 
 =--
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
-An object $X \in C$ is called **fully dualizable** if it is in the essential [[image]] of $C^{fd} \to C$.
+An object $X \in C$ is called a **[[fully dualizable object]]** if it is in the essential [[image]] of $C^{fd} \to C$.
 
 =--
 
@@ -90,6 +90,11 @@ An object $X \in C$ is called **fully dualizable** if it is in the essential [[i
   * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
 * [[symmetric monoidal 2-category]]
+
+* [[(∞,n)-category with adjoints]]
+
+* [[(∞,n)-category with duals]]
+
 
 ## References
 
