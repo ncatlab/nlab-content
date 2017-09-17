@@ -89,7 +89,7 @@ Since this has
 
 * 6 non-degenerate edges
 
-* 6 non-degenerate faces
+* 4 non-degenerate faces
 
 the [[normalized chain complex]] of $\mathbb{Z}$ is of the form
 
