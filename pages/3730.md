@@ -20,7 +20,8 @@ While [[Riemann-Hilbert problem|Hilbert's 21st problem]] has a negative solution
 
 ## References
 
-For a survey see
+* [[Alain Connes]], [[Matilde Marcolli]] _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
 
 * Wikipedia, _[Riemann-Hilbert correspondence](http://en.wikipedia.org/wiki/Riemann%E2%80%93Hilbert_correspondence)_
 
