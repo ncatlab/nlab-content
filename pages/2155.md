@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -27,9 +27,9 @@ A __Cartesian space__ is a [[topological space]] of the form $\mathbb{R}^n$ equi
 the $n$-fold [[Cartesian product]] in [[Top]] of the [[real line]] $\mathbb{R}$ with itself where $n$ is some [[natural number]] (possibly zero). 
 Space $\mathbb{R}^n$ with its
 standard topology (and sometimes smooth structure) is also called __real $n$-dimensional space__ (distinguish from "real $n$-dimensional vector space" which is only isomorphic to it as a vector space). 
-
 =--
 
+One may also speak of the [[complexified]] cartesian space $\mathbb{C}^n$, or indeed of the cartesian space $K^n$ for any [[field]] $K$, or indeed for any [[set]] $K$, or indeed for any object $K$ of any [[cartesian monoidal category]].
 
 +-- {: .un_example}
 ###### Example
