@@ -1,29 +1,29 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 #### AQFT
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
 
+A basic characteristic of [[physics]] in the context of [[special relativity]] and [[general relativity]] is that causal influences on a [[Lorentzian manifold]] [[spacetime]] propagate in [[timelike]] or [[lightlike]] directions but not [[spacelike]].
 
+The fact that any two spacelike-separated regions of spacetime thus behave like [independent subsystems](http://ncatlab.org/nlab/show/quantum+mechanics#Subsystems) is called **causal locality** or **Einstein causality**.
 
-A basic characteristic of [[physics]] in the context of [[special relativity]] and [[general relativity]] is that causal influences on a [[Lorentzian manifold]] [[spacetime]] propagate [[timelike]] or [[lightlike]] but not [[spacelike]]. 
-
-The fact that any two spacelike separeted regions of spacetime thus behave like [independent subsystems](http://ncatlab.org/nlab/show/quantum+mechanics#Subsystems) is called **causal locality** or **Einstein causality**.
+(One sometimes sees a further criterion to causality, that the causal influences in timelike and lightlike directions only propagate into the [[future]], but this is not so simply dealt with; it probably only makes sense as a statement about coarse-grained [[entropy]] in [[statistical physics]].)
 
 For a formalization of this idea see for instance
 
 * [[local net of observables]].
 
 
+[[!redirects causal locality]]
 [[!redirects Einstein causality]]
 [[!redirects Einstein-causality]]
