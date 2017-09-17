@@ -1,4 +1,4 @@
-Leonhard Euler was a major Swiss mathematician of 18th century, working most of his life in St. Petersburg, Russia and Berlin, Prussia. He prolificly worked in all areas of mathematics known to that period and introduced first important theorems of topological content; he also worked on mathematical applications in physics (especially optics and hydrodynamics), astronomy and geodesy. 
+Leonhard Euler was a major Swiss mathematician of 18th century, working most of his life in St. Petersburg, Russia and Berlin, Prussia. He prolifically worked in all areas of mathematics known to that period and introduced the first important theorems of topological content; he also worked on mathematical applications in physics (especially optics and hydrodynamics), astronomy and geodesy. 
 
 * Wikipedia [Leonhard_Euler](http://en.wikipedia.org/wiki/Leonhard_Euler)
 
