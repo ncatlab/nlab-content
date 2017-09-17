@@ -119,6 +119,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[2-category]]
 * [[2-limit]]
 
+  * [[inverter]]
+
 #### B1.2 Indexed categories
 
 * [[pseudofunctor]]
