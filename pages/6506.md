@@ -1,13 +1,17 @@
-A place of a commutative unital ring has different meanings in the litterature:
 
-* the most common one is an equivalence class of (archimedean or non-archimedean) absolute value. An absolute value is a non-trivial multiplicative seminorm. This convention is often used in number theory, where it applies to number or function fields.
+A __place__ of a [[commutative unital ring]] has different meanings in the literature:
 
-* it can mean an equivalence class of (possibly higher rank) valuation. This convention is sometimes used in non-archimedean analytic geometry, after Zariski's work (Zariski-Riemann space).
+* The most common one is an equivalence class of (archimedean or non-archimedean) [[absolute value]]s. (An _absolute value_ is a non-trivial multiplicative [[seminorm]].) This convention is often used in [[number theory]], where it applies to [[number field|number]] or [[function fields]].
 
-* it can mean an equivalence class of morphism to fields. This convention is used in scheme theory, where a place is exactly the same thing as a prime ideal
-(easy proof).
+* It can mean an equivalence class of (possibly higher-rank) [[valuations]]. This convention is sometimes used in non-archimedean [[analytic geometry]], after Zariski's work (Zariski--Riemann space).
+
+* It can mean an equivalence class of morphism to [[fields]]. This convention is used in [[scheme]] theory, where a place is exactly the same thing as a [[prime ideal]] (easy proof).
+
+Other notions of places can be imagined, combining the three above classical examples.
 
 
-Other notions of places can be imagined, combining on the three above classical examples.
+The notion of place in number theory is interesting because it is at the heart of the geometric study of [[zeta function]]s. An improvement on this notion is given by the setting of [[global analytic geometry]], which includes trivial seminorms that allow a natural geometric definition of [[adele]]s and [[idele]]s.
 
-The notion of place in number theory is interesting because it is at the heart of the geometric study of zeta functions. An improvement on this notion is given by the setting of [[global analytic geometry]], that includes trivial seminorms which allows a natural geometric definition of adeles and ideles.
+
+[[!redirects place]]
+[[!redirects places]]
