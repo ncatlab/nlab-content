@@ -58,6 +58,11 @@ Lecture notes include
 
 * [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
 
+Definition in [[E-∞ geometry]] is in 
+
+* [[Jacob Lurie]], section 1.3 of _[[Quasi-Coherent Sheaves and
+Tannaka Duality Theorems]]_
+
 Some related MO questions: 
 
 * [why-is-this-not-an-algebraic-space](http://mathoverflow.net/questions/9043/why-is-this-not-an-algebraic-space), 
