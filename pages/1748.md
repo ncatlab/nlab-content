@@ -114,3 +114,5 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 [[!redirects left homotopy]]
 [[!redirects right homotopy]]
 [[!redirects homotopy (as a transformation)]]
+
+[[!redirects homotopies]]
