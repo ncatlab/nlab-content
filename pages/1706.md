@@ -272,6 +272,10 @@ If in  def. \ref{CatOfCobordismsWithXIStructure} one chooses $X = B SO(n) \times
 
 (...)
 
+### For noncompact cobordisms
+
+See [[Calabi-Yau object]] and [[TCFT]].
+
 ### For cobordisms with geometric structure
 
 A non-topological [[quantum field theory]] is a representation of a [[cobordism category]] for cobordisms equipped with extra [[stuff, structure, property]] that is "not just topological", meaning roughly not of the form of def. \ref{CatOfCobordismsWithXIStructure}. 
