@@ -31,7 +31,7 @@ $$
     & b' & \underset{u'}{\to}    & a'
   }
 $$
-proarrow
+
 and
 
 $$
