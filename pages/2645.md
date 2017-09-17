@@ -154,8 +154,8 @@ The notions of [[Lie group]], [[Lie algebra]], [[principal bundle]] and all the 
 
 ### In noncommutative geometry
 
-There is a [[noncommutative geometry|noncommutative]] analogue discussed in ([AlekseevMeinrenken2000](AlekseevMeinrenken)).
-.
+There is a [[noncommutative geometry|noncommutative]] analogue discussed in ([AlekseevMeinrenken2000](#AlekseevMeinrenken)).
+
 
 ## Examples and applications
 
@@ -296,4 +296,5 @@ Lecture notes with an eye on [[Morse theory]] in terms of [[supersymmetric quant
 
 Chern-Weil theory in the context of noncommutative geometry is discussed in
 
-* A. Alekseev, E. Meinrenken, _The non-commutative Weil algebra_, Invent. Math. __139__, n. 1, 135-172, 2000, [doi](http://dx.doi.org/10.1007/s002229900025) {#AlekseevMeinrenken}
+* A. Alekseev, E. Meinrenken, _The non-commutative Weil algebra_, Invent. Math. __139__, n. 1, 135-172, 2000, [doi](http://dx.doi.org/10.1007/s002229900025)
+ {#AlekseevMeinrenken}
