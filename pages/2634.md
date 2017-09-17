@@ -10,7 +10,7 @@
 
 ## In classical mechanics
 
-The simplest, so-called "natural", Hamiltonian of a [[dynamical system]] is the sum of the kinetic and potential energy:
+The simplest, so-called "natural", Hamiltonian (function) of a [[dynamical system]] is the sum of the kinetic and potential energy:
 \[ H = T + V. \]
 
 Knowing only $H$ as a function on [[phase space]] (so as a function of [[position]] $q^i$ and [[momentum]] $p_i$), we can derive other quantities as functions on phase space.  In particular, we have:
@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-The component $H \in End(\mathcal{H})$ of this canonical 1-form is the **Hamilton operator** of the system.
+The component $H \in End(\mathcal{H})$ of this canonical 1-form is the **Hamilton(ian) operator** (or the *quantum Hamiltonian*) of the system.
 
 Its [[parallel transport]] is the **time evolution** of quantum states. If $H$ is constant as a function on $\mathbb{R}$, this parallel transport assigns to the path $\gamma$ from $t_1$ to $t_2$ in $\mathbb{R}$ the map
 
