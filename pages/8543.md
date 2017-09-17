@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,13 +9,12 @@
 =--
 =--
 
-
 # Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 > This article is under construction.
+
 
 ## Conditional expectation relative to a random variable
 
@@ -44,7 +42,7 @@ where $g:y\mapsto E[X|Y=y]$. Here ''commutes'' shall mean that
 
 (2) the [[integrals]] over $X$ and $g\circ Y$ are equal.
 
-In this case $g=E[X|Y]$ is called a **version of the conditional expectation of $X$ provided $Y$**.
+In this case $g=E[X|Y]$ is called a version of the **conditional expectation of $X$ provided $Y$**.
 
 In more detail (2) is equivalent to that for all $B\in \Sigma$ we have
 
