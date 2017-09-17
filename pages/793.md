@@ -236,7 +236,11 @@ One special cases of T-duality is [[mirror symmetry]].
 
 * [[T-fold]]
 
-* [[U-duality]], [[S-duality]]
+* [[duality in string theory]]
+
+  * [[U-duality]], [[S-duality]]
+
+  * [[AdS/CFT correspondence]]
 
 ## References
 
