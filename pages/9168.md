@@ -1,8 +1,4 @@
 
-> This entry is about the type of [[field (physics)|field]] in [[physics]]. For a notion of this name in [[algebra]] see at _[[ground ring]]_.
-
-***
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,14 +9,13 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-In [[physics]] a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values, typically, in the [[real numbers]] or [[complex]] numbers, is called a **scalar field**.
-
+In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values in the [[field of scalars]], typically the [[real numbers]] or [[complex numbers]].
 
 
 ## Examples
@@ -36,4 +31,6 @@ In [[physics]] a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] whic
 
 * [[Higgs field]]
 
+
+[[!redirects scalar field]]
 [[!redirects scalar fields]]
