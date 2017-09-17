@@ -28,6 +28,8 @@ $\tilde N \to N$ out of a [[projective object]] which is a _[[superfluous epimor
 
 ## References
 
+* U. Shukla, _On the projective cover of a module and related results_, Pacific J. Math. Volume 12, Number 2 (1962), 709-717 ([Euclid](http://projecteuclid.org/euclid.pjm/1103036506))
+
 * Wikipedia, _[Projective cover](http://en.wikipedia.org/wiki/Projective_cover)_
 
 [[!redirects projective covers]]
