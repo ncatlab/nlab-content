@@ -25,7 +25,7 @@ $$
 
 as morphisms $(u,v) : f \rightarrow g$. We may also refer to a commutative square $g u=v f$ as a **lifting problem** between $f$ and $g$.
 
-We say a morphism $f$ has the **left lifting property** with respect to a morphism $g$, or the $f$ is **[[orthogonal]]** $f \perp g$ to $g$  , or equivalently that $g$ has the **right lifting property** with respect to $f$, if for every commutative square $(u,v) :f \rightarrow g$ as above,  there is an arrow $\gamma$ 
+We say a morphism $f$ has the **left lifting property** with respect to a morphism $g$ or equivalently that $g$ has the **right lifting property** with respect to $f$, if for every commutative square $(u,v) :f \rightarrow g$ as above,  there is an arrow $\gamma$ 
 
 $$
   \array{
@@ -41,6 +41,8 @@ $$
 
 
 from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles commute. We call such an arrow $\gamma$ a **lift** or a **solution** to the lifting problem $(u,v)$.
+
+(If this lift is unique, we say that $f$ is **[[orthogonal]]** $f \perp g$ to $g$.)
 
 ## Definition
 
