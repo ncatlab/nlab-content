@@ -20,11 +20,19 @@
 
 ## Idea
 
-One may think of classical [[homotopy theory]] as the study of the [[(∞,1)-category]] [[Top]] of [[topological space]]s, or rather of its [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(Top)$.
+As [[homotopy theory]] is the study of [[homotopy types]], so _stable homotopy theory_ is the study of [[stable homotopy types]]. As [[homotopy theory]] in generality is [[(∞,1)-category theory]] (or maybe [[(∞,1)-topos theory]]), so stable homotopy theory in generality is the theory of [[stable (∞,1)-categories]].
 
-To every [[(∞,1)-category]] is associated its corresponding [[stable (∞,1)-category]] of [[spectrum object]]s. For [[Top]] this is the [[stable (∞,1)-category of spectra]], $Sp(Top)$. **Stable homotopy theory** is the study of $Sp(Top)$, or rather of its [[homotopy category of an (infinity,1)-category|homotopy category]], the [[stable homotopy category]] $StHo(Top) := Ho(Sp(Top))$.
+More specifically, if one thinks of classical [[homotopy theory]] as the study of (just) the [[(∞,1)-category]] $L_{whe}$[[Top]] $\simeq$ [[∞Grpd]] of [[topological spaces]] modulo [[weak homotopy equivalence]] ([[∞-groupoids]]), or rather of its [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(Top)$, then stable homotopy theory is the study of the corresponding [[stabilization]]: To every suitable [[(∞,1)-category]] is associated its corresponding [[stable (∞,1)-category]] of [[spectrum objects]]. For $L_{whe}$[[Top]] this is the [[stable (∞,1)-category of spectra]], $Sp(L_{whe}Top)$. **Stable homotopy theory** is the study of $Sp(Top)$, or rather of its [[homotopy category of an (infinity,1)-category|homotopy category]], the [[stable homotopy category]] $Ho(Sp(L_{whe}Top))$.
 
-A tool of major importance in stable homotopy theory and its application to [[higher algebra]] is the [[symmetric monoidal smash product of spectra]] which allows us to describe [[A-∞ ring]]s and [[E-∞ ring]]s as ordinary [[monoid]] objects in a [[model category]] that presents $Sp(Top)$.
+By definition a [[stable homotopy type]] is on on which [[suspension]] and hence [[looping and delooping]] act as an [[equivalence]]. Historically people considered in plain [[homotopy theory]] phenomena statements that became true after sufficiently many [[suspensions]], hence once the process of taking [[suspensions]] "stabilizes". Whence the name.
+
+## Applications
+
+### Higher algebra
+
+The study of [[monoid object in a monoidal (infinity,1)-category]] in a [[stable (∞,1)-category]] is the [[homotopy theory|homotopy-theoretic]] version of [[commutative algebra]], hence _[[higher algebra]]_ and [[higher linear algebra]].
+
+A tool of central importance in stable homotopy theory and its application to [[higher algebra]] is the [[symmetric monoidal smash product of spectra]] which allows us to describe [[A-∞ rings]] and [[E-∞ rings]] as ordinary [[monoid]] objects in a [[model category]] that presents $Sp(Top)$. ("[[brave new algebra]]").
 
 
 
