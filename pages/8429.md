@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Gerhard_Gentzen)
+
+## Related pages
+
+* [[natural deduction]]
+
+* [[sequent]]
+
+category: people
