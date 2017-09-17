@@ -27,10 +27,19 @@ $$
   }
 $$ 
 
-for any choice of [[orthogonal structure]]. The **orientation double cover** of $X$ is bundle classified by the first [[Stiefel-Whitney class]]
+for any choice of [[orthogonal structure]]. The **orientation double cover** of $X$ is the $\mathbb{Z}_2$-[[principal bundle]] classified by the first [[Stiefel-Whitney class]] (of the [[tangent bundle]]) of $X$
 
 $$
   w_1(\hat T X) :  X \stackrel{\hat T X}{\to} B O \stackrel{w_1}{\to} B \mathbb{Z}_2
+  \,.
+$$
+
+One may identify this with the bundle that over eachh [[neighbourhood]] $x \in U \subset X$ of a point $x$ has as fibers the two different choices of [[volume forms]] up to positive rescaling (the two different choices of orientation).
+
+More generally, for $E \to X$ any [[orthogonal group]]-[[principal bundle]] classified by a morphism $E : X \to \mathbf{B} O$, the corresponding orientation double cover is the $\mathbb{Z}_2$-bundle classified by
+
+$$
+  w_1(E) : X \stackrel{E}{\to} \mathbf{B} O \stackrel{w_1}{\to} \mathbf{B} \mathbb{Z}_2
   \,.
 $$
 
