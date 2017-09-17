@@ -14,9 +14,11 @@ $$
 
 Notice that a crucial difference between the groupoid object $\mathcal{G}$ in $C$ and the geometric stack $X$ is that the equivalence class of the stack in general contains _more_ (geometric) stacks than there are groupoid objects internally equivalent to $\mathcal{G}$: two groupoid objects with equivalent geometric stacks are called **Morita equivalent** groupoid objects. 
 
-With $C$ fixed, instead of "geometric stack" one says, for instance
+## Special cases
 
-* for $C = $ [[Top]] -- topological stack;
+Geometric stacks for the following choices of sites $C$ are called
+
+* for $C = $ [[Top]] -- [[topological stack]];
 
 * for $C = $ [[Diff]] -- [[differentiable stack]];
 
@@ -25,7 +27,7 @@ With $C$ fixed, instead of "geometric stack" one says, for instance
 
 ## Definition
 
-There are slight variations in the literature on what particular is required of a [[stack]] $X$ on a [[site]] $C$  with [[subcanonical coverage|subcabonical topology]] in order that it qualifies as **geometric**. 
+There are slight variations in the literature on what prrecisely is required of a [[stack]] $X$ on a [[site]] $C$  with [[subcanonical coverage|subcabonical topology]] in order that it qualifies as **geometric**. 
 
 A general requirement is that
 
