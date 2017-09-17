@@ -29,18 +29,20 @@ For reference, a __classical well-order__ is any order satisfying the last defin
 
 ### Well-orders are linear 
 
-As stated above, well-founded extensional transitive relations $\prec$ on a set $X$ are linear, assuming classical logic. 
+As stated above, well-founded extensional transitive relations $\prec$ on a set $X$ are linear, assuming classical logic.
 
 +-- {: .proof}
-######Proof 
-Order $X \times X$ lexicographically: $(a, b) \prec (a', b')$ if either $a \prec a'$ in $X$ or $a = a'$ and $b \prec b$ in $X$. It is not hard to see that the lexicographic order is well-founded. Now let $A \subset X \times X$ be the set of pairs $(x, y)$ of distinct elements $x$ and $y$ that are incomparable in $X$, and suppose $A$ is nonempty. Then $A$ has a minimal element $(a, b)$. Then, for every $x \prec b$, either $a \preceq x$ or $x \preceq a$. If the former holds for some $x$, then $a \prec b$ follows by transitivity, contradiction. Hence $x \prec a$ for every $x \prec b$. Now let $a'$ be minimal such that $x \prec a' \preceq a$ for every $x \prec b$. Claim: 
+###### Proof
 
-$$\{x: x \prec a'\} = \{x: x \prec b\}.$$ 
+Order $X \times X$ [[lexicographic order|lexicographically]]: $(a, b) \prec (a', b')$ if either $a \prec a'$ in $X$ or $a = a'$ and $b \prec b$ in $X$. It is not hard to see that the lexicographic order is well-founded (and in fact a well-order, although we do not need this).  Now let $A \subset X \times X$ be the set of pairs $(x, y)$ of non-equal elements $x$ and $y$ that are incomparable in $X$, and suppose $A$ is inhabited. Then $A$ has a minimal element $(a, b)$ (using excluded middle). Then, for every $x \prec b$, either $a \preceq x$ or $x \preceq a$. If the former holds for some $x$, then $a \prec b$ follows by transitivity, contradiction. Hence $x \prec a$ for every $x \prec b$. Now let $a'$ be minimal such that $x \prec a' \preceq a$ for every $x \prec b$.
 
+Claim: 
+$$ \{x: x \prec a'\} = \{x: x \prec b\}. $$ 
 We know already the right side is contained in the left. In the other direction, suppose $x \prec a'$. Since $x \prec a$ and $(a, b)$ was chosen minimal in the lexicographic order, $x$ and $b$ are comparable. If $b \preceq x \prec a'$, this contradicts minimality of $a'$. Thus $x \prec b$, i.e., the left side is contained in the right. 
 
-But now, by extensionality, $a' = b$, whence $b \preceq a$, contradiction. Therefore $A$ was empty, so that $X$ is linear. 
+But now, by extensionality, $a' = b$, whence $b \preceq a$, contradiction. Therefore $A$ was empty, so that $X$ is [[connected relation|connected]] and therefore (being already transitive and irreflexive and using excluded middle again) a linear order.
 =-- 
+
 
 ## Examples
 
