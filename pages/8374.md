@@ -8,4 +8,8 @@
 
 * [[Hilbert's problems]]
 
+* [[Hilbert's theorem 90]]
+
+* [[Hilbert space]]
+
 category: people
