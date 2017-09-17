@@ -13,6 +13,8 @@ A [[vector space]]/[[module]] over the [[field]] of [[complex numbers]].
 
 * [[real structure]], [[complex structure]]
 
+* [[antilinear map]]
+
 * [[complexification]]
 
 * [[complex vector bundle]]
