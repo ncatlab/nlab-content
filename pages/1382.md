@@ -1,14 +1,19 @@
-<div class="rightHandSide toc">
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
-
-***
-
+=--
+#### Stable Homotopy theory
++--{: .hide}
 [[!include stable homotopy theory - contents]]
+=--
+=--
+=--
 
-</div>
 
-An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category]] for the [[stable (∞,1)-category of spectra]]. Sometimes this is called a [[commutative ring spectrum]].
+An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category]] for the [[stable (∞,1)-category of spectra]]. Sometimes this is called a [[commutative ring spectrum]]. An [[E-∞ algebra]] in [[spectra]].
 
 This means that an $E_\infty$-ring is an [[A-∞ ring]] that is commutative up to coherent higher homotopies.
 
