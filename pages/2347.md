@@ -41,7 +41,7 @@ The standard formalisms for classical mechanics are Newtonian mechanics, Lagrang
 
 ### Hamiltonian formalism and symplectic manifolds
 
-...
+(...) [[symplectic manifold]], [[Hamiltonian]]  (...)
 
 ###  Mechanical systems based on Poisson algebras
 
