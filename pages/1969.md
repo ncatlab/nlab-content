@@ -146,7 +146,7 @@ The matching morphisms are in fact [[isomorphisms]].
 +-- {: .num_defn}
 ###### Definition
 
-Let $C$ be a model category
+Let $C$ be a model category.
 
 1. For $X \in C$ any object, a _simplicial frame_ on $X$ is a factorization of $const X \to X^{\times^\bullet}$ into a weak equivalence followed by a fibration in the [[Reedy model structure]] $[\Delta^{op}, C]_{Reedy}$.
 
@@ -205,6 +205,17 @@ cofibrant$\to$fibrant $sSet$-hom objects as discussed
 [below](#EnrichedHomsCofToFib).
 
 This is discussed at _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Let $C$ be a model category, let $\mathrm{c}_\mathrm{w} C$ be the full subcategory of $[\Delta, C]$ spanned by the cosimplicial objects whose coface and codegeneracy operators are weak equivalences, and let $\mathrm{s}_\mathrm{w} C$ be the full subcategory of $[\Delta^{op}, C]$ spanned by the simplicial objects whose face and degeneracy operators are weak equivalences.
+
+1. $const : C \to \mathrm{c}_\mathrm{w} C$ is the right half of an adjoint homotopical equivalence of [[homotopical category|homotopical categories]], and $const : C \to \mathrm{s}_\mathrm{w} C$ is the left half of an adjoint homotopical equivalence of homotopical categories.
+2. The functor $\operatorname{diag} Hom_C : (\mathrm{c}_\mathrm{w} C)^{op} \times \mathrm{s}_\mathrm{w} C \to sSet$ admits a right [[derived functor]] (assuming $[\Delta, C]_{Reedy}$ has a cofibrant replacement functor and $[\Delta^{op}, C]_{Reedy}$ has a fibrant replacement functor).
+3. The induced functor $(\operatorname{Ho} C)^{op} \times \operatorname{Ho} C \to \operatorname{Ho} sSet$ is the derived hom-space functor.
 
 =--
 
