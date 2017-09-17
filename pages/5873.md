@@ -90,9 +90,12 @@ This is due to ([Seely, 1984a](#SeelyA)). For more details see _[[relation betwe
 
 * [[first-order hyperdoctrine]]
 
+* [[modal hyperdoctrine]]
+
 * [[coherent hyperdoctrine]]
 
 * [[Boolean hyperdoctrine]]
+
 
 ### Special cases
 
@@ -114,6 +117,8 @@ nontrivial $P(X)$, but a syntactically presented one".
 ## Related notions
 
 * [[tripos]]
+
+* [[modal hyperdoctrine]]
 
 ## References
 
