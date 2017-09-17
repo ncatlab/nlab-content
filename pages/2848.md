@@ -48,11 +48,16 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 
 ## Related concepts
 
-* [[type of propositions]]
+* [[type of propositions]], [[bracket type]], [[h-proposition]]
 
-* [[bracket type]]
+* [[theory]]
 
-* [[h-proposition]]
+* **proposition**/[[type]] ([[propositions as types]]) 
+
+* [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]], [[axiom]]
+
 
 [[!redirects proposition]]
 [[!redirects propositions]]
