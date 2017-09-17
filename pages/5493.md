@@ -27,7 +27,9 @@ The name 'sesquicategory' literally means $1\frac{1}{2}$-category, although they
 
 ## References
 
-See [this discussion](http://www.mta.ca/~cat-dist/catlist/1999/2-cats-without) on the categories list.
+* [this discussion](http://www.mta.ca/~cat-dist/catlist/1999/2-cats-without) on the categories list.
+
+* [[Ross Street]], _Categorical structures_, p. 529-577 in Handbook of Algebra, vol. 1, edited by M. Hazewinkel, Elsevier  1996.
 
 [[!redirects sesquicategory]]
 [[!redirects sesquicategories]]
