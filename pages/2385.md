@@ -143,43 +143,6 @@ The characterization of [[formally smooth scheme]] as above is also on that page
 
 See also online comments by [[David Ben-Zvi]]  [here](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023287) and [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c026218) on the $n$Caf&eacute;. and [here](http://mathoverflow.net/questions/10556/d-modules-derham-spaces-and-microlocalization) on MO.
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 [[!redirects deRham space]]
