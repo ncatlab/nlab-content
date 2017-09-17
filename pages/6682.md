@@ -3,6 +3,9 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Joseph_Polchinski)
 
+## books
+
+* _[[String theory]]_, Cambridge Monographs on Mathematical Physics
 
 ## related entries
 
