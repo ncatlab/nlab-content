@@ -23,7 +23,10 @@ To avoid this page getting too big, the SVGs and instructions themselves should 
 * [[Reidemeister move 2 - SVG]]
 * [[Reidemeister move 3 - SVG]]
 * [[figure 8 knot - SVG]] (also redirects from [[figure eight knot - SVG]])
-
+* [[SVG skein double crossing]]
+* [[SVG skein positive crossing]]
+* [[SVG skein negative crossing]]
+* [[SVG skein no crossing]]
 
 ### Functional Analysis
 
