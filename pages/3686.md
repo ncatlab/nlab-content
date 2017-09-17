@@ -87,6 +87,10 @@ The central extension results form the fact that the Hamiltonian associated with
 
 If $(X, \omega)$ is a [[symplectic vector space]] then there is corresponding to it a [[Heisenberg Lie algebra]]. This sits inside the Poisson bracket algebra, and accordingly the [[Heisenberg group]] is a subgroup of the group of (necessarily Hamiltonian) symplectomorphisms of the symplectic vector space, regarded as a symplectic manifold.
 
+### Relation to Lagrangian correspondences
+
+A symplectomorphisms $\phi \;\colon\; (X_1, \omega_1) \longrightarrow (X_2, \omega_2)$ canonically induces a [[Lagrangian correspondence]] between $(X_1, \omega_1)$ and $(X_2,\omega_2)$, given by its [[graph]]. 
+
 ### Extensions under geometric quantization
 
 [[!include geometric quantization extensions - table]]
