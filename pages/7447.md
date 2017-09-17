@@ -148,7 +148,8 @@ If $K$ is regular, so are the [[fibrational slice]]s $Opf(X)$ and $Fib(X)$.
 
 ### Regular completion
 
-(...)
+
+See at _[[2-congruence]]_ the section _[Regularity](http://ncatlab.org/nlab/show/2-congruence#Regularity)_.
 
 ## References
 
