@@ -20,7 +20,13 @@
 
 ## Idea
 
-A **Grothendieck's existence problem** is a question of [[representable functor|representability]] of a [[presheaf]] of sets (or sometimes of groups) on the category of [[affine scheme]]s (or some variant of it) as a [[scheme]] (or as an [[algebraic space]], [[Deligne-Mumford stack]] or some other algebraic variant of a space making the representability problem nontrivial...). In early days of [[scheme]] theory, at the end of 1950-s Grothendieck proved several major positive results of this sort, like the constructions of Hilbert, [[Quot scheme|Quot]] and Picard schemes, and the **Grothendieck's existence theorem** in [[formal geometry]] with major applications in [[deformation theory]]. Another major result of that sort is the [[Artin's representability theorem]] (and its infinity categorical version by [[Jacob Lurie]]). 
+A **Grothendieck's existence problem** is a question of [[representable functor|representability]] of a [[presheaf]] of sets (or sometimes of groups) on the [[category]] of [[affine schemes]] (or some variant of it) as a [[scheme]] (or as an [[algebraic space]], [[Deligne-Mumford stack]] or some other algebraic variant of a space making the representability problem nontrivial...). In early days of [[scheme]] theory, at the end of 1950-s Grothendieck proved several major positive results of this sort, like the constructions of Hilbert, [[Quot scheme|Quot]] and Picard schemes, and the **Grothendieck's existence theorem** in [[formal geometry]] with major applications in [[deformation theory]]. Another major result of that sort is the [[Artin's representability theorem]] (and its refined version in [[higher geometry]], the [[Artin-Lurie representability theorem]]). 
+
+## Related concepts
+
+* [[Artin representability theorem]]
+
+* [[Artin-Lurie representability theorem]]
 
 ## References
 
@@ -35,6 +41,8 @@ Articles on the original theorem include
 Discussion in [[E-∞ geometry]] is in 
 
 * [[Jacob Lurie]], section 5.3 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
+
+* [[Jacob Lurie]], _[[Representability theorems]]_
 
 [[!redirects Grothendieck's existence theorem]]
 [[!redirects Grothendieck's existence problem]]
