@@ -136,6 +136,22 @@ This shows that $A \otimes \mathbb{Z} \to A$ is in fact an [[isomorphism]].
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+The tensor product of abelian groups [[distributivity|distributes]] over the [[direct sum]] of abelian groups
+
+$$
+  A \otimes \oplus_{s \in S} B_s
+  \simeq
+  \oplus_{s \in S} ( A \otimes B_c )
+  \,.
+$$
+
+=--
+
+
+
 
 ### Monoids
 
@@ -171,6 +187,7 @@ $$
 This is precisely the [[distributivity law]] of the ring.
 
 =--
+
 
 ## Examples
 
