@@ -280,4 +280,8 @@ The super-$L_\infty$-version of the string $L_\infty$-algebra was considered in
 
 See also [[division algebra and supersymmetry]].
 
+Discussion of the string Lie 2-algebra as the homotopy fiber of the underlying 3-cocycle is around prop. 3.3.96 in
+
+* _[[schreiber:differential cohomology in a cohesive topos]]_
+
 [[!redirects string Lie 2-algebra]]
