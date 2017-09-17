@@ -23,7 +23,7 @@
 
 ## Idea
 
-There is a noticeable [[analogy]] between phenomena ([[theorems]]) in the theory of [[number fields]] and those in the theory of [[function fields]] ([Weil 39](#Weil39), [Iwasawa 69](#Iwasaw69), [Mazur-Wiles 83](#MazurWiles83)). When regarding [[number theory]] dually as [[arithmetic geometry]], then one may see that this analogy extends further to include in [[complex analytic geometry]] the theory of [[complex curves]] (e.g. [Frenkel 05](#Frenkel05)). 
+There is a noticeable [[analogy]] between phenomena ([[theorems]]) in the theory of [[number fields]] and those in the theory of [[function fields]] over [[finite fields]] ([Weil 39](#Weil39), [Iwasawa 69](#Iwasaw69), [Mazur-Wiles 83](#MazurWiles83)), hence between the theories of the two kinds of _[[global fields]]_. When regarding [[number theory]] dually as [[arithmetic geometry]], then one may see that this analogy extends further to include in [[complex analytic geometry]] the theory of [[complex curves]] (e.g. [Frenkel 05](#Frenkel05)). 
 
 For instance ([Weil 39](#Weil39)) defined an invariant of a [[number field]] -- the _[[genus of a number field]]_-- which is analogous to the [[genus of a curve|genus]] of the [[algebraic curve]] on which a given [[function field]] is the [[rational functions]]. This is such as to make the statement of the [[Riemann-Roch theorem]] for [[algebraic curves]] extend to [[arithmetic geometry]] ([Neukirch 92, chapter II, prop.(3.6)](#Neukirch92)).
 
