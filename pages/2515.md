@@ -44,3 +44,10 @@ with those of
 * H. Nishimura, _Supersmooth topoi_, International Journal of Theoretical Physics, Volume 39, Number 5 ([journal](http://www.springerlink.com/content/v2573726852x6470/))
 
 * H. Nishimura, _Synthetic theory of superconnections_, International Journal of Theoretical Physics, 39 ([journal](http://www.springerlink.com/content/m35085347gw88651/))
+
+The article
+
+* Anatoly Konechny, [[Albert Schwarz]], _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 { 486
+ {#KonechnySchwarz}
+ 
+considers manifolds with odd and even nilpotent functions: formal supermanifolds.
