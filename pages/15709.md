@@ -1,0 +1,11 @@
+__Iwasawa polynomial__ is a number theoretic analogue of the [[Alexander polynomial]]. 
+
+Relation between Alexander polynomial
+and Lefschetz (spectral) zeta function
+as analogous to the relation between Iwasawa polynomial
+and p-adic analytic zeta function. See chapter 12 in
+
+* Masanori Morishita, _Knots and primes: an introduction to arithmetic topology_, Springer 2012
+
+> A generator of the characteristic ideal of (the Pontryagin dual of the Selmer's subgroup) $Sel(X_\inf ,\rho)^\ast$, called
+the twisted Iwasawa polynomial, is an analogue of the twisted Alexander polynomial. 
