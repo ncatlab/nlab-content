@@ -73,6 +73,7 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * The [[Chu construction]] can be used to form many more examples of $*$-autonomous categories. 
 
+* A [[quantale]] (see there) is a $\ast$-autonomous category if it has a [[dualizing object]].
 
 ## References ##
 
