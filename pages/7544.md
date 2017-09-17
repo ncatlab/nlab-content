@@ -24,6 +24,13 @@ The notion of an _elementary (∞,1)-topos_ is the analog of the notion of _[[el
 
 This is in contrast to the notion of an _[[(∞,1)-topos]] [[equivalence of (∞,1)-categories|equivalent]] to an [[(∞,1)-category of (∞,1)-sheaves]]_, the analog of a [[sheaf topos]], which is more specific (see [[geometric homotopy type theory]]). 
 
+While every [[(∞,1)-sheaf]] [[(∞,1)-topos]] provides [[categorical semantics]] for [[homotopy type theory]] with a [[univalence|univalent]] Tarskian-[[type of types]] (and [[higher inductive types]]), one idea is roughly that elementary $(\infty,1)$-topos should be defined as the larger class which is exactly the [[categorical semantics]] for homotopy type theory in this sense. For more on this see at
+
+* _[[homotopytypetheory:model of type theory in an (infinity,1)-topos]]_
+
+* _[relation between type theory and category theory -- Univalent homotopy type theory and infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_ .
+
+
 ## References
 
 A proposal for a definition, with an eye towards [[homotopy type theory]] and the [[relation between type theory and category theory]] is on the very last slide of 
