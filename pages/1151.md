@@ -776,6 +776,12 @@ But this list of properties is essentially that of the <a href="http://ncatlab.o
 
 > ... needs to be expanded... 
 
+## Related concepts
+
+[[!include homotopy-homology-cohomology]]
+
+
+
 ## History and references {#References}
 
 
