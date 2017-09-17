@@ -36,7 +36,9 @@ A Calabi-Yau variety can be described algebraically as a [[smooth scheme|smooth]
 
 If the base field is $\mathbb{C}$, then one can form the analyticification of $X$ and obtain a [[compact space|compact]] [[manifold]] that satisfies the first given definition.
 
+## Examples
 
+* In [[dimension]] 2: [[K3 surface]].
 
 ## Related concepts
 
