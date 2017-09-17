@@ -22,11 +22,10 @@
 
 A _Weil cohomology theory_ is defined to be a [[cohomology theory]] on a suitable class of [[projective varieties]] which satisfies some natural set of [[axioms]] among which is notably [[Poincaré duality]].
 
-These axioms are named after [[André Weil]], who noticed that the existence of such a [[cohomology theory]] would already imply the [[Weil conjectures]] about the behaviour of the number of points in [[algebraic varieties]]
+These axioms are named after [[André Weil]], who noticed that the existence of such a [[cohomology theory]] would already imply the [[Weil conjectures]] about the behaviour of the number of points in [[algebraic varieties]].
 
-Examples of Weil cohomology theories, hence of [[cohomology theories]] satisfying these axioms, are
-
-* [[l-adic cohomology]]
+Examples of Weil cohomology theories, hence of [[cohomology theories]] satisfying these axioms, are the variants of [[étale cohomology]] known as
+_[[l-adic cohomology]]_ or better _[[pro-étale cohomology]]_.
 
 
 ## Related concepts
