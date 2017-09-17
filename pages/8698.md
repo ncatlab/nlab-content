@@ -27,7 +27,7 @@ Formal geometry is a highly overloaded term in mathematics, used in number of co
 
 * we work with functions on "manifolds" but the functions do not necessarily converge, the geometry is rather based on topological algebras of [[formal power series]]; this is the formal geometry of Grothendieck school and the main notion is that of a [[formal scheme]] (or more general ind-schemes). There are also noncommutative versions like [[Kapranov's noncommutative geometry]].
 
-* Gelfand's formal geometry: study infinitedimensional manifolds of [[jet space]]s and related objects coming from usual differential geometry, geometry of formal differential operators, study of related objects from homological algebra, including 
+* Gelfand's formal geometry: study infinite dimensional manifolds of [[jet bundles]] and related objects coming from usual differential geometry, geometry of formal differential operators, study of related objects from homological algebra, including 
 Gelfand's [[formal manifold]] (homological vector field)
 
 * we talk about neighborhoods,or localizations, morphisms of spaces, but not about spectra and points (a part of noncommutative geometry is done in such style) -- this is sometimes called "pseudogeometry"
