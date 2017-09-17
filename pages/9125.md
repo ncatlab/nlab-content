@@ -450,7 +450,7 @@ Definition \ref{FieldsInAnActionFunctional} provides a unified perspective on fi
 
 On the one hand, it almost explicitly says that in [[higher geometry]] all fields are "[[sigma-model]] fields" (see below at _[Examples -- Scalar and Sigma-model fields](#SclarModuliFields)_): if we regard the [[moduli ∞-stack]] $\mathbf{Fields}$ as the _[[target space]]_ then fields are simply maps from their domain (when regarded as [[spacetime]] _and_ [[background field]]) to this target space.
 
-On the other hand, we see below in _[Relation to sections of ∞-bundles](#RelationOfFieldsToSections)_ that from another perspective def. \ref{FieldsInAnActionFunctional} says that all fields are [[sections]] of an [[associated ∞-bundle]] to an  $\infty$-bundle modulated by the background fields. This means that in [[higher geometry]] all fields are "[[matter]] fields" (see below at _[Matter fields](#MatterFields)_) [[charged field|charged]] under the [[background gauge field]].
+On the other hand, we see below in _[Relation to sections of ∞-bundles](#RelationOfFieldsToSections)_ that from another perspective def. \ref{FieldsInAnActionFunctional} says that all fields are [[sections]] of an [[associated ∞-bundle]] to an  $\infty$-bundle modulated by the background fields. This means that in [[higher geometry]] all fields are "[[matter]] fields" (see below at _[Matter fields](#MatterFields)_) [[charge (physics)|charged]] under the [[background gauge field]].
 
 Finally, we see below in  _[Relation to twisted cohomology](#RelationToTwistedCohomology)_ that from yet another perspective def. \ref{FieldsInAnActionFunctional} says that fields are equivalently [[cocycles]] in general [[twisted cohomology]]. This perspective is traditionally known for certain examples (see _[Examples -- Chan-Paton gauge fields](#ChanPatonGaugeFields)_ below), but we see below that it is useful in its full generality. For instance the field of [[gravity]] is in a precise sense a 0-cocycle with coefficients in the [[coset space]] $GL(n)/O(n)$ that is twisted by the [[tangent bundle]] of spacetime (which exhibits the background gauge structure for [[gravity]]: the [[smooth structure]] of [[spacetime]]). An inkling of this perspective is certainly visible in the traditional literature, notably in the generalization to [[type II geometry]] and [[T-duality]], and here we see how this is a precise mechanism on the same conceptual footing with the twisted K-theory seen over D-branes.
 
@@ -500,7 +500,7 @@ In standard _[Examples](#Examples)_ discussed below we see that this is a famila
 In def. \ref{FieldsInAnActionFunctional} the [[background field]] $\Phi_X$ is a fixed datum of the domain ([[spacetime]]/[[worldvolume]]) on which the physical fields are defined. In some [[model (in theoretical physics)|models]] and for some of the fields this is precisely what one needs, but in other models one may need to be able to also regard the background fields as dynamical fields and to be able to switch between these perspectives, for instance to pass to a setup where what used to be a configuration of some field is now taken to be a fixed background field for the remaining fields. We now discuss how this more general setup is naturally formulated as a generalization of def. \ref{FieldsInAnActionFunctional}.
 
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{Fields} \colon \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields} \to \mathbf{BgFields}$ a morphism in $\mathbf{H}$, we may consider this also as an object in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$ (the [[(∞,1)-functor (∞,1)-category]] from the [[interval category]]/[[1-simplex]] to $\mathbf{H}$).
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{Fields} \colon \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields} \to \mathbf{BgFields}$ a morphism in $\mathbf{H}$, we may consider this also as an object in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$ (the [[(∞,1)-functor (∞,1)-category]] from the [[interval category]]/1-[[simplex]] to $\mathbf{H}$).
 
 A generic object in $\mathbf{H}^{(\Delta^1)}$ here is a morphism $\iota_X$ in $\mathbf{H}$. When we think of this as a domain on which to define fields we will write this
 
@@ -536,7 +536,7 @@ $$
 
 in $\mathbf{H}$.
 
-This we interpret as is a configuration consisting of 
+This we interpret as a configuration consisting of 
 
 1. a bulk field configuration $\phi_{bulk}$ 
 
@@ -544,8 +544,10 @@ This we interpret as is a configuration consisting of
 
 1. a [[gauge transformation]] that relates the restriction (or more generally: pullback to $X_{def}$) of the bulk field to the embedding (or more generally: push-forward) of the defect field into the bulk field configuration on the defect.
 
++-- {: .num_remark }
+###### Remark
 
-Notice that if $\phi_{bulk}$ is regarded as fixed, then this is equivalently a field configuration as in def. \ref{FieldsInAnActionFunctional} defined on $X_{def}$ and for background field the composite 
+If $\phi_{bulk}$ is regarded as fixed, then this is equivalently a field configuration as in def. \ref{FieldsInAnActionFunctional} defined on $X_{def}$ and for background field the composite 
 
 $$
   \Phi_{X_{def}}
@@ -558,6 +560,45 @@ $$
   \,.
 $$ 
 
+=--
+
+This "fixing of bulk fields to background fields for defect fields" we discuss in more detail below in _[Properties -- Moduli stacks of fields](#ModuliStacksOfFields)_.
+
+
+We formalize the moduli $\infty$-stack of all bulk and boundary fields as follows
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  \mathbf{H}^{(\Delta^1)}
+  \stackrel{\overset{Disc_{\mathbf{H}}}{\leftarrow}}{\underset{\Gamma_{\mathbf{H}}}{\to}}
+  \mathbf{H}
+$$
+
+for the canonical [[geometric morphism]].
+
+=--
+
++-- {: .num_defn #ModuliOfBulkAndBoundaryFields}
+###### Definition
+
+For $\iota_X ;\colon\; X_{def} \to X_{bulk}$ and $\mathbf{Fields} \;\colon\; \mathbf{Fields}_{def} \to \mathbf{Fields}_{bulk}$ morphisms in $\mathbf{H}$, we say that
+
+$$
+  [\iota_X, \mathbf{Fields}]_{\mathbf{H}}
+  \coloneqq
+  \Gamma_{\mathbf{H}}[\iota_X, \mathbf{Fields}]
+  \;\;
+  \in \mathbf{H}
+$$
+
+is the [[moduli ∞-stack]] of bulk and boundary fields on $\iota_X$.
+
+=--
+
 
 Several examples of this are discussed below.
 
@@ -565,6 +606,7 @@ Several examples of this are discussed below.
 
 
 ## Properties
+ {#FieldsProperties}
 
 The definition of fields in def. \ref{FieldsInAnActionFunctional} is in fact the central part of a general theory of _[[cohomology]]_ and _[[principal ∞-bundles]]_ in [[higher geometry]]/[[(∞,1)-topos theory]] and various insights into [[prequantum field theory]] follow by making this perspective explicit.  This is what we do here
 
@@ -646,10 +688,10 @@ $$
 
 =--
 
-These relation are discussed at _[[slice (∞,1)-topos]]_, and ([dcct, section 3.6.1](#dcct)).
+These relations are discussed at _[[slice (∞,1)-topos]]_, and ([dcct, section 3.6.1](#dcct)).
 
 
-+-- {: .num_remark #}
++-- {: .num_remark }
 ###### Remark
 
 Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic idea that a field $\phi \in [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}$ is 
@@ -657,6 +699,47 @@ Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic
 1. a configuration $\phi_X \;\colon\; X \to \underset{\mathbf{BgFields}}{\sum}\mathbf{Fields}$ on [[spacetime]]/[[worldvolume]] $X$;
 
 1. together with a [[gauge transformation]] $\kappa_{\phi} \;\colon\;  \Phi_X \stackrel{\simeq}{\to} \mathbf{Fields}\circ \phi_X$ between the fixed [[background field]] and the background field induced by $\phi_X$.
+
+=--
+
+More generally, the moduli $\infty$-stacks of combined bulk/boundary-defect fields as in def. \ref{ModuliOfBulkAndBoundaryFields} is characterized as follows.
+
++-- {: .num_prop #ModuliOfBulkAndDefectFieldsAsPullback}
+###### Proposition
+
+The moduli stack $[\iota_X, \mathbf{Fields}]_{\mathbf{H}}$ of bulk and defect fields in def. \ref{ModuliOfBulkAndBoundaryFields} sits in an [[(∞,1)-pullback diagram]]
+
+$$
+  \array{
+    [\iota_X, \mathbf{Fields}]_{\mathbf{H}}
+    &\to&
+    [X_{def}, \mathbf{Fields}_{def}]
+    \\
+    \downarrow && \downarrow^{\mathrlap{}}
+    \\
+    [X_{bulk}, \mathbf{Fields}_{bulk}]
+    &\stackrel{}{\o}&
+    [X_{def}, \mathbf{Fields}_{bulk}]
+  }
+  \,.
+$$
+
+=--
+
+The following proposition expresses that fixing a bulk field gives rise to a background field for the remaining defect fields
+
++-- {: .num_prop }
+###### Proposition
+
+For $\phi_{bulk} \;\colon\; X_{bulk} \to \mathbf{Fields}_{bulk}$ a given bulk field, there is a [[natural equivalence|natural]] [[equivalence in an (∞,1)-category|equivalence]]
+
+$$
+  [\iota_X^* \phi_{bulk}, \mathbf{Fields}]_{\mathbf{H}}
+  \simeq
+  [\iota_X, \mathbf{Fields}]_{\mathbf{H}}
+  \underset{[X_{bulk}, \mathbf{Fields}_{bulk}]}{\times} \{\phi_{bulk}\}
+  \,.
+$$
 
 =--
 
@@ -820,12 +903,18 @@ $$
   \mathbf{Fields} \colon * \stackrel{pt_Q}{\to} \mathbf{Fields}_{bulk}
 $$
 
-is the global point inclusion into the bulk field moduli (the trivial bulk field).  Then by the general formula for the hom in the arrow category we have
+is the global point inclusion into the bulk field moduli (the trivial bulk field).  By prop. \ref{ModuliOfBulkAndDefectFieldsAsPullback} it follows that
+
++-- {: .num_prop }
+###### Proposition
+
+There is a natural equivalence
 
 $$
   [\iota_X, pt_A]
   \simeq
   [X_{bulk}, A] \underset{[X_{def}, A]}{\times} {*}
+  \,,
 $$
 
 hence a [[homotopy fiber sequence]]
@@ -838,7 +927,15 @@ $$
   [X_{def}, A]
 $$
 
-This identifies $\pi_0 \Gamma[\iota_X, pt_A]$ as the $\iota_X$-relative $A$-cohomology of $X$.
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This identifies $\pi_0 \Gamma[\iota_X, pt_A]$ as the 
+$\iota_X$-[[relative cohomology relative A-cohomology]] of $X$.
+
+=--
 
 In general, if the defect fields are not trivial, the fields $\iota_X \to \mathbf{Fields}$ (hence ordinary cocycles in $\mathbf{H}^{(\Delta^1)}$) are a kind of cocycles in $\mathbf{H}$ that are relative cocycles in a twisted sense.
 
@@ -1827,7 +1924,7 @@ We describe here a variant of the particle propagating on a spacetime $X$, where
 
 Let $G$ be a [[simple Lie group]] which is connected, simply connected and [[compact Lie group|compact]].
 
-Let $\rho$ be an [[irreducible representation|irreducible]] [[unitary representation]] of $G$ under which the particle is to be [[charged particle|charged]]. By the [[Borel-Weil-Bott theorem]] this corresponds equivalently to a [[weight (in representation theory)|weight]]
+Let $\rho$ be an [[irreducible representation|irreducible]] [[unitary representation]] of $G$ under which the particle is to be [[charge (physics)|charged]]. By the [[Borel-Weil-Bott theorem]] this corresponds equivalently to a [[weight (in representation theory)|weight]]
 
 $$
   \langle \lambda, -\rangle
@@ -2096,6 +2193,8 @@ This is the famous gauge transformation law known from the string theory literat
   [[gauge field]]
 
 * [[extended Lagrangian]], [[prequantum n-bundle]], [[action functional]]
+
+* [[charge (physics)]]
 
 * [[theory (physics)]]
 
