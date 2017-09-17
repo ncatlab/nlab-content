@@ -53,6 +53,7 @@ The corresponding **Mayer-Vietoris sequence** is the [[fiber sequence]] of the i
 ## Properties
 
 ### General
+ {#GeneralProperties}
 
 +-- {: .num_prop #SequenceFromDiagonal}
 ###### Proposition
@@ -118,7 +119,7 @@ $$
   \,.
 $$
 
-+-- {: .num_cor}
++-- {: .num_cor #LongExactSequenceOfHomotopyGroups}
 ###### Corollary
 
 The corresponding [[long exact sequence of homotopy groups]] is of the form
@@ -416,6 +417,66 @@ $$
 Here the composite bottom morphism is $(f - g)$.
 
 =--
+
+## Examples
+
+### (Co)Homology of a cover 
+ {#CohomologyOfACover}
+
+A special case of the general Mayer-Vietoris sequence, corollary \ref{LongExactSequenceOfHomotopyGroups} -- which historically was the first case considered -- applies to the [[cohomology]]/[[homology]] of a [[topological space]] $X$ equipped with an [[open cover]] $\{U_1, U_2 \to X\}$.
+
+Being a [[cover]] means (see [[effective epimorphism in an (∞,1)-category]]) that there is a [[homotopy pushout]] [[diagram]] of the form
+
+$$
+  \array{
+    U \cap V &\hookrightarrow& U
+    \\
+    \downarrow && \downarrow
+    \\
+    V &\to& X
+  }
+$$
+
+in the [[(∞,1)-topos]] $\mathbf{H} = $ [[∞Grpd]]/[[Top]].
+ 
+When this is [[presentable (∞,1)-category|presented]] by the standard [[model structure on simplicial sets]] or in terms of [[CW-complex]]es by the [[model structure on topological spaces]], it is given by an ordinary [[pushout]]. 
+
+Let then $A \in \infty Grpd \simeq Top$ be some coefficient object, for instance an [[Eilenberg-MacLane object]] $\mathbf{B}^n G$ ([[Eilenberg-MacLane space]] $\cdots \simeq K(G,n)$) for the definition of ordinary [[singular cohomology]] with coefficients in an [[abelian group]] $G$.
+
+Then applying the [[derived hom space]] functor $\mathbf{H}(-, A) : \mathbf{H}^{op} \to \infty Grpd$ yields the [[(∞,1)-pullback]] [[diagram]]
+
+$$
+  \array{
+    \mathbf{H}(X, A) &\to& \mathbf{H}(U,A)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}(V,A) &\to& \mathbf{H}(U \cap V, A)
+  }
+$$
+
+to which we can apply the homotopical Mayer-Vietoris sequence. 
+
+Notice that (as discussed in detail at [[cohomology]]) the [[homotopy groups]] of the [[∞-groupoid]] $\mathbf{H}(X,\mathbf{B}^n G)$ are the [[cohomology groups]] of $X$ with coefficients in $G$
+
+$$
+  \pi_k \mathbf{H}(X, \mathbf{B}^n G)
+  \simeq
+  H^{n-k}(X, G)
+  \,.
+$$
+
+By the above [general properties](GeneralProperties) the above homotopy pullback is equivalent to 
+
+$$
+  \mathbf{H}(X,A) \to \mathbf{H}(U,A) \times \mathbf{H}(V,A)
+  \to \mathbf{H}(U \cap V, A) 
+$$
+
+being a [[fiber sequence]]. The corresponding long exact sequence in cohomology (as discussed above) is what is traditionally called the Mayer-Vietoris sequence of the cover of $X$ by $U$ and $V$ in $A$-cohomology.
+
+By duality (see [[universal coefficient theorem]]) an analogous statement holds for the [[homology]] of $X$, $U$ and $V$.
+
 
 ## References
 
