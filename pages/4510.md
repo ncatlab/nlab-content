@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the context of [[homological algebra]] the [[right derived functor]] of the [[hom-functor]] is called the _$Ext$-functor_ . It derives its name from the fact that the derived hom between [[abelian groups]] classifies [[group extensions]] of $A$ by $K$. (This is a special case of the general classificaton of [[principal ∞-bundles]]/[[∞-group extensions]] by general [[cohomology]]/[[group cohomology]].)
+In the context of [[homological algebra]] the [[right derived functor]] of the [[hom-functor]] is called the _$Ext$-functor_ . It derives its name from the fact that the derived hom between [[abelian groups]] classifies abelian [[group extensions]] of $A$ by $K$. (This is a special case of the general classificaton of [[principal ∞-bundles]]/[[∞-group extensions]] by general [[cohomology]]/[[group cohomology]].)
 
 Together with the [[Tor]]-functor it is one of the central objects of interest in homological algebra.
 
@@ -31,7 +31,7 @@ $$
   Ext^p(X,A) \coloneqq Hom_{D(A)}(X,A[p])
 $$
 
-or define $Ext^i$-groups as groups of extensions of length $i$, discussed below at _[Relation to extensions](#RelationToGroupExtensions)_.
+or define $Ext^i$-groups as groups of abelian extensions of length $i$, discussed below at _[Relation to extensions](#RelationToGroupExtensions)_.
 
 
 ## Definition
@@ -273,7 +273,7 @@ All these homomophisms are necessarily [[isomorphisms]], by the [[short five lem
 ###### Definition
 
 
-Write $Extensions(X,A)$ for the set of [[isomorphism classes]] of such extensions.
+Write $Ext(X,A)$ for the set of [[isomorphism classes]] of such extensions.
 
 =--
 
@@ -281,7 +281,7 @@ Write $Extensions(X,A)$ for the set of [[isomorphism classes]] of such extension
 +-- {: .num_prop}
 ###### Proposition
 
-Under [[Baer sum]] $Extensions(X,A)$ becomes an [[abelian group]].
+Under [[Baer sum]] $Ext(X,A)$ becomes an [[abelian group]].
 
 =--
 
@@ -336,7 +336,7 @@ The map from def. \ref{ExtractCocycleFromExtension}
 is a [[natural isomorphism]] of abelian groups
 
 $$
-  Extensions(X,A) \stackrel{\simeq}{\to} Ext^1(X,A) 
+  Ext(X,A) \stackrel{\simeq}{\to} Ext^1(X,A) 
   \,.
 $$
 
@@ -495,7 +495,10 @@ as well as
 
 * Patrick Morandi, _Ext Groups and Ext Functors_, ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
 
+Original articles include
 
+* [[Saunders MacLane]], _Group Extensions by primary abelian groups_, ransactions of the American Mathematical Society
+Vol. 95, No. 1 (Apr., 1960), pp. 1-16 ([JSTOR]( http://www.jstor.org/stable/1993327))
 
 See also
 
