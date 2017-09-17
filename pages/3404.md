@@ -23,6 +23,7 @@ In impredicative [[constructive mathematics]], we cannot intepret $\mathcal{P}X$
 
 category: category
 
+[[!redirects Sup]]
 [[!redirects SupLat]]
 [[!redirects Sup Lat]]
 [[!redirects InfLat]]
