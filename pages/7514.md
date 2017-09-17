@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,6 +17,12 @@
 ## Idea
 
 A [[manifold]], possibly infinite-dimensional, is called a _convenient manifold_ -- implicitly meaning: convenient for _[[differential geometry]]_ -- if it is modeled on a [[convenient vector space]].
+
+## Related concepts
+
+* [[Frechet manifold]]
+
+* [[ILH manifold]]
 
 ## References
 
@@ -18,4 +35,6 @@ A survey is for instance in the slides
 
 * Richard Blute, _Convenient Vector Spaces, Convenient Manifolds and Differential Linear Logic_ (2011) ([pdf](http://aix1.uottawa.ca/~rblute/FMCS.pdf))
  {#Blute}
+
+[[!redirects convenient manifolds]]
 
