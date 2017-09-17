@@ -17,4 +17,6 @@ A [[set]] equipped with a [[permutation representation]] of a ([[discrete group|
 
 * [[Borel model structure]]
 
+* [[Burnside ring]], [[Burnside category]]
+
 [[!redirects G-sets]]
