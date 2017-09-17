@@ -24,7 +24,7 @@ It is equivalent to the general form of [[Szpiro's conjecture]].
 
 ## References
 
-[[Shinichi Mochizuki]] recently anounced the proof which the mathematical community perceives as a serious but unchecked claim. 
+[[Shinichi Mochizuki]] recently anounced the proof which the mathematical community perceives as a serious but unchecked claim. See the references at _[[inter-universal Teichmüller theory]]_.
 
 At 
 
