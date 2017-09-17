@@ -41,9 +41,13 @@ which commutes up to specified isomorphism, where $e\in E$ and $m\in M$, has a d
 
   * $E=$ essentially surjective and [[full functors]], $M=$ [[faithful functors]].
 
+    restricted to [[Grpd]] $\subset$ [[Cat]] this is a special case of the [[n-connected/n-truncated factorization system]] on [[∞Grpd]] for $n = 0$.
+
   * $E=$ (possibly [[transfinite compositions|transfinite]]) composites of [[localizations]], $M=$ [[conservative functors]].
 
 * A 2-factorization system on [[Topos]] is [[geometric surjection/embedding factorization]].
+
+
 
 ## Cat-enriched factorization systems
 
@@ -75,6 +79,12 @@ and $M=$ [[fully faithful functors]].
 * Factorization systems in a 2-category play an important role in the construction of a [[proarrow equipment]] out of [[codiscrete cofibrations]].
 
 * Combining the (eso,ff) and (eso+full, faithful) factorization systems into a [[ternary factorization system]] has connections with the theory of [[stuff, structure, property]].
+
+## References
+
+For instance
+
+* [[Mathieu Dupont]], [[Enrico Vitale]], _Proper factorization systems in 2-categories_ ([pdf](http://breckes.org/dokumenty/propfactsys.pdf))
 
 [[!redirects factorization system on a 2-category]]
 [[!redirects factorization systems in a 2-category]]
