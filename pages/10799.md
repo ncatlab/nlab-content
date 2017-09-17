@@ -184,7 +184,7 @@ and indeed the idele topology coincides with the filtered colimit topology.
 Fully generally, let $k$ be a [[global field]]. Write $P$ for its [[set]] of [[places]] and $k_v$ for its [[formal completion]] at $v \in P$.
 
 +-- {: .num_defn #AsRestrictedProduct} 
-###### definition
+###### Definition
 
 The _ring of adeles_ of a [[global field]] $k$ is the [[restricted product]]
 
@@ -198,7 +198,13 @@ This is topologized in the same way as discussed [above](#ForAnyNumberField).
 
 =--
 
-Reviews includes ([Mathew 10](#Mathew10)).
+Reviews includes ([Mathew 10](#Mathew10)). 
+
+In the function field case, where $k$ is a finite extension of $\mathbb{F}_p(T)$, the analogous ring of integers $\mathcal{O}(k)$ is the [[integral closure]] of the subring $\mathbb{F}_p[T] \hookrightarrow \mathbb{F}_p(T)$ in $k$. And analogously, the ring of integer adeles $\mathbb{A}_{\mathcal{O}(k)}$ may be defined to be the product of all the completions of $\mathcal{O}(k)$ over all the places of $k$. This is a compact ring. The restricted direct product above map may, in parallel with the number field case described above, be described as a tensor product 
+
+$$\mathbb{A}_k = k \otimes_{\mathcal{O}(k)} \mathbb{A}_{\mathcal{O}(k)}$$ 
+
+where the right side is again interpreted as a colimit in the category of topological rings of a diagram consisting of compact topological rings and open inclusions between them. 
 
 
 ## Properties
