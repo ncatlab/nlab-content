@@ -3702,8 +3702,8 @@ $$
   }
 $$
 
-in $[CartSp_{smooth}^{op}, sSet]$, where the vertical map is given by remembering only the top horizontal morphism in the above square diagram, and the vertical morphism is given by
-forming the pasting composite
+in $[CartSp_{smooth}^{op}, sSet]$, where the vertical map is given by remembering only the top horizontal morphism in the above square diagram, and the horizontal morphism is given by
+forming the [[pasting]] composite
 
 $$
   curv_{smp} 
@@ -3743,7 +3743,7 @@ $$
 
 =--
 
-+-- {: .un_prop }
++-- {: .un_prop #CurvSmp}
 ###### Proposition 
 
 This span is a presentation in $[CartSp_{smooth}^{op}, sSet]$ of the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteritsics</a> $curv : \mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$.
@@ -4958,14 +4958,29 @@ $$
 =--
 
 
++-- {: .un_def}
+###### Definition
+
+Let $G \in Smooth \infty Grpd$ be an [[∞-group|n-group]] given by [Lie integration](#LieIntegration) of an [[L-∞ algebra]] $\mathfrak{g}$, in that the [[delooping]] object $\mathbf{B}G$ is presented by the $(n+1)$-[[simplicial skeleton|coskeleton]] [[simplicial presheaf]] 
+$\mathbf{cosk}_{n+1}\exp(\mathfrak{g})$.
+
+Then for $X \in [CartSp_{smootth}, sSet]_{proj}$ any object and $\hat X$ a cofibrant resolution, we say that 
+
+$$
+  [CartSp_{smooth}^{op},sSet](\hat X, \mathbf{cosk}_{n+1}\exp(\mathfrak{g})_{diff})
+$$
+
+is the [[Kan complex]] of **pseudo-$G$-[[connection on an ∞-bundle|n-connections]]. 
+
+=--
+
 #### $\infty$-Connections
 
 We discuss presentations in $[CartSp_{smooth}^{op}, sSet]$ of the
-the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWeilTheory">intrinsic notion of ∞-connections</a> in 
-$Smooth \infty Grpd$.
+the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWeilTheory">intrinsic notion of ∞-connections</a> in $Smooth \infty Grpd$.
 
 
-Let $\mathfrak{g} \in _\infty \stackrel{CE(-)}{\hookrightarrow} dgAlg^{op}$
+Let still $\mathfrak{g} \in _\infty \stackrel{CE(-)}{\hookrightarrow} dgAlg^{op}$ be an [[L-∞ algebra]].
 
 +-- {: .un_defn}
 ###### Definition
@@ -4973,9 +4988,9 @@ Let $\mathfrak{g} \in _\infty \stackrel{CE(-)}{\hookrightarrow} dgAlg^{op}$
 An **[[invariant polynomial]]** on $\mathfrak{g}$ is an element 
 $\langle - \rangle \in W(\mathfrak{g})$ such that
 
-* $\langle - \rangle \in \wedge^\bullet \mathfrak{g}[2] \hookrightarrow W(\mathfrak{g})$;
+* $\langle - \rangle \in \wedge^\bullet \mathfrak{g}^*[1] \hookrightarrow W(\mathfrak{g})$;
 
-* $d_W \langle - \rangle = 0$.
+* $d_{W(\mathfrak{g})}\; \langle - \rangle = 0$.
 
 Write $inv(\mathfrak{g}) \hookrightarrow W(\mathfrak{g})$ for the sub-dg-algebra of invariant polynomials.
 
@@ -5006,8 +5021,7 @@ in [[dgAlg]].
 +-- {: .un_defn}
 ###### Definition
 
-We say an invariant polynomial $\langle - \rangle$ on $\mathfrak{g}$ is **in transgression** with an $L_\infty$-algebra
-cocycle $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ if 
+We say an invariant polynomial $\langle - \rangle$ on $\mathfrak{g}$ is **in transgression** with an [[∞-Lie algebra cohomology|L-∞ algebra cocycle]] $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ if 
 there is a morphism $cs : W(b^{n-1}\mathbb{R}) \to W(\mathfrak{g})$
 such that we have a [[commuting diagram]]
 
@@ -5032,12 +5046,71 @@ $$
 We say that $cs$ is a **[[Chern-Simons element]]** 
 exhibiting the transgression between $\mu$ and $\langle - \rangle$.
 
+We say that an $L_\infty$-algebra cocycle is **transgressive**
+if it is in transgression with some invariant polynomial.
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+We have
+
+1. There is a transgressive cocycle for every invariant polynomial.
+
+1. Any two $L_\infty$-algebra cocycles in transgression 
+   with the same invariant polynomial are cohomologous.
+
+1. Every decomposable invariant polynomial 
+   (the wedge product of 
+   two non-vanishing invariant polynomials) transgresses 
+   to a cocycle cohomologous to 0.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+1. By the fact that the [[Weil algebra]]  is free, its
+[[cochain cohomology]] vanishes and hence the definition
+property $d_{W(\mathfrak{g})} \langle -\rangle = 0$ implies
+that there is some element $cs \in W(\mathfrak{g})$ such that
+$d_{W(\mathfrak{g})} cs = \langle - \rangle$. Then the image
+of $cs$ along the canonical dg-algebra homomorphism
+$W(\mathfrak{g}) \to CE(\mathfrak{g})$ is $d_{CE(\mathfrak{g})}$-closed hence is a cocycle on $\mathfrak{g}$.
+This is by construction in transgression with $\langle - \rangle$.
+
+1. Let $cs_1$ and $cs_2$ be Chern-Simons elements for the 
+   to given $L_\infty$-algebra cocycles. Then by assumption
+   $d_{(\mathfrak{g})} (cs_1 - cs_2) = 0 $. By the acyclicity of
+   $W(\mathfrak{g})$ there is then $\lambda \in W(\mathfrak{g})$
+   such that $cs_1 = cs_2 + d_{W(\mathfrak{g})} \lambda$.  
+   Since 
+   $W(\mathfrak{g}) \to CE(\mathfrak{g})$ is a dg-algebra 
+   homomorphism this implies that also
+   $\mu_1 = \mu_2 + d_{CE(\mathfrak{g})} \lambda|_{CE(\mathfrak{g})}$.
+
+1. Given to nontrivial invariant polynomials 
+   $\langle - \rangle_1$ and $\langle - \rangle_2$ let
+   $cs_1 \in W(\mathfrak{g})$ be any element such that
+   $d_{W(\mathfrak{g})}cs_1 = \langle - \rangle_1$.
+   Then  $cs_{1,2} := cs_1 \wedge \langle -\rangle_2$ satisfies
+   $d_{W(\mathfrak{g})} cs_{1,2} = 
+     \langle - \rangle_1 \wedge \langle -\rangle_2$. By the
+   first observation the restriction of $cs_{1,2}$ to 
+   $CE(\mathfrak{g})$ is therefore a cocycle in transgression
+   with $\langle - \rangle_1 \wedge \langle -\rangle_2$. But
+   by the definition of invariant polynomials the restriction of
+   $\langle - \rangle_2$ vanishes, and hence so does that 
+   of $cs_{1,2}$.
+   The claim the follows with the second point above.
+
 =--
 
 +-- {: .un_defn}
 ###### Definition
 
-Define $\exp(\mathfrak{g})_{ChW} \in [CartSp_{smooth}^{op}, sSet]$
+Define the [[simplicial presheaf]] $\exp(\mathfrak{g})_{ChW} \in [CartSp_{smooth}^{op}, sSet]$
 by the assignment
 
 $$
@@ -5063,65 +5136,134 @@ $$
        inv(\mathfrak{g})
      }
    \right\} 
-   \,.
+   \,,
 $$
 
-We call $\langle F_A \rangle$ the [[curvature characteristic forms]]s
+where on the right we have the set of horizontal morphisms in [[dgAlg]] making [[commuting diagram]]s with the canonical vertical morphisms as indicated.
+
+We call $\langle F_A \rangle$ the 
+**[[curvature characteristic forms]]**
 of $A$.
 
 =--
 
-This is the [[subobject]]
 
-$$
-  \exp(\mathfrak{g})_{ChW} \hookrightarrow
-   \exp(\mathfrak{g})_{diff}
-$$
-
-in $[CartSp_{smooth}^{op}, sSet]$ on those connections whose
-[[curvature characteristic form]]s are globally defined
-
-+-- {: .un_prop}
-###### Observation
-
-Whenever an $L_\infty$-algebra cocycle $\mu$ is in 
-transgression with an invariant polynomial $\langle - \rangle$
-we have have a lift of the [[characteristic class]] 
-$\exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{n-1}\mathbb{R})$ to 
-a differential characteristic class on
-$\exp(\mathfrak{g})_{ChW}$ that factors through
-$\exp(b^{n-1}\mathbb{R})_{ChW}$
+Let
 
 $$
   \array{
-    \exp(\mathfrak{g})_{ChW} &\stackrel{\exp(cs)}{\to}&
-    \exp(b^{b-1}\mathbb{R})_{ChW}
+    \exp(\mathfrak{g})_{diff}
+      & \stackrel{(\exp(\mu_i,cs_i))_i}{\to} &
+    \prod_{i}
+     \exp(b^{n_i-1}\mathbb{R})_{diff}
+     &\stackrel{((curv_i)_{smp})}{\to}&
+      \prod_i \mathbf{\flat}_{dR}\mathbf{B}^{n_i}_{smp}
+   \\
+   \downarrow^{\mathrlap{\simeq}}
+   \\
+   \exp(\mathfrak{g})
+  }
+$$
+
+be the presentation, as above, of the [[product]] of all
+differental refinements of characteristic classes on
+$\exp(\mathfrak{g})$ induced from Lie integration of 
+transgressive [[∞-Lie algebra cohomology|L-∞ algebra cocycles]].
+
+
+
++-- {: .un_prop #CharacterizationOfexpChW}
+###### Observation
+
+We have that $\exp(\mathfrak{g})_{ChW}$ is the 
+[[pullback]] in $[CartSp_{smooth}^{op}, sSet]$ of the globally defined closed forms along the curvature characteristics induced by all transgressive $L_\infty$-algebra cocycles:
+
+$$
+  \array{
+    \exp(\mathfrak{g})_{ChW} &\stackrel{\exp(\mu,cs)}{\to}&
+    \prod_{n_i} \Omega^{n_i + 1}_{cl}(-)
     \\
     \downarrow && \downarrow
     \\
-    \exp(\mathfrak{g})_{diff} &\stackrel{\exp(cs)}{\to}&
-    \exp(b^{b-1}\mathbb{R})_{diff}    
+    \exp(\mathfrak{g})_{diff} &\stackrel{(curv_i)_i}{\to}& 
+    \prod_i \mathbf{\flat}_{dR} \mathbf{B}^{n_i + 1} \mathbb{R}_{smp}
     \\
-    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \downarrow^{\mathrlap{\simeq}}
     \\
-    \exp(\mathfrak{g}) &\stackrel{\exp(\mu)}{\to}&
-    \exp(b^{n-1}\mathbb{R})
+    \exp(\mathfrak{g})
   }
   \,.
 $$
- 
 
 =--
 
-(...)
++-- {: .proof}
+###### Proof
 
+By the [above proposition](#CurvSmp) we have that the bottom
+horizontal morphims sends over each $(U,[k])$ 
+and for each $i$ an element
+
+$$
+  \array{
+    \Omega^\bullet_{si,vert}(U \times \Delta^k) 
+      &\stackrel{A_{vert}}{\leftarrow}&
+    CE(\mathfrak{g})
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet_{si}(U \times \Delta^k)
+     &\stackrel{A}{\leftarrow}&
+    W(\mathfrak{g})
+  }
+$$
+
+of $\exp(\mathfrak{g})(U)_k$ to the composite
+
+$$
+ \left( \;
+  \Omega^\bullet_{si}(U \times \Delta^k)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{cs_i}{\leftarrow}
+  W(b^{n_i-1} \mathbb{R})
+  \stackrel{}{\leftarrow}
+  inv(b^{n_i} \mathbb{R}) = CE(b^{n_i}\mathbb{R}))
+  \; \right)
+$$
+
+$$
+  = \left( \;
+      \Omega^\bullet_{si}(U \times \Delta^k)
+      \stackrel{\langle F_A\rangle_i}{\leftarrow}
+      CE(b^{n_i}\mathbb{R})
+    \; \right)
+$$
+
+regarded as an element in 
+$\mathbf{\flat}_{dR} \mathbf{B}^{n_i+1}_{smp}(U)_k$. The
+right vertical morphism 
+$\Omega^{n_i + 1}(U) \to \mathbf{\flat}_{dR}\mathbf{B}^{n_i+1}\mathbb{R}_{smp}(U)$ from the constant simplicial set of 
+closed $(n_i+1)$-forms on $U$ 
+picks precisely those of these elements for which
+$\langle F_A\rangle$ is a basic form on the $U \times \Delta^k$-bundle in that it is in the image of the pullback
+$\Omega^\bullet(U) \to \Omega^\bullet_{si}(U \times \Delta^k)$.
+
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+(...)
 
 * [[connection on an ∞-bundle]]
 
-
-#### Differential characteristic classes
-
 (...)
+
+=--
+
+
 
 ### Higher holonomy and Chern-Simons functional {#StrucChernSimons}
 
@@ -5166,7 +5308,7 @@ In [[SynthDiff∞Grpd]] we have [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s 
 
 ## References
 
-For references on [[differential geometry]] and [[Lie groupoid]]s, see there.
+For standard references on [[differential geometry]] and [[Lie groupoid]]s see there. 
 
 The $(\infty,1)$-topos $Smooth \infty Grpd$ is discussed in section 3.3 of
 
@@ -5175,6 +5317,8 @@ The $(\infty,1)$-topos $Smooth \infty Grpd$ is discussed in section 3.3 of
 A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ and the presentaton of the $\infty$-Chern-Weil homomorphism on these is in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
+
+For references on  [[∞-Chern-Weil homomorphism]] and [[connections on an ∞-bundle]], see there.
 
 The refined [[Lie group cohomology]] is discussed in
 
