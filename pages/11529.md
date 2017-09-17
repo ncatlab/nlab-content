@@ -1,0 +1,17 @@
+
+* [institute page](http://pisatheorygroup.pi.infn.it/staff/strocchi-franco)
+
+## some writings
+
+* _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 1913
+
+
+## related $n$Lab entries
+
+* [[quantum field theory]]
+
+* [[non-perturbative quantum field theory]]
+
+* [[AQFT]], [[Wightman axioms]]
+
+category: people
