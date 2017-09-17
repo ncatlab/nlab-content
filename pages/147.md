@@ -65,7 +65,7 @@ $$
   \,.
 $$
 
-as well as the[[direct image]] functor 
+as well as the [[direct image]] functor 
 
 $$
   f_* : Sh(X) \to Sh(Y)
