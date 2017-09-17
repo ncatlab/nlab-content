@@ -57,3 +57,23 @@ A morphism of $\Pi$-algebras is a natural transformation between the correspondi
 * The values of a $\Pi$-algebra $A$ are determined by the values $A_n = A(S^n)$, that it takes on the spheres, $S^n$, $n\geq 1$.
 
 *  A $\Pi$-algebra can be considered to be a graded [[group]] $\{A_n\}_{n=1}^\infty$ with $A_n$ abelian for $n\gt 1$, together with  
+   
+   * [[Whitehead product]] homomorphisms : 
+
+$$[-,-] : A_p\otimes A_q \to A_{p+q-1}$$
+
+for $p,q \geq 1$ (the case where they are equal to 1 needs special mention, see below.)
+     
+   * [[composition operation]]s, $-\cdot \alpha : A_p\to A_r$ for $\alpha \in \pi_r(S^p)$, 1\lt p\lt r$,
+
+which satisfy the identites that hold for the Whitehead products and composition operations on the higher homotopy groups os a pointed space, and
+
+   * a left action of $A_1$ on the $A_n$, $n\gt 1$, which commutes with these operations.
+
+## References
+
+* C.R. Stover, _A Van Kampen spectral sequence for higher homotopy groups_, Topology 29 (1990) 9 - 26.
+
+[[David Blanc]] has published a lot on these objects. An example is
+
+* [[David Blanc]], _Loop spaces and homotopy operations_, Fund. Math. 154 (1974) 75 - 95.
