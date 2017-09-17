@@ -66,6 +66,8 @@ Similar comments apply to [[type II superstring theory]], where $N=1$ target spa
 
 * [string theory FAQ -- What does it mean to say that string theory has a "landscape" of solutions?](string%20theory%20FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
 
+* [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
+
 ## References
 
 Original references include
