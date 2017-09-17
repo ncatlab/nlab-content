@@ -23,7 +23,7 @@ $$
   \,,
 $$
 
-hence if $F$ is a **full and faithful 2-functor**.
+hence if $F$ is a **2-fully-faithful 2-functor**.
 
 ## Properties
 
