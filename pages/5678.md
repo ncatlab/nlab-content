@@ -25,7 +25,7 @@ $$
   \Phi_\Sigma . \mathcal{K}(K) \to \mathcal{K}(K')
 $$
 
-between the Khovanov homoloies associated to the two knots.
+between the Khovanov homologies associated to the two knots.
 
 
 In ([Witten11](#Witten11)) it is argued, following indications in ([GukovSchwarzVafa05](GukovSchwarzVafa04)) that this 4d TQFT is related to the worldvolume theory of D3-[[brane]]s ending on NS5-[[brane]]s as they appear in the [[string theory|type IIA string theory]] [[spacetime]]. Earlier indication for this had come from the observation [Witten92](#Witten92) that Chern-Simons theory is the effective background theory for the [[A-model]] 2d [[TCFT]] (see <a href="http://ncatlab.org/nlab/show/TCFT#ActionFunctionals">TCFT -- Worldsheet and effective background theories</a> for details).
