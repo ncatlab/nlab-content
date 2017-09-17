@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Kenkichi_Iwasawa)
+
+## Related $n$Lab entries
+
+* [[function field analogy]]
+
+category: people
