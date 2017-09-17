@@ -88,7 +88,7 @@ $$
 
 To get rid of the dependence of this construction on $V$, we can let $V$ "grow arbitrarily large" by taking the [[colimit]] of the above $n$-fold cosimplicial spaces as $V$ ranges over the finite dimensional subspaces of $\mathbb{R}^\infty$.
 
-The resulting $n$-fold simplicial topological space obtained by this colimit then is essentially the [[(∞,n)-category]] $Bord_n$ that we are after. It turns out that it actually is an $n$-fold Segal soace. We just formally _complete_ it to an [[n-fold complete Segal space]]
+The resulting $n$-fold simplicial topological space obtained by this colimit then is essentially the [[(∞,n)-category]] $Bord_n$ that we are after. It turns out that it actually is an $n$-fold Segal space. We just formally _complete_ it to an [[n-fold complete Segal space]]
 
 $$
   Bord_n : (\Delta^{op})^n \to Top
