@@ -31,7 +31,9 @@ In the nonabelian case the proposed mechanism is no longer [[electric-magnetic d
 
 The abelian phenomenon is reviewed and expanded on in its relation to higher dimensional [[QFT with defects|defect]] [[quantum operators]] in section III. Generalization to the nonabelian case is then in section IV. An outlook on the relation to structures such as in [[geometric Langlands duality]] is in section V.
 
+Followups include
 
+* [[Anton Kapustin]], [[Ryan Thorngren]], _Topological Field Theory on a Lattice, Discrete Theta-Angles and Confinement_ ([arXiV:1308.2926](http://arxiv.org/abs/1308.2926))
 
 
 ***
