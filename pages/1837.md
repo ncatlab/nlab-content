@@ -19,7 +19,7 @@
 
 ## Idea 
 
-A _gauge theory_ may denote either a [[classical field theory]] or a [[quantum field theory]] whose field configurations are cocycles in [[differential cohomology]] ([[ordinary differential cohomology|abelian]] or [[Chern-Weil theory|nonabelian]]).
+A _gauge theory_ may denote either a [[classical field theory]] or a [[quantum field theory]] whose [[field configurations]] are [[cocycles]] in [[differential cohomology]] ([[ordinary differential cohomology|abelian]] or [[Chern-Weil theory|nonabelian]]).
 
 ### Ordinary gauge theories
 
