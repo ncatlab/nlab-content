@@ -25,7 +25,7 @@ The correctness of this definition (in the sense of matching [[Bourbaki]]\'s def
 
 ## Definitions
 
-### Abstract
+### Abstract description 
 
 If $S$ is a [[set]], let $\beta{S}$ be the set of [[ultrafilters]] on $S$. This set is canonically identified with the set of Boolean algebra homomorphisms 
 
@@ -64,11 +64,11 @@ S & \stackrel{u_S}{\to} & \beta S & & & & & & \beta \beta S & \stackrel{m_S}{\to
 Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction, in order to accommodate [[continuous functions]] between topological spaces (not continuous relations!) as the appropriate abstract notion of morphism between relational $\beta$-modules.  See [[generalized multicategory]] for a more generalized context. 
 
 
-### Concrete
+### Bridge to a concrete description 
 
 A __relational $\beta$-module__ is a [[set]] $S$ and a [[binary relation]] $\xi: \beta S \to S$ between [[ultrafilters]] on $S$ and [[elements]] of $S$ that satisfy the conditions (eq:rel1) . For $F \in \beta S$ and $x \in S$, we write $F \rightsquigarrow_\xi x$ if $(F, x)$ satisfies the relation $\xi$, or often just $F \rightsquigarrow x$ if the relation is clear. We pronounce this by saying "the ultrafilter $F$ _converges_ to the point $x$", so that $\xi$ plays the role of "notion of convergence". 
 
-Preliminary to explaining the conditions (eq:rel1), we first set up a Galois correspondence between $\xi \in Rel(\beta S, S)$ and subsets $\mathcal{C} \in P P(S)$, so that fixed points on the $P P(S)$ side are exactly topologies on $S$, and fixed points on the other side are (as we show below) relational $\beta$-module structures on $S$. 
+Preliminary to explaining the conditions (eq:rel1), we first set up a [[Galois connection]] between $\xi \in Rel(\beta S, S)$ and subsets $\mathcal{C} \in P P(S)$, so that fixed points on the $P P(S)$ side are exactly topologies on $S$, and fixed points on the other side are (as we show below) lax $\beta$-module structures on $S$. The Galois connection would then of course restrict to a Galois correspondence between topologies and lax module structures. 
 
 Recall that each topology $\mathcal{O} \subseteq P(S)$ induces a notion of convergence where $F \rightsquigarrow x$ means $N_x \subseteq F$ ($F$ contains the filter of neighborhoods of $x$). Accordingly, for general $\mathcal{C} \subseteq P(S)$, define the relation $conv(\mathcal{C}) = \xi: \beta S \to S$ by 
 
@@ -113,11 +113,11 @@ If $\mathcal{O}$ is a topology on $S$, then $\mathcal{O} = \tau(conv(\mathcal{O}
 We already have $\mathcal{O} \subseteq \tau(conv(\mathcal{O}))$ from Proposition \ref{galois}. For the other direction, we must show that any $V$ belonging to $\tau(conv(\mathcal{O}))$ is a neighborhood of each of its points. Suppose the contrary: that $x \in V$ but $V$ is not a neighborhood of $x$. Then for every neighborhood $U \in N_x$, we have $U \cap \neg V \neq \emptyset$, so that sets of this form generate a filter. Extend to an ultrafilter $F$; clearly we have $F \rightsquigarrow x$ and $\neg V \in F$, but since $F \rightsquigarrow x$ and $V \in \tau(conv(\mathcal{O}))$ and $x \in V$, we also have $V \in F$, which is inconsistent with $\neg V \in F$. 
 =-- 
 
-These propositions demonstrate that a topological space is a particular type of [[pseudotopological space]].  (A pseudotopological space is just a relational $\beta$-module which omits the "associativity" axiom.) 
+These propositions demonstrate that a topological space is a particular type of [[pseudotopological space]].  (A pseudotopological space is just a relational $\beta$-module which omits the "associativity" axiom.) All that remains is to check the unit condition 
 
 One of our goals is to prove the following theorem: 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #conc} 
 ###### Theorem 
 An arrow $\xi: \beta(S) \to S$ in $Rel$ is of the form $conv(\tau(\xi))$ if and only if the following inequalities are satisfied: 
 
@@ -126,9 +126,9 @@ $$1_S \leq \xi \circ prin_S, \qquad \xi \circ \beta(\xi) \leq \xi \circ m_S$$
 where $m_S: \beta \beta(S) \to \beta(S)$ is the multiplication on the ultrafilter monad. 
 =--
 
-### Ultrafilter functor on $Rel$ 
+## Ultrafilter functor on $Rel$ 
 
-We pause to examine more closely the extension of the ultrafilter functor $\beta: Set \to Set$ to $Rel$, showing in particular that the extension is a strict functor. First we slightly rephrase our earlier definition: 
+We now pause to examine more closely the extension of the ultrafilter functor $\beta: Set \to Set$ to $Rel$, showing in particular that the extension is a strict functor. First we slightly rephrase our earlier definition: 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -208,6 +208,26 @@ $$J = \beta(g)(G) \coloneqq \{C \subseteq Y: g^{-1}(C) \in G\}$$
 and similarly $h(B) \in J$. It follows that $g(A) \cap h(B) \in J$ so that $g(A) \cap h(B) \neq \emptyset$. Any element $y \in g(A) \cap h(B)$ can be written as $y = g(r)$ and $y = h(s)$ for some $r \in A$ and $s \in B$, and this completes the proof. 
 =-- 
 
+## Proof of theorem \ref{conc} 
+
+We now resume the main line of development. 
+
++-- {: .num_remark} 
+###### Remark 
+The following conditions are equivalent: 
+
+* $\xi = conv(\mathcal{C})$ for some $\mathcal{C} \subseteq P(S)$; 
+
+* $\xi = conv(\mathcal{O})$ for some topology $\mathcal{O} \subseteq P(S)$; 
+
+* $\xi = conv(\tau(\xi))$. 
+
+Indeed, $conv \circ \tau \circ conv = conv$ by general properties of Galois connections. Applying $conv \circ \tau$ to both sides of the first equation, we have 
+
+$$conv(\tau(\xi)) = (conv \circ \tau \circ conv)(\mathcal{O}) =  conv(\mathcal{O}) = \xi$$ 
+
+so the first equation implies the third. Which in turn implies the second, since we know that collections $\mathcal{O}$ of the form $\tau(\xi)$ are topologies. The second equation trivially implies the first. 
+=-- 
 
 ## Properties
 
