@@ -4,6 +4,12 @@
 
 </div>
 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
 ## Idea ##
 Recall that a [[TQFT]] is an [[FQFT]] defined on the $(\infty,n)$-[[(infinity,n)-category of cobordisms|category of cobordisms]] whose morphisms are plain cobordisms and diffeomorphisms between these.
 
@@ -13,7 +19,7 @@ A conformal field theory (CFT) is accordingly a functor on such a richer categor
 
 See the discussion at [[FQFT]] for more details.
 
-The low dimensional case of $2$-dimensional CFT is the least understood and the most interesting one. In d>2, the global transformations, i.e. the elements of the [[conformal group]], are given by the Poincare algebra, dilations and special conformal transformations. In $2$ dimensions, there are additionaly infinitely many local generators of conformal transformations whose commutation relations are given by the Virasoro algebra. In most of the literature, CFT is understood to be $2$-dimensional.
+The low dimensional case of $2$-dimensional CFT is the best understood and the most interesting one. In d>2, the global transformations, i.e. the elements of the [[conformal group]], are given by the Poincare algebra, dilations and special conformal transformations. In $2$ dimensions, there are additionaly infinitely many local generators of conformal transformations whose commutation relations are given by the Virasoro algebra. In most of the literature, CFT is understood to be $2$-dimensional.
 
 $2$-dimensional conformal field theories have two major applications:
 
@@ -26,11 +32,13 @@ In the former application it is mostly the _local_ behaviour of the CFT that is 
 In the [[string theory|string theoretic]] applications the extension of the local theory to a full representation of the 2d conformal cobordism category is crucial. This extension is called _solving the sewing constraints_ .
 
 ## Abstract ##
+
 In the definition paragraph we will show how to define a conformal field theory using the axiomatic approach of Wightman resp. Osterwalder-Schrader. There are several approaches to axiomatically define conformal field theory, the said approach is not the most "popular" or "elegant" one. There are two reasons to consider the Wightman approach however: If one is already familiar with the Wightman approach, it helps to put conformal field theories into context. The second reason is that several notions often used by physicists can be easily and rigorously defined and explained using this approach. Therefore, it may serve as a bridge between mathematicians and physics literature.    
 
-## Definition ##
+## 2d CFT on the plane ##
 
 ### Definition in Terms of the Osterwalder-Schrader Axioms ###
+
 A definition of conformal field theories can be formulated using the appropriate version of the [[Osterwalder--Schrader axioms]], that is by a system of axioms of the [[correlation functions]]. From the correlation functions it is then possible to deduce the existence of field operators in the sense of the [[Wightman axioms]], that is fields aka field operators are operator valued distributions. Both the Hilbert space and the field operators are therefore not defined in the axioms, but reconstructed from the correlations functions defined in the first three axioms.
 
 Let
@@ -230,7 +238,7 @@ The primary fields have an associative OPE.
 
 Many _formal_ calculations of physicists in CFT involving OPE can be justified by using [[vertex operator algebra]]s, so that [[vertex operator algebra]]s have become a standard way to formulate CFT.
 
-## Properties ##
+### Properties ###
 
 +-- {: .un_prop}
 ###### Proposition
@@ -240,6 +248,11 @@ G_{ij}(z_1, z_2) = C_{ij} (z_1 - z_2)^{-(h_i + h_j)} (\overline{z_1} - \overline
 $$
 with some constant $C_{ij} \in \mathbb{C}$.
 =--
+
+
+## 2d CFT on surfaces or arbitrary genus
+
+...
 
 ## Remarks ##
 
@@ -251,7 +264,16 @@ with some constant $C_{ij} \in \mathbb{C}$.
 
 ## References ##
 
-Useful references are at [[vertex operator algebra]].
+### CFT on the plane
+
+A textbook directed at mathematicians and explaining the "classical" concept of a CFT, i.e. without reference to categories, is this:
+
+* Martin Schottenloher: _A mathematical introduction to conformal field theory_ (2nd edition, [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1161.17014&format=complete))
+
+See also the references at [[vertex operator algebra]].
+
+
+### CFT on surfaces of arbitrary genus
 
 The special case of _rational_ conformal field theory has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--[[Ingo Runkel|Runkel]]--Schweigert
 
@@ -259,8 +281,6 @@ The special case of _rational_ conformal field theory has been essentially entir
 
 * [The FRS theorem of RCFT](http://golem.ph.utexas.edu/string/archives/000813.html)
 
-A textbook directed at mathematicians and explaining the "classical" concept of a CFT, i.e. without reference to categories, is this:
 
-* Martin Schottenloher: _A mathematical introduction to conformal field theory_ (2nd edition, [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1161.17014&format=complete))
 
 [[!redirects CFT]]
