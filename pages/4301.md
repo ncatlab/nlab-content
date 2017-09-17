@@ -27,3 +27,12 @@ $$
 ## Properties
 
 * For $A$ an [[associative algebra]], the underlying [[vector space]] of $A$ equipped with the commutator bracket is a [[Lie algebra]] $(A,[-,-])$.
+
+
+## Related concepts
+
+* [[Lie bracket]]
+
+* [[group commutator]]. [[commutator subgroup]]
+
+[[!redirects commutators]]
