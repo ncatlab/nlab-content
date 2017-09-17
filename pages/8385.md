@@ -84,7 +84,7 @@ $$
   (f^* \dashv f_*) : Sh(\mathcal{D},K) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
     Sh(\mathcal{C},J)
 $$
-where $f_*$ is the restriction of $f$ to sheaves.
+where $f_*$ is the restriction of $(-)\circ f$ to sheaves.
 =--
 
 For the classical definition of morphisms of sites, using representably-flat functors, this appears for instance as ([Johnstone, lemma C2.2.3, cor. C2.2.4](#Johnstone)).  We give the proof in this special case; for the general case see ([Shulman](#Shulman)).
@@ -98,7 +98,7 @@ Because for $\{U_i \to U\}$ a [[cover]] in $\mathcal{C}$ and $F$ a [[sheaf]] on 
 
 $$
   \begin{aligned}
-    PSh_{\mathcal{C}}( \lim_\to ( \coprod_{i, j} U_i \prod_{U} U_j)
+    PSh_{\mathcal{C}}( \underset{\to}{\lim} ( \coprod_{i, j} U_i \prod_{U} U_j)
     \stackrel{\to}{\to}
       \coprod_{i} U_i )
     \;,\;
@@ -129,7 +129,7 @@ $$
      \right)       
     \\
     & \simeq
-    PSh_{\mathcal{D}}( \lim_\to ( \coprod_{i, j} f(U_i) \prod_{f(U)} f(U_j))
+    PSh_{\mathcal{D}}( \underset{\to}{\lim} ( \coprod_{i, j} f(U_i) \prod_{f(U)} f(U_j))
     \stackrel{\to}{\to}
       \coprod_{i} f(U_i) )
     \;,\;
@@ -158,7 +158,7 @@ $$
 Here the first morphism preserves all limits, the last one all finite limits. Hence the composite preserves all finite limits if the left [[Kan extension]] $Lan_f$ does. This is the case if $f$ is a [[flat functor]].
 
 (Because the left [[Kan extension]] is given by the [[colimit]] 
-$Lan_f X : d \mapsto {\lim_{\to}}((f^{op}/d) \to {\mathcal{C}}^{op} \stackrel{X}{\to} Set)$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s. For more details on this argument see the discussion at <a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Geometric morphisms between presheaf toposes</a>.)
+$Lan_f X : d \mapsto {\underset{\to}{\lim}}((f^{op}/d) \to {\mathcal{C}}^{op} \stackrel{X}{\to} Set)$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s. For more details on this argument see the discussion at <a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Geometric morphisms between presheaf toposes</a>.)
 
 =--
 
