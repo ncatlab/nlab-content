@@ -11,6 +11,8 @@ Given a [[linear algebraic group]] $G$ (i.e. an algebraic subgroup of $GL(n,k)$ 
 
 * [[Schubert calculus]]
 
+* [[parabolic geometry]]
+
 ## References
 
 * eom [parabolic subgroup](http://eom.springer.de/p/p071270.htm)
