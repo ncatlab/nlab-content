@@ -73,19 +73,45 @@ Below in _[Properties](#Properties)_ we see that every $\rho$-associated $\infty
 
 ### General
 
-+-- {: .num_proposition #Classification}
++-- {: .num_prop #Classification}
 ###### Proposition
 
 For $V \in \mathbf{H}$, write $\mathbf{Aut}(V) \in Grp(\mathbf{H})$ for the internal [[automorphism ∞-group]] of $V$. This comes with a canonical action on $V$. Then the operation of sending an $\mathbf{Aut}$-[[principal ∞-bundle]] $P \to X$ to the associated $P \times_G V \to X$ establishes an equivalence
 
 $$
-  H^1(X, \mathbf{Aut}(V)) \simeq \{V-fiber\;$\infty$-bundles\}
+  H^1(X, \mathbf{Aut}(V)) \simeq \{V-fiber\;\infty-bundles\}
   \,.
 $$
 
+
 =--
 
-In this generality this is discussed in ([NSS, section I 4.1](#NSS)). 
+More specifically, if $\rho$ is an [[∞-action]] of $G$ on some $V \in \mathbf{H}$, then under the [[equivalence of (∞,1)-categories]]
+
+$$
+  G Act \simeq \mathbf{H}_{/\mathbf{B}G}
+$$
+
+it corresponds to a [[fiber sequence]]
+
+$$
+  \array{
+    V &\to& V//G
+    \\
+    && \downarrow^{\mathrlap{\overline{\rho}}}
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+in $\mathbf{H}$. This is the **universal $\rho$-associated $V$-bundle** in that for $P \to X$ any $G$-[[principal ∞-bundle]] modulated by $g \colon X \to \mathbf{B}G$ we have a natural equivalence
+
+$$
+  P \times_G V \simeq g^* \overline{\rho}
+  \,.
+$$
+
+This is discussed in ([NSS, section I 4.1](#NSS)). 
 
 
 ### Presentation in simplicial presheaves
@@ -190,3 +216,9 @@ For general [[(∞,1)-topos]] the classification of associated $\infty$-bundles 
 [[!redirects associated infinity-bundles]]
 [[!redirects associated ∞-bundle]]
 [[!redirects associated ∞-bundles]]
+
+[[!redirects universal associated infinity-bundle]]
+[[!redirects universal associated infinity-bundles]]
+[[!redirects universal associated ∞-bundle]]
+[[!redirects universal associated ∞-bundles]]
+
