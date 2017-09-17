@@ -1,0 +1,22 @@
+
+
++-- {: .num_theorem}
+###### Theorem
+**(Ostrowski)**
+
+Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent either to the standard [[real numbers|real]] absolute value, or to the [[p-adic numbers|p-adic]] absolute value.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+**(Ostrowski)**
+
+Any [[complete field|complete]] [[archimedean field]] is, as an [[associative algebra]] and as a [[topological space]], [[isomorphism|isomorphic]] to either the [[real numbers]] or the [[complex numbers]].
+
+=--
+
+[[!redirects Ostrowski theorem]]
+
+[[!redirects Ostrowski's theorems]]
+[[!redirects Ostrowski theorems]]
