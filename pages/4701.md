@@ -1,4 +1,6 @@
-_Jonathan M. Rosenberg_ is a mathematician working in [[noncommutative geometry]] and [[operator algebras]].
+_Jonathan M. Rosenberg_ is a mathematician working in [[noncommutative geometry]], [[algebraic K-theory]] and [[operator algebras]].
+
+He is an editor of the Journal of K-theory.
 
 * [homepage](http://www-users.math.umd.edu/~jmr)
 * [selected publications](http://www-users.math.umd.edu/~jmr/jmr_pub.html)
