@@ -123,7 +123,7 @@ where $\eta$ and $\varepsilon$ are the [[unit of an adjunction|unit]] and counit
 
 * In the [[derived category]] of chain complexes over $R$, an object is dualizable if it is quasi-isomorphic to one of the form above.  A similar argument shows that its Euler characteristic is then computed as in Def. \ref{EulerCharOfChainComplex}.
 
-The Euler characteristic of a topological space or $\infty$-groupoid can also be defined *directly* with this approach, without a detour into homology.  Namely, if $X$ is any [[Euclidean Neighborhood Retract]], such as a finite [[CW complex]] or a [[smooth manifold]], then its [[suspension spectrum]] $\Sigma_+^\infty X$ is dualizable in the [[stable homotopy category]].  Its dual is the [[Thom spectrum]] of its stable [[normal bundle]], with the unit of the duality being the [[Thom collapse map]].  Its categorical Euler characteristic is then an endomorphism of the sphere spectrum, which can be identified with an integer (via $\pi_0^s(S) = \mathbb{Z}$).
+The Euler characteristic of a topological space or $\infty$-groupoid can also be defined *directly* with this approach, without a detour into homology.  Namely, if $X$ is any [[Euclidean Neighborhood Retract]], such as a finite [[CW complex]] or a [[smooth manifold]], then its [[suspension spectrum]] $\Sigma_+^\infty X$ is dualizable in the [[stable homotopy category]].  Its dual is the [[Thom spectrum]] of its stable [[normal bundle]], with the unit of the duality being the [[Thom collapse map]].  Its categorical Euler characteristic is then an endomorphism of the sphere spectrum, which can be identified with an integer (via $\pi_0^s(S) = \mathbb{Z}$). See around [DoldPuppe, corollary 4.6](#DoldPuppe)).
 
 Since the categorical definition is purely in terms of the symmetric monoidal structure, Euler characteristics are preserved by any [[symmetric monoidal functor]] (as long as enough of its structure maps are isomorphisms).  Since chains and homology can be made into symmetric monoidal functors, it follows that all the ways of defining the Euler characteristic of a space agree.
 
@@ -339,6 +339,12 @@ For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic ma
 A standard textbook reference for topological Euler characteristics is page p. 156 and onwards in
 
 * E.H. Spanier, _Algebraic topology_ , McGraw-Hill  (1966)  
+
+The description of Euler characteristics are categorical [[trace]]s in [[symmetric monoidal categories]] is discussed in section 4 of
+
+* [[Albrecht Dold]], [[Dieter Puppe]], _Duality, trace and transfer_ , Proceedings of the Steklov Institute of Mathematics, (1984), issue 4
+ {#DoldPuppe}
+
 
 Textbooks on combinatorial aspects of Euler characteristic include
 
