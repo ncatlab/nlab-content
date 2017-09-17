@@ -22,7 +22,7 @@ So let an __extended Dedekind cut__ be a pair $(L,U)$ of sets of [[rational numb
 
 *  For each $a \in L$, there is some $b \in L$ such that $a \lt b$.
 *  For each $b \in U$, there is some $a \in U$ such that $a \lt b$.
-*  Whenever $a \lt b$ are rational numbers, either $a \in L$ or $b \in U$.
+*  Whenever $a \lt b$ are rational numbers, either $a \in L$ or $b \in U$ (non-exclusively).
 *  If $a \in L$ and $b \in U$, then $a \lt b$.
 
 (The usual slight variations available in the notion of Dedekind cut apply here as well, in the same ways.)
