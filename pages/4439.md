@@ -49,7 +49,13 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 ### More elementary
 
+* [[Jan Troost]], _[Beyond String Theory](http://www.phys.ens.fr/~troost/beyondstringtheory/index2.html)_ 
+
+  (rough survey for laymen)
+
 * [[Barton Zwiebach]], _A first course in string theory_, Cambridge University Press (2009)
+
+  (meant to be a course for undergraduates)
 
 * Katrin Becker, Melanie Becker, [[John Schwarz]], _String theory and M-theory: a modern introduction_,  Cambridge University Press (2006)
 
