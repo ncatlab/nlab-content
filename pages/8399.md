@@ -17,11 +17,11 @@
 
 In [[physics]], the term _general covariance_ is meant to indicate the property of a [[physical system]] or [[model (in theoretical physics)]] whose [[configuration space|configurations]], [[action functional]] and [[equations of motion]] are all [[equivariance|equivariant]] under the [[action]] of the [[diffeomorphism group]] on the [[smooth manifold]] underlying the [[spacetime]] or the [[worldvolume]] of the system. Here "covariance" is as in "[[covariant tensor]]" another term for behaviour under diffeomorphisms.
 
-The term _[[general relativity]]_ for [[Einstein]]-[[gravity]] originates in at least related ideas (see _[History and original formulation](HistoryAndOriginalFormulation)_ below), and Einstein-gravity is the archtypical example of a generally covariant physical system: 
+The term _[[general relativity]]_ for [[Einstein]]-[[gravity]] originates in at least closely related ideas (see _[History and original formulation](HistoryAndOriginalFormulation)_ below), and Einstein-gravity is the archtypical example of a generally covariant physical system: 
 
-here, the [[configuration space]] of fields over a [[smooth manifold]] $X$ is not quite the space of [[Riemannian metrics]] on $X$ itself, but is the [[quotient]] of this space by the [[action]] of the [[diffeomorphism group]] $Diff(X)$: two Riemannian metrics $g_1$ and $g_2$ on $X$ represent the same field of [[gravity]] on $X$ if there is a [[diffeomorphism]] $f : X \stackrel{\simeq}{\to} X$ such that $g_2 = f^* g_1$.
+here, the [[configuration space]] $[\Sigma,\mathbf{Fields}]$ of physical fields over a [[smooth manifold]] $\Sigma$ is not quite the space of [[Riemannian metrics]] on $X$ itself, but is the [[quotient]] $[\Sigma,\mathbf{Fields}]/\mathbf{Diff}(\Sigma)$ of this space by the [[action]] of the [[diffeomorphism group]] $\mathbf{Diff}(\Sigma)$: two Riemannian metrics $g_1$ and $g_2$ on $\Sigma$ represent the same field of [[gravity]] on $X$ if there is a [[diffeomorphism]] $f : X \stackrel{\simeq}{\to} X$ such that $g_2 = f^* g_1$.
 
-Or rather, such a diffeomorphism is a [[gauge transformation]] between the two field configurations. The configuration space is not the naive [[quotient]] of fields by diffeomorphisms, but is the [[homotopy quotient]], or _[[action groupoid]]_. In the physics literature this action groupoid is most familiar in its [[infinitesimal cohesion|infinitesimal approximation]], the corresponding [[Lie algebroid]], whose formal dual is a [[BRST complex]] whose degree-1 elements are accordingly called the _diffeomorphism ghosts_ (see there).
+Or rather, such a diffeomorphism is a [[gauge transformation]] between the two field configurations. The configuration space is not the naive [[quotient]] of fields by diffeomorphisms as above, but is the [[homotopy quotient]], or _[[action groupoid]]_, denotes $[\Sigma,\mathbf{Fields}]\sslash \mathbf{Diff}(\Sigma)$. In the physics literature this action groupoid is most familiar in its [[infinitesimal cohesion|infinitesimal approximation]], the corresponding [[Lie algebroid]], whose formal dual is a [[BRST complex]] whose degree-1 elements are accordingly called the _diffeomorphism ghosts_ (see there).
 
 As with all [[gauge transformations]], they relate physical configurations which may be nominally different, but [[equivalence|equivalent]],.
 Thereofore _general covariance_ is an instance of the general _[[principle of equivalence]]_ in mathematics which says that sensible statements about [[objects]] must respect the [[isomorphisms]] and more general [[equivalences]] between these objects. 
@@ -49,23 +49,84 @@ The idea of general covariance has a long and convoluted history and the literat
 
 We discuss how to formalize the notion of general covariance in [[homotopy type theory]], hence internal to any [[(∞,1)-topos]]. For exposition, background and further details on the discussion of [[classical field theory|classical]]/[[quantum field theory]] in this fashion see ([Schreiber, ESI lectures](#SchreiberLectures)) and ([Schreiber-Shulman](#SchreiberShulman)).
 
-### Introduction
+### Introduction 
 
-The fundamental idea of traditional [[dependent type theory]] is that [[terms]] and [[types]] may appear _in [[context]]_ of other types. The traditional interpretation of such a dependent type
+A basic idea of traditional [[dependent type theory]] is of course that [[types]] $A$ may appear _in [[context]]_ of other types $\Gamma$. The traditional interpretation of such a dependent type
 
 $$
   x : \Gamma \vdash A(x) : Type
 $$
 
-is simply that of a $\Gamma$-parameterized family [[bundle]] over types whose element over $x \in \Gamma$ is $A(X)$.
+is that of a $\Gamma$-parameterized family or _[[bundle]]_ of types, whose fiber over $x \in \Gamma$ is $A(X)$.
 
-But in [[intensional type theory]] and genuinely so in [[homotopy type theory]], the types themselves are [[homotopy types]] and a [[type in context]] is now in general something more refined than just a family of types. It is really a family of types _equipped_ with [[equivariance]] structure with respect to the [[homotopy groups]] of the context type.
+But in [[homotopy type theory]], types are [[homotopy types]] and, hence so are the contexts. A [[type in context]] is now in general something more refined than just a family of types. It is really a family of types equipped with _[[equivariance]]_ structure with respect to the [[homotopy groups]] of the context type.
 
 Hence in homotopy theory [[types in context]] generically satisfy an [[equivariance]]-principle.
 
-Specifically, if the context type is [[n-connected object in an (infinity,1)-topos|connected]] and [[pointed object|pointed]], then it is equivalent to the [[delooping]] $\Gamma \simeq \mathbf{B}G$ of an [[∞-group]] $G$. One finds -- this is discussed at _[[∞-action]]_ -- that the [[context]] defined by the type $\mathbf{B}G$ is that of $G$-[[equivariance]]: every type in the context is a type in the original context, but now equipped with a $G$-[[∞-action]]. Notably [[cohomology]] in the $\mathbf{B}G$-context is $G$-[[equivariant cohomology]], and so on.
+Specifically, if the context type is [[n-connected object in an (infinity,1)-topos|connected]] and [[pointed object|pointed]], then it is equivalent to the [[delooping]] $\Gamma \simeq \mathbf{B}G$ of an [[∞-group]] $G$. One finds -- this is discussed at _[[∞-action]]_ -- that the [[context]] defined by the type $\mathbf{B}G$ is that of $G$-[[equivariance]]: every type in the context is a type in the original context, but now equipped with a $G$-[[∞-action]]. In a precise sense, the homotopy type theory of $G$-$\infty$-actions is equivalent to plain homotopy type theory _in [[context]]_ $\mathbf{B}G$.
 
-In the following we discuss what happens if in homotopy type theory one passes to such an equivariant context in the case that $G$ is an [[automorphism ∞-group]]. We show that in this context the usual rules of homotopy type theory automatically induce the principle of general covariance and naturally procude configurations spaces of generally covariant field thoeries which interpreted in smooth models are [[Lie integrations]] of [[BRST complexes]] with diffeomorphism ghosts.
+In the following we discuss this for the case that $G$ is an [[automorphism ∞-group]] of a type $\Sigma$ which is regarded as representing [[spacetime]] or a [[worldvolume]]. We show that in this context the rules of homotopy type theory automatically induce the principle of general covariance and naturally produce configurations spaces of generally covariant field theories. When [[categorical semantics|interpreted]] in [[smooth infinity-groupoid|smooth models]] these configuration types are [[Lie integration|Lie integrations]] of [[BRST complexes]] whose higher-degree elements are the _diffeomorphism ghosts_. 
+
+More precisely we show the following.
+
++-- {: .num_defn}
+###### Definition
+
+Consider in homotopy type theory two types 
+$\vdash \Sigma, \mathbf{Fields} : Type$, to be called _spacetime_ and _field moduli_. Let 
+
+$$
+  \vdash \mathbf{B}\mathbf{Aut}(\Sigma) : Type
+$$
+
+be the image of name of $\Sigma$, with essentially unique term
+
+$$
+  \vdash \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)
+  \,.
+$$
+
+Perform the canonical context extension of $\Sigma$ and trivial context extension of $\mathbf{Fields}$ to get types in context
+
+$$
+  \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)
+  \vdash 
+  \Sigma : Type
+$$
+
+and 
+
+$$
+  \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)
+  \vdash 
+  \mathbf{Fields} : Type
+  \,.
+$$
+
+Form then the type of field moduli "$\mathbf{Conf} \coloneqq (\Sigma \to \mathbf{Fields})$" in this context:
+
+$$
+  \mathbf{Conf} \coloneqq 
+  \;\;\;\;\;
+  \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)
+  \vdash (\Sigma \to \mathbf{Fields}) : Type
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[categorical semantics]] of $\mathbf{Conf}$ in the model [[Smooth∞Grpd]] of the homotopy type theory and for $\Sigma \in $ [[SmoothMfd]] $\hookrightarrow Smooth \infty Grpd$ is given by the [[diffeological space|diffeological groupoid]] 
+
+$$
+  \mathbf{Conf} = [\Sigma, \mathbf{Fields}]\sslash \mathbf{Diff}(\Sigma)
+$$
+
+whose objects are field configurations on $\Sigma$ and whose morphisms are diffeomorphism gauge transformations between them. In particular the corresponding [[Lie algebroid]] is dual to the [[BRST complex]] of fields with diffeomorphism ghosts in degree 1.
+
+=--
 
 ### The ambient theory
 
@@ -98,7 +159,8 @@ $$
 hence the factorization by an  [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] followed by a [[monomorphism in an (infinity,1)-category|monomorphism]]:
 
 $$
-  * \stackrel{}{\to} \mathbf{B}\mathbf{Aut}(\Sigma) \hookrightarrow Type
+  * \stackrel{}{\to} \mathbf{B}\mathbf{Aut}(\Sigma) 
+    \stackrel{}{\hookrightarrow} Type
   \,.
 $$
 
@@ -106,15 +168,51 @@ In the standard [[categorical semantics|interpretation]] of the homotopy type th
 
 ### The context of general covariance
 
-Write then $\mathbf{B} \mathbf{Aut}(\Sigma) \in \mathbf{H}$ for the [[delooping]] of the diffeomorphism group.
-By the discussion at _[[∞-action]]_, the [[context]] of this type
+Write then $\mathbf{B} \mathbf{Aut}(\Sigma) \in \mathbf{H}$ for the [[delooping]] of the diffeomorphism group. The essentially unique [[term]] of this type is to be thought of as being $\Sigma$ itself, and so we 
+write it as
 
 $$
-  \Sigma : \mathbf{B} \mathbf{Aut}(\Sigma) \vdash \cdots
+  \vdash \Sigma : \mathbf{B} \mathbf{Aut}(\Sigma)
+  \,.
+$$
+
+By the discussion at _[[∞-action]]_, a [[type in context]] of $\mathbf{B}\mathbf{Aut}(\Sigma)$
+
+$$
+  \Sigma : \mathbf{B} \mathbf{Aut}(\Sigma) \vdash V(\Sigma)
+$$
+
+is a type $\vdash V : Type$ in the absolute context equipped with an $\mathbf{Aut}(\Sigma)$-[[∞-action]] $\rho : V \times \mathbf{Aut}(\Sigma) \to V$ on it. The [[dependent sum]] 
+
+$$
+  \vdash \sum_{\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)} V(\Sigma) : Type 
   \,,
 $$
 
-hence the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$ is the context of objects in $\mathbf{H}$ equipped with $G$-[[∞-actions]] and with $G$-[[equivariance|equivariant]] [[morphisms]] between them:
+which we also write
+
+$$
+  V \sslash \mathbf{Aut}(\Sigma)
+  \coloneqq 
+  \sum_{\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)}
+   V(\Sigma)
+  \,,
+$$
+
+is the total space of the universal [[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]]:
+
+$$
+  \array{
+     V &\to& \sum_{\mathbf{B}\mathbf{Aut}(\Sigma)} V(\Sigma)
+     \\
+      && \downarrow^{\overline{\rho}}
+     \\
+      && \mathbf{B}\mathbf{Aut}(\Sigma)
+  }
+  \,.
+$$
+
+Hence the [[categorical semantics|interpretation]] of the context $\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)$  is the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$ and equivalently is the [[(∞,1)-topos]] of objects in $\mathbf{H}$ equipped with $G$-[[∞-actions]] and of $G$-[[equivariance|equivariant]] [[morphisms]] between them:
 
 $$
   \mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}
@@ -123,13 +221,23 @@ $$
   \,.
 $$
 
-Hence a [[type in context]] $\mathbf{B}\mathbf{Aut}(\Sigma)$ is a "generally covariant type" with respect to $\Sigma$ in the sense that it transforms [[covariant functor|covariantly]] by equivalences under diffeomorphisms of $\Sigma$. Hence $\mathbf{B}\mathbf{Aut}(\Sigma)$ _is the [[context]] of general covariance_ with respect to $\Sigma$ -- in the precise formal sense.
+Hence a [[type in context]] $\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)$ is a "generally covariant type" with respect to $\Sigma$ in the sense that it transforms [[covariant functor|covariantly]] by equivalences under diffeomorphisms of $\Sigma$. In summary then
 
-In particular, $\Sigma$ itself is canonically equipped with the defining action of $\mathbf{Aut}(\Sigma)$ on it, exhibited by the universal  [[associated ∞-bundle|associated]] $\Sigma$-[[fiber ∞-bundle]]
+**Fact.** $\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)$ _is the **[[context]] of general covariance** with respect to $\Sigma$. 
+
+In the precise formal sense.
+
+In particular, $\Sigma$ itself is canonically equipped with the defining action of $\mathbf{Aut}(\Sigma)$ on it, which [[syntax|syntactically]] we may write
+
+$$
+  \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma) \vdash \Sigma : Type
+$$
+
+and which [[categorical semantics|semantically]] is exhibited by the universal  [[associated ∞-bundle|associated]] $\Sigma$-[[fiber ∞-bundle]]
 
 $$
   \array{
-    \Sigma &\to& \Sigma \sslash \mathbf{Aut}(\Sigma)
+    \Sigma &\to& \sum_{\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)} \Sigma
     \\
     && \downarrow^{\overline{\rho_{\Sigma}}}
     \\
@@ -138,25 +246,33 @@ $$
   \,,
 $$
 
-guven by the [[pullback]] of the [[universe]] $\widetilde Type \to Type$ along the [[monomorphism in an (infinity,1)-category|inclusion]] $\mathbf{B}\mathbf{Aut} \hookrightarrow Type$.
+given by the [[pullback]] of the [[universe]] $\widetilde Type \to Type$ along the defining [[monomorphism in an (infinity,1)-category|inclusion]] $\mathbf{B}\mathbf{Aut} \hookrightarrow Type$.
 
-Here the total space $\Sigma \sslash \mathbf{Aut}(\Sigma) = \sum_{\mathbf{B}G} \rho_\Sigma$ is the [[homotopy quotient]] or [[action groupoid]] of $\Sigma$ by $\mathbf{Aut}(\Sigma)$. This is the type characterized by the fact that a [[function]] $f : U \to \Sigma \sslash \mathbf{Aut}(\Sigma)$ is a function to $\Sigma$ which is regarded as ([[gauge equivalence|gauge]]) [[equivalence|equivalent]] to another function to $\Sigma$ if both differ by postcomposition with a diffeomorphism of $\Sigma$.
+Here the total space 
+
+$$
+  \Sigma \sslash \mathbf{Aut}(\Sigma) 
+  \coloneqq 
+  \sum_{\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma) } \Sigma
+$$ 
+
+is the [[homotopy quotient]] or [[action groupoid]] of $\Sigma$ by $\mathbf{Aut}(\Sigma)$. This is the type characterized by the fact that a [[function]] $f : U \to \Sigma \sslash \mathbf{Aut}(\Sigma)$ is a function to $\Sigma$ which is regarded as ([[gauge equivalence|gauge]]) [[equivalence|equivalent]] to another function to $\Sigma$ if both differ by postcomposition with a diffeomorphism of $\Sigma$.
 
 
 ### Generally covariant field configuration spaces
 
-Let 
+Let now
 
 $$
   \mathbf{Fields} \in \mathbf{H}
 $$ 
 
-be an object that represent the [[moduli ∞-stack]] of field configuration on $\Sigma$ for the given [[model (in theoretical physics)]]. For instance for $G \in Grp(\mathbf{H})$ an [[∞-group]] and $\mathbf{H}$ a [[cohesive homotopy type theory]], we could have $\mathbf{Fields} = \mathbf{B}G_{conn}$ the moduli for a choice of $G$-[[connection on an ∞-bundle|principel ∞-connection]], being the moduli for $G$-([[higher gauge theory|higher]])[[gauge fields]]. For general $\mathbf{Fields} = X \in \mathbf{H}$ we may always regard $X$ as the [[target space]] of a [[sigma-model]].
+be an object that represent the [[moduli ∞-stack]] of field configuration on $\Sigma$ for some [[model (in theoretical physics)]] to be described. For instance for $G \in Grp(\mathbf{H})$ an [[∞-group]] and $\mathbf{H}$ a [[cohesive homotopy type theory]], we could have $\mathbf{Fields} = \mathbf{B}G_{conn}$ the moduli for a choice of $G$-[[connection on an ∞-bundle|principel ∞-connection]], being the moduli for $G$-([[higher gauge theory|higher]])[[gauge fields]]. For general $\mathbf{Fields} = X \in \mathbf{H}$ we may always regard $X$ as the [[target space]] of a [[sigma-model]].
 
 Then the [[internal hom]] 
 
 $$
-  [\Sigma, \mathbf{Fields}] \in \mathbf{H}
+  \mathbf{Fields}(\Sigma) \coloneqq [\Sigma, \mathbf{Fields}] \in \mathbf{H}
 $$ 
 
 hence the [[function type]]
@@ -175,16 +291,33 @@ $$
   \stackrel{\overset{}{\leftarrow}}{\underset{\prod_{\mathbf{B}\mathbf{Aut}(\Sigma)}}{\to}}}
   \mathbf{H}
 $$
- 
-the moduli type $\mathbf{Fields}$ is freely moved to the general covariant context, where it is regaded as equipped with the [trivial ∞-action](infinity-action#TrivialAction). Accordingly we will write just $\mathbf{Fields} \in \mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$, with that action understood.
 
-We may then form the _configuration space of fields in the generally covariant context_ precisely by forming the internal space of fields
+which is [[context enlargement]] by $\mathbf{B}\mathbf{Aut}(\Sigma)$, 
+the the moduli type $\mathbf{Fields}$ is freely moved to the general covariant context, where it is regaded as equipped with the [trivial ∞-action](infinity-action#TrivialAction). Accordingly we will write just $\mathbf{Fields} \in \mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$ with that trivial action understood, which is justified by the precise syntactic expression for it:
 
 $$
-  \phi : \Sigma \sslash \mathbf{Aut}(\Sigma) \to \mathbf{Fields}
+  \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma) \vdash \mathbf{Fields} : Type
 $$
 
-in the general covariant context by
+We may then form the _configuration space of fields in the generally covariant context_ . As before, a field $\phi$ should be a function on $\Sigma$ with values in the moduli type of field configurations, but now we interpret this statement in the generally covariant context. Syntactically this simply means that a field is now a term in $\mathbf{B}\mathbf{Aut}(\Sigma)$-context
+
+$$
+  \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma) 
+  \vdash
+  \phi : \Sigma \to \mathbf{Fields}
+$$
+
+and that accordingly the configuration space of fields is 
+
+$$
+  \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma) 
+  \vdash
+  \Sigma \to \mathbf{Fields} : Type
+  \,.
+$$
+
+The [[categorical semantics|semantics]] of this is the 
+[[internal hom]] in the [[slice (∞,1)-topos]], the _[Internal hom of ∞-actions](infinity-action#CartesianClosedMonoidalStructure)_
 
 $$
   \mathbf{Conf} 
@@ -195,19 +328,7 @@ $$
   \,,
 $$
 
-hence by forming the [[type in context]]
-
-$$
-  \Sigma : \mathbf{B} \mathbf{Aut}(\Sigma)
-  \vdash
-  \Sigma \sslassh \mathbf{Aut}(\Sigma) \to X
-  : Type
-  \,.
-$$
-
-
-
-The central observation now is (discussed at [infinity-action -- Examples -- General covariance](infinity-action#GeneralCovariance)) that:
+The central observation now is that discussed at _[∞-action -- Examples -- General covariance](infinity-action#GeneralCovariance)_:
 
 $$
   \mathbf{Conf} \simeq [\Sigma,\mathbf{Fields}] \sslash \mathbf{Aut}(\Sigma)
@@ -215,11 +336,23 @@ $$
 
 is the [[homotopy quotient]] of the naive fields $\in \mathbf{Fields}(\Sigma)$ by the action of the [[diffeomorphism group]], exhibiting a [[gauge equivalence]] between any two field configurations that differ after pullback along a diffeomorphism.
 
+This is precisely as it should be for configuration space of generally covariant theories. We have found:
+
+**Fact**. In terms of homotopy type theory, configuration spaces of a generally coveriant theory over $\Sigma$ are precisely the ordinary configuration spaces of fields, but formed in the context $\mathbf{B}\mathbf{Aut}(\Sigma)$:
+
+$$
+  \mathbf{Conf} =_{def}
+  \;\;\;\;\;\;
+\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma) \vdash (\Sigma \to \mathbf{Field}) : Type
+  \,.
+$$
 
 
 ### Generally covariant field of gravity
 
-Specifically for pure [[gravity]], $\mathbf{H} = $ [[Smooth∞Grpd]] and  the fields are [[orthogonal structures]] ([[Riemannian metrics]]) on a [[smooth manifold]] $\Sigma \in $ [[SmoothMfd]] $\hookrightarrow \mathbf{H}$ of [[dimension]] $n$. As discussed at _[[orthogonal structure]]_ and _[[vielbein]]_, we are to regard $\Sigma$ in the [[context]] of the [[delooping]] of the [[general linear group]] $GL(n) \in Grp(\mathbf{H})$ via its [[tangent bundle]]
+We now spell out the example of ordinary [[Einstein]]-[[gravity]] in this language. Plenty of further examples work analogously.
+
+For pure [[gravity]], we chooce $\mathbf{H} = $ [[Smooth∞Grpd]] and  the fields are [[orthogonal structures]] ([[Riemannian metrics]]) on a [[smooth manifold]] $\Sigma \in $ [[SmoothMfd]] $\hookrightarrow \mathbf{H}$ of [[dimension]] $n$. As discussed at _[[orthogonal structure]]_ and _[[vielbein]]_, we are to regard $\Sigma$ in the [[context]] of the [[delooping]] of the [[general linear group]] $GL(n) \in Grp(\mathbf{H})$ via its [[tangent bundle]]
 
 $$
   (\Sigma \stackrel{T \Sigma}{\to} \mathbf{B} GL(n))
@@ -309,7 +442,7 @@ An attempt at a fairly comprehensive review of the history of the idea of genera
  {#Norton}
 
 
-### Formalizations
+### Formalizations of general covariance
  {#ReferencesFormalizations}
 
 A formalization in the context of [[AQFT]] is proposed and discussed in 
