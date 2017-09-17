@@ -223,7 +223,7 @@ Linearity of the composition in the first argument comes down to linearity of th
 +-- {: .num_remark }
 ###### Remark
 
-In fact $R Mod$ is even a [[closed category]], but this we do not need for showing that it is abelian.
+In fact $R Mod$ is even a [[closed category]], see prop. \ref{RModIsClosedMonoidal} below, but this we do not need for showing that it is abelian.
 
 =--
 
@@ -295,6 +295,67 @@ Using prop. \ref{RModHasKernelsAndCokernels} this is directly checked on the und
 =--
 
 Now cor. \ref{RModIsAdditive} and prop. \ref{InRModMonosAreKernelOfTheirCokernel} imply theorem \ref{RModIsAbelian}, by definition.
+
+### $R Mod$ is a closed monoidal category
+ {#RModIsClosedMonoidalCategory}
+
+Let $R$ be a [[commutative ring]].
+
++-- {: .num_defn #HomModule}
+###### Definition
+
+For $N_1, N_2 \in R Mod$, equip the [[hom-set]] $Hom_{R Mod}(N_1, N_2)$ with the structure of an $R$-module as follows: for all $f,g \in Hom_{R Mod}(N_1, N_2)$, all $n_1 \in N_1$ and all $r \in R$ set
+
+* $(f + g) \colon n_1 \mapsto f(n_1) + g(n_2)$
+
+* $r \cdot f \colon n_1 \mapsto r\cdot (f(n_1))$.
+
+Write $[N_1,N_2] \in R Mod$ for the resulting $R$-module structure.
+
+=--
+
++-- {: .num_prop #RModIsClosedMonoidal}
+###### Proposition
+
+Equipped with the [[tensor product of modules]], $R Mod$ becomes a [[monoidal category]]. The tensor unit is $R$ regarded canonically as an $R$-module over itself.
+
+This is a [[closed monoidal category]], the [[internal hom]] is given by the hom-modules of def. \ref{HomModule}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Either by definition or by a basic property of the [[tensor product of modules]], a module [[homomorphism]] $\phi \colon N_1 \otimes_R N_2 \to N_3$ is precisely an $R$-[[bilinear function]]  of the underlying sets. For fixed elements $n_1 \in N_1$ and  $n_2 \in N_2$ write
+
+$$
+  \overline{\phi}(n_1) \coloneqq \phi(n_1, -) \colon N_2 \to N_3
+$$
+
+and
+
+$$
+  \phi(-,n_2) \colon N_1 \to N_3
+$$
+
+for the hom-[[adjuncts]] on the underlying sets. By the bilinearity of $\phi$ both of these are $R$-linear maps. The first being linear means that $\overline{\phi}$ is a function $\overline{\phi} \colon N_1 \to [N_2, N_3]$ to the set of module homomorphisms, and the second being linear says that it is itself a mododule homomorphisms by def. \ref{HomModule}, since
+
+$$
+  \overline{\phi}(r\cdot n_1) = (n_2 \mapsto \phi(r\cdot n_1, n_2) = r \phi(n_1, n_2)) = r \cdot \left(\overline{\phi}(n_1)\right)
+  \,.
+$$
+
+The map $\phi \mapsto \overline{\phi}$ establishes a [[natural transformation]]
+
+$$
+  Hom_{R Mod}(N_1 \otimes_R N_2, N_3) \stackrel{}{\to} Hom_{R Mod}(N_1, [N_2, N_3])
+  \,.
+$$
+
+Conversely, every element of $Hom_{R Mod}(N_1, [N_2, N_3])$ defines [[bilinear map]], hence a homomorphism $N_1 \otimes_R N_2 \to N_3$ and this construction is inverse to the above, showing that it is a [[natural isomorphism]].
+This exhibits the [[internal hom]]-[[adjunction]] $(-) \otimes_R N_2 \vdash [N_2,-]$.
+
+=--
 
 ### Exact functors between categories of modules
 
