@@ -21,6 +21,7 @@
 In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_) is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.  Sometimes it is used for a [[decategorification|decategorified]] version of this statement as well.
 
 ## In category theory
+{# in cats}
 
 In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon Y \to X$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(B^A) \to f^*(B)^{f^*(A)}$ is an [[isomorphism]] for all objects $B,A$ of $Y$.
 
@@ -34,7 +35,7 @@ This terminology is most commonly used in the following situations:
 
 ## Frobenius laws and Frobenius reciprocity
 
-There are other instances of the name "Frobenius" being applied to a conditions on adjunctions, known generally as "Frobenius laws". A main example occurs in the notion of [[Frobenius algebra]], and it reappears in another form isolated by Carboni and Walters in their studies of cartesian bicategories and bicategories of relations. Namely, if $\delta \colon 1 \to \otimes \Delta$ denotes the diagonal transformation on a cartesian bicategory (e.g., $Rel$), with right adjoint $\delta^\dagger$, then there is a canonical map 
+The name "Frobenius" is sometimes used to refer to other conditions on adjunctions, known as "Frobenius laws". The formal structure of the Frobenius law appears in the notion of [[Frobenius algebra]], in the axiom which relates multiplication to comultiplication, and recurs in another form isolated by Carboni and Walters in their studies of cartesian bicategories and bicategories of relations. Namely, if $\delta \colon 1 \to \otimes \Delta$ denotes the diagonal transformation on a cartesian bicategory (e.g., $Rel$), with right adjoint $\delta^\dagger$, then there is a canonical map 
 
 $$\delta \delta^\dagger \stackrel{\phi}{\to} (1 \otimes \delta^\dagger)(\delta \otimes 1)$$ 
 
@@ -48,35 +49,37 @@ $$\delta \delta^\dagger \stackrel{\phi'}{\to} (\delta^\dagger \otimes 1)(1 \otim
 
 mated to the inverse coassociativity, is also an isomorphism. However, it may be shown that if one of the Frobenius laws holds, then so does the other; see the article [[bicategory of relations]].) 
 
-It is sometimes easy to accidentally call this law "Frobenius reciprocity", all the more so because there are connections between the two. For example, given a bicategory of relations $B$, one may construct a hyperdoctrine of the form
+It is very easy to make a slip and call the Frobenius law "Frobenius reciprocity", perhaps all the more because there are close connections between the two. One example occurs in the context of bicategories of relations, as follows. 
 
-$$\hom_B(i-, 1)\colon Map(B)^{op} \to Semilat$$ 
+Given a locally posetal [[cartesian bicategory]] $B$ and any object $c$ of $B$, one may construct a hyperdoctrine of the form
 
-where $i: Map(B) \to B$ is the inclusion, $1$ is the monoidal unit of $B$, and $Semilat$ is the 2-category of meet-semilattices. Here $r \in \hom(i b, 1)$ is thought of as a predicate on $b$, and for a map $f: a \to b$, the predicate $f^\ast r$ is the pulling back 
+$$\hom_B(i-, c)\colon Map(B)^{op} \to Semilat$$ 
+
+where $i: Map(B) \to B$ is the inclusion, and $Semilat$ is the 2-category of meet-semilattices. Here $r \in \hom(i b, c)$ is thought of as a relation from $b$ to $c$, and for a map $f: a \to b$, the relation $f^\ast r$ is the pulling back 
 
 $$f^\ast r \coloneqq (a \stackrel{f}{\to} b \stackrel{r}{\to} 1)$$ 
 
-along $f$, where one may show that $f^\ast$ preserves finite local meets. Indeed, the pushforward or quantification along $f$ takes $q: a \to 1$ to 
+along $f$, and one may show that $f^\ast-$ preserves finite local meets. Indeed, the pushforward or quantification along $f$ takes $q: a \to 1$ to 
 
 $$\exists_f q \coloneqq (b \stackrel{f^\dagger}{\to} a \stackrel{q}{\to} 1)$$ 
 
-and $\exists_f \dashv f^\ast$ because $f^\dagger$ is _right_ adjoint to the map $f$. Because $f^\ast$ is a right adjoint, it preserves local meets. 
+and $\exists_f \dashv f^\ast$ because $f^\dagger$ is _right_ adjoint to the map $f$. Because $f^\ast-$ is a right adjoint, it preserves local meets. 
 
-Frobenius reciprocity, ordinarily written as 
+Frobenius reciprocity in this context, ordinarily written as 
 
 $$r \wedge \exists_f q = \exists_f (f^\ast r \wedge q),$$
 
-can then be stated for this hyperdoctrine; it takes the form 
+can then be restated for the hyperdoctrine $\hom_B(i-, c)$; it takes the form 
 
 $$r \wedge q f^\dagger = (r f \wedge q)f^\dagger$$  
 
-for any map $f: a \to b$ and predicates $q \in \hom(a, 1)$, $r \in \hom(b, 1)$. 
+for any map $f: a \to b$ and predicates $q \in \hom(a, c)$, $r \in \hom(b, c)$. 
 
-Recall that a **bicategory of relations** is a (locally posetal) cartesian bicategory in which the Frobenius laws hold. 
+Meanwhile, recall that a **bicategory of relations** is a (locally posetal) cartesian bicategory in which the Frobenius laws hold. 
 
 +-- {: .un_prop}
 ######Proposition{#FL to FR}
-Frobenius reciprocity holds in the hyperdoctrine associated with a bicategory of relations. 
+Frobenius reciprocity holds in each hyperdoctrine $\hom_B(i-, c)$ associated with a bicategory of relations. 
 =-- 
 
 +-- {: .proof}
@@ -102,13 +105,13 @@ Thus, in this instance, _Frobenius reciprocity follows from the Frobenius laws_.
 
 +-- {: .un_prop} 
 ######Proposition{#FR to FL}
-The Frobenius laws follow from Frobenius reciprocity. 
+In a locally posetal cartesian bicategory, the Frobenius laws follow from Frobenius reciprocity. 
 =-- 
 
 +-- {: .proof} 
 ######Proof 
-Frobenius reciprocity in a (locally posetal) cartesian bicategory $B$ means that for any map $f: a \to b$ and any two relations $q \in B(a, c)$, $r \in B(b, c)$, the canonical inclusion 
-$$(q \wedge r f)f^{op} \leq q f^{op} \wedge r$$ 
+Again, Frobenius reciprocity in a (locally posetal) cartesian bicategory $B$ means that for any map $f: a \to b$ and any two relations $q \in B(a, c)$, $r \in B(b, c)$, the canonical inclusion 
+$$(q \wedge r f)f^\dagger \leq q f^\dagger \wedge r$$ 
 is an equality. One (and therefore both) of the Frobenius laws will follow by taking the following choices for $f$, $q$, and $r$: 
 
 $$f = \delta_x, \qquad q = \varepsilon_{x}^{op} \otimes 1_x, \qquad r = \varepsilon_x \otimes 1_x \otimes \varepsilon_{x}^{op}$$ 
@@ -117,6 +120,18 @@ where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \t
 =--
 
 
+
+## References 
+
+The term 'Frobenius reciprocity', in the context of hyperdoctrines, was introduced by Lawvere in 
+
+* F.W. Lawvere, _Adjointness in Foundations_, TAC Reprint, 2006. [(link)](http://www.tac.mta.ca/tac/reprints/articles/16/tr16abs.html)
+
+Manifestations of the Frobenius reciprocity formula, in the sense of this [section](http://ncatlab.org/nlab/show/Frobenius+reciprocity#in_category_theory_10), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
+
+* Andrea Ferretti, Ubiquity of the push-pull formula, MO Question 18799, March 20, 2010. [(link)](http://mathoverflow.net/questions/18799/ubiquity-of-the-push-pull-formula)
+
+ 
 
 [[!redirects Frobenius reciprocity]]
 [[!redirects Frobenious reciprocity]]
