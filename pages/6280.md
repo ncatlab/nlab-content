@@ -68,7 +68,7 @@ on [[Chern-Weil theory]]: [[principal bundle]]s with [[connection on a bundle|co
 
 ### IV Calculus of differential forms
 
-* [[Cartan caluclus]]
+* [[Cartan calculus]]
 
 * [[integration]]
 
@@ -152,5 +152,45 @@ on [[Chern-Weil theory]]: [[principal bundle]]s with [[connection on a bundle|co
 
 
 ## Volume III
+
+### 0 Algebraic preliminaries
+
+### I Spectral sequences
+
+* [[fiber sequence]]
+
+* [[spectral sequence]]
+
+### II Koszul complexes of $P$-spaces and $P$-algebras
+
+### III Koszul complexes of $P$-differential algebras
+
+### IV Lie algebras and differential spaces
+
+* [[Lie algebra]]
+
+### V Cohomology of Lie algebras and Lie groups
+
+* [[Lie algebra cohomology]]
+
+* [[Lie group cohomology]]
+
+### VI The Weil alebra
+
+* [[Weil algebra]]
+
+### VII Operation of a Lie algebra in a graded differential algebra
+
+### VIII Algebraic connections and principal bundles
+
+### IX Cohomology of operations and principal bundles
+
+### X Subalgebras
+
+### XI Homogeneous spaces
+
+### XII Operation of a Lie algebra on a pair
+
+### Appendix A Characteristic coefficients and the Pfaffian
 
 category: reference
