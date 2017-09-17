@@ -197,9 +197,14 @@ The content of this section is at
 
 ## References 
 
-A standard reference on 2-dimensional [[string]] $\sigma$-models is chapter 5, page 211 of
+A standard reference on 2-dimensional [[string]] $\sigma$-models is 
 
-* [[Pierre Deligne]], [[Dan Freed]], _Classical field theory_ in
+
+* [[Pierre Deligne]], [[Dan Freed]], _Classical field theory_ , chapter 5, page 211 in...
+
+  and
+
+  [[Krzysztof Gawedzki]], _Lectures on conformal field theory_ , part 3, lecture 3 in
 
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
