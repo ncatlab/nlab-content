@@ -215,6 +215,7 @@ The result of this exercise is true in more generality: it works for any finite-
 
 * A way of describing categorical semantics, even for weak theories, which doesn't require the explicit introduction of contexts is to use [[cartesian multicategories]].
 
+* The category of contexts is also known as the [[syntactic category]] of the corresponding [[theory]].
 
 ## References
 
