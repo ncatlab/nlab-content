@@ -2111,7 +2111,7 @@ In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in deg
 ### Exponentiated $\infty$-Lie algebras {#LieAlgebras}
 
 
-+-- {: .un_def}
++-- {: .un_def #ExponentiatedLieAsGeometricallyContractible}
 ###### Definition
 
 
@@ -3121,14 +3121,48 @@ equipped with a quadruple of [[adjoint (∞,1)-functor]]s
 $$
   (i_! \dashv i^* \dashv i_* \dashv i^!) : 
   \mathbf{H}
-    \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\underset{i^!}{\leftarrow}}}}
+    \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\hookrightarrow}}{\underset{i^!}{\leftarrow}}}}
   \mathbf{H}_{th}
 $$
 
-such that $i_!$ is a [[full and faithful (∞,1)-functor]].
+where $i_!$ preserves [[(∞,1)-product]] is a [[full and faithful (∞,1)-functor]].
 
 =--
 
++-- {: .un_prop #InfinitesimalInclusionIfFullAndFaithful}
+###### Observation
+
+This implies that also $i_*$ is a [[full and faithful (∞,1)-functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the characterizaton of full and faithful [[adjoint (∞,1)-functor]]s this is equivalent to $i^* i_! \simeq Id$. Since $(i^* i_! \dashv i^* i_*)$ it follows by essential uniqueness of [[adjoint (∞,1)-functor]]s that also $i^* i_* \simeq Id$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This definition captures the characterization of an [[infinitesimal object]] as having a single [[global element|global point]] surrounded by an infinitesimal neighbourhood: as we shall see in more detail [below](#InfinitesimalPathsAndReduction), the [[(∞,1)-functor]] $i^*$ may be thought of as contracting away any infinitesimal extension of an object. Thus $X$ being an [infinitesimal object](#InfinitesimalObject) amounts to  $i^* X \simeq *$, and the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(i_! \dashv i^*)$ then indeed guarantees that $X$ has only a single global point, since 
+
+$$
+  \begin{aligned}
+    \mathbf{H}_{th}(*, X) 
+      & \simeq \mathbf{H}_{th}(i_! *, X) 
+      \\
+      & \simeq \mathbf{H}(*, i^* X)
+      \\
+      & \simeq \mathbf{H}(*, *)
+      \\
+      & \simeq *
+ \end{aligned}
+  \,.
+$$
+
+=--
 
 +-- {: .un_prop #InfinitesimalNeighbourhoodIsOverInfGroupoid}
 ###### Observation
@@ -3281,6 +3315,21 @@ $$
   \,.
 $$
 
+Accordingly also
+
+$$
+  \mathbf{\Pi}_{inf} \mathbf{\Pi}_{inf} \simeq \mathbf{\Pi}_{inf}
+$$
+
+and
+
+$$
+  \mathbf{\flat}_{inf} \mathbf{\flat}_{inf} \simeq 
+  \mathbf{\flat}_{inf}
+  \,.
+$$
+
+
 =--
 
 +-- {: .proof}
@@ -3335,14 +3384,14 @@ that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunctio
 +-- {: .un_prop}
 ###### Observation
 
-For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [∞-Lie algebroids](#InfinitesimalObject) over $X$.
+For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [∞-Lie algebroids](#InfinitesimalObject) over $X$, the first by the constant infinitesmal path inclusion, the second by the identity.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempotency of Red](#RedIsIdempotent)
+For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempotency of Red](#RedIsIdempotent) and the $(i^* \dashv i_*)$-[[zig-zag identity]].
 
 =--
 
@@ -3409,7 +3458,9 @@ $$
 ###### Proposition
 
 An [infinitesimal cohesive ∞-groupoid](#InfinitesimalObject) 
-$X \in \mathbf{H}_{th}$ has as underlying [[discrete ∞-groupoid]] the point:
+$X \in \mathbf{H}_{th}$ is both [geometrically contractible](#ExponentiatedLieAsGeometricallyContractible) and has as underlying [[discrete ∞-groupoid]] the point:
+
+* $\Pi X \simeq *$
 
 * $\Gamma X \simeq *$.
 
@@ -3418,7 +3469,11 @@ $X \in \mathbf{H}_{th}$ has as underlying [[discrete ∞-groupoid]] the point:
 +-- {: .proof}
 ###### Proof
 
-This follows by 
+This follows with using the [above objservation](#InfinitesimalInclusionIfFullAndFaithful) from the full and faithfulness of $i_!$ and $i_*$.
+
+The former implies that with $\mathbf{\Pi}_{inf}(X) \simeq *$ already $i^*X  = \Pi_{inf}X = *$. Since $\Pi_{\mathbf{H}_{th}} \simeq \Pi_{\mathbf{H}} \Pi_{inf}$ and since $\Pi_{\mathbf{H}}$ preserves the point by cohesiveness, this implies the first claim.
+
+For the latter we compute
 
 $$
   \begin{aligned}
@@ -3531,7 +3586,7 @@ The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \das
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
 
-A pdf-version of some of the material here is at
+Some of the material discussed here is in section 2 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
 
