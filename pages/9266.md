@@ -100,6 +100,12 @@ This statement we recognize as a geometric quantization analog of a famous relat
 
 These relations to traditional theory we use in the following to explore aspects of the [[extended geometric quantization]] of [[2d Chern-Simons theory]].
 
+### Summary and survey
+
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
+
+
 ## The setup
 
 Let $(X, \pi)$ be a [[Poisson manifold]], which we tend to think of as defining a _[[quantum mechanical system]]_. This canonically induces the structure of [[Lie algebroid]] over $X$, the _[[Poisson Lie algebroid]]_ $(\mathfrak{P}, \mathbf{\omega})$ over $X$. This is a [[symplectic Lie n-algebroid|symplectic Lie algebroid]], with graded symplectic form (binary [[invariant polynomial]]) $\mathbf{\omega}$ which is in [[transgression]] with the Poisson tensor $\pi$, regarded as a [[Lie algebroid cohomology|Lie algebroid cocycle]]. The transgression is witnessed by a [[Chern-Simons element]] $cs_\pi$. By the general construction of [[schreiber:infinity-Chern-Simons theory]] this means that there is a universal differential characteristic map
