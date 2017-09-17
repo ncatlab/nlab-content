@@ -102,10 +102,78 @@ The archetypical example here is the case where again $\mathbf{H} =$ [[∞Grpd]]
 
 But again, more generally, $\mathbf{H}$ can be an [[(∞,1)-category of (∞,1)-sheaves]] and $\mathcal{C}$ for instance an [[(∞,2)-topos]] of [[(∞,2)-sheaves]], yielding $(\infty,3)$-sheaves, and so on.
 
+### Pre-category objects: Segal conditions
+ {#PreCategoryInTopos}
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite limit|finite]] [[(∞,1)-limits]]
+
+
++-- {: .num_defn #PreCategoryObject}
+###### Definition
+
+An **internal precategory** $X$ in $\mathcal{C}$ is a [[simplicial object in an (∞,1)-category]]
+
+$$
+  X : \Delta^{op} \to \mathcal{C}
+$$
+
+such that it satifies the _[[Segal condition]]_, hence such that for all $n \in \mathbb{N}$, $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
+
+$$
+  X([n]) \simeq 
+  \underbrace{
+    X(\{0,1\}) \underset{X([0])}{\times} \cdots \underset{X[0]}{\times} X(\{n-1,n\})
+  }_{n \; factors}
+  \,.
+$$
+
+Write $PreCat(\mathcal{C})$ for the $(\infty,1)$-category of internal pre-categories in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of the [[simplicial objects]] on the internal precategories.
+
+=--
+
+This is called a _category object_ in ([Lurie, def. 1.1.1](#Lurie)).
+
++-- {: .num_remark }
+###### Remark
+
+By the discussion at _[Segal conditions -- In terms of sheaf conditions](Segal%20condition#InTermsOfSheafConditionForSimplicialObjects)_, this means that $PreCat(\mathcal{C})$ sits in an [[(∞,1)-pullback]] square in [[(∞,1)Cat]]
+
+$$
+  \array{
+    PreCat(\mathcal{C}) &\hookrightarrow& \mathcal{C}^{\Delta^{op}}
+    \\
+    \downarrow && \downarrow
+    \\
+    Graphs(\mathcal{C})
+    &\hookrightarrow&
+    \mathcal{C}^{\Delta_0^{op}}
+  }
+  \,,
+$$
+
+where $\Delta_0^{op} \to \Delta$ is the [[wide subcategory]] of the [[simplex category]] on the injective maps that moreover send elementary edges to elementary edges (morphisms of linear [[graphs]]), and the bottom morphism is the functor that sends a [[graph]] object $X_1 \stackrel{\overset{\partial_1}{\to}}{\underset{\partial_0}{\to}} X_0$ to the object which in degree $n$ is $\underbrace{ X_1 \underset{X_0}{\times} \cdots \underset{X_0}{\times} X_1}_{n\; factors}$.
+
+=--
+
++-- {: .num_defn #Equivalences}
+###### Definition
+
+Let $\mathcal{C} = $ [[∞Grpd]]. For $X_\bullet$ a pre-category object, def. \ref{PreCategoryObject}, write
+
+$$
+  Equiv(X_1) \hookrightarrow X_1
+$$
+
+for the full sub-$\infty$-groupoid on the [[equivalences]].
+
+=--
+
 ### Groupoid objects in an $(\infty,1)$-category
  {#GroupoidObjects}
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]].
+#### Definition
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with finite $(\infty,1)$-limits.
 
 +-- {: .num_defn #GroupoidObject}
 ###### Definition
@@ -124,6 +192,21 @@ $$
 $$
 
 Write $Grpd(\mathcal{C})$ for the [[(∞,1)-category]] of groupoid objects in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of [[simplicial object in an (∞,1)-category|simplicial objects]] on the groupoid objects.
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+For $\mathcal{C} = \infty Grpd$,
+a _[[groupoid object in an (∞,1)-category|groupoid object]]_  $X$ in $\mathcal{C}$ is a pre-category object $X_\bullet \in PreCat(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$, def. \ref{PreCategoryObject}, such that the full inclusion
+
+$$
+  Equiv(X_1) \hookrightarrow X_1
+$$
+
+is an [[equivalence in an (∞,1)-category]].
 
 =--
 
@@ -191,71 +274,7 @@ forms the [[(∞,1)-colimit]] in $\mathcal{C}$ over the simplicial diagram under
 
 See ([Lurie, example 1.1.4](#Lurie)). 
 
-
-
-### Internal category in an $(\infty,1)$-topos
- {#CategoryObjectInTopos}
-
-Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Then every object of $\mathbf{H}$ may already be thought of as being an [[groupoid object in an (∞,1)-category|internal groupoid]], which facilitates the definition of internal categories. This we discus here.  The more general case where the ambient $(\infty,1)$-category is not necessarily an [[(∞,1)-topos]] is discussed further [below](#InAnInfinity1Category).
-
-There are two conditions on a [[simplicial object in an (∞,1)-category]] to qualify as an internal category object
-
-1. [The Segal conditions](#PreCategoryInTopos)
-
-1. [The completenss/univalence condition](#CompleteCategoryInTopos)
-
-#### Pre-category objects: Segal conditions
- {#PreCategoryInTopos}
-
-
-+-- {: .num_defn #PreCategoryObject}
-###### Definition
-
-An **internal precategory** $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is a [[simplicial object in an (∞,1)-category]]
-
-$$
-  X : \Delta^{op} \to \mathbf{H}
-$$
-
-such that it satifies the _[[Segal condition]]_, hence such that for all $n \in \mathbb{N}$, $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
-
-$$
-  X([n]) \simeq 
-  \underbrace{
-    X(\{0,1\}) \underset{X([0])}{\times} \cdots \underset{X[0]}{\times} X(\{n-1,n\})
-  }_{n \; factors}
-  \,.
-$$
-
-Write $PreCat(\mathbf{H})$ for the $(\infty,1)$-category of internal pre-categories in $\mathbf{H}$, the [[full sub-(∞,1)-category]] of the [[simplicial objects]] on the internal precategories.
-
-=--
-
-This is called a _category object_ in ([Lurie, def. 1.1.1](#Lurie)).
-
-+-- {: .num_remark }
-###### Remark
-
-By the discussion at [Segal conditions -- In terms of sheaf conditions](Segal%20condition#InTermsOfSheafConditionForSimplicialObjects), this means that $PreCat(\mathcal{C})$ sits in an [[(∞,1)-pullback]] square in [[(∞,1)Cat]]
-
-$$
-  \array{
-    PreCat(\mathbf{H}) &\hookrightarrow& \mathbf{H}^{\Delta^{op}}
-    \\
-    \downarrow && \downarrow
-    \\
-    Graphs(\mathbf{H})
-    &\hookrightarrow&
-    \mathbf{H}^{\Delta_0^{op}}
-  }
-  \,,
-$$
-
-where $\Delta_0^{op} \to \Delta$ is the [[wide subcategory]] of the [[simplex category]] on the injective maps that moreover send elementary edges to elementary edges (morphisms of linear [[graphs]]), and the bottom morphism is the functor that sends a [[graph]] object $X_1 \stackrel{\overset{\partial_1}{\to}}{\underset{\partial_0}{\to}} X_0$ to the object which in degree $n$ is $\underbrace{ X_1 \underset{X_0}{\times} \cdots \underset{X_0}{\times} X_1}_{n\; factors}$.
-
-=--
-
-#### Coreflection of groupoid objects in pre-category objects
+#### Coreflection into pre-category objects
 
 In order to state the [[complete Segal space|completeness condition]] on a precategory object, def. \ref{PreCategoryObject}, we need to reflect, or rather _coreflect_, it onto its [[core]] groupoid object, 
 def. \ref{GroupoidObjects}.
@@ -434,6 +453,15 @@ etc. Heuristically it is clear, by the nature of $K$, that this picks all those 
 
 =--
 
+
+
+### Internal category in an $(\infty,1)$-topos
+ {#CategoryObjectInTopos}
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Then every object of $\mathbf{H}$ may already be thought of as being an [[groupoid object in an (∞,1)-category|internal groupoid]], which facilitates the definition of internal categories. This we discus here.  The more general case where the ambient $(\infty,1)$-category is not necessarily an [[(∞,1)-topos]] is discussed further [below](#InAnInfinity1Category).
+
+
+
 #### Category objects
  {#CompleteCategoryInTopos}
 
@@ -447,6 +475,7 @@ An **internal category** in an [[(∞,1)-topos]] $\mathbf{H}$ is an internal pre
 This is called a _[[complete Segal space]] object_ in ([Lurie, def. 1.2.10](#Lurie)).
 
 We discuss further properties of category objects in $\mathbf{H}$ [below](#CategoryObjectsInC).
+
 
 ### Internal category in an $(\infty,1)$-category
  {#InAnInfinity1Category}
@@ -699,7 +728,6 @@ In ([Lurie, def. 1.3.3](#Lurie)) such an choice of internal groupoids $\infty Gr
 
 For $\mathcal{C} = \mathbf{H}$ an [[(∞,1)-topos]] over [[∞Grpd]], the [[inverse image]] of its [[global section]] [[geometric morphism]] $\infty Grpd \to \mathbf{H}$ is a _choice of internal groupoids_, def. \ref{ChoiceOfInternalGroupoids}, precisely if $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally]] and [[∞-connected (∞,1)-topos|globally ∞-connected]].
 
-=--
 
 $$
   (\Pi \dashv \Disc \dashv \Gamma)
