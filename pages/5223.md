@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
 The page level above is [[math resources]]. 
 
 Most of interesting people for nlab will have their own pages in $n$lab; many  of them keep their own articles and books there, but some do more. Thus **this will not be a general list of homepages of mathematicians**, but rather of those pages which have *particularly important or large collections* of articles, books and especially advanced **lecture notes** of major importance to $n$lab and in the areas of prime importance to $n$lab ([[sheaf|sheaves]], [[stack]]s, (higher) categories, modern geometry and [[homotopy theory]], [[algebraic topology]], foundations). Still let us keep the alphabetic order.
