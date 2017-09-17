@@ -43,7 +43,7 @@ Hence one can think of classifying topoi as a grand generalization of the notion
 
 ## Definition
 
-In a tautological way, every [[topos]] $F$ is the classifying topos for something, namely for the categories of [[geometric morphism]]s $E \to F$ into it. The concept of [[geometric theory]] allows to usefully interpret these categories as _categories of certain structures in $E$_ :
+In a tautological way, every [[topos]] $F$ is the classifying topos for something, namely for the categories of [[geometric morphism]]s $E \to F$ into it. The concept of [[geometric theory]] allows one to usefully interpret these categories as _categories of certain structures in $E$_ :
 
 as decribed in [Geometric theories -- In terms of sheaf topoi](http://ncatlab.org/nlab/show/geometric+theory#InTermsOfSheafTopoi), every [[sheaf topos]] $F$ is a completion $S[T]$ of the [[syntactic category]] $C_T$ of _some_ [[geometric theory]] $T$
 
@@ -375,7 +375,7 @@ A [[geometric theory]] $T$ whose [[model]]s are $G$-torsors can be described as 
 
 #### Over topological groups {#TopGTor}
 
-If $G$ is a general [[topological group]] we have the  is a [[simplicial object|simplicial]] [[topological space]] $G^{\times \bullet}$. The category $Sh(G^{\times \bullet})$ of [[sheaves on a simplicial topological space|sheaves on this simplicial space]] is a topos. 
+If $G$ is a general [[topological group]] we have a [[simplicial object|simplicial]] [[topological space]] $G^{\times \bullet}$. The category $Sh(G^{\times \bullet})$ of [[sheaves on a simplicial topological space|sheaves on this simplicial space]] is a topos. 
 
 This is such that for $X$ a topological space, geometric morphisms $Sh(X) \to Sh(G^{\times \bullet})$ classifies topological $G$-principal bundles on $X$.
 
