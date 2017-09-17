@@ -40,4 +40,6 @@ For instance
 
 * {#DwyerGreenlees99} [[William Dwyer]], [[John Greenlees]], section 4.1 of _Complete modules and torsion modules_, Amer. J. Math, 1999  ([pdf](https://www3.nd.edu/~wgd/Dvi/Complete.And.Torsion.pdf))
 
+* [[Carles Casacuberta]] et al., _Models for torsion homotopy types_ ([pdf](http://atlas.mat.ub.es/personals/casac/articles/crhp.pdf))
+
 [[!redirects torsion approximations]]
