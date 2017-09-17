@@ -87,6 +87,9 @@ A standard reference is
 
 * [[Jean-Pierre Serre]], _A course in arithmetic_, Grad. Texts in Math. __7__, Springer (1973)
 
+$p$-adic [[differential equations]] are discussed in 
+
+* [[Kiran Kedlaya]], _$p$-Adic differential equations_ ([pdf](http://www-math.mit.edu/~kedlaya/18.787/compiled.pdf), [course notes](http://www-math.mit.edu/~kedlaya/18.787/))
 
 [[!redirects p-adic integer]]
 [[!redirects p-adic]]
