@@ -67,6 +67,18 @@ $$
    \,.
 $$
 
+### Relation to orientifold type II backgrounds
+ {#RelationToOrientifolds}
+
+The general [[vacuum]] of [[type II superstring theory]] (including [[type I superstring theory]]) is an [[orientifold]]. 
+
+The [[target space]] data of an [[orientifold]] is a $\mathbb{Z}_2$-[[principal bundle]]/[[local system]], possibly singular (hence possibly on a [[smooth stack]]). On the other hand, the non-singular part of the [[elliptic fibration]] that defines the F-theory is a $SL_2(\mathbb{Z})$-[[local system]] (being the "homological invariant" of the [[elliptic fibration]]). 
+
+An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$.
+
+Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was indeed conjectured in ([Kriz-Sati 05, p. 3](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
+
+
 ### Relation to the heterotic string
 
 F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] compactified on a 2-[[torus]] (e.g. [Sen 96](#Sen96)).
@@ -83,11 +95,24 @@ Lecture notes include
 
 * Timo Weigand, _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
 
+### Relation to orientifolds
+
 F-theory lifts of [[orientifold]] backgrounds were first identified in
 
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
 * [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+
+This is further expanded on in
+
+* [[Hisham Sati]], _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 ([arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087))
+
+
+### Relation to elliptic cohomology
+
+A series of articles arguing for a relation between the [[elliptic fibration]] of F-theory and [[elliptic cohomology]] (see also at [[modular equivariant elliptic cohomology]])
+
+* {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, 	JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
 
 
 ### Phenomenology and model building
