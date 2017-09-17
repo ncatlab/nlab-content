@@ -35,4 +35,6 @@ For example, while so-called [[standard model of particle physics]] has inconsis
 
 * [[string phenomenology]]
 
+* [string theory FAW - Did string theory provide any insight relevant in experimental particle physics?](string+theory+FAQ#InsightInParticlePhysics)
+
 
