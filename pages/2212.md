@@ -24,7 +24,7 @@ A standard [[model category]] structure on the category of cosimplicial rings is
 
 See for instance [def 9.1, p. 18](http://arxiv.org/PS_cache/math/pdf/0306/0306289v3.pdf#page=18) of 
 
-* Castiglioni, Cortinas, _Cosimplicial version dg-rings_ ([arXiv](http://arxiv.org/abs/math/0306289))
+* Castiglioni, Cortinas, _Cosimplicial versus dg-rings_ ([arXiv](http://arxiv.org/abs/math/0306289))
 
 
 ## Examples ##
