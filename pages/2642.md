@@ -33,6 +33,8 @@ A representation that has proper nontrivial subrepresentations but can not be de
 
 * [[simple object]]
 
+* [[fundamental representation]]
+
 * In [[quantum physics]] an irreducible representation of an [[algebra of observables]] is called a _[[superselection sector]]_.
 
 
