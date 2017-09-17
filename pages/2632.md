@@ -79,7 +79,7 @@ For more on this see
 
 * Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics%3A a functional integral point of view]] (how to quote the link with : ??)
 
-* Movshev's course has nice references: [link](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)
+* Movshev's course has mathematically nice references: [link](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html); and [here](http://www.math.columbia.edu/~woit/qftnotes1.pdf) is a link to Woit's list of mroe physical tradition references. 
 
 * P. Cartier, C. DeWitt-Morette, _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.
 
