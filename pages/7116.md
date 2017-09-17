@@ -72,6 +72,8 @@ The standard absolute value ${\vert -\vert}_\infty$ on the [[real numbers]] is
 
 $$
   {\vert x \vert}_{\infty} = 
+  \sqrt{x^2}
+  = 
   \left\{
     \array{
        x & if x \geq 0
@@ -82,7 +84,14 @@ $$
   \,.
 $$
 
-The standard absolute value on the [[complex numbers]] is the absolute value of the real part.
+The standard absolute value on the [[complex numbers]] is 
+
+$$
+  {\vert x + i y \vert}
+  = 
+  \sqrt{x^2 + y^2}
+  \,.
+$$
 
 With respect to these standard absolute values, both $\mathbb{R}$ and $\mathbb{C}$ are [[complete field|complete]] [[archimedean fields]].
 
