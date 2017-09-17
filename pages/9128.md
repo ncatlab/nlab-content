@@ -29,7 +29,7 @@ The most accurate general theory of fundamental physics known is _[[Einstein gra
 
 Beware that, therefore, the use of the terms _theory_ and _model_ in [[physics]] is _different_ from the same terms as used in [[logic]] (see at [[theory (logic)]] and [[model (logic)]]). 
 
-But most theories of fundamental physics (and many theories of effective physics such as [[solid state physics]])  fit into a pattern that can be [[axiom|axtiomatized]] at least to some extent: 
+But most theories of fundamental physics (and many theories of effective physics such as [[solid state physics]])  fit into a pattern that can be [[axiom|axiomatized]] at least to some extent: 
 
 these physical theories are specified by a ([[local Lagrangian|local]]/[[extended Lagrangian|extended]]) [[Lagrangian]] on a space of [[field (physics)|fields]] over a given [[spacetime]]/[[worldvolume]] [[manifold]] $X$, hence by an [[action functional]]
 
@@ -47,11 +47,13 @@ $$
 
 of such an [[action functional]], the space of solutions of the [[Euler-Lagrange equations]]. A point in this space is a single "physically realizable" configuration of [[field (physics)|fields]] in this theory, disregarding [[quantum field theory]]-corrections, and a small-parameter subspace is often referred to as "a model" of the theory.
 
-In this perspective of classical field theory two different action functionals on different spaces of fields but with [[equivalence|equivalent]] [[critical loci]] are are regarded as "equivalent physical theories". One often sees the term "classically equivalent" for this notion used in the literature.
+In this perspective of classical field theory, two different action functionals on different spaces of fields but with [[equivalence|equivalent]] [[critical loci]] are regarded as "equivalent physical theories". One often sees the term "classically equivalent" for this notion used in the literature.
 
-But the full [[quantum field theory]] determined by a [[Lagrangian]]/[[action functional]] depends on more than just the [[critical locus]], which is just something like the lowest order approximation to the quantum theory (in sense that can be made precise, for instance in [[deformation quantization]] in terms of [[power series]] developments in [[Planck's constant]].)
+But the full [[quantum field theory]] determined by a [[Lagrangian]]/[[action functional]] depends on more than just the [[critical locus]], which is just something like the lowest order approximation to the quantum theory (in a sense that can be made precise, for instance in [[deformation quantization]] in terms of [[power series]] developments in [[Planck's constant]].)
 
 ## Examples
+
+
 
 ### Broad physical theories
 
@@ -69,7 +71,7 @@ The notion of quantum field theory, fundamental as it is, is quite flexible and 
 
 * [[effective quantum field theory]].
 
-Crucially, [[Einstein gravity]] is not known to have a formulation as a _fundamental_ quantum field theory with finitely many unspeficied parameters ([[renormalization|renormalizable]]).  But it may well be a [[effective quantum field theory]], the approximation to a moe refined physical theory valid at higher energies. (This is the issue of [[quantum gravity]].) A proposal for a physical theory that achieves this is called _[[string theory]]_.
+Crucially, [[Einstein gravity]] is not known to have a formulation as a _fundamental_ quantum field theory with finitely many unspecified parameters ([[renormalization|renormalizable]]).  But it may well be a [[effective quantum field theory]], the approximation to a moe refined physical theory valid at higher energies. (This is the issue of [[quantum gravity]].) A proposal for a physical theory that achieves this is called _[[string theory]]_.
 
 ### Theories and their models
  {#TheoriesAndTheirModels}
