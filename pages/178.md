@@ -272,7 +272,7 @@ Write $U(1) = S^1 = \mathbb{R}/\mathbb{Z}$ for the [[abelian group|abelian]] [[L
 
 ##### Delooping
 
-Write $\Xi : Ch_\bullet \to sAb \to sSet$ for the [[Dold-Kan correspondence]] functor and with convenient abuse of notation use the same symbold for its extension $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ to presheaves.
+Write $\Xi : Ch_\bullet \to sAb \to sSet$ for the [[Dold-Kan correspondence]] functor and with convenient abuse of notation use the same symbols for its extension $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ to presheaves.
 
 Write 
 
@@ -349,7 +349,7 @@ We therefore write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for $\Xi(U(1)[n])
 
 ##### Differential coefficients
 
-We now describ a Lie $n$-groupoids $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ and $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ induced from $\mathbf{B}^n U(1)$.
+We now describe a Lie $n$-groupoids $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ and $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ induced from $\mathbf{B}^n U(1)$.
 
 Recall for this that $\infty LieGrpd$ is a [[∞-connected (∞,1)-topos]], which means that we have [[(∞,1)-functor]]s
 
