@@ -17,7 +17,7 @@
 
 This is the analog of a [[filtered category]] in the context of [[(∞,1)-categories]].
 
-The main purpose of considering filtered (∞,1)-categories is to define filtered (∞,1)-colimits, which are the colimits that commute with [[finite (∞,1)-limits]].
+The main purpose of considering filtered (∞,1)-categories is to define [[filtered (∞,1)-colimits]], which are the colimits that commute with [[finite (∞,1)-limits]].
 
 ## Definition
 
