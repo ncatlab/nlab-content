@@ -15,7 +15,9 @@
 * table of contents
 {:toc}
 
-## In quantum field theory
+## Idea
+
+### In quantum field theory
 
 In the [[perturbation theory]] of a [[quantum field theory]] defined by an [[action functional]] $S : Conf \to \mathbb{R}$, a **vacuum** of the theory is a [[classical mechanics|classical]] solution: a configuration $\phi_0 \in Conf$ that solves the [[Euler-Lagrange equation]]s of $S$.
 
@@ -23,7 +25,7 @@ Because in the perturbative quantum dynamics around $\phi_0$ [[quantum|quanta]] 
 
 (...) 
 
-## In string theory
+### In string theory
 
 In [[string theory]] the vacua of the [[effective QFT|effective background QFT]] are at the same time identified with certain 2-dimensional [[CFT]]s -- namely the [[string]] [[sigma-model]]s which have the given [[effective QFT]] as their [[second quantization]].
 
@@ -34,5 +36,11 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 ## Related concepts
 
 * [[false vacuum]]
+
+* [[Yang-Mills instanton]]
+
+  * [[BPTS instanton]]
+
+  * [[instanton in QCD]]
 
 [[!redirects vacua]]
