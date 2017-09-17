@@ -135,6 +135,6 @@ Despite the length of the list of axioms, it should be noted that they generally
 
 Hence, the only "irremovable" existential clauses (that necessitate passing from essentially algebraic logic to a larger fragment of first-order logic) are well-pointedness and the axiom of choice. The axiom of choice belongs to [[geometric logic]]. 
 
-This is in marked contrast to ZFC, whose axiom list is superficially shorter but whose logical complexity is much greater. 
+This is in marked contrast to ZFC, whose axiom list is superficially shorter (ignoring the fact axioms schemas are technically infinite lists of axioms) but whose logical complexity is much greater. 
 
 It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. However, this has been well-treated elsewhere and need not be gone into further here, as this page has a very particular focus and purpose (as stated in the Introduction). 
