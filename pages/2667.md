@@ -64,7 +64,7 @@ Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. 
 
 * it has [[biproducts]], also known as [[direct sums]], and 
 
-* [[idempotent|idempotents]] [[split+idempotent|split]].)
+* [[idempotent|idempotents]] [[split idempotent|split]].)
 
 Henceforth we shall use $C$ to stand for any symmetric monoidal Cauchy-complete $k$-linear category.  To illustrate the full breadth of this generalization, here are a few examples:
 
@@ -239,17 +239,28 @@ Let us put the question another way.  We have seen the Schur functors $S_R$ have
 
 The perhaps surprising answer is: no extra properties! That is, the Schur functors are _precisely_ those uniformly defined functors that are pseudonatural with respect to change of base! 
 
-Let us now make this precise. Schur functors $S$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined. Let 
+Let us now make this precise. Schur functors $S$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined.   This focuses our attention on the 'forgetful' 2-functor
 
 $$U: SymMonLinCauch \to Cat$$ 
 
-be the evident forgetful 2-functor, from the 2-category of symmetric monoidal $k$-linearly Cauchy complete categories (and symmetric monoidal linear functors, etc.) to the 2-category of categories, functors, and natural transformations. 
+where:
 
-If $U, V: S \stackrel{\to}{\to} C$ are two 2-functors between 2-categories, we have a general notion of pseudonatural transformation: 
++-- {: .un_def}
+######Definition 
+**SymMonLinCauch** is the 2-category with
+
+* small symmetric monoidal Cauchy-complete $k$-linear categories as objects,
+
+* symmetric monoidal $k$-linear functors as morphisms,
+
+* symmetric monoidal $k$-linear natural transformations as 2-morphisms.
+=--
+
+As we shall see, Schur functors correspond to [[pseudonatural transformations]] from $U$ to itself, and morphisms between Schur functors correspond to [[modifications]] between these pseudonatural transformations.  For the reader unaccustomed to these 2-categorical concepts, recall:
 
 +-- {: .un_def} 
 ######Definition 
-A **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each 0-cell $s$ of $S$ a 1-cell $\phi(s): U(s) \to V(s)$ of $C$, and to each 1-cell $f: s \to t$ a 2-cell $\phi(f)$:  
+Given two 2-functors $U, V: S \stackrel{\to}{\to} C$ between 2-categories, a **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each 0-cell $s$ of $S$ a 1-cell $\phi(s): U(s) \to V(s)$ of $C$, and to each 1-cell $f: s \to t$ a 2-cell $\phi(f)$:  
 $$\array{
 U(s) & \stackrel{\phi(s)}{\to} & V(s) \\
 U(f) \downarrow & \phi(f) \swArrow & \downarrow V(f) \\
@@ -258,14 +269,12 @@ U(t) & \underset{\phi(t)}{\to} & V(t)
 such that the following pasting diagram equalities hold (to be filled in). 
 =-- 
 
-In 2-category theory, the correct notion of morphism between pseudonatural transformations is that of _modification_. 
-
 +-- {: .un_def} 
 ######Definition 
 With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transformations. A **modification** $x: \phi \to \psi$ is a rule which associates to each 0-cell $s$ of $S$ a 2-cell $x(s): \phi(s) \to \psi(t)$ of $C$, such that the following compatibility condition holds (to be filled in). 
 =-- 
 
-We now propose our conceptual definition of Schur functor. 
+We now propose our conceptual definition of Schur functor:
 
 +-- {: .un_def} 
 ######Definition 
@@ -276,16 +285,16 @@ is the forgetful 2-functor. A **morphism** of Schur functors is a modification b
 
 What this proposed definition makes immediately clear is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections. 
 
+However, we must begin by checking that this proposed definition is equivalent to the more familiar one given earlier!
+
 ## Representability ##
 
-Again, let $SymMonLinCauch_k$ is the 2-category of small symmetric monoidal _Cauchy-complete_ $k$-linear categories over a field $k$ of characteristic zero, with morphisms symmetric monoidal $k$-linear functors and 2-morphisms the symmetric monoidal $k$-linear transformations. 
-
-To build a bridge from our abstract description of Schur functors as pseudonatural transformations to the more classical descriptions, we prove the following key result. 
+To build a bridge from our abstract description of Schur functors as pseudonatural transformations to the more classical descriptions, we start with the following key result. 
 
 +-- {: .un_thm}
 ######Theorem 
 The underlying functor 
-$$U: SymMonLinCauch_k \to Cat$$ 
+$$U: SymMonLinCauch \to Cat$$ 
 is representable, in fact is represented by the Cauchy completion of the $k$-linearization of the groupoid of finite permutations $\mathbb{P}$. (If $k \mathbb{P}$ denotes the $k$-linearization, then $\widebar{k \mathbb{P}}$ denotes its Cauchy completion.) 
 =-- 
 
@@ -293,7 +302,7 @@ is representable, in fact is represented by the Cauchy completion of the $k$-lin
 ######Proof (Sketch)
 It is well-known that the permutation category $\mathbb{P}$, whose objects are integers $m \geq 0$ and whose morphisms are precisely automorphisms $m \to m$ given by permutation groups $S_m$, is the representing object for the underlying 2-functor 
 
-$$U_0: SymMonCat \to Cat.$$
+$$U_0: SymMonCat \to Cat \, .$$
 
 Let $SymMonLin$ denote the 2-category of symmetric monoidal $k$-linear (but not necessarily linearly Cauchy complete) categories, and let $Lin$ denote the 2-category of small $k$-linear categories. Let $k(-): Cat \to Lin$ denote $k$-linearization, given by change of hom-base 
 
@@ -322,6 +331,31 @@ SymMonLinCauch(\widebar{k(\mathbb{P})}, -) & \cong & SymMonLin(k(\mathbb{P}), U_
 
 so that $\widebar{k \mathbb{P}}$ is the representing object. 
 =--
+
++-- {: .query}
+
+[[John Baez]]: Todd, you write "It is well-known that the permutation category $\mathbb{P}$, whose objects are integers $m \geq 0$ and whose morphisms are precisely automorphisms $m \to m$ given by permutation groups $S_m$, is the representing object for the underlying 2-functor $U_0: SymMonCat \to Cat.$"  Could you provide a reference?  It seems obvious to me, but I'm really bad at proving these obvious-sounding things.  
+
+Isn't this statement a way of saying that $\mathbb{P}$ is the free symmetric monoidal category on one object?   It seems you're starting with that idea and then using a chain of pseudoadjunctions to show that:
+
+* $k \mathbb{P}$ is the free symmetric monoidal $k$-linear category on one object, and 
+
+* $\overline{k \mathbb{P}}$ is the free symmetric monoidal Cauchy complete $k$-linear category on one object.
+
+Maybe something very general is going on here, which I shudder to contemplate.  We know that if $X$ is a 2-category of pseudoalgebras for some pseudomonoid on $Cat$, we get a pseudoadjunction 
+
+$$  U : X \to Cat $$ 
+
+$$  F: Cat \to X $$
+
+But in the examples we're dealing with --- namely $X = SymMonCat, SymMonLin$ and $SymMonLinCauch$ --- the forgetful 2-functor $U$ is representable by $F(1)$.  How often is that true?   Always, or only when some nice condition holds?
+
+And then, in your big theorem below, you seem to be saying that in the examples we're dealing with, $U(F(1))$ can be recovered as the category of pseudonatural transformations from $U$ to itself, and modifications between these.  How often is that true?
+  
+Very cool stuff.
+
+=--
+
 
 ### Structure of the representing object
 
