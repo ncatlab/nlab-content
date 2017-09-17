@@ -1,6 +1,8 @@
+I am an italian PhD student in Mathematics; it's difficult to summarize my interests, but since I discovered the nlab three years ago I lurk it almost everyday, so they are basically modeled on the topics encountered here: Category Theory to understand Mathematics, Physics and Philosophy.
+
+I'm currently a student of [[people:Domenico Fiorenza]], whose invaluable help permitted me to survive to the loneliness category theorists face here where I am.
 
 [This](http://people.sissa.it/~floregi/) is my personal website. Enjoy!
-
 
 category: people
 
