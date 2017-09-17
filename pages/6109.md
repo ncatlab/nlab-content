@@ -1,0 +1,135 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The [[path integral]] in [[quantization]] can be understood -- to the extent and in the cases that it can be understood at all -- as an [[integral transform] induced from a [[span]] that is given by [[hom-space]]s.  According to the general reasoning of [[integral transforms on sheaves]] this means that it is given by a _pull-push_ operation through spans.
+
+
+## Examples
+
+### The quantum particle
+
+The archetypical example of the [[path integral]] is that for the [[sigma model]] that describes the [[quantum mechanics]] of the [[particle]] propagating on the [[target space]] $X = \mathbb{R}$ --  the [[line]]. 
+
+In a finite approximation, one considers for $N \in \mathbb{N}$ paths consisting on $N$ discrete steps: let $I_N := \{0, 1, \cdots, N\}$ be the set of $N+1$ elements. Regarding this as an abstract discrete [[cobordism]] of $N$ steps, we consider the [[cospan]]
+
+$$
+  \array{
+    && I_N
+    \\
+    & {}^{\mathllap{in}}\nearrow && \nwarrow^{\mathrlap{out}}
+    \\
+    * &&&& * 
+  }
+  \,,
+$$
+
+where $in : * \to I_N$ is the inclusion of the first elements 0, and $out : * \to I_N$ the inclusion of the last element, $N$.
+
+The mapping space $X^{I_N} \simeq X \times X \times \cdots \times X$ is the _space of paths_ -- the space of paths in $X = \mathbb{R}$ consisting of $n$ linear steps. Homming the above cospan into $X$ produces the span
+
+$$
+  \array{ 
+    && X^{I_N}
+    \\
+    & {}^{\mathllap{X^{in}}}\swarrow && \searrow^{\mathrlap{X^{out}}}
+    \\
+    X \simeq X^* &&&& X^* \simeq X
+  }
+  \,.
+$$
+
+In the canonical coordinates on $X^{I_N}$ a path $\gamma \in X^{I_N}$ is parameterized as 
+
+$$
+  \gamma = (x_0, x_1, \cdots, x_N)
+  \,.
+$$ 
+ 
+The [[action functional]] that encodes the dynamics of the free particle on $X$ is the [[differential form|differential form]] on $X^{I_N}$ given by
+
+$$
+  \exp(i S) := \exp(i \sum_{i = 1}^N \frac{m}{2}(\frac{x_i -  x_{i-1}}{1/N})^2) d x_0 \wedge d x_1 \wedge \cdots \wedge d x_{N-1}
+  \in 
+  \Omega^{N}(X^{I_n})
+  \,.
+$$
+
+Denote by
+
+$$
+  (X^{in})^* : \Omega^\bullet(X) \to \Omega^\bullet(X^{I_N})
+$$
+
+the pullback of differential forms along $X^{in}$, and by
+
+$$
+  (X^{out})_* := \int_{X^{I_N}/X} : \Omega^\bullet(X^{I_N}) \to \Omega^{\bullet - N}(X)
+$$
+
+the "pushforward": the [[fiber integration]] of differential forms.
+
+Then then standard path integral for the particle is given by 
+
+1. pulling back functions along $X^{in}$;
+
+1. taking their wedge product with $\exp(i S)$;
+
+1. pushing the result forward along $X^{out}$. 
+
+This gives the map
+
+$$
+   (X^{out})_* \circ exp(i S) \wedge (-) \circ (X^{in})^*
+   :
+   \Omega^0(X) \stackrel{(X^{in})^*}{\to} C^\infty(X^{I_n}) \stackrel{\exp(i S)\wedge}{\to} 
+   \Omega^{N}(X^{I_N}) \stackrel{(X^{out})_*}{\to} 
+   \Omega^0(X)
+$$
+
+that acts by
+
+$$
+  (\psi \in C^\infty(X))
+  \mapsto
+  \left(
+   x \mapsto
+  \int_{X^{I_N}/X}
+     \psi(x_0) \exp(i \frac{m}{2} \sum_{i = 1}^N (\frac{x_i - x_{i-1}}{1/N})^2 )
+     d x_0 \wedge \cdots \wedge d x_{N-1}
+  \right)
+  \,.
+$$
+
+This is the standard expression for the path integral of the particle on the line, at the approximation of $N$ discrete steps. 
+
+### Gromov-Witten theory
+
+* [[Gromov-Witten theory]]
+
+### String topology
+
+* [[string topology]]
+
+## Related concepts
+
+* [[integral transforms on sheaves]]
+
+## References
+
+The pull-push nature of the path integral was amplified in
+
+* [[Dan Freed]]
+
+  * _Quantum groups from path integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
+
+  * _Higher algebraic structures and quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
+
+
+* [[Dan Freed]], _Twisted K-theory and the Verlinde ring_ ([pdf slides](http://www.ma.utexas.edu/users/dafr/Andrejewski%20Lectures.html))
+
+[[!redirects path integral as a pull-push transformation]]
