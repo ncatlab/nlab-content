@@ -1,3 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Sweedler notation_ is a spectial notation for discussion of operations in [[coalgebra]]s
+
+## Definition
+
 If $C$ is a [[coassociative coalgebra|coassociative]] [[coalgebra]] and then for $c\in C$, the comultiplication $\Delta$ maps $c$ to an element in $C\otimes C$ which is therefore a sum of the form $\sum_{i=1}^n a_i\otimes b_i$. Sweedler suggests that we do not make up new symbols like $a$ and $b$ but rather use composed symbols $c_{(1)}$ and $c_{(2)}$. Therefore
 
 $$\Delta(c) = \sum_{i=1}^n c_{(1)i}\otimes c_{(2)i}.$$
@@ -21,3 +42,8 @@ $$ \array{v_{(0)}\otimes v_{(1)} \otimes v_{(2)} := v_{(0)(0)}\otimes v_{(0)(1)}
 where we used the *sumless* Sweedler notation.
 
 On big use is that the scalars like $\epsilon(a_{(3)})$ can be moved freely along the expression, which is difficult to write without calculating with Sweedler components: one would need lots of brackets and flip operators, and this could be messy and abstract.
+
+## References
+
+The notation is named after [[Moss Sweedler]].
+
