@@ -24,6 +24,12 @@ $$
 
 is called the **fundamental solution** for $P$; alternative names like __Green function__ and __function of influence__ are also used. A particular solution of the nonhomogeneous equation for some other $g$ can be obtained by calculating the [[convolution]] with the fundamental solution. (Compare the fact that the delta function is the [[identity element]] for convolution.)
 
+## Related concepts
+
+* [[Feynman propagator]]
+
+* [[Dirac propagator]]
+
 ## References
 
 * Wikipedia, _[Fundamental solution](http://en.wikipedia.org/wiki/Fundamental_solution)_
