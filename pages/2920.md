@@ -1084,4 +1084,10 @@ Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable
 [[!redirects Bousfield localisation]]
 
 [[!redirects left Bousfield localization]]
-[[!redirects rigth Bousfield localization]]
+[[!redirects left Bousfield localizations]]
+[[!redirects right Bousfield localization]]
+[[!redirects right Bousfield localizations]]
+[[!redirects left Bousfield localisation]]
+[[!redirects left Bousfield localisations]]
+[[!redirects right Bousfield localisation]]
+[[!redirects right Bousfield localisations]]
