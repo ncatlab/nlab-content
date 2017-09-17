@@ -16,6 +16,9 @@
 
 ## Idea ##
 
+(This page discusses the Theory of Homotopy Theories, as derived from the homotopical algebra approach to the subject.  For other topics within the general area of Homotopy Theory, look at the list of related entries. You will probably find what you want. If you don't why not write a page on the topic.)
+
+
 In the modern perspective (or at least, from the [[nPOV]]) **homotopy theory** is the [[higher category theory]] of [[(∞,1)-category|(∞,1)-categories]]: those $\infty$-[[infinity-category|categories]] in which all [[k-morphism]]s for $k \gt 1$ are invertible.
 
 The archetypical example is the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoids]], just as [[Set]] is the archetypical 1-[[category]].
