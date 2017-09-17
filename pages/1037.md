@@ -607,6 +607,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[localization of a simplicial model category]]
 
+* [[Combinatorial model categories have presentations]]
+
 category: reference
 
 [[!redirects HTT]]
