@@ -41,7 +41,7 @@ $$
   }
 $$
 
-such that each row and each column is a [[complex]] (the [[differentials]] square to 0: $\partial^v \circ \partial^v = 0$ and $\partial^h \circ \partial^h = 0$) and such that all the squares [[commuting diagram| commute]], or 'anti-commute' according to taste; (see below).
+such that each row and each column is a [[complex]] (the [[differentials]] square to 0: $\partial^v \circ \partial^v = 0$ and $\partial^h \circ \partial^h = 0$) and such that all the squares [[commuting diagram| commute]].
 
 This means that a **double complex** is a [[complex]] in a category of [[complexes]]. 
 
@@ -59,14 +59,15 @@ $$
 In the presence of [[direct sums]], there is a _[[total complex]]_ $(Tot X)_\bullet$ associated to a double complex, which in degree $n$ is the direct sum of all terms of _total degree_ $n$
 
 $$
-  (Tot X)_n \coloneqq \oplus_{k+l = n} X_{k,l}
+  (Tot X)_n \coloneqq \oplus_{k+l = n} X_{k,l}.
 $$
 
-and the interest in double complexes is often that in these total complexes.
+Often it is such total complexes that are of interest.
 
-Since the [[differential]] of the total complex is the sum of the horizontal and the vertical differential _made anti-commutative_, one often sees the double complex defined as above from a complex of complexes, but then with the differentials in every second row (or every second column) multiplied by $(-1)$. This is just a different way of sign-bookkeeping, a detailed discussion of this is below.
 
-Double chain complexes usually arise from the application of bifunctors -- [[additive functors]] of two variables -- of [[additive category|additive categories]] $C_1, C_2, C_3$
+The [[differential]] of the total complex is the sum of the horizontal and the vertical differential _made anti-commutative by adjusting signs_. There is a second convention in which one often sees the double complex defined as above from a complex of complexes, but then with the differentials in every second row (or every second column) multiplied by $(-1)$. This is just a different way of sign-bookkeeping, a detailed discussion of this is below. Which convention to use is sometimes influenced by the context, the traditions of the sources in that application of double complexes, and largely a question of taste, that is which one the writer is used to.
+
+Double chain complexes often arise from the application of bifunctors -- [[additive functors]] of two variables -- of [[additive category|additive categories]] $C_1, C_2, C_3$
 
 $$
   F :  C_1 \times C_2 \to C_3
@@ -82,6 +83,9 @@ $$
 The most important examples of this are induced by the [[hom-functor]] and the [[tensor product]] functor together with their [[derived functors]], [[Ext]] and [[Tor]].
 
 Notice that under the [[Dold-Kan correspondence]] and with sufficient [[resolutions]], such $\tilde F$ can be understood as the internal hom or tensor products, etc., between [[infinity-groupoid|higher groupoids]].
+
+
+Although we suggest (and prefer) the 'complex of complexes' definition, as above, rather than the equivalent  _anticommutiing diagram_ one, we give both and will discuss how to go between them in some detail.
 
 ## Definition
 
@@ -171,11 +175,14 @@ $$
   }
 $$
 
-Which is 'better'? 'Commuting squares', i.e., the first version, is convenient if you want to define a double complex as a chain complex in the category of chain complexes. On the other hand, 'anticommuting squares' and version 2 is convenient for defining the total complex (for computing total homology). Does it matter which you use? The following says they are just two views of the same situation.
 
 ### Equivalence of the two definitions
 
-One makes a double complex $X$ with commutative squares into a double complex with anticommutative squares by using the same vertical differential $d^v$ but taking $\bar{d}^h : X_{p,q} \to X_{p,q-1}$ to be $(-1)^p d^h$. The same trick can be used to make a double complex with anticommutative squares into a double complex with commutative squares.
+Which definition is 'better'? 'Commuting squares', i.e., the first version, is convenient if you want to define a double complex as a chain complex in the category of chain complexes. On the other hand, 'anticommuting squares' and version 2 is sometimes convenient for defining the total complex (for computing total homology). Does it matter which you use? The following says they are just two views of the same situation.
+
+
+
+One makes a double complex $X$ with commutative squares into a double complex with anticommutative squares by using the same vertical differential $d^v$ but taking $\bar{d}^h : X_{p,q} \to X_{p,q-1}$ to be $(-1)^p d^h$. The same trick can, of course, be used to make a double complex with anticommutative squares into a double complex with commutative squares.
 
 ## Total complex of a double complex
 
