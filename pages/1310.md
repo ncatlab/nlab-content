@@ -270,6 +270,10 @@ The [[Lie integration]] of representations of Lie 1-algebroids $\mathfrak{a} \to
 * [[Camilo Arias Abad]], [[Florian Schätz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv:1011.4693](http://arxiv.org/abs/1011.4693))
 
 
+[[!redirects representation of an ∞-Lie algebroid]]
+[[!redirects representations of ∞-Lie algebroids]]
+
+
 [[!redirects Lie infinity-algebroid representations]]
 [[!redirects Lie ∞-algebroid representation]]
 [[!redirects Lie-∞ algebroid representation]]
