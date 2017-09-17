@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Symplectic geometry
+#### Geometric quantization
 +--{: .hide}
-[[!include symplectic geometry - contents]]
+[[!include geometric quantization - contents]]
 =--
 =--
 =--
