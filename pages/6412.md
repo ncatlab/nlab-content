@@ -19,6 +19,8 @@ For $p$ any [[prime number]], the _$p$-adic numbers_ $\mathbb{Q}_p$ are a [[fiel
 
 $p$-Adic numbers play a role in non-archimedean [[analytic geometry]] that is analogous to the role of the [[real numbers]]/[[Cartesian spaces]] in ordinary [[differential geometry]]. 
 
+Moreover, as such they serve as an approximation technique in [[arithmetic geometry]] over [[prime fields]] $\mathbb{F}_p$ (see e.g. [Lubicz](#Lubicz)).
+
 There have long been speculations (see the references [below](#ReferencesApplications)) that this must mean that $p$-adic numbers also play a central role in the description of [[physics]], see _[[p-adic physics]]_.
 
 ## Definition
@@ -92,7 +94,7 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 
 * [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]]
 
-* [[p-adic integer]]
+* [[p-adic integer]], [[p-adic complex number]]
 
 * [[p-adic geometry]]
 
@@ -116,6 +118,10 @@ The $p$-adic numbers had been introduced in
 A standard reference is
 
 * [[Jean-Pierre Serre]], _A course in arithmetic_, Grad. Texts in Math. __7__, Springer (1973)
+
+Review of the use of $p$-adic numbers in [[arithmetic geometry]] includes
+
+* {#Lubicz} [[David Lubicz]], _An introduction to the algorithmic of $p$-adic numbers_ ([pdf](http://www.hyperelliptic.org/tanja/conf/summerschool08/slides/p-adics.pdf))
 
 A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in
 
