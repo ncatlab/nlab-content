@@ -1,17 +1,21 @@
 A **connection** can mean
 
-* [[connection on a cubical set]]
-
-* [[connection for a differential graded algebra]]
-
 * [[connection on a bundle]]
 
-* [[Grothendieck connection]]
+  * [[meromorphic connection]]
+
+  * [[Grothendieck connection]]
 
 * [[Hurewicz connection]]
 
+* [[connection for a differential graded algebra]]
+
 * [[connection for a coring]]
 
-* [[meromorphic connection]]
+which are all very similar or special cases of each other, and also
+
+* [[connection on a cubical set]]
+
+which is something very different.
 
 [[!redirects connections]]
