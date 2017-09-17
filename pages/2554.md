@@ -1,6 +1,16 @@
 
 **[[homotopy theory]]**
 
+## Background
+
+* [[algebraic topology]]
+
+* [[homotopy]]
+
+* [[homotopy type]]
+
+## Variations
+
 * [[stable homotopy theory]]
 
 * [[proper homotopy theory]]
