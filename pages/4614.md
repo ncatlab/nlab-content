@@ -98,7 +98,7 @@ $$
   good \Rightarrow proper
 $$
 
-When these conditions are not met, then the [[fat realization]] $||X||$ of the simplicial space, i.e. the coend of the diagram given by restricting to the subcategory of $\Delta$ with only the coface maps. Generally, there is a map $||X|| \to |X|$ which is a (weak?) homotopy equivalence when $X$ is good or proper (this is in the 'good' case I think due to Segal, and Tammo tom Dieck finished up/cleaned up the proof).
+When these conditions are not met, then the [[fat realization]] $||X||$ of the simplicial space, i.e. the coend of the diagram given by restricting to the subcategory of $\Delta$ with only the coface maps computes the homotopy colimit, rather than the geometric realisation. Generally, there is a map $||X|| \to |X|$ which is a (weak?) homotopy equivalence when $X$ is good or proper (this is in the 'good' case I think due to Segal, and Tammo tom Dieck finished up/cleaned up the proof).
 
 +--{: .query}
 [[David Roberts]]: this needs expanding/clarifying. I'm not sure who the result that good $\Rightarrow$ proper is due to, but I proved it in unpublished work with [[Danny Stevenson]]. I'm sure we're not the first, but it seems like folklore.
