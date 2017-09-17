@@ -180,9 +180,6 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 * The Joyal-[[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
 
 * The [[Charles Rezk]]-model structure for [[Theta space]]s models general $(n,r)$-categories.
-[[!redirects (n,r)-categories]]
-[[!redirects (n,r) category]]
-
 
 ## Related concepts
 
@@ -209,6 +206,13 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 
 * [[(∞,n)-category]]
 
-* **(n,r)-category**
+* **(n,r)-category** 
+
+[[!redirects (n,r) categories]]
+[[!redirects (n,r) category]]
+[[!redirects (n,r)-categories]]
+[[!redirects (n,r)-category]]
+[[!redirects (n, r)-category]] 
+[[!redirects (n, r)-categories]] 
 
 
