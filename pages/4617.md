@@ -882,85 +882,7 @@ For $T$ the theory of ordinary commutative algebras, this yields a derived exten
 
 ### Enrichment of categories of simplicial objects {#Enrichment}
 
-We recall some basic facts on [[sSet]]-[[enriched category|enriched]] [[categories of simplicial objects]].
-
-+-- {: .un_defn}
-###### Definition
-
-Let $D$ be a [[nLab:category]] with all [[nLab:limit]]s and [[nLab:colimit]]s. This implies that it is [[nLab:copower|tensored]] over [[nLab:Set]]
-
-$$
-  \cdot : D \times Set \to D
-  \,.
-$$
-
-This induces a functor
-
-$$
-  \cdot^{\Delta^{op}} : D^{\Delta^{op}} \times sSet \to D^{\Delta^{op}}
-$$
-
-which we shall also write just "$\cdot$".
-
-For $X,Y \in D^{\Delta^{op}}$ write
-
-$$
-  D^{\Delta^{op}}(X,Y) := Hom_{D^{\Delta^{op}}}(X \cdot \Delta[\bullet], Y)
-  \in sSet
-$$
-
-and for $X,Y,Z \in D^{\Delta^{op}}$ let
-
-$$
-  D^{\Delta^{op}}(X,Y)
-    \times  
-  D^{\Delta^{op}}(Y,Z)
-  \to 
-  D^{\Delta^{op}}(X,Z)
-$$
-
-be given in degree $n$ by
-
-$$
-  (X \cdot \Delta[n] \to Y, Y \cdot \Delta[n] \to Z)
-  \mapsto
-  ( X \cdot \Delta[n] \to X \cdot \Delta[n]\times \Delta[n] \to Y \cdot \Delta[n]  \to Z)
-  \,.
-$$
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-With the above definitions $D^{\Delta^{op}}$ becomes an [[nLab:sSet]]-[[nLab:enriched category]] which is both [[nLab:copower|tensored]] as well as [[nLab:power|cotensored]] over $sSet$.
-
-=--
-
-+-- {: .un_def}
-###### Definition
-
-We regard $D^{\Delta}$ as an $sSet$-enriched category by 
-
-$$
-  D^{\Delta} \simeq ({D^{op}}^{\Delta^{op}})^{op}
-  \,.
-$$
-
-=--
-
-
-+-- {: .un_example}
-###### Example
-
-For $X \in [C^{op}, sSet]$ and $S \in sSet$ we have that the tensoring is given by
-
-$$
-  X \cdots S : (U \in C) \mapsto X(U) \times S 
-  \,.
-$$
-
-=--
+We make use of the canonical structure of an [[sSet]]-[[enriched category]] on any [[category of cosimplicial objects]] in a category with all limits and colimits (see there).
 
 +-- {: .un_example}
 ###### Example
@@ -982,11 +904,12 @@ with the [[nLab:product]] taken in $T Alg$.
 
 ### Model structure on cosimplicial abelian groups
 
-(...)
+We use the [[model category]] structure on $Ab^\Delta$ whose fibratin are the degreewise surjections, and whose weak equivalences are the usual [[quasi-isomorphism]]s under the dual [[Dold-Kan correspondence]] $Ab^\Delta \simeq Ch^\bullet_+(Ab)$.
 
-See [[nLab:model structure on cosimplicial abelian groups]].
+The model structure is described in detail at <a href="http://ncatlab.org/nlab/show/model+structure+on+chain+complexes#CochainNonNegProj">model structure on chain complexes - the projective structure</a>.
 
-(...)
+The structure of a [[simplicial model category]] is described in detail at [[model structure on cosimplicial abelian groups]].
+
 
 ## References
 
