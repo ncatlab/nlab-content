@@ -53,7 +53,7 @@ Let $K$ be a simplicial set.  A **local system** $F$ on $K$ with values in $\mat
 
 1. a family of objects $F_\sigma =\sum_{p\geq 0} F^p_\sigma$ in $\mathcal{C}$ indexed by the simplices $\sigma$ of $K$;
 
-1. a family of morphism (called the _face_ and _degeneracy_ operators) 
+1. a family of morphisms (called the _face_ and _degeneracy_ operators) 
 
 $$d_i :F_\sigma \to F_{d_i\sigma} \quad and\quad s_i : F_\sigma \to F_{s_i\sigma}$$ 
 
