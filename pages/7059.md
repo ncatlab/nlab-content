@@ -253,3 +253,9 @@ In the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) formerly known as t
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
+
+[[!redirects cohesive homotopy type theories]]
+
+[[!redirects cohesive homotopy type]]
+[[!redirects cohesive homotopy types]]
+
