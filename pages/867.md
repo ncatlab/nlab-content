@@ -68,7 +68,7 @@ A poset in which every finite set has an upper bound (but perhaps not a *least* 
 
 As remarked above, a poset in which each interval $[x,y]$ is a [[finite set]] is called __locally finite__ or a __[[causet]]__.
 
-A poset with a bounding [[countable set|countable subset]] is called __$\sigma$-bounded__.  That is, the poset is $\sigma$-bounded above if there exists a sequence $(x_n)_{n=1}^{N}$ (where $N$ is a natural number or infinity) such that for every $y$ in the poset there is an $x_m$ with $y \leq x_m$.  (The poset is $\sigma$-bounded below if we have $x_m \leq y$ instead.)  Note that every bounded poset is $\sigma$-bounded, but not conversely.
+A poset with a bounding [[countable set|countable subset]] is called __$\sigma$-bounded__.  That is, the poset is $\sigma$-bounded above if there exists a sequence $(x_n)_{n=1}^{N}$ (where $N$ is a natural number or infinity) such that for every $y$ in the poset there is an $x_m$ with $y \leq x_m$.  (The poset is $\sigma$-bounded below if we have $x_m \leq y$ instead.)  Note that every bounded poset is $\sigma$-bounded, but not conversely.  Note that some authorities require $N = \infty$; this makes a difference only for the empty poset (we say it is $\sigma$-bounded, they say it is not).
 
 
 ## In higher category theory ##
