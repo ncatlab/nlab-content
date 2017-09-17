@@ -75,11 +75,20 @@ The [[duality|dual]] notion is an [[over category]].
 
 ## Related concepts
 
-* [[slice category]]
+* [[over-category]] 
 
-* [[over category]] / [[over (∞,1)-category]]
+  * [[slice category]] 
 
-* **under category**
+  * **under category** 
+
+  * [[over topos]]
+
+
+* [[over (∞,1)-category]],
+
+  * [[model structure on an over category]] 
+
+  * [[over-(∞,1)-topos]]
 
 
 
