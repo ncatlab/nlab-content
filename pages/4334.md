@@ -1,3 +1,4 @@
+[[!redirects Chris Douglas]]
 
 * [website](http://math.berkeley.edu/~cdouglas/)
 
