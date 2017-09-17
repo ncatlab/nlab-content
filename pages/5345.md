@@ -22,7 +22,7 @@ There is a [[model category]] structure on $sGrpd$ whose
 
 * fibrations are the morphisms $f : H \to K$ such that 
 
-  1. for every [[object]] $x$ of $H$ and every morphism $\omega : g(x) \to y$ in $K_0$ there is a morphism $\hat \omega : x \to z$ of $H_0$ such that $f(\hat \omega) = \omega$;
+  1. for every [[object]] $x$ of $H$ and every morphism $\omega : f(x) \to y$ in $K_0$ there is a morphism $\hat \omega : x \to z$ of $H_0$ such that $f(\hat \omega) = \omega$;
 
   1. for every object $x$ in $H$ the induced morphism $f : H(x,x) \to K(f(x), f(x))$ is a [[Kan fibration]].
 
@@ -32,8 +32,38 @@ There is a [[model category]] structure on $sGrpd$ whose
 
   1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]] or equivalently in the [[model structure on simplicial sets]].
 
+## Properties
+
+
++-- {: .num_prop}
+###### Proposition
+
+We have a [[Quillen adjunction]]
+
+$$
+  (G \dashv \bar W) : 
+  Grpd^\Delta
+   \stackrel{\overset{G}{\leftarrow}}{\underset{\bar W}{\to}}
+  sSet_{Quillen}  
+$$
+
+where both $G$ and $\bar W$ preserve all [[weak equivalence]]s.
+
+=--
+
+This appears for instance as 
+([GoerssJardine, theorem 7.8](#GoerssJardine))
+
++-- {: .num_remark}
+###### Remark
+
+When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bullet$ a [[simplicial group]] and $B G_n$ its [[delooping]] [[groupoid]] this produces a standard presentation of [[looping and delooping]] for [[infinity-group]]s. See there for more details.
+
+=--
+
 ## References
 
-After corollary 7.3 in chapter V of
+The model structure is discussed after corollary 7.3 in chapter V of
 
 * [[Paul Goerss]] and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+ {#GoerssJardine}
