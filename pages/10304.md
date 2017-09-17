@@ -15,6 +15,8 @@
 
 ## Related entries
 
+* [[measurement]], [[quantum measurement]]
+
 * [[theory (physics)]], [[coordination]]
 
 * [[observable universe]]
