@@ -6,16 +6,20 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Induction
++-- {: .hide}
+[[!include type induction - contents]]
+=--
 =--
 =--
 
 # W-types
-* toc
+* table of contents
 {: toc}
 
 ## Idea
 
-A *W-type* is a [[set]] or [[type]] which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way.  In most [[set theory|set theories]], W-types can be proven to exist, but in [[predicative mathematics]] or [[type theory]], where this is not the case, they are often assumed explicitly to exist.
+A *W-type* is a [[set]] or [[type]] which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way -- an [[inductive type]].  In most [[set theory|set theories]], W-types can be proven to exist, but in [[predicative mathematics]] or [[type theory]], where this is not the case, they are often assumed explicitly to exist.
 
 The elements of a W-type can be considered to be "rooted well-founded trees" with a certain branching type; different W-types are distinguished by their branching signatures.  A branching signature is represented essentially by a [[family of sets]] $\{A_b\}_{b\in B}$ which can be interpreted as requiring that each *node* of the tree is labeled with an element of the set $B$, and that if a node is labeled by $b$ then it has exactly ${|A_b|}$ outgoing edges, each labeled by an element of $A_b$.  From a more computational point of view, the W-type can be viewed as a data type, where $B$ indexes the set of *constructors* and $A_b$ is the *arity* of the constructor $b$.
 
@@ -75,9 +79,14 @@ Note also that in [[intensional type theory]], a W-type is only an initial algeb
 
 ## References
 
-* [[Ieke Moerdijk]] and Palmgren, "Wellfounded trees in categories"
+* [[Ieke Moerdijk]], Palmgren, _Wellfounded trees in categories_
 
 *  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
+
+Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
+
+* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
+ {#AwodeyGambinoSojakova}
 
 [[!redirects W-types]]
 
