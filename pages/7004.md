@@ -1,0 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+
+## Idea
+
+The interpretation of the [[syntax]] of [[theories]] in [[models]].
+
+## Related concepts
+
+* [[categorical semantics]].
