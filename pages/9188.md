@@ -3,6 +3,7 @@
 
 * [[electric charge]], [[magnetic charge]]
 
+* [[central charge]]
 
 [[!redirects charges]]
 
