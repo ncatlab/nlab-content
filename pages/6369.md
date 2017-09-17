@@ -15,7 +15,9 @@ The main direction in algebraic number theory is the [[class field theory]] whic
 
 The circle of $n$Lab entries belonging or related closely to algebraic number theory is in its infancy, and the partial list of entries some of which are started and most of which are to be created should include (the entries grouped by similarity)
 
-* [[field]], [[characteristic]], [[division ring]], [[ideal]], [[integer]]
+* [[field]], [[characteristic]], [[division ring]], [[ideal]]
+
+* [[integer]], [[rational number]], [[irrational number]], [[period]]
 
 * [[p-adic number]], [[profinite group]], [[idele]], [[adele]]
 
@@ -43,7 +45,7 @@ The circle of $n$Lab entries belonging or related closely to algebraic number th
 
 * [[reciprocity law]], [[Artin reciprocity law]], [[Weil reciprocity law]]
 
-* [[arithmetic scheme]], [[Arakelov geometry]], [[field of one element]]
+* [[arithmetic scheme]], [[Arakelov geometry]], [[field with one element]]
 
 * [[L-function]], [[motive]], [[Riemann conjecture]], [[algebraic K-theory]], [[Grothendieck Galois theory]]
 
