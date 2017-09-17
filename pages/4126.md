@@ -145,11 +145,13 @@ For more see at _[[Bohr topos]]_.
 
 Other theorems about the foundations of [[quantum mechanics]] include:
 
-* [[Gleason's theorem]]
+* [[order-theoretic structure in quantum mechanics]]
 
-* [[Alfsen-Shultz theorem]]
+  * [[Gleason's theorem]]
 
-* [[Harding-Döring-Hamhalter theorem]]
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
 
 * [[Wigner theorem]]
 
