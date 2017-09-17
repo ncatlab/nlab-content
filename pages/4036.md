@@ -7,7 +7,7 @@
 
 ## Definition
 
-A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X$ is called a **good cover** -- or **good open cover** if it is also an [[open cover]] -- if all the $U_i$ and all their finite intersections are [[contractible]].
+A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X$ is called a **good cover** -- or **good open cover** if it is also an [[open cover]] -- if all the $U_i$ and all their nonempty finite intersections are [[contractible]].
 
 
 
