@@ -49,9 +49,9 @@ One of the oldest studies of variations of the standard model is the investigati
 ### Noncommutative geometry
  {#NCGeometry}
 
-A wide-spread perception is that some of the conceptual problems with the standard model point to the fact that some basic assumption of 20th century physics on the nature of reality is too oversimplified. In approaches of [[noncommutative geometry]] one postulates that modeling  [[spacetime]] as a smooth [[manifold]] is an oversimplification that makes itself felt when the quantization of the force of [[gravity]] becomes relevant.
+A widespread perception is that some of the conceptual problems with the standard model point to the fact that some basic assumption of 20th century physics on the nature of reality is oversimplified. According to the approach of [[noncommutative geometry]], modeling [[spacetime]] as a smooth [[manifold]] is an oversimplification that makes itself felt when the quantization of the force of [[gravity]] becomes relevant.
 
-In a class of "noncommutative" generalizations of the standard model, spacetime is therefore replaced more generally by a [[spectral triple]] that models a possibly "noncommutative space". One of the more successful approaches in this direction is the Connes--Lott--Chamseddine model. This effectively is a [[Kaluza-Klein theory]] (see above), but with the crucual difference that the fiber in the KK-picture is a highly non-classical non-commutative space, whose classical dimension is that of a point, but whose intrinsic dimension is 6. (This is incidentally the same value of the internal dimension as suggest by [[string theory]].)
+In a class of "noncommutative" generalizations of the standard model, spacetime is therefore replaced more generally by a [[spectral triple]] that models a possibly "noncommutative space". One of the more successful approaches in this direction is the Connes--Lott--Chamseddine model. This effectively is a [[Kaluza-Klein theory]] (see above), but with the crucial difference that the fiber in the KK-picture is a highly non-classical non-commutative space, whose classical dimension is that of a point, but whose intrinsic dimension is 6. (This is incidentally the same value of the internal dimension as suggest by [[string theory]].)
 
 For more on this see
 
