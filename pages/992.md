@@ -271,7 +271,7 @@ This is the stable analog of the statement that every
 [[(∞,1)-category of (∞,1)-sheaves]] is a left exact localization of
 an $(\infty,1)$-category of presheaves.
 
-See at _[[sheaf of spectra]]_.
+See at _[[sheaf of spectra]]_ and _[[model structure on presheaves of spectra]]_ for more.
 
 
 In terms of ([[stable model category|stable]]) [[model category|model categories]], something like an analog of this statement is 
