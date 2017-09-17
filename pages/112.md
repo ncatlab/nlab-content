@@ -1,9 +1,16 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
 [[!include category theory - contents]]
-</div>
+=--
+=--
+=--
 
 
-A [[category]] consists of a collection of **objects** together with [[morphism|morphisms]] between these objects.  Thus, naively, we may think of objects as the '[[elements]]' of a category.  
+A [[category]] consists of a collection of **objects** together with [[morphisms]] between these objects.  Thus, naively, we may think of objects as the '[[elements]]' of a category.  
 
 For example
 
