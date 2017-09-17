@@ -115,17 +115,7 @@ exists.
 
 =--
 
-The relevance of the notion of cartesian morphism is as an ingredient in the following definition.
-
-+-- {: .un_defn}
-###### Definition
-**(Grothendieck fibration)**
-
-If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism , one says that $p$ is a [[Grothendieck fibration]].
-
-=--
-
-The above definition may equivalently be formulated as follows.
+This definition may equivalently be formulated as follows.
 
 Let 
 
@@ -151,6 +141,18 @@ Let
   are objects $a$ of $X$ eqipped with morphisms to $x_1$ and $x_2$ such that the obvious triangle commutes, and whose morphisms are morphisms between these tip objects such that all diagrams in sight commute.
 
 * similarly $Y/p(f)$.
+
+
+The relevance of the notion of cartesian morphism is as an ingredient in the following definition.
+
++-- {: .un_defn}
+###### Definition
+**(Grothendieck fibration)**
+
+If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism , one says that $p$ is a [[Grothendieck fibration]].
+
+=--
+
 
 
 
@@ -349,7 +351,106 @@ This is [[Higher Topos Theory|HTT, prop. 2.4.1.10]].
 =--
 
 
-## Examples and properties
+## Properties
+
+### Pullback along Cartesian morphisms
+
++-- {: .un_lemma}
+###### Lemma
+
+For $p : E \to C$ a functor, if in a diagram
+
+$$
+  \array{
+    A &\stackrel{f}{\to}& B
+    \\
+    {}^{\mathllap{g}}\downarrow && \downarrow^{\mathrlap{h}}
+    \\
+    C &\stackrel{k}{\to}& D
+  }
+$$
+
+in $E$ the two vertical morphisms are vertical with respect to $p$ (meaning that $p(g) = Id_p(A)$ and $p(h) = Id(B)$) and if the two horizontal morphisms are $p$-Cartesian morphisms, then this square is a [[pullback]] square.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If 
+
+$$
+  \array{
+    Q &\stackrel{}{\to}& B
+    \\
+    \downarrow && \downarrow^{\mathrlap{h}}
+    \\
+    C &\stackrel{k}{\to}& D
+  }
+$$
+
+is another cone over $C \to D \leftarrow B$, then its image under $p$
+is 
+
+$$
+  \array{
+    p(Q)
+    \\
+    \downarrow & \searrow
+    \\
+    p(C) &\stackrel{p(k)}{\to}& D
+  }
+  \,.
+$$
+
+Since $p(f) = p(k)$, another lift of the right horn of this is given by
+
+$$
+  \array{
+    Q
+    \\
+    & \searrow
+    \\
+    A &\stackrel{f}{\to}& B
+  }
+$$
+
+which gives a unique filler $Q \to A$ by the fact that $f$ is Cartesian.
+
+But this produces now two fillers -- namely the original $Q \to C$ and the $Q \to A \to C$ just obtained -- of the horn
+
+$$
+  \array{
+    Q &\to& B
+    \\
+    && \downarrow
+    \\
+    C &\stackrel{k}{\to}& D
+  }
+$$
+
+over 
+
+$$
+  \array{
+    p(Q)
+    \\
+    \downarrow & \searrow
+    \\
+    p(C) &\stackrel{p(k)}{\to}& D
+  }
+  \,.
+$$
+
+Since $k$ is Cartesian, these two fillers must be equal. This means that the morphism $Q \to A$ is a cone morphism and unique as such. Hence the original square is a pullback.
+
+=--
+
+This appears as [[Elephant|Elephant, lemma 1.3.3]].
+
+
+### Cartesian morphisms and equivalences
+
 
 +-- {: .un_lemma}
 ###### Observation
@@ -376,7 +477,7 @@ More generally, for $p : X \to Y$ an [[inner fibration]], a morphism $f$ in $X$ 
 
 The first statement is a proposition of [[Andre Joyal]], slightly reformulated in the language of cartesian morphisms. It appears as [[Higher Topos Theory|HTT, prop 1.2.4.3]]. A proof appears below [[Higher Topos Theory|HTT, corollary 2.1.2.2]].
 
-The second statement is [[Higher Topos Theory| prop. 2.4.1.5]].
+The second statement is [[Higher Topos Theory|HTT, prop. 2.4.1.5]].
 
 =--
 
@@ -396,14 +497,19 @@ I imagine that there would then be an $(\infty,1)$-version using whatever passes
 
 ## References 
 
-For the 1-categorical case see the references at [[Grothendieck fibration]].
+For the 1-categorical case see for instance section B1.3 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 The $(\infty,1)$-categorical version is in section 2.4 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
+See also the references at [[Grothendieck fibration]].
 
-[[!redirects Cartesian morphism]]
+
+[[!redirects Cartesian morphisms]]
+[[!redirects cartesian morphism]]
 [[!redirects cartesian morphisms]]
 [[!redirects opcartesian morphism]]
 [[!redirects opcartesian morphisms]]
