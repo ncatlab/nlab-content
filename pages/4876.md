@@ -230,7 +230,7 @@ The observation that the "multiplicative" structure of the WZW-[[B-field]] (indu
 
 The image in [[K-theory]] of these [[Chan-Paton gauge fields]] over conjugacy classes is shown to generate the [[Verlinde ring]]/the [[positive energy representations]] of the [[loop group]] in 
 
-* [[Eckard Meinrenken]], _On the quantization of conjugacy classes_,  	Enseign. Math. (2) 55 (2009), no. 1-2, 33-75 ([arXiv:0707.3963](http://arxiv.org/abs/0707.3963))
+* [[Eckhard Meinrenken]], _On the quantization of conjugacy classes_,  	Enseign. Math. (2) 55 (2009), no. 1-2, 33-75 ([arXiv:0707.3963](http://arxiv.org/abs/0707.3963))
 
 
 ### Relation to extended TQFT
