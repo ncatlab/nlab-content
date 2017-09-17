@@ -338,7 +338,7 @@ Hence in conclusion we find the following statement:
 
 The [[trajectory]] space (history space) of a [[mechanical system]] carries a natural [[Poisson manifold|Poisson structure]] whose [[symplectic leaves]] are the subspaces of those trajectories which satisfy the [[equations of motion]] with a fixed [[source]] term and hence whose symplectic [[leaf space]] is the space of possible sources. 
  
-Notice what becomes of this statement as we consider the the [[2d Chern-Simons theory]] induced by the off-shell Poisson bracket (the [[non-perturbative field theory|non-pertrbative]] [[Poisson sigma-model]]) whose [[moduli stack]] of [[field (physics)|fields]] is the [[symplectic groupoid]] $SG\left(P X, \left\{-,-\right\}\right)$ induced by the Poisson structure. 
+Notice what becomes of this statement as we consider the the [[2d Chern-Simons theory]] induced by the off-shell Poisson bracket (the [[non-perturbative field theory|non-perturbative]] [[Poisson sigma-model]]) whose [[moduli stack]] of [[field (physics)|fields]] is the [[symplectic groupoid]] $SG\left(P X, \left\{-,-\right\}\right)$ induced by the Poisson structure. 
 
 By the discussion at [[motivic quantization]] in the section _[The Poisson manifold at the boundary of the 2d Chern-Simons theory](motivic%20quantization#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory)_, the Poisson space $\left(P X, \left\{-,-\right\}\right)$ defines a  [[boundary field theory]] (in the sense of [[local prequantum field theory]]) for this [[2d Chern-Simons theory]], exhibited by a boundary [[correspondence]] of the form
 
@@ -361,7 +361,7 @@ $$
   \,.
 $$
 
-Notice that the [[symplectic groupoid]] is a version of the [[symplectic leaf|symplectic]] [[leaf space]] of the given [[Poisson manifold]] (its [[0-truncation]] is exactly the leaf space). Hence in the case of the off-shell Poisson bracket, the [[symplectic groupoid]] is the space of _[[sources]]_ of a mechanical system. At the same time it is the [[moduli space]] of [[field (physics)|fields]] of the [[2d Chern-Simons theory]] of which the mechanical system is the [[boundary field theory]].
+Notice that the [[symplectic groupoid]] is a version of the [[symplectic leaf|symplectic]] [[leaf space]] of the given [[Poisson manifold]] (its [[0-truncation]] is exactly the leaf space). Hence in the case of the off-shell Poisson bracket, the [[symplectic groupoid]] is the space of _[[source field|sources]]_ of a mechanical system. At the same time it is the [[moduli space]] of [[field (physics)|fields]] of the [[2d Chern-Simons theory]] of which the mechanical system is the [[boundary field theory]].
 Hence the [[field (physics)|fields]] of the [[bulk field theory]] are identified with the [[sources]] of the [[boundary field theory]]. Hence conceptually the above boundary correspondence diagram is of the following form
 
 $$
