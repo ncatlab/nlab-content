@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -32,6 +42,8 @@ We have:
 
 * an [[object]] of any $T Mod(E)$ is a _concrete particular_.
 
+(In ([Lawvere](#Lawvere)) the item "abstract particular" is apparently not used.)
+
 ## Examples
 
 ### Groups
@@ -50,6 +62,8 @@ An object in there is some [[group]]: a concrete particular.
 
 [[!redirects abstract general]]
 [[!redirects abstract generals]]
+
+[[!redirects general abstract]]
 
 [[!redirects concrete general]]
 [[!redirects concrete generals]]
