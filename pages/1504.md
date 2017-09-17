@@ -473,6 +473,27 @@ Discussion of the [[L-infinity algebra]] [[schreiber:infinity-Chern-Simons theor
 
   _Conformal Field Theory and Algebraic Structure of Gauge Theory_ ([arXiv:0812.1840](http://arxiv.org/abs/0812.1840))
 
+### Background independence
+ {#ReferencesBackgroundIndependence}
+
+References discussing independence of string field theories on the [[CFT]] ([[sigma-model]] background) in terms of which they are written down.
+
+#### For closed string field theory
+ {#ReferencesBackgroundIndependenceForClosed}
+
+* [[Ashoke Sen]], [[Barton Zwiebach]], _Quantum Background Independence of Closed String Field Theory_ ([arXiv:hep-th/9311009](http://arxiv.org/abs/hep-th/9311009))
+
+* [[Ashoke Sen]], [[Barton Zwiebach]], _Background Independent Algebraic Structures in Closed String Field Theory_ ([arXiv:hep-th/9408053](http://arxiv.org/abs/hep-th/9408053))
+
+A review of the history of some related developments is given in
+
+* Sabbir Rahman, _Manifest background independent formulation of string field theory_ ([newsgroup comment](http://www.natscience.com/Uwe/Forum.aspx/physics-research/503/Manifest-background-independent-formulation-of-string-field))
+
+#### For open string field theory
+
+* [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
+
+(...)
 [[!redirects String field theory]]
 
 [[!redirects closed string field theory]]
