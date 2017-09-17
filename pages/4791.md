@@ -53,6 +53,11 @@ The gorup $E_8$ plays a role in some exceptional [[differential geometry]]/[[dif
 
 * [[exceptional generalized geometry]], [[supergravity C-field]], [[Hořava-Witten theory]], [[heterotic string theory]]
 
+* [[G2]], [[F4]],
+
+  [[E6]], [[E7]],  **E8**, [[E9]], [[E10]], [[E11]], $\cdots$
+
+
 ## References
  {#References}
 
