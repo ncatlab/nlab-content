@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functorial quantum field theory
-+--{: .hide}
++-- {: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
-
 
 This entry is about the article
 
@@ -18,9 +17,9 @@ whose main content is a formalization and proof of the
 
 * [[cobordism hypothesis]].
 
-#Content#
+# Contents
 
-## Topological Field Theories and Higher Categories ##
+## Topological Field Theories and Higher Categories
 
 * [[higher category theory]]
 
@@ -32,7 +31,8 @@ whose main content is a formalization and proof of the
 
 * [[n-categorical physics]]
 
-## Formulation of the Cobordism Hypothesis ##
+
+## Formulation of the Cobordism Hypothesis
 
 * [[complete Segal space]]
 
@@ -44,9 +44,11 @@ whose main content is a formalization and proof of the
 
   * [[generalized tangle hypothesis]]
 
+
 ## Proof of the Cobordism Hypothesis
 
-## Beyond the Cobordism Hypothesis ##
+
+## Beyond the Cobordism Hypothesis
 
 * [[factorization algebra]]
 
@@ -54,4 +56,7 @@ whose main content is a formalization and proof of the
 
 * [[TCFT]]
 
-category: reference 
+
+category: reference
+
+[[!redirects On the CLassification of Topological Field Theories]]
