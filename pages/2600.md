@@ -72,7 +72,7 @@ $$
 
 ## Construction
 
-Along the lines of the description at [[Lie integration]] and [[string 2-group]], in a canonical [[models for infinity-stack (infinity,1)-toposes|model]] for $\mathbf{H}$ the morphism $\frac{1}{6}\mathbf{p]_2$ is given by a morphism out of a [[resolution]] $\mathbf{B}Q$ of $\mathbf{B}String(n)$ that is built in degree $k \leq 7$ from smooth $k$-[[simplices]] in the [[Lie group]] $Spin(n)$. This morphism assigns to a 7-simplex $\phi : \Delta^7_{Diff} \to Spin(n)$  the integral 
+Along the lines of the description at [[Lie integration]] and [[string 2-group]], in a canonical [[models for infinity-stack (infinity,1)-toposes|model]] for $\mathbf{H}$ the morphism $\frac{1}{6}\mathbf{p}_2$ is given by a morphism out of a [[resolution]] $\mathbf{B}Q$ of $\mathbf{B}String(n)$ that is built in degree $k \leq 7$ from smooth $k$-[[simplices]] in the [[Lie group]] $Spin(n)$. This morphism assigns to a 7-simplex $\phi : \Delta^7_{Diff} \to Spin(n)$  the integral 
 
 $$
   \int_{\Delta^7_{Diff}} \phi^* \mu_7 \;\;\in
