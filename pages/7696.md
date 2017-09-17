@@ -1,14 +1,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
 #### Complex geometry
 +--{: .hide}
 [[!include complex geometry - contents]]
-=--
-#### Differential geometry
-+--{: .hide}
-[[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
@@ -29,7 +29,7 @@ In the case of non-archimedean ground field, the topology of the affine space is
 
 * [[analytic geometry]], 
 
-  * [[complex analytic space]], [[Berkovich space]]
+  * [[complex analytic space]], [[analytic variety]], [[Berkovich space]]
 
 * [[Banach analytic space]]
 
