@@ -288,6 +288,14 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ### C3 Classes of geometric morphisms
 
+#### C3.2 Proper maps
+
+* [[proper geometric morphism]]
+
+* [[separated geometric morphism]]
+
+* [[compact topos]], [[Hausdorff topos]]
+
 #### C3.3 Locally connected morphisms
 
 * [[locally connected topos]]
