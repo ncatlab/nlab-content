@@ -25,6 +25,12 @@ There is a large class of __abelian reconstruction theorems__, for example the G
 
 __[[Lawvere's reconstruction theorem]]__ reconstructs a Lawvere theory $C$ from its category of finitely generated free models. 
 
+## Gabriel-Ulmer duality
+
+[[Gabriel-Ulmer duality]] is an equivalence of 2-categories LFP of locally finitely presentable categories and Lex of finitely complete categories. It is related to syntax-semantics adjunction and to Tannaka type reconstruction for coalgebra-like objects, with which has a common generalization (enriched Tannaka duality of Day).  
+
+## Heuristics
+
 Typically in the proofs of most reconstruction theorems implicitly Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. Barr embedding theorem and Freyd--Mitchell embedding theorem. 
 
 
