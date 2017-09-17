@@ -66,6 +66,8 @@ _Toby_:  Thanks, Harry!  Now I just have to find these journals at the library.
 
 Like the [[axiom of choice]], the existence of a global choice operator is consistent with the other axioms of most foundations.  For example, in ZF, the [[constructible universe]] (which models $ZF + (V=L)$, the [[axiom of constructibility]]) admits a natural classical [[well-ordering]] of the entire universe, giving rise to a naturally defined global choice operator (namely, $\varepsilon x.P$ = the smallest $x$ such that $P$ in the global well-ordering).
 
+On the other hand, a global choice operator is inconsistent with the [[univalence axiom]] of [[homotopy type theory]].  For univalence requires that all operations on the [[type of types]] must be natural with respect to equivalences, which no global choice operator can be.
+
 
 ## Readings
 
