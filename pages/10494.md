@@ -75,3 +75,5 @@ Where the [[(∞,1)-categorical hom-space]] in a general [[(∞,1)-topos]] const
 
 [[!redirects cohesive stable homotopy theory]]
 [[!redirects cohesive stable homotopy type theory]]
+
+[[!redirects tangent cohesion]]
