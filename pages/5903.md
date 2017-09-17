@@ -214,7 +214,7 @@ Now that the category of contexts (in one sense) of the theory of a group has be
 In [rot13](http://www.rot13.com/) (so that you have a chance to think about it yourself without accidentally seeing the answer): gur bccbfvgr bs gur pngrtbel bs svavgryl cerfragrq tebhcf.
 =--
 
-The result of this exercise is true in more generality: it works for any finite-limit theory; see in particular [[Lawvere theory]].  Presumably there are also infinitary generalizations.  There's some general discussion in the [[Elephant]].
+The result of this [[exercise]] is true in more generality: it works for any finite-limit theory; see in particular [[Lawvere theory]].  Presumably there are also infinitary generalizations.  There's some general discussion in the [[Elephant]].
 
 
 ## Variations
