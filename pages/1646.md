@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
 [[!include functional analysis - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -123,5 +128,9 @@ $$ |\langle x, y \rangle| \leq \|x\| \|y\| .$$
 
 This is really two theorems (at least): an abstract theorem that the inequality holds in any Hilbert space, and concrete theorems that it holds when the inner product and norm are defined by the formulas used in the examples $L^2(X)$ and $l^2(S)$ above.  The concrete theorems apply even to functions that don\'t belong to the Hilbert space and so prove that the inner product converges whenever the norms converge.  (A somewhat stronger result is needed to conclude this convergence constructively; it may be found in Errett Bishop\'s book.)
 
+
+## Related concepts
+
+* [[rigged Hilbert space]]
 
 [[!redirects Hilbert spaces]]
