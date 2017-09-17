@@ -23,16 +23,16 @@
 ### Informal idea
  {#InformalIdea}
 
-The similarity of the behaviour of various [[cohomologies]] of [[algebraic variety|varieties]] over a field suggest that there is a universal one among them with values in an intermediate [[abelian category]], called the category of _motives_. Thus we should have a variety $X$, which maps to its motive $M(X)$, and good cohomologies would factor through that projection. Of course, not every motive is the image of a single variety. There is supposedly also a version with further filtrations (need to be more specific), the [[mixed motive]]s. 
+The similarity of the behaviour of various [[cohomologies]] of [[algebraic variety|varieties]] over a [[field]] suggests that there is a universal one among them with values in an intermediate [[abelian category]], called the _[[category]] of motives_. The idea is that for every variety $X$, there is a motive $M(X)$ and good [[cohomology theories]] would factor through the projection. (Here not every motive is supposed to be the image of a single variety.)
 
-So far there are realizations of [[pure motive]]s, and not of the mixed motives. However there are several equivalent definitions of a triangulated tensor category which has all conjectured structural properties of the derived category of mixed motives (except t-structure which would manifestly make it a derived category); hence it is denoted $D(\mathcal{M M})$.
+[[Grothendieck]]'s original realization of this idea is the [[category of Chow motives]], which is a certain abelianization and completion of a [[category of spans]] of varieties. Later a more [[homotopy theory|homotopy theoretic]] version was givem, the [[Voevodsky motives]] or _derived motives_, see [below](#IdeaOfAbstractDefinition), which subsume the Chow motives faithfully.
+
+One distinguishes a theory of [[pure motives]] from a version with further filtrations, the [[mixed motives]]. 
+So far there are realizations of [[pure motives]], and not of the mixed motives. However there are several equivalent definitions of a [[triangulated category|triangulated]] [[tensor category]] which has all conjectured structural properties of the derived category of mixed motives (except t-structure which would manifestly make it a derived category); hence it is denoted $D(\mathcal{M M})$.
 
 Constructions of motives depend much on whether we work in prime [[characteristic]]s or in characteristic zero. Part of the formalism involves more general [[schemes]] than varieties. 
 
-Another crucial idea leading to motives is that the various cohomologies lead to the same pieces of information; therefore there is a symmetry related to this, which is of Galois nature. For example, over the [[complex numbers]] one can compare the [[Betti cohomology]] and [[de Rham cohomology]] "realizations". Thus one has a motivic [[Galois group]], and as usually with representations one has a [[tensor category]] structure which is also [[rigid monoidal category|rigid]]. Thus one has in fact an [[monoidal abelian category|abelian tensor category]] of motives. The Tannakian reconstruction plays a major role; for pure motives we have neutral [[Tannakian category|Tannakian categories]], and for mixed motives we have mixed Tannakian categories. Functions on the [[torsor]] of the isomorphism between "realizations" correspond to the matrices of [[period]]s in [[Hodge theory]]. 
-
-The category of motives is roughly something like an _abelianization_ and [[derived scheme|derivation]] of the category of [[scheme]]s:
-a _motive_ is sometimes realized as a [[complex]] of [[sheaf|sheaves]] on a category whose objects are [[scheme]]s, but whose morphism are certain [[correspondence]]s between schemes (much like a [[groupoidification]] of the category of schemes).
+Another crucial idea leading to motives is that the various cohomologies lead to the same pieces of information; therefore there is a symmetry related to this, which is of [[Galois theory]] nature. For example, over the [[complex numbers]] one can compare the [[Betti cohomology]] and [[de Rham cohomology]] "realizations". Thus one has a  [[motivic Galois group]], and as usually with representations one has a [[tensor category]] structure which is also [[rigid monoidal category|rigid]]. Thus one has in fact an [[abelian category|abelian]] [[tensor category]] of motives. [[Tannakian reconstruction]] plays a major role; for pure motives we have neutral [[Tannakian category|Tannakian categories]], and for mixed motives we have mixed Tannakian categories. Functions on the [[torsor]] of the isomorphism between "realizations" correspond to the matrices of [[period]]s in [[Hodge theory]]. 
 
 $L$-functions (and $\zeta$-functions in particular) of varieties are also invariants of their motives. The [[Langlands program]] indirectly involves motives; in particular its essential part can be expressed as a general modularity conjecture relating $L$-functions to automorphic functions. Most of the deep properties of [[elliptic curve]]s are of motivic nature, and in particular a major step of the proof of [[Fermat's last theorem]] by Wiles and Taylor can be interpreted as a proof of a special case of the modularity conjecture (for elliptic curves). 
 
@@ -117,6 +117,19 @@ In derived [[noncommutative algebraic geometry]] based on $A_\infty$-categories,
 
 In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rigid analytic geometry]], $A^1$-homotopy theory is replaced by $B^1$-homotopy theory and the appropriate analogue of the Voevodsky's category of mixed motives has been constructed; the construction follows the same basic pattern. 
 
+## Relation to other fields
+
+### Relation to physics
+
+Motivic structures show up in [[quantum field theory]], for instance
+
+* [[motivic multiple zeta values]] in [[scattering amplitudes]]
+
+* the [[motivic Galois group|motivic]] [[cosmic Galois group]] in [[renormalization]].
+
+### Relation to KK-theory
+
+See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutative topology](http://ncatlab.org/nlab/show/KK-theory#AsAnAnalogOfMotives)_.
 
 
 ## Related entries
