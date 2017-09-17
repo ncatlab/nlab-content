@@ -1,4 +1,5 @@
 
+> This entry is about extension of moprhisms, dual to "lift". For other notions see at _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc.
 
 #Contents#
 * table of contents
