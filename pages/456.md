@@ -270,7 +270,7 @@ There are various special cases and types of classes of geometric morphisms. For
 
 * [[localic geometric morphism]]
 
-* [[hyperconnected geometric morphimsm]]
+* [[hyperconnected geometric morphism]]
 
 * [[cohesive topos|cohesive morphism]]
 
