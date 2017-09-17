@@ -59,7 +59,8 @@ There are also various important types of 2-limits that involve 2-cells in the d
 * The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.  Of particular importance is the case when $C$ is the [[walking arrow]] $\mathbf{2}$.
 
 
-## Lax limits 
+## Lax limits
+{#lax}
 
 A **lax limit** is like a 2-limit, except that the triangles in the definition of a cone are required only to commute up to a specified _transformation_, not necessarily an isomorphism.  The lax limit of one diagram can always be converted to an ordinary 2-limit by changing the weight.
 
