@@ -22,14 +22,22 @@
 
 ## Idea
 
+An _anafunctor_ $F : C \to D$ is a generalized [[functor]].
+
 A basic fact in ordinary [[category theory]] is that a [[functor]] $f\colon C \to D$ is an [[equivalence of categories]] -- in that there is a functor $g\colon D \to C$ and natural isomorphisms $f \circ g \simeq Id_D$ and $g \circ f \simeq Id_C$ -- if and only if it is a [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  However, the "if" part of this statement depends crucially on the [[axiom of choice]]: the functor $g$ is obtained by _choosing_  for each [[object]] $d \in D$ an object $c \in C$ such that $f(c) \simeq d$.  In fact, the statement that "every fully faithful and essentially surjective functor is an equivalence of categories" is equivalent to the axiom of choice.
 
 The notion of *anafunctor* is a generalization of the usual notion of *functor*, which enables us to recover a version of this statement without the axiom of choice.  It was first studied in detail by [[Michael Makkai]] with foundational concerns in mind, although it also appears unnamed in an earlier paper of Kelly.  Later, they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option.  These "internal anafunctors" actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
 
-We present two motivations: one foundational, and one practical (regarding the study of [[internal categories]]).  The non-foundationally-inclined reader is suggested to skip to the latter.
-  
+We present three motivations and applications of anafunctors: 
 
-### Foundational motivation
+* [Anafunctors as a tool for handling foundational issues](#FoundationalMotivation)
+
+* [Anafunctors as morphisms in internal categories](#InternalCatMotivation)
+
+* [Anafunctors as morphisms in a homotopy category](#HomotopicalMotivation)
+
+
+### Foundational motivation {#FoundationalMotivation}
 
 There is a sense in which the construction of inverse equivalences is not a "real" use of the axiom of choice, because the choice of $d$ is determined up to unique isomorphism.  Note that in ordinary set theory, the axiom of choice is not necessary to make choices that are uniquely defined; this is sometimes called the "axiom of non-choice" or the "function comprehension principle."  Since in category theory, an object can only be expected to be determined up to unique isomorphism, it is natural to regard the above statement as really being a "functor comprehension principle" or an "axiom of non-choice for categories."  The fact that the full axiom of choice is required to make such choices is then an artifact of the usual [[foundation]]al choice to define categories as having a [[set]] of objects.
 
@@ -38,7 +46,7 @@ In fact, however, we can recover the functor comprehension principle while maint
 Every functor may be interpreted as an anafunctor; that every anafunctor is equivalent to a functor is equivalent to the [[axiom of choice]], in which case the inclusion of functors into anafunctors is in fact an [[equivalence of categories]]. But if you ignore functors and deal only with anafunctors (or saturated anafunctors), then the theory becomes entirely [[constructive mathematics|constructive]] (without using the axiom of choice or even [[excluded middle]]).  Thus, anafunctors (or even saturated anafunctors) are the correct notion to use if you are doing [[constructive mathematics]] and you still want to [[foundations|found]] mathematics on some sort of [[set theory]].
 
   
-### Motivation from internal categories
+### Motivation from internal categories {#InternalCatMotivation}
 
 Since questions concerning the axiom of choice tend to look a bit esoteric to those not actively interested in questions of [[foundations]], it is helpful (and useful!) to think of this more generally in terms of [[internal category]] theory, where the concept is of independent use, and in fact well known by other names than "anafunctor".  Consider some ambient category $\mathcal{E}$ [[internalization|internal]] to which we want to do category theory. A good example to keep in mind is the category [[Top]] of [[topological space]]s.  We observe that "the axiom of choice fails in [[Top]]", but that this is a very non-esoteric and obvious statement: it just means that not every continous [[epimorphism]] $P \to X$ between topological spaces has a _continuous_ [[section]].
 
@@ -52,7 +60,7 @@ For example, let $X$ be a topological space and consider the functor $C(U) \to X
 
 Note that the foundational point of view also fits in this picture; we can simply take $\mathcal{E} = Set_{\not AC}$ to be the category [[Set]] of [[set]]s in a model of set theory that need not satisfy the [[axiom of choice]].  Here the same thing may happen: not every fully faithful and essentially surjective functor has a weak inverse.
 
-### Homotopical motivation
+### Homotopical motivation {#HomotopicalMotivation}
 
 There is a standard way to deal with such situations where we are faced with a category -- here the category $Cat(\mathcal{E})$ of categories internal to $\mathcal{E}$ -- some of whose morphisms look like they ought to have inverses, but do not: we call these would-be invertible morphisms _weak equivalences_ such that our category becomes a [[category with weak equivalences]] or a [[homotopical category]]. Then we pass to the corresponding [[homotopy category]]: the universal "improvement" of our category such that all the would-be invertible morphism do become invertible.
 
@@ -83,6 +91,20 @@ So one can understand ordinary anafunctors as follows:
 1. then we universally _force_ the now non-invertible functors 
    to become invertible after all,
    by throwing in formal inverses for them.
+
+More generally, in any [[category of fibrant objects]] the morphisms in the [[homotopy category]] are represented by [[span]]s of the form
+
+$$
+  \array{
+    \hat X &\to & Y
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X 
+  }
+$$
+
+with the left leg being an acyclic fibration. (This is a special case of the general statements of [[simplicial localization]]). 
 
 
 ## Definitions
@@ -181,9 +203,7 @@ In Makkai's paper referenced below, he proves that $Ana(C,D)$ is small under the
 
 ### Higher versions 
 
-Since the [[canonical model structure]] on $Cat$ extends to $\omega$-[[strict omega-category|categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, strict $\omega$-groupoids are fibrant with respect to the [[canonical model structure]], so that the corresponding $\omega$-[[schreiber:omega-anafunctors|anafunctors] between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
-
-More details on $\omega$-anafunctors are described in the context of [[schreiber:Differential Nonabelian Cohomology]] in the private area of the $n$Lab. See [[schreiber:omega-anafunctor]].
+see [[infinity-anafunctor]]
 
 ### Additive version
 
