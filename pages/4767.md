@@ -28,19 +28,32 @@ Note that $\ln$ is itself a logarithm, the __natural logarithm__, whose base is 
 
 Now consider the [[field]] of [[complex numbers]]; these also form a [[Lie group]] under addition (which we call $\mathbb{C}$), while the nonzero numbers form a Lie group under multiplication (which we call $\mathbb{C}^*$).  Now the multiplicative group is [[connected space|connected]], so we would like to use all of it.
 
-However, $\mathbb{C}$ and $\mathbb{C}^*$ are *not* [[isomorphic]].  In fact, not only is there no isomorphism from $\mathbb{C}^*$ to $\mathbb{C}$; the only such [[homomorphism]] is the [[zero morphism]] $x \mapsto 0$.  (Essentially, this is because $\mathbb{C}$ is [[simply connected space|simply connected]] while $\mathbb{C}^*$ is not.)  On the other hand, we still have plenty of homomorphisms from $\mathbb{C}$ to $\mathbb{C}^*$, one for each nonzero complex number $b$, and these homomorphisms are [[surjections]] whenever $b \ne 1$.
+However, $\mathbb{C}$ and $\mathbb{C}^*$ are *not* [[isomorphic]]. Indeed, the multiplication map 
 
-So we have these surjections (the __complex [[exponential map]] with base $b$__, for $b \ne 1$), which are [[regular epimorphisms]] but not [[split epimorphisms]].  However, while they have no [[sections]] (being not split), they have quite a few [[partial section]]s, and the [[domains]] of the [[maximal partial function|maximal]] partial sections are precisely the [[connected space|connected]] [[simply connected space|simply connected]] [[dense subspace|dense]] subspaces $R$ of $\mathbb{C}^*$.  A __complex logarithm with base $b$ on $R$__ is this $R$-defined section of the complex exponential map with base $b$.
+$$\mathbb{R}^* \times S^1 \to \mathbb{C}^*$$ 
 
-If $1 \in R$, then a complex natural logarithm on $R$ may be defined using the [[contour integral]] with the same formula (eq:integrals) as for the real natural logarithm.  We merely insist that the integral be done along a contour within the region $R$.  (Since $R$ is connected, there is such a contour; since $R$ is simply connected and $x \mapsto 1/x$ is [[holomorphic map|holomorphic]], the result is unique.)  Note that if $x \in \mathbb{R}^+ \subseteq R$, then the real and complex natural logarithms of $x$ will be equal.
+exhibits $\mathbb{C}^*$ as a [[biproduct]] of $\mathbb{R}^*$ and the [[circle group]] $S^1$, so that homomorphisms $\mathbb{C}^* \to \mathbb{C}$ are given by pairs of homomorphisms $f \colon \mathbb{R}^* \to \mathbb{C}$, $g \colon S^1 \to \mathbb{C}$. But every homomorphisms $g \colon S^1 \to \mathbb{C}$ is trivial: the restriction of $g$ to the [[torsion subgroup]] of $S^1$ is trivial since $\mathbb{C}$ is torsionfree, and since the torsion subgroup is dense in $S^1$, any Lie group homomorphism $S^1 \to \mathbb{C}$ must also be trivial. Therefore, every homomorphism $h \colon \mathbb{C}^* \to \mathbb{C}$ factors through the projection $\mathbb{C}^* \to \mathbb{R}^*$. It quickly follows that no such $h$ can be injective, nor can such $h$ be surjective. 
+
+Taking advantage of biproduct representations $\mathbb{C} \cong \mathbb{R} \oplus \mathbb{R}$ and $\mathbb{C}^* \cong \mathbb{R}^* \oplus S^1$, we can classify homomorphisms from $\mathbb{C}$ to $\mathbb{C}^*$. Each is given by a 4-tuple of real numbers $(a, b, c, d)$: 
+
+$$\phi_{a, b, c, d}(x + i y) = e^{a x} e^{i b x} e^{c y} e^{i d y}.$$ 
+
+The cases where $a = d$, $b = -c$ correspond to those homomorphisms that are [[holomorphic functions]] (i.e., that satisfy the [[Cauchy-Riemann equations]]). Putting $w = a + b i$, we have 
+
+$$\phi_{a, b, -b, a}(z) = e^{w z}$$ 
+
+with one such homomorphism for each complex number $w$, and these homomorphisms are [[surjections]] whenever $w \ne 0$. (N.B.: these homomorphisms are not uniquely determined by their values at $z = 1$, since we have $e^w = e^{w'}$ whenever $w - w'$ is an integer multiple of $2 \pi i$, and yet the homomorphisms $z \mapsto e^{w z}$ and $z \mapsto e^{w' z}$ will be different unless $w = w'$.) 
+
+So we have these surjections (the __complex [[exponential map]]__ $z \mapsto e^{w z}$, for $w \ne 0$), which are [[regular epimorphisms]] but not [[split epimorphisms]].  However, while they have no [[sections]] (being not split), they have quite a few [[partial section]]s, and the [[domains]] of the [[maximal partial function|maximal]] partial sections are precisely the [[connected space|connected]] [[simply connected space|simply connected]] [[open subspace|open]] [[dense subspace|dense]] subspaces $R$ of $\mathbb{C}^*$.  A __complex logarithm with exponential base $w$ on $R$__ is this $R$-defined section of the complex exponential map $z \mapsto e^{w z}$. Supposing $R$ given, we denote this by $\log_{[w]}$ (but please note that in the context of real logarithms, this would ordinarily be denoted $\log_b$ where $b = e^w$). 
+
+If $1 \in R$, then a complex natural logarithm on $R$ may be defined using the [[contour integral]] with the same formula (eq:integrals) as for the real natural logarithm.  We merely insist that the integral be done along a contour within the region $R$.  (Since $R$ is connected, there is such a contour; since $R$ is simply connected and $x \mapsto 1/x$ is [[holomorphic map|holomorphic]], the result is unique.)  Note that if $x \in \mathbb{R}^+ \subseteq R$, then the real and complex natural logarithms of $x$ will be equal. 
 
 The natural exponential map is [[periodic function|periodic]] (with period $2 \pi \mathrm{i}$), and it is possible to add any multiple of this period to the natural logarithm of any $x \ne 1$ by suitably changing the region $R$.  We then obtain the most general notion of maximally-defined complex logarithm with any base by using the formulas
 $$ \array {
    \ln x & \coloneqq \ln a + \int_a^x \frac{1}{x} ,\\
-   \log_b x & \coloneqq \frac{\ln x}{\ln b} ;\\
+   \log_{[w]} x & \coloneqq \frac{\ln x}{w} ;\\
 } \]
-where for $\ln a$ and $\ln b$ we use any previously defined natural complex logarithm.
-
+where for $\ln a$ we use any solution to $e^{\ln a} = a$.
 
 ### Logarithms and Lie groups
 
