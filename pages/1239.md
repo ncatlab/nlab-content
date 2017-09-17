@@ -13,9 +13,12 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 
-#related entries#
+## Related entries
 
 * [[representation]], [[action]], [[module]]
 
@@ -53,4 +56,18 @@
 
 * [[reconstruction theorem]]s
 
-A list of texts on representation theory is maintained by Khovanov at [this link](http://www.math.columbia.edu/~khovanov/resources).
+## References
+ {#References}
+
+A list of texts on representation theory is maintained at
+
+* [[Mikhail Khovanov]], _[Resources](http://www.math.columbia.edu/~khovanov/resources)_.
+
+The relation to [[number theory]] and the [[Langlands program]] is discussed in 
+
+* [[Robert Langlands]], _Representation theory: Its rise and its role in number theory_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.207.3303))
+
+
+
+
+
