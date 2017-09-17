@@ -54,7 +54,7 @@ for all $X \in \Sm_S$.
 
 * {#Deglise} [[Frédéric Déglise]], _Finite correspondences and transfers over a regular base_, [pdf](http://www.math.uiuc.edu/K-theory/0765/regular_base.pdf).
 
-* {#Voevodsky} [[Vladimir Voevodsky]], section 3.1 of _Triangulated categories of motives over a field._ ([pdf](http://math.illinois.edu/K-theory/0368/s5.pdf))
+* {#Voevodsky} [[Vladimir Voevodsky]], section 3.1 of _Triangulated categories of motives over a field_, K-Theory, 74 (2000) ([pdf](http://math.illinois.edu/K-theory/0368/s5.pdf), [web](http://www.math.uiuc.edu/K-theory/0074/))
 
 In the more general context of [[abelian sheaf cohomology]] a kind of "transfer" is discussed in 
 
