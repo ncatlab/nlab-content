@@ -149,7 +149,7 @@ is a [[homotopy equivalence]].
 
 ## Properties
 
-### General 
+### Fibrant objects
 
 +-- {: .num_prop #CompleteSegalBySpineLiftingAndHornLifting}
 ###### Proposition
@@ -172,6 +172,8 @@ This appears as ([Cisinski-Moerdijk, cor. 5.6](#CisinskiMoerdijk)).
 This is a direct consequence of the nature of [[Bousfield localization of model categories|left Bousfield localization]] and prop. \ref{SpineAndHornLocalization}: according to this both the spin and the horn inclusion are acyclic cofibrations. Moreover $X$ is fibrant. Finally $dsSet_{cSegal}$ is a [[simplicial model category]], which implies the claim by the dual of the [[pushout-product axiom]]. 
 
 =--
+
+### Weak equivalences
 
 +-- {: .num_prop #WEDetectedOnCorollas}
 ###### Proposition
@@ -234,6 +236,176 @@ is an effective epimorphism, and similarly for $Y$. If now $f$ is fully faithful
 
 
 =--
+
+### Fibrations and Cofibrations
+
+First some standard technical preliminaries.
+
+As for any category of [[simplicial presheaves]] we have
+
++-- {: .num_prop}
+###### Proposition
+
+$[\Omega^{op}, sSet]$ is canonically [[tensoring|tensored]], [[cotensoring|cotensored]] and [[enriched category|enriched]] over [[sSet]].
+
+The [[tensoring]] is given by the degreewise [[cartesian product]] in [[sSet]]:
+
+$$
+  \cdot : sSet \times [\Omega^{op}, sSet] \to [\Omega^{op}, sSet]
+$$
+$$
+  (S, X) \mapsto (S \cdot X : T \mapsto S \times X(T))
+  \,.
+$$
+
+For $X \in dSet$ a dendroidal set, the [[hom object]] functor
+
+$$
+  X^{(-)} : dSet^{op} \to sSet
+$$
+
+is the essentially unique [[limit]]-preserving functor such that for all $T \in \Omega$
+
+$$
+  X^{(\Omega[T])} = X(T)
+  \,.
+$$
+
+=--
+
+We will often write "$\times$" also for the tensoring "$\cdot$".
+
++-- {: .proof}
+###### Proof
+
+The essential uniqueness in the last clause follows, because by the [[co-Yoneda lemma]] every [[dendroidal set]] $S$ may be written as a [[colimit]] over its cells
+
+$$
+  S =_{iso} {\lim_{\to}}_{\Omega[T] \to S} \Omega[T]
+  \,.
+$$
+
+Therefore
+
+$$
+  X^S
+  = 
+  {\lim_\leftarrow}_{\Omega[T] \to S} X(T)
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+A morphism $f : X \to Y$ in $[\Delta^{op}, sSet]_{gReedy}$ is a fibration,
+precisely if for all [[trees]] $T \in \Omega$
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[generalized Reedy model structure]] $[\Omega^{op}, sSet]_{gReeedy}$ is a [[cofibrantly generated model category]] with set of generating cofibrations 
+
+$$
+  I := \{\partial \Delta [n] \cdot \Omega[T] \cup \Delta[n] \cdot \partial \Omega[T] \to \Delta[n] \cdot \Omega[T]\}_{n \in \mathbb{N}, T \in \Omega}
+$$
+
+
+and with set of acyclic generating cofibrations
+
+$$
+  J := \{\Lambda^k[n] \cdot \Omega[T] \cup \Delta[n] \cdot \partial \Omega[T] \to \Delta[n] \cdot \Omega[T]\}_{n \in \mathbb{N}, T \in \Omega}
+  \,.
+$$
+
+=--
+
+The statement is ([Cisinski-Moerdijk, prop. 5.2](#CisinskiMoerdijk)). The followong proof follows remark 5.3 there.
+
++-- {: .proof}
+###### Proof
+
+By the general definition of [[generalized Reedy model structure]] we have that
+a morphism $f : X \to Y$ in $[\Omega^{op}, sSet]_{gReedy}$ is a fibration or acyclic fibration precisely if for all [[trees]] $T$ the canonical morphism
+
+$$
+  X^{\Omega[T]} 
+   \to 
+  X^{\partial \Omega[T]} \times_{Y^{\partial \Omega[T]}} Y^{\Omega[T]}
+$$
+
+is a [[Kan fibration]] or acyclic Kan fibration, respectively.
+
+This means equivalently that every diagram
+
+$$
+  \array{
+    \Lambda^k \Delta[n] &\to& X^{\Omega[T]}
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[n] &\to& 
+    X^{\partial \Omega[T]} \times_{Y^{\partial \Omega[T]}} Y^{\Omega[T]}
+  }
+$$
+
+or, respectively,
+
+$$
+  \array{
+    \partial \Delta[n] &\to& X^{\Omega[T]}
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[n] &\to& 
+    X^{\partial \Omega[T]} \times_{Y^{\partial \Omega[T]}} Y^{\Omega[T]}
+  }
+$$
+
+has a lift. A little reflection shows that this, in turn, is equivalent to that every diagram
+
+$$
+  \array{   
+    \Lambda^k[n] \times \Omega[T] \cup \Delta[n]\times \partial \Omega[T]
+    &\to&
+    X
+    \\
+    \downarrow && \downarrow 
+    \\
+    \Delta[n] \times \Omega[T]
+    &\to&
+    Y
+  }
+$$
+
+or, respectively, 
+
+$$
+  \array{   
+    \partial \Delta[n] \times \Omega[T] \cup \Delta[n]\times \partial \Omega[T]
+    &\to&
+    X
+    \\
+    \downarrow && \downarrow 
+    \\
+    \Delta[n] \times \Omega[T]
+    &\to&
+    Y
+  }
+$$
+
+has a lift. 
+
+The statement follows by using the [[small object argument]].
+
+=--
+
 
 ### Relation to other model structures
 
