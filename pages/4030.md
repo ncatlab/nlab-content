@@ -34,73 +34,149 @@ have analogs for [[topos]]es and [[(∞,1)-topos]]es
 
 * etc. ...
 
-## Locally connected topos
+## Definition
 
-Let $E$ be a [[topos]]. An object $A \in E$ is called a [[connected object]] if $\hom_E(A, -)$ preserves finite [[coproduct]]s. Equivalently, an object $A$ is connected if it is nonempty (non[[initial object|initial]]) and cannot be expressed as a coproduct of two nonempty [[subobject]]s. 
 
-### Definition
++-- {: .un_def #ConnectedObject}
+###### Definition
 
-A [[Grothendieck topos]] $E$ is called a **locally connected topos** is every object $A \in E$ is a [[coproduct]] of connected objects $\{A_i\}_{i \in I}$, $A = \coprod_{i \in I} A_i$.  It follows that the index set $I$ is unique up to isomorphism, and we write
+An object $A$ in a [[topos]] $\mathcal{E}$ is called a **[[connected object]]** if the [[hom-functor]] $\mathcal{E}(A, -)$ preserves finite [[coproduct]]s. 
+
+Equivalently, an object $A$ is connected if it is nonempty (non[[initial object|initial]]) and cannot be expressed as a coproduct of two nonempty [[subobject]]s. 
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+A [[Grothendieck topos]] $\mathcal{E}$ is called a **locally connected topos** if every object $A \in \mathcal{E}$ is a [[coproduct]] of connected objects $\{A_i\}_{i \in I}$, $A = \coprod_{i \in I} A_i$.  
+
+=--
+
+It follows that the index set $I$ is unique up to isomorphism, and we write
 
 $$
   \pi_0(A) = I
   \,.
 $$
 
-This construction defines a functor $\Pi_0 : E \to Set : A \mapsto \pi_0(A)$ which is [[left adjoint]] to the [[constant sheaf]] functor, the [[left adjoint]] part of the [[global section]] [[geometric morphism]].  Thus, for a locally connected topos we have
+This construction defines a functor $\Pi_0 : E \to Set : A \mapsto \pi_0(A)$ which is [[left adjoint]] to the [[constant sheaf]] functor, the [[left adjoint]] part of the [[global section]] [[geometric morphism]].  
+
+Thus, for a locally connected topos we have
 
 $$
-  (\Pi_0 \dashv LConst \dashv \Gamma) : 
-  E \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  (\Pi_0 \dashv L Const \dashv \Gamma) : 
+  \mathcal{E} \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
   Set
   \,.
 $$
 
-This left adjoint $\Pi_0$ is the lowest degree incarnation of a general construction of [[homotopy groups in an (∞,1)-topos]]. It is often called the **connected component** functor, and generalises the functor, also denoted $\pi_0$ or $\Pi_0$, which to a space assigns the set of connected components of that space.
+This is the **connected component functor**. It generalises the functor, also denoted $\pi_0$ or $\Pi_0$, which to a [[topological space]] assigns the set of [[connected]] components of that space. See the [examples](#Examples) below.
 
-+-- {: .un_prop}
+
+The following proposition asserts that the existence of $\Pi_0$ already characterizes locally connected toposes.
+
++-- {: .un_prop #LocalConnectednessByEssentialGeometricMorphism}
 ###### Proposition
 
-A topos $E$ is locally connected precisely if the [[global section]] [[geometric morphism]] $\Gamma : E \to Set$ is an [[essential geometric morphism]]. 
+A [[Grothendieck topos]] $\mathcal{E}$ is locally connected precisely if the [[global section]] [[geometric morphism]] $\Gamma : \mathcal{E} \to Set$ is an [[essential geometric morphism]] $(\Pi_0 \dashv L Const \dashv \Gamma) : \mathcal{E} \to Set$. 
 
 =--
+
+A proof appears as ([Johnstone, lemma C.3.3.6](#Johnstone)).
+
 
 +-- {: .proof}
 ###### Proof
 
-This appears as Lemma C.3.3.6 in
+Suppose that $(\Pi_0 \dashv L Const \dashv \Gamma) : \mathcal{E} \to Set$ exists. 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+First notice that an object $A$ is connected in the 
+[above sense](#ConnectedObject) precisely if $\Pi_0(A) = *$. 
+
+Because for all $S \in Set$ the connectivity condition demands that
+
+$$
+  \mathcal{E}(A, \coprod_S L Const *) \simeq \coprod_S \mathcal{E}(A,*) \simeq \coprod_S * \simeq S
+$$ 
+
+but by the $(\Pi_0 \dashv L Const)$-hom-equivalence the first term is
+
+$$
+  \cdots \simeq \mathcal{E}(A, L Const \coprod_S *) \simeq Set(\Pi_0(A), S)
+$$
+
+and the last set is isomorphic to $S$ precisely for $\Pi_0(A)$ is the singleton set.
+
+So we need to show that given the extra left adjoint $\Pi_0$, every object of $\mathcal{E}$ is a coproduct of objects for which $\Pi_0(-)$ is the point.
+
+For that purpose consider for every object $A \in \mathcal{E}$ the [[pullback]] diagram
+
+$$
+  \array{
+      i_A^* {\lim_\to}_{\Pi_0(A)} * &\to& {\lim_\to}_{\Pi_0(A)} * 
+      \\
+      {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+      \\
+     A &\stackrel{i_A}{\to}& L Const \Pi_0 (A)
+  }
+  \,,
+$$
+
+where the bottom morphism is the $(\Pi \dashv L Const)$-[[unit of an adjunction|unit]] and the right [[isomorphism]] is the identification of any set as the [[colimit]] (here: [[coproduct]]) of the functor over the set itself that is constant on the point. Since pullbacks of isomorphism are isomorphisms, also the left morphism is an iso.
+
+By [[universal colimits]] this left morphism is equivalently 
+
+$$
+   {\lim_\to}_{s \in \Pi_0(A)} (i_A^* *_s)
+   \stackrel{\simeq}{\to}
+   A
+$$
+
+and hence expresses $A$ as a coproduct of objects $i_A * *_s$, each of which is a [[pullback]]
+
+$$
+  \array{
+    i_A^* *_s &\to& L Const *
+    \\
+    \downarrow && \downarrow^{\mathrlap{s}}
+    \\
+    A &\stackrel{i_A}{\to}& L Const \Pi_0 A
+  }
+  \,,
+$$
+
+where the right morphism includes the element $s$ into the set $\Pi_0 A$. By applying $\Pi_0$ to this diagram and pasting on the $(\Pi_0 \dashv L Const)$-[[unit of an adjunction|counit]] we get
+
+$$
+  \array{
+    \Pi_0(i_A^* *_s) &\to& \Pi_0 L Const * &\to& *
+    \\
+    \downarrow && \downarrow^{} && \downarrow 
+    \\
+    \Pi_0(A) &\stackrel{\Pi_0(i_A)}{\to}& \Pi_0 L Const \Pi_0 A
+    &\to& \Pi_0 A
+  }
+$$
+
+and by the [[zig-zag identity]] the bottom morphism is the identity. This says that in 
+
+$$
+  \Pi_0( {\lim_{\to}}_{\Pi_0 A} i_A^* *_s \stackrel{\simeq }{\to} A)
+  \simeq
+  ({\lim_\to}_{\Pi_0 A} \Pi_0(i_A^* *_s) \stackrel{\simeq}{\to} \Pi_0(A))
+$$
+
+all the component maps out of the coproduct factor through the point. This means that this can only be an isomorphism if all these component maps are point inclusions, hence if $\Pi_0(i_A^* *_s) \simeq *$ for all $s \in \Pi_0 A$.
 
 =--
 
 However, this doesn't mean that essential geometric morphisms are the "relative" analog of locally connected toposes; in general one needs to impose an additional condition, which is automatic in the case of the global sections morphism, to obtain the notion of a [[locally connected geometric morphism]].
 
 
-### Locally connected and connected {#Connected}
-
-
-A [[topos]] $E$ is called a [[connected topos]] if the [[left adjoint]] $LConst : Set \to E$ is a [[full and faithful functor]].
-
-
-+-- {: .un_prop}
-###### Proposition
-If $\Gamma \colon E\to Set$ is a locally connected topos, then it is also a [[connected topos]] --- in that $LConst$ is full and faithful --- if and only if the left adjoint $\Pi_0$ of $LConst$ preserves the terminal object.
-=--
-+-- {: .proof}
-###### Proof
-This is C3.3.3 in the [[Elephant]].
-=--
-
-Notice that for a connected and locally connected topos, the adjunction
-
-$$
-  Set \stackrel{\overset{\Pi_0}{\leftarrow}}{\hookrightarrow} E
-$$
-
-exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[Set]] as being the [[localization]] of $E$ at those morphisms that induce isomorphisms of connected components.
-
 ## Properties
+
+### Equivalent conditions
 
 +-- {: .un_defn}
 ###### Definition
@@ -124,6 +200,29 @@ The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[car
 =--
 
 
+
+### Locally connected and connected {#Connected}
+
+
+A [[topos]] $E$ is called a [[connected topos]] if the [[left adjoint]] $L Const : Set \to E$ is a [[full and faithful functor]].
+
+
++-- {: .un_prop}
+###### Proposition
+If $\Gamma \colon E\to Set$ is a locally connected topos, then it is also a [[connected topos]] --- in that $L Const$ is full and faithful --- if and only if the left adjoint $\Pi_0$ of $L Const$ preserves the terminal object.
+=--
+
+This is ([Johnstone, C3.3.3](#Johnstone)).
+
+Notice that for a connected and locally connected topos, the adjunction
+
+$$
+  Set \stackrel{\overset{\Pi_0}{\leftarrow}}{\hookrightarrow} E
+$$
+
+exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[Set]] as being the [[localization]] of $E$ at those morphisms that induce isomorphisms of connected components.
+
+
 ## Examples {#Examples}
 
 * For $X$ a [[topological space]], the [[category of sheaves]] $Sh(X) := Sh(Op(X))$ is a locally connected topos precisely if $X$ is a [[locally connected space]]. The functor $\Pi_0$ sends a sheaf $F \in Sh(X)$ to the set of connected components of the coresponding [[etale space]].
@@ -145,7 +244,7 @@ The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[car
 
   In particular, this is the case if every covering [[sieve]] in $C$ is connected, i.e. $C$ is a [[locally connected site]].
 
-  If $C$ furthermore has a terminal object $1$, then the global sections functor $\Gamma\colon Sh(C)\to Set$ (the right adjoint of $LConst$) is simply given by evaluation at $1$, and so the unit $S \to \Gamma LConst S \cong LConst S(1)$ is an isomorphism.  Thus in this case $Sh(C)$ is additionally [[connected topos|connected]].  This situation also applies to $C=CartSp$.
+  If $C$ furthermore has a terminal object $1$, then the global sections functor $\Gamma\colon Sh(C)\to Set$ (the right adjoint of $L Const$) is simply given by evaluation at $1$, and so the unit $S \to \Gamma L Const S \cong L Const S(1)$ is an isomorphism.  Thus in this case $Sh(C)$ is additionally [[connected topos|connected]].  This situation also applies to $C=CartSp$.
 
 =--
 
@@ -170,6 +269,7 @@ The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[car
 Section C1.5 and C3.3 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ .
+{#Johnstone}
 
 A variant is in
 
