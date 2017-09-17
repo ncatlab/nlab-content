@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quality type
+#### Cohesion
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
@@ -30,7 +30,9 @@
 
 ## Idea
 
-A **quality type** is a key concept in [[W. Lawvere]]'s axiomatic approach to cohesion which permits to analyze a space understood as a domain of quantitative variation via its qualitative aspects. This can be viewed as an axiomatisation of the commonly encountered situation in geometry and dynamics that problems permit only a qualitative analysis. The primary example is the **homotopy category**.
+A **quality type** is a key concept in [[W. Lawvere]]'s axiomatic approach to [[cohesion]] which permits to analyze a [[space]] understood as a domain of quantitative variation via its qualitative aspects. This can be viewed as an [[axiom|axiomatisation]] of the commonly encountered situation in ][[geometry]] and [[dynamics]] that problems permit only a qualitative analysis. More geometrically, a [[cohesive topos]] which is a "quality type" exhibits [[infinitesimal cohesion]] (see there for more) in that the [[points-to-pieces transform]] for each object is an [[isomorphism]].
+
+The primary example that Lawvere had in mind is the **[[homotopy category]]**.
 
 Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a _quintessential localization_  in [Johnstone (1996)](#JS96).
 
