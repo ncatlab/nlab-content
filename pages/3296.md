@@ -89,6 +89,8 @@ Notable families of examples include:
 
   [[Chern classes]];
 
+  [[Todd class]]
+
 * for $G = \mathbf{B}U(1)$ the [[circle n-group|circle 2-group]]: 
 
   the [[Dixmier-Douady class]].
