@@ -14,6 +14,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A [[cover]] which is locally a [[finite cover]].
+
 ## Definition
 
 A [[cover]] ([[open cover]]) $\{U_\alpha\}$ of a [[topological space]] $X$ is **locally finite** if for all $x\in X$, there is an neighbourhood $N \ni x$ such that $N \cap U_\alpha \neq \emptyset$ for only a finite number of $\alpha$.
