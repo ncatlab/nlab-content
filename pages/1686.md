@@ -139,7 +139,7 @@ If $(E_r)$ collapses at $r$, then it converges to $H^\bullet$ with $H^n$ being t
 
 ## Examples
 
-### First quadrant spectral sequence
+### First quadrant spectral sequence {#FirstQuadrant}
 
 +-- {: .un_def}
 ###### Definition
@@ -213,27 +213,80 @@ A [[double complex]] is naturally filtered in two ways: by columns and by rows. 
 
 ### Exact couples
 
+### Spectral sequences for hyper-derived functors {#HyperDerivedFunctors}
+
+(...)
+
 ### Grothendieck spectral sequence
 
 Let $\mathcal{A} \stackrel{F}{\to} \mathcal{B} \stackrel{G}{\to} \mathcal{C}$ be two [[left exact functor]]s between [[abelian categories]].
+
 Write $R^p F : \mathcal{D} \to Ab$ for the [[cochain cohomology]] of the [[derived functor]] of $F$ in degree $p$ etc. 
 
 
 +-- {: .un_theorem}
 ###### Theorem
 
-For each $A \in \mathcal{A}$ there is a cohomology spectral sequence
+If $F$ sends [[injective object]]s of $\mathcal{A}$ to $G$-[[acyclic object]]s in $\mathcal{B}$ then for each $A \in \mathcal{A}$ there is a [first quadrant](#FirstQuadrant) cohomology spectral sequence
 
 $$
   E_r^{p,q} := (R^p G \circ R^q F)(A) 
 $$
 
-that converges to the right derived functor of the composite functor
+that converges to the right [[derived functor]] of the composite functor
 
 
 $$
   E_r^{p,q} \Rightarrow R^{p+q} (G \circ F)(A).
 $$
+
+Moreover
+
+1. the edge maps in this spectral sequence are the canonical morphisms
+ 
+   $$
+     R^p G (F A) \to R^p (G \circ F)(A)
+   $$
+
+   induced from applying $F$ to an injective resolution 
+   $A \to \hat A$ and the [[isomorphism]]
+
+   $$
+     R^q (G \circ F)(A) \to G(R^q F (A))
+     \,.
+   $$
+
+1. the [[exact sequence]] of low degree terms is
+
+   $$
+     0 \to (R^1 G)(F(A)) \to R^1(G \circ F)(A)
+      \to F(R^1(G(A)))
+      \to (R^2 F)(G(A))
+      \to R^2(G \circ F)(A)
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since for $A \to \hat A$ an injective [[resolution]] of $A$ the complex $F(\hat A)$ is a chain complex not concentrated in a single degree, we have that $R^p (G \circ F)(A)$ is equivalently the [[hyper-derived functor]] evaluation $\mathbb{R}^p(G) (F(A))$.
+
+Therefore the second spectral sequence discussed at [hyper-derived functor spectral sequences](#HyperDerivedFunctors) converges as
+
+$$
+  (R^p G)H^q(F(\hat A)) \Rightarrow R^p (G \circ F)(A)
+  \,.
+$$
+
+Now since by construction $H^q(F(\hat A)) = R^q F(A)$ this is a spectral sequence
+
+$$
+  (R^p G)(R^q F) A) \Rightarrow R^p (G \circ F)(A)
+  \,.
+$$
+
+This is the Grothendieck spectral sequence.
 
 =--
 
@@ -280,6 +333,7 @@ $$
   R_1 Mod \stackrel{Hom_{R_1 Mod}(-,R_2)}{\to}
   R_2 Mod
   \stackrel{Hom_{R_2}(-,N)}{\to}
+  Ab
   \,.
 $$
 
