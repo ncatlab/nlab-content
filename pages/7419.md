@@ -26,6 +26,8 @@ A [[category]] $C$ is **locally regular** if
 
 * A locally regular category is regular if and only if it has a [[terminal object]].
 
+* The factorization axiom for spans implies, by [[induction]], a similar factorization property for nonempty finite [[cosinks]].  However, similar factorizations for empty cosinks (i.e. "supports") do not necessarily exist.
+
 * Every locally regular category gives rise to a tabular [[allegory]] of binary relations (where we define a "binary relation" to mean a jointly-monic span).  For composition of relations, we require pullbacks and stable factorizations of spans.  For intersection of binary relations, we require equalizers.
 
 * Conversely, every tabular allegory has a locally regular category of maps (left adjoints).  So locally regular categories are essentially the same as tabular allegories.
