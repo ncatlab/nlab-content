@@ -1,6 +1,14 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -54,6 +62,30 @@ A list of known definitions of $n$-category, which should include all definition
 ## Examples ##
 
 One motivating example for $(\infty,n)$-categories is the [[(∞,n)-category of cobordisms]] which plays a central role in the formalization of the [[cobordism hypothesis]]. 
+
+
+## Related concepts
+
+* [[0-category]], [[(0,1)-category]]
+
+* [[category]]
+
+* [[2-category]]
+
+* [[3-category]]
+
+* [[n-category]]
+
+* [[(∞,0)-category]]
+
+* [[(∞,1)-category]]
+
+* [[(∞,2)-category]]
+
+* **(∞,n)-category**
+
+* [[(n,r)-category]]
+
 
 ## References ##
 
