@@ -41,6 +41,8 @@ $$
 $$
 represents the group completion of $N$ ([Quillen 71, section 9](#Quillen71), [May, theorem  1.6](#May)). This crucially enters the construction of the [[K-theory of a permutative category]].
 
+According to ([Dwyer-Kan 80, around remark 9.7](#DwyerKan80)) this indeed gives a model for the total [[derived functor]] of 1-categorical group completion.
+
 ## References
 
 Classical accounts include
@@ -48,6 +50,9 @@ Classical accounts include
 * {#Quillen71} [[Daniel Quillen]], _On the group completion of a simplicial monoid_ [pdf](http://www.maths.ed.ac.uk/~aar/papers/quillencomp.pdf), MIT preprint 1971, Memoirs of the AMS vol 529, 1994, pp. 89-105
 
 * {#May} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
+
+* {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], _Simplicial localization of categories_, Journal of pure and applied algebra 17 (1980) 267-284
+
 
 $\infty$-Group completion is discussed in
 
