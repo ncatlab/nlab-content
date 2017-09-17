@@ -14,7 +14,7 @@
 * table of contents
 {: toc}
 
-## Definition
+## Definition {#Def}
 
 +-- {: .num_defn}
 ###### Definition
@@ -28,16 +28,26 @@ An **algebraic lattice** is a [[lattice]] which is
 =--
 
 
-An __algebraic lattice__ is a [[complete lattice]] (or perhaps rather a [[suplattice]]? Or a [[poset]] with the [[extra property|property]] of arbitrary [[colimits]] but only the [[structure]] of [[directed colimits]]/[[directed joins]]? Anyway, it has arbitrary [[joins]], whatever the morphisms should be) in which every element is the [[supremum]] of the [[compact element]]s below it (an element $e$ is compact if, for every subset $S$ of the lattice, $e$ is less than or equal to the supremum of $S$ just in case $e$ is less than or equal to the supremum of some finite subset of $S$).
+An __algebraic lattice__ is a [[complete lattice]] (equivalently, a [[suplattice]], or in different words a [[poset]] with the [[extra property|property]] of having arbitrary [[colimits]] but with the [[structure]] of [[directed colimits]]/[[directed joins]]) in which every element is the [[supremum]] of the [[compact element]]s below it (an element $e$ is compact if, for every subset $S$ of the lattice, $e$ is less than or equal to the supremum of $S$ just in case $e$ is less than or equal to the supremum of some finite subset of $S$). 
 
+Here is an alternative formulation: 
++-- {: .num_defn} 
+###### Definition 
+An algebraic lattice is a [[poset]] which is [[locally finitely presentable category|locally finitely presentable]] as a category. 
+=-- 
+
+This formulation suggests useful a way of viewing algebraic lattices in terms 
+of [[Gabriel-Ulmer duality]] (but with regard to enrichment in [[truth values]], instead of in $Set$). 
 
 ## Properties
 
 ### The category of algebraic lattices
 
-The [[morphisms]] most commonly considered between algebraic lattices are the [[finitary functors]] between them, which is to say, the [[Scott topology|Scott-continuous]] functions between them; i.e., those functions which preserve directed joins (hence the parenthetical remarks before). 
+The [[morphisms]] most commonly considered between algebraic lattices are the [[finitary functors]] between them, which is to say, the [[Scott topology|Scott-continuous]] functions between them; i.e., those functions which preserve directed joins (hence the parenthetical remarks [above](#Def)). 
 
-The resulting category __AlgLat__ is [[cartesian closed]] and is dually equivalent to the category whose objects are [[meet semilattices]] (construed as categories with [[finite limits]] [[enriched category|enriched]] over [[truth values]]) and whose morphisms are meet-preserving [[profunctors]] between them (using the convention that a $V$-enriched profunctor from $C$ to $D$ is a functor $D^{op} \times C \rightarrow V$; of course, with an opposite convention, one could similarly state a covariant equivalence). The category of [[topological spaces]] is the [[stuff, structure, property|2-image]] of the projection from the [[comma category]] $(Set / Forgetful)$ to $Set$, where $Forgetful : AlgLat \rightarrow Set$ is the obvious forgetful functor. This connection is explored in more depth with the category of [[equilogical space]]s, equivalent to both a category of [[partial equivalence relation]]s over $AlgLat$, and of total equivalence relations on $T_0$ topological spaces.
+The resulting category __AlgLat__ is [[cartesian closed]] and is dually equivalent to the category whose objects are [[meet semilattices]] (construed as categories with [[finite limits]] [[enriched category|enriched]] over [[truth values]]) and whose morphisms are meet-preserving [[profunctors]] between them (using the convention that a $V$-enriched profunctor from $C$ to $D$ is a functor $D^{op} \times C \rightarrow V$; of course, with an opposite convention, one could similarly state a covariant equivalence). 
+
+The category of [[topological spaces]] is the [[stuff, structure, property|2-image]] of the projection from the [[comma category]] $(Set / Forgetful)$ to $Set$, where $Forgetful : AlgLat \rightarrow Set$ is the obvious forgetful functor. This connection is explored in more depth with the category of [[equilogical spaces]], equivalent to both a category of [[equivalence relation|partial equivalence relations]] over $AlgLat$, and of total [[equivalence relations]] on $T_0$ topological spaces.
 
 
 
