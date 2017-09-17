@@ -684,7 +684,7 @@ an equivalence.
 
 =--
 
-This is [[Higher Topos Theory|HTT, prop. 6.2.1.1]]. 
+This is [[Higher Topos Theory|HTT, prop. 6.2.1.1]].
 
 +-- {: .proof}
 ###### Proof
@@ -865,6 +865,8 @@ To see this, notice that it has a left inverse $y \times_{L y} y \to y$, given b
 
 =--
 
+> **Warning** There is something wrong with the following statement. Needs to be fixed...
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -876,7 +878,7 @@ If elements in $S_0$ land in $S$ under pullback, then $S$ is closed under pullba
 
 =--
 
-This is [[Higher Topos Theory|HTT, 6.2.1.2]].
+This was [[Higher Topos Theory|HTT, 6.2.1.2]], but no longer is
 
 +-- {: .proof}
 ###### Proof
