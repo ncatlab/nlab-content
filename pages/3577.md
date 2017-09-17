@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -38,7 +37,7 @@ A **[[sieve]] in** an [[(∞,1)-category]] $C$ is a full [[sub-(∞,1)-category]
 
 A **sieve on** an [[object]] $c \in C$ is a sieve in the [[over quasi-category|overcategory]] $C_{/c}$.
 
-Equivalently, a sieve on $c$ is an equivalence class of [[monomorphism in an (infinity,1)-category|monomorphisms]]  $U \to j(c)$ in the [[(∞,1)-category of (∞,1)-presheaves]] $PSh(C)$, with $j : C \to PSh(C)$ the [[(∞,1)-Yoneda embedding]]. (See below for the proof of this equivalence).
+Equivalently, a sieve on $c$ is an [[equivalence class]] of [[monomorphism in an (infinity,1)-category|monomorphisms]]  $U \to j(c)$ in the [[(∞,1)-category of (∞,1)-presheaves]] $PSh(C)$, with $j : C \to PSh(C)$ the [[(∞,1)-Yoneda embedding]]. (See below for the proof of this equivalence).
 
 For $S$ a sieve on $c$ and  $f : d \to c$ a [[morphism]] into $c$, we take the **pullback sieve** $f^* S$ on $d$ to be that spanned by all those morphisms into $d$ that become equivalent to a morphism in $S$ after postcomposition with $f$.
 
