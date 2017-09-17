@@ -881,7 +881,7 @@ out of the [[nLab:path groupoid]].
 
 This suggests an evident generalization to higher categorical dimension.
 
-Let $G$ be a strict [[nLab:Lie 2-group]] coming from a [[nLab:crossed module]] $[G_2 \stackrel{\delta}{\to} G_1]$. Then $\mathbf{B}G$ is the strict 2-groupoid coming from the [[nLab:crossed complex]] $[G_2 \to G_2 \stackrel{\to}{\to} *]$.
+Let $G$ be a strict [[nLab:Lie 2-group]] coming from a [[nLab:crossed module]] $[G_2 \stackrel{\delta}{\to} G_1]$. Then $\mathbf{B}G$ is the strict 2-groupoid coming from the [[nLab:crossed complex]] $[G_2 \to G_1 \stackrel{\to}{\to} *]$.
 
 For instance if $K$ is an [[nLab:abelian group]] then $\mathbf{B}K$ is the 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ the 2-group coming from the complex $[K \to 1 \to 1]$.
 
