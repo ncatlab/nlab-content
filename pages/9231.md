@@ -18,7 +18,7 @@
 
 ## Definition
 
-A [[probability distribution]] on a [[Cartesian space]] $\mathbb{R}^n$ is called **Gaussian** if it is given by the canonical [[volume form]] $\mu$ times a Gaussian function 
+A [[probability distribution]] on a [[Cartesian space]] $\mathbb{R}^n$ is called **Gaussian** or a **normal distribution** if it is of the form
 
 $$
   \mu_S \;\colon\; \vec x \mapsto \frac{(2\pi)^{n/2}}{\sqrt{det A}} 
@@ -27,7 +27,7 @@ $$
   \,.
 $$
 
-Here $A$ is some $n \times n$ [[matrix]], $\det A$ is its [[determinant]] and $\langle -,-\rangle$ is the canonical [[bilinear form]] on $\mathbb{R}^n$.
+where $A$ is some $n \times n$ [[matrix]] such that $\langle -, A-\rangle$ is a positive definite [[bilinear form]]. Here $\det A$ denotes the [[determinant]] and $\langle -,-\rangle$ is the canonical [[bilinear form]] on $\mathbb{R}^n$.
 
 ## Related concepts
 
@@ -35,3 +35,10 @@ Here $A$ is some $n \times n$ [[matrix]], $\det A$ is its [[determinant]] and $\
 
 [[!redirects Gaussian probability measure]]
 [[!redirects Gaussian probability measures]]
+
+[[!redirects Gaussian distribution]]
+[[!redirects Gaussian distributions]]
+
+[[!redirects normal distribution]]
+[[!redirects normal distributions]]
+
