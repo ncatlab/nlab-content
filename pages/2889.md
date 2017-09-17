@@ -245,5 +245,6 @@ For a discussion of the relation betwen [[motive]]s and motivic cohomology, see 
 
 * Marco Robalo, _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_ ([arXiv:1206.3645](http://arxiv.org/abs/1206.3645))
 
+category: algebraic geometry
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
