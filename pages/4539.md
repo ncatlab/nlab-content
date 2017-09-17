@@ -20,13 +20,16 @@ and
 
 * [[kernel]], [[cokernel]]
 
-* [[chain complex]]
+* [[complex]] 
 
   * [[differential]]
 
-  * [[chain homology and cohomology]], [[homology]]
+  * [[homology]] 
 
-  * [[category of chain complexes]]
+  * [[chain complex]]
+
+    * [[category of chain complexes]]
+    * [[chain homology and cohomology]], 
 
 * [[exact sequence]], [[split exact sequence]]
 
@@ -36,9 +39,9 @@ and
 
 * [[derived category]]
 
-  * [[derived functor]]
+* [[derived functor]]
 
-    * [[Tor]], [[Ext]]
+  * [[Tor]], [[Ext]]
 
 * [[triangulated category]]
 
@@ -56,8 +59,6 @@ and
 
 ## Theorems
 
-* [[universal coefficient theorem]]
-
 * [[Dold-Kan correspondence]]
 
   * [[Moore complex]]
@@ -65,5 +66,8 @@ and
 * [[Eilenberg-Zilber theorem]]
  
   * [[cochain on a simplicial set]]
+
+* [[universal coefficient theorem]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/homological+algebra+-+contents)</div>
