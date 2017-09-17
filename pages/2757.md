@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
+=--
+=--
+
 #Contents#
 * tabl of contents
 {:toc}
