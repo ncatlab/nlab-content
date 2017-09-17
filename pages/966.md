@@ -23,16 +23,16 @@ A basic result of [[category theory]] is that [[adjoint functor|right adjoints]]
 
 The basic idea of an adjoint functor theorem is very simple.  Given a functor $G:D\to C$ which preserves limits, for $c\in C$ define $F c$ to be the limit
 $$F c = \lim_{c\to G d} d.$$
-Here the limit is taken over the [[comma category]] $(c/G)$ whose objects are pairs $(d,f:c\to G d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious tringle commute in $C$.  Now for any $d$ there is an obvious projection $F G c = \lim_{G c \to G d} d \to d$, while because $G$ preserves limits, we have $G F c = \lim_{c\to G d} G d$ and so there is an obvious map $c\to G F c$.  It is easy to check that these are the unit and counit of an [[adjunction]] $F\dashv G$.
+Here the limit is taken over the [[comma category]] $(c/G)$ whose objects are pairs $(d,f:c\to G d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious tringle commute in $C$.  Now for any $d$ there is an obvious projection $F G d = \lim_{G d \to G d'} d' \to d$, while because $G$ preserves limits, we have $G F c = \lim_{c\to G d} G d$ and so there is an obvious map $c\to G F c$.  It is easy to check that these are the unit and counit of an [[adjunction]] $F\dashv G$.
 
-The problem with this argument is, of course, that in general the comma category $(c/G)$ may not be [[small category|small]], while it is usually only reasonable to assume that $D$ has _small_ limits.  In fact, a classical theorem of Freyd says that 
+The problem with this argument is, of course, that in general the comma category $(c/G)$ may not be [[small category|small]], while it is usually only reasonable to assume that $D$ has _small_ limits, not limits of diagrams whose size is on the order of $(c/G)$ or $D$.  Even if we pass to a universe in which $(c/G)$ is considered small, a classical theorem of Freyd says that 
 
 +-- {: .un_theorem}
 ###### Theorem
 
 If (in some universe $U$) a $U$-small [[category]] $D$ has [[product]]s of families of objects whose size is at least that of its set of morphisms, then $D$ is a [[preorder]].  
 
-In other words: any [[small category|small]] [[complete category]] is a [[preorder]].  
+In other words: any [[small category|U-small]] [[complete category|U-small-complete category]] is a [[preorder]].  
 
 =--
 
@@ -79,7 +79,7 @@ In the first two cases, which work by replacing large limits by small ones, it s
 +-- {: .proof}
 ###### Proof
 
-Here is a proof that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satifies the [[solution set condition]]. 
+Here is a proof that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satisfies the [[solution set condition]]. 
 
 From the discussion at <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">adjoint functors -- In terms of universal arrows</a> we have that the existence of the adjoint is equivalent to the existence for each $d \in D$ of an [[initial object]] $i_d : d \to R L d$ in the [[comma category]] $(d \downarrow R)$: an object such that for each $f : d' \to R d$ there is a unique $\tilde f$ such that 
 
