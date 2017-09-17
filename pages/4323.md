@@ -24,7 +24,7 @@
 The Thom spectrum $M O$ is a [[connective spectrum]] whose associated [[infinite loop space]] is the [[classifying space]] for [[cobordism]]:
 
 $$
-\Omega^\infty M O \simeq B Cob_\infty.
+\Omega^\infty M O \simeq \vert Cob_\infty \vert .
 $$
 
 In particular, $\pi_n M O$ is naturally identified with the set of cobordism classes of closed $n$-manifolds.
@@ -383,7 +383,7 @@ We check that this construction provides an inverse to $\Theta$.
 
 =--
 
-The [[homotopy equivalence]] $\Omega^\infty M O \simeq B Cob_\infty$ is the content of [[Galatius-Madsen-Tillmann-Weiss theorem]], and is now seen as a part of the [[cobordism hypothesis]] theorem.
+The [[homotopy equivalence]] $\Omega^\infty M O \simeq \vert Cob_\infty \vert$ is the content of [[Galatius-Madsen-Tillmann-Weiss theorem]], and is now seen as a part of the [[cobordism hypothesis]] theorem.
 
 
 
