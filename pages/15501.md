@@ -1,3 +1,3 @@
-br You know
- <a href="http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=resin-16" >Resin</a>
-[url=http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=resin-16]Resin[/url]
+The film has also been criticised for bringing stylised violence into mainstream moviemaking. But Tarantinos fans certainly dont see him as a prime offender.
+ <a href="http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-vintage-2128-c-20.html" >Ray Ban Vintage 2128</a>
+[url=http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-vintage-2128-c-20.html]Ray Ban Vintage 2128[/url]
