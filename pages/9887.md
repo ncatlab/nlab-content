@@ -83,7 +83,7 @@ which has the [[universal property]] that $\mu_\beta$ becomes an [[equivalence]]
 +-- {: .num_remark}
 ###### Remark
 
-The analog of this result for the periodic [[algebraic cobordism spectrum]] and [[algebraic K-theory]] is disucssed in ([GepnerSnaith 08](#GepnerSnaith08)).
+The analog of this result for the periodic [[algebraic cobordism spectrum]] and [[algebraic K-theory]] is discussed in ([GepnerSnaith 08](#GepnerSnaith08)).
 
 =--
 
