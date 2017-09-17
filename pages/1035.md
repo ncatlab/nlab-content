@@ -31,7 +31,7 @@ An **additive category** is
 
 ## Remarks 
 
-* In any Ab-enriched category, any finite product is also a coproduct, and dually.  This includes the zero-ary case: any [[terminal object]] is also an [[initial object], hence a [[zero object]] (and dually).  Such products are sometimes called [[biproducts]] and sometimes [[direct sums]]; they are [[absolute limit|absolute limits]] for Ab-enrichment.  (This does not extend to infinite products and coproducts.)  In fact, an Ab-enriched category is [[Cauchy complete category|Cauchy complete]] just when it is additive and moreover its [[idempotents]] split.
+* In any Ab-enriched category, any finite product is also a coproduct, and dually.  This includes the zero-ary case: any [[terminal object]] is also an [[initial object]], hence a [[zero object]] (and dually).  Such products are sometimes called [[biproducts]] and sometimes [[direct sums]]; they are [[absolute limit|absolute limits]] for Ab-enrichment.  (This does not extend to infinite products and coproducts.)  In fact, an Ab-enriched category is [[Cauchy complete category|Cauchy complete]] just when it is additive and moreover its [[idempotents]] split.
 
 * A [[pre-abelian category]] is an additive category which also has [[kernels]] and [[cokernels]].  Equivalently, it is an Ab-enriched category with all finite limits and colimits.  An especially important sort of additive category is an [[abelian category]], which is a pre-abelian one satisfying the extra exactness property that all monos are kernels and all epis are cokernels.  See [[additive and abelian categories]].
 
