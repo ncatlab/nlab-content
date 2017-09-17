@@ -3286,8 +3286,7 @@ is an **infinitesimal neighbourhood site** of $C$.
 +-- {: .un_prop #InfinitesimalNeighbourhoodFromInfinitesimalSite}
 ###### Proposition
 
-Let $C$ be an [[∞-cohesive site]] and     
-$(i \dashv p) : C \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}} C_{th}$ an [infinitesimal neighbourhood site](#InfinitesimalNeighBourhoodSite). 
+Let $C$ be an [[∞-cohesive site]] and  $(i \dashv p) : C \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}} C_{th}$ an [infinitesimal neighbourhood site](#InfinitesimalNeighBourhoodSite). 
 
 Then the [[(∞,1)-category of (∞,1)-sheaves]] on $C_{th}$ is a cohesive $(\infty,1)$-topos and the restriction $i^*$ along $i$ exhibits it as an [infinitesimal neighbourhood](#InfinitesimalNeighbourhoodIsOverInfGroupoid) of the cohesive $(\infty,1)$-topos over $C$.
 
