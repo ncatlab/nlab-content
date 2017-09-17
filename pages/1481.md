@@ -56,7 +56,7 @@ Rather, the approach for a formalization of the quantization procedure that shal
 
    The resulting pull-push operation is an example or a generalization of what [[John Baez]] discusses under the term [[groupoidification]]. 
 
-1. The observation that a differential coccycle on a [[Lorentzian manifold]] $\Sigma$ gives rise to a [[local net]] of observables, as used in the formalizaton of QFT known as [[AQTFT]]. (As described [here](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf)).
+1. The observation that a differential coccycle on a [[Lorentzian manifold]] $\Sigma$ gives rise to a [[local net]] of observables, as used in the formalizaton of QFT known as [[AQFT]]. (As described [here](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf)).
 
    So the procedure discussed here regards differential cocycles on target space as classicai field theories, regards their quantization as a way to obtain a differential cocycle on Lorentzian parameter space, and identifies this as a quantum field theory by associating a local net of observables to it. 
 
