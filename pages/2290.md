@@ -8,12 +8,12 @@
 =--
 =--
 =--
-#Contents#
 
-* automatics table of contents goes here
+#Contents#
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theories $A$ are characterized by the [[formal group]] whose ring of functions $A(\mathbb{C}P^\infty)$ is the [[cohomology ring]] of $A$ evaluated on the complex projective space $\mathbb{C}P^\infty$ and whose group product is induced from the canonical morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \to \mathbb{C}P^\infty$ that describes the tensor product of complex [[line bundle]]s under the identification $\mathbb{C}P^\infty \simeq \mathcal{B} U(1)$.
 
@@ -31,7 +31,7 @@ A theorem proven by Goerss-Hopkins-Miller and later in a different way by [[Jaco
 
 The [[homotopy limit]] of this assignment functor, i.e. the "gluing" of all spectra representing all elliptic cohomology theories is the [[spectrum]] that represents the cohomology theory called [[tmf]].
 
-# genera and the elliptic genus #
+## genera and the elliptic genus 
 
 > **rough material** , to be polished
 
@@ -223,9 +223,14 @@ The attempted "Proof" of this is the motivation for the [[Stephan Stolz|Stolz]]-
 
 **"Proof"** If $Y$ is String, then the [[loop space]] $L Y$ is has [[spin structure]], so if $Y$ has positive [[Ricci curvature]] the $L Y$ has positive [[scalar curvature]] which implies by the above that $ind^{S^1} D_{L Y} = 0$ which by the index formula is the [[Witten genus]].
 
+## Related concepts
+
+* [[sigma-orientation]]
+
+* [[tmf]]
 
 
-#References#
+## References
 
 A comprehensive account is in
 
@@ -235,5 +240,5 @@ Construction of elliptic cohomology / [[tmf]] by [[FQFT]] is discussed at _[[(2,
 
 * [[Pokman Cheung]], _Supersymmetric field theories and cohomology_ ([arXiv:0811.2267](http://arxiv.org/abs/0811.2267))
 
-* Nora Ganter, _The elliptic Weyl character formula_, [arxiv/1206.0528](http://arxiv.org/abs/1206.0528)
+* [[Nora Ganter]], _The elliptic Weyl character formula_, [arxiv/1206.0528](http://arxiv.org/abs/1206.0528)
 [[!redirects elliptic cohomology theory]]
