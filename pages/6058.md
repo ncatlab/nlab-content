@@ -59,21 +59,16 @@ A $\mathbb{R}^n/\Lambda$-[[principal bundle]] is a [[torus]]-bundle. Write $\mat
 
 Torus bundles on a [[smooth manifold]] $X$ are classified by $H^2(X, \Lambda)$. Following the discussion at [[smooth ∞-groupoid]] we write here $\mathbf{H}(X, \mathbf{B}\mathbb{R}^n/\Lambda)$ for the [[groupoid]] of smooth torus bundles and _smooth_ bundle morphisms between. Write $\mathbf{H}_{conn}(X,\mathbf{B} \mathbb{R}^n /\Lambda)$ for the corresponding differential refinement to bundles with [[connection on a bundle|connection]].
 
-The tensor product of [[chain complex]]es
+For $A$ an abelian group, let $A[n]$ be the chain complex consisting of $A$ concentrated in degree $n$. Then the tensor product of [[chain complex]]es
 
 $$
-  (\Lambda \to \mathbb{R}^n \to 0) \otimes
-  (\hat \Lambda \to (\mathbb{R}^n)^* \to 0)
-  \simeq
-  (\Lambda \otimes \hat \Lambda \to \Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda) \to \mathbb{R}^{n}\oplus(\mathbb{R}^n)^* \to 0 \to 0)
+  \Lambda[2]\otimes\hat{\Lambda}[2]\cong (\Lambda\otimes\hat{\Lambda})[4]
 $$
 together with the map of complexes
 $$
-(\Lambda \otimes \hat \Lambda \to \Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda \to \mathbb{R}^{n}\oplus(\mathbb{R}^n)^* \to 0 \to 0)\to 
-(\Lambda \otimes \hat \Lambda \to 0 \to 0 \to 0 \to 0)\stackrel{(-,-)}{\to}
-(\mathbb{Z}\to 0\to 0\to 0\to 0)
+(\Lambda \otimes \hat \Lambda)[4]\stackrel{(-,-)}{\to} \mathbb{Z}[4]
 $$
-induces (via the [[Dold-Kan correspondence]]) the [[cup product]] 
+induces the [[cup product]] 
 $$
   H^k(X, \Lambda) \times
   H^l(X, \hat \Lambda)
@@ -83,29 +78,17 @@ $$
   H^{k+l}(X, \mathbb{Z})
   \,.
 $$
-This is conveniently seen as a manifestation of the morphism of smooth groupoids
+This can be refined to a pairing in [[differential cohomology]]  
 $$
-\mathbf{B}\mathbb{R}^n/\Lambda\times \mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda\to \mathbf{B}^4\mathbb{Z}.
+  \bar{H}^k(X, \Lambda) \times
+  \bar{H}^l(X, \hat \Lambda)
+  \to 
+  \bar{H}^{k+l}(X, \Lambda \otimes \hat \Lambda)
+   \stackrel{(-,-)}{\to}
+  \bar{H}^{k+l}(X, \mathbb{Z})
+  \,.
 $$
-This can in turn be naturally refined as follows: instead of truncating the amove morphism of chain complexes at the bottom level, consider the lenght two truncation:
-$$
-(\Lambda \otimes \hat \Lambda \to \Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda \to \mathbb{R}^{n}\oplus(\mathbb{R}^n)^* \to 0 \to 0)\to 
-(\Lambda \otimes \hat \Lambda \to \Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda \to 0 \to 0 \to 0)\stackrel{(-,-)}{\to}
-(\mathbb{Z}\to \mathbb{R}\to 0\to 0\to 0)
-$$
-_(here there is a normalization factor $1/2$ to be taken into account: in the evaluation map $\Lambda\otimes (\mathbb{R}^n)^* \oplus \mathbb{R}^n\otimes \hat \Lambda\to \mathbb{R}$)_
-giving the
-morphism of smooth groupoids
-$$
-\mathbf{B}\mathbb{R}^n/\Lambda\times \mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda\to \mathbf{B}^3(\mathbb{Z}\to \mathbb{R})\simeq \mathbf{B}^3\mathbf{U}(1).
-$$
-Differential T-duality is (the homotopy fiber of) the lifting of this morphism to a morphism
-$$
-(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbf{B}^3\mathbf{U}(1)_{conn}
-$$
-It relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $(\mathbb{R}^n)^* /\hat \Lambda$-principal bundles.
-
-In the above expression, $(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}$ is the smooth groupoid associated by the [[Dold-Kan correspondence]] to the [[Deligne complex]] of sheaves
+by considering the [[Deligne complex]] of sheaves
 $$
 \Lambda[2]^\infty_D:=(\Lambda\hookrightarrow C^\infty(-,\mathbb{R}^n)\xrightarrow{d_\Lambda} \Omega^1(-,\mathbb{R}^n)),
 $$
@@ -114,32 +97,26 @@ $$
 d_\Lambda=(d\circ e^i)\otimes e_i
 $$
 (this is independent of the chosen basis). The definition of $d_\Lambda$ is 
-clearly chosen so to have an isomorphism of complexes $(\mathbf{Z}[2]^\infty_D)^n\cong \Lambda[2]^\infty_D$ induced by the choice of a $\mathbb{Z}$-basis of $\Lambda$. Via the Dold-Kan correspondence this gives an equivalence of smooth groupoids
+clearly chosen so to have an isomorphism of complexes $(\mathbf{Z}[2]^\infty_D)^{\otimes n}\cong \Lambda[2]^\infty_D$ induced by the choice of a $\mathbb{Z}$-basis of $\Lambda$.
+
+Write $(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}$ for the smooth groupoid associated by the [[Dold-Kan correspondence]] to the Deligne complex $\Lambda[2]^\infty_D$. Then we have the morphism of smooth groupoids
+to a morphism
 $$
-((\mathbf{B}\mathbb{R}/\mathbb{Z})_{conn})^n\cong (\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}.
+(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbf{B}^3\mathbf{U}(1)_{conn}
 $$
-The morphism $(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbf{B}^3\mathbf{U}(1)_{conn}$ then corresponds to the following morphism of differential complexes:
+induced by the composition of morphisms of complexes 
 $$
-\array{
-\Lambda\otimes\hat{\Lambda} & \to & \mathbb{Z}
-\\
-\downarrow& &\downarrow \\
-C^\infty(-,\Lambda\otimes(\mathbb{R}^n)^*)\oplus C^\infty(-,\mathbb{R}^n\otimes\hat{\Lambda}) & \to & C^\infty(-,\mathbb{R})
-\\
-\downarrow& &\downarrow \\
-\Omega^1(-,\Lambda\otimes(\mathbb{R}^n)^*)\oplus C^\infty(-,\mathbb{R}^n\otimes(\mathbb{R}^n)^*)\oplus \Omega^1(-,\mathbb{R}^n\otimes\hat{\Lambda})
-& \to & \Omega^1(-,\mathbb{R})
-\\
-\downarrow& &\downarrow \\
-\Omega^1(-,\mathbb{R}^n\otimes(\mathbb{R}^n)^*)\oplus \Omega^1(-,\mathbb{R}^n\otimes(\mathbb{R}^n)^*)
-& \to & \Omega^2(-,\mathbb{R})
-\\
-\downarrow& &\downarrow \\
-\Omega^1(-,\mathbb{R}^n)\otimes\Omega^1(-,(\mathbb{R}^n)^*)
-&\to & \Omega^3(-,\mathbb{R})
-}
+\Lambda[2]^\infty_D\otimes \hat{\Lambda}[2]^\infty_D 
+\stackrel{\cup}{\to}
+(\Lambda\otimes\hat\Lambda)[4]^\infty_D \stackrel{}{\to}\mathbb{Z}[4]^\infty_D,
 $$
-where the complexes have been written in vertical and the horizontal arrows are defined as follows: _to be continued..._
+where $\cup$ is the [[Beilinson-Deligne cup-product]].
+
+Differential T-duality is the homotopy fiber of the morphism
+$(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbf{B}^3\mathbf{U}(1)_{conn}$
+It relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $(\mathbb{R}^n)^* /\hat \Lambda$-principal bundles.
+
+
 +-- {: .num_defn #DifferentialTDualityPair}
 ###### Definition
 
