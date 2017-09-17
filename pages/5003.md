@@ -1,5 +1,5 @@
 
-The __trefoild knot__ is a famous [[knot]].
+The __trefoil knot__ is a famous [[knot]].
 
 Here is a traditional view:
 
@@ -8,6 +8,13 @@ Here is a traditional view:
 Here is a depiction with [[bridge number]] 2:
 
 [[!include trefoil knot (2 bridge) - SVG]]
+
+The group of the trefoil knot (calculated either by the Dehn or Wirtinger presentations) has two very useful presentations:
+
+* $\langle x,y \mid xyx=yxy\rangle$, which is the [[braid group]], **Br 3**;
+
+*  $\langle a,b | a^2= b^3\rangle$, in which the pair of numbers, $(2,3)$ is apparent.  These reflect the fact that the trefoil is a $(2,3)$-[[torus knot]]. 
+
 
 +-- {: .un_remark}
 ###### Note
