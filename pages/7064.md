@@ -1,0 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+The [[homotopy groups]] of [[spheres]]...
+
+## References
+
+* Wikipedia, _[Homotopy groups of spheres](http://en.wikipedia.org/wiki/Homotopy_groups_of_spheres)_
+
+* MO, _[Computational complexity of computing homotopy groups of spheres](http://mathoverflow.net/questions/31004/computational-complexity-of-computing-homotopy-groups-of-spheres)_
+
