@@ -10,7 +10,7 @@ Given a finite dimensional (pseudo)-[[Riemannian manifold]] $(X,g)$, the _Hodge 
 
 ## Definition
 
-Let $(X,g)$ be an $n$-dimensional [[smooth manifold]] $X$ endowed with a nondegenerate symmetric [[bilinear form]] $g$.  The **Hodge star operator** is the linear operator ${*}\colon \Omega^k X \to \Omega^{n-k} X$ defined by the identity
+Let $(X,g)$ be an [[orientation|oriented]] $n$-dimensional [[smooth manifold]] $X$ endowed with a nondegenerate symmetric [[bilinear form]] $g$.  The **Hodge star operator** is the linear operator ${*}\colon \Omega^k X \to \Omega^{n-k} X$ defined by the identity
 
 $$
 \alpha \wedge *\beta = (\alpha \mid \beta) vol, \qquad \forall \alpha,\beta \in \bigwedge^k X,
@@ -31,9 +31,16 @@ where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of t
 
 Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then
 
-* $*(*\omega) = (-1)^{k(n+1)} \omega$;
+* $*(*\omega) = (-1)^{k(n+1)} \omega = (-1)^{k(n-k)} \omega$;
 
-* $(*\omega | *\lambda) = (\omega | \lambda)$.
+* $(*\omega | *\lambda) = (\omega | \lambda)$;
+
+* $*1 = vol$.
+
+
+## Generalisations
+
+The [[Riemannian metric|metric]] $g$ is used in two places in the specification of the Hodge operator: in the inner product on forms and in the volume form.  If $X$ is equipped only with a [[volume form]] (not necessarily coming from a metric), then the Hodge operator still takes $k$-forms to $(n-k)$-[[multivector field|vector fields]].  If the manifold is not oriented, then the metric only gives a [[volume pseudoform]], but the Hodge operator still takes $k$-forms to $(n-k)$-pseudoforms.  Finally, if $X$ is equipped with only a volume pseudoform (which is equivalent to an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$), then the Hodge operator takes $k$-forms to $(n-k)$-pseudovector fields.  (Of course, in every case, one might apply the operator to pseudoforms or multivector fields to begin with.)
 
 
 ## References
