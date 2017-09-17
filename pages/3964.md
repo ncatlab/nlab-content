@@ -10,9 +10,17 @@ A [[derivator]] is *pointed* if it has a [[zero object]] in the sense appropriat
 
 A derivator $D\colon Dia^{op} \to Cat$ is **pointed**, or has a **zero object**, if each category $D(X)$ has a zero object.
 
-By a "super-difficult" excercise in [Maltsionitis' notes](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf), this is equivalent to requiring that whenever $u\colon I\to J$ is a [[sieve]] in $Dia$, the functor $u_* \colon D(I) \to D(J)$ has a right adjoint $u^!$, and dually whenever $u$ is a cosieve, the functor $u_!$ has a left adjoint $u^?$.
-
 ## Properties
+
+### Extra adjoints to sieve extensions
+
++-- {: .un_theorem}
+###### Theorem
+A derivator $D$ is pointed if and only if whenever $u\colon I\to J$ is a [[sieve]] in $Dia$, the functor $u_* \colon D(I) \to D(J)$ has a right adjoint $u^!$, and dually whenever $u$ is a cosieve, the functor $u_!$ has a left adjoint $u^?$.
+=--
+
+The "only if" direction of this is not too hard to prove.  The converse is a "super-difficult" excercise in [Maltsionitis' notes](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf).
+
 
 ### Loop and suspension
 
@@ -28,13 +36,15 @@ where $\Gamma^{op}$ is the full subcategory of $\square$ on $\{b,c,d\}$.  One ca
 
 ### Relative diagram categories
 
-If $D$ is a pointed derivator and $u\colon A\hookrightarrow B$ is a [[full subcategory]], we write $D(B,A)$ for the full subcategory of $D B$ on those diagrams $X\in D B$ such that $u^*X$ is null.
+If $D$ is a pointed derivator and $i\colon A\hookrightarrow B$ is a [[full subcategory]], we write $D(B,A)$ for the full subcategory of $D B$ on those diagrams $X\in D B$ such that $i^*X$ is null.
 
 +-- {: .un_theorem}
 ###### Theorem
-$D(B,A)$ is a [[reflective subcategory]] of $D(B)$.
+$D(B,A)$ is a [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] subcategory of $D(B)$.
 =--
-
++-- {: .query}
+[[Mike Shulman]]: This is Proposition 7.4 in Heller's paper cited below.  All he says about the proof is that the reflector at $X$ is the homotopy cofibre of the [[counit]] $i_! i^* X \to X$.  It seems to me that a little thought is required to even make this functorial (since a priori the counit is a morphism in $D(B)$, but to take its homotopy cofiber we need to *choose* an object of $D(B\times I)$ representing it), and I haven't succeeded yet in showing that it's a reflection.
+=--
 
 If $i'\colon A'\hookrightarrow B'$ is another full inclusion and
 $$\array{A & \overset{f}{\to} & A'\\
@@ -52,9 +62,18 @@ All of this dualizes as well to show that the loop space functor can be defined 
 $$ D 1 = D(1,\emptyset) \overset{(d,\emptyset)_*}{\to} D(\square,bc) \overset{(a,\emptyset)^*}{\to} D(1,\emptyset) = D 1.$$
 This description makes it clear that $\Sigma \dashv \Omega$.
 
+## The pointed reflection
+
+Every derivator can be made pointed in a universal way; given $D$ we define $D_*(A)$ to be the full subcategory of $D(A\times I)$ which is terminal when restricted along $0\colon A\to A\times I$.  It requires a little work to show that this is a derivator, the main observation being that the inclusion $D_*(A) \hookrightarrow D(A\times I)$ has a left adjoint (the "mapping cone").  See III.5 of Heller's memoir.
+
+
 ## References
 
-See [[derivator]].  The section on relative diagram categories is taken from:
+See [[derivator]] for general references.  The pointed reflection is discussed in III.5 of
+
+* Alex Heller, "Homotopy theories," Mem. AMS 71:383.
+
+The section on relative diagram categories is taken from:
 
 * Alex Heller, "Stable homotopy theories and stabilization", [MR](http://www.ams.org/mathscinet-getitem?mr=1431157)
 
