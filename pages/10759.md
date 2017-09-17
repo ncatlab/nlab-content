@@ -73,6 +73,7 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 =--
 
 ### (Co-)Filtered objects and their (co-)chain complexes
+ {#FilteredObjectsAndTheirChainComplexes}
 
 +-- {: .num_defn #GeneralizedFilteredObject}
 ###### Definition
@@ -444,6 +445,7 @@ $$
 $$
 
 The induced [[(∞,1)-functor]]
+
 
 $$
   Func((\mathbb{Z}\cup \{-\infty\}, \leq)^{\Delta[1]} , \mathcal{C})
@@ -1154,21 +1156,25 @@ The general theory is set up in section 1.2.2 of
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_.
 
+A quick exposition of that is for instance in section 1.2 of
+
+* [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+ {#Wilson13}
+
 
 The case of the derived category of an arbitrary abelian category is discussed in details in Chapter VIII of
 
 * P. Hilton, U. Stammbach, *A Course in Homological Algebra*, Graduate Texts in Mathematics 4
 {#HiltonStammbach}
 
-A quick exposition is for instance in section 1.2 of
 
-* [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
- {#Wilson13}
+The traditional discussion of the [[Adams spectral sequence]] in this style originates in
 
-For the case of the Adams spectral sequence, see
-
-* [[Aldridge Bousfield]], *The localization of spectra with respect to homology*, ([pdf](http://www.math.uwo.ca/~mfrankla/Bousfield_LocalnSpectraHomol.pdf))
+* [[Aldridge Bousfield]], *The localization of spectra with respect to homology*, Topology vol 18 (1979) ([pdf](http://www.math.uwo.ca/~mfrankla/Bousfield_LocalnSpectraHomol.pdf))
 {#Bousfield}
+
+see also at _[[Bousfield localization of spectra]]_.
+
 
 [[!redirects spectral sequence of a filtered object in a stable (∞,1)-category]]
 [[!redirects spectral sequence of a filtered object in a stable (infinity,1)-category]]
