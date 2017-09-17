@@ -303,6 +303,12 @@ Equivalently, we can observe that a locally ∞-connected (∞,1)-topos is ∞-c
 
 =--
 
+## Related concepts
+
+* **shape of an $(\infty,1)$-topos**
+
+* [[coshape of an (∞,1)-topos]]
+
 
 ## References
 
