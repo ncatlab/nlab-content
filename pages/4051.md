@@ -22,7 +22,7 @@ The signature of $Th(Cat)$ consists of
 
 * A ternary predicate $c$. 
 
-(The theory of [[categories]] is commonly presented as a two-sorted theory, with an object sort and a morphism sort. Here we instead use a single-sorted theory, whose terms are intended to be interpreted as _morphisms_ of a category. We generally use letters $f, g, h, \ldots$ for variable terms. If $e$ is any term, then the intended interpretation of $s(e)$ is: the identity morphism of the domain of $e$. Similarly, $t(e)$ means the identity morphism of the codomain of $e$. The intended interpretation of $c(f, g, h)$ is that $h = f \circ g$.) 
+(The theory of [[categories]] is commonly presented as a two-sorted theory, with an object sort and a morphism sort. Here we instead use [[single-sorted definition of a category|the single-sorted theory]], whose terms are intended to be interpreted as _morphisms_ of a category. We generally use letters $f, g, h, \ldots$ for variable terms. If $e$ is any term, then the intended interpretation of $s(e)$ is: the identity morphism of the domain of $e$. Similarly, $t(e)$ means the identity morphism of the codomain of $e$. The intended interpretation of $c(f, g, h)$ is that $h = f \circ g$.) 
 
 The axioms of $Th(Cat)$ are as follows:  
 
