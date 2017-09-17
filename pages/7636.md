@@ -39,6 +39,7 @@
 
 
 ## Theorems
+ {#Theorems}
 
 We discuss here formalizations and proofs of the relation/equivalence between various flavors of type theories and the corresponding flavors of categories.
 
