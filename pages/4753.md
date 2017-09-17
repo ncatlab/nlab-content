@@ -19,14 +19,19 @@
 
 ## Motivation
 
-There are two broad definitions of [[category]] in the literature: one which immediately generalises to the usual definition of [[internal category]] and one which immediately generalises to the usual definition of [[enriched category]].
+There are two main styles of definition of [[category]] in the literature: one which immediately generalises to the usual definition of [[internal category]] and one which immediately generalises to the usual definition of [[enriched category]].  Here we consider the latter definition, and show how it may naturally be expressed in [[dependent type theory]].
 
-Here we consider the latter definition and show how it may naturally be expressed in [[dependent type theory]].  In a [[type theory]] where [[types]] are [[presets]] (without an inherent [[equality predicate]]), it is not manifestly possible to express so-called [[evil]] ideas in category theory.
+Note that in a [[type theory]] without [[identity types]], where [[types]] are [[presets]] (without an inherent [[equality predicate]]), it is not manifestly possible to express so-called [[evil]] ideas in category theory; thus categories are not necessarily [[strict category|strict]].  In [[homotopy type theory]], we have identity types, but they are not [[extensional type theory|extensional]]; thus it is also possible to define non-strict categories there (but there is a subtlety; see below).
 
 
 ## Definition
 
-In a [[dependent type theory]] with [[dependent record type|dependent record types]] we can define a type of categories as follows (using a two-dimensional syntax):
+In a [[dependent type theory]] with [[dependent record type|dependent record types]] we can define a type of categories as follows.
+
+We use a two-dimensional syntax, which is convenient to allow inference of [[implicit parameter|implicit parameters]], and to signify notation. We read the horizontal line as a rule, so for instance the second line means that whenever $a$ and $b$ have type $\mathrm{Obj}$, then we have a type $\hom(a,b)$ (with equality).
+
+The notation $p\coloneq P$ signifies that $p$ is a proof of the [[proposition]] $P$ (under [[propositions as types]] or [[propositions as some types]], this may be the same as $p\colon P$, but many type theories treat propositions as distinct from types).
+
 \[\begin{aligned}
   \biggl\{&\mathrm{Obj}\colon\mathrm{Type}, \\
     &\frac{a,b\colon\mathrm{Obj}}{\hom(a,b)\colon\mathrm{Type}_=}, \\
@@ -39,13 +44,15 @@ In a [[dependent type theory]] with [[dependent record type|dependent record typ
         (f\circ g)\circ h} \\
   &\!\biggr\}
 \end{aligned}\]
-Here, $\mathrm{Type}$ is a type of types, and $\mathrm{Type}_=$ is a type of types with equality predicates (we may or may not have $\mathrm{Type}=\mathrm{Type}_=$).
+Here, $\mathrm{Type}$ is a type of types, and $\mathrm{Type}_=$ is a type of types with equality predicates (we may or may not have $\mathrm{Type}=\mathrm{Type}_=$).  Specifically:
 
-The two-dimensional syntax is convenient to allow inference of [[implicit parameter|implicit parameters]], and to signify notation. We read the horizontal line as a rule, so for instance the second line means that whenever $a$ and $b$ have type $\mathrm{Obj}$, then we have a type $\hom(a,b)$ (with equality).
+* In [[extensional type theory]] (with extensional [[identity types]]), we have $\mathrm{Type}=\mathrm{Type}_=$, and the above definition simply makes no use of the equality predicate on the type of objects.  In this case we obtain [[strict categories]], although that is not immediately visible from the definition.
 
-The notation $p\coloneq P$ signifies that $p$ is a proof of the [[proposition]] $P$ (under [[propositions as types]], this may be the same as $p\colon P$, but many type theories treat propositions as distinct from types).
+* In dependent type theory without identity types, basically the only option for $\mathrm{Type}_=$ is the type of [[setoids]].  In this case we obtain a notion of non-strict category, since the type of objects has no equality predicate at all.
 
-So the above defines that a category is a record consisting of a type of objects, and for each pair of objects a type of homomorphisms between them, and also identity and composition operations satisfying unit laws and associativity.
+* In [[homotopy type theory]], it is natural to take $\mathrm{Type}_=$ to be the type of [[h-sets]]: types whose identity/path types behave extensionally.  We should also restrict the [[homotopy level]] of the type of objects, however, since a true 1-category should have no more than a 1-groupoid of objects; thus we should take $\mathrm{Obj}$ to be 1-truncated (in addition to each $\hom(a,b)$ being 0-truncated).
+
+  This gives a notion of non-strict category (since there is no equality predicate on a 1-truncated type other than isomorphism).  However, it is not quite the right definition of "1-category" in homotopy type theory, because nothing requires that the paths in $\mathrm{Obj}$ are the same as the isomorphisms defined categorically.  We need to impose a version of the "completeness" condition on a [[complete Segal space]].
 
 
 ## Discussion
