@@ -88,21 +88,21 @@ Arguably, negatively defined products should be naturally expressed as [[coinduc
 
 ### Positive versus negative
 
-In ordinary "nonlinear" type theory, the positive and negative dependent sum types are equivalent, just as in the case of [[product types]].  They manifestly have the same constructor, while we can define the eliminators in terms of each other as follows:
+In ordinary "nonlinear" [[type theory]], the positive and negative dependent sum types are equivalent, just as in the case of [[product types]].  They manifestly have the same constructor, while we can define the eliminators in terms of each other as follows:
 
 $$
 \begin{aligned}
-  \pi_1 p &\;\coloneqq\; let (x,y) = p in x\\
-  \pi_2 p &\;\coloneqq\; let (x,y) = p in y\\
+  \pi_1 p &\;\coloneqq\; let (x,y) = p \,in\, x\\
+  \pi_2 p &\;\coloneqq\; let (x,y) = p \,in\, y\\
   let (x,y) = p in c &\;\coloneqq\; c[\pi_1 p / x, \pi_2 p / y]
 \end{aligned}
 $$
 
-The computation rules then also correspond, just as for [[product types]].
+The [[computation rules]] then also correspond, just as for [[product types]].
 
-Also just as for product types, in order to recover the important *dependent* eliminator for the positive product type from the eliminators for the negative product type, we need the latter to satisfy the $\eta$-conversion rule so as to make the above definition well-typed.  By inserting a transport, we can make do with a [propositional](/nlab/show/eta-conversion#Propositional) $\eta$-conversion, which is also provable from the dependent eliminator.
+Also just as for [[product types]], in order to recover the important *dependent* eliminator for the positive product type from the eliminators for the negative product type, we need the latter to satisfy the $\eta$-conversion rule so as to make the above definition well-typed.  By inserting a transport, we can make do with a [propositional](/nlab/show/eta-conversion#Propositional) $\eta$-conversion, which is also provable from the dependent eliminator.
 
-One might expect that in "dependent linear type theory" the positive and negative dependent sums would become different.  However, the meaning of the quoted phrase is unclear.
+One might expect that in "[[dependent linear type theory]]" the positive and negative dependent sums would become different.  However, the meaning of the quoted phrase is unclear.
 
 
 ## Categorical interpretation
