@@ -24,8 +24,8 @@
 The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie groups]]. One way to characterize it is as the [[automorphism group]] of the [[octonions]].
 
 ## Definition
+ {#Definition}
 
-One construction goes like this:
 
 +-- {: .num_defn #As2PlectomorphismsOnR7}
 ###### Definition
@@ -56,6 +56,9 @@ The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equi
 ## Related concepts
 
 * [[G2 manifold]]
+
+* [[M-theory on G2-manifolds]], [[G2-MSSM]]
+
 
 ## References
 
