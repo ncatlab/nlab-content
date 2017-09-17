@@ -26,4 +26,7 @@
 
 [[!redirects fundamental particles]]
 
+
+[[!redirects elementary particle]]
 [[!redirects elementary particles]]
+
