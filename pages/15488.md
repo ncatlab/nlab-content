@@ -1,3 +1,3 @@
-Get a glimpse of the new exclusive 50thanniversary collection in the images given below:The watch, which features a 41.50 mm brushed and polished stainless steel case and a polished bezel, has a black dial with the vertical lines that define Omega's popular Aqua Terra Collection. The indexes are crafted from brushed and polished 18 Ct white gold and there is a date window at 3 o'clock.
- <a href="http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=waverly-c-1_6/" >Waverly</a>
-[url=http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=waverly-c-1_6/]Waverly[/url]
+7. Strong
+ <a href="http://www.poopada.com/Coachhandbagcharming.asp?charming=coach-luggage.html" >Coach Luggage</a>
+[url=http://www.poopada.com/Coachhandbagcharming.asp?charming=coach-luggage.html]Coach Luggage[/url]
