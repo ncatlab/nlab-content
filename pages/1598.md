@@ -102,6 +102,9 @@ Therefore these are all [[isomorphic]] as bare group. But equipped with their ca
 
 * _[[Hilbert's fifth problem]]_
 
+### Homotopy groups
+
+List of [[homotopy groups]] of the manifolds underlying the classical [[Lie groups]] are for instance in ([Abanov 09](#Abanov09)).
 
 
 
@@ -197,6 +200,12 @@ The [[exceptional Lie groups]] incude
 * Mark Haiman, lecture notes by [[Theo Johnson-Freyd]], _Lie groups_, Berkeley 2009 ([pdf](http://math.berkeley.edu/~theojf/LieGroups.pdf))
 
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf))
+
+### Homotopy groups
+
+* Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf))
+  {#Abanov09}
+
 
 ### On infinite-dimensional Lie groups
  {#ReferencesOnInfiniteDimensionalLieGroups}
