@@ -274,7 +274,7 @@ If in  def. \ref{CatOfCobordismsWithXIStructure} one chooses $X = B SO(n) \times
 
 ### For noncompact cobordisms
 
-See [[Calabi-Yau object]] and [[TCFT]].
+See [[Calabi-Yau object]].
 
 ### For cobordisms with geometric structure
 
