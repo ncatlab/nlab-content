@@ -236,6 +236,10 @@ The original reference is
 
 * Wu ... (1955)
 
+See also
+
+* [[Robert Stong]], Toshio Yoshida, _Wu classes_ Proceedings of the American Mathematical Society  Vol. 100, No. 2, (1987)  ([JSTOR](http://www.jstor.org/pss/2045970))
+
 Details are reviewed in appendix E of
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
