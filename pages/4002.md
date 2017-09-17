@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+
 # Connected topos
 * table of contents
 {: toc}
