@@ -25,38 +25,236 @@ The generalization to [[supergeometry]] is the [[superparticle]].
 
 ## Definition
 
-Let $(X,g)$ be a [[spacetime]] and $\nabla$ a [[connection on a bundle|connection]] on a [[circle group]]-[[principal bundle]] over $X$.
+The **relativistic particle** is described by the [[sigma-model]] whose
 
-A _trajectory_ of the relativistic particle on $X$ is a map
+* [[target space]] is a [[spacetime]] $(X,g)$ 
 
-$$
-  \gamma : [0,1] \to X
-  \,.
-$$
+* [[worldvolume]] is the [[real line]] $\Sigma = \mathbb{R}$ or the [[circle]] $\Sigma = S^1$;
 
-The exponentiated [[action functional]] $\exp S$ of the relativistic particle is the [[functional]] on the [[mapping space]] $X^{[0,1]}$ given by
+* [[background gauge field]] is [[connection on a bundle|connection]] $\nabla$ on a [[circle group]]-[[principal bundle]] over $X$.
 
-$$
-  \exp S : \gamma \mapsto (\exp i S_{kin}(\gamma)) (\exp i S_\nabla(\gamma))
-$$
+* [[configuration space]] is the [[quotient]]
 
-where $S_{kin} = length_g(\gamma)$ is the invariant [[length]] of $\gamma$ and $\exp i S_\nabla(\gamma) = tra_\nabla(\gamma)$ is the [[parallel transport]] of $\nabla$ along $\gamma$.
+  $$
+    Conf := C^\infty(\Sigma, X)// Diff(\Sigma)
+  $$
 
-Alternatively (and mandatorily for vanishing [[mass]] parameter), the kinetic action is replaced by the corresponding [[Polyakov action functional]].
+  of the space (naturally a [[diffeological space]]) of [[smooth function]]s $\Sigma \to X$ ("trajectories"); 
 
-The mapping space equipped with this action functional constitutes the data of a [[sigma-model]] [[quantum field theory]]. Its [[quantization]] is the _quantum relativistic particle_ .
+* the exponentiated [[action functional]] is for given parameters $m \in \mathbb{R}$ (the particle's [[mass]]) and $q \in \mathbb{R}$ (the particle's [[charge]])
+
+  $$
+    \exp(i S(-))
+     : 
+   [\gamma] 
+       \mapsto
+     \exp(
+     i m \int dvol(\gamma^* g))
+     \;\;
+     hol(\nabla,\gamma)
+     \,,
+  $$
+
+  where the first terms is the integral of the [[volume form]] of the pullback of the background metric, and where the second term is the [[holonomy]] of the [[circle n-bundle with connection|circle bundle with connection]] around $\nabla$. In the case that the underlying [[circle]]-[[principal bundle]] is trivial, so that the [[connection on a bundle|connection]] is given by a [[differential forms|1-form]] $A \in \Omega^1(X)$, the [[action functional]] is
+   
+  $$
+    \begin{aligned}
+     S : 
+     [\gamma]
+      \mapsto
+      & 
+      S_{kin}([\gamma]) + S_{gauge}([\gamma])
+      \\
+      & =
+      \int m dvol(\gamma^* g)
+      +
+      \int q \gamma^* A
+    \end{aligned}
+      \,,
+  $$
+
+  where the first summand is the _kinetic action_ and the second the _gauge interaction_ term.
+
+The above action functional is called the [[Nambu-Goto action]] in dimension 1. Alternatively (and mandatorily for vanishing [[mass]] parameter), the kinetic action is replaced by the corresponding [[Polyakov action]].
+
 
 ## Properties
 
-A _classical trajectory_ of the relativistic particle is a curve that extremizes the [[action functional]] (that solves the [[Euler-Lagrange equation]]s).
+### Covariant phase space
 
-In the absence of an electromagnetic field or other forces except gravity, this is a [[geodesic]] in the [[spacetime]] which is
+We determine the [[covariant phase space]] of the theory: the space of solutions to the [[equations of motion]] and the [[presymplectic structure]].
 
-* lightlike if the particle is massless;
 
-*  timelike if it has non-vanishing mass 
+We assume for simplicity that the class of the background circle bundle is trivial, so that the connection is equivalently given by a 1-form $A \in \Omega^1(X)$. Write $F = d A$ for its [[curvature]] 2-form: the [[field strength]] of the [[electromagnetic field]].
 
-See [[Lorentzian space]] for these notions.
++-- {: .num_prop}
+###### Proposition
+
+The [[variational calculus|variation]] of the gauge interaction term is
+
+$$
+  \delta \int_\Sigma \gamma^* A
+  =
+  - \int_\Sigma F(\dot \gamma, \delta \gamma)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\mathbb{R}^d \stackrel{\simeq}{\to} U \hookrightarrow X$ be a local [[coordinate patch]] with coordinates $\{x^\mu\}$ and assume that $\gamma$ takes values in $U$ (or at least that its variation is supported there, which we can assume without restriction of generality).
+Then the variation is given by
+is
+
+$$
+  \begin{aligned}
+    \delta \int_\Sigma \gamma^* A
+    & =
+     \delta \int_\Sigma A_\mu(\gamma) \dot \gamma^\mu d \tau
+    \\
+    & = \int_\Sigma 
+        \left(
+           (\partial_{\nu} A_\mu)(\gamma) \dot \gamma^\mu
+           -
+           \frac{d}{d\tau} (A_\nu(\gamma))
+        \right)
+        \delta \gamma^\nu
+        d \tau
+    \\
+    & = \int_\Sigma
+        \left(
+           (\partial_{\nu} A_\mu)(\gamma) \dot \gamma^\mu
+           -
+           (\partial_\mu A_\nu)(\gamma)) \dot \gamma^\mu
+        \right)
+        \delta \gamma^\nu  
+        d\tau
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+The variation of the kinetic terms is slightly subtle due to the square root in 
+
+$$
+  dvol(\gamma^* g) = \sqrt{g(\dot g, \dot g)} d\tau
+  \,.
+$$
+
+To deal with this, we first look at variations of trajectories in a small region where $g(\dot \gamma, \dot \gamma)$ is non-zero. For such we can always find a [[diffeomorphism]] $\Sigma \stackrel{\simeq }{\to} \Sigma$ such that this term is constantly $= 1$ in this region (recall that configurations are diffeomorphism classes of smooth [[curve]]s, so we may apply such a diffeomorphism at will to compute the variation). 
+
++-- {: .num_prop}
+###### Proposition
+
+With the above choice diffeomorphism gauge, the equations of motion are
+
+$$
+  g(\nabla_{\dot \gamma} \dot \gamma,-)  = \iota_{\dot \gamma} F
+  \,,
+$$
+
+where $\nabla$ is the [[covariant derivative]] with respect to the [[Levi-Civita connection]] of the metric $g$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Computing as before in local coordinates, the variation of the kinetic terms is
+
+$$
+  \begin{aligned}   
+    \delta \int_\Sigma dvol(\gamma^* g)
+     & =
+     \delta \int_\Sigma \sqrt{g(\dot \gamma, \dot \gamma)} d\tau
+     \\
+     & = 
+     \int_\Sigma 
+      \left(
+          \frac{1}{2}(\partial_\mu g_{\nu \lambda}) \dot \gamma^\nu \dot \gamma^\lambda 
+          -
+          \frac{d}{d\tau}(g_{\mu \nu} \dot \gamma^\nu) 
+      \right)
+      \delta \gamma^\mu
+d \tau
+    \\
+    & =
+     \int_\Sigma 
+      \left(
+          \frac{1}{2}(\partial_\mu g_{\nu \lambda}) \dot \gamma^\nu \dot \gamma^\lambda 
+          -
+          2 (g_{\mu\nu}\ddot \gamma^\nu + 
+     (\partial_\lambda g_{\mu\nu}) \dot \gamma^\nu \dot \gamma^\lambda)
+      \right)
+      \delta \gamma^\mu
+      d \tau
+   \\
+    & = 
+    - \int_\Sigma
+     g_{\mu \mu}(
+      \ddot \gamma^\nu + \Gamma^\nu{}_{\alpha \beta} \dot \gamma^\alpha \dot \gamma^\beta
+    )
+   \delta \gamma^\mu
+   \\
+    & = 
+    - \int_\Sigma
+     g_{\mu \mu}(
+      \nabla_{\dot \gamma} \dot \gamma^\nu
+    )
+   \delta \gamma^\mu
+   \\
+   & = -\int_\Sigma g(\nabla_{\dot \gamma} \dot \gamma, \delta \gamma)
+  \end{aligned}
+  \,.
+$$
+
+(Here $\Gamma^\cdot{}_{\cdot \cdot}$ are the [[Christoffel symbols]].)
+
+This gives the equations of motion as claimed. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[norm]] of the tangent vector along a physical trajectory is preserved:
+
+$$
+  \begin{aligned}
+    \frac{d}{d \tau} \sqrt{g(\dot \gamma, \dot \gamma)}
+     & \propto
+     2 \frac{d}{d \tau} g(\nabla_{\dot \gamma} \dot \gamma, \dot \gamma) 
+     \\
+    & \propto 
+     F(\dot \gamma, \dot \gamma)
+     \\
+     & 0
+  \end{aligned}
+  \,.
+$$
+
+Therefore if the assumption $g(\dot \gamma, \dot \gamma) \neq 0$ is satisfied at one instant, is is so everywhere along the curve. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For vanishing [[background gauge field]] strength, $F = 0$, the equations of motion 
+
+$$
+  \nabla_{\dot \gamma} \dot \gamma = 0
+$$
+
+express the [[parallel transport]] of the tangent vector along a physical trajectory. This identifies these trajectories with the [[geodesics]] of $X$.
+
+=--
+
 
  
 ## References
