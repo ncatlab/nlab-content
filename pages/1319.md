@@ -104,7 +104,7 @@ $$
 
 * If $C$ is a [[category of fibrant objects]] and $\pi C$ its
 category of morphisms modulo [[homotopy]], the collection of 
-acyclic fibrations in $\pi C$ admits a calculus of left fractions.  The corresponding localization is the homotopy category $\Ho(C)$ of $C$.  Note that this example does not satisfy the 2-out-of-3 property.
+weak equivalences in $\pi C$ admits a calculus of right fractions.  The corresponding localization is the homotopy category $\Ho(C)$ of $C$.  Note that this example does not satisfy the 2-out-of-3 property.
 
 * Given a [[null system]] $N$ in a [[triangulated category]] $C$,
 the collection of morphisms $f : X \to Y$ in $C$ such that
@@ -119,9 +119,7 @@ in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$
 
 The above definition is due to Gabriel and Zisman in the book 
 
-* [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) 
-
-although their left-right conventions are reversed from ours.
+* [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967). 
 
 [[!redirects left calculus of fractions]]
 [[!redirects right calculus of fractions]]
