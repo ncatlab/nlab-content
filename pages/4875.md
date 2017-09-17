@@ -23,6 +23,17 @@
 
 ## Definition
 
+### Abstractly
+
+In [[differential cohesion]] an [[object]]/[[type]] $D$ is an infinitesimally thicked point if its corresponding [[reduced object]] is the [[terminal object]],
+
+$$
+  Red(D) \simeq *
+  \,.
+$$
+
+### In the standard type of model
+
 An _infinitesimally thickened point_ is -- under [[Isbell duality]] -- the formal dual of an $R$-[[algebra]] of the form
 
 $$
@@ -58,6 +69,7 @@ The [[site]] of definition for the [[Cahiers topos]] is the category of spaces t
 
 * [[superpoint]]
 
+[[!include cohesion - table]]
 
 [[!redirects infinitesimally thickened points]]
 
