@@ -18,7 +18,7 @@ The notion of _well-founded coalgebra_ is due to [[Paul Taylor]] (with anteceden
 
 ## Definition
 
-Let $C$ be a [[finitely complete category]], and let $T$ be an [[endofunctor]] on $C$. We will suppose that $T$ preserves [[pullbacks]] of [[cospans]] in which one of the cospan arrows is [[monomorphism|monic]]; in particular, $T$ preserves monos. An example is the covariant power-set functor $P: Set \to Set$. 
+Let $C$ be a [[finitely complete category]], and let $T$ be an [[endofunctor]] on $C$. We will suppose that $T$ preserves [[pullbacks]] of [[monomorphisms]] (that is, it preserves [[limits]] of [[cospans]] in which one of the cospan arrows is [[monomorphism|monic]]).  In particular, this implies that $T$ preserves monos.  An example is the covariant power-set functor $P: Set \to Set$.
 
 +-- {: .un_def}
 ######Definition 
