@@ -394,9 +394,9 @@ and
 in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
 Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
-A standard textbook treatment is chapter x in volume y of
+A standard textbook treatment is chapter 3 of
 
-* [[Francis Borceux]], _Handbook of categorical algebra_
+* [[Francis Borceux]], _Handbook of categorical algebra 2 -- Categories and structures_ , Encyclopedia of Mathematics and its Applications, Cambridge University Press (1994)
 
 Other references are
 
