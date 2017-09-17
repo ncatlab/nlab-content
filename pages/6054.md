@@ -111,9 +111,25 @@ where in the middle steps we used that $f_* F$ is a $j$-sheaf, by assumption, an
 
 It is clear that $p^*$ is left exact, and so $(p^* \dashv p_*)$ is indeed a factorizing geometric morphism.
 
-We now show that $f_*$ taking values in sheaves is equivalent to $f^*$ mapping dense monos to isos.
+We now show that $f_*$ taking values in sheaves is equivalent to $f^*$ mapping dense monos to isos. 
 
-(...)
+Let $u : U \hookrightarrow X$ be a $j$-[[dense monomorphism]] and $A \in \mathcal{E}$ any object. Consider the induced naturality square
+
+$$
+  \array{
+    \mathcal{E}(X, f_* A) &\stackrel{\simeq}{\to}& \mathcal{F}(f^* X, A)
+    \\ 
+    {}^{\mathllap{\mathcal{E}(u, f_* A)}}\downarrow 
+     && 
+     \downarrow^{\mathrlap{\mathcal{F}(f^* u, A)}}
+    \\
+    \mathcal{E}(U, f_* A)
+      &\stackrel{\simeq}{\to}&
+    \mathcal{F}(f^* U, A)
+  }
+$$
+
+of the adjunction [[natural isomorphism]]. If now $f_* A$ is a $j$-sheaf and $u$ a [[dense monomorphism]], then by definition the left vertical morphism is also an isomorphism and so is the right one. By the [[Yoneda lemma]] this being an iso for all $A$ is equivalent to $f^* u$ being an iso. And conversely.
 
 =--
 
