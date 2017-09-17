@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
 =--
 =--
 
