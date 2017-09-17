@@ -1,0 +1,4 @@
+
+* [MO page](http://mathoverflow.net/users/11540/david-white)
+
+category: people
