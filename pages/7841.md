@@ -21,7 +21,12 @@ A [[Witt vector]] is an infinite sequence of elements of a commutative ring $k$.
 
 A [[Witt vector|p-adic Witt vector]] is an infinite sequence of elements af a commutative ring of pime [[characteristic]] $p$. There exists a ring structure whose construction parallels that in characteristic $0$ except that only [[Witt polynomials]]  $w_{p^l}$ whose index is a power of $p$ are taken.
 
-A Witt ring is in particular a [[Lambda-ring]] and the assignation $W:k\to W(k)$ of a commutative ring to its Witt ring is a [[functor]] which has a left adjoint ''forgetting the $\lambda$-structure''. More over $W$ is representable by the  [[symmetric function|Symm]], the ring of symmetric functions and consequently $W$ is a [[group scheme]]. This is explained at [[Lamda-ring]].
+A Witt ring is in particular a [[Lambda-ring]] and the assignation $W:k\to W(k)$ of a commutative ring to its Witt ring is a [[functor]] which has a left adjoint ''forgetting the $\lambda$-structure''. More over $W$ is representable by [[symmetric function|Symm]], the ring of symmetric functions which is a [[Hopf algebra]] and consequently $W$ is a [[group scheme]]. This is explained at [[Lambda-ring]].
+
+The construction of Witt vectors gives a functorial way to lift a commutative ring $A$ of prime characteristic $p$ to a commutative ring $W(A)$ of characteristic 0. Since this construction is functorial, it can be applied to the structure sheaf of an algebraic variety.
+In interesting special cases the resulting ring $W(A)$ has even more desirable properties: If $A$ is a [[perfect field]] $W(A)$ is a [[discrete-valuation ring|discrete valuation]]. This is partly due to the fact that the construction of $W(A)$ involves a ring of power series and a ring of power series over a field is always a discrete valuation ring.
+
+There is a generalization to [[non-commutative Witt vectors]], however these only carry a group- but no ring structure.
 
 ## Motivation
 
