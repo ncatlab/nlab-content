@@ -410,6 +410,8 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 
   * [[KR-theory]]
 
+* [[groupoid K-theory]]
+
 * [[twisted K-theory]]
 
 * [[differential K-theory]]
