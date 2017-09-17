@@ -30,7 +30,7 @@ The [[stable homotopy theory]] of [[local spectra]], local with respect to [[Mor
 +-- {: .num_defn #StrictlyTame}
 ###### Definition
 
-Say that an [[∞-groupoid]] is _[[groupoid cardinality|strictly tame]]_ or _of [[finite type]] ([Hopkins-Lurie 14, def. 4.4.1](#HopkinsLurie14)) _ if it has only finitely many nontrivial [[homotopy groups]] each of which is furthermore a [[finite group]].
+Say that an [[∞-groupoid]] is _[[groupoid cardinality|strictly tame]]_ or _of [[finite type]] ([Hopkins-Lurie 14, def. 4.4.1](#HopkinsLurie14)) or maybe better is a _[[homotopy type with finite homotopy groups|truncated homotopy type with finite homotopy groups]]_ if it has only finitely many nontrivial [[homotopy groups]] each of which is furthermore a [[finite group]].
 
 =--
 
