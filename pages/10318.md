@@ -1493,7 +1493,7 @@ As far as it is not covered by traditional material, the above discussion is tak
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
  {#FiorenzaRogersSchreiber13a}
 
-* [[Joost Nuiten]], [[Urs Schreiber]], _[[schreiber:Local prequantum field theory]]_
+* [[Urs Schreiber]], _[[schreiber:Classical field theory via higher differential geometry]]_
 
 For more and related references see there and see at _[[motivic quantization]]_.
 
