@@ -335,6 +335,12 @@ See also related discussion at [[club]].
 
 ## Examples 
 
+Ambient categories of relevance in practice are
+
+* [[Top]]/[[sSet]] -- an operad in here is called a [[topological operad]];
+
+* [[category of chain complexes]] -- an operad in here is called a [[dg-operad]]
+
 ### Specific examples
 
 * [[endomorphism operad]]
