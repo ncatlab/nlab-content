@@ -1,3 +1,3 @@
-(Graphic by Catalyst.org)
- <a href="http://www.enterpriseict.co.uk/christianlouboutinonlinesalle.asp?onlinesale=yves-saint-laurent-womens-pumps-c-1_2.html" >Women's Pumps</a>
-[url=http://www.enterpriseict.co.uk/christianlouboutinonlinesalle.asp?onlinesale=yves-saint-laurent-womens-pumps-c-1_2.html]Women's Pumps[/url]
+It is a similar story with the famous Laocoon, that tangle of thrusting limbs, lightning-quick sea serpents and agonised expressions that has haunted the Western imagination ever since it was discovered in Rome and deposited in the Belvedere courtyard of the Vatican by Pope Julius II in 1506. This moving marble sculpture of the Trojan priest Laocoon and his two sons struggling to escape from the coils of their fate, forever frozen in the throes of anguish, has inspired countless artists and writers,Michael Kors Outlet, from Michelangelo to Dickens.
+ <a href="http://www.destinationvenus.co.uk/christianlouboutinpprevalent.asp?prevalent=christian-louboutin-pumps-c-10.html" >Christian Louboutin Pumps</a>
+[url=http://www.destinationvenus.co.uk/christianlouboutinpprevalent.asp?prevalent=christian-louboutin-pumps-c-10.html]Christian Louboutin Pumps[/url]
