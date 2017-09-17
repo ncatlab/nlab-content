@@ -208,7 +208,7 @@ And for more background on this see [[stuff, structure, property]].
 
 ### Morphisms of monoids and groups 
 
-For $A,B$ [[monoids]] or $G, H$ [[groups]], let $\mathbf{B}A, \mathbf{B}B$, $\mathbf{B}G$, $\mathbf{B}H$ be the corresponding obe-object [[category|categories]] (as described at [[delooping]]). Then functors
+For $A,B$ [[monoids]] or $G, H$ [[groups]], let $\mathbf{B}A, \mathbf{B}B$, $\mathbf{B}G$, $\mathbf{B}H$ be the corresponding one-object [[category|categories]] (as described at [[delooping]]). Then functors
 
 $$
   \mathbf{B}A \to \mathbf{B}B
