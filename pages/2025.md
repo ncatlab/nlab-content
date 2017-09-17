@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _compactum_, or _compact Hausdorff space_, is a [[space]] in which every [[limit of a sequence|limit]] that should exist does exist and does so uniquely.
+A _compactum_, or _compact Hausdorff space_, is a [[space]] in which every [[limit of a sequence|limit]] that should exist does exist and does so uniquely. Slightly more generally, one sometimes wants to speak of a _compact regular space_.
 
 One can define this literally for [[topological spaces]], or in terms of [[convergence spaces|convergence]], or for [[locales]]; although these are all different contexts, the resulting notion of compactum is (at least assuming the [[axiom of choice]]) always the same.  Interestingly, there is even an algebraic definition, not one that uses only finitary operations, but one which uses a [[monad]]. 
 
@@ -38,6 +38,7 @@ Every compact Hausdorff space is [[regular space|regular]] and [[sober space|sob
 >Probably this is also equivalent to the ultrafilter principle, but I need to check.
 
 Note that every compact Hausdorff space (topological or localic) is not only regular but also [[normal space|normal]].
+
 
 ## Compacta as algebras {#algebras} 
 
@@ -252,7 +253,9 @@ In other words, to complete the proof, it suffices to verify the claim. Letting 
 =-- 
 
 
-## In weak foundations
+## Weak versions
+
+Every [[Hausdorff space]], hence every compactum, satisfies the [[separation axiom]] $T_0$.  As is usual with separation axioms, we can also look for a non-$T_0$ version.  A priori, this is a compact [[preregular space]]; however, since every such space is [[regular space|regular]], we can speak instead of a __compact regular space__.
 
 In the absence of the axiom of choice, and especially in [[constructive mathematics]], the best definition of compactum seems to be a compact regular locale.  That is, it is the category of compact regular locales that has all of the nice properties, forming a [[nice category of spaces]], and that has the desired examples, such as the [[unit interval]].  (See the discussion at [[Tychonoff theorem]] for an example of how the category of compact Hausdorff topological spaces might fail to be nice; see [Frank Waaldijk's PhD thesis](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (pdf) for a thorough discussion of what is needed to make the unit interval a compact Hausdorff topological space.)
 
@@ -326,9 +329,10 @@ The category $Comp$ of compact Hausdorff spaces and continuous maps is
 
 From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning that $Comp$ enjoys the same finitary exactness properties that hold in a [[topos]]; in particular, first-order intuitionistic logic may be enacted within $Comp$. 
 
+
 ## Related concepts
 
-* [[vanishing at infinity]]
+* [[compact space]], [[locally compact space]].
 
 
 [[!redirects compactum]]
@@ -339,3 +343,8 @@ From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning
 [[!redirects compact Hausdorff topological spaces]]
 [[!redirects compact regular locale]]
 [[!redirects compact regular locales]]
+
+[[!redirects compact regular space]]
+[[!redirects compact regular spaces]]
+[[!redirects compact regular topological space]]
+[[!redirects compact regular topological spaces]]
