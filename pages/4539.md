@@ -59,7 +59,7 @@ and
 
 ## Theorems
 
-* [[Dold-Kan correspondence]] / [[monoidal Dold-Kan correspondence]]
+* [[Dold-Kan correspondence]] / [[monoidal Dold-Kan correspondence|monoidal]], [[operadic Dold-Kan correspondence|operadic]]
 
   * [[Moore complex]], [[Alexander-Whitney map]], [[Eilenberg-Zilber map]]
 
