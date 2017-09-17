@@ -51,14 +51,89 @@ While the parameter space (the domain space of the fields) of the original $\sig
 
 In particular the [[quantum mechanics]] of a [[relativistic particle]] propagating on $X$ is described by a $\sigma$-model on the [[real line]] $\Sigma = \mathbb{R}$ -- the _worldline_ of the particle.
 
-In [[string theory]] one considers 2-[[dimensional]] $\Sigma$ and thinks of maps $\Sigma \to X$ as being the _worldsheets_ of the trajectory of a string propagating in spacetime.
+In [[string theory]] one considers 2-[[dimension]]al $\Sigma$ and thinks of maps $\Sigma \to X$ as being the _worldsheets_ of the trajectory of a string propagating in spacetime.
 
 In the context of [[11-dimensional supergravity]] there is a $\sigma$-model with 3-dimensional $\Sigma$, describing the propagation of a [[membrane]] in [[spacetime]].
 
-## Exposition
+## Exposition of classical sigma-models
+ {#ExpositionClassical}
+
+We survey, starting from the very basics, [[classical field theory]] aspects of $\sigma$-models.
+
+### The Newtonian particle
+ {#ExpositionNewtonianParticle}
+
+With hindsight, the earliest $\sigma$-model ever considered was also the very origin of the science of [[physics]]:
+
+In order to describe the motion of matter [[particles]] in [[space]], [[Isaac Newton]] wrote down a [[differential equation]] with the famous symbols
+
+$$
+  \vec F = m \vec a 
+  \,.
+$$
+
+More in detail, this is meant to describe the following situation:
+
+* write $X := \mathbb{R}^3$ for the [[Cartesian space]] of [[dimension]] 3; think of this as a model for physics space;
+
+* write $\Sigma := \mathbb{R}$ for the [[Cartesian space]] of [[dimensional]] 1; think of this as the abstract trajectory of a point particle;
+
+* write $\gamma : \Sigma \to X$ for a [[smooth function]]; think of this as an actual trajectory of a point particle in $X$;
+
+  write furthermore
+
+  * $\vec v := \dot \gamma \in Hom(T \Sigma, T X)$ for the [[derivative]] of $\gamma$; think of this as the [[velocity]] of the particle; and
+
+  * $\vec a := \ddot \gamma$ for the second [[derivative]], the [[acceleration]] of the particle.
+
+We call then the collection of all [[smooth function]]s
+
+$$
+  Conf := C^\infty(\Sigma, X)
+$$
+
+the [[configuration space]] of a physical model of a point particle propagating on $X$. 
+
+
+In order to define the model -- the model of some physical situation -- 
+
+* pick a [[vector field]] $\vec F \in \Gamma(T X)$ on $X$. Think of this as expressing at each point a [[force]] acting on the particle with trajectory.
+
+  For instance $\vec F := q \vec E$ could be an [[electromagnetic field|electric field]] $\vec E$ influencing the propagation of an electrically charged particle of [[charge]] $q$.
+
+In modern language we may say:
+
+* $\Sigma$ is the [[worldline]] of the particle;
+
+* $X$ is the [[target space]] (expressing the fact that it is the [[codomain]] of a function $\gamma : \Sigma \to X$)
+
+* $\vec F$ is the [[background gauge field]];
+
+and the collection $(\Sigma, X, \vec F)$ of all three is a _$\sigma$-model_ . 
+
+Given this data, the space of solutions to the original [[differential equation]]
+
+$$
+  P := \{ \gamma \in Conf | \vec F = m \vec a \}
+$$
+
+is called the [[covariant phase space]] of the model. The configurations in $P \subset Conf$ have the interpretation of being those potential configurations, that describe actual trajectories of particles observed in nature.
+
+### The relativistic particle
+ {#RelativisticParticle}
+
+* [[relativistic particle]]
+
+
+### The relativistic string
+ {#RelativisticString}
+
+(...)
+
+## Exposition of a general abstract formulation
  {#Exposition}
 
-We give a leisurely exposition of the idea of $\sigma$-models, aimed at readers with a background in [[category theory]] but trying to assume no other prerequisites.
+We give a leisurely exposition of a general abstract formulation $\sigma$-models, aimed at readers with a background in [[category theory]] but trying to assume no other prerequisites.
 
 What is called an _$n$-dimensional $\sigma$-model_ is first of all an instance of an $n$-dimensional [[quantum field theory]] (to be explained). The distinctive feature of those quantum field theories that are $\sigma$-models is that 
 
