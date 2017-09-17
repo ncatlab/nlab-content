@@ -227,3 +227,6 @@ exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. W
 
 [[!redirects locally n-connected (infinity,1)-topos]]
 [[!redirects locally n-connected (infinity,1)-tops]]
+
+
+[[!redirects ∞-connected (∞,1)-topos]]
