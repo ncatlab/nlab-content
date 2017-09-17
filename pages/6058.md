@@ -172,6 +172,67 @@ $$
 (Notice the $filt_1$ instead of $filt_0$. ) By [this proposition](http://ncatlab.org/nlab/show/differential%20function%20complex#homotopy_groups_24) this has the right properties.
 =--
 
++-- {: .num_lemma }
+###### Lemma
+
+The choice $\sigma$ of the trivialization of the cup product of the two torus bundles induces canonically elments in degree 3 ordinary differential cohomology (two [[circle n-bundle with connection|circle 2-bundles with connection]]) on $P$ and on $\hat P$, respectively, whose pullbacks to the [[fiber product]] $P \times_X \hat P$ are equivalent there.
+
+=--
+
+This is ([KahleValentino, 2.2, 2.3](#KahleValentino)), where an explicit construction of the classes and their equivalence is given.
+
++-- {: .num_remark }
+###### Remark
+
+This is a special case of the general statement about extensions of higher bundles discussed <a href="http://www.ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#ExtendedBundlesByBundlesOfExtensions">here</a>:
+
+Let $A \to \mathbf{B} \mathbb{R}^n / \Lambda \times \mathbf{B} \mathbb{R}^n / \hat \Lambda$ be the [[homotopy fiber]] of the pairing class $\mathbf{B} \mathbb{R}^n / \Lambda \times \mathbf{B} \mathbb{R}^n / \hat \Lambda \to \mathbf{B}^3 U(1)$. This leads to the long [[fiber sequence]] (as discussed there)
+
+$$
+  \cdots \to \mathbf{B}^2 U(1) \to A \to \mathbf{B} \mathbb{R}^n / \Lambda \times \mathbf{B} \mathbb{R}^n / \hat \Lambda \to \mathbf{B}^3 U(1) 
+$$
+
+The characteristic map $X \to \mathbf{B} \mathbb{R}^n / \Lambda \times \mathbf{B} \mathbb{R}^n / \hat \Lambda$ of a pair of torus bundles $P , \hat P \to X$ factors through $A$ precisely if these form a T-duality pair. Such a factorization induces a $\mathbf{B} U(1)$-[[principal 2-bundle]] on the [[fiber product]] $P \times_X \hat P$. This follows from the following [[pasting diagram]] of [[homotopy pullback]]s
+
+$$
+  \array{
+    P \times_X \hat P &\stackrel{\tilde \tau}{\to}& \mathbf{B}^2 U(1) &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X &\to& A & \to & \mathbf{B} \mathbb{R}^n / \Lambda \times \mathbf{B} \mathbb{R}^n / \hat \Lambda 
+  }
+  \,.
+$$
+
+The $\tilde \tau$ here is the class on the fiber product in question.
+
+Notice that in the top left we indeed have $P \times_X \hat P$: the bottom left homotopy pullback of the product coefficients is equivalently given by the following pasting composite of homotopy pullbacks
+
+$$
+  \array{
+     && && P \times_X \hat P
+     \\
+     && & \swarrow && \searrow
+     \\
+     && P &&&& \hat P
+     \\
+     & \swarrow && \searrow && \swarrow && \searrow
+     \\
+     * && && X && && *
+     \\
+     & \searrow && \swarrow && \searrow && \swarrow
+     \\
+     && \mathbf{B}\mathbb{R}^n / \Lambda 
+     && && \mathbf{B}\mathbb{R}^n / \hat \Lambda
+  }
+  \,.
+$$
+
+Notice also that this is again directly analogous to the situation for [[string structure]]s: as discussed there, a string structure on $X$ induces a $\mathbf{B}U(1)$-2-bundle on the total space of a $Spin$-principal bundle over $X$. 
+
+=--
+
 ## Statement of differential T-duality
  {#StatementOfDifferentialTDuality} 
 
