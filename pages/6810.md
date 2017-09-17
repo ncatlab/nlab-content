@@ -82,8 +82,9 @@ Volume 476, Issues 3-4, 16 (2000), Pages 415-419
 
 ### Anomaly cancellation
 
-* Tony Gherghetta, Alex Kehagias, _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_ ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
+Discussion of [[quantum anomaly]] cancellation is in
 
+* Tony Gherghetta, Alex Kehagias, _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
 
 
 
