@@ -68,8 +68,6 @@ where
 
 * [[Einstein-Yang-Mills-Dirac theory]]
 
-* [[Einstein-Yang-Mills-Dirac theory]]
-
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
 [[!include standard model of fundamental physics - table]]
