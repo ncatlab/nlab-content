@@ -107,7 +107,7 @@ An interesting example of a topos that has enough projectives and thus does sati
 
 ## References
 
-When [[Peter Aczel]] was developing $\mathbf{CZF}$ (a constructive predicative version of [[ZFC]]), he considered this axiom, under the name of the _presentation axiom_, but ultimately rejected.
+When [[Peter Aczel]] was developing $\mathbf{CZF}$ (a constructive predicative version of [[ZFC]]), he considered this axiom, under the name of the _presentation axiom_, but ultimately rejected it.
 
 * Peter Aczel. _The type theoretic interpretation of constructive set theory_. Logic Colloquium '77 (Proc. Conf., Wroclaw, 1977), pp. 55--66, Stud. Logic Foundations Math., 96, North-Holland, Amsterdam-New York, 1978.  Cited in Palmgren, below.
 
@@ -126,4 +126,3 @@ category: foundational axiom
 [[!redirects PAx]]
 [[!redirects COSHEP]]
 [[!redirects coshep]]
-
