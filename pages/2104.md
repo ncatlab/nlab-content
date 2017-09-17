@@ -16,11 +16,16 @@
 
 ## Idea
 
-An interesting subclass of [[quantum field theory|quantum field theories]] is thought to arise from some kind of process that reads in certain -- usually [[differential geometry|differential geometric]] -- data, interprets this data as specifying the dynamics of some physical system, and spits out the [[quantum field theory]] that encodes the time evolution of this system.
+An interesting subclass of [[quantum field theory|quantum field theories]] is thought to arise from [[prequantum field theory]] via a process called _quantization_.   This process reads in certain -- usually [[differential geometry|differential geometric]] -- data, interprets this data as specifying the dynamics of some [[physical system]], and spits out the [[quantum field theory]] that encodes the time evolution of this system.
 
-Historically, it was an approximation to the true time evolution that was originally found and studied, by Newton, Maxwell, Einstein and others. This is now known as "[[classical physics]]". The true dynamics in turn is "quantum physics".
+Historically, it was an approximation to the true time evolution that was originally found and studied, by Newton, Maxwell, Einstein and others. This is now known as "[[classical physics]]". The true dynamics in turn is "[[quantum physics]]".
 
 In view of this, quantization is often understood as a [[retraction|right inverse]] to the procedure that sends the full quantum dynamics to its [[classical limit]]. As such it is not well defined, i.e. unique, when it exists. Additional structures sometimes make it unique. 
+
+> The goal is to get closer to a systematic theory of [[quantization]].
+  
+> ([Gukov-Witten 08, p.4](#GukovWitten08))
+
 
 
 ## Related entries
@@ -35,11 +40,15 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
     * [[geometric quantization of symplectic groupoids]]
 
+    * [[geometric quantization by push-forward]]
+
   * [[path integral]]
 
   * [[semiclassical approximation]]
 
   * [[quantization via the A-model]]
+
+* [[motivic quantization]]
 
 * [[perturbation theory]]
 
@@ -54,9 +63,9 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
 A general geometrically inclined introduction can be found in 
 
-* Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
-* N. P. Landsman, _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Math. 1998. xx+529 pp. 
+* [[Klaas Landsman]], _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Math. 1998. xx+529 pp. 
 
 A proposal for a full formalization of the notion of quantization for "finite" theories such as [[Dijkgraaf-Witten theory]] is in
 
@@ -66,4 +75,8 @@ A historical discussion by [[Zoran Škoda|one]] of the $n$labizants is here: [ma
 
 * [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
 
+The [[quantization via the A-model]]-method is described in
+
 * [[Sergey Gukov]], [[Edward Witten]], _Branes and quantization_, [arxiv/0809.0305](hhttp://arxiv.org/abs/0809.0305) 
+ {#GukovWitten08}
+ 
