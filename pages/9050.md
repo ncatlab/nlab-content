@@ -127,6 +127,10 @@ See for instance page 6 of ([GreenVoisinMurre](#GreenVoisinMurre)).
 
 ## Related concepts
 
+* [[Hodge theory]], [[Hodge structure]]
+
+* [[nonabelian Hodge theorem]]
+
 * [[Poincaré lemma]]
 
 * [[Stokes theorem]]
@@ -134,6 +138,8 @@ See for instance page 6 of ([GreenVoisinMurre](#GreenVoisinMurre)).
 * [[de Rham theorem]]
 
 * [[Hodge conjecture]]
+
+
 
 ## References
 
