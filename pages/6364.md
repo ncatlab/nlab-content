@@ -1,21 +1,31 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 The _unitalization of a  non-unital [[algebra]] is a unital algebra with a unit [[free construction|freely]] adjoined.
 
+
 ## Definition
 
-### For associative algebras
+### For (non)associative algebras
 
-For $R$ a [[commutative ring]] write $R Alg$ for the [[category]] of [[associative algebra]]s with unit over $R$ and unit-preserving [[homomorphisms]], and write $R Alg_{nu}$ for non-unital associative $R$-algebras.
+For $R$ a [[commutative ring]] write $R Alg_{\mathrm{u}}$ for the [[category]] of [[nonassociative algebra]]s with unit over $R$ and unit-preserving [[homomorphisms]], and write $R Alg_{\mathrm{nu}}$ for nonunital nonassociative $R$-algebras.  Note that $R Alg_{\mathrm{u}}$ is a [[subcategory]] of $R Alg_{\mathrm{nu}}$, as we use both 'non-unital' and 'non-associative' in accordance with the [[red herring principle]].
 
-The evident [[forgetful functor]] $F : R Alg \to R Alg_{nu}$ has a [[left adjoint]]  $(-)^+ : R Alg_{nu} \to R Alg$. For $A \in R Al_{nu}$ we say $A^+$ is the **unitalization** of $A$.
+The [[inclusion functor]] $U\colon R Alg{\mathrm{u}} \to R Alg_{\mathrm{nu}}$ has a [[left adjoint]] $(-)^+\colon R Alg_{\mathrmn{u}} \to R Alg{\mathrm{u}}$. For $A \in R Alg_{\mathrm{nu}}$ we say $A^+$ is the **unitalization** of $A$.
 
-Explicitly, $A^+ = A \oplus R$ with product given by $(a_1, 0) (a_2, 0 ) = (a_1 a_2, 0)$ and $(0,r_1) (0,r_2) = (0, r_1 r_2)$ and $(a,0) (0,r) = (r a , 0)$.
+Explicitly, $A^+ = A \oplus R$ as an $R$-[[module]], with product given by
+$$ (a_1, 0) (a_2, 0) = (a_1 a_2, 0) ,$$
+$$ (0, r_1) (0, r_2) = (0, r_1 r_2) ,$$
+$$ (a,0) (0,r) = (0,r) (a,0) = (r a, 0) ,$$
+or in general
+$$ (a_1, r_1) (a_2, r_2) = (a_1 a_2 + r_2 a_1 + r_1 a_2, r_1 r_2) .$$
+We often write $(a, r)$ as $a + r$ or $a \oplus r$, which makes the above formulas obvious.
+
+If $A$ is an [[associative algebra]], then $A^+$ will also be associative; if $A$ is a [[commutative algebra]], then $A^+$ will also be commutative.
+
 
 ## Related concepts
 
@@ -23,4 +33,9 @@ Explicitly, $A^+ = A \oplus R$ with product given by $(a_1, 0) (a_2, 0 ) = (a_1 
 
 * [[unitality]]
 
+
 [[!redirects unitalization]]
+[[!redirects unitalizations]]
+[[!redirects unitalisation]]
+[[!redirects unitalisations]]
+[[!redirects unitization]]
