@@ -1,5 +1,27 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Syntax is the formal specification of a [[theory]], as opposed to [[semantics]].
+
+## Related concepts
+
+* [[syntax - semantics duality]]
 
 
 [[!redirects syntax]]
