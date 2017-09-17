@@ -26,6 +26,8 @@ In fundamental physics, notably in [[quantum field theory]] and [[string theory]
 
 * [[Seiberg duality]]
 
+* [[AGT conjecture]]
+
 * [[Montonen-Olive duality]]
 
 * [[S-duality]]
@@ -35,7 +37,7 @@ In fundamental physics, notably in [[quantum field theory]] and [[string theory]
 * [[U-duality]]
 
 * [[AdS/CFT|AdS/CFT duality]]
-* [[AGT conjecture]]
+
 
 ## Relation to mathematical duality
 
