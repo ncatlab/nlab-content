@@ -5700,6 +5700,11 @@ The corresponding [[action functional]] is discussed in [Semantic Layer - Action
 ## **Integration**
  {#Integration}
 
+By the discussion in _[Differential forms](#DifferentialForms)_ and _[Principal connections](#PrincipalConnections)_, [[differential forms]] and more generally [[connection on a bundle|connections]] may be regarded as [[infinitesimal space|infinitesimal]] [[measures]] of _change_, of _displacement_. The discussion in _[Differentiation](#Differentiation)_ showed how to extract from a _finite_ but [[cohesion|cohesive]] (e.g. smoothly continuous) displacement all its infinitesimal measures of displacements by [[differentiation]]. 
+
+Here we discuss the reverse operation: _[[integration]]_ is a construction from a [[differential form]] or more generally from a [[connection on a bundle|connection]] of the corresponding finite cohesive displacement. Under good conditions this construction can proceed literally by "adding up all the infinitesimal contributions" and therefore [[integration]] is traditionally thought of as a generalization of forming [[sums]].
+
+ 
 ### Model Layer
 
 #### Integration
