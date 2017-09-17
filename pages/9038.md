@@ -1,0 +1,13 @@
+
+
+## Related concepts
+
+* [[supergravity]]
+
+## References
+
+* [[Andrew Strominger]], _Special geometry_,  Comm. Math. Phys. Volume 133, Number 1 (1990), 163-180. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104201320))
+
+
+[[!redirects special geometries]]
+
