@@ -280,3 +280,5 @@ Orientation of vector bundles in $E$-cohomology is discussed for instance in
 * [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
 
 [[!redirects Thom class]]
+
+[[!redirects orientations in generalized cohomology]]
