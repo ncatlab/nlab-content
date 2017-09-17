@@ -29,9 +29,14 @@ Under mild conditions, the category $Alg C$ of algebraic fibrant objects in a mo
 ###### Definition
 
 Let $C$ be a [[cofibrantly generated model category]] such that 
-all acyclic cofibrations are [[monomorphism]]s. 
 
-Choose a set $\{A_j \to B_j\}_{j \in J}$ of acyclic cofibrations such that an object $X \in C$ is fibrant precisely if it has the [[right lifting property]] against these morphisms.
+* all acyclic cofibrations are [[monomorphism]]s.
+
+Choose a set $\{A_j \to B_j\}_{j \in J}$ of acyclic cofibrations such that 
+
+* the [[domain]]s $A_j$ are [[small object]]s;
+
+* an object $X \in C$ is fibrant precisely if it has the [[right lifting property]] against these morphisms.
 
 An **algebraic fibrant object** in $C$ is a fibrant object of $C$ together with a choice of lifts ("fillers") $\sigma_j : B_j \to X$ in
 
@@ -54,7 +59,7 @@ Write $ALg C$ for the category whose objects are algebraic fibrant objects in $C
 +-- {: .un_remark}
 ###### Remark
 
-The set $J$ can always be taken to be that of all generating acyclic cofibrations. But often there are smaller subsets that still characterize all fibrant objects.
+The set $J$ can be taken to be that of all generating acyclic cofibrations, if their domains are small. But often there are smaller subsets that still characterize all fibrant objects.
 
 =--
 
@@ -125,7 +130,7 @@ Since $\coprod A_j \to \coprod B_j$ is an acylcic cofibration in $C$, so is its 
 
 =--
 
-+-- {: .un_defn}
++-- {: .un_defn #DefOfXInfty}
 ###### Definition
 
 Let $X_2$ be the [[pushout]]
@@ -163,7 +168,7 @@ be the [[colimit]] over this sequence.
 +-- {: .un_observation}
 ###### Observation
 
-The object $X_\infty$ inherits canonical fillers: since by the assumption on a [[cofibrantly generated model category]] that all $A_j$ are [[small object]]s with respect to [[transfinite composition|transfinitite composites]] of pushouts of the generating cofibrations we have that every morphism $A_j \to X_\infty$ factors through one of the intermediate $X_i$. Then for any of the morphisms $A_j \to B_j$ in $J$ the corresponding morphism $B_j \to X_{i+1} \to X_\infty$ provides a filler. 
+The object $X_\infty$ inherits canonical fillers: since by all $A_j$ are [[small object]]s we have that every morphism $A_j \to X_\infty$ factors through one of the intermediate $X_i$. Then for any of the morphisms $A_j \to B_j$ in $J$ the corresponding morphism $B_j \to X_{i+1} \to X_\infty$ provides a filler. 
 
 =--
 
@@ -403,7 +408,7 @@ The [[forgetful functor]] $U : Alg C \to C$ is a [[solid functor]].
 
 We discuss the proof for a slightly simpler statement, from which the full statement follows easily. 
 
-+-- {: .un_lemma}
++-- {: .un_lemma #SolidityLemma}
 ###### Lemma
 
 Let $Y$ be an algebraic fibrant object, $X$ an object in $C$ and 
@@ -455,14 +460,14 @@ $$
   }
 $$
 
-for each distinguished filler $\hat k$. But since the composite may factor through $Y$ in many ways, this will not give a unique notion of filler. So we shall iteratetively form colimits that equate these potentially different fillers.
+for each distinguished filler $\hat k$. But since the composite may factor through $Y$ in many ways, this will not give a unique notion of filler. Therefore we shall iteratetively form colimits that equate these potentially different fillers.
 
 +-- {: .proof}
 ###### Proof
 
+Let $H$ be the set of morphisms of the form $h : A_j \to X$ that factor through $f : Y \to X$. For each $h \in H$ let $F_h$ be the set of images of distinuished fillers $B_j \to X$.
 
 Set
-
 
 $$
   X_H := \lim_\to
@@ -470,7 +475,7 @@ $$
      \array{
        (B_j)_h && (B_{j'})_{h'} && \cdots
        \\
-       & {}_{\mathllap{f \hat k}}\searrow & \downarrow^{\mathrlap{f \hat k'}}
+       & {}_{\mathllap{\phi \in F_h}}\searrow & \downarrow^{\mathrlap{\phi' \in F_{h'}}}
        & \cdots
        \\
        && X
@@ -478,10 +483,10 @@ $$
   \right)
 $$
 
-where on the right we take the [[colimit]] over the diagram with one object $(B_j)_h$ per morphism $h : A_j \to X$ that factors through $Y$,  and one morphism $(B_j)_h \to X$ per way $h = f k$ of factoring $h$.
+where on the right we take the [[colimit]] over the diagram with one object $(B_j)_h$ per morphism $h : A_j \to X$ that factors through $Y$,  and one morphism $(B_j)_h \to X$ per induced distinguished filler obtained from a choice of factorization through $Y$.
 
 
-This comes with a morphism $X \to X_H$. Continue this way to build $X_{H'}$ by coequalizing the different ways morphisms into $X_H$ may factor through $X$, etc. to obtain a sequence
+This comes with a canonica [[cocone]]-morphism $X \to X_H$. Continue this way to build $X_{H'}$ by coequalizing the different ways morphisms into $X_H$ may factor through $X$, etc. to obtain a sequence
 
 $$
   X \to X_H \to X_{H'} \to X_{H''} \to \cdots
@@ -532,9 +537,9 @@ As before, the inclusion $X_0^f \to X_\infty^f$ is an acyclic cofibration. Hence
 
 By replacing in this proof factorization through a single $Y$ by factorization through a family of $Y$s one finds that $U$ is a [[solid functor]].
 
-### Limits and colimits of algebraic objects
+### Limits and colimits of algebraic objects {#LimitsAndColimits}
 
-+-- {: .un_prop}
++-- {: .un_prop }
 ###### Proposition
 
 The category $Alg C$ has all [[limit]]s and [[colimit]]s in $C$.
@@ -547,14 +552,69 @@ The limits and the [[filtered colimit]]s (but not the general colimit)s are [[cr
 +-- {: .proof}
 ###### Proof
 
-That limits in $Alg C$ are computed in $C$ is directly seen. 
+Consider first limits: for $K : J \to Alg C$ a [[diagram]] and $\lim_{\leftarrow} U K$ its limit in $C$, let $A_j \to \lim_{\leftarrow} U K$ be a horn. Since all the composite maps $A_J \to \lim_{\leftarrow} U K \to U K(j)$ have distinguished fillers and since the morphisms between these respect these fillers, we get a cone of fillers with tip $B_j$ over $U K$. The universal cone morphism $B_j \to \lim_{\leftarrow} U K$ provides then a distinguished filler for the limit. By the same argument, any cone $const_T \to \lim_{\leftarrow} U K$ in $Alg_C$ whose underlying cone in $C$ is a limiting cone is also limiting in $Alg C$.
 
-For $K : J \to Alg C$ a diagram with colimit $X := \lim_\to U K$ in $C$, we use the above fact that $U$ is a [[solid functor]] to deduce that $X_\infty^f$ is the colimit of $K$ in $Alg C$.
+Now consider [[filtered colimit]]s. By assumption the domains $A_j$ are [[small object]]s. Therefore for $K : I \to C$ a [[filtered diagram]] and $L := \lim_{\to} K$ its [[filtered colimit]], any morphism $A_j \to L$ factors through one of the $K_i$.  This provides a filler $B_j \to K_i \to L$. Observe that while neither $i$ nor the filler $B_j \to K_i$ are uniquely determined, its image in $L$ is. This makes $L$ an object in $Alg C$. By the same argument one finds that it is the universal cocone under $K$ in $Alg C$.
 
+
+Now for $K : J \to Alg C$ a general diagram with colimit $X := \lim_\to U K$ in $C$, we use the above fact that $U$ is a [[solid functor]] to deduce that $X_\infty^f$ is the colimit of $K$ in $Alg C$.
 
 =--
 
+While this gives a general prescription for computing colimits, the following lemma asserts a slightly simpler way for computing certain [[pushout]]s in $Alg C$. This will be needed for establishing the model category structure.
+
++-- {: .un_lemma #PushoutLemma}
+###### Lemma
+
+Let $i : A \to B$ be a morphism in $C$ and 
+
+$$
+  \array{
+    F A &\to& Y
+    \\
+    {}^{\mathllap{F i}}\downarrow
+    \\
+    F B
+  }
+$$
+
+a diagram in $Alg C$. Then
+
+* its [[pushout]] in $Alg C$ is $(B \coprod_A U Y)_\infty^f$, where $f : U Y \to B \coprod_A U Y$ is the canonical morphism;
+
+* if $i : A \to B$ is an acyclic cofibration then so is $Y\to (B \coprod_A U Y)_\infty^f$.
+=--
+
+This is ([Nikolaus, prop 2.14](#Nikolaus)).
+
++-- {: .proof}
+###### Proof
+
+
+First check that $(B \coprod_A U Y)_\infty^f$ has the universal property of the pushout: for any $Z \in Alg C$ we have by the [above proposition](#SolidityLemma) that morphisms $(B \coprod_A U Y)_\infty^f \to Z$ are in bijection to morphisms $B \coprod_A U Y \to U Z$ in $C$ such that the composition 
+
+$$
+  U Y \stackrel{f}{\to} B \coprod_A U Y \to U Z
+$$
+
+preserves distinguished fillers.
+
+This in turn is the same as a morphism $g_1 : Y \to Z$ in $Alg C$ and a morphism $g_2 : B \to U Z$ in $C$ that agree on $A$. By [[adjunction]] $(F \dashv U)$ this corresponds to an [[adjunct]] $\tilde g_2: F B \to Z$. This establishes the pushout property of $(B \coprod_A U Y)_\infty^f$.
+
+To show that $Y \to (B \coprod_A U Y)_\infty^f$ is an acyclic cofibration of $i : A \to B$ is, recall that this morphism is the composite
+
+$$
+  Y \stackrel{f}{\to} B \coprod_A U Y \to (B \coprod_A U Y)_\infty^f
+  \,.
+$$
+
+Here the first morphism $f$ is an acyclic cofibration because it is the [[pushout]] of the acyclic cofibration $i$. Therefore by assumption $f$ is a [[monomorphism]] and by the [remarks in the solidity lemma](#SolidityLemma) the morphism $B \coprod_A U Y \to (B \coprod_A U Y)_\infty^f$ is an acyclic cofibration. Hence so is the composite of the two.
+
+=--
+
+
 ### Transferred model structure
+
 
 
 +-- {: .un_theorem}
@@ -564,12 +624,71 @@ Under the above conditions, $Alg C$ becomes a [[model category]] with the $U$-[[
 
 =--
 
+This appears as ([Nikolaus, def. 2.15](#Nikolaus)).
+
 +-- {: .proof}
 ###### Proof
 
-This follows from the [above result](#Solidity) that $U$ is a _solid functor_ as described in detail at [[solid functor]].
+This follows from the [above result](#Solidity) that $U$ is a _solid functor_ as described in detail at [[solid functor]] by observing that the _acyclicity condition_ required there follows as in the discussion of the solidity of $U$ [above](#SolidityLemma), using the assumption that all acyclic cofibrations in $C$ are [[monomorphism]]s.
 
-The _acyclicity condition_ required there follows as in the discussion of the solidity of $U$ above, using the assumption that all acylcic cofibrations in $C$ are [[monomorphism]]s.
+We spell out the argument, following ([Nikolaus](#Nikolaus)).
+
+By the conditions listed at [[transferred model structure]] it is sufficient to check that
+
+1. $U$ preserves [[small object]], which is the case in particular if it preserves [[filtered colimit]]s;
+
+1. $U$ sends [[sequential colimit]]s of [[pushout]]s of images under $F$ of generating acyclic cofibrations to weak equivalences.
+
+The first item is true by the [above discussion](#LimitsAndColimits) of filtered colimits in $Alg C$.
+
+That the second item holds follows from the above [pushout lemma](#PushoutLemma) which asserts that $U$-images of pushouts of $F$-images of generating acyclic cofibrations are acylic cofibrations, and again by the fact that $U$ preserves filtered colimits, which implies that it preserves the [[transfinite composition]] of these acyclic cofibrations.
+
+=--
+
++-- {: .un_corllary}
+###### Corollary
+
+The functor $U$ preserves acyclic cofibrations.
+
+=--
+
++-- {: .un_theorem}
+###### Theorem
+
+The [[Quillen adjunction]] 
+
+$$
+  (F \dashv U) : Alg C \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  C
+$$
+
+is a [[Quillen equivalence]].
+=--
+
+This appears as ([Nikolaus, theorem 2.18](#Nikolaus))
+
++-- {: .proof}
+###### Proof
+
+
+We observe that the unit and counit of $(F \dashv U)$ are both weak equivalences:
+
+the unit of the adjunction is $X \to X_\infty$ is by the [above construction](#DefOfXInfty) a [[transfinite composition]] of acyclic cofibrations (in fact a fibrant replacement) hence in particular a weak equivalence. Moreover, the unit is a [[section]] of the counit in that 
+
+$$
+  \array{
+     X &\to& F X
+     \\
+     & {}_{\mathllap{Id}}\searrow & \downarrow
+     \\
+     && X
+  }
+  \,.
+$$
+
+Hence by [[category with weak equivalences|2-out-of-3]] also $X \to F X$ is a weak equivalence. 
+
+This implies that $(F \dashv U)$ induces an [[equivalence of categories]] on the [[homotopy categories]]. Since $R$ equals its total right [[derived functor]] (since every object in $Alg C$ is fibrant) this means that $(F \dashv)$ is a Quillen equivalence.
 
 =--
 
