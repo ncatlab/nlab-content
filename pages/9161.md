@@ -9,9 +9,21 @@
 =--
 =--
 
-The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (at least those within a certain [[frequency]] range): light is _electromagnetic [[radiation]]_. 
+#Contents#
+* table of contents
+{:toc}
 
-The [[quanta]] of light are [[photons]].
+## Idea
+
+The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (at least those within the [[frequency]] range of _visible light_ and a bit below ([[infrared]]) and above ([[ultraviolet]]) that): light is _electromagnetic [[radiation]]_. 
+
+## Properties
+
+The [[quanta]] of light are [[photons]]. The [[speed of light]] in [[vacuum]] plays a special role in the laws of physics, see at _[[special relativity]]_.
+
+## References
+
+* Wikipedia, _[Light](http://en.wikipedia.org/wiki/Light)_
 
 
 [[!redirects light]]
