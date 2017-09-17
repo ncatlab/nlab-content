@@ -279,3 +279,6 @@ $$
 [[!redirects connections on an ∞-bundle]]
 
 [[!redirects connection on an infinity-bundle]]
+
+[[!redirects connections on ∞-bundles]]
+[[!redirects connections on infinity-bundles]]
