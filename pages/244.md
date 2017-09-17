@@ -202,3 +202,5 @@ More discussion is in
  {#Mandell}
 
 [[!redirects symmetric monoidal categories]]
+[[!redirects symmetric monoidal structure]]
+[[!redirects symmetric monoidal structures]]
