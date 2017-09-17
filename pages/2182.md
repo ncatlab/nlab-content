@@ -1,1 +1,1 @@
-The material previously on this page referred to [Google Knol](http://knol.google.com/k/jon-awbrey/praeclarum-theorema/3fkwvf69kridz/9).
+The material previously on this page may be found at [Inquiry Into Inquiry](http://inquiryintoinquiry.com/2008/10/05/praeclarum-theorema/).
