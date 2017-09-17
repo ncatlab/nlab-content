@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[Goodwillie calculus]] the _Taylor tower_ of an [[(∞,1)-functor]] is its stagewise approximation by [[n-excisive (∞,1)-functors]] which is analogous to the approximation of a [[smooth function]] by its [[Taylor series]].
+
+## References
+
+* [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
+ {#Goodwillie03}
+
+[[!redirects Taylor towers]]
