@@ -1,3 +1,14 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Totally distributive categories
 
 * table of contents
@@ -5,16 +16,36 @@
 
 ## Definition
 
-Recall that a [[locally small category]] $\mathcal{K}$ is [[total category|total]] if its [[Yoneda embedding]] $Y:\mathcal{K}\to [\mathcal{K}^{op},Set]$ has a [[left adjoint]] $X$.
+Recall that a [[locally small category]] $\mathcal{K}$ is [[total category|total]] if its [[Yoneda embedding]] $Y\colon\mathcal{K}\longrightarrow [\mathcal{K}^{op},Set]$ has a [[left adjoint]] $X$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
-A total category $\mathcal{K}$ is **totally distributive** if $X:[\mathcal{K}^{op},Set] \to \mathcal{K}$ has a further left adjoint $W$.
+
+A total category $\mathcal{K}$ is **totally distributive** if $X \colon [\mathcal{K}^{op},Set] \longrightarrow \mathcal{K}$ has a further [[left adjoint]] $W$.
+
+$$
+  (W \dashv X \dashv Y)
+  \;\colon\;
+  \mathcal{K}
+   \stackrel{\overset{W}{\hookrightarrow}}{\stackrel{\overset{X}{\leftarrow}}{\underset{Y}{\hookrightarrow}}}
+  PSh(\mathcal{K})
+  \,.
+$$
+
 =--
+
 
 ## Properties
 
-If $\mathcal{K}$ is totally distributive, then since $Y$ is fully faithful, by the properties of [[adjoint triples]], so is $W$.  Thus, $\mathcal{K}$ is a coreflective subcategory of $[\mathcal{K}^{op},Set]$, which is cototal (or more precisely, [[pro-cototal category|pro-cototal]], since it is not locally small) --- hence $\mathcal{K}$ is also cototal.
+If $\mathcal{K}$ is totally distributive, then since $Y$ is [[full and faithful functor|fully faithful]], then, by the properties of [[adjoint triples]], so is $W$.  Thus, $\mathcal{K}$ is a [[coreflective subcategory]] of $[\mathcal{K}^{op},Set]$, which is cototal (or more precisely, [[pro-cototal category|pro-cototal]], since it is not locally small) --- hence $\mathcal{K}$ is also cototal.
+
+Moreover this means that the induced [[adjoint pair]] of ([[comonad|co]]-)[[monads]]
+
+$$
+  W X \dashv  Y X \;\colon\; PSh(\mathcal{K}) \leftrightarrow PSh(\mathcal{K})
+$$
+
+is an [[adjoint modality]].
 
 ## Examples
 
