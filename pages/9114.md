@@ -47,11 +47,61 @@ This is summarized in the following table:
 
 [[!include extended prequantum field theory - table]]
 
-
-## Examples
+## Details
 
 (...)
 
+### Local prequantum field theory
+
+We discuss local ("[[extended TQFT|extended]]") [[topological field theory|topological]] prequantum field theory. 
+
+The following uses some material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([Fiorenza-Schreiber](#FiorenzaSchreiber)).
+
+#### Bulk field theory
+
+(...)
+
+#### Boundary field theory
+
+(...)
+
+#### Corner field theory
+
+(...)
+
+
+### Higher Dijkgraaf-Witten local prequantum field theory
+
+(...)
+
+### Higher Chern-Simons local prequantum field theory
+
+(...)
+
+#### $d = n + 1$, Universal topological Yang-Mills theory
+
+(...)
+
+#### $d = n$, Higher Chern-Simons field theories
+
+(...)
+
+
+#### $d = n-1$, Topological Chern-Simons boundaries
+
+(...)
+
+#### $d = n-k$, Dimensional reduction
+
+(...)
+
+#### $d = n-1$, Wess-Zumino-Witten field theories
+
+(...)
+
+#### $d = n-2$, Wilson loop/Wilson surface field theories
+
+(...)
 
 ## Related concepts
 
@@ -64,6 +114,13 @@ This is summarized in the following table:
 Lecture notes with more details are in the section _[Lagrangians and Action functionals](geometry+of+physics#LagrangiansAndActionFunctionals)_ of 
 
 * _[[geometry of physics]]_
+
+The discussion of local topological prequantum field theory above draws from 
+
+* [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary conditions in local TFTs_ (in preparation)
+ {#FiorenzaValentino}
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Local prequantum field theory]]_
 
 
 [[!redirects prequantum field theory]]
