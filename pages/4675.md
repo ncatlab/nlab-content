@@ -1081,3 +1081,8 @@ and given a rigorous treatment in
 [[!redirects geometric string structures]]
 [[!redirects geometric string-structure]]
 [[!redirects geometric string-structures]]
+
+[[!redirects twisted string structure]]
+[[!redirects twisted String structure]]
+[[!redirects twisted string structures]]
+[[!redirects twisted String structures]]
