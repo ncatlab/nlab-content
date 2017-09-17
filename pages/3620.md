@@ -1,1 +1,1 @@
-[[!redirects model structure on cosimplicial algebras]]
+&lt; [[model structure on cosimplicial algebras]]
