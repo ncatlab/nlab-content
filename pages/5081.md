@@ -112,7 +112,7 @@ See [[base change geometric morphism]].
 
 ## Examples
 
-The following proposition makes manifest the way in which $\mathbf{H}/X$ is the category of $(\infty,1)$-sheaves over $X$ -- for the case of trivial [[Grothendieck topology]] (for presheaves).
+The following proposition makes manifest the way in which $\mathbf{H}/X$ is the category of $(\infty,1)$-sheaves over $X$, or rather: over the [[big site]] of $X$:
 
 +-- {: .un_prop}
 ###### Proposition
@@ -131,6 +131,7 @@ $$
 $$
 
 =--
+
 
 
 +-- {: .un_remark}
