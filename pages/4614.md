@@ -50,7 +50,7 @@ One also considers geometric realization after restricting to the subcategory $\
 +-- {: .un_def}
 ###### Definition
 
-The corresponding coend is called the **fat geometric realization** 
+The corresponding [[coend]] is called the **fat geometric realization** 
 
 $$
   \Vert X_\bullet\Vert :  \int^{n \in \Delta_+} X_n \times \Delta^n_{Top}
@@ -100,10 +100,10 @@ For $S_{\bullet,\bullet} : \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplic
 +-- {: .un_prop}
 ###### Proposition
 
-For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between its geometric realization and the geometric realization of the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
+For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between the geometric realization of the simplicial space $|Sing(X_\bullet)|$ and the ordinary [[geometric realization]] of the [[simplicial set]] that is the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
 
 $$
-  {|X|}  \simeq_{iso} | d Sing(X_\bullet)_\bullet | 
+  |Sing(X_\bullet)|  \simeq_{iso} | d Sing(X_\bullet)_\bullet | 
   \,.
 $$
 
