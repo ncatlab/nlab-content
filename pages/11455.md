@@ -1,0 +1,9 @@
+
+## Idea
+
+A generalization of the concept of [[genus of a surface]] from [[Riemann surfaces]] to [[algebraic varieties]].
+
+## References
+
+* Wikipedia, _[Arithmetic genus](https://en.wikipedia.org/wiki/Arithmetic_genus)_
+
