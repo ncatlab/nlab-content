@@ -3,6 +3,8 @@ $MGL$
 
 ## Related concepts
 
+* [[algebraic cobordism]]
+
 * [[complex cobordism spectrum]]
 
 * [[algebraic K-theory]]
