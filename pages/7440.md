@@ -20,9 +20,9 @@
 
 ## Idea
 
-The notion of _[[(∞,1)-category]]_ may be formulated [[internalization|internal]] to any other $(\infty,1)$-category with sufficient propoerties (with a rich enough [[internal logic]]). This generalizes the notion of _[[internal category]]_ from [[category theory]] to [[(∞,1)-category theory]].
+The notion of _[[(∞,1)-category]]_ may be formulated [[internalization|internal]] to any other $(\infty,1)$-category with sufficient properties (with a rich enough [[internal logic]]). 
+This generalizes the notion of _[[internal category]]_ from [[category theory]] to [[(∞,1)-category theory]]. In fact, a _category object_ internal to an $(\infty,1)$-category is automatically, externally, an [[(∞,1)-category]].
 
-## Idea 
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]].
 
@@ -34,25 +34,140 @@ Therefore, a further condition is necessary to ensure that the notion of [[homot
 
 A general abstract [[(∞,1)-category theory|(∞,1)-category theoretic]] way of formalizing this is given in [Lurie, sections 1.1, 1.2](#Lurie). For historical reasons, the notion of _internal $(\infty,1)$-category_ there goes by the name _complete Segal space object_, in honor of the notion of a _[[complete Segal space]]_, which may be thought of as perceiving an ordinary [[(∞,1)-category]] as an internal $(\infty,1)$-category in $\mathcal{C} = $ [[∞Grpd]].
 
-There are a variety of [[model category]] structures that [[presentable (infinity,1)-category|present]] the $(\infty,1)$-category of all internal $(\infty,1)$-categories in a suitable $\mathcal{C}$, which typically go as models for _complete Segal space objects_. The soundness of these models is discussed in [Lurie, section 1.5](#Lurie).
+There are a variety of [[model category]] structures that [[presentable (infinity,1)-category|present]] the $(\infty,1)$-category of all internal $(\infty,1)$-categories in a suitable $\mathcal{C}$, which typically go as models for _complete Segal space objects_. The soundness of these models is discussed below in _[Model category presentations](#ModelCategoryPresentations)_ ([Lurie, section 1.5](#Lurie)).
 
 
 ## Definition
 
-### Category object
-  {#CategoryObject}
+
+### Groupoid objects in an $(\infty,1)$-category
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]].
+
++-- {: .num_defn #GroupoidObject}
+###### Definition
+
+A _[[groupoid object in an (∞,1)-category|groupoid object]]_ in $\mathcal{C}$ is a [[simplicial object]] 
+
+$$
+  X : \Delta^{op} \to \mathcal{C}
+$$ 
+
+such that for all $n \in \mathbb{N}$ and all partitions $[n] \simeq S \cup S'$  that share a single element $S \cap S' = \{s\}$, the [[(∞,1)-functor]] $X$ exhibits an [[(∞,1)-pullback]]
+
+$$
+  X([n]) \simeq X(S) \times_{X(S \cap S')} X(S')
+  \,.
+$$
+
+Write $Grpd(\mathcal{C})$ for the [[(∞,1)-category]] of groupoid objects in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of [[simplicial objects]] on the groupoid objects.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We are to think of $X([0])$ as the _$\mathcal{C}-$[[object]] of [[objects]]_ of a groupoid internal to $\mathcal{C}$, and of $X([1])$ as its _$\mathcal{C}$-[[object]] of [[morphisms]]_. In terms of this the above condition says two things:
+
+1. for $S \cup S'$ an order-preserving partition (meaning that for all $s \in S$, $s' \in S'$ we have $s \leq s'$) it says that  $X([n])$ may be identified with the _object of sequences of lenght $n$ of [[composition|composable]] [[morphisms]]_ ;
+
+1. for $S \cup S'$ not order-preserving, it says that morphisms have [[inverses]]. For instance for the partition of $[2]$ given by $S = \{0,1\}$ and $S' = \{0,2\}$ the above says intuitively that [[diagrams]] in the internal groupoid of the form 
+
+   $$
+     \array{
+        && b
+        \\
+        & \nearrow && \searrow
+        \\
+        a &&&& c
+     }
+   $$
+
+   (an [[inner Kan fibration|inner]] [[horn]]) are equivalent to those of the form
+
+   $$
+     \array{
+        && b
+        \\
+        & \nearrow && 
+        \\
+        a &&\to&& c
+     }
+   $$
+
+   (an [[Kan fibration|outer]] [[horn]]).
+
+   The equivalence defines and is defined by forming the [[inverse]] of the morphism $b \to c$.
+
+=--
+
+Accordingly, below a _category object_ is defined analogously, but demanding the above condition only for ordered decompositions.
+
+
+
+### Category objects in an $(\infty,1)$-topos
+ {#CategoryObjectInTopos}
+
+Let $\mathcal{C}$ be an [[(∞,1)-topos]].
+
+
++-- {: .num_defn #PreCategoryObject}
+###### Definition
+
+A **pre-category object** $X$ in $\mathcal{C}$ is a [[simplicial object]]
+
+$$
+  X : \Delta^{op} \to \mathcal{C}
+$$
+
+such that for all $n \in \mathbb{N}$ $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
+
+$$
+  X([n]) \simeq X(\{0,1\}) \times_{X([0])} \cdots \times_{X[0]} X(\{n-1,n\})
+  \,.
+$$
+
+Write $PreCat(\mathcal{C})$ for the $(\infty,1)$-category of pre-category objects in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of the [[simplicial objects]] on the pre-category objects.
+
+=--
+
+This is called a _category object_ in ([Lurie, def. 1.1.1](#Lurie)).
+
++-- {: .num_prop }
+###### Proposition
+
+Every [[groupoid object in an (∞,1)-category|groupoid object in]] $\mathcal{C}$ is canonically a pre-category object. 
+Under this inclusion the groupoid objects form a [[coreflective sub-(∞,1)-category]] of that of pre-catgegory objects.
+
+$$
+  Grpd(\mathcal{C})
+  \stackrel{\hookrightarrow}{\overset{Core}{\leftarrow}}
+  PreCat(\mathcal{C})
+  \,.
+$$
+
+The coreflection is the _[[core]]_ operation that discards non-invertible morphisms.
+
+=--
+
+This is ([Lurie, prop. 1.1.14](#Lurie)).
+
+
+
++-- {: .num_defn #CategoryObject}
+###### Definition
+
+A **category object** in $\mathcal{C}$ is a pre-category object $X$, def. \ref{PreCategoryObject} such that its [[core]] $Core(X)$ is simplicially constant (all face and degeneracy maps are [[equivalence in an (infinity,1)-category|equivalences]]).
+
+=--
+
+This is called a _complete Segal space object_ in ([Lurie, def. 1.2.10](#Lurie)).
+
+### Category objects in an $(\infty,1)$-category
 
 (...)
 
-
-
-
-### Completeness
-  {#Completeness}
-
-(...)
-
-### Iterated internalization
+## Iterated internalization
 
 We introduce some conditions on an ambient $(\infty,1)$-category $\mathcal{C}$
 such that its $(\infty,1)$-category of internal $(\infty,1)$-categories is itself again a good context for internalization.
@@ -120,26 +235,48 @@ But over an [[(∞,1)-topos]] the [[codomain fibration]] is always a [[canonical
 
 ## Properties
 
+### Localization
+
++-- {: .num_prop #CatIsReflectiveInSimpl}
+###### Proposition
+
+The inclusion of category objects into all [[simplicial objects]]
+
+$$
+  Cat(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}
+$$
+
+is [[reflective sub-(∞,1)-category|reflective]].
+
+=--
+
+This is ([Lurie, remark 1.2.11](#Lurie)), based on ([[Higher Topos Theory|HTT, lemma 5.5.4.17]]).
+
 ### Model category presentations
+ {#ModelCategoryPresentations}
 
 
 +-- {: .num_prop }
 ###### Proposition
 
-Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]] such that the [[(∞,1)-category]] that it [[presentable (∞,1)-category|presents]] is _well-suited for internalization_ in the sense discussed [above](#SuitableAmbientContexts).
+Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]].
 
-Then then category $[\Delta^{op}, C]$ of [[simplicial objects]] in $C$ admits a [[left proper model category|left proper]] [[combinagtorial model category]] structure characterized by the following properties:
+Then then category $[\Delta^{op}, C]$ of [[simplicial objects]] in $C$ admits a [[left proper model category|left proper]] [[combinatorial model category]] structure characterized by the following properties:
 
-1. it is a [[Bousfield localization of model categories|left Bousfield localization]] of the injective [[model structure on functors]] $[\Delta^{op}, C]_{inj}$;
+1. it is a [[Bousfield localization of model categories|left Bousfield localization]] of the injective or projective or [[Reedy model structure|Reedy]] [[model structure on functors]] $[\Delta^{op}, C]_{proj/inj/Reedy}$;
 
-1. an obect $\Delta^{op} \to C$ is [[fibrant object|fibrant]] precisely if it is fibrant in $[\Delta^{op}, C]_{inj}$ and if the corresponding simplicial object $\Delta^{op}\to C^\circ$ in the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ is a complete Segal object in the sense discussed [above](#Completeness).
-
-Moreover, the $(\infty,1)$-category [[presentable (∞,1)-category|presented]] by this is again _well suited for internalization_.
+1. an obect $\Delta^{op} \to C$ is [[fibrant object|fibrant]] precisely if it is fibrant in $[\Delta^{op}, C]_{proj/inj/Reedy}$ and if the corresponding simplicial object $\Delta^{op}\to C^\circ$ in the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ is a category object, def. \ref{CategoryObject}.
 
 =--
 
-This is ([Lurie, prop. 1.5.4](#Lurie)).
+This is stated as ([Lurie, prop. 1.5.4](#Lurie)).
 
++-- {: .proof}
+###### Proof
+
+By prop. \ref{CatIsReflectiveInSimpl} combined with ([[Higher Topos Theory|HTT, prop. A.3.7.8]]).
+
+=--
 
 ## Examples
 
@@ -180,6 +317,9 @@ and has since seen a multitude of further developments.
 
 Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Clark Barwick]].
 
+[[!redirects category object in an (∞,1)-category]]
+
+
 [[!redirects internal (∞,1)-category]]
 [[!redirects (infinity,1)-category object]]
 [[!redirects (∞,1)-category object]]
@@ -191,3 +331,5 @@ Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Cl
 
 [[!redirects complete Segal space object]]
 [[!redirects complete Segal space objects]]
+
+[[!redirects internal (infinity,1)-category]]
