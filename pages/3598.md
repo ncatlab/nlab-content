@@ -37,6 +37,9 @@ In the context of _[[homotopy type theory]]_ display maps are [[fibrations]], fo
 For $\mathcal{C}$ a [[category]], a [[class]] $D \subset Mor(\mathcal{C})$ of [[morphisms]] of $\mathcal{C}$ is called a **class of displays** if 
 
 * All [[pullbacks]] of elements of $D$ exist and belong to $D$.
+
+The category with displays is called **well rooted** if it has a [[terminal object]] and all the morphisms to it are display maps.
+
 =--
 
 It follows automatically that the [[full subcategory]] on $D$ of the [[arrow category]] $\Arr(\mathcal{C})$ is [[replete subcategory|replete]]; in other words, the [[property]] of $\mathcal{C}$-morphisms given by membership in $D$ is not [[evil]].
