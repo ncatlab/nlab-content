@@ -43,7 +43,16 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
 * The canonical model structure for 1-categories was known to experts for some time before being written down formally (this is the origin of the adjective "folk").
    * It was apparently first published (for categories internal to a Grothendieck topos) by Joyal and Tierney, _Strong Stacks and Classifying Spaces_, Category theory (Como, 1990) Springer LNM 1488, 213-236.
    * A more elementary writeup by Charles Rezk can be found [here](http://www.math.uiuc.edu/~rezk/cat-ho.dvi).
-   * A general internal version relative to a Grothendieck [[coverage]] can be found [here](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html).
+   * A general internal version relative to a Grothendieck [[coverage]] can be found in
+
+     T. Everaert, R.W. Kieboom, T. Van der Linden, 
+     _Model structures for homotopy of internal categories _
+     Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94.
+     ([tac](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
+    
+     though it seems that the assumptions in this article apply to ambient categories that are [[semiabelian categories]], but do not apply to ambient categories like [[Top]].
+
+
    * A brief summary, together with a generalization when one assumes only weaker versions of the [[axiom of choice]], can be found at [[folk model structure on Cat]].
    * See also the [[joyalscatlab:Model structures on Cat|Catlab]].
 
