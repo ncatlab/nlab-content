@@ -15,14 +15,14 @@
 
 ## Idea
 
-A [[stack]] $X$ on a [[site]] $C$ is **geometric** if, roughly, it is "represented" by a suitably well-behaved [[groupoid]] $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0)$ [[internal category|internal]] to $C$, i.e. if to an object $U \in C$ the stack assigns assigns the (ordinary) [[groupoid]]
+A [[stack]] $X$ on a [[site]] $C$ is **geometric** if, roughly, it is [[representable functor|represented]] by a suitably well-behaved [[groupoid]] object $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0)$ [[internal category|internal]] to $C$, i.e. if to an object $U \in C$ the stack assigns assigns the (ordinary) [[groupoid]]
 
 $$
   X : U \mapsto (C(U,\mathcal{G}_1) \stackrel{\to}{\to} C(U,\mathcal{G}_0))
   \,.
 $$
 
-Notice that a crucial difference between the groupoid object $\mathcal{G}$ in $C$ and the geometric stack $X$ is that the equivalence class of the stack in general contains _more_ (geometric) stacks than there are groupoid objects internally equivalent to $\mathcal{G}$: two groupoid objects with equivalent geometric stacks are called **Morita equivalent** groupoid objects. 
+A crucial difference between the groupoid object $\mathcal{G}$ in $C$ and the geometric stack $X$ is that the equivalence class of the stack in general contains _more_ (geometric) stacks than there are groupoid objects internally equivalent to $\mathcal{G}$: two groupoid objects with equivalent geometric stacks are called **Morita equivalent** groupoid objects. 
 
 ## Special cases
 
@@ -37,7 +37,7 @@ Geometric stacks for the following choices of sites $C$ are called
 
 ## Definition
 
-There are slight variations in the literature on what prrecisely is required of a [[stack]] $X$ on a [[site]] $C$  with [[subcanonical coverage|subcabonical topology]] in order that it qualifies as **geometric**. 
+There are slight variations in the literature on what precisely is required of a [[stack]] $X$ on a [[site]] $C$  with [[subcanonical coverage|subcabonical topology]] in order that it qualifies as **geometric**. 
 
 A general requirement is that
 
@@ -76,7 +76,7 @@ $$
   }
 $$
 
-## Related cocepts
+## Related concepts
 
 * **geometric stack**
 
@@ -89,6 +89,9 @@ A good discussion of topological and differentiable stacks is around definition 
 
 * [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
 
+Differentiable stacks are discussed in
+
+* [[Kai Behrend]], [[Ping Xu]], _Differentiable Stacks and Gerbes_ ([arXiv](http://front.math.ucdavis.edu/0605.5694)).
 
 Specifically for the relation to groupoid objects see
 
