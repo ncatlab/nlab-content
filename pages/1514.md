@@ -21,7 +21,7 @@
 > under construction
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 
@@ -45,7 +45,7 @@ The central impact of the idea of the path integral however is in its applicatio
 
 Notably the [[Feynman perturbation series]] summing over [[Feynman graphs]] is motivated as one way to make sense of the path integral in quantum field theory and in practice usually serves as a _definition_ of the perturbative path integral.
 
-## Examples
+## Realizations
 
 ### In quantum mechanics
 
@@ -76,7 +76,11 @@ Is there an easy way to see how the Hamiltonian transforms into the Lagrangian i
 =--
 
 
+### In BV-formalism
 
+[[BV-BRST formalism]] is a means to formalize the path integral in [[perturbation theory]] as the passage to [[cochain cohomology]] in a [[quantum BV-complex]]. See there for more details.
+
+[[!include action (physics) - table]]
 
 ## The path integral in the bigger picture
 
