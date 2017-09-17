@@ -24,6 +24,10 @@ The construction called _Bohrification_ by some authors is a generalization of t
 
 When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this construction has been suggested to formalize faithfully and usefully a heuristic that has goes back to [[Nils Bohr]] and is known as the _doctrine of classical concepts_ ([Scheibe](#Scheibe)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. In _Bohrification_ this heuristics is formalized by the [[semilattice of commutative subalgebras]] and various entities induced by this [[posite]]. The internal [[locale]] $\underline{\Sigma}_A$ may be thought of as an incarnation of the quantum [[phase space]] encoded by $A$.
 
+One thing that is nice about [[Bohrification]] is that it makes the following statement true: "[[quantum mechanics|quantum]] [[states]] on a quantum algebra $A$ are precisely [[classical mechanics|classical]] states [[internalization|internal]] to the Bohrified ringed topos corresponding to $A$".
+
+This is essentially a direct re-interpretation of [[Gleason's theorem]]: this theorem says that quantum states on $A$ are already fixed by demanding them to be maps on $A$ that are (positive, normed) linear functions on all commutative subalgebras of $A$. Now, the immediate formalization of a map $A \to \mathbb{C}$ that is required to preserve certain structure on all commutative subalgebras is a fully structure-preserving function, but _internal_ to the [[presheaf topos]] over the comutative subalgebras. That presheaf topos is the "Bohrification" of $A$.
+
 ## Definition
 
 ### $C^*$-algebras and partial $C^*$-algebras
@@ -365,4 +369,6 @@ The application of the [[double negation topology]] to make Bohrification coinic
 * [[Bas Spitters]], _The space of measurement outcomes as a spectrum for non-commutative algebras_ in Cooper, Kashefi, Panangaden (eds.) _Developments in computational models_ (DCM 2010)([arXiv:1006.1432](http://arxiv.org/abs/1006.1432))
 {#Spitters06}
 
-* Joost Nuiten, _Bohrification of local nets_ ([[NuitenBachelor.pdf:file]])
+The generalization of Bohrification from [[quantum mechanics]] to [[quantum field theory]] ([[AQFT]]) is discussed in
+
+* Joost Nuiten, _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets]]_ 
