@@ -82,7 +82,7 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 This appears for instance as theorem 4.32 in 
 
-* [[Alan Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+* [[Allen Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
 
 Lecture notes include
 
