@@ -5,14 +5,16 @@
 
 ## Character on a group
 
-There are many notions of a character for an algebraic structure, often topologized. A character on the [[group]] $G$ is homomorphism into the group of units (invertible elements) of the ground field. Regarding that the codomain is abelian, set of characters is an abelian group under the pointwise multiplication. for toplogical groups one considers continuous characters. 
+There are many notions of a character for an algebraic structure, often topologized. A character on the [[group]] $G$ is [[homomorphism]] into the group of units (invertible elements) of the ground field. Regarding that the codomain is abelian, the set of characters is an abelian group under the pointwise multiplication.
+
+For [[topological groups]] one considers continuous characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
 
 
 ## Character of a representation
 
-In [[representation theory]], one defines the character of the representation $\rho: G\to End(V)$ to be the function on $G$ (or equivalently on the set of conjugacy classes of elements in $G$) given by $g\mapsto Tr \rho(g)$, whenever the trace in $V$ makes sense.
+In [[representation theory]], one defines the character of the representation $\rho\colon G\to End(V)$ to be the function on $G$ (or equivalently on the set of conjugacy classes of elements in $G$) given by $g \mapsto Tr \rho(g)$, whenever the trace in $V$ makes sense.
 
-There is a different notion of an _infinitesimal character_ in [[Harish-Chandra module|Harish-Chandra theory]] and also a notion of the _formal character_.
+There is a different notion of an _infinitesimal character_ in [[Harish–Chandra theory]] and also a notion of the _formal character_.
 
 There are important formulas concerning characters in representation theory, like Weyl character formula, Kirillov character formula, Demazure character formula and so on. 
 
