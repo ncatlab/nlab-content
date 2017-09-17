@@ -7,35 +7,37 @@
 
 ## Idea
 
-The notion of **diffeological spaces** -- or **Chen smooth spaces** -- is a notion of [[generalized smooth space]] that subsumes the notion of [[smooth manifold]] but also for instance naturally captures the space of all smooth maps between two smooth manifolds as a smooh space. (Whereas these mapping spaces are rarely manifolds themselves, see [[manifolds of mapping spaces]].)
+A **diffeological spaces** is a type of [[generalized smooth space]].  As with the other variants, it subsumes the notion of [[smooth manifold]] but also naturally captures other spaces that one would like to think of as smooth spaces but aren't manifolds; for example, the space of all smooth maps between two smooth manifolds can be made into a diffeological space. (These mapping spaces are rarely manifolds themselves, see [[manifolds of mapping spaces]].)
 
-A diffeological space $(X,\mathcal{D})$ is a [[set]] $X$, together with a rule $\mathcal{D}$ that determines which maps of sets $\mathbb{R}^n \to X$ from a [[Cartesian space]] in $X$ count as smooth.
+In a little more detail, a **diffeology**, $\mathcal{D}$ on a set $X$ is a [[presheaf]] on the category of open subsets of Euclidean spaces with smooth maps as morphisms.  To each open set $U \subseteq \mathbb{R}^n$, it assigns a subset of $\Set(U,X)$.  The functions in $\Set(U,X)$ are to be regarded as the "smooth functions" from $U$ to $X$.  A **diffeological space** is then a set together with a diffeology on it.
 
-Diffeological spaces were originally described by J.M. Souriau in 1980. They were also studied intensively by Chen in his work on differential forms on mapping spaces. They have subsequently been developed by [[Patrick Iglesias-Zemmour]] who is writing a textbook on the subject.
+Diffeological spaces were originally described by J.M. Souriau in 1980. They have subsequently been developed by [[Patrick Iglesias-Zemmour]] who is writing a textbook on the subject.
 
 ## Definition
 
 +-- {: mynumdef #DiffSp}
 ###### Definition
-Let [[CartSp]] denote the [[site]] whose objects are the [[smooth manifold]]s $\mathbb{R}^n$  and whose morphisms are [[smooth map]]s between these.
+Let $\mathcal{Op}$ denote the [[site]] whose objects are the open subsets of the Euclidean spaces $\mathbb{R}^n$  and whose morphisms are [[smooth map]]s between these.
 
 A **diffeological space** is a pair $(X,\mathcal{D})$ where 
 
 * $X$ is a set 
 
-* and $\mathcal{D} \in Sh(CartSp)$ is a **[[diffeology]]** on $X$:
+* and $\mathcal{D} \in Sh(\mathcal{Op})$ is a **[[diffeology]]** on $X$:
 
   * a [[subobject|subsheaf]] of the sheaf $U \mapsto Hom_{Set}(U,X)$ with $\mathcal{D}(*) = X$
 
-  * equivalently: a [[concrete sheaf]] on the [[site]] [[CartSp]] such that $\mathcal{D}(*) = X$.
+  * equivalently: a [[concrete sheaf]] on the [[site]] $\mathcal{Op}$ such that $\mathcal{D}(*) = X$.
 
 A morphism of diffeological spaces is a morphism of the corresponding sheaves.
 
 =--
 
-For $(X,\mathcal{D})$ a diffeological space, and for any $U \in CartSp$, the set $\mathcal{D}(U)$ is also called the set of **plots** in $X$ on $U$. This is to be thought of as the set of ways of mapping $U$ smoothly into the would-be space $X$. This assignment _defined_ what it means for a map $U \to X$ of sets to be smooth. 
+For $(X,\mathcal{D})$ a diffeological space, and for any $U \in \mathcal{Op}$, the set $\mathcal{D}(U)$ is also called the set of **plots** in $X$ on $U$. This is to be thought of as the set of ways of mapping $U$ smoothly into the would-be space $X$. This assignment _defined_ what it means for a map $U \to X$ of sets to be smooth. 
 
 For some comments on the reasoning behind this kind of definition of generalized [[space]]s see [[motivation for sheaves, cohomology and higher stacks]].
+
+A sheaf on the site $\mathcal{Op}$ of open subsets of Euclidean spaces is completely specified by its restriction to [[CartSp]], the full subcategory of Euclidean spaces.  Therefore in the sequel we shall often restrict our attention to [[CartSp]].
 
 One may define a "very general smooth space" to be _any_ sheaf of [[CartSp]] and identify the [[sheaf topos]] $Sh(CartSp)$ as the category of very general smooth spaces.
 
@@ -45,7 +47,7 @@ $$
   DiffeologicalSpace \hookrightarrow Sh(CartSp)
 $$
 
-on all concrete sheaves is not a [[topos]], but still a [[quasitopos]].
+on all concrete sheaves is not a [[topos]], but is a [[quasitopos]].
 
 
 The concreteness condition on the sheaf is a reiteration of the fact that a diffeological space is a subsheaf of the sheaf $U \mapsto X^{|U|}$.  In this way, one does not have to explicitly mention the underlying set $X$ as it is determined by the sheaf on the one-point open subset of $\mathbb{R}^0$.
@@ -53,7 +55,7 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 ## Examples
 
-* Every [[smooth manifold]] $X$, i.e. every object of [[Diff]] becomes a diffeological space by defining the plots on $U \in CartSp$ to be the ordinary [[smooth function]]s from $U$ to $X$, i.e. the morphisms in [[Diff]]:
+* Every [[smooth manifold]] $X$, i.e. every object of [[Diff]], becomes a diffeological space by defining the plots on $U \in CartSp$ to be the ordinary [[smooth function]]s from $U$ to $X$, i.e. the morphisms in [[Diff]]:
 
   $$  
     X : U \mapsto Hom_{Diff}(U,X)
@@ -85,14 +87,14 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 ## Properties
 
-The category $DiffSp := ConSh(Cart)$ of diffeological spaces is a [[quasitopos]]. This means in particular that it is 
+The category $DiffSp \coloneqq ConSh(Cart)$ of diffeological spaces is a [[quasitopos]]. This means in particular that it is 
 
 * [[cartesian closed category]] [[closed monoidal category]].
 
 
 ### Connectedness {#Connectedness}
 
-We discuss that the full [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]
+The full [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]:
 
 $$
   Sh(CartSp)
@@ -100,8 +102,7 @@ $$
   Set
 $$
 
-and show that the extra [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ sends diffeological spaces to the set of path-[[connected]] components of their underlying [[topological space]]s.
-
+The extra [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ sends diffeological spaces to the set of path-[[connected]] components of their underlying [[topological space]]s.
 
 
 +-- {: .un_prop}
@@ -180,7 +181,7 @@ $$
   {\lim_\to}_{(U \to X)} *
 $$
 
-is the ccolimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
+is the colimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
 
 The connected components of the category of plots $y/X$ are the path-connected (or "plot-connected") components of the underlying topological space of $X$.
 
@@ -192,14 +193,14 @@ The connected components of the category of plots $y/X$ are the path-connected (
 +-- {: .un_prop}
 ###### Proposition
 
-The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is even a [[connected topos]].
+The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is actually a [[connected topos]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since $CartSp$ is a [[connected category]] it is immediate that $Const : Set \to PSh(CartSp)$ is a [[full and faithful functor]]. By the above this equals $L Const$, which is hence also full and faithful.
+Since $CartSp$ is a [[connected category]] it is immediate that $Const \colon Set \to PSh(CartSp)$ is a [[full and faithful functor]]. By the above this equals $L Const$, which is hence also full and faithful.
 
 By the discussion at [[connected topos]] we could equivalently convince ourselves that $\Pi_0$ preserves the terminal object. The terminal object of $Sh(CartSp)$ is $y(\mathbb{R}^0)$, hence representable. By the above, $\Pi_0$ sends all representable objects to the singleton set, which is the terminal object of $Set$. 
 
@@ -207,7 +208,7 @@ By the discussion at [[connected topos]] we could equivalently convince ourselve
 
 ## References 
 
-The original articles by Chen and other related references can be found referenced in 
+For a discussion on how diffeological spaces relate to the other notions of [[generalised smooth space]], see:
 
 * [[Andrew Stacey]], _Comparative Smootheology_ ([arXiv:0802.2225](http://arxiv.org/abs/0802.2225))
 
@@ -216,7 +217,6 @@ A textbook on diffeological spaces is
 * [[Patrick Iglesias-Zemmour]],
 _Diffeology_
 ([web](http://math.huji.ac.il/~piz/Site/The%20Book/The%20Book.html), [pdf](http://math.huji.ac.il/~piz/documents/Diffeology.pdf))
-
 
 The thesis
 
@@ -228,15 +228,10 @@ contains some useful material that hasn't yet made it into the book. The article
 
 amplifies the point that diffeological spaces are [[concrete sheaves]] on the category of (subsets of) [[cartesian space]]s.
 
-See also
+See also the original article wherein diffeological spaces were introduced:
 
 * [Groupes diff\'erentiels](http://www.ams.org/mathscinet-getitem?mr=607688)
 
 
 
 [[!redirects diffeological spaces]]
-
-[[!redirects Chen space]]
-[[!redirects Chen spaces]]
-[[!redirects Chen smooth space]]
-[[!redirects Chen smooth spaces]]
