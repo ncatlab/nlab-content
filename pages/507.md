@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 The _Elephant_ is a book on [[topos|topos theory]] by [[Peter Johnstone]].
 
@@ -166,6 +171,15 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[internal profunctor]]
 
+### B3 Toposes over a base
+
+#### B3.1 $\mathcal{S}$-Toposes as $\mathcal{S}$-indexed categories
+
+* [[bounded geometricm morphism]]
+
+* [[bounded topos]]
+
+
 ## C Toposes as Spaces
 
 ### C1 Sheaves on a locale
@@ -222,6 +236,12 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[locally connected topos]]
 
 * [[locally connected geometric morphism]]
+
+#### C3.6 Local maps
+
+* [[local geometric morphism]]
+
+* [[local topos]]
 
 ## D Toposes as theories
 
@@ -298,6 +318,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[finite object]]
 
 #### D5.3 Finitary algebraic theories
+
+* [[algebraic theory]]
 
 * [[Lawvere theory]]
 
