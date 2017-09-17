@@ -37,7 +37,7 @@ In ([DyckerhoffKapranov](#DyckerhoffKapranov)) a 2-Segal space is defined to be 
 Let $X$ be a [[simplicial topological space]] or [[bisimplicial set]] or generally a [[simplicial object]] in a suitable [[simplicial model category]].
 
 
-For $n \in \mathbb{B}$ let $P_n$ be the $n$-[[polygon]]. For any [[triangulation]] $T$ of $P_n$ let $\Delta^T$ be the corresponding [[simplicial set]]. Regarding $\Delta^n$ as the cellular [[boundary]] of that polygon provides a morphism of simplicial sets $\Delta^T \to \Delta^n$.
+For $n \in \mathbb{N}$ let $P_n$ be the $n$-[[polygon]]. For any [[triangulation]] $T$ of $P_n$ let $\Delta^T$ be the corresponding [[simplicial set]]. Regarding $\Delta^n$ as the cellular [[boundary]] of that polygon provides a morphism of simplicial sets $\Delta^T \to \Delta^n$.
 
 Say that $X$ is a **2-Segal object** if for all $n$ and all $T$ as above, the induced [[morphisms]]
 
