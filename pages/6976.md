@@ -23,7 +23,7 @@ The analog of the [[adjoint functor theorem]] for [[indexed categories]].
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $\mathcal{S}$ be a [[cartesian category]], let $\mathbb{C}$ and $\mathbb{D}$ be $\mathcal{S}$-[[indexed categories]] which are [[locally small category|locally small]] and have all [[colimits]], and suppose further that $\mathbb{C}$ is [[well-copowered category|well-copowered]] and has a [[separating family]]. Then an [[indexed functor]] $F: \mathbb{C} \to \mathbb{D}$ has an [[indexed adjoint functor|indexed right adjoint]] precisely iff it is cocontinuous.
+Let $\mathcal{S}$ be a [[cartesian category]], let $\mathbb{C}$ and $\mathbb{D}$ be $\mathcal{S}$-[[indexed categories]] which are [[locally small category|locally small]] and have all [[colimits]], and suppose further that $\mathbb{C}$ is [[well-copowered category|well-copowered]] and has a [[separating family]]. Then an [[indexed functor]] $F: \mathbb{C} \to \mathbb{D}$ has an indexed [[right adjoint]] precisely iff it is cocontinuous.
 
 =--
 
