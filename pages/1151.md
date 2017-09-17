@@ -30,7 +30,7 @@ $$
 $$
 
 This captures the generality of what traditionally would be called 
-_[[equivariant cohomology|equvariant]] [[non-abelian cohomology|non-abelian]] [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[sheaf cohomology|sheaf]] [[hypercohomology]]_ over a [[site]] (or rather [[(∞,1)-site]]) of definition of  $\mathbf{H}$.
+_[[equivariant cohomology|equivariant]] [[non-abelian cohomology|non-abelian]] [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[sheaf cohomology|sheaf]] [[hypercohomology]]_ over a [[site]] (or rather [[(∞,1)-site]]) of definition of  $\mathbf{H}$.
 
 For $A = \mathbf{B}G$ a [[pointed object|pointed]] [[connected object in an (∞,1)-topos|connected object]], hence the [[delooping]] of an [[∞-group]] $G$ the cohomology $H^1(X,G) := H(X, \mathbf{B}G)$ classifies $G$-[[principal ∞-bundles]] in $\mathbf{H}$ over $X$. If $G = \mathbf{Aut}(V)$ is the [[automorphism ∞-group]] of some object $V$, then this classifies equivalently $V$-[[fiber ∞-bundles]]. Moreover, the full [[cocycle]] [[∞-groupoid]] $\mathbf{H}(X, \mathbf{B}G)$ is [[natural equivalence|naturally]] [[equivalence in an (∞,1)-category|equivalent]] to the $\infty$-groupoid $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$.
 
