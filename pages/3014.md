@@ -1,3 +1,4 @@
+
 **Classical mathematics** is [[mathematics]] as it is "normally" practised (or, sometimes, as it used to be practiced), and particulary using commonly accepted [[foundations]].
 
 This is a vague term, but some of the things that it might mean are:
@@ -9,4 +10,4 @@ This is a vague term, but some of the things that it might mean are:
 
 Despite the name, classical mathematics is only about 100 years old; anything much before that can usually interpreted just as well nonclassically as classically.  In fact, it was developments in mathematics around the beginning of the 20th century which sparked the famous "foundational crisis," leading to the development of intuitionistic, constructive, and predicative mathematics as alternatives, while the approaches accepted by the mainstream were called "classical" in contrast.
 
-Note that the term 'classical' also has meanings within many specific fields of mathematics that may have nothing in particular to do with 'classical mathematics' as a whole.
+Note that the term 'classical' also has meanings within many specific fields of mathematics that may have nothing in particular to do with 'classical mathematics' as a whole.  Compare also [[ordinary mathematics]].
