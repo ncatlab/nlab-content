@@ -289,10 +289,11 @@ As a first indication that this makes good sense, notice that the natural assign
 
 For illustration purposes, we survey how the [[Chern-Simons field theory]] considered as a toy model for topological local Lagrangian gauge field theory considered above has in [[higher geometry]] a [[prequantum n-bundle|prequantum (n-k)-bundle]] associated in [[codimension]] $k$.
 
-Consider again $G$ a connected and simply connected [[simple Lie group]]. Then 
+First consider again $G$ to be a [[connected topological space|connected]] and [[simply connected topological space|simply connected]] [[simple Lie group]]. Then there is an identification
 
 $$
   H^4(BG , \mathbb{Z}) \simeq \mathbb{Z}
+  \,.
 $$
 
 Let
@@ -301,7 +302,10 @@ $$
   c : B G \to  B^3 U(1) \simeq K(\mathbb{Z},4)
 $$
 
-be a represenative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. Under [[geometric realization of cohesive ∞-groupoids]] 
+be a represenative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. In Chern-Simons theory this is going to be what traditionally is called the [[level (Chern-Simons theory)|level]] of the theory.
+
+
+Under [[geometric realization of cohesive ∞-groupoids]] 
 
 $$
   \mathbf{H}
@@ -321,7 +325,21 @@ $$
   \mathbf{B}^3 U(1)
 $$
 
-and this has a further lift to [[differential cohomology]]
+which, in a precise sense, is the [[Lie integration]] of the canonical 3-[[cocycle]] 
+
+$$
+  \langle -, [-,-]\rangle \;\colon\; \mathfrak{g} \to \mathbf{B}^2 \mathbb{R}
+$$
+
+in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ of $G$ in that
+
+$$
+  \mathbf{c} \simeq \tau_1 \exp(\mu)
+  \,.
+$$
+
+
+Moreover, this smooth universal characteristic map  has a further lift to [[differential cohomology]]
 
 $$
   \hat \mathbf{c}
@@ -329,9 +347,10 @@ $$
   \mathbf{B}G_{conn}
   \to 
   \mathbf{B}^3 U(1)_{conn}
+  \,.
 $$
 
-the "[[Chern-Simons circle 3-bundle with connection]]" on the [[smooth infinity-groupoid|smooth]] [[moduli stack]] of smooth $G$-[[principal connections]]. 
+This modulates a [[circle n-bundle with connection|circle 3-bundle with connection]] -- the "[[Chern-Simons circle 3-bundle with connection]]" -- on the [[smooth infinity-groupoid|smooth]] [[moduli stack]] of smooth $G$-[[principal connections]]. 
 
 $$
   \array{
@@ -362,13 +381,52 @@ One finds that the [[transgression]] of this to codimension 0 is the Chern-Simon
 
 Here the [[WZW model|WZW]] [[B-field]] is the topological part of a 2-dimensional local Lagrangian field theory called the _[[Wess-Zumino-Witten model]]_. One says that the WZW model is related by the [[holographic principle]] with [[3d Chern-Simons theory]].
 
+If the [[gauge group]] $G$ is not simple and simply connected, then there are other canonical [[universal characteristic classes]] in $H^4(B G, \mathbb{Z})$. If these have a differential refinement, they give rise to the corresponding Chern-Simons theory.
+
+Notably in the case that $G = U(1)$ is the [[circle group]] (hence not [[simply connected topological space|simply connected]]) there is the [[cup product]] of the universal [[first Chern-class]] with itself
+
+$$
+  c_1 \cup c_1 \;\colon\; B U(1) \to B^3 U(1)
+  \,.
+$$
+
+The smooth and differential refinement of the [[first Chern-Class]] itself $c_1 \;\colon\; B U(1) \to B U(1) K(\mathbb{Z},2) $ is tautological: this is simply the identity 
+
+$$
+  \mathbf{c}_1 \coloneqq id 
+  \;\colon\;
+  \mathbf{B}U(1)_{conn}
+  \to 
+  \mathbf{B}U(1)_{conn}
+  \,.
+$$
+
+The nontrivial part is that, as one can see, the  [[cup product]] on [[differential cohomology]] refines to [[moduli ∞-stacks]] of [[circle n-bundle with connection]] as the [[∞-stackification]] of what is called the [[Beilinson-Deligne cup product]], and so we have 
+
+$$
+  \mathbf{c}_1 \cup \mathbf{c}_1
+  \;\colon\;
+  \mathbf{B}U(1)_{conn}
+  \to
+  \mathbf{B}^3 U(1)_{conn}
+  \,.
+$$
+
+This is the [[extended Lagrangian]] for abelian Chern-Simons theory.
 
 ### $\infty$-Chern-Simons theory as the general example
  {#InfinityCSAsGeneralExample}
 
-So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the well-known [[3d Chern-Simons theory]] naturally captures. Now we consider further examples whose higher geometry has not necessarily been understood before.
+So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the well-known case of [[3d Chern-Simons theory]] naturally captures the characteristics of the theory. Now we consider further examples whose higher geometry has not necessarily been understood before.
 
-Recall that [above](#CSAsArchetypicalExample) we interpreted the [[extended Lagrangian]] of [[3d Chern-Simons theory]] for a simply connected compact simple gauge group $G$ as the smooth and then differential refinement of the canonical [[universal characteristic class]] in $H^4(B G, \mathbb{Z})$. Specifically for $G$ the [[spin group]] this is the [[first fractional Pontryagin class]] $\tfrac{1}{2}p_1 \;\colon\; B Spin \to B^3 U(1)$. This can be understood as a higher analog of the [[second Stiefel-Whitney class]] $w_2 \;\colon\; B SO \to B^2 \mathbb{Z}$ which is the universal [[obstruction]] to [[spin structure]]. We say that $\tfrac{1}{2}p_1$ is the universal [[obstruction]] to a _[[higher spin structure]]_ called _[[string structure]]_. These higher obstructions are the (dual) [[k-invariants]] of the [[Whitehead tower]] of $B O$:
+Recall that [above](#CSAsArchetypicalExample) we interpreted the [[extended Lagrangian]] of [[3d Chern-Simons theory]] for a simply connected compact simple gauge group $G$ as the smooth and moreover differential refinement of the canonical [[universal characteristic class]] in $H^4(B G, \mathbb{Z})$. Specifically for $G$ the [[spin group]] this is the [[first fractional Pontryagin class]], represented by a [[characteristic map]]  
+
+$$
+  \tfrac{1}{2}p_1 \;\colon\; B Spin \to B^3 U(1)
+  \,.
+$$ 
+
+This can be understood as a higher analog of the [[second Stiefel-Whitney class]] $w_2 \;\colon\; B SO \to B^2 \mathbb{Z}$ which is the universal [[obstruction]] to [[spin structure]]. We say that $\tfrac{1}{2}p_1$ is the universal [[obstruction]] to a _[[higher spin structure]]_ called _[[string structure]]_ (this and the motivation for this terminology is discussed in detail in [geometry of physics - Fields - Examples - Fields of gravity and G-structure](geometry+pf+physics##FieldsOfGravityAndGeneralizedGeometry)). These higher obstructions are the (dual) [[k-invariants]] of the [[Whitehead tower]] of $B O$:
 
 [[!include higher spin structure - table]]
 
