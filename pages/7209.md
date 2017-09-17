@@ -64,7 +64,7 @@ Then
 
 =--
 
-This is due to Malcev-Iwasawa. See for instance ([Stroppel, theorem 32.5](#Stroppel)).
+This is due to ([Malcev](#Malcev)) and ([Iwasawa](#Iwasawa)). See for instance ([Stroppel, theorem 32.5](#Stroppel)).
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -95,15 +95,23 @@ is a [[homotopy equivalence]] of [[topological spaces]].
 
 ## Examples
 
+
 ### For Lie groups
+ {#ExamplesForLieGroups}
+
+The following table lists some [[Lie groups]] and their maximal compact subgroups.
 
 
 |            Lie group                         |     maximal compact subgroup    |
 |----------------------------------------------|---------------------------------|
-| [[real numbers|real]] [[general linear group]] $GL(2n\mathbb{R})$  | [[orthogonal group]] $O(2n)$    |
-| [[complex numbers|complex]] [[general linear group]] $GL(2n\mathbb{C})$  | [[unitary group]] $U(n)$        |
+| [[real numbers|real]] [[general linear group]] $GL(n, \mathbb{R})$  | [[orthogonal group]] $O(n)$    |
+| its connected component $GL(n,\mathbb{R})_0$ | [[special orthogonal group]] $SO(n)$ |
+| [[complex numbers|complex]] [[general linear group]] $GL(n, \mathbb{C})$  | [[unitary group]] $U(n)$        |
 | [[symplectic group]] $Sp(2n)$                | [[unitary group]] $U(n)$        |
-| [[orthogonal group]] $O(p,q)$                | [[product]] $O(p) \times O(q)$  |
+| [[unitary group]] $U(p,q)$ | $U(p) \times U(q)$ |
+| special [[Lorentz group|Lorentz]]/[[anti de Sitter group|AdS]] etc. group $SO(p,q)$ | $SO(p) \times SO(q)$ |
+| Lorentz / AdS [[spin group]] $Spin(q,p)$ | $Spin(q) \times Spin(q) / \{(1,1), (-1,-1)\}$ |
+| [[exceptional Lie group]] | compact form |
 
 ### Counterexamples
 
@@ -126,6 +134,15 @@ Textbooks with relevant material include
  {#HofmannMorris}
 
 Original articles include
+
+* A. Malcev, _On the theory of the Lie groups in the large_, Mat.Sbornik N.S. vol. 16 (1945) pp. 163-189
+ {#Malcev}
+
+
+* K. Iwasawa, , _On some types of topological groups_, Ann. of Math. vol.50 (1949) pp. 507-558.
+ {#Iwasawa}
+
+
 
 * M. Peyrovian, _Maximal compact normal subgroups_, Proceedings of the American Mathematical Society, Vol. 99, No. 2, (1987) ([jstor](http://www.jstor.org/pss/2046647))
 
