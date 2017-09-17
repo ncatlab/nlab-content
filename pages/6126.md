@@ -1,13 +1,13 @@
 
 **[[mapping space]]**
 
-## General abstract
+### General abstract
 
 * [[hom-set]], [[hom-object]], [[internal hom]], [[exponential object]], [[derived hom-space]]
 
 * [[loop space object]], [[free loop space object]], [[derived loop space]]
 
-## Topology
+### Topology
 
 * [[topology of mapping spaces]]
 
@@ -17,7 +17,7 @@
 
 * [[loop space]], [[free loop space]]
 
-## Differential topology
+### Differential topology
 
 * [[differential topology of mapping spaces]]
 
@@ -28,5 +28,9 @@
   * [[tangent spaces of mapping spaces]]
 
 * [[smooth loop space]]
+
+### Stable homotopy theory
+
+* [[mapping spectrum]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/mapping+space+-+contents)</div>
