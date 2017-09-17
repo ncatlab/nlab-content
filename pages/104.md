@@ -16,5 +16,3 @@ In general, i.e. not restricted to the context of  (co)chain complexes, weak or 
 
 
 [[!redirects Homological resolution]]
-[[!redirects weak quotient]]
-[[!redirects homotopy quotient]]
