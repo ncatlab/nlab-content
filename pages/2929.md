@@ -278,6 +278,11 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 
 * [[1-category equipped with relations]]
 
+## Related concepts
+
+* [[category of correspondences]]
+
+* [[(infinity,n)-category of correspondences]]
 
 ## References
 
