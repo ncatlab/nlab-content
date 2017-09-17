@@ -58,7 +58,7 @@ The details of the definition depend on the model chosen for
 +-- {: .un_defn}
 ###### Definition
 
-For $C$ and $D$ [[quasi-category|quasi-categories]], an **(\infty,1)-functor** $F : C \to D$ is simply a morphism of the underlying [[simplicial sets]].
+For $C$ and $D$ [[quasi-category|quasi-categories]], an **$(\infty,1)$-functor** $F : C \to D$ is simply a morphism of the underlying [[simplicial sets]].
 
 A **natural transformation** $\eta : F \to G$ between two such $(\infty,1)$-functors is a simplicial [[homotopy]]
 
