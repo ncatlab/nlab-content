@@ -86,7 +86,7 @@ The orginal articles include:
 
 with a nice introduction in 
 
-* * [[R. H. Crowell]] and [[R.H. Fox]], Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
+* * [[R. H. Crowell]] and [[R. H. Fox]], Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
 
 see also
  
