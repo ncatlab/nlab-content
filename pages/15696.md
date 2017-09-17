@@ -90,6 +90,10 @@ $$
 
 Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first place, this may be thought of as a _[[regularization (physics)|regularization]]_ of the ill-defined  naive definition "$\prod_n \lambda_n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _[[zeta function regularization]]_.
 
+### Higher amplitudes
+
+Accordingly, more general [[scattering amplitudes]] are controled by [[multiple zeta functions]] (...).
+
 ## Examples
 
 ### Of Laplace operator on complex torus and Dedekind eta function
