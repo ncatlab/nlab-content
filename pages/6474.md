@@ -70,8 +70,11 @@ The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]
 
 category: algebraic geometry
 
+[[!redirects Picard schemes]]
 
 [[!redirects Picard variety]]
+[[!redirects Picard varieties]]
 
 [[!redirects Picard stack]]
 [[!redirects Picard stacks]]
+
