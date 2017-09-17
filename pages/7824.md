@@ -1,6 +1,9 @@
 +-- {: .num_defn}
 ###### Definition
-Let $k$ be a field. Let $k_s$ denote the separable closure of $k$. Then the [[Galois group]] $Gal(k\hookrightarrow k_s)$ of the extension $k\hookrightarrow k_s$ is called *absolute Galois group of $k$*
+Let $k$ be a field. Let $k_s$ denote the separable closure of $k$. Then the [[Galois group]] $Gal(k\hookrightarrow k_s)$ of the extension $k\hookrightarrow k_s$ is called *absolute Galois group of $k$*.
+
+We have $Gal(K\hookrightarrow K_s)\simeq \pi_1(Spec\; K)$ is equivalent to the [[fundamental group]] of the [[scheme]] $Spec K$.
+
 =--
 
 An instance of [[Grothendieck's Galois theory]] is the following:
@@ -18,7 +21,7 @@ X\mapsto X(k_s)
 from the category of [[étale scheme|étale schemes]] to the category of sets equipped with an [[action]] of the absolute Galois group is an equivalence of categories.
 =--
 
-+-- {: .prop}
++-- {: .num_prop}
 ###### Proposition
 Recall the every [[profinite group]] appears as the [[Galois group]] of some [[Galois extension]]. Moreover we have:
 
