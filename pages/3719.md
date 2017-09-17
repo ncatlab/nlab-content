@@ -111,7 +111,7 @@ $R$[[Mod]]
 
 **1.5.1** [[mapping cone]]
 
-**1.5.1** [[mapping cylinder]]
+**1.5.5** [[mapping cylinder]]
 
 **1.5.8** [[fiber sequence]]
 
