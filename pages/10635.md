@@ -66,7 +66,7 @@ to match the last version of the first part; again, the differential and definit
 
 ## Proofs
 
-If convenient, one may prove the theorem first for the [[unit interval]] $[0, 1]$. By applying a suitable affine transformation, we can deduce corresponding result for each interval $[a, b]$ where $a$ and $b$ are real numbers with $a \le b$.
+If convenient, one may prove the theorem first for the [[unit interval]] $[0, 1]$. By applying a suitable [[affine transformation]], we can deduce the corresponding result for each interval $[a, b]$ where $a$ and $b$ are real numbers with $a \leq b$.
 
 In [[classical mathematics]] and pointwise constructive mathematics, existence of definite integrals must be proved first; existence of indefinite integrals follows.  We can then prove that every indefinite integral is an antiderivative by applying the [[mean value theorem]].  Uniqueness of antiderivatives has a simple direct proof; since at least one antiderivative is an indefinite integral, this shows that every antiderivative is an indefinite integral.  Of course, we have existence of an antiderivative, so now everything is proved.
 
@@ -92,6 +92,11 @@ Suppose $x$ is in $[0, 1]$. By assumption, there is $F$ such that $F' = f$. By t
 
 
 [[!redirects fundamental theorem of calculus]]
+[[!redirects fundamental theorems of calculus]]
 [[!redirects fundamental theorem of infinitesimal calculus]]
+[[!redirects fundamental theorems of infinitesimal calculus]]
 [[!redirects fundamental theorem of differential calculus]]
+[[!redirects fundamental theorems of differential calculus]]
 [[!redirects fundamental theorem of integral calculus]]
+[[!redirects fundamental theorems of integral calculus]]
+[[!redirects FTC]]
