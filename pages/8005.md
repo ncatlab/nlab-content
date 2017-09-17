@@ -29,7 +29,32 @@ Every [[symmetric monoidal category|symmetric]] [[bimonoidal category]] is equiv
 
 ## Examples
 
-* [[Ab]], $R$[[Mod]], [[Vect]] are bipermutative categories under [[direct sum]] and [[tensor product of abelian groups]]/[[tensor product of modules]].
+* [[Ab]], $R$[[Mod]], [[Vect]] are [[symmetric monoidal category|symmetric]] [[bimonoidal category]] under [[direct sum]] and [[tensor product of abelian groups]]/[[tensor product of modules]].
+
+Genuine bipermutative categories include the "strictifications" of these.
+
++-- {: .num_example}
+###### Example
+
+For $R$ a plain [[ring]], regarded as a [[bimonoidal category]] it is a bipermutative category. The corresponding [[K-theory of a bipermutative category]] is [[ordinary cohomology]] with [[coefficients]] in $R$, given by the [[Eilenberg-MacLane spectrum]] $H R$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Consider the category whose [[objects]] are the [[natural numbers]] and whose [[hom sets]] are
+
+$$
+  Hom(n_1, n_2) = \left\{ \array{ \Sigma_{n_1} & | n_1 = n_2 \\ \emptyset & | n_1 \neq n_2 } \right.
+  \,,
+$$
+
+with $\Sigma_n$ being the [[symmetric group]] of [[permutations]] of $n$ elements. The two monoidal structures ar given by addition and multiplication of natural numbers. This is a bipermutative version of the $Core(FinSet)$, the [[core]] of the category [[FinSet]] of [[finite sets]].
+
+The corresponding [[K-theory of a bipermutative category]] is given by the [[sphere spectrum]].
+
+=--
 
 ## Related concepts
 
