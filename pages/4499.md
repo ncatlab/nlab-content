@@ -76,5 +76,6 @@ Discussion in the context of [[moduli spaces]] includes
 
 * Kai-Wen Lan, _Comparison between analytic and algebraic constructions of toroidal compactifications of PEL-type Shimura varieties_ [pdf](http://math.umn.edu/~kwlan/articles/cpt-ana-alg.pdf)
 
+[[!redirects GAGA principle]]
 
 catgeory: reference
