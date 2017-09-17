@@ -28,9 +28,9 @@ The generators of the BRST complex are called
 
  * in degree 0: **fields**;
 
- * in degree 1: **ghosts**;
+ * in degree 1: **[[ghost field]]**;
 
- * in degree 2: **ghosts of ghosts**;
+ * in degree 2: **[[ghost-of-ghost fields]]**;
 
  * etc.
 
@@ -256,6 +256,8 @@ In conclusion this shows that the observables in the BRST complex are precisely 
 The BRST complex described a homotopical [[quotient]] of a space by an infinitesimal [[action]]. Combined with a homotopical intersection, it is part of the [[BRST-BV complex]].
 
 * [[gauge transformation]], [[higher gauge transformation]]
+
+* [[ghost field]], [[ghost-of-ghost field]]
 
 ## References
 
