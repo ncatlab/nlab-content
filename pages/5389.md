@@ -1,0 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+## References
+
+The formalization in the context of [[AQFT]] is for instance in section 1.4 of 
+
+* Borchers, Yngvason: _On the PCT--Theorem in the Theory of Local Observables_ ([arXiv:math-ph/0012020](http://arxiv.org/abs/math-ph/0012020))
+
+[[!redirects charge sectors]]
