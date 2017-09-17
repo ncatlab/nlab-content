@@ -21,7 +21,7 @@
 ## Idea
 
 
-Pretriangulated dg-categories are models for [[stable (∞,1)-category|stable (∞,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(∞,1)-category|(∞,1)-categories]].
+Pretriangulated dg-categories are models for [[stable (∞,1)-category|stable (∞,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(∞,1)-category|(∞,1)-categories]] (see ([Cohn 13](#Cohn13))).
 
 The zeroth cohomology category of a pretriangulated dg-category is an ordinary [[triangulated category]], hence a morphism from $H^0(C)\to D$ where $C$ is a pretriangulated dg-category and $D$ a triangulated category is called an [[enhanced triangulated category|enhanced triangulated categories]].
 
@@ -112,6 +112,9 @@ In other words, twisted complexes in $PreTr(E)$ have representatives in $E$.
 
 See _[[enhanced triangulated category]]_ for more links to references.
 
+The relation to [[stable (infinity,1)-categories]] is discussed in
+
+* {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
 
 [[!redirects pre-triangulated dg-category]]
 [[!redirects pretriangulated dg-categories]]
