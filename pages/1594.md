@@ -97,6 +97,6 @@ See also
 
 (which is mainly tailored toward Thurston's approach). 
 
-
+category:orbifold
 
 [[!redirects orbifolds]]
