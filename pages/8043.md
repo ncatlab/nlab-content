@@ -90,7 +90,7 @@ Foundational discussion of the notion of _judgement_ in [[formal logic]] is in
 
 More on this is in in sections 2 and 3 of
 
-* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of model logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
  {#Pfenning-Davies}
 
 A textbook acccount is in section I.3 of 
