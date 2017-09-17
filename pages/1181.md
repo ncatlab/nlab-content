@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
 =--
 =--
 
