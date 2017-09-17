@@ -1,5 +1,6 @@
+
 # Coalgebra
-* tic
+* table of contents
 {: toc}
 
 
@@ -96,14 +97,20 @@ A proof is in
 
 * Sweedler, _Hopf algebras_ . 
 
-See also the generalization to [[dg-coalgebra]]s in
+See also the generalization to [[dg-coalgebra]]s in [Getzler-Goerss](#GetzlerGoerss).
 
-* [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
 
 
 =--
 
+## References
 
+* [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
+ {#GetzlerGoerss}
+
+
+* [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
 
 
 [[!redirects coalgebras]]
+
