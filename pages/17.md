@@ -87,6 +87,10 @@ Currently, the following stylish themes are available:
 
 The inbuilt export features of the n-Lab have been switched off.  However, it is still possible to get a local version of the n-Lab.  This is a _static_ version in that you cannot edit pages, but is complete and all the links correctly point to the pages on the local version.
 
++-- {: .query}
+The following command line magic depends on the [list of all pages](http://ncatlab.org/nlab/list) which no longer works. Is there any other way to download a copy of the nLab?
+=--
+
 One way to do this on a Unix-based system (Linux, MacOSX, BSD), is to use the `wget` command.  The command is:
 
     wget --output-document=- http://ncatlab.org/nlab/list \
