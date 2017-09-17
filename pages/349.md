@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -24,21 +24,33 @@ Probably the main point of having a site is so that one can define [[sheaf|sheav
 
 ## Definition
 
-A **Grothendieck topology** $J$ on a category $C$ assigns to each object $c$ a collection of [[sieve|sieves]] on $c$ which are called _covering sieves_, satisfying the following axioms: 
++-- {: .num_defn}
+###### Definition
 
-*  If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
 
-* The maximal [[sieve]] $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
+A **Grothendieck topology** $J$ on a [[category]] $C$ is an assignment to each object $c \in C$ of a collection of [[sieves]] on $c$ which are called _covering sieves_, satisfying the following axioms: 
 
-* Two [[sieve|sieves]] $F, G$ of $c$ cover $c$ if and only if their intersection $F \cap G$ covers $c$. (Here the saturation condition is important.) 
+1. If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
 
-* If $F$ is a sieve on $c$ such that the sieve 
-    $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$
-    is a covering sieve of $c$, then $F$ itself covers $c$. 
+1. The maximal [[sieve]] $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
 
-The set of covering sieves of an object $c$ is denoted $J(c)$, and the first axiom guarantees that we have a functor $J: C^{op} \to Set$.  Thus $J$ itself can be regarded as an object of the [[presheaf topos]] $[C^{op},Set]$; in this way Grothendieck topologies on $C$ are identified with [[Lawvere-Tierney topologies]] on $[C^{op},Set]$.
+1. Two [[sieve|sieves]] $F, G$ of $c$ cover $c$ if and only if their intersection $F \cap G$ covers $c$. (Here the saturation condition is important.) 
 
-A category equipped with a Grothendieck topology is called a [[site]].
+1. If $F$ is a sieve on $c$ such that the sieve $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$ is a covering sieve of $c$, then $F$ itself covers $c$. 
+
+=--
+
+The set of covering sieves of an object $c$ is denoted $J(c)$. 
+
+A category equipped with a Grothendieck topology is called a **[[site]]** .
+
+
++-- {: .num_remark}
+###### Remark
+
+The first axiom guarantees that we have a functor $J: C^{op} \to Set$.  Thus $J$ itself can be regarded as an object of the [[presheaf topos]] $[C^{op},Set]$; in this way Grothendieck topologies on $C$ are identified with [[Lawvere-Tierney topologies]] on $[C^{op},Set]$.
+
+=--
 
 Given a Grothendieck topology $J$ on a [[small category]] $C$, one can define the category $Sh(C,J)$ of [[sheaves]] on $C$ relative to $J$, which is a [[reflective subcategory]] of the category $[C^{op},Set]$ of [[presheaves]] on $C$.  Thus we have a functor $C\to Sh(C,J)$ given by the composite of the [[Yoneda embedding]] with the reflection (or "sheafification").  This composite functor is [[full and faithful functor|fully faithful]] if and only if all representable presheaves are sheaves for $J$; a topology with this property is called [[subcanonical site|subcanonical]].
 
