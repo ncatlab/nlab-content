@@ -25,7 +25,7 @@ More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary topos
 
 Modern mathematics with emphasis on concepts of [[homotopy theory]] would more directly be founded in this spirit by an axiomatization not just of [[elementary toposes]] but of [[elementary (∞,1)-toposes]]. This is roughly what [[univalence|univalent]] [[homotopy type theory]] accomplishes -- for more on this see at _[relation between type theory and category theory -- Univalent HoTT and Elementary infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
 
-Instead of increasing the [[higher category theory|higher categorical dimension]] [[(n,r)-category|(n,r)]] in the first argument, one may also, in this context of elementary foundations, consider raising the second argument. The case $(2,2)$ is the [[elementary theory of the 2-category of categories]] ([[ETCC]]).
+Instead of increasing the [[higher category theory|higher categorical dimension]] [[(n,r)-category|(n,r)]] in the first argument, one may also, in this context of elementary foundations, consider raising the second argument. The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETCC]]).
 
 ## Definition
 
@@ -65,9 +65,9 @@ For more details see
 
 ETCS grew out of Lawvere's experiences of teaching undergraduate set theoretic foundations at Reed college in 1963 and was originally published in 
 
-* {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511 (1965). ([pdf](http://www.pnas.org/content/50/5/869.full.pdf))
+* {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511 (1965). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
 
-More or less contemporary review is
+A more or less contemporary review is
 
 * C.C. Elgot , _Review_,  JSL **37** no.1 (1972) pp.191-192.
 
