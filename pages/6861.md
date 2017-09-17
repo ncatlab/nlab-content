@@ -1,7 +1,7 @@
 
 * [[∞-Chern-Weil theory]]
 
-* [[schreiber:∞-Chern-Simons theory]]
+* [[infinity-Chern-Simons theory - contents|∞-Chern-Simons theory]]
 
 * **[[schreiber:∞-Wess-Zumino-Witten theory]]**
 
@@ -10,6 +10,8 @@
 * 2d [[Wess-Zumino-Witten model]]
 
   * [[current algebra]]
+
+* [[higher dimensional WZW theory]]
 
 * [[WZW-type superstring field theory]]
 
