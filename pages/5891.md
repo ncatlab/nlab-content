@@ -30,6 +30,8 @@ Conversely, starting with a given theory of logic or a given type theory, we say
 
 ## Definition
 
+For the general idea, for the moment see at _[[type theory]]_ the section _[An introduction for category theorists](type+theory#CategoricalSemantics)_.
+
 ### Of dependent type theory
 
 We discuss how to interpret judgements of [[dependent type theory]] in a given [[category]] $\mathcal{C}$ with [[finite limits]]. 
