@@ -67,25 +67,31 @@ $$\exp(x + y) = \exp(x) \cdot \exp(y)$$
 
 +-- {: .proof} 
 ###### Proof 
-A number of proofs may be given. One rests on the binomial identity 
+A number of proofs may be given. One rests on the combinatorial binomial identity 
 
-$$(x + y)^n = \sum_{k = 0}^n \binom{n}{k} x^k y^{n-k}$$ 
+$$(x + y)^n = \sum_{j + k = n} \frac{n!}{j! k!} x^j y^k$$ 
 
-whereupon 
+(which crucially depends on the fact that multiplication is [[commutative monoid|commutative]]) whereupon 
 
-$$\sum_{n \geq 0} \frac{(x+y)^n}{n!} $$
+$$\array{
+\sum_{n \geq 0} \frac{(x+y)^n}{n!} & = & \sum_{n \geq 0} \sum_{j + k = n} \frac1{j!} \frac1{k!} x^j y^k \\
+ & = & (\sum_{j \geq 0} \frac{x^j}{j!}) \cdot (\sum_{k \geq 0} \frac{y^k}{k!} \\ 
+ & = & \exp(x) \cdot \exp(y)
+}$$
 
+An alternative proof begins with the observation that $f = \exp$ is the unique _global_ analytic solution to the system $f' = f$, $f(0) = 1$. It follows that for each $y$, the function $g_1 \colon x \mapsto f(x) f(y)$ is a solution to the system $g' = g$, $g(0) = f(y)$, as is the function $g_2 \colon x \mapsto f(x + y)$. By uniqueness of solutions to ordinary differential equations, we infer that $g_1 = g_2$, or that $f(x + y) = f(x)f(y)$ for all $x, y$. 
 =-- 
-
-(to be continued) 
 
 Let $M$ be [[Lie group]] and let $\mathfrak{g}$ be its [[Lie algebra]] $T_1 M$, the tangent space to the [[identity element]] $1$.  Then $M$ may be equipped with the canonical left-invariant connection $\Del_l$ or the canonical right-invariant connection $\Del_r$.  It turns out that the natural Riemannian exponential maps on $M$ at $1$ relative to $\Del_l$ and $\Del_r$ are the same; we define this to be the __natural Lie exponential map on $M$ at the identity__, denoted simply $\exp$.  Several nice properties follow:
 
 *  $\exp$ is defined on all of $\mathfrak{g}$.
-*  $\exp$ is a [[smooth map|smooth]] [[homomorphism]] to $G$ from the underlying additive Lie group of $\mathfrak{g}$.
+*  $\exp \colon \mathfrak{g} \to G$ is a [[smooth map]]. 
+*  If $\rho_X \colon \mathbb{R} \to \mathfrak{g}$ is a smooth homomorphism from the additive group $\mathbb{R}$ (i.e., if $\rho_X$ is an $\mathbb{R}$-linear map, uniquely determined by the element $X = \rho_X(1)$), then $\exp \circ \rho_X \colon \mathbb{R} \to G$ is a smooth homomorphism. 
 *  $\exp$ is [[surjection|surjective]] (a [[regular epimorphism]]) if $G$ is [[connected space|connected]] and [[compact space|compact]] (and also in some other situations, such as the classical cases where $G$ is $]0,\infty[$ or $\mathbb{C} \setminus \{0\}$).
 *  If $G$ is [[compact space|compact]], then it may be equipped with a [[Riemannian metric]]; then the Lie exponential map is the same as the Riemannian exponential map at $1$.
 *  If $G$ is a [[matrix Lie group]], then $\exp$ is given by the classical series formula (eq:series).
+
+(to be expanded on) 
 
 
 ## Logarithms
