@@ -51,12 +51,12 @@ We originally designed this place as an adjunct to the [$n$-Category Caf&eacute;
 ## Discussion, Comments, Questions
  {#Discussion}
 
-While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). We inform ourselves about latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5) and discuss these edits there.
+While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). In particular, for all but the most trivial edits (correcting spelling or punctuation, etc.), we make a note of our latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5), where they may be discussed further.
 
 If you do make **contributions** to the $n$Lab, you are strongly encouraged to similarly drop a short note there about what you have done -- or maybe just about what you plan to do or even what you would like others to do. 
 See _[[nlabmeta:Welcome to the nForum]]_ for more information.
 
-Also if you do not want to contribute to the $n$Lab, but if you have  **comments** on an entry -- say because you are an expert and feel that information is wrong or missing -- or **questions** -- say because you are a layman and feel that things could be explained better -- then preferably you post that comment or question to the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/), where it is visible to everybody who might be concerned.
+If you do not want to contribute to the $n$Lab, but if you have  **comments** on an entry -- say because you are an expert and feel that information is wrong or missing -- or **questions** -- say because you are a layperson and feel that things could be explained better -- then we generally prefer that you post that comment or question to the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/), where it is visible to everybody who might be concerned.
 
 In case that you do feel that this is not an option and that you do need to contact privately (say by email) a single author of an $n$Lab page, please make sure that you know who the right author is. Beware that the $n$Lab pages are visibly "signed" only by the name of the last person who made any edit on the page, no matter how minor. To find the author who made the edit that you want to comment or ask about privately, you should click on the link "History" at the bottom of any page to see which version was authored by whom. 
 
