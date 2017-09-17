@@ -32,7 +32,7 @@ $$
 $$
 
 
-More abstractly, complex conjugation of complex vecgtor bundles induces on the [[complex K-theory]] [[spectrum]] [[KU]] an involutive [[automorphism]]. $KR$ is the corresponding $\mathbb{Z}_2$-[[equivariant spectrum]], and $KR$-theory the corresponding $\mathbb{Z}_2$-[[equivariant cohomology]] theory.  In particular, the [[homotopy fixed point]] of [[KU]] under this automorphism is [[KO]]
+More abstractly, complex conjugation of complex vector bundles induces on the [[complex K-theory]] [[spectrum]] [[KU]] an involutive [[automorphism]]. $KR$ is the corresponding $\mathbb{Z}_2$-[[equivariant spectrum]], and $KR$-theory the corresponding $\mathbb{Z}_2$-[[equivariant cohomology]] theory.  In particular, the [[homotopy fixed point]] of [[KU]] under this automorphism is [[KO]]
 
 $$
   KO \simeq (KU)^{\mathbb{Z}/2}
@@ -43,8 +43,7 @@ $$
 KR is an example of a [[real-oriented cohomology theory]], together with for instance [[MR-theory]] and [[BPR-theory]].
 
 +-- {: .num_remark}
-###### Remark on termino
-logy
+###### Remark on terminology
 
 Hence $X$ here is equipped with an [[involution]] by a [[diffeomorphism]]. In this context this is often thought of as a non-linear [[real structure]] and so these spaces are called "real spaces". Following this, $KR$-theory is usually pronounced "real K-theory". But **beware** that this terminology easily conflicts with or is confused with [[KO]]-theory. For disambiguation the latter might better be called "orthogonal K-theory". But on abstract grounds maybe $KR$-theory would best be just called $\mathbb{Z}_2$-equivariant complex K-theory.
 
@@ -88,7 +87,7 @@ This is in fact an [[Omega spectrum]], by equivariant complex [[Bott periodicity
 
 ### Bigrading
 
-As any genuin [[equivariant cohomology theory]] $KR$-theory is naturally graded over the [[representation ring]] $RO(\mathbb{Z}_2)$. Write $\mathbb{R}$ for the trivial 1-dimensional representation and $\mathbb{R}_-$ for that given by the sign involution. Then the general orthogonalrepresentation decomposes as a [[direct sum]]
+As any genuine [[equivariant cohomology theory]] $KR$-theory is naturally graded over the [[representation ring]] $RO(\mathbb{Z}_2)$. Write $\mathbb{R}$ for the trivial 1-dimensional representation and $\mathbb{R}_-$ for that given by the sign involution. Then the general orthogonalrepresentation decomposes as a [[direct sum]]
 
 $$
   V = \mathbb{R}^+\oplus \mathbb{R}_-^q
