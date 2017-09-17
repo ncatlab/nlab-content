@@ -15,20 +15,28 @@
 
 ## Idea
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ any [[object]], the _over-$(\infty,1)$-topos_ $\mathbf{H}/X$ is the object $X$ itself regarded as an $(\infty,1)$-topos.
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ any [[object]], the [[over-(∞,1)-category]] $\mathbf{H}/X$ is itself an $(\infty,1)$-topos: the _over-$(\infty,1)$-topos_ .
 
-In fact $\mathbf{H}$ is equivalently recovered as the [[(∞,1)-category]] whose objects are over-$(\infty,1)$-toposes $\mathbf{H}/X$ and whose morphisms are [[(∞,1)-geometric morphism]]s _over_ $\mathbf{H}$.
+If we think of $\mathbf{H}$ as a [[big topos]], then for $X \in \mathbf{H}$ we may think of $\mathbf{H}/X \in $ [[(∞,1)-topos]] as the [[little topos]]-incarnation of $X$. The [[object]]s of $\mathbf{H}/X$ we may think of as [[(∞,1)-sheaves]] on $X$.
+
+This corespondence between objects of $X$ and their little-topos incarnation is entirly natural: $\mathbf{H}$ is equivalently recovered as the [[(∞,1)-category]] whose objects are over-$(\infty,1)$-toposes $\mathbf{H}/X$ and whose morphisms are [[(∞,1)-geometric morphism]]s _over_ $\mathbf{H}$.
 
 ## Definition
 
-+-- {: .un_def}
-###### Definitioon
+
++-- {: .un_prop}
+###### Proposition
 
 For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ an [[object]] also the [[over-(∞,1)-category]] $\mathbf{H}/X$ is an $(\infty,1)$-topos. This is the **over-$(\infty,1)$-topos** of $\mathbf{H}$ over $X$.
 
 =--
 
+This is [[Higher Topos Theory|HTT, prop 6.3.5.1 1)]].
+
 ## Properties
+
+### Base change to the point
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -41,11 +49,21 @@ $$
   \mathbf{H}
 $$
 
-where the extra [[left adjoint]] $X_!$ is the obvious projection $X_! : (Y \to X) \mapsto X$.
+where the extra [[left adjoint]] $X_!$ is the obvious projection $X_! : (Y \to X) \mapsto X$, and $X_*$ is given by forming the [[(∞,1)-limit|(∞,1)-product]] with $X$.
 
 =--
 
 This is called an [[etale geometric morphism]]. See there for more details.
+
+
++-- {: .proof}
+###### Proof
+
+The fact that $(X_! \dashv X^*)$ follows from the universal property of the products. The fact that $X^*$ preserves [[(∞,1)-colimit]]s and hence has a further [[right adjoint]] $X_*$ by the [[adjoint (∞,1)-functor theorem]] follows from that fact that $\mathbf{H}$ has [[universal colimits]].
+
+=--
+
+
 
 
 +-- {: .un_cor}
@@ -87,5 +105,36 @@ $$
 
 See [[etale geometric morphism]] for more details.
 
+### General base change
+
+See [[base change geometric morphism]].
+
+
+## Examples
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathbf{H} = $ [[∞Grpd]] we have that for $X \in \infty Grp$ any [[∞-groupoid]] the corresponding over-$(\infty,1)$-topos is equivalent to the [[(∞,1)-category of (∞,1)-presheaves]] on $X$:
+
+$$
+  \infty Grpd/X \simeq [X^{op}, \infty Grpd]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a special case of the [[(∞,1)-Grothendieck construction]]. See the section <a href="http://ncatlab.org/nlab/show/(infinity,1)-Grothendieck+construction#GrpdFibsOverGrpds">(∞,0)-fibrations over ∞-groupoids</a>.
+
+=--
+
+## References
+
+Section 6.3.5 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects over-(∞,1)-topos]]
