@@ -1,0 +1,4 @@
+The category of [[definable set]]s of a given language does not have finite colimits. Given a 1-st order language, we say that it __eliminates imaginaries__ if it has quotients of equivalence relations. 
+
+* wikipedia [imaginary element](http://en.wikipedia.org/wiki/Imaginary_element)
+
