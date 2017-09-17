@@ -1,3 +1,3 @@
-"On the cost side, we are on track to achieve our Q4  2011 plan of US$1.08 per watt efficiency adjusted panel cost relative  to conventional crystalline silicon technology," added Werner.480?480:true;" onclick="resizeImg(this,480)" src="http://www.lowcarboneconomy.com/Resources/NewsImages/x_1235_800504966_0_0_12816_300320x320.jpg" alt="Ovesco aims to finish environmental project ahead of cuts" />
- <a href="http://www.marthomaretreathome.com/Coachhandbagunique.asp?unique=hot-c-24.html" >Hot</a>
-[url=http://www.marthomaretreathome.com/Coachhandbagunique.asp?unique=hot-c-24.html]Hot[/url]
+Despite the magnitude of the stakes, most Americans are confused by  the climate debate because House Republicans spread fear and deny fact.  It's time to deconstruct the arguments Republicans in Congress use to  justify their irresponsible votes.
+ <a href="http://www.buyinbulgaria.com/Raybansunglassescheap.asp?cheap=resin-16" >Resin</a>
+[url=http://www.buyinbulgaria.com/Raybansunglassescheap.asp?cheap=resin-16]Resin[/url]
