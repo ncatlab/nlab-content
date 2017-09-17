@@ -25,6 +25,12 @@ The _monoidal Dold-Kan correspondence_ relates [[algebras over an operad]] in ab
 
 This generalizes the [[monoidal Dold-Kan correspondence]].
 
+## Statements
+
+* In ([Mandell](#Mandell)) a Quillen equivalence between [[E-infinity algebra]]s in chain complexes and in simplicial abelian groups is demonstrated.
+
+
+* In ([Richter](#Richter)) it is shown that for any reduced [[operad]] $\tilde \mathcal{O}$ in $Ch_\bullet^+(Mod)$, which is a [[resolution]] of an operad in $Mod$, the inverse map $\Gamma : Ch_\bullet^+ \to sAb$ of the [[Dold-Kan correspondence]] lifts to a  [[Quillen adjunction]] between homotopy $\mathcal{O}$-algebras in $Ch_\bullet(Mod)$ and in $Mod^{\Delta^{op}}$. (Around therem 5.5.5). It is not shown yet if or under which conditions this is a Quillen equivalence.
 
 
 ## Related concepts
