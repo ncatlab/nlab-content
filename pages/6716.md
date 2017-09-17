@@ -317,8 +317,37 @@ $$
 
 =--
 
-+-- {: .num_cor}
-###### Corollary
++-- {: .num_prop #HomotopyFiberOfSmoothBeta2}
+###### Proposition
+
+The sequence  
+
+$$
+  \mathbf{B} U(1)
+    \stackrel{\mathbf{c}_1 mod 2}{\to}
+  \mathbf{B}^2 \mathbb{Z}_2 
+    \stackrel{\mathbf{\beta}_2}{\to}
+  \mathbf{B}^2 U(1)
+  \,,
+$$
+
+where $\mathbf{\beta}_2$ is the smoothly refined [[Bockstein homomorphism]] from prop. \ref{SmoothRefinementOfBockstein},
+is a [[fiber sequence]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The homotopy fiber of $\mathbf{B} \mathbb{Z}_2 \to \mathbf{B}U(1)$ is $U(1)/\mathbb{Z}_2 \simeq U(1)$. Thinking of this is $(\mathbb{Z} \stackrel{\cdot 1/2}{\to} \mathbb{R})$ one sees that the inclusion of this fiber is indeed $\mathbf{c}_1 mod 2$.
+
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
 
 The [[delooping]] $\mathbf{B}Spin^c$ of the Lie group $Spin^c$ in [[Smooth∞Grpd]] is the [[homotopy fiber]] of the universal third smooth [[integral Stiefel-Whitney class]] from \ref{SmoothRefinementOfBockstein}.
 
@@ -336,17 +365,6 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We observe that we have a [[fiber sequence]]
-
-$$
-  \mathbf{B} U(1)
-    \stackrel{\mathbf{c}_1 mod 2}{\to}
-  \mathbf{B}^2 \mathbb{Z}_2 
-    \stackrel{\mathbf{\beta}_2}{\to}
-  \mathbf{B}^2 U(1)
-$$
-
-where $\mathbf{\beta}_2$ is the smoothly refined [[Bockstein homomorphism]].
 
 Then consider the [[pasting diagram]] of [[homotopy pullbacks]]
 
@@ -358,7 +376,7 @@ $$
      &\to&
      {*}
      \\
-     \downarrow && \downarrow && \downarrow
+     \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1 mod 2}} && \downarrow
      \\
      \mathbf{B} SO 
        &\stackrel{\mathbf{w}_2}{\to}&
@@ -369,7 +387,7 @@ $$
   \,.
 $$
 
-The right square is the fiber sequence just mentioned.
+The right square is a homotopy pullback by prop. \ref{HomotopyFiberOfSmoothBeta2}.
 The left square is a homotopy pullback by 
 prop. \ref{SpinCAsHomotopyPullbackOfW2AndC1}.
 The bottom composite is the smooth $\mathbf{W}_3$ by prop \ref{SmoothRefinementOfBockstein}. 
