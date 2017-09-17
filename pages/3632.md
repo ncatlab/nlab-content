@@ -149,7 +149,7 @@ This is ([Lurie, prop. 7.2.1.10](#Lurie)).
 
 ## References
 
-Seciton 6.5...
+Section 6.5...
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
