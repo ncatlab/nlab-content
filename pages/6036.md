@@ -1,0 +1,18 @@
+[[!redirects strings]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+A _string_ is a [[brane]] of dimension one higher than an ordinary [[particle]]:
+
+where a 1-[[dimension]]al [[sigma-model]] may be thought of a describing the dynamics of [[particle]]s propagating of a [[target space]] $X$, a 2-dimensional [[sigma-model]] is said to described the dynamics of a string on some target space.
+
+Much of traditional [[quantum field theory]] on $X$ can be understood in terms of 1-dimensional sigma-models with target $X$. What is called _[[string theory]]_ is the corresponding study of what happens to this situation as the 1-dimensional $\sigma$-model is replaced by a 2-dimensional one.
+
