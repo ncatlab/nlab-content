@@ -25,25 +25,111 @@
 
 ## Definition
 
-A [[functor]] $F: C \to D$ between [[additive category|additive categories]] is itself __additive__ if it preserves finite [[biproduct]]s.
++-- {: .num_defn}
+###### Definition
 
-That is, $F$ maps a [[zero object]] to a zero object; and, given objects $x$ and $y$ of $C$, not only is $F(x \oplus y) \cong F(x) \oplus F(y)$, but $F$ even preserves the inclusion and projection maps:
+A [[functor]] $F: \mathcal{A} \to \mathcal{B}$ between [[additive category|additive categories]] is itself called __additive__ if it preserves finite [[biproducts]].
+
+That is, 
+
+1. $F$ maps a [[zero object]] to a zero object, $F(0) \simeq 0 \in \mathcal{B}$; 
+
+1. given any two [[objects]] $x, y \in \mathcal{A}$, there is an [[isomorphism]] $F(x \oplus y) \cong F(x) \oplus F(y)$, and this respects the inclusion and projection maps of the [[direct sum]]:
+
 $$
 \array { x &          &            &          & y \\
-           & \searrow &            & \swarrow \\
+           & {}_{\mathllap{i_X}}\searrow &            & \swarrow_{\mathrlap{i_y}} \\
            &          & x \oplus y \\
-           & \swarrow &            & \searrow \\
+           & {}^{\mathllap{p_x}}\swarrow &            & \searrow^{\mathrlap{p_y}} \\
          x &          &            &          & y }
 \quad\quad\stackrel{F}{\mapsto}\quad\quad
-\array { F(x) &          &                                      &          & y \\
-              & \searrow &                                      & \swarrow \\
+\array { F(x) &          &                                      &          & F(y) \\
+              & {}_{\mathllap{i_{F(x)}}}\searrow &   & \swarrow_{\mathrlap{i_{F(y)}}} \\
               &          & F(x \oplus y) \cong F(x) \oplus F(y) \\
-              & \swarrow &                                      & \searrow \\
-         F(x) &          &                                      &          & y }
+              & {}^{\mathllap{p_{F(X)}}}\swarrow &                                      & \searrow^{\mathrlap{p_{F(y)}}} \\
+         F(x) &          &                                      &          & F(y) }
 $$
 
-Additive categories are always [[enriched category|enriched]] over [[Ab]], and an additive functor is always an [[enriched functor]] accordingly.  This need not be stated as a requirement; it follows from preserving biproducts, since the $Ab$-enrichment structure may be recovered from the biproducts (as described at [[biproduct]]).  Conversely, any $Ab$-enriched functor automatically preserves any finite biproducts that may exist, since finite biproducts in [[Ab-enriched category|Ab-enriched categories]] are [[Cauchy complete category|Cauchy colimits]].
+=--
+
+
++-- {: .num_remark}
+###### Remark
 
 In practice, functors between additive categories are generally assumed to be additive.
+
+=--
+
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+The [[hom-functor]] $Hom(-,-) \colon \mathcal{A}^{op}\times \mathcal{A} \to Ab$ is additive (and in both arguments separately).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $\mathcal{A} = R$[[Mod]] and $N \in \mathcal{A}$, the  functor that forms [[tensor product of modules]] $(-)\otimes N \colon \mathcal{A} \to \mathcal{A}$.
+
+=--
+
+In fact thes examples are generic, see prop. \ref{RightExactAdditiveIsTensor} below.
+
+## Properties
+
+### Relation to $Ab$-enriched functors
+
+An [[additive category]] canonically carries the structure of an [[Ab-enriched category]] where the $Ab$-enrichment structure is induced from the biproducts as described at _[[biproduct]]_. 
+
++-- {: .num_prop #AdditiveIsAbEnriched}
+###### Proposition
+
+With respect to the canonical [[Ab-enriched category]]-structre on additive categories $\mathcal{A}$, $\mathcal{B}$, additive functors $F : \mathcal{A} \to \mathcal{B}$ are equivalently [[Ab]]-[[enriched functors]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+An $Ab$-enriched functor preserves all finite biproducts that exist, since finite biproducts in [[Ab-enriched category|Ab-enriched categories]] are [[Cauchy complete category|Cauchy colimits]].
+
+=--
+
+
+### Characterization by exactness
+ {#CharacterizationByExactness}
+
+Let $R, R'$ be [[rings]].
+
++-- {: .num_prop #RightExactAdditiveIsTensor}
+###### Proposition
+
+If an additive functor $F : R$[[Mod]] $\to R'$[[Mod]] is a [[right exact functor]], then there exists an $R'$-$R$-[[bimodule]] $B$ and a [[natural isomorphism]]
+
+$$
+  F \simeq B \otimes_R (-)
+$$
+
+with the functor that forms the [[tensor product]] with $B$.
+
+=--
+
+This is ([Watt, theorem 1](#Watt)),
+
+
+## Related concepts
+
+* [[enriched functor]]
+
+In the context of [[derived functors in homological algebra]] one considers functors that are additive and in addition left/right [[exact functors]], as discussed above in _[Characterization by exactness](#CharacterizationByExactness)_.
+
+## References
+
+* Charles Watt, _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society (1959) ([JSTOR](http://www.jstor.org/stable/2032707))
+ {#Watt}
 
 [[!redirects additive functors]]
