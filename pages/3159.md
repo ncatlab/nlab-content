@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Homological algebra
 +--{: .hide}
 [[!include homological algebra - contents]]
@@ -13,6 +17,12 @@
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+A _free module_ over some [[ring]] $R$ is [[free construction|freely generated]] on a [[set]] of [[basis]] elements.
+
+Under the [interpretation of modules as generalized vector bundles](module#RelationToVectorBundlesInIntroduction) a _free module_ corresponds to a _trivial_ bundle.
 
 ## Definition
 
@@ -69,6 +79,8 @@ A proof is in ([Rotman, pages 650-651](#Rotman)).
 
 ## Related concepts
 
+* [[locally free module]]
+
 * **free module** $\Rightarrow$ [[projective module]] $\Rightarrow$ [[flat module]] $\Rightarrow$ [[torsion-free module]]
 
 * [[basis of a free module]]
@@ -83,6 +95,8 @@ A proof is in ([Rotman, pages 650-651](#Rotman)).
  
 
 * flat object, [[flat resolution]]
+  
+  * [[flat module]]
 
 
 ## References
