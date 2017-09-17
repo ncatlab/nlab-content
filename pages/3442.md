@@ -160,6 +160,9 @@ In this diagram now
 * Boris Kruglikov, Valentin Lychagin, _Geometry of differential equations_, [pdf](http://www.math.uit.no/seminar/Preprints/07-01-BKVL.pdf)
 * Yves Andre, _Solution algebras of differential equations and quasi-homogeneous varieties_, [arXiv:1107.1179](http://arxiv.org/abs/1107.1179)
 
+A [[domain specific programming language]] for differential equations is presented in
+
+* {#ALORW12} Martin S. Alnaes, Anders Logg, Kristian B. Oelgaard, Marie E. Rognes, Garth N. Wells, _Unified Form Language: A domain-specific language for weak formulations of partial differential equations_ ([arXiv:1211.4047](http://arxiv.org/abs/1211.4047))
 
 [[!redirects differential equation]]
 [[!redirects differential equations]]
