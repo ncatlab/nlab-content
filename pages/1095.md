@@ -152,8 +152,48 @@ in $PSh(C)$. Since $PSh(C)$ has [[universal colimits]] the morphism on the left 
 
 =--
 
+And conversely:
+
++-- {: .un_prop}
+###### Proposition
+**(equivalence of site structures and categories of sheaves)**
+
+For $C$ a [[small (∞,1)-category]], there is a bijective correspondence between structure of an [[(∞,1)-site]] on $C$ and equivalence classes of [[topological localization]]s of $PSh(C)$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.2.2.9]].
+
++-- {: .un_lemma}
+###### Lemma
+
+For $C$ a small [[(∞,1)-site]] and $Sh(C) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} PSh(C)$ the corressponding reflective inclusion of [[(∞,1)-sheaves]] into [[(∞,1)-presheaves]] on $C$ we have that the image under $L$ of a sub-$(\infty,1)$-functor  $p : U \to j(c)$ of a [[representable functor|representable]] $j(c)$ is covering precisely if $L(p)$ is an equivalence.
+
+=--
+
+This is [[Higher Topos Theory|HTT, lemma 6.2.2.8]].
+
++-- {: .proof}
+###### Proof of the Lemma
+
+Since $Sh(C)$ is the reflectuive localization of $PSh(C)$ at covering monomorphisms, it is clear that if $p : U \to j(c)$ is covering, then $L(p)$ is an equivalence.
+
+To see the converse, form the 0-truncation of $L i$ and conclude as for ordinary sheaves on the [[homotopy category of an (infinity,1)-category|homotopy catgegory]] of $C$.
+
+... 
+
+=--
+
++-- {: .proof}
+###### Proof of the Proposition
 
 
+We have seen in (...) that for every structure of an $(\infty,1)$-site on $C$ we obtain a topological localization of the presheaf category, and that this is an injective map from site structures to equivalence classes of sheaf categories. It remains to show that it is also a surjective map, i.e. that every [[topological localization]] of $PSh(C)$ comes from the structure of an [[(∞,1)-site]] on $C$.
+
+To see this, consider...
+ 
+
+=--
 
 
 ## Models 
