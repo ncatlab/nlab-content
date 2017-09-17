@@ -1,0 +1,21 @@
+[[!redirects 9d supergravity]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+[[supergravity]] in [[dimension]] 9
+
+## Properties
+
+### U-duality
+
+[[!include U-duality -- table]]
+
+## References
+
+* M. P. Garcia del Moral, J. M. Pena, A. Restuccia, _Supermembrane origin of type II gauged supergravities in 9D_, JHEP 1209 (2012) 063 ([arXiv:1203.2767](http://arxiv.org/abs/1203.2767))
+
