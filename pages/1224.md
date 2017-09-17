@@ -1,10 +1,15 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A functor $F : C \to D$ is cofinal if we can restrict diagrams on $D$ to diagrams on $C$ along $F$ without changing their limit. 
+A [[functor]] $F : C \to D$ is **cofinal** if we can restrict [[diagram]]s on $D$ to diagrams on $C$ along $F$ without changing their [[colimit]]. 
 
 ## Cofinal functors
 
