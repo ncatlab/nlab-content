@@ -67,6 +67,8 @@ By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence
     * [[dual heterotic string theory]]
 
   * **type II string theory**
+
+    [[type II geometry]]
  
     4d [[super Yang-Mills theory]]
 
