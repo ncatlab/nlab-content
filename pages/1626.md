@@ -191,9 +191,36 @@ $$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\
 provides a classic example where the path component of a point need not be closed. (Specifically, consider a point on the locus of $y = \sin(1/x)$.) 
 =-- 
 
-The basic categorical Results \ref{1}, \ref{2}, and \ref{3} above carry over upon replacing "connected" by "path-connected". (As of course does \ref{4}, trivially.)
+The basic categorical Results \ref{1}, \ref{2}, and \ref{3} above carry over upon replacing "connected" by "path-connected". (As of course does \ref{4}, trivially.) 
 
-As a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete! 
+Finally, as a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete! 
+
+### Arc-connectedness 
+
+A refinement of the notion of path-connected space is that of arc-connected (or arcwise-connected) space: 
+
++-- {: .num_defn} 
+###### Definition 
+A space $X$ is **arc-connected** if for any two distinct $x, y \in X$ there exists an _injective_ continuous map $\alpha: I \to X$ such that $\alpha(0) = x$ and $\alpha(1) = y$. 
+=-- 
+
+Arc-connected spaces are of course path-connected, but there are trivial examples (using an [[indiscrete topology]]) that the converse fails to hold. A rather non-trivial theorem is the following: 
+
++-- {: .num_theorem #arc} 
+###### Theorem 
+A path-connected [[Hausdorff space]] $X$ is arc-connected. 
+=-- 
+
+This immediately generalizes to the statement that in a Hausdorff space $X$, any two points that can be connected by a path $\alpha: I \to X$ can be connected by an arc: just apply the theorem to the image $\alpha(I)$. For a proof of this theorem, see [Willard](#Willard), theorem 31.2. 
+
+This result is a key step toward the celebrated Hahn-Mazurkiewicz theorem: 
+
++-- {: .num_theorem} 
+###### Theorem 
+Let $X$ be a nonempty Hausdorff space. Then there exists a continuous surjection $\alpha: [0, 1] \to X$ if and only if $X$ is a **Peano space**, i.e., a [[compact space|compact]], connected, locally connected, and [[metrizable space]]. 
+=-- 
+
+(The terminology "Peano space" is given in recognition of Peano's discovery of space-filling curves, as for example the unit square.)  
 
 ### Path-components functor 
 
@@ -225,6 +252,18 @@ The functor $\pi_0 \colon Top \to Set$ preserves arbitrary coproducts.
 The functor $\hom(I, -) \colon Top \to Set$ preserves coproducts since $I$ is connected, and similarly for $\hom(1, -)$. The coequalizer of a pair of natural transformations between coproduct-preserving functors is also a coproduct-preserving functor. 
 =-- 
 
+### Pseudo-arcs 
+
+Point-set topology is filled with counterexamples. An unusual type of example is that of pseudo-arc: 
+
++-- {: .num_defn} 
+###### Definition 
+A _pseudo-arc_ is a [[continuum|metric continuum]] with more than one point such that every subcontinuum (a subspace that is a continuum) cannot be expressed as a union of two proper subcontinua. 
+=-- 
+
+A pseudo-arc $X$ is necessarily totally path-disconnected: two distinct points $x, y$ of $X$ cannot be connected by a path in $X$. Indeed, the image of such a path would be a path-connected Hausdorff space, hence arc-connected by Theorem \ref{arc}. Letting $\alpha: [0, 1] \to X$ be an arc from $x$ to $y$, we have that the continuum $\alpha([0, 1])$ is a union of proper subcontinua $\alpha([0, 1/2])$ and $\alpha([1/2, 1])$, a contradiction. Thus, a pseudo-arc is an example of a compact connected metrizable space that is not path-connected. 
+
+Remarkably, all pseudo-arcs are homeomorphic, and a pseudo-arc is a [[homogeneous space]]. Perhaps also remarkable is the fact that the collection of pseudo-arcs in the [[Hilbert cube]] (or in any Euclidean space) is a dense $G_\delta$ set (see [[G-delta set]]) in the [[Polish space]] of all nonempty compact subsets under the [[Hausdorff metric]]; see [Bing2](#Bing2), theorem 2. 
 
 ## Related concepts
 
@@ -248,7 +287,17 @@ Examples of countable connected Hausdorff spaces were give in
 {#Bing} 
 
 * Solomon W. Golomb, _A Connected Topology for the Integers_, Amer. Math. Monthly, Vol. 66 No. 8 (Oct. 1959), 663-665.
-{#Golomb}
+{#Golomb} 
+
+Material on arc-connected spaces and the Hahn-Mazurkiewicz theorem can be found in Chapter 31 of 
+
+* Stephen Willard, _General Topology_, Addison-Wesley 1970. ([online](http://www.scribd.com/doc/44283132/General-Topology-Stephen-Willard)) 
+ {#Willard} 
+
+Material on pseudo-arcs can be found in 
+
+* R.H. Bing, _Concerning hereditarily indecomposable continua_, Pacific J. Math. Volume 1, Number 1 (1951), 43-51. ([Project Euclid](http://projecteuclid.org/euclid.pjm/1102613150)) 
+ {#Bing2}
 
 
 [[!redirects connected space]]
