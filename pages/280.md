@@ -1,3 +1,16 @@
+
+> this entry is about the notion of _action_ in algebra (of one algebraic object on another object). For the notion of _[[action functional]]_ in [[physics]] see there.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Actions
 * table of contents
 {: toc}
