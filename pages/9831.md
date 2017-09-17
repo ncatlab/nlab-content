@@ -1,0 +1,8 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Friedrich_Hirzebruch)
+
+category: people
+
+[[!redirects F. Hirzebruch]]
+[[!redirects Hirzebruch]]
