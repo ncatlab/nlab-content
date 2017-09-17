@@ -16,7 +16,7 @@
 
 * Models for mixed temporal-spatial [[modal logics]];
 
-* [[causal sets]] and discrete models for space time;
+* [[causal sets]], discrete models for space time and [[causal models]] in Computer Science, Physics and Systems Biology;
 
 * models for multi-agent systems, [[multimodal logics]].
 
