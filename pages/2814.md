@@ -10,7 +10,7 @@ Just as a [[functor]] is a [[morphism]] between [[categories]], so a _monoidal f
 
 ## Definition ##
 
-A __monoidal functor__ is a [[functor]] $F : C \to D$ between [[monoidal category|monoidal categories]] $(C,\otimes_C, I_C)$ and $(D,\otimes_D, I_D)$ that respects the [[tensor product]] and the unit up to coherent but not necessarily invertible [[morphism]]s
+A __monoidal functor__ is a [[functor]] $F : C \to D$ between [[monoidal category|monoidal categories]] $(C,\otimes_C, I_C)$ and $(D,\otimes_D, I_D)$ that respects the [[tensor product]] and the unit up to [[coherence law|coherent]] but not necessarily invertible [[morphism]]s
 
 $$
   \epsilon : I_D \stackrel{}{\to} F(I_c)  
