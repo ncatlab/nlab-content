@@ -35,7 +35,7 @@ Three variations are, informally:
 
 * $f\colon A\to B$ is an equivalence if there is the above data, together with a higher homotopy expressing one [[triangle identity]] for $f$ and $g$ (an **adjoint equivalence**).
 
-* $f\colon A\to B$ is an equivalence if there are maps $g,h\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(h(b)) = b)$ (a **homotopy isomorphism**).
+* $f\colon A\to B$ is an equivalence if there are maps $g,h\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(h(b)) = b)$ (sometimes called a **homotopy isomorphism**).
 
 By formalizing these, we obtain types $homotopyEquiv(f)$, $isAdjointEquiv(f)$, and $isHIso(f)$.  All four of these types are co-inhabited: we have a function from any one of them to any of the others.  Moreover, at least if we assume [[function extensionality]], the types $isAdjointEquiv(f)$ and $isHIso(f)$ are themselves *equivalent* to $isEquiv(f)$, and all three are [[h-propositions]].
 
@@ -72,9 +72,19 @@ An introduction to equivalence in homotopy type theory is in
 [[!redirects equivalence in HoTT]]
 [[!redirects equivalences in HoTT]]
 
+[[!redirects adjoint equivalence in homotopy type theory]]
+[[!redirects adjoint equivalences in homotopy type theory]]
+[[!redirects adjoint equivalence in type theory]]
+[[!redirects adjoint equivalences in type theory]]
+[[!redirects adjoint equivalence in HoTT]]
+[[!redirects adjoint equivalences in HoTT]]
+
 [[!redirects weak equivalence in homotopy type theory]]
 [[!redirects weak equivalences in homotopy type theory]]
 [[!redirects weak equivalence in type theory]]
 [[!redirects weak equivalences in type theory]]
 [[!redirects weak equivalence in HoTT]]
 [[!redirects weak equivalences in HoTT]]
+
+[[!redirects homotopy isomorphism]]
+[[!redirects h-isomorphism]]
