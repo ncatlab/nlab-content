@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+A [[manifold]] $X$ of [[dimension]] $n \in \mathbb{N}$ is by definition a [[topological space]] that is locally [[isomorphic]] to a [[Cartesian space]] $\mathbb{R}^n$. A choice of such morphism
+
+$$
+  \phi : \mathbb{R}^n \stackrel{\simeq}{\to} X|_{im(\phi)} \hookrightarrow X
+$$
+
+is a **coordinate system** or **coordinate chart** or just **chart** on the [[image]] of $\phi$.
+
+
+
+[[!redirects coordinate systems]]
+
+[[!redirects chart]]
+[[!redirects coordinate chart]]
+
+[[!redirects charts]]
+[[!redirects coordinate charts]]
+
+[[!redirects coordinate]]
+[[!redirects coordinates]]
