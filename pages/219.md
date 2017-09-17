@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
-
 
 _This is Part I of an exposition by [[Todd Trimble]] on [[ETCS]]_.
 
@@ -20,13 +19,11 @@ See also
 
 ***
 
-#Contents#
+# Contents
 * tic
-{:toc}
+{: toc}
 
-
-
-#ZFC and ETCS: Elementary Theory of the Category of Sets#
+## ZFC and ETCS: Elementary Theory of the Category of Sets
 
 This is a post on "[[foundations]] of mathematics" (eek!). I was motivated to write it while I've been struggling to understand better certain applications of ultrafilters -- namely the theory of *measurable cardinals* -- from a point of view and language that I feel comfortable with. My original intent was to blog about *that*, as a kind of off-shoot of the general discussion of [ultrafilters](http://topologicalmusings.wordpress.com/2008/07/18/ultrafilter-convergence-compactness-and-the-spectrum-of-a-boolean-algebra/) I started in connection with the series on [Stone duality](http://topologicalmusings.wordpress.com/2008/04/02/toward-stone-duality-posets-and-meets/), and because it seems kind of cool. And I will. But this got finished first, and I thought that it would be of interest to some who have been following my [category](http://topologicalmusings.wordpress.com/2008/06/22/basic-category-theory-i/) [theory](http://topologicalmusings.wordpress.com/2008/06/29/basic-category-theory-ii/) [posts](http://topologicalmusings.wordpress.com/2008/07/12/basic-category-theory-iii-representability-adjoints-and-the-yoneda-lemma/).
 
@@ -169,7 +166,7 @@ Before stating the last axiom, we formulate a notion of "surjective" function: $
  
 This completes the list of axioms for [[ETCS]]. I have been at pains to try to describe them in notation which is natural from the standpoint of naive set theory, with the clear implication that any formula of naive set theory is readily translated into the theory [[ETCS]] (provided we pay appropriate attention to our precepts governing membership), and that this theory provides a rigorous foundation for mainstream mathematics.
 
-To make good on this claim, further discussion is called for. First, I have not discussed how classical first-order logic is internalized in this setting (which we would need to do justice to a comprehension or separation scheme), nor have I discussed the existence or construction of colimits. I plan to take this up later, provided I have the energy for it. Again, the plan would be to stick as closely as possible to naive set-theoretic reasoning. (This might actually be useful: the categorical treatments found in many texts tend to be technical, often involving things like monad theory and Beck's theorem, which makes it hard for those not expert in category theory to get into. I want to show this need not be the case.)
+To make good on this claim, further discussion is called for. First, I have not discussed how classical first-order logic is internalized in this setting (which we would need to do justice to a [[axiom of separation|comprehension or separation scheme]]), nor have I discussed the existence or construction of colimits. I plan to take this up later, provided I have the energy for it. Again, the plan would be to stick as closely as possible to naive set-theoretic reasoning. (This might actually be useful: the categorical treatments found in many texts tend to be technical, often involving things like monad theory and Beck's theorem, which makes it hard for those not expert in category theory to get into. I want to show this need not be the case.)
  
 Also, some sort of justification for the claim that [[ETCS]] "founds" mainstream mathematics is called for. Minimally, one should sketch how the reals are constructed, for instance, and one should include enough "definability theory" to make it plausible that almost all constructions in ordinary mathematics find a natural home in ETCS \[which can be a definition of [[ordinary mathematics]] ---ed\]. What is excluded? Mainly certain parts of set theory, and parts of category theory (ha!) which involve certain parts of set theory, but this is handled by strengthening the theory with more axioms; I particularly have in mind a discussion of the replacement axiom, and perhaps large cardinal axioms. More to come!
 
