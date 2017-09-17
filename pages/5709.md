@@ -162,7 +162,7 @@ Notably the theory of [[gravity]] based on the standard [[Einstein-Hilbert actio
 * John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
  {#DonoghueIntroduction}
 
-and in the context of [[perturbative AQFT]]:
+and in the context of [[perturbation theory]] in [[AQFT]]:
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
 
