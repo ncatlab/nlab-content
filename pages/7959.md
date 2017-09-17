@@ -1,24 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### String theory
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -286,5 +283,7 @@ On stringy [[axion]] [[phenomenology]]:
   > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
 
 
+[[!redirects string phenonemology]]
+[[!redirects string phenomenology]]
 [[!redirects intersecting D-brane standard models]]
 [[!redirects heterotic standard models]]
