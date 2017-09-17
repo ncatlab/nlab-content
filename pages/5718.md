@@ -131,6 +131,8 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 ## Related concepts
 
+* [[jet prolongation]]
+
 * [[jet space]]
 
 * [[metric jet]]
