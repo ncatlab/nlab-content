@@ -10,21 +10,53 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+
+A _simplicial enriched category_ is a [[category]] with a [[simplicial set]] of [[morphism]]s between any two objects. 
+
+One may think of the 1-cells in a hom-simplicial set as a [[2-morphism]], the 2-cells as a [[3-morphism]] and generally a $(k-1)$-cell as a [[k-morphism]]. Therefore simplicially enriched categories may serves as models for [[∞-categories]]. Precisely which notion of $\infty$-category depends on which extra [[stuff, structure, property|structure and property]] one imposes.
+
+For instance
+
+* requiring the hom-simplicial sets to be [[Kan complex]]es makes simplicially enriched categories a model for [[(∞,1)-categories]];
+
+* similary, equipping the $sSet$-enriched category with the structure of a $sSet_{Quillen}$-[[enriched model category]] -- a [[simplicial model category]] -- makes it a model for an $(\infty,2)$-category.
+
+  This is discussed in more detail at [[relation between quasi-categories and simplicial categories]].
+
+* on the other hand, eqipping the $sSet$-enriched category with the structure of an $sSet_{Joyal}$-enriched model category over the Joyal-[[model structure for quasi-categories]] makes it a model for an [[(∞,2)-category]].
+ 
 ## Definition ##
+
++-- {: .un_defn}
+###### Definition
 
 A _simplicially enriched category_ is a [[enriched category|category enriched over]] the [[cartesian monoidal category]] [[sSet]] of [[simplicial sets]].
 
-These enriched categories are sometimes, somewhat imprecisely, called just _[[simplicial categories]]_.
+=--
 
++-- {: .un_remark}
+###### Remark
+
+These $sSet$-enriched categories are sometimes, somewhat imprecisely, called just _[[simplicial categories]]_.
+
+=--
 
 There is a related notion of [[simplicial groupoid]] with the added requirement that all arrows in the categories concerned are [[isomorphisms]].
+
 
 ## As models for $(\infty,1)$-categories 
 
@@ -38,6 +70,31 @@ By a web of [[Quillen equivalence]]s this is related to the other incarnations o
 
 * [[relation between quasi-categories and simplicial categories]].
 
+### Properties
+
+#### Homotopy Kan extension
+
+See [[homotopy Kan extension]] for the moment.
+
+#### Model structure
+
+See [[model structure on sSet-categories]] for the moment.
+
+
+## As models for $(\infty,2)$-categories
+
+See [[(∞,2)-category]] for the moment.
+
+
+## References
+
+A discussion of $sSet$-enriched categories as models for [[(∞,1)-categories]] with an emphasis on [[homotopy Kan extension]]s is in
+
+* [[Jean-Marc Cordier]] [[Timothy Porter]], _Homotopy coherent category theory_  ([pdf](http://www.ams.org/journals/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
+
+Also section A.3 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects simplicially enriched categories]]
 [[!redirects sSet-category]]
