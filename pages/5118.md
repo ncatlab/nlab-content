@@ -322,7 +322,7 @@ $$
  \chi_B :  L B \to L^{mon} B
 $$
 
-to the morphism underlying the unit $B \to R L^{mon} B$ is a weak equivalence.
+to the morphism underlying the [[unit of an adjunction|unit]] $B \to R L^{mon} B$ is a weak equivalence.
 
 =--
 
@@ -335,7 +335,7 @@ We first show this for $B = I_D$ the tensor unit in $D$, which in $Mon(D)$ is th
   
 (...) 
 
-that the adjunction unit $I_C \to R L^{mon} I_D \stackrel{\simeq}{\to} R(I_C)$ is the lax monoidal unit. Therefore by the axioms on monoidal Quillen adjunctions its adjunct $\chi_I$ is a weak equivalence.
+that the [[unit of an adjunction|adjunction unit]] $I_C \to R L^{mon} I_D \stackrel{\simeq}{\to} R(I_C)$ is the lax monoidal unit. Therefore by the axioms on monoidal Quillen adjunctions its adjunct $\chi_I$ is a weak equivalence.
 
 Now the strategy is to proceed from here by induction over the cells of the [[cell object]] of which every cofibrant monoid is, by assumption, a retract.
 
