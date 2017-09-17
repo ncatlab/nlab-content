@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Monoidal categories
-+--{: .hide}
++-- {: .hide}
 [[!include monoidal categories - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -19,7 +19,11 @@ Being *dualizable* is often thought of as a [[category theory|category-theoretic
 
 A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the stable homotopy category are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[Sup]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
 
-**Warning:** there are other notions of "dual object", distinct from this one. See for example [[dual object in a closed category]], and also the discussion at [[category with duals]]. 
++-- {: .num_remark}
+###### Warning
+There are other notions of "dual object", distinct from this one. See for example [[dual object in a closed category]], and also the discussion at [[category with duals]].
+=--
+
 
 ## In a monoidal category
 
@@ -109,6 +113,7 @@ The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to sect
 
 [[!redirects dual object]]
 [[!redirects dual objects]]
+
 [[!redirects dualizable object]]
 [[!redirects dualizable objects]]
 [[!redirects dualisable object]]
