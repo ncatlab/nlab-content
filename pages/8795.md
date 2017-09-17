@@ -1,0 +1,16 @@
+author: AnonymousCoward
+company: 
+title: www.mfo.de/document/1145/OWR_2011_52.pdf
+subtitle: 
+slide_theme: default
+slide_footer: 
+slide_subfooter: 
+
+:category: S5-slideshow
+
+www.mfo.de/document/1145/OWR_2011_52.pdf
+==============
+
+My First Slide
+-----------------
+
