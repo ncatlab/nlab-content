@@ -1194,6 +1194,7 @@ which both are differential refinements, def. \ref{DifferentialCoefficients}, of
 
 
 ## References
+ {#References}
 
 The differential cohomology hexagon was maybe first highlighted in the context of [[ordinary differential cohomology]]
 
