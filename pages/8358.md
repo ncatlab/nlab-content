@@ -78,7 +78,7 @@ A [[locally small category]] $\mathcal{E}$ is ([[equivalence of categories|equiv
 
 1. $\mathcal{E}$ has [[enough projectives]] and the [[full subcategory]] $Proj(\mathcal{E}) \hookrightarrow \mathcal{E}$ has all [[finite limits]];
 
-1. the [[global section]] [[geometric morphism]] $\Gamma \colon \mathcal{E}\longrightarrow $ [[Set]] has a [[right adjoint]] $\nabla$ factoring through $Proj(\mathcal{E})$;
+1. the [[global section]] [[functor]] $\Gamma \colon \mathcal{E}\longrightarrow $ [[Set]] has a [[right adjoint]] $\nabla$ factoring through $Proj(\mathcal{E})$;
 
 1. there exists an object $D \in \mathcal{E}$ such that
 
