@@ -20,6 +20,11 @@ This entry provides a hyperlinked index for the textbook
 
 on [[homological algebra]].
 
+See also chapers 8 and 12-18 of 
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -94,69 +99,94 @@ $R$[[Mod]]
 
 ### 1.4 Chain homotopies
 
-* [[chain homotopy]], [[null homotopy]]
+* [[homotopy theory]]
+
+**Definition 1.4.1** [[split exact sequence]]
+
+**Definition 1.4.3** [[null homotopy]]
+
+**Definition 1.4.4** [[chain homotopy]]
 
 ### 1.5 Mapping cones and cyclinders
 
-* [[mapping cone]], [[mapping cylinder]]
+**1.5.1** [[mapping cone]]
+
+**1.5.1** [[mapping cylinder]]
+
+**1.5.8** [[fiber sequence]]
 
 ### 1.6 More on abelian categories
 
-* [[Freyd-Mitchell embedding theorem]]
+**Theorem 1.6.1** [[Freyd-Mitchell embedding theorem]]
 
-* [[presheaf]], [[sheaf]]
+**Functor categories 1.6.4** [[functor category]]
 
-* [[Yoneda embedding]]
+[[presheaf]]
+
+**Definition 1.6.5** [[abelian sheaf]]
+
+**Definition 1.6.6** left/right [[exact functor]]
+
+**Yoneda embedding 1.6.10** [[Yoneda embedding]]
+
+**Yoneda lemma 1.6.11** [[Yoneda lemma]]
 
 
 ## 2 Derived functors
 
 ### 2.1 $\delta$-Functor
 
-* [[delta-functor]]
+**Definition 2.1.1** [[delta-functor]]
 
 ### 2.2 Projective resolutions
 
-* [[projective object]]
+[[projective object]] ([[cofibrant object]])
 
-* [[resolution]]
+**Definition 2.2.4**  [[projective resolution]] ([[cofibrant replacement]])
 
-* [[projective resolution]]
-
-* [[horseshoe lemma]]
+**Horseshoe lemma 2.2.8** [[horseshoe lemma]]
 
 ### 2.3 Injective resolutions
 
-* [[injective object]]
+[[injective object]]
 
-* [[injective resolution]]
+**Baer's criterion 2.3.1** [[Baer's criterion]]
 
-* [[Baer's criterion]]
+**Definition 2.3.5** [[injective resolution]] ([[fibrant replacement]])
 
+**Definition 2.3.9** [[adjoint functor]]
 
 ### 2.4 Left derived functors
 
-* [[left derived functor]]
-
-* [[Tor]]
+[[left derived functor]]
 
 ### 2.5 Right derived functors
 
-* [[right derived functor]]
+[[right derived functor]]
 
 * [[Ext]]
 
+**Application 2.5.4** [[global section functor]], [[abelian sheaf cohomology]]
+
 ### 2.6 Adjoint functors and left/right exactness
 
-* [[adjoint functor]]
+[[adjoint functor]]
 
-* [[limit]], [[colimit]]
+**Definition 2.6.4** [[Tor]]
 
-* [[filtered category]], [[filtered colimit]]
+**Application 2.6.5** [[sheafification]]
+
+**Application 2.6.6** [[direct image]], [[inverse image]]
+
+**Application 2.6.7** [[colimit]]
+
+**Variation 2.6.9** [[limit]]
+
+**Definition 2.6.13** [[filtered category]], [[filtered colimit]]
 
 ### 2.7 Balancing $Tor$ and $Ext$
 
-* [[tensor product of chain complexes]]
+**Tensor product of complexes 2.7.1** [[tensor product of chain complexes]]
 
 ## 3 Tor and Ext
 
@@ -243,6 +273,8 @@ $R$[[Mod]]
 * [[Grothendieck spectral sequence]]
 
 ### 5.9 Exact couples
+
+* [[exact couple]]
 
 * [[Bockstein spectral sequence]]
 
