@@ -12,16 +12,17 @@ One often studies _positive-definite_ inner product spaces; for these, see [[Hil
 
 ## Definitions
 
-Let $V$ be a [[vector space]] over the [[field]] $k$.  Suppose that $k$ is equipped with an [[involution]] $r \mapsto \bar{r}$, called _conjugation_; in many examples, this will simply be the [[identity function]], but not always.  An __inner product__ on $V$ is a function
+Let $V$ be a [[vector space]] over the [[field]] (or more generally a division ring) $k$.  Suppose that $k$ is equipped with an [[involution]] $r \mapsto \bar{r}$, called _conjugation_; in many examples, this will simply be the [[identity function]], but not always.  An __inner product__ on $V$ is a function
 $$ \langle {-},{-} \rangle: V \times V \to k $$
 that is (1--3) _sesquilinear_ (or _bilinear_ when the involution is the identity) and (4) _conjugate-symmetric_ (or _symmetric_ when the involution is the identity).  That is:
 
 1.  $ \langle 0, x \rangle = 0 $ and $ \langle x, 0 \rangle = 0 $;
 1.  $ \langle x + y, z \rangle = \langle x, z \rangle + \langle y, z \rangle $ and $ \langle x, y + z \rangle = \langle x, y \rangle + \langle x, z \rangle $;
-1.  $ \langle c x, y \rangle = \bar{c} \langle x, y \rangle $ and $ \langle x, c y \rangle = c \langle x, y \rangle $;
+1.  $ \langle c x, y \rangle = \bar{c} \langle x, y \rangle $ and 
+$\langle x, c y \rangle = \langle x, y \rangle c$;
 1.  $ \langle x, y \rangle = \overline{\langle y, x \rangle} $.
 
-Here we use the _physicist\'s convention_ that the inner product is conjugate-linear in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s.  Note that we use the same field as values of the inner product as for [[scalars]].
+Here we use the _physicist\'s convention_ that the inner product is antilinear ( = conjugate-linear) in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s and is often used in a generalization for [[Hilbert module]]s.  Note that we use the same (skew)field as values of the inner product as for [[scalars]]. Notice that $\langle x, c y \rangle = \langle x, y \rangle c$ is written with $c$ on the right for the case that we deal with noncommutative division ring.
 
 (The axiom list above is rather redundant.  First of all, (1) follows from (3) by setting $c = 0$; besides that, (1--3) come in pairs, only one of which is needed, since each half follows from the other using (4).  It is even possible to derive (3) from (2) under some circumstances.)
 
