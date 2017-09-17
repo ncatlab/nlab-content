@@ -112,7 +112,7 @@ Due to the third point one may regard $K(n)$ as a [[∞-field]] among the [[A-in
 +-- {: .num_prop}
 ###### Proposition
 
-For each [[prime number]] $p$ and each $n \in \mathbb{N}$, the Morava K-theory [[A-∞ ring]] $K(n)$ is, up to [[equivalence in an (∞,1)-category]], the unique [[A-∞ ring]] which is
+For each [[prime number]] $p$ and each $n \in \mathbb{N}$, the Morava K-theory $K(n)$ is, up to [[equivalence in an (∞,1)-category|equivalence]], the unique [[spectrum]] underlying an [[H-space|homotopy associative]] spectrum which is
 
 1. [[complex oriented cohomology theory|complex oriented]];
 
@@ -130,11 +130,11 @@ For instance ([Lurie, lecture 24, prop. 11](#LurieLecture)).
 ###### Proposition
 
 
-$K(n)$ admits the structure of an [[A-∞ algebra]], in fact of an $MU_{(p)}$-algebra. 
+$K(n)$ admits the structure of an [[A-∞ algebra]], in fact of an $MU_{(p)}$-[[A-∞ algebra]]. 
 
 =--
 
-(e.g. [Lurie 10, lecture 22, lemma 2](#LurieLecture))
+Due to Robinson (and [[Andrew Baker]] at $p = 2$). (See e.g. [Lurie 10, lecture 22, lemma 2](#LurieLecture))
 
 +-- {: .num_remark}
 ###### Remark
