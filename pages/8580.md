@@ -90,6 +90,8 @@ Divided into two parts:
 
 1. [Equations of motion](#EquationsOfMotion)
 
+1. [Classical mechanics via prequantized Lagrangian correspondences](#ClassicalMechanicsByPrequantizedLagrangianCorrespondences)
+
 1. [Local (topological) prequantum field theory](#LocalTopologicalPrequantumFieldTheory)
 
 1. [Prequantum Gauge theory and Gravity](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
@@ -8222,6 +8224,9 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 1. [Equations of motion](#EquationsOfMotion)
 
+1. [Classical mechanics via prequantized Lagrangian correspondences](#ClassicalMechanicsByPrequantizedLagrangianCorrespondences)
+
+
 1. [Local (topological) prequantum field theory](#LocalTopologicalPrequantumFieldTheory)
 
 1. [Prequantum Gauge theory and Gravity](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
@@ -11963,13 +11968,1376 @@ $Sh_{\mathbf{H}}(X)$. This is indeed the standard expression in
 
 "The collection of fields for which the variational derivative equals zero." translates exactly into $\underset{\phi \in [X, \mathbf{Fields}]}{\sum} (S^{-1}\mathbf{d}S \simeq 0)$.
 
+## **Classical mechanics via prequantized Lagrangian correspondences**
+ {#ClassicalMechanicsByPrequantizedLagrangianCorrespondences}
+
+The following is effectively a derivation of, and an introduction to, [[classical mechanics]] by studying [[correspondences]] in what is called (as we will explain) the _[[slice topos]] over the [[moduli stack]] of [[prequantum line bundles]]_. One such correspondence in this slice topos is precisely a _[[prequantized Lagrangian correspondence]]_ and the reader looking for just these should skip ahead to the section _[The classical action functional prequantizes Lagrangian correspondences](#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences)_. But for completeness and to introduce the technology used here, we start with introducing also more basic concepts, such as [[phase space]] etc.
+
+### Phase spaces and symplectic manifolds
+ {#PhaseSpaceAndSymplecticManifolds}
+
+Given a [[physical system]], one says that its _[[phase space]]_ is the
+space of its possible ("classical") histories or _[[trajectories]]_. 
+The first two of [[Newton's laws of motion]] say that [[trajectories]] of [[physical systems]] are (typically) determined by [[differential equations]] of  _second_ order, and therefore these spaces of trajectories are (typically) equivalent to initial value data of 0th and of 1st derivatives. In [[physics]] this data (or rather its linear dual) is referred to as the _[[canonical coordinates]]_ and the _[[canonical momenta]]_, respectively, traditionally denoted by the symbols "$q$" and "$p$". 
+But being [[coordinates]], these are actually far from being canonical in the mathematical sense; all that has invariant meaning is, locally, the surface element $\mathbf{d}p \wedge \mathbf{d}q$ spanned by a change of coordinates and momenta.
+
+So far this says that a physical phase space is mathematically formalized
+by a sufficiently [[smooth manifold]] $X$ which is equipped with a closed
+and non-degenerate [[differential 2-form]] $\omega  \in \Omega^2_{\mathrm{cl}}(X)$, hence by a [[symplectic manifold]] $(X,\omega)$.
+
+But if the [[mechanical system]], and hence the [[differential equations]]
+that describe it, is subject to [[constraints]], then the full [[phase space]] is [[foliation|foliated]] by unconstrained phase spaces in the above sense and so the  above surface element may be any closed 2-form, not necessarily non-degenerate. This is a _[[pre-symplectic manifold]]_ $(X,\omega)$ and this is the generality considered in the following discussion: a _[[phase space]]_ is a _[[pre-symplectic manifold|pre-symplectic]] [[smooth manifold]]_.
+
+
+
++-- {: .num_example #CanonicalR2PhaseSpace}
+###### Example
+
+The [[sigma-model]] describing the propagation of a [[particle]] on the [[real line]] $\mathbb{R}$ has as [[phase space]] the [[plane]] $\mathbb{R}^2 = T^\ast \mathbb{R}$ and as [[symplectic form]] its canonical [[volume form]]. Traditionally the two canonical [[coordinate functions]] on this phase space are denoted $q,p \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}$ (called the "[[canonical coordinate]]" and the "[[canonical momentum]]", respectively), and in terms of these the symplectic form in this example is $\omega = \mathbf{d} q \wedge \mathbf{d} p$.
+
+=--
+
+When dealing with spaces $X$ that are equipped with extra structure, such as  $\omega \in \Omega^2_{\mathrm{cl}}(X)$, then it is useful to have 
+a _universal [[moduli space]]_ for these structures, and this will be central for our developments here. 
+So we need a "[[smooth space]]" $\mathbf{\Omega}^2_{\mathrm{cl}}$ of sorts, characterized by the property that  there is a [[natural bijection]] between smooth closed differential  2-forms $\omega \in \Omega^2_{\mathrm{cl}}(X)$ and [[smooth maps]]
+$
+    X \longrightarrow \mathbf{\Omega}^2_{\mathrm{cl}}
+$.
+Of course such a universal moduli spaces of closed 2-forms does not exist in the  [[category]] of [[smooth manifolds]]. But it does exist canonically if we  slightly generalize the notion of "smooth space" suitably. 
+
++-- {: .num_defn}
+###### Definition
+
+A _[[smooth space]]_ or _smooth 0-type_ $X$ is 
+
+1. an assignment to each $n \in \mathbb{N}$ of a  set, to be written $X(\mathbb{R}^n)$ and to be called the  _set of smooth maps from $\mathbb{R}^n$ into $X$_,
+
+1. an assignment to each ordinary smooth function $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between Cartesian spaces of  a function of sets $X(f) : X(\mathbb{R}^{n_2}) \to X(\mathbb{R}^{n_1})$, to be called the _pullback of smooth functions into $X$ along $f$_;
+
+such that
+
+1. this assignment respects composition of smooth functions;
+
+1. this assignment respects the [[covering]] of [[Cartesian spaces]] by [[open disks]]: for every [[good open cover]] $\{\mathbb{R}^n \simeq U_i \hookrightarrow \mathbb{R}^n\}_i$, the set $X(\mathbb{R}^n)$ of smooth functions out of $\mathbb{R}^n$ into $X$ is in natural bijection with the set $\left\{ (\phi_i)_i \in \prod_i X(U_i) \;|\;  \forall_{i,j}\; \phi_i|_{U_{i} \cap U_j}   = \phi_j|_{U_{i} \cap U_j} \right\}$ of tuples of smooth functions out of the patches of the cover which agree on all intersections of two patches.
+
+=--
+
+For more on this see at _[[geometry of physics]]_ in the section _[Smooth spaces](geometry%20of%20physics#SmoothSpaces)_.
+
+While the formulation of this definition is designed to make transparent its geometric meaning, of course equivalently but more abstractly this says the following:
+
++-- {: .num_defn}
+###### Definition
+
+ Write [[CartSp]] for the [[category]] of [[Cartesian spaces]] with 
+[[smooth functions]] between them, and consider it as a [[site]] by equipping it with the [[coverage]] of [[good open covers]]. 
+A _[[smooth space]]_ or _smooth 0-type_ is a [[sheaf]] on this site. 
+The _[[topos]] of smooth 0-types_ is the [[category of sheaves]]
+  $$
+    \mathrm{Smooth}0\mathrm{Type} \coloneqq \mathrm{Sh}(\mathrm{CartSp})
+	\,.
+  $$
+
+=--
+
+In the following we will abbreviate the notation to
+$$
+  \mathbf{H} \coloneqq \mathrm{Smooth}0\mathrm{Type}
+  \,.
+$$
+
+For the discussion of presymplectic manifolds, we need the following two 
+examples.
+
++-- {: .num_example}
+###### Example
+
+  Every smooth manifold $X \in \mathrm{SmoothManifold}$ becomes
+  a smooth 0-type by the assignment 
+  $$
+    X : n \mapsto C^\infty(\mathbb{R}^n, X)
+	\,.
+  $$
+  This construction extends to a [[full subcategory|full embedding]]
+  of [[smooth manifolds]] into [[smooth spaces]]
+  $$
+    SmoothManifold
+    \hookrightarrow
+    \mathbf{H}
+  $$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+  For $p \in \mathbb{N}$, write $\mathbf{\Omega}^p_{\mathrm{cl}}$
+  for the smooth space given by the assignment
+  $$
+    \mathbf{\Omega}^p_{\mathrm{cl}} : n \mapsto \Omega^p_{\mathrm{cl}}(\mathbb{R}^n)
+  $$
+  and by the evident pullback maps of differential forms.
+
+=--
+
+For more see at _[[geometry of physics]]_ in the section _[Differential forms](geometry%20of%20physics#DifferentialForms)_.
+
+
+This solves the [[moduli problem]] for closed smooth differential forms:
+
+
++-- {: .num_prop #PresymplecticFormsAsMapsIntoASmoothSpace}
+###### Proposition
+
+  For $p \in \mathbb{N}$
+  and $X \in SmoothManifold \hookrightarrow Smooth0Type$, 
+  there is a [[natural bijection]]
+  $$
+    \mathbf{H}(X,\mathbf{\Omega}^p_{\mathrm{cl}})
+	\simeq
+	\Omega^p_{\mathrm{cl}}(X)
+	\,.
+  $$
+
+=--
+
+So a presymplectic manifold $(X,\omega)$ is equivalently a map of smooth spaces of the form
+$$
+  \omega \;\colon\;
+    X \longrightarrow \mathbf{\Omega}^2_{\mathrm{cl}}
+  \,.
+$$
+
+### Canonical transformations and symplectomorphisms
+
+An [[equivalence]] between two [[phase spaces]], hence a re-expression
+of the "canonical" coordinates and momenta, is called a 
+_[[canonical transformation]]_ in [[physics]]. Mathematically this is
+a _[[symplectomorphism]]_.
+
++-- {: .num_defn}
+###### Definition
+
+Given two [[symplectic manifolds]] $(X_1, \omega_1)$ and $(X_2, \omega_2)$ (which might well be two copies of one single symplectic manifold), a _[[symplectomorphism]]_ between them
+
+$$
+  f \;\colon\; (X_1, \omega_1) \longrightarrow (X_2, \omega_2)
+$$
+
+is a [[diffeomorphism]]
+
+$$
+  f \;\colon\; X_1 \longrightarrow X_2
+$$
+
+of the underlying [[smooth manifolds]], such that the [[pullback of differential forms|pullback]] of the second [[symplectic form]] along $f$ equals the first, 
+
+$$
+  f^\ast \omega_2 = \omega_1
+  \,.
+$$
+
+=--
+
+
+The above formulation of pre-symplectic manifolds as maps into a [[moduli space]] of closed [[differential 2-forms]] yields the following formulation of symplectomorphisms,  which is very simple in itself, 
+but contains in it the seed of an important phenomenon:
+
+
++-- {: .num_prop}
+###### Proposition
+
+A [[symplectomorphism]] $f \colon (X_1, \omega_2) \longrightarrow (X_2, \omega_2)$ as above is, under the identification of prop. \ref{PresymplecticFormsAsMapsIntoASmoothSpace}, equivalently a [[commuting diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    X_1 && \stackrel{f}{\longrightarrow}&& X_2
+    \\
+    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
+    \\
+    && \Omega^2_{cl}
+  }
+  \,.
+$$
+
+=--
+
+Situations like this are naturally interpreted in a _[[slice topos]]_:
+
++-- {: .num_defn #TheSliceTopos}
+###### Definition
+
+For $A \in \mathbf{H}$ any [[smooth space]],
+  the _[[slice topos]]_  $\mathbf{H}_{/A}$ is the [[category]] whose
+  [[objects]] are objects $X \in \mathbf{H}$ equipped with [[maps]]
+  $X \to A$, and whose [[morphisms]] are [[commuting diagrams]] in $\mathbf{H}$
+  of the form
+  $$
+    \array{
+      X &&\longrightarrow&& Y
+      \\
+      & \searrow && \swarrow
+      \\
+      && A
+    }
+  $$
+
+=--
+
+Hence if we write $\mathrm{SymplManifold}$ for the category of smooth pre-symplectic manifolds and symplectomorphisms betwen them, then we have the following.
+
+
++-- {: .num_prop #SymplecticManifoldsAsObjectsInSliceOverModuliOf2Forms}
+###### Proposition
+
+
+   The construction of
+  prop. \ref{PresymplecticFormsAsMapsIntoASmoothSpace} constitutes a
+  full embedding
+  $$
+     SymplManifold 
+     \hookrightarrow 
+     \mathbf{H}_{/\mathbf{\Omega}^2_{\mathrm{cl}}}
+  $$
+  of pre-symplectic manifolds with symplectomorphisms between them into 
+  the slice topos of smooth spaces over the smooth moduli space of
+  closed differential 2-forms.
+
+=--
+
+### Trajectories and Lagrangian correspondences
+ {#TrajectoriesAndLagrangianCorrespondences}
+
+A [[symplectomorphism]] clearly puts two [[symplectic manifolds]] "in _[[relation]]_" to each other. But it does so also in the formal sense of [[relations]] in mathematics. Recall:
+
++-- {: .num_defn}
+###### Definition
+
+For $X,Y \in $ [[Set]] two [[sets]], a [[relation]] $R$ between [[elements]] of $X$ and [[elements]] of $Y$ is a [[subset]] of the [[Cartesian product]] set 
+
+$$
+  R \hookrightarrow X \times Y
+  \,.
+$$
+
+More generally, for $X, Y \in \mathbf{H}$ two [[objects]] of a [[topos]] (such as the topos of [[smooth spaces]]), then a [[relation]] $R$ between them is a [[subobject]] of their [[Cartesian product]]
+
+$$
+  R \hookrightarrow X \times Y
+  \,.
+$$
+
+=--
+
+In particular any [[function]] induces the [[relation]] "$y$ is the image of $x$":
+
++-- {: .num_example}
+###### Example
+
+For $f \;\colon\; X \longrightarrow Y$ a [[function]], its _induced relation_ is the [[relation]] which is exhibited by the [[graph of a function|graph]] of $f$
+
+$$
+  graph(f) 
+    \coloneqq 
+  \left\{
+    (x,y) \in X \times Y \;|\; f(x) = y
+  \right\}
+$$
+
+canonically regarded as a subobject 
+
+$$
+  graph(f) \hookrightarrow X \times Y
+  \,.
+$$
+
+=--
+
+Hence in the context of classical mechanics, in particular any [[symplectomorphism]] $f \;\colon\; (X_1, \omega_1) \longrightarrow (X_2, \omega_2)$ induces the relation 
+
+$$
+  graph(f) \hookrightarrow X_1 \times X_2
+  \,.
+$$
+
+Since we are going to think of $f$ as a kind of "physical process", it is useful to think of the [[smooth space]] $graph(f)$ here as the _space of [[trajectories]]_ of that process. To make this clearer, notice that we may equivalently rewrite every [[relation]] $R \hookrightarrow X \times Y$ as a [[diagram]] of the following form:
+
+$$
+  \array{
+     && R
+      \\
+     & {}^{\mathllap{i_X}}\swarrow && \searrow^{\mathrlap{i_Y}}
+    \\
+    X && && Y
+  }
+  \;\;
+  = 
+  \;\;
+  \array{
+     && R
+     \\
+     && \downarrow
+     \\
+     && X \times Y
+      \\
+     & {}^{\mathllap{p_X}}\swarrow && \searrow^{\mathrlap{p_Y}}
+    \\
+    X && && Y
+  }
+$$
+
+reflecting the fact that every [[element]] $(x \sim y) \in R$ defines an element $x = i_X(x \sim y) \in X$ and an element $y = i_Y(x \sim y) \in Y$. 
+
+Then if we think of $R = graph(f)$ we may read the relation as "there is a trajectory from an incoming configuration $x_1$ to an outgoing configuration $x_2$"
+
+$$
+  \array{
+    && graph(f)
+    \\
+    & {}^{\mathllap{incoming}}\swarrow && \searrow^{\mathrlap{outgoing}}
+    \\
+    X_1 && && X_2
+  }
+  \,.
+$$
+
+Notice here that the defining property of a relation as a [[subset]]/[[subobject]] translates into the property of [[classical physics]] that there is _at most one trajectory_ from some incoming configuration $x_1$ to some outgoing trajectory $x_2$ (for a fixed parameter time interval at least, we will formulate this precisely in the next section when we genuinely consider Hamiltonian correspondences).
+
+In a more general context one could consider there to be several such trajectories, and even a whole smooth space of such trajectories between given incoming and outgoing configurations. Each such trajectory would "relate" $x_1$ to $x_2$, but each in a possible different way. We can also say that each trajectory makes $x_1$ _correspond_ to $x_2$ in a different way, and that is the mathematical term usually used:
+
++-- {: .num_defn}
+###### Defininition
+
+For $X, Y \in \mathbf{H}$ two spaces, a [[correspondence]] between them is a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+     && Z
+     \\
+     & \swarrow && \searrow
+    \\
+    X && && Y
+  }
+$$
+
+with no further restrictions. 
+
+=--
+
+Here $Z$ is also called the _[[correspondence space]]_. 
+
+Observe that the [[graph of a function]]  $f \colon X \to Y$ is, while defined differently, in fact [[equivalent]] to just the space $X$, the equivalence being induced by the map $x \mapsto (x,f(x))$
+
+$$
+  X \stackrel{\simeq}{\longrightarrow} graph(f)
+  \,.
+$$
+
+In fact the [[relation]]/[[correspondence]] which expresses "$y$ is the image of $f$ under $x$" may just as well be exhibited by the diagram
+
+$$
+  \array{
+    && X
+    \\
+    & {}^{\mathllap{id}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    X && && Y
+  }
+  \,.
+$$
+
+It is clear that this correspondence with correspondence space $X$ should be regarded as being equivalent to the one with correspondence space $graph(f)$. We may formalize this equivalence by noting 
+
++-- {: .num_remark #EquivalenceOfCorrespndencesInducedByFunction}
+###### Remark
+
+Given an [[function]] $f \colon X \longrightarrow Y$
+we have the [[commuting diagram]]
+
+$$
+  \array{
+     && X
+     \\
+    & {}^{\mathllap{id}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    X &&\downarrow^{\mathrlap{\simeq}} && Y
+    \\
+    & {}_{\mathllap{i_X}}\nwarrow && \nearrow_{\mathrlap{i_Y}}
+    \\
+    && graph(f)
+  }
+$$
+
+exhibiting an [[equivalence]] of the [[correspondence]] at
+the top with that at the bottom.
+
+=--
+
+A diagram like this we call an _[[equivalence]] or [[correspondences]]_. Correspondences between $X$ any $Y$ with such equivalences between them form a _[[groupoid]]_. (See at _[[geometry of physics]]_ the section _[Essence of gauge theory: Groupoids and basic homotopy 1-type theory](geometry%20of%20physics#GroupoidsAndBasicHomotopy1TypeTheory)_ for more on this.) Hence we write
+
+$$
+  Corr\left(\mathbf{H}\right)(X,Y) \in Grpd
+  \,.
+$$
+
+Moreover, if we think of correspondences as modelling spaces of [[trajectories]], then it is clear that their should be a notion of [[composition]]:
+
+$$
+  \left(
+  \array{    
+    && Y_1 &&&& Y_2
+    \\
+    & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    X_1 && && X_2 && && X_3 
+  }
+  \right)
+  \;\;\;\;
+  \mapsto 
+  \;\;\;\;
+  \left(
+  \array{    
+    && Y_1 \circ_{X_2} Y_2 
+    \\
+    & \swarrow && \searrow 
+    \\
+    X_1 && && X_3 
+  }
+  \right)
+  \,.
+$$
+
+Heuristically, the composite space of trajectories $Y_1 \circ_{X_2} Y_2$ should consist precisely of those pairs of trajectories $( f, g ) \in Y_1  \times Y_2$ such that the endpoint of $f$ is the starting point of $g$. The space with this property is precisely the _[[fiber product]]_ of $Y_1$ with $Y_2$ over $X_2$, denoted $Y_1 \underset{X_2}{\times} Y_2$ (also called the [[pullback]] of $Y_2 \longrightarrow X_2$ along $Y_1 \longrightarrow X_2$ and then abbreviated $(pb)$):
+
+
+$$
+  \left(
+  \array{    
+    && Y_1 \circ_{X_2} Y_2 
+    \\
+    & \swarrow && \searrow 
+    \\
+    X_1 && && X_3 
+  }
+  \right)
+  \;\;\;
+  =
+  \;\;\;
+  \left(
+  \array{  
+     && && Z_1 \underset{Y}{\times} Z_2
+     \\
+      && & \swarrow && \searrow
+      \\
+      && Z_1 && (pb) && Z_2
+      \\
+     & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    X && && Y && && Z
+  }
+  \right)
+  \,.
+$$ 
+
+Hence given a [[topos]] $\mathbf{H}$, [[correspondences]] between its objects form a [[category]] which [[composition]] the [[fiber product]] operation, where however the collection of [[morphisms]] between any two objects is not just a [[set]], but is a [[groupoid]] (the groupoid of correspondences between two given objects and [[equivalences]] between them).
+
+One says that correspondences form a _[[(2,1)-category]]_ 
+
+$$
+  Corr(\mathbf{H}) \in (2,1)Cat
+  \,.
+$$
+
+But for most purposes here, the reader unwilling to enter [[higher category theory]] can, to good approximation, pretend that correspondences form an ordinary [[category]].
+
+One reason for formalizing this notion of correspondences so much in the present context that it is useful now to apply it not just to the ambient [[topos]] $\mathbf{H}$ of [[smooth spaces]], but also to its [[slice topos]] $\mathbf{H}_{/\mathbf{\Omega}_{cl}^2}$ over the universal [[moduli space]] of closed [[differential 2-forms]].
+
+To see how this is useful in the present context, notice the following basic observation:
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[symplectic manifold]] $(X,\omgea)$, a [[submanifold]] $L \hookrightarrow$ is called a _[[Lagrangian submanifold]]_ of $\omega|_{L} = 0$ and if $L$ has [[dimension]] $dim(L) = dim(X)/2$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f \colon X_1 \to X_2$ be a [[smooth function]] between [[smooth manifolds]] and let
+
+$$
+  \array{
+     && graph(f)
+     \\
+     && \downarrow
+     \\
+     && X_1 \times X_2
+     \\
+     & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
+     \\
+    X_1 && && X_2
+  }
+$$
+
+be the induced [[correspondence]]. If $\omega_1$ and $\omega_2$ are [[symplectic forms]] on $X_1$ and $X_2$, respectively, then $p_1^\ast \omega_1 - p_2^\ast \omega_2$ is a pre-symplectic form on $X_1 \times X_2$, and $f$ is a [[symplectomorphism]] precisely if $graph(f) \hookrightarrow X_1 \times X_2$ is a [[Lagrangian submanifold]].
+
+=--
+
+To capture this phenomenon, one traditionally sets:
+
++-- {: .num_defn}
+###### Definition
+
+For $(X_1,\omega_1)$ and $(X_2,\omega_2)$ two [[symplectic manifolds]] (not necessarily of the same [[dimension]]), a [[Lagrangian correspondence]] between them is a [[correspondence]] of the underlying [[manifolds]]
+
+$$
+  \array{
+     && R
+     \\
+     && \downarrow
+     \\
+     & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
+     \\
+    X_1 && && X_2
+  }
+$$
+
+such that the [[correspondence space]] $R \hookrightarrow X_1 \times X_2$ is a [[Lagrangian submanifold]] of $(X_1 \times X_2 , p_1^\ast \omega_1 - p_2^\ast \omega_2)$.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+In the language of the [[topos]] $\mathbf{H}$ of [[smooth spaces]], this has a more evident formulation: that $graph(f)$ is an [[isotropic subspace]] equivalently means that there is a [[commuting diagram]] of [[smooth spaces]] of the following form
+
+$$
+  \array{
+    && graph(f)
+    \\
+    & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
+    \\
+    X_1 && \swArrow_= && X_2
+    \\
+    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
+    \\
+   && \Omega^2_{cl}
+  }
+  \,.
+$$
+
+Because the commutativity of this diagram says precisely that on $graph(f)$ we have
+
+$$
+  p_1^\ast \omega_1 = p_2^\ast \omega_2
+$$
+
+hence 
+
+$$
+  p_1^\ast \omega_1 - p_2^\ast \omega_2 = 0
+  \,.
+$$
+
+This in turn is equivalent to being a [[correspondence]] in the [[slice topos]] $\mathbf{H}_{/\Omega^2_{cl}}$, def. \ref{TheSliceTopos}, under the identification of prop. \ref{SymplecticManifoldsAsObjectsInSliceOverModuliOf2Forms}.
+
+=--
+
+Therefore we have:
+
++-- {: .num_prop}
+###### Proposition
+
+For $(X_1, \omega_2)$ and $(X_2, \omega_2)$ two [[symplectic manifolds]], there is a [[full subcategory|full embedding]]
+
+$$
+  LagrangianCorrespondences\left(\left(X_1,\omega_1\right), \left(X_2, \omega_2\right)\right)
+  \hookrightarrow
+  Corr\left(\mathbf{H}_{/\mathbf{\Omega}^2_{cl}}\right)\left(\left(X_1,\omega_1\right), \left(X_2, \omega_2\right)\right)
+$$
+
+of the Lagrangian correspondences into the space of correspondences between the two manifolds as objects in the [[slice topos]] over the universal moduli space of closed differential 2-forms.
+
+=--
+
+(The co-image of this inclusion are those correspondences which are "isotropic" and not-necessarily even subspaces.)
+
+### Hamiltonian (time evolution) trajectories and Hamiltonian correspondences
+
+An important class of [[symplectomorphisms]] are the [[Hamiltonian symplectomorphisms]] from a [[symplectic manifold]] to itself, those which are the [[flow]] of a [[Hamiltonian vector field]] on $(X,\omega)$ induced by a [[Hamiltonian function]] 
+
+$$
+  H \;\colon\; X \longrightarrow \mathbb{R}
+  \,.
+$$
+
+Using the [[Poisson bracket]] $\{-,-\}$ induced by the [[symplectic form]] $\omega$ and identifying the [[derivation]] $\{H,-\}$ with the corresponding [[Hamiltonian vector field]] and the exponent notation $\exp(t \{H,-\})$ with the corresponding [[flow]] for parameter "time" $t \in \mathbb{R}$, we may write these as 
+
+$$
+  \exp( t \{H,-\}) \;\colon\; (X,\omega) \longrightarrow (X,\omega)
+  \,.
+$$ 
+
+Here we refer to [[Lagrangian correspondences]] induced from [[Hamiltonian symplectomorphisms]] as _Hamiltonian correspondences_.
+
++-- {: .num_remark #HamiltonianCorrespondencesAreSpacesOfTrajectories}
+###### Remark
+
+The [[smooth space|smooth]] [[correspondence space]] of a
+Hamiltonian correspondence is naturally identified with the space of
+_classical [[trajectories]]_ 
+
+$$
+  Fields_{traj}^{class}(t) = graph\left( \exp(t) \{H,-\}\right)
+$$
+
+in that 
+
+1. every point in the space corresponds uniquely to a [[trajectory]] of parameter time length $t$ characterized as satisfying the [[equations of motion]] as given by [[Hamilton's equations]] for $H$;
+
+1. the two projection maps to $X$ send a trajectory to its initial and to its final configuration, respectively.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Forming Hamiltonian correspondences consitutes a [[functor]] from 1-dimensional [[cobordisms]] with [[Riemannian structure]] to the [[category of correspondences]] in the [[slice topos]]:
+
+$$
+  \exp((-)\{H,-\}) \;\colon\; Bord^{Riem}_1 \longrightarrow Corr_1(\mathbf{H}_{/\Omega^2})
+$$
+
+since for all ("time") parameter valued $t_1, t_2 \in \mathbb{R}$ 
+we have a [[composition]] (by [[fiber product]]) of [[correspondences]] exhibited
+by the following [[pasting diagram]]:
+
+$$
+  \array{
+    &&&& graph\left(\exp\left(\left(t_1+t_2\right)\right) \left\{H,-\right\} \right)
+    \\
+    && & \swarrow && \searrow
+    \\
+    && graph\left(\exp\left(t_1\right)\left\{H,-\right\}\right) 
+    && (pb) && graph\left(\exp\left(t_2 \left\{H,-\right\}\right)\right)
+    \\
+    & \swarrow && \searrow & & \swarrow && \searrow
+    \\
+    X && && X && && X
+    \\
+    & \searrow &&& \downarrow &&& \swarrow
+    \\
+    &&&& \Omega^2_{cl}
+  }
+  \,.
+$$
+
+=--
+
+### The kinetic action, pre-quantization and differential cohomology
+
+To naturally see why there would be any [[Hamiltonian]]
+associated to a (to some) [[symplectomorphism]] in the first place, 
+we step back and consider _local trivializations_ or _local potentials_
+for [[symplectic forms]]. Doing so turns out to give rise to what
+in physics is called the [[kinetic action]], what in 
+the context of [[geometric quantization]] is called [[prequantization]]
+and what in [[mathematics]] is called lifting to _[[differential cohomology]]_. All these concepts arise directly from the following simple consideration.
+
+Given a [[pre-symplectic form]] $\omega \in \Omega^2_{\mathrm{cl}}(X) $, 
+by the [[Poincaré lemma]] there is a [[good open cover]] $\{U_i \hookrightarrow X\}_i$
+such that one can find smooth [[differential 1-forms]] $\theta_i \in \Omega^1(U_i)$ such that these are local trivializations/potentials
+for the [[symplectic form]] on each patch $U_i$ of the cover:
+
+$$
+  \mathbf{d}\theta_i = \omega_{|U_i}
+  \,.
+$$
+
+Physically such a 1-form is (up to a factor of 2) a choice 
+of _[[kinetic energy]] [[density]]_ called a _[[kinetic Lagrangian]]_ 
+$L_{\mathrm{kin}}$ (below in example \ref{StandardPrequantizationOfStandardR2PhaseSpace} we connect this statement to a maybe more familiar formla): 
+
+$$
+  \theta_i = 2 L_{\mathrm{kin}, i}
+  \,.
+$$
+
++-- {: .num_example #StandardPrequantizationOfStandardR2PhaseSpace}
+###### Example
+
+Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ 
+of example \ref{CanonicalR2PhaseSpace}. Since $\mathbb{R}^2$ is a [[contractible topological space]] we consider the trivial [[covering]] ($\mathbb{R}^2$ covering itself) since this is already a [[good covering]] in this case. Then all the $\{g_{i j}\}$ are trivial and the data of a [[prequantization]] consists simply of a choise of 1-form $\theta \in \Omega^1(\mathbb{R}^2)$ such that 
+
+$$
+  \mathbf{d}\theta = \mathbf{d}q \wedge \mathbf{d}p
+  \,.
+$$
+
+A standard such choice is 
+
+$$
+  \theta = - p \wedge \mathbf{d}q
+  \,.
+$$
+
+Then given a [[trajectory]] $\gamma \colon [0,1] \longrightarrow X$ which satisfies [[Hamilton's equation]] for a standard [[kinetic energy]] term, then $p (\mathbf{d})q(\dot\gamma)$ is this [[kinetic energy]] of the [[particle]] which traces out this [[trajectory]].
+
+=--
+
+Given a path $\gamma : [0,1] \to X$ in phase space, its 
+_[[kinetic action]]_ $S_{\mathrm{kin}}$ 
+is supposed to be the integral of $L_{\mathrm{kin}}$
+along this trajectory. In order to make sense of this in the generality where there is no globally defined $\theta$,
+there need to be functions $g_{i j} \in C^\infty(U_i \cap U_j, \mathbb{R})$ for each double intersection of patches of the cover,
+such that these the local $\theta$'s differ on these double
+intersection only by the total [[derivative]] 
+([[de Rham cohomology|de Rham]] [[differential]] $\mathbf{d}$ ) of these functions:
+
+$$
+  \theta_j|_{U_j} - \theta_i|_{U_i} = \mathbf{d}g_{i j}
+  \,.
+$$
+
+One then finds (from the theory of [[Cech cohomology]]) that if on triple intersections these functions satisfy
+
+$$
+  g_{ij} + g_{j k} = g_{i k}
+$$
+
+then there is a well defined action functional
+
+$$
+  S_{\mathrm{kin}}(\gamma) \in \mathbb{R}
+$$
+
+obtained by dividing $\gamma$ into small pieces that each map to a single
+patch $U_i$, integrating $\theta_i$ along this piece, and adding the 
+contribution of $g_{i j}$ at the point where one switches from using
+$\theta_i$ to using $\theta_j$. Technically this is called the [[holonomy]] or [[parallel transport]] of the $(\mathbb{R},+)$-[[principal connection]] which is defined by the data $(\{\theta_i\}, \{g_{i j}\} )$.
+
+However, requiring this condition on triple overlaps as an equation between $\mathbb{R}$-valued functions makes the local patch structure trivial: if this is possible then one can in fact already find a single $\theta \in \Omega^1(X)$ and functions $h_i \in C^\infty(U_i, \mathbb{R})$ such that  $\theta_i = \theta|_{U_i} + \mathbf{d}h_i$. This has the superficially pleasant effect that the the action is 
+simply the integral against this globally defined 1-form, 
+$S_{\mathrm{kin}} = \int_{[0,1]} \gamma^\ast L_{\mathrm{kin}}$, but it also means that the pre-symplectic form $\omega$ is exact, which is 
+not the case in many important examples.
+(In more abstract terms what this is saying is that every 
+$(\mathbb{R},+)$-[[principal bundle]] over a manifolds is trivializable.)
+
+On the other hand, what really matters in [[prequantum field theory|prequantum]] [[physics]] is not the [[action functional]]
+$S_{\mathrm{kin}} \in \mathbb{R}$ itself, 
+but the _exponentiated_ action 
+
+$$
+  \exp\left( \tfrac{i}{\hbar} S \right) \in \mathbb{R}/(2\pi \hbar)\cdot\mathbb{Z}
+  \,,
+$$
+
+which takes values in the [[quotient]] of the additive group of [[real numbers]] by [[integer|integral]] multiples of [[Planck's constant]] $2\pi \hbar$.
+
+
+For this to be well defined, one only needs that the equation
+$g_{i j} + g_{j k} = g_{i k}$ on triple intersection holds modulo addition of an integral multiple of [[Planck's constant]] $h = 2\pi \hbar$. 
+
+If this is the case, then one says that the data 
+$(\{\theta_i\}, \{g_{i j}\})$ defines 
+equivalently
+
+* a $U(1)$-principal connection;
+
+* a degree-2 cocycle in ordinary differential cohomology 
+
+on $X$, with _[[curvature]]_ the given symplectic 2-form $\omega$.
+
+Such data is called a _[[pre-quantization]]_ of the symplectic manifold 
+$(X,\omega)$. Since it is the exponentiated action functional
+$\exp(\frac{i}{\hbar} S)$ that enters the quantization of the 
+given mechanical system (for instance as the integrand of a 
+[[path integral]]),
+the [[prequantization]] of a symplectic manifold is indeed precisely
+the data necessary before quantization.
+
+
+
+Therefore, in the spirit of the above discussion of pre-symplectic structures,
+we would like to refine the smooth moduli space of closed 
+differential 2-forms to a moduli space of prequantized differential 
+2-forms. 
+
+Again this does naturally exist if only we allow for a good notion of
+"space". An additional phenomenon to be taken care of now is that
+while pre-symplectic forms are either equal or not, their
+pre-quantizations can be different and yet be _[[equivalence|equivalent]]_:
+
+because there is still a remaining freedom to change this data without
+changing the exponentiated action along a _closed_ path:
+we say that a choice of functions 
+$h_i \in C^\infty(U_i, \mathbb{R}/(2\pi\hbar)\mathbb{Z})$
+defines an equivalence between 
+$(\{\theta_i\}, \{g_{i j}\})$ and $(\{\tilde \theta_i\}, \{\tilde g_{i j}\})$
+if $\tilde \theta_i - \theta_i = \mathbf{d}h_i$
+and $\tilde g_{i j} - g_{i j} = h_j - h_i$.
+
+This means that the space of prequantizations of $(X,\omega)$
+is similar to an _[[orbifold]]_: it has points which are connected by 
+gauge equivalences: there is a _[[groupoid]]_ of pre-quantum structures
+on a manifold $X$. 
+
+In just the same way then that above we found a [[smooth space|smooth]] [[moduli space]] $\mathbf{\Omega}^2_{cl}$ of closed differential 2-forms, one can find a [[smooth groupoid]] (for more on this see at _[[geometry of physics]]_ the section _[Smooth homotopy types](geometry%20of%20physics#SmoothnGroupoids)_ ), which we denote 
+
+$$
+  \mathbf{B}U(1)_{\mathrm{conn}}
+  \in 
+  \mathbf{H}
+$$
+
+and which is _characterized_ as follows, and this is all that we here need to know about this object:
+
+1. For $X$ a [[smooth manifold]], maps $X \longrightarrow \mathbf{B}U(1)_{conn}$ are equivalent to the above prequantum data $(\{\theta_i\}, \{g_{i j}\})$ on $X$;
+
+1. for $\nabla_1, \nabla_2 \colon X \longrightarrow \mathbf{B}U(1)_{conn}$ two such maps, [[homotopies]] 
+
+   $$
+     \array{
+       & \nearrow \searrow
+       \\
+       X & \Downarrow & \mathbf{B}U(1)_{conn}
+       \\
+       & \searrow \nearrow
+     }
+   $$
+
+   between these are equivalent to the above [[gauge transformations]] $(\{h_i\})$ between this data.
+
+
+The only other fact we need is that there is a universal [[curvature]] map
+
+$$
+  F
+  \;\colon\;
+   \mathbf{B}U(1)_{\mathrm{conn}}
+     \longrightarrow
+   \mathbf{\Omega}^2_{\mathrm{cl}}
+$$
+
+which is such that for $\nabla \colon X \longrightarrow \mathbf{B}U(1)_{conn}$ a $U(1)$-[[principal connection]], the composite
+
+$$
+  F_\nabla \;\colon\;
+  X 
+    \stackrel{\nabla}{\longrightarrow}
+  \mathbf{B}U(1)_{conn}
+    \stackrel{F_{(-)}}{\longrightarrow}
+  \mathbf{\Omega}^2_{cl}
+$$
+
+is its [[curvature]] 2-form. Hence this is the map that sends $(\{\theta_i\}, \{g_{i j}\})$ to $\omega$ with $\omega|_{U_i} = \mathbf{d}\theta_i$.
+
+Therefore:
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[presymplectic manifold]] $(X,\omega)$, regarded equivalently as an object $(X \stackrel{\omega}{\longrightarrow} \mathbf{\Omega}^2_{cl}) \in \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}$ by prop. \ref{SymplecticManifoldsAsObjectsInSliceOverModuliOf2Forms}, then a
+**[[prequantization]]** of $(X,\omega)$ is a choice of lift $\nabla$ in
+
+$$
+  \array{
+    X &\stackrel{\nabla}{\longrightarrow}& \mathbf{B}U(1)_{conn}
+    \\
+    & {}_{\mathllap{\omega}}\searrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    && \mathbf{\Omega}^2_{cl}
+  }
+$$
+
+hence a lift through the [[functor]] ([[base change]]/[[dependent sum]] along the universal [[curvature]] map)
+
+$$
+  \underset{F_{(-)}}{\sum}
+   \;\colon\;
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
+   \longrightarrow
+  \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}
+  \,.
+$$
+
+=--
+
+
+
+
+### The classical action, the Legendre transform and Hamiltonian flows
+ {#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences}
+
+But the reason to consider [[Hamiltonian symplectomorphisms]] instead of general [[symplectomorphisms]] is really because these give [[homomorphisms]] not just between plain [[symplectic manifolds]], but between their _prequantizations_. To these we turn now.
+
++-- {: .num_defn}
+###### Definition
+
+
+A _[[prequantization]]_ of a [[symplectic manifold]] $(X,\omega)$ is -- if it exists -- a choice of [[circle group]]-[[principal connection]] $\nabla$ on $X$ whose [[curvature]] 2-form is the given [[symplectic form]]
+
+$$
+  F_\nabla = \omega
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #PrequantizationIsLiftThroughCurvatureBaseChange}
+###### Remark
+
+In the [[topos]] of [[smooth spaces]], or rather in the [[(2,1)-topos]] $\mathbf{H}$ of [[smooth groupoids]], this means that a [[prequantization]] is a lift $\nabla$ in the [[diagram]]
+
+$$
+  \array{
+    X &\stackrel{\nabla}{\longrightarrow}& \mathbf{B}U(1)_{conn}
+    \\
+    & {}_{\mathllap{\omega}}\searrow & \downarrow^{\mathrlap{F}_{(-)}}
+    \\
+    && \Omega^2_{cl}
+  }
+  \,,
+$$
+
+where $\mathbf{B}U(1)_{conn}$ is the [[moduli stack]] of [[circle n-bundle with connection|circle bundle with connection]]. For details on this see at _[[geometry of physics]]_ the section _[Smooth homotopy types](geometry+of+physics#SmoothnGroupoids)_.
+
+More abstractly we hence find that a [[prequantization]] is a lift of a symplectic manifold regard as an object of the [[slice topos]] $\mathbf{H}_{/\Omega^2_{cl}}$ through the [[base change]]/[[dependent sum]] map induced by the universal [[curvature]] map $F_{(-)} \;\colon\;\mathbf{B}U(1)_{conn} \longrightarrow \Omega^2_{cl}$ to the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$.
+
+=--
+
+
+Consider a morphism
+
+$$
+  \array{
+    X_1 &&\stackrel{\phi}{\longrightarrow}&& X_2
+    \\
+    & {}_{\mathllap{\nabla_1}}\searrow &\swArrow& \swarrow_{\mathrlap{\nabla_2}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+$$
+
+hence a morphism in the slice $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$. This has been discussed in detail in ([hgp 13](#FiorenzaRogersSchreiber13a)).
+
+One finds that [[infinitesimal object|infinitesimally]] such morphism are given by a [[Hamiltonian]] and its [[Legendre transform]]. 
+
++-- {: .num_prop #HamiltonianTransformationIsPrequantizedByTheExponentiatedAction}
+###### Proposition
+
+Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ 
+of example \ref{CanonicalR2PhaseSpace} equipped with its canonical [[prequantization]] by $\theta = p \mathbf{d}q$ from example \ref{StandardPrequantizationOfStandardR2PhaseSpace}. 
+Then for $H \colon \mathbb{R}^2 \longrightarrow \mathbb{R}$ a [[Hamiltonian]], and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Hamiltonian symplectomorphism]] 
+$\exp(t \{H,-\})$ from $\mathbf{H}$ to the [[slice topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ 
+is given by
+
+$$
+  \array{       
+    X && \stackrel{\exp(t \{H,-\})}{\longrightarrow} && X
+    \\
+    & {}_{\mathllap{\omega_1}} \searrow 
+    & \swArrow_{\exp( i S_t  )} & \swarrow_{\mathrlap{\omega_2}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+  \,,
+$$
+
+where 
+
+* $S_t \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}$ is the [[action functional]] of the classical [[trajectories]] induced by $H$,
+
+* which is the [[integral]] $S_t = \int_{0}^t L \, d t$ of the [[Lagrangian]] $L \,d t$ induced by $H$,
+
+* which is the [[Legendre transform]]
+
+  $$
+    L \coloneqq p \frac{\partial H}{\partial p} - H \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
+    \,. 
+  $$
+
+In particular, this induces a [[functor]]
+
+$$
+  \exp(i S)
+  \;\colon\;
+  Bord_1^{Riem} 
+    \longrightarrow 
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
+  \,.
+$$
+
+Conversely, a symplectomorphism, being a morphism in $\mathbf{H}_{/\mathbf{\Omega}^2_{cl}}$ is a [[Hamiltonian symplectomorphism]] precisely if it admits such a lift 
+to $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$.
+
+=--
+
+This is a special case of the discussion in ([hgp 13](#FiorenzaRogersSchreiber13a)).
+
++-- {: .proof}
+###### Proof
+
+The canonical [[prequantization]] of $(\mathbb{R}^2, \mathbf{d} q \wedge \mathbf{d} p)$ is the globally defined [[connection on a bundle|connection]] 1-form
+
+$$
+  \theta \coloneqq p \, \mathbf{d} q
+  \,.
+$$
+
+We have to check that on $graph(\exp(t\{H,-\}))$ we have the [[equation]]
+
+$$
+  p_2 \mathbf{d} q_2 = p_1 \mathbf{d} q_1 + \mathbf{d} S 
+  \,.
+$$
+
+Or rather, given the setup, it is more natural to change notation to
+
+$$
+  p_t \mathbf{d} q_t = p \mathbf{d} q + \mathbf{d} S
+  \,.
+$$
+
+Notice here that by the nature of $graph(\exp(t\{H,-\}))$ we can identify
+
+$$
+  graph(\exp(t\{H,-\}))
+  \simeq
+  \mathbb{R}^2
+$$
+
+and under this identification
+
+$$
+  q_t = \exp(t \{H,-\}) q
+$$
+
+and
+
+$$
+  p_t = \exp(t \{H,-\}) p
+  \,.
+$$
+
+It is sufficient to check the claim [[infinitesimal object|infinitesimally]]. So let $t = \epsilon$ be an [[infinitesimal object|infinitesimal]], hence such that $\epsilon^2 = 0$. Then the above is [[Hamilton's equations]] and reads equivalently
+
+$$
+  q_\epsilon = q + \frac{\partial H}{\partial p} \epsilon
+$$
+
+and
+
+$$
+  p_\epsilon = p - \frac{\partial H}{\partial q} \epsilon
+  \,.
+$$
+
+Using this we compute
+
+$$
+  \begin{aligned}
+    \theta_\epsilon - \theta 
+     & = 
+    p_\epsilon \, \mathbf{d} q \epsilon - p \mathbf{d} q
+     \\
+      & =
+    \left(p - \frac{\partial H}{\partial q} \epsilon \right)
+    \mathbf{d}
+    \left(
+      q + \frac{\partial H}{\partial p} \epsilon
+    \right)
+    - p \mathbf{d}q
+    \\
+    & =
+    \epsilon
+    \left(
+      p \mathbf{d}\frac{\partial H}{\partial p}
+      - 
+      \frac{\partial H}{\partial q} \mathbf{d}q
+    \right)
+    \\
+    & = 
+    \epsilon
+    \left(
+      \mathbf{d}\left( p \frac{\partial H}{\partial p}\right)
+      -
+      \frac{\partial H}{\partial p} \mathbf{d} p
+      - 
+      \frac{\partial H}{\partial q} \mathbf{d}q
+    \right)
+    \\
+    & =
+    \epsilon \mathbf{d}
+    \left(
+      p \frac{\partial H}{\partial p}
+      -
+      H
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Proposition \ref{HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction} 
+says that the slice topos $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$
+unifies [[classical mechanics]] in its two incarnations as
+[[Hamiltonian mechanics]] and as [[Lagrangian mechanics]]. A morphism 
+here is a diagram in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    X && \stackrel{}{\longrightarrow} && Y
+    \\
+    & \searrow &\swArrow& \swarrow
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+$$
+
+and which may be regarded as having two components: the top horizontal [[1-morphism]]
+as well as the [[homotopy]]/[[2-morphism]] filling the slice. 
+Given a smooth [[flow]] of these, the horizontal morphism is the [[flow]]
+of a [[Hamiltonian vector field]] for some [[Hamiltonian]] function $H$, 
+and the 2-morphism is a $U(1)$-[[gauge transformation]] given (locally) by 
+a $U(1)$-valued function which is the exponentiated [[action functional]]
+that is the integral of the [[Lagrangian]] $L$ which is the [[Legendre transform]]
+of $H$.
+
+So in a sense the [[prequantization]] lift through the [[base change]]/[[dependent sum]]
+along the universal [[curvature]] map
+
+$$
+  underset{F_{(-)}}{\sum}
+   \;\colon\;
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
+  \longrightarrow
+  \mathbf{H}_{\mathbf{\Omega}^2_{cl}}
+$$
+
+is the [[Legendre transform]] which connects [[Hamiltonian mechanics]] with [[Lagrangian mechanics]].
+
+[[!include Hamiltonian and Lagrangian -- table]]
+
+=--
+
+
+### The Heisenberg group and the Poisson bracket from prequantized Lagrangian equivalences
+
+Above we have interpreted [[maps]] $f \colon X \to Y$ as [[correspondences]]
+between $X$ and $Y$ by taking the [[correspondence space]] to be the 
+[[graph of a function|graph]] of $f$. There is also another natural way
+to regard maps as correspondences: we may simply take $X$ as the correspondence
+space, take the left map out of it to be the identity and the right map 
+to be $f$ itself:
+
+$$
+  \left(
+    X \stackrel{f}{\longrightarrow} Y
+  \right)
+  \;\;  
+    \mapsto
+  \;\;
+  \left(
+    \array{
+       && X
+       \\
+       & {}^{\mathllap{id}}\swarrow && \searrow^{\mathrlap{f}}
+       \\
+      X && && Y
+    }
+  \right)
+  \,.
+$$
+
+Consider now those correspondences which are [[equivalences]] ([[isomorphisms]])
+in the [[category of correspondences]] $Corr_1(\mathbf{H})$. If we forget
+the [[smooth structure]] on everything and consider just correspondences
+of the underlying [[sets]], hence $Corr_1(Set)$, then it is easy to see
+that under the [[cardinality]] map correspondences are given by [[matrices]]
+with [[cardinality]] entries and [[composition]] of correspondence 
+by [[fiber product]] induces [[matrix multiplication]]. 
+
+Therefore for a correspondence to be an equivalence-transformation it has
+to be of the form above, induced by a direct [[map]], which in 
+addition is an [[equivalence]] $f \colon X \stackrel{\simeq}{\longrightarrow} Y$.
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(X,\omega)$ be a [[symplectic manifold]] and choose any 
+[[prequantization]] $(L,\nabla)$, thought of, via remark \ref{PrequantizationIsLiftThroughCurvatureBaseChange}, as an object in the [[slice (infinity,1)-topos|slice (2,1)-topos]],
+$\nabla \in \mathbf{H}_{/\mathbf{B}U(1)_{conn}}$. Then
+
+* the [[automorphism group]] of $\nabla$ in the [[category of correspondences]] $Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$ is what is called the _[[quantomorphism group]]_;
+
+* its [[Lie algebra]] is the [[Poisson bracket]] Lie algebra of $(X,\omega)$.
+
+=--
+
+See ([hgp 13](#FiorenzaRogersSchreiber13a))
+
+For some reason, the [[quantomorphism group]] which is the [[Lie integration]] of the [[Poisson bracket]] is less famous than the [[Heisenberg group]] that sits inside it:
+
++-- {: .num_remark}
+###### Remark
+
+Suppose that $(X,\omega)$ itself has the structure of a [[group]] (for instance if $(X,\omega)$ is a [[symplectic vector space]] such as $(\mathbb{R}^{2n}, \sum_i p_i \mathbf{d}q^i)$ ), then the [[subgroup]] of the [[quantomorphism group]] whose underlying [[diffeomorphisms]] are given by the action of $X$ is the _[[Heisenberg group]]_ of $X$.
+
+=--
+
+### Hamiltonian actions and moment maps are actions by prequantized Lagrangian equivalences
+
+For $G$ a [[Lie group]], a [[Hamiltonian action]] of $G$ on $(X,\omega)$ is equivalently an action by prequantized Lagrangian correspondences, hence a group [[homomorphism]]
+
+$$
+  G \longrightarrow \mathbf{Aut}_\nabla(Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}}))
+  \,.
+$$
+
+The [[Lie differentiation]] of this is the corresponding [[moment map]].
+
+See ([hgp 13](#FiorenzaRogersSchreiber13a))
+
+
+
+### The classical action functional prequantizes Hamiltonian correspondences
+ {#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences}
+
+Then for two prequantized symplectic manifolds, it is now clear what a _prequantized correspondence_ between them is: 
+
++-- {: .num_defn #PrequantizedLagrangianCorrespondence}
+###### Definition
+
+
+A _prequantization_ of a [[Lagrangian correspondence]] $Y \colon (X_1,\omega) \to (X_2,\omega_2)$
+is a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    && Y
+    \\
+    & \swarrow &\swArrow& \searrow
+    \\
+    X_1 &\stackrel{\nabla_1}{\longrightarrow}& \mathbf{B}U(1)_{conn} &\stackrel{\nabla_2}{\longleftarrow}& X_2
+    \\
+    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
+    \\
+   && \Omega^2_{cl}
+  }
+$$
+
+hence a correspondence in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$.
+
+=--
+
+
+For completing the general picture, it is useful to restate the 
+discussion in _[The classical action functional, the Legendre transform and Hamiltonian flows](#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_, now in terms of [[correspondence]]:
+
+
+
+The natural question is which Hamiltonian correspondences, remark \ref{HamiltonianCorrespondencesAreSpacesOfTrajectories}, may be prequantized, 
+def. \ref{#PrequantizedLagrangianCorrespondence}, 
+and what the corresponding prequantum data is. The following proposition shows that the prequantization of the Hamiltonian correspondence given by a [[Hamiltonian]] $H$ is given by the exponentiated [[action functional]] associated with $H$, namely the exponentiated integral over its [[Lagrangian]] $L$, which is its [[Legendre transform]] $L = p \frac{\partial H}{\partial p} - H$.
+
+
++-- {: .num_prop #HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction}
+###### Proposition
+
+Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ equipped with its canonical [[prequantization]] by $\theta = p \mathbf{d}q$. Then for $H \colon \mathbb{R}^2 \to \mathbb{R}$ a [[Hamiltonian]], and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Lagrangian correspondence]] $\exp(t \{H,-\})$ to a prequantized Lagrangian correspondence is given by
+
+$$
+  \array{   
+    && graph\left( \exp(t \{H,-\}) \right)
+    \\
+    & \swarrow && \searrow
+    \\
+    X && \swArrow_{\exp( i S_t  )} && X
+    \\
+    & {}_{\mathllap{\omega_1}} \searrow && \swarrow_{\mathrlap{\omega_2}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+  \,,
+$$
+
+where 
+
+* $S_t \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}$ is the [[action functional]] of the classical [[trajectories]] induced by $H$,
+
+* which is the [[integral]] $S_t = \int_{0}^t L \, d t$ of the [[Lagrangian]] $L \,d t$ induced by $H$,
+
+* which is the [[Legendre transform]]
+
+  $$
+    L \coloneqq p \frac{\partial H}{\partial p} - H \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
+    \,. 
+  $$
+
+In particular, this induces a [[functor]]
+
+$$
+  \exp(i S)
+  \;\colon\;
+  Bord_1^{Riem} 
+    \longrightarrow 
+  Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Under the equivalence of correspondences of remark \ref{EquivalenceOfCorrespndencesInducedByFunction}
+this is a re-statement of prop. \ref{HamiltonianTransformationIsPrequantizedByTheExponentiatedAction}.
+
+=--
+
+
+
++-- {: .num_remark}
+###### Remark
+
+In summary,  prop. \ref{HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction} 
+and remark \ref{HamiltonianCorrespondencesAreSpacesOfTrajectories}
+say that a prequantized Lagrangian correspondence is conceptually of the following form
+
+$$
+  \array{
+    && {{space\,of} \atop {trajectories}}
+    \\
+    & {}^{\mathllap{{initial}\atop {values}}}\swarrow && \searrow^{\mathrlap{{Hamiltonian} \atop {evolution}}}
+    \\
+    phase\,space_{in} && \swArrow_{{action} \atop {functional}} && phase \,space_{out}
+    \\
+    & {}_{\mathllap{{prequantum}\atop {bundle}_{in}}}\searrow 
+    && 
+    \swarrow_{\mathrlap{{prequantum} \atop {bundle}_{out}}}
+    \\
+    && {{2-group} \atop {of\,phases}}
+  }
+  \,.
+$$
+
+=--
+
+
 
 ## **Local (topological) prequantum field theory**
  {#LocalTopologicalPrequantumFieldTheory}
 
 We discuss local ("[[extended TQFT|extended]]") [[topological field theory|topological]] prequantum field theory. 
 
-The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([hCSlpQFT](#hCSlpQFT)).
+The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on material that is discussed more fully in ([lpqft](#lpqft)).
 
 After a technical preliminary to set the stage in 
 
@@ -17201,10 +18569,8 @@ Based on the general formulation of the more general [[QFT with defects|field th
 
 the structure of such [[domain walls]]/defects/[[branes]] are analyzed in the prequantum theory, hence with coefficients in an [[(∞,n)-category of spans]].
 
-The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its codimension-1 [[schreiber:∞-Wess-Zumino-Witten theory]] and codimension 2-[[Wilson line]]-theory in this fashion, in an ambient [[cohesive (∞,1)-topos]] is discussed in 
+The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its codimension-1 [[schreiber:∞-Wess-Zumino-Witten theory]] and codimension 2-[[Wilson line]]-theory in this fashion, in an ambient [[cohesive (∞,1)-topos]] is discussed in ([lpqft](#lpqft))
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
- {#hCSlpQFT}
 
 Much of the content of this entry here are, or arose as, lecture notes for
 
@@ -17217,11 +18583,15 @@ Much of the content of this entry here are, or arose as, lecture notes for
  {#ReferencesHigherGeometricPrequantumGeometry}
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
- {#hgp13}
+ {#hgp13} {#FiorenzaRogersSchreiber13a}
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_
  {#LocalObservables13}
 
+* [[Joost Nuiten]], [[Urs Schreiber]], _[[schreiber:Local prequantum field theory]]_
+  {#lpqft}
+
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_, thesis 2013
 
 ### Further details
  {#ReferencesFurtherDetails}
