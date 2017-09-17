@@ -35,13 +35,13 @@ $$
 from the [[stable orthogonal group]] (regarded as a [[group object in an (∞,1)-category|group object]] in $L_{whe} Top \simeq$ [[∞Grpd]])
 to the [[∞-group of units]] of the [[sphere spectrum]], regarded as an [[E-∞ ring spectrum]].
 
-By postcomposition with the [[delooping]] of the J-homomorphism  
+By postcomposition, the [[delooping]] of the J-homomorphism  
 
 $$
   B J \;\colon\; B O \to B GL_1(\mathbb{S}) 
 $$ 
 
-it sends real [[vector bundles]] to [[sphere spectrum]]-bundles, namely [[(∞,1)-line bundles]] with typical [[fiber]] $\mathbb{S}$. See also at _[[Thom space]]_ for more on this.
+sends real [[vector bundles]] to [[sphere bundles]], namely to [[(∞,1)-line bundles]] with typical [[fiber]] the [[sphere spectrum]] $\mathbb{S}$. See also at _[[Thom space]]_ for more on this.
 
 ## Definition
 
