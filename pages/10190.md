@@ -32,7 +32,7 @@ The Brown-Comentz spectrum $I_{\mathbb{Q}/\mathbb{Z}}$ has an "integral" refinem
 
 
 
-## Relatwed concepts
+## Related concepts
 
 * [[Anderson duality]]
 
