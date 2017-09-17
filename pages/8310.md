@@ -1,0 +1,20 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _binary morphism_ is a [[morphism]] in a [[category]] out of a [[product]].
+
+## Related concepts
+
+* [[binary function]], [[bilinear map]], [[multilinear map]]
+
+* **binary morphism**
+
+* [[bifunctor]], [[Quillen bifunctor]]
+
+[[!redirects binary morphisms]]
+
