@@ -24,6 +24,7 @@ Dually, $X$ is said to be **cofibrant** if the unique map $0\to X$ from the [[in
 
 * [[fibrant replacement]]
 
+* [[fibrant type]]
 
 
 [[!redirects fibrant object]]
