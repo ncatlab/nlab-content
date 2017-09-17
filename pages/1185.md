@@ -131,7 +131,7 @@ The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-o
 
 * It is traditional to write [[ℵ]]${}_0$ for the first infinite cardinal (the cardinality of the [[natural numbers]]), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal number]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu^+}$.
 
-* For every cardinal $\pi$, we have $2^\pi \gt \pi$ (this is sometimes called [[Cantor's theorem]]).  The question of whether $2^{\aleph_n} = \aleph_{n+1}$ is the [[continuum hypothesis]].
+* For every cardinal $\pi$, we have $2^\pi \gt \pi$ (this is sometimes called [[Cantor's theorem]]).  The question of whether $2^{\aleph_0} = \aleph_{1}$ (or more generally whether $2^{\aleph_\mu} = \aleph_{\mu^+}$) is called Cantor's continuum problem; the assertion that this is the case is called the (generalized) [[continuum hypothesis]]. It is known that the continuum hypothesis is undecidable in [[ZFC]]. 
 
 * For every transfinite cardinal $\pi$ we have (using the axiom of choice) $\pi + \pi = \pi$ and $\pi \cdot \pi = \pi$, so addition and multiplication are [[idempotent]].
 
