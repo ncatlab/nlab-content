@@ -14,6 +14,16 @@
 * automatic table of contents goes here
 {:toc}
 
+## Meaning in higher category theory
+
+By the [[Dold-Kan correspondence]] there is an equivalence between the category of *connective chain complexes of abelian groups* and the category of *abelian [[simplicial group|simplicial groups]]*. The functor
+
+$$NCC:AB^\Delta^{op}\to Ch_\bullet^+(AB)$$
+
+giving this equivalence is called [[Moore complex|normalized chain complex functor]] or [[Moore complex|Moore complex functor]].
+
+In particular this reasoning shows that connective chain complexes of abelian groups are a model for abelian [[infinity-group|∞-groups]] (aka [[Kan complex|Kan complexes]] with abelian group structure).  This correspondence figures as part of the [[cosmic cube]]-classification scheme of [[n-category|n-categories]].
+
 
 ## Definition
 
