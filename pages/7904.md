@@ -20,7 +20,7 @@
 
 ## Definition
 
-Let $\mathbf{H}$ be an ambient [[(∞,1)-topos]]. Let $V, X$ be two [[objects]] of $\mathbf{H}$. Then a _$V$-[[fiber bundle]]_ over $X$ in $\marthbf{H}$ is a morphism $E \to X$ such that there is an [[effective epimorphism]] $U \to X$ and an [[(∞,1)-pullback]] square of the form
+Let $\mathbf{H}$ be an ambient [[(∞,1)-topos]]. Let $V, X$ be two [[objects]] of $\mathbf{H}$. Then a _$V$-[[fiber bundle]]_ over $X$ in $\mathbf{H}$ is a morphism $E \to X$ such that there is an [[effective epimorphism]] $U \to X$ and an [[(∞,1)-pullback]] square of the form
 
 $$
   \array{
