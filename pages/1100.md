@@ -29,7 +29,7 @@ more structure, for instance they may be [[generalized smooth space]]s if one co
 One can think of $(\infty,1)$-toposes as the generalization of the above situation from $1$ to $(\infty,1)$  (recall the notion of [[(n,r)-category]] and see the general discussion at [[∞-topos]]):
 
 * Working in the [[(∞,1)-category]] [[∞Grpd]] of [[infinity-groupoid|(∞,0)-categories]] is the same as  doing [[homotopy theory]]. The point of 
-[[(∞,1)-sheaves]] is to pass to _parameterized_ [[infinity-groupoid (∞,0)-categories]], namely  [[(∞,1)-presheaf]] categories: 
+[[(∞,1)-sheaves]] is to pass to _parameterized_ [[(∞,0)-categories]], namely  [[(∞,1)-presheaf]] categories: 
 these [[(∞,1)-topoi]] behave much like the $(\infty,1)$-category 
 [[∞Grpd]] but their objects are generalized  [[spaces]]  with higher [[homotopies]] that may carry  more structure, for instance they may
 be [[∞-Lie groupoid]]s if one considers [[(∞,1)-sheaves]] on [[CartSp]].
