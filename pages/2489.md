@@ -1,6 +1,23 @@
-<div class="rightHandSide toc">
-[[!include infinity-Lie theory - contents]]
-</div>
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+* [[crossed complex]] $\Leftarrow$ [[crossed module]] $\Rightarrow$ [[2-crossed module]]
+
+* [[dg-Lie algebra]] $\Leftarrow$ **differential crossed module** $\Rightarrow$ [[differential 2-crossed module]]
+
+
+
 
 #Contents#
 
