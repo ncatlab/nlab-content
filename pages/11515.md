@@ -1,0 +1,9 @@
+
+
+* [webpage](http://math.stanford.edu/~gunnar/)
+
+## related $n$Lab entries 
+
+* [[equivariant stable homotopy theory]]
+
+category: people
