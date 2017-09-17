@@ -135,6 +135,18 @@ is simply the set $2 \mathbb{N} \in Set$ of even natural numebrs. Since this is 
 
 Notice that before the $(-1)$-truncation the operation remembers not just _that_ there is an even number, but it remembers "all proofs that there is one", namely every example of an even number.
 
+## References
+
+The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple]] with the existantial/universal quantifiers is due to
+
+* [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+
+and further developed in 
+
+* [[Bill Lawvere]], _Equality in hyperdoctrines and
+comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
+
+
 
 [[!redirects existential quantifier]]
 [[!redirects existential quantifiers]]
