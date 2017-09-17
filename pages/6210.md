@@ -165,7 +165,7 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
 
 ## Related concepts
 
-* [[lift and reduction of structure groups]]
+* [[reduction and lift of structure groups]]
 
 * [[field (physics)]]
 
