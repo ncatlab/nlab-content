@@ -129,7 +129,17 @@ $$
   \,.
 $$
 
-Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin (notice however that a simplicial set by itself is not equipped with a notion of composition of simplices. If it were, we'd call it a [[simplicial category]]).
+Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin (notice however that a simplicial set by itself is not equipped with a notion of composition of simplices.  See [[quasicategory]] for a kind of simplicial set which does have such a notion).
+
+### Classifying topos
+
+The category of simplicial sets is a [[presheaf category]], and so in particular a [[Grothendieck topos]].  In fact, it is the [[classifying topos]] of the theory of "intervals", meaning [[totally ordered sets]] equipped with distinct top and bottom elements.
+
+Specifically, if $E$ is a topos containing such an interval $I$, then we obtain a functor $\Delta \to E$ sending $[n]$ to the subobject
+$$ \{ (x_1,x_2,\dots,x_n) \;|\; x_1 \le x_2 \le \dots \le x_n \} \hookrightarrow I^n $$
+The corresponding [[geometric realization]]/[[nerve]] [[adjunction]] $E \leftrightarrows Set^{\Delta^{op}}$ is the [[geometric morphism]] which classifies $I$.
+
+The usual geometric realization into [[topological spaces]] cannot be obtained in this way precisely, since [[Top]] is not a topos.  However, there are [[Top]]-like categories which are toposes, such as [[Johnstone's topological topos]].
 
 ## Examples
 
