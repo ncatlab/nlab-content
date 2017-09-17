@@ -77,6 +77,8 @@ For $X$ an [[∞-groupoid]] and $\kappa$ an [[countable set|uncountable]]
 
 This is ([[Higher Topos Theory|HTT, corollary 5.4.1.5]]).
 
+Notice that this proposition really requires that $\kappa$ be uncountable. When $\kappa = \omega$ it is not true: the $\omega$-compact objects of ∞Grpd are the homotopy retracts of finite CW-complexes, while the $\omega$-small ∞-groupoids are just the finite CW-complexes. Not every retract of a finite CW-complex has the homotopy type of a finite CW-complex: there is an obstruction, defined for a retract $X$ of a finite CW-complex, which is an element of $\tilde{K}_0(\mathbb{Z}[\pi_1(X)])$, is called Wall's finiteness obstruction, and vanishes if and only if $X$ has the homotopy type of a finite CW-complex. See Wall's paper in the references.
+
 ## Related concepts
 
 * [[essentially small category]]
@@ -89,7 +91,9 @@ This is the topic of section 5.4.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
+Wall's finiteness obstruction was defined in
 
+* C. T. C. Wall, _Finiteness conditions for CW-complexes_.
 
 [[!redirects essentially small (∞,1)-category]]
 [[!redirects essentially small (∞,1)-categories]]
