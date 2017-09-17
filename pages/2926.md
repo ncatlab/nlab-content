@@ -168,6 +168,34 @@ $$
 
 in this diagram is the $\infty$-Maurer-Cartan form on $G$. For $G$ an ordinary Lie group, this reduces to the above definition. This statement and its proof is spelled out <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#CanonicalFormOnLieGroup">here</a>.
 
+## On cohesive and stable homotopy types
+
+### Definition
+
+Therefore generally for $\mathbf{H}$ a [[cohesive (∞,1)-topos]] and $G \in \mathbf{H}$ an [[∞-group]] object, one may think of 
+
+$$
+  \theta \coloneqq fib(\flat \to \mathbf{B})
+$$
+
+as the Maurer-Cartan form on [[∞-group]] objects
+
+$$
+  \theta_G \;\colon\; G \stackrel{}{\longrightarrow} \flat_{dR}\mathbf{B}G
+  \,.
+$$
+
+This includes then for instance Maurer-Cartan forms in higher [[supergeometry]] as discussed at _[[Super Gerbes]]_.
+
+### Properties
+
+#### Relation to the Chern character
+
+Given a [[stable homotopy type]] $\hat E$ in [[cohesion]], then the [[shape modality|shape]] of the Maurer-Cartan form plays the role of the _[[Chern character]]_ on $E \coloneqq \Pi(E)$-cohomology.
+
+See at _[[Chern character]]_ for more on this, and see at _[[differential cohomology diagram]]_.
+
+
 ## Related concepts
 
 * [[invariant differential form]]
