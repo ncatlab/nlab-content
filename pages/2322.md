@@ -14,9 +14,11 @@
 
 ## Idea
 
-A crucial ingredient in a [[topos]] is a [[subobject classifier]]. That this has to do with [[subobjects]] turns out to the a coincidence of low dimensions. As discussed at [[stuff, structure, property]], the classifying objects in [[higher topos theory]] classify more general morphisms.
+A crucial ingredient in a [[topos]] is a [[subobject classifier]]. That this has to do with [[subobjects]] turns out to the a coincidence of low dimensions: subobjects are [[(-1)-truncated]] morphisms. 
 
-When one passes all the way to $\infty$-toposes, there should be objects that classify _all_ morphisms, subject to some bound on size. This is made precise in the context of [[(∞,1)-topos]] [[higher topos theory|theory]].
+As discussed also at [[stuff, structure, property]], the classifying objects in [[higher topos theory]] classify more general morphisms.
+
+When one passes all the way to $\infty$-toposes, there should be objects that classify _all_ morphisms, subject to some bound on size. This is made precise in the context of [[(∞,1)-topos theory]].
 
 One way to characterize an [[(∞,1)-topos]] is as 
 
@@ -36,10 +38,10 @@ In terms of [[homotopy type theory]] these object classifiers are _[[types of ty
 
 ### Subobject classifier {#DetailsSubObjClassf}
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
-Let $C$ be an [[(∞,1)-category]] and $S \in C_1$ a class of [[morphism]]s that is stable under [[pullback]] in $C$.
+Let $C$ be an [[(∞,1)-category]] and $S \in C_1$ a class of [[morphisms]] that is stable under [[(∞,1)-pullback]] in $C$.
 
 Let $Cod_C$ be the [[codomain fibration]] of $X$, i.e. the [[(∞,1)-category of (∞,1)-functors]]
 
@@ -51,7 +53,7 @@ equipped with the [[Cartesian fibration]] $Cod_C \to C$ induced from the endpoin
 
 Write
 
-* $Cod_C^S$ for the full [[subcategory]] of $Cod_C$ on the object in $S$;
+* $Cod_C^S$ for the full [[sub-(∞,1)-category]] of $Cod_C$ on the object in $S$;
 
 * $Cod_C^{(S)}$ the non-full subcategory whose objects are the elements of $S$, and whose morphisms are squares that are pullback diagrams.
 
@@ -67,33 +69,34 @@ We say a morphism $f :x \to y$ in $C$ _classifies_ $S$ -- or simply that $y$ cla
 
 This is [[Higher Topos Theory|HTT, notation 6.1.3.4]] and [[Higher Topos Theory|HTT, def. 6.1.6.1 ]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
-A **subobject classifier** for $C$ is an object that classifies the class $S$ of [[monomorphism in an (∞,1)-category|monomorphisms in the (∞,1)-category]] $C$.
+A **subobject classifier** for $C$ is an object that classifies the class $S$ of [[monomorphism in an (∞,1)-category|monomorphisms]]/[[(-1)-truncated]] morphisms in $C$.
 
 =--
 
-[[Higher Topos Theory|HTT, def. 6.1.6.1 ]]
+This is ([[Higher Topos Theory|HTT, def. 6.1.6.1 ]]).
 
 
-**Example** The $(\infty,1)$-category [[∞Grpd]] has a a subobject classifier: the set $\{0,1\}$ with two elements, regarded as a [[discrete groupoid]].
++-- {: .num_example}
+###### Example
 
+The $(\infty,1)$-category [[∞Grpd]] has a a subobject classifier: the [[0-groupoid]]/[[set]] $\{\emptyset,*\}$ with two elements (the two [[(-1)-truncated]] $\infty$-groupoids).
 
-+-- {: .un_prop}
+=--
+
++-- {: .num_prop}
 ###### Proposition
 
-Every [[(∞,1)-topos]] has a [[subobject]] classifier.
+Every [[(∞,1)-topos]] has a [[subobject classifier]].
 
 =--
 
 
-+-- {: .proof}
-###### Proof
 
-[[Higher Topos Theory|HTT, prop. 6.1.6.3]] and the remark below that
+This appears as ([[Higher Topos Theory|HTT, prop. 6.1.6.3]]) and the remark below that.
 
-=--
 
 ### Object classifier {#DetailsObjClassf}
 
@@ -110,15 +113,15 @@ of an object $c\in C$ to the [[core]] of its [[over quasi-category|over (∞,1)-
 
 Indeed, this is _essentially_ the case -- up to size issues, that the following definitions take care of.
 
-+-- {: .un_defn}
++-- {: .num_defn #RelativelyKappaCompact}
 ###### Definition
 
-For $\kappa$ some [[cardinal]], say a morphism $f : x \to y$ in $C$ is **relatively $\kappa$-compact** if for all [[pullback]]s along $h : y' \to y$ to $\kappa$-[[compact object]]s, $y'$, the pulled back object $h^* x'$ is itself a $\kappa$-compact object.
+For $\kappa$ some [[cardinal]], say a morphism $f : x \to y$ in $C$ is **relatively $\kappa$-compact** if for all [[(∞-1)-pullbacks]] along $h : y' \to y$ to $\kappa$-[[compact object in an (∞,1)-category|compact object]]s, $y'$, the pulled back object $h^* x'$ is itself a $\kappa$-compact object.
 
 =--
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 A [[presentable (∞,1)-category]] $C$  is an [[(∞,1)-topos]] precisely if
@@ -129,36 +132,92 @@ A [[presentable (∞,1)-category]] $C$  is an [[(∞,1)-topos]] precisely if
 
 =--
 
-+-- {: .proof}
-###### Proof
 
 This is due to [[Charles Rezk]]. The statement appears as [[Higher Topos Theory|HTT, theorem 6.1.6.8]].
 
-=--
 
 
 ## Examples
 
-+-- {: .query}
-David Corfield: What are the object classifiers for [[Top]]?
+### Object classifier in $\infty Grpd$
+  {#ObjectClassifierInInfinityGroupoid}
 
-[[Mike Shulman]]: I presume you mean Top as a model for $\infty Gpd$?  I expect that you get them by looking at the $\infty$-groupoid [[core]] of the $(\infty,1)$-category of all $\kappa$-compact $\infty$-groupoids.
+Let $Z|_{\infty Grpd} \to \infty Grpd$ be the 
+[[universal right fibration]].
 
-[[David Corfield]]: Thanks. Do we have this $\kappa$-compact business explained somewhere? Should I also be thinking about the [[universal fibration of (infinity,1)-categories|universal fibration of (infinity,1)-groupoids]]?
+Let 
 
-[[Urs Schreiber]]: see [[compact object]]
+$$
+  Type_\kappa := Core(\infty Grpd_\kappa) \to \infty Grpd
+$$ 
 
-[[Mike Shulman]]: Yes, and I think the universal fibration is relevant.
+be the [[core]] of the full [[sub-(∞,1)-category]] of [[∞Grpd]] on the 
+$\kappa$-[[compact object in an (infinity,1)-category|compact ∞-groupoids]], regarded as a [[Kan complex]].
 
-[[Urs Schreiber]]: now more details on "relative $\kappa$-compact" morphisms above in the "Details"-section.
+Let 
 
-[[Urs Schreiber]]: so the [[universal fibration of (infinity,1)-categories|universal fibration of (infinity,1)-groupoids]] $(Z_{grpd_{\leq \kappa}}^op) \to \infty Grpd_{\leq \kappa}$ would seem to classify just [[left fibration]]s over objects, but in fact every $\infty$-functor between $\infty$-groupoids should be a left fibration, up to equivalence:
+$$
+  \array{
+    \widehat Type_\kappa &\to& Z_{\infty Grpd}
+    \\
+    \downarrow && \downarrow
+    \\  
+    Type_\kappa &\to& \infty Grpd 
+  }
+$$
 
-this follows explicitly from HTT, prop 3.3.1.8, recalled at [[Cartesian fibration]].
+be the [[pullback]] (of [[simplicial sets]]) of the universal right fibration along this inclusion.
+
+Since [[right fibrations]] are stable under pullback (see [here](ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#PreservationByPullback)), this is still a right fibration. Since, up to equivalence, every morphism into a [[Kan complex]] is a 
+right fibration (see [here](ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#OverKanComplex)), and since every
+morphism out of a Kan complex into $\infty Grpd_\kappa$ factors
+through the core $Type_\kappa$ it follows that
+$Type_\kappa$ classifies all morphisms $X \to Y$ in [[∞Grpd]]
+whose [[homotopy fibers]] 
+
+$$
+  X_y \simeq X \times_Y \{y\}
+$$ 
+
+are $\kappa$-[[compact object in an (∞,1)-category|compact]].
+
+Every such morphism $X \to Y$ is also relatively $\kappa$-compact, def. \ref{RelativelyKappaCompact}.
+Because, we may write $Y$ as an [[(∞,1)-colimit]] over itself (see there)
+
+$$
+  Y \simeq {\lim_{\to}}_{y \in Y} \{y\} 
+$$
+
+and then use the fact that [[∞Grpd]] -- being an [[(∞,1)-topos]] -- has 
+[[universal colimits]], to obtain the [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+    {\lim_{\to}}_{y \in Y} X_y 
+      &\stackrel{\simeq}{\to}
+     & X
+    \\
+    \downarrow && \downarrow
+    \\
+    {\lim_{\to}}_{y \in Y} \{y\}
+    &\stackrel{\simeq}{\to}&
+    Y
+  }
+$$
+
+exhibiting $X$ as an $(\infty,1)$-colimit of $\kappa$-small objects
+over $Y$. By stability of $\kappa$-compact objects under
+$\kappa$-small colimits (see [here](http://ncatlab.org/nlab/show/compact+object+in+an+%28infinity%2C1%29-category#StabilityUnderColimits))
+it follows that $X$ is $\kappa$-compact if $Y$ is. 
+
+## Related concepts
+
+* [[type of propositions]]
+
+* [[type of types]]
 
 
 
-=--
 
 [[!redirects object classifier]]
 [[!redirects object classifiers]]
