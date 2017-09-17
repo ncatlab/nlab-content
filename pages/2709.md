@@ -2,10 +2,16 @@
 
 ##related $n$Lab entries
 
-* [[model structure on dendroidal sets]]
+* [[(∞,1)-operad]]s
+
+  * [[model structure on dendroidal sets]] 
+
+* [[homotopy groups in an (∞,1)-topos]]
+
+* [[derivator]]
 
 * [[motivic cohomology]]
 
-* [[category of motives]]
+  * [[category of motives]]
 
 category: people
