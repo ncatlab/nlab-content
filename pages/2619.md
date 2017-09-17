@@ -67,4 +67,8 @@ The term _small projective object_ is used in  section 5.5. of
 {#Kelly}
 
 [[!redirects small-projective object]]
+[[!redirects small-projective objects]]
+[[!redirects small-projective]]
+
+[[!redirects tiny objects]]
 [[!redirects tiny]]
