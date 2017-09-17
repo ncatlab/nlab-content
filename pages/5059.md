@@ -424,16 +424,16 @@ A corresponding refinement of the brane scan to a "brane bouquet" of [[super L-â
 
 These cohomologival arguments also appear in what is called the "ectoplasm" method for invariants in [[super Yang-Mills theory]] in 
 
-* G. Bossard, P.S. Howe, K.S. Stelle, _A note on the UV behaviour of maximally supersymmetric Yang-Mills theories_, Phys. Lett. B682:137-142 (2009) ([arXiv:0908.3883](http://arxiv.org/abs/0908.3883))
+* G. Bossard, [[Paul Howe]], K.S. Stelle, _A note on the UV behaviour of maximally supersymmetric Yang-Mills theories_, Phys. Lett. B682:137-142 (2009) ([arXiv:0908.3883](http://arxiv.org/abs/0908.3883))
  {#BossardHoweStelle09}
 
-* P. S. Howe, T. G. Pugh, K. S. Stelle, C. Strickland-Constable, _Ectoplasm with an Edge_, JHEP 1108:081,2011 ([arXiv:1104.4387](http://arxiv.org/abs/1104.4387))
+* [[Paul Howe]], T. G. Pugh, K. S. Stelle, C. Strickland-Constable, _Ectoplasm with an Edge_, JHEP 1108:081,2011 ([arXiv:1104.4387](http://arxiv.org/abs/1104.4387))
 
-* G. Bossard, P.S. Howe, U. Lindstrom, K.S. Stelle, L. Wulff, _Integral invariants in maximally supersymmetric Yang-Mills theories_ ([arXiv:1012.3142](http://arxiv.org/abs/1012.3142))
+* G. Bossard, [[Paul Howe]], U. Lindstrom, K.S. Stelle, L. Wulff, _Integral invariants in maximally supersymmetric Yang-Mills theories_ ([arXiv:1012.3142](http://arxiv.org/abs/1012.3142))
 
 The connection is made in 
 
-* P.S. Howe, O. Raetzel, [[Ergin Sezgin]], _On Brane Actions and Superembeddings_, JHEP 9808 (1998) 011 ([arXiv:hep-th/9804051](http://arxiv.org/abs/hep-th/9804051))
+* [[Paul Howe]], O. Raetzel, [[Ergin Sezgin]], _On Brane Actions and Superembeddings_, JHEP 9808 (1998) 011 ([arXiv:hep-th/9804051](http://arxiv.org/abs/hep-th/9804051))
 
 
 The other brane scan, listing consistent asymptotic AdS geometries is due to 
@@ -461,7 +461,7 @@ and the computation there was highlighted and a little simplified in
 
 Similar arguments for the [[type II string]] in [[type II supergravity]] appeared in 
 
-* [[Marcus Grisaru]], P. Howe, L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3
+* [[Marcus Grisaru]], [[Paul Howe]], L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3
 
 and for GS sigma-model [[D-branes]] in 
 
