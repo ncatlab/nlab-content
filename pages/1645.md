@@ -91,3 +91,5 @@ A physicists' monograph:
 A reference that very clearly identifies the mathematical nature of quantum anomalies for higher gauge theories is
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+
+[[!redirects anomaly]]
