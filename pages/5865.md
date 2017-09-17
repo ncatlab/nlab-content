@@ -839,7 +839,7 @@ A slight variant of [[cohomology]] is often relevant: [[twisted cohomology]].
 +-- {: .num_defn #TwistedCohomologyInOvertopos}
 ###### Definition
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] let  $\mathbf{c} : B \to C$ a [[morphism]] representing a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$. Let $C$ be [[pointed object|pointed]] and write  $A \to B$ for its [[homotopy fiber]].
+For $\mathbf{H}$ an [[(∞,1)-topos]] let  $\mathbf{c} : B \to C$ be a [[morphism]] representing a [[characteristic class]] $[\mathbf{c}] \in H(B,C)$. Let $C$ be [[pointed object|pointed]] and write  $A \to B$ for its [[homotopy fiber]].
 
 We say that the **[[twisted cohomology]]** with coefficients in $A$ relative to $\mathbf{c}$ is the [[cohomology|intrinsic cohomology]] of the [[over-(∞,1)-topos]] $\mathbf{H}/C$ with coefficients in $f$.
 
@@ -935,7 +935,8 @@ $$
 
 Often twisted cohomology is formulated in terms of homotopy classes of sections of a bundle. The following asserts that this is equivalent to the above definition.
 
-By the discussion at [Cohomology and principal ∞-bundles](#Cohomology) we may understand the twist $\phi : X \to C$ as the cocycle for an $\Omega C$-[[principal ∞-bundle]] over $X$, being the [[(∞,1)-pullback]] of the point inclusion $* \to C$ along $\phi$, where the point is the homotopy-incarnation of the universal $\Omega C$-principal $\infty$-bundle. The [[characteristic class]] $B \to C$ in turn we may think of as an $\Omega A$-bundle [[associated bundle|associated]] to this universal bundle. Accordingly the pullback of $P_\phi := X \times_C B$ is the associated $\Omega A$-bundle over $X$ classified by $\phi$.
+By the discussion at [Cohomology and principal ∞-bundles](#Cohomology) we may understand the twist $\phi : X \to C$ as the cocycle for an $\Omega C$-[[principal ∞-bundle]] over $X$, being the [[(∞,1)-pullback]] of the point inclusion $* \to C$ along $\phi$, where the point is the homotopy-incarnation of the universal $\Omega C$-principal $\infty$-bundle. The [[characteristic class]] 
+$\mathbf{c} : B \to C$ in turn we may think of as an $\Omega A$-bundle [[associated bundle|associated]] to this universal bundle. Accordingly the pullback $P_\phi := X \times_C B$ is the associated $\Omega A$-bundle over $X$ classified by $\phi$.
 
 +-- {: .num_prop #TwistedCohomologyBySections}
 ###### Proposition
