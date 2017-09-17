@@ -76,7 +76,7 @@ $$
   }
 $$
 
-* [[composition]] of morpjhisms is given on components by composition in $C$ and $D$.
+* [[composition]] of morphisms is given on components by composition in $C$ and $D$.
 
 =--
 
