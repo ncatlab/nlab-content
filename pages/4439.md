@@ -1,4 +1,13 @@
-## Mathematically inclined monographs about [[string theory]]
+
+Literature on [[string theory]].
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Mathematically inclined monographs about string theory
 
 * P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
