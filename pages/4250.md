@@ -35,7 +35,7 @@ $$
 $$
 
 
-Let $S^n = \partial \Delta[1]$ (or  $S^n := Ex^\infty \partial \Delta[n+1]$) be the ([[Kan fibrant replacement]]) of the [[boundary of a simplex|boundary of the (n+1)-simplex]], i.e. the model in [[∞Grpd]] of the [[pointed object|pointed]] $n$-[[sphere]].
+Let $S^n = \partial \Delta[n+1]$ (or  $S^n := Ex^\infty \partial \Delta[n+1]$) be the ([[Kan fibrant replacement]]) of the [[boundary of a simplex|boundary of the (n+1)-simplex]], i.e. the model in [[∞Grpd]] of the [[pointed object|pointed]] $n$-[[sphere]].
 
 Then for $X \in \mathbf{H}$ an object, the power object $X^{S^n} \in \mathbf{H}$ plays the role of the space of of maps from the $n$-sphere into $X$, as in the definition of [[simplicial homotopy groups]], to which this reduces in the case that $\mathbf{H} = $ [[∞Grpd]]. 
 
