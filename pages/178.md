@@ -1662,7 +1662,7 @@ Same proof as of the analogous statement at [[ETop∞Grpd]].
 =--
 
 
-#### With coefficients in ${\mathbf{B}^n U(1)} or $\mathbf{B}^n \mathbb{R}$
+#### With coefficients in ${\mathbf{B}^n U(1)}$ or $\mathbf{B}^n \mathbb{R}$
  {#FlatCoefficientsForCircleNGroup} 
 
 Let $\mathbf{B}^n U(1)$ be the circle $(n+1)$-Lie group
@@ -3656,6 +3656,8 @@ $\theta \in \Omega^1_{flat}(G,\mathfrak{g})$.
 
 #### The universal curvature characteristic on $\mathbf{}B^n U(1)$   
  {#CurvatureCharacteristicOnCircleNGroup}
+
+We discuss presentations of <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteritsics</a> $\mathbf{B}^n U(1)\to \mthbf{\flat}_{dR}\mathbf{B}^{n+1} U(1)$ and $\mathbf{B}^n \mathbb{R}\to \mthbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$ by constructions in $[CartSp_{smooth}^{op}, sSet]$.
 
 Recall the discussion of $\mathbf{B}^n U(1)$ and of 
 $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ from 
