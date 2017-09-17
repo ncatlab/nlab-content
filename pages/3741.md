@@ -76,11 +76,14 @@ In $\mathbb{P}\mathbb{R}^1$, we take $x \cdot \infty$ to be $\infty$ as long as 
 
 The definitions above give us *[[located real number|located]]* extended real numbers.  We can of course consider unlocated extended real numbers, either [[one-sided real number|one-sided]] or [[MacNeille real number|MacNeille]].  The natural definitions of these are at least somewhat extended; the lower one-sided reals include $\infty$, the upper one-sided reals include $-\infty$, and the MacNeille reals include both (with $\infty \ne -\infty$).  However, one can always restrict to bounded numbers or alternatively fully extend the one-sided numbers, so being extended and being located are technically independent.  Still, whenever $\pm\infty$ shows up constructively (especially if only one of them appears), then this is a sign that one may want to generalise to one-sided (or even MacNeille) reals.
 
+This has implications for arithmetic; for example, while $0 \cdot \infty$ is undefined in the extended located real numbers, it is $0$ in the lower real numbers (and $\infty$ in the extended upper real numbers).
+
 
 [[!redirects extended real]]
 [[!redirects extended reals]]
 [[!redirects extended real number]]
 [[!redirects extended real numbers]]
+
 [[!redirects extended real line]]
 [[!redirects extended real number line]]
 [[!redirects extended real line segment]]
