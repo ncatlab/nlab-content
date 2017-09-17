@@ -64,6 +64,7 @@ For $T$ the theory of commutative [[associative algebra]]s over a commutative ri
 
 ## Properties
 
+### General
 
 +-- {: .num_prop}
 ###### Proposition
@@ -79,6 +80,9 @@ Use that in the [[(∞,1)-topos]] $\mathbf{H}$ we have [[universal colimits]] an
 
 =--
 
+### Presentation by Kan-fibrant simplicial objects
+
+A presentation of geometric $\infty$-stacks, in some generality, by suitably  Kan-fibrant [[simplicial objects]] is in ([Pridham 09](#Pridham09)). See also at _[[Kan-fibrant simplicial manifold]]_.
 
 
 ## Examples
@@ -92,11 +96,7 @@ Use that in the [[(∞,1)-topos]] $\mathbf{H}$ we have [[universal colimits]] an
 
 * [[Kan-fibrant simplicial manifolds]]  serve to present geometric $\infty$-stacks in [[higher differential geometry]].
 
-## Properties
 
-### Presentation by Kan-fibrant simplicial objects
-
-A presentation of geometric $\infty$-stacks, in some generality, by suitably  Kan-fibrant [[simplicial objects]] is in ([Pridham 09](#Pridham09)). See also at _[[Kan-fibrant simplicial manifold]]_.
 
 ## Related concepts
 
@@ -120,6 +120,8 @@ More general theory in the context of [[derived algebraic geometry]] is in
 and specifically in [[E-∞ geometry]] in 
 
 * {#Lurie} [[Jacob Lurie]], _[[Representability Theorems]]_
+
+* [[Jonathan Pridham]], _Representability of derived stacks_ ([arXiv:1011.2189](http://arxiv.org/abs/1011.2189))
 
 Discussion of presentation of geometric $\infty$-stacks by Kan-fibrant [[simplicial objects]] in the [[site]] is in 
 
