@@ -23,6 +23,7 @@ A **bornological set** is a set $X$ equipped with a bornology. The elements of $
 If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to be **bounded** if $f(B)$ is bounded in $Y$ for every bounded $B$ in $X$. One obtains a category of bornological sets and bounded maps. 
 
 
+
 ## Examples
 
 * If $X$ is any [[topological space]], there is a bornology consisting of all [[precompact subset]]s of $X$ (subsets whose closure is compact).  Any [[continuous map]] is bounded with respect to this choice of bornology. 
@@ -30,6 +31,30 @@ If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to b
 * If $X$ is any [[metric space]], there is a bornology where a set is bounded if it is contained in some open [[ball]]. Any [[Lipschitz map]] is bounded with respect to this choice of bornology.  A metric space is __bounded__ if it\'s a bounded subspace of itself.
 
 * For [[linear operators]] between [[bornological spaces]], a map is continuous if and only if it is bounded. 
+
+## Results 
+
++-- {: .num_theorem}
+###### Theorem 
+The category of bornological sets is a [[quasitopos]], in fact a topological universe. 
+=-- 
+
+For a proof, see this [article](#AdamHerr) by Adamek and Herrlich. 
+
++-- {: .num_theorem} 
+###### Theorem (Schanuel) 
+Let $Alg_{\mathbb{C}}$ be the category of (noncommutative) finite-dimensional algebras over $\mathbb{C}$, the field of complex numbers. Let 
+
+$$U \colon Alg_{\mathbb{C}} \to Born$$ 
+
+be the functor that takes an algebra $A$ to the set ${|A|}$ equipped with the bornology of precompact sets. Then there is a canonical identification of the monoid $Born^{Alg_\mathbb{C}}(U, U)$ with the monoid of entire holomorphic functions. 
+=-- 
+
+
+## References 
+
+* J. Adamek and H. Herrlich, Cartesian closed categories, quasitopoi, and topological universes. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([pdf](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0CFoQFjAC&url=http%3A%2F%2Fddklawr.dml.cz%2Fbitstream%2Fhandle%2F10338.dmlcz%2F106447%2FCommentatMathUnivCarol_027-1986-2_4.pdf&ei=h1w1UISqIsWK6QHJ4YDwBA&usg=AFQjCNGZkEF2-OgERM3UMJrwvIqdePqF6Q&sig2=Yhc25EGhrOY9I3Qw0mm3-A&cad=rja))
+{#AdamHerr}
 
 
 [[!redirects bornology]]
