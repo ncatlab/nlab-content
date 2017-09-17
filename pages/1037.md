@@ -493,6 +493,25 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[descent for simplicial presheaves]]
 
+### 6.3 The $\infty$-Category of $\infty$-Topoi
+
+#### 6.3.1 Geometric morphisms
+
+* [[geometric morphism]]
+
+  * [[essential geometric morphism]]
+
+#### 6.3.2 Colimits of $\infty$-topoi
+
+#### 6.3.3 Filtered limits of $\infty$-topoi
+
+#### 6.3.4 General limits of $\infty$-topoi
+
+#### 6.3.5 Etale Morphisms of $\infty$-topoi
+
+* [[étale geometric morphism]]
+
+
 ### 6.4 $n$-Topoi ###
 
 * [[(n,1)-topos]]
