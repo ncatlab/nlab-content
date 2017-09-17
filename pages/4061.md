@@ -174,4 +174,7 @@ The related subject of positive energy representations for loop groups is repres
 
 * John Baez: _How to Learn Math and Physics_  ([here] (http://math.ucr.edu/home/baez/books.html))
 
+* [[books about string theory]]
+* various lectures notes in mathematical physics, Ulrich Theis' list at [Jena](http://www.personal.uni-jena.de/~p5thul2/notes/math.html)
+
 category: reference
