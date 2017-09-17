@@ -80,3 +80,6 @@ One can also study [[ind-object]]s and [[pro-object]]s in the category of defina
 * D. Haskell, E. Hrushovski, H.D.Macpherson, _Definable sets in algebraically closed valued fields: elimination of imaginaries_, J. reine und angewandte Mathematik __597__ (2006), [MR2007i:03040](http://www.ams.org/mathscinet-getitem?mr=2264318), [doi](http://dx.doi.org/10.1515)/CRELLE.2006.066)
 
 [[!redirects definable sets]]
+
+[[!redirects definable subset]]
+[[!redirects definable subsets]]
