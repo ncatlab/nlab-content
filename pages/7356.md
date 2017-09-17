@@ -16,9 +16,11 @@
 
 ## Idea
 
-_F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes enocdes the [[axio-dilaton]] (the coupling constant and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]].
+_F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes enocdes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]].
 
-### Motivation from 11d supergravity
+## Properties
+
+### Relation to (or motivation from) 11d supergravity
  {#From11dSupergravity}
 
 By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle $S^1_A$ -- to obtain [[type IIA supergravity]] -- and then applying [[T-duality]] along another circle $S^1_B$ to obtain [[type IIB supergravity]].
@@ -43,7 +45,7 @@ $$
   \,.
 $$
 
-By following through the above diagram, one finds how this determines the coupling constant in the type II theory:
+By following through the above diagram, one finds how this determines the [[coupling constant]] in the [[type II string theory]]:
 
 First, the KK-reduction of M-theory on $S^1_A$ yields a type IIA string coupling
 
@@ -65,6 +67,9 @@ $$
    \,.
 $$
 
+### Relation to the heterotic string
+
+F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] compactified on a 2-[[torus]] (e.g. [Sen 96](#Sen96)).
 
 ## References
 
@@ -80,7 +85,7 @@ Lecture notes include
 
 F-theory lifts of [[orientifold]] backgrounds were first identified in
 
-* [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
+* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
 * [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
 
