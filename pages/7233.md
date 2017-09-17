@@ -25,6 +25,8 @@ $G_2$-manifolds may be understood as 7-dimensional analogs of real 6-dimensional
 
 ## Definition
 
+### $G_2$-structure
+
 +-- {: .num_defn #G2Structure}
 ###### Definition
 
@@ -47,6 +49,9 @@ A $G_2$-structure in particular implies an [[orthogonal structure]], hence a [[R
 
 =--
 
+### $G_2$-holonomy
+
+
 +-- {: .num_defn #G2manifold}
 ###### Definition
 
@@ -64,6 +69,25 @@ For instance ([Joyce, p. 4](#Joyce)).
 
 
 The [[holonomy]] of the [[Levi-Civita connection]] on a $G_2$-manifold is contained in $G_2$.
+
+### Weak $G_2$-holonomy
+ {#WeakG2Holonomy}
+
+There is a useful weakened notion of $G_2$-holonomy. A 7-dimensional manifold is said to be of _weak $G_2$-holonomy_ if it carries a 3-form $\omega$ with the relation of def. \ref{G2manifold} generalized to
+
+$$
+  d \omega = \lambda \star \omega
+$$
+
+and hence
+
+$$
+  d \star \omega = 0
+$$
+
+for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-holonomy, by \ref{G2manifold}. (See for instance ([Bilal-Derendinger-Sfetsos](#BilalDerendingerSfetsos)).)
+
+
 
 ## Properties
 
@@ -121,8 +145,9 @@ The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned
 (but beware of some mistakes in that article...)
 
 For more see the references at _[[exceptional geometry]]_.
-
  
+
+
 ### Application in supergravity
 
 The following references discuss the role of $G_2$-manifolds in [[M-theory on G2-manifolds]]:
@@ -130,9 +155,12 @@ The following references discuss the role of $G_2$-manifolds in [[M-theory on G2
 * [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
  {#Duff}
 
-A survey of the corresponding [[string phenomenology]] is in
+A survey of the corresponding [[string phenomenology]] for [[M-theory on G2-manifolds]] (see there for more) is in
 
 * Bobby Acharya, _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
+
+* A. Bilal, J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
+ {#BilalDerendingerSfetsos}
 
 [[!redirects G2 manifolds]]
 [[!redirects G2-manifold]]
@@ -142,3 +170,6 @@ A survey of the corresponding [[string phenomenology]] is in
 [[!redirects G2-structure]]
 [[!redirects G2 structures]]
 [[!redirects G2-structures]]
+
+[[!redirects weak G2-holonomy]]
+[[!redirects weak G2 holonomy]]
