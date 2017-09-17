@@ -36,7 +36,7 @@ $$
   Hom_C(X,\lim_{\to^j} F(j))
 $$
 
-is not only an [[epimorphism]] (a [[surjection]]), which it is automatically as a coequalizer, but even an [[isomorphism]], i.e. a [[bijection]].
+is an [[isomorphism]], i.e. a [[bijection]].
 
 By the general properties of [[colimit]] (recalled at [[limits and colimits by example]]), the colimit
 
@@ -58,7 +58,14 @@ This means that we have
 
 **Restatement**
 
-The object $X$ commutes with the colimit over $F$ precisely if every morphism $X \to \lim_\to F$ lifts to a morphism $X \to F(j)$ into one of the $F(j)$, schematically:
+The map of [[hom-set]]s
+
+$$
+  \lim_{\to^j} Hom_C(X, F(j))
+  \to 
+  Hom_C(X,\lim_{\to^j} F(j))
+$$
+is onto precisely if every morphism $X \to \lim_\to F$ lifts to a morphism $X \to F(j)$ into one of the $F(j)$, schematically:
 
 $$
   \array{
