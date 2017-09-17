@@ -266,7 +266,7 @@ $$
 
 on $S$-[[local object]]s is a reflective $(\infty,1)$-subcategory. 
 
-If $L : C \to D$ denotes the left [[adjoit (∞,1)-functor]] of the inclusion, then for $f \in Mor(C)$ a morphism, the following are equivalent
+If $L : C \to D$ denotes the left [[adjoint (∞,1)-functor]] of the inclusion, then for $f \in Mor(C)$ a morphism, the following are equivalent
 
 * $f$ is an $S$-[[local equivalence]];
 
