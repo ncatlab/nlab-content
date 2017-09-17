@@ -260,7 +260,7 @@ In addition to the fundamental axioms of cohesion above, there are several furth
 +-- {: .num_defn #PiecesHavePoints}
 ###### Definition
 
-For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points** in $\mathcal{E}$ if the points-to-pieces [[natural transformation]] from def. \ref{TransformationFromPointsToPieces}
+For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points**  in $\mathcal{E}$ (or that the cohesion "verifies the [[Nullstellensatz]]") if the points-to-pieces [[natural transformation]] from def. \ref{TransformationFromPointsToPieces}
 
 $$
   f_* X \stackrel{}{\longrightarrow} f_* f^* f_! X \stackrel{\simeq}{\longrightarrow} f_! X 
