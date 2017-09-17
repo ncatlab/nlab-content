@@ -83,6 +83,12 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 * Finite-dimensional modules over $\mathbb{H}$, the [[quaternions]].
 
 
+## Related concepts
+
+* [[orthogonal structure]]
+
+* [[self-dual object]]
+
 [[!redirects inner product]]
 [[!redirects inner products]]
 [[!redirects inner product space]]
