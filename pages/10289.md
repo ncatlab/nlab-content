@@ -43,7 +43,7 @@ hence which are [[flow lines]] of the [[flow]] induced by the [[Hamiltonian vect
 
   * [[Newton's laws of motion]]
 
-  * Hamilton's equations
+  * Hamilton's equations, [[de Donder-Weyl-Hamilton equation]]
 
   * [[Einstein's equations]]
 
