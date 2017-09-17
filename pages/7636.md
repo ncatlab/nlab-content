@@ -311,7 +311,19 @@ Given a [[locally cartesian closed category]] $C$, define the corresponding [[de
 ### Homotopy type theory and locally cartesian closed $(\infty,1)$-categories
  {#HomotopyTypeTheory}
 
-(...)
+All this has a higher analog in [[(∞,1)-category theory]] and [[homotopy type theory]].
+
++-- {: .num_prop }
+###### Proposition
+
+Every [[presentable (∞,1)-category|presentable]] and [[locally cartesian closed (∞,1)-category]] has a presentation by a [[type-theoretic model category]]. This provides the [[categorical semantics]] for [[homotopy type theory]] (without, possibly, the [[univalence]] [[axiom]]).
+
+This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which should in addition satisfy [[univalence]]). See also at _[[internal logic of an (∞,1)-topos]]_.
+
+=--
+
+For more on this see at _[locally cartesian closed (∞,1)-category]]_ in the section on internal logic.
+
 
 
 ### Homotopy type theory with univalence and elementary $(\infty,1)$-toposes
