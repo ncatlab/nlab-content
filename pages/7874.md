@@ -19,5 +19,5 @@ from the [[String structure]]-[[Thom spectrum]] to [[tmf]]: an [[orientation in 
 
 ## References
 
-* [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_ ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+* [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
   {#AndoHopkinsRezk}
