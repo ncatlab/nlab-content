@@ -96,9 +96,11 @@ $$
 \end{aligned}
 $$
 
-In dependent type theory, in order to recover the *dependent* eliminator for the positive product type from the eliminators for the negative product type, we need the latter to satisfy the $\eta$-conversion rule so as to make the above definition well-typed.
+It is obvious that the $\beta$-reduction rules in the two cases correspond; see below for $\eta$-conversion.
 
-The computation rules then also correspond.  In the case of beta reduction, this is obvious.  For eta reduction, in the negative-to-positive direction we have
+In dependent type theory, in order to recover the *dependent* eliminator for the positive product type from the eliminators for the negative product type, we need the latter to satisfy the $\eta$-conversion rule so as to make the above definition well-typed.  It is sufficient to have the $\eta$-conversion up to [[propositional equality]], however, if we are willing to insert a substitution along such an equality in the definition of the dependent eliminator.  Conversely, the dependent eliminator for the positive product allows us to prove a propositional version of the negative $\eta$-conversion (without assuming the positive $\eta$-conversion).  See [propositional eta-conversions](/nlab/show/eta-conversion#Propositional).
+
+Now from $\eta$-conversion for the negative product, we can also derive
 
 $$
 \begin{aligned}
@@ -108,7 +110,9 @@ $$
 \end{aligned}
 $$
 
-and in the positive-to-negative direction we have
+so the defined positive product also satisfies its $\eta$-conversion, which will be definitional or propositional according to that of the negative product.
+
+On the other hand, if the positive product has a definitional $\eta$-conversion, then for the defined negative product we have
 
 $$
 \begin{aligned}
@@ -120,7 +124,15 @@ $$
 \end{aligned}
 $$
 
-Note that this involves a beta-reduction step and also a "backwards" eta-reduction step.  So from positive eta reduction we cannot derive negative eta-reduction, only negative eta-equivalence.  (However, the directionality of eta-reduction is somewhat questionable anyway.)
+Note that this involves a beta-reduction step and also a "backwards" $\eta$-reduction step.  So from positive $\eta$ *reduction* we cannot derive negative $\eta$-reduction, only negative $\eta$-equivalence.  (However, the directionality of $\eta$-reduction is somewhat questionable anyway.)
+
+In conclusion, we have:
+
+* In non-dependent type theory, positive and negative products are equivalent, as are their definitional $\beta$-reduction rules.
+
+* In dependent type theory with [[identity types]], improving the positive eliminator to a *dependent* eliminator is equivalent to asserting [propositional](/nlab/show/eta-conversion#Propositional) versions of either $\eta$-conversion rule.
+
+* In any case, the two *definitional* $\eta$-conversion rules also correspond.
 
 It is of importance to note that these translations require the [[contraction rule]] and the [[weakening rule]]; that is, they duplicate and discard terms.  In [[linear logic]] these rules are disallowed, and therefore the positive and negative products become different.  The positive product becomes "tensor" $A\otimes B$, and the negative product becomes "with" $A \& B$.
 
