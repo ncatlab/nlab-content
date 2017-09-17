@@ -1,6 +1,6 @@
 
-> In middle and high schools, analytic geometry refers to elementary methods in the geometry of $n$-dimensional [[Euclidean space]] involving *[[coordinate]] calculations* (as opposed to [[synthetic geometriy]]); it is usually combined with linear algebra taught in a geometric way. Analytic there pertains to the usage of coordinates. 
-Here we use analytic for kinds of [[geometry]] based on study of _[[analytic functions]]_ instead. 
+> In middle and high schools, analytic geometry refers to elementary methods in the geometry of $n$-dimensional [[Euclidean space]] involving *[[coordinate]] calculations* (as opposed to [[synthetic geometry]]); it is usually combined with linear algebra taught in a geometric way. Analytic there pertains to the usage of coordinates. 
+Here instead we use _analytic_ for kinds of [[geometry]] based on the study of _[[analytic functions]]_. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
