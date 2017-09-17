@@ -33,13 +33,13 @@ In a context of [[synthetic differential geometry]]/[[differential cohesion]] a 
 A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
 
 $$
-  Red \dashv &#643;_{inf} \dashv \flat_{inf}
+  \Re \dashv &#643;_{inf} \dashv \flat_{inf}
   \,,
 $$
 
-where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] adn $&#643;_{inf}$ is an [[idempotent monad]].
+where $\Re$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
 
-A **reduced object** or **reduced type** is one in the [[full subcategory]] defined by the leftmost modality $Red$. 
+A **reduced object** or **reduced type** is one in the [[full subcategory]] defined by the leftmost modality $\Re$. 
 
 ## Examples
 
