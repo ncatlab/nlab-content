@@ -27,14 +27,14 @@ This is a generalization of the traditional [[spectral sequence of a filtered co
 ## Definition
 
 
-Let thoughout $\mathcal{C}$ be a [[stable (∞,1)-category]] equipped with a [[t-structure]] such that its [[heart of a stable (∞,1)-category|heart]] is an [[abelian category]]. 
+Let thoughout $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi_\bullet$ be a [[homological functor]] on $\mathcal{C}$ taking values in an [[abelian category]]. A typical example is when $\mathcal{C}$ is equipped with a [[t-structure]] and $\pi_\bullet$ are the corresponding homotopy groups with values in the [[heart of a stable (∞,1)-category|heart]] of the t-structure. 
 
 +-- {: .num_example}
 ###### Example
 
 For instance 
 
-* $\mathcal{C} = Spec$  the [[stable (∞,1)-category of spectra]]. 
+* $\mathcal{C} = Spec$  the [[stable (∞,1)-category of spectra]] with its canonical t-structure. 
 
 =--
 
@@ -105,9 +105,9 @@ We now have the [[spectral sequence of a filtered stable homotopy type]].
 +-- {: .num_prop #FiltrationSpectralSequence}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[stable (∞,1)-category]] equipped with a [[t-structure]] such that its [[heart of a stable (∞,1)-category|heart]] is an [[abelian category]]. 
+Let $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi_\bullet:\mathcal{C}\to\mathcal{A}$ be a homological functor where $\mathcal{A}$ is an [[abelian category]]. 
 
-If $\mathcal{C}$ has [[sequential limits]] and if  $X_n \simeq 0$ for all $n \gt n_0$ then the [[spectral sequence]] induced by the [[exact couple]]
+If $\mathcal{C}$ has [[sequential limits]], if  $X_n \simeq 0$ for all $n \lt n_0$, and if some Mittag-Leffler condition holds, then the [[spectral sequence]] in $\mathcal{A}$ induced by the [[exact couple]]
 of def. \ref{ExactCoupleForFilteredObject} converges to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filted object:
 
 $$
