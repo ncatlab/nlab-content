@@ -5,11 +5,15 @@
 
 ## Idea
 
-Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which are included) -- they are [[varieties]] equipped with a structure of an [[abelian group]] whose multiplication and inverse are regular maps.
+Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which are included) -- they are [[varieties]] equipped with a structure of an [[abelian group]], hence abelian[[group schemes]], whose multiplication and inverse are regular maps.
 
 ## Related concepts
 
 * [[theta function]]
+
+* [[Cartier duality]]
+
+* [[dual abelian group scheme]]
 
 ## Literature
 
@@ -27,3 +31,6 @@ Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which
 * C. Bartocci, Ugo Bruzzo, D. Hernandez Ruiperez, Fourier-Mukai and Nahm transforms in geometry and mathematical physics, Progress in Mathematics 276, Birkhauser 2009.
 
 [[!redirects abelian varieties]]
+
+[[!redirects abelian group scheme]]
+[[!redirects abelian group schemes]]
