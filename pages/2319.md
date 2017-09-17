@@ -74,7 +74,7 @@ It is the generalization of this anomaly computation from the worldlines of supe
 
 * [[orientation]]
 
-* **spin structure**
+* **spin structure**, [[twisted spin structure]]
 
 * [[string structure]], [[differential string structure]]
 
