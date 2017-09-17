@@ -114,6 +114,10 @@ Compactly generated spaces were first introduced by J. L. Kelley, see his book
 
 * [[John Kelley]], _General topology_, D. van Nostrand, New York 1955. 
 
+A comprehensive account careful about the (weakly) Hausdorff assupmtions when needed/wanted is in the lecture notes
+
+* N. P. Strickland, _The category of CGWH spaces_, [pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
+
 Many properties of compactly generated Hausdorff spaces are used to establish a variant of the theory of fibrations, cofibrations and deformation retracts in 
 
 * [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
