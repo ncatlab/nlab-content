@@ -49,6 +49,10 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[list of mathematics software]]
 
+## References
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
 
 [[!redirects programming languages]] 
 
