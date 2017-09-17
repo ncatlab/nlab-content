@@ -90,9 +90,9 @@ For equivariant/gauged string [[sigma-models]] the elliptic genus should take va
 
 * [[elliptic cohomology]]
 
-* [[spin orientation of Tate K-theory]]
+* [[spin orientation of Ochanine elliptic cohomology]]
 
-* [[Witten genus]]
+* [[Witten genus]], [[string orientation of tmf]]
 
 * [[equivariant elliptic genus]]
 
