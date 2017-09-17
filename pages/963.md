@@ -47,6 +47,8 @@ which is all we need. Since joins in $Idem(Q)$ are calculated just as they are i
 Finally, if $A$ is a frame and $Q$ is a commutative affine quantale, it is clear that a quantale map $f \colon A \to Q$ takes elements in $A$ (which are idempotent under meet) to idempotents in $Q$. Hence $f$ factors uniquely through $Idem(Q) \hookrightarrow Q$, and the map $A \to Idem(Q)$ is a frame map. This shows that $Idem$ is the right adjoint as claimed. 
 =-- 
 
+In fact, we may also observe that the forgetful functor from commutative affine quantales to commutative quantales also has a right adjoint, just be passing from a commutative quantale to the principal downset given by the quantale unit. (However, the forgetful functor from commutative quantales to quantales does _not_ have a right adjoint.)   
+
 ## Enrichment over quantales
 
 A different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale. A classic example is Lawvere [[metric space]]s, seen as categories enriched in the quantale $([0, \infty], \geq)$ with $+$ taken as tensor product. 
