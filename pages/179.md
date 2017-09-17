@@ -311,7 +311,7 @@ $$
   \,.
 $$
 
-Since thr origin here corresponds to the neutral element of $G$ and since with one of its arguments the neutral element the operaton $\cdot_G$ is the identity, and since the double derivative produces the Lie bracket (keeping in mind that $x^i y^j  + x^j y^i = 0$ in $\tilde D(2,dim(G))$), this is
+Since the origin here corresponds to the neutral element of $G$ and since with one of its arguments the neutral element the operaton $\cdot_G$ is the identity, and since the double derivative produces the Lie bracket (keeping in mind that $x^i y^j  + x^j y^i = 0$ in $\tilde D(2,dim(G))$), this is
 
 $$
   \cdots = \vec x + \vec y + [\vec x, \vec y]
