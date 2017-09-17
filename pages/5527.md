@@ -20,21 +20,50 @@
 The [[spectral sequence]] of a [[filtered object|filtered]] (co)[[chain complex]] 
 
 $$
-  \cdots \subset C_\bullet^{(2)}\subset C_\bullet^{(1)}\subset C_\bullet
+  \cdots 
+    \hookrightarrow
+   F_{p-1}C_\bullet 
+     \hookrightarrow 
+   F_p C_\bullet 
+     \hookrightarrow  
+   \cdots 
+     \hookrightarrow 
+  C_\bullet
 $$
 
-is a tool for computing the (co)[[chain homology]] of $C_\bullet$ from the (in general simpler) (co)chain homologies of the [[associated graded objects]] $C_\bullet^{(n)}/C_\bullet^{(n+1)}$.
+is a tool for computing the (co)[[chain homology]] of $C_\bullet$ from the  (co)chain homologies of the [[associated graded objects]] 
 
-So it is a tool for organizing data derivable from the families of [[long exact sequence|long exact]] [[fiber sequence]] in [[chain homology]]
+$$
+  G_p C \coloneqq F_p C_\bullet/F_{p-1}C_\bullet
+  \,;
+$$
+
+which is in general simpler.
+
+Equivalently, it is a tool for organizing data derivable from the families of [[long exact sequence in homology]]
 
 $$ 
-  \cdots\to H_p (C^{(q+1)}_\bullet) \to H_p (C^{(q)}_\bullet) 
-  \to 
-  H_p(C^{(q)}_\bullet/C^{(q+1)}_\bullet) \to H_{p+1}(C_\bullet^{(q+1)})
- \to
+  \cdots 
+    \to 
+  H_q (F_{p-1} C_\bullet) 
+    \to 
+  H_q (F_p C_\bullet) 
+    \to 
+  H_q(F_p C_\bullet / F_{q-1} C_\bullet) 
+    \to 
+  H_{q-1}(F_{p-1} C_\bullet)
+   \to
  \cdots 
- \,.
 $$
+
+which are induced by the short exact sequences 
+
+$$
+  0 \to F_{p-1}C_q \to F_p C_q \to F_p C_q / F_{p-1} C_q \to 0
+$$
+
+coming from the filtering.
+
 
 ## Definition
 
@@ -76,7 +105,7 @@ $$
     \right\}
   }
   {
-    F_{p-1} C_{p+q} + \partial( F_{p+r-1} C_{p+q+1} )
+    \partial( F_{p+r-1} C_{p+q+1} ) \oplus F_{p-1} C_{p+q} 
   }
 $$
 
@@ -93,7 +122,7 @@ given by $\partial^C$.
 +-- {: .num_remark}
 ###### Remark
 
-The group $E^r_{p,q}$ is to be thought of as the _approximate_ chain homology of $C_\bullet$ in degree $p+q$ where the differential is required to vanish only "to order $r$" (is in $F_{p-r}$) and boundaries are similarly modded out only in order $r$.
+The group $E^r_{p,q}$ is to be thought of as the _approximate_ chain homology of $C_\bullet$ in degree $p+q$ where the differential is required to vanish only "to order $r$" (is in $F_{p-r}$) and boundaries are similarly modded out only in order $r$. More discussion of this is [below](#InterpretationOfTerms).
 
 =--
 
@@ -149,9 +178,84 @@ where $D = \bigoplus_i H^{\bullet}(F_i)$, where $\varphi$ is the cohomology morp
 
 At every stage we have a new family of long exact sequences
 
+
+
+## Properties
+
+### In low-degree pages
+
++-- {: .num_remark}
+###### Remark
+
+For $r = 0$ def. \ref{ExplicitForm} says that
+
+$$
+  E^0_{p,q} = G_p C_{p+q}
+$$
+
+is the [[associated graded|associated p-graded]] piece of $C_{p+q}$. Accordingly for $r = 1$ we have that
+
+$$
+  E^1_{p,q} = H_{p+q}(G_p C_\bullet)
+$$
+
+is the homology of the degree-$p$ piece.
+
+=--
+
+### Interpretation of the terms: $r$-approximate cycles/boundaries
+ {#InterpretationOfTerms}
+
+The terms $E^r_{p,q}$ in def. \ref{ExplicitForm}
+have a natural interpretation as the _$r$-approximate homology groups_ of $C_\bullet$, in the following sense.
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+  Z^r_{p,q} 
+   \coloneqq
+  \left\{
+   c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q}
+  \right\}/ F_{p-1}C_{p+q}
+$$
+
+These are the $(p+q)$-chains in filtering degree $p$ whose differential vanishes modulo terms of filtering degree $p-r$: **the $r$-approximate $(p,q)$-[[chains]]**.
+
+Write similarly
+
+$$
+  B^{r}_{p,q}
+  \coloneqq
+  \partial(A^{r-1}_{p+r-1,q}) / F_{p-1}C_{p+q}
+  \,,
+$$
+
+the group of $r$-approximate $(p,q)$-[[boundaries]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+With this notation the groups in def. \ref{ExplicitForm} are simply the
+$r$-approximate [[homology groups]]:
+
+$$
+  E^r_{p,q} = 
+  \frac{Z^r_{p,q}}{B^r_{p,q}}
+  \,.
+$$
+
+=--
+
+### Convergence
+
 #### Convergence, ideally
 
-It is instructive to note that in the $n$th derived exact couple $\varphi^n D\to E_{(n)} \to \varphi^n D\to{}$, the hidden part $\varphi^n D$ is the [[module|submodule]] $D_{(n)}$ of $\bigoplus_{i} H(F_{i+n})$, as it meets $H(F_{i+n})$ representable by elements of $F_i$; that is, we may sensibly call it
+It is instructive to note that in the $n$th derived [[exact couple]] $\varphi^n D\to E_{(n)} \to \varphi^n D\to{}$, the hidden part $\varphi^n D$ is the [[module|submodule]] $D_{(n)}$ of $\bigoplus_{i} H(F_{i+n})$, as it meets $H(F_{i+n})$ representable by elements of $F_i$; that is, we may sensibly call it
 $$F_{i} D_{(n)} = \frac{\ker(d)\cap F_i}{F_i\cap dF_{i+n}}.$$
 Separating the grades, the exactness of the couple at $E_{(n)}$ then says 
 $$ F_{i} H^j(F_{i+n})\to F_{i+1}H^j(F_{i+n+1}) \to E_{(n)}^{i\dots} \to F_i H^{j+1}(F_{i+n}) \to F_{i+1}H^{j+1}(F_{i+n+1}) $$
@@ -164,9 +268,10 @@ $$ 0\to F_i H^j(C) \to F_{i+1} H^j(C)\to E_{(\infty)}^{i\dots} \to 0 .$$
 
 In summary, if the spectral sequence $E_{(n)}$ converges in a sensible way to the correct thing $E_{(\infty)}$, then that correct thing is also the associated graded [[module]] of the [[filtration]] of $H^\bullet(C)$ induced by the [[filtration]] of $C$.
 
-## Applications
 
-### Special case: 2-term filtering
+## Examples
+
+### 2-term filtering
 
 The special case where the filtering has just length one  is that where we simply have a sub-complex $C^{(1)}_\bullet \hookrightarrow C_\bullet$ and want to compute the homology of $C_\bullet$ from that of $C^{(1)}_\bullet$ and $C_\bullet/C^{(1)}_\bullet$.
 
@@ -212,15 +317,110 @@ $$
 
 (...)
 
+### Homology of a tensor product of chain complexes
+ {#ExampleHomologyOfTensorProduct}
 
 
-### Serre's Spectral Sequence for a Fibration
+Consider two chain complexes $C_\bullet, C'_\bullet$ 
+of [[vector spaces]] over a [[field]] $k$, both
+in non-negative degree.
 
-Let
+Their [[tensor product of chain complexes]] is
+
+$$
+  C_\bullet \otimes C'_\bullet
+  = 
+  \oplus_{i+j = k} C_i \otimes C_j
+$$
+
+with [[differential]] on homogenous elements
+
+$$
+  \partial (\alpha \otimes\beta) = 
+  (\partial \alpha)
+  \otimes \beta
+  +
+  (-1)^{deg \alpha} \alpha \otimes \partial \beta
+  \,.
+$$
+
+We may compute the chain homology of $C \otimes C'$ by a 
+filter spectral sequence as follows.
+
+Define a filtration on $C \otimes C'$ by
+
+$$
+  F_p(C \otimes C')_{k}
+  \coloneqq
+  \oplus_{i \leq p} C_i \otimes C_{k-1}
+  \,.
+$$
+
+This means that the [[associated graded object]] is simply
+
+$$
+  E^0_{p,q} = G_p (C \otimes C')_{p+q}
+  = 
+  C_p \otimes C'_q
+  \,.
+$$
+
+The [[differential]] on this is $\partial_{r = 0} = (-1)^p id_{C} \otimes \partial'$.
+Hence the [[universal coefficient theorem]] gives
+
+$$
+  E^1_{p,q} = C_p \otimes H_q(C')
+  \,.
+$$
+
+The next differential is $\partial_1 = \partial \otimes id_{C'}$
+Since $k$ is assumed to be a field we have thus
+
+$$
+  E^2_{p,q} = H_p(C_\bullet \otimes H_q(C'_\bullet))
+  = 
+  H_p(C)\otimes H_q(C')
+  \,.
+$$
+
+Therefore every element in $E^2_{p,q}$ is represented by 
+a tensor product of a $C$-[[cycle]] with a $C'$-cycle and is 
+hence itself a $(C \otimes C')$-cycle. Since the differentials
+in the spectral sequence all come from the differential on 
+$C \otimes C'$, this means that all higher differentials vanish,
+and so the sequence collapses on the $E^2$-page. 
+
+The convergence of the spectral sequence to the the homology 
+of $C \otimes C'$ thus says that this is given by
+
+$$
+  H_{k}(C \otimes C')
+  \simeq
+  \oplus_{i+j = k} H_i(C) \otimes H_j(C')
+  \,.
+$$
+
+
+### Homology of the total complex of a double complex
+ {#ExampleHomologyDoubleComplex}
+
+
+The [[total complex]] of a [[double complex]] is naturally 
+[[filtered object|filtered]] either by either row-degree of column-degree. The corresponding filtering spectral sequence converges under good conditions to the homology of the total complex. See at _[[spectral sequence of a double complex]]_. 
+
+### Singular homology of a CW-complex
+
+(...)
+
+
+### Serre's spectral sequence of a fibration
+
+We indicate the [[Leray-Serre spectral sequence]] of a [[Serre fibration]] as a special case of the filtering spectral sequence. For more discussion see there.
+
 $$\begin{matrix} A & \to & X \\
  \downarrow & & \downarrow \\
  * & \to & B \end{matrix} $$
-be a [[fibration]] of [[pointed object|pointed]] [[topological spaces]] in which $B$ is a [[connected topological space|connected]] [[CW-complex]].  Then the $k$-[[simplicial skeleton|skeleta]] of $B$ naturally give filtered-space structures to both $B$ and $X$:
+be a [[Serre fibration]] of [[pointed object|pointed]] [[topological spaces]] in which $B$ is a [[connected topological space|connected]] [[CW-complex]].  Then the $k$-[[simplicial skeleton|skeleta]] of $B$ naturally give filtered-space structures to both $B$ and $X$:
 $$\begin{matrix} X_{(k)} & \to & X_{(k+1)} & \to & X \\
  \downarrow & & \downarrow & &\downarrow \\
  B_{k} & \to & B_{k+1} & \to & B \end{matrix} $$
@@ -241,6 +441,21 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 *the homology of $B$ with coefficients in the [[local system]] defined by the action of $\Pi_1 (B)$ on $H_q(A|_{b})$.  In the special case that $B$ is simply connected, these local systems are canonically equivalent to $H_q(A)$, the homology of the fiber over the basepoint.
 
 =--
+
+
+## References
+
+A decent account is given in 
+
+* [[Michael Hutchings]], _Introduction to spectral sequences_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf))
+ {#Hutchings}
+
+For further references see those listed at _[[spectral sequence]]_, 
+for instance section 5 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+
 
 [[!redirects spectral sequence of a filtration]]
 
