@@ -66,8 +66,6 @@ while the classic reference for this is:
 
 * Roger Penrose, Wolfgang Rindler, _Spinors and spacetimes_ (2 vols, [vol 1, ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0538.53024&format=complete))
 
-* S. Chandrasekhar, _The mathematical theory of black holes_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0912.53053&format=complete)) (classics with analytic solutions of black hole spacetimes)
-
 * Eric Poisson, _A relativist's toolkit. The mathematics of black-hole mechanics._ ([http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete)) (computationally oriented)
 
 For supergravity see the appropriate chapters in the above listed collection by Deligne et al. and the above book by Ward and Wells; and mainstream theoretical physics gravity textbooks by Misner and Thorpe; Schutz; Landau-Lifschitz vol. 2; Wald etc. 
@@ -164,4 +162,4 @@ The related subject of positive energy representations for loop groups is repres
 
 * geometrical background for Kapustin's course at Caltech: [list](http://theory.caltech.edu/~kapustin/Ph229/recbooks.html)
 
-* John Baez: _How to Learn Math and Physics_(http://math.ucr.edu/home/baez/books.html)
+* John Baez: _How to Learn Math and Physics_  ([here] (http://math.ucr.edu/home/baez/books.html))
