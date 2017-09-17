@@ -2,7 +2,10 @@
 
 In an oriented diagram, we can see there are two types of possible crossing. They are allocated a sign, + or -. 
 
+
 (Diagram to go here) 
+
+
 One method of remembering the sign convention is to imagine an approach to the crossing along the *underpass* in the direction of the orientation: 
 
 * if the overpass passes from left to right the crossing is counted as being *positive*;
