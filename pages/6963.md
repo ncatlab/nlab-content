@@ -26,11 +26,11 @@ In more detail, an __$\mathcal{M}$-category__ consists of the following data:
 
 Equivalently, an __$\mathcal{M}$-category__ is a [[category]] of objects and __loose__ morphisms together with a [[wide subcategory]] of __tight__ morphisms.
 
-Note that the "underlying ordinary category" of an $\mathcal{M}$-category, in the usual sense that that phrase is used in [[enriched category]] theory, is its category of *tight* morphisms, since the monoidal unit of $\mathcal{M}$ is the pair $(1, 1)$, and we have 
+Note that the "underlying ordinary category" of an $\mathcal{M}$-category, in the usual sense that that phrase is used in [[enriched category]] theory, is its category of *tight* morphisms. This is because the underlying ordinary category is induced by a monoidal change-of-base functor $\hom(I, -) \colon \mathcal{M} \to Set$ represented by the monoidal unit $I = (1, 1)$, where we have 
 
 $$\hom_{\mathcal{M}}((1, 1), (T, L)) \cong T.$$  
 
-Nevertheless, it is frequently also useful to think of the category of loose morphisms as a sort of "underlying ordinary category" of an $\mathcal{M}$-category. This is effected by the monoidal change-of-base functor $\hom_{\mathcal{M}}((0, 1), -): \mathcal{M} \to Set$, where we have 
+Nevertheless, it is frequently also useful to think of the category of loose morphisms as a sort of "underlying ordinary category" of an $\mathcal{M}$-category. This is effected by the monoidal change-of-base functor $\hom_{\mathcal{M}}((0, 1), -) \colon \mathcal{M} \to Set$, where we have 
 
 $$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$ 
 
