@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
 #### $(\infty,1)$-Topos Theory
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
@@ -25,9 +29,10 @@
 
 ## Idea
 
-The notion of **$\infty$-Lie groupoid** is the generalization of the notion of [[Lie group]] and [[Lie groupoid]] from [[category theory]] to [[higher category theory]] and [[homotopy theory]]:
+A _smooth $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[cohesive (∞,1)-topos|cohesion]] in the form of [[smooth structure]].
 
-an $\infty$-Lie groupoid is an [[∞-groupoid]] that is _smooth_ in some sense.
+This generalizes [[Lie group]]s and [[Lie groupoid]]s from [[category theory]] to [[higher category theory]] and [[homotopy theory]].
+
 
 
 ### Reminder: Lie groupoids and differentiable stacks
