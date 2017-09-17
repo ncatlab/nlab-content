@@ -138,3 +138,6 @@ Over general base rings:
 
 [[!redirects elliptic curve with level-n structure]]
 [[!redirects elliptic curves with level-n structure]]
+
+[[!redirects elliptic curves with level structure]]
+[[!redirects elliptic curves with level structures]]
