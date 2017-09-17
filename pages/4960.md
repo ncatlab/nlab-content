@@ -717,6 +717,24 @@ The corresponding cohesive topos is the [[Cahiers topos]] $ \simeq Sh(ThCartSp)$
 
 
 
+### Cohesive over-toposes
+
++-- {: .un_prop}
+###### Proposition
+
+Let $\mathcal{E}$ be a cohesive topos and $X \in \mathcal{E}$ an object. 
+
+A necessary conditions that the [[over topos]] $\mathcal{E}/X$ is a [[connected topos]] is that
+
+1. $X$ is contractible $\Pi_0(X) \simeq *$;
+
+Sufficient condition for $\mathcal{E}/X$ to be a [[local topos]] is that
+
+1. $X$ is a [[tiny object]].
+
+
+=--
+
 
 ### Counter-examples {#CounterExamples}
 
