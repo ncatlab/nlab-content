@@ -77,7 +77,7 @@ Carlsson provides counter examples for such "equivariant Moore spaces" for all n
 
 There is thus no [[functor]] [[Ab]]$\rightarrow$ [[Top]] that lifts $M(-,n)\colon Ab\rightarrow Ho(Top)$ since if there was such, it would induce, for any group $G$ a functor $Ab^G\rightarrow Top^G$ and in particular a positive answer to the Steenrod conjecture.
 
-Moreover, there can also not be an [[(∞,1)-functor]] $Ab\rightarrow L_{whe} Top$ that lifts $M(-,n)$ since this will similarly yield an $\infty$-functor $Ab\rightarrow Top^{hG}$ where $Top^{hg}$ is the [[(∞,1)-category]] of [[∞-actions]] of $G$ on spaces. Since there is a "rigidification" functor $Top^{hG}\rightarrow Top^G$ this would yield an (ordinary) functor $Ab\rightarrow Top^G$ which does not exist by our previous observation. 
+Moreover, there can also not be an [[(∞,1)-functor]] $Ab\rightarrow L_{whe} Top$ that lifts $M(-,n)$ since this will similarly yield an $\infty$-functor $Ab^G\rightarrow Top^{hG}$ where $Top^{hG}$ is the [[(∞,1)-category]] of [[∞-actions]] of $G$ on spaces. Since there is a "rigidification" functor $Top^{hG}\rightarrow Top^G$ this would yield an (ordinary) functor $Ab^G\rightarrow Top^G$ which does not exist by our previous observation. 
 
 =--
 
