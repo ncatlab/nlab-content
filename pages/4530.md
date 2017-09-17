@@ -23,6 +23,16 @@ In **complex geometry** one staudies _[[complex manifolds]]_ as a special case o
 
 In _complex [[analytic geometry]]_ one studies, more generally, [[complex analytic spaces]].
 
+## Related entries
+
+* [[complex manifold]], [[almost complex manifold]]
+
+  [[Kähler manifold]], [[hyper-Kähler manifold]]
+
+  [[Calabi-Yau manifold]]
+
+* [[Hodge theory]]
+
 ## References
 
 * [[Daniel Huybrechts]], _Complex Geometry_
