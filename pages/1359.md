@@ -53,10 +53,10 @@ etc.
 
 ## Properties
 
-Passing from a [[dg-category]] to its category of twisted complexes is a step towrds enhancing it to a [[pretriangulated dg-category]].
+Passing from a [[dg-category]] to its category of twisted complexes is a step towards enhancing it to a [[pretriangulated dg-category]].
 
 ## Related concepts
 
-* [[Landau-Ginzburg model]]
+* [[Landau-Ginzburg model]], [[pretriangulated dg-category]]
 
 [[!redirects twisted complexes]]
