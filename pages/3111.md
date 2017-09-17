@@ -5,13 +5,13 @@
 
 ## Definition
 
-A **generic proof** in a [[category]] $C$ is a map ([[morphism]]) $\theta\colon \Theta\to\Lambda$ with all [[pullbacks]] such that, for every map $f\colon Y\to X$, there exists a (not necessarily unique) map $\nu\colon X\to \Lambda$ such that $f$ and the [[pullback|pulled back]] map $\nu^*\theta\colon \Theta \times_\Lambda X \to X$ each factor through each other, i.e. they are equivalent in the [[preorder reflection]] of the [[slice category]] $C/X$.
+A **generic proof** in a [[category]] $C$ is a map ([[morphism]]) $\theta\colon \Theta\to\Lambda$ with all [[pullbacks]] such that, for every map $f\colon Y\to X$, there exists a (not necessarily unique) map $\nu\colon X\to \Lambda$ such that $f$ and the [[pullback|pulled back]] map $\nu^*\theta\;\colon\; \Theta \times_\Lambda X \to X$ each factor through each other, i.e. they are equivalent in the [[preorder reflection]] of the [[slice category]] $C/X$.
 
 $$ \array {
    Y \\
    \uparrow \downarrow & \searrow^f \\
    \Theta \times_\Lambda X & \overset{\nu^*\theta}\longrightarrow & X \\
-   \downarrow & & \downarrow\rlap{\nu} \\
+   \downarrow & & \downarrow\mathrlap{\nu} \\
    \Theta & \overset{\theta}\longrightarrow & \Lambda
 } $$
 
