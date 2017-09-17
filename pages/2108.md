@@ -201,46 +201,63 @@ corresponding to $f$;
 ### Geometric quantization
  {#GeometricQuantizationProper}
 
-Given a [[prequantum bundle]] as above, the remaining step of genuine _geometric quantization_ consists of forming _half_ its space of sections in a certain sense. See at _[[polarization]]_ for the physical intuition behind this
+Given a [[prequantum bundle]] as above, the actual step of genuine _geometric quantization_ consists of forming _half_ its space of sections in a certain sense. Physically this means passing to the space of [[wavefunctions]] that depend only on [[canonical coordinates]] but not on [[canonical momenta]].
 
-A traditional way to formalize this is as a 3-step process
+The traditional way to formalize this is as a 3-step process
 
-1. choose a [Polarization](#Polarizations)
+1. choose a [Polarization](#Polarizations);
 
-1. choose a [Metaplectic correction](#MetaplecticCorrection)
+1. choose a [Metaplectic correction](#MetaplecticCorrection);
 
-1. form the induced [Space of states](#QuantumSpaceOfStates) as the space of polarized sections sensored a certain half-form bundle.
+1. form the induced [[space of quantum states]] as the space of polarized sections of the [[prequantum line bundle]] tensored a certain half-form bundle.
 
-Another way which works more generally and coincides with this prescription under mild conditions is to 
+This we discuss at 
 
-1. choose a [[spin^c structure]] compatible with the given prequantum bundle
+* _[Quantum state space as space of polarized sections](#Polarizations)_
 
-1. form the [[fiber integration in differential K-theory]] of the prequantum bundle.
+This traditional route via polarizations and metaplectic corrections has the disadvantage that mathematically it is not a very natural operation.  However, under mild conditions it turns out to be [[equivalence|equivalent]] to the following mathematically very natural construction
 
-This _[[spin^c quantization]]_ is discussed further at _[[geometric quantization by push-forward]]_.
+1. choose a [[KU-orientation]], hence a  [[spin^c structure]] of $X$ compatible with the given prequantum bundle;
 
-#### Polarizations 
+1. take the space of quantum states to be the [[push-forward in generalized cohomology|push-forward]] in [[complex K-theory]] of the [[prequantum line bundle]] to the point, hence the [[index]] of the [[spin^c Dirac operator]] twisted by the [[prequantum line bundle]].
+
+This general _[[geometric quantization by push-forward]]_ is discussed below at  
+
+* _[Quantum space of states as index of a Dirac operator](#AsIndexOfDiracOperator)_.
+
+In the special case that the [[prequantum line bundle]] admits a [[Kähler polarization]] this push-forward quantization has a direct expression in terms of the [[complex geometry|complex]] [[abelian sheaf cohomology]] and of the [[Dolbeault operator]] of the prequantum [[holomorphic line bundle]]. This we discuss in 
+
+* _[Quantum state space as Euler characteristic of pequantum sheaf cohomology](#EulerCharacteristicOfSheafCohomology)_
+
+and
+
+* _[Quantum state space as index of the Dolbeault-Dirac operator](#IndexOfDolbeaultDiracOperator)_.
+
+
+#### Quantum state space as space of polarized sections 
  {#Polarizations}
 
 For $(X, \omega)$ a [[symplectic manifold]], a **[[polarization]]** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$.
 
 After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **Bohr-Sommerfeld [[leaf]]** of a polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]].
 
-#### Metaplectic correction
- {#MetaplecticCorrection}
 
-For the moment see at _[[metaplectic correction (in geometric quantization)]]_.
+See also at _[[metaplectic correction (in geometric quantization)]]_.
+
+#### Quantum state space as Euler characteristic of prequantum sheaf cohomology
+ {#EulerCharacteristicOfSheafCohomology}
+
+(...)
+
+#### Quantum state space as index of Dolbeault-Dirac operator
+ {#IndexOfDolbeaultDiracOperator}
+
+#### Quantum state spaces as index of $Spin^c$-Dirac operator
+ {#AsIndexOfSpinCDiracOperator}
+
+(...)
 
 
-#### $Spin^c$-structure
-
-#### Quantum state space
- {#QuantumSpaceOfStates}
-
-
-(space of sections of the prequantum line bundle whose [[covariant derivative]] along the polarizaiton leaves vanishes...)
-
-For the moment see at **[[space of states (in geometric quantization)]]_.
 
 ## Properties
 
