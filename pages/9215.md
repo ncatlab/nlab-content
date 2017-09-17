@@ -20,4 +20,14 @@ See also
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
 
+One explicit version of
+
+* [[3d Chern-Simons theory]] $\leftarrow$[[holographic principle]]$\to$ [[2d WZW model]]
+
+
+is the relation [[Turaev-Viro model]] $\leftrightarrow$ [[Yetter model]] due to theorem 2 in 
+
+* [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
+  {#BarrettGarciIslasMartins04}
+
 category: reference
