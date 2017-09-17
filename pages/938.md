@@ -77,7 +77,50 @@ Accrdingly, weak homotopy equivalences are the [[weak equivalences]] in the clas
 
 ## Properties
 
+### Equivalent characterizations
+ {#EquivalentCharacterizations}
+
++-- {: .num_prop }
+###### Proposition
+
+A continuous map $f : X \to Y$ is a weak homotopy equivalence
+precisely if for all $n \in \mathbb{N}$ and for all [[commuting diagrams]] of continuous maps of the form
+
+$$
+  \array{
+    S^{n-1} &\to& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    D^n &\to& Y
+  }
+  \,,
+$$
+
+where the left morphism is the inclusion of the $(n-1)$-[[sphere]] as the [[boundary]] of the $n$-[[ball]], 
+there exists a continuous map $\sigma : D^n \to X$
+that makes the resulting upper triangle commute and such that the lower triangle commutes up to a [[homotopy]]
+
+$$
+  \array{
+    S^{n-1} &&\to&& X
+    \\
+    \\
+    \downarrow && \nearrow & \swArrow& \downarrow^{\mathrlap{f}}
+    \\\\
+    D^n &&\to&& Y
+  }
+$$
+
+which is constant along $S^{n-1} \hookrightarrow D^n$.
+
+=--
+
+This was observed and proven in ([Jardine](#Jardine)) (where it is also generalized to weak equivalences in a [[model structure on simplicial presheaves]]). See also around ([Lurie, prop. 6.5.2.1](#Lurie)).
+
+
 ### Relation to homotopy equivalences
+ {#RelationToHomotopyEquivalences}
 
 +-- {: .num_prop }
 ###### Proposition
@@ -212,6 +255,16 @@ This is the simplest in a class of counter-examples discussed in ([McCord](#McCo
 * [[equivalence of (∞,1)-categories]]
 
 ## References
+
+The characterization of weak homotopy equivalences by lifts up to homotopy seems to be due to 
+
+* [[Rick Jardine]], _Simplicial Presheaves_, Journal of Pure and Applied Algebra 47, 1987, no.1, 35-87.
+ {#Jardine}
+
+For related and general discussion see also section 6.5 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 Examples for the non-symmetry of the weak homotopy equivalence relation are in 
 
