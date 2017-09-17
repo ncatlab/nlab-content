@@ -1,10 +1,15 @@
-# Idea
 
-FOLDS (first-order logic with dependent sorts) is a form of ([[intuitionistic logic|intuitionistic]] or [[classical logic|classical]]) [[predicate logic|predicate]] [[logic]] with a weak form of [[equality]], in which [[category theory]] (and even [[higher category theory]]) can be formulated but it is impossible to say anything [[evil]].  It also induces general notions of [[equivalence]] for higher structures and for objects *in* higher structures, which reduce to familiar notions in most or all cases.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What is called _FOLDS_ (for: _[[first-order logic]] with [[dependent type|dependent sorts]]_) is a form of ([[intuitionistic logic|intuitionistic]] or [[classical logic|classical]]) [[predicate logic|predicate]] [[logic]] with a weak form of [[equality]], in which [[category theory]] (and even [[higher category theory]]) can be formulated but it is impossible to say violate the mathematicsl [[principle of equivalence]].  It also induces general notions of [[equivalence]] for higher structures and for objects *in* higher structures, which reduce to familiar notions in most or all cases.
 
 Formally speaking, FOLDS is "merely" a "first-order fragment" of [[dependent type theory]], but its special treatment of equality, its notions of equivalence, and its relationship to higher-categorical structures distinguish it from DTT in general.  These aspects have been developed primarily by [[Michael Makkai]].
 
-# Signatures
+## Signatures
 
 FOLDS can be formulated using dependent types, terms, contexts, and judgments, as is typical in [[type theory]].  However, it is perhaps easier for a category theorist to understand when presented as the study of the [[presheaves]] which underlie higher-categorical structures.
 
@@ -16,14 +21,14 @@ A FOLDS signature, or vocabulary, should then consist of a simple category of *k
 
 * A **FOLDS signature** or **vocabulary for dependent sorts (DSV)** consists of a simple category together with a distinguished set of maximal objects, called the **relation symbols**.  The objects that are not relation symbols are called **kinds**.
 
-# Examples
+## Examples
 
 ...
 
-# Equivalences
+## Equivalences
 
 ...
 
-# References
+## References
 
-*  First Order Logic with Dependent Sorts, with Applications to Category Theory, available from [Makkai\'s homepage](http://www.math.mcgill.ca/makkai/).
+*  Michael Makkai, _First Order Logic with Dependent Sorts, with Applications to Category Theory_, available from [Makkai\'s homepage](http://www.math.mcgill.ca/makkai/).
