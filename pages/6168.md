@@ -29,7 +29,7 @@ $$
   \,.
 $$
 
-Alternatively, $S\hookrightarrow X$ is coisotriopic if the subalegebra of $C^\infty(X)$ of functions vanishing on $S$ is closed under the Poisson bracket.
+Alternatively, $S\hookrightarrow X$ is coisotropic if the subalgebra of $C^\infty(X)$ of functions vanishing on $S$ is closed under the Poisson bracket.
 
 ## Related concepts
 
