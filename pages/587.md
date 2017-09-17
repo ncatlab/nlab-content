@@ -42,7 +42,7 @@ Even if one is completely uninterested in [[internalization]] or weak logics, a 
 
 ## Related pages
 
-* The category of contexts in a theory forms its [[syntactic category]], which is important in the [[relation between type theory and category theory]].
+* The category of contexts in a theory forms its [[syntactic category]], which is a [[split model of type theory]] and is important in the [[relation between type theory and category theory]].
 
 
 [[!redirects context]]
