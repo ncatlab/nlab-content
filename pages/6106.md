@@ -7,14 +7,24 @@
 
 The [[loop space]] of a [[topological group]] inherits itself the structure of a [[group]] under pointwise group multiplication of loops. This is called a _loop group_ .
 
+## Related concepts
+
+* [[string group]]
+
+
 ## References
 
 The standard textbook on loop groups is
 
 * Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
 
-## Related concepts
+The relation between [[representation]]s of loop groups and [[twisted K-theory]] over the group is the topic of
 
-* [[string group]]
+* [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]
+
+
 
 [[!redirects loop groups]]
+
+[[!redirects loop group representation]]
+[[!redirects loop group representations]]
