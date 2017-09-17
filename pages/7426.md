@@ -1,0 +1,6 @@
+##atomic Boolean algebra
+
+##Definition
+Given an element $a$ of a [[Boolean algebra]] $A$, we say that $a$ is atomic in $A$ if $a$ is minimal among non-trivial elements of $A$.  That is, given any $b\in A$ such that $b\leq a$, either $b=0$ or $b=a$.  
+
+A Boolean algebra $A$ is _atomic_ if we have $b=\bigvee_I a_i$ for every $b\in  A$, where $\{a_i\}_I$ is some set of atoms in $A$.  
