@@ -21,7 +21,7 @@ This is in contrast to [[force]] [[gauge fields|fields]], whose [[quanta]] are [
 
 In the [[standard model of particle physics]], all matter fields are [[sections]] of a [[spinor bundle]] on [[spacetime]] which is [[associated bundle|associated]] of a $U(1) \times SU(2) \times SU(3)$-[[principal bundle]].
 
-In the [[standard model of cosmology]] matter is characterized as part of the energy-momentum density with specific _parameter of state_ $w = p/\rho$, see at [[FRW model]].
+In the [[standard model of cosmology]] matter is characterized as part of the energy-momentum density with specific _parameter of state_ $w = p/\rho$, see at _[[FRW model]]_.
 
 ## Related concepts
 
@@ -34,3 +34,6 @@ In the [[standard model of cosmology]] matter is characterized as part of the en
 * [[spinors in Yang-Mills theory]], [[minimal coupling]]
 
 * [[dark matter]]
+
+[[!redirects matter field]]
+[[!redirects matter fields]]
