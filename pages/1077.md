@@ -103,6 +103,27 @@ An [[additive category]], although normally defined through the theory of [[enri
 
 ## Properties
 
+### Semiadditivity as structure/property
+ {#SemiadditivityAsStructureProperty}
+
+Given a category $\mathcal{C}$ with [[zero morphism]], one may imagine equipping it with the [[structure]] of a chosen [[natural isomorphism]]
+
+$$
+  (-)\coprod (-) \stackrel{\simeq}{\longrightarrow} (-)\times(-)
+  \,.
+$$
+
+
++-- {: .num_prop}
+###### Proposition
+
+If a [[category]] with [[zero morphism]], [[coproducts]] and [[products]] carries any [[natural isomorphism]] between [[coproducts]] and [[products]], then it is semi-additive.
+
+=--
+
+([Lack 09, theorem 5](#Lack09)).
+
+
 ### Biproducts imply enrichment -- Relation to additive categories
  {#BiproductsImplyEnrichment}
 
