@@ -196,6 +196,8 @@ Discussion in the context of the [[geometric Langlands correspondence]] is in
 [[!redirects idele class groups]]
 
 [[!redirects idele group]]
+[[!redirects idele groups]]
+
 
 [[!redirects idèle group]]
 [[!redirects group of idèles]]
