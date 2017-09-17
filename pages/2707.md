@@ -214,7 +214,7 @@ There is also
 
 *  James S. Milne, _[Motives -- Grothendieck's Dream](http://www.jmilne.org/math/xnotes/MOT.pdf)_
 
-*  [[Mihnyong Kim]], _[Classical Motives: Motivic $L$-functions](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf)_
+*  [[Minhyong Kim]], _[Classical Motives: Motivic $L$-functions](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf)_
 
 * Bruno Kahn, [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
 
