@@ -20,11 +20,9 @@
 
 ## Definition
 
-In a [[category]] with a notion of [[zero morphism]], [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the zero morphism $0_{c,d}$.  (By a 'notion of zero morphism', we really mean that the category is [[enriched category|enriched]] over [[pointed sets]].)
+### Definition as a pullback 
 
-### As a pullback 
-
-In a category with a [[zero object]], the kernel can also be described as a [[pullback]]:
+In a category with an [[initial object]] $0$, the __kernel__ $ker(f)$ of a morphism $f:c\to d$ is the [[pullback]]
 $$
   \array{
     ker(f)
@@ -37,9 +35,12 @@ $$
   }
   \,.
 $$
-As $0$ is initial the map $0\to d$ in this diagram is unique.
 
-This definition actually makes sense in any category with an [[initial object]], giving a more general notion.
+As $0$ is initial the map $0\to d$ in this diagram is unique. More precisely, the kernel is the object $ker(f)$ together with the kernel arrow $ker(f)\to c$. 
+
+### Definition as an equalizer
+
+In a [[category]] with a notion of [[zero morphism]]), [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the zero morphism $0_{c,d}$.  (By a 'notion of zero morphism', we really mean that the category is [[enriched category|enriched]] over [[pointed sets]].)
 
 ### As a weighted limit 
 
@@ -47,10 +48,22 @@ In any category enriched over pointed sets, the kernel of a morphism $f:c\to d$ 
 
 This is a special case of the construction of [[generalized kernels]] in enriched categories.
 
+### $ker$ as a representing object
+
+Let $Ab$ be the category of abelian groups. It is a category with kernels. In an [[abelian category]] $A$, for every morphism $f: X\to Y$ in $A$ there is the [[subfunctor]] 
+
+$$ker f : A^{op}\to Ab$$
+
+of the representable functor $hom(-,X)$ defined on objects by
+
+$$ (ker f)(Z) = ker(hom(Z,X)\to hom(Z,Y)). $$
+
+It follows that $ker f$ is also representable with representing object $Ker f$. One has to be careful with $Coker f$ which does not represent naive  $coker f$ defined as $(coker f)(Z) = coker(hom(Z,X)\to hom(Z,Y))$ in $Ab$,
+which is often not representable at all, but is rather defined by the double dualization using the kernel in $Ab$: $Coker f = (Ker f^{op})^{op}$.
 
 ### In an $(\infty,1)$-category 
 
-The kernel of a morphism in an [[(∞,1)-category]] with $\infty$-categorical [[zero object]] is the [[homotopy pullback]] of the above kind: the [[homotopy fiber]]. 
+The kernel of a morphism in an [[(∞,1)-category]] with $\infty$-categorical [[zero object]] is the [[homotopy pullback]] as in the pullback definition above: the [[homotopy fiber]]. 
 
 See also [[stable (∞,1)-category]].
 
