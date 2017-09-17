@@ -1,15 +1,16 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A Wilson loop is an operator in (both classical and quantum) [[gauge theory]] obtained from the [[holonomy]] of the [[gauge field|gauge]] [[connection on a bundle|connection]]. More precisely, __Wilson loop__ along a closed loop $C$ is the trace of the time ordered exponential
+A Wilson loop is an operator in (both classical and quantum) [[gauge theory]] obtained from the [[holonomy]] of the [[gauge field|gauge]] [[connection on a bundle|connection]]. More precisely, the __Wilson loop__ along a closed [[loop]] $C$ is the trace of the [[time-ordered exponential]]
 $$
 W_C = Tr(\mathcal{P}exp(i\oint_C A_\mu d x^\mu))
 $$
 where $\mathcal{P}$ is the "time-ordering operator" and $A_\mu$ are the components of the connection. 
+
 
 ## References
 
@@ -20,4 +21,6 @@ where $\mathcal{P}$ is the "time-ordering operator" and $A_\mu$ are the componen
 * A. Andrasi, J. C. Taylor, _Renormalization of Wilson operators in Minkowski space_, Nucl. Phys. B516 (1998) 417, [hep-th/9601122](http://arxiv.org/abs/hep-th/9601122)
 * Amit Sever, Pedro Vieira, Luis F. Alday, Juan Maldacena, [[Davide Gaiotto]], _An Operator product expansion for polygonal null Wilson loops_, [arxiv.org/abs/1006.2788](http://arxiv.org/abs/1006.2788)
 
+
+[[!redirects Wilson loop]]
 [[!redirects Wilson loops]]
