@@ -40,7 +40,7 @@ and whose [[differential]] is given on elements $(x,y)$ of homogeneous degree by
 
 $$
   \partial^{X \otimes Y} (x, y) = (\partial^X x, y) + 
-  (-1)^{deg(y)} (x, \partial^Y y)
+  (-1)^{deg(x)} (x, \partial^Y y)
   \,.
 $$
 
