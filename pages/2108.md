@@ -237,24 +237,27 @@ and
 #### Quantum state space as space of polarized sections 
  {#Polarizations}
 
-For $(X, \omega)$ a [[symplectic manifold]], a **[[real polarization]]** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$, equivalently an involutive real Lagrangian subbundle $\mathcal{P} \subset T X$
-A choice of [[metaplectic correction]] of $\mathcal{P}$ defines the [[half-density]] bundle $\sqrt{\Omega \mathcal{P}}$. 
+For $(X, \omega)$ a [[symplectic manifold]], choose a [[Kähler polarization]], hence an involutive Lagrangian subbundle $\mathcal{P} \subset T_{\mathcal{C}} X$ such that $\mathcal{P} \cap \overline{\mathcal{P}} = 0$.
+Choose moreover a [[metaplectic correction]] of $\mathcal{P}$. This defines the [[half-density]] bundle $\sqrt{\Omega \mathcal{P}}$ along $\mathcal{P}$. 
 
 Let now $(L,\nabla)$ be a [[prequantum line bundle]] for $(X,\omega)$.
 
 +-- {: .num_defn }
 ###### Definition
 
-The [[space of quantum states]] of the prequantum bundle defined by choice of [[real polarization]] and [[metaplectic correction]] is the space of those [[sections]] of the [[tensor product]] $L \otimes \sqrt{\Omega \mathcal{P}}$ which are [[covariant derivative]] covariantly constant with respect to $\nabla$ along the leafs of the polarization:
+The [[space of quantum states]] of the prequantum bundle defined by the choice of [[Kähler polarization]] $\mathcal{P}$ and [[metaplectic correction]] $\sqrt{\Omega \mathcal{P}}$ is the space of [[sections]] of the [[tensor product]] $L \otimes \sqrt{\Omega \mathcal{P}}$ which are [[covariant derivative]] covariantly constant with respect to $\nabla$ along $\overline{\mathcal{P}}$ and square integrable with respect to the induced [[integration]] over $X/\overline{\mathcal{P}}$:
 
 $$
   \mathcal{H}_{pol}
   \colon
+  L^2
+  \left(
   \left\{
    \psi \in \Gamma(L \otimes \sqrt{\Omega \mathcal{P}})
    \;|\;
-   \nabla_{\mathcal{P}} \psi = 0
+   \nabla_{\overline{\mathcal{P}}} \psi = 0
   \right\}
+  \right)
   \,.
 $$
 
