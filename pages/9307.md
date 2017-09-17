@@ -62,7 +62,7 @@ and standard textbook accounts include
 
 * [[Kirill Mackenzie]], _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
 
-For properly appreciating the [[homotopy theory]] of Lie groupoids and for passage to more general higher differential geometry it is crucial to understand Lie groupoids as [[smooth stacks]] which are [[geometric stack|geometry]]:  [[differentiable stacks]]. Each of the following references provides introduction to this point of view
+For properly appreciating the [[homotopy theory]] of Lie groupoids and for passage to more general higher differential geometry it is crucial to understand Lie groupoids as [[smooth stacks]] which are [[geometric stack|geometric]]:  _[[differentiable stacks]]_. Each of the following references provides introduction to this point of view:
 
 * [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
 
@@ -72,9 +72,9 @@ For properly appreciating the [[homotopy theory]] of Lie groupoids and for passa
 
 As a warmup for these considerations it may be useful to first look at [[smooth spaces]] given by just [[sheaves]] on the site of [[smooth manifolds]], see at 
 
-* [[geometry of physics]] -- [[geometry of physics -- smooth spaces|smooth spaces]]
+* [[Urs Schreiber]], _[[geometry of physics]] -- [[geometry of physics -- smooth spaces|smooth spaces]]_
 
-Passing from here to more general [[smooth groupoids]], to [[smooth groupoids]] and then eventually to [[smooth ∞-groupoids]] involves [[(∞,1)-topos theory]] proper, with some tools as discussed at _[[model structure on simplicial presheaves]]_ over the [[site]] of [[smooth manifolds]], or equivalently just over its [[dense subsite]] of [[Cartesian spaces]].
+Passing from here to more general [[smooth groupoids]], to [[smooth 2-groupoids]] and then eventually to [[smooth ∞-groupoids]] involves [[(∞,1)-topos theory]] proper, with some tools as discussed at _[[model structure on simplicial presheaves]]_ over the [[site]] of [[smooth manifolds]], or equivalently just over its [[dense subsite]] of [[Cartesian spaces]].
 
 For motivation for this step see also
 
