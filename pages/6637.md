@@ -52,7 +52,11 @@ The connected components of the [[subgroup]] of outer automorphisms of the a [[s
 
 * **outer automorphism group**, [[outer automorphism ∞-group]]
 
+* [[Outer space]]
+
 [[!redirects outer automorphism group]]
 [[!redirects outer automorphism groups]]
 
 [[!redirects outer automorphisms]]
+
+
