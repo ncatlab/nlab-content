@@ -61,8 +61,10 @@ The image of this morphism is a normal sub-crossed module of $(M,P,\mu)$, so we 
 $$\overline{\mu} : M/\lambda L \to P/\nu N,$$
 and this is a crossed module, as is the kernal crossed module of this (horizontal) morphism.
 
+
+## Examples
  
-## Homotopical example
+### Homotopical example
 
 The classical homotopical example $\Pi(X;A,B)$ is determined by a pointed [[triad]] $(X; A,B)$ where $A,B \subseteq X$, and $P = \pi_1(A \cap B)$, $M = \pi_2(A, A \cap B), N = \pi_2(B, A \cap B)$ and $L=\pi_3(X; A,B)$. The operations of $P$ are the standard ones and  $h$ is the generalised [[Whitehead product]]. (The conventions may be slightly different from the standard ones in homotopy theory.)  This can be generalised to a functor $\Pi$ from squares of pointed spaces to crossed squares.
 
@@ -74,7 +76,8 @@ where the fact that that the crossed square associated to a triad is defined dir
 
 The fact that there is a [[van Kampen theorem|van Kampen type theorem]] for $\Pi$ implies that one calculates some nonabelian groups. It also implies that one is calculating some (pointed) homotopy 3-types. 
 
-#Algebraic example#
+### Algebraic example
+
 The example hinted at above has $P$ a group, $M$ and $N$ normal subgroups, and $L = M \cap N$,
 
 $$\array{& M\cap N & {\to}^\lambda & M & \\
@@ -84,7 +87,7 @@ $$\array{& M\cap N & {\to}^\lambda & M & \\
 
 with all maps the evident inclusions, all actions by conjugation, and $h : M \times N \to M\cap N$ given by $h(m,n) = [m,n]$.
 
-## Simplicial group example
+### Simplicial group example
 
 If we replace each group in the algebraic example by a simplicial group, we would have a simplicial crossed square, now apply the connected component functor to that and you get a crossed square, and in fact any crossed square can be constructed up to isomorphism in this way.
 
@@ -101,13 +104,27 @@ T. Porter, _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (19
 which also contains the discussion of the generalisation to [[crossed n-cube|crossed n-cubes]]
 
 
-## Relation to $cat^2$-groups
+## Properties
+
+### Relation to $cat^2$-groups
 
 A crossed module $\mu: M \to P$ determines a $cat^1$-structure on the [[semidirect product]] group $M \rtimes P$. Thus to say that the above crossed square is a _crossed module of crossed modules_ suggests that we should ask for $L \rtimes N \to M \rtimes P$ to be a crossed module, so that there is an action which allows the _big group_ $G = (L \rtimes N) \rtimes (M \rtimes P)$ to be a $cat^1$-group. Then $G$ becomes a _$cat^2$-[[cat-2-group|group]]_. The $h$-map of the crossed square derives from a commutator in $G$.
 
 This equivalence between crossed squares and $cat^2$-groups confirms the completeness of the axioms for crossed squares. Notice also that to prove a diagram of crossed squares is a [[colimit]] diagram, it looks as if you have to make appallingly detailed verifications of axioms. It is much easier to prove the corresponding diagram of $cat^2$-groups is a colimit!
 
 This theme of using two equivalent categories, one for conjecture and proof, the other for calculation and application to traditional invariants, runs through the story of [[higher homotopy van Kampen theorems]].
+
+
+## Related concepts
+
+* [[crossed module]], [[differential crossed module]]
+
+* [[2-crossed module]] / **crossed square**, [[differential 2-crossed module]]
+
+* [[crossed complex]]
+
+* [[hypercrossed complex]]
+
 
 
 [[!redirects crossed squares]]
