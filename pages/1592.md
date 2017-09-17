@@ -276,3 +276,4 @@ An account of the traditional way to think of the construction of the universal 
 
 
 [[!redirects universal cover]]
+[[!redirects Whitehead tower in an (∞,1)-topos]].
