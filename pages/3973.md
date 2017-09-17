@@ -178,6 +178,8 @@ See [[infinity-representation]].
 
 * [[2-vector space]]
 
+  * _[[TwoVect]]_ is a Mathematica software package for computer algebra with 2-vector spaces
+
 * **$n$-vector space**, [[n-vector bundle]], 
 
 ## References
