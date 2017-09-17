@@ -340,4 +340,4 @@ The use of the Weil algebra in the calculation of the equivariant [[de Rham coho
 
 For the role played by the Weil algebra in the general context of [[∞-Lie theory]] see
 
-* Hisham Sati, Urs Schreiber, Jim Stasheff, _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ ([arXiv](http://arxiv.org/abs/0801.3480))
+* Hisham Sati, Urs Schreiber, Jim Stasheff, _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
