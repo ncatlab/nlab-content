@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -49,7 +59,7 @@ The generalization to K-nuclearity was introduced and discussed in
 [[!redirects K-nuclear C-star-algebra]]
 [[!redirects K-nuclear C-star-algebras]]
 
-[[!redirects K-nuclear C-*-algebra]]
-[[!redirects K-nuclear C-*-algebras]]
+[[!redirects K-nuclear C*-algebra]]
+[[!redirects K-nuclear C*-algebras]]
 
 
