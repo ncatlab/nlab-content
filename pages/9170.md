@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[model (in theoretical physics)]] in [[cosmology]]. Originally proposed as a [[phenomenology|phenomenologically viable]] model, but later ruled out by observation, which instead prefers the [[big bang]] [[FRW model]].
+
+## Related concepts
+
+* [[cosmic inflation]]
+
+## References
+
+* Wikipedia, _[Steady state theory](http://en.wikipedia.org/wiki/Steady_State_theory)_
+
+[[!redirects steady state model]]
+[[!redirects steady state theory]]
+
