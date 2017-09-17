@@ -47,6 +47,8 @@ $$
 
 ([Witten 11, p. 29](#Witten11))
 
+The resulting [[4d TQFT]] is also called the _[[Kapustin-Witten TQFT]]_.
+
 ### For $N = 2$ supersymmetry
 
 For [[N=2 D=4 super Yang-Mills theory]] the twisting follows the same idea, but is a little but more intricate ([Witten 11, section 5.1.1](#Witten11))
