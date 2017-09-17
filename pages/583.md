@@ -73,7 +73,7 @@ There are many different kinds of of "logical theories", each of which correspon
 |[[higher order logic|higher order]]| |[[topos|elementary topos]]|
 [[linear logic]]| |[[symmetric monoidal category]]|
 
-Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having finite products, such as finite sum sketches, but the type-theoretic approach taken on this page requires at least finite products (or else something closely akin, such as a [[cartesian multicategory]]).
+Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category show up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having finite products, such as finite sum sketches, but the type-theoretic approach taken on this page requires at least finite products (or else something closely akin, such as a [[cartesian multicategory]]).
 
 However, there are other sorts of [[internalization]] that do not fit in this framework.  For instance, to describe a [[monoid]] internal to a [[monoidal category]], one needs an internal [[linear logic]].  See [[internalization]] for a discussion of the more  general notion in the context of [[doctrine]]s.
 
