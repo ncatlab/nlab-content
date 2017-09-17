@@ -293,3 +293,6 @@ _[[Urs Schreiber|Urs]]_: Yes, exactly. There was the idea that, since many finit
 [[!redirects Lorentzian manifolds]]
 [[!redirects smooth Lorentzian manifold]]
 [[!redirects smooth Lorentzian manifolds]]
+
+[[!redirects Lorentzian space]]
+[[!redirects Lorentzian spaces]]
