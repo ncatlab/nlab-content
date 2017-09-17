@@ -1,0 +1,3 @@
+A [[scheme]]  over a field $k$ is called *locally algebraic scheme* if it has a covering $\{X_i\}$ of (open affine sub functors which are) [[affine scheme|affine schemes]] and all $O(X_i)$ are finitely generated $k$-algebras.
+
+A scheme is called *algebraic scheme* if moreover there exist a finite such covering.
