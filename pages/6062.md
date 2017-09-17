@@ -21,13 +21,19 @@
 
 ## Idea
 
-There exists a [[model category]] structure on a [[category]] of [[dg-coalgebra]]s whose fibrant objects are precisely [[L-∞ algebra]]s.
-
-## Definitions and Quillen equivalences
+There exist various [[model category]] structures which [[presentable (infinity,1)-category|present]] the [[homotopy theory]] of [[L-∞ algebras]].
 
 By definition [[L-∞ algebras]] are the [[∞-algebras]] in the [[category of chain complexes]] over the [[Lie operad]]. As such they carry a [[model structure on algebras over an operad]]. There is a strictification which leads equivalently to a [[model structure on dg-Lie algebras]].
 
-One succinct way to present [[L-∞ algebras]] (as discussed there) is as [[dg-coalgebras]]:
+A more geometric way is to think of [[L-∞ algebras]] as being the [[tangent spaces]] to connected [[smooth ∞-groupoids]], hence to the [[delooping]]/[[moduli ∞-stacks]] $\mathbf{B}G$ of [[smooth ∞-groups]], hence as the first order infinitesimal neighbourhood
+
+$$
+  \mathbf{B}\mathfrak{g} \hookrightarrow \mathbf{B}G
+$$
+
+of the essentially unique point $* \to \mathbf{B}G$ (see at _[[Lie differentiation]]_). Since this is equivalently the first order neighbourhood of the _[[formal geometry|formal]]_ neighbourhood (the [[jets]]) and the formal neighbourhood can be described purely in terms of [[associative algebra]]/[[coalgebra]] (see at [[smooth algebra]]) many models for $L_\infty$-algebras are formulated in terms of such data.
+
+In particular, one succinct way to present [[L-∞ algebras]] (as discussed there) is as [[dg-coalgebras]]:
 
 +-- {: .num_defn }
 ###### Definition
@@ -46,7 +52,22 @@ $$
 Accordingly it is of interest to have a also [[model structure on dg-coalgebras]] which presents $L_\infty$-algebras.
 
 
+## Definitions and Quillen equivalences
+
+We list definitions of various [[model category]] structures that all [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] of [[L-∞ algebras]] and describe a web of [[zig-zags]] of [[Quillen equivalences]] between them.
+
+* [On dg-Lie algebras](#OndgLieAlgebras)
+
+* [On dg-Coalgebras](#OndgCoalgebras)
+
+* [On higher sheaves over infinitesimally thickened points](#SheavesOverCosimplicialInfinitesimallyThickenedPoints)
+
+* [dg-infinitesimal thickened points](#OnDgInfinitesimallyThickenedPoints)
+
+
+
 ### On dg-Lie algebras
+ {#OndgLieAlgebras}
 
 Let $k$ be a [[field]] of [[characteristic]] 0.
 
@@ -149,6 +170,7 @@ is also called the **tangent Lie algebra functor**.
 ([Hinich, 1.2.1](#Hinich))
 
 ### On dg-coalgebras
+ {#OndgCoalgebras}
 
 Let $k$ be a [[field]] of [[characteristic]] 0.
 
@@ -302,6 +324,7 @@ This is ([Pridham, cor. 2.16](#Pridham)).
 
 
 ### On dg infinitesimally thickened points
+ {#OnDgInfinitesimallyThickenedPoints}
 
 +-- {: .num_defn #dgFormalSpace}
 ###### Definition
