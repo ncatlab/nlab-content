@@ -6,11 +6,10 @@ Joachim Lambek (usually called Jim) is a mathematician, logician, theoretical li
 
 ## Related entries
 
-* [[lambda-calculus]]
+* [[lambda-calculus]]/[[relation between type theory and category theory]]
 * [[initial algebra]]
-  
-* (probably others)
-
+* [[linguistics]]
+* [[Introduction to Higher-Order Categorical Logic]]
 
 category: people
 
