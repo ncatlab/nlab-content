@@ -73,7 +73,7 @@ defined on [[basis]] elements $\sigma \in S_n$ to be the alternating sum of the 
 
 \[
   \label{AlternatingFaceMapDifferential}
-  \partial \sigma \coloneqq \sum_{k = 0}^n (-1)^k d_i \sigma
+  \partial \sigma \coloneqq \sum_{k = 0}^n (-1)^k d_k \sigma
   \,.
 \]
 
