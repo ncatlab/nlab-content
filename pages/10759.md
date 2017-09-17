@@ -130,13 +130,13 @@ sufficiently nice [[model category]] $C$ (for instance a [[combinatorial  model 
 Specifically, as discussed at _[homotopy limit -- Examples -- Over sequential diagrams](homotopy+limit#SequentialHocolims)_ a cofibrant resolution of a [[sequential diagram]] $(\mathbb{N}, \leq) \to C$ is a sequential diagram all whose whose objects are cofibrant and all whose morphisms are cofibrations in $C$
 
 $$
-  \cdots \to X^C_{n-1} \stackrel{cof}{\to} X_{n}^C \stackrel{cof}{\to} X_{n+1}^C \to \cdots
+  \emptyset \stackrel{cof}{\to} X_0 \stackrel{cof}{\to} \cdots \to X^C_{n-1} \stackrel{cof}{\to} X_{n}^C \stackrel{cof}{\to} X_{n+1}^C \to \cdots
   \,,
 $$
 
 where $X_n^C \in C$ denotes an object in the model category presenting the given object $X_n \in \mathcal{C}$. 
 
-Moreover, in many [[model categories]] that appear in practice the cofibrations are in particular [[monomorphisms]], notably in a projective [[model structure on chain complexes]]. In these cases then a filtering on an object $X \in \mathcal{C}$ in the abstract sense of [[(∞,1)-categories]] is presented by a [[filtered object]] $X^C \in C$ in the sense of plain [[category theory]].
+Moreover, in many [[model categories]] that appear in practice the cofibrations are in particular [[monomorphisms]], this is the case in particular in a projective [[model structure on chain complexes]]. In these cases then a filtering on an object $X \in \mathcal{C}$ in the abstract sense of [[(∞,1)-categories]] is presented by a [[filtered object]] $X^C \in C$ in the sense of plain [[category theory]].
 
 The intrinsic definition \ref{GeneralizedFilteredObject} makes manifest however that the [[monomorphism]]-aspect here is just a means of a presentation of the filtering and not an intrinsic aspect of the [[homotopy theory]]. 
 
@@ -185,7 +185,7 @@ for the [[full sub-(∞,1)-category]] of diagrams satisfying these conditions.
 
 This is [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
 
-+-- {: .num_remark}
++-- {: .num_remark #MoreSquaresArePushouts}
 ###### Remark
 
 
@@ -293,14 +293,14 @@ $$
   }
 $$
 
-where the squares labeled "c" are (co-)cartesian ([[homotopy pushouts]]). 
+where the squares labeled "c" are (co-)cartesian ([[homotopy pushouts]]) ( by def. \ref{ChainComplexInducedFromZComplex} and by remark \ref{MoreSquaresArePushouts} and ). 
 Notice that the [[homotopy pushout]] of the outermost [[span]] gives the [[suspension]]
 
 $$
   \array{
      F(n-2,n) &\longrightarrow& 0
      \\
-     \downarrow && \downarrow
+     \downarrow &(c)& \downarrow
      \\
      0 &\longrightarrow& \Sigma F(n-2,n)
   }
@@ -455,33 +455,6 @@ $$
 
 restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category $Gap(\mathbb{Z},\mathcal{C})$ of $\mathbb{Z}\cup \{\infty\}$-chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}). The equivalence is given by left and right [[(∞,1)-Kan extension]].
 
-Dually:
-
-Consider the inclusion of [[posets]]
-
-$$
-  (\mathbb{Z}, \leq)
-  \to 
-  (\mathbb{Z}\cup \{\infty\}, \leq)^{\Delta[1]}
-$$
-
-given by
-
-$$
-  n \mapsto (n,\infty)
-  \,.
-
-$$
-
-The induced [[(∞,1)-functor]]
-
-$$
-  Func((\mathbb{Z}\cup \{\infty\}, \leq)^{\Delta[1]}, \mathcal{C})
-  \longrightarrow
-  Func((\mathbb{Z}, \leq), \mathcal{C})
-$$
-
-restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category of $\mathbb{Z}\cup \{\infty\}$-chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of generalized filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}).
 
 
 =--
@@ -512,11 +485,6 @@ $$
 
 be [[homotopy pushout]] squares.
 
-Dually:
-
-given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by the [[homotopy fiber]]
-
-$$ X(n, n+r) = \operatorname{fib}(X_n\to X_{n+r}). $$
 
 =--
 
@@ -673,7 +641,7 @@ $$
 
 
 Since $d_r$ is by definition the [[image]] morphism of a [[connecting homomorphism]], for showing $d_r \circ d_r = 0$ it suffices to show that the connecting homomorphisms compose to the [[zero morphism]], 
-$\delta_r \circ \delta_r \simeq 0$. This is the argument
+$\delta_r \circ \delta_r \simeq 0$. This is the same argument
 as in the proof of prop. \ref{ZComplexInCInducedChainComplexInHoC}, generalized from vertical steps of length 1 to vertical steps of length $r$.
 
 Explicitly, we have the pasting diagram 
@@ -727,9 +695,7 @@ $$
 
 in $\mathcal{C}$.
 
-Next, to show the homology isomorphisms.
-
-Consider for fixed $p,q,r$ the usual abbreviation
+Next, to show the homology isomorphisms; consider for fixed $p,q,r$ the usual abbreviation
 
 $$
   C \coloneqq E_r^{p,q}
@@ -787,9 +753,9 @@ $$
   \,.
 $$
 
-Since the bottom right moprhism is a [[monomorphism]] by construction, the claim is equivalently that the total composite from top-left to bottom right is zero. By commutativity of the diagram this factors through the composite from top-right to bottom-right. As indicated, this in turn factors through two consecutive morphisms of an $(i \leq j \leq k)$-square, which by definition of $\mathbb{Z}$-chain complex is null-homotopic.
+Since the bottom right morphism is a [[monomorphism]] by construction, the claim is equivalently that the total composite from top-left to bottom right is zero. By commutativity of the diagram this factors through the composite from top-right to bottom-right. As indicated, this in turn factors through two consecutive morphisms of an $(i \leq j \leq k)$-square, which by definition of $\mathbb{Z}$-chain complex is null-homotopic.
 
-By an dual argument one has that $\pi_{p+q}X(p-1, p+r)$ is in the [[coimage]] of $d_r$. This shows that we indeed have the above sequence of morphisms $\stackrel{\phi}{\to}\stackrel{\phi'}{\to}\stackrel{\psi'}{\to}\stackrel{\psi}{\to}$.
+By a dual argument one has that $\pi_{p+q}X(p-1, p+r)$ is in the [[coimage]] of $d_r$. This shows that we indeed have the above sequence of morphisms $\stackrel{\phi}{\to}\stackrel{\phi'}{\to}\stackrel{\psi'}{\to}\stackrel{\psi}{\to}$.
 
 It now remains to show that $\phi$ is an [[epimorphism]] (dually $\psi$ will be a [[monomorphism]].) (...[[Higher Algebra|Higher Algebra, p. 41]]...)
 
@@ -809,6 +775,8 @@ $$
   im\left(
     \pi_{p+q} X_{p} \to \pi_{p+q} X
   \right)
+  \,\,\,
+  \in \mathcal{A}
   \,.
 $$
 
@@ -827,7 +795,7 @@ $$
     = 
     \pi_{p+q} \operatorname{cofib}(X_{p-1}\to X_{p})
     \simeq \pi_q (C_p)
-    \;\Rightarrow\;
+    \;\;\Rightarrow\;\;
     \pi_{p+q} X
   \,,
 $$
@@ -857,7 +825,7 @@ This is due to ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). A quick revi
 The assumption $X_{n \lt 0} \simeq 0$  implies that for $i,j \lt 0$ we have, by remark \ref{FromSequencesToZComplexes},
 
 $$
-  X(i,j) \simeq cofif(X_i \to X_j) \simeq 0 \;\;\;\; for\, i,j \lt 0
+  X(i,j) \simeq cofib(X_i \to X_j) \simeq 0 \;\;\;\; for\, i,j \lt 0
 $$
 
 and therefore it follows that $E_r^{p-r,q+r-1}$, being a [[quotient]] of $\pi_{p+q} X(p-2r, p-r)$, vanishes for $r \gt p$.
@@ -865,7 +833,7 @@ and therefore it follows that $E_r^{p-r,q+r-1}$, being a [[quotient]] of $\pi_{p
 The same assumption implies that 
 
 $$
-  X(p-r,p) \simeq X(p) \;\;\;\; for\, p \gt r
+  X(p-r,p) \simeq X_p \;\;\;\; for\, p \gt r
 $$
 
 and so $E_\infty^{p,q}$ is 
@@ -887,10 +855,16 @@ $$
 
 We need to show that this image is the [[associated graded object]] of the filtered homotopy groups.
 
-To that end, observe then that that [[homotopy fiber sequences]] $X_{p-1} \to X_{p+r} \to X(p-1,p+r)$ for all $r$ give a homotopy fiber sequence under the colimit over $r$ of the form
+To that end, observe that the [[homotopy fiber sequences]] 
 
 $$
-  X_{p_1} \to X \to Y
+  X_{p-1} \to X_{p+r} \to X(p-1,p+r)
+$$ 
+
+for all $r$ give a homotopy fiber sequence under the colimit over $r$ of the form
+
+$$
+  X_{p-1} \to X \to Y
   \,.
 $$
 
@@ -966,6 +940,43 @@ We discuss here the dual notion to the spectral sequence
 of a filtered object above, now for a cofiltered object.
 
 > The following does not just dualize but also change the indexing convention on top of dualization. Needs further discussion/harmonization.
+
+
++-- {: .num_prop}
+###### Proposition
+
+Consider the inclusion of [[posets]]
+
+$$
+  (\mathbb{Z}, \leq)
+  \to 
+  (\mathbb{Z}\cup \{\infty\}, \leq)^{\Delta[1]}
+$$
+
+given by
+
+$$
+  n \mapsto (n,\infty)
+  \,.
+
+$$
+
+The induced [[(∞,1)-functor]]
+
+$$
+  Func((\mathbb{Z}\cup \{\infty\}, \leq)^{\Delta[1]}, \mathcal{C})
+  \longrightarrow
+  Func((\mathbb{Z}, \leq), \mathcal{C})
+$$
+
+restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category of $\mathbb{Z}\cup \{\infty\}$-chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of generalized filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}).
+
+=--
+
+Given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by the [[homotopy fiber]]
+
+$$ X(n, n+r) = \operatorname{fib}(X_n\to X_{n+r}). $$
+
 
 +-- {: .num_defn #ExactCoupleForFilteredObject}
 ###### Definition
@@ -1121,6 +1132,11 @@ There is also a dual statement in which limits are replaced by colimits, but it 
  {#Examples}
 
 
+### General
+
+[[!include Lurie spectral sequences -- table]]
+
+
 +-- {: .num_example }
 ###### Example
 
@@ -1137,6 +1153,7 @@ the traditional notion of a _[[spectral sequence of a filtered complex]]_.
 Let $\mathcal{C} = Spec^{op}$ be the opposite (∞,1)-category of spectra, let $\mathcal{A}$ be the opposite category of abelian groups, and let $\pi$ be the functor $[K,-]$ where $K$ is spectrum. Then condition (1) in Proposition \ref{FiltrationSpectralSequence} holds for all filtered objects if and only if $K$ is a [[finite spectrum]]. When the filtered object is the [[Whitehead tower]] of a spectrum $E$, the associated spectral sequence is the [[Atiyah-Hirzebruch spectral sequence]] with target $E^*(K)$. It is thus strongly convergent if $K$ is a finite spectrum.
 
 =--
+
 
 +-- {: .num_example #SpectralSequenceOfASimplicialStableHomotopyType}
 ###### Example
@@ -1159,7 +1176,234 @@ See _[[J-homomorphism and chromatic homotopy]]_ for an exposition.
 
 =--
 
-[[!include Lurie spectral sequences -- table]]
+
+### Canonical cosimplicial resolution of $E_\infty$-algebras
+ {#CanonicalCosimplicialResolutionOfEInfinityAlgebras}
+
+We discuss now the special case of coskeletally filtered 
+totalizations coming from the canonical cosimplicial objects
+induced from [[E-∞ algebras]] (dual [[Cech nerves]]/[[Sweedler corings]]/[[Amitsur complexes]]).
+
+In this form this appears as ([Lurie 10, theorem 2](#LurieLecture)). A review is in ([Wilson 13, 1.3](#Wilson13)). For the analog of this in the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
+
+
++-- {: .num_defn #FiltrationOfTotalizationByTotalizationOfCoskeleta}
+###### Definition
+
+Given an [[cosimplicial object in an (∞,1)-category]]  with [[(∞,1)-colimits]]
+
+$$
+  Y \;\colon\; \Delta  \longrightarrow \mathcal{C}
+$$
+
+its [[totalization]] $Tot Y \simeq \underset{\leftarrow}{\lim}_n Y_n$
+is [[filtered object in an (infinity,1)-category|filtered]], def. \ref{GeneralizedFilteredObject}, by the 
+totalizations of its [[coskeleta]]
+
+$$
+  Tot Y 
+  \to 
+  \cdots 
+  \to 
+  Tot (cosk_2 Y) 
+  \to
+  Tot (cosk_1 Y) 
+  \to
+  Tot (cosk_0 Y) 
+  \to 0
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #SpectralSequenceOfSimplicialStableHomotopyType}
+###### Definition
+
+The [[spectral sequence of a filtered stable homotopy type|filtration spectral sequence]], prop. \ref{FiltrationSpectralSequence},
+applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as in def. \ref{FiltrationOfTotalizationByTotalizationOfCoskeleta}, we call the _[[spectral sequence of a simplicial stable homotopy type]]_.
+
+=--
+
+([[Higher Algebra|Higher Algebra, prop. 1.2.4.5]])
+
++-- {: .num_prop #E2PageByMooreComplex}
+###### Proposition
+
+The [[spectral sequence of a simplicial stable homotopy type]] has as first page/$E_1$-term the [[cohomology groups]] of the [[Moore complex]] associated with the [[cosimplicial objects]] of [[homotopy groups]]
+
+$$
+  E_1^{p,q}
+  = 
+  H^p(\pi_q(Tot (cosk_\bullet(Y))))
+  \Rightarrow
+  \pi_{p-q} Tot(Y)
+  \,.
+$$
+
+=--
+
+By the discussion at _[[∞-Dold-Kan correspondence]]_ and _[[spectral sequence of a filtered stable homotopy type]]_. This appears as ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  ([Wilson 13, theorem 1.2.4](#Wilson13)).
+
+
+
+
++-- {: .num_defn}
+###### Definition
+
+Let $S$ be an [[E-∞ ring]] and let $E$ be an [[E-∞ algebra]] over $S$, hence an [[E-∞ ring]] equipped with a [[homomorphism]]
+
+$$
+  S \longrightarrow E
+  \,.
+$$
+
+The _canonical [[cosimplicial object]]_ 
+associated to this (the $\infty$-[[Cech nerve]]/[[Sweedler coring]]/[[Amitsur complex]]) is that given by the iterated [[smash product]]/[[tensor product]] over $S$:
+
+$$
+  E^{\wedge^{\bullet+1}_S} \;\colon\; \Delta \to \mathcal{C}
+  \,.
+$$
+
+More generally, for $X$ an $S$-[[∞-module]], the canonical [[cosimplicial object]] is
+
+$$
+  E^{\wedge^{\bullet+1}_S}\wedge_S X \;\colon\; \Delta \to \mathcal{C}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #FlatnessCondition}
+###### Proposition
+
+If $E$ is such that the self-[[generalized homology]] 
+$E_\bullet(E) \coloneqq \pi_\bullet(E \wedge_S E)$ (the dual $E$-[[Steenrod operations]]) is such that as a [[module]] over $E_\bullet \coloneqq \pi_\bullet(E)$ it is a [[flat module]], then there is a [[natural equivalence]]
+
+$$
+  \pi_\bullet
+  \left(
+    E^{\wedge^{n+1}_S}
+    \wedge_S 
+    X
+  \right)
+  \simeq
+  E_\bullet(E^{\wedge^n_S})
+  \otimes_{E_\bullet}
+  E_\bullet(X)
+  \,.
+$$
+
+=--
+
+Reviewed for instance as ([Wilson 13, prop. 1.3.1](#Wilson13)).
+
++-- {: .num_remark}
+###### Remark
+
+This makes $(E_\bullet, E_\bullet(E))$ be 
+the [[commutative Hopf algebroid]]
+formed by the  $E$-[[Steenrod algebra]]. See there for more on this.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The condition in prop. \ref{FlatnessCondition} is
+satisfied for 
+
+* $E = H \mathbb{F}_p$ an [[Eilenberg-MacLane spectrum]] with $mod\;p$ [[coefficients]];
+
+* $E = B P$ the [[Brown-Peterson spectrum]];
+
+* $E = MU$ the [[complex cobordism cohomology theory|complec cobordism spectrum]].
+
+It is NOT satisfied for
+
+* $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for [[integer|integers]] [[coefficients]];
+
+* $E = M S U$.
+
+=--
+
++-- {: .num_remark #ExtGroupsByMooreComplex}
+###### Remark
+
+Under good conditions (...), $\pi_\bullet$ of the canonical [[cosimplicial object]] provides a [[resolution]] of [[comodule]] [[tensor product]] and hence computes the [[Ext]]-groups over the [[commutative Hopf algebroid]]:
+
+$$
+  H^p(\pi_q(Tot(cosk_\bullet(E^{\wedge^{\bullet+1}_S } \wedge_S X))))
+  \simeq
+  Ext^p_{E_\bullet(E)}(\Sigma^q E_\bullet, E_\bullet(X))
+  \,.
+$$
+
+(...)
+
+=--
+
+
++-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
+###### Remark
+
+There is a canonical map
+
+$$
+  L_E X \stackrel{}{\longrightarrow} \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+$$
+
+from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalization]].
+
+
+=--
+
+([Lurie 10, lecture 30, prop. 1](LurieLecture))
+
+
+We consider now conditions for this morphism to be an [[equivalence]].
+
++-- {: .num_defn #CoreOfARing}
+###### Definition
+
+For $R$ a [[ring]], its _core_ $c R$ is the [[equalizer]] in
+
+$$
+  c R 
+    \longrightarrow 
+  R 
+    \stackrel{\longrightarrow}{\longrightarrow}
+  R \otimes R
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
+###### Proposition
+
+Let $E$ be a [[connective spectrum|connective]] [[E-∞ ring]] such that the core or $\pi_0(E)$, def. \ref{CoreOfARing} is either of
+
+* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \matbb{Z}[J^{-1}]$;
+
+* $\mathbb{Z}_n$ for $n \geq 2$.
+
+Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
+
+$$
+  L_E X \stackrel{\simeq}{\longrightarrow} 
+  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+  \,.
+$$
+
+=--
+
+
+([Bousfield 79](Bousfield+localization+of+spectra#Bousfield79), [Lurie 10, lecture 30, prop. 3](LurieLecture), [Lurie 10, lecture 31, ](LurieLecture)).
+
+
+
+
 
 
 ## References
@@ -1185,7 +1429,11 @@ The traditional discussion of the [[Adams spectral sequence]] in this style orig
 * [[Aldridge Bousfield]], *The localization of spectra with respect to homology*, Topology vol 18 (1979) ([pdf](http://www.math.uwo.ca/~mfrankla/Bousfield_LocalnSpectraHomol.pdf))
 {#Bousfield}
 
-see also at _[[Bousfield localization of spectra]]_.
+see also at _[[Bousfield localization of spectra]]_. The formulation of this in modern [[chromatic homotopy theory]] is discussed in
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, lecture notes (2010)
+ {#LurieLecture}
+
 
 
 [[!redirects spectral sequence of a filtered object in a stable (∞,1)-category]]
