@@ -11,6 +11,8 @@ This is a basic [[analytic space]]. It is the analog in [[analytic geometry]] of
 
 Every [[complex analytic manifold]] is [[covering|locally]] [[isomorphism|isomorphic]] to a polydisk.
 
+Those [[analytic spaces]] which are subspaces of polydiscs are called _[[affinoids]]_.
+
 ## References
 
 * Leonard Lipshitz, Zachary Robinson, _Rings of separated power series_ ([[LipshitzRobinson.pdf:file]])
