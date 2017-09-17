@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 #### Measure and probability theory
@@ -13,38 +13,37 @@
 =--
 =--
 
-
-
-
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A _state_ is a [[configuration space|configuration]] of a system in [[physics]].
+A _state_ is a [[configuration space|configuration]] of a system in [[physics]], together with enough information about its [[time evolution]] (typically, the first derivative is sufficient) to allow one to propogate it arbitrarily.
 
 
-## Definition
+## Definitions
 
 The precise mathematical notion of _state_ depends on what formalization is used to formalize this statement. 
 
+
 ### In classical mechanics
 
-In simple situations of [[classical mechanics]], a _pure state_ is a [[global element|point]] in the [[configuration space]] of the system. A physically realized state is a point in the [[phase space]] of the system.
+In simple situations of [[classical mechanics]], a _[[pure state]]_ is a [[global element|point]] in the [[phase space]] of the system, and a _[[mixed state]]_ is a [[probability distribution]] on phase space.
 
-More generally, a _[[classical state]]_ is a [[linear function]] $\rho : A \to \mathbb{R}$ on the [[Poisson algebra]] $A$ underlying the [[classical mechanical system]] which satisfies _positivity_ and _normalization_ . This definition captures also [[probability distributions]] of pure classical states.
+More generally, a _[[classical state]]_ is a [[linear function]] $\rho\colon A \to \mathbb{R}$ on the [[Poisson algebra]] $A$ underlying the [[classical mechanical system]] which satisfies _positivity_ and _normalization_.
+
 
 ### In quantum mechanics
 
 In the [[Schrödinger picture]] of [[quantum mechanics]], a state is a ray in a [[Hilbert space]] -- the Hilbert space of states.
 
-In the dual [[Heisenberg picture]] where a [[quantum mechanical system]] is given by a [[C-star algebra]] $A$, a state is a linear function $\rho : A \to \mathbb{C}$ which satisfies positivity_ and _normalization_ . See [[states in AQFT and operator algebra]] for more on this.
+In the dual [[Heisenberg picture]] where a [[quantum mechanical system]] is given by a $C^*$-[[C-star-algebra|algebra]] $A$, a state is a linear function $\rho\colon A \to \mathbb{C}$ which satisfies positivity_ and _normalization_. See [[states in AQFT and operator algebra]] for more on this.
 
 It has been argued that more accurately the correct notion is that of [[quasi-state]] instead. See also the Idea-section at [[Bohr topos]] for a discussion of this point.
 
 
-### In statistical physics
+### In general
 
 In [[statistical physics]], a state may encode less than maximal information.  Fairly generally, we have a complex $C^*$-[[C-star-algebra|algebra]] $A$ of [[observables]] and a __state__ is a positive-semidefinite linear operator $\rho\colon A \to \mathbb{C}$ such that $\rho(1) = 1$.  A state $\rho$ is __pure__ if, whenever we have $\rho = a \sigma + b \tau$ for $\sigma, \tau$ also states and $0 \leq a, b \leq 1$, then either $a = 0$ (hence $b = 1$) or $b = 0$ (hence $a = 1$); conversely, a state $\rho$ is __mixed__ if we ever have $\rho = a \sigma + b \tau$ for $\sigma, \tau$ also states and $0 \lt a, b \lt 1$.
 
@@ -53,6 +52,7 @@ If $A$ is the algebra of continuous complex-valued functions on some [[compactum
 On the other hand, if $A$ is the algebra of all [[bounded operators]] on some [[Hilbert space]] $H$, then the pure states on $A$ correspond precisely to the rays in $H$.  Mixed states, however, correspond more generally to [[density matrices]] on $H$, with the pure states those matrices of the form ${|\psi\rangle}{\langle\psi|}$ for some unit vector ${|\psi\rangle}$.
 
 In each case, a pure state is a state of maximal information, while a mixed state is a state with less than maximal information.  In the classical case, we may say that a pure state is a state of *complete* information, but this does not work in the quantum case; from the perspective of the information-theoretic or Bayesian interpretation of quantum physics, this inability to have complete information, even when having maximal information, is the key feature of quantum physics that distinguishes it from classical physics.
+
 
 ### In FQFT
 
@@ -64,7 +64,6 @@ $$
 $$
 
 In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned to an $(n-1)$-dimensional [[manifold]] $\Sigma_{n-1}$ is the _space of states_ over that manifold. A state is accordingly a [[generalized element]] of this object.
-
 
 
 ## Related concepts
@@ -80,8 +79,6 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
   * [[algebra of observables]]
 
   * [[GNS construction]]
-
-
 
 
 [[!redirects state]]
