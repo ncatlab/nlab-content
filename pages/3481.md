@@ -31,6 +31,8 @@ The second formulation seems to be the one originally given by M&P, below, while
 
 * An extension of this argument shows that [[COSHEP]] is sufficient to imply AMC.
 
+* The [[Reflection Principle]] (RP) is equivalent to AMC (called stong AMC by van den Berg). RP is motivated by the regular extension principle (REA) from constructive set theory. RP states that every map belongs to a representable class of small maps.
+
 * However, AMC does not imply [[countable choice]] or any of the other usual consequences of AC.
 
 * Rathjen proves that [[SVC]] also implies AMC.  It follows that AMC holds in "most" models of set theory.
@@ -44,6 +46,9 @@ The second formulation seems to be the one originally given by M&P, below, while
 
 * Rathjen, "Choice principles in constructive and classical set theories"
 
+* [[Benno van den Berg]], *Predicative toposes*,
+[PDF](http://www.staff.science.uu.nl/~berg0002/papers/predicativetopos.pdf)
+In this paper WISC is called the "axiom of multiple choice".
 
 category: foundational axiom
 
