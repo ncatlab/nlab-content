@@ -45,10 +45,15 @@ as well as various of the lectures in the collection
 
 * [[Pierre Deligne]] et al., _[[Quantum Fields and Strings]]_
 
-The [[deformation theory]] os SYM theories is discussed in 
+The [[deformation theory]] of SYM theories is discussed in 
 
 * [[Albert Schwarz]], [[Michael Movshev]], _Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories_ ([arXiv:0910.0620](http://arxiv.org/abs/0910.0620))
  {#SchwarzMovshev}
+
+Special properties of [[scattering amplitudes]] are discussed for instance in 
+
+* [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
+
 
 [[!redirects super Yang-Mills theories]]
 
