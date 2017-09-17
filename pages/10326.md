@@ -1,0 +1,6 @@
+
+## Idea
+
+The [[energy]] associated with (via [[Legendre transform]]) a [[kinetic action functional]].
+
+[[!redirects kinetic energies]]
