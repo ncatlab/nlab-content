@@ -122,6 +122,10 @@ In general, this will not respect the differentials, hence not be a morphism of 
 > Jim: HAVE TO BREAK OFF NOW - WHAT WILL COME NEXT IS the [[Weil algebra]] $W(\mathfrak{g})$ as a Cartan $\mathfrak{g}$-algebra
 
 
+* Weil, _Geometrie differentielle des espaces fibres_ (1949, unpublished)
+  appears in Vol. 1, pp. 422-436, of his Collected Papers.
+
+
 ## Further References
 
 Early original references are
