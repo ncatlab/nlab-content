@@ -12,5 +12,6 @@
 * [[Locally Presentable and Accessible Categories]]
 
 [[!redirects Jiri Rosicky]]
+[[!redirects Jiří Rosicky]]
 
 category: people
