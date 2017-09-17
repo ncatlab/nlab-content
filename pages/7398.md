@@ -12,6 +12,8 @@ The theory of _arithmetic D-modules_ was primarily developped by Berthelot to be
 
 * [[D-module]]
 
+* [[coherent D-module]], [[holonomic D-module]]
+
 ## References
 
 * Pierre Berthelot: [D-modules arithmetiques I, II](http://perso.univ-rennes1.fr/pierre.berthelot/).
