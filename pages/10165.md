@@ -1,0 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+A _virtual representation_ of a [[group]] is a form difference with respect to [[direct sum]] of two ordinary representations. More precisely, if we regard an ordinary [[representation]] as an [[equivariant vector bundle]] over the point, then a virtual representation is a coresponding equivariant [[virtual vector bundle]].
+
+Equivalence classes of virtual representations form the elements of the [[representation ring]] of the group.
+
+[[!redirects virtual representations]]
