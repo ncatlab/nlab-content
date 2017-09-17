@@ -114,9 +114,9 @@ Again, Frobenius reciprocity in a (locally posetal) cartesian bicategory $B$ mea
 $$(q \wedge r f)f^\dagger \leq q f^\dagger \wedge r$$ 
 is an equality. One (and therefore both) of the Frobenius laws will follow by taking the following choices for $f$, $q$, and $r$: 
 
-$$f = \delta_x, \qquad q = \varepsilon_{x}^{op} \otimes 1_x, \qquad r = \varepsilon_x \otimes 1_x \otimes \varepsilon_{x}^{op}$$ 
+$$f = \delta_x, \qquad q = \varepsilon_{x}^{\dagger} \otimes 1_x, \qquad r = \varepsilon_x \otimes 1_x \otimes \varepsilon_{x}^{\dagger}$$ 
 
-where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \to 1$ is the projection. The remainder of the proof is best exhibited by appeal to a string diagram calculation, which is given here: [[Frobenius-reciprocity.pdf:file]]. 
+where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \to 1$ is the projection. The remainder of the proof is best exhibited by a string diagram calculation, which is given here: [[Frobenius-reciprocity.pdf:file]]. 
 =--
 
 
