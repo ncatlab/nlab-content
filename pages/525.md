@@ -25,6 +25,9 @@ Bialgebras are precisely those [[sesquialgebras]] $A$ whose product $A \otimes A
 
 The structure of a bialgebra on an [[associative algebra]] equips its [[category of modules]] with the structure of a [[monoidal category]] and a monoidal [[fiber functor]]. In fact that construction is an equivalence. This is the statement of [[Tannaka duality]] for bialgebras. For instance ([Bakke](#Bakke))
 
+[[!include structure on algebras and their module categories - table]]
+
+
 ## Examples
 
 Notions of bialgebra with further structure notably include _[[Hopf algebras]]_ and their variants.
