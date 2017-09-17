@@ -1,0 +1,3 @@
+Ultracategories are categories with extra structure introduced in
+
+* [[Mihaly Makkai]], _Stone duality for first order logic_, Adv. Math. __65__:2, pp. 97--170, 1987
