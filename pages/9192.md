@@ -35,3 +35,10 @@ $$
 * The product of the scalar curvature with the [[volume form]] is the [[Lagrangian]] of the [[theory (physics)]] of [[gravity]]. The corresponding [[action functional]] is the [[Einstein-Hilbert action]].
 
 [[!redirects scalar curvatures]]
+
+[[!redirects Riemann scalar curvature]]
+[[!redirects Riemann scalar curvatures]]
+
+[[!redirects Riemann scalar]]
+[[!redirects Riemann scalars]]
+
