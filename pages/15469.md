@@ -1,2 +1,2 @@
-For Frankie Andreu, the report offered relief. A former Armstrong teammate, he had previously admitted doping.
- <a href="http://www.mellowtoy.com/public/dailyfreerun.asp?Running_Shoes=nike-free-nike-free-40-v2-mens-c-57_71.html" title="Nike Free 4.0 V2 Mens">Nike Free 4.0 V2 Mens</a>
+Frank Luntz: But it's not the elite -
+ <a href="http://www.everlymusic.com/cheapfreerun.asp?Running_Shoes=nike-air-max-2013-c-55.html" title="NIKE AIR MAX 2013">NIKE AIR MAX 2013</a>
