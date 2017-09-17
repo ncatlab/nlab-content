@@ -27,6 +27,7 @@ It motivates (e.g. [Bump, p.18](#Bump)) the definition of the Selberg [[zeta fun
 
 * {#Selberg56} [[Atle Selberg]], _Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series_, Journal of the Indian Mathematical Society 20 (1956) 47-87.
 
+* {#Friedman04} [[Joshua Friedman]], _The Selberg trace formula and Selberg zeta-function for cofinite Kleinian groups with finite-dimensional unitary representations_ ([arXiv:math/0410067](http://arxiv.org/abs/math/0410067))
 
 
 * Wikipedia, _[Selberg trace formula](http://en.wikipedia.org/wiki/Selberg_trace_formula)_
