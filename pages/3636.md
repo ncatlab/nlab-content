@@ -62,7 +62,7 @@ and $e$ becomes a functor from some category $Proper$ of spaces and proper maps 
 
 ###Proper homotopy###
 +-- {: .un_proposition}
-###### Proposition . 
+###### Proposition
 
 For any space $X$, the natural inclusions of $X$ into $X \times I$, $e_i(x) = (x,i)$, $i = 0,1$ together with the projection maps from $X\times I$ to $X$, are proper maps.
 =--
