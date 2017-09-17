@@ -207,12 +207,16 @@ A precise formulation of the phenomenon in terms of [[ordinary differential coho
 
   _Heisenberg Groups and Noncommutative Fluxes_ ,  AnnalsPhys.322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
-The idea of describing self-dual higher gauge theory by abelian Chern-Simons theory in one dimension higher originates in 
+The idea of describing self-dual higher gauge theory by [[holography]] with abelian [[higher dimensional Chern-Simons theory]] in one dimension higher originates in 
 
 * [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
  {#WittenI}
 
 * [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_ ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+
+Conceptual aspects of this are also discussed in section 6.2 of 
+
+* S.L. Lyakhovich, [[A.A. Sharapov]], _Quantizing non-Lagrangian gauge theories: an augmentation method_, JHEP 0701:047,2007 ([arXiv:hep-th/0612086](http://arxiv.org/abs/hep-th/0612086))
 
 Motivated by this the [[ordinary differential cohomology]] of self-dual fields had been discussed in 
 
