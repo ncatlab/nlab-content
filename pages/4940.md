@@ -27,6 +27,9 @@ $$
 
 In a [[manifold with boundary]] of [[dimension]] $d$ the boundary is the collection of points which do not have a [[neighborhood]] diffeomorphic to an [[open n-ball]], but do have a neighborhood homeomorphic to a half-ball, that is, an open ball intersected with closed half-space.
 
+## Related concepts
+
+* [[boundary of a simplex]]
 
 [[!redirects boundary]]
 [[!redirects boundaries]]
