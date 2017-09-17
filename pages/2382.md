@@ -63,6 +63,8 @@
 
   * [[geometric embedding]]
 
+  * [[surjective geometric morphism]]
+
   * [[essential geometric morphism]]
 
     * [[locally connected geometric morphism]] 
