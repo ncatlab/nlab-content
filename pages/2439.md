@@ -15,16 +15,96 @@
 
 ## Idea
 
-_Superalgebra_ is the study of ([[higher algebra|higher]]) [[algebra]] over the [[base topos]] on [[superpoint]]s.
+In the general sense, _superalgebra_ is the study of ([[higher algebra|higher]]) [[algebra]] over the [[base topos]] on [[superpoint]]s.
+
+More specifically, an _associative superalgebra_ is an [[associative algebra]] in the context of superalgebra. As in the ordinary case, this is often just called _a superalgebra_ , too.
+
+In the following we first discuss
+
+* [Associatvive superalgebra](#AssociativeSuperalgebras)
+
+as [[monoid]]s in the [[braided monoidal category]] of [[super vector space]]s. Then we pass to the more abstract picture of
+
+* [Algebra in the topos over superpoints](#AlgebraOverSuperpoints)
+
+and consider systematically [[algebra]] in the [[sheaf topos]] over the [[site]] of [[superpoint]]s and show how this reproduces and generalizes the previous notions.
+
+See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]] for some history of the topos-theoretic perspective on superalgebra.
 
 
 ## Associative superalgebras
+ {#AssociativeSuperalgebras}
 
 ### Definition
 
-Recall that an ordinary [[associative algebra]] (a [[vector space]] with a linear and associative and unital product operation) is a [[monoid]] in the [[category]] [[Vect]] of [[vector spaces]].
+An ordinary [[associative algebra]] (a [[vector space]] with a linear and associative and unital product operation) is a [[monoid]] in the [[monoidal category]] [[Vect]] of [[vector spaces]].
 
-Accordingly, **super algebra** is a [[monoid]] in the [[category]] [[SVect]] of [[super vector space]]s.
+Throughout, fix a [[field]] $k$ of [[characteristic]] 0.
+
++-- {: .num_defn #SuperVectorSpaces}
+###### Definition
+
+Write [[SVect]] for the [[symmetric monoidal category]] of [[super vector space]]s over $k$. This is the [[category]] of $\mathbb{Z}_2$-[[graded vector space]]s equipped with the unique non-trivial symmetric [[braided monoidal category|braided monoidal structure]].
+
+Objects are vector spaces with a [[direct sum]] decomposition
+
+$$
+  V = V_{even} \oplus V_{odd}
+$$
+
+and the [[tensor product]] is given in terms of that on vector spaces by
+
+$$
+  V \otimes W = 
+  (V_{even} \otimes W_{even} \oplus V_{odd}\otimes W_{odd})
+  \oplus
+  (V_{even} \otimes W_{odd} \oplus V_{odd} \otimes W_{even})
+$$
+
+but equipped with the non-trivial braiding morphism
+
+$$
+  b_{V, W} : V \otimes W \to W \otimes V
+$$
+
+that is the usual braiding isomorphism of [[Vect]] on $V_{even} \otimes W_{even}$ and on $V_{even} \otimes W_{odd} \oplus V_{odd} \otimes W_{even}$ but is $(-1)$ times this on $V_{odd}\otimes W_{odd}$.
+
+=--
+
++-- {: .num_defn #SuperAlgebras}
+###### Definition
+
+A **super algebra** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
+
+A **(graded)-commutative algebra** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
+
+=--
+
+This means that a commutative superalgebra is a [[super vector space]]
+
+$$
+  A = A_{even} \oplus A_{odd}
+$$
+
+equipped with a morphism of super vector spaces
+
+$$
+  (-)\cdot (-) : A \otimes A \to A
+$$
+
+that is associative and commutative in the usual sense. Spcifically for the commutativity this means that with $a,b  \in A_{odd}$ we have
+
+$$
+  a \cdot b = - b \cdot a
+  \,.
+$$
+
+Whereas if either of $a$ or $b$ is in $A_{even}$ we have
+
+$$
+  a \cdot b = b \cdot a
+  \,.
+$$
 
 ### Examples
 
@@ -34,9 +114,22 @@ Accordingly, **super algebra** is a [[monoid]] in the [[category]] [[SVect]] of 
 
 #### Clifford algebra 
 
-See [[Clifford algebra]].
+An class of examples of non-(graded)-commutative superalgebra 
+are [[Clifford algebra]].
 
-## Universal superalgebra
+In fact, let $V$ be a [[vector space]] equipped with symmetric [[inner product]]
+$\langle -,- \range$. Write $\wedge^\bullet V$ be the [[Grassmann algebra]] on $V$. The inner product makes this a super [[Poisson algebra]]. The [[Clifford algebra]] $Cl(V, \langle \rangl)$ is the [[deformation quantization]] of this.
+
+
+## Algebra in the topos over superpoints
+ {#AlgebraOverSuperpoints}
+
+We now consider [[higher algebra]] in the [[(∞,1)-topos]] over [[super point]]s.
+
+### The topos
+
++-- {: .num_defn}
+###### Definition
 
 Write $SuperPoint$ for the [[site]] of [[superpoint]]s. Write 
 
@@ -45,25 +138,128 @@ $$
 $$
 
 for the [[sheaf topos]] (a [[presheaf topos]]) over this site.
-
-By the general mechanism of [[internalization]] (see for instance [[group object]]) algebraic objects internal to $SuperSet$ may be identified (using the [[Yoneda lemma]]) with [[functor]]s on the [[opposite category]] of $SuperPoint$ with values in the [[category]] of ordinary such algebraic structures.
-
-For instance an associative [[superalgebra]] $A$ may be characterized by its [[functor of points]]
+Write 
 
 $$
-  A(-) : Spec \wedge^\bullet \mathbb{R}^k \mapsto Hom_{sAlg}(A,\wedge^\bullet \mathbb{R}^k)
+  Super \infty Grpd := Sh_{(\infty,1)}(SuperPoint)
+$$
+
+for the [[(∞,1)-sheaf (∞,1)-topos]] over this site: the [[(∞,1)-topos]] of [[super ∞-groupoid]]s.
+
+=--
+
+### The line object $\mathbb{K}$
+
+The canonical [[line object]] in $Sh(SuperPoint)$ is 
+
+$$
+  \mathbb{A}^1  = Spec F(*) = \mathbb{R}^{0|1}
   \,,
+$$ 
+
+the [[odd line]]. 
+
+As a presheaf $\mathbb{R}^{0|1} : (Gr^{op})^{op} \to Set$ this assigns
+
+$$
+  \mathbb{A}^1 : Spec \wedge^\bullet V \mapsto (\wedge^\bullet V)_{odd}
+  \,.
 $$
 
-where $\wedge^\bullet \mathbb{R}^k$ is the $\mathbb{Z}_2$-graded [[Grassmann algebra]] on $k$ generators and $Spec \wedge^\bullet \mathbb{R}^k$ its formally dual [[superpoint]], and where the set $Hom_{sAlg}(A,\wedge^\bullet \mathbb{R}^k)$ naturally has the structure of an object in $Alg^{op}$.
++-- {: .num_defn}
+###### Definition
 
-In much of the superalgebra literature, notably that having connections to [[physics]], this incarnation of the [[Yoneda lemma]] goes by the name _[[even rules]]_ . 
+Consider analogously the presheaf $\mathbb{K} = \mathbb{K}^1$ defined by
+
+$$
+  \mathbb{K}^1  : Spec \wedge^\bullet V \mapsto (\wedge^\bullet V)_{even}
+  \,.
+$$
+
+This is canonically equipped with the structure of a (unital) [[commutative ring]] in $SuperSet$.
+
+=--
+
+In ([Sachse](#Sachse)) this appears around (21).
+
+
+### $\mathbb{K}$-Modules
+
++-- {: .num_defn}
+###### Definition
+
+Write $Mod_{\mathbb{K}}(SuperSet)$ for the [[Mod|category of modules]] over $\mathbb{K}$ in $SuperSet$.
+
+=--
+
++-- {: .num_prop #EmbeddingOfSVectIntoKMod}
+###### Proposition
+
+There is a [[functor]]
+
+$$
+  j : SVect_k = Mod_k(Set) \hookrightarrow Mod_{\mathbb{K}}(SuperSet)
+$$
+
+from [[super vector space]]s over $k$ to internal modules over $\mathbb{K}$ that sends $V \in SVect_k$ to
+
+$$
+  j(V) : Spec \Lambda \mapsto (\Lambda \otimes_k V)_{even}
+  = 
+  (\Lambda_{even} \otimes_k V_{even})
+    \oplus
+  (\Lambda_{odd} \otimes_k V_{odd})
+  \,.
+$$
+
+This is a [[full and faithful functor]].
+
+=--
+
+This appears as ([Sachse, corollary 3.2](#Sachse)).
+
++-- {: .proof}
+###### Proof
+
+The proof is a variation on the [[Yoneda lemma]].
+
+=--
+
+This means that ordinary [[super vector space]]s are embedded as a [[full subcategory]] in $\mathbb{K}$-modules in the topos over [[super point]].
+
+### Associative and Lie Superalgebras
+
++-- {: .num_prop}
+###### Proposition
+
+The functor $j$ from prop \ref{EmbeddingOfSVectIntoKMod} induces a [[full and faithful functor]]
+
+$$
+  SAlg_k(Set) \hookrightarrow Alg_{\mathbb{K}}(SuperSet)
+$$
+
+of superalgebras over $k$ as in def. \ref{SuperAlgebras} and internal [[associative algebra]]s over $\mathbb{K}$ in $SuperSet$.
+
+Similarly we have a faithful embedding
+
+$$
+  SLieAlg_k(Set) \hookrightarrow LieAlg_{\mathbb{K}}(SuperSet)
+$$
+
+of ordinary [[super Lie algebra]]s over $k$ into the internal [[Lie algebra]]s over $\mathbb{K}$.
+
+=--
+
+This appears as ([Sachse, corollary 3.3](#Sachse)).
+
 
 ## References
 
-Section 3 of
+Basics of pedestrian superalgebra are reviewed in section 2 and the topos-theoretic reformulation is discussed in section 3 of
 
 * [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
 
 [[!redirects superalgebra]]
 [[!redirects super-algebra]]
+
+[[!redirects even rules]]
