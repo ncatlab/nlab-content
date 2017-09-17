@@ -29,11 +29,10 @@ Compactification of [[11-dimensional supergravity]] on a [[manifold]] of [[dimen
     SU(7) \hookrightarrow E_{7(7)}
   $$
 
-  into the [[split real form]] of [[E7]].
-  This is shown in ([Pacheco-Waldram](#PachecoWaldram)).
+of the [[special unitary group]] in dimension 7 into the [[split real form]] of [[E7]]. This is shown in ([Pacheco-Waldram](#PachecoWaldram)).
 
 One dimension down, compactification of 10-dimensional 
-[[type II supergravity]] on a 6-manifold &X& preserves $N = 2$ supersymmetry precisely if the [[generalized tangent bundle]] $T X \otimes T^* X$ in the NS-NS sector admits [[G-structure]] for
+[[type II supergravity]] on a 6-manifold &X& preserves $N = 2$ supersymmetry precisely if the [[generalized tangent bundle]] $T X \otimes T^* X$ in the NS-NS sector admits [[G-structure]] for the inclusion
 
 $$
   SU(3) \times SU(3) \hookrightarrow O(6,6)
