@@ -44,6 +44,8 @@ is a homeomorphism (not just a $k$-homeomorphism).
 
 +--{: .query}
 [[Zoran Škoda]]: I do not understand the remark. I mean if the domain is k-space then by the characterization above continuous is the same as k-continuous. Thus if both domain and codomain are continuous then homeo is the same as k-homeo. I assume that even in noHausdorff case, the test-open topology for $X$ and $Y$ k-spaces gives a k-space and that the cartesian product has the correction for the k-spaces. 
+
+[[Todd Trimble]]: That may be just the point: that the domain is not necessarily a $k$-space. I have to admit that I haven't worked through the details of this exposition, but one thing I tripped over is the fact that we're dealing with _all_ topological spaces $X$, $Y$, not just $k$-spaces. 
 =--
 
 The topology on $k\Top(X,Y)$ that is used here is the test-open
