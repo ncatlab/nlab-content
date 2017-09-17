@@ -24,8 +24,14 @@ The [[mechanics]] of rigid bodies in [[Cartesian space]].
 ## References
 
 * [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_, Springer 1989 (section 28)
+
 * [[Landau-Lifschitz]], vol.1, Mechanics
+
 * R. Abraham, J. Marsden: The Foundations of Mechanics, Benjamin Press, 1967, Addison-Wesley, 1978; large pdf 86 Mb free at [CaltechAuthors](http://resolver.caltech.edu/CaltechBOOK:1987.001)
+
+A discussion of rigid body dynamics as a special case of the general [[Euler-Arnold equation]] is at 
+
+* [[Terence Tao]], _The Euler-Arnold equation_ ([web](http://terrytao.wordpress.com/2010/06/07/the-euler-arnold-equation/))
 
 References from the point of view of [[Geometric Algebra]] include
 
