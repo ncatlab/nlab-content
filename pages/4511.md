@@ -114,23 +114,101 @@ For instance ([Weibel, theorem 2.7.2](#Weibel)).
 ### Relation to torsion groups
  {#RelationToTorsionGroups}
 
-An [[abelian group]] is called _[[torsion]]_ if its elements are nilpotent.
+An [[abelian group]] is called _[[torsion]]_ if its elements are "nilpotent", hence if all its elements have finite [[order]].
+
++-- {: .num_prop}
+###### Definition
+
+For $A \in $ [[Ab]] and $p \in \mathbb{N}$, write
+
+$$
+  {}_p A \coloneqq \{ a \in A | p \cdot a = 0 \}
+$$ 
+
+for the **$p$-torsion subgroup** consisting of all those elements whose $p$-fold sum with themselves gives 0.
+
+=--
+
++-- {: .num_prop #TorOutOfCyclicGroup}
+###### Proposition
+
+For $\mathbb{Z}/p\mathbb{Z}$ the [[cyclic group]] and $A \in $ [[Ab]] $\simeq \mathbb{Z}$[[Mod]] any [[abelian group]], we have an [[isomorphism]]
+
+$$
+  Tor_1^\mathbb{Z}(\mathbb{Z}/p\mathbb{Z}, A)
+  \simeq
+  {}_p A
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[short exact sequence]]
+
+$$
+  0 \to \mathbb{Z} \stackrel{\cdot p}{\to} \mathbb{Z} \stackrel{mod\, p}{\to}
+  \mathbb{Z}/p\mathbb{Z} \to 0
+$$
+
+constitutes a [[projective resolution]] of $\mathbb{Z}/p\mathbb{Z}$. Accordingly we have 
+
+$$
+  \begin{aligned}
+    Tor_1^\mathbb{Z}(\mathbb{Z}/p\mathbb{Z}, A)
+    &\simeq
+    H_1( [\cdots\to 0 \to Hom(\mathbb{Z}, A) \stackrel{Hom(\cdot p,A)}{\to} Hom(\mathbb{Z}, A)] )
+    \\
+    & \simeq
+    ker( Hom(\cdot p,A) )
+    \\
+    & \simeq 
+    \{ a\in A | p\cdot a = 0 \}
+  \end{aligned}
+  \,.
+$$
+
+Here we used that $\mathbb{Z}$ is the [[free group]] on one generator ($1 \in \mathbb{Z}$), so that an element $a \in A$ regarded as the image of $1$ defines equivalently a homomorphism
+
+$$
+  a \colon \mathbb{Z} \stackrel{}{\to} A
+  \,.
+$$
+
+The [[hom-functor]]-homomorphism $Hom(\cdot p, A)$ takes this to the [[composition|composite]]
+
+$$
+  p \cdot a \colon \mathbb{Z} \stackrel{\cdot p}{\to} \mathbb{Z} \stackrel{a}{\to} A
+  \,.
+$$
+
+=--
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-Let $A$ and $B$ be [[abelian groups]]. Write $Tor^\mathbb{Z}$ for the left derived functor of tensoring over $R = \mathbb{Z}$.  Then
+Let $A$ and $B$ be [[abelian groups]]. Write $Tor^\mathbb{Z}$ for the [[left derived functor]] of tensoring over $R = \mathbb{Z}$.  Then
 
 1. $Tor^\mathbb{Z}_1(A,B)$ is a [[torsion group]].
 
 1. $Tor^{\mathbb{Z}}_1^(\mathbb{Q}/\mathbb{Z}, A)$ is the [[torsion subgroup]] of $A$.
 
-1 $A$ is a [[torsion subgroup|torsion free group]] precisely if $Tor^\mathbb{Z}_1(A,-) = 0$, equivalently if $Tor^\mathbb{Z}_1(-,A) = 0$.
+1. $A$ is a [[torsion subgroup|torsion free group]] precisely if $Tor^\mathbb{Z}_1(A,-) = 0$, equivalently if $Tor^\mathbb{Z}_1(-,A) = 0$.
 
 =--
 
 For instance ([Weibel, prop. 3.1.2, prop. 3.1.3, cor. 3.1.5](#Weibel)).
+
++-- {: .proof}
+###### Proof
+
+Use that $Tor_1^\mathbb{Z}(-,A)$ preserves [[filtered colimits]], express the arguments above as filtered colimits over their finite subgroups, then apply prop. \ref{TorOutOfCyclicGroup}.
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
