@@ -127,7 +127,7 @@ Accordingly there is a [[2-category]] [[Topos]] of toposes, whose
 
 ### Adhesiveness
 
-Every topos is an [[adhesive category]]. For [[Gorthendieck toposes]] this follows immediately from the adhesion of [[Set]], for elementary toposes it is due to ([Lack-Sobocinski](#LackSobocinski)0
+Every topos is an [[adhesive category]]. For [[Grothendieck toposes]] this follows immediately from the adhesion of [[Set]], for elementary toposes it is due to ([Lack-Sobocinski](#LackSobocinski)).
 
 ### Epimorphisms
 
