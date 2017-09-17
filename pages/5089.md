@@ -40,7 +40,7 @@ A $k$-ary factorisation system may also be called a __$k$-step factorisation sys
 
 Here is an incomplete attempt at a general definition:
 
-Fix any [[ordinal number]] (or [[opposite poset|opposite]] thereof, or any [[poset]], really) $\alpha$.  Then an __$\alpha$-stage factorisation system__ (in an ambient $\infty$-category $C$) consists of an $\alpha$-indexed family of factorisation systems in $C$ such that:
+Fix any [[ordinal number]] (or [[opposite poset|opposite]] thereof, or any [[poset]], really) $\alpha$.  Then an __$\alpha$-stage factorisation system__ (in an ambient $\infty$-category $C$) consists of an $\alpha$-indexed family of factorisation systems $(E_i, M_i)$ in $C$ such that:
 
 *  $M_i \subseteq M_j$ whenever $i \leq j$ (equivalently, $E_i \supseteq E_j$ whenever $i \leq j$),
 *  each morphism $f\colon X \to Y$ is both the [[inverse limit]] $\underset{i \to \infty}\lim \im_i f$ in the [[slice category]] $C/Y$ and the [[direct limit]] $\underset{i \to -\infty}\colim \coim_i f$ in the [[coslice category]] $X/C$, and
@@ -117,4 +117,3 @@ This seems to be correct whenever $\alpha$ really is either an ordinal or the op
 
 [[!redirects infinitary factorization system]]
 [[!redirects infinitary factorization systems]]
-
