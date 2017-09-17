@@ -17,25 +17,39 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A **large category** is a [[category]] which is not (necessarily) [[small category|small]].
+
+There are some variations in usage depending on the [[foundations]] chosen.  Also, not all authors agree on whether a large category is *not* small, or merely not *necessarily* small (i.e. whether small categories are also large).
+
 ## Definition
 
-A **large category** is a [[category]] which belongs to the "next largest" size category than a [[small category]] does.  This is made precise in different ways depending on the [[foundations]] chosen.
+The precise meaning of the above definition depends on the [[foundations]] chosen.
 
-* In [[ZF]], where a *small category* is one whose objects and morphisms form [[sets]], a *large category* is one whose whose objects and morphisms form [[classes]].
+* In [[ZF]], where a *small category* is one whose objects and morphisms form [[sets]], a *large category* is one whose whose objects and morphisms form (perhaps proper) [[classes]].
 
-* In ZF with a single specified [[Grothendieck universe]] $U$, where a *small category* is one whose objects and morphisms belong to $U$ (or have cardinalities belonging to $U$), a *large category* usually means a category whose objects and morphisms are still sets, but not (necessarily) belonging to $U$.
+* In ZF with a specified [[Grothendieck universe]] $U$, where a *small category* is one whose objects and morphisms belong to $U$ (or have cardinalities belonging to $U$), a *large category* means a category whose objects and morphisms are still sets, but not (necessarily) belonging to $U$.  In this foundational system, one rarely considers categories whose objects and morphisms are proper classes.
 
-  * Sometimes, however, such as in [[Categories Work]] (second half of p. 23), a *large category* means one whose objects and morphisms are *subsets* of $U$.  People who use the previous meaning of "large category" in the context of one universe sometimes call a category of this sort *[[moderate category|moderate]]*.
-
-* In ZF with two specified universes $U\in V$, where a *small category* is one whose objects and morphisms belong to $U$, a *large category* may mean one whose objects and morphisms belong to $V$, with a term such as *very large category* used for one whose objects and morphisms are sets not necessarily belonging even to $V$.
-
-* With more than two universes, one usually prefixes "small" with the universe to which it refers: a *$U$-small category* is one whose objects and morphisms belong to $U$.  In this context it is more common to say "$V$-small category" for some universe $V$ containing $U$, than to say "$U$-large category."
-
-* In a class-set theory such as [[NBG]] or [[MK]], it is natural to use *small category* for one whose objects and morphisms form sets, *large category* for one whose whose objects and morphisms are classes (of sets), and *very large category* for one whose objects and morphisms are "superclasses" or "conglomerates".  The latter are *collections of classes* that have no formal existence in the theory, but can be identified with the first-order formulas which define them; their ontological status in a class-set theory is identical to that of proper classes in ZF.
-
-  Note that if $U$ is a Grothendieck universe, then there is a model of MK (hence also NBG) whose sets are the $U$-small sets and whose classes are the subsets of $U$.  However, the "large categories" in this model of MK are only the $U$-*moderate* categories in the universe picture, while its "very large categories" are still only $U$-large (unless one uses the CWM definition of "large category" in the context of a universe).
+* More generally, for any universe $U$, we may refer to categories whose objects and morphisms are elements of $U$ as **$U$-small**, and other categories as **$U$-large**.  In a context of multiple universes, it is perhaps more common to speak of "$V$-small categories" for some universe $V$ containing $U$, than "$U$-large categories."  If there are two fixed universes $U$ and $V$ with $U\in V$, then categories that are not even in $V$ may be called **very large**.
 
 In all cases, it is somewhat ambiguous whether "large category" means "properly large," i.e. large and not small, or whether small categories should be considered as a subclass of large categories.  Usage may vary depending on need.
+
+### Largeness and moderateness
+
+A **[[moderate category]]** may be defined as one whose collections of objects and morphisms are no bigger than the size of the universe of small sets.  This is related to largeness in different ways depending on the foundations.
+
+* In ZF, where all classes are subclasses of the class of all (small) sets, this meaning of "moderate" is *the same as* the usual meaning of "large."
+
+* On the other hand, when smallness and largeness are defined with respect to a Grothendieck universe $U$, then a moderate category would be one whose objects and morphisms are (bijective to) subsets of $U$.  Thus, in this case, there are vastly more large categories than there are moderate ones.
+
+* An in-between case, with some resulting ambiguity, is that of a class-set theory such as [[NBG]] or [[MK]], where *small category* means one whose objects and morphisms form sets.  Since such theories are closely related to ZF (indeed, NBG is conservative over ZF), it is natural to want to use "large category" to coincide with its ZF meaning: a category whose objects and morphisms form classes.
+
+  However, in this case one can also consider categories which are "not even large:" their objects and morphisms are "superclasses" or "conglomerates" (collections of classes defined by first-order formulas, just as we do for classes in ZF).  Thus, in this case it may be more appropriate to say "moderate" for a category whose objects and morphisms are classes, and "large" for one which is not (necessarily) even moderate.
+
+  This latter terminology also accords better with the usage for universes, since any Grothendieck universe $U$ gives rise to a model of NBG (and even MK) whose sets are the sets in $U$ and whose classes are the subsets of $U$.  One might even go backwards from this and start using "moderate" in the context of ZF for categories whose objects and morphisms are classes.
+
+  On the other hand, one could import terminology the other way, and use "large category" even in the context of a universe $U$ to mean one whose objects and morphisms are *subsets* of $U$ (i.e. what we have called above a "($U$-)moderate category").  This usage is that of [[Categories Work]]; it has the disadvantage that some categories are "too big to be large"---one might call them instead "very large."  However, it does accord better with the ZF-usage, which is the original context in which "large category" was used.
 
 
 ## Properties
@@ -65,3 +79,5 @@ There are various notions and techniques to deal with this problem and reduce or
 * [[universe enlargement]]
 
 [[!redirects large categories]]
+[[!redirects very large category]]
+[[!redirects very large categories]]
