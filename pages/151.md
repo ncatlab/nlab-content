@@ -47,6 +47,7 @@ From the point of view of [[category theory]], there are two fundamental kinds o
 * [[Artin-Verdier duality]] generalizing [[Tate duality]] for constructible sheaves over the spectrum of a ring of [[algebraic number|algebraic numbers]]
 * [[Koszul duality]]
 * [[Stone duality]]
+* [[syntax - semantics duality]]
 * [[Eckmann-Hilton duality]]
 * [[Spanier-Whitehead duality]]
 * [[Tannaka duality]]
