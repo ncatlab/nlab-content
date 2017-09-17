@@ -18,7 +18,7 @@
 
 Homological algebra in its traditional form is the study of properties of [[modules]] over [[rings]] of various types by the use of methods adapted from [[topology|topological]] [[homology theory]].  It thus studies [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ (in [[abelian categories]] $\mathcal{A}$) using _[[chain homology]]_ as the basic invariant (therefore the name). 
 
-From a modern more global perspective it is a simple fragment of and a computational tool for [[stable homotopy theory]] and hence (by extension) also of unstable [[homotopy theory]], see _[As a toolbox in stable homotopy theory](#ToolboxInStableHomotopyTheory)_ below.
+From a modern more global perspective it is a simple fragment of and a computational tool for [[stable homotopy theory]] and hence (by extension) also of unstable [[homotopy theory]], see _[As a toolbox in stable homotopy theory](#ToolboxInStableHomotopyTheory)_ below and the discussion at [[cosmic cube]].
 
 An archetypical motivating example for homological algebra is thus the [[chain complex]] $C_\bullet(X)$ of [[singular chains]] in a [[topological space]] $X$: [[formal linear combinations]] of [[simplices]] in $X$. The [[chain homology]] of $C_\bullet(X)$, called the _[[singular homology]]_ $H_\bullet(X)$ of $X$, is a linear approximation to the [[homotopy groups]] of $X$.  Accordingly, the chain complex $C_\bullet(X)$ itself serves as a linearized approximation to the [[homotopy type]] of $X$. 
 
