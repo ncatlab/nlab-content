@@ -270,7 +270,7 @@ By the above we have that [[CartSp]]${}_{smooth}$ is a [[dense sub-site]] of [[S
 
 =--
 
-+-- {: .un_cor}
++-- {: .un_prop #EmbeddingOfSmoothManifolds}
 ###### Corollary
 
 The canonical embedding of [[smooth manifold]]s as [[0-truncated]] objects in $Smooth\infty Grpd$ is a [[full and faithful (∞,1)-functor]]
@@ -420,7 +420,7 @@ $Smooth \infty Grpd$.
 Write $Conc(\tau_{\leq 0} Smooth \infty Grpd)$ for the full [[subcategory]] on the [[concrete sheaf|concrete]] [[0-truncated]] objects. This is [[equivalence of categories|equivalent]] to the category of [[diffeological space]]s
 
 $$
-  DiffeologicalSpaces 
+  DiffeolSp 
    \simeq 
   Conc(\tau_{\leq 0} Smooth \infty Grpd)
   \,.
@@ -466,11 +466,24 @@ So this is indeed the defining condition for [[concrete sheaves]] that defines [
 
 =--
 
++-- {: .un_prop}
+###### Corollary
+
+The canonical embedding $SmoothMfd \hookrightarrow Smooth \infty Grpd$
+from [above](#EmbeddingOfSmoothManifolds) factors through [[diffeological spaces]]: we have a sequence of [[full and faithful (∞,1)-functor]]s
+
+$$
+  SmoothMfd \hookrightarrow DiffeolSp \hookrigharrow Smooth \infty Grpd
+  \,.
+$$
+
+=--
+
 +-- {: .un_def}
 ###### Definition
 
 A **diffeological $\infty$-groupoid** or **diffeological Kan complex**
-is a [[Kan complex]] internal to [[diffeological space]]s.
+is a [[Kan complex]] [[internalization|internal to]] [[diffeological space]]s.
 
 =--
 
@@ -479,7 +492,7 @@ is a [[Kan complex]] internal to [[diffeological space]]s.
 ###### Proposition
 
 Let $X$ be a diffeological $\infty$-groupoid. Regarded as an object
-in $Smooth \infty Grpd$ under the map 
+in $Smooth \infty Grpd$ under the composite morphism
 
 $$
   X \in Sh(CartSp_{smooth})^{\Delta^{op}} 
@@ -503,6 +516,8 @@ By the general properties discussed at [[cohesive (∞,1)-topos]] we have that $
 By definition of the local model structure, the morphism from any simplicial sheaf to its local cofibrant-fibrant [[resolution]] is an isomorphism on all [[categorical homotopy groups in an (infinity,1)-topos|homotopy sheaves]]. Since the [[quasitopos]] of [[diffeological space]]s is closed under the finite [[limit]]s and [[colimit]]s involved in defining homotopy sheaves, these are themselves [[concrete sheaves]]. 
 
 =--
+
+
 
 ### Geometry and structure sheaves {#StrucGeometry}
 
