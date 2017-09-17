@@ -20,6 +20,8 @@ Wikipedia says very succinctly
 
 > A **valuation** is a [[function]] on a [[field]] that provides a measure of size or multiplicity of elements of the field. They generalize to commutative [[algebra]] the notion of size inherent in consideration of the degree of a pole or multiplicity of a zero in [[complex analysis]], the degree of divisibility of a number by a prime number in number theory, and the geometrical concept of contact between two algebraic or analytic varieties in algebraic geometry.
 
+Closely related, partly synonymous, is _[[absolute value]]_.
+
 ## Definition
 
 Given a [[total order|totally ordered]] [[abelian group]] $G$, a $G$-valued __valuation__ $v$ on a (commutative) [[field]] $K$ is a (typically required to be surjective) [[function]] $v:K\to G\cup \infty$ such that $v(K^\times)\subset G$ and 
