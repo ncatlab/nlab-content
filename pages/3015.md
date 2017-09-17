@@ -73,7 +73,11 @@ Thus the abstract and concrete approaches to structured sets are equivalent, exc
 
 Almost everything in contemporary [[mathematics]] is an example of a structured set; here we list only a few representative ones (and perhaps also some exceptions).
 
-...
+*  [[sets]] themselves (trivially);
+*  [[groups]], [[rings]], and other objects of [[universal algebra]];
+*  [[topological spaces]] and other concrete (based on sets of [[points]]) notions of [[spaces]];
+*  *not* other notions of [[spaces]] such as [[locales]] or [[homotopy types]];
+*  [[strict categories]] (where the underlying set is the set of [[morphisms]]) but *not* [[categories]] treated up to [[equivalence of categories|equivalence]].
 
 
 ## Structured objects
