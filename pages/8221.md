@@ -29,6 +29,9 @@ an [[cosmic inflation|inflationary]] [[FRW spacetime]] with [[cosmological const
 
 * [[MOND]]
 
+[[!include standard model of fundamental physics - table]]
+
+
 ## References
 
 A review is in 
