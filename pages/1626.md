@@ -42,7 +42,7 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 1. [[pushout|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullback]]s. More memorably: [[connected limit|connected colimits]] of connected spaces are connected. 
 
-1. An arbitrary [[product]] of connected spaces is connected.
+1. An arbitrary [[product]] of connected spaces is connected. (This relies on some special features of $Top$. More discussion can be found at [[connected object]].) 
 
 1. The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the [[intermediate value theorem]].)
 
