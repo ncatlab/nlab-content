@@ -252,6 +252,8 @@ If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally d
 
   * In particular, therefore, the [[derived category]] of any [[abelian category]] is a triangulated category, since it is the localization of the homotopy category at the null system of acyclic complexes.  This example is also the homotopy category of a stable $(\infty,1)$-category, and usually of a stable model category.
 
+* In [[algebraic geometry]], important examples are given by the various [[triangulated categories of sheaves]] associated to a [[variety]] (e.g. bounded derived category of [[coherent sheaves]], triangulated category of [[perfect complexes]]).
+
 ## Related concepts 
 
 * [[exact triangle]], [[distinguished triangle]]
@@ -268,7 +270,9 @@ If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally d
 
 * [[well-generated triangulated category]], [[compactly generated triangulated category]]
 
-* [[spectrum of a triangulated category]], [[Bondal-Orlov reconstruction theorem]]
+* [[spectrum of a triangulated category]]
+
+* [[triangulated categories of sheaves]], [[Bondal-Orlov reconstruction theorem]]
 
 ## References
 
