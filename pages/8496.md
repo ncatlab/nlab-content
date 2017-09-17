@@ -1,4 +1,3 @@
-[[!redirects invariants]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -40,5 +39,8 @@ $$
 
 * [[stabilizer subgroup]]
 
-* [[invariant theory]]
+* [[invariant theory]], [[invariant polynomial]]
 
+* [[gauge invariant]]
+
+[[!redirects invariants]]
