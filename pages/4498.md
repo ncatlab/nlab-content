@@ -205,3 +205,6 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 [[!redirects principal simplicial bundle]]
 [[!redirects principal simplicial bundles]]
+
+[[!redirects universal simplicial principal bundle]]
+[[!redirects universal simplicial principal bundles]]
