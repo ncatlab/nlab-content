@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### [[categories of categories - contents|categories of categories]]
++-- {: .hide}
+[[!include categories of categories - contents]]
+=--
 =--
 =--
 
