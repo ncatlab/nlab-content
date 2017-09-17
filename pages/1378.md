@@ -49,6 +49,11 @@ The "higher algebra" embodied by [[commutative ring spectrum|commutative ring sp
 More generally, [[algebra]] is partially about [[algebraic theories]], about [[monads]] and about [[operads]]. All these have higher analogs in higher algebra.
 
 
+###  Other aspects of higher algebra?
+
+The parts of algebra that we set aside at the end of the *idea* are not outside the range of the possible range of higher algebra, they just have not yet been that developed and it is not always clear in what directions they most naturally 'should' be developed. To take an example, [[Lie infinity-algebroid]] is clearly a higher algebraic analogue of a Lie algebra, and is a 'multi-object' one as well. Questions in representation theory are often phrased in terms of monoidal categories, and their higher algebraic analogues have new structural facets that look very interesting and useful. Finally Galois theory naturally falls into the context of Grothendieck's extensive work both on higher stacks but also the Grothendieck-Teichmuller theory. Here the theory is awaiting clear indications what higher Galois theory might mean.
+
+
 ## Monads, algebraic theories, operads
 
 * [[algebraic theory]] / [[2-algebraic theory]] / [[(∞,1)-algebraic theory]]
@@ -141,6 +146,7 @@ More generally, [[algebra]] is partially about [[algebraic theories]], about [[m
 
 ## References
 
+A comprehensive development of the theory is in
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
@@ -150,11 +156,14 @@ More generally, [[algebra]] is partially about [[algebraic theories]], about [[m
 
   * _[[Deformation Theory]]_
 
+A introductory survey is in 
+
+* [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
+
+
 See also 
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, Mathematical surveys and monographs 47, American Mathematical Society, 1997
 
-##Other aspects of higher algebra?
 
-The parts of algebra that we set aside at the end of the *idea* are not outside the range of the possible range of higher algebra, they just have not yet been that developed and it is not always clear in what directions they most naturally 'should' be developed. To take an example, [[Lie infinity-algebroid]] is clearly a higher algebraic analogue of a Lie algebra, and is a 'multi-object' one as well. Questions in representation theory are often phrased in terms of monoidal categories, and their higher algebraic analogues have new structural facets that look very interesting and useful. Finally Galois theory naturally falls into the context of Grothendieck's extensive work both on higher stacks but also the Grothendieck-Teichmuller theory. Here the theory is awaiting clear indications what higher Galois theory might mean.
 
