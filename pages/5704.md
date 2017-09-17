@@ -57,6 +57,8 @@ A quotient space in $Loc$ is given by a [[regular subobject]] in [[Frm]].
 
 * [[subframe]]
 
+* [[quotient]], [[quotient stack]], [[quotient type]]
+
 
 [[!redirects quotient space]]
 [[!redirects quotient spaces]]
