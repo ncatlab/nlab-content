@@ -37,9 +37,9 @@ A parity structure is a **parity complex** if it satisfies the following axioms:
 
 1. If $c \in C_1$, then $c^-$ and $c^+$ are both singletons. 
 
-1. If $x, y \in c^+$ are distinct $n$-cells, then $x^+ \cap y^+ = \emptyset$ and $x^- \cap y^- = \emptyset$. Similarly for $c^-$ in place of $c^+$. 
+1. If $x, y \in c^\eta$ are distinct $n$-cells, then $x^+ \cap y^+ = \emptyset$ and $x^- \cap y^- = \emptyset$. 
 
-1. Define a relation $\lt$ by $x \lt y$ whenever $x^+ \cap y^- \neq \emptyset$, and let $\prec$ to be the reflexive transitive closure of $\lt$. Then $\prec$ is antisymmetric, and if $x \prec y$ for $x \in c^\varepsilon$ and $y \in c^\eta$, then $\varepsilon = \eta$. 
+1. Define a relation $\lt$ by $x \lt y$ whenever $x^+ \cap y^- \neq \emptyset$, and let $\prec$ be the reflexive transitive closure of $\lt$. Then $\prec$ is antisymmetric, and if $x \prec y$ for $x \in c^\varepsilon$ and $y \in c^\eta$, then $\varepsilon = \eta$. 
 =--
 
 ## Examples 
@@ -47,6 +47,8 @@ A parity structure is a **parity complex** if it satisfies the following axioms:
 * Simplexes 
 
 * Globes 
+
+* Cubes 
 
 * Products of parity complexes 
 
