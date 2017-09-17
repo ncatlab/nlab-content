@@ -1,0 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+Let $V$ be a [[vector space]] over $\mathbb{R}$ or $\mathbb{C}$.  A subset $B$ of $V$ is said to be **absorbing** if $\bigcup_{r \gt 0} r B = V$.
+
+category: functional analysis
