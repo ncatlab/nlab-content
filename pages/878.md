@@ -1,6 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A (binary) [[relation]] $\sim$ on a set $A$ is __symmetric__ if any two elements that are related in one order are also related in the other order:
 $$\forall (x, y: A),\; x \sim y \;\Rightarrow\; y \sim x$$
 
 In the language of the $2$-poset-with-duals [[Rel]] of sets and relations, a relation $R: A \to A$ is __symmetric__ if it is contained in its reverse:
 $$R \subseteq R^{op}$$
 In that case, this containment is in fact an equality.
+
+## Related concepts
+
+* [[relation]]
+
+  * [[reflexive relation]]
+
+  * **symmetric relation**
+
