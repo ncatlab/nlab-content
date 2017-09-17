@@ -1284,7 +1284,11 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 
 * [[model structure on simplicial sheaves]]
 
+* [[model structure on presheaves of spectra]]
+
 * [[model structure for (2,1)-sheaves]]
+
+
 
 ## References
 
