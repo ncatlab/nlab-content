@@ -1,5 +1,11 @@
 
-Let $f: R\to S$ be a [[homomorphism]] of algebraic objects such as [[rings]]. Let $\cdot_S$ be an operation of $S$ on an object $M$ then by $r\cdot_R m:=f( r )\cdot_S m$ is defined an action of $R$ on $M$.
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $f: R\to S$ be a [[homomorphism]] of algebraic objects such as [[rings]]. Let $\cdot_S$ be an operation of $S$ on an object $M$, then by $r\cdot_R m:=f( r )\cdot_S m$ is defined an action of $R$ on $M$.
 
 It follows that we have a functor $\rho_f:SMod\to RMod$ sending $\cdot_S$ to $\cot_R$ which is a [[forgetful functor]].
 
@@ -7,4 +13,8 @@ Adjointly we obtain a functor $\epsilon_f:=\otimes_R S:RMod\to SMod$
 called the [[extension of scalars]] (see there for more)
 since for an $R$-module $M$ and the $R$-module $S$ we have that $M\otimes_R S$ is a well defined tensor product of $R$ modules which becomes an $S$ module by the operation of $S$ on itself in the second factor of the tensor. We have an adjunction $(\epsilon_f\dashv\rho_f)$.
 
- 
+## Related concepts
+
+* [[extension of scalars]] $\dashv$ **restriction of scalars** $\dashv$ [[coextension of scalars]]
+
+
