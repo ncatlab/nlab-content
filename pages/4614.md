@@ -140,7 +140,7 @@ A good simplicial topological space is proper.
 
 =--
 
-A proof appears as [Lewis, corollary 2.4 (b)](#Lewis). A generalization of this result is in [RobertsStevenson](#StevensonRoberts).
+A proof appears as [Lewis, corollary 2.4 (b)](#Lewis). A generalization of this result is in [RobertsStevenson](#RobertsStevenson).
 
 +-- {: .un_prop #ProperIsReedyCofibrant}
 ###### Proposition
@@ -213,7 +213,7 @@ A proof that good simplicial spaces are proper is in
 * L. Gaunce Lewis Jr., _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([JSTOR](http://www.jstor.org/pss/1999197))
 {#Lewis}
 
-A generalization of the statement that good implies proper is in 
+A generalization of the statement that good implies proper to other [[topological concrete categories]] is in 
 
 * [[David Roberts]], [[Danny Stevenson]], unpublished notes
 {#RobertsStevenson}
