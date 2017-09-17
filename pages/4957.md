@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 =--
 =--
 
@@ -53,7 +57,7 @@ $$
     S
 $$
 
-to indicate that if we think of $\Gamma$ as sending a [[space]] to its underlying $S$-object of points by forgetting [[cohesive topos|cohesion]], then $Disc$ creates the [[discrete space]] and $Codisc$ the [[codiscrete space]] on an object in $S$.
+to indicate that if we think of $\Gamma$ as sending a [[space]] to its underlying $S$-object of points by forgetting [[cohesive topos|cohesion]], then $Disc$ creates the [[discrete space]]/[[discrete object]] and $Codisc$ the [[codiscrete space]]/[[codiscrete object]] on an object in $S$.
 
 This is especially common when $S=$ [[Set]], in which case the final condition is automatic since all functors are $Set$-indexed.
 
