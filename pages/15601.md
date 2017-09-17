@@ -1,0 +1,38 @@
+### Idea
+
+(General) __Ricatti differential equation__ is any first order [[ordinary differential equation]] for function $y = y(z)$ which is of the form
+
+$$
+\frac{d y}{d z} = a_0(z) + a_1(z) y + a_2(z) y^2 
+$$
+
+with $a_0(z)\neq 0$ and $a_2(z)\neq 0$. 
+
+### Correspondence with 2nd order linear ODEs
+
+There is a correspondence between Ricatti equations and a wide class of
+2nd order linear differential equations, namely Ricatti equation for $y$ gives a 2nd order linear ODE for $u$ which satisfies $a_2 u' = u y$, namely
+
+$$
+u'' + a_0 a_2 u' + \left( a_1 + \frac{a_2'}{a_2} \right) u = 0.
+$$
+Of course, the coefficients are non-constant.
+
+### Reduction to Bernoulli ODE in presence of particular solution
+
+Unlike the [[Bernoulli differential equation]] which has $a_0(z) = 0$ and $a_2(z) \neq 0$, the Ricatti equation can not be solved in quadratures in general, unless a a particular solution $y_1$ is known. If so, then we can write $y = y_1 + u$ and
+write down the equation for $u$ which appears to be an example of a Bernoulli differential equation, hence solvable in quadratures. Regarding that $w = 1/u$ is
+the substitution for reducing Bernoulli to first order linear ODE, we can reduce
+the original Ricatti to such ODE by substituting $y = y_1 + 1/w$.
+
+### Matrix Ricatti equation
+
+For a generalization, the matrix Ricatti equation see the eom article.
+
+### Literature
+
+* Springer [[eom]] [Ricatti equation](http://www.encyclopediaofmath.org/index.php?title=p/r081770)
+* wikipedia: [Ricatti equation](http://en.wikipedia.org/wiki/Riccati_equation)
+
+category: analysis
+[[!redirects Ricatti differential equation]]
