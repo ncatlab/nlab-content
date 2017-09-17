@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[Kan fibration]] $p : E \to B$ is called 
+a **[[minimal Kan fibration]]** 
+if for all cells $x,y : \Delta[n] \to E$ 
+the condition $p(x) = p(y)$ and $\partial_i x = \partial_i y$ implies for all $k$ that $\partial_k x = \partial_k y$.
+
+
+## Properties
+
+(...)
+
