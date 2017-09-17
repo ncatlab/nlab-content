@@ -17,7 +17,7 @@
 
 In the broad sense of the word, a _topological string_ is a 2-dimensional [[TQFT]]. In its refined form this goes by the name _[[TCFT]]_. The "C" standing for _[[conformal field theory]]_ points to what historically was the main inspiration and still is the default meaning of _topological strings_: the _[[A-model]]_ and _[[B-model]]_ 2d TQFTs, which are each obtained by a "topological twisting" of [[2d SCFTs]].
 
-Accordingly, much of "physical" [[string theory]] has its analogs in _topological string theory_. Notably the toplogical analogs of the [[D-branes]] of the physical string --  the [[A-branes]] and [[B_branes]] -- have been studied in great (mathematical) detail, giving rise to [[homological mirror symmetry]] and, eventually, the notion of [[TCFT]] itself.
+Accordingly, much of "physical" [[string theory]] has its analogs in _topological string theory_. Notably the toplogical analogs of the [[D-branes]] of the physical string --  the [[A-branes]] and [[B-branes]] -- have been studied in great (mathematical) detail, giving rise to [[homological mirror symmetry]] and, eventually, the notion of [[TCFT]] itself.
 
 Also the perspective of [[string theory]] as the dimensional reduction of a conjectured [[UV-completion]] of  [[11-dimensional supergravity]] -- "M-theory" -- has its analog for topological strings, going, accordingly, by the term _[[topological M-theory]]_.
 
