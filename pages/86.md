@@ -625,7 +625,8 @@ The perspective on the BV-complex as a [[schreiber:derived critical locus]] is i
 
 Recent lectures, discussing also the connection to the [[graph complex]]:
 
-*Jian Qiu, Maxim Zabzine, _Introduction to graded geometry, Batalin-Vilkovisky formalism and their applications_, [arxiv/1105.2680](http://arxiv.org/abs/1105.2680) 
+* Jian Qiu, Maxim Zabzine, _Introduction to graded geometry, Batalin-Vilkovisky formalism and their applications_, [arxiv/1105.2680](http://arxiv.org/abs/1105.2680); _Knot weight systems from graded symplectic geometry_, [arxiv/1110.5234](http://arxiv.org/abs/1110.5234); _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, [arxiv/0912.1243](http://arxiv.org/abs/0912.1243)
+* Klaus Fredenhagen, Katarzyna Rejzner, _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, [arxiv/1110.5232](http://arxiv.org/abs/1110.5232)
 
 #### For non-Lagrangian theories
  {#ReferencesForNonLagrangianEquations}
@@ -658,9 +659,9 @@ BRST formalism is discussed in
 
 The original references on Hamiltonian BFV formalism are
 
-* I.A. Batalin and G.A. Vilkovisky, _Relativistic S-matrix of dynamical systems with boson and fermion constraints_ , Phys. Lett. B69 (1977) 309-312; 
+* I.A. Batalin, G.A. Vilkovisky, _Relativistic S-matrix of dynamical systems with boson and fermion constraints_ , Phys. Lett. __B69__ (1977) 309-312; 
 
-* I.A. Batalin and E.S. Fradkin, _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett.
+* I.A. Batalin, E.S. Fradkin, _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett.
 B122 (1983) 157-164.
 
 Homological Poisson reduction is discussed in 
