@@ -68,7 +68,7 @@ Conversely, it is easy to see that if $(E,M)$ is an OFS on a category $C$, then 
 
 ### Duality
 
-Note that the notion of factorization system is self-dual.  Therefore, if $(E,M)$ is a factorization system and $c \overset{e}{\to} a \overset{m}{\to} d$ is an $(E,M)$-factorization of $f\colon c\to d$, then not only is $m$ the $M$-image of $f$ (the largest $M$-subobject through which $f$ factors), but dually $e$ is also the **$E$-coimage** of $f$, i.e. the smallest $E$-quotient through which $f$ factors.
+Note that the notion of factorization system is self-dual.  Therefore, if $(E,M)$ is a factorization system and $c \overset{e}{\to} a \overset{m}{\to} d$ is an $(E,M)$-factorization of $f\colon c\to d$, then not only is $m$ the $M$-image of $f$ (the least $M$-subobject through which $f$ factors), but dually $e$ is also the **$E$-coimage** of $f$, i.e. the greatest $E$-quotient through which $f$ factors.
 
 However, see below for additional remarks on the usage of the terms "image" and "coimage."
 
