@@ -41,7 +41,7 @@ that characterizes morphisms $A_i \stackrel{g}{\to} A'_i$ in the [[groupoid of L
 
 But from there on the terminology generalizes to almost all physical theories. For one this is because the configuration space of many theories may be thought of as spaces of bundles with connections, notably also for [[gravity]]. 
 
-Moreover, many formal physical theories such as [[Chern-Simons theory]], [[supergravity]], etc. are described by [[higher category theory|higher categorical]] generalizations of bundles with connections: [[principal ∞-bundle]]s with [[connection on a principal ∞-bundle]] such as the [[Chern-Simons circle 3-bundle]]. Their configuration spaces form not just groupoids but [[∞-groupoid]]s. The [[higher morphism]]s in these are called **higher gauge transformation**.
+Moreover, many formal physical theories such as [[Chern-Simons theory]], [[supergravity]], etc. are described by [[higher category theory|higher categorical]] generalizations of bundles with connections: [[principal ∞-bundle]]s with [[connection on a principal ∞-bundle]] such as the [[Chern-Simons circle 3-bundle]]. Their configuration spaces form not just groupoids but [[∞-groupoids]]. The [[higher morphisms]] in these are called **[[higher gauge transformations]]**.
 
 For instance the configuration space of the [[Kalb-Ramond field]] is the [[2-groupoid]]  of [[circle n-bundle with connection|circle 2-bundles with connection]] over [[spacetime]]. An object in there is locally given by a 2-form $B_i \in \Omega^2(U_i \subset X)$. A 1-[[morphism]] in there is a **first order gauge transformation** $B_i \stackrel{\lambda}{\to} B'_i$ characterized by the equation $B_i' = B_i + d_{dR} \lambda_i$. A [[2-morphism]] in there is a **second order gauge transformation** $\lambda_i \stackrel{g_i}{\Rightarrow} \lambda'_i$ characterized by $\lambda'_i = \lambda_i + d_{dR} g_i$.
 
@@ -88,6 +88,8 @@ The fully general description for [[connections on ∞-bundles]] is at
 ## Related concepts
 
 * [[gauge group]], [[gauge fixing]]
+
+* [[higher gauge transformation]]
 
 * [[spontaneously broken symmetry]]
 
