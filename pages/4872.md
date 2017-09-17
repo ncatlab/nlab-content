@@ -8,6 +8,7 @@
   * [[bridge number]]
   * [[Jones polynomial]]
   * [[colorability]]
+  * [[knot group]]
 * Link Invariants
   * [[Milnor mu-bar invariants]]
   * [[linking number]]
