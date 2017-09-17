@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+## Idea
+
+In full [[linear logic]]/[[linear type theory]] there is assumed a (co-)[[modality]] denoted "!", whose role is, roughly, to give linear types also a non-linear interpretation. This is also called the _exponential conjunction_ and is also known as the "of course"-modality and sometimes also as the "bang"-operation (for better or worse).
+
+
+For the moment see at _[dependent linear type theory -- The canonical co-modality](http://ncatlab.org/nlab/show/dependent+linear+type+theory#TheCanonicalComodality)_ for more.
+
+
+[[!redirects of course]]
+[[!redirects !]]
