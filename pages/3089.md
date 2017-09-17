@@ -89,11 +89,33 @@ If $F\colon C\times D\to E$ is a [[functor]] of two variables which preserves re
 
 This is emphatically *not* the case for arbitrary coequalizers.
 
-=--
+=-- 
 
-This result is particularly interesting when $F$ is the [[tensor product]] of a cocomplete [[closed monoidal category]] $C$.  In this case it implies that the [[free monoid monad]] on such a category preserves reflexive coequalizers, and thus (by [Linton's theorem](#LintonTheorem)) the category of [[monoid objects]] in $C$ is cocomplete. 
++-- {: .proof} 
+###### Proof 
+**of proposition \ref{PreservingReflectiveCoequalizersInTwoVariables}** 
+Suppose given two reflexive coequalizers 
 
-For the moment we defer the proof of proposition \ref{PreservingReflectiveCoequalizersInTwoVariables}, but compare the proof of the lemma on page 1 of Johnstone's [Topos Theory](#Johnstone). 
+$$c_0 \stackrel{\to}{\to} c_1 \to c_2$$ 
+
+$$\,$$ 
+
+$$d_0 \stackrel{\to}{\to} d_1 \to d_2$$ 
+
+and let $c_{i j}$ denote $F(c_i, d_j)$ so that we have a diagram 
+
+$$\array{
+c_{0 0} & \stackrel{\to}{\to} & c_{0 1} & \to & c_{0 2} \\
+\downarrow \downarrow & & \downarrow \downarrow & & \downarrow \downarrow \\
+c_{1 0} & \stackrel{\to}{\to} & c_{1 1} & \to & c_{1 2} \\ 
+\downarrow & & \downarrow & & \downarrow \\
+c_{2 0} & \stackrel{\to}{\to} & c_{2 1} & \to & c_{2 2} 
+}$$ 
+
+in which all rows and columns are reflexive coequalizers (using preservation of reflexive coequalizers in separate variables), and all squares are _serially_ commutative. According to [Toposes, Triples, Theories](#BarrWells), lemma 4.2 page 248, the diagonal is also a (reflexive) coequalizer, as claimed. (See also the lemma on page 1 of Johnstone's [Topos Theory](#Johnstone).) 
+=-- 
+
+Proposition \ref{PreservingReflectiveCoequalizersInTwoVariables} is particularly interesting when $F$ is the [[tensor product]] of a cocomplete [[closed monoidal category]] $C$.  In this case it implies that the [[free monoid monad]] on such a category preserves reflexive coequalizers, and thus (by [Linton's theorem](#LintonTheorem)) the category of [[monoid objects]] in $C$ is cocomplete. 
 
 +-- {: .num_prop}
 ###### Proposition
@@ -148,6 +170,9 @@ Since finitary monads $T$ preserve reflexive coequalizers, it follows that the m
 
 * [[Fred Linton]], _Coequalizers in categories of algebras_, Seminar on Triples and Categorical Homology Theory, Lecture Notes in Mathematics Vol. 80 (1969), 75-90. 
 {#Linton}
+
+* [[Michael Barr]] and [[Charles Wells]], _Toposes, Theories, and Triples_, Reprints in Theory and Applications of Categories (2005), 1-289. ([online pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf)) 
+{#BarrWells}
 
 * [[Peter Johnstone]], Topos Theory, London Mathematical Society Monographs no. 10, Academic Press, 1977. 
 {#Johnstone} 
