@@ -43,6 +43,9 @@ In the [[AQFT]] approach to [[quantum field theory]] the observables are the ver
 
 * [[space of states (in geometric quantization)]]
 
+[[!include Isbell duality - table]]
+
+
 [[!redirects observable]]
 [[!redirects observables]]
 [[!redirects algebra of observables]]
