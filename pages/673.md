@@ -3,9 +3,11 @@
 
 
 
-I'm a visiting research fellow at the University of Adelaide (in Australia) and I work at the [National Centre for Vocational Education Research](http://www.ncver.edu.au/). I work on 2-bundles and internal groupoids, with general interest in homotopy theory apr&egrave;s Grothendieck.
+I'm a visiting research fellow at the University of Adelaide (in Australia) and I work at the [National Centre for Vocational Education Research](http://www.ncver.edu.au/). I work on 2-bundles and internal groupoids/categories, with general interest in homotopy theory apr&egrave;s Grothendieck.
 
 See my [private $n$Lab area](http://ncatlab.org/davidroberts/show/HomePage) for various things, including a project on Lie fundamental bigroupoids being undertaken jointly with [[Andrew Stacey]] and various scribbles.
+
+If you need it, here is my email: droberts (at symbol) maths dot adelaide dot edu dot au
 
 ## Selected writings ##
 
