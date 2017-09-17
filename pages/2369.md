@@ -25,7 +25,7 @@ A _ring spectrum_ is a model for an [[A-∞ ring]].
 
 The notion of [[spectrum]] is the generalization of the notion of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The notion of **ring spectrum** is the corresponding generalization of the notion of [[ring]].
 
-## Defnition
+## Definition
 
 A _ring spectrum_ is a [[monoid]] in the [[stable homotopy category]] $Ho(\mathcal{S})$ equipped with the [[smash product of spectra]]. See there for more details.
 
