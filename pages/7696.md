@@ -23,7 +23,7 @@ Analytic spaces are [[spaces]] that are locally modeled on [[Isbell duality|form
 
 In [[complex number|complex]] [[analytic geometry]] analytic spaces -- [[complex analytic space]] -- are a vast generalization of complex [[analytic manifolds]] and are usually treated in the formalism of [[locally ringed spaces]]. In this case the _[[GAGA]]-principle_ closely relates [[complex analytic geometry]] with [[algebraic geometry]] over the [[complex numbers]].
 
-In the case of non-archimedean ground field, the topology of the affine space is totally disconnected what requires different approach than, say, over complex numbers. This leads to several variants like [[rigid analytic geometry]], [[Berkovich space]]s. Huber's adic spaces and so on.
+In the case of non-archimedean ground field, the topology of the affine space is totally disconnected what requires different approach than, say, over complex numbers. This leads to several variants like [[rigid analytic geometry]], [[Berkovich space]]s. [[Huber's adic spaces]] and so on.
 
 ## Related entries
 
@@ -34,6 +34,8 @@ In the case of non-archimedean ground field, the topology of the affine space is
 * [[Banach analytic space]]
 
 * [[B1-homotopy theory]]
+
+* [[perfectoid space]]
 
 ## References
 
