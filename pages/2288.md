@@ -40,7 +40,9 @@ A tool of central importance in stable homotopy theory and its application to [[
 
 * [[homotopy theory]], [[homotopy type theory]]
 
-* [[S-theory]]
+* [[Spanier-Whitehead duality]], [[Anderson duality]]
+
+  * [[S-theory]]
 
 * [[stable (infinity,1)-category]]
 
