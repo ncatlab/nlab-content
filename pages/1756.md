@@ -49,7 +49,7 @@ In an [[enriched model category]] one speaks of [[enriched Quillen adjunction]].
 
 ### General
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -76,6 +76,29 @@ For $L$ we apply the formally dual argument.
 
 =--
 
+### Behaviour under localization
+ {#BehaviourUnderLocalization}
+
++-- {: .num_prop}
+###### Proposition
+
+If 
+
+$$
+  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D
+$$ 
+
+is a Quillen adjunction, $S \subset Mor(D)$ is a set of morphisms such that the [[Bousfield localization of model categories|left Bousfield localization]] of $D$ at $S$ exists, and such that the [[derived functor|derived]] image $\mathbb{L}L(S)$ of $S$ lands in the weak equivalences of $C$, then the Quillen adjunction descends to the localization $D_S$
+
+$$
+  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D_S
+  \,.
+$$ 
+
+=--
+
+This appears as ([Hirschhorn, prop. 3.3.18](#Hirschhorn))
+
 ### Of $sSet$-enriched adjunctions {#sSet}
 
 Of particular interest are [[SSet]]-[[enriched category theory|enriched]] adjunctions between [[simplicial model categories]]: [[simplicial Quillen adjunctions]]. 
@@ -83,7 +106,7 @@ Of particular interest are [[SSet]]-[[enriched category theory|enriched]] adjunc
 These present [[adjoint (∞,1)-functors]], as the first proposition below asserts.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ and $D$ be [[simplicial model categories]] and let 
@@ -111,10 +134,10 @@ This is proposition 5.2.4.6 in [[Higher Topos Theory|HTT]].
 =--
 
 
-The following proposition states conditions undeer which a Quillen adjunction may be detected already from knowing of the right adjoint only that it preserves fibrant objects (instead of all fibrations).
+The following proposition states conditions under which a Quillen adjunction may be detected already from knowing of the right adjoint only that it preserves fibrant objects (instead of all fibrations).
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $C$ and $D$ are [[simplicial model categories]] and $D$ is a left [[proper model category]], then an [[sSet]]-enriched adjunction
@@ -131,6 +154,9 @@ This appears as [[Higher Topos Theory|HTT, cor. A.3.7.2]].
 
 See [[simplicial Quillen adjunction]] for more details.
 
+
+
+
 ## Related concepts
 
 * **Quillen adjunction**
@@ -141,6 +167,13 @@ See [[simplicial Quillen adjunction]] for more details.
 
 * [[monoidal Quillen adjunction]]
 
+
+## References
+
+See the references at _[[model category]]_. For instance
+
+* [[Philip Hirschhorn]], _Model categories and their localization_
+ {#Hirschhorn}
 
 [[!redirects Quillen adjunctions]]
 
