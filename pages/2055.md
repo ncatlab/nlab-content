@@ -144,6 +144,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Noncommutative Geometry](http://noncommutativegeometry.blogspot.com) (Connes, Khalkhali...)
 
+* [Noncommutative geometry with point](http://noncommutativeag.wordpress.com), by a grad student at Kansas
+
 * [Nuit Blanche](http://nuit-blanche.blogspot.com) (data/imager/sensory compression, pattern recognition, networking, internet, AI/machine learning, neuroscience)
 
 * [qrazydragon](http://qrazydraqon.livejournal.com) (math, books, internet, in Russian)
