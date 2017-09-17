@@ -71,6 +71,9 @@ For a bounded operator $A: H\to K$ between Hilbert spaces define the Hermitean c
 
 [[!redirects Hermitean operator]]
 [[!redirects hermitian operator]]
+[[!redirects hermitean operator]]
 
 [[!redirects symmetric operator]]
 [[!redirects symmetric operators]]
+
+
