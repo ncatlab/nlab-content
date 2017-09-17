@@ -1,8 +1,22 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A [[function]] $f$ from $A$ to $B$ is __surjective__ if, given any element $y$ of $B$, $y = f(x)$ for some $x$.  A surjective function is also called __onto__ or a __surjection__; it is the same as an [[epimorphism]] in [[Set|the category of sets]].
 
 A _[[bijection]]_ is a function that is both surjective and [[injection|injective]].
 
 The [[axiom of choice]] states precisely that every surjection in the category of sets has a [[section]].  Some authors who doubt the axiom of choice use the term 'onto' for a surjection as defined above and reserve 'surjective' for the stronger notion of a function with a section (a [[split epimorphism]]).
+
+## Related concepts
+
+* [[injection]]
+
+* [[epimorphism]]
 
 
 [[!redirects surjective function]]
