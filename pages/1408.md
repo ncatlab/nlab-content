@@ -504,8 +504,8 @@ This is the "sheaf of $V$-valued functions on $X$".
    [[category of open subsets]]. Let $\mathcal{G} = Top$
    be some [[small category|small]] version of [[Top]]
    with its usual [[Grothendieck topology]] with 
-   admissible covering
-   families being open covers. Consider the functor
+   admissible [[covering]]
+   families being [[open cover]]s. Consider the functor
 
    $$
      O_X : Top \to Sh(X)
