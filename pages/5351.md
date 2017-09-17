@@ -16,6 +16,6 @@ The **relative dimension** at a point $x$ of a [[morphism]] $f : X \to Y$ of [[s
 
 Relative dimension of morphisms of schemes is defined in 
 
-* [[EGA]], IV, def. 4.1.2.
+* [[EGA]], IV, def. 5.1.2.
 
 [[!redirects relative dimensions]]
