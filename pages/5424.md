@@ -1,3 +1,9 @@
+In Joyal-Nielsen-Winskel is given the following definition. For what a "path category in a category of models" is, see there.
+
++-- {: .un_defn}
+###### Definition
+Let $P$ be a path category in a category of models $M$. Two objects $X_1,X_2$ are called to be *$P$-bisimilar* if there is a span of $P$-[[nLab:open map]]s $X_1\leftarrow X\to X_2$.
+=--
 
 * Wikipedia (English), _[Bisimulation](http://en.wikipedia.org/wiki/Bisimulation)_
 * Sam Staton, _[Relating coalgebraic notions of bisimulation](http://arxiv.org/abs/1101.4223)_
