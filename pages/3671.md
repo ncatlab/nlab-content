@@ -7,6 +7,8 @@ This entry is about the article
 
 * [[Hisham Sati]], _Geometric and topological structures related to M-branes_ ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020))
 
+This is not only a good survey but it has a nice bibliography. The main plan of this entry is to build a hyperlinked bibliography of the above article, to easen the access to the resources at one place!
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
