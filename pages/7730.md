@@ -10,7 +10,8 @@ Other works are
 
 * P.A. Bergh, M. Thaule, _The axioms for $n$-angulated categories_, [arXiv:1112.2533](http://arxiv.org/abs/1112.2533); _The Grothendieck group of an $n$-angulated category_, [arxiv/1205.5697](http://arxiv.org/abs/1205.5697)
 
-
+* Gustavo Jasso, _$n$-abelian and $n$-exact categories_, [arxiv/1405.7805](http://arxiv.org/abs/1405.7805)
+ 
 
 
 
