@@ -82,8 +82,7 @@ Let $S$ be a set whose elements are called sorts. Define $Prod(S)$ to be the [[c
 
 $$\hom(-, S): Set^{op} \to Set$$ 
 
-Thus objects are pairs $(n, x: [n] \to S)$, where $[n]$ is any set, and morphisms $(n, x) \to (m, y)$ are functions $f: [m] \to [n]$ such that $y = x \circ f$, or $y_i = x_{f(i)}$ for all $i \in [m]$. There is a canonical function $i: S \to Ob(Prod(S))$ sending $s$ to the pair $(1, s: [1] \to S)$. 
-Moreover, $\prod(S)$ has small products: if $X$ is any set and $h: X \to Ob(Prod(S))$ is any function, 
+Thus objects are pairs $(n, x: [n] \to S)$, where $[n]$ is any set, and morphisms $(n, x) \to (m, y)$ are functions $f: [m] \to [n]$ such that $y = x \circ f$, or $y_i = x_{f(i)}$ for all $i \in [m]$. There is a canonical function $i: S \to Ob(Prod(S))$ sending $s$ to the pair $(1, s: [1] \to S)$. Moreover, $Prod(S)$ has small products: if $X$ is any set and $h: X \to Ob(Prod(S))$ is any function, 
 
 $$\prod_{x \in X} h(x) \coloneqq (\sum_{x \in X} \pi_1(h(x)), H)$$ 
 
