@@ -137,6 +137,12 @@ Neveu, [[Pierre Ramond]] and [[John Schwarz]] wrote down in 1971 the system call
 
 Around the same time Golfand and Likhtman in Russia wrote down the [[super Poincare Lie algebra]] in four dimensions. This then motivated [[Julius Wess]] and Zumino to study supersymmetric QFTs in four dimensions. (see the account by ([Schwarz](#Schwarz)))
 
+## Related concepts
+
+* [[supergeometry]]
+
+* [[supersymmetry and Calabi-Yau manifolds]]
+
 ## References
 
 Related $n$Lab entries: [[supermanifold]], [[supergravity]], [[superstring theory]]. 
