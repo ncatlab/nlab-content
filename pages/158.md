@@ -1,7 +1,21 @@
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -16,13 +30,7 @@ an $\infty$-groupoid -- equivalently an [[(∞,0)-category]] -- is an [[∞-cate
 
 The collection of all $\infty$-groupoids forms the [[(∞,1)-category]] [[∞Grpd]].
 
-Special cases of $\infty$-groupoids include 
-
-* [[groupoid]]s;
-
-* [[2-groupoid]]s
-
-* [[delooping]]s of [[group]]s, [[2-group]]s, [[∞-group]]s.
+Special cases of $\infty$-groupoids include [[groupoid]]s, [[2-groupoid]]s, [[3-groupoid]]s, [[n-groupoid]]s, [[delooping]]s of [[group]]s, [[2-group]]s, [[∞-group]]s.
 
 
 ## Realizations
