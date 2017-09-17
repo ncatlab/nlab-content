@@ -137,7 +137,7 @@ of its diagonal entries; the dual comultiplication (which part of me wants to ca
 $$ (\sum_{i + j = k} a_k)_{i,j} = (a_{i + j})_{i,j} $$
 (so each antidiagonal is constant).
 
-We are lucky that coconvolution exists, since the dual of a Banach algebra need not be a Banach coalgebra; but arguably coconvolution is easier to describe than convolution, so let us shift perspective and take coconvolution as basic.  Then convolution necessarily exists on the dual of $l^\infty$, but (at least in [[classical mathematics]]) $l^1$ is only a subspace of that.  So from this perspective, what's lucky is that $l^1$ is closed under convolution.  (In [[dream mathematics]], $l^1$ is the entire dual of $l^\infty$, so no luck is required.)  Of course, $l^1$ *is* the dual of $c_0$ (the space of sequences with limit $0$), but the coconvolution of a non-zero element of $c_0$ is *not* closed (coclosed?) under coconvolution (try any non-zero example), so we are still lucky.
+We are lucky that coconvolution exists, since the dual of a Banach algebra need not be a Banach coalgebra; but arguably coconvolution is easier to describe than convolution, so let us shift perspective and take coconvolution as basic.  Then convolution necessarily exists on the dual of $l^\infty$, but (at least in [[classical mathematics]]) $l^1$ is only a subspace of that.  So from this perspective, what's lucky is that $l^1$ is closed under convolution.  (In [[dream mathematics]], $l^1$ is the entire dual of $l^\infty$, so no luck is required.)  Of course, $l^1$ *is* the dual of $c_0$ (the space of sequences with limit $0$), but $c_0$ is *not* closed (coclosed?) under coconvolution (try any non-zero example), so we are still lucky.
 
 
 [[!redirects Banach coalgebra]]
