@@ -230,6 +230,7 @@ Conversely, every [[bornological vector space]] is an inductive limit of [[norme
 
 * [[Banach analytic space]]
 
+[[!include analytic geometry ingredients -- table]]
 
 ## References
 
