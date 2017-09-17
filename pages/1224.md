@@ -1,15 +1,14 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-...
+A functor $F : C \to D$ is cofinal if we can restrict diagrams on $D$ to diagrams on $C$ along $F$ without changing their limit. 
 
-## Cofinal functotrs
+## Cofinal functors
 
-A [[functor]] $F : C \to D$ is **cofinal** if for every [[object]] $d \in D$ the [[comma category]] $(d/F)$ is [[connected category|connected]].
+A [[functor]] $F : C \to D$ is **cofinal** if for every [[object]] $d \in D$ the [[comma category]] $(F/d)$ is non-empty and [[connected category|connected]].
 
 
 ## Generalizations
