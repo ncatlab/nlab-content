@@ -60,7 +60,7 @@ As the union is the [[coproduct]] in the [[category of open subsets]] $Op(X)$, w
 The ambient space $X$ is a [[compact object]] in $Op(X)$.
 =--
 
-Under the [[axiom of choice]], the open cover formulation of compactness implies a universal closure formulation, and is implied by it even in the absence of choice:  
+Compactness is equivalent to the condition of being "stably closed" (and it is this condition which suggests the correct notion of "proper map" in algebraic geometry and elsewhere):
 +-- {: .num_defn #projection}
 ###### Definition
 For any space $Y$, the projection map $X \times Y \to Y$ is closed.
