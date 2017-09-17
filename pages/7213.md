@@ -48,6 +48,8 @@ This is reviewed in ([GLSW, section 2](#GLSW)).
 
 * [[generalized complex geometry]], [[exceptional geometry]]
 
+* [[generalized tangent bundle]], [[exceptional tangent bundle]]
+
 ## References
 
 ### General
