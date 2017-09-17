@@ -259,11 +259,11 @@ The object $\mathbf{B}G$ is the [[delooping]] object of the group object $G$.
 
 For more on this see also [[principal ∞-bundle]].
 
-### Models for group objects in $\infty Grpd$
+### Models for group objects in $\infty Grpd$ {#ModelsInInfGrpd}
 
 There is a [[model category]] structure that presents the [[(∞,1)-category]] of group objects in [[∞Grpd]]: the [[∞-group]]s.
 
-* The group objects $G$ themselves are modeled by a model structure on the category $sGrpd$ of [[simplicial group]]s.
+* The group objects $G$ themselves are modeled by a model structure on the category $sGrp$ of [[simplicial group]]s.
 
 * Their delooping spaces $\mathbf{B}G$ are modeled by a model structure on the category $sSet_0$ of [[simplicial set]]s with a single vertex.
 
