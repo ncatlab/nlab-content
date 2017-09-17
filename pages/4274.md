@@ -5,12 +5,11 @@
 
 ## Idea
 
-The _Witten genus_ is a [[genus]] that has can be undeerstood roughly as being the [[index]] of a [[Dirac operator]] on a [[loop space]].
+The universal [[elliptic genus|elliptic]] [[genus]] is a morphism $\phi_2 : \Omega_\bullet^{SO} \otimes \mathbb{C} \to M_\bullet(\Gamma_1(2)) \simeq \mathbb{C}[\delta, \epsilon]$ from the complexified [[cobordism ring]].
 
-As such it can be understood as the [[partition function]] of a an $N=1$ $d=2$ super[[CFT]] (the "[[heterotic string]]") and as such was introduced by [[Edward Witten]].
+[[Edward Witten]] argued that the value of the elliptic genus on $X$ can be understood as the $S^1$-[[equivariant cohomology|equivariant]] [[index]] of a [[Dirac operator]] on a [[loop space]] $\mathcal{L} X$.
 
-
-Formalizations of this construction exist both in [[AQFT]]-type and in [[FQFT]]-type [[quantum field theory]]:
+As such it can be understood as the [[partition function]] of a an $N=1$ $d=2$ super[[CFT]] (the "[[heterotic string]]"). Formalizations of this construction exist both in [[AQFT]]-type and in [[FQFT]]-type [[quantum field theory]]:
 
 * [[Stephan Stolz]] and [[Peter Teichner]] have proposed and developed a formalization in terms of 
   [[(2,1)-dimensional Euclidean field theory]]
@@ -39,6 +38,10 @@ The original reference on the Witten genus is
 
   * _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986).
 
+
+A useful introduction and survey can be found in
+
+* [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
 
 Other references include
 
