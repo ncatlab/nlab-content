@@ -1,0 +1,33 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _proof assistant_ or _proof management system_ is a kind of [[programming language]] designed to help with [[proofs]] in formalized [[mathematics]].
+
+There are two threads of current development in proof systems: foundational and coverage. The foundational work tries to find the best meta-theory to formalize mathematics. Out of that work first came dependent types ([[Automath]], in the late 60s), then the [[calculus of constructions]] (early [[Coq]]), and the [[calculus of inductive constructions]] (current [[Coq]]). More recently a new wave of such work is being done in [[homotopy type theory]] as another step in this direction. Coq's library is not that large, except in the area of [[group theory]] where the results of the work on [[Feit-Thompson theorem]] has produce something larger.
+
+The much larger work has happened for decades building [[Mizar]]'s enormous library (Mizar is based on Tarski-Grothendieck set theory rather than type theory). Its library is a couple of orders of magnitude larger than anyone else's. Also worth a close look is [[NuPRL]], HOL light and [[Isabelle]], which all have decently sized libraries.
+
+
+## Examples
+
+* [[Coq]], [[Agda]]
+
+## References
+
+* Wikipedia, _[Proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)_
+
+* Freek Wiedijk, _Digital math by alphabet_ ([web](http://www.cs.ru.nl/~freek/digimath/index.html))
+
+* _[Conference on Intelligent Computer Mathematics](http://www.cicm-conference.org/)_
+
+Parts of the above text are taken from [this MO comment](http://mathoverflow.net/questions/133572/at-which-level-is-it-currently-possible-to-write-formal-proofs/134009#134009) by [[Jacques Carette]].
+
+
+[[!redirects proof assistants]]
+
+[[!redirects proof management system]]
+[[!redirects proof management systems]]
