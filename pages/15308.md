@@ -1,0 +1,9 @@
+
+
+* [webpage](http://monge.u-bourgogne.fr/dsternh/)
+
+## relate $n$Lab entries
+
+* [[deformation quantization]]
+
+category: people
