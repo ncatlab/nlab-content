@@ -1,4 +1,5 @@
-A [[function]] $f\colon X \to V$ on a [[topological space]] with values in a [[vector space]] $V$ (or really any [[pointed set]] with the basepoint called $0$) has _compact support_ if the [[closure]] of the set where it is non-zero is a [[compact space|compact subset]].  That is, the subset $\overline{f^{-1}(V \setminus \{0\})}$ is a [[compact subspace|compact subset]] of $X$.
+
+A [[function]] $f\colon X \to V$ on a [[topological space]] with values in a [[vector space]] $V$ (or really any [[pointed set]] with the basepoint called $0$) has _compact support_ if the [[closure]] of its [[support]], the set of points where it is non-zero, is a [[compact space|compact subset]].  That is, the subset $\overline{f^{-1}(V \setminus \{0\})}$ is a [[compact subspace|compact subset]] of $X$.
 
 Typically, $X$ is [[Hausdorff space|Hausdorff]], $f$ is a [[continuous function]], and $V$ is a Hausdorff [[topological vector space]] (or at least a pointed topological space whose basepoint is closed), so that $f^{-1}(V \setminus \{0\})$ is an [[open subspace]] of $X$, yet any compact subspace of $X$ must be [[closed subspace|closed]]; this is why we take the closure.
 
