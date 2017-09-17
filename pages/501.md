@@ -124,6 +124,8 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[profinite set]]
 
+* [[finite cover]]
+
 [[!redirects finite set]]
 [[!redirects finite sets]]
 [[!redirects Bishop-finite set]]
