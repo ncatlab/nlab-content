@@ -141,7 +141,13 @@ Since Galois connections are simply [[adjunction]]s between posets, the concept 
 
 ## References
 
-*  _[[HAF]]_, 4.1--4.12
+Section 4.1--4.12 in
+
+*  Erich Schechter, _[[Handbook of Analysis and its Foundations]]_
+
+See also
+
+* Wikipedia, _[Closure operator](http://en.wikipedia.org/wiki/Closure_operator)_
 
 
 [[!redirects Moore closure]]
