@@ -55,6 +55,8 @@ The archetypical 2-topos is [[Cat]].
 
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
 
+* [[Ross Street]], _[[zoranskoda:Characterization of Bicategories of Stacks]]_  Category theory (Gummersbach 1981) LNM 962, 1982, MR0682967 (84d:18006)
+
 * [[Mark Weber]], _Yoneda structures from 2-toposes_ ([pdf](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf))
 
 [[!redirects 2-toposes]]
