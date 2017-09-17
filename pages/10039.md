@@ -34,7 +34,7 @@ $$
   f^\ast \colon Y^\ast \to X^\ast
 $$
 
-is the one obtained by $f$ by composing the duality [[unit of an adjunction|unit]] of $X$, the duality [[counit of an adjunction|counit]] of $Y$...
+is the one obtained by $f$ by composing the duality [[unit of an adjunction|unit]] of $X$ (the [[coevaluation map]]), the duality [[counit of an adjunction|counit]] of $Y$ (the [[evaluation map]])...
 
 =--
 
