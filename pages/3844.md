@@ -93,7 +93,7 @@ is a [[homotopy equivalence]] of [[Kan complex]]es.
 
 If $T$ is an ordinary category with products, hence an ordinary [[Lawvere theory]], then such a functor is called a **[[homotopy T-algebra]]**. There is a model category structure on these (see there).
 
-We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$. See [[model structure on simplicial algebras]].
+We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$. See [[model structure on simplicial T-algebras]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -156,28 +156,14 @@ $$
   \,.
 $$
 
-So we find that simplicial $T$-1-algebras model $T$-$(\infty,1)$-algebras.
-
-For emphasis, in the following we say this again for special choices of $T$.
-
-#### Simplicial rings
-
-Let $T$ be the [[syntactic category]] of the [[Lawvere theory]] of [[ring]], regarded as an $(\infty,1)$-category. Then by the above [[simplicial ring]]s are models for the $T$-$(\infty,1)$-algebras.
-
-#### Simplicial smooth algebras
-
-The [[Lawvere theory]] whose syntactic category with finite products is [[CartSp]] has as algebra [[smooth algebra]]s. The same theory, regarded as an $(\infty,1)$-algebraic theory, has as algebras **[[smooth (∞,1)-algebra]]s. 
-
-These  were considered for the discussion of [[derived smooth manifold]]s in
-
-* [[David Spivak]], _Derived smooth manifolds_ ([arXiv:0810.5174](http://arxiv.org/abs/0810.5174))
+There is a standard [[model structure on simplicial T-algebras]] and we find that simplicial $T$-1-algebras model $T$-$(\infty,1)$-algebras.
 
 
 ### Homotopy $T$-algebras
 
 For $T$ an ordinary Lawvere theory, there is also a model category structure on ordinary functors $T \to sSet$ that preserve the products only up to weak equivalence. Such functors are called [[homotopy T-algebra]]s.
 
-This model structure is equivalent to that on simplicial algebras (see [[homotopy T-algebra]] for details) but has the advantage that it is a left [[proper model category]].
+This model structure is equivalent to the [[model structure on simplicial T-algebras]] (see [[homotopy T-algebra]] for details) but has the advantage that it is a left [[proper model category]].
 
 ### Simplicial theories
 
