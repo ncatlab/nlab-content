@@ -104,6 +104,13 @@ For $V_\bullet$ a chain complex
 
   of $\partial_{n} : C_{n+1} \to C_{n}$ are called the **$n$-[[boundaries]]**;
 
+Notice that due to $\partial \partial = 0$ we have canonical inclusions
+
+$$
+  0 \hookrightarrow B_n \hookrightarrow Z_n \hookrightarrow C_n
+  \,.
+$$
+
 * the [[cokernel]] 
 
   $$
@@ -111,6 +118,12 @@ For $V_\bullet$ a chain complex
   $$
 
   is called the degree-$n$ **[[chain homology]]** of $C_\bullet$.
+
+$$
+  0 \to B_n \to Z_n \to H_n \to 0
+  \,.
+$$
+
 
 =--
 
