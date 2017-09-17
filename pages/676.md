@@ -37,7 +37,7 @@
 
   * [[density matrix]]
 
-  * [[quantum channels]]
+  * [[quantum operations and channels]]
 
 * **[[quantum information|Quantum Information]]**
 
