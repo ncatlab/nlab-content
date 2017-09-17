@@ -1,19 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-
 # Weak homotopy equivalences
 * table of contents
 {: toc}
-
 
 ## Idea
 
@@ -38,7 +36,7 @@ For $X, Y \in $ [[Top]] or $\in $ [[sSet]] two [[topological spaces]] or [[simpl
 1. $f$ induces an [[isomorphism]] of [[connected components]]
 
    $$
-     \pi_0(f) \colon \pi_0(X) \stackrel{\simeq}{\to} \pi_0(Y)
+     \Pi_0(f) \colon \Pi_0(X) \stackrel{\simeq}{\to} \Pi_0(Y)
    $$
 
    in [[Set]];
