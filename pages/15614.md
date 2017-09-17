@@ -21,9 +21,9 @@ The concept of _higher local field_ is the generalization of that of _[[local fi
 
 In particular two-dimensional local field are the analog of [[loop spaces]] in [[arithmetic geometry]].
 
- Their examples are $\mathbb{C}((t))$, \mathbb{R}((t)), \mathbb{Q}_p((t)), \mathbb{F}_q((t))((u))$, etc. 
+Their examples are $\mathbb{C}((t))$, $\mathbb{R}((t))$, $\mathbb{Q}_p((t))$, $\mathbb{F}_q((t))((u))$, etc. 
 
-They are not locally compact with respect to any reasonable topology on them. But they are selfdual, similar to the classical local fields. And one can integrate on them - there is a higher Haar measure which takes values not in $\mathbb{C}$ but in \mathbb{C}((X))$. Fourier transform with respect to this measure has many features similar to those of the Feynman [[path integral]] which still does not have rigorous math justification unlike this higher Haar measure, see ([Fesenko 06, sect. 18](#Fesenko06)).
+They are not locally compact with respect to any reasonable topology on them. But they are self-dual, similar to the classical local fields. And one can integrate on them - there is a higher Haar measure which takes values not in $\mathbb{C}$ but in $\mathbb{C}((X))$. Fourier transform with respect to this measure has many features similar to those of the Feynman [[path integral]] which still does not have rigorous math justification unlike this higher Haar measure, see ([Fesenko 06, sect. 18](#Fesenko06)).
 
 ## References
 
