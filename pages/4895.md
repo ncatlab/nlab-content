@@ -160,6 +160,10 @@ Here is a list with aspects of this correspondence:
 
 1. If one accepts that the [[quantization]] of the $G$-Chern-Simons [[action functional]] yields the [[TQFT]] given by the [[Reshetikhin-Turaev construction]] applied to the [[modular tensor category]] of $G$-[[loop group]] representations, then a detailed construction of the correspondence CS-TQFT/WZW-CFT is what the [[FFRS-formalism]] achieves. See there for more details. 
 
++-- {: .query}
+[[Bruce Bartlett]] I believe Andersen and Ueno have made rigorous now in [http://arxiv.org/abs/1110.5027] the fact that geometric quantization of Chern-Simons theory is equivalent to the Reshetikhin-Turaev construction based on the quantum group.  
+=--
+
    More comments on the holographic interpretation of this formalism are in ([Kapustin-Saulina](#KapustinSaulina), [Fuchs-Schweigert-Valentino](#FuchsSchweigertValentino)). 
 
 
