@@ -1,0 +1,31 @@
+
+The **[[brane]] scan**.
+
+The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [[sigma-models]]:
+
+| $\stackrel{D}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 10 |
+|--|--------|---|---|---|---|---|---|---|----|----|----|
+| 11 | |  |  [[M2-brane|M2]] |  |   | ([[M5-brane|M5]]) |   |   |   |   | $\ast$  |
+| 10 | | [[F1-brane|F1]]  |   |  | ([[D4-brane|D4]])  | [[NS5-brane|NS5]] |   |   |   |   |   |   
+| 9 | |   |   |  | $\ast$  |  |   |   |   |   |   |   
+| 8 | |   |   | $\ast$ |   |  |   |   |   |   |   |   
+| 7 | |   | $\ast$  |  |   |  |   |   |   |   |   |   
+| 6 | |  $\ast$  |  | $\ast$ |   |  |   |   |   |   |   |   
+| 5 | |  | $\ast$   | |   |  |   |   |   |   |   |   
+| 4 | | $\ast$  | $\ast$   | |   |  |   |   |   |   |   |   
+| 3 | | $\ast$  |  | |   |  |   |   |   |   |   |   
+
+The corresponding exceptional [[super L-∞ algebra]] [[∞-Lie algebra cohomology|cocycles]]:
+
+| $\stackrel{D}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 10 |
+|--|--------|---|---|---|---|---|---|---|----|----|----|
+| 11 | |  |  $\Psi^2 E^2$ on [[super Poincare Lie algebra|sIso]](10,1) |  |   | $\Psi^2 E^5 + \Psi^2 E^2 C_3$ on [[m2brane]]  |   |   |   |   | $\ast$  |
+| 10 | | $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](9,1) |   |  | (?)  | $\Psi^2 E^5$ on [[super Poincare Lie algebra|sIso]](9,1) |   |   |   |   |   |   
+| 9 | |   |   |  | $\Psi^2 E^4$ on  [[super Poincare Lie algebra|sIso]](8,1) |  |   |   |   |   |   |   
+| 8 | |   |   | $\Psi^2 E^3$ on  [[super Poincare Lie algebra|sIso]](7,1) |   |  |   |   |   |   |   |   
+| 7 | |   | $\Psi^2 E^2$ on  [[super Poincare Lie algebra|sIso]](6,1) |  |   |  |   |   |   |   |   |   
+| 6 | |  $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](5,1)  |  | $\Psi^2 E^3$ on  [[super Poincare Lie algebra|sIso]](5,1) |   |  |   |   |   |   |   |   
+| 5 | |  | $\Psi^2 E^2$ on  [[super Poincare Lie algebra|sIso]](4,1)   | |   |  |   |   |   |   |   |   
+| 4 | | $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](3,1) | $\Psi^2 E^2$ on  [[super Poincare Lie algebra|sIso]](3,1)   | |   |  |   |   |   |   |   |   
+| 3 | | $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](2,1)  |  | |   |  |   |   |   |   |   |   
+
