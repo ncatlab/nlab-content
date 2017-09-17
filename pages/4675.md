@@ -233,6 +233,7 @@ $$
     \uparrow^{\mathrlap{\simeq}}
     \\
     CE(\mathfrak{g})
+  }
 $$
 
 that is the identity on $\mathfrak{g}^*$ and sends $b$ to $0$ and $c $ to $\mu$ is a weak equivalence. It is adapted to computing the obstructions to string-lifts in that there is a canonical inclusion 
@@ -240,10 +241,10 @@ that is the identity on $\mathfrak{g}^*$ and sends $b$ to $0$ and $c $ to $\mu$ 
 $$
   CE(\hat \mathfrak{g})
   \leftarrow
-  CE(b^2 \mathbb{R}) = (\wedge^\bullet(\langle c \rangle), d =0)
+  CE(b^2 \mathbb{R}) = (\wedge^\bullet(\langle k \rangle), d =0)
 $$
 
-which includes the generator $c$.
+which includes the generator $k$.
 
 =--
 
