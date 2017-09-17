@@ -128,6 +128,9 @@ Special kinds of stacks include
 
 * [[gerbes]].
 
+[[!include homotopy n-types - table]]
+
+
 ## References
 
 * [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
