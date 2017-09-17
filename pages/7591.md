@@ -172,7 +172,7 @@ $$
   \,,
 $$
 
-which is indeed [[right adjoint]] to forming the ordinary [[group of units]] of a ring.
+which is indeed [[left adjoint]] to forming the ordinary [[group of units]] of a ring.
 
 We might call $\mathbb{S}[A]$ the *$\infty$-group $\infty$-ring of $A$ over the [[sphere spectrum]].
 
@@ -180,7 +180,7 @@ We might call $\mathbb{S}[A]$ the *$\infty$-group $\infty$-ring of $A$ over the 
 
 ####  Augmented case
 
-Also the augmented $\infty$-group of units functor of def. \ref{AugmentedGroupOfUnits} has a homotopy right adjoint. ([Sagave 11, theorem 1.8](#Sagave11)).
+Also the augmented $\infty$-group of units functor of def. \ref{AugmentedGroupOfUnits} is a homotopy right adjoint. ([Sagave 11, theorem 1.8](#Sagave11)).
 
 ## Examples
 
