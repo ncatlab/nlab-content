@@ -49,7 +49,7 @@ $$
   O_X : (Op(X))^{op} \to Quantities
 $$
 
-where we think -- for $U \subset X$ an object in the [[category of open subsets]] of $X$ -- of $O_X(U)$ as the collection of admissable functions on $U \subset X$. For instance $O_X(U)$ might be 
+where we think -- for $U \subset X$ an object in the [[category of open subsets]] of $X$ -- of $O_X(U)$ as the collection of admissible functions on $U \subset X$. For instance $O_X(U)$ might be 
 
 * the set of all continuous functions from $U$ to $\mathbb{R}$
 
@@ -112,16 +112,53 @@ But since we are taking care of the sheaf condition on $S$, we also want to allo
 
 
 +-- {: .un_defn}
-###### Definition ([StrSh, def 1.2.1](http://arxiv.org/abs/0905.0459))
+###### Definition An **admissiblility structure** on an $(\infty,1)$-category $V$ is 
 
-An **admissablility structure** on an $(\infty,1)$-category $V$ is a [[Grothendieck topology]] on $V$ such that it is _generated_ by a system of **admissable morphisms** (to be defined...)
+* a choice of [[sub-quasi-category|sub (∞,1)-category]] $V^{ad} \hookrightarrow V$, whose morphisms are to be called the **admissible morphisms**, such that
+
+  * for every admssible morphism $U \to X$ and any morphism $X' \to X$ there is a diagram
+
+    $$  
+      \array{
+        U' &\to& U
+        \\
+        \downarrow && \downarrow
+        \\
+        X' &\to& X 
+      }
+    $$
+
+    with $U' \to X'$ admissible;
+
+  * for every diagram of the form 
+
+    $$
+      \array{
+          && Y
+          \\
+          & \nearrow && \searrow
+         \\
+         X &&\to&& Z
+      }
+    $$
+
+    with $X \to Z$ and $Y \to Z$ admissible, also $X \to Y$ is admissible ([[category with weak equivalences|2-out-of-3 property]]).
+
+* a [[Grothendieck topology]] on $V$; such that all covering sieves are generated from admissible morphisms.
+
+
+
 =--
+
+
+This is [[Structured Spaces|StrSh, def 1.2.1]] in view of remark 1.2.4 below that.
+
 
 
 +-- {: .un_defn}
 ###### Definition ([StrSh, def 1.2.5](http://arxiv.org/abs/0905.0459))
 
-An $(\infty,1)$-category $V$ equipped with an admissablility structure is a **geometry** if it is essentially small, admits finite limits and is [[idempotent complete (infinity,1)-category|idempotent complete]].
+An $(\infty,1)$-category $V$ equipped with an admissiblility structure is a **geometry** if it is essentially small, admits finite limits and is [[idempotent complete (infinity,1)-category|idempotent complete]].
 =--
 
 
@@ -156,12 +193,6 @@ $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if
 
 Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
-
-+--{: .query}
-
-[[Urs Schreiber]]: second attempt to illustrate what this means:
-
-=--
 
 +-- {: .un_example}
 ###### Examples
@@ -336,7 +367,7 @@ $$
 
 Now formulate the previous example according to the above definition:
 
-Let $CRing^{fin}$ be the category of finitely generated commutative rings There is a standard admissability structure on $(CRing^{fin})^{op}$ that makes it a _geometry_ in the above sense.
+Let $CRing^{fin}$ be the category of finitely generated commutative rings There is a standard admissibility structure on $(CRing^{fin})^{op}$ that makes it a _geometry_ in the above sense.
 
 Then for $X$ a topological space an $(\infty,1)$-functor $(CRing^{fin})^{op} \to Sh(S)$ to $(infty,1)$-sheaves on $X$  is a sheaf of local commutative rings on $X$. ([StrSh, example 1.2.13](http://arxiv.org/abs/0905.0459))
 
@@ -365,7 +396,7 @@ see also
 
 Every ordinary smooth [[manifold]] $X$ becomes canonically a generalized space with structure sheaf as follows:
 
-Let $V := Diff$ be some version of the category of smooth manifolds. This becomes a _pregeometry_ in the above sense by taking admissable morphisms to be inclusions of open submanifolds.
+Let $V := Diff$ be some version of the category of smooth manifolds. This becomes a _pregeometry_ in the above sense by taking admissible morphisms to be inclusions of open submanifolds.
 
 Then for $Sh(X) := Sh(Op(X))$ the $(\infty,1)$-topos of $(\infty,1)$-sheaves on $X$, the obvious $(\infty,1)$-functor
 
