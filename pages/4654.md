@@ -21,13 +21,9 @@
 
 ## Connection
 
-* [[schreiber:∞-Lie algebroid valued differential forms]]
+* [[∞-Lie algebroid valued differential forms]]
 
-* [[groupoid of Lie-algebra valued forms]]
-
-* [[2-groupoid of Lie 2-algebra valued forms]]
-
-* [[3-groupoid of Lie 3-algebra valued forms]]
+* [[∞-connection on a principal ∞-bundle]]
 
 ## Curvature
 
