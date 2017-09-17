@@ -35,7 +35,9 @@ The category of [[Alexandroff locales]] is equivalent to that of completely dist
 This appears as ([Caramello, remark 4.3](#Caramello)).
 
 
+### Constructive complete distributivity
 
+A complete lattice is called **constructive completely distributive** if the join-assigning morphism $D A \to A$, with $D A$ the poset of [[downsets]].  This is equivalent to complete distributivity if and only if the [[axiom of choice]] holds; see ([WoodFawcett](#WoodFawcett)).  Constructive completely distributive lattices are an example of [[continuous algebras]] for a [[lax-idempotent 2-monad]].
 
 ## References
 
@@ -44,5 +46,9 @@ This appears as ([Caramello, remark 4.3](#Caramello)).
 * Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
  {#Caramello}
 
+* [[Richard Wood]] and Barry Fawcett, "Constructive complete distributivity. I". Math. Proc. Camb. Phil. Soc. (1990), 107, 81
+ {#WoodFawcett}
 
 [[!redirects completely distributive lattices]]
+[[!redirects constructive completely distributive lattice]]
+[[!redirects constructive completely distributive lattices]]
