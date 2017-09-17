@@ -77,7 +77,7 @@ If $a$ is an atom, then $B(a, -) \colon B \to \mathbf{2}$ preserves the [[initia
 
 $$a = a \wedge \bigvee_i x_i = \bigvee_i a \wedge x_i$$ 
 
-(where the second equation holds since $a \wedge -$ is a left adjoint, because $B$ is a Heyting algebra), and so we cannot have $a \wedge x_i = 0$ for all $i$. Thus $0 \lt a \wedge x_i \leq a$ for some $i$, where the second inequality is an equality since $a$ is an atom. Thus $a \leq x_i$ for some $i$, which is what we want. 
+(where the second equation holds since $a \wedge -$ is a left [[adjoint functor|adjoint]], because $B$ is a [[Heyting algebra]]), and so we cannot have $a \wedge x_i = 0$ for all $i$. Thus $0 \lt a \wedge x_i \leq a$ for some $i$, where the second inequality is an equality since $a$ is an atom. Thus $a \leq x_i$ for some $i$, which is what we want. 
 
 If $a$ is not an atom, i.e., if $0 \lt b \lt a$ for some $b$, then 
 
@@ -101,9 +101,11 @@ In what follows, we suppose the full $V$-subcategory $Tiny(E)$ of atomic objects
 
 $$E \to V^{Tiny(E)^{op}}$$ 
 
-sending an object $e$ to $E(i-, e)$. We say that $E$ is **[[atomic category|atomic]]** if every object $e$ is a canonical colimit of atomic objects below it, in the precise sense that $e$ is an enriched coend 
+sending an object $e$ to $E(i-, e)$. We say that $E$ is **[[atomic category|atomic]]** if $i \colon Tiny(E) \hookrightarrow E$ is $V$-[[dense functor|dense]], in other words if every object $e$ of $E$ is a canonical colimit of atomic objects below it, in the precise sense that the following enriched [[coend]] exists, and its canonical map to $e$, 
 
-$$\int^{a \in Tiny(E)} E(i a, e) \cdot i a.$$ 
+$$\int^{a \in Tiny(E)} E(i a, e) \cdot i a \to e,$$ 
+
+is an isomorphism. 
 
 If $E$ is a preorder, i.e., is $\mathbf{2}$-enriched where $\mathbf{2}$ is the category of $(-1)$-categories, the coend amounts to the supremum 
 
