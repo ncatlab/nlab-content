@@ -89,12 +89,12 @@ A deeper observation is that the [[linking number]] is a link invariant, for whi
 ## References
 One of the original sources is:
 
-* Reidemeister, _Knotentheorie,_ Ergebnisse der Mathematik (1932)
+* [[K. Reidemeister]], _Knotentheorie,_ Ergebnisse der Mathematik (1932)
 {#Reidemeister}
 
 Simple examples of invariants under the Reidemeister Moves are given in, for instance,
 
- * N. D. Gilbert and T. Porter, Knots and Surfaces, Oxford U.P., 1994.
+ * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
 Most modern texts on [[Knot Theory]] will contain discussions of the Reidemeister Moves.
 
