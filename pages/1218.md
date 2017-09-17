@@ -105,7 +105,7 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 ### Embedding of smooth manifolds into diffeological spaces
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The obvious functor from the category [[Diff]] of [[smooth manifold]]s to the category of diffeological spaces is a [[full and faithful functor]]
@@ -130,7 +130,7 @@ To see that the functor is full, we need to show that a map of sets $f : X \to Y
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The proof shows that we could restrict attention to the full sub-site $CartSp_{dim \leq 1} \subset CartSp$ on the objects $\mathbb{R}^0$ and $\mathbb{R}^1$ and still have a full and faithful embedding
@@ -163,7 +163,7 @@ $$
 The extra [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ sends diffeological spaces to the set of path-[[connected]] components of their underlying [[topological space]]s.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]].
@@ -198,7 +198,7 @@ $$
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Write $\Pi_0 := \lim_\to : Sh(CartSp) \to Set$
@@ -206,7 +206,7 @@ for the [[left adjoint]] to $LConst : Set \stackrel{Const}{\to} PSh(C) \stackrel
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $X \in Sh(C)$ a diffeological space, $\Pi_0(X)$ is the set of path-connected components of the topological space underlying $X$.
@@ -248,7 +248,7 @@ The connected components of the category of plots $y/X$ are the path-connected (
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is actually a [[connected topos]].
@@ -267,7 +267,7 @@ By the discussion at [[connected topos]] we could equivalently convince ourselve
 
 #### Locality {#Locality}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -301,7 +301,7 @@ that takes a Cartesian space $U$ to the set of [[function]]s from its underlying
 
 Geometrically, the object $CoDisc S \in Sh(CartSp)$ is the diffeological space [[codiscrete space|codiscrete]] (indiscrte) smooth structure.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every [[local topos]] comes with its notion of [[concrete sheaves]] that form a sub-[[quasitopos]]. For the local topos $Sh(CartSp)$ these are precisely the diffeological spaces.
@@ -342,7 +342,7 @@ is a monomorphism. This is precisely the condition on a sheaf to be a diffeologi
 #### Cohesiveness
  {#Cohesiveness}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[sheaf topos]] $Sh(CartSp)$ is even a [[cohesive topos]] in which the axiom _pieces have points_ holds.
@@ -370,7 +370,7 @@ where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed cat
 
 ### The quasitopos of diffeological spaces
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 The category of diffeological spaces is a [[quasitopos]].
@@ -386,7 +386,7 @@ This follows from the discussion at [Locality](#Locality).
 
 This has some immediate general abstract consequences
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 The category of diffeological spaces is 
