@@ -193,6 +193,21 @@ Category-theoretically, the traditional notion of subset gives a way of picking 
 
 On the other hand, there is no particular harm either in having such structure around, as long as one remembers that it is not an isomorphism invariant.  People will instinctively turn to canonical representatives whenever they can -- think of what we would tell a student who asks for help understanding how to multiply elements in $\mathbb{Z}_13$ -- and even category theorists do so when they are available.
 
+## Examples
+ {#Examples}
+
+* A subobject in [[Set]] is a [[subset]].
+
+* A subobject in [[Grp]] is a [[subgroup]].
+
+* A subobject in $R$[[Mod]] is a [[submodule]]. 
+
+* A subobject (a [[subfunctor]]) of a [[representable functor]]  is a [[sieve]].
+
+
+
+
+
 
 ## Related concepts
 
