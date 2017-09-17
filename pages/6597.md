@@ -1,4 +1,22 @@
-The symplcetic gradient is the symplectic analogue of the [[gradient]] in [[Riemannian gometry]] 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _symplcetic gradient_ is the analog in [[symplectic geometry]] of the [[gradient]] in [[Riemannian geometry]].
 
 ## Definition
 
@@ -18,6 +36,7 @@ This is the unique vector field $X_H$ such that
 $$
   d_{dR} H = \omega(-,X_H)
 $$
+
 The function $H$ in this context is called an [[Hamiltonian]] and the vector field $H_X$ an [[Hamiltonian vector field]].
 
 Equivalently, the vector field $X_H$ is defined by the condition
@@ -28,10 +47,12 @@ $$
 for any $f \in C^\infty(X)$, where $\{\,,\,\}$ is the [[Poisson bracket]] on $(M,\omega)$.
 
 
-####Example.
+## Examples 
 
-If $(M,g)$ is $\mathbb{R}^{2n}$ endowed with the standard symplectic form $\omega=dp_i\wedge dq^i$, then
+If $(M,g)$ is $\mathbb{R}^{2n}$ endowed with the standard [[symplectic form]] $\omega=dp_i\wedge dq^i$, then
 
 $$
 X_H= \sum_{i=1}^n\frac{\partial f}{\partial p_i}\frac{\partial}{\partial q^i}-\frac{\partial f}{\partial q^i}\frac{\partial}{\partial p_i}.
 $$
+
+[[!redirects symplectic gradients]]
