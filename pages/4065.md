@@ -16,21 +16,28 @@ j(\tau) = q^{-1} + 744 + 196884q + 21493760q^{2} + \dots
 $$
 where $q=\exp(i2\pi\tau)$, and famously 196883+1=196884. Thompson (1979) that the rest other coefficients are obtained from the dimensions of Monster's irreducible representations. 
 
-But please remember: the monster was merely _conjectured_ to exist until Griess (1982) explicitly constructed tit. The construction is horribly complicated (take the sum of three irreducible representations for the [[centralizer]] of an [[involution]] of...). 
+But please remember: the monster was merely _conjectured_ to exist until Griess (1982) explicitly constructed it. The construction is horribly complicated (take the sum of three irreducible representations for the [[centralizer]] of an [[involution]] of...). 
 
-Frenkel, Lepowsky, Meurman (1984) construct an infinite-dimensional module for the Monster. This is by a generalized Kac-Moody algebra via bosonic string theory and the Goddard--Thorn "No Ghost" theorem. The Monster acts naturally on this "Moonshine Module" (denoted by $V^{\natural}$). (I hope that's mildly coherent, I lost track of time and it got later than I imagined...)
+Frenkel, Lepowsky, Meurman (1984) construct an infinite-dimensional module for the Monster. This is by a generalized Kac-Moody algebra via bosonic string theory and the Goddard--Thorn "No Ghost" theorem. The Monster acts naturally on this "Moonshine Module" (denoted by $V\natural$). (I hope that's mildly coherent, I lost track of time and it got later than I imagined...)
+
+Alex Nelson: Well, the long story short, we end up getting from the Monster group to a module it acts on which is related to "modular stuff" (namely, the modular $j$ function). The idea Gannon pitches is that Moonshine is a generalization of this association, it's a sort of "mapping" from "Algebraic gadgets" to "Modular stuff". 
 =--
 
 
 
 ## References
 
-* [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998.
-* [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, "A natural representation of the Fischer-Griess Monster with the modular function $J$ as character." Proc. Nat. Acad. Sci. U.S.A. 81 (1984), no. 10, Phys. Sci., 3256--3260.
+* [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998. liv+508 pp. [MR0996026](http://www.ams.org/mathscinet-getitem?mr=996026)
 * Terry Gannon, _Moonshine beyond the Monster: The Bridge Connecting Algebra, Modular Forms and Physics_, Cambridge Monographs on Mathematical Physics, Cambridge University Press, Cambridge, Massachusetts 2006.
-* [[Robert Griess]], "The friendly giant." Invent. Math. 69 (1982), no. 1, 1--102.
-* John G. Thompson, "Some numerology between the Fischer-Griess Monster and the elliptic modular function." Bull. London Math. Soc. 11 (1979), no. 3, 352--353.
 
+### Historical References 
+
+* John Conway and Simon Norton, "Monstrous moonshine." _Bull. London Math. Soc._ **11** (1979), no. 3, 308--339; [MR0554399](http://www.ams.org/mathscinet-getitem?mr=554399) (81j:20028)
+* [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, "A natural representation of the Fischer-Griess Monster with the modular function $J$ as character." _Proc. Nat. Acad. Sci. U.S.A._ **81** (1984), no. 10, Phys. Sci., 3256--3260. [MR0747596](http://www.ams.org/mathscinet-getitem?mr=747596) (85e:20018)
+
+* [[Robert Griess]], "The friendly giant." _Invent. Math._ **69** (1982), no. 1, 1--102. [MR671653](http://www.ams.org/mathscinet-getitem?mr=671653) (84m:20024)
+* John G. Thompson, "Some numerology between the Fischer-Griess Monster and the elliptic modular function." _Bull. London Math. Soc._ **11** (1979), no. 3, 352--353.
+[MR0554402](http://www.ams.org/mathscinet-getitem?mr=554402) (81j:20030)
 
 [[!redirects moonshine]]
 
