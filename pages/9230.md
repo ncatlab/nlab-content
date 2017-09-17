@@ -40,6 +40,8 @@ Feynman graphs play a central role in [[perturbation theory]] in [[quantum field
 
 * [[path integral quantization]]
 
+* [[Feynman propagator]]
+
 * [[worldline formalism]]
 
 ## References
