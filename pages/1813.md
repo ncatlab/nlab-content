@@ -158,7 +158,7 @@ where in the last step we used the definition of the
 
 ### Topological realization of simplicial sets 
 
-A classical examples is given by the [[simplicial object|cosimplicial]] [[topological space]]
+A classical examples is given by the [[simplicial topological space|cosimplicial topological space]]
 
 $$
   \Delta_{Top} : \Delta \to Top
@@ -170,6 +170,7 @@ that sends the abstract $n$-simplex $[n]$ to the standard topological $n$-simple
 
 * The corresponding [[nerve]] is the [[singular simplicial complex]] of [[∞-groupoid]] functor.
 
+(see [[geometric realization of simplicial topological spaces]], too)
 
 ### Nerve of categories 
 
