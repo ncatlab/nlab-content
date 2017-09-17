@@ -19,13 +19,15 @@
 
 ## Idea
 
-The Weierstrass elliptic function parameterizes a [[complex manifold|complex]] [[torus]] as a solution to the [[Weierstrass equation]] for general [[elliptic curves]] when considered over the [[complex numbers]].
+The Weierstrass elliptic function $\wp$ parameterizes a [[complex manifold|complex]] [[torus]] as a solution to the [[Weierstrass equation]] for general [[elliptic curves]] when considered over the [[complex numbers]].
 
-See at _[[elliptic curve]]_ for more.
+See at _[[elliptic curve]]_ and at _[[Möbius transformation]]_ for more.
 
 ## Related concepts
 
 * [[elliptic curve]]
+
+* [[elliptic function]]
 
 ## References
 
