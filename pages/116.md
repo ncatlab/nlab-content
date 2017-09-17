@@ -217,7 +217,9 @@ For more see [[counterexamples in algebra]].
 
 * **group**, [[group object]]
 
-  * [[finite group]], [[discrete group]], [[abelian group]], [[topological group]], [[Lie group]], [[loop group]], [[profinite group]]
+  * [[finite group]], [[discrete group]], [[abelian group]], [[anabelian group]], [[profinite group]],
+
+  * [[topological group]], [[Lie group]], [[loop group]], 
 
   * [[group commutator]], [[commutator subgroup]]
 
