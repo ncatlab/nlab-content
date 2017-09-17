@@ -120,6 +120,16 @@ $$
 ([Sagave 11, prop. 4.3](#Sagave11))
 
 
++-- {: .num_remark}
+###### Remark
+
+It ought to be true that the non-connective delooping $bgl_1^\ast(E)$ is equivalent to or at least closely related to the [[Picard ∞-group]] of $E Mod$. ([Sagave 11, remark 4.11](#Sagave11)).
+
+See also at _[twisted cohomology -- by R-module bundles](twisted+cohomology#InfSections)_.
+
+
+=--
+
 
 ## Properties
  {#Properties}
