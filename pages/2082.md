@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of _quantum group_ refers to various objects which are deformations of (algebras of functions on) [[groups]], but still have very similar properties to (algebras of functions on) groups, and in particular to [[semisimple Lie groups]]. Most important are the [[Hopf algebras]] _deforming_ the function algebras on [[semisimple Lie groups]] or to the enveloping algebras of Kac-Moody Lie algebras.
+The notion of _quantum group_ refers to various objects which are deformations of ([[algebras of functions]] on) [[groups]], but still have very similar properties to (algebras of functions on) groups, and in particular to [[semisimple Lie groups]]. Most important are the [[Hopf algebras]] _deforming_ the function algebras on [[semisimple Lie groups]] or to the enveloping algebras of Kac-Moody Lie algebras.
 
 ## Overview
 
