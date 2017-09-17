@@ -288,9 +288,19 @@ $$
 
 =--
 
+## Related concepts
+
+* [[higher Atiyah groupoid]]
+
+  * [[Atiyah groupoid]]
+
+  * [[Courant 2-groupoid]]
+
 ## References
 
 The description of the standard Courant algebroid in its incarnation as an [[dg-manifold]] is given for instance in section 5 of
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv:0203110](http://arxiv.org/abs/math/0203110))
 
+
+[[!redirects standard Courant Lie 2-algebroid]]
