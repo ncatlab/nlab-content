@@ -18,7 +18,7 @@
 
 ## Idea
 
-An _$\infty$-algebra over an $(\infty,1)$-operad_ is an [[∞-groupoid]] equipped with higher algebraic operations as encoded by an [[(∞,1)-operad]].
+An _$\infty$-algebra over an $(\infty,1)$-operad_ is an [[∞-groupoid]] equipped with higher algebraic operations as encoded by an [[(∞,1)-operad]].  Since there is not really any other sensible notion of algebra for an $(\infty,1)$-operad, we feel free to drop the prefix (although in other cases it can be helpful to disambiguate).
 
 This is the [[(∞,1)-category theory]]-analog of the notion of [[algebra over an operad]]. Notice that in the literature one frequently sees [[model category]] presentations of $(\infty,1)$-operads by ordinary [[operad]]s enriched in a suitable [[monoidal model category]]. In these models $\infty$-algebras are be presented by ordinary algebras over cofibrant [[resolution]]s of ordinary enriched operads. This is directly analogous to how [[(∞,1)-categories]] may be presented by [[simplicially enriched categories]].
 
@@ -61,9 +61,16 @@ Model category structures for $\infty$-algebras are discussed in
 {#BergerMoerdijk}
 
 [[!redirects ∞-algebra over an (∞,1)-operad]]
-
 [[!redirects ∞-algebras over an (∞,1)-operad]]
 [[!redirects ∞-algebras over (∞,1)-operads]]
 
 [[!redirects infinity-algebras over an (infinity,1)-operad]]
 [[!redirects infinity-algebras over (infinity,1)-operads]]
+
+[[!redirects algebra over an (∞,1)-operad]]
+[[!redirects algebras over an (∞,1)-operad]]
+[[!redirects algebras over (∞,1)-operads]]
+
+[[!redirects algebra over an (infinity,1)-operad]]
+[[!redirects algebras over an (infinity,1)-operad]]
+[[!redirects algebras over (infinity,1)-operads]]
