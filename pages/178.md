@@ -409,7 +409,7 @@ $$
 
 =--
 
-+-- {: .un_def}
++-- {: .un_def #DiffeologicalKanComplex}
 ###### Definition
 
 A **diffeological $\infty$-groupoid** or **diffeological Kan complex**
@@ -2495,7 +2495,6 @@ Form the defining pullback as before. (...)
 
 We discuss here the  <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebras">intrinsic exponentiated ∞-Lie algebras</a> in $Smooth \infty Grpd$.
 
-For related discussion see [[Lie integration]].
 
 +-- {: .un_def}
 ###### Definition
@@ -2529,6 +2528,15 @@ $$
   Hom_{dgAlg}(\Omega_{vert}^\bullet(U \times \Delta^n), CE(\mathfrak{g}))
   \,.
 $$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The objects $\exp(\mathfrak{g})$ are 
+[diffeological Kan complexes](#DiffeologicalKanComplex)
+and hence [concrete objects](#StrucConcreteObjects).
 
 =--
 
@@ -2678,6 +2686,21 @@ Finally, since $[0,1]$ is a [[contractible]] [[paracompact manifold]], we have t
 By the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">propositon about geometric homotopy</a> in a [[cohesive (∞,1)-topos]] it follows that 
 $\Pi(\exp(\mathfrak{g})_n) \simeq *$ for all $n \in \mathbb{N}$.
 And since $\Pi$ preserves the [[homotopy colimit]] $\exp(\mathfrak{g}) \simeq \mathbb{L} {\lim_\to}_n \exp(\mathfrak{g})_n$ we have that $\Pi(\exp(\mathfrak{g})) \simeq *$, too.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+We may think of $\exp(\mathfrak{g})$ as the smooth 
+**[[n-connected|∞-simply connected]] [[Lie integration]]**
+of $\mathfrak{g}$.
+
+Notice however that $\exp(\mathfrak{g}) \in Smooth \infty$
+in general has nontrivial and interesting 
+[[categorical homotopy groups in an (infinity,1)-topos|categorical homotopy groups]].
+The above statement says that its 
+_[[geometric homotopy groups in an (infinity,1)-topos|geometric homotopy groups]]_ vanish .
 
 =--
 
