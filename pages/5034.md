@@ -55,5 +55,9 @@ We call $Conc(\mathbf{H})$ the [[(∞,1)-quasitopos]] of **concrete objects** of
 
 * **concrete $(\infty,1)$-sheaf**
 
+## References
+
+This entry goes back to some observations by [[David Carchedi]].
+
 [[!redirects concrete (∞,1)-sheaves]]
 [[!redirects concrete (∞,1)-sheaf]]
