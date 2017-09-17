@@ -51,6 +51,8 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 * [[topologically twisted D=4 super Yang-Mills theory]]
 
+  * [[chiral ring]], [[quantum cohomology]]
+
 * [[Seiberg-Witten theory]], [[electric-magnetic duality]], [[symplectic duality]]
 
 * [[AGT correspondence]]  
