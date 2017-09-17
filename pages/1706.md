@@ -292,6 +292,7 @@ This is ([Lurie, theorem 2.4.26](#Lurie)).
 If in  def. \ref{CatOfCobordismsWithXIStructure} one chooses $X = B SO(n) \times Y$ for any topological space $Y$, and $\xi$ the [[pullback]] of the canonical vector bundle bundle on $B SO$ to $B SO \times Y$, then an $(\infty,n)$-functor $Bord^{X}_n \to C$ is similar to what Turaev calls an [[HQFT]] over $Y$.
 
 
+
 ### For cobordisms with singularities (boundaries/branes and defects/domain walls)
  {#ForCobordismsWithSingularities}
 
@@ -364,6 +365,8 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 ## Related concepts
 
 * [[generalized tangle hypothesis]]
+
+* [[conformal cobordism category]]
 
 [[!include Isbell duality - table]]
 
