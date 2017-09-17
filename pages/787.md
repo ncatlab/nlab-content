@@ -105,7 +105,7 @@ The [[standard Courant algebroid]] of a [[manifold]] $X$ is the one which
     \,.
   $$
 
-Such a standard Courant algebroid may be understood as the higher analog of the  [[Atiyah Lie algebroid]] of a line bundle (...explain...).
+Such a standard Courant algebroid may be understood as the higher analog of the  [[Atiyah Lie algebroid]] of a line bundle. See below in _[Relation to Atiyah groupoids](#RelationToAtiyahGroupoids)_.
 
 ## Properties
 
@@ -120,6 +120,123 @@ As every [[symplectic Lie n-algebroid]] the defining [[invariant polynomial]] on
 ### Lagrangian submanifolds and Dirac structures
 
 The [[Lagrangian dg-submanifolds]] of a Courant Lie 2-algebroid corespond to its [[Dirac structures]]. 
+
+
+### Relation to Atiyah Lie 2-algebroid and quantomorphism 2-group
+ {#RelationToAtiyahGroupoids}
+
+We discuss how the following tower of notiosn works
+
+| [[circle n-bundle]] with $(n-1)$-form connection | [[Lie n-algebra]] of [[group of bisections|of bisections]] of Atiyah Lie n-group |
+|--|--|
+|  [[circle bundle]] |  [[Lie algebra]] of [[sections]] of [[Atiyah Lie algebroid]] |
+|  [[circle 2-bundle]] with 1-form connection | [[Lie 2-algebra]] of [[sections]] of [[Courant Lie 2-algebroid]]
+
+For $n,k \in \mathbb{N}$ and $k \leq n$ write
+
+$$
+  \mathbf{B}^n U(1)_{conn^k}
+  \coloneqq
+  DK\left[
+    U(1) \stackrel{d log}{\to}
+    \Omega^1
+    \stackrel{d}{\to}
+    \cdots
+    \stackrel{d}{\to} 
+     \Omega^{k-1}
+    \stackrel{d}{\to} \Omega^k
+     \to 
+     \underbrace{
+     0
+     \to 0
+     \to \cdots
+     \to 0
+     }_{n-k}
+  \right]
+$$
+
+for the [[smooth ∞-groupoid]] which is presented under the [[Dold-Kan correspondence]] by the [[sheaf]] of [[chain complexes]], as indicated. This is such that for $k = n$ we have the [[Deligne complex]], representing the [[moduli ∞-stack]] of [[circle n-bundles with connection]]
+
+$$
+  \mathbf{B}^n U(1)_{conn^n} \simeq \mathbf{B}^n U(1)_{conn}
+$$
+
+and for $k = 0$ we have the moduli $\infty$-stack for plain [[circle n-group]] [[principal ∞-bundles]]
+
+$$
+  \mathbf{B}^n U(1)_{conn^0} \simeq \mathbf{B}^n U(1)
+  \,.
+$$
+
+For $k_2 \lt k_1$ there are evident truncation maps
+
+$$
+  \mathbf{B}^n U(1)_{conn^{k_1}}
+  \to 
+  \mathbf{B}^n U(1)_{conn^{k_2}}
+  \,.
+$$
+
+Now for $X \in $ [[SmthMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] a [[smooth manifold]], a map
+
+$$
+  \nabla \;\colon\; X \to \mathbf{B}^n U(1)_{conn}
+$$
+
+modulates a [[circle n-bundle with connection]] ([[bundle gerbe|bundle (n-1)-gerbe]]), which we may think of as a _[[prequantum circle n-bundle]]_. Regarding this as an [[object]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n U(1)}$ this has an [[automorphism ∞-group]]. The [[concretification]] of this (...) is the [[quantomorphism n-group]] $QuantMorph(\nabla)$.
+
+$$
+  \mathbf{QuantMorph}(\nabla)
+  \coloneqq
+  conc\mathbf{Aut}(\nabla)
+  =
+  \left\{
+    \array{
+      X && \underoverset{\simeq}{\phi}{\to} && X
+      \\
+      & {}_{\mathllap{\nabla}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\nabla}}
+      \\
+      && \mathbf{B}^n U(1)_{conn}
+    }
+  \right\}
+  \,.
+$$
+
+But we can also first forget the $n$-form pieces of the prequantum $n$-bundle away and consider
+
+$$
+  \nabla_{n-1} 
+    \;\colon\;
+   X 
+    \stackrel{\nabla}{\to}
+   \mathbf{B}^n U(1)_{conn}
+   \simeq 
+   \mathbf{B}^n U(1)_{conn^n}
+   \to
+   \mathbf{B}^n U(1)_{conn^{n-1}} 
+  \,.
+$$
+
+For $n = 2$ this is sometimes known in the literature as a "bundle gerbe with connective structure but without curving".
+
+The concretifid [[automorphism ∞-group]] of that truncated connection is the [[n-group]] of [[group of bisections|of bisection]] of the [[Atiyah n-groupoid]]
+
+$$
+  conc \mathbf{Aut}(\nabla_{n-1}) \in Grp(Smooth \infty Grpd)
+  \,.
+$$
+
+For $n = 1$ this is the [[group of bisections]] of the [[Atiyah Lie groupoid]] of the underlying [[circle principal bundle]] $\nabla_0 \colon X \to \mathbf{B} U(1)$. Hence its [[Lie differentiation]] is the [[Lie algebra]] of sections of the coresponding [[Atiyah Lie algebroid]].
+
+For $n = 2$ the [[Lie differentiation]] of this [[Lie 2-group]] is the [[Lie 2-algebra]] of sections of the corresponding Courant Lie 2-algebroid. With a little bit of translation, this is what is shown in ([Collier](#Collier)).
+
+Finally notice that the forgetful map $\mathbf{B}^n U(1)_{conn} \to \mathbf{B}^n U(1)_{conn^{n-1}}$ induces an [[homomorphism]] of [[∞-groups]]
+
+$$
+  conc \mathbf{Aut}(\nabla) \to conc \mathbf{Aut}(\nabla_{n-1})
+$$
+
+hence an embedding of the [[quantomorphism n-group]] into the $n$-[[group of bisections]] of the Atiyah n-groupoid. For $n = 2$ and after [[Lie differentiation]], this is an embedding of the [[Poisson Lie 2-algebra]] into the sections of the Courant Lie 2-algebroid. This embedding had been observed in ([Rogers](#Rogers)).
 
 ## Related concepts
 
@@ -168,6 +285,17 @@ A discussion of Courant algebroids with an eye towards the relation of the [[sta
 
 * [[Paul Bressler]], Alexander Chervov, _Courant algebroids_ ([hep-th/0212195](http://arxiv.org/abs/hep-th/0212195))
 
+The identification of the Lie 2-algebra of sctions of a Courant Lie 2-algebroid associated with a [[circle 2-bundle with connection]] as its Lie algebra of automorphisms after forgetting the "curving" is in
+
+* [[Braxton Collier]], _Infinitesimal Symmetries of Dixmier-Douady Gerbes_ ([arXiv:1108.1525](http://arxiv.org/abs/1108.1525))
+ {#Collier}
+
+The embedding of the [[Poisson Lie 2-algebra]] of a given [[2-plectic geometry]] into the [[Lie 2-algebra]] of sections of the Courant Lie 2-algebroid of the corresponding [[prequantum 2-bundle]] is observed in 
+
+* [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_, ([arXiv:1001.0040](http://arxiv.org/abs/1001.0040))
+ {#Rogers}
+
+
 See also 
 
 * Wikipedia, _[Courant algebroid](http://en.wikipedia.org/wiki/Courant_algebroid)_
@@ -176,10 +304,6 @@ See also
 The relation between the two different Lie-alebroid-like  definition of Courant algebroids, one with skew, the other with non-skew brackets inspired on the level of [[L-infinity algebra|Lie 2-algebras]] the treatment
 
 * [[Dmitry Roytenberg]], _On weak Lie 2-algebras_ ([arXiv/0712.3461](http://arxiv.org/abs/0712.3461))
-
-Chris Rogers' paper discusses 2-plectic manifolds, manifolds with nondegenerate closed 3 forms and shows that they are related to a special class of Courant algebroids, those that are exact.
-
-* [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_, ([arXiv:1001.0040](http://arxiv.org/abs/1001.0040))
 
 * [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_, ([arxiv:1009.2975](http://arxiv.org/abs/1009.2975))
 
