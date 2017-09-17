@@ -1,0 +1,45 @@
+**[[symplectic geometry]]**
+
+[[multisymplectic geometry]]
+
+## Background
+
+* [[geometry]]
+
+* [[differential geometry]]
+
+## Basic concepts
+
+* [[symplectic Lie n-algebroid]]
+
+  * [[symplectic manifold]]
+
+  * [[Poisson manifold]], [[Poisson Lie algebroid]]
+
+    [[Poisson n-algebra]]
+
+  * [[Courant Lie 2-algebroid]]
+
+* [[Hamiltonian vector field]]
+
+  * [[symplectic gradient]]
+
+* [[isotropic submanifold]], [[Lagrangian submanifold]]
+
+## Theorems
+
+(...)
+
+## Applications
+
+* [[Hamiltonian mechanics]]
+
+  * [[deformation quantization]]
+
+  * [[geometric quantization]]
+
+* [[BV-BRST formalism]]
+
+* [[AKSZ sigma-model]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/symplectic+geometry+-+contents)</div>
