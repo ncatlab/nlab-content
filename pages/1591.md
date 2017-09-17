@@ -120,6 +120,8 @@ In some cases, the cellular notion of "discreteness" for higher categories can b
 
 * [[codiscrete space]], [[Freyd cover]]
 
+[[!include cohesion - table]]
+
 ## References
 
 * *Discreteness, concreteness, fibrations, and scones*: [blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html)
