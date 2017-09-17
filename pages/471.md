@@ -220,240 +220,7 @@ is a strict co-category internal to $\omega$Cat.
 In this case, for $X$ any $\omega$-category 
 the $A_\infty$-category $\Pi_1(X)$ is just an ordinary category, namely the 1-category obtained from truncation of $X$. Similarly, probably $\Pi_\omega(X) = X$ in this case.
 
-
-
-
-## Fundamental $\infty$-categories induced from intervals 
-
-The interest in interval objects is that various further structures of interest may be built up from them. In particular, since picking an interval object $I$ is like picking a notion of _path_, in a category with interval object there is, under mild assumptions, for each object $X$ an [[infinity-category]] $\Pi_I(X)$ -- the fundamental $\infty$-category of $X$ with respect to $I$ -- whose [[k-morphism]]s are $k$-fold $I$-paths in $X$.
-
-There are different ways to make this precise and realize it in detail. The main distinction is whether one uses
-
-* an [[algebraic definition of higher category]]
-
-or
-
-* a [[geometric definition of higher category]].
-
-We describe an algebraic version in terms of [[Trimble n-category|Trimble omega-categories]] and then a geometric version in terms of [[cubical object]]s and [[simplicial object]]s.
-
-### Fundamental algebraic $\infty$-categories 
-
-The collection of objects 
-$\{ {}_{pt}[I, I^{\vee n}]_{pt}\}_{n \in \mathbb{N}}$ in a category with interval object naturally comes equipped with the structure of an [[operad]]: this is the tautological co-endomorphism [[operad]] on the object $I$ in the symmetric closed monoidal category of [[bi-pointed object]]s from $pt$ to $pt$. 
-
-This induces in turn for all objects $X \in V$ on the object $[I,X]$ the structure of an operad, which is naturally interpreted as an internal $A_\infty$-[[A-infinity-category|category]] structure on
-
-$$
-  (X_0 := [pt,X]) 
-  \stackrel{s := [\sigma,X]}{\leftarrow}  
-  [I,X] 
-  \stackrel{t := [\tau, X]}{\to} (X_0 := [pt,X])
-  \,.  
-$$
-
-This internal $A_\infty$-category is denoted 
-
-$$
-  \Pi_1(X)
-$$
-
-and interpreted as the [[fundamental groupoid]] or rather, in general, the [[fundamental category]] of the object $B$ with respect to the interval object $I$ -- all internal to $V$.
-
-Moreover, by iterating this process as described at [[Trimble n-category]] one should obtain, if everything goes through, on $X$ the structure of a [[Trimble n-category|Trimble]] $\omega$-[[infinity-category|category]] and indeed a functor
-
-$$
-  \Pi_\omega : V_0 \to Trimble \omega Cat
-  \,.
-$$
-
-(... to be continued ...)
-
-+-- {: .un_remark }
-###### Remarks
-
-* The condition that all ${}_{pt}[I, I^{\vee n}]_{pt}$ are contractible is the _coherence condition_ on all composition operations. 
-
-* The above is _not_ demanding that the interval object $I$ itself is is weakly equivalent to the point. If it is, then $\Pi_1(X)$ is indeed a [[fundamental groupoid]]. If it is not, then $\Pi_1(X)$ may just be a [[fundamental category]].
-
-* If $X_0$ has a notion of [[path object]] one may consider imposing the condition that $[I,X]$ is a path object of $X$ for all $X$. Similarly, if $V_0$ has a [[cylinder functor]], one may consider imposing the condition that it is given by $-\otimes I$.
-
-=--
-
-
-### Fundamental geometric $\infty$-categories {#FundGeomInftCat}
-
-Let $C$ be a category with finite [[limit]]s and (plain) interval object $ {*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*}$, where ${*}$ denotes the [[terminal object]].
-
-This may or may not come with further structures and properties as discussed in the definitions above. For the following however no more than that is neceesray.
-
-Recall that the **cube category** is the initial strict [[monoidal category]] $(M, \otimes, I)$ equipped with an object $int$ together with two maps $i_0, i_1: I \to int$ and a map $p: int \to I$ such that $p i_0 = 1_I = p i_1$. 
-
-In a tautological way, $I$ induces a [[cocubical object]] in $C$, a [[functor]] 
-
-$$
-  \Box_I : \Box \to C
-$$
-
-from the [[cube category]] $\Box$ to $C$. This sends the abstract interval object $int$ that the [[cube category]] is freely generated from to the given $I$, and sends $int^{\otimes n}$ to the $n$-cuber $\Box_I^n := I^{\times n}$.
-
-For every object $X \in C$ homming cubes into $X$ thereby produces a [[cubical set]]
-
-$$
-  X^{\Box^\bullet_I} : int^n \mapsto C(\Box_I^n,X)
-  \,.
-$$
-
-One tends to want to regard this as the cubical incarnation of the fundamental $\infty$-category of $X$ with respect to the notion of path given by $I$.
-
-However, while cubes are nice for many purposes, it is a sad fact of life that the [[homotopy theory]] for cubical structures (while certainly it does exist in full beauty in principle) is much less well developed to date (maybe that will change in the future) than that of [[simplicial object|simplicial]] structures. For many purposes in [[higher category theory]], therefore, it will be useful to take a slightly different perspective on $X^{\Box}$, without essentially changing it.
-
-In fact, there is also naturally the structure of a  [[cosimplicial object]] of the collection $I^\times \bullet$ of $I$-cubes. This differs from the cubical structure only in were precisely one injects the boundaries into an $I^{\times n}$
-
-+-- {: .un_defn}
-###### Definition (cosimplicial object induced from interval object)
-
-Given a cartesian interval object $I \in C$, define a [[cosimplicial object]]
-
-$$
-  \Delta_I : \Delta \to C
-$$
-
-as follows:
-
-* the object in degree $n$ is the $n$-fold [[product]] of $I$ with itself:
-
-  $$
-    \Delta_I^n := I^{\times n}
-  $$
-  
-* the degeneracy map $\sigma_i : \Delta_I^{n+1} \to \Delta_I^n$ is given by
-  projecting out the $(i+1)$-factor:
-  
-  $$
-    \sigma_i := p_1 \times p_2 \times \cdots \times p_i \times p_{i+2} \times p_{i+3}
-        \times \cdots \times p_{n+1}
-  $$
-  
-* the face map $\delta_i : \Delta_I^{n} \to \Delta_I^{n+1}$ is given
-
-  * for $i = n+1$ by inserting $0$ in the $(n+1)$-factor:
-  
-    $$
-      \delta_{n+1} := p_1 \times \cdots \times p_{n} \times 0
-    $$
-    
-  * for $i = 0$ by inserting $1$ in the $0$-factor:
-  
-    $$
-      \delta_0 = 1 \times p_1 \times \cdots \times p_2
-    $$
-    
-  * for $0 \lt i \lt n+1$ by duplicating the $i$-factor:
-  
-    $$
-      \delta_i := p_1 \times \cdots \times_{p_{i-1}} 
-        \times p_i \times p_i \times p_{i+1} \times \cdots \times p_n
-    $$
-
-=--
-
-
-
-+-- {: .un_prop}
-###### Proposition
-
-The maps defined this way indeed satisfy the [[simplicial identities]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is straightforward to check, if a little tedious due to the many case distinctions.
-
-=--
-
-
-+-- {: .un_remark}
-###### Remark (unwrapping the definition)
-
-It may be helpful to unpack the above definition a bit.
-
-* The two faces of $\Delta_I^1$ are just the "boundary points" of the interval itself.
-
-  * $(\delta_0 : {*} \to I) = (1 : {*} \to I)$
-
-  * $(\delta_1 : {*} \to I) = (0 : {*} \to I)$
-
-* The face maps of $\Delta^2_I$ may be depicted as follows:
-
-  $$
-    \delta_2 : 
-    \array{
-      I &\times& I 
-      \\
-      \uparrow^{Id} && \uparrow^{0}
-      \\
-      I &\times& {*}
-    }
-    \,,
-    \;\;\;\;\;
-    \delta_1 : 
-    \array{
-      I &\times& I
-      \\
-      & \uparrow^{Id \times Id} 
-      \\
-      & I
-    }
-    \,,
-    \;\;\;\;\;
-    \delta_0 : 
-    \array{
-      I &\times& I 
-      \\
-      \uparrow^{1} && \uparrow^{Id}
-      \\
-      {*} &\times& I
-    }
-  $$
-
-  Therefore $\delta_1$, being a diagonal morphism (cartesian [[pairing]] of an [[identity]] with itself),
-  literally identifies the **diagonal** in the "square" $I \times I$ as the 1st 1-dimensional boundary.
-
-=--
-
-+-- {: .un_remark}
-###### Remark (collars)
-
-This construction gives "collared simplices" in much the same sense as in [[collared cobordism]] and in [[A1-homotopy]]: 
-
-there is no condition that the morphisms $0,1  : {*} \to I$ "hit a boundary point" -- whatever that may mean
- in $C$ -- of $I$. For instance in a [[lined topos]] $I$ is canonically chosen to be the given line object and will hence typically "extended indefinitely" beyond these points. 
-
-An example of this in practice is the [[A1-homotopy theory]] of schemes -- there is no exact analogue of the interval (with boundary points) in an algebraic setting, but the [[affine line]] $A^1$ together with the canonical points 0 and 1 is an interval object.
- 
-So $I$ need not "look" much like a 1-simplex, but the _choice of boundary points_ $\delta_1 = 0 : {*} \to I$ and $\delta_0 = 1 : {*} \to I$  allows us to regard
-it as an interval for all practical purposes.
- 
-Similarly and more generally what the above construction manifestly defines are _cubes_ $I^n$ built from $I$. But then the simplicial choice of  boundaries inside these cubes allows to think of them as just the simplices
- "sitting inside" these cubes.
- 
-All these statement become precise for specific typical choices of the ambient category $C$, discussed in the examples below.
-
-An important aspect is that once the cosimplicial object of _collared simplices_ $\Delta_I$ is used to form [[simplicial object]]s $\Pi(X) := [\Delta^\bullet_I,X]$ (discussed below) and when these are interpreted as [[model category|models]] for [[∞-groupoid]]s, then **the collars disappear**: they are part of the model, but, roughly, don't affect the equivalence class of the object that this model models.
-
-For instance with ${*}\amalg {*} \stackrel{0, 1}{\to}\mathbb{R}$ used as the interval in [[Top]], a _path_ in a [[topological space]] $X$ is an entire curve $\gamma : \mathbb{R} \to X$, but two such paths $\gamma_1,\gamma_2$ are composable already when $\gamma_1(1) = \gamma_2(0)$, irrsepctive of how $\gamma_1$ extends $\gt 1$ and irrsepctive of how $\gamma_2$ extends $\lt 0$.
-
-Moreover, the composite-up-to-homotopy of these two paths is an entire surface $\mathbb{R}^2 \to X$ in $X$, but what only matters for this surface qualifying as a compositor of $\gamma_1 and \gamma_2$ is that its $\delta_2$-segment $\{(x,y) \in \mathbb{R}^2 | 0 \leq x \leq 1, y = 0\}$ and its $\delta_0$segment $\{(x,y) \in \mathbb{R}^2 | 0 \leq y \leq 1, x = 0\}$ coincide with the corresponding segments in $\gamma_1$ and $\gamma_2$.
-
-More on this in the following example section.
-
-=--
-
-
-#### Example: standard intervals, cubes and simplices in $Top$ and $Diff$ 
+### Standard intervals, cubes and simplices in $Top$ and $Diff$ 
 
 Let $X = $ [[Top]] or $C = $ [[Diff]] be the category of [[topological space]]s
 or of [[manifold]]s.
@@ -546,123 +313,16 @@ Once you see how the 3-simplices sit inside the 3-cube, the facemaps can be illu
 
 Note that these face maps are to be thought of as maps into 3-simplices sitting inside a 3-cube.
 
+### $\mathbb{A}^1$-homotopy theory
 
-### Fundamental little 1-cubes space induced from an interval {#Dendroidal}
-
-+-- {: .query}
-
-[[Urs Schreiber]]: something I am thinking about...
-
-=--
-
-The following is supposed to give an [[(∞,1)-operad]]ic incarnation of the notion of fundamental $\infty$-groupoid induced from an interval object. It should resemble a _geometric operadic_ version of the _algebraic operadic_ version described further above.
-
-Let $\Omega^p$ be the category of planar [[tree]]s, so that a [[presheaf]] on $\Omega^p$ is a planar [[dendroidal set]]. 
-
-Given an interval object ${*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*}$ in a category $C$, assume one isomorphism 
-$\phi_n \in [I,I^{\vee n}]$ for each $n$ has been chosen.
+See [[A1-homotopy theory]].
 
 
-Then there is a planar co-dendroidal object $\Omega^p_C : \Omega^p \to C$ in $C$ given by:
+## Fundamental $\infty$-categories induced from intervals 
 
-* a tree $T$ with $n$ leaves is sent to $I^{\vee n}$ 
+The interest in interval objects is that various further structures of interest may be built up from them. In particular, since picking an interval object $I$ is like picking a notion of _path_, in a category with interval object there is, under mild assumptions, for each object $X$ an [[infinity-category]] $\Pi_I(X)$ -- the fundamental $\infty$-category of $X$ with respect to $I$ -- whose [[k-morphism]]s are $k$-fold $I$-paths in $X$.
 
-  (we think of the
-  $k$-th copy of $I$ here as being associated to the $k$th 
-  leaf of the planar tree);
-
-* every degeneracy map 
-  is sent to the corresponding identity morphism
-
-  (this corresponds to the fact that the co-dendroidal object encodes
-  no nontrivial unary (co)operations, only the $(n \gt 1)$-ary
-  operations encoded nontrivial infomation);
-
-* an _outer face map_ on an $n$-ary vertex is the identity on all 
-  copies of $I$ corresponding to the unaffected leaves and is 
-  $\phi_n$ on the affected leaf;
-
-* an _inner face map_ that contracts a $k_1$-ary vertex with 
-  a $k_2$-ary one is the identity on all unaffected leaves and is 
-  on the affected leaves the composition 
-
-  $$
-    I^{\vee (k_1+k_2)}
-    \stackrel{\phi_{k_1+k_2}^{-1}}{\to}
-    I
-    \stackrel{\phi_{k_1}}{\to}
-    I^{\vee k_1}
-    \stackrel{(Id, \cdots, Id,\phi_{k_2},Id, \cdots, Id )}{\to}
-    I^{\vee (k_1+k_2)}
-    \,.
-  $$
-
-**Example**. In [[Top]] with $I = [0,1]$ the standard interval, 
-and $I^{\vee n} = [0,n]$ let $\phi_n : [0,1] \to [0,n]$ be the map
-given by multiplication of real numbers by $n$.
-
-Then for the planar tree $T_1$ given by
-
-$$
-  T_1 = 
-  \left[
-    \array{
-      \searrow && \swarrow
-      \\
-      & \bullet 
-      \\
-      && \searrow && \swarrow
-      \\
-      &&& \bullet
-      \\
-      &&& \downarrow
-    }
-  \right]
-$$ 
-
-the inclusion of the tree $\left[\downarrow\right]$ into $T$ given by identifying it with its root is sent to the map $f : [0,1] \to [0,3]$ that is the composite of the map $(-)\cdot 2 : [0,1] \to [0,2]$ wth the map $h : [0,2] \to [0,3]$ that is multiplication by two on $[0,1]$ and addition by 1 on $[1,2]$.
-
-On the other hand the inner face map from
-
-$$
-  T_2 =
-  \left[
-    \array{
-      \searrow & \downarrow & \swarrow
-      \\
-      & \bullet
-      \\
-      & \downarrow   
-    }
-  \right]
-$$
-
-to $T_1$ corresponds to the map $[0,3] \to [0,3]$ that is the composite of the map $(-)/3 : [0,3] \to [0,1]$ with the above map $[0,1] \to [0,3]$.
-
-Now for $X \in C$ any object, we obtain the planar [[dendroidal set]]
-
-$$
-  Paths X : T \mapsto Hom_C( \Omega^p_C[T], X )
-  \,.
-$$
-
-It assigns to any tree with $n$ leaves the hom-set  $Hom(I^{\vee n},X)$. This we can think of as the set of standard parameterized paths of parameter length $n$ in $X$. The action of tree morphisms $T_1 \to T_2$ on these sets is the _reparameterization_ of these paths as encoded in the tree structure. 
-
-In particular, we have the dendroidal set $Paths(I)$ of the interval object itself. This is something like the [[little cubes operad|little 1-cubes]] operad as seen by $I$. 
-
-I think for every $X$ there is an evident morphism of dendroidal sets
-
-$$
-  Paths X \to Paths I
-  \,.
-$$
-
-The component over the tree $T$ sends all of $(Paths X)(T) = Hom_C(I^{\vee n},X)$ to ....
-
-For $X$ a [[pointed object]], there is the sub-dendroidal set $\Omega X \subset Paths X$ of paths whose endpoints map to the basepoint.
-
-
-
+This is described for two models for $(\infty,1)$-categories at [[fundamental (infinity,1)-category]]
 
 
 ## Homotopy localization induced from an interval 
@@ -670,14 +330,14 @@ For $X$ a [[pointed object]], there is the sub-dendroidal set $\Omega X \subset 
 Given a suitable interval obect in a [[site]] $C$, one may ask for [[∞-stack]]s on $C$ that are invariant under the notion of [[homotopy]] induced by $I$. These are obtained by [[homotopy localization]] of a full [[(∞,1)-category of (∞,1)-sheaves]] on $C$.
 
 
-### Example: $\mathbb{A}^1$-homotopy theory ##
-
-See [[A1-homotopy theory]].
 
 ## Related concepts
 
 * [[interval]], [[interval type]]
 
+## References
+
+* Clemens Berger, [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ ([arXiv](http://arxiv.org/abs/math.AT/0502155)), section 4, p.11
 
 
 
