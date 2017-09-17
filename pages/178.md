@@ -1918,7 +1918,7 @@ $$
 
 ##### On smooth manifolds
 
-Let $X$ be a [[smooth manifold]] regarded under the embedding
+Let $X$ be an [[orientable]] [[smooth manifold]] regarded under the embedding
 $SmoothMfd \hookrightarrow Smooth \infty Grpd$.
 
 Write $H^n_{dR}(X)$ for the ordinary [[de Rham cohomology]]
@@ -5154,12 +5154,16 @@ $$
 
 where the restriction to the top morphism is the underlying cocycle and the restriction to the bottom morphism the curvature form.
 
-The generalization to such diagram cocycles from $b^{n-1}\mathbb{R}$ to general [[nLab:∞-Lie algebra]]s $\mathfrak{g}$ we discuss below in [∞-Lie algebra valued connections](#InfinityLieAlgebraConnection).
+The generalization to such diagram cocycles from $b^{n-1}\mathbb{R}$ to general [[∞-Lie algebra]]s $\mathfrak{g}$ we discuss below in [∞-Lie algebra valued connections](#InfinityLieAlgebraConnection).
 
 
 
+#### Over unoriented base objects
+
+The [[higher parallel transport|higher holonomy]] of a circle $n$-bundle with connection is well defined only over [[oriented]] [[smooth manifold]]s. In the unorientable or even unoriented case, extra structure is needed to define it. 
 
 
+See [[orientifold]] for more.
 
 
 ### Chern-Weil homomorphism and $\infty$-connections 
