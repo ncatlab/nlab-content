@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -34,7 +33,7 @@ There are two other forms of this condition which are useful under different cir
 
 1. A [[CW-complex]] $X$ with its filtration by [[simplicial skeleton|skeleta]] $X^n$.
 
-1. The free topological monoid $F X$ on a space $X$ filtered by the length of words. This is sometimes modified by taking a space with base point $(X,x)$ and then in $F X$ identifying $x$ with the identity of $F X$. This gives the James construction $J(X,x)$, after Ioan James. 
+1. The free topological monoid $F X$ on a space $X$ filtered by the length of words. Given a based space $(X,x)$, there is also a reduced version by taking $F X$ and identifying $x$ with the identity of $F X$. This latter filtered space is known as the James construction $J(X,x)$, after Ioan James. 
 
 1. A similar example to the last using free groups instead of free monoids. 
 
