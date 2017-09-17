@@ -231,7 +231,7 @@ where on the right we have the relative [[Todd class]]. This is the form the D-b
 
 A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
 
-* [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv](http://arxiv.org/abs/hep-th/0403166)) 
+* [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166)) 
 
 This can to a large extent be read as a dictionary from [[homological algebra]] terminology to that of D-brane physics.
 
