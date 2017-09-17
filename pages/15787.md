@@ -20,9 +20,9 @@ $$
   \coloneqq
   \left\{
     \array{
-      \underset{n \in \mathbb{Z}}{\sum} \chi(n) \exp(-\pi n^2 t/N) & for\; \chi\; even
+      \underset{n \in \mathbb{Z}}{\sum} \chi(n) \exp(-\pi n^2 t/N) & if\; \chi\; even
       \\
-      \underset{n \in \mathbb{Z}}{\sum} n \chi(n) \exp(-\pi n^2 t/N) & for\; \chi\; odd
+      \underset{n \in \mathbb{Z}}{\sum} n \chi(n) \exp(-\pi n^2 t/N) & if\; \chi\; odd
     }
   \right.
 $$
@@ -31,7 +31,7 @@ where $N$ is the [[conductor]] of $\chi$.
 
 ## Properties
 
-### Relation to Jacobo theta function
+### Relation to Jacobi theta function
 
 For trivial $\chi$ the Dirichlet theta reproduces the [[Jacobi theta function]].
 
