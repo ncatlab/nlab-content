@@ -261,7 +261,7 @@ is also a generating covering. We say that $U_i \to X$ is **basal**.
 =--
 
 +-- {: .num_example}
-###### Examples
+###### Example
 
 It is sufficient that all the $U_i \to X$ are [[monomorphism]]s. 
 
