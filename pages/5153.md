@@ -34,6 +34,12 @@ For the moment see
 
 * [[model structure on algebras over an operad]].
 
+## Examples
+
+See also
+
+* [[homotopy algebra]].
+
 
 ## Related concepts
 
@@ -47,15 +53,13 @@ For the moment see
 
   * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
 
-* [[algebra over an operad]] 
 
-   **$\infty$-algebra over an $(\infty,1)$-operad** 
+* [[(∞,1)-operad]], [[model structure on operads]]
 
-   * [[model structure on algebras over an operad]]
+  * [[algebra over an operad]], **algebra over an (∞,1)-operad**, [[model structure on algebras over an operad]]
 
-## Examples
+    * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
 
-See also [[homotopy algebra]].
 
 ## References
 
