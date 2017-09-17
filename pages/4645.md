@@ -2405,16 +2405,16 @@ So we pass now to what is to some extent the reverse construction of the one con
 
 In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic construction follows from a general abstract definitions of [[schreiber:differential cohomology in an (∞,1)-topos]].
 
-The material of this section is due to ([SSS](#SSSI)) and ([FSS](#FSS)).
+The material of this section is due to ([SSSI](#SSSI)) and ([FSS](#FSS)).
 
 
 ### $\infty$-Lie algebroids
 
 There is a precise sense in which one may think of a [[Lie algebra]] $\mathfrak{g}$ as the [[infinitesimal space|infinitesimal]] sub-object of the delooping groupoid $\mathbf{B}G$ of the corresponding Lie group $G$. Without here going into the details of this relation (which needs a little bit of [[(∞,1)-topos]]-theory), we want to build certain [[∞-Lie groupoid]]s from the knowledge of their infinitesimal subobjects: these subobjects are [[∞-Lie algebroid]]s and specifically [[∞-Lie algebra]]s -- traditionally known as $L_\infty$-algebras. 
 
-A quick but useful way of formalizing what this means is to observe that ordinary (finite-dimensional) [[Lie algebra]]s $(\mathfrak{g}, [-,-])$ are entirely encoded, dually, in their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^*, d = [-,-]^*) $: free [[graded algebra|graded-commutative algebra]]s over the ground field $k$ on the vector space $\mathfrak{g}^*[1]$ equipped a differential $d$ of degree +1 and squaring to 0.
+A quick but useful way of formalizing what this means is to observe that ordinary (finite-dimensional) [[Lie algebra]]s $(\mathfrak{g}, [-,-])$ are entirely encoded, dually, in their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^*, d = [-,-]^*) $: free [[graded algebra|graded-commutative algebra]]s over the ground field $k$ (which is $\mathbb{R}$ for our purposes here) on the vector space $\mathfrak{g}^*[1]$ equipped a differential $d$ of degree +1 and squaring to 0.
 
-Simply by replacing in this characterization the vector space $\mathfrak{g}^*$ be an $\mathbb{N}$-[[graded vector space]], we arrive at the notion of [[∞-Lie algebra]]: the elements of $\mathfrak{g}[1]$ in degree $k$ are the infinitesimal [[k-morphism]]s.  Moreover, replacing in this characterization the ground field $k$ by an algebra of [[smooth function]]s on a manifold $\mathfrak{a}_0$, we obtain the notion of an [[∞-Lie algebroid]] $\mathfrak{g}$ over $\mathfrak{a}_0$. Morphisms $\mathfrak{a} \to \mathfrak{b}$ of such [[∞-Lie algebroid]]s are dually simply morphisms of [[dg-algebra]]s $CE(\mathfrak{a}) \leftarrow CE(\mathfrak{b})$.
+Simply by replacing in this characterization the vector space $\mathfrak{g}^*$ be an $\mathbb{N}$-[[graded vector space]], we arrive at the notion of [[∞-Lie algebra]]: the elements of $\mathfrak{g}[1]$ in degree $k$ are the infinitesimal [[k-morphism]]s.  Moreover, replacing in this characterization the ground field $k$ by an algebra of [[smooth function]]s on a manifold $\mathfrak{a}_0$, we obtain the notion of an [[∞-Lie algebroid]] $\mathfrak{g}$ over $\mathfrak{a}_0$. Morphisms $\mathfrak{a} \to \mathfrak{b}$ of such [[∞-Lie algebroid]]s are dually precisely morphisms of [[dg-algebra]]s $CE(\mathfrak{a}) \leftarrow CE(\mathfrak{b})$.
 
 The following definition glosses over some fine print but is entirely sufficient for our present discussion.
 
@@ -2427,7 +2427,7 @@ $$
   \infty LieAlgbd \subset (dgAlg)^{op}
 $$
 
-on graded-commutative cochain [[dg-algebra]]s in non-negative degree whose underlying [[graded algebra]] is a [[Grassmann algebra]] over the degree-0 algbra.
+on graded-commutative cochain [[dg-algebra]]s in non-negative degree whose underlying [[graded algebra]] is a [[exterior algebra]] over the degree-0 algebra.
 
 =--
 
@@ -2439,7 +2439,7 @@ on graded-commutative cochain [[dg-algebra]]s in non-negative degree whose under
 
 * We had already seen [above](#ConnectionOn2Bundle) the infinitesimal approximation of a [[Lie 2-group]]: this is a [[Lie 2-algebra]]. If the Lie 2-group is a smooth [[strict 2-group]] it is encoded equivalently by a [[crossed module]] of ordinary Lie groups, and the corresponding Lie 2-algebra is given by a [[differential crossed module]] of ordinary [[Lie algebra]]s.
 
-* The [[tangent Lie algebroid]] $T X$ of a manifold $X$ is the infinitesimal approximation to its [[fundamental ∞-groupoid]]. Its CE-algebra is the [[de Rham complex]] 
+* The [[tangent Lie algebroid]] $T X$ of a [[smooth manifold]] $X$ is the infinitesimal approximation to its [[fundamental ∞-groupoid]]. Its CE-algebra is the [[de Rham complex]] 
 
   $CE(T X) = \Omega^\bullet(X)$.
 
@@ -2619,7 +2619,7 @@ The [[Cech cohomology]] cocycle obtained this way is the first [[Pontryagin clas
 
 =--
 
-This follows by observing that the composition of [[∞-anafunctor]]s as spelled out in components above is verbatim the construction of Cech cocycles for the first Pontryagin class as given in ([BryMac](#BrylinskiMacLaughlin)). We may think of this as the classifying map for the [[Chern-Simons circle 3-bundle]] corresponding to the $G$-bundle classified by $g$.
+This follows by observing that the composition of [[∞-anafunctor]]s as spelled out in components above is verbatim the construction of Cech cocycles for the first Pontryagin class as given in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>). We may think of this as the classifying map for the [[Chern-Simons circle 3-bundle]] corresponding to the $G$-bundle classified by $g$.
 
 These authors prove that this is indeed the claimed class by refining this $U(1)$-cocycle to [[Deligne cohomology]] and computing its [[curvature]] 4-form. As we proceed now, we will see that this refinement, too, is obtained as a composition of $\infty$-anafunctors for cocycles of bundles with connection. 
 
