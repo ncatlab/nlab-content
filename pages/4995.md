@@ -205,42 +205,63 @@ This encodes the [[concrete (∞,1)-sheaf|concrete]] objects in $\mathbf{H}$.
 
 ### Infinitesimal objects {#InfinitesimalObjects}
 
+On a cohesive $(\infty,1)$-topos there are canonical natural 
+transformations $\Gamma \to \Pi$ and $Disc \to CoDisc$ that are themselves
+adjoint to each other in a sense described below. 
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .un_def}
+###### Definition
 
-In a cohesive $(\infty,1)$-topos there is a canonical natural morphism
-
-$$
- \Gamma X \to \Pi X
-$$
-
-and a canonical natural morphism
+Let 
 
 $$
-  Disc S \to Codisc S
+  \alpha
+  :
+  (\mathbf{\flat}
+  \to
+  \mathbf{\Pi})
+  :=
+  (
+  Disc \Gamma
+  \stackrel{\epsilon}{\to} 
+  Id
+  \stackrel{\iota}{\to}
+  Disc \Pi
+  )
+$$
+
+be the composite of of the counit of $(Disc \dashv \Gamma)$ with the unit of $(\Pi \dashv Disc)$.
+
+This induces
+
+$$
+  \Gamma(\alpha) : \Gamma \to \Pi
+$$
+
+By the [[(∞,1)-Yoneda lemma]] composite transformation natural in $X$
+
+$$
+  \array{
+     \mathbf{H}(X, CoDisc A)
+     &\stackrel{\simeq}{\leftarrow}& 
+     \mathbf{S}(\Gamma X, A)
+     \\
+     {}^{\mathllap{\Gamma(\alpha)}}\downarrow
+     \\
+     \mathbf{H}(X, Disc A)
+     &\stackrel{\simeq}{\to}&
+     \mathbf{S}(\Pi X, A)
+  }
+$$
+
+defines an adjoint transformation
+
+$$
+  CoDisc \to Disc
   \,.
 $$
 
 =--
-
-These are the composites
-
-$$
-  \Gamma X \stackrel{\Gamma(\iota_X)}{\to} \Gamma Disc \Pi X
-  \stackrel{\simeq}{\to}
-  \Pi X
-$$
-
-and
-
-$$
-  Disc S \stackrel{\simeq}{\to} Disc \Gamma Codisc S
-  \stackrel{\epsilon_{Codisc S}}{\to}
-  Codisc S
-$$
-
-where the weak equivalences are inverses to the corresponding units and counits which themselves are weak equivalences by the condition that $Disc$ and $Codisc$ be full and faithul.
 
 
 +-- {: .un_def}
@@ -252,37 +273,12 @@ $$
   \mathbf{L} \hookrightarrow \mathbf{H}
 $$
 
-for the full [[sub-(∞,1)-category]] on those objects $X \in \mathbf{H}$ for which $\Gamma X \to \Pi X$ is an [[equivalence in a quasi-category|equivalence]] in [[∞Grpd]].
+for the full [[sub-(∞,1)-category]] on those objects $X \in \mathbf{H}$ for which $\mathbf{\flat}X \to \mathbf{\Pi}X$ and hence $\Gamma X \to \Pi X$ is an [[equivalence in a quasi-category|equivalence]] in [[∞Grpd]].
 
 We call this the sub-$(\infty,1)$-category of **infinitesimally thickened discrete objects** of $\mathbf{H}$.
 
 =--
 
-+-- {: .un_proposition}
-###### Propositon
-
-This is a [[coreflective subcategory]]
-
-$$  
-  (i \dashv Lie ) : 
-  \mathbf{L} \stackrel{\overset{}{\hookrightarrow}}{\underset{Lie}{\leftarrow}}
-  \mathbf{H}
-  \,.
-$$
-
-=--
-
-This is the analog of [theorem 2](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf#page=5) in ([Lawvere](#Lawvere)).
-
-+-- {: .proof}
-###### Proof (or almost)
-
-Since in a cohesive $(\infty,1)$-topos $\Gamma$ is a [[left adjoint]], it preserves [[(∞,1)-colimit]]s, as does $\Pi$. It follows that $\mathbf{L}$ is closed under [[(∞,1)-colimit]]s and the inclusion into $\mathbf{H}$ preserves these (since by definition $\mathbf{L}$ is the _full_ sub-$(\infty,1)$-catgeory). Therefore for the [[adjoint (∞,1)-functor theorem]] to imply that a [[right adjoint]] $Lie : \mathbf{H} \to \mathbf{L}$ exists it is sufficient that $\mathbf{L}$ is [[locally presentable (∞,1)-category|locally presentable]]. Since we already have that it is closed under colimits, this is the case if it is [[accessible (∞,1)-category|accessible]].
-
-In the 1-categorical analog of this statement at <a href="http://ncatlab.org/nlab/show/cohesive+topos#Properties">cohesive topos -- Properties</a> the analogous statement follows from the fact -- stated at <a href="http://ncatlab.org/nlab/show/accessible+(infinity%2C1)-category#StabilityUnderOperations">accessible category -- Properties</a> -- that $\mathbf{L}$ is the [[inverter]] of $\Gamma \to \Pi$ and that $AccCat$ is closed under [[2-limit]]s. 
-
-The analagous statement _should_ be true for $(\infty,1)AccCat$ and would thus complete the proof.
-=--
 
 
 Examples of objects in $\mathbf{L}$ are _infinitesimal_ cohesive $\infty$-groups: [[∞-Lie algebroid|∞-Lie algebras]] $\mathbf{B}\mathfrak{g}$. For the moment, see there for more details in this.
