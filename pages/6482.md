@@ -1,8 +1,9 @@
-__Felix Klein__ is an author of Erlangen program of [[Klein geometry]].
+__Felix C. Klein__ is an author of Erlangen program of [[Klein geometry]].
 
 * wikipedia: [Felix Klein](http://en.wikipedia.org/wiki/Felix_Klein)
 * mathematics genealogy page for: [Felix Klein](http://genealogy.math.ndsu.nodak.edu/id.php?id=7401)
 * Felix Klein, _The development of mathematics in 19th century_
-* A comparative review of recent researches in geometry, [Erlangen Programme](http://math.ucr.edu/home/baez/erlangen/)
+* A comparative review of recent researches in geometry, [Erlangen Programme](http://math.ucr.edu/home/baez/erlangen); 1892 translation, [arxiv/0807.3161](http://arxiv.org/abs/0807.3161)
+* John Baez, _Klein geometry XII_, [nCafe](http://golem.ph.utexas.edu/category/2011/08/klein_2geometry_xii.html)
 
 [[!redirects F. Klein]]
