@@ -79,6 +79,7 @@ This has  a refinement to [[homotopy type theory]], where the [[categorical sema
 
 * [[adjoint modality]]
 
+* [[Galois connection]]
 
 ## References
  {#References}
