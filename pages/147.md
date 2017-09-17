@@ -226,7 +226,7 @@ For $C$ any site with finite limits, there is canonically a  morphism of sites t
 
 * The sites that define the [[higher geometry|geometry]] called [[algebraic geometry]] are site structures on categories of formal duals of [[commutative ring]]s or commutative [[associative algebra]]s
 
-  * [[fppf site]], [[fpqc site]], [[etale site]], etc.
+  * [[fppf site]], [[fpqc site]], [[etale site]], [[crystalline site]], etc.
 
 
 
