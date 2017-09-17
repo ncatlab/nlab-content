@@ -61,6 +61,10 @@ The six operations of Grothendieck and [[Grothendieck duality]] are designed to 
 
 Another generalization, for singular spaces, is with help of stratifications and via [[intersection cohomology]]. 
 
+## Related concepts
+
+* in [[noncommutative topology]]: [[Poincaré duality algebra]]
+
 ## References
 
 ### For Hochschild cohomology
