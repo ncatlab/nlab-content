@@ -22,7 +22,7 @@ This plays an essential role in the [[shape theory|Chapman complement theorem]].
 
 Let $Q$ be the Hilbert cube. 
 
-* A space is [[second countable space|second countable]] (has a countable [[dense subset]]) and $T_4$ (is [[separation axioms|normal and Hausdorff]]) if and only if it is homeomorphic to a [[subspace]] of $Q$. 
+* A space is [[second countable space|second countable]] (has a countable [[basis]]) and $T_4$ (is [[separation axioms|normal and Hausdorff]]) if and only if it is homeomorphic to a [[subspace]] of $Q$. 
 
 * A [[topological space]] is [[Polish space|Polish]] if and only if it is homeomorphic to a $G_\delta$-[[G-delta subset|subset]] of $Q$. 
 
