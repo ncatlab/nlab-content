@@ -57,6 +57,9 @@ If the $(n,r)$-category has sufficient [[familial regularity and exactness|exact
 
 * In an [[(∞,1)-topos]], the $n$-truncated objects are reflective and we have the [[(n-connected, n-truncated) factorization system]].
 
+## Related concepts
+
+* [[n-truncation modality]]
 
 [[!redirects truncated]]
 [[!redirects truncated object]]
