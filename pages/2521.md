@@ -35,6 +35,10 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 ## References
 
+Some influential general considerations are in 
+
+* [[Yuri Manin]], _[[New Dimensions in Geometry]]_, talk at Arbeitstagung, Bonn 1984
+
 The formulation of supergeometry as geometry over the [[topos]] over the category of [[superpoints]] is reviewed in
 
 * [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
