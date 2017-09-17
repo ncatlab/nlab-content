@@ -167,6 +167,8 @@ Details are in examples 1.2.3 and 1.2.4 of
 
 * **symmetric monoidal category**, [[symmetric monoidal (∞,1)-category]], [[symmetric monoidal (∞,n)-category]] 
 
+  * [[permutative category]], [[bipermutative category]]
+
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
 
