@@ -14,6 +14,8 @@
 * table of contents
 {:toc}
 
+This article is about smash products in topology. For Hopf smash product see [[crossed product algebra]]. 
+
 ## Definition
 
 ### For pointed sets
