@@ -1,73 +1,55 @@
 
 **[[category theory]]**
 
-# Contents
+## Concepts
 
 * [[category]]
-
-  * [[object]]
-
-  * [[morphism]]
 
 * [[functor]]
 
 * [[natural transformation]]
 
-* [[presheaf]]
+* [[Cat]]
 
-  * [[representable functor]]
-
-  * [[Yoneda lemma]]
-
-  * [[co-Yoneda lemma]]
+## Universal constructions
 
 * [[universal construction]]
 
+  * [[representable functor]]
+
   * [[adjoint functor]]
 
-    * [[adjoint functor theorem]]
-
   * [[limit]]/[[colimit]]
+
+  * [[weighted limit]]
 
   * [[end]]/[[coend]]
 
   * [[Kan extension]]
 
-  * [[Grothendieck construction]]
+## Theorems
 
-* [[(n,r)-category]]
+* [[Yoneda lemma]]
 
-  * [[monoidal category]]
+* [[Grothendieck construction]]
 
-  * [[(-1)-category|(-1,0)-category]]: [[truth value]]
+* [[adjoint functor theorem]]
 
-  * [[(0,0)-category]]: [[set]]
+* [[monadicity theorem]]
 
-  * [[(0,1)-category]]: [[poset]],[[proset]]
-
-  * [[(1,0)-category]]: [[groupoid]]
-
-  * [[(0,1)-topos]]: [[Heyting algebra]], [[locale]]
-
-  * [[topos|(1,1)-topos]]: [[topos]]
-
-# Principles #
+## Principles 
 
 * [[Eckmann-Hilton argument]]
 
 * [[microcosm principle]]
 
-* [[periodic table]]
+* [[periodic table]] and [[stabilization hypothesis|stabilization]]
 
-  * [[periodic table|stabilization hypothesis]]
-
-# Extensions #
+## Extensions 
 
 * [[sheaf and topos theory]]
 
 * [[enriched category theory]]
-
-* [[homotopy coherent category theory]]
 
 * [[higher category theory]]
 
