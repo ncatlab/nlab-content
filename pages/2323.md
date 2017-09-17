@@ -37,6 +37,8 @@
 
   * [[connected|n-connected object]]
 
+* [[(∞,1)-quasitopos]]
+
 ## Characterization ##
 
 * [[universal colimits]]
@@ -63,6 +65,12 @@
 * [[structured (∞,1)-topos]]
 
   * [[geometry (for structured (∞,1)-toposes)]]
+
+* [[locally ∞-connected (∞,1)-topos]], [[∞-connected (∞,1)-topos]]
+
+* [[local (∞,1)-topos]]
+
+* [[cohesive (∞,1)-topos]]
 
 ## Models ##
 
