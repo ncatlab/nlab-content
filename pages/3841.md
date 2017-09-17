@@ -1,7 +1,7 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -18,7 +18,9 @@ An [[infinite set|infinite]] [[cardinal]] $\kappa$ is a **regular cardinal** if 
 
 * given a function $P \to X$ (regarded as a [[family of sets]] $\{P_x\}_{x\in X}$) such that ${|X|} \lt \kappa$ and ${|P_x|} \lt \kappa$ for all $x \in X$, then ${|P|} \lt \kappa$.  
 
-* the [[category]] $\Set_{\lt\kappa}$ of sets of cardinality $\lt\kappa$ has all [[colimits]] (or just all [[coproducts]]) of size $\lt\kappa$.  
+* the [[category]] $\Set_{\lt\kappa}$ of sets of cardinality $\lt\kappa$ has all [[colimits]] (or just all [[coproducts]]) of size $\lt\kappa$. 
+
+* the [[cofinality]] of $\kappa$ is equal to $\kappa$. 
 
 A cardinal that is not regular is called **singular**.
 
@@ -69,7 +71,7 @@ In the absence of the axiom of choice, it is not clear that there exist arbitrar
 
 * More generally, any limit cardinal that can be "written down by hand" should be singular, since if it were regular then it would be [[weakly inaccessible cardinal|weakly inaccessible]], and the existence of weakly inaccessible cardinals cannot be proven in [[ZFC]] (if $ZFC$ is consistent).  We say 'should' rather than 'must', since there are exceptions, but they are sort of cheating: one (definable with Choice) is 'the smallest limit cardinal that is regular if and only if some weakly innaccessible cardinal exists'.
 
-* Assuming the consistency of 'there is a [[proper class]] of [[strongly compact cardinals]]', it is consistent that every uncountable cardinal is singular, a result due to [[Moti Gitik]].
+* Assuming the consistency of 'there is a [[proper class]] of [[strongly compact cardinal|strongly compact cardinals]]', it is consistent that every uncountable cardinal is singular, a result due to [[Moti Gitik]].
 
 
 [[!redirects regular cardinal]]
