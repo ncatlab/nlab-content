@@ -1,5 +1,21 @@
+# Cauchy real numbers
+* table of contents
+{: toc}
+
+## Idea
+
+A __Cauchy real number__ is a [[real number]] that is given as the limit of a [[Cauchy sequence]] of [[rational numbers]].
+
+The idea is due to [[Georg Cantor]] in 1872, the same year that [[Richard Dedekind]] developed [[Dedekind cuts]].
+
+
+## Definitions
+
+If one simply wants a construction of the [[real line]] $\mathbb{R}$ for the purposes of [[classical mathematics]], then ...
+
+
 +-- {: .standout}
-The following is just moved from [[real number]]; it still neads to be cleaned up into a coherent article of its own.
+The rest of this section is just moved from [[real number]]; it still neads to be incorporated into a coherent article.
 =--
 
 
@@ -40,6 +56,11 @@ In weak [[foundations]] (including internally to a [[topos]], or even a $\Pi$-[[
 We would also like to prove that every Cauchy sequence is equivalent to a modulated one, that any two equivalent Cauchy sequences are modulated equivalent, and that any Dedekind real number is represented by a Cauchy sequence.  Each of these results is equivalent to a weak form of [[countable choice]] that also follows from [[excluded middle]].  Thus, almost any foundation used in practice proves these results, but they fail in many [[sheaf topos|sheaf topoi]].  When a distinction must be made, the real numbers represented by modulated Cauchy sequences are called __Cauchy reals__.
 
 We can also use [[nets]] instead of sequences.  In that case, we have that every Dedekind real may be represented by a Cauchy net that is modulated by a net, and that this is unique up to an equivalence modulated by a net, even in weak foundations (in particular, in any $\Pi$-pretopos).  This still will not allow us to fix a modulus in advance, however.
+
+
+## References
+
+*  [[Georg Cantor]]; _[Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen](http://www.maths.tcd.ie/pub/HistMath/People/Cantor/Ausdehnung/)_; Section 1
 
 
 [[!redirects Cauchy real number]]
