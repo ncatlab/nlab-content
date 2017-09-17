@@ -15,15 +15,21 @@
 
 ## Idea
 
-The general concept of [[hyperdoctrines]], introduced by [[Lawvere]], does for [[predicate logic]] precisely what [[Lindenbaum algebras]] do for [[propositional logic]], positioning the categorical formulation of [[logic]] as a natural extension of the algebraicization of logic. 
+A first-order hyperdoctrine is a [[hyperdoctrine]] with respect to  [[lattices]] that are [[Heyting algebras]].
 
 ## Definition
 
-A **first-order hyperdoctrine** (with [[equality]]) consists of a [[category]] with [[finite products]] $C_T$, along with a [[functor]] $P : C_T^{op} \to HeytAlg_{AdjCyl}$ (where $HeytAlg_{AdjCyl}$ is the [[subcategory]] of [[HeytAlg|the category of Heyting algebras]] containing only those [[morphism]]s with [[left adjoint|left]] and [[right adjoint]]s) such that the following [[Beck-Chevalley condition]] is satisfied: for every [[object]] $A$, the [[left adjoint]]s to $P(\pi)$ for the [[projection]]s $\pi : A \times - \to -$ comprise a [[natural transformation]] from $P(A \times -)$ to $P(-)$, and so do the right adjoints.
+A **first-order hyperdoctrine** (with [[equality]]) consists of a [[category]] with [[finite products]] $C_T$, along with a [[functor]] 
+
+$$
+  P : C_T^{op} \to HeytAlg_{AdjCyl}
+$$ 
+
+(where $HeytAlg_{AdjCyl}$ is the [[subcategory]] of [[HeytAlg|the category of Heyting algebras]] containing only those [[morphism]]s with [[left adjoint|left]] and [[right adjoint]]s) such that the following [[Beck-Chevalley condition]] is satisfied: for every [[object]] $A$, the [[left adjoint]]s to $P(\pi)$ for the [[projection]]s $\pi : A \times - \to -$ comprise a [[natural transformation]] from $P(A \times -)$ to $P(-)$, and so do the right adjoints.
 
 ### Interpretation
 
-With this, we have enough structure to interpret multi-sorted [[first order logic|first-order]] [[intuitionistic logic]] with equality, taking the objects of $C_T$ to be sorts and its morphisms to be terms, $P$ to assign to each sort the [[Lindenbaum algebra]] of [[predicates]] upon that sort and to each term the operation of substitution of that term into predicates, and the left and right adjoints to $P$ upon projections to provide existential and universal [[quantification]], respectively, with the existence of the further adjoints providing the ability to interpret equality, and the Beck--Chevalley condition ensuring that quantification commutes appropriately with substitution (just as the propositional connectives do).
+With this, we have enough structure to interpret multi-sorted [[first order logic|first-order]] [[intuitionistic logic]] with equality, taking the objects of $C_T$ to be sorts and its morphisms to be terms, $P$ to assign to each sort the [[Lindenbaum algebra]] of [[predicates]] upon that sort and to each term the operation of substitution of that term into predicates, and the left and right adjoints to $P$ upon projections to provide existential and universal [[quantification]], respectively, with the existence of the further adjoints providing the ability to interpret equality, and the [[Beck-Chevalley condition]] ensuring that quantification commutes appropriately with substitution (just as the propositional connectives do).
 
 ### Variants
 
@@ -34,5 +40,7 @@ One can even extend this into the realm not just of provability, but furthermore
 ## Related concepts
 
 * [[coherent hyperdoctrine]]
+
+* [[Boolean hyperdoctrine]]
 
 [[!redirects first-order hyperdoctrines]]
