@@ -37,6 +37,14 @@ An [[E-∞ scheme]] ( _spectral scheme_ ) in this sense is a [[structured (∞,1
 
 The term _spectral algebraic geometry_ is used in the literature.  On the [[nLab]] we use the term _$E_\infty$-geometry_ due to a possible terminology clash discussed at [[spectral geometry]].
 
+## Properties
+
+### Cohesion
+
+see at _[[differential cohesion and idelic structure]]_
+
+[[!include arithmetic cohesion -- table]]
+
 ## References
 
 The basic definitions are in
