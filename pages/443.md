@@ -1,15 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # $Rel$
 * table of contents
 {: toc}
 
 ## Idea
 
-Roughly speaking, $Rel$ is the category where the objects are sets and the morphisms are (binary) [[relation]]s between sets. It becomes a [[2-category]] (in fact, a [[2-poset]]) by taking 2-cells to be inclusions of relations. 
+Roughly, $Rel$ is the [[category]] whose [[objects]] are [[sets]] and whose [[morphisms]] are (binary) [[relations]] between sets. It becomes a [[2-category]] (in fact, a [[2-poset]]) by taking [[2-morphisms]] to be inclusions of relations. 
 
 
 ## Definition
 
-$Rel$ is a 2-poset (a [[enriched category|category enriched]] in the category of [[partial order|poset]]s), whose objects or $0$-cells are sets, whose morphisms or $1$-cells $X \to Y$ are relations $R \subseteq X \times Y$, and whose $2$-cells $R \to S$ are inclusions of relations. The _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined by the usual relational composite 
+$Rel$ is a [[2-poset]] (a [[enriched category|category enriched]] in the category of [[posets]]), whose objects or $0$-cells are sets, whose morphisms or $1$-cells $X \to Y$ are relations $R \subseteq X \times Y$, and whose $2$-cells $R \to S$ are inclusions of relations. The _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined by the usual relational composite 
 $$\{(x, z) \in X \times Z: \exists_{y \in Y} (x, y) \in R \wedge (y, z) \in S\} \hookrightarrow X \times Z$$ 
 and the _identity_ $1_X: X \to X$ is the [[equality relation]], in other words the usual diagonal embedding 
 $$\{(x, x): x \in X\} \hookrightarrow X \times X.$$ 
@@ -52,9 +64,13 @@ $$\langle 1, f \rangle \circ \langle f, 1 \rangle \subseteq 1_d$$
 which says the functional relation is _well-defined_. 
 
 
-## Generalizations 
+## Related categories
 
-See [[allegory]], [[cartesian bicategory]]. 
+* [[Set]]
+
+For generalizations of $Rel$ see
+
+* [[allegory]], [[cartesian bicategory]]. 
 
 
 category: category
