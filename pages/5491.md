@@ -272,6 +272,23 @@ As always in [[higher category theory]], the cases for low $n$ are more restrict
 
 In analogy to the case for $n=1$, 2-Representations $\mathbf{P}_2(X) \to 2 Vect$ of the smooth [[path 2-groupoid]] of a [[smooth manifold]] desribe [[connections on a 2-bundle]]. See there for more details.
 
+## Definition
+ {#Definition}
+
+### In homotopy type theory
+ {#InHomotopyTypeTheory}
+
+In a general abstract context of [[homotopy type theory]] we may define $\infty$-representations as follows.
+
+For $\mathbf{H}$ an [[(∞,1)-topos]], let $G \in Grp(\mathbf{H})$ be a [[group object in an (∞,1)-category|group object]] in $\mathbf{H}$, hence an [[∞-group]]. Then the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ over its [[delooping]] is the [[(∞,1)-category]] of [[∞-actions]] of $G$
+
+$$
+  Act(G) \simeq \mathbf{H}_{/\mathbf{B}G}
+  \,,
+$$
+
+hence of possibly "non-linear" $\infty$-representations. (See at _[[∞-action]]_ for details). A genuine (linear) $\infty$-representation is then an  [[abelian ∞-group]] object in $Act(G)$.
+
 ## Related concepts
 
 * [[action]], [[∞-action]]
