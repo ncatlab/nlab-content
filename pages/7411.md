@@ -61,6 +61,7 @@ $(m \colon T T \to T, u \colon 1 \to T)$ is a commutative monad.
 =-- 
 
 +-- {: .proof} 
+###### Proof 
 In fact, the two composites 
 
 $$T A \otimes T B \stackrel{\sigma_{A, T B}}{\to} T(A \otimes T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \otimes B) \stackrel{m(A \otimes B)}{\to} T(A \otimes B)$$ 
@@ -69,7 +70,23 @@ $$\,$$
 
 $$T A \otimes T B \stackrel{\tau_{T A, B}}{\to} T(T A \otimes B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \otimes B) \stackrel{m(A \otimes B)}{\to} T(A \otimes B)$$
 
-are both equal to $\alpha_{A, B}$. 
+are both equal to $\alpha_{A, B}$. We show this for the first composite; the proof is similar for the second. If $\alpha_T$ denotes the monoidal constraint for $T$ and $\alpha_{T T}$ the constraint for the composite $T T$, then by definition $\alpha_{T T}$ is the composite given by  
+$$T T X \otimes T T Y \stackrel{\alpha_T T}{\to} T(T X \otimes T Y) \stackrel{T\alpha_T}{\to} T T(X \otimes Y)$$ 
+and so, using the properties of monoidal monads, we have a commutative diagram 
+
+$$\array{
+ & & T T X \otimes T Y & \stackrel{\alpha_T}{\to} & T(T X \otimes Y) \\
+ & ^\mathllap{u \otimes 1} \nearrow & \downarrow^\mathrlap{1 \otimes T u} & & \downarrow^\mathrlap{T(1 \otimes u)} \\
+T X \otimes T Y & \stackrel{u \otimes T u}{\to} & T T X \otimes T T Y & \stackrel{\alpha_T T}{\to} & T(T X \otimes T Y) \\
+ & ^\mathllap{1} \searrow & \downarrow^\mathrlap{m \otimes m} & \searrow^\mathrlap{\alpha_{T T}} & \downarrow^\mathrlap{T\alpha_T} \\
+ & & T X \otimes T Y & & T T(X \otimes Y) \\
+& & & ^\mathllap{\alpha_T} \searrow & \downarrow^\mathrlap{m} \\
+ & & & & T(X \otimes Y)
+}$$ 
+
+which completes the proof. 
+=-- 
+
 =-- 
 
 
