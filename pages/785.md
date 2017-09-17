@@ -331,7 +331,7 @@ A fairly comprehensive resource is the appendix of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
   {#Lurie}
 
-### In terms of homotpy type theory
+### In terms of homotopy type theory
  {#ReferencesForHoTT}
 
 A proposal for a formalization of homotopy pushouts by [[higher inductive types]] in [[homotopy type theory]] has been given in
