@@ -77,7 +77,7 @@ Moreover, Witten has suggested that this S-duality secretly drives a host of oth
 
   * [[quantum geometric Langlands correspondence]]
 
-
+* [[T-duality]], [[U-duality]]
 
 
 ## References
