@@ -710,6 +710,8 @@ For more and a discussion of [[twisted Umkehr maps]] see at _[[Poincaré duality
 
 ## Related concepts
 
+* [[KK-bootstrap category]]
+
 * [[equivariant KK-theory]]
 
 * [[index theory]]
