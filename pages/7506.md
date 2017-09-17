@@ -33,7 +33,7 @@ The most common (and original) example is when $T$ is a [[function type]] $A \to
 
 In this case, the constructor of $A \to B$ is a *$\lambda$-expression*: given a term $b$ of type $B$ containing a free variable $x$ of type $A$, then $\lambda x.\, b$ is a term of type $A \to B$.
 
-The eliminator of $A \to B$ says that given a term $f$ of type $A \to B$ and a term $a$ of type $A$, we can *apply* $f$ to $a$ to obtain a term $f(a)$ of type $B$.
+The eliminator of $A \to B$ says that given a term $f$ of type $A \to B$ and a term $a$ of type $A$, we can [[function application|apply]] $f$ to $a$ to obtain a term $f(a)$ of type $B$.
 
 Now if we first construct a term $\lambda x.\, b\colon A \to B$, and then apply *this term* to $a\colon A$, we obtain a term $(\lambda x.\, b)(a)\colon B$.  The rule of $\beta$-reduction then tells us that this term *evaluates* or *computes* or *reduces* to $b[a/x]$, the result of [[substitution|substituting]] the term $a$ for the variable $x$ in the term $b$.
 
