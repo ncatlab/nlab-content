@@ -197,17 +197,17 @@ See [[model structure on chain complexes]].
 
 * [[category of chain complexes]]
 
-  * **chain complex**
+  * **chain complex**, [[connective chain complex]], [[bounded chain complex]]
 
   * [[chain map]], [[quasi-isomorphism]]
 
   * [[chain homotopy]]
 
+  * [[model structure on chain complexes]]
+
   * [[elliptic chain complex]]
 
 * [[cochain complex]]
-
-* [[bounded chain complex]]
 
 * [[filtered chain complex]]
 
