@@ -1070,7 +1070,7 @@ For $\mathbf{H}$ a cohesive $(\infty.1)$-topos its [[category of simplicial obje
 
 $$
   \mathbf{H}^{Delta^{op}}
-  \stackrel{\Pi_I}{\stackrel{}{\stackrel{Disc_I}{\stackrel{\overset{\Gamma_I}{\to}}{\underset{coDisc_I}{\leftarrow}}}}}
+  \stackrel{\Pi_I}{\stackrel{\to}{\stackrel{\overset{Disc_I}{\leftarrow}}{\stackrel{\overset{\Gamma_I}{\to}}{\underset{coDisc_I}{\leftarrow}}}}}
   \mathbf{H}
   \,.
 $$
