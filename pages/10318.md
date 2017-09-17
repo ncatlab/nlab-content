@@ -286,31 +286,177 @@ Hence if we write $\mathrm{SymplManifold}$ for the category of smooth pre-symple
 
 =--
 
-### Lagrangian correspondences
+### Trajectories and Lagrangian correspondences
 
-Since this makes the two symplectic manifolds correspond to each other, it is useful to express this as in the formal sense as a  [[correspondence]]. For any [[smooth function]] $f \colon X_1 \to X_2$,  the natural choice of [[correspondence space]] is the [[graph of a function|graph]] of $f$, which we may depict as a [[subobject]] of the [[Cartesian product]]
+A [[symplectomorphism]] clearly puts two [[symplectic manifolds]] "in _[[relation]]_" to each other. But it does so also in the formal sense of [[relations]] in mathematics. Recall:
+
++-- {: .num_defn}
+###### Definition
+
+For $X,Y \in $ [[Set]] two [[sets]], a [[relation]] $R$ between [[elements]] of $X$ and [[elements]] of $Y$ is a [[subset]] of the [[Cartesian product]] set 
+
+$$
+  R \hookrightarrow X \times Y
+  \,.
+$$
+
+More generally, for $X, Y \in \mathbf{H}$ two [[objects]] of a [[topos]] (such as the topos of [[smooth spaces]]), then a [[relation]] $R$ between them is a [[subobject]] of their [[Cartesian product]]
+
+$$
+  R \hookrightarrow X \times Y
+  \,.
+$$
+
+=--
+
+In particular any [[function]] induces the [[relation]] "$y$ is the image of $x$":
+
++-- {: .num_example}
+###### Example
+
+For $f \;\colon\; X \longrightarrow Y$ a [[function]], its _induced relation_ is the [[relation]] which is exhibited by the [[graph of a function|graph]] of $f$
+
+$$
+  graph(f) 
+    \coloneqq 
+  \left\{
+    (x,y) \in X \times Y \;|\; f(x) = y
+  \right\}
+$$
+
+canonically regarded as a subobject 
+
+$$
+  graph(f) \hookrightarrow X \times Y
+  \,.
+$$
+
+=--
+
+Hence in the context of classical mechanics, in particular any [[symplectomorphism]] $f \;\colon\; (X_1, \omega_1) \longrightarrow (X_2, \omega_2)$ induces the relation 
 
 $$
   graph(f) \hookrightarrow X_1 \times X_2
+  \,.
 $$
 
-or better as a [[correspondence]] [[span]] [[diagram]]
+Since we are going to think of $f$ as a kind of "physical process", it is useful to think of the [[smooth space]] $graph(f)$ here as the _space of [[trajectories]]_ of that process. To make this clearer, notice that we may equivalently rewrite every [[relation]] $R \hookrightarrow X \times Y$ as a [[diagram]] of the form
+
+$$
+  \array{
+     && R
+      \\
+     & {}^{\athllap{i_X}}\swarrow && \searrow^{\mathrlap{i_Y}}
+    \\
+    X && && Y
+  }
+$$
+
+exhibiting the fact that every [[element]] $(x \sim y) \in R$ defines an element $x = i_X(x \sim y) \in X$ and an element $y = i_Y(x \sim y) \in Y$. 
+
+Then if we think of $R = graph(f)$ we may read the relation as "there is a trajectory from an incoming configuration $x_1$ to an outgoing configuration $x_2$"
 
 $$
   \array{
     && graph(f)
     \\
-    && \downarrow
-    \\
-    && X_1 \times X_2
-    \\
-    & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
+    & {}^{\mathllap{incoming}}\swarrow && \searrow^{\mathrlap{outgoing}}
     \\
     X_1 && && X_2
   }
- \,.
+  \,.
 $$
 
+Notice here that the defining property of a relation as a [[subset]]/[[subobject]] translates into the property of [[classical physics]] that there is _at most one trajectory_ from some incoming configuration $x_1$ to some outgoing trajectory $x_2$ (for a fixed parameter time interval at least, we will make this relation precise in the next section when we genuinely consider Hamiltonian correspondences).
+
+In a more general context one could consider there to be several such trajectories, and even a whole smooth space of such trajectories between given incoming and outgoing configurations. Each such trajectory would "relate" $x_1$ to $x_2$, but each in a possible different way. We can also say that each trajectory makes $x_1$ _correspond_ to $x_2$ in a different way, and that is the mathematical term usually used:
+
++-- {: .num_defn}
+###### Defininition
+
+For $X, Y \in \mathbf{H}$ two spaces, a [[correspondence]] between them is a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+     && Z
+     \\
+     & \searrow && \searrow
+    \\
+    X && && Y
+  }
+$$
+
+with no further restrictions. 
+
+=--
+
+Here $Z$ is also called the _[[correspondence space]]_. 
+
+Observe that the [[graph of a function]]  $f \colon X \to Y$ is, while defined differently, in fact [[equivalent]] to just the space $X$, the equivalence being induced by the map $x \mapsto (x,f(x))$
+
+$$
+  X \stackrel{\simeq}{\longrightarrow} graph(f)
+  \,.
+$$
+
+In fact the [[relation]]/[[correspondence]] which expresses "$y$ is the image of $f$ under $x$" may just as well be exhibited by the diagram
+
+$$
+  \array{
+    && X
+    \\
+    & {}^{\mathlla{id}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    X && && Y
+  }
+  \,.
+$$
+
+It is clear that this correspondence with correspondence space $X$ should be regarded as being equivalent to the one with correspondence space $graph(f)$. We may formalize this equivalence by noting that it is exhibited by the existence of the following [[commuting diagram]]
+
+$$
+  \array{
+     && X
+     \\
+    & {}^{\mathllap{id}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    X &&\downarrow^{\mathrlap{\simeq}} && Y
+    \\
+    & {}_{\mathllap{i_X}}\nwarrow && \nearrow_{\mathrlap{i_Y}}
+    \\
+    && graph(f)
+  }
+  \,.
+$$
+
+A diagram like this we call an _[[equivalence]] or [[correspondences]]_.
+
+The notion of correspondence makes sense (in particular) in every [[topos]]. In particular also in the [[slice toposes]] of a given ambient topos. 
+
+To see how this is useful in the present context, notice the following basic observation:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f \colon X_1 \to X_2$ be a [[smooth function]] between [[smooth manifolds]] and let
+
+$$
+  \array{
+     && graph(f)
+     \\
+     && \downarrow
+     \\
+     && X_1 \times X_2
+     \\
+     & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
+     \\
+    X_1 && && X_2
+  }
+$$
+
+be the induced [[correspondence]]. If $\omega_1$ and $\omega_2$ are [[symplectic forms]] on $X_1$ and $X_2$, respectively, then $p_1^\ast \omega_1 - p_2^\ast \omega_2$ is a pre-symplectic form on $X_1 \times X_2$, and $f$ is a [[symplectomorphism]] precisely if $graph(f) \hookrightarrow X_1 \times X_2$ is a [[Lagrangian submanifold]].
+
+=--
 
 Traditionally one considers now the [[Cartesian product]] [[manifold]] $X_1 \times X_2$ itself as a [[symplectic manifold]] equipped with the [[pullback of differential forms|pullback]] symplectic form
 
@@ -345,7 +491,7 @@ This in turn is equivalent to being a [[correspondence]] in the [[slice topos]] 
 =--
 
 
-### Hamiltonian evolution and Hamiltonian correspondences
+### Hamiltonian (time evolution) trajectories and Hamiltonian correspondences
 
 An important class of [[symplectomorphisms]] are the [[Hamiltonian symplectomorphisms]] from a [[symplectic manifold]] to itself, those which are the [[flow]] of a [[Hamiltonian vector field]] on $(X,\omega)$ induced by a [[Hamiltonian function]] 
 
@@ -756,7 +902,7 @@ $$
   \begin{aligned}
     \theta_\epsilon - \theta 
      & = 
-    p_\epsilon \, \mathbf{d} q_\epsilon - p \mathbf{d} q
+    p_\epsilon \, \mathbf{d} q \epsilon - p \mathbf{d} q
      \\
       & =
     \left(p - \frac{\partial H}{\partial q} \epsilon \right)
