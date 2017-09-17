@@ -182,7 +182,7 @@ Details are in section 2.1 of
 
 See also
 
-* Goerrs, Jardine, _Simplicial homotopy theory_
+* [[Paul Goerrs]], [[Frederick Jardine]], _[[Simplicial homotopy theory]]_
 
 The generalization to arbitrary cosimplicial rings is proposition 9.2 of
 
