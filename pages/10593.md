@@ -46,6 +46,9 @@ via [[string theory]]:
 
 * {#ACER11} Carlo Angelantonj, Matteo Cardella, Shmuel Elitzur, Eliezer Rabinovici, _Vacuum stability, string density of states and the Riemann zeta function_,JHEP 1102:024,2011 ([arXiv:1012.5091](http://arxiv.org/abs/1012.5091))
 
+* Sergio L. Cacciatori, Matteo A. Cardella, _Uniformization, Unipotent Flows and the Riemann Hypothesis_ ([arXiv:1102.1201](http://arxiv.org/abs/1102.1201))
+
+
 via [[noncommutative geometry]]:
 
 * [[Matthew Watkins]], _[the nontrivial Riemann zeta zeros interpreted as a spectrum of energy levels](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics1.htm)_
@@ -59,4 +62,3 @@ via [[noncommutative geometry]]:
 via [[random matrix theory]]:
 
 * Nina Snaith, _Random matrix theory and zeta functions_, 2000 ([pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/snaith-thesis.pdf))
-
