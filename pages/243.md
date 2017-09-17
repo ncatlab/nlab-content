@@ -64,7 +64,7 @@ There is a definition of _end_ in [[enriched category theory]], as follows.
 
 #### End of $V$-valued functors 
 
-Let $V$ be a [[symmetric monoidal category]], let $C$ be a $V$-[[enriched category]], and let $F: C^{op} \otimes C \to V$ be a $V$-[[enriched functor]]. 
+Let $V$ be a [[symmetric monoidal category]], and let $C$ be a $V$-[[enriched category]]. Assuming $V$ is also [[closed monoidal category|closed monoidal]], $V$ may be considered as $V$-enriched; in that case, suppose $F: C^{op} \otimes C \to V$ is a $V$-[[enriched functor]]. 
 
 Then in particular there is a covariant [[action]] of $C$ on $F$, with components
 $$\lambda_{c, d, e}: F(c, d) \otimes C(d, e) \to F(c, e),$$
@@ -82,11 +82,20 @@ $$
 Hom_V(C(d,e),[F(c,d), F(c,e)]) \stackrel{\simeq}{\to} Hom_V(C(d,e)\otimes F(c,d),F(c,e))
 $$ 
 
-in $V$. Similarly for the contravariant action.
+in $V$. Similarly for the contravariant action. 
 
-+-- {: .query}
-How do we know that such an adjunction exists? Are we assuming that $V$ is _closed_ monoidal? Yes, Kelly's book does make that assumption at the outset of section 1.6, and does seem to be using it in section 2.2, where he discusses natural transformations are elements of ends.
-=--
++-- {: .un_remark}
+###### Remark 
+Even if $V$ is not closed monoidal, we can still define a **notion** of covariant $C$-action, sometimes called a "left" $C$-[[module]], as consisting of a function $F \colon Ob(C) \to Ob(V)$ together with an $Ob(V) \times Ob(V)$-indexed collection of morphisms 
+
+$$F(c) \times C(c, d) \to F(d)$$ 
+
+satisfying some evident unit and associativity axioms, and regard this notion as a stand-in for the notion of $V$-functor $C \to V$. Similarly we have an evident notion of contravariant $C$-action as a stand-in for a $V$-functor $C^{op} \to V$; notice that we don't even the symmetry to make sense of this. Finally, we can combine these notions into one of $C$-bimodule, where we have a function $F \colon Ob(C) \times Ob(C) \to Ob(V)$ together with a collection of morphisms 
+
+$$C(a, b) \otimes F(b, c) \otimes C(c, d) \to F(a, d)$$ 
+
+with evident axioms for a bimodule structure, as a stand-in for a $V$-functor of the form $C^{op} \otimes C \to V$. 
+=-- 
 
 
 A $V$- **extranatural transformation**
