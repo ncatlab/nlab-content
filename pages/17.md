@@ -416,8 +416,15 @@ Then you can make a link to it, from that page or from another one, with the syn
 
 Of course, you can link to it from outside the nLab by adding `http://ncatlab.org` at the beginning of the link.
 
-Note that if you skip the first step, it is still *possible* to create a link to a subsection, since (at least if the page has a table of contents) every section on the page is automatically assigned an HTML anchor by Instiki.  However, using such links is *not* encouraged, since the automatically generated anchor names will change whenever the page is rearranged and go away if a manual anchor name is added, which will cause such links to break.
+Note that if you skip the first step, it is still *possible* to create a link to a subsection, since (at least if the page has a table of contents) every section on the page is automatically assigned an HTML anchor by Instiki.  However, using such links is *not* encouraged, since the automatically generated anchor names will change whenever the page is rearranged and go away if a manual anchor name is added, which will cause such links to break. 
 
+The same type of syntax enables one to link to a bibliographic reference, first by creating an anchor: 
+
+     * Reference {#xyz}
+
+which can then be linked to from within the same page by writing 
+
+     [some link](#xyz). 
 
 ### Definition/Proposition/Theorem-numbering
 
