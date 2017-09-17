@@ -170,6 +170,10 @@ Please [[How to get started|help]] with improving this page:
 
   * A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets (in Dutch)
 
+* [Wiskunde is sexy](http://weetlogs.scilogs.be/index.php?blogId=11)
+
+  * Another blog about mathematics for a general audience, written by Rudi Penne and Paul Levrie (also in Dutch)
+
 * [XOR's hammer](http://xorshammer.wordpress.com)
 
 
