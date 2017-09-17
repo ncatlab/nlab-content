@@ -4052,7 +4052,7 @@ $$
   (C^\infty(-,G_\bullet) \stackrel{}{\to} \Omega^1_{flat}(-,\mathfrak{g}_\bullet))
 $$
 
-be the [[presheaf]] of [[simplicial groupoids]] which in degree $k$ is the [[groupoid of Lie-algebra valued forms]] with values in $G_k$ from [above](#CanonicalFormOnLieGroup). By the result discussed there we have that under the degreewise [[nerve]] this is a degreewise fibrant [[resolution]] of presheaves of [[bisimplicial set]]s
+be the [[presheaf]] of [[simplicial groupoids]] which in degree $k$ is the [[groupoid of Lie-algebra valued forms]] with values in $G_k$ from [above](#CanonicalFormOnLieGroup). Along the lines of the discussion there we have that under the degreewise [[nerve]] this is a degreewise fibrant [[resolution]] of presheaves of [[bisimplicial set]]s
 
 $$
   N(C^\infty(-,G_\bullet) \stackrel{}{\to} \Omega^1_{flat}(-,\mathfrak{g}_\bullet))
