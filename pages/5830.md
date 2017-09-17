@@ -100,11 +100,11 @@ $$
 
 ## Related concepts
 
-* [[type theory]]
+* [[type theory]], [[internal logic]]
 
-* [[2-type theory]]
+* [[2-type theory]], [[michaelshulman:2-categorical logic]]
 
-* **$(\infty,1)$-type theory**
+* **$(\infty,1)$-type theory**, [[internal logic of an (∞,1)-topos]]
 
 [[!include notions of type]]
 
