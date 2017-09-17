@@ -52,9 +52,9 @@ For every microlinear space $X$, the [[tangent bundle]] $X^D \to X$ has a natura
 +-- {: .proof}
 ###### Construction and Proof
 
-We describe first the addition of tangent vectors, then tha $R$-action on them and then prove that this is a [[module]]-structure.
+We describe first the addition of tangent vectors, then the $R$-action on them and then prove that this is a [[module]]-structure.
 
-* **Addition** With $D = \{\epsilon \in R| x^2\}$ the 
+* **Addition** With $D = \{\epsilon \in R| x^2 = 0 \}$ the 
   [[infinitesimal space|infinitesimal interval]] and 
   $D(2) = \{(\epsilon_1, \epsilon_2) \in R \times R | \epsilon_i^2 = 0\}$
   we have a cocone
@@ -89,7 +89,7 @@ We describe first the addition of tangent vectors, then tha $R$-action on them a
   $$
 
   is an [[isomorphism]]. With $\Id \times Id : D \to D(2)$ the diagonal
-  map we then define the fiberwise addition $X^D \times_X X^D \to X^D$ in 
+  map, we then define the fiberwise addition $X^D \times_X X^D \to X^D$ in 
   the [[tangent bundle]] $X^D$ 
   to be given by the map
   
@@ -101,9 +101,9 @@ We describe first the addition of tangent vectors, then tha $R$-action on them a
 
   On elements, this sends two elements $v_1, v_2 \in X^D$ in the same fiber to the element $v_1 + v_2$ of $X^D$ given by the map $(v_1 + v_2) : d \mapsto r^{-1}(v_1,v_2)(d,d)$.
 
-  **Multiplication** $ \cdot : R \times X^D \to X^D$ is defined component wise by
+*  **Multiplication** $ \cdot : R \times X^D \to X^D$ is defined componentwise by
 
-  $\cdot (\alpha, v) : d \mapsto (v (\alpha \cdot d))$.
+  $(\alpha \cdot v) : d \mapsto v (\alpha \cdot d)$.
   
 One checks that this is indeed unital, associative and distributive. ...
 
