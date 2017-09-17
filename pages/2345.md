@@ -31,6 +31,8 @@ For the generalisation of this to higher categories, see [[semistrict higher cat
 
 ## Related concepts
 
+* [[function]]
+
 * [[functor]]
 
 * **2-functor** / [[pseudofunctor]]
@@ -39,6 +41,7 @@ For the generalisation of this to higher categories, see [[semistrict higher cat
 
 * [[(∞,1)-functor]]
 
+* [[(∞,n)-functor]]
 
 
 [^1]: Although there are certain contexts in which it does.  For instance, there is a [[model structure]] on the category of [[bicategories]] and strict 2-functors between them, which models the homotopy theory of bicategories and weak 2-functors.
