@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include model category theory - contents]]
 </div>
@@ -13,7 +12,7 @@
 
 An object in a [[model category]] is fibrant if all morphisms into have extensions along acyclic cofibrations. An **algebraic fibrant object** is a fibrant object equipped with a _choice_ of such extensions.
 
-Under mild conditions, the category $Alg C$ of algebraic fibrant objects in a model category $C$ forms itself naturally a model category with is [[Quillen equivalence|Quillen equivalent]] to $C$. Notably, $Alg C$ is always a [[category of fibrant objects]].
+Under mild conditions, the category $Alg C$ of algebraic fibrant objects in a model category $C$ forms itself naturally a model category which is [[Quillen equivalence|Quillen equivalent]] to $C$, and in which all objects are fibrant.  Notably, $Alg C$ is always a [[category of fibrant objects]].
 
 
 ## Definition
@@ -72,6 +71,8 @@ This is theorem 2.18
 
 
 =--
+
+Note that since fibrations in $Alg C$ are created in $C$, and any algebraically fibrant object is, in particular, fibrant, every object in the model category $Alg C$ is fibrant.  Thus almost any model category is equivalent to one in which all objects are fibrant.  However, in general not all objects in $Alg C$ will be cofibrant, even if this was true in $C$ itself.
 
 ## Examples
 
