@@ -8,8 +8,7 @@
 =--
 =--
 
-
-This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog), [wikis](http://en.wikipedia.org/wiki/Wiki), and other online resources about mathematics. 
+This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog),  and online mathematical communities like forums and [wikis](http://en.wikipedia.org/wiki/Wiki). For links to main repositories of free books, lectures, videos, reviews and math papers see [[math archives]] and for list of societies and institutions see [[math institutions]].
 
 For a quick introduction to math blogging, see
 
@@ -269,8 +268,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 
 
-
-
 ## Theoretical Computer Science 
 
 ### Blogs 
@@ -309,8 +306,9 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [LaTeX on Blogger](http://watchmath.com/vlog/?p=438) for installing LaTeX on Blogger.
 
 
-
-
 category: meta
 
 [[!redirects Online]]
+[[!redirects Online resources]]
+[[!redirects online resources]]
+[[!redirects math blogs]]
