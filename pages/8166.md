@@ -70,4 +70,6 @@ It is generally understood that models are approximations to reality. The prover
 
 [[!redirects model (physics)]]
 
+[[!redirects model building]]
+
 
