@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+## Properties
+
+[[dependent type theory]] with the [[unit type]], 
+[[strong extensional equality types]],
+strong [[dependent sums]], and bracket types is the 
+[[internal logic|internal]] [[type theory]] of 
+[[regular categories]].
+
+## References
+
+The original article is
+
+* [[Steve Awodey]], [[Andrej Bauer]], _Propositions as $[$Types$]$_, Journal of Logic and Computation. Volume 14, Issue 4, August 2004, pp. 447-471 ([pdf](http://andrej.com/papers/brackets_letter.pdf))
+
+[[!redirects bracket types]]
