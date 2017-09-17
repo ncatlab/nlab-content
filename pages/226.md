@@ -40,6 +40,10 @@ By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector spac
 
 ## Related concepts
 
+* [[real vector space]], [[complex vector space]]
+
+* [[real structure]], [[complex structure]], [[quaternionic structure]]
+
 * [[vitual vector space]]
 
 * [[vector bundle]], 
