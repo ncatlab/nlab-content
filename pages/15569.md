@@ -769,6 +769,7 @@ Above we found general synthetic axioms for differential cohomology and realizat
 
 While [[higher arithmetic geometry]](i.e. [[E-∞ arithmetic geometry]]) is not [[cohesion|cohesive]] over the standard [[base (∞,1)-topos]] [[∞Grpd]], it does turn out to exhibit such a kind of relative [[differential cohesion]] in a way that the corresponding relative [[differential cohomology hexagon]] subsumes the traditional [[arithmetic fracture square]] of prop. \ref{ArithmeticFractureSquare}.
 
+
 +-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
 ###### Proposition
 
@@ -825,7 +826,7 @@ $$
 
 $$
   \array{
-    &&  localization\;away\;from\;\mathfrak{a} && \stackrel{}{\longrightarrow} && 
+    &&  localization\;away\;from\;\mathfrak{a} && \stackrel{}{\longrightarrow} && \mathfrak{a}\;residual
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
