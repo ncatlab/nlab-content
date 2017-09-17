@@ -21,7 +21,9 @@
 
 The notion of _Segal category_ is one of the models for that of _[[(∞,1)-category]]_. 
 
-It can be understood as modelling the notion of an [[SSet]]-[[enriched category|enrichment]] _up to [[coherence|coherent]] [[homotopy]]_, i.e. a _weak_ enrichment. As such it is very similar to the notion of [[complete Segal space]], which models the notion of an [[internal category in an (∞,1)-category|internal category]] in [[sSet]].
+It can be understood as modelling the notion of an [[sSet]]-[[enriched category|enrichment]] _up to [[coherence|coherent]] [[homotopy]]_, i.e. a _weak_ enrichment. As such it is very similar to the notion of [[complete Segal space]], which models the notion of an [[internal category in an (∞,1)-category|internal category]] in [[sSet]].
+
+Indeed, Segal categories may be considered with enrichment not just over [[sSet]], but over other suitable [[model categories]]. In particular, an itereated enrichment over itself gives rise to the notion of _[[Segal n-category]]_ which is a model for _[[(∞,n)-categories]]_.
 
 Since the major difference between ([[small category|small]])
 $\mathcal{V}$-[[enriched categories]] and $\mathcal{V}$-[[internal categories]] is that in the first case the [[objects]] (as opposed to all the [[hom objects]]) form an ordinary [[set]], while in the second these form an object of $\mathcal{V}$, too, accordingly a the definition of _Segal category_ is like that of _([[complete Segal space|complete]]) [[Segal space]]_, only that the simplicial set of objects is required to be an ordinary set (a [[discrete object|discrete]] simplicial set).
@@ -157,6 +159,11 @@ The generalization to [[Segal n-categories]] is discussed in section 2 of
 In the more general context of [[enriched (∞,1)-categories]], this is discussed in
 
 * [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([arXiv:1001.4071](http://arxiv.org/abs/1001.4071))
+
+and in section 2 of 
+
+* [[Jacob Lurie]], _(Infinity,2)-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ {#Lurie}
 
 
 [[!redirects Segal categories]]
