@@ -45,25 +45,16 @@ The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(a,b) = a \vee b = a 
 ## Abstract convex sets
 
 There is a nice abstract converse to the example of a [[convex subset]] of an affine space.  A convex space is __cancellative__ if $a = b$ whenever $c_p(a,c) = c_p(b,c)$ for some $c$ and $p \gt 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
+
 +-- {: .un_theorem}
 ###### Theorem (Thm 2 in the paper by Stone)
 
 A convex space is cancellative if and only if it is isomorphic (as a convex space) to a convex subset of some real affine space.
 =--
 
-Compare this with the theorem that a [[monoid]] is cancellative if and only if it is isomorphic to a submonoid of some [[group]].
+Compare this with the theorem that a [[monoid]] is [[cancellative monoid|cancellative]] if and only if it is isomorphic to a submonoid of some [[group]].
 
-+--{: .query}
-[[Mike Shulman]]: What are some examples of non-cancellative convex spaces?
-
-_Toby_:  The last example in the list above: $\{0,1\}$ with $c_p(a,b) = a \vee b$ whenever $0 \lt p \lt 1$; this generalises to any nontrivial semilattice.  I don\'t know any better examples.
-
-[[John Baez]]: Could someone provide a proof or reference to the above theorem?
-
-_Toby_:  _HAF_ cites Romanowska & Smith (added to the references below, but I haven\'t read it).
-
-[[Tobias Fritz]]: reference added.
-=--
+Of course, most of the examples given above are cancellative, being manifestly given as convex subsets of real affine space.  However, the last example---a semilattice with $c_p(a,b) = a \vee b$ whenever $0 \lt p \lt 1$---is non-cancellative.
 
 
 ## References
