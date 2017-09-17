@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -150,6 +154,8 @@ More details are in
 
 ...
 
+
+
 [[!redirects Pontrjagin-Thom construction]]
 [[!redirects Pontryagin-Thom construction]]
 
@@ -157,3 +163,7 @@ More details are in
 [[!redirects umkehr maps]]
 [[!redirects Umkehr map]]
 [[!redirects Umkehr maps]]
+
+[[!redirects fiber integration in generalized cohomology]]
+[[!redirects integration in generalized cohomology]]
+
