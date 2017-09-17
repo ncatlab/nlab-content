@@ -229,6 +229,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[filtered ring]], [[associated graded ring]]
 
+  * [[w-contractible ring]]
+
 * [[affine scheme]]
 
 * [[ideal]]
