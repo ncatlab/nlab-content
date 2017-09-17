@@ -1,4 +1,6 @@
-A **circuitoid** is a generalization of a category, where each morphisms has an arbitrary (possibly infinite) number of arguments. Two arguments are not required to have the same number of arguments.
+[[!redirects circuitoid]]
+[[!redirects circuitoid]]
+A **circuitoid** is a generalization of a category, where each morphisms has an arbitrary (possibly infinite) number of arguments. Two morphisms are not required to have the same number of arguments.
 
 See [this manuscript](http://www.mathematics21.org/binaries/circuitoids.pdf) where I first define circuitoids. Feel free to copy notions from that my manuscript into nLab site.
 
