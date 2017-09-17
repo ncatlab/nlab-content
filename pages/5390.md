@@ -13,12 +13,12 @@ is in $I$.
 
 (ii) if $J\in F$ and $(I:r)\in I$ for all $r\in J$ then $I\in F$.
 
-The term topologizing is exaplained by the following statement:
+The term topologizing is explained by the following statement:
 
 __Proposition.__ A topologizing set of right ideals in a ring $R$ is a basis of neighborhoods of $0$ for a topology on $R$. 
 
 * Carl Faith, Algebra Vol. I, page 520
 
-* Harold Simmons, _The semiring of topologizing filters of a ring_, [doi](http://dx.doi.org/10.1007/BF02772572) [swiss replica watches](http://neon-watches.com)
+* Harold Simmons, _The semiring of topologizing filters of a ring_, [doi](http://dx.doi.org/10.1007/BF02772572) 
 
 [[!redirects topologizing filters]]
