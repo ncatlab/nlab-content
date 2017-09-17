@@ -43,7 +43,9 @@ The relevant examples that will appear in these notes are the following.
 A solid arrow represents a reduction, while a dashed arrow represents
 the inverse deformation or resolution, in the senses described above.
 
-[[cq-arr.svg:pic]]
++--{: style="text-align:center"}
+[[!include reductions deformations resolutions in physics > cq-arr]]
+=--
 
 The transition to the _classical limit_ corresponds to taking the
 limit $\hbar\to0$, which is a parameter explicitly appearing in all
@@ -51,7 +53,9 @@ physically relevant quantum systems. The inverse operation is
 _quantization_, which corresponds to the mathematical field
 technically called deformation quantization.
 
-[[ln-arr.svg:pic]]
++--{: style="text-align:center"}
+[[!include reductions deformations resolutions in physics > ln-arr]]
+=--
 
 Explicit solutions or other kinds of information is readily available
 for linear field theories. Thus, often, the first step to understanding a
@@ -61,7 +65,9 @@ perturbation_ is often very difficult and thus considered in the physics
 literature mostly at the level of formal power series in the
 perturbation parameter.
 
-[[pg-arr.svg:pic]]
++--{: style="text-align:center"}
+[[!include reductions deformations resolutions in physics > pg-arr]]
+=--
 
 Many physical theories are difficult to describe without introducing
 extra/non-physical/redundant so-called gauge degrees of freedom and at
@@ -79,7 +85,9 @@ resolution-deformation-reduction cube of quantization. Note that gauge
 fixig can be considered as one of the (non-uniquely defined) steps of
 the BV-BRST construction.
 
-[[bv-axes.svg:pic]]
++--{: style="text-align:center"}
+[[!include reductions deformations resolutions in physics > bv-axes]]
+=--
 
 One corner of the cube corresponds to some classical, non-linear,
 physical theory. The goal of quantization is to jump to the corner with
@@ -90,7 +98,9 @@ auxiliary vertices of the cube and to take the indirect path, indicated
 in pale blue. The meaning of the solid and dashed lines is the same as
 above.
 
-[[bv-diag.svg:pic]]
++--{: style="text-align:center"}
+[[!include reductions deformations resolutions in physics > bv-diag]]
+=--
 
 ### Scope and contents ###
 * Classical and quantum mechanics
