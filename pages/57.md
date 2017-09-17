@@ -20,7 +20,7 @@
 
 ## Idea
 
-Lie integration assigns to a [[Lie algebra]] $\mathfrak{g}$ -- or more generally an [[L-∞-algebra|∞-Lie algebra]] or [[∞-Lie algebroid]] -- a [[Lie group]] -- or more generally [[∞-Lie groupoid]] -- that is [[infinitesimal space|infinitesimally]] modeled by $\mathfrak{g}$.
+Lie integration assigns to a [[Lie algebra]] $\mathfrak{g}$ -- or more generally an [[L-∞-algebra|∞-Lie algebra]] or [[∞-Lie algebroid]] -- a [[Lie group]] -- or more generally [[∞-Lie groupoid]] -- that is [[infinitesimal space|infinitesimally]] modeled by $\mathfrak{g}$. The reverse operation to [[Lie differentiation]].
 
 If the [[∞-Lie algebroid]]s $\mathfrak{a}$ involved are incarnated dually in the form of their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{a})$ then the bare [[∞-groupoid]] (that is: without the smooth structure) integrating them is effectively given by the [[Sullivan construction]] from [[rational homotopy theory]] which turns a [[dg-algebra]] into a [[simplicial set]] (and then into a [[topological space]] by [[geometric realization]]) applied here to the [[dg-algebra]] $CE(\mathfrak{a})$.
 
