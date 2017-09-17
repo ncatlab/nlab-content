@@ -135,6 +135,14 @@ In the case $Y = *$ is the  [[terminal object]], the base change geometric morph
 
 Base change geometric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
 
+## Related concepts
+
+* [[pullback]], [[fiber product]],
+
+* [[lax pullback]], [[comma object]],
+
+* [[(∞,1)-pullback]], [[homotopy pullback]]
+
 ## References
 
 A general discussion that applies (also) to [[enriched categories]] and [[internal categories]] is in 
