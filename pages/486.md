@@ -62,7 +62,9 @@ A pretopos, being a [[coherent category]], admits a [[subcanonical site|subcanon
 
 The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanonical topology.  Being a pretopos is stronger than necessary for this condition to hold in a coherent category, however; see [[coherent category]] for the necessary and sufficient conditions.
 
+## Related concepts
 
+* [[2-pretopos]]
 
 ## References
 
