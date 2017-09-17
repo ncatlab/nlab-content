@@ -94,3 +94,5 @@ with a summary in
 [[!redirects KO]]
 
 [[!redirects complex K-theory spectrum]]
+
+[[!redirects KU-theory]]
