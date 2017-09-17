@@ -124,7 +124,8 @@ For $F : D \to C$ a [[diagram]] of [[(∞,1)-categories]], i.e. an [[(∞,1)-fun
 These are shaped like the homotopy-theoretic cone, so maybe there is a deeper relationship:
 
 * [[positive cone]] (in an [[ordered group]], such as an [[operator algebra]]),
-* [[future cone]] (of an [[event]] in a [[Lorentzian manifold]], such as [[spacetime]]).
+* [[future cone]] (of an [[event]] in a [[Lorentzian manifold]], such as [[spacetime]]),
+* [[convex cone]] (in a [[vector space]]).
 
 
 [[!redirects cone]]
