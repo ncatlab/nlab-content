@@ -1,0 +1,68 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The term "multiverse" is used to descibe some picture of [[cosmology]].
+
+### General
+
+On the very largest scales observable in astrophysical [[experiment]], the cosmos is well described by an [[FRW model]] with [[cosmological constant]] $\Lambda$, with plenty of [[dark matter]] and with primordial [[cosmic inflation]] (called the $\Lambda$-CDM "[[standard model of cosmology|concordance model of cosmology]]"). A [[horizon]] in there and everything on smaller scales is the _[[observable universe]]_.
+
+There has never been a reason to assume that beyond this _cosmic horizon_ visible to us today, the cosmos would not extend further. In fact in the simple [[FRW models]] with positive cosmological constant, the [[spacetime]] [[manifold]] is not a [[closed manifold]] and extends indefinitely beyond our observable horizon. This is directly analogous to the ancient mariner who would stand on the deck of his ship and see a few miles of ocean around him. That was the world within his horizon, but there was no telling what lied beyond.
+
+Therefore it is important to distinguish the _observable universe_ from the _universe_ as such. Unfortunately, intellectual laziness tended to ignore this distinction and at some point some people who said "universe" to mean just the stretch of our cosmic horizon felt the need to have a new term for whatever may lie beyond. For better or worse, that new term has become wide-spread these days and is "multiverse". 
+
+### In view of cosmic inflation
+
+The main scientific observation that goes with this is the observation that [[cosmic inflation]] -- for which there is by now excellent and ever increasing [[experiment|experimental]] evidence that indeed it happened -- does, at least by the simple method which is currently used to model it, naturally predict a large ambient space in which local regions stochastically undergo inflationary expansion. This scenario of [[chaotic inflation]] has in fact been singled out as the most likely one (within the standard model) by the [[bicep2]]-[[experiment]] in 2014.
+
+Hence what is called _multiverse_ these days might more sanely have been called _universe with multiple observable regions_ or the like, but the term has seen an immense increase in popularity and is apparently here to stay.
+
+### In view of moduli fields
+
+Another reason why the old speculation (going back at least to [[Giordano Bruno]]) that the [[observable universe]] is but one of many variants in a larger ambient cosmos received more empathetic attention in some corners of fundamental [[physics]] at the beginning of the 21st century is that it was argued to lead to a plausible picture of the apparent lack of the fundamental constants of nature (such as notably the [[cosmological constant]] but also the [[Yukawa couplings]] etc.) to follow any discernible law (see also the "[[hierarchy problem]]").
+
+At the same time there are [[theory (physics)|theories]] of fundamental physics where such apparent "constants" of nature are in fact just the values of "[[moduli fields]]", hence of [[field (physics)|fields]] in the theory whose value howver is approximately constant over the [[observable universe]]. Generically [[Kaluza-Klein mechanism|Kaluza-Klein theories]] have this property, and in particular [[string theory]] does.
+
+When the [[landscape of string theory vacua]] was (finally) realized to have no reason to be "small", hence when it was realized that indeed the theory alone did not constrain its moduli fields but allowed all kinds of values for them, then it was argued (first in ([Schellekens 98](#Schellekens98))) that combining this apparent embarrassment of a surplus of theoretically admissible "kinds of universes" with the apparent embarrassement of a surpus of cosmically inflating observable universes together yields a plausible picture: each inflating "bubble" in [[chaotic inflation]] randomly has its [[moduli fields]] determined by the [[vacuum fluctuation]] that gives rise to the inflationary process, and hence literally the [[moduli space]] of "constants/laws of nature" of inhabited by a kind of [[stochastic process]]. The particular value of the [[cosmological constant]] or the [[Yukawa couplings]] which we observe would be just as random (or just as "anthropically" constrained) as, say, the number, nature and distance of the planets in the [[solar system]].
+
+Whatever the status of this story, it is to a large part responsible for the renewed interest in the idea of the "multiverse".
+
+## References
+
+Apparently the first mentioning of the idea that a multiverse due to [[chaotic inflation]] together with the [[landscape of string theory vacua]] provides a plausible story for the nature of "constants of nature" is due to
+
+* {#Schellekens98} [[Bert Schellekens]], _Naar een waardig slot_, inauguration speech ar University of Nijmegen, September 1998, ISBN 90-9012073-4
+
+reproduced as
+
+* {#Schellekens06} [[Bert Schellekens]], _The Landscape "avant la lettre"_ ([arXiv:physics/0604134](http://arxiv.org/abs/physics/0604134))
+
+A more recent account of how the relevant community pictures the situation is in 
+
+* {#Bousso11} [[Raphael Bousso]], _The State of the Multiverse: The String Landscape, the Cosmological Constant, and the Arrow of Time_, 2011 ([pdf](http://www.ctc.cam.ac.uk/stephen70/talks/swh70_bousso.pdf))
+
+* [[Brian Greene]], _Is our universe the only universe?_, talk at TED2012 ([web](http://www.ted.com/talks/brian_greene_why_is_our_universe_fine_tuned_for_life))
+
+
+For more references see at _[[eternal cosmic inflation]]_.
+
+Of course a bunch of links are also here
+
+* Wikipedia, _[Multiverse](https://en.wikipedia.org/wiki/Multiverse)_
+
+though the discussion there seems to show an undue preference of some points of view.
