@@ -1,5 +1,7 @@
 
-> under construction
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
 
 #Contents#
 * automatic table of contents goes here
@@ -7,31 +9,112 @@
 
 ## Definition
 
-The **singular cohomology** of a [[topological space]] $X$ is the [[chain homology and cohomology|cochain cohomology]] of the [[cochains on simplicial sets|cochains on the simplicial set]] $X^{\Delta^\bullet_{Top}}$ of "singular simplices" in $X$, i.e. of images of the standard topological simplices in $X$.
+The **singular cohomology** of a [[topological space]] $X$ is the [[cohomology]] in [[∞Grpd]] of its [[fundamental ∞-groupoid]] $\Pi(X)$:
 
-Write
-
-$$
-  \Delta_{Top} : \Delta \to Top
-$$
-
-for the canonical [[cosimplicial object]] in [[Top]], induced from the standard [[interval object]] $\Delta_{Top}^1 = [0,1]$.:
+for $\mathcal{B}^n \mathbb{Z} \in \infty Grpd$ the [[Eilenberg-MacLane object]] with the group $\mathbb{Z}$ in degree $n$, the degree $n$-singular cohomology of $X$ is
 
 $$
-  \Delta_{Top}^n = \{ 0 \leq x_1 \leq x_2 \cdots \leq x_n  \leq 1 \} \subset \mathbb{R}^n
+  H^n(X,\mathbb{Z}) := \pi_0 \infty Grpd(\Pi(X), \mathcal{B}^n \mathbb{Z})
   \,.
 $$
 
-For $X$ a [[topological space]], let $\Pi(X)_\bullet := X^{\Delta_{Top}^\bullet}$ be the [[simplicial set]] of $n$-[[simplex|simplices]] in $X$ -- the [[fundamental ∞-groupoid]] of $X$.
 
-For $R$ some [[ring]], let $Maps(\Pi(X),R)^{\bullet}$ be the [[cosimplicial object|cosimplicial]] [[ring]] of $R$-valued functions on the spaces of $n$-simplices. The corresponding [[Moore complex|Moore cochain complex]] $C^\bullet(X)$ of normalized cochains is the cochain complex whose [[chain homology and cohomology|cochain cohomology]] is the __singular cohomology__ of the space $X$:
+With $\infty Grpd$ [[presentable (∞,1)-category|presented]] by the category [[sSet]] of [[simplicial set]]s, the fundamental $\infty$-groupoid $\Pi(X)$ is modeled by the [[Kan complex]] 
+
+$$
+  \Pi(X) = Sing X = Hom_{Top}(\Delta^\bullet_{Top}, X)
+  \,,
+$$
+
+the [[singular simplicial complex]] of $X$. 
+
+The object $\mathcal{B}^n \mathbb{Z}$ is usefully modeled by the simplicial set 
+
+$$
+  \mathcal{B}^n \mathbb{Z} = U (\Xi \mathbb{Z}[n])
+$$
+
+which is 
+
+* the underlying simplicial set under the [[forgetful functor]] 
+
+  $$
+    (F \dashv U)
+    sAb \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+    sSet
+  $$
+
+  from abelian [[simplicial group]]s to [[simplicial sets]];
+
+* of the abelian [[simplicial group]] $\Xi \mathbb{Z}[n]$ which is the image under the [[Dold-Kan correspondence]]
+
+  $$
+    sAb \stackrel{\overset{\Xi}{\leftarrow}}{\underset{}{\to}}
+    Ch^+
+  $$
+
+* of the [[chain complex]]
+
+  $$
+    \mathbb{Z}[n] =
+    (\cdots \to \mathbb{Z} \to 0 \to 0 \to \cdots \to 0)
+  $$
+
+  concentrated in degree $n$.
+
+So in this model we have
+
+$$
+  H^n(X,\mathbb{Z}) = \pi_0 sSet(Sing X, U(\Xi \mathbb{Z}[n]))
+  \,.
+$$
+
+Using the [[adjunction]] $(F \dashv U)$ this is [[isomorphism|isomorphic]] to
+
+$$
+  \cdots \simeq \pi_0 sAb( Ch_n(X), \Xi \mathbb{Z}[n] )
+  \,,
+$$
+
+where 
+
+$$
+  F(Sing X) = \mathbb{Z}[Sing X]
+$$
+
+is the [[free functor|free]] abelian simplicial group on the simplicial set $Sing X$: this is the simplicial abelian group of **singular chains** of $X$. Its elements are formal sums of continuous maps $\Delta^n_{Top} \to X$. In this form
+
+$$
+  \cdots \simeq \pi_0 sAb( \mathbb{Z}[Sing X], \Xi \mathbb{Z}[n] )
+  \,.
+$$
+
+Using next the [[Dold-Kan correspondence|Dold-Kan adjunction]] this is
+
+$$
+  \cdots \simeq H_0 Ch( Ch_\bullet(X), \mathbb{Z}[n] )
+  \,,
+$$
+
+where
+
+$$
+  Ch_\bullet(X) := N^\bullet(\mathbb{Z}(Sing X))
+$$
+
+is the [[Moore complex]] of normalized chains of $\mathbb{Z}[Sing X]$: this is the complex of **singular chains**, formal sums over $\mathbb{Z}$ of simplices in $X$.
 
 
-A homogeneous element $\omega_p \in C^p(X)$ is a function on $p$-simplices in $X$.
+This way singular cohomology is the abelian dual of [[singular homology]].
 
-These form a ring themselves under the [[cup product]].
+...
+
+
 
 ## Properties
+
+* [[cup product]].
+
 
 * [[de Rham theorem]]
 
