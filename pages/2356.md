@@ -1,18 +1,30 @@
 
-A [[Grothendieck topos]] or more generally a Grothendieck-Rezk-Lurie [[(∞,1)-topos]] is a collection of [[sheaf|sheaves]] or more generally of [[(∞,1)-sheaf|(∞,1)-sheaves]] on a [[topological space]] or, more generally, on some [[site]]. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
 
-Singling out one of these sheaves as that sheaf which deserves to be regarded as a _sheaf of functions_ on the underlying space is a method of equipping that underlying space with extra structure: for instance for sheaves on a topological space, the chosen sheaf may be smaller than the sheaf of _all_ continuous functions $U \to \mathbb{R}$. For instance if $X$ has the extra structure of a [[manifold]], the chosen sheaf may be the sheaf of all smooth [[function]]s. 
 
-This way singling out a certainm sheaf from all sheaves is a way to encode extra structure. Accordingly such chosen sheafs are called _structure sheaf_ .
+## Idea
 
-A grand formalization of what a structure sheaf is is given by the notion of a structured [[(∞,1)-topos]], which subsumes the notion of [[generalized scheme]]:
+For a [[ringed topos]] $(\mathcal{X}, \mathcal{O})$ the ring object $\mathcal{O} \in \mathcal{X}$ is called the **structure sheaf**.
 
-there, for $T$ an [[(∞,1)-topos]] a **structure sheaf** on $T$ is a
+More generally, for $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]], a [[structured (∞,1)-topos]]
 
-* a [[geometry (for structured (∞,1)-toposes)]] $G$;
+$$
+  \mathcal{O} : \mathcal{G} \to \mathcal{X}
+$$
 
-* and an [[(∞,1)-functor]] $G \to T$
+is an [[(∞,1)-topos]] equipped with a $\mathcal{G}$-valued **structure sheaf** presented by the finite-limits-preserving and cover-preserving [[(∞,1)-functor]] $\mathcal{O}$.
 
-  * that preserves the singled out morphisms in $G$ (as described at [[structured (∞,1)-topos]]).
 
-...
+[[!redirects structure sheaves]]
