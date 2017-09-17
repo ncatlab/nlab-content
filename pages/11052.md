@@ -1,8 +1,11 @@
+[[!redirects finitely presented group]]
 ##Idea
 
-A group $G$ is *finitely presented* if it has a *finite presentation*, i.e., there is a [[group presentation]], $\langle X: R\rangle$, for $G$ with both its set, $X$, of generators and its set, $R$, of relations being finite sets.
+A group $G$ is *finitely presentable* if it has a *finite presentation*, i.e., there is a [[group presentation]], $\langle X: R\rangle$, for $G$ with both its set, $X$, of generators and its set, $R$, of relations being finite sets.
 
+###Remark:
 
+The term 'finitely presented' is often used rather than `finitely presentable', however 'finitely presented' would seem to imply that a given finite presentation was intended, whilst here only the existence of one is required.
 
 ## References
 
