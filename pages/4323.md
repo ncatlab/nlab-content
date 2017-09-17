@@ -87,25 +87,25 @@ Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$
 
 =--
 
-### For $(\infty,1)$-bundles
+### For $(\infty,1)$-module bundles
 
-We discuss the Thom spectrum construction for general [[(∞,1)-vector bundle]]s.
+We discuss the Thom spectrum construction for general [[(∞,1)-module bundle]]s.
 
 +-- {: .num_prop}
 ###### Proposition
 
-There is pair of [[adjoint functor]]s
+There is pair of [[adjoint (∞,1)-functors]]
 
 $$
   (\Sigma^\infty \Omega^\infty \dashv gl_1)
   : 
-  Ho(E_\infty Rings)
+  E_\infty Rings
    \stackrel{\overset{\Sigma^\infty \Omega^\infty}{\leftarrow}}{\underset{gl_1}{\to}}
-  Ho(Spec_{con})
+  Spec_{con}
   \,,
 $$
 
-where $(\Sigma^\infty \dashv \Omega^\infty) : Spec \to Top$ is the [[stabilization]] adjunction between [[Top]] and [[Spec]] ($\Sigma^\infty$ forms the [[suspension spectrum]]), restricted to connective spectra, and $Ho(-)$ denotes [[homotopy categories]]. 
+where $(\Sigma^\infty \dashv \Omega^\infty) : Spec \to Top$ is the [[stabilization]] adjunction between [[Top]] and [[Spec]] ($\Sigma^\infty$ forms the [[suspension spectrum]]), restricted to connective spectra.  The [[right adjoint]] is the _[[∞-group of units]]_-[[(∞,1)-functor]], see there for more details.
 
 =--
 
@@ -114,7 +114,7 @@ This is ([ABGHR, theorem 2.1/3.2](#ABGHR)).
 +-- {: .num_remark}
 ###### Remark
 
-Here $gl_1$ forms the "[[general linear group]]-of rank 1"-spectrum of an [[E-∞ ring]]: its "$\infty$-[[group of units]]". The adjunction is the generalization of the adjunction
+Here $gl_1$ forms the "[[general linear group]]-of rank 1"-spectrum of an [[E-∞ ring]]: its [[∞-group of units]]". The adjunction is the generalization of the adjunction
 
 $$
   (\mathbb{Z}[-] \dashv GL_1) : 
@@ -254,6 +254,68 @@ The Thom spectrum $M f$ of def. \ref{GeneralThomSpectrum} is equivalent to the T
 =--
 
 This is in ([ABGHR, section 8](#ABGHR)).
+
+Equivalently the Thom spectrum is characterized as follows:
+
++-- {: .num_defn}
+###### Definition/Proposition
+
+For $\chi \colon X \to  R Line$ a map to the [[∞-group]] of $R$-[[(∞,1)-lines]] inside $R Mod$, the corresponding Thom spectrum is the [[(∞,1)-colimit]]
+
+$$
+  \Gamma(\chi) \coloneqq
+  \underset{\rightarrow}{\lim}
+  \left(
+    X \stackrel{\chi}{\to} Pic(R) \hookrightarrow R Mod
+  \right)
+  \,.
+$$
+
+This construction evidently extendes to an [[(∞,1)-functor]]
+
+$$
+  \Gamma \colon \infty Grpd_{/R Line} \to R Mod
+  \,. 
+$$
+
+
+=--
+
+
+
+This is ([Ando-Blumberg-Gepner 10, def. 4.1](#ABG10)), reviewed also as ([Wilson 13, def. 3.3](#Wilson13)).
+
++-- {: .num_remark}
+###### Remark
+
+This is the $R$-[[(∞,1)-module]] of [[sections]] of the [[(∞,1)-module bundle]] classified by $X \stackrel{\chi}{\to} Pic(R) \hookrightarow R Mod$.
+
+By the [[universal property]] of the [[(∞,1)-colimit]] we have for $\underline{R} \colon X \to R Mod$ the trivial $R$-bundle that 
+
+$$
+  Hom_{[X, R Mod]}(\chi, \underline{R})
+  \simeq
+  Hom_{R Mod}(\Gamma(\chi), R)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The section/Thom spectrum functor is the left [[(∞,1)-Kan extension]] of the canonical embedding $R Line \hookrightarrow R Mod$ along the [[(∞,1)-Yoneda embedding]]
+
+$$
+  R Line \hookrightarrow [R Line^{op}, \infty Grpd]
+  \simeq \infty Grpd_{/R Line}
+$$
+
+(where the [[equivalence of (∞,1)-categories]] on the right is given by the [[(∞,1)-Grothendieck construction]]). In other words, it is the essentially unique [[(∞,1)-colimit]]-preserving [[(∞,1)-functor]]  $\infty Grpd_{/ R Line} \to R Mod$ which restricts along this inclusion to the canonical embedding.
+
+=--
+
+This observation appears as ([Wilson 13, prop. 4.4](#Wilson13)).
 
 ## Properties
 
@@ -408,7 +470,7 @@ For an brief exposition see ([PontoShulman, example 3.7](#PontoShulman)). For mo
 ### As the universal spherical fibration, from the $J$-homomorphism
  {#AsTheUniversalSphericalFibration}
 
-The [[J-homomorphism]] is a canonical map $B O \to B gl_1(\mathbb{S})$ from the [[classifying space]] of the [[stable orthogonal group]] to the [[delooping]] of the [[infinity-group of units]] of the [[sphere spectrum]]. This classifies an "[[(infinity,1)-vector bundle]]" of [[sphere spectrum]]-[[module spectrum|modules]] over $B O$ and this is the Thom spectrum.
+The [[J-homomorphism]] is a canonical map $B O \to B gl_1(\mathbb{S})$ from the [[classifying space]] of the [[stable orthogonal group]] to the [[delooping]] of the [[infinity-group of units]] of the [[sphere spectrum]]. This classifies an "[[(∞,1)-vector bundle]]" of [[sphere spectrum]]-[[module spectrum|modules]] over $B O$ and this is the Thom spectrum.
 
 See at _[[orientation in generalized cohomology]]_ for more on this.
 
@@ -469,9 +531,15 @@ A generalized notion of Thom spectra in terms of [[(∞,1)-module bundles]] is d
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
 
-Discussion of Thom spectra from the point of view of [[(infinity,1)-module bundles]] is in the references cited there and in
+Discussion of Thom spectra from the point of view of [[(∞,1)-module bundles]] is in 
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ {#ABG10}
+
+which is briefly reviewed in
 
 * [[Dylan Wilson]], _Thom spectra from the $\infty$ point of view_, 2013 ([pdf](http://www.math.northwestern.edu/~bwill/thom/DWthom4.pdf)) 
+ {#Wilson13}
 
 
 ### As dual objects in the stable homotopy category
