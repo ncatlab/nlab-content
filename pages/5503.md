@@ -115,6 +115,7 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 
 * [[nonstandard analysis]], [[set theory]], [[foundations and logic]], [[algebraic set theory]], [[forcing]], [[o-minimal structure]]
 
+* [[Lascar group]]
 
 * entries on researchers in model theory: [[Alfred Tarski]], [[Boris Zilber]], [[Kenneth Kunen]], [[Saharon Shelah]] 
 
