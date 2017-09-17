@@ -23,7 +23,7 @@
 
 In [[physics]] the term **gauge transformation** means essentially [[isomorphism]]: the configuration [[space]] of a physical theory is typically a [[groupoid]] (an [[orbifold]]) and a _gauge transformation between configurations_ is a [[morphism]] in this groupoid.
 
-More specifically, in physical theories called [[gauge theory]] -- such as describing [[electromagnetism]] and [[Yang-Mills field]]s -- the configuration space is a space of $G$-[[principal bundle]]s (over [[spacetime]] $X$) with [[connection on a bundle|connection]] over a [[Lie group]] $G$ -- called the **[[gauge group]]**. A _gauge transformation_ in the strict and original sense of the word is a morphism in the groupoid $G Bund_\nabla(X)$ of these bundles with connection.
+More specifically, in physical theories called [[gauge theory]] -- such as describing [[electromagnetism]] and [[Yang-Mills field]]s -- the configuration space is a space of $G$-[[principal bundle]]s (over [[spacetime]] $X$) with [[connection on a bundle|connection]] over a [[Lie group]] $G$ called the **[[gauge group]]**. A _gauge transformation_ in the strict and original sense of the word is a morphism in the groupoid $G Bund_\nabla(X)$ of these bundles with connection.
 
 In this context the connection $\nabla$ itself -- usually thought of in terms of its local [[Lie-algebra valued 1-form]]s $(A_i \in \Omega^1(U_i \subset X, \mathfrak{g}))$ -- is the _[[gauge field]]_ . The equation
 
