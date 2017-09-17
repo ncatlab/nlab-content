@@ -47,21 +47,7 @@ If this morphism $r$ is an [[isomorphism]], then the isomorphic objects $c_1 \ti
 
 The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set indexing these objects might not have [[decidable equality]]).  A [[zero object]] is the biproduct of no objects.
 
-+--{: .query}
-_Mike_: Can anyone give a definition of a biproduct that doesn't require the category to be presupposed to have a zero object, but which specializes to a zero object in the 0-ary case?
-
-[[Toby Bartels]]:  Actually, our current definition does this; I just wrote it badly.  Of course, now the category starts with an enriched structure ... but at least it is a weaker requirement.
-
-[[Mike Shulman|Mike]]: The reason I ask is that I'm trying to work out an indexed version of biproducts.  In a fibration or indexed category, coproducts are left adjoint $f_!$ to reindexing $f^*$ and products are right adjoint $f_*$, so having $f$-indexed biproducts should mean that some canonical map $f_!\to f_*$ is an isomorphism.  But I'm not having much luck constructing such a canonical map.  Perhaps this is related to the need for decidable equality?
-
-_Toby_:  If it helps, here is a bit more on that subject, which I wrote at [[direct sum]]:
->An arbitrary index set will still work if $C$ is enriched over the category of sets and [[partial functions]]; this may be embedded as a [[full subcategory]] of the category of pointed sets, and the embedding is an [[equivalence of categories]] if and only if the law of [[excluded middle]] holds.  But the usual examples of $C$ are not (constructively) so enriched.
-
-[[Mike Shulman|Mike]]: Was that what you had in mind for the "extra structure" above?  It occurred to me that it could also mean the existence of "subzero objects," i.e. $\coprod_A X \to \prod_A X$ is an isomorphism whenever $A$ is a subsingleton---which is also, I think, not constructively true in the usual examples.
-
-_Toby_:  Yes, that\'s what I had in mind.  (Although you could also do a more local version, letting the requirement that the index set be discrete and the requirement the hom-sets be enriched over $Set_part$ meet halfway, if you see what I mean.)
-=--
-
+A related discussion is archived at $n$[Forum](http://nforum.mathforge.org/discussion/4966/zero-morphism-and-additive-categories/?Focus=39983#Comment_39983).
 
 # Semiadditive categories #
 
