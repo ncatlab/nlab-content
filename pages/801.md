@@ -1,10 +1,16 @@
 
+{:fbox: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
 =--
 =--
 =--
@@ -17,11 +23,23 @@
 
 ## Idea
 
-Traditionally, a _homotopy type_ is a [[topological space]] regarded up to [[weak homotopy equivalence]]. Formally this may be taken to mean the [[object]] that $X$ represents in the standard [[homotopy category]] [[Ho(Top)]], or, better, in the [[(∞,1)-category]] [[Top]] of which the former is the [[decategorification]].
+Traditionally, a _homotopy type_ is a [[topological space]] regarded up to [[weak homotopy equivalence]]. Formally this may be taken to mean the [[object]] that $X$ represents in the standard [[homotopy category]] [[Ho(Top)]], or, better, in the [[(∞,1)-category]] [[Top]] of which the former is the [[decategorification]]. As such, topological spaces regarded as homotopy types are equivalently _[[∞-groupoids]]_ (see at _[[homotopy hypothesis]]_ for more on this). 
 
 More generally, then, we may think of every object in any [[(∞,1)-category]] or at least every [[(∞,1)-topos]] $\mathcal{C}$ as being a _homotopy type_ in the context $\mathcal{C}$. For instance if $\mathcal{C}$ is an [[(∞,1)-category of (∞,1)-sheaves]]/of [[∞-stacks]] over some [[(∞,1)-site]] $C$, then an object of $\mathcal{C}$ may be thought of as a _homotopy type over $C$_.
 
++-- {: fbox}
+###### 
+
+ _homotopy type_ : [[object]] of an [[(∞,1)-category]]
+   
+=--
+
+
 This general perspective is notably enforced by _[[homotopy type theory]]_, which is a formal language for reasoning about such general homotopy types (at least when $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]]).
+
+A homotopy type that is an [[n-truncated object in an (∞,1)-category]] (see there for more details) is also called a _[[homotopy n-type]]_ or _$n$-type_ for short. For topological spaces / [[∞-groupoids]] this means that all [[homotopy groups]] above degree $n$ a trivial. In the context of [[homotopy type theory]] a homotopy $n$-type is also called to be _of [[homotopy level]]_ $n+2$. 
+
+
 
 ## Examples
 
@@ -62,7 +80,9 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 [[!include notions of type]]
 
 
-## Literature
+## References
+
+Concerning homotopy types of topological spaces:
 
 There are some useful points made in:
 
