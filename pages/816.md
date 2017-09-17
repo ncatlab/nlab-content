@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
