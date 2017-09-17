@@ -1,5 +1,5 @@
 
-> This entry is about the notion of _frame_ in [[topos theory]]. For other notions, see elsewhere.
+> This entry is about the notion of _frame_ in [[topos theory]]. For other notions, see elsewhere. For instance [[frame of a vector space]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
