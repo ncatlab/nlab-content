@@ -3,17 +3,25 @@
 * table of contents
 {:toc}
 
+###Disambigation
+
+This entry is about 'generalized Eilenberg-MacLane spaces' as used in Stable Homotopy Theory. The same term is used for a related concept, namely the representing fibration for [[ twisted cohomology|cohomology with local coefficients]]. That cohomology is also called [[twisted cohomology]] so we have used the term [[twisted Eilenberg - Mac Lane space]] for this second use. 
+
+
+
 ## Idea
 
 A _generalized Eilenberg-MacLane space_ is [[topological space]] of the [[homotopy type]] of a [[Cartesian product]] of (finitely many) [[Eilenberg-MacLane spaces]].
 
-Accordingly a _generalized Eilenberg Mac-Lane spectrum_ is a [[spectrum]] equivalently to a [[smash product]] of [[Eilenberg-MacLane spectra]].
+Accordingly a _generalized Eilenberg-MacLane spectrum_ is a [[spectrum]] equivalently to a [[smash product]] of [[Eilenberg-MacLane spectra]].
 
 ## Applications
 
 * Generalized Eilenberg-MacLane spectra appear as [[coefficients]] in an [[Adams resolution]] used in the [[Adams spectral sequence]].
 
-[[!redirects generalized Eilenberg-Mac Lane spaces]]
 
+
+[[!redirects generalized Eilenberg-Mac Lane spaces]]
+[[!redirects generalised Eilenberg-Mac Lane space]]
 [[!redirects generalized Eilenberg-MacLane spectrum]]
 [[!redirects generalized Eilenberg-MacLane spectra]]
