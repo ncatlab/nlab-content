@@ -47,18 +47,9 @@ Equivalently, this are those [[Kan complex]]es which are $(n+1)$-[[coskeletal]] 
 
 ## References
 
-The term _hypergroupoid_ is  due to Duskin and his student P. G. Glenn:
+The term _hypergroupoid_ is due to Duskin and his student P. G. Glenn:
 
-* Paul G. Glenn, 
-[geckoz](http://geckozz.site50.net/)
-[bloepets](http://bloepets.wordpress.com/)
-[colorez](http://colerez.blogspot.com/)
-[kanduyung](http://kanduyung.pun.bz/)
-[yestues](http://ystubes.blogdetik.com/)
-[kataku](http://kataku.ealios.info/wp/)
-[kambingks](http://kambing.trecions.us/)
-[galopets](http://galopets.pertigo.info/) [golomie](http://genduts.colopi.info/) [heiye](http://deyong.0fees.net/wp/) [gogonsf](http://golds.fey345.com/)
- Realization of cohomology classes in arbitrary exact categories, J. Pure Appl. Algebra 25, 1982, no. 1, 33-105, [MR83j:18016](http://www.ams.org/mathscinet-getitem?mr=83j:18016)
+* Paul G. Glenn, Realization of cohomology classes in arbitrary exact categories, J. Pure Appl. Algebra 25, 1982, no. 1, 33-105, [MR83j:18016](http://www.ams.org/mathscinet-getitem?mr=83j:18016)
 
 The term _exact $n$-type_ is used in
 
