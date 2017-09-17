@@ -41,7 +41,7 @@ This is [[Higher Topos Theory|HTT, 5.5.3.6]].
 +-- {: .un_theorem}
 ###### Theorem
 
-For $C$ a [[small (∞,1)-category]] and $\kappa$ a [[regular cardinal]], the [[(∞,1)-Yoneda embedding]] $C \to C' \hookrightarrow Ind_\kappa(C)$ with $C'$ the full ubcategory on $\kappa$-[[compact object]]s exhibits $C'$ as the idempotent completion of $C$.
+For $C$ a [[small (∞,1)-category]] and $\kappa$ a [[regular cardinal]], the [[(∞,1)-Yoneda embedding]] $C \to C' \hookrightarrow Ind_\kappa(C)$ with $C'$ the full subcategory on $\kappa$-[[compact object]]s exhibits $C'$ as the idempotent completion of $C$.
 
 =--
 
