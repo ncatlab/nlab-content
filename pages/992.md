@@ -277,6 +277,34 @@ This is the stable analog of the statement that every
 [[(∞,1)-category of (∞,1)-sheaves]] is a left exact localization of
 an $(\infty,1)$-category of presheaves.
 
+A more intrinsic [[(∞,1)-topos]]-theoretic version of this statement (not mentioning a choice of [[(∞,1)-site]] is the following:
+
++-- {: .num_prop #StabilizationBySheavesOfSpectra}
+###### Proposition
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] and write 
+
+$$
+  Sh_\infty(\mathbf{H}, Spectra)
+  \coloneqq
+  Func_{lex}(\mathbf{H}^{op}, Spectra)
+$$
+
+for the [[(∞,1)-category]] of _[[sheaves of spectra]]_ on $\mathbf{H}$ (with respect to its [[canonical topology]]), hence the  [[(∞,1)-category]] of [[left exact (∞,1)-functors]] from the [[opposite (∞,1)-category]] of $\mathbf{H}$ to the [[(∞,1)-category of spectra]].
+
+This exhibits the [[stabilization]] of $\mathbf{H}$:
+
+$$
+  Stab(\mathbf{H}) \simeq Sh_\infty(\mathbf{H}, Spectra)
+  \,.
+$$
+
+
+=--
+
+This is ([[Spectral Schemes|Lurie "Spectral Schemes", remark 1.2]]).
+
+
 See at _[[sheaf of spectra]]_ and _[[model structure on presheaves of spectra]]_ for more.
 
 
