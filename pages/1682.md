@@ -255,6 +255,12 @@ For the case of $tmf$ one finds that the homotopy sheaves $\pi_q(\mathcal{O}(\ma
 
 This can be done quite explicitly in terms of a long but fairly elementary computation  in ordinary algebra. A detailed discussion of this computation is in ([Henriques](#Henriques))
 
+### With Level structure
+
+The [[moduli stack of elliptic curves]] has covers by that of [[elliptic curves with level structure]] $\Gamma$. Under some conditions these covers inherit derived structure sheaves $\mathcal{O}^{top}$ and hence induce spectra of "topological forms with level structure", $tmf(\Gamma)$. For more on this see at _[[modular equivariant elliptic cohomology]]_.
+
+For instance $tmf_0(2)$ (for the [[congruence subgroup]] which preserves an NS-R [[spin structure]] on elliptic curves over the complex numbers) is the [[elliptic spectrum]] $Ell$ of ([Landweber-Ravenel-Stong 93](#spin+orientation+of+Ochanine+elliptic+cohomology#LandweberRavenelStong93)), see at _[[tmf0(2)]]_.
+
 
 ## Properties
 
@@ -497,4 +503,3 @@ The self-[[Anderson duality]] of $tmf$ is discussed in ([Stojanoska 11](#Stojano
 
 
 [[!redirects tmf spectrum]]
-
