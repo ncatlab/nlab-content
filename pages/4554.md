@@ -97,7 +97,7 @@ $$
 Both squares are pullback squares. Since
 pullbacks of fibrations are fibrations, the morphism
 $\hat X  \to X \times Y$ is a fibration.
-Similarly, since $Y$ is assumed to be fibrant, also the [[projection]] map $X \times Y \to Y$ is a fibration (see [here](category+of+fibrant+objects#SimpleConsequences)). 
+Similarly, since $X$ is assumed to be fibrant (as all objects in a [[category of fibrant objects]]), also the [[projection]] map $X \times Y \to Y$ is a fibration (see [here](category+of+fibrant+objects#SimpleConsequences)). 
 
 Since $p$ is thereby exhibited as the composite of two fibrations
 
@@ -112,7 +112,7 @@ $$
   \,,
 $$
 
-it is itself a fibration.
+(the first map being a pullback of a fibration as above, the composite of the second and the third map being the projection just menioned) it is itself a fibration.
 
 
 Next, by the [[axioms]] of [[path space objects]] in a [[category of fibrant objects]] we have that $d_1 \;\colon\; Y^I \to Y$ is a trivial fibration. Since these are stable under pullback, also $\hat X \to X$ is a trivial fibration.
