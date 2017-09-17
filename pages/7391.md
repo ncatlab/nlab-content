@@ -831,6 +831,7 @@ $$
 $$
 
 for its [[Bousfield localization of model categories|left Bousfield localization]] at the set $\{\Delta[n] \cdot \Omega[T] \to \Omega[T]\}_{n \in \Delta, T \in \Omega}$.
+We call this the **locally constant model structure** on simplicial dendroidal sets.
 
 =--
 
@@ -844,9 +845,13 @@ the Reedy fibrant simplicial dendroidal sets $X$, such that
 
 which is equivalent to:
 
-* the morphism $X \to *$ has the [[right lifting property]] against the set of morphisms
+* the morphism $X \to *$ has the [[right lifting property]] against the set of [[pushout product]] morphisms
 
   $$
+    \{
+      (\Lambda^k[n] \to \Omega[T]) \bar \cdot (\partial \Omega[T] \to \Omega[T])
+    \}_{T \in \Omega, n \geq 1 , 0 \leq k \leq n}
+    = 
     \{
       \Lambda^k[n] \cdot \Omega[T] \cup \Delta[n] \cdot \partial \Omega[T] \to 
       \Delta[n]\cdot\Omega[T]
@@ -865,69 +870,97 @@ which is equivalent to:
 
 We first consider the first item. 
 
-By standard facts of [[Bousfield localization of model categories|left Bousfield localization]] a simplicial dendroidal set is fibrant in the locally constant model structure precisely if it is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{Reedy}$ and moreover the [[derived hom-space]] functor $RHom((\Delta[n]\cdot \Omega[T] \to \Omega[T]), X)$ is a weak equivalence. 
+By standard facts of [[Bousfield localization of model categories|left Bousfield localization]] a simplicial dendroidal set is fibrant in the locally constant model structure, def. \ref{LocallyConstantModelStructure}, precisely if it is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{Reedy}$ and moreover the [[derived hom-space]] functor $\mathbb{R}Hom_{[\Delta^{op},dSet_{CM}]_{Reedy}}((\Delta[n]\cdot \Omega[T] \to \Omega[T]), X)$ is a weak equivalence for all $n \in \mathbb{N}$. 
 
-We compute this derived hom space now in a maybe slightly non-obvious way, in order to get a useful result. First of all, since the derived hom space only depends on the weak equivalences, we may compute it working with the projective [[model structure on functors]]
-$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. Here in turn we use the discussion at [[simplicial model category]] and compute it by forming a fibrant replacement 
-
-$$
-  \hat X \in [\Delta^{op}, [\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}]_{Reedy}
-$$
-
-and then setting
+We compute this derived hom space now in a maybe slightly non-obvious way, in order to get the result in a form that we can compare to the derived hom in $dSet_{CM}$. First of all, since the derived hom space only depends on the weak equivalences, we may compute it working with the projective [[model structure on functors]]
+$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. Here in turn we use the discussion at _[[simplicial model category]]_ in the section _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_ and compute it by starting with a fibrant object
 
 $$
-  RHom(\Delta[n] \cdot\Omega[T], X)
-  \simeq
-  ([n] \mapsto Hom(const(\Delta[n]\cdot \Omega[T]), \hat X))
+  X \in [\Delta^{op}, dSet_{CM}]_{Reedy} \stackrel{id}{\to}
+  [\Delta^{op}, dSet_{CM}]_{proj}
+$$ 
+
+(this identity functor is right Quillen, by the discussion at [[Reedy model structure]]) regarding this as a constant simplical object in $[\Delta^{op},[\Delta^{op}, dSet_{CM}]_{proj}]$ and produce a Reedy fibrant replacement $\hat X$ ("framing") of that:
+
+$$
+  (const X \stackrel{\simeq}{\to}\hat X ) 
+  \in 
+  [\Delta^{op}, [\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}]_{Reedy}
   \,.
 $$
 
-We claim now that such a resolution is given by
+Since $\Delta[n]\cdot \Omega[T]$ is cofibrant in 
+$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$ (because $\Delta[n]$ is representable and $\Omega[T] \in dSet$ is normal), also $const \Delta[n]\cdot \Omega[T]$ is cofibrant in $[\Delta^{op}, [\Delta^{op}, dSet_{CM}]_{proj}]_{Reedy}$,  and so we have that
 
 $$
+  \mathbb{R}Hom(\Delta[n] \cdot\Omega[T], X)
+  \simeq
+  \left(
+    [n] \mapsto Hom_{[\Delta^{op}, dSet]}(const(\Delta[n]\cdot \Omega[T]), \hat X)
+  \right)
+  \,.
+$$
+
+We claim now that such a resolution $\hat X$ is given by (using the notation for core simplicial enrichement of $dSet$ _[here](http://ncatlab.org/nlab/show/model%20structure%20on%20dendroidal%20sets#Enrichment)_)
+
+$$
+  \hat X
+  :
   [n] \mapsto X^{(\Delta[n])}
   \,.
 $$
 
-Because this is Reedy fibrant precisely if for all $k \in \mathbb{N}$ the morphism
+To see that this is indeed Reedy fibrant, notice that this is so precisely if for all $k \in \mathbb{N}$ the morphism
 
 $$
  X^{(\Delta[k])} \to X^{(\partial \Delta[k])}
 $$
 
-is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$, which is the case if for all $n \in \Delta$ the morphism 
+is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$, which is the case 
+precisely if for all $n \in \Delta$ the morphism 
 
 $$
   X^{(\Delta[n])}_k \to X^{(\partial \Delta[n])}_k
 $$
 
-is a fibration in $dSet_{CM}$. But using that the Reedy fibrant $X$ is in particular projectively fibrant, hence that $X_k$ is a quasi-operad for all $k$, this is the case by discussion 
+is a fibration in $dSet_{CM}$. But using that the Reedy fibrant $X$ is in particular projectively fibrant (see [[Reedy model structure]]), hence that $X_k \in dSet_{CM}$ is fibrant (is a quasi-operad) for all $k$, this is indeed the case, by discussion 
 [here](model+structure+on+dendroidal+sets#Enrichment)
 at _[[model structure on dendroidal sets]]_.
 
-Moreover, $\Delta[n]\cdot \Omega[T]$ is cofibrant in 
-$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. So we may compute the derived hom
+So finally we find that we may compute the derived hom
 as
 
 $$
-  RHom(\Delta[n]\times \Omega[T], X)
-  :
-  [k]
+  \begin{aligned}
+    \mathbb{R}Hom_{[\Delta^{op}, dSet_{CM}]_{proj}}(\Delta[n]\times \Omega[T], X)
+    & =
+    \left(
+    [k]
   \mapsto
-  Hom( \Delta[n] \times \Omega[T], X^{(\Delta[k])} )
-  = 
-  Hom(\Omega[T], X^{(\Delta[k])}_n)
+  Hom_{[\Delta^{op}, dSet]}( \Delta[n] \times \Omega[T], X^{(\Delta[k])} )
+  \right)
+  \\
+  &
+  =
+  \left(
+    [k] 
+      \mapsto 
+    Hom_{dSet_{CM}}(\Omega[T], X^{(\Delta[k])}_n)
+  \right)
+  \end{aligned}
   \,.
 $$
 
-The right hand is the derived hom in $dSet_{CM}$. Therefore we find that $X$ is fibrant in the locally constant model structure if for all $n$ and $T$ the morphisms
+The right hand here is now manifestly the derived hom in $dSet_{CM}$,
+from $\Omega[T]$ to $X_n$, computed itself by a framing resolution. 
+
+Therefore we have found that $X$ is fibrant in the locally constant model structure, def. \ref{LocallyConstantModelStructure}, precisely if for all $n$ and $T$ the morphisms
 
 $$
-  RHom(\Omega[T], X_n) \to RHom(\Omega[T], X_0)
+  \mathbb{R}Hom_{dSet_{CM}}(\Omega[T], X_n) \to \mathbb{R}Hom_{dSet_{CM}}(\Omega[T], X_0)
 $$
 
-are weak equivalences. This is the case precisely if $X_n \to X_0$ is a weak equivalence.
+are weak equivalences. Since the $\{\Omega[T]\}_{T \in \Omega}$ form a set of generators, this is the case precisely if $X_n \to X_0$ is already a weak equivalence in $dSet_{CM}$.
 
 Now for the equivalence to the second item.
 
@@ -945,9 +978,9 @@ $$
   \,.
 $$
 
-This in turn means that $X_n \to X_0$ has the right lifting property against the tree boundary inclusions. Since these are the generating cofibration in the [[model structure on dendroidal sets]], this implies that $X_n \to X_0$ is an equivalence. So this shows that the second item implies the first.
+This in turn means that $X_n \to X_0$ has the right lifting property against the tree boundary inclusions. Since these are the generating cofibrations in the [[model structure on dendroidal sets]], this implies that $X_n \to X_0$ is an equivalence. So this shows that the second item implies the first.
 
-For the converse, it is sufficient to see that all the morphisms in the set are acyclic cofibrations in the locally constant model structure. This follows with the discussion [here](model+structure+on+dendroidal+sets#RelationToModelStructureForDendroidalCompleteSegal) at _[[model structure on dendroidal sets]]_.
+For the converse, it is sufficient to see that all the morphisms in the localizing set are acyclic cofibrations in the locally constant model structure. This follows with the discussion [here](model+structure+on+dendroidal+sets#RelationToModelStructureForDendroidalCompleteSegal) at _[[model structure on dendroidal sets]]_.
 
 =--
 
@@ -969,7 +1002,7 @@ def. \ref{ModelStructures}, coincide.
 +-- {: .proof}
 ###### Proof
 
-By a standard fact (see at _[[model category]]_ the section _[Redundancy of the axioms](#spring)_) it is sufficient to show that the cofibrations and the fibrant objects coincide.
+By a standard fact (see at _[[model category]]_ the section _[Redundancy of the axioms](model+category#RedundancyInTheAxioms)_) it is sufficient to show that the cofibrations and the fibrant objects coincide.
 
 By prop. \ref{CofibrantlyGenerated} we know the generating cofibrations of
 $[\Omega^{op}, sSet]_{cSegal}$. By the same kind of argument we find the cofibrations of $[\Delta^{op}, dSet]_{Reedy}$, and hence of
