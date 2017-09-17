@@ -586,6 +586,12 @@ A review is in
 * [[Richard Szabo]], _D-branes and bivariant K-theory_ ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
  {#Szabo}
 
+### Algebraic KK-theory
+
+Algebraic analogues of Kasparov K-theory are developed in
+
+* [[Grigory Garkusha]], _Algebraic Kasparov K-theory. I_, [pdf](http://maths.swan.ac.uk/staff/gg/papers/AlgKasparov11.pdf), _II_, [pdf](http://front.math.ucdavis.edu/1206.0178);
+Universal bivariant algebraic K-theories, J. Homotopy Relat. Struct. 8(1) (2013), 67-116 [pdf](http://maths.swan.ac.uk/staff/gg/papers/homotopyuniv.pdf)
 
 [[!redirects Kasparov K-theory]]
 [[!redirects bivariant K-theory]]
