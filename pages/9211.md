@@ -1,0 +1,20 @@
+Let $k$ be a given [[field]], and let $C$ be a $k$-linear [[abelian category]]. Then $C$ is said to be *finite* if 
+
+* For any two objects $a$, $b$ of $C$, the $k$-[[vector space]] $\hom(a, b)$ has [[finite]] [[dimension]]; 
+
+* Each object $a$ is of [[object of finite length|finite length]]; 
+
+* There are only finitely many [[simple objects]] in $C$, and each of them admits a [[projective presentation]]. 
+
++-- {: .num_theorem #Deligne} 
+###### Theorem 
+**(Deligne)** 
+For any finite abelian category $C$, there exists a finite-dimensional $k$-algebra and an $k$-linear equivalence between $C$ and $A$-$Mod_{fd}$, the category of $A$-modules that are finite-dimensional as vector spaces over $k$. 
+=-- 
+
+## Reference 
+
+P. Etingof and V. Ostrik, _Finite Tensor Categories_, Preprint 2003 ([arxiv.org/pdf/math/0301027](http://arxiv.org/pdf/math/0301027)) 
+
+[[!redirects finite abelian categories]] 
+
