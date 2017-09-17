@@ -100,7 +100,7 @@ $$ B_{y,x} B_{x,y} = 1_{x \otimes y} . $$
 
 ## Properties
 
-### The 2-Category of symmetric monoidal categories
+### The 2-category of symmetric monoidal categories
 
 There is a [[strict 2-category]] $SymmMonCat$ with:
 
