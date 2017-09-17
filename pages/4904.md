@@ -19,7 +19,7 @@
 
 #Contents#
 * table of contents
-{:tco}
+{:toc}
 
 ## Idea
 
