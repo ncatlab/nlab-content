@@ -307,6 +307,8 @@ Examples arise in the [[monoidal Dold-Kan correspondence]]. See there for detail
 
 * [[Quillen adjunction]]
 
+* [[simplicial Quillen adjunction]]
+
 * [[Quillen equivalence]]
 
 * **monoidal Quillen adjunction**
