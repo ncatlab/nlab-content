@@ -129,7 +129,7 @@ A similar construction is possible for [[bounded geometric morphism|bounded]] to
 
 * [[Peter Johnstone]], _[[Elephant]]_ Chapter C3.6
 
-* [[Steven Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
+* [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
 
 This is based on part 2 of
 
