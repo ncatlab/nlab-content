@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -28,9 +28,13 @@ $$
   \right.
 $$
 
+In [[constructive mathematics]], it is necessary that $I$ have [[decidable equality]]; alternatively, one could let the Kronecker delta take values in the [[lower reals]].
+
+
 ## Related concepts
 
 * [[Dirac delta distribution]]
 
-[[!redirects Kronecker delta function]]
 
+[[!redirects Kronecker delta]]
+[[!redirects Kronecker delta function]]
