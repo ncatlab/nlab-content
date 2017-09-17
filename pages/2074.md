@@ -82,11 +82,11 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 
   * $S^\flat$ or $S^{min}$ be the minimally marked simplicial set: only the degenerate edges are marked;
 
-  * $S^#$ or $S^{max}$ be the maximally marked simplicial set: every edge is marked.
+  * $S^\sharp$ or $S^{max}$ be the maximally marked simplicial set: every edge is marked.
 
 * for $p : X \to S$ a [[Cartesian fibration]] of [[simplicial set]]s let
 
-  * $X^\sharp$ or $X^{cart}$ be the cartesian marked simplicial set: precisely the $p$-[[cartesian morphism]]s are marked
+  * $X^\natural$ or $X^{cart}$ be the cartesian marked simplicial set: precisely the $p$-[[cartesian morphism]]s are marked
 
 
 
@@ -168,7 +168,7 @@ $sSet^+$ is not a [[topos]].
 +-- {: .proof}
 ###### Proof
 
-The canonical morphisms $X^\flat \to X^#$ are [[monomorphism]]s and [[epimorphism]]s, but not [[isomorphism]]s. Therefore $sSet^+$ is not a [[balanced category]], hence cannot be a topos.
+The canonical morphisms $X^\flat \to X^\sharp$ are [[monomorphism]]s and [[epimorphism]]s, but not [[isomorphism]]s. Therefore $sSet^+$ is not a [[balanced category]], hence cannot be a topos.
 
 =--
 
@@ -216,7 +216,7 @@ Now, by construction, every non-identity morphism $U \to [1^+]$ in $\Delta^+$ fa
 
   * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[cartesian closed category|cartesian]] [[internal hom]] $Y^X \in sSet^+$
 
-  * $Map^#(X,Y)$ the simplicial set consisting of all simplices $ \sigma \in Map^\flat(X,Y)$ such that every edge of $\sigma$ is a marked edge of $Y^X$.
+  * $Map^\sharp(X,Y)$ the simplicial set consisting of all simplices $ \sigma \in Map^\flat(X,Y)$ such that every edge of $\sigma$ is a marked edge of $Y^X$.
 
 =--
 
@@ -237,11 +237,11 @@ $$
 and
 
 $$
-  Hom_{sSet}(K, Map^#(X,Y)) 
+  Hom_{sSet}(K, Map^\sharp(X,Y)) 
    \simeq 
-  Hom_{sSet^+}(K^#, Map^#(X,Y))
+  Hom_{sSet^+}(K^\sharp, Map^\sharp(X,Y))
    \simeq
-  Hom_{sSet^+}(K^# \times X, Y)
+  Hom_{sSet^+}(K^\sharp \times X, Y)
 $$
 
 for $K \in sSet$ and $X,Y \in sSet^+$. In particular
@@ -253,7 +253,7 @@ $$
 and
 
 $$
-  Map^#(X,Y)_n = Hom_{sSet^+}(X \times \Delta[n]^#, Y)
+  Map^\sharp(X,Y)_n = Hom_{sSet^+}(X \times \Delta[n]^\sharp, Y)
   \,.
 $$
 
@@ -268,7 +268,7 @@ In words we have
 +-- {: .un_def }
 ###### Definition
 
-We generalize all this notation from $sSet^+$ to the [[overcategory]] $sSet^+/S := sSet^+/(S^#)$ for any given (plain) simplicial set $S$, by declaring
+We generalize all this notation from $sSet^+$ to the [[overcategory]] $sSet^+/S := sSet^+/(S^\sharp)$ for any given (plain) simplicial set $S$, by declaring
 
 $$
   Map_S^\flat(X,Y) \subset Map^\flat(X,Y)
@@ -277,7 +277,7 @@ $$
 and
 
 $$
-  Map_S^#(X,Y) \subset Map^#(X,Y)
+  Map_S^\sharp(X,Y) \subset Map^\sharp(X,Y)
 $$
 
 to be the subcomplexes spanned by the cells that respect that map to the base $S$.
@@ -288,13 +288,13 @@ to be the subcomplexes spanned by the cells that respect that map to the base $S
 +-- {: .un_lemma }
 ###### Observation
 
-Let $Y \to S$ be a [[Cartesian fibration]] of simplicial sets, and $X^\sharp$ as above the marked simplicial set with precisely the [[Cartesian morphism]]s marked.
+Let $Y \to S$ be a [[Cartesian fibration]] of simplicial sets, and $X^\natural$ as above the marked simplicial set with precisely the [[Cartesian morphism]]s marked.
 
 Then 
 
-* $Map_S^\flat(X,Y^\sharp)$ is an [[quasi-category]];
+* $Map_S^\flat(X,Y^\natural)$ is an [[quasi-category]];
 
-* $Map_S^#(X, Y^\sharp)$ is its [[core]], the maximal [[Kan complex]] inside it.
+* $Map_S^\sharp(X, Y^\natural)$ is its [[core]], the maximal [[Kan complex]] inside it.
 
 
 =--
@@ -304,9 +304,9 @@ This is [[Higher Topos Theory|HTT, remark 3.1.3.1]].
 +-- {: .proof}
 ###### Proof
 
-The $n$-cells of $Map_S^\flat(X,Y^\sharp)$ are morphisms $X \times \Delta[n]^\flat \to Y^\sharp$ over $S$.  This means that for fixed $x \in X_0$, $\Delta[n]$ maps into a [[fiber]] of $Y\to S$. But fibers of Cartesian fibrations are fibers of [[inner fibration]]s, hence are quasi-categories.
+The $n$-cells of $Map_S^\flat(X,Y^\natural)$ are morphisms $X \times \Delta[n]^\flat \to Y^\natural$ over $S$.  This means that for fixed $x \in X_0$, $\Delta[n]$ maps into a [[fiber]] of $Y\to S$. But fibers of Cartesian fibrations are fibers of [[inner fibration]]s, hence are quasi-categories.
 
-Similarly, the $n$-cells of $Map_S^#(X,Y^\sharp)$ are morphisms $X \times \Delta[n]^# \to Y^\sharp$ over $S$.  Again for fixed $x \in X_0$, $\Delta[n]$ maps into a [[fiber]] of $Y\to S$, but now only hitting Cartesian edges there. But (as discussed at [[Cartesian morphism]]), an edge over a point is Cartesian precisely if it is an equivalence.
+Similarly, the $n$-cells of $Map_S^\sharp(X,Y^\natural)$ are morphisms $X \times \Delta[n]^\sharp \to Y^\natural$ over $S$.  Again for fixed $x \in X_0$, $\Delta[n]$ maps into a [[fiber]] of $Y\to S$, but now only hitting Cartesian edges there. But (as discussed at [[Cartesian morphism]]), an edge over a point is Cartesian precisely if it is an equivalence.
 
 =--
 
@@ -320,16 +320,16 @@ Similarly, the $n$-cells of $Map_S^#(X,Y^\sharp)$ are morphisms $X \times \Delta
 We have a sequence of [[adjoint functor]]s
 
 $$
-  (-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}
+  (-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\natural} \dashv (-)^{\natural}
   :
   \array{ 
     & \stackrel{(-)^{\flat}}{\to} & 
     \\ 
     & \stackrel{(-)^{\flat}}{\leftarrow} & 
     \\ 
-    sSet & \stackrel{(-)^{\sharp}}{\to} & sSet^+ 
+    sSet & \stackrel{(-)^{\natural}}{\to} & sSet^+ 
     \\ 
-    & \stackrel{(-)^{\sharp}}{\leftarrow} & 
+    & \stackrel{(-)^{\natural}}{\leftarrow} & 
   }
 $$
  
@@ -371,24 +371,24 @@ This may be taken as motivation for the following definition.
 For every [[Cartesian fibration]] $Z \to S$, we have that
 
 $$
-  Map^\flat(X, Z^{\sharp})
+  Map^\flat(X, Z^{\natural})
 $$
 
 is a [[quasi-category]] and
 
 $$
-  Map^#(X,Z^\sharp) = Core(Map^\flat(X,Z^\sharp))
+  Map^\sharp(X,Z^\natural) = Core(Map^\flat(X,Z^\natural))
 $$
 
 is the maximal Kan complex inside it.
 
 A morphism $p : X \to Y$ in $sSet^+/S$ is a **Cartesian equivalence** if for every Cartesian fibration $Z$ we have
 
-* The induced morphism $Map_S^\flat(Y,Z^{\sharp}) \to Map_S^\flat(X,Z^{\sharp})$ is  an [[equivalence of quasi-categories]];
+* The induced morphism $Map_S^\flat(Y,Z^{\natural}) \to Map_S^\flat(X,Z^{\natural})$ is  an [[equivalence of quasi-categories]];
 
 Or equivalently:
 
-* The induced morphism $Map_S^#(Y,Z^{\sharp}) \to Map_S^#(X,Z^{\sharp})$ is a [[model structure on simplicial sets|weak equivalence of Kan complexes]].
+* The induced morphism $Map_S^\sharp(Y,Z^{\natural}) \to Map_S^\sharp(X,Z^{\natural})$ is a [[model structure on simplicial sets|weak equivalence of Kan complexes]].
 
 
 =--
@@ -412,11 +412,11 @@ $$
 $$
 
 be a morphism in $sSet/S$ such that both vertical maps to $S$ are
-Cartesian fibrations. Then
+Cartesian fibrations. Then the following are equivalent:
 
 * $p$ is a [[homotopy equivalence]].
 
-* The induced morphism $X^\sharp \to Y^\sharp$ in $sSet^+/S$ is a Cartesian equivalence.
+* The induced morphism $X^\natural \to Y^\natural$ in $sSet^+/S$ is a Cartesian equivalence.
 
 * The induced morphism on each fiber $X_s \to Y_{p(s)}$ is a 
   weak equivalence in the [[model structure for quasi-categories]].
@@ -445,7 +445,7 @@ The category $SSet^+/S$ of [[marked simplicial set]]s over a marked simplicial s
 The [[SSet]]-[[enriched category|enrichment]] is given by 
 
 $$
-  sSet^+/S(X,Y) := Map_S^#(X,Y)
+  sSet^+/S(X,Y) := Map_S^\sharp(X,Y)
   \,.
 $$
 
@@ -456,71 +456,34 @@ A morphism $f : X \to X'$ in $SSet^+/S$ of [[marked simplicial set]]s is
   (def. 3.1.2.2 of [[Higher Topos Theory|HTT]])
 
 * a weak equivalences precisely if it is a Cartesian equivalence, as defined above.
-
-
 =--
-
-
 +-- {: .proof}
 ###### Proof
-
 The model structure is proposition 3.1.3.7 in [[Higher Topos Theory|HTT]]. The simplicial enrichment is corollary 3.1.4.4.
-
 =--
 
 +-- {: .un_remark}
 ###### Remark
-
-
 Using $Map_S^\flat(X,Y)$ for the mapping objects makes $sSet^+/S$ a
-$sSet_{Joyal}$-[[enriched model category]] (i.e. enriched in the [[model structure for quasi-categories]]).
-
+$sSet_{Joyal}$-[[enriched model category]] (i.e. enriched in the [[model structure for quasi-categories]]).  This is [[Higher Topos Theory|HTT, remark 3.1.4.5]].
 =--
 
-This is [[Higher Topos Theory|HTT, remark 3.1.4.5]].
-
-
-
-
-+-- {: .un_prop}
-###### Proposition
-
-The above model category structure is
-
-* [[proper model category|left proper]];
-
-* [[combinatorial model category|combinatorial]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is [[Higher Topos Theory|HTT, prop. 3.1.5.2]].
-
-=--
-
-Notice that trivially every object in the model structure is cofibrant.
+Notice that trivially every object in this model structure is cofibrant.
 The following proposition shows that the above model structure indeed
 presents the $(\infty,1)$-category $CartFib(S)$ of [[Cartesian fibration]]s.
 
 
-+-- {: .un_prop}
++-- {: .num_prop #FibrantObjects}
 ###### Proposition
-
 An object $p : X \to S$ in $sSet^+/S$ is _fibrant_ with respect to the above model structure precisely if it is isomorphic to an object of the
-form $Y^#$, for $Y \to S$ a [[Cartesian fibration]] in [[sSet]].
-
+form $Y^\natural$, for $Y \to S$ a [[Cartesian fibration]] in [[sSet]].
 =--
-
 +-- {: .proof}
 ###### Proof
-
 This is [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
-
 =--
 
-
+In particular, the fibrant objects of $sSet^+ \cong sSet^+/*$ are precisely the quasicategories in which the marked edges are precisely the [[equivalence in a quasi-category|equivalences]].  Note that the Cartesian model structure on $sSet^+/S$ is *not* the [[model structure on an over category]] induced on $sSet^+/S$ from the Cartesian model structure on $sSet^+$!
 
 
 +-- {: .un_def }
@@ -574,14 +537,14 @@ The collection of **marked anodyne morphisms** in $SSet^+/S$ is the class of mor
 * the inclusion
 
   $$
-    (\Lambda[2]_1)^\sharp \coprod_{(\Lambda[2]_1)^\flat}
+    (\Lambda[2]_1)^\natural \coprod_{(\Lambda[2]_1)^\flat}
     (\Delta[2])^\flat
     \to
-    (\Delta[2])^\sharp
+    (\Delta[2])^\natural
     \,.
   $$
 
-* for every [[Kan complex]] $K$ the morphism $K^\flat \to K^#$.
+* for every [[Kan complex]] $K$ the morphism $K^\flat \to K^\sharp$.
 
 =--
 
@@ -611,9 +574,9 @@ This is [[Higher Topos Theory|HTT, prop. 3.1.1.6]]
 +-- {: .un_remark}
 ###### Remark 
 
-So the failure of a morphism $(X, E_X \to (S,E_S)$ in $sSet^+$ with RLP against marked anodyne morphisms to be a Cartesian fibration is only governed by possibly missing markings in $E_S$.
+Thus, if $(X, E_X) \to (S,E_S)$ is a morphism in $sSet^+$ with RLP against marked anodyne morphisms, then its underlying morphism $X\to S$ in $sSet$ is almost a [[Cartesian fibration]]: it may fail to be such only due to missing markings in $E_S$.
 
-In particular if _all_ morphisms in $S$ are marked, then $(X,E_X) \to S^#$ has the right lifting property with respect to all marked anodyne morphisms precisely if the underlying morphism $X\to S$ is a [[Cartesian fibration]] and precisely the [[Cartesian morphism]]s are marked in $X$, $(X,E_X) = X^\sharp$. So precisely if it is a fibrant object in the model structure on $sSet^+/S$.
+However, if _all_ morphisms in $S$ are marked, then $(X,E_X) \to S^\sharp$ has the RLP against marked anodyne morphisms precisely when the underlying morphism $X\to S$ is a [[Cartesian fibration]] and exactly the [[Cartesian morphism]]s are marked in $X$, $(X,E_X) = X^\natural$ --- in other words, precisely if it is a fibrant object in the model structure on $sSet^+/S$.
 
 =--
 
