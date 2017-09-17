@@ -21,7 +21,7 @@
 
 (...)
 
-According to [[Kant]] the four fundamental categroies are
+According to [[Kant]] the four fundamental categories are
 
 1. [[quantity]]
 
