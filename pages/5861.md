@@ -1,3 +1,4 @@
+[[!redirects cohesive (infinity,1)-topos -- infinitesimal cohesion]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -27,7 +28,7 @@ Here we consider one extra axiom on a [[cohesive (∞,1)-topos]] that does imply
 
 In a cohesion $(\infty,1)$-topos with infinitesimal cohesion there are for instance good intrinsic notions of [[formally smooth morphism|formal smoothness]] and of [[de Rham space]]s of objects.
 
-## Infinitesimal cohesion
+## Differential cohesion
 
 We discuss [[extra structure]] on a [[cohesive (∞,1)-topos]]
 that encodes a refinement of the corresponding notion of cohesion to 
@@ -1719,6 +1720,8 @@ $$
 
 ## Related concepts
 
+* [[infinitesimal cohesive (infinity,1)-topos]]
+
 * [[differential homotopy type theory]]
 
 [[!include cohesion - table]]
@@ -1759,8 +1762,6 @@ The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &eacute;tale
  {#Carchedi}
 
 
-[[!redirects  cohesive (∞,1)-topos -- infinitesimal cohesion]]
-[[!redirects infinitesimal cohesion]]
 
 [[!redirects differential cohesion]]
 [[!redirects differential cohesive (∞,1)-topos]]
