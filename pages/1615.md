@@ -83,6 +83,7 @@ Many _auxiliary_ [[operators]] in [[quantum field theory]] do _not_ satisfy caus
 ### Extra axioms
 
 #### Einstein locality 
+ {#EinsteinLocality}
 
 Commutativity of spacelike separated observables can be argued to capture only part of [[causal locality]]. 
 
