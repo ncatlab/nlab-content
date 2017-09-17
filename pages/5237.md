@@ -19,7 +19,7 @@
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $C$ a [[monoidal category]], the **category of [[monoid]]s** $Mon(C)$  in the $C$ is the [[category]] whose
@@ -46,7 +46,7 @@ Most "algebraic" situations have this property, but others do not.  For instance
 
 ### Local presentability
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $C$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] with countable [[coproducts]] which is [[locally presentable category|locally presentable]].
@@ -64,7 +64,7 @@ This appears in ([Porst, page 7](#Porst)).
 
 ### Free and relative free monoids {#FreeMonoids}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be a [[monoidal category]] with countable [[coproduct]]s that are preserved by the [[tensor product]]. Then the forgetful functor $U_C$ has a [[left adjoint]] $F_C : C \to Mon(C)$. On an object $X \in C$ the underlying object of $F_C X$ is
@@ -112,7 +112,7 @@ Conversely, every choice for $f_1$ extends to a morphism $f$ in $Mon(C)$ this wa
 =--
 
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Examples
 
 Free algebras of the form $F(A)$ are called **[[tensor algebra]]**s, at least for $C = $ [[Vect]] and similar.
@@ -122,9 +122,51 @@ The elements of the free algebra $F(A)$ are somtimes called [[lists]], at least 
 
 ### Pushouts
 
-#### Of noncommutative monoids
+We discuss forming [[pushouts]] in a category of monoids. The case
 
-+-- {: .un_prop #PushOutOfMonoidsAlongFreeMorphisms}
+* [For commutative monoids](#PushoutOfCommutativeMonoids)
+
+has a simple description. The case
+
+* [For non-commutative monoids](#PushoutOfNoncommutativeMonoids)
+
+is more incolved.
+
+
+#### Of commutative monoids
+ {#PushoutOfCommutativeMonoids}
+
+
++-- {: .num_prop }
+###### Proposition
+
+Suppose that $C$ is 
+
+* a [[symmetric monoidal category]];
+
+* with [[reflexive coequalizer]]s
+
+* that are preserved by the tensoring functors $A \otimes (-): C \to C$ for all objcts $A$ in $C$.
+
+Then for $f : A\to B$ and $g : A \to C$ two morphisms in the category $CMon(C)$ of _commutative_ monoids in $C$, the underlying object in $C$ of the [[pushout]] in $CMon(C)$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[module]]s
+
+$$
+  U(B \coprod_A C) \simeq  B \otimes_A C 
+  \,.
+$$
+
+Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
+
+=--
+
+This appears for instance as ([Johnstone, page 478, cor. 1.1.9](#Johnstone)).
+
+
+
+#### Of noncommutative monoids
+ {#PushoutOfNoncommutativeMonoids}
+
++-- {: .num_prop #PushOutOfMonoidsAlongFreeMorphisms}
 ###### Proposition
 
 If $C$ is [[cocomplete category|cocomplete]] and its tensor product preserves colimits on both sides, then the category $Mon(C)$ of monoids has all [[pushout]]s 
@@ -252,36 +294,10 @@ Finally we need to check the universal property of the cocone $P$ obtained this 
 
 =--
 
-#### Of commutative monoids
-
-+-- {: .un_prop }
-###### Proposition
-
-Suppose that $C$ is 
-
-* a [[symmetric monoidal category]];
-
-* with [[reflexive coequalizer]]s
-
-* that are preserved by the tensoring functors $A \otimes (-): C \to C$ for all objcts $A$ in $C$.
-
-Then for $f : A\to B$ and $g : A \to C$ two morphisms in the category $CMon(C)$ of _commutative_ monoids in $C$, the underlying object in $C$ of the [[pushout]] in $CMon(C)$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[module]]s
-
-$$
-  U(B \coprod_A C) \simeq  B \otimes_A C 
-  \,.
-$$
-
-Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
-
-=--
-
-This appears for instance as [Johnstone, page 478, cor. 1.1.9](#Johnstone).
-
 ### Filtered colimits
  {#FilteredColimits}
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For $C$ a [[closed monoidal category|closed]] [[symmetric monoidal category]] the [[forgetful functor]]
