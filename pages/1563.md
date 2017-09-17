@@ -19,12 +19,21 @@ Lawvere introduced [[Lawvere theory|Lawvere theories]] as a category-theoretic w
 
 
 ### Motivation from foundations of physics
+ {#MotivationFromFoundationsOfPhysica}
 
-Lawvere's fundamental motivation for most of his work is apparently interest in the form  [[foundations]] of [[physics]]. 
+Lawvere's fundamental motivation for most of his work is apparently interest in the [[foundations]] of [[physics]], specifically of ([[classical physics|classical]]) [[continuum mechanics]].
 
 From the [Wikipdia entry](http://en.wikipedia.org/wiki/William_Lawvere):
 
-> Lawvere studied [[continuum mechanics]] as an undergraduate with [[Clifford Truesdell]]. He learned of [[category theory]] $[...]$ found it a promising framework for simple rigorous [[axioms]] for the physical ideas of Truesdell and [[Walter Noll]]. $[...]$ meeting on "[[Categories in Continuum Physics]]" in 1982. Clifford Truesdell participated in that meeting, as did several other researchers in the rational [[foundations]] of [[continuum physics]] and in the [[synthetic differential geometry]] which had evolved from the spatial part of Lawvere's categorical dynamics program). Lawvere continues to work on his 50-year quest for a rigorous flexible base for physical ideas, free of unnecessary analytic complications. 
+> Lawvere studied [[continuum mechanics]] as an undergraduate with [[Clifford Truesdell]]. He learned of [[category theory]] $[...]$ found it a promising framework for simple rigorous [[axioms]] for the physical ideas of Truesdell and [[Walter Noll]]. 
+
+The title of the early text _[[Toposes of laws of motion]]_, which is often cited as the text introducing [[synthetic differential geometry]], clearly witnesses the origin and motivation of these ideas in [[classical mechanics]].
+
+A review of this with more comments on more relations to physics is in the introduction to the book collection _[[Categories in Continuum Physics]]_, which is the proceedings of a meeting organized by Lawvere in 1982
+
+The [Wikipdia entry](http://en.wikipedia.org/wiki/William_Lawvere) concludes
+
+> Lawvere continues to work on his 50-year quest for a rigorous flexible base for physical ideas, free of unnecessary analytic complications. 
 
 See also at _[[higher category theory and physics]]_ for more on this.
 
