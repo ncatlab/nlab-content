@@ -261,7 +261,7 @@ is small-cocomplete, then $\mathcal{A}$ is small cocomplete.
 ## References ##
 Section 4.5 of volume 2 of 
 
-* [[Francis Borceux]], _Handbook of categorical algebra_ , in 3 vols. 
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_ , in 3 vols. 
 {#Borceux}
 
 * [[Peter Johnstone]], _Adjoint lifting theorems for categories of algebras_ , Bull. London Math. Soc., 7 (1975), 294-297.
