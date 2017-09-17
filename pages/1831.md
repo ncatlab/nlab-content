@@ -179,6 +179,77 @@ This is [[Higher Topos Theory|HTT, prop 3.3.1.3]]
 =--
 
 
++-- {: .un_lemma}
+###### Lemma
+
+Equivalences in $sSet_{Joyal}$ are stable under pullback along Cartesian fibrations:
+
+if 
+
+$$
+  \array{
+    X \times_S T &\to & X
+    \\
+    \downarrow && \downarrow
+    \\ 
+    T &\stackrel{\simeq}{\to}& S 
+  }
+$$
+
+is a [[pullback]] square in [[sSet]] with $T \to S$ a weak equivalence in $sSet_{Joyal}$ and $X \to S$ a Cartesian fibration, then $X \times_S T \to X$ is also a weak equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 3.3.1.3]].
+
+=--
+
+
+The following proposition asserts that the ordinary pullback (in [[sSet]] of Cartesian fibrations already models the correct [[homotopy pullback]]).
+
++-- {: .un_prop}
+###### Proposition
+
+
+Let 
+
+$$
+  \array{
+    X &\to& X'
+    \\
+    \downarrow && \downarrow
+    \\
+    S &\to & S'
+  }
+$$
+
+be an [[pullback]] [[diagram]] in [[sSet]] of quasi-categories, where $X' \to S'$ is a Cartesian fibration. Then this is already a [[homotopy pullback]] diagram with respect to the [[model structure for quasi-categories]]. 
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop 3.3.1.4]]. We factor the bottom morphism as $ S \stackrel{\simeq}{\to} T \to S' $ into a weak equivalence and a fibration in $sSet_{Joyal}$. Then then the right square in 
+
+$$
+  \array{
+    X &\to& T \times_{S'} X'& \to& X'
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    S &\to & T &\to& S'
+  }
+$$
+
+is the ordinary pullback over a fibrant replacement of the original diagram hence is a homotopy pullback. The claim follows thus if $X \to T \times_{S'} X'$ is a weak equivalence, which it is by one of the above lemmas.
+
+=--
+
 
 ### Relation to other kinds of fibrations
 
