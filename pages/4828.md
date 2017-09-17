@@ -18,7 +18,7 @@
 
 A premonoidal category is a generalisation of a [[monoidal category]], applied by [[John Power]] and his collaborators to [[denotational semantics]] in [[computer science]].
 
-Recall that a [[bifunctor]] to $C$ from $D$ and $E$ (for $C,D,E$ [[categories]]) is simply a [[functor]] to $E$ from the [[product category]] $C \times D$.  We can think of this as an operation which is 'jointly functorial'.  But just as a [[function]] to $X$ from $Y$ and $Z$ (for $X,Y,Z$ [[topological spaces]]) may be [[continuous map|continuous]] in each variable yet not [[jointly continuous function|jointly continuous]] (continuous from the [[Tychonoff product]] $Y \times Z$), so an operation between categories can be functorial in each variable separately yet not jointly functorial.
+Recall that a [[bifunctor]] from $C$ and $D$ to $E$ (for $C,D,E$ [[categories]]) is simply a [[functor]] to $E$ from the [[product category]] $C \times D$.  We can think of this as an operation which is 'jointly functorial'.  But just as a [[function]] to $X$ from $Y$ and $Z$ (for $X,Y,Z$ [[topological spaces]]) may be [[continuous map|continuous]] in each variable yet not [[jointly continuous function|jointly continuous]] (continuous from the [[Tychonoff product]] $Y \times Z$), so an operation between categories can be functorial in each variable separately yet not jointly functorial.
 
 Recall that a [[monoidal category]] is a [[category]] $C$ equipped with a bifunctor $C \times C \to C$ (equipped with [[extra structure]] such as the [[associator]]).  Similarly, a premonoidal category is a category equipped with an operation $C \times C \to C$, which is (at least) a [[function]] on [[objects]] as shown, but one which is functorial only in each variable separately.
 
