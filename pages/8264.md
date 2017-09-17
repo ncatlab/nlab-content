@@ -35,6 +35,14 @@ Simple as it is, this model has proven to successfully match the observations th
 
 ([Linde 83](#Linde83))
 
+## Related concepts
+
+* [[cosmology]]
+
+* [[FRW model]]
+
+* [[big bang]], [[steady state model]]
+
 ## References
 
 ### Reviews
@@ -55,13 +63,13 @@ Simple as it is, this model has proven to successfully match the observations th
 * K. Sato, Mon. Not. R. Astron. Soc. 195, 467 (1981); Phys. Lett. 99B, 66 (1981)
  {#Sato}
 
-* Andrei Linde, Phys. Lett. 108B, 389 (1982)
+* [[Andrei Linde]], Phys. Lett. 108B, 389 (1982)
  {#Linde}
 
-* A. Albrecht and P. Steinhardt, Phys. Rev. Lett. 48, 1220 (1982)
+* A. Albrecht and [[Paul Steinhardt]], Phys. Rev. Lett. 48, 1220 (1982)
  {#AlbrechtSteinhardt}
 
-* A. Linde, Phys. Lett. 129B, 177 (1983).
+* [[Andrei Linde]], Phys. Lett. 129B, 177 (1983).
  {#Linde83}
 
 ### Experimantal evidence 
