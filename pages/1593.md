@@ -30,7 +30,7 @@ More precisely, the [[gauge field]]s that constitute the background for a string
 
 ## Orientifold circle $n$-bundles with connection
 
-We discuss the notion of [[circle n-bundles with connection]] over double covering spaces with orientifold structure.
+We discuss the notion of [[circle n-bundles with connection]] over [[double covering]] spaces with orientifold structure.
 
 +-- {: .num_prop #ExtensionOfZTwo}
 ###### Proposition
@@ -114,13 +114,13 @@ $$
 +-- {: .num_defn }
 ###### Definition
 
-For $X \in Smooth\infty Grpd$ a **double cover** $\hat X \to X$ is a $\mathbb{Z}_2$-[[principal bundle]]. 
+For $X \in Smooth\infty Grpd$ a **[[double cover]]** $\hat X \to X$ is a $\mathbb{Z}_2$-[[principal bundle]]. 
 
 For $n \in \mathbb{N}$, $n \geq 1$, an **orientifold circle $n$-bundle (with connection)** is an $AUT(\mathbf{B}^{n-1}U(1))$-[[principal ∞-bundle]] (with [[connection on an ∞-bundle|∞-connection]]) on $X$ that <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Cohomology">extends</a> $\hat X \to X$ with respect to the extension def. \ref{ExtensionOfZTwo} of $\mathbb{Z}^2$ by $AUT(\mathbf{B}^n U(1))$.
 
 =--
 
-This means that if $X \to \mathbf{B}\mathbb{Z}^2$ is the cocycle for the double cover $\hat X$, this factors as
+This means that if $X \to \mathbf{B}\mathbb{Z}^2$ is the cocycle for the [[double cover]] $\hat X$, this factors as
 
 $$
   X \stackrel{g}{\to} \mathbf{B} AUT(\mathbf{B}^{n-1} U(1)) \to \mathbf{B}\mathbb{Z}^2
@@ -131,7 +131,7 @@ where $g$ is the [[cocycle]] for the given $AUT(\mathbf{B}^n U(1))$-[[principal 
 +-- {: .num_prop }
 ###### Proposition
 
-Every orientifold circle $n$-bundle (with connection) on $X$ induces an ordinary [[circle n-bundle with connection|circle n-bundle (with connection)]] $\hat P \to \hat X$ on the given double cover $\hat X$ such that restricted to any [[fiber]] of $\hat X$ this is equivalent to $AUT(\mathbf{B}^{n-1}U(1)) \to \mathbb{Z}_2$.
+Every orientifold circle $n$-bundle (with connection) on $X$ induces an ordinary [[circle n-bundle with connection|circle n-bundle (with connection)]] $\hat P \to \hat X$ on the given [[double cover]] $\hat X$ such that restricted to any [[fiber]] of $\hat X$ this is equivalent to $AUT(\mathbf{B}^{n-1}U(1)) \to \mathbb{Z}_2$.
 
 =--
 
@@ -233,6 +233,7 @@ $$
 is taken to be the coefficient object for orientifold ([[differential cohomology|differential]]) cohomology as appearing in [[string theory]] in ([DFM I](#Precis)). More details are in ([DFM II](#DistlerFreedMooreII)).
 
 =--
+
 
 ## References
 
