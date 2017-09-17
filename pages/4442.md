@@ -266,6 +266,10 @@ Discussion of [[event horizons]] of [[black holes]] in terms of AdS/CFT (the "[[
 
 * Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
 
+#### To particle physics
+
+* [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys.Rev.Lett.88:031601,2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
+
 #### To condensed matter physics
  {#ToCondensedMatterPhysics}
 
