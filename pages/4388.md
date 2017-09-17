@@ -38,7 +38,21 @@ There is a [[category]] $Aut$ whose [[object|objects]] are deterministic sequent
 ##Variants
 
 
-There are several variant forms of automaton.  The above just gives a basic one. 
+There are several variant forms of automaton.  The above just gives a basic one. Others are treated in the entries:
+
+* [[asynchronous automaton]];
+
+* [[deterministic automaton]];
+
+* [[nondeterministic automaton]].
+
+There are tentative definitions of 
+
+*[[higher dimensional automaton]]
+
+which take a more nPOV of automata theory.
+
+
 
 
 ## References
