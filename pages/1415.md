@@ -96,7 +96,7 @@ _Toby_:  Here\'s the diagram again, but *without* the SVG code in the edit box, 
 
 _Bruce_: The files I received from Olivier Binda, which includes a nice comprehensive test suite of how his patch to htlatex (which changes ordinary text in SVG into foreignobject tags) performs, are available here: [[LD_Svg_Tests_files.zip|LD@Svg@Tests_files:file]]
 
-These three diagrams are testing re-use of SVG code.  The arrowheads are reused from diagram to diagram.  The first picture defines the arrowhead once and then reuses it for each of the  arrows.  The second picture does not define the arrowhead so must get it from the first picture.  The third picture also does not define the arrowhead but refers to the arrowhead from the picture in the [[Inclusion Sandbox]].  As can be seen, it works.  One thing to test would be to have different arrowheads here and in the [[Inclusion Sandbox]] but with the same name and see which one gets used (my guess would be the definition closest above where it is used).
+These three diagrams are testing re-use of SVG code.  The arrowheads are reused from diagram to diagram.  The first picture defines the arrowhead once and then reuses it for each of the arrows.  The second picture does not define the arrowhead so must get it from the first picture.  The third picture also does not define the arrowhead but refers to the arrowhead from the picture in the [[Inclusion Sandbox]].  As can be seen, it works.  One thing to test would be to have different arrowheads here and in the [[Inclusion Sandbox]] but with the same name and see which one gets used (my guess would be the definition closest above where it is used).
 
 (removed; see [revision 12](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/12)) 
 
