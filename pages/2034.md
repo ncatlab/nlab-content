@@ -38,7 +38,7 @@ For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ 
 * $H^2_{et}(R, \mathbb{G}_m)_{tor} = Br(R)$ ([[Brauer group]] Morita classes of Azumaya $R$-algebras)
 
 More generally, this works for $R$ a (connective) [[E-infinity ring]] 
-(the following is due to [[David Gepner]]). 
+(the following is due to [[Benjamin Antieau]] and [[David Gepner]]). 
 
 Let $GL_1(R)$ be its [[infinity-group of units]]. 
 If $R$ is [[connective spectrum|connective]], then the first [[Postnikov tower|Postikov stage]] of the [[Picard group|Picard]] [[infinity-groupoid]]
