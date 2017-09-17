@@ -14,7 +14,51 @@
 =--
 
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a [[category]] with [[zero object]], the **cokernel** of a [[morphism]] $f : X \to Y$ is the [[pushout]] $coker f$ in
+
+$$
+  \array{
+    X &\stackrel{f}{\to}& Y
+    \\
+    \downarrow && \downarrow
+    \\
+    0 &\to& coker(f)
+  }
+  \,.
+$$
+
 The concept cokernel is [[duality|dual]] to [[kernel]]. A **cokernel** in a [[category]] $C$ is a [[kernel]] in $C^{op}$.
+
+## Properties
+
+### Characterization by quotients
+
+* In the category [[Ab]] of [[abelian groups]] the cokernel of a morphism $f : X \to Y$ is the [[quotient]] of $Y$ by the [[image]] of $f$.
+
+* In the category [[Grp]] of general (not necessarily abelian) groups, the cokernel is instead the quotient by the [[normal closure]] of the image.
+
+### Exactness properties
+
+* Taking cokernels is a [[right exact functor]] on arrow-categories.
+
+## Examples
+
+* In an [[abelian category]] the [[coimage]] of any morphism $f$ is the cokernel of its [[kernel]]
+
+  $$
+    coim(f) = coker(ker(f))
+    \,.
+  $$
+
+## Related concepts
+
+* [[cocone]]
 
 [[!redirects cokernels]]
 
