@@ -79,12 +79,7 @@ General statements seem not to be in the literature yet, but see [this MO discus
    are precisely the $\kappa$-[[essentially small (∞,1)-categories]]. (See there
    for more details.)
 
-*  In $C =$ [[∞Grpd]], for uncountable $\kappa$, the $\kappa$-compact objects are
-   precisely the $\kappa$-[[essentially small ∞-groupoids]]. When $\kappa = \omega$,
-   the compact objects in ∞Grpd are the retracts of the $\omega$-small ∞Grpds, i.e.,
-    the retracts of the finite CW-complexes. Not every such retract is equivalent
-   to a $\omega$-small ∞-groupoid; the vanishing of Wall's finiteness obstruction is
-   a necessary and sufficient condition for such an equivalence to exist.
+*  In $C =$ [[∞Grpd]], for uncountable $\kappa$, the $\kappa$-compact objects are precisely the $\kappa$-[[essentially small ∞-groupoids]]. When $\kappa = \omega$, the compact objects in ∞Grpd are the [[retracts]] of the $\omega$-small ∞Grpds, i.e., the retracts of the [[finite homotopy types]] ([[finite CW-complexes]]). Not every such retract is equivalent to a $\omega$-small ∞-groupoid; the vanishing of [[Wall's finiteness obstruction]] is a necessary and sufficient condition for such an equivalence to exist.
 
 
 ## Related concepts
