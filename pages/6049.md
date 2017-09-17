@@ -85,6 +85,8 @@ Actions for the NS5-brane are discussed in
 
 * Marco Cariglia, Kurt Lechner, _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
 
+* Daniel Persson, _Fivebrane Instantons and Hypermultiplets_ (2010) ([pdf](http://string.lpthe.jussieu.fr/QKPHYS2010/Persson.pdf))
+
 ### As higher super-GS-WZW type $\sigma$-models
 
 Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
