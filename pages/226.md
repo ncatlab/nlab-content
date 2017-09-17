@@ -29,6 +29,10 @@ $$
 This category has vector spaces over $k$ as objects, and $k$-linear maps between these as morphisms.
 
 
+## Properties
+
+By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector space admits a [[basis of a vector space|basis]].
+
 ## Related concepts
 
 
