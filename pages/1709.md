@@ -47,7 +47,7 @@ We discuss concrete realizations of the above [general idea](#Idea) in some case
 
 * _[In a stabilized ∞-topos ](#InAStabilizedInfinityTopos)_
 
-* _[In a genral symmetric monoidal ∞-category](#InASymmetricMonoidalInfinityCategory)_
+* _[In a general symmetric monoidal ∞-category](#InASymmetricMonoidalInfinityCategory)_
 
 
 ### In an $\infty$-topos -- twisted nonabelian (sheaf) cohomology
