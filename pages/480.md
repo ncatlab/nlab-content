@@ -63,9 +63,24 @@ Just like the [[reg/lex completion]], there is a "coh/lex completion" which make
 
 Similarly, there are "pretopos completions" analogous to the [[ex/reg completion]] and the [[ex/lex completion]].
 
+### Subobjects, slices and internal logic
+ {#SlicesAndInternalLogic}
+
+For any object $X$ in a coherent category $\mathcal{C}$, the [[poset of subobjects]] $Sub_{\mathcal{C}}(X)$ is a [[distributive lattice]]. For $f : X \to Y$ any [[morphism]], the [[base change]] $f^* : Sub(Y) \to Sub(X)$ has a [[left adjoint]] $\exists_f : Sub(X) \to Sub(Y)$: the [[dependent sum]]/[[existential quantifier]] along $f$.
+
+The corresponding [[functor]]/[[indexed category]]
+
+$$
+  Sub : \mathcal{C}^{op} \to DistLat
+$$
+
+to the category of [[distributive lattices]] is the _[[coherent hyperdoctrine]]_ of the coherent category $\mathcal{C}$.
+
 ### Topos of types
 
 See _[[topos of types]]_.
+
+
 
 ## Related concepts
 
