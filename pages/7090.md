@@ -13,4 +13,6 @@
 
 The [[characteristic classes]] of [[universal principal ∞-bundles]] are called _universal characteristic classes_. Every other characteristic class arises by pullback from a universal characteristic class.
 
+See _[[characteristic class]]_ for more.
+
 [[!redirects universal characteristic classes]]
