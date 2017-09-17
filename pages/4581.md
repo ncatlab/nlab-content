@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Variational calculus
-+--{: .hide}
++-- {: .hide}
 [[!include variational calculus - contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -259,7 +259,7 @@ prop. \ref{SecondOrderVariationVanishesOnShell}.
 +-- {: .num_defn #ThePresymplecticForm}
 ###### Definition
 
-For $\Sigma \subset X$ a [[compact space|compact]] [[closed space|closed]] submanifold of [[dimension]] $n-1$, one says that 
+For $\Sigma \subset X$ a [[compact space|compact]] [[closed manifold|closed]] submanifold of [[dimension]] $n-1$, one says that 
 
 $$
   \omega := \int_\Sigma \Omega \in \Omega^{0,2}_{loc}
