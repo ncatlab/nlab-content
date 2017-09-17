@@ -3358,6 +3358,74 @@ $$
 
 =--
 
++-- {: .un_prop #InclusionOfConstantIntoInfinitesimalIntoAllPaths}
+###### Observation
+
+There is a canonical [[natural transformation]]
+
+$$
+  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
+$$
+
+That factors the infinitesimal and the finite path inclusion
+
+$$
+  \array{
+    && \mathbf{\Pi}_{inf}(X)
+    \\
+    & \nearrow && \searrow
+    \\
+    X &&\to&& \mathbf{\Pi}(X)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is just the formula for the unit of the compotise adjunction
+$\mathbf{H}_{th} \stackrel{\overset{\Pi_{inf}}{\to}}{\underset{Disc_{inf}}{\leftarrow}} \mathbf{H} \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}} \infty Grpd$:
+
+$$
+  X \stackrel{i_{inf}X}{\to} Disc_{inf}\Pi_{inf} X
+  \stackrel{Disc_{inf}(i_{\mathbf{H}}\Pi_{inf}X)}{\to}
+  Disc_{\mathbf{H}} Disc_{inf} \Pi_{\mathbf{H}} \Pi_{inf} X
+  =
+  Disc_{\mathbf{H}_{th}} \Pi_{\mathbf{H}_{th}}
+  \,.
+$$
+
+
+=--
+
+
+#### Flat $\infty$-connections and infinitesimal local systems
+  {#StrucInfinitesimalLocalSystem}
+
+
++-- {: .un_def}
+###### Definition
+
+$$
+  H_{infflat}(X,A) := \pi_0 \mathbf{H}(\mathbf{\Pi}_{inf}(X), A)
+   \simeq
+   \pi_0 \mathbf{H}(X, \mathbf{\flat}_{inf}A)
+  \,.
+$$
+
+=--
+
+By the [above observation](#InclusionOfConstantIntoInfinitesimalIntoAllPaths) 
+we have canonical morphisms
+
+$$
+  \mathbf{H}_{flat}(X,A) \to  \mathbf{H}_{infflat}(X,A)
+  \mathbf{H}(X,A)
+$$
+
+The objects on the left are [[principal ∞-bundle]]s equipped with flat [[connection on an ∞-bundle|∞-connection]]. The first morphism forgets their [[higher parallel transport]] along finite volumes and just remembers the parallel transport along infinitesimal volumes. The last morphism finally forgets also this connection information.
 
 
 #### $\infty$-Lie algebras and $\infty$-Lie algebroids
