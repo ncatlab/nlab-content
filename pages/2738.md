@@ -1320,6 +1320,8 @@ Together with the fact that $i^*: dSet \to sSet$ is a [[right Quillen functor]] 
 
 * [[Cartesian fibration of dendroidal sets]]
 
+* [[simplicial set]], [[globular set]], [[cubical set]], [[cellular set]]
+
 ## References 
  {#References}
 
