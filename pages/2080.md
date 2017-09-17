@@ -36,7 +36,7 @@ In particular, this holds for [[classical logic]] and [[intuitionistic logic]].
 
 You can think of entailment as being an [[external hom]] (in the ambient [[lattice]]) and the conditional as being an [[internal hom]].  In particular, we expect these to be related as in a [[closed category]]:
 
-*  $ q \to r \vdash (p \to q) \to (q \to r) $,
+*  $ q \to r \vdash (p \to q) \to (p \to r) $,
 *  $ p \equiv \top \to p $,
 *  $ \top \vdash p \to p $,
 
