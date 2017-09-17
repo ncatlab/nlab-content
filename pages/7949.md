@@ -33,11 +33,11 @@ whose left class consists of the [[n-connected object in an (∞,1)-topos|(-1)-c
 So given a morphism $f : X \to Y$ in $\mathbf{H}$ with epi-mono factorization
 
 $$
-  f : X \to im(f) \hookrightarrow Y
+  f : X \to im_1(f) \hookrightarrow Y
   \,,
 $$
 
-we may call $im(f) \hookrightarrow Y$ the **$\infty$-image** of $f$.
+we may call $im_1(f) \hookrightarrow Y$ the **image** of $f$.
 
 ### As the ∞-colimit of the kernel ∞-groupoid
  {#ViaColimitOfCechNerve}
@@ -63,7 +63,7 @@ $$
 
 (Here all degeneracy maps are notionally suppressed.)
 
-To see that this gives the same notion of $\infty$-image as given by the epi-mono factorization as discussed [above](#ViaEpiMonoFactorization), let $f \colon X \stackrel{f}{\to} im(f) \hookrightarrow Y$ be such a factorization. Then using (by the discussion at _[truncated morphism -- Recursive characterization](n-truncated+object+of+an+%28infinity%2C1%29-category#RecursiveDefinition)_) that the [[(∞,1)-pullback]] of a [[monomorphism in an (∞,1)-category|monomorphism]] is its domain, we find a [[pasting diagram]] of [[(∞,1)-pullback]] squares of the form
+To see that this gives the same notion of image as given by the epi-mono factorization as discussed [above](#ViaEpiMonoFactorization), let $f \colon X \stackrel{f}{\to} im(f) \hookrightarrow Y$ be such a factorization. Then using (by the discussion at _[truncated morphism -- Recursive characterization](n-truncated+object+of+an+%28infinity%2C1%29-category#RecursiveDefinition)_) that the [[(∞,1)-pullback]] of a [[monomorphism in an (∞,1)-category|monomorphism]] is its domain, we find a [[pasting diagram]] of [[(∞,1)-pullback]] squares of the form
 
 $$
   \array{ 
@@ -81,6 +81,18 @@ $$
 $$
 
 which shows, by the [[pasting law]], that $X \times_{Y} X \simeq X \times_{im(f)} X$ and hence that the [[Cech nerve]] of $X \stackrel{f}{\to} Y$ is equivalently that of the effective epimorphism $X \stackrel{f}{\to} im(f)$. Now, by one of the [[Giraud-Rezk-Lurie axioms]] satisfied by [[(∞,1)-toposes]], the [[(∞,1)-colimit]] over the [[Cech nerve]] of an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] is that morphism itself. Therefore the $\infty$-image defined this way coincides with the one defined by the epi/mono factorization.
+
+### Tower of $n$-images
+
+More generally for $f \colon X \to Y$ a morphism we have a [[tower]] of $n$-images
+
+$$
+  X \simeq im_\infty(f) \to \cdots \to im_2(f) \to im_1(f) \to im_0(f) \simeq Y
+$$
+
+factoring $f$, such that for each $n \in \mathbb{N}$ the factorization $X \to im_{n+2}(f) \to Y$ is the [[(n-connected, n-truncated) factorization]] of $f$.
+
+This is the relative [[Postnikov system]] of $f$.
 
 ## Properties
 
@@ -185,3 +197,9 @@ the corresponding morphism to the [[object classifier]]. Then the $\infty$-image
 * [[homotopy image]]
 
 [[!redirects ∞-image]]
+[[!redirects ∞-images]]
+[[!redirects infinity-images]]
+
+
+[[!redirects n-image]]
+[[!redirects n-images]]
