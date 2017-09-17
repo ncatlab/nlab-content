@@ -23,15 +23,12 @@ More generally, automorphic forms in the modern sense are suitable functions on 
 
 By pullback of functions the linear space of such functions hence constitutes a [[representation]] of $G$ and such representations are then called _automorphic representations_ (e.g. [Martin 13, p. 9](#Martin13)) , specifically so if $G = GL_n(\mathbb{A}_K)$ is the [[general linear group]] with [[coefficients]] in a [[ring of adeles]] of some [[global field]] and $K = GL_n(K)$. This is the subject of the _[[Langlands program]]_. There one also considers [[unramified]] such representations, which are constituted by functions that in addition are invariant under the action of $GL_n$ with coefficients in the [[integral adeles]], see [below](#InNumberTheory). 
 
-### In harmonic analysis
-
-In [[harmonic analysis]] one typically considers [[topological groups]] $G$ with [[discrete group]] [[subgroups]] $K$ and considers [[continuous functions]], typically bounded...
 
 
-### Modular forms as automorphic forms on $PSL(2,\mathbb{R})$
+### Modular forms as classical automorphic forms on $PSL(2,\mathbb{R})$
  {#ModularForms}
 
-One standard definition is that a _[[modular form]]_ is a [[holomorphic function]] on the [[upper half plane]] $\mathfrak{H}$ satisfying a specified transformation property under the [[action]] of a given [[congruence subgroup]] $\Gamma$ of the [[modular group]] $G = PSL(2,\mathbb{Z})$ (e.g. [Martin 13, definition 1](#Martin13)).
+By a standard definition,a _[[modular form]]_ is a [[holomorphic function]] on the [[upper half plane]] $\mathfrak{H}$ satisfying a specified transformation property under the [[action]] of a given [[congruence subgroup]] $\Gamma$ of the [[modular group]] $G = PSL(2,\mathbb{Z})$ (e.g. [Martin 13, definition 1](#Martin13)).
 
 But the [[upper half plane]] is itself the [[coset]] of the [[projective linear group]] $G = PSL(\mathbb{R})$ by the subgroup $K = Stab_G(\{i\}) \simeq SO(2)/\{\pm I\}$
 
@@ -50,16 +47,16 @@ $$
 
 hence to a function on $G$ which is actually _invariant_ with respect to the $\Gamma$-action ("automorphy"), but which instead now satisfies some transformation property with respect to the action of $K$, as well as some well-behavedness property
 
-This $\tilde f$ is the incarnation as an _automorphic function_ of the modular function $f$ (e.g. [Martin 13, around def. 3](#Martin13)).
+This $\tilde f$ is the incarnation as an _automorphic function_ of the modular function $f$ (e.g. [Martin 13, around def. 3](#Martin13)). For emphasis these automorphic forms on $PSL(2,\mathbb{R})$ equivalent to modular forms are called _classical modular forms_.
 
 This is where the concept of automorphic forms originates (for more on the history see e.g. [this MO comment](http://mathoverflow.net/a/124785/381) for the history of terminology) [and this one](http://mathoverflow.net/a/21556/381).
 
 
 
-### Modular forms as automorphic forms on $GL(2,\mathbb{A})$
+### Modular forms as adelic automorphic forms on $GL(2,\mathbb{A})$
  {#ModularForms}
 
-The formulation of [[modular forms]] as automorphic forms for $G = PSL(2,\mathbb{R})$ [above](#ModularForms) has in turn an equivalent formulation in terms of certain automorphic forms on $GL(2,\mathbb{A})$, where $\mathbb{A}$ is the [[ring of adeles]] (e.g. [Martin 13, p. 8](#Martin13)): we have
+The formulation of [[modular forms]] as automorphic forms for $G = PSL(2,\mathbb{R})$ [above](#ModularForms) has in turn an equivalent formulation in terms of certain automorphic forms on $GL(2,\mathbb{A})$, where $\mathbb{A}$ is the [[ring of adeles]] (e.g. [Martin 13, p. 8](#Martin13), also [Goldfeld-Hundley 11, lemma 5.5.10](#GoldfeldHundley11), [Bump, section 3.6](#Bump)): we have
 
 $$
   \Gamma \backslash PSL(2,\mathbb{R})
@@ -70,11 +67,10 @@ $$
 
 where $\mathbb{A}_{\mathbb{Z}}$ are the [[integral adeles]]. (The double coset on the right is analogous to that which appears in the [[Weil uniformization theorem]], see the discussion there and at _[[geometric Langlands correspondence]]_ for more on this analogy.)
 
-This leads to the more general concept of adelic automorphic forms [below](#InNumberTheory).
+This leads to the more general concept of _adelic automorphic forms_ [below](#InNumberTheory).
 
 ### General adelic automorphic forms
  {#InNumberTheory}
-
 
 For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]] $F$, and for the subgroup $GL_n(F)$, then sufficiently well-behaved functions on $GL_n(F)\backslash GL_n(\mathbb{A}_F)$ form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. Here "well-behaved" typically means
 
@@ -88,7 +84,7 @@ For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with 
 
 (e.g. [Frenkel 05, section 1.6](#Frenkel05), [Loeffler 11, page 4](#Loeffler11), [Martin 13, definition 4](#Martin13))
 
-(These conditions are not set in stone, they are being varied according to application (see e.g. [this MO comment](http://mathoverflow.net/a/66598/381))).
+(These conditions are not entirely set in stone, they are being varied according to application (see e.g. [this MO comment](http://mathoverflow.net/a/66598/381))).
 
 In particular one considers subspaces of "[[unramified]]" such functions, namely those which are in addition trivial on the subgroup of $GL_n$ of the [[integral adeles]] $\mathcal{O}_F$ ([Goldfeld-Hundley 11, def. 2.1.12](#GoldfeldHundley11)). This means that that unramified automorphic representations are spaces of functions on a double [[coset]] of the form
 
@@ -98,8 +94,6 @@ $$
 $$
 
 See at _[[Langlands correspondence]]_ for more on this. Such double cosets are [[analogy|analogous]] to those appearing in the [[Weil uniformization theorem]] in [[complex analytic geometry]], an analogy which leads to the conjecture of the [[geometric Langlands correspondence]].
-
-
 
 
 ### Dirichlet characters
@@ -119,6 +113,9 @@ $$
 $$
 
 is the [[idele class group]]. Automorphic forms in this case are effectively [[Dirichlet characters]] in disguise... ([Goldfeld-Hundley 11, theorem 2.1.9](#GoldfeldHundley11)).
+
+
+
 
 ## Properties
 
@@ -155,9 +152,11 @@ Introductions and surveys include
 
 * {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
+* {#Bump} [[Daniel Bump]], _Automorphic forms and representations_
+
 * {#Loeffler11} David Loeffler, _Computing with algebraic automorphic forms_, 2011 ([[LoefflerAutomorphic.pdf:file]])
 
-* {#Martin13} Kimball Martin, _A brief overview of modular and automorphic forms_,2013 [pdf](http://www2.math.ou.edu/~kmartin/papers/mfs.pdf)
+* {#Martin13} [[Kimball Martin]], _A brief overview of modular and automorphic forms_,2013 [pdf](http://www2.math.ou.edu/~kmartin/papers/mfs.pdf)
 
 * [pdf](http://math.stanford.edu/~conrad/modseminar/pdf/L10.pdf)
 
