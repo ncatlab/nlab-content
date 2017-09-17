@@ -1,0 +1,24 @@
+
+
+## Properties
+
+### Relation to the idele class group
+
+A much larger variant of the ideal class group is the [[idele class group]]...
+
+### Relation to the pole of the zeta function
+
+The [[Dedekind zeta function]] $\zeta_K$ of the [[number field]] $K$ has a [[simple pole]] at $s = 1$. The _[[class number formula]]_ says that its [[residue]] there is proportional the the product of the [[regulator of a number field|regulator]] with the [[class number]] of $K$
+
+$$
+  \underset{s\to 1}{\lim} (s-1) \zeta_K(s)
+  \propto
+  ClassNumber_K \cdot Regulator_K
+  \,.
+$$
+
+
+## References
+
+* Wikipedia, _[Ideal class group](http://en.wikipedia.org/wiki/Ideal_class_group)_
+
