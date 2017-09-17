@@ -25,7 +25,7 @@ There are precisely three types of such formal group laws:
 
 * the formal group law on [[elliptic curve]].
 
-An **elliptic cohomology** theory is a periodic multiplicative [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve.
+An **elliptic cohomology** theory is a [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve, hence which is [[Brown representability theorem|represented]] by an [[elliptic spectrum]].
 
 A theorem proven by Goerss-Hopkins-Miller and later in a different way by [[Jacob Lurie]] shows that the assignment of [[generalized (Eilenberg-Steenrod) cohomology]] theories to [[elliptic curve]]s lifts to an assignment of representing [[spectrum|spectra]] in a structure preserving way. 
 
@@ -232,7 +232,9 @@ replaced by [[equivariant elliptic cohomology]] yields (aspects of) the [[repres
 
 ## Related concepts
 
-* [[elliptic genus]]
+* [[elliptic spectrum]]
+
+* [[elliptic genus]], [[equivariant elliptic genus]]
 
 * [[equivariant elliptic cohomology]]
 
@@ -246,7 +248,7 @@ replaced by [[equivariant elliptic cohomology]] yields (aspects of) the [[repres
 * [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_ ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
 
-A comprehensive account is in
+* [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, 2005
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
