@@ -1,0 +1,36 @@
+
+**[[bundles]]**
+
+## Context
+
+* [[slice topos]], [[slice (∞,1)-topos]]
+
+## Classes of bundles
+
+* [[fiber bundle]], [[fiber ∞-bundle]]
+
+* [[principal bundle]], [[principal ∞-bundle]]
+
+* [[associated bundle]], [[associated ∞-bundle]]
+
+  * [[gerbe]], [[∞-gerbe]]
+
+  * [[local coefficient bundle]]
+
+* [[vector bundle]], [[(∞,1)-vector bundle]]
+
+## Universal bundles
+
+* [[universal principal ∞-bundle]]
+
+* [[subobject classifier]], [[object classifier]]
+
+## Presentations
+
+* [[bundle gerbe]]
+
+* [[groupal model for universal principal ∞-bundles]]
+
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/bundle+-+contents)</div>
