@@ -1,6 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[string theory]], the [[background gauge field]] over a [[D-brane]] is a unitary [[principal bundle]] [[connection on a bundle|with connection]], or rather, by the [[Freed-Witten anomaly cancellation]] mechanism, a [[twisted bundle|twisted vector bundle]], whose twist is the restriction of the ambient [[B-field]] to the D-brane.
+
+The first hint for the existence of such [[background gauge fields]] for the [[open string]] 2d-[[sigma-model]] comes from the fact that the open string's endpoint can naturally be taken to carry labels $i \in \{1, \cdots n\}$. Further analysis then shows that the lowest excitations of these $(i,j)$-strings behave as the quanta of a $U(n)$-[[gauge field]], the $(i,j)$-excitation being the given [[matrix]] element of a $U(n)$-valued connection 1-form $A$.
+
+This original argument goes back work by Chan and Paton. Accordingly one speaks of _Chan-Paton factors_ and _Chan-Paton bundles_ . 
+
+## References
+
+In the traditional physicist's string theory introductions one finds Chan-Paton bundles discussed for instance 
+
+section 2.4 of 
+
+* [[Clifford Johnson]], _D-Brane primer_ ([arXiv:hep-th/0007170](http://arxiv.org/abs/hep-th/0007170))
+
+or around p. 66 of
+
+* David Tong, _Lectures on string theory_ ([arxiv/0908.0333](http://front.math.ucdavis.edu/0908.0333))
+
+
+
+
 [[!redirects Chan-Paton bundles]]
 
-
-Geometric examples of [[D-brane]]s carry a [[vector bundle]] -- or in general a [[twisted bundle|twisted vector bundle]] with twist being the restriction of the [[Kalb-Ramond field]] to the D-brane. In the original literature these bundles are called _Chan-Paton bundles_ . 
-
-(This paragraph is of course at best a stub.)
+[[!redirects Chan-Paton vector bundle]]
+[[!redirects Chan-Paton vector bundles]]
