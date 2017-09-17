@@ -14,6 +14,19 @@
 =--
 
 
+* [[∞-Lie algebroid valued differential forms]]
+
+* [[connection on an ∞-bundle]]
+
+* [[curvature]]
+
+* [[Bianchi identity]]
+
+* **curvature characteristic form**
+
+* [[Chern-Simons form]]
+
+***
 
 #Contents#
 * automatic table of contents goes here
