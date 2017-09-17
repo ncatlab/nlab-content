@@ -2779,7 +2779,7 @@ $$
 
 In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with universal [[curvature characteristic form]]s.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $G \in \mathbf{H}$ an [[∞-group]], write
@@ -2811,8 +2811,8 @@ We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
 
 =--
 
-+-- {: .un_remark}
-###### Remark
++-- {: .num_note}
+###### Note
 
 By postcomposition the Maurer-Cartan form sends $G$-valued functions on $X$ to $\mathfrak{g}$-valued forms on $X$
 
@@ -2825,7 +2825,7 @@ $$
 =--
 
 
-+-- {: .un_defn #UniversalCurvatureForms}
++-- {: .num_defn #UniversalCurvatureForms}
 ###### Definition
 
 
@@ -2848,7 +2848,7 @@ In every [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-con
 
 Fix a 0-[[truncated]] [[abelian group|abelian]] [[group object]] $A \in \tau_{\leq 0} \mathbf{H} \hookrightarrow \mathbf{H}$. For all $n \in \mathbf{N}$ we have then the [[Eilenberg-MacLane object]] $\mathbf{B}^n A$.
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition 
 
 For $X \in \mathbf{H}$ any object and $n \geq 1$ write
@@ -2900,7 +2900,7 @@ We also say $\nabla$ is an **$\infty$-connection** on $\eta(\nabla)$ (see [below
 
 =--
 
-+-- {: .un_prop #DiffCohIsWellDefined}
++-- {: .num_prop #DiffCohIsWellDefined}
 ###### Observation
 
 The differential cohomology $H_{diff}^n(X,A)$ does not depend on the choice of morphism $H_{dR}^{n+1}(X,A) \to \mathbf{H}_{dR}(X, \mathbf{B}^{n+1}A)$ (as long as it is an isomorphism on $\pi_0$, as required).
@@ -2933,7 +2933,7 @@ of the [[homotopy fiber]]s of $curv_*$ over each of the chosen points $* \to \ma
 
 =--
 
-+-- {: .un_prop #DiffCohomologyRestrictedToVanishingCurvature}
++-- {: .num_prop #DiffCohomologyRestrictedToVanishingCurvature}
 ###### Proposition
 
 When restricted to vanishing curvature, differential cohomology coincides with [flat differential cohomology](#FlatDifferentialCohomology):
@@ -3084,7 +3084,7 @@ $$
 
 =--
 
-+-- {: .un_prop #CharacteristicClassExactSequence}
++-- {: .num_prop #CharacteristicClassExactSequence}
 ###### Proposition
 
 The differential cohomology group $H_{diff}^n(X,A)$ fits into a [[short exact sequence]] of [[abelian group]]s
