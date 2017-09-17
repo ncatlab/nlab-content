@@ -76,6 +76,10 @@ Some pretty useful comments on motives are at this MathOverflow thead:
 
 * [What's the "Yoga of Motives?"](http://mathoverflow.net/questions/2146/whats-the-yoga-of-motives/2230#2230)
 
+See also the blog post
+
+* [[David Speyer]], _Motive-ating the Weil conjecture proof_ ([blog](http://sbseminar.wordpress.com/2010/06/10/motive-ating-the-weil-conjecture-proof/))
+
 A formal discussion of motives can be found in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=121) of
 
 * [[Carlo Mazza]], [[Vladimir Voevodsky]] and [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
