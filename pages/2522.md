@@ -159,11 +159,15 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
   * [[integration over supermanifolds]]
 
+* [[supercharge]]
+
 * [[unitary representation of the super Poincaré group]]
 
 * [[Haag–Lopuszanski–Sohnius theorem]]
 
+
 * [[extended supersymmetry]]
+
 
 * [[superconformal field theory]], [[2d SCFT]]
 
