@@ -1,13 +1,38 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory - contents]]
+=--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 _Grothendieck categories_ are those [[abelian category|abelian categories]] $C$
 
 * such that for [[presheaf|presheaves]] on a [[site]] with values in $C$ there is an existence theorem for the  [[sheafification]] functor;
 
-* such that all [[complex]]es in $C$ (with respect to a [[category with translation|translation]]) are [[quasi-isomorphism|quasi-isomorphic]] to [[injective object|homotopically injective]] complexes (so that [[derived functor on a derived category|derived functor]] can be computed on homotopically injective replacements).
+* such that all [[complexes]] in $C$ (with respect to a [[category with translation|translation]]) are [[quasi-isomorphism|quasi-isomorphic]] to [[injective object|homotopically injective]] complexes (so that [[derived functor on a derived category|derived functor]] can be computed on homotopically injective replacements).
 
 
-#Definition#
+## Definition
 
 In terms of the AB$n$ hierarchy discussed at [[additive and abelian categories]] we have
 
@@ -27,7 +52,7 @@ Dually a *co-Grothendieck category* is an AB5$^*$ category
 with a [[cogenerator]]. The category of abelian groups is not a co-Grothendieck category. Any abelian category which is simultaneously Grothendieck and co-Grothendieck has just a single object (see Freyd's book, p.116). 
 
 
-#Properties#
+## Properties
 
 A Grothendieck category $C$ satisfies the following properties.
 
@@ -43,7 +68,7 @@ A Grothendieck category $C$ satisfies the following properties.
 
 Much of the localization theory of rings generalize to general Grothendieck categories. 
 
-#Examples#
+## Examples
 
 * For $R$ a ring, $Mod(R)$ is a Grothendieck category.
 
@@ -51,17 +76,17 @@ Much of the localization theory of rings generalize to general Grothendieck cate
 
 * for $C$ a Grothendieck category, the category $C_c$ of [[complex]]es in $C$ is again a Grothendieck category.
 
-#References#
+## References
 
 Grothendieck categories are mentioned at the end of section 8.3 in
 
-* Kashiwara--Schapira, [[Categories and Sheaves]]
+* Kashiwara--Schapira, _[[Categories and Sheaves]]_
 
 The relation to complexes is in section 14.1.
 
 See also the book 
 
-* Peter Freyd, Abelian categories, Harper 1966. 
+* [[Peter Freyd]], _Abelian categories_, Harper (1966O) 
 
 The duality of Grothendieck categories with categories of modules over [[linearly compact ring]]s is discussed in
 
