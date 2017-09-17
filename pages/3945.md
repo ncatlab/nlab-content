@@ -89,6 +89,16 @@ $$\array{A & \overset{f}{\to} & B & \to & 0\\
 This seeming paradox is resolved by noticing that although these two bicartesian diagrams have the same object $D$ at their lower-right-hand corner, the different maps $h$ and $-h$ cause these diagrams to induce different isomorphisms $D \cong S A$.  The isomorphism for the latter diagram incorporates an extra minus sign, relative to the first one, causing these two diagrams to both induce the *same* triangle $ A \overset{f}{\to} B \overset{g}{\to} C \overset{h}{\to} S A$ in the homotopy category.
 =--
 
+## Related concepts
+
+* [[triangulated category]]
+
+* [[pretriangulated dg-category]], [[enhanced triangulated category]]
+
+* **stable derivator**
+
+* [[stable (∞,1)-category]]
+
 
 ## References
 
