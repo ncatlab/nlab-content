@@ -10,7 +10,7 @@ An object $X$ in a category $C$ with a [[zero object]] $0$ is __simple__ if ther
 
 Note that $0$ itself is *not* simple, as it has only *one* quotient object.  It is [[too simple to be simple]].
 
-In [[constructive mathematics]], we want to phrase the definition as: a subobject of $X$ is $0$ if and only if it is not $X$.
+In [[constructive mathematics]], we want to phrase the definition as: a quotient object of $X$ is $X$ if and only if it is not $0$.
 
 In an [[abelian category]] $C$, every [[morphism]] between simple objects is either a [[zero morphism]] or an [[isomorphism]]. If $C$ is also [[enriched category|enriched]] in finite-dimensional vector spaces over an [[algebraically closed field]], it follows that $\hom(X, Y)$ has dimension $0$ or $1$.
 
