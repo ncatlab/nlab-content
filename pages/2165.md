@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -44,3 +44,6 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 [[!redirects complex number system]]
 [[!redirects complex conjugation]]
 [[!redirects complex plane]]
+
+[[!redirects imaginary part]]
+[[!redirects real part]]
