@@ -21,7 +21,9 @@
 
 * [[3-groupoid of Lie 3-algebra valued forms]]
 
+* [[∞-groupoid of ∞-Lie-algebra valued forms]]
 
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -110,7 +112,7 @@ See [[2-groupoid of Lie 2-algebra valued forms]].
 
 Details are in
 
-* [[Urs Schreiber|U.S.]], [[Konrad Waldorf]], _Parallel Transport and Functors_ ([arXiv](http://arxiv.org/abs/0705.0452))
+* [[Urs Schreiber|U.S.]], [[Konrad Waldorf]], _Parallel Transport and Functors_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">web</a>)
 
 The definition in terms of differential forms is def 4.6 there. The equivalence to $[P_1(-), \mathbf{B}G]$ is proposition 4.7.
 
