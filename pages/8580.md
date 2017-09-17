@@ -1827,6 +1827,19 @@ In [[physics]], if $X$ is a model for [[spacetime]], then $P X$ may notably be i
 
 =-- 
 
++-- {: .num_example #SmoothLoopSpace}
+###### Example
+
+If in the above example \ref{SmoothPathSpace} the path is
+constraind to be a [[loop]] in $X$, one obtains the _[[smooth loop space]]_
+
+$$
+  \mathbf{L}X \coloneqq [S^1, X]
+  \,.
+$$
+
+=--
+
 #### The smooth moduli space of smooth functions
  {#SmoothModuliSpaceOfSmoothFunctions}
 
