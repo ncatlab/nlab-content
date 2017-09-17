@@ -43,4 +43,14 @@ The algebraic data encoded by such a representation is essentially that of a
 
 See there for more details.
 
+## Related concepts
+
+* [[sigma model]], [[brane]]
+
+  * [[particle]], **superparticle**
+
+  * [[string]]
+
+  * [[membrane]]
+
 [[!redirects superparticles]]
