@@ -9,7 +9,7 @@ A _differential bimodule_ over a [[ring]] $R$ is a [[bimodule]] that behaves lik
 
 ## Definition
 
-Given a [[commutative unital ring]] $R$, a [[filtration]] $M_n$ ($n\geq -1$) on a $R$-$R$-[[bimodule]] $M$ is a __differential filtration__ if the commutator $[r,P]$ for any $P$ in $M_n$ is in $M_{n-1}$, and $M_{-1} = 0$. A bimodule is __differential__ if it has an exhaustive ($\bigcup_n M_n = M$) differential filtration. Every $R$-$R$-bimodule has a __differential part__, i.e. the maximal differential submodule of $M$. The principal example of a differential bimodule is the ring of [[regular differential operators]] defined by [[Grothendieck]]. 
+Given a [[commutative unital ring]] $R$, a [[filtration]] $M_n$ ($n\geq -1$) on a $R$-$R$-[[bimodule]] $M$ is a __differential filtration__ if the commutator $[r,P]$ for any $P$ in $M_n$ is in $M_{n-1}$, and $M_{-1} = 0$. A bimodule is __differential__ if it has an exhaustive ($\bigcup_n M_n = M$) differential filtration. Every $R$-$R$-bimodule has a __differential part__, i.e. the maximal differential subbimodule of $M$. The principal example of a differential bimodule is the ring of [[regular differential operators]] defined by [[Grothendieck]]. 
 
 There is a generalization in categorical setup developed by Lunts and Rosenberg in
 
