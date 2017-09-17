@@ -28,6 +28,10 @@ This entry is about the book
 
 on [[Chern-Weil theory]]: [[principal bundle]]s with [[connection on a bundle|connections]] and their [[characteristic class]]es.
 
+Related books are
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
 #Contents#
 * table of contents
 {:toc}
