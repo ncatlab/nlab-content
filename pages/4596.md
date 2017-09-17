@@ -10,17 +10,12 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
+## Idea
 
-## In the snake lemma
-
-... [[snake lemma]] ... [[five lemma]] ...
-
-## For long exact sequences in (co)homology
-
-For $0 \to A \to B \to C \to 0$ a [[short exact sequence]] of [[cochain complex]]es, the corresponding [[fiber sequence|long exact sequence]] in [[cochain cohomology]]
+For $0 \to A \to B \to C \to 0$ a [[short exact sequence]] of [[cochain complexes]] in an [[abelian category]] $\mathcal{A}$, the corresponding [[cohomology long exact sequence]]
 
 $$
   \cdots \to H^n(A) \to H^n(B) \to H^n(C) \stackrel{\delta}{\to} H^{n+1}(A) \to H^{n+1}(B) \to H^{n+1}(C) \to \cdots
@@ -28,7 +23,7 @@ $$
 
 has in every third step a morphism $\delta$ that shifts cohomological degree. This is called a _connecting homomorphism_ . 
 
-It may be constructed as follows:
+If $\mathcal{A}$ is [[Freyd-Mitchell embedding theorem|realized]] as some $R$[[Mod]], then the connecting homomorphism is explicitly constructed as follows:
 
 for $[c]_C \in H^n(C)$ the class of a closed element $c$, by surjectivity of $B \to C$ there is an element $\hat c \in B$ mapping to it. This need not be closed anymore, but of course $d_B \hat c$ is. By the fact that $B \to C$ is a chain map we have that the image of $d_B \hat c$ in $B$ vanishes. Therefore by the exactness of the sequence the element $d_B \hat c$ may be regarded as a closed element of $A$. The cohomology class $[d_B \hat c]_A$ of this is what the connecting homomorphism assigns to $[c]_C$:
 
@@ -38,5 +33,90 @@ $$
 $$
 
 This is indeed well defined, in that it is independent of the choice of $\hat c$: for $\hat c'$ another choice, we have that the difference $\hat c - \hat c'$ is in the kernel of $B \to C$ hence is in $A$. Then $d_B \hat c' = d_B \hat C + d_A(\hat c - \hat c')$. Hence $[d_B \hat c]_A = [d_B \hat c']_A$.
+
+
+## Statement
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $0 \to A_\bullet \stackrel{f}{\to} B_\bullet \stackrel{g}{\to} C_\bullet \to 0$
+be a [[short exact sequence]] of [[chain complexes]] in some [[abelian category]] $\mathcal{A}$. Then for all $n \in \mathbb{Z}$ there are natural _connecting homomorphisms_ $\partial : H_n(C) \to H_{n-1}(A)$ such that we have a [[long exact sequence]] of the form
+
+$$
+  \cdots \stackrel{g}{\to}
+  H_{n+1}(C)
+  \stackrel{\partial}{\to}
+  H_n(A)
+  \stackrel{f}{\to}
+  H_n(B)
+  \stackrel{g}{\to}
+  H_n(C)
+  \stackrel{\partial}{\to}
+  H_{n-1}(A)
+  \stackrel{f}{\to}
+  \cdots
+$$
+
+in [[chain homology]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A proof not using the [[Freyd-Mitchell embedding theorem]] can proceed as follows.
+
+Applying the [[snake lemma]] to the [[commuting diagram]]
+
+$$
+  \array{
+     && 0 && 0 && 0   
+     \\
+     && \downarrow && \downarrow && \downarrow 
+     \\
+     0 &\to& Z_n A &\to& Z_n B &\to & Z_n C
+     \\
+     && \downarrow && \downarrow && \downarrow 
+     \\
+     0 &\to& A_n &\to& B_n &\to & C_n &\to & 0 
+     \\
+     && \downarrow^{\mathrlap{d}} && \downarrow^{\mathrlap{d}} && \downarrow^{\mathrlap{d}}     
+     \\
+     0 &\to& A_{n-1} &\to& B_{n-1} &\to & C_{n-1} &\to& 0
+     \\
+     && \downarrow && \downarrow && \downarrow 
+     \\
+     0 &\to& \frac{A_{n-1}}{im(d)(A_n)} &\to& \frac{B_{n-1}}{im(d)(B_n)} &\to & \frac{C_{n-1}}{im(d)(C_n)} &\to & 0 
+     \\
+     && \downarrow && \downarrow && \downarrow 
+     \\
+     && 0 && 0 && 0     
+  }
+$$
+
+shows that the rows in the commuting diagram
+
+
+$$
+  \array{
+      && \frac{A_{n}}{im(d)(A_{n+1})} &\to& \frac{B_{n}}{im(d)(B_{n+1})} &\to & \frac{C_{n}}{im(d)(C_{n+1})} &\to & 0 
+      \\
+     && \downarrow^{\mathrlap{d}} && \downarrow^{\mathrlap{d}} && \downarrow^{\mathrlap{d}}     
+     \\
+     0 &\to& Z_{n-1} A &\stackrel{f}{\to}& Z_{n-1} B &\stackrel{g}{\to}& Z_{n-1} C
+  }
+$$
+
+are [[exact sequences]]. Therefore applying the [[snake lemma]] to this, once more, yields the desired long exact sequence.
+
+=--
+
+## References
+
+For instance section 1.3 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
 
 [[!redirects connecting homomorphisms]]
