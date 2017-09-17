@@ -1,4 +1,23 @@
-Classical **hypergeometric functions** (introduced by Gauss) are solutions of certain ordinary differential equation of the second order; special cases appear in classical problems of mathematical physics, when wave, Laplace and similar equations are attacked by Fourier method of separation of variables (cf. [[Legendre polynomial]], [wikipedia:Bessel function](http://en.wikipedia.org/wiki/Bessel_function)). There are variants like the confluent hypergeometric function, $q$-hypergeometric functions and the basic hypergeometric series. They are also related to classical orthogonal polynomials. There is a recent elliptic version due Spiridonov. 
+Classical **hypergeometric series** (introduced by Gauss) are solutions of certain ordinary differential equation of the second order; special cases appear in classical problems of mathematical physics, when wave, Laplace and similar equations are attacked by Fourier method of separation of variables (cf. [[Legendre polynomial]], [[Hermite polynomial]]). Hypergeometric series is defined by the formula,
+
+$$
+{}_p F_q (a_1,\ldots,a_p; b_1,\ldots, b_q; x) = \sum_{n=0}^\infty 
+\frac{(a_1)_n (a_2)_n\cdots (a_p)_n}{(b_1)_n (b_2)_n\cdots (b_q)_n}\frac{x^n}{n!}
+$$
+
+where $(a)_0 = 1$ and, for $k = 1,2,3,\ldots$
+
+$$
+(a)_k := a (a+1) (a+2) \cdots (a+k-1)
+$$
+
+is the shifted factoriel. In fact let $\sum_{n = 0}^\infty c_n$ be any series of complex numbers such that $c_{n+1}/c_n$ is a rational function of $n$. Then we can find $x,p,q,a_1,\ldots,a_p,b_1,\ldots, b_q$ to write
+$$
+\frac{c_{n+1}}{c_n} = \frac{(n+a_1)(n+a_2)\cdots (n+a_p) x}{(n+b_1)(n+b_2)\cdots (n+b_q)(n+1)}
+$$
+and $\sum c_n = c_0 {}_p F_q(a_1,\ldots,a_p; b_1,\ldots, b_q; x)$.
+
+There are variants like the confluent hypergeometric function (e.g. [wikipedia:Bessel function](http://en.wikipedia.org/wiki/Bessel_function)), $q$-hypergeometric functions and the basic hypergeometric series. The classical orthogonal polynomials appear as special cases for choices of parameters. There is a recent elliptic version due Spiridonov. 
 
 There are now modern generalizations to many variables due Aomoto and another variant due [[Mikhail Kapranov]], [[Israel Gelfand]] and [[Andrei Zelevinsky]]. These multidimensional generalizations express pairings between representations of quantum groups at root of unity and representations of affine Lie algebras, which can be interpreted as pairings between certain kind of homlogy and cohomology on configuration spaces. This has been extensively studied by Varchenko, Terao and others; often in connection to the study of (complements of) [[arrangements of hyperplanes]] in $\mathbb{C}^n$. [[Selberg integral|Selberg-type integrals]] are involved. 
 
