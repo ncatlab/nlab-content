@@ -14,8 +14,13 @@
 
 ## Idea
 
-The [[Lie algebra]] of the [[unitary group]]. Canonically identified with [[matrices]] with [[complex number]] entries that are skew-hermitean.
+The [[Lie algebra]] $\mathfrak{u}(n)$ of the [[unitary group]] $U(n)$. Canonically identified with [[matrices]] with [[complex number]] entries that are skew-hermitean.
 
 ## Related concepts
 
+* [[special unitary Lie algebra]]
+
 * [[special orthogonal Lie algebra]]
+
+
+
