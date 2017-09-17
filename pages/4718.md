@@ -23,3 +23,4 @@ More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in 
 
 [[!redirects rng]]
 [[!redirects rngs]]
+[[!redirects nonunital ring]]
