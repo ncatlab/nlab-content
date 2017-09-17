@@ -10,3 +10,6 @@
 * [[2d (2,0)-superconformal QFT]]
 
 category: people
+
+[[!redirects Fedor Malikov]]
+[[!redirects Fedor Georgievich Malikov]]
