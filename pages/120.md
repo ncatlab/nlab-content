@@ -1,4 +1,3 @@
-
 # Equivalence
 * table of contents
 {: toc}
@@ -46,7 +45,7 @@ These can be understood to some extent using higher categories.  For example, to
 
 * [[weak equivalence]]
 
-* [[homotopy equivalence]], [[weak homotopy equivalence]]
+* [[homotopy equivalence]], [[weak homotopy equivalence]], [[Quillen equivalence]]
 
 * [[equivalence in an (∞,1)-category]]
 
