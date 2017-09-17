@@ -31,7 +31,7 @@ $$
   S(X) \simeq \wedge^{0,\bullet} T^\ast X
 $$
 
-of the [[spinor bundle]] with that of [[holomorphic differential forms]], the corresponding $Spin^c$-Dirac operator $D$ is identified with the [[Dolbeault operator]]
+of the [[spinor bundle]] with that of [[holomorphic differential forms]], the corresponding $Spin^c$-Dirac operator $D$ is identified with the [[Dolbeault-Dirac operator]]
 
 $$
   D^+  \simeq \overline\partial + \overline \partial^\ast
@@ -48,6 +48,16 @@ $$
 * [[Freed-Witten anomaly]]
 
 * [[geometric quantization by push-forward]]
+
+## Related concepts
+
+* [[spin^c structure]], [[twisted spin^c structure]]
+
+* [[K-orientation]]
+
+* [[spin^c quantization]]
+
+* [[Dolbeault-Dirac operator]]
 
 ## References
 
