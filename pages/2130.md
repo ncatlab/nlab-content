@@ -109,7 +109,7 @@ $$
   \,.
 $$
 
-Such an _Sp(2n)-structure_ is also called an _almost symplectic structure_ on $X$. Adding the extra condition that $d \omega = 0$ makes it a genuine symplectic structure.
+Such an _Sp(2n)-structure_ is also called an _almost symplectic structure_ on $X$. Adding the extra condition that $d \omega = 0$ -- the condition for [[integrability of G-structures]] -- makes it a genuine symplectic structure.
 
 A _[[metaplectic structure]]_ on a symplectic or almost symplectic manifold is in turn [[lift of the structure group]] to the [[metaplectic group]]. 
 
