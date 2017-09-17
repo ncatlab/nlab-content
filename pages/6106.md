@@ -176,7 +176,7 @@ This appears for instance as ([Segal, prop. 4.2](#Segal)).
  {#RelationToEquivariantEllipticCohomology}
 
 
-Under mild conditions the representation ring of a loop group $L G$ is equivalent to the $G$-[[equivariant elliptic cohomology]] (see there for more) of the point ([Ando 00, theorem 10.10](#Ando00)).
+Under mild conditions (but over the complex numbers) the representation ring of a loop group $L G$ is equivalent to the $G$-[[equivariant elliptic cohomology]] (see there for more) of the point ([Ando 00, theorem 10.10](#Ando00)).
 
 This is a higher analog of how $G$-[[equivariant K-theory]] of the point gives the [[representation ring]] of $G$.
 
