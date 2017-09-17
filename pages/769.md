@@ -27,6 +27,45 @@ Part of this (to be explicit) is the statement that for any object $D$, 1-morphi
 
 A **strict comma object** is analogous but has the universal property of a [[strict 2-limit]].  This means that given $p'$, $q'$, and $\sigma$ as above, there exists a _unique_ $u:D\to (f/g)$ such that $p u = p'$, $q u = q'$, and $\sigma u = \alpha$.  Note that any strict comma object is a comma object, but the converse is not in general true.
 
+## Properties
+
+### Construction
+
+The comma object $f/g$ can be constructed by means of [[pullbacks]] and [[cotensors]]:
+$$
+\array{
+f/g & \to & P & \to & A \\
+\downarrow & & \downarrow & & \downarrow \mathrlap{\scriptsize{f}} \\
+Q & \to & C^{\mathbf{2}} & \underset{dom}{\to} & C \\
+\downarrow & & \downarrow \mathrlap{\scriptsize{cod}} \\
+B & \underset{g}{\to} & C
+}
+$$
+where $C^{\mathbf{2}}$ is the cotensor of $C$ with the arrow category $\mathbf{2} = \bullet \to \bullet$.
+
+### Pasting lemma
+
+Suppose given a diagram
+$$
+\array{
+  P & \to & Q & \to & A \\
+  \downarrow & & \mathllap{\scriptsize{p}} \downarrow & \swArrow & \downarrow   \mathrlap{\scriptsize{f}} \\
+  D & \underset{h}{\to} & C & \underset{g}{\to} & B
+}
+$$
+Then if any two of the following hold, so does the third:
+* the whole diagram is a comma square
+* the right-hand square is a comma square
+* the left-hand square is a (2-)pullback square
+
++-- {: .proof}
+_Proof._ There is a commuting triangle of functors
+$$
+\hom(-,P) \to LaxSq(-,\overset{h}{\to}\overset{g}{\to}\overset{f}{\leftarrow}) = \hom(-,P) \to Sq(-,\overset{h}{\to}\overset{p}{\leftarrow}) \to LaxSq(-,\overset{h}{\to}\overset{g}{\to}\overset{f}{\leftarrow})
+$$
+where $Sq$ and $LaxSq$ give the obvious categories of commuting and 'lax' squares (i.e. squares containing a 2-cell),
+determined by pasting with the whole diagram, the left square and the right square, respectively.  The result follows from the 2-out-of-3 property for equivalences.
+=--
 
 ## Examples
 
