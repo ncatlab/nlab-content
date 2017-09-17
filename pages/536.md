@@ -119,70 +119,7 @@ where the second functor $C' \to C$ is an equivalence, so we may as well work wi
 
 _[[commutative algebraic theory|Commutative algebraic theories]]_ are (single-sorted) algebraic theories for which each operation is an algebra homomorphism. These form an important subclass. Their categories of models are closed: the Hom sets have a natural model-structure, and the enriched Hom-functor has a left adjoint, _tensor-product_. The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
 
-
-### Large Lawvere theory of a monad
-
-Done right, there is no difficulty in working with the multi-sorted case from the outset. 
-
-Let $T: Set/S \to Set/S$ be a [[monad]] on $Set/S$, with unit $u: 1 \to T$ and multiplication $m: T T \to T$. 
-
-+-- {: .un_def}
-######Definition 
-The **large Lawvere theory** $Th(T)$ **of $T$** is the [[opposite category|opposite]] of the [[Kleisli category]], $Kl(T)^{op}$. 
-=-- 
-
-The left adjoint $Set/S \to Kl(T)$ is coproduct-preserving, so we have a product-preserving functor 
-
-$$(Set/S)^{op} \to Kl(T)^{op}$$ 
-
-which is a bijection on the classes of objects. Therefore $Kl(T)^{op}$ is indeed a (large, multi-sorted) Lawvere theory. 
-
-Each [[algebra over a monad|algebra]] $X$ of the monad gives rise to a model $M_X$ of the Lawvere theory: 
-
-$$Kl(T)^{op} \hookrightarrow Alg(T)^{op} \stackrel{\hom(-, X)}{\to} Set$$ 
-
-and similarly a morphism of algebras $f: X \to Y$ gives rise to a homomorphism $M_f: M_X \to M_Y$, so that we have a functor $M: Alg(T) \to Mod(Th(T))$. 
-
-+-- {: .un_thm}
-######Theorem 
-$M$ is an equivalence. 
-=-- 
-
-+-- {: .proof} 
-######Proof 
-The proof that $M$ is fully faithful is akin to the proof of the [[Yoneda lemma]]. Suppose $\theta: M_X \to M_Y$ is a natural transformation, and let $\xi: T X \to X$ be the algebra structure of $X$, regarded as an element of $M_X(X)$. Then $\theta$ is uniquely determined from the special value $\phi = \theta(X)(\xi) \in M_Y(X) = Alg(T X, Y)$. Indeed, for any $n \in Ob(Kl(T))$ and algebra map $h: T n \to X$, we have the equation 
-
-$$h = (T n \stackrel{T(h u(n))}{\to} T X \stackrel{\xi}{\to} X)$$ 
-
-whence by chasing the naturality diagram 
-
-$$\array{
-\xi: Alg(T X, X) & \overset{\theta(X)}{\to} & Alg(T X, Y): \phi \\
-\mathllap{Alg(T(h u(n)), X)} \downarrow & & \downarrow \mathrlap{Alg(T(h u(n)), Y)} \\
-h: Alg(T n, X) & \underset{\theta(n)}{\to} & Alg(T n, Y)
-}$$
-
-applied to $\xi$ in the upper left corner, we obtain the formula 
-
-$$\theta(n)(h) = Alg(T(h u(n)), Y)(\phi)$$ 
-
-as an element in $Alg(T n, Y) = M_Y(n)$. Thus $\theta$ is uniquely determined from $\phi$. Finally, the algebra map $\phi: T X \to Y$ factors as $\xi: T X \to X$ followed by a uniquely determined algebra map $f: X \to Y$; to see this, it suffices to check that $\phi \circ T \xi = \phi \circ m X$ since $\xi$ is the coequalizer of the pair $T\xi, m X$. The desired equation follows from naturality (consider chasing the square above through $h = (T\xi) \xi = (m X) \xi$). Hence every $\theta: M_X \to M_Y$ is of the form $M_f$ for a (unique) algebra map $f: X \to Y$. 
-
-To complete the proof, we must show that $M: Alg(T) \to Mod(Th(T))$ is essentially surjective. So suppose $Y: Kl(T)^{op} \to Set$ preserves small products; we must show $M_X \cong Y$ for some $T$-algebra $X$. Take the underlying set of $X$ to be $Y(1)$, and define the $T$-algebra structure on $Y(1)$ as follows. The objects $n$ of $Kl(T)$ are sets and we have a composite 
-
-$$T(n) \cong Kl(T)^{op}(n, 1) \to Set(Y(n), Y(1)) \cong Set(Y(1)^n, Y(1))$$ 
-
-where the last composite uses the fact that $Y$ is product-preserving. Putting $n = Y(1)$, we post-compose this composite with evaluation at the identity on $Y(1)$, yielding 
-
-$$T(Y(1)) \to Set(Y(1)^{Y(1)}, Y(1)) \stackrel{ev_{id}}{\to} Y(1)$$ 
-
-and this defines the algebra structure on $X$. The model $M_X$ is the functor which sends the set $[n]$ (as an object in $Kl(T)$) to $Alg(T[n], X)$, and there is an isomorphism 
-
-$$Alg(T[n], X) \cong Set([n], Y(1)) \cong Y(n)$$ 
-
-The proof that this isomorphism is natural with respect to homomorphisms of free algebras $T[n] \to T[m]$ is an exercise in chasing definitions which we leave to the reader. 
-=--
-
+## Equivalence between monads and theories 
 
 ### The monad of a locally small Lawvere theory 
 
@@ -193,13 +130,13 @@ $$\Pi: (Set/S)^{op} \to C$$
 which we may assume to be the identity on objects. We define an adjoint pair between the category of models $Mod(C, Set)$, consisting of product-preserving functors $C \to Set$ and transformations between them, and the category $Set/S$. We also denote this model category by $Prod(C, Set)$. 
 
 * **Remark:** Observe that $(Set/S)^{op}$ is a Lawvere theory which is the theory of $S$-multi-sorted sets,  
-$$Prod((Set/S)^{op}, Set) \simeq Set^S \simeq Set/S,$$ 
+$$Prod((Set/S)^{op}, Set) \stackrel{- \circ i}{\simeq} Set^S \simeq Set/S,$$ 
 where the first equivalence obtains precisely because $(Set/S)^{op}$ is the free category with products generated by $S$. 
 
 Let $y: C^{op} \to Mod(C, Set)$ be the Yoneda embedding, taking $c$ to the product-preserving functor $hom(c, -): C \to Set$. 
 
 +-- {: .un_thm} 
-######Theorem
+######Theorem 1
 The functor 
 $$Set/S \stackrel{\Pi^{op}}{\to} C^{op} \stackrel{y}{\to} Mod(C, Set)$$ 
 is left adjoint to the functor 
@@ -211,7 +148,7 @@ $$Prod(C, Set) \stackrel{Prod(\Pi, Set)}{\to} Prod((Set/S)^{op}, Set) \simeq Set
 ######Proof 
 We must exhibit a natural isomorphism 
 
-$$Nat((y(\Pi^{op} (n \stackrel{x}{\to} S)), G) \cong Set/S(n \stackrel{x}{\to} S, G \circ \Pi)$$ 
+$$Nat((y(\Pi^{op} (n \stackrel{x}{\to} S)), G) \cong Set/S(n \stackrel{x}{\to} S, G \circ \Pi \circ i)$$ 
 
 where $Nat(-, -)$ indicates the hom-functor on the functor category $Mod(C, Set)$. The left side is naturally isomorphic to 
 
@@ -228,18 +165,118 @@ $$G \Pi i \cong Set/S(i-, G\Pi i)$$
 However, because $i: S \to (Set/S)^{op}$ is itself a Yoneda embedding $y^{op}: S \to (Set^S)^{op}$, the last isomorphism is just an instance of the Yoneda lemma, and this concludes the proof. 
 =-- 
 
-For each set $[n]$, let $T[n]$ be the set $C(i[n], i[1])$. This is evidently functorial in the argument $[n]$, i.e., defines a functor $T: Set \to Set$. The evident composite 
+The **monad of a Lawvere theory $C$** is the monad $T: Set/S \to Set/S$ associated with this adjunction. 
 
-$$[n] \cong Set([1], [n]) \cong Set^{op}([n], [1]) \to C(i[n], i[1])$$ 
 
-defines a map $u[n]: [n] \to T[n]$ which is evidently natural in $[n]$: defines a natural transformation $u: 1_{Set} \to T$. 
+### Large Lawvere theory of a monad
 
-Morphism composition in $C$ induces a map $\xi: T[m] \times T[n]^m \to T[n]$: 
+Now let $T: Set/S \to Set/S$ be a [[monad]] on $Set/S$, with unit $u: 1 \to T$ and multiplication $m: T T \to T$. 
 
-$$T[m] \times T[n]^m = C(i[m], i[1]) \times C(i[n], i[1])^m \cong C(i[m], i[1]) \times C(i[n], i[m]) \stackrel{comp}{\to} C(i[n], i[1]) = T[n]$$ 
++-- {: .un_def}
+######Definition 
+The **large Lawvere theory** $Th(T)$ **of $T$** is the [[opposite category|opposite]] of the [[Kleisli category]], $Kl(T)^{op}$. 
+=-- 
 
-Putting $[m] = T[n]$, there is a map $T T[n] \to T[n]$ that sends $\theta \in T T[n]$ to $\xi(\theta, 1_{T[n]}) \in T[n]$. This is evidently natural in $[n]$ and defines a natural transformation $m: T T \to T$. 
+The left adjoint $Set/S \to Kl(T)$ is coproduct-preserving, so we have a product-preserving functor 
 
+$$(Set/S)^{op} \to Kl(T)^{op}$$ 
+
+which is a bijection on the classes of objects. Therefore $Kl(T)^{op}$ is indeed a (large, multi-sorted) Lawvere theory. 
+
++-- {: .un_thm} 
+######Theorem 2
+Let $T$ be a monad on $Set/S$. The monad associated with the theory $Th(T)$ is isomorphic to $T$. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+In other words, we claim the monad of the adjunction 
+
+$$Set/S \stackrel{\Pi^{op}}{\to} Kl(T) \stackrel{y}{\to} Prod(Kl(T)^{op}, Set)) \dhashv (Prod(Kl(T)^{op}, Set) \stackrel{Prod(\Pi, 1)}{\to} Prod((Set/S)^{op}, Set) \simeq Set/S$$ 
+
+is isomorphic to $T$. Now the functor $\Pi^{op}: Set/S \to Kl(T)$ is left adjoint to the underlying functor $U: Kl(T) \to Set/S$, and the underlying monad there is of course $T$. It is obvious that the composite 
+
+$$Set/S \stackrel{\Pi^{op}}{\to} Kl(T) \stackrel{y}{\to} Prod(Kl(T)^{op}, Set) \stackrel{Prod(\Pi, 1)}{\to} Prod((Set/S)^{op}, Set)$$
+
+takes an object $f: X \to S$ to 
+
+$$Kl(T)(\Pi^{op}-, \Pi(f)) \cong Set/S(-, U \Pi(f)) \cong Set/S(-, T(f))$$ 
+
+and since the equivalence $Prod((Set/S)^{op}, Set) \to Set$ is adjoint to the yoneda embedding, it takes $Set/S(-, T(f))$ to $T(f)$. This proves the claim. 
+=-- 
+
+In the other direction, we have 
+
++-- {: .un_thm}
+######Theorem 3
+Let $C$ be an $S$-sorted Lawvere theory. Then the Lawvere theory of the monad of $C$ is equivalent to $C$. 
+=-- 
+
+We assume for convenience that the product-preserving functor $\Pi: (Set/S)^{op} \to C$ is the identity on the class of objects. 
+
++-- {: .proof}
+######Proof 
+We need to exhibit a comparison functor $Kl(T)^{op} \to C$, where $T$ is the monad of $C$. Such a comparison functor exists provided that $\Pi: (Set/S)^{op} \to C$ has a left adjoint whose associated monad is isomorphic to $T$. Now the composite 
+
+$$C^{op} \stackrel{y}{\to} Prod(C, Set) \stackrel{Prod(\Pi, 1)}{\to} Prod((Set/S)^{op}, Set)$$ 
+
+sends an object $c$ of $C^{op}$ to the product-preserving functor $C(c, \Pi-): (Set/S)^{op} \to Set$ which, by the remark above, is represented by an object of $Set/S$ which we denote as $U^{op} c$. In other words we have a natural isomorphism 
+
+$$C(c, \Pi-) \cong (Set/S)^{op}(U^{op} c, -)$$ 
+
+and by the usual Yoneda yoga, we obtained a functor $U^{op}: C \to (Set/S)^{op}$ which is left adjoint to $\Pi$. The monad $T$ is, by definition (see theorem 1) the monad associated with the adjoint pair $(\Pi^{op}: Set/S \to C) \dashv (U: C \to Set/S)$. 
+
+We thus obtain the comparison functor $Kl(T)^{op} \to C$, and it is the identity on objects. On hom-sets it is given by the natural isomorphism 
+
+$$Kl(T)^{op}(f, g) \cong (Set/S)^{op}(f, T(g)) \cong (Set/S)^{op}(f, U\Pi^{op}(g)) \cong C(\Pi(f), \Pi(g))$$
+
+and hence the comparison functor is an equivalence. 
+=--
+
+
+### Algebras and models 
+
+Each [[algebra over a monad|algebra]] $X$ of the monad $T$ gives rise to a model $M_X$ of the Lawvere theory: 
+
+$$Kl(T)^{op} \hookrightarrow Alg(T)^{op} \stackrel{\hom(-, X)}{\to} Set$$ 
+
+and similarly a morphism of algebras $f: X \to Y$ gives rise to a homomorphism $M_f: M_X \to M_Y$, so that we have a functor $M: Alg(T) \to Mod(Th(T), Set)$. This functor is an equivalence. 
+
+It is convenient to proceed as follows. By Theorem 2, the underlying functor 
+
+$$Prod(Kl(T)^{op}, Set) \to Set/S$$ 
+
+has a left adjoint such that the associated monad is $T$, and this yields a comparison functor 
+
+$$A: Prod(Kl(T)^{op}, Set) \to Alg(T)$$ 
+
++-- {: .un_thm}
+######Theorem 4
+$A$ is an equivalence. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+In outline, this proceeds as follows: 
+
+* $A$ is essentially surjective, because if $X$ is a $T$-algebra, then $M_X: Kl(T)^{op} \to Set$ is a product-preserving functor such that $A(M_X) \cong X$. 
+
+* $A$ is full, because any algebra map $f: X \to Y$ gives rise to a model homomorphism $M_f: M_X \to M_Y$. 
+
+* $A$ is faithful. For this it suffices to prove that the underlying functor 
+$$U: Prod(Kl(T)^{op}, Set) \to Set/S$$ 
+is faithful. Let $f: X \to Y$ be a morphism of $Prod(Kl(T)^{op}, Set)$. Now every object of $Kl(T)^{op}$ is a product $\prod_i s_i$ of objects in the image of 
+$$S \stackrel{i}{\to} (Set/S)^{op} \to Kl(T)^{op}$$ 
+From the naturality of the diagram 
+$$\array{
+X(\prod_i s_i) & \overset{f(\prod_i s_i)}{\to} & Y(\prod_i s_i) \\
+\mathllap{X(\pi)} \downarrow & & \downarrow \mathrlap{Y(\pi_i)} \\
+X(s_i) & \underset{f(s_i)}{\to} & Y(s_i)
+}$$ 
+and the fact that $Y$ preserves products, we see that the component of $f$ at $\prod_i s_i$ is uniquely determined from the components $f(s): X(s) \to Y(s)$ as $s$ ranges over the image of $\Pi i: S \to Kl(T)^{op}$, in other words that the functor $U$ defined by $U(X) = X \Pi i$ is faithful. 
+
+Thus $A$ is an equivalence, with essential inverse $M$. 
+=--
 
 ## Metaphor
 
