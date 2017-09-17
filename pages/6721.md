@@ -137,6 +137,8 @@ in Gauge Theories With Less Than Four Supercharges_ ([pdf](http://pyweb.swan.ac.
 
 ## Related entries
 
+[[duality in physics]]
+
 * [[S-duality]]
 
   * [[electric-magnetic duality]]
