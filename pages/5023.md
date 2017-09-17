@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -44,3 +55,6 @@ The Heisenberg group is the [[group extension]] of $\mathbb{R}^2$ by this cocycl
 
 * [[Stone-von Neumann theorem]]
 
+## Related concepts
+
+* [[Heisenberg Lie algebra]]
