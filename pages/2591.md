@@ -22,7 +22,9 @@
 
 ## Definition
 
-The _special orthogonal group_ $SO(n)$ is one of the [[classical Lie group]]s. It is the [[connected component]] of the neutral element in the [[orthogonal group]] $O(n)$.
+The _special orthogonal group_ or _rotation group_, denoted $SO(n)$, is the [[group]] of rotations in a  [[Cartesian space]] of [[dimension]] $n$. 
+
+This  is one of the [[classical Lie groups]]. It is the [[connected component]] of the neutral element in the [[orthogonal group]] $O(n)$.
 
 For instance for $n=2$ we have $SO(2)$ the [[circle group]].
 
@@ -30,8 +32,12 @@ It is the first step in the [[Whitehead tower]] of $O(n)$
 
 $$
   \cdots \to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
-  \,.
+  \,,
 $$
+
+the next step of which is the [[spin group]]. 
+
+In [[physics]] the rotation group is related to [[angular momentum]].
 
 ## Properties
 
@@ -65,3 +71,5 @@ For general references see also at _[[orthogonal group]]_.
 
 [[!redirects special orthogonal groups]]
 
+[[!redirects rotation group]]
+[[!redirects rotation groups]]
