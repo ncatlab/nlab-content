@@ -1,0 +1,45 @@
+# Distributive monoidal categories
+
+* table of contents
+{: toc}
+
+## Idea
+
+A distributive monoidal category is a monoidal category whose tensor product distributes over coproducts.
+
+## Definition
+
+A **distributive monoidal category** (this is not entirely standard terminology) is a [[monoidal category]] with [[coproducts]] whose tensor product preserves coproducts in each variable.  Thus, we have canonical isomorphisms
+$$ X \otimes \coprod_i Y_i \cong \coprod_i (X\otimes Y_i)$$
+$$ \coprod_i X_i \otimes Y \cong \coprod_i (X_i\otimes Y)$$
+Depending on the arity of the coproducts in question, we may speak of a **finitary** or **infinitary** distributive monoidal category.
+
+A distributive [[cartesian monoidal category]] is a [[distributive category]], while any distributive monoidal category is a particular case of a [[rig category]].  See [[distributivity for monoidal structures]].
+
+A more abstract way to say this, due to Weber and Batanin, is that if $M$ is the free monoidal category monad and $M V \xrightarrow{\otimes} V$ is the structure map of a monoidal category $V$, then $V$ is distributive if it admits left Kan extensions along functors $f:A\to B$ between [[discrete categories]] (of some size), and moreover if
+$$\array{
+  A && \xrightarrow{f} && B\\
+  & \searrow & \xRightarrow{\phi} & \swarrow\\
+  && V
+}$$
+is such a Kan extension, then so is
+$$\array{
+  M A && \xrightarrow{M f} && M B\\
+  & \searrow & \xRightarrow{M \phi} & \swarrow\\
+  && M V\\
+  && \downarrow^\otimes\\
+  && V.
+}$$
+
+## Free monoids
+
+A distinguishing feature of (infinitary) distributive monoidal categories is that the monad $T$ for monoids *in* such a category has a particularly simple expression:
+$$ T X = \coprod_n X^{\otimes n}.$$
+The same is true for the monad on enriched graphs whose algebras are categories enriched over such a monoidal category.  This also generalizes to [[lax monoidal categories]], a.k.a. "multitensors"; see [(Weber)](#Weber).
+
+## References
+
+* [[Mark Weber]], *Multitensors and monads on categories of enriched graphs*, [spnet](https://selectedpapers.net/arxiv/1106.1977)
+ {#Weber}
+
+[[!redirects distributive monoidal categories]]
