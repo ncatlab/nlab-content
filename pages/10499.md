@@ -339,7 +339,7 @@ $$
 
 =--
 
-The special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} where $A$ is the [[Eilenberg-MacLane spectrum]] of a plain [[commutative ring]], and hence -- by the [[stable Dold-Kan correspondence]] -- the case where $A$-[[∞-modules]] are equivalently [[chain complexes]], has a lonnger tradition in the existing literature. This we highlight separately [below](#CompletionAndTorsionOnDerivedCategories).
+The special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} where $A$ is the [[Eilenberg-MacLane spectrum]] of a plain [[commutative ring]], and hence -- by the [[stable Dold-Kan correspondence]] -- the case where $A$-[[∞-modules]] are equivalently [[chain complexes]], has a longer tradition in the existing literature. This we highlight separately [below](#CompletionAndTorsionOnDerivedCategories).
 
 
 #### The arithmetic fracture square for chain complexes
