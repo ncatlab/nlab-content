@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include cohomology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -64,6 +63,7 @@ $$
 
 If the class does not vanish and if hence there is no $Spin^c$-structure, it still makes sense to discuss the structure that remains as _[[twisted spin^c structure]]_ . 
 
+
 ### Smooth
 
 Since $U(1) \to Spin^c \to SO$ is a sequence of [[Lie group]]s, the above may be lifted from the [[(∞,1)-topos]] [[Top]] $\simeq$ [[∞Grpd]] to [[Smooth∞Grpd]].
@@ -92,7 +92,6 @@ $$
 $$
 
 
-
 ## Related concepts
 
 * [[twisted differential c-structures|(twisted, differential) c-structures]]
@@ -108,7 +107,6 @@ $$
   * [[fivebrane structure]], [[twisted differential fivebrane structure]]
 
 
-
 ## References
 
 ### General
@@ -116,6 +114,7 @@ $$
 A canonical textbook reference is
 
 * H.B. Lawson and M.-L. Michelson, _Spin Geometry_ , Princeton University Press, Princeton, NJ, (1989)
+
 
 ### As anomaly cancellation in physics
 
@@ -131,7 +130,12 @@ See also
 
 * [[Hisham Sati]], _Geometry of $Spin$ and $Spin^c$ structures in the M-theory partition function_ ([arXiv:1005.1700](http://arxiv.org/abs/1005.1700))
 
-[[!redirects spin^c structures]]
 
+[[!redirects spin^c structure]]
+[[!redirects spin^c structures]]
 [[!redirects Spin^c structure]]
 [[!redirects Spin^c structures]]
+[[!redirects spin-c structure]]
+[[!redirects spin-c structures]]
+[[!redirects Spin-c structure]]
+[[!redirects Spin-c structures]]
