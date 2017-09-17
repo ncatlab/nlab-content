@@ -630,8 +630,8 @@ $$
 
 for the evident [[full subcategory]] inclusion induced by regarding a set as a [[discrete object]] in [[simplicial sets]].
 
-+-- {: .num_prop }
-###### Proposition
++-- {: .num_theorem }
+###### Theorem
 
 The inclusion
 
@@ -645,6 +645,90 @@ is the [[left adjoint]] of a [[Quillen equivalence]] from the [[model structure 
 
 This is ([Cisinski-Moerdijk, prop. 4.8, theorem 6.6](#CisinskiMoerdijk)).
 
+The following proof proceeds by passing through another Bousfield localization of a global model structure on dendroidal simplicial sets.
+
++-- {: .num_defn #LocallyConstantModelStructure}
+###### Definition
+
+Let $[\Delta^{op}, dSet_{CM}]_{Reedy}$ be the [[Reedy model structure]] on [[simplicial objects]] in the [[model structure on dendroidal sets]].
+
+Write
+
+$$
+  [\Delta^{op}, dSet_{CM}]_{LocConst}
+   \stackrel{\overset{id}{\leftarrow}}{\underset{id}{\to}}
+  [\Delta^{op}, dSet_{CM}]_{Reedy}
+$$
+
+for its [[Bousfield localization of model categories|left Bousfield localization]] at the set $\{\Delta[n] \cdot \Omega[T] \to \Omega[T]\}_{n \in \Delta, T \in \Omega}$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Under the canonical identification of categories
+
+$$
+  [\Delta^{op}, dSet] \simeq [\Omega^{op}, set]
+$$
+
+the two model structures $[\Delta^{op}, dSet_{CM}]_{LocConst}$,
+def. \ref{LocallyConstantModelStructure} and $[\Omega^{op}, sSet]_{cSegal}$,
+def. \ref{ModelStructures}, coincide.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By a standard fact (see at _[[model category]]_ the section _[Redundancy of the axioms](#spring)_) it is sufficient to show that the cofibrations and the fibrant objects coincide.
+
+By prop. \ref{CofibrantlyGenerated} we know the generating cofibrations of
+$[\Omega^{op}, sSet]_{cSegal}$. By the same kind of argument we find the cofibrations of $[\Delta^{op}, dSet]_{Reedy}$, and hence of
+$[\Delta^{op}, dSet]_{LocConst}$: 
+
+by definition of [[Reedy model structure]], a morphism $f : X \to Y$ here is an _acyclic fibration_ if for all $n \in \Delta$ the morphism
+
+$$
+  X^{\Delta[n]} \to X^{\partial \Delta[n]} \times_{Y^{\partial \Delta[n]}} Y^{\Delta[n]}
+$$
+
+is an acyclic fibration in $dSet_{CM}$. Since $dSet_{CM}$ has generating cofibrations given by the set of tree boundary inclusions $\{\partial \Omega[T] \hookrightarrow \Omega[T]\}_{T \in \Omega}$, one finds as in the proof of prop. \ref{CofibrantlyGenerated} that $f : X \to Y$ is an acyclic fibration precisely if it has the right lifting property against the morphisms in the set
+
+$$
+  \{
+    \partial \Delta[n] \cdot \Omega[T]
+    \cup
+    \Delta[n] \cdot \partial \Omega[T]
+    \to
+    \Delta[n] \cdot \Omega[T]
+  \}_{n \in \Delta, T \in \Omega}
+  \,.
+$$
+
+Therefore the cofibrations in the two model structures do coincide.
+
+(Notice that a similar statement holds for the acyclic cofibrations, only that the generating set of acyclic cofibrations in $dSet_{CM}$ is, while known to exist, not known explicitly.)
+
+Therefore, by the same argument as in prop. \ref{SimplicialEnrichment}, $[\Delta^{op}, sSet_{CM}]_{LocConst}$ is a [[combinatorial simplicial model category]]. This allows us, by general properties of [[Bousfield localization of model categories|left Bousfield localization]], to determine the fibrant objects 
+of $[\Delta^{op}, dSet_{CM}]_{LocConst}$ as precisely the fibrant objects of $[\Delta^{op}, dSet_{CM}]_{Reedy}$ which are [[local objects]] with respect to $\{\Delta[n] \cdot \Omega[T] \to \Omega[T]\}$, hence the Reedy-fibrant objects $X$ for which 
+
+$$
+  [\Delta^{op}, dSet](\Omega[T], X ) \to [\Delta^{op}, dSet](\Delta[n] \cdot \Omega[T], X)
+$$
+
+is a weak equivalence. By the definition of [[tensoring]], this means equivalently that
+
+$$
+  [\Delta^{op}, dSet](\Omega[T], X_0 ) \to [\Delta^{op}, dSet](\Omega[T], X_n)
+$$
+
+is a weak equivalence, for all $T \in \Omega$.
+
+(...)
+
+=--
 
 #### To Segal operads
 
