@@ -156,13 +156,16 @@ Something equals nothing
 =--
 {: .num_theorem #theorem}
 
-+-- {: .num_theorem #theorem_theorem}
++-- {: .num_theorem #theoremtheorem}
 ###### Theorem
 Something equals nothing
 =--
 
++-- {: #thmthm}
+A labelled div
+=--
 
-Theorems \ref{theorem} and \ref{theorem_theorem} are equivalent.
+Theorems \ref{theorem} and \ref{theoremtheorem} are equivalent whilst \ref{thmthm} is completely pointless.
 
 #### A Section ####
 {: #secthis}
