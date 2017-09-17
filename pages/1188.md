@@ -22,6 +22,7 @@ It is a means to handle $(\infty,1)$-categories that are not [[essentially small
 
 An _accessible_ $(\infty,1)$-category is one which may be [[large category|large]], but can entirely be _accessed_ as an $(\infty,1)$-category of "conglomerates of objects" in a small $(\infty,1)$-category -- precisely: that it is a category of $\kappa$-small [[ind-object]]s in some small $(\infty,1)$-category $C$.
 
+An accessible $(\infty,1)$-category which is also [[locally presentable (∞,1)-category|locally presentable]] is called a _[[compactly generated (∞,1)-category]]_.
 
 ## Definition 
 
@@ -154,6 +155,8 @@ This is [[Higher Topos Theory|HTT, proposition 5.4.7.3]].
 
 
 ## Related concepts
+
+* [[compactly generated (∞,1)-category]]
 
 [[!include locally presentable categories - table]]
 
