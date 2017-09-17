@@ -162,7 +162,7 @@ Since the coalgebra interval in the [[category of chain complexes]] is not cocom
 
 Recall the notion of resolutions of operads and of the _[[Boardman-Vogt resolution]]_ $W(H,P)$ from [[model structure on operads]].
 
-We now discuss conditions under which model categories of algebras over a resolved operad is Quillen equivalent to that over the original operad.
+We now discuss conditions under which model categories of algebras over a resolved operad is Quillen equivalent to that over the original operad. This yields general _[[rectification]]_ results for homotopy-algebras over an operad (see also the _[Examples](#Examples)_ below.)
 
 
 
@@ -208,7 +208,8 @@ is a [[Quillen equivalence]].
 
 =--
 
-## Examples {#Examples}
+## Examples 
+ {#Examples}
 
 ### Monoids (associative algebras)
 
@@ -296,7 +297,7 @@ $$
 
 is the operad for [[homotopy coherent diagram]]s over $C$ in $\mathcal{E}$.
 
-The rectification theorem above now says that every homotopy coherent diagram is equivalent to an ordinary $\mathcal{E}$-diagram. For $\mathcal{E} = $ [[Top]] this is known as [[Vogt's theorem]].
+The [[rectification]] theorem above now says that every homotopy coherent diagram is equivalent to an ordinary $\mathcal{E}$-diagram. For $\mathcal{E} = $ [[Top]] this is known as [[Vogt's theorem]].
 
 ### $(\infty,1)$-Categories of algebras and bimodules over an operad {#InfCatOfMods}
 
