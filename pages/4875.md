@@ -34,6 +34,8 @@ where $W$ is a [[module]] of finite rank over $R$ and consisting of nilpotent el
 
 **Terminology.** An algebra $A$ of this form is also called a **Weil algebra**. Notice that this is unrelated to the notion of Weil algebra in [[Lie theory]]. For more on that, see [[Weil algebra]]. 
 
+Over more general base fields, this is called an [[Artin algebra]].
+
 ## Examples
 
 The smallest nontrivial example is the space dual to the [[ring of dual numbers]]. This is the point with "minimal infintiesimal thickening". 
@@ -46,3 +48,6 @@ A class of examples are the spaces $\tilde D(n,r)$ of $r$-tuples of infinitesima
 The [[site]] of definition for the [[Cahiers topos]] is the category of spaces that are products of an $R^n$ with the dual of a  Weil algebra. So these are infinitesmally thickened [[Cartesian space]]s. These are typically sufficient as test spaces for more general spaces.
 
 [[!redirects infinitesimally thickened points]]
+
+[[!redirects fat point]]
+[[!redirects fat points]]
