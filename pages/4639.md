@@ -59,11 +59,6 @@ $$
 
 =--
 
-### Examples
-
-* For $T$ the theory of ordinary [[associative algebra]]s over a [[ring]] $R$, we have that $\mathbb{A}_T = \mathbb{A}_R$ is what is called the _[[affine line]]_ over $R$.
-
-* For $T \coloneqq Smooth \coloneqq$ [[CartSp]] the theory of [[smooth algebra]]s, we have that $\mathbb{A}_{Smooth} = \mathbb{R}$ is the [[real line]] regarded as a [[diffeological space]].
 
 ### The group object
 
@@ -88,6 +83,18 @@ $$
 for this group object on $\mathbb{A}_T$.
 
 =--
+
+### Examples
+
+* For $T$ the theory of ordinary commutative [[associative algebra]]s over a [[ring]] $k$, we have that 
+
+  * $\mathbb{A}_T = \mathbb{A}_R$ is what is the _[[affine line]]_ over $K$;
+
+  * $\mathbb{G}_m$ is the standard [[multiplicative group]];
+
+  * $\mathbb{G}_a$ is the standard [[additive group]].
+
+* For $T \coloneqq Smooth \coloneqq$ [[CartSp]] the theory of [[smooth algebra]]s, we have that $\mathbb{A}_{Smooth} = \mathbb{R}$ is the [[real line]] regarded as a [[diffeological space]].
 
 
 ### References
