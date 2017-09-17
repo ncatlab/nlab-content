@@ -6,13 +6,13 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 #### Topos Theory
 +-- {: .hide}
 [[!include topos theory - contents]]
-=--
-#### Type theory
-+-- {: .hide}
-[[!include type theory - contents]]
 =--
 =--
 =--
