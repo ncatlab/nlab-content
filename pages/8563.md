@@ -57,6 +57,18 @@ $$
   \,.
 $$
 
+## Properties
+
+### Relation to tensor product of categories of modules
+
+For $A$ an associative algebra over a [[field]] $k$, write $A$[[Mod]] for its [[category of modules]] of finite [[dimension]]. Then the tensor product of algebras corresponds to the [[Deligne tensor product of abelian categories]] $\boxtimes \colon Ab \times Ab \to Ab$:
+
+$$
+  (A \otimes_k B) Mod \simeq  (A Mod) \otimes (B Mod)
+  \,.
+$$
+
+See at _[[tensor product of abelian categories]]_ for more.
 
 ## Related concepts
 
