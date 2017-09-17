@@ -43,13 +43,15 @@ Another possible definition of "doctrine" is just "a [[2-category]]".  In this a
 
 However, while useful, this approach has the disadvantage of being too broad: there are many 2-categories that we would not really want to consider as being the category of models of some doctrine.
 
+See also at _[[2-algebraic theory]]_.
+
 ### As logics
 
 The word "doctrine" can also be used to design a particular setting for categorical logic (e.g., categories with finite products, [[geometric logic]] etc...; see [[internal logic]]).  This can also be formalized in a more general way using weak higher categories.  This generalization is necessary to treat complicated algebraic structures like symmetric operads or higher operads in a categorical logical way.
 
 ## Related concepts
 
-* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+* [[algebraic theory]] / [[Lawvere theory]] / [[(∞,1)-algebraic theory]] / [[2-algebraic theory]]
 
 * [[monad]] / [[2-monad]]/ **doctrine** / [[(∞,1)-monad]]
 
