@@ -1,7 +1,7 @@
+
 # One-sided real numbers
 * table of contents
 {: toc}
-
 
 ## Summary
 
@@ -10,6 +10,8 @@ There are really two notions of one-sided real number: lower reals and upper rea
 These are really concepts in [[constructive mathematics]].  Using [[excluded middle]], a one-sided real number is simply a [[real number]], but constructively they are more general (and less well behaved).
 
 Actually, there is a small technicality: most naturally, a lower real may (classically) be either a real number or $\infty$, while an upper real may be either a real number or $-\infty$.  You can restrict to _bounded_ lower/upper reals to avoid that, or alternatively genralise to _extended_ lower/upper reals if you want to include both $\pm\infty$ at once.
+
+In [[topos]] theory, one-sided numbers are often called (upper or lower) *semicontinuous* numbers; in a [[sheaf topos]], internal semicontinuous numbers are external (upper or lower) [[semicontinuous function]]s.
 
 Lower and upper reals don\'t interact well together; for a system that naturally includes both (and, constructively, much more), use the [[MacNeille real number]]s.
 
@@ -20,7 +22,7 @@ A __lower real number__ is the [[supremum]] of an [[inhabited set|inhabited]] se
 
 An __upper real number__ is the [[infimum]] of an inhabited set of numbers.  A __bounded upper real__ is the infimum of an inhabited set of numbers that has a finite upper bound.  An __extended lower real__ is the supremum of an arbitrary set of numbers.
 
-We cannot generalise further by taking more infima or suprema.  Explicitly, the supremum of any inhabited set of lower reals is a lower real and the infimum of any inhabited set of upper reals is an upper real.  Similar results obtain if we manipulate 'bounded' and 'extended' to include or exclude $\pm\infty$, or to allow for infima and suprema of the [[empty subset|empty set]].
+We cannot generalise further by taking more extrema of the same sort.  Explicitly, the supremum of any inhabited set of lower reals is a lower real and the infimum of any inhabited set of upper reals is an upper real.  (Similar results obtain if we use bounded or extended reals to include or exclude $\pm\infty$ or to allow for the extrema of the [[empty subset|empty set]].)  However, mixing extrema takes us further to the [[MacNeille real number]]s.
 
 
 ## Definitions
@@ -119,6 +121,10 @@ If you really want to do arbitrary arithmetic operations on upper or lower reals
 [[!redirects one-sided reals]]
 [[!redirects one-sided real number]]
 [[!redirects one-sided real numbers]]
+[[!redirects semicontinuous real]]
+[[!redirects semicontinuous reals]]
+[[!redirects semicontinuous real number]]
+[[!redirects semicontinuous real numbers]]
 
 [[!redirects lower real]]
 [[!redirects lower reals]]
@@ -132,6 +138,10 @@ If you really want to do arbitrary arithmetic operations on upper or lower reals
 [[!redirects extended lower reals]]
 [[!redirects extended lower real number]]
 [[!redirects extended lower real numbers]]
+[[!redirects lower semicontinuous real]]
+[[!redirects lower semicontinuous reals]]
+[[!redirects lower semicontinuous real number]]
+[[!redirects lower semicontinuous real numbers]]
 
 [[!redirects upper real]]
 [[!redirects upper reals]]
@@ -145,3 +155,7 @@ If you really want to do arbitrary arithmetic operations on upper or lower reals
 [[!redirects extended upper reals]]
 [[!redirects extended upper real number]]
 [[!redirects extended upper real numbers]]
+[[!redirects upper semicontinuous real]]
+[[!redirects upper semicontinuous reals]]
+[[!redirects upper semicontinuous real number]]
+[[!redirects upper semicontinuous real numbers]]
