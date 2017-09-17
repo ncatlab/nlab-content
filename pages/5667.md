@@ -263,6 +263,7 @@ where
 
 ## Properties
 
+
 ### Relation to extensions
 
 There is an [[isomorphism]]
@@ -272,7 +273,43 @@ $KK(A,B) \simeq Ext^1(A,B)$
 to a suitable group of suitable [[extensions]] of $A$ by $B$. ([Kasparov 80](#Kasparov80), reviewed in [Inassaridze](#Inassaridze)).
 
 
+### Relation to operator K-cohomology, K-homology, twisted K-theory
+ {#RelationToKCohomologyAndTwistedKTheory}
 
+KK-theory is a joint generalization of [[operator K-theory]], hence also of [[topological K-theory]], as well as of [[K-homology]] and of [[twisted K-theory]].
+
+For $A \in $ [[C*Alg]] we have that 
+
+* $KK(\mathbb{C}, A) \simeq K_0(A)$ 
+
+is the [[operator K-theory]] group of $A$ in degree 0 and
+
+* $KK(C(\mathbb{R}^1),A) \simeq K_1(A)$
+
+is the [[operator K-theory]] group of $A$ in degree 1. If here $A = C(X)$ is the [[C*-algebra]] of functions on a suitable [[topological space]] $X$, then this is the [[topological K-theory]] of that space
+
+* $KK(\mathbb{C}, C(X)) \simeq K^0(X)$
+
+* $KK(C(\mathbb{R}), C(X)) \simeq K^1(X)$.
+
+More generally, if $A = C_r(\mathcal{G}_\bullet)$ is the reduced [[groupoid convolution algebra]] of a [[Lie groupoid]], then 
+
+* $KK(\mathbb{C}, C_r(\mathcal{G}_\bullet)) \simeq K^0(\mathcal{G})$
+
+is the K-theory of the corresponding [[differentiable stack]]. If moreover $c \colon \mathcal{G} \to \mathbf{B}^2 U(1)$ is a [[circle 2-group]]-[[principal 2-bundle]] ($U(1)$-[[bundle gerbe]]) over $\mathcal{X}$ and if $A = C(\mathcal{X}_\bullet, c)$ is the  [[twisted groupoid convolution algebra]] of the corresponding [[centrally extended Lie groupoid]], then 
+
+* $KK(\mathbb{C}, C_r(\mathcal{X}_\bullet,x)) = K^0(\mathcal{X}, c)$ 
+
+is the corresponding [[twisted K-theory]] ([Tu, Xu, Laurent-Gengoux 03](#TXLG)).
+
+
+On the other hand, with $A$ in the first argument and the complex numbers in the second we have that
+
+* $K(A,\mathbb{C}) \simeq K^0(A)$
+
+ar equivalence classes of $A$-[[Fredholm modules]] and hence the [[K-homology]] of $A$.
+
+(...)
 
 ## Theorems
 
@@ -354,7 +391,7 @@ A [[model category]] realization of KK-theory is discussed in
 * [[Jonathan Rosenberg]], _Group C*-algebras and Topological Invariants_, Proc. Conf. in Neptun, Romania, 1980, Pitman (London, 1985)
  {#Rosernberg80}
 
-### In geometric quantization
+### For convolution algebras and In geometric quantization
 
 Discussion of KK-theory with an eye towards [[representation of a C-star algebra|C-star representations]] of [[groupoid convolution 
 
@@ -366,6 +403,12 @@ algebras]] in the context of [[geometric quantization]] [[geometric quantization
 
 * [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
  {#Bos}
+
+The KK-theory of twisted convolution algebras and its relation to [[twisted K-theory]] of [[differentiable stacks]] is discussed in
+
+* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
+ {#TXLG}
+
 
 ### In D-brane theory
 
