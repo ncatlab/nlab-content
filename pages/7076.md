@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _cartesian closed model category_ is a [[cartesian closed category]] that is equipped with the structure of a [[monoidal model category]] in a compatible way.
+
+## Related concepts
+
+* [[locally cartesian closed model category]]
+
+
