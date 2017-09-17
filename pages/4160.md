@@ -3,7 +3,7 @@
 
 ##Idea
 
-Lebesgue measure is the usual [[measure]] on the [[real line]] (or on any [[Cartesian space]]).  It may be characterised as the [[Radon measure]] which is translation invariant and assigns measure $1$ to the [[unit interval]] (or unit cube).  It generalises to [[Haar measure]] on any [[locally compact space|locally compact]] [[topological group]].
+The _Lebesgue measure_ is the usual [[measure]] on the [[real line]] (or on any [[Cartesian space]]).  It may be characterised as the [[Radon measure]] which is translation invariant and assigns measure $1$ to the [[unit interval]] (or unit cube).  It generalises to [[Haar measure]] on any [[locally compact space|locally compact]] [[topological group]].
 
 
 
