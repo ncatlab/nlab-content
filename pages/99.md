@@ -204,6 +204,11 @@ $$
 
 sends the unshifted generators $t^a$ to differential forms $A^a$, which one thinks of as local connection forms, and sends the shifted generators $\sigma t^a$ to their [[curvature]]. The respect for the differential on the shifted generators is the [[Bianchi identity]] on these curvatures.
 
+**Example**
+
+For $A=CE(\mathfrak{g})$ the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$, the inclusion $\mathfrak{g}^*\hookrightarrow CE(\mathfrak{g})$ induces a canonical surjective dgca morphism $W(\mathfrak{g})\to CE(\mathfrak{g})$.
+
+
 
 ## Relation to other concepts
 
