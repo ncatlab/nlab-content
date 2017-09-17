@@ -454,6 +454,3 @@ Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of dua
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
 {#Ben-ZviNadler}
-
-
-[[!redirects Isbell duality]]
