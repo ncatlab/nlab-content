@@ -1,4 +1,19 @@
-### Definition ###
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition 
 
 
 Let $X$ be a [[paracompact space|paracompact]] [[Hausdorff space]]. A [[sheaf]] $F$ of [[groups]] over $X$ is __fine__ if for every two disjoint closed subsets $A,B\subset X$, $A\cap B = \emptyset$, there is an [[endomorphism]] of the sheaf of groups $F\to F$ which restricts to the identity in a neighborhood of $A$ and to the $0$ endomorphism in a neighborhood of $B$. Every fine sheaf is [[soft sheaf|soft]].
@@ -8,7 +23,7 @@ A slightly different definition is given in Voisin, in _Hodge Theory and Complex
 
 :A fine sheaf $\mathcal{F}$ over $X$ is a sheaf of $\mathcal{A}$-modules, where $\mathcal{A}$ is a sheaf of rings such that, for every open cover $U_i$ of $X$, there is a partition of unity $1 = \sum f_i$ (where the sum is locally finite) subordinate to this covering.
 
-### Discussion ###
+## Discussion ##
 
 
 +-- {: .query}
@@ -22,3 +37,16 @@ A technical point: I infer from context that, for Voisin, being subordinate to $
 
 Zoran: paracompact Hausdorff space is automatically normal (Dieudonne's theorem) so *a fortiori* $T_3$. A partition of unity subordinate to the covering means as usual that for each $i$ there is $j$ such that $supp f_i \subset U_j$. Thanks for the other correction. 
 =--
+
+
+## Related concepts
+
+* [[sheaf]]
+
+* [[abelian sheaf cohomology]]
+
+  * [[soft sheaf]]
+
+  * **fine sheaf**
+
+  * [[flabby sheaf]]
