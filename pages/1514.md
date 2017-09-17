@@ -142,4 +142,6 @@ _Mathematical theory of Feynman path integrals. An introduction_ ([ZMATH](href="
 * [[Pierre Cartier]], [[Cecile DeWitt-Morette]], : _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
 ormat=complete))
 
+MathOverflow questions: [mathematics-of-path-integral-state-of-the-art](http://mathoverflow.net/questions/19495/mathematics-of-path-integral-state-of-the-art),[path-integrals-outside-qft](http://mathoverflow.net/questions/20393/path-integrals-outside-qft), [doing-geometry-using-feynman-path-integral](http://mathoverflow.net/questions/19490/doing-geometry-using-feynman-path-integral), [path-integrals-localisation](http://mathoverflow.net/questions/17577/path-integrals-localisation), [finite-dimensional-feynman-integrals](http://mathoverflow.net/questions/31966/finite-dimensional-feynman-integrals), [the-mathematical-theory-of-feynman-integrals](http://mathoverflow.net/questions/24823/the-mathematical-theory-of-feynman-integrals)
 
+[[!redirects path integrals]]
