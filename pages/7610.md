@@ -1,4 +1,6 @@
 
+{:bluebox: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
 > under construction
 
 +-- {: .rightHandSide}
@@ -33,57 +35,64 @@ What is called _[[dependent type theory]]_ is an alternative (equivalent) formul
 
 Therefore, from the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ are regarded systematically via the collection of their [[slice categories]] (their "[[hyperdoctrines]]"). If $\mathcal{C}$ is a [[locally cartesian closed category]] then every [[morphism]] $f : X \to Y$ in $\mathcal{C}$ induces an [[adjoint triple]] of functors between the corresponding slice categories
 
++-- {: bluebox}
+###### 
+
 ([[dependent sum]] $\dashv$ [[base change]] $\dashv$ [[dependent product]]) = $(\sum_f \dashv f^* \dashv \prod_f) : \mathcal{C}_{/X} \to \mathcal{C}_{/Y}$.
+
+=--
 
 Many familiar constructions are usefully expressed entirely in terms of these [[adjoint triples]]. For instance the [[internal hom]] in a slice category. 
 
 While this is in principle clear/well known, the systematic use of the base change adjoint triple enforced by type theory turns out to lead to various elegant constructions that have not found much attention before, and which can be useful in applications.
 
+## Dictionary
+
+Under the above equivalence, type theory has its own terminology for standard constructions in category theory. The following lists some or most of them. In itself this is just terminology, but the point is that using this terminology is suggestive of useful constructions, to be discussed in the following.
+
+|  [[category theory]] | [[type theory]] |
+|----------------------|------------------|
+|  [[semantics]]       | [[syntax]] |
+| [[object]] $X$ | [[type]] $x : X$ |
+| [[fibration]] $\array{A \\ \downarrow^{\mathrlap{p}} \\ X}$  | [[dependent type]]  $x : X \vdash A(x) : Type$ |
+| [[section]] $\array{ X &&\stackrel{t}{\to}&& A \\ & {}_{\mathllap{id}}\searrow && \swarrow_{p} \\ && X}$ | [[term]] $x : X \vdash t(x) : A(x)$ |
+|  [[pullback]] $\array{ f^* A &\to& A \\ \downarrow && \downarrow^{\mathrlap{f}} \\ Y &\stackrel{f}{\to} & X }$ | [[substitution]] $y : Y \vdash A(f(y)) : Type$ |
+| [[direct image]] $\array{ A && f_* A \\ {}^{\mathllap{p}}\downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent product]] $ y : Y \vdash \underset{x : f^{-1}(y)}{\prod } A(x) : Type$ |
+| postcomposition $\array{ A &=& f_! A \\ \downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent sum]] $y : Y \vdash \underset{x : f^{-1}(y)}{\sum} A(y) : Type$ |
+| [[path space object]] $\array{A^I \\ \downarrow^{\mathrlap{(d_1,d_0)}} \\ A \times A}$ | [[identity type]] $a,b : A \vdash (a = b)$ |
+| [[truncated object in an (infinity,1)-category|(-2)-truncated morphism]]/[[equivalence in an (infinity,1)-category|equivalence]] $\array{Y \\ \downarrow^{\mathrlap{\simeq}} \\ X}$ | [[true]]/[[unit type]] $x : X \vdash 1 : Type$ |
+| [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]]/[[monomorphism in an (infinity,1)-category|monomorphism]] $\array{\phi \\ \downarrow \\ X}$ | [[proposition]] $x : X \vdash \phi(x) : Type$ |
+| [[direct image]] of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[universal quantifier]] $y : Y \vdash \underset{x \in f^{-1}(y)}{\forall} \phi(x) : Type$ |
+| [[truncated object of an (infinity,1)-category|(-1)-truncation]] of postcomposition of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[existential quantifier]] $y : Y \vdash \underset{x \in f^{-1}(y)}{\exists} \phi(x) $ |
 
 
 
-## Formulas for homotopy pullbacks and homotopy fibers
 
-The yoga of [[homotopy pullbacks]], [[homotopy fibers]], [[loop space objects]], [[fiber sequences]] etc. is basic to [[homotopy theory]], and of course is also fairly elementary. Homotopy type theory can hardly add a previously unknown fact here. Nevertheless, it is noteworthy that many of these constructions, elementary as they are, look _even simpler_ when formulated in homotopy type theory. The homotopy theorist may at least enjoy to see this elegance of formalism given to the basis of his field.
+## Homotopy pullbacks
 
-1. The [[homotopy pullback]] of two morphisms $f : A \to C$, $g : B \to C$ including the [[factorization lemma]] used to compute it for [[fibrant objects]], is naturally given by the base change operation expressed by the formula
-
-   $$
-     f \times_C^h g \simeq \{ a : A, b : B | (f(a) = g(b)) \}
-   $$
-
-   Accordingly for the [[homotopy fiber]].
-
-1. For instance the [[free loop space object]] of an object $X$ is expressed by the amusing formula
-
-   $$
-     \mathcal{L}X = \{x,y : X | (x = y) and (x = y) \} = \{x,y: X | (x,x) = (y,y)\}
-     \,.
-   $$
-
-1. [[pasting law]] (...)
+The yoga of [[homotopy pullbacks]], [[homotopy fibers]], [[loop space objects]], [[fiber sequences]] etc. is basic to [[homotopy theory]], and of course is also fairly elementary. Homotopy type theory can hardly add a previously unknown fact here. Nevertheless, it is noteworthy that many of these constructions, elementary as they are, look _even simpler_ when formulated in homotopy type theory. 
 
 
-## Formulas for (detecting) $n$-truncation
+|  [[category theory]] | [[type theory]] |
+|---|---|
+| [[homotopy pullback]] $\array{A \times_C^h B &\to& B \\ \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{g}} \\ A &\stackrel{f}{\to}& X}$ | $\underset{a : A, b : B}{\sum} (f(a) = g(b))$ /  $\{ a : A, b : B ; (f(a) = g(b)) \}$  |
+| [[homotopy fiber]] $\array{hfib(f) &\to& * \\ \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{}} \\ A &\stackrel{f}{\to}& X}$ | $\sum_{a : A} (f(a) = *)$ / $\{ a : A ; (f(a) = *) \}$  |
+| [[mapping cocylinder]] $\array{ CoCyl(f) &\to& X \\ \downarrow && \downarrow^{\mathrlap{f}} \\ Y^I &\stackrel{d_0}{\to} & Y \\ \downarrow^{\mathrlap{d_1}} \\ Y } $ | $y : Y \vdash \underset{x : X}{\sum} (f(x) = y)$ |
+| [[free loop space object]] $\array{\mathcal{L}X &\to& X \\ \downarrow &\swArrow_{\simeq}& \downarrow \\ X &\to& X \times X}$ | $\underset{x,y : X}{\sum} (x = y) and (x = y)$ |
+
+* [[pasting law]] (...)
+
+
+## Detecting $n$-truncation
 
 The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type theory with identity types to genuine homotopy type theory is that in terms of [[identity types]] there are simple natural expressions for [[n-truncated|n-truncation]] and detection of $n$-truncation of objects and morphisms. Translated via [[categorical semantics]] to [[homotopy theory]], these formulas turn out to refomulate some basic yoga of model category computation in a new way that hasn't received attention before in homotopy theory, emphasizing the base change adjoint triple. 
 
-1. detecting if an object $X$ is [[(-2)-truncated]] is naturally expressed by the [[isContr]]-operation  
+| [[category theory]] | [[type theory]] |
+|----|----|
+| object $X$ is [[(-2)-truncated]]/[[contractible]] | [[isContr]]$(X) = \sum_{x : X} \prod_{y : X} (x = Y)$ |
+| morphism $X$ is [[(-2)-truncated]]/[[equivalence in an (infinity,1)-category|equivalence]] | [[isEquiv]]$(f) \coloneqq \prod_{x : {X}} isContr(hfiber(f,x) $ |
+ 
 
-   $$
-     isContr(X) = \sum_{x : X} \prod_{y : X} (x = Y)
-     \,.
-   $$
-
-1. A morphism $f : E \to X$ is [[n-truncated]] if "all of its" [[homotopy fibers]] are $n$-truncated, where "all" is given by the dependent product.
-
-   This way of stating it is considerably more true to the concept than what has been in the literature before. 
-
-1. In particular, it is an [[equivalence in an (infinity,1)-category]] if "all of" its homotopy fiber are contractible.
-
-   $isEquiv(f) = ( \prod_{x : {X}} isContr(hfiber(f,x) )$.
-
-(...)
 
 ## Induction in homotopy theory
 
@@ -92,6 +101,20 @@ The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type t
 * [[inductive type]], [[higher inductive type]]
 
 (...)
+
+## Homotopy pushouts
+
+| [[category theory]] | [[type theory]] |
+|---|---|
+| [[homotopy pushout]] $\array{ C &\stackrel{g}{\to}& B \\ {}^{\mathllap{f}}\downarrow &\swArrow_{\simeq}& \downarrow \\ A &\to&  A \coprod_C^h B}$ | $hpushout (A B C : Type) (f : C \to A) (g : C \to B) : Type \coloneqq \left\{ \array{inl : B \to hpushout(f,g) \\ inr : A \to hpushout(f,g) \\ glue \prod_{c : C} (inl(f(c)) = inr(g(c)))} \right.$  |
+
+(...)
+
+## Constructing $n$-truncation
+
+| [[category theory]] | [[type theory]] |
+|---|---|
+| [[truncated object in an (infinity,1)-category|(-1)-truncation]] $\tau_{-1}(-)$ | $supp(X : Type) : Type \coloneqq \left\{ \array{ proj : X \to supp X \\ \underset{x, y : supp X}{\prod} (x = y) }\right.  $ |
 
 ## Specific HoTT proofs in homotopy theory
 
