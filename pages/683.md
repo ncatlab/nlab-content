@@ -42,6 +42,7 @@ Maybe the most commonly encountered setup for homotopy limits is that where the 
 As for ordinary [[limit]]s,
 there are two ways to define homotopy limits:
 
+
 * with explicit constructions that satisfy a _local_ universal property: the homotopy limit object "represents homotopy-coherent cones up to homotopy."
 
 * as [[derived functor]]s of a [[homotopy Kan extension]] that satisfy a _global_ universal property: the homotopy limit _functor_ is "universal among homotopical approximations to the strict limit functor."
@@ -1016,6 +1017,9 @@ This appears as theorem 1.5 in
 =--
 
 
+### More examples and special cases
+
+* [[filtered homotopy colimit]]
 
 ## References 
 
@@ -1023,7 +1027,7 @@ This appears as theorem 1.5 in
 
 The classical references are 
 
-* A. K. Bousfield and [[Dan Kan]], _Homotopy limits, completions, and localizations_, Springer LNM __304__, (see in particular chapter XI)
+* [[Aldridge Bousfield]], [[Dan Kan]], _Homotopy limits, completions, and localizations_, Springer LNM __304__, (see in particular chapter XI)
 
 and 
 
@@ -1038,8 +1042,8 @@ and Homotopical Categories]]_, Mathematical Surveys and Monographs __113__
 
 An introduction is 
 
-* [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://math.uoregon.edu/~ddugger/hocolim.pdf))
- {#Dugger}
+* {#Dugger} [[Daniel Dugger]], _A primer on homotopy colimits_ ([pdf](http://math.uoregon.edu/~ddugger/hocolim.pdf))
+ 
 
 A general overview via universal properties is in the 
 
@@ -1061,13 +1065,13 @@ is given a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.
 
 A nice discussion of the expression of homotopy colimits in terms of coends is in 
 
-* [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf)).
-{#Gambino}.
+* {#Gambino} [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf)).
+
 
 A collection of examples and exercises is in 
 
-* [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
-{#Isaacson}
+* {#Isaacson} [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
+
 
 See also 
 
@@ -1085,7 +1089,7 @@ Other references are
 
 * [[Michael Shulman]], _Homotopy limits and colimits and enriched homotopy theory_, [math.CT/0610194](http://arxiv.org/abs/math/0610194).  Constructs and compares local and global weighted homotopy limits in enriched homotopical categories. (a query on this paper is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=354&Focus=21275#Comment_21275))
 
-* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)  Proves that homotopy limits in a 2-category with its natural model structure coincide with 2-categorical [[strict 2-limit|pseudo-limits]], and hence give [[2-limit]]s.
+* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)  Proves that homotopy limits in a 2-category with its natural model structure coincide with 2-categorical [[strict 2-limit|pseudo-limits]], and hence give [[2-limits]].
 
 * [[Jacob Lurie]], [[Higher Topos Theory]].  Lots of stuff about $(\infty,1)$-categories, including the computation of homotopy limits (section 4.2.4).
 
