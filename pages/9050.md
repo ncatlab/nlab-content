@@ -139,6 +139,8 @@ See for instance page 6 of ([GreenVoisinMurre](#GreenVoisinMurre)).
 
 * [[de Rham theorem]]
 
+* [[Dolbeault theorem]]
+
 * [[Hodge conjecture]]
 
 
@@ -158,7 +160,7 @@ Lecture notes include
 
 * Xi Yin, _Notes on the Hodge Theorem_ ([pdf](http://www.people.fas.harvard.edu/~xiyin/hodge.pdf))
 
-* Jonathan Evans, _Hodge theorem_ ([pdf](http://www.homepages.ucl.ac.uk/~ucahjde/YM-lectures/lecture5.pdf))
+* [[Jonathan Evans]], _Hodge theorem_ ([pdf](http://www.homepages.ucl.ac.uk/~ucahjde/YM-lectures/lecture5.pdf))
 
 See also
 
