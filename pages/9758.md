@@ -21,7 +21,8 @@
 
 ## Idea
 
-What are called _Fierz identities_ in [[physics]] are the relations that re-express [[bilinear map|bilinears]] in [[spinors]] in terms of elements of the corresponding [[Clifford algebra]]. In practice the Fierz identities are mostly used  for checking whether certain spinor trilinear or quadrilinear expressions vanish identically.
+What are called _Fierz identities_ in [[physics]] are the relations that re-express [[bilinear map|bilinears]] in [[spinors]] in terms of elements of the corresponding [[Clifford algebra]]. The [[coefficients]] of this Fierz decomposition are effectively the spinorial [[Clebsch-Gordan coefficients]].
+In practice the Fierz identities are mostly used  for checking whether certain spinor trilinear or quadrilinear expressions vanish identically.
 
 ## Definition
 
@@ -57,7 +58,7 @@ $$
 
 where $c_p \in \mathbb{R}$ is some [[coefficient]], expressing the [[endomorphism]] of pairing with $\psi_2$ and then spitting out $\psi_1$ as a [[linear combination]] of the [[endomorphisms]] $\Gamma^{a_1 \cdots a_p}$.
 
-This equation is, once the [[coefficients]] $c_p$ have been determined, the _Fierz identity_.
+This equation is, once the [[coefficients]] $c_p$ have been determined, the _Fierz identity_. The coefficients $c_p$ are effectively given by spinorial [[Clebsch-Gordan coefficients]], see [below](#CEElementsInSupersymmetryAlgebra) for more on this.
 
 Often this is expressed after acting with the endomorphisms on a third chosen [[spinor]] $\psi_3$, in which case the Fierz identity reads
 
@@ -88,10 +89,47 @@ $$
 
 by applying the idenity to the pair $\psi_2 \otimes \overline{\psi_3}$ in the middle.
 
-### Computation of cocycles of super-translation cocycles
+### For Chevalley-Eilenberg elements of supersymmetry algebras
+ {#CEElementsInSupersymmetryAlgebra}
 
-Given $S$ a suitable real [[spinor representation]]
-which induces a [[super Poincaré Lie algebra]] $\mathfrak{siso}_S(d-1,1)$ with corresponding [[super translation Lie algebra]] $\mathbb{R}^{d-1,1; S}$ then a degree $(2,p)$-element of its [[Chevalley-Eilenberg algebra]] which is [[Lorentz group|Lorentz]] invariant is of the form
+Let $S$ be a suitable real [[spinor representation]]
+which induces a [[super Poincaré Lie algebra]] $\mathfrak{siso}_S(d-1,1)$ with corresponding [[super translation Lie algebra]] ("[[super Minkowski spacetime]]") $\mathbb{R}^{d-1,1; S}$. 
+
+The corresponding [[Chevalley-Eilenberg algebra]] is generated from the [[vielbein]]("[[graviton]]") generators $e^a \in CE^{(1,even)}$ and the "[[gravitino]]" generators $\psi^\alpha \in CE^{(1,odd)}$.
+
+In terms of these the Fierz identities are [[equations]] in the [[Chevalley-Eilenberg algebra]] of the form
+
+$$
+  \psi \wedge \overline{\psi}
+  = 
+  \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
+   \Gamma_{a_1 \cdots a_p}
+$$
+
+or rather with all indices shown
+
+$$
+  \psi^\alpha \wedge \overline{\psi}_\beta
+  = 
+  \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
+   \Gamma_{a_1 \cdots a_p}{}^{\alpha}{}_\beta
+  \,.
+$$
+
+Now applying this to CE-elements of the form $\Gamma_{a_1 \cdots a_{k}}$
+gives the Fierz identities in the form
+
+$$
+  \psi \wedge \left\overline{\psi} \wedge \Gamma_{a_1 \cdots a_p} \psi
+  = 
+  \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
+   \Gamma_{a_1 \cdots a_p}
+$$
+
+
+
+
+A degree $(2,p)$-element of its [[Chevalley-Eilenberg algebra]] which is [[Lorentz group|Lorentz]] invariant is of the form
 
 $$
   \mu \coloneqq \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p}\psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
