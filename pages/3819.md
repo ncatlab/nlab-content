@@ -1,6 +1,15 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
+
+
 
 # Contents
 * automatic table of contents goes here
@@ -26,9 +35,6 @@ In relativistic quantum mechanics and relativistic [[quantum field theory]] the 
 
 In the [[AQFT]] approach to [[quantum field theory]] the observables are the very starting point of the theory: At the beginning one is handed an abstract $C^*$-algebra $C$, see [[C-star algebra]] (to be more precise: a net of such algebras). The selfadjoined elements of the algebras of the net are defined to be the observables of the theory. 
  
-## In quantum gravity and beyond
-
-Some interesting physical theories like [[loop quantum gravity]] are plagued with a difficult and unsolved problem of consistently defining a sensible notion of observable.
 
 
 [[!redirects observable]]
