@@ -49,7 +49,7 @@ Besides the specific norms defined above, we can define axioms of a reasonable n
 A __cross norm__ on $V$ and $W$ is *any* [[norm]] $\chi$ on $V \otimes W$ such that:
 
 *  ${\|v \otimes w\|_\chi} = {\|v\|_V} {\|w\|_W}$ for any elements $v$ and $w$ of $V$ and $W$ (respectively);
-*  ${\|\lambda \otimes \mu\|_{\chi^*}} = {\|\lambda\|_{V^*}} {\|\mu\|_{W^*}}$ for any [[bounded operator|bounded]] [[linear functionals]] $\lambda$ and $\mu$ on $V$ and $W$ (respectively).
+*  ${\|\lambda \otimes \mu\|_{\chi^*}} = {\|\lambda\|_{V^*}} {\|\mu\|_{W^*}}$ for any [[bounded linear functionals]] $\lambda$ and $\mu$ on $V$ and $W$ (respectively).
 =--
 
 +-- {: .num_defn}
