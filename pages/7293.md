@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $n \in \mathbb{N}$ write $B^n \mathbb{Z}_2$ for the [[classifying space]] of [[ordinary cohomology]] in degree $n$ with coefficients in $\mathbb{Z}_2$, regarded as an object in the [[homotopy category]] $H$ [[model structure on topological spaces|of topological spaces]].
+For $n \in \mathbb{N}$ write $B^n \mathbb{Z}_2$ for the [[classifying space]] of [[ordinary cohomology]] in degree $n$ with coefficients in $\mathbb{Z}_2$ (the [[Eilenberg-MacLane space]] $K(\mathbb{Z}_2,n)$), regarded as an object in the [[homotopy category]] $H$ [[model structure on topological spaces|of topological spaces]].
 
 Notice that for $X$ any topological space ([[CW-complex]]), 
 
@@ -29,7 +29,7 @@ $$
   H^{k}(-, \mathbb{Z}_2) \to H^l(-, \mathbb{Z}_2)
 $$
 
-correspond bijectively to morphisms $B^k \mathb{Z}_2 \to B^l \mathbb{Z}_2$.
+correspond bijectively to morphisms $B^k \mathbb{Z}_2 \to B^l \mathbb{Z}_2$.
 
 The following characterization is due to ([SteenrodEpstein](#SteenrodEpstein)).
 
