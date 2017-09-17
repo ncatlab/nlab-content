@@ -97,7 +97,11 @@ The weakest commonly-seen strengthed generator is an __extremal separator__.
 
 Slightly stronger is a __strong separator__ or __strong generator__, which is obtained by taking $\mathcal{E}$ to be the class of [[strong epimorphism]]s.  This can be expressed equivalently, without requiring local smallness or the existence of coproducts, by saying that the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]]. Since strong epis are extremal, strong generators are extremal.
 
-WARNING: Confusingly, some authors use "strong generator" for what we call an __ extremal separator__. In a category with [[pullbacks]], extremal epis reduce to strong ones, and so extremal separators are necessarily strong, and the clash of terminology is resolved.
++-- {: .un_remark}
+###### Warning
+
+Confusingly, some authors use "strong generator" for what we call an extremal separator. In a category with [[pullbacks]], extremal epis reduce to strong ones, and so extremal separators are necessarily strong, and the clash of terminology is resolved.
+=--
 
 Stronger still is a __regular generator__. Since regular epis are strong, regular generators are strong.
 
