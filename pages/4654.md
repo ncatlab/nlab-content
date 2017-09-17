@@ -33,6 +33,8 @@
 
   * [[curvature characteristic form]]
 
+  * [[covariant derivative]]
+
 * [[secondary characteristic class]]
 
 * [[Chern-Simons form]]
