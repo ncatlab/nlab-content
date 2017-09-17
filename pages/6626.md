@@ -1,0 +1,153 @@
+
+# Axiom schemes of separation
+* table of contents
+{: toc}
+
+## Idea
+
+In [[set theory]], the __axiom scheme of separation__ aka __specification__ states that, given any [[set]] $X$ and any [[property]] $P$ of the [[elements]] of $X$, there is a set
+$$ \{ X | P \} = \{ a \in X \;|\; P(a) \} $$
+consisting precisely of those elements of $X$ for which $P$ holds:
+$$ a \in \{ X | P \} \;\leftrightarrow\; a \in X \;\wedge\; P(a) .$$
+Note that $\{X|P\}$ is a [[subset]] of $X$.
+
+It is important to specify what language $P$ can be written in.  This connects the axiom to [[logic]] and the [[foundations of mathematics]].  Arguably, [[first-order logic]] developed in order to explain the meaning of [[Ernst Zermelo]]\'s axiom of separation (although Zermelo himself disagreed with the interpretation that this gave).  Separation is (usually) given as an axiom *scheme* because there is one axiom for each way to state a property in the language.  (We also allow parameters in $P$.)
+
+
+## Statements
+
+From weaker to stronger:
+
+*  For __bounded separation__ aka __restricted separation__ aka __$\Delta_0$-separation__, $P$ must be written in the language of first-order set theory and all [[quantifications]] must be guarded by a set: of the form $\forall x \in A$ or $\exists x \in A$ for some set $A$.
+
+*  For __limited separation__ aka __$\Delta_0^{\mathcal{P}}$-separation__, $P$ must be written in the language of first-order set theory and all quantifications must be guarded by a set or a [[power class]]: of the form $\forall x \in A$, $\exists B \subseteq A$, etc.  Limited separation trivially implies bounded separation, while bounded separation implies limited separation if [[power sets]] exist.
+
+*  For __full separation__ aka simply __separation__, $P$ must be written in the language of first-order set theory, but otherwise anything goes; in a [[class theory]], $P$ must be guarded by a class.  Full separation trivially implies limited separation.
+
+*  For __large separation__, $P$ must be written in the language of first-order class theory; of course, this only makes sense *in* a class theory.  The difference in strength between the class theories $MK$ and $NBG$ is precisely that the former has large separation but the latter does not.
+
+*  Separation is sometimes called __restricted comprehension__; for __full comprehension__ aka simply __comprehension__, no set $X$ needs to be given ahead of time.  Full comprehension was proposed by [[Gottlob Frege]] but leads to [[Russell's paradox]].
+
+*  For __stratified comprehension__, no set $X$ is given, but $P$ is restricted to stratified formulas, in which each [[variable]] $x$ can be given a consistent [[natural number]] $\sigma(x)$ (its stratification) such that $x \in y$ appears in the formula only if $\sigma(y) = \sigma(x) + 1$.  This is used in [[Van Quine]]\'s [[New Foundations]].
+
+
+## In structural set theory
+
+Set theory is usually given in [[material set theory|material]] form, with a language based on a global membership relation $\in$, and we have implicitly followed this above.  However, separation makes sense also in [[structural set theory]] (although full comprehension does not, except in a structural class theory with a [[class of all sets]], where it again leads to paradox).  The conclusion of the axiom is the existence of a set
+$$ \{ X | P \} = \{ a\colon X \;|\; P(a) \} $$
+and an [[injection]] $i_P\colon \{X|P\} \to X$ such that
+$$ \forsome b\colon S,\; a = i_P(b) \;\leftrightarrow\; P(a) .$$
+Note that $\{X|P\}$, equipped with $i_P$, is a [[subset]] of $X$ in the structural sense.
+
+The structural axioms can of course be stated even in a material set theory, where they are actually weaker than the corresponding material axioms; however, the material axioms follow (as usual) from the structural axioms using [[axiom of replacement|restricted replacement]], which is quite weak (and also follows from the material form of bounded separation).
+
+If a structural set theory is given by stating axioms for the [[category of sets]], then full separation amounts to the property that this category is [[autological category|autological]].
+
+
+## Axiom or axiom scheme?
+
+Although usually presented as an axiom scheme, in many cases, all instances of separation follow from finitely many special cases (which can then be packaged into a single axiom, using [[and|conjunction]], although this is probably pointless).  This is the case, for example, in [[ETCS]] (a structural set theory that satisfied bounded separation) and [[NBG]] (a material class theory that satisfies full separation).  In [[type theory|type-theoretic]] foundations of mathematics, separation is usually invisible, but again some form (generally only bounded) can again be proved from a few specific axioms or constructions.
+
+
+## Relation to the axiom of replacement
+
+Full separation follows from the [[axiom of replacement]] and the principle of [[excluded middle]] (along with the axiom of the [[empty set]]).  Therefore, the axiom is often left out entirely of a description of [[ZFC]] (the usually accepted foundation of mathematics).  In versions of set theory for [[constructive mathematics]], however, we often have replacement but only bounded or limited separation, and in any case separation must be listed explicitly.
+
+
+category: foundation axiom
+
+[[!redirects axiom of separation]]
+[[!redirects axioms of separation]]
+[[!redirects axiom scheme of separation]]
+[[!redirects axiom schemes of separation]]
+[[!redirects axiom schema of separation]]
+[[!redirects axiom schemas of separation]]
+[[!redirects axiom schemata of separation]]
+
+[[!redirects axiom of specification]]
+[[!redirects axioms of specification]]
+[[!redirects axiom scheme of specification]]
+[[!redirects axiom schemes of specification]]
+[[!redirects axiom schema of specification]]
+[[!redirects axiom schemas of specification]]
+[[!redirects axiom schemata of specification]]
+
+[[!redirects axiom of comprehension]]
+[[!redirects axioms of comprehension]]
+[[!redirects axiom scheme of comprehension]]
+[[!redirects axiom schemes of comprehension]]
+[[!redirects axiom schema of comprehension]]
+[[!redirects axiom schemas of comprehension]]
+[[!redirects axiom schemata of comprehension]]
+
+[[!redirects bounded separation]]
+[[!redirects axiom of bounded separation]]
+[[!redirects axioms of bounded separation]]
+[[!redirects axiom scheme of bounded separation]]
+[[!redirects axiom schemes of bounded separation]]
+[[!redirects axiom schema of bounded separation]]
+[[!redirects axiom schemas of bounded separation]]
+[[!redirects axiom schemata of bounded separation]]
+
+[[!redirects restricted separation]]
+[[!redirects axiom of restricted separation]]
+[[!redirects axioms of restricted separation]]
+[[!redirects axiom scheme of restricted separation]]
+[[!redirects axiom schemes of restricted separation]]
+[[!redirects axiom schema of restricted separation]]
+[[!redirects axiom schemas of restricted separation]]
+[[!redirects axiom schemata of restricted separation]]
+
+[[!redirects limited separation]]
+[[!redirects axiom of limited separation]]
+[[!redirects axioms of limited separation]]
+[[!redirects axiom scheme of limited separation]]
+[[!redirects axiom schemes of limited separation]]
+[[!redirects axiom schema of limited separation]]
+[[!redirects axiom schemas of limited separation]]
+[[!redirects axiom schemata of limited separation]]
+
+[[!redirects full separation]]
+[[!redirects axiom of full separation]]
+[[!redirects axioms of full separation]]
+[[!redirects axiom scheme of full separation]]
+[[!redirects axiom schemes of full separation]]
+[[!redirects axiom schema of full separation]]
+[[!redirects axiom schemas of full separation]]
+[[!redirects axiom schemata of full separation]]
+
+[[!redirects large separation]]
+[[!redirects axiom of large separation]]
+[[!redirects axioms of large separation]]
+[[!redirects axiom scheme of large separation]]
+[[!redirects axiom schemes of large separation]]
+[[!redirects axiom schema of large separation]]
+[[!redirects axiom schemas of large separation]]
+[[!redirects axiom schemata of large separation]]
+
+[[!redirects restricted comprehension]]
+[[!redirects axiom of restricted comprehension]]
+[[!redirects axioms of restricted comprehension]]
+[[!redirects axiom scheme of restricted comprehension]]
+[[!redirects axiom schemes of restricted comprehension]]
+[[!redirects axiom schema of restricted comprehension]]
+[[!redirects axiom schemas of restricted comprehension]]
+[[!redirects axiom schemata of restricted comprehension]]
+
+[[!redirects full comprehension]]
+[[!redirects axiom of full comprehension]]
+[[!redirects axioms of full comprehension]]
+[[!redirects axiom scheme of full comprehension]]
+[[!redirects axiom schemes of full comprehension]]
+[[!redirects axiom schema of full comprehension]]
+[[!redirects axiom schemas of full comprehension]]
+[[!redirects axiom schemata of full comprehension]]
+
+[[!redirects stratified comprehension]]
+[[!redirects axiom of stratified comprehension]]
+[[!redirects axioms of stratified comprehension]]
+[[!redirects axiom scheme of stratified comprehension]]
+[[!redirects axiom schemes of stratified comprehension]]
+[[!redirects axiom schema of stratified comprehension]]
+[[!redirects axiom schemas of stratified comprehension]]
+[[!redirects axiom schemata of stratified comprehension]]
