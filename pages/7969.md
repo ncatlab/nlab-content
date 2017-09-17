@@ -123,7 +123,7 @@ Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]]
 
 * {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
 
-* {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Communications in Mathematical Physics_, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
+* {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization on higher genus Riemann surfaces_, Communications in Mathematical Physics, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
 
 * {#BeauvilleLaszlo93} [[Arnaud Beauville]], [[Yves Laszlo]], _Conformal blocks and generalized theta functions_ ([arXiv:alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003))
  
