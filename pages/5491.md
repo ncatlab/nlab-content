@@ -1,20 +1,21 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Category theory
-+--{: .hide}
-[[!include quasi-category theory contents]]
-=--
-#### $(\infty,1)$-Topos Theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
 =--
 #### Higher algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -275,7 +276,7 @@ In analogy to the case for $n=1$, 2-Representations $\mathbf{P}_2(X) \to 2 Vect$
 
 * [[action]], [[∞-action]]
 
-* [[representation]], **$\infty$-representation**
+* [[representation]], [[2-representation]], **$\infty$-representation**
 
 * [[associated bundle]], [[associated ∞-bundle]]
 
