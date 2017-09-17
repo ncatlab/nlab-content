@@ -64,7 +64,11 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 ## Related concepts
 
+* motivation: [[J-homomorphism and chromatic homotopy]]
+
 * [[stable homotopy theory]]
+
+* [[stable homotopy groups of spheres]], [[J-homomorphism]]
 
 * [[complex oriented cohomology theory]]
 
@@ -110,9 +114,13 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[telescopic complexity]], [[telescopic localization]]
 
-* [[algebraic K-theory]], [[red-shift conjecture]]
+* [[Adams spectral sequence]]
 
-* [[J-homomorphism]]
+  * [[Steenrod algebra]], [[Adams operation]]
+
+  * [[chromatic spectral sequence]], [[May spectral sequence]]
+
+* [[algebraic K-theory]], [[red-shift conjecture]]
 
 * [[motivic chromatic homotopy theory]]
 
