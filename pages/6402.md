@@ -66,7 +66,7 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 
 * [[sigma-model]]
 
-##### Chapter 6. Topoligical terms
+##### Chapter 6. Topological terms
 
 * [[Chern-Simons form]]
 
