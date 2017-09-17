@@ -15,11 +15,11 @@
 
 ## Idea
 
-For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]] the [[over category]] $\mathcal{T}/X$ is itself a topos: the "big [[little topos]]" incarnation of $X$.  This fact is sometimes called the "Fundamental Theorem of Topos Theory".
+For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]] the [[over category]] $\mathcal{T}/X$ -- the **slice topos** or **over-topos** -- is itself a topos: the "big [[little topos]]" incarnation of $X$.  This fact is sometimes called the "Fundamental Theorem of Topos Theory".
 
 ## Properties
 
-### Etale geometric morphism
+### Etale geometric morphism {#EtaleGeometricMorphism}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -39,7 +39,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-One see that the functor $X^*$ is given by taking the [[product]] with $X$:
+The functor $X^*$ is given by taking the [[product]] with $X$:
 
 $$
   X^* : K \mapsto (p_2 : K \times X \to X)
@@ -73,8 +73,54 @@ A [[geometric morphism]] $\mathcal{E} \to \mathcal{T}$ equivalent to one of the 
 
 =-- 
 
+More generally:
 
-### Presheaf over-topos
++-- {: .un_prop #GeneralEtaleGeometricMorphism}
+###### Proposition
+
+For $\mathcal{E}$ a [[Grothendieck topos]] and $f : X \to Y$ a [[morphism]] in $\mathcal{E}$,
+there is an induced [[essential geometric morphism]]
+
+$$
+  (f_! \dashv  f^* \dashv f_*)
+  :
+  \mathcal{E}/X
+    \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
+  \mathcal{E}/Y
+  \,,
+$$
+
+where $f_!$ is given by postcomposition with $f$ and $f^*$ by [[pullback]] along $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[universal colimit]]s in $\mathcal{E}$ the [[pullback]] functor $f^*$ preserves both [[limit]]s and [[colimit]]s. By the [[adjoint functor theorem]] and using that th over-toposes are [[locally pesentable categories]], this already implies that it has a [[left adjoint]] and a [[right adjoint]]. That the left adjoint is given by postcomposition with $f$ follows from the universality of the pullback: for $(a : A \to X)$ in $\mathcal{E}/X$ and $(b : B \to Y)$ in $\mathcal{E}/Y$ we have unique factorizations
+
+$$
+  \array{
+    A &\to& X \times_X B &\to& B
+    \\
+    &{}_{\mathllap{a}}\searrow& \downarrow^{\mathrlap{f^*(b)}} && \downarrow^{\mathrlap{b}}
+    \\
+    && X &\stackrel{f}{\to}& Y
+  }
+$$
+
+in $\mathcal{E}$, hence an isomorphism
+
+$$
+  \mathcal{E}/Y(f_*(A \to X), (B \to Y)) \simeq
+  \mathcal{E}/X((A \to X), f^*(B \to Y))
+  \,.
+$$
+
+
+=--
+
+### Presheaf over-topos {#PresheafOverTopos}
 
 We discuss special properties of over-[[presheaf toposes]].
 
@@ -154,6 +200,103 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 
 =--
 
+### Geometric morphisms by slicing {#GeometricMorphismBySlicing}
+
++-- {: .un_prop #SliceGeometricMorphism}
+###### Proposition
+
+For $(f^* \dashv f_*) : \mathcal{T} \to \mathcal{E}$ a [[geometric morphism]] of toposes and $X \in \mathcal{E}$ any [[object]], there is an induced geometric morphism between the slice-toposes
+
+$$
+  (f^*/X \dashv f_*) : \mathcal{T}/f^*X \to \mathcal{E}/X
+  \,,
+$$
+
+where the [[inverse image]] $f^*/X$ is the evident application of $f^*$ to diagrams in $\mathcal{E}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The slice adjunction $(f^*/X \dashv f_*/X)$ is discussed  <a href="http://ncatlab.org/nlab/show/adjoint+(infinity%2C1)-functor#OnSlices">here</a>: the [[left adjoint]] $f^*/X$ is the evident induced functor. Since <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#InOvercategories">limits in an over-category</a> $\mathcal{E}/X$ are computed as limits in $\mathcal{E}$ of diagrams with a single bottom element $X$ adjoined, $f^*/X$ preserves finite limits, since $f^*$ does, so that $(f^*/X \dashv f_*/X)$ is indeed a [[geometric morphism]].
+
+=--
+
+### Topos points {#Points}
+
+We discuss [[point of a topos|topos points]] of over-toposes.
+
+
++-- {: .un_prop}
+###### Observation
+
+Let $\mathcal{E}$ be a [[topos]], $X \in \mathcal{E}$ an [[object]] and 
+
+$$
+  (e^* \dashv e_*)  : Set \to \mathcal{E}
+$$
+
+a [[point of a topos|point]] of $\mathcal{E}$. Then for every element $x \in e^*(X)$ there is a point of the slice topos $\mathcal{E}/X$ given by the composite
+
+$$
+  (e,x)
+  :
+  Set \stackrel{\overset{x^*}{\leftarrow}}{\underset{x_*}{\to}}
+  Set/e^*(X) 
+  \stackrel{\overset{e^*/X}{\leftarrow}}{\underset{e_*/X}{\to}}
+  \mathcal{E}/X
+  \,.
+$$
+
+=--
+
+Here $(e^*/X \dashv e_*/X)$ is the slice geometric morphism of $e$ over $X$ discussed [above](SliceGeometricMorphism) and $(x^* \dashv x_*)$ is the &eacute;tale geometric morphism discussed [above](GeneralEtaleGeometricMorphism) induced from the morphism 
+$* \stackrel{x}{\to} e^*(X)$.
+
+Hence the [[inverse image]] of $(e,x)$ sends $A \to X$ to the [[fiber]] of $e^*(A) \to e^*(X)$ over $x$.
+
++-- {: .un_prop}
+###### Corollary
+
+If $\mathcal{E}$ has [[point of a topos|enough point]]s then so does the slice topos $\mathcal{E}/X$ for every $X \in \mathcal{E}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That $\mathcal{E}$ has enough points means that a morphism $f : A \to B$ in $\mathcal{E}$ is an [[isomorphism]] precisely if for every [[point of a topos|point]] $e : Set \to \mathcal{E}$ the function $e^*(f) : e^*(A) \to e^*(B)$ is an isomorphism.
+
+A morphism in the slice topos, given by a diagram
+
+$$
+  \array{
+     A &&\stackrel{f}{\to}&& B
+     \\
+     & \searrow && \swarrow
+     \\
+     && X
+  }
+$$
+
+in $\mathcal{E}$ is an isomorphism precisely if $f$ is. By the above observation we have that under the [[inverse image]]s of the slice topos points $(e,x \in e^*(X))$ this maps to the fibers of
+
+$$
+  \array{
+     e^*(A) &&\stackrel{e^*(f)}{\to}&& e^*(B)
+     \\
+     & \searrow && \swarrow
+     \\
+     && e^*(X)
+  }
+$$
+
+over all points $* \stackrel{x}{\to} e^*(X)$. Since in [[Set]] every object $S$ is a [[coproduct]] of the point indexed over $S$, $S \simeq \coprod_S *$ and using [[universal colimits]] in $S$, we have that if $x^* e^*(f)$ is an isomorphism for all $x \in e^*(X)$ then $e^*(f)$ was already an isomorphism.
+
+The claim the follows with the assumption that $\mathcal{E}$ has enough points.
+
+=--
 
 
 ## Related concepts
