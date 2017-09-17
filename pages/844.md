@@ -14,9 +14,9 @@ The  _join_ of quasi-categories $C$ and $C'$ is a [[quasi-category]] $C \star C'
 
 Two different definitions are used in the literature, which are equivalent with respect to the [[model structure on quasi-categories]].
 
-1. The **join** $C \star_{s} C'$ of two [[quasi-category|quasi-categories]] $C$ and $C'$ is the [[join of simplicial sets]] of their underlying [[simplicial set]]s.
+1. The **join** $C \star C'$ of two [[quasi-category|quasi-categories]] $C$ and $C'$ is the [[join of simplicial sets]] of their underlying [[simplicial set]]s.
 
-1. The join $C \star_J D$ of two quasi-categories is the [[homotopy colimit]] 
+1. The join $C \diamondsuit D$ of two quasi-categories is the [[homotopy colimit]] 
 
    $$
      \array{
@@ -24,7 +24,7 @@ Two different definitions are used in the literature, which are equivalent with 
        \\
        {}^{\mathllap{p_1}} &\swArrow_\simeq& \downarrow
        \\
-       C &\to& C \star_J D
+       C &\to& C \diamondsuit D
      }
    $$
 
@@ -41,7 +41,7 @@ Two different definitions are used in the literature, which are equivalent with 
        \\
        \downarrow &&&& \downarrow
        \\
-       X &\to& &\to& C \star_J D
+       X &\to& &\to& C \diamondsuit D
      }
    $$   
  
@@ -54,7 +54,7 @@ Indeed, the join of two [[simplicial set]]s that happen to be [[quasi-category|q
 For $C$ and $D$ [[simplicial set]]s, the canonical morphism
 
 $$
-  C \star_J D \to C \star_s D
+  C \diamondsuit D \to C \star D
 $$
 
 is a weak equivalence in the [[model structure on quasi-categories]].
@@ -93,7 +93,7 @@ is discussed around [proposition 1.2.8.3, p. 43](http://arxiv.org/PS_cache/math/
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_  .
 
 
-The operation $\star_J$ is discussed in
+The operation $\diamondsuit$ is discussed in
 [chapter 3](http://www.crm.cat/HigherCategories/hc2.pdf#page=95) of
 
 * [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
