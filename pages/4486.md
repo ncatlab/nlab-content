@@ -60,11 +60,13 @@ In general, $f$ may have all partial derivatives, and even all directional deriv
 
 For $U\subseteq \mathbb{R}^n$, a map $f:U\to \mathbb{R}^m$ is differentiable if each component $f_i : U \to \mathbb{R}$ is differentiable.  In this case, the derivatives of the $f_i$ assemble into a linear map $d f_x: \mathbb{R}^n \to \mathbb{R}^m$.
 
-### Higher differentiability
+## Higher differentiability
 
-For $f:U\to \mathbb{R}^m$, we can regard $d f$ as a function from a subset of $U$ (the points where $f$ is differentiable) to the space $L(\mathbb{R}^n,\mathbb{R}^m)$ of linear maps.  Since $L(\mathbb{R}^n,\mathbb{R}^m) \cong \mathbb{R}^{n m}$, we can then ask whether $d f$ is differentiable.
+### Iterated differentiability
 
-We can then iterate, obtaining the following hierarchy of differentiability.  Because differentiability by itself is not very useful, and a differentiable map is necessarily continuous, one generally included continuity of the last assumed derivatives.
+For $f:U\to \mathbb{R}^m$, we can regard $d f$ as a function from a subset of $U$ (the points where $f$ is differentiable) to the space $L(\mathbb{R}^n,\mathbb{R}^m)$ of [[linear maps]].  Since $L(\mathbb{R}^n,\mathbb{R}^m) \cong \mathbb{R}^{n m}$ is again a Cartesian space, we can then ask whether $d f$ is differentiable.
+
+We can then iterate, obtaining the following hierarchy of differentiability.  Because iterated differentiability by itself is not very useful, and a differentiable map is necessarily continuous, one generally includes continuity of the last assumed derivatives.
 
 * The map $f$ is __continuous__ or __$C^0$__ if it is a [[continuous map]] between underlying [[topological spaces]].  We begin with this since a differentiable map is necessarily continuous.
 
@@ -77,6 +79,12 @@ We can then iterate, obtaining the following hierarchy of differentiability.  Be
 * The map $f$ is __[[smooth map|smooth]]__ or __infinitely differentiable__ or __$C^\infty$__ if it is $n$ times differentiable for all $n$, or equivalently if it is $C^n$ for all $n$.  (There is no difference between infinite differentiability and infinite continuous differentiability.)  One may also define this notion [[coinductive definition|coinductively]]: $f$ is infinitely differentiable if it is differentiable and its derivative $d f$ is infinitely differentiable.
 
 * One step higher, we may ask whether $f$ is [[analytic function|analytic]] or $C^\omega$.
+
+### Symmetry of higher derivatives
+
+If $f:U\to \mathbb{R}^m$ is twice differentiable with $U\subseteq \mathbb{R}^n$, its second derivative $d^2 f : U \to L(\mathbb{R}^n,L(\mathbb{R}^n,\mathbb{R}^m)) \cong Bilin(\mathbb{R}^n,\mathbb{R}^n;\mathbb{R}^m)$ is a function from $U$ into the space of [[bilinear maps]] from $\mathbb{R}^n\times \mathbb{R}^n$ to $\mathbb{R}^m$.  In general, it need not be *symmetric*, i.e. $d^2 f_x(v,w)$ may not equal $d^2f_x(w,v)$.  In terms of partial derivatives, this means that the *mixed partials* $\frac{\partial^2 f}{\partial x_i \partial x_j}$ and $\frac{\partial^2 f}{\partial x_j \partial x_i}$ may not be equal; see below for a counterexample.
+
+It is true, however, that if $f$ is twice *continuously* differentiable, then $d^2f$ is a *symmetric* bilinear map, and the mixed partials are equal.
 
 ### For maps between manifolds
 
@@ -116,6 +124,14 @@ $$ f_k(x) \coloneqq x^k \sin(1/x) $$
 from the [[real line]] to itself, with $f(0) \coloneqq 0$.  Away from $0$, $f_k$ is smooth (even analytic); but at $0$, $f_0$ is not continuous, $f_1$ is continuous but not differentiable, $f_2$ is differentiable but not continuously differentiable, and so on:
 *  If $k = 2 n$ is even, then $f_k$ is differentiable $n$ times but not continuously differentiable $n$ times;
 *  If $k = 2 n + 1$ is odd, then $f_k$ is continuously differentiable $n$ times but not differentiable $n + 1$ times.
+
+### Symmetry of the second derivative
+
+The function $f:\mathbb{R}^2 \to \mathbb{R}$ defined by 
+
+$$ f(x,y) = \frac{xy(x^2-y^2)}{x^2+y^2}$$
+
+plus $f(0,0) = 0$, has partial derivatives $\frac{\partial^2f}{\partial x \partial y}$ and $\frac{\partial^2f}{\partial y \partial x}$ that both exist but are not equal at $(0,0)$ (nor are they continuous at $(0,0)$).
 
 
 ## Related concepts
