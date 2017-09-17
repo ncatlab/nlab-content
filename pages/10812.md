@@ -7,6 +7,6 @@
 
   * [[theta divisor]]
 
-category: dismabiguation
+category: disambiguation
 
 [[!redirects divisors]]
