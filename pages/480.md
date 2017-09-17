@@ -15,12 +15,11 @@
 
 ## Definition
 
-A **coherent category** is a [[regular category]] in which the [[subobject posets]] $Sub(X)$ all have finite [[unions]] which are preserved by the [[base change]] functors $f^*:Sub(Y)\to Sub(X)$.
+A **coherent category** (also called a **pre-logos**) is a [[regular category]] in which the [[subobject posets]] $Sub(X)$ all have finite [[unions]] which are preserved by the [[base change]] functors $f^*:Sub(Y)\to Sub(X)$.
 
 A [[coherent functor]] serves as a morphism between coherent categories.
 
 The [[internal logic]] of a coherent category is [[coherent logic]].
-
 
 An **infinitary coherent category** is a [[well-powered category|well-powered]] [[regular category]] in which the subobject posets $Sub(X)$ have all _[[small set|small]]_ unions which are [[pullback stability|stable under pullback]].  Infinitary coherent categories are also called __[[geometric category|geometric categories]]__.
 
