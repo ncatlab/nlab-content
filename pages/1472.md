@@ -257,6 +257,8 @@ and might be taken to be the strict sense of the term.
 * For structure group the [[K-theory spectrum]] we get [[differential K-theory]] describing the [[RR-field]].
 
 
+A [[nonabelian cohomology]] version of higher Yang-Mills theory -- replacing a [[connection on a bundle]] by a [[connection on a 2-bundle]] is expected to control certain 6-dimensional theories that compactify to ordinary Yang-Mills on the torus and thereby explain _[[S-duality]]_ . See there for more details on this.
+
 ##### $\infty$-Chern-Simons theory
 
 In [[schreiber:∞-Chern-Simons theory]] the [[action functional]] is of the form
