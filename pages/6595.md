@@ -1,47 +1,56 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Riemannian geometry
-+--{: .hide}
++-- {: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-In [[Riemannian geometry]] the **curl** of a [[vector field]] $X$ over a 3-dimensional [[Riemannian manifold]] $(M,g)$ is the vector field $curl(X)$ defined by
+In [[Riemannian geometry]], the **curl** or __rotation__ of a [[vector field]] $X$ over an [[orientation|oriented]] $3$-dimensional [[Riemannian manifold]] $(M,g)$ is the vector field $curl(X)$ defined by
 
 $$
-curl(X)=g^{-1}\star_g d_{dR}g(X)
-$$
+curl(X) = g^{-1}\star_g d_{dR}g(X)
+,$$
 
 where $\star_g$ is the [[Hodge star]] operator of $(M,g)$,
 
 $$
-\star_g:\Omega^i(M;\mathbb{R}) \to \Omega^{3-i}(M;\mathbb{R})
+\star_g\colon \Omega^i(M;\mathbb{R}) \to \Omega^{3-i}(M;\mathbb{R})
 $$
+
 
 ## Examples
 
-If $(M,g)$ is $\mathbb{R}^3$ endowed with the canonical Euclidean metric, then the curl of a vector field $(X^1,X^2,X^3)=X^1\partial_1+X^2\partial_2+X^3\partial_3$ is
+If $(M,g)$ is $\mathbb{R}^3$ endowed with the canonical Euclidean metric, then the curl of a vector field $(X^1,X^2,X^3) = X^1\partial_1 + X^2\partial_2 + X^3\partial_3$ is
 
 $$
-curl(X)^1=\frac{\partial X^3}{\partial x^2}-\frac{\partial X^2}{\partial x^3} 
+curl(X)^1 = \frac{\partial X^3}{\partial x^2}-\frac{\partial X^2}{\partial x^3} 
 ;\qquad
-curl(X)^2=\frac{\partial X^1}{\partial x^3}-\frac{\partial X^3}{\partial x^1} 
+curl(X)^2 = \frac{\partial X^1}{\partial x^3}-\frac{\partial X^3}{\partial x^1} 
 ;\qquad
-curl(X)^3=\frac{\partial X^2}{\partial x^1}-\frac{\partial X^1}{\partial x^2} 
+curl(X)^3 = \frac{\partial X^2}{\partial x^1}-\frac{\partial X^1}{\partial x^2} 
 $$
+
+This is the classical curl from [[vector analysis]].
+
+
+## Remark
+
+In many classical applications of the curl in [[vector analysis]], the Riemannian structure is actually irrelevant, and the gradient can be replaced with the [[exterior differential|differential]].  That is, $X$ is treated as the $1$-form $g(X)$, its curl is treated as the $2$-form $d_{dR}g(X)$, and once these identifications are made there is no need to involve $g$ at all.
+
 
 ## Related concepts
 
@@ -51,4 +60,10 @@ $$
 
 * [[divergence]]
 
+
+[[!redirects curl]]
+[[!redirects curls]]
+[[!redirects curl of a vector field]]
+[[!redirects curls of vector fields]]
 [[!redirects rotation of a vector field]]
+[[!redirects rotations of vector fields]]
