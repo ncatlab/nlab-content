@@ -20,7 +20,8 @@
 1. distinct SPT states with a given symmetry cannot be smoothly deformed into each other without a [[phase transition]], if the deformation preserves the symmetry.
 1. however, they all can be smoothly deformed into the same trivial product state without a phase transition, if the symmetry is broken during the deformation.
 
-Using the notion of quantum entanglement, we can say that SPT states are short-range [[entanglement|entangled states]] with a symmetry. 
+Using the notion of [[topological order]], we can say that SPT states are states with trivial [[topological order]] and a symmetry.
+Using the notion of quantum entanglement, we can say that SPT states are short-range [[entanglement|entangled states]] with a symmetry.  
 
 ## Examples of SPT order
 
