@@ -1,0 +1,8 @@
+
+
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
