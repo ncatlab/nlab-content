@@ -118,7 +118,7 @@ Discussion more in abstract [[stable homotopy theory]] and [[equivariant stable 
 
 * Paolo Masulli, _Equivariant homotopy: $KR$-theory_, Master thesis (2011) ([pdf](http://www.math.ku.dk/~jg/students/masulli.msthesis.2011.pdf))
 
-* [[Daniel Dugger]], _An Atiyah-Hirzebruch spectral sequence for $KR$-theory_ ([arXiv:0304099](http://arxiv.org/abs/math/0304099))
+* {#Dugger03} [[Daniel Dugger]], _An Atiyah-Hirzebruch spectral sequence for $KR$-theory_ ([arXiv:0304099](http://arxiv.org/abs/math/0304099))
 
 Remarks on homotopy-theoretic KR in the context of [[algebraic K-theory]] are in
 
@@ -147,6 +147,56 @@ which is reviewed and amplified further in
 
 * {#Mathew} Akhil Mathew, section 2 of _The homotopy groups of $TMF$_, talk notes ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
+Explicit computation of [[KO]] as the [[homotopy fixed points]] of the $\mathbb{Z}_2$-action on $KU$ is due to ([Dugger 03](#Dugger03))
+and reviewed in section 7.3 of 
+
+* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
 
 [[!redirects KR-homology]]
 
