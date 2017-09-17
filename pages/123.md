@@ -13,7 +13,7 @@
 
 * A functor from $C$ to $D$ is an _image of $C$ in $D$_.
 
-* A functor between (small) categories is a morphism of the underlying [[directed graph]]s that respects the composition of edges.
+* A functor between (small) categories is a morphism of the underlying [[directed graphs]] that respects the composition of edges.
 
 
 So a functor $F : C \to D$ is a [[morphism]] between two [[category|categories]] that 
@@ -28,7 +28,7 @@ such that
 
 * it respects composition: the image of the composite of two morphisms under $F$ is the composite of their images.
 
-This last property is the decicive one of a functor. It is called the **functoriality condition**. It is a direct generalization of the notion of [[homomorphism]] (of [[monoid]]s, [[group]]s, [[algebra]]s, etc.) to the case that there are more objects. As a slogan we have
+This last property is the decicive one of a functor. It is called the **functoriality condition**. It is a direct generalization of the notion of [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan we have
 
 The notion of functor is a [[horizontal categorification]] of that of [[homomorphism]].
 
@@ -71,11 +71,11 @@ $$F(1_X) = 1_{F(X)}.$$
 
 Preserving commuting loops means $F$ preserves identity morphisms.
 
-Another equivalent way to say this is that a functor $F : C \to D$ is precisely a morphism of [[simplicial set]]s $N(F) : N(C) \to N(D)$ between the [[nerve]]s of these categories
+Another equivalent way to say this is that a functor $F : C \to D$ is precisely a morphism of [[simplicial sets]] $N(F) : N(C) \to N(D)$ between the [[nerves]] of these categories
 
-* the [[object]]s of $C$ and $D$ are the 0-cells of $N(C)$ and $N(D)$, so $N(F)_0 : N(F)_0 \to N(F)_0$ maps objects of $C$ to objects of $D$;
+* the [[objects]] of $C$ and $D$ are the 0-cells of $N(C)$ and $N(D)$, so $N(F)_0 : N(F)_0 \to N(F)_0$ maps objects of $C$ to objects of $D$;
 
-* the [[morphism]]s of $C$ and $D$ are the 1-cells of $N(C)$ and $N(D)$, so $N(F)_1 : N(F)_1 \to N(F)_1$ maps morphisms of $C$ to objects of $D$;
+* the [[morphisms]] of $C$ and $D$ are the 1-cells of $N(C)$ and $N(D)$, so $N(F)_1 : N(F)_1 \to N(F)_1$ maps morphisms of $C$ to objects of $D$;
 
 * the identity morphisms of $C$ and $D$ are the degenerate 1-cellsof $N(C)$ and $N(D)$, so the fact that $N(F)$ respects degeneracy maps means that $F$ respects identities;
 
@@ -84,7 +84,7 @@ Another equivalent way to say this is that a functor $F : C \to D$ is precisely 
 See [[nerve]] for more details on this.
 
 
-The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-object]]s, we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
+The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-objects]], we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
 
 ### Internal definition {#InternalDefinition}
 
@@ -154,7 +154,7 @@ In many cases, this notion is too restrictive, and we should use internal [[anaf
 
 ### Enriched definition
 
-In [[enriched category theory]] a functor maps not [[hom-set]]s but the given [[hom-object]]s to each other, in a way that respects their composition. This is described at
+In [[enriched category theory]] a functor maps not [[hom-sets]] but the given [[hom-objects]] to each other, in a way that respects their composition. This is described at
 
 * [[enriched functor]].
 
@@ -200,7 +200,7 @@ And for more background on this see [[stuff, structure, property]].
 
 ### Morphisms of monoids and groups 
 
-For $A,B$ [[monoid]]s or $G, H$ [[group]]s, let $\mathbf{B}A, \mathbf{B}B$, $\mathbf{B}G$, $\mathbf{B}H$ be the corresponding obe-object [[category|categories]] (as described at [[delooping]]). Then functors
+For $A,B$ [[monoids]] or $G, H$ [[groups]], let $\mathbf{B}A, \mathbf{B}B$, $\mathbf{B}G$, $\mathbf{B}H$ be the corresponding obe-object [[category|categories]] (as described at [[delooping]]). Then functors
 
 $$
   \mathbf{B}A \to \mathbf{B}B
@@ -217,7 +217,7 @@ are canonically in bijection with group homomorphisms $G \to H$.
 
 ### Representations 
 
-With $\mathbf{B}G$ as above, functors on $\mathbf{B}G$ with values in [[Vect]] are the same as linear [[representation]]s of the [[group]] $G$. In fact, we have a canonical isomorphism of categories
+With $\mathbf{B}G$ as above, functors on $\mathbf{B}G$ with values in [[Vect]] are the same as linear [[representations]] of the [[group]] $G$. In fact, we have a canonical isomorphism of categories
 
 $$
   Funct(\mathbf{B}G, Vect) \simeq Rep(G)
@@ -228,7 +228,7 @@ of the [[functor category]] with the representation category.
 
 ### Linear Maps
 
-Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose objects are each finite-dimensional vector space and whose morphisms are all of the linear [[endomorphism]]s on that space, i.e. one-object [[full subcategory|full subcategories]] of $Fin Vect$.
+Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose objects are each finite-dimensional vector space and whose morphisms are all of the linear [[endomorphisms]] on that space, i.e. one-object [[full subcategory|full subcategories]] of $Fin Vect$.
 
 
 #### Left Inverses
@@ -314,7 +314,7 @@ Functors $F : C \to Set$ with values in [[Set]] are also called [[presheaf|presh
 
 For $C$ a [[category]], and $X \in C$ an [[object]], and $U$ any other object, a [[morphism]] $x : U \to X$ may be regarded as a [[generalized element]] of $X$, written $x \in X$ (For this language applied to the category [[Set]] of sets see [[ETCS]]. For the general case see [[type theory]]).
 
-The _[[set]]_ of generalized elements of an object $X \in C$ is thus the union of [[hom-set]]s $\coprod_{U \in C} Hom_C(U,X)$.
+The _[[set]]_ of generalized elements of an object $X \in C$ is thus the union of [[hom-sets]] $\coprod_{U \in C} Hom_C(U,X)$.
 
 While a [[morphism]] $f : X \to Y$ in an  arbitrary category $C$ need not at all come to us as a function of sets, it always induces a function of sets of _generalized elements_ : it sends the generalized element $x : U \to X$ of $X$ to the generalized element 
 
