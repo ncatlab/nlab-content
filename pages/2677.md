@@ -26,7 +26,7 @@ A first proposal for what a [[variety]] "over $\mathbb{F}_1$" ought to be is due
 ## Borger's absolute geometry
  {#BorgerAbsoluteGeometry}
 
-Maybe an emerging consensus is that the preferred approach is [[Borger's absolute geometry]] ([Borger 09](#Borger09)). Here the structure of a [[Lambda-ring]] on a ring $R$, hence $Spec(R) \to Spec(\mathbb{Z})$  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined thereby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
+Maybe an emerging consensus is that the preferred approach is [[Borger's absolute geometry]] ([Borger 09](#Borger09)). Here the structure of a [[Lambda-ring]] on a ring $R$, hence on $Spec(R) \to Spec(\mathbb{Z})$,  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined thereby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
 
 $$
   Et(Spec(\mathbb{Z}))
