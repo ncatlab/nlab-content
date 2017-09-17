@@ -1,14 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Overview
 
-Given an [[ordinary differential equation]] (ODE) with meromorphic coefficients, solutions will also in general be multivalued functions; thus associated monodromies around poles are of importance. 
+Given an [[ordinary differential equation]] (ODE) with [[meromorphic function|meromorphic]] [[coefficients]], solutions will also in general be multivalued functions; thus associated [[monodromies]] around poles are of importance. 
 
-**21st Hilbert problem**: Given a series of points in a complex plane and prescribed monodromies around these points, is there a [[Fuchsian equation|Fuchsian ODE]] with these singularities and monodromies? 
+The **21st of [[Hilbert's problems]]** states: _Given a series of points in a complex plane and prescribed monodromies around these points, is there a [[Fuchsian equation|Fuchsian ODE]] with these singularities and monodromies?_
 
 In general the answer is negative as it follows by the counterexample provided by Bolibruh (or Bolibruch, see [wikipedia: Hilbert 21](http://en.wikipedia.org/wiki/Hilbert%27s_twenty-first_problem)).
 
 Nowdays generalizations and refinements of this problem are called the **Riemann-Hilbert problem**. For example techniques of finding the corresponding ODE when it is possible, the closely related **Riemann-Birkhoff factorization** (realization of a holomorphic matrix function of a circle as a product of a matrix holomorphic on a neighborhood of closed disk and a function of a matrix holomorphic on a neighborhood of an exterior of the disk including infinity and the circle itself). The correspondence between differential equations and monodromies can in fact be established and is true in general if we understand the data much more generally, using sheaf theory. Namely, that is a rough meaning of so-called **Riemann-Hilbert correspondence** ([wikipedia](http://en.wikipedia.org/wiki/Riemann%E2%80%93Hilbert_correspondence)) in sheaf theory on complex manifolds.
 
 In integrable systems theory (and study of special functions) one often says *Riemann-Hilbert method*.
+
+## Related concepts
+
+* [[Riemann-Hilbert correspondence]]
 
 ## References and links
 
@@ -42,3 +51,5 @@ The [[AGT correspondence]] is treated with the help of a Riemann-Hilbert problem
 [[!redirects Riemann–Hilbert problem]]
 [[!redirects Riemann--Hilbert problem]]
 [[!redirects Riemann Hilbert problem]]
+
+[[!redirects Hilbert's 21st problem]]
