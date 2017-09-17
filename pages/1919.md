@@ -4,3 +4,6 @@ There\'s more interesting stuff to say, about different strengths of disjoint in
 
 
 [[!redirects disjoint set]]
+[[!redirects disjoint sets]]
+[[!redirects disjoint subset]]
+[[!redirects disjoint subsets]]
