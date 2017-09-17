@@ -98,6 +98,14 @@ Yes, I think certainly all those types of action should eventually be described 
 Mac Lane, VII.4, only requires a monoidal category to define actions.  -- Uday
 =--
 
+## Examples
+
+* A [[representation]] is a "linear action".
+
+* In [[symplectic geometry]] one considers [[Hamiltonian actions]].
+
+(...)
+
 ## Related concepts
 
 * **action**, [[∞-action]],
