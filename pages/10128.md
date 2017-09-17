@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[CW-complex]] which satisfies [[Poincaré duality]] and in this respect thus behaves like a [[closed manifold]]. Also called a _homology manifold_, therefore.
+A special kind of [[Poincaré duality space]]: a [[CW-complex]] which satisfies [[Poincaré duality]] and in this respect thus behaves like a [[closed manifold]]. Also called a _homology manifold_, therefore.
 
 
 ## References
