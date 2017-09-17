@@ -46,6 +46,7 @@ For a locally presentable $(\infty,1)$-category $C$, the following are equivalen
 1. $C$ admits a presentation by a [[right proper model category|right proper]] [[Cisinski model category]].
 1. $C$ admits a [[presentable (infinity,1)-category|presentation]] by a [[right proper model category|right proper]] [[Bousfield localization of model categories|left Bousfield localization]] of an [[model structure on simplicial presheaves|injective model category of simplicial presheaves]].
 
+I have a question here. The third condition says that $C$ admits a presentation as a left Bousefield localization of a category of simplicial presheaves with the projective model structure. The fifth conditions claims this for a category of simplical presheaves with the injective model structure. How can that be?
 =--
 +-- {: .proof}
 ###### Proof
