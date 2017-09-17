@@ -113,10 +113,9 @@ $$ \mathbb{P} = \bigsqcup_{n \ge 0} S_n \, , $$
 
 where objects are natural numbers, all morphisms are automorphisms, and the automorphisms of the object $n$ form the group $S_n$.   In these terms, $Schur$ is equivalent to the category where:
 
-* objects are **polynomial functors**: that is, functors
-$F: \mathbb{P} \to FinVect$ such that $F(n) = \{0\}$ for all sufficiently large $n$;
+* objects are functors $F: \mathbb{P} \to FinVect$ such that $F(n) = \{0\}$ for all sufficiently large $n$;
 
-* morphisms are natural transformations between polynomial functors.
+* morphisms are natural transformations.
 
 This allows us to think of $Schur$ as a subcategory of the category of **representations** of $\mathbb{P}$, by which we simply mean functors $F : \mathbb{P} \to \Vect$.  Every irreducible representation of $\mathbb{P}$ is finite-dimensional: it is really just an irreducible representation of some group $S_n$.  Every representation of $\mathbb{P}$ is a direct sum of these irreducibles.  $Schur$ may be identified with the full subcategory consisting of _finite_ direct sums of irreducibles.
 
@@ -134,8 +133,7 @@ But the category of representations of a groupoid has even more nice features wh
 
 On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ yet another monoidal structure, the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.   
 
-Mathematicians often work with a decategorified version of $Schur$: its [[Grothendieck group]], also known as the ring of [[symmetric functions]].  The various structures that $Schur$ possesses endow this ring with corresponding structures.  Among other things, it is the free [[lambda-ring]] on one generator.   As we shall see, corresponds to the fact that $Schur$ is the free 
-[[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] on one object.
+Mathematicians often work with a decategorified version of $Schur$: its [[Grothendieck group]], also known as the ring of [[symmetric functions]].  The various structures that $Schur$ possesses endow this ring with corresponding structures.  Among other things, it is the free [[lambda-ring]] on one generator.   As we shall see, corresponds to the fact that $Schur$ is the free [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] on one object.
 
 ## Schur functors on more general categories ##
 
@@ -260,19 +258,13 @@ By construction, the morphisms
 
 $$ \widetilde{p}_\lambda : X^{\otimes n} \to X^{\otimes n} $$
 
-are the components of a natural transformation from the functor $X \mapsto X^{\otimes n}$ to itself.  Since idempotents split in $C$, we can form the coequalizer of the pair $(\widetilde{p}_\lambda, id)$.  
+are the components of a natural transformation from the functor $X \mapsto X^{\otimes n}$ to itself.  Since idempotents split in $C$, we can form the cokernel of $1 - \widetilde{p}_\lambda$, or in other words, the coequalizer of the pair 
 
-+-- {: .query}
-
-[[John Baez]]: Todd wrote "cokernel of the pair", but shouldn't one say either say "cokernel of $\widetilde{p_\lambda})$" or "coequalizer of the pair", as above?  I prefer saying just "cokernel".  If this is bad, we should also fix it below. 
-
-[[Todd Trimble]]: Yes, you're right, I meant coequalizer. But I think you want $V_\lambda$ to correspond to the _image_ of $p_\lambda$ (which is the coequalizer of $p$ and $1$, i.e., the cokernel of $1-p$), not the cokernel of $p_\lambda$. Is that right? 
-
-=--
+$$ X^{\otimes n} \stackrel{\widetilde{p}_\lambda}{1} X^{\otimes n} $$
 
 +-- {: .un_def}
 ######Definition 
-The **Schur functor** $S_\lambda: C \to C$ is defined as follows.  Given an object $X$ of $C$, let $S_\lambda(X)$ be the cokernel of $ \widetilde{p}_\lambda : X^{\otimes n} \to X^{\otimes n}$.  Given a morphism $f: X \to Y$ in $C$, let $S_\lambda(f)$ be the unique map $S_\lambda(X) \to S_\lambda(Y)$ such that 
+For any Young diagram $\lambda$, the **Schur functor** $S_\lambda: C \to C$ is defined as follows.  Given an object $X$ of $C$, let $S_\lambda(X)$ be the cokernel of $ \widetilde{p}_\lambda : X^{\otimes n} \to X^{\otimes n}$.  Given a morphism $f: X \to Y$ in $C$, let $S_\lambda(f)$ be the unique map $S_\lambda(X) \to S_\lambda(Y)$ such that 
 $$\array{
 X^{\otimes n} & \to & S_\lambda(X) \\
 f^{\otimes n} \downarrow \; \; & & \downarrow S_\lambda(f) \\
@@ -491,13 +483,21 @@ where the second equivalence is the 2-categorical Yoneda lemma and the third use
 
 ### Structure of the representing object
 
-Let us now calculate $\widebar{k \mathbb{P}}$. In general, the linear Cauchy completion of a linear category $C$ consists of the full subcategory of linear presheaves $C^{op} \to Vect$ that are obtained as retracts of finite direct sums of representables $C(-, c): C^{op} \to Vect$. In the case of $C = k\mathbb{P}$, these are the polynomial functors 
+Let us now calculate $\widebar{k \mathbb{P}}$. In general, the linear Cauchy completion of a linear category $C$ consists of the full subcategory of linear presheaves $C^{op} \to Vect$ that are obtained as retracts of finite direct sums of representables $C(-, c): C^{op} \to Vect$.  In the case $C = k\mathbb{P}$, these are the functors 
 
 $$F: \mathbb{P}^{op} \to FinVect$$ 
 
-where $F(n) = 0$ for large enough $n$. For it is clear that this category contains the representables and is closed under finite direct sums and retracts. On the other hand, every polynomial $F$ is a sum of monomials $F(0) \oplus F(1) \oplus \ldots \oplus F(n)$, and by Maschke's theorem, each $S_j$-module $F(j)$ is the retract of a finite sum of copies of the group algebra $k[S_j]$ which corresponds to the representable $k\mathbb{P}(-, j)$. 
+where $F(n) = 0$ for large enough $n$.  For it is clear that this category contains the representables and is closed under finite direct sums and retracts. On the other hand, every polynomial $F$ is a sum of monomials $F(0) \oplus F(1) \oplus \ldots \oplus F(n)$, and by Maschke's theorem, each $S_j$-module $F(j)$ is the retract of a finite sum of copies of the group algebra $k[S_j]$ which corresponds to the representable $k\mathbb{P}(-, j)$. 
 
-The linear symmetric monoidal structure on polynomial functors is inherited from the monoidal structure of $\mathbb{P}$. Explicitly, the monoidal structure on $\mathbb{P}$ is at the object level given by adding integers, and on the morphism level given by group homomorphisms 
+So, inspired by Joyal's work on species [ref], we make the following definition:
+
++-- {: .un_def}
+######Definition 
+A **polynomial species** is a functor $F: \mathbb{P}^{op} \to FinVect$ where $F(n) = 0$ for all sufficiently large $n$.  A morphism of polynomial species is a natural transformation between such functors.
+
+=--
+
+The linear symmetric monoidal structure on polynomial species is inherited from the monoidal structure of $\mathbb{P}$. Explicitly, the monoidal structure on $\mathbb{P}$ is at the object level given by adding integers, and on the morphism level given by group homomorphisms 
 
 $$S_m \times S_n \to S_{m+n}$$ 
 
@@ -513,7 +513,7 @@ or, in other notation,
 
 $$(F \otimes G)(n) = \sum_{j+k = n} Ind_{S_j \times S_k}^{S_n} F(j) \otimes G(k)$$
 
-and by restriction this formula gives the tensor product on polynomial functors $F$. It is a kind of categorification of the usual definition of product of (ordinary) polynomials, where given 
+and by restriction this formula gives the tensor product on polynomial species. It is a kind of categorification of the usual definition of product of (ordinary) polynomials, where given 
 
 $$F(x) = \sum_{0 \leq j \leq M} \frac{f_j x^j}{j!} \qquad G(x) = \sum_{0 \leq k \leq N} \frac{g_k x^k}{k!}$$
 
@@ -525,7 +525,7 @@ So in summary,
 
 +-- {: .un_thm} 
 ######Theorem 
-The representing object $\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of polynomial functors $\mathbb{P}^{op} \to FinVect$. 
+The representing object $\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of polynomial species $\mathbb{P}^{op} \to FinVect$. 
 =-- 
 
 Now, having defined Schur functors abstractly as pseudonatural transformations $U \to U$, the representability theorem together with the 2-categorical Yoneda lemma means that the category of Schur functors is equivalent to the category of symmetric monoidal linear functors on $\widebar{k \mathbb{P}}$. Accordingly, we calculate 
@@ -536,16 +536,14 @@ In other words,
 
 +-- {: .un_thm}
 ######Theorem 
-The category of (abstract) Schur functors is equivalent to the category of polynomial functors $\mathbb{P}^{op} \to FinVect$. 
+The category $Schur$ is equivalent to the category of polynomial species $\mathbb{P}^{op} \to FinVect$. 
 =-- 
-
-We will accordingly also call a polynomial functor $\mathbb{P}^{op} \to FinVect$ a **Schur functor**, and denote the category of polynomial functors by $Schur$. 
 
 NB: This theorem refers only to the underlying category $U(\overline{k\mathbb{P}})$. In other words, this category certainly has linear tensor category structure as well, but this structure is not respected by Schur functor composition which we consider next. 
 
 ## Composition of Schur functors ##
 
-Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence of the preceding theorem to a monoidal structure on the underlying category of Schur functors, or equivalently, polynomial functors $\mathbb{P}^{op} \to FinVect$. We proceed to analyze this monoidal structure. 
+Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence of the preceding theorem to a monoidal structure on the underlying category of Schur functors, or equivalently, polynomial species $\mathbb{P}^{op} \to FinVect$. We proceed to analyze this monoidal structure. 
 
 It may be easier to do this in reverse.  Any Schur functor may regarded as a functor
 
@@ -569,16 +567,16 @@ In notation which looks slightly less abstract, this is the Schur object given b
 
 $$(G \boxtimes F)(n) = \sum_{k \geq 0} G(k) \otimes_{S_k} F^{\otimes k}(n)$$ 
 
-It should be noted that $(G \boxtimes F)(n)$ is indeed $0$ for $n \gt (deg G)(deg F)$, so that $G \boxtimes F$ is indeed a polynomial functor. It is just the polynomial special case of the substitution product which is defined on general **linear species** $F, G: \mathbb{P}^{op} \to Vect$. 
+It should be noted that $(G \boxtimes F)(n)$ is indeed $0$ for $n \gt (deg G)(deg F)$, so that $G \boxtimes F$ is indeed a polynomial species. It is just the polynomial special case of the substitution product which is defined on general **linear species** $F, G: \mathbb{P}^{op} \to Vect$. 
 
 +-- {: .un_prop}
 ######Proposition 
-The product $\boxtimes: Schur \times Schur \to Schur$ is a monoidal product. The unit of the monoidal product is the polynomial functor $X$ given by the representable $\mathbb{P}(-, 1): \mathbb{P}^{op} \to FinVect$. 
+The product $\boxtimes$ makes the category of polynomial species into a monoidal category. The unit for this product is polynomial species $X$ given by the representable $\mathbb{P}(-, 1): \mathbb{P}^{op} \to FinVect$. 
 =-- 
 
 +-- {: .proof}
 ######Proof (Sketch)
-The following proof is adapted from a similar argument due to Max Kelly: we exhibit an associativity isomorphism $\alpha: (- \boxtimes F) \boxtimes G \to - \boxtimes (F \boxtimes G)$ on the basis of universal properties. The point is that by the universal property of $\overline{k\mathbb{P}}$, the category of functors 
+The following proof is adapted from a similar argument due to Max Kelly [ref]: we exhibit an associativity isomorphism $\alpha: (- \boxtimes F) \boxtimes G \to - \boxtimes (F \boxtimes G)$ on the basis of universal properties. The point is that by the universal property of $\overline{k\mathbb{P}}$, the category of functors 
 $$F: 1 \to \overline{k\mathbb{P}}$$ 
 is equivalent to the category of symmetric monoidal linear functors 
 $$H: \overline{k\mathbb{P}} \to \overline{k\mathbb{P}}$$ 
@@ -595,7 +593,7 @@ To summarize: we have equivalences between
 
 * The category $Schur = U(\overline{k\mathbb{P}})$. 
 
-The equivalence $Schur \to SymMonLinCauch(\overline{k \mathbb{P}}, \overline{k \mathbb{P}})$ takes a polynomial functor $F$ to $- \boxtimes F$. Moreover, the associativity isomorphism is precisely a structure 
+The equivalence $Schur \to SymMonLinCauch(\overline{k \mathbb{P}}, \overline{k \mathbb{P}})$ takes a polynomial species $F$ to $- \boxtimes F$. Moreover, the associativity isomorphism is precisely a structure 
 
 $$(- \boxtimes G) \circ (- \boxtimes F) \to - \boxtimes (F \boxtimes G)$$ 
 
