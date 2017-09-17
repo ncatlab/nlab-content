@@ -1,6 +1,6 @@
 
 Steve Awodey is a professor at Carnegie Mellon University interested in category theory, logic, 
-philosophy of mathematics, history of logic and analytic philosophy. For n-community one should point out his recent work on homotopical ideas in type theory.
+philosophy of mathematics, history of logic and analytic philosophy. For the 'n-community', one should point out his recent work on homotopical ideas in type theory.
 
 * [website](http://www.andrew.cmu.edu/user/awodey)
 
