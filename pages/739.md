@@ -53,7 +53,7 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 
 A   __profinite group__ is an [[inverse limit]] of a system of finite groups.
 
-The finite groups are considered as compact [[discrete groups|discrete]] [[topological groups]] and so the inverse limit, as a closed subspace of the compact space that is the product of all those finite groups has the _inverse limit topology__, hence is, as is said above, a compact Hausdorff, totally disconnected group.
+The finite groups are considered as compact [[discrete groups|discrete]] [[topological groups]] and so the inverse limit, as a closed subspace of the compact space that is the product of all those finite groups has the _inverse limit topology_, hence is, as is said above, a compact Hausdorff, totally disconnected group.
 
 =--
 
