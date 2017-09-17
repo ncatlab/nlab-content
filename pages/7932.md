@@ -99,7 +99,7 @@ form [[group objects in an (∞,1)-category]] to the [[(∞,1)-category]] of [[c
 +-- {: .num_prop }
 ###### Proposition
 
-Every $\infty$-action $\rho : V \times G \to V$ has a classifying morphism $\mathbf{c}_\rho : V//G \to \mathbf{B}G$ in that there is a [[fiber sequence]]
+Every $\infty$-action $\rho : V \times G \to V$ has a classifying morphism $\mathbf{c}_\rho : V \sslash G \to \mathbf{B}G$ in that there is a [[fiber sequence]]
 
 $$
   \array{
@@ -107,7 +107,7 @@ $$
     \\
     \downarrow
     \\
-    V//G &\stackrel{\overline{\rho}}{\to}& \mathbf{B}G
+    V \sslash G &\stackrel{\overline{\rho}}{\to}& \mathbf{B}G
   }
 $$
 
@@ -211,14 +211,14 @@ In summary, for $\mathbf{c} : \mathbf{B}G \vdash V(\mathbf{c}) : Type$ an action
     \vdash \prod_{\mathbf{c} : \mathbf{B}G} V(\mathbf{c}) : Type
   $$
 
-  is the collection of [[invariants]] ([[homotopy fixed points]]) of the actions.
+  is the collection of [[invariants]] ([[homotopy fixed points]]) of the action.
 
 And for $V_1, V_2$ two actions we have
 
 * the [[dependent product]] over the [[dependent type|dependent]] [[function type]]
 
   $$
-    \vdash : \prod_{\mathbf{c} : \mathbf{B}G}
+    \vdash \prod_{\mathbf{c} : \mathbf{B}G}
     (V_1(\mathbf{c}) \to V_2(\mathbf{c})) : Type
   $$
 
@@ -227,7 +227,7 @@ And for $V_1, V_2$ two actions we have
 * the [[dependent sum]] over the [[dependent type|dependent]] [[function type]]
 
   $$
-    \vdash : \sum_{\mathbf{c} : \mathbf{B}G}
+    \vdash \sum_{\mathbf{c} : \mathbf{B}G}
     (V_1(\mathbf{c}) \to V_2(\mathbf{c})) : Type
   $$
 
@@ -248,7 +248,7 @@ $$
 
 where $\prod_{\mathbf{B}G \to *} : \mathbf{H}_{/\mathbf{B}G} \to \mathbf{H}$ is the [[direct image]] of the [[base change geometric morphism]].
 
-In [[homotopy type theory]] [[syntax]]: for
+In [[homotopy type theory]] [[syntax]] for
 
 $$
   \mathbf{c} : \mathbf{B}G \vdash V(\mathbf{c}) : Type
@@ -319,7 +319,7 @@ Let
 
 $$
   \array{
-    V_i &\to& V\sslash G
+    V_i &\to& V_i \sslash G
     \\
     && \downarrow^{\bar \rho_i}
     \\
@@ -417,7 +417,7 @@ See also at _[Conjugation actions](#ConjugationActions)_ below.
 ###### Remark
 
 The [[invariant]], def. \ref{TypeOfInvariants}
-of the conjugation action, prop. \ref{InternalHomAction} are the action [[homomorphisms]]. (See also at [Examples - Conjugation actions](#ConjugationActions)).
+of the conjugation action, prop. \ref{InternalHomAction} are the action [[homomorphisms]]. (See also at [Examples - Conjugation actions](#ConjugationActions).)
 
 =--
 
@@ -507,7 +507,7 @@ $$
 which exhibits $\mathbf{B}G$ as the [[delooping]] of $G$.
 
 $$
-  G//G \simeq *
+  G \sslash G \simeq *
   \,.
 $$
 
@@ -528,7 +528,7 @@ $$
 given by the [[free loop space object]] $\mathcal{L}\mathbf{B}G$ exhibits the higher [[adjoint action]] of $G$ on itself:
 
 $$
-  G//_{Ad}G \simeq \mathcal{L}\mathbf{B}G
+  G \sslash_{Ad}G \simeq \mathcal{L}\mathbf{B}G
   \,.
 $$
 
@@ -550,7 +550,7 @@ $$
     \\
     \downarrow
     \\
-    V//\mathbf{Aut}(V) &\to& \mathbf{B} \mathbf{Aut}(V)
+    V \sslash \mathbf{Aut}(V) &\to& \mathbf{B} \mathbf{Aut}(V)
   }
 $$
 
