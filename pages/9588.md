@@ -128,7 +128,9 @@ For all $n$, $E(n)$ is [[Bousfield equivalence|Bousfield equivalence]] to $E(n-1
 
 * [[Morava K-theory]]
 
-* real form: [[EO(n)]]
+* orthogonal form: [[EO(n)]]
+
+* [[real-oriented cohomology theory|real]] form [[ER-theory]]
 
 * [[Morava E-theoretic Chern character]]
 
