@@ -1,0 +1,9 @@
+I'm a statistical-physics novice living and working in the general vicinity of Boston, Massachusetts.  I hang around the nLab to keep my intellectual curiosity engaged, and sometimes I contribute a bibliographic item or a copy-edit.
+
+Evidence of my lack of education:
+
+* [...about combinatorial games](http://golem.ph.utexas.edu/category/2009/11/combinatorialgame_categories.html#c029299)
+* [...about generating functions and stuff types](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html#c033601)
+* [...about thermodynamics, chaos theory and probability](http://golem.ph.utexas.edu/category/2011/05/categorytheoretic_characteriza_1.html#c037874)
+
+category: people
