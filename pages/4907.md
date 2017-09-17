@@ -1,4 +1,8 @@
 
 * [website](http://www.staff.science.uu.nl/~ooste110/)
 
+## Related entries
+
+* [[realizability]]
+
 category: people
