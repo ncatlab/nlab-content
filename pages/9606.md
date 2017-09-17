@@ -1,0 +1,10 @@
+
+* [webpage](http://math.feld.cvut.cz/hamhalte/)
+
+## related entries
+
+* [[poset of commutative subalgebras]]
+
+category: peope
+
+[[!redirects J. Hamhalter]]
