@@ -47,12 +47,16 @@ $$
 
 * An algebra object in the [[stable (infinity,1)-category of spectra]] is an [[A-infinity ring|A-∞ ring]]. If it is a commutative monoid, it is an [[E-infinity ring|E-∞ ring]].
 
+## Related concepts
+
+* [[En-algebra|E1-algebra]]
+
 
 ## References
 
 definition 1.1.14 in
 
-* [[Jacob Lurie]], _[[higher algebra|Noncommutative Algebra]]_
+* [[Jacob Lurie]], _[[Higher Algebra]]_
 
 An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic theories]] is in
 
