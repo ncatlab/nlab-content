@@ -53,7 +53,31 @@ Let $M$ be a [[differentiable manifold]], let $\Del$ be an [[affine connection]]
 Let $M$ be a [[Riemannian manifold]] (or a [[pseudo-Riemannian manifold]]) and let $p$ be a point in $M$.  Then $M$ may be equipped with the [[Levi-Civita connection]] $\Del_{lc}$, so we define the __natural Riemannian exponential map on $M$ at $p$__ to be the natural exponential map on $M$ at $p$ relative to $\Del_{lc}$.
 
 
-## In Lie groups
+## In Lie groups 
+
+Note: this section currently has wrong statements and is under repair. 
+
+The classical exponential function $\exp \colon \mathbb{R} \to \mathbb{R}^*$ or $\exp \colon \mathbb{C} \to \mathbb{C}^*$ satisfies the fundamental property: 
+
++-- {: .num_prop} 
+###### Proposition 
+The function $\exp \colon \mathbb{C} \to \mathbb{C}^*$ is a homomorphism taking addition to multiplication: 
+$$\exp(x + y) = \exp(x) \cdot \exp(y)$$ 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+A number of proofs may be given. One rests on the binomial identity 
+
+$$(x + y)^n = \sum_{k = 0}^n \binom{n}{k} x^k y^{n-k}$$ 
+
+whereupon 
+
+$$\sum_{n \geq 0} \frac{(x+y)^n}{n!} $$
+
+=-- 
+
+(to be continued) 
 
 Let $M$ be [[Lie group]] and let $\mathfrak{g}$ be its [[Lie algebra]] $T_1 M$, the tangent space to the [[identity element]] $1$.  Then $M$ may be equipped with the canonical left-invariant connection $\Del_l$ or the canonical right-invariant connection $\Del_r$.  It turns out that the natural Riemannian exponential maps on $M$ at $1$ relative to $\Del_l$ and $\Del_r$ are the same; we define this to be the __natural Lie exponential map on $M$ at the identity__, denoted simply $\exp$.  Several nice properties follow:
 
