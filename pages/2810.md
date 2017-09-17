@@ -211,6 +211,10 @@ For the relation to Poisson Operads see
 [[!redirects little k-disk operad]]
 [[!redirects little n-disk operad]]
 
+[[!redirects Ek-operad]]
+[[!redirects Ek-operads]]
+
+
 [[!redirects E-k operad]]
 [[!redirects E-n operad]]
 [[!redirects E-k-operad]]
