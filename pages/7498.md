@@ -5,7 +5,7 @@
 
 ## Idea
 
-For $G$ a [[topological group]] [[action|acting]] on a [[topological space]] $X$, its _Borel construction_ or _Borel space_ is another topological space $X \times_G E G$ such that, in many cases, its ordinary [[cohomology]] is the $G$-[[equivariant cohomology]] of $X$.
+For $G$ a [[topological group]] [[action|acting]] on a [[topological space]] $X$, its _Borel construction_ or _Borel space_ is another topological space $X \times_G E G$, also known as the [[homotopy quotient]]. In many cases, its ordinary [[cohomology]] is the $G$-[[equivariant cohomology]] of $X$.
 
 ## Definition
 
