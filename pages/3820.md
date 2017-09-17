@@ -240,7 +240,7 @@ infinity. The motivation explicit pre-symplectic current formula
 appears from the desire to interpolate between the above two
 formalisms.
 
-* [[Edward Witten]] _Interacting field theory of open superstrings_ Nuclear Physics B Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213(86)90298-1))
+* [[Edward Witten]] _Interacting field theory of open superstrings_ Nuclear Physics B Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213%2886%2990298-1))
 
   (S)
 
