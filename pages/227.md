@@ -19,11 +19,11 @@
 
 A (unital, non-commutative) **ring** is (equivalently)
 
-* a [[monoid]] [[internalization|internal to]] [[Ab]].  
-* a [[enriched category|category enriched over]] [[Ab]] with one object.
-* a [[ringoid]] with one object.
+* a [[monoid]] [[internalization|internal to]] [[Ab]] regarded as a [[monoidal category]] equipped with the [[tensor product of abelian groups]];  
+* a [[enriched category|category enriched over]] [[Ab]] with a single [[object]].
+* a [[ringoid]] with a single [[object]].
 
-Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoidal category using the tensor product of abelian groups.  A **commutative** (unital) ring is an [[abelian monoid]] object in [[Ab]].
+A **commutative** (unital) ring is an [[abelian monoid]] object in $(Ab, \otimes)$.
 
 In usual ring theory people often talk about **nonunital** rings as well: multiplicative [[semigroup]]s with additive [[abelian group]] structure where the multiplication is distributive toward addition; these are semigroup objects in $Ab$.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative nonunital**.  Note the adjective 'nonunital' is an example of the [[red herring principle]].
 
