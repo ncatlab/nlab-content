@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 #### Linear algebra
 +-- {: .hide}
 [[!include homotopy - contents]]
@@ -82,5 +86,4 @@ Discussion of what should be the [[categorical semantics]] of dependent linear t
 
 [[!redirects dependent linear homotopy type theory]]
 [[!redirects dependent linear homotopy type theories]]
-
 
