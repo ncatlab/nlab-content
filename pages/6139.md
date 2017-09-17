@@ -118,4 +118,13 @@ For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal
 
   * [[suspension]], [[reduced suspension]]
 
+## References
+
+Section 6.1.2 of
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+Section 5.1.3 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
 
