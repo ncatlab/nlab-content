@@ -30,7 +30,7 @@ The Haefliger groupoid is naturally a [[topological groupoid]]. As such it is an
 
 ### Classification of foliations
 
-The Haeflice groupoid classifies [[foliations]]. See at _[[Haefliger theorem]]_.
+The Haefliger groupoid classifies [[foliations]]. See at _[[Haefliger theorem]]_.
 
 ## References
 
