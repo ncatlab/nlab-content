@@ -107,5 +107,5 @@ One can consider coherence laws for algebraic structures other than $(n,r)$-cagt
 [[!redirects coherence]]
 
 [[!redirects coherence condition]]
-
+[[!redirects coherence relation]]
 
