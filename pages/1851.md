@@ -65,6 +65,7 @@ This means that Dirac almost found [[bundle gerbe]]s already in 1931, had he not
 
 
 ## Magnetic charge anomaly 
+ {#MagneticChargeAnomaly}
 
 Short of an experimental detection of magnetic monopoles the above considerations are of little practical relevance for ordinary [[electromagnetism]]. In their (straightforward) generalization to higher abelian [[gauge theory]] they do, however, serve to provide a more complete conceptual picture that provides the conceptual bases for effects such as the [[Green–Schwarz mechanism]].
 
