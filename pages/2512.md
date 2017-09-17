@@ -26,6 +26,8 @@ on [[cohomology]] and [[twisted cohomology]] structures in [[string theory]]/[[M
 
 * H.S., [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
 
+  (this is followed up on in remark 5.4.12 in [[Michael Hopkins|Hopkins]], [[Jacob Lurie|Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ )
+
 On [[F4]] and [[Cayley plane]]-[[fiber bundles]] in [[M-theory]]:
 
 * H.S. _$\mathbb{O}P^2$-bundles in M-theory_,  	Commun. Num. Theor. Phys 3:495-530,2009 ([arXiv:0807.4899](http://arxiv.org/abs/0807.4899))
