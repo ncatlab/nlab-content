@@ -130,6 +130,10 @@ It is useful to realize this equivalently but a bit more naturally as follows.
 +-- {: .num_defn #ReductionOnRings}
 ###### Definition
 
+Write $CRing_{fin}$ for the [[category]] of [[finitely generated ring|finitely generated]] [[commutative rings]].
+
+> (to do: better category $CRing_{fin}^{nil}$ of [[nilpotent ring extensions]])
+
 Write
 
 $$
