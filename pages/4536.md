@@ -71,7 +71,7 @@ $$
 
 ## For $L_\infty$-algebras
 
-When Lie algebras are generalized to [[∞-Lie algebra]]s, the Jacobi identity in terms of the binary bracket is relaxed to hold only up to a [[natural isomorphism]] called __jacobiator__ $[-,-,-] : \mathfrak{g}_0 \vee \mathfrak{g}_0 \vee \mathfrak{g}_0 \to \mathfrak{g}_1$
+When Lie algebras are generalized to [[∞-Lie algebra]]s, the Jacobi identity in terms of the binary bracket is relaxed to hold only up to a [[natural isomorphism]] called the __jacobiator__, $[-,-,-] : \mathfrak{g}_0 \vee \mathfrak{g}_0 \vee \mathfrak{g}_0 \to \mathfrak{g}_1$,
 
 $$
   [x,[y,z]] + [y,[z,x]] + [z,[x,y]]  = 
