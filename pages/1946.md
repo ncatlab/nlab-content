@@ -277,7 +277,10 @@ Let $C = sSet_{Quillen}$ be the category [[sSet]] equipped with the standard [[m
 
 We record some useful facts.
 
-+-- {: .un_prop}
+##### With values in simplicial sets
+  {#OverDeltaWithValuesInSimplicialSets}
+
++-- {: .num_prop}
 ###### Observation
 
 
@@ -321,7 +324,7 @@ Therefore $L_n(X) \to X_n$ is clearly an injection of sets, hence a monomorphism
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The canonical cosimplicial simplicial set
@@ -355,7 +358,7 @@ This is $\partial \Delta[n]$. The inclusion $\partial \Delta[n] \to \Delta[n]$ i
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Corollary
 
 Every [[simplicial set]] is the [[homotopy colimit]] over its diagram of simplices (with values in the constant simplicial set on the sets of simplicies $X_n$):
@@ -391,7 +394,7 @@ But by the [[co-Yoneda lemma]] this is in fact [[isomorphism|isomorphic]] to $X$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This kind of argument has many immediate generalizations. For instance for $C = [K^{op}, sSet_{Quillen}]_{inj}$ the injective [[model structure on simplicial presheaves]] over any small category $K$, or any of its left [[Bousfield localization of model categories|Bousfield localizations]], we have that the cofibrations are objectwise those of simplicial sets, hence objectwise monomorphisms, hence it follows that every simplicial presheaf $X$ is the hocolim over its simplicial diagram of component presheaves.
@@ -400,7 +403,7 @@ This kind of argument has many immediate generalizations. For instance for $C = 
 
 For the following write $\mathbf{\Delta} : \Delta \to sSet$ for the [[fat simplex]].  
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The fat simplex is Reedy cofibrant.
@@ -415,8 +418,11 @@ By the discussion at [[homotopy colimit]], the fat simplex is cofibrant in the p
 
 =--
 
+##### With values in an arbitrary model category
 
-+-- {: .un_prop}
+Let $C$ be a [[model category]].
+
++-- {: .num_prop}
 ###### Corollary
 
 For $X \in [\Delta^{op}, C]$ a Reedy cofibrant object, the [[Bousfield-Kan map]]
@@ -441,7 +447,7 @@ $$
     [\Delta^{op}, C]_{Reedy}
 $$
 
-(as discussed there). Therefore with its second argument fixed and cofibrant it is a [[Quillen adjunction|left Quillen functor]] in the remaining argument. As such, it preserves weak equivalences between cofibrant objects (by the [[factorization lemma]]). By the above discussion, both $\mathbf{\Delta}[n]$ and $\Delta[-]$ are indeed cofibrant in $[\Delta,sSet_{Quillen}]_{Reedy}$. Clearly the functor $\mathbf{\Delta}[-] \to \Delta[-]$ is objectwise a weak equivalence in $sSet_{Quillen}$, hence is a weak equivalence.
+(as discussed there). Therefore with its second argument fixed and cofibrant it is a [[Quillen adjunction|left Quillen functor]] in the remaining argument. As such, it preserves weak equivalences between cofibrant objects (by the [[factorization lemma]]). By the [above discussion](#OverDeltaWithValuesInSimplicialSets), both $\mathbf{\Delta}[n]$ and $\Delta[-]$ are indeed cofibrant in $[\Delta,sSet_{Quillen}]_{Reedy}$. Clearly the functor $\mathbf{\Delta}[-] \to \Delta[-]$ is objectwise a weak equivalence in $sSet_{Quillen}$, hence is a weak equivalence.
 
 =--
 
