@@ -290,7 +290,7 @@ Then the transfer theorem applies, so that $A$ has a cofibrantly generated model
 ###### Proof
 We have remarked above that $U$ has a left adjoint, and we assumed it to be accessible, so it remains to show that the given acyclicity condition implies the standard one.
 
-We first show that pushouts in $A$ of images under $F$ of generating acyclic cofibrations become acyclic cofibrations (not just weak equivalences) upon applying $U$.  Let $i\colon x\to y$ be a generating acyclic cofibration, and
+We first show that [[pushout]]s in $A$ of images under $F$ of generating acyclic cofibrations become acyclic cofibrations (not just weak equivalences) upon applying $U$.  Let $i\colon x\to y$ be a generating acyclic cofibration, and
 $$\array{F(x) & \overset{f}{\to} & a\\
   ^{F (i)}\downarrow \\
   F(y)}$$
