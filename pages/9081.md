@@ -57,10 +57,10 @@ The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [
  {#IngredientsOfFundamentalPhysics}
 
 Ever since [[Issac Newton]], [[theories of physics]] are formulated in the language of [[mathematics]]. Modern physics is formulated in terms of modern mathematics in the most intimate way.
-We aim to give here a account at least of central parts of modern physics naturally formulated in the mathematics of _[[higher geometry]]_ that we discussed in _[geometry of physics - Geometry](geomery+of+physics#GEOMETRY)_. 
+We aim to give here an account at least of central parts of modern physics naturally formulated in the mathematics of _[[higher geometry]]_ that we discussed in _[geometry of physics - Geometry](geometry+of+physics#GEOMETRY)_. 
 
 The physics that we are concerned with is _fundamental_ physics,
-that part of the large subject of physics which is concerned with elementary  processes and phenomena of physics from which all others are thoght to _emerge_ as approximations to collective effects of complex configurations of the elementary 
+that part of the large subject of physics which is concerned with elementary  processes and phenomena of physics from which all others are thought to _emerge_ as approximations to collective effects of complex configurations of the elementary 
 entities.
 
 The best [[theory (physics)|theory]] of fundamental physics as presently understood is known as _[[Einstein-Yang-Mills-Dirac-Higgs theory]]_. 
@@ -149,7 +149,7 @@ _[[topological field theory|topological]] [[local  Lagrangian]] [[gauge field th
 
 In the 1980s attention turned to _other_ topological local Lagrangian gauge field theories than that governing the standard model: it turns out that there are many such  [[theories of physics]] that share crucial properties with the standard model but which  otherwise predict, if considered as phenomenological models, physics  radically different from that
 which we actually observe experimentally. For instance there are respectable theories of fundamental 
-pyhsics which describe physics in dimensions other than the three spatial and one time dimension which we clearly observe, theories that contain no force of gravity, others that contain only the force of gravity, theories that contain mirror partners of every species of matter or contain no matter at all, etc.
+physics which describe physics in dimensions other than the three spatial and one time dimension which we clearly observe, theories that contain no force of gravity, others that contain only the force of gravity, theories that contain mirror partners of every species of matter or contain no matter at all, etc.
 
 In short, it was gradually realized, and realized to be important, that, in the platonic world of mathematics and of theoretical physics, there is a whole space of field theories, in which the one underlying the standard model of observed physics is only one single point, even if regarded with its free parameters.
 
@@ -215,7 +215,7 @@ $$
   \Sigma_k \mapsto Z(\Sigma_k) \in (n-k)\mathrm{Vect}
 $$
 
-That something like this should work was hypothetized by [[Dan Freed]] (in _[[Higher Algebraic Structures and Quantization]]_), the precise formulation was later given by [[Jacob Lurie]] (in _[[On the Classification of Topological Field Theories]]_). In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tieres" of the theory). 
+That something like this should work was hypothetized by [[Dan Freed]] (in _[[Higher Algebraic Structures and Quantization]]_), the precise formulation was later given by [[Jacob Lurie]] (in _[[On the Classification of Topological Field Theories]]_). In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tiers" of the theory). 
 
 But in the [[physics]]-community, at least in the [[algebraic quantum field theory]]-community, there is also the well-established term of _[[local quantum field theory]]_ which refers broadly to what the axioms of "extended TQFT" capture. Hence we should think of this as formalizing _topological local field theory_.
 
@@ -525,16 +525,16 @@ $$
 
 An element in here is a [[universal characteristic class]] of $G$-[[principal bundles]]. In Chern-Simons theory this is going to be what traditionally is called the [[level (Chern-Simons theory)|level]] of the theory.
 
-We writ
+We write
 
 $$
   c : B G \to  B^3 U(1) \simeq K(\mathbb{Z},4)
 $$
 
-for a represenative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. 
+for a representative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. 
 
 
-Under [[geometric realization of cohesive ∞-groupoids|geoetric realization]] as just [recalled](#IntermezzoElementsOfHigherCohesiveGeometry) this has an essentially unique lift to _smooth cohomology_, hence to a morphism of [[moduli ∞-stacks]]
+Under [[geometric realization of cohesive ∞-groupoids|geometric realization]] as just [recalled](#IntermezzoElementsOfHigherCohesiveGeometry) this has an essentially unique lift to _smooth cohomology_, hence to a morphism of [[moduli ∞-stacks]]
 
 $$
   \mathbf{c}
@@ -609,7 +609,7 @@ $$
   \,.
 $$
 
-The smooth and differential refinement of the [[first Chern class]] itself $c_1 \;\colon\; B U(1) \to B U(1) K(\mathbb{Z},2) $ is tautological: this is simply the identity 
+The smooth and differential refinement of the [[first Chern class]] itself $c_1 \;\colon\; B U(1) \to B U(1) \simeq K(\mathbb{Z},2) $ is tautological: this is simply the identity 
 
 $$
   \widehat \mathbf{c}_1 \coloneqq id 
