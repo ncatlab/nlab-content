@@ -139,9 +139,7 @@ A [[small category]] is accessible precisely when it is [[idempotent complete ca
 
 ## Related concepts
 
-## Relation to other concepts 
-
-If an accessible category in addition has all (small) [[colimit]]s (or, equivalently, [[limits]]), then it is a [[locally presentable category]].
+[[!include locally presentable categories - table]]
 
 
 
