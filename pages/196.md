@@ -64,7 +64,7 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 * [[function set]]
 
-* [[function algebra]]
+* [[function algebra]], [[pullback of functions]]
 
 * [[continuous function]], [[smooth function]]
 
