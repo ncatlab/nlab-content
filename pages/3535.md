@@ -29,3 +29,4 @@ category: people
 [[!redirects Higgins]] 
 
 [[!redirects P. J. Higgins]]
+[[!redirects Philip J. Higgins]]
