@@ -45,7 +45,7 @@ The **simplex category** $\Delta$ is the [[full subcategory]] of $\Delta_a$ (and
 +-- {: .num_remark }
 ###### Remark
 
-It is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each [[isomorphism class]]] of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
+It is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each [[isomorphism class]] of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
 
 With this the objects of $\Delta$ are in bijection with [[natural numbers]] $n \in \mathbb{N}$ and one usually writes 
 
