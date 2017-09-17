@@ -13,7 +13,7 @@ The term **connection** can mean any of
   * [[meromorphic connection]]
   * [[Grothendieck connection]]
   * [[simplicial connection]]
-
+  * [[connection in noncommutative geometry]]
 * [[Hurewicz connection]]
 
 * [[connection for a differential graded algebra]]
