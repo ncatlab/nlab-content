@@ -144,6 +144,10 @@ In this diagram now
 
 * [[ordinary differential equation]]
 
+* [[differential Galois theory]]
+
+* [[D-module]], [[D-geometry]]
+
 ## References
 
 > Lots of references to go here
