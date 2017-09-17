@@ -122,6 +122,7 @@ There are other ways of realizing the notion of [[infinitesimal number]] precise
 
 * Wikipedia: [nonstandard analysis](http://en.wikipedia.org/wiki/Non-standard_analysis), [ultraproduct](http://en.wikipedia.org/wiki/Ultraproduct), [hyperreal numbers](http://en.wikipedia.org/wiki/Hyperreal_numbers), [Abraham Robinson](http://en.wikipedia.org/wiki/Abraham_Robinson)
 
+* Sergio Salbany, Todor Todorov, _Nonstandard analysis in topology_, [arxiv/1107.3323](http://arxiv.org/abs/1107.3323)  
 [[!redirects hyperreal]]
 [[!redirects hyperreal number]]
 [[!redirects hyperreals]]
