@@ -1,0 +1,21 @@
+
+
+## Related concepts
+
+* [[classical mechanics]]
+
+* [[translation group]]
+
+* [[Lorentz group]], [[Poincare group]]
+
+* [[super Euclidean group]]
+
+## References
+
+* Wikipedia, _[Galilean group](http://en.wikipedia.org/wiki/Galilean_transformation#Galilean_group)_
+
+* Wikipedia, _[Euclidean group](http://en.wikipedia.org/wiki/Euclidean_group)_
+
+[[!redirects Euclidean group]]
+
+[[!redirects Galileo group]]
