@@ -69,6 +69,7 @@ $$
 
 coming from the filtering.
 
+This is a special case of the [[spectral sequence of a stable homotopy type]].
 
 ## Definition
 
@@ -917,6 +918,10 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 =--
 
 
+## Related concepts
+
+* [[spectral sequence of a stable homotopy type]]
+
 ## References
 
 A detailed account is in 
@@ -944,4 +949,3 @@ for instance section 5 of
 [[!redirects spectral sequence of a filtration]]
 
 [[!redirects spectral sequence of a filtered chain complex]]
-
