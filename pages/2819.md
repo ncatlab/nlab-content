@@ -76,9 +76,14 @@ The historical paper of Hurewicz is
 
 * [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
 
+A decent review of Hurewicz fibrations, [[Hurewicz connections]] and related issues isin 
+
+* [[James Eells]], Jr., _Fibring spaces of maps_, in Richard Anderson (ed.) _Symposium on infinite-dimensional topology_
+
 A textbook account of the [[homotopy lifting property]] is for instance in
 
 * [[Alan Hatcher]], from p. 61 on in _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+
 
 See also the textbooks on algebraic topology by Whitehead and Spanier. 
 
