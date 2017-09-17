@@ -30,16 +30,12 @@ a __left $C$-coaction__ is
 
   * and co[[unital]] i.e. $(\epsilon\otimes \mathrm{id}_M)\circ\rho = \mathrm{id}_M$ (in this formula, $\mathbf{1}\otimes M$ is identified with $M$). 
 
-In some monoidal categories, e.g. of (super)[[vector space]]s, and of [[Hilbert space]]s, one often says (left/right) __corepresentation__ instead of (left/right) coaction. 
+In some monoidal categories, e.g. of (super)[[vector space]]s, and of [[Hilbert space]]s, one often says (left/right) [[corepresentation]] instead of (left/right) coaction. 
 
 
 [[!redirects comodules]]
 [[!redirects co-module]]
 [[!redirects co-modules]]
-[[!redirects corepresentation]]
-[[!redirects corepresentations]]
-[[!redirects co-representation]]
-[[!redirects co-representations]]
 [[!redirects coaction]]
 [[!redirects coactions]]
 [[!redirects co-action]]
