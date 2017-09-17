@@ -1045,9 +1045,9 @@ The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \da
  {#SimpsonTeleman}
 
 
-The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 3.4 of 
+The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 4.4 of 
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 The [[cohomology localization]] of $SynthDiff\infty Grpd$ and the infinitesimal singular simplicial complex as a presentation for infinitesimal paths objects in $SynthDiff\infty Grpd$ is discussed in
 
@@ -1062,6 +1062,10 @@ The discussion of the cohomology localization of $SynthDiff\infty Grpd$ follows 
 The construction of the infinitesimal path object has been amplified and discussed by [[Anders Kock]] under the name _combinatorial differential forms_, for instance in
 
 *  [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
+The discussion that the normalized [[cosimplicial algebra]] of functions on the [[infinitesimal singular simplicial complex]] is the [[de Rham complex]] is further discussed in 
+
+* Herman Stel, _[[Cosimplicial C-infinity rings and the de Rham complex of Euclidean space]]_ ([arXiv:arXiv:1310.7407](http://arxiv.org/abs/arXiv:1310.7407))
 
 The results on differentiable [[Lie group cohomology]] used above is in 
 
@@ -1087,6 +1091,8 @@ following
 
 * [[Vladimir Hinich]], _DG coalgebras as formal stacks_, J. Pure Appl. Algebra, 162 (2001), 209-250  ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
  {#Hinich}
+
+[[!redirects synthetic differential infinity-groupoids]]
 
 [[!redirects synthetic differential ∞-groupoid]]
 [[!redirects synthetic differential ∞-groupoids]]
