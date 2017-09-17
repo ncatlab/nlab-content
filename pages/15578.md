@@ -1,0 +1,68 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[topological space]]/[[simplicial set]]/[[homotopy type]]/[[infinity-groupoid]] $X$ is _nilpotent_ if the [[action]] of its [[fundamental group]] $\pi_1(X)$ on all the higher [[homotopy groups]] $\pi_n(X)$ is nilpotent, in that each $\pi_n(X)$ admits a sequence of [[subgroups]]
+
+$$
+  \ast = G_k \hookrightarrow \cdots \hookrightarrow G_1  = \pi_n(X)
+$$
+
+such that for all $i$
+
+1. $G_{i+1} \hookrightarrow G_i$ is a [[normal subgroup]];
+
+1. the [[quotient]] $G_i/G_{i}$ is an [[abelian group]];
+
+1. each $G_i$ is closed under the action of $\pi_1(X)$;
+
+1. the induced action on $G_i/G_{i+1}$ is trivial.
+
+## Properties
+
+Nilpotency is involved in sufficient conditions for many important constructioons in ([[stable homotopy theory|stable]]) [[homotopy theory]], see for instance at 
+
+* [[localization of a space]];
+
+* [[fracture theorem]].
+
+## Related concepts
+
+* [[finite homotopy type]]
+
+* [[p-local homotopy type]]
+
+* [[p-complete homotopy type]]
+
+
+## References
+
+Review includes
+
+* {#Riehl14} [[Emily Riehl]], def.14.4.9 in _Categorical homotopy theory_, new mathematical monographs 24, Cambridge University Press 2014 (published version)
+
+[[!redirects nilpotent homotopy types]]
+
+[[!redirects nilpotent space]]
+[[!redirects nilpotent spaces]]
+
+[[!redirects nilpotent spectrum]]
+[[!redirects nilpotent spectra]]
