@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
-#### Yoneda lemma
-+--{: .hide}
-[[!include Yoneda lemma - contents]]
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
 =--
 =--
 =--
