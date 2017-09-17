@@ -104,9 +104,14 @@ This follows essentially immediately from Theorem \ref{Categorical} applied to $
 
 In some places, one can find the classical Brown representability stated without the restricted to *connected* pointed spaces.  However, this version is false, as is the analogous statement for unpointed spaces.
 
-In the paper of Freyd-Heller cited below is constructed a group $G$ and an endomorphism $g:G\to G$ which does not split in the quotient of [[Grp]] by conjugacy.  Since the quotient of [[Grp]] by conjugacy embeds as the full subcategory of the unpointed homotopy category $Ho(Top)$ on connected [[homotopy 1-types]], we have an endomorphism $B g:B G \to B G$ of the [[classifying space]] of $G$ which does not split in $Ho(Top)$.
+In the paper of Freyd-Heller cited below, it is show that if $G$ is [[Thompson's group F]], with $g:G\to G$ its canonical endomorphism, then $g$ does not [[split idempotent|split]] in the quotient of [[Grp]] by conjugacy.  Since the quotient of [[Grp]] by conjugacy embeds as the full subcategory of the unpointed homotopy category $Ho(Top)$ on connected [[homotopy 1-types]], we have an endomorphism $B g:B G \to B G$ of the [[classifying space]] of $G$ which does not split in $Ho(Top)$.
 
 Thus, if $F:Ho(Top)^{op} \to Set$ splits the idempotent $[-,B g]$ of $[-,B G]$, then $F$ satisfies the hypotheses of the Brown representability theorem (being a [[retract]] of a representable functor), but is not representable.  A similar argument using $B G_+$ applies to $Ho(Top_*)$.
+
+There is also another example due to Heller, which fais to be representable for cardinality reasons.
+
+* MO questions [non-connected spaces](http://mathoverflow.net/questions/104866/brown-representability-for-non-connected-spaces), [unpointed spaces](http://mathoverflow.net/questions/11456/unpointed-brown-representability-theorem)
+* [blog post](http://golem.ph.utexas.edu/category/2012/08/brown_representability.html)
 
 
 ## References
