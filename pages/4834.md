@@ -1,7 +1,7 @@
 ## Idea ##
 
-A pure type system is an explicitly typed lambda calculus
-using dependent product as the type of lambda expressions:
+A pure type system is an explicitly typed [[lambda calculus]]
+using [[dependent product]] as the type of lambda expressions:
 the basic idea is that
 $$\Gamma, x:A \vdash B:C$$
 implies
@@ -24,7 +24,7 @@ The _terms_ of a pure type system are the following (recursive definition):
 Here $x$ is a variable and $A$, $B$ are terms.
 The operators $\lambda$ and $\prod$ bind the variable $x$.
 
-The typing of terms is inductvely defined by the following rules.
+The typing of terms is inductively defined by the following rules.
 A typing is of the form
 $$x_{1} : A_{1}, \dots, x_{n} : A_{n} \vdash A : B$$
 meaning that the types of the variables declared on the left
@@ -70,7 +70,7 @@ name                                                  | $(\ast, \ast)$ | $(\ast,
 $\lambda\rightarrow$ [[simply typed lambda calculus]] | yes            |                   |                   |                      |
 $\lambda2$ [[system F]]                               | yes            | yes               |                   |                      |
 [[LF]]                                                | yes            |                   | yes               |                      |
-[[calculus of constructors]]                          | yes            | yes               | yes               | yes                  |
+[[calculus of constructions]]                          | yes            | yes               | yes               | yes                  |
 
 ### Inconsistent systems ### 
 
