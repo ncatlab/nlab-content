@@ -5,6 +5,8 @@
 
 * [[manifold]]
 
+  * [[coordinate chart]], [[atlas]]
+
   * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
 
   * [[smooth manifold]], [[Riemannian manifold]], [[complex manifold]]
