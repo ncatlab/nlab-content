@@ -69,3 +69,8 @@ For instance the syntactic categories of [[Lawvere theory|Lawvere theories]] are
 We say a functor $\mathcal{T}_1 \to \mathcal{T}_2$ of toposes (for instance a [[logical morphism]] or a [[geometric morphism]]) _preserves a theory_ $T$ if for every model $C_T \to \mathcal{T}_1$ of $T$ in $\mathcal{T}_1$, the composite $C_T \to \mathcal{T}_1 \to \mathcal{T}_2$ is a model of $T$ in $\mathcal{T}_2$.
 
 For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] since, being a [[right adjoint]], it preserves [[limit]]s, hence finite products.
+
+## Links and literature
+
+* n-category cafe 2010: [what is a theory](http://golem.ph.utexas.edu/category/2010/07/what_is_a_theory.html)
+* [[Mamuka Jibladze]], [[Teimuraz Pirashvili]], _Cohomology of algebraic theories_, J. Algebra  __137__ (1991),  no. 2, 253--296, <a href="http://dx.doi.org/10.1016/0021-8693(91)90093-N">doi</a>
