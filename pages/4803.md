@@ -18,6 +18,14 @@
 
 
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[quantum field theory]] the term _gravitino_ refers to the superpartner of the [[graviton]].
+
 In [[supergravity]] a field configuration is a [[connection on a bundle|connection]] locally given by a  [[Lie algebra-valued form]]
 
 $$
@@ -27,3 +35,20 @@ $$
 on [[spacetime]] with values in the [[super Poincare Lie algebra]]. Its components $\Psi$ in the [[spin group]] [[representation]] $\Gamma \subset \mathfrak{siso}(d)$ is the **gravitino** field.
 
 The name derives from the fact that the other two comonents are identified in [[gravity]] with the [[graviton]] field.
+
+## Related concepts
+
+* [[boson]]
+
+  * [[gauge boson]]
+
+    * [[photon]], [[gluon]], [[graviton]]
+
+* [[fermion]] 
+
+  * [[electron]], [[quark]],
+
+  * **gravitino**, [[gaugino]] , [[dilatino]]
+
+
+[[!redirects gravitinos]]
