@@ -58,7 +58,7 @@ $$
 
 that makes $A$ into a [[Lie algebra]] such that for each element $a \in A$ the operation $[a,-] : A \to A$ is a [[derivation]] of the product $\cdot : A \otimes A \to A$.
 
-As real _super Poisson algebra_ is accordingly a [[superalgebra]] which is graded-commutative and equipped with the compatible structure of a [[super Lie algebra]].
+This definition readily generalized to symmetric monoidal categories. For example, a real _super Poisson algebra_ is a graded-commutative [[superalgebra]] equipped with the compatible structure of a [[super Lie algebra]].
 
 A _[[homomorphism]]_ $(A, \dot, [-,-]) \to (B, \cdot, [-,-])$ of (super) Poisson algebras is a [[linear function]] $A \to B$ that respects both the associative product and the Lie bracket.
 
@@ -67,6 +67,9 @@ Write [[Poiss]] for the resulting category of
 
 =--
 
+The standard setup of conservative classical mechanical system is a Poisson manifold. 
+
+A [[Poisson manifold]] is a smooth real manifold $M$ equipped with a Poisson structure (that is the Poisson bracket) on the commutative algebra $C^\infty(M)$ of smooth real valued functions on $M$. Recall that every [[symplectic manifold]] provides an example of a Poisson manifold. Possibly infinite-dimensional generalization of this example is called a [[phase space]]. Hence commutative Poisson algebras should be viewed as formal opposites to phase spaces in a generalized sense. 
 
 +-- {: .num_defn #ClassMechSys}
 ###### Definition
@@ -90,16 +93,9 @@ Poisson superalgebras describe systems with [[fermion]]s. Systems without fermio
 +-- {: .num_remark }
 ###### Remark
 
-This definition captures most notions of "mechanical systems". Exceptions contain non-fundamental systems such as [[dissipative systems]] (which are really approximations to a larger system that _is_ given by a Poisson algebra ).
-
-=--
-
-+-- {: .num_example #ClassicalSystemFromPoissonManifold}
-###### Example
-
-For $(X, \{-,-\})$ a [[Poisson manifold]] or $(X, \omega)$ a [[symplectic manifold]], the algebra of [[smooth function]]s $C^\infty(X, \mathbb{R})$ is naturally a Poisson algebra, thus may be regarded as an object in $ClassMechSys$. For classical mechanical systems of this form, we say that the [[manifold]] $X$ is the [[phase space]] of the system.
-
-Generally, therefore, for $(A, \cdot,[-,-])$ a Poisson algebra, we may regard it as a formal dual to some generalized Phase space.
+This definition captures most notions of "mechanical systems". Exceptions contain 
+[[open system]]s for which there is no conservation laws (examples: externally-driven 
+and [[dissipative system]]s). In real worlds, physicists believe that such systems may be realized only as parts of larger systems (eventually, the universe) which are conservative; hence either describable by a Poisson algebra or it entails energy types which can not be described using classical mechanics. 
 
 =--
 
@@ -153,7 +149,7 @@ example \ref{ClassicalSystemFromPoissonManifold}, then the pure states correspon
 
 ### Flows and evolution
 
-Let $(A, \cdot, \{-,-\})$ be a classical mechanical system.
+Let $M$ be a [[Poisson manifold]], possibly infinite-dimensional with $A = C^\infty(M)$. More generally, $A$ can be a Poisson algebra with a good notion of weak topology and corresponding notion of a derivative. 
 
 +-- {: .num_remark}
 ###### Remark
@@ -171,9 +167,11 @@ $$
   \,.
 $$
 
+with initial value $F_a(b)(0) = b$. The differentiation is understood pointwise on $M$ (pointwise we get to differentiate a function $\mathbb{R}\to\mathbb{R}$). 
+
 =--
 
-In non-relativistic classical mechanics it makes sense to single out one element $H \in A$ and declare that the corresponding flow is the _time evolution_ of observables of the system. One calls this $H$ the **[[Hamiltonian]]** or **energy** observable of the system.
+In non-relativistic classical mechanics every system comes up with a choice of one element $H \in A$ and declare that the corresponding flow is the _time evolution_ of observables of the system. One calls this $H$ the **[[Hamiltonian]]** or *energy observable* of the system. The physical meaning, however, does not change if $H$ is changed by an overall constant. 
 
 ### Quantization
 
