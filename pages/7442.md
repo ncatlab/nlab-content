@@ -25,8 +25,10 @@ An [[(∞,2)-category]] of [[(∞,2)-sheaves]]. The joint higher generalization 
 
 * [[(0,1)-topos]]
 
-* [[topos]], [[(∞,1)-topos]]
+* [[topos]], [[(∞,1)-topos]], [[(n,1)-topos]]
 
 * [[2-topos]]
+
+* [[(∞,n)-topos]]
 
 [[!redirects (∞,2)-topos]]
