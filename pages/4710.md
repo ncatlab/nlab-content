@@ -39,7 +39,7 @@ In a [[commutative ring]] (or rig), a __unit__ is an element of $R$ that has an 
 
 ### Units in monoids
 
-Notice that addition plays no role in the characterisation about of a unit in a ring.  Accordingly, a unit in a [[monoid]] may be defined in precisely the same way.
+Notice that addition plays no role in the characterisation above of a unit in a ring.  Accordingly, a unit in a [[monoid]] may be defined in precisely the same way.
 
 A [[group]] is precisely a monoid in which every element is a unit.
 
@@ -78,6 +78,8 @@ For example, the [[kilogramme]] is a unit of mass, because any mass may be expre
 Often the term 'unit' (or 'unity') is used as a synonym for '[[identity element]]', especially when this identity element is denoted $1$.  For example, a 'ring with unit' (or 'ring with unity') is a ring with an identity (used by authors who say 'ring' for a rng).  Of course, a rng with identity has a unit, since $1$ itself is a unit.
 +-- {: .query}
 I haven\'t managed to find either a proof or a counterexample to the converse: that a rng with a unit must have an identity.
+
+If R is a rng with a unit u, then every element uniquely factors through u. In particular, u itself does. u=au, with a unique. So a is an identity.
 =--
 
 It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
