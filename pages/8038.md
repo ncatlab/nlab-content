@@ -54,7 +54,14 @@ The [[probability amplitude]] for a process of [[scattering]] of [[fundamental p
 
 ### General
 
-(...)
+A good text is 
+
+* Henriette Elvang, Yu-tin Huang, _Scattering Amplitudes_ ([arXiv:1308.1697](http://arxiv.org/abs/1308.1697))
+
+intended to
+
+> bridge the gap between a standard course in quantum field theory and recent fascinating developments in the studies of on-shell scattering amplitudes.
+
 
 ### Analytic methods
 
@@ -65,9 +72,12 @@ See also at _[[motivic multiple zeta values]]_.
 
 ### In super Yang-Mills theory
 
-In [[super Yang-Mills theory]] (and there in particular in the [[planar limit]] of [[N=4 D=4 super Yang-Mills theory]]) scattering amplitudes enjoy special symmetry properties, some of which can be used to extract information about scattering amplitudes in non-supersymmetric theories:
+In [[super Yang-Mills theory]] (and there in particular in the [[planar limit]] of [[N=4 D=4 super Yang-Mills theory]]) scattering amplitudes enjoy special symmetry properties, some of which can be used to extract information about scattering amplitudes in non-supersymmetric theories (see also at _[[amplituhedron]]_):
 
-* [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
+* [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, [[Alexander Postnikov]], Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
+
+* [[Nima Arkani-Hamed]], Jaroslav Trnka, _The Amplituhedron_, [arxiv/1312.2007](http://arxiv.org/abs/1312.2007)
+
 
 ### In string theory and higher supergravity
 
