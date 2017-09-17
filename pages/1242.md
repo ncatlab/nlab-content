@@ -39,13 +39,81 @@ The above works in any [[abelian category]], and possible more generally.  See a
 
 ## Properties
 
-* A chain complex $C_\bullet$ is exact (is a long exact sequence), precisely if the unique [[chain map]] from the [[initial object]], the 0-complex
+### Exactness and quasi-isomorphisms
+
+A chain complex $C_\bullet$ is exact (is a long exact sequence), precisely if the unique [[chain map]] from the [[initial object]], the 0-complex
 
   $$
     0 \to C_\bullet
   $$
 
   is a [[quasi-isomorphism]].
+
+### Short exact sequences and quotients
+ {#SESAndQuotients}
+
+The following are some basic lemmas that show how given a short exact sequence one obtains new short exact sequences from forming [[quotients]]/[[cokernels]] (see [Wise](#Wise)). 
+
+Let $\mathcal{A}$ be an [[abelian category]]. 
+
++-- {: .num_lemma}
+###### Lemma
+
+For
+
+$$
+  A \to B \to C \to 0
+$$
+
+an exact sequence in $\mathcal{A}$ and for $X \to B$ any morphism in $\mathcal{A}$, also
+
+$$
+  A \to B/X \to C/X \to 0
+$$
+
+is a short exaxt sequence.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have an exact sequence of complexes of lenght 2
+
+$$
+  \array{
+    0 &\to& X &\stackrel{id}{\to}& X &\to& 0
+    \\
+    \downarrow & & \downarrow & & \downarrow & & \downarrow
+    \\
+    A &\to& B &\to& C &\to& 0
+  }
+$$
+
+and the exact sequence to be demonstrated is degreewise the [[cokernel]] of this sequence. So the statement reduces to the fact that forming cokernels is a [[right exact functor]].
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+For
+
+$$
+  0 \to A \to B \to C
+$$
+
+an exact sequence and $X \to A$ any morphism, also 
+
+$$
+  0 \to A/X \to B/X  \to C
+$$
+
+is exact.
+
+=--
+
 
 ## Examples
 
@@ -57,9 +125,16 @@ The above works in any [[abelian category]], and possible more generally.  See a
 
 ## References
 
-Section 1.1 of
+A standard introduction is for instance in section 1.1 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+The quotient lemmas from [above](#SESAndQuotients) are discussed in
+
+* [[Jonathan Wise]], _The Snake Lemma_ ([pdf](http://math.stanford.edu/~jonathan/papers/snake.pdf))
+ {#Wise}
+
+in the context of the [[salamander lemma]] and the [[snake lemma]].
 
 [[!redirects exact sequences]]
 
