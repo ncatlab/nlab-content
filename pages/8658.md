@@ -1,4 +1,12 @@
 
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 An **augmentation** of a [[simplicial set]] or generally a [[simplicial object]] $S_\bullet$ is a [[homomorphism]] of simplicial objects to a simplicial onbject constant ([[discrete object|discrete]]) on an object $A$:
 
 $$
@@ -26,5 +34,9 @@ $$
 $$
 
 If $V_\bullet$ and $A$ are equipped with [[algebra]]-[[structure]] ($V$ might be an [[augmented algebra]] over $A$), then the [[kernel]] of the augmentation map is called the  **[[augmentation ideal]]**.
+
+## Related concepts
+
+* [[reduced homology]]
 
 [[!redirects augmentations]].
