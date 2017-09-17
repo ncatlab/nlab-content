@@ -112,7 +112,7 @@ $$
 
 ### From $n$-fold loop spaces
 
-Given a [[toplogical space]] $Z$ we get a $Disk_n$-algebra
+Given a [[topological space]] $Z$ we get a $Disk_n$-algebra
 
 $$
   Disk_n^\coprod 
@@ -135,19 +135,24 @@ $$
 
 
 
+## Related entries
 
+* [[topological chiral homology]], [[factorization algebra]], [[blob homology]]
+
+* [[local net of observables]]
 
 
 ## References
+ {#References}
 
 The definition appears in section 3 of 
 
 * [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([arXiv:1104.0181](http://arxiv.org/abs/1104.0181))
  {#Francis}
 
-More details are to appear in 
+A detailed account is in 
 
-* [[John Francis]], _Factorization homology of topological manifolds_, in preparation
+* [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://de.arxiv.org/abs/1206.5522))
  {#Francisb}
 
 See also
