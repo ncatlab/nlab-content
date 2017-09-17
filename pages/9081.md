@@ -378,7 +378,7 @@ $$
   \stackrel{[\Sigma_n, \mathbf{L}]}{\to}
   [\Sigma_l, \mathbf{B}^n U(1)_{conn}]
   \stackrel{\exp(2 \pi in \int_{\Sigma_k})(-) }{\to}
-  \mathbf{B}^{n-k}U(1)
+  \mathbf{B}^{n-k}U(1)_{conn}
 $$
 
 which modulates a [[circle n-bundle with connection|circle (n-k)-bundle with connection]] on the [[moduli infinity-stack]] of fields on $\Sigma_k$. At least for large classes of theories, this is the (off-shell) [[prequantum n-bundle|prequantum (n-k)-bundle]] of the theory.
