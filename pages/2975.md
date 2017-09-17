@@ -14,7 +14,7 @@ The standard references are pretty readable and complete for a general algebraic
 
 * M. Levine, R. Pandharipande, _Algebraic cobordism revisited_, [math.AG/0605196](http://arxiv.org/abs/math/0605196)
 
-* M. Levine, F. Morel, Oberwolfach Arbeitsgemeinschaft mit aktuellem Thema, April 2005 [programme and references.pdf](http://www.mfo.de/programme/schedule/2005/14/programme0514.pdf)
+* M. Levine, F. Morel, Oberwolfach Arbeitsgemeinschaft mit aktuellem Thema, April 2005 [report](http://www.ems-ph.org/journals/show_abstract.php?issn=1660-8933&vol=2&iss=2&rank=2), [notes](http://www.ems-ph.org/journals/show_pdf.php?issn=1660-8933&vol=2&iss=2&rank=2)
 
 More recently, there is also an algebraic analogue of h-cobordism:
 
