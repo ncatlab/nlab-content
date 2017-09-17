@@ -45,7 +45,7 @@ What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refini
 
 The last two are actually characterisations of paracompact resp. normal spaces (reference Bourbaki, Topology Generale - find this!)
 
-Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth bump function on $[-1,1]$). It is not true, however, that analytic manifolds have analytic partitions of unity - the aforementioned bump function is smooth but not analytic.
+Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that analytic manifolds have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic.
 
 ### From a non-point finite partition of unity to a partition of unity
 
@@ -133,7 +133,7 @@ This construction is used a lot in [[Cech cohomology]]. For instance it can be u
 
 ## References
 
-* A. Dold, _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
+* [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
 
 * M. Mather, _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
 
