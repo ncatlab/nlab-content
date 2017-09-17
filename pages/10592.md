@@ -3,6 +3,10 @@
 
 * [[Weil conjecture]]
 
+* [[standard conjectures on algebraic cycles]]
+
+* [[Beilinson conjecture]]
+
 ## Related concepts
 
 * [[folklore]]
