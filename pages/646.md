@@ -22,6 +22,8 @@
 
 The notion of **homotopy $n$-type** is a coarsened variant of the notion of [[homotopy type]], which is recovered for $n = \infty$.
 
+For instance a [[homotopy 1-type]] has trivial [[homotopy groups]] above degree 2, and a [[homotopy 2-type]] has trivial homotopy groups above degree 3.
+
 Among the most important invariants of a [[topological space]] $X$ or, more generally, of an object $X$ in an [[∞-stack]] [[(∞,1)-topos]] are its [[homotopy group]]s $\pi_k(X)$. We say that an object $X$ for which all $\pi_k(X)$ with $k \gt n$ are trivial is a **homotopy $n$-type**. More precisely, these are the [[n-truncated object of an (infinity,1)-topos|n-truncated objects]] and one says that two object $X$, $Y$ are _of the same homotopy $n$-type_ if there is a zig-zag of morphisms connecting them that induces [[isomorphism]]s on [[homotopy group]]s $\pi_k(X) \stackrel{\simeq}{\to} \pi_k(Y)$ for $0 \leq k \leq n$.
 
 So homotopy $n$-types are the [[equivalence classes]] of an [[equivalence relation]] imposed on objects in [[Top]] (or objects in another [[(∞,1)-topos]]). Thus, we often say that two spaces 'have the same homotopy $n$-type' if their [[homotopy group]]s agree up to $\pi_n$, and 'a homotopy $n$-type' can equally well be represented by any space having that $n$-type.  This is analogous to the definition of 'a [[real number]]' as an equivalence class of Cauchy sequences.
