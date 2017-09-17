@@ -27,6 +27,17 @@
 In [[type theory]] a [[proposition]] is identitfied with the [[type]] of all its proofs ("[[propositions as types]]".) Here a proof consists of exhibiting a [[term]] of the corresponding type (showing that it is [[inhabited]]). See also _[[proofs as programs]]_.
 
 
+## Related concepts
+
+* [[theory]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[definition]]/**proof**/[[program]] ([[proofs as programs]])
+
+* [[theorem]], [[axiom]]
+
+
 ## References
 
 
