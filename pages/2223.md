@@ -41,7 +41,7 @@ We may take as the characteristic propery of normal subgroup inclusions $K \hook
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] of [[homotopy dimension]] 0 (for instance a [[cohesive (∞,1)-topos]]) and let $K,G$ be [[∞-group]] objects in $\mathbf{H}$.
 
-A [[morphism]] $f : K \to G$ of [[∞-groups]] in $\mathbf{H}$ is **normal** if it is a [[homotopy fiber]] of a morphism to a [[0-connected]] object, hence if it fits into a [[fiber sequence]] of the form
+A [[morphism]] $f : K \to G$ of [[∞-groups]] in $\mathbf{H}$ is **normal** if its [[delooping]] is the [[homotopy fiber]] of a morphism to a [[0-connected]] object, hence if it fits into a [[fiber sequence]] of the form
 
 $$
   \mathbf{B}K \stackrel{\mathbf{B}f}{\to} \mathbf{B}G \to \mathbf{B}(G\sslash K)
