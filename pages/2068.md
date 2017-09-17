@@ -2,12 +2,22 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A [[morphism]] $f : A \to B$ of [[simplicial set]]s is called **anodyne** if it has the left [[lifting property]] with respect to all [[Kan fibration]]s.
 
@@ -44,5 +54,15 @@ Similarly a morphism is called
 * **right anodyne** if it has the left [[lifting property]] with respect to all [[right Kan fibration]]s
 
 * **inner anodyne** if it has the left [[lifting property]] with respect to all [[inner Kan fibration]]s
+
+## Related concepts
+
+* [[Kan fibration]], **anodyne morphism**
+
+* [[right/left Kan fibration]], [[right/left anodyne map]]
+
+* [[inner fibration]]
+
+* [[Cartesian fibration]]  
 
 [[!redirects anodyne morphisms]]
