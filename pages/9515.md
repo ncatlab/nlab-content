@@ -39,3 +39,5 @@ Other introductions include
 
 
 [[!redirects K-theory of C-star algebras]]
+
+[[!redirects algebraic K-theory of operator algebras]]
