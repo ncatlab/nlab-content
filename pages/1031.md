@@ -79,7 +79,7 @@ of the representable functor $hom(-,X)$ defined on objects by
 $$ (ker f)(Z) = ker(hom(Z,X)\to hom(Z,Y)). $$
 
 It follows that $ker f$ is also representable with representing object $Ker f$. One has to be careful with $Coker f$ which does not represent the functor naive  $coker f$ defined as $(coker f)(Z) = coker(hom(Z,X)\to hom(Z,Y))$ in $Ab$,
-which is often not representable at all.  Rather, $Coker f$ is defined by the double dualization using the kernel in $Ab$: $Coker f = (Ker f^{op})^{op}$.  This is the same as the dualization involved in defining any [[colimit]] from its corresponding [[limit]].
+which is often not representable at all.  Instead, as a colimit construction, one should *co*represent another functor, namely, the covariant functor $Z\mapsto ker(hom(Y,Z) \to hom(X,Z))$ (which is a quotient of the corepresentable functor $hom(X,-)$). In short, $Coker f$ is defined by the double dualization using the kernel in $Ab$: $Coker f = (Ker f^{op})^{op}$.  This is a particular case of the dualization involved in defining any [[colimit]] from its corresponding [[limit]].
 
 ### In an $(\infty,1)$-category 
 
