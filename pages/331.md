@@ -27,7 +27,7 @@ Traditionally, as a discipline, __logic__ is the study of correct methods of rea
 
 Some [[philosophy|philosophers]], notably [[Charles Peirce]], considered there to be third variety of reasoning for logic to study, namely, [[abduction]]. This is a process whereby one reasons to the truth of an explanation from its ability to account for what is observed. It is therefore sometimes also known as _inference to the best explanation_. At least some aspects of this can also be studied using Bayesian probability.
 
-Deductive logic is the best developed of the branches. For centuries, treatments of the [[syllogism]] were at the forefront of the discipline. In the nineteenth century, however, spurred largely by the needs of [[mathematics]], in particular the need to handle [[quantifiers]], a new logic emerged, known today as [[predicate logic]]. 
+Deductive logic is the best developed of the branches. For centuries, treatments of the [[syllogism]] were at the forefront of the discipline. In the nineteenth century, however, spurred largely by the needs of [[mathematics]], in particular the need to handle [[relations]] and [[quantifiers]], a new logic emerged, known today as [[predicate logic]]. 
 
 As we said above, logic is traditionally concerned with *correct* methods of reasoning, and philosophers (and others) have had much to say *prescriptively* about logic.  However, one can also study logic *descriptively*, taking it to be the study of methods of reasoning, without attempting to determine whether these methods are correct.
 
@@ -100,7 +100,7 @@ A __logic__ is a specific method of reasoning.  There are several ways to formal
 * [[Bart Jacobs]] (1999), _Categorical Logic and Type Theory_, Elsevier.
   
 
-Historically, in some philsoophical circles 'logic' was understood in a broader sense:
+Historically, in some philosophical circles 'logic' was understood in a broader sense:
 
 * [[Hegel]], _Wissenschaft der Logik_ ( _[[Science of Logic]]_ )
 
