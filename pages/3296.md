@@ -94,6 +94,9 @@ Notable families of examples include:
   the [[Dixmier-Douady class]].
 
 
+### Of line bundles
+
+* [[canonical characteristic class]], [[Theta characteristic]]
 
 ### Chern character
 
