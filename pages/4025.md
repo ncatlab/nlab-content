@@ -5,9 +5,9 @@
 
 ## Idea
 
-Functional is just a $k$-valued function on a $k$-vector space.
+Functional is used in two meanings: either a $k$-valued usually linear function on a $k$-vector space, where $k$ is a [[field]] (or even [[skewfield]]), or a function on some space of functions, paths or alike. The two meanings overlap as sometimes one considers linear spaces of functions; then the two concepts of a functional agree.
 
-Physicists and engineers usually talk about functions in terms of variables; and when the variables, i.e. [[domain]] are spaces of functions itself they are usually warned. In that case the [[domain]] is a [[space]] that itself is or has the typical size of a [[mapping space]], so that the functional is a "a function of functions".
+Physicists and engineers usually talk about functions in terms of (real or complex) variables; and when the variables, i.e. [[domain]] are spaces of functions itself they are usually warned; hence word functional emphasises a function on [[domain]] which is a [[space]]  "of the size of [[mapping space]]", so that the functional is a "a function of functions".
 
 Some special cases include
 
@@ -15,9 +15,9 @@ Some special cases include
 
 * in [[variational calculus]] one studies functions on spaces of [[section]]s of [[jet bundle]]s. For example, they appear in [[physics]] as [[action functional]]s.
  
-* various discretised versions are interesting in finte geometries as well as numerical analysis
+* various discretised versions are interesting in finite geometries as well as numerical analysis
 
-## In functional analysis
+## In linear algebra and functional analysis
 
 ### Definition
 
