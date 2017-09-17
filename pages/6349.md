@@ -74,3 +74,7 @@ The refinement of this statement to a smooth splitting is in
 [[!redirects globally hyperbolic Lorentzian manifold]]
 [[!redirects globally hyperbolic pseudo-Riemannian manifold]]
 [[!redirects globally hyperbolic spacetime]]
+
+[[!redirects globally hyperbolic spacetime]]
+[[!redirects globally hyperbolic spacetimes]]
+
