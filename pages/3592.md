@@ -129,6 +129,8 @@ The [[completely distributive lattice|completely distributive]] algebraic lattic
 
 ## Related concepts
 
+See also [[compact element]], [[compact element in a locale]].
+
 [[!include locally presentable categories - table]]
 
 
