@@ -1,11 +1,16 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A [[module]] over a [[ring]] whose underlying [[abelian group]] has trivial [[torsion subgroup]]
+A [[module]] over a [[ring]] whose underlying [[abelian group]] has trivial [[torsion subgroup]].
 
 ## Related concepts
 
 * [[free module]] $\Rightarrow$ [[projective module]] $\Rightarrow$ [[flat module]] $\Rightarrow$ **torsion-free module**
 
+* [[torsion module]]
 
 [[!redirects torsion-free modules]]
