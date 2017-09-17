@@ -149,10 +149,14 @@ This morphism locally takes the local [[differential form]] incarnation $A$ of a
 
 ## Examples
 
-A large class of examples of action functionals arises in [[schreiber:∞-Chern-Simons theory]]. See there for details.
+* [[Nambu-Goto action]]
+
+* A large class of examples of action functionals arises in [[schreiber:∞-Chern-Simons theory]]. See there for details.
 
 
 ## Related concepts
+
+[[!include action (physics) - table]]
 
 * [[principle of extremal action]], [[Euler-Lagrange equations]]
 
