@@ -86,6 +86,8 @@ Given any log-scheme $X$ over $\mathbb{C}$, then the underlying [[topological sp
 
 * [[differential form with logarithmic singularities]]
 
+* [[logarithmic connection]]
+
 * [exponential sequence in logarithmic geometry](exponential+exact+sequence#InLogarithmicGeometry)
 
 ## References
