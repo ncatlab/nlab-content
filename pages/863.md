@@ -74,6 +74,7 @@ Keep in mind, however, that the only use of [[excluded middle]] in the classical
 [[!redirects linear orders]]
 [[!redirects linear ordering]]
 [[!redirects linear orderings]]
+[[!redirects linearly ordered]]
 [[!redirects linearly ordered set]]
 [[!redirects linearly ordered sets]]
 [[!redirects loset]]
