@@ -28,7 +28,7 @@ The _free loop space_ of a [[topological space]] $X$ (based or not) is the space
 
 For $X$ a topological space, the free loop space $L X$ is the topological space $Map(S^1,X)$ of [[continuous map]]s in [[compact-open topology]]. 
 
-If we work in a category of based spaces, then still the topological space $Map(S^1,X)$ is in the non-based sense bit it itself has a distinguished point which is the constant map $t\mapsto x_0$ where $x_0$ is the base point of $X$.
+If we work in a category of based spaces, then still the topological space $Map(S^1,X)$ is in the non-based sense but has a distinguished point which is the constant map $t\mapsto x_0$ where $x_0$ is the base point of $X$.
 
 ### General abstract description
 
