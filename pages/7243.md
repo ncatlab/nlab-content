@@ -109,6 +109,8 @@ is the [[Isbell duality|formal dual]] of the canonical [[projection]] maps $\mat
 
 * $p$-[[p-adic number|adic number]], [[adele]].
 
+* [[p-adic complex number]]
+
 * [[Z-infinity-module]] 
 
 * [[p-completion]]
