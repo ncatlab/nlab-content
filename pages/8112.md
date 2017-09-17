@@ -10,6 +10,8 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 
 * [[modular form]], [[topological automorphic form]]
 
+* [[automorphic L-function]]
+
 * [[Langlands duality]]
 
 ## References
