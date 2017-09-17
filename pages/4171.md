@@ -390,6 +390,9 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 * [[higher geometric quantization]]
 
+[[!include Isbell duality - table]]
+
+
 ## References
  {#References}
 
