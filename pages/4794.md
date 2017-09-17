@@ -1,10 +1,10 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Geometry
-+--{: .hide}
-[[!include higher geometry - contents]]
+### Context
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
 =--
 =--
 =--
@@ -17,11 +17,11 @@
 ## Idea
 
 
-The [[differential geometry]] of [[manifold]]s with [[spin structure]] is called **spin geometry**. It studies [[spin group]]-[[principal bundle]]s, spin-[[representation]]s and the corresponding [[associated bundle]]s over spin manifolds. Their spaces of [[section]]s notably support [[Dirac operator]]s.
+The [[differential geometry]] of [[manifolds]] with [[spin structure]] is called **spin geometry**. It studies [[spin group]]-[[principal bundles]], [[spin representations]], the [[associated bundle|associated]] [[spinor bundles]], and the [[Dirac operators]] acting on [[spaces of sections]] of these bundles, hence also their [[index theory]] and generally [[K-theory]].
 
 ## In physics
 
-The relevance of spin geometry in [[physics]] rests on the fact that in [[quantum mechanics]] and [[quantum field theory]] in general and in the [[standard model of particle physics]] in particular, [[fermion]]s such as the [[electron]] are mathematically modeled as [[sections]] of spin-bundles. The very term _spin_ originates in the fact that the quanta of these fields behave to some extent as if they had an intrinsic [[angular momentum]], as if they were _spinning_ about an axis as a classical top. 
+The relevance of spin geometry in [[physics]] rests on the fact that in [[quantum mechanics]] and [[quantum field theory]] in general and in the [[standard model of particle physics]] in particular, [[fermions]] such as the [[electron]] are mathematically modeled as [[sections]] of spin-bundles. The very term _spin_ originates in the fact that the quanta of these fields behave to some extent as if they had an intrinsic [[angular momentum]], as if they were _spinning_ about an axis as a classical top. 
 
 Spin geometry also plays a central role in supersymmetric quantum field theory such as [[supergravity]].
 
@@ -37,7 +37,7 @@ Spin geometry also plays a central role in supersymmetric quantum field theory s
 
 The classical monograph on spin geometry is
 
-* H. Blaine Lawson, Marie-Louise Michelsohn, _Spin geometry_
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
 Fundamentals of the relevant [[supergeometry]] are in
 
