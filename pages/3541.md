@@ -101,13 +101,11 @@ See also [[extremal quantum channels]] and [[graphical quantum channels]].
 
 ## Example
 
-A very common example of this formalism comes from its use in **open quantum systems** (see below), that is systems that are coupled to an environment.  Let $\rho$ be the state of some quantum system and $\rho_{env}$ be the state of the environment.  The action of a unitary transformation, $U$, on the system is
+A very common example of this formalism comes from its use in [[open quantum systems]], that is systems that are coupled to an environment.  Let $\rho$ be the state of some quantum system and $\rho_{env}$ be the state of the environment.  The action of a unitary transformation, $U$, on the system is
 
 $$
   T(\rho) = Tr_{env}U(\rho \otimes \rho_{env})U^{\dagger}.
 $$
-
-See also [[open quantum systems]].
 
 ## References
 
