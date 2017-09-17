@@ -10,15 +10,7 @@
 =--
 =--
 
-* [[principal bundle]] / **torsor** / [[associated bundle]]
 
-* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
-
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
-
-* [[principal ∞-bundle]] / [[associated ∞-bundle]]
-
-***
 
 # Contents
 * automatic table of contents goes here
@@ -211,6 +203,19 @@ Thus, a $G$-torsor in a category with products can be tautologically interpreted
 * Instead of a torsor over a group, one can consider a torsor over a [[category]]. See [[torsor with structure category]]. 
 
 * In [[noncommutative algebraic geometry]], faithfully flat [[Hopf-Galois extension]]s are considered a generalization of (affine) torsors in algebraic geometry.
+
+## Related concepts
+
+* [[homogeneous space]]
+
+* [[principal bundle]] / **torsor** / [[associated bundle]]
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]
+
 
 
 ## References 
