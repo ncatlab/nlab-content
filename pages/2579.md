@@ -120,9 +120,7 @@ Acu_k&\to& Tor_V D_kMod
 G&\mapsto&colim_n Acu_k(G,W_{nk})
 \end{cases}$$
 
-where we recall that $W_n:=coker( T^n:W_k\to W_k)$ where $T:\begin{cases}W_k\to W_k
-\\
-(x_0,x_1,\dots)\mapsto (0,x_0,x_1,\dots)\end{cases}$ is the endomorphism of the [[Witt group]] called *translation* and $T^n$ is the translation iterated $n$-times and $W_n$ is called the *group of [[Witt vectors]] of length $n$*.
+where we recall that how the colimit of the hom space can be multiplied by the generators of the [[Dieudonné ring]].
 =--
 
 +-- {: .num_theorem}
