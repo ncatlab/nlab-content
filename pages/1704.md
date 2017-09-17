@@ -6,12 +6,19 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### $(\infty,1)$-Topos Theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
 =--
 =--
-=--
+
+* [[principal bundle]] / [[torsor]]
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* **principal $\infty$-bundle**
+
+
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -621,52 +628,27 @@ See [[simplicial principal bundle]].
 
 
 
-### In simplicial presheaves
+### In a petit $(\infty,1)$-topos
 
-For a small [[site]] $C$, let $\mathbf{H}$
+For $X$ a [[topological space]] $C = Op(X)$ the [[category of open subsets]] of $X$, let $\mathbf{H} = Sh_{(\infty,1)}(X)$
 be the [[(∞,1)-topos]]  of [[∞-stacks]]
-on $C$, in its [[presentable (infinity,1)-category|presentation]] by the
-[[model structure on simplicial presheaves]].
+on $C$. This is the [[petit topos]] incarnation of $X$.
 
-In 
+
+In its [[presentable (infinity,1)-category|presentation]] by the
+[[model structure on simplicial presheaves]] this is the context in which princpal $\infty$-bundles are discussed in
 
 * Jardine, _Diagrams and torsors_ ([pdf](http://www.math.uiuc.edu/K-theory/0723/diagrams3.pdf))
 
-the discussion of $\infty$-principal bundles
-is discussed in this context.
+### In a gros $(\infty,1)$-topos
 
-Notice however that this means placing oneself 
-always in the [[petit topos]] of sheaves on $C$, 
-which will describe always $\infty$-bundles over $C$.
-So if $C = Op(X)$ is the [[category of open subsets]]
-of some [[topological space]] $X$, then this is 
-$\infty$-bundles over $X$.
+For $C$ a [[site]] of test [[space]], -- for instance duals of [[algebras over a Lawvere theory]] as described at [[function algebras on infinity-stacks]] -- let $\mathbf{H} = Sh_{(\infty,1)}(C)$ be the [[(∞,1)-topos]]  of [[∞-stacks]] on $C$. This is a [[gros topos]].
 
-Notably in this [[(∞,1)-topos]] $(\infty,1)Sh(X)$
-the [[terminal object]]  is not the expected abstract
-point, but rather the space $X$ itself. 
+#### Smooth principal $\infty$-bundles
 
-As a consequence, the above simple picture of a
-principal $\infty$-bundle being just the homotopy
-pullback of the point is no longer directly available.
-To circumvent this Jardine introduces the notion of 
-_diagrams_ (not meant in the simple conventional sense).
+Smooth principal $\infty$-bundles are realized in the $\infty$-[[Cahiers topos]] as described in some detail at [[∞-Lie groupoid]].
 
-...
-
-Alternatively, one can consider simplicial presheaves
-on a [[gros topos]], say on some version of the [[site]] of
-[[Diff]] of [[manifolds]] as discussed for instance in some detail in
-
-* Daniel Dugger, _Sheaves and homotop theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)).
-
-That gives a notion of _smooth_ $\infty$-bundles.
-And in that case the the desrption of principal 
-$\infty$-bundles as homotopy pullbacks of the point continues to be valid.
-
-In low degree this is then, more or less explicitly, the description of higher principal bundles
-by Bartels, Bakovi&cacute;, Wockel, etc., as referenced at [[principal 2-bundle]].
-
+In this context there is a notion of [[connection on a principal ∞-bundle]].
 
 ## Examples
 
