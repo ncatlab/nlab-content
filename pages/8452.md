@@ -7,3 +7,4 @@ formalization of [[mathematics]] without [[foundations|foundational]] prejudice.
 
 ## References
 
+category: software
