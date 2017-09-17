@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-category theory
++--{: .hide}
 [[!include 2-category theory - contents]]
-</div>
+=--
+=--
+=--
 
 ## Definition
 
@@ -12,7 +19,7 @@ is [[full and faithful functor|full and faithful]].  One easily checks that in [
 
 * Fully faithful morphisms in a 2-category may also be called **1-monic**, and be said to make their source into a **1-subobject** of their target.  See [[subcategory]] for some discussion.
 
-* Fully faithful morphisms are often the right class of a [[factorization system in a 2-category|factorization system]].  The left class in $Cat$ consists of [[essentially surjective functors]].
+* Fully faithful morphisms are often the right class of a [[factorization system in a 2-category|factorization system]].  The left class in $Cat$ consists of [[essentially surjective functors]]; in a [[regular 2-category]] it consists of the [[eso morphisms]].
 
 * Just as in a 1-category any [[equalizer]] is [[monic]], in a 2-category any [[inverter]] or [[equifier]] is fully faithful.
 
@@ -28,6 +35,7 @@ This is not always the "right" notion of fully-faithfulness in a 2-category.  In
 * [[conservative morphism]]
 * [[pseudomonic morphism]]
 * [[discrete morphism]]
+* [[eso morphism]]
 
 [[!redirects ff morphism]]
 [[!redirects ff morphisms]]
