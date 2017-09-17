@@ -35,6 +35,26 @@ In the context of the Haag-Kastler axioms there is a precise theorem, the [[Oste
 
 --- much information to be filled in ---
 
+
+## Axioms
+
+* [[Wightman axioms]]
+
+* [[Haag-Kastler axioms]]
+
+## Theorems
+
+* [[Osterwalder-Schrader theorem]]
+
+* [[PCT theorem]]
+
+* [[Bisognano-Wichmann theorem]]
+
+* [[spin-statistics theorem]]
+
+
+--- much information to be filled in ---
+
 ## References
 
 A good account of the mathematical axiomatics of Haag-Kastler AQFT is
