@@ -1,6 +1,6 @@
 ##Archive##
 
-* [current](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+* [current](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 * [[2009 September changes|2009 September]]
 * [[2009 August changes|2009 August]]
 * [[2009 July changes|2009 July]]
