@@ -79,7 +79,10 @@ Because of this, we can hope to use the Reidemeister moves to verify invariance 
 
 A deeper observation is that the [[linking number]] is a link invariant, for which see that entry.
 
-(Other instances of this sort of argument will get put here later on.)
+
+[[colourable knot|3-colourability]] is a [[knot invariant]] as is easy to check. This shows, for instance, that the trefoil knot is not equivalent to the unknot, and hence shows, very simply, that non-trivial knots exist. It also shows that the figure eight knot is not equivalent to the trefoil.
+
+(Links to other instances of this sort of argument will get put here later on.)
 
 
    
@@ -89,6 +92,10 @@ One of the original sources is:
 * Reidemeister, _Knotentheorie,_ Ergebnisse der Mathematik (1932)
 {#Reidemeister}
 
-Many modern texts on Knot Theory contain discussions of the Reidemeister Moves.
+Simple examples of invariants under the Reidemeister Moves are given in, for instance,
+
+ * N. D. Gilbert and T. Porter, Knots and Surfaces, Oxford U.P., 1994.
+
+Most modern texts on [[Knot Theory]] will contain discussions of the Reidemeister Moves.
 
 [[!redirects Reidemeister moves]]
