@@ -75,6 +75,86 @@ be the [[(∞,1)-topos]] of internal [[(∞,1)-sheaves]] in [[Super∞Grpd]] ove
 
 =--
 
++-- {: .num_note}
+###### Note
+
+In particular $Smooth \infty Grpd$ is an $(\infty,1)$-topos over the [[base topos]] [[Super∞Grpd]]
+
+$$
+  Smooth Super \infty Grpd
+   \stackrel{\overset{Disc_{Super}}{\leftarrow}}{\underset{\Gamma_{Super}}{\to}}
+  Super \infty Grpd
+  \,.
+$$
+
+=--
+
+## Properties
+
+**Claim**
+
+We have that 
+
+$$
+  Smooth Super\infty Grpd
+  \simeq
+  Sh_{(\infty,1)}(CartSp_{smooth} \times SuperPoint, \infty Grpd)
+  \,.
+$$
+
+By the discussion of externalization at [[internal site]].
+
++-- {: .num_prop}
+###### Proposition
+
+$Smooth Super \infty Grpd$ is a [[cohesive (∞,1)-topos]]
+over [[Super∞Grpd]].
+
+$$
+  Smooth Super \infty Grpd
+   \stackrel{\overset{\Pi_{Super}}{\to}}{\stackrel{\overset{Disc_{Super}}{\leftarrow}}{\stackrel{\overset{\Gamma_{Super}}{\to}}{\underset{coDisc_{super}}{\leftarrow}}}}
+  Super \infty Grpd
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+ \,.
+$$
+
+=--
+
+In fact we have a [[commutative diagram]] of [[cohesive (∞,1)-topos]]es 
+
+$$
+  \array{
+     Smooth Super \infty Grpd 
+   &\stackrel{\overset{\Pi_{Super}}{\to}}{\stackrel{\overset{Disc_{Super}}{\leftarrow}}{\stackrel{\overset{\Gamma_{Super}}{\to}}{\underset{coDisc_{super}}{\leftarrow}}}}
+   &
+   Super \infty Grpd
+     \\
+     \downarrow \uparrow && \downarrow \uparrow
+     \\
+     Smooth \infty Grpd 
+    &
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+    & \infty Grpd
+  }
+$$
+
+## Structures 
+
+We discuss realizations of the general abstract
+<a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#Structures">structures in a cohesive (∞,1)-topos</a> realized in $Smooth Super \infty Grpd$.
+
+### Exponentiated super $L_\infty$-algebras
+
+A [[super L-∞ algebra]] $\mathfrak{g}$ is an [[L-∞ algebra]] internal to 
+$Sh(SuperPoint)$.
+
+The [[Lie integration]] of $\mathfrak{g}$ is ...
+
+## Applications
+
+* [[D'Auria-Fre formulation of supergravity]]
+
 ## References
 
 See the references at [[super ∞-groupoid]].
