@@ -108,7 +108,7 @@ A **stable $(\infty,1)$-category** is a pointed $(\infty,1)$-category such that
 +-- {: .num_remark}
 ###### Remark
 
-The notion of stable $\infty$-category should not be confused with that of a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  A connection between the terms is that the $(\infty,1)$-category of [[spectrum|spectra]] is the prototypical stable $\infty$-category, while _connective_ spectra (not all spectra) can be identified with [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids, aka _infinite loop spaces_ or 
+The notion of stable $\infty$-category should not be confused with that of a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  A connection between the terms is that the [[stable (∞,1)-category of spectra]] is the prototypical stable $\infty$-category, while _connective_ spectra (not all spectra) can be identified with [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids, aka _infinite loop spaces_ or 
 $E_\infty$-[[E-infinity space|spaces]].
 
 =--
@@ -165,7 +165,7 @@ $$
   \,.
 $$
 
-For $C =$ [[Top]] the $(\infty,1)$-category of topological spaces, $Sp(Top)$ is the familiar [[stable (infinity,1)-category of spectra]] used in stable homotopy theory (which gives stable $(\infty,1)$-categories their name).
+For $C =$ [[Top]] the $(\infty,1)$-category of topological spaces, $Sp(Top)$ is the familiar [[stable (∞,1)-category of spectra]] (whose [[homotopy category of an (∞,1)-category|homotopy category]] is the [[stable homotopy category]]) used in [[stable homotopy theory]] (which gives stable $(\infty,1)$-categories their name).
 
 Moreover, every [[derived category]] of an [[abelian category]] is the triangulated homotopy category of a stable $(\infty,1)$-category. 
 
