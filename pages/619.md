@@ -162,12 +162,6 @@ Whenever $C$ is a full subcategory of $D$, we can say that objects of $C$ are ob
 This can always be made to work by brute force, but sometimes there is something insightful about it.  For example, a metric space is a complete metric space equipped with a dense subset.  Or, a possibly nonunital ring is a unital ring equipped with a unital homomorphism to the ring of integers.
 
 
-## Related concepts
-
-* **reflective subcategory** / [[reflective sub-(∞,1)-category]]
-
-* [[coreflective subcategory]]
-
 ## A terminological remark
 
 A few sources (such as [[Categories Work]]) do not require a reflective subcategory to be full.  However, in light of the fact that non-full subcategories are not [[evil|invariant under equivalence]], consideration of non-full reflective subcategories seems of limited usefulness.  The general consensus among category theorists nowadays seems to be that "reflective subcategory" implies fullness.
@@ -179,6 +173,8 @@ A few sources (such as [[Categories Work]]) do not require a reflective subcateg
   * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], **reflective subcategory**, [[coreflective subcategory]]
 
   * [[dense sub-site]]
+
+  * [[reflective factorization system]]
 
 * [[sub-2-category]]
 
