@@ -49,6 +49,7 @@ Although the definition doesn\'t state so explicitly, it is true that any regula
 
 * In the category of [[monoid]]s, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism, even though it is far from a [[surjection]].  But in this or any other [[algebraic category]] (a category of models of an [[algebraic theory]]), the morphisms whose underlying function is surjective are precisely the regular epimorphisms.
 
+* In [[Diff]], the category of smooth (paracompact) manifolds, regular epimorphisms are not as useful as in other settings. As any [[split epimorphism]] is regular, and split epimorphisms are badly behaved in $\Diff$ (for example, pullbacks of split epis do not necessarily exist), the usual procedure is to consider the smallest class of arrows inside regular epis of which all pullbacks exist, namely the surjective [[submersions]]. In the setting of [[differentiable stacks]] and [[Lie groupoids]] it is surjective submersions that play the role of regular epimorphisms.
 
 ## In the context of higher category theory {#HigherCat}
 
