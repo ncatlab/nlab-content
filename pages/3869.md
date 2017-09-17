@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 If $T$ is a [[2-monad]] on a [[2-category]] $K$, then a **pseudoalgebra** for $T$ is a 2-dimensional version of an [[algebra over a monad]] which satisfies the laws only up to coherent isomorphism.
 
 ## Definition
