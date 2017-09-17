@@ -62,7 +62,13 @@ _[[relation between type theory and category theory]]_.
 
 ## References
 
+All the essential ingredients are listed in 
+
 * [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
+
+On [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf) there the standard [[type formation]], [[term introduction]]/[[term elimination]] and [[computation rules]] of dependent type theory are listed.
+
+See also
 
 * [[Agda]] Tutorial: _Introduction to dependent type theory_ ([webpage](http://ocvs.cfv.jp/Agda/tutorial
 /node128.html))
