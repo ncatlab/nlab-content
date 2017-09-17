@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $(A, \ast)$ a [[star-algebra]] and $H$ a [[Hilbert space]], a _star-representation_ of $(A,\ast)$ on $H$ is a [[homomorphism]] of star algebras from $A$ to [[linear operators]] on $H$.
+
+## Related concepts
+
+* [[representation of a C-star-algebra]]
+
+[[!redirects star-representations]]
+
+[[!redirects *-representation]]
+[[!redirects *-representations]]
