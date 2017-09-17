@@ -54,7 +54,7 @@ As these examples indicate, instances of ordinary naturality are typically trans
 $$\varepsilon: F U \to 1 \qquad \eta: 1 \to U F$$
 
 
-# Formalization 
+# Formalization {#Defn}
 
 Let $F\colon A\times B^{op}\times B \to D$ and $G\colon A\times C^{op}\times C\to D$ be functors.  A family of morphisms
 $$ \alpha_{a,b,c}\colon F(a,b,b) \to G(a,c,c) $$
