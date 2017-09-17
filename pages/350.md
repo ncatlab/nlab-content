@@ -37,7 +37,7 @@ Let $E$ be a [[topos]], with [[subobject classifier]] $\Omega$.
 +-- {: .num_defn #LTTopologyDef}
 ###### Definition
 
-A __Lawvere--Tierney topology__ in $E$ is ([[internalization|internally]]) a [[exact functor|left exact]] [[monad]] on the internal meet-[[semilattice]] $\Omega$. 
+A __Lawvere--Tierney topology__ in $E$ is ([[internalization|internally]]) a [[closure operator]] given by a [[exact functor|left exact]] [[idempotent monad]] on the internal meet-[[semilattice]] $\Omega$. 
 
 This means that: a Lawvere--Tierney topology in $E$ is a [[morphism]] 
 
