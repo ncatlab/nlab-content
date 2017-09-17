@@ -1,0 +1,7 @@
+i tried to find the meaning of leaf of the distribution but didn't get the clear concept of it.
+But on comparing with foliatition,I concluded that it is actually, that distribution is consisting of tangent bundles and each of them is called the leaf of the distribution.
+                                       writer:
+                                       NADEEM AHMAD RATHER 
+                                       M.PHIL MATHEMATICS
+                                     R/O TURKA TACHLOO
+                                  ANANTNAG(JAMMU AND KASHMIR)
