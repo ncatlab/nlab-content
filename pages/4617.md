@@ -689,7 +689,7 @@ $$
 Notice that $ab_* \Xi(\mathbb{Z}[n])$, being the image of a cofibrant object in $Ab^\Delta$, is cofibrant in $T Alg^\Delta_{proj}$, hence fibrant in 
 $(T Alg^\Delta_{proj})^{op}$. 
 
-Using this, we comute as follows
+Using this, we compute as follows
 
 $$
   \begin{aligned}
