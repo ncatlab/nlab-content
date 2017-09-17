@@ -36,7 +36,7 @@ so that although $\Rightarrow$ and $\forall$ are not strictly part of any of the
 
 The interpretation of arbitrary uses of $\Rightarrow$ and $\forall$ requires a [[Heyting category]].  In fact, by the [[adjoint functor theorem]] for [[posets]], any geometric category which is [[well-powered category|well-powered]] is automatically a Heyting category, but *geometric functors* are not necessarily Heyting functors.  Likewise, a well-powered geometric category automatically has arbitrary intersections of subobjects as well, so we can interpret infinitary $\bigwedge$ in its internal logic, but again these are not preserved by geometric functors.
 
-By the usual syntactic constructions (see [[internal logic]] and [[context]]), any geometric theory $T$ generates a "free geometric category containing a model of that theory," also known as its *syntactic category* $G_T$.  This syntactic category $G_T$ has the universal property that for any other geometric category $G'$, geometric functors $G_T \to G'$ are equivalent to $T$-models in $G'$.
+By the usual syntactic constructions (see [[internal logic]] and [[context]]), any geometric theory $T$ generates a "free geometric category containing a model of that theory," also known as its *[[syntactic category]]* $G_T$.  This syntactic category $G_T$ has the universal property that for any other geometric category $G'$, geometric functors $G_T \to G'$ are equivalent to $T$-models in $G'$.
 
 
 ## Examples
@@ -70,17 +70,25 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
 ## Other characterizations
 
-### From logic to geometry
+### In terms of sheaf topoi {#InTermsOfSheafTopoi}
 
 Categories of each "logical" type can also be "completed" with respect to a suitable "exactness" property, without changing their internal logic.  Any regular category has an completion into an [[exact category]] (see [[regular and exact completion]]), any coherent category has a completion into a [[pretopos]], and any geometric category has a completion into an [[infinitary pretopos]].
 
 However, [[Giraud's theorem]] says that an infinitary pretopos having a [[generating set]] is precisely a [[Grothendieck topos]].  Moreover, a functor between Grothendieck topoi is geometric (preserves all the structure of a geometric category) iff it preserves finite [[limits]] and small [[colimits]].  By the [[adjoint functor theorem]], this implies that it is the [[inverse image]] part of a [[geometric morphism]], i.e. an [[adjunction]] $f^* \dashv f_*$ in which $f^*$ (the "inverse image") preserves finite limits.
 
-Thus, Grothendieck topoi and inverse-image functors are in some sense the "natural home" for models of geometric theories.  Note, though, that geometric morphisms are generally considered as pointing in the direction of the *direct* image $f_*$, which is the opposite direction to the geometric functor $f^*$.  (This is because when $E$ and $F$ are the toposes of [[sheaves]] on [[sober space|sober topological spaces]] (or [[locales]]) $X$ and $Y$ respectively, then [[continuous maps]] $X \to Y$ correspond precisely to geometric morphisms $E \to F$.)  Also, of course any Grothendieck topos is an [[elementary topos]] (at least, as long as one works in [[foundations]] for which [[Set]] is an elementary topos), and hence its internal logic also includes "higher-order" constructions such as function-objects and power-objects.  However, these are not preserved by geometric functors, so they (like $\forall$ and $\Rightarrow$) are not part of geometric logic.  (They are, however, preserved by [[logical functors]], a different sort of morphism between topoi.)
+Thus:
 
-In particular, we can apply the "exact completion" operation to the syntactic category $G_T$ of a geometric theory to obtain an infinitary pretopos $Set[T]$.  As long as the theory $T$ was itself small, $Set[T]$ will have a generating set, and therefore will be a Grothendieck topos.  The universal property of the syntactic category, combined with that of the exact completion, implies that for any Grothendieck topos $E$, geometric morphisms $G\to Set[T]$ are equivalent to $T$-models in $G$.  This topos $Set[T]$ is called the **[[classifying topos]]** of $T$.
++-- {: .standout}
 
-In the other direction, if $C$ is any small [[site]], we can write down a "geometric theory of cover-preserving [[flat functors]] $C^{op}\to Set$."  By [[Diaconescu's theorem]] classifying geometric morphisms into sheaf topoi, it follows that $Sh(C)$ is a classifying topos for this theory.  Therefore, not only does every geometric theory have a classifying topos, every Grothendieck topos is the classifying topos of some theory.  Very different-looking theories can have equivalent classifying topoi; this of course implies that they have all the same models in all Grothendieck topoi (hence a Grothendieck topos is the "extensional essence" of a geometric theory).  We say that two geometric theories with equivalent classifying topoi are *Morita equivalent*.
+Grothendieck topoi and inverse-image functors are in some sense the "natural home" for models of geometric theories.  
+
+=-- 
+
+Note, though, that geometric morphisms are generally considered as pointing in the direction of the *direct* image $f_*$, which is the opposite direction to the geometric functor $f^*$.  (This is because when $E$ and $F$ are the toposes of [[sheaves]] on [[sober space|sober topological spaces]] (or [[locales]]) $X$ and $Y$ respectively, then [[continuous maps]] $X \to Y$ correspond precisely to geometric morphisms $E \to F$.)  Also, of course any Grothendieck topos is an [[elementary topos]] (at least, as long as one works in [[foundations]] for which [[Set]] is an elementary topos), and hence its internal logic also includes "higher-order" constructions such as function-objects and power-objects.  However, these are not preserved by geometric functors, so they (like $\forall$ and $\Rightarrow$) are not part of geometric logic.  (They are, however, preserved by [[logical functors]], a different sort of morphism between topoi.)
+
+In particular, we can apply the "exact completion" operation to the syntactic category $G_T$ of a geometric theory to obtain an infinitary pretopos $Set[T]$.  As long as the theory $T$ was itself small, $Set[T]$ will have a generating set, and therefore will be a Grothendieck topos.  The universal property of the syntactic category, combined with that of the exact completion, implies that for any Grothendieck topos $E$, geometric morphisms $E\to Set[T]$ are equivalent to $T$-models in $E$.  This topos $Set[T]$ is called the **[[classifying topos]]** of $T$.
+
+In the other direction, if $C$ is any small [[site]], we can write down a "geometric theory of cover-preserving [[flat functors]] $C^{op}\to Set$."  By [[Diaconescu's theorem]] classifying geometric morphisms into sheaf topoi, it follows that $Sh(C)$ is a [[classifying topos]] for this theory.  Therefore, not only does every geometric theory have a [[classifying topos], every Grothendieck topos is the [[classifying topos]] of _some_ theory.  Very different-looking theories can have equivalent classifying topoi; this of course implies that they have all the same models in all Grothendieck topoi (hence a Grothendieck topos is the "extensional essence" of a geometric theory).  We say that two geometric theories with equivalent classifying topoi are *Morita equivalent*.
 
 
 ### Functorial definition
