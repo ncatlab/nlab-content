@@ -1,0 +1,13 @@
+
+
+## Idea
+
+The [[derived functor]] of a [[tensor product]] functor.
+
+
+## Related concepts
+
+[[!include homotopy-homology-cohomology]]
+ 
+[[!redirects derived tensor products]]
+
