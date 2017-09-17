@@ -1,5 +1,4 @@
 
-
 ## References
 
 An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf#page=15) of
