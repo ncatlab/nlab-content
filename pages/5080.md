@@ -162,15 +162,37 @@ So equivalently, one may say that a locally ∞-connected (∞,1)-topos $E$ has 
 
 =--
 
+## Examples
 
++-- {: .un_prop}
+###### Proposition
+
+For $X$ a [[locally contractible topological space]], we have an equivalence
+
+$$
+  \Pi ((\infty,1)Sh(X)) \simeq Sing X
+$$
+
+between the ordinary [[fundamental ∞-groupoid]] of $X$ defined by the [[singular simplicial complex]] and the topos-theoretic fundamental $\infty$-groupoid of the [[(∞,1)-sheaf (∞,1)-topos]] $(\infty,1)Sh(X)$ over $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Details are at [[geometric homotopy groups in an (∞,1)-topos]].
+
+=--
+
+More generally the [[shape of an (∞,1)-topos]] of $(\infty,1)Sh(X)$ reproduces the [[shape theory]] of $X$.
 
 ## Related concepts
 
-* The [[fundamental ∞-groupoid]] of a [[topological space]] is close to a special case of this.  At least when $X$ is a locally contractible space, we can identify the fundamental ∞-groupoid of $X$ with that of the (∞,1)-topos $Sh(X)$.
+* [[fundamental groupoid]], [[fundamental ∞-groupoid]], 
 
-* The [[shape of an (∞,1)-topos]] is a generalization of this to non-locally-∞-connected (∞,1)-toposes.
+* [[homotopy group]], [[homotopy groups in an (∞,1)-topos]]
 
-* [[geometric homotopy groups in an (∞,1)-topos]] are a generalization to objects of the topos other than the terminal object.
+* **fundamental $\infty$-groupoid in a locally $\infty$-connected $(\infty,1)$-topos / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
 
 
