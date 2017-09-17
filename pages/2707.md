@@ -112,7 +112,7 @@ Some most recent generalizations of the theory, using derivators and similar tec
 Some other aspects
 
 * M.V. Bondarko, _Weight structures vs. $t$-structures; weight filtrations, spectral sequences, and complexes (for motives and in general)_, [arxiv/0704.4003](http://arxiv.org/abs/0704.4003)
-
+* [[Yuri Manin]], _Motives and quantum cohomology_, talk at Colloque Grothendieck, [video](http://www.dailymotion.com/video/x8juco_colloque-grothendieck-yuri-manin_tech)
 
 [[!redirects motif]]
 [[!redirects motive]]
