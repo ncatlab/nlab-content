@@ -385,6 +385,32 @@ If the coefficient group $K$ is nonabelian, its higher [[delooping]]s $\mathbf{B
 
 ## Examples
 
+### Cohomology of $U(n)$, $O(n)$, etc.
+
+We consider for $G$ a [[topological group]] such as
+
+* the [[unitary group]] $U(n)$;
+
+* the [[special unitary group]] $SU(n)$;
+
+* the [[symplectic group]] $Sp(n)$
+
+the corresponding group cohomology in terms of the cohomology of the [[classifying space]]/[[delooping]] $B G$.
+
+For all $n \in \mathbb{N}$ we have
+
+$$
+\begin{aligned}
+ H^\bullet(BU(n);\mathbb{Z}) &= \mathbb{Z}[c_1,\cdots,c_n] 
+ \\
+ H^\bullet(BSU(n);\mathbb{Z}) &= \mathbb{Z}[c_2,\cdots,c_n] 
+ \\
+ H^\bullet(BSp(n);\mathbb{Z}) &= \mathbb{Z}[p_1,\cdots,p_n]
+\end{aligned}
+$$
+
+where $c_i\in H^{2i}$ and $p_i\in H^{4i}$.  
+
 ### Heisenberg cocycle
 
 The additive group on the [[Cartesian space]] $\mathbb{R}^2$ with group operation
@@ -409,6 +435,9 @@ $$
 $$
 
 The [[group extension]] classified by this cocycle is the [[Heisenberg group]].
+
+
+
 
 ## Related concepts
 
@@ -536,6 +565,12 @@ Cohomology of [[classifying space]]s of [[exceptional Lie group]]s.
 #### Loop groups of compact Lie groups
 
 * Daisuke Kishimoto, Akira Kono, _Cohomology of the classifying spaces of loop groups_ ([pdf](http://www.math.kyoto-u.ac.jp/preprint/2004/13kishimoto.pdf))
+
+### Online references
+
+Some of the above materiel is taken from discussion at
+
+* MO, _[Group cohomology of compact Lie group with integer coeffient ](http://mathoverflow.net/questions/75389/group-cohomology-of-compact-lie-group-with-integer-coeffient)_
 
 [[!redirects group cocycle]]
 [[!redirects group cocycles]]
