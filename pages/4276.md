@@ -3,25 +3,32 @@
 
 ## Definitions
 
-* [[operator algebra]]
+* [[quantum mechanical system]]
 
-  * [[C*-algebra]]
+  * [[observable]]
 
-  * [[von Neumann algebra]]
+    * [[operator algebra]]
 
-* [[states in AQFT and operator algebra|state]], [[cyclic vector]], [[separating vector]]
+      * [[C*-algebra]]
 
-* [[local net]]
+      * [[von Neumann algebra]]
 
+    * [[subsystem]]
+
+  * [[states in AQFT and operator algebra|state]], 
+
+    * [[cyclic vector]], [[separating vector]]
+
+* [[local net of observables]]
+
+  * [[Haag-Kastler axioms]]
+
+  * [[Wightman axioms]]
+  
   * [[causal net]]
 
   * [[conformal net]]
 
-* [[Haag-Kastler axioms]]
-
-  * [[Wightman axioms]]
-
-  * [[Haag-Kastler vacuum representation]]
 
 ## Theorems
 
@@ -41,6 +48,10 @@
 
 * [[Fell's theorem]]
 
+* [[Stone-von Neumann theorem]]
+
+* [[Haag's theorem]]
+
 ### Local QFT
 
 * [[Reeh-Schlieder theorem]]     
@@ -52,6 +63,7 @@
 * [[spin-statistics theorem]]
 
 * [[DHR superselection theory]]
+
 
 
 ### Euclidean QFT
