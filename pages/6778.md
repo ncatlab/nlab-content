@@ -33,6 +33,8 @@ In fact, an analogous factorization system exists in any [[2-exact 2-category]] 
 
   * a [[morphism]] $[\phi] : x_1 \to x_2$ is an [[equivalence class]] of morphisms in $X$ where $[\phi] = [\phi']$ if $f(\phi) = f(\phi')$.
 
+More on this is at _[infinity-image --  Of Functors between groupoids](infinity-image#NImagesOf1FunctorsBetweenGroupoids)_.
+
 ## Related concepts
 
 * [[epi-mono factorization system]]
