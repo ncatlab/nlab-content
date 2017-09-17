@@ -282,6 +282,9 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 
 * [[(∞,1)-category of chain complexes]]
 
+* [[(∞,1)-category of (∞,1)-modules]]
+
+* [[Fukaya category]], [[Lagrangian cobordism]]
 
 ## Related concepts
 
