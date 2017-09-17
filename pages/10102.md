@@ -25,19 +25,22 @@ The generalization of the process of [[one-point compactification]] of possibly 
 
 ## Definition
 
-For $(A, {\Vert -\Vert_A})$ a not necessarily unital [[C*-algebra]], its **unitisation** is the $C^\ast$-algebra whose underlying Banach space is the [[direct sum]] 
++-- {: .num_defn}
+###### Definition
+
+For $(A, {\Vert -\Vert_A})$ a not necessarily [[unital algebra|unital]] [[C*-algebra]], its **unitisation** is the $C^\ast$-algebra whose underlying Banach space is the [[direct sum]] 
 
 $$
   A^+ \coloneqq A \oplus \mathbb{C}
 $$ 
 
-with the [[complex numbers]] equipped with the evident multiplication 
+with the [[complex numbers]], equipped with themultiplication 
 
 $$
   (a_1 + z_1) \cdot (a_2 + z_2) \coloneqq (a_1 a_2 + a_1 z_2 + z_1 a_2) + z_1 z_2
 $$
 
-the evident [[involution]]
+and the [[involution]]
 
 $$
   (a + z)^\ast \coloneqq a^\ast + \overline{z}
@@ -50,9 +53,43 @@ $$
   \,.
 $$
 
+=--
+
+## Examples
+
++-- {: .num_example #UnitisationGivesOnePointCompactification}
+###### Example
+
+For $X$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]] and $C(X)$ its possibly non-unital [[C*-algebra]] [[algebra of functions|of functions]], then
+
+$$
+  (C_0(X))^+ \simeq C_0(X) \oplus \mathbb{X} \simeq C(X^+)
+$$
+
+this is equivalently the unital $C^\ast$-algebra of functions on the [[one-point compactification]] of $X$.
+
+There is hence a canonical projection
+
+$$
+  i^\ast \colon C(X^+) \to \mathbb{C}
+$$
+
+The [[topological K-theory]] of $X$ is the [[kernel]] of the induced map in [[operator K-theory]]
+
+$$
+  K(X) \simeq ker(i^\ast) \simeq K(C_0(X))
+  \,.
+$$
+
+=--
+
+
 ## Properties
 
 ### The point at infinity
+
++-- {: .num_remark #DualPointInclusion}
+###### Remark
 
 The unitisation of $A$ comes with a canonical [[projection]] [[homomorphism]] of [[C*-algebras]]
 
@@ -69,14 +106,19 @@ $$
 
 Dually this corresponds to the inclusion of the "point at infinity".
 
+=--
+
 ### K-theory with compact support on non-unital $C^\ast$-algebras
 
-The map $i^\ast_A \colon A^+ \to \mathbb{C}$ induces a morphism in [[operator K-theory]]
+The map $i^\ast_A \colon A^+ \to \mathbb{C}$ of remark \ref{DualPointInclusion} induces a [[homomorphism]] of [[operator K-theory]] [[groups]] of the form
 
 $$
   K(i^\ast_A) \colon K(A^+) \to K(\mathbb{C}) \simeq \mathbb{Z}
   \,.
 $$
+
++-- {: .num_defn}
+###### Definition
 
 The [[kernel]] of this map is the operator K-theory of the original possibly non-unital $C^\ast$-algebra $A$:
 
@@ -85,9 +127,30 @@ $$
  \,.
 $$
 
-Heuristically it is clear that this is the "compactly suppported" K-theory of the possibly non-compact non-commutative space given by the algebra $A$. This statement has been made precise in Heath... where it is shown that for $A = C(X)$ the functions on a topological space, $K(A)$ as above is isomorphic to the subspace of the space of maps $X \to KU$ to the [[K-theory spectrum]] to those that are compactly supported.
+=--
+
+
+Heuristically it is clear that this is the "compactly suppported" K-theory of the possibly non-compact non-commutative space given by the algebra $A$. This statement has been made precise for instance in ([Emerson 07](#Emerson07), theorem 3.8)):
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]],  there is a [[natural isomorphism]]
+
+$$
+  K(X) \simeq [X,Fred]_{cs}
+  \,,
+$$
+
+where on the right we [[homotopy classes]] of maps of [[compact support]] into the [[classifying space]] for K-theory (space of Fredholm operators).
+
+=--
+
 
 ## References
+
+* [[Heath Emerson]], _Equivariant representable K-theory_ ([arXiv:0710.1410](http://arxiv.org/abs/0710.1410))
+ {#Emerson07}
 
 [[!redirects unitisation of C-star algebras]]
 
