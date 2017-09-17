@@ -1,4 +1,3 @@
-[[!redirects ∞-Lie algebroid valued differential forms]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -78,15 +77,20 @@ $$
       \\
       \uparrow && \uparrow
       \\
-      \Omega^\bullet(X) \otimes \Omega^\bullet(\Delta k)
+      \Omega^\bullet(X) \otimes \Omega^\bullet(\Delta^k)
       &\leftarrow&
       W(\mathfrak{a})
+      \\
+      \uparrow && \uparrow
+      \\
+      (\Omega^\bullet(U)\otimes C^\infty(\Delta^k))_{close}
+      &\stackrel{\langle F_A\rangle}{\leftarrow}&
+      inv(\mathfrak{g})
     }
   \right\}
   \,,
 $$
 
-where the subset is that on those elements for which the bottom morphism hits forms that have no leg along the simplex.
 
 For the moment, see [[Lie integration]] and [[∞-Chern-Weil theory]] for more discussion of this.
 
@@ -95,3 +99,8 @@ For the moment, see [[Lie integration]] and [[∞-Chern-Weil theory]] for more d
 [[!redirects ∞-groupoid of ∞-Lie algebroid valued forms]]
 [[!redirects ∞-groupoid of ∞-Lie algebroid valued differential forms]]
 
+[[!redirects ∞-Lie algebroid valued differential forms]]
+
+
+[[!redirects ∞-Lie algebra valued differential form]]
+[[!redirects ∞-Lie algebra valued differential forms]]
