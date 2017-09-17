@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _symplectic integrator_ is a numerical discretization scheme for solving [[Hamilton's equations]] which takes into account the symplectic structure and, in particular, the conservation laws, at the discretization level, thus resulting in better long-time behaviour of numerical solutions than that of generic discretization schemes. There are analogues for classical field theory, which take into account the resulting multisymplectic structure. 
+A _symplectic integrator_ is a numerical discretization scheme for solving [[Hamilton's equations]] which takes into account the [[symplectic structure]] and, in particular, the [[conservation laws]], at the discretization level, thus resulting in better long-time behaviour of numerical solutions than that of generic discretization schemes. There are analogues for [[classical field theory]], which take into account the resulting [[multisymplectic geometry|multisymplectic structure]]. 
 
 ## References
 
