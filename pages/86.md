@@ -1063,6 +1063,9 @@ based on
 
 [[!redirects Batalin-Vilkovisky formalism]]
 [[!redirects Batalin-Vilkovisky theory]]
+
+[[!redirects BV-formalism]]
+
 [[!redirects BV-theory]]
 [[!redirects BV theory]]
 [[!redirects BV-BRST formalism]]
