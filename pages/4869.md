@@ -33,7 +33,7 @@ Why not $0$?  (I don\'t see any bridges in the obvious diagram.)  Are there nume
 The usual picture of the trefoil knot, which we will write as $T_{2,3}$,
 has three bridges, but the trefoil knot actually has bridge number 2, as shown:
 
-<svg width="473" height="436" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="10729">
+<svg viewBox="0 0 473 436" width="473" height="311" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="10729" style="margin: 0pt 2em 0pt 0pt;">
  <g>
   <title>Layer 1</title>
   <path transform="rotate(-120, 259.402, 127.805)" id="svg_10729_17" d="m113.11998,8.914688c6.583008,0.083008 127.167007,1.166992 133.750015,1.25c6.583008,0.083008 30.578491,-0.904808 72.75,1.25c42.171509,2.154816 81.237549,34.19458 85.766724,77.116028c4.529175,42.921463 -44.09137,117.568939 -75.142334,142.410263c-31.050964,24.841339 -96.234955,21.666977 -116.87439,-19.276291c-20.639435,-40.943283 -8.833008,-16.833023 -32.25,-59.75" stroke-width="6" stroke="#bf0000" fill="none"/>
