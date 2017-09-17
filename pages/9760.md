@@ -19,7 +19,7 @@ The corresponding exceptional [[super L-∞ algebra]] [[∞-Lie algebra cohomolo
 
 | $\stackrel{D}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 10 |
 |--|--------|---|---|---|---|---|---|---|----|----|----|
-| 11 | |  |  $\Psi^2 E^2$ on [[super Poincare Lie algebra|sIso]](10,1) |  |   | $\Psi^2 E^5 + \Psi^2 E^2 C_3$ on [[m2brane]]  |   |   |   |   | $\ast$  |
+| 11 | |  |  $\Psi^2 E^2$ on [[super Poincare Lie algebra|sIso]](10,1) |  |   | $\Psi^2 E^5 + \Psi^2 E^2 C_3$ on [[m2brane]]  |   |   |   |   | $\Psi^2 E^{10}$ on [[super Poincare Lie algebra|sIso]](10,1)  |
 | 10 | | $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](9,1) |   |  | (?)  | $\Psi^2 E^5$ on [[super Poincare Lie algebra|sIso]](9,1) |   |   |   |   |   |   
 | 9 | |   |   |  | $\Psi^2 E^4$ on  [[super Poincare Lie algebra|sIso]](8,1) |  |   |   |   |   |   |   
 | 8 | |   |   | $\Psi^2 E^3$ on  [[super Poincare Lie algebra|sIso]](7,1) |   |  |   |   |   |   |   |   
