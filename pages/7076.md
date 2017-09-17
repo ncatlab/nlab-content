@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,6 +19,12 @@ A _cartesian closed model category_ is a [[cartesian closed category]] that is e
 
 ## Related concepts
 
-* [[locally cartesian closed model category]]
+* [[cartesian closed category]], [[locally cartesian closed category]]
+
+* [[cartesian closed functor]], [[locally cartesian closed functor]]
+
+* **cartesian closed model category**, [[locally cartesian closed model category]]
+
+* [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
 
 
