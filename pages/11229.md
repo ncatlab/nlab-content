@@ -116,3 +116,5 @@ A useful set of lecture notes on the mathematical background of [[computability]
 
 
 [[!redirects computable quantum physics]]
+
+[[!redirects computability in physics]]
