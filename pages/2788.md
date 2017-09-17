@@ -1,3 +1,16 @@
++-- {: .standout}
+Good news! The twists and turns on this page have culminated in [Functors and generalized elements](http://ncatlab.org/nlab/show/functor#OnGeneralizedElements). From there, I drew the diagram
+
+<img src="http://ncatlab.org/nlab/files/altfunctor.jpg" width = "300"/>
+
+Staring at this diagram resulted in the following:
+
+##Definition
+
+Given categories $C$ and $D$, a **functor** $F:C\to D$ is a map that sends each object $x$ in $C$ to an object $F(x)$ in $D$ and each morphism $f:x\to y$ in $C$ to a morphism $F(f):F(x)\to F(y)$ in $D$ such that each commuting diagram in $C$ maps to a commuting diagram in $D$.
+
+=--
+
 #Contents#
 
 +-- {: .standout}
