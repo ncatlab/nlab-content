@@ -27,6 +27,27 @@ from the [[opposite category]] of $C$ to the category of [[distributive lattices
 
 1. [[Beck-Chevalley condition]].
 
+## Properties
+ {#Properties}
+
+The assignment ([here](#OverACoherentCategory)) of a coherent hyperdoctrine $S(C)$ to a [[coherent category]] $C$ extends to a [[2-adjunction]]
+
+$$
+  (A \dashv S)
+  :
+  CoherentCat 
+   \stackrel{\overset{A}{\leftarrow}}{\underset{S}{\to}}
+  CoherentHyperdoctrine
+  \,.
+$$
+
+This appears as ([Coumans, prop. 8](#Coumans)).
+
+Coherent hyperdoctrines are closed under [[canonical extension]] $(-)^\delta : DistLattice \to DistLattice$, in that for $P : C^{op} \to DistLattic$ a coherent hyperdoctrine, so is $(-)^\delta \circ P$.
+
+This appears as ([Coumans, prop. 9](#Coumans)).
+
+
 ## Examples
 
 ### Powersets
@@ -34,12 +55,13 @@ from the [[opposite category]] of $C$ to the category of [[distributive lattices
 The [[powerset]] functor
 
 $$
-  P : Set^{op} \to DistLattice
+  P := \{0,1\}^{(-)} : Set^{op} \to DistLattice
 $$
 
 (sending a [[set]] to its [[power set]] and a [[function]] to the [[preimage]]-assignment) is a coherent hyperdoctrine. 
 
 ### Over a coherent category
+ {#OverACoherentCategory}
 
 Let $C$ be a [[coherent category]]. For every [[object]] $A \in C$ the [[poset of subobjects]] $Sub_C(A)$ is a [[distributive lattice]]. 
 
@@ -51,9 +73,19 @@ $$
 
 from the [[opposite category]] of $C$ to the category of distributive lattices is called the **coherent hyperdoctrine** of $C$.
 
+### For a coherent theory
+
+Accordingly, there is a coherent hyperdoctrine associated with any [[coherent theory]], where the objects of $C$ are lists of [[free variables]] in the theory, and the lattice assigned to them is that of [[propositions]] of the theory in this [[context]].
+
 ## Related concepts
 
 * [[first-order hyperdoctrine]]
 
+* [[Boolean hyperdoctrine]]
+
+## References
+
+* Dion Coumans, _Generalizing canonical extensions to the categorical setting_
+ {#Coumans}
 
 [[!redirects coherent hyperdoctrines]]
