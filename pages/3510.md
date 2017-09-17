@@ -27,7 +27,7 @@ The notion of [[complete Segal space]] is a model for the notion of [[(∞,1)-ca
 
 The following [[model category]] structure models the [[(∞,1)-category]] of [[complete Segal space]]s.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(Rezk model structure for complete Segal spaces)**
 
@@ -71,7 +71,7 @@ This appears as [JT, theorem 4.1](http://arxiv.org/PS_cache/math/pdf/0607/060782
 
 For handling this it can be useful to realize it as a [[Bousfield localization of model categories|left Bousfield localization]] of the following model structure
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(vertical model structure on bisimplicial sets)**
 
@@ -103,8 +103,12 @@ It appears as [JT, theorem 2.6](http://arxiv.org/PS_cache/math/pdf/0607/0607820v
 =--
 
 
+## Properties
 
-## Relation to quasi-categories {#RelQCat}
+### Relation to other model structures
+
+#### Model structure for quasi-categories 
+  {#RelQCat}
 
 We have the following pair of [[adjunction]]s between [[simplicial set]]s and [[bisimplicial set]]s.
 
@@ -159,7 +163,7 @@ where
   $$
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The composite adjunction
@@ -182,7 +186,7 @@ This appears at the end of the proof of [JT, theorem 4.12](http://arxiv.org/PS_c
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Both these adjunctions are [[Quillen equivalence]]s between the [[model structure for quasi-categories]] on simplicial sets and the Rezk model structure for complete Segal spaces on bisimplicial sets.
@@ -195,6 +199,29 @@ Both these adjunctions are [[Quillen equivalence]]s between the [[model structur
 This appears [JT, theorem 4.11, 4.12](http://arxiv.org/PS_cache/math/pdf/0607/0607820v2.pdf#page=25). 
 
 =--
+
+#### Model structure for dendroidal complete Segal spaces
+
+The [[operad|operadic]] analog of [[simplicial sets]] / [[bisimplicial sets]] are [[dendroidal sets]] / dendroidal spaces, parameterized over the [[tree category]] $\Omega$
+
+$$
+  dsSet := [\Omega^{op}, sSet]
+  \,.
+$$
+
+Write $\eta \in \Omega \hookrightarrow dSet \hookrightarrow dsSet$ for the [[tree]] with a single edge and no non-trivial vertex. 
+
+Then [[slice category]] of $dsSet$ over $\eta$ is evidently equivalent to that of [[bisimplicial sets]]
+
+$$
+  ssSet \simeq dsSet_{/\eta} 
+  \hookrightarrow
+  dsSet
+  \,.
+$$
+
+By restriction along this inclusion, the 
+[[model structure for dendroidal complete Segal spaces]] reproduces the above model structure. See there for more details.
 
 ## Related concepts
 
