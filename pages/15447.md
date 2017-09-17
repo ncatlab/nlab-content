@@ -1,0 +1,18 @@
+[[!redirects finite-dimensional vector spaces]]
+A [[vector space]] is _finite-dimensional_ if it admits a finite [[basis]]. The category $Vect_{fd}$ of finite-dimensional vector spaces is of course the full subcategory of $Vect$ whose objects are finite-dimensional. 
+
+A vector space $V$ is finite-dimensional just if $\hom(V, -): Vect \to Set$ preserves filtered colimits. For, every vector space $W$ is the filtered [[colimit]] of the [[diagram]] of finite-dimensional subspaces $W' \subseteq W$ and inclusions between them; applying this to $W = V$, the condition implies that the canonical comparison map 
+
+$$colim_{fd\; V' \subseteq V} \hom(V, V') \to \hom(V, V)$$ 
+
+is an [[isomorphism]], so some element $[f]$ in the colimit represented by $f: V \to V'$ gets mapped to $1_V$, i.e., $i \circ f = 1_V$ for some inclusion $i: V' \hookrightarrow V$. This implies $i$ is an isomorphism, so that $V$ is finite-dimensional. 
+
+In the converse direction, $\hom(V, -)$ has a right adjoint (and in particular preserves filtered colimits) if $V$ is finite-dimensional. The dual space $V^\ast$ of [[functionals]] $f: V \to k$ to the ground field is [[dual object|dual]] to $V$ in the [[monoidal category]] sense, so that there is a counit $eval: V^\ast \otimes V \to k$ taking $f \otimes v \mapsto f(v)$. The unit is uniquely determined from this counit and can be described using any basis $e_i$ of $V$ and dual basis $f_j$ as the map 
+
+$$k \to V \otimes V^\ast$$ 
+
+taking $1 \mapsto \sum_i e_i \otimes f_i$. We thus have an adjunction $(- \otimes_k V) \; \dashv (- \otimes V^\ast)$, which is [[mate]]d to an adjunction $\hom(V, -) \dashv \hom(V^\ast, -)$ by familiar hom-tensor adjunctions; thus $\hom(V, -)$ has a right adjoint. 
+
+In short, finite-dimensional vector spaces are exactly the compact objects of $Vect$ in the sense of [[locally presentable categories]], but also the compact = dualizable objects in the sense of [[monoidal category]] theory. In particular the category $Vect_{fd}$ is a [[compact closed category]]. 
+
+[[!redirects finite-dimensional vector spaces]] 
