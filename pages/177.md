@@ -57,13 +57,15 @@ Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
 
 * A directed graph is a [[globular set]] which is concentrated in the first two degrees.
 
-* Directed graphs includes [[graph|multigraphs]], i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
+* Directed graphs in the sense here include graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
 
-* A directed graph is **complete** if for any pair of vertices $v,v'\in G_0$, there are directed edges $e,e'\in G_1$ with $s(e) = v, t(e) = v'$ and $s(e') = v', t(e') = v$. 
+* A directed graph is **complete** if for any pair of vertices $v,v'\in G_0$, there exists a unique directed edges $e\in G_1$ with $s(e) = v, t(e) = v'$.
 
 +--{.query} 
 
 [[Todd Trimble|Todd]]: This bit about "complete" seems to hark back to the concept of directed graph in the sense that graph theorists use it, with at most one edge from one vertex to another. Is it really important in the theory of directed graphs as defined on this page -- do people talk about this "completeness" much in this context? 
+
+_Toby_:  I don\'t know about the contexts in which people talk about it, but complete directed graphs are a very natural concept even starting from the more general notion of directed graph (quiver) that we have here.  The definition just was not phrased well for that, so I have fixed it.
 
 =--
 
