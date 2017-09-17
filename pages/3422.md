@@ -114,7 +114,7 @@ $$
 
 where $X^{\triangleright} = X \star \{v\}$ is the [[join of simplicial sets]] of $X$ with a single vertex $v$.
 
-Using this construction, define a functor, the **straightening functor**,
+Using this construction, define a functor, the **[[straightening functor]]**,
 
 $$
   St_\phi : sSet/S \to [C^{op}, sSet]
