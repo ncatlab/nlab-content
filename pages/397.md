@@ -142,6 +142,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Peter Selinger]]
 * [[phx]]
 * [[PrimeDeGold]]
+* [[Raeder]]
 * [[Rafael Borowiecki]]
 * [[Rasmus Bentmann]]
 * [[Reid Barton]]
