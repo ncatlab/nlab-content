@@ -27,13 +27,13 @@ It is defined to be a [[category]] of objects that behave like [[spaces]], one o
 
 # Definition #
 
-There is a standard definition  and various straightforward variations.
+There is a standard definition and various straightforward variations.
 
-## standard definition ##
+## Standard definition ##
 
 For $(\mathcal{T},R)$ a [[lined topos]] there is the notion of an $R$-algebra object in $\mathcal{T}$. For $A$ and $B$ any two $R$-algebra objects, let $R Alg_\mathcal{T}(A,B)$ denote the [[subobject]] of $B^A$ consisting of morphisms $A \to B$ which are algebra homomorphisms. Let $Spec(A)$ denote the algebra spectrum $R Alg_\mathcal{T}(A,R)$ of $A$ in $\mathcal{T}$.
 
-+-- {: .un_defn }
++-- {: .num_defn }
 ###### Definition
 An **$R$-[[infinitesimal object|Weil algebra]]** $W$ is an $R$-algebra of the form $W = R \oplus J$, 
 where $J$ is an $R$-finite-dimensional nilpotent ideal.
@@ -41,7 +41,7 @@ where $J$ is an $R$-finite-dimensional nilpotent ideal.
 =--
 
 
-+-- {: .un_defn }
++-- {: .num_defn }
 ###### Definition
 A [[lined topos]] $(\mathcal{T},R)$ is a **smooth topos** if, for each $R$-[[infinitesimal object|Weil algebras]] $W$, the functor $(-)^{Spec W} : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]] and the canonical morphism
 
@@ -49,16 +49,16 @@ A [[lined topos]] $(\mathcal{T},R)$ is a **smooth topos** if, for each $R$-[[inf
     W \to R^{Spec(W)}
   $$
 
-  is an [[isomorphism]] in $\mathcal{T}$
+  is an [[isomorphism]] in $\mathcal{T}$. 
 =--
 
-That is to say, each $R$-Weil algebra in a lined topos is [[infinitesimal object|infinitesimal]] and satisfies the [[Kock-Lawvere axiom]]. The right adjoint of $(-)^{Spec W}$ is [[amazing right adjoint|amazing]]. 
+That is to say, each $R$-Weil algebra in a lined topos is [[infinitesimal object|infinitesimal]] and satisfies the [[Kock-Lawvere axiom]]. The right adjoint of $(-)^{Spec W}$ is known as the "[[amazing right adjoint]]". 
 
 # Examples #
 
-## well-adapted models ##
+## Well-adapted models ##
 
-A smooth topos $(\mathcal{T},R)$ is called a **well adapated model** if there is a [[full and faithful functor]] 
+A smooth topos $(\mathcal{T},R)$ is called a **well adapted model** if there is a [[full and faithful functor]] 
 
 $$ 
   Diff \hookrightarrow \mathcal{T}
@@ -74,11 +74,11 @@ For a list of examples of well adapted models see
 
 Notice that by far not all models are of this form, as the following examples show. On the contrary, the axioms of [[synthetic differential geometry]] may be regarded as providing a unified framework in particular for [[differential geometry]] of [[manifold]]s and [[algebraic geometry]] of [[algebraic space]]s, [[scheme]]s and other objects.
 
-## models for supergeometry ##
+## Models for supergeometry ##
 
 It is straightforward to slightly enhance the axioms of smooth toposes such as to incorporate the step from [[differential geometry]] to [[supergeometry]], one just requires that algebra structure on the [[lined topos|line object]] $R$ is further refined to thatr of a [[superalgebra]]. The result is called a [[super smooth topos]]. See there for a list of models of these.
 
-## models for algebraic geometry ##
+## Models for algebraic geometry ##
 
 A simple model of a [[smooth topos]] that may be regarded as a context inside which much of [[algebraic geometry]] takes place is the following:
 
@@ -111,7 +111,7 @@ See also
 
 * [[synthetic differential geometry applied to algebraic geometry]].
 
-## warning on preservation of (co)limits ##
+## Warning on preservation of (co)limits ##
 
 Most of the examples above provided [[topos]]es into which a [[category]] $NiceSpaces$ of nicely behaved [[space]]s, such as [[manifold]]s or [[scheme]]s embeds [[full and faithful functor|full and faithfully]].
 
