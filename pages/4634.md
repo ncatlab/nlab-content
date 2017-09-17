@@ -126,6 +126,8 @@ Thinking of these as categories of [[quasicoherent sheaves]] on some spaces (by 
 
 The category of ordinary [[Chow motives]], after factoizing out the actiojn of the [[Tate motive]] essentially sits inside that of noncommutative Chow motives. This is recalled as  ([Tabuada 11, theorem 4.6](#Tabuada11)). For more see ([Tabuada 11 ChowNCG](#Tabuada11Chow)).
 
+This relation is best understood as being exhibited by [[K-motives]], see there.
+
 ### Relation to KK-theory
 
 Noncommutative motives receive a universal functor from [[KK-theory]]
