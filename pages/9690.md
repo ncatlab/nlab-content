@@ -1,0 +1,9 @@
+
+
+The [[category]] of commutative (abelian) [[monoids]].
+
+category: categories
+
+
+[[!redirects Ab Mon]]
+
