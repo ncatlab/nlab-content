@@ -30,10 +30,18 @@ This means that an $E_\infty$-ring is an [[A-∞ ring]] that is commutative up t
 
 In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinary [[commutative monoids]] with respect to the [[symmetric monoidal smash product of spectra]], a fact sometimes referred to as "[[brave new algebra]]".
 
+## Properties
+
+### Postnikov tower
+
+The [[Postnikov tower in an (∞,1)-category|Postnikov tower]] of an $E_\infty$-ring is a sequence of [[square-zero extensions]] ([Lurie, section 8.4](#Lurie)).
+
 
 ## Examples
 
 * [[∞-group ∞-ring]]
+
+* [[ring spectrum]]
 
 ## Related concepts
 
@@ -52,9 +60,13 @@ In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinar
 
 ## References
 
+The theory is laid out in 
+
 * [[Peter May]] with contributions by [[Frank Quinn]], Nigel Ray and Jorgen Tornehave, _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf))
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+
+For survey see also
 
 * [[Moritz Groth]], _A short course on infinity-categories_, [pdf](http://www.math.ru.nl/~mgroth/preprints/groth_scinfinity.pdf).
 
@@ -67,7 +79,9 @@ In [[K(n)-local stable homotopy theory]]:
 
 * [[Michael Hopkins]], _$K(1)$-local $E_\infty$-Ring spectra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/knlocal.pdf))
 
-* [pdf](http://math.univ-lille1.fr/~fresse/Bar-StructureUniqueness.pdf)
+See also 
+
+* [[Benoit Fresse]], _The Bar Complex of an E-infinity algebra_ ([pdf](http://math.univ-lille1.fr/~fresse/Bar-StructureUniqueness.pdf))
 
 [[!redirects E-∞ ring]]
 [[!redirects E-infinity ring]]
