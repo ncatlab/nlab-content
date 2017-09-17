@@ -1,7 +1,7 @@
 ### Classical version
 
 * [[Vladimir Drinfeld|V. G. Drinfel'd]], V.V. Sokolov, Sov. Math. Dokl. __23__ (1981) 457; J. Sov. Math. __30__ (1985) 1975.
-* Alberto De Sole, Victor G. Kac, Daniele Valeri, _Classical W-algebras and Drinfeld-Sokolov bi-Hamiltonian systems within the theory of Poisson vertex algebras_, [arxiv/1207.6286](http://arxiv.org/abs/1207.6286)
+* Alberto De Sole, Victor G. Kac, Daniele Valeri, _Classical W-algebras and Drinfeld-Sokolov bi-Hamiltonian systems within the theory of Poisson vertex algebras_, [arxiv/1207.6286](http://arxiv.org/abs/1207.6286); _Classical W-algebras and generalized Drinfeld-Sokolov hierarchies for minimal and short nilpotents_, [arxiv/1306.1684](http://arxiv.org/abs/1306.1684) 
 
 ### Quantum version
 
