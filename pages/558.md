@@ -58,6 +58,26 @@ The reason this is important to specify is that there are other notions of equiv
 
 Finally, in analogy to the homotopy hypothesis, there are also attempts to relate general [[(∞,n)-categories]] (not necessarily groupoidal) to [[directed topological space]]s by a [[fundamental (∞,1)-category|fundamental (∞,n)-catgeory]]-construction. There have been claims that a _directed homotopy hypothesis_ can be proven, but at the moment there does not seem to be a published statement.
 
+## Abstract statement {#AbstractStatement}
+
+
+The following general abstract statement of the homotopy hypothesis is often useful to make explicit.
+
++-- {: .un_theorem}
+###### Theorem
+
+There is an [[equivalence of (∞,1)-categories]]
+
+$(\Pi \dashv |-|) : $ [[Top]] $\simeq$ [[∞Grpd]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This statement can be formulated, holds true and is proven  below at least for the standard definitions of these two [[(∞,1)-categories]] (see [section on Kan complexes](#ForKanComplexes), [section on algebraic Kan complexes](#ForAlgebraicKanComplexes)).
+
+=--
 
 ## Realizations
 
@@ -89,7 +109,7 @@ It is known that not all homotopy 3-types can be modeled by strict 3-groupoids, 
 (...)
 
 
-### For Kan complexes {}
+### For Kan complexes {#ForKanComplexes}
 
 We write $sSet_{Quillen}$ for [[sSet]] equipped with the standard [[model structure on simplicial sets]]. The cofibrant-fibrant objects in $sSet_{Quillen}$ are precisely the [[Kan complex]]es.
 
