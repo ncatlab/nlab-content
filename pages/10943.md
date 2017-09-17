@@ -1,6 +1,1 @@
-[[!redirects test4535]]
-why was the title changed?
-
-There are traditions on the n-Lab that if a page is created with content as this one had, then the page is cleaned, renamed empty(some number) and left so that it is available for use in the future. The empty tag tells one that it can be so used. 
-
-If you intend to create some page with real content, that page can be used. The old name did not seem to have a meaning.  If you want to try out some content on the Lab, why not use the Sandbox in one of its forms? What content had you intended to put there?
+category:empty
