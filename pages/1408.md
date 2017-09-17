@@ -741,6 +741,54 @@ $F : (\infty,1)Topos(\mathcal{G}) \to (\infty,1)Topos$ preserves these.
 
 This appears as ([Lurie, corl 1.5.4](#Lurie)).
 
+
+### Embedding into the ambient big $(\infty,1)$-topos
+
+
++-- {: .num_defn}
+###### Definition
+
+For $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] write 
+
+$$
+  \hat \mathcal{G} := Pro(\mathcal{G})
+$$
+
+for its [[(∞,1)-category]] of [[ind-object in an (∞,1)-category|pro-objects]].
+
+Write $\widehat{\infty Grpd}$ for the very large [[(∞,1)-category]] of large [[∞-groupoid]]s and
+
+$$
+  \hat Sh(\hat \mathcal{G}, \widehat{\infty Grpd})
+$$
+
+for the [[very large (∞,1)-sheaf (∞,1)-topos]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The canonical inclusion
+
+$$
+  Scheme(\mathcal{G}) \to 
+  \hat PSh(\hat \mathcal{G}, \widehat{\infty Grpd})
+$$
+
+of [[locally representable structured (∞,1)-topos]]es by 
+
+$$
+  (X, \mathcal{O}_X) \mapsto Hom(Spec(-), (X, \mathcal{O}_X))
+$$
+
+is a [[full and faithful (∞,1)-functor]].
+
+=--
+
+This is ([Lurie, theorem, 2.4.1](#Lurie)).
+
+
 ## Related concepts
 
 * [[ringed space]], [[locally ringed space]]
