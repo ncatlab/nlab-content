@@ -37,7 +37,7 @@ $$
 
 =--
 
-The left adjoint is sometimes called the __reflector__, and a functor which is a reflector (or has a fully faithful right adjoint, which is the same up to equivalence) is called a __reflection__.  Of course, there are dual notions of __coreflective__, __coreflector__, and __coreflection__.
+The left adjoint is sometimes called the __reflector__, and a functor which is a reflector (or has a fully faithful right adjoint, which is the same up to equivalence) is called a __reflection__.  Of course, there are dual notions of __[[coreflective subcategory]]__, __coreflector__, and __coreflection__.
 
 
 +-- {: .num_remark #NonFullReflections}
