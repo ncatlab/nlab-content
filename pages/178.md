@@ -4833,7 +4833,7 @@ Recall that for $A \in Smooth \infty Grpd$ a smooth $\infty$-groupoid regarded a
     \,.
   $$
 
-Above we have discussed a presentation of the 
+[Above](#CurvatureCharacteristicOnCircleNGroup) we have discussed a presentation of the 
 universal curvature class $\mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}\mathbb{R}$ by a span
 
 $$
@@ -4842,7 +4842,7 @@ $$
     &\stackrel{curv_{smp}}{\to}&
      \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}
     \\
-    \downarrow^{\mathrlap{simeq}}
+    \downarrow^{\mathrlap{\simeq}}
   
     \\
     \mathbf{B}^n \mathbb{R}_{smp}
@@ -4853,11 +4853,9 @@ in the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet
 
 We now insert this in the above general abstract definition of the $\infty$-Chern-Weil homomorphism to deduce a presentation of that in terms of smooth families of [[∞-Lie algebroid valued differential forms]].
 
-The main step is the construction of a well-suited composite of two spans of morphisms of simplicial presheaves (of two [[∞-anafunctor]]s): we consider presentations of [[characteristic class]]es $\mathbf{c} : \mathbf{B}G$ \to \mathbf{B}^n U(1)$ in the image of the [∞-Lie integration](#LieIntegration) and presented by trunactions and quotients of morphisms of simplicial presheaves of the form
+The main step is the construction of a well-suited composite of two spans of morphisms of simplicial presheaves (of two [[∞-anafunctor]]s): we consider presentations of [[characteristic class]]es $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ in the image of the [∞-Lie integration](#LieIntegration) map and presented by trunactions and quotients of morphisms of simplicial presheaves of the form
 
 $$
-  \mathbf{c}_{smp}
-  :
   \array{
     \exp(\mathfrak{g})
     \stackrel{\exp(\mu)}{\to}
@@ -4874,7 +4872,7 @@ $$
     &\stackrel{curv_{smp}}{\to}&
      \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}
     \\
-    && \downarrow^{\mathrlap{simeq}}
+    && \downarrow^{\mathrlap{\simeq}}
     \\
     \exp(\mathfrak{g})
     &\stackrel{\exp(\mu)}{\to}&
@@ -4886,11 +4884,11 @@ of simplicial presheaves. In order to efficiently compute which morphism in $Smo
 
 $$
   \array{
-    \exp(\mathfrak{g})_{diff,smp} &\stackrel{\exp(\mu,cs)}{\to}& \mathbf{B}^n \mathbb{R}_{diff,smp}
+    \exp(\mathfrak{g})_{diff} &\stackrel{\exp(\mu,cs)}{\to}& \mathbf{B}^n \mathbb{R}_{diff,smp}
     &\stackrel{curv_{smp}}{\to}&
      \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}
     \\
-    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{simeq}}
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
     \\
     \exp(\mathfrak{g})
     &\stackrel{\exp(\mu)}{\to}&
@@ -4903,21 +4901,15 @@ Given this, $\exp(\mathfrak{g})_{diff,smp}$ serves as a new [[resolution]] of $\
 
 This object $\exp(\mathfrak{g})_{diff}$ we shall see may be interpreted as the coefficient for _pseudo_ [[connection on an ∞-bundle|∞-connections]] with values in $\mathfrak{g}$. 
 
-There is however still room to adjust this presentation such as to yield in each cohomology class special nice cocycle representatives. This we will achieve by finding naturally a [[subobject]] $\exp(\mathfrak{g})_{conn} \hookrightarrow \exp(\mathfrak{g})_{diff}$ whose inclusion is an isomorphism on connected components and restricted to which the morphism $curv_{smp} \circ \exp(\mu,cs)$ yields nice representatives in the [[de Rham cohomology|de Rham]] [[hypercohomology]] encoded by $\mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}_{smp}$. On this object the differential characteristic classes we will show factor naturally through the refinements to differential cohomology, and hence $\exp(\mathfrak{g})_{conn}$ is finally identified as a presentation for the the coefficient object for [[connection on an ∞-bundle|∞-connections]] with values in $\mathfrak{g}$.
-
-(...)
-
-* [[∞-Chern-Weil homomorphism]]
+There is however still room to adjust this presentation such as to yield in each cohomology class special nice cocycle representatives. This we will achieve by finding naturally a [[subobject]] $\exp(\mathfrak{g})_{conn} \hookrightarrow \exp(\mathfrak{g})_{diff}$ whose inclusion is an isomorphism on connected components and restricted to which the morphism $curv_{smp} \circ \exp(\mu,cs)$ yields nice representatives in the [[de Rham cohomology|de Rham]] [[hypercohomology]] encoded by $\mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}_{smp}$, namely globally defined differential forms. On this object the differential characteristic classes we will show factors naturally through the refinements to differential cohomology, and hence $\exp(\mathfrak{g})_{conn}$ is finally identified as a presentation for the the coefficient object for [[connection on an ∞-bundle|∞-connections]] with values in $\mathfrak{g}$.
 
 
 #### $\infty$-Pseudo-connections
 
-We discuss presentations for the differential characteristic classes.
+We discuss presentations for the differential characteristic classes in the image of $\infty$-Lie integration.
 
-For $\mathfrak{g}$ an [[L-∞ algebra]], 
-the exponentiated simplicial presheaf $\exp(\mathfrak{g})$ from [above](#spring) is constructed in terms of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$. We discuss here a few related [[dg-algebra]]ic structures that resolve this construction and and serve to yield a presention of the $\infty$-Chern-Weil homomorphism on $\exp(\mathfrak{g})$.
 
-Let $\mathfrak{g} \in L_\infty \stackrel{CE}{\to} dgAlg^{op}$. 
+Let $\mathfrak{g} \in L_\infty \stackrel{CE}{\hookrightarrow} dgAlg^{op}$. 
 
 
 +-- {: .un_defn}
@@ -4944,17 +4936,21 @@ $$
    : 
   \exp(\mathfrak{g})
     \to 
-  \exp(\mathfrak{b^{n-1}\mathbb{R}})
+  \exp(b^{n-1}\mathbb{R})
 $$
 
 given componentwise by postcomposition with the image of $\mu$ under $CE(-)$
 
 $$
-  \exp(\mu)(U, [k]) 
-   : 
+  \begin{aligned}
+   \exp(\mu)(U, [k]) 
+    & : 
    (\Omega^\bullet_{si,vert}(U \times \Delta^k) \stackrel{A}{\leftarrow} CE(\mathfrak{g}))
+   \\
+   &
    \mapsto 
    (\Omega^\bullet_{si,vert}(U \times \Delta^k) \stackrel{A}{\leftarrow} CE(\mathfrak{g}) \stackrel{CE(\mu)}{\leftarrow} CE(b^{n-1}\mathbb{R}))
+  \end{aligned}
   \,.
 $$
 
@@ -5013,7 +5009,7 @@ this subsumes the [previous definition](#DiffSmpForLineLienAlgebra).
 +-- {: .un_prop}
 ###### Proposition
 
-The canonical morphism
+The canonical projection
 
 $$
   \exp(\mathfrak{g})_{diff} \to \exp(\mathfrak{g})
@@ -5054,7 +5050,164 @@ Use the contractibility of the Weil algebra.
 
 #### $\infty$-Connections
 
+We discuss presentations in $[CartSp_{smooth}^{op}, sSet]$ of the
+the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWeilTheory">intrinsic notion of ∞-connections</a> in 
+$Smooth \infty Grpd$.
+
+
+Let $\mathfrak{g} \in _\infty \stackrel{CE(-)}{\hookrightarrow} dgAlg^{op}$
+
++-- {: .un_defn}
+###### Definition
+
+An **[[invariant polynomial]]** on $\mathfrak{g}$ is an element 
+$\langle - \rangle \in W(\mathfrak{g})$ such that
+
+* $\langle - \rangle \in \wedge^\bullet \mathfrak{g}[2] \hookrightarrow W(\mathfrak{g})$;
+
+* $d_W \langle - \rangle = 0$.
+
+Write $inv(\mathfrak{g}) \hookrightarrow W(\mathfrak{g})$ for the sub-dg-algebra of invariant polynomials.
+
+=--
+
++-- {: .un_prop}
+###### Observation
+
+We have 
+
+$$
+  inv(b^{n-1}\mathbb{R}) \simeq CE(b^n \mathbb{R})
+  \,.
+$$
+
+This allows us to identify an invariant polynomial $\langle - \rangle$ of degree $n+1$ with a morphism
+
+$$
+  inv(\mathfrak{g}) \stackrel{\langle - \rangle}{\leftarrow}
+  inv(b^{n-1}\mathbb{R})
+$$
+
+in [[dgAlg]].
+
+=--
+
+
++-- {: .un_defn}
+###### Definition
+
+We say an invariant polynomial $\langle - \rangle$ on $\mathfrak{g}$ is **in transgression** with an $L_\infty$-algebra
+cocycle $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ if 
+there is a morphism $cs : W(b^{n-1}\mathbb{R}) \to W(\mathfrak{g})$
+such that we have a [[commuting diagram]]
+
+$$
+  \array{
+    CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}&
+    CE(b^{n-1}\mathbb{R})
+    \\
+    \uparrow && \uparrow
+    \\
+    W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}&
+    W(b^{n-1}\mathbb{R})
+    \\
+    \uparrow && \uparrow
+    \\
+    inv(\mathfrak{g}) &\stackrel{\langle- \rangle}{\leftarrow}&
+    inv(b^{n-1}\mathbb{R}) & = CE(b^n \mathbb{R})
+  }
+  \,.
+$$
+
+We say that $cs$ is a **[[Chern-Simons element]]** 
+exhibiting the transgression between $\mu$ and $\langle - \rangle$.
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+Define $\exp(\mathfrak{g})_{ChW} \in [CartSp_{smooth}^{op}, sSet]$
+by the assignment
+
+$$
+  \exp(\mathfrak{g})_{ChW} : 
+   (U , [k])
+   \mapsto
+   \left\{
+     \array{
+       \Omega^\bullet_{si,vert}(U \times \Delta^k )
+       &\stackrel{A_{vert}}{\leftarrow}&
+       CE(\mathfrak{g})
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega^\bullet_{si}(U \times \Delta^k )
+       &\stackrel{A}{\leftarrow}&
+       W(\mathfrak{g})        
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega^\bullet(U)
+       &\stackrel{\langle F_A\rangle}{\leftarrow}&
+       inv(\mathfrak{g})
+     }
+   \right\} 
+   \,.
+$$
+
+We call $\langle F_A \rangle$ the [[curvature characteristic forms]]s
+of $A$.
+
+=--
+
+This is the [[subobject]]
+
+$$
+  \exp(\mathfrak{g})_{ChW} \hookrightarrow
+   \exp(\mathfrak{g})_{diff}
+$$
+
+in $[CartSp_{smooth}^{op}, sSet]$ on those connections whose
+[[curvature characteristic form]]s are globally defined
+
++-- {: .un_prop}
+###### Observation
+
+Whenever an $L_\infty$-algebra cocycle $\mu$ is in 
+transgression with an invariant polynomial $\langle - \rangle$
+we have have a lift of the [[characteristic class]] 
+$\exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{n-1}\mathbb{R})$ to 
+a differential characteristic class on
+$\exp(\mathfrak{g})_{ChW}$ that factors through
+$\exp(b^{n-1}\mathbb{R})_{ChW}$
+
+$$
+  \array{
+    \exp(\mathfrak{g})_{ChW} &\stackrel{\exp(cs)}{\to}&
+    \exp(b^{b-1}\mathbb{R})_{ChW}
+    \\
+    \downarrow && \downarrow
+    \\
+    \exp(\mathfrak{g})_{diff} &\stackrel{\exp(cs)}{\to}&
+    \exp(b^{b-1}\mathbb{R})_{diff}    
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \exp(\mathfrak{g}) &\stackrel{\exp(\mu)}{\to}&
+    \exp(b^{n-1}\mathbb{R})
+  }
+  \,.
+$$
+ 
+
+=--
+
 (...)
+
+
+* [[connection on an ∞-bundle]]
+
 
 #### Differential characteristic classes
 
