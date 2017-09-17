@@ -210,7 +210,11 @@ See at _[monad -- Relation to adjunctions](monad#RelationToAdjunctionsAndMonadic
 
 ## References
 
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_
+ {#Borceux}
+
 * Catsters, _Adjunctions_ ([YouTube](http://www.youtube.com/watch?v=loOJxIOmShE&feature=channel_page))
+
 * Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
 
 [[!redirects adjoint pair]]
