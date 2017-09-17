@@ -1,1 +1,2 @@
-category: empty
+[[!redirects empty 24]]
+category:empty
