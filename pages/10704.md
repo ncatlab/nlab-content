@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -26,21 +25,24 @@ equivalently:
 
 * are such that the [[tensor product]] with the $p$-[[cyclic group]] vanishes: $\pi_\bullet(X) \otimes \mathbb{Z}/p\mathbb{Z} \simeq 0$.
 
+
 ### $\mathbb{Z}/p\mathbb{Z}$-local and $p$-complete
 
 A [[spectrum]] $X$ is **$\mathbb{Z}/p\mathbb{Z}$-local** if every map $Y \to X$ out of a $\mathbb{Z}/p\mathbb{Z}$-acyclic $Y$ is [[null homotopy|null homotopic]].
 
 The _$\mathbb{Z}/p\mathbb{Z}$-localization_ is the [[localization]] that makes the $\mathbb{Z}/p\mathbb{Z}$-local homotopy types/spectra be the [[local objects]].  This is the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p\mathbb{Z}$. 
 
-This $\mathbb{Z}/p\mathbb{Z}$-localization is _$p$-[[completion]]_.
+This $\mathbb{Z}/p\mathbb{Z}$-localization is _$p$-[[p-completion|completion]]_.
 
 (e.g. [May-Ponto, example 19.2.3](#MayPonto) [Lurie, example 8](#Lurie))
+
 
 ### $\mathbb{Z}_{(p)}$-local and  local at $p$ 
 
 Conversely, with $\mathbb{Z}_{(p)}$ the ring of integers [[localization of a ring|localized at]] $p$, hence with all primes except $p$ inverted, then localization of spaces/spectra at $p$ is similarly localization by $H \mathbb{Z}_{(p)}$
 
 (e.g. [May-Ponto 5.2 and example 19.2.3](#MayPonto)).
+
 
 ## Properties
 
@@ -54,15 +56,18 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * [[fracture theorem]]
 
+
 ## Examples
 
 * [[Brown-Peterson spectrum]]
+
 
 ## Related concepts
 
 * [[p-completion]]
 
 * [[finite spectrum]]
+
 
 ## References
 
@@ -76,7 +81,10 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 * {#Lurie} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
 
 
+[[!redirects p-localization]]
 [[!redirects p-localizations]]
+[[!redirects p-localisation]]
+[[!redirects p-localisations]]
 
 [[!redirects p-local]]
 [[!redirects p-locally]]
