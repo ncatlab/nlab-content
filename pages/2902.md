@@ -177,7 +177,7 @@ If we project the generic version of our icosahedron onto the plane of one of it
 
 [[!include pentagon decagon hexagon identity > irregular icosahedron]]
 
-In order to make $A P R$ into a straight line -- which amounts to making the pentagon of vertices that project onto $A P R$ into a planar figure -- we need to satisfy:
+In order to make $A P R$ into a straight line -- which amounts to making the pentagon of vertices that project onto $A P R$ into a planar figure -- we need the slope of $A R$ to equal the slope of $P R$, which is equivalent to:
 
 $$\frac{x+1}{x}=x$$
 
