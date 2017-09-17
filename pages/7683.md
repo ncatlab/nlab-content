@@ -1,6 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Cartier [[duality]] is a generalization of [[Portyagin dual|Pontryagin duality]] form topological groups to schemes.
+_Cartier [[duality]]_ is a refinement of [[Pontryagin duality]] form [[topological groups]] to [[group schemes]].
 
 ## Definition
 
