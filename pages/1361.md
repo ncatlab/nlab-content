@@ -1,5 +1,7 @@
 <div class="rightHandSide toc">
 [[!include model category theory - contents]]
+***
+[[!include enriched category theory contents]]
 </div>
 
 
