@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
@@ -16,10 +16,12 @@
 ## Definitions
 
 A **local ring** is a [[ring]] (with unit, usually also assumed commutative) such that:
+
 * $0 \ne 1$; and
 * whenever $a + b = 1$, $a$ or $b$ is invertible.
 
 Here are a few equivalent ways to phrase the combined condition:
+
 * Whenever a (finite) sum equals $1$, at least one of the summands is invertible.
 * Whenever a sum is invertible, at least one of the summands is invertible.
 * Whenever a sum of products is invertible, for at least one of the summands, all of its multiplicands are invertible.
@@ -51,6 +53,7 @@ In [[constructive mathematics]], one could do the same thing, but it\'s more com
 * [[localization of a commutative ring]]
 
 * [[strict local ring]]
+
 
 [[!redirects local ring]]
 [[!redirects local rings]]
