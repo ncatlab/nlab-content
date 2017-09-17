@@ -33,7 +33,9 @@ More recently, the [[Bohr topos]] associated to a noncommutative [[algebra of ob
 
 ## Definition
 
-A **Jordan algebra** is a [[commutative algebra|commutative]] [[nonassociative algebra]] $J$ satisfying the __Jordan identity__ $(x y) (x x) = x (y (x x))$ for all $x,y$ in $J$.
+A **Jordan algebra** is a [[commutative algebra|commutative]] [[nonassociative algebra]] $J$ satisfying the __Jordan identity__ $(x y) (x x) = x (y (x x))$ for all $x,y$ in $J$.  It follows that $J$ is [[power-associative algebra|power-associative]], and the Jordan identity generalizes to
+$$ (x^m y) x^n = x^m (y x^n) $$
+for [[natural numbers]] $m, n \geq 1$ (and, trivially, for $m, n \geq 0$ if there is an [[identity element]]).
 
 If $k$ is a [[field]] whose [[characteristic]] is not $2$ (or is any [[commutative ring]] in which $2$ is invertible), then to any [[associative algebra|associative]] $k$-algebra $A$ with product $\cdot$, one associates a Jordan $k$-algebra with the same underlying vector space and whose Jordan product $\circ$ is given by
 
