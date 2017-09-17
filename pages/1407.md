@@ -279,7 +279,17 @@ Discussion of [[superstring]] [[perturbation theory]] is in
 
 * [[Edward Witten]], _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](http://arxiv.org/abs/1209.5461))
 
+### Fields medal work induced by string theory
 
+Pure [[mathematics]] work which came out of string theory and was awared with a [[Fields medal]] includes the following.
+
+* [[Edward Witten]]'s medal in 1990
+
+* [[Maxim Kontsevich]]'s medal in 1998
+
+(...)
+
+(see behind the name links for more...)
 [[!redirects bosonic string theory]]
 
 [[!redirects string theories]]
