@@ -38,18 +38,175 @@ $$
      \\
      && f^* f_* CoAlg(\mathcal{E})
   }
-  \,.
+  \,E.
 $$
 
 =--
 
 This appears for instance as ([MacLaneMoerdijk, VII 4., theorem 6](#MacLaneMoerdijk)).
 
-+-- {: .proof}
-###### Proof
+We use the following lemma
 
++-- {: .num_lemma #ConditionForSheafFactorization}
+###### Lemma
+
+Let $j$ be a [[Lawvere-Tierney topology]] on a [[topos]] $\mathcal{E}$ and write $i : Sh_j(\mathcal{E}) \to \mathcal{E}$ for the corresponding [[geometric embedding]]. 
+
+Then a [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ factors through $i$ precisely if 
+
+* the [[direct image]] $f_*$ takes values in $j$-sheaves;
+
+or, equivalently
+
+* the [[inverse image]] $f^*$ sends $j$-[[dense monomorphism]]s to [[isomorphism]]s.
+
+=--
+
+This appears as ([MacLaneMoerdijk, VII 4. prop. 2](#MacLaneMoerdijk)).
+
++-- {: .proof}
+###### Proof of the lemma
+
+
+We first show the first statement, that for $f$ to factor it is sufficient for $f_*$ to take values in $j$-sheaves: in that case, set
+
+$$
+  p_* := i^* f_*: \mathcal{F} \to Sh_j(\mathcal{E})
+  \,.
+$$
+
+Since by assumption the [[unit of an adjunction|unit]] map $x \to i_* i^* x$ is an [[isomorphism]] on the image of $f_*$ this indeed serves to factor $f_*$:
+
+$$
+  i_* p_* \simeq i_* i^* f_* \simeq f_*
+  \,.
+$$
+
+The [[left adjoint]] to $p_*$ is then 
+
+$$
+  p^* \simeq f^* i_*
+  \,,
+$$
+
+because
+
+$$
+  \begin{aligned}
+    \mathcal{F}(g^* E, F)
+     & \simeq \mathcal{F}(f^* i_* E, F)
+    \\  
+    & \simeq \mathcal{E}(i_* E, f_* F)
+    \\
+    & \simeq \mathcal{E}(i_* E, i_* i^* f_* F)
+    \\
+    & \simeq Sh_j\mathcal{E} (E, i^* f_* F)
+    \\
+    & \simeq Sh_j(E, p_* F)
+  \end{aligned}
+  \,,
+$$
+
+where in the middle steps we used that $f_* F$ is a $j$-sheaf, by assumption, and that $i_*$ is full and faithful.
+
+It is clear that $p^*$ is left exact, and so $(p^* \dashv p_*)$ is indeed a factorizing geometric morphism.
+
+We now show that $f_*$ taking values in sheaves is equivalent to $f^*$ mapping dense monos to isos.
 
 (...)
+
+=--
+
++-- {: .proof}
+###### Proof of the proposition
+
+Let $f : \mathcal{F} \to \mathcal{E}$ be any [[geometric morphism]]. 
+
+We first discuss the existence of the factorization, then its uniqueness.
+
+To construct the factorization, we shall give a [[Lawvere-Tierney topology]] on $\mathcal{E}$ and factor $f$ through the [[geometric embedding]] of the corresponding [[sheaf topos]].
+
+Take the closure operator $\overline{(-)} : Sub(-)_{\mathcal{E}} \to Sub(-)_{\mathcal{E}}$ to be given by sending $U \hookrightarrow X$ to the [[pullback]]
+
+$$
+  \array{
+    \overline{U} &\to& f_* f^* U
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\to& f_* f^* X
+  }
+  \,,
+$$
+
+where the bottom morphism is the $(f^* \dashv f_*)$-[[unit of an adjunction|unit]].  One checks that this is indeed a closure operator by the fact that $f^*$ preserves both pullbacks and pushouts.
+
+Notice that this implies that for two [[subobject]]s $U_1, U_2 \hookrightarrow X$ we have
+
+\[
+  \label{ASubobjectRelation}
+  (U_1 \subset \overline{U_2})
+   \;\;\;
+   \Leftrightarrow
+   \;\;\;
+  (f^* U_1 \subset f^* U_2)
+\]
+
+Write $j$ for the corresponding [[Lawvere-Tierney topology]] and 
+
+$$
+  i : Sh_j(\mathcal{E}) \to \mathcal{E}
+$$
+
+for the corresponding [[geometric embedding]]. 
+
+By lemma \ref{ConditionForSheafFactorization} we get a factorization through $I$ if $f^*$ sends $j$-[[dense monomorphism]]s to [[isomorphism]]s. But if $U \hookrightarrow X$ is dense so that $X \subset \overline{U}$ then, by (eq:ASubobjectRelation), $f^* X \subset f^* U$ and hence $f^* X = f^* U$.
+
+Write 
+
+$$
+  f : \mathcal{F} \stackrel{p}{\to} Sh_j(\mathcal{E}) \stackrel{i}{\to}
+  \mathcal{E}
+$$
+
+for the factorization thus established. It remains to show that $p$ here is a [[geometric surjection]]. By one of the equivalent characterizations discussed there, this is the case if $p^*$ induces an injective homomorphism of subobject lattices.
+
+So suppose that for subobjects $U_1, U_2 \subset X$ we have $p^* U_1 \simeq p^* U_2$. Observe that then also $f^* i_* U_1 \simeq f^* i_* U_2$, because 
+
+$$
+  \begin{aligned}
+    f^* i_* U_1 & \simeq p^* i^* i_* U_1
+    \\
+    & \simeq p^* U_1
+    \\
+    & \simeq p^* U_2
+    \\
+    & \simeq p^* i^* i_* U_2
+    \\
+    & \simeq f^* i:* U_2
+  \end{aligned}
+$$ 
+
+by the fact that $i_*$ is [[full and faithful functor|full and faithful]].  With (eq:ASubobjectRelation) it follows that also 
+
+$$
+  i_* U_1 \simeq \overline{i_* U_2}
+$$
+
+and hence
+
+$$
+  \cdots \simeq i_* U_2
+$$
+
+by the very fact that $i_*$ includes $j$-sheaves in general, hence $j$-closed subobjects in particular. Finally since $i_*$ if a [[full and faithful functor]] this means that 
+
+$$
+  U_1 \simeq U_2
+  \,.
+$$
+
+So $p^*$ is indeed injective on subobjects and so $p$ is a [[geometric surjection]].
 
 =--
 
