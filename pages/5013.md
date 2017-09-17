@@ -30,11 +30,15 @@ Finite topological spaces are [[equivalence of categories|equivalent]] to finite
 +-- {: .un_theorem}
 ###### Theorem
 
-Finite topological spaces have the same _[[weak homotopy equivalence|weak]]_ [[homotopy type]] as finite [[simplicial complex]]es / finite [[CW-complex]]es.
+Finite topological spaces have the same _[[weak homotopy equivalence|weak]]_ [[homotopy type]] as finite [[simplicial complexes]] / finite [[CW-complexes]].
 
 =--
 
 This is due to [McCord](#McCord).
+
+## Examples
+
+* [[pseudocircle]]
 
 ## References
 
@@ -47,7 +51,7 @@ The original results by McCord are in
 * M.C. McCord. _Homotopy type comparison of a space with complexes associated with its open covers_ . Proc. Amer. Math. Soc. 18 (1967), 705-708.
 {#McCord}
 
-* M.C. McCord. _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474.
+* M.C. McCord. _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525))
 
 
 [[!redirects finite topological space]]
