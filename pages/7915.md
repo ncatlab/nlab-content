@@ -108,3 +108,6 @@ J. Reine Angew. Math. 551 (2002), 41-85.
 [[!redirects contactomorphism]]
 [[!redirects contactomorphisms]]
 
+
+[[!redirects regular contact manifold]]
+[[!redirects regular contact manifolds]]
