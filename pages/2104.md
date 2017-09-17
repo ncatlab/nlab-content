@@ -218,6 +218,8 @@ This is the setup in which one can derive [[Feynman diagram]] rules form cohomol
 
 * [[quantum harmonic oscillator]]
 
+* [[quantization of the 2-sphere]]
+
 * [[quantization of Chern-Simons theory]]
 
 
