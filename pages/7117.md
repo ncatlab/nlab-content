@@ -16,7 +16,7 @@
 
 ## Definition
 
-For $A$ a [[ring]], its _analytic spectrum_ or _Berkovich spectrum_ $Spec_an A$ is the set of all non-zero multiplicative [[seminorms]] on $A$, regarded as a [[topological space]] when equipped with the weakest topology such that all [[functions]]
+For $A$ a [[normed ring]], its _analytic spectrum_ or _Berkovich spectrum_ $Spec_an A$ is the set of all non-zero multiplicative [[seminorms]] on $A$, regarded as a [[topological space]] when equipped with the weakest topology such that all [[functions]]
 
 $$
   Spec_an A \to \mathbb{R}_+
@@ -54,6 +54,8 @@ $$
   \,.
 $$
 
+(e.g. [Berkovich 09, def. 1.2.3](#Berkovich09))
+
 ## Examples
 
 ### Affine line
@@ -82,8 +84,8 @@ If $k = \mathbb{C}$, then $\mathbb{A}_k = \mathbb{C}$ is the ordinary [[complex 
 
 The notion originates in 
 
-* [[Vladimir Berkovich]], _Spectral theory and analytic geometry over non-Archimedean fields_, Mathematical Surveys and Monographs, vol. 33, American Mathematical Society, Providence, RI, (1990) 169 pp.
-  {#Berkovich90}
+* {#Berkovich90} [[Vladimir Berkovich]], _Spectral theory and analytic geometry over non-Archimedean fields_, Mathematical Surveys and Monographs, vol. 33, American Mathematical Society, Providence, RI, (1990) 169 pp.
+  
 
 
 
@@ -102,7 +104,7 @@ Introductory exposition of the Berkovich [[analytic spectrum]] includes
 
 * [[Frédéric Paugam]], section 2.1.4 of_Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
 
-* [[Vladimir Berkovich]], section 1 of _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
+* {#Berkovich09} [[Vladimir Berkovich]], section 1 of _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
 
 [[!redirects analytic spectra]]
