@@ -31,6 +31,8 @@ In particular, $\pi_n M O$ is naturally identified with the set of cobordism cla
 
 ## Definition
 
+### For vector bundles
+
 For $V \to X$ a [[vector bundle]], we have a [[weak homotopy equivalence]]
 
 $$
@@ -73,7 +75,187 @@ $$
 
 =--
 
+Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$, $String(n)$, $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups it corresponds a Thom spectrum, which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
+
+### For spherical fibrations
+ {#ForSphereBundles}
+
++-- {: .num_defn #ThomSpectrumForSphericalFibrations}
+###### Definition
+
+(...)
+
+=--
+
+### For general $\infty$-bundles
+
++-- {: .num_prop}
+###### Proposition
+
+There is pair of [[adjoint functor]]s
+
+$$
+  (\Sigma^\infty \Omega^\infty \dashv gl_1)
+  : 
+  Ho(E_\infty Rings)
+   \stackrel{\overset{\Sigma^\infty \Omega^\infty}{\leftarrow}}{\underset{gl_1}{\to}}
+  Ho(Spec_{con})
+  \,,
+$$
+
+where $(\Sigma^\infty \dashv \Omega^\infty) : Spec \to Top$ is the [[stabilization]] adjunction between [[Top]] and [[Spec]] ($\Sigma^\infty$ forms the [[suspension spectrum]]), restricted to connective spectra, and $Ho(-)$ denotes [[homotopy categories]]. 
+
+=--
+
+This is ([ABGHR, theorem 2.1/3.2](#ABGHR)).
+
++-- {: .num_remark}
+###### Remark
+
+Here $gl_1$ forms the "[[general linear group]]-of rank 1"-spectrum of an [[E-∞ ring]]: its "$\infty$-[[group of units]]". The adjunction is the generalization of the adjunction
+
+$$
+  (\mathbb{Z}[-] \dashv GL_1) : 
+   CRing \stackrel{\overset{\mathbb{Z}[1]}{\leftarrow}}{\underset{GL_1}{\to}}
+  Ab
+$$
+
+between [[CRing]] and [[Ab]], where $\mathbb{Z}[-]$ forms the [[group ring]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  b gl_1(R) := \Sigma gl_1(R)
+$$
+
+for the [[suspension]] of the group of units $gl_1(R)$. 
+
+=--
+
+This plays the role of the [[classifying space]] for $gl_1(R)$-[[principal ∞-bundle]]s. 
+
+For $f : b \to b gl_1(R)$ a morphism (a [[cocycle]] for $gl_1(R)$-bundles) in [[Spec]], write $p \to b$ for the corresponding bundle: the [[homotopy fiber]]
+
+$$
+  \array{
+     p &\to& * 
+     \\
+     \downarrow && \downarrow
+     \\
+     b &\stackrel{f}{\to}& b gl_1(R)
+  }
+  \,.
+$$
+
+Given a $R$-algebra $A$, hence an [[A-∞ algebra]] over $R$, exhibited by a morphism $\rho : R \to A$, the composite
+
+$$
+  \rho(f) : b \stackrel{f}{\to} b gl_1(R) \stackrel{\rho}{\to} b gl_1(A)
+$$
+
+is that for the corresponding [[associated ∞-bundle]].
+
+We write capital letters for the underlying spaces of these spectra:
+
+$$
+  P := \Sigma^\infty \Omega^\infty p
+$$
+
+$$
+  B := \Sigma^\infty \Omega^\infty b
+$$
+
+$$
+  GL_1(R) := \Sigma^\infty \Omega^\infty gl_1(R)
+$$
+
+
++-- {: .num_defn #GeneralThomSpectrum}
+###### Definition
+
+The **Thom spectrum** $M f$ of $f : b \to gl_1(R)$ is the [[(∞,1)-pushout]]
+
+$$
+  \array{
+    \Sigma^\infty \Omega^\infty R &\to& R
+    \\
+    \downarrow && \downarrow
+    \\
+    \Sigma^\infty \Omega^\infty p &\to& M f
+  }
+  \,,
+$$
+
+hence the [[derived functor|derived]] [[smash product]]
+
+$$
+  M f \simeq P \wedge_{GL_1(R)} R
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means that a morphism $M f \to A$ is an $GL_1(R)$-equivariant map $P \to A$.
+
+Notice that for $R = \mathbb{C}$ the [[complex number]]s, $B \to GL_1(R)$ is the cocycle for a [[circle bundle]] $P \to B$. A $U(1)$-equivariant morphism $P \to A$ to some [[representation]] $A$ is equivalently a [[section]] of the A-[[associated bundle]]. 
+
+Therefore the Thom spectrum may be thought of as co-[[representable functor|representing]] spaces of sections of associated bundles
+
+"$Hom(M f, A) \simeq \Gamma(P \wedge_{GL_1(R)} A)$".
+
+=--
+
+This is made precise by the following statement.
+
++-- {: .num_prop}
+###### Proposition
+
+We have an [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+    E_\infty Alg_R(M f, A) &\stackrel{}{\to}& (...)
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\stackrel{}{\to}& (...)
+  }
+$$
+
+=--
+
+This is ([ABGHR, theorem 2.10](#ABGHR)).
+
+This definition does subsume the [above](ForSphereBundles) definition of Thom spectra for sphere  bundles (hence also that for vector bundles):
+
++-- {: .num_prop}
+###### Proposition
+
+Let $R = S$ be the [[sphere spectrum]]. Then for $f : b \to gl_1(S)$ a cocycle for an $S$-bundle, 
+
+$$
+  G := \Omega^\infty g : B \to B GL_1(S)
+$$
+
+is the classifying map for a [[spherical fibration]] over $B \in Top$. 
+
+The Thom spectrum $M f$ of def. \ref{GeneralThomSpectrum} is equivalent to the Thom spectrum of the spherical fibration, according to def. \ref{ThomSpectrumForSphericalFibrations}.
+
+=--
+
+This is in ([ABGHR, section 8](#ABGHR)).
+
 ## Properties
+
+### Relation to cobordism ring
 
 +-- {: .un_prop}
 ###### Proposition
@@ -203,12 +385,10 @@ We check that this construction provides an inverse to $\Theta$.
 
 The [[homotopy equivalence]] $\Omega^\infty M O \simeq B Cob_\infty$ is the content of [[Galatius-Madsen-Tillmann-Weiss theorem]], and is now seen as a part of the [[cobordism hypothesis]] theorem.
 
-## Generalizations
 
-* Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$, $String(n)$, $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups it corresponds a Thom spectrum, which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
 
-* A generalization of the notion of Thom spectra is in 
-  ([ABGHR](#ABGHR)).
+
+
 
 ## Cohomology
 
