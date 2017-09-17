@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+## Idea
+
+(...)
+
+[[!include function field analogy -- table]]
+
+
+## References
+
+* [[Barry Mazur]], [[Andrew Wiles]], _Analogies between function fields and number fields_, American Journal of Mathematics Vol. 105, No. 2 (Apr., 1983), pp. 507-521 ([JStor](http://www.jstor.org/stable/2374266))
+
+* [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
+
+* {#Frenkel05} [[Edward Frenkel]], section 2 of _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
