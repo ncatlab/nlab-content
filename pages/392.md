@@ -1,4 +1,4 @@
-The mathematical **red herring principle** is the principle that in mathematics, a "red herring" need not, in general, be either red or a herring.
+The mathematical **red herring principle** is the principle that in [[mathematics]], a "red herring" need not, in general, be either red or a herring.
 
 Frequently, in fact, it is conversely true that all herrings are red herrings.  This often leads to mathematicians speaking of "non-red herrings," and sometimes even to a redefinition of "herring" to include both the red and non-red versions.
 
@@ -6,7 +6,7 @@ Frequently, in fact, it is conversely true that all herrings are red herrings.  
 
 * A [[manifold with boundary]] is not a [[manifold]].  This leads to the use of "manifold without boundary."
 
-* A nonassociative algebra is not an algebra in the usual sense used in [[linear algebra]]. This leads to the use of "associative algebra". What\'s worse, a "nonassociative algebra" *might* happen to be associative; it just doesn\'t *have* to be!
+* A nonassociative algebra is not an algebra in the usual sense used in [[linear algebra]]. This leads to the use of "[[associative algebra]]". What\'s worse, a "nonassociative algebra" *might* happen to be associative; it just doesn\'t *have* to be!
 
 * A noncommutative [[ring]] may or may not be a ring, depending on one's definition (algebraic geometers frequently take "ring" to imply commutativity).  Like a nonassociative algebra, a noncommutative ring might happen to be commutative.
 
