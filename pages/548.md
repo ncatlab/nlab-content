@@ -269,7 +269,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    G &\stackrel{f_2}{\to}& G/N
+    G &\stackrel{f_0}{\to}& G/N
   }
   \,.
 $$
@@ -282,7 +282,7 @@ Moreover, the cokernel of the left vertical morphism is of course the quotient $
 
 =--
 
-This class of weak equivalence plays an important role as constituting [[∞-anfunctor|2-anafunctors]] that exhibit long [[fiber sequence]] extensions of [[short exact sequences]] of [[central extensions]] of groups.
+This class of weak equivalence plays an important role as constituting [[∞-anafunctor|2-anafunctors]] that exhibit long [[fiber sequence]] extensions of [[short exact sequences]] of [[central extensions]] of groups.
 
 +-- {: .num_prop}
 ###### Observation
