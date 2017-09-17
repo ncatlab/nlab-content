@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _relativistic particle_ in [[physics]]s is a model for the dynamics of a single [[particle]] that is propagating in a [[spacetime]] subject to [[force]]s such as [[gravity]] and (if it is charged) the [[electromagnetic field]].
+The _relativistic particle_ in [[physics]] is a model for the dynamics of a single [[particle]] that is propagating in a [[spacetime]] subject to [[force]]s such as [[gravity]] and (if it is charged) the [[electromagnetic field]].
 
 ## Definition
 
@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-The exponentiated [[action functional]] $\exp S$ of the relativistic particle is the [[functional]] on the [[mapping space]] $[[0,1], X]$ given by
+The exponentiated [[action functional]] $\exp S$ of the relativistic particle is the [[functional]] on the [[mapping space]] $X^{[0,1]}$ given by
 
 $$
   \exp S : \gamma \mapsto (\exp i S_{kin}(\gamma)) (\exp i S_\nabla(\gamma))
@@ -40,7 +40,7 @@ $$
 
 where $S_{kin} = length_g(\gamma)$ is the invariant [[length]] of $\gamma$ and $\exp i S_\nabla(\gamma) = tra_\nabla(\gamma)$ is the [[parallel transport]] of $\nabla$ along $\gamma$.
 
-Alternatively (and mandatorily for vanishing [[mass]] parameter), the kinitec action is replaced by the corresponding [[Polyakov action functional]].
+Alternatively (and mandatorily for vanishing [[mass]] parameter), the kinetic action is replaced by the corresponding [[Polyakov action functional]].
 
 The mapping space equipped with this action functional constitutes the data of a [[sigma-model]] [[quantum field theory]]. Its [[quantization]] is the _quantum relativistic particle_ .
 
