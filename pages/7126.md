@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
 # Analytic varieties
 * table of contents
 {: toc}
@@ -11,6 +25,8 @@ While an algebraic variety is the loci of zeros of some set of [[polynomials]], 
 
 
 ## Related concepts
+
+* [[analytic space]]
 
 * [[complex analytic variety]]
 
