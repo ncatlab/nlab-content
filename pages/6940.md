@@ -1,0 +1,6 @@
+
+* [home page](http://andrej.com/)
+
+* [blog](http://math.andrej.com/)
+
+category: people
