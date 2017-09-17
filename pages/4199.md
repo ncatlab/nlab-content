@@ -1,4 +1,4 @@
 
-* [website](http://www.math.uic.edu/people/profile?mscsid=gepner)
+* [website](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/gepner/)
 
 category: people
