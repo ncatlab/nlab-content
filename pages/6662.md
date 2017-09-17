@@ -65,6 +65,7 @@ For a $k$-functor $X$ we define $X^{(p)}:X\otimes_{k,f_k} k$ which satisfies $X^
 
 $$F_X:
 \begin{cases}
+
 X\to X^{(p)}
 \\
 X(f_R):X(R)\to X(R_f)
@@ -135,7 +136,7 @@ If $k=\mathbb{F}$ is a finite field we have $X^{(p)}=X$ however $F_X$ will not e
 
 If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\prime}=F_X\otimes_k k^\prime$.
 
-[[!redirects Frobenius morphism]]
+
 
 ## References
 
@@ -145,6 +146,3 @@ If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\pr
 
 * Karen Smith, *Brief Guide to Some of the Literature on F-singularities*, <a href="www.aimath.org/WWN/singularvariety/F-sings.pdf">American Institute of Mathematics</a>
 
-[[!redirects Frobenius morphism]]
-[[!redirects Frobenius morphisms]]
-[[!redirects Frobenius maps]]
