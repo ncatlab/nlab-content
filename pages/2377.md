@@ -412,6 +412,7 @@ Applying separation to subsets of $A\times B$ and composing $i$ with the product
 
 
 ## Eliminating equality
+{#eqfree}
 
 As stated SEAR includes a fundamental "equality" relation on elements of a given set.  However, we can also make equality into *structure*.  This is definitely not along the "more accessible to undergraduates" direction!  But it may sometimes be technically helpful.
 
