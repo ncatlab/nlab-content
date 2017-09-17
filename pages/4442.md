@@ -108,6 +108,8 @@ spacetiem of an [[M2-brane]] (...)
 
 ([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 5](#AharonyGubserMaldacenaOoguriOz99))
 
+see also at _[[AdS3-CFT2 and CS-WZW correspondence]]_
+
 (...)
 
 ### Non-conformal duals
