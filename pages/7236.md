@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+# Adhesive categories
+* table of contents
+{: toc}
+
+## Idea
+
+An *adhesive category* is a [[category]] in which [[pushouts]] of [[monomorphisms]] exist and "behave more or less as they do in the category of [[Set|sets]]", or equivalently in any [[topos]].
+
+## Definition
+
+The following conditions on a category $C$ are equivalent.  When they are satisfied, we say that $C$ is **adhesive**.
+
+1. $C$ has pullbacks and pushouts of monomorphisms, and pushout squares of monomorphisms are also pullback squares and are stable under pullback.
+
+1. $C$ has pullbacks and pushouts of monomorphisms, and the latter are also [[2-colimit|(bicategorical)]] pushouts in the [[bicategory]] of [[spans]] in $C$.
+
+1. $C$ has pullbacks and pushouts of monomorphisms, and admits a [[fully faithful functor|full embedding]] into a [[topos]] preserving pullbacks and pushouts of monomorphisms.
+
+## Related concepts
+
+Adhesiveness is an [[exactness property]], similar to being a [[regular category]], an [[exact category]], or an [[extensive category]].  In particular, it can be phrased in the language of "lex colimits".
+
+## References
+
+* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [web](http://www.maths.mq.edu.au/~slack/papers/adhesive.html)
+
+* [[Steve Lack]], *An embedding theorem for adhesive categories*, [TAC](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html)
+
+* [[Richard Garner]] and [[Steve Lack]], *On the axioms for adhesive and quasiadhesive categories*, [arXiv](http://arxiv.org/abs/1108.2934)
+
+[[!redirects adhesive categories]]
