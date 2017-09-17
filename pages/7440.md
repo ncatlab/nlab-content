@@ -753,6 +753,25 @@ $$
 
 =--
 
+In summary we have:
+
++-- {: .num_cor #ReflectiveInclusionOfCategoryObjectsIntoSimplicialObjects}
+###### Corollary
+
+In summary we have a reflective inclusion
+
+$$ 
+  Cat_{\mathbf{H}}
+  \hookrightarrow
+  PreCat_{\mathbf{H}}(\mathcal{C})
+  \hookrightarrow
+  \mathcal{C}^{\Delta^{op}}
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -938,9 +957,9 @@ We discuss here [[presentable (infinity,1)-category|presentations]] of category 
 +-- {: .num_prop }
 ###### Proposition
 
-Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]] that [[presentable (∞,1)-category]] presents the [[(∞,1)-category]] $\mathcal{C} \simeq C^\circ$.
+Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]] that [[presentable (∞,1)-category|presents]]  the [[(∞,1)-category]] $\mathcal{C}$ in that $\mathcal{C} \simeq C^\circ$.
 
-Then then category $[\Delta^{op}, C]$ of [[simplicial objects]] in $C$ admits a [[left proper model category|left proper]] [[combinatorial model category]] structure characterized by the following properties:
+Then the category $[\Delta^{op}, C]$ of [[simplicial objects]] in $C$ admits a [[left proper model category|left proper]] [[combinatorial model category]] structure characterized by the following properties:
 
 1. it is a [[Bousfield localization of model categories|left Bousfield localization]] of the injective or projective or [[Reedy model structure|Reedy]] [[model structure on functors]] $[\Delta^{op}, C]_{proj/inj/Reedy}$;
 
@@ -953,7 +972,7 @@ This is stated as ([Lurie, prop. 1.5.4](#Lurie)).
 +-- {: .proof}
 ###### Proof
 
-By the discussion at [[model structure on functors]]. $[\Delta^{op}, C]_{proj/inj/Reedy}$ is a [[presentable (∞,1)-category|presentation]] of $\mathcal{C}^{op}$. Moreover, by the discussion at [reflective sub-(∞,1)-category -- model category presentation](reflective+sub-%28infinity%2C1%29-category#ModelCategoryPresentation) the reflective inclusion $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$ of prop. \ref{CatIsReflectiveInSimpl} is presented by the [[Bousfield localization of model categories|left Bousfield localization]] as claimed.
+By the discussion at [[model structure on functors]]. Either of $[\Delta^{op}, C]_{proj/inj/Reedy}$ is a [[presentable (∞,1)-category|presentation]] of $\mathcal{C}^{op}$; and moreover, by the discussion at [reflective sub-(∞,1)-category -- model category presentation](reflective+sub-%28infinity%2C1%29-category#ModelCategoryPresentation) the reflective inclusion $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$ of cor. \ref{ReflectiveInclusionOfCategoryObjectsIntoSimplicialObjects} is presented by the [[Bousfield localization of model categories|left Bousfield localization]] as claimed.
 
 =--
 
