@@ -99,6 +99,45 @@ Another main theorem about $(\infty,1)$-toposes is that
 
 ## Properties
 
+### Global sections geometric morphism
+
+Every [[∞-stack]] $(\infty,1)$-topos $\mathbf{H}$ has a canonical [[(∞,1)-geometric morphism]] to the terminal $\infty$-stack $(\infty,1)$-topos [[∞Grpd]]: the [[direct image]] is the [[global section]]s [[(∞,1)-functor]] $\Gamma$, the [[inverse image]] is the [[constant ∞-stack]] functor
+
+$$
+  (LConst \dashv \Gamma) : 
+  \mathbf{H}
+  \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \infty Grpd
+  \,.
+$$
+
+### Powering and copowering over $\infty Grpd$ --  Hochschild homology {#Powering}
+
+Being a [[locally presentable (∞,1)-category]], an $(\infty,1)$-topos $\mathbf{H}$ is [[power]]ed and [[copower]]ed over [[∞Grpd]], as described at <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-tensoring</a>. 
+
+For any $K \in \infty Grpd$ and $X \in \mathbf{H}$ the powering is the [[(∞,1)-limit]] over the [[diagram]] constant on $X$
+
+$$
+  X^K = {\lim_\leftarrow}_K X
+$$
+
+and the $(\infty,1)$-copowering is is the [[(∞,1)-colimit]] over the diagram constant on $X$
+
+$$
+  K \cdot X = {\lim_{\to}}_K X
+  \,.
+$$
+
+Under [[Isbell duality]] the powering operation corresponds to higher order [[Hochschild cohomology]] in $X$, as discussed there.
+
+Below we discuss that the powering is equivalently given by the [[internal hom]] out of the [[constant ∞-stack]] $LConst K$ on $K$:
+
+$$
+  X^K \simeq [LConst K, X]
+  \,.
+$$
+
+
 ### Closed monoidal structure {#ClosedMonoidalStructure}
 
 +-- {: .un_prop}
@@ -233,7 +272,7 @@ Finally, because $L$ is a  [[left exact (∞,1)-functor]] this is also the [[(�
 
 For $S \in$ [[∞Grpd]] write $LConst S$ for its [[inverse image]] under the [[global section]] [[(∞,1)-geometric morphism]] $(LConst \dashv \Gamma) : \mathbf{H} \to \infty Grpd$: the [[constant ∞-stack]] on $S$.
 
-Then the internal hom $[LConst S,A]$ coincides with the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">∞-tensoring</a> of $A$ by $S$:
+Then the internal hom $[LConst S,A]$ coincides with the [(∞,1)-powering](#Powering) of $A$ by $S$:
 
 $$
   [LConst S, A] \simeq A^S
