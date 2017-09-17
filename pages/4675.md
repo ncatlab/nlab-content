@@ -73,11 +73,11 @@ Such a differential string structure over a [[smooth manifold]] $X$ is character
 
   $$
     \lambda : \frac{1}{2}\hat \mathbf{p}_1(\nabla) \stackrel{\simeq}{\to}
-    (0,C_3)
+    (0,H_3)
     \,.
   $$
 
-More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \mathbf{p}_1$ over arbitrary circle 3-bundles with connection $\hat \mathcal{G}_4 \in \mathbf{H}_{diff}^4(X, \mathbf{B}^3 U(1))$ and hence replace $(0,C_3)$ in the above with $\hat \mathcal{G}_4$. According to the general notion of [[twisted cohomology]], these may be thought of as **twisted differential string structures**, where the class $[\mathcal{G}_3] \in H^4_{diff}(X)$ is the twist.
+More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \mathbf{p}_1$ over arbitrary circle 3-bundles with connection $\hat \mathcal{G}_4 \in \mathbf{H}_{diff}^4(X, \mathbf{B}^3 U(1))$ and hence replace $(0,C_3)$ in the above with $\hat \mathcal{G}_4$. According to the general notion of [[twisted cohomology]], these may be thought of as **twisted differential string structures**, where the class $[\mathcal{G}_4] \in H^4_{diff}(X)$ is the twist.
 
 
 ## Definition {#Definition}
@@ -204,7 +204,8 @@ $$
 Here the middle morphism is the direct [[Lie integration]] of the [[infinity-Lie algebra cohomology|L-∞ algebra cocycle]] while the top morphisms is its restriction to coefficients for [[connection on an ∞-bundle|∞-connections]].
 
 In order to compute the [[homotopy fiber]]s of 
-$\frac{1}{2}\hat \mathbf{p}_1$ we now find a [[resolution]] of this morphism $\exp(\mu,cs)$ by a fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$. By the fact that this is a [[simplicial model category]] then also the hom of any cofibrant object into this morphism, computing the cocycle $\infty$-groupoids, is a fibration, and therefore we obtain the homotopy fibers as the corresponding ordinary fibers.
+$\frac{1}{2}\hat \mathbf{p}_1$ we now find a [[resolution]] of this morphism $\exp(\mu,cs)$ by a fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$. By the fact that this is a [[simplicial model category]] then also the hom of any cofibrant object into this morphism, computing the cocycle $\infty$-groupoids, is a fibration, and therefore, by the general discussion at [[homotopy pullback]], we obtain the [[homotopy fiber]]s as the ordinary [[fiber]]s of this fibration.
+
 
 ### Presentation of the differential class by a fibration
 
@@ -260,19 +261,19 @@ Let $(b\mathbb{R} \to \mathfrak{g}_\mu)$ denote the
 
 $$
   CE(b\mathbb{R} \to \mathfrak{g}_\mu) = 
-  (\wedge^\bullet(  \mathfrak{g}^* \oplus \langle b\rangle \oplus \langle k \rangle ), d)
+  (\wedge^\bullet(  \mathfrak{g}^* \oplus \langle b\rangle \oplus \langle h \rangle ), d)
   \,,
 $$
 
-with $b$ a generator in degree 2, and $k$ a generator in degree 3, and with differential defined on generators by
+with $b$ a generator in degree 2, and $h$ a generator in degree 3, and with differential defined on generators by
 
 $$
   \begin{aligned}
     d|_{\mathfrak{g}^*} & = [-,-]^*
     \\
-    d  b & = \mu - k
+    d  b & = - \mu + h
     \\
-    d k & =  0
+    d h & =  0
   \end{aligned}
   \,.
 $$
@@ -286,16 +287,15 @@ The 3-cocycle $ CE(\mathfrak{g}) \stackrel{\mu}{\leftarrow} CE(b^2 \mathbb{R})$ 
 
 $$
   CE(\mathfrak{g})
-  \stackrel{(k \mapsto \mu, b \mapsto 0)}{\leftarrow}
+   \stackrel{(h \mapsto \mu, b \mapsto 0)}{\leftarrow}
   CE(b\mathbb{R} \to \mathfrak{g})
-   \stackrel{(k \mapsto k)}{\leftarrow}
+   \stackrel{(h \mapsto h)}{\leftarrow}
   CE(b^2 \mathbb{R})
   :
   \mu
 $$
 
 where the morphism on the left (which is the identity when restricted to $\mathfrak{g}^*$ and acts on the new generators as indicated) is a [[quasi-isomorphism]].
-
 
 =--
 
@@ -321,8 +321,6 @@ where the first morphism is a weak equivalence followed by a fibration in the [[
 +-- {: .proof}
 ###### Proof
 
-
-
 To see that the left morphism is objectwise a [[weak homotopy equivalence]], notice that 
 a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them is the identity in $f$ and picks $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
 
@@ -335,23 +333,23 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \Delta[k] &\to& \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_c
+    \Delta[k] &\to& \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_c(U)
   }
 $$
 
 are $k = 3$ and $k = 4$.
 
 Notice that a $3$-cell of $\mathbf{B}^3 \mathbb{R}/ \mathbb{Z}_c(U)$ is a [[smooth function]] $c : U \to \mathbb{R}/\mathbb{Z}$ and 
-that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \exp(b^2 \mathbb{R})$ sends the pair $(f,B)$ to the [[fiber integration]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle - d B)$. 
+that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \exp(b^2 \mathbb{R})$ sends the pair $(f,B)$ to the [[fiber integration]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle + d B)$. 
 
 Given our lifting problem in degree 3,
-we have given a function $c : U \to \mathbb{R}/\mathbb{Z}$ and a smooth function (with sitting instants at the subfaces) $U \times \Lambda^k_i \to Spin$ together with a 2-form $B$ on the [[horn]] $U \times \Lambda^k_i$.
+we have given a function $c : U \to \mathbb{R}/\mathbb{Z}$ and a smooth function (with sitting instants at the subfaces) $U \times \Lambda^3_i \to Spin$ together with a 2-form $B$ on the [[horn]] $U \times \Lambda^3_i$.
 
 By pullback along the standard [[continuous function|continuous]] [[retract]] $\Delta^3 \to \Lambda^3_i$ which is non-smooth only where $f$ has sitting instants,  we can always extend $f$ to a smooth function $f' : U \times \Delta^3 \to Spin$ with the property that $\int_{\Delta^3} (f')^* \langle \theta \wedge [\theta \wedge \theta]\rangle = 0$. (Following the general discussion at [[Lie integration]].)
 
 In order to find a horn filler for the 2-form component, consider any smooth 2-form with sitting instants and non-vanishing integeral on $\Delta^2$. By multiplying it with a suitable smooth function on $U$ we can obtain an extension $\tilde B \in \Omega^3_{si,vert}(U \times \partial \Delta^3)$ of $B$ to all of $U \times \partial \Delta^3$ with the property that its integral over $\partial \Delta^3$ is the given $c$.
 
-In a similar fashion, we can find a smooth family of closed 3-forms $K$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = K$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
+In a similar fashion, we can find a smooth family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = H$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
 
 $$
   B' + \hat B \in \Omega^2_{si,vert}(U \times \Delta^3)
@@ -364,37 +362,39 @@ The extension problem in degree 4 amounts to a similar construction: by coskelet
 
 =--
 
-We now proceed to extend this factorization to the <a href="">exponentiated differential coefficients</a>
+We now proceed to extend this factorization to the exponentiated differential coefficients (see [[connection on an ∞-bundle]]).
+
 
 +-- {: .un_prop }
 ###### Observation
 
-The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfrak{g})$ is given on extra shifted generators $\{r^a, ,c, l\}$ by
+The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfrak{g})$ is given on the extra shifted generators $\{r^a, c, l\}$ by
 
 * $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
 
 * $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
 
-* $d b = \mu + c - k$;
+* $d b = - \mu + h + c$;
 
-* $d c = l - \sigma \mu$;
+* $d c = \sigma \mu - g$;
 
-* $d k = l$ .
+* $d h = g$ 
 
-Let $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ 
-have the same
-underlying graded algebra as $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ 
+(where $\sigma$ is the shift operator extended as a graded derivation, see [[Weil algebra]]).
+
+Let $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ be the dg-algebra
+with the same underlying graded algebra as $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ 
 but with the differential modified as follows
 
 * $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
 
 * $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
 
-* $d b = cs + c - k$;
+* $d b = - cs + h + c$;
 
-* $d c = l - \langle -,-\rangle$;
+* $d c = \langle -,-\rangle - g$;
 
-* $d k = l$ .
+* $d h = g$ .
 
 There is an [[isomorphism]] 
 
@@ -407,7 +407,7 @@ $$
 in [[dgAlg]] that is the identity on all generators except on $c$, where it is given by
 
 $$
-  c \mapsto c' + (cs-\mu)
+  c \mapsto c + (\mu - cs)
   \,.
 $$
 
@@ -420,8 +420,14 @@ Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ h
 
 =--
 
+We shall in the following write $c$ for the generator of that name in $c \in \tilde W(b\mathbb{R} \to \mathfrak{g}_\mu) \stackrel{\simeq}{\to} \tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$.
 
++-- {: .un_corollary }
+###### Corollary
 
+The [[invariant polynomial]]s on $(b \mathbb{R} \to \mathfrak{g}_\mu)$ are generated from those of $\mathfrak{g}_\mu$ together with $c$ and $g$.
+
+=--
 
 +-- {: .un_prop #PresentationByFibration}
 ###### Proposition
@@ -449,27 +455,26 @@ of $\exp(\mu,cs)$ in $[CartSp^{op}, sSet]_{proj}$, where the first morphism is a
 +-- {: .proof}
 ###### Proof
 
-We check that the second morphism is a fibration. 
+We discuss that the first morphismm is an equivalence. Clearly it is injective on homotopy groups: if a sphere of $A$-data cannot be filled, then also adding the $(B,C,H)$-data does not yield a filler. So we need to check that it is also surjective on homtoopy groups: if the $A$-data can be filled, then also the corresponding $(B,C,H)$-data has a filler. Since $C$ is horizontal it is already extended. We may extend $B$ in any smooth way to $U \times \Delta^k$ (for instance by rescaling it smoothly to zero at the center of the $k$-simplex) and then take th equation $d B = CS(A)+ C  - H$ to define the extension of $H$. Its curvature is then $d CS(A) = \langle F_A \wedge F_A\rangle$ and hence horizontal by the assumption that we already have a filler of $A$-data.
+
+We now check that the second morphism is a fibration. 
 
 We had already seen [above](#BareFibration) that we can fill the vertical form components.
 To get a full lift to the differential coefficients we need to extend this construction from vertical forms to connection forms.
-For this we use the isomorphic Weil algebra $\tilde W(...)$ from above, which amounts to making a change of variables well adapted to the horizonatlity condition on the [[curvature]] forms that we need to find.
 
-The morphism takes tuples $(f,B,C,K)$ of functions and forms on $U \times \Delta^k$ to the [[fiber integration]] $\int_{\Delta^k} K$.
+The morphism takes tuples $(A,B,C,K)$ of functions and forms on $U \times \Delta^k$ to the [[fiber integration]] $\int_{\Delta^k} K$.
 
-By forming suitable retracts, using the sitting instants, we can formulate the extension problem in degree 0 to 3 as extensions along cylinders $[0,1]^{k-1} \hookright [0,1]^k$.
+In degree 0, the fibrancy condition demands that every 3-form $H$ is in the image. Clearly a preimage is $(A = 0, B = 0, C = 0, H)$.
 
-So suppose we have given a $(3-k)$-form $K' \in \Omega^{3-k}(U \times [0,1]^{k})$ together with forms $(f,B,C,K)$ on $U \times [0,1]^{k-1}$. We need to extend the latter over the cylinder such that the curvature $d K$ and $d C$ are horizontal and such that the [[fiber integration]] $\int_{[0,1]^k} K = K'$.
+In degree 1, we have given a $2$-form $H' \in \Omega^{2}(U \times [0,1]^{k})$ together with forms $(A,B,C,H)$ on $U$. We need to extend the latter over the interval such that $C$ is horizontal (that fixes it uniquely as being constant along the interval), that $\langle F_A \wedge F_A\rangle$ and $d H$ are horizontal and such that the [[fiber integration]] $\int_{[0,1]^k} H = H'$.
 
-There is clearly a smoothing function $h : [0,1] \to [0,s]$ such that $\int_{\Delta^k} (K' \wedge d h) = K'$.  Take then 
+Pick a smooth smoothing function $q : [0,1] \to [0,1]$. Extend $A$ constantly. Extend $B$ as $B + K' \wedge q$. Define then $H$ by the equation $d B = CS(A) + C - H$.
 
-$$
-  K := K' \wedge d h + (d_U K') \wedge h
-  \,,
-$$
+In degree 3 and 4 we extend first $B$ as already discussed [above](#BareFibration) and then again define $H$ by $d B = - CS(A) - C + H$. 
 
-which has $d K = 0$. Then extending $f$, $A$ and $B$ constantly along the cylinder the equation $d B = CS(A) + C - K$ has a unique solution for $C$ and $d C = d K - \langle F_A \wedge F_A\rangle$ is horizontal.
+This has horizontal curvature because $d CS(A)$ is already horizontal.
 
+In degree 2 we have a similar argument.
 
 
 =--
@@ -478,13 +483,13 @@ which has $d K = 0$. Then extending $f$, $A$ and $B$ constantly along the cylind
 
 ### Explicit Cech cocycles {#ExplicitCocycles}
 
-+-- {: .un_cor }
++-- {: .un_prop }
 ###### Corollary
 
 For any $X \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]], for any choice of differentiaby [[good open cover]] with corresponding cofibrant presentation $\hat X = C(\{C_i\})\in [CartSp_{smooth}^{op}, sSet]_{proj}$ we have that the [[2-groupoid]]s of [twisted different String structures](#DifferentialStringStructure)s are presented by the ordinary [[fiber]]s of the morphism of [[Kan complex]]es
 
 $$
-  \exp(\mu,cs)
+  [CartSp^{op}, sSet](\hat X,\exp(\mu,cs))
   :
   [CartSp^{op}, sSet](\hat X, \mathbf{cosk}_3 \exp(b \mathbb{R} 
    \to \mathfrak{g}_\mu)_{ChW})
@@ -498,15 +503,41 @@ $[\hat \mathbf{C}_3] \in H_{diff}^4(X)$ in the [[ordinary differential cohomolog
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Since $[CartSp_{smooth}^{op}, sSet]_{proj}$ is a [[simplicial model category]] the morphism 
+$[CartSp^{op}, sSet](\hat X,\exp(\mu,cs))$ 
+is a fibration because $\exp(\mu,cs)$ is and $\hat X$ is cofibrant.
+
+It follows from the discussion at [[homotopy pullback]] that the ordinary [[pullback]] of [[simplicial presheaves]]
+
+$$
+  \array{
+    String_{diff,tw}(X) &\to& H_{diff}^4(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    [CartSp^{op}, sSet](\hat X, \mathbf{cosk}_3 \exp(b \mathbb{R} 
+     \to \mathfrak{g}_\mu)_{ChW})
+    &\to& 
+  [CartSp^{op}, sSet](\hat X, \mathbf{B}^3 U(1)_{ChW})
+  }
+$$
+
+is a presentation for the defining [[(∞,1)-pullback]] for $String_{diff,tw}(X)$, as defined [above](#DifferentialStringStructure).
+
+=--
+
 We unwind the explicit expression for a twisted differential string structure under this equivalence.
 
 Any twisting cocycle is in the above presentation given by a [[Cech cohomology|Cech]] [[Deligne cohomology|Deligne]]-cocycle (as discussed at [[circle n-bundle with connection]])
 
 $$
-  \hat \mathbf{C}_3 = ((C_3)_i, \cdots) 
+  \hat \mathbf{H}_3 = ((H_3)_i, \cdots) 
 $$
 
-with local connection 3-form $(C_3)_i \in \Omega^3(U_i)$ and globally defined [[curvature]] 4-form $\mathcal{G}_4 \in \Omega^4(X)$.
+with local connection 3-form $(H_3)_i \in \Omega^3(U_i)$ and globally defined [[curvature]] 4-form $\mathcal{G}_4 \in \Omega^4(X)$.
 
 A differential string structure on $X$ twisted by this cocycles is on patches $U_i$ a morphism
 
@@ -524,7 +555,7 @@ $$
     \array{ 
       F_A =& d A + [A\wedge A]
       \\
-      H_3 =& \nabla B = d B + C_3 - CS(A)
+      H_3 =& \nabla B := d B + CS(A) + C_3 
       \\
       d F_A =& - [A \wedge F_A]
       \\
@@ -542,11 +573,11 @@ $$
        \\
        b & \mapsto B
        \\
-       c & \mapsto H_3
+       c & \mapsto C_3
        \\
-       k & \mapsto C_3
+       h & \mapsto H_3
        \\
-       l & \mapsto \mathcal{G}_4
+       g & \mapsto \mathcal{G}_4
     }
   }{\leftarrow}|
   \;\;\;\;
@@ -554,13 +585,13 @@ $$
     \array{  
        t^a =& C^a{}_{b c} t^b \wedge t^c + r^a
        \\
-       c = & d b - cs + k     
+       h = & d b + cs + c     
        \\
        d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
        \\
-       d c =& l - \langle -,-\rangle
+       d c =& g - \langle -,-\rangle
        \\
-       d k =& l
+       d h =& g
     }
   \right)
   \,.
@@ -576,9 +607,9 @@ In this context
 
 * $A$ is called the [[spin connection]]; 
 
-* $\hat \mathbf{C}_3$ is called the [[supergravity C-field]] 
+* $C_3$ is called the [[supergravity C-field]] 
 
-* the components $((H_3)_i, \cdots)$ of the above cocycle are known as the $\hat \mathbf{C}_3$-twisted [[Kalb-Ramond field]].
+* the components $((H_3)_i, \cdots)$ of the above cocycle are known as the $\hat \mathbf{G}_4$-twisted [[Kalb-Ramond field]].
 
 More discussion of this is in ([SSSIII](#SSSIII)).
 
