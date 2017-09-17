@@ -98,9 +98,9 @@ The single major insight into the right [[higher category theory|higher categori
 
 * [[Dan Freed]]
 
-  * _Quantum groups from path integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
+  * _Quantum groups from path integrals_ ([arXiv:q-alg/9501025](http://xxx.lanl.gov/abs/q-alg/9501025))
 
-  * _Higher algebraic structures and quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
+  * _[[Higher Algebraic Structures and Quantization]]_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
 
 which says that
 
