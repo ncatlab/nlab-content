@@ -76,9 +76,12 @@ For instance ([Lurie 10, lecture 12, corollary 3](#Lurie10)).
 
 * [[height of a formal group law]]
 
+* [[p-typical formal group law]]
+
 * [[Lie algebra]], [[Lie group]]
 
 * [[formal groupoid]]
+
 
 Formal geometry is closely related also to the [[rigid analytic geometry]].
 
