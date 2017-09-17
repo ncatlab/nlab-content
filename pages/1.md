@@ -99,6 +99,15 @@ Notice that **you don't need to know any MathML**. Only your browser does. You w
 
 Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
+## Bugs and hacks
+ {#BugsAndHacks}
+
+Unfortunately the software that the $n$Lab is currently running on is still at a very early version stage and is at times shaky. If you run into trouble, you may want to voice yourself on the [nForum](http://nforum.mathforge.org).
+
+One bug that has recently appeared is that some users may get a lot of fatal-sounding error messages when opening $n$Lab pages. Often just reloading/re-saving (possibly a few times) will help. A more drastic workaround to evade these errors is to locally delete the $n$Lab's cookies.
+
+Another problem is that at times the $n$Lab just goes to sleep, in which case the only thing to do is to wait until an administrator comes online, notices the issue and restarts the server. Dropping an alert on the [nForum](http://nforum.mathforge.org) may at times accelerate this process.
+
 
 ## Steering Committee 
  {#SteeringCommitte}
@@ -115,5 +124,4 @@ category: meta
 [[!redirects homepage]]
 [[!redirects home page]]
 [[!redirects nLab]]
-
 
