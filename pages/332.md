@@ -30,15 +30,19 @@ See also [[topology]].
 * [[Casson invariant]], [[Donaldson-Thomas invariant]], [[Kähler manifold]], [[mirror symmetry]]
 * [[metric space]], [[convex set]], [[Riemannian manifold]], [[geodesic flow]], [[geodesic convexity]], [[star-shaped]]
 * [[differentiable stack]], [[orbifold]], [[stratifold]], [[orientifold]]
-* [[derived algebraic geometry]], [[derived smooth manifold]]
-* [[noncommutative geometry]], [[derived noncommutative algebraic geometry]]
-* [[noncommutative algebraic geometry]], [[noncommutative scheme]], [[noncommutative thin scheme]]
-* [[algebraic geometry]], [[analytic geometry]], [[GAGA]], book entry [[EGA]]
+
+* [[algebraic geometry]], [[analytic geometry]], 
+[[arithmetic geometry]], [[GAGA]], book entry [[EGA]]
 * [[scheme]], [[quasicompact]], [[noetherian scheme]], [[reduced scheme]], [[integral scheme]]
 * [[open subscheme]], [[closed subscheme]], [[configuration scheme]]
 * [[formal scheme]], [[formal group scheme]], [[formal group law]], [[algebraic group]]
 * [[spectrum (geometry)]]
 * [[algebraic variety]], [[normal variety]], [[hyperplane line bundle]]
+
+
+* [[derived algebraic geometry]], [[derived smooth manifold]]
+* [[noncommutative geometry]], [[derived noncommutative algebraic geometry]]
+* [[noncommutative algebraic geometry]], [[noncommutative scheme]], [[noncommutative thin scheme]]
 * [[hyperplane section theorem]], [[BBDG decomposition theorem]]
 * [[rational map]], [[rational variety]], [[unirational variety]], [[birational map]], [[birational geometry]], [[image of a rational map]]
 * [[algebraic space]], [[algebraic stack]], [[topological stack]]
