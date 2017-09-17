@@ -15,6 +15,8 @@
 
 ## Definition
 
+An $n$-connected map is an $n$-[[n-connected morphism|connected morphism]] in the [[(∞,1)-topos]] [[Top]].
+
 +-- {: .num_defn }
 ###### Definition
 
@@ -39,7 +41,7 @@ For a map $f \colon X \to Y$ and an integer $n \ge -1$ the following conditions 
 
 1. $f$ is $n$-connected.
 
-1. All homotopy fibers of $f$ are $n-1$-[[n-connected space|connected]].
+1. All homotopy fibers of $f$ are $(n-1)$-[[n-connected space|connected]].
 
 =--
 
@@ -50,9 +52,9 @@ Let $f \colon X \to Y$ and $g \colon Y \to Z$ be maps of spaces.
 
 1. If $f$ and $g$ are $n$-connected, then so is $g f$.
 
-1. If $f$ is $n-1$-connected and $g f$ is $n$-connected, then $g$ is $n$-connected.
+1. If $f$ is $(n-1)$-connected and $g f$ is $n$-connected, then $g$ is $n$-connected.
 
-1. If $g$ is $n+1$-connected and $g f$ is $n$-connected, then $f$ is $n$-connected.
+1. If $g$ is $(n+1)$-connected and $g f$ is $n$-connected, then $f$ is $n$-connected.
 
 =--
 
@@ -67,7 +69,7 @@ $$
   B' & \longleftarrow & A' & \longrightarrow & C'
 \end{matrix}
 $$
-be a commutative diagram of maps of spaces. If $f$ is $n-1$-connected and $g$ and $h$ are $n$-connected, then the induced map between [[homotopy pushout|homotopy pushouts]] $B \sqcup_A^h C \to B' \sqcup_{A'}^h C'$ is $n$-connected.
+be a commutative diagram of maps of spaces. If $f$ is $(n-1)$-connected and $g$ and $h$ are $n$-connected, then the induced map between [[homotopy pushout|homotopy pushouts]] $B \sqcup_A^h C \to B' \sqcup_{A'}^h C'$ is $n$-connected.
 
 =--
 
@@ -84,7 +86,7 @@ $$
   Y' & \longrightarrow & X' & \longleftarrow & Z'
 \end{matrix}
 $$
-be a commutative diagram of maps of spaces. If $f$ is $n+1$-connected and $g$ and $h$ are $n$-connected, then the induced map between [[homotopy pullback|homotopy pullbacks]] $Y \times_X^h Z \to Y' \times_{X'}^h Z'$ is $n$-connected.
+be a commutative diagram of maps of spaces. If $f$ is $(n+1)$-connected and $g$ and $h$ are $n$-connected, then the induced map between [[homotopy pullback|homotopy pullbacks]] $Y \times_X^h Z \to Y' \times_{X'}^h Z'$ is $n$-connected.
 
 =--
 
