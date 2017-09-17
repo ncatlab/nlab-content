@@ -536,6 +536,8 @@ In some context the descent condion may algebraically be encoded in an [[adjunct
 
     * [[descent in noncommutative algebraic geometry]]
 
+  * [[van Kampen colimit]]
+
 * [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
 
 
