@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
 #### Complex geometry
 +--{: .hide}
 [[!include complex geometry - contents]]
@@ -109,7 +113,13 @@ $$
 
 ## Examples
 
+* [[Eisenstein series]]
+
 * [[j-invariant]]
+
+* [[Weierstrass sigma-function]]
+
+* [[Dedekind eta function]]
 
 ## Related concepts
 
