@@ -113,6 +113,12 @@ A review of definitions and results on  $k$-analytic spaces is in
 
 * [[Vladimir Berkovich]], _$p$-Adic analytic spaces_, in Proceedings of the International Congress of Mathematicians, Berlin, August 1998, Doc. Math. J. DMV, Extra Volume ICM II (1998), 141-151 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/ICM98_1998.pdf)) 
 
+A more detailed set of lecture notes along these lines is
+
+* [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
+
+
+
 ### Original articles
 
 * [[Vladimir Berkovich]], _Spectral theory and analytic geometry over non-Archimedean fields_, Mathematical Surveys and Monographs, vol. 33, American Mathematical Society, Providence, RI, (1990) 169 pp.
