@@ -80,6 +80,8 @@
 
 * [[Poincare lemma]]
 
+* [[Stokes theorem]]
+
 * [[de Rham theorem]]
 
 * [[Chern-Weil theory]]
