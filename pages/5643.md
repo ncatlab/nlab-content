@@ -21,9 +21,10 @@
 
 ## Idea
 
-A _smooth super $\infty$-groupoid_ is a [[super ∞-groupoid]] equipped with _smooth_ [[cohesive (∞,1)-topos|cohesion]].
+The notion of _smooth super $\infty$-groupoid_ is the combination of of _[[super ∞-groupoid]]_ and _[[smooth ∞-groupoid]]_. The [[cohesive (∞,1)-topos]] of smooth super-$\infty$-groupoids is a context that realizes [[higher geometry|higher]] [[supergeometry]].
 
-This includes [[supermanifold]]s and [[delooping]]s of [[super Lie group]]s.
+Smooth super $\infty$-groupoids include
+[[supermanifolds]], [[super Lie groups]] and their [[deloopings]] etc. Under [[Lie differentiation]] these map to [[super L-∞ algebras]].
 
 
 ## Definition
