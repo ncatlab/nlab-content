@@ -156,6 +156,9 @@ This subsumes some of the results in
 
 ### Extensions
 
+An elementary introduction to Lie algebra cohomology is at the beginning of 
+
+* J. A. de Azcarraga, J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
 
 The [[∞-Lie algebra]] extensions $b^{n-2} \to \mathfrak{g}_\mu \to \mathfrak{g}$ induced by a degree $n$-cocycle are considered around theorem 55 in
 
