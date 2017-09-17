@@ -39,7 +39,43 @@ Its [[boundary]] is the $(n-1)$-[[sphere]].
 
 ## Properties {#Properties}
 
+### Closed balls 
 
+A simple result on the _homeomorphism_ type of _closed_ balls is the following:  
+
++-- {: .un_thm}
+######Theorem 
+A compact convex subset $D$ in $\mathbb{R}^n$ with nonempty interior is homeomorphic to $D^n$. 
+=-- 
+
++-- {: .proof}
+######Proof
+Without loss of generality we may suppose the origin is an interior point of $D$. We claim that the map $\phi: v \mapsto v/\|v\|$ maps the boundary $\partial D$ homeomorphically onto $S^{n-1}$. By convexity, $D$ is homeomorphic to the cone on $\partial D$, and therefore to the cone on $S^{n-1}$ which is $D^n$. 
+
+Shouldn't the claim be obvious? 
+
+* The restricted map $\phi: \partial D \to S^{n-1}$ is continuous. 
+
+* It's surjective: $D$ contains a ball $B = B_{\varepsilon}(0)$ in its interior, and for each $x \in B$, the positive ray through $x$ intersects $D$ in a bounded half-open line segment. For the extreme point $v$ on this line segment, $\phi(v) = \phi(x)$. Thus every unit vector $u \in S^{n-1}$ is of the form $\phi(v)$ for some extreme point $v \in D$, and such extreme points lie in $\partial D$. 
+
+* It's injective: for this we need to show that if $v, w \in \partial D$ are distinct points, then neither is a positive multiple of the other. Supposing otherwise, we have $w = t v$ for $t \gt 1$, say. Let $B$ be a ball inside $D$ containing $0$; then the convex hull of $\{w\} \cup B$ is contained in $D$ and contains $v$ as an interior point, contradiction.  
+
+So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ between compact Hausdorff spaces, is a homeomorphism. 
+=--
+
++-- {: .un_cor}
+######Corollary
+Any compact convex set $D$ of $\mathbb{R}^n$ is homeomorphic to a disk. 
+=-- 
+
++-- {: .proof} 
+######Proof
+$D$ has nonempty interior relative to its affine span which is some $k$-plane, and then $D$ is homeomorphic to $D^k$ by the theorem. 
+=--
+
+### Open Balls
+
+Open balls are a little less rigid than closed balls, so that we can manipulate them up to diffeomorphism: 
 
 +-- {: .un_lemma}
 ###### Observation
