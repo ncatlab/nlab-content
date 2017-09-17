@@ -11,6 +11,8 @@ More generally, if $k \to K$ is *any* [[ring]] [[homomorphism]] between fields, 
 
 ## Related concepts
 
+* [[separable field extension]]
+
 * [[regular field extension]]
 
 * [[Galois theory]]
@@ -21,3 +23,7 @@ More generally, if $k \to K$ is *any* [[ring]] [[homomorphism]] between fields, 
 
 [[!redirects field extension]]
 [[!redirects field extensions]]
+
+
+[[!redirects extension of fields]]
+[[!redirects extensions of fields]]
