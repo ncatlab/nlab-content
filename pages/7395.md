@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _model structure for dendroidal Cartesian fibrations_ is an [[operad|operadic]] analog of the _[[model structure for Cartesian fibrations]]_. Its fibrant objects are [[Cartesian fibrations of dendroidal sets]].
+
+## References
+
+* [[Gijs Heuts]], _Algebras over infinity-Operads_ ([arXiv:1110.1776](http://arxiv.org/abs/1110.1776))
