@@ -1,0 +1,7 @@
+__Isabelle__ is a proof assistant
+
+* [wikipedia](http://en.wikipedia.org/wiki/Isabelle_%28proof_assistant%29)
+* Isabelle [homepage](http://isabelle.in.tum.de)
+* a tutorial [webpage](http://www.inf.kcl.ac.uk/staff/urbanc/Cookbook)
+
+category: software
