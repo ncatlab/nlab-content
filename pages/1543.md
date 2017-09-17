@@ -1,9 +1,11 @@
 
-> under construction
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
