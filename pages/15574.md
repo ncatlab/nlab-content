@@ -81,6 +81,8 @@ Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$
 
 * [[Science of Logic]]
 
+* [[adjoint modality]]
+
 * [[graphic category]]
 
 * [[generic interval]]
