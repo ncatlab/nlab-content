@@ -56,7 +56,7 @@ There are functors
 $$\array{ & \stackrel{(-)^{\flat}}{\to} & \\ & \stackrel{(-)^{\flat}}{\leftarrow} & \\ sSet & \stackrel{(-)^{\sharp}}{\to} & sSet^+ \\ & \stackrel{(-)^{\sharp}}{\leftarrow} & }$$
  with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
 
-*The hom-objects $Map^#(X,Y) = (Y^X)^#$ make $sSet^+$ a simplicial category.
+* The hom-objects $Map^#(X,Y) = (Y^X)^#$ make $sSet^+$ a simplicial category.
 
 # Applications #
 
