@@ -35,6 +35,8 @@ The term '[[pairing]]' in the $n$Lab usually refers to *ordered* pairs.
 
 [[!redirects unordered pair]]
 [[!redirects unordered pairs]]
+[[!redirects unordered pairing]]
+[[!redirects unordered pairings]]
 [[!redirects pair set]]
 [[!redirects pair sets]]
 [[!redirects pair subset]]
