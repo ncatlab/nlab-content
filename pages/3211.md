@@ -2,15 +2,16 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Topos Theory
+#### $(\infty,2)$-Topos theory
 +--{: .hide}
-[[!include (infinity,1)-topos - contents]]
+[[!include (infinity,2)-topos theory - contents]]
 =--
 =--
 =--
 
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
