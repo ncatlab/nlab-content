@@ -1,0 +1,9 @@
+
+
+* [webpage](http://maths.york.ac.uk/www/eh555)
+
+## Related entries
+
+* [[geometric quantization of symplectic groupoids]]
+
+category: people
