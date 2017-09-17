@@ -127,7 +127,7 @@ Many examples of Banach spaces are parametrised by an exponent $1 \leq p \leq \i
 
 *  The [[sequence space]] $l^p$ is the set of infinite [[sequence]]s $(x_1,x_2,\ldots)$ of real numbers such that
    $$ {\|(x_1,x_2,\ldots)\|_p} = \root p {\sum_i {|x_i|^p}} $$
-   exists as a finite real number.  (The only question is whether the sum converges.  Again $p = \infty$ is a limit, with the result that ${\|x\|_\infty} = \sup_i {|x_i|}$.)  Then $l^p$ is a Banach space with that norm.  These are all versions of $\mathbb{R}^\infty$, but they are no longer isomorphic for different values of $p$.
+   exists as a finite real number.  (The only question is whether the sum converges.  Again $p = \infty$ is a limit, with the result that ${\|x\|_\infty} = \sup_i {|x_i|}$.)  Then $l^p$ is a Banach space with that norm.  These are all versions of $\mathbb{R}^\infty$, but they are no longer isomorphic for different values of $p$.  (See [[isomorphism classes of Banach spaces]].)
 
 *  More generally, let $A$ be any [[set]] and let $l^p(A)$ be the set of [[function]]s $f$ from $A$ to $\mathbb{R}$ such that
    $$ {\|f\|_p} = \root p {\sum_{x: A} {|f(x)|^p}} $$
