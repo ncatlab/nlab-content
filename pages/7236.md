@@ -27,6 +27,12 @@ The following conditions on a category $C$ are equivalent.  When they are satisf
 
 1. $C$ has pullbacks and pushouts of monomorphisms, and admits a [[fully faithful functor|full embedding]] into a [[topos]] preserving pullbacks and pushouts of monomorphisms.
 
+## Properties
+
+* Any [[topos]] is adhesive.
+
+* An adhesive category with a [[strict initial object]] is automatically an [[extensive category]].
+
 ## Related concepts
 
 Adhesiveness is an [[exactness property]], similar to being a [[regular category]], an [[exact category]], or an [[extensive category]].  In particular, it can be phrased in the language of "lex colimits".
