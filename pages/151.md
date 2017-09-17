@@ -36,7 +36,7 @@ From the point of view of [[category theory]], there are two fundamental kinds o
 
 ## Examples
 * [[opposite category]]
-* [[dual vector space]]
+* [[dual space]], [[dual vector space]]
 * the duality between [[space and quantity]]
 * [[Poincaré duality]] for finite dimensional (oriented) closed manifolds
 * [[Pontryagin duality]] for commutative ([[Hausdorff space|Hausdorff]]) [[topological group|topological groups]]
