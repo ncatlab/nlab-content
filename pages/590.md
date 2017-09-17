@@ -22,7 +22,9 @@
 
 The concept of _colimit_ is that [[duality|dual]] to a [[limit]]:
 
-a colimit of a [[diagram]] is, if it exists, the [[representable functor|co-classifying space]] for morphisms _out_ of that diagram.
+a colimit of a [[diagram]] is, if it exists, the [[representable functor|co-classifying space]] for morphisms _out_ of that diagram. 
+
+The intuitive general idea of a colimit is that it defines an object obtained by sewing together the objects of the diagram, according to the instructions given by the morphisms of the diagram.  
 
 We have
 
