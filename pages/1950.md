@@ -55,7 +55,7 @@ is the ordinary [[cospan]].
 These multi-cospan simplicial sets define a functor $Ex : SSet \to SSet$ by setting
 
 $$
-  (Ex X)_n = Hom_{SSet}(sd \Delta[k], X)
+  (Ex X)_k = Hom_{SSet}(sd \Delta[k], X)
   \,.
 $$
 
@@ -76,6 +76,7 @@ $$
 $$
 
 The 1--cells in $Ex^\infty X$ are [[zig-zag]]s in $X$.
+
 
 
 Then
