@@ -20,15 +20,27 @@
 
 ## Idea
 
-Forsuitable setups, there is a canonical [[homomorphism]] from [[algebraic K-theory]] to [[topological K-theory]] with given [[coefficients]].
+For suitable setups, there is a canonical [[homomorphism]] from [[algebraic K-theory]] to [[topological K-theory]] with given [[coefficients]].
 
 This usually goes just by "the comparison map". (e.g. [Rosenberg, theorem 2.1](#Rosenberg))
 
 ## Statement
 
+### For complex K-theory
+
+There is a natural [[homomorphism]] of [[spectra]]
+
+$$
+  K \mathbb{C} \longrightarrow KU
+$$
+
+from the [[algebraic K-theory]] of the [[complex numbers]] to [[KU]].
+
+(e.g. [Paluch 01, lemma 2.6](#Paluch01))
+
 ### Formulation in cohesive homotopy-type theory
 
-Given a [[cohesive (infinity,1)-topos]} and a [[symmetric monoidal (∞,1)-category]] $V\in CMon_\infty(Cat_\infty(\mathbf{H}))$, [[internal (∞,1)-category|internal]] to $\mathbf{H}$ write
+Given a [[cohesive (infinity,1)-topos]] and a [[symmetric monoidal (∞,1)-category]] $V\in CMon_\infty(Cat_\infty(\mathbf{H}))$, [[internal (∞,1)-category|internal]] to $\mathbf{H}$ write
 
 $$
   \mathcal{K}(V)\in Stab(\mathbf{H})\hookrightarrow T \mathbf{H}
@@ -51,8 +63,14 @@ See at _[[differential cohomology diagram]]_ for more on thios
 
 ## References
 
-* {#Paluch} Michael Paluch, _Algebraic $K$-theory and topological spaces_ K-theory 0471 ([web](http://www.math.uiuc.edu/K-theory/0471/))
+* [[Henri Gillet]], _Comparing algebraic and topological K-theory_, in _Higher Algebraic K-Theory: an overview_ Lecture Notes in Mathematics Volume 1491, 1992, pp 55-99
 
+
+Discussion relating [[algebraic K-theory]] of [[varieties]] to complex topological K-theory is in 
+
+* {#Paluch01} Michael Paluch, _Algebraic $K$-theory and topological spaces_, K-theory 471 (2001) ([web](http://www.math.uiuc.edu/K-theory/0471/))
+
+Discussion in terms of [[Banach algebras]] is in 
 
 * {#Rosenberg} [[Jonathan Rosenberg]], _Comparison between algebraic and topological K-theory for Banach algebras and $C^\ast$-algebras_   ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
 
