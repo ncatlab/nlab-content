@@ -163,6 +163,7 @@ The [[p-localization]] of $MU$ decomoses into the
 
 * [[Adams-Novikov spectral sequence]]
 
+[[!include chromatic tower examples - table]]
 
 ## References
 
