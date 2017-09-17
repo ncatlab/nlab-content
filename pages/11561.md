@@ -12,6 +12,22 @@ Let us define $\mathcal{M}$, a cobordism $\mathcal{M}:(\Lambda,g)\longrightarrow
 
 **Definition:** A **homotopy quantum field theory** (homotopy QFT) with background $B$ is a symmetric monoidal functor $\tau:\mathbf{HCobord}(n,B)\longrightarrow n\mathbf{Vect}$.
 
+It follows that an extended TQFT is a special case of homotopy QFTs, i.e.,_an $(n+1)$-dimensional homotopy QFT with background $\mathcal{M}$ is an extended $n$-dimensional TQFT._
+
+We have the category of homotopy QFTs:
+$$\mathbf{HQFT}(n,B)=\mathrm{Fun}_{(\infty,1)}\left(\mathbf{HCobord}(n,B),R\mathbf{Mod}\right)$$
+We can write:
+$$\mathbf{TQFT}_{\mathcal{M}}(n)=\mathrm{Fun}_{(\infty,1)}\left(\mathbf{HCobord}(n,\mathcal{M}),R\mathbf{Mod}\right)$$
+For every continuous $f:\mathcal{M}^\prime\longrightarrow \mathcal{M}$, there exists a functor $F:\mathbf{HQFT}(n,\mathcal{M})\longrightarrow\mathbf{HQFT}(n,\mathcal{M}^\prime)$. This in turn induces a functor:
+$$
+F:\mathbf{TQFT}_{\mathcal{M}}(n)\longrightarrow\mathbf{TQFT}_{\mathcal{M}^\prime}(n)\implies F\in\mathbf{Morph}(\mathbf{TQFT}(n))
+$$
+The functor $F$ induced by the continuous $f:\mathcal{M}^\prime\longrightarrow \mathcal{M}$ is hence a morphism in the category of $n$-dimensional TQFTs, $\mathbf{TQFT}(n)$. The objects in $\mathbf{TQFT}(n)$ are:
+$$\mathbf{Ob}(\mathbf{TQFT}(n))=\bigcup_{\mathcal{M}\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\mathbf{HCobord}(n,\mathcal{M}),R\mathbf{Mod}\right)$$
+Let $\Pi\mathcal{A}=S^n$, i.e., the fundamental groupoid of $\mathcal{A}\in\mathbf{Top}$ is $S^n$, and $\Pi\mathcal{B}=\mathcal{M}$[^This implies that $\mathcal{M}$ is path-connected.]. Then, let us denote the comma category between $\Pi\mathcal{A}$ and $\Pi\mathcal{B}$ as $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. There exists an inclusion functor $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow\mathbf{HCobord}(n,\mathcal{M})$. Thus, we may write local systems on the $n$-th loop space $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$ of $\mathcal{M}$ as elements of $\mathbf{HCobord}(n,\mathcal{M})$. We know that $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow\mathbf{HCobord}(n,\mathcal{M})$ is an inclusion functor. Let us restrict $\tau$ to $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$, giving us a subcategory of $\mathbf{TQFT}_{\mathcal{M}}(n)$:
+$$\mathbf{TQFT}_{\mathcal{M}}(n,\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))\subset\mathbf{TQFT}_\mathcal{M}(n)$$
+This category consists of all symmetric monoidal functors $\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\longrightarrow n\mathbf{Vect}$. We may choose a locally constant sheaf $\mathcal{F}$ on $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. Then,
+$$\mathbf{TQFT}_{\mathcal{M}}(n,\pi_1\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))=\bigcup_{\mathcal{M}\in n\mathbf{Cob}}\mathrm{Fun}_{(\infty,1)}\left(\mathcal{F},n\mathbf{Vect}\right)\subset\mathbf{TQFT}_\mathcal{M}(n)$$
 
 ##A Study of Cobordisms as Presheafs##
 We know that $\bigcup\pi_1(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))\subset n\mathbf{Cob}$. This is a union over all $n$-cobordisms of locally constant $\infty$-stackes over $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)$. Let us define an $(\infty,1)$-sheaf $(\infty,1)$-topos $\mathbf{H}$ such that $\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)\in\mathbf{H}$. Define $\mathbf{HCobord}_{\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right)}=\pi_1(\left(\Pi\mathcal{A}\downarrow\Pi\mathcal{B}\right))$. We see that
