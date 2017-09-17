@@ -1,25 +1,31 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Symplectic geometry
-+--{: .hide}
++-- {: .hide}
 [[!include symplectic geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-For $(V,\omega)$ a [[symplectic vector space]], its _Lagrangian Grassmannian_ is the space of its [[Lagrangian subspaces]].
+For $V$ a [[symplectic vector space]], its __Lagrangian Grassmannian__ $LGrass(V)$ is the space of its [[Lagrangian subspace|Lagrangian]] (maximal isotropic) subspaces.
+
 
 ## Properties
 
-For $V$ a real [[vector space]] of [[dimension]] $2n$, its Lagrangian Grassmannian is [[diffeomorphism|diffeomorphic]] to the [[coset space]] $U(n)/O(n)$ of the [[unitary group]] by the [[orthogonal group]]
+The group of [[symplectomorphism]]s of $V$ naturally acts on $LGrass(V)$.
+
+The unitary group $U_J(V)$ associated to any fixed compatible [[complex structure]] $J$ on $V$ [[transitive action|acts transitively]] on $LGrass(V)$.  In fact, $LGrass(V)$ is [[diffeomorphism|diffeomorphic]] to the [[coset space]] $U(n)/O(n)$ of the [[unitary group]] by the [[orthogonal group]], where $n$ is the complex [[dimension]] of $(V,J)$ (so the real dimension of $V$ is $2n$).
+
+The [[Maslov index|universal Maslov index]] is the only [[homotopy invariant]] of [[loops]] in $LGrass(V)$.
+
   
 ## Related concepts
 
@@ -31,12 +37,25 @@ For $V$ a real [[vector space]] of [[dimension]] $2n$, its Lagrangian Grassmanni
 
 * [[Maslov index]]
 
+
 ## References
+
+* Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
 * [[Andrew Ranicki]], _The Maslov Index_ ([pdf](http://www.maths.ed.ac.uk/~aar/maslovnotes.pdf))
 
 * Esteban Andruchow, Gabriel Larotonda, _Lagrangian Grassmannian in Infinite Dimension_ ([arXiv:0808.2270](http://arxiv.org/abs/0808.2270))
- 
-[[!redirects Lagrangian grassmannians]]
 
+ 
+[[!redirects Lagrangian Grassmannian]]
+[[!redirects Lagrangian Grassmannians]]
 [[!redirects Lagrangian grassmannian]]
+[[!redirects Lagrangian grassmannians]]
+[[!redirects Lagrangean Grassmannian]]
+[[!redirects Lagrangean Grassmannians]]
+[[!redirects Lagrangian Grassmanian]]
+[[!redirects Lagrangian Grassmanians]]
+[[!redirects lagrangian grassmanian]]
+[[!redirects lagrangian grassmanians]]
+[[!redirects Lagrangean Grassmanian]]
+[[!redirects Lagrangean Grassmanians]]
