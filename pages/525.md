@@ -15,6 +15,12 @@ A **bialgebra** is a [[monoid]] [[internalization|in]] the category of [[coalgeb
 
 More generally, a **[[bimonoid]]** in a monoidal category $M$ is a monoid in the category of comonoids in $M$ --- or equivalently, a comonoid in the category of monoids in $M$.  So, a bialgebra is a bimonoid in $Vect$.
 
+## Properties
+
+### Relation to sesquialgebras
+
+Bialgebras are precisely those [[sesquialgebras]] $A$ whose product $A \otimes A$-$A$-[[bimodule]] is induced from an algebra [[homomorphism]] $A \to A \otimes A$ and whose unit $k$-$A$ bimodule is induced from an algebra homomorphism $A \to k$.
+
 ## Related concepts
 
 * [[Gerstenhaber-Schack cohomology]], [[bialgebra cocycle]], [[weak bialgebra]], [[bialgebroid]]
