@@ -55,12 +55,14 @@ Left adjoint functors preserve
 
 * [[epimorphism]]s.
 
-## Further remarks
+## Related entries
+
 *  See [[Galois connection]] for left adjoints of monotone functions.
 *  See [[adjoint functor]] for left adjoints of functors.
 *  See [[adjunction]] for left adjoints in $2$-categories.
 *  See [[examples of adjoint functors]] for examples.
 
+* [[pro-left adjoint]]
 
 [[!redirects left adjoint -- history]]
 [[!redirects left adjoints]]
