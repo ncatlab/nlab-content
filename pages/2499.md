@@ -79,11 +79,11 @@ of a [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$ in the way the [[Str
 
 A super [[connection on an ∞-bundle]] with values in $\mathfrak{sugra}(10,1)$ on a [[supermanifold]] $X$ is locally given by [[∞-Lie algebroid valued differential forms]] consisting of
 
-* a $\mathbb{R}^{11}$-valued 1-form $e$ 
+* a $\mathbb{R}^{11}$-valued 1-form $e$ -- the [[vielbein]]
 
-* a $\mathfrak{so}(10,1)$-valued 1-form $\omega$
+* a $\mathfrak{so}(10,1)$-valued 1-form $\omega$ -- the [[spin connection]]
 
-* a spin-representation valued 1-form $\psi$
+* a spin-representation valued 1-form $\psi$ -- the spinor
 
 * a 3-form $C$ .
 
