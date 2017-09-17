@@ -105,3 +105,12 @@ has a [[left adjoint]]
 
 * For $C = $ [[Top]] the stabilization is the category [[Spec]] of [[spectra]]. The functor $\Sigma^\infty : Top_* \to Spec$  is that which forms [[suspension spectra]].
 
+## Related concepts
+
+[[!include k-monoidal table]]
+
+## References
+
+Section 1.4 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
