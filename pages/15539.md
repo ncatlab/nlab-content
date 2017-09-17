@@ -1,4 +1,0 @@
-Creating string theory FAQ means field is required oscillate&amp in nLab
-<a href="http://www.gwz471u173xu6z9h024oo0r3jh9o5c6ts.org/">acdwpftob</a>
-[url=http://www.gwz471u173xu6z9h024oo0r3jh9o5c6ts.org/]ucdwpftob[/url]
-cdwpftob http://www.gwz471u173xu6z9h024oo0r3jh9o5c6ts.org/
