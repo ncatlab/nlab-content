@@ -23,7 +23,7 @@ $$
 \end{matrix}
 $$
 commutes.
-* (right cancelability) Given an arrow $v:x\to y$ in $W$ and a pair of [[parallel morphisms]] $f,g: y\to z$ such that $f\circ v = g \circ v$, there is an arrow $v':w\to x$ in $W$ such that $v'\circ f = v' \circ g$.
+* (right cancellability) Given an arrow $v:x\to y$ in $W$ and a pair of [[parallel morphisms]] $f,g: y\to z$ such that $f\circ v = g \circ v$, there is an arrow $v':w\to x$ in $W$ such that $v'\circ f = v' \circ g$.
 
 One may also say that $W$ is a **right Ore system** in $C$ (although this is potentially confusing since the Ore condition is only part of the definition), or that $(C,W)$ **admits a category of right fractions**.  If $(C^{op}, W^{op})$ admits a calculus of right fractions, we say that $(C,W)$ admits a **calculus of left fractions**.  Unfortunately there is no uniformity regarding the choice of 'left' versus 'right;' some authors use 'left' where we use 'right' and vice versa.
 
@@ -101,6 +101,11 @@ in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$
 
 The above definition is due to Gabriel and Zisman in the book 
 
-* P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
+* [[P. Gabriel]], M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
 
 although their left-right conventions are reversed from ours.
+
+[[!redirects left calculus of fractions]]
+[[!redirects right calculus of fractions]]
+[[!redirects calculus of left fractions]]
+[[!redirects calculus of right fractions]]
