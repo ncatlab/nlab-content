@@ -300,6 +300,11 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 ## References
 
+A classic textbook is 
+
+* [[Paul Dirac]], _[[The Principles of Quantum Mechanics]]_, International series of monographs on physics, Oxford University Press, 1978
+  {#Dirac78}
+
 A list of scripts and lecture notes is at
 
 * Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
