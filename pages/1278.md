@@ -371,7 +371,11 @@ See [[differential cobordism cohomology theory]]
 
 ## Related concepts
 
+* [[tangent cohesion]], [[smooth spectrum]]
+
 * [[differential orientation]]
+
+
 
 [[!include gauge field - table]]
 
