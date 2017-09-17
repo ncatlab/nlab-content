@@ -55,6 +55,7 @@ This is not true for $homotopyEquiv(f)$, which is not in general an h-prop even 
 
 
 ## Semantics
+ {#Semantics}
 
 We discuss the [[categorical semantics]] of equivalences in homotopy type theory.
 
