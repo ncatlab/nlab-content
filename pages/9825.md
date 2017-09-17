@@ -14,7 +14,19 @@
 
 ## Idea
 
-Quantum measurement is [[measurement]] in [[quantum mechanics]]. Due to traditional conceptual puzzlement also referred to as the _measurement problem_, see at _[[interpretation of quantum mechanics]]_.
+Quantum measurement is [[measurement]] in [[quantum mechanics]]. 
+
+
+## Definition
+ {#Definition}
+
+In terms of [[mixed quantum states]] represented by [[density matrices]], a quantum measurement is a [[quantum operation]] which is given by a [[positive-operator valued measure]]
+
+## The "measurement problem"
+
+In the context of _[[interpretation of quantum mechanics]]_it is common to speak of the "measurement problem" when referring to the tension between regarding [[quantum physics]] as a [[probability theory|probabilistic]] theory and the idea of realism.
+
+Namely by the [above](#Definition) a quantum measurement is formally reflected in a change of [[probability|probabilities]]. But since in any given [[measurement]] [[experiment]] one definite outcome is observed, one may wonder how that particular outcome was actually chosen, given that the theory only gives its probability.
 
 
 ## Related concepts
