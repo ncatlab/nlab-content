@@ -101,6 +101,23 @@ For $G$ a [[smooth group]], its [[delooping]] $\mathbf{B}G$ is a smooth groupoid
 
 * [[centrally extended groupoid]]
 
+## References
+
+Discussion of smooth stacks as [[target spaces]] for [[sigma-model]] [[quantum field theories]] is in 
+
+* [[Tony Pantev]], [[Eric Sharpe]], _String compactifications on Calabi-Yau stacks_, Nucl.Phys. B733 (2006) 233-296, ([arXiv:hep-th/0502044](http://arxiv.org/abs/hep-th/0502044))
+
+* [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_, ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
+ {#PantevSharpe}
+
+* S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_, ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
+ {#HellermanSharpe}
+
+Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on stacks ([[moduli stacks]] of [[Higgs bundles]] over a given [[algebraic curve]]) is in 
+
+* {#Witten08} [[Edward Witten]], section 6 of _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_ ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
+
+
 [[!redirects smooth groupoids]]
 
 [[!redirects smooth group]]
