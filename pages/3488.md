@@ -1,5 +1,7 @@
-[[!redirects locally n-connected (infinity,1)-topos]]
-[[!redirects locally n-connected (infinity,1)-tops]]
+
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
 
 
 #Contents#
@@ -206,7 +208,7 @@ exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. W
 
 
 
-**Examples.** All the locally conneted $(\infty,1)$-toposes on sites with geometrically contractible objects given by the proposition [above](#LocallyContractibleExamples) are also contractible.
+**Examples.** All the locally connected $(\infty,1)$-toposes on sites with geometrically contractible objects given by the proposition [above](#LocallyContractibleExamples) are also contractible.
 
 
 [[!redirects locally n-connected (∞,1)-topos]]
@@ -218,3 +220,6 @@ exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. W
 [[!redirects contractible (∞,1)-topos]]
 [[!redirects contractible (infinity,1)-toposes]]
 [[!redirects contractible (∞,1)-toposes]]
+
+[[!redirects locally n-connected (infinity,1)-topos]]
+[[!redirects locally n-connected (infinity,1)-tops]]
