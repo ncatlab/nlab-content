@@ -87,7 +87,9 @@ Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$
 
 =--
 
-### For general $\infty$-bundles
+### For $(\infty,1)$-bundles
+
+We discuss the Thom spectrum construction for general [[(∞,1)-vector bundle]]s.
 
 +-- {: .num_prop}
 ###### Proposition
