@@ -142,6 +142,10 @@ Ann. Phys. 161 (1985) 423.
 
 * [[Edward Witten]], _Global gravitational anomalies_ , Commun. Math. Phys. 100 (1985) 197. ([EUCLID](http://projecteuclid.org/euclid.cmp/1103943444))
 
+A survey of these results is in the slides
+
+* Paolo Di Vecchia, _Green-Schwarz anomaly cancellation_ (2010) ([pdf](http://www.college-de-france.fr/media/par_ele/UPL47331_DiVecchia.4.pdf))
+
 The mathematical formulation of this in terms of [[index theory]] is due to
 
 * [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984)
