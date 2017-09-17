@@ -1,0 +1,7 @@
+
+## Idea
+
+Full [[quantum field theory]] is sometimes called -- for emphasis and in contrast to its approximation by [[perturbation theory]] -- _non-perturbative quantum field theory_ .
+
+[[!redirects non-perturbative QFT]]
+
