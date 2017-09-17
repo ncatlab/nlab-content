@@ -33,6 +33,8 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 * [[supersymmetry]]
 
+* [[Super Gerbes]]
+
 ## References
  {#References}
 
