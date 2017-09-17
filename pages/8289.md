@@ -59,7 +59,7 @@ Famous bifunctors are
 
 ## Related concepts
 
-* [[binary function]], [[bilinear map]]
+* [[binary function]], [[bilinear map]], [[multilinear map]]
 
 * [[binary morphism]]
 
