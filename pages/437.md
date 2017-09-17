@@ -1,13 +1,18 @@
+
 <div class="rightHandSide toc">
 [[!include homotopy - contents]]
 ***
 [[!include model category theory - contents]]
 </div>
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
+
+## Idea
+
+A path space object is an [[internalisation]] of a [[path space]].
+
 
 ## Definition
 
@@ -17,15 +22,18 @@ $$
   X \stackrel{s}{\to} X^I \stackrel{(d_0, d_1)}{\to} X \times X
 $$
 
-such that $s$ is a weak equivalence.
+such that $s$ is a weak equivalence.  (This also makes sense even if the product $X \times X$ doesn't exist.)  We interpret a ([[generalised element|generalised]]) [[global element|element]] of $X^I$ as a [[path]] in $X$.
 
-
-**Notice.** Here $C^I$ is a primitive symbol. $I$ is _not_ assumed to be an object and $C^I$ is not assumed to be an [[closed category|internal hom]]. This is standard but somewhat abusive notation. It is supposed to remind us of the "nice" situation where the path object _is_ co-represented after all. See [[interval object]].
++-- {: .un_remark}
+###### Notice
+Here $C^I$ is a primitive symbol. $I$ is _not_ assumed to be an object and $C^I$ is not assumed to be an [[closed category|internal hom]]. This is standard but somewhat abusive notation. It is supposed to remind us of the "nice" situation where the path object _is_ co-represented after all. See [[interval object]].
+=--
 
 If the category in question also has a notion of [[fibration]]s, such as in a [[category of fibrant objects]] or in a [[model category]], the morphism 
 $C^I \stackrel{(d_0, d_1)}{\to} C \times C$ in the definition of a path object is required to be a fibration.
 
 Path space objects are in particular guaranteed to exist in any [[model category]].
+
 
 ## Examples
 
@@ -65,6 +73,7 @@ $$
   }
 $$
 
+
 ### In simplicial model categories
 
 If $C$ is a [[simplicial model category]], then the [[power]]ing over [[sSet]] can be used to explicitly construct functorial path objects for fibrant objcts $X$: define $X \to X^I \to X \times X$ to be the [[power]]ing of $X$ by the morphisms
@@ -87,35 +96,21 @@ $$
 sends cofibrations and acyclic cofibrations in the first argument to fibratoins and acyclic fibrations inif the second argument is fibrant, and since this implies by the [[category of fibrant objects|factorization lemma]] that it then also preserves weak equivalences between cofibrant objects, it follows that $X^{\Delta[1]}$ is indeed a path object with the extra property that also the two morphisms $X^{\Delta[1]} \to X$ are acyclic fibratios.
 
 
-
-
-
 ## Related notions
 
 ### Right homotopies
 
-Path objects are used to define a notion of [[right homotopy]] between morphisms in a category. Thus they capture aspects of [[higher category theory]] in a 1-categorical context.
+Path objects are used to define a notion of [[right homotopy]] between morphisms in a category. Thus they capture aspects of [[higher category theory]] in a $1$-categorical context.
+
 
 ### Loop space objects 
 
 From a path space object may be derived [[loop space object]]s.
 
 
-
-
-##Discussion
-
-Originally the remark on abusive notation was missing and Toby asked:
-
-What is $I$ here? Is it something that any category with weak equivalences must have (although I don\'t see how offhand), or is part of the data of the path object? (Indeed, it seems to be the only actual *object* in that data!) And then what are $d_0$ and $d_1$ exactly; maps $C^I \to C$, or maps involving $I$ itself whose product induces maps $C^I \to C$?
-
-_Urs_: I hope the remark above now clarifies this. If so, this discussion part here should be removed.
-
-_Toby_: The notation still doesn\'t make literal sense, since $C^I$ (primitive or not) isn\'t a product. But I believe that you just mixed up product and pairing, so I fixed that. In other words, I interpret it that $d_0$ and $d_1$ are each morphisms from $C^I$ to $C$.
-
 [[!redirects path object]]
 [[!redirects path objects]]
+[[!redirects path space object]]
 [[!redirects path space objects]]
 [[!redirects cocylinder object]]
 [[!redirects cocylinder objects]]
-[[!redirects path space]]
