@@ -6,8 +6,14 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -16,9 +22,33 @@
 
 ## Idea
 
+_String phenomenology_ is [[phenomenology]] in [[particle physics]] based on [[model (in particle physics)|models]] that are derived or at least motivated from [[string theory]] (as [[effective QFTs]] from string [[vacua]]).
+
 Broadly speaking, _string phenomenology_ refers to investigations of the connection of [[string theory]] to experimentally observed [[physics]]. More restrictively it refers to constructions of string theory [[vacua]] whose [[effective field theory]] reproduces the [[standard model of particle physics]] and/or the [[standard model of cosmology]].
 
+String theory models natually match the _general_ conceptual structure of the [[standard model of particle physics]] plus [[gravity]] (which is what drives the interest in string theory in the first place): for instance the standard model is a four dimensional [[QFT]] with a [[gauge theory|non-Abelian gauge symmetry]], several [[family of elementary particles|families]] of [[chiral fermions]] and hierarchical [[Yukawa couplings]] -- and the same is true for the generic [[Kaluza-Klein mechanism|compactification]] of the [[effective QFT]] that describes [[heterotic string theory]] on a 6-dimensional compact space ([CHSW85](#CHSW85)) as well as for [[11-dimensional supergravity]]/[[M-theory]] compactified on a [[G2-manifold]] ([AW01](#AW01)).
+
+This structure alone already implies a variety of 3-body decays of the heavier fermions into the lighter ones and the existence of massive [[vector bosons]] coupling to [[charged currents]], which in the observed [[standard model of particle physics]] are the [[W-boson]], etc. (See section III of [AKK12](#AKK12) for an exposition.)
+
+Therefore it is not hard to find string theory compactifications that resemble the observed particle physics in _broad_ strokes. Under some simplifying assumptions many string models have been built that very closely resemble also the fine-structure of the standard model. 
+
+A central technical issue with string [[model (in particle physics)|model building]] is that of the [[Kaluza-Klein mechanism]] involved: the [[moduli stabilization]]. Historically there had been the hope that the consistency condition of moduli stabilization on string models is so strong that it strongly reduces the number of models that look like the standard model. Arguments that the number is still "not small" even with various extra assumptions lead to the term of a [[landscape of string theory vacua|landscape]] ([[moduli space]]) of string theory models, which remains, however, poorly understood. Arguments for properties of low-energy [[effective QFTs]] that rule out a possibe string-theoretic model have been brought forward for instance in ([Vafa05](http://arxiv.org/abs/hep-th/0509212)). A review of what is known about the space of possibilities is in ([Taylor11](#Taylor11)).
+
+While all this remains poorly understood, a noteworthy difference of string phenomenology to [[model (in particle physics)|model building]] in bare [[QFT]] is that a) there is a larger framework at all in which to search for models and b) with every model automatically comes a [[UV-completion]], which is the basic motivation for embedding the standard model of particle physics in a broader theory of [[quantum gravity]] in the first place. 
+
+ 
+
+## Examples
+
+Examples of [[model (in particle physics)|models]] in string phenomenology include
+
+* [[G2-MSSM]]
+
+* and many more that should be listed here, eventually...
+
 ## References
+
+### Surveys
 
 Technical surveys on particle physics string phenomenology include
 
@@ -26,6 +56,47 @@ Technical surveys on particle physics string phenomenology include
 
 * Tatsuo Kobayashi, _String phenomenology_ ([pdf](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf))
 
+* [[Washington Taylor]], _TASI Lectures on Supergravity and String Vacua in Various Dimensions_ ([arXiv:1104.2051](http://arxiv.org/abs/1104.2051))
+
+* Bobby Samir Acharya, [[Gordon Kane]], Piyush Kumar, _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
+ {#AKK12}
+
 Technical surveys on cosmological string phenomenology include
 
 * S. F. King, J. P. Roberts, _Natural Dark Matter from Type I String Theory_ ([arXiv:hep-ph/0608135](http://arxiv.org/abs/hep-ph/0608135))
+
+### Original articles
+
+* P. Candelas, G. T. Horowitz, [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B 258, 46 (1985)
+ {#CHSW85}
+ 
+* Bobby Acharya, Edward Witten, _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
+ {#AW01}
+
+* [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hep-th/0509212](http://arxiv.org/abs/hep-th/0509212))
+
+### String Phenomenology conferences
+
+* String Phenomenology 2002 ([home page](http://www-thphys.physics.ox.ac.uk/users/AlonFaraggi/sp2002/conference.html)) 
+
+* String Phenomenology 2003 ([home page](http://www.ippp.dur.ac.uk/old/SP03/welcome.shtml)) 
+
+* String Phenomenology 2004 ([home page](http://www.umich.edu/%7Emctp/SciPrgPgs/events/2004/2004sph/index.html)) 
+
+* String Phenomenology 2005 ([home page](http://wwwth.mppmu.mpg.de/members/blumenha/main.html)) 
+
+* String Phenomenology 2006 ([home page](http://www.kitp.ucsb.edu/activities/auto2/?id=352)) 
+
+* String Phenomenology 2007 ([home page](http://people.roma2.infn.it/%7Estringpheno2007/)) 
+
+* String Phenomenology 2008 ([home page](http://www.math.upenn.edu/StringPhenom2008/local.html)) 
+
+* String Phenomenology 2009 ([home page](http://www.fuw.edu.pl/~sp09/)) 
+
+* String Phenomenology 2010 ([home page](http://stringpheno.cpht.polytechnique.fr/)) 
+
+* String Phenomenology 2011 ([home page](http://conferencing.uwex.edu/conferences/stringpheno2011/), [talks](http://conferencing.uwex.edu/conferences/stringpheno2011/PlenarySessions.cfm))
+
+* String Phenomenology 2012 ([home page](http://www.newton.ac.uk/programmes/BSM/bsmw05.html), [talks](http://www.newton.ac.uk/programmes/BSM/bsmw05p.html))
+
+* String Phenomenology 2013 ([home page](http://stringpheno2013.desy.de/))
