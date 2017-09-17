@@ -25,7 +25,10 @@ Let $A$ be a [[type]] in [[intensional type theory|intensional]] [[type theory]]
 
 $$isSet(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} isProp(x=y)$$
 
-(using any equivalent definition of the predicate [[isProp]] for [[h-propositions]]).  In other words, two elements of an h-set are either equal or not; there is no room for more than one path between them.  By beta-reducing this definition, we can express it as
+(using any equivalent definition of the [[predicate]] [[isProp]] for [[h-propositions]]; and where "$\prod$" denotes [[dependent product]] types and "$=$" denotes [[identity types]]).
+
+
+In other words, two elements of an h-set are either equal or not; there is no room for more than one path between them.  By beta-reducing this definition, we can express it as
 $$isSet(A) \coloneqq \prod_{x,y\colon A} \prod_{p,q\colon x=y} (p=q)$$
 In other words, any two parallel paths in $A$ are equal.
 
@@ -48,7 +51,11 @@ $$\array{Paths_A + (0\to A\times A)^{(Paths_A\to A\times A)}\\
 \downarrow\\
 A\times A}
 $$
-where $Paths_A$ is the [[path object|path type]] of $A$, has a section.  Then $A$ is a set.
+
+(where $Paths_A$ is the [[path object|path type]] of $A$, "+" forms the [[sum type]], and on the right we have the $A \times A$-[[dependent type|dependent]] [[function type]] into the [[empty type]]), has a section.  
+
+Then $A$ is a set.
+
 =--
 +-- {: .proof}
 ###### Proof
