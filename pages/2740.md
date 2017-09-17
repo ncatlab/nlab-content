@@ -236,6 +236,9 @@ The [[Lagrangian dg-submanifolds]] (see there for more) of a Poisson Lie algebro
 
 * [[Hopf algebroid]] (appears as a deformation quantization of a Poisson-Lie algebroid)
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
+
 ## References ##
 
 One of the earliest reference seems to be
