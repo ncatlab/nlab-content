@@ -1,0 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+## Idea
+
+In [[type theory]] the _type of propositions_ is what in the [[categorical semantics]] becomes the [[subobject classifier]].
+
+Its generalization from [[propositions]] to general [[types]] is the [[type of types]] in [[homotopy type theory]]. 
