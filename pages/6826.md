@@ -28,14 +28,18 @@ Theories of [[supergravity]] always contain a global [[symmetry]] called [[R-sym
 
 ### From dimensional reduction
 
-For many cases gauged supergravity theories are obtained by dimensional reduction from [[11-dimensional supergravity]] or [[type II supergravity]], which themselves do not contain a gauge field. This appears in the reduction by the [[Kaluza-Klein mechanism]].
+For many cases gauged supergravity theories are obtained by [[KK-compactification|dimensional reduction]] from [[11-dimensional supergravity]] or [[type II supergravity]], which themselves do not contain a gauge field but higher degree fields ("fluxes"), the [[supergravity C-field]] and the [[B-field]] respectively. These induce gauged supergravities (e.g. [Samtleben 08, figure 1](#Samtleben08)). The [[gauge groups]] are the [[U-duality]] groups of the compactification (e.g. [Samtleben 08, table 1](#Samtleben08)).
 
 ## Examples
 
-Some examples are discussed at [[7-dimensional supergravity]].
+Some examples are discussed at 
+
+* [[7-dimensional supergravity]]
+
+* [[3-dimensional supergravity]]
 
 ## References
 
-* [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
+* {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
 
 [[!redirects gauged supergravities]]
