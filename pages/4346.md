@@ -32,7 +32,7 @@ $$
 
 so that $(\mathcal{A}, \alpha_G)$ is a [[C-star system]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition 
 
 The tupel $(\mathcal{A}_I, \alpha_G)$ is a **net of $C^*$-systems** if $\alpha_g(\mathcal{A}_i) \subseteq \mathcal{A}_i \; \forall g \in G$.
@@ -43,6 +43,12 @@ In the context of [[Haag-Kastler nets]] the group $G$ is called the
 **[[global gauge group]]** and every [[automorphism]] $\alpha_g$ is called a **[[gauge transformation|gauge automorphism]]**.
 
 This definition makes sense also if the net consists of [[star-algebras]] only, of course.
+
+## Related concepts
+
+* [[local net of observables]]
+
+* [[field net]]
 
 ## References ##
 
