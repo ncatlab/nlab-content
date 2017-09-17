@@ -5,24 +5,24 @@
 
 ## Idea 
 
-In number theory, the quadratic reciprocity law determines a precise relationship between the truth of $p R q$ and the truth of $q R p$, where $R$ is the following relation on odd primes: $p R q$ means $p$ is a square modulo $q$. 
+In number theory, the quadratic reciprocity law determines a precise relationship between the truth of $p R q$ and the truth of $q R p$, where $p R q$ is the [[relation]] on odd primes: "$p$ is a square modulo $q$". 
 
-The law of quadratic reciprocity is a celebrated result due to [[Gauss]]; the ideas required to prove it helped to inaugurate modern number theory. It is today largely considered within the context of [[class field theory]], involving how primes decompose in abelian extensions of number fields. 
+The law of quadratic reciprocity is a celebrated result due to [[Gauss]]; the ideas required to prove it helped to inaugurate modern [[number theory]]. It is today largely considered within the context of [[class field theory]], involving how [[prime number|primes]] decompose in [[Galois extension|abelian extensions]] of [[number fields]]. 
 
 
 ## Statement 
 
-For $p \geq 1$ an odd prime number, and for any integer $a$, define the __Legendre symbol __ (or quadratic reciprocity symbol) $\left(\frac{a}{p}\right)$ to be the unique element in $\{-1, 0, 1\}$ for which 
+For $p \geq 1$ an odd [[prime number]], and for any [[integer]] $a$, define the __Legendre symbol __ (or quadratic reciprocity symbol) $\left(\frac{a}{p}\right)$ to be the unique element in $\{-1, 0, 1\}$ for which 
 
 $$
 \left(\frac{a}{p}\right) \equiv a^{\frac{p-1}{2}} \; mod \; p
 $$ 
 
-Notice that the Legendre symbol defines a surjective homomorphism 
+Notice that the Legendre symbol defines a surjective [[homomorphism]] on a [[cyclic group]] 
 
-$$(\mathbb{Z}/p)^\ast \cong \mathbb{Z}/(p-1) \to \{-1, 1\}$$ 
+$$(\mathbb{Z}/p)^\ast \cong C_{p-1} \to \{-1, 1\}$$ 
 
-whose kernel is the set of squares in the multiplicative group $(\mathbb{Z}/p)^\ast$, so that $\left(\frac{a}{p}\right) = 1$ means $a$ is a square modulo $p$, and $\left(\frac{a}{p}\right) = -1$ means $a$ is a non-square modulo $p$. 
+whose [[kernel]] is the set of squares in the multiplicative group $(\mathbb{Z}/p)^\ast$, so that $\left(\frac{a}{p}\right) = 1$ means $a$ is a square modulo $p$, and $\left(\frac{a}{p}\right) = -1$ means $a$ is a non-square modulo $p$. 
 
 +-- {: .un_theorem} 
 ###### Theorem (Quadratic Reciprocity) 
@@ -43,7 +43,7 @@ The case for odd primes $p$, $q$ can be restated as:
 
 * if $p,q \equiv 3 \; mod \; 4$ then  $\left(\frac{p}{q}\right) = -\left(\frac{q}{p}\right)$
 
-The law of quadratic reciprocity was first fully proven by [Gauss](#Gauss), although special cases were proven by Fermat (who effectively realized when $-1$ was a square modulo $p$ based on his two squares theorem -- well before Legendre introduced his eponymous symbol), and Euler (who proved the case for $q = 2$). 
+The law of quadratic reciprocity was first fully proven by [Gauss](#Gauss), although special cases were proven by Fermat (who effectively realized when $-1$ was a square modulo $p$ based on his [[two squares theorem]] -- well before Legendre introduced his eponymous symbol), and Euler (who proved the case for $q = 2$). 
 
 None of these early authors were in full possession of modern notations such as the congruence symbol or the Legendre symbol, which greatly economize the amount of thought needed to prove this theorem. Recognition of quadratic reciprocity was likely rooted in empirical observations, for example the study of periods of expansions of $1/q$ in base $p$ (source?). 
 
@@ -70,7 +70,7 @@ There are today several hundred published proofs of the quadratic reciprocity la
 
 ### Proof via Gauss sums 
 
-This proof, following [Lang](#Lang) (pp. 76-78), is middling in sophistication but at least indicates the relevance of cyclotomic extensions of the rationals $\mathbb{Q}$ and quadratic extensions therein. Let $p$ be a fixed odd prime, and let $\zeta$ be a primitive $p^{th}$ root of unity. Using the Legendre symbol, we introduce a particular character sum called a **Gauss sum**, 
+This proof, following [Lang](#Lang) (pp. 76-78), is middling in sophistication but at least indicates the relevance of [[cyclotomic extension]]s of the rationals $\mathbb{Q}$ and [[quadratic extension]]s therein. Let $p$ be a fixed odd prime, and let $\zeta$ be a primitive $p^{th}$ [[root of unity]]. Using the Legendre symbol, we introduce a particular [[character]] sum called a **Gauss sum**, 
 
 $$S \coloneqq \sum_a \left(\frac{a}{p}\right) \zeta^a,$$
 
@@ -102,11 +102,11 @@ S^2 & = & \left(\frac{-1}{p}\right) (p-1) + (-1)\sum_{b \neq -1} \left(\frac{b}{
 which completes the proof. 
 =-- 
 
-Thus $S$ belongs to a quadratic extension of $\mathbb{Q}$, either $\mathbb{Q}(\sqrt{p})$ or $\mathbb{Q}(\sqrt{-p})$ depending on the Legendre symbol. In particular, the prime $p$ is ramified in $\mathbb{Q}(\zeta)$. 
+Thus $S$ belongs to a quadratic extension of $\mathbb{Q}$, either $\mathbb{Q}(\sqrt{p})$ or $\mathbb{Q}(\sqrt{-p})$ depending on the Legendre symbol. In particular, the prime $p$ is [[ramification|ramified]] in $\mathbb{Q}(\zeta)$. 
 
 +-- {: .proof} 
 ###### Proof of quadratic reciprocity law 
-First let $p$, $q$ be two distinct odd primes. With $S$ defined as above, we calculate $S^q \; mod \; q$ (where $mod \; q$ indicates the quotient of the ideal generated by $q$ in the above-mentioned quadratic extension of $\mathbb{Q}$) in two ways. 
+First let $p$, $q$ be two distinct odd primes. With $S$ defined as above, we calculate $S^q \; mod \; q$, where $mod \; q$ indicates the quotient of the [[ideal]] generated by $q$ in the above-mentioned quadratic extension of $\mathbb{Q}$, in two ways. 
 
 On the one hand, by the preceding lemma, 
 
@@ -117,7 +117,7 @@ S^q & = & S(S^2)^{\frac{q-1}{2}} \\
  & \equiv & S (-1)^{\frac{p-1}{2}\frac{q-1}{2}} \left(\frac{p}{q}\right) \; mod \; q
 .}$$ 
 
-On the other hand, since raising to the power $q$ is an automorphism on the quotient ring obtained modulo $q$ (either $\mathbb{F}_q \times \mathbb{F}_q$ or $\mathbb{F}_{q^2}$, depending on whether $p$ is a square modulo $q$ or not), we have 
+On the other hand, since raising to the power $q$ is an [[isomorphism|automorphism]] on the [[quotient]] [[ring]] obtained modulo $q$ (either $\mathbb{F}_q \times \mathbb{F}_q$ or $\mathbb{F}_{q^2}$, depending on whether $p$ is a square modulo $q$ or not), we have 
 
 $$\array{ 
 S^q & \equiv & \sum_a \left(\frac{a}{p}\right) \zeta^{a q} \; mod \; q \\ 
@@ -154,7 +154,7 @@ The (in hindsight obvious!) structural meaning of the Legendre symbol was first 
 
 +-- {: .un_lemma}
 ###### Lemma (Zolotarev) 
-For $p$ an odd prime and $a$ relatively prime to $p$, $\left(\frac{a}{p}\right)$ is the sign of the permutation on $(\mathbb{Z}/p)^\ast$ given by multiplying by $a$. 
+For $p$ an odd prime and $a$ relatively prime to $p$, $\left(\frac{a}{p}\right)$ is the sign or [[signature of a permutation]] on $(\mathbb{Z}/p)^\ast$ given by multiplying by $a$. 
 =-- 
 
 +-- {: .proof} 
@@ -163,62 +163,62 @@ Both the Legendre symbol $\left(\frac{ }{p}\right) \colon (\mathbb{Z}/p)^\ast \t
 
 $$(\mathbb{Z}/p)^\ast \stackrel{Cayley}{\to} Perm((\mathbb{Z}/p)^\ast) \stackrel{sign}{\to} \{-1, 1\}$$ 
 
-are homomorphisms whose domain is a cyclic group, so it suffices to show they agree on a generator $g$. But $Cayley(g)$ is a cyclic permutation on $p-1$ elements, hence has sign $(-1)^{p-2} = -1$, which agrees with $\left(\frac{g}{p}\right)$. 
+are homomorphisms whose domain is a cyclic group, so it suffices to show they agree on a generator $g$. But $Cayley(g)$ is a cyclic [[permutation]] on $p-1$ elements, hence has sign $(-1)^{p-2} = -1$, which agrees with $\left(\frac{g}{p}\right)$. 
 =-- 
 
 We turn now to Zolotarev's  proof of the "hard" case of quadratic reciprocity where $p$ and $q$ are distinct odd primes. What is interesting is that from this point forward, we don't use primality of $p$ and $q$ at all, i.e., the remainder of the argument carries over if $p$ and $q$ are replaced by odd, relatively prime integers $m$ and $n$, and we simply define $\left(\frac{a}{n}\right)$ as a sign of a permutation of multiplying by $a$ on $(\mathbb{Z}/n)^\ast$. Indeed, one often defines the **Jacobi symbol** by 
 
 $$\left(\frac{a}{n}\right) \coloneqq \prod_{i} \left(\frac{a}{p_i}\right)$$ 
 
-where $n = p_1 \ldots p_r$ is the prime factorization of an odd integer, and what we really do is generalize quadratic reciprocity to the Jacobi symbol. Thus, the primality assumption is concentrated purely in the preceding lemma. 
+where $n = p_1 \ldots p_r$ is the prime factorization of an odd integer, and what we really do is generalize quadratic reciprocity from the Legendre symbol to the Jacobi symbol. Thus, the primality assumption is concentrated purely in the preceding lemma. 
 
 +-- {: .proof}
 ###### Proof of quadratic reciprocity 
-For $p$ an odd prime, we consider the set $\mathbb{Z}/p = \{0, 1, \ldots, p-1\}$ as carrying on the one hand a ring structure, and on the other as carrying a structure of linear order (no compatibility between these structures!). Now suppose $p$ and $q$ are odd distinct primes; then by the Chinese remainder theorem, there is a unique ring isomorphism 
+For $m \gt 1$ an odd number, we consider the set $\mathbb{Z}/m = \{0, 1, \ldots, m-1\}$ as carrying on the one hand a ring structure, and on the other as carrying a structure of linear order (no compatibility between these structures!). Now suppose $m$ and $n$ are odd and relatively prime; then by the [[Chinese remainder theorem]], there is a unique ring isomorphism 
 
-$$\mathbb{Z}/p q \to \mathbb{Z}/p \times \mathbb{Z}/q.$$ 
+$$\mathbb{Z}/m n \to \mathbb{Z}/m \times \mathbb{Z}/n.$$ 
 
-If we endow $\mathbb{Z}/p \times \mathbb{Z}/q$ with the dictionary or [[lexicographic order]], then there is also a unique isomorphism of linear orders 
+If we endow $\mathbb{Z}/m \times \mathbb{Z}/n$ with the dictionary or [[lexicographic order]], then there is also a unique isomorphism of linear or [[total orders]] 
 
-$$(\mathbb{Z}/p \times \mathbb{Z}/q)_{Dict} \to \mathbb{Z}/p q$$ 
+$$(\mathbb{Z}/m \times \mathbb{Z}/n)_{Dict} \to \mathbb{Z}/m n$$ 
 
-which takes an element $(x, y) \in \mathbb{Z}/p \times \mathbb{Z}/q$ to $q x + y \in \{0, 1, \ldots, p q - 1\}$. (Intuitively, imagine assembling a rectangular array of cards, with $p$ columns and $q$ cards in each column, into a single stack of $m n$ cards, by gathering up the first column, followed by gathering up the second column and placing it underneath, etc.) 
+which takes an element $(x, y) \in \mathbb{Z}/m \times \mathbb{Z}/n$ to $n x + y \in \{0, 1, \ldots, m n - 1\}$. (Intuitively, imagine assembling a rectangular array of cards, with $m$ columns and $n$ cards in each column, into a single stack of $m n$ cards, by gathering up the first column, followed by gathering up the second column and placing it underneath, etc.) 
 
 The composite $\alpha$ of the functions 
 
-$$(\mathbb{Z}/p \times \mathbb{Z}/q)_{Dict} \stackrel{ord \cong}{\to} \mathbb{Z}/p q \stackrel{ring \cong}{\to} \mathbb{Z}/p \times \mathbb{Z}/q$$ 
+$$(\mathbb{Z}/m \times \mathbb{Z}/n)_{Dict} \stackrel{ord \cong}{\to} \mathbb{Z}/m n \stackrel{ring \cong}{\to} \mathbb{Z}/m \times \mathbb{Z}/n$$ 
 
-is thus $(x, y) \mapsto q x + y \mapsto (q x + y, y)$. The composite is thus a juxtaposition of $q$ row permutations, one for each fixed $y$, where $x$ in row $y$ is taken to $q x + y$ in row $y$. The sign of such a permutation $x \mapsto q x + y$ is 
+is thus $(x, y) \mapsto n x + y \mapsto (n x + y, y)$. The composite is thus a juxtaposition of $n$ row permutations, one for each fixed $y$, where $x$ in row $y$ is taken to $n x + y$ in row $y$. The sign of such a permutation $x \mapsto n x + y$ is 
 
-$$sign((-) + y) \cdot sign(q(-)) = sign(q(-)) = \left(\frac{q}{p}\right)$$ 
+$$sign((-) + y) \cdot sign(n(-)) = sign(n(-)) = \left(\frac{n}{m}\right)$$ 
 
 (since the permutation $(-) + y$ is a cyclic permutation on an odd number of elements, hence is even). Thus 
 
-$$sign(\alpha) = \left(\frac{q}{p}\right)^q = \left(\frac{q}{p}\right)$$ 
+$$sign(\alpha) = \left(\frac{n}{m}\right)^n = \left(\frac{n}{m}\right)$$ 
 
-where the second equation follows since $q$ is odd. 
+where the second equation follows since $n$ is odd. 
 
-Similarly, consider $\mathbb{Z}/p \times \mathbb{Z}/q$ with the _reverse_ dictionary order, where $(x, y) \lt (x', y')$ if $y \lt y'$ or $y = y'$ and $x \lt x'$. We again have a unique linear isomorphism and unique ring isomorphism, and we can analyze their composition $\beta$,  
+Similarly, consider $\mathbb{Z}/m \times \mathbb{Z}/n$ with the _reverse_ dictionary order, where $(x, y) \lt (x', y')$ if $y \lt y'$ or $y = y'$ and $x \lt x'$. We again have a unique order isomorphism and unique ring isomorphism, and we can analyze their composition $\beta$,  
 
-$$(\mathbb{Z}/p \times \mathbb{Z}/q)_{RevDict} \stackrel{ord \cong}{\to} \mathbb{Z}/p q \stackrel{ring \cong}{\to} \mathbb{Z}/p \times \mathbb{Z}/q,$$ 
+$$(\mathbb{Z}/m \times \mathbb{Z}/n)_{RevDict} \stackrel{ord \cong}{\to} \mathbb{Z}/m n \stackrel{ring \cong}{\to} \mathbb{Z}/m \times \mathbb{Z}/n,$$ 
 
-as taking $(x, y) \mapsto (x, x + p y)$. We similarly calculate 
+as taking $(x, y) \mapsto (x, x + m y)$. We similarly calculate 
 
-$$sign(\beta) = \left(\frac{p}{q}\right).$$ 
+$$sign(\beta) = \left(\frac{m}{n}\right).$$ 
 
 Finally, $\beta^{-1} \circ \alpha$ is the unique order-preserving isomorphism 
 
-$$(\mathbb{Z}/p \times \mathbb{Z}/q)_{Dict} \to (\mathbb{Z}/p \times \mathbb{Z}/q)_{RevDict}$$ 
+$$(\mathbb{Z}/m \times \mathbb{Z}/n)_{Dict} \to (\mathbb{Z}/m \times \mathbb{Z}/n)_{RevDict}$$ 
 
-and it remains to show that the sign of the underlying permutation of this isomorphism is $(-1)^{\frac{p-1}{2}\frac{q-1}{2}}$. 
+which gives a permutation on the underlying set $\mathbb{Z}/m \times \mathbb{Z}/n$, and it remains to show that its sign is $(-1)^{\frac{m-1}{2}\frac{n-1}{2}}$. 
 
-But this is easy to see. Recall that given a permutation $\sigma$ on a linearly ordered set (such as $(\mathbb{Z}/p \times \mathbb{Z}/q)_{Dict}$), an _inversion_ is a pair $(x \lt y)$ such that $\sigma(x) \gt \sigma(y)$, and if $I(\sigma)$ is the total number of inversions, then 
+But this is easy to see. Recall that given a permutation $\sigma$ on a linearly ordered set (such as $(\mathbb{Z}/m \times \mathbb{Z}/n)_{Dict}$), an _inversion_ is a pair $(x \lt y)$ such that $\sigma(x) \gt \sigma(y)$, and if $I(\sigma)$ is the total number of inversions, then 
 
 $$\sign(\sigma) = (-1)^{I(\sigma)}.$$ 
 
 In the present case $\sigma = \beta^{-1} \alpha$, we are thus considering pairs of pairs $(i, j)$, $(i', j')$ where $(i, j) \lt (i', j')$ in dictionary order but $(i, j) \gt (i', j')$ in reverse dictionary order; in other words when $i \lt i'$ but $j' \lt j$. The number of such occurrences is 
 
-$$I(\sigma) = \frac{p(p-1)}{2} \frac{q(q-1)}{2}$$ 
+$$I(\sigma) = \frac{m(m-1)}{2} \frac{n(n-1)}{2}$$ 
 
 whence 
 
