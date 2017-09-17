@@ -12,7 +12,7 @@ The nonunital variant of _[[Ek-algebra]]_, hence the generalization of the conce
 ### Relation to augmented $\mathbb{E}_k$-algebra
  {#RelationToAugmentedEkAlgebras}
 
-Nonunital $\mathbb{E}_k$-algebras areequivalent to unital $\mathbb{E}_k$-algebras slide over the free $\mathbb{E}_k$-algebra on a single generator.
+Nonunital $\mathbb{E}_k$-algebras are equivalent to unital $\mathbb{E}_k$-algebras sliced over the free $\mathbb{E}_k$-algebra on a single generator.
 
 In particular nonunital [[E-∞ algebras]] are equivalent to unital $E_\infty$-algebras sliced over the [[sphere spectrum]]:
 
