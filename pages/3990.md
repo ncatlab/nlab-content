@@ -1,3 +1,7 @@
+# Split coequalisers
+* table of contents
+{: toc}
+
 ## Definition
 
 A **fork** in a [[category]] $C$ is a diagram of the form
@@ -12,6 +16,7 @@ On the other hand, suppose we are given only $f,g\colon A\to B$ and $t\colon B\t
 
 Dually, if $e\colon B\to C$ is a [[split epimorphism]], with a splitting $s\colon C\to B$, say, then the [[kernel pair]] of $e$, if it exists, is a split coequalizer diagram.  For if $A \;\underoverset{f}{g}{\rightrightarrows}\; B$ is this kernel pair, then the two maps $s e, 1_B \colon B\to B$ satisfy $e \circ s e = e \circ 1_B$, and hence induce a map $t\colon B\to A$ such that $f t = 1_B$ and $g t = s e$.
 
+
 ## Examples
 
 The "ur-example" of a split coequalizer is the following.  Let $A$ be an [[algebra for a monad|algebra]] for the [[monad]] $T$ on the category $C$, with structure map $a\colon T A \to A$.  Then the diagram
@@ -22,6 +27,8 @@ is a split coequalizer in the [[Eilenberg-Moore category|category of]] $T$-algeb
 
 This split coequalizer figures prominently in Beck's [[monadicity theorem]].
 
+
+[[!redirects split coequalizer]]
 [[!redirects split coequalizers]]
 [[!redirects split coequaliser]]
 [[!redirects split coequalisers]]
