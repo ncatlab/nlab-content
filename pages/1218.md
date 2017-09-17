@@ -90,10 +90,124 @@ The category $DiffSp := ConSh(Cart)$ of diffeological spaces is a [[quasitopos]]
 * [[cartesian closed category]] [[closed monoidal category]].
 
 
+### Connectedness {#Connectedness}
+
+We discuss that the full [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]
+
+$$
+  Sh(CartSp)
+  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{L Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  Set
+$$
+
+and show that the extra [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ sends diffeological spaces to the set of path-[[connected]] components of their underlying [[topological space]]s.
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The following argument works for every [[site]] $C$ which is such that constant presheaves on $C$ are already sheaves.
+
+Notice that this is the case for $C = CartSp$ because every Cartesian space is connected: for $S \in Set$ a compatible family of elements of $Const S$ on a cover $\{U_i \to \mathbb{R}^n\}$ of some $\mathbb{R}^n$ is an element of $S$ on each patch, such that their restriction maps to intersections of patches coincide. But the restriction maps are all identities, so this says that all these elements coincide. Therefore the set of compatible families is just the set $S$ itself, hence the presheaf $Const S$ is a sheaf.
+
+So with $L : PSh(C) \to Sh(C)$ the [[sheafification]] functor we have that $L Const S \simeq Const S$.
+
+Whenever this is the case the [[left adjoint]] to the constant presheaf functor, which always exists for presheaves and is given by the [[colimit]] functor, is also left adjoint on the level of sheaves, because for each $X \in Sh(C)$ and $S \in Set$ we have natural bijections
+
+$$
+  \begin{aligned}
+    Hom_{Sh(C)}(X, L Const S)
+    & =
+    Hom_{PSh(C)}(X, L Const S)
+    \\
+    & \simeq
+    Hom_{PSh(C)}(X, Const S)
+    \\
+    & \simeq
+    Hom_{Set}(\lim_\to X, S)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+Write $\Pi_0 := \lim_\to : Sh(CartSp) \to Set$
+for the [[left adjoint]] to $LConst : Set \stackrel{Const}{\to} PSh(C) \stackrel{L}{\to} Sh(C)$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $X \in Sh(C)$ a diffeological space, $\Pi_0(X)$ is the set of path-connected components of the topological space underlying $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[co-Yoneda lemma]] we may write 
+
+$$
+  X = {\lim_\to}_{(U \to X) \in y/X} U
+$$
+
+and since $\Pi_0$ commutes with colimits we have
+
+$$
+  \Pi_0(X) \simeq 
+  \Pi_0 {\lim_\to}_{(U \to X)} U
+  \simeq
+  {\lim_\to}_{(U \to X)} \Pi_0(U)
+  \,.
+$$
+
+But also by the co-Yoneda lemma we have that the [[colimit]] over any [[representable functor|representable]] is the singleton set, hence our expression
+
+$$
+  \cdots \simeq 
+  {\lim_\to}_{(U \to X)} *
+$$
+
+is the ccolimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
+
+The connected components of the category of plots $y/X$ are the path-connected (or "plot-connected") components of the underlying topological space of $X$.
+
+
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is even a [[connected topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $CartSp$ is a [[connected category]] it is immediate that $Const : Set \to PSh(CartSp)$ is a [[full and faithful functor]]. By the above this equals $L Const$, which is hence also full and faithful.
+
+By the discussion at [[connected topos]] we could equivalently convince ourselves that $\Pi_0$ preserves the terminal object. The terminal object of $Sh(CartSp)$ is $y(\mathbb{R}^0)$, hence representable. By the above, $\Pi_0$ sends all representable objects to the singleton set, which is the terminal object of $Set$. 
+
+=--
 
 ## References 
 
-The original articles by Chen can and other related references can be found referenced in 
+The original articles by Chen and other related references can be found referenced in 
 
 * [[Andrew Stacey]], _Comparative Smootheology_ ([arXiv:0802.2225](http://arxiv.org/abs/0802.2225))
 
