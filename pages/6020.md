@@ -1,3 +1,4 @@
+[[!redirects background gauge field]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -19,7 +20,17 @@
 
 ## Idea
 
-A [[sigma-model]] [[quantum field theory]] describes the propagation of a [[brane]] on some [[target space]] $X$. Typically the dynamics is controled by a [[gauge field]] on $X$ under which the brane is [[charge]]d. This is the **background gauge field** of the $\sigma$-model. The term "background" alludes to the fact that this background gauge field is fixed and only serves to influence the dynamics of the brane coupled to it. More generally, one could also study the quantum dynamics of the possible background fields themselves. This would be given by the corresponding [[gauge theory]] on $X$.
+### General
+
+In [[physics]], the [[field (physics)|fields]] in ([[prequantum field theory|pre]]-)[[quantum field theory]] whose [[dynamics]] is described by the [[theory (physics)|theory]] may in general depend on certain fixed [[stuff, structure, property|structure]] which also has an interpretation of a [[field (physics)|fields]], but one that is fixed and not regarded as having dynamics in the given [[model (in theoretical physics)]]. These are often called **background fields**.
+
+### For sigma-models
+
+In particuar a [[sigma-model]] [[quantum field theory]] describes the propagation of a [[brane]] on some [[target space]] $X$. Typically the dynamics is controled by a [[gauge field]] on $X$ under which the brane is [[charge]]d. This is the **background gauge field** of the $\sigma$-model. The term "background" alludes to the fact that this background gauge field is fixed and only serves to influence the dynamics of the brane coupled to it. More generally, one could also study the quantum dynamics of the possible background fields themselves. This would be given by the corresponding [[gauge theory]] on $X$.
+
+## Definition
+
+A formalization of the notion is discussed at _[[field (physics)|field]]_ in _[Definition -- Physical fields](field%20%28physics%29#DefinitionPhysicalField)_.
 
 ## Examples
 
