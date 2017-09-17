@@ -84,7 +84,8 @@ Even more generally one can allow the [[∞-groupoid]]s $X, Y, \cdots$ to be [[(
 ## Definition
  {#Definition}
 
-See ([Lurie, page 57](#Lurie)).
+The [[(∞,2)-category]] of spans in [[∞Grpd]] is discussed in some detail in ([Dyckerhoff-Kapranov 12, section 10](#DyckerhoffKapranov12)).
+For a sketch of the definition for all $n$ see ([Lurie, page 57](#Lurie)).
 
 ## Properties
  {#Properties}
@@ -140,6 +141,12 @@ $$
 ## References
 
 For references on 1- and 2-categories of spans see at _[[span]]_.
+
+An explicit definition of the [[(∞,2)-category]] of spans in [[∞Grpd]] is in section 10 of 
+
+* Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([arxiv:1212.3563](http://arxiv.org/abs/1212.3563))
+ {#DyckerhoffKapranov12}
+
 
 An inductive definition of the [[symmetric monoidal (∞,n)-category]] $Span_n(\infty Grpd)/C$ of spans of [[∞-groupoid]] over a symmetric monoidal $(\infty,n)$-category $C$ is in section 3.2 of 
 
