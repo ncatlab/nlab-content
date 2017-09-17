@@ -67,6 +67,11 @@ in which $\beta$ is the _mod-$p$ Bockstein_ homomorphism.
 
 ## References
 
+An early paper is:
+
+*  [[W. S. Massey]], _[Exact Couples in Algebraic Topology (Parts I and II)](http://www.maths.ed.ac.uk/~aar/papers/massey6.pdf), Annals of Mathematics, Second Series, Vol. 56, No. 2 (Sep., 1952), pp. 363-396 
+ 
+
 Section 5.9 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
