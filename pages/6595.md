@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -43,6 +42,8 @@ However, this is not as general as it may appear:
 * in $3$ dimensions, a smooth choice of cross product is equivalent to a smooth choice of [[orientation]], and we recover the previous formula;
 * in $7$ dimensions, if a smooth choice of cross product is possible (as on the $7$-[[sphere]]), then uncountably many are possible, giving as many different notions of curl;
 * in any other number of dimensions, no binary cross product exists at all, hence no curl.
+
+There are also cross products of other [[arities|arity]] in other dimensions; using essentially the same formula, we can take the curl of a $k$-[[multivector|vector field]] if we have a smooth $(k+1)$-ary cross product.
 
 
 ## Examples
