@@ -1,9 +1,9 @@
-Robert W. Thomason (5 Nov 1952-Nov 1995) was an American mathematician. Towards the end of his short life, he worked in [[Max Karoubi]]'s lab. at Paris VII.  His main contributions were in homotopy theory, algebraic geometry and algebraic K-theory, where he carefully used advanced categorical methods. His biography is to be found at
+Robert (Bob) W. Thomason (5 Nov 1952-Nov 1995) was an American mathematician. Towards the end of his short life, he worked in [[Max Karoubi]]'s lab. at Paris VII.  His main contributions were in homotopy theory, algebraic geometry and algebraic K-theory, where he carefully used advanced categorical methods. His biography is to be found at
 
 * [here](http://www-groups.dcs.st-and.ac.uk/history/Biographies/Thomason.html)
 
 
- A CatLab entry is [here](http://ncatlab.org/joyalscatlab/show/Thomason%2C+Robert)
+ A CatLab entry is [here](http://ncatlab.org/joyalscatlab/published/Thomason%2C+Robert)
 category:people
 [[!redirects Thomason]]
 [[!redirects Bob Thomason]]
