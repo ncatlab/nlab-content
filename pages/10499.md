@@ -94,7 +94,7 @@ Under the [[function field analogy]] we may think of
 
 * $\mathbb{A}_{\mathbb{Q}}$ is the ring of functions on punctured formal disks around all points, at most finitely many of which do not extend to the unpunctured disk.
 
-Under this [[analogy]] the arithmetic fracture square of prop. \ref{ArithmeticFractureSquare} says that the curve $Spec(\mathbb{Z})$ has a f[[cover]] whose patches are the complement of the curve by some points, and the formal disks around these points. 
+Under this [[analogy]] the arithmetic fracture square of prop. \ref{ArithmeticFractureSquare} says that the curve $Spec(\mathbb{Z})$ has a [[cover]] whose patches are the complement of the curve by some points, and the formal disks around these points. 
 
 This kind of cover plays a central role in [[number theory]], see for instance the following discussions:
 
@@ -273,7 +273,7 @@ Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like t
 
 
 By prop. \ref{ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
-the artihmetic fracture square of prop. \ref{SullivanArithmeticFracture} is equivalently of the form
+the arithmetic fracture square of prop. \ref{SullivanArithmeticFracture} is equivalently of the form
 
 $$
   \array{
@@ -355,7 +355,7 @@ where $\flat$ is the [[flat modality]] and $\Pi_{dR}$ the [[homotopy fiber]] of 
 
 Here $\Pi_{dR} X$ is such that for any other stable cohesive homotopy type $\hat E$ then functions $\Pi_{dR} X \to \hat E$ are equivalent to functions $X \to \flat_{dR} \hat E$, where $\hat E \to \flat_{dR} \hat E$ is a generalized form of rationalization in the sense discussed at _[[differential cohomology hexagon]]_. In particular if $\hat E$ is a [Hopkins-Singer-type](differential%20cohomology%20diagram#HopkinsSingerCoefficients) [[differential cohomology]] refinement of a plain [[spectrum]] $E$, then $E\to \flat_{dR} E$ is its ordinary [[rationalization]] given by the [[Chern character]] and $\hat E \to \flat_{dR} \hat E$ is the corresponding map on Chern [[curvature forms]].
 
-Moreover, if the ambient [[cohesion]] is [[differential cohesion]] over a base of [[infinitesimal cohesion]], then the [[flat modality]] $\flat$ takes any space $X$ to the union of all its [[formal disks]]. (See at _[[differential cohesion and idelic structure]]_.) Accordingly the collection of functions $\flat X \to \hat E$ in this case behave like the product of all [[formal power series]] of $\hat E$-vallued functions around all global points of $X$, analogous to remark \ref{GeometricMeaning}.
+Moreover, if the ambient [[cohesion]] is [[differential cohesion]] over a base of [[infinitesimal cohesion]], then the [[flat modality]] $\flat$ takes any space $X$ to the union of all its [[formal disks]]. (See at _[[differential cohesion and idelic structure]]_.) Accordingly the collection of functions $\flat X \to \hat E$ in this case behave like the product of all [[formal power series]] of $\hat E$-valued functions around all global points of $X$, analogous to remark \ref{GeometricMeaning}.
 
 An example of this are [[synthetic differential ∞-groupoids]] regarded as cohesive over their [[formal moduli problems]], as its its complex analytic incarnation by synthetic differential [[complex analytic ∞-groupoids]]. In this context if $X = \Sigma$ is a [[complex curve]] then $\flat \Sigma$ is precisely the analog of the [[integral adeles]] as it is predicted by the [[function field analogy]].
 
