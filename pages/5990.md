@@ -23,7 +23,7 @@ In May 2011 [[Graeme Segal]] gave a series of lectures on the topic of [[quantum
   * part I ([mp4](http://www.mpim-bonn.mpg.de/sites/default/files/videos/download/segal_qft_2011_part1.mp4))
 
 
-    Basics of [[classical mechanics]] from an [[AQFT]]-point of view: [[symplectic manifold]], [[Hamiltonian]], [[deformation quantization]], [[C-star algebra]], [[state]], [[Lagrangian]], [[action functional]], [[covariant phase space]]
+    Basics of [[classical mechanics]] from an [[AQFT]]-point of view: [[symplectic manifold]], [[Hamiltonian]], [[deformation quantization]], [[C-star algebra]], [[state]], [[Lagrangian]], [[action functional]], [[covariant phase space]], [[correlator]], locality of the would-be [[path integral]] measure 
 
   * part II ([mp4](http://www.mpim-bonn.mpg.de/sites/default/files/videos/download/segal_qft_2011_part2.mp4))
 
