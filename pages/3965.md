@@ -580,6 +580,9 @@ This gives the "[[Dirac equation]]" one usually finds in a textbook.
 
 * [[minimal coupling]]
 
+[[!include standard model of fundamental physics - table]]
+
+
 ## References
 
 Useful literature on this topic is:
