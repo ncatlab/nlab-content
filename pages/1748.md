@@ -29,7 +29,7 @@ If $C$ is [[enriched category|enriched]] over [[Top]], then a **homotopy** in $C
 
 If $C$ has [[copower|copowers]], then an equivalent definition is a map $[0,1]\odot X\to Y$, while if it has [[power|powers]], an equivalent definition is a map $X\to \pitchfork([0,1],Y)$.
 
-There is a similar definition in a [[simplicially enriched category]], replacing $[0,1]$ with the 1-simplex $\Delta^1$, with the caveat that in this case not all _simplicial homotopies_ can be composed.  Likewise in a [[dg-category]] we can use the "chain complex interval" to get a notion of _chain homotopy_.
+There is a similar definition in a [[simplicially enriched category]], replacing $[0,1]$ with the 1-simplex $\Delta^1$, with the caveat that in this case not all _simplicial homotopies_ need be composable even if they match correctly. (This depends on whether or not all (2,1)-[[horn]]s  in the simplicial set, $C(X,Y)$, have fillers.)   Likewise in a [[dg-category]] we can use the "chain complex interval" to get a notion of _chain homotopy_.
 
 
 ## Definition in model categories 
