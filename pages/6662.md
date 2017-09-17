@@ -128,12 +128,18 @@ X^p
 Let $X$ be a $k$-formal scheme (resp. a [[locally algebraic scheme]]) then $X$ is [[etale scheme|étale]] iff the [[Frobenius morphism]] $F_X:X\to X^{(p)}$is a monomorphism (resp. an isomorphism).
 =--
 
+The Frobenius as a morphism (natural transformation) of (affine) group schemes is one operation among other (related) operations of interest:
+
 +-- {: .num_remark}
 ###### Remark
 For any commutative affine [[group scheme]] $G$ the Frobenius- and the [[Verschiebung morphism]] correspond by ''completed [[Cartier duality|Cartier duality]]''; i.e. we have
 
 $$\hat D(V_G)=F_{\hat D(G)}$$
 =--
+
+For a more detailed account of the relationship of Frobenius-, [[Verschiebung morphism|Verschiebung-]] and [[homothety morphism]] see [Hazewinkel](#Hazewinkel)
+
+## Frobenius morphism of $\lambda$-rings
 
 ### Examples
 
@@ -150,6 +156,7 @@ If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\pr
 
 * Michel Demazure, [[lectures on p-divisible groups]] [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
+* Michiel Hazewinkel, witt vectors. part 1, [arXiv:0804.3888v1](http://arxiv.org/abs/0804.3888v1){#Hazewinkel}
 
 * Karen Smith, *Brief Guide to Some of the Literature on F-singularities*, <a href="www.aimath.org/WWN/singularvariety/F-sings.pdf">American Institute of Mathematics</a>
 
