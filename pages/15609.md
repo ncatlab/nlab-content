@@ -56,7 +56,7 @@ An $A$-[[∞-module]] $N$ is an _$\mathfrak{a}$-torsion module_ if for all eleme
 
 =--
 
-([Lurie "Completions", def. 4.1,3](#LurieCompletions)).
+([Lurie "Completions", def. 4.1.n3](#LurieCompletions)).
 
 +-- {: .num_defn #LocalInfinityModule}
 ###### Definition
@@ -74,7 +74,7 @@ is contractible.
 ([Lurie "Completions", def. 4.1.9](#LurieCompletions)).
 
 
-+-- {: .num_defn}
++-- {: .num_defn #InfinityCompletion}
 ###### Definition/Proposition
 
 An [[∞-module]] $N$ over $A$ is _$\mathfrak{a}$-complete_ if for all $\mathfrak{a}$-local $\infty$-modules $L$ (def. \ref{LocalInfinityModule}) then $Hom_A(L,N) \simeq \ast$.
@@ -107,11 +107,69 @@ is called _$\mathfrak{a}$-completion_.
 
 ## Properties
 
+### Monoidalness
+ {#Monoidalness}
+
+We discuss how both $\mathfrak{a}$-completion $\flat_{\mathfrak{a}}$ and $\mathfrak{a}$-[[torsion approximation]] $\Pi_{\mathfrak{a}}$ on $A Mod$ are [[monoidal (∞,1)-functors]] with respect to the [[smash product of spectra]] over $A$.
+
+Let $A$  be an [[E-∞ ring]] and $\mathfrak{a} \subset \pi_0 A$ a [[generators and relations|finitely generated]] ideal of its underlying [[commutative ring]]. 
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[full sub-(∞,1)-category]] of $\mathfrak{a}$-torsion modules, def. \ref{TorsionInfinityModule}, is [[reflective sub-(∞,1)-category|co-reflective]]
+
+$$
+  A Mod_{\mathfrak{a}tor}
+  \stackrel{\hookrightarrow}{\underset{\Pi_{\mathfrak{a}}}{\longleftarrow}}
+  A Mod
+ \,.
+$$
+
+Moreover, the coreflector $\Pi_{\mathfrak{a}}$ is "[[smashing localization|smashing]]", in that there is $V \in A Mod$ such that $\Pi_{\mathfrak{a}}(-) \simeq \wedge (-)$ is given by the [[smash product]] with $V$. If $\mathfrak{a} = (x_i)_i \Omega (A[x_i^{-1}]/A)$ then $V$ is the tensor product $V =\underset{i}{\otimes} V_i$ over all the [[homotopy fibers]]
+
+$$
+  \Omega (A[x_i^{-1}]/A) \longrightarrow A \longrightarrow A[x_i^{-1}]
+  \,.
+$$
+
+=--
+
+([Lurie "Completions", prop. 4.1.12](#LurieCompletions)).
+
+From the general properties of [[smashing localization]] it follows that
+
++-- {: .num_cor}
+###### Corollary
+
+The coreflection $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$
+
+1. preserves small [[(∞,1)-colimits]];
+
+1. is a [[monoidal (∞,1)-functor]].
+
+=--
+
+See also ([Lurie "Completions", cor. 4.1.16](#LurieCompletions)).
+
+Also
+
++-- {: .num_prop}
+###### Proposition
+
+The completion reflection $\flat_{\mathfrak{a}}$, def. \ref{InfinityCompletion}, is a [[monoidal (∞,1)-functor]].
+
+=--
+
+([Lurie "Completions", remark 4.2.6](#LurieCompletions)).
+
+
 ### Relation of formal completion to torsion approximation
  {#RelationToTorsionApproximation}
 
-For suitable ideals $\mathfrak{a}\subset A$ of a commutative ring $A$, then the [[derived functor]] of $\mathfrak{a}$-adic [[completion of a module|completion of A-modules]] forms together with $\mathfrak{a}$-[[torsion approximation]] an [[adjoint modality]] on the  
-[[(∞,1)-category of modules]] over $A$. See at _[arithmetic fracturing for chain complexes](fracture+theorem#CompletionAndTorsionOnDerivedCategories)_ for details.
+For suitable ideals $\mathfrak{a}\subset A$ of a commutative ring $A$ or more generally of an [[E-∞ ring]], then the [[derived functor]] of $\mathfrak{a}$-adic [[completion of a module|completion of A-modules]] forms together with $\mathfrak{a}$-[[torsion approximation]] an [[adjoint modality]] on the  
+[[(∞,1)-category of modules]] over $A$. See at _[[fracture square]]_ for details.
 
 
 ## References
