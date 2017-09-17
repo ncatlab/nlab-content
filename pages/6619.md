@@ -102,11 +102,13 @@ Symplectic groupoids were introduced as intended tools for the quantization of P
 Their [[prequantization]] are developed in
 
 * [[Camille Laurent-Gengoux]], [[Ping Xu]], _Quantization of pre-quasi-symplectic groupoids and their Hamiltonian spaces_ in _The Breadth of Symplectic and Poisson Geometry_ Progress in Mathematics, 2005, Volume 232, 423-454 ([arXiv:math/0311154](http://arxiv.org/abs/math/0311154)) 
+ {#LGX}
 
 * [[Marius Crainic]], _Prequantization and Lie brackets_ ([arXiv:0403269](http://arxiv.org/abs/math/0403269))
 
 * [[Marius Crainic]], [[Chenchang Zhu]], _Integrability of Jacobi structures_ ([arXiv:math/0403268](http://arxiv.org/abs/math/0403268))
 
+The interpretation of symplectic groupoids in [[higher geometry]] is made fairly explicit in ([LGX](#LGX)) above.
 
 A notion of [[polarization]] and of actual [[geometric quantization]] of symplectic groupoids, yielding a [[strict deformation quantization]] of the underlying Poisson manifold, is discussed in
 
