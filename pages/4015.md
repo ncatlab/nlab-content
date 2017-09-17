@@ -72,7 +72,7 @@ I need to figure out how it relates to the various versions of [[Konig's lemma|K
 *  As a locale, the unit interval has enough points.
 *  As a locale, the [[real line]] (the [[locale of real numbers]]) has enough points.
 
-Some of the results above may on [[countable choice]], but probably no more than $AC_{0,0}$ (which is choice for relations between $\mathbb{N}$ and itself).
+Some of the results above may use [[countable choice]], but probably no more than $AC_{0,0}$ (which is choice for relations between $\mathbb{N}$ and itself).
 
 
 ### Uselessness in analysis
