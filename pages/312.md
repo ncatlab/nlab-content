@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -62,7 +61,7 @@ Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on [[monomo
 
 * For $C$ an [[accessible category]], $c \in C$ any object, the poset $Sub(c)$ of subobjects of $c$ is a [[small category]].
 
-* Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $X \to Pos$ (that is a functor $X^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
+* Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $E \to Pos$ (that is a functor $E^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is an element of $Sub(Y)$, i.e. monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
 
 
 ### Limits and colimits of subobjects
