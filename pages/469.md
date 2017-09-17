@@ -72,6 +72,23 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
  * The category of [[species]], with the monoidal structure given by substitution product of species, is closed monoidal (each functor $- \circ G$ admits a right adjoint) but not biclosed monoidal. 
 
+### Functor categories
+
++-- {: .un_theorem}
+###### Theorem
+Let $C$ be a [[complete category|complete]] closed monoidal category and $I$ any [[small category]].  Then the [[functor category]] $[I,C]$ is closed monoidal with the pointwise tensor product, $(F\otimes G)(x) = F(x) \otimes G(x)$.
+=--
++-- {: .proof}
+###### Proof
+Since $C$ is complete, the category $[I,C]$ is [[comonadic functor|comonadic]] over $C^{ob I}$; the comonad is defined by right [[Kan extension]] along the inclusion $ob I \hookrightarrow I$.  Now for any $F\in [I,C]$, consider the following square:
+$$\array{[I,C] & \overset{F\otimes - }{\to} & [I,C] \\
+  \downarrow && \downarrow\\
+  C^{ob I}& \underset{F_0 \otimes -}{\to} & C^{ob I}}
+$$
+This commutes because the tensor product in $[I,C]$ is pointwise (here $F_0$ means the family of objects $F(x)$ in $C^{ob I}$).
+Since $C$ is closed, $F_0 \otimes -$ has a right adjoint.
+Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting theorem]] implies that $F\otimes -$ has a right adjoint as well.
+=--
 
 ## Related concepts
 
