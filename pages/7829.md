@@ -27,23 +27,45 @@
 +-- {: .num_defn #SeriesDefinition}
 ###### Definition
 
-Given a [[self-adjoint operator]] (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a closed [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is given by the [[series]]
+Given a [[self-adjoint operator]] $D$ (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a closed [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is given by the [[series]]
 
 $$
-  \eta(s) \coloneqq \underoverset{n = -\infty}{^\infty }{\sum} sgn(\lambda_n) \frac{1}{(\lambda_n)^s}
+  \begin{aligned}
+    \eta(s) 
+     & \coloneqq
+    \underoverset{n = -\infty}{^\infty }{\sum} sgn(\lambda_n) \frac{1}{(\lambda_n)^s}
+  \end{aligned}
 $$
 
-expression where this [[convergence|converges]], and extended by [[analytic continuation]] from there.
+expression wherever this [[convergence|converges]], and extended by [[analytic continuation]] from there.
 
 =--
 
-If the operator is an [[elliptic differential operator]] then this is a [[holomorphic function]] in $s$ for large $\Re(s)$. One defines $\eta$ on the rest of the [[complex plane]] by [[analytic continuation]].
++-- {: .num_remark}
+###### Remark
 
-The _eta invariant_ of the operator finally is the [[special values of L-functions|special value]] $\eta(0)$.
+The eta function of $D$ is related to the [[zeta function of an elliptic differential operator]] $H = D^2$ (regarding $D$ as a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-like square root of $H$) see [below](RelationToTheZetaFunction).
+
+=--
+
+
++-- {: .num_defn #EtaInvariant}
+###### Definition
+
+The _eta invariant_ of $D$ is the [[special values of L-functions|special value]] $\eta(0)$.
+
+=--
 
 (e.g. [Richardson, first page](#Richardson))
 
-The eta function may be understood as related to the [[zeta function of an elliptic differential operator]] $H$ by passing to a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-like square root $D$ of $H$, see [below](RelationToTheZetaFunction).
++-- {: .num_remark }
+###### Remark
+
+Def. \ref{EtaInvariant} means that $\eta_0$ is the
+[[zeta function regularization|regularized]] number of poistive minus negative eigenvalues of $D$.
+
+=--
+
 
 (Notice that if $D$ itself happens to have only positive [[eigenvalues]], then its eta function already is on the notre the [[zeta function of an elliptic differential operator]].)
 
