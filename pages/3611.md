@@ -249,7 +249,7 @@ First we describe _free_ operads, and then _[[Boardman-Vogt resolution]]s_ of op
 +-- {: .num_remark}
 ###### Remark
 
-The category of $C$-coloured operads is itself the category of algebras over a non-symmetric operad. See [[coloured operad]] for more. Thus the above theorem procides conditions under which $C$-coloured operads carry a model structure in which fibrations and weak equivalences are those morphisms of operads $P \to Q$ that are  degreewise fibrations and weak equivalences in $\mathcal{E}$.
+The category of $C$-coloured operads is itself the category of [[algebra over an operad|algebras over]] a [[non-symmetric operad]]. See [[coloured operad]] for more. Thus the above theorem provides conditions under which $C$-coloured operads carry a model structure in which fibrations and weak equivalences are those morphisms of operads $P \to Q$ that are  degreewise fibrations and weak equivalences in $\mathcal{E}$.
 
 =--
 
