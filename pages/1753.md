@@ -86,3 +86,5 @@ Details on the _projective_ global model structure is in
 * [[Daniel Dugger]], _[[Universal Homotopy Theories]]_
 
 [[!redirects global model structure on simplicial sheaves]]
+[[!redirects global model structures on simplicial presheaves]]
+[[!redirects global model structures on simplicial sheaves]]
