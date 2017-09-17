@@ -11,3 +11,5 @@ $$
 $$
 
 is again representable.
+
+See also [[representable morphism]].
