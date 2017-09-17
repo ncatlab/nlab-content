@@ -48,7 +48,7 @@ $$
      \\
      & \swarrow && \nwarrow
      \\
-     \mathbb{Q}\otimes_{\mathbb{Z}}\underset{p\;prime}{\prod} \mathbb{Z}_p && && \mathbb{Z}
+     \mathbb{Q}\otimes_{\mathbb{Z}}\left(\underset{p\;prime}{\prod} \mathbb{Z}_p \right) && && \mathbb{Z}
      \\
      & \nwarrow && \swarrow
      \\
