@@ -17,7 +17,7 @@
 
 In [[physics]] the term [[phase]] appears prominently in two superficially different uses: 
 
-Inside the term "[[phase space]]", introduced by [[Boltzmann]] in 1872 in the context of [[classical mechanics]], it refers to the instantaneous position [[coordinates]] and [[momenta]] of a [[particle]]; its _Bewegungsphase_, it _phase of motion_. ([Nolte, p. 4](#Nolte)).
+Inside the term "[[phase space]]", introduced by [[Boltzmann]] in 1872 in the context of [[classical mechanics]], it refers to the instantaneous position [[coordinates]] and [[momenta]] of a [[particle]]; its _Bewegungsphase_, it _phase of motion_. ([Nolte, p. 4](#Nolte10)).
 
 But the term "[[phase]]" re-appeared, independently, with the advent of [[quantum physics]]: it refers to the [[complex phase]] of the [[complex numbers]] that [[wave functions]] take values in.
 
@@ -57,6 +57,7 @@ So the de Rham differential $\mathbf{d}S$ of the complex phase function $S$ of a
 The origin of the term "phase" in "phase space" is discussed in
 
 * David Nolte, _The tangled tale of phase space_, Physics Today (April 2010) ([pdf](http://www.physics.purdue.edu/nlo/NoltePT10.pdf))
+ {#Nolte10}
 
 The close relation between complex phases of semiclassical wave functions and phase space points is discussed for instance in the introduction (around p. 9) of 
 
