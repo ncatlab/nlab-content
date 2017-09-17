@@ -359,7 +359,7 @@ $$
   \array{
    \mathbf{H}
     &
-   \stackrel{\overset{\Pi}{\to}}{\stackrel{}{\stackrel{\overset{coDisc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}} 
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}} 
    &
   \infty Grpd
   \\
@@ -574,7 +574,7 @@ $$
     &\stackrel{\hat \mathbf{c}}{\to}&
     \mathbf{B}^3 U(1)_{conn} 
     \\
-    \downarrow && \downarrow &&& \mathbf{H}
+    \downarrow && \downarrow &&&&& \in  \mathbf{H}
     \\
     \mathbf{B}G
     &\stackrel{\mathbf{c}}{\to}&
@@ -582,7 +582,7 @@ $$
     \\
     && &&& \downarrow^{\mathrlap{{\vert \Pi(-)\vert}}}
     \\
-    B G &\stackrel{c}{\to}& B^3 U(1) &&& L_{whe} Top
+    B G &\stackrel{c}{\to}& B^3 U(1) &&&&& \in L_{whe} Top
   }
 $$
 
@@ -706,7 +706,7 @@ This can be understood as a higher analog of the [[second Stiefel-Whitney class]
 
 From the point of view of [[extended prequantum field theory]] we are to regard each horizontal map in this tower as classifying the potential underlying [[instanton sector]] of an [[extended Lagrangian]]/[[prequantum n-bundle]], and we may ask if these lift to actual extended Lagrangian.
 
-The next step up the ladder is the universal [[second fractional Pontryagin class]]. Its [[twisted differential string structure|differential refinement]] as been constructed in ([FSS diff coc](#FiorenzaSchreiberStasheff)).
+The next step up the ladder is the universal [[second fractional Pontryagin class]]. Its [[twisted differential string structure|differential refinement]] has been constructed in ([FSS diff coc](#FiorenzaSchreiberStasheff)).
 
 $$
   \array{
@@ -714,7 +714,7 @@ $$
     &\stackrel{\widehat {\tfrac{1}{6}\mathbf{p}_2}}{\to}&
     \mathbf{B}^7 U(1)_{conn} 
     \\
-    \downarrow && \downarrow &&& \mathbf{H}
+    \downarrow && \downarrow &&&&& \in \mathbf{H}
     \\
     \mathbf{B}G
     &\stackrel{ \tfrac{1}{6}\mathbf{p}_2 }{\to}&
@@ -722,7 +722,7 @@ $$
     \\
     && &&& \downarrow^{\mathrlap{{\vert \Pi(-)\vert}}}
     \\
-    B String &\stackrel{\tfrac{1}{6}p_2}{\to}& B^7 U(1) &&& L_{whe} Top
+    B String &\stackrel{\tfrac{1}{6}p_2}{\to}& B^7 U(1) &&&&& \in L_{whe} Top
   }
   \,.
 $$
@@ -732,15 +732,15 @@ This now defines an [[extended Lagrangian]] for a  [[7d Chern-Simons theory]] on
 Coming back to the above arguments about the relation of the 7d theory to a 6d theory, these suggest that the 6d theory involves  [[prequantum n-bundle|prequantum 6-bundle]]-analog of the [[WZW model|WZW 2-bundle]]. 
 
 Indeed, the assignment of a higher Wess-Zumino-Witten-type [[prequantum n-bundle|prequantum (n-1)-bundle]] to an extended prequantum Lagrangian works very generally: the _prequantum $(n-1)$-bundle_ is the WZW-type $(n-1)$-bundle of the theory.
-Its underlying $(n-1)$-bundle is simply the [[looping]] of the $n$-bundle underlying the [[extended Lagrangian]]. Specifically, the [[string 2-group]]-[[7d Chern-Simons theory]] has a WZW- prequantum 6-bundle on the [[string 2-group]] which is modulated by the map
+Its underlying $(n-1)$-bundle is simply the [[looping]] of the $n$-bundle underlying the [[extended Lagrangian]]. Specifically, the [[string 2-group]]-[[7d Chern-Simons theory]] has a WZW- prequantum 6-bundle on the [[string 2-group]] which is modulated by the [[looping]] $\Omega(\tfrac{1}{6}\mathbf{p}_2)$ of the differential characteristic map $\tfrac{1}{2}\mathbf{p}_2$
 
 $$
   \array{
-    \mathbf{B}String
+    String
     && &\stackrel{\Omega \left( \tfrac{1}{6}\mathbf{p_2}\right)}{\to}& &&
     \mathbf{B}^6 U(1)
     \\
-    {}^{\mathllap{\simeq}}\downarrow
+    \downarrow
     && && && \uparrow
     \\
     String //_{Ad} String
@@ -757,6 +757,8 @@ $$
   }
   \,.
 $$
+
+Here the lower factorization of this map shows canonically that this 6-bundle is [[equivariant]] with respect to the [[adjoint action|adjoint]] [[∞-action]] of the [[string 2-group]] on itself, the analog of the ordinary adjoint equivariance of the ordinary WZW 2-bundle.
 
 Therefore in summary we find the following identifications of [[extended prequantum field theory]] with (semi-)traditional notions:
 
