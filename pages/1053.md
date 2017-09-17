@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
@@ -308,6 +312,12 @@ One sometimes thinks of the exponentials as coming from infinitary applications 
 *  $!{A} \coloneqq 1 \& k A \& (k^2/2) (A \otimes A) \& (k^3/6) (A \otimes A \otimes A) \& \cdots$ (which is $\mathrm{e}^{k A}$ in an appropriate sense), where $n A$ means an $n$-fold additive conjunction $A \& \cdots \& A$ for $n$ a [[natural number]], and we pretend that $k$ is a positive number such that $k^n/{n!}$ is always a natural number (which of course is impossible).
 
 All of these justify the rules for the exponentials, so again we see that there may be many ways to satisfy these rules.
+
+## Related concepts
+
+* [[linear type theory]]
+
+* [[proof net]]
 
 
 ## References
