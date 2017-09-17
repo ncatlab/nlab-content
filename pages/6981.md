@@ -11,7 +11,7 @@
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
  [[proposition]]                |   [[(-1)-truncated object]]               | [[h-proposition]], [[mere proposition]] 
  [[proof]]                      |   [[generalized element]]                 | [[program]]
- [[cut rule]]                   |   [[composition]]/[[pullback]][^1]        |   [[substitution]]
+ [[cut rule]]                   |   [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]]        |   [[substitution]]
  [[cut elimination]] for [[implication]]           |   [[counit]] for hom-tensor adjunction           |   [[beta reduction]]
 introduction rule for [[implication]]              |   [[unit]] for hom-tensor adjunction            |   [[eta conversion]]
  [[conjunction]]                |   [[product]]                   |  [[product type]]
@@ -27,11 +27,11 @@ introduction rule for [[implication]]              |   [[unit]] for hom-tensor a
    [[completely presented set]]  | [[discrete object]]/[[0-truncated object]]    |  [[h-level 2]]-[[type]]/[[preset]]/[[h-set]]
    [[set]]  |  [[groupoid object in an (infinity,1)-category|internal 0-groupoid]]   | [[Bishop set]]/[[setoid]]
  [[universe]] | [[object classifier]] | [[type of types]] 
- [[modality]] | [[closure operator]] [[monad]] | [[modal type theory]], [[monad (in computer science)]]
+ [[modality]] | [[closure operator]], ([[idempotent monad|idemponent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]]
  [[linear logic]] | ([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] | [[linear type theory]]/[[quantum computation]]
  [[proof net]] | [[string diagram]] | [[quantum circuit]]
  (absence of) [[contraction rule]] | (absence of) [[diagonal]] | [[no-cloning theorem]]
     |  [[synthetic mathematics]]  |  [[domain specific embedded programming language]]  |
 
-[^1]: "[Substitution is pullback](http://math.andrej.com/2012/09/28/substitution-is-pullback/)"
+
  
