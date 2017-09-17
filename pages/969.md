@@ -83,7 +83,7 @@ this adjoint exhibits $L_W C$ as a [[reflective subcategory]] of $C$.
 
 One shows that $L_W C$ is -- up to [[equivalence of categories]] -- the full subcategory on the $W$-[[local object]]s, and this property precisely characterizes such reflective localizations.
 
-More on this is at [[reflective subcategory]] and [[reflective sub-(∞,1)-category]].
+More on this is at [[reflective subcategory]] and [[reflective sub-(∞,1)-category]], and also [[reflective factorization system]].
 
 ### Localizations of enriched categories
 
