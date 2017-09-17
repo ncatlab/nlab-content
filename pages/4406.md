@@ -68,9 +68,9 @@ Finally, let $F \to R$ be any order-preserving field homomorphism to a real clos
 
 Each real closed field $R$ contains a [[valuation ring|valuation]] subring $B \hookrightarrow R$ consisting of the "bounded" or archimedean elements, i.e., elements $x \in R$ such that $-n \leq x \leq n$ for some integer multiple $n$ of the identity. An element in the complement of $B$ is an **infinite** element of $R$, and the reciprocal of an infinite element is an **infinitesimal** element. The field of fractions of $B$ is clearly $R$. 
 
-We remark that any real closed field contains a copy of the field of real [[algebraic numbers]], which we denote by $\widebar{\mathbb{Q}}$. Each of the elements of $\widebar{\mathbb{Q}}$ is archimedean. 
+We remark that any real closed field contains a copy of the field of real [[algebraic numbers]], which as before we denote by $\widebar{\mathbb{Q}}$ (not to be confused with the algebraic closure of $\mathbb{Q}$). Each of the elements of $\widebar{\mathbb{Q}}$ is archimedean. 
 
-Let $B^\ast$ be the group of units of $B$. The quotient $R^\ast/B^\ast$ is the **value group** of $R$. It can be viewed as the "group of orders of infinities and infinitesimals" of $R$. If $R$ is real closed, then the value group is a linearly ordered [[divisible group]] (divisible because we can take $n^{th}$ roots in $R$). The structure of the value group as ordered group is an important invariant of the real closed field. 
+Let $B^\ast$ be the group of units of $B$. The quotient $R^\ast/B^\ast$ is the **value group** of $R$. It can be viewed as the "group of orders of infinities and infinitesimals" of $R$. If $R$ is real closed, then the value group is a linearly ordered [[divisible group]] (divisible because we can take $n^{th}$ roots of positive elements in $R$). The structure of the value group as ordered group is an important invariant of the real closed field. 
 
 In the other direction, to each ordered divisible abelian group $G$, there exists a real closed field having $G$ as its value group. For example, one may form the [[Hahn series]] over $\widebar{\mathbb{Q}}$ with value group $G$. 
 
