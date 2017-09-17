@@ -20,6 +20,8 @@ _Chow's theorem_ states that a [[complex analytic space]] which is given as a [[
 
 ## Related concepts
 
+* [[analytification]]
+
 * [[comparison theorem (étale cohomology)]]
 
 * [[GAGA]]
