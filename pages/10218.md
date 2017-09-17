@@ -9,7 +9,7 @@ The property that **$n$-types cover** is a property of a [[higher category theor
 
 ## In a higher category
 
-A [[n-category|higher category]] is said to satisfy the (external) property that **$n$-types cover**, or to have **enough $n$-types**, if for every [[object]] $X$ there exists an $n$-[[truncated object]] $Y$ and an [[effective epimorphism|effective epimorphism in an (∞,1)-category]] $Y\to X$.  When $n=0$ one also says that **[[h-set|sets]] cover** or that there are **enough sets**.
+A [[n-category|higher category]] is said to satisfy the (external) property that **$n$-types cover**, or to have **enough $n$-types**, if for every [[object]] $X$ there exists an $n$-[[truncated object]] $Y$ and an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] $Y\to X$.  When $n=0$ one also says that **sets cover** or that there are **enough sets**.
 
 Usually the category in question is some sort of [[topos]] or [[higher topos]], or at least a [[pretopos]] of an appropriate sort.  In this case, the property that $n$-types cover means that the [[subcategory]] of $n$-[[truncated objects]] is "generating" in an appropriate sense.
 
@@ -19,7 +19,7 @@ When $n=-1$, however, having enough $n$-types in this sense is not really a usef
 
 If $n\gt 0$, then any [[n-localic (∞,1)-topos]] has enough $(n-1)$-types, since every object is surjected onto by a coproduct of [[representable functor|representables]] which are $n$-truncated.  The converse seems plausible as well.
 
-A specific example of a higher topos in which sets do not cover is the [[slice (∞,1)-topos]] $\infty Gpd / \mathbf{B}^2 \mathbb{Z}$ of [[∞Grpd]] over the double [[delooping]]/[[suspension]] of the group of [[integers]], which is equivalently the topos of [[∞-actions]] of the [[∞-group]] ([[2-group]]) $\mathbf{B} \mathbb{Z}$.  From this second perspective, a 1-truncated object of this topos is a [[groupoid]] (1-groupoid) together with an [[automorphism]] of its [[identity]] [[functor]], i.e. an element of its [[center]], and a morphism of such is a functor that respects these central elements.  Such an object is 0-truncated if it is essentially discrete, in which case its center is also trivial; thus the 0-truncated objects are just ordinary sets.  However, since functors must respect the central elements, there can be no surjective map from a 0-truncated object to a 1-truncated one whose chosen central element is nontrivial.
+A specific example of a higher topos in which sets do not cover is the [[slice (∞,1)-topos]] $\infty Gpd / \mathbf{B}^2 \mathbb{Z}$ of [[∞Grpd]] over the double [[delooping]] of the group of [[integers]], which is equivalently the topos of [[∞-actions]] of the [[∞-group]] ([[2-group]]) $\mathbf{B} \mathbb{Z}$.  From this second perspective, a 1-truncated object of this topos is a [[groupoid]] (1-groupoid) together with an [[automorphism]] of its [[identity]] [[functor]], i.e. an element of its [[center]], and a morphism of such is a functor that respects these central elements.  Such an object is 0-truncated if it is essentially discrete, in which case its center is also trivial; thus the 0-truncated objects are just ordinary sets.  However, since functors must respect the central elements, there can be no surjective map from a 0-truncated object to a 1-truncated one whose chosen central element is nontrivial.
 
 
 ## In homotopy type theory
@@ -28,7 +28,7 @@ In [[homotopy type theory]], the (internal) axiom of **$n$-types cover** or **en
 
 $$ \prod_{(X:Type)} {\Vert \sum_{(Y:n Type)} \sum_{(f:Y\to X)} surj(f) \Vert }$$
 
-where $\Vert-\Vert$ denotes the $(-1)$-truncation.
+where $\Vert-\Vert$ denotes the $(-1)$-truncation.  As before, when $n=0$ we say that **[[h-set|sets]] cover** or that there are **enough sets**.
 
 
 ### In models
