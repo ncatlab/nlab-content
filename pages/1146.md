@@ -1,4 +1,20 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A **double complex** is a [[complex]] in a category of [[complex]]es. Accordingly, a **double chain complex** is a [[chain complex]] in a [[category of chain complexes]].
 
@@ -20,7 +36,7 @@ The most important examples of this are induced by the [[hom-functor]] and the [
 Under the [[Dold-Kan correspondence]] then $\tilde F$ can be understood as the [[internal hom]] between [[infinity-groupoid|higher groupoids]].
 
 
-#Definition#
+## Definition
 
 
 bla bla
@@ -47,12 +63,15 @@ $$
   }
 $$
 
-bla bla
 
+## Total complex of a double complex
+
+The **total complex** of a double complex is
 
 $$
   tot_{\oplus}^k = \bigoplus_{m+n=k} X_{n,m}
 $$
+
 $$
   d^k_{tot_\oplus}|_{X_{n,m}} = 
   d^v_X \sqcup (-1)^\bullet d_X^h 
@@ -69,3 +88,8 @@ $$
 $$
 
 ...
+
+[[!redirects double complexes]]
+
+[[!redirects total complex]]
+[[!redirects total complexes]]
