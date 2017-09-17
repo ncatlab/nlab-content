@@ -28,7 +28,7 @@
 
   * [[differential forms in synthetic differential geometry|differential forms]]
 
-* [[path ∞-groupoid in a smooth topos|smooth path ∞-groupoid]]
+* [[schreiber:path ∞-groupoid|smooth path ∞-groupoid]]
 
 
 
