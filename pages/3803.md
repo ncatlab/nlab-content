@@ -66,11 +66,13 @@ The [[six operations]] of [[Grothendieck]] and [[Grothendieck duality]] are desi
 
 Another generalization, for singular spaces, is with help of stratifications and via [[intersection cohomology]]. 
 
-## Related concepts
+## Variants and generalizations
 
 * in [[noncommutative topology]]: [[Poincaré duality algebra]]
 
-* [[nonabelian Poincaré duality]]
+* in [[derived category|derived]] [[abelian sheaf|abelian]] [[sheaf and topos theory]]: [[Verdier duality]]
+
+* in [[nonabelian cohomology]]: [[nonabelian Poincaré duality]]
 
 ## References
 
