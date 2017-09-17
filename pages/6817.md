@@ -48,3 +48,8 @@ and in terms of [[conformal nets]] in
 [[!redirects 2d super conformal field theory]]
 [[!redirects 2d super conformal field theories]]
 
+[[!redirects 2d superconformal field theory]]
+[[!redirects 2d superconformal field theories]]
+
+
+
