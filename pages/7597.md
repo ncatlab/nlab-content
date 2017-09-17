@@ -5,7 +5,7 @@
 
 ## Idea
 
-An _projective [[algebraic variety]]_ (over an [[algebraically closed field]] $k$) is the 0-locus of a [[homogeneous polynomial|homogeneous]] [[polynomial]] of $(n+1)$ variables over $k$ in the [[projective space|projective n-space]] $\mathbb{P}^n$.
+An _projective [[algebraic variety]]_ (over an [[algebraically closed field]] $k$) is the 0-locus of a [[homogeneous polynomial|homogeneous]] ideal of [[polynomial]]s in $(n+1)$ variables over $k$ in the [[projective space|projective n-space]] $\mathbb{P}^n$.
 
 ## Examples
 
