@@ -15,7 +15,7 @@
 
 
 #Contents#
-* table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -62,3 +62,15 @@ the triangulated categories of [[quasicoherent sheaf|quasicoherent sheaves]] on 
 
 
 [[!redirects enhanced triangulated categories]]
+
+[[!redirects DG enhancement]]
+[[!redirects DG enhancements]]
+
+[[!redirects dg enhancement]]
+[[!redirects dg enhancements]]
+
+[[!redirects DG-enhancement]]
+[[!redirects DG-enhancements]]
+
+[[!redirects dg-enhancement]]
+[[!redirects dg-enhancements]]
