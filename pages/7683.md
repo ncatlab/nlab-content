@@ -58,16 +58,20 @@ of the double Cartier dual with the original group scheme.
 
 =--
 
-(e.g. [Polishuk, right above (10.1.11)](#Polishchuk))
+(e.g. [Polishuk, right above (10.1.11)](#Polishchuk), [Hida 00, theorem 1.7.1](#Hida00)) 
 
 
 ## References
 
-A textbook account is in section 10.1 of
+A textbook account is for instance in section 10.1 of
 
 * Alexander Polishchuk, _Abelian Varieties, Theta Functions and the Fourier Transform_
  {#Polishchuk}
- 
+
+or section 1.7 of 
+
+*  Haruzo Hida, _Geometric Modular Forms and Elliptic Curves_, 2000, World scientific
+ {#Hida00}
 
 lecture notes include
 
