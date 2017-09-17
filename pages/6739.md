@@ -6,59 +6,55 @@
 
 Let $G$ and $H$ be [[graph|simple graphs]]. Then $H$ is a **graph minor** of $G$ if it is isomorphic to a graph obtained by applying a sequence of operations of the following sort, starting from $G$: 
 
-* Removing an edge; 
+* Removing edges; 
 
-* Removing an isolated point; 
+* Removing isolated points; 
 
-* Contracting an edge, i.e., removing an edge and identifying its endpoints. 
+* Contracting edges, where contracting an edge means removing it and identifying its endpoints. 
 
 ## Definition via subquotients 
 
-If we define a simple graph to mean a set $V$ equipped with a symmetric reflexive relation $E$, with the evident notion of morphism, then graph minors can be equivalently described as subquotients in the category of simple graphs, where "quotient" here means "regular epi". 
+The operations of interest can be expressed in categorical terms; there is a nice category of simple graphs such that a graph minor is the same thing as a subquotient in this category. Namely, we take the point of view that a simple graph is essentially the same thing as a set $V$ equipped with a reflexive symmetric relation $E$, and a morphism of simple graphs is a function which respects these relations. Indeed, such a relation determines and is uniquely determined by a simple graph $G$ where for given vertices $x, y \in V$, there is an edge between $x$ and $y$ in $G$ iff both $E(x, y)$ and $x \neq y$. 
 
-We begin by quoting some exactness properties of the category of simple graphs (or, again, the category of sets equipped with a symmetric reflexive relation). There is an evident inclusion 
+Notice that the contraction of edges is neatly captured by quotients in this category. For example, if we want to contract a collection of edges by identifying points along an equivalence relation $R$, that is via a quotient map $q \colon V \to V/R$, then we simply take the image of the composite 
 
-$$i: SimpGph \to Set^{\bullet \stackrel{\to}{\to} \bullet}$$ 
+$$E \hookrightarrow V \times V \stackrel{q \times q}{\to} V/R \times V/R;$$ 
 
-where the category on the right is the topos of directed graphs. 
+notice this image is a reflexive symmetric relation on $V/R$. While it might seem more natural to use instead an _irreflexive_ relation for _loop-free graphs_ (a relation $E$ being **irreflexive** if it has empty intersection with the diagonal in $V \times V$), the fact of the matter is that irreflexive relations are not closed under the taking of images, and we cannot express so neatly the contraction operations by taking a quotient in the category of symmetric irreflexive operations. 
 
-* UGH, this article is a mess. Lots of wrong stuff. Look away, look away... 
+Thus, we let $SimpGph$ denote the category of sets equipped with a reflexive symmetric relation. This category has many convenient properties: 
 
-The category of directed graphs can be equivalently described as the comma category $Set \downarrow sq$ where $sq: Set \to Set$ is the squaring functor. A morphism in the comma category amounts to a commutative square of the form 
++-- {: .num_theorem} 
+###### Theorem 
+$SimpGph$ is a [[Grothendieck quasitopos]], in particular [[regular category|regular]] and even a [[logos]]. The opposite category $SimpGph^{op}$ is also regular. 
+=-- 
 
-$$\array{
-E & \stackrel{g}{\to} & F \\
-\downarrow & & \downarrow \\ 
-V^2 & \underset{f^2}{\to} & W^2
-}$$ 
++-- {: .num_prop} 
+###### Proposition 
+The underlying vertex-set functor $Vert \colon SimpGph \to Set$ reflects and preserves monos and epis, and preserves all limits and colimits. 
+=-- 
 
-and such may be factored according to a [[ternary factorization system]], first by factoring through a pullback square on the right (as follows): 
+For details on these results, see [[category of simple graphs]]. 
 
-$$\array{
-E & \to & P & \hookrightarrow & F \\
-\downarrow & & \downarrow & & \downarrow \\
-V^2 & \twoheadrightarrow & I^2 & \hookrightarrow & W^2
-}$$ 
-
-and then by factoring $E \to P$ into an epi followed by a mono: 
-
-$$\array{
-E & \twoheadrightarrow & J & \hookrightarrow & P \\
-\downarrow & & \downarrow & & \downarrow \\
-V^2 & \twoheadrightarrow & I^2 & \underset{id}{\to} & I^2.
-}$$ 
-
-This factorization means one first contracts edges, then one adds edges, and then one adds new vertices and edges which connect to the new vertices. The latter two processes provide a factorization in the class of monos in the category of directed graphs (and hence also in the category of simple graphs). 
-
-Hence we can say that $H$ is a graph minor of $G$ if there exists a cospan 
-
-$$\array{
++-- {: .num_defn} 
+###### Definition 
+A contraction of a simple graph $G$ is a quotient = regular epi $G \to H$. A subgraph is a mono $H \hookrightarrow H'$ in $SimpGph$. A **graph minor** is a subquotient in $SimpGph$: 
+\[\array{
 G & \twoheadrightarrow & G' \\
  & & \uparrow^\mathrlap{mono} \\
  & & H
-}$$ 
+}\]
+ 
+=-- 
 
-and the graph minor relation is evidently transitive by taking the pushout square, as follows,  
++-- {: .num_prop} 
+###### Proposition 
+The graph minor relation is reflexive and transitive. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Reflexivity is clear. For transitivity, we compose subquotients by taking a pushout square as follows. 
 
 $$\array{
 G & \twoheadrightarrow & G' & \twoheadrightarrow & G'' \\
@@ -68,7 +64,8 @@ G & \twoheadrightarrow & G' & \twoheadrightarrow & G'' \\
  & & & & J
 }$$
 
-using the fact that in a topos such as $Set^{\bullet \stackrel{\to}{\to} \bullet}$, the pushout of a mono along an arrow is a mono, and also that the inclusion of simple graphs into directed graphs reflects pushouts and monos. 
+where we use the simple fact that the pushout of a mono along an arrow in $SimpGph$ is a mono (because $Vert$ reflects monos and preserves monos and pushouts, plus the fact that the pushout of a mono in $Set$ is a mono). 
+=-- 
 
 For finite graphs, the graph minor relation is also antisymmetric (if $G$ and $H$ are minors of one another, then they are isomorphic). Indeed, if either the arrow $G \twoheadrightarrow G'$ or the arrow $H \hookrightarrow G'$ is not an isomorphism, then $H$ has strictly fewer edges and vertices than $G$. This is clearly not the case for infinite graphs (e.g., the infinite rooted binary tree without leaves contains as a subgraph a disjoint sum of two copies of itself). 
 
