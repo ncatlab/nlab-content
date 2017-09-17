@@ -34,7 +34,6 @@ The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [
 ## Motivation and Survey
  {#MotivationAndSurvey}
 
-> under construction
 
 1. [Ingredients of fundamental physics](#IngredientsOfFundamentalPhysics)
 
@@ -43,6 +42,8 @@ The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [
 1. [Chern-Simons field theory as a toy example](#ChernSimonsTheoryAsAToyExample)
 
 1. [Topological local field theory in higher category theory](#TopologicalLocalFieldTheoryInHigherGeometry)
+
+1. [Chern-Simons theory as the archetypical example](#CSAsArchetypicalExample)
 
 1. [Topological local Lagrangian field theory in higher geometry](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)
 
@@ -153,9 +154,9 @@ some crucial principles with Einstein-Maxwell-Yang-Mills theory, while at the  s
 much simpler to analyze. 
 
 The dimension of Chern-Simons theory is 3 instead of 4, but 
-Chern-Simons theory has a [[gauge field]] just as [[Yang-Mills theory]] does. For $G$ a [[connected topological space|connected]] [[simply connected topological space|simply connected]] [[gauge group]], this is mathematically represented by a [[Lie algebra valued differential 1-form]] $A$.
+Chern-Simons theory has a [[gauge field]] just as [[Yang-Mills theory]] does. For $G$ a [[connected topological space|connected]] [[simply connected topological space|simply connected]] [[gauge group]], this is mathematically represented by a [[Lie algebra-valued differential 1-form]] $A$.
 
-The [[Lagrangian]] of [[Chern-Simobs theory]] is the [[Chern-Simons 3-form]]
+The [[Lagrangian]] of [[Chern-Simons theory]] is the [[Chern-Simons 3-form]]
 
 $$
   L(A)
@@ -217,14 +218,53 @@ But in the [[physics]]-community, at least in the [[algebraic quantum field theo
 ### Topological local *Lagrangian* field theory in higher geometry
  {#TopologcalLocalLagrangianFieldTheoryInHigherGeometry}
 
-The formalization of [[extended topological field theory]] thus captures the [[local quantum field theory|local]] aspect of [[field (physics)|field]] [[theory (physics)|physics]]. But we saw [above](#TopologicalLocalLagrangianGaugeFieldTheory) that the theories of fundamental physics have one more crucial property: they are _[[Lagrangian]]_. Here we indicate how to formulate Lagrangian theories that are also local in the sense of [[extended field theory]].
+The formalization of [[extended topological field theory]] thus captures the _[[local quantum field theory|local]]_ aspect of [[field (physics)|field]] [[theory (physics)|theory]]. But we saw [above](#TopologicalLocalLagrangianGaugeFieldTheory) that the theories of fundamental physics have one more crucial property: they are _[[Lagrangian]]_. Here we indicate how to formulate Lagrangian theories that are also local in the sense of [[extended field theory]].
 
-For a 1-tiered thery the traditional answer is given by the formalization of the notion of _[[quantization]]_ known as _[[geometric quantization]]_. This considers a [[complex line bundle]] on the space of fields over $\Sigma_{n-1}$ (or rather on the space of fields on $\Sigma_{n-1} \times [0,1]$ which satisfy the [[equations of motion]]: the _[[phase space]]_) called the [[prequantum line bundle]] and then identifies the physical states with _half_ of the [[sections]] of this line bundle: the _[[wave functions]]_.
+The step of passing from a [[Lagrangian]] to the corresponding 
+[[quantum field theory]] is called _[[quantization]]_. There are two approaches to formalization of what this means, called _[[deformation quantization|algebraic deformation quantization]]_ and _[[geometric quantization]]_.  The first of these deals explicitly with producing [[algebras of quantum observables]], while the second describes explicitly how to construct the [[spaces of states]] that we considered above. Both are at least roughly dual to each other, in the spirit of [[Isbell duality|the general duality]] between [[algebra]] and [[geometry]]. 
+For the following discussion we follow the ideas of [[geometric quantization]], which naturally fit a discussion of _[[geometry of physics]]_.
+The following table surveys some keywords in this context which we will discuss in detail further below.
+
+[[!include Isbell duality - table]]
+
+
+In its traditional formulation, one considers the [[symplectic form]] $\omega$ which is naturally induced by a [[local Lagrangian]] on its (reduced) [[covariant phase space]] and says that a _[[geometric prequantization]]_ of this form is the choice of a $U(1)$-[[principal connection]] $\nabla$ on the phase space whose [[curvature]] $F_\nabla$ is $\omega$, hence a lift in
+
+$$
+  \array{
+    &&& \mathbf{B}U(1)_{conn}
+    \\
+    {{prequantum} \atop {circle\;bundle}} && {}^{\mathllap{\nabla}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}} & curvature
+    \\
+    &PhaseSpace
+    &\stackrel{\omega}{\to}&
+    \Omega^2_{cl}
+    \\
+    &&
+    sympl.\;form
+  }
+  \,.
+$$
+
+A [[section]] of the [[associated bundle|associated]] [[complex line bundle]]
+
+$$
+  \array{
+    && P \times_{U(1)}\mathbb{C}
+    \\
+    & {}^{\mathllap{\Psi}}\nearrow & \downarrow
+    \\
+    X &\stackrel{id}{\to}& X
+  }
+$$
+
+is called a _[[wave function]]_ on phase space. One is to choose a [[polarization]] of phase space, equipping it locally with "[[canonical coordinates]]" and "[[canonical momenta]]". Then a _[[quantum state]]_ in geometric quantization is a [[wave function]] $\Psi$ which only depends on the [[canonical coordinates]].
+
 
 $$
   Z(\Sigma_{n-1}) 
   \coloneqq
-  \{wave\; functions\}
+  \{wave\; functions\;of\;canonical\;coordinates\}
   \coloneqq
   \left\{
     polarized\;sections\;of\;prequantum\;line\;bundle
@@ -232,8 +272,11 @@ $$
   \,.
 $$
 
-In order to refine this to local (extended, multitiered) 
-[[prequantum field theory]] we need [[circle n-bundle with connection|higher line bundles]].
+From this it is clear that in order to refine this to local (extended, multi-tiered)  [[prequantum field theory]] we are to assign _[[circle n-bundle with connection|higher line bundles]]_ in higher codimension, namely a [[prequantum n-bundle|prequantum (n-k)-bundle]] in [[codimension]] $k$.
+
+As a first indication that this makes good sense, notice that the natural assignment to a field in codimension 0, hence to a field configuration on [[spacetime]], is its [[action functional]]. Being a $U(1)$-valued function, this is naturally thought of as a 0-bundle, the _[[prequantum 0-bundle]]_.
+
+ 
 
 | | | [[extended prequantum field theory|local/extended Lagrangian field theory]] |  | [[extended quantum field theory|local/extended quantum field theory]]  |
 |--|--|--|--|--|
@@ -241,20 +284,74 @@ In order to refine this to local (extended, multitiered)
 | [[closed manifold]] of [[dimension]] $0 \leq k \leq n$ | $\stackrel{local\;prequantum\;field\;theory}{\mapsto}$ | [[circle n-bundle with connection|circle (n-k)-bundle with connection]] on [[moduli stack]] of [[field (physics)|field configurations]] | $\stackrel{polarized\; sections}{\mapsto}$ | [[n-vector space|(n-k)-vector space of states]] | 
 | $\Sigma_k$ | $\mapsto$ | $\exp(2 \pi i \int_{\Sigma_k}[\Sigma_k,\mathbf{L}]) : [\Sigma_k, \mathbf{Fields}] \to \mathbf{B}^{n-k} U(1)_{conn}$ | $\mapsto$ | $Z(\Sigma_{n-k})$ |
 
+### Chern-Simons theory as the archetypical example
+ {#CSAsArchetypicalExample}
 
+For illustration purposes, we survey how the [[Chern-Simons field theory]] considered as a toy model for topological local Lagrangian gauge field theory considered above has in [[higher geometry]] a [[prequantum n-bundle|prequantum (n-k)-bundle]] associated in [[codimension]] $k$.
 
-For [[Chern-Simons theory]] notice
+Consider again $G$ a connected and simply connected [[simple Lie group]]. Then 
 
 $$
   H^4(BG , \mathbb{Z}) \simeq \mathbb{Z}
 $$
 
-(...)
+Let
 
 $$
   c : B G \to  B^3 U(1) \simeq K(\mathbb{Z},4)
-  \,.
 $$
+
+be a represenative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. Under [[geometric realization of cohesive ∞-groupoids]] 
+
+$$
+  \mathbf{H}
+    \stackrel{}{\stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}}
+  \infty Grpd
+  \underoverset{\simeq}{{\vert-\vert}}{\to}
+  L_{whe} Top
+$$
+
+this as an essentially unique lift to _smooth cohomology_
+
+$$
+  \mathbf{c}
+  \;\colon\;
+  \mathbf{B}G
+  \to 
+  \mathbf{B}^3 U(1)
+$$
+
+and this has a further lift to [[differential cohomology]]
+
+$$
+  \hat \mathbf{c}
+  \;\colon\;
+  \mathbf{B}G_{conn}
+  \to 
+  \mathbf{B}^3 U(1)_{conn}
+$$
+
+the "[[Chern-Simons circle 3-bundle with connection]]" on the [[smooth infinity-groupoid|smooth]] [[moduli stack]] of smooth $G$-[[principal connections]]. 
+
+$$
+  \array{
+    \mathbf{B}G_{conn}
+    &\stackrel{\hat \mathbf{c}}{\to}&
+    \mathbf{B}^3 U(1)_{conn} 
+    \\
+    \downarrow && \downarrow &&& \mathbf{H}
+    \\
+    \mathbf{B}G
+    &\stackrel{\mathbf{c}}{\to}&
+    \mathbf{B}^3 U(1)
+    \\
+    && &&& \downarrow^{\mathrlap{{\vert \Pi(-)\vert}}}
+    \\
+    B G &\stackrel{c}{\to}& B^3 U(1) &&& L_{whe} Top
+  }
+$$
+
+One finds that the [[transgression]] of this to codimension 0 is the Chern-Simons action functional discussed above. The other transgressions are
 
 | [[dimension]] |  | [[prequantum n-bundle|prequantum (3-k)-bundle]] |  |
 |---------------|--|-------------------------------------------------|--|
@@ -263,41 +360,20 @@ $$
 | $k = 2$ | off-sheff [[prequantum bundle]] | $[\Sigma_2, \mathbf{B}G_{conn}] \stackrel{[\Sigma_2, \hat \mathbf{c}]}{\to} [\Sigma_2, \mathbf{B}^3 U(1)_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_2} (-))}{\to} \mathbf{B} U(1)_{conn}$ | | 
 | $k = 3$ | [[action functional]] | $[\Sigma_3, \mathbf{B}G_{conn}] \stackrel{[\Sigma_3, \hat \mathbf{c}]}{\to} [\Sigma_3, \mathbf{B}^3 U(1)_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_3} (-))}{\to} U(1)$
 
-
-Here the [[WZW model|WZW]] [[B-field]] is the topological part of a 2-dimensional local Lagrangian field theory called the _[[Wess-Zumino-Witten model]]_. One says this is 
-
-$$
-  \mathcal{CS}_3 \stackrel{dual}{\mapsto} \mathcal{WZW}_2 
-$$
-
-
-also standard model of this form?
-
-unclear in detail, but for instance [[closed string field theory]] is of this form and gives 
-[[Einstein-Yang-Mills theory]] under [[KK-reduction]].
-
-also proposals for Einstein-Maxwell as certain limits of [[Chern-Simons gravity]].
-
-This pattern is expected to continue. Witten shows that for the abelian case
-
-$$
-  \array{
-    \mathcal{CS}_7 &\stackrel{dual}{\mapsto}& \mathcal{X}_6
-    \\
-    && \downarrow^{\mathrlap{cpt}.}
-    \\
-    && \mathcal{YM}_4
-  }
-$$
-
-this is generalized in FSS...
-
-
-
-
+Here the [[WZW model|WZW]] [[B-field]] is the topological part of a 2-dimensional local Lagrangian field theory called the _[[Wess-Zumino-Witten model]]_. One says that the WZW model is related by the [[holographic principle]] with [[3d Chern-Simons theory]].
 
 
 ### $\infty$-Chern-Simons theory as the general example
+ {#InfinityCSAsGeneralExample}
+
+(...)
+
+| [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]] $\rightarrow$| [[schreiber:∞-Wess-Zumino-Witten theory ]] | [[Kaluza-Klein reduction]] $\to$ |   |
+|--|--|--|--|--|
+| [[3d Chern-Simons theory]]  | [3dCS-2dCFT](holographic+principle#3dCS-2dCFT) | [[WZW model]] | | |
+| [[7d Chern-Simons theory]]  | [AdS7/CFT6 duality](http://ncatlab.org/nlab/show/AdS-CFT#AdS7CFT6) | [[6d (2,0)-supersymmetric QFT]] | | [[N=4 D=4 super Yang-Mills theory]] | 
+| [[string field theory]] | |  |  | [[Einstein-Yang-Mills theory]] |
+
 
 (...)
 
