@@ -101,3 +101,8 @@ Inner fibrations were introduced by [[Andre Joyal]]. A comprehensive account is 
 
 
 Their relation to [[cograph of a profunctor|cographs]]/correspondence is discussed in section 2.3.1 there.
+
+[[!redirects inner fibrations]]
+
+[[!redirects inner Kan fibration]]
+[[!redirects inner Kan fibrations]]
