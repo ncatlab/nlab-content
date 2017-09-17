@@ -32,7 +32,60 @@ This terminology is most commonly used in the following situations:
 
 * When $f^*$ is the [[inverse image]] part of a [[geometric morphism]] between [[(n,1)-topoi]] and $f_!$ is a [[left adjoint]] of it, if the [[adjunction]] $f_!\dashv f^*$ satisfies  Frobenius reciprocity, then the geometric morphism is called [[locally n-connected (n+1,1)-topos|locally (n-1)-connected]].  In particular, if $n=0$ so that we have a [[continuous map]] of [[locales]], then a left adjoint $f_!$ satisfying Frobenius reciprocity makes it an [[open map]], and if $n=1$ so that we have 1-[[topoi]], then it is [[locally connected geometric morphism|locally connected]].  This usage of "Frobenius reciprocity" is sometimes also extended to the dual situation of [[proper map]]s of locales and topoi.
 
-## The relationship
+## Frobenius laws and Frobenius reciprocity
+
+There are other instances of the name "Frobenius" being applied to a conditions on adjunctions, known generally as "Frobenius laws". A main example occurs in the notion of [[Frobenius algebra]], and it reappears in another form isolated by Carboni and Walters in their studies of cartesian bicategories and bicategories of relations. Namely, if $\delta \colon 1 \to \otimes \Delta$ denotes the diagonal transformation on a cartesian bicategory (e.g., $Rel$), with right adjoint $\delta^\ast$, then there is a canonical map 
+
+$$\delta \delta^\ast} \stackrel{\phi}{\to} (1 \otimes \delta^\ast)(\delta \otimes 1)$$ 
+
+mated to the coassociativity isomorphism 
+
+$$(1 \otimes \delta)\delta \to (\delta \otimes 1)\delta$$ 
+
+and the Frobenius law here is the assumption that the 2-cell $\phi$ is an isomorphism. There are two Frobenius laws actually; the other is that a similar canonical map 
+
+$$\delta \delta^\ast} \stackrel{\phi'}{\to} (\delta^\ast \otimes 1)(1 \otimes \delta),$$ 
+
+mated to the inverse coassociativity, is also an isomorphism. However, it may be shown that if one of the Frobenius laws holds, then so does the other; see the article [[bicategory of relations]]. 
+
+It is sometimes easy to accidentally call this law "Frobenius reciprocity", all the more so because there are connections between the two. For example, given a bicategory of relations $B$, one may construct a hyperdoctrine of the form
+
+$$\hom_B(i-, 1)\colon Map(B)^{op} \to Semilat$$ 
+
+where $i: Map(B) \to B$ is the inclusion, $1$ is the monoidal unit of $B$, and $Semilat$ is the 2-category of meet-semilattices. Here $r \in \hom(i b, 1)$ is thought of as a predicate on $b$, and for a map $f: a \to b$, the predicate $f^\ast r$ is the pullback 
+
+$$a \stackrel{f}{\to} b \stackrel{r}{\to} 1$$ 
+
+along $f$, and one may indeed show from the cartesian bicategory axioms that $f^\ast$ preserves finite local meets. The pushforward or quantification along $f$ takes $q: a \to 1$ to 
+
+$$b \stackrel{f^\ast}{\to} a \stackrel{q}{\to} 1$$ 
+
+where $f^\ast$ is _right_ adjoint to the map $f$. Frobenius reciprocity can then be stated for this hyperdoctrine; it takes the explicit form 
+
+$$r \wedge q f^\ast = (r f \wedge q)f^\ast$$  
+
+for any map $f: a \to b$ and predicates $q \in \hom(a, 1)$, $r \in \hom(b, 1)$. 
+
+Recall that a **bicategory of relations** is a (locally posetal) cartesian bicategory in which the Frobenius laws hold. 
+
++-- {: .un_prop}
+######Proposition 
+Frobenius reciprocity holds in the hyperdoctrine associated with a bicategory of relations. 
+=-- 
+
++-- {: .proof}
+######Proof (sketch)
+One first proves that a bicategory of relations is a compact closed bicategory in which each object $b$ is self-dual. The unit here is given by $$\eta_b = (1 \stackrel{\varepsilon^\ast}{\to} b \stackrel{\delta}{\to} b \otimes b$$ 
+and the counit by 
+$$\theta_b = (b \otimes b \stackrel{\delta^\ast}{\to} b \stackrel{\varepsilon}{\to} 1.$$
+Using this duality, each relation $r: b \to c$ has an opposite relation $r^{op} \colon c \to b$ given by 
+$$c \stackrel{c \otimes \eta_b}{\to} c \otimes b \otimes b \stackrel{1 \otimes r \otimes 1}{\to} c \otimes c \otimes b.$$
+It may further be shown that if $f: a \to b$ is a map, then its right adjoint $f^\ast$ equals the opposite $f^{op}$. Therefore Frobenius reciprocity becomes the equation  
+$$r \wedge q f^{op} = (r f \wedge q)f^{op}$$ 
+but in fact this is just a special case of the modular law which holds more generally, and which holds in a bicategory of relations as shown [here](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-of-relations.html) in a blog post by Walters. 
+=-- 
+
+(The following occurred in a previous revision.) 
 
 The relationship between the two usages is not clear.  In fact, since the category-theoretic usage is a special case of being a [[Hopf adjunction]], it seems as though it might have been misnamed, since [[Frobenius algebras]] and [[Hopf algebras]] are similar, but different.
 
