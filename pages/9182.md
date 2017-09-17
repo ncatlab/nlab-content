@@ -18,6 +18,13 @@
 
 One of the quanta of the [[electroweak field]].
 
+## Related concepts
+
+* [[electroweak symmetry breaking]], [[Higgs effect]]
+
+[[!include fields and quanta - table]]
+
+
 [[!redirects W-bosons]]
 
 [[!redirects Z-boson]]
