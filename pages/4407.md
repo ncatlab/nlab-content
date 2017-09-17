@@ -20,7 +20,7 @@ The rest of the proof is algebraic and, unlike the other proof methods, applies 
 
 We recall that a _real closed field_ is an [[ordered field]] such that every positive element has a [[square root]], and every polynomial of odd degree has a root. Clearly the polynomial $x^2 + 1$ has no root in a real closed field. 
 
-+-- {: .un_thm}
++-- {: .un_theorem}
 ###### Theorem 
 If $F$ is real closed, then $K = F[\sqrt{-1}]$ is algebraically closed. 
 =--
@@ -42,7 +42,7 @@ $$\frac{-a \pm \sqrt{a^2 - 4b}}{2},$$
 where $a^2 - 4b$ is negative. Since $F$ is real closed, the positive element $4b - a^2$ has a square root in $F$, so that the roots displayed above belong to $K = F[\sqrt{-1}]$. So $L_1 = K$. But $K$ has no nontrivial quadratic extensions by the lemma that follows, so in fact $L_1 = L_n = K$ and the theorem is proved. 
 =-- 
 
-+-- {: .num_lem #sqrt}
++-- {: .num_lemma #sqrt}
 ###### Lemma 
 Every element of $K = F[\sqrt{-1}]$ has a square root in $K$. 
 =-- 
@@ -89,7 +89,7 @@ which yields the desired contradiction.
 
 ## In weak foundations
 
-Many proof rely explicitly on the [[double negation]] rule by first supposing that a polynomial $p$ has no root and deriving a contradiction.  However, the algebraic proof is almost entirely [[constructive mathematics|constructive]].  (Some of the general results on splitting fields are problematic in constructive algebra, but what we need here is fine.)
+Many proofs rely explicitly on the [[double negation]] rule by first supposing that a polynomial $p$ has no root and deriving a contradiction.  However, the algebraic proof is almost entirely [[constructive mathematics|constructive]].  (Some general results on splitting fields are problematic in constructive algebra, as is the intermediate value theorem in constructive analysis, but their usage in this proof is fine.)
 
 In fact, the only problem is Lemma \ref{sqrt}.  This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not whether or not $x$ is apart from zero (because there is no [[continuous map|continuous]] square-root function).
 
