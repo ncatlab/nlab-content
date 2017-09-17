@@ -1,1 +1,2 @@
-[[!redirects 6d+%282,0%29-supersymmetric+QFT]]
+[[!redirects empty 58]]
+category:empty
