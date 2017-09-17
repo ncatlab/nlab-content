@@ -62,6 +62,8 @@ A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Y
 
 * [[complex analytic space]]
 
+* [[domain of holomorphy]], [[Stein manifold]]
+
 * [[Dolbeault complex]]
 
 * [[complex Lie group]]
