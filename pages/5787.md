@@ -85,6 +85,8 @@ Grothendieck has proved that faithfully flat morphisms of commutative schemes ar
 
 * [[Mike Prest]], _Purity, spectra and localisation_, Enc. Math. Appl. __121__, Camb. Univ. Press 2011, 798 pages; publishers book [page](http://www.cambridge.org/gb/knowledge/isbn/item2327409/?site_locale=en_GB)
 
+* Christian U. Jensen, Helmut Lenzing, _Model theoretic algebra: with particular emphasis on fields, rings, modules_, Algebra, Logic and Applications __2__, Gordon and Breach 1989.
+
 * Ivo Herzog, _Pure-injective envelopes_, [pdf](http://lima.osu.edu/people/iherzog/env.pdf)
     Journal of Algebra and Its Applications 2(4) (2003), 397-402.
 
