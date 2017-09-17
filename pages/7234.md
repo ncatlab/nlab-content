@@ -22,6 +22,15 @@
 
 One of the [[exceptional Lie groups]].
 
+## Related concepts
+
+* [[exceptional geometry]], [[exceptional generalized geometry]]
+
+* [[G2]], [[F4]],
+
+  **E6**, [[E7]],  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
+
+
 ## References
 
 A description of $E_{6(-26)}$ as the [[special linear group]] in dimension 3 with values in the [[octonions]] is given in 
@@ -30,7 +39,6 @@ A description of $E_{6(-26)}$ as the [[special linear group]] in dimension 3 wit
 
 * Aaron Wangberg, Tevian Dray, _$E_6$, the Group: The structure of $SL(3,\mathbb{O})$_ ([arXiv:1212.3182](http://arxiv.org/abs/1212.3182))
 
-* wikipedia, _[$E_6$](http://en.wikipedia.org/wiki/E6_%28mathematics%29)_
 
 Cohomological properties are discussed in
 
@@ -38,3 +46,6 @@ Cohomological properties are discussed in
 
   _Cohomology mod 3 of the classifying space of the exceptional Lie group $E_6$, II : The Weyl group invariants_ ([arXiv:1201.3414](http://arxiv.org/abs/1201.3414))
 
+See also
+
+* Wikipedia, _[$E_6$](http://en.wikipedia.org/wiki/E6_%28mathematics%29)_
