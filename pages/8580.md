@@ -1418,6 +1418,31 @@ In particular the [[real line]] $\mathbb{R}$ is this way itself a [[smooth space
 
 In a moment we find a formal justification for this slight abuse of notation.
 
+Another basic class of examples of smooth spaces are the [[discrete space|discrete]] smooth spaces:
+
++-- {: .num_defn #DiscreteSmoothSpace}
+###### Definition
+
+For $S \in $ [[Set]] a set, write
+
+$$
+  Disc S \in Smooth0Type
+$$
+
+for the smooth space whose set of $U$-plots for every $U \in CartSp$ is always $S$.
+
+$$
+  Disc S \colon U \mapsto S
+$$
+
+and which sends every coordinate transformation $f \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ to the identity function on $S$.
+
+A smooth space of this form we call a **[[discrete object|discrete smooth space]]**.
+
+=--
+
+
+
 More examples of smooth spaces can be built notably by [[intersection|intersecting]] [[images]] of two smooth spaces inside a bigger one. In order to say this we first need a formalization of [[homomorphism]] of smooth spaces. This we turn to now.
 
 
@@ -3205,7 +3230,50 @@ first 2 of 4 [[Maxwell equations]]: $\mathbf{d} F = 0$
 
 #### Variational calculus
 
-* [[variational calculus]]
+Traditionally a _[[functional]]_ is a [[function]] which is sufficiently like a [[smooth function]], but defined not on a [[manifold]], but on a [[mapping space]] between manifolds. Also traditionally, a _[[variational derivative]]_ of such a functional is something aking to a [[derivative]], generalized to this context, and subject to the condition that all variations _preserve some boundary conditions_. 
+
+We formulate this classical theory in the context of [[smooth spaces]]. Here a functional is simply a homomorphism of smooth spaces out of a smooth [[mapping space]], as in def. \ref{SmoothFunctionSpace}. We may impose _respect for boundary conditions_ by forming the [[fiber product]] of this mapping space with a _discrete smooth space inclusion_, given in def. \ref{MapFromDiscretizationOfSmooth0Type} below. Then the _variational derivative_ is simply the ordinary derivative of def. \ref{DeRhamDifferentialOverSmoothSpaces}.
+
+
+##### Discrete points of a smooth space
+
++-- {: .num_defn #DiscretizationOfSmooth0Type}
+###### Definition
+
+For $X \in Smooth0Type$ a [[smooth space]], write
+
+$$
+  \Gamma X
+  \coloneqq
+  Hom(*,X)
+  \in Set
+$$
+
+for its _set of points_, the set of homomorphisms, def. \ref{HomomorphismOfSmoothSpaces}, from the point to $X$. 
+
+Write
+
+$$
+  \flat X \coloneqq Disc (\Gamma(X))
+$$
+
+for the discrete smooth space, def. \ref{DiscreteSmoothSpace}, on this set of points. 
+
+=--
+
++-- {: .num_defn #MapFromDiscretizationOfSmooth0Type}
+###### Definition
+
+For every smooth space $X$ there is a canonical homomorphism of smooth spaces
+
+$$
+  \flat X \to X
+  \,.
+$$
+
+This sends a plot $U \to \flat X$, which by definition of $Disc(-)$ is a point in $\Gamma X$, hence a homomorphism $x \colon * \to X$, to the plot $I \to * \stackrel{x}{\to} X$ of $X$.
+
+=--
 
 
 ##### Smooth functionals
@@ -3257,14 +3325,13 @@ where
 
 * the bottom morphism is the restriction $[\partial \Sigma \hookrightarrow \Sigma, X]$ of configurations to the boundary;
 
-* the right vertical morphism is the [[counit of an adjunction|counit]] of the $(Disc \dashv \Gamma)$-[[adjunction]] on smooth spaces.
-
+* the right vertical morphism is the the homomorphism from def. \ref{MapFromDiscretizationOfSmooth0Type}.
 =--
 
 +-- {: .num_prop #PlotsOfMappingSpaceWithNonVaryingBoundary}
 ###### Proposition
 
-The [[smooth space]] $[\Sigma, X]_{\partial \Sigma}$ is a [[diffeological space]] whose underlying set it $C^\infty(\Sigma,X)$ and whose $U$-plots for $U \in $ [[CartSp]] are smooth functions
+The [[smooth space]] $[\Sigma, X]_{\partial \Sigma}$ is a [[diffeological space]] whose underlying set is $C^\infty(\Sigma,X)$ and whose $U$-plots for $U \in $ [[CartSp]] are smooth functions
 $\phi \colon U \times \Sigma \to X$ such that $\phi(-,s) \colon U \to X$ is the constant function for all $s \in \partial \Sigma \hookrightarrow \Sigma$.
 
 =--
@@ -3449,7 +3516,7 @@ since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$
 
 * [[Euler-Lagrange equation]]
 
-* [[equation of motion]]
+* [[equations of motion]]
 
 #### $\mathcal{D}$-geometry
 
@@ -3695,10 +3762,11 @@ $$
 +-- {: .num_defn }
 ###### Definition
 
-For $X \in \mathbf{H}_{th}$ we call $\Pi_{inf} \in \mathbf{H}$ the
-**[[de Rham space]]** of $X$.
+For $X \in \mathbf{H}_{th}$ we call $\Pi_{inf}(X) \in \mathbf{H}$ the
+**[[de Rham space]] object** of $X$.
 
 =--
+
 
 ##### Jet bundle
  {#DifferentiationSemLayerJetBundle}
@@ -3711,7 +3779,7 @@ For $X \in \mathbf{H}$
 $$
   Jet_X 
     \coloneqq 
-  InfinitesimalPathInclusion_*
+  (InfinitesimalPathInclusion_X)_*
   \colon
   \mathbf{H}_{th}/X \to \mathbf{H}_{th}/\Pi_{inf}(X)
   \,.
