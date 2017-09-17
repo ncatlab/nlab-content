@@ -25,6 +25,8 @@ This definition actually makes sense in any category with an [[initial object]],
 
 In any category enriched over pointed sets, the kernel of a morphism $f:c\to d$ is the universal morphism $k:a\to c$ such that $f \circ k$ is the basepoint.  It is a [[weighted limit]] in the sense of [[enriched category theory]].  This applies in particular in any (pre)-[[additive category]].
 
+This is a special case of the construction of [[generalized kernels]] in enriched categories.
+
 
 ## In an $(\infty,1)$-category #
 
