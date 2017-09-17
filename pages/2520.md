@@ -86,7 +86,7 @@ A large class of examples of action functionals arises in [[schreiber:∞-Chern-
 
 ## Related concepts
 
-* [[effective action functional]]
+* [[effective action functional]], [[background field formalism]]
 
 
 [[!redirects action functionals]]
