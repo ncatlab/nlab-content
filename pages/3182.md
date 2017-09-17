@@ -238,10 +238,10 @@ the model structure over $CartSp_{top}$ has more fibrant objects and hence fewer
 
 Let $X \in [Mfd^{op}, sSet]$ be an object that is _globally fibrant_ , _separated_ and _locally trivial_, meaning that
 
-1. $X(U)$ is a [[Kan complex]] for all $U \in Mfd$;
+1. $X(U)$ is an [[inhabited]] [[Kan complex]] for all $U \in Mfd$;
 
 1. for every [[covering]] $\{U_i \to U\}$ in [[Mfd]] the [[descent]] morphism
-   $X(U) \to [Mfd^{op}, sSet](C(\{U_i\}), X)$ is a [[full and faithful (∞,1)-functor]] (induces [[isomorphism]]s on all positive [[homotopy group]])s;
+   $X(U) \to [Mfd^{op}, sSet](C(\{U_i\}), X)$ is a [[full and faithful (∞,1)-functor]];
 
 1. for [[contractible]] $U$ we have $\pi_0[Mfd^{op}, sSet](C(\{U_i\}), X) \simeq *$.
 
