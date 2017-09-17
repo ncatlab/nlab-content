@@ -388,6 +388,48 @@ From this it follows that also every closed $n$-form on the $k$-sphere for $k \g
 =--
 
 
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m40,149l281,-2l-138,192l-143,-190z" stroke="#000000" fill="#ffffff"/>
+  <ellipse ry="117" rx="127" id="svg_2" cy="248" cx="495" stroke-width="2" stroke="#000000" fill="#5874c9"/>
+  <path id="svg_5" d="m64,181l92,124c16.66701,23 38.33299,22 53,0l89,-125c18.33301,-26 16.66699,-33 -26,-33l-185,2c-30.66666,-0.33333 -39.33334,10.33333 -23,32z" stroke="#000000" fill="#558cc6"/>
+  <path id="svg_6" d="m90,182c-16,-15.66667 -10,-22.33333 18,-20l152,-1c20,-1.33333 28,7.33333 18,20l-84,114c-6.33333,13 -14.66667,15 -22,0l-82,-113z" stroke="#000000" fill="#ffffff"/>
+  <ellipse ry="52" rx="55" id="svg_7" cy="157" cx="61" stroke-dasharray="5,5" stroke="#000000" fill="none"/>
+  <ellipse ry="55" rx="60" id="svg_8" cy="159" cx="289" stroke-dasharray="5,5" stroke="#000000" fill="none"/>
+  <ellipse ry="46" rx="51" id="svg_9" cy="317" cx="180" stroke-dasharray="5,5" stroke="#000000" fill="none"/>
+  <ellipse ry="87" rx="99" id="svg_10" cy="248.00001" cx="496" stroke-dasharray="5,5" stroke="#000000" fill="#ffffff"/>
+  <line id="svg_13" y2="160" x2="103" y1="148" x1="103" stroke-width="4" stroke="#ff5656" fill="none"/>
+  <line id="svg_14" y2="160" x2="240" y1="147" x1="241" stroke-width="4" stroke="#ff5656" fill="none"/>
+  <line id="svg_15" y2="161" x2="144" y1="148" x1="144" stroke-width="4" stroke="#ff5656" fill="none"/>
+  <line id="svg_16" y2="159" x2="185" y1="147" x1="185" stroke-width="4" stroke="#ff5656" fill="none"/>
+  <line id="svg_17" y2="184" x2="425" y1="161" x1="407" stroke-width="4" stroke="#ff5656" fill="none"/>
+  <line id="svg_18" y2="165" x2="458" y1="139" x1="446" stroke-width="4" stroke="#ff5656" fill="none"/>
+  <line id="svg_19" y2="160" x2="507" y1="131" x1="507" stroke-width="4" stroke="#ff5656" fill="none"/>
+  <line id="svg_20" y2="172" x2="543" y1="146" x1="556" stroke-width="4" stroke="#ff5656" fill="none"/>
+  <line id="svg_22" y2="193" x2="76" y1="183" x1="90" stroke-width="4" stroke="#7fff00" fill="none"/>
+  <line id="svg_23" y2="219" x2="93" y1="208" x1="108" stroke-width="4" stroke="#7fff00" fill="none"/>
+  <line id="svg_24" y2="257" x2="121" y1="247" x1="135" stroke-width="4" stroke="#7fff00" fill="none"/>
+  <line id="svg_25" y2="295" x2="150" y1="285" x1="164" stroke-width="4" stroke="#7fff00" fill="none"/>
+  <line id="svg_26" y2="256" x2="396" y1="259" x1="368" stroke-width="4" stroke="#7fff00" fill="none"/>
+  <line id="svg_27" y2="297" x2="413" y1="314" x1="391" stroke-width="4" stroke="#7fff00" fill="none"/>
+  <line id="svg_28" y2="323" x2="444" y1="345" x1="427" stroke-width="4" stroke="#7fff00" fill="none"/>
+  <line id="svg_29" y2="333" x2="479" y1="362" x1="473" stroke-width="4" stroke="#7fff00" fill="none"/>
+  <line id="svg_30" y2="295" x2="215" y1="284" x1="201" stroke-width="4" stroke="#ffff00" fill="none"/>
+  <line id="svg_31" y2="271" x2="231" y1="261" x1="218" stroke-width="4" stroke="#ffff00" fill="none"/>
+  <line id="svg_32" y2="236" x2="255" y1="227" x1="243" stroke-width="4" stroke="#ffff00" fill="none"/>
+  <line id="svg_33" y2="198" x2="283" y1="188" x1="271" stroke-width="4" stroke="#ffff00" fill="none"/>
+  <line id="svg_34" y2="348" x2="555" y1="323" x1="542" stroke-width="4" stroke="#ffff00" fill="none"/>
+  <line id="svg_35" y2="311" x2="602" y1="293" x1="580" stroke-width="4" stroke="#ffff00" fill="none"/>
+  <line id="svg_36" y2="260" x2="620" y1="256" x1="594" stroke-width="4" stroke="#ffff00" fill="none"/>
+  <line id="svg_37" y2="210" x2="615" y1="221" x1="590" stroke-width="4" stroke="#ffff00" fill="none"/>
+  <path id="svg_39" d="m256,272c16.33334,40.33334 68.66666,63.66666 109,49" stroke-width="4" stroke="#000000" fill="none"/>
+  <line id="svg_40" y2="320" x2="362" y1="311" x1="349" stroke-width="4" stroke="#000000" fill="none"/>
+  <line id="svg_41" y2="321" x2="363" y1="332" x1="355" stroke-width="4" stroke="#000000" fill="none"/>
+ </g>
+</svg>
+
 ### Integrating the string Lie 2-algebra to the string Lie 2-group
 
 Let $\mathfrak{string} = mathfrak{g}_\mu$ be the [[string Lie 2-algebra]].
