@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 =--
 =--
 
@@ -17,6 +21,8 @@
 ## Idea 
 
 In a context of [[synthetic differential geometry]] or [[D-geometry]], the _de Rham space_ $dR(X)$ of a [[space]] $X$ is the [[quotient]] of $X$ that identifies [[infinitesimal object|infinitesimally close points]].
+
+It is the [[coreduced object|coreduced reflection]] of $X$.
 
 ## Definition 
 
