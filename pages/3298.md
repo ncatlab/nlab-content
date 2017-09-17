@@ -1992,7 +1992,7 @@ See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0
 Hochschild cohomology of ordinary algebras was introduced in
 
 * [[Gerhard Hochschild]], _On the cohomology groups of an associative algebra_ 
-The Annals of Mathematics, Second Series, Vol. 46, No. 1 (Jan., 1945), pp. 58-6 ([JSTOR](http://www.jstor.org/stable/1969145))
+The Annals of Mathematics, 2nd ser., __46__, No. 1 (Jan., 1945), pp. 58-6 ([JSTOR](http://www.jstor.org/stable/1969145))
 
 A textbook discussion is for instance in chapter 9 of
 
@@ -2011,7 +2011,7 @@ The definition of the higher order Hochschild complex as (implicitly) the tensor
 
 A survey of traditional higher order Hochschild (co)homology and further developments and results are described in
 
-* [[Grégory Ginot]], _Higher order Hochschild cohomology 
+* [[Grégory Ginot]], _Higher order Hochschild cohomology_ 
   ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
 
 A considerably refined discussion of this which almost makes the construction of Hochschild complexes as an $(\infty,1)$-copowering operation manifest is in
