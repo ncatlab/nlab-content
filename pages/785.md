@@ -18,7 +18,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 
@@ -103,7 +103,7 @@ $$\array{X\times_Z^h Y & \to & Z^I\\
   \downarrow && \downarrow \\
   X\times Y & \to & Z\times Z.}
 $$
-In good situations, this will be a (local) homotopy pullback of $X \to Z \leftarrow Y$.  This is the case when $C = $ [[Top]] with its canonical [[interval object]] $[0,1]$ (the [[unit interval]]), and also in many [[model category|model categories]] (when $X,Y,Z$ are fibrant) and [[category of fibrant objects|categories of fibrant objects]].  For details on the latter case, see [section 5](http://ncatlab.org/schreiber/files/nacqFeb14.pdf#page=21) of [[schreiber:Nonabelian cocycles and their sigma model QFTs]].
+In good situations, this will be a (local) homotopy pullback of $X \to Z \leftarrow Y$.  This is the case when $C = $ [[Top]] with its canonical [[interval object]] $[0,1]$ (the [[unit interval]]), and also in many [[model category|model categories]] (when $X,Y,Z$ are fibrant) and [[category of fibrant objects|categories of fibrant objects]].  
 
 The canonical morphism $X \times_{Z} Y \to X \times_Z^h Y$ here is induced by the section $Z \to Z^I$.
 
@@ -140,6 +140,11 @@ To Stephen: Yes you are right. It is generally better to post such queries on th
 
 Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fiber sequence]]s and [[loop space object]]s.
 
+## Related concepts
+
+* [[infinity-limit]]
+
+* [[homotopy limit]]
 
 [[!redirects homotopy pullback]]
 [[!redirects homotopy pullbacks]]
