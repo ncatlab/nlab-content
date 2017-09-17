@@ -1,0 +1,35 @@
+# Near-rings
+
+* table of contents
+{: toc}
+
+## Idea
+
+A near-ring is a sort of [[ring]] in which [[addition]] need not be commutative.  However, if we simply remove the commutativity of addition from the definition of a ring, then nothing changes, because we can prove commutativity from the other axioms: we have
+$$ (x+y)(1+1) = x(1+1) + y(1+1) = x + x + y + y $$
+and also
+$$ (x+y)(1+1) = (x+y)1 + (x+y)1 = x + y + x + y. $$
+Canceling $x$ on the left and $y$ on the right, we have $x+y=y+x$.
+
+Thus, in order for the notion of near-ring to be different from that of a ring, we need to relax the distributivity law as well; we impose it only on one side.
+
+## Definition
+
+A **near-ring** is a set $R$ equipped with
+
+1. A group structure $(R,+,0)$,
+
+1. A monoid structure $(R,\cdot,1)$,
+
+1. such that for any $x,y,z\in R$ we have $(x+y)\cdot z = (x\cdot z) + (y\cdot z)$, and for any $x\in R$ we have $0\cdot x = 0$.
+
+If $(R,+,0)$ is only a monoid, we say instead that $R$ is a **near-rig** or a **near-semiring**.
+
+## Internalization
+
+Of course, near-rings can be defined internally to any [[cartesian monoidal category]].  More generally, they can be defined internally to a [[duoidal category]].
+
+[[!redirects near-ring]]
+[[!redirects near-rings]]
+[[!redirects near-rig]]
+[[!redirects near-rigs]]
