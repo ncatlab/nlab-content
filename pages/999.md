@@ -68,7 +68,7 @@ When $C$ is an [[additive category]] (often a [[triangulated category]]), an obj
 $$
 \coprod_{s\in S} C(x,s)\to C(x,\coprod_{s\in S}s)
 $$
-is an [[isomorphism]] of [[set]]s (a [[bijection]]).
+is an [[isomorphism]] of [[commutative monoid|commutative monoids]]. 
 
 Here is an application of this concept to characterize which abelian categories are categories of modules of some ring:
 
