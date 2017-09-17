@@ -718,9 +718,9 @@ $$
 These groupoids $\tilde P$ are in the literature known as [[nonabelian bundle gerbe]].
 
 
-#### A model for principal $\infty$-bundles
+#### A model for principal $\infty$-bundles {#ModelForPrincipalInfinityBundle}
 
-We have seen that the theory of ordinary smooth [[principal bundle]]s is naturally situated within the context of [[Lie groupoid]]s, and that the theory of smooth [[principal 2-bundle]]s is naturally situated within the theory of [[Lie 2-groupoid]]s. This is clearly the beginning of a pattern in [[higher category theory]] where in the next step we see smooth [[3-groupoid]]s and so on. Finally the general theory of [[principal ∞-bundle]]s deals with smooth [[∞-groupoid]]s. 
+We have seen [above](#PrincipalBundles) that the theory of ordinary smooth [[principal bundle]]s is naturally situated within the context of [[Lie groupoid]]s, and [then](#Cech2Cocycles) that the theory of smooth [[principal 2-bundle]]s is naturally situated within the theory of [[Lie 2-groupoid]]s. This is clearly the beginning of a pattern in [[higher category theory]] where in the next step we see smooth [[3-groupoid]]s and so on. Finally the general theory of [[principal ∞-bundle]]s deals with smooth [[∞-groupoid]]s. 
 
 A comprehensive discussion of such [[∞-Lie groupoid]]s is given there. In this introduction here we will just briefly describe the main _tool_ for _modelling_ these and describe principal $\infty$-bundles in this model. See also [[models for ∞-stack (∞,1)-toposes]].
 
@@ -904,7 +904,7 @@ For common choices of $C$ there is a well-understood way to define the weak equi
    $$
 
   
-The [[principal ∞-bundle]]s that we wish to model are already the main and simplest example of the application of these three item: 
+The [[principal ∞-bundle]]s that we wish to model are already the main and simplest example of the application of these three items: 
 
 Consider an object $\mathbf{B}G \in [C^{op}, sSet]$ which is an $\infty$-groupoid with a single object, so that we may think of it as the [[delooping]] of an [[∞-group]] $G$, let $*$ be the point and $* \to \mathbf{B}G$ the unique inclusion map. The _good replacmement_ of this inclusion morphism is the $G$-[[universal principal ∞-bundle]] $\mathbf{E}G \to \mathbf{B}G$ gives by the pullback diagram
   
