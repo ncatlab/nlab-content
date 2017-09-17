@@ -65,6 +65,9 @@ By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence
     * [[dual heterotic string theory]]
 
   * **type II string theory**
+ 
+    4d [[super Yang-Mills theory]]
+
 
 * [[landscape of string theory vacua]]
 
@@ -99,6 +102,8 @@ A [[holographic principle|holographic]] description of type II by [[higher dimen
 [[!redirects type II string]]
 [[!redirects type II superstrings]]
 [[!redirects type II strings]]
+
+[[!redirects type II superstring theory]]
 
 
 
