@@ -439,6 +439,7 @@ $$
   T \infty Grpd
 
   \,.
+
 $$
 
 =--
@@ -726,7 +727,7 @@ In summary, the [[differential cohesion|differential cohesive]] structure is ref
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #WeilUniformizationFromTheRelativeDifferentialHexagon}
 ###### Example
 
 
@@ -734,7 +735,7 @@ Every $X$ in $\mathbf{H}$ sits in a canonical square
 
 $$
   \array{
-    && \Pi_{dR} X &&  & && rationalization\;of\;X
+    && \Pi^{rel}_{dR} X &&  & && rationalization\;of\;X
     \\
     & \nearrow && \searrow && &
     \\
@@ -753,7 +754,7 @@ and the [[stabilization]] of this, equivalently the result of passing to $\hat E
 
 $$
   \array{
-    && [\Pi_{dR} X, \hat E] &&  & && rational\;\hat E-functions
+    && [\Pi^{rel}_{dR} X, \hat E] &&  & && rational\;\hat E-functions
     \\
     & \swarrow && \nwarrow && &
     \\
@@ -851,7 +852,7 @@ Notice that in addition $\Pi_{\mathfrak{a}}$ here should preserve [[finite produ
 
 Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine [[E-∞ geometry|E-∞]]-[[arithmetic geometry]] under $Spec(\mathbb{S})$ -- namely on [[Isbell duality|formal duals]] of [[nonunital E-∞ rings]] .
 
-(It may be entertaining to note that on the level of [[∞-groups of units]] then [[E-∞ arithmetic geometry]] under $Spec(\mathbb{S})$ translates to [[abelian ∞-groups]] of [[twisted cohomology|twists]] over the [[sphere spectrum]] -- which has been argued to be the homotopy-theoretic inveranation of [[superalgebra]], see at _[superalgebra -- abstract idea](super+algebra#AbstractIdea)_ for more on this.)
+(It may be entertaining to note that on the level of [[∞-groups of units]] then [[E-∞ arithmetic geometry]] under $Spec(\mathbb{S})$ translates to [[abelian ∞-groups]] of [[twisted cohomology|twists]] over the [[sphere spectrum]] -- which has been argued to be the homotopy-theoretic incarnation of [[superalgebra]], see at _[superalgebra -- abstract idea](super+algebra#AbstractIdea)_ for more on this.)
 
 =--
 
