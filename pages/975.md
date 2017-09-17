@@ -490,8 +490,5 @@ For a pedagogical motivation of the general topic under consideration here see
 
     * [[descent]]
 
-#20 Other Generalizations#
-
-[[Circuitoids]]
 
 category: reference
