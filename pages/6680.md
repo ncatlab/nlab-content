@@ -85,5 +85,11 @@ So the space in question is most emphatically not a submanifold. But there is a 
 
 
 [[!redirects manifold structure of singular loops]]
+[[!redirects manifold structures of singular loops]]
 [[!redirects the manifold structure of singular loops]]
 [[!redirects on the manifold structure of singular loops]]
+[[!redirects manifold structure on the space of singular loops]]
+[[!redirects manifold structures on the space of singular loops]]
+[[!redirects manifold structures on spaces of singular loops]]
+[[!redirects singular loop space]]
+[[!redirects singular loop spaces]]
