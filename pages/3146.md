@@ -103,7 +103,7 @@ $$
   A
 $$
 
-it is useful to recall that both the [[deRham complex]] $\Omega^\bullet(X)$ as well as the [[Chevalley-Eilenberg algebra]] $CE(\mathfraak{g})$ are naturally interpreted as function algebras on [[infinitesimal object]]s, as discussed at [[∞-Lie algebroid]].
+it is useful to recall that both the [[deRham complex]] $\Omega^\bullet(X)$ as well as the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ are naturally interpreted as function algebras on [[infinitesimal object]]s, as discussed at [[∞-Lie algebroid]].
 
 The [[deRham complex]] may be thought of as the algebra of functions on the infinitesimal path ∞-groupoid $\Pi^{inf}(X)$. This has as [[object]]s the points of $X$, as [[morphism]]s [[infinitesimal object|infinitesimal]] paths
 
