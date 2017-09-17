@@ -58,15 +58,18 @@ such that
 
 =--
 
-### Abstractly
+### Abstractly in terms of sections of a line bundle over the moduli stack
+ {#AsSections}
 
-More abstractly, for $\mathcal{M}_{ell}$ the [[moduli stack of elliptic curves]] and $A \to \mathcal{M}_{ell}$ the corresponding universal bundle, write $\Omega^1_{A/S}$ for the [[line bundle]] of fiberwise [[Kähler differential forms]]. Write $e$ for the 0-[[section]] of this line bundle. Then
+More abstractly, for $\mathcal{M}_{ell}$ the [[moduli stack of elliptic curves]] (or rather its [[Deligne-Mumford compactification]]) and $A \to \mathcal{M}_{ell}$ the corresponding universal bundle, write $\Omega^1_{A/S}$ for the [[line bundle]] of fiberwise [[Kähler differential forms]]. Write $e$ for the 0-[[section]] of this line bundle. Then
 
 $$
   \omega \coloneqq e^\ast \Omega^1_{A/S}
 $$ 
 
 is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$
+
+
 
 ## Properties
 
@@ -84,9 +87,25 @@ $$
 
 (see at [[elliptic genus]]) for the notation.
 
-
-
 ([Landweber-Ravenel-Stong 93, theorem 1.5 and sections 5.3, 5.8](#LandweberRavenelStong93))
+
+### Relation to elliptic cohomology
+
+For $E$ the [[elliptic cohomology theory]] associated to the [[elliptic curve]] $C$, then 
+
+$$
+  E_{2n} \simeq \omega(C)^{\otimes n}
+$$
+
+(where $\omega$ is the line bundle from [above ](#AsSections))
+
+and 
+
+$$
+  E_{2n+1}\simeq 0
+  \,.
+$$
+
 
 ## Examples
 
@@ -94,9 +113,9 @@ $$
 
 ## Related concepts
 
-* [[Witten genus]]
+* [[Jacobi form]]
 
-* [[modular form]]
+* [[elliptic genus]], [[Witten genus]]
 
 * [[topological modular form]], [[tmf]]
 
