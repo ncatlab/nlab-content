@@ -151,7 +151,13 @@ The ordinary notion of _[[vielbein]]_ in [[differential geometry]] (equivalently
 
 Let $X$ be a [[smooth manifold]] of [[dimension]] $n$. 
 
-By definition this means that there is an [[atlas]] $\{\phi_i^{-1} : \mathbb{R}^n \simeq U_i \hookrightarrow X\}$ of [[coordinate charts]]. On each overlap $U_i \cap U_j$ of two [[coordinate charts]] the [[partial derivatives]] of the corresponding [[coordinate transformations]]
+By definition this means that there is an [[atlas]] 
+
+$$
+  \{ \mathbb{R}^n \underoverset{\simeq}{\phi_i^{-1}}{\to} U_i \hookrightarrow X\}
+$$ 
+
+of [[coordinate charts]]. On each overlap $U_i \cap U_j$ of two charts, the [[partial derivatives]] of the corresponding [[coordinate transformations]]
 
 $$
   \phi_j\circ \phi_i^{-1}
@@ -182,22 +188,24 @@ $$
   \,,
 $$
 
+(here and in the following sums over an index appearing upstairs and downstairs are explicit)
+
 hence the equation
 
 $$
   \lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}
 $$
 
-in the [[group]] $C^\infty(U_i \cap U_j, GL(n))$ of smooth $GL(n)$-valued functions on the chart overlap.
+in the [[group]] $C^\infty(U_i \cap U_j \cap U_k, GL(n))$ of smooth $GL(n)$-valued functions on the chart overlaps.
 
-This is the [[cocycle]] condition for a smooth [[Cech cohomology|Cech cocycle]] in degree 1 with coefficients in $GL(n)$ (precisely: with coefficients in the [[sheaf]] of smooth functions with values in $GL(n)$ ). We write
+This is the _[[cocycle]] condition_ for a smooth [[Cech cohomology|Cech cocycle]] in degree 1 with coefficients in $GL(n)$ (precisely: with coefficients in the [[sheaf]] of [[smooth functions]] with values in $GL(n)$ ). We write
 
 $$
   [(\lambda_{i j})] \in H^1_{smooth}(X, GL_n)
   \,.
 $$
 
-It is useful to formulate this statement in the language of [[Lie groupoids]]/[[differentiable stacks]]. 
+It is useful to reformulate this statement in the language of [[Lie groupoids]]/[[differentiable stacks]]. 
 
 * $X$ itself is a Lie groupoid $(X \stackrel{\to}{\to} X)$ with trivial morphism structure;
 
@@ -220,7 +228,7 @@ It is useful to formulate this statement in the language of [[Lie groupoids]]/[[
     \,,
   $$
 
-  whose objects are the points in the atlas, whith morphisms identifying lifts of a point in $X$ to different charts of the atlas;
+  whose objects are the points in the atlas, with morphisms identifying lifts of a point in $X$ to different charts of the atlas;
 
 * any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
   
@@ -248,7 +256,7 @@ $$
 
 where
 
-* the left morphism is [[stalk]]-wise (around small enough [[neighbourhoods]] of each point) an [[equivalence of groupoids]];
+* the left morphism is [[stalk]]-wise (around small enough [[neighbourhoods]] of each point) an [[equivalence of groupoids]] (we make this more precise in a moment);
 
 * the horizontal functor has as components the functions $\lambda_{i j}$ and its functoriality is the cocycle condition $\lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}$.
 
@@ -263,6 +271,7 @@ $$
   T X \; : \; X \to \mathbf{B} GL(n) \;\; \in \mathbf{H}
 $$
 
+in a suitable context $\mathbf{H}$,
 such that this may be regarded as a smooth refinement of the underlying [[homotopy]] class of a  map into the [[classifying space]] $B GL(n)$
 
 $$
@@ -270,7 +279,7 @@ $$
   \,.
 $$
 
-Evidently, for this we need to turn the [[stalk]]-wise [[homotopy equivalence]] $C(\{U_i\}) \to X$ into an actual [[homotopy equivalence]]. This is a non-abelian/non-stable generalization of what happens in the construction of a [[derived category]], for instance in the theory of [[topological string|topological branes]].
+Evidently, for this we need to turn the [[stalk]]-wise [[homotopy equivalence]] $C(\{U_i\}) \to X$ into an actual [[homotopy equivalence]]. This is a [[nonabelian cohomology|non-abelian/non-stable]] generalization of what happens in the construction of a [[derived category]], for instance in the theory of [[topological string|topological branes]].
 
 To make this precise, first notice that every Lie groupoid $A = (A_1 \stackrel{\to}{\to} A_0)$ yields on each smooth manifold $U$ a groupoid of maps from $U$ into $A$
 
@@ -281,7 +290,7 @@ $$
 
 the groupoid of _smooth $U$-families_ of elements of $A$.
 
-Moreover, for every smooth function $U_1 \to U_2$ there is an evident restriction map $A(U_2) \to A(U_1)$ and so this yields a [[presheaf]] of groupoids, hence a functor $A \in Func(SmthMfd^{op}, Grpd)$.
+Moreover, for every smooth function $U_1 \to U_2$ there is an evident restriction map $A(U_2) \to A(U_1)$ and so this yields a [[presheaf]] of groupoids, hence a functor $A \in Func(SmthMfd^{op}, Grpd)$. The [[Yoneda lemma]] says that thinking of Lie groupoids as presheaves of ordinary groupoids this way does not lose information --- and [[topos theory]] say that it is generally a good idea.
 
 Let therefore
 
@@ -289,7 +298,15 @@ $$
   \mathbf{H} \coloneqq Func(SmthMfd^{op}, Grpd)[\{stalkwise\, h.e\}^{-1}]
 $$
 
-be the [[simplicial localization|localization]] of groupoid-valued presheaves that universally turns [[stalk]]wise [[homotopy equivalences]] into actual homotopy equivalences. We call this the _[[(2,1)-topos]]_ of _[[smooth infinity-groupoid|smooth groupoids]]_ or _[[smooth infinity-groupoid|smooth stacks]]_.
+be the [[simplicial localization|localization]] of groupoid-valued presheaves that universally turns [[stalk]]wise [[homotopy equivalences]] into actual homotopy equivalences: if a [[natural transformation]] $\eta : A \to B$ in $Func(SmthMfd^{op}, Grpd)$ is such that for each $U \in $ [[SmthMfd]] and each $x \in U$ there is a [[neighbourhood]] $U_x \subset U$ of $x$ such that $\eta(U_x) : A(U_x) \to B(U_x)$ is an [[equivalence of groupoids]], then $\eta$ has a [[homotopy inverse]] in $\mathbf{H}$.
+
+We call this $\mathbf{H}$ the _[[(2,1)-topos]]_ of _[[smooth infinity-groupoid|smooth groupoids]]_ or of _[[smooth infinity-groupoid|smooth stacks]]_.
+
+Discussed there are tools for describing $\mathbf{H}$ concretely. For the moment we only need to know that
+
+1. the [[Cech nerve]] projection $C(\{U_i\}) \to X$ of every [[open cover]] has a [[homotopy inverse]] in $\mathbf{H}$, as already used;
+
+1. if the cover is _[[good open cover|good]]_ and $G$ is a Lie group, then every morphism $X \to \mathbf{B}G$ in $\mathbf{H}$ is presented by a [[anafunctor|zig-zag]] of the form $X \stackrel{\simeq}{\leftarrow} C(\{U_i\}) \to \mathbf{B}G$.
 
 Then we have
 
@@ -299,7 +316,7 @@ Then we have
 
 Therefore $\mathbf{B}GL(n)$ regarded as an object of $\mathbf{H}$ is the _[[moduli stack]]_ of real vector bundles.
 
-Of course there is a "smaller" Lie groupoid that also classifies real vector bundles. Passing to this "smaller" Lie groupoid is what the choice of vielbein accomplishes, to which we now turn.
+Of course there is a "smaller" Lie groupoid that also classifies real vector bundles, but whose gauge transformations are restricted to be [[orthogonal group]]-valued functions. Passing to this "smaller" Lie groupoid is what the choice of vielbein accomplishes, to which we now turn.
 
 
 #### Reduction of the structure group
@@ -313,8 +330,8 @@ $$
   \,.
 $$
 
-We may understand this inclusion geometrically in terms of the canonical [[metric]] on $\mathbb{R}^n$, but we may also understand it purely Lie theoretically as the
-the inclusion of the [[maximal compact subgroup]] of $GL(n)$. This makes it manifest that the inclusion is trivial at the level of [[homotopy theory]] (it is a [[homotopy equivalence]]) and hence _only_ encodes geometric information.
+We may understand this inclusion geometrically in terms of the canonical [[metric]] on $\mathbb{R}^n$. We may also understand it purely [[Lie theory|Lie theoretically]] as the
+inclusion of the [[maximal compact subgroup]] of $GL(n)$. This makes it manifest that the inclusion is trivial at the level of [[homotopy theory]] (it is a [[homotopy equivalence]] of the underlying [[topological spaces]]) and hence _only_ encodes geometric information.
 
 
 The inclusion induces a corresponding inclusion ([[truncated object of an (infinity,1)-category|0-truncated morphism]]) of moduli stacks
@@ -331,10 +348,13 @@ $$
   (O(n) \stackrel{\to}{\to} * )
   \to 
   (GL(n) \stackrel{\to}{\to} * )
-  \,.
 $$
 
-Now we can say what a [[Riemannian metric]]/[[orthogonal structure]] on $X$ is: A choice of [[orthogonal structure]] on $T X$ is a factorization of the above $GL(n)$-valued cocycle $\lambda$ through $\mathbf{Orth}$, up to a smooth [[homotopy]] $E$, hence a [[diagram]]
+in the evident way.
+
+Now we can say what a [[Riemannian metric]]/[[orthogonal structure]] on $X$ is: 
+
+A choice of [[orthogonal structure]] on $T X$ is a factorization of the above $GL(n)$-valued cocycle $\lambda$ through $\mathbf{Orth}$, up to a smooth [[homotopy]] $E$ in $\mathbf{H}$, hence a [[diagram]]
 
 $$
   \array{
@@ -391,13 +411,13 @@ This consists of two pieces of data
   $$
 
 The component $h$ defines an $O(n)$-[[principal bundle]] on $X$, or its [[associated bundle|associated]] [[vector bundle]].
-The component $E$ is the corresponding **vielbein**. It exhibits an [[isomorphism]] 
+The component $E$ is the corresponding **[[vielbein]]**. It exhibits an [[isomorphism]] 
 
 $$
   E : T X \stackrel{\simeq}{\to} V
 $$
 
-between a [[vector bundle]] $V \to X$ with [[structure group]] explicitly being the [[orthogonal group]] and the [[tangent bundle]], hence it exhibits the [[reduction of structure groups|reduction of the structure group]] of $T X$ from $GL(n)$ to $O(n)$.
+between a [[vector bundle]] $V \to X$ with [[structure group]] explicitly being the [[orthogonal group]], and the [[tangent bundle]] itself, hence it exhibits the [[reduction of the structure group]] of $T X$ from $GL(n)$ to $O(n)$.
 
 #### Moduli space of orthogonal structures: twisted cohomology
  {#ModuliSpaceOfOrhtogonalStructures}
@@ -592,9 +612,6 @@ The above discussion of ordinary [[vielbein]] fields is just a special case of a
 
 As one more out of these examples, we discuss in the above language of twisted smooth cohomology how a _[[type II geometry]]_ of [[type II supergravity]] is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
 
-+-- {: .num_defn #InclusionForTypeIIGeometry}
-###### Definition
-
 Consider  the [[Lie group]] inclusion
 $$
   \mathrm{O}(d) \times \mathrm{O}(d)
@@ -635,11 +652,8 @@ $$
   \,.
 $$
 
-=--
-
-This inclusion of [[Lie groups]] induces the corresponding morphism of 
-[[smooth infinity-groupoid|smooth]] [[moduli stacks]]
-of [[principal bundles]]
+This induces the corresponding morphism of 
+[[smooth infinity-groupoid|smooth]] [[moduli stacks]], which we denote
 
 $$
   \mathbf{TypeII}
@@ -650,28 +664,23 @@ $$
   \,.
 $$
 
-+-- {: .num_prop }
-###### Proposition
+Forming the  [[homotopy fiber]] now yields the coefficient bundle 
 
-There is a [[fiber sequence]] of [[smooth infinity-groupoid|smooth stacks]] 
-
-  $$
-      O(d) \backslash O(d,d) / O(d)
-	 \to
-  \mathbf{B}(\mathrm{O}(d) \times \mathrm{O}(d))
-     \stackrel{\mathbf{TypeII}}{\to}
-    \mathbf{B} \mathrm{O}(d,d)  	
+$$
+  \array{
+     O(d) \backslash O(d,d) / O(d)
+     &\to&
+    \mathbf{B}(\mathrm{O}(d) \times \mathrm{O}(d))
+    \\
+    && \downarrow^{\mathrlap{\mathbf{TypeII}}}
+    \\
+    && \mathbf{B} \mathrm{O}(d,d)  	
+  }
   \,,
-  $$
+$$
 
-where the fiber on the left is the [[coset space]] of the [[action]] of $O(d) \times O(d)$ on $O(d,d)$.
+There is also a canonical embedding
 
-=--
-
-+-- {: .num_defn }
-###### Definition
-
-There is a canonical embedding
 $$
   \mathrm{GL}(d) \hookrightarrow \mathrm{O}(d,d)
 $$
@@ -696,17 +705,12 @@ $$
 where in the bottom right corner we have the [[transpose matrix|transpose]] of the inverse matrix of the invertble
 matrix $a$.
 
-=--
-
-+-- {: .num_defn }
-###### Definition
-
-Under inclusion of def. \ref{InclusionForTypeIIGeometry}, the 
+Under this inclusion, the 
 [[tangent bundle]] of a $d$-[[dimension|dimensional]] 
 [[manifold]] $X$ defines an $\mathrm{O}(d,d)$-[[cocycle]]
 
 $$
-  T X \otimes T^* X
+  T X \oplus T^* X
   :
   
     X 
@@ -717,54 +721,48 @@ $$
   \,.
 $$
 
-The [[vector bundle]] canonically associated to this composite cocycles may 
+The [[vector bundle]] canonically associated to this composite cocycle may 
 canonically be identified with
-the [[tensor product]] vector bundle $T X \otimes T^* X$, and so we will
+the [[direct sum]] vector bundle $T X \oplus T^* X$, and so we will
 refer to this cocycle by these symbols, as indicated. 
 This is also called the **[[generalized tangent bundle]]** of $X$.
 
-=--
 
 Therefore we may canonically consider the groupoid of 
-$T X \otimes T^* X$-twisted $\mathbf{TypeII}$-structures, 
+$T X \oplus T^* X$-twisted $\mathbf{TypeII}$-structures, 
 according to the general notion of [[twisted differential c-structures]].
 
-
-+-- {: .num_defn }
-###### Definition
 
 A **type II generalized vielbein** on a [[smooth manifold]] $X$ is a diagram
 
 $$
   \array{
-    X &&\stackrel{\widetilde(T X \otimes T^* X)}{\to}&& \mathbf{B}(O(n) \times O(n))
+    X &&\stackrel{\widetilde(T X \oplus T^* X)}{\to}&& \mathbf{B}(O(n) \times O(n))
     \\
-    & {}_{\mathllap{T X \otimes T^* X}}\searrow &\swArrow_{E}& \swarrow_{\mathrlap{\mathbf{TypeII}}}
+    & {}_{\mathllap{T X \oplus T^* X}}\searrow &\swArrow_{E}& \swarrow_{\mathrlap{\mathbf{TypeII}}}
     \\
     && \mathbf{B} O(n,n)
   }
 $$
 
-in $\mathbf{H} = $ [[Smooth∞Grpd]], hence a cocycle in the smooth [[twisted cohomology]]
+in $\mathbf{H}$, hence a cocycle in the smooth [[twisted cohomology]]
 
 $$
   E 
    \in 
   \mathbf{TypeII}Struc(X)
   \coloneqq
-  \mathbf{H}_{/\mathbf{B} O(n,n)}(T X \otimes T^* X, \mathbf{TypeII})
+  \mathbf{H}_{/\mathbf{B} O(n,n)}(T X \oplus T^* X, \mathbf{TypeII})
   \,.
 $$
 
 
-=--
-
-+-- {: .num_prop }
++-- {: .un_prop }
 ###### Proposition / Definition
 
   The [[groupoid]] $\mathbf{TypeII}\mathrm{Struc}(X)$
   is that of "generalized vielbein fields" on $X$, as considered for instance 
-  around equation (2.24) of ([GMPW](#GMPW))
+  around equation (2.24) of ([GMPW](type+II+geometry#GMPW))
   (there only locally, though).
   
   In particular, its set of equivalence classes is the set of 
