@@ -75,7 +75,7 @@ whose degree is $n_0(a b c)$. We then have
 
 $$\frac{b}{a} = -\frac{N_0 f'/f}{N_0 g'/g}$$ 
 
-where the numerator and denominator on the right are polynomials. However, since $b$ and $a$ are relatively prime, the fraction $b/a$ is already in lowest terms. From this we conclude that $deg(b) = deg(N_0 f'/f) \leq n_0(a b c) - 1$, and similarly $deg(a) = deg(N_0 g'/g) \leq n_0(a b c) - 1$, which completes the proof. 
+where the numerator and denominator on the right are polynomials. However, since $b$ and $a$ are relatively prime, the fraction $b/a$ is already in lowest terms. From this we conclude that $deg(b) \leq deg(N_0 f'/f) \leq n_0(a b c) - 1$, and similarly $deg(a) \leq deg(N_0 g'/g) \leq n_0(a b c) - 1$, which completes the proof. 
 =-- 
 
 +-- {: .un_cor} 
