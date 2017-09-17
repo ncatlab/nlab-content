@@ -107,7 +107,7 @@ where
 
 For the case that $n = 1$ then the left part of this quotient is the _[[idele class group]]_, for higher $n$ this is an object in some nonabelian generalization of [[class field theory]].
 
-The striking observation that leads to the conjecture of the [[geometric Langlands correspondence]] is that  under the [[function field analogy]] this double quotient, as a [[stacky quotient]], is [[analogy|analogous]] to the [[moduli stack of vector bundles]] $Bun_(\Sigma)(GL_n)$ over a [[complex curve]] $\Sigma$ in the specific presentation that is given by the [[Weil uniformization theorem]]. Namely, this says that choosing any point $x\in \Sigma$ and a [[formal disk]] $x \in D \subset \Sigma$ around it, then 
+The striking observation that leads to the conjecture of the [[geometric Langlands correspondence]] is that  under the [[function field analogy]] this double quotient, as a [[stacky quotient]], is [[analogy|analogous]] to the [[moduli stack of vector bundles]] $Bun_{\Sigma}(GL_n)$ over a [[complex curve]] $\Sigma$ in the specific presentation that is given by the [[Weil uniformization theorem]]. Namely, this says that choosing any point $x\in \Sigma$ and a [[formal disk]] $x \in D \subset \Sigma$ around it, then 
 
 $$
   \array{
@@ -352,7 +352,7 @@ Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that
 
 * the [[shape modality]] $\Pi$ is naturally thought of as sending each [[geometric homotopy type]] $X \in \mathbf{H}$ to its [[fundamental ∞-groupoid]] $\Pi X$ of geometric paths inside it, equivalently to its [[geometric realization]];
 
-* the [[flat modality]] $\flat$ is naturally thought of as sending each [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]] to the [[moduli ∞-stack]] $\flat\mathbbf{B}G$ of $G$-[[flat ∞-connections|principal flat ∞-connections]];
+* the [[flat modality]] $\flat$ is naturally thought of as sending each [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]] to the [[moduli ∞-stack]] $\flat\mathbf{B}G$ of $G$-[[flat ∞-connections|principal flat ∞-connections]];
 
 * the [[homotopy fiber]] $\flat_{\mathrm{dR}}G$ of the [[counit of a comonad|counit]] $\flat \mathbf{B}G \to \mathbf{B}G$ is naturally thought of as sending the moduli $\infty$-stack of $\mathfrak{g}$-[[L-∞ algebra valued differential forms]];
 
