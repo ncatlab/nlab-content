@@ -1,0 +1,4 @@
+
+See for instance
+
+* [[equivariant cohomology]]
