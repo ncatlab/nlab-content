@@ -88,6 +88,10 @@ $$
 
 By the discussion at [[indexed category]].
 
+## Related concepts
+
+* [[base (∞,1)-topos]]
+
 
 ## References
 
