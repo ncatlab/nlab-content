@@ -1,9 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 A [[Poisson manifold]] may be thought of as a [[Poisson Lie algebroid]], a [[Lie algebroid]] with extra structure: called an [[n-symplectic manifold]] for $n = 1$.
 
@@ -11,7 +23,7 @@ By [[Lie integration]] this Lie algebroid should integrate to a [[Lie groupoid]]
 
 The [[category algebra|groupoid algebra]] of these symplectic groupoids are [[C-star algebra]]s that may be regarded as the [[quantization]] of the original [[Poisson manifold]]. This is described in the references below.
 
-#Definition#
+## Definition
 
 A **symplectic Lie groupoid** is a [[Lie groupoid]] $C$ whose space of [[object]]s is a [[Poisson manifold]] and whose space of [[morphism]]s carries a [[symplectic manifold|symplectic structure]] whose symplectic form $\omega \in \Omega^2_{closed}(Mor(C))$ is _multiplicative_ in that it is closed regarded as an element in the [[simplicial deRham complex]] of the [[nerve]] of $C$:
 
@@ -21,7 +33,8 @@ $$
   + pr_2^* \omega
 $$
 
-# Properties #
+
+## Properties 
 
 
 Every [[Lie groupoid]] [[Lie integration|integrating]] a [[Poisson Lie algebroid]] is naturally a symplectic Lie groupoid. Picking always the unique source-simply connected integrating [[Lie groupoid]] produces a [[functor]]
@@ -42,7 +55,7 @@ $$
 
 When $X$ is [[fundamental group|simply connected]] such that $\Pi(X)$ is the [[codiscrete category|codiscrete groupoid]] $Pair(X)$ we have that the symplectic form on $Mor(\Pi(X)) = X \times X$ is $\omega \otimes (-\omega)$, for $\omega$ the [[symplectic manifold|symplectic form]] on $X$.
 
-# in geometric quantization of Poisson manifolds #
+## in geometric quantization of Poisson manifolds 
 
 In the _groupoid approach to quantization_
 
@@ -67,6 +80,16 @@ The following blog discussion should eventually be copied here:
 
   * [Eli Hawkins on Geometric Quantization II](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant_1.html)
 
-#References#
+## Related concepts
+
+* [[symplectic Lie n-algebroid]]
+
+## References
 
 * Eli Hawkins, _A groupoid approach to quantization_ ([arXiv](http://arxiv.org/abs/math.SG/0612363))
+
+
+The [[formal groupoid]] version of symplectic groupoids is discussed in
+
+* [[Alberto Cattaneo]], Benoit Dherin, [[Giovanni Felder]], _Formal symplectic groupoid_ ([arXiv:0312380](http://arxiv.org/abs/math/0312380))
+ {#CattaneoDherinFelder}
