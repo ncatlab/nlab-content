@@ -5464,17 +5464,18 @@ $$
 
 ### Semantic Layer
 
-#### Smooth differential cohomology
+#### Differential cohomology
  {#SmoothDifferentialCohomology}
 
-Let $G \in Grp(\mathbf{H})$ be a groupal [[Ek-algebra|E2-alhgebra]], hence an [[∞-group]] which is twice [[delooping|deloopable]]
+Let $G \in Grp(\mathbf{H})$ be a [[braided ∞-group]]. Equivalently, let its [[delooping]] $\mathbf{B}G \in \mathbf{H}$ be itself equipped with the structure of an [[∞-group]]. Write
 
 $$
   \mathbf{B}^2 G \in \mathbf{H}
-  \,.
 $$
 
-+-- {: .num_defn}
+for the corresponding double [[delooping]].
+
++-- {: .num_defn #UniversalCurvatureCharacteristic}
 ###### Definition
 
 Write 
@@ -5493,7 +5494,7 @@ for the [[Maurer-Cartan form]] on the [[∞-group]] $\mathbf{B}G$, def. \ref{Gen
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #GeneralConcreteDifferentialCohomology}
 ###### Definition
 
 The **[[differential cohomology]]** with [[coefficients]] in $\mathbf{B}G$ is [[cohomology]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\flat_{dR} \mathbf{B}^2 G}$ with [[coefficients]] in $curv_G$
@@ -5505,7 +5506,8 @@ $$
 
 =--
 
-(...)
+#### Differential-form curvatures
+
 
 $$
   \array{
@@ -5520,6 +5522,7 @@ $$
 $$
 
 presented by [[ordinary differential cohomology]]
+
 
 #### Higher holonomy
  {#Holonomy}
@@ -5536,6 +5539,81 @@ $$
 
 ### Syntactic Layer
 
+#### The dependent curvature type
+
+
+The universal curvature characteristic, def. \ref{UniversalCurvatureCharacteristic}, has the [[syntax]]
+
+$$
+  \vdash curv_{G} \colon \mathbf{B}G \to \flat_{dR} \mathbf{B}^2 G
+  \,.
+$$
+
+Regarded as a [[dependent type]] in the de Rham coefficient [[context]] this is
+
+$$
+    \omega \colon \flat_{dR}\mathbf{B}^2 G
+    \;
+    \vdash 
+    \;
+    \underset{\mathbf{c} \colon \mathbf{B}G}{\sum} 
+    \left(
+      curv_G\left(\mathbf{c}\right)
+      \simeq \omega
+    \right)
+  \colon
+  Type
+$$
+
+Therefore the [[syntax]] for a domain object $F \colon X \to \flat_{dR} \mathbf{B}^2 G$ in this [[context]] is
+
+$$
+  \omega \colon \flat_{dR} \mathbf{B}^2 G
+  \;\vdash\;
+  \underset{x \colon X}{\sum} 
+  \left(
+    F_x \simeq \omega
+  \right)
+  \colon Type
+$$
+
+and the [[syntax]] for a [[cocycle]] 
+
+$$
+  \array{
+    X &&\stackrel{\bar P}{\to}&& \mathbf{B}G
+    \\
+    & {}_{\mathllap{F}}\searrow &\swArrow_{\nabla}& \swarrow_{\mathrlap{curv_G}}
+    \\
+    && \flat_{dR} \mathbf{B}^2 G
+  }
+$$
+
+in [[differential cohomology]], def. \ref{GeneralConcreteDifferentialCohomology}, on $(X,F)$ is hence
+
+$$
+  \vdash \;
+  (\bar P,\nabla)
+  \colon
+  \underset{\omega \colon \flat_{dR} \mathbf{B}^2 G}{\prod}
+  \left(
+    \left(
+    \underset{x \colon X}{\sum}
+    \left(
+      F_x \simeq \omega
+    \right)
+    \right)
+    \to 
+    \left(
+    \underset{\mathbf{c} \colon \mathbf{B}G}{\sum}
+    \left(
+      curv_G(\mathbf{c}) \simeq \omega
+    \right)
+    \right)
+  \right)
+$$
+
+#### Fixed curvature twists
 
 $$
   \begin{aligned}
