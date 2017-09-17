@@ -116,7 +116,7 @@ This interpretation relies on a good relationship between $\leq$ and $=$ on the 
 
 ## References
 
-*  On constructivenews, a [discussion](http://groups.google.com/group/constructivenews/browse_thread/thread/5f65c7ac479c15dd) about applying Theorem \ref{taylor} to the case where $S$ and $V$ are both the set of [[natural numbers]].
+*  On constructivenews, a [discussion](http://groups.google.com/group/constructivenews/browse_thread/thread/5f65c7ac479c15dd) about Theorem \ref{taylor} in the case where $S$ and $V$ are both the set of [[natural numbers]].  (Apparently this fails in certain [[realizability topos]]es.)
 
 
 [[!redirects Cantor theorem]]
