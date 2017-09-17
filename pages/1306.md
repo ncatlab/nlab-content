@@ -181,7 +181,7 @@ This is ([Cisinski, prop. 8.1.31, 8.1.35](#Cisinski)).
 
 ### Model category structure on presheaves
 
-(...)
+(...) [[generalized Reedy model structure]]
 
 ## Examples
 
