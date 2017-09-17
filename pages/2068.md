@@ -113,3 +113,6 @@ Inner anodyne morphisms of [[dendroidal sets]] are discussed in
 
 [[!redirects anodyne extension]]
 [[!redirects anodyne extensions]]
+
+[[!redirects inner anodyne morphism]]
+[[!redirects inner anodyne morphisms]]
