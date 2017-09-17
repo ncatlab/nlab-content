@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _Lawvere--Tierney topology_  (or _operator_ , or _modality_ , also called _geometric modality_) on a [[topos]] is a way of saying that something is 'locally' [[true]].  Unlike a [[Grothendieck topology]], this is done directly at the stage of [[logic]], defining a _[[geometric logic]]_.  In fact, it is a generalisation of Grothendieck topology in this sense: If $C$ is a [[small category]], then choosing a Grothendieck topology on $C$ is equivalent to choosing a Lawvere--Tierney topology in the [[presheaf topos]] $\Set^{C^\op}$ on $C$.
+A _Lawvere--Tierney topology_  (or _operator_ , or _[[modal logic|modality]]_ , also called _geometric modality_) on a [[topos]] is a way of saying that something is 'locally' [[true]].  Unlike a [[Grothendieck topology]], this is done directly at the stage of [[logic]], defining a _[[geometric logic]]_.  In fact, it is a generalisation of Grothendieck topology in this sense: If $C$ is a [[small category]], then choosing a Grothendieck topology on $C$ is equivalent to choosing a Lawvere--Tierney topology in the [[presheaf topos]] $\Set^{C^\op}$ on $C$.
 
 The use of "topology" for this and the related Grothendieck concept is regarded by some people as unfortunate; see [[Grothendieck topology]] for some reasons why.  A proposed replacement for "Grothendieck topology" is [[coverage|(Grothendieck) coverage]]; see [[Grothendieck topology]] for some possible replacements for "Lawvere--Tierney topology."
 
@@ -31,7 +31,7 @@ Let $E$ be a [[topos]], with [[subobject classifier]] $\Omega$.
 +-- {: .num_defn #LTTopologyDef}
 ###### Definition
 
-A __Lawvere--Tierney topology__ in $E$ is an ([[internalization|internally]]) a [[exact functor|left exact]] [[monad]] on the internal meet-[[semilattice]] $\Omega$. 
+A __Lawvere--Tierney topology__ in $E$ is ([[internalization|internally]]) a [[exact functor|left exact]] [[monad]] on the internal meet-[[semilattice]] $\Omega$. 
 
 This means that: a Lawvere--Tierney topology in $E$ is a [[morphism]] 
 
@@ -249,7 +249,7 @@ $$
   \,.
 $$
 
-A [[subobject]] $J \hookrightarrow \Omega$ is therefore precisely a choice of a collection of sieves on each object, which is closed under pullback. The proof therefore amounts to checking that the condition that such a collection of sieves is a [[Grothendieck topology]] on $C$ is equivalent to the statement that the characteristic map $j : \Omega \to Omega$ of $J \hookrightarrow \Omega$ (see remark \ref{LTTopologyAsSubobject}) is a Lawvere-Tierney topology. 
+A [[subobject]] $J \hookrightarrow \Omega$ is therefore precisely a choice of a collection of sieves on each object, which is closed under pullback. The proof therefore amounts to checking that the condition that such a collection of sieves is a [[Grothendieck topology]] on $C$ is equivalent to the statement that the characteristic map $j : \Omega \to \Omega$ of $J \hookrightarrow \Omega$ (see remark \ref{LTTopologyAsSubobject}) is a Lawvere-Tierney topology. 
 
 =--
 
