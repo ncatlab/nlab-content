@@ -8031,15 +8031,43 @@ A survey is in ([FSS 12, section 5.2](#FiorenzaSatiSchreiberCSIntroAndSurvey)) a
 ## Lagrangians and Action functionals
  {#LagrangiansAndActionFunctionals}
 
-* [[Lagrangian]], [[extended Lagrangian]]
 
-* [[action functional]]
+
+
+
 
 * [[sigma-model]]
 
 ### Model layer
 
-(...)
+#### Lagrangians
+
+* [[Lagrangian]], [[action functional]]
+
+[[!include extended prequantum field theory - table]]
+
+#### Prequantum field theory
+
+The notion of _[[quantum field theory]]_ exists without reference to any predefined notion of _[[configuration space]]_ of _[[quantum fields]]_, _[[action functional]]_, _[[phase space]]_ etc.: 
+
+a [[quantum field theory]] in [[FQFT]]-[[axiomatization]] is simply a consistent assignment of [[spaces of quantum states]], whereas in [[AQFT]]-[[axiomatization]] it is a consistent assignment of [[algebras of quantum observables]], and that's it. 
+
+However, most (or maybe all?) quantum field theories of interest in actual [[physics]] (as opposed to as devices of pure [[mathematics]]) are not random models of these axioms, but do arise under a process called [[quantization]] from a ([[local Lagrangian]]/[[extended Lagrangian|extended]]) [[Lagrangian]], hence from an [[action functional]], defned on a [[configuration space]] of [[quantum fields]], or do arise as [[holographic duals]] of quantum field theories that arise by quantization. Moreover, the extra information provided by the Lagrangian is commonly used (and is maybe strictly necessary) to interpret the mathematical structure of the axiomatic QFT in actual [[physics]] (though notably in [[AQFT]] there are results that re-extract at least parts of this data from the axiomatic QFT, for instance the [[Doplicher-Roberts reconstruction theorem]] which extract the [[global gauge group]] from the [[local net of quantum observables]]).
+
+There are in turn two formalizations of the notion of [[quantization]]: _algebraic [[deformation quantization]]_ and _[[geometric quantization]]_. In the latter one speaks of _[[prequantization]]_ when referring to a precursor step to the actual quantization step, in which the [[symplectic form]] on [[phase space]] is lifted from to [[differential cohomology]], hence to a [[prequantum bundle]]. But in the context of [[higher geometry]] and [[higher geometric quantization]] this prequantization step is already part of the data of the [[Lagrangian]] itself: an [[extended Lagrangian]] already encodes not just the [[action functional]] but also the [[prequantum bundle]] and all the [[prequantum n-bundle|prequantum (n-k)-bundles]] in each [[dimension]] $k$. The action functional itself is the _[[prequantum 0-bundle]]_  in this context.
+
+Therefore, in the refined picture of [[higher geometry]]/[[extended quantum field theory]] it makes good sense to refer in a unified way to **prequantum field theory** for all of the data related to [[Lagrangians]] that is not yet the final [[quantum field theory]]. 
+
+In particular, an **extended prequantum field theory** of [[dimension]] $n$ is a rule that assigns
+
+* to every (suitably [[orientation|oriented]]) [[closed manifold]] of [[dimension]] $k$ a [[prequantum n-bundle|prequantum (n-k)-bundle]]
+
+* to every (suitably [[orientation|oriented]]) [[compact topological space|compact]] [[manifold with boundary]] $\Sigma_k$ a [[section]] of the prequantum $(n-k+1)$-bundle assigned to the [[boundary]] $\partial \Sigma_k$ and pulled back to the space of fields over $\Sigma_k$
+
+such that this data is related suitably under [[transgression]].
+
+The actual [[extended quantum field theory]] would be obtained from such a data by passing from the assignment of a given prequantum $(n-k)$-bundle to that of the [[n-vector space|(n-k)-vector space]] of [[polarization|polarized]] [[sections]] of a suitable [[associated infinity-bundle|associated]] [[fiber infinity-bundle|fiber bundle]].
+
 
 ### Semantics layer
 
