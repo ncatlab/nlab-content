@@ -21,5 +21,6 @@ For the time being see at _[[quantum computation]]_ for more.
 
 * [[Michael Freedman]], Michael Larsen, [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_ ([arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108))
 
+* Chetan Nayak, Steven H. Simon, Ady Stern, [[Michael Freedman]], Sankar Das Sarma, Non-Abelian Anyons and Topological Quantum Computation, ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
 
 [[!redirects topological quantum computing]]
