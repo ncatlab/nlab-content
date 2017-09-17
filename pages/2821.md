@@ -15,7 +15,7 @@
 
 ## Idea
 
-The endomorphism operad of a [[monoidal category]] $C$ is an [[operad]] whose $n$-ary operations are the [[morphisms]] out of $n$-fold [[tensor products]] in $C$, i.e.
+The _endomorphism operad_ of a [[monoidal category]] $C$ -- also called the _[[multicategory]] represented by $C$_ -- is an [[operad]] whose $n$-ary operations are the [[morphisms]] out of $n$-fold [[tensor products]] in $C$, i.e.
 
 $$
   End(C)_n(c_1, \cdots, c_n,c)
@@ -27,8 +27,11 @@ $$
 
 ## Definition ##
 
-Endomorphism operads come in two favors, one being a [[planar operad]], the other a [[symmetric operad]].
+Endomorphism operads come in two flavors, one being a [[planar operad]], the other a [[symmetric operad]]. Mostly the discussion of both cases proceeds in parallel.
 
+We first give the simple pedestrian definition in terms of explicit components, and then a more abstract definition, which is useful for studying some general properties of endomorphism operads.
+
+### In terms of components
 
 For $(C,\otimes, I)$ a ([[symmetric monoidal category|symmetric]]) [[monoidal category]], the **endomorphism operad** $End_C(X)$ of $X$ in $C$ is the [[symmetric operad]]/ [[planar operad]] whose colors are the obejects of $C$, and whose objects of $n$-ary operations are the [[hom objects]]
 
@@ -44,6 +47,46 @@ For $S \subset Obj(C)$ any subset of objects, the **$S$-colored endomorphism ope
 
 In particular, the endomorphism operad of a single object $c \in C$, often denoted $End(c)$, is the single-colored operad whose $n$-ary operations are the morphism $c^{\otimes n}\to c$ in $C$.
 
+### In terms of Cartesian monads
+
+Let $T : Set \to Set$ be the [[free monoid]] [[monad]]. Notice, from the discussion at _[[multicategory]]_, that a [[planar operad]] $P$ over [[Set]] with set of colors $C$ is equivalently a monad in the [[bicategory]] of $T$-[[spans]]
+
+$$
+  \array{
+     && P
+     \\
+     & \swarrow && \searrow
+     \\
+     T C && && C
+  }
+  \,.
+$$
+
+In this language, for $C$ a (strict) [[monoidal category]], the corresponding endomorphism operad is given by the $T$-span
+
+$$
+  \array{
+      && & & T Obj(C) \times_{Obj(C)} Mor(C)
+      \\
+      && & \swarrow && \searrow 
+      \\
+      && T Obj(C) && && Mor(C)
+     \\
+     & {}^{\mathllap{id}}\swarrow && \searrow^{\mathrlap{\otimes}}
+    && {}^{\mathllap{s}}\swarrow
+    && \searrow^{\mathrlap{t}}
+     \\
+     T Obj(C) &&&& Obj(C) &&&& Obj(C)
+  }
+  \,,
+$$
+
+where $\otimes : T Obj(C) \to C$ denotes the iterated tensor product in $C$, and
+where the top square is defined to be the [[pullback]], as indicated.
+
+
+
+
 ## Properties
 
 ### Algebras
@@ -54,9 +97,14 @@ $$
  \rho : P \to End(A)
 $$
 
-### Universal characterization 
 
-(...)
+### Relation to categories of operators
+ {#UniversalCharacterization}
+
+To every [[operad]] $P$ is associated its [[category of operators]] $P^{\otimes}$, which is a monoidal category. 
+With that suitably defined, forming endomorphism operads is  [[2-adjunction|right 2-adjoint]] to forming categories of operators. See ([Hermida, theorem 7.3](#Hermida)) for a precise statement in the context of [[non-symmetric operads]] and strict monoidal categories.
+
+
 
 ## Related concepts
 
@@ -68,6 +116,20 @@ $$
 
 ## References
 
+A general account of the definition of representable multicategories is in section 3.3 of 
+
+* [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv:math/0305049](http://arxiv.org/abs/math/0305049)
+
+Discussion of the [[2-adjunction]] with the [[category of operators]]-construction is in
+
 * [[Claudio Hermida]], _Representable multicategories_, Adv. Math. 151 (2000), no. 2, 164-225 ([pdf](http://wslc.math.ist.utl.pt/s84.www/cs/claudio/articles/rep-mult.pdf))
+  {#Hermida}
+
+Discussion in the context of [[generalized multicategories]] is in section 9 of
+
+* G. Cruttwell, [[Mike Shulman]], _A unified framework for generalized multicategories_ Theory and Applications of Categories, Vol. 24, 2010, No. 21, pp 580-655. ([TAC](http://www.tac.mta.ca/tac/volumes/24/21/24-21abs.html))
 
 [[!redirects endomorphism operads]]
+
+[[!redirects representable multicategory]]
+[[!redirects representable multicategories]]
