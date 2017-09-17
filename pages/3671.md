@@ -175,11 +175,11 @@ groups_, Topology __45__ (2006), no. 6, 955--988.
 {Du} M. J. Duff, _$E_8 \times SO(16)$ symmetry of $d = 11$ supergravity?_,
 in Quantum Field Theory and Quantum Statistics, eds. I. A. Batalin, C. Isham and G. A. Vilkovisky, Adam Hilger, Bristol,  UK 1986.
 
-{DGT} M. J. Duff, G. W. Gibbons and P. K. Townsend, Phys. Lett. __332B__ (1994) 321.
+{DGT} M. J. Duff, G. W. Gibbons and [[Paul Townsend]], Phys. Lett. __332B__ (1994) 321.
 
-{DHIS} M. J. Duff, P. S. Howe, T. Inami and K. S. Stelle, _Superstrings in $D=10$ from supermembranes in $D=11$_, Phys. Lett. __191B__ (1987) 70--74.
+{DHIS} [[Mike Duff]], [[Paul Howe]], T. Inami and K. S. Stelle, _Superstrings in $D=10$ from supermembranes in $D=11$_, Phys. Lett. __191B__ (1987) 70--74.
 
-{DLM} M. J. Duff, J. T. Liu, and R. Minasian, _Eleven-dimensional origin of string-string duality: a one loop test_, Nucl. Phys. __B452__ (1995) 261-282, [hep-th/9506126](http://arXiv.org/abs/hep-th/9506126).
+{DLM} [[Mike Duff]], J. T. Liu, and R. Minasian, _Eleven-dimensional origin of string-string duality: a one loop test_, Nucl. Phys. __B452__ (1995) 261-282, [hep-th/9506126](http://arXiv.org/abs/hep-th/9506126).
 
 {DNP} M. J.  Duff, B. E. W. Nilsson, and C. N. Pope, _Kaluza-Klein supergravity_, Phys. Rept. __130__ (1986) 1-142.
 
