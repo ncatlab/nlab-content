@@ -21,7 +21,8 @@
 
 ## Idea
 
-The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie groups]]. One way to characterize it is as the [[automorphism group]] of the [[octonions]].
+The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie groups]]. One way to characterize it is as the [[automorphism group]] of the [[octonions]]. Another way to characterize it is as the [[subgroup]] of the [[general linear group]] $GL(7)$ of those elements that preserve the canonical [[differential n-form|differential 3-form]]  $\langle ,(-)\times (-) \rangle$ on the [[Cartesian space]] $\mathbb{R}^7$. As such, the group $G_2$ is a higher analog of the [[symplectic group]] (which is the group that preserves a canonical 2-form on any $\mathbb{R}^{2n}$), obtained by passing from [[symplectic geometry]] of [[2-plectic geometry]].
+
 
 ## Definition
  {#Definition}
@@ -43,11 +44,22 @@ where
 
 * $(-)\times(-)$ is the [[cross product]] of vectors.
 
-Then the group $G_2 \hookrightarrow GL(7)$ is the [[subgroup]] of the [[general linear group]] acting on $\mathbb{R}^7$ which preserves this 3-form.
+Then the group $G_2 \hookrightarrow GL(7)$ is the [[subgroup]] of the [[general linear group]] acting on $\mathbb{R}^7$ which preserves the canonical [[orientation]] and preserves this 3-form $\omega$. Equivalently, it is the subgroup preserving the orientation and the [[Hodge star operator|Hodge dual]] differential 4-form $\star \omega$.
 
 =--
 
+See for instance the introduction of ([Joyce](#Joyce)).
+
 ## Properts
+
+### General
+
+The inclusion $G_2 \hookrightarrow GL(7)$ of def. \ref{As2PlectomorphismsOnR7} factors through the [[special orthogonal group]]
+
+$$
+  G_2 \hookrightarrow SL(7) \hookrightarow GL(7)
+  \,.
+$$
 
 ### Relation to higher prequantum geometry
 
@@ -68,7 +80,13 @@ Surveys are in
 
 * Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
 
-* Wikipedia, _[G2](http://en.wikipedia.org/wiki/G2_%28mathematics%29)_
+* Wikipedia, _[G2](http://en.wikipedia.org/wiki/G2_%28mathematics%29)_ .
+
+The definitions are reviewed for instance in 
+
+* [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
+ {#Joyce}
+
 
 Cohomological properties are discussed in 
 
