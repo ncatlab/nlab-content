@@ -157,8 +157,7 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 * [[quasicoherent sheaf]], [[flat module]], [[exact functor]]
 
-* [[Landweber exact functor theorem]]
-
+* [[Landweber exactness]]
 
 ## Lecture 16 _The Landweber exact functor theorem_ 
 
