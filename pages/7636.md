@@ -21,7 +21,7 @@
 
 ## Idea
 
-[[type theory|Type theory]] and certain kinds of [[category theory]] are closely related.  One may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory.  The flavor of category theory used depends on the flavor of type theory; this also extends to [[homotopy type theory]] and certain kind sof [[(∞,1)-category theory]].
+[[type theory|Type theory]] and certain kinds of [[category theory]] are closely related.  One may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory.  The flavor of category theory used depends on the flavor of type theory; this also extends to [[homotopy type theory]] and certain kinds of [[(∞,1)-category theory]].
  
 
 ## Overview
@@ -30,7 +30,7 @@
 | flavor of type theory  | $\;$equivalent to$\;$ | flavor of category theory | |
 |--|--|--|--|
 [[intuitionistic propositional logic]]/[[simply-typed lambda calculus]] | | [[cartesian closed category]] | |
-[[intuitionistic linear logic]] | | [[monoidal closed category]] | | 
+[[multiplicative intuitionistic linear logic]] | | [[symmetric monoidal closed category]] | | 
 [[classical linear logic]] | | [[star-autonomous category ]] | |
 |[[first-order logic]] |  | [[hyperdoctrine]] | ([Seely 1984a](#SeelyA)) |
 |[[Martin-Löf dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
