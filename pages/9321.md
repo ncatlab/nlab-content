@@ -11,6 +11,8 @@ An [[operad]] whose [[algebras over an operad]] are pairs consisting of an [[ass
 
 * [[associative operad]], [[commutative operad]]
 
+* [[operad for bimodules over algebras]]
+
 * [[model structure on modules over an algebra over an operad]]
 
 ## References
