@@ -61,7 +61,7 @@ A hypercover is called **bounded** by $n \in \mathbb{N}$ if for all $k \geq n$ t
 
 The smallest $n$ for which this holds is called the **height** of the hypercover.
 
-A hypercover that also satisfies a cofibrancy condition in the projective [[local model structure on simplicial presheaves]] (being locally a coproduct of represetables with degenerate cells splitting of as a direct summand) is called a **[[split hypercover]]
+A hypercover that also satisfies a cofibrancy condition in the projective [[local model structure on simplicial presheaves]] (being locally a coproduct of representables with degenerate cells splitting off as a direct summand) is called a **[[split hypercover]]
 
 =--
 
