@@ -20,6 +20,15 @@ A **coherent topos** is a [[sheaf topos]] with a [[site]] of definition that is 
 
 Notice that the terminology is slightly confusing: every topos is a [[coherent category]].
 
+## Properties
+
++-- {: .num_prop }
+###### Proposition
+
+Every coherent topos has [[point of a topos|enough points]].
+
+=--
+
 
 ## Examples
 
@@ -40,6 +49,7 @@ Notice that the terminology is slightly confusing: every topos is a [[coherent c
 Section D3.3 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
 
 [[!redirects coherent toposes]]
 [[!redirects coherent topoi]]
