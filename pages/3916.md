@@ -27,13 +27,13 @@ $$
   i : X \hookrightarrow Y
 $$ 
 
-be an [[embedding]].  Write $N_i X$ for the [[normal bundle]] of $X$ relative to $i$ and let $f : N_i X \to Y$ be any [[tubular neighbourhood]] of $i$. Finally write $Th(N_i X)$ for the [[Thom space]] of the normal bundle. 
+be an [[embedding]].  Write $N_i X$ for the [[normal bundle]] $i^* T Y/ T X$ of the immersion $i$ of $X$ and let $f : N_i X \to Y$ be any [[tubular neighbourhood]] of $i$. Finally write $Th(N_i X)$ for the [[Thom space]] of the normal bundle. 
 
 
 +-- {: .num_defn}
 ###### Definition
 
-The **collapse map** associated to $i$ and the choice of tubular neighbourhood $f$ is 
+The **collapse map** (or the _Pontrjagin-Thom construction_) associated to $i$ and the choice of tubular neighbourhood $f$ is 
 
 $$
   c_i : Y \to Y/(Y - f(N_i X)) \stackrel{\simeq}{\to}
@@ -50,6 +50,15 @@ Since every point of $N_i X$ is associated to a particular point of $X$, this ma
 $$ Y \to X_+ \wedge Th(N_i X) $$
 
 If $Y = S^n$ for some $n\in\mathbb{N}$, then this refined Thom collapse map induces a stable map $S \to \Sigma_+^\infty X \wedge \Sigma^{-n} Th(N_i X)$, where $S$ denotes the [[sphere spectrum]].  This stable map is the [[unit of an adjunction|unit]] which exhibits the [[suspension spectrum]] $\Sigma_+^\infty X$ as a [[dualizable object]] in the [[stable homotopy category]].  See [[n-duality]] and [[fixed point index]].
+
+Equivalently, one may proceed as follows. For a framed manifold i.e. a manifold $M^n$ with a chosen trivialization of the normal bundle $N_i (M^n)$ in some $\mathbf{R}^{n+r}$ one has $T N_i(M^n)\cong \Sigma^r(M^n_+)$ where $M^n_+$ is the union of $M^n$ with a disjoint base point. Identify a sphere $S^{n+r}$ with a one-point compactification  $\mathbf{R}^{n+r}\cup \{\infty\}$. Then the Pontrjagin-Thom construction is the map $S^{n+r}\to Th(N_i X)$ obtained by collapsing the complement of the interior of the unit disc bundle $D(N_i M^n)$ to the point corresponding to $S(N_i M^n)$ and by mapping each point of $D(N_i M^n)$ to itself. Thus to a framed manifold $M^n$ one associates the composition
+
+$$
+S^{n+r}\to Th(N_i X)\cong \Sigma^r M^n_+\to S^r
+$$
+
+and its homotopy class defines an element in $\pi_{n+r}(S^r)$. 
+
 
 
 ## Properties
@@ -82,8 +91,8 @@ An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Ko
 More details are in 
 
 * [[Ralph Cohen]], [[John Klein]], _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
-
-[[!redirects Pontryagin-Thom collapse map]]
+* Victor P. Snaith, _Stable homotopy around the arf-Kervaire invariant_, Birkhauser 2009
+[[!redirects Pontryagin-Thom construction]]
 [[!redirects Pontryagin-Thom collaps map]]
 [[!redirects Pontrjagin-Thom collaps map]]
 [[!redirects Pontrjagin-Thom collapse map]]
