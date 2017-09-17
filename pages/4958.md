@@ -40,7 +40,7 @@ A **local geometric morphism** $f : E \to S$ between [[(∞,1)-topos]]es $\mathb
     {\to}}  \mathbf{S}
   $$
 
-* such that a further [[right adjoint]] $f^! : \mathbf{S} \to \mathbf{H}$ 
+* such that a further [[right adjoint]] $f^! : \mathbf{S} \to \mathbf{H}$ exists:
 
   $$
     (f^* \dashv f_* \dashv f^!) : 
@@ -48,6 +48,8 @@ A **local geometric morphism** $f : E \to S$ between [[(∞,1)-topos]]es $\mathb
     \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
     \mathbf{S}
   $$
+
+* and such that some additional condition is satisfied.  See [[local geometric morphism]] for a list of equivalent conditions in the 1-categorical case; one or more of them should appear here.  (However, one may expect them to be redundant when $S=\infty Gpd$, just as they are redundant in the 1-categorical case when $S=Set$.)
 
 If $f : \mathbf{H} \to \mathbf{S}$ is the [[global section]] geometric morphism in the category of $(\infty,1)$toposes over $\mathbf{S}$, then we say that $\mathbf{H}$ is a **local $(\infty,1)$-topos**.
 
