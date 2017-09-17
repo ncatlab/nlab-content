@@ -1,0 +1,5 @@
+Noncommutative Hodge theory is being developed by L. Katzarkov, M. Kontsevich, and T. Pantev.
+
+Noncommutative Hodge theory is a generalization of Hodge theory which works for noncommutative spaces. In the theory of Katzarkov-Kontsevich-Pantev, noncommutative spaces are taken to be certain [[dg-categories]] (see the pages on [[noncommutative geometry]] and [[noncommutative algebraic geometry]]). In particular, they are interested in the dg-categories which arise in mirror symmetry: for example, [[Fukaya categories]], (dg enhanced) [[derived categories]] of (quasi-)coherent sheaves, [[matrix factorization]] categories, [[Fukaya-Seidel categories]]. The noncommutative analogue of [[Dolbeault cohomology]] is the [[Hochschild homology]] of the category. The analogue of [[de Rham cohomology]] is the periodic [[cyclic homology]] of the category.
+
+See "Hodge theoretic aspects of mirror symmetry" by Katzarkov-Kontsevich-Pantev http://arxiv.org/abs/0806.0107
