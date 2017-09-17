@@ -1,10 +1,16 @@
 
+
 * in [[group theory]]: cycle of a  [[permutation]]
 
 * in [[homological algebra]]: cycle in a [[chain complex]]
 
+  more generally: in a [[homology theory]] a representative for a class
+
   [[!include chains and cochains - table]]
 
+## Related concepts
+
+* [[Baum-Douglas geometric cycle]]
 
 category: disambiguation
 
