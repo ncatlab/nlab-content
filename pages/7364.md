@@ -1,18 +1,52 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An _elliptic fibration_ is a [[bundle]] of [[elliptic curves]].
+An _elliptic fibration_ is a [[bundle]] of [[elliptic curves]], possibly including some [[singularity|singular]] [[fibers]].
+
+An _elliptic surface_ is an elliptic fibration over an [[algebraic curve]].
 
 ## Definition
 
 (...)
 
+## Related entries
+
+* [[F-theory]], [[K3]]
+
 ## References
 
-* wikipedia, _[elliptic surface](http://en.wikipedia.org/wiki/Elliptic_surface)_
+* Wikipedia, _[elliptic surface](http://en.wikipedia.org/wiki/Elliptic_surface)_
+
+
+* [[Rick Miranda]], _The basic theory of elliptic surfaces_, lecture notes 1988 ([pdf](http://www.math.colostate.edu/~miranda/BTES-Miranda.pdf))
+
+* Viacheslav Nikulin, _Elliptic fibrations on K3 surfaces_ ([arXiv:1010.3904](http://arxiv.org/abs/1010.3904))
+
+* Fedor Bogomolov, Yuri Tschinkel, _Monodromy of elliptic surfaces_ ([[MonodromyOfEllipticSurfaces.pdf:file]])
+
+* Takahiko Yoshida, _Locally standard torus fibrations_ [pdf](http://www.isc.meiji.ac.jp/~takahiko/papers/sympo.pdf)
+
+
 
 [[!redirects elliptic fibrations]]
+
+[[!redirects elliptic surface]]
+[[!redirects elliptic surfaces]]
