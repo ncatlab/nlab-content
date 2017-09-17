@@ -609,7 +609,7 @@ $$
   C_\bullet : \Delta \to Ch_\bullet^+
 $$
 
-which sends a [[simplex]] to its (non-normalized) chain complex factors as
+which sends a [[simplex]] to its (normalized) chain complex factors as
 
 $$
   C_\bullet : \Delta \stackrel{\mathcal{O}}{\to} Str \infty Cat
@@ -679,7 +679,7 @@ $$
 
 =--
 
-**Remark** The alternative construction in [[Nonabelian Algebraic Topology]] yields properly homs out of the normalized chain complex $N_\bullet \Delta[n]$ instead. Moreover, it factors also versions of the nonabelian Dold-Kan correspondence through the $\omega$-nerve.
+**Remark** The alternative construction in [[Nonabelian Algebraic Topology]] factors also versions of the nonabelian Dold-Kan correspondence through the $\omega$-nerve.
 
 
 ## References
