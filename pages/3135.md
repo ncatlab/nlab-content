@@ -102,12 +102,13 @@ $U(1)$ is the [[circle group]].
 
 ## Related concepts
 
-The subgroup of unitary matrices with [[determinant]] equal to 1 is the [[special unitary group]]. The [[quotient]] by the [[center]] is the [[projective unitary group]].  The space of equivalence classes of unitary matrices under conjugation is the [[symmetric product of circles]].
+* The subgroup of unitary matrices with [[determinant]] equal to 1 is the [[special unitary group]]. The [[quotient]] by the [[center]] is the [[projective unitary group]].  The space of equivalence classes of unitary matrices under conjugation is the [[symmetric product of circles]].
 
+* The analog of the unitary group for real metric spaces is the [[orthogonal group]].
 
-The analog of the unitary group for real metric spaces is the [[orthogonal group]].
+* The [[Lie algebra]] is the [[unitary Lie algebra]].
 
-The [[Lie algebra]] is the [[unitary Lie algebra]].
+* [[unitary representation]]
 
 [[!redirects unitary group]]
 [[!redirects unitary groups]]
