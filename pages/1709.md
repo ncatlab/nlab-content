@@ -74,7 +74,7 @@ $$
   \,.
 $$
 
-Higher-order approximations should involve a notion of higher-order forms of the tangent (∞,1)-topos, in parallel with the relationship between the [[jet bundles]] and [[tangent bundle]] of a manifold. It is clear that whatever we may say in detail about the $k$th-jet $\infty$-topos $J^k \mathbf{H}$, its intrinsic cohomology is a version of twisted cohomology which is in between [[nonabelian cohomology]] and stable i.e. [[generalized (Eilenberg-Steenrod) cohomology]].
+Higher-order approximations should involve a notion of higher-order forms of the tangent (∞,1)-topos, in parallel with the relationship between the [[jet bundles]] and [[tangent bundle]] of a manifold. It is clear that whatever we may say in detail about the $k$th-[[jet (∞,1)-category|jet (∞,1)-topos]] $J^k \mathbf{H}$, its intrinsic cohomology is a version of twisted cohomology which is in between [[nonabelian cohomology]] and stable i.e. [[generalized (Eilenberg-Steenrod) cohomology]].
 
 It seems that a layered analysis of nonabelian cohomology this way in higher homotopy theory should eventually be rather important, even if it hasn't received any attention at all yet. It seems plausible that a generalization of [[Chern-Weil theory]] which approximates classes of [[principal infinity-bundles]] not just by [[universal characteristic classes]] in [[ordinary cohomology]] and hence in stable cohomology, but that one wants to consider the whole Goodwillie Taylor tower of approximations to it.
 
