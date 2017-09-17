@@ -337,6 +337,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ### D3 Classifying toposes
 
+* [[syntactic site]]
+
 * [[classifying topos]]
 
 #### D3.1 Classifying toposes via syntactic sites
