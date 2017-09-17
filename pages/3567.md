@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -24,6 +24,8 @@ By $Ho(Top)$ one denotes the [[category]] which is the [[homotopy category]] of 
 Depending on context here [[Top]] contains all topological spaces or is some subcategory of [[nice topological space]]s.
 
 The study of $Ho(Top)$ was the motivating example of [[homotopy theory]]. Often $Ho(Top)$ is called _the_ homotopy category.
+
+The [[simplicial localization]] of [[Top]] at the [[weak homotopy equivalences]] yields the [[(∞,1)-category]] of [[∞-groupoids]]/[[homotopy types]].
 
 ## Compactly generated spaces
 
@@ -42,6 +44,11 @@ By the [[homotopy hypothesis]]-theorem $Ho(CW)$ is equivalent for instance to th
 ## Shape theory
 
 The category $Ho(Top)_{he}$ can be studied by testing its objects with objects from $Ho(CW)$. This is the topic of [[shape theory]].
+
+## Related concepts
+
+* [[Ho(sSet)]]
+
 
 category: category
 
