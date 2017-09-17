@@ -1,10 +1,82 @@
 
-## Idea
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
 
-A _Hamiltonian action_ of a [[Lie group]] $G$ on a [[symplectic manifold]] is an [[action]] by [[Hamiltonian symplectomorphisms]].
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+### Integrated
+
+Given a [[symplectic manifold]] $(X,\omega)$, there is the group of [[Hamiltonian symplectomorphisms]] $Sympl(X,\omega)$ [[action|acting]] on $X$. If $(X,\omega)$ is [[prequantum line bundle|prequantizable]] this lifts to the group of [[quantomorphisms]], both of them covering the [[diffeomorphisms]] of $X$:
+
+[[quantomorphisms]] $\to$ [[Hamiltonian symplectomorphisms]] $\to$ [[diffeomorphisms]] .
+
+A _Hamiltonian action_ of a [[Lie group]] $G$ on $(X,\omega)$ is an [[action]] by [[quantomorphisms]], hence a [[Lie group]] [[homomorphism]] $\hat \phi : G \to Quant(X, \omega)$
+
+$$
+  \array{
+     && Quant(X, \omega)
+     \\
+     & {}^{\mathllap{\hat \phi}}\nearrow & \downarrow
+     \\
+     G &\stackrel{\phi}{\to}& HamSympl(X, \omega)
+     \\
+     & {}_{\mathllap{}}\searrow & \downarrow
+     \\
+     && Diff(X) 
+  }
+  \,.
+$$
+
+### Differentially
+
+In the literature this is usually discussed at the [[infinitesimal object|infinitesimal]] level, hence for the corresponding  [[Lie algebras]]:
+
+[[smooth functions]]+[[Poisson bracket]] $\to$ [[Hamiltonian vector fields]] $\to$ [[vector fields]]
+
+Now an (infinitesimal) **Hamiltonian action** is a Lie algebra [[homomorphism]] $\mu : \mathfrak{g} \to (C^\infty(X), \{-,-\})$
+
+$$
+  \array{
+     && C^\infty(X)
+     \\
+     & {}^{\mathllap{\mu}}\nearrow & \downarrow
+     \\
+     \mathfrak{g} &\stackrel{}{\to}& HamVect(X, \omega)
+     \\
+     & {}_{\mathllap{}}\searrow & \downarrow
+     \\
+     && Vect(X) 
+  }
+  \,.
+$$
+
+Dualizing, the homomorphism $\mu$ is equivalently a linear map
+
+$$
+  \tilde \mu : X \to \mathfrak{g}^*
+$$
+
+which is a homomorphism of [[Poisson manifolds]]. This is called the **[[moment map]]** of the (infinitesimal) Hamiltonian $G$-action.
+
+**Warning** The lift from $\phi$ to $\hat \phi$ above, hence from the _existence_ of [[Hamiltonians]] to an actual _choice_ of Hamiltonians is in general indeed a choice. There may be different choices. In the literature the difference between $\hat \phi$ and $\phi$ (or of their Lie theoretic analogs) is not always clearly made.
+
 
 ## Related concepts
 
 * [[moment map]]
 
 [[!redirects Hamiltonian actions]]
+
+[[!redirects Hamiltonian G-action]]
+[[!redirects Hamiltonian G-actions]]
