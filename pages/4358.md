@@ -5,7 +5,7 @@ Classically, $1$ was also counted as a prime number, but that is no longer done;
 
 A number is prime if and only if it generates a [[maximal ideal]] in the [[rig]] $\mathbb{N}$ of natural numbers.
 
-Prime numbers do *not* quite match the [[prime elements]] of $\mathbb{N}$, since $0$ generates a [[prime ideal]] but not a maximal ideal.
+Prime numbers do *not* quite match the [[prime elements]] of $\mathbb{N}$, since $0$ generates a [[prime ideal]] but not a maximal ideal; instead they match the [[irreducible element]]s ([Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Irreducible_element)).
 
 
 [[!redirects prime number]]
