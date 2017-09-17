@@ -443,10 +443,14 @@ Standard textbook accounts include the following:
 
 Lecture notes include
 
+* Daniel Murfet, _Tor_  ([pdf](http://therisingsea.org/notes/Tor.pdf))
+
 section 3 of 
 
 * [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
  {#May}
+
+
 
 Original articles include
 
