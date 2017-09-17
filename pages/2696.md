@@ -62,6 +62,9 @@ Since [[homotopy type theory]] admits models in [[(∞,1)-toposes]] (and in part
 
 Whitehead's principle does hold, however, for maps between [[homotopy n-types]] for any finite $n$; this is provable in homotopy type theory by [[induction]] on $n$.
 
+## Related concepts
+
+* [[mod p Whitehead theorem]]
 
 ## References
 
