@@ -336,6 +336,10 @@ This Hopf-direction has been advanced by many authors including [[Shahn Majid]] 
 
 * K. Szlachanyi, _Fiber functors, monoidal sites and Tannaka duality for bialgebroids_, [arxiv/0907.1578](http://arxiv.org/abs/0907.1578)
 
+More on Tannak duality for Hopf algebras is in 
+
+* [[Daniel Schäppi]], _Tannak duality for comonoids in cosmoi_ ([arXiv:0911.0977](http://arxiv.org/abs/0911.0977))
+
 A generalization of several classical reconstruction theorems with nontrivial [[functional analysis]] is in 
 
 * [[Alexander Rosenberg|Alexander L. Rosenberg]],  _Reconstruction of groups_, Selecta Math. (N.S.) __9__, 1 (2003), 101--118, [doi](http://dx.doi.org/10.1007/s00029-003-0322-x).
