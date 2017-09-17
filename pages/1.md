@@ -67,7 +67,7 @@ In case that you do feel that this is not an option and that you do need to cont
 
 If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
 
-If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://goo.gl/2k3nD)!
+If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://nforum.mathforge.org/)!
 
 ## Using the $n$Lab
  {#TermsOfUse}
