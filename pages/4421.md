@@ -208,7 +208,7 @@ $$
   = 
   c_1 \langle A \wedge F_A \wedge \cdots \wedge F_A \rangle
   + 
-  c_2 \langle A \wedge [\wedge A \wedge A] \wedge F_A \wedge \cdots F_A \rangle
+  c_2 \langle A \wedge [A \wedge A] \wedge F_A \wedge \cdots F_A \rangle
   +
   \cdots
   \,.
