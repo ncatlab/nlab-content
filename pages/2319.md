@@ -141,7 +141,7 @@ where lifts through the stages correspond to
 
 * [[fivebrane structure]]
 
-and where the obstruction classes are the [[universal characteristic classes]]
+and where the [[obstruction]] classes are the [[universal characteristic classes]]
 
 * [[first Stiefel-Whitney class]] $w_1$
 
