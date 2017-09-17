@@ -1,6 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Mathematics
++-- {: .hide}
 [[!include mathematicscontents]]
-</div>
+=--
+=--
+=--
 
 
 
