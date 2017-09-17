@@ -49,7 +49,7 @@ The concept of base change generalises from this case to other [[fibered categor
 
 The [[duality|dual]] concept is [[cobase change]].
 
-## Base change geometric morphisms
+## Base change geometric morphisms {#GeometricMorphism}
 
 If $\mathbf{H}$ is a [[topos]] (or [[(∞,1)-topos]], etc.) $f : X \to Y$ a [[morphism]] in $\mathbf{H}$, then base change provides a functor over [[overcategories]] (which are again [[topos]]es)
 
