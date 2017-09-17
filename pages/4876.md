@@ -132,8 +132,6 @@ The characterization of [[D-brane]] [[submanifolds]] for the [[open string]] WZW
 
    For the open string [[CFT]] to still have [[current algebra]] [[worldsheet]] symmetry, hence for half the current algebra symmetry of the closed WZW string to be preserved, the [[D-brane]] [[submanifolds]] need to be [[conjugacy classes]] of the group manifold (see e.g. [Alekseev-Schomerus](#AlekseevSchomerus) for a brief review and further pointers). These conjugacy classes are therefore also called the **symmetric D-branes**.
 
-   Notice that these conjugacy classes are equivalently the [[leaves]] of the [[foliation]] induced by the canonical [[Cartan-Dirac structure]] on $G$, hence (by the discussion at [[Dirac structure]]), the leaves induced by the  [[Lagrangian dg-submanifold|Lagrangian sub-Lie 2-algebroids]] of the [[Courant Lie 2-algebroid]] which is the [[higher gauge groupoid]] of the background [[B-field]] on $G$. 
-
 1. cohomological condition: 
 
    In order for the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] of the [[worldsheet]] [[action functional]] of the open WZW string to vanish, the D-brane must be equipped with a [[Chan-Paton gauge field]], hence a [[twisted unitary bundle]] ([[bundle gerbe module]]) of some rank $n \in \mathbb{N}$ for the restriction of the ambient [[B-field]] to the brane. 
