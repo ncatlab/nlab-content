@@ -24,6 +24,25 @@ The notion of planar operads takes its name from the fact that the operations in
 
 Multi-coloured planar operads over [[Set]] are equivalently known as _[[multicategories]]_.
 
+## Definition
+
+In the context of [[(∞,1)-operads]] $\mathcal{O}$ exhibited by their [[(∞,1)-categories of operators]] $\mathcal{O}^\otimes$, a **planar $(\infty,1)$-operad** is a [[fibration of (∞,1)-operads]]
+
+$$
+  \mathcal{O}^\otimes \to Assoc^\otimes
+$$
+
+to the [[assoiative operad]]/[[A-∞ operad]]. ([Lurie, def. 4.1.1.6](#Lurie))
+
+## Properties
+
+### Relation to symmetric operads
+ {#RelationToSymmetricOperads}
+
+Planar operads embed into [[symmetric operads]] by [[slice category|slicing]] over the [[associative operad]] (regarded as a symmetric operad). For more details see at [Symmetric operad -- Relation to planar operads](symmetric+operad#RelationToPlanarOperads).
+
+
+
 ## Examples
 
 * The operad [[Assoc]] for associative [[monoids]] is the [[terminal object]] in the category of planar $V$-operads, for choices such as $V = $  [[Set]], [[sSet]], [[Top]], etc.
@@ -34,6 +53,15 @@ Multi-coloured planar operads over [[Set]] are equivalently known as _[[multicat
 * [[symmetric operad]]
 
 * [[multicategory]]
+
+## References
+
+Discussion in the context of the [[higher algebra]] of [[(∞,1)-operads]] is in section 4.1.1 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
+
+
 [[!redirects planar operads]]
 
 [[!redirects non-symmetric operad]]
@@ -44,3 +72,8 @@ Multi-coloured planar operads over [[Set]] are equivalently known as _[[multicat
 
 [[!redirects non-permutative operad]]
 [[!redirects non-permutative operads]]
+
+[[!redirects planar (∞,1)-operad]]
+[[!redirects planar (∞,1)-operads]]
+[[!redirects planar (infinity,1)-operad]]
+[[!redirects planar (infinity,1)-operads]]
