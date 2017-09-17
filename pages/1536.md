@@ -572,3 +572,5 @@ See also
 A [[model category]] presentation of the Grothendieck construction is given in 
 
 * [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
+
+* [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_, [arXiv](http://arxiv.org/abs/1404.1852).
