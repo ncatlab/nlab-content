@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 # Linear orders
-* tic
+* table of contents
 {: toc}
 
 ## Idea
@@ -46,8 +57,9 @@ The Mac Neille real numbers have both $\lt$ and $\leq$; however, in this case, n
 
 [[Baire space of irrational numbers|Baire space]] and [[Cantor space]], being representable as subspaces of the real line, of course are linearly ordered.  It\'s also interesting to see them as coming from the (decidable) linear orders on $\mathbf{N}$ and $\mathbf{2}$, which they are $\mathbf{N}$-fold products of.
 
+## Properties
 
-## Relation to total orders
+### Relation to total orders
 
 Using excluded middle, one can move between linear orders and [[total order]]s using [[negation]]; that is, the negation of a linear order is a total order and vice versa.  Actually one usually swaps the order too, as follows:
 * $x \lt y$ iff $y \nleq x$;
@@ -68,6 +80,12 @@ Constructively, these are still the default definitions to use; that is, if one 
 One often sees $x \lt y$ defined as $x \le y$ but $x \ne y$; this is equivalent, but doesn\'t show the de Morgan duality explicitly.  Similarly, one often sees $x \leq y$ defined as $x \lt y$ or $x = y$; this is not even equivalent constructively, although it is classically.
 
 Keep in mind, however, that the only use of [[excluded middle]] in the classical theory is the assumption that $x = y$, $x \lt y$, and $x \leq y$ are always either true or false.  There is therefore a perfect correspondence between [[decidable subset|decidable]] linear orders and decidable total orders on sets with [[decidable equality]].
+
+### Classifying topos
+
+There is a [[classifying topos]] for [[inhabited set|inhabited]] linear orders. It is given by the [[category]] of [[cosimplicial sets]], hence by the [[presheaf topos]] over the [[opposite category]] of the [[simplicial category]]. 
+
+For more see at _[[classifying topos]]_ the section _[For (inhabited) linear orders](http://ncatlab.org/nlab/show/classifying+topos#ForLinearOrders)_.
 
 
 [[!redirects linear order]]
