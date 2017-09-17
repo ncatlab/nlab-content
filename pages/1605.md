@@ -74,3 +74,5 @@ A pedadogically aimed study of higher doctrines, using the simple definition of 
 [Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
 
 * [[Higher doctrines]].
+
+[[!redirects doctrines]]
