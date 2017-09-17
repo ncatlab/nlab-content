@@ -341,3 +341,6 @@ MathOverflow questions: [mathematics-of-path-integral-state-of-the-art](http://m
 * Theo Johnson-Freyd, _The formal path integral and quantum mechanics_, J. Math. Phys. __51__, 122103 (2010) [arxiv/1004.4305](http://arxiv.org/abs/1004.4305),  [doi](http://dx.doi.org/10.1063/1.3503472); _On the coordinate (in)dependence of the formal path integral_, [arxiv/1003.5730](http://arxiv.org/abs/1003.5730)
 
 [[!redirects path integrals]]
+
+[[!redirects Feynman path integral]]
+[[!redirects Feynman path integrals]]
