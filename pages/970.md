@@ -80,6 +80,7 @@ There are various notions and techniques to deal with this problem and reduce or
 
 * [[universe enlargement]]
 
+* [[very large (∞,1)-sheaf (∞,1)-topos]]
 
 [[!redirects large category]]
 [[!redirects large categories]]
