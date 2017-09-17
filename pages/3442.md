@@ -144,6 +144,8 @@ In this diagram now
 
 * [[ordinary differential equation]]
 
+* [[Green's function]]
+
 * [[differential Galois theory]]
 
 * [[D-module]], [[D-geometry]]
