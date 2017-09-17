@@ -35,20 +35,27 @@ If a strongly connected topos is also a [[local topos]], then it is a [[cohesive
 
 ## Related concepts
 
-* [[essential geometric morphism]]
-
-  * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
+* [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
   * [[connected topos]] / [[∞-connected (∞,1)-topos]]
 
-  * **strongly connected topos**
+  * **strongly connected topos** / [[strongly ∞-connected (∞,1)-topos]]
 
-  * [[totally connected topos]] / [[totally connected (∞,1)-topos]]
+  * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
 
 * [[local topos]] / [[local (∞,1)-topos]].
 
 * [[cohesive topos]] / [[cohesive (∞,1)-topos]]
 
+and
+
+* [[locally connected site]], [[locally ∞-connected site]]
+
+* [[connected site]]
+
+* [[local site]]
+
+* [[cohesive site]]
 
 
 
