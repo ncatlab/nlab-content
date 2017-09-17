@@ -2,7 +2,7 @@ A *Galois module* is a $G$-module for a [[Galois group]] $G$; i.e. it is an abel
 
 The category of $G$-modules is equivalent to the category of [[module|modules]] over the [[group algebra|group ring]] $\mathbb{Z}[G]$.
 
-As always is the case, a group representation $G\times A\to A$ can equivalently be written as $G\to Aut(A)$. This is why Galois modules are frequently called *Galois representations*.
+As always is the case, a group [[action]] $G\times A\to A$ can equivalently be written as $G\to Aut(A)$. This is why Galois modules are frequently called *Galois representations*.
 
 ## Properties
 
@@ -73,13 +73,13 @@ If $k$ is a finite field or a number field the conjecture is true.
 
 +-- {: .num_example}
 ###### Example
-($l$-adic cohomology of a smooth variety)
+([[p-adic cohomology|l-adic cohomology]] of a smooth variety)
 
 Let $l$ be a prime number. Let $X$ be a [[variety||smooth variety]] over a field $k$ of characteristic prime to $l$. Let $k_s$ denote the separable closure of $k$. 
 
-The $l$-adic cohomology in degree $n$ is defined to be $lim H^n_{et}(X_{k_s}, \mathbb{Z}/l^n\mathbb{Z})$. It is a Galois module where the action is given by pullback.
+The $l$-adic cohomology in degree $i$ is defined to be the directed limit $lim_n\; H^i_{et}(X_{k_s}, \mathbb{Z}/l^n\mathbb{Z})$. It is a Galois module where the action is given by pullback.
 
 More specifically, given $\sigma\in Gal(k\hookrightarrow k_s)$ it acts on the $X_{k_s}=X\otimes_k k_s$ via the second factor. This is an isomorphism, since $\sigma$ is an automorphism, and hence $\sigma^*$ on cohomology is an isomorphism.
 
-Note that since we have an identification $T_l A\simeq H_{et}^1(A_{k_s}, \mathbb{Z}_l)^\vee$, we have that the $l$-adic Tate module is a special case of the $l$-adic cohomology.
+Note that since we have a equivalence $T_l A\simeq H_{et}^1(A_{k_s}, \mathbb{Z}_l)^\vee$, we have that the [[Tate module|l-adic Tate module]] is a special case of the $l$-adic cohomology.
 =--
