@@ -212,6 +212,9 @@ See also
 
 * [[Neil Strickland]], _Products on $MU$-modules_ ([pdf](http://hopf.math.purdue.edu/Strickland/mult.pdf))
 
+### Equivariant theory
+
+See at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_
 
 [[!redirects complex cobordism spectrum]]
 [[!redirects periodic complex cobordism spectrum]]
