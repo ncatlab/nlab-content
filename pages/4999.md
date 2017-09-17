@@ -93,7 +93,7 @@ The usual semantics of modal languages is in terms of [[frame (modal logic)|fram
 
 General books on modal logics include
 
-* P. Blackburn, M. de Rijke and Y. Vedema, _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
+* P. Blackburn, M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
 
 * M. Kracht, _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
 
