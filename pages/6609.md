@@ -1,4 +1,7 @@
 
+> This is about tensor quantities in the sense of [[differential geometry]] and [[physics]]. For the different notion of  the same nale in [[enriched category theory]] see under _[[copower]]_. 
+
+***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -19,19 +22,15 @@
 * table of contents
 {:toc}
 
-This is about tensor quantities like used in physics and geometry. For the notion of a "tensor" in [[enriched category theory]] see under [[copower]]. 
 
 ## Definition
 
-### General
 
-Generally, a _tensor_ is an element of a [[tensor product]].
-
-### In differential geometry
+Generally, a _tensor_ is an [[element]] of a [[tensor product]].
 
 Traditionally this is considered in [[differential geometry]] for the following case:
 
-for $X$ a [[manifold]], $T X$ the [[tangent bundle]], $T^* X$ the [[cotangent bundle]], $\Gamma(T X)$, $\Gamma(T^* X)$ their spaces of [[sections]] and $C(X)$ the [[associative algebra]] of [[functions]] on $X$, a **[[rank]]-$(p,q)$ tensor** on $X$ is an element of the [[tensor product of modules]] over $C(X)$
+for $X$ a [[manifold]], $T X$ the [[tangent bundle]], $T^* X$ the [[cotangent bundle]], $\Gamma(T X)$, $\Gamma(T^* X)$ their spaces of [[sections]] and $C(X)$ the [[associative algebra]] of [[functions]] on $X$, a **[[rank]]-$(p,q)$ tensor** or **tensor field** on $X$ is an element of the [[tensor product of modules]] over $C(X)$
 
 $$
   t \in \Gamma(T X)^{\otimes_{C(X)}^p} \otimes_{C(X)} \Gamma(T^* X)^{\otimes^q_{C(X)}}
@@ -44,7 +43,11 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 
 ### General
 
+(...)
+
 ### In differential geometry
+
+* A [[vector field]] is a ranl $(1,0)$-tensor field.
 
 * A [[Riemannian metric]] is a symmetric rank $(2,0)$-tensor.
 
@@ -55,7 +58,23 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 
 * [[decomposable tensor]]
 
+* [[field (physics)]]
+
+## References
+
+For instance section 2.4 of 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
+
+
+
+
 [[!redirects tensor]]
+
+[[!redirects tensor field]]
+[[!redirects tensor fields]]
+
 [[!redirects covariant tensor]]
 [[!redirects contravariant tensor]]
 [[!redirects covariant tensors]]
