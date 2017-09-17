@@ -24,6 +24,9 @@ _Quantum computation_ is [[computation]] in terms of [[quantum information theor
 
 Specifically, _topological quantum computation_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]]. A prominent example of this is the (fractional) [[quantum Hall effect]] in [[solid state physics]].
 
+There are arguments that a good formal context for quantum computing is (via [[computational trinitarianism]]) [[linear logic]]/[[linear type theory]] (e.g. [Lago-Faffian 12](#LagoFaffian12)). See also at _[[quantum logic]]_.
+
+
 ## Programing languages
 
 * A [[functional programming language]] for quantum computing is _[[Quipper]]_.
@@ -54,6 +57,8 @@ Discussion of quantum computation as the [[internal logic|internal]] [[linear lo
 * [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://homepages.ulb.ac.be/~rduncan/papers/rduncan-thesis.pdf), [slides](http://www.cs.ox.ac.uk/people/ross.duncan/talks/2005/pps-22-05-2005.pdf))
  {#Duncan06}
 
+* Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
+ {#LagoFaffian12}
 
 An exposition along these lines is in
 
