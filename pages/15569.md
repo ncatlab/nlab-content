@@ -849,9 +849,9 @@ By [this proposition](nonunital+Ek-algebra#RelationToAugmentedEkAlgebras) ([Luri
 Notice that in addition $\Pi_{\mathfrak{a}}$ here should preserve [[finite products]] (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
 [this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing) finite coproducts in $CRng(A Mod)$ are computed in the underlying $A Mod$.
 
-Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine [[E-∞ geometry|E-∞]]-[[arithmetic geometry]] -- namely on [[Isbell duality|formal duals]] of [[nonunital E-∞ rings]] under $Spec(\mathbb{S})$.
+Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine [[E-∞ geometry|E-∞]]-[[arithmetic geometry]] under $Spec(\mathbb{S})$ -- namely on [[Isbell duality|formal duals]] of [[nonunital E-∞ rings]] .
 
-(It may be entertaining to note that on the level of [[quasicoherent ∞-stack|quasicoherent sheaves]] [[E-∞ arithmetic geometry]] under $Spec(\mathbb{S})$ translates to [[∞-modules]] over the [[sphere spectrum]] which has been argued to be the homotopy-theoretic inveranation of [[superalgebra]], see at _[superalgebra -- abstract idea](super+algebra#AbstractIdea)_ for more on this.)
+(It may be entertaining to note that on the level of [[∞-groups of units]] then [[E-∞ arithmetic geometry]] under $Spec(\mathbb{S})$ translates to [[abelian ∞-groups]] of [[twisted cohomology|twists]] over the [[sphere spectrum]] -- which has been argued to be the homotopy-theoretic inveranation of [[superalgebra]], see at _[superalgebra -- abstract idea](super+algebra#AbstractIdea)_ for more on this.)
 
 =--
 
