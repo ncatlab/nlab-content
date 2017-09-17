@@ -119,27 +119,6 @@ $$
 
 This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#BunkeNaumann)). It is mentioned for instance also in ([Freed, slide 5](#Freed)).
 
-### Relation to $Spin^c$-structures
- {#RelationToSpincStructures}
-
-
-We have a [[pasting diagram]] of [[homotopy pullback]] squares,
-
-
-$$
-  \array{
-    2\mathbf{Frame} &\to& * 
-    \\
-    \downarrow && \downarrow
-    \\
-    Q &\to& \mathbf{B}Spin^c(6) &\to& \mathbf{B}U(1)
-    \\
-    \downarrow && \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1\;mod\;2}}
-    \\
-    \mathbf{B}SO(3) &\to& \mathbf{B}SO(6) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}
-  }
-$$
-
 ## Related concepts
 
 * [[framed manifold]]
