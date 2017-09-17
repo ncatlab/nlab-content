@@ -8,9 +8,9 @@
 
 ### Extension of morphisms
 
-The __extensions of a morphism__ $f: A\to Y$ along monomorphisms $i: A\hookrightarrow X$ as a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes, extends along more general morphisms than monomorphisms. 
+The __extension of a morphism__ $f: A\to Y$ along a monomorphism $i: A\hookrightarrow X$ is a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes, extends along more general morphisms than monomorphisms. 
 
-The dual problem is the problem of **lifting** of a morphism $p: Y\to B$ along an epimorphism (or more general map) $f:X\to B$ as a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
+The dual problem is the problem of **lifting** a morphism $p: Y\to B$ along an epimorphism (or more general map) $f:X\to B$ to become a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
 
 ### Extension of an object by another object 
 
