@@ -21,7 +21,9 @@
 
 The standard [[model (in theoretical physics)]] for the [[observable universe]] on the largest length scales of [[cosmology]]:
 
-an [[cosmic inflation|inflationary]] [[FRW spacetime]] with [[cosmological constant]] and cold [[dark matter]].
+it is an [[cosmic inflation|inflationary]] [[FRW spacetime]] with [[cosmological constant]] ("[[dark energy]]") and cold [[dark matter]]. The technical term for this is the _$\Lambda$ CDM concordance model_ (where "$\Lambda$" is the standard symbol for the [[cosmological constant]] and "CDM" is for "cold dark matter"). 
+
+
 
 The current model assumes that the energy density of the [[observable universe]] consists of
 
