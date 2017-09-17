@@ -5,14 +5,22 @@
 
 ## Idea ##
 
-An _allegory_ is a category with properties meant to reflect the properties one expects of a category of [[Rel|relations]]. The notion was first introduced in the book [[Categories, Allegories]] by [[Peter Freyd|Freyd]] and Scedrov. 
+An _allegory_ is a category with properties meant to reflect the properties one expects of a category of [[Rel|relations]]. The notion was first introduced (as far as we know) in the book [[Categories, Allegories]] by [[Peter Freyd|Freyd]] and Scedrov. 
 
 ## Definition
 
 An **allegory** is a [[(1,2)-category]] $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \to A$ which is the identity on objects, such that
 
 * each hom-poset $A(x,y)$ has binary [[intersections]], and
-* the *modular law* holds: for $\phi\colon x\to y$, $\psi\colon y\to z$, and $\chi\colon x\to z$, we have $\psi \phi \cap \chi \le \psi (\phi \cap \psi^o \chi)$.
+* the *modular law* holds: for $\phi\colon x\to y$, $\psi\colon y\to z$, and $\chi\colon x\to z$, we have $\psi \phi \cap \chi \le \psi (\phi \cap \psi^o \chi)$. 
+
+## Examples 
+
+* If $C$ is a [[regular category]] and $Rel(C)$ is the [[locally posetal]]  [[bicategory]] of [[relations]], then $Rel(C)$ is an allegory. 
+
+* Any [[first-order hyperdoctrine with equality]] similarly gives rise to an allegory, as does any abstract [[bicategory of relations]] in the sense of Carboni-Walters. 
+
+* Any [[modular lattice]] can be regarded as a one-object allegory if we take composition to be union and the involution to be the identity. 
 
 ## Maps, tabulations, and units
 
