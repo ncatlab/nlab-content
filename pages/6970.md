@@ -94,6 +94,7 @@ In [[categorical semantics]] this is the statement that a [[section]] of a produ
 
 ## Related concepts
 
+* [[function application]]
 * [[dependent product type]]
 * [[lambda calculus]]
 
