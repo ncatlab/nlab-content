@@ -5,4 +5,6 @@
 
 * [[Dwyer-Kan localization]]
 
+
+[[!redirects W. G. Dwyer]]
 category: people
