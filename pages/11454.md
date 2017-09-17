@@ -20,7 +20,7 @@
 
 ## Definition
 
-For $S$ a [[scheme]], a _cubic curve_ over $S$ is a scheme $p \colon X \to S$ over $S$ equipped with a [[section]] $e \colon S \to X$ and such that [[Zariski topology|Zariski locally]] on $S$, $X$ is given by an in $\mathbb{P}_S^2$ of the form
+For $S$ a [[scheme]], a _cubic curve_ over $S$ is a scheme $p \colon X \to S$ over $S$ equipped with a [[section]] $e \colon S \to X$ and such that [[Zariski topology|Zariski locally]] on $S$, $X$ is given by a solution in [[projective space]] $\mathbb{P}_S^2$ of an [[equation]] of the form
 
 $$
   y^2 + a_1 x y = x^3 + a_2 x^2 + a_4 x + a_6
