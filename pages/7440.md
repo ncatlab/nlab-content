@@ -111,7 +111,7 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]].
 
 We discuss in the following a sequence of [[reflective sub-(∞,1)-categories]] of that of [[simplicial objects in an (∞,1)-category]] $\mathcal{C}^{\Delta^{op}}$ in $\mathcal{C}$, see there for more details.
 
-We frequently refer to the [[powering]] of a simplicial object $X_\bullet$ by a [[simplicial set]], into an object in $\mathcal{C}$, denoted $X(K)$. For details on this see at _[simplicial object in an (∞,1)-category -- Powering](#simplicial+object+in+an+%28infinity%2C1%29-category#Powering)_.
+We frequently refer to the [[powering]] of a simplicial object $X_\bullet$ by a [[simplicial set]], into an object in $\mathcal{C}$, denoted $X(K)$. For details on this see at _[simplicial object in an (∞,1)-category -- Powering](simplicial+object+in+an+%28infinity%2C1%29-category#Powering)_.
 
 
 
