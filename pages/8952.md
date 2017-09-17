@@ -9,17 +9,16 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 What is called _observational type theory_ (OTT) is a flavor of [[type theory]] in between [[extensional type theory]] and [[intensional type theory]].
 
 It may be regarded as a first-stage approximation to 
-[[homotopy type theory]] (HoTT): the [[propositions]] of OTT correspond to the [[h-proposition]] of HoTT, and the [[types]] in OTT correspond to [[h-sets]] in HoTT. The notion of [[equality]] on OTT is based on [[setoids]], which is a special case of [[internal category in an (infinity,1)-category|higher internal groupoids]]. There are a few technical differences (e.g. proofs of propositions are [[definitional equality|definitionally equal]] in OTT, whereas proofs of hprops are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like a higher-dimensional version of OTT.
+[[homotopy type theory]] (HoTT): the [[propositions]] of OTT correspond to the [[h-propositions]] of HoTT, and the [[types]] in OTT correspond to [[h-sets]] in HoTT. The notion of [[equality]] on OTT is based on [[setoids]], which is a special case of [[internal category in an (infinity,1)-category|higher internal groupoids]]. There are a few technical differences (e.g. proofs of propositions are [[definitional equality|definitionally equal]] in OTT, whereas proofs of hprops are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like a higher-dimensional version of OTT.
 
 
 ## References
@@ -32,4 +31,6 @@ The above comparison between OTT and HoTT is taken from
 
 * [[Dan Licata]], _[comment](http://homotopytypetheory.org/2012/11/12/abstract-types-with-isomorphic-types/#comment-2476)_
 
+
+[[!redirects observational type theory]]
 [[!redirects observational type theories]]
