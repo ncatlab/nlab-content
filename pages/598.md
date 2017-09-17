@@ -10,10 +10,9 @@
 =--
 =--
 
-> under construction
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -108,11 +107,84 @@ Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$
 
 * There is a functor due to Dwyer and Kan, called the [[Dwyer-Kan loop groupoid]] that takes a  simplicial set to a simplicial groupoid. This has a left adjoint $\overline{W}$ (see below), called the _classifying space_ functor, and together they give an equivalence of categories between the homotopy category of simplical sets and that of simplicial groupoids. We thus have that all homotopy types are modelled by simplicial groupoids ... and for connected homotopy types by simplicial groups. One *important fact* to note in this equivalence is that it shifts dimension by 1, so if $G(K)$ is the simplicial group corresponding to the connected simplicial set $K$ then $\pi_k(K)$ is the same as $\pi_{k-1}(G(K))$.  This is important when considering algebraic models for a [[homotopy n-type]].
 
+### Fiber sequences
+ {#FiberSequences}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $G$ be a simplicial gorup and $G_0$ its group of 0-cells, regarded as a simplicially constant simplicial group. Write $G/G_0$ for the evident [[quotient]] of simplicial groups.
+
+The evident morphisms
+
+$$
+  G_0 \to G \to G/G_0 \simeq \mathbf{B} \Omega G/G_0
+$$
+
+form a [[fiber sequence]] in [[sSet]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks that for $X$ any simplicial set and $G$ a simplicial group acting on it, the [[quotient]] map
+
+$$
+  X \to X/G
+$$
+
+is a [[Kan fibration]]. This is for instance 
+([Weibel, exercise 8.2.6](#Weibel)). By the disucssion at [[fiber sequence]] it is therefore sufficient to observe that
+
+$$
+  \array{
+    G_0 &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\to& G/G_0
+  }
+$$
+
+is an ordinary [[pullback]] of simplicial sets. 
+This is clear since the action of $G_0$ on $G$ is degreewise free (being the action of a subgroup).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $(G_1 \stackrel{\delta}{\to} G_0)$ be a [[crossed module]] of groups, write 
+
+$$
+  [G_1 \stackrel{\delta}{\to} G_0]
+  =
+  \left(
+    G_0 \times G_1 
+    \stackrel{\overset{(\delta p_2)\cdot p_1}{\to}}{\underset{p_1}{\to}}
+    G_0
+  \right)
+$$
+
+for [[groupoid]] which is the corresponding [[strict 2-group]] and write $N[G_1 \to G_0]$ for the [[nerve]] being the corresponding simplicial group. Then the above says that
+
+$$
+  G_0 \to [G_1 \stackrel{\delta}{\to} G_0]
+  \to 
+  \mathbf{B}G_1
+$$
+
+is a fiber sequence of [[groupoid]]s. 
+
+=--
+
+
 ###  Free simplicial groups
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
-
+ 
 The [[stuff, structure, property|forgetful functor]]
 
 $$
@@ -584,6 +656,11 @@ Also chapter IV of
 
 * [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
   {#MaySimplicialObjects}
+
+and chapter 8 of
+
+* [[Charles Weibel]], _An introduction to homological algebra_ Cambridge (1994)
+ {#Weibel}
 
 The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. This is originally due to
 
