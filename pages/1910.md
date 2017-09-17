@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -13,7 +13,7 @@ The _Waldhausen S-construction_ on a Waldhausen category $C'$ produces a [[simpl
 
 ## Definition ##
 
-Recall from the definition at [[K-theory]] that the K-theory spectrum $K(C)$ of the [[(∞,1)-category]] $C$ is the diagonal simplicial set on the bisimplicial set $Core(Func(\Delta^n,C))$ of sequences of morphisms in $C$ and equivalences between these.
+Recall from the definition at [[K-theory]] that the K-theory spectrum $K(C)$ of the [[(∞,1)-category]] $C$ is the diagonal simplicial set on the [[bisimplicial set]] $Core(Func(\Delta^n,C))$ of sequences of morphisms in $C$ and equivalences between these (the [[core]] of the [[Segal space]] induced by $C$).
 
 The Waldhausen S-construction mimics precisely this: for $C'$ a [[Waldhausen category]] for every integer $n$ define a simplicial set $S_n C'$ to be the [[nerve]] of the category whose
 
