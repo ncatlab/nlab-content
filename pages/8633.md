@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Under the [interpretation of modules as generalized vector bundles](http://ncatlab.org/nlab/show/module#RelationToVectorBundlesInIntroduction) a [[module]] being _locally free_ corresponds to the corresponding [[bundle]] being _locally trivial bundle_, hence a [[fiber bundle]].
+
+Since a _trivial bundle_ corresponds to a [[free module]], a _locally free module_ is such that its [[localization of a module|localization]] to any [[maximal ideal]] is a [[free module]].
+
+
+## Definition
+
++-- {: .num_defn #LocallyFreeModule}
+###### Definition
+
+For $R$ a [[Noetherian ring]], an $R$-[[module]] $N$ is called a **locally free module** if for every [[maximal ideal]] $I \hookrightarrow R$ the [[localization of a module|localization]] $N_I$ is a [[free module]] over the [[localization of a ring|localization]] $R_I$. 
+
+=--
+
+## Properties
+
++-- {: .num_prop }
+###### Proposition
+
+If the the module $N$ is a [[finitely generated module]] then it is locally free precisely if it is a [[flat module]].
+
+=--
+
+[[!redirects locally free modules]]
