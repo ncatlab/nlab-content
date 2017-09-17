@@ -31,12 +31,17 @@ One striking insight by [[Vladimir Voevodsky]] was that Coq naturally lends itse
 ### Formalization of set-based mathematics
   {#FormalizationOfSetBasedMathematics}
 
-
 Projects include
 
 * [ForMath](#ForMath)
 
 * [MathClasses](#MathClasses)
+
+### Formalized proofs
+
+Major [[theorems]] whose [[proofs]] have been fully formalized in Coq include
+
+* [[Feit-Thompson theorem]]
 
 ### Homotopy type theory
   {#HomotopyTypeTheory}
