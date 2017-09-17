@@ -305,7 +305,7 @@ Now, just because a real number has an expansion as a continued fraction, that d
 
 * A. Ya. Khinchin, _Continued fractions_, U. Chicago Press 1964. 
 
-* Bill Gosper, ["Continued fraction arithmetic"](http://hack.org/mc/writings/hackerdom/hakmem/cf.html), MIT AI, Memo 239 HAKMEN, 1972.  Unpublished memo describing algorithms for performing arithmetic directly with continued fractions.  (See also [this paper](http://home.strw.leidenuniv.nl/~gurkan/gosper.pdf).)
+* Bill Gosper, ["Continued fraction arithmetic"](http://hack.org/mc/writings/hackerdom/hakmem/cf.html), MIT AI, Memo 239 HAKMEN, 1972.  Unpublished memo describing algorithms for performing arithmetic directly with continued fractions.  (See also [this paper](http://perl.plover.com/classes/cftalk/INFO/gosper.txt).)
 
 * [[Louis Kauffman]] and Sofia Lambropoulou, _On the classification of rational tangles_, arXiv ([web](http://arxiv.org/pdf/math/0311499.pdf)). 
  {#KL} 
