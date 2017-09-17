@@ -21,6 +21,14 @@
 
 A natural [[tensor product]] of [[chain complexes]] that makes the [[category of chain complexes]] into a [[closed monoidal category]].
 
+## Applications
+
+* A [[monoid]] with respect to the tensor product of chain complexes is a [[differential graded algebra]].
+
+## Related concepts
+
+* [[internal hom of chain complexes]]
+
 ## References
 
 For instance section 2.7 of 
