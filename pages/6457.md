@@ -19,6 +19,7 @@
 A _simplicial Lie algebra_ is a [[simplicial object]] in the [[category]] of [[Lie algebra]]s.
 
 ## Properties
+ {#Properties}
 
 +-- {: .num_theorem}
 ###### Theorem
