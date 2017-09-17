@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -32,17 +32,23 @@ Using refined [[Chern-Weil theory]] the notions of [[curvature characteristic fo
 
 The notion in its general cohomological sense appears in
 
-* Franklin P. Peterson, Norman Stein, _Secondary characteristic classes_ , Annals of mathematics, Vol 76, No. 3 (1962) {#PetersonStein}
+* Franklin P. Peterson, Norman Stein, _Secondary characteristic classes_ , Annals of mathematics, Vol 76, No. 3 (1962)
+{#PetersonStein}
 
 The special meaning in the context of [[Chern-Weil theory]] in [[differential geometry]] was established by the introduction of [[Cheeger-Simons differential character]]s. Reviews of that include
 
-* [[Dan Freed]], _Classical Chern-Simons theory II_ ([pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf)) {#FreedCSII}
+* [[Dan Freed]], _Classical Chern-Simons theory II_ ([pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf))
+{#FreedCSII}
 
-* [[Johan Dupont]], Franz Kamber, _Gerbes, Simplicial forms and Invariants for Families of Foliated Bundles_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.1375&rep=rep1&type=pdf)) {#Kamber}
+* [[Johan Dupont]], Franz Kamber, _Gerbes, Simplicial forms and Invariants for Families of Foliated Bundles_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.1375&rep=rep1&type=pdf))
+{#Kamber}
 
-* Michelle Karlsson, _Characteristic classes and bounded cohomology_ ([pdf](http://www.math.ethz.ch/u/burger/karlsson.pdf)) {#Karlsson}
+* Michelle Karlsson, _Characteristic classes and bounded cohomology_ ([pdf](http://www.math.ethz.ch/u/burger/karlsson.pdf))
+{#Karlsson}
 
 
+
+[[!redirects secondary characteristic class]]
 [[!redirects secondary characteristic classes]]
 
 [[!redirects secondary characteristic form]]
