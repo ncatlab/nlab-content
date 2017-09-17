@@ -292,6 +292,24 @@ $$
 
 =--
 
++-- {: .un_prop}
+###### Corollary
+
+We have that the free loop space object of $X \in \mathbf{H}$ is equivalently the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">powering</a> of $X$ by the $\infty$-groupoid $S^1$:
+
+$$  
+  \mathcal{L} X \simeq X^{S^1}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Follows by the above from the equivalence $[LConst S^1 , X] \simeq X^{S^1}$ discussed at [[(∞,1)-topos]].
+
+=--
+
 #### Intrinsic circle action
 
 The realization of the free loop space object as an internal hom out of the circle induced a canonical [[action]] of the circle on $\mathcal{L}X$.
