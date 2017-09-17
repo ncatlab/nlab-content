@@ -9,9 +9,22 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 One of the [[exceptional Lie groups]].
+
+## Related concepts
+
+* [[exceptional geometry]], [[exceptional generalized geometry]]
+
+* [[G2]], [[F4]],
+
+  [[E6]], **E7**,  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
+
 
 ## References
 
