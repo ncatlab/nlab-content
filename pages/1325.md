@@ -54,11 +54,11 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
 
 * an [[associative algebra]] is an algebra over the [[associative operad]].
 
-  * an [[A-infinity-algebra]] is an algebra over a cofibrant resolution of $Assoc$.
+  * an [[A-infinity algebra]] is an algebra over a cofibrant [[resolution]] of $Assoc$.
 
 * a [[commutative algebra]] is an algebra over the [[commutative operad]].
 
-  * an [[E-infinity-algebra]] is an algebra over a cofibrant resolution of the commutative operad
+  * an [[E-infinity algebra]] is an algebra over a cofibrant [[resolution]] of the commutative operad
 
 * etc.
 
@@ -66,9 +66,21 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
 
 * [[algebra over a monad]]
 
-* [[algebra over an algebraic theory]] / [[homotopy T-algebra]]
+  [[∞-algebra over an (∞,1)-monad]] 
 
-* **algebra over an operad** / [[∞-algebra over an (∞,1)-operad]]
+* [[algebra over an algebraic theory]] 
+
+  [[∞-algebra over an (∞,1)-algebraic theory]]
+
+  * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
+
+* **algebra over an operad** 
+
+   [[∞-algebra over an (∞,1)-operad]]
+
+   * [[model structure on algebras over an operad]]
+
+
 
 
 [[!redirects algebra over operad]]
