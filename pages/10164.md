@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 ## Definition
 
 Given a [[linear map|linear]] [[endomorphism]], an _[[eigenvector]]_ of it is a [[vector]] which is taken by the linear map to a multiple of itself. This multiple is called the _eigenvalue_ of the eigenvector.
