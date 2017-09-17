@@ -173,4 +173,4 @@ Other references are
 
    * D. Pataraia, Internal categories in the left exact cosimplicial category. Georgian Math. J. 4 (1997), No. 6, 533-556. (<a href="http://www.emis.de/journals/GMJ/vol4/contents.htm">link</a>)
 
-* Luis Javier Hern&aacute;ndez-Paricio, _Fundamental pro-groupoids and covering projections_([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm156/fm15611.pdf))
+* [[Luis Javier Hernández-Paricio]], _Fundamental pro-groupoids and covering projections_([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm156/fm15611.pdf))
