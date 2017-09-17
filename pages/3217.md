@@ -1,22 +1,49 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc} 
 
+## Idea
+
+A _foliation_ of a [[manifold]] $X$ is a decomposition into [[submanifolds]] in a well-behaved way. These submanifolds are called the _leaves_ of the foliation and one says that $X$ is _foliated by the leaves_.
+
+For [[smooth manifolds]] $X$, foliations arise (and this was the historical motivation for introducing them in ([Ehresmann](#Ehresmann)), ([Reeb](#Reeb))) from subbundles of the [[tangent bundle]] $E \hookrightarrow T X$ which are [[integrable distributions]] (in that the [[Lie bracket]] of [[vector fields]] that are [[sections]] of $E$ is again a section of $E$): the leaves are the submanifolds whose tangent vectors are sections of $E$. If one thinks of $E$ as encoding a [[differential equation]] then the leaves are the solution spaces to this equation.
+
+Expressed in terms of [[higher Lie theory]] such an integrable distribution is a sub-[[Lie algebroid]] of the [[tangent Lie algebroid]] of $X$. Accordingly, under [[Lie integration]] of this structure foliations of $X$ are also equivalently encodes as [[Lie groupoids]] whose space of objects is $X$ and whose [[orbits]] are the leaves of the foliation.
+
+Moreover, foliations are classified by [[Cech cohomology]] [[cocycles]] with coefficients in a [[topological groupoid]]/[[Lie groupoid]] called the _[[Haefliger groupoid]]_. These relations make foliation theory of sub-topic of [[Lie groupoid]]-theory. See also at _[[motivation for higher differential geometry]]_.
 
 ## Definition
 
-Let $M$ be an $n$-[[dimension]]al topological [[manifold]]. The decomposition of $M$ as a disjoint union of connected subsets $V_\alpha$, called **leaves**, 
+Let $M$ be an $n$-[[dimension]]al topological [[manifold]]. A decomposition of $M$ as a [[disjoint union]] of [[connected topological space|connected]] subsets $V_\alpha$, called **leaves**, 
 
 $$ M  = \cup_\alpha V_\alpha $$
 
-is called a **foliation** if there is a cover of $M$ by a collection of "special" charts of the form $(U, \phi)$, $\phi = (\phi_1,\ldots,\phi_n) : U \to \mathbb{R}^n$ such that for each "special" chart and each $\alpha$ there is a number $p = p\leq n$, called the dimension of the foliation, such that the intersection of any given leaf $V_\alpha$ with $U$ is one of the level sets, i.e. the solution of the system $\phi_r(x) = const = const(r,U,\alpha)$ for all $r\gt p$.
+is called a **foliation** if there is a [[cover]] of $M$ by a collection of "special" [[charts]] of the form $(U, \phi)$, $\phi = (\phi_1,\ldots,\phi_n) : U \to \mathbb{R}^n$ such that for each "special" chart and each $\alpha$ there is a number $p\leq n$, called the _dimension of the foliation_, such that the intersection of any given leaf $V_\alpha$ with $U$ is one of the level sets, i.e. the solution of the system $\phi_r(x) = const = const(r,U,\alpha)$ for all $r\gt p$.
 
-If the manifold is a [[smooth manifold]], the charts are required to be smooth too. In the smooth case, the $p$-dimensional foliations with underlying manifold $M$ are in 1-1 correspondence with [[integrable distributions]] of hyperplanes of dimension $p$ in tangent bundle of $N$. 
+If the manifold is a [[smooth manifold]], the charts may be required to be smooth too, to obtain the notion of a _smooth foliation_ or _folitation in [[differential geometry]]_. In this case, the $p$-dimensional foliations with underlying manifold $X$ are in 1-1 correspondence with [[integrable distributions]] of hyperplanes of dimension $p$ in the [[tangent bundle]] of $X$. 
+
+Foliatons are classified by maps into the [[Haefliger groupoid]]. More generally this yields _[[Haefliger structures]]_, a slight generalization of the notion of foliation.
  
 ## Examples
 
-* Every [[Lie groupoid]] gives a folitation on its space of [[object]]s: the leaves are the [[orbit]]s. Conversely, every regular foliation gives rise to its [[holonomy groupoid]]. This is a (not necessarily Hausdorff) Lie groupoid whose orbits are the leaves of the original foliation, and which in some sense is minimal with this condition.
+* Every [[Lie groupoid]] gives a folitation on its space of [[objects]]: the leaves are the [[orbits]]. Conversely, every regular foliation gives rise to its [[holonomy groupoid]]. This is a (not necessarily Hausdorff) Lie groupoid whose orbits are the leaves of the original foliation, and which in some sense is minimal with this condition.
 
 * Every [[Poisson manifold]] has a canonical structure of a foliation whose leaves are its maximal [[symplectic manifold|symplectic]] submanifolds, called *[[symplectic leaves]]*.
 
@@ -54,7 +81,7 @@ A discussion in [[differential geometry]] is in
 
 A textbook on the modern formulation in [[Lie groupoid]] theory is 
 
-* [[Ieke Moerdijk]], [[Janez Mrčun]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
+* [[Ieke Moerdijk]], [[Janez Mrčun]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
 
 
 See als
