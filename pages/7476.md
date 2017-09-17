@@ -1,5 +1,5 @@
 
-**[[(0,1)-category theory]]**, [[logic]], [[order theory]]
+**[[(0,1)-category theory]]**: [[logic]], [[order theory]]
 
 **[[(0,1)-category]]**
 
@@ -27,6 +27,10 @@
 
 * [[distributive lattice]],  [[completely distributive lattice]], [[canonical extension]]
 
+* [[hyperdoctrine]]
+
+  * [[first-order hyperdoctrine|first-order]], [[Boolean hyperdoctrine|Boolean]], [[coherent hyperdoctrine|coherent]], [[tripos]]
+
 **[[(0,1)-topos]]**
 
 * [[Heyting algebra]]
@@ -40,3 +44,6 @@
 ## Theorems
 
 * [[Stone duality]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/%280%2C1%29-category+theory+-+contents)</div>
+
