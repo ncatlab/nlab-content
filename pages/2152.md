@@ -114,6 +114,8 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 * [[Oka principle]], [[B1-homotopy theory]]
 
+* [[p-adic geometry]]
+
 ## References
  {#References}
 
