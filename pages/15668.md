@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[arithmetic geometry]] over a [[finite field]] a _shtuka_ on an [[arithmetic scheme]] is essentially an [[equivariant bundle|equivariant]] [[algebraic vector bundle]] on the [[product]] of the scheme with a given [[arithmetic curve]], where equivariance is with respect to the [[action]] of the [[Frobenius endomorphism]] (e.g. [Scholze-Weinstein, def. 1](#ScholzeWeinstein14)).
 
 ( _Shtuka_ is a Russian word colloquially meaning "thing".)
 
@@ -26,3 +43,4 @@ More conceptual discussion, in the context of the [[function field analogy]], is
 * {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
 
 [[!redirects shtukas]]
+
