@@ -1,0 +1,11 @@
+Higher dimensional transitions systems are thought of as modelling concurrent operation of interacting transitions systems. They are related to applications of [[directed homotopy theory]], and [[directed algebraic topology]].
+
+##References
+
+* [[Gian Luca Cattani]], [[Vladimiro Sassone]]  _[Higher Dimensional Transition Systems](http://eprints.soton.ac.uk/261954/1/hdtsLICSoff.pdf)_ In, 11th Symposium of Logics in Computer Science, LICS '96. IEEE Press, 55-62,(1996).
+
+* [[Philippe Gaucher]], _Directed algebraic topology and higher dimensional transition system_, [arxiv:0903.4276](http://arxiv.org/abs/0903.4276)
+
+*  [[Philippe Gaucher]],_Towards a homotopy theory of higher dimensional transition systems_, [arxiv:1011.0918](http://arxiv.org/abs/1011.0918)
+
+category:computer science
