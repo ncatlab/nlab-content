@@ -24,6 +24,8 @@
 
 * [[dagger monoidal category]]
 
+* [[symmetric monoidal dagger-category]]
+
 * [[dagger compact category]]
 
 ## With traces
@@ -70,7 +72,11 @@
 
 * [[k-tuply monoidal n-category]]
 
-* [[monoidal (infinity,1)-category]]
+  * [[little cubes operad]]
+
+* [[monoidal (∞,1)-category]]
+
+  * [[symmetric monoidal (∞,1)-category]]
 
 * [[compact double category]]
 
