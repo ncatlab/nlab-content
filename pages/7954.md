@@ -17,9 +17,15 @@
 
 > This entry is being splitt-off from _[[BRST-BV formalism]]_. For the moment see the discussion there at _[Hamiltonian BFV](BV-BRST+formalism#HamiltonianBV)_.
 
+## Properties
+
+* [[Guillemin-Sternberg geometric quantization conjecture]]
+
 ## Related concepts
 
 * [[Hamiltonian action]]
+
+
 
 The analog for [[presymplectic manifolds]] is [[presymplectic reduction]].
 
