@@ -1,9 +1,15 @@
-#Definition:#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
 A simplicial complex $K$ is a set of objects, $V(K)$, called **vertices** and a set, $S(K)$, of finite non-empty subsets of $V(K)$, called **simplices**.  The simplices satisfy the condition that if $\sigma \subset V(K)$ is a simplex and $\tau \subset \sigma$, $\tau \ne \emptyset$, then $\tau$ is also a simplex.  
 
 We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ elements it is said to be a **$p$-simplex**.  The set of $p$-simplices of $K$ is denoted by $K_p$. The **dimension** of $K$ is the largest $p$ such that $K_p$ is non-empty.
 
-##Simplicial complexes v. simplicial sets##
+## Simplicial complexes v. simplicial sets
 
 Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a simplicial set, you must pick a total order on the set of vertices. Without an order on the vertices you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. 
 
@@ -24,19 +30,20 @@ An abstract simplicial complex is a combinatorial gadget that models certain asp
 
 
 
-###Idea###
- To each simplicial complex $K$, one can associate a topological space called the _polyhedron_ of $K$ often also called or  _geometric realisation_ of $K$ and denoted $|K|$.   
+### Idea
+
+To each simplicial complex $K$, one can associate a topological space called the _polyhedron_ of $K$ often also called or  _geometric realisation_ of $K$ and denoted $|K|$.   
 
 
 This can be constructed by taking a copy $K(\sigma)$ of a standard topological $p$-simplex for each $p$-simplex of $K$ and then 'gluing' them together according to the face relations encoded in $K$.
 
 
 
-####Definition#### 
+#### Definition
 
 The _standard (topological) $p$-simplex_ is usually  taken to be the convex hull of the basis vectors $\mathbf{e}_1, \mathbf{e}_2,\ldots, \mathbf{e}_{p+1}$ in $\mathbb{R}^{p+1}$, to represent each abstract $p$-simplex, $\sigma\in S(K)$, and then 'gluing' faces together, so whenever $\tau$ is a face of $\sigma$ we identify $K(\tau)$ with the corresponding face of $K(\sigma)$. This space is usually denoted $\Delta^p$.
 
-####Canonical constructions####
+#### Canonical constructions
 
 As a set, $|K|$ is constructed as follows: 
 
@@ -63,9 +70,13 @@ Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is 
 
 ## References
 
-John Baez and Alex Hoffnung, Convenient Categories of Smooth Spaces [(arXiv)](http://arxiv4.library.cornell.edu/PS_cache/arxiv/pdf/0807/0807.1704v4.pdf)
+A standard textbook reference is
 
-Edwin Spanier, Algebraic Topology, McGraw-Hill, 1966. 
+* Edwin Spanier, _Algebraic Topology_ , McGraw-Hill, 1966. 
+
+That simplicial complexes form a [[quasitopos]] of [[concrete sheaves]] is discussed in 
+
+* [[John Baez]] and [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_ [(arXiv)](http://arxiv4.library.cornell.edu/PS_cache/arxiv/pdf/0807/0807.1704v4.pdf)
 
 
 [[!redirects simplicial complexes]]
