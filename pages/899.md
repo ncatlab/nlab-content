@@ -1,4 +1,4 @@
-#Contens#
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
@@ -14,7 +14,7 @@ More explicitly, it is a group equipped with a topology such that the multiplica
 
 ## Uniform structure
 
-A topological group $G$ carries two canonical [[uniform space|uniformities]]: a right and left uniformity. The **left uniformity** consists of entourages $\sim_{l, U}$ where $x \sim_U y$ if $x y^{-1} \in U$; here $U$ ranges over neighborhoods of the identity that are symmetric: $g \in U \Leftrightarrow g^{-1} \in U$. The **right uniformity** similarly consists of entourages $\sim_{r, U}$ where $x \sim_{r, U} y$ if $x^{-1} y \in U$. The uniform topology for either coincides with the topology of $G$. 
+A topological group $G$ carries two canonical [[uniform space|uniformities]]: a right and left uniformity. The **left uniformity** consists of entourages $\sim_{l, U}$ where $x \sim_{l, U} y$ if $x y^{-1} \in U$; here $U$ ranges over neighborhoods of the identity that are symmetric: $g \in U \Leftrightarrow g^{-1} \in U$. The **right uniformity** similarly consists of entourages $\sim_{r, U}$ where $x \sim_{r, U} y$ if $x^{-1} y \in U$. The uniform topology for either coincides with the topology of $G$. 
 
 Obviously when $G$ is commutative, the left and right uniformities coincide. They also coincide if $G$ is compact Hausdorff, since in that case there is only one uniformity whose uniform topology reproduces the given topology. 
 
@@ -69,7 +69,7 @@ $$
       R: G \to \mathcal{U}(L^2(G))
 $$
 $$
-         g \mapsto (R_g: f(x) \mapsto f(xg))
+         g \mapsto (R_g: f(x) \mapsto f(x g))
 $$
 and this will generally not be continuous in the norm topology, but is always continuous in the strong topology. 
 
