@@ -391,6 +391,9 @@ Discussion of cohomology of $L_\infty$-algebras is in
 [[!redirects L-∞ extension]]
 [[!redirects L-∞ extensions]]
 
+[[!redirects Lie algebroid cohomology]]
+[[!redirects Lie algebroid cocycle]]
+[[!redirects Lie algebroid cocycles]]
 
 [[!redirects ∞-Lie algebroid cocycles]]
 [[!redirects L-∞-algebroid cocycles]]
