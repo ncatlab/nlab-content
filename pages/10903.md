@@ -23,7 +23,7 @@
 
 Dependent linear type theory should be a combination of _[[dependent type theory]]_ and _[[linear type theory]]_.
 
-Following the notion of [[hyperdoctrine]] this should mean, in terms of [[categorical semantics]], that dependent linear type theory is for each [[context]] $\Gamma$ a [[linear type theory]]/[[star-autonomous category]] $(\mathcal{C}_{\Gamma}, \otimes, 1)$ and for each [[homomorphism]] of contexts $f \;\colon\; \Gamma_1 \longrightarrow \Gamma_2$ an [[adjoint triple]] of [[functors]]
+Following the notion of [[hyperdoctrine]] this should mean, in terms of [[categorical semantics]], that dependent linear type theory is for each [[context]] $\Gamma$ a [[linear type theory]]/possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] $(\mathcal{C}_{\Gamma}, \otimes, 1)$ and for each [[homomorphism]] of contexts $f \;\colon\; \Gamma_1 \longrightarrow \Gamma_2$ an [[adjoint triple]] of [[functors]]
 
 $$
   (f_! \dashv f^\ast \dashv f_\ast) 
@@ -34,7 +34,7 @@ $$
   \,.
 $$
 
-where $f^\ast$ is [[context extension]] and where $f_!$ and $f^\ast$ are linear analogs of [[dependent sum]] and [[dependent product]], respectively. Moreover this should satisfy [[Frobenius reciprocity]], hence $f^\ast$ should be a strong [[closed monoidal functor]]. 
+where $f^\ast$ is [[context extension]] and where the [[left adjoint]] $f_!$ and [[right adjoint]] $f^\ast$ are to be thought of as linear analogs of [[dependent sum]] and [[dependent product]], respectively. Moreover this should satisfy [[Frobenius reciprocity]], hence $f^\ast$ should be a strong [[closed monoidal functor]]. 
 
 Equivalently this is an [[indexed closed monoidal category]] with fiberwise [[dual object|duals]].
 
