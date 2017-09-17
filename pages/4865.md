@@ -155,6 +155,9 @@ And it seems that this is the same term later also redicovered around equation (
 
 * [[M-theory]]
 
+* [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
+
+
 [[!include table of branes]]
 
 ## References
