@@ -3,7 +3,7 @@
 
 ## Talks
 
-_Towards higher dimensional type theoy_, Nottingham (2011) ([pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf))
+_Towards higher dimensional type theory_, Nottingham (2011) ([pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf))
 
 ## Related entries
 
