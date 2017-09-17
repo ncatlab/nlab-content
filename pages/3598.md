@@ -37,12 +37,18 @@ In the context of _[[homotopy type theory]]_ display maps are [[fibrations]], fo
 For $\mathcal{C}$ a [[category]], a [[class]] $D \subset Mor(\mathcal{C})$ of [[morphisms]] of $\mathcal{C}$ is called a **class of displays** if 
 
 * All [[pullbacks]] of elements of $D$ exist and belong to $D$.
-
-The category with displays is called **well rooted** if it has a [[terminal object]] and all the morphisms to it are display maps.
-
 =--
 
 It follows automatically that the [[full subcategory]] on $D$ of the [[arrow category]] $\Arr(\mathcal{C})$ is [[replete subcategory|replete]]; in other words, the [[property]] of $\mathcal{C}$-morphisms given by membership in $D$ is not [[evil]].
+
+
++-- {: num_defn #well-rooted}
+###### Definition
+
+The category with displays is called **well rooted** if it has a [[terminal object]] $1$ and all the morphisms to $1$ are display maps.
+=--
+
+It follows that binary [[products]] exist and their [[projections]] are display maps.
 
 
 +-- {: .num_defn #closed}
@@ -76,22 +82,22 @@ This appears as ([Taylor, def. 8.3.2](#Taylor)).
 
 Examples of categories with displays, def. \ref{CategoryWithDisplays}, include
 
-1. One extreme: any category with the class of all morphisms.
+1. One extreme: any [[locally cartesian category]] $\mathcal{C}$ with the class of all morphisms. (This is well rooted ---if $\mathcal{C}$ has a terminal object--- and closed under composition.) 
 
 2. Another extreme: any category with the empty class of no morphisms.
 
 3. Modifying (2) for an extreme case closed under composition: any category with the class of [[isomorphisms]].
 
-4. A category $\mathcal{C}$ with finite [[products]] and $D$ the class of product [[projections]] $X \times A \to X$.
+4. Modifying (2) for an extreme well-rooted case: A category $\mathcal{C}$ with finite [[products]] and $D$ the class of product [[projections]] $X \times A \to X$. (This is also closed under composition.)
 
-5. A [[locally cartesian category]] $\mathcal{C}$ (such as a [[topos]]) equipped with its class of [[monomorphisms]].
+5. A [[locally cartesian category]] $\mathcal{C}$ (such as a [[topos]]) equipped with its class of [[monomorphisms]]. (This is closed under composition.)
 
-6. A category equipped with a [[singleton pretopology]].
+6. A category equipped with a [[singleton pretopology]]. (This is closed under composition.)
 
 7. (...) 
 =--
 
-([Taylor, example 8.3.6](#Taylor))
+See also [Taylor](#Taylor), example 8.3.6.
 
 
 ## References
