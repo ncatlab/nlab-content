@@ -232,7 +232,7 @@ A presheaf $A \in PSh(S)$ is a [[local object]] with respect to all of $W$ alrea
 +-- {: .proof}
 ###### Proof
 
-Rewriting the morpphism $Y \to X$ in $W$ in terms of
+Rewriting the morphism $Y \to X$ in $W$ in terms of
 colimits as in the above proof
 
 $$
