@@ -12,3 +12,5 @@ A **split idempotent** in a [[category]] $C$ is a [[morphism]] $e: A \to A$ whic
 * The free completion of a category under split idempotents is also called its [[Karoubi envelope]].
 
 [[!redirects split idempotents]]
+[[!redirects splitting]]
+[[!redirects splittings]]
