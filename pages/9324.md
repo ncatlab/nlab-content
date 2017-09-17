@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,7 +23,11 @@ For $\mathcal{A}^\otimes, \mathcal{B}^\otimes$ two [[(∞,1)-operads]] regarded 
 
 ## Related concepts
 
-* [[fibration of (∞,1)-operads]]
+* **morphism of $(\infty,1)$-operads**
+
+  * [[fibration of (∞,1)-operads]]
+
+  * [[coCartesian fibration of (∞,1)-operads]]
 
 ## References
 
