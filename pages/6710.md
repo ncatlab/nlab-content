@@ -1,0 +1,134 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+### Topological
+
+For $n \in \mathbb{N}$ the [[Lie group]] $Spin^c(n)$ is a [[central extension]] 
+
+$$
+  U(1) \to Spin^c(n) \to SO(n)
+$$
+
+of the [[special orthogonal group]] by the [[circle group]]. This comes with a long [[fiber sequence]]
+
+$$
+  \cdots \to B U(1) \to B Spin^c(n)  \to B SO(n) \stackrel{W_3}{\to} B^2 U(1)
+  \,,
+$$
+
+where $W_3$ is the _third integral [[Stiefel-Whitney class]]_ . 
+
+An [[oriented]] manifold $X$ **has $Spin^c$-structure** if the class $[W_3(X)] \in H^3(X, \mathbb{Z})$
+
+$$
+  W_3(X) := W_3(T X) : X \stackrel{T X}{\to} B SO(n) \stackrel{W_3}{\to} B^2 U(1) \simeq K(\mathbb{Z},3)
+$$
+
+is trivial. This is the class of the [[circle n-bundle|circle 2-bundle]]/[[bundle gerbe]] that obstructs the existence of a $Spin^c$-[[principal bundle]].
+A given **equipped with $Spin^c$-structure** $\eta$ if it is equipped with a choice of trivializaton 
+
+$$
+  \eta : 1 \stackrel{\simeq}{\to} W_3(T X)
+  \,.
+$$
+
+The [[space]]/[[∞-groupoid]] of $Spin^c$-structures on $X$ is the [[homotopy fiber]] $W_3 Struc(T X)$ in the [[pasting diagram]] of [[homotopy pullback]]s
+
+$$
+  \array{
+    W_3 Struc(T X) &\to& W_3 Struc(X) &\to& * 
+    \\
+    \downarrow && \downarrow && \downarrow 
+    \\
+    * &\stackrel{T X}{\to}& Top(X, B SO(n)) 
+    &\stackrel{W_3}{\to}&
+    Top(X,B^2 U(1))
+  }
+  \,.
+$$
+
+If the class does not vanish and if hence there is no $Spin^c$-structure, it still makes sense to discuss the structure that remains as _[[twisted spin^c structure]]_ . 
+
+### Smooth
+
+Since $U(1) \to Spin^c \to SO$ is a sequence of [[Lie group]]s, the above may be lifted from the [[(∞,1)-topos]] [[Top]] $\simeq$ [[∞Grpd]] to [[Smooth∞Grpd]].
+
+More precisely, by the discussion at [[Lie group cohomology]] (and [[smooth ∞-groupoid -- structures]]) the characteristic map $W_3 : B SO \to B^2 U(1)$ in $\infty Grpd$ has, up to equivalence, a unique lift
+
+$$
+  \mathbf{W}_3 : \mathbf{B} SO \to \mathbf{B}^2 U(1)
+$$
+
+to [[Smooth∞Grpd]], where on the right we have the [[delooping]] of the smooth [[circle n-group|circle 2-group]]. 
+
+Accordingly, the [[2-groupoid]] of _smooth $spin^c$-structures_ $\mathbf{W}_3 Struc(X)$ is the joint [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{W}_3 Struc(T X) &\to& \mathbf{W}_3 Struc(X) &\to& * 
+    \\
+    \downarrow && \downarrow && \downarrow 
+    \\
+    * &\stackrel{T X}{\to}& Smooth \infty Grpd(X, \mathbf{B} SO(n)) 
+    &\stackrel{\mathbf{W}_3}{\to}&
+    Smooth \infty Grpd(X,\mathbf{B}^2 U(1))
+  }
+  \,.
+$$
+
+
+
+## Related concepts
+
+* [[twisted differential c-structures|(twisted, differential) c-structures]]
+
+  * [[orientation]]
+
+  * [[spin structure]], [[twisted spin structure]], [[differential spin structure]]
+
+    **$spin^c$ structure**, [[twisted spin^c structure]],
+
+  * [[string structure]], [[twisted differential string structure]],
+
+  * [[fivebrane structure]], [[twisted differential fivebrane structure]]
+
+
+
+## References
+
+### General
+
+A canonical textbook reference is
+
+* H.B. Lawson and M.-L. Michelson, _Spin Geometry_ , Princeton University Press, Princeton, NJ, (1989)
+
+### As anomaly cancellation in physics
+
+The origin of ([[twisted spin^c structure|twisted]]) $Spin^c$-structures on the [[worldvolume]] of [[D-brane]]s in [[type II string theory]] is
+
+* [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
+
+A more recent review is provided in
+
+* Kim Laine, _Geometric and topological aspects of Type IIB D-branes_ ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
+
+See also
+
+* [[Hisham Sati]], _Geometry of $Spin$ and $Spin^c$ structures in the M-theory partition function_ ([arXiv:1005.1700](http://arxiv.org/abs/1005.1700))
+
+[[!redirects spin^c structures]]
