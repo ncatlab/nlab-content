@@ -1,7 +1,13 @@
+
+# Local categories
+* table of contents
+{: toc}
+
 ## Idea and warning
 
 Here we study the notion of local category and a different notion of local Grothendieck category. Local Grothendieck category is not simply Grothendieck
 category which is local in above sense, but has a different definition. However, both notions have the category of modules over a local commutative unital ring as the main example. 
+
 
 ## Definitions
 
@@ -23,6 +29,7 @@ Following Popescu, a [[localizing subcategory]] $T$ of any
 Grothendieck category $A$ is a __prime localizing subcategory__ if the Serre quotient category $A/T$ is local Grothendieck category. Prime localizing subcategories form
 certain spectrum. 
 
+
 ## Literature
 
 * (RosenbergSpectraNSp) A. L. Rosenberg, _Spectra of noncommutative spaces_, MPIM2003-110 [ps](http://www.mpim-bonn.mpg.de/preblob/1946) [dvi](http://www.mpim-bonn.mpg.de/preblob/1945) (2003)
@@ -30,7 +37,11 @@ certain spectrum.
 * N. Popescu, _Le spectre a gauche d'un anneau_, J. Algebra __18__ (1971), 213-228.
 * (Goldman 1969) O. Goldman, _Rings and modules of quotients_, J. Algebra __13__, 1969 10--47, [MR245608](http://www.ams.org/mathscinet-getitem?mr=245608), [doi](http://dx.doi.org/10.1016/0021-8693%2869%2990004-0)
 
+
 category: algebra
 
+[[!redirects local category]]
 [[!redirects local categories]]
+
 [[!redirects local Grothendieck category]]
+[[!redirects local Grothendieck categories]]
