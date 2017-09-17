@@ -186,7 +186,7 @@ is a homeomorphism.
 
 +-- {: .proof} 
 ###### Proof
-The canonical map is continuous, and a bijection at the underlying set level by the theorem above. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is also compact: by lemma \ref{product}, and using the fact that realization preserves finite colimits, the left side is the topological quotient of a coproduct of finitely many simplices, hence compact. But a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. 
+The canonical map is continuous, and a bijection at the underlying set level by theorem \ref{leftexact}. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is also compact: by lemma \ref{product}, and using the fact that realization preserves finite colimits, the left side is the topological quotient of a coproduct of finitely many simplices, hence compact. But a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. 
 =-- 
 
 +-- {: .un_remark} 
