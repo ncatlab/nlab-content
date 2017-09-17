@@ -101,7 +101,7 @@ Note that "the" abelian category of mixed motives depends on choosing a base [[s
 
 Deligne first suggested that it might be easier to define the [[derived category]] $DM(S,\mathbb{Q})$ of the hypothetical abelian category of mixed motives. Once this is done, one can in principle recover the abelian category as the heart of a [[t-structure]] on $DM(S,\mathbb{Q})$. It is now well-understood what the [[triangulated category]] $DM(S,\mathbb{Q})$ is over any base [[scheme]] ([see below](#DerivedMotives)). The hypothetical t-structure on $DM(S,\mathbb{Q})$ whose heart is the abelian category of mixed motives over $S$ is called the **motivic t-structure**.
 
-Beilinson proved that, over fields of characteristic zero, the existence of the motivic t-structure implies the [[standard conjectures on algebraic cycles]] (see [Beilinson](#Beilinson10)), and Bondarko proved that it implies the existence of motivic t-structure for more general schemes (see [Bondarko](#Bondarko13)).
+Beilinson proved that, over fields of characteristic zero, the existence of the motivic t-structure implies the [[standard conjectures on algebraic cycles]] (see [Beilinson](#Beilinson10)), and Bondarko proved that it implies the existence of motivic t-structures for more general schemes (see [Bondarko](#Bondarko13)).
 
 While the derived category of mixed motives can also be defined with integral rather than rational coefficients, Voevodksy observed that the derived category of integral motives cannot have a motivic t-structure ([Voevodsky, Prop. 4.3.8](#TriCatMixMot)). Thus, the _abelian_ category of motives always refers to motives with rational coefficients.
 
@@ -134,7 +134,7 @@ Associated to a [[Noetherian scheme]] $S$ there is an [[additive category]] $SmC
 
 Details are in [MaVoWe, Appendix 1A](#MaVoWe). Associating to a morphism of schemes its graph defines a [[faithful functor]] $Sm/S\hookrightarrow SmCor_S$.
 
-An **(∞,1)-presheaf with transfers** on the category $Sm/S$ of smooth schemes of finite type is a (∞,1)-presheaf on $SmCor_S$ which transforms finite sums into finite (∞,1)-products (and hence take values in connective [[chain complexes]]).
+An **(∞,1)-presheaf with transfers** on the category $Sm/S$ of smooth schemes of finite type is an [[(∞,1)-presheaf]] on $SmCor_S$ which transforms finite sums into finite (∞,1)-products (and hence take values in connective [[chain complexes]]).
 
 The (∞,1)-category $DM^{eff}_{\geq 0}(S)$ is a certain [[localization]] of the (∞,1)-category of presheaves with transfers: it consists of those presheaves with transfers whose underlying presheaves on $Sm/S$ are [[(∞,1)-sheaves]] for the [[Nisnevich topology]] and are $\mathbb{A}^1$-homotopy invariant. 
 
