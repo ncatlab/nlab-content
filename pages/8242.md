@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[unimodular integral lattice]] in $\mathbb{R}^{24}$. Related to the [[monster group]].
+
+## Related concepts
+
+* [[E8 lattice]]
+
+## References
+
+* Wikipedia, _[Leech lattice](http://en.wikipedia.org/wiki/Leech_lattice)_
+
