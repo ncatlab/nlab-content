@@ -15,8 +15,14 @@
 
 ## Definition
 
-Let $T\colon A\to B$ be a [[functor]] such that $A$ has a [[terminal object]] $1$.  Then $T$ can be factored as the composite
-$$ A \overset{T_1}{\to} B/T1 \overset{\Sigma_{T1}}{\to} B.$$
+Let $T\colon A\to B$ be a [[functor]] such that $A$ has a [[terminal object]] $1$.  Then $T$ can canonically be factored as the composite
+
+$$ 
+  A \overset{T_1}{\to} B/T1 \overset{\Sigma_{T1}}{\to} B
+$$
+
+of $T$ applied to the [[slice category]] $A \simeq A/1$, followed by [[dependent sum]] (projection on the source). 
+
 We say that $T$ is a **parametric right adjoint**, or **p.r.a.**, if the functor $T_1$ is a [[right adjoint]].
 
 A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its unit and multiplication are [[cartesian natural transformation|cartesian]].
