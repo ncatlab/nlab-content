@@ -27,9 +27,9 @@ There are variants to this,  which include _non-blocking send but blocking recei
 =--
 
 ####Shared memory models
-These make up another class of concurrent architectures.  Here process have a local memory where they can perform local computations, but also have a common memory space which is accessible to all.  Communication between processes is essentially asynchronous and is realised by reading and writing values in this common space. Here the problem occurs that several processes may want to write values to the same part of the memory at the same time.  To avoid the problems that this implies it is necessary to 'protect' the access to shared variables by some mechanism. A classical one is the ''semaphore'' as introduced by Dijkstra in 1968.
+These make up another class of concurrent architectures.  Here processes have a local memory where they can perform local computations, but also have a common memory space which is accessible to all.  Communication between processes is essentially asynchronous and is realised by reading and writing values in this common space. Here the problem occurs that several processes may want to write values to the same part of the memory at the same time.  To avoid the problems that this implies it is necessary to 'protect' the access to shared variables by some mechanism. A classical one is the ''semaphore'' as introduced by Dijkstra in 1968. One of the usual pictures of a 'toy' situation used here is the [[progress graph|Swiss flag progress graph]], where two users attempt to change records in a database.  There is a shared resource and hence a problem of conflict, even of deadlock.
 
-The challenge is to find adequate mathematical models so as better to understand the behaviour of concurrent systems.
+The challenge is to find adequate mathematical models so as better to understand the behaviour of suchconcurrent systems.
 
 (More needs to be put here and the above is not that great.  Not sure how to rewrite it and what to add, though!)
 
@@ -62,11 +62,13 @@ What do you think? As I suggested please do get onto the n-forum if you have the
 
 ####Geometrical models####
 
-* [[higher dimensional automata]];
+* [[progress graph]];
 
-* [[higher dimensional transition systems]];
+* [[higher dimensional automaton]];
 
-*  [[cubical sets]].
+* [[higher dimensional transition system]];
+
+*  [[cubical set]].
 
 ##References##
 
