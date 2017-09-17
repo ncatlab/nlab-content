@@ -1,10 +1,14 @@
 
-**[[propositions as types]]**+**[[relation between type theory and category theory|relation type theory/category theory]]**
+**[[computational trinitarianism]]** = 
+**[[propositions as types]]**
++**[[programs as proofs]]**
++**[[relation between type theory and category theory|relation type theory/category theory]]**
  
 
  [[logic]]                      |   [[category theory]]                     |  [[type theory]]
 --------------------------------|-------------------------------------------|--------------------------------
- [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]] / [[hProp]] 
+ [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]] [[type]] / [[hProp]] 
+ [[proof]]                      |  [[generalized element]]                  | [[program]]
  [[true]]                       |   [[terminal object]] / [[(-2)-truncated object]]  |  [[unit type]] / [[h-level 0]] 
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
  [[conjunction]]                |   [[product]]                   |  [[product type]]
