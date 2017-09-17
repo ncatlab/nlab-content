@@ -181,10 +181,10 @@ As mentioned above, generalization of this semantics, restricted to the "multipl
 * [[Richard Blute]], _Linear logic, coherence, and dinaturality_, Dissertation, University of Pennsylvania 1991, published in Theoretical Computer Science archive Volume 115 Issue 1, (July 5, 1993) 3-41.  
  {#Blute91} 
 
-Blute's thesis derives coherence theorems for various doctrines of "linear type", including a coherence theorem for symmetric monoidal closed categories due to Kelly and Mac Lane: 
+Blute's thesis derives coherence theorems for various doctrines of "linear type", including a coherence theorem for symmetric monoidal [[closed categories]] due to Kelly and Mac Lane: 
 
-* G.M. Kelly and S. Mac Lane, _Coherence in closed categories_, JPAA 1 (1971), 97-140 ([web](http://www.sciencedirect.com/science/article/pii/0022404971900132)) 
- {#KM71}
+* {#KM71} [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140 ([web](http://www.sciencedirect.com/science/article/pii/0022404971900132)) 
+ 
 
 An decent review of some of this is in 
 
