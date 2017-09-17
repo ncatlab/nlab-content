@@ -17,6 +17,24 @@ The first letter of the English alphabet is A.
 The second letter of the English alphabet is B.
 =--
 
++-- {: .num_theorem #d}
+###### Theorem
+
+The third letter of the English alphabet is C.
+=--
+
++-- {: .num_theorem #d}
+###### Theorem
+
+The first letter of the English alphabet is A.
+=--
+
++-- {: .un_theorem}
+###### Theorem
+
+The second letter of the English alphabet is B.
+=--
+
 +-- {: .num_theorem #c}
 ###### Theorem
 
