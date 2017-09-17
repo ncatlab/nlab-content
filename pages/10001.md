@@ -118,7 +118,7 @@ and yields a geometric interpretation of the [[geometric Langlands correspondenc
 
 * [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_ ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
 
-A detailed analysis of the three twiss of the $N=4$ theory is in 
+A detailed analysis of the three twists of the $N=4$ theory is in 
 
 * Carlos Lozano, _Duality in Topological Quantum Field Theories_, PhD thesis ([arXiv:hep-th/9907123](http://arxiv.org/abs/hep-th/9907123))
 
