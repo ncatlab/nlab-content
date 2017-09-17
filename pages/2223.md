@@ -140,6 +140,8 @@ So [normal morphisms](#NormalMorphismOfInfinityGroups) of [[0-truncated]] [[disc
 
 =--
 
+This observation apparently goes back to [[Whitehead]].
+
 
 ## References
 
