@@ -998,7 +998,9 @@ from observation \ref{LongFiberSequenceOnLieAlgebras} of the [[string Lie 2-alge
 
 * [[orientation]]
 
-* [[spin structure]]
+* [[spin structure]], [[twisted spin structure]], [[differential spin structure]]
+
+  [[twisted spin^c structure]]
 
 * [[string structure]],  **differential string structure**
 
@@ -1010,7 +1012,7 @@ from observation \ref{LongFiberSequenceOnLieAlgebras} of the [[string Lie 2-alge
 
   * [[supergravity C-field]]
 
-  * [[differential fivebrane structure]]
+  * [[twisted differential fivebrane structure]]
 
   * [[differential T-duality]]
   
