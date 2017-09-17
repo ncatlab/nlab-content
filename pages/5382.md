@@ -39,7 +39,7 @@ By the [[cobordism hypothesis]]-theorem, symmetric monoidal [[(∞,n)-functor]]s
 
 ## References
 
-The definition appears qround claim 2.3.19 of
+The definition appears around claim 2.3.19 of
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
