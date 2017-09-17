@@ -1,0 +1,13 @@
+Given a smooth Riemann surface $\Sigma$ with complex structure $j$, and an almost complex manifold $M$ with almost complex structure $J$, a pseudoholomorphic curve is a smooth map
+$f:\Sigma\to M$ whose differential commutes with the almost complex structure in the sense that the equation
+$$
+J\circ d f = d f\circ j
+$$
+holds. One can also consider a symplectic manifold $(N,\omega)$ instead of $M$, in which case on chooses an almost complex structure compatible with the symplectic form $\omega$.
+
+A more general notion is of a pseudoholomorphic map. 
+
+
+Related entries include [[symplectic category]], [[Lagrangian correspondence]], [[Gromov-Witten invariant]], [[quantum cohomology]]. 
+
+[[!redirects pseudo-holomorphic curve]] 
