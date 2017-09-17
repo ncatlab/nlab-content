@@ -51,9 +51,13 @@ On the other hand, if $(E,M)$ is any prefactorization system for which $M$ consi
 
 Several classical examples of OFS $(E,M)$:
 
-* in any [[topos]], $E$ = class of all epis, $M$ = class of all monos: the [[epi/mono factorization system]];
+* in any [[topos]] or [[pretopos]], $E$ = class of all epis, $M$ = class of all monos: the [[epi/mono factorization system]];
 
 * more generally, in any [[regular category]], $E$ = class of all [[regular epimorphisms]], $M$ = class of all monos
+
+* in any [[quasitopos]], $E$ = all epimorphisms, $M$ = all [[strong monomorphisms]]
+
+* In [[Cat]], $E$ = [[bo functors]], $M$ = [[fully faithful functors]]: the [[bo-ff factorization system]]
 
 * (Street) in [[Cat]], $E$ = 0-[[final functors]], $M$ = [[discrete fibration]]s 
 
