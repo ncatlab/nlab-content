@@ -22,7 +22,9 @@
 
 ## Idea ##
 
-Dendroidal sets are to [[operad]]s and [[(∞,1)-operad]]s as [[simplicial set]]s are to [[category|categories]] and [[(∞,1)-category|(∞,1)-categories]].
+Dendroidal sets are a [[geometric definition of higher categories|geometric]] model for [[(∞,1)-operad|higher]] _[[operads]]_ (precisely: multi-coloured [[symmetric operads]] / [[symmetric multicategories]]).
+
+They are to [[operads]] and to [[(∞,1)-operads]] as [[simplicial sets]] are to [[category|categories]] and [[(∞,1)-categories]].
 
 A dendroidal set is something that consists of [[tree category|trees]] in the way a [[simplicial set]] consists of [[simplex|simplices]]: the trees represent the [[free construction|free]] [[Set]]-[[operads]] over them, and so a dendroidal set is a structure defined as having consistent probes by free $Set$-operads.
 
@@ -42,10 +44,11 @@ $$
   \,,
 $$
 
-where the left vertical function is the [[nerve]] $N :$ [[Cat]] $\to$ [[sSet]], and where the top horizontal functor includes categories into [[Set]]-enriched operads as those operads with only unary operations.
+where the left vertical functor is the [[nerve]] $N :$ [[Cat]] $\to$ [[sSet]], and where the top horizontal functor includes categories into [[Set]]-enriched operads as those operads with only unary operations.
 
 Moreover, $dSet$ completes this diagram even as a diagram of most of the evident pairs of [[adjoint functors]]. For details see _[The full diagram of relations](#FullDiagram)_ below.
 
+Finally, there is a [[model structure on dendroidal sets]] which is the operadic analog of the [[model structure for quasi-categories]].
 
 ## Definition ##
 
