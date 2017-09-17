@@ -99,6 +99,12 @@ $$
 
 Generally, the $n$-torus is $(S^1)^n$.
 
+## Related concepts
+
+* [[sphere]]
+
+* [[pseudocircle]]
+
 ## References
 
 A formalization in [[homotopy type theory]] is in
