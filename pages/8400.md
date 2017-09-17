@@ -1,4 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
 Kleene's second algebra is a [[partial combinatory algebra]] based on [[Baire space]]. 
+
+## Definition
 
 Let $\mathbb{N}$ be the set of natural numbers equipped with the discrete topology, so that the [[exponential object|function space]] $\mathbb{N}^\mathbb{N}$ is a countable product of copies of $\mathbb{N}$. By means of [[continued fractions]], this space is homeomorphic to the Baire space $B$ of irrational numbers between $0$ and $1$. 
 
@@ -28,3 +38,18 @@ D & \to & \mathbb{N}^\mathbb{N} \\
 B \times B & \underset{\psi}{\to} & (1 + \mathbb{N})^\mathbb{N}
 }$$ 
 
+## Properties
+
+### Relation to function realizability
+
+Kleene's second algebra is an abstraction of [[function realizability]] introduced for the purpose of extracting computational content from proofs in [[exact analysis|intuitionistic analysis]]. (e.g. [Streicher 07, p. 17](#Streicher07))
+
+## Related concepts
+
+* [[Kleene's first algebra]]
+
+* [[realizability]]
+
+## References
+
+* {#Streicher07} [[Thomas Streicher]], example 3.4 of _Realizability_ (2007/08) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
