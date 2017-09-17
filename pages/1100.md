@@ -38,7 +38,10 @@ be [[∞-Lie groupoid]]s if one considers [[(∞,1)-sheaves]] on [[CartSp]].
 
 ### As a geometric embedding into a $(\infty,1)$-presheaf category
 
-A [[Alexander Grothendieck|Grothendieck]]--[[Charles Rezk|Rezk]]--[[Jacob Lurie|Lurie]] **$(\infty,1)$-topos** $\mathbf{H}$ is an [[accessible (∞,1)-functor|accessibly embedded]] [[reflective sub-(∞,1)-category]] of an [[(∞,1)-category of (∞,1)-presheaves]]
++-- {: .num_defn #ToposByLocalization}
+###### Definition
+
+A [[Alexander Grothendieck|Grothendieck]]--[[Charles Rezk|Rezk]]--[[Jacob Lurie|Lurie]] **$(\infty,1)$-topos** $\mathbf{H}$ is an [accesible](reflective%20sub-%28infinity,1%29-category#AccessibleReflectiveSubcategory) [left exact](reflective+sub-%28infinity%2C1%29-category#ExactLocalizations) [[reflective sub-(∞,1)-category]] of an [[(∞,1)-category of (∞,1)-presheaves]]
 
 $$
   \mathbf{H}
@@ -47,9 +50,12 @@ $$
   \,.
 $$
 
-If this is a [[topological localization]] then $\mathbf{H}$ is an [[(∞,1)-category of (∞,1)-sheaves]].
+If the localization in is a [[topological localization]] then $\mathbf{H}$ is an **[[(∞,1)-category of (∞,1)-sheaves]]**.
 
-### By $(\infty,1)$-Giraud's axioms {#GiraudAxioms}
+=--
+
+### By $(\infty,1)$-Giraud's axioms 
+ {#GiraudAxioms}
 
 Equivalently: an $(\infty,1)$-topos $\mathbf{H}$ is
 
