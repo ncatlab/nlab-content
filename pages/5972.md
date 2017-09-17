@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Motivic cohomology
++--{: .hide}
+[[!include motivic cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-[[Madhav Nori]] invented an original approach to [[motive]]s, in the spirit of Tannakian theory, but based on a specific [[Nori's Tannakian theorem]]. Unfortuntaley his original work, which has been lectured on some summer schools and conferences is not widely available in written form. [[Maxim Kontsevich]] based his approach to [[period]]s and their appearance in [[deformation quantization]] partly on Nori's insight. 
+[[Madhav Nori]] invented an original approach to [[mixed motives]], in the spirit of Tannakian theory, but based on a specific [[Nori's Tannakian theorem]]. Unfortuntaley his original work, which has been lectured on some summer schools and conferences is not widely available in written form. [[Maxim Kontsevich]] based his approach to [[period]]s and their appearance in [[deformation quantization]] partly on Nori's insight. 
 
 ## References
 
@@ -15,6 +26,8 @@
 * [Alain Bruguieres](http://www.math.univ-montp2.fr/~bruguieres/recherche.html), _On a [[Tannaka duality|tannakian]] result due to Nori_, [dvi](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.dvi), [ps](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.ps), [pdf](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.pdf), [djvu](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.djvu)
 * Jonas von Wangenheim, _Nori-Motive und Tannaka-Theorie_, [arxiv/1111.5146](http://arxiv.org/abs/1111.5146)
 * Isamu Iwanari, _Tannakization in derived algebraic geometry_, [arxiv/1112.1761](http://arxiv.org/abs/1112.1761)
+
+* J. Ayoub, L. Barbieri-Viale, _Nori 1-motives_ ([arXiv:1206.5923](http://arxiv.org/abs/1206.5923))
 
 
 [[!redirects Nori motives]]
