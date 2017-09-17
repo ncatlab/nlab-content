@@ -1,5 +1,5 @@
 
-Sometimes called Hadamard lemma, however, in $n$Lab, [[Hadamard lemma]] is another result of Hadamard, in analysis.
+Sometimes called Hadamard lemma, however, in $n$Lab, [[Hadamard lemma]] is another result of [[Jacques Hadamard]], in [[analysis]].
 
 ## Geometrical motivation
 
