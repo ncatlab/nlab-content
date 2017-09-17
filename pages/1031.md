@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -21,7 +20,7 @@
 
 ## Idea
 
-The _kernel_ of a [[morphism]] is that part of its domain which is not sent to 0.
+The _kernel_ of a [[morphism]] is that part of its domain which is sent to 0.
 
 
 ## Definition
