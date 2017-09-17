@@ -1,0 +1,102 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Hopf fibration_ (named after [[Heinz Hopf]]) is a canonical nontrivial  [[circle bundle]] over the [[2-sphere]] whose total space is the [[3-sphere]].
+
+$$
+  S^1 \hookrightarrow S^3 \to S^2 
+$$
+
+## Definition
+
+### Homotopy-theoretic characterization
+ {#HomotopyTheoreticCharacterization}
+
+The [[Eilenberg-MacLane space]] $K(\mathbb{Z},2) \simeq B S^1$ is the [[classifying space]] for [[circle group]] [[principal bundles]]. By its very nature, it has a single nontrivial [[homotopy group]], the second, and this is isomorphic to the group of [[integers]]
+
+$$
+  \pi_2(K(\mathbb{Z},2)) \simeq \mathbb{Z}
+  \,.
+$$
+
+This means that there is, up to [[homotopy]], a canonical (up to sign), continuous map from the 2-sphere 
+
+$$
+  \phi : S^2 \to K(\mathbb{Z},2)
+  \,,
+$$
+
+such that $[\phi] \in \pi_2(K(\mathbb{Z},2)) = \pm 1 \in \mathbb{Z}$.
+
+As any map into $K(\mathbb{Z},2)$ this classifies a [[circle group]] [[principal bundle]] over its [[domain]]. This is the Hopf fibration, fitting into the long [[fiber sequence]]
+
+$$
+  \array{
+    S^1 &\hookrightarrow& S^3
+    \\  
+    && \downarrow
+    \\
+    && S^2
+    &\stackrel{\phi}{\to}&
+    B S^1 \simeq K(\mathbb{Z},2)
+  }
+  \,.
+$$
+
+In other words, the Hopf fibration is the $U(1)$-bundle with unit first [[Chern class]] on $S^2$.
+
+### Explicit model
+
+An explicit [[topological space]] presenting the Hopf fibration may be obtained as follows.
+
+Identify
+
+$$ 
+  S^3 \simeq \{(z_0, z_1) \in \mathbb{C}\times \mathbb{C} \,|\, {|z_0|}^2 + {|z_1|}^2 = 1\}
+$$
+
+and
+
+$$
+  S^2 \simeq \{(z, x) \in \mathbb{C} \times \mathbb{R} 
+  \,|\,
+  {|z|}^2 + x^2 = 1\}
+  \,.
+$$
+
+Then the [[continuous function]] $S^3 \to S^2$ given by sending
+
+$$
+  (z_0, z_1) \mapsto (2 z_0 z_1^* , {|z_0|}^2 - {|z_1|}^2)
+$$
+
+presents the Hopf fibration.
+
+## Applications
+
+When line bundles are regarded as models for the topological structure underlying the [[electromagnetic field]] the Hopf fibration is often called "the magnetic monopole". We may think of the $S^2$ homotopically as being the 3-dimensional [[Cartesian space]] with origin removed $\mathbb{R}^3 - \{0\}$ and think of this as being 3-dimensional physical space with a unit point [[magnetic charge]] at the origin removed. The corresponding [[electromagnetic field]] away from the origin is given by a [[connection on a bundle|connection]] on the corresponding Hopf fibration bundle.
+
+
+
+
+
+
+[[!redirects Hopf fibrations]]
