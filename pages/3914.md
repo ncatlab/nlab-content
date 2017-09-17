@@ -306,6 +306,10 @@ discussed e.g. in [Ando-Hopkins-Rezk 10, section 3.3](#AndoHopkinsRezk10)
 #### $Spin^c$-orientation of $KU$
 
 
+### Complex orientation
+
+An $E_\infty$ [[complex oriented cohomology theory]] $E$ is indeed equipped with a universal complex orientation given by an $E_\infty$-ring homomorphism $MU \to E$, see [here](complex+oriented+cohomology+theory#InTermsOfGenera).
+
 ### Ando-Hopkins-Rezk string orientation of $tmf$
 
 
