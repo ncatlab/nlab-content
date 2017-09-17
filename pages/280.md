@@ -47,7 +47,7 @@ One can also define an [[action of a category on a set|action of a category]] $D
 
 Another perspective on the same situation is: a (small) category is a [[monad]] in the category of [[span]]s in [[Set]]. An action of the category is an algebra for this monad. See [[action of a category on a set]].
 
-## Actions of a [[group object]]
+## Actions of a group object
 
 Suppose we have a  [[group object]], $G$, in a category, $C$, with binary [[product]]s and a [[terminal object]] $*$. There is an alternative way of viewing group actions so that we can talk about $G$ action on an object $X$ of $C$.
 
