@@ -1,10 +1,18 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
 
 
-# Terminal objects in quasi-categories
+
+
+# Contents#
 * tic
 {: toc}
 
@@ -44,3 +52,7 @@ For more details see [definition 1.2.12.3, p. 46](http://arxiv.org/PS_cache/math
 [[!redirects terminal objects in quasi-categories]]
 [[!redirects terminal object in a quasicategory]]
 [[!redirects terminal objects in quasicategories]]
+
+[[!redirects terminal object in an (∞,1)-category]]
+[[!redirects terminal objects in an (∞,1)-category]]
+[[!redirects terminal objects in (∞,1)-categories]]
