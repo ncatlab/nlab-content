@@ -9,12 +9,12 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A lax-idempotent 2-monad encodes a certain kind of [[stuff, structure, property|property-like structure]] that a category, or more generally an object of a [[2-category]], can carry.
+A lax-idempotent 2-monad encodes a certain kind of [[stuff, structure, property|property-like structure]] that a [[category]], or more generally an [[object]] of a [[2-category]], can carry.
 
 The archetypal examples are given by [[2-monads]] $T$ on [[Cat]] that take a [[category]] $C$ to the [[free cocompletion]] $T C$ of $C$ under a given class of [[colimits]] -- then an [[algebra of a monad|algebra]] $T C \to C$ is a category $C$ with all such colimits, which are of course essentially unique.  Moreover, given thus-cocomplete categories $C$ and $D$, a functor $F \colon C \to D$, and a diagram $S$ in $C$, there is a unique arrow $colim T F S \to F(colim S)$ given by the universal property of the colimit.  It is this property that lax-idempotence generalizes.
 
@@ -97,6 +97,8 @@ Another important example of a colax-idempotent monad is the monad on $Cat/B$ th
 This latter is actually a special case of a general situation.  If $T$ is a (2-)monad relative to which one can define [[generalized multicategories]], then often it induces a lax-idempotent 2-monad $\tilde{T}$ on the 2-category of such generalized multicategories (aka "virtual $T$-algebras"), such that (pseudo) $\tilde{T}$-algebras are equivalent to (pseudo) $T$-algebras.  When $T$ is the 2-monad whose algebras are strict 2-functors $B\to Cat$ and whose pseudo algebras are pseudofunctors $B\to Cat$, then a virtual $T$-algebra is a category over $B$, and it is a pseudo $\tilde{T}$-algebra just when it is an opfibration.  Similarly, there is a lax-idempotent 2-monad on the 2-category of [[multicategories]] whose pseudo algebras are [[monoidal categories]], and so on.
 
 ## Related concepts
+
+* [[idempotent monad]]
 
 * [[2-monad]]
 * [[stuff, structure, property]]
