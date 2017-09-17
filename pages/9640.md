@@ -1,0 +1,8 @@
+
+* [webpage](http://stationq.cnsi.ucsb.edu/~freedman/)
+
+## Related entries
+
+* [[quantum computation]]
+
+category: people
