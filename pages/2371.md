@@ -22,14 +22,9 @@
 
   [[∞-algebra over an (∞,1)-algebraic theory]]
 
-  * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
-
 * [[algebra over an operad]] 
 
-   [[∞-algebra over an (∞,1)-operad]]
-
-   * [[model structure on algebras over an operad]]
-
+  [[∞-algebra over an (∞,1)-operad]]
 
 
 
@@ -60,6 +55,16 @@
   * [[E-∞ ring]]
 
 * [[L-∞ algebra]] 
+
+## Model category presentations
+
+
+* [[model structure on simplicial T-algebras]] / [[homotopy T-algebra]] 
+
+* [[model structure on operads]]
+
+  [[model structure on algebras over an operad]]
+
 
 
 ## Geometry on formal duals of algebras
