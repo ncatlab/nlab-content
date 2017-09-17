@@ -42,6 +42,9 @@ If the base field is $\mathbb{C}$, then one can form the analyticification of $X
 
 ## Related concepts
 
+[[!include special holonomy table]]
+
+
 * [[Calabi-Yau object]]
 
   * [[Calabi-Yau algebra]], **Calabi-Yau manifold**, [[generalized Calabi-Yau manifold]]
