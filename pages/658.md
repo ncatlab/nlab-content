@@ -206,6 +206,10 @@ _Todd_: There is an inevitable debate here about whether one should use $C^{op} 
 =--
 
 
+## References
+
+* [[joyalscatlab:HomePage|Joyal's CatLat]], _[[joyalscatlab:Distributors and barrels]]_
+
 [[!redirects profunctors]]
 [[!redirects distributor]]
 [[!redirects distributors]]
