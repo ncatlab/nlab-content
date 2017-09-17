@@ -1,0 +1,7 @@
+
+A [[group]] which is not an [[abelian group]].
+
+[[!redirects non-abelian groups]]
+
+[[!redirects nonabelian group]]
+[[!redirects nonabelian groups]]
