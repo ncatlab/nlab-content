@@ -120,6 +120,10 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
   * [[rigidification of a stack]]
 
+  * [[moduli stack]]
+
+  * [[Picard stack]]
+
 * [[(∞,1)-sheaf]] / [[∞-stack]]
 
 Special kinds of stacks include
