@@ -109,7 +109,7 @@ concrete if all its
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ an [[∞-cohesive site]], a 0-truncated object in the 
@@ -118,8 +118,40 @@ a [[concrete sheaf]] in the traditional sense.
 
 =--
 
++-- {: .num_defn #NConcretfication}
+###### Definition
 
+For $X \in \mathbf{H}$ and $n \in \mathbb{N}$, the 
+**$n$-concretification** of $X$ is the morphism
 
+$$
+  X \to conc_n X
+$$
+
+that is the left factor in the decomposition with respect to the 
+[[n-connected/n-truncated factorization system]] of the 
+$(\Gamma \dashv coDisc)$-[[unit of an adjunction|unit]]
+
+$$
+  \array{   
+    && conc_n X
+    \\
+    & \nearrow && \searrow
+    \\
+    X &&\to&& coDisc \Gamma X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By that very [[n-connected/n-truncated factorization system]]
+we have that $conc_n X$ is an $n$-concrete object.
+
+=--
 
 
 
@@ -1074,6 +1106,52 @@ $$
 where on the left we have the simplicially constant object on the vertices of $\mathbf{H}(X,C)_{simp}$. This morphism, in turn, presents a morphism in $\infty Grpd$ that in general contains a multitude of copies of the components of any $H(X,C) \to \mathbf{H}(X,C)$: a multitude of representatives of twists for each cohomology class of twists. Since by the above the twisted cohomology does not depend, up to equivalence, on the choice of representative, the coresponding $(\infty,1)$-pullback yields in general a larger coproduct of $\infty$-groupoids as the corresponding twisted cohomology. This however just contains copies of the [[homotopy type]]s already present in $\mathbf{H}_{tw}(X,A)$ as defined above.
 
 =--
+
+
+### Transgression
+ {#Transgression}
+
+We discuss a general abstract notion of [[transgression]] in [[cohomology]].
+
+
++-- {: .num_defn #CohomologicalDimension}
+###### Definition
+
+We say an object $\Sigma \in \mathbf{H}$ has **[[cohomological dimension]]** $\leq n \in \mathbb{N}$ if for all $n$-[[connected]] and $(n+1)$-[[truncated]] objects $\mathbf{B}^{n+1}A$ the corresponding [[cohomology]] on $\Sigma$ is trivial
+
+$$
+  H(\Sigma, \mathbf{B}^{n+1}A ) \simeq *
+  \,.
+$$
+
+Let $dim(\Sigma)$ be the maximum $n$ for which this is true.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $\mathbf{c} : X \to \mathbf{B}^n A$ a representative of a [[characteristic class]] in $H^n(X,A)$ and $\Sigma$ of [[cohomology dimension]] $\leq n$, the **transgression** of $\mathbf{c}$ is the composite
+
+$$
+  \tau_\Sigma \mathbf{c}
+    :
+  [\Sigma, X] 
+   \stackrel{[\Sigma,\mathbf{c}]}{\to}
+  [\Sigma, \mathbf{B}^n A]
+   \stackrel{}{\to}
+  \tau_{n - \dim \Sigma} [\Sigma, \mathbf{B}^n A]
+  \,,
+$$
+
+where
+
+* $[-,-]$ denotes the <a href="http://nlab.mathforge.org/nlab/show/%28infinity,1%29-topos#ClosedMonoidalStructure">cartesian internal hom</a>;
+
+* $conc_{n-dim \Sigma} [\Sigma, \mathbf{B}^n A] \stackrel{}{\to} \tau_{n - \dim \Sigma} conc_{n-dim \Sigma} [\Sigma, \mathbf{B}^n A]$ is the [[truncated|truncation projection]] in the same degree.
+
+=--
+
 
 ### Concordance 
   {#Concordance}
@@ -3185,27 +3263,12 @@ $(\infty,1)$-pullbacks for the $\mathbf{H}_{diff}(X, \mathbf{B}^{n_i}A)$.
 The notion of [intrinsic ∞-connections](#ChernWeilTheory) in a 
 cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomy]] and [[Chern-Simons theory|Chern-Simons functionals]].
 
-
-+-- {: .un_prop}
-###### Definition
-
-We say an object $\Sigma \in \mathbf{H}$ has **[[cohomological dimension]]** $\leq n \in \mathbb{N}$ if for all $n$-[[connected]] coefficient objects  and $(n++1)$-[[truncated]] objects $\mathbf{B}^{n+1}A$ the corresponding cohomology on $\Sigma$ is trivial
-
-$$
-  H(\Sigma, \mathbf{B}^{n+1}A ) \simeq *
-  \,.
-$$
-
-Let $dim(\Sigma)$ be the maximum $n$ for which this is true.
-
-=--
-
-
+We shall define higher [[holonomy]] over $\Sigma \to X$ effectively as the value of the [[transgression]], in a slight refinement of the [above sense](#Transgression), of the given differential cocycle on $X$ to $[\Sigma,X]$.
 
 +-- {: .un_prop}
 ###### Observation
 
-If $\Sigma$ has [[cohomological dimension]] $\leq n$ then its  [intrinsic de Rham cohomology](#deRhamCohomology) vanishes in degree $k \gt n$
+If $\Sigma \in \mathbf{H}$ has [cohomological dimension](#CohomologicalDimension) $\leq n$ then its  [intrinsic de Rham cohomology](#deRhamCohomology) vanishes in degree $k \gt n$
 
 $$
   H_{dR}^{k \gt n}(\Sigma, A) \simeq *
@@ -3245,6 +3308,9 @@ $$
 
 Let now again $A$ be fixed as [above](#DifferentialCohomology).
 
+
+
+
 +-- {: .un_def}
 ###### Definition
 
@@ -3265,6 +3331,9 @@ $$
 $$ 
 
 of the [[adjunction]] equivalence followed by [[truncated|truncation]] is the **flat holonomy** operation on flat $\infty$-connections.
+
+
+
 
 More generally, let
 
@@ -3315,7 +3384,7 @@ $$
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $\Sigma \in \mathbf{H}$ be of [[cohomological dimension]] $dim\Sigma = n \in \mathbb{N}$ and let $\mathbf{c} : X \to \mathbf{B}^n A$ a representative of a [[characteristic class]] $[\mathbf{c}] \in H^n(X, A)$ for some object $X$. We say that the composite
@@ -3336,9 +3405,36 @@ $$
 where $\hat \mathbf{c}$ denotes the [refined Chern-Weil homomorphism](#ChernWeilTheory) induced by $\mathbf{c}$,
 is the **[[schreiber:∞-Chern-Simons theory|extended Chern-Simons functional]]** induced by $\mathbf{c}$ on $\Sigma$.
 
+The cohesive refinement of this (...more discussion required...)
+
+$$
+  \int_\Sigma
+    :
+  [\Sigma, X] 
+   \stackrel{}{\to}
+  [\Sigma, \mathbf{B}^n A]_{diff}
+   \stackrel{}{\to}
+  conc_{n-dim \Sigma} [\Sigma, \mathbf{B}^n A]_{diff}
+    \stackrel{\simeq}{\to}
+  conc_{n-dim \Sigma} [\Sigma, \mathbf{\flat}\mathbf{B}^n A]
+   \stackrel{}{\to}
+  \tau_{n - \dim \Sigma} conc_{n-dim \Sigma} [\Sigma, \mathbf{\flat}\mathbf{B}^n A]
+  \,,
+$$
+
+where
+
+* $[-,-]$ denotes the <a href="http://nlab.mathforge.org/nlab/show/%28infinity,1%29-topos#ClosedMonoidalStructure">cartesian internal hom</a>;
+
+* $[\Sigma, \mathbf{B}^n A]_{diff} \stackrel{}{\to} conc_{n-dim \Sigma} [\Sigma, \mathbf{B}^n A]_{diff}$ is the [concretification projection](#NConcretfication) in degree $n - dim \Sigma$
+
+* $conc_{n-dim \Sigma} [\Sigma, \mathbf{\flat}\mathbf{B}^n A] \stackrel{}{\to} \tau_{n - \dim \Sigma} conc_{n-dim \Sigma} [\Sigma, \mathbf{\flat} \mathbf{B}^n A]$ is the [[truncated|truncation projection]] in the same degree
+
+we call the **smooth [[schreiber:∞-Chern-Simons theory|extended Chern-Simons functional]]**.
+
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Remark
 
 In the language of [[sigma-model]] [[quantum field theory]] the ingredients of this definition have the following interpretation
