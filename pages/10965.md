@@ -1,11 +1,11 @@
+[[!redirects Lawverian formalization of Hegelian metaphysics]]
 
 
 
 **Abstract** While [[analytic philosophy]] famously rejected the
 mystical [[metaphysics]] of [[Hegel]] in favor of clear [[mathematical logic]], recent developments in the [[foundations of
-mathematics]]  via [[homotopy type theory]] offer a way to re-read [[Hegel]] as having useful formal meaning not in [[predicate logic]], but in '[[modal type theory|modal homotopy type theory]]'. The essence of this suggestion has been made by [[Lawvere]] in 1991, which however remains largely unnoticed. Here we aim to give a transparent account of this perspective both philosophically as well as [[category theory|category-theoretically]]. We then further expand on
-Lawvere's formalization of Hegel's "logic" in terms of the [[categorical semantics]] given by [[cohesive (infinity,1)-topos|cohesive higher toposes]] and discuss how there is a useful formalization of a fair bit of modern
-[[physics]], in fact of [[quantum field theory]], to be found here.
+mathematics]]  via [[homotopy type theory]] offer a way to re-read [[Hegel]] as having useful formal meaning not in [[predicate logic]], but in '[[modal type theory]]'. The essence of this suggestion has been made by [[Lawvere]] in 1991, which however remains largely unnoticed. Here we aim to give a transparent account of this perspective both philosophically as well as [[category theory|category-theoretically]]. We then further expand on
+Lawvere's formalization of Hegel's "[[Science of Logic]]" in terms of the [[categorical semantics]] given by [[cohesive (infinity,1)-topos|cohesive higher toposes]]. We discuss how there is a _useful_ formalization of a fair bit of modern fundamental [[physics]], in fact of [[quantum field theory]], to be found here..
 
 
 #Contents#
@@ -22,7 +22,8 @@ Lawvere's formalization of Hegel's "logic" in terms of the [[categorical semanti
 
 * [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ (1991)
 
+* [[William Lawvere]] _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ (1994)
+
 * [[Higher toposes of laws of motion]]
 
 * [[schreiber:Type-semantics for quantization]]
-
