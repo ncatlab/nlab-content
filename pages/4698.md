@@ -66,3 +66,6 @@ A geodesic which does globally minimize distance between its end points is calle
 [[!redirects geodesic line]]
 [[!redirects geodesic path]]
 [[!redirects geodesics]]
+
+[[!redirects geodesic equation]]
+[[!redirects geodesic equations]]
