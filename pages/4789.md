@@ -434,7 +434,7 @@ Below we spell out some low-dimensional cases explicitly
 
 The symplectic Lie $n$-algebroid $(\mathfrak{P}, \omega)$ may be thought of as an [[n-symplectic manifold]] that models the [[phase space]] of a physical system. 
 
-This means for $(\mathfrak{g},\langle-\rangle) = (\mathfrak{P}, \omega)$ a symplectic Lie $n$-algebroid, the general diagram \eqref{TheDiagram} exhibiting the transgression between cocycles and invariant polynomials via Chern-Simons elements may be labeled in terms of [[Hamiltonian mechanics]], [[Lagrangian mechanics]] and [[symplectic geometry]] applied to [[physics]] as follows
+This means for $(\mathfrak{g},\langle-\rangle) = (\mathfrak{P}, \omega)$ a symplectic Lie $n$-algebroid, the general diagram \eqref{TheDiagram} exhibiting the transgression between cocycles and invariant polynomials via Chern-Simons elements may be labeled in terms of [[Hamiltonian mechanics]], [[Lagrangian mechanics]] and [[symplectic geometry]] as follows
 
 \[
   \array{
