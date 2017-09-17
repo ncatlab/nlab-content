@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A ribbon graph (also called fat graph) is a finite connected graph equipped with a cyclic ordering on the half edges incident to each vertex; it is
