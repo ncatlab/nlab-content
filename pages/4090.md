@@ -16,7 +16,7 @@
 
 ## Idea
 
-The generalization of the notion of [[exact functor]] from [[category theory]] to [[(∞,1)-category theory]].
+The generalization of the notion of [[exact functor]]/[[flat functor]] from [[category theory]] to [[(∞,1)-category theory]].
 
 ## Definition
 
