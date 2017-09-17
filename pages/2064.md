@@ -83,6 +83,8 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
 ## Related concepts
 
+* **fiber bundle** / [[fiber ∞-bundle]]
+
 * [[principal bundle]] / [[torsor]] / **associated bundle**
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
