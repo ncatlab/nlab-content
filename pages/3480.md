@@ -55,7 +55,7 @@ More precisely, let $V$ be any [[enriched category theory|enriching category]] (
 
 So far the following examples concern the abstract aspect of Tannaka duality only, which is narrated here as a consequence of the [[enriched Yoneda lemma]] in [[enriched category theory]]. 
 
-### For permutation representations 
+### For permutation representations {#ForPermutationRepresentations}
 
 A simple case of Tannaka duality is that of [[permutation representation]]s of a [[group]], i.e. representations on a [[set]]. In this case, Tannaka duality follows entirely from repeated application of the ordinary [[Yoneda lemma]].
 
@@ -324,6 +324,9 @@ in $Vect$. Finally using that $FinVect(V,W) \simeq V\otimes W^*$ the above coend
 
 As before, more work is required to show that ven for $A$ itself not finite dimensional, it is still recovered in terms of the above (co)end over just its finite dimensional modules.
 
+###  For geometric stacks
+
+See [[Tannaka duality for geometric stacks]].
 
 ### In higher category theory
 
@@ -331,7 +334,9 @@ In as far as the proof of Tannaka duality only depends on the [[Yoneda lemma]], 
 
 This is notably the case for [[(∞,1)-category]] theory, where we have the [[(∞,1)-Yoneda lemma]].
 
-By applying this verbatim four times in a row as above, we obtain the following statement for "$\infty$-permutation representations".
+#### For permutation $\infty$-representations
+
+By applying the $(\infty,1)$-Yoneda lemma verbatim four times in a row as above [for permutation representations](#ForPermutationRepresentations), we obtain the following statement for "$\infty$-permutation representations".
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -430,7 +435,7 @@ Categorically oriented notes were written also by Pareigis, emphasising on using
 
 A very neat Tannaka theorem for stacks is proved in
 
-* [[Jacob Lurie]], _Tannaka duality for geometric stacks_, [math.AG/0412266](http://arxiv.org/abs/math/0412266)
+* [[Jacob Lurie]], _Tannaka duality for geometric stacks_, ([arXiv:math.AG/0412266](http://arxiv.org/abs/math/0412266))
 
 * [[Bertrand Toen]], [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (talk, video)
 
