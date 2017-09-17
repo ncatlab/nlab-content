@@ -23,7 +23,7 @@ $$
   R : D \hookrightarrow C
 $$
 
-exhibits $D$ as a **reflective $(\infty,1)$-subcategory** (of $C$) if it has a left [[adjoint (∞,1)-functor]] $L : C \to D$.
+exhibits $D$ as a **reflective [[sub-(∞,1)-category]]** (of $C$) if it has a left [[adjoint (∞,1)-functor]] $L : C \to D$.
 
 $$
   (L \dashv R) : D \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}}
