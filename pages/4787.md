@@ -31,6 +31,13 @@ There are many notions of _dimension_.  What they all have in common is that the
   * [[Heyting dimension]]
 
 
+## References
+
+A general abstract [[(∞,1)-topos theory|(∞,1)-topos theoretic]] discusssion of notions of _dimension_ is in section 7.2 of 
+
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
 [[!redirects dimension]]
 [[!redirects dimensions]]
 
