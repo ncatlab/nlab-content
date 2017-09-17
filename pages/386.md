@@ -118,13 +118,13 @@ $$
      =
      \delta_i^{n+1}\circ \delta_{j-1}^n
      &
-     for i \lt j
+    \; i \lt j
      \\
      \sigma_j^n \circ \sigma_i^{n+1}
      =
      \sigma_i^{n-1} \circ \sigma_{j+1}^n
      &
-     for i \leq j
+     \; i \leq j
   }
 $$
 $$
@@ -134,13 +134,13 @@ $$
     \array{
       \delta_i^n \circ \sigma_{j-1}^{n-1}
       &
-      if i \lt j
+       i \lt j
       \\
-      Id_n & if i = j or i = j+1
+      Id_n & \; i = j \;or\; i = j+1
       \\
       \delta^n_{i-1} \circ \sigma_{j}^{n-1}
       &
-      if i \gt j +1
+       i \gt j +1
     }
   \right.
 $$
@@ -185,6 +185,7 @@ It is important to note that this tensor does _not_ give a monoidal structure to
 Under [[Day convolution]] this monoidal structure induces the [[join of simplicial sets]].
 
 ### $\Delta$ and $\Delta_a$ as 2-categories 
+
 
 Being full subcategories of the [[2-category]] $Cat$, $\Delta$ and $\Delta_a$ are themselves 2-categories: their [[2-cell|2-cells]] $f \Rightarrow g$ are given by the pointwise order on monotone functions.  Equivalently, they are generated under (vertical and [[horizontal composition|horizontal]]) composition by the inequalities
 $$ \delta^n_{i+1} \leq \delta^n_i \qquad \qquad \sigma^n_i \leq \sigma^n_{i+1} \, .$$
