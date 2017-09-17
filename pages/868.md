@@ -24,6 +24,7 @@ A _total order_ on a set is a way of ordering its elements to say that some elem
 ## Definitions
 
 Given a [[set]] $S$, a __total order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
+
 * [[reflexive relation|reflexivity]]: for any element $x$ of $S$, $x \leq x$;
 * [[transitive relation|transitivity]]: whenever $x \leq y \leq z$, then $x \leq z$;
 * [[antisymmetric relation|antisymmetry]]: whenever $x \leq y \leq x$, then $x = y$;
@@ -44,6 +45,7 @@ The category of *all* finite totally ordered sets and order-preserving maps is c
 A [[linear order]] is much like a total order, except that it is based on an irreflexive relation $\lt$.
 
 Using [[excluded middle]], one can move between linear orders and total orders using [[negation]]; that is, the negation of a total order is a linear order and vice versa.  Actually one usually swaps the order too, as follows:
+
 * $x \leq y$ iff $y \nless x$;
 * $x \lt y$ iff $y \nleq x$.
 
