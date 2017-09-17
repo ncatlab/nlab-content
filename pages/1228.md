@@ -1,9 +1,17 @@
-<div class="rightHandSide toc">
-[[!include Yoneda lemma - contents]]
-***
-[[!include category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Yoneda lemma
++--{: .hide}
+[[!include Yoneda lemma - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
 
 #Contents#
