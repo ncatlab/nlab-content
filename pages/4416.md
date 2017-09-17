@@ -14,3 +14,4 @@ Some other papers
 
 
 category: people
+[[!redirects F. Borceux]]
