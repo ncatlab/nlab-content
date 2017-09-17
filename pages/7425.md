@@ -70,7 +70,7 @@ For $p \in \mathbb{N}$ a [[prime number]], we write
 +-- {: .num_prop}
 ###### Proposition/Definition
 
-For each [[prime number|prime integer]] $p$ there exists a sequence of [[multiplicative cohomology theory|multiplicative]] [[generalized cohomology theories|generalized cohomology]]/[[generalized homology theories|homology theories]], hence of [[A-infinity ring]] [[spectra]] 
+For each [[prime number|prime integer]] $p$ there exists a sequence of [[multiplicative cohomology theory|multiplicative]] [[generalized cohomology theories|generalized cohomology]]/[[generalized homology theories|homology theories]] 
 
 $$
   \{K(n)\}_{n \in \mathbb{N}}
