@@ -1,0 +1,36 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[programming theory]] a _monad_ $T$ is an operation on the [[types]] that
+
+1. sends each [[type]] $A$ to some new type $T(A)$;
+
+1. provides a [[term]] of [[function type]] $return_A : A \to T(A)$;
+
+1. provides a rule that creates from a [[term]] $t : T(A)$ and a function $f : A \to T(B)$ a term $bind_A : T(B)$
+
+such that this satisfies the evident coherence axioms.
+
+Under the identification of programming theory with [[category theory]] (see _[[computational trinitarianism]]_) the [[universe]] of types of the programming language is a [[category]] $\mathcal{C}$ and a monad as above is a [[monad|monad in the sense of category theory]], hence a [[functor]] $T : \mathcal{C} \to \mathcal{C}$ equipped with the structure of a [[monoid]] in endomorphisms.
+
+Accordingly, the fundamental relevance of monads in category theory is the same as that of monads in programming theory.
+
+## Examples
+
+* Standard examples of monads useful in programming are the [[IO monad]] or the [[maybe monad]].
+
+* Equipping [[homotopy type theory]] (say implemented as programming languages concretely in [[Coq]] or [[Agda]]) with two [[idempotent monads]], denoted $\sharp$ and $\flat$, subject to a certain compatibility condition, turns it into _[[cohesive homotopy type theory]]_. 
+
+## References
+
+There are many, many references of and expositions of monads in programming theory. Somebody who knows a _good_ reference, please add it here.
+
+
+
+[[!redirects monads (in programming theory)]]
+
