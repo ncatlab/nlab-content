@@ -89,3 +89,5 @@ category: people
 
 [[!redirects William Lawvere]]
 [[!redirects Lawvere]]
+[[!redirects F. W. Lawvere]]
+[[!redirects F.W. Lawvere]]
