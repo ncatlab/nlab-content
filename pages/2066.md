@@ -174,6 +174,9 @@ The Karoubi envelope for the additive case (see also [[additive envelope]]) is c
 
 * [[Dror Bar-Natan]], [[Scott Morrison]], _The Karoubi envelope and Lee's degeneration of Khovanov homology_ ([arXiv](http://arxiv.org/abs/math/0606542))
 
+Discussion for [[triangulated categories]] is in 
+
+* Paul Balmer, Marco Schlichting, _Idempotent completion of triangulated categories_ ([pdf](http://www.math.ucla.edu/~balmer/research/Pubfile/IdempCompl.pdf))
 
 [[!redirects Karoubi completion]]
 [[!redirects Karoubi complete category]]
