@@ -81,6 +81,12 @@ This is the main statement in ([Johnstone](#Johnstone)).
 
 ## References
 
+Localic geometric morphisms are defined in def. 4.6.1 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+The discussion there is based on
+
 * [[Peter Johnstone]], _Factorization theorems for geometric morphisms_ Cahiers, 22, no1 (1981) ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_1_3_0))
 {#Johnstone}
 
