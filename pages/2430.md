@@ -25,6 +25,10 @@
 
   * [[conformal field theory|CFT]]
 
+  * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+  * [[(2,1)-dimensional Euclidean field theory]]
+
 * FQFT and [[cohomology]]
 
   * [[geometric models for tmf]]
