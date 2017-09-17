@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The _Sierpinski topos_ is the [[arrow category]] of [[Set]]. This is the [[category of presheaves]] over the [[interval category]] $\mathbf{2} = \{0 \to 1\}$. 
+
+The latter is, regarded as a [[frame]], the [[category of opens]] of the [[Sierpinski space]]. 
+
+## Properties
+
+The Sierpinski topos is a [[cohesive topos]], see the disussion [here](nlab/show/cohesive%20topos#FamiliesOfSets).
+
+## References
+
+Around remark B3.2.11 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
