@@ -1,0 +1,15 @@
+Jacobian varieties are the most important class of abelian varieties. 
+
+To every nonsingular algebraic curve $C$ (over the complex numbers) of genus $g$ one associates the Jacobian variety or simply Jacobian $J(C)$
+either via differential 1-forms or equivalently via line bundles: Jacobian is the the moduli space of degree $0$ line bundles over $C$, i.e. the connected component of the identity of the [[Picard group]] of $C$.
+
+The __Abel-Jacobi map__ $C\to J(C)$ is defined with help of periods.
+
+(one should also cover Abel-Jacobi theorem)
+
+* wikipedia [Jacobian variety](http://en.wikipedia.org/wiki/Jacobian_variety), [Abel-Jacobi map](http://en.wikipedia.org/wiki/Abel%E2%80%93Jacobi_map)
+
+[[!redirects Abel-Jacobi map]]
+[[!redirects Abel-Jacobi theorem]]
+[[!redirects Jacobian varieties]]
+[[!redirects Jacobi variety]]
