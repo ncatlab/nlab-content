@@ -3,6 +3,11 @@
 
 ## Related $n$Lab entries
 
+* [[Nambu-Goto action]]
+
 * [[Nambu bracket]], [[Nambu mechanics]]
 
+
 category: people
+
+[[!redirects Nambu]]
