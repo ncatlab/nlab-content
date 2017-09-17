@@ -38,7 +38,7 @@ such that for all $i$
 
 ## Properties
 
-Nilpotency is involved in sufficient conditions for many important constructioons in ([[stable homotopy theory|stable]]) [[homotopy theory]], see for instance at 
+Nilpotency is involved in sufficient conditions for many important constructions in ([[stable homotopy theory|stable]]) [[homotopy theory]], see for instance at 
 
 * [[localization of a space]];
 
