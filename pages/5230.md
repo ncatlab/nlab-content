@@ -1,5 +1,60 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+> under construction
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What is called _Nambu mechanics_ is a generalization of the formulation of [[classical mechanics]] ([[prequantum geometry]]) via [[Poisson manifold|Poisson brackets]] to bracket-operations of arity $(n+1)$ higher than 2 -- the Nambu brackets --, with an "[[n-Lie algebra]]"-structure (see the discussion there for distinction with proper [[Lie n-algebras]]).
+
+## Examples
+
+### The membrane
+
+One example that naturally gives rise to Nambu mechanics is the relativistic [[membrane]], see at _[[membrane matrix model]]_ and at _[[BLG model]]_.
+
+## Related concepts
+
+* [[membrane]]
+
+## References
+
+### General
+
 Nambu mechanics and Nambu brackets were introduced in 
 
-* Yoichiro Nambu, _Generalized Hamiltonian dynamics_, Phys. Rev. D (3) 7 (1973), p. 2405-2412 [MR455611](http://www.ams.org/mathscinet-getitem?mr=455611) [doi](http://dx.doi.org/10.1103/PhysRevD.7.2405) [Zbl](http://www.zentralblatt-math.org/zmath/en/search/?q=an:1027.70503)
+* [[Yoichiro Nambu]], _Generalized Hamiltonian dynamics_, Phys. Rev. D (3) 7 (1973), p. 2405-2412 [MR455611](http://www.ams.org/mathscinet-getitem?mr=455611) [doi](http://dx.doi.org/10.1103/PhysRevD.7.2405) [Zbl](http://www.zentralblatt-math.org/zmath/en/search/?q=an:1027.70503)
+
+Reviews include 
+
+* Wikipedia, _[Nambu mechanics](http://en.wikipedia.org/wiki/Nambu_mechanics)_
+
+* Thomas Curtright, Cosmas Zachos, _Classical and Quantum Nambu Mechanics_, Phys. Rev. D68:085001 (2003) ([arXiv:hep-th/0212267](http://arxiv.org/abs/hep-th/0212267))
+
+Further developments include
+
+* M. Axenides, E. G. Floratos, [[Stam Nicolis]], _Nambu Quantum Mechanics on Discrete 3-Tori_, J. Phys. A42:275201 (2009) ([arXiv:0901.2638](http://arxiv.org/abs/0901.2638))
+
+### Interpretation in higher symplectic geometry
+Comments on interpreting Nambu mechanics in [[2-plectic geometry]] (and in view of the [[IKKT matrix model]]) appear in
+
+* [[Christian Saemann]], [[Patricia Ritter]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
+
+For background on this see also the discussion at _[[3-Lie algebra]]_ on how these are given by [[Lie 2-algebras]] (as [metric Lie 2-algebras](#n-Lie+algebra#SaemannRitter13))
 
 [[!redirects Nambu bracket]]
+[[!redirects Nambu brackets]]
