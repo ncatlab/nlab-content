@@ -55,6 +55,8 @@ As opposed to the [[simplex category]] $\Delta$, the subcategory $\Delta_+$ is a
 
   * [[semi-Segal space]]
 
+* [[Homotopy Type System]] ("HTS")
+
 ## References
  {#References}
 
@@ -83,6 +85,8 @@ Discussion of formulation of semsiplicial [[types]] in the context of [[homotopy
 but its execution requires augmenting [[homotopy type theory]] with an auxilirary [[extensional type theory|extensional]] [[identity type]], discussed in 
 
 * [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ (Feb. 2013) ([pdf](http://uf-ias-2012.wikispaces.com/file/view/HTS_slides.pdf/410105196/HTS_slides.pdf))
+
+See at _[[Homotopy Type System]]_ ("HTS") for more on this.
 
 More along these lines is in 
 
