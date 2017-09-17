@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Super-Algebra and Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,15 +36,22 @@ If $V$ is equipped with a non-degenerate [[inner product]] then the space of biv
 If we write $\gamma_v \in Cl(V)$ for the CLifford algebra element corresponding to a vector $v \in V$, then this identification is given by the map
 
 $$
-  v \wedge w \mapsto \gamma_{v} \cdot \gamma_w - \gamma_w \cdot \gamma_v
+  v \wedge w \mapsto 
+  \frac{1}{2}\left(\gamma_{v} \cdot \gamma_w - \gamma_w \cdot \gamma_v\right)
   \,.
 $$
+
+(The [[inverse]] of this map is called the [[symbol map]].)
 
 Under the [[commutator]] in the Clifford algebra bivectors go to bivectors and hence form a [[Lie algebra]]. This Lie algebra is the [[special orthogonal Lie algebra]] $\mathfrak{so}(V)$ of $V$.
 
 
 
 ## References
+
+Discussion of [[Clifford algebra]] and [[exterior algebra]] that amplifies the role of bivectors is notably in the references at _[[Geometric Algebra]]_ . 
+
+See also
 
 * wikipedia, [bivector](http://en.wikipedia.org/wiki/Bivector)
 
