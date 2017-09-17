@@ -8,7 +8,7 @@ See also Wikipedia's [Stinespring factorization theorem](http://en.wikipedia.org
 +-- {: .un_theorem}
 ###### Stinespring's dilation theorem
 
-Let $T: S_{1}(\mathcal{H}) \to S_{2}(\mathcal{H})$ be a completely positive trace-preserving (CPTP) map between states on a finite-dimensional Hilbert space, $\mathcal{H}$.  Then there exists a Hilbert space $\mathcal{A}$ and a unitary operation $U$ on $\mathcal{H}\otimes\mathcal{A}$ such that
+Let $T: S_{1}(\mathcal{H}) \to S_{2}(\mathcal{H})$ be a completely positive trace-preserving (CPTP) map between states on a finite-dimensional [[Hilbert space]], $\mathcal{H}$.  Then there exists a Hilbert space $\mathcal{A}$ and a unitary operation $U$ on $\mathcal{H}\otimes\mathcal{A}$ such that
 
 $$
    T(\rho) = Tr_{\mathcal{A}}U(\rho \otimes \rho_{\mathcal{A}})U^{\dagger}
