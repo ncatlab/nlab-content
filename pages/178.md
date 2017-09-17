@@ -331,7 +331,7 @@ $$
 on the fiber $P_x$ of $P$ over $x$.
 
 
-#### Geometric realization {#GeometricRealization}
+#### Geometric realization and homotopy groups {#GeometricRealization}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -355,6 +355,21 @@ $$
 The [[(∞,1)-functor]] $\Pi : \infty LieGrpd \to \infty Grpd$ is the left [[derived functor]] of $\lim_\to : [CartSp^{op}, sSet]_{proj,cov} \to sSet_{Quillen}$. Use the above cofibrant replacement for $X$ degreewise with Dugger's general description of [projective cofibrant objects](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement) in $[CartSp^{op}, sSet]$ to compute the cofibrant replacement, then apply $\lim_\to$ and use that the [[colimit]] of a [[representable functor|representable]] is the point. The statement then is degreewise the classical [[nerve theorem]].
 
 A detailed proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">path ∞-groupoid -- Unstructured homotopy ∞-groupoid</a>.
+
+=--
+
+
++-- {: .un_cor}
+###### Corollary
+
+For $X \in \infty LieGrpd$ presented by a [[simplicial manifold]], its [[geometric homotopy groups in an (infinity,1)-topos|intrinsic geometric homotopy groups]] are the ordinary [[homotopy group]]s of the [[geometric realization]]
+
+$$
+  \pi_n^{geom}(X,x) \simeq \pi_n(|X|, x)
+  \,.
+$$
+
+In particular for $X \in LieGrpd \hookrightarrow \infty LieGrpd$ an [[Lie groupoid]], $\pi_n^{geom}(X,x)$ coincides with the traditional definition of [[homotopy groups of a Lie groupoid]].
 
 =--
 
