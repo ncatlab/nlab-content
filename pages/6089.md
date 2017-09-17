@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include differential cohomology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -128,14 +128,32 @@ For the cup product of [[Cheeger-Simons differential character]]s see also
 * [[Mike Hopkins]] and [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv](http://arxiv.org/abs/math/0211216))
 
 
-[[!redirects cup product in ordinary differential cohomology]]
-
+[[!redirects Deligne-Beilinson cup product]]
+[[!redirects Deligne-Beilinson cup products]]
+[[!redirects Deligne–Beilinson cup product]]
+[[!redirects Deligne–Beilinson cup products]]
+[[!redirects Deligne--Beilinson cup product]]
+[[!redirects Deligne--Beilinson cup products]]
 [[!redirects Beilinson-Deligne cup product]]
+[[!redirects Beilinson-Deligne cup products]]
+[[!redirects Beilinson–Deligne cup product]]
+[[!redirects Beilinson–Deligne cup products]]
+[[!redirects Beilinson--Deligne cup product]]
+[[!redirects Beilinson--Deligne cup products]]
+[[!redirects Beilinson-Deligne cup-product]]
 
 [[!redirects differential cup-product]]
 [[!redirects differential cup product]]
+[[!redirects differential cup products]]
 
 [[!redirects cup product in ordinary differential cohomology]]
 [[!redirects cup-product in ordinary differential cohomology]]
 
-[[!redirects Deligne-Beilinson cup product]]
+
+[[!redirects cup product on differential cohomology]]
+
+[[!redirects cup product in generalized differential cohomology]]
+[[!redirects cup product on generalized differential cohomology]]
+
+[[!redirects cup product in differential generalized cohomology]]
+[[!redirects cup product on differential generalized cohomology]]
