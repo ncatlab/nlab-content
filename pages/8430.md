@@ -1,0 +1,10 @@
+
+**[[deductive reasoning]]**
+
+* [[natural deduction]]
+
+**[[inductive reasoning]]**
+
+* [[induction]], [[recursion]]
+
+* [[inductive type]], [[higher inductive type]]
