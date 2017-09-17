@@ -18,7 +18,7 @@ This can be thought of as:
    $$ \left(\array { a & b \\ 0 & a } \right);$$
 *  the [[polynomial]] ring $\mathbb{R}[\mathrm{x}]$ modulo $\mathrm{x}^2$;
 *  the parabolic $2$-dimensional algebra of [[hypercomplex number]]s;
-*  the algebra of functions on the [[infinitesimal object|infinitesimal interval]] in [[synthetic differential geometry]].
+*  the algebra of functions on the [[infinitesimal object|infinitesimal interval]] (the smallest of the [[infinitesimally thickened points]]) in [[synthetic differential geometry]].
 * if $\epsilon$ is regarded as being of degree 1 and $\mathbb{R} \oplus \epsilon \mathbb{R}$ is regarded accordingly as a [[superalgebra]] then this is the algebra of functions on the [[odd line]] $\mathbb{R}^{0|1}$.
 * the square-0-extension corresponding to the $\mathbb{R}$-[[module]] (see there) given by $\mathbb{R}$ itself.
 
