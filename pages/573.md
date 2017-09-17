@@ -199,7 +199,7 @@ The blueprint for the following construction is the traditional fact that a [[ca
 
 The following discussion takes this point of view and generalizes it to a similar presentation of $(\infty,n)$-categories by very simple [[strict n-categories]].
 
-#### Preliminaries
+#### Strict $n$-categories
 
 The main definition is def. \ref{AxiomaticDefinition} below, which roughly says that the collection of $(\infty,n)$-categories is _generated_ from [[strict n-categories]] in a certain sense. Therefore we first need to fix some terminology and notions about strict $n$-categories and about the relevant notion of generation.
 
@@ -246,7 +246,7 @@ Being a [[subobject]] of a gaunt $n$-category, also the [[boundary]] of a globe 
 Write 
 
 $$
-  \sigma_k : Str (k) Cat to Str (k+1) Cat
+  \sigma_k : Str (k) Cat \to Str (k+1) Cat
 $$
 
 for the "categorical suspension" functor which sends a strict $k$-category to the object $\sigma(X) \in Str (k+1) Cat \simeq (Str k Cat)Cat$ which has precisely two objects $a$ and $b$, has $\sigma(C)(a,a) = \{id_a\}$, $\sigma(C)(b,b) = \{id_b\}$, $\sigma(C)(b,a) = \emptyset$ and 
@@ -287,6 +287,94 @@ $$
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+The category $Str n Cat_{gaunt}$ is a [[locally presentable category]] and in fact a [[locally finitely presentable category]].
+
+=--
+
+([B-PS, lemma 3.5](#BarwickSchommerPries))
+
+We are going to be interested in a full [[subcategory]] $Str n Cat_{gen} \hookrightarrow Str n Cat_{gaunt}$, given below in def. \ref{nCatGen}, which knows about the higher [[profunctors]]/[[correspondence|correspondences]] between $n$-categories.
+
++-- {: .num_remark }
+###### Observation
+
+For $A,B$ two categories, a [[profunctor]] $A^{op} \times B \to Set$
+is equivalently a functor $K \to G_1$ equipped with an identification
+$A \simeq K_0$ and $B \simeq K_1$.
+
+=--
+
+This motivates the following definition.
+
++-- {: .num_defn }
+###### Definition
+
+A _$k$-profunctor_ / $k$-correspondence of strict $n$-categories is a morphism
+$K \to G_k$ in $Str n Cat$. The category of $k$-correspondences is the [[slice category]] $Str n Cat/ G_k$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+The categories  $Str n Cat_{gaunt}/G_k$ of $k$-correspondences between gaunt $n$-categories are [[cartesian closed category]].
+
+=--
+
+([B-SP, cor. 5.4](#BarwickSchommerPries))
+
+
+
++-- {: .num_remark}
+###### Remark
+
+By standard facts, in a [[locally presentable category]] $\mathcal{C}$ with [[finite limits]], a [[slice category|slice]] $\mathcal{C}/X$ is cartesian closed precisely if [[pullback]] along all morphisms $f : Y \to X$ with codomain $X$ preserves [[colimits]] (see at _[[locally cartesian closed category]]_ the section _[Cartesian closure in terms of base change and dependent product](locally%20cartesian%20closed%20category#EquivalentCharacterizations)_).
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Without the restriction that the codomain of $f$ in the above is a [[globe]], the pullback $f^*$ in $Str n Cat$ will in general fail to preserves colimits. For a simple example of this, consider the [[pushout]] diagram in [[Cat]] $\hookrightarrow Cat_{(\infty,1)}$ given by
+
+$$
+  \array{
+     \Delta[0] &\stackrel{\delta_1}{\to}& \Delta[1]
+     \\
+     {}^{\mathllap{\delta_0}}\downarrow && \downarrow^{\mathrlap{\delta_0}}
+     \\
+     \Delta[1] &\stackrel{\delta_2}{\to}& \Delta[2]
+  }
+  \,.
+$$
+
+Notice that this is indeed also a [[homotopy pushout]]/[[(∞,1)-pushout]] since, by remark \ref{GauntIs0Truncted}, all objects involved are 0-truncated.
+
+Regard this canonically as a pushout diagram in the [[slice category]] $Cat_{/\Delta[2]}$ and consider then the pullback $\delta_1^* : Cat_{/\Delta[1]} \to Cat_{/\Delta[1]}$ along the remaining face $\delta_1 : \Delta[1] \to \Delta[2]$. This yields the diagram
+
+$$
+  \array{
+     \emptyset &\stackrel{}{\to}& \emptyset
+     \\
+     {}^{}\downarrow && \downarrow^{}
+     \\
+     \emptyset &\stackrel{}{\to}& \Delta[1]
+  }
+  \,,
+$$
+
+which evidently no longer is a pushout.
+
+=--
+
+(See also the discussion [here](http://golem.ph.utexas.edu/category/2011/11/the_1category_of_ncategories.html#c040335)).
+
+
+The definition of $Cat_{(\infty,n)}$ below, def. \ref{AxiomaticDefinition}, will take this property to be one of the characteristic properties. Therefore consider
 
 +-- {: .num_defn #nCatGen}
 ###### Definition
@@ -301,11 +389,24 @@ for the smallest [[full subcategory]] that
 
 1. contains the [[globe category]] $\mathbb{G}_{\leq n}$, example \ref{Globes};
 1. is closed under [[retracts]] in $Str n Cat_{gaunt}$; 
-1. has all [[fiber products]] over [[globes]].
+1. has all [[fiber products]] over [[globes]] (equivalently: such that all [[slice categories]] over globes have [[products]]).
 
 =--
 
 ([B-SP, def. 5.6](#BarwickSchommerPries))
+
++-- {: .num_example }
+###### Example
+
+The following categories are naturally [[full subcategories]] of $Str n Cat_{gen}$
+
+* the $n$-fold [[simplex category]] $\Delta^{\times n}$;
+
+* the $n$th [[Theta-category]].
+
+=--
+
+This is discussed in more detail below in _[Presentation by Theta-spaces and by n-fold Segal spaces](#PresentationByThetaSpaces)_.
 
 +-- {: .num_defn #FundamentalPushouts}
 ###### Definition
@@ -346,6 +447,10 @@ $i(\sigma^k(\Delta[3])) \coprod_{i(\sigma^k\{0,2\}) \coprod i(\sigma^k\{1,3\})} 
 
 =--
 
+
+
+#### Generation by strict $n$-categories
+
 Def. \ref{AxiomaticDefinition} considers an $(\infty,1)$-category _generated_ from $Str n Cat_{gen}$ in the following sense
 
 +-- {: .num_defn #StrongGeneration}
@@ -381,7 +486,7 @@ By definition, a strongly generated $(\infty,1)$-category is in particular a
 
 =--
 
-#### Characterization
+
 
 +-- {: .num_defn #AxiomaticDefinition}
 ###### Definition
@@ -442,42 +547,6 @@ along morphisms of the form $X \to i(G_k)$ preserving [[(∞,1)-colimits]].
 
 =--
 
-+-- {: .num_example}
-###### Example
-
-Without the restriction that the codomain of $f$ in the above is a [[globe]], the pullback $f^*$ will in general fail to preserves colimits. For a simple example of this, consider the [[pushout]] diagram in [[Cat]] $\hookrightarrow Cat_{(\infty,1)}$ given by
-
-$$
-  \array{
-     \Delta[0] &\stackrel{\delta_1}{\to}& \Delta[1]
-     \\
-     {}^{\mathllap{\delta_0}}\downarrow && \downarrow^{\mathrlap{\delta_0}}
-     \\
-     \Delta[1] &\stackrel{\delta_2}{\to}& \Delta[2]
-  }
-  \,.
-$$
-
-Notice that this is indeed also a [[homotopy pushout]]/[[(∞,1)-pushout]] since, by remark \ref{GauntIs0Truncted}, all objects involved are 0-truncated.
-
-Regard this canonically as a pushout diagram in the [[slice category]] $Cat_{/\Delta[2]}$ and consider then the pullback $\delta_1^* : Cat_{/\Delta[1]} \to Cat_{/\Delta[1]}$ along the remaining face $\delta_1 : \Delta[1] \to \Delta[2]$. This yields the diagram
-
-$$
-  \array{
-     \emptyset &\stackrel{}{\to}& \emptyset
-     \\
-     {}^{}\downarrow && \downarrow^{}
-     \\
-     \emptyset &\stackrel{}{\to}& \Delta[1]
-  }
-  \,,
-$$
-
-which evidently no longer is a pushout.
-
-=--
-
-(See also the discussion [here](http://golem.ph.utexas.edu/category/2011/11/the_1category_of_ncategories.html#c040335)).
 
 #### Universal presentation
 
@@ -592,7 +661,7 @@ is an [[equivalence of (∞,1)-categories]]:
 
 ([B-SP, theorem 9.2](#BarwickSchommerPries)) 
 
-#### Presentation by theta-spaces and $n$-fold complete Segal spaces
+#### Presentation by $\Theta_n$-spaces and $n$-fold complete Segal spaces
  {#PresentationByThetaSpaces}
 
 We discuss now presentations of $Cat_{(\infty,n)}$ over subcategories of $Str n Cat_{gen}$, according to prop. \ref{SufficientConditionsForPresentation}.
@@ -840,15 +909,6 @@ The nontrivial element $\sigma \in \mathbb{Z}_2$ in the $k$th slot acts by passi
 
 ([B-SP, theorem 8.13](#BarwickSchommerPries))
 
-+-- {: .proof}
-###### Proof
-
-The idea is this:
-One first observes that $Str n Cat_{gaunt}$ from def. \ref{GauntStrictNCategories} has $(\mathbb{Z}_2)^{\times n}$ worth of automorphisms, given by 
-reversing the directions of the [[k-morphisms]]. Then one uses that, by the [above discussion](#Generators) these generate all of $Cat_{(\infty,n)}$ under [[(∞,1)-colimits]].
-
-=--
-
 +-- {: .num_remark }
 ###### Remark
 
@@ -857,6 +917,29 @@ This means that
 1. the $(\infty,1)$-category $Cat_{(\infty,n)}$ from def. \ref{AxiomaticDefinition} is uniquely defined, up to [[equivalence of (∞,1)-categories]];
 
 1. the [[automorphism ∞-group]] of $Cat_{(\infty,n)}$ in $\hat Cat_{(\infty,1)}$ is $(\mathbb{Z}_2)^n$, hence the only auto-equivalences are given by forming the $n$ analogs of forming an [[opposite (∞,1)-category]].
+
+=--
+
+
+
++-- {: .proof}
+###### Proof
+
+The idea is this:
+
+One first observes that $Str n Cat_{gaunt}$ from def. \ref{GauntStrictNCategories} has $(\mathbb{Z}_2)^{\times n}$ worth of automorphisms, given by 
+reversing the directions of the [[k-morphisms]]. 
+
+For this, 
+
+1. observe that the identity is the only [[natural transformation]] [[endomorphism]] on $Id : Str n Cat_{gaunt} \to Str n Cat_{gaunt}$: this can be checked on [[globes]] for which one observes that if a functor $G_n \to G_n$ is the identity on $\partial G_n$, then it is so also on the unique $n$-cell. ([B-SP, lemma 4.1](#BarwickSchomerPries))
+
+1. observe that every autoequivalence of $Str n Cat_{gaunt}$ restricts to one on  the [[globe category]] $\mathbb{G}_n$ ([B-SP, lemma 4.4](#BarwickSchomerPries)).
+
+1. observe that the only autoequivalences of $\mathbb{G}_n$ are those that reverse the direction of the $k$-morphisms for $1 \leq k \neq n$, which with the above implies the same for all of $Str n Cat_{gaunt}$ ([B-SP, lemma 4.5](#BarwickSchomerPries)).
+
+Now us that, by the [above discussion](#Generators), $Str n Cat_{gaunt}$ generates all of $Cat_{(\infty,n)}$ under [[(∞,1)-colimits]].
+
 
 =--
 
