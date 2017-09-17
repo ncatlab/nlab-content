@@ -7,13 +7,13 @@
 * automatic table of contents goes heree
 {:toc}
 
-#Idea#
+## Idea
 
 The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-space]]s in an [[∞-stack]][[(∞,1)-topos]], as described at [[cohomology]]. Much of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]] turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (∞,1)-categories]].
 
 Therefore to amplify that one is looking at general [[cohomology]] without restricting to [[abelian sheaf cohomology|abelian cohomology]] one sometimes speaks of  **nonabelian cohomology**. 
 
-#History#
+## History
 
 It was originally apparently John Roberts who understood (remarkably: while thinking about [[quantum field theory]] in the guise of [[AQFT]]) that general cohomology is about coloring simplices in $\infty$-categories.  
 
@@ -62,7 +62,9 @@ This perspective on nonabelian cohomology is discussed for instance in
 * [[Bertrand Toen]], _Non-abelian cohomology_ ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html) [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps))
 
 
-#Nonabelian group cohomology#
+## Special cases
+
+### Nonabelian group cohomology
 
 Sometimes the term _nonabelian cohomology_ is used in a more restrictive sense. Often people mean 
 [[nonabelian group cohomology]] when they say nonabelian cohomology, hence restricting to the domains to [[group|groups]], which are [[groupoid|groupoids]] with a single object.
@@ -79,7 +81,68 @@ For more see
 
 * [[nonabelian group cohomology]].
 
-#Objects classified by nonabelian cohomology#
+### Nonabelian sheaf cohomology with constant coefficients {#NonabelianSheafCohomology}
+
+For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]] equipped with the canonical structure of an [[(∞,1)-site]], let 
+
+$$
+  \mathbf{H}
+  :=
+  Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))
+$$
+
+be the [[(∞,1)-category of (∞,1)-sheaves]] on $X$. 
+
+Write
+
+$$
+  (LConst \dashv \Gamma) :  Sh_{(\infty,1)}(X)
+  \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+$$
+
+be the [[global section]]s terminal [[geometric morphism]]. 
+
+For $A \in \infty Grpd$, the ([[nonabelian cohomology|nonabelian]]) [[cohomology]] of $X$ with coefficients in $A$ is usually defined in [[∞Grpd]]  $simeq $ [[Top]] as
+
+$$
+  H(X,A) := \pi_0 Func(Sing X, A)
+  \,,
+$$
+
+where $Sing X$ is the [[fundamental ∞-groupoid]] of $X$. On the other hand, if we send $A$ into $Sh_{(\infty,1)}(X)$ via $LConst$, the there is the _intrinsic_ [[cohomology]] of the $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ with coefficients in the [[constant ∞-stack|constant (∞,1)-sheaf]] on $A$
+  
+$$
+  H'(X,A) := \pi_0 Sh_{(\infty,1)}(X)(X, LConst A)
+  \,.
+$$
+
+Noticing that $X$ is in fact the [[terminal object]] of $Sh_{(\infty,1)}(X)$ and that $Sh_{(\infty,1)}(X)(X,-)$ is in fact that [[global section]]s functor, this is equivalently
+
+$$
+  \cdots \simeq \pi_0 \Gamma LConst A
+  \,.
+$$
+
++-- {: .un_theorem }
+###### Theorem
+
+If $X$ is a [[paracompact space]], then these two definitins of [[nonabelian cohomology]] of $X$ with [[constant ∞-stack|constant coefficients]] $A \in \infty Grpd$ agree:
+
+$$
+  H(X,A) := \pi_0 \infty Grpd(Sing X,A)  \simeq Sh_{(\infty,1)}(X)(X,LConst A)
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, theorem 7.1.0.1]]. For more details see [[(∞,1)-category of (∞,1)-sheaves]].
+
+
+
+
+
+
+## Objects classified by nonabelian cohomology
 
 For $g : X \to A$ a [[cocycle]] in nonabelian cohomology, we say the [[fibration sequence|homotopy fibers]] of $g$ is the object _classified_ by $g$.
 
@@ -91,9 +154,9 @@ For examples and discussion of this see
 
 * [[principal 2-bundle]]
 
-* [[principal infinity-bundle]] .
+* [[principal ∞-bundle]] .
 
-#References#
+## References
 
 In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-categorical hom-space|hom-spaces]] between [[∞-stack]]s, see also the references at [[∞-stack]].
 
