@@ -79,6 +79,12 @@ p^A_\lambda p^A_\lambda p^S_\lambda p^S_\lambda = p_\lambda $$
 
 Checking that $p_\lambda$ commutes with all permutations is a calculation that you must do for yourself someday.
 
++-- {: .query}
+
+[[John Baez]]: The following stuff needs to be fixed.
+ 
+=-- 
+
 This element $p_\lambda \in \mathbb{C}[S_n]$ is called the **Young symmetrizer** corresponding to the $n$-box Young diagram $\lambda$.  Since the group algebra $k[S_n]$ acts on $V^{\otimes n}$ by permuting the factors, the Young symmetrizer gives a projection
 
 $$ p_\lambda : V^{\otimes n} \to V^{\otimes n} $$
