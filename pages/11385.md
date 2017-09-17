@@ -19,7 +19,14 @@
 
 Power operations are [[cohomology operations]] in [[multiplicative cohomology theory]] which are higher-degree analogs of [[cup products]]-squares [[symmetric algebra|symmetrized]] in the right [[homotopy theory|homotopy-theoretic sense]].
 
-Power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]] ([Lurie, remark 2.2.7](#Lurie)).
++-- {: .num_remark #AsPDerivations}
+###### Remark
+
+Power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]] 
+
+See [Lurie, from remark 2.2.7 on](#Lurie)) and see the example [below](#OnK1LocalKUAlgebras).
+
+=--
 
 For $E$ an [[E-∞ ring]] and $X$ a [[topological space]] ([[∞-groupoid]], [[homotopy type]]), then a map $a\;\colon\;X \to E$ is a [[cocycle]] in the [[cohomology]] of $X$ with [[coefficients]] in $E$. 
 
@@ -45,13 +52,43 @@ The cohomology class of this $E$-cocycle on $X \times B \Sigma_n$ is the $n$-th 
 
 ## Examples
 
-* on [[ordinary cohomology]] over a [[topological space]], the power operations are the [[Steenrod operations]];
+### Steenrod operations
+
+On [[ordinary cohomology]] over a [[topological space]], the power operations are the [[Steenrod operations]];
 
   Specifically for $n = 2$ and $E = H \mathbb{Z}_2$ then the second (symmetric) power of $a \in H(X,\mathbb{Z}_2)$ is an element in $H^\bullet(\mathbb{R}P^\infty \times X, \mathbb{Z}_2) \simeq H^\bullet(X,\mathbb{Z}_2)[x]$ and the [[coefficients]] of this [[polynomial]] in $x$ are the [[Steenrod operations]] on $a$.
 
-* on an [[infinite loop space]] they are the Kudo-Araki-Dyer-Lashof operations
+### Kudo-Araki-Dyer-Lashof operations
 
-* in the context of  [[complex K-theory]] they are the [[Adams operations]]
+On an [[infinite loop space]] the power operations are the [[Kudo-Araki-Dyer-Lashof operations]]
+
+### Adams operations
+
+In the context of  [[complex K-theory]] power operations are the [[Adams operations]].
+
+### On $K(1)$-local $KU$-algebras
+ {#OnK1LocalKUAlgebras}
+
+> From [this MO comment](http://mathoverflow.net/a/178627/381) by [[Akhil Mathew]]:
+
+Let $R$ be a [[K(n)-local stable homotopy theory|K(1)-local]] [[E-∞ ring]] under ([[p-completion|p-adic]]) [[complex K-theory]] [[KU]]. Then there exists a basic power operation $\theta: \pi_0 R \to \pi_0 R$ (see [Hopkins](#Hopkins)) such that : 
+
+*  $\psi(x) \stackrel{\mathrm{def}}{=} x^p + p \theta(x)$ defines a ring homomorphism from $\pi_0 R \to \pi_0 R$.
+
+* $\theta$ satisfies all the identities needed to make $\psi$ a ring-homomorphism after "division by p." For instance $\psi(x+y) = \psi(x) + \psi(y)$ implies that 
+
+  $$
+    \theta(x+y) = \theta(x) + \theta(y) + \frac{x^p - y^p - (x+y)^p}{p}
+    \,,
+  $$ 
+
+  where the last term is an integral polynomial in $x,y$ and is interpreted as such. 
+
+(see also [Rezk 09, example 1.3](#Rezk09))
+
+This is a "$\theta$-algebra."/[[p-derivation]] as in remark \ref{AsPDerivations} above.
+
+Note in particular that $\psi$ is a lift of the [[Frobenius homomorphism]]. There are generalizations of $\psi, \theta$ at higher [[chromatic levels]], too, and there isa modular interpretation of the resulting algebraic structure in ([Rezk 09](#Rezk09)).
 
 ## Related concepts
 
@@ -77,10 +114,13 @@ The original articles are
 
 * [[Charles Rezk]], _Power operations for Morava E-theory of height 2 at the prime 2_ ([arXiv:0812.1320](http://arxiv.org/abs/0812.1320))
 
-* [[Charles Rezk]], _The congruence criterion for power operations in Morava E-theory_ ([arXiv:0902.2499](http://arxiv.org/abs/0902.2499))
+* {#Rezk09} [[Charles Rezk]], _The congruence criterion for power operations in Morava E-theory_ ([arXiv:0902.2499](http://arxiv.org/abs/0902.2499))
 
-Discussion in the generality of [[E-infinity arithmetic geometry]] is in 
+More discussion in the generality of [[E-infinity arithmetic geometry]] is in 
 
 * {#Lurie} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
 
+Discussion for $K(1)$-local $E_\infty$-rings is in 
+
+* {#Hopkins} [[Michael Hopkins]], _$K(1)$-local $E_\infty$-Ring spectra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/knlocal.pdf))
 [[!redirects power operations]]
