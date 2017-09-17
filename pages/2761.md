@@ -24,7 +24,25 @@
 The statement of the [[Yoneda lemma]] has a straightforward generalization from [[category|categories]] to [[(∞,1)-category|(∞,1)-categories]].
 
 
-## Details
+## Yoneda embedding
+
++-- {: .un_def }
+###### Definition
+
+For $C$ an [[(∞,1)-category]] and $PSh(C)$ its [[(∞,1)-category of (∞,1)-presheaves]], the **$(\infty,1)$-Yoneda embedding** is the [[(∞,1)-functor]]
+
+$$
+  y : C \to PSh(C)
+$$
+
+
+given by $y(X) : U \mapsto C(U,X)$.
+
+=--
+
+## Properties
+
+### Yoneda lemma
 
 +-- {: .un_theorem }
 ###### Theorem
@@ -73,6 +91,18 @@ This appears as [[Higher Topos Theory|HTT Lemma 5.5.2.1]].
 The statement is a direct consequence of the [[sSet]]-[[enriched category theory|enriched]] [[Yoneda lemma]] by using the fact that the [[(infinity,1)-category of (infinity,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is modeled by the [[enriched functor category]] $[C^{op}, sSet]_{proj}$ with $C$ regarded as a [[simplicially enriched category]] and using the global [[model structure on simplicial presheaves]].
 
 =--
+
+### Preservation of limits
+
+
++-- {: .un_theorem }
+###### Theorem
+
+The $(\infty,1)$-Yoneda embedding $y : C \to PSh(C)$ preserves all [[(∞,1)-limit]]s that exist in $C$.
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, prop. 5.1.3.2]].
 
 
 ## References
