@@ -20,6 +20,8 @@ For applications to [[physics]], the most interesting division algebras are prob
 
 See at _[[division algebra and supersymmetry]]_.
 
+* [[Hopf invariant one]]
+
 ## References
 
 * [[John Baez]], The octonions, section 1.1: Preliminaries,
