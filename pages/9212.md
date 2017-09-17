@@ -1,5 +1,5 @@
 
-An $n \times n$-[[matrix]] $U \in Mat(n, \mathbb{C})$ with entries in the [[complex numbers]] is **unitary** if the following equivalent conditions hold
+An $n \times n$-[[matrix]] $U \in Mat(n, \mathbb{C})$ with entries in the [[complex numbers]] (for $n$ a [[natural number]]) is **unitary** if the following equivalent conditions hold
 
 * it preserves the canonical [[inner product]] on $\mathbb{C}^n$;
 
@@ -10,6 +10,8 @@ An $n \times n$-[[matrix]] $U \in Mat(n, \mathbb{C})$ with entries in the [[comp
     \,.
   $$
 
-The unitary matrices under [[matrix product]] form a [[Lie group]]: the _[[unitary group]]_.
+For fixed $n$, the unitary matrices under [[matrix product]] form a [[Lie group]]: the _[[unitary group]]_ $\mathrm{U}_n$ (or other notations).
 
+
+[[!redirects unitary matrix]]
 [[!redirects unitary matrices]]
