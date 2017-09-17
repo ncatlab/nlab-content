@@ -106,6 +106,8 @@ Voevodsky has also worked on a category theoretic treatment of probability theor
 
 (blog comment) Cencov's "category of statistical decisions" coincides with Giry's (Lawvere's) category.  I have the sense that Cencov discovered this category independently of Lawvere although years later.
 
+* category cafe related to Giry monad: [category theoretic probability](http://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability.html), [coalgebraic modal logic](http://golem.ph.utexas.edu/category/2009/09/coalgebraic_modal_logic.html) 
+
 To do:
 
 * Relate to [convex spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html)
