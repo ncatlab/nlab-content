@@ -117,7 +117,7 @@ $$
 
 ### Cohomology and Chern-Simons elements {#Cohomology}
 
-We discuss aspects of the [[∞-Lie algebra cohomology|∞-Lie algebroid cohomology]] of $\mathfrak{P}(X,\pi)$.
+We discuss aspects of the [[∞-Lie algebra cohomology|∞-Lie algebroid cohomology]] of Poisson Lie algebroids $\mathfrak{P}(X,\pi)$. This is equivalently called _[[Poisson cohomology]]_ (see there for details).
 
 We shall be lazy (and follow tradition) and write the following formulas in a local coordinate patch $\{x^i\}$ for $X$.
 
