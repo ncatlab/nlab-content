@@ -2,7 +2,7 @@
 
 He received a [[Fields medal]] in 2002 for a [[proof]] of the [[Milnor conjecture]]. The proof crucially uses [[A1-homotopy theory]] and [[motivic cohomology]] developed by Voevodsky for this purpose. In further development of this in 2009 Voevodsky announced a proof of the [[Bloch-Kato conjecture]].
 
-After this work in [[algebraic geometry]], [[cohomology]], [[homotopy theory]] Voevodsky turned to the [[foundations of mathematics]] and is now working on [[homotopy type theory]] which he is advertizing as a new ""[[univalence|univalent]] foundations" for modern mathematics.
+After this work in [[algebraic geometry]], [[cohomology]], [[homotopy theory]] Voevodsky turned to the [[foundations of mathematics]] and is now working on [[homotopy type theory]] which he is advertising as a new "[[univalence|univalent]] foundations" for modern mathematics.
 
 ## Related entries
 
