@@ -1,0 +1,1 @@
+A [[polynomial]] over a [[ring]] with [[unit]] is the **identity polynomial** if it is an order zero polynomial with value the unit of that ring.
