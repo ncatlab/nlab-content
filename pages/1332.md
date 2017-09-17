@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include descent and locality - contents]]
 =--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
 =--
 =--
 
