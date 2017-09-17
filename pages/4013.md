@@ -126,6 +126,11 @@ From this lemma, it follows that the full subcategory of type A objects in an AT
 +-- {: .un_lem}
 ######Lemma
 Objects of type A are closed under products, coproducts, subobjects, and quotient objects. Therefore they give a full subcategory that is an AT category, in particular an effective regular category.
+=-- 
+
++-- {: .proof}
+######Proof
+The first sentence follows from that fact that the category of type A objects is the slice category. 
 =--
 
 +--{: .un_lem}
@@ -155,7 +160,8 @@ There is exactly one morphism $A \to 0$. Hence morphisms $A \to T$ are in biject
 
 +-- {: .un_prop}
 ######Proposition
-The full subcategory of objects of type T is closed under products, coproducts, subobjects, and quotient objects
+The full subcategory of objects of type T is closed under products, coproducts, subobjects, and quotient objects.
+=--
 
 +-- {: .un_thm}
 ######Theorem
@@ -164,7 +170,7 @@ The full subcategory of objects of type T is a pretopos.
 
 +-- {: .proof}
 ######Proof
-One of our earlier results was that coproducts were disjoint, and one of the AT axioms above says that coproducts are universal. Hence an AT category is extensive; it is also effective regular, hence a pretopos. 
+The previous proposition gives sufficient finite completeness and cocompleteness. By one of our earlier results, coproducts are disjoint, and one of the AT axioms above says that coproducts are universal. Hence an AT category is extensive; it is also effective regular, hence a pretopos. 
 =-- 
 
 
