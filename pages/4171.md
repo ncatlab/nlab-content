@@ -102,7 +102,7 @@ See also the definition at _[[multisymplectic geometry]]_.
    
 To an ordinary [[symplectic manifold]] is associated its [[Poisson algebra]]. Underlying this is a [[Lie algebra]], whose Lie bracket is the _Poisson bracket_.
 
-We discuss here how to an $n$-plectic manifold for $n \gt 1$ there is correspondingly assoociated not a Lie algebra, but a [[Lie n-algebra]]. It is natural to call this a **Poisson Lie $n$-algebra**. 
+We discuss here how to an $n$-plectic manifold for $n \gt 1$ there is correspondingly assoociated not a Lie algebra, but a [[Lie n-algebra]]. It is natural to call this a **Poisson Lie $n$-algebra** (see for instance at _[[Poisson Lie 2-algebra]]_). 
 
 (Not to be confused with the Lie algebra of a [[Poisson Lie group]], which is a Lie group that itself is equipped with a compatible [[Poisson manifold]] structure. It is a bit unfortunate that there is no better established term for the Lie algebra underlying a Poisson algebra apart from "Poisson bracket".)
 
@@ -377,6 +377,13 @@ $$
 
 given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
+## Properties
+
+### Central extensions under geometric quantization
+
+[[!include geometric quantization extensions - table]]
+
+
 ## Related concepts
 
 * [[symplectic infinity-groupoid]]
@@ -402,3 +409,8 @@ See also the references at [[multisymplectic geometry]] and [[n-symplectic manif
 
 [[!redirects Poisson Lie n-algebra]]
 [[!redirects Poisson Lie n-algebras]]
+
+[[!redirects Hamiltonian 1-form]]
+[[!redirects Hamiltonian 1-forms]]
+[[!redirects Hamiltonian n-form]]
+[[!redirects Hamiltonian n-forms]]
