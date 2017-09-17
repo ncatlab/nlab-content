@@ -23,7 +23,22 @@ There is a very general notion of _injective objects_ in a [[category]] $C$, and
 
 ### General definition 
 
-Let $C$ be a [[category]] and $J$ a collection of morphisms in $C$.  Frequently $J$ is the class of all [[monomorphism]]s or a related class.  An object $I$ in $C$ is **$J$-injective** if all diagrams
+Let $C$ be a [[category]] and $J \subset Mor(C)$ a [[class]] of [[morphism]]s in $C$.  
+
++-- {: .un_example}
+###### Example
+
+Frequently $J$ is the class of all [[monomorphism]]s or a related class.  
+
+This is notably the case for  $C$ is a [[category of chain complexes]] equipped with the injective [[model structure on chain complexes]] and $J$ is its class of cofibrations.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+
+An object $I$ in $C$ is **$J$-injective** if all diagrams of the form
 
 $$
   \array{
@@ -48,7 +63,21 @@ $$
   \,.
 $$
 
-If $C$ has a [[terminal object]] $*$ this can be thought of as a lift
+If $J$ is the class of all [[monomorphism]]s, we speak merely of an **injective object**.  
+
+We say that a category $C$ has **enough injectives** if every object admits a monomorphism into an injective object.
+
+
+=---
+
+The dual notion is a [[projective object]].
+
++-- {: .un_remark}
+###### Remark
+
+
+If $C$ has a [[terminal object]] $*$ then these extensions are equivalently 
+lifts
 
 $$
   \array{
@@ -64,7 +93,12 @@ $$
   }
 $$
 
-as for [[weak factorization system|factorization systems]].
+and hence the $J$-injective objects are precisely those that have the [[left lifting property]] against the class $j$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
 
 If $C$ is a [[locally small category]] then $I$ is $J$-injective precisely if the [[hom-functor]]
 
@@ -74,9 +108,8 @@ $$
 
 takes morphisms in $J$ to [[epimorphism]]s in [[Set]].
 
-If $J$ is the class of all monomorphisms, we speak merely of an **injective object**.  We say that a category $C$ has **enough injectives** if every object admits a monomorphism into an injective object.
+=--
 
-The dual notion is a [[projective object]].
 
 
 ### In abelian categories 
@@ -142,8 +175,14 @@ _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mat
 
 ## References
 
-Much of this discussion can be found in 
+A general discussion can be found in 
 
 * Kashiwara-Schapira, _[[Categories and Sheaves]]_
 
 The general notion of injective objects is in section 9.5, the case of injective complexes in section 14.1.
+
+Using tools from the theory of [[accesible categories]], injective objects are discussed in
+
+* [[Jiri Rosicky]], _Injectivity and accessible categories_ ([ps](http://www.math.muni.cz/~rosicky/papers/acc5.ps))
+
+[[!redirects injective objects]]
