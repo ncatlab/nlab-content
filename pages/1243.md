@@ -58,6 +58,7 @@ This is a special case of a [more general result](http://ncatlab.org/nlab/show/p
 
 * [[torsion-free module]]
 
+* [[p-torsion]]
 
 ## References
 
