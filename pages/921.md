@@ -176,6 +176,8 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 * [[p-adic numbers]]
 
+* in [[constructive analysis]] one may use the [[completion monad]] for dealing with real numbers
+
 [[!include exceptional spinors and division algebras -- table]]
 
 
