@@ -11,43 +11,51 @@
 
 > This entry is about the notion of _skeleton_ for categories. For the notion of (co)skeletal simplicial sets see [[simplicial skeleton]].
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
-## Definition ##
+## Definitions
 
-A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (This is an irredeemably [[evil]] notion.)  A **skeleton** of a category is any skeletal [[subcategory]] whose inclusion functor exhibits it as 
-[[equivalence of categories|equivalent]] to the original category.
+A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (This is an irredeemably [[evil]] notion.)
 
-## Existence of a skeleton of a given category
+Traditionally, a __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as 
+[[equivalence of categories|equivalent]] to $C$.
 
-__If the [[axiom of choice]] holds, then every category $C$ has a skeleton__. 
+However, in the absence of the [[axiom of choice]], it is more appropriate to define a __skeleton__ of $C$ to be *any* skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
 
-*Proof.* Simply choose one object in each isomorphism class and generate the full subcategory $sk(C)$ containing just the chosen objects. Denote by $in:sk(C)\to C$ the inclusion. We exhibit a weak inverse of $in$ as a 
-$-':x\mapsto x'$ constructed as follows. For every object $x$ one has chosen already the unique object $x'$ in $sk(X)$ isomorphic to $x$, but one also needs to make *a choice of isomorphism* $i_x:x\to x'$ for every $x$. This enables to conjugate between $C(x,y)$ and $C(x',y')$ by 
+## Existence of skeletons
+
++-- {: .un_thm}
+###### Theorem
+
+If the [[axiom of choice]] holds, then every category $C$ has a skeleton (in the strongest sense).
+=--
+
++-- {: .proof}
+###### Proof
+Simply choose one object in each isomorphism class and one isomorphism to that object from each other object in that class.
+
+In more detail, generate the full subcategory $sk(C)$ containing just the chosen objects. Denote by $in\colon sk(C)\to C$ the inclusion. We exhibit a weak inverse of $in$ as a functor
+$-':x\mapsto x'$ constructed as follows. For every object $x$ one has chosen already the unique object $x'$ in $sk(X)$ isomorphic to $x$, but one also needs to make a choice of isomorphism $i_x\colon x\to x'$ for every $x$. This enables to conjugate between $C(x,y)$ and $C(x',y')$ by 
 
 $$
 (x\stackrel{f}\to y)\mapsto (x'\stackrel{i_x^{-1}}\to x\stackrel{f}\to y\stackrel{i_y}\to y').
 $$ 
 
-The rule for *morphisms* $-': f\mapsto f' := i_y\circ f\circ i_{x}^{-1}$ is clearly functorial. Let us show that $-'$ is a weak inverse of $in$. In one direction, given $y\in sk(C)$ we compute $(in_{y})' = y$ (strict equality); in another direction, given $x\in C$, notice that $i^{-1}_{in_{x'}}:in_{x'}\cong x$  for $x\in C$ is an isomorphism. It suffices to show that these isomorphisms for all $x\in C$ together form a *natural* isomorphism $i^{-1}_{in}:in_{-'}\to id_C$; the naturality diagram is commutative precisely because of the conjugation formula for the functor $-'$ for morphisms. This completes the proof that $-'$ is indeed a weak inverse of $in$. Q.E.D.
+The rule for *morphisms* $-': f\mapsto f' := i_y\circ f\circ i_{x}^{-1}$ is clearly functorial. Let us show that $-'$ is a weak inverse of $in$. In one direction, given $y\in sk(C)$ we compute $(in_{y})' = y$ (strict equality); in another direction, given $x\in C$, notice that $i^{-1}_{in_{x'}}:in_{x'}\cong x$  for $x\in C$ is an isomorphism. It suffices to show that these isomorphisms for all $x\in C$ together form a *natural* isomorphism $i^{-1}_{in}:in_{-'}\to id_C$; the naturality diagram is commutative precisely because of the conjugation formula for the functor $-'$ for morphisms. This completes the proof that $-'$ is indeed a weak inverse of $in$.
+=--
 
 In fact, the statement that every (possibly [[small category|small]]) category has a skeleton is _equivalent_ to the axiom of choice if "subcategory" and "equivalence" have their naive ('strong') meanings.  For given a [[surjection]] $p:A\to B$ in $Set$, make $A$ into a category with a unique isomorphism $a\cong a'$ iff $p(a)=p(a')$; then a skeleton of $A$ supplies a splitting of $p$.
 
-However, in the absence of choice, it is more appropriate to define a skeleton of $C$ to be *any* equivalent skeletal category, where now "equivalence" is understood in the sense of [[anafunctor]]s or [[weak equivalence]].  In the presence of choice this definition is not much different, since any strong [[equivalence of categories]] $D\to C$, where $D$ is skeletal, exhibits $D$ as isomorphic (not merely equivalent) to a skeletal subcategory of $C$.  This is no longer true for an ana-equivalence or weak equivalence.  However, even with this more general notion of equivalence, some amount of choice is required to show that every category has a skeleton (although, for instance, any [[preorder]] has a skeleton in this sense without any need for choice).
-
-+--{: .query}
-_Mike_: It would be interesting to know the precise strength of the statement "every category is (ana-)equivalent to a skeletal one."
-=--
+Even with the more general notion of equivalence, some amount of choice is required to show that every category has a skeleton (although, for instance, any [[preorder]] has a skeleton in this sense without any need for choice).  It would be interesting to know the precise strength of the statement "every category is weakly equivalent to a skeletal one."
 
 Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton. A necessary condition for an internal category $X_1 \rightrightarrows X_0$ to have a skeleton is the existence quotient $X_0/X_1$ - the object of orbits under the action of the core of $X$. If the quotient map $X_0 \to X_0/X_1$ has a section, then one could consider $X$ to have a skeleton, but this condition isn't sufficient for the induced inclusion functor to be a weak equivalence of internal categories when this makes sense (i.e. if the category is internal to a site).
-
 
 +--{: .query}
 [[David Roberts]]: The claim above about the necessity of the existence of the quotient needs to be checked.
 =--
+
 
 ## Equivalents of choice
 
