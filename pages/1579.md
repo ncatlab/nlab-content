@@ -121,9 +121,9 @@ A pre-quasi-prometric is __symmetric__ if its generated quasi-prometric is symme
 $$ \{ d \in G \;|\; d = d^{\op} \} $$
 is a prometric base that generates $G$, and it is this base that some authors may refer to as the prometric itself.  (I write 'some authors may', but there are few authors on this subject; still, it\'s the sort of thing that somebody might do.)
 
-Similarly, a pre-quasi-prometric $G$ is __pointwise-bounded__ if every $d \in G$ is pointwise-bounded; that is, $d(x,y) \lt \infty$ for every $x,y \in X$ (or simply $d \lt \infty$).  Every (quasi)-prometric has a base with this property; in particular, if $G$ is a (quasi)-prometric, then
-$$ \{ d \in G \;|\; d \lt \infty \} $$
-is a (quasi)-prometric base that generates $G$, and it is this base that some authors may refer to as the (quasi)-prometric itself.  Indeed, when pointwise boundedness is *not* required, some authors may call the structure __extended__, as an instance of the [[red herring principle]].  However, requiring pointwise boundedness interferes with the more sophisticated approaches to (quasi)-prometrics; in particular, $\delta$ is not pointwise-bounded.
+A pre-quasi-prometric $G$ is __pointwise-bounded__ if every $d \in G$ is pointwise-bounded; that is, $d(x,y) \lt \infty$ for every $x,y \in X$ (or simply $d \lt \infty$).  If $G$ is a (quasi)-prometric, then
+$$ G_b \coloneqq \{ d \in G \;|\; d \lt \infty \} $$
+is a (quasi)-prometric that is very similar to $G$ (in particular, they are [[uniformly equivalent]]), and some authors may prefer to work with $G_b$.  Indeed, when pointwise boundedness is *not* required, some authors may call the structure __extended__, as an instance of the [[red herring principle]].  However, requiring pointwise boundedness interferes with the more sophisticated approaches to (quasi)-prometrics; in particular, $\delta$ is not pointwise-bounded.  (It is possible that prometric spaces would work better with a closure condition that would make $G_b$ generate $G$.)
 
 Most definitions are no more complicated when phrased in terms of (quasi)-prometric bases or even pre-(quasi)-prometrics, and some constructions give one of these more naturally than the generated (quasi)-prometric.  When working in [[predicative mathematics]], it is preferable to work exclusively with (quasi)-prometric bases, as the generated (quasi)-prometric will typically be a [[proper class]].  However, it is ultimately the generated (quasi)-prometric (even if referred to only obliquely) that matters.
 
