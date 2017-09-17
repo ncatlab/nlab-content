@@ -32,4 +32,9 @@ For [[infinity-actions]] see at _[infinity-action -- Conjugation action](infinit
 
 ## Related concepts
 
+* [[inner automorphism]]
+
 * [[adjoint action]]
+
+
+
