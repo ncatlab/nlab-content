@@ -1,4 +1,18 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[supergravity]] in [[dimension]] 8
+
+## Properties
+
+### U-duality
+
+[[!include U-duality -- table]]
+
 
 ## Related concepts
 
@@ -26,3 +40,4 @@
 
 * Mees de Roo, Giuseppe Dibitetto, Yihao Yin, _Critical points of maximal D=8 gauged supergravities_, JHEP 1201:029, 2012 ([arXiv:1110.2886](http://arxiv.org/abs/1110.2886))
 
+[[!redirects 8d supergravity]]
