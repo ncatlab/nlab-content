@@ -1,0 +1,7 @@
+* [web](http://perso.ens-lyon.fr/frederic.deglise/)
+
+* [[motives]]
+
+[[!redirects Frederic Deglise]]
+[[!redirects Déglise]]
+[[!redirects Deglise]]
