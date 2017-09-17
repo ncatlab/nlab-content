@@ -76,13 +76,15 @@ Removing the terms involving $\omega$ here this is the [[super translation algeb
 +-- {: .num_remark }
 ###### Remark
 
-It is useful in general and in particular for comparison with the literature to think of these generators on the [[super translation algebra]] as arising from super [[coordinates]] $(x^a, \theta^\alpha)$ on superspacetime as
+The abstract generators in def. \ref{CEAlgebraOfSuperPoincare} are identified with [[left invariant 1-forms]] on the [[super-translation group]] as follows.
+
+Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d|N}$ underlying the super translation group. Then the identification is 
 
 * $\psi^\alpha = d \theta^\alpha$.
 
 * $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
 
-This then gives the differential of the super-[[vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
+This then gives the formula for the differential of the super-[[vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
 
 $$ 
   \begin{aligned}
