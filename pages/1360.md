@@ -235,12 +235,12 @@ Let $C$ be a [[cofibrantly generated model category]].
 
 If $X \in [\Delta^{op}, C]$ is degreewise cofibrant and has all structure maps being weak equivalences, then all $X_i \to hocolim X$ are weak equivalences.
 
-Hence $X \to const hocolim X$ is a weak equivalence.
+Hence $X \to const\,hocolim X$ is a weak equivalence.
 
 =--
 
 
-It appears as ([Dugger, prop. 5.4 corollary 5.5](#Dugger)). 
+This appears as ([Dugger, prop. 5.4 corollary 5.5](#Dugger)). 
 
 +-- {: .num_theorem #LocalizationOfReedyOnSimplicialObjects}
 ###### Theorem
