@@ -49,6 +49,10 @@ But that is about my impression of "(extensional identity) type" not "extensiona
 
 --- Dan Doel
 
+I've encountered lots of type theorists who say "extensional type theory" to mean the other ones.  If you want to discuss this more, I suggest opening a post at the [nForum](http://nforum.mathforge.org/).
+
+-- Mike Shulman
+
 =--
 
 ## Properties
