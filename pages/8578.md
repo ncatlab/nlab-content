@@ -106,6 +106,7 @@ $$ \int_{\sum_i \alpha_i U_i} \omega \coloneqq \sum_i \alpha_i \int_{U_i} \omega
 
 * [[Lie integration]]
 
+* [[cohomological integration]]
 
 ## References
 
