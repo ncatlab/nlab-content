@@ -30,9 +30,11 @@ Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the t
 
 * and whose [[open set]]s are 
 
-  1. the open subsets of $U$;
+  1. the open subsets of $X$ (thought of as subsets of $X^*$);
 
-  1. subsets $V$ that contain $\infty$ such that $X \setminus V$ is [[closed subspace|closed]] and [[compact space|compact]].
+  1. the [[complements]] (in $X^*$) of the [[closed subspace|closed]] [[compact space|compact]] subsets of $X$.
+
+(If $X$ is [[Hausdorff space|Hausdorff]], then its compact subsets must always be closed, so (2) is often given in a simpler form.)
 
 
 ## Properties
