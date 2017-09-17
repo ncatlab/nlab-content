@@ -1,5 +1,5 @@
 
 
-[[adjunction]] : [[free functor]] $\vdash$ [[forgetful functor]]
+[[adjunction]] : [[free functor]] $\dashv$ [[forgetful functor]]
 
 [[!redirects free-forgetful adjunctions]]
