@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[point]] of a [[topological space]] is called **focal** ([Freyd-Scedrov](#FreydScedrov)) is its only [[open neighbourhood]] is the entire space.
+
+## Properties
+
+The [[category of sheaves]] over (the [[site of open subsets]]) of a topological space with focal point is a [[local topos]].
+
+## References
+
+* [[Peter Freyd]], A. Scedrov, _Geometric logic_, (North-Holland, Amsterdam,
+ {#FreydScedrov}
+
+[[!redirects focal points]]
+
