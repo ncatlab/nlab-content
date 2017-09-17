@@ -28,7 +28,7 @@ Power operations are [[cohomology operations]] in [[multiplicative cohomology th
 
 At least to some extent, power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]] 
 
-See for instance [Lurie, from remark 2.2.7 on](#Lurie)) for relation to the [[Frobenius homomorphism]] and see the example [below](#OnK1LocalKUAlgebras). See ([Guillot 06](#Guillot06), [Morava-Santhanam](#MoravaSanthanam)) for further discussion and speculation in this direction.
+See for instance [Lurie, from remark 2.2.7 on](#Lurie)) for relation to the [[Frobenius homomorphism]] and see the example [below](#OnK1LocalKUAlgebras). See ([Guillot 06](#Guillot06), [Morava-Santhanam 12](#MoravaSanthanam)) for further discussion and speculation in this direction.
 
 =--
 
@@ -142,6 +142,6 @@ Comments on the analogy between power operations in homotopy theory and [[Lambda
 
 * {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](http://arxiv.org/abs/math/0612327))
 
-* {#MoravaSanthanam} [[Jack Morava]], Rakha Santhanam, _Power operations and Absolute geometry_ ([pdf](http://www.lemiller.net/media/slidesconf/AbsolutePower.pdf))
+* {#MoravaSanthanam12} [[Jack Morava]], Rakha Santhanam, _Power operations and Absolute geometry_, 2012 ([pdf](http://www.lemiller.net/media/slidesconf/AbsolutePower.pdf))
 
 [[!redirects power operations]]
