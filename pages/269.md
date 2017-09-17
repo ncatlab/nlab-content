@@ -138,6 +138,7 @@ And please correct me if I'm wrong, but I believe the interval as final coalgebr
 =--
 
 ## Cubical sets in homotopy theory 
+ {#InHomotopyTheory}
 
 [[Daniel Kan]]'s early work on [[homotopy theory]] used cubical sets instead of [[simplicial set]]s. But then a bit later it was found that plain cubical sets suffer from three disadvantages when it comes to modelling [[homotopy type|homotopy n-type]]s:
 
