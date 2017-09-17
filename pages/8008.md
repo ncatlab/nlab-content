@@ -1,4 +1,3 @@
-[[!redirects C-star algebraic deformation quantization]]
 
 
 +-- {: .rightHandSide}
@@ -28,6 +27,20 @@
 _$C^\ast$-algebraic deformation quantization_ or _strict deformation quantization_ is a refinement of _[[deformation quantization]]_ which produces quantum [[algebras of observables]] not just in the space of [[formal power series]], but produces actual [[C-star algebras]] that have a chance to genuinely constitute an [[algebraic quantum field theory]].
 
 Typically the $C^\ast$-algebraic deformation takes the quantum algebra to be a suitable [[convolution algebra]] of suitably [[polarization|polarized]] sections over a [[Lie groupoid]] that [[Lie integration|Lie integrates]] a [[Poisson Lie algebroid]] which encodes the original [[Poisson bracket]] to be quantized.
+
+## Properties
+
+### Relation to formal deformation quantization
+
+Under favorable circumstances, one can form from a strict $C^\ast$-algebraic deformation 
+quantization given by a [[continuous field of C*-algebras]] over a subset of the interval the "differentiation"
+as $\hbar \in [0,1]$ tends to 0, such that this reproduces a [[formal deformation quantization]].
+
+Conversely, a natural intuition might be that given a [[formal deformation quantization]] then the subalgebra of [[convergence|converging]] [[power series]] inside all [[formal power series]] has a completion to a [[C*-algebra]] which constitutes a strict deformation quantization.
+
+While this seems natural, the only actual example where this is understood to date 
+seems to be the simple case of the standard Poisson structure on $\mathbb{R}^{2n}$
+with its [[Weyl algebra]] [[star product]]. (See [this MO discussion](http://mathoverflow.net/a/141410/381)).
 
 ## Examples
 
@@ -87,3 +100,5 @@ For the special case of [[Poisson manifolds]] that are total spaces of [[Lie alg
 
 [[!redirects strict deformation quantization]]
 [[!redirects strict deformation quantizations]]
+
+[[!redirects C-star algebraic deformation quantization]]
