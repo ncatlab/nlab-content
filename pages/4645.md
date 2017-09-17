@@ -671,7 +671,7 @@ In the following subsections we describe the concept of a smooth [[path groupoid
 
 We describe the standard notion of a [[nLab:connection on a bundle]] but from a point of view that carries in it the seed for the general concept of differential cohomology that we describe here. This also serves to introduce in simple explicit terms several of the concepts that we shall formalize later in abstract [[nLab:(∞,1)-topos]] theory.
 
-Recall the discussion of principal bundles [above](#spring) and in particular the equivalence of groupoids
+Recall the discussion of principal bundles [above](#PrincipalBundles) and in particular the equivalence of groupoids
 
 $$
   Hom_{Grpd(Diffeol)}(C(U), \mathbf{B}G)
@@ -1940,7 +1940,7 @@ For more see [[principal 2-bundle]].
 
 The ide of describing connections on principal 1- and 2-bundles in terms of parallel transport 1- and 2-functors appears in
 
-* [[Johnn Baez]], U. S. _Higher gauge theory_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BaezSchreiber">web</a>)
+* [[John Baez]], U. S. _Higher gauge theory_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BaezSchreiber">web</a>)
 {#BaezSchreiber}
 
 A detailed account of the description of ordnary bundles with connection in the style that prepares the ground for our developments here is in 
@@ -1958,8 +1958,14 @@ A detailed account of the description of (abelian and nonabelian) [[gerbe]]s/[[b
 
 The Yoga of $\infty$-Lie algebra valued connections and the $\infty$-Chern-Weil homomorphism in local data is from 
 
-* SSS, _$L_\infty$-algebra connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+* SSS, 
+
+  1. _$L_\infty$-algebra connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+
+  1. _Twisted differential string- and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">web</a>)
 {#SSSI}
+
+For more see [[schreiber:∞-Lie algebroid valued differential forms]].
 
 For further references see 
 
