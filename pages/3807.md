@@ -19,7 +19,9 @@
 
 The **Riemann hypothesis** or **Riemann conjecture** is the famous unproved statement that all nontrivial zeros of the [[Riemann zeta function]] are on the vertical line $Re(z)=1/2$ in the [[complex plane]]. 
 
-Analogues of the Riemann hypothesis can be considered for many analogues of zeta functions/[[L-functions]]. An important case over the [[finite fields]] is called the **Riemann--Weil conjecture** and was proved by [[Deligne]] building on earlier ideas of [[Andre Weil|Weil]] and  [[Grothendieck]]. Grothendieck however expected a more natural proof using the (hypothetical) theory of [[motives]].
+Analogues of the Riemann hypothesis can be considered for many analogues of [[zeta functions]] and [[L-functions]], here one speaks of **generalized Riemann hypotheses**.  
+
+An important special case over [[finite fields]] is called the **Riemann--Weil conjecture** and was proved by [[Deligne]] building on earlier ideas of [[Andre Weil|Weil]] and  [[Grothendieck]]. Grothendieck however expected a more natural proof using the (hypothetical) theory of [[motives]].
 
 ## Related concepts
 
@@ -38,6 +40,10 @@ The suggestion that the Riemann hypothesis might have a proof that is an analogu
 
 * {#Manin95} [[Yuri Manin]], _Lectures on zeta functions and motives (according to Deninger and Kurokawa)_ Asterisque, (228):4, 121-163, 1995. Columbia University Number Theory Seminar.
 
+* Wikipedia, _[Generalized Riemann hypothesis](http://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis)_.
 
 [[!redirects Riemann hypothesis]]
 [[!redirects Riemann conjecture]]
+
+[[!redirects generalized Riemann hypothesis]]
+[[!redirects generalized Riemann hypotheses]]
