@@ -5,6 +5,19 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
+#Contents#
+* table of contents
+{:toc}
+
+## This headline contains an exponent: $Spin^c$
+
+## This one contains a bigger exponent: $Spin^{W_3}$
+
+## And this one here several: $String^{\mathbf{c}_2}$ and $Fivebrane^{\mathbf{c}_4}$
+
+## abc $def$ ghi $jkl$ 
+
+
 [[vanilla.print.css:file]]
 [[MAXIMISED.vanilla.print.css:file]]
 
