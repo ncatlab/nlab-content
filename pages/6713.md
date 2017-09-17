@@ -108,9 +108,18 @@ In [[type IIB supergravity]]
 
 For D-branes in the [[WZW-model]] see _[WZW-model -- D-branes](Wess-Zumino-Witten+model#DBranes)_.
 
+## Characterizations
+
+### In terms of Dirac structures
+
+D-branes may be identified with [[Dirac structures]] on 
+a [[Courant Lie 2-algebroid]] over spacetime related to the [[type II geometry]] ([Asakawa-Sasa-Watamura](#AsakawaSasaWatamura)). See at _[[Dirac structure]]_ for more on this.
+
 ## Related concepts
 
 * [[Chan-Paton bundle]]
+
+* [[Dirac-Born-Infeld action]]
 
 * [[black brane]], [[black hole in string theory]]
 
@@ -142,7 +151,7 @@ A discussion of topological D-branes in the context of [[higher category theory]
 
 * [[Anton Kapustin]], _Topological Field Theory, Higher Categories, and Their Applications_ ([arXiv:1004.2307](http://arxiv.org/abs/1004.2307))
 
-### Anomaly cancellation
+### Open string worldsheet Anomaly cancellation
 
 The need for [[twisted spin^c structures]] as [[quantum anomaly]]-cancellaton condition on the [[worldvolume]] of D-branes was first discussed in
 
@@ -157,9 +166,13 @@ A clean review is provided in
 
 * Kim Laine, _Geometric and topological aspects of Type IIB D-branes_ ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
 
+For more see at _[[Freed-Witten anomaly cancellation]]_.
 
 
+### Relation to Dirac structures
 
+* Tsuguhiko Asakawa, Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ ([arXiv:1206.6964](http://arxiv.org/abs/1206.6964))
+ {#AsakawaSasaWatamura}
 
 
 
