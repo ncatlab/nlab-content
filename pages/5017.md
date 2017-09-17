@@ -44,7 +44,14 @@ A textbook account is in
 
 * [[Ieke Moerdijk]], [[Janez Mrčun]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
 
+See also
 
 * Wikipedia, _[Haefliger structure](http://en.wikipedia.org/wiki/Haefliger_structure)_
+
+Discussion of [[jet]]-restrictions of the Haefliger groupoid is in 
+
+* Arne Lorenz, _Jet Groupoids, Natural Bundles
+and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf))
+
 
 [[!redirects Haefliger groupoids]]
