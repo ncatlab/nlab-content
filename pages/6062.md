@@ -751,6 +751,39 @@ A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
  {#FiorenzaRogersSchreiber13}
 
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+
 
 [[!redirects model structure for L-∞ algebras]]
 
