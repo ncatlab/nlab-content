@@ -377,7 +377,7 @@ $$
 \end{aligned}
 $$
 
-Finally, the Calkin-Wilf tree gives a simple algebraic characterization of the positive rationals, namely as an initial object in the category of pointed modules for the free monoid $M$ on two elements $\{L,R\}$.  For any $M$-module $X$ and a point $x \in X$, there is a unique module homomorphism $\mathbb{Q}^+ \to X$ sending $1$ to $x$, defined as follows: given a positive rational $q$, locate $q$ on the Calkin-Wilf tree, and then retrace the path from $1$ to $q$ in $X$, beginning at $x$ and applying the actions $L : X \to X$ and $R : X \to X$ as appropriate.
+Finally, the Calkin-Wilf tree gives a simple algebraic characterization of the positive rationals, namely as an initial object in the category of pointed modules for the free monoid on two elements $\{L,R\}$.  Given any such module $X$ and point $x \in X$, there is a unique module homomorphism $\mathbb{Q}^+ \to X$ sending $1$ to $x$, defined as follows: given a positive rational $q$, locate $q$ on the Calkin-Wilf tree, and then retrace the path from $1$ to $q$ in $X$, beginning at $x$ and applying the actions $L : X \to X$ and $R : X \to X$ as appropriate.
 
 The Calkin-Wilf tree was first described in a 2000 paper by Neil Calkin and Herbert Wilf, "Recounting the rationals", but is closely related to the much older Stern-Brocot tree, another arrangement of the positive rationals with the special property that the values are ordered from left to right.  In fact, each tree may be obtained from the other by reversing the paths from the root (e.g., $2/5 = LLR(1)$ is reached from the root of the Stern-Brocot tree by going down left twice and then right once).
 
