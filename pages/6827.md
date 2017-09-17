@@ -1,0 +1,4 @@
+
+* [wikipedia page](http://en.wikipedia.org/wiki/Victor_Kac)
+
+category: people
