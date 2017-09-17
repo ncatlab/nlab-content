@@ -42,7 +42,7 @@ If $A$ is commutative, then $A Mod$ is a [[closed monoidal category|closed]] [[s
 
 =--
 
-This is a standard constructon, for instance [Bernstein, p. 5](#Bernstein).
+This is a standard construction, for instance [Bernstein, p. 5](#Bernstein).
 
 
 
