@@ -375,6 +375,14 @@ Every $R$-module is the [[filtered colimit]] over is [[finitely generated module
 
 See for instance ([Kiersz, prop. 3](#Kiersz)).
 
+## Related concepts
+
+* [[Vect]]
+
+* [[2Mod]]
+
+* [[nMod]]
+
 ## References
 
 Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for instance in 
