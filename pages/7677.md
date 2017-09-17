@@ -3,6 +3,17 @@ This entry is about a section of the text
 
 * Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
+## Reminder
+
+Let $s:R\to S$ be a morphism of rings. Then we have an [[adjunction]]
+
+$$(s^*\dashv s_*):S.Mod\stackrel{s_*}{\to} R.Mod$$
+
+from the category of $S$-[[module|modules]] to that of $R$-modules where
+
+$$s^*:A\mapsto A\otimes_s S$$
+is called *scalar extension* and $s_*$ is called *scalar restriction*.
+
 ## Definition
 
 Let $p$ be a prime number, let $k$ be a field of characteristic $p$. For a $k$-ring $A$ we define
