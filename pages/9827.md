@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _Weil cohomology theory_ is defined to be a [[cohomology theory]] on a suitable class of [[projective varieties]] which satisfies some natural set of [[axioms]] among which is notably [[Poincaré duality]].
+A _Weil cohomology theory_ is defined to be a [[cohomology theory]] on a suitable class of [[projective varieties]] which satisfies some natural set of [[axioms]] among which is notably [[Poincaré duality]] and the existence of a [[Lefschetz fixed point theorem]].
 
 These axioms are named after [[André Weil]], who noticed that the existence of such a [[cohomology theory]] would already imply the [[Weil conjectures]] about the behaviour of the number of points in [[algebraic varieties]].
 
