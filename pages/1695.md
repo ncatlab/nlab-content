@@ -145,3 +145,6 @@ The simplicial loop group functor is discussed in chapter V, section 5 of
 * [[Paul Goerss]], J. Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
 [[!redirects loop spaces]]
+
+[[!redirects based loop space]]
+[[!redirects based loop spaces]]
