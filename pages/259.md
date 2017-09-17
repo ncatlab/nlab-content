@@ -26,7 +26,7 @@ Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞
 ## Definition
 
 
-A **quasi-category** or [[weak Kan complex]] is a [[simplicial set]] $C$ satisfying the following equivalent conditions
+A **quasi-category** or **[[weak Kan complex]]** is a [[simplicial set]] $C$ satisfying the following equivalent conditions
 
 * all _inner_ [[horn]]s in $C$ have fillers. This means that the lifting condition given at [[Kan complex]] is imposed only for horns $\Lambda^i[n]$ with $0 \lt i \lt n$.
 
@@ -39,7 +39,7 @@ A **quasi-category** or [[weak Kan complex]] is a [[simplicial set]] $C$ satisfy
   (induced from the inner horn inclusion $\Lambda[2]_1 \to \Delta[2]$)
   is an acyclic [[Kan fibration]].
 
-The second condition says manifestly that a quasi-category is a simplicial set in which composition of any two composable edges is defined up to a contractible space of choices.
+The second condition says manifestly that a quasi-category is a simplicial set in which composition of any two composable edges is defined up to a contractible space of choices. This is the [[coherence law]] on compositon.
 
 The equivalence of these two definitions is due to [[Andre Joyal]] and recalled as [[Higher Topos Theory|HTT, corollary 2.3.2.2]].
 
@@ -47,11 +47,9 @@ An **[[algebraic quasi-category]]** is a quasi-category equipped with a _choice_
 
 ## Remarks
 
+### General
+
 * Compare with the definition of a [[Kan complex]] in which _all_ horns are required to have fillers: a quasi-category is a structure slightly weaker than a Kan complex. Indeed, while we can think of a Kan complex as an [[∞-groupoid]] (that is an $(\infty,0)$-category), in which _all_ morphisms are [[equivalence]]s, a quasi-category is a model for an [[(∞,1)-category]], in which only all [[k-morphism]]s for $k \geq 2$ are required to be [[equivalence]]s.  
-
-* As the quasi-category condition is a weakening of the Kan complex condition, they have also been called **weak Kan complexes** and the corresponding condition, the **weak Kan condition**.
-
-* The [[nerve]] of an ordinary [[category]] is always a quasi-category, while the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid].  In this sense quasi-categories are a "minimal common generalization" of Kan complexes and nerves of categories.
 
 * One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial set]]s.
 
@@ -66,6 +64,22 @@ For a discussion of this see
 
 * [[Emily Riehl]], _Associativity data in an $(\infty,1)$-category_ ([pdf](http://math.uchicago.edu/~eriehl/associativity.pdf) [blog](http://golem.ph.utexas.edu/category/2009/10/associativity_data_in_an_1cate.html))
 
+## Examples
+
+The two basic examples for quasi-categories are
+
+* Every [[Kan complex]] is in particular a quasi-category.
+
+* The [[nerve]] of a [[category]] is a quasi-category.
+
+Since the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid]. quasi-categories are a minimal common generalization of Kan complexes and nerves of categories.
+
+By the [[homotopy hypothesis]] every Kan complex arises, up to equivalence, as the [[fundamental ∞-groupoid]] of a [[topological space]]. 
+
+Analogously, every [[directed topological space]] $X$ has naturally a [[fundamental (∞,1)-category]] given by a quasi-category whose $k$-cells are maps $\Delta^k_{Top} \to X$ that map the 1-[[simplicial skeleton|skeleton]] of the topological simplex in an order-preserving way to directed paths in $X$.
+
+The [[directed homotopy theory]] that would state that this or a similar construction exhausts all quasicategories up to equivalence, does not quite exist yet.
+
 
 ## Constructions in quasi-categories 
 
@@ -74,6 +88,8 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 * [[hom-object in a quasi-category]]
 
 * [[equivalence in a quasi-category]]
+
+* [[equivalence of quasi-categories]]
 
 * [[join of quasi-categories]]
 
@@ -91,21 +107,6 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[opposite quasi-category]]
 
-* [[equivalence of quasi-categories]]
-
-
-## Discussion
-
-A previous version of this entry led to the following discussion.
-
-+-- {: .query}
-_Stephen Gaito_: If we want to weaken this even further to provide a simplicial model of, for example, a [[(∞,2)-category]], how would we do this?
-
-Would we apply the lifting condition on all but three of the indicies... and if so which three?  (The first, last and ????)
-
-[[Mike Shulman]]: You may be looking for something along the lines of a [[weak complicial set]].
-
-=--
 
 
 
@@ -115,7 +116,6 @@ Quasi-categories have originally been defined in
 
 * [[Michael Boardman]], [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological
 spaces_, Lecture Notes in Mathematics, Vol. 347. Springer-Verlag, 1973.
-
 
 They occured as  [[weak Kan complex]]es in 
 
@@ -163,6 +163,22 @@ The relation between [[quasi-category|quasi-categories]] and [[simplicially enri
 * [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
 
 * [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
+
+
+## Discussion
+
+A previous version of this entry led to the following discussion.
+
++-- {: .query}
+_Stephen Gaito_: If we want to weaken this even further to provide a simplicial model of, for example, a [[(∞,2)-category]], how would we do this?
+
+Would we apply the lifting condition on all but three of the indicies... and if so which three?  (The first, last and ????)
+
+[[Mike Shulman]]: You may be looking for something along the lines of a [[weak complicial set]].
+
+=--
+
+
 
 
 [[!redirects quasi-categories]]
