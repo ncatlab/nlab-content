@@ -6,7 +6,7 @@
 ##Idea##
 When discussing [[language|languages]], say, in the theory of [[finite automata]], the usual starting point is a set, $\Sigma$, of symbols, which is taken to be the _alphabet_ for the language.  The next step is to form the [[free monoid]], $\Sigma^*$, on the alphabet, and then a language is simply a subset of $\Sigma^*$, and these can be used in a number of situations to describe the workings of a 'system', the symbols being used to represent certain operations or actions of the system, and the words in $\Sigma^*$ thus corresponding to sequences of operations. Usually the system will not allow arbitrary sequences of operations to be performed, and so the system determines a language, namely the allowable execution sequences. Describing the language, helps describe and determine the overall 'system'.
 
-If the system being studied has some concurrency in it, so that certain of the operations are (causally) independent of each other, then one way of modelling such a system is to use a _Mazurkiewicz) trace alphabet_, that is one in which the independence is explicitly taken into consideration.
+If the system being studied has some concurrency in it, so that certain of the operations are (causally) independent of each other, then one way of modelling such a system is to use a _(Mazurkiewicz) trace alphabet_, that is one in which the independence is explicitly taken into consideration.
 
 
 
@@ -245,7 +245,7 @@ Consider the following 'dependency diagram, with some vertices (states) and labe
 
 We take $\Sigma = \{ a,b,c,d,e\}$ and note that, starting at the left, $b$ depends on $a$ (written $a\lt b$, since we cannot start action $b$ until action $a$ has been completed. This gives a labelled [[poset]].
 
- Here the first information to encode in $D$ is the poset structure of dependency
+Here the first information to encode in $D$ is the poset structure of dependency
 
 $$\{(a,a),(a,b),(a,c),(a,d),(a,e),(b,b),(b,d), etc.\},$$
 
@@ -255,7 +255,7 @@ $$I = \{(b,c),(c,b),(d,e),(e,d),(b,e), (e,b), (c,d),(d,c)\}.$$
 
 Note this encoding does not involve the relationship given by adjacency, and hence ignore if an 'execution sequence' is 'allowable' (i.e., realistic) so $(c,d)$ is in $I$ even though we could not first 'do' $c$ and then 'do' $d$ (unless of course $b$ had already been done).
 
-The language ([[trace language]]) corresponding to the model will be a subset of the [[trace monoid]] of the trace alphabet $(\Sigma, I)$ given here.  It will encode allowable execution sequences  but also will consider the allowable sequences ( _traces_ ) $abcde$, $acbde$, $abdce$, $acebd$ etc. to be identified.
+The language ([[trace language]]) corresponding to the model will be a subset of the [[trace monoid]] of the trace alphabet $(\Sigma, I)$ given here.  It will encode allowable execution sequences  but also will consider the allowable sequences ( _traces_ ): $a b c d e$, $a c b d e$, $a b d c e$, $a c e b d$ etc. to be identified.
 
 =----
 ##Reference
