@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 An **$A_n$-space** is a space (in the sense of an [[infinity-groupoid]], usually presented by a [[topological space]] or a [[simplicial set]]) with a multiplication that is associative up to higher homotopies involving up to $n$ variables.
 
 * An $A_0$-space is a pointed space.
@@ -7,6 +14,10 @@ An **$A_n$-space** is a space (in the sense of an [[infinity-groupoid]], usually
 * An $A_4$-space has an associativity homotopy that satisfies the pentagon identity up to homotopy, but no further coherence.
 * ...
 * An [[A-infinity space]] has all coherent higher associativity homotopies.
+
+## Related concepts
+
+* [[E-n algebra]]
 
 [[!redirects A-n-space]]
 [[!redirects An-space]]
@@ -20,3 +31,6 @@ An **$A_n$-space** is a space (in the sense of an [[infinity-groupoid]], usually
 [[!redirects A-n spaces]]
 [[!redirects An spaces]]
 [[!redirects A_n spaces]]
+
+[[!redirects A-n algebra]]
+[[!redirects A-n algebras]]
