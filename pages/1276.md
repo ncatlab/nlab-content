@@ -206,12 +206,12 @@ This observation (Wraith, Blass) can be put into the more general context of mod
 
 +-- {: .num_prop}
 ###### Proposition
+**(Lazard's criterion)**
 
 A module is flat if and only if it is a [[filtered colimit]] of [[free modules]]. 
 
 =--
 
-See the above discussion.
 
 ### Relation to other properties
 
