@@ -7,6 +7,8 @@
 
 ## Models
 
+* [[1d WZW model]]
+
 * 2d [[Wess-Zumino-Witten model]]
 
   * [[current algebra]]
