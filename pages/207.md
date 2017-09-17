@@ -117,14 +117,27 @@ By contrast, in a [[definitional set theory]], an equality relation is *structur
 
 ## References
 
+In 
+
+* [[Georg Hegel]], _[[Science of Logic]]_, 1812
+
+equality is the subject of volume 1, book 2 "Die Lehre vom Wesen" (The doctrine of essence). As discussed at _[[Science of Logic]]_, one can roughly identify in Hegel's text there the notion of intensional identity and of the reflector term in [[identity types]].
+
 Texts on [[type theory]] typically deal with the subtleties of the notion of _equality_. For instance
 
 * [[Per Martin-Löf]], _Intuitionistic type theory_, Lecture notes (1980)
   {#PML}
 
-Besides [[Kurt Gödel]]\'s _[[Dialectica]]_ paper, which might be the first paper to mention intensional equality
-(and the fact that it should be decidable), another reference is [[Dick de Bruijn]]\'s [[Automath]], which makes
-a distinction between definitional equality and "book" equality.
+Besides 
+
+* [[Kurt Gödel]] _[[Dialectica]]_ , 
+
+which might be the first paper to mention intensional equality
+(and the fact that it should be decidable), another reference is 
+
+*[[Dick de Bruijn]], _[[Automath]]_, 
+
+which makes a distinction between definitional equality and "book" equality.
 
 
 [[!redirects equal]]
