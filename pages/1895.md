@@ -1,5 +1,4 @@
-**Hecke algebra** is a term for a class of [[algebras]].
-
+**Hecke algebra** is a term for a class of [[algebras]]. They often appear as convolution algebras or as double coset spaces. For p-adic algebraic groups Hecke algebras often play a role similar a Lie algebra plays in the  complex case (the Lie algebra still exists, but is too small).
 
 Typically the term refers to an algebra which is the [[endomorphisms]] of a [[permutation representation]] of a [[topological group]], though some liberties have been taken with this definition, and often the term means some modification of such an algebra.
 
@@ -11,7 +10,8 @@ For example:
   $$\sigma_i\sigma_j=\sigma_j\sigma_i \qquad (|i-j|\gt1)$$
   $$\sigma_i^2=(q-1)\sigma+q$$
 * If we look at $GL_n(\mathbb{F}_q(\!(t)\!))$ acting on the set of $\mathbb{F}_q[\![t]\!]$ [[lattices]] in $\mathbb{F}_q(\!(t)\!)^n$, then we will obtain the __spherical Hecke algebra__.
-* A variant of the Hecke algebra is the **degenerate affine Hecke algebra** of type $A$; this is a deformation of the semidirect product of the symmetric group $S_n$ with the polynomial ring in $n$ variables.  The generators are $S_n$ and $y_1, \dots, y_n$, with relations $\sigma y_i \sigma^{-1} = y_{\sigma(i)}$ and $[y_i,y_j] = \sum_{k \neq i,j} (k i j)-(k j i)$; one can replace the $y_i$'s with commuting $x_i$'s with slightly messier relations.  As [[George Lusztig]] showed, the representation theory of the affine Hecke algebra is related to the graded or degenerate case.  
+* A variant of the Hecke algebra is the **degenerate affine Hecke algebra** of type $A$; this is a deformation of the semidirect product of the symmetric group $S_n$ with the polynomial ring in $n$ variables.  The generators are $S_n$ and $y_1, \dots, y_n$, with relations $\sigma y_i \sigma^{-1} = y_{\sigma(i)}$ and $[y_i,y_j] = \sum_{k \neq i,j} (k i j)-(k j i)$; one can replace the $y_i$'s with commuting $x_i$'s with slightly messier relations.  As [[George Lusztig]] showed, the representation theory of the affine Hecke algebra is related to the graded or degenerate case. 
+* There is a geometric construction of the representations of Weyl algebras when realized as certain Hecke convolution algebras by [[Victor Ginzburg]]. 
 
 ## References and links
 
