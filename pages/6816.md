@@ -44,6 +44,8 @@ There is a topological twist of 4d SYM to a [[TQFT]] -- the [[Kapustin-Witten TQ
 
 ## References
 
+### General
+
 An introduction to $d=4$ SYM is in 
 
 * Joseph A. Minahan _Review of AdS/CFT Integrability, Chapter I.1: Spin Chains in $N=4$ Super Yang-Mills_ ([arXiv:1012.3983](http://arxiv.org/abs/1012.3983))
@@ -51,6 +53,13 @@ An introduction to $d=4$ SYM is in
 More recent results are in 
 
 * Simon Caron-Huot, _Superconformal symmetry and two-loop amplitudes in planar N=4 super Yang-Mills_ ([arXiv:1105.5606](http://arxiv.org/abs/1105.5606))
+
+Superconformal invariance of $N=4$, $D=4$ SYM can be shown with the result of 
+
+* Robert Leigh, [[Matthew Strassler]], _Exactly Marginal Operators and Duality in Four Dimensional N=1 Supersymmetric Gauge Theory_ ([arXiv:hep-th/9503121](http://arxiv.org/abs/hep-th/9503121))
+
+(after regarding it as $N=1$ SYM with three adjoint chiral [[superfield]]s).
+### Planar sector and integrability
 
 A comprehensive discussion of the planar sector is in 
 
