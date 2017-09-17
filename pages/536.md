@@ -35,6 +35,11 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 *  [[matrix theory|Matrix Theories]]
 *  [[bimodel|Bimodels]]
 
+## Examples
+
+* [[fully formal ETCS]]
+
+
 ## In higher category theory
 
 * [[(∞,1)-algebraic theory]]
@@ -43,7 +48,7 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 ## References
 
 * <span id="Johnstone"></span>
-  Peter Johnstone; [[Stone Spaces]]
+  [[Peter Johnstone]], _[[Stone Spaces]]_
   [Johnstone]: #Johnstone
 
 _Someone should improve this article so that it gives a **definition** of 'algebraic theory' before considering special cases such as 'commutative algebraic theory'._
