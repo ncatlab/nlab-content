@@ -53,7 +53,7 @@ Some modern algebraic geometers mean, by varieties, objects of certain slightly 
 
 An amusing discussion on the differences between schemes and varieties can be found at _Secret blogging seminar_: [algebraic geometry without prime ideals](http://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals).
 
-
+category: algebraic geometry
 [[!redirects algebraic varieties]]
 [[!redirects affine algebraic variety]]
 [[!redirects affine algebraic varieties]]
