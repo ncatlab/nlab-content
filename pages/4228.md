@@ -59,6 +59,9 @@ The [[category]] of [[convenient vector space]]s embeds as a [[full subcategory]
 
 =--
 
+## Higher categorical version
+
+The [[(∞,1)-topos]] of [[(∞,1)-sheaves]] on the [[site]] [[ThCartSp]] is discussed at [[∞-Lie groupoid]] as a context for $\infty$-Lie groupoids and [[∞-Lie algebroid]]s.
 
 ## References
 
