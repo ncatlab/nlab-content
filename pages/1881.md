@@ -83,7 +83,7 @@ An easier approach is given in the following general theorem, which applies to m
 ###### Theorem 
 Suppose $C$ is a monoidal category with countable coproducts for which the tensor product distributes over countable coproducts (for example, a [[cocomplete category|cocomplete]] [[monoidal biclosed category]]). Then a left adjoint to the forgetful functor $Mon(C) \to C$ exists, taking an object $c$ to 
 $$\sum_{n \geq 0} c^{\otimes n},$$ 
-which thereby becomes the free monoid on $C$. 
+which thereby becomes the free monoid on $c$. 
 =-- 
 
 This applies immediately to $C = Set$, as this is a cocomplete [[cartesian closed category]]. 
