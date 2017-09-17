@@ -56,7 +56,7 @@ Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Frie
  {#OppositesAndUnity}
 
 Hegel famously invokes opposite to the extent of [[paradoxes]], as sources for new phenomena via their synthesis.
-On p. 11 of _[Cohesive toposes and Cantor's Lauter Einsen](#LawvereLauterEinsen)_ [[William Lawvere]] proposes that generally such is captured by [[adjoint pairs]] of [[idempotent]] [[monads]]/[[comonads]], such as
+On p. 11 of _[Cohesive toposes and Cantor's Lauter Einsen](#LawvereLauterEinsen)_ [[William Lawvere]] proposes that generally such is captured by [[adjoint pairs]] of [[idempotent]] [[monads]]/[[comonads]] ("[[adjoint cylinders]]"), such as
 
 $\flat \dashv \sharp$
 
@@ -75,6 +75,7 @@ $$
 $$
 
 for any [[type]] $X$.
+
 
 Several examples of this appear below.
 
@@ -436,5 +437,5 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 * [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
  {#LawvereComo}
 
-* [[William Lawvere]], _[Cohesive toposes and Cantor's 'Lauter Einsen'](http://philmat.oxfordjournals.org/content/2/1/5.abstract)_
+* [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
   {#LawvereLauterEinsen}
