@@ -50,10 +50,33 @@ Given uniform spaces $X$ and $Y$, a function $f: X \to Y$ is said to be **unifor
 
 ### Covering uniformities
 
-An equivalent way to characterize a uniform space is by its collection of *uniform covers*.
+An equivalent way to characterize a uniform space is by its collection of *uniform covers*.  Here a **cover** of a set $X$ is a $C\subseteq P(X)$ with union $X$.  For covers $C_i$, we define:
 
-...
+* $C_1$ **refines** $C_2$, written $C_1 \prec C_2$, if every element of $C_1$ is a subset of some element of $C_2$.
 
+* $C_1 \wedge C_2 = \{ A \cap B | A\in C_1, B\in C_2 \}$.  This is also a cover.
+
+* For $A\subseteq X$, $C[A] = \bigcup \{ B\in C | A\cap B$ is [[inhabited set|inhabited]] $}$.
+
+* $C^* = \{ C[A] | A\in C\}$.
+
+We now define a **covering uniformity** on $X$ to be a collection of covers, called *uniform covers*, such that 
+
+1. There exists a uniform cover; in light of axiom (4), it follows that the cover $\{X\}$ is a uniform cover.
+
+1. If $C_1, C_2$ are uniform covers, so is some cover that refines $C_1 \wedge C_2$. In light of axiom (4), it follows that $C_1 \wedge C_2$ is a uniform cover.
+
+1. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
+
+1. If $C$ is a uniform cover and $C\prec C'$, then $C'$ is a uniform cover.
+
+If $X$ is a uniform space defined in terms of entourages, we give it a covering uniformity by declaring a cover to be uniform if it is refined by $\{ U[x] | x\in X\}$ for some entourage $U$, where $U[x] = \{ y | (x,y)\in U \}$.  Note that this does not mean that a uniform cover "consists of $U$-sized sets" but only that it contains a subcover consisting of sets "no smaller than $U$".
+
+Conversely, given a covering uniformity, we define a base of entourages to consist of sets of the form $\bigcup \{ A\times A | A \in C\}$ for $C$ a uniform cover.  This defines a bijection between entourage uniformities and covering uniformities.
+
++--{: .query}
+What is the covering-uniformity version of the constructive axiom (0)?
+=--
 
 
 ### Completeness and separation
