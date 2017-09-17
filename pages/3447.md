@@ -179,7 +179,13 @@ A locally constant sheaf / $\infty$-stack is also called a [[local system]].
 
 ## References
 
-See the references at [[geometric homotopy groups in an (∞,1)-topos]].
+Secton A.1 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_ .
+
+See also the references at [[geometric homotopy groups in an (∞,1)-topos]].
+
+
 
 
 [[!redirects locally constant ∞-stack]]
