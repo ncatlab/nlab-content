@@ -83,8 +83,6 @@ A poset can be understood as a [[(0,1)-category]]. This suggests an obvious [[ve
 * Tim Porter, _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
 
-  see also [[CPO]]
-
 [[!redirects partially ordered]]
 [[!redirects partially ordered set]]
 [[!redirects partially ordered sets]]
