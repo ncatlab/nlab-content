@@ -4,6 +4,11 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 In earlier work \cite{chacaltana:2010ks, fubar, MR3046557}, we actually did stuff.
 
+\cite{arXiv:1008.5203}
+\cite{arxiv:1008.5203}
+\cite{arXiv1008.5203}
+\cite{arxiv1008.5203}
+
 # Sandbox
 * table of contents
 {: toc}
