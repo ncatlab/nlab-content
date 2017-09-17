@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
 =--
 =--
 
@@ -14,22 +18,31 @@
 * table of contents
 {:toc}
 
-## Idea
+## Two-sided fibrations
 
-Recall that a functor $E \to B$ is called a [[fibration]] if its [[fibres]] $E_b$ vary [[pseudofunctor|functorially]] in $b$; taking _fibre_ to mean _strict fibre_ results in the notion of [[Grothendieck fibration]], while taking it to mean [[essential fibre]] gives the notion of [[Street fibration]].
+### Idea
 
-Similarly, a *two-sided fibration* $A \leftarrow E \to B$ is a pair of functors whose fibres $E(a,b)$ vary functorially in both $a$ and $b$.
+Recall that a functor $E \to B$ is called a [[fibration]] if its [[fibres]] $E_b$ vary (pseudo-)[[pseudofunctor|functorially]] in $b$.  Taking _fibre_ to mean _strict fibre_ results in the notion of [[Grothendieck fibration]], while taking it to mean [[essential fibre]] gives the notion of [[Street fibration]].
 
-## Definition
+Similarly, a *two-sided fibration* $A \leftarrow E \to B$ is a pair of functors whose fibres $E(a,b)$ vary functorially in both $a$ and $b$ (contravariantly in one and covariantly in the other).
 
-Let $K$ be a [[bicategory]] with finite [[2-limits]], and recall that [[fibration in a 2-category|fibrations]] in $K$ may be defined in any of several ways; most importantly, cloven fibrations $E \to B$ in $K$ are the (pseudo)algebras for a (pseudo) 2-monad $L$ on $K/B$.  For a morphism $p \colon E \to A$ in $K$, $L p$ is given by composing the [[span]] $A \overset{p}{\leftarrow} E \to 1$ with the canonical span $\Phi A = A \overset{dom}{\leftarrow} A^{\mathbf{2}} \overset{cod}{\to} A$, so that $L p \colon E/p \to A$ is the canonical projection.  More generally, the same construction gives a monad $L$ on $Span K(B,A)$ whose algebras we call **left fibrations**.  In [[Cat]], a span $C \overset{p}{\leftarrow} H \overset{q}{\to} D$ is a left fibration if $p$ is a cloven fibration whose chosen cartesian lifts are $q$-vertical.
+### Definition
 
-Dually, there is a 2-monad $R$ on each $Span K(B,A)$ whose algebras
+Let $K$ be a [[bicategory]] with finite [[2-limits]], and recall that [[fibration in a 2-category|fibrations]] in $K$ may be defined in any of several ways.  Each of these has an analogous version for two-sided fibrations.
+
+
+#### In terms of 2-monads
+
+Recall that (cloven) fibrations $E \to B$ in $K$ are the (pseudo)algebras for a (pseudo) 2-monad $L$ on $K/B$.  For a morphism $p \colon E \to A$ in $K$, $L p$ is given by composing the [[span]] $A \overset{p}{\leftarrow} E \to 1$ with the canonical span $\Phi A = A \overset{dom}{\leftarrow} A^{\mathbf{2}} \overset{cod}{\to} A$, so that $L p \colon E/p \to A$ is the canonical projection.  This can equivalently be described as the [[comma object]] $(1_A/p)$.  This 2-monad is [[lax-idempotent 2-monad|lax-idempotent]], so that $p\colon E\to B$ is a fibration if and only if the unit $p\to L p$ has a left adjoint with invertible counit.
+
+More generally, the same construction gives a 2-monad $L$ on $Span K(B,A)$, whose algebras we call **left fibrations**.  In [[Cat]], a span $C \overset{p}{\leftarrow} H \overset{q}{\to} D$ is a left fibration if $p$ is a cloven fibration whose chosen cartesian lifts are $q$-vertical.  (Since we are working bicategorically, "$q$-vertical" means that they map to isomorphisms under $q$.)
+
+Dually, there is a colax-idempotent 2-monad $R$ on each $Span K(B,A)$ whose algebras
 are called **right fibrations**, the special case of $Span Cat(D,1)$ yielding cloven opfibrations.
 
-There is then a composite 2-monad $M$ that takes a span $E$ from $B$ to $A$ to $M E = \Phi A \circ E \circ \Phi B$, and $M$-algebras are called **two-sided fibrations**.
+There is then a composite 2-monad $M$ that takes a span $E$ from $B$ to $A$ to $M E = \Phi A \circ E \circ \Phi B$, and $M$-algebras are called **two-sided fibrations**.  Although $M$ is neither lax- nor colax-idempotent, it is still [[property-like 2-monad|property-like]].
 
-+-- {: .un_prop}
++-- {: .num_prop #TwoSidedFibrationsInCat}
 ###### Proposition
 
 A two-sided Street fibration from $B$ to $A$ in $Cat$ is given by a span $p \colon E \to A$, $q \colon E \to B$ such that
@@ -55,12 +68,44 @@ The two-cell in question is given here by $\ell \cdot (\Phi A \circ r) \cdot (\e
 
 =--
 
+If $A \overset{p}{\leftarrow} E \overset{q}{\to} B$ is a two-sided fibration, then the operation sending $(a,b)$ to the corresponding (essential) fiber of $(p,q)$ defines a pseudofunctor $A^{op}\times B \to Cat$.  The third condition in Proposition \ref{TwoSidedFibrationsInCat} corresponds to the "interchange" equality $(\alpha,1)(1,\beta) = (1,\beta)(\alpha,1)$ in $A^{op}\times B$.  We write $Fib(B,A)$ for the 2-category of two-sided fibrations from $B$ to $A$.
 
-# Two-sided discrete fibrations
 
-## Definition
+#### A representable definition
 
-A two-sided fibration $A \leftarrow E \to B$ in $K$ is **discrete** if it is [[discrete object|discrete]] as an object of $K/A \times B$.
+Another definition of internal fibration is that a (cloven) fibration in $K$ is a morphism $p\colon E\to B$ such that $K(X,p)\colon K(X,E)\to K(X,B)$ is a (cloven) fibration in $Cat$, for any $X\in K$, and for any $X\to Y$ the corresponding square is a morphism of fibrations in $Cat$.  To adapt this definition to two-sided fibrations, we therefore need only to say what is a two-sided fibration in $Cat$.  For this we can use the characterization of Proposition \ref{TwoSidedFibrationsInCat}.
+
+
+#### As iterated fibrations
+
+Let $Fib(A) = Fib_K(A)$ denote the 2-category of fibrations over $A\in K$.  It is a well-known fact (apparently due to Benabou) that a morphism in $Fib(A)$ is a fibration in $Fib(A)$ if and only if its underlying morphism in $K$ is a fibration.  See [[fibration in a 2-category]].  Thus, for any fibration $r\colon C\to A$, we have $Fib_{Fib_K(A)}(r) \simeq Fib_K(C)$.
+
+Of course there is a dual result for opfibrations: for any opfibration $r\colon C\to A$ we have $Opf_{Opf_K(A)}(r) \simeq Opf_K(C)$.  When we combine variance of iteration, however, we obtain two-sided fibrations.
+
++--{: .un_theorem}
+###### Theorem
+A span $A \overset{p}{\leftarrow} E \overset{q}{\to} B$ is a two-sided fibration from $B$ to $A$ if and only if
+1. $p\colon E\to A$ is a fibration and
+1. $(p,q)\colon E\to A\times B$ is an opfibration in $Fib(A)$.
+=--
+
++--{: .proof}
+###### Proof
+Recall that the projection $A\times B \to A$ is a fibration (and also an opfibration, although that is irrelevant here), and the cartesian 2-cells are precisely those whose component in $B$ is an isomorphism.  Therefore, saying that $(p,q)$ is a _morphism_ in $Fib(A)$, i.e. that it preserves cartesian 2-cells, says precisely that $q$ takes $p$-cartesian 2-cells to isomorphisms.
+
+Now $q$ is an opfibration in $K$ iff $E\to (q/1_B)$ has a left adjoint with invertible counit in $K/B$, and $(p,q)$ is an opfibration in $Fib(A)$ iff $E\to ((p,q)/1_{A\times B})$ has a left adjoint with invertible counit in $Fib(A)/(A\times B)$.  Of crucial importance is that here $((p,q)/1_{A\times B})$ denotes the comma object calculated _in the 2-category $Fib(A)$_, or equivalently in $K/A$ (since monadic forgetful functors create limits), and it is easy to check that this is in fact _equivalent_ to the comma object $(q/1_B)$ calculated in $K$.
+
+Therefore, $(p,q)$ is an opfibration in $Fib(A)$ iff $q$ is an opfibration in $K$ and the left adjoint of $E\to (q/1_B)$ is a morphism in $Fib(A)$.  It is then easy to check that this left adjoint is a morphism in $K/A$ iff $p$ inverts $q$-opcartesian arrows, and that it is a morphism of fibrations iff the final condition in Proposition \ref{TwoSidedFibrationsInCat} is satisfied.
+=--
+
+In particular, we have $Fib(B,A) \simeq Opf_{Fib(A)}(A\times B)$.  By duality, $Fib(B,A) \simeq Fib_{Opf(B)}(A\times B)$, and therefore $Fib_{Opf(B)}(A\times B) \simeq Opf_{Fib(A)}(A\times B)$, a commutation result that is not immediately obvious.
+
+
+## Two-sided discrete fibrations
+
+### Definition
+
+A two-sided fibration $A \leftarrow E \to B$ in $K$ is **discrete** if it is [[discrete object|discrete]] as an object of $K/A \times B$.  Since discreteness is a limit construction, it is created by monadic forgetful functors; hence this is equivalent to being discrete as an object of the 2-category $Fib(A,B)$ of two-sided fibrations.
 
 For Grothendieck fibrations in [[Cat]], this means the following.
 
@@ -72,17 +117,20 @@ A **two-sided discrete fibration** is a [[span]] $q \colon E \to A$, $p \colon E
 1. each $q e \to a$ in $A$ has a unique lift in $E$ that has domain $e$ and is in the fiber over $p e$
 1. for each $f\colon e \to e'$ in $E$, the codomain of the lift of $q f$ equals the domain of the lift of $p f$ and their composite is $f$.
 
-Write 
+=--
+
+We write 
 
 $$
   DFib(A,B) \subset Span(A,B)
 $$ 
 
-for the full [[subcategory]] on the category of  [[span]]s on the 2-sided discrete fibrations.
+for the full [[subcategory]] on the 2-category $Span K(A,B)$ of [[span]]s on the 2-sided discrete fibrations.  Since a morphism of spans between discrete fibrations is automatically a morphism of fibrations, this is also the full sub-2-category of the 2-category of two-sided fibrations $Fib(A,B)$.  And since they are discrete objects, this 2-category is actually (equivalent to) a 1-category.
 
-=--
 
-## Properties
+### Properties
+
+#### Profunctors and collages
 
 +-- {: .un_def}
 ###### Definition
@@ -318,7 +366,7 @@ Note that profunctors can also be characterized by their collages, these being t
 
 ## Related concepts
 
-* [[Grothendieck fibration]], [[Street fibration]], [[discrete fibration]], **two-sided fibration**,
+* [[Grothendieck fibration]], [[Street fibration]], [[discrete fibration]], [[fibration in a 2-category]], **two-sided fibration**,
 
 * [[Cartesian fibration]]
 
