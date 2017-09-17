@@ -115,6 +115,7 @@ in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The 
 ## Related concepts
 
 * [[cartesian closed functor]]
+* [[strong monad]]
 
 ## References 
 
