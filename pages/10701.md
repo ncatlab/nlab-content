@@ -147,11 +147,17 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 ## Lecture 13 _The stratification of $\mathcal{M}_{FG}$_ 
 
+* [[chromatic filtration]]
+
 ## Lecture 14 _Classification of formal groups_ 
 
 * [[moduli stack of formal groups]]
 
 ## Lecture 15 _Flat modules over $\mathcal{M}_{FG}$_ 
+
+* [[quasicoherent sheaf]], [[flat module]], [[exact functor]]
+
+* [[Landweber exact functor theorem]]
 
 
 ## Lecture 16 _The Landweber exact functor theorem_ 
@@ -160,7 +166,9 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 ## Lecture 17 _Phantom maps_ 
 
-* [[phantom maps]]
+* [[Brown representability theorem]], [[Landweber exact spectrum]]
+
+* [[phantom map]]
 
 ## Lecture 18 _Even periodic cohomology theories_ 
 
@@ -194,6 +202,8 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 
 ##  Lecture 24 _Uniqueness of Morava K-theory_ 
+
+* [[∞-field]]
 
 ## Lecture 25 _The Nilpotence lemma_ 
 
@@ -242,6 +252,5 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 
 category: reference
-
 
 
