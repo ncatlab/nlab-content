@@ -13,8 +13,6 @@
 =--
 =--
 
-> under construction
-
 # Contents
 * table of contents
 {: toc}
@@ -23,16 +21,24 @@
 
 A _quantum state_ is a [[state]] of a [[physical system|system]] of [[quantum mechanics]].
 
-In the usual formulations over a [[Hilbert space]] $H$, the [[pure state]]s form space $(H \setminus \{0\})/\mathbb{C}$, where we mod out by the [[action]] of $\mathbb{C}$ on $H \setminus \{0\}$ by scalar multiplication.  Equivalently, we can use $S(H)/U(1)$, the [[unit sphere]] in $H$ modulo the action of the [[unitary group]] $U(1)$.  Often by abuse of language, one says that $H$ is the space of (pure) states.  The [[mixed state]]s are then [[density matrix|density matrices]] on $H$.
-
-In principle, any quantum mechanical system can be treated in this way, by imposing [[superselection rule]]s that identify only some [[self-adjoint operator]]s on $H$ as [[observable]]s.  Alternatively, one may take a more abstract approach, starting with an $C^*$-[[C-star-algebra|algebra]] (perhaps a $W^*$-[[W-star-algebra|algebra]]) as the [[algebra of observables]], then defining states as [[state in AQFT and operator algebra|state]]s on that algebra.
-
 
 ## Definitions
 
-In the simple version of [[quantum mechanics]] given by a [[Hilbert space]] $H$, then a _[[pure state]]_ is a ray in $H$, which we often call the Hilbert space of states.  Strictly speaking, the space of states is not $H$ but $(H \setminus \{0\})/\mathbb{C}$, or equivalently $S(H)/U(1)$.
+The precise mathematical notion of state depends on what mathematical formalization of quantum mechanics is used.
 
-In the more general case where a [[quantum mechanical system]] is given by a $C^*$-[[C-star-algebra|algebra]] $A$, then a **state** on $A$ is
+
+### Hilbert spaces
+
+In the simple formulation over a [[Hilbert space]] $H$, a [[pure state]] is a ray in $H$.  Thus, the [[pure states]] form the space $(H \setminus \{0\})/\mathbb{C}$, where we mod out by the [[action]] of $\mathbb{C}$ on $H \setminus \{0\}$ by scalar multiplication; equivalently, we can use $S(H)/\mathrm{U}(1)$, the [[unit sphere]] in $H$ modulo the action of the [[unitary group]] $\mathrm{U}(1)$.  Often by abuse of language, one calls $H$ the 'space of states'.
+
+The [[mixed states]] are [[density matrix|density matrices]] on $H$.  Every pure state may be interpreted as a mixed state; taking a representative normalised vector ${|\psi\rangle}$ from a ray in Hilbert space, the operator ${|\psi\rangle}{\langle\psi|}$ is a density matrix.
+
+In principle, any quantum mechanical system can be treated using Hilbert spaces, by imposing [[superselection rule]]s that identify only some [[self-adjoint operators]] on $H$ as [[observables]].  Alternatively, one may take a more abstract approach, as follows.
+
+
+### In AQFT
+
+In [[AQFT]], a [[quantum mechanical system]] is given by a $C^*$-[[C-star-algebra|algebra]] $A$, giving the [[algebra of observables]].  Then a **state** on $A$ is
 
 * a $\mathbb{C}$-[[linear function]] $\rho\colon A \to \mathbb{C}$
 
@@ -44,6 +50,22 @@ In the more general case where a [[quantum mechanical system]] is given by a $C^
   * it is **normalized**: $\rho(1) = 1$.
 
 See also [[state in AQFT and operator algebra]].
+
+If $H$ is a Hilbert space, then the [[bounded operators]] on $H$ form a $C^*$-algebra $\mathcal{B}H$, and states on the Hilbert space correspond directly to states on $\mathcal{B}H$.  Classical mechanics can also be formulated in AQFT; the classical space of states $X$ gives rise to a commutative [[von Neumann algebra]] $L^\infty(X)$ as the algebra of observables.
+
+Arguably, the correct notion of state to use is that of [[quasi-state]]; every state gives rise to a unique quasi-state, but not conversely.  However, when either classical mechanics or Hilbert-space quantum mechanics is formulated in AQFT, every quasi-state *is* a state (at least if the Hilbert space is not of very low dimension, by [[Gleason's theorem]]).  See also the Idea-section at [[Bohr topos]] for a discussion of this point.
+
+
+### In FQFT
+
+In the [[FQFT]] formulation of [[quantum field theory]], a physical system is given by a [[cobordism]] [[representation]]
+
+$$
+  Bord_n^S \to \mathcal{C}
+  \,.
+$$
+
+In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned to an $(n-1)$-dimensional [[manifold]] $\Sigma_{n-1}$ is the _space of states_ over that manifold. A state is accordingly a [[generalized element]] of this object.
 
 
 ## Related concepts
