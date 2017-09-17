@@ -200,25 +200,29 @@ $\,$
 A [[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect QFT|defect]] _[[local field theory]]_ is a [[monoidal (∞,n)-functor]]
 
 $$
-  Z \;\colon\; Bord_n^\otimes \to \mathcal{C}^\otimes
+  Z \;\colon\; Bord_n^\otimes \longrightarrow \mathcal{C}^\otimes
 $$
 
 from an [[(∞,n)-category of cobordisms]] with [[branes]] and [[domain walls]], to _some_ [[symmetric monoidal (∞,n)-category]].
 
-The point of this [[axiom]] is that the [[higher category theory|higher categorical]] [[(∞,n)-functor|(∞,n)-functoriality]] of $Z$ is what encodes the _[[local quantum field theory|locality]]_ of the [[field theory]]. This in turn encodes a fundamental property of the fundamental physics of the [[observable universe]] called _[[causal locality]]_ : (spacelike-)separated regions of [[spacetime]]/[[worldvolume]] behave like [[independent subsystems]].
+
+The point of this [[axiom]] is that the [[higher category theory|higher categorical]] [[(∞,n)-functor|(∞,n)-functoriality]] of $Z$ is what encodes the _[[local quantum field theory|locality]]_ of the [[field theory]]. This in turn encodes a fundamental property of the [[fundamental physics]] of the [[observable universe]] called _[[causal locality]]_ : (spacelike-)separated regions of [[spacetime]]/[[worldvolume]] behave like [[independent subsystems]].
 
 | [[fundamental physics]] | [[foundations|foundational]] [[mathematics]] |
 |---|---
 | [[gauge principle]] | [[homotopy theory]]  |
 | [[causal locality]] | [[higher category theory]] |
 
+
 The [[cobordism hypothesis]] provides a good characterization of the space of _all_ such $Z \colon Bord_n^\otimes \to \mathcal{C}^\otimes$. But for modelling _[[physics]]_ there are typically more restrictions to be imposed.
 
-In particular, for actual _[[quantum theory|quantum]]_ (as opposed to [[prequantum field theory|prequatum]] or [[classical field theory|classical]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _linear_ [[tensor category|tensor]] [[category of modules]], $R Mod^\otimes$, for some [[commutative ring|commutative]] [[ground ring]] $R$ (which in ordinary [[quantum mechanics]] is the [[complex numbers]]).
+In particular, for actual _[[quantum theory|quantum]]_ (as opposed to [[prequantum field theory|prequatum]] or [[classical field theory|classical]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _[[additive and abelian categories|linear]]_ [[tensor category|tensor]] [[category of modules]], $R Mod^\otimes$, for some [[commutative ring|commutative]] [[ground ring]] $R$ (which in ordinary [[quantum mechanics]] is the [[complex numbers]]).
 
-Here in [[higher category theory]]/[[homotopy theory]] we choose, more generally, a ground _[[E-∞ ring|commutative ∞-ring]]_ $E$. This comes with its [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category of ∞-modules]] $E Mod^\otimes$.
+The [[abelian category|linearity]] of $E Mod$ encodes the [[superposition principle]] of [[quantum physics]], which says that [[quantum states]] may be added and possibly may additively cancel. This cancellation is _[[quantum interference]]_, the very hallmark of [[quantum physics]].
 
-A decent choice for $\mathcal{C}^\otimes$ is then $\mathcal{C}^\otimes = E Mod^{\Box^n}$, the [[symmetric monoidal (∞,n)-category]] of $n$-dimensional [[cubes]] in $E Mod$. With this used as the codomain the the definition of $Z$
+In [[local quantum field theory]]/[[higher category theory]]/[[homotopy theory]] we choose, more generally, a ground _[[E-∞ ring|commutative ∞-ring]]_ $E$. This comes with its [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category of ∞-modules]] $E Mod^\otimes$.
+
+A decent choice for $\mathcal{C}^\otimes$ is then $\mathcal{C}^\otimes = E Mod^{\Box^n}$, the [[symmetric monoidal (∞,n)-category]] of $n$-dimensional [[cubes]] in $E Mod$. With this used as the codomain in the definition of $Z$
 
 $$
   Z \; \colon \;
@@ -252,9 +256,7 @@ $$
   \,.
 $$
 
-The [[abelian category|linearity]] of $E Mod$ encodes the [[superposition principle]] of [[quantum physics]], which says that [[quantum states]] may be added and possibly may additively cancel. This cancellation is _[[quantum interference]]_, the very hallmark of [[quantum physics]].
-
-But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or similar, the notion of $Z$ as above is still much more general than the field theories typically of interest in nature and theory. The quantum field theories actually of interest both in nature and in theory have the special property that they arise via a process of _[[quantization]]_ from [[higher geometry|higher geometric data]] given by a [[local prequantum field theory]]: a [[local action functional]]/[[local Lagrangian]] on a [[moduli space]] of [[field (physics)|fields]].
+But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or similar, the notion of $Z$ as above is still much more general than the field theories typically of interest in nature and in theory. The quantum field theories actually of interest both in nature and in theory have the special property that they arise via a process of _[[quantization]]_ from [[higher geometry|higher geometric data]] given by a [[local prequantum field theory]]: a [[local action functional]]/[[local Lagrangian]] on a [[moduli space]] of [[field (physics)|fields]].
 
 This is the process to be indicated in the following:
 
@@ -266,13 +268,13 @@ This is the process to be indicated in the following:
 | [[correspondences]], [[integral kernels]] | --[[path integral as a pull-push transform|pull-push transform]]$\longrightarrow$ | [[linear maps]]  |
 | [[field (physics)|field]] [[trajectories]] | --[[path integral]]$\longrightarrow$ | [[quantum propagators]] |
 
-
+This process may be thought of as a refinement of _[[geometric quantization]]_ from [[quantum mechanics]] to ([[non-perturbative quantum field theory|non-perturbative]]) [[quantum field theory]]. 
 
 
 ### 2. Local prequantum field theory
  {#ExpositionLocalPrequantumFieldTheory}
 
-First we consider [[local prequantum field theory]]. See ([Nuiten 13, section 2](#Nuiten13), [Fiorenza-Rogers-Schreiber 13a](#FiorenzaRogersSchreiber13a), [lpqft](#lpqft)). 
+First we consider [[local prequantum field theory]]. See ([Nuiten 13, section 2](#Nuiten13), [Fiorenza-Rogers-Schreiber 13a](#FiorenzaRogersSchreiber13a), [Nuiten-Schreiber 13](#lpqft)). 
 
 $\,$
 
@@ -1022,7 +1024,7 @@ Choose now once and for all
 
 Write $Bord_n \coloneqq Bord_n(\{\ast\})$ for the [[(∞,n)-category of cobordisms|(∞,n)-category of framed cobordisms]].
 
-By ([lpqft](#lpqft)), following ([Schreiber 08](#Schreiber08), [Freed-Hopkins-Lurie-Teleman 09, section 3](#FreedHopkinsLurieTeleman09)) we say
+By ([Nuiten-Schreiber 13](#lpqft)), following ([Schreiber 08](#Schreiber08), [Freed-Hopkins-Lurie-Teleman 09, section 3](#FreedHopkinsLurieTeleman09)) we say
 
 * a [[field (physics)|physical field]] of a [[local prequantum field theory]] of [[dimension]] $n$ is a [[monoidal (∞,n)-functor]]
 
@@ -2531,7 +2533,7 @@ This is based on previous work such as
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
  {#FiorenzaRogersSchreiber13a}
 
-* [[Urs Schreiber]], _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
+* [[Joost Nuiten]], [[Urs Schreiber]], _[[schreiber:Local prequantum field theory]]_
  {#lpqft}
 
 
