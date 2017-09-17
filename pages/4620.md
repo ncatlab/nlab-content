@@ -45,7 +45,7 @@ Bishop introduced the above principles of omniscience to show that certain resul
 
 The converses hold if we assume [[weak countable choice]] (as Bishop did); or they hold in any case for the [[Cauchy real numbers]].
 
-There are various other results that are equivalent to or related to the principles of omniscience, which it might be handy to collect here.  For the connection to writing real numbers as decimals (or in some other radix), see Daniel Mehkeri\'s answer to [Roberts (2010)](#Mehkeri).
+There are various other results that are equivalent to or related to the principles of omniscience, which it might be handy to collect here.  For the connection to writing real numbers as decimals (or in some other radix), see Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
 
 
 ## References
@@ -59,7 +59,7 @@ There are various other results that are equivalent to or related to the princip
 *  [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
 {#Escardo}
 
-*  [[David Roberts]] (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
+*  David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
 
 
 [[!redirects principle of omniscience]]
