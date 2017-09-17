@@ -48,6 +48,10 @@ These classical results in analysis are equivalent to the ultrafilter theorem in
 *  [[Stone–Čech compactification]]: the [[compact Hausdorff space]]s form a [[reflective subcategory]] of [[Top]].  (The classical result that they form a reflective subcategory of the category $T_3$ of completely regular Hausdorff spaces is enough; the classical result that the reflection is a dense embedding on $T_3$ also follows.)
 *  [[Banach-Alaoglu theorem]]: the closed unit ball of the double dual of a [[Banach space]] is weak* compact.  (The result for *separable* spaces does not require the ultrafilter theorem.)
 
+## Failures
+
+Of course, since the ultrafilter theorem is independent of [[ZF]], there are models in which it fails.  More strongly, however, there are apparently models of ZF in which *every ultrafilter (on every set) is principal*.  See [this MO answer](http://mathoverflow.net/questions/76495/existence-of-non-principal-ultrafilters-on-sets/76499#76499).
+
 
 ## References
 
