@@ -24,6 +24,11 @@ First of all, it is common, convenient and without risk to use a [[skeleton]] of
 
 With this in mind, the **augmented simplex category** $\Delta_a$ can be presented as follows:
 
++-- {: .standout}
+This definition of $[n]$ is non-standard! See comment at the bottom of the page.
+=--
+
+
 * objects are the finite totally ordered sets $[n] := \{0 \lt 1 \lt  \cdots \lt n-1\}$ for all $n \in \mathbb{N}$;
 
 * morphisms are order-preserving functions $[n] \to [m]$ -- these are _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
@@ -214,5 +219,7 @@ _Mike_: Yes, of course.
 _Toby_: I certainly prefer the algebraists\' $\Delta$; it\'s part of my general preference for not ignoring the [[empty set]]. (Mike\'s example, with Todd\'s correction, only serves to confirm my opinion.) Seeing the universal construction of $\Delta$, I made the article consistent by picking my favourite, which fit that construction.
 
 I didn\'t know a good notation for the topologists\' unaugmented $\Delta$, so I just used a dot as my standard notation for deleting the basepoint: if $X$ is a [[pointed set]] with point $x$, then $\dot X := X \setminus \{x\}$. (I think that I first saw this in point-set topology to turn a neighbourhood of a point into a deleted neighbourhood.) It is by no means sacred.
+
+_Jonas_: The definition of $[n]$ is non-standard! Traditionally, $[n]$ is used to denote the category with $n$ arrows, whereas $\mathbf{n}$ or simply $n$ is used to denote the linear order with $n$ objects. I.e.it should be $[n] = \{0,\dots,n\}$ and not $[n] = \{0,\dots,n-1\}$. See for example Joyal's "The theory of quasi-categories and its applications".
 
 category: category
