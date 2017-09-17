@@ -269,14 +269,170 @@ The Chern-Simons form $\int_{[0,1]} P(F_{\hat A} \wedge \cdots \wedge F_{\hat A}
 
 
 
+## In $\infty$-Chern-Weil theory {#HigherOrderChernSimonsForms}
 
+We discuss now a more encompassing perspective on Chern-Simons forms the way it occurs in [[∞-Chern-Weil theory]].
+
+### Prerequisites
+
+We need to collect a few notions describes elsewhere, on which the following discussion is based.
+
+For $\mathfrak{g}$ a [[Lie algebra]] or more generally an [[∞-Lie algebra]]  we have the following [[dg-algebra]]s naturally associated with it:
+
+* the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$;
+
+* the [[Weil algebra]] $W(\mathfrak{g})$;
+
+* the algebra of [[invariant polynomial]]s $inv(\mathfrak{g})$.
+
+Given $n \in \mathbb{N}$, the [[Lie integration]] of $\mathfrak{g}$ to degree $n$ is the [[∞-Lie groupoid]] which is the $n$-[[truncation]] of the [[simplicial presheaf]]
+
+$$
+  \exp(\mathfrak{g}) :  U,[n] \mapsto 
+   dgAlg(
+     CE(\mathfrak{g}),
+     C^\infty(U)\otimes \Omega^\bullet(\Delta^n)
+        )
+  \,,
+$$
+
+where here and in the following $\Omega^\bullet(\Delta^n)$ denotes the [[de Rham complex]] dg-algebra of those smooth [[differential form]]s $\omega$ on the standard smooth $n$-simplex that have _sitting instants_ in that for each $k \in \mathbb{N}$ every $k$-face of $\Delta^n$ has an open neighbourhood such that restricted to that neighbourhood $\omega$ is constant in the direction perpendicular to the face.
+
+This is a one-object [[∞-Lie groupoid]] which we may write
+
+$$
+  \mathbf{B}G = \mathbf{cosk}_{n+1} \exp(\mathfrak{g})
+  \,,
+$$
+
+thus defining the [[∞-Lie group]] $G$ that integrates $\mathfrak{g}$ in degree $n$.
+
+At [[∞-Chern-Weil theory]] is explained that a [[resolution]] of $\mathbf{B}G$ that serves to compute [[curvature characteristic form]]s in that it encodes [[pseudo-connection]]s on $G$-[[principal ∞-bundle]]s is given by the simplicial presheaf
+
+$$
+  \mathbf{B}G_{diff}
+  :=
+  \mathbf{cosk}_{n+1}
+  \left(
+  U,[n]
+  \mapsto
+  \left\{
+    \array{
+      C^\infty(U) \otimes \Omega^\bullet(\Delta^n)
+      &\leftarrow&
+      CE(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+      &\leftarrow&
+      W(\mathfrak{g})
+    }
+  \right\}
+  \right)
+  \,,
+$$
+
+where the vertical morphisms are the canonical ones.
+
+Much of the subtlety of the full theory of connections of $\infty$-bundles comes from the finite [[coskeleton]]-truncation here. For the following discussion of Chern-Simons forms it is helpful to first ignore this issue by taking $n = \infty$, hence ignoring the truncation for the moment. This is sufficient for understand everything about Chern-Simons forms locally. 
+
+A [[cocycle]] in [[∞-Lie algebra cohomology]] in degree $k$ is a morphism
+
+$$
+  CE(\mathfrak{g}) \leftarrow CE(b^{k-1} \mathbb{R}) : \mu
+  \,.
+$$
+
+Simply by composition (since we ignore the truncation for the moment), this integrates to a cocycle of the corresponding $\infty$-Lie groupoids
+
+$$
+  \exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{k-1}\mathbb{R})
+  \,,
+$$
+
+
+At [[∞-Chern-Weil theory]] it is discussed how the proper lift of this through the extension $\mathbf{B}G_{diff}$ that computes the [[schreiber:differential cohomology in an (∞,1)-topos|abstractly defined]] curvature characteristic classes is given by finding the [[invariant polynomial]] $\langle -,-\rangle \in W(\mathfrak{g})$ that is in transgression with $\mu$ in that we have a commuting diagram
+
+$$
+  \array{
+     CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{k-1}\mathbb{R})
+     \\
+     \uparrow && \uparrow
+     \\
+     W(\mathfrak{g}) &\stackrel{(cs, \langle-,-\rangle))}{\leftarrow}&
+     W(b^{k-1}\mathbb{R})
+     \\
+     \uparrow && \uparrow
+     \\
+     inv(\mathfrak{g}) &\stackrel{\langle -,-\rangle}{\leftarrow}& 
+     CE(b^k \mathbb{R})
+  }
+$$
+
+with a choice of interpolating Chern-Simons element $cs \in W(\mathfrak{g})$,
+which induces by precomposition with its upper part the morphism
+
+$$
+  \exp((cs,\langle-,-\rangle)) : 
+   \mathbf{B}G_{diff} \to \exp(b^{k-1}\mathbb{R})_{diff}
+  \,.
+$$
+
+By further projection to its lower part we get furthermore a morphism
+
+$$
+   \exp(b^{k-1}\mathbb{R})_{diff}
+   \to 
+   \mathbf{\flat}_{dR}\mathbf{B}^k \mathbb{R}_{simp}
+   :=
+   (U,[n] \mapsto
+   \{ \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^n)
+    \leftarrow
+     W(b^k \mathbb{R})
+    \})
+  \,.
+$$
+
+
+Finally -- and this is crucial now for obtaining the incarnation of Chern-Simons forms at integrals of curvature forms as in the above discussion -- at [[∞-Lie groupoid]] in the section <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#DeRhamOfSimplicialManifold">on simplicial differential forms</a> (see also [[circle n-bundles with connection]] the section <a href="http://ncatlab.org/nlab/show/circle+n-bundle+with+connection#U1FromLieIntegration">Models from ∞-Lie integration</a>) it is discussed that the operation
+that takes the $n$-cells on the right and integrates the corresponding forms
+over the $n$-simplex yields an equivalence
+
+$$
+  \int_{\Delta^\bullet} : 
+   (U,[n] \mapsto
+   \{ \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^n)
+    \leftarrow
+     W(b^k \mathbb{R})
+    \})
+    \to 
+    \Xi(  \stackrel{d_{dR}}{\to}\Omega^{k-1}(-)\stackrel{d_{dR}}{\to}\Omega^k_{closed}(-))  
+$$
+
+to the image of the $\mathbb{R}$-[[Deligne complex]] of sheaves 
+under the [[Dold-Kan correspondence]].
+
+### Higher order  Chern-Simons form
+
+With all of the above in hand, we can make now the following definition:
+
+For $\{U_i \to X\}$ a [[good open cover]] of the manifold $X$ and
+
+for $\nabla : C(U) \to \mathbf{B}G_{diff}$ a [[pseudo-connection]] on $X$ with values in $\mathfrak{g}$, its **order $n$ Chern-Simons forms** are the $n$-cells in the image of the canonical composite morphism
+
+$$
+  C(U) \stackrel{\nabla}{\to}
+  \mathbf{B}G_{diff} \to \Xi( \cdots \stackrel{d_{dR}}{\to}\Omega^{k-1}(-)\stackrel{d_{dR}}{\to}\Omega^k_{cl}(-))
+  \,.
+$$
+
+> It is an exercise now to work this out and compare with the previous definition. We shall do so in a little while, after we had a bit of breakfast.
 
 ## As secondary characteristic forms
 
-If a [[curvature characteristic form]] _vanishes_ (for instance if the [[connection on a bundle|connection]] is flat or the degree of the curvature characteristic form is simply greater than the dimension of $X$) the corresponding Chern-Simons form is a [[closed form]]. So in this case the [[de Rham cohomology]] class of the curvature characteristic form becomes trivial, but the Chern-Simons form provides another de Rham class. This is therefore called a **secondary characteristic class**.
+If a [[curvature characteristic form]] _vanishes_ (for instance if the [[connection on a bundle|connection]] is flat or the degree of the curvature characteristic form is simply greater than the dimension of $X$) the corresponding Chern-Simons form is a [[closed form]]. So in this case the [[de Rham cohomology]] class of the curvature characteristic form becomes trivial, but the Chern-Simons form provides another de Rham class. This is therefore called a **[[secondary characteristic class]]**.
 
-
-...
 
 
 ### Chern-Simons theory
