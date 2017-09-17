@@ -129,11 +129,13 @@ $$
 
 Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. Their [[variational calculus]] is governed by [[Euler-Lagrange equation]]s.
 
-## Related pages
+## Related concepts
 
 * [[jet space]]
 
 * [[metric jet]]
+
+[[!include infinitesimal and local - table]]
 
 ## References
 
@@ -166,3 +168,6 @@ A discussion of jet bundles with an eye towards discussion of the [[variational 
 
 
 [[!redirects jet bundles]]
+
+[[!redirects jet]]
+[[!redirects jets]]
