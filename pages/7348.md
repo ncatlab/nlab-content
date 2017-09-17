@@ -51,12 +51,16 @@ between the [[tangent space]] of $X$ at $x$ and the tangent space of $Y$ at $f(y
 
 =--
 
+An immersion whose underlying [[continuous function]] is an [[embedding]] of [[topological spaces]] is an _[[embedding of smooth manifolds]]_.
 
 ## Properties
 
-### General
+### Relation to embeddings
 
- (...)
+An immersion $f : X \to Y$ is precisely a _local [[embedding of smooth manifolds|embeddings]]_: for every point $x \in X$ there is an [[open neighbourhood]] $x \in U \subset X$ such that $f|_U : U \to Y$ is an [[embedding of smooth manifolds]].
+
+
+
 
 ### Characterization in infinitesimal cohesion
 
@@ -75,6 +79,8 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 
 ## Related concepts
 
-**immersion**, [[submersion]], [[local diffeomorphism]]
+* **immersion**, [[submersion]], [[local diffeomorphism]]
+
+* [[embedding of smooth manifolds]]
 
 [[!redirects immersion of smooth manifolds]]
