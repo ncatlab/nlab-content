@@ -9,7 +9,9 @@
 
 The term 'shuffle' conjures up the idea of shuffling a pack of cards. In fact the mathematical idea is nearer to shuffling two packs of cards one through the other. Suppose we have a pack of $p$ cards and a pack of $q$ cards and we build a pack of $p+q$ cards, whilst retaining the order on the two 'sub-packs'.  The result is a $(p,q)$-shuffle. 
 
-##Shuffles : Definition
+##Definition
+
+###Shuffles
 
 +-- {: .un_defn}
 ###### Definition
@@ -37,8 +39,9 @@ The **signature** of a $(p,q)$-shuffle is the [[signature of a permutation|signa
 
 =--
 
-##Unshuffles
-The same basic situation viewed from the other end leads to *unshuffles**.  In these instead of combining things, we take the permutation and decompose it.
+### Unshuffles
+
+The same basic situation viewed from the other end leads to _unshuffles_ .  In these instead of combining things, we take the permutation and decompose it.
 +-- {: .un_defn}
 ###### Definition
 We say that a permutation $\sigma\in S_n$ is a $(j,n-j)$-unshuffle, $o\leq j\leq n$ if $\sigma(1)\lt \ldots \sigma(j)$ and $\sigma(j+1)\lt \ldots \lt \sigma(n)$.
@@ -63,9 +66,10 @@ Shuffles are used in defining the pre-cgc structure on $\bigwedge V$ in the theo
 ###Differential graded Hopf algebras
 Shuffles are also used for defining the shuffle product on $T(V)$, see [[differential graded Hopf algebra]].
 
-###[[L-infinity algebras]] and [[A-infinity algebras]]
+### In $L_\infty$- and $A_\infty$-algebras [[L-infinity algebras]]
 
-In the definitions of these structures the _unshuffle_ side of shuffles is used.
+In the definitions of [[A-∞ algebras]] and [[L-∞ algebras]]
+the _unshuffle_ side of shuffles is used.
 
 [[!redirects shuffles]]
 [[!redirects unshuffle]]
