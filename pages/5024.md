@@ -81,6 +81,7 @@ Therefore, the counit $\Pi \circ LConst \to \Id$ is an equivalence, so $LConst$ 
 
 * [[cohesive topos]] / [[cohesive (∞,1)-topos]]
 
+
 [[!redirects ∞-connected (∞,1)-topos]]
 [[!redirects ∞-connected (∞,1)-toposes]]
 [[!redirects ∞-connected (∞,1)-topoi]]
@@ -89,3 +90,15 @@ Therefore, the counit $\Pi \circ LConst \to \Id$ is an equivalence, so $LConst$ 
 
 [[!redirects infinity-connected (infinity,1)-toposes]]
 [[!redirects infinity-connected (infinity,1)-topoi]]
+
+[[!redirects globally ∞-connected (∞,1)-topos]]
+[[!redirects globally ∞-connected (∞,1)-toposes]]
+[[!redirects globally ∞-connected (∞,1)-topoi]]
+[[!redirects globally ∞-connected (∞,1)-geometric morphism]]
+[[!redirects globally ∞-connected (∞,1)-geometric morphisms]]
+
+[[!redirects globally infinity-connected (∞,1)-topos]]
+[[!redirects globally infinity-connected (∞,1)-toposes]]
+[[!redirects globally infinity-connected (∞,1)-topoi]]
+[[!redirects globally infinity-connected (∞,1)-geometric morphism]]
+[[!redirects globally infinity-connected (∞,1)-geometric morphisms]]
