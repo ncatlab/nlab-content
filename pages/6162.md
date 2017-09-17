@@ -1,0 +1,10 @@
+__Andrew Mawdesley Pitts__ is a professor fo theoretical computer science at Cambridge. His thesis is on the theory of [[tripos]]es; he studies semantic of programming languages, type theory, symbolic computation etc. 
+
+* [web](http://www.cl.cam.ac.uk/~amp12)
+* _Nontrivial power types can't be subtypes of polymorphic types_, [ps.gz](http://www.cl.cam.ac.uk/~amp12/papers/nontpt/nontpt.ps.gz)
+* _The theory of [[tripos]]es_, 1981, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
+* _Tripos theory in retrospect_, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/tritr/tritr.pdf)
+[[!redirects Andrew M. Pitts]]
+[[!redirects Andrew Mawdesley Pitts]]
+[[!redirects A. M. Pitts]]
+[[!redirects Andy Pitts]]
