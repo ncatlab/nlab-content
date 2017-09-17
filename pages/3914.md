@@ -308,30 +308,15 @@ The latter, on passing to [[homotopy groups]], are [[genera]] on manifolds with 
  
 ## Examples
 
-* For $V \to X$ a vector bundle of rank $k$, an ordinary [[orientation]] is a trivialization of the line bundle $\wedge^k V$. This is indeed equivalently a trivialization of $V \wedge H(\mathbb{R})$ of smashing with the [[Eilenberg-MacLane spectrum]].
+### Orientations related to genera and indices
 
-* For spin orientation of vector bundle the construction is given by forming [[Clifford algebra]] bundles.
-
-* [[K-orientation]]
-
-* [[sigma-orientation]], [[string orientation of tmf]]
-
-* For string orientation of vector bundle the construction is supposed to be given by forming free fermion [[local net]]-bundle. See [[Andre Henriques]]' website.
-
-### Atiyah-Bott-Shapiro orientation
-
-* [[Atiyah-Bott-Shapiro orientation]]
-
-#### $Spin$-orientation of $KO$
-
-#### $Spin^c$-orientation of $KU$
-
+[[!include genera and partition functions - table]]
 
 ### Complex orientation
 
 An $E_\infty$ [[complex oriented cohomology theory]] $E$ is indeed equipped with a universal complex orientation given by an $E_\infty$-ring homomorphism $MU \to E$, see [here](complex+oriented+cohomology+theory#InTermsOfGenera).
 
-### Ando-Hopkins-Rezk string orientation of $tmf$
+
 
 
 ## Related concepts
