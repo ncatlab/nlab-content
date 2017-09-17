@@ -57,6 +57,8 @@ or equivalently
 
 $$ {\|x \times y\|} = {\|x\|} {\|y\|} {|\sin\angle(x,y)|} .$$
 
+(Using the [[polarization identity]] to express $x \cdot y$ in terms of $\|x\|$, $\|y\|$, and $\|x + y\|$, this is the double of Hero's Formula for the area of a triangle.)
+
 We then have over the [[real numbers]]:
 
 * In [[dimension]] $0$ or $1$, there is one binary cross product: $x \times y \coloneqq 0$.
