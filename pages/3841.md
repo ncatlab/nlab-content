@@ -10,7 +10,7 @@ A regular cardinal is is a [[cardinal number]] that is 'closed under union'.  Th
 
 ## Definitions
 
-An [[infinite set|infinite]] [[cardinal]] $\kappa$ is a **regular cardinal** if it satisfies the following equivalent definitions:
+An [[infinite set|infinite]] [[cardinal]] $\kappa$ is a **regular cardinal** if it satisfies the following equivalent properties:
 
 * no set (in a [[material set theory]]) of cardinality $\kappa$ is the [[union]] of fewer than $\kappa$ sets of cardinality less than $\kappa$.  
 
