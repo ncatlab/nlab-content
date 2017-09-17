@@ -1060,6 +1060,8 @@ and extra [[properties]] that it may enjoy.
 
 * [[(∞,1)-category]]
 
+  * [[table - models for (∞,1)-categories]]
+
 * [[(∞,2)-category]]
 
 * **(∞,n)-category**
@@ -1069,7 +1071,7 @@ and extra [[properties]] that it may enjoy.
 
 ## References ##
 
-Definition in terms of [[n-fold complete Segal spaces] and [[Segal n-categories]] are due to the (unpublished) thesis
+Definition in terms of [[n-fold complete Segal spaces]] and [[Segal n-categories]] are due to the (unpublished) thesis
 
 * [[Clark Barwick]], _$(\infty,n)$-$Cat$ as a closed model category_ PhD (2005)
 
