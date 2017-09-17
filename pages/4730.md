@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -9,15 +13,6 @@
 =--
 =--
 
-* [[principal bundle]] / [[torsor]] / [[associated bundle]]
-
-* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
-
-* **principal 3-bundle** / [[bundle 2-gerbe]]
-
-* [[principal ∞-bundle]] / [[associated ∞-bundle]]
-
-***
 
 #Contents#
 * table of contents
