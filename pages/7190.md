@@ -31,7 +31,7 @@ More generally, over a general [[base topos]], the notion of _proper geometric m
 
 A [[sheaf topos]] $\mathcal{E}$ is called a **[[compact topos]]** if the [[direct image]] of the [[global section geometric morphism]] $\Gamma : \mathcal{E} \to Set$ preserves [[directed colimit|directed]] [[joins]] of [[subterminal objects]].
 
-A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called **proper** if it exhibits $\mathcal{F}$ as a [[compact topos]] over $\mathcal{E}$.
+A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called **proper** if it exhibits $\mathcal{F}$ as a [[compact topos]] over $\mathcal{E}$. (The [[stack semantics]] of $\mathcal{E}$ can be used to formalize this.)
 
 
 =--
