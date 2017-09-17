@@ -1,23 +1,17 @@
-[[!redirects Witt ring]]
-[[!redirects Witt polynomial]]
-[[!redirects Witt polynomials]]
-[[!redirects group of Witt vectors]]
-[[!redirects Witt vector]]
-[[!redirects Witt vectors]]
-[[!redirects ring of Witt vectors]]
+
+> This article is about of groups of Witt vectors and rings of Witt vectors; which are often called just Witt groups and Witt rings. However, there is also a different notion of [[Witt group]] and [[Witt ring]].  
+
 
 #Contents#
 * table of contents
 {:toc}
 
-## Disambiguation
 
-There is also a different notion of [[Witt group]] and [[Witt ring]]. This article is about of groups of Witt vectors and rings of Witt vectors; however these are often called just Witt groups and Witt rings, too.
 
 
 ## Idea
 
-A [[Witt vector]] is an infinite sequence of elements of a commutative ring $k$. There is a unique ring structure on the set $W(k)$ of Witt vectors of $k$ and $W(k)$ is therefore called *the Witt ring of $k$*. The multiplication is defined by means of [[Witt polynomials]] $w_i$ for every natural number $i$. If the characteristic of $k$ is $0$ the Witt ring of $k$ is sometimes called *universal Witt ring* to distinguish it from the case where $k$ is of prime characteristic and a similar but different construction is of interest.
+A [[Witt vector]] is an infinite sequence of elements of a [[commutative ring]] $k$. There is a unique [[ring]] structure on the set $W(k)$ of Witt vectors of $k$ and $W(k)$ is therefore called *the Witt ring of $k$*. The multiplication is defined by means of [[Witt polynomials]] $w_i$ for every natural number $i$. If the characteristic of $k$ is $0$ the Witt ring of $k$ is sometimes called *universal Witt ring* to distinguish it from the case where $k$ is of prime characteristic and a similar but different construction is of interest.
 
 A [[Witt vector|p-adic Witt vector]] is an infinite sequence of elements af a commutative ring of pime [[characteristic]] $p$. There exists a ring structure whose construction parallels that in characteristic $0$ except that only [[Witt polynomials]]  $w_{p^l}$ whose index is a power of $p$ are taken.
 
@@ -251,6 +245,8 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 * [[Hochschild-Witt complex]] and Kaledin's non-commutative Witt vectors
 
+* [[Lubin-Tate ring]]
+
 ## References
 
 ### Original texts and classical surveys
@@ -276,8 +272,15 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 * [[Dmitri Kaledin]], universal Witt vectors and the ''Japanese cocycle'', [pdf](http://imperium.lenin.ru/~kaledin/math/jap.pdf)
 
-* [[Lars Hesselholt]], Ib Madsen, on the de Rham-Witt comples in [[mixed characteristic]], [pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf)
+* [[Lars Hesselholt]], [[Ib Madsen]], _on the de Rham-Witt comples in [[mixed characteristic]]_, [pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf)
 
 * [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, [pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf)
 
 
+[[!redirects Witt ring]]
+[[!redirects Witt polynomial]]
+[[!redirects Witt polynomials]]
+[[!redirects group of Witt vectors]]
+[[!redirects Witt vector]]
+[[!redirects Witt vectors]]
+[[!redirects ring of Witt vectors]]
