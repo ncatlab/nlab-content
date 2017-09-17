@@ -78,6 +78,20 @@ and we have the [[comprehension axiom]] that to each $r \colon A \to B$ there is
 A power allegory is a division allegory. 
 =-- 
 
++-- {: .proof} 
+###### Proof (sketch) 
+Let $r \colon A \to C$ and $s \colon B \to C$ be morphisms; we construct a right Kan lift $s \backslash r$ of $r$ through $s$. This means that for all $t \colon A \to B$ we have $s \circ t \leq r$ if and only if $t \leq s \backslash r$. 
+
+We construct $s \backslash r$ as $\chi_s^o [\geq] \chi_r$ where $[\geq] \colon P(C) \to P(C)$ is a relation opposite to the internalization $[\leq]$ of the external order. One way to define $[\leq]$ is 
+
+$$[\leq] = (P(C) \stackrel{\ni^o}{\to} P P(C) \stackrel{\bigcup}{\to} P(C)$$ 
+
+where $\bigcup \colon P P(C) \to P(C)$ internalizes the union operation, and is defined to be the map that classifies the composite 
+
+$$P P(C) \stackrel{\ni_{P(C)}}{\to} P(C) \stackrel{\ni_C}{\to} C.$$
+
+(Full details to appear.) 
+=--
 
 In other language, a power allegory is a division allegory which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
 
