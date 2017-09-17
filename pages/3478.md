@@ -1,4 +1,8 @@
 
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -7,7 +11,7 @@
 
 A [[topological space]] $X$ is said to be *locally contractible** 
 
-* if it has a basis of open sets $U$ such that the inclusions $U \to X$ are [[null-homotopic map|null-homotopic]].
+* if it has a [[Grothendieck pretopology|basis]] of open sets $U$ such that the inclusions $U \to X$ are [[null-homotopic map|null-homotopic]].
 
 Sometimes one requires
 
