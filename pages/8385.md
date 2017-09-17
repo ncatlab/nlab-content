@@ -73,7 +73,7 @@ For $C$ any site with finite limits, there is canonically a morphism of sites to
 ### Relation to geometric morphisms
  {#RelationToGeometricMorphisms}
 
-We discuss how morphisms of sites induce [[geometric morphism]]s of the corresponding [[sheaf topos]]es, and conversely.  The reader might want to first have a look at the discussion of <a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Geometric morphisms between presheaf toposes</a>.
+We discuss how morphisms of sites induce [[geometric morphism]]s of the corresponding [[sheaf topos]]es, and conversely.  The reader might want to first have a look at the discussion of _[geometric morphisms -- between presheaf toposes](geometric+morphism#BetweenPresheafToposes)_.
 
 
 Let $f : (\mathcal{C},J) \to (\mathcal{D},K)$ be a morphism of sites, with $\mathcal{C}$ and $\mathcal{D}$ small.  Then precomposition with $f$ defines a [[functor]] between categories of presheaves $(-)\circ f : PSh(\mathcal{D}) \to PSh(\mathcal{C})$.
@@ -163,7 +163,15 @@ $Lan_f X : d \mapsto {\underset{\to}{\lim}}((f^{op}/d) \to {\mathcal{C}}^{op} \s
 
 =--
 
-Conversely, any geometric morphism which restricts and corestricts to a functor between sites of definition is induced by a morphism between those sites.
++-- {: .num_remark}
+###### Remark
+
+This is a "contravariant" constructin in that a morphism of sites going one way gives a geometric morphisms of toposes going the opposite way. Another condition, the [[covering lifting property]] gives a covariant assignment.
+
+=--
+
+
+Conversely, any geometric morphism which restricts and corestricts to a functor between sites of definition is induced by a morphism between those sites:
 
 +-- {: .num_prop #GeometricMorphismsComeFromMorphismsOfSites}
 ###### Proposition
