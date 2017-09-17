@@ -25,7 +25,7 @@ A [[model category]] structure on a [[category]] of [[algebras over an operad]] 
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Assumption
 
 Let $\mathcal{E}$ be a [[category]] equipped with the structure of
@@ -42,7 +42,7 @@ such that
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Under these conditions there is for each [[finite group]] $G$ the structure of a [[monoidal model category]] on the category $\mathcal{E}^{\mathbf{B}G}$ of objects in $\mathcal{E}$ equipped with a $G$-[[action]], for which the [[forgetful functor]]
@@ -55,19 +55,20 @@ preserves and reflects fibrations and weak equivalences.
 
 =--
 
-This is discussed in the examples at [[monoidal model category]].
+This is discussed in the examples at _[[monoidal model category]]_.
 
 For $C \in $ [[Set]] a set of colours and $P$ a $C$-[[coloured operad]] in $\mathcal{E}$ we write $Alg_{\mathcal{E}}(P)$ for the category of $P$-[[algebras over an operad]]. There is a [[forgetful functor]]
 
 $$
-  U_P : Alg_{\mathcal{E}}(P) \to \mathcal{E}^C
-  \,.
+  U_P \;\colon\; Alg_{\mathcal{E}}(P) \to \mathcal{E}^C
 $$
 
-+-- {: .un_def #admissible}
+from the category of [[algebra over an operad|algebras over the operad]] in $\mathcal{E}$ to the underlying $C$-colored objects of $\mathcal{E}$.
+
++-- {: .num_defn #admissible}
 ###### Definition
 
-A $C$ coloured operad $P$ is called **admissible** if the [[transferred model structure]] on $Alg_{\mathcal{E}}(P)$ along the [[forgetful functor]]
+A $C$-[[coloured operad]] $P$ is called **admissible** if the [[transferred model structure]] on $Alg_{\mathcal{E}}(P)$ along the [[forgetful functor]]
 
 $$
   U_P : Alg_{\mathcal{E}}(P)
@@ -79,7 +80,7 @@ exists.
 =--
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Remark
 
 So if $P$ is admissible, then $Alg_{\mathcal{E}}(P)$ carries the model structure where a morphism of $P$ algebras $f : A \to B$ is a fibration or weak equivalence if the underlying morphism in $\mathcal{E}$ is, respectively.
@@ -95,9 +96,9 @@ Below we discuss general properties of $P$ under which this model structure inde
 
 ### Existence by coalgebra intervals
 
-The above model transferred model structure on algebras over an operad exists if there is a suitable [[interval object]] in $\mathcal{E}$.
+The above [[transferred model structure]] on [[algebras over an operad]] exists if there is a suitable [[interval object]] in $\mathcal{E}$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -117,7 +118,7 @@ A **cocommutative coalgebra [[interval object]]** $H\in \mathcal{E}$ is
 =--
 
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Examples
 
 Such cocommutative coalgebra intervals exist in
@@ -138,21 +139,21 @@ there is a coalgebra interval.
 
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
-If $\mathcal{E}$ has a [[symmetric monoidal functor|symmetric monoidal]] fibrant replacement functor and a coalgebra [[interval object]] $H$ then every non-symmetric [[coloured operad]] in $\mathcal{E}$ is [admissible](#admissible) -- the transfered model structure on algebras exists.
+If $\mathcal{E}$ has a [[symmetric monoidal functor|symmetric monoidal]] fibrant replacement functor and a coalgebra [[interval object]] $H$ then every non-symmetric [[coloured operad]] in $\mathcal{E}$ is admissible, def. \ref{admissible}:  the [[transferred model structure]] on algebras exists.
 
 If the interval is moreover cocommutative, then the same is true for every symmetric coloured operad.
 
 =--
 
-This is [BergerMoerdijk, theorem 2.1](#BergerMoerdiskAlgebras), following ([BergerMoerdijk-Homotopy, theorem 3.2](#BergerMoerdijkHomotopy)). For more details see [[model structure on operads]].
+This is ([BergerMoerdijk, theorem 2.1](#BergerMoerdiskAlgebras)), following ([BergerMoerdijk-Homotopy, theorem 3.2](#BergerMoerdijkHomotopy)). For more details see at _[[model structure on operads]]_.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
-Since the coalgebra interval in the [[category of chain complexes]] is not cocommutative, this case requires special discussion, as some of the statements below will not apply to it. For more on this case see [[model structure on dg-algebras over an operad]].
+Since the coalgebra interval in the [[category of chain complexes]] is not cocommutative, this case requires special discussion, as some of the statements below will not apply to it. For more on this case see _[[model structure on dg-algebras over an operad]]_.
 
 =--
 
@@ -165,7 +166,7 @@ We now discuss conditions under which model categories of algebras over a resolv
 
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $\mathcal{E}$ be in addition a [[left proper model category]]. 
@@ -185,7 +186,7 @@ is a [[Quillen equivalence]].
 
 This is  ([BergerMoerdijk, theorem 4.1](#BergerMoerdijkAlgebras)).
 
-+-- {: .un_theorem #RectificationTheorem}
++-- {: .num_theorem #RectificationTheorem}
 ###### Theorem
 **(rectification of homotopy $T$-algebras)**
 
@@ -219,7 +220,7 @@ Let $Assoc$ be the [[associative operad]] in [[Set]] regarded as an operad in [[
 
 Let $I_*$ be the operad whose algebras are pointed objects. There is a canonical morphism $i : I_* \to Assoc$. 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Claim
 
 The [[relative Boardman-Vogt resolution]]
@@ -234,7 +235,7 @@ produces precisely [[Jim Stasheff|Stasheff]]'s [[A-∞ operad]].
 
 This is ([BergerMoerdijk, page 13](#BergerMoerdijkAlgebras))
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 Every [[A-∞ space]] is equivalent as an $A_\infty$-space to a topological [[monoid]].
@@ -248,7 +249,7 @@ This follows from the [rectification theorem](#RectificationTheorem), using that
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This is a classical statement. See [[A-∞ algebra]] for background and references.
