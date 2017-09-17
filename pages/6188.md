@@ -1,0 +1,4 @@
+
+The [[category]] of [[Poisson algebra]]s.
+
+category: categories
