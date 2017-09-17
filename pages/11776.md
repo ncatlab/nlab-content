@@ -1,0 +1,7 @@
+
+* [[degree of a continuous map]]
+
+* [[degree of a coherent sheaf]]
+
+category: disambiguation
+
