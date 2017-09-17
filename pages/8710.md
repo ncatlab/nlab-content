@@ -17,7 +17,16 @@
 
 ## Idea
 
-Adding to [[cohesive homotopy type theory]] further two [[modal type theory|modalities]] that encode the infinitesimal (co)discreteness of [[infinitesimal cohesion]] yields _differential homotopy type theory_. 
+_Differential homotopy type theory_ is the [[modal type theory]] obtained by adding to [[cohesive homotopy type theory]] an [[adjoint triple]] of [[idempotent monad|idempotent (co)monadic]] [[modalities]]:
+
+$$
+  Red \dashv &#643;_{inf} \dashv \flat_{inf}
+$$
+
+called
+
+* [[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]].
+
 
 By the discussion at _[[cohesive (infinity,1)-topos -- infinitesimal cohesion]]_ this language can express at least the following notions
 
