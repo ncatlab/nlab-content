@@ -373,6 +373,11 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 > These tools $[$ used in the proof $]$ are all rather old, known for at least twenty years, and one may wonder why they have not before been put to use in connection with the Riemann moduli space. Maybe we lacked the inspiration that comes from the renewed interaction with physics, exemplified in conformal field theories.
 
+See also
+
+* [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014)
+
+
 
 
 [[!redirects string theories]]
