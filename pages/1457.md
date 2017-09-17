@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
 # Contents
-* automatic table of contents
+* table of contents
 {: toc}
 
 ## Idea 
@@ -13,7 +24,7 @@ A **metric space** is a [[set]] which comes equipped with a [[function]] which m
 Traditionally, a __metric space__ is defined to be a [[set]] $X$ equipped with a __distance__ function 
 $$ d\colon X \times X \to [0, \infty) $$ 
 (valued in nonnegative [[real numbers]]) satisfying the following axioms: 
-* Triangle inequality: $d(x, y) + d(y, z) \geq d(x, z)$;
+* [[triangle inequality|Triangle inequality]]: $d(x, y) + d(y, z) \geq d(x, z)$;
 * Point inequality: $0 \geq d(x, x)$ (so $0 = d(x,x)$);
 * Separation: $x = y$ if $d(x, y) = 0$ (so $x = y$ iff $d(x,y) = 0$);
 * Symmetry: $d(x, y) = d(y, x)$.
@@ -36,7 +47,7 @@ Metrizable spaces are closed under topological [[coproducts]] and of course [[su
 
 If we allow $d$ to take values in $[0,\infty]$ (the nonnegative [[lower reals]]) instead of just in $[0,\infty)$, then we get __extended metric spaces__.  If we drop separation, then we get __pseudometric spaces__.  If we drop the symmetry condition, then we get __quasimetric spaces__.  Thus the most general notion is that of an extended quasipseudometric space, which are also called __Lawvere metric spaces__ for the reasons below.
 
-On the other hand, if we strengthen the triangle inequality to
+On the other hand, if we strengthen the [[triangle inequality]] to
 $$ max(d(x,y), d(y,z)) \geq d(x,z) ,$$
 then we get __ultrametric spaces__, a more restricted concept.  (This include for example $p$-[[adic completion]]s of [[number fields]].)  Extended quasipseudoultrametric spaces can also be called __Lawvere ultrametric spaces__.
 
@@ -54,7 +65,7 @@ Imposing the symmetry axiom then gives us enriched $\dagger$-[[dagger category|c
 
 ## Motivation for the axioms 
 
-The triangle axiom is the fundamental idea behind a metric space; it goes back (at least) to Euclid and captures the idea that we are discussing the *shortest* distance between two points.  Given the triangle inequality, we have the polygon inequality
+The [[triangle inequality|triangle axiom]] is the fundamental idea behind a metric space; it goes back (at least) to Euclid and captures the idea that we are discussing the *shortest* distance between two points.  Given the triangle inequality, we have the polygon inequality
 $$ d(x_0,x_1) + \cdots + d(x_{n-1},x_n) \geq d(x_0,x_n) $$
 for all $n \gt 0$; the point inequality extends this to $n = 0$.
 
