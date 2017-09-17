@@ -195,6 +195,17 @@ another...
 =--
 =--
 
++--{: .clickDown tabindex="0"}
+### Spoilers! {: .clickToReveal}
++--{: .clickToHide tabindex="0"}
+### Spoilers!
+Of course, this will show up in the "show source" --- that is, your browser will know it, but you still have to *ask* for that explicitly.
+Dont mind me, I'm just goofin'
+=--
++--{: .hide .query}
+Explain the difference between hide and click-to-hide?
+=--
+=--
 
 ***
 
