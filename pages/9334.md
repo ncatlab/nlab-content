@@ -145,9 +145,46 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Let $\mathcal{C}$ be a [[1-category]], for simplicity. 
+Then a [[morphism]] 
+
+$$
+  (A_1,B_1,N_1) \to $(A_2,B_2,N_2)$ 
+$$
+
+in $BMod(\mathcal{C})$ is a pair $\phi_1 \colon A_1 \to A_1$, $\rho \colon B_1 \to B_2$ of algebra homomorphisms and a morphism $\kappa \colon N_1 \to N_2$ which is "linear in both $A$ and $B$" or "is an [[intertwiner]]" with respect to $\phi$ and $\rho$ in that for all $a \in A$, $b \in B$ and $n \in N$ we have 
+
+$$
+  \kappa(a \cdot n \cdot b) = \phi(a) \cdot \kappa(n)    
+  \,.
+$$
+
+It is natural to depict this by the square diagram
+
+$$
+  \array{
+    A_1 &\stackrel{N_1}{\to}& B_1
+    \\
+    {}^{\mathllap{\phi}}\Downarrow^{\kappa} && \downarrow^{\mathrlap{\rho}}
+    \\
+    A_1 &\underset{N_2}{\to}&
+  }
+  \,.
+$$
+
+This notation is naturally suggestive of the existence of the further [[horizontal composition]] by [[tensor product of (∞,1)-modules]], which we come to [below](#TensorProductOfBimodules).
+
+On the other hand, a morphism $N_1 \to N_2$ in ${}_A BMod(\mathcal{C})_B$ is given by the special case of the above for $\phi = id$ and $\rho = id$.
+
+
+=--
 
 
 ### Tensor products of $(\infty,1)$-Bimodules
+ {#TensorProductOfBimodules}
 
 
 +-- {: .num_defn #NotationForTensS}
