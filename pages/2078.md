@@ -1,11 +1,11 @@
-Peter Johnstone works in [[topos theory]].
+__Peter T. Johnstone__ is a Professor of Mathematics at the University of Cambridge and works in [[topos theory]].
 
 
 ## Books
 
 *  _Topos Theory_, 1977.
 *  _[[Stone Spaces]]_, 1982.
-*  The _[[Elephant]]_, 2002.
+*  _[[Elephant|Sketches of an elephant: a topos theory compendium]]_, Oxford University Press 2002.
 
 
 ## External links
@@ -14,3 +14,6 @@ Peter Johnstone works in [[topos theory]].
 
 
 category: people
+
+[[!redirects P. Johntsone]]
+[[!redirects P. T. Johnstone]]
