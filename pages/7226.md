@@ -1,4 +1,7 @@
-__ICM__ is the abbreviation for the __International Congress of Mathematicians__, which takes place once per 4 years. The proceedings of ICM-s up to 2006 are free online at
+__ICM__ is the abbreviation for the __International Congress of Mathematicians__, which takes place once per 4 years. It is organized by
+International Mathematical Union ([[IMU]]). 
+
+The proceedings of ICM-s up to 2006 are free online at
 
 * [ICM archive](http://www.mathunion.org/ICM)
 
