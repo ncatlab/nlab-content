@@ -22,6 +22,9 @@ The generalization of [[symplectic reduction]] from [[symplectic manifolds]] to 
 
 * [[gauge reduction]], [[symplectic reduction]], [[presymplectic reduction]], [[BV-BRST formalism]]
 
+[[!include symplectic reduction - table]]
+
+
 ## References
 
 * Juan-Pablo Ortega, Tudor S. Ratiu, _Poisson reduction_ ([arXiv:math/0508635](http://arxiv.org/abs/math/0508635))
