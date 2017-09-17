@@ -1,0 +1,100 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Gravity
++-- {: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a point in 4-dimensional [[Minkowski spacetime]], its _celestial sphere_ is the  space of lines in its [[light cone]], hence the [[projective space]] of its [[light cone]].
+
+## Properties
+
+### Spinorial coordinates
+
+By the [exceptional spin isomorphism](spin+group#ExceptionalIsomorphisms) 
+
+$$
+  Spin(3,1) \simeq SL(2,\mathbb{C})
+$$
+
+one may identify points $(x^i) = (x^0, x^1, x^2, x^3)$ in [[Minkowski spacetime]] with [[Hermitean matrices]]
+
+$$
+  \left(x^{\alpha \beta}\right)
+  \coloneqq
+  (x^i \gamma_i^{\alpha \beta})
+  =
+  \tfrac{1}{\sqrt{2}}
+  \left(
+    \array{
+       x^0 + x^3 & x^1 + i x^2
+       \\
+       x^1 - i x^2 & x^0 - x^3
+    }
+  \right)
+$$
+
+(where $\gamma_i$ denote the generators of the [[Clifford algebra]] given by the [[Pauli matrices]]). This is such that the [[Lorentz metric]] [[norm]] is just the [[determinant]] of this [[matrix]]
+
+$$
+  \Vert \left(x^i\right) \Vert 
+   = 
+   2 det\left(\left(x^{\alpha \beta} \right)\right)
+  \,.
+$$
+
+From this one finds that $\left(x^i\right)$ is [[lightlike]] precisely if there is a [[spinor]] $\kappa$, hence a pair of [[complex numbers]] $\xi, \eta \in \mathbb{C}$ 
+
+$$
+  \left(\kappa^a\right) = 
+  \left(
+    \array{
+      \xi
+      \\
+      \eta
+    }
+  \right)
+  \,,
+$$
+
+such that
+
+$$
+  x^{\alpha \beta} = \kappa^\alpha \overline{\kappa}^{\beta}
+  \,.
+$$
+
+Therefore the celestial sphere is equivalently the space of such pairs of complex numbers, modulo rescaling $\kappa \mapsto c \kappa$ for $0 \neq c \in \mathbb{C}$. This identifies the celestial sphere with the [[complex projective space]] 
+
+$$
+  CelestialSphere \simeq \mathbb{C}P^1
+  \,,
+$$
+
+the [[Riemann sphere]].
+
+
+## Related concepts
+
+* [[twistor space]]
+
+[[!redirects celestial spheres]]
