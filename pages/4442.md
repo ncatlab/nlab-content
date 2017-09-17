@@ -26,6 +26,7 @@ the conjectural Ads/CFT correspondence asserts an identification of the [[state]
 ## Examples
 
 ### $AdS_5 / CFT_4$ -- Horizon limit of D3-branes
+ {#AdS5CFT4}
 
 [[type II string theory]] on 5d [[anti de Sitter spacetime]] (times a 5-sphere) is dual to [[N=4 D=4 super Yang-Mills theory]] on the [[worldvolume]] of a [[D3-brane]] at the asymptotic boundary
 
