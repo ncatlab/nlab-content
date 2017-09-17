@@ -50,6 +50,8 @@ The [[formal Brauer group]] is
 
 ([Artin 74](#Artin74)), see also ([Artin-Mazur 77, p. 5 (of 46)](#ArtinMazur77))
 
+[[!include moduli of higher lines -- table]]
+
 ## Related concepts
 
 * [[formal Brauer group]]
