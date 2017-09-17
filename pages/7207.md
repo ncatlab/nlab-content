@@ -1,4 +1,8 @@
 
+## Related concepts
+
+* [[form of an algebraic group]]
+
 
 ## References
 
