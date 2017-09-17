@@ -153,7 +153,7 @@ _Mathematical theory of Feynman path integrals. An introduction_ ([ZMATH](href="
 
 * [[Pierre Cartier]], [[Cecile DeWitt-Morette]], _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
 ormat=complete))
-
+* [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
 * [[Edward Witten]], _A new look at the path integral of quantum mechanics_, ([arxiv/1009.6032](http://arxiv.org/abs/1009.6032))
 
 Lecture notes on [[quantum field theory]], emphasizing mathematics of the Euclidean path integrals and the relation to statistical physics are at
