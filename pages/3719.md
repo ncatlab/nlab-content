@@ -143,7 +143,7 @@ $R$[[Mod]]
 
 ### 2.2 Projective resolutions
 
-[[projective object]] ([[cofibrant object]])
+[[projective module]] ([[cofibrant object]] in the [[model structure on chain complexes]])
 
 **Definition 2.2.4**  [[projective resolution]] ([[cofibrant replacement]])
 
@@ -151,7 +151,7 @@ $R$[[Mod]]
 
 ### 2.3 Injective resolutions
 
-[[injective object]]
+[[injective module]] ([[fibrant object]] in the other [[model structure on chain complexes]])
 
 **Baer's criterion 2.3.1** [[Baer's criterion]]
 
