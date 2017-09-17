@@ -153,7 +153,7 @@ a bifibration satisfying the Chevalley condition in the above sense.
 
 According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is crucial for establishing the connection between the descent in the sense of fibered categories and the [[monadic descent]].
 
-### Examples
+#### Examples
 
 * The [[codomain fibration]] of any [[category]] with [[pullbacks]] is a bifibration, and satisfies the Beck--Chevalley condition at every pullback square.
 
