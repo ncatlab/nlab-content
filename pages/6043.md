@@ -16,7 +16,7 @@ such that for all $\lambda \in k$, $v,w \in V$ we have
 
 1.  ${\vert \lambda v \vert} = {\vert \lambda\vert} {\vert v \vert}$  
 
-1.  ${\vert v + m\vert } \leq {\vert v \vert |} + {\vert w \vert|}$ ("triangle inequality")
+1.  ${\vert v + m\vert } \leq {\vert v \vert } + {\vert w \vert}$ ("triangle inequality")
 
 1.  if ${\vert v\vert} = 0$ then $v = 0$.
 
