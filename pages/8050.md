@@ -20,15 +20,23 @@ The definitions depend on the context.
 
 In a traditional [[measure space]], we have an abstract [[set]] $X$, a $\sigma$-[[sigma-algebra|algebra]] (or similar structure) $\mathcal{M}$ consisting of the [[measurable subsets]] of $X$, and a [[measure]] $\mu$ mapping each measurable set $A$ to a [[real number]] (or similar quantity) $\mu(A)$, the measure of $A$.
 
-A measurable subset $B$ of $X$ is __full__ if, given any measurable set $A$, $\mu(B \cap A) = \mu(A)$; an arbitrary subset of $X$ is __full__ if it\'s a [[superset]] of a full measurable set.  [[de Morgan duality|Dually]], a measurable set $B$ is __null__ if, given any measurable set $A$, $\mu(B \cup A) = \mu(A)$; an arbitrary subset of $X$ is __null__ if it\'s a [[subset]] of a null measurable set.
+A measurable subset $B$ of $X$ is __full__ if, given any measurable set $A$, $\mu(A \cap B) = \mu(A)$; an arbitrary subset of $X$ is __full__ if it\'s a [[superset]] of a full measurable set.  [[de Morgan duality|Dually]], a measurable set $B$ is __null__ if, given any measurable set $A$, $\mu(A \cup B) = \mu(A)$; an arbitrary subset of $X$ is __null__ if it\'s a [[subset]] of a null measurable set.
 
 Some equivalent characterisations ([[constructive mathematics|constructively]] valid for measures on [[Cheng spaces]] except as stated):
 *  A measurable set $B$ is null iff $\mu(C) = 0$ for every measurable subset of $B$.
 *  If $\mu$ is a [[positive measure]], then a measurable set $B$ is null iff $\mu(B) = 0$.
 *  If $\mu$ is a [[finite measure]] with total measure $I$, then a measurable set $B$ is full iff $\mu(C) = I$ for every measurable superset of $B$.
 *  If $\mu$ is both positive and finite (so a [[probability measure]] up to rescaling), then a measurable set $B$ is full iff $\mu(B) = I$.
-*  A set is null iff its complement is full.
-*  Using [[excluded middle]], a set is full iff its complement is null; constructively, only the 'only if' half holds.
+*  Using [[excluded middle]], a set is null iff its complement is full, and a set is full iff its complement is null.  (Even constructively, if a set is null, then its complement is full.)
+*  Even constructively, a measurable set is null iff its measurable complement (the complement in the algebraic structure of complemented pairs in a Cheng measurable space) is full, and a measurable set is full iff its measurable complement is null.
+
+
+## In untraditional measurable spaces
+
+...
+
+
+## In topological manifolds
 
 ...
 
