@@ -1,0 +1,17 @@
+
+
+## Related concepts
+
+* [[complex cobordism spectrum]]
+
+* [[algebraic K-theory]]
+
+* [[Snaith's theorem]]
+
+## References
+
+* [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  2008 ([arXiv:0712.2817](http://arxiv.org/abs/0712.2817))
+ {#GepnerSnaith08}
+
+
+[[!redirects complex cobordism cohomology theory]]
