@@ -585,7 +585,15 @@ higher versions
 
 * [[module category]]
 
+* [[duoidal category]], [[bimonoidal category]]
+
+* [[braided monoidal category]], [[symmetric monoidal category]]
+
 * [[Hopf monoidal category]]
+
+* [[monoidal (infinity,1)-category]]
+
+* [[monoidal 2-category]]
 
 ## References
 
