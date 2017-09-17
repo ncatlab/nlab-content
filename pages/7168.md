@@ -1,17 +1,18 @@
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
 ## Definition
 
-For $V$ a [[vector space]] or $k$-[[module]], a _quadric form_ on $V$ is a map
+For $V$ a [[vector space]] or $k$-[[module]], a _quadratic form_ on $V$ is a map
 
 $$
-  q : V \to k
+  q\colon V \to k
 $$
 
-such that there is a [[bilinear form]] $\langle -,- \rangle : V \otimes V \to k$ with $q(v) = \langle v,v\rangle$.
+such that there is a [[bilinear form]] $\langle -,- \rangle\colon V \otimes V \to k$ with $q(v) = \langle v,v\rangle$.
+
 
 ## Quadratic refinement
 
@@ -23,7 +24,7 @@ $$
   \,.
 $$
 
-A function $q' : V \to k$ (not necessarily bilinear) for which this equation holds _without_ the factor of 2, 
+A function $q'\colon V \to k$ (not necessarily bilinear) for which this equation holds _without_ the factor of 2, 
 
 $$
   \langle v,w\rangle = 
@@ -32,6 +33,7 @@ $$
 $$
 
 then $q'$ is called a **quadratic refinement** of $\langle -,-\rangle$. This is nontrivial when 2 is not invertible in $k$.
+
 
 ## References
 
@@ -43,6 +45,8 @@ Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerfu
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
+
+[[!redirects quadratic form]]
 [[!redirects quadratic forms]]
 
 [[!redirects quadratic refinement]]
