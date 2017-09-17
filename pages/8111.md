@@ -26,7 +26,7 @@ $$
   \mathcal{M}_{ell}(\mathbb{C})[n] \coloneqq \mathfrak{h}/\Gamma(n)
 $$
 
-of the [[upper half plane]] $\mathfrak{h}$ [[action|acted]] on by the $nth [[principal congruence subgroup]] $\Gamma(n)\hookrightarrow SL_2(\mathbb{Z})$ of the [[special linear group]] acting by [[Möbius transformations]].
+of the [[upper half plane]] $\mathfrak{h}$ [[action|acted]] on by the $n^{th}$ [[principal congruence subgroup]] $\Gamma(n)\hookrightarrow SL_2(\mathbb{Z})$ of the [[special linear group]] acting by [[Möbius transformations]].
 
 This has a [[compactification]] 
 
