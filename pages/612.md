@@ -4,73 +4,59 @@
 
 * [website](http://www.math.harvard.edu/~lurie/)
 
+#Contents#
+* table of contents
+{:toc}
 
-#References (partly) indexed on the $n$Lab#
 
-## Books
+## References (partly) indexed on the $n$Lab ##
+
+
+
+### Higher category theory
+
+*  _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf), [arXiv](http://arxiv.org/abs/0905.0462))
+
+   on [[(∞,1)-category|(∞,1)-categories]] of [[(∞,n)-category|(∞,n)-categories]], specifically on [[internal (∞,1)-categories]], and on [[Goodwillie calculus]]
+
+
+  on [[higher category theory]], [[internal (∞,1)-categories]]
+
+* [[On the Classification of Topological Field Theories]] ([arXiv](http://arxiv.org/abs/0905.0465))
+
+  on [[FQFT|functorial]] [[extended topological quantum field theory|extended]] [[TQFT|topological]] [[quantum field theory]] classified via the [[cobordism theorem]] by [[symmetric monoidal (∞,n)-categories]]
+
+
+### Higher topos theory
 
 * _[[Higher Topos Theory]]_ ([arXiv](http://arxiv.org/abs/math.CT/0608040), [published version](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf))
 
   on [[(∞,1)-category theory]] and [[higher topos theory]]
 
+
+
+### Higher algebra
+
 * _[[Higher Algebra]]_
 
   on [[higher algebra]]
 
-## Articles
-
-* [[(∞,2)-category|(∞,2)-categories]] ([arXiv](http://arxiv.org/abs/0905.0462))
-
-  on [[higher category theory]]
+subsuming
 
 * [[Stable ∞-Categories]] ([arXiv](http://arxiv.org/abs/math/0608228))
 
   on [[stable (∞,1)-categories]] [[stable homotopy theory]] and [[homological algebra]]
 
-* [[Structured Spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
-
-  * on [[structured (∞,1)-topos]]es and [[generalized scheme]]s
-
-* [[On the Classification of Topological Field Theories]] ([arXiv](http://arxiv.org/abs/0905.0465))
-
-  on [[FQFT|functorial]] [[extended topological quantum field theory|extended]] [[TQFT|topological]] [[quantum field theory]]
-
-* [[A Survey of Elliptic Cohomology]] ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
-
-  on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
-
-* _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
-
-   on [[(∞,1)-category|(∞,1)-categories]] of [[(∞,n)-category|(∞,n)-categories]] and [[Goodwillie calculus]]
-
-* _[[Tannaka duality for geometric stacks]]_
-
-* PhD thesis, _derived algebraic geometry_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf))
-
-  on [[derived algebraic geometry]]
-
-  all the material in there should now be, in more complete and more coherent form, in the articles above. But some papers will cite page and verse in the PhD thesis, so it is useful to have that as a reference, too.
-
-* undergraduate thesis, _On simply laced Lie algebras and their minuscule representations_ ([pdf](http://www.math.harvard.edu/~lurie/papers/thesis.pdf))
-
-* _[[Moduli Problems and DG-Lie Algebras]]_  
-
-  on [[∞-Lie algebra]]s as formal neighbourhoods of point in [[∞-stack]]s.
-
-
-The following articles have mostly been subsumed and expanded in the book [[Higher Algebra]]
-
 * [[higher algebra|Noncommutative Algebra]] ([arXiv](http://arxiv.org/abs/math/0702299))
 
   and
 
-  [[higher algebra|Commutative Algebra]] ([arXiv](http://arxiv.org/abs/math/0703204))
+  [[higher algebra|Commutative Algebra]] ([arXiv](http://arxiv.org/abs/math/0703204), [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf))
 
-  on [[higher algebra]]
 
-  **alert**: the new version is now [here](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf)
+* _$\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
-  the new version differs from the previous one by embedding the theory of [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]] into a theory of [[(∞,1)-operad]]s.
+  on [[little cubes operad]]
 
 
 * [[Deformation Theory]] ([arXiv](http://arxiv.org/abs/0709.3091))
@@ -79,18 +65,58 @@ The following articles have mostly been subsumed and expanded in the book [[High
   and their generalization from the ordinary context of [[algebra]] to that of [[higher algebra]].
 
 
-* _$\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
+* _[[Moduli Problems and DG-Lie Algebras]]_  
 
-  on little cubes [[(∞,1)-operad]]s
+  on [[∞-Lie algebra]]s as formal neighbourhoods of point in [[∞-stack]]s.
 
-* [[Spectral Schemes]]
 
-  on the [[derived geometry]] of [[scheme]]s over [[E-infinity ring]]s.
 
-* [[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]
 
-  on [[quasi-coherent sheaves]] over [[Spectral Schemes]] and
-  [[Tannaka duality for geometric stacks]] in this context
+
+### Higher geometry
+
+The foundations of [[higher geometry]]:
+
+* [[Structured Spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
+
+  * on [[structured (∞,1)-topos]]es and [[generalized schemes]]
+
+
+Survey on the general program
+
+* PhD thesis, _derived algebraic geometry_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf))
+
+  on [[derived algebraic geometry]]
+
+
+The basic definitions of [[E-∞ geometry]] (spectral geometry) are in
+
+* [[Jacob Lurie]], _[[Spectral Schemes]]_
+ {#Lurie}
+
+Fundamental properties of $E_\infty$-geometry are discussed in
+
+* [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
+* [[Jacob Lurie]], _[[Closed Immersions]]_
+
+* [[Jacob Lurie]], _[[Descent Theorems]]_
+
+* [[Jacob Lurie]], _[[Proper Morphisms, Completions,
+and the Grothendieck Existence Theorem]]_
+
+* [[Jacob Lurie]], _[[Representability Theorems]]_
+
+Application to [[moduli stack of elliptic curves]]:
+
+* [[A Survey of Elliptic Cohomology]] ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
+
+  on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
+
+
+
+
+
 
 category: people
 
