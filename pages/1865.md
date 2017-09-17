@@ -162,13 +162,13 @@ see
 
 An early sketch of a definition is in 
 
-* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
+* [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
 
-* [[Dan Freed]], [[Mike Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP (2000) 44, 14 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
+* [[Daniel Freed]], [[Mike Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP (2000) 44, 14 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
 For more historical remarks see section 1.6 of 
 
-* [[Dan Freed]], [[John Lott]], _An index theorem in differential K-theory_, Geometry and Topology 14 (2010) ([pdf](http://math.berkeley.edu/~lott/gt-2010-14-021p.pdf))
+* {#FreedLott10} [[Daniel Freed]], [[John Lott]], _An index theorem in differential K-theory_, Geometry and Topology 14 (2010) ([pdf](http://math.berkeley.edu/~lott/gt-2010-14-021p.pdf))
 
 ### General
 
@@ -227,7 +227,7 @@ Relation to [[index theory]]:
 
 * Kevin Klonoff, _An Index Theorem in Differential K-Theory_ PdD thesis (2008) ([pdf](http://www.lib.utexas.edu/etd/d/2008/klonoffk16802/klonoffk16802.pdf))
 
-* [[Dan Freed]], [[John Lott]], _An index theorem in differential K-theory_, Geometry and Topology 14 (2010) ([pdf](http://math.berkeley.edu/~lott/gt-2010-14-021p.pdf))
+* [[Daniel Freed]], [[John Lott]], _An index theorem in differential K-theory_, Geometry and Topology 14 (2010) ([pdf](http://math.berkeley.edu/~lott/gt-2010-14-021p.pdf))
 
 See also the references at _[[fiber integration in differential K-theory]]_.
 
@@ -235,7 +235,7 @@ See also the references at _[[fiber integration in differential K-theory]]_.
 
 A survey of the role of differential $K$-theory in [[quantum field theory]] and [[string theory]] is in 
 
-* [[Dan Freed]], _K-Theory in Quantum Field Theory_, Current developments in Mathematics (2001) International Press Somerville ([arXiv:math-ph/0206031](http://arxiv.org/abs/math-ph/0206031))
+* [[Daniel Freed]], _K-Theory in Quantum Field Theory_, Current developments in Mathematics (2001) International Press Somerville ([arXiv:math-ph/0206031](http://arxiv.org/abs/math-ph/0206031))
 
 The operation of [[T-duality]] on [[twisted differential K-theory]] is discussed in
 
