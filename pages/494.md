@@ -201,13 +201,13 @@ $$
 Now, every functor $L : C \to D$ induces a [[profunctor]]
 
 $$
-  k_f(X,Y) = Hom_D(f(X), Y)
+  k_L(X,Y) = Hom_D(L(X), Y)
 $$
 
 and every functor $R : D \to C$ induces a [[profunctor]]
 
 $$
-  k_g(X,Y) = Hom_C(X, R(Y))
+  k_R(X,Y) = Hom_C(X, R(Y))
   \,.
 $$
 
