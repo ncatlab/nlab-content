@@ -72,7 +72,7 @@ The last example is not predicative, and this is in part *why* one studies forma
 
 ## References
 
-*  Fourman and Grayson (1982); _Formal Spaces_.  This is the original development, intended as an application of locale theory to logic.
+*  [[Mike Fourman]] and Grayson (1982); _Formal Spaces_.  This is the original development, intended as an application of locale theory to logic.
 
 *  [[Giovanni Sambin]] (1987); _Intuitionistic formal spaces_; [pdf](http://www.math.unipd.it/~sambin/txt/ifs87-97.pdf).
    *  This is the probably the main reference on the subject.
