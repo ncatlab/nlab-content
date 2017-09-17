@@ -1,6 +1,6 @@
 ## Idea
 
-Pretopos completion sends every [[logical category]] into a pretopos, called its pretopos completion; the operation is idempotent. 
+Pretopos completion sends every [[coherent category]] into a pretopos, called its pretopos completion; the operation is idempotent. 
 [[pretopos|Pretoposes]] form a full reflective sub-2-category of the 2-category of [[k-ary site|finitary site]]s.
 
 According to the observation of [[Mihály Makkai]] from around 1980, the pretopos completion of the syntatic category of a first-order theory, corresponds to the operation $T\mapsto T^{eq}$ invented by [[Saharon Shelah]]. $T^{eq}$ is a universal extension of $T$ which admits [[elimination of imaginaries]]. 
