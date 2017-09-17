@@ -141,7 +141,26 @@ $$
   \,.
 $$
 
-In the special case that the $G$-[[∞-action]] on $V$ is trivial, this reduces to $\mathbf{H}(\mathbf{B}G, V)$...
++-- {: .num_prop #GroupCohomologyInInfinityToposForTrivialAction}
+###### Proposition
+
+In the special case that the $G$-[[∞-action]] on $V$ is trivial, the group cohomology is equivalently just the set of connected components of the [[derived hom space|hom space]]
+
+$$
+  H_{Grp}(G,V) \simeq \pi_0 \mathbf{H}(\mathbf{B}G, V)
+  \,.
+$$
+
+In particular if $V = \mathbf{B}^n A$ for $A$ an abelian group, this is
+
+$$
+  H^n_{Grp}(G,A) \coloneqq H_{Grp}(G,\mathbf{B}^n A)
+  \simeq
+  \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n A)
+  \,.
+$$
+
+=--
 
 
 
@@ -248,11 +267,44 @@ The fully general definition [above](#InHomotopyTypeTheory) subsumes various cas
 ### Simplicial constructions and explicit formulas in low degree
  {#InLowDegree}
 
+We unwind the general abstract definition of group cohomology 
+[above](#InHomotopyTypeTheory) in terms of constructions on [[simplicial sets]] (for cohomology of [[discrete groups]]) and [[simplicial presheaves]] (for cohomology of general [[group objects]]).
 
-For $G$ a [[discrete group]], its group cohomology is defined in [[Disc∞Grpd]] which is [[presentable (∞,1)-category|presented]] by the standard [[model structure on simplicial sets]], $Disc\infty Grpd \simeq L_{whe} sSet$.
+$\,$
 
-A [[cofibrant object|cofibrant]] presentation of the [[delooping]] $\mathbf{B}G$ in the standard [[bar construction]]
+Let $G$ be a [[discrete group]] and $A$ an [[abelian group|abelian]] [[discrete group]], regarded as equipped with the trivial $G$-[[action]]. Let $n \in \mathbb{N}$.
 
+Write $\overline{W}G = G^{\times^\bullet}\in$ [[sSet]] for the [[nerve]] of the [[groupoid]] $*\sslash G$ and write $DK(A[n]) \in $ [[sSet]] for the [[image]] under the [[Dold-Kan correspondence]] of the [[chain complex]] which is the $n$-fold [[suspension of a chain complex]] of $A$. 
+
+
++-- {: .num_prop #DiscreteGroupCohomologyBySimplicialHomotopy}
+###### Proposition
+
+Then the degree-$n$ group cohomology of $G$ with [[coefficients]] in $A$ is the set
+
+$$
+  H^n_{Grp}(G,A) \simeq \pi_0 sSet(\overline{W}G, DK(A[n]))
+$$
+
+of [[homomorphisms]] of [[simplicial sets]] modulo [[simplicial homotopy]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{GroupCohomologyInInfinityToposForTrivialAction} the group cohomology is 
+
+$$
+  H^n_{Grp}(G,A) \simeq \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n A)
+  \,.
+$$
+
+By assumption the relevant [[(∞,1)-topos]] here is $\mathbf{H} = $ [[∞Grpd]], which for emphasis we might write "[[Disc∞Grpd]]".
+This is [[presentable (∞,1)-category|presented]] by the standard [[model structure on simplicial sets]], $Disc\infty Grpd \simeq L_{whe} sSet$.
+
+By the discussion at _[[delooping]]_ and at _[[∞-group]]_,
+a presentation in [[sSet]], necessarily [[cofibrant object|cofibrant]], of the [[delooping]] $\mathbf{B}G \in \mathbf{H}$ is the standard [[bar construction]]
 
 $$
   \overline{W}G
@@ -271,16 +323,100 @@ $$
 
 which is equivalently the [[nerve]] of the [[groupoid]] $*\sslash G$.
 
-For $A$ a discrete [[abelian group]], then the image $\Xi A[n]\in sSet$ under the [[Dold-Kan correspondence]] is a [[fibrant object|fibrant]] representative of the $n$-fold [[delooping]] $\mathbf{B}^n A$. Accordingly then (by the general discussion at _[[derived hom-space]]_), the gorup cohomology is 
+Moreover, by the discussion at _[[Dold-Kan correspondence]]_ a presentation of the [[Eilenberg-MacLane object]] $\mathbf{B}^n A$ is $DK(A[n]) \in sSet$, and this is a [[Kan complex]] and hence a [[fibrant object]] in the [[model category]] structure. 
+
+Therefore by the discussion at _[[derived hom-space]]_ we have that $sSet(\overline{W}G, DK(A[n]))$ is a [[Kan complex]] which presents the required hom-$\infty$-groupoid.
+
+=--
+
+For low values of $n$ it is useful and easily possible to describe these simplicial maps explicitly. This we turn to now.
+
+#### Degree-$1$ group cohomology 
+ {#Degree1}
+
+A degree-one group cocycle $c$, $[c] \in H^1_{Grp}(G,A)$
+is just [[group homomorphism]] $G \to A$ -- a [[character]] of $G$.
+
+#### Degree-$2$ group cohomology 
+ {#Degree2}
+
+Let $G$ be a [[discrete group]] and $A$ an [[abelian group|abelian]] [[discrete group]], regarded as being equipped with the trivial $G$-[[action]].
+
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $G$ be a [[discrete group]] and $A$ an [[abelian group|abelian]] [[discrete group]], regarded as being equipped with the trivial $G$-[[action]].
+
+Then a **group 2-[[cocycle]]** on $G$ with coefficients in $A$ is a [[function]]
 
 $$
-  H^n_{Grpd}(G,A) \simeq \pi_0 sSet(\overline{W}G, \Xi A[n])
-  \,,
+  c \colon G \times G \to A
 $$
 
-where on the right we have the set of homomorphisms of [[simplicial sets]] modulo [[simplicial homotopy]].
+such that for all $(g_1, g_2) \in G \times G$ it satisfies the [[equation]]
 
-For low values of $n$ it is useful and easily possible to describe these simplicial maps explicitly. Notice that the 2-[[simplices]] in $\overline{W}G$ are
+$$
+  c(g_1, g_2)
+  -
+  c(g_1, g_2 \cdot g_3)
+  +
+  c(g_1 \cdot g_2, g_3)
+  - 
+  c(g_2, g_3)
+  = 
+  0
+  \;\;\;\; \in A
+$$
+
+(called the _cocycle condition_). 
+
+For $c, \tilde c$ two such cocycles, a **[[coboundary]]** $h \colon c \to \tilde c$ between them is a [[function]]
+
+$$
+  h \colon G \to A
+$$
+
+such that for all $(g_1,g_2) \in G \times G$ the [[equation]]
+
+$$
+  \tilde c(g_1,g_2)
+  = 
+  c(g_1,g_2) + h(g_1 g_2) - h(g_1) - h(g_2)
+$$
+
+holds in $A$.
+
+The degree-2 **group cohomology** is the set 
+
+$$
+  H^2_{Grp}(G,A) = 2Cocycles(G,A) / Coboundaries(G,A)
+$$
+
+of [[equivalence classes]] of group 2-cocycles modulo group coboundaries. This is itself naturally an [[abelian group]] under pointwise addition of cocycles in $A$
+
+$$
+  [c_1] + [c_2] = [c_1 + c_2]
+$$
+
+where
+
+$$
+  c_1 + c_2 \colon (g_1, g_2) \mapsto c_1(g_1,g_2) + c_2(g_1, g_2)
+  \,.
+$$
+   
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{DiscreteGroupCohomologyBySimplicialHomotopy} we have $H^2_{Grp}(G,A) \simeq \pi_0 sSet(\overline{W}G, DK(A[2]))$.
+
+Notice that fully explicitly the 2-[[simplices]] in $\overline{W}G$ are
 
 $$
   (\overline{W}G)_2
@@ -335,18 +471,7 @@ $$
   \,.
 $$
 
-Using this we can explicitly describe group [[cocycles]] and [[coboundaries]] in low degree:
-
-#### Degree-$1$ group cohomology 
-
-A degree-one group cocycle $c$, $[c] \in H^1_{Grp}(G,A)$
-is just [[group homomorphism]] $G \to A$ -- a [[character]] of $G$.
-
-#### Degree-$2$ group cohomology 
-
-A degree-2 group cocycle $c$, $[c] \in H^2_{Grp}(G,K)$
-is on 2-cells a map
-
+Therefore a homomorphism of simplical sets $c \colon \overline{W}G \to DK(A[2])$ is in degree 2 a function
 
 $$
   c_2
@@ -379,7 +504,7 @@ $$
 $$
 
 
-i.e. a map $c : G \times G \to K$ such that it extends to a morphism on 3-cells:
+i.e. a map $c : G \times G \to K$. To be a simplicial homomorphism this has to extend to 3-[[simplices]] as:
 
 $$
   \begin{aligned}
@@ -422,7 +547,7 @@ $$
     &&\stackrel{{*}}{\to}&&{*}
   }
   \;\;\;\;
-  \stackrel{Id}{\Rightarrow}
+  \stackrel{}{\Rightarrow}
   \;\;\;\;   
   \array{
     {*} &&\stackrel{{*}}{\to}&& {*}
@@ -438,21 +563,11 @@ $$
   \,.
 $$
 
-Since there are no non-identity 3-morphisms in $\mathbf{B}^2 K$ (non-degenerate 3-cells in $N(\mathbf{B}^2 K)$) the 3-cell on the right is required to be the identity. Since the composition of the 2-cells on the right is their addition (group multiplication in the abelian group $K$) this says that the assignment $c_2 : G \times G \to G$ has to be such that
+Since there is a unique 3-cell in $DK(A[2])$ whenever the oriented su, of the $A$-labels of the boundary of the corresponding tetrahedron vanishes, the existence of the 3-cell on the right here is precisely the claimed cocycle condition.
 
-$$
-  c(g_1, g_2)
-  -
-  c(g_1, g_2 \cdot g_3)
-  +
-  c(g_1 \cdot g_2, g_3)
-  - 
-  c(g_2, g_3)
-  = 
-  0
-$$
+A similar argument gives the coboundaries
 
-This expresses the commutativity of the above tetrahedra. And it is indeed the ordinary formula for a cocycle in degree-2 [[group cohomology]].
+=--
 
 ### Structured group cohomology (topological groups and Lie groups)
  {#StructuredCohomology}
