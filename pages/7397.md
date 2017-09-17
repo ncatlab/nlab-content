@@ -38,7 +38,7 @@ Call a morphism of [[simplicial operads]] $f : P \to Q$
 
 * a _local fibration_ if it is componentwise a [[Kan fibration]]. 
 
-* a _fibration_ if it is a local fibration and the underlying functor $\pi_0(f)$ is an [[isofibration]].
+* a _fibration_ if it is a local fibration and the underlying [[functor]] $\pi_0(f) : Ho(j^* P) \to Ho(j^* Q)$ on the [[homotopy categories]] of the underlying [[simplicial categories]] is an [[isofibration]].
 
 =--
 
