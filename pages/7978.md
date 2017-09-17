@@ -1,5 +1,19 @@
 
-This page is going to provide a hyperlinked index for the book
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+This page provides a hyperlinked index for the book
 
 * [[Theodore Frankel]], 
 
