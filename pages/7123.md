@@ -5,7 +5,7 @@
 
 ## Idea
 
-The analytic affine line is an [[analytic space]] that is the analog of the [[affine line]] in [[analytic geometry]].
+The analytic affine line is a [[Berkovich analytic space]] that is the analog of the [[affine line]] in [[analytic geometry]].
 
 It is the [[analytic spectrum]] of the [[polynomial]] ring over the given base [[field]].
 
