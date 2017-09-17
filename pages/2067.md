@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -287,8 +292,8 @@ for all objects $a$ in $C$ the diagram
     }
   $$
 
-  of [[hom-objects in a quasi-category]] is 
-  a [[homotopy pullback]] square in [[sSet]] equipped with its [[model structure on simplicial sets|standard model structure]].
+  of [[hom-object in a quasi-category|hom-objects in a quasi-category]] is 
+  a [[homotopy pullback]] square. More preciyel in [[sSet]] equipped with its [[model structure on simplicial sets|standard model structure]].
 
 
 =--
