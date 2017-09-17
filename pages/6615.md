@@ -18,7 +18,7 @@ Formally, all uses may be combined into a single definition based on [[integrati
 $$
 (\nabla \odot T)(x) = lim_{vol D\to 0} \frac{1}{vol D} \oint_{\partial D} \vec{n} \odot T \,d S,\,\,\,\,\stackrel{\circ}{D}\ni x,
 $$
-where $D$ runs over the regions with smooth boundary $\partial{D}$ containing the point $x$ and $\vec{n}$ is the unit vector of outer normal to the surface $S$.
+where $D$ runs over the regions with smooth boundary $\partial{D}$ containing the point $x$ and $\vec{n}$ is the unit vector of outer normal to the surface $S=\partial D$.
 
 The formula does not depend (when everything in smooth) on the shape of boundaries taken in limiting process, so one can typically take a [[coordinate chart]] containing balls $D = D_r$ with decreasing radius $r \gt 0$ in this particular coordinate chart.  The formula also does not depend on [[orientation]]; $\partial{D}$ is naturally a [[pseudo-oriented submanifold|pseudo-oriented]] [[submanifold]] and so $\vec{n} \odot T \,d S$ (also written $d\vec{S} \odot T$) is a $W$-valued [[pseudoform|pseudo]]-$(n-1)$-[[differential form|form]], and we can integrate pseudoforms on pseudo-oriented submanifolds.  Perhaps most surprisingly, although it makes no sense in general to integrate $W$-valued (pseudo)forms (unless $W$ is a [[trivial bundle]]), we may simply perform the integration using any coordinate chart as if we were in the cartesian space $\mathbb{R}^n$ (where every vector bundle is trivial), and the limit is again independent of this choice.
 
