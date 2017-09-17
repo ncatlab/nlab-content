@@ -20,7 +20,7 @@
 
 ## Idea
 
-An **$E_\infty$-operad** is a [[topological operad]] that is a [[homotopy theory|homotopy theoretic]] [[resolution]] of [[Comm]], the operad for [[commutative monoid]]s: an [[algebra over an operad]] over an $E_\infty$-algebra is an [[E-∞ ring|E-∞ algebra]].
+An **$E_\infty$-operad** is a [[topological operad]] that is a [[homotopy theory|homotopy theoretic]] [[resolution]] of [[Comm]], the operad for [[commutative monoid]]s: an [[algebra over an operad]] over an $E_\infty$-operad is an [[E-∞ ring|E-∞ algebra]].
 
 ## Definition
 
