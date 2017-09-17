@@ -892,14 +892,14 @@ The classical reference is
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
-and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+and Homotopical Categories]]_, Mathematical Surveys and Monographs __113__
 
 
 An introduction is 
 
 * [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://www.uoregon.edu/~ddugger/hocolim.pdf))
 
-A general overview via universal properties is in the [[George Maltsiniotis]]' 2008 Sevilla lectures, particularly in lec. I:
+A general overview via universal properties is in the [[Georges Maltsiniotis]]' 2008 Sevilla lectures, particularly in lec. I:
 
 I, localizers, [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_I_Localizers.pdf); II, model categories,  [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_II_Model_Categories.pdf); III, derivators, [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf): IV, summary on derivators [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Summary_on_Derivators.pdf)
 
@@ -923,13 +923,13 @@ Other references are
 
 * Dwyer, Hirschhorn, Kan, Smith, _Homotopy limit functors in model categories and homotopical categories_.  Defines global homotopy limits in homotopical categories and computes them using local constructions.
 
-* Michael Shulman, _Homotopy limits and colimits and enriched homotopy theory_, [math.CT/0610194](http://arxiv.org/abs/math/0610194).  Constructs and compares local and global weighted homotopy limits in enriched homotopical categories. (a query on this paper is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=354&Focus=21275#Comment_21275))
+* [[Michael Shulman]], _Homotopy limits and colimits and enriched homotopy theory_, [math.CT/0610194](http://arxiv.org/abs/math/0610194).  Constructs and compares local and global weighted homotopy limits in enriched homotopical categories. (a query on this paper is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=354&Focus=21275#Comment_21275))
 
 * Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)  Proves that homotopy limits in a 2-category with its natural model structure coincide with 2-categorical [[strict 2-limit|pseudo-limits]], and hence give [[2-limit]]s.
 
 * [[Jacob Lurie]], [[Higher Topos Theory]].  Lots of stuff about $(\infty,1)$-categories, including the computation of homotopy limits (section 4.2.4).
 
-* Andre Hirschowitz, Carlos Simpson.  [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
+* Andre Hirschowitz, [[Carlos Simpson]], [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
 
 *MathOverflow [universal-problem-that-motivates-the-definition-of-homotopy-limits](http://mathoverflow.net/questions/38047/what-is-the-universal-problem-that-motivates-the-definition-of-homotopy-limits)
 
