@@ -5,17 +5,32 @@
 
 ## Idea
 
-The __specialisation topology__, also called the __Alexandrov topology__, is a way of turning any [[preordered set]] into a [[topological space]] (with the same [[underlying set]]).
+The __specialisation topology__, also called the __Alexandrov topology__, is a natural structure of a [[topological space]] induced on the underlying [[set]] of a  [[preordered set]].
 
-Compare the [[Scott topology]], which is coarser.
+This is similar to the [[Scott topology]], which is however coarser.
 
 
 ## Definition
 
+
++-- {: .num_defn}
+###### Definition
+
 Let $P$ be a [[preordered set]].
 
-A subset $A$ of $P$ is declared __open__ if it is upwards-closed.  That is, if $x \leq y$ and $x \in A$, then $y \in A$.  One may also use the convention that the open sets are the downwards-closed subsets; this is the specialisation topology on the [[opposite category|opposite]] $P^\op$.
+Declare subset $A$ of $P$ to be an _[[open subset]]_ if it is upwards-closed.  That is, if $x \leq y$ and $x \in A$, then $y \in A$.  
 
+This defines a [[topology]] on $P$, called the **specialization topology** or **Alexandrov topology**.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+One may also use the convention that the open sets are the downwards-closed subsets; this is the specialisation topology on the [[opposite category|opposite]] $P^\op$.
+
+=--
 
 ## Examples
 
@@ -26,13 +41,67 @@ A subset $A$ of $P$ is declared __open__ if it is upwards-closed.  That is, if $
 
 ### General
 
-Every [[finite set|finite]] [[topological space]] is an Alexandroff space.
 
-$P$ is a [[partial order|poset]] if and only if its specialisation topology is $T_0$.
++-- {: .num_prop}
+###### Proposition
 
-A function between preorders is order-preserving if and only if it is continuous with respect to the specialisation topology.  Thus, the specialization topology embeds the category $\Pros$ of preordered sets [[full subcategory|fully-faithfully]] in the category $\Top$ of topological spaces.  Its essential image can be characterized as the category of __Alexandrov spaces__ (spaces where an arbitrary [[intersection]] of [[open subsets]] is open).  The corresponding preorder can be recovered from an Alexandrov space as its [[specialization order]].
+Every [[finite set|finite]] [[topological space]] is an Alexandrov space.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A [[preorder]] $P$ is a [[partial order|poset]] if and only if its specialisation topology is $T_0$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A [[function]] between preorders is order-preserving if and only if it is a [[continuous map]] with respect to the specialisation topology.  
+
+=--
+
+### Alexandrov spaces
+
++-- {: .num_defn}
+###### Definition
+
+An **Alexandrov space** is a [[topological space]] for which arbitrary (as opposed to just finite) [[intersection]]s of [[open subsets]] are still open.
+
+Write 
+
+$$
+  AlexTop \hookrightarrow Top
+$$
+
+for the [[full subcategory]] of [[Top]] on the Alexandrov spaces.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every Alexandrov space is obtained by equipping its [[specialization order]] with the Alexandrov topology.
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+The specialization topology embeds the category $\Pros$ of preordered sets [[full subcategory|fully-faithfully]] in the category [[Top]] of topological spaces.  
+
+$$
+  Proset \hookrightarrow Top
+  \,.
+$$
 
 If we restrict to a [[finite set|finite]] underlying set, then the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces are [[equivalence of categories|equivalent]] in this way.
+
+
+=--
+
 
 ### Alexandrov locales
 
