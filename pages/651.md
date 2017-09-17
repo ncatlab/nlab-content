@@ -92,6 +92,11 @@ See also the unpublished thesis of Andreas Cap:
 * Andres Cap: _K-theory for convenient algebras_ ([univie](http://www.mat.univie.ac.at/~michor/cap_diss.pdf))
 
 
+Discussion in the context of applications to [[continuum mechanics]] is in 
+
+* [[William Lawvere]], [[Stephen Shanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
+
+
 [[!redirects Frölicher spaces]]
 [[!redirects Frolicher space]]
 [[!redirects Frolicher spaces]]
