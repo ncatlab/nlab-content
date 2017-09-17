@@ -30,8 +30,8 @@ $$Hom(X,V) \to Hom(X,A)$$
 is fully faithful, and its [[replete image]] consists precisely of those morphisms $u\colon X\to A$ such that $\alpha u=\beta u$.  If the above functor is additionally an *isomorphism* of categories onto the exact subcategory of such $u$, then we say that $V\xrightarrow{v} A$ is a **strict equifier**.
 
 Equifiers and strict equifiers can be described as a certain sort of [[weighted limit|weighted]] 2-limit, where the diagram shape is the [[walking structure|walking]] parallel pair of 2-morphisms $P$, and the weight $P\to Cat$ is the diagram
-$$\array{ & \to \\ 1 & \Downarrow\Downarrow & Ppr\\ & \to } $$
-where $1$ is the [[terminal category]] and $Ppr$ is the walking [[parallel pair]] of arrows.  Note that this cannot be re-expressed as any sort of [[conical limit|conical]] 2-limit.
+$$\array{ & \to \\ 1 & \Downarrow\Downarrow & I\\ & \to } $$
+where $1$ is the [[terminal category]] and $I$ is the [[interval category]].  Note that this cannot be re-expressed as any sort of [[conical limit|conical]] 2-limit.
 
 An equifier in $K^{op}$ (see [[opposite 2-category]]) is called a **coequifier** in $K$.
 
