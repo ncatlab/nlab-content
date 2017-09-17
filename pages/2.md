@@ -11,9 +11,9 @@
 
 * [[Community]]
 
-  * [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/)
+  * [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)
 
-    * [Latest Changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+    * [Latest Changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
   * [[HowTo|HowTo]]
   * [[FAQ|FAQ]]
   * [[Contributors]]
