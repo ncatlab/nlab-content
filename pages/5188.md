@@ -29,7 +29,7 @@ For $G$ a [[discrete group]], write $V^G$ for the category of objects of $V$ equ
 +-- {: .num_defn}
 ###### Definition
 
-The category of **collections** ([Berger-Moerdijk](#BergerMoerdijk)) or **$\mathbb{S}$-modules** ([Getzler-Kapranov](#GetzlerKapranov)) of $V$ is
+The category of **collections** ([Berger-Moerdijk](#BergerMoerdijk)) or **$\mathbb{S}$-modules** ([Getzler-Kapranov](#GetzlerKapranov)) of $V$, or the category of $V$-[[species]], is
 
 $$
   V Coll := \prod_{n \in \mathbb{N}} V^{S_n}
