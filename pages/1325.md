@@ -9,7 +9,7 @@
 
 ## Idea
 
-An [[operad]] is a structure that encodes lots of _operations_ . An **algebra over an operad** is a structure on which all these operations have an [[action]].
+An [[operad]] is a structure whose elements are _formal operations_, closed under the operation of plugging some formal operations into others. An **algebra over an operad** is a structure in which the formal operations are interpreted as actual operations on an object, via a suitable [[action]].
 
 ## Definition 
 
