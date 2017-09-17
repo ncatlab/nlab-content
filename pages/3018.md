@@ -69,7 +69,7 @@ $$\varepsilon: F U \to 1 \qquad \eta: 1 \to U F$$
 
 ## Formalization {#Defn}
 
-Let $F\colon A\times B^{op}\times B \to D$ and $G\colon A\times C^{op}\times C\to D$ be functors.  A family of morphisms
+Let $F\colon A\times B\times B^{op} \to D$ and $G\colon A\times C\times C^{op}\to D$ be functors.  A family of morphisms
 $$ \alpha_{a,b,c}\colon F(a,b,b) \to G(a,c,c) $$
 for $a\in A$, $b\in B$, and $c\in C$ is said to be **natural**, or more precisely *ordinary-natural in $a$ and extranatural in $b$ and $c$*, if the following hold.
 
