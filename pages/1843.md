@@ -106,6 +106,7 @@ In fact, in full generality the Kalb-Ramond field on an [[orientifold]] backgrou
 
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795))
 
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
 
 [[!redirects Kalb--Ramond field]]
 [[!redirects Kalb–Ramond field]]
