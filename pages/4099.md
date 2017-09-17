@@ -1,13 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### 2-category theory
-+--{: .hide}
++-- {: .hide}
 [[!include 2-category theory - contents]]
 =--
 =--
 =--
+
+# Discrete morphisms
+* table of contents
+{: toc}
 
 ## Definition
 
@@ -17,19 +21,22 @@ is [[faithful functor|faithful]] and [[conservative functor|conservative]].
 
 An object $A$ is called a **discrete object** if for any $X$, the category $K(X,A)$ is ([[equivalence of categories|equivalent to]]) a [[discrete category]], i.e. a [[set]].  If $K$ has a ([[2-limit|2-]])[[terminal object]] $1$, this is equivalent to saying that the unique map $A\to 1$ is a discrete morphism.
 
+
 ### Caveat
 
 **NB:** it is more common to define these concepts in the other order: to first define an object to be discrete, as we have done, and then say that $f\colon A\to B$ is a discrete morphism if is a discrete object in the [[slice 2-category]] $K/B$.  In general this does *not* result in the same notion of "discrete morphism" as the definition we have given.  For instance, if $B$ is the [[interval category]] $(0\to 1)$ and $A$ is the free [[parallel pair]] $(0 \rightrightarrows 1)$, then the obvious functor $A\to B$ is a discrete object of $Cat/B$, but is not faithful.
 
 However, the two definitions do coincide for [[fibration in a 2-category|fibrations]], opfibrations, and [[two-sided fibration]]s.  That is, if $f\colon A\to B$ is a fibration or an opfibration in $B$, then it is faithful and conservative if and only if it is a discrete object of $K/B$, and similarly if $A\leftarrow E \to B$ is a two-sided fibration, then $E\to A\times B$ is faithful and conservative if and only if it is a discrete object of $K/(A\times B)$.  Since this is usually the case of most interest (giving rise to [[discrete fibrations]] and, dually, [[codiscrete cofibrations]]), the difference between the two definitions is usually unimportant.
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman]]: I believe that in cases when the two are different, it is the one given above (faithful and conservative) that is often the better one; hence my proposal in writing this page to change terminology slightly.  Disagreements are welcome.
 =--
+
 
 ## Factorization systems and discrete reflections
 
 Discrete morphisms are often the right class of a [[factorization system in a 2-category|factorization system]].  This factorization system, or one related to it, plays a role in the construction of a [[proarrow equipment]] from [[codiscrete cofibrations]].
 
-[[!redirects discrete morphisms]]
 
+[[!redirects discrete morphism]]
+[[!redirects discrete morphisms]]
