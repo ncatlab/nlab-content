@@ -1,7 +1,7 @@
 
 _Rod McGuire_
 
-xxxx
+xxxx < xxxx
 
 math test: $A=B$. 
 
@@ -9,11 +9,17 @@ Start DIV test:
 
 <div class="XE" json="json stuff" tex="tex stuff">math $A=B$ here</div>
 
-end DIV test. Div test with markdown="1"
+end DIV test.
 
-<div class="XE" json="json stuff" tex="tex stuff" markdown="1">math $A=B$ here</div>
+Div test with markdown="1" and an ending marked span in the kludge version.
+
+<div class="DbE" json="json stuff" markdown="1">math $A=B$ here<span class="DB_end"/></div>
 
 end div test.
+
+Div test with markdown="1" and an without the ending kludge marked span.
+
+<div class="DbE" json="json stuff" markdown="1">math $A=B$ here</div>
 
 another math test: $A=B$.
 
@@ -31,13 +37,8 @@ stating SVG test
  </g>
 </svg>
 
+zz
+
 Ending svg test
-
-
-
-
-
-
-
 
 category: people
