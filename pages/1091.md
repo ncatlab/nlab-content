@@ -159,6 +159,7 @@ Base change geometric morphisms may be interpreted in terms of [[fiber integrati
 
   * [[dependent sum type]], [[dependent product type]]
 
+* [[proper base change theorem]]
 
 ## References
 
