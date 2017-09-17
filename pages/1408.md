@@ -720,11 +720,18 @@ possible. They describe **[[derived smooth manifolds]]** as described in [DerSmo
 
 ## Related concepts
 
-* [[ringed space]], [[ringed site]], [[ringed topos]]
+* [[ringed space]], [[locally ringed space]]
+
+* [[ringed site]]
+
+* [[ringed topos]], [[locally ringed topos]]
+
+* [[locally algebra-ed topos]]
+
+* **locally algebra-ed (∞,1)-topos**
 
 * [[geometry (for structured (∞,1)-toposes)]],  **structured $(\infty,1)$-topos** , [[locally representable structured (∞,1)-topos]]
 
-* [[cohesive (∞,1)-topos]]
 
 ## References
 
@@ -753,3 +760,8 @@ discussed in
 [[!redirects ringed (∞,1)-topos]]
 [[!redirects ringed generalized spaces]]
 [[!redirects ringed generalized space]]
+
+[[!redirects locally algebra-ed (∞,1)-topos]]
+[[!redirects locally algebra-ed (infinity,1)-topos]]
+[[!redirects locally algebra-ed (∞,1)-toposes]]
+[[!redirects locally algebra-ed (infinity,1)-toposes]]
