@@ -276,6 +276,85 @@ The [[Liouville cocycle]] appears when one moves from genuine [[representation]]
 
 In [[AQFT]] conformal field theory is modeled in terms of [[local net]]s that are [[conformal net]]s.
 
+## Full versus chiral CFT {#FullAndChiral}
+
+
+> some discussion of full vs. chiral CFT goes here... then:
+
+The following result establishes which pairs of [[vertex operator algebras]] can appear as the left and right chiral parts of a full field algebra in the sense of Huang, Lepowski, [[Liang Kong|Kong]], etc. (see [[vertex operator algebra]]).
+
++-- {: .un_def}
+###### Definition
+
+Two [[modular tensor categories]] are said to have the same **Witt class**
+if there exist two [[spherical categories]] $S$ and $T$ such that
+we have an [[equivalence of categories|equivalence]] of [[ribbon categories]]
+
+$$
+  C \boxtimes \mathcal{Z}(S) \simeq D \boxtimes \mathcal{Z}(T)
+$$
+
+=--
+
+Here $\mathcal{Z}(S)$ is the category whose objects are pairs $(Z, z)$ consisting of an
+object $Z \in S$ and a [[natural isomorphism]] 
+$z_X : Z \otimes X \stackrel{\simeq}{\to} X \otimes Z$, such that for al
+objects $X, Y \in S$ we have
+
+$$
+  \array{
+    Z \otimes X \otimes Y &&\stackrel{z_{X \otimes Y}}{\to}&& 
+    X \otimes Y \otimes Z
+    \\
+    & {}_{\mathllap{z_x \otimes Id}}\searrow && \nearrow_{Id \otimes \mathrlap{z_y^{-1}}}
+    \\
+    && X \otimes Z \otimes Y
+  }
+$$
+
+This becomes a monoidal category itself by setting
+
+$$
+  (Z,z) \otimes (W,w) := (Z \otimes W, z \otimes w)
+  \,.
+$$
+
++-- {: .un_theorem}
+###### Theorem
+**([[Michael Müger]])**
+
+If $S$ is a [[spherical category]] then $\mathcal{Z}(S)$ is a [[modular tensor category]].
+
+=--
+
++-- {: .un_theorem}
+###### Theorem
+**([[Michael Müger]])**
+
+
+If $C$ is a [[modular tensor category]] then there is an equivalence of 
+[[ribbon categories]]
+
+$$
+  \mathcal{Z}
+  \stackrel{\simeq}{\leftarrow}
+  C \boxtimes \bar C
+$$
+
+=--
+
+
++-- {: .un_theorem}
+###### Theorem
+
+Two [[vertex operator algebra]]s $V$ may appear as the left and right chiral 
+halfs of a full conformal field theory precisely if their [[modular tensor categories]] of representations have the same
+Witt class.
+
+=--
+
+
+
 ## References ##
 
 The first real-comprehensive physics textbook on CFT was
