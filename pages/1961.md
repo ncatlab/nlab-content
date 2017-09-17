@@ -143,6 +143,12 @@ See [[Frölicher space]] for the definition in that context.
 
 * [[diffeological space]]
 
+## Related concepts
+
+* [[cotangent bundle]]
+
+* [[normal bundle]]
+
 ...
 
 
