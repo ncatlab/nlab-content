@@ -257,8 +257,7 @@ $$Int(-, \mathbf{2})^{op} \dashv Ord(-, \mathbf{2})$$
 
 inducing the first equivalence $Ord(-, \mathbf{2}): \Delta_a^{op} \to \nabla_a$, and the second equivalence by restriction. 
 
-This was apparently first made explicit by ([Joyal](#Joyal)).
-See also at _[Interval -- Relation to simplices](interval#RelationToSimplices)_.
+This fact is mentioned in ([Joyal](#Joyal)), to help give some intuition for his [[Theta category|category]] $\Theta$ as dual to a category of disks. See also at _[Interval -- Relation to simplices](interval#RelationToSimplices)_.
 
 
 ## Related constructions ##
