@@ -1,14 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
+#### Diagram chasing lemmas
++-- {: .hide}
+[[!include diagram chasing lemmas - contents]]
+=--
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 =--
 =--
-
 #Contents#
 * table of contents
 {:toc}
@@ -550,9 +553,9 @@ Corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} are also readily checke
 ## Implications: The basic diagram-chasing lemmas
  {#Implications}
 
+We derive the basic [[diagram chasing lemmas - contents|diagram chasing lemmas]] from the salamander lemma, or in fact just from repeated application of the [intramural/extramural isomorphisms](#IntraExtramuralIsomorphisms).
 
-
-### The sharp $3 \times 3$-lemma
+### The sharp $3 \times 3$ lemma
  {#Sharp3x3Lemmas}
 
 We derive the [[sharp 3x3 lemma]] from the salamander lemma.
@@ -734,7 +737,8 @@ So ${C'}^{hor} \simeq C_{\Box}$ by the intramural iso, then $\dots \simeq A''_\B
 
 =--
 
-### $n \times n$-Lemmas
+### The $n \times n$ lemma
+ {#nxnLemma}
 
 +-- {: .num_prop #nxn}
 ###### Proposition
@@ -782,6 +786,126 @@ sharp 3x3 lemma [above](#Sharp3x3Lemmas): the isomorphism for each $k$ is given 
 
 =--
 
+### The four lemma
+ {#FourLemma}
+
+We prove the  _[[four lemma]]_ from the salamander lemma. 
+
++-- {: .num_prop}
+###### Proposition
+
+Consider a [[commuting diagram]] in $\mathcal{A}$ of the form
+
+$$
+  \array{
+    A &\to& B &\to& C &\to& D
+    \\
+    \downarrow^{\mathrlap{\tau}}
+    &&
+    \downarrow^{\mathrlap{f}}
+    &&
+    \downarrow^{\mathrlap{g}}
+    &&
+    \downarrow^{\mathrlap{\nu}}
+    \\
+    A' &\to& B' &\to& C' &\to& D'
+  }
+$$
+
+where 
+
+1. the rows are [[exact sequences]],
+
+1. $\tau$ is an [[epimorphism]],
+
+1. $\nu$ is a [[monomorphism]].
+
+Then
+
+1. if $f$ is a [[monomorphism]] then so is $g$;
+
+1. if $g$ is an [[epimorphism]] then so is $f$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By assumption on $\tau$ and $\nu$ we can complete the diagram 
+to a [[double complex]] of the form
+
+$$
+  \array{
+    && 0 && 0
+    \\
+    && \downarrow && \downarrow
+    \\
+    && ker(f) &\stackrel{\xi|_{ker(f)}}{\to}& ker(g) &\to& 0
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    A &\to& B &\stackrel{\xi}{\to}& C &\to& D
+    \\
+    \downarrow^{\mathrlap{\tau}}
+    &&
+    \downarrow^{\mathrlap{f}}
+    &&
+    \downarrow^{\mathrlap{g}}
+    &&
+    \downarrow^{\mathrlap{\nu}}
+    \\
+    A' &\to& B' &\stackrel{\eta}{\to}& C' &\to& D'
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& B'/im(f) &\to& C'/im(g)
+    \\
+     && \downarrow && \downarrow
+    \\
+    && 0 && 0
+  }
+  \,.
+$$
+
+such that
+
+1. all columns are [[exact sequence|exact]];
+
+1. the middle two rows are exact.
+
+For the first statement it is now sufficient to show that $ker(g)^{hor} \simeq 0$, for that means that
+
+$$
+  \xi(ker(f)) = ker(g)
+$$
+
+and hence in particular that $g$ is injective if $f$ is.
+
+To see this we use the intramural isomorphism, 
+cor. \ref{IntramuralIsos} item 2, to deduce that.
+
+$$
+  ker(g)^{hor} \simeq ker(g)_{\Box}
+  \,.
+$$
+
+Then the long [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso}, shows that this is isomorphic to the 
+${}^\Box 0 \simeq 0$ in the bottom left corner of the diagram.
+
+The second statement follows dually: it is implied by
+$(B'/im(f))^{hor} \simeq 0$ for that says that 
+$\eta^{-1}(im(g))\simeq im(f)$ which means in particular that 
+if $g$ is surjective then so is $f$.
+
+So here the intramural ismorphism to use is
+
+$$
+  (B'/im(f))^{hor} \simeq {}^{\Box}(B'/im(f))
+$$
+
+and then the long sequence of zigzags of extramural ismoporphisms identifies this with the $0_\Box \simeq 0$ in the top right corner.
+
+=--
 
 ### The snake lemma
 
@@ -905,19 +1029,6 @@ $$
 $$
 
 =--
-
-
-## Related concepts
-
-The salamander lemma implies a series of related lemmas that are fundamental in [[homological algebra]].
-
-* [[snake lemma]] (see also [[connecting homomorphism]] and [[long exact sequence in homology]])
-
-* [[3x3 lemma]]
-
-* [[5-lemma]]
-
-* [[horseshoe lemma]]  
 
 
 ## References
