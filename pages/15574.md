@@ -53,7 +53,7 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 ##Lawvere's Path to _Aufhebung_
 
->In early 1985, while I was studying the foundations of homotopy theory, it ocurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
+>In early 1985, while I was studying the foundations of homotopy theory, it occurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
 
 ##Related Concepts
 
@@ -62,6 +62,14 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 * [[graphic monoid]]
 
 * [[generic interval]]
+
+##A Guide to the Literature
+
+The book by La Palme-Reyes-Zolfaghari (2004) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder.
+
+The known mathematical results on the Aufhebungs relation is contained in the paper by Kennett-Riehl-Roy-Zaks (2010) which is based on older phd-works by some of the authors.
+
+Further results on essential localizations can be found in the papers by Johnstone (1996) and Lucyshyn-Wright (2011).
 
 ##References
 
