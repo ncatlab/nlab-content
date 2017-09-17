@@ -10,15 +10,14 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-For $X$ and $Y$ [[topological spaces]], a continuous map $X \to Y$ induces (in particular) two [[functors]]
+For $X$ and $Y$ [[topological spaces]], a [[continuous function]] $X \to Y$ induces (in particular) two [[functors]]
 
 * the [[direct image]] $f_* : Sh(X) \to Sh(Y)$
-
 
 * the [[inverse image]] $f^* : Sh(Y) \to Sh(X)$
 
@@ -37,26 +36,73 @@ A _geometric morphism_ between arbitrary [[topos|topoi]] is the direct generaliz
 Another motivation of the concept comes from the the fact that a [[functor]] such as $f^*$ that preserves finite [[limits]] and arbitrary [[colimits]] (since it is a [[adjoint functor|left adjoint]]) necessarily preserves all constructions in [[geometric logic]].  See also [[classifying topos]].
 
 
-
 ## Definition
 
+
++-- {: .num_defn}
+###### Definition
+
 If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of an pair of [[adjoint functors]] $(f^*,f_*)$
+
 $$
   f_* : E \to F
 $$
 $$
-  f^* : F \to E
+  E \leftarrow F : f^* 
   \,,
 $$
 
-such that the left adjoint $f^*:F \to E$ preserves finite [[limits]].
+such that the [[left adjoint]] $f^*:F \to E$ preserves [[finite limits]].
+
+We say that 
+
+* $f_*$ is the [[direct image]]
+
+* $f^*$ is the [[inverse image]]
+
+of the geometric morpphism.
+
+=--
 
 If moreover the [[inverse image]] $f^*$ has also a [[left adjoint]] $f_! : F \to E$, then $f$ is an [[essential geometric morphism]].
 
-**Remark.** Since [[Grothendieck topos|Grothendieck toposes]] satisfy the (dual) hypotheses of Freyd's special [[adjoint functor theorem]], any functor $f^*$ between Grothendieck toposes which preserves all small colimits must have a right adjoint.  Therefore, a geometric morphism between Grothendieck toposes could equivalently be defined as a functor preserving finite limits and all small colimits.
++-- {: .num_remark}
+###### Remark
+
+Since [[Grothendieck topos|Grothendieck toposes]] satisfy the (dual) hypotheses of Freyd's special [[adjoint functor theorem]], any functor $f^*$ between Grothendieck toposes which preserves all small [[colimit]]s must have a [[right adjoint]].  Therefore, a geometric morphism $f : E \to F$ between Grothendieck toposes could equivalently be defined as a functor $E \leftarrow F : f^* $ preserving [[finite limits]] and all [[small set|small]] [[colimits]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In view of its definition in terms of a pair of [[adjoint functor]]s, the direction of a geometric morphism is a convention. However, with the other convention it would better be called an **algebraic morphism**.
+
+See [[Isbell duality]] for more on this [[duality]] between [[algebra]] and [[geometry]].
+
+=--
+
+See also ([Johnstone, p. 162/163](#Johnstone)).
 
 
 ## Properties
+
+We discuss some general properties of geometric morphisms. The 
+
+* [Relation to homomorphisms of locales](#RelationToHomomorphismOfLocales)
+
+also serves as a motivation or justification of the notion of geometric morphism. The
+
+* [Relation to homomorphisms of sites](#RelationToMorphismsOfSites)
+
+is a fairly straightforward generalization of that situation, reflecting the passage from (sheaf-) [[(0,1)-topos]]es to general [[(1,1)-toposes]].
+
+One of the subtle points about geometric morphisms of toposes is that there is also another sensible notion of topos [[homomorphism]]s: [[logical morphism]]s. In
+
+* [Relation to logical morphism](#RelationToLogicalMorphisms)
+
+aspects of the relation between the two concepts are discussed.
+
 
 ### Relation to homomorphisms of locales
  {#RelationToHomomorphismOfLocales}
@@ -155,11 +201,13 @@ from the [[category]] [[Locale]] of [[locales]] to the [[2-category]] [[Topos]] 
 See also at [[locale]] the section <a href="http://nlab.mathforge.org/nlab/show/locale#RelationToToposes">relation to toposes</a>.
 
 ### Relation to morphisms of sites
+ {#RelationToMorphismsOfSites}
 
 See at [[site]] the section <a href="http://nlab.mathforge.org/nlab/show/site#MorphismsOfSitesAndGeometricMorphisms">Relation between geometric morphisms and morphisms of sites</a> .
 
-### Relation to logical morphisms
 
+### Relation to logical morphisms
+ {#RelationToLogicalMorphisms}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -175,16 +223,16 @@ But [[inverse images]] can be nontrivial logical morphisms:
 +-- {: .num_prop}
 ###### Proposition
 
-* The [[inverse image]] of an [[etale geometric morphism]] is a [[logical morphism]].
+ The [[inverse image]] of an [[etale geometric morphism]] is a [[logical morphism]].
 
 =--
 
 Generally, a geometric morphism with logical inverse image is called an 
 [[atomic geometric morphism]]. See there for more details.
 
+
 ### Structure preserved by geometric morphisms
  {#StructurePreserved}
-
 
 The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as _categories with [[finite limit]]s that are <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">well-powered</a> [[indexed categories]] with respect to the canonical indexing over themselves.
 
@@ -193,9 +241,7 @@ This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3
 
 ## Special classes of geometric morphisms
 
-There are vrious extra properties of a geometric moprhisms that are relevant. 
-
-* [[direct image]]/[[inverse image]]
+There are various special cases and types of classes of geometric morphisms. For instance
 
 * [[global section|global sections]]
 
@@ -219,13 +265,65 @@ There are vrious extra properties of a geometric moprhisms that are relevant.
 
 * [[localic geometric morphism]]
 
-* [[hyperconnected geometric morphism]]
+* [[hyperconnected geometric morphimsm]]
 
 * [[cohesive topos|cohesive morphism]]
 
 * [[atomic geometric morphism]]
 
-The following subsections describe some more.
+The following subsections describe some of these in more detail.
+
+
+### Between presheaf toposes
+ {#BetweenPresheafToposes}
+
+Let $C$ and $D$ be any two [[categories]]. We write $C^{op}$ and $D^{op}$ for their [[opposite categories]] and $[C, Set]$, $[D, Set]$ for the corresponding [[presheaf toposes]] over $C^{op}$ and $D^{op}$, respectively.
+
++-- {: .num_prop }
+###### Proposition
+
+Every [[functor]] $f : C \to D$ induces an ([[essential geometric morphism|essential]], even) geometric morphism
+
+$$
+  f := (f^* \dashv f_*) 
+  : 
+  [C,Set] 
+    \stackrel{\overset{f_1}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
+  [D, Set]
+  \,,
+$$
+
+where $f^* = (-) \circ f$ is the functor given by precomposition presheaves with $f$.
+
+Moreover, for $\eta : f \Rightarrow g : C \o D$ a [[natural transformation]] between two such functors there is an induced [[geometric transformation]] $(f^* \dashv f_*) \Rightarrow (g^* \dashv g_*)$. This is compatible with composition in that it makes forming [[presheaf topos]]es a [[2-functor]]
+
+$$
+  [-,Set] : Cat \to Topos
+$$
+
+from the [[2-category]] [[Cat]] to the [[2-category]] [[Topos]].
+
+=--
+
+This appears as ([Johnstone, example 4.1.4](#Johnstone)).
+
++-- {: .proof}
+###### Proof
+
+Since [[categories of presheaves]] have all [[limit]]s and [[colimit]]s, the left and right [[Kan extension]]s $Lan_f$ and $Ran_f$  along $f$ exists, and form with $f^*$ an [[adjoint triple]]
+
+$$
+  [C,Set]
+    \stackrel{\overset{Lan_f}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{Ran_f}{\to}}}
+  [D, Set]
+  \,.
+$$
+
+Hence $f_! \simeq Lan_f$ and $f_* \simeq Ran_f$. Notice that [[left adjoint]]s and [[right adjoint]]s to a functor are, if they exist, unique up to unique [[isomorphism]].
+
+=--
+
+
 
 ### Surjections and embeddings
 
@@ -354,7 +452,7 @@ $$
 
 
 ### Geometric morphisms of sheaf topoi 
-{#sheaftopoi}
+ {#sheaftopoi}
 
 Geometric morphisms between [[localic topoi]] are equivalent to [[continuous maps]] of [[locales]], which in turn are equivalent to continuous maps of [[topological spaces]] if you restrict to [[sober spaces]].
 
@@ -392,9 +490,8 @@ This map $Hom_{Top}(X,Y) \to GeomMor(Sh(X),Sh(Y))$ is an bijection of sets.
 
 That the induced pair $(f^*, f_*)$ forms a geometric morphism is (or should eventually be) discussed at [[inverse image]].
 
-We now show that every geometric morphism of sheaf toposes arises this way from a continuous function, at least up to isomorphism.  (In fact, more is true: the category of geometric morphisms $Sh(X)\to Sh(Y)$ is equivalent to the poset of continuous functons $X\to Y$ with the [[specialization ordering]].)  We follow page 348 of
+We now show that every geometric morphism of sheaf toposes arises this way from a continuous function, at least up to isomorphism.  (In fact, more is true: the category of geometric morphisms $Sh(X)\to Sh(Y)$ is equivalent to the poset of continuous functons $X\to Y$ with the [[specialization ordering]].)  We follow [MacLane-Moerdijk, page 348](#MacLaneMoerdijk).
 
-* MacLane-Moerdijk, _[[Sheaves in Geometry and Logic]]_ .
 
 One reconstructs the continuous map $f : X \to Y$ from a geometric morphism $f : Sh(X) \to Sh(Y)$ as follows.
 
@@ -486,12 +583,14 @@ The points $x \in X$ of the topological space $X$ are in canonical bijection wit
 Geometric morphisms are the topic of section VII of
 
 * [[Saunders MacLane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ .
+ {#MacLaneMoerdijk}
 
 Embeddings and surjections are discussed in section VII.4.
 
 Geometric morphisms are defined in section A4 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
 
 The special classes of geometric morphisms are discussed in section C3.
 
