@@ -10,7 +10,7 @@ One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but on
 
 ## Definition
 
-We give the definitions in [[Cat]] and leave it to future readers and writers to generalise.
+We give the definitions in [[Cat]] and leave it to future readers and writers to generalise.  They may find [Riehl+Verity, Oct 2013](http://arxiv.org/abs/1310.8279) helpful.
 
 Let $(C,D,\ell,r,\iota,\epsilon)$ be an adjunction in $Cat$; that is, $\ell: C \to D$ and $r: D \to C$ are [[adjoint functors]] with $\ell \dashv r$, where $\iota$ and $\epsilon$ are the unit and counit.  Let $T$ be $r \circ \ell$; $T$ has the structure of a monad on $C$, so consider the [[Eilenberg–Moore category]] $C^T$ of [[module for a monad|modules (algebras)]] for $T$.  Then $r \circ \epsilon: T \circ r \to r$ endows $r: D \to C$ with a $T$-algebra structure, hence defines a [[functor]] $k: D \to C^T$.
 
@@ -39,6 +39,7 @@ Abstractly, one may *define* an [[algebraic category]] to be a category equipped
 
 *  [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
 
+*  [[Emily Riehl]] and [[Dominic Verity]], Homotopy coherent adjunctions and the formal theory of monads ( [arxiv'd](http://arxiv.org/abs/1310.8279) )
 
 ## Discussion
 
