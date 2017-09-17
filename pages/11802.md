@@ -1,0 +1,8 @@
+
+
+A _[[curve]]_ in [[complex analytic geometry]], hence a [[complex analytic space]] of complex [[dimension]] 1 (hence of real dimension 2).
+
+See at _[[Riemann surface]]_ and see at _[[algebraic curve]]_ for more.
+
+[[!redirects complex curves]]
+
