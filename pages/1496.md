@@ -11,21 +11,15 @@
 
 ## Idea
 
-A Banach space $\mathcal{B}$ is both a [[vector space]] and a [[normed space]], such that the norm induced metric turns $\mathcal{B}$ into a _complete_ [[metric space]], and the induced topology turns $\mathcal{B}$ into a [[topological vector space]].  In finite dimensions, there is only one topology that turns a given vector space into a topological vector space (or phrased differently: All topologies that do the trick are equivalent). So every $n$-dimensional real Banach space may be described (up to linear isometry, the usual sort of [[isomorphism]]) as the [[Cartesian space]] $\mathbb{R}^n$ equipped with the $p$-norm for $1 \leq p \leq \infty$:
+A Banach space $\mathcal{B}$ is both a [[vector space]] and a [[normed space]], such that the norm induced metric turns $\mathcal{B}$ into a _complete_ [[metric space]], and the induced topology turns $\mathcal{B}$ into a [[topological vector space]].
+
+A source of simple Banach spaces comes from considering a [[Cartesian space]] $\mathbb{R}^n$ with the norm:
 
 $$ \|(x_1,\ldots,x_n)\|_p \coloneqq \root p {\sum_{i = 1}^n |x_i|^p} $$
 
-(or $\|(x_1,\ldots,x_n)\|_\infty \coloneqq \max_i |x_i|$ for $p = \infty$).
+where $1 \leq p \leq \infty$ (this doesn't strictly make sense for $p = \infty$, but taking the limit as $p \to \infty$ we arrive at the formula $\|(x_1,\ldots,x_n)\|_\infty \coloneqq \max_i |x_i|$).
 
-This is a familiar space to most people, and even the unusual norms (the usual Euclidean norm corresponds to $p = 2$) are easy to visualise.  When we look at infinite-dimensional examples, however, things become trickier.  Common examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
-
-+-- {: .query}
-Yemon, I don\'t want you to think that I\'m trying to pull rank (as an established Lab contributor) on you as I edit what you\'ve edited here.  So please do edit further (or make a comment like this one) as you like.  ---[[Toby Bartels]]
-
---- [[Tim van Beek]]: dito :-)
-=--
-
-* [Wikipedia] (http://en.wikipedia.org/wiki/Banach_space)
+However, the theory of these spaces is not much more complicated than that of finite dimensional vector spaces because they all have the same underlying topology.   When we look at infinite-dimensional examples, however, things become trickier.  Common examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
 
 ## Definitions
 
