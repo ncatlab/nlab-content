@@ -189,20 +189,31 @@ a universal [[orientation in generalized cohomology|orientation]] of real vector
 
 $$
 
-   M U \longrightarrow M SO \stackrel{\beta}{\longrightarrow} E
+  \beta \;\colon\; M U \longrightarrow M SO \stackrel{\beta}{\longrightarrow} E
   \,.
 $$
 
-Consider then the space $B U(1)$. This carries a canonical orientation in [[ordinary cohomology]] which hence induces an orientation $U_\alpha L$ in $E$-theory. Since $E$-orientations of $B U(1)$ naturally are a [[torsor]] over $E^0(B U(1))^\times \simeq H^0(B U(1), R) \simeq R [ [ c_1(L) ] ]^\times$ the difference between the orientation $U_\beta L$ induced by $\beta$ and this standard orientation defines an element
+Now rationally, i.e. for $E\otimes \mathbb{Q}$, there is a canonical such orientation, given by the composite
 
 $$
-  K_\beta \coloneqq \frac{U_\beta L}{U_\alpha L} \in R[ [ c_1(L) ] ]
+  \alpha \;\colon\; M U \longrightarrow M SO \longrightarrow H \mathbb{Q} \simeq \mathbb{S}\otimes \mathbb{Q} \stackrel{}{\longrightarrow} E \otimes \mathbb{Q}
+  \,.
+$$
+
+Therefore given any orientation $\beta$, then its rationalization may be compared to $\alpha$. Since these rational orientations are equivalently trivializations of maps to $B GL_1(E \otimes \mathbb{R})$, their difference is a class $\beta/\alpha$ with coefficients in $GL_1(E\otimes R)$, hence over any space $X$ the difference is a class in $H^0(X, \pi_\bullet E\otimes \mathbb{Q})^\times$.
+
+Specifically consider the [[delooping]] $X= B U(1)$ of the [[circle group]].
+For this the [[cohomology ring]] is the [[power series]] ring in a single [[variable]] (the universal [[first Chern class]] $c_1(L)$).
+Under the canonical inclusion $B U(1)\to B U$ both the above orientations $\beta$ and $\alpha$ pull back, so that we have a difference 
+
+$$
+  K_\beta \coloneqq \beta/\alpha \in (E_\bullet \otimes \mathbb{Q})[ [ c_1(L) ] ]
   \,.
 $$
 
 This is the Hirzebruch series of $\beta$ ([Ando-Hopkins-Rezk 10, def. 3.10](#AndoHopkinsRezk10)).
 
-If $F$ denotes the [[formal group law]] classified via $MU_\bullet \to M SO_\bullet \stackrel{\beta_\bullet}{\to} R$ then 
+If $F$ denotes the [[formal group law]] classified via $MU_\bullet \to M SO_\bullet \stackrel{\beta_\bullet}{\to} E_\bullet$ then 
 
 $$
   K_\beta(z) = \frac{z}{\exp_F(z)}
