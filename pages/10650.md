@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Geometry
+#### Arithmetic geometry
 +--{: .hide}
-[[!include higher geometry - contents]]
+[[!include arithmetic geometry - contents]]
 =--
 =--
 =--
