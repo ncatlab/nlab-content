@@ -42,10 +42,12 @@ Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly
 
 ...
 
-
-see also 
+## Related concepts
 
 * [[locally contractible space]]
+
+[[!include homotopy n-types - table]]
+
 
 
 [[!redirects contractible]]
