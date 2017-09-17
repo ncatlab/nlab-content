@@ -29,9 +29,9 @@ We first recall the
 
 * [Traditional definition](#TraditionalDefinition).
 
-Then we consider the axiomatic reformulation in terms of [[Kan extension]] following [Kock 11](#Kock11).
+Then we consider the axiomatic reformulation in terms of [[monads]] following [Kock 11](#Kock11).
 
-* [Characterization by Kan extension](#CharacterizationByKanExtension)
+* [Characterization by monads](#CharacterizationByMonads)
 
 
 ### Traditional definition
@@ -83,8 +83,8 @@ Other notions of spaces of distributions, each endowed with the weak $*$-topolog
 $$\rho_{K, \alpha, \beta}(\phi) = \sup_{x \in K} |x^\alpha \partial^\beta \phi|$$ 
 where $\alpha$, $\beta$ are multi-indices. 
 
-### Characterization by Kan extension
- {#CharacterizationByKanExtension}
+### Characterization by monads
+ {#CharacterizationByMonads}
 
 (...)
 
@@ -290,7 +290,9 @@ Modern accounts include
 
 * M. Grosser, E. Farkas, M. Kunzinger, R. Steinbauer, _On the foundations of nonlinear generalized functions I, II_, Mem. Amer. Math. Soc. __153__ (2001)
 
+Lecture notes include
 
+* Hasse Carlsson, _Lecture notes on distributions_ ([pdf](http://www.math.chalmers.se/~hasse/distributioner_eng.pdf))
 
 Applications of distributions in [[physics]] are discussed in 
 
