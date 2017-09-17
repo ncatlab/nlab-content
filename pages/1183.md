@@ -185,6 +185,8 @@ The content of this section is at
 
   * [[genus]]
 
+* [[supersymmetric sigma-model]]
+
 * [[brane]]
 
   * [[particle]], [[superparticle]]
