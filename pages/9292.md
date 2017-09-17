@@ -5,6 +5,8 @@
 
 ## Definition
 
+### Algebra of function on a set
+
 For $R$ a [[ring]] and $S$ a [[set]], the set of [[functions]] $S \to R$ (to the underlying set of $R$) is itself naturally an [[associative algebra]] over $R$, where addition and multiplication is given pointwise in $S$ by addition and multiplication in $R$: for $f_1, f_2 \colon S \to R$ their sum is the function
 
 $$
@@ -19,6 +21,10 @@ $$
 $$
 
 and the [[ring]] inclusio $R \to [S,R]$ is given by sending $r \in R$ to the constant function with value $r$.
+
+### Algebra of functions on an $\infty$-stack
+
+More generally, in the context of [[(∞,1)-topos theory]] and [[higher algebra]], there is a notion of [[function algebras on ∞-stacks]].
 
 ## Properties
 
@@ -37,4 +43,3 @@ Sending [[spaces]] to their suitable algebras of functions constitutes a basic [
 [[!redirects algebras of functions]]
 [[!redirects function algebra]]
 [[!redirects function algebras]]
-
