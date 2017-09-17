@@ -31,16 +31,16 @@ In [[harmonic analysis]] one typically considers [[topological groups]] $G$ with
 ### Modular forms as automorphic forms on $PSL(2,\mathbb{R})$
  {#ModularForms}
 
-One standard definition is that a _[[modular form]]_ is a [[holomorphic function]] on the [[upper half plane]] $\mathcal{H}$ satisfying a specified transformation property under the [[action]] of a given [[congruence subgroup]] $\Gamma$ of the [[modular group]] $G = PSL(2,\mathbb{Z})$ (e.g. [Martin 13, definition 1](#Martin13)).
+One standard definition is that a _[[modular form]]_ is a [[holomorphic function]] on the [[upper half plane]] $\mathfrak{H}$ satisfying a specified transformation property under the [[action]] of a given [[congruence subgroup]] $\Gamma$ of the [[modular group]] $G = PSL(2,\mathbb{Z})$ (e.g. [Martin 13, definition 1](#Martin13)).
 
 But the [[upper half plane]] is itself the [[coset]] of the [[projective linear group]] $G = PSL(\mathbb{R})$ by the subgroup $K = Stab_G(\{i\}) \simeq SO(2)/\{\pm I\}$
 
 $$
-  f\colon \mathcal{H} \simeq PSL(2,\mathbb{R})/K
+  f\colon \mathfrak{H} \simeq PSL(2,\mathbb{R})/K
   \,.
 $$
 
-In view of this, one finds that every modular function $f \colon \mathcal{H} \to \mathbb{C}$ lifts to a function 
+In view of this, one finds that every modular function $f \colon \mathfrak{H} \to \mathbb{C}$ lifts to a function 
 
 $$
   \tilde f \colon \Gamma\backslash PSL(2,\mathbb{R})
