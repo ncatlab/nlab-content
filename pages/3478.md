@@ -32,7 +32,7 @@ One could also consider a basis of open sets such that the opens $U$ have (just)
 +-- {: .un_defn}
 ###### Definition
 
-A [[locale]] $X$ is __locally contractible__ if, viewing a locale as a $(0,1)$-[[(0,1)-topos|topos]], it is [[locally infinity-connected (infinity,1)-topos|locally infinity-connected]].
+A [[locale]] $X$ is __locally contractible__ if, viewing a locale as a $(0,1)$-[[(0,1)-topos|topos]] and hence a (very special kind of) $(\infty,1)$-[[(infinity,1)-topos|topos]], it is [[locally infinity-connected (infinity,1)-topos|locally ∞-connected]].
 =--
 
 +-- {: .query}
