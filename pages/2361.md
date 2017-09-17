@@ -19,7 +19,7 @@ Many authors restrict this terminology to limits over [[codirected sets]] (or [[
 
 $$
   \array{
-     && && \lim_{\leftarrow_n} X(x) &&
+     && && \lim_{\leftarrow_n} X(n) &&
      \\
      && &\swarrow& \downarrow & \searrow&
      \\
