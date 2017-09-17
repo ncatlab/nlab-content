@@ -122,6 +122,8 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
   * [[universal enveloping algebra]], [[Cartan subalgebra]]
 
   * [[root (in representation theory)]], [[weight (in representation theory)]]
+
+  * [[Lie algebra representation]]
  
   * [[Kac-Moody algebra]]
 
