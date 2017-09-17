@@ -59,7 +59,7 @@ To this date generalized [[differential cohomology]] theories keep being studied
 
 * [[intersection pairing]], [[quadratic refinement]]
 
-* [[Wu class]]
+* [[Wu class]], [[integral Wu structure]]
 
 
 ## Gauge fields
