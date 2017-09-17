@@ -111,6 +111,9 @@ A review is in
 
 * [[Matthew Strassler]], _The Duality Cascade_ ([arXiv:hep-th/0505153](http://arxiv.org/abs/hep-th/0505153))
 
+Discussion in connection with non-conformal variants of [[AdS/CFT]] is in
+
+* Eduardo Conde, Jerome Gaillard, [[Carlos Núñez]], Maurizio Piai, Alfonso V. Ramallo, _Towards the string dual of tumbling and cascading gauge theories_ ([arXiv:1112.3346](http://arxiv.org/abs/1112.3346))
 
 ### With few supercharges
 
