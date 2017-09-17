@@ -38,7 +38,7 @@ The term _S-duality_ can mean two different things:
 
 ## Idea
 
-In the original and restricted sense, _S-duality_ refers to the conjectured [[Montonen-Olive duality spring auto-[[equivalence]] of ([[super Yang-Mills theory|super]]) [[Yang-Mills theory]] in 4 dimensions under which the [[coupling constant]] is inverted, and more generally under which the combined [[coupling constant]] and [[theta angle]] tranform under an action of the [[modular group]]. At least for [[super Yang-Mills theory]] this conjecture can be argued for in detail. 
+In the original and restricted sense, _S-duality_ refers to the conjectured [[Montonen-Olive duality]] auto-[[equivalence]] of ([[super Yang-Mills theory|super]]) [[Yang-Mills theory]] in 4 dimensions under which the [[coupling constant]] is inverted, and more generally under which the combined [[coupling constant]] and [[theta angle]] tranform under an action of the [[modular group]]. At least for [[super Yang-Mills theory]] this conjecture can be argued for in detail. 
 
 There is also a [[duality in string theory]] called _S-duality_. Specifically in [[type IIB superstring theory]]/[[F-theory]] this is given by an action of the [[modular group]] on the [[axio-dilaton]], hence is, via the proportionality of the dilatorn to the string coupling constant, again a weak-strong coupling duality.
 
