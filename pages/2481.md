@@ -55,7 +55,7 @@ See also
 
 ## **7.** Digression: Henselian rings
 
-## **8.** Spectral Deligne-Mumfor stacks
+## **8.** Spectral Deligne-Mumford stacks
 
 ## **9.** Comparison results
 
