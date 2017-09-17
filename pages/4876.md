@@ -147,7 +147,7 @@ A useful account of the WZW model that encompasses both its [[action functional]
 
 This starts in section 2 as a warmup with describing the 1d QFT of a particle propagating on a group manifold. Thee [[Hilbert space]] of [[state]]s is expressed in terms of the [[Lie theory]] of $G$ and its [[Lie algebra]] $\mathfrak{g}$.
 
-In section 4 the quantization of the 2d WZW model is discussed in analogy to that. In lack of a full formalization of the quantization procedure, the author uses the loop algebra $\mathcal{l} \mathfrak{g}$ --  the [[affine algebra]] -- of $\mathfrak{g}$ as the evident analog that replaces $\mathfrak{g}$ and discusses the Hilbert space of states in terms of that. He also indicates how this may be understood as a space of sections of a [[line bundle]] over the loop group.
+In section 4 the quantization of the 2d WZW model is discussed in analogy to that. In lack of a full formalization of the quantization procedure, the author uses the loop algebra $\mathcal{l} \mathfrak{g}$ --  the [[affine Lie algebra]] -- of $\mathfrak{g}$ as the evident analog that replaces $\mathfrak{g}$ and discusses the Hilbert space of states in terms of that. He also indicates how this may be understood as a space of sections of a [[line bundle]] over the loop group.
 
 More detailed textbook introduction can be found in
 
