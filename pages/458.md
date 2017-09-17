@@ -60,6 +60,7 @@ $$
 
 See [[localic geometric morphism]] for more.
  
+
 ### Relation to topological spaces
 
 Every topological space $X$ has a frame of open sets $O(X)$, and therefore gives rise to a locale $X_l$.  For every continuous function $f:X\to Y$ between spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_l\to Y_l$ of locales.  Thus we have a functor $(-)_l:Top \to Loc$.
@@ -70,8 +71,90 @@ The elements of $O(X)$ induce a topology on the set of points of $X$ in an obvio
 
 It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this is an [[idempotent adjunction]], and therefore it restricts to an equivalence between the fixed subcategories on either side.  A space with $X\cong X_{lp}$ is called **[[sober space|sober]]**, while a locale with $X\cong X_{pl}$ is called **spatial**.
 
+### Relation to toposes {#RelationToToposes}
 
+The [[frame]] of opens $O(X)$ corresponding to a locale $X$ is naturally a [[site]]:
 
++-- {: .un_defn}
+###### Definition
+
+Given a locale $X$, with [[frame]] of open $O(X)$, say that a family of [[morphism]]s $\{U_i \to U\}$ in $O(X)$ is a [[cover]] if $U$ is the [[join]] of the $U_i$:
+
+$$
+  U = \vee_i U_i
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+This defines a [[coverage]] on $O(X)$ and hence makes it a [[site]].
+
+=--
+
+For instance ([MacLaneMoerdijk, section 5](#MacLaneMoerdijk)).
+
++-- {: .un_def}
+###### Definition
+
+For $X$ a locale, write
+
+$$
+  Sh(X) := Sh(O(X))
+$$
+
+for the [[sheaf topos]] over the category $O(X)$ equipped with the above canonical structure of a [[site]].
+
+=--
+
+Write [[Topos]] for the category of [[Grothendieck topos]]es and [[geometric morphism]]s.
+
++-- {: .un_prop}
+###### Proposition
+
+This construction defines a [[full and faithful functor]] $Sh(-) : $ [[Loc]] $\to$ [[Topos]].
+
+=--
+
+This appears for instance as [MacLaneMoerdijk, section IX.5 prop 2](#MacLaneMoerdijk).
+
++-- {: .un_def}
+###### Definition
+
+A topos in the image of $Sh(-) : Loc \to Topos$ is called a [[localic topos]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The functor $Sh(-) : Loc \to Topos$ has a [[left adjoint]] 
+
+$$
+  L : Topos \to Loc
+$$
+
+given by sending a [[topos]] $\mathcal{E}$ to the locale that is formally dual to the [[frame]] of [[subobject]]s of the [[terminal object]] of $\mathcal{E}$:
+
+$$
+  O(L(\mathcal{E})) := Sub_{\mathcal{E}}(*)
+  \,.
+$$
+
+=--
+
+This appears for instance as [MacLaneMoerdijk, seciotn IX.5 prop 3](#MacLaneMoerdijk).
+
+The functor $L$ here is also called **localic reflection**.
+
+In summary this means that locales form a [[reflective subcategory]] or [[Topos]]
+
+$$ 
+  Loc \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+  Topos
+$$
 
 ## Related concepts ##
 
@@ -105,6 +188,11 @@ See also part C (volume 2) of
 *  [[Peter Johnstone]], _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  .
 
 
+Locales are discussed in section IX.1 of 
 
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+{#MacLaneMoerdijk}
 
 [[!redirects locales]]
+
+[[!redirects localic reflection]]
