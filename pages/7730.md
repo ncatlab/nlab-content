@@ -12,7 +12,7 @@ Other works are
 
 * Gustavo Jasso, _$n$-abelian and $n$-exact categories_, [arxiv/1405.7805](http://arxiv.org/abs/1405.7805)
  
-
-
+* Zengqiang Lin, _$n$-angulated quotient categories induced by mutation pairs_, [arxiv/1409.2716](http://arxiv.org/abs/1409.2716)
+ 
 
 
