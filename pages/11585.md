@@ -1,0 +1,13 @@
+
+
+* [webpage](http://www.cs.unibo.it/~dallago/)
+
+## related $n$Lab entries
+
+* [[linear logic]], [[linear type theory]]
+
++ [[dependent linear type theory]]
+
+* [[quantum computation]]
+
+category: people
