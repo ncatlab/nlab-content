@@ -9,11 +9,6 @@
 =--
 =--
 
-* **fundamental groupoid**, [[fundamental ∞-groupoid]]
-
-* [[fundamental category]], [[fundamental (∞,1)-category]]
-
-***
 
 #Contents#
 * toc
@@ -65,19 +60,19 @@ An improvement on this relevant to the [[van Kampen theorem]] for computing the 
 
 Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,\{a\})$ is the [[delooping]] of the [[fundamental group]] $\pi_1(X,a)$.
 
-### Higher categorical connections
+### In higher category theory
 
-The fundamental groupoid and its higher generalizations play a fundamental role in the definition of [[Trimble n-category]].  Conversely, following Trimble's definition, it is possible to generalize the notion of fundamental $n$-groupoids from [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]] using the concept of categories with [[interval object]].
+See [[fundamental ∞-groupoid]].
 
-There are also constructions of strict fundamental $\omega$-groupoids  of various types (globular, simplicial, cubical) for a filtered space, and more complicated fundamental [[cat-n-group]] of an $n$-cube of pointed spaces. For the former see the references in 
 
-*  R. Brown, A new higher homotopy groupoid: the fundamental  globular $\omega$-groupoid of a filtered space, Homotopy, Homology and Applications, 10 (2008), No. 1, pp.327-343.
 
-For the latter, see 
+## Related concepts
 
-*  R. Brown and J.-L. Loday, Van Kampen theorems for diagrams of spaces,  Topology 26 (1987) 311-334.
+* **fundamental groupoid**, [[fundamental ∞-groupoid]]
 
-In both cases, the structures are strict and the functors satisfy a van Kampen type theorem, i.e. preserve certain colimits, so that one can do some calculation, in many cases of a nonabelian type. 
+* [[fundamental category]], [[fundamental (∞,1)-category]]
+
+* [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
 
 [[!redirects Poincare groupoid]]
