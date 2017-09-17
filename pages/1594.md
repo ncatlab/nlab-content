@@ -97,6 +97,7 @@ See also
 
 (which is mainly tailored toward Thurston's approach). 
 
-category:orbifold
+category: Lie theory
+
 
 [[!redirects orbifolds]]
