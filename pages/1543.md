@@ -507,7 +507,7 @@ But this is manifestly the right (being both: from the right and correct :-) [[a
 
 ## Examples
 
-A standard example of a nontrivial principal bundle is the [[Hopf fibration]] $S^3 \to S^2$, which has the structure of an $S^1$-principal bundle in [[topological space]]s.
+A standard example of a nontrivial [[circle group]]-principal bundle -- a [[circle bundle]] -- is the [[Hopf fibration]] $S^3 \to S^2$, which has the structure of an $S^1$-principal bundle in [[topological space]]s.
 
 Generally, if we accept that we have a large supply of conttinuous maps between [[topological space]]s, we obtain a $G$-principal bundle $f^* \mathcal{E}G \to X$ on a space $X$ for each continuous map $f : X \to \mathcal{B}G$ to the [[classifying space]] of $G$, by [[pullback]] of the [[generalized universal bundle|universal bundle]] $\mathcal{E}G \to \mathcal{B}G$ along $f$.
 
