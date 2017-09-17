@@ -32,8 +32,8 @@ There are a host of educated guesses of what non-perturbative string theory migh
 
 Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and largy remains mysterious, if it exists at all.
 
-## How/why does string theory depend on "backgrounds"
- {BackgroundDependence}
+## How/why does string theory depend on "backgrounds"?
+ {#BackgroundDependence}
 
 As discussed at _[What is string theory?](#WhatIsStringTheory)_ one needs to distinguish between perturbative string theory and non-perturbative string theory.
 
