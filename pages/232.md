@@ -222,7 +222,7 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * A category enriched in [[chain complex|chain complexes]] is a [[dg-category]].
 
-* A category enriched in [[simplicial set|simplicial sets]] is called a [[simplicially enriched category|simplicial category]], and these form one model for $(\infty,1)$-[[(infinity,1)-category|categories]].  But beware: the term 'simplicial category' is also used to mean a category [[internalization|internal to]] simplicial sets.  In fact, a category enriched in simplicial sets is a special case of a category internal to simplicial sets, namely one where the simplicial set of object is discrete.
+* A category enriched in [[simplicial set|simplicial sets]] is called a [[simplicially enriched category|simplicial category]], and these form one model for $(\infty,1)$-[[(infinity,1)-category|categories]].  But beware: the term 'simplicial category' is also used to mean a category [[internalization|internal to]] simplicial sets.  In fact, a category enriched in simplicial sets is a special case of a category internal to simplicial sets, namely one where the simplicial set of objects is discrete.
 
 * A category enriched in [[Top]] is a [[topological category]].  These are also a model for $(\infty,1)$-categories.  But again, beware: the term 'topological category' is perhaps more commonly used to mean a category [[internalization|internal to]] Top.  And again: a category enriched in Top is a special case of one internal to Top, namely one where the space of objects is discrete.
 
