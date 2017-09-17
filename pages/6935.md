@@ -20,7 +20,7 @@
 
 ## Idea
 
-An _inductive type_ it...
+An _inductive type_ is...
 
 In terms of [[categorical semantics]], an _inductive type_ is a type whose interpretation is given by an [[initial algebra of an endofunctor]].
 
