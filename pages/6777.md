@@ -15,12 +15,14 @@
 
 ## Definition
 
-In any [[topos]] the pair of classes of morphisms ([[epimorphism]]s, [[monomorphism]]s) forms an [[orthogonal 
-factorization system]].
+An **epi-mono factorization system** is an [[orthogonal 
+factorization system]] in which the left class is the class of [[epimorphisms]] and the right class is the class of [[monomorphisms]].  Such a factorization system exists on any (elementary) [[topos]], and indeed on any [[pretopos]].
 
 ## Properties
 
-This is the special case of the [[n-connected/n-truncated factorization system]] in an [[(∞,1)-topos]] for the case that $(n = -1)$ and restricted to [[0-truncated]] [[object]]s.
+Note that any category which admits an epi-mono factorization system is necessarily [[balanced category|balanced]].  This excludes many commonly occurring categories.  More common are ([[strong epimorphism|strong epi]], mono) and (epi, strong mono) factorization systems; the former exists in any [[regular category]] and the latter in any [[quasitopos]], as well as in other categories such as [[Top]].
+
+The epi-mono factorization system in a topos is the special case of the [[n-connected/n-truncated factorization system]] in an [[(∞,1)-topos]] for the case that $(n = -1)$ and restricted to [[0-truncated]] [[object]]s.
 
 ## Related concepts
 
