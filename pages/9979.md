@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+In the context of [[formal logic]] an _inequality_ is a negation of [[equality]] asserting that two things are _not_ equal , for instance
+
+* [[denial inequality]]
+
+* [[apartness relation]] .
+
+In other contexts an inequality relation means an
+_[[order]]_ relations such as $\le$ and $\lt$.  
+
+[[!redirects inequality relations]]
+
+[[!redirects inequality]]
+[[!redirects inequalities]]
