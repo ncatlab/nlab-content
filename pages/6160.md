@@ -28,14 +28,47 @@ An _algebra spectrum_ or _[[A-∞ algebra]]-spectrum_over a [[ring spectrum]] is
 
 Let $R := H \mathbb{Z}$ be the [[Eilenberg-MacLane spectrum]] for the [[integer]]s. 
 
-+-- {: .num_defn}
++-- {: .num_prop}
 ###### Proposition
 
-There is a [[Quillen equivalence]] between the standard [[model category]] structure for $H \mathbb{Z}$-algebra spectra and the [[model structure on dg-algebras]] (unbounded).
+There is a zig-zag of [[monoidal Quillen adjunction|lax monoidal]] [[Quillen equivalences]]
+
+$$
+  H \mathbb{Z} Mod
+    \stackrel{\overset{Z}{\to}}{\underset{U}{\leftarrow}}
+  Sp^\Sigma(sAb)
+    \stackrel{\overset{L}{\leftarrow}}{\underset{\phi^* N}{\to}}
+  Sp^\Sigma(Ch_+)
+   \stackrel{\overset{D}{\to}}{\underset{R}{\leftarrow}}
+  Ch_\bullet
+  \,,
+$$
+
+between [[monoidal model categories]]satisfying the [[monoid axiom in a monoidal model category]]:
+
+* the model structure for $H \mathbb{Z}$-[[module spectra]];
+
+* the [[model structure on symmetric spectrum objects]] in [[simplicial abelian group]]s and in [[chain complex]]es;
+
+* and the [[model structure on chain complexes]] (unbounded).
+
+This induces a [[Quillen equivalence]] between the corresponding [[model structures on monoids]] in these [[monoidal category]], which on the left is the model structure on $H \mathbb{Z}$-algebra spectra and on the right the [[model structure on dg-algebras]]:
+
+$$
+  H \mathbb{Z} Alg \simeq dgAlg_\mathbb{Z}
+  \,.
+$$
 
 =--
 
 This is due to ([Shipley](#Shipley)).
+
++-- {: .num_remark}
+###### Remark
+
+This is an instance -- or a generalization -- of the [[monoidal Dold-Kan correspondence]]. See there for more details.
+
+=--
 
 ## Related concepts
 
