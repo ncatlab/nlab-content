@@ -23,7 +23,7 @@ Each of these assumptions obtains in any [[abelian category]] and in any [[preto
 
 Most of the AT axioms Freyd introduces can be phrased directly in terms of such [[limit]]s and [[colimit]]s, and these axioms have a simple logical structure: they are just [[Horn theory|Horn clauses]] in the predicates stipulated by these baseline assumptions. This may look like a side comment for logicians, but it may well signal that Freyd intends to invoke, if pressed for details of proofs, one of a battery of representation theorems (such as the representation theorem for regular categories) whose precise expressions involve Horn clauses. 
 
-Anyway, to follow what Freyd is saying here a bit: by making choices for each such universal construction, categories satisfying these assumptions can be considered models of a suitable [[essentially algebraic theory]]. In any case, each of these baseline assumptions can be turned into predicates (e.g., "$(p, q)$ is a pushout pair for pairs of arrows $(f, g)$" is a predicate $P(p, q; f, g)$ for a first-order theory of categories with these baseline assumptions), and the majority of axioms Freyd writes down, in particular all of the first 8 below, are expressible as Horn clauses in such predicates. 
+Anyway, to follow what Freyd is saying here a bit: by making choices for each such universal construction, categories satisfying these assumptions can be considered models of a suitable [[essentially algebraic theory]]. In any case, each of these baseline assumptions can be turned into predicates (e.g., "$(p, q)$ is a pushout pair for pairs of arrows $(f, g)$" is a predicate $P(p, q; f, g)$ for a first-order theory of categories with these baseline assumptions), and the majority of axioms Freyd writes down, in particular all of the first 8 below, are expressible as universal Horn clauses in such predicates. 
 
 The sharp dichotomy which separates A from T is concentrated in the following definition: 
 
@@ -36,7 +36,7 @@ A pretopos will turn out to be precisely an AT category in which every object is
 
 Now here come the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and part of Freyd's point is that any exactness axiom satisfied in both classes of categories is a logical consequence of this set of axioms. Some of Freyd's remarks are included in parentheses. 
 
-A category meeting the baseline assumptions above is an **AT category** if the following axioms are satisfied. 
+A category meeting the baseline assumptions above is an **AT category** if the following 8 axioms plus axiom "AE" are satisfied. 
 
 1. The category is an effective [[regular category]]. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned above.")
 
@@ -72,7 +72,13 @@ Then $T$ preserves pullbacks.
 
 1. Given a morphism $f: X \to Y$, if $T f$ and $0 \times f$ are isomorphisms, then so is $f$. 
 
-This is the basic list of exactness assumptions which permit a sharp comparison between pretoposes and abelian categories. To get at actual topos structure, we'll need to add more axioms, but let's take stock and prove some results. 
+This is the basic list of exactness assumptions which permit a sharp comparison between pretoposes and abelian categories. From this list alone one can prove that every AT category embeds faithfully in a product of a pretopos and an abelian category. To show that every AT category is _equivalent_ to such a product, Freyd appends the following axiom involving an existential Horn condition: 
+
+* **(AE)** For every object $X$, there is a map $\xi: T X \to X$ such that 
+$$0 \times X \stackrel{\pi_1}{\to} X \stackrel{\xi}{\leftarrow} T X$$ 
+is a coproduct diagram, and the canonical map $X \to T X$ is a retraction of $\xi$.  
+
+To bring actual toposes into the picture, Freyd adds some more axioms, but let's first take stock and see what this gives us. 
 
 ## Basic consequences of the AT axioms
 
@@ -276,7 +282,41 @@ The functor $F$ is left exact and therefore preserves kernels. By axiom 8, $F$ r
 
 * **Remark:** With this result, Freyd's "first task" is complete: any AT category may be faithfully represented in a product of a pretopos and an abelian category. 
 
+At this point we bring in axiom **AE** for its debut appearance. It may be helpful to consider that $T X$ is by definition the cokernel appearing in the exact sequence 
 
+$$0 \times X \stackrel{\pi_2}{\to} X \to coker(\pi_2)$$ 
+
+and that axiom AE asserts that this exact sequence splits (with splitting $\xi: coker(\pi_2) \to X$), making $X$ the coproduct of the end terms.  
+
++-- {: .un_prop}
+######Proposition
+The functor $F$ is full. 
+=--
+
++-- {: .proof}
+Suppose given maps $f: 0 \times X \to 0 \times Y$, $g: T X \to T Y$, and contemplate the diagram 
+$$\array{
+0 \times X & \stackrel{\pi_2}{\to} & X & \to & T X \\
+f \downarrow & & & & \downarrow g \\
+0 \times Y & \underset{\pi_2}{\to} & Y & \stackrel{\overset{\xi}{\leftarrow}}{\to} & T Y
+}$$
+Since $X = (0 \times X) + T X$, the two obvious arrows $0 \times X \to Y$, $T X \to Y$ combine to give an arrow $(f, g): X \to Y$. It is straightforward to check that $0 \times (f, g) = f$ (because the functor $0 \times -$ kills the type T summands) and that $T(f, g) = g$. 
+=-- 
+
++-- {: .un_thm} 
+######Theorem
+The functor $F$ is an equivalence. 
+=-- 
+
++-- {: .proof}
+######Proof
+All that is left to check is that $F$ is essentially surjective, but this is clear because given a type A object $X$ and a type T object $Y$, we have $0 \times (X + Y) \cong X$ (use axiom 4 plus the fact that $0 \times Y \cong 0$), and 
+$$T(X + Y) \cong T X + T Y \cong 0 + T Y \cong Y$$
+which completes the proof. 
+=--
+
+## Topos-theoretic considerations 
+ 
 
 
 [[!redirects AT category]]
