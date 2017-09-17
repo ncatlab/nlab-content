@@ -11,4 +11,4 @@ Let $C$ be cocartesian closed.  Since it has an initial object, it is inhabited;
 
 Note that the proof actually applies to any *semi*-cocartesian closed monoidal category, i.e. any closed monoidal category whose unit is an initial object.
 
-On the other hand, there are many co-cartesian *co-closed* categories, namely the [[opposite category]] of any [[cartesian closed category]].
+On the other hand, there are many co-cartesian *[[coclosed monoidal category|co-closed]]* categories, namely the [[opposite category]] of any [[cartesian closed category]].
