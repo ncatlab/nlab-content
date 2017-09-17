@@ -29,4 +29,8 @@ A very useful textbook is:
 
 * M. M. Cohen, _A course in Simple Homotopy Theory_, Grad. Texts in Math, 10, Springer, 1973.
 
+
+An abstract approach to simple homotopy theory is explored in
+
+* K. H. Kamps, [[Tim Porter]], _Abstract homotopy and simple homotopy theory_, World Scientific 1997. 
 [[!redirects simple homotopy theory]]
