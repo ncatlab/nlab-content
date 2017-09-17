@@ -16,9 +16,11 @@
 
 ## Idea
 
-The _localization_ of a [[ring]] $R$ at a [[set]] $S$ of its [[elements]] is a new ring $R[S]^{-1}$ in which the elements of $S$ become invertible ([[unit|units]]) and which is [[universal property|universal]] with this property.
+The _localization_ of a commutative [[ring]] $R$ at a [[set]] $S$ of its [[elements]] is a new ring $R[S]^{-1}$ in which the elements of $S$ become invertible ([[unit|units]]) and which is [[universal property|universal]] with this property. 
 
 When interpreting a ring under [[Isbell duality]] as the ring of functions on some [[space]] $X$, then localizing it at $S$ corresponds to restricting to the subspace $Y \hookrightarrow X$ on which the elements in $S$ vanish.
+
+See also [[commutative localization]] and [[localization of a ring]] (noncommutative). 
 
 ## Definition
 
@@ -54,5 +56,4 @@ The **localization** $L_S \colon R \to R[S^{-1}]$ is a homomorphism to another c
 
 
 [[!redirects localizations of a commutative ring]]
-[[!redirects localization of a ring]]
-[[!redirects localizations of a ring]]
+
