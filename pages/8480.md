@@ -37,7 +37,7 @@ By a suitable choice of space $X$ and endomorphism $f$, this theorem can be used
 
 * Atiyah-Singer; Wood's Hole 
 
-## Examples in lattice theory 
+## Examples for ordered sets 
 
 ### Knaster-Tarski theorem 
 
@@ -71,16 +71,20 @@ Consider the smallest subset $S$ of $L$ which contains $\bot$, and is closed und
 The collection of inflationary endomaps on $S$ has a bottom element (namely, $1_S$) and is closed under directed joins. Observe also that this collection is itself directed; this follows from the fact that if $f$ and $g$ are inflationary, then they are both bounded above by $f \circ g$. Thus the directed join of the collection exists, and it is the maximal element $t$ among all inflationary maps. Observe that $f \circ t \leq t$ and $t \leq f \circ t$. So $f \circ t = t$, and it follows in particular that $t(\bot)$ is a fixed point of $f$. 
 =-- 
 
+### Galois connections 
+
 ## Examples in set theory 
 
 * Countable ordinals 
 
-* Critical points of elementary embeddings 
+* Critical points of elementary embeddings (non-fixed points) 
 
 ## Examples in category theory 
 
 * Initial algebras and final coalgebras 
 
 * Domain theory 
+
+* Adjunctions and adjoint equivalences 
 
 ... 
