@@ -190,7 +190,7 @@ $$
 \cdots  \to sd^n X \to \cdots  \to sd X  \to X
 $$
 
-defined similar to its [[Kan fibrant replacement|simplicial counetrparts]]. Let its [[right adjoint]] be
+defined similar to its [[Kan fibrant replacement|simplicial counterparts]]. Let its [[right adjoint]] be
 denoted as usual by $Ex X$. So $n$-cubes of $Ex X$ are cubical maps from subdivision of the $n$-cube to $X$ (similar to the definition of [[Kan fibrant replacement|simplicial
 Ex-functor]]). We get therefore maps
 
