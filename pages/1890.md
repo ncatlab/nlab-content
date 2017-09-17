@@ -1,11 +1,29 @@
 
-#Idea#
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+#Strong monads#
+* table of contents
+{:toc}
+
+## Idea
 
 A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actions]].
 
-# Definition #
+## Definition 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] 
@@ -52,8 +70,10 @@ Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specif
 * naturalness of unit and product modifications.
 
 
-# References #
+## References 
 
 Usually strong monads are described explicitly in terms of the components of the above structure. The above repackaging of that definition is due to John Baez
 
 * [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
+
+[[!redirects strong monads]]
