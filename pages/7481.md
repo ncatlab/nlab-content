@@ -1,0 +1,14 @@
+
+## Idea
+
+(...)
+
+## References
+
+Internal presheaves in a [[Grothendieck topos]] are discussed in Section V.7 of
+
+* [[Sauders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
+[[!redirects internal sheaves]]
+
+[[!redirects internal sheaf topos]]
