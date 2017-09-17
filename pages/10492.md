@@ -30,6 +30,8 @@ This is the $n=1$ case of the concept [[n-excisive (∞,1)-functor]].
 
 * [[exact (∞,1)-functor]]
 
+* [[n-excisive (∞,1)-functor]]
+
 * [[spectrum object]]
 
 ## References
