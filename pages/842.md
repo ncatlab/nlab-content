@@ -830,6 +830,9 @@ A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/
 [[!redirects (∞,1)-products]]
 [[!redirects (∞,1)-coproducts]]
 
+[[!redirects (∞,1)-pushout]]
+[[!redirects (∞,1)-pushouts]]
+
 
 [[!redirects limit in an (infinity,1)-category]]
 [[!redirects limits in an (infinity,1)-category]]
