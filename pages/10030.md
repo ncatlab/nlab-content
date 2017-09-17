@@ -1,0 +1,77 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _asymptotic series_ is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controled approximation to a given [[function]]. 
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[function]] $f \colon \mathbb{R} \to \mathbb{R}$, a [[formal power series]] $\sum_{n = 0}^\infty a_n x^n$ is an 
+**asymptotic expansion** of $f$ at $x = 0$ if for each $n \in \mathbb{N}$ the [[limit of a sequence|limit]] of the difference between $f$ and the [[sum]] of the first $n$ terms of the series divided by $x^n$ is zero as $x$ tends to 0:
+
+$$
+  \underset{x \to 0}{\lim} \; \frac{1}{x^n}
+  \left(
+    f(x)  - \sum_{k = 0}^n a_k x^k
+  \right)
+  = 0
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This definition makes makes no statement about the behaviour as $n \to \infty$. In particular an asymptotic series may have vanishing [[radius of convergence]] (and nevertheless provide useful approximate information).
+
+=--
+
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+The [[Taylor series]] of a [[smooth function]] at any point is always an [[asymptotic series]], regardless of whether its [[radius of convergence]] vanishes or not.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The [[perturbation series]] in [[quantum field theory]] is typically an asymptotic expansion.
+
+=--
+
+## Related concepts
+
+* [[series]]
+
+* [[Taylor series]]
+
+* [[perturbation series]]
+
+## References
+
+An original article is
+
+* G. Watson, _A theory of asymptotic series_, Philosophical Transactions of the Royal Society of London. Series A, Containing Papers of a Mathematical or Physical Character
+Vol. 211, (1912), pp. 279-313 ([JSTOR](http://www.jstor.org/stable/91005))
+
+Basic introductions include
+
+* _Taylor series and asymptotic expansions_ [pdf](http://www.math.ubc.ca/~feldman/m321/asymptotic.pdf)
+
+* R. Shankar Subramanian, _An Introduction to Asymptotic Expansions_ ([pdf](http://web2.clarkson.edu/projects/subramanian/ch527/supplem/asympt.pdf))
+
+
+[[!redirects asymptotic expansion]]
+[[!redirects asymptotic expansions]]
+
