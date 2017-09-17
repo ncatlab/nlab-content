@@ -37,5 +37,7 @@ $$
 
 ## Related concepts
 
+* [[central charge]]
+
 [[!include gauge field - table]]
 
