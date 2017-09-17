@@ -1,3 +1,3 @@
-Jack Byrne tries a
- <a href="http://www.enviro-clean-services.co.uk/christianlouboutinneww.asp?new=christian-louboutin/christian-louboutin-booties" >Christian Louboutin Slingbacks</a>
-[url=http://www.enviro-clean-services.co.uk/christianlouboutinneww.asp?new=christian-louboutin/christian-louboutin-booties]Christian Louboutin Slingbacks[/url]
+Cefn Druids v Cefn Druids Alumni XI,Michael Kors, kick-off on Tuesday 10 August at 18.45 BST. All proceeds go to Nightingale House Hospice, Wrexham.
+ <a href="http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-furious-4216-c-29.html" >Ray Ban Furious 4216</a>
+[url=http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-furious-4216-c-29.html]Ray Ban Furious 4216[/url]
