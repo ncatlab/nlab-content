@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Factorization systems
 +--{: .hide}
 [[!include factorization systems - contents]]
@@ -17,14 +17,11 @@
 =--
 =--
 
-
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-## Definition
+## Definitions
 
 +-- {: .num_prop}
 ###### Proposition
@@ -91,3 +88,6 @@ A [[model category]]-theoretic discussion is in section 8 of
 * [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
  {#Rezk}
 
+
+[[!redirects n-connected/n-truncated factorization system]]
+[[!redirects (n-connected, n-truncated) factorization system]]
