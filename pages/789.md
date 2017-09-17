@@ -186,5 +186,5 @@ See for instance
 * Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
 
-[[!redirect generalized complex structure]]
-[[!redirect generalized complex structures]]
+[[!redirects generalized complex structure]]
+[[!redirects generalized complex structures]]
