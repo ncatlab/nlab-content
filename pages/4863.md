@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _Kaluza-Klein mechanism_ is the observation that pure [[gravity]] on a product [[spacetime]] $X \times F$ with fixed [[metric]] $g_F$ on $F$ looks on $X$ like gravity coupled to [[Yang-Mills theory]] for [[gauge group]] $G$ the [[Lie group]] of [[isometries]] of $(F,g_F)$.
+The _Kaluza-Klein mechanism_ is the observation that pure [[gravity]] on a [[Cartesian product|product]] [[spacetime]] $X \times F$ with fixed [[metric]] $g_F$ on $F$ looks on $X$, as an [[effective field theory]], like [[gravity]] coupled to [[Yang-Mills theory]] -- [[Einstein-Yang-Mills theory]] -- for [[gauge group]] $G$ the [[Lie group]] of [[isometries]] of $(F,g_F)$.  In particular for $F = S^1$ the [[circle]], it yields [[electromagnetism]] coupled to [[gravity]] (and a dilaton) -- [[Einstein-Maxwell theory]].
 
 ### The mechanism
 
