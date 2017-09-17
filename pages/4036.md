@@ -201,13 +201,12 @@ $$
 
 For $p \in \mathbb{N}$ such that $p(q+1) \gt n$ then $X$ admits a cover by $p$ open balls and such that all nonempty intersections of the covering cells are [[n-connected space|(q−1)-connected]].
 
-=--
 
 ### Refining covers
 
 A cover $\{U_i\to X\}_{i\in I}$ refines another cover $\{V_j\to X\}_{j\in J}$ if each map $V_j\to X$ is some $U_i\to X$.
 
-Each differentially good cover has a unique smallest refinement to a differentially good cover which is closed under intersection.
+Each differentially good cover has a unique smallest refinement to a differentially good cover that is closed under intersection.
 
 ## $n$POV
 
