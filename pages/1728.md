@@ -1,8 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Functorial quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 Recall that an $n$-dimensional [[FQFT]] is a [[symmetric monoidal functor|symmetric monoidal]] $(\infty,n)$-[[n-functor|functor]] from the [[(infinity,n)-category of cobordisms]]. 
 
@@ -31,7 +46,7 @@ So one may think of the codimension $k$ colors as _defects_ where the TQFT that 
 
 In particular, when the QFT on one side of the defect is trivial, then the defect behaves like a _boundary condition_ for the remaining QFT. Since at least for $n=2$ QFT such boundary conditions are also called [[brane]]s, defects are also called [[bi-brane]]s.
 
-#Examples#
+## Examples
 
 * An old example is the class of [[Turaev-Reshetikhin TQFT]], which is a functor on 3-dimensional [[cobordisms]] with codimension 3 and 2 defects. This is supposed to be the would-be result of [[Chern-Simons theory]], where the defect lines are the original [[Wilson line]]s in this context.
 
@@ -45,7 +60,7 @@ In particular, when the QFT on one side of the defect is trivial, then the defec
 
   * See the discussion at [Planar Algebras, TFTs with Defects](http://golem.ph.utexas.edu/category/2008/09/planar_algebras_tfts_with_defe.html) for a start.
 
-#Formulation in terms of transformations of TQFTs#
+## Formulation in terms of transformations of TQFTs
 
 Based on techniques used in his work on the [[2-category of 2-dimensional cobordisms]], [[Chris Schommer-Pries]] shows that a [[TQFT]] with given collection of defects is the same as collection of natural transformations between ordinary [[FQFT|functorial QFTs]] (functors on an [[(infinity,n)-category of cobordisms]]):
 
@@ -56,3 +71,11 @@ This in particular connects to the attempt at
 * [Towards 2-functorial CFT](http://golem.ph.utexas.edu/category/2007/08/dbranes_from_tin_cans_part_x.html)
 
 to encode the decoration prescription in the FFRS description of [[conformal field theory]] in terms of the components of transformations of the Reshetikhin-Turaev 3d TFT functor.
+
+## References
+
+Section 4.3 of 
+
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+
+* [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
