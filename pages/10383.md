@@ -26,6 +26,33 @@
 
 All of [[physics]] has two aspects: a local or even [[infinitesimal object|infinitesimal]] aspect, and a global aspect. Much of traditional lore deals just with the local and infinitesimal aspects -- the _[[perturbative field theory|perturbative]]_ aspects_ and [[fiber bundles]] play little role there. But they are the all-important structure that govern the global -- the _[[non-perturbative field theory|non-perturbative]]_ -- aspect. [[bundles|Bundles]] are the _global_ structure of [[physical fields]] and they are irrelevant only for the crude local and perturbative description of reality.
 
+##  Basic idea of the definition of fiber bundles
+ {#BasicIdeaOfDefinition}
+
+One way to think of fiber bundles is that they are the data to _globally twist functions_ (on [[spacetime]], say) where "global twist" is much in the sense of "global [[anomaly]]" and the like, namely an effect visible on topologically nontrivial spaces when moving around non-contractible cycles. The concept of _[[monodromy]]_ -- which may be more familiar to physicists -- is closely related: monodromy is something exhibited by a [[connection on a bundle]] and specifically by a [[flat connection|flat bundle]]. For a [[discrete group|discrete]] structure group ([[gauge group]]) _every_ bundle is flat, and in this case non-trivial bundles and non-trivial [[monodromy]] come down to essentially the same thing (see also at _[[local system]]_).
+
+More explicitly, suppose $X$ denotes [[spacetime]] and $F$ denotes some space that one wants to map into. For instance $F$ might be the [[complex numbers]] and a [[free field|free]] [[scalar field]] would be a [[function]]  $X\to F$. For the following it is useful to talk about functions a bit more indirectly: observe that the [[projection]] $F \times X \to X$ from the [[product]] of $F$ with $X$ down to $X$ is such that a [[section]] of this map is precisely a function $X \to F$. We think of $X \times F \to X$ as encoding the fact that there is one copy of $F$ associated with each point of $X$, and think of a function with values in $F$ as something that, of course, takes values in $F$ over each point of $X$. One says that $X \times F \to X$ is the _trivial_ $F$-[[fiber bundle]] over $X$.
+
+The point being that more generally we may add a global "twist" to the $F$-valued functions by making the space $F$ vary a bit as we move along $X$. For a [[fiber bundle]] one requires that it doesn't change _much_: in fact the word "fiber" in "[[fiber bundle]]" refers to the fact that _all_ fibers (over all points of $X$) are _[[equivalence|equivalent]]_. But the point is that any $F$ may be equivalent to _itself_ in more than one way (it may have "[[automorphisms]]"), and this allows non-trivial global structure even though all fibers look alike.
+
+In this sense, a general $F$-[[fiber bundle]] on some $X$ is defined to be a [[space]] $P$ equipped with a map $P \to X$ to the base space $X$ (e.g. to spacetime), such that _locally_ it looks like the trivial $F$-fiber bundle, up to equivalence. To say this more technically: $P \to X$ is called an $F$-[[fiber bundle]] if there exists a [[cover]] ([[open cover]]) of $X$ by patches (e.g. [[coordinate charts]]!) $U_i \to X$ for some index set $I$, such that for each patch $U_i$ (with $i \in I$) there exists a fiberwise [[equivalence]] between the restriction $P|_{U_i}$ of $P$ to $U_i$, and the trivial $F$-fiber bundle $F\times U_i \to U_i$ over the patch $U_i$.
+
+To say this again in terms of sections: this means that a [[section]] of $P$ is locally on each ([[coordinate chart|coordinate]]) patch $U_i$ simply an $F$-valued function,but when we change patches (change coordinates) then there may be a non-trivial [[gauge transformation]] that relates the values of the function on one patch to that on another patch, where they overlap.
+
+Even if this may seem a bit roundabout on first sight, this is actually something at the very heart of modern physics, in that it embodies the two central principles of modern physics, namely
+
+1. the _principle of locality_;
+
+1. the _gauge principle_.
+
+The first roughly says that every global phenomenon in physics must come from local data. In the above discussion this means that any "globally $F$-valued thing on spacetime $X$" must come from just $F$-valued functions on local (coordinate) charts $U_i \hookrightarrow X$ of spacetime. BUT -- and this is key now --, second, the _gauge principle_ says that we may never strictly identify any two phenomena in physics (neither locally nor globally) but we must always ask instead for [[gauge transformations]] connecting two maybe seemingly different phenomena. Hence combining the gauge principle with the locality principle means that if an $F$-valued something on spacetime is locally given by plain $F$-valued functions, then it should globally given by gluing these $F$-valued functions together not by _identification_ but by [[gauge equivalence]]. The result may be a structure that has global twists, and the nature of these global twists is precisely what an $F$-fiber bundle embodies.
+
+
+
+
+
+## Examples of fiber bundles in physics
+
 For instance the [[gauge fields]] in [[Yang-Mills theory]], hence in [[electromagnetism]], in [[QED]] and in [[QCD]], hence in the [[standard model of particle physics|standard model of the known universe]], are not really just the local [[differential 1-forms]] "$A_\mu^a$" known from so many textbooks, but are _globally_ really [[connections on principal bundles]] (or their [[associated bundles]]) and this is all-important once one passes to [[non-perturbative field theory|non-perturbative]] [[Yang-Mills theory]], hence to the full story, instead of its infinitesimal or local approximation.
 
 Notably what is called a _[[Yang-Mills instanton]]_ in general and the _[[QCD instanton]]_ in particular is nothing but the underlying nontrivial class of the principal bundle underlying the Yang-Mills [[gauge field]]. Specifically, what physicists call the _[[instanton number]]_ for [[special unitary group|SU(2)]]-[[gauge field theory]] in 4-dimensions is precisely what mathematically is called the [[Chern class|second Chern-class]], a "[[characteristic class]]" of these gauge bundles.
