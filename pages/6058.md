@@ -21,7 +21,7 @@ We try to indicate some of the content. There are two main ingredients:
 
 which proposes a refinement of the ingredients of [[topological T-duality]] to [[differential cohomology]]; and then the
 
-* [statement of differential T-duality](#StatementOfDifferential T-duality),
+* [statement of differential T-duality](#StatementOfDifferentialTduality),
 
 which is the assertion that this setup naturally induces the T-duality operation as an [[isomorphism]] on [[twisted differential K-theory]].
 
@@ -31,7 +31,7 @@ which is the assertion that this setup naturally induces the T-duality operation
 (...)
 
 ## Statement of differential T-duality
- {#StatementOfDifferential T-duality} 
+ {#StatementOfDifferentialTDuality} 
 
 (...)
 
