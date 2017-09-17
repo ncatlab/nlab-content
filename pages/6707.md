@@ -17,7 +17,7 @@
 
 ## Definition
 
-For $X$ a [[manifold]], a [[spin^c structure]] exists precisely if the third [[Steifel-Whitney class]] $W_3(X)$ vanishes. The space of _twisted_ $spin^c$-structures for twist a given class $[c] \in H^3(X, \mathbb{Z})$ is the [[homotopy fiber]] of the refined Stiefel-Whitney class over this element.
+For $X$ a [[manifold]], a [[spin^c structure]] exists precisely if the third [[Stiefel-Whitney class]] $W_3(X)$ vanishes. The space of _twisted_ $spin^c$-structures for twist a given class $[c] \in H^3(X, \mathbb{Z})$ is the [[homotopy fiber]] of the refined Stiefel-Whitney class over this element.
 
 ## Related concepts
 
@@ -49,3 +49,7 @@ The origin of twisted $Spin^c$-structures on the [[worldvolume]] of [[D-brane]]s
 A more recent review is provided in
 
 * Kim Laine, _Geometric and topological aspects of Type IIB D-branes_ ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
+
+[[!redirects spin^c structures]]
+[[!redirects Freed-Witten anomaly]]
+[[!redirects Freed-Witten anomaly cancellation]]
