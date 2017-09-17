@@ -20,7 +20,9 @@
 
 In the context of [[homological algebra]] [[derived functor]]s are traditionally considered on a [[model structure on chain complexes]] and often they are evaluated only on chain complexes that are concentrated in a single degree. If instead they are evaluated on general chain complexes, one sometimes speaks of **hyper-derived functors** for emphasis.
 
-Compare this to the usage of the term [[hypercohomology]]. This, too, is really just the basic definition of cohomology, but not restricted to [[Eilenberg-MacLane object]]s concentrated in a single degree.
+## Examples
+
+If [[abelian sheaf cohomology]] is considered in terms of the [[derived functor]] of the [[global section]] functor, then the corresponding hyper-derived functor is [[hypercohomology]]. This, too, is really just the basic definition of (abelian) [[cohomology]], but not restricted to [[Eilenberg-MacLane object]]s concentrated in a single degree.
 
 ## Properties
 
