@@ -1,0 +1,11 @@
+
+## Related concepts
+
+* [[Landau-Ginzburg model]]
+
+## References
+
+* Wikipedia, _[Superconductivity](http://en.wikipedia.org/wiki/Superconductivity)_
+
+[[!redirects superconductor]]
+[[!redirects superconductors]]
