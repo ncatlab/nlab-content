@@ -1018,6 +1018,12 @@ $$
 
   * **synthetic differential ∞-groupoid**
 
+  * [[super ∞-groupoid]]
+
+  * [[smooth super ∞-groupoid]]
+
+  * [[synthetic differential super ∞-groupoid]]
+
 ## References
 
 The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
