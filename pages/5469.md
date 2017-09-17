@@ -23,7 +23,7 @@
 A [[sheaf topos]] $\mathcal{E}$ is called **strongly connected** if it is a [[locally connected topos]]
 
 $$
-  (\Pi_0 \dashv \Delta \dashv \Gamma) : \mathcal{E} \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}}} Set
+  (\Pi_0 \dashv \Delta \dashv \Gamma) : \mathcal{E} \stackrel{\overset{\Pi_0}{\longrightarrow}}{\stackrel{\overset{\Delta}{\longleftarrow}}{\underset{\Gamma}{\longrightarrow}}} Set
 $$
 
 such that the extra [[left adjoint]] $\Pi_0$ in addition preserves finite [[product]]s (the [[terminal object]] and binary products).
