@@ -1,0 +1,3 @@
+Let $k$ be a field.
+
+An affine $k$-scheme $X$ is called finite if $O(X)$ is a finite dimensional vector space.
