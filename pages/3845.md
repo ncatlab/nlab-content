@@ -1,6 +1,17 @@
 
-> under construction
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -72,11 +83,28 @@ Thus, the formal definition of pasting diagram will include conditions which imp
 
 ## References
 
-A formal definition and discussion of pasting diagrams in [[strict omega-categories]] is in
+The notion of pasting in a [[2-category]] was introduced in
+
+* [[Jean Benabou]], _Introduction to bicategories_ , in _Lecture Notes in Mathematics_ Vol. 47, pp. l-77, Springer-Verlag, New York/Berlin, (1967)
+
+An survey discussion of pasting in [[2-categories]] is in 
+
+* [[John Power]], _2-Categories_ ([pdf](http://www.brics.dk/NS/98/7/BRICS-NS-98-7.pdf))
+
+from definition 2.10 on. Details are in
+
+* [[John Power]], _A 2-categorical pasting theorem_ , Journal of Algebra
+Volume 129, Issue 2, March 1990, Pages 439-445 
+
+A definition and discussion of pasting diagrams in [[strict omega-categories]] is in
 
 * [[Sjoerd Crans]], _Pasting presentation for Omega-categories_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.4342))
 
 * Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
+
+There is also
+
+* [[Michael Makkai]], _Computads and 2 dimensional pasting diagrams_ ([pdf](http://www.math.mcgill.ca/makkai/2dcomputads/2DCOINS1.pdf))
 
 [[!redirects pasting diagrams]]
 [[!redirects pasting]]
