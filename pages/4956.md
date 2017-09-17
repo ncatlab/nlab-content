@@ -40,7 +40,7 @@ $$
 The functoriality of differentiation is immediate from the above definition. The property that differentiation is functorial is known in the literature as the [[chain rule]].
 
 
-## Exposition of differentiation via infintiesimals
+## Exposition of differentiation via infinitesimals
  {#ExpositionDifferentiationViaInfinitesimal}
 
 
@@ -187,7 +187,7 @@ $$
   \,.
 $$
 
-This is the function on infintitesimal paths in the line that only depends on the starting point of a path, not on the length of the path, and which sends that starting point to the value of $f$ on that point. Therefore by slight abuse of notation we just keep writing "$f$" for this function.
+This is the function on infinitesimal paths in the line that only depends on the starting point of a path, not on the length of the path, and which sends that starting point to the value of $f$ on that point. Therefore by slight abuse of notation we just keep writing "$f$" for this function.
 
 The second combination is
 
@@ -217,7 +217,7 @@ $$
    \,.
 $$
 
-This is evident, if maybe still somewhat mysterious, in the internal language of the ambient [[smooth topos]] that we keep alluding to, but to make it entirely explicit and concret notice that the functions here are dually morphisms of smooth algebras
+This is evident, if maybe still somewhat mysterious, in the internal language of the ambient [[smooth topos]] that we keep alluding to, but to make it entirely explicit and concrete notice that the functions here are dually morphisms of smooth algebras
 
 $$
   C^\infty(\mathbb{R}) \otimes (\mathbb{R} \oplus dx \mathbb{R})
@@ -332,7 +332,7 @@ This is the differential of $f$ regarded as a map of tangent bundles.
 
 ## References
 
-Disucssion of differential forms as functions on infinitesimal simplices is in 
+Discussion of differential forms as functions on infinitesimal simplices is in 
 
 * [[Herman Stel]], _Cosimplicial $C^\infty$ rings and the de Rham complex of Euclidean space_ ([arXiv:1310.7407](http://arxiv.org/abs/1310.7407))
  {#Stel13}
