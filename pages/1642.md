@@ -28,7 +28,7 @@ Precisely, a __semigroup__ is, equivalently,
 
 ## Properties
 
-Some semigroups happen to be [[monoid]]s; even then, a semigroup homomorphism might not be a monoid homomorphism (because it might not preserve the identity element).  Nevertheless, semigroup [[isomorphisms]] must be monoid isomorphisms.  Thus, the identity element of a monoid forms a [[property-like structure]] on the underlying semigroup.
+Some semigroups happen to be [[monoid]]s; even then, a semigroup [[homomorphism]] might not be a monoid homomorphism (because it might not preserve the identity element).  Nevertheless, semigroup [[isomorphisms]] must be monoid isomorphisms.  Thus, the identity element of a monoid forms a [[property-like structure]] on the underlying semigroup.
 
 As a monoid is a [[category]] with one object, so a semigroup is a [[semicategory]] with one object.
 
