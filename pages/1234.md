@@ -119,6 +119,11 @@ _[[numerical motives]]_.
 * R. Sujatha, _Motives from a categorical point of view_,  Lecture notes (2008) ([pdf](http://www.math.tifr.res.in/~sujatha/ihes.pdf))
  {#Sujatha}
 
+Section 8.2 of 
+
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_  ([pdf](http://www.alainconnes.org/docs/bookwebfinal.pdf))
+
+
 
 category: algebraic geometry
 
