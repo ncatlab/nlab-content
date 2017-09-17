@@ -14,7 +14,10 @@
 
 ## Idea
 
-A _filtered colimit_ is a [[colimit]] over a [[diagram]] which is a [[filtered category]].
+Most of the earliest instances of limits and colimits used in mathematics were for diagrams indexed by the partially ordered set of natural numbers, so these were 'sequential' (co)limits, but another very important class of limits and colimits involved situations that generalised intersections and unions. If one is looking at a family of subsets of some set, then one can close it up under finite intersections and/or unions (if they are not already included) and use it to index diagrams.  For instance, the family of continuous functions defined on open neighbourhoods of some point in a space will have this property.  It was noticed that these limits and colimits behaved very nicely and a closer look showed that it was the (co)filtering nature of the indexing category that was the key. 
+
+
+A _filtered colimit_ is thus a [[colimit]] over a [[diagram]] which is a [[filtered category]].
 Taken in a suitable category such as [[Set]] the colimit being filtered is equivalent to it commuting with [[finite limits]]. 
 
 More generally, for $\kappa$ a [[regular cardinal]], a _$\kappa$-filtered_ colimit is one over a $\kappa$-filtered category, and when taken with values in [[Set]] this are precisely the colimits that commute with $\kappa$-small limits. 
