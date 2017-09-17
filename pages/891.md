@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -36,9 +36,13 @@ These notions have generalizations when $C$ is an [[(∞,1)-category]]:
 
 For instance an [[action groupoid]] is a quotient of a group action in 2-category theory.
 
-## Related concepts
+## Examples
+
+* [[quotient set]]
 
 * [[quotient group]]
+
+* [[quotient module]]
 
 ## Related concepts
 
