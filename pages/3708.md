@@ -129,6 +129,9 @@ $$
 
 is an [[equivalence of categories]]. This is shown at [[module]].
 
+###References###
+
+* David Roberts, Urs Schreiber and Todd Trimble, [Tangent Categories](http://www.math.uni-hamburg.de/home/schreiber/tangcat.pdf)
 =--
 
 
