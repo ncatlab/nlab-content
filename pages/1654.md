@@ -95,9 +95,10 @@ which is given by the weighted colimit construction $W \mapsto W \cdot F$.
 
 To be filled in. 
 
+
 #References#
 
 * Very nice descriptions on the n-Cafe by:
   * [John Baez](http://golem.ph.utexas.edu/category/2007/02/day_on_rcfts.html#c007688)
   * [Todd Trimble](http://golem.ph.utexas.edu/category/2007/02/day_on_rcfts.html#c007723)
-* Notes by Emily Riehl, [Weighted Limits and Colimits](http://www.math.uchicago.edu/~eriehl/weighted.pdf)
+* Notes by Emily Riehl based on a talk by Mike Shulman [Weighted Limits and Colimits](http://www.math.harvard.edu/~eriehl/weighted.pdf)
