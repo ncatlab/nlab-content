@@ -1,0 +1,54 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[symmetric monoidal category]] (possibly taken to be [[internal category|internal to]] [[Top]]) in which [[associativity]] holds strictly.
+
+## Definition
+
+([May, def. 1](#May)) ([Elmendorf-Mandell, def. 3.1](#ElmendorfMandell)).
+
+## Properties
+
+Every [[symmetric monoidal category]] is [[equivalence of categories|equivalent]] to a permutative one ([Isbell](#Isbell)). 
+
+## Related concepts
+
+* [[K-theory of a permutative category]]
+
+* [[bipermutative category]]
+
+## References
+
+An original account is in
+
+* [[John Isbell]], _On coherent algebras and strict algebras_, J. Pure Appl. Algebra 13 (1969)
+
+Discussion in the context of [[K-theory of a permutative category]] is in
+
+* [[Peter May]], _The spectra associated to permutative categories_, Topology 17 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/23.pdf))
+ {#May}
+
+* [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
+ {#ElmendorfMandell}
+
+
+[[!redirects permutative categories]]
