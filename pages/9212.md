@@ -1,0 +1,15 @@
+
+An $n \times n$-[[matrix]] $U \in Mat(n, \mathbb{C})$ with entries in the [[complex numbers]] is **unitary** if the following equivalent conditions hold
+
+* it preserves the canonical [[inner product]] on $\mathbb{C}^n$;
+
+* the operation $(-)^\dagger$ of [[transpose matrix|transposing]] it and then appying [[complex conjugation]] to all its entries takes it to itself:
+
+  $$
+    U^\dagger = U
+    \,.
+  $$
+
+The unitary matrices under [[matrix product]] form a [[Lie group]]: the _[[unitary group]]_.
+
+[[!redirects unitary matrices]]
