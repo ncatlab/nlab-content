@@ -19,16 +19,32 @@
 
 ## Definition
 
-There are two different notions of a dense [[subcategory]] $D$ of a [[category]] $C$:
+There are two different notions of _dense [[subcategory]]_ $D$ of a given [[category]] $C$:
 
 1. A subcategory $D\subset C$ is __dense__ if every [[object]] in $C$ is canonically a [[colimit]] of objects in $D$.  
 
-   This is equivalent to saying that the inclusion $D\hookrightarrow C$ is a [[dense functor]].  See also the relevant section of [[Categories Work]] and the entries on [[nerve]], [[geometric realization]] and [[singular functor]].  An older name for a dense subcategory in this sense is an **adequate subcategory**.
+   This is equivalent to saying that the inclusion [[functor]] $D\hookrightarrow C$ is a [[dense functor]].  
 
-2. A subcategory $D\subset C$ is __dense__ if every object $c$ of $C$ has a $D$-expansion, that is a morphism $c\to\bar{c}$ of [[pro-object]]s in $D$ which is universal ([[initial object|initial]]) among all morphisms of pro-objects in $D$ with source $c$. 
+   An older name for a dense subcategory in this sense is an **adequate subcategory**.
 
-   This second notion is used in [[shape theory]]. An alternative name for this is a [[pro-reflective subcategory]], that is a subcategory for which the inclusion has a [[proadjoint]].
+2. A subcategory $D\subset C$ is __dense__ if every object $c$ of $C$ has a $D$-expansion, that is a [[morphism]] $c\to\bar{c}$ of [[pro-objects]] in $D$ which is [[universal property|universal]] ([[initial object|initial]]) among all morphisms of pro-objects in $D$ with [[domain]] $c$. 
+
+   This second notion is used in [[shape theory]]. An alternative name for this is a **pro-reflective subcategory**, that is a subcategory for which the inclusion has a [[proadjoint]].
+
+## Applications
+
+* A [[dense functor]] $S \hookrightarrow C$ into a [[locally small category]] $C$ induces a good notion of [[nerve]] $N : C \to [S^{op}, Set]$ of objects in $C$ with values in the [[presheaves]] on $S$. See [[nerve]] and [[nerve and realization]] for more on this.
+
+## Related concepts
+
+* [[dense functor]]
 
 
+## References
+
+See the relevant section of [[Categories Work]]. 
 
 [[!redirects dense subcategories]]
+
+[[!redirects pro-reflective subcategory]]
+[[!redirects pro-reflective subcategories]]
