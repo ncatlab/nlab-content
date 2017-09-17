@@ -325,6 +325,8 @@ The [[orientals]] related simplices to [[globes]].
 
 ## Related concepts
 
+* [[vertex]], [[edge]]
+
 * [[horn]], [[boundary of a simplex]], [[spine]]
 
 * [[globe]], 
