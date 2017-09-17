@@ -11,6 +11,7 @@
 
 **Cat** is a name for the [[category]] or [[2-category]] of all [[category|categories]].  
 
+This is also the archetypical [[2-topos]].
 
 ## Definition
 
