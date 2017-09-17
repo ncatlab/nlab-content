@@ -14,29 +14,86 @@
 {:toc}
 
 ## Definition
+ {#Definition}
 
 ### In an abelian category
+ {#InAbelianCategory}
 
-A [[short exact sequence]] $0\to A\to B\to C\to 0$ in an [[abelian category]] is said to be **split** if there exists an [[isomorphism]] of sequences with the sequence $0\to A\to A\oplus C\to C\to 0$, given by the [[direct sum]] and its canonical morphisms.
+Let $\mathcal{A}$ be an [[abelian category]].
 
-This is equivalent to the existence of a [[section]] of $B\to C$ or a [[retract]] $B\to A$.
++-- {: .num_defn #SplitnessInAbelianCategory}
+###### Definition
 
-Generally, a [[long exact sequence]] $C_\bullet$ is _split exact_ if the [[weak homotopy equivalence]] from the 0-chain complex, namely the [[quasi-isomorphism]] $0 \to C_\bullet$ is actually a [[chain homotopy]]-[[homotopy equivalence]], in that the [[identity]] on $C_\bullet$ has a [[null homotopy]]. 
+A [[short exact sequence]] $0\to A\to B\to C\to 0$ in $\mathcal{A}$ 
+is called **split** if either of the following equivalent conditions hold
+
+1. There exists a [[section]] of $B\to C$ 
+
+1. There exists a [[retract]] $B\to A$.
+
+1. There exists an [[isomorphism]] of sequences with the sequence 
+
+   $$
+     0\to A\to A\oplus C\to C\to 0
+   $$
+
+   given by the [[direct sum]] and its canonical morphisms.
+
+=--
+
++-- {: .num_lemma #SplittingLemma}
+###### Lemma
+**(splitting lemma)**
+
+The three conditions in def. \ref{SplitnessInAbelianCategory} are indeed [[equivalence|equivalent]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...) e.g. [here](http://en.wikipedia.org/wiki/Splitting_lemma#Proof) (...)
+
+=--
 
 
++-- {: .num_prop}
+###### Proposition
+
+A [[long exact sequence]] $C_\bullet$ is _split exact_ precisely if the [[weak homotopy equivalence]] from the 0-chain complex, namely the [[quasi-isomorphism]] $0 \to C_\bullet$ is actually a [[chain homotopy]]-[[homotopy equivalence]], in that the [[identity]] on $C_\bullet$ has a [[null homotopy]]. 
+
+=--
 
 ### In a semi-abelian category
 
 There is a nnabelian analog of split exact sequences in [[semiabelian categories]]. See there.
 
+## Properties
+
+### Of vector spaces
+ {#OfVectorSpaces}
+
+Let $k$ be a [[field]] and denote by $\mathcal{A} \coloneqq k$[[Vect]] the [[category]] of [[vector spaces]] over $k$.
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[short exact sequence]] of vector spaces is split.
+
+=--
+
+
 ## References
 
 For instance section 1.4 of 
 
-* [[Charles Weibel]], _[[An Introduction to Homological Alhgebra]]_
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
 
 [[!redirects split sequence]]
 
 [[!redirects split exact sequences]]
 [[!redirects split sequences]]
+
+[[!redirects splitting lemma]]
+
