@@ -13,12 +13,16 @@
 * table of contents
 {:toc}
 
+## Idea
+
+![scale graphics](http://www.learner.org/courses/physics/visual/img_half/length_scale.jpg)
+
 
 ## Related entries
 
-* [[cosmology]]
+* [[cosmology]], [[standard model of cosmology]]
 
-* [[standard model of cosmology]]
+* [[particle physics]], [[standard model of particle phyiscs]]
 
 ## References
 
