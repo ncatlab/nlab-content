@@ -1,0 +1,8 @@
+
+* [Wikpedia entry](http://en.wikipedia.org/wiki/David_Albert)
+
+## Related entries
+
+* [[philosophy of physics]]
+
+category: people
