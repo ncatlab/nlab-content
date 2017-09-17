@@ -15,9 +15,24 @@
 
 ## Idea
 
-Pointless topology is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  (A pointless space must still be this set with [[extra stuff]], of course, as long as there is a [[functor]] mapping a space to its set of points.)  Pointless topology *has* points, but they are not fundamental; and a particular [[space]] may well have no points and yet be far from [[empty space|empty]].
+__Pointless topology__ is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  (A pointless space must still be this set with [[extra stuff]], of course, as long as there is a [[functor]] mapping a space to its set of points.)  Pointless topology *has* points, but they are not fundamental; and a particular [[space]] may well have no points and yet be far from [[empty space|empty]].
 
 In [[locale theory]], for example, one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion.  In [[formal topology]], one studies a set of *[[base for a topology|basic]]* open subspaces (with the extra structure of a [[posite]] with [[positivity predicate|positivity]], although the [[isomorphisms]] of formal spaces don\'t respect these sets).
+
+In contrast, the traditional way of doing topology using points may be called __pointwise topology__.
+
+
+## Definition
+
+In the interest of considering whether a formulation of topology is pointless or not, I offer the following sociomathematical suggestion at a definition:
+
+Working in a given [[logic|logical]] context $\mathcal{L}$, suppose that one defines a [[category]] (or $(\infty,1)$-[[(infinity,1)-category|category]]) $S$, whose [[objects]] one thinks of as [[spaces]] and whose [[morphisms]] one thinks of as [[continuous maps]].  Suppose further that one intends $Hom(X,Y)$ to be the [[set]] (or $\infty$-[[infinity-groupoid|groupoid]]) of *all* continuous maps from $X$ to $Y$ (whereas $Ob(S)$ need not be the class of all spaces).  Also suppose that $S$ has a [[terminal object]] $pt$, which one interprets as the [[point]].
+
++-- {: .num_defn}
+###### Definition
+
+The above is a __pointwise__ formulation of topology if it is [[proof|provable]] (in $\mathcal{L}$) that $pt$ is a [[generator]] in $S$ but __pointless__ if this is not provable.  (One could have stronger notions of pointlessness by asking that this be refutable; if using [[intuitionistic logic]], this could be further strengthened.)
+=--
 
 
 ## References
@@ -31,3 +46,8 @@ This is, in its own words, to be read as the trailer for Johnstone's book _[[Sto
 For [[formal topology]], see
 
 *  [[Giovanni Sambin]] (2001); _Some points in formal topology_; [pdf](http://www.math.unipd.it/~sambin/txt/SP.pdf).
+
+
+[[!redirects pointless topology]]
+[[!redirects pointwise topology]]
+[[!redirects point-wise topology]]
