@@ -42,6 +42,12 @@ where
 There is a [[Quillen equivalence]] to the [[model structure on dg-coalgebras]].
 
 
+## Related concepts
+
+* [[model structure on dg-coalgebras]]
+
+* [[model structure for L-∞ algebras]]
+
 ## References
 
 This goes back to appendix B of
