@@ -36,4 +36,11 @@ Although by analogy, it would seem that a modern perspective should prefer the t
 ...
 
 
+## Literature
+
+* P. J. Cohen, _Set theory and the continuum hyupothesis_, Benjamin, New York 1966
+* G. E. Reyes, _Typical and generic in a Baire space for relations_, thesis 1967
+* [[Abraham Robinson]], _Infinite forcing in model theory_,  in Proc. 2nd Scand. Logic Synp. pp. 317-340, ed. J. E. Fenstad
+* Jon Barwise ed. _Handbook of mathematical logic_, 1977, in chapters by Macintyre, Burgess and Keisler
+* J. R. Schoenfield, _Unramified forcing_, pp. 383--395 in: Axiomatic set theory, vol. 1, ed. D. S. Scott, Proc. Symp. Pure Math. __13__ (1971)
 [[!redirects forcing]]
