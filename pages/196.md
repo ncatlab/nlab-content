@@ -82,6 +82,8 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 * [[(∞,n)-functor]]
 
+* [[motivic function]]
+
 
 [[!redirects function]]
 [[!redirects functions]]
