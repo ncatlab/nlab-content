@@ -259,7 +259,7 @@ Recall -- from the discussion at [[connection on an ∞-bundle]] -- that $\infty
 
 $$
   \array{
-    \Omega^\bullet(X) \otimes C^\infty(\Delta^n)
+    C^\infty(X) \otimes_{cpl} \Omega^\bullet(\Delta^n)
     &\stackrel{A_{vert}}{\leftarrow}&
     CE(\mathfrak{g})
     &&&
@@ -267,14 +267,14 @@ $$
     \\
     \uparrow && \uparrow
     \\
-    \Omega^\bullet(X) \otimes \Omega^\bullet(\Delta^n)
+    \Omega^\bullet(X \times \Delta^n)
     &\stackrel{A}{\leftarrow}&
     W(\mathfrak{g})
     &&& connection
     \\
     \uparrow && \uparrow
     \\
-    (\Omega^\bullet(X)\otimes C^\infty(\Delta^n))_{cl}
+    \Omega^\bullet(X)
     &\stackrel{\langle F_A \rangle}{\leftarrow}&
     inv(\mathfrak{g})
     &&&
@@ -378,12 +378,12 @@ $$
 $$
 
 and this in turn acts on field configurations 
-$\Pi^{inf}(X) \to cone(\mathfrak{g})$ by precomposition
+$\mathbf{\Pi}_{inf} \to inn(\mathfrak{g})$ by precomposition
 
 $$
   \cdots \mapsto 
-  (\Pi^{inf}(X) \stackrel{\exp(v)}{\to}
-  \Pi^{inf}(X) \to cone(\mathfrak{g})) 
+  (\mathbf{\Pi}_{inf}(X) \stackrel{\exp(v)}{\to}
+  \mathbf{\Pi}_{inf}(X) \to inn(\mathfrak{g})) 
   \,.
 $$
 
