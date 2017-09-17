@@ -60,16 +60,13 @@ As the union is the [[coproduct]] in the [[category of open subsets]] $Op(X)$, w
 The ambient space $X$ is a [[compact object]] in $Op(X)$.
 =--
 
-At least assuming the [[axiom of choice]], compactness can also be characterized in terms of universal closure: 
+Under the [[axiom of choice]], the open cover formulation of compactness implies a universal closure formulation, and is implied by it even in the absence of choice:  
 +-- {: .num_defn #projection}
 ###### Definition
 For any space $Y$, the projection map $X \times Y \to Y$ is closed.
 =--
-+--{.query}
-I'm not entirely sure that the axiom of choice is needed to prove the last equivalence. It's easy (and classical) that the projection map is closed if $X$ is compact. For the other direction, I know a proof which involves taking $Y$ to be the space of ultrafilters on the underlying set of $Y$, but there may be some other choice(s) for $Y$ which allows one to get around AC.
-=--
 
-A [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
+Closely related to the previous definition, a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
 +-- {: .num_defn #quantification}
 ###### Definition
 For any space $Y$ and any open subset $U$ of $X \times Y$, the subset
