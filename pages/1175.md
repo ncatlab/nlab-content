@@ -67,6 +67,10 @@ To be done...
 ### Modular Theory
 [[modular theory]]
 
+### Miscellaneous
+
+* [[split inclusion of von Neumann algebras]]
+
 #Remarks#
 
 * Von Neumann algebras may also be defined abstractly as (abstract) $C^*$-algebras with a predual.
