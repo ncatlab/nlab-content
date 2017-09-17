@@ -80,7 +80,7 @@ picks the copy of $U$ at parameter $t$.
 
 =--
 
-So a smooth path is a smooth 1-form on the cylinder $U \times [0,1]$ and it is _pure shift_ if it has no "leg" along the $[0,1]$-direction. We will see that $\iota_{\partial_t} \hat A$ is infinitesimal gauge transformation, while $\partial_t \hat A$ is infinitesimal shift of the connection.
+So a smooth path is a smooth 1-form on the cylinder $U \times [0,1]$ and it is _pure shift_ if it has no "leg" along the $[0,1]$-direction. We will see that $\iota_{\partial_t} \hat A$ ancodes infinitesimal gauge transformations, while $\partial_t \hat A$ is the change by infinitesimal shifts minus infinitesimal gauge transformations of the connection.
 
 
 +-- {: .un_def}
@@ -114,7 +114,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Write the fiber integration more explicitly as a [[Riemann integral]]
+Write the fiber integration more explicitly as an [[integral]]
 
 $$
   CS_P(A_0,A_1) =
