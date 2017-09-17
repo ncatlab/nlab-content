@@ -3,3 +3,5 @@
 More widely, combinatorics is also studying various *deterministic* algorithms on finite sets with structure, involving counting, coloring and simple-minded elementary steps/decisions. When studying some other structure, which is not necessarily a finite structure, one can use "combinatorial arguments' at some step, or develop a construction which is partly combinatorial. Some subclasses of examples of structures in mathematics are fully combinatorial in their nature. For example, there are so called **combinatorial games** in game theory.
 
 Some of the questions in set and model theory concerning the fine questions on cardinality of infinite sets (and their independence from various axioms in [[set theory]]) are often called the "infinitary combinatorics". 
+
+[[!redirects combinatorial]]
