@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -18,7 +17,7 @@
 
 ### Discrete
 
-A __$K$-linear map__ (also __$K$-linear function__ or __$K$-linear operator__) is a [[morphism]] in $K$-[[Vect]] (or $K$-[[Mod]]), that is a [[homomorphism]] of [[vector spaces]] (or [[modules]]).  Often one suppresses mention of the [[field]] (or [[commutative ring]] or [[rig]]) $K$.
+A __$K$-linear map__ (also __$K$-linear function__, __$K$-linear operator__, or __$K$-linear transformation__) is a [[morphism]] in $K$-[[Vect]] (or $K$-[[Mod]]), that is a [[homomorphism]] of [[vector spaces]] (or [[modules]]).  Often one suppresses mention of the [[field]] (or [[commutative ring]] or [[rig]]) $K$.
 
 In elementary terms, a __$K$-linear map__ between $K$-[[linear spaces]] $V$ and $W$ is a [[function]] $T\colon V \to W$ such that
 $$ T(r x + y) = r T(x) + T(y) ,$$
@@ -60,6 +59,9 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 [[!redirects linear mappings]]
 [[!redirects linear function]]
 [[!redirects linear functions]]
+
+[[!redirects linear transformation]]
+[[!redirects linear transformations]]
 
 [[!redirects linear operator]]
 [[!redirects linear operators]]
