@@ -1,0 +1,8 @@
+
+A __meromorphic function__ is a complex-[[analytic function]] valued in the [[Riemann sphere]].  Compare a [[holomorphic function]], which is valued in the [[complex plane]] (the Riemann sphere minus a point).
+
+
+[[!redirects meromorphic function]]
+[[!redirects meromorphic functions]]
+[[!redirects meromorphic map]]
+[[!redirects meromorphic maps]]
