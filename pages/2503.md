@@ -167,7 +167,8 @@ $$
 
 The morphism $CE(\mathbf{b}^2 \mathfrak{u}(1)) \to CE(e b \mathfrak{u}(1))$ is the one that identifies the two degree-3 generators.
 
-Now $CE(\mathbf{b}^2 \mathfrak{u}(1))$ and $CE(\mathbf{e b} \mathfrak{u}(1))$ are [[Sullivan algebra]]s, hence are cofibrant objects in the [[model structure on dg-algebra]]s. The dg-algebra $CE(\mathfrak{g})$ is not quite a Sullivan algebra, but almost: it is a [[semifree dga]] and only fails to have the filtering property on the differential.  It seems we claim that this is sufficient to compute the homotopy pushout. (...details...) 
+Now $CE(\mathbf{b}^2 \mathfrak{u}(1))$ and $CE(\mathbf{e b} \mathfrak{u}(1))$ are [[Sullivan algebra]]s, hence are cofibrant objects in the [[model structure on dg-algebra]]s. The dg-algebra $CE(\mathfrak{g})$ is not quite a Sullivan algebra, but almost: it is a [[semifree dga]] and only fails to have the filtering property on the differential.  This is sufficient for computing the desired [[homotopy fiber]], as discussed at <a href="http://ncatlab.org/nlab/show/infinity-Lie+algebra+cohomology#Extensions">∞-Lie algebra cohomology -- Extensions</a>.
+
 
 One observes now that 
 
