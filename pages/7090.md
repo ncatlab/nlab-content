@@ -1,0 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
+The [[characteristic classes]] of [[universal principal ∞-bundles]] are called _universal characteristic classes_. Every other characteristic class arises by pullback from a universal characteristic class.
+
+[[!redirects universal characteristic classes]]
