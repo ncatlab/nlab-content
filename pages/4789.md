@@ -24,7 +24,7 @@
 
 ## Idea
 
-A _Chern-Simons element_ on an [[∞-Lie algebroid]] is an element of its [[Weil algebra]] that exhibits a [[transgression]] between an [[∞-Lie algebroid cocycle]] and an [[invariant polynomial]].
+A _Chern-Simons element_ on an [[∞-Lie algebroid]] (named after [[Shiing-shen Chern]] and [[James Simons]] who considered this for [[semisimple Lie algebras]]) is an element of its [[Weil algebra]] that exhibits a [[transgression]] between an [[∞-Lie algebroid cocycle]] and an [[invariant polynomial]].
 
 It is construct that arises in the presentation of the [[∞-Chern-Weil homomorphism]] by an [[∞-anafunctor]] of [[simplicial presheaves]].
 
@@ -1172,6 +1172,10 @@ Symplectic Lie $n$-algebroids are discussed in
 
   _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
 {#Roytenberg}
+
+A talk about the historical origins of the standard Chern-Simons forms see
+
+* [[Jim Simons]], _Origin of Chern-Simons_ talk at Simons Center for Geometry and Physics (2011) ([video](http://media.scgp.stonybrook.edu/video/video.php?f=20110728_1_qtp.mp4))
 
 
 [[!redirects Chern-Simons elements]]
