@@ -77,9 +77,15 @@ See the article by Selinger below for more examples.
 
 ### Original articles {#OriginalArticles}
 
-An early amplification of the use of string-diagram notation as an alternative for the traditional index-calculus for tensors is due to  [[Roger Penrose]]. 
+String diagrams first in [[Max Kelly]] and Laplaza's paper on [[coherence theorem for monoidal categories|coherence for compact closed categories]], and again
+in [[Ross Street]]'s work with [[Andre Joyal]] in the mid-80's
 
-* Roger Penrose, _Applications of negative dimensional tensors_ , in Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf))
+Probably [[David Yetter]] was the first (at least in public) to write them  with "coupons" (a term used by [[Nicolai Reshtikhin]] and [[Turaev]] a few months later) to represent maps
+which aren't inherent in the (braided or symmetric compact closed) monoidal structure.
+
+An early amplification of the use of string-diagram notation as an alternative for the traditional index-calculus for [[tensors]] is due to  [[Roger Penrose]]. 
+
+* [[Roger Penrose]], _Applications of negative dimensional tensors_ , in Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf))
 
 ### Surveys
 
