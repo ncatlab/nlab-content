@@ -2,8 +2,13 @@
 Jonathan Pridham is a mathematician based in Trinity College, Cambridge.  His publication and preprint list is [here](http://www.dpmms.cam.ac.uk/~jpp24/).
 
 
-Of particular interest is his recent preprint on the representability of derived stacks: [here](http://arxiv.org/PS_cache/arxiv/pdf/1011/1011.2189v2.pdf).
+## related entries
 
+* [[model structure for L-infinity algebra]]
+
+* [[geometric infinity-stacks]]
+
+* [[Representability Theorems]]
 
 category: people
 
