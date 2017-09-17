@@ -28,7 +28,7 @@ It is possible to extend the theorem to certain types of [[von Neumann algebras]
 
 ### Implications for Quantum Logic
 
-Roughly, Gleason's theorem says that "a quantum state is completly determined by only knowing the answers to all of the possible yes/no questions".
+Roughly, Gleason's theorem says that "a quantum state is completely determined by only knowing the answers to all of the possible yes/no questions".
 
 
 ## Abstract
