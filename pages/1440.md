@@ -129,6 +129,11 @@ The $(\infty,1)$-category of derived smooth manifolds has derived cup products f
 
 This is ([Spivak, theorm 1.8](#Spivak)).
 
+## Related concepts
+
+* [[dg-manifold]]
+
+
 ## References
 
 The definition of derived smooth manifolds is indicated at the very end of 
