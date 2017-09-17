@@ -2,9 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category theory
+#### Enriched category theory
 +--{: .hide}
-[[!include category theory - contents]]
+[[!include enriched category theory - contents]]
+=--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
 =--
 #### Homological algebra
 +--{: .hide}
