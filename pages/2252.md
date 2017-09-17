@@ -65,7 +65,7 @@ A (locally) noetherian formal scheme is a formal completion of a (locally) noeth
 
 ## Other approaches
 
-The formal spectrum can be extended to a somewhat bigger class of topological rings than the noetherian ones; Grothendieck developed the theory in the generality of [[pseudocompact space|pseudocompact]] topological rings. However, some important rings, e.g. the ring of integers $\mathbb{Z}$, do not have a pseudocompact topology. Thus one could try to consider a more general subcategory of ind-schemes (with at least the requirement that the [[ind-object]] be represented by a diagram where the connecting morphisms are [[closed subscheme|closed immersions of schemes]]); one such approach is outlined in some detail in 
+The formal spectrum can be extended to a somewhat bigger class of topological rings than the noetherian ones; Grothendieck developed the theory in the generality of [[pseudocompact space|pseudocompact]] topological rings. However, some important rings, e.g. the ring of [[integers]] $\mathbb{Z}$, do not have a pseudocompact topology. Thus one could try to consider a more general subcategory of [[ind-schemes]] (with at least the requirement that the [[ind-object]] be represented by a diagram where the connecting morphisms are [[closed subscheme|closed immersions of schemes]]); one such approach is outlined in some detail in 
 
 * A. Beilinson, V. Drinfel'd, _Quantization of Hitchin's integrable system and Hecke eigensheaves on Hitchin system_, preliminary version ([pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
 
