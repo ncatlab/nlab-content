@@ -83,7 +83,7 @@ of formal convex combinations of elements of $X$ and let $Kl(D)$ denote the [[Kl
 
 And now comes the eponymous feature: The category $Hilb$ is a [[dagger category]] and the dagger morphism $(-)^\dagger:Hilb^{op}\to Hilb$ is the identity on objects and complex conjugationn on morphisms. An endomorphism $f:X\to X$ is called to be a *positive endomorphism* if there is a $g$ such that $f=g^\dagger\circ g$ and a predicate on $X$ is called to be an **effect** (on $X$) if $p_1$ and $p_2$ are positive. Another name for effect is "unsharp predicate"; in this terminology a "sharp predicate" is a subset of the set of projections onto $X$.
 
-
+(5) In a C*-algebra the elements between 0 and 1 form an effect algebra with $(1-a)$ as the complement of $a$.
 
 ## Reference
 
