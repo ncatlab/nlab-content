@@ -6,7 +6,7 @@ _The Catsters_ is a group at Sheffield University, around
 who create nicely pedagogical and informative videos that teach [[category theory]].
 
 * YouTube: [The Catster Channel](http://www.youtube.com/user/TheCatsters)
-* [The videos in order.](https://www.scss.tcd.ie/Edsko.de.Vries/ct/catsters/linear.php)
+* [The videos in order.](http://www.simonwillerton.staff.shef.ac.uk/TheCatsters/)
 
 
 category: people
