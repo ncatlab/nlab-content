@@ -6,6 +6,9 @@
 | $A$ | $Mod_A$ |
 | $R$-[[associative algebra|algebra]] | $Mod_R$-[[2-module]] |
 | [[sesquialgebra]] | [[2-ring]] = [[monoidal category|monoidal]]  [[presentable category]] with [[colimit]]-preserving [[tensor product]] |
-| [[bialgebra]] | strict [[2-ring]]: including [[fiber functor]] |
+| [[bialgebra]] | strict [[2-ring]]: [[monoidal category]] with [[fiber functor]] |
 | [[Hopf algebra]] | [[rigid monoidal category]] with [[fiber functor]] |
-| [[triangular Hopf algebra]] | commutative [[2-ring]]:  [[symmetric monoidal category]] |
+| [[quasitriangular bialgebra]] | [[braided monoidal category]] with [[fiber functor]] |
+| [[triangular bialgebra]] | [[symmetric monoidal category]] with [[fiber functor]] |
+| [[quasitriangular Hopf algebra]] ([[quantum group]]) | [[rigid monoidal category|rigid]] [[braided monoidal category]] with [[fiber functor]] |
+| [[triangular Hopf algebra]] | [[rigid monoidal category|rigid]] [[symmetric monoidal category]] with [[fiber functor]] |
