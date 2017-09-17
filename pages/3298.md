@@ -1664,8 +1664,7 @@ A survey of traditional higher order Hochschild (co)homology and further develop
 
 A discussion of higher order Hochschild cohomology from a more general $(\infty,1)$-categorical perspective is in 
 
-* [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_ ([pdf](http://websupport1.citytech.cuny.edu/faculty/ttradler/HighHoch.pdf))
-{#GinotTradlerZeinalian}
+* [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483){#GinotTradlerZeinalian}
 
 General homotopy-theoretic setups and results for contexts in which this makes sense are in
 
