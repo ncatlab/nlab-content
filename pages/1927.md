@@ -6,10 +6,6 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
-#### Higher category theory
-+--{: .hide}
-[[!include higher category theory - contents]]
-=--
 =--
 =--
 
@@ -20,77 +16,38 @@
 
 ## Idea
 
-* [[effective epimorphism]] $\Rightarrow$ [[regular epimorphism]] $\Leftrightarrow$ [[covering]]
+An _effective epimorphism_ is a [[morphism]] $c\to d$ in a [[category]] which behaves in the way that a [[covering]] is expected to behave, in the sense that "$d$ is the union of the parts of $c$, identified with each other in some specified way".
 
-* [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
+A morphism with a [[kernel pair]] (such as any morphism in a category with [[pullbacks]]) is an effective epimorphism if and only if it is a [[regular epimorphism]] and a [[strict epimorphism]].  For morphisms without kernel pairs, the notion of effective epimorphism is of questionable usefulness.
 
 
 ## Definition 
 
-
-+-- {: .num_defn}
-###### Definition
-
-
-An **effective epimorphism** in a [[category]] $C$ is a [[morphism]] $f : c \to d$ that has a [[kernel pair]] $c \times_d c$ and is the [[quotient object]] of this kernel pair in that 
+An **effective epimorphism** in a [[category]] $C$ is a [[morphism]] $f : c \to d$ that has a [[kernel pair]] $c \times_d c$ and is the [[quotient object]] of this kernel pair, in that 
 
 $$
-  c \times_d c \stackrel{\to}{\to} c \stackrel{f}{\to} d
+  c \times_d c \;\rightrightarrows\; c \overset{f}{\to} d
 $$
 
-is a [[colimit]] diagram (a [[coequalizer]]).  
+is a [[colimit]] diagram (a [[coequalizer]]).
 
-In other words this says that $f : c \to d$ is effective if $d$ is the [[coimage]] of $f$.
+In other words, this says that $f : c \to d$ is effective if $d$ is the [[coimage]] of $f$.
 
 Sometimes we say that such morphism $f$ is an [[effective quotient]].
 
-=--
-
 The [[duality|dual]] concept is that of [[effective monomorphism]].
 
-+-- {: .num_remark}
-###### Remark
 
-This is equivalent to saying that $f$ is a [[regular epimorphism]] which has a kernel pair, since any morphism which is a coequalizer and has a kernel pair must be the coequalizer of its kernel pair.  (This is a special case of the theory of [[generalized kernels]].)
+## Relationship to other epimorphism classes
 
-=--
+Every effective epimorphism is, of course, a [[regular epimorphism]] and hence a [[strict epimorphism]].  Conversely, a strict epimorphism which *has* a kernel pair is necessarily an effective epimorphism.  (This is a special case of the theory of [[generalized kernels]].)  For this reason, some writers use "effective epimorphism" in general to mean what is here called a [[strict epimorphism]].
 
-+-- {: .num_remark}
-###### Remark
-
-The reader should be aware that some writers use "effective epimorphism" to mean what is here called a [[strict epimorphism]].
-
-=--
-
-
-## Properties
-
-* An effective epimorphism is necessarily a [[regular epimorphism]].  Conversely, any regular epimorphism that has a kernel pair is an 
-effective epimorphism.
 
 ## Examples
 
-+-- {: .num_prop}
-###### Proposition
+* In [[Set|the category of sets]], every [[epimorphism]] is effective.  Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using effective epimorphisms.
 
-In [[Set|the category of sets]], every [[epimorphism]] is effective. 
-
-=--
-
-Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using effective epimorphisms.
-
-
-More generally: 
-
-
-+-- {: .num_prop}
-###### Proposition
-
-In every [[topos]] every [[epimorphism]] is an effective epimorphism
-
-=--
-
-For instance ([MacLane-Moerdijk, theorem IV.7.8](#MacLaneMoerdijk)).
+* More generally, in any [[pretopos]], every [[epimorphism]] is an effective epimorphism.  See, for instance, ([MacLane-Moerdijk, theorem IV.7.8](#MacLaneMoerdijk)).
 
 ## Related concepts
 
@@ -109,5 +66,3 @@ In toposes effective epimorphisms are considered in section IV.7 of
 [[!redirects effective epi]]
 [[!redirects effective epimorphism]]
 [[!redirects effective epimorphisms]]
-
-
