@@ -24,8 +24,8 @@ There are similar functors for  [[bimodules]] and in some other categories.
 
 ## Definition
 
-Let $R$ and $S$ be [[rings]] and let 
-$f \colon S\to R$ 
+Let $R$ and $S$ be [[commutative rings]] and let 
+$f \colon R\to S$ 
 be a [[homomorphism]] of [[rings]]. 
 
 We discuss _extension of scalars_ along $f$ first [[category theory|general abstractly]] and then explicitly in components.
@@ -37,16 +37,16 @@ Write $R$[[Mod]] and $S$[[Mod]] for the [[categories of modules]] over $R$ and $
 +-- {: .num_defn #RestrictionOfScalars}
 ###### Definition
 
-Given a [[ring]] [[homomorphism]] $f : S \to R$ the **[[restriction of scalars]]** functor
+Given a [[ring]] [[homomorphism]] $f : R \to S$ the **[[restriction of scalars]]** functor
 
 $$
-  f^* : R Mod \to S Mod
+  f^* : S Mod \to R Mod
 $$
 
-is the [[functor]] that takes an $R$-[[module]] $N$ to the $S$-module $f^*N$ whose underlying [[abelian group]] is that of $N$ and whose $S$-[[action]] is given by
+is the [[functor]] that takes an $S$-[[module]] $N$ to the $R$-module $f^*N$ whose underlying [[abelian group]] is that of $N$ and whose $R$-[[action]] is given by
 
 $$
-  s \cdot n \coloneqq f(s)\cdot n \;\;\;\; for s \in S, n \in N
+  r \cdot n \coloneqq f(r)\cdot n \;\;\;\; for r \in R, n \in N
   \,.
 $$
 
@@ -71,7 +71,7 @@ $$
 +-- {: .num_defn #ExtensionByAdjoint}
 ###### Definition
 
-The [[left adjoint]] $f_!$ in prop. \ref{AdjointPair} is called **extension of scalars** along $f$.
+The [[left adjoint]] $f_! \colon R Mod \to S Mod$ in prop. \ref{AdjointPair} is called **extension of scalars** along $f$.
 
 =--
 
@@ -87,19 +87,19 @@ A further [[right adjoint]] $f_*$ would be called _[[coextension of scalars]]_ a
 +-- {: .num_prop}
 ###### Proposition
 
-Given a [[ring]] [[homomorphism]] $f : S \to R$, the _extension of scalars_ [[functor]] $f_!$ of def. \ref{ExtensionByAdjoint} is the functor
+Given a [[ring]] [[homomorphism]] $f : R \to S$, the _extension of scalars_ [[functor]] $f_!$ of def. \ref{ExtensionByAdjoint} is the functor
 
 $$ 
-  f_! \coloneqq  R \otimes_S (-) \,:\, S Mod \to R Mod
+  f_! \coloneqq  S \otimes_R (-) \,:\, R Mod \to S Mod
 $$ 
 
-given by [[tensor product of modules]] with $R$ regarded as an $R$-$S$-[[bimodule]]: the left [[action]] being the canonical action of $R$ on itself, the right being the [[restriction of scalars]]-action along $f$.
+given by [[tensor product of modules]] with $S$ regarded as an $S$-$R$-[[bimodule]]: the left [[action]] being the canonical action of $S$ on itself, the right being the [[restriction of scalars]]-action along $f$.
 
 Explicitly, for $N \in S Mod$ 
 
-* the elements of $f_! N$ are [[equivalence classes]] of pairs $(r,n) \in R \times N$ under the [[equivalence relation]] $ (r \cdot f(s), n) = (r, s\cdot n) $ for all $s \in S$;
+* the elements of $f_! N$ are [[equivalence classes]] of pairs $(s,n) \in S \times N$ under the [[equivalence relation]] $ (s \cdot f(r), n) = (s, r\cdot n) $ for all $s \in S$;
 
-* the left $R$-[[action]] is given by $r' \cdot(r,n) = (r' \cdot r,n)$.
+* the left $S$-[[action]] is given by $s' \cdot(s,n) = (s' \cdot s,n)$.
 
 =--
 
@@ -126,11 +126,19 @@ $$
 
 of affine schemes. 
 
-At least heuristically, an $R$-[[module]] $N$ corresponds to the collection of [[sections]] of a [[bundle]] over $Spec(R)$. The [[pullback]] of this bundle along $Spec(f)$ has sections forming the module $f^* N$.
+An $R$-[[module]] $N$ corresponds to the collection of [[sections]] of a "generalized [[vector bundle]]" over $Spec(R)$: something that has a [[quasicoherent sheaf]] of sections. 
+
+The [[pullback]] of this "bundle" along $Spec(f)$ has sections forming the module $f_! N$.
 
 Generally, for any [[fibered category]] like [[Mod]]$\to Aff$ we may regard the [[inverse image functor]] as the extension of scalars. 
 
 For that reason if there is some other fibered category $\mathcal{F}$ over the opposite of some algebraic category $\mathcal{A}$ whose objects are considered "objects of scalars" one is inclined to call the inverse image functor, the extension of scalars. 
+
+## Examples
+
+* [[complexification]] is extension of scalars along the inclusion $\mathbb{R} \hookrightarrow \mathbb{C}$ of the [[real numbers]] into the [[complex numbers]].
+
+* [[localization of a module]]
 
 ## Related concepts
 
