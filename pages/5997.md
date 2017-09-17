@@ -52,7 +52,7 @@ For $n = -1$ this says that [[effective epimorphisms in an (∞,1)-category]] ha
 +-- {: .num_prop}
 ###### Proposition
 
-For all $n$, the $n$-connected/$n$-truncated factorization system is [[stable factorization system|stable]]: the class of [[n-connected]] morphisms is preserves under [[(∞,1)-pullback]].
+For all $n$, the $n$-connected/$n$-truncated factorization system is [[stable factorization system|stable]]: the class of [[n-connected]] morphisms is preserved under [[(∞,1)-pullback]].
 
 =--
 
