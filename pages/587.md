@@ -12,7 +12,7 @@ In [[logic]], the **context** of an assertion (or judgement) consists of all of 
 
 Generally, a context is thought of as relative to some underlying logical theory.  This underlying theory will contain most of the assumptions of what constitutes validity; the context of an assertion in this theory will then include only those extra assumptions that may be used by that assertion.  On the other hand, one could also think of the entire base theory as part of the context.
 
-For example, in the theory of a [[group]], it is understood that there is a group $G$, that $G$ has various elements, that two elements of $G$ may be [[equality|equal]], that any two elements of $G$ have as product an element of $G$, and that various equational laws are satisfied (which we will not list here).  However, the validity and meaningful of an assertion that two elements of $G$ commute will depend on the context.
+For example, in the theory of a [[group]], it is understood that there is a group $G$, that $G$ has various elements, that two elements of $G$ may be [[equality|equal]], that any two elements of $G$ have as product an element of $G$, and that various equational laws are satisfied (which we will not list here).  That is all taken for granted when discussing a group.  However, the validity and meaningfulness of an assertion that two elements of $G$ commute will depend on (the rest of) the context.
 
 To be more explicit, the assertion that $a$ and $b$ commute does not make sense without the additional context that $a$ and $b$ are elements of $G$.  Even in that context, this assertion, while at least meaningful, is not valid.  However, if we add to the context the assumption that $(a b)^2 = a^2 b^2$, then the assertion is valid.  Written symbolically,
 $$ \vdash\; a b = b a $$
@@ -34,6 +34,7 @@ Even if one is completely uninterested in [[internalization]] or weak logics, a 
 
 
 ## The category of contexts
+{#catcon}
 
 The morphisms between contexts are **substitutions**, or **interpretations**.  Such a morphism from the context $\Gamma$ to the context $\Delta$ consists of a way of fulfilling the assumptions required by $\Delta$ by appropriately interpreting those provided by $\Gamma$, generally by substituting terms available in $\Gamma$ for variables needed in $\Delta$ and proving whatever is necessary from the assumptions at hand.
 
