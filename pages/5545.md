@@ -45,3 +45,5 @@ is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
 (...)
 
+
+[[!redirects atlases]]
