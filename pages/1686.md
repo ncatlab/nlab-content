@@ -106,7 +106,7 @@ Then one says that
 +-- {: .num_example #Degeneration}
 ###### Example
 
-If for a spectral sequence there is $r_s$ such that all [[differentials]] on pages after $r_s$ vanish, $\partial^{r \geq r_s} = 0$, then $\{E^{r_s}\}_{p,q}$ is limit term for the spectral sequence. One says in this cases that the spectral sequence **collapses** at $r_s$.
+If for a spectral sequence there is $r_s$ such that all [[differentials]] on pages after $r_s$ vanish, $\partial^{r \geq r_s} = 0$, then $\{E^{r_s}\}_{p,q}$ is limit term for the spectral sequence. One says in this cases that the spectral sequence **degenerates** at $r_s$.
 
 =--
 
@@ -739,6 +739,11 @@ Reviews of and lecture notes on standard definitions and facts about spectral se
 * Ravi Vakil, _Spectral Sequences: Friend or Foe?_ ([pdf](http://math.stanford.edu/~vakil/0708-216/216ss.pdf)) 
 
 * Brandon Williams, _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
+
+Original articles incluce
+
+* [[Michael Boardman]], _Conditionally convergent spectral sequences_ ([pdf](http://hopf.math.purdue.edu/Boardman/ccspseq.pdf))
+ {#Boardman}
 
 See also 
 
