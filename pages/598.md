@@ -60,7 +60,7 @@ The [[category]] of simplicial groups is the category of functors from $\Delta^{
 
 ### General
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem (J. C. Moore)
 
 The [[simplicial set]] underlying any simplicial group
@@ -68,7 +68,9 @@ The [[simplicial set]] underlying any simplicial group
 
 =--
 
-In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an algorithm that provide explicit fillers.  This implies that constructions on a simplicial group that use fillers of horns can often be adjusted to be functorial by using the algorithmically defined fillers.  An argument that just uses 'existence' of fillers can be refined to give something more 'coherent'.
+This is due to ([Moore, 1955](#Moore))
+
+In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an algorithm that provides explicit fillers.  This implies that constructions on a simplicial group that use fillers of horns can often be adjusted to be functorial by using the algorithmically defined fillers.  An argument that just uses 'existence' of fillers can be refined to give something more 'coherent'.
 
 
 +-- {: .proof}
@@ -664,6 +666,7 @@ and chapter 8 of
 The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. This is originally due to
 
 * J. C. Moore, _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
+ {#Moore}
 
 In fact, it seems that this is the origin of the very notion of [[Kan complex]].
 
