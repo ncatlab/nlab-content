@@ -172,11 +172,7 @@ This higher Klein geometry is the local model for the [[higher Cartan geometry]]
 
 ## Related concepts
 
- local model                |   global geometry
-----------------------------|-----------------
- [[Klein geometry]]         |   [[Cartan geometry]]
- [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
- _higher Klein geometry_    |   [[higher Cartan geometry]]
+[[!include local and global geometry - table]]
 
 
 [[!redirects higher Klein geometries]]
