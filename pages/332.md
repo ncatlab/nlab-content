@@ -4,7 +4,7 @@ See also [[topology]].
 
 * [[differential geometry]], [[differential topology]], [[Diff]], [[cobordism]]
 * [[differential form]], [[tangent space]], [[tangent bundle]]. [[cotangent bundle]], [[cotangent complex]]
-* [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]], [[multisymplectic geometry]], [[n-symplectic manifold]], [[foliation]], [[integrable distribution]]
+* [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]], [[multisymplectic geometry]], [[n-symplectic manifold]], [[foliation]], [[integrable distribution]], [[G-structure]]
 * [[fibre bundle]], [[principal bundle]], [[noncommutative principal bundle]], [[vector bundle]]
 * [[connection]] (and links therein)
 * [[Morse function]], [[Morse lemma]], [[Morse theory]], [[perfect Morse function]]
