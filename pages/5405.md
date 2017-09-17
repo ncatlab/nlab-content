@@ -289,6 +289,8 @@ This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functio
 
 ## Related concepts
 
+* [[analytification]]
+
 * [[Tannaka duality for Lie groupoids]]
 
 * [[Bondal-Orlov reconstruction theorem]]
@@ -299,8 +301,8 @@ This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functio
 
 The above material is taken from
 
-* [[Jacob Lurie]], _Tannaka duality for geometric stacks_, ([arXiv:math.AG/0412266](http://arxiv.org/abs/math/0412266))
-{#Lurie}
+* {#Lurie} [[Jacob Lurie]], _Tannaka duality for geometric stacks_, ([arXiv:math.AG/0412266](http://arxiv.org/abs/math/0412266))
+
 
 The generalization to geometric stacks in the context of [[Spectral Schemes]] is in 
 
