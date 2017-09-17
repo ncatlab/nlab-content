@@ -188,6 +188,10 @@ An introduction to $\Theta_n$-spaces_ (2009) ([pdf](http://www.math.uiuc.edu/~re
 
 The definition of the categories $\Theta_n$ goes back to [[Andre Joyal]] who also intended to define [[n-category|n-categories]] using it.
 
+Further developments are in 
+
+* [[Julia Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty, n)$-categories, I_ ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
+
 The note on the $(n+1,k+1)$-$\Theta$-space of all $(n,k)$-$\Theta$-spaces comes from communication with [[Charles Rezk]] [here](http://mathoverflow.net/questions/5867/n1-r1-theta-space-of-n-r-theta-spaces).
 
 
