@@ -154,6 +154,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
      * [[KLT relations]]
 
+* [[S-matrix theory]]
+
 [[!include table of branes]]
 
 ## References
