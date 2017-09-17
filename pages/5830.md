@@ -34,6 +34,12 @@ Where [[extensional type theory]] is the [[internal language]] of [[locally cart
 
 Some details are still being worked out, but the impression is that homotopy type theory thus should serve as a [[foundation]] for [[mathematics]] that is natively about [[homotopy theory]]/[[(∞,1)-category theory]].
 
+## Properties
+
+### Models
+
+It is well known that [[extensional type theory|extensional]] [[dependent type theory]] is essentially the [[internal logic]] of [[locally cartesian closed categories]]. The step from extensional to [[intensional type theory]] and the [[identity types]] that this brings with it makes intensional dependent type theors have models in certain [[(∞,1)-categories]]. The conjecture is ([Joyal, 2011](#Joyal)) that intensional dependent type theory with the [[univalence axiom]], hence homotopy type theory, is the internal language of [[locally cartesian closed (∞,1)-categories]].
+
 ## Machine implementation
 
 An important aspect of HoTT is the fact that [[intensional type theory|intensional]] [[Martin-Löf type theory]] has a computational implementation in proof assistants like [[Coq]] and [[Agda]].
@@ -165,18 +171,19 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 ### Introductions
 
-Introductions to HoTT are at
+Introductions to the idea of homotopy type theory include
 
 * [[Steve Awodey]], _Type theory and homotopy_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf))
  {#Awodey}
 
 * [[Michael Shulman]], _Homotopy type theory_ [I](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html), [II](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html), [III](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html), [IV](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html), [V](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_v.html), [VI](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html)
 
-
-* _Homotopy type theory_ , Oberwolfach Reports 11-2011, [pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf)
-
 * [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#Voevodsky}
+
+A guided walk through the formal proof in [[Coq]] that the [[univalence axiom]] implies [[functional extensionality]] is at
+
+* [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
 
 
 ### General
@@ -185,6 +192,11 @@ A blog serving as a base for the HoTT community is at
 
 * _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
  {#HoTTSite}
+
+Reports from a workshop on homotopy type theory are in 
+
+* _Homotopy type theory_ , Oberwolfach Reports 11-2011, ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf)).
+
 
 ### Models
 
@@ -205,6 +217,11 @@ and with more details in
 
 What is not yet shown is that these models also validate the [[univalence axiom]]. This is currently only known to be the case for the standard [[model structure on simplicial sets]], hence for the archetypical [[(∞,1)-topos]] [[∞Grpd]] of [[discrete ∞-groupoids]].
 
+In
+
+* [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
+
+is explicitly stated the conjecture that the models of HoTT are [[locally cartesian closed (∞,1)-categories]].
 
 ### Syntax
 
@@ -222,7 +239,7 @@ What is not yet shown is that these models also validate the [[univalence axiom]
 ### Code
  {#Code}
 
-The basic [[Coq]]-code libraries that set up [[identity types]] and the resultin homotopy type theory are at
+The basic [[Coq]]-code libraries that set up [[identity types]] and the resulting homotopy type theory are at
 
 * [https://github.com/HoTT/HoTT/tree/master/Coq](https://github.com/HoTT/HoTT/tree/master/Coq)
 
