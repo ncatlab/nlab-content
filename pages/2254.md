@@ -113,7 +113,7 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
  
 * [[Daniel Quillen]], on the formal group laws of unoriented and complex cobordism theory, 1969, [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183530915)
 
-* [[Jacob Lurie]], _Chromatic Homotopy Theory_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
  {#Lurie10}
 
 
@@ -125,5 +125,4 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 [[!redirects formal group law]]
 [[!redirects formal group laws]]
-
 
