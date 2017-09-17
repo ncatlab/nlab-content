@@ -29,6 +29,8 @@ an [[cosmic inflation|inflationary]] [[FRW spacetime]] with [[cosmological const
 
 * [[MOND]]
 
+* [string theory FAQ -- Does string theory tell us anything about cosmology, such as the Big bang or cosmic inflation?](string+theory+FAQ#InsightsIntoCosmology)
+
 [[!include standard model of fundamental physics - table]]
 
 
