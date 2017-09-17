@@ -1,8 +1,48 @@
-[[!redirects fibre]]
-[[!redirects fibres]]
-[[!redirects fibers]]
 
-Given a [[bundle]] $p: E \to B$ and a [[global element]] $x: 1 \to B$, the __fibre__ or __fiber__ $E_x$ of $(E,p)$ over $x$ is simply the [[pullback]]
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _fiber_ of a [[morphism]] or [[bundle]] $f : E \to B$ over a [[point]] of $B$ is the collection of [[generalized element|elements]] of $E$ that are mapped by $f$ to this point.
+
+## Definition
+
++-- {: .num_defn }
+###### Lemma
+
+For $f : A \to B$ a [[morphism]] in a [[category]] and $B$ equipped with the [[structure]] of a [[pointed object]] $pt : * \to B$, the **fiber** of $f$ is the [[fiber product]] of $f$ with $p$, hence the [[pullback]]
+
+$$
+  \array{
+    A \times_B * &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    A &\stackrel{f}{\to}& B
+  }
+  \,.
+$$
+
+=--
+
+## Examples
+
+### Bundles
+
+Given a [[bundle]] $p: E \to B$ and a [[global element]] $x: 1 \to B$, the __fibre__ or __fiber__ $E_x$ of $(E,p)$ over $x$ is the [[pullback]]
 $$ \array {
    E_x        & \to             & E \\
    \downarrow &                 & \downarrow_p \\
@@ -12,4 +52,21 @@ if it exists.
 
 In a [[fiber bundle]], all fibres are [[isomorphism|isomorphic]] to some standard fibre $F$ in a coherent way.
 
+### Kernels
 
+In an [[additive category]] fibers over the [[zero object]] are called _[[kernels]]_.
+
+## Related concepts
+
+
+* [[homotopy fiber]], [[fiber sequence]]
+
+* [[cofiber]], [[homotopy cofiber]]
+
+* [[kernel]], [[cokernel]]
+
+
+
+[[!redirects fibre]]
+[[!redirects fibres]]
+[[!redirects fibers]]
