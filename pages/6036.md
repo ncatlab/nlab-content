@@ -132,4 +132,6 @@ and the appearance of the [[string Lie 2-algebra]] as the [[Heisenberg Lie 2-alg
 [[!redirects closed string]]
 [[!redirects closed strings]]
 
+[[!redirects relativistic string]]
+
 [[!redirects strings]]
