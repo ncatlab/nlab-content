@@ -1,11 +1,15 @@
-#Idea#
+# The globe category
+* table of contents
+{: toc}
 
-The **globe category** $G$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[globe|globes]].
+## Idea
+
+The **globe category** $G$ encodes one of the main [[geometric shapes for higher structures]].  Its objects are the standard cellular $n$-[[globe|globes]], and presheaves on it are [[globular sets]].
 
 It may also be called the [[globular category]], although that term has other interpretations.
 
 
-#Definition#
+## Definition
 
 The **globe category** $G$ is
 the category whose objects are the integers and
@@ -16,9 +20,6 @@ $$
 $$
   \tau_n : [n] \to [n+1]
 $$
-$$
-  \iota_n : [n+1] \to [n]
-$$
 for all $n \in \mathbb{N}$ subject to the relations (dropping obvious subscripts)
 $$
   \sigma\circ \sigma = \tau \circ \sigma
@@ -26,6 +27,14 @@ $$
 $$
   \sigma\circ \tau = \tau \circ \tau
 $$
+
+### The reflexive globe category
+
+If we add the generating morphisms
+$$
+  \iota_n : [n+1] \to [n]
+$$
+subject to the relations
 $$
   \iota \circ \sigma = \mathrm{Id}
 $$
@@ -33,9 +42,9 @@ $$
   \iota \circ \tau = \mathrm{Id}
   \,.
 $$
+we obtain the **reflexive globe category**.
 
-
-#Remarks#
+## Remarks
 
 * The globe category is used to define [[globular set|globular sets]].
 
