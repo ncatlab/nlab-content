@@ -392,6 +392,10 @@ and many more...
 
 * [[James Simons]], [[Dennis Sullivan]], _The Mayer-Vietoris Property in Differential Cohomology_ ([arXiv:1010.3300](http://arxiv.org/abs/1010.3300))
 
+Discussion with an eye towards applications in [[physics]]/[[string theory]]/[[higher gauge theory]] is for instance in 
+
+* [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
+
 
 ## Lectures and talks ##
 
