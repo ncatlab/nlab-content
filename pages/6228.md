@@ -1,0 +1,44 @@
+
+**[[measure theory]]**
+
+**[[probability theory]]**
+
+## Measure theory
+
+* [[measurable space]], [[measure space]] 
+
+* [[measure]]
+
+* [[von Neumann algebra]]
+
+## Probability theory
+
+* [[probability space]]
+
+* [[probability distribution]]
+
+* [[state]]
+
+  * [[states in AQFT and operator algebra|in AQFT and operator algebra]]
+
+  * [[GNS construction]]
+
+  * [[Fell's theorem]]
+
+* [[entropy]], [[relative entropy]]
+
+## Information geometry
+
+* [[information geometry]]
+
+* [[Wasserstein metric]]
+
+## Thermodynamics
+
+* [[thermodynamics]]
+
+* [[second law of thermodynamics]], [[generalized second law of theormodynamics|generalized second law]]
+
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/measure+theory+-+contents)</div>
