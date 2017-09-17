@@ -2160,6 +2160,7 @@ $$
   (d_{dR} + (-1)^{deg}\delta)
   (g_{i_0, \cdots, i_n}, \cdots, A_{i j k}, B_{i j}, C_{i})
   = 0
+  \,,
 $$
 
 where $\delta = \sum_{i} (-1)^i p_i^*$ is the alternating sum of the pullback of forms along the face maps of the [[Cech nerve]].
@@ -2174,13 +2175,14 @@ This is a sequence of conditions of the form
 
 * $(\delta g)_{i_0, \cdots, i_{n+1}} = 0$.
 
-For low $n$ we have seen these conditions in the dicussion of [[line bundle]]s and of [[bundle gerbe]]s with connection above. Generally, for any $n \in \mathbb{N}$, this is Cech-cocycle data for a [[circle n-bundle with connection]] where;
+For low $n$ we have seen these conditions in the dicussion of [[line bundle]]s and of line 2-bundles ([[bundle gerbe]]s) with connection above. Generally, for any $n \in \mathbb{N}$, this is Cech-cocycle data for a [[circle n-bundle with connection]], where
 
 * $C_i$ are the local connection $n$-forms;
 
 * $g_{i_0, \cdots, i_n}$ is the transition function of the circle $n$-bundle.
 
-We now discuss how this identification comes about as a presentation for [[circle n-bundles with connection]] along the above lines.
+We now indicate how the Deligne complex may be derived from differential refinement of cocycles
+for circle $n$-bundles along the lines of the above discussions.
 
 Write
 
@@ -2559,7 +2561,7 @@ This construction directly extends to the case where the bundles carry
 
 We may canonically identify the [[Lie algebra]] 
 $\mathfrak{u}(n)$ with the
-[[matrix Lie algebra]] of skew-hermitean matrices on which we have the
+[[matrix Lie algebra]] of skew-hermitian matrices on which we have the
 [[trace]] operation
 
 $$
@@ -2628,6 +2630,26 @@ This assignment remembers of a unitary bundle one inegral class and its differen
     \,.
   $$
 
+$$
+  \array{
+     && H^2_{diff}(X)
+     \\
+     & \swarrow &&  \searrow
+     \\
+     H^2(X,\mathbb{Z}) && && \Omega^2_{cl}(X) 
+  }
+  \;\;\;\;
+  \array{
+    && \hat \mathbf{c}_1
+    \\
+    & \swarrow && \searrow
+    \\
+    c_1(P) &&&& tr F_\nabla
+  }
+  \,.
+$$
+
+
 Equivalently this assignment is given by postcomposition of cocycles with a morphism of [[smooth ∞-groupoid]]s
 
 $$
@@ -2657,7 +2679,7 @@ $$
   \mu = \langle -,[-,-]\rangle : \mathfrak{so}(n) \to \mathbf{b}^2 \mathbb{R}
 $$
 
-on [[semisimple Lie algebra]]s, where $\langle -,- \rangle$ is the [[Killing form]] [[invariant polynomial]].,
+on [[semisimple Lie algebra]]s, where $\langle -,- \rangle$ is the [[Killing form]] [[invariant polynomial]].
 
 Let $(P \to X, \nabla)$ be a $Spin(N)$-[[principal bundle]] [[connection on a bundle|with connection]]. Let $A \in \Omega^1(P, \mathfrak{so}(N))$ be the [[Ehresmann connection]] 1-form on the total space of the bundle.
 
@@ -2721,7 +2743,7 @@ Then construct a [[Cech cohomology|Cech cocycle]] for [[Deligne cohomology]] in 
      \,,
    $$
 
-   where $cs(A) = \langle A \wedge F_A\rangle + c \langle A \wedge [A \wedge A]\rangle + $ is the [[Chern-Simons form]] of the connection form $A$ with respect to the cocyle $\mu(A) = \langle A \wedge [A \wedge A]\rangle$.
+   where $cs(A) = \langle A \wedge F_A\rangle + c \langle A \wedge [A \wedge A]\rangle  $ is the [[Chern-Simons form]] of the connection form $A$ with respect to the cocyle $\mu(A) = \langle A \wedge [A \wedge A]\rangle$.
 
 
 They then prove:
@@ -2732,6 +2754,24 @@ They then prove:
    fractional [[Pontryagin class]] of $P$.
 
 =--
+
+$$
+  \array{
+    && H^4_{diff}(X)
+    \\
+    & \swarrow && \searrow
+    \\
+    H^4(X,\mathbb{Z}) &&&& \Omega^4_{cl}(X)
+  }
+  \;\;\;\;
+  \array{
+     && \frac{1}{2} \hat \mathbf{p}_1
+     \\
+     & \swarrow && \searrow
+     \\
+     \frac{1}{2}p_1 &&&& d cs(A)
+  }
+$$
 
 In the form in which we have (re)stated this result here the second statement amounts, in view of the first statement, to the observation that the [[curvature]] 4-form of the Deligne cocycle is proportional to
 
