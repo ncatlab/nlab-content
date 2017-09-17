@@ -2494,7 +2494,7 @@ Here $W(b^{n-1}\mathbb{R})$ is the Weil algebra of the
 The commutativity of this diagram says that the bottom morphism takes the degree $n$-generator $c$ to an element $cs \in W(\mathfrak{g})$ whose restriction to the unshifted generators is the given cocycle $\mu$. 
 
 
-As we shall see below, any such choice $cs$ will extend the characteristic cocycle obtained from $\exp(\mu)$ to a characteristic differential cocycle, exhibiting the $\infty$-Chern-Weil homomorphism. But only for special nice choices of $cs$ will this take genuine $\infty$-connections to genuine $\infty$-connections -- instead of to [[pseudo-connection]]s. As we discuss in the full [[infinity-Chern-Weil theory]], this makes no difference in cohomology. But in practice it is useful to fine-tune the construction such as to produce nice models of the $\infty$-Chern-Weil homomorphism given by genuine $\infty$-connections. 
+As we shall see below, any such choice $cs$ will extend the characteristic cocycle obtained from $\exp(\mu)$ to a characteristic differential cocycle, exhibiting the $\infty$-Chern-Weil homomorphism. But only for special nice choices of $cs$ will this take genuine $\infty$-connections to genuine $\infty$-connections -- instead of to [[pseudo-connection]]s. As we discuss in the full [[∞-Chern-Weil theory]], this makes no difference in cohomology. But in practice it is useful to fine-tune the construction such as to produce nice models of the $\infty$-Chern-Weil homomorphism given by genuine $\infty$-connections. 
 
 This is achieved by imposing the following additional constraint on the choice of extension $cs$ of $\mu$: 
 
@@ -3181,19 +3181,19 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
 #### The $\infty$-Chern-Weil homomorphism
 
-In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $c : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
+In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $c : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
 
-All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ n terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
+All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
 
 
 ##### $\infty$-Chern-Simons functionals
 
-If we express $G$ by [[Lie integration]] of an [[∞-Lie algebra]] $\mathfrak{g}$, then the basic $\infty$-Chern-Weil homomorphism is modeled just by composition an $\infty$-connection $(A_{vert}, A, \langle F_A\rangle)$ with the transgression of an invariant polynomial $(\mu, cs, \langle - \rangle)$
+If we express $G$ by [[Lie integration]] of an [[∞-Lie algebra]] $\mathfrak{g}$, then the basic $\infty$-Chern-Weil homomorphism is modeled by composing an $\infty$-connection $(A_{vert}, A, \langle F_A\rangle)$ with the transgression of an invariant polynomial $(\mu, cs, \langle - \rangle)$ as follows
 
 $$
   \left(
   \array{
-     \Omega^\bullet_{vert}(U \times \Delta^n)
+     \Omega^\bullet_{vert}(U \times \Delta^k)
      &\stackrel{A_{vert}}{\leftarrow}&
      CE(\mathfrak{g})
      &&&
@@ -3201,7 +3201,7 @@ $$
      \\
      \uparrow && \uparrow 
      \\
-     \Omega^\bullet(U \times \Delta^n)
+     \Omega^\bullet(U \times \Delta^{k})
      &\stackrel{A}{\leftarrow}&
      W(\mathfrak{g})
      &&& 
@@ -3220,14 +3220,14 @@ $$
   \left(
   \array{
      CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}&
-     CE(b^{k} \mathbb{R})
+     CE(b^{n-1} \mathbb{R})
      &&&
      cocycle
      \\
      \uparrow && \uparrow
      \\
      W(\mathfrak{g}) &\stackrel{cs_\mu}{\leftarrow}&
-     W(b^k \mathbb{R})
+     W(b^{n-1} \mathbb{R})
      &&&
      Chern-Simons\;element
      \\
@@ -3235,7 +3235,7 @@ $$
      \\
      inv(\mathfrak{g})
      &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
-     inv(b^k \mathbb{R}) 
+     inv(b^{n-1} \mathbb{R}) 
      &&&
      invariant\;polynomial
   }
@@ -3249,22 +3249,22 @@ $$
   \;
   \left(
   \array{
-     \Omega^\bullet(U \times \Delta^n)_{vert}
+     \Omega^\bullet(U \times \Delta^k)_{vert}
      &\stackrel{A_{vert}}{\leftarrow}&
      CE(\mathfrak{g})
      &\stackrel{\mu}{\leftarrow}&
-     CE(b^k \mathbb{R})
+     CE(b^{n-1} \mathbb{R})
      & : \mu(A_{vert})
      &&&
      characteristic\;class
      \\
      \uparrow && \uparrow && \uparrow
      \\
-     \Omega^\bullet(U \times \Delta^n)
+     \Omega^\bullet(U \times \Delta^k)
      &\stackrel{A}{\leftarrow}&
      W(\mathfrak{g})
      &\stackrel{cs_\mu}{\leftarrow}&
-     W(b^k \mathbb{R})
+     W(b^{n-1} \mathbb{R})
      &
      : cs_\mu(A)
      &&&
@@ -3276,7 +3276,7 @@ $$
      &\stackrel{\langle F_A\rangle}{\leftarrow}&
      inv(\mathfrak{g})
      &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
-     inv(b^k \mathbb{R})
+     inv(b^{n-1} \mathbb{R})
      &
      : \langle F_A\rangle_\mu
      &&&
@@ -3286,9 +3286,111 @@ $$
   \,.
 $$
 
+This evidently yields a morphism of simplicial presheaves
+
+$$
+  \exp(\mu)_{conn} : \exp(\mathfrak{g})_{conn} \to \exp(b^{n-1}\mathbb{R})_{conn} 
+$$
+
+and, upon restriction to the top two horizontal layers, a morphism
+
+$$
+  \exp(\mu)_{diff} : \exp(\mathfrak{g})_{diff} \to \exp(b^{n-1}\mathbb{R})_{diff} 
+  \,.
+$$
+
+Projection onto the third horizontal component gives the map to the curvature classes
+
+$$
+  \exp(b^{n-1}\mathbb{R})_{diff} \to \mathbf{\flat_{dR}}\exp(b^{n+1} \mathbb{R})_{simp}
+  \,.
+$$
+
+In total, this constitutes an $\infty$-anafunctor
+
+$$
+  \array{
+    \exp(\mathfrak{g})_{diff}
+    &\stackrel{\exp(\mu)_{diff}}{\to}&
+    \exp(b^{n-1}\mathbb{R})_{diff}
+    &\stackrel{}{\to}&
+    \mathbf{\flat}_{dR}b^n \mathbb{R}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \exp(\mathfrak{g})
+  }
+$$
+
+Postcomposition with this is the simple $\infty$-Chern-Weil homomorphism: it sends a cocycle
+
+$$
+  \array{
+    C(U) &\to& \exp(\mathfrak{g})
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+for an $\exp(\mathfrak{g})$-principal bundle to the curvature form represented by
 
 
-##### Dirac quantization conditions
+$$
+  \array{
+    C(V)
+    &\stackrel{(g,\nabla)}{\to}& \exp(\mathfrak{g})_{diff}
+    &\stackrel{\exp(\mu)_{diff}}{\to}&
+    \exp(b^{n-1}\mathbb{R})_{diff}
+    &\stackrel{}{\to}&
+    \mathbf{\flat}_{dR}b^n \mathbb{R}
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    C(U) &\stackrel{g}{\to}& \exp(\mathfrak{g})
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+  \,.
+$$
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathfrak{g}$ an ordinary [[Lie algebra]] the image under $\tau_1(-)$ of this diagram constitutes the ordinary [[Chern-Weil homomorphism]] in that:
+
+for $g$ the cocycle for a $G$-principal bundle, any ordinary [[connection on a bundle]] constitutes a lift $(g,\nabla)$ to the tip of the anafunctor and the morphism represented by that is the [[Cech cohomology|Cech]]-[[hypercohomology]] cocycle on $X$ with values in the truncated de Rham complex given by the globally defined curvature characteristic form $\langle F_\nabla \wedge \cdots \wedge F_\nabla\rangle$.
+
+
+=--
+
+
+But evidently we have more information available here. The ordinary [[Chern-Weil homomorphism]] refines from a map that assigns curvature characteristic forms, to a map that assigns [[secondary characteristic class]]es in the sense that it assigns [[circle n-bundles with connection]] whise curvature is this cuvature characteristic form.
+
+The local connection forms of these circle bundles are given by the middle horizontal morphisms. These are the [[Chern-Simons form]]s 
+
+$$
+  \Omega^\bullet(U \times \Delta^k)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{cs}{\leftarrow}
+  W(b^{n-1} \mathbb{R})
+  :
+  cs(A)
+ \,.
+$$
+
++-- {: .un_example}
+###### Example
+
+(...)
+
+=--
+
+##### Secondary characteristic classes
 
 So far we discussed the untruncated $\exp(\mathfrak{g})_{conn}$. The real object of interest is the $k$-[[truncated]] version $\tau_k \exp(\mathfrak{g})_{conn}$ where $k \in \mathbb{N}$ is such that $\tau_k \exp)\mathfrak{g} \simeq \mathbf{B}G$ is the delooping of the $\infty$-Lie group in question. 
 
