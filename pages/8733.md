@@ -1,4 +1,4 @@
-Graham Ellis works at the national University of Irelang Galway. His recent work is on computational homological algebra,  homology and related areas of topological data analysis.  He is also expert in non-abelian homotopy theoretic topics such as [[crossed module]]s and their Lie algebra analogues.
+Graham Ellis works at the National University of Ireland Galway. His recent work is on computational homological algebra,  homology and related areas of topological data analysis.  He is also expert in non-abelian homotopy theoretic topics such as [[crossed module]]s and their Lie algebra analogues.
 
 * [Home Page](http://hamilton.nuigalway.ie/)
 
@@ -7,3 +7,4 @@ category:people
 [[!redirects G.J. Ellis]]
 [[!redirects G. J. Ellis]]
 [[!redirects G. Ellis]]
+[[!redirects G.J.Ellis]]
