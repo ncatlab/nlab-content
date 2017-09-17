@@ -28,6 +28,7 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 * [[quadratic form]]
 
+* [[symplectic form]]
 
 [[!redirects bilinear form]]
 [[!redirects bilinear forms]]
