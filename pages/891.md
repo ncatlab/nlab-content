@@ -30,6 +30,8 @@ Sometimes the term is used more loosely to mean an arbitrary [[coequalizer]].  I
 
 * [[subquotient]]
 
+* [[quotient space]]
+
 ## In higher category theory
 
 These notions have generalizations when $C$ is an [[(∞,1)-category]]:
