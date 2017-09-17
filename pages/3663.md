@@ -1,11 +1,11 @@
-# Special characters
-* table of contents
-{: toc}
-
-
 ## Idea
 
 This page is to help you copy and past special characters if you want them.  For the moment, it is discouraged to put these in [page names](http://ncatlab.org/nlab/show/HowTo#naming), although you may want to use them in [[redirected pages]].  It is also usually better to use iTeX when appropriate (mathematical characters outside of wiki links).
+
+
+# Special characters
+* table of contents
+{: toc}
 
 
 ## Text symbols
