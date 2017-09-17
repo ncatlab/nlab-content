@@ -2,3 +2,5 @@
 * [webpage](http://www.math.uic.edu/people/profile?mscsid=bous)
 
 category: people
+
+[[!redirects A. K. Bousfield]]
