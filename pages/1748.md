@@ -2,8 +2,9 @@
 [[!include homotopy - contents]]
 </div>
 
+* This page is about homotopy as a transformation.  For homotopy sets in [[homotopy categories]], see [[homotopy (as an operation)]].
 
-* for disambiguation see [[homotopy]]
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -112,3 +113,4 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
 [[!redirects left homotopy]]
 [[!redirects right homotopy]]
+[[!redirects homotopy (as a transformation)]]
