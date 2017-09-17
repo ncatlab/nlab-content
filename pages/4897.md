@@ -1,4 +1,4 @@
-For a separate list of math blogs and forums see [[math blogs]]. Main wikis should belong to both lists. For math societies and institutes see [[math institutions]]. The level up is [[math resources]]. 
+For a separate list of math blogs and forums see [[math blogs]]. Main wikis should belong to both lists. For math societies and institutes see [[math institutions]]. There is also page of [[math resources by individuals]]. The level up is [[math resources]]. 
 
 We list archives of **online** books, not the catalogues of physical libraries. We shall not list commercial subscription lists (especially of current journals) except semi-commercial jstor and few publication sites by the main mathematical societies.  
 
@@ -48,9 +48,10 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 * [fsu vmlib](http://www.math.fsu.edu/Virtual) Florida State University Virtual Math Library -- long list of resources
 
-## Some major handbooks and tables online
+## Major individual handbooks and tables online
 
 * [Abramowitz-Stegun](http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP), Handbook of Mathematical Functions With Formulas, Graphs, and Mathematical Tables 
+* [Handbook of K-theory](http://www.math.uiuc.edu/K-theory/handbook)
 
 ## Reviews and abstracts
 
