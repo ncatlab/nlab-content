@@ -29,8 +29,6 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategory|
 * The prototypical examples of Reedy categories are the [[simplex category]] $\Delta$ and its opposite $\Delta^{op}$.  More generally, for any [[simplicial set]] $X$, its [[category of simplices]] $\Delta/X$ is a Reedy category.
 
 
-
-
 # Generalizations
 
 ## generalized Reedy category ##
@@ -38,12 +36,16 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategory|
 One problem with the notion of Reedy category is that it is [[evil]]: it is not invariant under [[equivalence of categories]].  It's not hard to see that any Reedy category is necessarily skeletal.  In fact, it's even worse: no Reedy category can have _any_ nonidentity isomorphisms!  This is problematic for many $\Delta$-like categories such as the [[category of cycles]], Segal's category $\Gamma$, the [[tree category]] $\Omega$, and so on.
 
 The following generalization of the notion of Reedy category, due to
-Ieke Moerdijk and Clemens Berger, avoids these problems and maintains
+
+* Clemens Berger and Ieke Moerdijk, *On an extension of the notion of Reedy category*, [arXiv:0809.3341](http://arxiv.org/abs/0809.3341)
+
+avoids these problems and maintains
 the truth of the  Theorem relating Reedy categories and model
 structures from [[Reedy model structure]].  Define a **generalized Reedy category** to be a category $R$ with the same structure $R_+$, $R_-$, and $d$ as before, but now such that
 
 * every non-isomorphism in $R_+$ raises degree,
 * every non-isomorphism in $R_-$ lowers degree,
+* every isomorphism preserves degree, and $R_+\cap R_-$ is the [[core]] of $R$,
 * every morphism $f$ factors as a map in $R_-$ followed by a map in $R_+$, uniquely up to isomorphism, and
 * If $f\in R_-$ and $\theta$ is an isomorphism such that $\theta f = f$, then $\theta = 1$ (isomorphisms see the maps in $R_-$ as [[epimorphism|epis]]).
 
