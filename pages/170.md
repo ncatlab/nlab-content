@@ -73,7 +73,7 @@ A brief indication of some ideas of [[Yan Soibelman]] and [[Maxim Kontsevich]] o
 
 Details are in
 
-* [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+* [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
 
 See also the references at [[geometric model for elliptic cohomology]].
