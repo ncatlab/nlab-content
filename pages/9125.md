@@ -42,18 +42,22 @@ The [[electromagnetic field]] and the field of [[gravity]] are the physical fiel
 ### The idea of field bundles and its problems
  {#IdeaOfFieldBundlesAndItsProblems}
 
-A widespread proposal for how to formalize the notion of _physical field_ is to declare that the specification of a [[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$ called the **[[field bundle]]** and that a field configuration of the system is a [[section]] of this field bundle. (Also connections can be encoded as sections of suitable bundles.)
+A widespread proposal for how to formalize the notion of _physical field_ is to declare that the specification of a [[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$ called the **[[field bundle]]** and that a field configuration of the system is a [[section]] of this field bundle. This is for instance the basis for the theory of the [[variational bicomplex]], for standard [[multisymplectic geometry]], etc.
 
-While this goes in the right direction, it cannot be quite the final answer for several reasons:
+While this goes in the right direction, it cannot be quite the final answer as it misses crucial properties that are expected of a notion of field. We now discuss these problems and indicate their solution by a more natural notion of field moduli in [[higher geometry]], which we discuss in detail [below](#Definition).
 
 
-1. **large gauge transformations**. In [[gauge theory]] specifically but in [[physics]] generally, physical fields come equipped with a notion of which fields configurations, while nominally different, are [[equivalence|equivalent]], called _[[gauge equivalence|gauge equivalent]]_. This means that generically for any [[physical theory]], even if all field configurations would be represented by a section of some [[field bundle]], many such sections are in fact to be regarded as being equivalent. Or more precisely, there should be a _[[groupoid]]_ or _[[(∞,1)-groupoid]]_ of field configurations of which the sections of the field bundle only form the space of [[objects]].
+#### Large gauge transformations 
+
+In [[gauge theory]] specifically but in [[physics]] generally, physical fields come equipped with a notion of which fields configurations, while nominally different, are [[equivalence|equivalent]], called _[[gauge equivalence|gauge equivalent]]_. This means that generically for any [[physical theory]], even if all field configurations would be represented by a section of some [[field bundle]], many such sections are in fact to be regarded as being equivalent. Or more precisely, there should be a _[[groupoid]]_ or _[[(∞,1)-groupoid]]_ of field configurations of which the sections of the field bundle only form the space of [[objects]].
 
    To some extent this is dealt with in traditional [[variational calculus]]: after a choice of [[action functional]] on the space of field configurations, [[BV-BRST formalism]] spits out a [[derived L-∞ algebroid]] whose objects are field configurations, and whose 1-cells are infinitesimal invariances of the given [[action functional]]. 
 
    This goes in the right direction, but has several problems, the main one being that this does now know about the [[large gauge transformations]], those which are not connected to the identity (because it only sees infinitesimal data). These are important in the full quantum theory. (Famous examples include [[2d CFT]], for which all standard theory would break down if the global [[conformal transformations]] were not considered as gauge transformations.)
 
-1. **locality and global topology** Fields defined as sections of field bundles cannot capture gauge phenomena in a _loca_l way, as is necessary for a manifestly local formulation such in [[extended prequantum field theoiry]], [[extended quantum field theory]] (sometimes called the "multi-tiered" formulation).
+#### Locality 
+
+Fields defined as sections of field bundles cannot capture gauge phenomena in a _loca_l way, as is necessary for a manifestly local formulation such in [[extended prequantum field theoiry]], [[extended quantum field theory]] (sometimes called the "multi-tiered" formulation).
 
    Spcefically, in [[Yang-Mills theory]] for [[gauge group]] $G$, a field configuration -- a _[[gauge field]] configuration_ -- is a combination of an [[instanton sector]] -- modeled by the [[equivalence class]] of a $G$-[[principal bundle]] $P$ -- and the "[[gauge potential]]", modeled by a [[connection on a bundle|connection on this bundle]] (see below at _[Gauge fields](#GaugeFields)_ for details).  There is a [[fiber bundle]] $E(P) \to X$ such that its [[sections]] are precisely the [[connection on a bundle|connections]] on $P \to X$, and so $\coprod_{c} E(P_c) \to X$, where $c$ ranges over the instanton sectors, is a field bundle for Yang-Mills fields on $X$. 
 
@@ -63,7 +67,7 @@ While this goes in the right direction, it cannot be quite the final answer for 
 
    But this example already points to the general nature of the problem with field bundles, and also to its solution: while the [[instanton]]-component of [[Yang-Mills fields]] are not section of a bundle, they famously are sections of a _[[stack]]_ -- the "[[moduli stack]] $\mathbf{B}G$ of $G$-principal bundles", an object in [[higher geometry]].
 
-   The problem with the locality of the [[field bundle]] for [[Yang-Mills theory]] is solved by passing from [[fiber bundles]] to [[fiber ∞-bundles]]: in the [[smooth ∞-groupoid|higher differential geometry]] there is an object $\mathbf{B}G_{conn}$  -- the [[moduli stack]] of $G$-[[principal connections]], being the [[stackication]] of the [[groupoid of Lie algebra-valued forms]] -- such that maps $X \to \mathbf{B}G_{conn}$ are equivalent to Yang-Mills fields on $X$ (even including their [[gauge transformations]]). This means that if we allow field bundles in higher geometry -- [[fiber ∞-bundles]], then that for Yang-Mills theory over $X$ is even a trivial field bundle, namely the [[projection]]
+   The problem with the locality of the [[field bundle]] for [[Yang-Mills theory]] is solved by passing from [[fiber bundles]] to [[fiber ∞-bundles]]: in the [[smooth ∞-groupoid|higher differential geometry]] there is an object $\mathbf{B}G_{conn}$  -- the [[moduli stack]] of $G$-[[principal connections]], being the [[stackification]] of the [[groupoid of Lie algebra-valued forms]] -- such that maps $X \to \mathbf{B}G_{conn}$ are equivalent to Yang-Mills fields on $X$ (even including their [[gauge transformations]]). This means that if we allow field bundles in higher geometry -- [[fiber ∞-bundles]], then that for Yang-Mills theory over $X$ is even a trivial field bundle, namely the [[projection]]
 
    $$
      X \times \mathbf{B}G_{conn} \to X
@@ -90,16 +94,77 @@ While this goes in the right direction, it cannot be quite the final answer for 
    But there are more advantages, slightly less obvious. These we come to in the following points.
 
 
-1. **$G$-structures, twisted and shifted fields**
+#### Spin-structures and other $G$-structures
 
-   (...)
+Some fields in physics are (or involve) choices of [[G-structure]] in the sense of [[reduction and lift of structure groups]]. The most famous example is the choice of [[Spin structure]] in field theories with [[fermion]]fields (discussed in detail in [Fermions](#Fermions) below). Often in the literature the choice of [[Spin structure]] is treated as an external parameter, but detailed analysis at least in low-dimensional examples shows that the in the full theory this is really a field configuraton. For instance in [[path integral]] [[quantization]] for theories with fermions, part of the integral over all field configurations is a sum over Spin structures.
 
-1. **higher gauge fields** Some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geometric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a section of any ordinary [[fiber bundle]]. It follows that for instance also the [magnetic charge anomaly](magnetic+charge#MagneticChargeAnomaly) (as discussed there) has no accurate description in terms of field bundles.
+Now, a spin structure _is_ equivalently a section of something, but again not of a [[principal bundle]], but of an analog in [[higher geometry]], a [[principal 2-bundle]]. Concretely, for a [[spacetime]] represented by a [[smooth manifold]] $X$ of [[dimension]] $B$, let $\tau_X : X \to \mathbf{B}GL(n)$ be the map that modulates its [[tangent bundle]]. Then a choice of [[Spin structure]] on $X$ is a lift of this map three steps through through the [[Whitehead tower]] of $\mathbf{B}GL(n)$:
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}Spin(n) &\stackrel{\tfrac{1}{2}\mathbf{p}_1}{\to}& \mathbf{B}^3 U(1)
+    \\
+    &\mathllap{s_X}\nearrow& \downarrow
+    \\
+    && \mathbf{B}SO(n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+    \\
+    &{}^{\mathllap{o_X}}\nearrow& \downarrow
+    \\
+    X & \stackrel{e_X}{\to}& \mathbf{B}O(n) &\stackrel{\mathbf{w}_1}{\to}& \mathbf{B}\mathbb{Z}_2
+    \\
+    &{}_{\mathrlap{\tau_X}} \searrow& \downarrow
+    \\
+    && \mathbf{B}GL(n)
+  }
+$$
+
+A lift of the tangent bundle $\tau_X$ to $e_X$ is a choice of [[orthogonal structure]] (a [[vielbein field]], discussed in detail below in _[Ordinary gravity](#OrdinaryGravity)_), further to $o_X$ is a choice of [[orientation]], further to $s_X$ is a choice of [[spin structure]].
+
+Now, every hook-shaped sub-[[diagram]] of the form
+
+$$
+  \array{
+    \mathbf{B}\hat G
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G &\stackrel{\mathbf{c}}{\to}& \mathbf{B}^n A
+  }
+$$
+
+in the above is a [[homotopy fiber sequence]]. By the [[universal property]] of the [[homotopy pullback]] this means that the "space" -- really: _[[homotopy type]]_ or just _[[type]]_, for short -- of lifts of a given map $X \to \mathbf{B}G$ to a map $X \to \mathbf{B}\hat G$ is equivalently the type of trivializations of the [[composition|composite]] $X \to \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^n A$. But this map modulates an $(\mathbf{B}^{n-1}A)$-[[principal ∞-bundle]] $P \to X$ and a trivialization of this map is equivalently a [[section]] of $P \to X$. Only if here $n = 1$ (and $A$ an ordinary 1-group) is this an ordinary bundle.
+
+In particular for $o_X \colon X \to \mathbf{B}SO(n)$ a given choice of [[orientation]] of an $n$-dimensional [[manifold]] $X$, a choice of [[Spin structure]] is a choice of section of the $(\mathbf{B}\mathbb{Z}_2)$- [[principal 2-bundle]]
+
+$$
+  \mathbf{w}_2(o_X)^* {*} \to X
+$$
+
+which is sometimes called the "spin-lifting bundle gerbe". Hence spin structures are parts of fields in physics which are not sections of a field 1-bundle. Again, this is faithfully captured only in [[higher geometry]].
+
+
+This is only the most famous phenomenon in a large class of similar structures of fields in field theory. Notably in higher dimensional [[supergravity]] and in [[string theory]] there are fields which are ever higher lifts through this [[Whitehead tower]] -- [[higher spin structures]], such as [[String structures]] and [[Fivebrane structures]] in the next two steps. Accordingly, these are fields which are equivalently sections of [[principal 3-bundles]] (the "[[Chern-Simons circle 3-bundle]]") and [[principal infinity-bundle|principal 7-bundles]] (the "[[Chern-Simons circle 7-bundle]]").
+
+
+
+
+
+#### Twisted and shifted fields
+
+(...)
+
+#### Higher gauge fields
+
+Some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geometric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a section of any ordinary [[fiber bundle]]. It follows that for instance also the [magnetic charge anomaly](magnetic+charge#MagneticChargeAnomaly) (as discussed there) has no accurate description in terms of field bundles.
 
    Similarly, field in [[higher dimensional Chern-Simons theoy]] are not, in general, sections of a field bundle.
 
 
-### Field $\infty$-bundles and moduli $\infty$-stacks of fields
+#### Field $\infty$-bundles and moduli $\infty$-stacks of fields
 
 By the [above](#IdeaOfFieldBundlesAndItsProblems), defining a physical field to be a section of some bundle goes in the right direction, but misses crucial aspects of physical fields. But it turns out that the problem is fixed simply by passing from traditional geometric bundles to bundles in [[higher geometry]].
 
