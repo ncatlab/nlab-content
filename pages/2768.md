@@ -1,3 +1,4 @@
+
 # The trace of a category
 * table of contents
 {: toc}
@@ -60,7 +61,7 @@ and this process iterates. The sequence of epis
 
 $$h(c) \overset{h|}{\to} h^{(2)}(c) \overset{h|}{\to} \ldots$$ 
 
-eventually stabilizes (after finitely many steps) to a finite set $h^{(\infty)}(c)$ on which $h$ restricts to a [[surjection|surjective]] endofunction, which is a bijection since we are dealing with finite sets. 
+eventually stabilizes (after finitely many steps) to a finite set $h^{(\infty)}(c)$ on which $h$ restricts to a [[surjection|surjective]] [[endofunction]], which is a bijection since we are dealing with finite sets. 
 
 This argument shows that the trace of the category of finite sets is isomorphic to the trace of the [[core|underlying groupoid]] of finite sets and bijections. Here the equivalence classes with respect to $\sim$ are the conjugacy classes of [[permutation]]s; in this way, the trace can be identified with the class of finite [[Young diagram]]s. 
 
