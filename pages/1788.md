@@ -15,7 +15,8 @@
 =--
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
+
+#### <a href="#" onclick="return false;">+</a> Physics
 +-- {: .hide}
 [[!include physicscontents]]
 =--
