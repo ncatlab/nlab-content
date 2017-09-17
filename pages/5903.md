@@ -1,0 +1,52 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea and definition
+
+For the moment see the discussion at [[internal logic]].
+
+### Syntactic site
+
+The [[syntactic site]] of a syntactic category $\mathcal{C}_{\mathbb{T}}$ is the structure of a [[site]] on $\mathcal{T}$ such that [[geometric morphism]]s $\mathcal{E} \to Sh(\mathcal{C}_{\mathbb{T}})$ into the [[sheaf topos]] over the syntactic site are equivalent to [[model]]s for the [[theory]] $\mathbb{T}$ in $\mathcal{E}$, hence such that $Sh(\mathcal{C}_{\mathbb{T}})$ is the [[classifying topos]] for $\mathbb{T}$.
+
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+
+* For $\mathbb{T}$ a [[regular theory]], its syntactic category $\mathcal{C}_{\mathbb{T}}$ is a [[regular category]].
+
+* For $\mathbb{T}$ a [[coherent theory]], $\mathcal{C}_{\mathbb{T}}$ is a [[coherent category]].
+
+* For $\mathbb{T}$ a [[first-order theory]], $\mathcal{C}_{\mathbb{T}}$ is a [[Heyting category]].
+
+* For $\mathbb{T}$ a [[geometric theory]], $\mathcal{C}_{\mathbb{T}}$ is a [[geometric category]].
+
+=--
+
+This appears for instance as ([Johnstone, lemma 1.4.10](#Johnstone)).
+
+## References
+
+Section D1.4 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+[[!redirects syntactic categories]]
+
