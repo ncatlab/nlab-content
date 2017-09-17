@@ -910,9 +910,11 @@ This definition indeed makes $\mathcal{G}$ a [[geometry (for structured (infinit
 
 By the $\kappa$-bound $\mathcal{G}$ is a [[small (∞,1)-category]].
 
-Monomorphisms are pullback-stable and satisfy 2-out-of-3, hence do form an admissibility structure. 
+Monomorphisms are stable under pullbacks and retracts and satisfy 2-out-of-3 (this is true for monomorphisms in [[∞Grpd]] because it is true for ordinary monos on the sets of connected components, and so it is true for monos in any $(\infty,1)$-category). See [[monomorphism in an (∞,1)-category]] for more. 
 
 The quasi-$(\infty,1)$-topos $Conc(\mathbf{H})$ has all finite $(\infty,1)$-limits and these are preserved by the right adjoint inclusion $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$.
+
+It also has all $\kappa$-bounded $(\infty,1)$-colimits (computed in $\mathbf{H}$ and reflected back into $\mathcal{G}$), hence is an [[idempotent complete (∞,1)-category]].
 
 A covering family in $\mathcal{G}$ goes to an effective epimorphism by definition. Effective epimorphisms are stable under pullback in $\mathcal{G}$ because that pullback coincides with the pullback in $\mathbf{H}$ where the statement holds due to [[universal colimits]] of the $(\infty,1)$-topos.
 
@@ -929,7 +931,7 @@ $$
    \stackrel{X^*}{\to} \mathbf{H}/X
 $$
 
-from $\mathbf{G}$ to the [[over-(∞,1)-topos]] over $X$, where $X^*$ is the [[inverse image]] functor of the corresponding [[étale geometric morphism]].
+from $\mathcal{G}$ to the [[over-(∞,1)-topos]] over $X$, where $X^*$ is the [[inverse image]] functor of the corresponding [[étale geometric morphism]].
 
 =--
 
