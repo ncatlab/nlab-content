@@ -1,11 +1,32 @@
 
+#Contents#
+* table of contents
+{:toc}
 
-A [[stack]] on the [[site]] [[CartSp]]${}_{smooth}$.
+## Definition
 
-A [[n-truncated object in an (infinity,1)-topos|1-truncated]] [[smooth infinity-groupoid]].
+A _smooth groupoid_ is a [[stack]] on the [[site]] [[CartSp]]${}_{smooth}$.
+
+This is equivalently an [[n-truncated object in an (infinity,1)-topos|1-truncated]] [[smooth infinity-groupoid]].
+
+## Examples
+
+Every [[Lie groupoid]] presents a smooth groupoids. Those of this form are also called [[differentiable stacks]].
+
+A [[0-truncated]] smooth groupoid is equivalently a [[smooth space]]. 
+
+For $G$ a [[smooth group]], its [[delooping]] $\mathbf{B}G$ is a smooth groupoid, the [[moduli stack]] of smooth $G$-[[principal bundles]].
+
+## Related concepts
+
+* [[moduli stack]]
+
+* [[centrally extended groupoid]]
 
 [[!redirects smooth groupoids]]
 
 [[!redirects smooth group]]
 [[!redirects smooth groups]]
 
+[[!redirects smooth stack]]
+[[!redirects smooth stacks]]
