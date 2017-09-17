@@ -622,11 +622,17 @@ algebras]] in the context of [[geometric quantization]] [[geometric quantization
 
 * [[Klaas Landsman]], _Quantization as a functor_ ([arXiv:math-ph/0107023](http://arxiv.org/abs/math-ph/0107023))
 
-* [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
+* [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ,  Proc. Bialowieza 2002 ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
  {#Landsman03}
 
 * [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
  {#Bos07}
+
+with a summary/exposition in
+
+* [[Klaas Landsman]], _Functoriality of quantization: a KK-theoretic approach_, talk at ECOAS, Dartmouth College, October 2010 ([web](http://www.academia.edu/1992202/Functoriality_of_quantization_a_KK-theoretic_approach))
+ {#Landsman10}
+
 
 See also the related references at _[[Guillemin-Sternberg geometric quantization conjecture]]_.
 
@@ -705,6 +711,9 @@ For a collection of literature see also paragraph 1.5 in
 (in the context of [[noncommutative motives]]).
 
 * [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
+
+
+
 
 ### In D-brane theory
 
