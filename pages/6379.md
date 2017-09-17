@@ -163,7 +163,7 @@ Both the Legendre symbol $\left(\frac{ }{p}\right) \colon (\mathbb{Z}/p)^\ast \t
 
 $$(\mathbb{Z}/p)^\ast \stackrel{Cayley}{\to} Perm((\mathbb{Z}/p)^\ast) \stackrel{sign}{\to} \{-1, 1\}$$ 
 
-are homomorphisms whose domain is a cyclic group, so it suffices to show they agree on a generator $g$. But $Cayley(g)$ is a cyclic [[permutation]] on $p-1$ elements, hence has sign $(-1)^{p-2} = -1$, which agrees with $\left(\frac{g}{p}\right)$. 
+are homomorphisms [whose domain is a cyclic group](http://ncatlab.org/nlab/show/root#roots_of_unity_in_fields_11), so it suffices to show they agree on a generator $g$. But $Cayley(g)$ is a cyclic [[permutation]] on $p-1$ elements, hence has sign $(-1)^{p-2} = -1$, which agrees with $\left(\frac{g}{p}\right)$. 
 =-- 
 
 We turn now to Zolotarev's  proof of the "hard" case of quadratic reciprocity where $p$ and $q$ are distinct odd primes. What is interesting is that from this point forward, we don't use primality of $p$ and $q$ at all, i.e., the remainder of the argument carries over if $p$ and $q$ are replaced by odd, relatively prime integers $m$ and $n$, and we simply define $\left(\frac{a}{n}\right)$ as a sign of a permutation of multiplying by $a$ on $(\mathbb{Z}/n)^\ast$. Indeed, one often defines the **Jacobi symbol** by 
