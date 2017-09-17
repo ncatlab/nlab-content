@@ -83,7 +83,7 @@ A _model_ for $\mathcal{L}_\omega(n)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)
 =--
 ##Satisfaction in the multimodal case ##
 
-This is virtually the same as in the monomodal case, except for the last case which involve the $n$ modal operators (we give it in full repeating the earlier cases for convenience.)
+This is virtually the same as in the monomodal case, except for the last case which involves the $n$ modal operators. (We give it in full repeating the earlier cases for convenience.)
 +--{: .un_defn}
 ######Definition ######
 Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively define the notion of a formula $\phi$ being satisfied in the model at state $w$, as follows:
