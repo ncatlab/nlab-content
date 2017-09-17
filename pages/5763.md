@@ -476,20 +476,20 @@ $$
 
 =--
 
-The extra right adjoint functors appearing here ensure the relation between the morphisms of Bohr sites and Bohr toposes:
+The extra adjoints appearing here ensure the relation between the morphisms of Bohr sites and Bohr toposes:
 
 
 +-- {: .num_prop }
 ###### Proposition
 
-Every [[geometric morphism]] $Bohr(A) \to Bohr(B)$ with an extra [[right adjoint]] is in the image under $Sh \circ Alex$ of a functor $\mathcal{C}(A) \to \mathcal{C}(B)$.
+Every [[essential geometric morphism]] $Bohr(A) \to Bohr(B)$ is in the image under $Sh \circ Alex$ of a functor $\mathcal{C}(A) \to \mathcal{C}(B)$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the discussion of [Alexandrov locales](#http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) in the entry _[[Alexandrov space]]_ we have that the functor $Alex : Poset \to Locale$ takes values precisely on those morphisms of locales that have a [[right adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
+By the discussion of [Alexandrov locales](#http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) in the entry _[[Alexandrov space]]_ we have that the functor $Alex : Poset \to Locale$ takes values precisely on those morphisms of locales whose inverse image has a [[left adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that the [[2-functor]] $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
 
 =--
 
