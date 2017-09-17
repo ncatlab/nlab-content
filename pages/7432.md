@@ -49,7 +49,7 @@ $$a \wedge b \in \{a, \bot\}$$
 
 ## Atoms and atomic objects 
 
-Recall that if $E$ is a locally small category, an [[tiny object|atomic object]] is an object $e$ such that $E(e, -)\colon E \to Set$ preserves all [[colimits]] that exist in $E$.
+Recall that if $E$ is a locally small category, an [[tiny object|atomic object]] (also called a "tiny object") is an object $e$ such that $E(e, -)\colon E \to Set$ preserves all [[colimits]] that exist in $E$.
 
 As partial justification for this terminology, we have the following elementary result. 
 
@@ -60,7 +60,7 @@ An atomic object in a Boolean algebra is precisely an atom.
 
 +-- {: .proof}
 ###### Proof 
-Let $\mathbf{2}$ denote the object of truth values $\{0, 1\}$. If $a$ is an atom, then $B(a, -)$ preserves the [[initial object]] (since it is itself not initial), and if $\{x_i\}$ is a nonempty collection of elements that admits a supremum such that $a \leq \bigvee_i x_i$, then 
+Let $\mathbf{2}$ denote the object of truth values $\{0, 1\}$. If $a$ is an atom, then $B(a, -) \colon B \to \mathbf{2}$ preserves the [[initial object]] (since it is itself not initial), and if $\{x_i\}$ is a nonempty collection of elements that admits a supremum such that $a \leq \bigvee_i x_i$, then 
 
 $$a = a \wedge \bigvee_i x_i = \bigvee_i a \wedge x_i$$ 
 
@@ -74,6 +74,9 @@ If $B(a, -)$ preserved the join on the right, then either $a \leq b$ which is ev
 =-- 
 
 Only one half of this proposition holds (an atom is an atomic object) if we replace the Boolean algebra $B$ by a general [[frame]]. On the other hand, atomic objects need not be atoms (an easy example is the frame of down-sets of a [[poset]], where principal down-sets are atomic objects, but generally not atoms in the underlying poset of the frame). 
+
+Be this as it may, [Lawvere](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf#page=6) has written, "In order to settle once and for all the various terminological differences, perhaps we can use a.t.o.m. as an abbreviation for 'amazing tiny object model'." This is Lawvere's 'objective' way of abbreviating "atomic object"; the word 'amazing' here is presumably chosen to evoke what Lawvere has called the "amazing right adjoint" to an exponential functor $(-)^D$, particularly in the case of [[synthetic differential geometry]] where such adjoints exist for [[infinitesimal object|infinitesimal objects]] $D$. 
+
 
 ## Categorification 
 
