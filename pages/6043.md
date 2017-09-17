@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -6,10 +20,32 @@
 
 ## Definition
 
+### On an abelian group
+
+For $(A,+)$ an [[abelian group]], then a _norm_ on the group is a [[function]]
+
+$$
+  {\vert-\vert} \;\colon\; G \longrightarrow \mathbb{R}
+$$
+
+to the [[real numbers]], such that 
+
+1. (positivity) $(g \neq 0) \Rightarrow (\vert g\vert \gt 0)$
+
+1. ([[triangle inequality]])  ${\vert g + h\vert}\leq {\vert g\vert} + {\vert h\vert}$ 
+
+1. (linearity) ${\vert k g\vert} = {\vert k\vert} {\vert g\vert}$ for all $k \in \mathbb{Z}$.
+
+Here ${\vert k\vert} \in \mathbb{N}$ denotes the [[absolute value]].
+
+A group with a norm is a _[[normed group]]_, see there for more.
+
+### On a vector space
+
 For $k$ a [[field]] equipped with a [[valuation]] (most usually, a [[local field]] such as $\mathbb{R}$, $\mathbb{C}$, or a [[p-adic field|p-adic]] [[complete field|completion]] of a [[number field]]), a **norm** on a $k$-[[vector space]] $V$ is a [[function]] 
 
 $$
-  {\vert-\vert} : V \to \mathbb{R}
+  {\vert-\vert} \colon V \to \mathbb{R}
 $$ 
 
 such that for all $\lambda \in k$, $v,w \in V$ we have
@@ -49,6 +85,8 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
 
 ## Examples
 
+### General
+
 * The standard [[absolute value]] is a norm on the [[real numbers]].
 
 * More generally, on any [[Cartesian space]] $\mathbb{R}^n$ the **Euclidean norm** is given by
@@ -59,7 +97,7 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
   $$
 
 
-## Minkowski Functionals
+### Minkowski Functionals
 
 Let $V$ be a vector space and $B \subseteq V$ an [[absorbing]] [[absolutely convex]] subset.  The **Minkowski functional** of $B$ is the function $\mu_B \colon V \to \mathbb{R}$ defined by:
 
@@ -69,12 +107,20 @@ $$
 
 This is a semi-norm on $V$.
 
+
+## Properties
+
+* [[Hahn-Banach theorem]]
+
 ## Related concepts
 
 * [[Banach space]]
 
 * [[metric]]
 
+## References
+
+* [pdf](http://www.maths.uq.edu.au/courses/MATH3402/Lectures/normls.pdf)
 
 [[!redirects norms]]
 [[!redirects seminorm]]
