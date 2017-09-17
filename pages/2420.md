@@ -1,6 +1,27 @@
-[[!redirects partition functions]]
 
-# Idea #
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 The _partition function_ is a certain assignment that may be extracted from a system in [[statistical mechanics]], or in [[quantum field theory]]. It the quantum field theory $Z$ is presented as an [[FQFT]] that is a [[functor]] on a category of $d$-dimensional [[cobordism]]s, then the partition function is the assignment of $d$-dimensional [[torus|tori]] $T$ to the valued $Z(T)$ assigned to these by the QFT.
 
@@ -8,7 +29,7 @@ By the axioms of functoriality and symmetric monoidalness of a QFT, this means t
 
 This is where the partition function originally derives its name from: typically for QFTs on _[[Riemannian metric|Riemannian]]_ [[cobordism]]s the  value of the QFT on a cylinder of _length_ $t$ is a linear [[operator]] of the form $\exp(- t H)$ for some operator $H$.
 
-# Origin of the term #
+## Origin of the term 
 
 When one thinks of the QFT --- under [[Wick rotation]] --- as describing a physical system in [[statistical mechanics]], then vector space that $H$ acts on is the vector space of all states of the system and $H$ is the operator whose eigenstates are the states of definite energy, and then the expression
 
@@ -24,8 +45,18 @@ This involves, conversely, counting for each fixed energy $E_\Psi$ the number of
 
 In fact, the common letter $Z$ uses to denote QFTs (or at least [[TQFT]]s) also derives from this: in German the partition function is called _Zustandssumme_ --- from German _Zustand_ for "state" .
 
-# Examples #
+## Examples 
+
+Partition function for the [[superparticle]]: [[K-theory]] [[index]].
+
+Partition function for the [[type II superstring]]: [[elliptic genus]].
+
+Parition function for the [[heterotic string]]: [[Witten genus]].
+
 
 For some discussion of partition functions of 1-dimensional QFTs see [[(1,1)-dimensional Euclidean field theories and K-theory]].
 
 For some discussion of partition functions of 2-dimensional QFTs see [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+
+[[!redirects partition functions]]
