@@ -431,7 +431,9 @@ This is Example 8.6. in
 
 If in the above setup we choose $K = sAb = [\Delta^{op}, Ab]$ the category of abelian [[simplicial group]]s, then $Mon(K)$ is the category of [[simplicial ring]]s. The category $Mon(K)^{op}$, regarded as a higher category, is the site used in [[higher geometry]] in place of $CRing^{}$
 
+## Related concepts
 
+* [[canonical bundle]]
 
 ## References
 
