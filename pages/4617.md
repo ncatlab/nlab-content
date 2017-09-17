@@ -132,7 +132,7 @@ This, too, is a [[simplicial model category]] with respect to its [standard sSet
 +-- {: .proof}
 ###### Proof
 
-The proof of the existence of the [[model structure on cochain complexes]] in non-negative degree -- $Ch^\bulet_+(Ab)$ -- whose fibratins are the _degreewise surjections_ (and weak equivalences the usual [[quasi-isomorphism]])s is spelled out <a href="http://ncatlab.org/nlab/show/model+structure+on+chain+complexes#CochainNonNegProj">here</a>.
+The proof of the existence of the [[model structure on cochain complexes]] in non-negative degree -- $Ch^\bullet_+(Ab)$ -- whose fibrations are the _degreewise surjections_ (and weak equivalences the usual [[quasi-isomorphism]])s is spelled out <a href="http://ncatlab.org/nlab/show/model+structure+on+chain+complexes#CochainNonNegProj">here</a>.
 
 By the dual [[Dold-Kan correspondence]] $Ab^\Delta \simeq Ch^\bullet_+(Ab)$ this induces the [[model structure on cosimplicial abelian groups]] whose fibrations are the degreewise surjections (using that the [[Moore complex|normalized cochain complex functor]] sends surjections to surjections).
 
