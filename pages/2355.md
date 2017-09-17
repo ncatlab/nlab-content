@@ -194,7 +194,7 @@ The adjoint of a functor is, if it exists, essentially unique:
 +-- {: .num_prop}
 ###### Proposition
 
-If the $(\infty,1)$-functor between quasi-categoris $L : D \to C$ admits a right adjoint $R : C \to D$, then this is unique up to homotopy.
+If the $(\infty,1)$-functor between quasi-categories $L : D \to C$ admits a right adjoint $R : C \to D$, then this is unique up to homotopy.
 
 Moreover, even the choice of homotopy is unique, up to ever higher homotopy, i.e. the collection of all right adjoints to $L$ forms a [[contractible]] [[∞-groupoid]], in the following sense:
 
