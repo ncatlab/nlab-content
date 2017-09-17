@@ -114,6 +114,8 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * [[Dominique Bourn], [[Francis Borceux]], _Mal'cev, protomodular, homological and semi-abelian categories_, Kluwer 2004.
 
+* Tim Van der Linden, [Homology and homotopy in semi-abelian categories](http://arxiv.org/abs/math/0607100).
+
 [[!redirects semiabelian category]]
 [[!redirects semiabelian categories]]
 [[!redirects semi-abelian categories]]
