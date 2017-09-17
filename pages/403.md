@@ -6,8 +6,15 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Internal categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
 =--
 =--
+=--
+
+
+
 
 
 #Contents#
