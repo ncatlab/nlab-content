@@ -22,10 +22,22 @@ The correctness of this definition (in the sense of matching [[Bourbaki]]\'s def
 
 ### Concrete
 
+A __relational $\beta$-module__ is a [[set]] $S$ and a [[binary relation]] $\to$ between [[ultrafilters]] on $S$ and [[elements]] of $S$ that satisfies a certain rule.
+
+To explain this rule, we first define a [[subset]] $A$ of $S$ to be __[[open subset|open]]__ if $A \in \mathcal{U}$ whenever $\mathcal{U} \to x \in A$.  Then the requirement on $\to$ is a converse:
+
+*  $\mathcal{U} \to x$ if $A \in \mathcal{U}$ whenever $A$ is open and $x \in A$.
+
 ...
 
 
 ## Properties
+
+We say that $\mathcal{U}$ __converges__ to $x$ if $\mathcal{U} \to x$.
+
+As above, a [[subset]] $A$ of $S$ is __[[open subset|open]]__ if $A \in \mathcal{U}$ whenever $\mathcal{U} \to x \in A$.  On the other hand, $A$ is __[[closed subset|closed]]__ if $x \in A$ whenever $A \in \mathcal{U} \to x$.
+
+A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilter converges to at least one point.  It is __[[Hausdorff space|Hausdorff]]__ if every ultrafilter converges to at most one point.  Thus, a __[[compactum]]__ is precisely a relational $\beta$-module in which every ultrafilter converges to exactly one point.
 
 ...
 
