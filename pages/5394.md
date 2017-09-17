@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
