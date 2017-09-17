@@ -76,7 +76,7 @@ The [[target space]] data of an [[orientifold]] is a $\mathbb{Z}_2$-[[principal 
 
 An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$.
 
-Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was indeed conjectured in ([Kriz-Sati 05, p. 3](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
+Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was indeed conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
 
 
 ### Relation to the heterotic string
@@ -102,6 +102,10 @@ F-theory lifts of [[orientifold]] backgrounds were first identified in
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
 * [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+
+with more details including
+
+* Zurab Kakushadze, Gary Shiu, S.-H. Henry Tye, _Type IIB Orientifolds, F-theory, Type I Strings on Orbifolds and Type I - Heterotic Duality_, Nucl.Phys. B533 (1998) 25-87 ([arXiv:hep-th/9804092](http://arxiv.org/abs/hep-th/9804092))
 
 This is further expanded on in
 
