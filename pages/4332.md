@@ -111,6 +111,8 @@ We list examples of local gauge groups and -[[∞-groups]] for various higher [[
 
 ## Related concepts
 
+* [[structure group]]
+
 * [[gauge symmetry]]
 
 * [[gauge fixing]]
