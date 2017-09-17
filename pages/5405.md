@@ -291,6 +291,8 @@ This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functio
 
 * [[Tannaka duality for Lie groupoids]]
 
+* [[Bondal-Orlov reconstruction theorem]]
+
 ## References
 
 The above material is taken from
