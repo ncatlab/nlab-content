@@ -22,7 +22,7 @@
 
 ## Idea
 
-For usual ([[commutative ring|commutative]]) [[rings]], [[Grothendieck]] introduced the notion of a [[prime spectrum of a commutative ring|prime spectrum]]. In order to accomodate not only [[polynomials]] but also [[formal power series]], it is convenient to consider [[completion of a ring|completions]] and [[topological rings]]. Order $n$ [[nilpotent elements]] in an ordinary ring compare to completions as truncations of general power series and geometrically represent certain $n$-th [[infinitesimal space|infinitesimal]] neighborhood. Completions represent certain pro-objects in the category of rings. Adic completion corresponds to have all infinitesimal neighborhoods at once. 
+For usual ([[commutative ring|commutative]]) [[rings]], [[Grothendieck]] introduced the notion of a [[prime spectrum of a commutative ring|prime spectrum]]. In order to accommodate not only [[polynomials]] but also [[formal power series]], it is convenient to consider [[completion of a ring|completions]] and [[topological rings]]. Order $n$ [[nilpotent elements]] in an ordinary ring compare to completions as truncations of general power series and geometrically represent certain $n$-th [[infinitesimal space|infinitesimal]] neighborhood. Completions represent certain pro-objects in the category of rings. Adic completion corresponds to have all infinitesimal neighborhoods at once. 
  
 A _formal spectrum_ is a generalization of prime spectrum to adic noetherian rings, therefore containing information on all infinitesimal neighborhoods, corresponding to the ideal of completion. 
 
