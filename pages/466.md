@@ -175,7 +175,7 @@ Hence $(Y,const_X)((c,f \in X(c), (d, g \in X(d))) \simeq pt$ says precisely tha
 
 For emphasis, here is the interpretation of these three corollaries in words:
 
-* **corollary I** says that the interpretation of presheaves in $C$ as generalized objects probeable by objects of $c$ is consistent: the probes of $X$ by $c$ are indeed the maps of generalized objects from $c$ into $X$;
+* **corollary I** says that the interpretation of presheaves on $C$ as generalized objects probeable by objects $c$ of $C$ is consistent: the probes of $X$ by $c$ are indeed the maps of generalized objects from $c$ into $X$;
 
 * **corollary II** says that probes by objects of $C$ are sufficient to distinguish objects of $C$: two objects of $C$ are the same if they have the same probes by other objects of $C$.
 
