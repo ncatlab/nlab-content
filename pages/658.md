@@ -153,6 +153,7 @@ One can show that comma objects are always discrete fibrations, and dually cocom
   \,.
   $$
 
+* for [[enriched category|enrichment]] over a [[category of chain complexes]] an [[enriched category]] is a [[dg-category]] and a profunctor is now a dg-[[bimodule]] of dg-categories. This appears notably in the definiition of [[noncommutative motives]].
 
 ## Related entries ##
 
