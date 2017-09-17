@@ -64,7 +64,13 @@ $$
 d(x,y) = {|x-y|}_p,
 $$
 
-making the ring $\mathbf{Z}_p$ a [[complete metric space]] and in fact a completion of $\mathbf{Z}$, in that $d$ is a complete [[metric]], and $\mathbf{Z}$ is dense in it.
+making the ring $\mathbf{Z}_p$ a [[complete metric space]] and in fact a completion of $\mathbf{Z}$, in that $d$ is a complete [[metric]], and $\mathbf{Z}$ is dense in it. 
+
+#### As an endomorphism ring 
+
+Algebraically, the ring of $p$-adic integers is isomorphic to the endomorphism ring $\hom(\mathbf{Z}(p^\infty), \mathbf{Z}(p^\infty))$ where $\mathbf{Z}(p^\infty)$ is the [[Pruefer group|Prüfer group]] $\mathbf{Z}(p^\infty) \coloneqq \mathbb{Z}[1/p]/\mathbb{Z}$. In particular, $\mathbf{Z}(p^\infty)$ is tautologically a $\mathbf{Z}_p$-module. 
+
+Relatedly, the additive group of $p$-adic integers is [[Pontrjagin duality|Pontrjagin dual]] to $\mathbf{Z}(p^\infty)$. Observe that $\mathbf{Z}(p^\infty)$ embeds in $S^1$ as the set of all [[root of unity|roots of unity]] of order $p^n$, and that every character $\chi: \mathbf{Z}(p^\infty) \to S^1$ factors through this embedding $\mathbf{Z}(p^\infty) \hookrightarrow S^1$. 
 
 ### The $p$-adic numbers proper
  {#PAdicNumbersProper}
@@ -92,9 +98,9 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 
 =-- 
 
-### Duality and Euler factors 
+### Duality 
 
-As an additive compact Hausdorff [[topological group]], the inverse limit $\mathbf{Z}_p = \lim_{\leftarrow n} \mathbb{Z}/(p^n)$ is [[Pontryagin duality|dual]] to the discrete [[Pruefer group|Prüfer group]] $\mathbf{Z}(p^\infty) \coloneqq \mathbb{Z}[1/p]/\mathbb{Z}$ that is isomorphic to a direct limit of finite cyclic groups $\lim_{\to n} \mathbb{Z}/(p^n)$. The canonical inclusion $\mathbb{Z}[1/p] \to \mathbf{Q}_p$ induces an isomorphism $\mathbf{Z}(p^\infty) \to \mathbf{Q}_p/\mathbf{Z}_p$, so there is an exact sequence 
+Earlier we observed that as an additive compact Hausdorff [[topological group]], the inverse limit $\mathbf{Z}_p = \lim_{\leftarrow n} \mathbb{Z}/(p^n)$ is [[Pontryagin duality|dual]] to the discrete [[Pruefer group|Prüfer group]] $\mathbf{Z}(p^\infty) \coloneqq \mathbb{Z}[1/p]/\mathbb{Z}$ that is isomorphic to a direct limit of finite cyclic groups $\lim_{\to n} \mathbb{Z}/(p^n)$. The canonical inclusion $\mathbb{Z}[1/p] \to \mathbf{Q}_p$ induces an isomorphism $\mathbf{Z}(p^\infty) \to \mathbf{Q}_p/\mathbf{Z}_p$, in fact an isomorphism of $\mathbf{Z}_p$-modules, so there is an exact sequence 
 
 $$0 \to \mathbf{Z}_p \stackrel{i}{\hookrightarrow} \mathbf{Q}_p \stackrel{q}{\to} \mathbf{Z}(p^\infty) \to 0.$$ 
 
@@ -110,12 +116,13 @@ $$\array{
 0 & \to & \mathbf{Z}(p^\infty)^\wedge & \stackrel{q^\wedge}{\to} & \mathbf{Q}_p^\wedge & \stackrel{i^\wedge}{\to} & \mathbf{Z}_p^\wedge & \to & 0
 }$$ 
 
-where the vertical isomorphisms on left and right come from [[Pontrjagin duality]], and the middle arrow is then an isomorphism by the [[short five lemma]] for topological groups. 
+where the commutativity of the squares can be traced to the fact that $q$ is a $\mathbf{Z}_p$-module homomorphism, and where the vertical isomorphisms on left and right come from [[Pontrjagin duality]]. The middle arrow is then an isomorphism by the [[short five lemma]] for [[topological groups]], which holds by protomodularity of topological groups. 
 
-This self-duality figures into the local $p$-adic analysis initiated in [[Tate's thesis]]. 
-
+This self-duality figures in Tate's thesis; for more, see [[ring of adeles]]. 
 
 ## Related concepts
+
+* [[ring of adeles]] 
 
 * [[carrying]]
 
