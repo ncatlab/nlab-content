@@ -30,7 +30,7 @@ It should also be mentioned (I'm sure you know this) that in such mixed variance
 [[Todd Trimble]]: I'm pretty sure that it's a cartesian monad on $Cat$, and actually I don't know any real examples of Kelly's clubs which aren't.
 =--
 
-Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]].  In fact, most types of clubs are a special case of [[generalized multicategories|generalized operads]].
+Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]].  In fact, many types of clubs are a special case of [[generalized multicategories|generalized operads]].
 
 ## Clubs over the permutation category 
 
@@ -124,12 +124,83 @@ $$C \circ 1 \cong C$$
 
 * The identity $1_{\mathbf{P}}: \mathbf{P} \to \mathbf{P}$ carries a club structure. The multiplication $\mu$ of the club, on the object level, is given by the assignment
 $$(n; k_1, \ldots, k_n) \mapsto k_1 + \ldots + k_n$$ 
-and on morphisms, it is given by the operad structure on $Aut(n) = Lin(n)$ discussed above. Algebras over this club are symmetric (strict) monoidal categories. Algebras in the "pseudo" sense over the induced 2-monad on $Cat$ are symmetric monoidal categories. 
+and on morphisms, it is given by the operad structure on $Aut(n) = Lin(n)$ discussed above. Algebras over this club are symmetric (strict) monoidal categories. Algebras in the "pseudo" sense over the induced 2-monad on $Cat$ are symmetric monoidal categories. Alternatively, if $F(1)$ is the free symmetric monoidal category on one generator, then the symmetric monoidal equivalence $\Gamma: F(1) \to \mathbf{P}$ carries a club structure whose strict algebras are symmetric monoidal categories. 
 
-* Let $\mathbf{B}$ be the [[braid category]], equipped with the usual forgetful functor $\Gamma: \mathbf{B} \to \mathbf{P}$. The club mutliplication, at the level of morphisms, is "substitution" of $n$ braids into a braid on $n$ elements. Pseudo-algebras over the induced 2-monad on $Cat$ are braided monoidal categories. 
+* Let $\mathbf{B}$ be the [[braid category]], equipped with the usual forgetful functor $\Gamma: \mathbf{B} \to \mathbf{P}$. The club mutliplication, at the level of morphisms, is "substitution" of $n$ braids into a braid on $n$ elements. Pseudo-algebras over the induced 2-monad on $Cat$ are braided monoidal categories. Alternatively, as in the previous example, braided monoidal categories are also strict algebras over a club of the form $\Gamma: F(1) \to \mathbf{P}$ where $F(1)$ is the free braided monoidal category on one generator. 
 
 * Let $C$ be any (permutative) operad valued in $Set$, with underlying species $\mathbf{P} \to Set$. Then category of elements gives a functor $\Gamma: El(C) \to \mathbf{P}$, and this carries a club structure induced from the operad structure on $C$. In this way, clubs generalize operads.  In fact, operads in $Set$ can be identified with those clubs for which the functor $\Gamma\colon C\to \mathbf{P}$ is a [[discrete fibration]].
 
 ## Clubs over finite sets 
 
-[[!redirects clubs]]
+## Clubs of mixed variance
+
+The clubs described in the preceding two sections are examples of _covariant clubs_: the operations on their algebras $D$ are covariant functors $D^n \to D$. However, many doctrines on $Cat$, such as the doctrine of closed categories, involve functors which are covariant in some arguments and contravariant in others, together with extranatural transformations between them. For example, in the doctrine for closed monoidal categories, there is an extranatural transformation of the form 
+
+$$ev_{X, Y}: [X, Y] \otimes X \to Y$$ 
+
+which is dinatural in $X$ and natural in $Y$. 
+
+It turns out that many doctrines of "mixed variance" can also be described by an extension of the club notion. This applies particularly to closed monoidal, closed symmetric monoidal, and $*$-autonomous categories. But there are some subtleties, some of which can be explained by looking at a non-example: the doctrine of compact closed categories. 
+
+### Extranaturality graphs 
+
+The underlying arity of an operation of mixed variance will be a _signed set_, i.e., a finite set $\{1, 2, \ldots, n\}$ where a sign $+$ or $-$ is assigned to each element $j$. The element $j$ is given the sign $+$ (resp., $-$) if $j^{th}$ argument of the operation appears covariantly (resp., contravariantly). For example, for the operation 
+
+$$C^{op} \times C \times C \to C: (a, b, c) \mapsto [a, b] \otimes c$$ 
+
+the underlying arity is an ordered list of signs $\{-, +, +\}$. 
+
+The underlying arity of an extranatural transformation for a given doctrine is an arrow of signed sets $A$, $B$ called a **graph** (or EKM graph, for Eilenberg, Kelly and Mac Lane), which by definition is a partition of the signed elements of $A \cup B$ into mated pairs, such that 
+
+* Mated elements, one in $A$ and one in $B$, have the same sign; 
+
+* Mated elements, both in $A$ or both in $B$, have opposite signs. 
+
+An EKM graph may be identified with a directed graph whose edges are mated pairs, oriented in the direction from an $A$-element to a $B$-element if the mates have the same sign, or from $+$ to $-$ if the mates are $A$-elements, or from $-$ to $+$ if the mates are $B$-elements. Such a graph may also be considered as an oriented 1-cobordism between oriented 0-manifolds without loops (circles). 
+
+For example, the arity of the evaluation map in closed monoidal categories, 
+
+$$ev_{X, Y}: [X, Y] \otimes X \to Y$$ 
+
+is an arrow with an oriented edge from the third placeholder of the domain to the first placeholder, and an oriented edge from the second placeholder of the domain to the placeholder of the codomain. 
+
+Hence we obtain a directed graph whose vertices are signed sets and whose edges are EKM graphs between the signed sets. An immediate question is how to compose graphs to form a category, and in particular what to do about "loops" or "islands" which may arise in composing such 1-cobordisms. The first answer that may come to mind is simply to ignore them (in other words, regard the pairings as morphisms in a bicategory of co-relations, and compose them as such). An answer more relevant to clubs will emerge in the next section. 
+
+### Doctrine of compact closed categories 
+
+An example in which loops arise in compositions of extranatural transformations is the doctrine of compact closed (symmetric monoidal) categories. The classic example is the composition 
+
+$$1 \stackrel{\eta}{\to} c^* \otimes c \stackrel{\varepsilon}{\to} 1$$ 
+
+where $1$ denotes a monoidal unit, $\eta$ is a unit for an adjunction $c \dashv c^*$, and $\varepsilon$ is a counit for $c^* \dashv c$ (in a symmetric monoidal category, such adjunctions are inevitably [[ambidextrous adjunction|ambidextrous]]). 
+
+This composition obviously does not define an extranatural transformtion from a constant functor to itself, precisely because of dependence on $c$ (for example, when interpreted in the compact closed category of finite-dimensional vector spaces, the value is $dim(c)$). In general, the presence of loops in compositions of extranaturality graphs should be seen as reflecting a fatal ill-definedness of composition of the extranatural transformations giving rise to them, and in such situations an alarm should sound: "(Danger, Will Robinson!)[http://en.wikipedia.org/wiki/Danger,_Will_Robinson]". 
+
+The lesson learned is that the doctrine of compact closed categories is not describable by a club, and that for the purposes of clubs there is no use for compositions of graphs which produce loops. If one insists on assigning a value to composition in such cases, it might as well be a junk value $*$, and therefore it is justifiable to regard signed sets and arrows between them as carrying a structure of category enriched in the symmetric monoidal category of pointed sets (= category of sets and partially defined functions). 
+
+### Definition of club of mixed variance 
+
+Let $\mathbf{G}$ be the category enriched in pointed sets whose objects are finite signed sets, and whose morphisms are graphs as described above, composed as in the bicategory of cospans between sets unless this results in the creation of loops (in which case the composition is defined to be the basepoint of the hom-set it belongs to). There is no harm in thinking of $\mathbf{G}$ as an ordinary category. 
+
+Let $(Cat/\mathbf{G})'$ be the full subcategory of $Cat/\mathbf{G}$ whose objects are functors $\Gamma: C \to \mathbf{G}$ such that for every morphism $f$ of $C$, $\Gamma(f)$ is _not_ the basepoint of the hom-set it belongs to. There is an action 
+
+$$\circ: (Cat/\mathbf{G})' \times Cat \to Cat$$ 
+
+for which the objects of $(\Gamma: C \to \mathbf{G}) \circ D$ are pairs 
+$(c, \sigma: \Gamma(c) \to Ob(D) \cup Ob(D^{op}))$ where $c$ is an object of $C$ and $\sigma$ is a lift of $sign: \Gamma(c) \to \{+, -\}$ through the function 
+
+$$! \cup !: Ob(D) \cup Ob(D^{op}) \to \{+\} \cup \{-\} = \{+, -\}$$
+
+Morphisms of $(\Gamma: C \to \mathbf{G}) \circ D$ are pairs $(f: c \to c', \phi: \Gamma(f) \to U(D))$ where $\phi$ is a morphism of [[quiver|directed graphs]] to the underlying graph of $D$. Again, this action $\circ$ lifts to a monoidal product 
+
+$$\circ: (Cat/\mathbf{G})' \times (Cat/\mathbf{G})' \to (Cat/\mathbf{G})'$$ 
+
+with monoidal unit $I: 1 \to \mathbf{G}$ naming the 1-point set, positively signed. The action of $(Cat/\mathbf{G})'$ on $Cat$ becomes an actegory with respect to the monoidal category structure. 
+
+**Definition:** A **club** over $\mathbf{G}$ is a monoid in the monoidal category $((Cat/\mathbf{G})', \circ, I)$. 
+
+A club over $\mathbf{G}$ induces (via the actegory structure) a monad on $Cat$, and an **algebra** over the club is an algebra for this monad. 
+
+* The monad on $Cat$ induced by a club over $\mathbf{G}$ is not a 2-monad, but it does give a 2-monad if one restricts to the locally groupoidal 2-category of categories, functors, and natural isomorphisms. 
+
+Clubs over $\mathbf{G}$ are _not_ however examples of generalized operads over a cartesian monad. 
