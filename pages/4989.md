@@ -35,6 +35,8 @@ Let $C$ be a small [[site]], i.e. a [[small category]] equipped with a [[coverag
 
 =--
 
+Notice that if $C$ has finite [[product]]s then it is also cosifted.
+
 ## Properties: sheaves on a cohesive site
 
 +-- {: .un_prop}
