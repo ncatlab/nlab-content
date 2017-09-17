@@ -9,6 +9,8 @@
 
 * [[quasi-free algebra]]
 
+* [[cotangent complex]]
+
 * and much much more....
 
 * Daniel Quillen, _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
@@ -19,4 +21,5 @@
 [[!redirects D. Quillen]]
 [[!redirects Daniel G. Quillen]]
 [[!redirects D. G. Quillen]]
+[[!redirects Quillen]]
 category: people
