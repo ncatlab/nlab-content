@@ -43,9 +43,14 @@ Recently published review papers:
 
 * Robert M. Wald: [The History and Present Status of Quantum Field Theory in Curved Spacetime] (http://lanl.arxiv.org/abs/gr-qc/0608018v1)
 
-Papers about the application of [[microlocal analysis]]:
+Papers about the application of [[microlocal analysis]] include
 
 * Alexander Strohmaier, Rainer Verch, Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0202003)).
+
+Discussion of the [[standard model of cosmology]] in the context of AQFT on curved spacetimes is in 
+
+* [[Klaus Fredenhagen]], Thomas-Paul Hack, _Quantum field theory on curved spacetime and the standard cosmological model_ ([arXiv:1308.6773](http://arxiv.org/abs/1308.6773))
+
 
 [[!redirects AQFT on curved spacetime]]
 
