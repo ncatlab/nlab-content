@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _Goldman bracket_ of a [[compact space|compact]] [[closed space|closed]] [[surface]] $\Sigma$ is a [[Lie algebra]] structure on the [[free abelian group]] generated from the [[isotopy]] classes of based loops in $\Sigma$.
+The _Goldman bracket_ of a [[compact space|compact]] [[closed manifold|closed]] [[surface]] $\Sigma$ is a [[Lie algebra]] structure on the [[free abelian group]] generated from the [[isotopy]] classes of based loops in $\Sigma$.
 
 Equivalently, the Goldman bracket on $\Sigma$ is a structure on the 0th [[homology]] $H_0(L \Sigma)$ of the [[free loop space]] of $\Sigma$. It is in fact just the lowest degree of the [[string topology]] operations on $\Sigma$. See there for more details.
 
