@@ -411,8 +411,9 @@ The multiplicative structure of algebaric K-theory makes $KGL$ into a ring spect
 Over non-regular schemes, the motivic spectrum $KGL$ is also defined and it represents Weibel's homotopy invariant version of [[algebraic K-theory]] (see [Cisinski13](#Cis13)).
 
 ### Algebraic cobordism
+ {#AlgebraicCobordism}
 
-In analogy with the complex cobordism spectrum $MU$, Voevodsky defined the _[[algebraic cobordism]] spectrum_ $MGL \in SH(S)$ by
+In analogy with the complex cobordism spectrum $MU$, Voevodsky defined the _[[algebraic cobordism spectrum]] _ $MGL \in SH(S)$ (for [[algebraic cobordism]] [[generalized cohomology theory]]) by
 
 $$ MGL = colim_{n\to\infty} \Sigma_T^{\infty -n} V_n/V_n^\times, $$
 
