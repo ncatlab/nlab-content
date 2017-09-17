@@ -87,7 +87,7 @@ There are two powerful theorems that characterize combinatorial model categories
 
 * [[Jeff Smith]]'s theorem characterizes combinatorial model categories just in terms of weak equivalences and generating cofibrations, hence using ony two third of the input data explicitly required. This greatly facilitates identifying combinatorial model category structures. For instance it helps to show that the left [[Bousfield localization of model categories|Bousfield localization]] of certain combinatorial model categories is again a combinatorial model category.
 
-* [[Dan Dugger]]'s theorem shows that [[combinatorial simplicial model category|combinatorial simplicial model categories]] are, up to [[Quillen equivalence]], precisely those model categories that have a _presentation_ in that they are [[Bousfield localization of model categories|Bousfield localization]]s of global [[model structure on simplicial presheaves|global model structures on simplicial presheaves]]. This was used by [[Jacob Lurie]] to show that simplicial combinatorial model categories are precisely the models for [[presentable (∞,1)-category|locally presentable (∞,1)-categories]].
+* [[Dan Dugger]]'s theorem shows that [[combinatorial simplicial model category|combinatorial simplicial model categories]] are, up to [[Quillen equivalence]], precisely those model categories that have a _presentation_ in that they are [[Bousfield localization of model categories|Bousfield localization]]s of [[model structure on simplicial presheaves|global model structures on simplicial presheaves]]. This was used by [[Jacob Lurie]] to show that simplicial combinatorial model categories are precisely the models for [[presentable (∞,1)-category|locally presentable (∞,1)-categories]].
 
 
 ### Smith's theorem 
