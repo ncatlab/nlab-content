@@ -34,7 +34,9 @@ The above is sometimes referred to as the unstable general linear group, whilst 
 
 * [[Gauss decomposition]], 
 
-* [[special linear group]], [[orthogonal group]], [[unitary group]], 
+* [[special linear group]], [[projective linear group]]
+
+* [[orthogonal group]], [[unitary group]], 
 
 * [[Borel subgroup]], [[flag variety]]. 
 
