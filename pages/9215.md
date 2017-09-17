@@ -20,6 +20,8 @@ See also
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
 
+(Other talks at this conference include [[David Ben-Zvi]]: _[[Loop Groups, Characters and Elliptic Curves]]_.)
+
 One explicit version of
 
 * [[3d Chern-Simons theory]] $\leftarrow$[[holographic principle]]$\to$ [[2d WZW model]]
