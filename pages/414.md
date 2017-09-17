@@ -33,6 +33,8 @@ $$
   \,.
 $$
 
+Another way to say  this is that the [[hom-functor]] $Hom(P,-)$ preserves epimorphisms.
+
 
 A category $C$ has **enough projectives** if for every object $X$ there is an epimorphism $P\to X$ where $P$ is projective.
 
