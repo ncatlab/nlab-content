@@ -14,9 +14,57 @@
 
 ## Idea
 
-A basic [[lemma]] in [[homological algebra]].
+A basic [[lemma]] in [[homological algebra]]: it constructs [[connecting homomorphisms]].
+
+## Statement
+
++-- {: .num_lemma}
+###### Lemma
+
+Let 
+
+$$
+  \array{
+    && A' &\to & B' &\stackrel{p}{\to}& C' &\to & 0
+    \\
+    && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{h}}
+    \\
+    0 &\to& A &\stackrel{i}{\to} & B &\to& C
+  }
+$$
+
+be a [[commuting diagram]] in an [[abelian category]] $\mathcal{A}$ such that the two rows are [[exact sequences]]. 
+
+Then there is a [[long exact sequence]] of [[kernels]] and [[cokernels]] of the form
+
+$$
+  ker(f)  \to ker(g) \to ker(h) \stackrel{\partial}{\to}
+  coker(f) \to coker(g) \to coker(h)
+  \,.
+$$
+
+Moreover
+
+* if $A \to B$ is a [[monomorphism]] then so is $ker(f) \to ker(g)$
+
+* if $B \to C$ is an [[epimorphism]], then so is $coker(g) \to coker(h)$.
+
+If $\mathcal{A}$ is [[Freyd-Mitchell embedding theorem|realized]] as a ([[full subcategory]] of) a category of $R$-[[modules]], then the _[[connecting homomorphism]]_ $\partial$ here can be defined on elements $c' \in ker(h) \subset C'$ by
+
+$$
+  \partial (c') := i^{-1} \,g\, p^{-1}(c')
+  \,,
+$$
+
+where $i^{-1}(-)$ and $p^{-1}(-)$ denote any choice of [[pre-image]] (the total formula is independent of that choice).
+
+
+=--
+
 
 ## Related concepts
+
+* [[connecting homomorphism]]
 
 * [[3x3 lemma]], [[5-lemma]],
 
@@ -24,7 +72,7 @@ A basic [[lemma]] in [[homological algebra]].
 
 ## References
 
-The snake lemma appears as lemma 1.3.2 in 
+The snake lemma appears for instance as lemma 1.3.2 in 
 
 * [[Charles Weibel]], _[[An introduction to homological algebra]]_
 
