@@ -95,26 +95,78 @@ This appears as [Johnstone, scholium C1.6.4](#Johnstone).
 
 
 ### Relation to topological spaces
+ {#RelationToTopologicalSpaces}
 
-Every topological space $X$ has a frame of open sets $O(X)$, and therefore gives rise to a locale $X_l$.  For every continuous function $f:X\to Y$ between spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_l\to Y_l$ of locales.  Thus we have a functor $(-)_l:$ [[Top]] $\to$ [[Locale]].
+Every [[topological space]] $X$ has a [[frame of opens]] $O(X)$, and therefore gives rise to a locale $X_L$.  For every [[continuous function]] $f:X\to Y$ between topologicals spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_L\to Y_L$ of locales.  Thus we have a [[functor]] 
 
-Conversely, if $X$ is any locale, we define a **point** of $X$ to be a continuous map $1\to X$.  Here $1$ is the terminal locale, which can be defined as the locale $1_l$ corresponding to the terminal space.  Explicitly, we have $O(1) = P(1)$, the powerset of $1$ (the initial frame, the set of [[truth value]]s, which is 2 classically or in a [[Boolean topos]]).  Since a frame homomorphism $O(X)\to P(1)$ is determined by the preimage of $1$, a point can also be described more explicitly as a _completely prime filter_: an upwards-closed subset $F$ of $O(X)$ such that $X\in F$ ($X$ denotes the top element of $O(X)$), if $U,V\in F$ then $U\cap V\in F$, and if  $\bigcup_i U_i\in F$ then $U_i\in F$ for some $i$.
+$(-)_L:$ [[Top]] $\to$ [[Locale]].
 
-The elements of $O(X)$ induce a topology on the set of points of $X$ in an obvious way, thereby giving rise to a topological space $X_p$.  Any continuous map $f:X\to Y$ of locales induces a continuous map $f_p:X_p\to Y_p$ of spaces, so we have another functor $(-)_P:Loc\to Top$.
+Conversely, if $X$ is any locale, we define a **[[point]]** of $X$ to be a [[continuous map]] $1\to X$.  Here $1$ is the [[terminal object|terminal]] locale, which can be defined as the locale $1_l$ corresponding to the terminal space.  Explicitly, we have $O(1) = P(1)$, the powerset of $1$ (the initial frame, the set of [[truth value]]s, which is 2 classically or in a [[Boolean topos]]).  Since a frame homomorphism $O(X)\to P(1)$ is determined by the preimage of $1$, a point can also be described more explicitly as a _completely prime filter_: an upwards-closed subset $F$ of $O(X)$ such that $X\in F$ ($X$ denotes the top element of $O(X)$), if $U,V\in F$ then $U\cap V\in F$, and if  $\bigcup_i U_i\in F$ then $U_i\in F$ for some $i$.
 
-It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  
+The elements of $O(X)$ induce a [[topology]] on the set of points of $X$ in an obvious way, thereby giving rise to a topological space $X_p$.  Any continuous map $f:X\to Y$ of locales induces a continuous map $f_p:X_p\to Y_p$ of spaces, so we have another functor 
 
+$(-)_P:Loc\to Top$.
+
+One finds that $(-)_L$ is [[left adjoint]] to $(-)_P$.  
+In fact, this is an [[idempotent adjunction]]:
+
++-- {: .num_prop #TopLocAdjunction}
+###### Proposition
+
+The categories [[Top]] of [[topological spaces]] and [[Locale]] are related by an [[idempotent adjunction]].
 
 $$
-  Locale \stackrel{\overset{(-)_l}}{\underset{(-)_p}{\to}}
+  (
+    (-)_L \dashv (-)_P
+  )
+  :
   Top
+    \stackrel{\overset{(-)_L}{\rightarrow}}{\underset{(-)_P}{\leftarrow}}
+  Locale
+  \,.
 $$
 
-In fact, this is an [[idempotent adjunction]], and therefore it restricts to an equivalence between the fixed subcategories on either side.  A space with $X\cong X_{l p}$ is called **[[sober space|sober]]**, while a locale with $X\cong X_{p l}$ is called **spatial**.
+=--
+
+This appears for instance as ([MacLaneMoerdijk, theorem IX.3 1](#MacLaneMoerdijk)) or as ([Johnston, lemma C.1.2.2](#Johnstone)).
+
+Therefore the [[adjunction]] restricts to an [[equivalence of categories|equivalence]] between the fixed subcategories on either side.  
+
++-- {: .num_defn}
+###### Definition
+
+A [[topological space]] $X$ with $X\cong X_{L P}$ is called **[[sober space|sober]]**.
+
+A locale with $X\cong X_{P L}$ is called **spatial**.
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+The [[adjunction]] from prop. \ref{TopLocAdjunction} exhibits sober topological spaces as a [[coreflective subcategory]] of [[Locale]]
+
+$$
+  (
+    (-)_L \dashv (-)_P
+  )
+  :
+  SoberTop
+    \stackrel{\overset{(-)_L}{\hookrightarrow}}{\underset{(-)_P}{\leftarrow}}
+  Locale
+$$
 
 
+and this restricts to an 
+[[equivalence of categories]] between the [[full subcategory]] of locales with enough points, and that of [[sober topological space]]s.
 
-### Relation to toposes {#RelationToToposes}
+=--
+
+This appears for instance as ([MacLaneMoerdijk, corollary IX.3 4](#MacLaneMoerdijk)).
+
+
+### Relation to toposes 
+ {#RelationToToposes}
 
 The [[frame]] of opens $O(X)$ corresponding to a locale $X$ is naturally a [[site]]:
 
