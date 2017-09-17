@@ -26,9 +26,32 @@
 
 ## Idea
 
-Higher monadic descent is the generalization of the notion of [[monadic descent]] from [[category theory]] to [[higher category theory]]. It relates to the [[descent]] of [[∞-stack]]s as ordinary monad descent relates to [[stack]]s.
+Higher monadic descent is the generalization of the notion of [[monadic descent]] from [[category theory]] to [[higher category theory]]. It relates to the [[descent]] of [[∞-stacks]] as ordinary monad descent relates to [[stack]]s.
 
 See also [[cohomological descent]].
+
+## Examples
+
+### Amitsur complex, Sweedler corings, Hopf algebroids
+ {#AmitsurComplex}
+
+For $\phi \colon B \longrightarrow A$ a [[homomorphism]]
+of suitable [[monoids]], there is the corresponding pull-push [[adjunction]] 
+([[extension of scalars]] $\dashv$ [[restriction of scalars]]) on [[categories of modules]]
+
+
+$$
+  ((- )\otimes_B A \dashv \phi^\ast )
+  \;\colon\;
+   Mod_A
+    \stackrel{\overset{(-)\otimes_B A}{\leftarrow}}{\underset{\phi^\ast}{\longrightarrow}}
+   Mod_B
+  \,.
+$$
+
+The [[bar construction]] of the corresponding [[monad]] is the corresponding [[Amitsur complex]].
+
+(e.g. [Hess 10, section 6](#Hess10))
 
 ## Related concepts
 
@@ -82,3 +105,4 @@ See also, for another point of view,
 A proposal for a formulation of monadic descent for [[simplicially enriched category|simplicially enriched categories]] is in
 
 * [[Kathryn Hess]], _A general framework for homotopic descent and codescent_, [arXiv/1001.1556](http://arxiv.org/abs/1001.1556)
+ {#Hess10}
