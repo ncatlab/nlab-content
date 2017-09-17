@@ -60,3 +60,8 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
 [[!redirects algebra over operad]]
 [[!redirects algebra for an operad]]
 [[!redirects algebra of an operad]]
+
+[[!redirects algebras over an operad]]
+[[!redirects algebras over operad]]
+[[!redirects algebras for an operad]]
+[[!redirects algebras of an operad]]
