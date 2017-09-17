@@ -1,8 +1,14 @@
-#Idea#
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 Two maps $f : X \to Z$ and $g : Y \to Z$ of [[manifold]]s are _transversal_ roughly if the images of $X$ and $Y$ in $Z$ do not "touch tangentially".
 
-# Definition #
+## Definition 
 
 Two maps $f : X \to Z$ and $g : Y \to Z$ of [[manifold]]s are _transversal_ if for all point $x \in X$ and $y \in Y$ with $f(x) = z = g(y)$ the differentials of $f$ and $g$ in these points span the entire tangent space at $z$ in that
 
@@ -11,7 +17,7 @@ $$
   \,.
 $$
 
-# Remarks #
+## Remarks 
 
 Various constructions involving [[pullback]]s of [[manifold]]s work as expected only for pullbacks involving transversal maps. 
 
@@ -27,3 +33,6 @@ More precisely:
 
 
 [[!redirects transversal map]]
+
+[[!redirects transverse maps]]
+[[!redirects transverse map]]
