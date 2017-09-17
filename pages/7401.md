@@ -124,7 +124,7 @@ For $n \in \mathbb{N}$ write
 
 * $i_n : S^+(n) \hookrightarrow S^+((n))$ for the [[full subcategory]] inclusion on constant codomains;
 
-* $G_n(S) \subset Core(S)$ for the [[groupoid]] of objects of dgree $n$ and [[isomorphisms]] between them.
+* $G_n(S) \subset Core(S)$ for the [[groupoid]] of objects of degree $n$ and [[isomorphisms]] between them.
 
 =--
 
@@ -136,7 +136,7 @@ The above categories and functors arrange into a [[diagram]]
 $$
   \array{
     S &\stackrel{dom_n}{\leftarrow}& S^+((n)) &\stackrel{cod_n}{\to}& G_n(S)
-    &\stackrel{j_n}{\to}& S
+    &\stackrel{j_n}{\hookrightarrow}& S
     \\
     &&
     {}^{\mathllap{i_n}}\uparrow && \uparrow^{\mathrlap{i_n}}
@@ -149,15 +149,15 @@ $$
 where the vertical morphisms are (non-full) inclusions and the square is a [[pullback]] of an [[opfibration]].  Therefore it satisfies the [[Beck-Chevalley condition]] so that we have a [[natural isomorphism]]
 
 $$
-  cod_! i^* \simeq i^* cod_!
+  (cod_n)_! i_n^* \simeq i_n^* (cod_n)_!
   \,.
 $$
 
 
 =--
 
-+-- {: .num_lemma}
-###### Observation
++-- {: .num_remark #RestrictedCodomainIsOpfibration}
+###### Remark
 
 The restricted [[codomain fibration|codomain opfibration]] $cod_n : S^+((n)) \to G_n$ is still an [[opfibration]]: it is the [[Grothendieck construction]] of the [[pseudofunctor]]
 
@@ -178,12 +178,25 @@ $$
 
 For $n \in \mathbb{N}$, let $X \in [S, \mathcal{C}]$. Write 
 
-* $X_n := j_n^* X \in [G_n(S), \mathcal{C}]$;
+* $X_n := j_n^* X = X|_{G_n(S)} \in [G_n(S), \mathcal{C}]$;
 
 * the **$n$th latching object** is 
 
   $$
     L_n(X) := cod_! dom_n^* X \in [G_n(S), \mathcal{C}]
+    \,.
+  $$
+
+* the **$n$th latching morphism**
+
+  $$
+    Latch_n(X) \to X_n
+  $$
+
+  is the [[adjunct]] to the canonical functor
+
+  $$  
+    dom_n^* X \to (j_n cod_n)^* X
     \,.
   $$
 
@@ -197,14 +210,26 @@ The following proposition says that the "global" latching objects indeed contain
 For $s \in Obj(S)_n$ we have
 
 $$
-  L_n(X) : s \mapsto L_s(X)
-  \,.
+  Latch_n(X) : s \mapsto Latch_s(X)
 $$
+
+and the component of the $n$th latching morphism on $s$ is the canonical $Latch_s(X) \to X(s)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By remark \ref{RestrictedCodomainIsOpfibration} 
+$(cod_n)_!$ is the left Kan extension along an [[opfibration]]. By a standard fact (see [here](http://ncatlab.org/nlab/show/Kan+extension#AlongFibrations) at _[[Kan extension]]_) these are computed at any object by the colimit over the fiber over that object.
+
 
 =--
 
 ### Skeleta and coskeleta
  {#SkeletaAndCoskeleta}
+
+Over any generalized Reedy category there is an anlog of the notion of [[simplicial skeleton]] and [[simplicial coskeleton]].
 
 For $n \in \mathbb{N}$, write 
 
