@@ -62,7 +62,7 @@ If the structure of a category with weak equivalences is enhanced to that of a [
 Suppose now that $Q : C \to C$ is a [[cofibrant replacement functor]] and $R : C \to C$ a [[fibrant replacement functor]], $\Gamma^\bullet : C \to (cC)_c$ a [[cosimplicial resolution functor]] and $\Lambda_\bullet : C \to (sC)_f$ a [[simplicial resolution functor]] in the [[model category]] $C$.
 
 
-+-- {: .un_theorem }
++-- {: .un_theorem #DKTheorem}
 ###### Theorem (Dwyer--Kan)
 
 There are natural weak equivalences between the following equivalent realizations of this [[SSet]] [[hom-object]]:
