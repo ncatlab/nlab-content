@@ -30,13 +30,15 @@ Suppose the universal enveloping algebras of Lie algebras exist in a $k$-linear 
 
 The universal enveloping algebra of the tangent Lie algebra of a finite-dimensional Lie group $G$ over real or complex numbers is canonically isomorphic to the algebra of the left invariant differential operators on $G$. 
 
+The [[Poincaré–Birkhoff–Witt theorem]] states that the associated graded algebra of an enveloping algebra $U(g)$ in characteristics zero is canonically isomorphic to a symmetric algebra $Sym(g)$, and $U(g)$ is isomorphic to $S(g)$ as a coalgebra, via the projection map $U(g)\to Gr U(g)$. 
+
 ## Related concepts
 
 An [[oidification]] is the [[universal enveloping algebroid]].
 
 ## Literature
 
-* Related entries: [[Hausdorff series]]
+* Related entries: [[Hausdorff series]], [[Poincaré–Birkhoff–Witt theorem]]
 * [[N. Bourbaki]], _Lie groups and Lie algebras_
 * Jacques Dixmier, _Enveloping algebras_, Graduate Studies in Mathematics 11, Amer. Math. Soc. 
 * wikipedia: [universal enveloping algebra](http://en.wikipedia.org/wiki/Universal_enveloping_algebra), [PBW theorem](http://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Birkhoff%E2%80%93Witt_theorem)
