@@ -35,6 +35,8 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 
 * [[renormalon]]
 
+* [[caloron correspondence]]
+
 * [[brane]]
 
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
