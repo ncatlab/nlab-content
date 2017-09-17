@@ -34,7 +34,7 @@ In complete analogy to how
 
 so $(2+1)$-dimensional extended objects, quantum "mem[[branes]]", couple to the $C$-field. By the entirely same Dirac quantization argument described at [[electromagnetic field]] and [[Kalb–Ramond field]], this alone implies already that:
 
-the $C$-field is a degree-$3$ [[Deligne cohomology|Deligne]] [[differential cohomology|differential cocycle]]. It may be realized as a [[Chern-Simons 2-gerbe]].
+the $C$-field is a degree-$3$ cocycle in [[ordinary differential cohomology]]. It may be realized as a [[Chern-Simons 2-gerbe]].
 
 Moreover, a phenomenon closely related to the [[Green–Schwarz mechanism]] implies that the $C$-field is not an arbitrary degree-$3$ diffential cocycle, but the difference of two Chern--Simons differential cocycles, in that the curvature characteristic $4$-form is constrained to be in the de Rham cohomology class of the first Pontryagin characteristic class of the tangent bundle of the underlying space.
 
