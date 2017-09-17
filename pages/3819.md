@@ -39,3 +39,4 @@ In the [[AQFT]] approach to [[quantum field theory]] the observables are the ver
 
 [[!redirects observable]]
 [[!redirects observables]]
+[[!redirects algebra of observables]]
