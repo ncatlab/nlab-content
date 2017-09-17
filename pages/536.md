@@ -338,13 +338,21 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 * [[operad]] / [[(∞,1)-operad]]
 
 
+* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+
+* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
+
+* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
+
+* [[geometric category]], **geometric functor**, [[geometric logic]], [[geometric theory]]
+
+
 ## References
 
 * <span id="Johnstone"></span>
   [[Peter Johnstone]], _[[Stone Spaces]]_
   [Johnstone]: #Johnstone
 
-_Someone should improve this article so that it gives a **definition** of 'algebraic theory' before considering special cases such as 'commutative algebraic theory'._
 
 
 [[!redirects algebraic theories]]
