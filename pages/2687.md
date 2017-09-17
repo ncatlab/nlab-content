@@ -170,12 +170,12 @@
 
 ### for $(\infty,1)$-operads
 
-* [[model structure on operads|on operads]]
+* [[model structure on operads|on operads]], [[model structure for Segal operads|for Segal operads]]
 
   [[model structure on algebras over an operad|on algebras over an operad]],
   [[model structure on modules over an algebra over an operad|on modules over an algebra over an operad]]
 
-* [[model structure on dendroidal sets|on dendroidal sets]]
+* [[model structure on dendroidal sets|on dendroidal sets]], [[model structure for dendroidal complete Segal spaces|for dendroidal complete Segal spaces]], [[model structure for dendroidal Cartesian fibrations|for dendroidal Cartesian fibrations]]
 
 ### for $(n,r)$-categories
 
