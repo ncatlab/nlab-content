@@ -31,7 +31,7 @@ into the constant simplicial object.
 
 ## Definitions
 
-Denote by $\Delta_+$ the [[augmented simplex category]], which may be defined as the [[full subcategory]] of [[Cat]] on [[free categories]] over finite and _possibly empty_ linear [[directed graphs]], which are
+Denote by $\Delta_+$ (also denoted $\Delta_a$) the [[augmented simplex category]], which may be defined as the [[full subcategory]] of [[Cat]] on [[free categories]] over finite and _possibly empty_ linear [[directed graphs]], which are
 
 * $[-1] := \emptyset$;
 
