@@ -17,17 +17,18 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
 ## Idea 
 
-A **partial recursive function** is a [[partial function]] which can be defined by an [[algorithm]] or computer [[program]] (e.g., a Turing machine), taking finitely many [[natural numbers]] as inputs, and which on input either runs forever, or eventually halts and returns a natural number as output. 
+A **partial recursive function** is a [[partial function]] which can be defined by an [[algorithm]] or computer [[program]] (e.g., a [[Turing machine]]), taking finitely many [[natural numbers]] as inputs, and which on input may run forever, but otherwise eventually halts and returns a natural number as output. 
 
-This idea as described is vague until it is circumscribed by a specific notion of computer program (Turing machines, register machines, abaci, etc.). There is a standard article of faith called the "Church-Turing thesis", identifying functions on natural numbers that are algorithmically computable with those that are computable using a Turing machine (or some variant class of machines that is Turing complete). 
+This idea as described is vague until it is circumscribed by a specific notion of computer program (Turing machines, register machines, abaci, etc.). There is a standard article of faith called the "Church--Turing thesis", identifying functions on natural numbers that are algorithmically computable with those that are computable using a Turing machine (or some variant class of machines that is Turing-complete). 
 
 A purely mathematical definition of the intended class of functions is given below. 
+
 
 ## Definition 
 
@@ -41,7 +42,7 @@ A _partial recursive function_ is a [[partial function]] from $\mathbb{N}^k$ to 
 
 * includes the successor function $s: \mathbb{N} \to \mathbb{N}$; 
 
-* is closed under [[composition]]: if $f_1: \mathbb{N}^{k_1} \to \mathbb{N}, \ldots, f_n: \mathbb{N}^{k_n} \to \mathbb{N}$ and $g: \mathbb{N}^n \to \mathbb{N}$ belong to $\mathcal{C}$, then so does $g(f_1, \ldots, f_n): \mathbb{N}^{k_1 + \ldots + k_n} \to \mathbb{N}$; 
+* is closed under [[composition]]: if $f_1: \mathbb{N}^{k_1} \to \mathbb{N}, \ldots, f_n: \mathbb{N}^{k_n} \to \mathbb{N}$ and $g: \mathbb{N}^n \to \mathbb{N}$ belong to $\mathcal{C}$, then so does $g \circ (f_1, \ldots, f_n): \mathbb{N}^{k_1 + \ldots + k_n} \to \mathbb{N}$; 
 
 * is closed under primitive [[recursion]]: if $g: \mathbb{N}^k \to \mathbb{N}$ and $h: \mathbb{N}^{k+2} \to \mathbb{N}$ belong to $\mathcal{C}$, then the function $f: \mathbb{N}^{k+1} \to \mathbb{N}$ defined recursively by the equations (for $y \in \mathbb{N}$ and $\mathbf{x} \in \mathbb{N}^k$) 
 $$f(0, \mathbf{x}) = g(\mathbf{x})$$ 
@@ -49,13 +50,22 @@ $$\,$$
 $$f(y+1, \mathbf{x}) = h(y, f(y, \mathbf{x}), \mathbf{x})$$ 
 also belongs to $\mathcal{C}$; 
 
-* is closed under minimization: given any _total_ function $f: \mathbb{N}^{k+1} \to \mathbb{N}$ belonging to $\mathcal{C}$, the partial function $g: \mathbb{N}^k \to \mathbb{N}$, defined by $g(\mathbf{x}) = c$ iff $f(c, \mathbf{x}) = 0$ and $f(d, \mathbf{x}) \gt 0$ whenever $0 \leq d \leq c-1$, also belongs to $\mathcal{C}$. 
-
+* is closed under minimization: given any _[[total function|total]]_ function $f: \mathbb{N}^{k+1} \to \mathbb{N}$ belonging to $\mathcal{C}$, the partial function $g: \mathbb{N}^k \to \mathbb{N}$, defined by $g(\mathbf{x}) = c$ iff $f(c, \mathbf{x}) = 0$ and $f(d, \mathbf{x}) \gt 0$ whenever $0 \leq d \leq c-1$, also belongs to $\mathcal{C}$. 
 =-- 
+
+
+## Properties
+
+There exist recursive [[bijections]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$; since partial recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $\mathbb{N} \to 1$ or $1 \to \mathbb{N}$ is recursive.)
+
 
 ## Related concepts
 
 * [[recursive subset]]
+* [[computable function]]
 
 
+[[!redirects partial recursive function]]
 [[!redirects partial recursive functions]]
+[[!redirects recursive partial function]]
+[[!redirects recursive partial functions]]
