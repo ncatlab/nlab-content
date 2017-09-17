@@ -123,6 +123,10 @@ In the case that the fiber $F$ is the [[delooping]] $F = \mathbf{B}G$ of an [[�
 
 ## Related concepts
 
+* [[action]], [[∞-action]]
+
+* [[representation]], [[∞-representation]]
+
 * [[principal bundle]] / [[torsor]] / [[associated bundle]]
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
