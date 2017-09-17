@@ -90,9 +90,6 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
  {#SteeringCommitte}
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
-[mayweather vs ortiz live streaming](http://www.mayweathervsortizfight.com/)
-[link building service](http://www.diamondlinks.net)
-[donaire vs narvaez tickets](http://www.buyticketscenter.com/donaire-vs-narvaez-tickets/)
 
 
 category: meta
