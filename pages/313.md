@@ -4,19 +4,31 @@
 
 ## Idea
 
-In general, a diagram is the same thing as a [[functor]], and sometimes it\'s helpful to work in that generality.  However, we often use the term 'diagram' for something that we can actually see on the page, in which case we mean a functor whose domain is the [[free category]] on a [[quiver]] (often a finite one).
+Informally, a **diagram** in a [[category]] $C$ consists of some [[objects]] of $C$ connected by some [[morphisms]] of $C$.  Frequently when doing category theory, we "draw diagrams" such as
+$$\array{A & \overset{f}{\to} & B\\
+  ^h\downarrow && \downarrow^k\\
+  C& \underset{g}{\to} & D}$$
+by drawing some objects (or dots labeled by objects) connected by arrows labeled by morphisms.
+
+There are two natural ways to give the notion of "diagram" a formal definition.  One is to say that a diagram is a [[functor]], usually one whose domain is a (very) [[small category]].  This level of generality is sometimes convenient.
+
+On the other hand, a more direct representation of what we draw on the page, when we "draw a diagram," only involves labeling the vertices and edges of a [[directed graph]] (or [[quiver]]) by objects and morphisms of the category.  This sort of diagram can be identified with a functor whose domain is a [[free category]], and this is the most common context when we talk about diagrams "commuting."
 
 
 ## Definitions
 
 Let $C$ be a [[category]].
 
+### Diagrams as functors
+
 +-- {: .num_defn}
 ###### Definition
-If $J$ is also a category, then a __diagram__ in $C$ of shape $J$ is simply a [[functor]] $D\colon J \to C$.
+If $J$ is a category, then a __diagram__ in $C$ of shape $J$ is simply a [[functor]] $D\colon J \to C$.
 =--
 
 This terminology is often used when speaking about [[limits]] and [[colimits]]; that is, we speak about "the limit or colimit of a diagram."  Similarly, it is common to call the [[functor category]] $C^J$ the "category of diagrams in $C$ of shape $J$".
+
+### Diagrams as graph morphisms
 
 +-- {: .num_defn}
 ###### Definition
@@ -25,11 +37,18 @@ If $J$ is a [[quiver]], then a __diagram__ in $C$ of shape $J$ is a functor $D\c
 
 Here $F\colon Quiv \to Cat$ denotes the [[free category]] on a quiver and $U\colon Cat \to Quiv$ the underlying quiver of a category, which form a pair of [[adjoint functors]].  These are the sorts of diagrams which we "draw on a page" --- we draw a quiver, and then label its vertices with objects of $C$ and its edges with morphisms in $C$, thereby forming a graph morphism $J\to U(C)$.
 
-A diagram is __[[commutative diagram|commutative]]__ if it factors through a [[preorder]].  Equivalently, if $J$ is a category, then a diagram of shape $J$ commutes iff any two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.  If $J$ is a quiver, as is more common when we speak about "commutative" diagrams, then this definition has to be applied to $F(J)$ instead; that is, we look at parallel paths of arbitrary finite length.
+## Remarks
 
-In either case, $J$ may be called the __shape__, __scheme__, or __index__ category or graph.
+* For either sort of diagram, $J$ may be called the __shape__, __scheme__, or __index__ category or graph.
 
-Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessarily a [[subcategory]] of $C$.
+* Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessarily a [[subcategory]] of $C$, even if $J$ is itself a category.  This is because the functor $F$ could identify objects of $J$, thereby producing new potential composites which do not exist in $J$.  (Sometimes one talks about the "image" of a functor as a subcategory, but this really means the subcategory *generated* by the image in the literal objects-and-morphisms sense.)
+
+
+## Commutative diagrams
+
+If $J$ is a category, then a diagram $J\to C$ is __[[commutative diagram|commutative]]__ if it factors through a [[preorder]].  Equivalently, a diagram of shape $J$ commutes iff any two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.
+
+If $J$ is a quiver, as is more common when we speak about "commutative" diagrams, then a diagram of shape $J$ commutes if the functor $F(J) \to C$ factors through a preorder.  Equivalently, this means that given any two parallel *paths* of arbitrary finite length (including zero) in $J$, their images in $C$ have equal composites.
 
 
 ## Examples
@@ -45,7 +64,9 @@ Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessar
 
 * A diagram of the shape $\{a \to b\}$ in $C$ is the choice of any one [[morphism]] $F_{a b} : X_a \to X_b$ in $C$.
 
-  Notice that strictly speaking this counts as a _commuting diagram_ , but is a degenrate case of a commuting diagram, since there is only a single morphism involved, which is necessarily equal to itself.
+  Notice that strictly speaking this counts as a _commuting diagram_ , but is a degenerate case of a commuting diagram, since there is only a single morphism involved, which is necessarily equal to itself.
+
+* If $J$ is the quiver with one object $a$ and one endo-edge $a\to a$, then a diagram of shape $J$ in $C$ consists of a single [[endomorphism]] in $C$.  Since $a\to a$ and the zero-length path are parallel in $J$, such a diagram only commutes if the endomorphism is an identity.  Note, in particular, that a single endomorphism can be considered as a diagram with more than one shape (this one and the previous one), and that whether this diagram "commutes" depends on the chosen shape.
 
 * A diagram of shape the [[poset]] indicated by
 
@@ -105,6 +126,20 @@ Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessar
       }    
   $$
 
+* By contrast, a diagram whose shape is the *quiver*
+  $$
+    \left\{
+      \array{
+         a &\to& b
+         \\
+         \downarrow && \downarrow
+         \\
+         b' &\to& c
+      }
+    \right\}
+  $$
+  is a not-necessarily-commuting square.  The free category on this quiver differs from the poset in the previous example by having *two* morphisms $a\to c$, one given by the composite $a\to b\to c$ and the other by the composite $a\ to b'\to c$.  But the poset in the previous category is the poset reflection of this $F(J)$, so a diagram of this shape commutes, in the sense defined above, iff it is a commuting square in the usual sense.
+
 
 * A pair of objects is a diagram whose shape is a [[discrete category]] with two objects.
 
@@ -113,7 +148,7 @@ Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessar
   $J = \{a \stackrel{\to}{\to} b\}$
   with two objects and two morphisms from one to the other. 
 
-  Notice that if we required  $\{a \stackrel{\to}{\to} b\}$ to be a [[poset]] this would necessarily make these two morphisms equal, and hence reduce this example to the one where $J = \{a \to b\}$. 
+  Notice that if we required  $\{a \stackrel{\to}{\to} b\}$ to be a [[poset]] this would necessarily make these two morphisms equal, and hence reduce this example to the one where $J = \{a \to b\}$.  In other words, a diagram of this shape only *commutes* if the two morphisms are equal.
 
 * A [[span]] is a diagram whose shape is a category with just three objects and single morphisms from one of the objects to the other two; 
 
@@ -161,7 +196,7 @@ Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessar
 
   where the indices may range over the [[natural number]]s or even some more general [[ordinal number]].
 
-  This is non-finite commuting diagram.
+  This is a non-finite commuting diagram.
 
 
 [[!redirects diagram]]
