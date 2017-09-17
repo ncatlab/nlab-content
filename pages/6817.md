@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -15,6 +30,8 @@
   * [[spinning string]] [[superstring]]
 
   * [[heterotic string]], [[type II superstring]]
+
+  * [[Gepner model]]
 
   * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
