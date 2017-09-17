@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -23,9 +23,12 @@ An **intersection** is a [[meet]] of [[subset]]s or (more generally) [[subobject
 
 The dual notion is that of [[union]]/[[join]].
 
-This includes the traditional [[set theory|set-theoretic]] intersection of subsets of some ambient set; intersections of completely arbitrary sets are considered [[evil]].
+This includes the traditional [[set theory|set-theoretic]] intersection of subsets of some ambient set, as well as intersections of completely arbitrary sets (which are subsets of the [[universe]]) in [[material set theory]].
 
 In a [[finitely complete category]], the intersection of two [[monomorphism]]s $A\hookrightarrow X$ and $B\hookrightarrow X$ can be computed by a [[pullback]] of the [[cospan]] $A\to X \leftarrow B$.
+
+The __nullary intersection__ of the subsets of $X$ is $X$ itself.  A __binary intersection__ is the intersection of two sets, and a __finitary intersection__ is the intersection of [[finite set|finitely]] many sets.  Finitary intersections may be built out of binary and nullary intersections.
+
 
 ## Related concepts
 
@@ -33,4 +36,15 @@ In a [[finitely complete category]], the intersection of two [[monomorphism]]s $
 
 * [[union]]
 
+
+[[!redirects intersection]]
 [[!redirects intersections]]
+
+[[!redirects nullary intersection]]
+[[!redirects nullary intersections]]
+
+[[!redirects binary intersection]]
+[[!redirects binary intersections]]
+
+[[!redirects finitary intersection]]
+[[!redirects finitary intersections]]
