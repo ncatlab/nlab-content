@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
