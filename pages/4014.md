@@ -1,3 +1,22 @@
+
++-- {: .query}
+
+[[Urs Schreiber]]: This page contains what turned out to be the beginning of a discussion that was further had on the nForum [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1232&page=1#Item_21). 
+
+Eventually, I suggest, we should have a page [[probability theory]] following the usual [[template page]] that contains a remark on the fact that there is a certain philosophical discussion to be had about the nature of probability theory. That remark should then point to this page here, or to a page like it, which would contain this philosophical material.
+
+This page here should eventually be more structured, so that the reader gets a better idea of what it is about. Roughly following the [[template page]], what we need here is
+
+1. A brief indication of what the issue is.
+
+1. A brief summary of what the proposals for answering it are.
+
+1. A structured section list reflecting what the different pieces of the material given here are about.
+
+=--
+
+
+
 Andrei N. Kolmogorov is often held to have shown that probability theory is [[measure theory]] of spaces of measure 1.  Sometimes it is asserted that the difference between probability and measure theory is that in the former one is concerned with the concepts of independence of events and independence of random variables.  By these accounts, one who does probability theory is doing mathematics.
 
 A different view is that probability theory is a science that, like physics, must rely very heavily upon mathematics, but some questions in probability theory are not questions of mathematics.  That seems at least consonant with views of the physicist Edwin Jaynes in his book ''Probability Theory: The Logic of Science.''  Perhaps probability theory may be viewed as a branch of epistemology.
