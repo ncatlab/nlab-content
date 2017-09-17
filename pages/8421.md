@@ -204,6 +204,10 @@ An introductory lecture using [[dependent type theory]] in [[intuitionistic logi
 
 * [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, leture series in Siena (1983) ([web](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
 
+A formalization of the general [[logical framework]] of natural deduction is discussed in section 3 of 
+
+* [[Frank Pfenning]], _Logical frameworks -- A brief introduction_ ([pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf))
+
 A good account is at
 
 * Wikipedia, _[Natural deduction](http://en.wikipedia.org/wiki/Natural_deduction)_
