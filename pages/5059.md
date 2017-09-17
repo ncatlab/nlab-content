@@ -373,7 +373,8 @@ See also _[[division algebras and supersymmetry]]_.
 
 A corresponding refinement of the brane scan to a "brane bouquet" of [[super L-∞ algebra]] [[infinity-Lie algebra cohomology|extensions]] (hence in [[infinity-Lie theory]] via [[schreiber:∞-Wess-Zumino-Witten theory]]) is discussed in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet]]_, talk at [Bayrischzell workshop 2013](http://hep.itp.tuwien.ac.at/~miw/bzell2013/)
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+ 
 
 These cohomologival arguments also appear in what is called the "ectoplasm" method for invariants in [[super Yang-Mills theory]] in 
 
