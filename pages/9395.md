@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,7 +16,7 @@
 
 ## Idea
 
-Let $X$ be a ([[connected space|connected]]?) [[H-space]].  The Hopf construction on $X$ yields a [[fibration]]
+Let $X$ be an [[H-space]].  The Hopf construction on $X$ yields a [[fibration]]
 $$ X \hookrightarrow X\ast X \to \Sigma X$$
 whose fiber is $X$, whose base space is the [[suspension]] of $X$, and whose total space is the [[join]] of $X$ with itself.
 
