@@ -113,6 +113,7 @@ While $\Omega^\bullet \simeq \Omega^\bullet_{\mathbb{Z}}$, below we use the chai
 
 =--
 
+
 ### Algebraic K-theory sheaf of spectra
  {#AlgebraicKTheorySheafOfSpectra}
 
@@ -132,9 +133,7 @@ $$
 
 for the stackification of the objectwise [[K-theory of a symmetric monoidal (∞,1)-category]]-construction.
 
-This is the ordinary [[algebraic K-theory]] of [[schemes]], as in ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
-
-([Bunke-Tamme 12, section 3.3](#BunkeTamme12))
+This is the ordinary [[algebraic K-theory]] of [[schemes]], as in ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) ([Bunke-Tamme 12, section 3.3](#BunkeTamme12)), see at _[algebraic K-theory -- as the K-theory of algebraic vecotr bundles](algebraic%20K-theory#AsTheKTheoryOfAlgebraicVectorBundles)_.
 
 
 ### The refined Beilinson regulator
@@ -160,6 +159,8 @@ $$
 As a homomorphism of [[spectrum objects]] this is ([Bunke-Tamme 12, def. 4.26](#BunkeTamme12)). As a homomorphism of [[E-∞ ring]] objects, this is ([Bunke-Tamme 13, def. 2.18](#BunkeTamme13)).
 
 ### Differential algebraic K-theory
+
+Recall the discussion at _[[differential cohomology hexagon]]_.
 
 +-- {: .num_defn #HodgeComplexOverComplexNumbers}
 ###### Definition
