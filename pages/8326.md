@@ -102,7 +102,11 @@ $$
 
 ### Formalization dictionary
 
-We may suggest the following rough dictionary between Hegel's informal terms and formalization in [[homotopy type theory]]
+[[Hegel]]'s "Science of Logic" may seem rather mysterious. Over the decades, [[William Lawvere]] had suggested, more or less explicitly, that parts of it are usefully understood as being about -- or conversely as being formalized and hence interpreted by -- aspects of [[categorical logic]]. For instance Lawvere suggested that the recurring notion of "unity and identity of opposites" is usefully thought of in terms of certain [[adjunctions]], as discussed in _[Formalization of Unity of Opposites](#OppositesAndUnity)_.
+
+In view of this one may notice that modern [[foundations]] of [[constructive mathematics]] via [[type theory]] and in particular via [[homotopy type theory]] may offer more opportunities like this to give Hegel's intuitions a formalized home or incarnation in a useful way. 
+
+The following table lists proposals for possible such identifications. The content below means to provide for each keyword commented passages in _Science of Logic_ to support this identification and illuminate it. But of course this remains just a proposal and subject at least to debate.
 
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |
 |-----|------|
@@ -126,6 +130,7 @@ We may suggest the following rough dictionary between Hegel's informal terms and
 | vanishing of infinitesimals | [[reduction modality]] |
 | moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
 | something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
+| measure | [de Rham coefficients](structures+in+a+cohesive+infinity-topos#deRhamCohomology) $\flat_{dR} A = fib(\flat A \to A)$ (?) |
 
 Notice that the above involves the first two stages in the tower
 of [[n-truncation modalities]]:
