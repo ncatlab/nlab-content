@@ -73,7 +73,7 @@ This is the approach described in ([LurieCommutative](#LurieCommutative))
 
 There is a [[model category]] that [[presentable (infinity,1)-category|presents]] the [[(∞,1)-category]] $(\infty,1)Cat_{Oper}$ of $(\infty,1)$-categories of operations.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There exists a 
@@ -150,7 +150,7 @@ At the time of this writing there is no discussion in "the literature" of the re
 
 There is an obvious way to regard a [[tree]] as an $(\infty,1)$-category of operators:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(dendroidal $(\infty,1)$-category of operators)**
 
@@ -179,7 +179,7 @@ be the dendroidal object given by the following composition:
 
 Following the general pattern of [[nerve and realization]], we get:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(dendroidal nerve of Lurie-$\infty$-operad)**
 
@@ -212,7 +212,7 @@ One expects that $N_d$ induces a [[Quillen adjunction]] and indeed a [[Quillen e
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The dendroidal nerve functor has the following properties:
@@ -346,6 +346,8 @@ Hence $C_f$ is a weak equivalence.
 * [[monad]] / [[(∞,1)-monad]]
 
 * [[operad]] / **$(\infty,1)$-operad**, [[model structure on operads]]
+
+  * [[fibration of (∞,1)-operads]]
 
   * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
 
