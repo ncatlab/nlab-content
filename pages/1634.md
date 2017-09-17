@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -41,6 +46,10 @@ As the term implies, an open neighbourhood is precisely a neighbourhood that is 
 
 * The concept of [[topological space]] can be defined by taking the neighbourhood relation as primitive.  One axiom is more complicated than the others; if it is dropped, then the result is the definition of [[pretopological space]].
 
+## Related concepts
+
+[[!include infinitesimal and local - table]]
+
 
 [[!redirects neighborhood]]
 [[!redirects neighbourhood]]
@@ -59,4 +68,3 @@ As the term implies, an open neighbourhood is precisely a neighbourhood that is 
 [[!redirects open neighbourhood]]
 [[!redirects open neighborhoods]]
 [[!redirects open neighbourhoods]]
-
