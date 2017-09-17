@@ -103,6 +103,8 @@ As an example, within the category of [[profinite group]]s, not all objects have
 
 * **action**, [[∞-action]],
 
+  * [[conjugation action]], [[adjoint action]]
+
 * [[representation]], [[∞-representation]]
 
 * [[module]], [[∞-module]]
