@@ -1,27 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### 2-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include 2-category theory - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
-## Idea ##
+## Idea
 
 A **2-category equipped with proarrows**, also called a *proarrow equipment* or simply an *equipment*, is a [[2-category]] together with extra "proarrows" which enable one to reproduce more category theory inside it than is possible in a general 2-category.  The ur-example is [[Cat]] equipped with [[profunctors]].
 
 See also [[framed bicategory]].
 
-## Motivation ##
+
+## Motivation
 
 Just as ordinary [[category theory]] provides a framework in which one can do "formal mathematics," one of the (many) purposes of [[higher category theory]] is to provide a framework in which one can do "formal category theory."  In particular, many concepts in ordinary category theory can be interpreted internally in a [[2-category]], in a way which specializes to the original concept in [[Cat]].  Examples of such concepts include [[adjunctions]], [[monads]], [[Grothendieck fibrations]], [[Kan extensions]], and [[fully faithful morphisms]].
 
@@ -34,13 +33,12 @@ What is missing is that the 2-category $V Cat$ doesn't natively supply any infor
 There are several not-quite-equivalent ways to describe this extra structure.  One due to Street and Walters, called a [[Yoneda structure]], involves assigning to each object $A$ a "presheaf object" $P A$ and a "Yoneda arrow" $A\to P A$; a profunctor $A\to B$ is then identified with an arrow $B \to P A$.  The notion of *proarrow equipment*, due to Wood, instead postulates an additional bicategory of "proarrows" and specifies their relationship to the ordinary arrows.  One can then define fully faithful morphisms, pointwise Kan extensions, weighted limits, etc. relative to this structure, in a way which specializes to the correct notions in $V Cat$.
 
 
-## Definitions ##
- {#Definitions}
+## Definitions {#Definitions}
 
 There are several equivalent ways to define proarrow equipments on a 2-category.
 
-### Definition as a 2-functor
- {#DefinitionAsA2Functor}
+
+### Definition as a 2-functor {#DefinitionAsA2Functor}
  
 Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ with proarrows**.
 
@@ -51,6 +49,7 @@ Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ wit
 As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
 
 For a proarrow $H\colon B\to D$ and ordinary arrows $f\colon A\to B$ and $g\colon C\to D$, we write $H(g,f)$ for the composite $D(g,1) \circ  H \circ B(1,f)$; it is a proarrow from $A$ to $C$.  We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.
+
 
 #### Terminology
 
@@ -70,8 +69,7 @@ For example, if $V$ is a (Benabou) [[cosmos]], the 2-category $K= V Cat$ of $V$-
 The other most common sorts of generalized category, such as [[internal categories]] in some category with pullbacks, and [[fibered categories]] over some base, are also naturally equipped with proarrows.  For internal categories in $S$, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions.  (See "virtual equipments," below, for a context which avoids some of these restrictions on $V$ and $S$.)
 
 
-### Definition as a double category
- {#DefinitionAsDoubleCategory}
+### Definition as a double category {#DefinitionAsDoubleCategory}
 
 We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with extra structure. 
 
@@ -191,6 +189,7 @@ In conclusion, we have three definitions of proarrow equipment:
 
 While the first definition is perhaps simpler, for some purposes the second and third definitions are preferable.  For instance, the definition of the 3-category of "2-categories equipped with proarrows" is much more naturally defined by viewing them as double categories.  (See Dominic Verity's thesis and Mike Shulman's paper on framed bicategories.)  It also generalizes better to situations in which not all proarrows have composites; see "virtual equipments," below.
 
+
 ### As a category internal to $Cat$
 
 We discuss how a 2-category with proarrow equipment is an [[internal category]] in the [[(2,1)-category]] [[Cat]] in the sense of the theory of _[[internal (∞,1)-categories]]_. 
@@ -198,7 +197,6 @@ We discuss how a 2-category with proarrow equipment is an [[internal category]] 
 (...)
 
 For the moment see at _[Segal space - Examples - In 1Grpd](http://ncatlab.org/nlab/show/Segal%20space#ExamplesInIGrpd)_.
-
 
 
 ### Related notions
@@ -217,9 +215,11 @@ Some related concepts include:
 
 See also at [[Segal space]], the section _[Examples -- In 1Grpd](Segal+space#ExamplesInIGrpd)_.
 
-## Category theory in a proarrow equipment ##
+
+## Category theory in a proarrow equipment
 
 We now give a few examples of how to do category theory internal to a proarrow equipment.
+
 
 ### Homset definition of adjunctions {#HomsetAdjn}
 
@@ -236,6 +236,7 @@ $$\array{A & \overset{U_A}{\to} & A\\
   B& \underset{U_B}{\to} & B.}
 $$
 Applying the bijection of the Central Lemma, we see that $\eta$ corresponds to a map $B(f,1) \to A(1,g)$, and likewise $\varepsilon$ corresponds to a map $A(1,g)\to B(f,1)$.  The triangle identities for $\eta$ and $\varepsilon$ are then equivalent to saying that these two maps are inverse isomorphisms.  So we've recovered the classical equivalence between the "diagrammatic" and isomorphism-of-hom-sets definitions of an adjunction, in a purely formal way.
+
 
 ### Fully faithful arrows
 
@@ -298,14 +299,14 @@ $$
 which is what we want.
 
 
-## Graphs and cographs ##
+## Graphs and cographs
 
 As noted above, in the case of ordinary categories, the profunctors can in fact be recovered from the 2-category $Cat$.  Specifically, profunctors $A\to B$ can be identified with two-sided discrete fibrations from $B$ to $A$ (that is, spans $B \leftarrow C \to A$ such that $C \to B$ is a [[Grothendieck fibration|(Grothendieck) fibration]], $C\to A$ is an opfibration, the two structures are compatible, and each fiber of $C\to B\times A$ is discrete).  The two-sided fibration corresponding to a profunctor is also called its [[graph of a profunctor|graph]].  The same is true for internal categories, but not for enriched categories.
 
 However the $V$-profunctors $A\to B$ *can* be recovered from the 2-category $V Cat$ in a different, and in fact dual, way: they are the two-sided [[codiscrete cofibrations]] from $B$ to $A$, i.e. two-sided discrete fibrations in $(V Cat)^{op}$.  The two-sided cofibration corresponding to a profunctor is, unsurprisingly, its [[cograph of a profunctor|cograph]], and also its [[collage]].  This was first noticed by Street and subsequently expanded on by other authors.  In particular, one can write down axioms on a 2-category guaranteeing that its codiscrete cofibrations can be used to equip it with proarrows, and axioms on a proarrow equipment guaranteeing that it arises from codiscrete cofibrations.
 
 
-## Virtual equipments ##
+## Virtual equipments
 
 One can formulate a generalized notion of equipment which includes $V Cat$ for _any_ monoidal category $V$ (and in fact, any [[multicategory]]), and $Cat(S)$ for any category $S$ with pullbacks.  The precise definition is complicated, but the basic idea is not: we start from the double-category definition, and instead of composites of the horizontal (pro)arrows, we allow the squares to have domains that are arbitrary composable strings, like so:
 $$\array{ & \to \to \dots \to &\\
@@ -314,8 +315,7 @@ $$\array{ & \to \to \dots \to &\\
 So far this is analogous to the generalization from monoidal categories to multicategories, and gives the notion of [[virtual double category]].  We then impose a condition analogous to the existence of companions and conjoints to obtain the notion of [[virtual equipment]].  Most of category theory can be done in a virtual equipment just as well as in an equipment.
 
 
-## Categories enriched in an equipment ##
- {#CategoriesEnrichedInAnEquipment}
+## Categories enriched in an equipment {#CategoriesEnrichedInAnEquipment}
 
 For any equipment $W$ one can define a notion of **$W$-enriched category**.  (See also at _[[category enriched in a bicategory]]_.) This consists of
 
@@ -355,7 +355,7 @@ Other choices of $W$ give "categories which are both enriched and internal," for
 * For a suitably nice category $S$ (such as a [[Grothendieck topos]]) there is an equipment $Ab(S)$ whose objects and arrows are those of $S$, and whose proarrows $A\to B$ are internal abelian group objects in $S/(B\times A)$.  An $Ab(S)$-enriched category with one object can be regarded as an "internal [[Ab-enriched category]]" in $S$.
 
 
-## References ##
+## References
 
 * R.J. Wood, "Abstract Proarrows I" and "Proarrows II" (the original definitions), and a number of following papers.
 
@@ -376,16 +376,22 @@ A blog post surveying ideas of proarrow equipments, much of which has been copie
 * [[Mike Shulman]], _Equipments_ ([blog](http://golem.ph.utexas.edu/category/2009/11/equipments.html))
 
 
+[[!redirects 2-category equipped with proarrows]]
+[[!redirects 2-categories equipped with proarrows]]
+[[!redirects 2-category equipped with pro-arrows]]
+[[!redirects 2-categories equipped with pro-arrows]]
+[[!redirects 2-category with proarrow equipment]]
+[[!redirects 2-categories with proarrow equipment]]
+[[!redirects 2-category with pro-arrow equipment]]
+[[!redirects 2-categories with pro-arrow equipment]]
+[[!redirects 2-category equipment]]
+[[!redirects 2-category equipments]]
 [[!redirects equipment]]
 [[!redirects equipments]]
 [[!redirects proarrow equipment]]
 [[!redirects proarrow equipments]]
 [[!redirects pro-arrow equipment]]
 [[!redirects pro-arrow equipments]]
-[[!redirects 2-category equipment]]
+
 [[!redirects proarrow]]
 [[!redirects proarrows]]
-[[!redirects 2-category equipped with pro-arrows]]
-
-[[!redirects 2-category with proarrow equipment]]
-[[!redirects 2-categories with proarrow equipment]]
