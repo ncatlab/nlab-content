@@ -576,7 +576,7 @@ Groupoid objects in $(\infty,1)$-categories are the topic of section 6.1.2 in
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 {#Lurie}
 
-Model category presentations of groupoid objects in $\infty Grpd$ these are discussed in 
+Model category presentations of groupoid objects in $\infty Grpd$ by groupoidal [[complete Segal spaces]] are discussed in 
 
 * [[Julia Bergner]], 
 
@@ -591,7 +591,7 @@ A standard textbook reference on the model categories presentation of $\infty$-g
 
 Discussion from the point of view of [[category objects in an (∞,1)-category]] is in 
 
-* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  {#Lurie2}
 
 
