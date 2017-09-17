@@ -5,7 +5,7 @@
 
 ## Definition
 
-Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by $F(a)=a^p$. It is a map of fields since $(ab)^p=a^p b^p$ for all $a,b\in k$. The characteristic of the field is used to show $(a+b)^p=a^p+b^p$. 
+Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by $F(a)=a^p$. It is a map of fields since $(a b)^p=a^p b^p$ for all $a,b\in k$. The characteristic of the field is used to show $(a+b)^p=a^p+b^p$. 
 
 ### Properties
 
