@@ -29,6 +29,6 @@ A [[theory]] in [[cartesian logic]].
 
 ## References
 
-Around def. 1.3.4 of 
+Around def. D1.3.4 (p. 833) of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
