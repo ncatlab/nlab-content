@@ -414,7 +414,7 @@ Write $\Xi : Ch_\bullet \to sAb \to sSet$ for the [[Dold-Kan correspondence]] fu
 Write 
 
 $$
-  U(1)[n] = [\cdots \to 0 \to U(1) \to 0 \to \cdtos \to 0]
+  U(1)[n] = [\cdots \to 0 \to U(1) \to 0 \to \cdots \to 0]
 $$
 
 for the [[chain complex]] concentrated in degree $n$ on $U(1)$.
