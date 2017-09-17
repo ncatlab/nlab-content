@@ -1,7 +1,7 @@
 
 * [website](http://www.uchile.cl/?_nfpb=true&_pageLabel=conUrl&url=6568)
 
-* [Wikipedia entry](#http://de.wikipedia.org/wiki/Claudio_Bunster)
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Claudio_Bunster)
 
 ## related $n$Lab entries
 
