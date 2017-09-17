@@ -40,5 +40,9 @@ $$
 
 Many textbooks on operator algebras contain a chapter about modular theory.
 
+[[!redirects modular group]]
+[[!redirects modular groups]]
+[[!redirects modular conjugation]]
+[[!redirects modular conjugations]]
 [[!redirects Tomita theory]]
 [[!redirects Tomita-Takesaki theory]]
