@@ -114,8 +114,15 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ### 2. The Adams spectral sequence based on a generalized homology theory
 
+* [[Hopf algebroid]] structure on [[Steenrod algebra]]
+
+### 3. The smash product pairing and the Generalized connecting homomorphism
+
+* [[connecting homomorphism]]
+
 
 ## Chapter 3. The Classical Adams Spectral Sequence
+
 
 ### 1. The Steenrod algebra and some easy calculuation
 
@@ -129,15 +136,23 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 * [[Massey product]]
 
+### 3. The Lambde Algebra
+
+* [[EHP spectral sequence]]
+
 ### 4. Some general properties of $Ext$
 
 * [[periodicity theorem]]
+
+### 5. Survey and further reading
 
 ## Chapter 4. $B P$-Theory and the Adams-Novikov Spectral Sequence 
 
 ### 1. Quillen's theorem and the structure of $BP_\bullet(BP)$
 
 * [[Quillen's theorem on MU]]
+
+* [[Landweber-Novikov theorem]]
 
 ## Chapter 5. The Chromatic Spectral Sequence
 
