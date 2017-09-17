@@ -359,7 +359,7 @@ Let $\mathbf{H}$ be a [[locally cartesian closed category]]. This means that for
 
 We record some further properties
 
-+-- {: .num_prop}
++-- {: .num_prop #InverseImageBaseChangeIsCartesianClosed}
 ###### Proposition
 
 For $\mathcal{C}$ a [[locally cartesian closed category]] and $f \colon X \to Y$ any morphism in $\mathcal{C}$, the [[inverse image]] $f^*$ of the corresponding [[base change]] [[adjunction]]
@@ -396,8 +396,10 @@ $$
 
 =--
 
+Here are two ways to get this morphism:
+
 +-- {: .proof}
-###### Proof
+###### Proof/Construction 1
 
 For any object $U \in \mathbf{H}_{/Y}$ we have a canonical morphism of [[hom sets]]
 
@@ -427,7 +429,39 @@ Since this is [[natural transformation|natural]] in $U$, the [[Yoneda lemma]] im
 
 =--
 
-+-- {: .num_remark}
++-- {: .proof}
+###### Proof/Construction 2
+
+There is the composite morphism
+
+$$
+  \left(f^\ast \prod_f [A, B]\right) \times A \stackrel{counit \times id_A}{\to} [A, B] \times A \stackrel{eval}{\to} B \stackrel{unit}{\to} f^\ast \sum_f B$$ 
+
+of the [[unit of an adjunction|adjunction (co)units]] and the [[evaluation map]] of the internal hom. Its hom-[[adjunct]] is
+
+
+$$
+  A \to [f^\ast \prod_f [A, B], f^\ast \sum_f B] \cong f^\ast [\prod_f [A, B], \sum_f B]
+  \,,
+$$ 
+
+using prop. \ref{InverseImageBaseChangeIsCartesianClosed} on the right. The hom-adjunct of that in turn is
+
+
+$$\sum_f A \to [\prod_f [A, B], \sum_f B]$$ 
+
+and by symmetry the morphism that we are after:
+
+$$
+  \prod_f [A, B] \to [\sum_f A, \sum_f B]
+  \,.
+$$ 
+
+=--
+
+
+
++-- {: .num_remark #RememberingTopMorphismInHomInSlice}
 ###### Remark
 
 If $Y$ is the [[terminal object]] (for simplicity), then the morphism of prop. \ref{MorphismFromDepProductOfFuncTypeToFuncTypeOfDepSum} can be understood as follows: a [[global element]] of the [[dependent product]] $\prod_f [A,B]$ is given by a [[commuting diagram]] in $\mathbf{H}$ of the form
