@@ -51,6 +51,7 @@ Here we exclude the entries on [[topos theory]] which may also be viewed as an a
 * [[pointless topology]], [[locale]], [[cover]], [[site]], [[ringed space]]
 [[sphere]]
 * [[Sierpinski space]], [[Warsaw circle]] 
+* [[funcoid]]
 
 See also [[examples in topology]].
 
