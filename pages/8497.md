@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $G$ a [[group]] and $V_1$ and $V_2$ two objects equipped with $G$-[[action]], the **conjugation action** on morphisms $f : V_1 \to V_2$ (not necessarily respecting the $G$-action) is for $g \in G$
+
+$$
+  f \mapsto g \circ f \circ g^{-1}
+  \,.
+$$
+
+The [[invariants]] of the conjugation action are the $G$-action [[homomorphism]].
+
+
+## Definition
+
+For [[infinity-actions]] see at _[infinity-action -- Conjugation action](infinity-action#CartesianClosedMonoidalStructure)_
+
+## Related concepts
+
+* [[adjoint action]]
