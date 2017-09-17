@@ -20,9 +20,9 @@ when $\dim(f(Z)) = \dim(Z)$ and 0 otherwise.  Here $f(Z)$ is considered as an in
 
 For [[flat morphisms]] of [[relative dimension]] $n$, one defines the inverse image of a $k$-cycle by assigning, for a closed integral subscheme $Z \subset Y$ of dimension $k$,
 
-$$ f^*([Z]) = \sum_{Z_\alpha \subset f^{-1}(Z)} \long_{O_{X,z_\alpha}}(O_{f^{-1}(Z),z_\alpha}) [Z_\alpha] $$
+$$ f^*([Z]) = \sum_{Z_\alpha \subset f^{-1}(Z)} \length_{O_{X,z_\alpha}}(O_{f^{-1}(Z),z_\alpha}) [Z_\alpha] $$
 
-where the sum is taken over the [[irreducible components]] $Z_\alpha$ of $f^{-1}(Z)$, and $z_\alpha$ are the [[generic points]] of $Z_\alpha$.  Hence one gets homomorphisms $f^* : Z_k(Y) \to Z_{k+n}(Y)$.
+where the sum is taken over the [[irreducible components]] $Z_\alpha$ of $f^{-1}(Z)$, $\length$ denotes length of [[modules]], and $z_\alpha$ are the [[generic points]] of $Z_\alpha$.  Hence one gets homomorphisms $f^* : Z_k(Y) \to Z_{k+n}(Y)$.
 
 ## Weil divisors and rational functions
 
@@ -30,7 +30,9 @@ A **Weil divisor** on $X$ is a 1-codimensional cycle.
 
 A [[rational function]] $r \in R(X)$ on an [[integral scheme]] $X$ corresponds via canonical isomorphisms $R(X) \to \Frac(O_{X,x})$, for every $x \in X$, to elements $a_x/b_x \in \Frac(O_{X,x})$, and one defines the **order of vanishing** of $r$ at $x$ as
 
-$$ \ord_x(r) = \long_{O_{X,x}}(O_{X,x}/(a_x)) - \long_{O_{X,x}}(O_{X,x}/(b_x)) $$
+$$ \ord_x(r) = \length_{O_{X,x}}(O_{X,x}/(a_x)) - \length_{O_{X,x}}(O_{X,x}/(b_x)) $$
+
+where $\length$ denotes length of [[modules]].
 
 Then one defines the **Weil divisor associated to the rational function $r$** as
 
