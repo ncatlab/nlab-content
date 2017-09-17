@@ -201,6 +201,14 @@ Discussion of  special applications in
 
 * R. Amorim, N.R.F.Braga, R. Thibes, _Axial and gauge anomalies in the field antifield quantization of the generalized Schwinger model_ ([arXiv:hep-th/9712014](http://arxiv.org/abs/hep-th/9712014))
 
+Discussion in the context of [[AQFT]] with [[functional analysis]] taken into account is in section 5.3.3 of 
+
+* [[Katarzyna Rejzner]], _Batalin-Vilkovisky formalism in locally covariant field theory_ PhD thesis, Hamburg (2011) ([arXiv:1111.5130](http://arxiv.org/abs/1111.5130))
+
+and
+
+* [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_ ([arXiv:1110.5232](http://arxiv.org/abs/1110.5232))
+
 #### Other
 
 An interpretation of gauge anomalies as failures of [[Hamiltonian]]s to have [[self-adjoint extension]]s is in
