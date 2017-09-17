@@ -133,8 +133,10 @@ $$
   X_0 \stackrel{\overset{f}{\to}}{\underset{g}{\to}} X_1
 $$
 
-is projectively cofibrant if $X_0$ is cofibrant, and if the morphism
+is projectively cofibrant precisely if $X_0$ is cofibrant, and if the morphism
 $(f,g) : X_0 \coprod X_0 \to X_1$ is a cofibration.
+
+This implies that also $f$ and $g$ are cofibrations and hence that $X_1$ is cofibrant. 
 
 =--
 
