@@ -188,6 +188,8 @@ $$
 
 This generalizes the action functional of ordinary [[Chern-Simons theory]] to general Chern-Simons elements. In the [examples](#Examples) below is a list of various [[quantum field theories]] that arise as generalized Chern-Simons theories this way.
 
+For more details see [[schreiber:infinity-Chern-Simons theory]].
+
 ## Examples {#Examples}
 
 ### On semisimple Lie algebra-- Standard Chern-Simons action functional {#StandardCS}
