@@ -794,3 +794,8 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 
 [[!redirects homotopy exact sequence]]
 [[!redirects homotopy exact sequences]]
+
+[[!redirects long exact sequence in homology]]
+[[!redirects long exact sequence in cohomology]]
+[[!redirects long exact sequences in homology]]
+[[!redirects long exact sequences in cohomology]]
