@@ -47,7 +47,7 @@ Probably the *most* classical case is when $T$ is the free [[group]] monad on $S
 
 ## Existence
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Every $T$-algebra has a presentation by generators and relations.
 =--
@@ -81,3 +81,6 @@ If $C$ is an [[n-category]] and $T$ a suitable sort of monad, then we have a sim
 [[!redirects generators and relations]]
 [[!redirects presentation by generators and relations]]
 [[!redirects presentations by generators and relations]]
+
+[[!redirects presentation]]
+[[!redirects presentations]]
