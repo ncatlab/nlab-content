@@ -1,0 +1,100 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Every [[topos]] $\mathbf{H}$ is canonically a [[cartesian monoidal category]] $(\mathbf{H}, \times)$, with the [[tensor product]] being the [[cartesian product]]. If in addition to this canonical product $\mathbf{H}$ is equipped with _another_ noncartesion [[monoidal category]] structure $\otimes$, then $(\mathbf{H}, \otimes)$ might be called a _monoidal topos_.
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+For $(\mathcal{C}, \otimes)$ a [[monoidal category]], the [[presheaf topos]] $[\mathcal{C}, Set]$ is naturally a monoidal topos with respect to the [[Day convolution]] tensor product.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+
+For $\mathbf{H}$ a [[topos]] and $\mathbb{G} \in \mathbf{H}$ a [[monoid object]], the [[slice topos]]  $\mathbf{H}_{/\mathbb{G}}$ inherits a non-cartesian monoidal structure $\otimes_G$ induced from the product structure on $\mathbb{G}$:
+
+$$
+  \left[
+    \array{
+      X_1
+      \\
+      \downarrow^{\mathrlap{\chi_1}}
+      \\
+      \mathbb{G}
+   }
+  \right]
+  \otimes_{\mathbb{G}}
+  \left[
+    \array{
+      X_2
+      \\
+      \downarrow^{\mathrlap{\chi_2}}
+      \\
+      \mathbb{G}
+   }
+  \right]
+  \;\;
+  \coloneqq
+  \;\;
+  \left[
+    \array{
+      X_1 \times X_2
+      \\
+      \downarrow^{\mathrlap{(\chi_1, \chi_2)}}
+      \\
+      \mathbb{G} \times \mathbb{G}
+      \\
+      \downarrow^{\mathrlap{\cdot}}
+      \\
+      \mathbb{G}
+    }
+  \right]
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The category of [[dendroidal sets]] is a topos (the [[presheaf topos]] on the [[tree category]]) and naturally carries the non-cartesian [[Boardman-Vogt tensor product]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+In ([Dolan 11](#Dolan11)) is indicated a category of "toric [[quasicoherent sheaves]]" which is a topos and hence under tensor product of quansicoherent sheaves a (semi?)-monoidal topos.
+
+=--
+
+## References
+
+* [[James Dolan]], _tannakian correspondence for toric varieties (sketch for a doctoral thesis)_, December 2011 ([web](http://notebook360x.blogspot.nl/2011/12/toposes-of-toric-quasicoherent-sheaves.html))
+ {#Dolan11}
+
+[[!redirects monoidal toposes]]
+
