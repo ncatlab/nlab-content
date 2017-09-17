@@ -77,7 +77,7 @@ This "universal" elliptic genus is the _[[Witten genus]]_.
 On [[manifolds]] with [[spin structure]] the elliptic genus
 takes values in integral series $\mathbb{Z}[ [q] ]$.
 
-([Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88), [Kreck-Stolz 93](#KreckStolz93), [Hovey 91](#Hovey91))
+([Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88), [Landweber 88, section 5](#Landweber88) [Kreck-Stolz 93](#KreckStolz93), [Hovey 91](#Hovey91))
 
 ### Relation to partition functions of superstring
 
@@ -105,7 +105,12 @@ The notion of elliptic genus was introduced in
 
 The relation of this to [[elliptic cohomology]] was understood in
 
+* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([[LandweberEllipticModular.pdf:file]])
+
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et al (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
+
+
+
 
 The interpretation of the elliptic genus/[[Witten genus]] as the [[partition function]] of the [[type II superstring]]/[[heterotic string]] is due to 
 
