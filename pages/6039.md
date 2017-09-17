@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the context of [[string theory]], the [[background gauge field]] over a [[D-brane]] is a unitary [[principal bundle]] [[connection on a bundle|with connection]], or rather, by the [[Freed-Witten anomaly cancellation]] mechanism, a [[twisted bundle|twisted vector bundle]], whose twist is the restriction of the ambient [[B-field]] to the D-brane.
+In the context of [[string theory]], the [[background gauge field]] for the [[open string]] [[sigma-model]] over a [[D-brane]] in [[bosonic string theory]] or [[type II string theory]] is a unitary [[principal bundle]] [[connection on a bundle|with connection]], or rather, by the Kapustin-part of the [[Freed-Witten-Kapustin anomaly cancellation]] mechanism, a [[twisted bundle|twisted unitary bundle]], whose twist is the restriction of the ambient [[B-field]] to the [[D-brane]]. 
 
 The first hint for the existence of such [[background gauge fields]] for the [[open string]] 2d-[[sigma-model]] comes from the fact that the open string's endpoint can naturally be taken to carry labels $i \in \{1, \cdots n\}$. Further analysis then shows that the lowest excitations of these $(i,j)$-strings behave as the quanta of a $U(n)$-[[gauge field]], the $(i,j)$-excitation being the given [[matrix]] element of a $U(n)$-valued connection 1-form $A$.
 
@@ -25,7 +25,22 @@ This original argument goes back work by Chan and Paton. Accordingly one speaks 
 
 ## Definition
 
+We discuss the Chan-Paton gauge field and its [[quantum anomaly cancellation]] in [[extended prequantum field theory]].
+
 Throughout we write $\mathbf{H} = $ [[Smooth∞Grpd]] for the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]].
+
+### The $B$-field as a prequantum 2-bundle
+
+For $X$ a [[type II supergravity]] [[spacetime]], the [[B-field]] is a map
+
+$$
+  \nabla_B \;\colon\; X \to \mathbf{B}^2 U(1)
+  \,.
+$$
+
+If $X = G$ is a [[Lie group]], this is the [[prequantum 2-bundle]] of $G$-[[Chern-Simons theory]]. Viewed as such we are to find a canonical [[∞-action]] of the [[circle 2-group]] $\mathbf{B}U(1)$ on some $V \in \mathbf{H}$, form the corresponding [[associated ∞-bundle]] and regard the [[sections]] of that as the [[prequantum 2-states]] of the theory.
+
+The Chan-Paton gauge field is such a prequantum 2-state.
 
 ### The Chan-Paton gauge field
 
@@ -68,7 +83,7 @@ $$
 is a smooth refinement of the universal [[Dixmier-Douady class]]
 
 $$
-  dd_, \;\colon\; B PU(n) \to K(\mathbb{Z}, 3)
+  dd_n \;\colon\; B PU(n) \to K(\mathbb{Z}, 3)
 $$
 
 in that under [[geometric realization of cohesive ∞-groupoids]] ${\vert- \vert} \colon$ [[Smooth∞Grpd]] $\to$ [[∞Grpd]] we have
@@ -253,9 +268,95 @@ This is the famous gauge transformation law known from the string theory literat
 
 =--
 
+### The open string sigma-model
+
++-- {: .num_remark}
+###### Remark
+
+The [[D-brane]] inclusion $Q \stackrel{\iota_X}{\to} X$ is the [[target space]] for an [[open string]] with [[worldsheet]] $\partial \Sigma \stackrel{\iota_\Sigma}{\hookrightarrow} \Sigma$: a [[field (physics)|field]] configuration of the open string [[sigma-model]] is a map
+
+$$
+  \phi \;\colon\; \iota_\Sigma \to \iota_X
+$$
+
+in $\mathbf{H}^{\Delta^1}$, hence a [[diagram]] of the form
+
+$$
+  \array{
+    \partial \Sigma &\stackrel{\phi_{bdr}}{\to}& Q
+    \\
+    \downarrow^{\mathrlap{\iota_\Sigma}} 
+     &\swArrow& 
+    \downarrow^{\mathrlap{\iota_X}}
+    \\
+    \Sigma &\stackrel{\phi_{bulk}}{\to}& X
+  }
+  \,.
+$$
+
+For $X$ and $Q$ ordinary [[manifolds]] just says that a field configuration is a map $\phi_{bulk} \;\colon\; \Sigma \to X$ subject to the constraint that it takes the [[boundary]] of $\Sigma$ to $Q$. This means that this is a [[trajectory]] of an [[open string]] in $X$ whose endpoints are constrained to sit on the [[D-brane]] $Q \hookrightarrow X$.
+
+If however $X$ is more generally an [[orbifold]], then the [[homotopy]] filling the above diagram imposes this constraint only up to orbifold transformations, hence exhibits what in the physics literature are called "orbifold twisted sectors" of open string configurations.
+
+=--
+
++-- {: .num_prop #TheTypeIIOpenStringSigmaModelModuliStackOfFields}
+###### Proposition
+
+The [[moduli stack]] $[\iota_\Sigma, \iota_X]$ of such field configurations is the [[homotopy pullback]] 
+
+$$
+  \array{
+    [\iota_{\Sigma}, \iota_X]
+    &\to&
+    [\Sigma, X]
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    [S^1, Q]
+    &\to&
+    [S^1, X]
+  }
+  \,.
+$$
+
+=--
+
 ### The anomaly-free open string coupling to the Chan-Paton gauge field
 
-+-- {: .num_prop}
++-- {: .num_prop }
+###### Proposition
+
+For $\Sigma$ a [[smooth manifold]] with [[boundary]] $\partial \Sigma$ of [[dimension]] $n$ and for $\nabla \;\colon \; X \to \mathbf{B}^n U(1)_{conn}$ a [[circle n-bundle with connection]] on some $X \in \mathbf{H}$, then the [[transgression]] of $\nabla$ to the [[mapping space]] $[\Sigma, X]$ yields a [[section]] of the [[complex line bundle]] [[associated bundle|associated]] to the pullback of the ordinary transgression over the mapping space out of the boundary: we have a diagram
+
+$$  
+  \array{  
+    [\Sigma, X]
+      &\stackrel{\exp(2 \pi i \int_{\Sigma})}{\to}& 
+    \mathbb{C}//U(1)_{conn}
+    \\
+    \downarrow^{\mathrlap{[\partial \Sigma, X]}} 
+    && 
+    \downarrow^{\mathrlap{\overline{\rho}}_{conn}}
+    \\
+    [\partial \Sigma, X]
+    &\stackrel{\exp(2 \pi i \int_{\partial \Sigma})}{\to}&
+    \mathbf{B} U(1)_{conn}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This is the _[[higher parallel transport]]_ of the $n$-connection $\nabla$ over maps $\Sigma \to X$.
+
+=--
+
+
++-- {: .num_prop #TheTwistedHolonomyMapOnTwistedUnitaryBundles}
 ###### Proposition
 
 The operation of forming the [[holonomy]] of a twisted unitary connection around a curve fits into a [[diagram]] in $\mathbf{H}$ of the form
@@ -263,10 +364,12 @@ The operation of forming the [[holonomy]] of a twisted unitary connection around
 $$
   \array{
     [S^1, (\mathbf{B}U(n))//(\mathbf{B}U(1))_{conn}]
-    &\stackrel{hol}{\to}&
-    \mathbb{C}//U(1)
+    &\stackrel{hol_{S^1}}{\to}&
+    \mathbb{C}//U(1)_{conn}
     \\
-    \downarrow^{\widehat\mathbf{dd}_n} &\swArrow_{\simeq}& \downarrow
+    \downarrow^{\mathrlap{[S^1, \widehat\mathbf{dd}_n]}} 
+     &\swArrow_{\simeq}& 
+    \downarrow^{\mathrlap{\overline{\rho}_{conn}}}
     \\
     [S^1, \mathbf{B}^2 U(1)_{conn}]
     &\stackrel{\exp(2 \pi i \int_{S^1})}{\to}&
@@ -277,22 +380,84 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+By the discussion at _[[∞-action]]_ the diagram in prop. \ref{TheTwistedHolonomyMapOnTwistedUnitaryBundles} says in particular that forming traced [[holonomy]] of twisted unitary bundles constitutes a [[section]] of the [[complex line bundle]] on the [[moduli stack]] of twisted unitary connection on the circle which is the [[associated bundle]] to the [[transgression]] $\exp(2 \pi i \int_{S^1} [S^1, \widehat\mathbf{dd}_n])$ of the universal differential [[Dixmier-Douady class]]. 
+
+=--
+
+
+It follows that on the moduli space of the open string [[sigma-model]] of prop. \ref{TheTypeIIOpenStringSigmaModelModuliStackOfFields} above there are two $\mathbb{C}//U(1)$-valued [[action functionals]] coming from the bulk field and the boundary field
 
 $$
   \array{
-    \mathbf{H}^{\Delta^1}(\iota_{\Sigma}, \iota_X)
+    [\iota_{\Sigma}, \iota_X]
     &\to&
     [\Sigma, X]
+    &\stackrel{exp(2 \pi i \int_{\Sigma}[\Sigma, \nabla_B]  ) }{\to}&
+    \mathbb{C}//U(1)_{conn}
     \\
     \downarrow &\swArrow& \downarrow
     \\
-    [\partial \Sigma, Q]
+    [S^1, Q]
     &\to&
-    [\partial \Sigma, X]
+    [S^1, X]
+    \\
+    \downarrow^{\mathrlap{hol_{S^1}([S^1, \nabla_{gauge}])}}
+    \\
+    \mathbb{C}//U(1)_{conn}
   }
+  \,.
 $$
 
-(...)
+Neither is a well-defined $\mathbb{C}$-valued function by itself. But by [[pasting]] the above diagrams, we see that both these constitute [[sections]] of the same [[complex line bundle]] on the moduli stack of fields:
+
+$$
+  \array{
+    [\iota_{\Sigma}, \iota_X]
+    &\to&
+    [\Sigma, X]
+    &\stackrel{[\Sigma, \nabla_B]}{\to}&
+    [S^1, \mathbf{B}^2 U(1)_{conn}]
+    &\stackrel{\exp(2 \pi i \int_{\Sigma})}{\to}&
+    \mathbb{C}//U(1)_{conn}
+    \\
+    \downarrow &\swArrow& \downarrow
+    && && \downarrow
+    \\
+    [S^1, Q]
+    &\to&
+    [S^1, X]
+    \\
+    \downarrow^{\mathrlap{[S^1, \nabla_{gauge}]}} &&  & \searrow^{\mathrlap{[S^1, \nabla_B]}}
+    & && \downarrow
+    \\
+    [S^1, (\mathbf{B}U(n))//(\mathbf{B}U(1))_{conn}] & &\stackrel{[S^1, \widehat \mathbf{dd}_n]}{\to}& & [S^1, \mathbf{B}^2 U(1)_{conn}]
+    \\
+    \downarrow^{\mathrlap{hol_{S^1}}} 
+      && && &  \searrow^{\mathrlap{\exp(2 \pi i \int_{S^1}(-))}}
+    \\
+    \mathbb{C}//U(1)_{conn} &\to& &\to& &\to&  \mathbf{B}U(1)_{conn}
+  }
+  \,.
+$$
+
+Therefore the product action functional is a well-defined function
+
+$$
+  [\iota_\Sigma, \iota_X]
+  \stackrel{
+    \exp(2 \pi i \int_{\Sigma} [\Sigma, \nabla_b] )
+    \cdot
+    hol_{S^1}( [S^1, \widehat {\mathbf{dd}}_n] )^{-1}
+  }{\to}
+  U(1)
+  \,.
+$$
+
+This is the [[Freed-Witten-Kapustin anomaly|Kapustin anomaly]]-free [[action functional]] of the [[open string]].
+
 
 ## Related concepts
 
@@ -314,7 +479,11 @@ or around p. 66 of
 
 * David Tong, _Lectures on string theory_ ([arxiv/0908.0333](http://front.math.ucdavis.edu/0908.0333))
 
-Discussion in [[higher geometry]] as above is at
+These lectures tend to ignore most of the subtleties though. For traditional discussion of the  _[[Freed-Witten-Kapustin anomaly]]_, see there. The above account in terms of [[higher geometry]] and [[extended prequantum field theory]] is due to  section 5.4 of
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ .
+
+Lecture notes along these lines are at
 
 * _[[geometry of physics]]_ 
 
