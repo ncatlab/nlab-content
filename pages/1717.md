@@ -1,5 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher group theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -418,3 +431,4 @@ The equivalence between strict 2-groups and crossed modules is discussed in
 * [[Ronnie Brown]] and C. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a 
 topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296--302.) 
 
+[[!redirects strict 2-groups]]
