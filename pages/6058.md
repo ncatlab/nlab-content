@@ -103,7 +103,21 @@ Differential T-duality is (the homotopy fiber of) the lifting of this morphism t
 $$
 (\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbf{B}^3\mathbf{U}(1)_{conn}
 $$
-It relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $(\mathbb{R}^n)^* /\hat \Lambda$-principal bundles:
+It relates differential cohomological structures on $\mathbb{R}^n / \Lambda$-principal bundles with that on certain dual $(\mathbb{R}^n)^* /\hat \Lambda$-principal bundles.
+
+In the above expression, $(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}$ is the smooth groupoid associated by the [[Dold-Kan correspondence]] to the [[Deligne complex]] of sheaves
+$$
+\Lambda[2]^\infty_D:=(\Lambda\hookrightarrow C^\infty(-,\mathbb{R}^n)\xrightarrow{d_\Lambda} \Omega^1(-,\mathbb{R}^n)),
+$$
+where the differential $d_\Lambda$ is defined as follows: if $e_1,\dots e_n$ is a $\mathbb{Z}$-basis of $\Lambda$ and $e^1,\dots,e^n$ are the corresponding projections $e^i:\mathbb{R}^n\to \mathbb{R}$, then 
+$$
+d_\Lambda=(d\circ e^i)\otimes e_i
+$$
+(this is independent of the chosen basis). The definition of $d_\Lambda$ is 
+clearly chosen so to have an isomorphism of complexes $(\mathbf{Z}[2]^\infty_D)^n\cong \Lambda[2]^\infty_D$ induced by the choice of a $\mathbb{Z}$-basis of $\Lambda$. Via the Dold-Kan correspondence this gives an equivalence of smooth groupoids
+$$
+((\mathbf{B}\mathbb{R}/\mathbb{Z})_{conn})^n\cong (\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}.
+$$
 
 +-- {: .num_defn #DifferentialTDualityPair}
 ###### Definition
