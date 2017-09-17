@@ -1,9 +1,40 @@
-A [[subcategory]] $S$ of a category $C$ is __full__ if its [[inclusion functor]] is [[full functor|full]]; this inclusion functor is often called a __full embedding__ or a __full inclusion__.
 
-To specify a full subcategory $S$ of $C$, it is enough to say which [[object]]s belong to $S$.  Then $S$ must consist of all [[morphism]]s whose [[source]] and [[target]] belong to $S$ (and no others).  One speaks of the _full subcategory on_ a given set of objects.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
-Any [[full and faithful functor]] $F: D \to C$ defines a full subcategory of $C$, the full subcategory on the image (or [[essential image]]) of $F$, which (either way) will be [[equivalence of categories|equivalent]] to $D$.  Thus we may consider any category $D$ equipped with such a functor to be a full subcategory of $C$.
+#Contents#
+* table of contents
+{:toc}
 
+## Definition
+
+If one accepts the notion of [[subcategory]] without any qualification (as discussed there), then:
+
+A [[subcategory]] $S$ of a category $C$ is a **full subcategory** if its [[inclusion functor]] is a [[full functor]]. 
+
+This inclusion functor is often called a __full embedding__ or a __full inclusion__.
+
+Notice that to specify a full subcategory $S$ of $C$, it is enough to say which [[object]]s belong to $S$.  Then $S$ must consist of all [[morphism]]s whose [[source]] and [[target]] belong to $S$ (and no others).  One speaks of the _full subcategory on_ a given set of objects.
+
+This means that equivalently we can say:
+
+A functor $F : S \to C$ exhibits $S$ as a **full subcategory** of $C$ precisely if it is a [[full and faithful functor]].
+($S$ is the [[essential image]] of $F$).
+
+## Related concepts
+
+* **full subcategory**
+
+* [[full sub-2-category]]
+
+* [[full sub-(∞,1)-category]]
 
 [[!redirects full subcategories]]
 [[!redirects full embedding]]
