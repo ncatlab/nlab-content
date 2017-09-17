@@ -81,12 +81,13 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 ## Examples
 
-* [[internal category]], [[internal groupoid]]
+* [[monoid object]], [[group object]], [[ring object]]
 
-* [[group object]]
+* [[internal category]], [[internal groupoid]], [[groupoid object in an (∞,1)-category]]
 
-* [[ring object]]
+* [[internal site]], [[internal locale]]
 
+* [[internal logic]]
 
 [[!redirects Internalization]]
 [[!redirects internal to]]
