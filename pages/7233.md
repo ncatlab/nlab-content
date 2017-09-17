@@ -88,6 +88,8 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 * [[M-theory on G2-manifolds]], [[G2-MSSM]]
 
+* [[topological M-theory]], [[topological membrane]]
+
 * [[generalized G2-manifold]]
 
 * [[Calabi-Yau manifold]]
