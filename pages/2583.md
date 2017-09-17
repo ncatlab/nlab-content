@@ -188,12 +188,15 @@ over the simplicial smooth manifold $\bar W Spin$, but is not itself the image u
 Consider then
 
 $$
+  \frac{1}{2}\mathbf{p}_1
+  : 
   \array{
-      && \mathbf{cosk}_3 \exp(\mathfrak{so}) &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}& \bar W \Xi U(1)[2]
-      \\
-      & {}^{\mathllap{\simeq}}\nearrow & \downarrow^{\mathrlap{\simeq}}
-     \\
-    \bar W \Omega Spin(n) &\stackrel{\simeq}{\to}&  \bar W Spin
+    \mathbf{cosk}_3 \exp(b^2 \mathbb{R})
+    &\stackrel{\simeq}{\to}&
+    \bar W \Omega
+     \mathbf{cosk}_3 \exp(b^2 \mathbb{R})
+    &\to&
+    \bar W \Xi U(1)[2]
   }
   \,,
 $$
