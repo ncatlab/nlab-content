@@ -253,6 +253,7 @@ Discussion of [[superstring]] [[perturbation theory]] is in
 * [[Edward Witten]], _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](http://arxiv.org/abs/1209.5461))
 
 
+[[!redirects bosonic string theory]]
 
 [[!redirects string theories]]
 
