@@ -1,0 +1,4 @@
+
+* [Wikipedia page](http://en.wikipedia.org/wiki/Irving_Segal)
+
+category: people
