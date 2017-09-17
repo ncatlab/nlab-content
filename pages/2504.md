@@ -13,6 +13,10 @@
 =--
 =--
 
+[[supergravity Lie 6-algebra]] $\to$ **supergravity Lie 3-algebra** $\to$ [[super Poincaré Lie algebra]]
+
+***
+
 #Contents#
 * table of contents
 {:toc}
