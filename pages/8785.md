@@ -66,7 +66,7 @@ $$
 
 (...)
 
-Let $Disk_{compl}$ be the [[category]] of complex unit [[disks]] in $\mathbb{C}^n$ and [[holomorphic functions]] between them.
+Let $Disk_{compl}$ be the [[category]] of complex [[polydiscs]] in $\mathbb{C}^n$ and [[holomorphic functions]] between them.
 
 For $p \in \mathbb{N}$ write $\Omega^p \colon Disk_{complex}^{op} \to Set$ for the [[sheaf]] of holomorphic [[differential n-form|differential p-forms]].
 
