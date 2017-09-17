@@ -74,7 +74,7 @@ The differentially refined intersection pairing is non-trivial and interesting a
 Notably, the [[diagonal]] of the intersection pairing in in dimension $2k-1$ is the [[action functional]] of quadratic abelian [[higher dimensional Chern-Simons theory]].
 
 Its [[quadratic refinement]] is discussed in 
-([Hopkins-Singer](#HopkinsSinger)).
+([Hopkins-Singer](#HopkinsSinger)), induced from/modeled on [[characteristic elements of a bilinear form|characteristic elements]] given by [[integral Wu structures]].
 
 
 
