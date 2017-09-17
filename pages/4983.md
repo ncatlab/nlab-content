@@ -32,7 +32,7 @@ There is a [[model category]] structure on the [[category]] of topological opera
 
 ## Related concepts
 
-* **topological operad**
+* **topological operad**, [[simplicial operad]]
 
 * [[dg-operad]]
 
