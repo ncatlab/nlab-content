@@ -42,8 +42,60 @@ If $D$ is a pointed derivator and $i\colon A\hookrightarrow B$ is a [[full subca
 ###### Theorem
 $D(B,A)$ is a [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] subcategory of $D(B)$.
 =--
+
 +-- {: .query}
-[[Mike Shulman]]: This is Proposition 7.4 in Heller's paper cited below.  All he says about the proof is that the reflector at $X$ is the homotopy cofibre of the [[counit]] $i_! i^* X \to X$.  It seems to me that a little thought is required to even make this functorial (since a priori the counit is a morphism in $D(B)$, but to take its homotopy cofiber we need to *choose* an object of $D(B\times I)$ representing it), and I haven't succeeded yet in showing that it's a reflection.
+[[Mike Shulman]]: This is Proposition 7.4 in Heller's paper cited below.  All he says about the proof is that the reflector at $X$ is the homotopy cofibre of the [[counit]] $i_! i^* X \to X$.  This is the shortest proof I've been able to come up with, but there may well be a much shorter one.
+=--
+
++-- {: .proof}
+###### Proof
+We define a reflector $L\colon D(B) \to D(B,A)$.  Let $M i$ be the "directed mapping cylinder" of $i$, meaning the full subcategory of $B\times I$ containing all objects $(x,1)$ for $x\in B$, but only objects $(x,0)$ when $x\in A$.  Write $j\colon M i \to B\times I$ for the inclusion, $k\colon M i \to B$ for the obvious projection, and $ab\colon I\to \Gamma$ for the inclusion.  Then $L$ is the composite
+$$
+D(B) \overset{k^*}{\to} D(M i)
+\overset{j_!}{\to} D(B\times I)
+\overset{ab_*}{\to} D(B\times \Gamma)
+\overset{\Gamma_!}{\to} D(B)
+$$
+Note that $j_! k^* X \in D(B\times I)$ is a representative of the counit $i_! i^* X \to X$ in $D(B)$, and $ab_*$ inserts the zero object at objects $(x,c)$ in $B\times\Gamma$.  Thus $L(X)$ is morally the cofiber of this counit.
+
+We first rephrase this definition a little.  Let $P$ denote the full subcategory of $B\times \Gamma$ containing all objects $(x,b)$ for $x\in B$ but only objects $(x,a)$ and $(x,c)$ for $x\in A$, with inclusions $M i\overset{Mab}{\to} P \overset{v}{\to} B\times \Gamma$.  Then we claim that $ab_* j_! \cong v_! Mab_*$.  First note that the following square is exact:
+$$\array{M i & \overset{Mab}{\to} & P\\
+  ^j \downarrow && \downarrow ^v\\
+  B\times I & \underset{ab}{\to} & B\times \Gamma}$$
+so that we have an isomorphism $v^* ab_* \cong Mab_* j^*$, whose [[mate]] is a transformation $v_! Mab_* \to ab_* j_!$.  It is then easy to verify that this mate is an isomorphism objectwise.  Therefore, $L$ can also be written as the composite
+$$
+D(B) \overset{k^*}{\to} D(M i)
+\overset{Mab_*}{\to} D(P)
+\overset{w_!}{\to} D(B).
+$$
+where $w = \colon P \to B$ is the obvious projection.
+
+We next show that $L X\in D(B,A)$.  Observe that the following square is exact:
+$$\array{A\times \Gamma & \overset{r}{\to} & P \\
+  ^s \downarrow && \downarrow^w \\
+  A & \underset{i}{\to} & B }
+$$
+Thus, $i^* L(X) = i^* w_! Mab_* k^* X \cong s_! r^* Mab_* k^* X$.  But $r^* Mab_* k^* X \in D(A\times \Gamma)$ has the schematic form
+$$\array{X & \Rightarrow & X\\
+  \Downarrow && \\
+  0 & }$$
+and it is easy to check that $s_!$ of this is always zero.  Thus $L X\in D(B,A)$.
+
+Finally, let $X\in D(B)$ and $Y\in D(B,A)$; we have the following sequence of isomorphisms, showing that $L$ is a reflection of $X$ into $D(B,A)$.
+$$
+\begin{aligned}
+D(B)(L X, Y) &= D(B)(w_! Mab_* k^* X, Y)\\
+&\cong D(P)(Mab_* k^* X, w^* Y)\\
+&\overset{(1)}{\cong} D(P)(Mab_* k^* X, Mab_* k^* Y)\\
+&\overset{(2)}{\cong} D(P)(k^* X, k^* Y)\\
+&\cong D(P)(k_! k^* X, Y)\\
+&\overset{(3)}{\cong} D(P)(X, Y).
+\end{aligned}
+$$
+To see isomorphism (1), note that since $Y\in D(B,A)$, $w^* Y$ is zero on both copies of $A$, and in particular on the copy consisting of objects $(x,c)$ for $x\in A$; thus the canonical map $w^*Y \to Mab_* Mab^* w^* Y = Mab_* k^* Y$ is an isomorphism.  The isomorphism (2) is because $Mab_*$ is fully faithful (since $Mab$ is).  Finally, isomorphism (3) is because the following square is exact:
+$$\array{P & \overset{k}{\to} & B\\
+  ^k\downarrow && \downarrow\\
+  B & \underset{}{\to} & B}$$
 =--
 
 If $i'\colon A'\hookrightarrow B'$ is another full inclusion and
