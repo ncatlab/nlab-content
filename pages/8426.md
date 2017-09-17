@@ -22,9 +22,11 @@ For a fiber surface $T$, the translation of the fibre around the base-space circ
 
 ([Stallings 87](#Stallings87))
 
-> (that is similar to how the [[Artin L-function]] is defined... see also  [Sikora 01, analogy 2.2 (10)](#Sikora01))
+##Analogy with number theory
 
-In [[arithmetic topology]], Alexander-Fox theory is the analog of [[Iwasawa theory]] ([Morishita, section 7](#Morishita)).
+See [Sikora 01, analogy 2.2 (10)](#Sikora01)) for the comparison in [[arithmetic topology]], where Alexander-Fox theory is the analog of [[Iwasawa theory]] ([Morishita, section 7](#Morishita)).
+
+In [Remark 3.3 of Sugiyama 04](Sugiyama04), the Alexander polynomial is described as the L-function of the knot complement, taken there with the trivial represenation. As such it resembles the local zeta function of a curve.
 
 ## References
 
@@ -44,7 +46,8 @@ An analogue in number theory is Iwasawa polynomial. Cf. for number theoretic ana
 * [[Barry Mazur]], _Remarks on the Alexander polynomial_, [pdf](http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf)
 * {#Morishita} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv](http://arxiv.org/abs/0904.3399))
 * Masanori Morishita, Knots and primes: an introduction to arithmetic topology, Springer 2012, chapter 12
-* Ken-ichi Sugiyama, _The properties of an L-function from a geometric point of view_, 2007 [pdf](http://geoquant2007.mi.ras.ru/sugiyama.pdf); _A topological $\mathrm{L}$ -function for a threefold_, 2004 [pdf](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1376-12.pdf); _An analog of the Iwasawa conjecture for a compact hyperbolic threefold_, [math.GT/0606010](http://arxiv.org/abs/math/0606010)
+* Ken-ichi Sugiyama, _The properties of an L-function from a geometric point of view_, 2007 [pdf](http://geoquant2007.mi.ras.ru/sugiyama.pdf)
+* {#Sugiyama04} Ken-ichi Sugiyama, _A topological $\mathrm{L}$ -function for a threefold_, 2004 [pdf](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1376-12.pdf); _An analog of the Iwasawa conjecture for a compact hyperbolic threefold_, [math.GT/0606010](http://arxiv.org/abs/math/0606010)
 * {#Sikora01} Adam S. Sikora, _Analogies between group actions on 3-manifolds and number fields_, [arXiv:0107210](http://arxiv.org/abs/math/0107210)
 
 
