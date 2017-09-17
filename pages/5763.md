@@ -345,6 +345,7 @@ A morphism $f : A \to B$ in $C^* Alg$ is commutativity reflecting precisely if t
 
 $$
   (\mathcal{C}(f) \dashv R_f)
+  \;\colon\;
   \mathcal{C}(A)
    \stackrel{\overset{R_f}{\leftarrow}}{\underset{\mathcal{C}(f)}{\to}}
   \mathcal{C}(B)
