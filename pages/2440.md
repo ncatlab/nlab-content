@@ -82,9 +82,13 @@ One of the original references (or the original reference?) is
 
 * [[Victor Kac]], _Lie superalgebras_. Advances in Math. 26 (1977), no. 1, 8--96.
 
+Surveys:
+
+* Groeger, _Super Lie groups and super Lie algebras_, lecture notes 2011 ([pdf](http://www.mathematik.hu-berlin.de/~groegerj/teaching_files/lecture12.pdf))
+
 A useful survey with more pointers to the literature is
 
-* L. Frappat, A. Sciarrino, P. Sorba, _Dictionary on Lie Superalgebras_ ([arXiv](http://arxiv.org/abs/hep-th/9607161))
+* L. Frappat, A. Sciarrino, P. Sorba, _Dictionary on Lie Superalgebras_ ([arXiv:hep-th/9607161](http://arxiv.org/abs/hep-th/9607161))
 
 Another useful survey is
 
