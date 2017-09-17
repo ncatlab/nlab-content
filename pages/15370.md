@@ -18,6 +18,8 @@
 
 A [[ring]] compatibly equipped with a [[norm]] on the underlying group.
 
+If suitably complete with respect to the norm, then a normed ring is a [[Banach ring]].
+
 ## Related concepts
 
 * [[division ring]]
