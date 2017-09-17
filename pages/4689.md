@@ -80,6 +80,8 @@ As a result, the field of fundamental physics today finds itself in a somewhat a
 
 ## References
 
+### General
+
 Some of the standard lore about necessity of and the problems of quantum gravity are discussed in reviews such as
 
 * [[Steve Carlip]], _Quantum Gravity: a Progress Report_ ([arXiv:gr-qc/0108040](http://arxiv.org/abs/gr-qc/0108040))
@@ -87,3 +89,22 @@ Some of the standard lore about necessity of and the problems of quantum gravity
 * R. P. Woodard, _How Far Are We from the Quantum Theory of Gravity?_ ([arXiv:0907.4238](http://arxiv.org/abs/0907.4238))
 
 * [[Hermann Nicolai]], _Quantum Gravity: the view from particle physics_ ([arXiv:1301.5481](http://arxiv.org/abs/1301.5481))
+
+### Non-renormalizablity
+
+That [[Einstein gravity]] is not pertrubatively [[renormalization|renormaliable]] was shown in 
+
+* M. H. Goroff, A. Sagnotti, _Quantum Gravity At Two Loops_, Phys. Lett. B 160 (1985) 81.
+
+* A. E. M. van de Ven, _Two loop quantum gravity_, Nucl. Phys. B 378 (1992) 309.
+
+### As an effective field theory
+
+One can regard [[gravity]] as an [[effective field theory]] and just quantize in [[perturbation theory]]. 
+
+* John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
+ {#DonoghueIntroduction}
+
+In the context of perturbative [[AQFT]]:
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
