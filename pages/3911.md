@@ -14,25 +14,27 @@
 =--
 
 
-
-> under construction
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-Fiber integration is a process that sends [[cohomology]] classes on a [[bundle]] $E \to B$ of [[manifold]]s to cohomology classes on the base $B$ of the bundle, by _evaluating them on each fiber_ in some sense. This sense is such that if the cohomology in question is [[de Rham cohomology]] then fiber integration is ordinary [[integration]] of [[differential form]]s over the fibers. Generally, the fiber integration over a bundle of $k$-dimensional fibers reduces the degree of the cohomology class by $k$.
+_Fiber integration_ or _push-forward_ is a process that sends [[generalized cohomology]] classes on a [[bundle]] $E \to B$ of [[manifolds]] to cohomology classes on the base $B$ of the bundle, by _evaluating them on each fiber_ in some sense. 
+
+This sense is such that if the cohomology in question is [[de Rham cohomology]] then fiber integration is ordinary [[integration]] of [[differential form]]s over the fibers. Generally, the fiber integration over a bundle of $k$-dimensional fibers reduces the degree of the cohomology class by $k$.
 
 Composing pullback of cohomology classes with fiber integration yields the notion of [[transgression]].
 
 ## Definition
 
+### In generalized cohomology by Umkehr maps
+
+#### Along maps of manifolds
 
 Here is the rough outline of the construction:
 
-Let $p : E \to B$ be a [[bundle]] of smooth compact [[manifold]]s with typical [[fiber]] $F$. 
+Let $p : E \to B$ be a [[bundle]] of smooth compact [[manifolds]] with typical [[fiber]] $F$. 
 
 By the [[Whitney embedding theorem]] one can choose an embedding $e:E \hookrightarrow \mathbb{R}^n$ for some $n \in \mathbb{N}$. From this one obtains an embedding
 
@@ -117,6 +119,25 @@ $$
 
 This operation is independent of the choices involved. It is the **fiber integration** of $H$-cohomology along $p : E \to B$.
 
+#### Along representable morphisms of stacks
+
+The above definition generalizes to one of push-forward
+in generalized cohomology on [[stacks]] over [[SmthMfd]]
+along [[representable morphisms of stacks]].
+
+(...)
+
+### In generalized differential cohomology
+
+See
+
+* [[fiber integration in differential cohomology]]
+
+  * [[fiber integration in ordinary differential cohomology]]
+
+  * [[fiber integration in differential K-theory]]
+
+
 ## Examples
 
 ### To the point
@@ -127,16 +148,6 @@ $$
 $$
 taking values in the coefficients of the given cohomology theory. Note that in this case $\Sigma^n B_+=S^n$, and this hints to a relationship between the Thom-Pontryagin construction and [[Spanier-Whitehead duality]]. And indeed [[Atiyah duality]] gives a homotopy equivalence between the [[Thom spectrum]] of the stable normal bundle of $E$ and the Spanier-Whitehead dual of $E$.
 ...
-
-### In differential cohomology
-
-See
-
-* [[fiber integration in differential cohomology]]
-
-  * [[fiber integration in ordinary differential cohomology]]
-
-  * [[fiber integration in differential K-theory]]
 
 ## References
 
@@ -166,4 +177,6 @@ More details are in
 
 [[!redirects fiber integration in generalized cohomology]]
 [[!redirects integration in generalized cohomology]]
+
+[[!redirects push-forward in generalized cohomology]]
 
