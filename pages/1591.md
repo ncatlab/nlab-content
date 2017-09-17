@@ -198,3 +198,6 @@ For example the [[natural numbers object]] $\mathbf{N} \simeq \Delta \mathbb{N}$
 
 [[!redirects discrete]]
 [[!redirects discreteness]]
+
+[[!redirects discrete type]]
+[[!redirects discrete types]]
