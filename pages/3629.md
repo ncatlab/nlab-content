@@ -32,6 +32,8 @@ However, large tensor powers of a channel may be easier to represent in this way
 
 >David Roberts: I'm guessing you wanted $T^{\otimes n}$ instead of $T\otimes n$.
 
+>Ian Durham: Yep.  My bad.
+
 Categorically, one possible way to approach this problem is to determine the relationship between the category of quantum channels, $QChan$, and the category of unitary transformations.
 
 #Discussion
@@ -39,3 +41,5 @@ Categorically, one possible way to approach this problem is to determine the rel
 [[Ian Durham]]: Any suggestions concerning the last point?
 
 [[David Roberts]]: There may be a functor between the two which is \'nice\' in some sense (has an [[adjoint functor|adjoint]], say) which encapsulates the next best possible result.
+
+[[Ian Durham]]: Hmmm.  What I think I'm going to do is to try to tally up all the category theoretic properties of each.  That should make it easier to see if there's a functor between them, I would think.
