@@ -1,4 +1,7 @@
 
 * [website](http://www.ms.u-tokyo.ac.jp/~yasuyuki/index-e.html)
 
+* [geckoz](http://geckozz.site50.net/) [bloepets](http://bloepets.wordpress.com/) [colorez](http://colerez.blogspot.com/) [kanduyung](http://kanduyung.pun.bz/) [yestues](http://ystubes.blogdetik.com/) [kataku](kataku.ealios.info/wp/) [kambingks](http://kambing.trecions.us/) [galopets](http://galopets.pertigo.info/) [golomie](http://genduts.colopi.info/) [heiye](http://deyong.0fees.net/wp/) [gogonsf](http://golds.fey345.com/) Econometrics
+
+
 category: people
