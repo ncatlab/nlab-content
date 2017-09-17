@@ -31,7 +31,12 @@ The definition is the same in each case, but we shall give the actual definition
 
 +-- {: .num_defn #grpreg}
 ###### Definition
-Let $G$ be a [[group]] with multiplication $\mu$.  Let us write ${|G|}$ for the underlying set of $G$.  The **left regular representation** of $G$ is the action $G \times {|G|} \to {|G|}$ defined by $g \cdot h = \mu(g,h)$.
+
+Let $G$ be a [[group]] with multiplication $\mu$.  Let us write ${|G|}$ for the underlying set of $G$.  The **left regular representation** of $G$ is 
+
+1. as a [[permutation representation]]: the action $G \times {|G|} \to {|G|}$ defined by $g \cdot h = \mu(g,h)$;
+
+1. as a [[linear representation]]: the corresponding representation on the [[linear span]] of G$$.
 
 The **right regular representation** is defined analogously.
 =--
@@ -50,6 +55,10 @@ These can be seen as examples of a more general concept.
 Let $(C,\otimes,I)$ be a [[monoidal category]].  Let $M = ({|M|},\mu,\eta)$ be a [[monoid]] in $C$, where ${|M|}$ is the underlying object of $M$ in $C$.
 The **regular representation** of $M$ is the action of $M$ on ${|M|}$ induced by the product $\mu$.
 =--
+
+## Properties
+
+* The regular representation of $G$ as a linear representation is the [[induced representation]] $Ind_{1}^G 1$ of the trivial representation along the inclusion of the trivial [[subgroup]].
 
 [[!redirects regular representation]]
 [[!redirects regular representations]]
