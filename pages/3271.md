@@ -1,4 +1,4 @@
-**Victor Ginzburg** (in some 1980-s articles spelled Ginsburg) is a professor of mathematics at the University of Chicago. His thesis in Moscow was under [[Alexandre Kirillov]]. His main interests are [[representation theory]], especially [[geometric representation theory]], including more recently [[noncommutative algebraic geometry]]. 
+**Victor Ginzburg** (in some 1980s articles spelled Ginsburg) is a professor of mathematics at the University of Chicago. His thesis in Moscow was under [[Alexandre Kirillov]]. His main interests are [[representation theory]], especially [[geometric representation theory]], including more recently [[noncommutative algebraic geometry]]. 
 
 Warning: there is another mathematician (global analysis, [[symplectic geometry]]), **Viktor** Ginzburg (note the English spelling).
 
@@ -18,4 +18,8 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 
 * V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327--402 (1986)
 
+
 category: people
+
+[[!redirects Victor Ginzburg]]
+[[!redirects Victor Ginsburg]]
