@@ -1,24 +1,23 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definition
 
-A __fibre product__ or __fiber product__ is a [[product]] in a [[over category|slice category]] $\mathcal{C} \downarrow C$.  The fibre product of two morphisms $f: A \to C$, $g: B \to C$ is the same as their [[pullback]]; accordingly, a fiber product of more than two morphisms $f_i : A_i \to C$ is often called a __wide pullback__. 
+A __fibre product__ or __fiber product__ is a [[product]] in a [[over category|slice category]] $\mathcal{C} \downarrow C$.  The fibre product of two morphisms $f\colon A \to C$, $g\colon B \to C$ is the same as their [[pullback]]; accordingly, a fiber product of more than two morphisms $f_i\colon A_i \to C$ is often called a __wide pullback__. 
 
-More explicitly, for $f : A \to C$ and $g : B \to C$ two [[morphism]]s in a [[category]] $\mathcal{C}$, the fiber product $A \times_C B$
-of $A$ with $B$ over $C$ is, if it exists, [[generalized the|the]] [[pullback]]
+More explicitly, for $f\colon A \to C$ and $g\colon B \to C$ two [[morphism]]s in a [[category]] $\mathcal{C}$, the fiber product $A \times_C B$ of $A$ with $B$ over $C$ is, if it exists, [[generalized the|the]] [[pullback]]
 
 $$
   \array{
@@ -33,19 +32,12 @@ $$
 
 This term comes from thinking of $A$ and $B$ as [[bundle]]s over $C$; then the fiber of $A \times_C B$ over a [[generalized element]] $x$ of $C$ is the [[product]] of the fibers of $A$ and $B$ over $x$.  In other words, the fiber product is the product taken fiber-wise.
 
-Of course, the fiber of $A$ at the generalized element $x: I \to C$ is itself a pullback $I \times_C A$; the terminology depends on your point of view.
+Of course, the fiber of $A$ at the generalized element $x\colon I \to C$ is itself a fibre product $I \times_C A$; the terminology depends on your point of view.
 
-+-- {: .query}
-You\'re English, [[David Corfield|David]], so how come you don\'t like 'fibre'?  ---[[Toby Bartels|Toby]]
-
-I just thought it was policy here. That's what the [[HowTo]] page says anyway. ---[[David Corfield|David]]
-
-That\'s only for page titles.  (I know, because I wrote it!)  Actually, now that we have a usable system of redirects, even that may not be so important.  The English Wikipedia does fine with a policy only of including redirects for alternate spellings.  ---Toby
-=--
 
 ## Examples
 
-In $C =$ [[Set]] the fiber product is given by the usual formula
+In $\mathcal{C} =$ [[Set]], the fiber product is given by the usual formula
 $$
   A \times_C B = 
   \left\{
@@ -57,7 +49,7 @@ $$
 
 +-- {: .query}
 
-[[Chris Brav| Chris]]: I'd appreciate it if someone could add an explanation of fiber products as limits of compsimplicial diagrams $A \times B, A \times C \times B, A \times C \times C \times A,...$, making the coface maps explicit.
+[[Chris Brav|Chris]]: I'd appreciate it if someone could add an explanation of fiber products as limits of compsimplicial diagrams $A \times B, A \times C \times B, A \times C \times C \times A,...$, making the coface maps explicit.
 
 [[Urs Schreiber|Urs]]: I think it should work like this:
 
@@ -120,25 +112,25 @@ $$
 
 would still be $A \times_C B$, but the homotopy limit would pick up the right first degree correction for the homotopy fiber product.
 
-[[Chris Brav| Chris]]: Thanks, Urs. I'll continue thinking about this. While I was at the coffee shop, I realized
+[[Chris Brav|Chris]]: Thanks, Urs. I'll continue thinking about this. While I was at the coffee shop, I realized
 that to form $A \times_C B$ in a homotopically meaningful way, we should somehow resolve $B$. So if $\mathcal{D}$ is our category and $\mathcal{D}_C$ is the category of objects over $C \in \mathcal{D}$, then we have an adjoint
 pair of functors $R:= C\times? : \mathcal{D} \rightarrow \mathcal{D}_C$ and $L:=\mathcal{D}_C \rightarrow \mathcal{D}$ forgetting the map to $C$. (Strange to me, but it seems that forgetting here is the left adjoint.) Then
 we can apply the monad $R L$ to $B \rightarrow C$ to get
 a cobar resolution of $B$, take the product with $A$, and so get the cosimplicial object $A \times C \times B, A \times C \times C \times B,...$. 
 
 Perhaps this is the wrong section to discuss this, and when we figure it out, maybe we should make a section on 
-fiber products of derived spaces. 
-
+fiber products of derived spaces.
 
 =--
 
 
-[[!redirects fibre product]]
-[[!redirects fibered product]]
-[[!redirects fibred product]]
-[[!redirects wide pullback]]
+[[!redirects fiber product]]
 [[!redirects fiber products]]
+[[!redirects fibre product]]
 [[!redirects fibre products]]
+[[!redirects fibered product]]
 [[!redirects fibered products]]
+[[!redirects fibred product]]
 [[!redirects fibred products]]
+[[!redirects wide pullback]]
 [[!redirects wide pullbacks]]
