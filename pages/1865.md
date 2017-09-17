@@ -19,7 +19,7 @@ There are various different models that differ in the concrete realization of th
 
 This section discusses the model presented in
 
-* [[James Simon]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
+* [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
 
 More details will eventually be at
 
@@ -56,7 +56,7 @@ where on the right we have $j$ wedge factors of the [[curvature]] .
 **Definition**
 
 Let $(V,\nabla)$ and $(V',\nabla')$ be two complex
-vector bundles with conneciton.
+vector bundles with connection.
 
 A [[Chern-Simons form]] for this pair is a differential form
 
