@@ -1,3 +1,4 @@
+* D. Bohm, D. Pines, Phys. Rev. __92__ (1953) 609;
 * A. Jevicki, B. Sakita, _The quantum collective field method and its application to the planar limit_, Nucl. Physics B __165__, 3 (1980) 511-527, <a href="http://dx.doi.org/10.1016/0550-3213(80)90046-2">doi</a>
 * A. Jevicki, B. Sakita, _Collective field approach to the large-N limit: Euclidian field theories_, Nucl. Physics B __185__, 1 (1981) 89-100, <a href="http://dx.doi.org/10.1016/0550-3213(81)90365-5">doi</a>, [kek scan](http://www-lib.kek.jp/cgi-bin/img_index?8103461)
 * A. Jevicki, B.Sakita, Phys. Rev. D 22, 467 (1980).
