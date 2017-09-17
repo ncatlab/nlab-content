@@ -1,0 +1,57 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[11-dimensional supergravity]] the [[brane]] electrically charged under the [[supergravity C-field]] is the [[M2-brane]]/[[membrane]]. The dual under [[electric-magnetic duality]] is the M5-brane.
+
+## Properties
+
+### Worldvolume theory
+
+the [[worldvolume]] theory of the M5-brane is the [[6d (2,0)-superconformal QFT]].
+
+### Dimensional reduction
+
+On dimensional reduction of [[11-dimensional supergravity]] on a circle the M5-brane turns into the [[NS5-brane]] and the [[D-brane|D4-brane]] of [[type II string theory]].
+
+### Holographic dual
+
+The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the [[6d (2,0)-superconformal QFT]] to [[11-dimensional supergravity]] on 7-dimensional [[anti de Sitter spacetime]].
+
+## Related concepts
+
+
+## References
+
+### Sugra solutions
+
+The [[anti de Sitter spacetime]] $AdS_7 \times S^4$ arises in [[11-dimensional supergravity]] as the large $N$ limit of $N$ coincident M5-branes:
+
+* P. Pasti, D. Sorokin and M. Tonin, Covariant Action for a D=11 Five-Brane with the Chiral
+Field, Phys.Lett. B398 (1997) 41.
+
+* I. Bandos, K. Lechner, A. Nurmagambetov, P. Pasti, D. Sorokin and M. Tonin, Covariant
+Action for the Super-Five-Brane of M-Theory, 
+Phys.Rev.Lett. 78 (1997) 4332.
+
+*  M. Aganagic, J. Park, C. Popescu and J. H. Schwarz, World-Volume Action of the M Theory Five-Brane, Nucl.Phys. B496 (1997) 191.
+
+### Holography
+
+* A. J. Nurmagambetov, I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
+
+[[!redirects M5-branes]]
