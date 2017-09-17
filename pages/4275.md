@@ -160,7 +160,8 @@ Given a (rational) genus $\phi \colon \Omega^{U,SU}_\bullet\otimes \mathbb{Q} \t
 
    where $c_1 \in H^2(B U(1), \mathbb{Z})$ denotes the universal [[first Chern class]].
 
-#### Definition via orientations in generalized
+#### Definition via orientations in generalized cohomology
+ {#HirzebruchSeriesViaOrientationsInGeneralizedCohomology}
 
 Suppose that the given genus $\Omega_\bullet^{SO} \longrightarrow R$ comes from an [[orientation in generalized cohomology]] hence from a [[homomorphism]] of [[E-∞ rings]]
 
