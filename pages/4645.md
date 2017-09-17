@@ -343,7 +343,7 @@ The morphism $\tilde P \times G \to \tilde P$ exhibits the principal $G$-[[actio
 
 In summary we find
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 For $\{U_i \to X\}$ a [[good open cover]], there is an [[equivalence of categories]]
@@ -1126,7 +1126,7 @@ Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The passage to the subset and quotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition is essentially the minimal adjustment to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
@@ -1134,7 +1134,7 @@ The passage to the subset and quotient $[I,X]_{si}^{th}$ of the set of all smoot
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition
 
 The **path groupoid** $\mathbf{P}_1(X)$ is the groupoid
@@ -1205,7 +1205,7 @@ and such that $U$-families of smooth paths induce smooth maps $U \to G$ of eleme
 
 There is a classical construction that yields such an assignment: the [[parallel transport]] of a [[Lie-algebra valued 1-form]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition
 
 Suppose $A \in \Omega^1(X, \mathfrak{g})$ is a degree-1 [[differential form]] on $X$ with values in the [[Lie algebra]] $\mathfrak{g}$ of $G$. Then its parallel transport is the smooth functor
@@ -1231,7 +1231,7 @@ for the boundary condition $f(0) = e$.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Theorem 
 
 This construction $A \mapsto tra_A$ induces an [[equivalence of categories]]
@@ -1253,7 +1253,7 @@ where on the left we have the [[hom-groupoid]] of [[groupoid-valued presheaves]]
 
 This equivalence is [[natural transformation|natural]] in $X$, so that we obtain another smooth groupoid.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Define $\mathbf{B}G_{conn} : CartSp^{op} \to Grpd$ to be the (generalized) Lie groupoid
@@ -1266,7 +1266,7 @@ whose $U$-parameterized smooth families of groupoids form the [[groupoid of Lie-
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This equivalence in particular subsumes the classical facts that parallel transport $\gamma \mapsto P \exp(\int_{[0,1]} \gamma^* A)$ 
@@ -1277,7 +1277,7 @@ This equivalence in particular subsumes the classical facts that parallel transp
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 There is an evident natural smooth functor $X \to \mathbf{P}_1(X)$ that includes points in $X$ as constant paths. This induces a natural morphism $\mathbf{B}G_{conn} \to \mathbf{B}G$ that forgets the 1-forms.
@@ -1285,7 +1285,7 @@ There is an evident natural smooth functor $X \to \mathbf{P}_1(X)$ that includes
 =--
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Defintion
 
 Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ under the construction discussed [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift $\nabla$ of the cocycle through $\mathbf{B}G_{conn} \to \mathbf{B}G$.
@@ -1303,7 +1303,7 @@ $$
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 This is equivalent to the [[connection on a bundle|traditional definitions]].
@@ -1323,7 +1323,7 @@ such that
 * on each $U_i \cap U_j \cap U_k$ we have $g_{i j} \cdot g_{j k} = g_{i k}$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition
 
 Let $[I,X]_{si}^{th} \to [I,X]^h$ the projection onto the full quotient by smooth [[homotopy]] classes of paths.
@@ -1333,7 +1333,7 @@ Write $\mathbf{\Pi}_1(X) = ([I,X]^h \stackrel{\to}{\to} X)$ for the smooth group
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The above restricts to a natural equivalence
@@ -1360,7 +1360,7 @@ There is an evident higher dimensional generalization of the definition of conne
 
 (Constructions and results in this section are from <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">SWII, SWIII</a>)
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 The [[path n-groupoid|path 2-groupoid]] $\mathbf{P}_2(X)$ is the smooth [[strict 2-groupoid]] analogous to $\mathbf{P}_1(X)$, but with nontrivial [[2-morphism]]s given by [[thin homotopy]]-classes of disks $\Delta^2_{Diff} \to X$ with [[sitting instant]]s.
@@ -1369,7 +1369,7 @@ In analogy to the projection $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ there is a 
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 Let $G$ be a strict [[Lie 2-group]] coming from a [[crossed module]] $([G_2 \stackrel{\delta}{\to} G_1], \alpha : G_1 \to Aut(G_2))$.Its [[delooping]]  $\mathbf{B}G$ is the strict [[Lie 2-groupoid]] coming from the [[crossed complex]] $[G_2 \stackrel{\delta}{\to} G_1 \stackrel{\to}{\to} *]$.
@@ -1400,7 +1400,7 @@ This induces a [[differential crossed module]] $(\mathfrak{g}_2 \stackrel{\delta
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 For $K$ an [[abelian group|abelian]] Lie group then $\mathbf{B}K$ is the [[delooping]] 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ is the 2-group coming from the complex $[K \to 1 \to 1]$.
@@ -1437,7 +1437,7 @@ $$
 
 and thus encodes a [[higher parallel transport]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There is a natural equivalence of [[2-groupoid]]s
@@ -1483,14 +1483,14 @@ $$
   \,.
 $$
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If in the above definition we use $\mathbf{P}_2(X)$ instead of $\mathbf{\Pi}_2(X)$, we obtain the same 2-groupoid, except that the 3-form curvature $F_3(A,B)$ is not required to vanish.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $P \to X$ be a $G$-[[principal 2-bundle]] classified by a cocycle $C(U) \to \mathbf{B}G$. Then a structure of a _flat_ **[[connection on a 2-bundle]]** $\nabla $ on it is a lift
@@ -1522,7 +1522,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We do not state the last definition for general Lie 2-groups $G$. The reason is that for general $G$ 2-anafunctors out of $\mathbf{P}_2(X)$ do not produce the fully general notion of 2-connections that we are after,  but yield a special case in between flatness and non-flatness: the case where precisely the 2-form [[curvature]]-components vanish, while the 3-form curvature part is unrestricted. This case is important in itself and discussed in detail [below](#below). 
@@ -1531,7 +1531,7 @@ Only for $G$ of the form $\mathbf{B}A$ does the 2-form curvature necessarily van
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Theorem
 
 Let $\{U_i \to X\}$ be a [[good open cover]], a cocycle $C(U) \to [\mathbf{P}_2(-), \mathbf{B}^2 A]$ is a cocycle in [[Cech cohomology]]-[[Deligne cohomology]] in degree 3. 
@@ -1557,7 +1557,7 @@ $$
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 A cocycle as above naturally corresponds to a [[∞-anafunctor|2-anafunctor]]
@@ -1581,7 +1581,7 @@ This appears for instance in the [[action functional]] of the [[sigma model]] th
 
 The following example of a flat nonabelian 2-bundle is very degenerate as far as 2-bundles go, but does contain in it the seed of a full understanding of connections on 1-bundles.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $G$ a [[Lie group]], its _[[inner automorphism 2-group]]_ $INN(G)$ is as a groupoid the [[universal principal infinity-bundle|universal G-bundle]] $\mathbf{E}G$, but regarded as a 2-group with the group structure coming from the crossed module $[G \stackrel{Id}{\to} G]$.
@@ -1613,7 +1613,7 @@ $$
   \,.
 $$
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -1621,7 +1621,7 @@ This is the Lie 2-group whose [[Lie 2-algebra]] $inn(\mathfrak{g})$ is the one w
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 By the above theorem we have that there is a bijection of sets
@@ -1692,7 +1692,7 @@ of the horizontal morphisms.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 By the above theorems, we have over any $U \in $ [[CartSp]] that
@@ -1714,7 +1714,7 @@ By the above theorems, we have over any $U \in $ [[CartSp]] that
 
 From this it is clear that
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The projection $\mathbf{B}G_{diff} \stackrel{\simeq}{\to} \mathbf{B}G$ is a weak equivalence.
@@ -1724,7 +1724,7 @@ The projection $\mathbf{B}G_{diff} \stackrel{\simeq}{\to} \mathbf{B}G$ is a weak
 So $\mathbf{B}G_{diff}$ is a [[resolution]] of $\mathbf{B}G$. We will see that it is the resoluton that supports [[∞-anafunctor|2-anafunctor]]s out of $\mathbf{B}G$ which represent [[curvature characteristic class]]es.
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X \stackrel{\simeq}{\leftarrow}C(U) \to \mathbf{B}U(1)$ a cocycle for a $U(1)$-principal bundle $P \to X$, we call a lift $\nabla_{ps}$ in
@@ -1777,7 +1777,7 @@ $$
  \,.
 $$
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Observation
 
 For $G = A$ an [[abelian group]], in particular the [[circle group]], there is a canonical morphism $\mathbf{B} INN(U(1)) \to \mathbf{B}\mathbf{B}U(1)$.
@@ -1873,7 +1873,7 @@ $$
 
 The total outer diagram appearing this way is a component of the following (generalized) Lie 2-groupoid.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Set
@@ -1923,7 +1923,7 @@ Finally the 2-morphisms would be [[modification]]s of these, but the commutativi
 
 In summary this shows that
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Under the [[Dold-Kan correspondence]] $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ is the sheaf of truncated [[de Rham complex]]es
@@ -1937,7 +1937,7 @@ $$
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Corollary
 
 Equivalence classes of [[infinity-anafunctor|2-anafunctor]]s
@@ -1950,7 +1950,7 @@ are canonically in bijection with the degree 2 [[de Rham cohomology]] of $X$.
 
 =--
 
-+-- {: .un_remar}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -1962,7 +1962,7 @@ This simple technical point turns out to play a crucial role in the abstract def
 
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 There is a canonical [[infinity-anafunctor|2-anafunctor]] 
@@ -1984,7 +1984,7 @@ where the top morphism is given by forming the [[pasting]]-composite with the $\
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -2019,7 +2019,7 @@ We will see that full $\infty$-Chern-Weil theory is governed by a slight refinem
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Observation
 
 For $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}U(1)$ the cocycle for a $U(1)$-principal bundle as described above, the composition of [[infinity-anafunctor|2-anafunctor]]s of $g$ with $\hat {\mathbf{c}}_1^{dR}$ yields a cocycle for a 2-form $\hat {\mathbf{c}}_1^{dR}(g)$
@@ -2053,7 +2053,7 @@ The corresponding total map $c_1^{dR}(g)$ represented by $c_1^{dR}(\nabla)$ is t
 For $X,A$ smooth 2-groupoids, write $\mathbf{H}(X,A)$ for the 2-groupoid of 2-anafunctors between them. 
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Corollary
 
 Let $H_{dR}^2(X) \to \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^2 U(1))$ be a choice of one closed 2-form representative for each degree-2 [[de Rham cohomology]]-class of $X$. Then the [[pullback]] groupoid $\mathbf{H}_{conn}(X,\mathbf{B}U(1))$ in 
@@ -2488,7 +2488,7 @@ We have seen [above](#http://ncatlab.org/nlab/show/infinity-Chern-Weil+theory+in
 A simple motivating example for [[characteristic class]]es and the [[Chern-Weil homomorphism]]
 is the construction of [[determinant line bundle]]s.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 Let $N \in \mathbb{N}$. Consider the [[unitary group]] $U(N)$.
@@ -2850,7 +2850,7 @@ Simply by replacing in this characterization the vector space $\mathfrak{g}^*$ b
 
 The following definition glosses over some fine print but is entirely sufficient for our present discussion.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 The category of [[∞-Lie algebroid]]s is the [[opposite category]] of the [[full subcategory]] of [[dgAlg]] 
@@ -2864,7 +2864,7 @@ on graded-commutative cochain [[dg-algebra]]s in non-negative degree whose under
 =--
 
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Examples
 
 * A _strict_ $\infty$-Lie algebra is a [[dg-Lie algebra]] $(\mathfrak{g}, \partial, [-,-])$ with $(\mathfrak{g}^*, \partial^*)$ a [[cochain complex]] in non-negative degree. With $\mathfrak{g}^*$ denoting the degreewise dual, the corresponding CE-algebra is $CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^*, d_{CE} = [-,-]^* + \partial^*$. 
@@ -2900,7 +2900,7 @@ We discuss [[Lie integration]]: a construction that sends an [[∞-Lie algebroid
 The construction we want to describe may be understood as a generalization
 of the following proposition. This is classical, even if maybe not reflected in the standard textbook literature to the extent it deserves to be (see [[Lie integration]] for details and references).
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
 For $\mathfrak{g}$ a (finite-dimensional) [[Lie algebra]], let $\exp(\mathfrak{g}) \in [CartSp^{op}, sSet]$ be the [[simplicial presheaf]] given by the assignment
@@ -2915,7 +2915,7 @@ in degree $k$ of [[dg-algebra]] [[homomorphism]]s from the [[Chevalley-Eilenberg
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Shortly we will be considering variations of such assignments that are best thought about when writing out the [[hom-set]]s on the right here as sets of arrows; as in
@@ -2943,7 +2943,7 @@ and simple but important observation that dg-algebra morphisms  $\Omega^\bullet(
 
 One finds that it makes good sense to generally, for $\mathfrak{g}$ any [[∞-Lie algebra]] or even [[∞-Lie algebroid]], think of $Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^k))$ as the set of [[∞-Lie algebroid valued differential forms]] whose curvature forms (generally a whole tower of them) vanishes.
 
-+-- {: .un_proposition}
++-- {: .num_prop}
 ###### Proposition
 
 Let $G$ be the [[simply-connected]] [[Lie group]] integrating $\mathfrak{g}$ according to [[Lie's three theorems]] and  $\mathbf{B}G \in [CartSp^{op}, Grpd]$ its [[delooping]] [[Lie groupoid]] regarded as a [[groupoid]]-valued [[presheaf]] on [[CartSp]]. Write $\tau_1(-)$ for the 
@@ -3011,7 +3011,7 @@ $$
 
 are in natural bijection with elements $\mu \in CE(\mathfrak{g})$ of degree $n$, that are closed, $d_{CE(\mathfrak{g})} \mu = 0$. This is the classical description of a cocycle in the [[Lie algebra cohomology]] of $\mathfrak{g}$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Every such $\infty$-Lie algebra cocycle $\mu$ induces a morphism of simplicial presheaves
@@ -3033,7 +3033,7 @@ $$
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 **(first Pontryagin class)**
 
@@ -3084,7 +3084,7 @@ where $\mu$ is regarded in this formula as a closed 3-form on $G$.
 
 We say this is <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of Lie algebra cocycles</a>.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[Cech cohomology]] cocycle obtained this way is the first [[Pontryagin class]] of the $G$-bundle classified by $G$.
@@ -3157,7 +3157,7 @@ In this context we had _derived_ Lie algebra valued forms from the [[parallel tr
 
 For that purpose notice that another classical dg-algebra associated with $\mathfrak{g}$ is its [[Weil algebra]] $W(\mathfrak{g})$. 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Fact
 
 The [[Weil algebra]] $\mathrm{W}(\mathfrak{g})$ 
@@ -3192,7 +3192,7 @@ This uniquely fixes the differential on the shifted generators -- a phenomenon k
 
 Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from def \ref{BGdiff} in diagrammatic fashion.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 For $G$ a [[simply connected]] [[Lie group]], the presheaf $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ is isomorphic to
@@ -3230,7 +3230,7 @@ Here over a given $U$ the bottom morphism in such a diagram is an arbitrary $\ma
 On the other hand, there is in the above no further constraint on $A_U$. Accordingly, as we pass to the 1-truncation of $\exp(\mathfrak{g})_{diff}$ we find that morphisms are of the form $(A_U)_1 \stackrel{g}{\to} (A_U)_2$ with $(A_U)^i$ arbitrary. This is the definition of $\mathbf{B}G_{diff}$.
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We see below that it is not a coincidence that this is reminiscent 
@@ -3265,7 +3265,7 @@ As we shall see below, any such choice $cs$ will extend the characteristic cocyc
 
 This is achieved by imposing the following additional constraint on the choice of extension $cs$ of $\mu$: 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $\mu \in CE(\mathfrak{g})$ a cocycle and $cs \in W(\mathfrak{g})$ a lift of $\mu$ through $W(\mathfrak{g}) \leftarrow CE(\mathfrak{g})$, we say that $\langle -\rangle \in W(\mathfrak{g})$ is an [[invariant polynomial]] _in transgression_ with $\mu$ if 
@@ -3345,7 +3345,7 @@ $$
   \,.
 $$
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition 
 
 In such a diagram, we call $cs$ the **[[Chern-Simons element]]** that exhibits the transgression between $\mu$ and $\langle - \rangle$. 
@@ -3388,7 +3388,7 @@ $$
 
 To appreciate the construction so far, recall the
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Classical fact
 
 For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathbf{B}G \otimes k$ of the [[classifying space]] $\mathbf{B}G$ is the [[rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[Lie algebra]] $\mathfrak{g}$.
@@ -3436,7 +3436,7 @@ $$
 $$
 
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Examples
 
 * For $\mathfrak{g}$ a [[semisimple Lie algebra]], $\langle -,-\rangle$ the [[Killing form]] invariant polynomial, there is a Chern-Simons element $cs \in W(\mathfrak{g})$ witnessing the transgression to the cocycle $\mu = - \frac{1}{6} \langle -,[-,-] \rangle$. Under a $\mathfrak{g}$-valued form $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A$ this maps to the ordinary degree 3 [[Chern-Simons form]]
@@ -3555,7 +3555,7 @@ to the untruncated [[Lie integration]] of $\mathfrak{g}$ is given by restriction
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Here we are thinking of $U \times \Delta^k \to U$ as a trivial [[bundle]].
@@ -3584,7 +3584,7 @@ that define [[connections on ∞-bundles]].
 
 ##### Curvature characteristics
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $A \in \exp(\mathfrak{g})_{conn}(U,[k])$ a $\mathfrak{g}$-valued form on $U \times \Delta^k$ and for $\langle - \rangle \in W(\mathfrak{g})$ any [[invariant polynomial]], the corresponding [[curvature characteristic form]] $\langle F_A \rangle \in \Omega^\bullet(U \times \Delta^k)$ descends down to $U$.
@@ -3613,7 +3613,7 @@ $$
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Remark
 
 For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms $F_A$ themselves are not necessarily closed (rather they satisfy the [[Bianchi identity]]), hence requiring them to have no component along the simplex does not imply that they descend. This is different for abelian $\infty$-Lie algebras: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent.
@@ -3653,7 +3653,7 @@ in [[dgAlg]].
 
 The commutativity of this diagram is implied by $\iota_v F_A = 0$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Write $\exp(\mathfrak{g})_{CW}(U)$ for the $\infty$-groupoid of $\mathfrak{g}$-valued forms fitting into such diagrams.
@@ -3688,7 +3688,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If we just consider the top horizontal morphism in this diagram we obtain the object
@@ -3775,7 +3775,7 @@ This distinction is important: over objects $X \in $ [[Smooth∞Grpd]] that are 
 The 1-[[morphism]]s in $\exp(\mathfrak{g})(U)$ may be thought of as [[gauge transformation]]s between $\mathfrak{g}$-valued forms. We unwind what these look like concretely.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Given a 1-morphism in $\exp(\mathfrak{g})(X)$, represented by $\mathfrak{g}$-valued forms
@@ -3808,7 +3808,7 @@ $$
   \,.
 $$
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 
@@ -3836,7 +3836,7 @@ $$
 $$
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Define the **[[covariant derivative]] of the gauge parameter** to be
@@ -3869,7 +3869,7 @@ This is known as the equation for **infinitesimal [[gauge transformation]]s** of
 
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 By [[Lie integration]] we have that $A_{vert}$ -- and hence $\lambda$ -- defines an element $\exp(\lambda)$ in the [[∞-Lie group]] that integrates $\mathfrak{g}$. 
@@ -3883,7 +3883,7 @@ The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 
 ##### Examples
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(connections on ordinary bundles)**
 
@@ -4175,7 +4175,7 @@ $$
   \,.
 $$
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathfrak{g}$ an ordinary [[Lie algebra]] the image under $\tau_1(-)$ of this diagram constitutes the ordinary [[Chern-Weil homomorphism]] in that:
