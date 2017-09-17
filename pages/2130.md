@@ -172,6 +172,15 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 * [[isotropic submanifold]], [[coisotropic submanifold]]
 
+## References
+
+See the references at [[symplectic geometry]].
+
+The generalization of the notion of symplectic manifolds to [[dg-geometry]] is sometimes known as _[[NQ-supermanifolds|PQ-supermanifolds]]_ , due to
+
+* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
+
+
 [[!redirects symplectic manifolds]]
 [[!redirects symplectic form]]
 
