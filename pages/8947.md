@@ -46,6 +46,7 @@ The $n$-epimorphisms in an [[(∞,1)-topos]] are the left half of the [[(n-epi, 
 
 * [[Postnikov system]]
 
+* [[n-types cover]]
 
 [[!redirects n-epimorphisms]]
 
