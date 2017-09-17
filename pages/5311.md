@@ -1,33 +1,30 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
-
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definitions
 
-A _[[square root]]_ of an element $a$ in a [[monoid]] is a solution to the equation $x^2 = a$ within the monoid. If the monoid is the multiplicative [[group of units]] of a (commutative) [[field]] or [[integral domain]], then there are exactly two square roots if there are any; these are denoted $\pm \sqrt{a}$. (In general, there may be many square roots; for example, in the "field" or [[division ring]] of [[quaternions]] $\mathbb{H}$, there are [[continuum]] many square roots of $-1$.) 
+A __[[square root]]__ of an element $a$ in a [[monoid]] $M$ is a solution to the equation $x^2 = a$ within $M$. If $M$ is the multiplicative monoid of non-zero elements of a (commutative) [[field]] or [[integral domain]] $K$ (or a submonoid of this, such as the [[group of units]]), then there are exactly two square roots, denoted $\pm \sqrt{a}$, if there are any; the element $0$ has only one square root, $\pm \sqrt{0} = 0$.  But if $K$ is even a non-integral domain or a non-commutative [[skew field]], then there may be more; in the skew field $\mathbb{H}$ of [[quaternions]], there are [[continuum|continuumly]] many square roots of $-1$.
 
 More generally, for $n \in \mathbb{N}$ a solution to the equation $x^n = a$ is called an **$n$th root** of $a$. Specifically for $a = 1$ and working in the [[field]] of [[complex number]]s, one speaks of an **$n$th root of unity**. This terminology can be applied to other fields as well; for example, the field of [7-adic numbers](http://ncatlab.org/nlab/show/p-adic+number) contains non-trivial cube (or $3^{rd}$) roots of unity. 
 
-More generally, for any [[polynomial]] $P(x)$ of $x$ with coefficients in a field $k$, a solution to $P(x) = 0$ in $k$ is called a _root_ of $P$. When $P(x) \in k[x]$ has no solution in $k$, one can speak of a field obtained by "adjoining roots" of $P$ to $k$, meaning that one considers roots in an extension field $i: k \hookrightarrow E$ of the corresponding polynomial $Q = (i \otimes_k k[x])(P) \in E[x]$, i.e., applying the evident composite map 
+More generally, for any [[polynomial]] $P(x)$ of $x$ with coefficients in a field $K$, a solution to $P(x) = 0$ in $K$ is called a __root__ of $P$. When $P(x) \in K[x]$ has no solution in $k$, one can speak of a [[splitting field]] obtained by "adjoining roots" of $P$ to $K$, meaning that one considers roots in an [[extension field]] $i: K \hookrightarrow E$ of the corresponding polynomial $Q = (i \otimes_K K[x])(P) \in E[x]$, i.e., applying the evident composite map 
+$$K[x] \cong K \otimes_K K[x] \stackrel{i \otimes_K 1}{\to} E \otimes_K K[x] \cong E[x]$$ 
+to $P$ to get $Q$, and passing the smallest [[intermediate subfield]] between $K$ and $E$ that contains the designated roots of $Q$ (often writing $P$ for $Q$ by abuse of language). 
 
-$$k[x] \cong k \otimes_k k[x] \stackrel{i \otimes_k 1}{\to} E \otimes_k k[x] \cong E[x]$$ 
+More generally still, one may refer to roots even of non-polynomial [[functions]] $f$ defined on a field, for example of [[meromorphic functions]] $f \colon \mathbb{C} \to \mathbb{C}$, although it is much more usual to speak of _zeroes_ of $f$ instead of roots of $f$ (e.g., zeroes of the [[Riemann zeta function]]); see [[zero set]] and [[intermediate value theorem]]. 
 
-to $P$ to get $Q$, and passing the smallest intermediate subfield between $k$ and $E$ that contains the designated roots of $Q$ (often writing $P$ for $Q$ by abuse of language). 
-
-More generally still, one may refer to roots even of non-polynomial [[functions]] $f$ defined on a field, for example of [[meromorphic functions]] $f \colon \mathbb{C} \to \mathbb{C}$, although it is much more usual to speak of _zeroes_ of $f$ instead of roots of $f$ (e.g., zeroes of the [[Riemann zeta function]]). 
 
 ## Roots of unity in fields 
 
