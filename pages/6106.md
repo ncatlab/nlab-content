@@ -194,6 +194,8 @@ This is a higher analog of how $G$-[[equivariant K-theory]] of the point gives t
 
 * [[Kac-Weyl character]]
 
+* [[double loop group]]
+
 ## References
 
 The standard textbook on loop groups is
