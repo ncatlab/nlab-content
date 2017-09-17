@@ -230,6 +230,7 @@ Several explicit presentations of the string Lie 2-group are known.
 
 
 ### By Lie integration of the string Lie 2-algebra 
+ {#ByLieIntegrationOfStringLie2Algebra}
 
 We discuss a presentation of the smooth string 2-group by [[Lie integration]] of the skeletal version of the [[string Lie 2-algebra]].
 
@@ -349,24 +350,63 @@ $$
   \right)
 $$
 
-such that on the right we still have a [[pullback]] diagram. Notice from [[Lie integration]] the weak equivalence
+such that on the right we still have a [[pullback]] diagram. 
+
+We discuss the descent o this pullback diagram along the projection $\exp(\mathfrak{so}(n)) \to \mathbf{cosk}_3 \exp(\mathfrak{so}(n))$.
+
+Notice from [[Lie integration]] the weak equivalence
 
 $$
   \int_{\Delta^\bullet} : \exp(b^n \mathbb{R}) \simeq \mathbf{B}^{n+1}\mathbb{R}_c
   \,.
 $$
 
-Applying the [[coskeleton]] functor and using the projection ([FSS](#FSS))
+Let $I$ be the set of maps $\partial \Delta[4] \to \exp(b^2 \mathbb{R})$ 
+that fit into a diagram
+
+$$
+  \array{
+    \partial \Delta[4] &\to& \exp(b^2 \mathbb{R})
+    \\
+    \downarrow && \downarrow^{\mathrlap{\int_{\Delta^\bullet}}}
+    \\
+    && \mathbf{B}^3 \mathbb{R}_c
+    \\
+    \downarrow && \downarrow 
+    \\
+    \Delta[4] &\to& \mathbf{B}^3 (\mathbb{Z} \to \mathbb{R})_c
+  }
+$$
+    
+(closed 3-forms on 3-balls whose integral is an integer).
+
+Write
+
+$$
+  \exp(b^2 \mathbb{R}/\mathbb{Z}) 
+    :=
+  \mathbf{cosk}_3
+   \left(
+     (I \times \Delta[4])\coprod_{I \times \partial \Delta[4]} \mathbf{cosk_3} \exp(b^2 \mathbb{R})
+   \right)
+$$
+
+for the result of filling all these by 4-cells. Similarly define
+$\exp(e b \mathbb{R}/\mathbb{Z})$.
+
+
+Then applying the [[coskeleton]] functor to the above pullback 
+diagram and using the projection ([FSS](#FSS))
 
 $$
   \array{
     \exp(\mathfrak{so}(n)) &\stackrel{\exp(\mu)}{\to}& \exp(b^2 \mathbb{R})
     \\
-    \downarrow && \downmarrow
+    \downarrow && \downarrow
     \\
     \mathbf{cosk}_3\exp(\mathfrak{so}(n)) 
-      &\stackrel{}{\to}&
-    \bar W\Xi(\mathbb{Z} \to \mathbb{R})[2]
+      &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}&
+    \exp(b^2 \mathbb{R}/\mathbb{Z})
   }
 $$
 
@@ -376,20 +416,22 @@ $$
   \array{
     \mathbf{cosk}_3 (\mathfrak{string}(n)) 
       &\to&
-    W\Xi(\mathbb{Z} \to \mathbb{R})[2]
+    \exp(e b \mathbb{R}/\mathbb{Z})
     \\
     \downarrow && \downarrow
     \\
     \mathbf{cosk}_3 \exp(\mathfrak{so})
     &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}&
-    \bar W\Xi(\mathbb{Z} \to \mathbb{R})[2]
+    \exp(b^2 \mathbb{R}/\mathbb{Z})
   }
   \,.
 $$
 
-(...)
+This is again a pullback diagram of a fibration resolution of the point inclusion, hence presents the homotopy fiber in question.
+
 
 =--
+
 
 
 ### As a strict Lie 2-group
