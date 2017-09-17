@@ -1,0 +1,6 @@
+
+* [webpage](http://www.math.rochester.edu/people/faculty/doug/)
+
+category: people
+
+[[!redirects Douglas Ravenel]]
