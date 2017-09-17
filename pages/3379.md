@@ -53,6 +53,9 @@ Note that if an idempotent adjunction is [[monadic adjunction|monadic]], then (u
 
 * The [[material-structural adjunction]] between [[material set theory|material set theories]] and [[structural set theory|structural set theories]] is idempotent.  The fixed categories consist of the models satisfying appropriate versions of the [[axiom of foundation]] or anti-foundation.
 
+## Related concepts
+
+* A categorification of the notion of idempotent adjunction is that of [[lax-idempotent 2-adjunction]].
 
 ## References
 
