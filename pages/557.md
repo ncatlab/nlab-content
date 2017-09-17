@@ -27,6 +27,7 @@ is called an **algebra** or **model** of $T$ in $C$.  The category of algebras o
 
 ## Related concepts
 
+* [[PRO]]
 * [[polycategory]]
 
 
