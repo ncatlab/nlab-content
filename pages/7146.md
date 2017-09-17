@@ -13,7 +13,7 @@ In other words, it is a certain [[Eilenberg-MacLane object]] in the context of [
 
 ## References
 
-* David Eisenbud, Frank-Olaf Schreyer, _Relative Beilinson Monad and Direct Image for Families of Coherent Sheaves_ ([arXiv:math/0506391](http://arxiv.org/abs/math/0506391))
+* [[David Eisenbud]], Frank-Olaf Schreyer, _Relative Beilinson Monad and Direct Image for Families of Coherent Sheaves_ ([arXiv:math/0506391](http://arxiv.org/abs/math/0506391))
   {#ES}
 
 [[!redirects Beilinson monads]]
