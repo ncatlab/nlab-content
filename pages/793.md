@@ -43,7 +43,7 @@ More specifically the space of [[differential geometry|differential geometric]] 
 * possibly a cocycle in [[differential K-theory]] modelling the [[RR-field]];
 
 
-admits a certain operation that, roughly, inverts the Riemannian circumference of the torus fibers and mixes the metric with the gerbe data, such that the induced 2-dimensional $\sigma$-model QFTs for these backgrounds are equivalent. This is the operation called **T-duality**.
+admits a certain operation that, roughly, inverts the Riemannian circumference of the torus fibers and mixes the metric with the gerbe data, such that the induced 2-dimensional [[sigma-model]] QFTs for these backgrounds are equivalent. This is the operation called **T-duality**.
 
 This was noticed originally in the study of [[conformal field theory|conformal field theories]] in the context of [[string theory]]: the conformal field theory [[sigma-model]]s with target space $X$ turn out to be equivalent as [[quantum field theory|quantum field theories]] for T-dual backgrounds $(X,g,G)$ and $(X',g',G')$ (at least to the approximate degree to which these are realized as full CFTs in the first place).
 
@@ -54,12 +54,11 @@ Further generalisations let $X$ be a nontrivial torus bundle, but the T-dual is 
 We indicate how one can see T-duality from formal manipulations
 of the [[path integral]] for the [[string theory|string]] [[sigma-model]]. We look at the simplest situation, where the torus bundle in question is a trivial circle bundle over a [[Cartesian space]] carrying the metric induced from the standard flat metric on $\mathbb{R}^n$ and where there are no other nontrivial background fields. In fact, for the purpose of the following computation we can entirely ignore the base of this bundle and consider target space to be nothing but a circle. Since the [[sigma-model]] for this is on the worldsheet just the theory of a single free field with values in $S^1$, this is often also called the "free boson on the circle".
 
-This means that the only geometric datum determining the background geometry is the circumference $2 \pi R$ of the fiber of the circle bundle. The statement of T-duality in this situation is that the 2-dimensional $\sigma$-model on this background yields the same 2-dimensional [[CFT]] as that for this kind of background with circumference of the circle being $2 \pi 1/R$.
+This means that the only geometric datum determining the background geometry is the circumference $2 \pi R$ of the fiber of the circle bundle. The statement of T-duality in this situation is that the 2-dimensional [[sigma-model]] on this background yields the same 2-dimensional [[CFT]] as that for this kind of background with circumference of the circle being $2 \pi 1/R$.
 
 ### A first rough look
 
-A quick way to get an indication for this is to notice that the center-of-mass energy of the string in such a circle-bundle background is
-In terms of the worldsheet theory. In the simplified setup we mentioned before, a string on a circle of radius $R$ has 
+A quick way to get an indication for this is to consider the center-of-mass energy of the string in such a circle-bundle background. In the simplified setup we mentioned before, a string on a circle of radius $R$ has 
 quantized momentum $p = \frac{\ell \in \mathbb{Z}}{R}$. In a state in which the string winds around the circle $m$ times and has $\ell$ quanta of kinetic momentum for propagation around the circle,  its energy is
 
 $$
