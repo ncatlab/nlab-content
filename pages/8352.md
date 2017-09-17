@@ -22,6 +22,20 @@
 
 The [[resolution]] of a [[chain complex]] be a complex of [[free modules]].
 
+## Properties
+
+### Existence
+ {#Existence}
+
++-- {: .num_prop}
+###### Proposition
+
+For $R$ a [[ring]], every $R$-[[module]] admits a free resolution.
+
+=--
+
+
+
 ## Related concepts
 
 * [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
@@ -40,5 +54,13 @@ The [[resolution]] of a [[chain complex]] be a complex of [[free modules]].
 
   * [[flat module]]
 
+
+## References
+
+Lecture notes include for instance
+
+around page 5 of 
+
+* [[Andrew Baker]], _Notes on chain complexes_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/chaincomplexes.pdf))
 
 [[!redirects free resolutions]]
