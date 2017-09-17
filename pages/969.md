@@ -191,7 +191,7 @@ A __terminological discussion__ prompted by question in which sense "localizatio
 
 A formal implementation of Gabriel-Zisman localization in [[ZFC]], which in turn is implemented in the [[proof assistant]] [[Coq]] is in 
 
-* {#Simpson05} [[Carlos Simpson]], _Explaining Gabriel-Zisman localization to the computer_ ([arXiv:math/0506471](http://arxiv.org/abs/math/0506471))
+* {#Simpson05} [[Carlos Simpson]], _Explaining Gabriel-Zisman localization to the computer_ ([arXiv:math/0506471](http://arxiv.org/abs/math/0506471), [web](http://math.unice.fr/~carlos/themes/verif.html))
 
 A [[HoTT]]-[[Coq]]-formalization of left-exact [[reflective sub-(∞,1)-categories]] ([[localization of an (∞,1)-category]]) in [[homotopy type theory]] is in 
 
