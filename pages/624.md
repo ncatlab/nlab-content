@@ -33,7 +33,7 @@ There are other notions of "dual object", distinct from this one. See for exampl
 
 ### Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An object $A$ in a [[monoidal category]] $C$ is **dualizable** if it has an [[adjunction|adjoint]] when regarded as a [[morphism]] in the one-object [[delooping]] [[bicategory]] $\mathbf{B}C$ corresponding to $C$.  Its adjoint in $\mathbf{B}C$ is called its **dual** in $C$ and often written as $A^*$.
@@ -42,12 +42,12 @@ An object $A$ in a [[monoidal category]] $C$ is **dualizable** if it has an [[ad
 
 If $C$ is [[braided monoidal category|braided]] then left and right adjoints in $\mathbf{B}C$ are equivalent; otherwise one speaks of $A$ being **left dualizable** or **right dualizable**.  
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
-Unfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  A common convention is that a *right dual* of $A$ is an object $A^*$ equipped with a **unit** (or *coevaluation*)
+Unfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  A common convention is that a *right dual* of $A$ is an object $A^*$ equipped with a **[[unit of an adjunction|unit]]** (or *[[coevaluation]]*)
 $$i: I \to A \otimes A^* $$
-and **counit** (or *evaluation*)
+and **counit** (or *[[evaluation]]*)
 $$e : A^* \otimes A \to I $$
 satisfying the 'triangle identities' familiar from the concept of [[adjunction]].  With this convention, if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in [[diagrammatic order]], then right duals in $C$ are the same as right adjoints in $\mathbf{B}C$ --- whereas if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in classical 'Leibnizian' order, then right duals in $C$ are the same as *left* adjoints in $\mathbf{B} C$.
 
@@ -55,7 +55,7 @@ Of course, in a [[symmetric monoidal category]], there is no difference between 
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 If every object of $C$ has a left and right dual, then $C$ is called a [[rigid monoidal category]] or an [[autonomous monoidal category]].  If it is additionally symmetric, it is called a [[compact closed category]].  
@@ -78,7 +78,7 @@ Dualizable objects support a good abstract notion of [[trace]].
 
 ## In a symmetric monoidal $(\infty,n)$-category
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An [[object]] in a [[symmetric monoidal (∞,n)-category]] $C$ is called **dualizable** if it is so as an object in the ordinary [[symmetric monoidal category|symmetric monoidal]] [[homotopy category]] $Ho(C)$.
@@ -88,7 +88,7 @@ An [[object]] in a [[symmetric monoidal (∞,n)-category]] $C$ is called **duali
 This appears as ([Lurie, def. 2.3.5](#Lurie)).
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This means that an object in $C$ is dualizable if there exists unit and counit 1-morphism that satisfy the [[triangle identity]] up to [[homotopy]]. The definition does not demand that this homotopy is [[coherent]] (that it satisfies itself higher order relations up to higher order [[k-morphism]]s).
@@ -98,7 +98,7 @@ If the structure morphisms of the adjunction of a dualizable object _have_ thems
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 As before, we may equivalently state this after [[delooping]] the monoidal structure and passing to the $(\infty,n+1)$-category $\mathbf{B}C$. Then $C$ has duals for objects precisely if $\mathbf{B}C$ has all adjoints.
