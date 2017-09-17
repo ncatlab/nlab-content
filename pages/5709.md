@@ -133,6 +133,10 @@ The modern picture of effective low-energy QFT goes back to
 * H. Leutwyler, Ann. Phys., NY 235 (1994) 165.
   {#Leutwyler94}
 
+A brief introduction aimed at mathematicians is in 
+
+* [[Daniel Freed]], _Lecture 5 of [[Five lectures on supersymmetry]]_
+
 A standard textbook adopting this perspective is
 
 * [[Steven Weinberg]] _The Quantum Theory of Fields_ (Cambridge University
@@ -141,7 +145,7 @@ Press,Cambridge,1995).
 whose author describes his goal as: "This is intended
 to be a book on quantum field theory for the era of effective field theory."  Another book which takes the effective-field-theory approach to QFT is
 
-* [[Anthony Zee]] _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
+* Anthony Zee, _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
 
 Introductory lecture notes are for instance in 
 
