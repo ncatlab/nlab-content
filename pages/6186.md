@@ -1,14 +1,16 @@
 
-This entry provides some hyperlinks for the article
+This entry provides some hyperlinks for the articles
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], 
 
+* _Twisted K-theory and loop group representations_ ([arXiv:math/0312155](http://arxiv.org/abs/math/0312155))
+
   _Loop groups and twisted K-theory I_, J. Topology, 4 (2011), 737-789  ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906))
 
-  _Loop Groups and Twisted K-Theory II_ ([arXiv:0511232](http://arxiv.org/abs/math/0511232))
+  _Loop Groups and Twisted K-Theory II_, J. Amer. Math. Soc. 26 (2013), 595-644  ([arXiv:0511232](http://arxiv.org/abs/math/0511232))
  {#PartII}
 
-about [[loop group]]s and [[twisted K-theory]]
+about the [[twisted K-theory|twisted]] [[equivariant K-theory]] of suitable [[Lie groups]], and the [[representation theory]] of their [[loop groups]]. Part II is also closely related to the [[orbit method]] for producing [[irreducible representations]] of Lie groups from [[geometric quantization]] of their [[coadjoint orbits]].
 
 ## Statement of the theorem
 
@@ -218,7 +220,7 @@ for $SO(3)$, odd radii,
 
 but one can describe a canonical correspondence without directs reference to the classification of irreps
 
-Each coadjoint orbit has a symplectic form
+Each [[coadjoint orbit]] has a [[symplectic form]] (see at _[[orbit method]]_)
 
 $$
   \omega_2(ad^*_\xi(\lambda), ad^*_\eta(\lambda))
