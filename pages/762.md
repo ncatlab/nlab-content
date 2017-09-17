@@ -1,23 +1,19 @@
-[[!redirects filtered space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
 ## Definition
-
-
 
 A **filtered topological space** $X_*$ is
 
@@ -38,7 +34,7 @@ There are two other forms of this condition which are useful under different cir
 
 1. A [[CW-complex]] $X$ with its filtration by [[simplicial skeleton|skeleta]] $X^n$.
 
-1. The free topological monoid $FX$ on a space $X$ filtered by the length of words. This is sometimes modified by taking a space with base point $(X,x)$ and then in $FX$ identifying $x$ with the identity of $FX$. This gives the James construction $J(X,x)$, after Ioan James. 
+1. The free topological monoid $F X$ on a space $X$ filtered by the length of words. This is sometimes modified by taking a space with base point $(X,x)$ and then in $F X$ identifying $x$ with the identity of $F X$. This gives the James construction $J(X,x)$, after Ioan James. 
 
 1. A similar example to the last using free groups instead of free monoids. 
 
@@ -53,7 +49,7 @@ Examples of connected filtered spaces are:
 
 1. The word length filtration of the James construction for a space with base point such that $\{x\} \to X$ is a closed cofibration. 
 
-1. The filtration $(BC)_*$ of the classifying space of a crossed complex, filtered using skeleta of $C$. 
+1. The filtration $(B C)_*$ of the classifying space of a crossed complex, filtered using skeleta of $C$. 
 
 This condition occurs in the [[higher homotopy van Kampen theorem]] for [[crossed complex]]es.
 
@@ -65,4 +61,8 @@ So it is  interesting that one can define strict higher homotopy groupoids for f
 
 Note also that it is standard to be able to replace, using mapping cylinders, a sequence of maps $Y_n \to Y_{n+1}$ by a sequence of inclusions. 
 
+
+[[!redirects filtered topological space]]
+[[!redirects filtered topological spaces]]
+[[!redirects filtered space]]
 [[!redirects filtered spaces]]
