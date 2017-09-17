@@ -59,7 +59,7 @@ For Coq-projects in [[homotopy type theory]] see
 
 A web-based version of Coq is at 
 
-* _[ProofWeb](prover.cs.ru.nl)_
+* _[ProofWeb](http://prover.cs.ru.nl)_
 
 To start it, scroll down to "Proof assistants on the web", choose "Coq" from the menu "proof assistant" and Click on "guest login". In the user interface that appears, enter Coq-code in the left window and hit the arrow-buttons to "run" it with output appearing in the right window. The guest account allows everything except saving files.
 
