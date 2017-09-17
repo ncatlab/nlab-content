@@ -159,3 +159,5 @@ For discussion of $\infty$-groupoids equipped with genuine _topological cohesion
 
 [[!redirects discrete ∞-groupoids]]
 [[!redirects discrete infinity-groupoids]]
+
+[[!redirects Disc∞Grpd]]
