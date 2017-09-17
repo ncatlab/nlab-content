@@ -53,9 +53,14 @@ In [[gauge field theories]] such as notably [[Chern-Simons theory]], moduli spac
 
 * [[equivariant elliptic cohomology]]
 
+Related theorems
+
 * [[Harder-Narasimhan theorem]]
 
 * [[Koszul-Malgrange theorem]]
+
+* [[Donaldson-Uhlenbeck-Yau theorem]]
+
 
 ## References
 
