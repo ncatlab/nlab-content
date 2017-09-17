@@ -12,12 +12,12 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ## 
 
-A (left) Quillen bifunctor is a [[functor]] of two variables between [[model category|model categories]] that respects combined cofibrations in its two arguments in a suitable sense.
+A _(left) Quillen [[bifunctor]]_ is a [[functor]] of two variables between [[model category|model categories]] that respects combined [[cofibrations]] in its two arguments in a suitable sense.
 
 The notion of Quillen bifunctor enters the definition of [[monoidal model category]] and of [[enriched model category]].
 
