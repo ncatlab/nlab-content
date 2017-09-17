@@ -1,9 +1,14 @@
 
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-***
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
+
 
 
 
