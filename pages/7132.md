@@ -1,0 +1,7 @@
+
+In the context of [[analytic geometry]], a **polydisc** is a [[product]] of [[discs]].
+
+[[!redirects polydisk]]
+
+[[!redirects polydiscs]]
+[[!redirects polydisks]]
