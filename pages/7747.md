@@ -122,21 +122,30 @@ The [[homotopy type]] of the [[moduli space of framed manifolds|moduli space of 
 
 ## References
 
-The theorem about the parallizablitiy of spheres is due to
-
-* {#Adams58} [[John Adams]], _On the Non-Existence of Elements of Hopf Invariant One_ Bull. Amer. Math. Soc. 64, 279-282, 1958, Ann. Math. 72, 20-104, 1960.
- 
-The case of 3-manifolds and the relation to "[[2-framings]]" is duscussed in
-
-* {#Atiyah} [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
-
 Rieview in the context of the [[Kervaire invariant]] includes
 
 * [[Akhil Mathew]], _The Kervaire invariant I_ ([web](https://amathew.wordpress.com/2012/10/01/the-kervaire-invariant-i/#more-3888))
 
+
+The theorem about the parallizablitiy of spheres is due to
+
+* {#Adams58} [[John Adams]], _On the Non-Existence of Elements of Hopf Invariant One_ Bull. Amer. Math. Soc. 64, 279-282, 1958, Ann. Math. 72, 20-104, 1960.
+
+### For 2-manifolds
+
 The [[moduli space of framed surfaces]] is discussed in 
 
 *  [[Oscar Randal-Williams]], _Homology of the moduli spaces and mapping class groups of framed, r-Spin and Pin surfaces_ ([arXiv:1001.5366](http://arxiv.org/abs/1001.5366))
+
+### For 3-manifolds
+
+* [[Rob Kirby]], [[Paul Melvin]], _Canonical framings for 3-manifolds_, Turkish Journal of Mathematics, volume 23, number 1,1999 ([[KirbyMelvon3Framings.pdf:file]])
+ 
+The relation to "[[2-framings]]" is duscussed in
+
+* {#Atiyah} [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
+
+
 
 
 [[!redirects framed manifolds]]
