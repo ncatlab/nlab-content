@@ -134,7 +134,9 @@ Following the practice of [[centipede mathematics]], we can remove certain prope
 
 Standard examples of [[finite group]]s include
 
-* [[symmetric group]]
+* [[group of order 2]] $\mathbb{Z}_2$
+
+* [[symmetric group]] $\Sigma_n$
 
 * [[cyclic group]]
 
@@ -142,7 +144,9 @@ Standard examples of [[finite group]]s include
 
 Standard examples of non-finite groups include
 
-* group of [[integer]]s.
+* group of [[integer]]s $\mathbb{Z}$ (under [[addition]]);
+
+* group of [[real number]]s without 0 $\mathbb{R}\setminus \{0\}$ under [[multiplication]].
 
 Standard examples of [[Lie group]]s include
 
@@ -150,7 +154,7 @@ Standard examples of [[Lie group]]s include
 
 * [[unitary group]]
 
-* [[Spin group]]
+* [[Spin group]], [[spin^c group]]
 
 Standard examples of [[topological group]]s include
 
