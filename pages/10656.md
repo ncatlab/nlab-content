@@ -19,7 +19,7 @@ The Becker-Gottlieb transfer is a variant of [[push-forward in generalized cohom
 
 The Becker-Gottlieb transfer operation has been refined to [[differential cohomology]] in ([Bunke-Gepner 13](#BunkeGepner13)).
 
-Its compatibility in [[differential algebraic K-theory]] with the differential refinement of the [[Borel regulator]] is the content of the _transfer index conjecture_ ([Bunke-Gepner 13, conjecture 1.1](#BunkeGepner13)). 
+Its compatibility in [[differential algebraic K-theory]] with the differential refinement of the [[Borel regulator]] is the content of the _transfer index conjecture_ ([Bunke-Tamme 12, conjecture 1.1](#BunkeTamme12), [Bunke-Gepner 13, conjecture 5.3](#BunkeGepner13)). 
 
 For the moment see at _[regulator -- Becker-Gottlieb transfer](Beilinson+regulator#GottliebTransfer)_ for more.
 
@@ -49,8 +49,10 @@ Reviews include
 
 Discussion in the context of [[differential algebraic K-theory]] is in
 
-* [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
- {#BunkeGepner13}
+* {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], section 2.1 of _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
+
+* {#BunkeGepner13} [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
+ 
 
 In prop. 4.14 of 
 
