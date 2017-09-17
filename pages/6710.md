@@ -17,7 +17,7 @@
 
 ### Topological
 
-For $n \in \mathbb{N}$ the [[Lie group]] $Spin^c(n)$ is a [[central extension]] 
+For $n \in \mathbb{N}$ the [[Lie group]] [[spin^c]] is a [[central extension]] 
 
 $$
   U(1) \to Spin^c(n) \to SO(n)
@@ -91,8 +91,132 @@ $$
   \,.
 $$
 
+## Properties
+
+### Of $Spin^c$
+ {#PropertiesOfSpinC}
+
+**Definition**
+
+The group $Spin^c$ is
+
+$$
+  \begin{aligned}
+    Spin^c & := Spin \times_{\mathbb{Z}_2} U(1)
+    \\
+    & = (Spin \times U(1))/{\mathbb{Z}_2}
+    \,,
+  \end{aligned}
+$$
+
+where in the second line the action is the diagonal action induced from the two canonical embeddings of subgroups $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$
+and $\mathbb{Z}_2 \hookrightarrow U(1)$.
+
+**Claim** 
+
+We have a [[homotopy pullback]] diagram
+
+$$
+  \array{
+     \mathbf{B} Spin^c &\to& \mathbf{B}U(1)
+     \\
+     \downarrow && \downarrow^{\mathrlap{c_1 mod 2}}
+     \\
+     \mathbf{B} SO &\stackrel{w_2}{\to}&
+     \mathbf{B}^2 \mathbb{Z}_2 
+  }
+  \,.
+$$
+
+**Proof**
+
+We present this as usual by [[simplicial presheaves]] and [[∞-anafunctors]].
+
+The first [[Chern class]] is given by the [[∞-anafunctor]]
+
+$$
+  \array{
+     \mathbf{B}(\mathbb{Z} \to \mathbb{R})
+     &\stackrel{c_1}{\to}&
+     \mathbf{B}(\mathbb{Z} \to 1)
+     = 
+     \mathbf{B}^2 \mathbb{Z}
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     \mathbf{B} U(1)     
+  }
+  \,.
+$$
+
+The second [[Stiefel-Whitney class]] is given by
+
+$$
+  \array{
+    \mathbf{B}(\mathbb{Z}_2 \to Spin)
+    &\stackrel{w_2}{\to}&
+    \mathbf{B}(\mathbb{Z}_2 \to 1)
+    = 
+    \mathbf{B}^2 \mathbb{Z}_2
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B} SO
+  }
+  \,.
+$$
+
+Notice that the top horizontal morphism here is a [[fibration]].
+
+Therefore the [[homotopy pullback]] in question is given by the ordinary pullback
+
+$$
+  \array{
+    Q
+    &\to& 
+    \mathbf{B}(\mathbb{Z} \to \mathbb{R})
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}(\mathbb{Z}_2 \to Spin)
+    &\to&
+    \mathbf{B}^2 \mathbb{Z}_2
+  }
+  \,.
+$$
+
+This pullback is $\mathbf{B}(\mathbb{Z} \stackrel{\partial}{\to} Spin \times \mathbb{R})$, where 
+
+$$
+  \partial : n \mapsto ( n mod 2 , n)
+  \,.
+$$
+
+This is equivalent to 
+
+$$
+  \mathbf{B}(\mathbb{Z}_2 \stackrel{\partial'}{\to} Spin \times U(1))
+$$
+
+where now
+
+$$
+  \partial' : \sigma \mapsto (\sigma, \sigma)
+  \,.
+$$
+
+This in turn is equivalent to 
+
+$$
+  \mathbf{B} (Spin \times_{\mathbb{Z}_2} U(1))
+  \,,
+$$
+
+which is the original definition.
 
 ## Related concepts
+
+* [[spin^c]]
 
 * [[twisted differential c-structures|(twisted, differential) c-structures]]
 
