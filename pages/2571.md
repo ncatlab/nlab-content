@@ -30,7 +30,7 @@ Contemporary set theorists often accept additional [[large cardinal]] axioms, wh
 
 ## Axioms
 
-$ZFC$ is a [[material set theory]], based on a global binary __membership__ [[predicate]] $\in$.  Everything in standard $ZFC$ is a [[pure set]], which we will call simply a set; but there are also variations with [[urelement]]s and [[classes]].  Urelements may be distinguished from sets and classes since they have no elements (although the [[empty set]] also has no elements); sets are usually those classes that are themselves elements (members) of sets.  Urelements are also called *atoms*, and $ZF$ with atoms included is sometimes called $ZFA$ or $ZFU$.
+$ZFC$ is a [[material set theory]], based on a global binary __membership__ [[predicate]] $\in$.  Everything in standard $ZFC$ is a [[pure set]], which we will call simply a set; but there are also variations with [[urelement]]s and [[classes]].  Urelements may be distinguished from sets and classes since they have no elements (although the [[empty set]] also has no elements); sets are usually those classes that are themselves elements (members) of sets.  Urelements are also called *atoms*, and $ZF$ with atoms included is sometimes called [[ZFA]] or $ZFU$.
 
 1.  [[axiom of extensionality|Extensionality]]:  If two sets have the same members, then they are __[[equality|equal]]__ and themselves members of the same sets.  See [[axiom of extensionality]] for variations, such as whether this is taken as a definition or an axiomatisation of equality of sets, and how the condition might be strengthened if (10) is left out.
 
