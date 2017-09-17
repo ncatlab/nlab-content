@@ -3441,17 +3441,14 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 We now discuss the [[Chern-Weil homomorphism]] and its generalization
 to [[connections on an ∞-bundle]].
 
-In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
+We have seen $G$-principal $\infty$-bundles for general $\infty$-groups $G$ and in particular for abelian groups $G$. Naturally, the abelian case is easier and more powerful statements are known about this case. A general strategy for studying nonabelian $\infty$-bundles therefore is to _approximate_ them by abelian bundles. This is achieved by considering [[characteristic class]]es. Roughly, a characteristic class is a map that functorially sends $G$-principal $\infty$-bundles to $\mathbf{B}^n K$-principal $\infty$-bundles, for some $n$ and some abelian group $K$. In some cases such an assignment may be obtained by integration of infinitesimal data. If so, then the assignment refines to one of $\infty$-bundles [[connection on an ∞-bundle|with connection]]. For $G$ an ordinary [[Lie group]] this is then what is called the [[Chern-Weil homomorphism]]. For general $G$ we call it  the [[∞-Chern-Weil homomorphism]].
 
-All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
 
 
 #### Differential characteristic classes
 
-
 A simple motivating example for the [[Chern-Weil homomorphism]]
-is the construction of 
-[[determinant line bundle]]s.
+is the construction of [[determinant line bundle]]s.
 
 +-- {: .un_example}
 ###### Example
@@ -3550,7 +3547,7 @@ $$
   det( g_{i j}^{-1} (1 + \epsilon d) g_{i j}))
 $$
 
-for [[infinitsimal space|infinitesimal]] $\epsilon$, hence
+for [[infinitesimal space|infinitesimal]] $\epsilon$, hence
 
 $$
   A_j = A_i + (det g_{ij})^{-1} d (det g_{i j}) 
@@ -3576,9 +3573,9 @@ natural in $X$. We have
 
 
 
-In Brylinski-MacLaughlin an algorithm is given for contructing
+In <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a> an algorithm is given for contructing
 differential characteristic classes on Cech cocycles in this fashion for 
-more general [[infinit-Lie algebra cohomology|L-infinity algebra cocycles]].
+more general [[Lie algebra cohomology|Lie algebra cocycles]].
 
 For instance they give the following construction
 
@@ -3598,32 +3595,34 @@ Then for $(g_{i j}, A_i)$ a Cech cocycle for an $Spin(N)$-[[principal bundle]] [
 1. pick a lift of the original cocycle to an assignment 
 
    * of based paths in $SO(N)$ to double intersections 
-     $\hat g_{i j} : U_{i j} \to [\Delta^1, Spin(N)]$, with
+     $\hat g_{i j} : U_{i j}\times \Delta^1 \to Spin(N)$, with
      $\hat g_{i j}(0) = e$ and $\hat g_{i j}(1) = g_{i j}$;
 
    * of based 2-simplices between these paths to triple intersections
-     $\hat g_{i j k} : U_{i j k} \to [\Delta^2, Spin(N)]$;  lifting these paths in the obvious way;
+     $\hat g_{i j k} : U_{i j k}\times \Delta^2 \to Spin(N)$;  lifting these paths in the obvious way;
 
    * similarly of based 3-simplices between these paths to quadruple intersections
-     $\hat g_{i j k l} : U_{i j k l} \to [\Delta^3, Spin(N)]$;  
+     $\hat g_{i j k l} : U_{i j k l}\times \Delta^3 \to Spin(N)$;  
 
   Such lifts always exists, because the Spin group is [[connected]], [[simply connected]] and also has $\pi_2(Spin(N)) = 0$.
 
 1. Define from this a Deligne-cochain by setting
 
    $$
-     (
-       \int_{\Delta^3} (\sigma_i \cdot\hat g_{i j k l})^* \mu(\nabla), 
-       \int_{\Delta^2} (\sigma_i\cdot \hat g_{i j k})^* cs(\nabla),
-       \int_{\Delta^1} (\sigma_i \cdot \hat g_{i j})^* cs(\nabla),
+     (g_{i j k l}, A_{i j k}, B_{i j}, C_{i})
+     :=
+     (\;
+       \int_{\Delta^3} (\sigma_i \cdot\hat g_{i j k l})^* \mu(\nabla),\;\; 
+       \int_{\Delta^2} (\sigma_i\cdot \hat g_{i j k})^* cs(\nabla),\;\;
+       \int_{\Delta^1} (\sigma_i \cdot \hat g_{i j})^* cs(\nabla),\;\;
        \sigma_i^* \mu(\nabla)
-     )
+     \;)
      \,,
    $$
 
    where 
 
-   1. $ce(\nabla)$ is the [[Chern-Simons form]] of the connection $\nabla$ with respect to $\mu$;
+   1. $cs(\nabla)$ is the [[Chern-Simons form]] of the connection $\nabla$ with respect to $\mu$;
 
    1. $\sigma_i$ are the trivializaing sections of the total space bundle that exhibit the trivialization with respect to which the Cech cocycle is given.
 
@@ -3642,6 +3641,11 @@ In the following we want to use the construction of the $\infty$-Chern-Weil homo
 
 
 #### $\infty$-Chern-Simons functionals
+
+In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
+
+All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
+
 
 If we express $G$ by [[Lie integration]] of an [[∞-Lie algebra]] $\mathfrak{g}$, then the basic $\infty$-Chern-Weil homomorphism is modeled by composing an $\infty$-connection $(A_{vert}, A, \langle F_A\rangle)$ with the transgression of an invariant polynomial $(\mu, cs, \langle - \rangle)$ as follows
 
