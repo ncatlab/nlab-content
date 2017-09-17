@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _conformal structure_ on a [[manifold]] is the structure of a [[Riemannian metric]] modulo rescalings of the metric tensor by some function.
+
+## Related concepts
+
+* [[CFT]]
+
+## References
+
+* David Gu, _Conformal structure_ ([pdf](http://www.cs.sunysb.edu/~gu/lectures/lecture_2_conformal_structure.pdf))
+
+
+
+[[!redirects conformal structures]]
