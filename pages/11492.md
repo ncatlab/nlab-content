@@ -1,0 +1,7 @@
+
+* [homepage](http://homepages.vub.ac.be/~rkieboom/)
+
+category:people
+
+[[!redirects R.W. Kieboom]]
+[[!redirects R. Kieboom]]
