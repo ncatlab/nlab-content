@@ -33,7 +33,7 @@ A proposal for formalizing the [[category theory|abstract nonsense]] behind the 
 
 Lawvere observed that a simple yet powerful characterization of the notion of _infinitesimal space_ $D$ is that $D$ is an [[object]] in a [[topos]] $\mathcal{T}$ of [[space]]s such that the [[inner hom]] [[functor]] $(-)^D : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]].
 
-If the [[topos]] in question furthermore is equipped with a [[lined topos|line object]] $R$ that plays the role of the _real line_ $\mathbb{R}$ then a sensible notion of _infinitesimal quantities_ in $R$ is obtained when all [[morphism]]s $D \to R$ from infinitesimal spaces $D$ are necessarily _linear_ maps. This is now known as the [[Kock-Lawvere axiom]] on [[lined topos]]es $(\mathcal{T}, R)$. When it is satisfies $(\mathcal{T}R)$ is called a [[smooth topos]]. The study of these is known as [[synthetic differential geometry]].
+If the [[topos]] in question furthermore is equipped with a [[lined topos|line object]] $R$ that plays the role of the _real line_ $\mathbb{R}$ then a sensible notion of _infinitesimal quantities_ in $R$ is obtained when all [[morphism]]s $D \to R$ from infinitesimal spaces $D$ are necessarily _linear_ maps. This is now known as the [[Kock-Lawvere axiom]] on [[lined topos]]es $(\mathcal{T}, R)$. When it is satisfied, $(\mathcal{T}, R)$ is called a [[smooth topos]]. The study of these is known as [[synthetic differential geometry]].
 
 The notion of infinitesimal object and infinitesimal space then makes sense in any [[smooth topos]], and may be reasoned about generally for all smooth toposes. In any concrete [[Models for Smooth Infinitesimal Analysis|model]] for the axioms there will accordingly be concrete realizations of these infinitesimal objects.
 
