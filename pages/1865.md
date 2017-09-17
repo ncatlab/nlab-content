@@ -123,12 +123,16 @@ See the reference [below](BunkeSchickReferences).
 
 ## The Hopkins-Singer model
 
+see
+
+* [[differential function complex]]
+
 ...
 
 
 ## Examples 
 
-* In [[gauge theory]] gauge fields are modeled by cocycles in [[differential cohomology]]. The field modeled by differential K-theory is the [[RR-field]]. 
+* In [[gauge theory]] gauge fields are modeled by cocycles in [[differential cohomology]]. The field modeled by differential K-theory is the [[RR-field]]. A kind of [[integral transform]] acting on differential K-theory classes is [[T-duality]].
 
 
 ## References
