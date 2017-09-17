@@ -131,3 +131,5 @@ on the concept of closed categories.
 [[!redirects biclosed monoidal categories]]
 [[!redirects left closed monoidal categories]]
 [[!redirects right closed monoidal categories]]
+[[!redirects closed symmetric monoidal structure]]
+[[!redirects closed monoidal structure]]
