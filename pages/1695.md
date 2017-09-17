@@ -1,27 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### Mapping space
-+--{: .hide}
++-- {: .hide}
 [[!include mapping space - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A _loop space_ is a [[loop space object]] in [[Top]].
+A _loop space_ is a [[loop space object]] in [[Top]], or a [[mapping space]] from the [[circle]], a space of [[loop]]s.
 
 
 ## Definition
@@ -54,6 +52,7 @@ $$\array{
 
 with basepoint provided by the right vertical arrow. 
 
+
 ## Properties
 
 ### Homotopy-associative structure
@@ -76,11 +75,11 @@ The modern study of the question "when can an H-space be [[delooping|delooped]]?
 +-- {: .un_theorem}
 ###### Theorem
 
-An [[H-space]] $X$ admits a delooping if and only if the [[monoid]] $\pi_0(X)$ induced from the H-space structure is a [[group]], and the H-space $X$ structure can be extended to a structure of [[algebra over an operad]] over [[Jim Stasheff|Stasheff]]'s [[A-∞ operad]] $K$. 
-
+An [[H-space]] $X$ admits a delooping if and only if the [[monoid]] $\pi_0(X)$ induced from the H-space structure is a [[group]], and the H-space $X$ structure can be extended to a structure of [[algebra over an operad]] over [[Jim Stasheff|Stasheff]]'s [[A-∞ operad]] $K$.
 =--
 
 This is due to ([Stasheff](#Stasheff)). The analogous statement holds true in every [[(∞,1)-topos]] other than [[Top]]. Details on this more general statement are at [[loop space object]] and at [[groupoid object in an (∞,1)-category]].
+
 
 ### Local homotopy properties ###
 
@@ -88,15 +87,13 @@ Let the space $X$ be [[locally connected space|locally 0-connected]] and [[semi-
 
 In general, if $X$ is locally $n$-[[n-connected space|connected]], $\Omega X$ is locally $(n-1)$-connected. This process can obviously be iterated up to $n$ times, so that $\Omega^n X$ is locally 0-connected. This can be weakened to locally $(n-1)$-connected and semi-locally $n$-connected: this is just like the $n=1$ case but replacing $\pi_1$ with $\pi_n$ (as was done in the previous paragraph with $\pi_2$). We will actually define a space to be semi-locally $n$-connected to include the condition that it is locally $(n-1)$-connected. This result was proved for more general mapping spaces $X^P$ and various subspaces when $X$ is Hausdorff and $P$ a finite [[polyhedron]] in ([Wada](#Wada)) but a much simpler and direct proof for general $X$ and $P = I$ or $P= S^1$ is possible.
 
-+--{: .standout}
-[[David Roberts]]: The following claim is conjectural, but for $n=2$ it is in my thesis. $n=1$ has been known for ages - I don't know where it was first, but it is in Ronnie Brown's topology textbook.
-=--
-
 +-- {: .un_theorem}
-###### Theorem
+###### Conjecture
 
 The fundamental $n$-groupoid of a space $X$ ([[Trimble n-category|Trimblean]] for choice) can be topologised to be an internal $n$-groupoid in $\Top$ when $X$ is semi-locally $n$-connected. Furthermore, the homotopy groups of the $n$-groupoid, _a priori_ topological groups, are discrete.
 =--
+
+For $n=2$, this is in [[David Roberts]]\'s thesis.  For $n=1$, it has been known for ages and is in [[Ronnie Brown]]\'s topology textbook.
 
 
 ## Models
@@ -115,6 +112,7 @@ between the [[model structure on simplicial groups]] and the [[model structure o
 
 See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more details.
 
+
 ## Related concepts
 
 * [[loop space object]], [[free loop space object]],
@@ -123,11 +121,9 @@ See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more
 
   * **loop space**, [[free loop space]], [[derived loop space]]
 
-
 * [[suspension object]]
 
   * [[suspension]]
-
 
 
 ## References
@@ -146,6 +142,8 @@ The simplicial loop group functor is discussed in chapter V, section 5 of
 
 See also the references at [[looping and delooping]].
 
+
+[[!redirects loop space]]
 [[!redirects loop spaces]]
 
 [[!redirects based loop space]]
