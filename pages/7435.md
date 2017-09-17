@@ -22,9 +22,10 @@ A generalization of the notion of [[trace]] in a [[monoidal category]] to a [[bi
 
 The following traditional notions of "traces" turn out to be special cases of bicategorical traces
 
-* [[Reidemeister trace]]
+* All symmetric monoidal traces, such as the [[Lefschetz number]].
 
-  hence [[Lefshetz numbers]], [[Nielsen numbers]]
+* The [[Reidemeister trace]].
+
 
 ## References
 
