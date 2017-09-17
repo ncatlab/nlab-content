@@ -1,4 +1,7 @@
 
+{:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -6,25 +9,35 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
 =--
 =--
 
 
-> under construction
+
+> under construction -- this page originates in notes prepared for a talk at _[CUNY workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, New York, 2014
 
 #Contents#
 * table of contents
 {:toc}
 
-**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[bundles]] and [[differential cohomology]] which has realizations not just in [[higher differential geometry]] but also in [[higher arithmetic geometry]] in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
++-- {: bluebox}
+
+**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[differential cohomology]] which has realizations not just in [[higher differential geometry]] but also in [[higher complex analytic geometry]] and moreover in [[higher arithmetic geometry]] in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
+
+=--
 
 ## Motivation
 
 A fruitful approach to mathematical theory is what might be called "inter-geometric", meaning that definitions and theorems make sense and hold when interpreted in different flavors of geometry. Examples are the [[GAGA principle]], the [[function field analogy]], the [[geometric Langlands correspondence|geometric]] [[Langlands correspondence]] and absolute [[F1]]-geometry. While in these examples the [[analogy]]  between different theories of geometry has been established case-by-case, there is by and large no meta-theory which would systematically imply the analogy. 
 
-This is of practical concern for instance in the [[Langlands program]], where it is an open problem how the methods and insights which are deeply on the side of [[complex analytic geometry]], such as involving [[mirror symmetry]], might have incarnations on the [[arithmetic geometry]]-side. And vice-versa, the complex-analytic version of the conjecture was obtained by educated guessing via analogy from the arithmetic side in the first place, but this guesswork has been questioned ([[Problems in the theory of automorphic forms -- 45 years later|Langlands 14]]). Both of these issue would be resolved if one had an "inter-geometric" from which the correspondence both in [[arithmetic geometry]] and in [[complex-analytic geometry]] would both follow by restriction.
+This is of practical concern for instance in the [[Langlands program]], where it is an open problem how the methods and insights which are deeply on the side of [[complex analytic geometry]], such as involving [[mirror symmetry]], might have incarnations on the [[arithmetic geometry]]-side. And vice-versa, the complex-analytic version of the conjecture was obtained by educated guessing via analogy from the arithmetic side in the first place, but this guesswork has been questioned ([[Problems in the theory of automorphic forms -- 45 years later|Langlands 14]]). Both of these issue would be resolved if one had an "inter-geometric" theory from which the correspondence both in [[arithmetic geometry]] and in [[complex-analytic geometry]] would both follow systematically.
 
-Another example, which maybe hasn't been duly recognized as such yet, is the construction of the refined [[Witten genus]] in the guise of the [[string orientation of tmf]]: here what is initially a concept in [[complex analytic geometry|complex analytic]] ([[supergeometry|super]]-)geometry is constructed by passage (via the construction of [[tmf]]) to the [[moduli stack of elliptic curves]] all the way down in [[arithmetic geometry]], and in fact then via the [[fracture theorems]] by its [[base change|base changes]] to [[p-adic geometry]] and to [[rational homotopy theory]] (and further to [[K(n)-local stable homotopy theory]]). There is thus a kind of [[p-adic string theory]] appearing here, which is however not of the kind that existing literature with such title would shed any light on. 
+Another example, which maybe hasn't been duly recognized as such yet, is the construction of the refined [[Witten genus]] in the guise of the [[string orientation of tmf]]: here what is initially a concept in [[complex analytic geometry|complex analytic]] ([[supergeometry|super]]-)geometry is constructed by passage (via the construction of [[tmf]]) to the [[moduli stack of elliptic curves]] all the way down in [[arithmetic geometry]], and in fact then via the [[fracture theorems]] by its [[base change|base changes]] to [[p-adic geometry]] and to [[rational homotopy theory]] (and further to [[K(n)-local stable homotopy theory]]). There is thus a kind of [[p-adic string theory]] (closed string theory!) appearing here, which is however not of the kind that existing literature with such title would shed any light on.
+
 
 **[[quantization of 3d Chern-Simons theory]] and [[holographic principle|holographically]] of the [[WZW-model]]/the [[string]] **
 
@@ -71,7 +84,7 @@ The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[d
 The central idea of the [[Langlands correspondence]] is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the double [[coset space]] 
 
 $$
-  GL_n(K)\backslash GL_n(\mathbb{A}_{K})/GL_n(\mathcal{O}_K)
+  GL_n(K) \;\backslash\; GL_n(\mathbb{A}_{K}) \;/\; GL_n(\mathcal{O}_K)
   \,,
 $$
 
@@ -79,7 +92,11 @@ where $\mathbb{O}_K$ denotes the ring of [[integral adeles]]. In particular for 
 
 
 $$
-  GL_n(\mathbb{Q})\backslash GL_n(\mathbb{A}_{\mathbb{Q}})/GL_n(\mathbb{A}_{\mathbb{Z}})
+  GL_n(\mathbb{Q})
+   \;\backslash\;
+   GL_n(\mathbb{A}_{\mathbb{Q}})
+    \;/\;
+  GL_n(\mathbb{A}_{\mathbb{Z}})
 $$
 
 where 
@@ -90,15 +107,32 @@ where
 
 For the case that $n = 1$ then the left part of this quotient is the _[[idele class group]]_, for higher $n$ this is an object in some nonabelian generalization of [[class field theory]].
 
-The striking observation that leads to the conjecture of the [[geometric Langlands correspondence]] is that  under the [[function field analogy]] this double quotient, as a [[stacky quotient]], is [[analogy|analogous]] to the [[moduli stack of vector bundles]] $Bun_(\Sigma)(GL_n)$ over a [[complex curve]] $\Sigma$ in the specific presentation that is given by the [[Weil uniformization theorem]]. This says that choosing any point $x\in \Sigma$ and a [[formal disk]] $x \in D \subset \Sigma$ around it, then $(D \coprod (\Sigma-\{x\}) \to \Sigma$ is a "good enough [[cover]]", hence by [[Cech cohomology]] we have
+The striking observation that leads to the conjecture of the [[geometric Langlands correspondence]] is that  under the [[function field analogy]] this double quotient, as a [[stacky quotient]], is [[analogy|analogous]] to the [[moduli stack of vector bundles]] $Bun_(\Sigma)(GL_n)$ over a [[complex curve]] $\Sigma$ in the specific presentation that is given by the [[Weil uniformization theorem]]. Namely, this says that choosing any point $x\in \Sigma$ and a [[formal disk]] $x \in D \subset \Sigma$ around it, then 
+
+$$
+  \array{
+     && \Sigma-\{x\}
+     \\
+     &  && \searrow
+     \\
+     && && \Sigma
+     \\
+     & && \nearrow
+     \\
+     && D
+  }
+$$
+
+is a "good enough [[cover]]", hence by [[Cech cohomology]] we have
 
 $$
   \begin{aligned}
-    Bung_X(GL_n)
-      \simeq
-    [X-\{x\}, GL_n] \backslash [D-\{x\}, GL_n] / [D,GL_n]
-      =
-    \mathbb{O}_{\Sigma}[(z-x)^{-1}]  \backslash GL_n(\mathbb{C}((z-x))) / GL_n(\mathbb{C}[ [(z-x)] ])
+    Bun_\Sigma(GL_n)
+      & \simeq
+    [X-\{x\}, GL_n] \;\backslash \;[D-\{x\}, GL_n] \;/\; [D,GL_n]
+      \\
+       & =
+    \mathbb{O}_{\Sigma}[(z-x)^{-1}]  \;\backslash\; GL_n(\mathbb{C}((z-x))) \;/\; GL_n(\mathbb{C}[ [(z-x)] ])
   \end{aligned}
  \,.
 $$
@@ -131,8 +165,24 @@ This is analogous to the [[group of ideles|idelic]] structure of the [[Langlands
 
 * the subring $\mathbb{Z}[p^{-1}] \subset \mathbb{Q}$ of [[rational numbers]] with denominator a power of $p$  is analogous to the subring or [[meromorphic functions]] on $\Sigma$ with possible poles at $x$.
 
+Notice that the [[cover]] of the [[complex curve]] $\Sigma$ involved in the [[Weil uniformization theorem]] is exhibited by the following [[fiber product]] diagram
 
-Indeed, in further support of this [[analogy]] one may see that also the [[p-adic integers]] together with the [[rational functions]] form a "good enough cover" of the "[[F1]]-[[arithmetic curve]]" [[Spec(Z)]]. This is the statement of the [[arithmetic fracture square]]:
+$$
+  \array{
+     && \Sigma-\{x\}
+     \\
+     &  \nearrow && \searrow
+     \\
+     D-\{x\} && && \Sigma
+     \\
+     & \searrow && \nearrow
+     \\
+     && D
+  }
+$$
+
+
+Indeed, in further support of this [[analogy]] one may see that also the [[p-adic integers]] together with the [[rational functions]] form a "good enough cover" of the "[[F1]]-[[arithmetic curve]]" [[Spec(Z)]] of this form. This is the statement of the [[arithmetic fracture square]]:
 
 +-- {: .num_prop #ArithmeticFractureSquare}
 ###### Proposition
@@ -175,7 +225,9 @@ Since the [[ring of adeles]] is the [[rationalization]] of the integral adeles $
 
 =--
 
-This statement immediately lifts to flat finitely generated torsion free [[modules]], involving now the rationalization and the [[completion of modules]].
+
+
+The statement of prop. \ref{ArithmeticFractureSquare} immediately lifts to flat finitely generated torsion free [[modules]], involving now the rationalization and the [[completion of modules]].
 This statement lifts to [[stable homotopy theory]], with [[spectra]] regarded as [[∞-modules]] over the [[sphere spectrum]] $\mathbb{S}$:
 
 +-- {: .num_prop #SullivanArithmeticFracture}
@@ -225,12 +277,12 @@ for modern applications we need a systematic dictionary of the form
 
 To that end, consider the following flavors of geometry.
 
-+-- {: .num_defn #TheSites}
-###### Definition
++-- {: .num_example #TheSites}
+###### Example
 
 Let $S$ denote either of the following [[sites]]:
 
-* $SmoothhMfd$ [[smooth manifolds]];
+* $SmoothMfd$ [[smooth manifolds]];
 
 * $ComplexAnalyticMfd$ [[complex analytic manifolds]];
 
@@ -269,7 +321,7 @@ Write specifically
 +-- {: .num_prop #TheHomotopyTheoriesAreCohesive}
 ###### Proposition
 
-The [[homotopy theories]] $\mathbf{H}$ from def. \ref{TheSites} have the property that there is an [[adjoint quadruple]] of [[derived functors]] ([[(∞,1)-functors]])
+The [[homotopy theories]] $\mathbf{H}$ from example \ref{TheSites} have the property that there is an [[adjoint quadruple]] of [[derived functors]] ([[(∞,1)-functors]])
 
 $$
   \mathbf{H} \stackrel{\longrightarrow}{\stackrel{\hookleftarrow}{\stackrel{\longrightarrow}{\hookleftarrow}}}
@@ -298,7 +350,6 @@ Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that
 +-- {: .num_prop #Structures}
 ###### Claim
 
-
 * the [[shape modality]] $\Pi$ is naturally thought of as sending each [[geometric homotopy type]] $X \in \mathbf{H}$ to its [[fundamental ∞-groupoid]] $\Pi X$ of geometric paths inside it, equivalently to its [[geometric realization]];
 
 * the [[flat modality]] $\flat$ is naturally thought of as sending each [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]] to the [[moduli ∞-stack]] $\flat\mathbbf{B}G$ of $G$-[[flat ∞-connections|principal flat ∞-connections]];
@@ -318,7 +369,7 @@ This is quite a bit of structure, concisely axiomatized by the presence of the [
 +-- {: .num_prop }
 ###### Proposition
 
-For any [[cohesive (∞,1)-topos]] $\mathbf{H}$ over [[∞Grpd]], then its _Goodwillie tangent space_, the [[tangent (∞,1)-category]] $T \mathbf{H}$ of [[parametrized spectrum|parameterized spectrum objects]] in $\mathbf{H}$ is itself a cohesive $(\infty,1)$-topos over bare [[parameterized spectra]], the [[tangent cohesive (∞,1)-topos]]
+For any [[cohesive (∞,1)-topos]] $\mathbf{H}$ over [[∞Grpd]], then its _Goodwillie tangent space_, the [[tangent (∞,1)-category]] $T \mathbf{H}$ of [[parametrized spectrum|parameterized spectrum objects]] in $\mathbf{H}$ is itself a cohesive $(\infty,1)$-topos over bare [[parameterized spectra]] $T \infty Grpd$ -- the _[[tangent cohesive (∞,1)-topos]]_:
 
 $$
   T \mathbf{H}
@@ -373,7 +424,7 @@ is homotopy exact in that
 
 =--
 
-In view of claim \ref{Structures}:
+In view of claim \ref{Structures} the hexagon has the following interpretation:
 
 $$
   \array{
@@ -389,58 +440,100 @@ $$
   }
 $$
 
+Hence via the axiomatics of cohesion we recognize _every_ stable cohesive homotopy type as a [[generalized (Eilenberg-Steenrod) cohomology theory|generalized]] [[differential cohomology]] theory. 
+
+More generally:
+
++-- {: .num_prop }
+###### Proposition
+
+
+Let 
+
+$$
+  \left[
+   \array{
+    \hat E
+    \\
+    \downarrow
+    \\
+    Pic(\hat E)
+   }
+  \right]
+  \in 
+   T \mathbf{H}
+$$
+
+be a parameterized spectrum object, and 
+
+$$
+  \left[
+   \array{
+    0
+    \\
+    \downarrow
+    \\
+    X
+    }
+  \right]
+  \in 
+   T \mathbf{H}
+$$
+
+an unstable homotopy type, then the [[mapping stack]]
+
+$$
+  \array{
+    [X,\hat E]
+  }
+$$
+
+is the bundle of spectra which over a twist 
+$\tau \colon X \to Pic(\hat E)$ is the $\tau$-twisted $\hat E$-cohomology of $X$.
+
+=--
+
+See [here](tangent+cohesion#Cohomology).
+
+So [[cohesion]] faithfully axiomatizes twisted differential generalized cohomology. 
+
+In order to find an "inter-geometric" [[Weil uniformization theorem]] for this we need however to add another axiom, one that makes [[infinitesimal objects]] such as [[formal disks]] appear explicitly. 
+
+To that end, consider again first an example
 
 +-- {: .num_example #ComplexAnalyticDifferentialCohesion}
 ###### Example
 
-Let
+Let $S_{reduced} \hookrightarrow S \longrightarrow S_{infinitesimal}$ be one of the following [[fiber sequences]] of sites
 
-* $CplMfd$ be the [[site]] of [[complex analytic manifolds]] with the standard [[open cover]] topology
+* $SmoothMfd \hookrightarrow FormalSmoothMfd \longrightarrow FormalPts$ 
 
-* $InfPt$ the site of [[infinitesimally thickened points]] with the trivial topology;
+* $ComplexAnalyticMfd \hookrightarrow FormalComplexAnalyticMfd \longrightarrow FormalPts$ 
 
-* $CplMfd_{sd}$ the site of [[formal manifold|formal]] complex analytic manifolds with the local product topology.
-
-The evident projection and inclusion functors then form a 
-[[fiber sequence]] of 1-categories
-
-$$
-  CplMfd \longleftarrow CplMfd_{sd} \longleftarrow InfPt
-  \,.
-$$
+where $FormalPts$ is the site of [[infinitesimally thickened points]] with the trivial topology;
  
 Under forming [[hypercomplete (∞,1)-topos|hypercomple]] [[(∞,1)-sheaf (∞,1)-topos]] this yields
 
+$$ 
+  \array{
+    \mathbf{H}_{reduced} &\hookrightarrow& \mathbf{H}
+    &\longrightarrow& \mathbf{H}_{infinitesimal}
+    \\
+    ComplexAnalytic\infty Grpd 
+    & \longrightarrow & FormalComplexAnalytic\infty Grpds 
+    & \longrightarrow & 
+    Infinitesimal\infty Grpd 
+  }
 $$
-  \mathbb{C}Analytic\infty Grpd
-  \longrightarrow
-
-  \mathbb{C}Analytic\infty Grpd_{sd}
-  \longrightarrow
-  Inf\infty Grpd
-$$
-
-from left to right
-
-* [[complex analytic ∞-groupoids]];
-
-* complex analytic [[synthetic differential ∞-groupoids]]:;
-
-* infinitesimal $\infty$-groupoids
 
 Here the last item is essentially [[formal moduli problems]] but without the condition of $\Gamma(-) = \ast$ and without the condition of [[cohesive (∞,1)-presheaf on E-∞ rings|Lurie-infinitesimal cohesion]] (beware the terminology clash), see at [differential cohesion -- Lie theory](differential+cohesive+%28infinity%2C1%29-topos#LieTheory) for more on this.
 
 =--
 
++-- {: .num_prop #TheDifferentialCohesion}
+###### Proposition
 
-
-
-A _differentially cohesive homotopy theory_ is a geometric homotopy theory -- hence a context for [[higher geometry]]  -- $\mathbf{H}$ which is equipped with an extra structure that axiomatically encodes that the [[homotopy types]] in $\mathbf{H}$ may have [[infinitesimal object|infinitesimal extension]]. 
-
-| $\mathbf{H}_{reduced}$ | $\hookrightarrow$ | $\mathbf{H}$ | $\longrightarrow$ |  $\mathbf{H}_{infinitesimal}$  |
-|---------|---|-------------------|---|------------------|
-| [[cohesion]] |  | [[differential cohesion]] |  | [[infinitesimal cohesion]] |
-| [[moduli ∞-stacks]] |  | [[synthetic differential ∞-groupoids]] |  |  [[formal moduli problems]] |
+In example \ref{ComplexAnalyticDifferentialCohesion} we have
 
 $$
   \mathbf{H}_{reduced}
@@ -450,7 +543,51 @@ $$
   \mathbf{H}_{infinitesimal}
 $$
 
-The cohesive structure is reflected in the existence of a 
+By going back and forth, the [[adjoint quadruple]] on the left induces a further [[adjoint triple]] of [[adjoint modalities]] which we write
+
+$$
+  (\Re \dashv \Pi_{inf} \dashv \flat_{inf})
+  \colon 
+  \mathbf{H} \to \mathbf{H}
+$$
+
+which we call _[[reduction modality]]_ $\dashv$ _[[infinitesimal shape modality]]_ $\dashv$ _[[infinitesimal flat modality]]_ .
+
+Moreover, $\mathbf{H}_{infinitesimal}$ satisfies _[[infinitesimal cohesion]]_ in that for all objects in here the [[points-to-pieces transform]] $\flat \to \Pi$ is an [[equivalence]].
+
+=--
+
+
+| $\mathbf{H}_{reduced}$ | $\hookrightarrow$ | $\mathbf{H}$ | $\longrightarrow$ |  $\mathbf{H}_{infinitesimal}$  |
+|---------|---|-------------------|---|------------------|
+| [[cohesion]] |  | [[differential cohesion]] |  | [[infinitesimal cohesion]] |
+| [[moduli ∞-stacks]] |  | [[synthetic differential ∞-groupoids]] |  |  [[formal moduli problems]] |
+
+Since by prop. \ref{TheDifferentialCohesion} $\mathbf{H}$ is cohesive also over $\mathbf{H}_{infinitesimal}$, this gives _relative_ modalities
+
+$$
+  (\Pi^{rel} \dashv \flat^{rel} \dashv \sharp^{rel})
+  \colon
+  \mathbf{H} \to \mathbf{H}
+  \,.
+$$
+
++-- {: .num_prop }
+###### Proposition
+
+For $\Sigma\in ComplexAnalyticMfd \hookrightarrow ComplexAnalytic\infty Grpd$ then
+
+$$
+  \flat^{rel} \Sigma \simeq \underset{x \in \Sigma}{\coprod} D_{x}
+$$
+
+is the [[disjoint union]] of all [[formal disks]] $D_x \hookrightarrow \Sigma$ around points $x \in \Sigma$.
+
+=--
+
+
+
+In summary, the [[differential cohesion|differential cohesive]] structure is reflected in the existence of a 
 triple of triples of operations that naturally exist on all objects in $\mathbf{H}$:
 
 1. [[cohesion]]
@@ -470,18 +607,19 @@ triple of triples of operations that naturally exist on all objects in $\mathbf{
 
    * relative sharp modality $\sharp^{rel}$ induces synthetic differential moduli stacks of non-flat [[∞-connections]]
 
-1. [[differential cohesion]]
+1. relative [[differential cohesion]]
 
    * [[reduction modality]] $\Re$ removes infinitesimal dimensions;
 
-   * [[infinitesimal shape modality]] $\Pi^{inf}$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
+   * [[infinitesimal shape modality]] $\Pi_{inf}$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
 
-   * [[infinitesimal flat modality]] $\flat^{inf}$ 
+   * [[infinitesimal flat modality]] $\flat_{inf}$ 
 
 
-Notice that this is an axiomatics with many different geometric incarnations. For instance there is an incarnation in [[higher differential geometry]] and one in [[higher complex analytic geometry]]. The point of the axiomatics is that all statements derivable from it at "inter-geometric" in that they hold for all these geometries.
++-- {: .num_example }
+###### Example
 
-One such fact is the following: every $X$ in $\mathbf{H}$ sits in a canonical square
+Every $X$ in $\mathbf{H}$ sits in a canonical square
 
 $$
   \array{
@@ -517,17 +655,19 @@ $$
     \\
     && [\flat^{rel} X, C] && & && C-adeles
   }
-$$
++$$
 
 which is homotopy cartesian.
 
+=--
 
 
-(...)
 
-We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele class group]] etc. have structural analogs in any context of [[differential cohesion]]. We show that specifically in the context of [[complex analytic infinity-groupoid|complex analytic cohesion]] these reproduce the correct analogs of the arithmetic concepts as predicted by the [[function field analogy -- table|function field analogy table]].
+## **3)** $E_\infty$-Arithmetic differential cohomology
 
-## **2)** $E_\infty$-Arithmetic differential cohomology
+Above we found general synthetic axioms for differential cohomology and realization of these axioms in [[higher differential geometry]] and [[higher complex analytic geometry]]. Both turned out to exhibit also _relative_ [[differential cohesion]] over "[[formal moduli problems]]".
+
+While [[higher arithmetic geometry]] is not [[cohesion|cohesive]] over the standard [[base (∞,1)-topos]] [[∞Grpd]], it does turn out to exhibit such a kind of relative [[differential cohesion]] in a way that the corresponding relative [[differential cohomology hexagon]] subsumes the traditional [[arithmetic fracture square]] of prop. \ref{ArithmeticFractureSquare}.
 
 +-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
 ###### Proposition
@@ -563,127 +703,67 @@ where
 
 This is effectively the content of ([[Proper Morphisms, Completions, and the Grothendieck Existence Theorem|Lurie "Completions", section 4]]):
 
++-- {: .num_cor #FractureFromCohesion}
+###### Corollary
 
-
-## Stuff
-
-
-
-+-- {: .num_defn }
-###### Definition
-
-We say that a context of _differential cohesion with compatible infinitesimals_ is a [[homotopy cofiber sequence]] of  [[cohesive (∞,1)-toposes]] 
-
-$$
-  \mathbf{H}_{red}
-  \hookrightarrow
-  \mathbf{H}
-  \longrightarrow
-  \mathbf{H}_{inf}
-$$
-
-such that 
-
-1. the inclusion on the left exhibits [[differential cohesion]] 
-
-1. $\mathbf{H}_{inf}$ has [[infinitesimal cohesion]] (over the [[base (∞,1)-topos]]).
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-
-
-We will mostly just say "differential cohesion" for short. Given any differential cohesion $H_{red} \hookrightarrow \mathbf{H}$ then of course the homotopy cofiber $\mathbf{H}_{inf}$ of the inclusion always exists as an [[(∞,1)-topos]], but conditions under which this is itself cohesive haven't been discussed yet.
-
-=--
-
-
-
-This is ([[schreiber:differential cohomology in a cohesive topos|dcct, section 4.5.1.4]]).
-
-In a context of differential cohesion there are three [[adjoint triples]] of [[modalities]] on $\mathbf{H}$, interlocking with each other. 
-
-+-- {: .num_defn }
-###### Definition
-
-We write
-
-*  $\Pi \dashv \flat \dashv \sharp$ for the global [[shape modality]]$\dashv$[[sharp modality]]$\dashv$[[flat modality]] of the [[cohesion]] of $\mathbf{H}$;
-
-* $Red \dashv \Pi_{inf} \dashv \flat_{inf}$ for the [[reduction modality]]$\dashv$[[infinitesimal shape modality]]$\dashv$[[infinitesimal flat modality]] of the [[differential cohesion]] of $\mathbf{H}$;
-
-* $\Pi_{rel} \dashv \flat_{rel} \dashv \sharp_{rel}$ for the corresponding modalities of the cohesion of $\mathbf{H}$ over $\mathbf{H}_{inf}$.
-
-=--
-
-
-
-
-The main reason why we are interested in cohesion in the present context is that every cohesive stable homotopy type is canonically decomposed into two [[fracture squares]], which we are going to relate to traditional fracture squares and to idelic structures.
-
-+-- {: .num_prop }
-###### Proposition
-
-For $\hat E$ a cohesive [[stable homotopy type]], then it sits in an hexagonal diagram (the _[[differential cohomology hexagon]]_)
+The traditional arithmetic fracture square of prop. \ref{SullivanArithmeticFracture}, regarded as in remark \ref{TwoThirdHexagon}, is the left part of the "[differential cohomology diagram](differential+cohomology+diagram#TheHexagonDiagram)" induced by the [[adjoint modality]] $(\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )$ of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, for the special case that $A = \mathbb{S}$ is the [[sphere spectrum]] and $\mathfrak{a} = (p)$ a [[prime ideal]]
 
 $$
   \array{
-    &&  \Pi_{dR} {\hat E} && \stackrel{\mathbf{d}}{\longrightarrow} && \flat_{dR}{\hat E}
+    &&  \Pi_{\mathfrak{a}dR} X && \stackrel{\mathbf{d}}{\longrightarrow} && \flat_{\mathfrak{a}dR} X 
     \\
-    & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_{\hat E}}} && \searrow
+    & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-    \flat \Pi_{dR} {\hat E}  && && {\hat E} && && \Pi \flat_{dR}  \hat E
+    \flat \Pi_{\mathfrak{a}dR} X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
     \\
-    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{ch_E}}
+    & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
-    && \flat {\hat E} && \longrightarrow && \Pi \hat E
+    && \flat_{\mathfrak{a}} A && \longrightarrow && \Pi_{\mathfrak{a}} A
   }
-$$
-
-where 
-
-1. the diagonals are [[homotopy fiber sequences]] and [[homotopy cofiber sequences]];
-
-1. both squares are [[homotopy pullback]] and [[homotopy pushout]] squares;
-
-1. the two boundary sequences are long [[homotopy fiber sequences]] and [[homotopy cofiber sequences]].
-
-=--
-
-The fracture squares allow to decompose complicated objects into their components.
-It is useful to iterate this and hence to identify cohesion of slices over objects appearing in the hexagon.
-
-+-- {: .num_lemma }
-###### Lemma
-
-Given $X \in \mathbf{H}$ such that $\flat X$ is 0-truncated, then $\mathbf{H}_{/\flat_{rel}X}$ is strongly $\infty$-connected over $(\mathbf{H}_{inf})_{/\flat_{rel}X}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We have an essential geometric morphism given by a composite of [[adjoint
-triples]]
-
-$$
-  \array{
-     \mathbf{H}_{/\flat_{rel}X}
-     &
-       \stackrel{\overset{\Pi_{rel}}{\longrightarrow}}{\stackrel{\overset{Disc_{rel}}{\longleftarrow}}{\underset{}{\longrightarrow}}} 
-     &
-     (\mathbf{H}_{inf})_{/\flat_{rel} X}
-       \stackrel{\overset{\Pi \simeq \Gamma}{\longrightarrow}}{\stackrel{\overset{\eta_X^\ast \circ Disc}{\longleftarrow}}{\underset{}{\longrightarrow}}} 
-  }
-  \infty Grpd_{/\flat X}
   \,,
 $$
 
-where the top pairs come from the formula 
-([here](adjoint+infinity-functor#OnSlices)) for localization of adjunctions to slices, and the bottom one exists in each case by the [[adjoint (∞,1)-functor theorem]],
-since the middle one preserves [[(∞,1)-colimits]] (since colimits in slices are computed on the dependent sums, since $Disc$ preserves colimits, and since pullbacks preserve colimits in an $\infty$-topos).  The fact that two top composite preserves the terminal object follows now by the idempotency of the various adjunctions $\Pi_{rel} \flat_{rel} X \simeq \flat_{rel}X$ and then by [[infinitesimal cohesion]] $\Pi \flat_{rel} X \simeq \flat \flat_{rel} X \simeq \flat X$. Finally using that $\flat X$ is 0-connected, hence a set it follows from $\Pi \ast \simeq \ast$ that the composite right adjoint is fully faithful over over $x\in \flat X$, hence is fully faithful on all of $\infty Grpd$.
+$$
+  \array{
+    &&  localization\;away\;\mathfrak{a} && \stackrel{}{\longrightarrow} && 
+    \\
+    & \nearrow & & \searrow & & \nearrow && \searrow
+    \\
+    \flat \Pi_{\mathfrak{a}dR} X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow
+    \\
+    && \mathfrak{a}\;completion && \longrightarrow && \mathfrak{a}\;torsion\;approximation
+  }
+  \,,
+$$
 
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+The special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} where $A$ is the [[Eilenberg-MacLane spectrum]] of a plain [[commutative ring]], and hence -- by the [[stable Dold-Kan correspondence]] -- the case where $A$-[[∞-modules]] are equivalently [[chain complexes]], has a longer tradition in the existing literature. This we highlight separately [below](#CompletionAndTorsionOnDerivedCategories).
+
+=--
+
++-- {: .num_remark #FracturingOnEInfinityAlgebras}
+###### Remark
+
+By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](completion+of+a+module#Monoidalness)_, the [[adjoint modality]] of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} is by [[monoidal (∞,1)-functors]] on $A Mod$. This means that $(\Pi_{\mathfrak{a}}\dashv \flat_{\mathfrak{a}})$ passes to [[commutative monoid in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]] in $A Mod$, hence to ([[Isbell duality|formal duals of]]) [[E-∞ algebras]], hence to affine [[spaces]] in [[E-∞ geometry]]
+
+$$
+  (\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )  \colon
+  E_\infty Alg_A^{op} \to E_\infty Alg_A^{op}
+  \,.
+$$
+
+Notice that in addition $\Pi_{\mathfrak{a}}$ here preserves [[finite products]]. (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
+[this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing} finite coproducts in $CRing(A Mod)$ are computed in the underlying $A Mod$.
+
+Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine [[E-∞ geometry|E-]]-[[arithmetic geometry]].
+
+=--
+
+***
