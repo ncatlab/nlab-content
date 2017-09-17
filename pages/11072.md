@@ -34,6 +34,10 @@ In [[categorical semantics]] if linear type theory the !-modality typically appe
 As any [[comonad]], the !-modality may be realized as induced from an [[adjunction]]. For more on this see for the moment at _[dependent linear type theory -- The canonical co-modality](dependent+linear+type+theory#TheCanonicalComodality)_ for more.
 
 
+## Related concepts
+
+* [[multiplicative conjunction]]
+
 ## References
 
 ### General
