@@ -63,6 +63,13 @@ The [[sheaf topos]] over this [[site]] is the [[big topos]] version of the  **Za
 +-- {: .un_prop}
 ###### Proposition
 
+The Zariski coverage is [[subcanonical coverage|subcanoncial]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
 Then 
 
 * $CRing_{fp}^{op}$ is the [[syntactic category]] of the [[cartesian theory]] of commutative rings;
@@ -90,3 +97,6 @@ Examples A2.1.11(f) and D3.1.11 in
 [[!redirects Zariski topology]]
 [[!redirects Zariski topos]]
 [[!redirects big Zariski topos]]
+
+[[!redirects theory of local rings]]
+[[!redirects geometric theory of local rings]]
