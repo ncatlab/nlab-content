@@ -143,7 +143,7 @@ Assume in the context of prop. \ref{PresheafQCategories} that
 Then there is a quadruple of [[adjoint functor]]s
 
 $$
-  (u_! \dashv u^* \dashv u_* \dashv u^* \dashv u_*) : 
+  (u_! \dashv u^* \dashv u_* \dashv u^!) : 
   [\bar A, C]
     \stackrel{\overset{u_! = Lan R}{\to}}{\stackrel{\overset{u^* = C^R}{\leftarrow}}{\stackrel{\overset{u_* = C^L}{\to}}{\underset{u^! = Ran L}{\leftarrow}}}}
   [A,C]
