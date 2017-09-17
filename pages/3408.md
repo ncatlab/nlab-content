@@ -6,6 +6,10 @@ In [[constructive mathematics]], we do not use the entire power set but instead 
 
 [^1]: Adding this as a footnote because I am a complete newbie in editing n-Lab pages; anyway, is this assertion correct? For a finite set $X$, the free Boolean algebra is indeed the double power set, but I have my doubts that this is true for a general set. My (informal) reasoning is as follows: Boolean algebras are Boolean commutative rings, so by general arguments, to construct the free Boolean algebra, you construct first the free commutative ring and then quotient it to make it Boolean. Now the free commutative ring is just the ring of polynomials with integer coefficients. If you quotient by the idempotent relation, then you get polynomials with coefficients in the (unique) Boolean field and with all exponents $1$. But a straight comparison via the singleton inclusion, shows that this set is much smaller than the double power set. Can anyone correct, either me or the page?
 
++--{: .query} [[Tim Porter]] Can I suggest you ask this on the forum?  It is much more likely to get attention there than here. It would also be good to know who you are!!! 
+
+=--
+
 category: category
 
 [[!redirects BoolLat]]
