@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[G-structure]] one may ask if it is "integrable" in that a certain [[torsion]] vanishes.
+
+For instance 
+
+* an $GL(n,\mathbb{C}) \to GL(2n)(\mathbb{R})$-[[G-structure|structure]] is an _[[almost complex structure]]_ and the integrability condition makes it a genuine [[complex structure]].
+
+* am $Sp(n) \hookrightarrow GL(2n)$-[[G-structure|structure]] is an _[[almost symplectic structure]]_ and the integrability condition makes it a genuine [[symplectic structure]].
+
+## References
+
+A general formalization is discussed in section 2.6 of
+
+* [[Dominic Joyce]], _Compact manifolds with special holonomy_, Oxford University Press 2000
+
