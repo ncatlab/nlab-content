@@ -29,7 +29,7 @@ between $X$ and $Y$ in $D$.
 The derived category of an abelian category $\mathcal{A}$
 having enough injectives (or projectives) can be constructed
 as $H^{0}$ of the differential graded category consisting
-of complexes of injective (or projective) objects in $\mathcal{A}$ with morphisms between two complex $X$ and $Y$ being the Hom-complex from $X$ to $Y$. One can check that
+of complexes of injective (or projective) objects in $\mathcal{A}$ with morphisms between two complexes $X$ and $Y$ being the Hom-complex from $X$ to $Y$. One can check that
 $H^{0}$ of the Hom-complex between $X$ and $Y$ is precisely
 homotopy classes of chain maps from $X$ to $Y$. 
 
