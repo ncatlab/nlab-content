@@ -983,8 +983,14 @@ Fund. Math., 106(2):141-152, 1980.
 
 Geometric realization of general [[Cech nerve]]s is discussed in
 
-* [[Dan Dugger]], D. C. Isaksen, _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 667{689.
+* [[Dan Dugger]], D. C. Isaksen, _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 
 {#DuggerIsaksen}
+
+The behaviour of fibrations under geometric realization and the preservation of [[homotopy pullback]]s under geometric realization is discussed in
+
+* D. Anderson, _Fibrations and geometric realization_ , 
+Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http://projecteuclid.org/euclid.bams/1183541139))
+
 
 ## Refereeing
 
