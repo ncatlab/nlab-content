@@ -139,7 +139,7 @@ According to ([Lawvere 94, p. 6](#Lawvere94)) this unity captures the duality th
 The combination of the above two examples of [Continuum](#ContinuumRepulsionCohesion) and [Mengen](#Mengen) is an [[adjoint triple]] of [[modalities]]
 
 $$
-  \int \;\dashv\; \flat \;\dashv\; \shape
+  \int \;\dashv\; \flat \;\dashv\; \sharp
 $$
 
 [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
