@@ -15,14 +15,20 @@
 
 ## Idea
 
-A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).  Similarly, a __semiring__ has neither negatives nor even zero.
+A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).  Rigs are commonly also called __semirings__, but by analogy with [[semigroup]] it would be more appropriate to use that word for a ring having neither negatives nor even zero, so that is what we will do here.
 
 ## Definition
 
-A _rig_ is a [[set]] $R$ with operations of addition and multiplication, such that
-*  $R$ is a [[monoid]] under multiplication;
-*  $R$ is an [[abelian monoid]] (for a rig) or an abelian [[semigroup]] (for a semiring) under addition;
-*  multiplication distributes over addition.
+A _rig_ is a [[set]] $R$ with binary operations of addition and multiplication, such that
+* $R$ is a [[monoid]] under multiplication;
+* $R$ is an [[abelian monoid]] (for a rig) or an abelian [[semigroup]] (for a semiring) under addition;
+* multiplication distributes over addition, i.e. the distributivity laws hold:
+  $$x\cdot (y+z) = (x\cdot y) + (x\cdot z)$$
+  $$(y+z)\cdot x = (y\cdot x) + (z\cdot x)$$
+  and also the absorption/annihilation laws, which are their nullary version:
+  $$0\cdot x = 0 = x\cdot 0$$
+
+In a ring, absorption follows from distributivity, since $0\cdot x + 0\cdot x = (0+0)\cdot x = 0\cdot x$ and we can cancel one copy to obtain $0\cdot x = 0$.  In a [[rig]], however, we have to assert absorption separately.
 
 More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[abelian group]]s, so a rig is a monoid object in abelian monoids and a semiring is a monoid object in abelian [[semigroup]]s.
 
@@ -30,7 +36,7 @@ Equivalently, a semiring is the [[hom-set]] of of a [[semicategory]] with a sing
 
 ### Further weakening
 
-As with rings, one sometimes considers non-associative or non-unital versions (where multiplication may not be [[associative]] or may have no [[identity]]).  It is rarer to remove requirements from addition as we have done here.  But notice that while $R$ can be proved (from the other axioms) to be an [[abelian group]] under addition (and therefore a ring) as long as it is a [[group]], this argument does not go through if it is only a monoid.
+As with rings, one sometimes considers non-associative or non-unital versions (where multiplication may not be [[associative]] or may have no [[identity]]).  It is rarer to remove requirements from addition as we have done here.  But notice that while $R$ can be proved (from the other axioms) to be an [[abelian group]] under addition (and therefore a ring) as long as it is a [[group]], this argument does not go through if it is only a monoid.  If we assert only distributivity on one side, however, then we can have a noncommutative addition; see [[near-ring]].
 
 ## Properties
 
@@ -57,13 +63,15 @@ Some rigs which are neither rings nor distributive lattices include:
 
 ## Related concepts
 
+* [[ring]], [[near-ring]]
+
 * [[tropical geometry]]
 
 * [[tropical semiring]]
 
 * [[idempotent semiring]]
 
-* A [[categorification]] of the notion of rig is the notion of [[bimonoidal category]].
+* A [[categorification]] of the notion of rig is the notion of [[rig category]], or more generally [[colax-distributive rig category]].  See also [[2-rig]] and [[distributivity for monoidal structures]].
 
 * [[semi-monoid]]/[[semi-group]]
 
@@ -73,7 +81,7 @@ Some rigs which are neither rings nor distributive lattices include:
 
 ## References
 
-* Jonathan S. Golan,_Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
+* Jonathan S. Golan, _Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
 * [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv:
 1108.2874](http://arxiv.org/abs/1108.2874)
 * wikipedia [semiring](http://en.wikipedia.org/wiki/Semiring)
