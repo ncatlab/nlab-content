@@ -5,6 +5,8 @@ For example:
 
 * [[differentiable manifold]]
 
+* [[microlinear space]]
+
 * [[smooth space]]
 
 [[!redirects differentiable spaces]]
