@@ -20,6 +20,8 @@ $$
 
 An amount of any chemical substance which contains precisely this number of [[molecule]]s is called a **mole** of substance. So in particular, by definition, a mole of $C^{12}$ is precisely of weight $12 g$.
 
+Attempts to define the SI unit of mass, i.e. the kilogram, in terms of invariant and basic physical concepts generally involve trying to measure Avogadro's number at increasing levels of accuracy. As with the speed of light, once the measurement of this derived quantity (taking the kilogram as the mass of certain reference kilogram cylinders) reaches a certain threshold of accuracy, it will make sense to specify Avogadro's number exactly and then derive the units of mass.
+
 Of course the choice of $12 g$ of $C^{12}$ is entirely arbitrary and just serves as some example of a typical laboratory-scale macroscopic quantity.
 
 Accordingly, later it was found useful to have different such macroscopic reference quantities, for instance the _pound mole_ . For exchanging between these it was found useful to introduce [[unit]]s.
