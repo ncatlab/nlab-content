@@ -94,3 +94,10 @@ For more references see at _[[Hitchin connection]]_.
 
 [[!redirects moduli space of flat connections]]
 [[!redirects moduli spaces of flat connections]]
+
+[[!redirects moduli stack of connections]]
+[[!redirects moduli stacks of connections]]
+
+[[!redirects moduli stack of flat connections]]
+[[!redirects moduli stacks of flat connections]]
+
