@@ -29,6 +29,10 @@ However, despite the existence of this term, quantum cosmology is to a large ext
 
 It has been suggested ([Doering-Isham, section 1](#DoeringIsham)) that the second of the conceptual problems above might have a natural solution in terms of the [[internal logic]] of a [[topos]]-incarnation of the [[space of states]] of a quantum mechanical system. One proposed formalization of this is the notion of a _[[nLab:Bohr topos]]_. While these constructions may have something to them, implications, if any, for actual quantum cosmology are not clear yet.
 
+## Related concepts
+
+* [[no boundary proposal]]
+
 ## References
 
 ### General
