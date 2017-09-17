@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -398,3 +398,10 @@ A formalization of homotopy pullbacks in [[homotopy type theory]] is [[Coq]]-cod
 [[!redirects (∞,1)-pullback]]
 [[!redirects (infinity,1)-pullbacks]]
 [[!redirects (∞,1)-pullbacks]]
+
+[[!redirects (∞,1)-fiber product]]
+[[!redirects (∞,1)-fiber products]]
+
+[[!redirects (infinity,1)-fiber product]]
+[[!redirects (infinity,1)-fiber products]]
+
