@@ -15,7 +15,7 @@
 
 ## Idea
 
-A connected object is a generalisation of the concept of [[connected space]] from [[Top]] to an arbitrary [[category]].
+A connected object is a generalisation of the concept of [[connected space]] from [[Top]] to an arbitrary [[extensive category]]. 
 
 
 ## Definitions
@@ -66,12 +66,41 @@ Note that the proof is not [[constructive mathematics|constructive]], as we have
 
 ## Examples
 
-* Connected objects in [[Top]] are precisely [[connected topological space]]s. 
+* Connected objects in [[Top]] are precisely [[connected topological space|connected topological spaces]]. 
 
 * For a [[group]] $G$, connected objects in the category $G Set$ of [[permutation representation]]s are precisely the ([[inhabited set|inhabited]]) transitive $G$-sets. 
 
 * Objects in a [[locally connected topos]] such as $G$-$Set$ are [[coproduct]]s of connected objects. 
 
+
+## Properties 
+
+* A colimit of a connected diagram of connected objects is connected. This is due to the fact that coproducts in $Set$ commute with _limits_ of connected diagrams. 
+
+* If $X$ is connected and $X \to Y$ is epic, then $Y$ is connected. Proof: certainly $Y$ is not initial, because initial objects in extensive categories are strict. Suppose $Y = U + V$, so that we have an epi $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $U \hookrightarrow U + V$ is epi. This forces $V$ to be initial. 
+
+It need not be the case that products of connected objects are connected. For example, in the topos $\mathbb{Z}$-Set, the product $\mathbb{Z} \times \mathbb{Z}$ decomposes as a countable coproduct of copies of $\mathbb{Z}$. 
+We do have the following partial result, generalizing the case of $Top$. 
+
++-- {: .un_thm} 
+######Theorem 
+Suppose $C$ is a cocomplete $\infty$-extensive category with finite products. Assume that the terminal object is a separator, and that functors of the form $X \times -$ preserve epis. Then a product of finitely many connected objects is connected. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+In the first place, $1$ is connected. For suppose $1 = U + V$ where $U$ is not initial. The two coproduct inclusions $U \to U + U$ are distinct by disjointness of sums. Since $1$ is a separator, there must be a map $1 \to U$ separating these inclusions. We then conclude $U \cong 1$, and then $V \cong 0$ by disjointness of sums. 
+
+Now let $X$ and $Y$ be connected. The two inclusions $i_1, i_2: X \to X + X$ are distinct, so there exists a point $a \colon 1 \to X$ separating them. For each $y \colon 1 \to Y$, the +-shaped object $T_y = (X \times y) \cup (a \times Y)$ is connected (we define $T_y$ to be a sum of connected objects $X \times y$, $a \times Y$ amalgamated over the connected object $a \times y = 1 \times 1 = 1$, i.e., to be a connected colimit of connected objects). We have a map 
+
+$$\phi: \bigcup_{y \colon 1 \to Y} T_y \to X \times Y$$
+
+where the union is again a sum of connected objects $T_y$ amalgamated over $a \times Y$, so this union is connected. The map $\phi$ is epic, because the evident map 
+
+$$\sum_{y \colon 1 \to Y} X \times y \cong X \times \sum_{y \colon 1 \to Y} 1 \to X \times Y$$ 
+
+is epic (by the assumptions that $1$ is a separator and $X \times -$ preserves epis), and this map factors through $\phi$. It follows that the codomain $X \times Y$ of $\phi$ is also connected. 
+=-- 
 
 ## Related concepts
 
