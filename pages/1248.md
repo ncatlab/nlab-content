@@ -111,12 +111,15 @@ That is, each set is strictly smaller in cardinality than its power set.
 
 This interpretation relies on a good relationship between $\leq$ and $=$ on the class of cardinal numbers; in particular, the Cantor--Schroeder--Bernstein theorem that $\leq$ is [[antisymmetric relation|antisymmetric]].  In [[constructive mathematics]], this relationship is lacking, and it is quite possible for two sets to each be strictly smaller than each other in the sense above.  Thanks to Theorem \ref{taylor}, this is not possible for a set and its power set, but it does mean that the interpretation of $\lt$ as relative size is problematic ---indeed almost as problematic as the idea that there are fewer even integers than integers!
 
-[[Paul Taylor]] has argued that the essential value of Cantor\'s Theorem is the lemma, implicit in Cantor\'s proof, that [[Bill Lawvere]] isolated as Theorem \ref{lawvere}.  As the main interpretation of Theorem \ref{cantor} is meaningful only in a specific set-theoretic context (particularly, one where the Cantor--Schroeder--Bernstein theorem holds), it may not survive a 'revolution' that overthrows the primacy of that context.  But Lawvere\'s lemma will survive, since it 'does the work'.  (I\'ll quote Taylor\'s post more directly when I can find a copy again.)
+[[Paul Taylor]] has argued that the essential value of Cantor\'s Theorem is the lemma, implicit in Cantor\'s proof, that [[Bill Lawvere]] isolated as Theorem \ref{lawvere}.  As the main interpretation of Theorem \ref{cantor} is meaningful only in a specific set-theoretic context (particularly, one where the Cantor--Schroeder--Bernstein theorem holds), it may not survive a 'revolution' that overthrows the primacy of that context.  But Lawvere\'s lemma will survive, since it 'does the work' while Cantor\'s theorem 'takes the credit'.  (See [Taylor 2009](#Taylor2009) below for further discussion of 'Lemmas that do the work and Theorems that take the credit'.)
 
 
 ## References
 
-*  On constructivenews, a [discussion](http://groups.google.com/group/constructivenews/browse_thread/thread/5f65c7ac479c15dd) about Theorem \ref{taylor} in the case where $S$ and $V$ are both the set of [[natural numbers]].  (Apparently this fails in certain [[realizability topos]]es.)
+*  Taylor 2009:  On the categories mailing list, Message-ID [E1MJ5TV-00066b-BI@mailserv.mta.ca](http://www.mta.ca/~cat-dist/archive/2009/09-6).
+   {#Taylor2009}
+
+*  On constructivenews, a [discussion](https://groups.google.com/group/constructivenews/browse_thread/thread/5f65c7ac479c15dd) about Theorem \ref{taylor} in the case where $S$ and $V$ are both the set of [[natural numbers]].  (Apparently this fails in certain [[realizability topos]]es.)
 
 
 [[!redirects Cantor theorem]]
