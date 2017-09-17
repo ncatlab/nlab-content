@@ -1,0 +1,57 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The specialization of a context of [[six operations]] $(f_\ast \dashv f^\ast)$, $(f_! \dashv f^!)$ to the case that the "projection formula" $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$ holds naturally in $X,Y$. ([May 05, def. 2.12](#May05))
+
+## Properties
+
+In a Verdier-Grothendieck context, [[dual object in a closed category|duality]] intertwines $f_!$ with $f_\ast$ and $f^!$ with $f^\ast$.
+
+ 
+([May 05, section 3](#May05), [Joshua, corollary 5.4](#Joshua))
+
+## Related concepts
+
+* [[Verdier duality]], [[Grothendieck duality]]
+
+* [[Wirthmüller context]], [[Grothendieck context]]
+
+## References
+
+A general abstract discussion of the axioms and their consequences is in 
+
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+ {#May05}
+
+A fairly general class of implementations is in 
+
+* [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
+ {#Joshua}
+
+[[!redirects Verdier-Grothendieck contexts]]
+
+[[!redirects Grothendieck-Verdier context]]
+[[!redirects Grothendieck-Verdier contexts]]
