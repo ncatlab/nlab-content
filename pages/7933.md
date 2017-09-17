@@ -340,3 +340,5 @@ and the examples of higher Chern-Simons theories in
  {#FiorenzaSchreiber}
 
 [[!redirects higher geometric prequantization]]
+
+[[!redirects extended geometric quantization]]
