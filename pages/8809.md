@@ -55,6 +55,8 @@ In [[gauge field theories]] such as notably [[Chern-Simons theory]], moduli spac
 
 * [[Harder-Narasimhan theorem]]
 
+* [[Koszul-Malgrange theorem]]
+
 ## References
 
 
