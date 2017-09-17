@@ -83,12 +83,13 @@ This is proposition 3.16 in ([SchwedeShipley](#SchwedeShipley)).
 
 
 
-### Lift to Quillen adjunctions on monoids {#LiftToMonoids}
+### Lift to an adjunction on monoids {#LiftToAdjunctionOnMonoids}
 
-We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, a Quillen adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding categories of [[monoid]]s.
+We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, an adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding categories of [[monoid]]s. In the following secton we discuss how this is itself a Quillen adjunction
 
 
 The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). While the left adjoint $L$ will not extend to monoids unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$:
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -190,11 +191,78 @@ This is considered on p. 305 of ([SchwedeShipley](#SchwedeShipley))
 +-- {: .proof}
 ###### Proof 
 
-(...)
+To see that $(L^{mon} \dashv R)$ first notice that a morphism of monoids
+
+$$
+  L^{mon} X \to Y
+$$
+
+is by the definition of coequalizer a morphism of monoids $f : F_C L X \to Y$ satisfying a condition. By the free property of $F_C L X$ this in turn is a morphism $f_1 : L X \to Y$ in $C$ which by $(L \dashv R)$ is a morphism $\tilde f_1 : X \to R Y$ in $C$. So we need to show that the condition satisfied by $f$ is precisely the condition that makes $\tilde f_1$ a morphism of monoids in that
+ 
+$$
+  \array{
+    X \otimes X &\stackrel{\tilde f_1 \otimes \tilde f_1}{\to}& R  Y \otimes R  Y
+    \\
+    \downarrow && \downarrow
+    \\
+    && R ( Y \otimes  Y)
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{\tilde f_1}{\to}& R  Y
+  }
+$$
+
+commutes. We insert the definition of the [[adjunct]] $\tilde f_1$ and the [[lax natural transformation|lax naturality]] square of $R$ to get
+
+$$
+  \array{
+    X \otimes X 
+    &\to&
+    R L X \otimes R L X 
+    &\stackrel{R f_1 \otimes R f_1}{\to}& R  Y \otimes R  Y
+    \\
+    \downarrow && \downarrow &=& \downarrow
+    \\
+    && R(L X \otimes L Y) &\stackrel{R f_1}{\to}& R ( Y \otimes  Y)
+    \\
+    \downarrow && && \downarrow
+    \\
+    X & &\stackrel{\tilde f_1}{\to}&& R  Y
+  }
+  \,.
+$$
+
+
+The [[adjunct]] of the left/bottom composite is
+
+$$
+  L(X\otimes X) \to L X \stackrel{f_1}{\to} Y
+$$
+
+while the adjunct of the top/right composite is that of the diagonal, which is
+
+$$
+  L(X \otimes X) \stackrel{\tilde e}{\to} L X \otimes L X
+  \stackrel{f_1 \otimes f_1}{\to} Y \otimes Y \to Y
+$$
+
+which by the definition of $f$ in terms of its components, this is 
+
+$$
+  L(X \otimes X) \stackrel{\tilde e}{\to} L X \otimes L X
+  \stackrel{f_2}{\to}Y
+  \,.
+$$
+
+The coequalizer property says indeed precisely that these two adjuncts are equal.
 
 =--
 
-For $C$ and $D$ [[monoidal model categories]] we may ask if on their categories of [[monoid]]s exist the corresponding [[transferred model structure]]s, transferred along the [[stuff, structure, property|forgetful]]/[[free functor]] adjunction 
+
+### Lift to a Quillen adjunction on monoids {#LiftToQuillenAdjunctionOnMonoids}
+
+We now describe how the adjunction  $(L^{mon} \dashv R)$ established above becomes a [[Quillen adjunction]] for the [[transferred model structure]]s on the categories of monoids, transferred along the [[stuff, structure, property|forgetful]]/[[free functor]] adjunction 
 
 $$
   (F_C \dashv U_C) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
@@ -207,7 +275,7 @@ For the purposes of the following statement, we define
 +-- {: .un_def #CreatedModelStructure}
 ###### Definition
 
-We say a model category structure on $Mon(C)$ is _created_ by $U_C$ is
+We say a model category structure on $Mon(C)$ is _created_ by $U_C$ if
 
 * it is the [[transferred model structure]];
 
