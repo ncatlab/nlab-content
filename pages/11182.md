@@ -36,7 +36,7 @@ A (partial) **cogerm differential 1-form** on $X$ is a [[partial function]] $\om
 
 * We also have the second differential $\mathrm{d}^2f$, defined by
   $$ \langle \mathrm{d}^2f | c \rangle = (f\circ c)''(0),$$
-  which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *[[cojet differential 1-form]]*.
+  which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *[[cojet differential form|cojet differential 1-form]]*.
 
 * For an example of a cogerm differential form that is not a cojet differential form, let $\langle{\omega|c}\rangle$ be $0$ or $1$ according as $c$ is or is not [[analytic function|analytic]] (say for $X$ the real line).  We do not know any more interesting examples.
 
@@ -51,16 +51,16 @@ A (partial) **cogerm differential 1-form** on $X$ is a [[partial function]] $\om
 
 * Any [[symmetric bilinear form]] on tangent vectors can also be regarded as a [[quadratic form|quadratic]] covector form and therefore a quadratic cogerm form.  In particular, this applies to the [[Riemannian metric|metric]] $g$ on any (pseudo)-[[Riemannian manifold]].  We then have $g = &#273;s^2$ in the algebra of cogerm forms on a Riemannian manifold.
 
-* The *delta function* can also be regarded as a cogerm differential form on $\mathbb{R}$, defined by
+* For any function $f$, we have a cogerm differential form $\Delta f$, defined by $f(x+\mathrm{d}x)-f(x)$.  When $f$ is the [[Heaviside function]], $\Delta f$ is a candidate for the [[Dirac delta function]].
+
+* A somewhat better way to represent the [[Dirac delta function]] as a cogerm differential form is
   $$ \delta =
   \begin{cases}
-    1 &\qquad x \le 0 \lt x+\mathrm{d}x \\
+    \frac{1}{|\mathrm{d}x|} &\qquad x=0 \;and\; \mathrm{d}x\neq 0
     0 &\qquad otherwise.
   \end{cases}
   $$
   In the section on integration below we will see why this deserves the name "delta function".
-
-* More generally, for any function $f$ we have a cogerm differential form defined by $f(x+\mathrm{d}x)-f(x)$.  The delta function is the special case when $f$ is the [[Heaviside function]].
 
 ## The cogerm differential
 
@@ -165,18 +165,6 @@ The genuine integral does not satisfy as general a fundamental theorem of calcul
 $$ \int_c \mathrm{d}f = f(c(b)) - f(c(a))$$
 This can be proven in exactly the same way as the usual FTC for (line) integrals.
 
-Alternatively, we can observe that essentially by definition of $\mathrm{d}f$, the form
-$$ f(x+\mathrm{d}x) - f(x) - \mathrm{d}f $$
-is $o(dx)$.  Therefore, $\int_c \mathrm{d}f = \int_c (f(x+\mathrm{d}x)-f(x))$, and the latter is easily identified with $f(c(b))-f(c(a))$ by looking at partitions tagged by their left endpoint.  Moreover, the latter equation
-$$\int_c (f(x+\mathrm{d}x)-f(x)) = f(c(b))-f(c(a))$$
-holds even if $f$ is not differentiable.  In fact, integration of $f(x+\mathrm{d}x)-f(x)$ (perhaps multiplied by another function $g$) is a sort of [[Riemann-Stieltjes integration]].  In particular, the delta function has its expected properties:
-$$\int_{a}^b f(x) \delta =
-\begin{cases}
-  f(0) &\qquad a\le 0\lt b \\
-  0 & \qquad otherwise.
-\end{cases}
-$$
-
 The restriction of FTC to differentials of functions is fairly natural if we recognize that FTC is a special case of the generalized [[Stokes' theorem]], which is about *exterior* differentials of forms, not the commutative cogerm differential.  It just so happens that if $f$ is a function, then the exterior differential of $f$ regarded as a 0-form agrees with the cogerm differential of $f$ regarded as a cogerm 1-form.
 
 ### Existence of integrals
@@ -265,6 +253,54 @@ where $g(t^*,t_1,t_2) \to 0$ as $t_2-t_1 \to 0$.  Thus, since $\omega$ is Lipsch
 $$ {|\omega(c(t^*_i), \Delta c_i) - \omega(c(t^*_i),\Delta t_i \cdot c'(t^*))|} \lt L \Vert g(t^*,t_1,t_2) \Vert \cdot \Delta t_i. $$
 Since $g(t^*,t_1,t_2) \to 0$ as $t_2-t_1 \to 0$, we can choose gauges to make this difference vanish in the limit, just as we did for integrating $o(dx)$ forms.  But $\omega(c(t^*_i), \Delta c_i)$ and $\omega(c(t^*_i),\Delta t_i \cdot c'(t^*))$ are exactly the terms in the Riemann sums for the affine and genuine integrals.
 =--
+
+### Stieltjes integrals, $\delta$-fuctions, and distributions
+
+An alternative approach to proving FTC would be to observe that essentially by definition of $\mathrm{d}f$, the form
+$$ f(x+\mathrm{d}x) - f(x) - \mathrm{d}f $$
+is $o(dx)$.  Therefore, $\int_c \mathrm{d}f = \int_c (f(x+\mathrm{d}x)-f(x))$ if either exists.  If the latter integral can be calculated using only partitions tagged by their left endpoint, then it is obviously $f(c(b))-f(c(a))$ --- but it is not clear that such partitions suffice.
+
+In the list of examples above, we denoted $f(x+\mathrm{d}x)-f(x)$ by $\Delta f$.  More generally, we might expect that integration of $\Delta f$ (perhaps multiplied by another function $g$) is a sort of [[Riemann-Stieltjes integration]].  However, it is again not clear whether left endpoints suffice.
+
+We can, at least, show that the second definition of the [[Dirac delta function]] has its expected properties.  Recall that this was
+$$ \delta =
+  \begin{cases}
+    \frac{1}{|\mathrm{d}x|} &\qquad x=0 \;and\; \mathrm{d}x\neq 0
+    0 &\qquad otherwise.
+  \end{cases}
+$$
+
++-- {: .un_theorem}
+###### Theorem
+For any function $f:\mathbb{R}\to \mathbb{R}$, if $a\le 0 \le b$ then we have $\int_a^b f(x)\, \delta \,\mathrm{d}x = f(0)$ for the affine integral.
+=--
++-- {: .proof}
+###### Proof
+We define a gauge, denoted $\eta$ (since the letter $\delta$ is already in use) as follows:
+$$\eta(x) =
+\begin{cases}
+  \infty &\qquad x=0\\
+  {|x|} &\qquad x\neq 0.
+\end{cases}
+$$
+Then in any $\eta$-fine tagged partition, $0$ must be the tag of the subinterval containing it.  Therefore, the Riemann sum of $f(x)\, \delta \,\mathrm{d}x$ over any such tagged partition is simply
+$$ f(0) \frac{1}{|\mathrm{d}x|} \mathrm{d}x $$
+where $\mathrm{d}x$ is the width of the subinterval containing $0$.  But this is positive, so the Riemann sum is simply $f(0)$.  Thus, the integral equals $f(0)$.
+=--
+
+One might instead define $\delta$ to be $1$ if $x=0$, so that we would integrate $f(x)\, \delta$ rather than $f(x) \,\delta \,\mathrm{d}x$.  Our choice matches more closely the common informal notation "$\int f(x)\, \delta(x)\,\mathrm{d}x$", although of course here $\delta$ is a function of $\mathrm{d}x$ as well as $x$.  Our choice also gives $\delta$ the usual scaling and precomposition properties, usually written as
+
+$$ \delta(\alpha x) = \frac{\delta(x)}{|\alpha|}$$
+
+$$ \delta(g(x)) = \sum_{g(c)=0} \frac{\delta(x-c)}{|g'(c)|}$$
+
+In our notation, instead of $\delta(g(x))$ we would write $\delta(g(x),\mathrm{d}g)$, which is how we precompose a differential form with a function; the above formulas then follow from $\mathrm{d}g = g'(x)\,\mathrm{d}x$.
+
+Note that $\delta$-functions are usually defined as measures or distributions, which are integrated over *unoriented* regions.  Since our integrals are oriented, we have to specify that $[a,b]$ is traversed left-to-right (as in the notation $\int_a^b$) in order to get $f(0)$ as the answer; if we integrated $\int_b^a$ instead we would get $-f(0)$.
+
+We can, of course, avoid the minus sign by integrating against $\delta\,|\mathrm{d}x|$ instead of $\delta \,\mathrm{d}x$.  (We could also omit the absolute value in the definition of $\delta$, but this would break the usual scaling properties.)
+
+Since we have successfully represented the $\delta$-distribution as a cogerm differential form, one may wonder whether other distributions can also be so represented.  It is unclear to me whether this is possible.  For instance, if $\phi_\epsilon$ are test functions converging to a distribution $\theta$ as $\epsilon\to 0$, we could consider a differential form such as $\theta(x,\mathrm{d}x) = \phi_{\mathrm{d}x}(x)$, but it's not clear whether this would have the right behavior under integration.
 
 
 ## Higher forms
