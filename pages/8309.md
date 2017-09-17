@@ -5,7 +5,7 @@
 
 ## Definition
 
-A __binary function__, or __function of two variables__, is a [[function]] out of a [[product]].
+A __binary function__, or __function of two variables__, is a [[function]] out of a binary [[cartesian product]].
 
 
 ## Related concepts
