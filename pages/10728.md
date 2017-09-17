@@ -1,3 +1,4 @@
+[[!redirects finite CW-complex]]
 
 #Contents#
 * table of contents
