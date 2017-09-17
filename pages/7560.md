@@ -1,14 +1,19 @@
-##Ordinal sum
 
-Ordinal sum is a natural addition on ordered sets and so provides a useful tool when manipulating [[simplicial sets]]. In ordinal sum you 'first put one of the two ordinals and then the other', so that the elements of the second ordinal are all bigger than those in the first one. This gives a neat  [[join of simplicial sets
-|join]]  operation on simplices and also on simplicial sets.
+# Ordinal sums
+* table of contents
+{: toc}
 
-##Ordinals and simplicial sets:
+## Idea
+
+Ordinal sum is a natural addition on ordered sets and so provides a useful tool when manipulating [[simplicial sets]]. In ordinal sum you 'first put one of the two ordinals and then the other', so that the elements of the second ordinal are all bigger than those in the first one. This gives a neat  [[join of simplicial sets|join]] operation on simplices and also on simplicial sets.
+
+
+## Ordinals as simplicial sets
 
 The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite [[total order|totally ordered]] [[set]]s, _including_ the [[empty set]], which we write in this context as
 
 $$
-  [-1] :=  \emptyset
+  [-1] \coloneqq \emptyset
 $$
 
 so that then
@@ -27,16 +32,16 @@ and so on, so that $[n] = \{ 0 \lt \ldots \lt n\}$
 
 This counting is off by one compared to the [[cardinality]] of these sets. 
 
-##Ordinal sum
 
-The monoidal structure on $\Delta_a$ that we are interested in now is, at the level of the sets, just union, but we have to consider the order on that 'union'. If we have $[n]$ and $[m]$, we form the union of the two sets, where we know the order on two elements we keep it, but it we have two elements one, $i$, say, from the $[n]$ and the other, $j$, from $[m]$ we put $i\lt j$.
+## Definition
 
-As an example, consider $[1] = \{ 0 \lt 1\}$ and $[2] =  \{ \overline{0} \lt \overline{1} \lt \overline{2}\}$, where the overlines are just so that we can keep track of where the different elements come from. We form the union of the two sets and the rule says that anything without an overline is less than anything with one.  This gives a linear order
-$$[1]+[2] = \{0 \lt 1\lt \overline{0} \lt \overline{1} \lt \overline{2}\},$$
-which is [[isomorphic]] as a [[poset]] to $[4]$. Similarly $[1]+[1] = [3]$, which helps explain the picture of the related [[join of simplicial sets
-]] given there.
+The monoidal structure on $\Delta_a$ that we are interested in now is, at the level of the sets, just the [[disjoint union]], but we have to consider the order on that union. If we have $[n]$ and $[m]$, we form the union of the two sets, where we know the order on two elements we keep it, but if we have two elements one, $i$, say, from the $[n]$ and the other, $j$, from $[m]$ we put $i \lt j$.
 
-We can thus think of the operation as the **addition of cardinalities**, but must remember that $[n]$ has $n+1$ elements. In terms of the counting 'off-by-one', this reads
+As an example, consider $[1] = \{ 0 \lt 1\}$ and $[2] =  \{\overline{0} \lt \overline{1} \lt \overline{2}\}$, where the overlines are just so that we can keep track of where the different elements come from. We form the union of the two sets and the rule says that anything without an overline is less than anything with one.  This gives a linear order
+$$[1] + [2] = \{0 \lt 1 \lt \overline{0} \lt \overline{1} \lt \overline{2}\},$$
+which is [[isomorphic]] as a [[poset]] to $[4]$. Similarly $[1] + [1] = [3]$, which helps explain the picture of the related [[join of simplicial sets]] given there.
+
+We can thus think of the operation as the **addition of cardinalities**, but must remember that $[n]$ has $n + 1$ elements. In terms of the counting 'off-by-one', this reads
 
 $$
   ([n], [m]) \mapsto [n + m + 1]
@@ -48,7 +53,7 @@ but remember there is also the order to keep track of.
 This operation extends to give the **ordinal sum** structure  on $\Delta_a$ (for details see the discussion in the entry [[simplex category]]) making it a [[monoidal category]], whose product operation is
 
 $$
-  \boxplus: \Delta_a \times \Delta_a \to \Delta_a
+  \boxplus\colon \Delta_a \times \Delta_a \to \Delta_a
 $$
 $$
   ([n], [m]) \mapsto [n + m + 1]
@@ -56,3 +61,5 @@ $$
 $$
 
 
+[[!redirects ordinal sum]]
+[[!redirects ordinal sums]]
