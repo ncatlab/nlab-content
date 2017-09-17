@@ -43,7 +43,7 @@ One gets _local_ projective and _local_ injective model structures by applying l
 
 * the **local injective** (weak equivalences are locally (usually stalkwise) and fibrations are those that have the right [[lifting property]] against the objectwise acyclic cofibrations).
 
-**Warning** Since the (homtopy classes) of weak equivalences do not form a [[small set]], the general existence theorem recalled at [[Bousfield localization of model categories]] does not apply. The existence of the Bousfield localization has to be shown by hand. For the injective structure this is what Joyal and Jardine accomplished.
+**Warning** Since the (homotopy classes) of weak equivalences do not form a [[small set]], the general existence theorem recalled at [[Bousfield localization of model categories]] does not apply. The existence of the Bousfield localization has to be shown by hand. For the injective structure this is what Joyal and Jardine accomplished.
 
 
 Again, the injective and projective local model structures are Quillen equivalent by the identity functors between the underlying categories and hence provide projective and injective versions of the corresponding homotopy theory of [[infinity-stack homotopically|infinity-stacks]].
@@ -52,7 +52,7 @@ In the local injective structure all objects are cofibrant, so that the [[opposi
 
 Both local model structures are proper [[enriched category|simplicially enriched]] categories (*DHI04* [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=6)). 
 
-The _local injective_ model structure on simplicial presheaves models is originally due to Jardine, following the construction of the the Quillen equivalent local [[model structure on simplicial sheaves]] by Joyal. It was only later realized in _DHI04_ as a left [[Bousfield localization]] of the global injective model structure.
+The _local injective_ model structure on simplicial presheaves is originally due to Jardine, following the construction of the Quillen equivalent local [[model structure on simplicial sheaves]] by Joyal. It was only later realized in _DHI04_ as a left [[Bousfield localization]] of the global injective model structure.
 
 
 In between the injective and the projective model structures there are many other model structures obtained by varying the class of generating global cofibrations.
