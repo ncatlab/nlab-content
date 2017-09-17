@@ -11,7 +11,7 @@
 
 ## Idea
 
-Homotopy Kan extensions are models/presentations for [[Kan extension]]s in [[(∞,1)-category]] theory in terms of [[homotopical category]] theory and [[enriched category theory]].
+Homotopy Kan extensions are models/presentations for [[(∞,1)-Kan extension]]s -- i.e. [[Kan extension]]s in an [[(∞,1)-category]] theory -- in terms of [[homotopical category]] theory and [[enriched category theory]].
 
 As a special case they reduce to [[homotopy limit]]s and [[homotopy colimit]]s, which in turn are models for [[limit in a quasi-category|(∞,1)-categorical limits and colimits]].
 
@@ -49,7 +49,7 @@ The following definition is the straightforward evident generalization of this f
 ### Definition
 
 Let $A$ be a [[combinatorial simplicial model category]]. 
-Let $C, C'$ be [[small category|small]] [[sSet]]-[[enriched model categories]]. Write $[C,A]$ and $[C',A]$ for the corresponding [[enriched functor categories]]. Notice that these carry the injective and the projective [[global model structure on functors]] $[C,A]_{inj}$ and $[C,A]_{proj}$, which themselves are combinatorial simplicial model categories.
+Let $C, C'$ be [[small category|small]] [[sSet]]-[[enriched model categories]]. Write $[C,A]$ and $[C',A]$ for the corresponding [[enriched functor categories]]. Notice that these carry the injective and the projective [[model structure on functors]] $[C,A]_{inj}$ and $[C,A]_{proj}$, which themselves are combinatorial simplicial model categories.
 
 Let 
 
@@ -83,18 +83,18 @@ $$
 and 
 
 * $(f_! \dashv f^*)$ is a [[Quillen adjunction]] for 
-  the projective [[global model structure on functors]]
+  the projective [[model structure on functors]]
 
   $$
-    (f_! \dashv f^*) : [C,A]_{proj} \stackre{\to}{\leftarrow} [C',A]_{proj}
+    (f_! \dashv f^*) : [C,A]_{proj} \stackrel{\to}{\leftarrow} [C',A]_{proj}
     \,,
   $$
 
 * $(f^* \dashv f_)$ is a [[Quillen adjunction]] 
-  for the injective [[global model structure on functors]]
+  for the injective [[model structure on functors]]
 
   $$
-    (f^*\dashv f_*) : [C,A]_{inj} \stackre{\to}{\leftarrow} [C',A]_{inj}
+    (f^*\dashv f_*) : [C,A]_{inj} \stackrel{\to}{\leftarrow} [C',A]_{inj}
     \,,
   $$
 
@@ -117,8 +117,6 @@ Now
   $$
 
   is the **homotopy left Kan extension** functor.
-
-Given $F \in [C,A]$ and $G \in [C',A]$ and a morphism $\eta : G \to f_* F$, we say that $\eta$ **exhibits $G$ as a homotopy right Kan extension** of $F$ if for some injectively fibrant replacement $F \to \hat F$ the composite morphism $G \to f_* F \to f_* \hat F$ is a weak equivalence.
 
 For the special case that $C' = *$ we have
 
@@ -149,6 +147,19 @@ The statement of the Quillen adjunctions appears as [[Higher Topos Theory|HTT, p
 
 =--
 
+
++-- {: .un_def}
+###### Definition
+
+Since intrinsically Kan extensions, as every universal construciton, are supposed to be only defined up to weak equivalence, it is sometimes useful to make the extra freedom of choosing any weakly equivalent object explicit by the following definition.
+
+Given $F \in [C,A]$ and $G \in [C',A]$ and a morphism $\eta : G \to f_* F$, we say that $\eta$ **exhibits $G$ as a homotopy right Kan extension** of $F$ if for some injectively fibrant replacement $F \to \hat F$ the composite morphism $G \to f_* F \to f_* \hat F$ is a weak equivalence.
+
+So $f_* \hat F$ here is a homotopy Kan extension as produced by the derived functor, while $G$ may be a more general object, weakly equivalent to it.
+
+=--
+
+
 ### Properties
 
 Recall that for $F : C \to A$ an ordinary [[functor]] between ordinary [[categories]], its ordinary [[limit]] $\lim_\leftarrow F$ is characterized by the fact that for every object $a \in A$ the set $Hom(a, \lim_\leftarrow F)$ is the limit in [[Set]] of the functor $C \to A \stackrel{Hom_A(a,-)}{\to} Set$. So all ordinary limits are determined by limits in [[Set]].
@@ -158,7 +169,7 @@ The analogous statement here is that all homotopy limits are determined by homot
 +-- {: .un_prop}
 ###### Proposition
 
-Let $F \in [C,A]$ and $G \in [C',A]$ be fibrant in the projective [[global model structure on functors]]. Then a morphism $\eta : G \to f_* A$ exhibts $G$ as a homotopy right Kan extension of $F$ precisely if for each cofibrant $a \in A$ -- equivalently for each fibrant-cofibrant $a \in A$ -- the morphism
+Let $F \in [C,A]$ and $G \in [C',A]$ be fibrant in the projective [[model structure on functors]]. Then a morphism $\eta : G \to f_* A$ exhibts $G$ as a homotopy right Kan extension of $F$ precisely if for each cofibrant $a \in A$ -- equivalently for each fibrant-cofibrant $a \in A$ -- the morphism
 
 $$  
   \eta_a : A(a,G(-)) \to f_* A(a,F(-))
