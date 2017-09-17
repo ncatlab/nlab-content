@@ -64,7 +64,7 @@ See also
 
 A comprehensive construction of equivariant stable homotopy theory in terms of [[Mackey functors]] is in the series
 
-* {#GuillouMay11} B. Guillou and [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
+* {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
 
   _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
