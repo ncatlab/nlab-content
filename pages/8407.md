@@ -23,10 +23,59 @@
 
 ## Idea
 
-A [[model (in theoretical physics)]] for [[gravity]] coupled to [[Yang-Mills theory]].
+What is called _Einstein-Yang-Mills theory_  in [[physics]] is the [[theory (physics)|theory]]/[[model (in theoretical physics)]] describing [[gravity]] together with [[Yang-Mills fields]] such as the [[electroweak field]] or the [[strong nuclear force]] of [[quantum chromodynamics]]. For the special case that the [[gauge group]] is the [[circle group]] this reproduces [[Einstein-Maxwell theory]].
+
+Einstein-Yang-Mills theory is a [[local Lagrangian]] [[field (physics)|field]] theory defined by the [[action functional]] which is the [[Einstein-Hilbert action]] plus the [[Yang-Mills action functional]] involving the given metric,
+
+$$
+  S_{G+YM}
+  \;
+   \colon
+  \;
+  (e, \nabla)
+  \mapsto
+  \int_{X} R(e) vol(e)
+  + 
+  \int_X \langle F_\nabla \wedge \star_e F_\nabla\rangle
+  \,,
+$$
+
+where 
+
+* $X$ is the [[compact topological space|compact]] [[smooth manifold]] underlying [[spacetime]], 
+
+* $e$ is the [[vielbein field]] which encodes the [[field (physics)|field]] of [[gravity]] 
+
+* $\nabla$ is the $G$-[[principal connection]] which encodes the [[Yang-Mills field]], 
+
+* $vol(e)$ is the [[volume form]] induced by $e$;
+
+* $R(e)$ is the [[scalar curvature]] of $e$;
+
+* $F_\nabla$ is the [[field strength]]/[[curvature]] [[differential 2-form]] of $\nabla$;
+
+* $\star_e$ is the [[Hodge star]] operator induced by $e$.
+
+* $\langle -,-\rangle$ is the given [[invariant polynomial]] on the [[Lie algebra]] of the [[gauge group]].
 
 ## Related concepts
 
+* [[Einstein-Hilbert action]]
+
 * [[Einstein-Maxwell theory]]
+
+* **Einstein-Yang-Mills theory**
+
+* [[Einsetin-Maxwell-Yang-Mills-Dirac-Higgs theory]]
+
+* [[standard model of particle physics]]
+
+* [[standard model of cosmology]]
+
+## References
+
+Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ in 
+
+* _[[geometry of physics]]_
 
 
