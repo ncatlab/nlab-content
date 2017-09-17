@@ -10,7 +10,7 @@ This entry is about the text
 
 ### 2. affine $k$-schemes
 
-[[I.2, affine k-schemes]]
+[[I.1, k-functors|I.2, affine k-schemes]]
 
 ### 3. closed and open subfunctors; schemes
 
