@@ -5,9 +5,9 @@
 
 ## Idea
 
-In the ordinary language of [[mathematics]], a _theorem_ is an statement which is of interest in its own right and which we know to be true even though it\'s not immediately clear why.  This contrasts with a _lemma_ (which is of interest primarily because of its implications for other statements), a _conjecture_ (which is not known to be true), an _axiom_ (which is obviously true), a _proposition_ (which follows immediately from definitions and axioms), or a _corollary_ (which follows immediately from other known facts).
+In the traditional language of [[mathematics]], a _theorem_ is an statement which is of interest in its own right and which we know to be true even though it\'s not immediately clear why.  This contrasts with a _lemma_ (which is of interest primarily because of its implications for other statements), a _conjecture_ (which is not known to be true), an _axiom_ (which is obviously true), a _proposition_ (which follows immediately from definitions and axioms), or a _corollary_ (which follows immediately from other known facts).
 
-In [[logic]], the only part of this to be formalised is how we know things to be true (formalised by the concept of [[proof]]), so to a logician, *any* proved statement is a theorem.  The term '[[proposition]]', to a logician, means *any* statement and does *not* imply the existence of a proof.  The term '[[axiom]]' is used in a way that somewhat matches its ordinary usage, but an axiom is now a special case of a theorem.  The other terms appear not to be used in logic.
+In [[logic]], the only part of this to be formalised is how we know things to be true (formalised by the concept of [[proof]]), so to a logician, *any* proved statement is a theorem.  (Mathematicians know this meaning too, but still usually reserve the term 'theorem' for important theorems in their published work.)  The term '[[proposition]]', to a logician, means *any* statement and does *not* imply the existence of a proof.  The term '[[axiom]]' is used in a way that somewhat matches its ordinary usage, but an axiom is now a special case of a theorem.  The other terms appear not to be used in logic.
 
 
 ## Definition
