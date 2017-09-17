@@ -39,7 +39,7 @@ Traditionally, though, its fibered aspect is emphasised (and it even motivates t
 
 This functor $cod : [I,C] \to C$ is called the **codomain fibration** of $C$.
 
-Some say **basic fibration** or **self-indexing** or the **fundamental fibration** --- anything with so many names must be important! 
+Some say **basic fibration** or **[[indexed category|self-indexing]]** or the **fundamental fibration** --- anything with so many names must be important! 
 
 If instead of the codomain the domain is used, one obtains the dual notion: [[domain opfibration]].
 
