@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -325,7 +324,7 @@ If a [[category]] $A$ satisfies the following assumptions, sheafification of pre
 
 * $A$ admits small [[limit]]s;
 * $A$ admits small [[colimit]]s;
-* small [[filtered category|filtered limit]]s in $A$ are exact;
+* small [[filtered category|filtered colimit]]s in $A$ are exact;
 * $A$ satisfies the [[IPC-property]] .
 
 This is true for instance for
