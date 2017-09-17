@@ -40,9 +40,9 @@ As any other quantization, the deformation quantization has as an input a descri
 
 ### Existence results
 
-[[Vladimir Drinfel'd]] has sketched a proof (and gave main ingredients) to show that every [[Poisson Lie group]] can be deformation quantized to a [[Hopf algebra]]; this proof has been completed by Etingof and Kazhdan. [[Maxim Kontsevich]] proved a certain *[[Kontsevich formality|formality theorem]]* (formality is here in the sense of [[rational homotopy theory]]) whose main corollary (and motivation) was the statement that every Poisson manifold has a deformation quantization ([Kontsevich 03](#Kontsevich)). 
+[[Vladimir Drinfel'd]] has sketched a proof (and gave main ingredients) to show that every [[Poisson Lie group]] can be deformation quantized to a [[Hopf algebra]]; this proof has been completed by Etingof and Kazhdan. [[Maxim Kontsevich]] proved a certain *[[Kontsevich formality|formality theorem]]* (formality is here in the sense of _[[formal dg-algebra]]_ in [[rational homotopy theory]]) whose main corollary (and motivation) was the statement that every [[Poisson manifold]] has a deformation quantization ([Kontsevich 03](#Kontsevich)). 
 
-For symplectic manifolds, the theory of deformation quantization is much simpler; [[Boris Fedosov]] gave a construction of star products on symplectic manifolds using symplectic connections on smooth manifolds.  An analogous argument was given by [[Roman Bezrukavnikov]] and [[Dmitry Kaledin]] in the context of an algebraic symplectic form.  
+For symplectic manifolds, the theory of deformation quantization is much simpler; [[Boris Fedosov]] gave a construction of [[star products]] on symplectic manifolds using symplectic connections on smooth manifolds.  An analogous argument was given by [[Roman Bezrukavnikov]] and [[Dmitry Kaledin]] in the context of an algebraic symplectic form.  
 
 +-- {: .standout}
 Caution: the following are rough notes from a talk by [[J.D.S. Jones]] (Cambridge, 8.1.2013); there are probably many typos and sign errors.
@@ -54,14 +54,15 @@ Let $M$ be a [[Poisson manifold]] and let $A = C^\infty(M)$ be the [[Poisson alg
 
 +-- {: .num_defn}
 ###### Definition
-A **$\ast$-product** (star product) on $A$ is a product on the power series $A [ [ t ] ]$ that is (1) bilinear over $\mathbb{R}[ [ t ] ]$, (2) associative, and (3) for $a,b \in A$ it can be written out as a formal power series
+A **$\ast$-product** ([[star product]]) on $A$ is a product on the 
+[[power series]] $A [ [ t ] ]$ that is (1) bilinear over $\mathbb{R}[ [ t ] ]$, (2) associative, and (3) for $a,b \in A$ it can be written out as a [[formal power series]]
 \[ a \ast b = \sum_{n=0}^\infty B_n(a,b) t^n \]
 where $B_n$ are bilinear maps on $A$ such that $B_0(a,b) = ab$.
 =--
 
 +-- {: .num_defn}
 ###### Definition
-A (formal) **deformation quantization** of $M$ is a star product on $A = C^\infty(M)$ such that the [[Poisson bracket]] $\{a,b\} = B_1(a,b) - B_1(b,a)$ for $a,b \in A$; by bilinearity over $\mathbb{R}[ [ t ] ]$, this characterizes it.
+A (formal) **deformation quantization** of $M$ is a [[star product]] on $A = C^\infty(M)$ such that the [[Poisson bracket]] $\{a,b\} = B_1(a,b) - B_1(b,a)$ for $a,b \in A$; by bilinearity over $\mathbb{R}[ [ t ] ]$, this characterizes it.
 =--
 
 +-- {: .num_theorem #Kontsevich}
