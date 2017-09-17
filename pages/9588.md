@@ -92,11 +92,6 @@ exhibits the [[chromatic filtration]] in [[chromatic homotopy theory]].
 [[!include chromatic tower examples - table]]
 
 
-### $E_\infty$-algebra structure over $B P$
-
-As an [[A-infinity algebra]] over the [[Brown-Peterson spectrum]] $B P$,
-$E(n)$ is an [[E-infinity algebra]]. (see [Baker, 2.2](#Baker)).
-
 
 
 ### Smash product theorem
