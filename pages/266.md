@@ -623,14 +623,41 @@ $$
 =--
 
 ### Left Kan extensions preserving certain limits
+ {#LeftKanExtensionPreservingCertainLimits}
 
+The following statement says that [[left exact functors]] into [[toposes]] have left exact left Kan extension along the [[Yoneda embedding]] ([[Yoneda extension]]) and that this is the [[inverse image]] of a [[geometric morphism]] of [[sheaf toposes]] of the original functor preserves [[covers]].
 
+(We state this in [[(∞,1)-category theory]], the same statement holds true in plain [[category theory]] by just disregarding all occurences of"$\infty$".)
 
-See 
++-- {: .num_prop #YonedaExtensionOfLeftExact}
+###### Proposition
 
-([Borceux-Day](#BorceuxDay))
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] and let $\mathcal{C}$ be an [[(∞,1)-site]] with [[(∞,1)-sheaf (∞,1)-category]] $Sh(\mathcal{C})$. Then the [[(∞,1)-functor]]
 
-([Karazeris-Protsonis](#KarazerisProtsonis)).
+$$
+  Top(\mathcal{X}, Sh(\mathcal{C}))
+  \simeq
+  Func^{lex, leftadj}(Sh(\mathcal{C}), \mathcal{X})
+  \stackrel{(-)\circ L }{\longrightarrow}
+  Func(PSh(\mathcal{C}), \mathcal{X})
+  \stackrel{(-)\circ Y }{\longrightarrow}
+  Func(\mathcal{C}, \mathcal{X})
+$$
+
+given by precomposition with [[∞-stackification]]/[[sheafification]] $L$ and by the [[(∞,1)-Yoneda embedding]] $Y$ is a [[full and faithful (∞,1)-functor]]. Moreover, its [[essential image]] consisist of those [[(∞,1)-functors]] $f \colon \mathcal{C} \longrightarrow \mathcal{X}$ which are [[left exact (∞,1)-functor|left exact]] and which preserve covers in that for $\{U_i \to X\}_i$ a [[covering]] in $\mathcal{C}$, then $\coprod_i f(U_i) \to f(X)$ is an [[effective epimorphism]] in $\mathcal{X}$.
+
+=--
+
+This appears as [[Higher Topos Theory|Lurie, HTT, prop. 6.2.3.20]].
+
++-- {: .num_remark }
+###### Remark
+
+Prop. \ref{YonedaExtensionOfLeftExact} is a central statement in the theory of [[classifying toposes]]. See there for more.
+
+=--
+
+For more discussion of left exactness properties preserves by left Kan extension see also ([Borceux-Day](#BorceuxDay), [Karazeris-Protsonis](#KarazerisProtsonis)).
 
 ### Kan extension along (op)fibration
  {#AlongFibrations}
