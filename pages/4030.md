@@ -230,11 +230,24 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
 
 ## Examples {#Examples}
 
-* For $X$ a [[topological space]], the [[category of sheaves]] $Sh(X) := Sh(Op(X))$ is a locally connected topos precisely if $X$ is a [[locally connected space]]. The functor $\Pi_0$ sends a sheaf $F \in Sh(X)$ to the set of connected components of the coresponding [[etale space]].
++-- {: .num_example #LocallyConnectedTopologicalSpace}
+###### Example
 
-* For $C = $ [[CartSp]] the [[site]] of [[Cartesian spaces]] with its [[good open cover]] [[coverage]], the topos $Sh(CartSp)$ is locally connected.  An arbitrary $X \in Sh(CartSp)$ is sent to the [[colimit]] $\lim_\to X \in Set$. If $X$ is a [[diffeological space]] or even a [[smooth manifold]], then this is the set of connected components of the underlying topological space.
+For $X$ a [[topological space]], the [[category of sheaves]] $Sh(X) \coloneqq Sh(Op(X))$ is a locally connected topos precisely if $X$ is a [[locally connected space]]. The functor $\Pi_0$ sends a sheaf $F \in Sh(X)$ to the set of connected components of the corresponding [[etale space]].
 
-* Suppose that $C$ is a [[site]] such that constant [[presheaves]] on $C$ are [[sheaves]].  Then the left adjoint $\Pi_0$ exists and is given by the [[colimit]] functor: if we write $L : PSh(C) \to Sh(C)$ for [[sheafification]], then for any sheaf $X$, we have
+=--
+
++-- {: .num_example #SmoothSpaces}
+###### Example
+
+For $C = $ [[CartSp]] the [[site]] of [[Cartesian spaces]] with its [[good open cover]] [[coverage]], the topos $Sh(CartSp)$ of [[smooth spaces]] is locally connected.  An arbitrary $X \in Sh(CartSp)$ is sent to the [[colimit]] $\lim_\to X \in Set$. If $X$ is a [[diffeological space]] or even a [[smooth manifold]], then this is the set of connected components of the underlying topological space.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Suppose that $C$ is a [[site]] such that constant [[presheaves]] on $C$ are [[sheaves]].  Then the left adjoint $\Pi_0$ exists and is given by the [[colimit]] functor: if we write $L : PSh(C) \to Sh(C)$ for [[sheafification]], then for any sheaf $X$, we have
 
   $$
     Hom_{Sh(C)}(X, L Const S)
@@ -249,11 +262,34 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
 
   In particular, this is the case if every covering [[sieve]] in $C$ is connected, i.e. $C$ is a [[locally connected site]].
 
-  If $C$ furthermore has a terminal object $1$, then the global sections functor $\Gamma\colon Sh(C)\to Set$ (the right adjoint of $L Const$) is simply given by evaluation at $1$, and so the unit $S \to \Gamma L Const S \cong L Const S(1)$ is an isomorphism.  Thus in this case $Sh(C)$ is additionally [[connected topos|connected]].  This situation also applies to $C=CartSp$.
+  If $C$ furthermore has a terminal object $1$, then the global sections functor $\Gamma\colon Sh(C)\to Set$ (the right adjoint of $L Const$) is simply given by evaluation at $1$, and so the unit $S \to \Gamma L Const S \cong L Const S(1)$ is an isomorphism.  Thus in this case $Sh(C)$ is additionally [[connected topos|connected]].  This situation also applies to $C=CartSp$ in example \ref{SmoothSpaces} above.
 
 =--
 
++-- {: .num_example }
+###### Example
 
+If $C$ is a category with all [[finite limits]] and if the unique functor $\pi \colon C \to \ast$ to the [[terminal category]] preserves covers (for $\ast$ equipped with the trivial topology/[[coverage]]) then $Sh(C)$ is locally connected. This is because the inclusion of the terminal object $i \colon \ast \to C$ provides a [[right adjoint]] to $\pi$, so that there is an 
+[[adjoint quadruple]] of functors on [[presheaf categories]]
+
+$$
+  (\pi_! \simeq Lan_\pi)  
+    \dashv 
+  (\pi^\ast \simeq i_! \simeq Lan_i) 
+   \dashv 
+  (pi_\ast \simeq i^\ast )
+    \dashv
+  (\pi^! \simeq i_* \simeq Ran_i)
+  \;\colon\;
+  PSh(C) \leftrightarrow PSh(\ast) \simeq Sh(C) \simeq Set
+  \,,
+$$
+
+where $Lan_{(-)}$ and $Ran_{(-)}$ denote let and right [[Kan extension]], respectively. Now if $C \to \ast$ indeed preserves covers and using that $C \to \ast$ trivially preserves finite limits and hence is a [[flat functor]], then by the discussion at _[[morphism of sites]]_ the first three functors here descend to [[sheaves]] and hence exhibit $Sh(C)$ as being locally connected. 
+
+But **beware** that the assumptions here are stronger than they may seem: that $C \to \ast$ preserves covers is not automatic, but is a strong condition. It is violated as soon as $C$ contains an empty object with [[empty set|empty]] cover, such as is the case in most categories of [[spaces]], notably in [[categories of open subsets]] $Op(X)$ of a [[topological space]] $X$, as in example \ref{LocallyConnectedTopologicalSpace}.
+
+=--
 
 ## Related entries
 
