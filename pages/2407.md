@@ -14,7 +14,7 @@
 {: toc}
 
 ## Idea
-__Propositional logic__, also called __$0$th-order logic__ and __sentential logic__, is that part of [[logic]] that deals only with [[propositions]] with no bound variables.  
+__Propositional logic__, also called __$0$th-order logic__ and __sentential logic__, is that part of [[logic]] that deals only with [[propositions]] with no [[bound variables]].  
 
 Compare [[predicate logic]], or $1$st-order logic, and [[higher-order logic]].  Note that while one can have *free* variables in $0$th-order logic, one cannot really do anything with them; each $P(x)$ in a $0$th-order proposition might as well be thought of as atomic.
 
