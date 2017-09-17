@@ -29,3 +29,6 @@
    [[set]]  |  [[groupoid object in an (infinity,1)-category|internal 0-groupoid]]   | [[Bishop set]]/[[setoid]]
  [[universe]] | [[object classifier]] | [[type of types]] 
  [[modality]] | [[closure operator]] [[monad]] | [[modal type theory]], [[monad (in computer science)]]
+ [[linear logic]] | ([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] | [[linear type theory]]/[[quantum computation]]
+ [[proof net]] | [[string diagram]] | [[quantum circuit]]
+ (absence of) [[contraction rule]] | (absence of) [[diagonal]] | [[no-cloning theorem]]
