@@ -60,3 +60,7 @@ $$f_{n+1} = F(f_n) \circ \eta$$
 
 It is easily checked by induction that these maps define a cone from $x$ to the diagram (1), and so we get a map $f: x \to L$. (More later)
 =--
+
+
+[[!redirects terminal coalgebra]]
+[[!redirects final coalgebra]]
