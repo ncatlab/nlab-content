@@ -65,7 +65,7 @@ The framework of dg-categories and dg-functors is too narrow for many problems, 
 From a higher dimensional perspective $A_\infty$-categories are weak $\omega$-categories with all morphisms invertible. $A_\infty$-categories can also be viewed as noncommutative formal dg-manifolds with a closed marked subscheme of objects.
 
 
-### Examples and remarks ##
+### Examples (and remarks) ##
 
 * Every [[dg-category]] may be regarded as a special case when there are no higher maps (trivial homotopies) of an $A_\infty$-category.
 
@@ -80,8 +80,7 @@ From a higher dimensional perspective $A_\infty$-categories are weak $\omega$-ca
   
     * for instance when dealing with a [[Fukaya A-infinity-category|Fukaya]] $A_\infty$-category;
   
-    * or when dealing with various constructions on dg-categories, for instance certain quotients,
-that naturally yield directly $A_\infty$-categories instead of dg-categories.
+    * or when dealing with various constructions on dg-categories, for instance certain quotients,that naturally yield directly $A_\infty$-categories instead of dg-categories.
 
 * The [[path space ]] of a topological space $X$
 
@@ -89,7 +88,7 @@ that naturally yield directly $A_\infty$-categories instead of dg-categories.
 
 * $A_\infty$-[[A-infinity-algebra|algebras]] are the $A_\infty$-categories with one object.
 
-* The [[loop space]] $\Omega{X}$ of a topological space $X$
+  * For example, the delooping $\mathbf{B}\Omega{X}$ of [[loop space]] $\Omega{X}$ of a topological space $X$
 
 
 
