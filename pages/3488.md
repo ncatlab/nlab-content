@@ -175,45 +175,14 @@ For a more exhaustive list of extra structures see
 
 ### Locally $\infty$-connected and $\infty$-connected {#Contractible}
 
-
-By anlogy with the situation for locally connected and [[connected topos]]es discussed [above](#Connected), we may say
-
-+-- {: .un_def}
-###### Definition
-
-A locally $\infty$-connected $(\infty,1)$-topos $\mathbf{H}$ is **$\infty$-conneczted** if $LConst : \infty Grpd \to \mathbf{H}$ is a [[full and faithful (∞,1)-functor]].
-
-=--
-
-+-- {: .un_lemma}
-###### Observation
-
-An $\infty$-connected $(\infty,1)$-topos has the _shape_ of the point, in the sense of [[shape of an (∞,1)-topos]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By a basic property of [[adjoint (∞,1)-functor]]s, $LConst$ being a [[full and faithful (∞,1)-functor]]  is equivalent to the unit of $(LConst \dashv \Gamma)$ being an [[equivalence in a quasi-category|equivalence]]
-
-$$
- Id_{\infty Grpd} \stackrel{\simeq}{\to} \Gamma Lconst
- \,.
-$$
-
-By definition of [[shape of an (∞,1)-topos]] this means that $\mathbf{H}$ has the same shape as [[∞Grpd]], hence the "shape of the point".
-
-=--
-
-Notice also that for a locally $\infty$-connected $(\infty,1)-topos$ that is also an $\infty$-connected $(\infty,1)$-topos the $(\infty,1)$-adjunction
+By analogy with the situation for [[connected topos]]es discussed [above](#Connected), an $(\infty,1)$-topos $\mathbf{H}$ is [[∞-connected (∞,1)-topos|∞-connected]] if and only if the left adjoint $\Pi$ preserves the terminal object.
+In this case, the $(\infty,1)$-adjunction
 
 $$
   \infty Grpd \stackrel{\overset{\Pi}{\leftarrow}}{\hookrightarrow} \mathbf{H}
 $$
 
 exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. We may think then of [[∞Grpd]] as being the [[localization of an (∞,1)-category|localization]] of $E$ at those morphisms that induce equivalences on <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal">intrinsic geometric realizations</a>, hence isomorphisms on _geometric_ [[homotopy groups in an (∞,1)-topos]].
-
 
 
 #### Examples
