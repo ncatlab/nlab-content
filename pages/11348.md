@@ -37,6 +37,17 @@ The [[Podlés spheres]] have KO-dimension 2, but classical dimension 0.
 The spectral [[Kaluza-Klein compactification]] considered in ([Connes 06](#Connes06)) is taken to be along [[fibers]] with KO-dimension 6 and classical dimension 0.
 
 
+## Related concepts
+
+* [[dimension]]
+
+  * [[cohomological dimension]]
+
+  * [[homotopy dimension]]
+
+  * [[covering dimension]]
+
+  * [[Heyting dimension]]
 
 ## References
 
