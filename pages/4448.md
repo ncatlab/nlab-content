@@ -21,7 +21,7 @@ One of the first applications of the Freyd cover was to deduce facts about the i
 
 +-- {: .un_lem}
 ###### Lemma 
-For any category $E$ with a terminal object $\mathbf{1}$, the terminal object of the Freyd cover $\widehat{C}$ is connected and projective, i.e., the representable $\Gamma = \widehat{C}(1, -) \colon \widehat{C} \to Set$ preserves any colimits that exist. 
+For any category $C$ with a terminal object $\mathbf{1}$, the terminal object of the Freyd cover $\widehat{C}$ is connected and projective, i.e., the representable $\Gamma = \widehat{C}(1, -) \colon \widehat{C} \to Set$ preserves any colimits that exist. 
 =-- 
 
 +-- {: .proof} 
