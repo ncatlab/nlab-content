@@ -581,6 +581,8 @@ holds.
 * [[BV quantization]]
 * [[gauge fixing]], [[Gribov ambiguity]]
 
+* [[cosmic Galois group]]
+
 ## References {#References}
 
 ### Traditional physics accounts
