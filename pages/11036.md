@@ -107,7 +107,7 @@ Here there is an identification between the sets of subformula occurrences for t
 1. Unit rules (logical rules for units). There are four of these: 
 $$\frac{}{\displaystyle \; \vdash \mathbf{1}}\; \mathbf{1}_+$$ 
 For $\mathbf{1}_+$, the KM-graph of the conclusion is empty.  
-$$\frac{}{\displaystyle \bot \vdash \; }\; \bot_{-}$$ T
+$$\frac{}{\displaystyle \bot \vdash \; }\; \bot_{-}$$ 
 For $\bot_{-}$, the KM-graph of the conclusion is empty. 
 $$\frac{\displaystyle \delta': \Gamma, \Delta \vdash \Sigma}{\displaystyle \Gamma, \mathbf{1}, \Delta \vdash \Sigma}\; \mathbf{1}_{-}$$ 
 For $\mathbf{1}_{-}$, there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
