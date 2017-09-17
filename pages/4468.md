@@ -55,6 +55,13 @@ The positive predicate on a [[locale]] plays a role in the definition of an [[ov
 Every [[atom]] of $L$ is positive, and indeed an atom is precisely a [[minimal element|minimal]] positive element.
 
 
+## Properties
+
+Although classically trivial, a key property of positivity in the constructive context is this:
+$$ \bigvee A = \bigvee A^+ ,$$
+where $A^+$ is the set of positive elements of $A$.
+
+
 [[!redirects positive element]]
 [[!redirects positive elements]]
 [[!redirects positivity predicate]]
