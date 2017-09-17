@@ -104,6 +104,9 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
     * [[representation of a C-star-algebra]]
 
 
+* [[character]]
+
+
 [[!redirects representation]]
 [[!redirects representations]]
 
