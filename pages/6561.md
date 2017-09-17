@@ -65,7 +65,7 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 The first indication of a 6d theory with a self-dual 2-form field appears in section 1 of 
 
-* [[Edward Witten]], _Some comments on string dynamocs_ ([hepth/9507121](http://arxiv.org/abs/hep-th/9507121))
+* [[Edward Witten]], _Some comments on string dynamics_ ([hepth/9507121](http://arxiv.org/abs/hep-th/9507121))
 
 Surveys include
 
