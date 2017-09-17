@@ -24,6 +24,10 @@ The fixed point of a [[renormalization]]-group (RG) transform applied to a [[fie
 * decreases monotonically with successive RG transforms, and
 * at the fixed point of the RG, is equal to the [[Virasoro algebra|central charge]] of the [[conformal field theory]] which describes that critical point.
 
+[Cardy (1996)](#Cardy1996) observes,
+
+: The $c$-theorem has the interpretation that renormalization group flows go 'downhill'.  In particular, it rules out the existence (for systems satisfying reflection positivity) of limit cycles and other esoteric behaviour in renormalization group flows.  It also severely restricts the possible fixed points to which unstable directions at a given fixed point may flow. ... An appealing physical interpretation of the $[c(g)]$-function is as a kind of entropy of information about the critical system.  Under renormalization, information is lost about the short distance behaviour of the correlation functions.  However, this cannot be taken too literally---for example, even at infinite temperature a block spin transformation results in loss of information about the microstates of the system, yet no renormalization group flow takes place.  Presumably, a more complete interpretation along these lines needs to account for the fact that the central charge is sensitive to only the effectively gapless degrees of freedom.
+
 Attempts to find analogues for the 2D $c$-theorem in higher [[dimensions]] have involved versions of [[holographic principle|holographic duality]] such as the [[AdS/CFT correspondence]].  See [Myers and Sinha (2010)](#Myers2010), [(2011)](#Myers2011).
 
 
@@ -128,6 +132,8 @@ $$\beta^i(g) = -\frac{1}{12} G^{i j}(g) \partial_j c(g).$$
 
 * A. B. Zamolodchikov (1986), _"Irreversibility" of the Flux of the Renormalization Group in a 2-D Field Theory_, JETP Lett. **43**: 730--732. ([pdf](http://www.jetpletters.ac.ru/ps/1413/article_21504.pdf))
   {#Zamolodchikov}
+* J. Cardy (1996), _Scaling and Renormalization in Statistical Physics._ Cambridge Lecture Notes in Physics.
+  {#Cardy1996}
 * J. Cardy (2010), _The Ubiquitous 'c': From the Stefan--Boltzmann Law to Quantum Information_, J.Stat.Mech. **2010**: P10004, ([arXiv:1008.2331](http://arxiv.org/abs/1008.2331))
   {#Cardy2010}
 * R. C. Myers and A. Sinha (2010), _Seeing a $c$-theorem with holography_, Physical Review D **82**: 046006, ([arXiv:1006.1263](http://arxiv.org/abs/1006.1263))
