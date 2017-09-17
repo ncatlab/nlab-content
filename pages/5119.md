@@ -52,7 +52,7 @@ and has $l(1) = 1$ if $m$ is normal.
 
 #### Remark
 
-One of the myriad notations used for the generic modal operators $\diamond$ and $\box$, are $M$ and $L$, whence $M$ is 'possibility, and $L$ is 'necessity", and these gave the names to the operators above.
+One of the myriad notations used for the generic modal operators $\lozenge$ and $\Box$, are $M$ and $L$, whence $M$ is 'possibility, and $L$ is 'necessity", and these gave the names to the operators above.
 
 +-- {: .un_defn}
 ###### Definition
@@ -71,7 +71,7 @@ There is no need in the definition of BAOs to restrict to finitely many operator
 ###### Example
 **BAOs from frames.**
 
-Let $\mathfrak{F} = (W ,R)$ be a frame. We define on the power set Boolean algebra, $\mathbb{P}(W)$, the operator $m$ by, if $T\subseteq $, 
+Let $\mathfrak{F} = (W ,R)$ be a frame. We define on the power set Boolean algebra, $\mathbb{P}(W)$, the operator $m$ by, if $T\subseteq W$, 
     
 $$m(T) = \{w \in W : \exists t\in T, R w t \}$$
   
