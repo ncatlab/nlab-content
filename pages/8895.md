@@ -21,7 +21,7 @@ A _semi-Segal space_ is like a [[Segal space]] but without specified identities/
 
 ## References
 
-The notion is mentiond in 
+The notion is mentioned in 
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
