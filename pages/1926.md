@@ -78,7 +78,7 @@ An **admissibility structure** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[G
 
 * admissible morphisms are stable under [[pullback]];
 
-* admissible morphism satisfy [[category with weak equivalences|2-out-of-3]].
+* admissible morphism satisfy the [[2-out-of-3 property]].
 
 Equivalently, this is a [[Grothendieck topology]] on $\mathcal{G}$ which is _generated_ from admissible morphisms.
 
