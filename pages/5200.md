@@ -1,9 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 # The epistemic logics $S4$ and $S4_{(m)}$
 * table of contents
 {:toc}
 
 ## Idea
+
+A kind of [[modal logic]]. (...)
 
 (Note that $S4 = S4_{(1)}$.)
 
@@ -50,6 +67,10 @@ Suppose that $\mathfrak{M}= ((W,R),V)$ where $R$ is a reflexive transitive relat
 Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have $\mathfrak{M},t\models p$.  Now suppose we seek to check that $\mathfrak{M},w\models K K p$ so we have $t$ with $R w t$ and want $\mathfrak{M},t\models K p$, so we look at all $u$ with $R t u$ and have to see if $\mathfrak{M},u\models p$, but as $R w t$ and $R t u$ hold then $R w u$ holds, since $R$ is transitive, and we then _know_ that $\mathfrak{M},u\models p$.
 =--
 
+## Related concepts
+
+* [[the logic T(m)]]
+  
 
 ## References
 
