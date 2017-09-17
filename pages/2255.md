@@ -61,6 +61,9 @@ If we replace $Set$ here by the category of [[totally ordered set]]s $Tos$, then
 
 $$F: \mathbb{N}^{op} \to Tos$$ 
 
+### As terminal coalgebra 
+
+The category of trees as described in the section immediately above can be described universally in 2-universal terms, as the 2-terminal coalgebra for the endofunctor on $Cat$ (locally small categories) which takes a category to its small-coproduct cocompletion. See [[terminal coalgebra]] for an extended discussion. 
 
 ### As operations
 
