@@ -358,17 +358,15 @@ Note that the included page goes directly in where it is called with no surround
 
 To include an [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) figures within a page, proceed as following:
 
-1. If you produce the SVG with a standard SVG editor, save it using, if possible, the two options
+1. The $n$Lab has a built-in SVG editor (see [below](#svgedit)). Click on the "`Create SVG graphic`" button to open it. Choose "`Save Image`" from the SVG-Edit menu when you're done. This will close the SVG editor and paste the resulting SVG code back into the Editing window.
+2. If you produce the SVG with a standard SVG editor, save it using, if possible, the two options
 
    1. save as _plain SVG_
-
    1. save as _optimes SVG_
 
-   You can also use a simple SVG editor built into the $n$Lab. See [below](#svgedit). (Though this may not work on some systems).
+  * You need to include the resulting _source code_ . Uploading the SVG as a file to the $n$Lab won't work. So
 
-1. You need to include the resulting _source code_ . Uploading the SVG as a file to the $n$Lab won't work. So
-
-   1. Go to the page where you want to include the SVG, say titled "SomePage", and at the point where the figure is to appear insert the code
+    1. Go to the page where you want to include the SVG, say titled "SomePage", and at the point where the figure is to appear insert the code
                   
       <nowiki>
       +--{: style="text-align:center"}
@@ -376,13 +374,13 @@ To include an [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) figur
       =--
       </nowiki>
 
-   1. Then type
+    1. Then type
 
              http://ncatlab.org/nlab/show/SomePage > figureN
 
-      into your browser's address line. The software will ask you to create a page with the title "SomePage > figureN". Paste the source code of your SVG into this page and hit _Submit_ .
+       into your browser's address line. The software will ask you to create a page with the title "SomePage > figureN". Paste the source code of your SVG into this page and hit _Submit_ .
 
-Go back to _SomePage_ . The SVG figure should now be displayed there.
+       Go back to _SomePage_ . The SVG figure should now be displayed there.
 
 See for instance the entry [[comma object]] for an example.
 
@@ -608,7 +606,7 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 # How to use the SVG editor 
  {#svgedit}
 
-There is now a WYSIWYG SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/). The Instiki implementation is not feature-complete, yet. In particular, it should be possible to embed itex equations, but those don't show up in the editor (currently).
+There is now a WYSIWYG SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/).
 
 ## Quick Start
 
