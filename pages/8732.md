@@ -30,7 +30,20 @@ A [[symmetric monoidal (infinity,n)-category]] for $n = 2$.
 
 ## Related concepts
 
+* [[monoidal 2-category]], [[3-group]]
+
+* [[braided monoidal 2-category]], [[braided 3-group]]
+
+* [[sylleptic monoidal 2-category]], [[sylleptic 3-group]]
+
+* **symmetric monoidal 2-category**, [[symmetric 3-group]]
+
 * [[k-tuply monoidal (n,r)-category]]
+
+
+## References
+
+* [[Mike Shulman]], _Constructing symmetric monoidal bicategories_ ([arXiv:1004.0993v1](http://arxiv.org/abs/1004.0993v1))
 
 [[!redirects symmetric monoidal 2-categories]]
 
