@@ -105,7 +105,7 @@ The Cauchy completion $\overline{C}$ is equivalently the [[full subcategory]] of
 
 This appears for instance as ([BorceuxDejean, prop. 2](#BorceuxDejean)).
 
-### In terms of obsolute colimits
+### In terms of absolute colimits
 
 +-- {: .num_prop}
 ###### Proposition
