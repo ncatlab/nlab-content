@@ -251,6 +251,12 @@ Related discussion of [[power operations]] in [[E-infinity arithmetic geometry]]
 
 * {#Lurie} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
 
+Further discussion of and speculation on an analogy between [[power operations]] and Borger's absolute geometry is in 
+
+* [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](http://arxiv.org/abs/math/0612327))
+
+* {#MoravaSanthanam} [[Jack Morava]], Rakha Santhanam, _Power operations and Absolute geometry_ ([pdf](http://www.lemiller.net/media/slidesconf/AbsolutePower.pdf))
+
 
 [[!redirects Borger absolute geometry]]
 
