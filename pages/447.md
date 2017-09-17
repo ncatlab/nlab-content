@@ -96,9 +96,9 @@ For the choice $\mathbf{H} = $  [[ETop∞Grpd]] and [[Smooth∞Grpd]] this repro
 
 In this section we consider topological [geometric realization of simplicial sets](#OfSimplicialSets), which is the best studied and perhaps most significant case. 
 
-### Realizations are CW complexes ### 
+### Realizations as CW complexes ### 
 
-Each ${|X|}$ is a CW complex (proof to be inserted), and so geometric realization ${|(-)|}: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces. 
+Each ${|X|}$ is a CW complex (see lemma \ref{#mono} below), and so geometric realization ${|(-)|}: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces. 
 
 +-- {: .un_prop} 
 ######Proposition
@@ -108,7 +108,7 @@ For any simplicial set $X$, there is a natural isomorphism $i(\int^{n: \Delta} X
 This is obvious: more generally, if $F: J \to A$ is a diagram and $i: A \hookrightarrow B$ is a full replete subcategory, and if the colimit in $B$ of $i \circ F$ lands in $A$, then this is also the colimit of $F$ in $A$. 
 (The dual statement also holds, with limits instead of colimits.) 
 
-Below, we let $R: Set^{\Delta^{op}} \to Space$ denote the geometric realization that lands in $Space$. 
+Below, we let $R: Set^{\Delta^{op}} \to Space$ denote the geometric realization when considered as landing in $Space$. 
 
 ### Theorem: Geometric realization is left exact ### 
 
@@ -124,7 +124,7 @@ $${|(-)|}: Set^{\Delta^{op}} \to Top,$$
 
 valued in general [[topological spaces]], does not preserve products. (To get a correct statement, one usual procedure is to "kelley-fy" products by applying the coreflection $k: Haus \to CGHaus$. This gives the correct isomorphism in the case $Space = CGHaus$, where we have that ${|X \times Y|} \cong {|X|} \times_k {|Y|} \coloneqq k({|X|} \times {|Y|})$; the product on the right has been "kelleyfied" to the product appropriate for $CGHaus$.) 
 
-Please note that $R$ denotes the geometric realization functor considered as being valued in a convenient category of spaces, whereas ${|(-)|}$ is geometric realization viewed as taking values in $Top$. 
+We reiterate that $R$ denotes the geometric realization functor considered as valued in a convenient category of spaces, whereas ${|(-)|}$ is geometric realization viewed as taking values in $Top$. 
 
 +-- {: .num_theorem #leftexact} 
 ###### Theorem 
@@ -137,7 +137,7 @@ As described at the nLab article on triangulation [here](http://ncatlab.org/nlab
 $$\Delta \stackrel{\sigma}{\to} Space \stackrel{U}{\to} Set$$ 
 can be described as the functor 
 $$\Delta \cong FinInt^{op} \hookrightarrow Int^{op} \stackrel{Int(-, I)}{\to} Set$$ 
-where $Int$ is the category of intervals (linearly ordered sets with distinct top and bottom). Because every interval, in particular $I$, is a filtered colimit of finite intervals, it follows that $U \sigma: \Delta \to Set$ is a [[flat functor]] (a [[filtered colimit]] of representables). But on general grounds, tensoring with a flat functor is left exact, which in this case means
+where $Int$ is the category of intervals (linearly ordered sets with distinct top and bottom). Because every interval, in particular $I$, is a filtered colimit of finite intervals, and because finite intervals are finitely presentable intervals, it follows that $U \sigma: \Delta \to Set$ is a [[flat functor]] (a [[filtered colimit]] of representables). But on general grounds, tensoring with a flat functor is left exact, which in this case means
 $$U R = - \otimes_\Delta U \sigma: Set^{\Delta^{op}} \to Set$$
 is left exact. 
 =-- 
@@ -147,10 +147,22 @@ Obviously the preceding proof is not sensitive to whether we use $Space$ or $Top
 #### Geometric realization preserves equalizers 
 
 +-- {: .num_lemma #mono}
-######Lemma 
-If $i: X \to Y$ is a monomorphism of simplicial sets, then $R(i): R(X) \to R(Y)$ is a closed subspace inclusion. 
+###### Lemma 
+If $i: X \to Y$ is a monomorphism of simplicial sets, then $R(i): R(X) \to R(Y)$ is a closed subspace inclusion, in fact a relative $CW$-complex. In particular, taking $X = \emptyset$, $R(Y)$ is a $CW$-complex. 
 =-- 
 
++-- {: .proof} 
+###### Proof 
+Any monomorphism $i \colon X \to Y$ in $Set^{\Delta^{op}}$ can be seen as the result of iteratively adjoining nondegenerate $n$-simplices. In other words, there is a chain of inclusions $X = F(0) \hookrightarrow F(1) \hookrightarrow \ldots Y = colim_i F(i)$, where $F: \kappa \to Top$ is a functor from some ordinal $\kappa = \{0 \leq 1\leq \ldots\}$ (as [[preorder]]) that preserves directed colimits, and each inclusion $F(\alpha \leq \alpha + 1): F(\alpha) \to F(\alpha + 1)$ fits into a pushout diagram 
+
+$$\array{
+\partial \Delta(-, n+1) & \to & F(\alpha) \\
+\mathllap{i} \downarrow & & \downarrow \\
+\Delta(-, n+1) & \to & F(\alpha+1)
+}$$ 
+
+where $i$ is the inclusion. Now $R(i)$ is identifiable as the inclusion $S^{n-1} \to D^n$, and since $R$ preserves pushouts (which are calculated as they are in $Top$), we see by [this lemma](http://ncatlab.org/nlab/show/subspace+topology/#pushout) that $R F(\alpha) \to R F(\alpha+1)$ is a closed subspace inclusion and evidently a relative CW-complex. By [another lemma](http://ncatlab.org/nlab/show/subspace+topology/#transfinite), it follows that $X \to Y$ is also a closed inclusion and indeed a relative CW-complex. 
+=-- 
 
 +-- {: .num_corollary}
 ###### Corollary
@@ -161,7 +173,7 @@ $R: Set^{\Delta^{op}} \to Space$ preserves equalizers.
 ###### Proof
 The equalizer of a pair of maps in $Top$ is computed as the equalizer on the level of underlying sets, equipped with the subspace topology. So if 
 $$E \stackrel{i}{\to} X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y$$ 
-is an equalizer diagram in $Set^{\Delta^{op}}$, then ${|i|}$ is the equalizer of the pair ${|f|}$, ${|g|}$, because the underlying function $U({|i|})$ is the equalizer of $U({|f|})$, $U({|g|})$ on the underlying set level by the preceding theorem, and because ${|i|}$ is a (closed) subspace inclusion by the lemma. But this $Top$-equalizer ${{|i|}}: {{|E|}} \to {{|X|}}$ lives in the full subcategory $Space$, and therefore $R(i) = {|i|}$ is the equalizer of the pair $R(f) = {|f|}$, $R(g) = {|g|}$. 
+is an equalizer diagram in $Set^{\Delta^{op}}$, then ${|i|}$ is the equalizer of the pair ${|f|}$, ${|g|}$, because the underlying function $U({|i|})$ is the equalizer of $U({|f|})$, $U({|g|})$ on the underlying set level by the preceding theorem, and because ${|i|}$ is a (closed) subspace inclusion by lemma \ref{mono}. But this $Top$-equalizer ${{|i|}}: {{|E|}} \to {{|X|}}$ lives in the full subcategory $Space$, and therefore $R(i) = {|i|}$ is the equalizer of the pair $R(f) = {|f|}$, $R(g) = {|g|}$. 
 =-- 
 
 As the proof indicates, that realization preserves equalizers is not at all sensitive to whether we use $Top$ or a convenient category of spaces $Space$. 
@@ -175,7 +187,11 @@ First, a small technical result about simplicial sets.
 +-- {: .num_lemma #product}
 ###### Lemma 
 The product of two representables $\Delta(-, m) \times \Delta(-, n)$ is the colimit of a finite diagram of representables, i.e., is the quotient of a finite coproduct of representables. 
-=--
+=-- 
+
++-- {: .proof} 
+###### Proof 
+
 
 +-- {: .num_lemma #canonical} 
 ###### Lemma 
