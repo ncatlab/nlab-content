@@ -1,14 +1,22 @@
+
+# The regular extension axiom
+* table of contents
+{: toc}
+
 ## Idea
 
 The **Regular Extension Axiom** is a foundational axiom which asserts the existence of arbitrarily large [[regular cardinal]]-like sets.  It has several variants, some of which are provable in [[ZF]], some of which are provable  from the [[axiom of choice]] or weaker variants thereof such as [[SVC]], and some of which are not even provable in ZFC.
+
 
 ## Variants
 
 ...
 
+
 ## References
 
 * [[Michael Rathjen]] and [[Robert Lubarsky]], *On the regular extension axiom and its variants*, [PDF](http://www.amsta.leeds.ac.uk/Pure/staff/rathjen/REA.pdf)
+
 
 category: foundational axiom
 
