@@ -576,6 +576,7 @@ holds.
 
 ## Related concepts
 
+* [[renormalization group]], [[renormalization group flow]]
 * [[renormalization scheme]]
 * [[perturbation theory]]
 * [[BV quantization]]
