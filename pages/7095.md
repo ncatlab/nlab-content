@@ -17,9 +17,90 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In the context of [[geometric quantization]] of a [[symplectic manifold]] $(X, \omega)$, a _Bohr-Sommerfeld leaf_ is a [[Lagrangian submanifold]] of $X$ on which not only the [[symplectic form]] $\omega$ vanishes, but on which also a given [[prequantum bundle|prequantization]] $\nabla$ of $\omega$ is trivializable. 
+
+Therefore given a [[real polarization]] of $(X,\omega)$, hence a [[foliation]] by [[Lagrangian submanifolds]], the Bohr-Sommerfeld leaves form a discrete subset of the [[leaf space]]. The discreteness of this subset is essentially the formal incarnation of  "quantization" and this is what [[Bohr]] and [[Sommerfeld]] originally considered (in less abstract terms, the archetypical example was the harmonic oscillator as discussed [below](#HarmonicOscillator)).
+
+(There is a correction to this picture, given by the fact that a [[quantum states]]/[[semiclassical states]], involve not just Lagrangian submanifolds/Bohr-Sommerfeld leaves, but moreover [[half-densities]] over these. These are to satisfy an additional condition, encoded by the _[[metaplectic correction]]_.)
+
+
+
+
+
 ## Definition
 
-In the context of [[geometric quantization]] of a [[symplectic manifold]] $(X, \omega)$ equipped with a choice of [[prequantum line bundle]] $(E,\nabla)$, a [[Lagrangian submanifold]] $Q \hookrightarrow X$ of a [[symplectic manifold]] is called a _Bohr-Sommerfeld leaf_ if the prequantum [[circle bundle]] $E|_Q$ restricted to $Q$ has not only vanishing [[curvature]] but is also trivializable as a [[circle bundle]]. Such a trivializaton as a circle bundle with connection is given by a [[covariant derivative|covariantly constant]] non-vanishing [[section]] of the [[associated bundle|associated]] [[line bundle]]. 
+
+Let $(X,\omega)$ be a ([[presymplectic manifold|pre-]])[[symplectic manifold]] and $\nabla$ a [[prequantum bundle|prequatization]], hence a $U(1)$-[[principal connection]] on $X$ with [[curvature]] 2-form $F_\nabla = \omega$.
+
++-- {: .num_defn}
+###### Definition
+
+A [[Lagrangian submanifold]] $L \hookrightarrow X$ is a **Bohr-Sommerfeld leaf** if the restriction $\nabla|_L$ of the [[prequantum connection]] to $L$ is trivializable there, hence if its [[cohomology]] class vanishes in [[ordinary differential cohomology]]
+
+$$
+  [\nabla_L] = 0 \in H^2_{conn}(X)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For every [[isotropic submanifold]], hence in particular every [[Lagrangian submanifold]], $L \hookrightarrow X$ the restriction $\nabla|_L$ is necessarily already a [[flat connection]]. As discussed there, flat connections are equivalently encoded in the [[holonomy]] of their [[parallel transport]]: a flat connection is trivializable as a connection precisely if its [[holonomy]] is trivial. Therefore a Bohr-Sommerfeld leaf is equivalently a Lagrangian submanifold $L$ such that $\nabla|_L$ has trivial holonomy. In this form the Bohr-Sommerfeld condition is usually stated in the literature.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The Bohr-Sommerfeld condition is the natural lift of the [[Lagrangian subspace]]-condition to prequantum geometry:
+
+When expressed in terms of [[smooth infinity-groupoid|smooth]] [[moduli stacks]] (see at _[[geometry of physics]]_ for background), the ([[presymplectic manifold|pre-]])[[symplectic manifold|symplectic structure]] is equivalently a map
+
+$$
+  \omega \;\colon\; X \to \Omega^2_{cl}
+$$
+
+and a prequantization $\nabla$ is equivalently a lift $\nabla$ in the diagram
+
+$$
+  \array{
+    && \mathbf{B}U(1)_{conn}
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    X &\stackrel{\omega}{\to}& \Omega^2_{cl}(X)
+  }
+  \,.
+$$
+
+The condition on an [[isotropic submanifold]] $L \hookrightarrow X$ is that the composite map
+
+$$
+  \omega|_L
+  \;\colon\;
+  \array{
+    L &\hookrightarrow &  X &\stackrel{\omega}{\to}& \Omega^2_{cl}
+  }
+$$
+
+is trivial in $H(L,\Omega^2_{cl}) = \Omega^2_{cl}(L)$ (and $L$ being Lagrangian means that it is maximal with this property). Then $L$ is Bohr-Sommerfeld if moreover the restriction of the prequantum lift
+
+$$
+  \nabla|_L
+  \;\colon\;
+  \array{
+    L &\hookrightarrow &  X &\stackrel{\nabla}{\to}& \mathbf{B}U(1)_{conn}
+  }
+$$
+
+is trivial in $H(L, \mathbf{B}U(1)_{conn}) = H^2_{conn}(X)$.
+
+=--
+
 
 ## Examples
 
@@ -107,6 +188,11 @@ If the leaf space $B$ is [[Hausdorff space|Hausdorff]] and the projection $X \to
 
 [[!redirects Bohr-Sommerfeld leaves]]
 
+
+
 [[!redirects BS-leaf]]
 [[!redirects BS-leaves]]
+
+[[!redirects Bohr-Sommerfeld quantization]]
+
 
