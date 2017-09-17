@@ -27,6 +27,7 @@ $$
 
 * [[ghost]]
 
+[[!include action (physics) - table]]
 
 
 ## References
