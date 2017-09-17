@@ -33,7 +33,7 @@ A related notion is that of [[basis for a Grothendieck topology]], which is simi
 ###### Definition
 
 
-A **coverage** on a category $C$ consists of a function assigning to each objecct $U\in C$ a collection of families of morphisms $\{f_i:U_i\to U\}_{i\in I}$, called _covering families_, such that
+A **coverage** on a category $C$ consists of a function assigning to each object $U\in C$ a collection of families of morphisms $\{f_i:U_i\to U\}_{i\in I}$, called _covering families_, such that
 
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and $g:V\to U$ is a morphism, then there exists a covering family $\{h_j:V_j\to V\}$ such that each composite $g h_j$ factors through some $f_i$.
 
