@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,6 +31,12 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{G}_\bullet \in Grp_\infty(\ma
 
 * such that $P \to X \simeq (P//\mathcal{G})$ is the corresponding quotient map.
 
+## Related concepts
+
+* [[∞-action]], [[principal ∞-bundle]]
+
+* [[bibundle]]
+
 [[!redirects groupoid-principal bundle]]
 [[!redirects groupoid-principal bundles]]
 
@@ -24,3 +44,11 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{G}_\bullet \in Grp_\infty(\ma
 
 [[!redirects ∞-groupoid-principal ∞-bundle]]
 [[!redirects ∞-groupoid-principal ∞-bundles]]
+
+[[!redirects groupoid-principal ∞-bundle]]
+[[!redirects groupoid-principal ∞-bundles]]
+
+
+[[!redirects infinity-groupoid-principal infinity-bundle]]
+[[!redirects infinity-groupoid-principal infinity-bundles]]
+
