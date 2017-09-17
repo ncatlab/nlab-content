@@ -3,7 +3,10 @@
 ### Context
 #### Representation theory
 +-- {: .hide}
+[[!include representation theory - contents]]#### Representation theory
++-- {: .hide}
 [[!include representation theory - contents]]
+=--
 =--
 #### Higher spin geometry
 +-- {: .hide}
@@ -371,6 +374,8 @@ See for instance ([Freed 99, p. 53](#Freed)).
 
 ## Related entries
 
+* [[angular momentum]]
+
 * [[spinor]], [[spinor bundle]]
 
 * [[Fierz identity]]
@@ -431,6 +436,5 @@ and for the traditional component notation used in physics see
 [[!redirects Majorana-Weyl spinors]]
 [[!redirects Majorana-Weyl representation]]
 [[!redirects Majorana-Weyl representations]]
-
 
 
