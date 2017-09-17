@@ -5,7 +5,7 @@
 
 ## Idea
 
-The **Chern character** of a [[generalized (Eilenberg-Steenrod) cohomology]] theory is a canonical morphism from the generalized cohomology to ordinary ([[Eilenberg-MacLane spectrum|Eilenberg Mac-Lane]]) real cohomology. When thought of in the refinement to [[differential cohomology]] and thinking of a cocycle in differential cohomology as a generalization of a [[connection on a bundle]], the Chern-character is the map that sends a generalized connection to its [[curvature]] characteristic classes.
+The **Chern character** of a [[generalized (Eilenberg-Steenrod) cohomology]] theory is a canonical morphism from the generalized cohomology to ordinary ([[Eilenberg-MacLane spectrum|Eilenberg Mac-Lane]]) real cohomology. When thought of in the refinement to [[differential cohomology]] and thinking of a cocycle in differential cohomology as a generalization of a [[connection on a bundle]], the Chern-character is the map that sends a generalized connection to its [[curvature characteristic form]].
 
 
 More in detail, for every [[generalized (Eilenberg-Steenrod) cohomology]] theory given by a [[spectrum]] $E$, there is a canonical [[natural isomorphism]] from the rationalized $E$-cohomology to ordinary (Eilenberg-MacLane) cohomology with coefficients in the rationalized [[homotopy group]]s of $E$:
@@ -43,7 +43,7 @@ There are analogues in algebraic geometry (e.g. a Chern character between the Ch
 
 ## For vector bundles and K-theory {#KTheory}
 
-The classical theory of the Chern character applies to the [[spectrum]] of complex [[K-theory]], $E = KU$. In this case, the Chern character is made up from Chern classes: each characteristic class is by Chern-Weil theory in image of certain element in the Weil algebra via taking the class of evaluation at the curvature operator for some choice of a connection. Consider the symmetric functions in $n$ variables $t_1,\ldots, t_n$ and let the Chern classes of a complex vector bundle $\xi$ (representing a complex K-theory class) are $c_1,\ldots, c_n$. Define the formal power series 
+The classical theory of the Chern character applies to the [[spectrum]] of complex [[K-theory]], $E = KU$. In this case, the Chern character is made up from Chern classes: each characteristic class is by Chern-Weil theory in image of certain element in the Weil algebra via taking the class of evaluation at the [[curvature]] operator for some choice of a connection. Consider the symmetric functions in $n$ variables $t_1,\ldots, t_n$ and let the Chern classes of a complex vector bundle $\xi$ (representing a complex K-theory class) are $c_1,\ldots, c_n$. Define the formal power series 
 
 $$
 \phi = \phi^n(t_1,\ldots, t_n) = e^{t_1}+\ldots+e^{t_n}= \sum_{k=0}^\infty \frac{1}{k!} (t_1^k+\ldots+t_n^k)
@@ -69,9 +69,11 @@ where
 
 * $F = F_\nabla \in \Omega^2(X,End(V))$ is the [[curvature]] of this connection;
 
-* $k_j \in \mathbb{R}$ are normalization constants, $k_j = \frac{1}{j!} \left( \frac{1}{2\pi i}\right)^j$.
+* $k_j \in \mathbb{R}$ are normalization constants, $k_j = \frac{1}{j!} \left( \frac{1}{2\pi i}\right)^j$;
 
-Chern character applied to the Whitney sum of two vector bundles is a sum of the Chern characters for the two: $ch(\xi\oplus \eta) = ch(\chi)+ch(\eta)$ and it is multiplicative under the tensor product of vector bundles: $ch(\xi\otimes\eta)=ch(\chi)ch(\eta)$. Therefore we get a ring homomorphism. 
+* the trace of the wedge products produces the [[curvature characteristic form]]s.
+
+The Chern character applied to the [[Whitney sum]] of two vector bundles is a sum of the Chern characters for the two: $ch(\xi\oplus \eta) = ch(\chi)+ch(\eta)$ and it is multiplicative under the tensor product of vector bundles: $ch(\xi\otimes\eta)=ch(\chi)ch(\eta)$. Therefore we get a ring homomorphism. 
 
 ## General theory
 
