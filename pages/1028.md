@@ -17,18 +17,17 @@
 
 An **equalizer** is a [[limit]] 
 
-<center><img src="http://latex.codecogs.com/gif.latex?
-\xymatrix{
-eq\ar[r]_{e} %26 x \ar@%3C.5ex%3E [r]^{f}\ar@%3C-.5ex%3E[r]_{g} %26 y
-}" />
-</center>
+$$
+\operatorname{eq}\underset{\quad e \quad}{\to}x\underoverset{\quad g \quad}{f}{\rightrightarrows}y
+$$
+
 
 
 over a parallel pair i.e. of the [[diagram]] of the shape 
 
 $$
   \left\lbrace
-      x \stackrel{\overset{f}{\to}}{\underset{g}{\to}} y
+      x \underoverset{\quad g \quad}{f}{\rightrightarrows} y
   \right\rbrace
   \,.
 $$
