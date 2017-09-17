@@ -93,7 +93,7 @@ I should write down the classical proof (which uses [[excluded middle]] and some
 
 I need to read the relevant parts here:
 
-*  M. Fourman, R. Grayson, _Formal Spaces_. In: The L.E.J. Brouwer Centenary Symposium,  A.S. Troelstra and D. van Dalen, eds. North Holland (1982), pp. 107--122.
+*  [[Mike Fourman]], R. Grayson, _Formal Spaces_. In: The L.E.J. Brouwer Centenary Symposium,  A.S. Troelstra and D. van Dalen, eds. North Holland (1982), pp. 107--122.
 
 More links that I need to keep in mind:
 
