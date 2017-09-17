@@ -200,12 +200,11 @@ An introduction and review to the Hopf-algebraic description of renormalization 
 A textbook treatment is
 
 * [[Dirk Kreimer]], _Knots and Fenyman diagrams_ , Cambridge Lecture Notes in Physics. 13. Cambridge: Cambridge University Press.
+* Joseph C. Varilly, _The interface of noncommutative geometry and physics_, [hep-th/0206007](http://arxiv.org/abs/hep-th/0206007)  
 
 Some heavywheight automated computations using this formalism are discussed in 
 
 * D. J. Broadhurst, [[Dirk Kreimer]], _Renormalization automated by Hopf algebra_ ([arXiv:hep-th/9810087](http://arxiv.org/abs/hep-th/9810087))
-
-
 
 [[!redirects renormalizable]]
 [[!redirects renormalizable theory]]
