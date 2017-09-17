@@ -4,21 +4,21 @@
 
 ## Idea
 
-It is a general phenomenon that
+In the context of [[category theory]], it is a general phenomenon that
 
- * Nice objects tend to live in non-nice categories. 
+ * Nice [[objects]] tend to form non-nice [[categories]]. 
   
  * Nice categories tend to contain non-nice objects.
 
-Here we take a category to be the "nicer" the more limits, colimits etc. it admits.
+Here we take a category to be the "nicer" the more [[limits]], [[colimits]] etc. it admits.
 
-On the other hand, a "nice object" is, loosely speaking, an object in some context which has more special properties than the generic object in that context will have. For instance [[manifold]]s are nice objects in the context of [[generalized smooth space|generalized smooth spaces]]. [[field|Fields]] are nice objects in the context of [[commutative rings]]. 
+On the other hand, a "nice object" is, loosely speaking, an object in some context which has more special [[properties]] than the generic object in that context will have. For instance [[manifolds]]s are nice objects in the context of [[generalized smooth space|generalized smooth spaces]]. [[field|Fields]] are nice objects in the context of [[commutative rings]]. 
 
 Clearly, the more extra properties one imposes, the less likely it is that these are preserved under limits and colimits. For instance 
 
-* not all quotients $X/G$ of a manifold $X$ by the action of a group $G$ are again manifolds (this is a colimit which fails to exist);
+* not all [[quotients]] $X/G$ of a manifold $X$ by the action of a group $G$ are again manifolds (this is a colimit which fails to exist);
 
-* not all fiber products $Y \times_X Y$ of surjections $Y \to X$ of manifolds are again manifolds (this is a limit that fails to exist).
+* not all [[fiber products]] $Y \times_X Y$ of surjections $Y \to X$ of manifolds are again manifolds (this is a limit that fails to exist).
 
 * it is seldom the case that coproducts of fields (in the category of commutative rings) is again a field. 
 
