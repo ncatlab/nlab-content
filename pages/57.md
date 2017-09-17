@@ -87,7 +87,7 @@ $$
 This is (up to fine-tuning of the nature of the differential forms on the simplices) the [[Sullivan construction]] of [[rational homotopy theory]] that tuns a dg-algvebra into a simplicial set, applied to the dg-algebra $CE(\mathfrak{a})$.
 
 
-+-- {: .un_remarl}
++-- {: .un_remark}
 ###### Remark
 **(spurious homotopy groups)**
 
@@ -117,7 +117,7 @@ For discussing smooth families of $d$-paths we need the following technical noti
 +-- {: .un_defn}
 ###### Definition
 
-For $k \in \mathbb{N}$ regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corner]]s in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
+For $k \in \mathbb{N}$ regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corners]] in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
 
 A smooth [[differential form]] $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $(r \lt k)$-face $F$ of $\Delta^k$ there is an [[open neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the $r$-face on its value restricted to that face.
 
@@ -369,7 +369,7 @@ We do not need to fall back to classical [[Lie theory]] to obtain $G$ in the abo
 +-- {: .un_def}
 ###### Definition
 
-For $n \in \mathbb{N}$ write $b^n \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $(n+1)$ and vanishing differential.
+For $n \in \mathbb{N}, n \geq 1$ write $b^{n-1} \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $n$ and vanishing differential. We may call this the **line Lie $n$-algebra**.
 
 Write $\mathbf{B}^{n} \mathbb{R}$ for the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">smooth line (n+1)-group</a>.
 
@@ -379,7 +379,7 @@ Write $\mathbf{B}^{n} \mathbb{R}$ for the <a href="http://ncatlab.org/nlab/show/
 +-- {: .un_prop}
 ###### Observation
 
-The [[discrete ∞-groupoid]] underlying $\exp(b^n \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
+The [[discrete ∞-groupoid]] underlying $\exp(b^{n-1} \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
 
 $$
   \exp(b^{n-1} \mathbb{R})_{disc}
@@ -392,9 +392,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-Let $n \in \mathbb{N}$, $n \geq 1$.
-
-The $\infty$-Lie integration of $b^{n-1} \mathbb{R}$ is the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">line Lie n-group</a> $\mathbf{B}^{n-1} \mathbb{R}$. 
+The $\infty$-Lie integration of $b^{n-1} \mathbb{R}$ is the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">line Lie n-group</a> $\mathbf{B}^{n} \mathbb{R}$. 
 
 Moreover, with $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathbb{R})$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
 
@@ -492,8 +490,9 @@ Notice that over the point this is a direct consequence of the [[de Rham theorem
 
 To complete the proof we have to show that this simple argument does extend to smooth families of forms, i.e., that we can choose the $(n-1)$-form $A$ in a way depending smoothly on the the $n$-form $\omega$. 
 
-One way of achieving this is using [[Hodge theory]]. Fix a [[Riemannian metric]] on $S^n$, and let $\Delta$ be the corresponding [[Laplace operator]], and $\pi$ the projection on the space of [[harmonic forms]]. Then the central result of Hodge theory for [[compact topological space|compact]] [[Riemannian manifold]]s states that the operator $\pi$, seen as an operator from the 
-[[de Rham complex to itself]], is a cochain map homotopic to the identity, via an explicit homotopy $P := d^* G$ expressed in terms of the adjoint $d^*$ of the de Rham differential and of the [[Green operator]] $G$ of $\Delta$. Since the $k$-form $\omega$ is exact its projection on [[harmonic form]]s vanishes. Therefore
+One way of achieving this is using [[Hodge theory]]. Fix a [[Riemannian metric]] on $S^n$, and let $\Delta$ be the corresponding [[Laplace operator]], and $\pi$ the projection on the space of [[harmonic forms]]. Then the 
+<a href="http://ncatlab.org/nlab/show/Hodge+theory#ResultsOverRiemannianManifold">central result of Hodge theory</a> for [[compact topological space|compact]] [[Riemannian manifold]]s states that the operator $\pi$, seen as an operator from the 
+[[de Rham complex]] to itself, is a cochain map [[homotopy|homotopic]] to the identity, via an explicit homotopy $P := d^* G$ expressed in terms of the adjoint $d^*$ of the de Rham differential and of the [[Green operator]] $G$ of $\Delta$. Since the $k$-form $\omega$ is exact its projection on [[harmonic form]]s vanishes. Therefore
 
 $$
   \begin{aligned}
