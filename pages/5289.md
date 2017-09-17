@@ -62,6 +62,8 @@ some summary of which is at _[[Ek-Algebras]]_.
 [[!redirects E-k algebra]]
 [[!redirects E-k algebras]]
 
+[[!redirects E-n algebra]]
+[[!redirects E-n algebras]]
 
 
 
