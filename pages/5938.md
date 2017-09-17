@@ -7,7 +7,7 @@ $$
 
 natural in $X$ and $Y'$, where $y:C\hookrightarrow pro(C)$ is the Yoneda embedding into the category of proobjects $pro(C)\subset Set^{C^{op}}$. Equivalently, for every [[prorepresentable functor]] $X:C'^{op}\to Set$, the functor $X\mapsto X\circ F$ is also prorepresentable.
 
-* [[J.-M. Cordier]], [[T. Porter]], _Shape theory_, sec. 2.3
+* [[J.-M. Cordier]], [[T. Porter]], _Shape theory : Categorical Methods of Approximation_, (sec. 2.3), Mathematics and its Applications, Ellis Horwood Ltd., March 1989, 207 pages.Dover addition (2008)  (Link to publishers [here](http://store.doverpublications.com/048646623x.html))
 
 [[!redirects proadjonts]]
 
