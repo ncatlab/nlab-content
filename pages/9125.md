@@ -432,6 +432,51 @@ between the [[background fields]].
 
 ## Properties
 
+### Moduli stacks of fields
+
+The object $[\Phi_X, \mathbf{Fields}]_{\mathbf{H}} \in \mathbf{H}$
+of def. \ref{FieldsInAnActionFunctional} we may call the 
+[[moduli ∞-stack]] of fields. Here we discuss various properties of this object. 
+
++-- {: .num_prop}
+###### Proposition
+
+The [[∞-groupoid]] of global [[elements]] of $[X, \mathbf{Fields}]_{\mathbf{H}}$ is 
+
+$$
+  \mathbf{H}(*,[\Phi_X, \mathbf{Fields}_{\mathbf{H}}])
+  \simeq
+  \Gama [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}
+  \simeq
+  \mathbf{H}_{/\mathbf{BgFields}}(\Phi_X, \mathbf{Fields})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the $(\mathbf{BgFields}^* \dashv \underset{\mathbf{BgFields}}{\prod})$ [[adjunction]]:
+
+$$
+  \begin{aligned}
+    \mathbf{H}(*, \[\Phi_X, \mathbf{Fields}]_{\mathbf{H}})
+    & \simeq
+    \mathbf{H}(*, \underset{\mathbf{BgFields}}{\prod} [\Phi_X, \mathbf{Fields}])
+    \\
+    & \simeq \mathbf{H}_{/\mathbf{BgFields}}(\mathbf{BgFields}^*(*), [\Phi_X, \mathbf{Fields}])
+    \\
+    & \simeq \mathbf{H}_{/\mathbf{BgFields}}(*, [\Phi_X, \mathbf{Fields}])
+    \\
+    & \simeq \mathbf{H}_{/\mathbf{BgFields}}(\Phi_X, \mathbf{Fields})
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 ### Relation to twisted cohomology
  {#RelationToTwistedCohomology}
 
