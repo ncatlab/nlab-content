@@ -41,6 +41,12 @@ Equivalently, such a central extension $\widehat {\mathcal{G}} \to \mathcal{G}$ 
 
 In traditional literature this is mostly considered for [[Lie groupoids]]. Specifically, for $A$ a [[Lie group]] and for $C(\mathcal{U})$ the [[Cech groupoid]] of a [[good open cover]] $\mathcal{U}$ of a [[smooth manifold]] $X$, morphisms of [[smooth stacks]] $X \to \mathbf{B}^2 A$ are equivalently given by actual morphism of Lie groupoids $C(\mathcal{U}) \to \mathbf{B}^2 A$, which are equivalently degree-2 $A$-[[cocycles]] in the [[Cech cohomology]] of $X$. The corresponding incarnation $\widehat \mathcal{G}$ of the $\mathbf{B}A$-principal 2-bundle classified by this is known as the $A$-[[bundle gerbe]] over $C(\mathcal{U})$.
 
+## Properties
+
+### Twisted convolution algebra and twisted K-theory
+
+A central extension of a Lie groupoid induces a [[twisted groupoid convolution algebra]]. The corresponding [[operator K-theory]] is the [[twisted K-theory]] of the [[differentiable stack]] of the base gorupoid. See at _[[KK-theory]]_ for more on this.
+
 ## Related concepts
 
 * [[central extension]]
@@ -51,3 +57,6 @@ In traditional literature this is mostly considered for [[Lie groupoids]]. Speci
 
 [[!redirects central extension of groupoids]]
 [[!redirects central extensions of groupoids]]
+
+[[!redirects centrally extended Lie groupoid]]
+[[!redirects centrally extended Lie groupoids]]
