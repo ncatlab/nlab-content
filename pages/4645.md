@@ -2156,27 +2156,7 @@ In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic con
 (The material of this section is due to ([SSS](#SSSI) and [FSS](#FSS)).
 
 
-#### Characteristic cocycles from Lie integration
-
-
-For $G$ a Lie group, above we have described connections on $G$-principal bundles in terms of cocycles with coefficients in the Lie-[[groupoid of Lie-algebra valued forms]] $\mathbf{B}G_{conn}$
-
-$$
-  \array{
-  && \mathbf{B}G_{conn} &&& connection
-  \\
-  & {}^{\mathllap{\nabla}}\nearrow & \downarrow
-  \\
-  && \mathbf{B}G_{diff} &&& pseudo-connection
-  \\
-  & {}^{\mathllap{\nabla_{ps}}}\nearrow & \downarrow^{\mathrlap{\simeq}} 
-  \\
-  C(U) &\stackrel{g}{\to}& \mathbf{B}G &&& transition\;function
-  }
-  \,.
-$$
-
-Above we had _derived_ Lie algebra valued forms from the [[parallel transport]] description $\mathbf{B}G_{conn} = [\mathbf{P}_1(-), \mathbf{B}G]$. We now turn this around and use [[Lie integration]] to construct parallel transport from Lie-algebra valued forms. The construction is such that it generalizes verbatim to [[∞-Lie algebra valued forms]].
+#### Characteristic cocycles from Lie integration {#LieIntOfCocycles}
 
 The following observation on [[Lie integration]] (see there for details) is classical, even if maybe not reflected in the standard textbook literature to the extent it deserves to be:
 
@@ -2211,85 +2191,6 @@ of $\mathbf{B}G$ with the presheaf that to $U \in CartSp$ assigns the groupoid t
 Unwinding what this means, notice that dg-algebra-morphisms $CE(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with [[Lie algebra valued 1-forms]] $A \in \Omega^1(X, \mathfrak{g})$, whose [[curvature]] 2-form vanishes, $F_A = 0$: the 1-form itself determines precisely a morphism of the underlying [[graded algebra]]s, and the respect for the differentials is exactly the flatness condition. It is this elementary but important observation that [historically](#http://ncatlab.org/nlab/show/Chern-Weil+theory#History) led [[Eli Cartan]] to [[Cartan calculus]] and the algebraic formulation of [[Chern-Weil theory]].
 
 So the presheaf $\exp(\mathfrak{g})$ has as 1-morphisms $U$-parameterized families of $\mathfrak{g}$-valued 1-forms on the interval, and as 2-morphisms $U$-parameterized families of _flat_ 1-forms on the disk, interpolating between these. By identifying these 1-forms with the pullback of the [[Maurer-Cartan form]] on $G$, we may equivalently think of the 1-morphisms as based smooth paths in $G$ and 2-morphisms smooth [[homotopies]] relative endpoints between them. Since $G$ is [[simply-connected]] this means that after dividing out 2-morphisms only the endpoints of these paths remain, which identify with the points in $G$. 
-
-Another classical dg-algebra associated with $\mathfrak{g}$ is its [[Weil algebra]] $W(\mathfrak{g})$. 
-
-+-- {: .un_lemma}
-###### Fact
-
-The [[Weil algebra]] $W(\mathfrak{g})$ is characterized by the fact that dg-algebra homomorphisms $W(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with arbitrary, not-necessarily flat, $\mathfrak{g}$-valued forms. In other words, $W(\mathfrak{g})$ is -- up to [[isomorphism]] -- [[generalized the|the]] [[free functor|free]] [[dg-algebra]] on the [[graded vector space]] $\mathfrak{g}$:
-
-$$
-  Hom_{dgAlg}(W(V^*), A) \simeq Hom_{Vect_\mathbb{Z}}(V^*, A)
-  \,.
-$$
-
-=--
-
-(Notice that the other dg-algebras that we are dealing with are [[semi-free dga]]s in that only their underlying [[graded algebra]] is free, but not the differential). 
-
-The most obvious realization of the free dg-algebra on $\mathfrak{g}^*$ is $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ equipped with the differential that is precisely the degree shift isomorphism $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ extended as a [[derivation]]. This is not the Weil algebra on the nose, but is isomorphic to it. The differential of the Weil algebra on $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ is given on the unshifted generators by
-
-$$
-  d_{W(\mathfrak{g})}|_{\mathfrak{g}^*} = d_{CE(\mathfrak{g})} + \sigma
-  \,.
-$$
-
-This uniquely fixes the differential on the shifted generators -- a phenomenon known as the [[Bianchi identity]].
-
-The special property of this incarnation of the free dg-algebra on $\mathfrak{g}^*$ is that it makes the canonical dg-algebra homomorphism  
-
-$$
-  CE(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : i^*
-$$
-
-manifest as the map that is the identity on the unshifted generators and zero on the shifted generators. 
-
-Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in the fashion of $\exp(\mathfrak{g})$
-
-
-+-- {: .un_lemma}
-###### Observation
-
-The presheaf $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ is isomorphic to
-
-$$
-  \mathbf{B}G_{diff}  : 
-  \tau_1
-  \exp(\mathfrak{g})_{diff}
-  ((U,[k]) \mapsto 
-    \left\{ 
-      \array{
-        \Omega^\bullet_{vert}(U \times \Delta^k) 
-        &\stackrel{A_{vert}}{\leftarrow}&
-        CE(\mathfrak{g})
-        \\
-        \uparrow && \uparrow
-        \\
-        \Omega^\bullet(U \times \Delta^k)
-        &\stackrel{A}{\leftarrow}&
-        W(\mathfrak{g})
-      }
-    \right\}
-   ) 
-  \,
-$$
-
-where on the right we have the 1-truncation of the simplicial presheaf of diagram as indicated, where the vertical morphisms are the canonical ones.
-
-=--
-
-Here over a given $U$ the bottom morphism in such a diagram is an arbitrary $\mathfrak{g}$-valued 1-form $A$ on $U \times \Delta^k$. This we can decompose as $A = A_U + A_{vert}$, where $A_U$ vanishes on tangents to $\Delta^k$ and $A_{vert}$ on tangents to $U$. The commutativity of the diagram asserts that $A_{vert}$ has to be such that the  curvature 2-form $F_{A_{vert}}$ vanishes when both its arguments are tangent to $\Delta^k$.
-
-On the other hand, there is in the above no further constraint on $A_U$. Accordingly, as we pass to the 1-truncation of $\exp(\mathfrak{g})_{diff}$ we find that morphisms are of the form $(A_U)_1 \stackrel{g}{\to} (A_U)_2$ with $(A_U)^i$ arbitrary. This is the definition of $\mathbf{B}G_{diff}$.
-
-
-+-- {: .un_remark}
-###### Remark
-
-We see below that it is not a coincidence that this is reminiscent to the first condition on an [[Ehresmann connection]] on a $G$-principal bundle, which asserts that restricted to the fibers a connection 1-form on the total space of the bundle has to be flat. Indeed, the presheaf $\mathbf{B}G_{diff}$ may be thought of as the $(\infty,1)$-sheaf of pseudo-connections on _trivial_ $\infty$-bundles. Imposing on this also the second Ehresmann condition will force the pseudo-connection to be a genuine connection.
-
-=--
 
 We now describe [[characteristic class]]es and [[curvature characteristic form]]s on $G$-bundles in terms of these simplicial presheaves.
 For that purpose it is useful for a moment to ignore the truncation issue -- to come back to it later -- and consider these simplicial presheaves untruncated. For that we write
@@ -2410,12 +2311,224 @@ These authors prove that this is indeed the claimed class by refining this $U(1)
 
 #### Curvature characteristics and Chern-Simons forms
 
-We want to lift the above construction of [[characteristic class]]es by <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of Lie algebra cocycles</a> from $\mathbf{B}G$ to $\mathbf{B}G_{diff}$. So we need to extend $\exp(\mu)$ from a map on just $\exp(\mathfrak{g})$ to a map on $\exp(\mathfrak{g})_{diff}.
+For $G$ a Lie group, above we have described [above](#ConnectionOnPrincipalBundle) connections on $G$-principal bundles in terms of cocycles with coefficients in the Lie-[[groupoid of Lie-algebra valued forms]] $\mathbf{B}G_{conn}$
+
+$$
+  \array{
+  && \mathbf{B}G_{conn} &&& connection
+  \\
+  & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+  \\
+  && \mathbf{B}G_{diff} &&& pseudo-connection
+  \\
+  & {}^{\mathllap{\nabla_{ps}}}\nearrow & \downarrow^{\mathrlap{\simeq}} 
+  \\
+  C(U) &\stackrel{g}{\to}& \mathbf{B}G &&& transition\;function
+  }
+  \,.
+$$
+
+In this context we had _derived_ Lie algebra valued forms from the [[parallel transport]] description $\mathbf{B}G_{conn} = [\mathbf{P}_1(-), \mathbf{B}G]$. We now turn this around and use [[Lie integration]] to construct parallel transport from Lie-algebra valued forms. The construction is such that it generalizes verbatim to [[∞-Lie algebra valued forms]].
+
+For that purpose notice that another classical dg-algebra associated with $\mathfrak{g}$ is its [[Weil algebra]] $W(\mathfrak{g})$. 
+
++-- {: .un_lemma}
+###### Fact
+
+The [[Weil algebra]] $W(\mathfrak{g})$ is characterized by the fact that dg-algebra homomorphisms $W(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with arbitrary, not-necessarily flat, $\mathfrak{g}$-valued forms. In other words, $W(\mathfrak{g})$ is -- up to [[isomorphism]] -- [[generalized the|the]] [[free functor|free]] [[dg-algebra]] on the [[graded vector space]] $\mathfrak{g}$:
+
+$$
+  Hom_{dgAlg}(W(V^*), A) \simeq Hom_{Vect_\mathbb{Z}}(V^*, A)
+  \,.
+$$
+
+=--
+
+(Notice that the other dg-algebras that we are dealing with are [[semi-free dga]]s in that only their underlying [[graded algebra]] is free, but not the differential). 
+
+The most obvious realization of the free dg-algebra on $\mathfrak{g}^*$ is $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ equipped with the differential that is precisely the degree shift isomorphism $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ extended as a [[derivation]]. This is not the Weil algebra on the nose, but is isomorphic to it. The differential of the Weil algebra on $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ is given on the unshifted generators by
+
+$$
+  d_{W(\mathfrak{g})}|_{\mathfrak{g}^*} = d_{CE(\mathfrak{g})} + \sigma
+  \,.
+$$
+
+This uniquely fixes the differential on the shifted generators -- a phenomenon known as the [[Bianchi identity]].
+
+The special property of this incarnation of the free dg-algebra on $\mathfrak{g}^*$ is that it makes the canonical dg-algebra homomorphism  
+
+$$
+  CE(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : i^*
+$$
+
+manifest as the map that is the identity on the unshifted generators and zero on the shifted generators. 
+
+Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in the fashion of $\exp(\mathfrak{g})$.
+
 
 +-- {: .un_lemma}
 ###### Observation
 
-Such an extention is given by an [[invariant polynomial]] $\langle - \rangle \in W(\mathfrak{g})$ in transgression with $\mu \in CE(\mathfrak{g})$ and a [[Chern-Simons element]] $cs \in W(\mathfrak{g})$ exhibiting that transgression in that
+The presheaf $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ is isomorphic to
+
+$$
+  \mathbf{B}G_{diff}  : 
+  \tau_1
+  \exp(\mathfrak{g})_{diff}
+  ((U,[k]) \mapsto 
+    \left\{ 
+      \array{
+        \Omega^\bullet_{vert}(U \times \Delta^k) 
+        &\stackrel{A_{vert}}{\leftarrow}&
+        CE(\mathfrak{g})
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet(U \times \Delta^k)
+        &\stackrel{A}{\leftarrow}&
+        W(\mathfrak{g})
+      }
+    \right\}
+   ) 
+  \,
+$$
+
+where on the right we have the 1-truncation of the simplicial presheaf of diagrams as indicated, where the vertical morphisms are the canonical ones.
+
+=--
+
+Here over a given $U$ the bottom morphism in such a diagram is an arbitrary $\mathfrak{g}$-valued 1-form $A$ on $U \times \Delta^k$. This we can decompose as $A = A_U + A_{vert}$, where $A_U$ vanishes on tangents to $\Delta^k$ and $A_{vert}$ on tangents to $U$. The commutativity of the diagram asserts that $A_{vert}$ has to be such that the  curvature 2-form $F_{A_{vert}}$ vanishes when both its arguments are tangent to $\Delta^k$.
+
+On the other hand, there is in the above no further constraint on $A_U$. Accordingly, as we pass to the 1-truncation of $\exp(\mathfrak{g})_{diff}$ we find that morphisms are of the form $(A_U)_1 \stackrel{g}{\to} (A_U)_2$ with $(A_U)^i$ arbitrary. This is the definition of $\mathbf{B}G_{diff}$.
+
+
++-- {: .un_remark}
+###### Remark
+
+We see below that it is not a coincidence that this is reminiscent to the first condition on an [[Ehresmann connection]] on a $G$-principal bundle, which asserts that restricted to the fibers a connection 1-form on the total space of the bundle has to be flat. Indeed, the presheaf $\mathbf{B}G_{diff}$ may be thought of as the $(\infty,1)$-sheaf of pseudo-connections on _trivial_ $\infty$-bundles. Imposing on this also the second Ehresmann condition will force the pseudo-connection to be a genuine connection.
+
+=--
+
+
+We want to lift the [above](#LieIntOfCocycles) construction of [[characteristic class]]es by <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of Lie algebra cocycles</a> from $\mathbf{B}G$ to $\mathbf{B}G_{diff}$. By what we just said we therefore need to extend $\exp(\mu)$ from a map on just $\exp(\mathfrak{g})$ to a map on $\exp(\mathfrak{g})_{diff}.
+
+This is evidently achieved by completing a square in [[dgAlg]] of the form
+
+$$
+  \array{
+    CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{n-1} \mathbb{R})
+    \\
+    \uparrow && \uparrow
+    \\
+    W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}& W(b^{n-1} \mathbb{R})
+  }
+  \,.
+$$
+
+Here $W(b^{n-1}\mathbb{R})$ is the Weil algebra of the Lie $n$-algebra $b^{n-1} \mathbb{R}$. This is the dg-algebra on two generators $c$ and $k$, respectively, in degree $n$ and $(n+1)$ with the differential given by $d_{W(b^{n-1} \mathbb{R})} : c \mapsto k$.
+
+The commutativity of this diagram says that the bottom morphism takes the degree $n$-generator $c$ to an element $cs \in W(\mathfrak{g})$ whose restriction to the unshifted generators is the given cocycle $\mu$. 
+
+As we shall see below, any such choice $cs$ will extend the characteristic cocycle obtained from $\exp(\mu)$ to a characteristic differential cocycle, exhibiting the $\infty$-Chern-Weil homomorphism. But only for special nice choices of $cs$ will this take genuine $\infty$-connections to genuine $\infty$-connections -- instead of to [[pseudo-connection]]s. 
+
+As we discuss in the full [[infinity-Chern-Weil theory]], this makes no difference in cohomology. But in practice it is useful to fine-tune the construction such as to produce nice models of the $\infty$-Chern-Weil homomorphism given by genuine $\infty$-connections. 
+
+This is achieved by imposing the following additional constraint on the choice of extension $cs$ of $\mu$: 
+
++-- {: .un_def}
+###### Definition
+
+For $\mu \in CE(\mathfrak{g})$ a cocycle and $cs \in W(\mathfrak{g})$ a lift of $\mu$ through $W(\mathfrak{g}) \leftarrow CE(\mathfrak{g})$, we say that $d_{W(\mathfrak{g})}$ is an [[invariant polynomial]] _in transgression_ with $\mu$ if $d_{W(\mathfrak{g})} \in \wedge^\bullet \mathfrak{g}^*[1] \hookrightarrow W(\mathfrak{g})$.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+For $\mathfrak{g}$ a [[Lie algebra]], this definition of invariant polynomials is equivalent to more traditional ones.
+
+=--
+
+To see this explicitly, let $\{t^a\}$ be a basis of $\mathfrak{g}^*$ and $\{r^a\}$ the corresponding basis of $\mathfrak{g}^*[1]$. Write $\{C^a{}_{b c}\}$ for the structure constants of the Lie bracket in this basis. 
+
+Then for $P = P_{(a_1 , \cdots , a_k)} r^{a_1} \wedge \cdots \wedge r^{a_k} \in \wedge^{r} \mathfrak{g}^*[1]$ an element in the shifted generators, the condition that it is $d_{W(\mathfrak{g})}$-closed is equivalent to
+
+$$
+  C^{b}_{c (a_1} P_{b, \cdots, a_k)} t^c \wedge r^{a_1} wedge \cdots \wedge r^{a_k}
+  \,,
+$$
+
+where the paramtheses around indices denotes symmetrization, as usual, so that this is equivalent to
+
+$$
+  \sum_{i} C^{b}_{c (a_i} P_{a_1 \cdots a_{i-1} b a_{i+1} \cdots, a_k)}
+  = 0
+$$ 
+
+
+for all choice of indices. This is the component-version of the familiar invariance statement 
+
+$$
+  \sum_i P(t_1, \cdots, t_{i-1}, [t_c, t_i], t_{i+1}, \cdots , t_k)
+  = 0
+$$
+
+for all $t_\bullet \in  \mathfrak{g}$.
+
++-- {: .un_def}
+###### Definition
+
+
+Write $inv(\mathfrak{g}) \subset W(\mathfrak{g})$ (or $W(\mathfrak{g})_{basic}$) for the sub-dgalgebra on invariant polynomials.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+We have $W(b^{n-1}\mathbb{R}) \simeq CE(b^n \mathbb{R})$.
+
+=--
+
+Using this, we can now encode the two conditions on the extension $cs$ of the cocycle $\mu$ as the commutativity of this double square diagram
+
+$$
+  \array{
+    CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{n-1} \mathbb{R})
+    &&& cocycle
+    \\
+    \uparrow && \uparrow
+    \\
+    W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}& W(b^{n-1} \mathbb{R})
+    &&& Chern-Simons\;element
+    \\
+    \uparrow && \uparrow
+    \\
+    inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
+    inv(b^{n-1} \mathbb{R}) & \simeq CE(b^{n+1} \mathbb{R})
+    &&& 
+    invariant\;polynomial
+  }
+  \,.
+$$
+
++-- {: .un_def}
+###### Definition 
+
+In such a diagram, we call $cs$ the **[[Chern-Simons element]]** that exhibits the transgression between $\mu$ and $\langle - \rangle$. 
+
+=--
+
+We shall see below that under the $\infty$-Chern-Weil homomorphism, Chern-Simons elements give rise to the familiar [[Chern-Simons form]]s -- as well as their generalizations -- as local connection data of [[secondary characteristic class]]es realized as [[circle n-bundles with connection]]. 
+
++-- {: .un_lemma}
+###### Observation
+
+What this diagram encodes is the construction of the [[connecting homomorphism]] for the [[fiber sequence|long exact sequence in cohomology]] that is induced from the short exact sequence
+
+$$
+  ker(i^*) \to W(\mathfrak{g}) \to CE(\mathfrak{g})
+$$
 
 $$
   \array{
@@ -2434,69 +2547,20 @@ $$
   \,.
 $$
 
+subject to the extra constraint of basic elements.
+
 =--
 
-Using this we can extend the cocycle to a (double) square and in [[dgAlg]]
+To appreciate the construction so far, recall the
 
-$$
-  \array{
-    CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^n \mathbb{R})
-    \\
-    \uparrow && \uparrow
-    \\
-    W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}& W(b^n \mathbb{R})
-    \\
-    \uparrow && \uparrow
-    \\
-    inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
-    inv(b^n \mathbb{R}) & \simeq CE(b^{n+1} \mathbb{R})
-  }
-  \,.
-$$
++-- {: .un_prop}
+###### Classical fact
 
-Before proceeding with using this to define $\infty$-connections, we pause to remark on the meaning of this algebraic construction. For more details see [[∞-Lie algebra cohomology]].
+For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathcal{B}G \otimes \mathbb{R}$ of the [[classifying space]] $\mathcal{B}G$ is the [[nLab:rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[nLab:Lie algebra]] $\mathfrak{g}$.
 
+=--
 
-In full generality we may think of any morphism $\mathfrak{g} \to \mathfrak{h}$ of $\infty$-Lie algebras as a _cocycle_ on $\mathfrak{g}$ with values in $\mathfrak{h}$, even if $\mathfrak{h}$ is not an [[Eilenberg-MacLane object]]. Such a general notion of cohomology is known as [[nonabelian cohomology]]. And indeed, restricted to the case that $\mathfrak{g}$ is an ordinary Lie algebra, this reproduces the notion of [[nonabelian Lie algebra cohomology]].
-
-Every (nonabelian) cocyle $\mu : \mathfrak{g} \to \mathfrak{h}$ classifies something: its [[homotopy fiber]]. This is the [[homotopy pullback]] $\mathfrak{p} \to \mathfrak{h}$ of the point along $\mu$:
-
-$$
-  \array{
-     \mathfrak{p} &\to& *
-     \\
-     \downarrow && \downarrow
-     \\
-     \mathfrak{h} &\stackrel{\mu}{\to}& \mathfrak{g}
-  }
-  \,.
-$$
-
-This $\mathfrak{p} \to \mathfrak{h}$ is the _extension_ of $\mathfrak{h}$ by the [[nLab:loop space object]] $\Omega \mathfrak{g}$ of $\mathfrak{g}$ that is classified by the cocycle.
-
-There is a standard algorithm for computing such [[nLab:homotopy pullback]]s in terms of ordinary pullbacks of [[nLab:resolution]]s. For that, one finds an $\infty$-Lie algebra $inn(\mathfrak{g})$ and a morphism $inn(\mathfrak{g}) \to \mathfrak{g}$ such that this morphism is a fibration in the ambient [[nLab:model category|model category structure]] and such that we have a diagram
-
-$$
-  \array{
-    inn(\mathfrak{g}) &\stackrel{\simeq}{\to}& *
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathfrak{g} &\stackrel{=}{\to}& \mathfrak{g}
-  }
-  \,,
-$$
-
-where the top morphism is a weak equivalence. Such an object $inn(\mathfrak{g})$ is a [[nLab:universal principal ∞-bundle]]. In fact, here it is a [[nLab:groupal model for universal principal ∞-bundles|groupal universal principal ∞-bundle]] in a sense, in that it carries the structure of an $\infty$-Lie algebra.
-
-There is a standard choice for $inn(\mathfrak{g})$. This is such that its [[Chevalley-Eilenberg algebra]] is the [[nLab:Weil algebra]] of $\mathfrak{g}$: $CE(inn(\mathfrak{g})) = W(\mathfrak{g})$. This is the [[nLab:semifree dga]] whose underlying graded algebra is $\wedge^\bullet( \mathfrak{g}^* \oplus \mathfrak{g}^*[1] )$, and whose differential is the one uniquely fixed by the fact that its restriction to $\wedge^1 \mathfrak{g}^*$ is $d_{inn(\mathfrak{g})} = d_{\mathfrak{g}} + \sigma$, where $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ is the canonical degree shift morphism.
-
-In <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntUnivBund">∞-Lie groupoid -- the Lie-integrated universal principal ∞-bundle</a> we discuss how under [[nLab:Lie integration]] the $\infty$-Lie algebra $\mathfrak{g}$ turns into the one-object [[nLab:delooping]] $\infty$-groupoid $\mathbf{B}G$ of the corresponding [[nLab:∞-Lie group]], while $inn(\mathfrak{g})$ integrates to the delooping $\mathbf{B}\mathbf{E}G$ of a [[nLab:groupal model for universal principal ∞-bundles|groupal model]] for the $G$-[[nLab:universal principal ∞-bundle]] $\mathbf{E}G$.
-
-We may think of $CE(\mathfrak{g})$ as the 
-<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CanonmicalFormOnG">left-invariant differential forms on the ∞-Lie group</a> $G$, and of $W(\mathfrak{g}) = CE(inn(\mathfrak{g}))$ correspondingly as the canonical forms on the $G$-[[nLab:universal principal ∞-bundle]]. For $G$ an ordinary [[nLab:Lie group]] this statement of course goes all the way back to [[nLab:Élie Cartan]].
-
-We obtain the following picture.
+So we have obtained the following picture:
 
 $$
   \array{
@@ -2535,25 +2599,6 @@ $$
     &\stackrel{Lie integration}{\leftarrow}& 
   }
 $$
-
-Here we added in the bottom row the [[nLab:invariant polynomial]]s on the $\infty$-Lie algebra $\mathfrak{g}$. This are those elements of the [[nLab:Weil algebra]] that are invariant under the action of $\mathfrak{g}$ on $inn(\mathfrak{g})$ in a strong sense. The corresponding $\infty$-Lie algebra is a collection of abelian $\infty$-Lie algebras $\prod_i b^{n_i-1}\mathbb{R}$, one factor for each indecomposable invariant polynomial. 
-
-This may be understood as an approximation to the in general not existent _double_ delooping $\mathbf{B} \mathbf{B}G$ of $G$. We may think of the invariant polynomials as differential forms on $\mathbf{B}G$ itself.
-
-+-- {: .un_prop}
-###### Classical fact
-
-For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathcal{B}G \otimes \mathbb{R}$ of the [[classifying space]] $\mathcal{B}G$ is the [[nLab:rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[invariant polynomial]]s on the [[nLab:Lie algebra]] $\mathfrak{g}$.
-
-=--
-
-The projection morphism
-
-$$
-  inn(\mathfrak{g}) \to \prod_i b^{n_i} \mathbb{R}
-$$
-
-we shall now identify as inducing the $\infty$-Lie theoretic analog of the [[Chern-Weil homomorphism]] which computes [[nLab:curvature characteristic form]]s from connections on [[principal ∞-bundle]]s.
 
 
 
@@ -2624,7 +2669,7 @@ $$
   \,.
 $$
 
-The simplicial subpresheaf for which these completions exist we call we write
+The simplicial subpresheaf for which these completions exist we call the 
 
 $$
   \exp(\mathfrak{g})_{conn}
