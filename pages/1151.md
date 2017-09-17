@@ -779,8 +779,13 @@ But this list of properties is essentially that of the <a href="http://ncatlab.o
 
 ## Related concepts
 
+The relation between homology, cohomology and homotopy:
+
 [[!include homotopy-homology-cohomology]]
 
+The ingredients of homology and cohomology:
+
+[[!include chains and cochains - table]]
 
 
 ## History and references 
