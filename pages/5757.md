@@ -16,10 +16,14 @@ His PhD thesis was:
 University of Wales Bangor, available [[Ehlers-thesis.pdf|here:file]].
 
 
-He has published several papers based on his work (jointly with Tim Porter).  these include:
+He has published several papers based on his work (jointly with Tim Porter).  These include:
 
 * [[Phil Ehlers|P. J. Ehlers]] and [[Tim Porter]], _Joins for (Augmented) Simplicial Sets_,  Jour. Pure Applied Algebra, 145 (2000) 37-44
 ([arXiv](http://arxiv.org/abs/math.CT/9904039)) .
+
+* [[Phil Ehlers|P. J. Ehlers]] and [[Tim Porter]], _Varieties of simplicial groupoids, I, Crossed complexes_, Jour. Pure Applied Algebra, 120 (1997) 221 - 233; Erratum: Jour. Pure Applied Algebra, 134 (1999) 221-233.
+
+* [[Phil Ehlers|P. J. Ehlers]] and [[Tim Porter]], _Ordinal subdivision and special pasting in quasicategories_, Advances in Math. 217 (2007), No 2. pp 489-518.
 
 
 category: people
