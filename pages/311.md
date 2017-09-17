@@ -25,6 +25,10 @@ and which sends a [[morphism]] $\alpha : U' \to U$ in $C$ to the [[function]] wh
 
 <img src="http://ncatlab.org/ericforgy/files/hxalpha3.jpg" width = "400"/> 
 
+If we picture $Hom_C(U,X)$ as strands of morphisms as above, then the morphism $\alpha:U'\to U$ serves to "comb" the strands back from $Hom_C(U,X)$ to $Hom_C(U',X)$, i.e.
+
+$$h_X\alpha: Hom_C(U,X)\to Hom_C(U',X).$$
+
 The object $X$ is determined uniquely up to [[isomorphism]] in $C$, and is called a **representing object** for $F$. 
 
 Representability is one of the most fundamental concepts of [[category theory]], with close ties to the notion of [[adjoint functor]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
