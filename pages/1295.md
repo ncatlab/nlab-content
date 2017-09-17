@@ -116,6 +116,12 @@ In terms of the [[internal logic]] of categories, when one considers [[propositi
 
 See there for more details.
 
+### Relation to type theory
+
+Under the [[relation between category theory and type theory]] dependent sum and dependent product are the [[categorical semantics]] of [[dependent sum types]] and [[dependent product types]]
+
+[[!redirects dependent sum natural deduction - table]]
+
 ## Examples
 
 Dependent products (and sums) exist in any [[topos]]:
