@@ -1139,12 +1139,57 @@ where
 * $H_n(-)$ is the $n$-[[chain homology]] functor. Hence
 
 $$
-  (L^n F)(X_\bullet) \coloneqq H_n(F(Q(X)_\bullet))
+  (L_n F)(X_\bullet) \coloneqq H_n(F(Q(X)_\bullet))
   \,.
 $$
 
 =--
 
++-- {: .num_prop #BasicPropertiesOfDerivedFunctors}
+###### Proposition
+
+Let $F \colon \mathcal{A} \to \mathcal{B}$ a [[left exact functor]] in the presence of [[injective object|enough injectives]]. Then for all $X \in \mathcal{A}$ there is a [[natural isomorphism]]
+
+$$
+  R^0F(X) \simeq F(X)
+  \,.
+$$
+
+Dually, of $F$ is a [[right exact functor]] in the presence of [[projective object|enough projectives]], then 
+
+$$
+  L_0 F(X) \simeq F(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first statement, the second is formally dual. 
+
+By remark \ref{InjectiveResolutionInComponents} an injective resolution $X \stackrel{\simeq_{qi}}{\to} X^\bullet$ is equivalently an [[exact sequence]] of the form
+
+$$
+  0 \to X \hookrightarrow X^0 \to X^1 \to \cdots
+  \,.
+$$
+
+If $F$ is left exact then it preserves this excact sequence by definition of left exactness, and hence 
+
+$$
+  0 \to F(X) \hookrightarrow F(X^0) \to F(X^1) \to \cdots
+$$
+
+is an exact sequence. But this means that 
+
+$$
+  R^0 F(X) \coloneqq ker(F(X^0) \to F(X^1)) \simeq F(X)
+  \,.
+$$
+
+=--
 
 +-- {: .num_prop #LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
 ###### Proposition
@@ -1162,11 +1207,17 @@ be a [[short exact sequence]] in $\mathcal{A}$.
 Then there is a [[long exact sequence]] of images of these objects under the right derived functors $R^\bullet F(-)$ of def. \ref{RightDerivedFunctorOfLeftExactFunctor}
 
 $$
-  0 \to R^0F (A) = F(A) \to R^0 F(B) = F(B) \to R^0 F(C) 
-   \stackrel{\delta_0}{\to} 
-  R^1 F(A) \to R^1 F(B) \to R^1F(C)
-   \stackrel{\delta_1}{\to}
-  R^2 F(A) \to \cdots
+  \array{
+    0 &\to& R^0F (A)  &\to&  R^0 F(B)  &\to&  R^0 F(C) 
+     &\stackrel{\delta_0}{\to}& 
+    R^1 F(A) &\to& R^1 F(B) &\to& R^1F(C)
+     &\stackrel{\delta_1}{\to}&
+    R^2 F(A) &\to& \cdots
+    \\
+    && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    0 &\to& F(A) &\to& F(B) &\to& F(C)
+  }
 $$
 
 in $\mathcal{B}$.
@@ -1221,6 +1272,7 @@ $$
   \,.
 $$
 
+Finally the equivalence of the first three terms with $F(A) \to F(B) \to F(C)$ is given by prop. \ref{BasicPropertiesOfDerivedFunctors}.
 
 =--
 
