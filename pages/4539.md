@@ -74,9 +74,13 @@ and
 
 * [[stable (∞,1)-category]]
 
+  * [[stable model category]]
+
   * [[pretriangulated dg-category]]
 
   * [[A-∞-category]]
+
+* [[(∞,1)-category of chain complexes]]
 
 ### Constructions
 
