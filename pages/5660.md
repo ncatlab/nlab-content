@@ -102,6 +102,7 @@ It follows that the Kasparov product in [[KK-theory]] is equivalently given by t
 
 ## Related concepts
 
+* [[KK-bootstrap category]]
 
 [[!include noncommutative motives - table]]
 
