@@ -9,34 +9,17 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+**Homotopy level** is another name for the notion of [[truncated object|truncation]] (particularly in [[(∞,1)-categories]] and their internal language of [[homotopy type theory]]) in which the numbering is offset by 2.  This enables it to "start" at 0 rather than (-2), which is convenient when defining it by induction over the natural numbers in type theory.  Thus, the correspondence between the various terminologies is indicated in the following table.
 
-## Idea
-
-In the context of [[homotopy type theory]] one speaks of **homotopy level** where in [[(∞,1)-category theory]] one speaks of [[n-truncated|n-truncation]].
-
-The traditional counting is, however, offset by two. The correspondence between the various terminologies is indicated in the following table.
-
- [[homotopy type theory]]  | [[(∞,1)-category theory]] |   groupoids
----------------------------|---------------------------|---------------------------
-   hlevel 0                |   (-2)-truncated          | [[(-2)-groupoid]] 
-   hlevel 1                |   (-1)-truncated          | [[(-1)-groupoid]]/[[truth value]] / hProp
-   hlevel 2                |   0-truncated             | [[0-groupoid]]/h[[set]] 
-   hlevel 3                |   1-truncated             | [[1-groupoid]]/[[groupoid]]
-   hlevel 4                |   2-truncated             | [[2-groupoid]]
-
+ Homotopy level | Truncation       |   Groupoids                       | Homotopy type theory
+----------------|------------------|-----------------------------------|----------------------
+  h-level 0     |   (-2)-truncated | [[(-2)-groupoid]]/[[point]]       | [[contractible type]]
+  h-level 1     |   (-1)-truncated | [[(-1)-groupoid]]/[[truth value]] | [[h-proposition]]
+  h-level 2     |   0-truncated    | [[0-groupoid]]/[[set]]            | [[h-set]]
+  h-level 3     |   1-truncated    | [[1-groupoid]]/[[groupoid]]       | h-groupoid
+  h-level 4     |   2-truncated    | [[2-groupoid]]                    | h-2-groupoid
 
 [[!redirects homotopy level]]
 [[!redirects homotopy levels]]
-
 [[!redirects h-level]]
 [[!redirects h-levels]]
-
-[[!redirects h-level 0]]
-[[!redirects h-level 1]]
-[[!redirects h-level 2]]
-
-[[!redirects hProp]]
-[[!redirects hSet]]
