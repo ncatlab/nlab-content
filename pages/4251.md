@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(\infty,1)$-Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
 #### Homotopy theory
@@ -13,17 +13,13 @@
 =--
 =--
 
-
-
-
-
 This is a sub-entry of [[homotopy groups in an (∞,1)-topos]].
 
 For the other notion of homotopy grups in an $(\infty,1)$-topos see [[categorical homotopy groups in an (∞,1)-topos]].
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea {#GeomIdea}
 
@@ -701,3 +697,4 @@ For $\mathbf{B}\mathbb{Z}$ it is the other way round:
 
 
 [[!redirects geometric homotopy groups in an (infinity,1)-topos]]
+[[!redirects geometric homotopy groups in an (∞,1)-topos]]
