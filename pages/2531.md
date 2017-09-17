@@ -1,8 +1,13 @@
-[[!redirects microlinear spaces]]
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
 [[!include synthetic differential geometry - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 
@@ -224,4 +229,7 @@ contains in its appendix D the definition of microlinearity as above.
 
 A comprehensive discussion of microlinearity is in chapter V, section 1 of
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
+
+
+[[!redirects microlinear spaces]]
