@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 # Generators
 * tic
 {: toc}
@@ -45,7 +58,14 @@ Of particular importance is the notion of **strong generator** which is obtained
 
 If the inclusion of the full subcategory on the objects $\{S_a\}$ is [[dense functor|dense]], sometimes $\{S_a\}$ is said to be a **dense generator**.  This is the strongest sort of generator.
 
+## Related concepts
+
+* **generator**
+
+* [[cogenerator]]
+
 
 [[!redirects generating family]]
 [[!redirects generating set]]
 [[!redirects strong generator]]
+[[!redirects generators]]
