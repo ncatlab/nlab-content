@@ -9,14 +9,6 @@ It\'s well known that one can integrate a [[differential form]] on an [[orientat
 
 I call these _absolute_ forms.  The term 'absolute' suggests a lack of additional required structure, in this case some sort of orientation on the domain of integration.  It also suggests [[absolute value]], since many of the examples from classical differential geometry involve absolute values.  Indeed, we can define the absolute value of a form or a pseudoform to be an absolute form, although not every absolute form arises in this way.
 
-Examples of absolute forms from classical differential geometry include:
-*  Absolute $0$-forms are the same as ordinary $0$-forms.
-*  Absolute $n$-forms on an $n$-[[dimensional]] manifold are the same as $n$-pseudoforms (and hence the same as [[absolutely continuous measure|absolutely continuous]] [[Radon measures]]).
-*  The [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\mathbf{x}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Neither $\mathrm{d}s$ nor $\mathrm{d}\mathbf{x}$ (in general) is actually the differential of anything, but $\mathrm{d}\mathbf{x}$ is the canonical [[tangent vector|vector]]-valued $1$-form (which, on a [[Cartesian space]], really is the differential of the [[identity map]] $\mathbf{x}$), and we really can use the metric to take the magnitude of such a form to get an absolute $1$-form.
-*  Similarly, the [[surface area]] element on a Riemannian manifold is an absolute $2$-form (and we can continue into higher dimensions, although the classical [[volume element]] in $\mathbb{R}^3$ is already covered as a $3$-pseudoform).
-*  In [[complex analysis]], ${|\mathrm{d}z|}$ is an absolute $1$-form sometimes used in [[contour integration]].
-*  Any of the above may be multiplied by a scalar field (which is the same as a $0$-form, hence the same as an absolute $0$-form) to produce another absolute form of the same rank (so $f \,\mathrm{d}s$, $f \,{|\mathrm{d}z|}$, etc).
-
 The main theorem of absolute forms is that, if $\omega$ is a (pseudo)-$p$-form and $R$ is a (pseudo)-oriented $p$-dimensional submanifold, then
 \[ {|\int_R \omega|} \leq \int_{|R|} {|\omega|} ,\label{subadditivity} \]
 where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{R}|$ is simply $R$ with its (pseudo)-orientation ignored, and the absolute value on the left is the ordinary absolute value of scalars.  (This theorem also applies if we start with an absolute $p$-form $\omega$, although in that case $R$ starts out unoriented and so is the same as ${|R|}$.)
@@ -24,46 +16,56 @@ where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{
 
 ## Definitions
 
-Let $X$ be a [[smooth manifold]] (or similar sort of space), and let $p$ be a [[natural number]] (typically $0 \leq p \leq n$, where $n$ is the [[dimension]] of $X$).  Recall that an (exterior differential) __$p$-[[exterior differential form|form]]__ $\omega$ on $X$ is a [[function]] that assigns a [[real number]] (or whatever is the relevant sort of scalar) $\omega_c(v_1,\ldots,v_n)$ to a point $c$ in $X$ and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of [[tangent vectors]] at $c$, [[multilinear form|multilinearly]] and [[alternating form|alternating]] in the $v_i$.  Similarly, a __$p$-[[pseudoform]]__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c^o(v_1,\ldots,v_p)$ to a point $c$ in $X$, a local [[orientation]] $o$ at $c$, and a $p$-tuple $(v_1,\ldots,v_p)$ of tangent vectors at $c$, multilinearly and alternating in the $v_i$ and reversing sign under a reversal of $o$.
+Let $X$ be a [[differentiable manifold]] (or similar sort of space), and let $p$ be a [[natural number]] (typically $0 \leq p \leq n$, where $n$ is the [[dimension]] of $X$).  Recall that an (exterior differential) __$p$-[[exterior differential form|form]]__ $\omega$ on $X$ is a [[function]] that assigns a [[real number]] (or whatever is the relevant sort of scalar) $\omega_c(v_1,\ldots,v_n)$ to a point $c$ in $X$ and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of [[tangent vectors]] at $c$, [[multilinear form|multilinearly]] and [[alternating form|alternating]] in the $v_i$.  Similarly, a __$p$-[[pseudoform]]__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c^o(v_1,\ldots,v_p)$ to a point $c$ in $X$, a local [[orientation]] $o$ at $c$, and a $p$-tuple $(v_1,\ldots,v_p)$ of tangent vectors at $c$, multilinearly and alternating in the $v_i$ and reversing sign under a reversal of $o$.
 
 +-- {: .num_defn}
 ###### Definition
-An __absolute $p$-form__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c(v_1,\ldots,v_p)_S^o$ to a point $c$ in $X$, a $p$-dimensional subspace $S$ of the [[tangent space]] at $c$, an [[orientation]] $o$ of $S$, and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of tangent vectors in $S$, multilinearly and alternating in the $v_i$, reversing sign under a reversal of $o$, and (jointly) [[continuous map|continuous]] in $S$, $o$, and the $v_i$.
+An __absolute $p$-form__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c(v_1,\ldots,v_p)$ to a point $c$ in $X$ and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of [[tangent vectors]] at $S$ that satisfies the following conditions:
+1.  Fixing $c$, $\omega_c({-})$ shall be [[uniformly continuous map|continuous]].
+2.  The $p$-tuple $(v_1,\ldots,v_n)$ shall be [[linearly independent subset|linearly independent]] if $\omega_c(v_1,\ldots,v_p) \ne 0$ (so although $\omega_c$ is not linear, we may still call it [[alternating form|alternating]]).
+3.  Fix a $p$-dimensional subspace $S$ of the tangent space at $c$ and an orientation $o$ of $S$.  Now given a linearly independent $p$-tuple $(v_1,\ldots,v_p)$ from $S$ (that is a [[basis]] of $S$), let $\omega_c(v_1,\ldots,v_p)_S^o$ be $\pm\omega_c(v_1,\ldots,v_p)$ according to whether the orientation of $S$ induced by the $v_i$ matches $o$, and extend this by continuity to all $p$-tuples from $S$ (which must be unique and exists by 1&2).  The resulting function $\omega_c({-})_S^o$ shall be [[multilinear form|multilinear]] (and so also alternating, by 2).
 =--
 
-Note that the multilinearity condition here is rather weaker than for a (pseudo)-form, since we specify $S$ first.  Since $S$ is determined by the $v_i$ (at least if they\'re linearly independent, and this case is enough to determine $\omega$ by linearity), this is essentially all that $S$ does.  Shifting $v_1$ slightly outside of $S$ loses all connection provided by the multilinearity condition, which is why we add a continuity condition.  (Continuity holds for (pseudo)-forms automatically, as a consequence of multilinearity.)
+The multilinearity condition here is rather weaker than for a (pseudo)-form, since it applies only within a $p$-dimensional subspace.  Shifting one vector even slightly outside of $S$ loses all connection provided by multilinearity, which is why we need a continuity condition; continuity holds for (pseudo)-forms automatically.
 
-+-- {: .num_remark}
-###### Remark
-I\'m not sure that the continuity condition is actually strong enough.  Should it be uniformly continuous?  Do I even know what that means?
-=--
+An absolute $p$-form $\omega$ is __[[continuous map|continuous]]__ if it is jointly continuous in all of its data ($c$ as well as the $v_i$).  Since the domain of the function $\omega$ is a manifold (a [[vector bundle]] over $X$, although $\omega$ is not a map of vector bundles), we can even discuss [[differentiable map|differentiability]], [[smooth map|smoothness]], and even [[analytic map|analyticity]] of $\omega$ when $X$ has the relevant structure.
 
-Note also that an absolute $n$-form on an $n$-dimensional manifold $X$ is the same thing as an $n$-pseudoform.  ($S$ must be the entire tangent space $T_c{X}$, so $o$ is the same data either way, and continuity follows from multilinearity.)  Similarly, an absolute $0$-form on any manifold is the same thing as a $0$-form.  ($S$ must be the zero space, so $o$ is either positive or negative; we identify the absolute $0$-form $\omega$ with the $0$-form $\omega^+$.)
+An absolute $0$-form is the same thing as a $0$-form.  An absolute $n$-form on an $n$-dimensional manifold $X$ is essentially the same thing as an $n$-pseudoform; with the notation from condition 3, the only possibility for $S$ is the entire tangent space $T_c{X}$, and we have
+$$ \tilde\omega_c^o(v_1,\ldots,v_n) = \omega_c(v_1,\ldots,v_n)_{T_c{X}}^o $$
+to relate the $n$-pseudoform $\tilde{\omega}$ to the absolute $n$-form $\omega$.  Finally, the only absolute $p$-form for $p \gt n$ is $0$.
 
-An absolute $p$-form $\omega$ is __[[continuous map|continuous]]__ if it is jointly continuous in all of its data ($c$ as well as $S$, $o$, and the $v_i$).  For the moment, we decline to define differentiability of absolute $p$-forms.
+An absolute $p$-form $\omega$ is __positive-semidefinite__ (or simply __positive__) at a point $c$ if $\omega_c(v_1,\ldots,v_p) \geq 0$ for every $p$-tuple of vectors at $c$ (it is enough when they are linearly independent); $\omega$ is __positive-definite__ at $c$ if $\omega_c(v_1,\ldots,v_n) \gt 0$ when the $v_i$ are linearly independent.  We define __negative-semidefinite__ (or __negative__) and __negative-definite__ forms similarly.  Also, $\omega$ is __indefinite__ at $c$ if $\omega_c(v_1,\ldots,v_n) \gt 0$ for some $p$-tuple of vectors and $\omega_c(v_1,\ldots,v_n) \lt 0$ for some $p$-tuple.  Finally, $\omega$ is positive/negative/in-(semi)-definite, tout court, if this condition holds for all $c$.
 
-A [[real number|real]]-valued absolute $p$-form $\omega$ is (weakly) __positive__ if $\omega_c(v_1,\ldots,v_p)_S^o \geq 0$ whenever the $v_i$ are linearly independent and $o$ matches the orientation of $S$ induced by the $v_i$.  Then $\omega$ is __strictly positive__ if $\omega_c(v_1,\ldots,v_n)_S^o \gt 0$ under the same conditions.
+Given an absolute $p$-form $\omega$, its __[[absolute value]]__ ${|\omega|}$ is a positive absolute $p$-form:
+$$ {|\omega|}_c(v_1,\ldots,v_n) \coloneqq {|\omega_c(v_1,\ldots,v_n)|} .$$
+If we start with a $p$-form $\omega$, then the same definition defines a positive absolute $p$-form ${|\omega|}$.  If we start with a $p$-pseudoform $\omega$, then essentially the same definition still works; we use either orientation to evalute $\omega$ with the same result.  Note that ${|\omega|}$ is continuous if $\omega$ is.  However, we may *not* conclude that ${|\omega|}$ is differentiable even if $\omega$ is smooth.  On the other hand, ${|\omega|}$ inherits differentiability properties from $\omega$ wherever $\omega \ne 0$.  (Even then, however, we cannot inherit analyticity.)
 
-Given an absolute $p$-form $\omega$, its __[[absolute value]]__ ${|\omega|}$ is a positive absolute $p$-form.  We define ${|\omega|}$ as follows:
-$$ {|\omega|}_c(v_1,\ldots,v_n)_S^o \coloneqq {|\omega_c(v_1,\ldots,v_n)_S^o|} $$
-if the $v_i$ are linearly independent and $o$ matches the orientation of $S$ induced by the $v_i$, and this determines ${|\omega|}$ by multilinearity.  If we start with a $p$-form or a $p$-pseudoform $\omega$, then essentially the same definition defines a positive absolute $p$-form ${|\omega|}$.  (On the right-hand side, we leave out $S$, along with $o$ in the case of a $p$-form; for a $p$-pseudoform, we ignore the original $o$ and use either local orientation at $c$, since the result is the same either way.)  Note that ${|\omega|}$ is continuous if $\omega$ is.  (Assuming we define differentiability of absolute forms, we may *not* conclude that ${|\omega|}$ is differentiable even if $\omega$ is smooth.  However, we expect ${|\omega|}$ to inherit differentiability properties from $\omega$ wherever $\omega \ne 0$.  Even then, however, we do not expect to inherit analyticity.)
-
-Given an absolute $p$-form $\omega$ and a $0$-form (a scalar field) $f$, their __product__ $f\omega$ is an absolute $p$-form.  We define $f\omega$ as follows:
-$$ (f\omega)_c(v_1,\ldots,v_n)_S^o \coloneqq f(c)\omega_c(v_1,\ldots,v_n)_S^o .$$
+Given an absolute $p$-form $\omega$ and a $0$-form (a scalar field) $f$, their __product__ $f \omega$ is an absolute $p$-form.  We define $f\omega$ as follows:
+$$ (f \omega)_c(v_1,\ldots,v_n) \coloneqq f(c) \omega_c(v_1,\ldots,v_n) .$$
 For the moment, we decline to define products of absolute forms of aribtrary rank.
 
-Given an absolute $p$-form $\omega$ on $X$, a manifold $U$, and a map $R\colon U \to X$, the __pullback__ $R^*\omega$ is an absolute $p$-form on $U$.  We define $R^*\omega$ as follows:
-$$ (R^*\omega)_c(v_1,\ldots,v_n)_S^o \coloneqq \omega_{R(c)}(R_*v_1,\ldots,R_*v_n)_{R_*S}^{R_*o} .$$
-Here, $R_*v_i$ is the [[pushforward]] of $v_i$ under $R$, $R_*S$ is any subspace of the tangent space at $R(c)$ that includes $R_*v$ for every $v$ in $S$, and $R_*o$ is any orientation of $R_*S$ with the property that, if the $R_*v_i$ are linearly independent, then $R_*o$ is the pushforward of $o$ under $R$ (which exists because in that case $R$ must be an [[immersion]] at $c$).  The right-hand side is independent of the $R_*S$ and $R_*o$ chosen, essentially because, if there is any choice to make, $R^*\omega_c$ must be zero regardless (or because the set of linearly independent $p$-tuples is dense in the space of all $p$-tuples).  Note that $R^*\omega$ is continuous if $\omega$ is.  (We expect to also pull back differentiability and analyticity properties that $\omega$ and $R$ both have.)
+Given an absolute $p$-form $\omega$ on $X$, a manifold $U$, and a [[continuously differentiable map]] $R\colon U \to X$, the __pullback__ $R^*\omega$ is an absolute $p$-form on $U$:
+$$ (R^*\omega)_c(v_1,\ldots,v_n) \coloneqq \omega_{R(c)}(R_*v_1,\ldots,R_*v_n) .$$
+Here, $R_*v_i$ is the [[pushforward]] of $v_i$ under $R$.  Note that $R^*\omega$ is continuous if $\omega$ is; we can also pull back differentiability and analyticity properties that $\omega$ and $R$ both have.
 
-Given a continuous absolute $p$-form $\omega$ on $X$, a $p$-dimensional manifold $U$, and a map $R\colon U \to X$, the __integral__ $\int_R \omega$ is a scalar.  We define $\int_R \omega$ as follows:
+Given a continuous absolute $p$-form $\omega$ on $X$, a $p$-dimensional manifold $U$, and a continuously differentiable map $R\colon U \to X$, the __integral__ $\int_R \omega$ is a scalar:
 $$ \int_R \omega \coloneqq \int_U R^*\omega .$$
-On the right-hand side, $R^*\omega$ is a continuous absolute $p$-form on $U$, but since $U$ is $p$-dimensional, this is the same as a continuous $p$-pseudoform on $U$, and we already know how to integrate this.
+On the right-hand side, $R^*\omega$ is a continuous absolute $p$-form on $U$, but since $U$ is $p$-dimensional, this is essentially the same as a continuous $p$-pseudoform on $U$, and we already know how to integrate this.
 
 
 ## Examples
 
-(See the Idea section for now.)
+Examples of absolute forms from classical differential geometry include:
+
+*  Absolute $0$-forms are the same as ordinary $0$-forms.
+
+*  Absolute $n$-forms on an $n$-[[dimensional]] manifold are the same as $n$-pseudoforms (and hence the same as [[absolutely continuous measure|absolutely continuous]] [[Radon measures]]).
+
+*  In [[complex analysis]], ${|\mathrm{d}z|}$ is an absolute $1$-form sometimes used in [[contour integration]].
+
+*  The [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\mathbf{x}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Neither $\mathrm{d}s$ nor $\mathrm{d}\mathbf{x}$ (in general) is actually the differential of anything, but $\mathrm{d}\mathbf{x}$ is the canonical [[tangent vector|vector]]-valued $1$-form (which, on a [[Cartesian space]], really is the differential of the [[identity map]] $\mathbf{x}$), and we really can use the metric to take the magnitude of such a form to get an absolute $1$-form.
+
+*  Similarly, the [[surface area]] element on a Riemannian manifold is an absolute $2$-form (and we can continue into higher dimensions, although the classical [[volume element]] in $\mathbb{R}^3$ is already covered as a $3$-pseudoform).
 
 
 ## References
