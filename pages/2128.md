@@ -3,3 +3,15 @@ Let $\mathbb{P}^n = \mathbb{P}^n_k$ be the $n$-dimensional [[projective space]] 
 The __hyperplane line bundle__ $\mathcal{O}(1)$ on $\mathbb{P}^n$ is a [[line bundle]] given by the transition functions $g_{ij}([z_0,\ldots,z_n])=z_j/z_i$ on $U_i\cap U_j$. Its dual bundle $\mathcal{O}(1)^*$ is the __tautological bundle__ (or universal bundle) usually denoted by $\mathcal{O}(-1)$ and the tensor powers are $\mathcal{O}(n)=\mathcal{O}(1)^{\otimes n}$, $\mathcal{O}(-n)=\mathcal{O}(-1)^{\otimes n}$ for $n\geq 0$. The total space of the tautological line bundle can be identified with $\mathbb{C}^{n+1}$ and the projection is exactly $(z_0,\ldots,z_m)\mapsto[z_0,\ldots,z_m]$, i.e. the fiber over $[z_0,\ldots,z_m]$ is the line $\{(\lambda z_0,\ldots,\lambda z_n), 0 \neq \lambda\in \mathbb{C}\}$. The __canonical line bundle__ $K = \Lambda^n T^* \mathbb{P}^n$ equals $\mathcal{O}(-n-1)$. 
 
 The bundles $\mathcal{O}(n)$ are holomorphic if $k=\mathbb{C}$. The sheaves of (regular or holomorphic) sections are also denoted as $\mathcal{O}(n)$ and are said to be the _twists_ of the structure sheaf $\mathcal{O}$; they restrict to the equally denoted sheaves on any projective subvariety and these restrictions up to an isomorphism do not depend on a particular embedding into a particular projective space. 
+
+* [geckoz](http://geckozz.site50.net/)
+[bloepets](http://bloepets.wordpress.com/)
+[colorez](http://colerez.blogspot.com/)
+[kanduyung](http://kanduyung.pun.bz/)
+[yestues](http://ystubes.blogdetik.com/)
+[kataku](http://kataku.ealios.info/wp/)
+[kambingks](http://kambing.trecions.us/)
+[galopets](http://galopets.pertigo.info/)
+[golomie](http://genduts.colopi.info/)
+[heiye](http://deyong.0fees.net/wp/)
+[gogonsf](http://golds.fey345.com/)
