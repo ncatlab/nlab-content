@@ -40,7 +40,7 @@ $$
 
 =--
 
-+-- {: .num_defn #CubicalStrucuture}
++-- {: .num_defn #CubicalStructure}
 ###### Definition
 
 A _cubical structure_ on $\mathcal{L}$ is a trivializing [[section]] $s$ of $\Theta(\mathcal{L})$ such that
@@ -55,12 +55,12 @@ for all elements of $A$ as indicated, and for all [[permutations]] $\sigma$ of t
 
 =--
 
-([Breen 83](#Breen83), [Hopkins 94, section 4](#Hopkins94))
+([Breen 83](#Breen83), [Hopkins 94, section 4](#Hopkins94), [Ando-Hopkins-Strickland 01, def. 2.40](#AndoHopkinsStrickland01))
 
 +-- {: .num_remark}
 ###### Remark
 
-The canonical isomorphsms hidden in def. \ref{CubicalStrucuture} are:
+The canonical isomorphsms hidden in def. \ref{CubicalStructure} are:
 
 1. $\mathcal{L}_0^{\otimes 3} \otimes (\mathcal{L}_0^{-1})^{\otimes 3} \to 1$ the canonical map exhibiting $\mathcal{L}_0^{-1}$ as the inverse ([[dual object]]) of $\mathcal{L}_0$:
 
@@ -68,6 +68,26 @@ The canonical isomorphsms hidden in def. \ref{CubicalStrucuture} are:
 
 =--
 
+There is the following further refinement.
+
++-- {: .num_defn }
+###### Definition
+
+In the situation of def. \ref{CubicalStructure}, if the line bundle $\mathcal{L}$ is equipped with a natural "symmetry"
+
+$$
+  t \colon \mathcal{L}_x \stackrel{\simeq}{\longrightarrow} \mathcal{L}_{-x}
+$$
+
+then a _$\Sigma$-structure_ on $\mathcal{L}$ is a cubical structure, def. \ref{CubicalStructure}, such that in addition
+
+$$
+  s(x,y , -x-y) = 1
+ \,.
+$$
+
+
+=--
 
 ## Examples
 
@@ -77,7 +97,7 @@ For $E$ a [[multiplicative cohomology theory|multiplicative]] [[weakly periodic 
 
 In particular, [[homotopy classes]] of maps of [[E-infinity ring]] spectra $MU\langle 6\rangle \to E$ from the [[Thom spectrum]] to $E$, and hence universal $MU\langle 6\rangle$-[[orientation in generalized cohomology|orientations]] (see there) of $E$ are in natural bijection with these cubical structures.
 
-([Hopkins 94, theorem 6.1, 6.2](#Hopkins94), [Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01))
+([Hopkins 94, theorem 6.1, 6.2](#Hopkins94), [Ando-Hopkins-Strickland 01, corollary 2.50](#AndoHopkinsStrickland01))
 
 This way for instance the [[string orientation of tmf]] has been constructed. See there for more on this.
 
