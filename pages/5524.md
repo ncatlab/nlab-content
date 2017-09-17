@@ -91,13 +91,14 @@ Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ for the canonical
 =--
 
 
-+-- {: .un_prop}
++-- {: .un_prop #CohesivenessUnderSmoothInfGrpd}
 ###### Proposition
 
 The functor $i^*$ given by restriction along $i$ exhibits the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s as a [[cohesive (∞,1)-topos]] over $SynthDiff\infty Grpd$, in that we have a quadruple of [[adjoint (∞,1)-functor]]s
 
 $$
  ( i_! \dashv i^* \dashv i_* \dashv i^! )
+  :
   Smooth \infty Grpd
   :
   \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
@@ -105,7 +106,22 @@ $$
   \,,
 $$
 
-such that $i_!$ preserves finite [[(∞,1)-product]]s.
+such that 
+
+* $i_!$ preserves finite [[(∞,1)-product]]s;
+
+* $i$ factors the [[global section]] [[(∞,1)-geometric morphism]]
+
+  $$
+    \array{
+       Smooth\infty Grpd &&\stackrel{i_*}{\to}&& SynthDiff\infty Grpd
+       \\
+       & {}_{\mathllap{\Gamma}}\searrow && \swarrow_{\mathrlap{\Gamma}}
+       \\
+       && \infty Grpd
+    }
+    \,.
+  $$
 
 =--
 
@@ -159,14 +175,14 @@ $$
   \,,
 $$
 
-were the [[limit]]s are over the [[opposite category|opposite]] [[comma categories]] $(i/K \times D)$ and $Id_{CartSp_{smooth}}/K$, respectively, and where we are using in the first step that there is a unique terminal morphism from $K \in CartSp_{smooth}$ to the [[infinitesimally thickened point]] $D$ and in the second step the [[Yoneda reduction]]-form of the [[Yoneda lemma]]. The rest is notation.
+where the [[limit]]s are over the [[opposite category|opposite]] [[comma categories]] $(i/(K \times D))^{op}$ and $(Id_{CartSp_{smooth}}/K)^{op}$, respectively, and where we are using in the first step that there is a unique terminal morphism from $K \in CartSp_{smooth}$ to the [[infinitesimally thickened point]] $D$ and in the second step the [[Yoneda reduction]]-form of the [[Yoneda lemma]]. The rest is notation.
 
 This shows that the right adjoint to $(-)\circ i$ is itself given by precomposition with a functor, and hence has itself a further right adjoint, which gives us a total of four [[adjoint functor]]s
 
 $$
-  [CartSp_{smooth}, sSet]  
-    \stackrel{\overset{Lan_i}{\to}}{\stackrel{\overset{(-)\circ i}{\leftarrow}}{\stackrel{\overset{(-)\circ p}{\to}}{\stackrel{Ran_p}{\leftarrow}}}}
-  [CartSp_{synthdiff}, sSet]
+  [CartSp_{smooth}^{op}, sSet]  
+    \stackrel{\overset{Lan_i}{\to}}{\stackrel{\overset{(-)\circ i}{\leftarrow}}{\stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}}}
+  [CartSp_{synthdiff}^{op}, sSet]
   \,.
 $$
 
@@ -211,12 +227,12 @@ $$
    \,.
 $$
 
-It is also the case for $Lan_i$, which on representables is given by $i$ itself:
+It is also directly seen to be the case for $Lan_i$, which on representables is given by $i$ itself:
 
 $$
   Lan_i U : (K \times D) \mapsto \int^{U \in CartSp_{smooth}}
     CartSp_{synthdiff}(K \times D, U) \cdot U
-    = U in [CartSp_{synthdiff}, sSet]
+    = U \in [CartSp_{synthdiff}, sSet]
 $$
 
 and hence sends
@@ -227,7 +243,48 @@ $$
 $$
 
 
-It follows that $\Pi_{inf} : SynthDiff \infty Grpd \to Smooth \infty Grpd$ is given by the left [[derived functor]] of restriction along $i$. Since [[(∞,1)-limit]]s of [[(∞,1)-sheaves]] are computed objectwise, this shows that $\Pi_{inf}$ preserves these.
+It follows that $i^* : SynthDiff \infty Grpd \to Smooth \infty Grpd$ is given by the left [[derived functor]] of restriction along $i$, and 
+$i_* : Smooth \infty Grpd \to SynthDiff \infty Grpd$ is given by the right [[derived functor]] of restriction along $p$. 
+
+Finally to see that $(-) \circ p$ preserves covers notice that for every covering family $\{U_i \to U\}$ in $CartSp_{smooth}$ and every morphism $K \times D \to p^* U$ in $CartSp_{synthdiff}$ we may find a covering $\{K_{j} \times D \to K \times D\}$ of $K \times D$ such that we find commuting diagrams
+
+$$
+  \array{
+    K_j \times D &\to& p^* U_{i(j)}
+    \\
+    \downarrow && \downarrow
+    \\
+    K \times D &\to& p^* U
+  }
+  \,.
+$$
+
+This is because by the [[Yoneda lemma]] and the definition of $p^* = (-) \circ p$ a morphism $K \times D \to p^* U$ is equivalently a morphism $K \to U$. For such morphisms diagrams as above can be found by the definition of [[coverage]].
+
+This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the terminology at [[model structure on simplicial presheaves]], which by the discussion there implies that the corresponding [[Cech nerve]] equivalent to the [[sieve]] inclusion is a weak equivalence.
+
+This establishes the quadruple of [[adjoint (∞,1)-functor]]s as claimed.
+
+It remains to show that the relative cohesive $(\infty,1)$-[[geometric morphism]] thus established indeed factors the [[global section]] functor,
+given by evaluation on the [[terminal object]] $*$. This follows by the adjunction property
+
+$$
+  \begin{aligned}
+    \Gamma_{Smooth\infty Grpd}( i_* X )
+    & 
+    \simeq
+    SynthDiff \infty Grpd(*, i_* X)
+    \\
+    & \simeq Smooth\infty Grpd(i^* *, X)
+    \\
+    & 
+    \simeq Smooth \infty Grpd(*, X)
+    \\
+    & \simeq \Gamma_{SynthDiff \infty Grpd}(X)
+  \end{aligned}
+$$
+
+by the fact that $i^*$ is a [[right adjoint]] and hence preserves the [[terminal object]].
 
 =--
 
@@ -235,13 +292,23 @@ It follows that $\Pi_{inf} : SynthDiff \infty Grpd \to Smooth \infty Grpd$ is gi
 +-- {: .un_remark}
 ###### Remark
 
-Accordingly the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] has a _relative_ analog $\Pi_{inf}$, as indicated above. In the discussion of [Paths and geometric Postnikov towers](#StrucPaths) below we identify this with the [[(∞,1)-functor]] that assigns [[∞-groupoid]]s of  [[infinitesimal object|infinitesimal]] paths.
+Conversely this implies that $SynthDiff\infty Grpd$ is a [[strongly ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]], exhibited by the triple of adjunctions
+
+$$
+  (i^* \dashv i_* \dashv i^!) : 
+  SynthDiff \infty Grpd \to Smooth \infty Grpd
+  \,.
+$$
+
 
 =--
+
 
 ## Structures
 
 We discuss the realization of the general abstract <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesive (∞,1)-topos</a> in $SynthDiff \infty Grpd$.
+
+Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Grpd$ is strongly $\infty$-connected _relative_ to [[Smooth∞Grpd]] all of these structures that depend only on $\infty$-connectedness (and not on [[local (∞,1)-topos|locality]]) acquire a relative version.
 
 ### Concrete objects {#StrucConcreteObjects}
 
@@ -265,7 +332,21 @@ We discuss the realization of the general abstract <a href="http://ncatlab.org/n
 
 ### Geometric homotopy and Galois theory {#StrucGeometricHomotopy}
 
-(...)
+Regarding $SynthDiff  \infty Grpd$ as being a [[strongly ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]] by the [above discussion](#RelativeInftyConnectedness) we write
+
+
+$$
+  (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
+  :=
+  (i^* \dashv i_* \dashv i^!)
+  : 
+  SynthDiff\infty Grpd
+    \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
+  Smooth \infty Grpd
+$$
+
+for the corresponding relative [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]].
+
 
 ### van Kampen theorem {#StrucVanKampen}
 
@@ -279,8 +360,9 @@ We discuss the realization of the general abstract <a href="http://ncatlab.org/n
 The **infinitesimal path $\infty$-functor** is the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Paths">intrinsic path ∞-groupoid</a> for the _[relative](#RelativeInftyConnectedness)_ [[strongly ∞-connected (∞,1)-topos|strongly ∞-connected structure]] $\Pi_{inf} : SynthDiff \infty Grpd \to Smooth\infty Grpd$:
 
 $$
-  (\mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf}) :=
-  (Disc_{inf} \Pi_{inf} \dashv Disc_{inf} \circ \Gamma_{inf})
+  (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf}) 
+   :=
+  (i \circ \Pi_{inf} \dashv Disc_{inf} \Pi_{inf} \dashv Disc_{inf} \circ \Gamma_{inf})
   :
   SynthDiff \infty Grpd
   \to 
@@ -294,7 +376,50 @@ $$
 +-- {: .un_prop}
 ###### Observation
 
-For $X$ a [[smooth locus]], $\mathbf{\Pi}_{inf}(X)$ is the corresponding [[de Rham space]]. 
+For $U \times D \in CartSp_{synthdiff} \hookrightarrow SynthDiff\infty Grpd$
+we have that
+
+$$
+  \mathbf{Red}(K \times D) \simeq U
+$$
+
+is the **reduced smooth locus** the formal dual of the [[smooth algebra]] obtained by quotienting out all nilpotent elements in the [[smooth algebra]] $C^\infty(K \times D) \simeq C^\infty(K) \otimes C^\infty(D)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[model category]] presentation of $\mathbf{Red} = i \circ \Pi_{inf} = i_! \circ i^*$ of the [above proof](#CohesivenessUnderSmoothInfGrpd) and using that every [[representable functor|representable]] is cofibrant and fibrant in the local projective [[model structure on simplicial presheaves]] we have
+
+$$
+  \begin{aligned}
+    \mathbf{Red}(U \times D)
+    & 
+    \simeq
+     (\mathbb{L}i_!) (\mathbb{R}i^*) (U \times D)
+    \\
+     &\simeq
+     (\mathbb{L}i_!) i^* (U \times D)
+     \\
+     & \simeq
+     (\mathbb{L}i_!) U
+     \\
+     & \simeq
+     i_! U
+     \\
+    & \simeq U
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Corollary
+
+
+For $X \in SmoothAlg^{op}  \to SynthDiff \infty Grpd$ a [[smooth locus]], we have that $\mathbf{\Pi}_{inf}(X)$ is the corresponding [[de Rham space]], the [[∞-stack]] on $CartSp_{synthdiff}$ in which all [[infinitesimal object|infinitesimal]] neighbour points in $X$ are equivalent: given by the assignment
 
 $$
   \mathbf{\Pi}_{inf}(X) : U \times D \mapsto X(U)
@@ -302,8 +427,27 @@ $$
 $$
 
 =--
-(...)
 
++-- {: .proof}
+###### Proof
+
+By the $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf})$-adjunction relation
+
+$$
+  \begin{aligned}
+    \mathbf{\Pi}_{inf}(X)(U \times D)
+    & =
+    SynthDiff \infty Grpd(U \times D, \mathbf{\Pi}_{inf}(X))
+    \\
+    & \simeq 
+    SynthDiff \infty Grpd( \mathbf{Red}(U \times D), X)
+    \\
+    & \simeq
+     SynthDiff \infty Grpd( U, X )
+  \end{aligned}
+  \,.
+$$
+=--
 
 ### Universal coverings and geometric Whitehead towers {#StrucWhitehead}
 
@@ -362,7 +506,7 @@ The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
 
 * [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)).
 
-The infinitesimal path $\infty$-groupoid adjunction $(\mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is discussed at the level of [[homotopy categories]] in section 3 of 
+The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is discussed at the level of [[homotopy categories]] in section 3 of 
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 
