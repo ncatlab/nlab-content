@@ -79,8 +79,8 @@ More explicitly, this means that the Kleisli-composite of $f : x \to T y$ with $
 $$
   x \stackrel{f}{\to} T y 
   \stackrel{T g}{\to}
-  T T y \stackrel{\mu y}{\to}
-  T y
+  T T z \stackrel{\mu z}{\to}
+  T z
   \,.
 $$
 
