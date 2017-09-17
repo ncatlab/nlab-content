@@ -1,0 +1,5 @@
+[[!redirects Pavel Mnev]]
+
+* [webpage](http://www.pdmi.ras.ru/~pmnev/)
+
+category: people
