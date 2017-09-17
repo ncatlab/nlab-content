@@ -1,6 +1,14 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -8,7 +16,10 @@
 
 ## Definition
 
-A **Heyting algebra** is a [[lattice]] $L$ which as a poset admits an operation of [[implication]] 
++-- {: .un_defn}
+###### Definition
+
+A **Heyting algebra** is a [[lattice]] $L$ which as a [[poset]] admits an operation of [[implication]] 
 
 $$\Rightarrow: L^{op} \times L \to L$$ 
 
@@ -16,16 +27,61 @@ satisfying the condition (really a [[universal property]])
 
 $$(x \wedge a) \leq b \qquad if\;and\;only\;if \qquad x \leq (a \Rightarrow b)$$ 
 
-Alternatively, a Heyting algebra could be described as a [[partial order|poset]] which is [[finitely complete category|finitely complete]], finitely cocomplete, and cartesian closed (equivalently, a poset which is [[bicartesian closed category|bicartesian closed]]); the implication $a\Rightarrow b$ plays the role of an [[exponential object]] $b^a$. Insofar as all these properties of a poset are described by universal properties, being a Heyting algebra is a [[property-like structure]] on a poset; a poset can be a Heyting algebra in at most one way. 
+=--
 
-In logic, Heyting algebras are precisely algebraic models for [[intuitionistic logic|intuitionistic]] [[propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model [[classical logic|classical]] propositional calculus. As one might guess from this description, the "law of the excluded middle" does not generally hold in a Heyting algebra; see the discussion below. 
+This is equivalent to the following definition.
 
-The definition of Heyting algebra may be recast into purely equational form, and so we can speak of an [[internalization|internal]] Heyting algebra in any category with products. For example, it turns out that the [[subobject classifier]] of a [[topos]] carries an internal Heyting algebra with respect to that topos. (It is not generally an internal Boolean algebra, and this explains to a large degree why one often hears that the [[internal logic]] of a topos is intuitionistic.) 
++-- {: .un_defn}
+###### Definition
 
-We require Heyting algebra [[homomorphisms]] to preserve $\Rightarrow$ (in addition to the [[lattice]] structure).  Heyting algebras and their homomorphisms form a [[concrete category]] [[HeytAlg]].
+A Heyting algebra is a [[poset]] wich is
+
+* [[finitely complete category|finitely complete]], 
+
+* finitely cocomplete, 
+
+* and [[cartesian closed category|cartesian closed]].
+
+=--
+In particular it is [[bicartesian closed category|bicartesian closed]].
+
+The implication $a\Rightarrow b$ is the [[exponential object]] $b^a$. 
+
++-- {: .un_remark}
+###### Remark
+
+Insofar as all these properties of a poset are described by [[universal properties]], being a Heyting algebra is a [[property-like structure]] on a poset; a poset can be a Heyting algebra in at most one way. 
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The definition of Heyting algebra may be recast into purely equational form, and so we can speak of an [[internalization|internal]] Heyting algebra in any category with products. 
+
+For example, it turns out that the [[subobject classifier]] of a [[topos]] carries an internal Heyting algebra with respect to that topos. (It is not generally an internal Boolean algebra, and this explains to a large degree why one often hears that the [[internal logic]] of a topos is intuitionistic.) 
+
+=--
 
 
-## Relation to topologies 
++-- {: .un_defn}
+###### Definition
+
+A Heyting algebra [[homomorphisms]] is a morphism of the underlying [[lattice]]s that preserve $\Rightarrow$ .  Heyting algebras and their homomorphisms form a [[concrete category]] [[HeytAlg]].
+
+
+=--
+
+
+
+## Relation to other concepts
+
+### To logic
+
+
+In [[logic]], Heyting algebras are precisely algebraic models for [[intuitionistic logic|intuitionistic]] [[propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model [[classical logic|classical]] propositional calculus. As one might guess from this description, the "law of the excluded middle" does not generally hold in a Heyting algebra; see the discussion below. 
+
+### To topology
 
 One of the chief sources of Heyting algebras is given by [[topology|topologies]]. As a poset, the topology of a topological space $X$ is a lattice (it has arbitrary joins and meets, and therefore finite joins and meets), and the implication operator is given by 
 
@@ -46,7 +102,7 @@ A [[locale]] is the same thing as a frame, but again the morphisms are different
 Topologies that are Boolean algebras are the exception rather than the rule; basic examples include topologies of [[Stone duality|Stone spaces]]. Another example is the topology of a [[discrete space]] $X$.
 
 
-## Relation to Boolean algebras ##
+### To Boolean algebras 
 
 In any Heyting algebra $L$, we may define a negation operator 
 
@@ -89,13 +145,26 @@ The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$
 Thus $\neg\neg: L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i: L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
 
 
-## Categorification
+### To toposes
 
-An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra.  In other words, a $0$-topos (or more precisely, a $(0,1)$-[[(0,1)-topos|topos]]) is essentially a Heyting algebra.  Note that a [[Grothendieck topos|Grothendieck]] $0$-topos is a [[locale]].
+
+An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra: the notion of Heyting algebra is essentially equivalent to that of [[(0,1)-topos]].  Note that a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a [[locale]].
 
 
 ## Examples
 
-Some examples are spelled out at [[internal logic]].
++-- {: .un_prop}
+###### Proposition
+
+For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]], the poset $Sub(X)$ of [[subobject]]s of $X$ is a Heyting algebra.
+
+=--
+
+In particular for $X = \Omega$ the [[subobject classifier]], $Sub(\Omega)$ is a Heyting algebra.
+
+In $\mathcal{T} =$ [[Set]] for every set $S$ we have that $Sub(S)$ is the [[Boolean algebra]] of subset of $S$.
+
+
+More details and examples are spelled out at [[internal logic]].
 
 [[!redirects Heyting algebras]]
