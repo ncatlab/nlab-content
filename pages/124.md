@@ -88,6 +88,9 @@ Equivalently, a Grothendieck topos is any category [[equivalence of categories|e
 
 There is a further elementary property of [[Set]] that might have gone into the definition of elementary topos but historically did not: the existence of a [[natural numbers object]].  Any topos with this property is called a __topos with NNO__ or a __$W$-topos__.  The latter term comes from the result that any such topos must have (not only an NNO but also) all [[W-types]].
 
+### Toposes over a base
+
+* [[base topos]]
 
 ## Properties
 
