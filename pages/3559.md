@@ -29,4 +29,6 @@ $$
 The intepretations of the two premises will be maps of type $\Gamma \times A \to C$ and $\Gamma \times B \to C$. Then the universal property of coproducts gets us to $(\Gamma \times A) + (\Gamma \times B) \to C$, but we can't get any farther -- we need a distributivity law to get $\Gamma \times (A+B) \to C$.
 
 Answer: Does the above answer your question?
+
+Yes, it does. Thanks a lot!
 =--
