@@ -37,13 +37,6 @@ So the group (super-)cohomology theory may allow us to classify all SPT orders e
 
 Free fermion system can also have non-trivial SPT phases, such as topological insulators and topological superconductors. Those free fermion SPT phases are classified by K-theory.
 
-## Relation between SPT order and topological order
-
-SPT states are short-range entangled while [[topological order|topologically ordered]] states are long-range entangled. Topologically ordered states have emergent fractional charge, emergent fractional statistics, and emergent gauge theory. In contrast, SPT states have no emergent fractional charge/fractional statistics for finite-energy excitations, nor emergent gauge theory (due to their short-ranged entanglement).
-
-SPT orders are described by group cohomology theory while [[topological order]]s are
-described by n-category theory.
-
 ## Literature
 
 Related entries: [[TQFT]], [[topological order]], [[group cohomology]], [[entanglement]]
