@@ -738,7 +738,56 @@ Therefore in summary we find the following identifications of [[extended prequan
 ### $\infty$-Chern-Simons theory as the general example
  {#InfinityCSAsGeneralExample}
 
-(...)
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+ 
+    * [[Wilson loop]]
+
+  * [[2d Chern-Simons theory]]
+
+    * [[Poisson sigma-model]], 
+
+    * [[A-model]], [[B-model]] [[topological string]]
+
+  * [[3d Chern-Simons theory]]
+
+    * [[Chern-Simons theory]]
+
+    * [[Dijkgraaf-Witten theory]]
+
+    * [[Courant sigma-model]]
+
+    * [[3d quantum gravity]]
+
+  * [[4d Chern-Simons theory]]
+
+    * [[Yetter model]]
+
+    * [[BF-theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[6d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+    * topological [AdS7/CFT6](http://ncatlab.org/nlab/show/AdS-CFT#AdS7CFT6)-sector
+
+    * [[topological M-theory]]
+
+
+* [[schreiber:∞-Chern-Simons theory]]
+
+  * [[∞-Dijkgraaf-Witten theory]]
+
+  * [[higher dimensional Chern-Simons gravity]]
+
+  * [[AKSZ sigma-model]]
+
+  * [[string field theory]] $\supset$ [[Einstein-Yang-Mills theory]]
+
+
 
 
 ## Definition
