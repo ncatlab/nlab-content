@@ -36,6 +36,14 @@ where the top pairs come from the formula
 ([here](adjoint+infinity-functor#OnSlices)) for localization of adjunctions to slices, and the bottom one exists in each case by the [[adjoint (∞,1)-functor theorem]],
 since the middle one preserves [[(∞,1)-colimits]] (since colimits in slices are computed on the dependent sums, since $Disc$ preserves colimits, and since pullbacks preserve colimits in an $\infty$-topos).  The fact that two top composite preserves the terminal object follows now by the idempotency of the various adjunctions $\Pi_{rel} \flat_{rel} X \simeq \flat_{rel}X$ and then by [[infinitesimal cohesion]] $\Pi \flat_{rel} X \simeq \flat \flat_{rel} X \simeq \flat X$. Finally using that $\flat X$ is 0-connected, hence a set it follows from $\Pi \ast \simeq \ast$ that the composite right adjoint is fully faithful over over $x\in \flat X$, hence is fully faithful on all of $\infty Grpd$.
 
+# Other Stuff
+
+
+###### Theorem
+$2=1$.
+
+###### Proof
+Trivial consequence of the axioms.
 
 =--
 
