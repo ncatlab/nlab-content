@@ -446,6 +446,7 @@ $$
 =--
 
 ### Higher groupoid convolution algebras and n-vector spaces/n-modules
+ {#HigherGroupoidConvolutionAlgebras}
 
 > under construction
 
@@ -455,7 +456,7 @@ There may be several sensible such generalizations. The one discussed now follow
 
 In order to disentangle conceptual from technical aspects, we first discuss [[discrete ∞-groupoid|geometrically discrete higher groupoids]]. The results of this discussion then in particular help to suggest what the right definition of "higher Lie groupoid" in the context of higher convolution algebras should be in the first place.
 
-The consideration are based on the following
+The considerations are based on the following
 
 +-- {: .num_remark}
 ###### Remark
