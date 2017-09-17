@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Category theory
-+--{: .hide}
-[[!include quasi-category theory contents]]
-=--
 #### $(\infty,1)$-Topos Theory
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
 =--
 =--
 =--
