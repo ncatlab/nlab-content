@@ -1,6 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
@@ -334,6 +344,10 @@ $$
 given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 ## References
+
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+
 
 * [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ ,  [arXiv:1005.2230](http://arxiv.org/abs/1005.2230).
 
