@@ -5,13 +5,15 @@
 
 ## Idea
 
-_Coinduction_ is a method of [[proof]] which relies on the fact that any two states of the [[terminal coalgebra]] [[algebra for an endofunctor|for an endofunctor]] $H$ must be equal if they are indistinguishable under repeated operations of $H$. That is, there are no proper coalgebra [[quotient objects]].
+_Coinduction_ is a method of [[proof]] which relies on the fact that any two states of the [[terminal coalgebra]] [[algebra for an endofunctor|for an endofunctor]] $H$ must be equal if they are indistinguishable under repeated operations of $H$. That is, there are no proper coalgebra [[quotient objects]]. Generally, we show the existence of a [[bisimulation]] between states of terminal coalgebra, that is a relation between states, such that when the coalgebra function is
+applied, the respective outputs are still related. Since any bisimulation must be contained within the identity relation, we can then conclude that the states are equal.
 
 Coinduction is [[duality|dual]] to [[induction]].  It generalises to [[corecursion]].
 
 ## Examples
 
-(...)
+Take $add\colon \bar{\mathbb{N}} \times \bar{\mathbb{N}} \to 1 + \bar{\mathbb{N}} \times \bar{\mathbb{N}}$ as defined at [[corecursion]], which defines an addition $+$ on the extended natural numbers. We can then establish a bisimulation between the terms $(n + m)$ and $(m + n)$, from which we can conclude that this addition is commutative. (See p. 52 of Rutten [Universal coalgebra: a theory of systems](http://homepages.cwi.nl/~janr/papers/files-of-papers/universal_coalgebra.pdf).)
+
 
 ## References
  {#References}
