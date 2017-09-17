@@ -38,13 +38,14 @@ $$
 A **cubical** $2$-morphism looks like this:
 
 $$\array{
-a & \to & b \\
-\downarrow & \Downarrow & \downarrow \\
-c & \to & d
-}
-$$
+  &          & b \\
+  & \nearrow &            & \searrow \\
+a &          & \Downarrow &          & d \\
+  & \searrow &            & \nearrow \\
+  &          & c
+}$$
 
-Of course, using [[identity morphisms]] and [[composition]], we can turn one into the other; which is more fundamental depends on what [[geometric shape for higher categories]] you use.
+Of course, using [[identity morphisms]] and [[composition]], we can turn one into the other; which is more fundamental depends on which shapes you prefer.
 
 +--{.query}
 [[Eric]]: Are there any consistency requirements for a 2-morphism? For example, in the bigon above, if $f:a\to b$, $g:a\to b$, and $\alpha:f\to g$, are there requirements on $\alpha:f\to g$ regarding $f$ and $g$? For example, should $\alpha$ come with component 1-morphisms $\alpha_a:a\to a$ and $\alpha_b:b\to b$ such that 
