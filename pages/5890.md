@@ -1,10 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Statement
 
 +-- {: .num_theorem}
 ###### Theorem
 **(Kuiper's theorem)**
 
-For $\mathcal{H}$ a separable infinite-dimensional complex [[Hilbert space]], the group of bounded and invertible operators $GL(\mathcal{H})$, regarded naturally as a [[topological group]], is [[contractible]]. The [[unitary group]] $U(\mathcal{H})$, being homotopy equivalent to $GL(\mathcal{H})$ by the [[Gram-Schmidt process]], is also contractible. 
+For $\mathcal{H}$ a [[separable Hilbert space|separable]] infinite-dimensional complex [[Hilbert space]], the [[group]] of bounded and invertible [[linear operators]] $GL(\mathcal{H})$, regarded as a [[topological group]] under the [[norm topology]] or [[strong operator topology]] or [[weak operator topology]], is [[contractible]]. 
+
+The [[unitary group]] $U(\mathcal{H})$, being [[homotopy equivalence|homotopy equivalent]] to $GL(\mathcal{H})$ by the [[Gram-Schmidt process]], is also contractible. 
 
 =--
 
@@ -14,3 +35,6 @@ The original paper of Kuiper proved this group to be contractible in the
 ## References 
 
 * [Wikipedia article on Kuiper's theorem](http://en.wikipedia.org/wiki/Kuiper%27s_theorem) 
+
+[[!redirects Kuiper theorem]]
+
