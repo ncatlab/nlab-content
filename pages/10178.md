@@ -203,6 +203,8 @@ Some words of context. See ([Nuiten 13, section 1](#Nuiten13)).
 $\,$
 
 
+One of the modern cornerstones of [[Hilbert's sixth problem]] applied to the [[physics]] of [[quantum field theory]] is the following definition:
+
 A [[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect QFT|defect]] _[[local field theory]]_ is a [[monoidal (∞,n)-functor]]
 
 $$
@@ -210,7 +212,6 @@ $$
 $$
 
 from an [[(∞,n)-category of cobordisms]] with [[branes]] and [[domain walls]], to _some_ [[symmetric monoidal (∞,n)-category]].
-
 
 The point of this [[axiom]] is that the [[higher category theory|higher categorical]] [[(∞,n)-functor|(∞,n)-functoriality]] of $Z$ is what encodes the _[[local quantum field theory|locality]]_ of the [[field theory]]. This in turn encodes a fundamental property of the [[fundamental physics]] of the [[observable universe]] called _[[causal locality]]_ : (spacelike-)separated regions of [[spacetime]]/[[worldvolume]] behave like [[independent subsystems]].
 
@@ -1449,48 +1450,53 @@ Next interesting might be the holographic motivic quantization analogously of th
 ## General abstract type theoretic summary
  {#GeneralAbstractTypeTheoreticSummary}
 
-> under construction
 
-We give a summary of the central steps of motivic quantization of local prequantum field theory in general abstract terms of (or akin to) [[homotopy type theory]], hence in the [[internal language]] of [[(∞,1)-toposes]]. This is to bring out the sheer conceptual simplicity underlying the process.
+We give a summary of the central steps of motivic quantization of local prequantum field theory in general abstract terms of [[homotopy type theory]], hence in the [[internal language]] of [[(∞,1)-toposes]], following the idea of _[Synthetic quantum field theory](#SyntheticQuantumFieldTheory)_. This is to bring out the sheer conceptual simplicity underlying the process.
 
 1. Choose a [[homotopy type theory]] $\mathbf{H}$ with [[differential cohesion|differential]] [[cohesion]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(Red \dashv \Pi_{inf} \dashv \flat_{ingf})$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
 
    We say that $\mathbf{H}$ is a context for [[local prequantum field theory]].
 
-1. To choose a _[[phase and phase space in physics|group of phases]]_ is to choose an [[abelian ∞-group]] $\mathbb{G} \in Grp(\mathbf{H})$.
+1. In this [[context]] $\mathbf{H}_{/\ast}$, to choose a _[[phase and phase space in physics|group of phases]]_ is to choose an [[abelian ∞-group]] $\mathbb{G} \in Grp(\mathbf{H})$.
 
    By [[differential cohesion]] this choice induces a a [[type]]
-   $\mathbf{B}\mathbb{G}_{conn}$ of $\mathbb{G}$-[[principal ∞-connections]].
+   $\mathbf{B}\mathbb{G}_{conn} \in \mathbf{H}$ of [[moduli ∞-stack|universal moduli]] of $\mathbb{G}$-[[principal ∞-connections]].
 
-   The [[context]] of such a choice, hence the the [[slice (∞,1)-topos|slice homotopy theory]] $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$, is the context of [[local action functional]] assigning [[phase and phase space in physics|phases]] in $\mathbb{G}$ within the ambient context of local prequantum field theory. 
+   The [[context]] of such, hence the the [[slice (∞,1)-topos|slice homotopy theory]] $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$, is the context of [[local action functionals]] assigning [[phase and phase space in physics|phases]] in $\mathbb{G}$. 
 
-   A [[type]] in this [[context]] is such a [[local action functional]] $\left[\array{\mathbf{Fields} \\ \downarrow^{\mathrlap{\exp(i S)}} \\ \mathbf{B}\mathbb{G}_{conn} }  \right]$, its [[dependent sum]] to the ambient context is the [[moduli ∞-stack]] of [[field (physics)|fields]].
+   A [[type]] in this [[context]] is such a [[local action functional]] $\left[\array{\mathbf{Fields} \\ \downarrow^{\mathrlap{\exp(i S)}} \\ \mathbf{B}\mathbb{G}_{conn} }  \right]$. Its [[dependent sum]] to the ambient context is the [[moduli ∞-stack]] of [[field (physics)|fields]], $\mathbf{Fields} \coloneqq \underset{\mathbf{B}\mathbb{G}_{conn}}{\sum} \exp(i S)$.
 
-   Moreover, the [[automorphism ∞-groups]] of [[types]] in $\mathbf{H}_{/\mathbf{B}\mathbb{G}}_{conn}$ are the [[quantomorphism ∞-groups]] containing the [[Heisenberg ∞-groups]], whose [[Lie differentiation]] are the [[Poisson L-∞ algebras]] and [[Heisenberg L-∞ algebras]] of the local prequantum field theory, respectively.
+   The [[automorphism ∞-groups]] $\mathbf{Aut}(\exp(i S))$ of these [[types]] $\exp(i S) \in \mathbf{H}_{/\mathbf{B}\mathbb{G}}_{conn}$ are equivalently
 
-1. To choose a _[[superposition principle]]_ is to choose an 
-   [[E-∞ ring|commutative ring]] type $E \in CRing_\infty(\mathbf{H})$ and a [[function]] $\rho \colon \mathbf{B}\mathbb{G}_{conn} \longrightarrow \mathbf{B}GL_1(E)$ to its [[∞-group of units]].
+   * the [[quantomorphism ∞-groups]] containing the [[Heisenberg ∞-groups]], whose [[Lie differentiation]] are the [[Poisson L-∞ algebras]] and [[Heisenberg L-∞ algebras]]; 
 
-   Given a superposition principle, the [[dependent sum]] of a
-   [[local action functional]] $\exp(i S)$ along $\rho$ we call the
-   [[higher prequantum line bundle|higher prequantum E-line bundle]].
+   * the [[∞-groups]] of higher [[conserved currents]];
 
-   A [[section]] of the [[higher prequantum line bundle]] is called a [[wavefunction]] and forming the [[space of sections]] is an  [[(∞,1)-functor]]  $E^{\bullet + (-)}(-) \colon \mathbf{H}_{/\mathbf{B}GL_1(E)} \longrightarrow E Mod$ to $E$-[[∞-modules]].
+   of the local prequantum field theory $\exp(i S)$.
 
-1. A [[relation]] in the local prequantum field theory context
-   $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$ we call a 
-   [[space]] of [[trajectories]]. Its [[dependent sum]]
-   along $\rho$ we call the corresponding [[integral kernel]].
-   The image of that under $\Gamma$ we call maybe by the same name.
-   A choice of self-[[dual object|duality]] on its correspondence $E$-module
-   we call a [[path integral]] [[measure]]. This induces
-   a [[linear function]] by passing to [[dual morphisms]] and this is the
-   [[quantum propagator]] given by [[quantization]] of the original
-   space of [[trajectories]]. 
+1. To choose a _[[superposition principle]]_ in the [[context]] $\mathbf{H}_{/\mathbf{B}\mathbb{G}}_{conn}$ is to choose a function [[function]] $\rho \colon \mathbf{B}\mathbb{G} \longrightarrow \mathbf{B}GL_1(E)$ to the [[delooping]] of the [[∞-group of units]] of an  [[E-∞ ring|commutative ring]] type $E \in CRing_\infty(\mathbf{H})$.
 
+   Given a [[superposition principle]] $\rho$, the [[dependent sum]] of a [[local action functional]] along it is the [[higher prequantum line bundle|higher prequantum E-line bundle]] $L \coloneqq \underset{\rho}{\sum} \exp(i S) \in \mathbf{H}_{/\mathbf{B}GL_1(E)}$. 
 
+   A [[section]] of the [[higher prequantum line bundle]] is a [[wavefunction]] and the $E$-[[∞-module]] which is the [[space of sections]] $E^{\bullet + L}(\mathbf{Fields})$ is the [[space of quantum states]].
 
-  
+1. A [[relation]] $\exp(i S_{traj}) \to \exp(i S_{in}) \times \exp(i S_{out})$ in the local prequantum field theory context $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$ is a [[space]] of [[trajectories]] equipped with [[probability amplitudes]]. Its [[dependent sum]] $L_{traj} \to L_{in} \times L_{out}$ along $\rho$ is the corresponding [[integral kernel]], as is its image under $\Gamma$.
+
+   A choice of self-[[dual object|duality]] on the correspondence $E$-module $E^{\bullet + L_{traj}}(\mathbf{Fields}_{traj})$ is  a [[path integral]] [[measure]] $d \mu_{traj}$. The [[obstruction]] to its existence is the [[quantum anomaly]]. 
+
+   A choice of $d\mu_{traj}$ induces a [[linear function]] 
+
+   $$
+     \underset{\phi \in \mathbf{Fields}_{traj}}{\int} 
+      \exp(i S_{traj}(\phi)) d \mu_{traj}(\phi)
+      \;
+     \colon  
+      \;
+     E^{\bullet + L_{in}}(\mathbf{Fields}_{in}) \to E^{\bullet + L_{out}}(\mathbf{Fields}_{out})
+   $$ 
+
+   by passing to [[dual morphisms]]. This is the [[quantum propagator]] given by [[path integral as a pull-push transform|pull-push path integral]] [[quantization]] of $\exp(i S_{traj}) d\mu_{traj}$.
+
 
 ## **I)** General theory
  {#GeneralTheory}
@@ -3178,7 +3184,11 @@ section 1 "Introduction" of
 
 * _[[schreiber:Synthetic Quantum Field Theory]]_
 
+  _[geometric of physics -- The full story in a few formal words](geometry%20of%20physics#TabulatedIndex)_
+
   (a summary and survey of the axiomatics).
+   {#SyntheticQuantumFieldTheory}
+
 
 ### Accounts of the above material
  {#AccountsOfTheAboveMaterial}
