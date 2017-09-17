@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -118,7 +117,7 @@ Let $h_1,h_2 : b \to c$ be two morphisms such that $\stackrel{g}{\to} \stackrel{
 
 Epimorphisms are preserved by [[left adjoint]] [[functor]]s:
 
-if $F : C \to D$ is a [[functor]] which is [[left adjoint]] then for $f \in Mor(C)$ an epimorphism also $F(f) \in Mod(D)$ is an epimorphism
+if $F : C \to D$ is a [[functor]] which is [[left adjoint]] then for $f \in Mor(C)$ an epimorphism also $F(f) \in Mor(D)$ is an epimorphism
 
 =--
 
