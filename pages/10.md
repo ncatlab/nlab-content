@@ -198,11 +198,23 @@ The discussion above for groups can be repeated verbatim for rings, since they t
 
 ### For intervals
 
-[[Andre Joyal]] showed that $Set^{{\Delta}^{op}}$, the category of [[simplicial sets]], is the classifying topos for [[interval objects]].  For example, a geometric morphism from $Set$ to $Set^{{\Delta}^{op}}$ is an **interval** in $Set$, meaning a [[totally ordered set]] with distinct top and bottom elements.  
+[[Andre Joyal]] showed that $Set^{{\Delta}^{op}}$, the category of [[simplicial sets]], is the classifying topos for linear intervals (compare [[interval objects]]). For example, a geometric morphism from $Set$ to $Set^{{\Delta}^{op}}$ is an **interval** in $Set$, meaning a [[totally ordered set]] with distinct top and bottom elements. In general, a linear interval is a model for the one-sorted [[geometric theory]] whose [[signature]] consists of a binary [[relation]] $\leq$ and two [[constant|constants]] $0$, $1$, subject to the following [[axiom|axioms]]: 
+
+* $\vdash (x \leq x)$
+* $\exists_y (x \leq y) \wedge (y \leq z) \vdash (x \leq z)$ 
+* $(x \leq y) \wedge (y \leq x) \vdash (x = y)$ 
+* $\vdash (x \leq y) \vee (y \leq x)$ 
+* $\vdash (0 \leq x) \wedge (x \leq 1)$ 
+* $(0 = 1) \vdash false$
 
 ### For local rings
 
-The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.  Note that a "local ring" in a topos (the structure classified by this topos) is precisely what algebraic geometers usually call a "sheaf of local rings": namely, a sheaf of rings all of whose [[stalk|stalks]] are local. See [[locally ringed topos]]. This is a special case of the case of [Cover-preserving flat functors](#CoverPreservingFLatFunctors) below.
+The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.  A **local ring** is a model of the geometric theory of commutative unital rings in which one adds the axioms 
+
+* $(0 = 1) \vdash false$ 
+* $x + y = 1 \vdash \exists_z (x z = 1) \vee \exists_z (y z = 1)$ 
+
+In a topos of sheaves over a [[sober space]], a local ring is precisely what algebraic geometers usually call a "sheaf of local rings": namely, a sheaf of rings all of whose [[stalk|stalks]] are local. See [[locally ringed topos]]. This is a special case of the case of [Cover-preserving flat functors](#CoverPreservingFLatFunctors) below.
 
 
 
