@@ -71,6 +71,30 @@ Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcate
 
 ## Properties
 
+### Relation to $G$-spaces and Elmendorf's theorem
+
+[[Elmendorf's theorem]] (see there for details) states that the [[(∞,1)-category of (∞,1)-presheaves]] on the orbit category $Orb_G$ are [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences".
+
+$$
+  L_{we} G Top \simeq PSh_\infty(Orb_G)
+  \,.
+$$
+
+
+### Relation toequivariant homotopy theory
+
+The $G$-orbit category is the [[slice (∞,1)-category]] of the [[global orbit category]] $Orb$ over the [[delooping]] $\mathbf{B}G$:
+
+$$
+  Orb_G \simeq Orb_{/\mathbf{B}G}
+  \,.
+$$
+
+This means that in the general context of [[global equivariant homotopy theory]], the orbit category appears as follows.
+
+[[!include equivariant homotopy theory -- table]]
+
+
 ### Relation to Mackey functors
 
 Orbit categories are used often in the treatment of [[Mackey functor]]s from the theory of [[locally compact group]]s and in the definition of [[Bredon cohomology]]. 
@@ -79,9 +103,6 @@ Orbit categories are used often in the treatment of [[Mackey functor]]s from the
 
 It appears in [[equivariant stable homotopy theory]], where the $H$-fixed [[homotopy groups]] of a space form a [[presheaf]] on the [[homotopy category]] of the orbit category (e.g. [page 8, 9 here](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf#page=8)).
 
-### Relation to $G$-spaces and Elmendorf's theorem
-
-[[Elmendorf's theorem]] (see there for details) states that the [[(∞,1)-category of (∞,1)-presheaves]] on the orbit category $Orb_G$ are [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences".
 
 ### Relation to the category of groups, homomorphisms and conjugations
 
@@ -93,9 +114,7 @@ See at _[[global equivariant homotopy theory]]_.
 
 * [[Bredon cohomology]]
 
-## Related concepts
 
-[[!include equivariant homotopy theory -- table]]
 
 
 ## References
