@@ -1,5 +1,5 @@
 
-A **path space** is a [[mapping space]] for maps from the [[interval]], a space of [[path]]s.
+A **path space** is a [[mapping space]] for maps from the [[interval]], a space of [[paths]].
 
 See also 
 
