@@ -13,7 +13,6 @@
 * automatic table of contents goes here
 {:toc}
 
->David Roberts: I need to clarify point finiteness vs local finiteness of a partition of unity.
 
 ## Idea
 
@@ -35,23 +34,21 @@ $$
 \overline{u_j^{-1}(0,1]} \subset U_j.
 $$
 
-+-- {: .query}
-[[David Roberts]]: I know this is standard usage, but it is a bit strange, because then $\{u_j\}$ is not subordinate to $\{u_j^{-1}(0,1]\}$, the open cover it defines. I know the definition is used so that the cover $\mathcal{U}$ doesn't need to be open, but it is a slight failing in my opinion.
-=--
-
+What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refining_ the cover $\mathcal{U}$.
 
 
 ## Properties
 
 [[Paracompact spaces]] have the property that every [[open cover]] has a subordinate partition of unity.
 
-[[Normal spaces]] have the property that every [[locally finite cover]] has a subordinate partition of unity. (apparently - need to check this)
+[[Normal spaces]] have the property that every [[locally finite cover]] has a subordinate partition of unity.
 
-The last two are actually characterisations of paracompact resp. normal spaces (reference Bourbaki, Topology Generale I think)
+The last two are actually characterisations of paracompact resp. normal spaces (reference Bourbaki, Topology Generale - find this!)
+
+Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth bump function on $[-1,1]$). It is not true, however, that analytic manifolds have analytic partitions of unity - the aforementioned bump function is smooth but not analytic.
 
 ### From a non-point finite partition of unity to a partition of unity
 
-> (Need some write up here D.R.)
 
 **Definition:** A collection of functions $\mathcal{U} = \{u_i : X \to [0,1]\}$ such that every $x\in X$ is in the support of some $u_i$. Then $\mathcal{U}$ is called _locally finite_ if the cover $u_i^{-1}(0,1]$ (i.e. the induced cover) is [[locally finite cover|locally finite]].
 
