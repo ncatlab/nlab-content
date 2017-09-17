@@ -347,7 +347,7 @@ We give a general abstract definition of physical fields in
 
 Then we consider some general abstract operations on fields in 
 
-* _[Restriction and pullback of fields](RestrictionAndPullback)_
+* _[Restriction and pullback of fields](#RestrictionAndPullback)_
 
 
 
@@ -386,6 +386,7 @@ $$
 for the $\mathbf{H}$-valued [[hom object]] between $X$ and $A$: the [[dependent product]] over $B \to *$ of the [[internal hom]] $[X, A] \in \mathbf{H}_{/B}$.
 
 =--
+
 
 The following defines the notion of _[[action functional]]_ and as part of the data it defines the notion of _physical field_.
 
@@ -445,9 +446,10 @@ In this context we say that
 +-- {: .num_remark}
 ###### Remark
 
-The above says in particular that in [[higher geometry]] all fields are [[sigma-model]] fields: if we regard the [[moduli ∞-stack]] $\mathbf{Fields}$ as the [[target space]].
+The above says in particular that in [[higher geometry]] all fields are "[[sigma-model]] fields" (see below at _[Examples -- Scalar and Sigma-model fields](#SclarModuliFields)_): if we regard the [[moduli ∞-stack]] $\mathbf{Fields}$ as the [[target space]].
 
 =--
+
 
 ### Restriction and pullback of physical fields
  {#RestrictionAndPullback}
@@ -483,6 +485,8 @@ $$
 between the [[background fields]].
 
 =--
+
+In standard _[Examples](#Examples)_ discussed below we see that this is a familar fact. For instance applied to the field of gravity (see _[Gravity](#OrdinaryGravity)_ below) it says that the gravitational field can be pulled back precisely along [[local diffeomorphisms]], or that spin structures on oriented manifolds (see _[Spin structures](#SpinStructures)_ below) can be pulled back along orientation-preserving maps. Or : for [[Chan-Paton gauge fields]] on [[D-branes]] (see _[Chan-Paton gauge fields](#ChanPatonGaugeFields)_) it reproduces the familiar gauge relation for the [[B-field]] on D-branes known in [[string theory]], which is already less trivial. But the statement applies in full generality.
 
 ### Boundary and defect fields
  {#BoundaryAndDefectFields}
@@ -620,7 +624,7 @@ Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic
 
 =--
 
-These relation are discussed at _[[slice (∞,1)-topos]]_, and ([dcct, section](#spring)).
+These relation are discussed at _[[slice (∞,1)-topos]]_, and ([dcct, section 3.6.1](#dcct)).
 
 
 
@@ -659,11 +663,11 @@ we have the following equivalently identifications when interpreting this as a [
 
 * the field $\phi \colon \Phi_X \to \mathbf{Fields}$ is 
 
-  * a [[cocycle]] in $\Phi_X$-[[twisted cohomology]] on $X$ with local [[coefficients]] $V$
+  * a **[[cocycle]]** in $\Phi_X$-[[twisted cohomology]] on $X$ with local [[coefficients]] $V$
 
-  * equivalently: a $\Phi_X$-twisted [[G-structure|V-structure]] on $X$;
+  * equivalently: a **$\Phi_X$-twisted [[G-structure|V-structure]]** on $X$;
 
-* a [[gauge transformation]] is a [[coboundary]] in $\Phi_X$-twisted $V$-cohomology;
+* a [[gauge transformation]] is a **[[coboundary]]** in $\Phi_X$-twisted $V$-cohomology;
 
 * the [[equivalence classes]] of fields are the $\Phi_X$-[[twisted cohomology|twisted]] $V$-[[cohomology]] of [[spacetime]] $X$
 
@@ -1906,7 +1910,7 @@ $$
 in $\mathbf{H}^{(\Delta^1)}$, hence a diagram in $\mathbf{H}$ of the form
 
 $$
-  \xymatrix{
+  \array{
     Q &\stackrel{}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))
     \\
     {}^{\iota_X}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\hat \mathbf{dd}_n}}
@@ -1918,6 +1922,39 @@ $$
 This identifies a  [[twisted bundle]] with connection on the D-brane whose twist is the class in $H^3(X, \mathbb{Z})$ of the bulk [[B-field]]. 
 
 This relation is the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] cancellation for the [[bosonic string]] or else for the [[type II string]] on $Spin^c$ D-branes.
+
+(...)
+
++-- {: .num_remark }
+###### Remark
+
+If we regard the [[B-field]] as a [[background field]] for the [[Chan-Paton gauge field]], then remark \ref{PullbackAlongGeneralizedLocalDiffeomorphisms} determines along which maps of the B-field the Chan-Paton gauge field may be transformed. 
+
+$$
+  \array{
+    Y &\stackrel{}{\to}& X &\stackrel{}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))_{conn}
+    \\
+    & \searrow & \downarrow & \swarrow
+    \\
+    &&\mathbf{B}^2 U(1)_{conn}
+  }
+  \,.
+$$
+
+On the local connection forms this acts as
+
+$$
+  B \mapsto B + d \alpha
+$$
+
+$$
+  A \mapsto A + \alpha
+  \,.
+$$
+
+This is the famous gauge transformation law known from the string theory literature.
+
+=--
 
 (...)
 
