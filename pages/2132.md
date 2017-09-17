@@ -32,6 +32,8 @@ There is a unique up to a scalar hermitian metric on a complex projective space 
 
 ## Related concepts
 
+[[!include special holonomy table]]
+
 * [[symplectic manifold]]
 
 * [[Kähler polarization]]
