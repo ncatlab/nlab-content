@@ -1,2 +1,2 @@
-This is another common dress. It appeals mostly to those with broad hips and a well formed waist line. The dress is shaped like a mermaid, a narrow top, broadens at the hips and then narrows again. If the bride is wearing a slinky fabric or see-through lace, it is possible to construct the flower girl dress out of the same fabric. But her dress must be age appropriate. The most popular, comfortable and age appropriate styles for a little girl are those that are not too fitted, are fun and frilly and end at mid calf or at the knee.
- <a href="http://www.goturethane.com/Style/jpshoessneaker.asp?cheap=c32.html" title="EWING ATHLETICS">EWING ATHLETICS</a>
+Nivea
+ <a href="http://www.burtonsvilledutchmarket.com/jpshoponline.asp?cheap=shop/jp/p/soabed38.html" title="Chrome Hearts">Chrome Hearts</a>
