@@ -20,6 +20,7 @@ $$ \sum_{i \lt j} x_i x_j .$$
 
 (The homogeneous symmetric functions of degree $0$ are just the constants, as usual.)
 
+There is also a noncommutative analogue: [[noncommutative symmetric function]]s.
 
 ## Definitions
 
@@ -85,17 +86,17 @@ with the special property that $F(n)$ is finite-dimensional for all $n$ and $0$ 
 
 ## References
 
-* Michiel Hazewinkel, Witt vectors, Part 1.  ([arXiv](http://arxiv.org/abs/0804.3888))
+* Michiel Hazewinkel, _Witt vectors_, Part 1. [arXiv/0804.3888](http://arxiv.org/abs/0804.3888)
 
 The classification described above of irreducible $S_n$-modules over $\mathbb{C}$ also works unchanged for any algebraically closed field $k$ of characteristic zero.  It also works when $k$ has characteristic $p$ and $n$ is not divisible by $p$.   There\'s an exercise at the end of section 6.1 of Serre\'s book (page 64 of the french edition) that says that if $k$ is a field of characteristic $p \gt 0$ then the group algebra of the group $G$ is semisimple iff $p$ doesn\'t divide the order of $G$.
 
 Apart from this, the field matters a lot.  There is a construction that gives all irreducible $k S_n$-modules for any field $k$, field, completely analogous to the Specht module construction over $\mathbb{C}$.  However, it describes each module as a quotient module of a Specht module, and in general not even the dimension of these irreducible modules is known, let alone an explicit basis, or representing matrices.
 
-The best book on this subject is:
+Possibly the best book on this subject is:
 
-* Gordon D. James, _The Representation Theory of the Symmetric Groups_, Lecture Notes in Mathematics **682**, Springer, Berlin, 1978.
+* Gordon D. James, _The representation theory of the symmetric groups_, Lecture Notes in Mathematics **682**, Springer, Berlin, 1978.
 
-He also has a readable survey article that outlines developments in the '80's and '90's: 
+James also has a readable survey article that outlines developments in the '80's and '90's: 
 
 * Gordon D. James, Symmetric groups and Schur algebras, in _Algebraic Groups and their Representations_, eds. R. W. Carter and J. Saxl, Kluwer Acad. Publ. Netherlands 1998.
 
@@ -105,7 +106,6 @@ Another approach is described here:
 
 One can study symmetric functions in any characteristic, or over any integral domain.  The power sum symmetric functions do not generate the ring of symmetric functions over $\mathbb{Z}$, and this difference matters. They appear to be of limited usefulness in the description of the modular irreducible representations of $S_n$.
 
-=--
 
 
 [[!redirects symmetric function]]
