@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Yoneda lemma
++--{: .hide}
+[[!include Yoneda lemma - contents]]
+=--
 #### $(\infty,1)$-Topos theory
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
@@ -150,6 +154,16 @@ The model $W G$ for the universal $G$-principal bundle has the special property 
 * **universal principal $\infty$-bundle** , [[groupal model for universal principal ∞-bundles]]
 
 * [[universal connection]]
+
+* [[classifying space]], [[classifying stack]]
+
+* [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+* [[classifying topos]]
+
+* [[subobject classifier]]
+
+* [[classifying morphism]]
 
 
 [[!redirects universal principal ∞-bundle]]
