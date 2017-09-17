@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _skyscraper sheaf_ is a [[sheaf]] supported at a single point.
 
@@ -22,5 +27,10 @@ $$
 ## Remarks ##
 
 * The skyscraper sheaf $skysc_x(S)$ is the [[direct image]] of $S$ under the [[geometric morphism]] $x : Set \to Sh(X)$ which defines the [[point of a topos]] given by $x \in X$ (see there for more details on this perspective).
+
+## References
+
+* [[James Milne]], section 6 of _[[Lectures on Étale Cohomology]]_
+
 
 category: sheaf theory
