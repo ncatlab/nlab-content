@@ -71,11 +71,13 @@ X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
 
 1. An [[elementary topos]] is finitary lextensive; a [[Grothendieck topos]] (or, more generally, any [[cocomplete category|cocomplete]] elementary topos) is infinitary lextensive.
 
-2. The category [[Top]] of [[topological spaces]] is infinitary lextensive.  The category [[Diff]] of smooth [[manifolds]] is infinitary extensive, though it lacks all pullbacks.
+1. The category [[Top]] of [[topological spaces]] is infinitary lextensive.  The category [[Diff]] of smooth [[manifolds]] is infinitary extensive, though it lacks all pullbacks.
 
-3. The category of affine schemes (opposite to the category of commutative [[ring]]s with identity) is lextensive, but (perhaps contrary to geometric intuition) not infinitary lextensive. Some details may be found [here](http://ncatlab.org/toddtrimble/published/Dippy+disproof+of+infinitary+extensivity+of+affine+schemes). 
+1. The category of [[schemes]] is infinitary lextensive. This follows from the fact that the category of functors from the category of [[commutative rings]] to the category of [[sets]] is infinitary lextensive (coproducts and finite limits being computed pointwise in $Set$), and the fact that the category of schemes, as a full subcategory of this functor category, is closed under finite limits and small coproducts. 
 
-4. The category [[Cat]] is infinitary lextensive.
+1. The category of affine schemes (opposite to the category of commutative [[ring]]s with identity) is lextensive, but (perhaps contrary to geometric intuition) _not_ infinitary lextensive. Some details may be found [here](http://ncatlab.org/toddtrimble/published/Dippy+disproof+of+infinitary+extensivity+of+affine+schemes). 
+
+1. The category [[Cat]] is infinitary lextensive.
 
 
 ## Superextensive sites
