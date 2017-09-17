@@ -7,7 +7,7 @@
 
 ## Conditional expectation relative to a random variable
 
-Let $(\Omega,\mathfrak{A},P)$ be a probability space, let $(U,\Sigma,P^Y)$ be a measure space equipped with the pushforward measure induced by $Y$, let $X:(\Omega,\mathfrak{A},P)\to(\mathbb{R},\mathcal{B}(\mathbb{R}), \lambda)$ be a real valued random variable.
+Let $(\Omega,\mathfrak{A},P)$ be a probability space, let $(U,\Sigma,P^Y)$ be a measure space equipped with the pushforward measure induced by $Y$, let $X:(\Omega,\mathfrak{A},P)\to(\mathbb{R},\mathcal{B}(\mathbb{R}), \lambda)$ be a real-valued random variable.
 
 Then for $X$ and $Y$ there exists a essentially unique (two sets are defined to be equivalent if their difference is a set of measure $0$) integrable function $g=:E[X|Y]$ such that the following diagram commutes:
 
