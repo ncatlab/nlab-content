@@ -31,6 +31,12 @@ In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime
 
 * [[Higgs field]]
 
+## Related concepts
+
+* [[wave equation]]
+
+* [[Feynman propagator]]
+
 ## Redirects
 
 Discussion of scalar fields in cosmology includes
@@ -48,3 +54,6 @@ Discussion of scalar fields in cosmology includes
 [[!redirects complex scalar field]]
 [[!redirects complex scalar fields]]
 
+
+[[!redirects scalar particle]]
+[[!redirects scalar particles]]
