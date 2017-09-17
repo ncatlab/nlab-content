@@ -28,3 +28,5 @@ A sketch of a formalization is in section 3, section 8 of
 
 [[!redirects ∞-Dijkgraaf-Witten theories]]
 [[!redirects infinity-Dijkgraaf-Witten theories]]
+
+[[!redirects n-dimensional Dijkgraaf-Witten theory]]
