@@ -151,13 +151,36 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #Concretification}
 ###### Remark
 
 For [[concrete object|non-concrete]] codomains $Y$ one is usually interested in the [[concretification]] of this group. To be discussed... For an example see at _[The quantomorphism $n$-group](#TheQuantomorphismNGroups)_ below.
 
 =--
 
++-- {: .num_prop #HValuedAutomorphismAsFiber}
+###### Proposition
+
+For $f \colon X \to Y$ a morphism in $\mathbf{H}$, its $\mathbf{H}$-valued slice automorphism $\infty$-group according to prop. \ref{HValuedAutomorphismGroup} sits in an [[(∞,1)-pullback]] [[diagram]]
+
+$$
+  \array{
+    \mathbf{Aut}_{\mathbf{H}}(f)
+    &\to&
+    \mathbf{Aut}(X)
+    \\
+      \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{f \circ (-)}}
+    \\
+    {*}
+    &\stackrel{\vdash f}{\to}&
+    [X,Y]
+  }
+  \,,
+$$
+
+where $\mathbf{Aut}(X) \hookrightarrow [X,X]$ is the ordinary [[automorphism ∞-group]] of $X$ in $\mathbf{H}$.
+
+=--
 
 
 +-- {: .num_defn}
@@ -467,7 +490,7 @@ The morphisms are accordingly the suitable [[natural transformations]] of these 
 
 This is precisely the 2-group of "bundle gerbe symmetries" of $\nabla_1$ which is studient in ([Collier](#Collier)). With this identification the main result there is the above claim.
 
-Moreover, the canonical inclusions of smooth 2-groups of prop. \ref{InclusionOfNableBisectionsIntoNable1AndNabla0Bisections} reproduces, under [[Lie differentiation]], the inclusion of the [[Poisson Lie 2-algebra]] into that [[Lie 2-algebra]] of sections of the corresponding [[Courant Lie 2-algebroid]] observed in ([Rogers](#Rogers)).
+Moreover, the canonical inclusions of smooth 2-groups of prop. \ref{InclusionOfNableBisectionsIntoNable1AndNabla0Bisections} reproduces, under [[Lie differentiation]], the inclusion of the [[Poisson Lie 2-algebra]] into that [[Lie 2-algebra]] of sections of the corresponding [[Courant Lie 2-algebroid]] observed in ([Rogers 10](#Rogers10)).
 
 
 ### The traditional quantomorphism group
@@ -482,8 +505,129 @@ the [[group of bisections]] of the corresponding Atiyah groupoid is the [[quanto
 ### The quantomorphism $n$-groups
  {#TheQuantomorphismNGroups}
 
-For $\nabla \colon X \to \mathbf{B}^nU(1)_{conn}$
-the [[∞-group of bisections]] of the corresponding Atiyah groupoid is the [[quantomorphism n-group]] of $\nabla$ regarded as a [[prequantum n-bundle]]. Under [[Lie differentiation]] this is the corresponding [[Poisson Lie n-algebra]]. ([Fiorenza-Rogers-Schreiber](#FiorenzaRogersSchreiber)).
+In ([Rogers 11](#Rogers)) is a proposal for the generalization of the notion of [[Poisson bracket]] [[Lie algebra]] of a [[symplectic manifold]] to a notion of [[Poisson Lie n-algebra]] induced by an _[[n-plectic manifold]]_. Since the [[Lie integration]] of the [[Poisson bracket]] is traditionally known as the _[[quantomorphism group]]_, the Lie integration of these [[Poisson Lie n-algebras]] should be called an _[[quantomorphism n-group]]_.
+
+We here discuss a general abstract theory of [[quantomorphism n-groups]] as [[∞-groups of bisections]] of a higher Atiyah groupoid associated with a [[principal ∞-connections]]. Then we show that under [[Lie differentiation]] this reproduces the construction in ([Rogers 11](#Rogers11)).
+
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]]. Let $\mathbb{G} \on Grpd(\mathbf{H})$ be equipped with the structure of a [[braided ∞-group]]. Then there is a canonical object $\mathbf{B}\mathbb{G}_{conn} \in \mathbf{H}$ which is the [[moduli ∞-stack]] of $\mathbb{G}$-[[principal ∞-connections]].
+
+Fox such a [[principal ∞-connection]] given by a map
+
+$$
+  \nabla \;\colon\; X \to \mathbf{B}\mathbb{G}_{conn}
+  \,.
+$$
+
+
++-- {: .num_remark }
+###### Remark
+
+By prop. \ref{HValuedAutomorphismAsFiber} the $\mathbf{H}$-valued automorphism $\infty$-group $\mathbf{Aut}_{\mathbf{H}}(\nabla)$ according to def. \ref{HValuedAutomorphismGroup} sits in an [[(∞,1)-pullback]] diagram of the form
+
+$$
+  \array{
+    \mathbf{Aut}_{\mathbf{H}}(\nabla)
+    &\to&
+    \mathbf{Aut}(X)
+    \\
+    \downarrow && \downarrow^{\mathrlap{\nabla \circ (-)}}
+    \\
+    {*}
+    &\stackrel{\vdash \nabla}{\to}& [X, \mathbf{B}\mathbb{G}_{conn}]
+  }
+  \,.
+$$
+
+By remark \ref{Concretification} we want to pass to its [[concretification]]. Indeed, in the above diagram the [[mapping ∞-stack]] $[X, \mathbf{B}\mathbb{G}_{conn}]$ is not quite yet the correct [[moduli ∞-stack]] for $\mathbb{G}$-[[principal ∞-connections]] on $X$, but instead its [[differential concretification]] $\mathbb{G}\mathbf{Conn}(X)$ is, as defined at _[concretification - Examples - Of differential moduli](concretification#ConcretificationOfDifferentialModuli)_. Therefore the following definition states the above pullback diagram with that replacement.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Let $\mathbb{G}$ be a [[braided ∞-group]] as above and let $\nabla \;\colon\; X \to \mathbf{B}\mathbb{G}_{conn}$ be a $\mathbb{G}$-[[principal ∞-connection]].
+
+The **[[quantomorphism ∞-group]]** $QuantMorph(\nabla) \in \mathrm{Grp}(\mathbf{H})$ of a $\nabla$ is the object fitting into the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{QuantMorph}(\nabla)
+    &\to&
+    \mathbf{Aut}(X)
+    \\
+    \downarrow && \downarrow^{\mathrlap{\nabla \circ (-)}}
+    \\
+    {*}
+    &\stackrel{\vdash \nabla}{\to}& \mathbb{G}\mathbf{Conn}(X)
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #HamiltonianSymplectomorphismInfinityGroup}
+###### Definition
+
+The [[Hamiltonian symplectomorphism ∞-group]] $\mathbf{HamSympl}(\nabla)$ is the [[1-image]] of the canonical map $\mathbf{QuantMorph}(\nabla) \to \mathbf{Aut}(X)$.
+
+
+=--
+
++-- {: .num_prop #QuantomorphismExtension}
+###### Proposition
+
+The [[quantomorphism ∞-group]] $\mathbf{QuantMorph}(\nabla)$ in an [[∞-group extension]] of the Hamiltonian symplectomorphism $\infty$-group of def. \ref{HamiltonianSymplectomorphismInfinityGroup} by the [[∞-group]] $(\Omega\mathbb{G})\mathbf{FlatConn}(X)$ of [[concretification|concretified]] [[flat ∞-connections]] on $X$: we have a [[homotopy fiber sequence]]
+
+$$
+  (\Omega\mathbb{G})\mathbf{FlatConn}(X)
+  \to 
+  \mathbf{QuantMorph}(\nabla)
+  \to 
+  \mathbf{HamSympl}(\nabla)
+  \,.
+$$
+
+Moreover, at least at the level of the underlying objects, this extension is classified by the [[cocycle]] $\mathbf{HamSympl}(\nabla) \stackrel{\nabla \circ (-)}{\to} \mathbf{B}((\Omega\mathbb{G})\mathbf{FlatConn}(X))$ in that we have a long [[homotopy fiber sequence]]
+
+$$
+  (\Omega\mathbb{G})\mathbf{FlatConn}(X)
+  \to 
+  \mathbf{QuantMorph}(\nabla)
+  \to 
+  \mathbf{HamSympl}(\nabla)
+  \stackrel{\nabla \circ (-)}{\to}
+  \mathbf{B}((\Omega \mathbb{G})\mathbf{FlatConn}(X))
+  \,.
+$$
+
+=--
+
+We now restrict this to a special case and describe it more in detail:
+
+Let $\mathbf{H} = $ [[Smooth∞Grpd]], let $X \in $ [[SmthMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] and let $\mathbb{G} \coloneqq \mathbf{B}^{n-1}U(1) \in \mathrm{Grp}(\mathbf{H})$ be the [[circle n-group]]. Finally let $\omega \colon X \to \Omega^{n+1}$ be an [[n-plectic form]] and $\nabla \;\colon\; X \to \mathbf{B}^n U(1)_{conn}$ a prequantization by a [[prequantum circle n-bundle]].
+
++-- {: .num_prop }
+###### Proposition
+
+The [[Lie differentiation]] of the [[∞-group extension]] sequence of prop. \ref{QuantomorphismExtension} is a [[homotopy fiber sequence]] of [[L-∞ algebras]] 
+
+$$
+  \mathbf{H}(X, \flat \mathbf{B}^{n-1}\mathbb{R})
+  \to
+  \mathfrak{Poisson}(X,\omega) \to \mathcal{X}_{Ham}(X,\omega)
+  \stackrel{\iota_{(-)\omega}}{\to}
+  \mathbf{B}\mathbf{H}(X, \flat \mathbf{B}^{n-1}\mathbb{R})
+  \,,
+$$
+
+where
+
+* $\mathfrak{Poisson}(X,\omega)$ is the [[Poisson Lie n-algebra]] as defined in ([Rogers 11](#Rogers11)).
+
+(...)
+
+=--
 
 ## Related concepts
 
@@ -499,8 +643,15 @@ The [above](#TheTraditionalCourantLie2Algebroid) identification of higher Atiyah
 The corresponding inclusion of the [[Poisson Lie 2-algebra]] into the [[Lie 2-algebra]] of bisections of the [[Courant Lie 2-algebroid]] was first observed in
 
 * [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_ ,  [arXiv:1009.2975](http://arxiv.org/abs/1009.2975).
+ {#Rogers10}
 
 in the context of _[[2-plectic geometry]]_ over [[smooth manifolds]].
+
+The [[Poisson Lie n-algebra]] over an [[n-plectic manifold]], which by prop. \ref{spring} is the [[Lie differentiation]] of the [[quantomorphism n-group]] of any [[prequantum circle n-bundle]] prequantizing the $n$-plectic form, has been proposed in
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ {#Rogers11}
+
 
 Most further statements here will appear in 
 
