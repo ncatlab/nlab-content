@@ -4,7 +4,7 @@ $$\bullet$$
 
 As a [[category]], we can interpret this as a category with a single [[object]] $\bullet$ and a single [[morphism]] (the [[identity morphism]] on the object, which is not shown in the picture since it is automatic).  This can be generalised recursively to [[higher category theory|higher categories]]; as an $(n+1)$-[[n-category|category]], the point consists of a single object $\bullet$ whose endomorphism $n$-category is the point (now understood as an $n$-category).  Of course, to make this work, the point must be a [[symmetric monoidal category|symmetric monoidal]] $n$-category at each stage, but it is (in a unique way).  In the limit, the point can even be understood as an $\infty$-[[infinity-category|category]], with a unique $j$-morphism for each $j \geq 0$ (each of which is an identity for $j \gt 0$).
 
-In the other direction, the point is a [[set]] with a unique element $\bullet$.  It can also be seen as a [[truth value]] that is true.  It can even be understood as the $(-2)$-[[(-2)-category|category]].
+In the other direction, the point is a [[singleton]] [[set]] with a unique element $\bullet$.  It can also be seen as a [[truth value]] that is [[true]].  It can even be understood as the $(-2)$-[[(-2)-category|category]].
 
 As a [[topological space]], the point is the usual point from geometry: that which has no part.  In more modern language, we might say that it has no *structure* ---except that something exists.  (So it is *not* [[empty space|empty]]!)  This is consistent with the preceding paragraphs using the interpretation of a topological space as an $\infty$-[[infinity-groupoid|groupoid]].  (But up to [[homotopy equivalence]], any [[contractible space]] qualifies as a point.)
 
