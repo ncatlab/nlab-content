@@ -336,11 +336,11 @@ This is discussed in ([BergerMoerdijkAlgebras, section 6](#BergerMoerdijkAlgebra
 
   * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
 
-* [[algebra over an operad]] 
+* [[(∞,1)-operad]], [[model structure on operads]]
 
-   [[∞-algebra over an (∞,1)-operad]]
+  * [[algebra over an (∞,1)-operad]], **model structure on algebras over an operad**
 
-   * **model structure on algebras over an operad**
+    * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
 
 
 
