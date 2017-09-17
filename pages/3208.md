@@ -10,7 +10,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -94,7 +94,7 @@ There are many different kinds of "theory" depending on the strength of the "log
 
 * [[equational logic]], 
 
-* [[Horn logic]], 
+* [[Horn theory]],  
 
 * [[essentially algebraic logic]], 
 
@@ -194,11 +194,11 @@ For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] si
 
 * H. Jerome Keisler, _Fundamentals of model theory_, A2 in JOhn Barwise, Handbook of mathematical logic (pp.47-103), North Holland 1977
 
-A standard textbook reference for the categorical point of view is section D of
+A standard textbook reference for the [[categorical semantics]] is section D of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-A discussion of the relation between theories and their syntactic categories is at
+A discussion of the relation between theories and their [[syntactic categories]] is at
 
 * n-category cafe 2010: [what is a theory](http://golem.ph.utexas.edu/category/2010/07/what_is_a_theory.html)
 
@@ -210,6 +210,6 @@ Other references include
 
 In [[Coq]] theories are specified with the 
 
-* _[Gallina specification language](http://coq.inria.fr/doc/Reference-Manual003.html)_
+* _[[Gallina specification language]]_.
 
 [[!redirects theories]]
