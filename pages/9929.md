@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Related concepts
 
@@ -9,3 +23,9 @@
 ## References
 
 * [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+
+Lecture 4 and 6 in 
+
+* [[Jacob Lurie]], _Chromatic homotopy theory_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+ {#LurieLecture}
+
