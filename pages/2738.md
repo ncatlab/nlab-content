@@ -612,15 +612,48 @@ $$
 
 =--
 
++-- {: .num_defn }
+###### Definition
+
+
 We write
 
 $$
-  {\vert -\vert} : dSet \to Operad_{sSet}
+  {\vert -\vert}_H : dSet \to Operad_{sSet}
 $$
 
-for the corresponding [[right adjoint]] [[nerve and realization|realization]].
+for the corresponding [[left adjoint]] [[nerve and realization|realization]].
 
+=--
 
+Via this [[adjunction]]
+
+$$
+  ({\vert -\vert}_H \dashv hcN_d)
+  : 
+  Operad_{sSet}
+  \to dSet
+$$
+
+we may understand generally the theory of dendroidal sets as being about BV-resolutions of simplicial operads.
+
++-- {: .num_prop }
+###### Proposition
+
+Let $P \in Operad_{sSet}$. 
+
+There is an [[isomorphism]] of simplicial operads
+
+$$
+  W_H(P) \stackrel{\simeq}{\to}
+  {\vert hcN_d P \vert}_H
+$$
+
+between the [[Boardman-Vogt resolution]] $W_H(P)$ of $P$ and the homotopy-realization of its homotopy-coherent dendroidal nerve.
+
+=--
+
+All of this is an operadic generalization of the _[[relation between quasi-categories and simplicial categories]]_.
 
 ### The full diagram of relations
  {#FullDiagram}
@@ -726,9 +759,11 @@ With respect to this monoidal struucture $dSet$ is a [[closed monoidal category]
 Using the fact that $dSet$ is a [[closed monoidal category]] with [[internal hom]] dendroidal sets $[C,D]$ for dendroidal sets $C$ and $D$, and using the functor $i^* : dSet \to SSet$ we obtain canonically the structure of an [[SSet]]-[[enriched category]] on $dSet$ with the hom-simplicial set between $C$ and $D$ being $i^*[C,D]$.
 
 
-### Model category structure ###
+### Model category structure
 
-The category $dSet$ also carries the Cisinski-Moerdijk [[model structure on dendroidal sets]]. With this model structure it forms a [[monoidal model category]]. Together with the fact that $i^*: dSet \to SSet$ is a right Quillen functor (with respect to the Joyal model structure on simplicial sets) this imples that $dSet$ is a Joyal-SSet enriched model category.
+The category $dSet$ carries the Cisinski-Moerdijk [[model structure on dendroidal sets]]. With this model structure it forms a [[monoidal model category]]. 
+
+Together with the fact that $i^*: dSet \to sSet$ is a [[right Quillen functor]] (with respect to the [[model structure for quasi-categories]]) this imples that $dSet$ is an $sSet_{Joyal}$-[[enriched model category]] (but not, without further work, an $sSet_{Quillen}$-enriched model category!).
 
 
 ## References ##
