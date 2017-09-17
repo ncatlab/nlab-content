@@ -1,11 +1,18 @@
 
+# Topological data analysis
+* table of contents
+{: toc}
 
-##Idea
+## Idea
 
 The area of Topological Data Analysis (TDA) has emerged recently as being that part of [[computational topology|Computational Topology] concerned with applying the methods of that subject to the analysis of data sets that are often of very large size; the methods used are adapted from algebraic and differential topology and are closely related to those used for spatial reconstruction from scanned data in Visualisation, but the context is, theoretically, not limited to low dimensions nor to data of spatial origin nor, initially, to the visualisation of the data. Its aim, rather, is to give qualitative information on the data, allowing for statistical variation, noise etc.
 
-##References
+
+## References
 
 * Afra Zomorodian, _Topological data analysis_ , in _Advances in Applied and Computational Topology_, Proc. Symp. Applied Math vol 70, (more information [here](http://www.ams.org/bookstore-getitem/item=PSAPM-70)).
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Topological_data_analysis).
+
+
+[[!redirects topological data analysis]]
