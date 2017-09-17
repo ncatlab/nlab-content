@@ -63,6 +63,16 @@ We say that the Dedekind cuts form the [[Dedekind completion]] of the linear ord
 
 ## Variations
 
+The conditions (5&6) are not really necessary.  If you leave them out, then the proof that $\lt$ is a [[connected relation]] on Dedekind cuts fails; but instead we identify cuts $x$ and $y$ whenever neither $x \lt y$ nor $y \lt x$.  Then the set $\mathbb{R}$ of real numbers becomes a [[quotient set]] of the set of Dedekind cuts.  In a similar vein, we can even weaken (3,4,7) as follows:
+
+* 3':  If $a \lt b$ are rational numbers with $b \in L$, then $a' \in L$ for some $a' \lt a$.
+* 4':  If $a \lt b$ are rational numbers with $a \in U$, then $b' \in U$ for some $b' \gt b$.
+* 7':  If $a \lt b$ are rational numbers, then $a' \in L$ for some $a' \lt a$ or $b' in U$ for some $b' \gt b$.
+
+Just as (3,4) follow from (7,8), so (3',4') follow from (7',8).  Alternatively, you can derive (7) from (3,4,7').
+
+Then ...
+
 ...
 
 
