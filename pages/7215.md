@@ -13,6 +13,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A *factorization system over a subcategory* is a common generalization of an [[orthogonal factorization system]] and a [[strict factorization system]], in which factorizations are only unique up to zigzags belonging to some specified subcategory.
@@ -40,6 +44,6 @@ Suppose given a category $J$.  Then to give a category $C$ equipped with an iden
 
 ## References
 
-* [[Eugenia Cheng]], *Distributive laws for Lawvere theories*, [arXiv](http://arxiv.org/abs/1112.3076)
+* [[Eugenia Cheng]], *Distributive laws for Lawvere theories*, [arXiv:1112.3076](http://arxiv.org/abs/1112.3076)
 
 [[!redirects factorization systems over a subcategory]]
