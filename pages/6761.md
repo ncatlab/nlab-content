@@ -1,0 +1,16 @@
+
+# The representable functor theorem
+* table of contents
+{: toc}
+
+## Statement
+
+The __representable functor theorem__ states that a [[Set]]-valued [[functor]] on a [[complete category]] is [[representable functor|representable]] if and only if it is [[continuous functor|continuous]] and has a [[solution set]].
+
+
+## Related facts
+
+As representable functors are ubiquitous, this theorem is essentially equivalent to the [[adjoint functor theorem]] and to theorems guaranteeing the existence of [[limits]].
+
+
+[[!redirects representable functor theorem]]
