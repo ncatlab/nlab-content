@@ -158,7 +158,8 @@ As a [[simplicial operad]], the Barratt-Eccles operad was introduced in
 
 Its realization as a [[dg-operad]] is discussed in detail in
 
-* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_, [arXiv:math.AT/0109158](http://arxiv.org/abs/math/0109158)
+* C. Berger, _Combinatorial models for real configuration spaces and $E_n$-operads_, [pdf](http://math.unice.fr/~cberger/config.pdf)
+* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_, Math. Proc. Cambridge Philos. Soc. 137 (2004), 135-174, [arXiv:math.AT/0109158](http://arxiv.org/abs/math/0109158), [doi](http://10.1017/S0305004103007138)
 {#BerFre01}
 
 * [[Clemens Berger]], [[Benoit Fresse]], _A prismatic decomposition of the Barratt-Eccles operad_, [math.AT/0204326](http://arxiv.org/abs/math/0204326)
