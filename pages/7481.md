@@ -162,6 +162,21 @@ $$
 
 This appears as ([Johnstone, cor. B.2.3.22](#Johnstone)).
 
+## Pedestrian definition
+
+There is also a more pedestrian definition of an internal sheaf: Let $(\mathbb{C},J)$ be an [[internal site]] in $\mathcal{S}$, i.e. an [[internal category]] $\mathbb{C}$ equipped with an internal [[coverage]] $J$. Let $\mathcal{S}^{\mathbb{C}^{op}}$ be the topos of [[internal diagram|internal diagrams]] on $\mathbb{C}^{op}$.
+
++-- {: .num_defn }
+###### Definition
+
+1. An **internal presheaf** on $\mathbb{C}$ is an internal diagram $F \in \mathcal{S}^{\mathbb{C}^{op}}$.
+1. An **internal sheaf** on $\mathbb{C}$ (with respect to $J$) is an internal presheaf on $\mathbb{C}$ satisfying one of the following equivalent conditions:
+    1. $F$ satisfies the [usual sheaf condition](/nlab/show/sheaf#GeneralComponentwiseDefinition) interpreted in the [[internal language]] of $\mathcal{S}$.
+    1. $F$ is a $j$-sheaf for the [[Lawvere-Tierney topology]] on $\mathcal{S}^{\mathbb{C}^{op}}$ induced by $J$.
+(The equivalence is because the usual proof for $\mathcal{S} = $[[Set]] is constructive and can thus be internalized in an arbitrary topos.)
+
+=--
+
 ## Related concepts
 
 * [[internal diagram]]
