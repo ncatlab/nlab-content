@@ -1,4 +1,4 @@
-The intention of this page is to list a wide choice of main books and comprehensive reviews in [[mathematical physics]]. The irrelevant repetitions and minor, too specialized and too obsolete books for any major purpose should be avoided. We avoid references for quantum groups as they are many and the main ones can be found at the [[quantum group]] entry. 
+The intention of this page is to list a wide choice of main books and comprehensive reviews in [[mathematical physics]]. The irrelevant repetitions and minor, too specialized and too obsolete books for any major purpose should be avoided. We avoid references for quantum groups as they are many and the main ones can be found at the [[quantum group]] entry; similarly we avoided the relevant books on Kac-Moody algebras and groups but included the books on related VOAs and the Pressley-Segal book. 
 
 #Contents#
 * automatic table of contents goes here
@@ -42,35 +42,35 @@ On [[quantum mechanics]]:
 
 * A. Cannas da Silva, A. Weinstein, _Geometric models for noncommutative algebras_, 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
 
-## Lorentzian Geometry and General Relativity
+## Lorentzian geometry and general relativity
 
 Global aspects of the geometry of spacetimes:
 
-* John K. Beem; Paul E. Ehrlich, ; Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete))
+* John K. Beem, Paul E. Ehrlich, Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete)) (global aspects)
+
+* A Besse, _Einstein manifolds_, 2 vols. (differential geometry of solutions to Einstein equations, constant negative curvature, classification results, encyclopaedic)
 
 After the introduction emphasis on asymtotics of spacetimes far from gravitation objects:
 
-* John Steward: _Advanced general relativity_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0752.53048&format=complete))
+* John Steward, _Advanced general relativity_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0752.53048&format=complete))
 
 Despite its title the next monograph does not just present the Kerr spacetime, it illustrates many core features of GR with the Kerr spacetime as the prominent example:
 
-* Barrett: O'Neill: _The geometry of Kerr black holes._ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0828.53078&format=complete)) 
+* Barrett O'Neill, _The geometry of Kerr black holes._ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0828.53078&format=complete)) 
 
 Here is an introduction to spinors in GR: 
 
-* Peter O'Donnell: _Introduction to 2-spinors in general relativity._  ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1021.83001&format=complete)) 
+* Peter O'Donnell, _Introduction to 2-spinors in general relativity._  ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1021.83001&format=complete)) 
 
-while the classic reference for this is of course:
+while the classic reference for this is:
 
-* Roger Penrose and Wolfgang Rindler: _Spinors and Spacetimes_ (two volumes, [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0538.53024&format=complete) of the first edition of the first volume)
+* Roger Penrose, Wolfgang Rindler, _Spinors and spacetimes_ (2 vols, [vol 1, ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0538.53024&format=complete))
 
-An account of analytical solutions of black hole spacetimes:
+* S. Chandrasekhar, _The mathematical theory of black holes_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0912.53053&format=complete)) (classics with analytic solutions of black hole spacetimes)
 
-* S. Chandrasekhar: _The mathematical theory of black holes. _ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0912.53053&format=complete))
+* Eric Poisson, _A relativist's toolkit. The mathematics of black-hole mechanics._ ([http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete)) (computationally oriented)
 
-Less focussed on proving mathematical results and more on computations:
-
-* Eric Poisson: _A relativist's toolkit. The mathematics of black-hole mechanics._ ([http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete))
+For supergravity see the appropriate chapters in the above listed collection by Deligne et al. and the above book by Ward and Wells; and mainstream theoretical physics gravity textbooks by Misner and Thorpe; Schutz; Landau-Lifschitz vol. 2; Wald etc. 
 
 ## Integrable systems and solitons
 
@@ -139,6 +139,10 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
 * B. Bakalov, A. Kirillov, _Lectures on tensor categories and modular functors_, AMS, University Lecture Series, (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], __Chiral algebras__, Colloqium Publications __51__,  Amer. Math. Soc. 2004, [gbooks](http://books.google.hr/books?id=yHZh3p-kFqQC&lpg=PP1&vq=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&dq=isbn%3A0817638296&pg=PP1#v=onepage&q=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&f=false)
+
+The related subject of positive energy representations for loop groups is represented in unavoidable reference
+
+* A. Pressley, G. Segal, _Loop groups_, Oxford Math. Monographs, 1986.
 
 ## Axiomatic quantum/statistical field theory and rigorous approaches to path integral
 
