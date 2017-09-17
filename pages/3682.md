@@ -1,10 +1,21 @@
 
-<div class="rightHandSide toc">
-[[!include model category theory - contents]]
-***
-[[!include infinity-limits - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### $(\infty,1)$-Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
 
 
 #Contents#
