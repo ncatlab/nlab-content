@@ -16,7 +16,7 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-    \flat_{\mathfrak{a}} \Pi_{\mathfrak{a}dR} X  && && X &&  && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
+    \Pi_{\mathfrak{a}dR} \flat_{\mathfrak{a}} X  && && X &&  && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
