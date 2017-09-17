@@ -84,7 +84,13 @@ Ours is the age to figure this out.
 
 * [[scattering amplitude]]
 
-* [[renormalization]]
+* [[perturbation thery]] 
+
+  * [[Feynman diagram]]
+
+  * [[renormalization]]
+
+* [[non-perturbative quantum field theory]]
 
 * [[AQFT]], [[FQFT]], 
 
