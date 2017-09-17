@@ -25,6 +25,10 @@ This equivalence is a certain limit of the more general [[quantum geometric Lang
 
   * [[electro-magnetic duality]]
 
+    * [[Montonen-Olive duality]]
+
+  * [[Seiberg duality]]
+
   * **geometric Langlands correspondence**
 
   * [[quantum geometric Langlands correspondence]]
