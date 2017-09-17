@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[genus]] in [[elliptic cohomology]].
+
+
+## Related concepts
+
+* [[elliptic cohomology]]
+
+* [[Witten genus]]
+
+
+## References
+
+The notion of elliptic genus was introduced in
+
+* [[Serge Ochanine]], _Sur les genres multiplicatifs definis par des integrales elliptiques_, Topology, Vol. 26, No. 2, 1987 ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Mult-genre-Ochanine.pdf))
+
+The relation of this to [[elliptic cohomology]] was understood in
+
+* [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_ ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
+
+The interpretation of the elliptic genus as the [[partition function]] of the [[type II superstring]] is due to 
+
+* [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1104117076))
+
+[[!redirects elliptic genera]]
