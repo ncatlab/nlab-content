@@ -1,6 +1,6 @@
 #Definition#
 
-A **zero object**, or **null object**, is an [[object]] of a [[category]] that is both an [[initial object]] and a [[terminal object]].  Equivalently, a category has a zero object iff it has an initial object $\bot$ and a terminal object $\top$ and the unique morphism $\bot\to\top$ is an [[isomorphism]].  
+A **zero object**, or **null object**, is an [[object]] of a [[category]] that is both an [[initial object]] and a [[terminal object]].  Equivalently, a category has a zero object iff it has an initial object $\bot$ and a terminal object $\top$ and the unique morphism $\bot\to\top$ is an [[isomorphism]].  A category with a zero object is sometimes called a [[pointed category]].
 
 #Examples#
 
@@ -17,6 +17,11 @@ A **zero object**, or **null object**, is an [[object]] of a [[category]] that i
 # Consequences #
 
 In a category with a zero object 0, there is always a canonical morphism from any object $A$ to any other object $B$ called the _[[zero morphism]]_, given by the composite $A\to 0 \to B$. Thus, such a category becomes [[enriched category|enriched]] over pointed sets, a partial converse to the last example above.
+
+# Related Pages #
+
+* [[pointed category]]
+* [[zero object in a derivator]]
 
 
 [[!redirects 0-object]]
