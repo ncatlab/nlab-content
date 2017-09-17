@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -85,8 +84,14 @@ or as theorem 9.1.3 in [Ginzburg](http://arxiv.org/PS_cache/math/pdf/0506/050660
 
 =--
 
+Actually, the HKR theorem holds on the level of chains: there is a quasi-isomorphism of dg vector spaces from polyvector fields (with zero differential) to the Hochschild cochain complex (with Hochschild differential).
 
 
+## Some additional remarks
+
+The HKR map is a map of dg vector spaces, but not a map of dg algebras nor a map of dg Lie algebras. However, the [[Kontsevich formality|formality theorem]] of Kontsevich states that nevertheless the HKR map can be extended to an $L_\infty$ quasi-isomorphism. See [this MO post](http://mathoverflow.net/questions/32889/a-few-questions-about-kontsevich-formality) for details. 
+
+The HKR map is only an isomorphism of vector spaces, not an isomorphism of algebras. In order to make it an isomorphism of algebras, one must add a "correction" by the square root of the $\hat{A}$ class. This is analogous to the [[Duflo isomorphism]]. See Kontsevich and Caldararu.
 
 
 
@@ -103,5 +108,8 @@ Textbook references include
 * [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603)) section 4, Theorem 9.1.3
 
 [[!redirects HKR theorem]]
+[[!redirects HKR]]
+[[!redirects Hochschild-Kostant-Rosenberg]]
+[[!redirects Hochschild--Kostant--Rosenberg]]
 [[!redirects Hochschild–Kostant–Rosenberg theorem]]
 [[!redirects Hochschild--Kostant--Rosenberg theorem]]
