@@ -103,7 +103,7 @@ For this reason one sees in the literature sometimes the term "torsor" for inter
 
 ## References
 
-A standard textbook references is section B3.2 in 
+A standard reference is section B3.2 in 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
   {#Johnstone}
