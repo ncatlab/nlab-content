@@ -36,6 +36,7 @@
 The _Kaluza-Klein mechanism_ is the observation that pure [[gravity]] on a [[Cartesian product|product]] [[spacetime]] $X \times F$ with fixed [[metric]] $g_F$ on $F$ looks on $X$, as an [[effective field theory]], like [[gravity]] coupled to [[Yang-Mills theory]] -- [[Einstein-Yang-Mills theory]] -- for [[gauge group]] $G$ the [[Lie group]] of [[isometries]] of $(F,g_F)$.  In particular for $F = S^1$ the [[circle]], it yields [[electromagnetism]] coupled to [[gravity]] (and a [[dilaton]]) -- [[Einstein-Maxwell theory]].
 
 ### The mechanism
+ {#IdeaTheMechanism}
 
 More precisely, the [[Einstein-Hilbert action]] functional on [[pseudo-Riemannian metrics]] on a [[Cartesian product|product]] [[spacetime]] $X \times F$ 
 
@@ -91,6 +92,8 @@ $$
 This is the infinitesimal form of a [[gauge transformation]]: an [[isomorphism]] in the [[groupoid of Lie algebra-valued forms]]. This means than _every_ functional $(g_{X \times F}) \mapsto S(g_{X\times F})$ that is invariant under [[diffeomorphisms]] will restrict on metrics of the above form to something that looks like an action functional for a [[gauge theory]] of the [[gauge field]] $A$.
 
 Moreover, all this of course remains true if the [[Cartesian product|product]] $X \times F$ -- which we may think of as the trivial $F$-[[fiber bundle]] over $X$ -- is generalized to any [[associated bundle]] $E \to X$ with [[fiber]] $F$, associated to a $G$-[[principal bundle]] $P \to X$ (hence such that $E = P \times_G F$), in which case the above decomposition of the metric applies locally.
+
+Then one finds that the KK-mechanics indeed not only reproduces [[gauge fields]] and their correct [[dynamics]] from pure [[gravity]] in higher dimensions, but also the [[forces]] which they excert on test particles. For instance the rajectory of a [[charged particle]] subject to the [[Lorentz force]] excerted by an [[electromagnetic field]] in $d$-dimensional [[spacetime]] is in fact a [[geodesic]] in the field of pure [[gravity]] of the total space of the corresponding KK-un-compactified [[circle principal bundle]]. See ([Bartlett 13](#Bartlett13)) for a pedagogical discussion of this effect.
 
 A [[pseudo-Riemannian manifold]] of this form $\left(E, g^KK_{E}\right)$ for fixed _[[moduli]]_ $g_F$ is called a **Kaluza-Klein compactification** of the [[spacetime]] $E$. One also speaks of the effective spacetime $X$ as being obtained by **dimensional reduction** from the spacetime $E$.
 
@@ -193,6 +196,7 @@ The following table displays parts of this cascade of field theories which are i
     * [string theory FAQ -- What does it mean to say that string theory has a "landscape" of solutions?](string%20theory%20FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
 
 ## References
+ {#References}
 
 A textbook account is in
 
@@ -235,9 +239,10 @@ A formalization of Kaluza-Klein compactification in [[perturbation theory]] form
 * [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
  {#Costello11}
 
-An elementary exposition of the geometry behind the Kaluza-Klein mechanism (the idea that geodesics on the gauge bundle project to curved trajectories on the base manifold) can be found in this talk:
+An elementary exposition of the geometry behind the [[Lorentz force]] in the Kaluza-Klein mechanism (the idea that geodesics on the gauge bundle project to curved trajectories on the base manifold) can be found in this talk:
 
-* [[Bruce Bartlett]], [The geometry of force](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf). 
+* [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
+ {#Bartlett13}
 
 [[!redirects Kaluza-Klein theory]]
 
