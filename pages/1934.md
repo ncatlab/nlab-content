@@ -40,7 +40,7 @@ w & \to & v_0 \\
 u_0  &\to  & a 
 }
 $$
-so $J/a$ is 'a bit like' the category of opens of a space (it's probably filtered, but I haven't checked that there are weak [[equalizer]]s).
+so $J/a$ is 'a bit like' the category of opens of a space (it's probably [[filtered category|cofiltered]], but I haven't checked that there are weak [[equalizer]]s).
 
 Now the morphisms of $J/a$ are those triangles
 $$\array{
