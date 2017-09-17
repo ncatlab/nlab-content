@@ -15,6 +15,9 @@ Suppose given a dissection of a rectangle into finitely many subrectangles.  Def
 
 A set $T$ equipped with two partial orders $\le$ and $\sqsubseteq$ (a priori, unrelated) is called a **double order**.  A double order which arises in this way from a rectangle dissection is called a **tileorder**.
 
++--{.query}
+[[Todd Trimble|Todd]]: Maybe I'm missing what you mean by "dissection", but off the bat it looks like you are allowing the "pinwheel" as a possible dissection (I hope it is clear what the pinwheel is; Dawson discusses it in one of his papers), but this is the kind of configuration not interpretable in double categories.
+=--
 
 ## Characterizations
 
