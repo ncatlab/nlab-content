@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -113,7 +112,7 @@ Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting t
 
   * [[indexed closed monoidal category]]
 
-* [[string diagram]], [[Kelly-Mac Lane diagram]]
+* [[string diagram]], [[Kelly-Mac Lane diagram]], [[linguistics|natural language syntax]]
 
 ##References#
 
