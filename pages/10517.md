@@ -32,6 +32,15 @@ natural in $A$.  By the [[Yoneda lemma]] this means there is a universal partial
 
 ## Constructions
 
-In a [[Boolean category|Boolean]] [[extensive category]] (such as a [[Boolean topos]], we can define the partial map classifier as $B_\bot = B + 1$, where $1$ is the [[terminal object]].  This is because in an extensive category, a map $A\to B+1$ is equivalent to a decomposition of $A$ as a [[coproduct]] $D+E$ together with a map $D\to B$ (the map $E\to 1$ being unique), and in a Boolean category every subobject of $A$ is complemented and hence induces such a coproduct decomposition.  The universal partial map $B+1 \rightharpoonup B$ has domain the summand $B$, on which it is the identity.
+In a [[Boolean category|Boolean]] [[extensive category]] (such as a [[Boolean topos]], we can define the partial map classifier as $B_\bot = B + 1$, where $1$ is the [[terminal object]].  This is because in an extensive category, a map $A\to B+1$ is equivalent to a decomposition of $A$ as a [[coproduct]] $D+E$ together with a map $D\to B$ (the map $E\to 1$ being unique), and in a Boolean category every subobject of $A$ is complemented and hence induces such a coproduct decomposition.  The universal partial map $B+1 \rightharpoonup B$ has domain the summand $B$, on which it is the identity.  Note that $B\mapsto B+1$ is also known as the [[maybe monad]].
 
-Partial map classifiers also exist in every [[elementary topos]], but in the non-Boolean case they are harder to construct.  In the [[internal logic]], $B_\bot$ can be defined as the set of [[subsingleton]] subsets of $B$.  The universal partial map $B_\bot \rightharpoonup B$ has domain the set of singleton subsets of $B$, on which it is an isomorphism.  Note that this construction is not [[predicative mathematics|predicative]].
+Partial map classifiers also exist in every [[elementary topos]], but in the non-Boolean case they are harder to construct.  In the [[internal logic]], $B_\bot$ can be defined in two ways:
+
+* $B_\bot$ is the set of [[subsingleton]] subsets of $B$.  In this case, the universal partial map $B_\bot \rightharpoonup B$ has domain the set of singleton subsets of $B$, on which it is an isomorphism.
+
+* $B_\bot$ is the set of functions $P\to B$ whose domain $P$ is a [[subsingleton]].  In this case, the universal partial map $B_\bot \rightharpoonup B$ has domain the set of maps whose domain is [[terminal object|terminal]], on which it is an isomorphism.
+
+Note that neither of these constructions is [[predicative mathematics|predicative]].  The second makes more sense in a [[higher category]] (or in its internal logic such as [[homotopy type theory]]).
+
+[[!redirects partial map classifiers]]
+
