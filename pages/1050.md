@@ -170,6 +170,7 @@ The properties of corollary \ref{ExactFunctorPreservesExactSequences} explain th
 
 
 
+
 ## Related concepts
 
 * **exact functor**, [[derived functor]]
