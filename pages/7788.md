@@ -35,15 +35,19 @@ $E_{11}$ is conjectured ([West 01](#West01)) to be the [[U-duality]] group (see 
 
 ### General 
 
+* [[Peter West]], section 16.7 of _[[Introduction to Strings and Branes]]_
+
 * [[Hermann Nicolai]], Thomas Fischbacher, _Low Level Representations for E10 and E11_ ([arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017))
 
 * H. Mkrtchyan, R. Mkrtchyan, _$E_{11},K_{11}$ and $EE_{11}$_ ([arXiv:hep-th/0407148](http://arxiv.org/abs/hep-th/0407148))
 
 ### Relation to supergravity
 
-Literature discussing $E_{11}$ in the context of [[exceptional generalized geometry]] of [[11-dimensional supergravity]].
+Literature discussing $E_{11}$ [[U-duality]] and in the context of [[exceptional generalized geometry]] of [[11-dimensional supergravity]].
 
 Reviews include
+
+* [[Peter West]], section 17.5 of _[[Introduction to Strings and Branes]]_
 
 * [[Fabio Riccioni]], _$E_{11}$ and M-theory_, talk at [Strings07](http://www.ift.uam.es/strings07/) ([pdf slides](http://www.ift.uam.es/strings07/040_scientific07_contents/transparences/riccioni.pdf))
 
