@@ -98,7 +98,7 @@ If this diagram is for all $X\in C_0$ an equalizer diagram $B$ is called **codes
 
 +-- {: .num_defn}
 ###### Definition
-Let $E_0\to\E_1\to E_2$ be a diagram where $E_0\xrightarrow{\partial_0}E_1\xrightarrow{\partial_0}E_2$, $E_0\xleftarrow{\iota_0}E_1\xrightarrow{\partial_1}E_2$, $E_0\xrightarrow{\partial_1}E_1\xrightarrow{\partial_2}E_2$ satisfying $\partial_s\partial_r=\partial_r\partial_{s-1}$ for $r\lt s$ and $\iota_0\partial_0=\iota_0\partial_1$ (these are the identities characterizin a truncated cosimplicial category).
+Let $E_0\to\E_1\to E_2$ be a diagram where $E_0\xrightarrow{\partial_0}E_1\xrightarrow{\partial_0}E_2$, $E_0\xleftarrow{\iota_0}E_1\xrightarrow{\partial_1}E_2$, $E_0\xrightarrow{\partial_1}E_1\xrightarrow{\partial_2}E_2$ satisfying $\partial_s\partial_r=\partial_r\partial_{s-1}$ for $r\lt s$ and $\iota_0\partial_0=\iota_0\partial_1$ (these are the identities characterizing a truncated cosimplicial category).
 
 Then the **descent category** $\Desc E$ of $E$ has as objects pairs $(F,f)$ where $F\in E_0$, $f:\partial_1 F\to \partial_0 F$ such that $\iota_0 f=\id_F$ and $\partial_0 f=\partial_2( f)\circ \partial_0 (f)$ and a morphism $(F,f)\to (G,g)$ consists of a morphism $(u:F\to G)\in E_1$ such that $\partial_0 u\circ f=g\circ \partial_1 u$.
 =--
@@ -116,7 +116,7 @@ See also the references at [[descent]].
 
 A definition of descent objects for presheaves with values in strict $\omega$-categories was proposed in 
 
-* [[Ross Street]], _Categorical and combinatorial aspects of descent theory_
+* [[Ross Street]], [Categorical and combinatorial aspects of descent theory](http://arxiv.org/pdf/math/0303175)
   {#Street}
 
 A discussion of a missing condition on this definition is in 
