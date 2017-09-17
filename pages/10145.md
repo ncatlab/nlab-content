@@ -1,0 +1,6 @@
+David Edwards is an American mathematician working at the University of Georgia, who has made significant contributions to [[strong shape]] theory and [[proper homotopy theory]].
+
+
+* [webpage](http://www.math.uga.edu/~davide)
+
+[[!redirects D.A. Edwards]]
