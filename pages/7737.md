@@ -62,4 +62,8 @@ See also
 
 * Bruce Hughes, _Geometric topology of stratified spaces_ ([pdf](http://aimsciences.org/journals/pdfsnews.jsp?paperID=2468&mode=full))
 
+Discussion of the [[fundamental category]] of a (Whiteney-)stratified space is in 
+
+* Jonathan Woolf, _Transversal homotopy theory_ ([arXiv:0910.3322](http://arxiv.org/abs/0910.3322))
+
 [[!redirects stratified spaces]]
