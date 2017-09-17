@@ -11965,9 +11965,6 @@ $Sh_{\mathbf{H}}(X)$. This is indeed the standard expression in
 ## **Local (topological) prequantum field theory**
  {#LocalTopologicalPrequantumFieldTheory}
 
-
-> under construction
-
 We discuss local ("[[extended TQFT|extended]]") [[topological field theory|topological]] prequantum field theory. 
 
 The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([hCSlpQFT](#hCSlpQFT)).
@@ -12512,7 +12509,7 @@ $$
 
 As a corollary of prop. \ref{FullSelfDualizabilityInSpan} we have:
 
-+-- {: .num_prop}
++-- {: .num_prop #ValueOfLocalPrequantumFieldTheoryOnCobordism}
 ###### Proposition
 
 Given $\mathbf{Fields} \colon Bord_n^\otimes \to Span_n(\mathbf{H})^\otimes$, it assigns to a [[k-morphism]] represented by a [[closed manifold]] $\Sigma_k$ the [[internal hom]] ([[mapping stack]]) from  $\Pi(\Sigma_k)$ (the [[shape modality]] of $\Sigma_k$, def. \ref{ShapeAndFlatModality}) into the moduli stack of fields
@@ -12835,6 +12832,42 @@ for $x_1, x_2 \in X$, $g \in G$.
 
 =--
 
+As an important special case we have:
+
++-- {: .num_example #BGGroupoidAsActionGroupoid}
+###### Example
+
+For $G$ a [[discrete]] group and $\rho$ the trivial action of $G$ on the point $\ast$ (the singleton set), the coresponding [[action groupoid]] according to def. \ref{ActionGroupoid} is the [[delooping]] groupoid of $G$ according to def. \ref{DeloopingGroupoid}:
+
+$$
+  (\ast //G)_\bullet = (\mathbf{B}G)_\bullet
+  \,.
+$$
+
+Another canonical action is the action of $G$ on itself by right multiplication. The corresponding action groupoid we write
+
+$$
+  (\mathbf{E}G)_\bullet \coloneqq G//G
+  \,.
+$$
+
+The constant map $G \to \ast$ induces a canonical morphism
+
+$$
+  \array{
+    G//G & \simeq & \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast //G & \simeq & \mathbf{B}G
+  }
+  \,.
+$$
+
+This is known as the $G$-[[universal principal bundle]]. See below in \ref{PullbackOfEGGroupoidAsHomotopyFiberProduct} for more on this.
+
+=--
+
 +-- {: .num_example }
 ###### Example
 
@@ -12930,7 +12963,7 @@ two morphisms between groupoids,
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #GroupoidsAsHomotopy1Types}
 ###### Definition (Notation)
 
 Here and in the following, the convention is that we write
@@ -12952,7 +12985,11 @@ with homomorphisms ([[functors]]) between them and [[homotopies]] ([[natural tra
     \,.
   $$
 
+The unbulleted version of groupoids are also called _[[homotopy 1-types]]_ (or often just their [[homotopy]]-[[equivalence classes]] are called this way.) Below we generalize this to arbitrary homotopy types (def. \ref{KanComplexesAsHomotopyTypes}).
+
 =--
+
+
 
 +-- {: .num_example #MappingGroupoid}
 ###### Example
@@ -12964,7 +13001,7 @@ For $X,Y$ two groupoids, the [[internal hom|mapping groupoid]] $[X,Y]$ or $Y^X$ 
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #HomotopyEquivalenceOfGroupoids}
 ###### Definition
 
   A ([[homotopy equivalence|homotopy-]]) _[[equivalence of groupoids]]_ is a morphism
@@ -13065,6 +13102,38 @@ $$
 =--
 
 
++-- {: .num_example #PullbackOfEGGroupoidAsHomotopyFiberProduct}
+###### Example
+
+For $X$ a [[groupoid]], $G$ a [[group]] and $X \to \mathbf{B}G$ a map into its [[delooping]], the [[pullback]] $P \to X$ of the $G$-[[universal principal bundle]] of example \ref{BGGroupoidAsActionGroupoid}
+is equivalently the [[homotopy fiber product]] of $X$ with the point over $\matrhbf{B}G$:
+
+$$
+  P \simeq X \underset{\mathbf{B}G}{\times} \ast
+  \,.
+$$
+
+Namely both squares in the following diagram are pullback squares
+
+$$
+  \array{
+    P
+    &\to& \mathbf{E}G &\to& \ast_\bullet
+    \\
+    \downarrow && && \downarrow^{\mathrlap{}}
+    \\
+    && (\mathbf{B}G)^I_\bullet &\underset{(ev_0)_\bullet}{\to}& (\mathbf{B}G)_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    X_\bullet &\underset{}{\to}& (\mathbf{B}G)_\bullet
+  }
+  \,.
+$$
+
+(This is the first example of the more general phenomenon of [[universal principal infinity-bundles]].)
+
+=--
 
 +-- {: .num_example #LoopSpaceGroupoid}
 ###### Example
@@ -14537,6 +14606,10 @@ As such it is also common to write $Y^X$ for $Maps(X,Y)$, as well as $[X,Y]$. No
 
 =--
 
+It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
+
+We now have the following immediate generalizations of the corresponding constructions seen above for 1-groupoids.
+
 +-- {: .num_example #PathSpaceObjectOfKanComplexes}
 ###### Example
 
@@ -14587,11 +14660,84 @@ $$
 
 =--
 
-It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
 
-We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]]. We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$.
++-- {: .num_remark }
+###### Remark
+
+Hence a [[homotopy]] between two maps $X_\bullet \to Y_\bullet$ of Kan complexes is precisely a 1-cell in the [[mapping space]] $[X_\bullet, Y_\bullet]_\bullet$ of def. \ref{MappingObjectOfKanComplexes}.
+
+=--
+
++-- {: .num_defn #HomotopyEquivalenceOfKanComplexes}
+###### Definition
+
+We say that a map $X_\bullet \to Y_\bullet$ of [[Kan complexes]] is a _[[homotopy equivalence]]_ if it has a left and right [[inverse]] up to [[homotopy]], hence an ordinary inverse in $\pi_0[X_\bullet, Y_\bullet]$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For Kan complexes which are [[1-groupoids]] hence which are [[nerves]] of [[groupoids]], homotopy equivalence of Kan complexes is equivalently homotopy equivalence of these groupoids according 
+to def. \ref{HomotopyEquivalenceOfGroupoids}.
+
+=--
 
 
++-- {: .num_defn #KanComplexesAsHomotopyTypes}
+###### Definition
+
+
+We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]]. 
+
+We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$. As such, $X$ (or its [[equivalence class]]) is alse called a _[[homotopy type]]_.
+
+The category [[∞Grpd]] itself "is" the canonical [[homotopy theory]]. (For more on this see also at _[[homotopy hypothesis]]_.)
+
+=--
+
+The following is the immediate generalization of def. \ref{HomotopyFiberProductOfGroupoids}.
+
++-- {: .num_defn #HomotopyFiberProductOfKanComplexes}
+###### Definition
+
+Given two morphisms of [[Kan complexes]]
+$X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
+their _[[homotopy fiber product]]_
+
+$$
+  \array{
+   X \underset{B}{\times} Y
+   &\stackrel{}{\to}& X
+   \\
+   \downarrow &\swArrow& \downarrow^{\mathrlap{f}}
+   \\
+   Y &\underset{g}{\to}& B
+  }
+$$
+
+is the [[limit]] [[cone]]
+
+$$
+  \array{
+    X_\bullet \underset{B_\bullet}{\times} B^I_\bullet
+    \underset{B_\bullet}{\times} Y_\bullet
+    &\to& &\to& X_\bullet
+    \\
+    \downarrow && && \downarrow^{\mathrlap{f_\bullet}}
+    \\
+    && B^I_\bullet &\underset{(ev_0)_\bullet}{\to}& B_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    Y_\bullet &\underset{g_\bullet}{\to}& B_\bullet
+  }
+  \,,
+$$
+
+hence the ordinary iterated [[fiber product]] over the [[path space]] Kan complex, as indicated.
+
+=--
 
 
 ###### Higher phases: Homological algebra and abelian $\infty$-groups
@@ -14676,7 +14822,16 @@ for the composite of the two functors of prop. \ref{DoldKanAndMooreTheorem}.
 
 =--
 
-We refer to this as the "Dold-Kan map", or say "by Dold-Kan", etc. It provides us with a rich supply of Kan complexes, hence of [[∞-groups]]. Notably we have the following.
+We refer to this as the "Dold-Kan map", or say "by Dold-Kan", etc. It provides us with a rich supply of Kan complexes, hence of [[∞-groups]]. In fact, it embeds [[homological algebra]] into the [[homotopy theory]] of [[∞-groupoids]] in that it is a [[homotopical functor]]:
+
++-- {: .num_prop #DoldKanRespectsWeakEquivalences}
+###### Proposition
+
+The Dold-Kan map of def. \ref{DoldKanMap} sends [[quasi-isomorphisms]] of [[chain complexes]] to [[homotopy equivalences]] of [[Kan complexes]], def. \ref{HomotopyEquivalenceOfKanComplexes}.
+
+=-- 
+
+Notably we have the following example
 
 
 +-- {: .num_defn }
@@ -14767,23 +14922,19 @@ between the degree-$n$ [[group cohomology]] of $G$ with [[coefficients]] in $A$ 
 
 =--
 
-...
 
-##### $n$d DW local field theory
-
-(...)
-
-Let $[\alpha] \in H^3_{Grp}(G,U(1))$ be a 3-cocycle in [[group cohomology]]. By prop. \ref{GroupCohomologyByHomotopyClassesOfMaps}
-this corresponds to a morphism of $\infty$-groupoids
+This means that local action functionals for higher Dijkgraaf-Witten type theories, hence maps of $\infty$-groupoids of the form 
+$\exp(i S_{DW}^n) \colon \mathbf{B} \flat G \to \mathbf{B}^n \flat U(1)$ are equivalently [[cocycles]] $[c] \in H^n_{Grp}(\flat G,\flat U(1))$ in degree-$n$ [[group cohomology]]:
 
 $$
-  \alpha \colon \mathbf{B}G \to \mathbf{B}^3 U(1) \flat U(1)
+  \exp(i S_{DW}^n) = \mathbf{B}c
   \,.
 $$
 
-This is the local action functional of 3d-[[Dijkgraaf-Witten theory]] for this cocycle.
+In particular the original 3d [[Dijkgraaf-Witten theory]] appears this way as the theory of a group 3-cocycle.
 
 (...)
+
 
 ### Higher Chern-Simons local prequantum field theory
  {#HigherChern-SimonsLocalPrequantumFieldTheory}
@@ -14791,37 +14942,48 @@ This is the local action functional of 3d-[[Dijkgraaf-Witten theory]] for this c
 By def. \ref{LocalPrequantumFieldWithAction}, a local prequantum [[bulk]] field theory in dimension $(n+1)$ is equivalently a morphism of the form 
 
 $$
-  \mathbf{Fields} \to \flat \mathbf{B}^{n+1}U(1)
+  \exp(i S) \colon \mathbf{Fields} \to \flat \mathbf{B}^{n+1}U(1)
   \,,
 $$
 
 for any object $\mathbf{Fields} \in \mathbf{H}$. 
 
-First we observe in in 
+First we now observe in 
 
 * _[Universal topological Yang-Mills theory](#TopologicalYangMillsLocalPrequantumFieldTheory)_
 
-that there is a fairly canonical such morphism $S^{n+1}_{tYM}$, namely the "[[atlas]] relative to [[manifolds]]" of $\flat \mathbf{B}^{n+1}U(1)$ given by the [[sheaf]] of [[differential forms|closed differential (n+1)-forms]]. Analyzing what this morphism is like, when regarded as a local prequantum field theory by def. \ref{LocalPrequantumFieldWithAction} shows that it is the "universal" higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory. What exactly this means is then seem in 
+that there is a fairly canonical such morphism $S^{n+1}_{tYM}$, namely the "[[atlas]] relative to [[manifolds]]" of $\flat \mathbf{B}^{n+1}U(1)$ given by the [[sheaf]] of [[differential forms|closed differential (n+1)-forms]]. Analyzing what this morphism is like, when regarded as a local prequantum field theory by def. \ref{LocalPrequantumFieldWithAction}, shows that it is the "universal" higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory. What this means becomes clear when we analyze the possible [[boundary field theories]] of this theory. 
 
-* _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_
+* _[Universal boundary condition for $S_{tYM}$:  Differential cohomology and Cheeger-Simons field theory
+](#UniversalStYMBoundaryAndDifferentialCohomology)_
 
-where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the prequantum field theories of higher [[Chern-Simons theory]]-type, the _[[schreiber:∞-Chern-Simons theories]]_.
+* [General boundary conditions: Higher Chern-Weil theory and $\infty$-Chern-Simons theory](#GenralBoundaryForStYMAndHigherChernSimons) 
 
+where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the prequantum field theories of higher [[Chern-Simons theory]]-type, the _[[schreiber:∞-Chern-Simons theories]]_. These include ordinary 3d [[Chern-Simons theory]], [[higher dimensional Chern-Simons theory]] on ordinary [[gauge fields]] but also higher Chern-Simons theory on [[higher gauge fields]] such as the [[String 2-group]] [[7-dimensional Chern-Simons theory]], the [[AKSZ sigma-models]], and also [[closed string field theory]].
 
+This shows how $\infty$-Chern-Simons theories arise canonically as precisely the local [[boundary field theories]] of the canonical local field theory which exists in any [[differential cohesion|differential]] [[cohesion|cohesive]] [[(∞,1)-topos]].
 
+Continuing in this vein we can then work out what all the further higher [[codimension]] [[boundary field theories]] and [[defect field theories]] of this universal higher [[topological Yang-Mills theory]] and hence of [[schreiber:∞-Chern-Simons theories]] are. We find
 
+* _[Topological Chern-Simons boundaries]()_
+
+which are given by generalized "[[Bohr-Sommerfeld leaf|Bohr-Sommerfeld]] [[isotropic subspaces]]" of the [[moduli stacks]] of $\infty$-Chern-Simons fields.
+
+Then...
+
+(...)
 
 
 #### $d = n + 1$, Universal topological Yang-Mills theory $S_{tYM}$
  {#TopologicalYangMillsLocalPrequantumFieldTheory}
 
-There is a special and specially simple map to the [[coefficient]] object  $\flat \mathbf{B}^{n+1} U(1)$ for flat [[local action functionals]]/[[prequantum n-bundles]], namely the map
+There is a special and especially simple map to the [[coefficient]] object  $\flat \mathbf{B}^{n+1} U(1)$ for flat [[local action functionals]]/[[prequantum n-bundles]], namely the map
 
 $$
   \array{
     \Omega^{n+1}_{cl} 
     \\
-    \downarrow^{\mathrlap{S_{tYM}}}
+    \downarrow^{\mathrlap{\exp(i S_{tYM})}}
     \\
     \mathbf{B}^{n+1} \flat U(1)
   }
@@ -14831,16 +14993,87 @@ which in components is the inclusion of closed [[differential forms]] into [[de 
 
 We here introduce and describe this map and then regard it as a [[local action functional]] of a local prequantum field theory according to def. \ref{LocalPrequantumFieldWithAction}. Below in _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_ we find that this field theory is such that close to its boundaries it looks like (higher) [[topological Yang-Mills theory]] for every possible higher gauge group and every possible [[invariant polynomial]] on it, as one considers every possible [[boundary condition]]. Therefore we here refer to this as the "universal topological Yang-Mills theory".
 
-(...)
+##### Smooth moduli stacks of fields: Smooth $\infty$-groupoids
+
+The notion of a [[sheaf]] of [[chain complexes]] or equivalently of a chain complex of sheaves over a fixed [[topological space]] has a long tradition in [[homological algebra]]. Many sheaves however are naturally considered not on one fixed space, but on "all of them". For instance [[differential forms]] in any degree may be "[[pullback of a differential form|pulled back]]" along any [[smooth function]] between [[smooth manifolds]]. Accordingly if we regard the whole category [[SmoothMfd]] of smooth manifolds as a replacement for and generalization of the [[category of open subsets]] of any given one, then differential forms constitute a sheaf on that [[site]], hence a functor
+
+$$
+  \Omega^{n} \colon SmoothMfd^{op} \to Set
+  \,.
+$$
+
+In particular for $n = 0$ this is just the sheaf of smooth functions
+
+$$  
+  \underline{\mathbb{R}} = C^\infty(-,\mathbb{R}) \colon SmoothMfd^{op} \to Set
+  \,.
+$$
+
+One way to think of this is that this sheaf _is_ the [[real line]] $\mathbb{R}$ first of all as a [[set]] -- which is the value of $\underline{\mathbb{R}}$ on the [[point]] $\ast$ -- and secondly equipped with its canonical [[smooth structure]] which is encoded by the system of _all_ sets $C^\infty(X,\mathbb{R})$ of smooth functions from any smooth manifold $X$, and the information $C^\infty(\phi, \mathbb{R}) \colon C^\infty(Y, \mathbb{R}) \to C^\infty(X,\mathbb{R})$ of how these functions pull back (precompose) along any smooth function of test manifolds $\phi \colon X \to Y$.
+
+Regarding the [[smooth manifold]] $\mathbb{R}$ this way means regarding it as what is sometimes called a [[diffeological space]], and what here more generally call a _[[smooth space]]_.
+
+Therefore we will often just write $\mathbb{R}$ when we really mean the sheaf $\underline{\mathbb{R}}$ [[representable functor|represented]] by it.
+
+The [[Dold-Kan correspondence|Dold-Kan map]] of def.  \ref{DoldKanMap} directly extends to ([[presheaf|pre]]-)[[sheaves]] which regard a (pre-)sheaf of chain complexes as a presheaf of [[Kan complexes]]
+
+$$
+  DK
+  \;\colon\;
+  pSh(SmoothMfd, Ch_\bullet)
+  \stackrel{}{\to}
+  pSh(SmoothMfd, KanCplx)
+  \hookrightarrow
+  pSh(SmoothMfd, sSet)
+  \,.
+$$
+
+By the previous reasoning, a presheaf of Kan complexes on the category of smooth manifolds, we may think of as being a plain Kan complex, hence [[∞-groupoid]] (the value of the presheaf on the point), together with a rule for what the smooth functions into it are, for each smooth testmanifold. Hence we think of it as a _[[smooth ∞-groupoid]]_. 
+
+A basic example is a [[Lie groupoid]] $\mathcal{G}_\bullet \in Grpd(SmoothMfd)$, which represents a presheaf of Kan complexes on smooth manifolds by
+
+$$
+  U \mapsto N( C^\infty(U,\mathcal{G}_1) \stackrel{\to}{\to} C^\infty(U,\mathcal{G}_0) )
+  \,.
+$$
+
+
+Previously we have considered higher Dijkgraaf-Witten as taking place in the [[homotopy theory]] of plain [[∞-groupoids]] (geometrically [[discrete ∞-groupoids]]). Now we would like to have "a [[homotopy theory]] of [[smooth ∞-groupoids]]".
+
+(A modern term for "a [[homotopy theory]]" is "an [[(∞,1)-category]]", but for a heuristic idea of what is going on some readers may find it helpful to think of "a homotopy theory" instead.)
+
+In order to define "a [[homotopy theory]]" of [[smooth ∞-groupoids]] is, to be denoted [[Smooth∞Grpd]], we need to say what a [[homotopy]] and hence what a [[homotopy equivalence]] is supposed to be. Since [[smooth structure]] should be a local property witnessed on small smooth [[open balls]], we declare that
+
+$$
+  Smooth\infty Grpd
+  \coloneqq
+  L_{lhe} \; pSh(SmoothMfd, KanCplx)
+$$
+
+is the [[homotopy theory]] obtained by "universally turning [[stalk]]-wise [[homotopy equivalences]] of [[Kan complexes]], def. \ref{spring}, into actual homotopy equivalences". The formal definition of this idea is called the _[[simplicial localization]]_ of $pSh(SmoothMfd, KanCplx)$ at the stalkwise homotopy equivalences.
+
+We call [[∞Grpd]] also the _[[differential cohesion|differential]] [[cohesive]] [[∞-topos]] of [[smooth ∞-groupoids]]_. For brevity and since most everything we discuss in the following holds for arbitrary _[[differential cohesion|differential]] [[cohesive]] [[(∞,1)-toposes]], we from now on denote it by
+
+$$
+  \mathbf{H} \coloneqq Smooth \infty Grpd
+  \,.
+$$
+
+We now immediately turn to a simple example that illustrates some basic aspects of this construction. 
+
+
+##### The canonical local action functional: Differential forms in de Rham hypercohomology
+
+As a first example for how to work in the homotopy theory of [[smooth ∞-groupoids]] we have the following.
 
 +-- {: .num_prop }
-###### Proposition
+###### Proposition/Example
 
 The canonical [[chain map]]
 
 $$
   \array{  
-    U(1)_{disc} &\to& 0 &\to& 0 &\to& \cdots &\to& 0
+    \flat U(1) &\to& 0 &\to& 0 &\to& \cdots &\to& 0
     \\
     \downarrow && \downarrow && \downarrow && \cdots && \downarrow
     \\
@@ -14856,6 +15089,13 @@ $$
   \in Smooth\infty Grpd
   \,.
 $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition and using prop. \ref{DoldKanRespectsWeakEquivalences} we need to check that over a small enough smooth open ball, the [[chain map]] becomes a [[quasi-isomorphism]]. But on an open ball this is the statement of the [[Poincaré lemma]].
 
 =--
 
@@ -14880,7 +15120,7 @@ for the image in morphisms of [[Smooth∞Grpd]] under the [[Dold-Kan corresponde
 
 $$
   \array{  
-    0 &\to& 0 &\to& 0 &\to& \cdots &\to& \Omega^{n+1}_{cl}
+    0 &\to& 0 &\to& 0 &\to& \cdots &\to& \Omega^{n}_{cl}
     \\
     \downarrow && \downarrow && \downarrow && \cdots && \downarrow^{\mathrlap{id}}
     \\
@@ -14906,26 +15146,352 @@ is a [[1-epimorphism]], hence a [[stalk]]-wise [[epimorphism]] on [[connected co
 
 =--
 
-(...)
++-- {: .num_defn #GeneralHighertYM}
+###### Definition
+
+By def. \ref{LocalPrequantumFieldWithAction} we may now regard the map
+
+$$
+  \array{
+    \Omega^{n+1}_{cl}
+    \\
+    \downarrow^{\mathrlap{\exp(i S_{tYM})}}
+    \\
+    \mathbf{B}^{n+1} \flat U(1)
+  }
+$$
+
+of prop. \ref{ClosedFormsInDeRhamCoefficients} as a local action functional for an $(n+1)$-dimensional local prequantum field theory.
+We call this the "universal higher [[topological Yang-Mills theory]]" for reasons that become clear as we anaylize its [[boundary field theories]] now.
+
+=--
 
 #### $d = n + 0$, Higher Chern-Simons field theories
  {#HigherChernSimonsPrequantumFieldTheory}
 
+We consider now the [[boundary field theories]] for the "universal topological Yang-Mills theory" of def. \ref{GeneralHighertYM}.
+
+
+##### Universal boundary condition for $S_{tYM}$:  Differential cohomology and Cheeger-Simons field theory
+ {#UniversalStYMBoundaryAndDifferentialCohomology}
+
+
+Where the plain [[(∞,n)-category of cobordisms]] $Bord_n$ is freely generated from the point $\ast$ alone, so the $(\infty,n)$-category of cobordisms with possibly a marked boundary is freely generated from the point and one new morphism
+
+$$
+  \emptyset \to \ast
+$$
+
+
+which we think of as being the interval $D^1$ with one end "marked". Now a local field theory with local action functional according to def. \ref{LocalPrequantumFieldWithAction} encodes not only the value on the point, which we now take to be
+
+$$
+  \exp(i S)
+  \colon
+  \ast 
+  \mapsto
+  \left[
+  \array{
+    \Omega^{n+1}_{cl}
+    \\
+    \downarrow^{\mathrlap{\exp(i S_{tYM})}}
+    \\
+    \mathbf{B}^{n+1} \flat U(1)
+  }
+  \right]
+  \,,
+$$
+
+but moreover one morphism in $Span_n(\mathbf{H}, \mathbf{B}^{n+1}\flat U(1))$ from the trivial field configuration with trivial action to this data, hence (as amplified in [FV](#FiorenzaValentino)) a diagram in $\mathbf{H}$ of the form
+
+$$
+  \array{
+     && \mathbf{Fields}^{\partial}
+     \\
+     & \swarrow && \searrow
+     \\
+    \ast && \swArrow && \Omega^{n+1}_{cl}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}^{n+1}\flat U(1)
+  }
+  \,.
+$$
+
+Therefore defining such boundary data means defining a [[moduli stack]] $\mathbf{Fields}^{\partial}$ of boundary field configurations, together with a [[homotopy]] filling the above diagram which encodes the relative action functional on this boundary data.
+
+In order to find all possible such boundary data for $\exp(i S_{tYM})$, we can make use of the [[homotopy fiber product]] construction of def. \ref{HomotopyFiberProductOfKanComplexes} to find the _universal_ such boundary data, the one through which any other one factors.
+
+
++-- {: .num_prop #DiffCohomologyIsTerminalBoundaryForStYM}
+###### Proposition
+
+The universal boudnary condition for $\exp(i S_{tYM})$, hence the [[homotopy fiber product]] $\ast \underset{\mathbf{B}^{n+1}\flat U(1)}{\times} \Omega^{n+1}_{cl}$, is given by the image under the [[Dold-Kan correspondence|Dold-Kan map]], def. \ref{DoldKanMap}, of the [[Deligne complex]]
+
+$$
+  \mathbf{B}^n U(1)_{conn}
+  \coloneqq
+  DK(
+  \underline{U}(1) \stackrel{d log}{\to} \Omega^1 \stackrel{d}{\to} \cdots \to \Omega^{n-1} \stackrel{d}{\to} \Omega^n
+  )
+  \,,
+$$ 
+
+hence the universal boundary data is
+
+$$
+  \array{
+     && \mathbf{B}^n U(1)_{conn}
+     \\
+     & \swarrow && \searrow^{\mathrlap{F_{(-)}}}
+     \\
+    \ast && \swArrow && \Omega^{n+1}_{cl}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}^{n+1}\flat U(1)
+  }
+  \,.
+$$
+
+=--
+
+
+The [[boundary field theory]] defined this way we may call _[[Cheeger-Simons differential character|Cheeger-Simons field theory]]_.
+
+
+
+##### General boundary condition for $S_{tYM}$: Higher Chern-Weil theory and $\infty$-Chern-Simons theory
+ {#GenralBoundaryForStYMAndHigherChernSimons}
+
+
+By the [[universal property]] of the [[homotopy fiber product]] we then have the following statement.
+
++-- {: .num_prop #HigherCSAsBoundaryTheory}
+###### Proposition
+
+Boundary field theories for $\exp(i S_{tYM})$ are equivalently 
+[[moduli stacks]] $\mathbf{Fields} \in \mathbf{H}$ equipped with maps
+
+$$
+  \exp(i S_{CS}) 
+    \colon
+  \mathbf{Fields} \to \mathbf{B}^n U(1)_{conn}
+$$
+
+hence equipped with a [[circle n-bundle with connection]] (the [[prequantum n-bundle]] of the boundary theory).
+
+=--
+
+Moreover, the universal property of the [[Cheeger-Simons differential character|Cheeger-Simons]] field theory identifies all these boundary theories as being of higher Chern-Simons type, in that they have a [[curvature]] associated to them
+which is an invariant differential form ([[invariant polynomial]]) on the moduli stack
+
+$$
+  \array{
+    \mathbf{Fields}
+    \\
+    {}^{\mathllap{\exp(i S_{CS})}}\downarrow & \searrow^{\mathrlap{\langle F_{(-)} \wedge \cdots F_{(-)}\rangle}}
+    \\
+    \mathbf{B}^n U(1)_{conn} &\underset{F_{(-)}}{\to}& \Omega^{n+1}_{cl}
+  }
+  \,.
+$$
+
+We call these theories of [[schreiber:∞-Chern-Simons theory]]-type.
+
+
+
++-- {: .num_example }
+###### Example
+
+For $G$ a simply connected simple Lie group and
+
+$$
+  \mathbf{B}G_{conn} \coloneqq \Omega^1(-,\mathfrak{g})//G
+$$
+
+the [[moduli stack]] of $G$-[[principal connections]], the local action functional of ordinary 3d [[Chern-Simons theory]] is of the form
+
+$$
+  \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}
+  \,.
+$$
+
+This [[prequantum n-bundle|prequantum 3-bundle]] is the _[[Chern-Simons circle 3-bundle]]_.
+
+=--
+
+Many more examples... e.g. [[7d Chern-Simons theory]], [[AKSZ sigma-model]], etc....
+
+
+
+##### Geometric defects for $S_{tYM}$ from Chern-Simons invariants: Higher holonomy, parallel transport, fiber integration in differential cohomology
+
+
+While we may think of the [[(∞,n)-category of cobordisms]] $Bord_n$ as built from [[smooth manifolds]], the [[cobordism theorem]] clearly states that these just serve as a presentation of a structure that is not intrinsically related to smooth or even topological structure. This is made manifest by prop. \ref{ValueOfLocalPrequantumFieldTheoryOnCobordism}: the value of a local prequantum field theory on a [[k-morphism]] in $Bord_n$ depends only on the [[homotopy type]] of the $k$-dimensional manifold that presents this $k$-morphism. Of course this is precisely the property that the term "topological" in _[[topological field theory]]_ is referring to.
+
+But boundaries and defects of a topological field theory may add extra structure to the theory which is not "purely topological" in this way. Here we consider a canonical class of defects for universal higher topological Yang-Mills theory, def. \ref{GeneralHighertYM}, and $\infty$-Chern-Simons theory, def. \ref{HigherCSAsBoundaryTheory}, which implements the expected [[higher parallel transport]]/[[higher holonomy]] of the higher Chern-Simons type action functionals over actual [[smooth manifolds]].
+
++-- {: .num_prop #FiberIntegrationInDiffCohomologyAsDiagram}
+###### Proposition
+
+For $k \leq n$ and for $\Sigma_k$ and [[orientation|oriented]] [[closed manifold]], there is a morphism of smooth moduli stacks
+
+$$
+  \exp(i \int_{\Sigma_k}(-))
+  \colon
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+  \to 
+  \mathbf{B}^{n-k}U(1)_{conn}
+$$
+
+which is compatible with the standard [[fiber integration|fiber]] [[integration of differential forms]] and with [[transgression]] in [[ordinary cohomology]] in that it fits into a commuting diagram
+
+$$
+  \array{
+    [\Sigma_k, \flat \mathbf{B}^n U(1)]
+    &\stackrel{}{\to}&
+    \flat \mathbf{B}^n U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+     &\stackrel{\exp(i \int_{\Sigma_k}(-) )}{\to}&
+    \mathbf{B}^{n-k} U(1)_{conn}
+    \\
+    \downarrow && \downarrow
+    \\
+    [\Sigma_k, \Omega^{n+1}_{cl}]
+    &\stackrel{\int_{\Sigma_k}}{\to}&
+    \Omega^{n-k+1}_{cl}
+  }
+  \,.
+$$
+
+More generally, if $\Sigma_k$ is a [[manifold with boundary]] then there is a diagram
+
+$$
+  \array{
+    && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    \\
+    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlap{\omega_\Sigma}}
+    \\
+    [\partial \Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    && \swArrow_{\exp(2 \pi i \int_{\Sigma})} && 
+    \Omega^{n-k+1} 
+    \\
+    & {}_{\mathllap{\exp(2 \pi i \int_{\partial \Sigma}(-))}}\searrow && \swarrow
+    \\
+    && \mathbf{B}^{n-k+1}U(1)_{conn}
+  }
+  \,,
+$$
+
+where the bottom left map is the fiber integration from before, applied to the closed boundary, and where the [[homotopy]] filling the diagram is such that it reproduces this fiber integration in the case that the boundary is empty, in that 
+
+
+$$
+  \array{
+    && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    \\
+    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlap{\omega_\Sigma}}
+    \\
+    [\emptyset, \mathbf{B}^n U(1)_{conn}]
+    && \swArrow_{\exp(2 \pi i \int_{\Sigma})} && 
+    \Omega^{n-k+1} 
+    \\
+    & {}_{\exp(2 \pi i \int_{\emptyset}(-))}\searrow && \swarrow
+    \\
+    && \mathbf{B}^{n-k+1}U(1)_{conn}
+  }
+  \;\;\;
+  \simeq
+  \;\;\;
+  \array{
+    && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    \\
+    &&  \downarrow
+    \\
+    && \mathbf{B}^{n-k}U(1)_{conn}
+    \\
+    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlal{\omega_\Sigma}}
+    \\
+    \ast
+    && \swArrow_{\exp(2 \pi i \int_{\Sigma})} && 
+    \Omega^{n-k+1} 
+    \\
+    & {}_{}\searrow && \swarrow
+    \\
+    && \mathbf{B}^{n-k+1}U(1)_{conn}
+  }
+  \,,
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by unwinding the traditional formulas for [[fiber integration in differential cohomology]], reformulating them in [[homotopy theory]] and observing that they are natural in their arguments, hence extend to morphisms of higher stacks, as discussed here.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A homotopy/gauge equivalence between a [[circle n-bundle with connection]] $(P,\nabla)$ and a trivial circle $n$-bundle with connection given by a globally defined differential form $(0,\omega)$ is equivalently a section/trivialization of the underlying [[circle n-bundle]]. Therefore the above says that the fiber integration of an $n$-connection over a manifold with boundary is equivalently a section of the transgression of the underlying bundle to the boundary.
+
+=--
+
+We may combine this with the $\infty$-Chern-Simons action functional:
+
++-- {: .num_defn }
+###### Definition
+
+Let $\exp(i S_{CS}) \colon \mathbf{Fields} \to \mathbf{B}^n U(1)_{conn}$ be an [[schreiber:∞-Chern-Simons theory]] [[local action functional]] as in prop. \ref{HigherCSAsBoundaryTheory}. Then for $\Sigma_k$ an [[orientation|oriented]] [[smooth manifold|smooth]] $k$-[[dimension|dimensional]] [[manifold with boundary]], the corresponding **transgression defect** is the [[pasting]]-composite 
+
+$$
+  \array{
+    && && [\Sigma, \mathbf{Fields}]
+    \\
+    && & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlap{[\Sigma_k, \exp(i S_{CS})]}}
+    \\
+    && [\partial \Sigma, \mathbf{Fields}] && && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    \\
+    && & \searrow& & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlap{\omega_\Sigma}}
+    \\
+    && && [\partial \Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    && \swArrow_{\exp(2 \pi i \int_{\Sigma}(-))} && 
+    \Omega^{n-k+1} 
+    \\
+    && && & {}_{\exp(2 \pi i \int_{\partial \Sigma}(-))}\searrow && \swarrow
+    \\
+    && && && \mathbf{B}^{n-k+1}U(1)_{conn}
+  }
+  \,,
+$$
+
+or rather its further pullback to the [[shape modality]]
+
+$$
+  \array{
+    && [\Pi(\Sigma), \mathbf{Fields}]
+    \\
+    & \swarrow 
+    \\
+    [\Pi(\partial \Sigma), \mathbf{Fields}]
+  }
+  \,.
+$$
+
+=--
+
+This is a defect between the boundary transgression, def. \ref{FiberIntegrationInDiffCohomologyAsDiagram}, of the $\infty$-Chern-Simons theory and the tautological higher differential higher Chern-Simons theory. 
+
+We see below that both the [[Wess-Zumino-Witten theory]] as well as [[Wilson lines]] in Chern-Simons theory arise from transgression defects this way.
+
 (...)
-
-##### Universal boundary condition for $S_{tYM}$ -- differential cohomology and Cheeger-Simons theory
-
-(...)
-
-##### General boundary condition for $S_{tYM}$ -- $\infty$-Chern-Simons theory
-
-(...)
-
-
-##### Geometric defects for $S_{tYM}$ -- Chern-Simons invariants
-
-(...)
-
 
 #### $d = n-1$, Topological Chern-Simons boundaries
 
@@ -14936,9 +15502,18 @@ is a [[1-epimorphism]], hence a [[stalk]]-wise [[epimorphism]] on [[connected co
 
 (...)
 
+  defect given by transgression over circle
+
+(...)
+
 #### $d = n-2$, Wilson loop/Wilson surface field theories
 
 (...)
+
+  defect given by transgression over sphere
+
+(...)
+
 
 ## **Prequantum Gauge theory and Gravity**
  {#ActionFunctionalsForChernSimonsTypeGaugeTheories}
