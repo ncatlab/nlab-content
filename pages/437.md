@@ -70,7 +70,7 @@ $$
 
 are themselves weak equivalences $X^I \stackrel{\simeq}{\to} X$. This is a key property that implies the [[category of fibrant objects|factorization lemma]].
 
-If moreover the [[small object argument]] applies in the model catgeory $C$, then such factorizations, and hence path objects, may be chosen fonctorially: such that for each morphism $X \to Y$ the factorizations fit into a [[commuting diagram]]
+If moreover the [[small object argument]] applies in the model category $C$, then such factorizations, and hence path objects, may be chosen functorially: such that for each morphism $X \to Y$ the factorizations fit into a [[commuting diagram]]
 
 $$
   \array{
@@ -85,7 +85,7 @@ $$
 
 ### In simplicial model categories
 
-If $C$ is a [[simplicial model category]], then the [[power]]ing over [[sSet]] can be used to explicitly construct functorial path objects for fibrant objcts $X$: define $X \to X^I \to X \times X$ to be the [[power|powering]] of $X$ by the morphisms
+If $C$ is a [[simplicial model category]], then the [[power]]ing over [[sSet]] can be used to explicitly construct functorial path objects for fibrant objects $X$: define $X \to X^I \to X \times X$ to be the [[power|powering]] of $X$ by the morphisms
 
 $$
   \Delta[0] \coprod \Delta[0]
@@ -102,8 +102,7 @@ $$
   (-)^{(-)} : sSet^{op} \times C \to C
 $$
 
-sends cofibrations and acyclic cofibrations in the first argument to fibrations and acyclic fibrations inif the second argument is fibrant, and since this implies by the [[category of fibrant objects|factorization lemma]] that it then also preserves weak equivalences between cofibrant objects, it follows that $X^{\Delta[1]}$ is indeed a path object with the extra property that also the two morphisms $X^{\Delta[1]} \to X$ are acyclic fibratios.
-
+sends cofibrations and acyclic cofibrations in the first argument to fibrations and acyclic fibrations inif the second argument is fibrant, and since this implies by the [[category of fibrant objects|factorization lemma]] that it then also preserves weak equivalences between cofibrant objects, it follows that $X^{\Delta[1]}$ is indeed a path object with the extra property that also the two morphisms $X^{\Delta[1]} \to X$ are acyclic fibrations.
 
 ## Related notions
 
@@ -126,4 +125,3 @@ From a path space object may be derived [[loop space object]]s.
 
 [[!redirects path fibration]]
 [[!redirects path fibrations]]
-
