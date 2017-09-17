@@ -1,5 +1,36 @@
-The *oder of a [[group]]* is defined to be its cardinality.
 
-The *oder of an element $g$ of a [[group]]* is defined to be the smallest natural number $n$ such that $g^n=e$ equals the [[unit]] of the group.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
 
-Sometimes the term ''order'' refers to the height of a (group) scheme $X$ over a field (of characteristic $p$) which is defined to be the dimension of the associated ring of functions $O(X)$ as a $k$-[[vector space]]. Another term for this notion is ''rank''. If this group scheme is moreover [[p-divisible group|p-divisible]] - which means that is is in fact a codirected diagram of [[group scheme|group schemes]] of order $p^{v h}$; in this case $h$ is called the order or height of $X$.
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $G$ a [[discrete group]], its **order** is the [[cardinality]] of the underlying [[set]].
+
+## Other meanings
+
+### Order of an element of a group
+
+For $G$ a [[group]] and $g \in G$ an [[element]], the **order** of $g$ is the smallest [[natural number]] $n$ such that the $n$-fold group product of $g$ with itself is the neutral element:
+
+$$
+  order(g) \coloneqq min \{ n \in \mathbb{N} | g^n = e\}
+  \,.
+$$
+
+### Of a group scheme
+
+Sometimes the term ''order'' refers to the [[height of a group scheme|height]] of a ([[group scheme|group]]) [[scheme]] $X$ over a [[field]] (of [[characteristic]] $p$) which is defined to be the dimension of the associated ring of functions $O(X)$ as a $k$-[[vector space]]. Another term for this notion is ''rank''. If this group scheme is moreover [[p-divisible group|p-divisible]] - which means that is is in fact a codirected diagram of [[group scheme|group schemes]] of order $p^{v h}$; in this case $h$ is called the order or height of $X$.
+
+
+
