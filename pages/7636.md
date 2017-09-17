@@ -107,6 +107,7 @@ We now indicate some of the details.
 
 
 #### Type theories
+ {#TypeTheories}
 
 For definiteness, self-containedness and for references below, we say what a [[dependent type theory]] is, following ([Seely, def. 1.1](#Seely)).
 
