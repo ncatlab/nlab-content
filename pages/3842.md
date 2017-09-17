@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -32,3 +31,6 @@ An object in this category is a [[presheaf]]. See there for more details.
 
 For [[(∞,1)-category]] theory see [[(∞,1)-category of (∞,1)-presheaves]].
 
+[[!redirects categories of presheaves]]
+[[!redirects presheaf category]]
+[[!redirects presheaf categories]]
