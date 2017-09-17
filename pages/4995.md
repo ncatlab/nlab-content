@@ -1162,6 +1162,7 @@ $$
 
 
 ### From $\infty$-Cohesive sites of definition
+ {#ExamplesFromCohesiveSitesOnfDefinition}
 
 +-- {: .num_prop}
 ###### Proposition
