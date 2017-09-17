@@ -2865,7 +2865,7 @@ for the composite of the two functors of prop. \ref{DoldKanAndMooreTheorem}.
 
 We refer to this as the "Dold-Kan map", or say "by Dold-Kan", etc. It provides us with a rich supply of Kan complexes, hence of [[∞-groups]]. In fact, it embeds [[homological algebra]] into the [[homotopy theory]] of [[∞-groupoids]] in that it is a [[homotopical functor]]:
 
-+-- {: .num_prop }
++-- {: .num_prop #DoldKanRespectsWeakEquivalences}
 ###### Proposition
 
 The Dold-Kan map of def. \ref{DoldKanMap} sends [[quasi-isomorphisms]] of [[chain complexes]] to [[homotopy equivalences]] of [[Kan complexes]], def. \ref{HomotopyEquivalenceOfKanComplexes}.
@@ -2993,15 +2993,28 @@ First we observe in in
 
 * _[Universal topological Yang-Mills theory](#TopologicalYangMillsLocalPrequantumFieldTheory)_
 
-that there is a fairly canonical such morphism $S^{n+1}_{tYM}$, namely the "[[atlas]] relative to [[manifolds]]" of $\flat \mathbf{B}^{n+1}U(1)$ given by the [[sheaf]] of [[differential forms|closed differential (n+1)-forms]]. Analyzing what this morphism is like, when regarded as a local prequantum field theory by def. \ref{LocalPrequantumFieldWithAction} shows that it is the "universal" higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory. What exactly this means is then seem in 
+that there is a fairly canonical such morphism $S^{n+1}_{tYM}$, namely the "[[atlas]] relative to [[manifolds]]" of $\flat \mathbf{B}^{n+1}U(1)$ given by the [[sheaf]] of [[differential forms|closed differential (n+1)-forms]]. Analyzing what this morphism is like, when regarded as a local prequantum field theory by def. \ref{LocalPrequantumFieldWithAction}, shows that it is the "universal" higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory. What exactly this means is then seen in 
 
 * _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_
 
-where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the prequantum field theories of higher [[Chern-Simons theory]]-type, the _[[schreiber:∞-Chern-Simons theories]]_.
+where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the prequantum field theories of higher [[Chern-Simons theory]]-type, the _[[schreiber:∞-Chern-Simons theories]]_. These include ordinary 3d [[Chern-Simons theory]], [[higher dimensional Chern-Simons theory]] on ordinary [[gauge fields]] but also higher Chern-Simons theory on [[higher gauge fields]] such as the [[String 2-group]] [[7-dimensional Chern-Simons theory]], the [[AKSZ sigma-models]], and also [[closed string field theory]].
 
+This shows how $\infty$-Chern-Simons theories arise canonically as precisely the local [[boundary field theories]] of the canonical local field theory which exists in any [[differential cohesion|differential]] [[cohesion|cohesive]] [[(∞,1)-topos]].
 
+Continuing in this vein we can then work out what all the further higher [[codimension]] [[boundary field theories]] and [[defect field theories]] of this universal higher [[topological Yang-Mills theory]] and hence of [[schreiber:∞-Chern-Simons theories]] are. We find
 
+* _[Topological Chern-Simons boundaries]()_
 
+which are given by generalized "[[Bohr-Sommerfeld leaf|Bohr-Sommerfeld]] [[isotropic subspaces]]" of the [[moduli stacks]] of $\infty$-Chern-Simons fields.
+
+Then...
+
+* _[Universal boundary condition for $S_{tYM}$:  Differential cohomology and Cheeger-Simons field theory
+](#UniversalStYMBoundaryAndDifferentialCohomology)_
+
+* [General boundary conditions: Higher Chern-Weil theory and $\infty$-Chern-Simons theory](#GenralBoundaryForStYMAndHigherChernSimons) 
+
+(...)
 
 
 #### $d = n + 1$, Universal topological Yang-Mills theory $S_{tYM}$
@@ -3060,17 +3073,29 @@ $$
   \,.
 $$
 
-(...)
+By the previous reasoning, a presheaf of Kan complexes on the category of smooth manifolds, we may think of as being a plain Kan complex, hence [[∞-groupoid]] (the value of the presheaf on the point), together with a rule for what the smooth functions into it are, for each smooth testmanifold. Hence we think of it as a _[[smooth ∞-groupoid]]_. 
 
-The [[simplicial localization]]
+A basic example is a [[Lie groupoid]] $\mathcal{G}_\bullet \in Grpd(SmoothMfd)$, which represents a presheaf of Kan complexes on smooth manifolds by
+
+$$
+  U \mapsto N( C^\infty(U,\mathcal{G}_1) \stackrel{\to}{\to} C^\infty(U,\mathcal{G}_0) )
+  \,.
+$$
+
+
+Previously we have considered higher Dijkgraaf-Witten as taking place in the [[homotopy theory]] of plain [[∞-groupoids]] (geometrically [[discrete ∞-groupoids]]). Now we would like to have "a [[homotopy theory]] of [[smooth ∞-groupoids]]".
+
+(A modern term for "a [[homotopy theory]]" is "an [[(∞,1)-category]]", but for a heuristic idea of what is going on some readers may find it helpful to think of "a homotopy theory" instead.)
+
+In order to define "a [[homotopy theory]]" of [[smooth ∞-groupoids]] is, to be denoted [[Smooth∞Grpd]], we need to say what a [[homotopy]] and hence what a [[homotopy equivalence]] is supposed to be. Since [[smooth structure]] should be a local property witnessed on small smooth [[open balls]], we declare that
 
 $$
   Smooth\infty Grpd
   \coloneqq
-  L_{lhe} pSh(SmoothMfd, KanCplx)
+  L_{lhe} \; pSh(SmoothMfd, KanCplx)
 $$
 
-is the [[homotopy theory]] obtained by universally turning [[stalk]]-wise [[homotopy equivalences]] of [[Kan complexes]], def. \ref{spring}, into actual homotopy equivalences.
+is the [[homotopy theory]] obtained by "universally turning [[stalk]]-wise [[homotopy equivalences]] of [[Kan complexes]], def. \ref{spring}, into actual homotopy equivalences". The formal definition of this idea is called the _[[simplicial localization]]_ of $pSh(SmoothMfd, KanCplx)$ at the stalkwise homotopy equivalences.
 
 We call [[∞Grpd]] also the _[[differential cohesion|differential]] [[cohesive]] [[∞-topos]] of [[smooth ∞-groupoids]]_. For brevity and since most everything we discuss in the following holds for arbitrary _[[differential cohesion|differential]] [[cohesive]] [[(∞,1)-toposes]], we from now on denote it by
 
@@ -3083,8 +3108,10 @@ $$
 
 ##### The canonical local action functional: Differential forms in de Rham hypercohomology
 
+
+
 +-- {: .num_prop }
-###### Proposition
+###### Proposition/Example
 
 The canonical [[chain map]]
 
@@ -3106,6 +3133,13 @@ $$
   \in Smooth\infty Grpd
   \,.
 $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition and using prop. \ref{DoldKanRespectsWeakEquivalences} we need to check that over a small enough smooth open ball, the [[chain map]] becomes a [[quasi-isomorphism]]. But on an open ball this is the statement of the [[Poincaré Lemma]].
 
 =--
 
@@ -3163,16 +3197,18 @@ is a [[1-epimorphism]], hence a [[stalk]]-wise [[epimorphism]] on [[connected co
 
 (...)
 
-##### Universal boundary condition for $S_{tYM}$ -- differential cohomology and Cheeger-Simons theory
+##### Universal boundary condition for $S_{tYM}$:  Differential cohomology and Cheeger-Simons field theory
+ {#UniversalStYMBoundaryAndDifferentialCohomology}
 
 (...)
 
-##### General boundary condition for $S_{tYM}$ -- $\infty$-Chern-Simons theory
+##### General boundary condition for $S_{tYM}$: Higher Chern-Weil theory and $\infty$-Chern-Simons theory
+ {#GenralBoundaryForStYMAndHigherChernSimons}
 
 (...)
 
 
-##### Geometric defects for $S_{tYM}$ -- Chern-Simons invariants
+##### Geometric defects for $S_{tYM}$ from Chern-Simons invariants: Higher holonomy, parallel transport, fiber integration in differential cohomology
 
 (...)
 
