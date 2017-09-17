@@ -1,9 +1,18 @@
 The term **connection** can mean any of
 
 * [[connection on a bundle]]
+
+  * [[principal connection]]  
+          
+    * [[affine connection]]
+           
+    * [[Cartan connection]]
+           
+    * [[Ehresmann connection]]
+
   * [[meromorphic connection]]
   * [[Grothendieck connection]]
-  * [[affine connection]]
+  * [[simplicial connection]]
 
 * [[Hurewicz connection]]
 
@@ -17,9 +26,9 @@ which are all very similar and often special cases of each other, or a sort of d
 
 * [[hom-connection]],
 
-but it can also mean
+but it can also mean the non-related notions of 
 
-* [[connection on a cubical set]] or
+* [[connection on a cubical set]] and 
 
 * [[connection on a double category]],
 
