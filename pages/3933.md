@@ -25,3 +25,6 @@ Thus, a sequential limit is a special case of a [[directed limit]]. See there fo
 [[!redirects cosequential limits]]
 [[!redirects sequential colimit]]
 [[!redirects sequential colimits]]
+
+[[!redirects sequential diagram]]
+[[!redirects sequential diagrams]]
