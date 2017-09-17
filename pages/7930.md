@@ -23,6 +23,8 @@ A [[representation]] of the [[spin group]].
 
 * [[spinor]], [[spinor bundle]]
 
+* [[metaplectic representation]]
+
 ## References
 
 * Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
