@@ -90,7 +90,9 @@ is Mal'cev.
 
 See also [[Mal'cev category]]. 
 
-## Lattice of congruences 
+## The lattice of congruences $Equiv(X)$
+
+### $Equiv(X)$ is a modular lattice
 
 In any [[finitely complete category]], the intersection of two congruences (equivalence relations) on an object $X$ is a congruence, so that the set of equivalence relations $Equiv(X)$ is a meet-semilattice. 
 
@@ -113,7 +115,7 @@ The (poset-enriched) category of relations in a regular category is an [[allegor
 
 $$R \wedge (S \circ T) \subseteq S \circ ((S^{op} \circ R) \wedge T)$$ 
 
-whenever $T: X \to Y$, $S: Y \to Z$, $R: X \to Z$ are relations. As we have just seen, it follows from the hypothesis that joins in $Equiv(X)$ are given by composition, and so for $R, S, T \in Equiv(X)$ we have
+whenever $T: X \to Y$, $S: Y \to Z$, $R: X \to Z$ are relations. As we have just seen, the hypothesis implies that joins in $Equiv(X)$ are given by composition (so $Equiv(X)$ is a lattice), and so for $R, S, T \in Equiv(X)$ we have
 
 $$R \wedge (S \vee T) \subseteq S \vee ((S \vee R) \wedge T).$$ 
 
@@ -129,7 +131,18 @@ and also $S \vee (R \wedge T) \subseteq R \wedge (S \vee T)$. Thus $S \subseteq 
 If $T$ is a Mal'cev theory, then the lattice of congruences $Equiv(X)$ on any $T$-algebra $X$ is a modular lattice. 
 =--
 
-Desarguesian property? 
+### $Equiv(X)$ is a Desarguesian lattice 
+
+A similar argument shows that congruence lattices for $T$-algebras $X$, for $T$ a Mal'cev theory, satisfy the following property (stronger than the modular property):
+
+* [[Desarguesian axiom|Desarguesian property]]: if $R_i, S_i, T_i \in Equiv(X)$ for $i = 1, 2$, then
+$$(R_1 \vee R_2) \wedge (S_1 \vee S_2)) \subseteq T_1 \vee T_2 \qquad implies \qquad (R_1 \vee S_1) \wedge (R_2 \vee S_2) \subseteq ((R_1 \vee T_1) \wedge (R_2 \vee T_2)) \vee ((S_1 \vee T_1) \wedge (S_2 \vee T_2))$$ 
+
+Freyd-Scedrov's [[Categories, Allegories]] (2.157, pp. 206-207) gives the following argument: given relations $R_1, S_1, T_1: X \to Y$, $R_2, S_2, T_2: Y \to Z$ between sets, it is "easily verified" that  
+
+$$R_2 R_1 \cap S_2 S_2 \subseteq T_2 T_1 \qquad implies \qquad S_1 R_{1}^{op} \cap S_{2}^{op} R_2 \subseteq (S_1 T_{1}^{op} \wedge S_{2}^{op} T_2)(T_1 R_{1}^{op} \cap T_{2}^{op}R_2)$$ 
+
+Then, under the assumption that equivalence relations internal to $T$-$Alg$ commute (so that the join of equivalence relations $R, S$ on $X$ is their relational composite $R S = R \circ S$), the Desarguesian axiom follows immediately. 
 
 ## References
 
