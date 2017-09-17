@@ -1,22 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Idea
 
-A _partition of unity_ is a decomposition of the unit function on a [[topological space]] into a sum of continuous functions that are each non-zero only on small parts of the space.
+A _partition of unity_ is a [[partition]] of the unit function on a [[topological space]] into a sum of continuous functions that are each non-zero only on small parts of the space.
+
 
 ## Definition
 
@@ -47,12 +47,21 @@ The last two are actually characterisations of paracompact resp. normal spaces (
 
 Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that analytic manifolds have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic.
 
+
 ### From a non-point finite partition of unity to a partition of unity
 
++-- {: .num_defn}
+###### Definition
 
-**Definition:** A collection of functions $\mathcal{U} = \{u_i : X \to [0,1]\}$ such that every $x\in X$ is in the support of some $u_i$. Then $\mathcal{U}$ is called _locally finite_ if the cover $u_i^{-1}(0,1]$ (i.e. the induced cover) is [[locally finite cover|locally finite]].
+A collection of functions $\mathcal{U} = \{u_i : X \to [0,1]\}$ such that every $x\in X$ is in the support of some $u_i$. Then $\mathcal{U}$ is called _locally finite_ if the cover $u_i^{-1}(0,1]$ (i.e. the induced cover) is [[locally finite cover|locally finite]].
+=--
 
-**Proposition:** (Mather, 1965) Let $\{u_i\}_J$ be a non-point finite partition of unity. Then there is a locally finite partition of unity $\{v_i\}_{i\in J}$ such that the induced cover of the latter is a refinement of the induced cover of the former.
++-- {: .num_prop}
+###### Proposition
+(Mather, 1965)
+
+Let $\{u_i\}_J$ be a non-point finite partition of unity. Then there is a locally finite partition of unity $\{v_i\}_{i\in J}$ such that the induced cover of the latter is a refinement of the induced cover of the former.
+=--
 
 (For a proof, see p.354 of Dold's Lectures on algebraic topology.)
 
@@ -133,6 +142,7 @@ where in the second step we used the condition $\delta f = 0$ and in the last st
 
 This construction is used a lot in [[Cech cohomology]]. For instance it can be used to show in Chech cocycles that every [[principal bundle]] admits a [[connection on a bundle]] (see there for the details).
 
+
 ## References
 
 * [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
@@ -141,6 +151,8 @@ This construction is used a lot in [[Cech cohomology]]. For instance it can be u
 
 * M. Mather, _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
 
+
+[[!redirects partition of unity]]
 [[!redirects partitions of unity]]
-[[!redirects Partitions of unity]]
 [[!redirects Partition of unity]]
+[[!redirects Partitions of unity]]
