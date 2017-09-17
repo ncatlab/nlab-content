@@ -73,6 +73,10 @@ Modular tensor categories arise as [[representation]] categories of [[vertex ope
 
 A review is for instance in section 2.1 of ([Fuchs-Runkel-Schweigert 02](#FuchsRunkelSchweigert02)).
 
+A list of examples (with an emphasis on [[representation categories]] of rational [[vertex operator algebras]]) is in
+
+* {#GannonHoehn} [[Terry Gannon]], [[Gerald Höhn]], Hiroshi Yamauchi, _[The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas/)_
+
 
 ### Relation to 3dCS/2dWZW quantum field theory
 
