@@ -23,7 +23,9 @@
 
 ## Idea
 
-In a [[sigma-model]] [[quantum field theory]] a field configuration over a parameter space $\Sigma$ is a [[morphism]] $\Sigma \to X$ to some [[object]] $X$. This is the _target space_ of the theory. The $\sigma$-model is to be understood as describing the [[quantum mechanics]] of [[brane]]s with trajectories of shape $\Sigma$ propagating in $X$.
+Generally, for $Maps(\Sigma,X)$ a [[mapping space]], the space $X$ is the corresponding _target space_ .
+
+Specifically, in a [[sigma-model]] [[quantum field theory]] a field configuration over a parameter space $\Sigma$ is a [[morphism]] $\Sigma \to X$ to some [[object]] $X$. This is the _target space_ of the theory. The $\sigma$-model is to be understood as describing the [[quantum mechanics]] of [[brane]]s with trajectories of shape $\Sigma$ propagating in $X$.
 
 ## Examples
 
