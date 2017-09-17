@@ -1,3 +1,11 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A **meet-semilattice** is a [[poset]] which admits all [[finite set|finite]] [[meet|meets]], or equivalently which admits a top element $\top$ and binary meets $a\wedge b$.
 
 In a meet-semilattice the binary meet $\wedge$ is commutative, associative, has $\top$ as a unit, and is *idempotent*: $a\wedge a =a$.  And in fact, given any commutative and idempotent [[monoid]] $(A,\wedge,\top)$, we can define $a\le b$ to mean $a \wedge b = a$ to make it into a poset with finite meets; thus we have an equivalent algebraic definition of a meet-semilattice.
@@ -29,6 +37,11 @@ Note that such a homomorphism is necessarily a [[monotone function]], but the co
 Thus, a semilattice is a poset with [[property-like structure]].
 
 Semilattices and semilattice homomorphims form a [[concrete category]] [[SemiLat]].
+
+
+## Examples
+
+* [[semilattice of commutative subalgebras]]
 
 
 [[!redirects meet-semilattice]]
