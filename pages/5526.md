@@ -97,7 +97,7 @@
 
 * **[[smooth ∞-groupoid]]**
 
-  * [[smooth manifold]], [[diffeological space]], [[Lie group]], [[Lie groupoid]], [[differentiable stack]], [[Lie 2-group]], [[Lie 2-groupoid]], [[smooth ∞-groupoid]]
+  * [[smooth space]], [[diffeological space]], [[smooth manifold]], [[Lie group]], [[Lie groupoid]], [[differentiable stack]], [[Lie 2-group]], [[Lie 2-groupoid]], [[smooth ∞-groupoid]]
 
 * **[[synthetic differential ∞-groupoid]]**
 
@@ -109,7 +109,7 @@
 
 * **[[smooth super ∞-groupoid]]**
 
-  * [[supergeometry]], [[supermanifold]], [[super Lie group]]
+  * [[superpoint]], [[supergeometry]], [[supermanifold]], [[super Lie group]], [[super ∞-groupoid]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/cohesive+infinity-toposes+-+contents)</div>
