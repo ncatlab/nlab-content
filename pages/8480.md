@@ -152,6 +152,10 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 ... 
 
+## Related concepts
+
+* [[Lawvere's fixed point theorem]]
+
 ## References 
 
 * Claudio Hermida, Bart Jacobs, _Structural induction and coinduction in a fibrational setting_, Information and Computation 145 (1997), 107-152. ([citeseer](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.7400)) 
