@@ -1,1 +1,1 @@
-The material previously on this page may be found at [MyWikiBiz](http://mywikibiz.com/Directory:Jon_Awbrey/Notes/Precursors).
+The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Precursors_of_Category_Theory).
