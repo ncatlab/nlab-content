@@ -20,6 +20,9 @@ A topological space is **sequentially compact** if every [[sequence]] in it has 
 Compactness does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions (see for example wikipedia: [compact spaces] (href="http://en.wikipedia.org/wiki/Compact_space")). 
 In [[metric spaces]] for example both notions coincide.
 
+This is _not_ a contradiction to the statement that compact is equivalent to every [[net]] having a convergent subnet: Given a sequence in a compact space, its convergent _subnet_ need not be a _subsequence_ (see [[net]] for a definition of subnet).
+
+### a Compact Space that is not Sequentially Compact ###
 A famous example of a space that is compact, but not sequentially compact, is the product space
 $$
     I^{I} := [0, 1]^{[0, 1]}
@@ -39,8 +42,9 @@ However, as $I^I$ is compact, $a$ has a convergent subnet.  An explicit construc
 The following is a list of properties of and pertaining to sequentially compact spaces.
 
 
-2. For a [[metric space]], the notions of sequential compactness and compactness coincide.
+1. For a [[metric space]], the notions of sequential compactness and compactness coincide.
 
+2. The [[Eberlein–Šmulian theorem]] states that in a [[Banach space]], for a subset with regard to the [[weak topology]], compactness and sequentially compactness are both equivalent to the weaker notion of [[countable compactness]].
 
 [[!redirects sequentially compact]]
 [[!redirects sequential compactness]]
