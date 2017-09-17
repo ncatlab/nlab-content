@@ -76,6 +76,8 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 
 ## Related concepts
 
+* [[carrying]]
+
 * [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]]
 
 * [[p-adic integer]]
