@@ -70,7 +70,7 @@ the following are equivalent:
 
 3. The [[monad]] $(Q^* Q_*,Q^*\varepsilon Q_*,\eta)$ associated to the adjunction is [[idempotent monad|idempotent]].
 
-4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$, then $Q^*: A \to B$ realizes $B$ as the [[localization]] of $A$ with respect to the class $S$. 
+4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$, then $Q^*: A \to B$ realizes $B$ as the (nonstrict) [[localization]] of $A$ with respect to the class $S$. 
 
 =--
 
@@ -108,7 +108,7 @@ In the last case, note that if the unit is an *iso*morphism, then the inclusion 
 
 ## Properties
 
-A reflective subcategory is always closed under [[limit|limits]] (because the full inclusion is monadic, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector.
+A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector.
 
 A morphism in a reflective subcategory is monic iff it is monic in the ambient category. A reflective subcategory of a well-powered category is well-powered. 
 
