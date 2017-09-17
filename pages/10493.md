@@ -28,7 +28,7 @@ A 1-excisive (∞,1)-functor is called just _[[excisive (∞,1)-functor|excisive
 +-- {: .num_remark}
 ###### Remark
 
-This notion comparable to how a [[polynomial]] of degree at most $n$ is determined by its values on $n + 1$ distinct points.
+This notion is comparable to how a [[polynomial]] of degree at most $n$ is determined by its values on $n + 1$ distinct points. This comparison is developed by the concept of a [[polynomial (∞,1)-functor]].
 
 =--
 
@@ -36,6 +36,7 @@ This notion comparable to how a [[polynomial]] of degree at most $n$ is determin
 ## Related concepts
 
 * [[Goodwillie calculus]]
+* [[polynomial (∞,1)-functor]]
 
 
 ## References
