@@ -1,4 +1,6 @@
-__Jean-Louis Loday__ is a French mathematician who is _Directeur de Recherche au CNRS_ based in Strasbourg. He is well known for his work in [[algebraic K-theory]], in the development of [[cyclic homology]] and more recently for work on [[operads]] and [[Leibniz algebras]].
+__Jean-Louis Loday__ (deceased June 2012) was a French mathematician who was, at the time of his passing, _Directeur de Recherche au CNRS_ based in Strasbourg. He is well known for his work in [[algebraic K-theory]], in the development of [[cyclic homology]] and more recently for work on [[operads]] and [[Leibniz algebras]].
+
+* [SMF notice of decease](http://smf.emath.fr/content/d%C3%A9c%C3%A8s-de-jean-louis-loday)
 
 * [webpage](http://www-irma.u-strasbg.fr/~loday)
 
