@@ -8,8 +8,13 @@ This page is about unbounded operators on Hilbert spaces. Considering operators 
 ##why differentiation is not bounded
 Let $\mathcal{H}$ be the Hilbert space $L^2(\mathbb{R})$ and T be the operator of differentiation, that is for $f$ differentiable we have $Tf(x) := f'(x)$. Consider the sequence $f_k(x) := \exp(-k|x|)$ for $k \in \mathbb{N}$, then we have $\frac{\|Tf_k\|}{\|f_k\|} = k$. This example also shows that unbounded operators will not be defined on the whole Hilbert space, but on a (dense) subset.
 
+#Definition
+An **unbounded operator** $T$ on a Hilbert space $\mathcal{H}$ is a linear operator defined on a subspace $D$ of $\mathcal{H}$. $D$ is necessarily a linear submanifold. Usually it is assumed that $D$ is dense in $\mathcal{H}$, which we will do, too, unless stated otherwise. 
+
+In particular every bounded operator $A: \mathcal{H} \to \mathcal{H}$ is an unbounded operator.
+
 #domains, a first look
-Unbounded operators are not defined on the whole Hilbert space, so it is essential that, when talking about a specific unbounded operator, we are actually talking about the tuple $(T, D_T)$ of an operator $T$ and it's domain $D_T$. The domain of a linear operator is always a linear submanifold of the Hilbert space. Unless stated otherwise we will always assume that the domain is dense.
+Unbounded operators are not defined on the whole Hilbert space, so it is essential that, when talking about a specific unbounded operator, we are actually talking about the tuple $(T, D_T)$ of an operator $T$ and it's domain $D_T$. In particular two unbounded operators $T, S$ are equal iff their domains are equal, $D_T = D_S$, and for all $x \in D_S=D_T$ we have $Tx = Sx$. 
 
 The default definition of the domain of a given operator $T$ is simply $D_T := \{x \in \mathcal{H} \vert Tx \in \mathcal{H} \}$.
 
