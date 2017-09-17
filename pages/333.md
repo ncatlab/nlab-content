@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
 =--
 =--
+=--
+
+
 
 
 #Contents#
