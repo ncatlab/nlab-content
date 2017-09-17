@@ -277,6 +277,7 @@ $$
 
 * [[operational tangent space]]
 
+* [[p-derivation]]
 
 ## References
 
