@@ -27,13 +27,15 @@ rspectively.
 
 ## Definition
 
-A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **left Kan fibration** if it has the [[right lifting property]] with respect to all [[horn]] inclusions $\Lambda[n]_i \to \Delta[n]$ except the right outer ones: $0 \leq i \lt n$. It is a **right fibration** or **right Kan fibration** if its extends against all horns except the left outer ones: $0 \lt i \leq n$.
+A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **left Kan fibration** if it has the [[right lifting property]] with respect to all [[horn]] inclusions $\Lambda[n]_k \to \Delta[n]$ except the right outer ones: $0 \leq k \lt n$. 
+
+It is a **right fibration** or **right Kan fibration** if its extends against all horns except the left outer ones: $0 \lt k \leq n$.
 
 So $X \to S$ is a left fibration precisely if for all commuting squares
 
 $$
   \array{
-    \Lambda[n]_{k \gt 0} &\to& X
+    \Lambda[n]_{k} &\to& X
     \\
     \downarrow &{}^{\exists}\nearrow& \downarrow
     \\
@@ -41,7 +43,7 @@ $$
   } 
 $$
 
-for $n \in \mathbb{N}$ and $0 \leq i \lt n$, a diagonal lift exists as indicated.
+for $n \in \mathbb{N}$ and $0 \leq k \lt n$, a diagonal lift exists as indicated.
 
 Morphisms with the [[left lifting property]] against all left/right fibrations are called **left/right anodyne** maps.
 
@@ -376,13 +378,8 @@ Let $p : K \to C$ be an arbitrary morphism to a [[quasi-category]] $C$ and let $
 
 =--
 
-
-+-- {: .proof}
-###### Proof
-
 Due to [[Andre Joyal]]. Recalled as [[Higher Topos Theory|HTT, prop 2.1.2.2]].
 
-=--
 
 
 ### (Left/)Right anodyne morphisms {#PropRightAnodyne}
@@ -394,25 +391,121 @@ The collection of left anodyne morphisms (those with [[left lifting property]] a
 
 $LAn_0 =$
 
-* the collection of all left [[horn]] inclusions
+1. the collection of all left [[horn]] inclusions
 
   $\{ \Lambda[n]_{i} \to \Delta[n] | 0 \leq i \lt n \}$;
 
-* blah-blah
+1. the collection of all inclusions of the form
 
-* blah-blah
+   $$
+     (\Delta[m] \times \{0\})
+     \coprod_{\partial \Delta[m] \times \{0\}}
+     (\partial \Delta[m] \times \Delta[1])
+     \hookrightarrow
+     \Delta[m] \times \Delta[1]
+   $$
 
+1. the collection of all inclusions of the form
+
+   $$
+     (S' \times \{0\})
+     \coprod_{S \times \{0\}}
+     (S \times \Delta[1])
+     \hookrightarrow
+     S' \times \Delta[1]
+   $$
+
+   for all inclusions of simplicial sets $S \hookrightarrow S'$.
 
 =--
+
+This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.2.6]].
 
 +-- {: .proof}
 ###### Proof
 
-This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.2.6]].
+...
 
 =--
 
 
++-- {: .un_cor}
+###### Corollary
+
+For $i : A \to A'$ left-anodyne and $j : B \to B'$ a cofibration in the [[model structure for quasi-categories]], the canonical morphism
+
+$$
+  (A \times B') \coprod_{A \times B} (A' \times B)
+  \to 
+  A' \times B'
+$$
+
+is left-anodyne.
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, cor. 2.1.2.7]].
+
+
+
++-- {: .un_cor}
+###### Corollary
+
+For $p : X \to S$ a left fibration and $i : A \to B$ a cofibration of simplicial sets, the canonical morphism
+
+$$
+  q : X^B \to X^A \times_{S^A} S^B
+$$
+
+is a left fibration. If $i$ is furthermore left anodyne, then it is an acyclic [[Kan fibration]].
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, cor. 2.1.2.9]].
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $f : A_0 \to A$ and $g : B_0 \to B$ two inclusions of [[simplicial set]]s with $f$ left anodyne, we have that the canonical morphism
+
+$$
+  (A_0 \star B ) \coprod_{A_0 \star B_0} (A \star B_0)
+  \to
+  A \star B
+$$
+
+into the [[join of simplicial sets]] is left anodyne.
+
+=--
+
+This is due to [[Andre Joyal]]. It appears as [[Higher Topos Theory|HTT, lemma 2.1.4.2]].
+
++-- {: .un_prop}
+###### Proposition
+**(restriction of over-quasi-categories along left anodyne inclusions)**
+
+Let $p : B \to S$ be a morphism of [[simplicial set]]s and $i : A \to B$ a left anodyne morphism, then the restriction morphism of [[over quasi-categories|under quasi-categories]]
+
+$$
+  S_{/p} \to S_{/p|_A}
+$$
+
+is an acyclic [[Kan fibration]].
+
+=--
+
+This is a special case of what appears as [[Higher Topos Theory|HTT, prop. 2.1.2.5]], which is originally due to [[Andre Joyal]].
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let $p : X \to S$ be a morphism of simplicial sets with [[section]] $s : S \to X$. If there is a fiberwise simplicial [[homotopy]] $X \times \Delta[1] \to S$ from $s \circ p $ to $Id_X$ then $s$ is left anodyne.
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, prop. 2.1.2.11]].
 
 
 [[!redirects left fibration]]
@@ -424,3 +517,16 @@ This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.
 [[!redirects right fibrations]]
 [[!redirects right Kan fibration]]
 [[!redirects right Kan fibrations]]
+
+[[!redirects left anodyne morphism]]
+[[!redirects right anodyne morphism]]
+
+[[!redirects left anodyne morphisms]]
+[[!redirects right anodyne morphisms]]
+
+
+[[!redirects left anodyne map]]
+[[!redirects right anodyne map]]
+
+[[!redirects left anodyne maps]]
+[[!redirects right anodyne maps]]
