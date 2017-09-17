@@ -357,12 +357,19 @@ $$
 #### in terms of conical (co)limits
  {#PointwiseByConicalLimits}
 
-In the case of functors between ordinary [[locally small categories]], hence in the special case of $V$-[[enriched category theory]] for $V = $ [[Set]], there is an expression of a weighted (co)limit and hence a pointwise Kan extension as am ordinary ("conical", meaning: in terms of [[cone]]s) (co)limit over a [[comma category]]:
+In the case of functors between ordinary [[locally small categories]], hence in the special case of $V$-[[enriched category theory]] for $V = $ [[Set]], there is an expression of a weighted (co)limit and hence a pointwise Kan extension as an ordinary ("conical", meaning: in terms of [[cone]]s) (co)limit over a [[comma category]]:
 
 +-- {: .num_prop}
 ###### Proposition
 
-The right Kan extension of a functor $F : C \to D$ of locally small categories along a functor $f : C \to C'$ is the functor $Ran_f F$ whose value on an object $c' \in C'$ is (if either exists) given by the [[limit]]
+Let 
+
+* $C$ be a [[small category]];
+
+* $D$ have all small [[limit]]s.
+
+Then the right Kan extension of a functor $F : C \to D$ of locally small categories along a functor $f : C \to C'$ exists 
+and its value on an object $c' \in C'$ is given by the [[limit]]
 
 $$
     (Ran_p F)(c')
@@ -377,20 +384,111 @@ where
 
 * $\Delta_{c'}/f \to C$ is the canonical [[forgetful functor]].
 
-Likewise, the left Kan extension of a functor of ordinary categories is given (if either exists) by the [[colimit]]
+Likewise, if $D$ admits small [[colimit]]s, 
+the left Kan extension of a functor exists and is pointwise given by the [[colimit]]
 
 $$
     (Lan_f F)(c')
       \simeq 
      \lim_\to \left((f/\Delta_{c'}) \to C \stackrel{F}{\to} D\right)
+  \,.
 $$
 
 =--
 
 This appears for instance as ([Borceux, I, thm 3.7.2](#Borceux)).
-
 Discussion in the context of [[enriched category theory]] is in ([Kelly, section 3.4](#Kelly)).
 
+A cartoon picture of the forgetful functor out of the [[comma category]] $f/\Delta_{c'} \to C$, useful to keep in mind, is
+
+$$
+  \left(
+    \array{
+      f(c_1) &&\stackrel{f(\phi)}{\to}&& f(c_2)
+      \\
+      & \searrow && \swarrow
+      \\
+      &&  c'
+    }
+  \right)
+   \;\;
+   \mapsto
+   \;\;
+  \left(
+    c_1 \stackrel{\phi}{\to} c_2
+  \right)
+  \,.
+$$
+
+The [[comma category]] here is equivalently the [[category of elements]] of the functor $C'(f(-), c') : C^{op} \to Set$
+
+$$
+  (f/\Delta_{c'}) \simeq el( C'(f(-), c') )
+  \,.
+$$
+
++-- {: .proof}
+###### Proof
+
+Consider the case of the left Kan extension, the other case works analogously, but dually.
+
+First notice that the above pointwise definition of values of a functor canonically extends to an actual functor:
+
+for $\phi : c'_1 \to c'_2$ any morphism in $C'$ we get a functor
+
+$$
+  \phi_* : f/\Delta_{c'_1} \to f/\Delta_{c'_2}
+$$
+
+of comma categories, by postcomposition. This morphism of [[diagram]]s induces canonically a corresponding morphism of [[colimit]]s
+
+$$
+  (Lan_f F)(c'_1) \to (Lan_f F)(c'_2)
+  \,.
+$$
+
+Now for the universal property of the functor $Lan_f F$ defined  this way. For $c' \in C'$ denote the components of the colimiting [[cocone]] $(Lan_f F)(c') := \lim_{\to}( f/\Delta_{c'} \to C \stackrel{F}{\to} D) $ by $s_{(-)}$, as in
+
+$$
+  \array{
+   (f(c_1)\stackrel{\phi}{\to} c') 
+      &&\stackrel{f(h)}{\to}&& 
+   (f(c_2)\stackrel{\lambda}{\to} c')
+    \\
+    \\
+    \\
+    F(c_1) &&\stackrel{F(h)}{\to}&& F(c_2)
+    \\
+    & {}_{\mathllap{s_\phi}}\searrow && \swarrow_{\mathrlap{s_{\lambda}}}
+    \\
+    && (Lan_f F)(c')
+  }
+  \,.
+$$
+
+We now construct in components a natural transformation
+
+$$
+  \eta_F : F \to f^* Lan_f F
+$$
+
+for $Lan_f F$ defined as above, and show that it satisfies the required universal property.
+The components of $\eta_F$ over $c \in C$ are morphisms
+
+$$
+  \eta_F(c) : F(c) \to (Lan_f F)(f (c))
+  \,.
+$$
+
+Take these to be given by 
+
+$$
+  \eta_F(c) := s_{Id_{f(c)}}
+$$
+
+(this is similar to what happens in the proof of the [[Yoneda lemma]], all of these arguments are variants of the argument for the Yoneda lemma, and vice versa). It is straightforward, if somewhat tedious, to check that these are natural, and that the natural transformation defined this way has the required universal property.
+
+=--
 
 ### Comparing the definitions   {#pointwiseVsWeak}
 
