@@ -25,7 +25,7 @@
 
 ## Idea
 
-In the context of [[quantum field theory]], to _[[renormalization|renormalize]]_ an [[action functional]] $S$ means to add terms of higher order in [[Planck's constant]] $\hbar$ to it such as for the result to have a consistent [[quantization]] in [[perturbation theory]]. These terms are called _conterterms_, as they are found by observing which [[singularities]] the original [[Lagrangian]] induces and "countering" these.
+In the context of [[quantum field theory]], to _[[renormalization|renormalize]]_ an [[action functional]] $S$ means to add terms of higher order in [[Planck's constant]] $\hbar$ to it such as for the result to have a consistent [[quantization]] in [[perturbation theory]]. These terms are called _counterterms_, as they are found by observing which [[singularities]] the original [[Lagrangian]] induces and "countering" these.
 
 See at _[[renormalization]]_ the section _[Renormalized action](renormalization#RenormalizedAction)_.
 
