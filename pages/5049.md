@@ -48,6 +48,28 @@ If $L \subset X$ is a [[closed subset]] and $U \subset X$ is an [[open subset]] 
 See ([Wockel](#Wockel))
 
 
+$$
+  \array{
+    && O &\stackrel{id}{\to} & O &  \stackrel{id}{\to}& O
+    \\
+    & {}^{\mathllap{smooth}}\nearrow
+    &
+    {}_{\mathllap{\sigma|_{X \setminus U}}}\uparrow
+     = \uparrow_{\mathrlap{\tau|_{X \setminus U}}} 
+    && 
+   \uparrow^{\mathrlap{\sigma}}
+    & \swArrow_F& 
+    \uparrow^{\exists \tau}
+    & \nwarrow^{\mathrlap{smooth}}
+    \\
+    L \setminus U &\hookrightarrow & X \setminus U 
+    &\hookrightarrow& X 
+    &\stackrel{id}{\to}&
+   X
+   &\stackrel{}{\hookleftarrow}& L
+  }
+$$
+
 ## Examples
 
 ### Smoothing of delayed homotopies {#SmoothingOfDelayedHomotopies}
