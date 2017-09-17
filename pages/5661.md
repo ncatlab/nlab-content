@@ -31,7 +31,7 @@ But more generally it is a [[equivalence]] between any kind of [[functors]] in [
 
  * In [[(∞,1)-category theory]] a natural equivalence is an [[equivalence in an (∞,1)-category]] in an [[(∞,1)-category of (∞,1)-functors]].
 
-The components of a  natural equivalence  are [[equivalences]] between the [[objects]] in the codomain of the functors. This is what the term "natural equivalence" refers to: its a collection of equivalences between objects which are compatible ("natural") with the [[morphisms]] between these objects, and highe morphisms between those.
+The components of a  natural equivalence  are [[equivalences]] between the [[objects]] in the codomain of the functors. This is what the term "natural equivalence" refers to: its a collection of equivalences between objects which are compatible ("natural") with the [[morphisms]] between these objects, and higher morphisms between those.
 
 ## Related concepts
 
