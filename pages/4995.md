@@ -427,17 +427,17 @@ This follows from the [above proposition](#PointLike) which says that $\mathbf{H
 The operation of forming [[loop space object]]s in $\mathbf{H}$ establishes an [[equivalence of (∞,1)-categories]]
 
 $$
-  \Omega : Connected(\mathbf{H}) \stackrel{\simeq}{\to} Grp(\mathbf{H})  
+  \Omega : PointedConnected(\mathbf{H}) \stackrel{\simeq}{\to} Grp(\mathbf{H})  
 $$
 
-between the [[(∞,1)-category]] of [[group object in an (∞,1)-category|group object]]s in $\mathbf{H}$ and the full [[sub-(∞,1)-category]] of [[0-connected]] objects.
+between the [[(∞,1)-category]] of [[group object in an (∞,1)-category|group object]]s in $\mathbf{H}$ and the full [[sub-(∞,1)-category]] of [[pointed object]]s $*/\mathbf{H}$ on those that are [[0-connected]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the discussion at <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#Delooping">delooping</a> we have such an equivalence in every $(\infty,1)$-topos for the full sub-$(\infty,1)$-categories of [[pointed object|pointed]] [[0-connected]] object. But since the cohesive $(\infty,1)$-topos $\mathbf{H}$ has [[homotopy dimension]] $0$ by the [above proposition](#PointLike) every 0-connected object has an essentially unique point.
+By the discussion at <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#Delooping">delooping</a>. 
 
 =--
 
@@ -450,6 +450,9 @@ $$
 for the inverse to $\Omega$. For $G \in Grp(\mathbf{H})$ we call 
 $\mathbf{B}G \in Connected(\mathbf{H}) \hookrightarrow \mathbf{H}$ the 
 **[[delooping]]** of $G$.
+
+Notice that since the cohesive $(\infty,1)$-topos $\mathbf{H}$ has [[homotopy dimension]] $0$ by the [above proposition](#PointLike) every 0-connected object has an essentially unique point, but nevertheless the [[homotopy type]] of $*/\mathbf{H}(\mathbf{B}G, \mathbf{B}H)$ may differ from that of $\mathbf{H}(\mathbf{B}G, \mathbf{B}H)$.
+
 
 +-- {: .un_prop}
 ###### Observation
@@ -3748,7 +3751,7 @@ $$
   \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
 $$
 
-that factors the infinitesimal and the finite path inclusion
+that factors the finite path inclusion through the infinitesimal one
 
 $$
   \array{
