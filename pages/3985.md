@@ -523,7 +523,7 @@ $$
 and observe that we have an isomorphism of simplicial sets
 
 $$
-  Hom_{C_{d}}(g_* t, Id_{d})
+  Hom_{C_{d/}}(g_* t, Id_{d})
   \simeq
   Hom_{C_{f/}}(\sigma, s_1(f))  
 $$
