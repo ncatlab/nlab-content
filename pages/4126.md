@@ -143,6 +143,8 @@ For more see at _[[Bohr topos]]_.
 
 ## Related theorems
 
+* [[beable]]
+
 Other theorems about the foundations of [[quantum mechanics]] include:
 
 * [[order-theoretic structure in quantum mechanics]]
