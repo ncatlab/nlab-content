@@ -41,7 +41,7 @@ A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 
 * such that 
 
-  1. the structure group of the underlying [[principal bundle]] reduces to $H$.
+  1. there is a [[reduction of structure groups]] along $H \hookrightarrow G$;
 
   1. for each point $x \in X$ the canonical composite (for any local trivialization)
 
