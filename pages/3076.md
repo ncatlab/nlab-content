@@ -1,4 +1,3 @@
-
 **[[limit|limits and colimits]]**
 
 ## 1-Categorical
@@ -35,6 +34,8 @@
 ## 2-Categorical
 
 * [[2-limit]]
+
+* [[2-pullback]], [[comma object]]
 
 ## $(\infty,1)$-Categorical
 
