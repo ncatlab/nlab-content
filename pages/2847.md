@@ -1,8 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A **large cardinal** is a [[cardinal number]] that is larger than can be proven to exist in the ambient [[set theory]], usually [[ZF]] or ZFC.  Large cardinals arrange themselves naturally into a more or less linear order of size and consistency strength, and provide a convenient yardstick to measure the consistency strength of various other assertions that are unprovable from ZFC.
 
-## See also
+## List of large cardinal axioms
 
 * [[axiom of infinity]] -- a large cardinal axiom relative to finitist theories, but not relative to ZF
 * [[inaccessible cardinal]] -- the smallest sort of large cardinal in ZF, equivalent to the existence of a [[Grothendieck universe]].
