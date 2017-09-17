@@ -167,9 +167,13 @@ $$(A_0,A_1,\dots,A_n)$$
 
 such that $A_0 \in E^1$ and $A_{k+1} \in E^{1.A_0.A_1.\cdots .A_k}$ for all $k$.  Define the morphisms $(A_0,\dots,A_n) \to (B_0,\dots,B_m)$ in $cxt(C)$ to be the morphisms $1.A_0.A_1.\cdots.A_n \to 1.B_0.B_1.\cdots.B_m$ in $C$.  All the rest of the structure is induced in an evident way from $C$.
 
-## Strictification
+## Examples
 
-There are several ways to construct categories with the above structure out of categories that occur "in nature".
+There are several ways to construct categories with the above structure out of categories that occur "in nature".  But first we should mention the examples that come from type theory itself.
+
+### Syntactic categories
+
+The [[syntactic category]] of any dependent type theory has all of the above structures.  Its objects are [[contexts]] in the theory, and the types in context $\Gamma$ form the set or category $E^\Gamma$.  The strict associativity of substitution in type theory makes this fibration automatically split.
 
 
 ### Splitting fibrations
