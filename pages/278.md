@@ -53,6 +53,9 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[higher differential geometry]], [[derived differential geometry]]
 
+  * [[higher differential geometry applied to plain differential geometry]]
+  
+
 * [[D-geometry]]
 
 * [[Lie theory]]
