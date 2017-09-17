@@ -38,7 +38,7 @@ $$
 
 be a [[functor]] out of a [[small category]] $C$ such that
 
-* for each point $x\in X$ the [[full subcategory]] $C_x$ of objects $c$ such that $\chi(x)$ contains $x$ has a [[weak homotopy equivalence|weakly]] [[contractible]] [[nerve]].
+* for each point $x\in X$ the [[full subcategory]] $C_x$ of objects $c$ such that $\chi(c)$ contains $x$ has a [[weak homotopy equivalence|weakly]] [[contractible]] [[nerve]].
 
 Then:
 
