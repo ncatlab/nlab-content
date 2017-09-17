@@ -60,8 +60,9 @@ While we work on the $n$Lab, we talk to each other on the [nForum](http://www.ma
 ## Contributing 
  {#Contributing}
 
-If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). Then see the [[HowTo]]-page for more details on how to contribute.
+If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
 
+After you did make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)!
 
 ## Terms of use
  {#TermsOfUse}
