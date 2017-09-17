@@ -45,7 +45,7 @@ The [[philosophy]] of [[physics]].
 
 ### Interpretation of quantum mechanics
 
-Reference specifically on the "interpretation" of [[quantum mechanics]] include
+Reference specifically on the [[interpretation of quantum mechanics]] include
 
 * [[Roland Omnès]], _[[The Interpretation of Quantum Mechanics]]_
 
