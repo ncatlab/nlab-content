@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 # Zigzags
 * table of contents
 {: toc}
@@ -26,6 +41,9 @@ General such zig-zags of morphisms represent ordinary morphisms in the _groupoid
 
 More generally, if in these zig-zags the left-pointing morphisms are restricted to be in a class $S \subset Mor(C)$, then these zig-zags represent morphisms in the simplicial localizaton or localization of $C$ at $S$.
 
+## Related concepts
+
+* [[resolution]], [[derived functor]]
 
 [[!redirects zigzag]]
 [[!redirects zigzags]]
