@@ -1,7 +1,17 @@
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ##Motivation
 
@@ -38,8 +48,11 @@ $$
 
 are [[homotopy coherent category theory|homotopy pullbacks]] of $(n-1)$-fold Segal spaces.
 
+## Related concepts
 
-##References#
+* [[higher Segal space]]
+
+## References
 
 The definition is apparently due to the currently unpublished PhD thesis of Clark Barwick. It is being popularized and put to use in
 
