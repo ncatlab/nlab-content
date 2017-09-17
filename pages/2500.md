@@ -93,7 +93,6 @@ A survey of the [[Chern-Simons theory]]-style action functionals for supergravit
 {#Zanelli}
 
 
-
 Furher physics monographs on supergravity include
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_, [googB](http://books.google.com/books?isbn=0750305061)
@@ -101,5 +100,11 @@ Furher physics monographs on supergravity include
 * [[Julius Wess]], Jonathan Bagger, _Supersymmetry and supergravity_, 1992
 
 * [[Steven Weinberg]], _Quantum theory of fields_, volume III: supersymmetry
+
+The [[Cauchy problem]] for classical solutions of simple supergravity has been discussed in
+
+* [[Yvonne Choquet-Bruhat]], 
+  _[[The Cauchy Problem in Classical Supergravity]]_
+  Letters in Mathematical Physics 7 (1983) 459-467. 0377
 
 [[!redirects supergravities]]
