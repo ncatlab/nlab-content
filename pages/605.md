@@ -32,3 +32,5 @@ Dual to a cobordism is a [[bordism]].
 
 
 [[!redirects cobordisms]]
+
+[[!redirects cobordism theory]]
