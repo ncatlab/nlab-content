@@ -318,7 +318,7 @@ This is the Grothendieck spectral sequence.
 
 #### Leray spectral sequence
 
-The _Leray spectral sequence_ is the special case of the Grothendieck spectral sequence for the case where the two functors being composed are a [[direct image|push-foward]] of [[sheaves]] of [[abelian groups]] along a [[continuous map]] $f : X \to Y$ followed by the push-forward $X \to *$ to the point. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
+The _[[Leray spectral sequence]]_ is the special case of the Grothendieck spectral sequence for the case where the two functors being composed are a [[direct image|push-foward]] of [[sheaves]] of [[abelian groups]] along a [[continuous map]] $f : X \to Y$ followed by the push-forward $X \to *$ to the point. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
 
 +-- {: .num_theorem}
 ###### Theorem
