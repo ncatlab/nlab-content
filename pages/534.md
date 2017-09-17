@@ -118,7 +118,7 @@ Given an orbifold $X$ with space of objects $X_0$ and space of morphisms $X_1$, 
 
   This is a path $(\gamma, g\cdot \gamma)$ of pairs of points that are related under the orbifold action.
 
-The path 2-groups $P_1(X)$ of the orbifold encodes the correct notion of trajectories in the orbifold: such a trajectory may proceed along smooth paths, and intermittently it may jum between the "orbifold sectors". Notably an [[automorphism]] in $P_1(X)$ on a point $x$ may be given by a smooth path $x \to g x$ that does not come back to $x$ but just to one of its mirror-images, composed with the jump-morphism $g x \to x$ back to $x$. Sometimes (notably in [[string theory]]) such loops are called _twisted sectors_ of loop configurations.
+The path 2-groups $P_1(X)$ of the orbifold encodes the correct notion of trajectories in the orbifold: such a trajectory may proceed along smooth paths, and intermittently it may jump between the "orbifold sectors". Notably an [[automorphism]] in $P_1(X)$ on a point $x$ may be given by a smooth path $x \to g x$ that does not come back to $x$ but just to one of its mirror-images, composed with the jump-morphism $g x \to x$ back to $x$. Sometimes (notably in [[string theory]]) such loops are called _twisted sectors_ of loop configurations.
 
 A detailed description of the smooth [[2-groupoid]] of paths in a smooth 2-groupoid may be found in [section 2.1](http://arxiv.org/PS_cache/arxiv/pdf/0808/0808.1923v1.pdf#page=19) of
 
