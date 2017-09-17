@@ -60,6 +60,7 @@ $$
 We give now rules for choices "$[x y z]$" that associate with every string "$x y z$" of symbols in [[type theory]] objects and morphisms in $\mathcal{C}$. A collection of such choices following these rules an _an interpretation_ / a choice of _categorical semantics_ of the type theory in the category $\mathcal{C}$.
 
 #### Contexts and type judgements
+ {#ContextsAndTypeJudgements}
 
 1. The empty [[context]] $()$ in [[type theory]] is interpreted as the [[terminal object]] of $\mathcal{C}$
 
@@ -225,3 +226,8 @@ A discussion of categorical semantics of [[type theory]] is for instance in
 See also section B.3 of 
 
 * [[Michael Warren]], _Homotopy Theoretic Aspects of Constructive Type Theory_ ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+
+A comprehensive definition of semantics of [[homotopy type theory]] in [[type-theoretic model categories]] is in section 2 of 
+
+* [[Mike Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+
