@@ -25,7 +25,9 @@ Under this analogy, the [[3-sphere]], $S^3$ corresponds to the ring of [[rationa
 
 The so-called _MKR dictionary_ (Mazur-Kapranov-Reznikov) relates terms from each side of the analogy (see sec 2.2 of [Sikora](#Sikora)).
 
-##Details of the analogy
+## The dictionary
+
+### Version of Mazur-Kapranov-Reznikov
 
 1. Closed, orientable, connected 3-manifolds correspond to schemes
 $Spec \mathcal{O}_K$ for number fields $K$.
@@ -41,7 +43,7 @@ $Spec \mathcal{O}_L \to (Spec \mathcal{O}_L)/G = Spec \mathcal{O}_K$. Such maps 
 coverings.
 1. Let $q = p^n$. Consider the cyclotomic extension $\mathbb{Q}(\zeta_q)$. It is ramified only at $p$. These correspond to cyclic branched covers of knots in $S^3$. The union of these as $q$ ranges over all powers of $p$ should correspond to the universal abelian cover of $S^3 \setminus K$. There is a natural action of $\mathbb{Z}$ on the first homology group of the infinite cyclic cover of the knot complement corresponding to the natural action of the $p$-adic integers on the $p$-torsion of $Cl(\mathbb{Q}(\zeta_{p^{\infty}}))$. This concerns the [[Alexander polynomial]] of the knot and [[Iwasawa theory]]. ([Sikora, pp. 5-6](#Sikora), [Koberda08, pp. 32-33](#Koberda08))
 
-## Reznikov's Variant
+### Version of Reznikov
  {#ReznikovVariant}
 
 Reznikov has modified the dictionary ([Reznikov 00, section 12](#Reznikov00)) so as to associate a number field with what he calls a $3\frac{1}{2}$-manifold, that is a closed three-manifold $M$, bounding a four-manifold $N$, such that the map of fundamental groups $\pi_1(M) \to \pi_1(N)$ is surjective.
