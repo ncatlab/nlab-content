@@ -32,10 +32,12 @@ In particular, such pullbacks preserve all [[colimits]]. Therefore, if a locally
 
 ## Properties
 
-### Equivalent characterizations
+### Cartesian closure in terms of base change and dependent product
  {#EquivalentCharacterizations}
 
 We show how the [[dependent product]] and the [[internal hom]] in the [[slice categories]] may be used to express each other.
+
+#### In category theory
 
 +-- {: .num_prop #DependentProductImpliesLocalCartesinClosure}
 ###### Proposition
@@ -88,65 +90,6 @@ $$
   \,.
 $$
 
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-In the formulation of [[dependent type theory]] this statement reads as 
-follows.
-
-(check!)
-
-Let 
-
-$$
-  \array{
-     X &&&& A
-     \\
-     & {}_{\mathllap{\phi}}\searrow && \swarrow_{\mathrlap{c}}
-     \\
-     && 
-     B
-  }
-$$
-
-be two [[display maps]]. The one on the right is expressed as the [[dependent type]]
-
-$$
-  b : B \vdash A(b) : Type
-  \,.
-$$
-
-Then the pullback $f^* \langle A \to B\rangle$ is expressed by [[substitution]]
-
-$$
-   x : X \vdash A(\phi(x)) : Type
-$$
-
-and next the [[dependent product]] $\prod_f f^* \langle A \to B\rangle$ is
-
-$$
-   b : B  \vdash \prod_{x \in \phi^{-1}(b)} A(\phi(x)) : Type
-  \,.
-$$
-
-This should be definitionally equal to
-
-$$
-   b : B  \vdash \prod_{x \in X(b)} A(b) : Type
-   \,.
-$$
-
-And this in turn is by definition the [[dependent type|dependent]] [[function type]]
-
-$$
-  b : B \vdash X(b) \to A(b) : Type  
-  \,.
-$$
-
-which expresses the internal hom in the slice over $B$.
 
 =--
 
@@ -235,6 +178,111 @@ If $C$ is a category with [[finite limits]], then it is locally cartesian closed
 =--
 
 A proof of the statement in this form is for instance in ([Freyd](#Freyd)).
+
+#### In type theory
+ {#RelationCartesianClosureBaseChangeInTypeTheory}
+
+We formulate some of the above considerations in the [[syntax]] of
+[[dependent type theory]].
+
++-- {: .num_prop }
+###### Proposition
+
+Let 
+
+$$
+  \array{
+     X &&&& A
+     \\
+     & {}_{\mathllap{\phi}}\searrow && \swarrow_{\mathrlap{c}}
+     \\
+     && 
+     B
+  }
+$$
+
+be two [[display maps]]. Then the 
+[[category theory|category theoretic]] identification
+
+$$
+  [X,A]_{B} = \prod_\phi \phi^* \langle A \stackrel{c}{\to} X\rangle
+$$
+
+from prop. \ref{DependentProductImpliesLocalCartesinClosure} is the [[categorical semantics]] of the [[dependent type theory]] [[syntax]]
+
+$$
+  b : B \vdash X(b) \to A(b) : Type
+  \;\;\;
+  =_{def}
+  \;\;\;
+  b : B \vdash \prod_{x : X(b)} A(\phi(x))
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+While equivalent under the [[relation between type theory and category theory]], the latter expression almost verbatim expresses the evident idea that
+
+ (collection of internal homs parameterized over $B$) 
+  = 
+ ( collection of sections of the pullback pf $A$ to $X$ )
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, the [[display map]] on the right is expressed as the [[dependent type]]
+
+$$
+  b : B \vdash A(b) : Type
+  \,,
+$$
+
+the pullback $f^* \langle A \to B\rangle$ is expressed by [[substitution]]
+
+$$
+   x : X \vdash A(\phi(x)) : Type
+$$
+
+and next the [[dependent product]] $\prod_\phi \phi^* \langle A \to B\rangle$ by
+
+$$
+   b : B  \vdash \prod_{x : X(b)} A(\phi(x)) : Type
+  \,.
+$$
+
+Now on the right $\phi(x) =_{def} b$, formally because $\phi$ is equivalently the projection $pr_1$ out of $X$ expressed as the [[direct sum]]
+
+$$
+  \frac{(b,x) :  \sum_{b : B} X(b)}
+   { pr_1(b,x) =_{def} b =_{def} \phi(x)  : B}
+  \,.
+$$
+
+Inserting this in the above expression makes it [[definitional equality|definitionally equal]] to
+
+$$
+   b : B  \vdash \prod_{x : X(b)} A(b) : Type
+  \,.
+$$
+
+This in now a [[dependent product]] over a type that does not actually depend
+on the context $B$, and hence by definition this is the [[dependent type|dependent]] [[function type]]
+
+$$
+  b : B \vdash X(b) \to A(b) : Type  
+  \,.
+$$
+
+which expresses the internal hom in the slice over $B$.
+
+=--
+
+
 
 ### Internal logic
 
