@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -398,9 +397,10 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 
 ## Related concepts
 
-* [[gros topos]]
+* [[gros topos]], 
 
-* [[cohesive (∞,1)-topos]]
+* [[geometric homotopy type theory]], [[cohesive homotopy type theory]]
 
+* [[spacetime]] ([[physics]])
 
 [[!redirects spaces]]
