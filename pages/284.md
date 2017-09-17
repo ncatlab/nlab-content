@@ -237,6 +237,8 @@ An $A_\infty$-[[A-infinity category|category]] can also be thought of as a categ
 
 ## References
 
+### General
+
 For several years [[Andre Joyal]] -- who was the one to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive write-up of lecture notes does:
 
 * [[Andre Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
@@ -275,10 +277,17 @@ The presentation of $(\infty,1)$-categories by [[homotopical categories]] and [[
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
 and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
+### Surveys and lecture notes 
+ {#LectureNotes}
+
 A survey with an eye towards [[higher algebra]] is in 
 
 * [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
 
+
+Lecture notes are in 
+
+* [[Dylan Wilson]], _Lectures on higher categories_ ([pdf](https://sites.google.com/a/uw.edu/dwilson/notes))
 
 [[!redirects (∞,1)-category]]
 [[!redirects (∞,1)-categories]]
