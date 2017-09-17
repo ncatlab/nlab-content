@@ -25,6 +25,8 @@ Complementary statements about the asymptotic "vacuum-like appearance" of locali
 All necessary definitions can be found at [[Haag-Kastler vacuum representation]].
 
 ## the Theorem ##
+Both the statement and the proof we mention here refer to the [[Haag-Kastler vacuum representation]], but both the statement and the proof can be generalized resp. translated to different context, like e.g. to a [[Wightman theory]].
+
 +-- {: .un_theorem}
 ###### Reeh-Schlieder
 In the [[Haag-Kastler vacuum representation]] the vacuum vector $\Omega$ is cyclic and separating for every local algebra $\mathcal{M}(\mathcal{O})$.
