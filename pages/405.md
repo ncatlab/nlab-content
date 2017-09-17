@@ -63,6 +63,6 @@ The cube category is a [[test category]]. Hence [[cubical sets]] model [[homotop
 
 ## Related concepts
 
-* [[simplex category]], [[globe category]]
+* [[simplex category]], [[globe category]], [[cell category]]
 
 category: category
