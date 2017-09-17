@@ -55,7 +55,7 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 +-- {: .num_defn #GeneralizedFilteredObject}
 ###### Definition
 
-A _generalized [[filtered object]]_ in $\mathcal{C}$ is
+A _[[filtered object in an (∞,1)-category]]_ in $\mathcal{C}$ is
 simply a [[sequential diagram]] $X \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
 
 $$
@@ -334,9 +334,22 @@ For the traditional statement in the [[category of chain complexes]] see at _[[s
 
 ## Examples
 
-* Let $\mathcal{C} = Spec^{op}$ be the opposite (∞,1)-category of spectra, let $\mathcal{A}$ be the opposite category of abelian groups, and let $\pi$ be the functor $[K,-]$ where $K$ is spectrum. Then condition (1) in Proposition [1](#FiltrationSpectralSequence) holds for all filtered objects if and only if $K$ is a [[finite spectrum]]. When the filtered object is the [[Whitehead tower]] of a spectrum $E$, the associated spectral sequence is the [[Atiyah-Hirzebruch spectral sequence]] with target $E^*(K)$. It is thus strongly convergent if $K$ is a finite spectrum.
 
-* The $E$-based [[Adams spectral sequence]] that approximates homotopy classes of maps between two spectra $X$ and $Y$ using the generalized cohomology theory $E$ is a special case of the above spectral sequence, with $\mathcal{C}=Spec$, $\pi=[X,-]$, and the filtered object associated with the cosimplicial spectrum $E^{\wedge\bullet}\wedge Y$. Bousfield's theorems on the convergence of the Adams spectral sequence can be rephrased as giving sufficient conditions on $X$, $Y$, and $E$ for condition (1) in Proposition [1](#FiltrationSpectralSequence) to hold (see [Bousfield, Theorems 6.6 and 6.10](#Bousfield)).
++-- {: .num_example }
+###### Example
+
+Let $\mathcal{C} = Spec^{op}$ be the opposite (∞,1)-category of spectra, let $\mathcal{A}$ be the opposite category of abelian groups, and let $\pi$ be the functor $[K,-]$ where $K$ is spectrum. Then condition (1) in Proposition [1](#FiltrationSpectralSequence) holds for all filtered objects if and only if $K$ is a [[finite spectrum]]. When the filtered object is the [[Whitehead tower]] of a spectrum $E$, the associated spectral sequence is the [[Atiyah-Hirzebruch spectral sequence]] with target $E^*(K)$. It is thus strongly convergent if $K$ is a finite spectrum.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The $E$-based [[Adams spectral sequence]] that approximates homotopy classes of maps between two spectra $X$ and $Y$ using the generalized cohomology theory $E$ is a special case of the above spectral sequence, with $\mathcal{C}=Spec$, $\pi=[X,-]$, and the filtered object associated with the cosimplicial spectrum $E^{\wedge\bullet}\wedge Y$. Bousfield's theorems on the convergence of the Adams spectral sequence can be rephrased as giving sufficient conditions on $X$, $Y$, and $E$ for condition (1) in Proposition [1](#FiltrationSpectralSequence) to hold (see [Bousfield, Theorems 6.6 and 6.10](#Bousfield)).
+
+=--
+
+[[!include Lurie spectral sequences -- table]]
 
 ## References
 
