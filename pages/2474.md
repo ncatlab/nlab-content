@@ -284,6 +284,7 @@ The [[homotopy theory]] of $C^\ast$-algebras (a [[category of fibrant objects]]-
 
 For more along such lines see the references at _[[KK-theory]]_ and _[[E-theory]]_.
 
+
 [[!redirects C-star-algebra]]
 [[!redirects C-star-algebras]]
 [[!redirects C-star algebra]]
@@ -296,3 +297,15 @@ For more along such lines see the references at _[[KK-theory]]_ and _[[E-theory]
 [[!redirects C-* algebra]]
 [[!redirects C-*-algebras]]
 [[!redirects C-* algebras]]
+[[!redirects B-star-algebra]]
+[[!redirects B-star-algebras]]
+[[!redirects B-star algebra]]
+[[!redirects B-star algebras]]
+[[!redirects B*-algebra]]
+[[!redirects B* algebra]]
+[[!redirects B*-algebras]]
+[[!redirects B* algebras]]
+[[!redirects B-*-algebra]]
+[[!redirects B-* algebra]]
+[[!redirects B-*-algebras]]
+[[!redirects B-* algebras]]
