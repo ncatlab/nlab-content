@@ -473,7 +473,20 @@ For a brief exposition see ([PontoShulman, example 3.7](#PontoShulman)). For mor
 
 The [[J-homomorphism]] is a canonical map $B O \to B gl_1(\mathbb{S})$ from the [[classifying space]] of the [[stable orthogonal group]] to the [[delooping]] of the [[infinity-group of units]] of the [[sphere spectrum]]. This classifies an "[[(∞,1)-vector bundle]]" of [[sphere spectrum]]-[[module spectrum|modules]] over $B O$ and this is the Thom spectrum.
 
+So in terms of the [[(∞,1)-colomit]] description [above](#ForInfinityModuleBundles) we have
+
+$$
+  M O \simeq  \underset{\longrightarrow}{\lim}(B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to \mathbb{S}Mod = Spectra)
+  \,.
+$$
+
 See at _[[orientation in generalized cohomology]]_ for more on this.
+
+### $E_\infty$-ring structure
+
+Sufficient condition for a Thom spectrum to have [[E-∞ ring]] structure is that it arises, as above, as the [[(∞,1)-colimit]] of a homomorphism of [[E-∞ spaces]]  $B \to A Line$ ([ABG 10, prop.6.21](#ABG10)).
+
+
 
 ### As the infinite cobordism category
  {#AsTheInfiniteCobordismCategory}
@@ -531,13 +544,13 @@ Textbook discussion with an eye towards the [[generalized (Eilenberg-Steenrod) c
 
 A generalized notion of Thom spectra in terms of [[(∞,1)-module bundles]] is discussed in 
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
- {#ABGHR}
+* {#ABGHR} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+  
 
 Discussion of Thom spectra from the point of view of [[(∞,1)-module bundles]] is in 
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
- {#ABG10}
+* {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ 
 
 which is reviewed in
 
