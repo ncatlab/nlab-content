@@ -282,6 +282,18 @@ The dual argument shows that the bottom part of the hexagon is a [[homotopy cofi
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Theorem \ref{TheDifferentialDiagram} in particular implies that for [[stable homotopy types|stable]] [[cohesive homotopy types]] $A$ there are natural equivalences
+
+* $\Pi_{dR} \Omega A \simeq \Pi_{dR} \flat_{dR} A$
+
+* $\flat \Pi_{dR}\Omega A\simeq \Pi \flat_{dR} A$
+
+=--
+
+
 ## Examples
 
 ### Ordinary differential cohomology
@@ -552,7 +564,7 @@ $$
     \\
     & \nearrow && \searrow^{\mathrlap{a}} && \nearrow && \searrow
     \\
-    H^{n}(X)
+    H^{n}(X, \mathbb{R})
     && &&
     H^0(X,\mathbf{B}^n U(1)_{conn})
     && &&
@@ -564,7 +576,7 @@ $$
   }
 $$
 
-It is common (e.g. [Simons-Sullivan 07](#SimonsSullivan07)) to display this after quotienting out the [[kernel]] of $a$ (which is the group $\Omega^n(X)_{\mathbb{Z}}$ of closed differential forms with integral periods), which is such as to make the top-left to bottom-right diagona sequence be not just [[exact sequence|exact]] at the middle term, but be a [[short exact sequence]]:
+It is common (e.g. [Simons-Sullivan 07](#SimonsSullivan07)) to display this after quotienting out the [[kernel]] of $a$ (which is the group $\Omega^n(X)_{\mathbb{Z}}$ of closed differential forms with integral periods), which is such as to make the top-left to bottom-right diagonal sequence be not just [[exact sequence|exact]] at the middle term, but be a [[short exact sequence]]:
 
 $$
   \array{
@@ -576,7 +588,7 @@ $$
     \\
     & \nearrow && \searrow^{\mathrlap{a}} && \nearrow && \searrow
     \\
-    H^{n}(X)
+    H^{n}(X, \mathbb{R})
     && &&
     H^0(X,\mathbf{B}^n U(1)_{conn})
     && &&
