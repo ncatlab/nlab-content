@@ -32,6 +32,8 @@ This discusses how [[differential cohomology]] -- specifically [[ordinary differ
   
     * [[electromagnetism]], [[B-field]], [[C-field]]
 
+      * [[Dirac charge quantization]]
+
   * [[differential K-theory]], [[twisted K-theory]], [[twisted differential K-theory]]
     
     * [[RR-fields]]
