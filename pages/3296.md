@@ -78,9 +78,14 @@ Notable families of examples include:
 
 * for $G = O$ the [[orthogonal group]]: [[Pontryagin class]]es;
 
+* for $G = SO$ the [[special orthogonal group]]: [[Euler class]]es;
+
+
 * for $G = U$ the [[unitary group]]: [[Chern class]]es;
 
 * for $G = \mathbf{B}U(1)$ the [[circle n-group|circle 2-group]]: the [[Dixmier-Douady class]].
+
+
 
 ### Chern character
 
