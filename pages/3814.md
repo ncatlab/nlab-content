@@ -68,6 +68,10 @@ A more drastic theoretical modifications to the standard model is proposed in th
 There are various other variations, too.
 
 
+## Related concepts
+
+* [[technicolor]]
+
 ## References
 
 For an $n$Lab dictionary (work in progress) of the language of mathematicians and physicists see:
