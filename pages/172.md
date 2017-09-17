@@ -22,7 +22,23 @@
 
 ## Idea
 
-The notion of _$\infty$-stack_ or [[(∞,1)-sheaf]] is the $\infty$-[[vertical categorification|categorification]] of [[sheaf]] and [[stack]]. Where a sheaf is a [[presheaf]] with values in [[Set]] that satisfies the sheaf condition, an [[higher category theory|∞-category]]-valued ([[pseudofunctor|pseudo]])[[presheaf]] is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent]] data for any [[cover]] or [[hypercover]] $Y^\bullet \to X$: if the canonical morphism
+The notion of, equivalently 
+
+* _$\infty$-stack_, 
+
+and specifically of
+
+* _[[(∞,1)-sheaf]]_,
+
+* _[[geometric homotopy type]]_
+
+is the $\infty$-[[vertical categorification|categorification]] of the notion of, equivalently
+
+* [[sheaf]] and [[stack]]
+
+* [[geometric homotopy type]].
+
+Where a sheaf is a [[presheaf]] with values in [[Set]] that satisfies the sheaf condition, an [[higher category theory|∞-category]]-valued ([[pseudofunctor|pseudo]])[[presheaf]] is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent]] data for any [[cover]] or [[hypercover]] $Y^\bullet \to X$: if the canonical morphism
 
 $$
   \mathbf{A}(X) \to
