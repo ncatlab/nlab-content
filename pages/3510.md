@@ -63,7 +63,7 @@ for the corresponding inclusion of simplicial sets into bisimplicial sets.
 When we think in the following of a simplicial set in the context of $[\Delta^{op}, sSet]$, we always do so via this inclusion (and not via the _other_ natural such inclusion!).
 
 
-+-- {: .num_prop}
++-- {: .num_defn #RezkModelStructure}
 ###### Definition
 
 The _model structure for complete Segal spaces_ is the [[Bousfield localization of model categories|left Bousfield localization]] of $[\Delta^{op}, sSet]_{Reedy}$ at the set of morphisms
@@ -201,7 +201,11 @@ $$
 
 =--
 
-We have the following pair of [[adjunction]]s between [[simplicial set]]s and [[bisimplicial set]]s.
++-- {: .num_prop #ComparisonAdjunctions}
+###### Proposition
+
+
+We have the following pair of [[adjoint functors]] between [[simplicial sets]] and [[bisimplicial sets]].
 
 The first is
 
@@ -232,7 +236,7 @@ $$
 
 where 
 
-* $t_!$ assigns the total simplicial set to a bisimplicial set: it is the left [[Kan extension]] of the functor $t : \Delta \times \Delta \to BiSSet$ given by $([k],[l]) \mapsto \Delta[k]\times \Delta_J[l]$ (with $J$ from def. \ref{GroupoidalSimplices}) along the [[Yoneda embedding]]
+* $t_!$ assigns the [[total simplicial set]] to a [[bisimplicial set]]: it is the left [[Kan extension]] of the functor $t : \Delta \times \Delta \to ssSet$ given by $([k],[l]) \mapsto \Delta[k]\times \Delta_J[l]$ (with $J$ from def. \ref{GroupoidalSimplices}) along the [[Yoneda embedding]]
 
   $$
     t_!(X_{\bullet,\bullet})
@@ -253,11 +257,12 @@ where
     \,.
   $$
 
+=--
 
 +-- {: .num_prop}
 ###### Proposition
 
-The composite adjunction
+The composite of the two adjunctions from prop. \ref{ComparisonAdjunctions}
 
 $$
   sSet
@@ -277,7 +282,7 @@ This appears at the end of the proof of ([Joyal-Tierney, theorem 4.12](#JoyalTie
 +-- {: .num_prop}
 ###### Proposition
 
-Both these adjunctions are [[Quillen equivalences]] between the [[model structure for quasi-categories]] on simplicial sets and the Rezk model structure for complete Segal spaces on bisimplicial sets.
+Both adjunctions of prop. \ref{ComparisonAdjunctions} are [[Quillen equivalences]] between the [[model structure for quasi-categories]] on simplicial sets and the Rezk model structure for complete Segal spaces on bisimplicial sets, def. \ref{RezkModelStructure}.
 
 =--
 
