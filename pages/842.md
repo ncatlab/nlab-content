@@ -429,11 +429,27 @@ The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]
 
 =--
 
-If instead of [[∞-Grpd]] the target is the [[(∞,1)-category of (∞,1)-categories]] then the latter statement is true with the $(\infty,1)$-category of all sections replaced by [[(∞,1)-category of cartesian sections]].
+### Limits and colimits with values in $(\infty,1)$Cat
+ {#ColimitsInInfinityCat}
 
++-- {: .num_prop }
+###### Proposition
 
+For $F : D \to $ [[(∞,1)Cat]] an [[(∞,1)-functor]], its $\infty$-colimit is given by forming the [[(∞,1)-Grothendieck construction]] $\int F$ of $F$ and then inverting the [[Cartesian morphism]]s.
 
+Formally this means, with respect to the [[model structure for Cartesian fibrations]] that there is a [[natural isomorphism]]
 
+$$
+  \lim_\to F \simeq (\int F)^\sharp
+$$
+
+in the [[homotopy category]] of the presentation of $(\infty,1)$-category by [[marked simplicial sets]].
+
+=--
+
+This is [[Higher Topos Theory|HTT, corollary 3.3.4.3]].
+
+For the special case that $F$ takes values in ordinary categories see also at [[2-limit]] the section [2-limits in Cat](http://ncatlab.org/nlab/show/2-limit#2ColimitsInCat).
 
 
 ## Special cases
@@ -844,5 +860,5 @@ A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/
 [[!redirects limits in (∞,1)-categories]]
 
 [[!redirects (∞,1)-powering]]
-[[!redirects (∞,1)-tensoring]
+[[!redirects (∞,1)-tensoring]]
 [[!redirects (∞,1)-copower]]
