@@ -117,13 +117,13 @@ $$
   rTot(G^\bullet) \to rTot(H^\bullet)
 $$
 
-is [[weak equivalence]].
+is a [[weak equivalence]].
 
 =--
 
 This is ([Prezma, theorem 6.1](#Prezma)).
 
-(A similar statement also appears as ([Yekutieli, theorem 2.4](#Yekutieli)), but it is necessary to use the restricted totalization instead of the ordinary totalization.)
+Retsricted to $\pi_0$ this statement appeared as ([Yekutieli, theorem 2.4](#Yekutieli)). Notice  that it is indeed necessary to use the restricted totalization instead of the ordinary totalization here.
 
 
 ## References
