@@ -10,10 +10,12 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
+
+### In category theory
 
 An **equalizer** is a [[limit]] 
 
@@ -46,6 +48,23 @@ This means that for $f : x \to y$ and $g : x \to y$ two [[parallel morphisms]] i
   * and $eq(f,g)$ is the [[universal property|universal object]] with this property.
 
 The dual concept is that of [[coequalizer]].
+
+### In type theory
+
+In [[type theory]] the [[equalizer]]
+
+$$
+  P \to A \stackrel{\overset{f}{\to}}{\underset{g}{\to}} B
+$$
+
+is given by the [[dependent sum]] over the [[dependent type|dependent]] [[equality type]]
+
+$$
+  P \simeq \sum_{a : A} (f(a) = g(a))
+  \,.
+$$
+
+
 
 ## Examples
 
