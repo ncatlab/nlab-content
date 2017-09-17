@@ -147,7 +147,7 @@ $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if
 Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
 
-#### In terms of classifying $(\infty,1)$-toposes
+#### In terms of classifying $(\infty,1)$-toposes {#InTermsOfClassifying}
 
 By the [[(∞,1)-Yoneda lemma]], a 
 cover-preserving functor $\mathcal{O} : \mathcal{G} \to \mathcal{X}$
@@ -359,8 +359,72 @@ $$
 
 This is ([Lurie, theorem xyz](#Lurie)).
 
+## Classes of examples
 
-## Examples
+### Canonical structure sheaves on objects in the big topos {#CanonicalStructureSheafOnObjectsInBigTopos}
+
+For $\mathcal{G}$ a [[geometry (for structured (infinity,1)-toposes)|geometry]] let
+
+$$
+  \mathbf{H} := Sh_\infty(\mathcal{G})
+$$
+
+be the [[(∞,1)-category of (∞,1)-sheaves]] on $\mathcal{G}$. This is the [[big topos]] of [[higher geometry]] modeled on $\mathcal{G}$. By the [above discussion](#InTermsOfClassifying) it is also the classifying topos of $\mathcal{G}$-[[structure sheaves]] on toposes:
+
+a $\mathcal{G}$-valued structure sheaf $\mathcal{O}_{\mathcal{X}} : \mathcal{G} \to \mathcal{X}$ on an [[(∞,1)-topos]] $\mathcal{X}$ is equivalently an [[(∞,1)-geometric morphism]]
+
+$$
+  (p^* \dashv p_*) 
+   :  
+  \mathcal{X} \stackrel{\leftarrow}{\to} \mathbf{H}
+  \stackrel{j}{\leftarrow}
+  \mathcal{G}
+$$
+
+in that $\mathcal{O}_{\mathcal{X}} = p^* j$, where $j$ is the [[(∞,1)-Yoneda embedding]].
+
+Notice that for every object $X \in \mathcal{H}$ its [[little topos]]-incarnation is the [[over-(∞,1)-topos]] $\mathbf{H}/X$. This canonically sits over $\mathbf{H}$ by its [[etale geometric morphism]]
+
+$$
+  \mathcal{X} := \mathbf{H}/X
+  \stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}
+  \mathbf{H}
+  \,.
+$$
+
+So we have
+
++-- {: .un_lemma}
+###### Observation
+
+The [[little topos]] $\mathcal{X} := \mathbf{H}/X$ of every object $X$ in the big topos $\mathbf{H}$ over $\mathcal{G}$ is canonically equipped with a $\mathcal{G}$-structure sheaf
+
+$$
+  \mathcal{O}_X : \mathcal{G} \stackrel{j}{\to} \mathbf{H}
+  \stackrel{X^*}{\to}
+  \mathbf{H}/X
+  \,.
+$$
+
+=--
+
+We want to show that for $V \in \mathcal{G}$ the [[(∞,1)-sheaf]] $\mathcal{O}_X(V)$ may indeed be thought of as the "sheaf of $V$-valued functions on $X$".
+
+Notice that for any $V \in \mathbf{H}$ we have that $X^*(F) = (p_2 : V \times X \to X)$.
+
+Now assume first that $X$ is itself representable. Then by the discussion at [[over-(∞,1)-topos]] we have that $\mathbf{H}/X$ is a lucalization of $PSh_\infty(\mathcal{G})/X \simeq PSh_\infty(\mathcal{G}/X)$, where $\mathcal{G}/X$ is the [[big site]] of $X$. Under this equivalence (more details on this at [[over-topos]]) we have that $(V \times X \to X)$ identifies with the presheaf given by
+
+$$
+  (U \to X) \mapsto \mathcal{G}(U,V)
+  \,.
+$$
+
+This is the "sheaf of $V$-valued functions on $X$".
+
+(...)
+
+
+## Specific examples
 
 ### Structure sheaves of continuous functions {#StrSheafOfcontFuncts}
 
