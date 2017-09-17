@@ -1,3 +1,4 @@
+[[!redirects higher van Kampen theorem]]
 (.....)
 
 #References#
