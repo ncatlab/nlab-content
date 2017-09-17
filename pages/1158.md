@@ -456,4 +456,7 @@ Review with more emphasis on [[complex analytic geometry]] and the theory of ([B
 
 See also the references given at _[differential cohomology hexagon -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)_.
 
+
 [[!redirects Deligne complex]]
+
+[[!redirects Deligne complexes]]
