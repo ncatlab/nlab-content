@@ -37,21 +37,22 @@ B_1 & \to & B_2 & \to & B_3 & \to & B_4 &\to & B_5
 where the top and bottom rows are [[exact sequences]]. For simplicity we denote all the differentials in both exact sequences by $d$.
 
 +-- {: .num_lemma}
-###### Lemma
+###### Lemma (the lemma on five homomorphisms or the **five lemma**)
 
-1. **[[four lemma]]**
+1. sharp five lemma (essentially the weak **[[four lemma]]**)
 
    1. If $f_2$ and $f_4$ are [[epimorphism|epi]] and $f_5$ is [[monomorphism|mono]], then $f_3$ is epi. 
 
    1. If $f_2$ and $f_4$ are [[monomorphism|mono]] and $f_1$ is [[epimorphism|epi]], then $f_3$ is mono. 
 
-1. **five lemma** (combination of the two [[four lemma|four lemmas]])
+1. (weak) five lemma (conjunction of the two statements above)
 
    If $f_2$ and $f_4$ are [[isomorphism|isos]], $f_1$ is epi, and $f_5$ is mono, then $f_3$ is iso.
 
 =--
 
-The [[four lemma]] follows directly also with the [[salamander lemma]], as discussed at _[salamander lemma - impliciations - four lemma](salamander%20lemma#FourLemma)_. The following is a direct proof.
+The weak four lemma is another terminology (cf. MacLane, _Homology_) for the same as 1.1 and 1.2 except that in 1.1 $f_1$ is not required to exist, and in 1.2 $f_5$ is not required to exist
+(see [[four lemma]]), where the dropped requirements are inessential as not used in the proof. The [[four lemma]] follows directly also with the [[salamander lemma]], as discussed at _[salamander lemma - impliciations - four lemma](salamander%20lemma#FourLemma)_. The following is a direct proof.
 
 +-- {: .proof}
 ###### Proof
@@ -102,7 +103,6 @@ where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]
 The short five lemma holds in the category of [[abelian group|abelian]] [[topological groups]], even though that category is not semi-abelian. For a proof, see this [paper](#BorClem) by Borceux and Clementino. 
 =--
 
-
 ## Related concepts
 
 * [[connecting homomorphism]]
@@ -113,18 +113,18 @@ The short five lemma holds in the category of [[abelian group|abelian]] [[topolo
 
 * [[horseshoe lemma]]
 
-
 ## References
 
-An early appearance of the 5-lemma is lemma (5.9) in
+Early references of the 5-lemma 
 
-* D. A. Buchsbaum, _Exact categories and duality_, Transactions of the American Mathematical Society Vol. 80, No. 1 (1955), pp. 1-34 ([JSTOR](http://www.jstor.org/stable/1993003))
+* (lemma (5,9) in) D. A. Buchsbaum, _Exact categories and duality_, Transactions of the American Mathematical Society Vol. 80, No. 1 (1955), pp. 1-34 ([JSTOR](http://www.jstor.org/stable/1993003))
+* (prop.1.1, page 5) Henri Cartan, Samuel Eilenberg, _Homological algebra_, Princeton Univ. Press 1956
+* (lemma 3.3 in chapter I) S. MacLane, _Homology_, Springer 1963, 1975
 
-In
+Modern
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ 
-
-the five lemma is exercise 1.3.3.
+* (exercise 1.3.3 in) [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ 
+* Nicolas Bourbaki, _Homological algebra_ (Algebra ch. X) 1980
 
 In nonabelian context
 
