@@ -51,7 +51,7 @@ A __local base__ or __base of neighborhoods__ or __fundamental system of neighbo
 
 We may also allow basic neighborhoods to be non-open, but this really doesn\'t make any difference; any local base may be refined to a local base of open neighborhoods, and most local bases in practices already come that way.
 
-A local subbase at $a$ is a family of open sets containing $a$ such that each open set containing $a$ contains a finite intersection of elements of the family.
+A __local subbase__ at $a$ is a family of neighbourhoods $a$ such that each neighbourhood of $a$ contains a finite [[intersection]] of elements of the family.
 
 +-- {.num_defn}
 ###### Definition
@@ -150,6 +150,15 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 [[!redirects base for the topology]]
 [[!redirects basis for the topology]]
 [[!redirects bases for the topology]]
+[[!redirects base of the topology]]
+[[!redirects basis of the topology]]
+[[!redirects bases of the topology]]
+[[!redirects base for its topology]]
+[[!redirects basis for its topology]]
+[[!redirects bases for its topology]]
+[[!redirects base of its topology]]
+[[!redirects basis of its topology]]
+[[!redirects bases of its topology]]
 
 [[!redirects subbase for a topology]]
 [[!redirects subbasis for a topology]]
