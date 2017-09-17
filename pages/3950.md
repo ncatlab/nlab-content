@@ -82,22 +82,52 @@ The following definition is tentative.
 +-- {: .un_defn}
 ###### Definition
 A 2-category with finite 2-colimits is **equippable** if it has a [[factorization system in a 2-category|factorization system]] $(\mathcal{E},\mathcal{M})$ such that
-* Every morphism in $\mathcal{E}$ is representably co-faithful and co-conservative.
-* Every morphism in $\mathcal{M}$ is representably fully faithful.
-* Morphisms in $\mathcal{M}$ are closed under pushout and under copowers with $I$.
+
+1. Every morphism in $\mathcal{E}$ is representably co-faithful and co-conservative.
+1. Any morphism which admits a reflection or coreflection (i.e. a left adjoint with invertible counit or a right adjoint with invertible unit) is in $\mathcal{M}$.
+1. If $A\to B \leftarrow C$ is a codiscrete cofibration, then $A+B \to C$ is in $\mathcal{E}$.
+1. Morphisms in $\mathcal{M}$ are closed under pushout and under copowers with $I$.
 =--
 
 Co-conservative arrows are called **liberal**.  A **faithfully co-conservational bicategory**, in the sense of the paper (MB) referenced below, is an equippable bicategory in which $\mathcal{E}$ is precisely the class of liberal arrows, and all liberal arrows are also cofaithful; in this case the arrows of $\mathcal{M}$ are called **strong conservative**.  The definition of equippable 2-category is a direct generalization of that of "faithfully co-conservational bicategory" to allow alternate factorization systems, so we will refer many proofs to their analogues in (MB).
 
-+--{: .query}
-[[Mike Shulman]]: Disclaimer: I have not carefully checked that the above definition isolates exactly the properties necessary for the proofs to go through, but I believe it does.
+We first observe a couple of basic properties.
+
++-- {: .un_prop}
+###### Proposition
+If $K$ is equippable, then every morphism in $\mathcal{M}$ is representably fully faithful.
+=--
++-- {: .proof}
+###### Proof
+For any $X$ in $K$, we have a codiscrete cofibration $X\to X \times \mathbf{2} \leftarrow X$, and thus $X+X \to X\times\mathbf{2}$ is in $\mathcal{E}$.  But orthogonality with respect to all such morphisms is precisely representable fully-faithfulness.
+=--
+
++-- {: .un_prop}
+###### Proposition
+Any [[inverter]] or [[equifier]] is in $\mathcal{M}$.
+=--
++-- {: .proof}
+###### Proof
+Any inverter is always right orthogonal to any liberal morphism, and any equifier is always right orthogonal to any cofaithful morphism.  Thus this follows from the assumptions on $\mathcal{E}$.
+=--
+
++-- {: .un_prop}
+###### Proposition
+If $K$ has finite 2-limits, then for $(\mathcal{E},\mathcal{M})$ to make it equippable it suffices to know that
+1. All inverters and equifiers are in $\mathcal{M}$,
+1. If $A\to B \leftarrow C$ is a codiscrete cofibration, then $A+B \to C$ is in $\mathcal{E}$, and
+1. Morphisms in $\mathcal{M}$ are closed under pushout and under copowers with $I$.
+=--
++-- {: .proof}
+###### Proof
+If $K$ has all inverters, then a morphism is liberal iff it is left orthogonal to all inverters, and similarly for equifiers and cofaithfuls.  Also, if a morphism admits a left adjoint with invertible counit, then it is the inverter of the unit, and dually.
 =--
 
 Examples include:
 
 * $V Cat$ is equippable for any suitable $V$, where $\mathcal{E}$ is the class of essentially surjective functors and $\mathcal{M}$ is the class of $V$-fully-faithful functors.  This is a special case of a general 2-categorical situation considered below.
 
-* A functor between [[Cauchy completion|Cauchy complete]] $V$-categories is essentially surjective if and only if it is liberal.  Therefore, $V Cat_{cc}$ is faithfully co-conservational.  However, $V Cat$ is not co-conservational: strong-conservative functors between non-Cauchy-complete categories are not only $V$-fully faithful but closed under retracts, and these need not be preserved by pushout, even when $V=Set$.
+* A functor between [[Cauchy completion|Cauchy complete]] $V$-categories is essentially surjective if and only if it is liberal.  Therefore, $V Cat_{cc}$ is faithfully co-conservational.  However, $V Cat$ is not co-conservational: strong-conservative functors between non-Cauchy-complete categories are not only $V$-fully faithful but closed under retracts, and these need not be preserved by pushout, even when $V=Set$.  This example does show, however, that a given 2-category can admit more than one factorization system satisfying all but the final condition in the definition of equippable.
 
 In an equippable 2-category $K$, we can define the composite of two codiscrete cofibrations $A \to B \leftarrow C$ and $C\to D \leftarrow E$ by first taking the pushout $B +_C D$, and then factoring the morphism $A+E \to B +_C D$ as an $\mathcal{E}$-map followed by an $\mathcal{M}$-map, $A+E \to G \to B +_C D$.  By (MB, 4.18), the resulting cospan $A \to D \leftarrow E$ is a cofibration, and since $A+E \to G$ is in $\mathcal{E}$, it is cofaithful and liberal, hence $G$ is codiscrete.
 
