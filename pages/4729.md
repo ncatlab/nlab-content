@@ -177,7 +177,7 @@ for the sub-presheaf assigning to $(U,[k])$ only those
 [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]] whose [[curvature characteristic form]]s have no dependency on the simplicial directions:
 
 $$
-  \mathbf{B}G_{conn}
+  \mathbf{B}G_{conn'}
   =
   \mathbf{cosk}_{n+1}
   (
@@ -202,9 +202,14 @@ $$
     }
   \right\}
   )
-  \,.
 $$
 
+and $\mathbf{B}G_{conn} \subset \mathbf{B}G_{conn'}$ for the supobject on those elements for which the [[curvature]]s themselves vanish when evaluated on a tangent $v \in \Gamma(T \Delta^l)$ to the simplex
+
+$$
+  \iota_v F_A = 0
+  \,.
+$$
 
 =--
 
