@@ -122,13 +122,21 @@ In [[string theory]] one speaks apart from the [[D-branes]] also about **fundame
 
 * etc.
 
-#### The super-brane scan
+
+## Properties
+
+### Worldvolume theories
+
+[[!include table of branes]]
+
+### The super-brane scan
 
 If the worldvolume QFT of the fundamental branes (for instance the worlsheet 2d[[CFT]] of the string) is required to be a [[supersymmetric QFT]], specifically if the [[Green-Schwarz action functional]] is used only particular combinations of the dimenion $dim \Sigma = p + 1$ of the worldvolume and $D = dim X$ of [[spacetime]] are possible.
 
 The corresponding table has been called the **brane scan**
 
 [[branescan.gif:pic]]
+
 
 ## Related concepts
 
@@ -143,6 +151,7 @@ The corresponding table has been called the **brane scan**
 * [[NS5-brane]]
 
 * [[D-brane]]
+
 
 
 
