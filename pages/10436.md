@@ -66,11 +66,12 @@ The connectivity  statement of the theorem is in
 
 and the algebraic statement and proof is in 
 
+
 * Blakers, A. L. and Massey, W. S., _The homotopy groups of a triad. {III}_,  Ann. of Math. (2), 58: (1953) 409--417. 
 
-The generalisation is Theorem 4.3 in: 
+The generalisation of the algebraic statement is Theorem 4.3 in: 
 
-*R. Brown and J.-L. Loday, Homotopical excision, and Hurewicz
+* R. Brown and J.-L. Loday, Homotopical excision, and Hurewicz
 theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
 (3) 54 (1987) 176-192.
 
@@ -79,7 +80,11 @@ which relies essentially on the paper
 * R. Brown and J.-L. Loday, Van Kampen theorems for diagrams of
 spaces,  _Topology_ 26 (1987) 311-334, 
 
-for the van Kampen Theorem and for the nonabelian tensor product of groups. 
+for the van Kampen Theorem and for the nonabelian tensor product of groups.
+
+Also relevant to $n$-ad connectivity is 
+
+* Ellis, G.J. and Steiner, R. Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$-ads. _J. Pure Appl. Algebra_ 46 (1987) 117--136. 
 
 
 The connectivity statement appears for instance as Theorem 4.23 in the textbook
@@ -87,6 +92,7 @@ The connectivity statement appears for instance as Theorem 4.23 in the textbook
 * [[Alan Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
 
 and as Theorem 6.4.1 of 
+
 
 *tom Dieck, T.,  _Algebraic Topology_, EMS Textbooks in Mathematics, (2008). 
 
