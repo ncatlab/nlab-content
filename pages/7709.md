@@ -26,5 +26,11 @@ One can generalize to constructible elements in more general [[Boolean lattices]
 
 * [[constructible sheaf]]
 
+## References
+
+* Wikipedia, _[Constructible set](http://en.wikipedia.org/wiki/Constructible_set_(topology))_
+
 [[!redirects constructible sets]]
 
+[[!redirects constructible subset]]
+[[!redirects constructible subsets]]
