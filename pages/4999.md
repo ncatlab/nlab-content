@@ -164,3 +164,5 @@ The Stanford Encyclopedia of Philosophy entry on [modal logic](http://plato.stan
 
 [[!redirects modal logic]]
 [[!redirects modal logics]]
+[[!redirects modality]]
+[[!redirects modalities]]
