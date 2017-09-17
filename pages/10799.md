@@ -131,11 +131,11 @@ where each local pairing $\langle -, - \rangle_v$ is defined to be a composite o
 
 $$k_v \times k_v \stackrel{mult}{\to} k_v \stackrel{Tr}{\to} \mathbf{Q}_v \stackrel{\chi_v}{\to} \mathbb{R}/\mathbb{Z} \cong S^1,$$ 
 
-noting that a place $v$ of $k$ restricts to a place on 
+noting that a place $v$ of $k$ restricts to a place on $\mathbb{Q}$. 
 
 +-- {: .num_remarks} 
 ###### Remarks 
-* The trace map $Tr$ on the finite algebraic extension $k_v/\mathbf{Q}_v$ is of course defined by $Tr(x) = \sum_\sigma \sigma(x)$ where $\sigma$ ranges over all embeddings into the algebraic closure of $k_v$. 
+* The trace map $Tr$ on the finite algebraic extension $k_v/\mathbf{Q}_v$ is of course defined by $Tr(x) = \sum_\sigma \sigma(x)$ where $\sigma$ ranges over all embeddings of $k_v$ into the algebraic closure of $\mathbb{Q}_v$. 
 
 * When $v$ is the archimedean place on $\mathbb{Q}$, we will take the map $\chi_v: \mathbb{R} \to \mathbb{R}/\mathbb{Z}$ to be not the quotient map, but its *additive inverse*. For non-archimedean places $v = p$, the character $\chi_p$ is the composite $\mathbf{Q}_p \to \mathbb{Z}(p^\infty) \hookrightarrow \mathbb{R}/\mathbb{Z}$ as defined [here](http://ncatlab.org/nlab/show/p-adic+number#duality). 
 
