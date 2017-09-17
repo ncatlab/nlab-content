@@ -41,7 +41,7 @@ of the [[special orthogonal Lie algebra]] and the abelian translation Lie algebr
 The metric itself is 
 
 $$
-  g = \lanfle E \otimes E \rangle
+  g = \langle E \otimes E \rangle
   \,.
 $$
 
