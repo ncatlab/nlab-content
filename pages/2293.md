@@ -16,7 +16,7 @@
 
 The term __derived algebraic geometry__ is used in two closely related but logically different notions: 
 
-1. as the part of the geometry of schemes captured cohomologically (by the [[derived category]] of [[coherent sheaf|coherent sheaves]]), which presents the kind of data very close to the interests of the classical Italian school and 
+1. as the part of the geometry of schemes captured cohomologically (by the [[derived category]] of [[coherent sheaf|coherent sheaves]]), which presents the kind of data very close to the interests of the classical Italian school; more generally a "derived" variety is defined as an $A_\infty$-category with certain good properties (analogues of proper, smooth etc.) 
 
 1. as the generalizations of the algebraic geometry allowing the notion of derived [[moduli space]]s (moduli stacks if you wish), which extend or replace the usual [[moduli space]]s. 
 
