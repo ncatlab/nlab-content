@@ -1,3 +1,4 @@
+[[!redirects Eduard Cech]]
 
 
 * [English Wikipedia page](http://en.wikipedia.org/wiki/Eduard_%C4%8Cech)
