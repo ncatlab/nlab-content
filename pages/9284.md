@@ -1,0 +1,7 @@
+
+
+| [[associative algebra]]  | [[category of modules]]  |
+|--|--|
+| $A$ | $A Mod$ |
+| [[sesquialgebra]] | [[2-ring]] |
+| [[Hopf algebra]] | ... |
