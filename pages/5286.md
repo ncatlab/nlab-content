@@ -62,7 +62,7 @@ This is due to ([Getzler](#Getzler))
 +-- {: .un_theorem}
 ###### Theorem
 
-The [[operad]] for $(n+1)$-BValgebras is the [[homology]] of the [[framed little n-disk operad]].
+The [[operad]] for $(n+1)$-BV-algebras is the [[homology]] of the [[framed little n-disk operad]].
 
 =--
 
