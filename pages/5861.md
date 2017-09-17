@@ -506,10 +506,10 @@ For $X\in \mathbf{H}_{th}$ we say that
 
 =-- 
 
-+-- {: .num_remark}
++-- {: .num_remark #TerminologyDeRhamspace}
 ###### Remark
 
-In traditional contexts the object $\mathbf{\Pi}_{inf}(X)$ is called the **[[de Rham space]] of $X$** or the **de Rham stack of $X$** .
+In traditional contexts see ([SimpsonTeleman, p. 7](#SimpsonTeleman)) the object $\mathbf{\Pi}_{inf}(X)$ is called the **[[de Rham space]] of $X$** or the **de Rham stack of $X$** .
 Here we may tend to avoid this terminology, since by the <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">cohesive (∞,1)-topos -- de Rham cohomology</a> we have a good notion of intrinsic [[de Rham cohomology]] in any [[cohesive (∞,1)-topos]] already without equipping it with infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represent de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly ([[synthetic differential geometry|synthetic]]) infinitesimal way.
 
 =--
@@ -535,7 +535,7 @@ In this form this is the evident $(\infty,1)$-categorical analog of the conditio
 +-- {: .num_note #FormalSmoothnessByCanonicalMorphism}
 ###### Note
 
-An object $X \in \mathbf{H}$ is formally smooth according to def. \ref{FormalSmoothness} precisely if the canonical morphism
+An object $X \in \mathbf{H}_{th}$ is formally smooth according to def. \ref{FormalSmoothness} precisely if the canonical morphism
 
 $$
   i_! X \to i_* X
@@ -561,7 +561,7 @@ $$
   \,.
 $$
 
-By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the second morphism here in an [[equivalence in an (∞,1)-category|equivalence]] and hence the component of the composite on $X$ being an effective epimorphism is equivalent to the component $i_! X \to \mathbf{\Pi} i_! X$ being an effective epimorphism.
+By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the second morphism here in an [[equivalence in an (∞,1)-category|equivalence]], as indicated, and hence the component of the composite on $X$ being an effective epimorphism is equivalent to the component $i_! X \to \mathbf{\Pi} i_! X$ being an effective epimorphism.
 
 =--
 
@@ -652,10 +652,9 @@ $$
 =--
 
 +-- {: .num_cor #PiInfXIsFormallySmooth}
-###### Corollary
+###### Observation
 
-For every $X \in \mathbf{H}_{th}$, we have that $\mathbf{\Pi}_{inf}(X)$ is formally smooth according to def. 
-\ref(FormalSmoothness).
+For every $X \in \mathbf{H}_{th}$, we have that $\mathbf{\Pi}_{inf}(X)$ is formally smooth according to def. \ref{FormalSmoothness}.
 
 =--
 
@@ -775,7 +774,7 @@ The objects on the left are **[[principal ∞-bundle]]s equipped with flat [[con
 ###### Definition
 
 For $A \in \mathbf{H}_{th}$ an abelian [[∞-group]] object we say that the **[[de Rham theorem]]** for $A$-coefficients holds in $\mathbf{H}_{th}$ if for all $X \in \mathbf{H}_{th}$ the 
-[infinitesimal path inclusion](#spring)
+[infinitesimal path inclusion](#InclusionOfConstantIntoInfinitesimalIntoAllPaths)
 
 $$
   \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
@@ -802,7 +801,7 @@ $$
 
 where on the right we have ordinary cohomology in [[Top]] (for instance realized as [[singular cohomology]]) with coefficients in the [[discrete group]] $A_{disc} := \Gamma A$ underlying the cohesive group $A$.
 
-In certain context of infinitesimal neighbourhoods of cohesive $\infty$-toposes the de Rham theorem in this form has been considered in ([SimpsonTeleman](#SimpsonTeleman)).
+In certain contexts of infinitesimal neighbourhoods of cohesive $\infty$-toposes the de Rham theorem in this form has been considered in ([SimpsonTeleman](#SimpsonTeleman)).
 
 
 #### Formal cohesive $\infty$-groupoids
@@ -994,7 +993,7 @@ The characterization of infinitesimal extensions and formal smoothness by adjoin
 
 in the context of _[[Q-categories]]_ .
 
-Some of the material discussed here is in section 2 of
+Some of the material discussed here is in section 2.4 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
 
