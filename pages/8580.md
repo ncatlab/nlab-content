@@ -5702,7 +5702,32 @@ The corresponding [[action functional]] is discussed in [Semantic Layer - Action
 
 By the discussion in _[Differential forms](#DifferentialForms)_ and _[Principal connections](#PrincipalConnections)_, [[differential forms]] and more generally [[connection on a bundle|connections]] may be regarded as [[infinitesimal space|infinitesimal]] [[measures]] of _change_, of _displacement_. The discussion in _[Differentiation](#Differentiation)_ showed how to extract from a _finite_ but [[cohesion|cohesive]] (e.g. smoothly continuous) displacement all its infinitesimal measures of displacements by [[differentiation]]. 
 
-Here we discuss the reverse operation: _[[integration]]_ is a construction from a [[differential form]] or more generally from a [[connection on a bundle|connection]] of the corresponding finite cohesive displacement. Under good conditions this construction can proceed literally by "adding up all the infinitesimal contributions" and therefore [[integration]] is traditionally thought of as a generalization of forming [[sums]].
+Here we discuss the reverse operation: _[[integration]]_ is a construction from a [[differential form]] or more generally from a [[connection on a bundle|connection]] of the corresponding finite cohesive displacement. Under good conditions this construction can proceed literally by "adding up all the infinitesimal contributions" and therefore [[integration]] is traditionally thought of as a generalization of forming [[sums]]. Therefore the notation
+
+$$
+  \int_{\Sigma} \omega
+$$
+
+for the [[integral]] of a [[differential form]] \omgea over a space $\Sigma$, as a variant of the notation $\sum_{s \in S} f(s)$ for the [[sum]] of values of a [[function]] over a [[set]] $S$.
+
+
+However, both from the point of [[gauge theory]] [[physics]] as well as from the [[general abstract]] perspective of [[cohesive homotopy type theory]] another characterization of integration is more fundamental: the [[integral]] $\int_\Sigma \omega$ of a [[differential form]] $\omega$ or more generally of a [[circle n-bundle with connection|connection]] is an [[invariant]] under those [[gauge transformations]] of $\omega$ that are trivial on the [[boundary]] of $\Sigma$, and it is the _[[universal construction|universal]]_ such invariant, hence is uniquely characterized by this property.
+
+In traditional integration theory this fact is referred to via the _[[Stokes theorem]]_ and its generalizations (such as the [[nonabelian Stokes theorem]]), which says that the [[integral]] (and its generalization to [[parallel transport]]) is [[invariant]] under gauge transformations of forms. That this invariance actually characterizes the integral and the parallel transport is rarely highlighted in traditional texts, but it is implicit for instance in the old "path method" of [[Lie integration]] (discussed below in _[Lie integration](#LieIntegration)_) as well as in the famous characterization of [[flat connections]]: 
+
+for $X$ a [[connected topological space|connected]] [[manifold]] and for $G$ a [[Lie group]], the operation of sending a [[flat connectiojn|flat]] $G$-[[principal connection]] $\nabla$ to its [[holonomy]] $\gamma \mapsto hol_{\gamma}(\nabla)$ around [[loops]] $\gamma\colon S^1 \to X$ for any fixed basepoint
+
+$$
+  hol \coloneqq \mathcal{P} \exp(\int_{()} (-)) 
+  \colon 
+  H^1_{conn}(X,G) \to Hom_{Grp}(\pi_1(X) , G)
+$$
+
+exhibits a [[bijection]] between gauge  [[equivalence classes]] of connections and [[group]] homomorphisms from the [[fundamental group]] $\pi_1(X)$ of $X$ to the [[gauge group]] $G$. This is traditionally regarded as a property of the definition of the [[parallel transport]] $\mathcal{P} \exp(\int_{(-)}(-))$ by [[integration]]. But being a [[bijection]], we may read this fact the other way round: it says that forming equivalence classes of flat $G$-connections is the same as computing their [[integral]]/[[parallel transport]].
+
+(...)
+
+
 
  
 ### Model Layer
@@ -5835,6 +5860,7 @@ is an equivalence.
 * [[fiber integration in ordinary differential cohomology]]
 
 ##### Lie integration
+ {#LieIntegration}
 
 * [[Lie integration]]
 
