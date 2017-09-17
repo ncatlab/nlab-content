@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -361,9 +361,21 @@ which provides an alternative expression of the functoriality condition as simpl
 
 * [[profunctor]]
 
-* [[2-functor]]
+* [[function]]
 
-* [[Quillen functor]], [[(infinity,1)-functor]]
+* **functor**
+
+* [[2-functor]] / [[pseudofunctor]]
+
+  * [[monoidal functor]]
+
+* [[n-functor]]
+
+* [[(∞,1)-functor]]
+
+* [[(∞,n)-functor]]
+
+
 
 [[!redirects functors]]
 [[!redirects covariant functor]]
