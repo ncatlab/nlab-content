@@ -34,4 +34,4 @@ Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P.
 
 * Claus Hertling, Christian Sevenheck, _Twistor structures, $tt^*$-geometry and singularity theory_, [arxiv/0807.2199](http://arxiv.org/abs/0807.2199)
 
-* C. Herltling, C. Sabbah, _Fourier-Laplace transform of flat unitary connections and TERP structures_, [arxiv/0912.2754](http://arxiv.org/abs/0912.2754)
+* C. Hertling, C. Sabbah, _Examples of non-commutative Hodge structure_ (v1 title: Fourier-Laplace transform of flat unitary connections and TERP structures), [arxiv/0912.2754](http://arxiv.org/abs/0912.2754)
