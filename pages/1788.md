@@ -37,6 +37,21 @@ $$
    Tens^\otimes_{\{k-1,k\}} 
 $$
 
+$$
+  \array{
+    U(1) &\stackrel{id}{\to}& U(1) &\stackrel{id}{\to}& U(1)
+    \\
+    \downarrow^{\mathrlap{d log}} && \downarrow^{\mathrlap{d log}} && \downarrow^{\mathrlap{0}}
+    \\
+    \Omega^1 &\stackrel{id}{\to}& \Omega^1 &\stackrel{\mathrlap{0}}{\to}& 0
+    \\
+    \downarrow^{\mathrlap{d}} && \downarrow^{\mathrlap{0}} && \downarrow^{\mathrlap{0}}    
+    \\
+    \Omega^2 &\to& 0 &\to& 0
+  }
+  \,,
+$$
+
 
 ***
 category: meta
