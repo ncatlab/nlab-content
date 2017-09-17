@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Manifolds and cobordisms
-+--{: .hide}
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 =--
@@ -11,7 +11,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -279,3 +279,4 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
 
 [[!redirects manifold]]
 [[!redirects manifolds]]
+[[!redirects manfold]]
