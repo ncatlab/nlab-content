@@ -3,10 +3,11 @@
 
 (in [[category theory]]/[[type theory]]/[[computer science]])
 
-
 **of all [[homotopy types]]**
 
 * [[type of types]], [[object classifier]],  
+
+  * [[univalence]]
 
 * [[codomain fibration]]
 
