@@ -25,3 +25,6 @@
 * [[(hyperconnected, localic) factorization system|(hyperconnected, localic)]]
 
 * [[(n-connected, n-truncated) factorization system|(n-connected, n-truncated)]]
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/factorization+systems+-+contents)</div>
