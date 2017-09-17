@@ -1,0 +1,80 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $X$ and $X$ be [[smooth manifolds]] of finite [[dimension]].
+Let $f : X \to Y$ be a [[differentiable function]]. 
+
++-- {: .num_defn}
+###### Definition
+
+
+The function $f : X \to Y$ is called an **immersion** precisely if the canonical morphism
+
+$$
+  T X \to X \times_Y T Y =: f^* T Y
+$$
+
+is a [[monomorphism]]. 
+
+=--
+
+This morphism is the one induced from the [[universal property]] of the [[pullback]] by the [[commuting diagram]]
+
+$$
+  \array{
+    T X &\stackrel{d f}{\to}& T Y
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{f}{\to}&  Y
+  }
+$$
+
+given by the [[differential]] of $f$ going between the [[tangent bundles]].
+
+Equivalently this means the following.
+
++-- {: .num_defn}
+###### Definition
+
+The function $f : X \to Y$ is an immersion precisely if for every point $x \in X$ the [[differential]] 
+
+$$
+  d f|_x : T_x X \to T_{f(y)} Y
+$$ 
+
+between the [[tangent space]] of $X$ at $x$ and the tangent space of $Y$ at $f(y)$ is an [[injection]].
+
+=--
+
+
+## Properties
+
+### General
+
+ (...)
+
+### Characterization in infinitesimal cohesion
+
+A [[smooth function]] $f : X \to Y$ between [[smooth manifolds]] is canonically regarded as a morphism in the [[cohesive (∞,1)-topos]] [[SynthDiff∞Grpd]]. With respect to the canonical [[infinitesimal cohesion|infinitesimal neighbourhood inclusion]] $i : $ [[Smooth∞Grpd]] $\hookrightarrow$ [[SynthDiff∞Grpd]] there is a notion of [[formally unramified morphism]] in $SynthDiff\infty Grpd$.
+
+$f$ is an immersion precisely if it is formally unramified with respect to this infinitesimal cohesion.
+
+See the discussion at [[SynthDiff∞Grpd]] for details.
+
+## Variants
+
+The [[algebraic geometry]] analogue of a submersion is a [[smooth morphism of schemes|smooth morphism]].
+
+The analogue between arbitrary [[topological spaces]] (not manifolds) is simply an [[open map]]. There is also [[topological submersion]], of which there are two versions.
+
+
+## Related concepts
+
+**immersion**, [[submersion]], [[local diffeomorphism]]
+
+[[!redirects immersion of smooth manifolds]]
