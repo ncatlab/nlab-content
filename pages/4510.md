@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -21,8 +21,7 @@ In the context of [[homological algebra]] the right [[derived functor]] of the [
 
 Together with the [[Tor]]-functor it is one of the central objects of interest in homological algebra.
 
-## Details
-
+## Definition
 Given an [[abelian category]] $A$ we may consider the [[hom-functor]] $Hom_A : A^{op}\times A\to Ab$ either as a functor in first or in second variable, and compute the corresponding right [[derived functor]]s. If they exist, the classical right derived functors of either functor agree and also agree with the [[homology]] of the mixed [[double complex]] obtained by taking simultaneously an injective [[resolution]] of the first contravariant argument and projective resolution of the second covariant argument. The last construction is called the balanced $Ext$.
 
 Alternatively, one can consider the [[derived category]] $D(A)$ and define 
@@ -33,19 +32,31 @@ $$
 
 or define $Ext^i$-groups as groups of extensions of length $i$. 
 
+## Properties
+
+### Relation to group extensions
+
+(...)
+
+### Localization
+ {#Locatization}
+
 ## Related concepts
 
 [[!include homotopy-homology-cohomology]]
 
 ## References
 
-* H. Cartan, S. Eilenberg, _Homological algebra_, Princeton Univ. Press 1956.
+Standard texbook account include
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994
+ {#Weibel}
+
+* [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press 1956.
 
 * M. Kashiwara and P. Schapira, _[[Categories and Sheaves]]_, Springer (2000)
 
 * S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
-
-* [[Charles Weibel]], _An introduction to homological algebra_,  Cambridge Studies in Adv. Math. 38, CUP 1994
 
 [[!redirects Ext group]]
 [[!redirects Ext-group]]
