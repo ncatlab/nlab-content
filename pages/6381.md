@@ -12,7 +12,7 @@ The _height_ of a [[variety]] should reflect how close the variety is to being o
 
 ## Definition
 
-Let $X$ be a [[smooth scheme|smooth]] [[proper scheme|proper]] $n$ [[dimension|dimensional]] [[variety]] over an [[algebraically closed field]] $k$ of [[characteristic]] $p$. Then one can define the [[Artin-Mazur formal group]] $\Phi$. Since it is a one-dimensional [[formal group]], it is completely determined up to [[isomorphism]] by its [[height]]. This is the **height of the variety** . The height could be infinite if $\Phi\simeq \widehat{\mathbb{G}_a}$, otherwise $\Phi$ is a $p$-[[divisible group]].
+Let $X$ be a [[smooth scheme|smooth]] [[proper scheme|proper]] $n$ [[dimension|dimensional]] [[variety]] over an [[algebraically closed field]] $k$ of [[characteristic]] $p$. Then one can define the [[Artin-Mazur formal group]] $\Phi$. Since it is a one-dimensional [[formal group]], it is completely determined up to [[isomorphism]] by its [[height]]. This is the **height of the variety** . The height could be infinite if $\Phi\simeq \widehat{\mathbb{G}_a}$, otherwise $\Phi$ is a [[p-divisible group]].
 
 
 
