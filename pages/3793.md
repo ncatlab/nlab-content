@@ -41,7 +41,6 @@
  
     * [[Cartesian morphism]]
 
-
 ## Universal constructions
 
 * [[limit in quasi-categories|limit]]
@@ -51,6 +50,22 @@
 * [[adjoint (infinity,1)-functor|adjoint functors]]
 
 * [[(infinity,1)-Grothendieck construction|Grothendieck construction]]
+
+## Local presentation
+
+* [[locally presentable (∞,1)-category|locally presentable]]
+
+  * [[essentially small (∞,1)-category|essentially small]]
+
+  * [[locally small (∞,1)-category|locally small]]
+
+  * [[accessible (∞,1)-category|accessible]]
+
+  * [[idempotent-complete (∞,1)-category|idempotent-complete]]
+
+* [[adjoint (∞,1)-functor theorem]]
+
+
 
 ## Relation to other concepts
 
