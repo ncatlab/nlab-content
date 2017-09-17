@@ -105,7 +105,14 @@ You do see the next symbols displayed properly: $\mathbf{B}G$
 
 Right?
 
+
+
 (I can see these ones.  And I saw the first one twice: once badly, once correctly.  ---Toby)
+
+## But how about this: $\mathbf{B}G$
+ {#ThisAnchorComesAfterALineBreakThatMakesAllTheDifference}
+
+
 
 ## Is there lots of vertical whitespace here $\mathfrak{ggg}$ ??? ##
 
@@ -382,6 +389,7 @@ To add a floating TOC to a new page, in such a way that it will be automatically
 
 If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` 
 
+[click here and see what happens](#ThisAnchorComesAfterALineBreakThatMakesAllTheDifference)
 
 category: meta
 
