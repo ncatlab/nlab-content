@@ -9,7 +9,6 @@ For my own reference: some pages that I'm planning to do some work on:
 * [[lax 2-adjunction]]
 * [[coherent formula]]
 * [[structured (infinity,1)-topos]] and [[classifying topos]]
-* [[double profunctor]]
 * [[generalized multicategory]], [[virtual double category]], etc.
 * [[codiscrete cofibration]]
 
