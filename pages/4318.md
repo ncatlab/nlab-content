@@ -26,13 +26,19 @@
 
 _Dolbeault cohomology_ of a [[complex manifold]] $X$ is the [[chain cohomology]] of the [[Dolbeault complex]] of $X$ (see there for more).
 
-By the [[Dolbeault theorem]] this is equivalently the [[abelian sheaf cohomology]] $H^q(X;\Omega_X^p)$, of the [[abelian sheaf]] $\Omega_X^p$ is [[Dolbeault complex]] of [[holomorphic p-forms]].
 
 ## Properties
 
+### Dolbeault theorem
+
+By the _[[Dolbeault theorem]]_ (see there) Dolbeault cohomology is equivalently the [[abelian sheaf cohomology]] $H^q(X;\Omega_X^p)$, of the [[abelian sheaf]] $\Omega_X^p$ is [[Dolbeault complex]] of [[holomorphic p-forms]].
+
 ### Hodge isomorphism
 
-For $X$ a [[Hermitian manifold]] write $\mathcal{H}^{p,q}(X)$ for the space of $(p,q)$-[[harmonic differential forms]]. 
+For $X$ a [[Hermitian manifold]] write $\mathcal{H}^{p,q}(X)$ for the space of $(p,q)$-[[harmonic differential forms]] and write $H^{p,q}$ for its [[Dolbeault cohomology]] in the bidegree.
+
++-- {: .num_prop}
+###### Proposition
 
 There is a canonical [[homomorphism]]
 
@@ -41,7 +47,9 @@ $$
   \,.
 $$
 
-If $X$ is [[compact topological space|compact]], then this is an [[isomorphism]].
+If $X$ is [[compact topological space|compact]], then this is an [[isomorphism]], the _[[Hodge isomorphism]]_
+
+=--
 
 Also
 
