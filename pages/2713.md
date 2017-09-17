@@ -1,9 +1,28 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Functorial quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
+
+
+A _spectral triple_ is algebraic data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] with [[spin structure]] and generalizes it to [[noncommutative geometry]].
+
+### As 1-dimensional FQFTs
 
 Here is an **unorthodox way** to state the idea of spectral triple in terms of [[FQFT]], which is in part just the reformulation of the [[quantum mechanics]] motivation that [[Alain Connes]] derived his definition from in the modern light of [[FQFT]], but which more concretely follows work by [[Maxim Kontsevich|Kontsevich]]-[[Yan Soibelman|Soibelman]] and [[Yan Soibelman|Soibelman]] (linked to at [[2-spectral triple]]) which [[Urs Schreiber|methinks]] is the _right_ one. 
 
@@ -80,29 +99,46 @@ One point of a spectral triple is to take the view of world-line [[quantum mecha
 Then with all the ordinary geoemtry re-encoded algebraically this way, in terms of the 1-dimensional [[quantum field theory]] that _probes_ this geometry, one can then use the same formulas to interpret spectral triple geometrically that do _not_ come from an ordinary geometry as in the above example.
 
 
-#References#
+## Related concepts
 
-* [[Alain Connes]] a)
+* [[spectral action]]
 
-* Alain Connes b)
+* [[higher category theory and physics]]: <a href="http://ncatlab.org/nlab/show/higher+category+theory+and+physics#SpecStandModAndGravity">Spectral standard model and gravity</a>
 
-* Alain Connes c)
+* [[2-spectral triple]]
+## References
 
-* Alain Connes d)
+The standard textbook is
 
-## relation to physics ##
+* [[Alain Connes]], _Noncommutative Geometry_ , Academic Press (1994)
 
-A series of blog posts looking at spectral triples from the perspective of [[FQFT]] and then concentrating on concrete examples of spectral triples that have been proposed as encoding a non-geometric [[Kaluza-Klein theory]] [[GUT]] model of particle physics is here:
+The notion of spectral triple and of spectral action was introduced in
 
-* [[Urs Schreiber]], _Connes on Spectral Geometry of the Standard Model_ ([part I](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of.html), [part II](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_1.html) [part III](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_2.html), [part IV](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_3.html)) 
+* [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_ ([arXiv:hep-th/9603053](http://arxiv.org/abs/hep-th/9603053))
 
-Articles on spectral triples from superstrings/2d super [[conformal field theory]]:
+The characterization of ordinary [[compact space|compact]] [[smooth manifold]]s in terms of spectral triples is in 
 
-* Sebastiano Carpi, Robin Hillier, Yasuyuki Kawahigashi and Roberto Longo, _Spectral Triples and the Super-Virasoro Algebra_ Communications in Mathematical Physics, Volume 295, Number 1 / April 2010 ([Springer pdf](http://www.springerlink.com/content/316wx4r4x885172w/fulltext.pdf))
+* [[Alain Connes]], _On the spectral characterization of manifolds_ ([arXiv:0810.2088](http://arxiv.org/abs/0810.2088))
+
+### Relation to physics 
+
+A discussion for how triples arise as point particle limits of [[vertex operator algebra]]s for 2d [[CFT]]s:
+
+* [[Daniel Roggenkamp]], [[Katrin Wendland]], _Limits and Degenerations of Unitary Conformal Field Theories_ ([arXiv:hep-th/0308143](http://arxiv.org/abs/hep-th/0308143))
+
+A summary of this is in
+
+* [[Daniel Roggenkamp]], [[Katrin Wendland]], _Decoding the geometry of conformal field theories_ ([arXiv:0803.0657](http://arxiv.org/abs/0803.0657))
+
+Also
+
+* Sebastiano Carpi, Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral Triples and the Super-Virasoro Algebra_ Communications in Mathematical Physics, Volume 295, Number 1 / April 2010 ([Springer pdf](http://www.springerlink.com/content/316wx4r4x885172w/fulltext.pdf))
 
 
-## von Neumann spectral triples ##
+### von Neumann spectral triples 
 
 One variation uses [[von Neumann algebra]]s instead of [[C-star algebra]]s.
 
 * M-T. Benameur, T. Fack, _On von Neumann spectral triples_ ([web](http://adsabs.harvard.edu/abs/2000math.....12233B)) 
+
+* [[Alain Connes]], [[Henri Moscovici]], _Type III and spectral triples_ ([arXiv:math/0609703](http://arxiv.org/abs/math/0609703))
