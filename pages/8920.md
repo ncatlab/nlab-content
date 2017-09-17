@@ -1,0 +1,7 @@
+
+
+A _[[triple]]_ is an [[n-tuple]] for $n = 3$.
+
+Beware that an old word for [[monad]] is also "triple".
+
+[[!redirects triples]]
