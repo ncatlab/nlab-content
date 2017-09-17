@@ -42,7 +42,7 @@ Previous:
 
 #Idea#
 
-Previously we had defined smooth categories of [[Riemannian cobordism]]s. Now we pass from [[Riemannian manifold]]s to [[Euclidean supermanifold]]s and define the correponding smooth [[cobordism category]]. Then we define $(d|\delta)$-dimensional Euclidean field theories to be smooth respentations of these categories.
+Previously we had defined smooth categories of [[Riemannian cobordism]]s. Now we pass from [[Riemannian manifold]]s to [[Euclidean supermanifold]]s and define the corresponding smooth [[cobordism category]]. Then we define $(d|\delta)$-dimensional Euclidean field theories to be smooth representations of these categories.
 
 As described at  [[(2,1)-dimensional Euclidean field theories and tmf]], the idea is that $(2|1)$-dimensional Euclidean field theories are a geometric model for [[tmf]] [[cohomology theory]]. While there is no complete proof of this so far, in the next and final session 
 
@@ -66,9 +66,9 @@ So recall
 
 **strategy**: From the [[path integral]] perspective we need some structure on $\Sigma$ such that the "space" of maps $Maps(\Sigma,X)$ naturally carries some measure that allows to perform a [[path integral]].
 
-This perspective suggests certain genralizations of the notion of [[Riemannian manifold]] to [[supermanifold]]s which may be a little different than what one might have thought of naively.
+This perspective suggests certain generalizations of the notion of [[Riemannian manifold]] to [[supermanifold]]s which may be a little different than what one might have thought of naively.
 
-We want to define [[Euclidean supermanifold]]s as a genralization of [[Riemannian manifold]] with _flat_ Riemannian metric.
+We want to define [[Euclidean supermanifold]]s as a generalization of [[Riemannian manifold]] with _flat_ Riemannian metric.
 
 notice that there is a canonical bijection between
 
