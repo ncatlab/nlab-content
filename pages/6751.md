@@ -584,7 +584,7 @@ These are obtained by postcomposing the above square on the right by these [[ext
 $$
   \array{
     S^1 &\stackrel{(A|_{S^1})^g}{\to}& \Omega^1(-,\mathfrak{g})//T
-    &\stackrel{\langle \lambda, \mathbf{\theta}\rangle}{\to}&
+    &\stackrel{\langle \lambda, -\rangle}{\to}&
     \mathbf{B}U(1)_{conn}
     \\
     \downarrow^{\mathrlap{\iota_X}} 
@@ -664,36 +664,36 @@ This is the action functional of 3d $G$-[[Chern-Simons theory]] on $\Sigma$ with
 Similarly, in [[codimension]] 1 let $\Sigma_2$ now be a 2-dimensional closed manifold, thought of as a slice of $\Sigma$ above, and let $\coprod_i {*} \to \Sigma_2$ be the inclusion of points, thought of as the punctures of the Wilson line above through this slice. Then we have [[prequantum bundles]] given by [[transgression]] of the extended Lagrangians to codimension 1
 
 $$
-  \exp(2 \pi i \int_{\Sigma_2}[\Sigma, \mathbf{c}]) 
+  \exp\left(2 \pi i \int_{\Sigma_2}\left[\Sigma, \mathbf{c}\right]\right) 
   \;\colon\;
-  [\Sigma_2, \mathbf{B}G_{conn}]
-  \stackrel{[\Sigma_2, \mathbf{c}]}{\to}
-  [\Sigma_2, \mathbf{B}^3 U(1)_{conn}]
-  \stackrel{\exp(2 \pi i \int_{\Sigma_2} (-))}{\to}
-  \mathbf{B}U(1)_{conn}
+  \left[\Sigma_2, \mathbf{B}G_{conn}\right]
+  \stackrel{\left[\Sigma_2, \mathbf{c}\right]}{\to}
+  \left[\Sigma_2, \mathbf{B}^3 U(1)_{conn}\right]
+  \stackrel{\exp\left(2 \pi i \int_{\Sigma_2} \left(-\right)\right)}{\to}
+  \mathbf{B}U\left(1\right)_{conn}
 $$
 
 and
 
 $$
-  \exp(2 \pi i \int_{\coprod_i {*}}[\coprod_i {*}, \langle \lambda, -\rangle]) 
+  \exp\left(2 \pi i \int_{\coprod_i {*}}\left[\coprod_i {*}, \left\langle \lambda, -\right\rangle\right]\right) 
   \;\colon\;
-  [\coprod_i {*}, \Omega^1(-,\mathfrak{g})//T]
+  \left[\coprod_i {*}, \Omega^1\left(-,\mathfrak{g}\right)//T\right]
   \stackrel{[\coprod_i {*}, \langle \lambda , -\rangle]}{\to}
-  [\coprod_i {*}, \mathbf{B} U(1)_{conn}]
-  \stackrel{\exp(2 \pi i \int_{\coprod_i {*}} (-))}{\to}
+  \left[\coprod_i {*}, \mathbf{B} U(1)_{conn}\right]
+  \stackrel{\exp\left(2 \pi i \int_{\coprod_i {*}} \left(-\right)\right)}{\to}
   \mathbf{B}U(1)_{conn}
 $$
 
 and hence a total prequantum bundle
 
 $$
-  \exp\left(2 \pi i \int_{\coprod_i {*}}\left[\coprod_i {*}, \langle -\rangle\right]\right)
+  \exp\left(2 \pi i \int_{\coprod_i {*}}\left[\coprod_i {*}, \langle \beta, -\rangle\right]\right)
    \otimes
   \exp\left(2 \pi i \int_{\Sigma_2}\left[\Sigma_2, \mathbf{c}\right]\right)
   \;:\;
-  \mathbf{Fields}\left(S^1 \hookrightarrow \Sigma\right)
-  \to U\left(1\right)
+  \mathbf{Fields}\left(\coprod_i {*} \hookrightarrow \Sigma\right)
+  \to \mathbf{B}U\left(1\right)_{conn}
   \,.
 $$
 
