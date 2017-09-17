@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -31,26 +30,21 @@ For $C$ a [[monoidal category]], the **category of [[monoid]]s** $Mon(C)$  in th
 
 =--
 
-If $Assoc$ denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Assoc$ is the category of [[algebras over an operad]] for $Assoc$.
+## Remarks
 
-+-- {: .un_lemma}
-###### Observation
+* If $Assoc$ denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Assoc$ is the category of [[algebras over an operad]] for $Assoc$.
 
-
-Every category of monoids comes with a [[forgetful functor]]
-
-$$
-  U : Mon(C) \to C
-  \,.
-$$
-
-=--
-
+* Every category of monoids comes with a [[forgetful functor]] $U \colon Mon(C) \to C$ which is [[faithful functor|faithful]] and [[conservative functor|conservative]].  In many cases it is [[monadic functor|monadic]].
 
 
 ## Properties
 
-### General properties
+The properties of the category of monoids $Mon (C)$, especially with respect to colimits, are markedly different according to whether or not the tensor product of $C$ preserves colimits in each variable.  (This is automatically the case if $C$ is [[closed monoidal category|closed]].)
+
+Most "algebraic" situations have this property, but others do not.  For instance, the category of [[monads]] on a fixed category $A$ is $Mon (C)$, where $C= [A,A]$ is the category of [[endofunctors]] of $A$ with composition as its monoidal structure.  This monoidal product preserves colimits in one variable (since colimits in $[A,A]$ are computed pointwise), but not in the other (since most endofunctors do not preserve colimits).  So far, the material on this page focuses on the case where $\otimes$ does preserve colimits in both variables, although some of the references at the end discuss the more general case.
+
+
+### Local presentability
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -130,7 +124,7 @@ The elements of the free algebra $F(A)$ are somtimes called [[lists]], at least 
 +-- {: .un_prop #PushOutOfMonoidsAlongFreeMorphisms}
 ###### Proposition
 
-For $C$ a category with [[colimit]]s the category $Mon(C)$ of monoids has all [[pushout]]s 
+If $C$ is [[cocomplete category|cocomplete]] and its tensor product preserves colimits on both sides, then the category $Mon(C)$ of monoids has all [[pushout]]s 
 
 $$
   \array{
@@ -142,7 +136,7 @@ $$
   }
 $$
 
-along morphisms $F(f) : F(K) \to F(L)$ for $f : K \to L$ a morphism in $C$ and $F : C \to Mon(C)$ the free monoid functor from above.
+along morphisms $F(f) : F(K) \to F(L)$, for $f : K \to L$ a morphism in $C$ and $F : C \to Mon(C)$ the free monoid functor from above.
 
 Moreover, these pushouts in $Mon(C)$ are computed in $C$ as the [[colimit]] over a sequence
 
@@ -257,13 +251,14 @@ Finally we need to check the universal property of the cocone $P$ obtained this 
 
 ### Structure induced from monoidal functors
 
-If $F : C\to D$ is a [[lax monoidal functor]] then it induces canonically a functor between categories of monoids
+If $F : C\to D$ is a [[lax monoidal functor]], then it induces canonically a functor between categories of monoids
 
 $$
   Mon(F) : Mon(C) \to Mon(D)
   \,.
 $$
 
+This is one good way to remember the difference between *lax* and *colax* monoidal functors.
 
 
 ### Model structure
