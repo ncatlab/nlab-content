@@ -29,6 +29,6 @@ The epi-mono factorization system in a topos is the special case of the [[n-conn
 
 * **epi-mono factorization system**
 
-* [[essentially surjective and full/faithful factorization system]]
+* [[(eso+full, faithful) factorization system]]
 
 * [[n-connected/n-truncated factorization system]].
