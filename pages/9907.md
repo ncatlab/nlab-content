@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The hypothetical [[superpartner]] [[particle]] of the [[gluon]].
+
+## Related entries
+
+[[!include fields and quanta - table]]
+
+## References
+
+* Wikipedia, _[Gluino](http://en.wikipedia.org/wiki/Gluino)_
+
+[[!redirects gluinos]]
