@@ -34,7 +34,7 @@ Ultimately, the goal is to develop a Hodge theory for noncommutative spaces with
 
 ### Definitions
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $(X,g)$ be a [[compact topological space|compact]] [[oriented]] [[Riemannian manifold]] of [[dimension]] $d$. Write $\Omega^\bullet(X)$ for the [[de Rham complex]] of smooth [[differential form]]s on $X$ and $\star : \Omega^\bullet(X) \to \Omega^{d-\bullet}(X)$ for the [[Hodge star operator]].
@@ -74,7 +74,7 @@ Write $\mathcal{H}^k(X)$ for the [[abelian group]] of harmonic $k$-forms on $X$.
 
 ### Results {#ResultsOverRiemannianManifold}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 Harmonic forms are precisley those in the kernel of $d + d^*$, which are pecisely those in the joint kernel of $d$ and $d^*$.
@@ -85,7 +85,7 @@ By the fact that the [[bilinear form]] $\langle -,-\rangle$ is non-degenerate.
 
 Therefore we have a canonical map $\mathcal{H}^k(X) \to H_{dR}^k(X)$ of harmonic forms into the [[de Rham cohomology]] of $X$.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The canonical map
@@ -102,7 +102,7 @@ This means that every [[de Rham cohomology]] class on $(X,g)$ has precisely one 
 
 But more is true
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 For $(X,g)$ as above, there exists a unique degree-preserving operator (the [[Green operator]] of the [[Laplace operator]] $\Delta$)
@@ -133,6 +133,8 @@ See for instance page 6 of ([GreenVoisinMurre](#GreenVoisinMurre)).
 ## Related entries
 
 * [[harmonic form]], [[Hodge star]], [[nonabelian Hodge theory]], [[Lefschetz hyperplane theorem]]
+
+* [[Hodge structure]]
 
 ## References 
 
