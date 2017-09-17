@@ -15,7 +15,7 @@ In 1872, [[Richard Dedekind]] published _Stetigkeit und irrationale Zahlen_ (Con
 Dedekind had found great success understanding the 'ideal numbers' of [[ring theory]] as certain sets, which are what we now understand as [[ideal of a ring|ideals]].  So he defined a 'real number' as a pair of sets of rational numbers, the lower and upper sets shown above.  Such a pair of sets of rational numbers he called a 'Schnitt' (English 'cut'), nowadays called a 'Dedekind cut'.
 
 
-## Definition
+## Definitions
 
 Exactly which pairs of sets of rational numbers can appear this way?  We will define a __Dedekind cut__ to be any pair $(L,U)$ of sets of rational numbers satisfying these conditions:
 
@@ -33,7 +33,7 @@ Actually, this definition is redundant; any pair $(L,U)$ that satisfies (7&8) mu
 If $x \coloneqq (L,U)$ is a Dedekind cut, then we define $a \lt x$ to mean that $a \in L$ and define $x \lt b$ to mean that $b \in U$.
 
 
-## Motivation
+### Motivation
 
 The point of condition (7) is that we can estimate $x$ as closely as we like by choosing appropriate rational numbers.
 
@@ -42,16 +42,23 @@ This is entirely [[constructive mathematics|constructive]].  We have $a_0 \lt x$
 Besides giving us a place to begin our estimation, (1&2) ensure that $x$ is finite.  Condition (8) enforces us the [[transitivity]] law $a \lt x \lt b \implies a \lt b$; (3&4) are likewise forms of transitivity.  (5&6) ensure that, even if $x$ happens to be a rational number, we are using the sets $L_x$ and $U_x$ given in (eq:cuts) instead of their closures (defined with $\leq$ instead of $\lt$).
 
 
-## Forming a Dedekind-complete linear order
+### Dedekind completion
 
 We define $x \lt y$ to mean that there exist a rational number $a$ such that $x \lt a \lt y$; that is, some rational number belongs to both the upper set of $x$ and the lower set of $y$.  It is then straightforward to prove that $\lt$ is a [[linear order]]:
 
-...
+*  Asymmetry:  If $x \lt y$ and $y \lt x$, pick $a$ such that $x \lt a \lt y$ and $b$ such that $y \lt b \lt x$.  Applying (8) in two ways, $a \lt b$ and $b \lt a$, which is impossible.
+*  Comparison:  If $x \lt z$ and $y$ is a Dedekind cut, then pick $a$ such that $x \lt a \lt z$.  Using (5) or (6), we can generalise this to two rational numbers $a$ and $b$ such that $x \lt a \lt b \lt z$.  Applying (7) to $a \lt b$, we get $x \lt y$ (if $a \lt y$) or $y \lt z$ (if $y \lt b$).
+*  Connectedness:  Suppose that $x \lt y$ and $y \lt x$ both fail, and suppose that $a \lt y$.  ...  We can prove $a \lt x \implies a \lt y$, $b \lt x \implies b \lt y$, and $b \lt y \implies b \lt x$ similarly.  Therefore, $x$ and $y$ are equal (as pairs of subsets).
 
+We can also derive a Dedekind cut from any rational number $x$ by taking (eq:cuts) to be the definition of $x$ as a Dedekind cut.  Thus every rational number is interpreted as a real number.  This is a strict inclusion of linear orders:
 
-We can also intepret derive a Dedekind cut from any rational number $x$ by taking (eq:cuts) to be the definition of $x$ as a Dedekind cut.  Thus every rational number is interpreted as a real number.  This is an inclusion of linear orders:
+*  If $x \lt y$ as rational numbers, then let $a$ be the rational number $(x+y)/2$; we have $x \lt a \lt y$, so $x \lt y$ as real numbers.
 
-...
+In this way, the Dedekind cuts form an extension of the linearly ordered set of rational numbers.  More than that, this extension is [[Dedekind completion|Dedekind-complete]], which basically means that you cannot extend further by taking Dedekind cuts of Dedekind cuts.
+
+To be explicit, suppose that $(L,U)$ is a pair of sets of Dedekind cuts (rather than of rational numbers) that satisfies (1--8), using Dedekind cuts in place of rational numbers.  Let $\sup L$ be the union of the left halves of the cuts that appear in $L$, and let $\inf U$ be the union of the right halves of the cuts that appear in $U$.  Then one can prove that $x \coloneqq (\sup L, \inf U)$ is a Dedekind cut (of rational numbers), and furthermore that $L$ and $U$ may be recovered from $x$ as in (eq:cuts), again using Dedekind cuts in place of rational numbers.
+
+We say that the Dedekind cuts form the [[Dedekind completion]] of the linear order $\mathbb{Q}$.
 
 
 ## Variations
