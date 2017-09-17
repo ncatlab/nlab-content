@@ -8,7 +8,7 @@ Analogously, a __regular open set__ in a [[topological space]] $X$ is a regular 
 
 The __regularisation__ of $x$ is $\neg{\neg{x}}$; note that this is regular.  In fact, any element of the form $\neg{y}$ is regular.
 
-
+[[!redirects regular elements]]
 [[!redirects regular open]]
 [[!redirects regular open set]]
 [[!redirects regularisation]]
