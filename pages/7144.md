@@ -164,6 +164,7 @@ characterizes the [[higher Klein geometry]] induced by $f\colon Y \to X$.
 
 * [[centralizer subgroup]]
 
+* [[stable point]]
 
 [[!redirects stabilizer group]]
 [[!redirects stabilizer groups]]
