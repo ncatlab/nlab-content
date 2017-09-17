@@ -72,6 +72,12 @@ Ours is the age to figure this out.
 
 ## Examples
 
+* [[free field theory]]
+
+* [[phi^4 theory]]
+
+* [[topological quantum field theory]]
+
 * [[gauge theory]]
 
   * [[electromagnetism]]: [[QED]], 
