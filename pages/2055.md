@@ -55,6 +55,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [GreenApples](http://GreenApples.wikispaces.com) -- Resources for new math teachers teachers
 
+* [groupprops.subwiki.org](http://groupprops.subwiki.org/wiki/Main_Page), The Group Properties Wiki, by a graduate student at U. Chicago
+
 * [Liber Mathematicae](http://www.libermath.org) -- site under construction, featuring a new free online journal and some expositional math resources
 
 * [Manifold Atlas Project](http://manifoldatlas.uni-bonn.de/index.php/Main_Page)
