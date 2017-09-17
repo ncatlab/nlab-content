@@ -2543,54 +2543,6 @@ for the intrinsic Maurer-Cartan form and call this the intrinsic **universal [[c
 =--
 
 
-### Differential and variational calculus
- {#VariationalCalculus}
-
-We discuss an abstract formulation of [[variational calculus]] in any cohesive $(\infty,1)$-topos $\mathbf{H}$ using the [intrinsic de Rham cohomology](#deRhamCohomology) and the [intrinsic curvature characteristic forms](#CurvatureCharacteristics).
-
-Let $K \in Trunc_{\leq 0} \mathbf{H} \hookrightarrow \mathbf{H}$ be an [[abelian group|abelian]] [[0-truncated]] [[group object]] in the cohesive $(\infty,1)$-topos $\mathbf{H}$.
-
-+-- {: .un_defm}
-###### Definition
-
-For $X \in \mathbf{H}$, $n \in \mathbb{N}$ 
-and $f : X \to \mathbf{B}^n A$ a morphism in $\mathbf{H}$, we say that the [[homotopy fiber]] $X_{\{d f = 0\}} \to $ of the postcomposition 
-
-$$
-  d f : X \stackrel{f}{\to} \mathbf{B}^n K
-   \stackrel{\theta}{\to}
-  \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K
-$$
-
-with the [universal curvature form](#UniversalCurvatureForms) $\theta$, hence the [[(∞,1)-pullback]]
-
-$$
-  \array{
-    X_{\{d f = 0\}} &\to& *
-    \\
-    \downarrow && \downarrow^{\mathrlap{0}}
-    \\
-    X &\stackrel{d f}{\to}& \mathbf{\flat}_{dR} \mathbf{B}^{n+1}K
-  }
-$$
-
-is the **critical locus** of $f$.
-
-=--
-
-Here the right vertical morphism is the canonical point of the 
-[de Rham coefficient object](#deRhamCohomology) $\mathbf{\flat}_{dR} \mathbf{B}^{n+1} K$.
-
-+-- {: .un_note}
-###### Remark
-
-If $f : X \to \mathbf{B}^n K$ is regarded as the [[action functional]] of a [[quantum field theory]] with [[configuration space]] $X$ (in codimension $n$) then $X_{\{d f = 0\}}$ is the (extended) [[covariant phase space]] of the system. 
-
-=--
-
-For more on this see the discussion at 
-[Higher holonomy and Chern-Simons functional](#ChernSimonsTheory)
-below.
 
 ### Differential cohomology {#DifferentialCohomology}
 
@@ -3240,35 +3192,6 @@ $$
 
 We call $[\Sigma, \mathbf{B}G_{conn}]$ the [[configuration space]] of the [[schreiber:∞-Chern-Simons theory]] defined by $\mathbf{c}$ and $\exp(i S_\mathbf{c}(-))$ the [[action functional]] in [[codimension]] 
 $(n-dim\Sigma)$ defined on it. 
-
-We apply [variational calculus](#VariationalCalculus) to this object:
-
-Postcomposition with the [canonical differential form](#CurvatureCharacteristics)
-
-$$
-  d \exp(i S_{\mathbf{c}}(-)) : 
-  [\Sigma,\mathbf{B}G_{conn}]
-   \stackrel{\exp(i S(-))}{\to}
-  \mathbb{A}^1 /\mathbb{Z}
-   \stackrel{\theta}{\to}
-  \mathbf{\flat}_{dR} \mathbf{B}\mathbb{A}^1
-$$
-
-yields an [intrinsic closed differential form](#deRhamCohomology) on configuration space, called the [[equation of motion]] or [[Euler-Lagrange equation]] of the [[action functional]]. Its [[homotopy fiber]] $X_{\{d \exp(i S) = 0\}}$, the [[(∞,1)-pullback]]
-
-$$
-  \array{
-    X_{\{d \exp(i S) = 0\}} &\to& *
-    \\
-    \downarrow && \downarrow^{\mathrlap{0}}
-    \\
-    [\Sigma, \mathbf{B}G_{conn}]
-    &\stackrel{d \exp(i S(-))}{\to}& 
-    \mathbf{\flat}_{dR} \mathbb{A}^1
-  }
-$$
-
-is the [[covariant phase space]] of the system: the space of _classical trajectories_ .
 
 See [[schreiber:∞-Chern-Simons theory]] for more discussion.
 
