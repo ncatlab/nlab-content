@@ -55,7 +55,7 @@ One computes
 
 $$
   \begin{aligned}
-    d \mu_3 &= 
+    d \mu_7 &= 
      - \frac{5}{4} \bar \psi \wedge \Gamma^{a_1 \cdots a_4 b} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_4} \wedge \bar \psi \wedge \Gamma_b \psi
   \\
   & - i 15 \wedge \Gamma^{a b} e_a \wedge \bar \psi \wedge \Gamma_b \psi \wedge c_3
