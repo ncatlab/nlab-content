@@ -430,7 +430,7 @@ This definition works best when the simplicially enriched category is 'locally K
 
 Cordier and [[Tim Porter|Porter]] (1986) proved that if $C$ is a locally Kan simplicially enriched category then $N(C)$ is a '[[weak Kan complex]]', in other words, a [[quasi-category]].  Many of the ideas behind this result can be traced to [[Rainer Vogt|Vogt]]'s paper of 1973. 
 
-In more modern terminology as [[Kan complex]]es can be considered as [[∞-groupoid]]s, these locally Kan simplicially enriched categories are one particularly nice model for a [[(infinity,1)-category]], and so this result is one of the earliest giving the transition from one model for [[(infinity,1)-category]]s to another, the 'weak kan complexes' or [[quasi-categories]].
+In more modern terminology as [[Kan complex]]es can be considered as [[∞-groupoid]]s, these locally Kan simplicially enriched categories are one particularly nice model for a [[(infinity,1)-category]], and so this result is one of the earliest giving the transition from one model for [[(infinity,1)-category]]s to another, the 'weak Kan complexes' or [[quasi-categories]].
 
 
 
