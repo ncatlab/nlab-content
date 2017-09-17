@@ -26,6 +26,14 @@ An [[(∞,1)-category]] with [[(∞,1)-product]]s $\times$ which is a [[closed m
 
 Every [[(∞,1)-topos]] is a cartesian closed $(\infty,1)$-category. See the section <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">Closed monoidal structure</a>.
 
+## Related concepts
+
+* [[cartesian closed category]]
+
+* [[locally cartesian closed (∞,1)-category]]
+
+
+
 [[!redirects cartesian closed (∞,1)-category]]
 
 
