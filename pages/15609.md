@@ -240,6 +240,18 @@ Let $A$  be an [[E-∞ ring]] and $\mathfrak{a} \subset \pi_0 A$ a [[generators 
 +-- {: .num_prop}
 ###### Proposition
 
+The completion reflection $\flat_{\mathfrak{a}}$, def. \ref{InfinityCompletion}, is a [[monoidal (∞,1)-functor]].
+
+=--
+
+([Lurie "Completions", remark 4.2.6](#LurieCompletions)).
+
+
+For the torsion approximation functor $\Pi_{\mathfrak{a}}$ one gets something slightly weaker, it preserves "monoids without unit":
+
++-- {: .num_prop}
+###### Proposition
+
 The [[full sub-(∞,1)-category]] of $\mathfrak{a}$-torsion modules, def. \ref{TorsionInfinityModule}, is [[reflective sub-(∞,1)-category|co-reflective]]
 
 $$
@@ -269,22 +281,14 @@ The coreflection $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$
 
 1. preserves small [[(∞,1)-colimits]];
 
-1. is a [[monoidal (∞,1)-functor]].
+1. is a "[[monoidal (∞,1)-functor]]" except possibly for preservation of units.
 
 =--
 
 See also ([Lurie "Completions", cor. 4.1.16](#LurieCompletions)).
 
-Also:
 
-+-- {: .num_prop}
-###### Proposition
 
-The completion reflection $\flat_{\mathfrak{a}}$, def. \ref{InfinityCompletion}, is a [[monoidal (∞,1)-functor]].
-
-=--
-
-([Lurie "Completions", remark 4.2.6](#LurieCompletions)).
 
 
 ### Relation to localization
