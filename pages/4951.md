@@ -5,4 +5,6 @@ Mazurkiewicz trace theory is one of the oldest forms of [[trace semantics]]. Its
 
 
 [[!redirects Mazurkiewicz trace]]
+[[!redirects Mazurkiewicz traces]]
 [[!redirects Marzurkiewicz trace]]
+[[!redirects Marzurkiewicz traces]]
