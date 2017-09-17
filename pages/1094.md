@@ -1,17 +1,30 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
 [[!include topos theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 
+## Idea
+
+Given a [[site]] $C$, the _sheafification_ [[functor]] universally turns [[presheaves]] on $C$ into [[sheaves]].
+
+It is characterized as being the [[left adjoint|left]] [[adjoint functor]] $L : PSh(C) \to Sh(C)$ to the inclusion $Sh(C) \hookrightarrow PSh(C)$ of sheaves into all presheaves, exhibiting this as a [[reflective subcategory]].
+
+Therefore sheafification is a special case of a very general phenonemon of [[localization]]s of categories. See [[category of sheaves]] for more.
+
 ## Definition
 
-Given a [[site]] $S$, every [[Set]]-valued [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly equivalent) to a [[sheaf]] $\bar F$. This construction extends to a functor
+Given a [[site]] $S$, every [[Set]]-valued [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly equivalent, see there) to a [[sheaf]] $\bar F$. This construction extends to a functor
 
 $$
   \bar{(-)} : PSh(S) \to Sh(S)
@@ -119,22 +132,28 @@ $$
 
 * The notion of sheafification also generalizes from the 1-categorical to the [[(infinity,1)-category|(infinity,1)-categorical]] context. See [[(infinity,1)-category of (infinity,1)-sheaves]]. 
 
+## Related concepts
+
+* **sheafification**
+
+* [[(∞,1)-sheafification]] / [[∞-stackification]]
+
 ## References
 
-The description of sheafification in terms of local isomorphisms is in section 16.3 (for [[Set]]-valued presheaves) and section 17.4 (for more general presheaves) of
+The description of sheafification in terms of [[local isomorphism]]s is in section 16.3 (for [[Set]]-valued presheaves) and section 17.4 (for more general presheaves) of
 
-* Kashiwara--Schapira, [[Categories and Sheaves]]
+* Kashiwara--Schapira, _[[Categories and Sheaves]]_
 
 The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topology]] is in section V.3 of
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], [[Sheaves in Geometry and Logic]]
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 Extension of sheafification of presheaves with values in other categories has been advanced in
 
-* A. Heller, K. A. Rowe, On the category of sheaves, Amer. J. Math. 84, 1962, 205-216.
+* A. Heller, K. A. Rowe, _On the category of sheaves_ , Amer. J. Math. 84, 1962, 205-216.
 
-* Barr, Grillet and Van Osdol, Exact categories and categories of sheaves, Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971 
+* Barr, Grillet and Van Osdol, _Exact categories and categories of sheaves_ , Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971 
 
-* A. Rosenberg, Almost quotient categories, sheaves and localizations, 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
+* [[Alexander Rosenberg]], _Almost quotient categories, sheaves and localizations_ , 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
 [[!redirects sheafification functor]]
