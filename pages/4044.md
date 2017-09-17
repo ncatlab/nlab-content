@@ -51,4 +51,6 @@
 
 * [[an elementary treatment of Hilbert spaces|An Elementary Treatment of Hilbert Spaces]]
 
+* [[isomorphism classes of Banach spaces|When are two Banach spaces isomorphic?]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/functional+analysis+-+contents)</div>
