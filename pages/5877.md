@@ -41,6 +41,7 @@ Hence a projection is a component of a [[limit|limiting]] _[[cone]]_ over a give
 
 In fact, in older literature the [[filtered category|filtered diagrams]] of spaces or algebraic systems (usually in fact indexed by a codirected set) were called [[projective systems]] (or [[inverse systems]]).
 
+Dually, for colimits the corresponding maps in the opposite direction are sometimes caled _co-projectioons_.
 
 ### In linear algebra
 
@@ -73,3 +74,30 @@ A different concept of a similar name is _[[projection formula]]_.
 
 [[!redirects projection map]]
 [[!redirects projection maps]]
+
+
+
+
+[[!redirects coprojection]]
+[[!redirects coprojections]]
+
+[[!redirects coproduct coprojection]]
+[[!redirects coproduct coprojections]]
+[[!redirects coprojection morphism]]
+[[!redirects coprojection morphisms]]
+
+[[!redirects coprojection map]]
+[[!redirects coprojection maps]]
+
+
+[[!redirects co-projection]]
+[[!redirects co-projections]]
+
+[[!redirects co-product coprojection]]
+[[!redirects co-product coprojections]]
+[[!redirects co-projection morphism]]
+[[!redirects co-projection morphisms]]
+
+[[!redirects co-projection map]]
+[[!redirects co-projection maps]]
+
