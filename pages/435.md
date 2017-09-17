@@ -31,7 +31,7 @@ For instance
 
 * requiring the hom-simplicial sets to be [[Kan complex]]es makes simplicially enriched categories a model for [[(∞,1)-categories]];
 
-* similary, equipping the $sSet$-enriched category with the structure of a $sSet_{Quillen}$-[[enriched model category]] -- a [[simplicial model category]] -- makes it a model for an $(\infty,2)$-category.
+* similary, equipping the $sSet$-enriched category with the structure of a $sSet_{Quillen}$-[[enriched model category]] -- a [[simplicial model category]] -- makes it a model for an $(\infty,1)$-category.
 
   This is discussed in more detail at [[relation between quasi-categories and simplicial categories]].
 
