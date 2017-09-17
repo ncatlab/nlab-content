@@ -38,7 +38,7 @@ such that
 
 1. it induces an [[isomorphism]] $K(n)_\ast X \longrightarrow K(n)_\ast X$
 
-1. $form $k \neq l$ the induced map $K(n)_\ast X \longrightarrow K(l)_\ast X$ is nilpotent.
+1. for $k \neq l$ the induced map $K(n)_\ast X \longrightarrow K(l)_\ast X$ is nilpotent.
 
 The periodicity theorem says: 
 
@@ -49,6 +49,16 @@ Any [[p-local spectrum|p-local]] [[finite spectrum]] $X$ admits a $v_n$ periodic
 * [[telescopic localization]]
 
 ## References
+
+The periodicity theorem is due to 
+
+* [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeff Smith]], 2980s
+
+A quick review is in
+
+* [[Haynes Miller]], section 4 of _"Chromatic" Homotopy theory_, 2001 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
+
+Lecture notes are in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 27 _The periodicity theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture27.pdf))
  {#Lurie10}
