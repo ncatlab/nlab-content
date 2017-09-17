@@ -39,7 +39,7 @@ send a set $S$ either to the [[discrete space]] $Disc(S)$ with _discrete_ cohesi
 
 Moreover, the idea is that cohesion makes points lump together to _connected pieces_ . This is modeled by one more functor $\Pi_0 : \mathcal{E} \to Set$ [[left adjoint]] to $Disc$. In the context of 1-[[topos theory]] this sends a cohesive space to its [[connected topos|connected components]] $(\Pi = \pi_0)$. More generally in an [[(n,1)-topos]]-theory context, $\Pi$ sends a cohesive space $X$ to the $(n-1)$-[[truncated|truncation]] of its [[geometric homotopy groups in an (∞,1)-topos|geometric fundamental ∞-groupoid]] $\Pi(X)$. See [[cohesive (∞,1)-topos]].
 
-In total this gives a quadruple of [[adjoint functor]]s
+In total this gives an [[adjoint quadruple]]
 
    $$
     (\Pi_0 \dashv Disc \dashv \Gamma \dashv Codisc) : 
@@ -213,8 +213,33 @@ This appears as axiom 2 in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces
 There is some overlap between the structures and conditions appearing here and those considered in the context of [[Q-categories]]. See there for more details.
 
 =--
+
 ## Properties 
   {#Properties}
+
+We discuss properties of cohesive toposes. We start in
+
+* [Adjoint quadruples](#AdjointQuadruples)
+
+with some generalities on situations where a sequence of four adjoint functors is given. Then in 
+
+* [Relations between the axioms](#RelationsBetweenTheAxioms)
+
+we comment on the interdependency of the collection of axioms on a cohesive topos. In
+
+* [Quasitopos of concrete objects](#ConcreteObjects)
+
+we discuss the induced notion of concrete objects that comes with every cohesive topos and in
+
+* [Objects with one point per cohesive piece](#ObjectsWithOnePointPerCohesivePiece)
+
+the induced subcategory of objects with one point per piece.
+
+For a long list of further structures that are canonically present in a cohesive context see
+
+* [[cohesive (∞,1)-topos -- structures]]
+
+* [[cohesive (∞,1)-topos -- infinitesimal cohesion]] .
 
 ### Adjoint quadruples
   {#AdjointQuadruples}
@@ -568,6 +593,7 @@ Since by reflectivity [[limit]]s in $Conc(\mathcal{E})$ may be computed in $\mat
 =--
 
 ### Objects with one point per cohesive piece
+ {#ObjectsWithOnePointPerCohesivePiece}
 
 +-- {: .un_theorem}
 ###### Theorem
