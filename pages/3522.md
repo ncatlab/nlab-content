@@ -19,9 +19,11 @@ An introductory article is
 
 Original articles include
 
-* Thomas G. Goodwillie, _Calculus. I. The first derivative of pseudoisotopy theory_, K-Theory __4__ (1990), no. 1, 1-27. MR 1076523 (92m:57027);
+* [[Thomas Goodwillie]], _Calculus. I. The first derivative of pseudoisotopy theory_, K-Theory __4__ (1990), no. 1, 1-27. MR 1076523 (92m:57027);
 _Calculus. II. Analytic functors_, K-Theory __5__ (1991/92), no. 4, 295-332. MR 1162445 (93i:55015); _Calculus. III. Taylor series_, 
 Geom. Topol. 7 (2003), 645--711 [journal](http://www.msp.warwick.ac.uk/gt/2003/07/p019.xhtml)
+
+* [[Thomas Goodwillie]], _Calculus III: Taylor Series_ ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
 
 * Nicholas J. Kuhn, _Goodwillie towers and chromatic homotopy: an overview_,   Proceedings of the Nishida Fest (Kinosaki 2003),  245--279, Geom. Topol. Monogr., 10, Geom. Topol. Publ., Coventry, 2007.
 
