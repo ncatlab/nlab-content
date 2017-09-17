@@ -1,0 +1,56 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimension]] 3 and with $N = 4$ [[supersymmetry]].
+
+## Properties
+
+### Reduction from $N = 2$, $D = 4$
+
+The $N = 4$, $D = 3$ SYM theory can be obtained by [[Kaluza-Klein mechanism|dimensional reduction]] from [[N=2 D=4 super Yang-Mills theory]] ([Seiberg-Witten 96](#SeibergWitten96))
+
+### Mirror symmetry
+
+A version of [[mirror symmetry]] acts on the $N = 4$, $D = 3$ SYM [[moduli space]] of vacua and exchanges the [[Coulomb branch]] with the [[Higgs branch]]. ([Intriligator-Seiberg](#IntriligatorSeiberg))
+
+See also the discussion at _[[symplectic duality]]_.
+
+## Related concepts
+
+* [[N=2 D=4 super Yang-Mills theory]]
+
+* [[N=4 D=4 super Yang-Mills theory]]
+
+## References
+
+
+The [[Kaluza-Klein mechanism|dimensional reduction]] from [[N=2 D=4 super Yang-Mills theory]] was first considered in
+
+* [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
+ {#SeibergWitten96}
+
+The mirror symmetry operation was discussed in 
+
+* [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys.Lett.B387:513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
+ {#IntriligatorSeiberg}
+
+[[!redirects Coulomb branch]]
+[[!redirects Higgs branch]]
