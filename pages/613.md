@@ -1,8 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+* [[fundamental groupoid]], **fundamental ∞-groupoid**
+
+* [[fundamental category]], [[fundamental (∞,1)-category]]
+
+
+***
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 The [[higher category theory|higher categorical]] version of the [[fundamental groupoid]] of a space.
 
@@ -19,7 +41,7 @@ with $\Delta^n$ denoting the standard topological $n$-[[simplex]] (familiar from
 
 * (... Batanin's weak fundamental $\omega$-groupoid)
 
-#Strict versions of higher homotopy groupoids#
+## Strict versions of higher homotopy groupoids
 
 It is not so obvious how to define higher homotopy groupoids which  generalise the fundamental groupoid to higher dimensions. It is possible to say that all you need is the singular complex $SX$ of the topological space, and that this is some kind of weak infinity-category, since it is a [[Kan complex]]. But even this fact has further problems, since as is standard, the Kan extension condition is due to a property of the models, namely that there is a retraction from the simplex $\Delta^n$ to $\Lambda^{n-1}_i$, the union of all the faces of $\Delta^n$ except the $i$th. So one would also like to axiomatise the properties of these [[thin element|thin]] fillers of horns in $SX$. This would be interesting from the algebraic point of view because such a retraction gives in some sense one face of the simplex as a kind of composition of the other faces. Problems are that: the retraction described is not unique; and what are the axioms on composites of such retractions, i.e. on subdivisions of subdivisions? Maybe there are good answers! 
 
@@ -39,7 +61,7 @@ There are now uses of models of $n$-types in areas of homological algebra.
 
 
 
-#Remarks#
+## Remarks
 
 * The idea of some fundamental $\infty$-groupoid plays a crucial role in the [[homotopy hypothesis]].
 
@@ -48,7 +70,9 @@ There are now uses of models of $n$-types in areas of homological algebra.
 
 [[Urs Schreiber]]: I had meanwhile had a long private discussion with Ronnie about this by private email. This showed that more discussion here about the notion of fundamental $\infty$-groupoids in homotopy theory should eventually be given here.
 =--
-#References#
+
+
+## References
 
 * R. Brown and P.J. Higgins, Colimit theorems for relative homotopy groups, J. Pure Appl. Algebra 22 (1981) 11-41.
 
