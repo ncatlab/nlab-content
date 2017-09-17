@@ -176,3 +176,6 @@ Comments on the formalization of [[integral transforms]] and [[quantization]] in
 [[!redirects dependent linear homotopy type theory]]
 [[!redirects dependent linear homotopy type theories]]
 
+[[!redirects linear homotopy type theory]]
+[[!redirects linear homotopy type theories]]
+
