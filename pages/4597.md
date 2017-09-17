@@ -71,7 +71,21 @@ $$
 of its [[tangent bundle]] $T X$, the characteristic class $p_1(T X) : X \stackrel{g}{\to} \mathcal{B}SO \stackrel{p_1}{\to} \mathcal{B}^4 \mathbb{Z}$ of $T X$ regarded as an $SO$-[[associated bundle]] contains less information than the class $\frac{1}{2}p_1(T X) : X \stackrel{\hat g}{\to} \mathcal{B}Spin \stackrel{\frac{1}{2}p_1}{\to} \mathcal{B}^4 \mathbb{Z}$. For instance if the 4th cohomology of $X$ happens to be 2-[[torsion]], the former class entirely vanishes, while the latter need not.
 
 This familiar situation poses no problem to classical [[Chern-Weil theory]], because both the [[special orthogonal group]] as well as the [[spin group]] of course have canonical structures of [[Lie group]]s, so that the [[Chern-Weil homomorphism]] may be applied to either.
+We shall write $\mathbf{B} \mathrm{Spin}$ for the smooth refinement of  the classifying space $B \mathrm{Spin}$: the delooping Lie groupoid of $\mathrm{Spin}$
+or equivalently the moduli stack for smooth $\mathrm{Spin}$-principal bundles. Here and in the
+following the boldface indicates smooth (or otherwise cohesive) refinements. 
+Accordingly, there is a 
+smooth refinement $\frac{1}{2}\mathbf{p} : \mathbf{B} \mathrm{Spin} \to \mathbf{B}^3 U(1)$ 
+of the first Pontryagin class, which takes smooth
+$\mathrm{Spin}$-principal bundles to their first Pontryagin class. 
+This in turn has
+has a further differential refinement $\frac{1}{2}{\hat {\mathbf{p}}} : 
+\mathbf{B}\mathrm{Spin}_{\mathrm{conn}} \to \mathbf{B}^3 U(1)_{\mathrm{conn}}$
+that takes $\mathrm{Spin}$-principal bundles with connection to their Chern-Simons 2-gerbes
+with connection.
 
+
+All this is still captured by the traditional (refined) Chern-Weil homomorphism.
 But this is no longer the case as we keep climbing up the [[Whitehead tower]] of the [[orthogonal group]]. In the next step the second [[Pontryagin class]] $p_2 : \mathcal{B}SO \to \mathcal{B}^8 \mathbb{Z}$ may be divided by 6 when pulled back to the classifying space of the [[string group]] (<a href="http://ncatlab.org/schreiber/edit/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">SSSII</a>) 
 
 $$
@@ -111,29 +125,28 @@ This kind of refinement we discuss in a bit more detail in the next section.
 
 ### Higher differential spin structures
 
-Applications that needed consideration of these refined 
-differential invariants of fractional characteristic classes 
-arose in  [[higher category theory and physics|fundamental theoretical physics]]. 
-(A review of this is given in the first part of 
-(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">SatiSchreiberStasheff II</a>).)
+These refined differential invariants of 
+fractional characteristic classes are relevant in the discussion of higher differential spin
+structures.
+(See the first part of 
+(<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">SatiSchreiberStasheff II</a> for a review).)
 Ordinary [[spin structure]]s on a [[manifold]] may be understood
 as trivializations of what are called 
 [[quantum anomaly]] [[Pfaffian line bundle]]s on the configuration
 space of the spinning [[relativistic particle|quantum particle]] propagating on that manifold. 
-(This physical origin is after all the source of the term 
+(This physical origin is after all the origin of the term 
 _spin structure_ .)
 When these point-like super-particles are generalized to higher-dimensional $p$-[[brane]]s,
 the trivialization of the corresponding Pfaffian line bundles correspond to 
-[[string structure]]s on $X$ for $p = 1$
+[[string structure]]s for $p = 1$
 (this goes back to 
 (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#Killingback">Killingback</a>)
 and 
 (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#WittenIndexLoopSpace">Witten</a>) 
 and has been made rigorous in
 (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BunkeStringStruc">Bunke</a>)
-then to [[fivebrane structure]]s on $X$ for $p = 5$
+then to [[fivebrane structure]]s for $p = 5$
 (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">SatiSchreiberStasheff II</a>)). 
-These structures may therefore be understood as higher analogs of spin structures.
 
 More precisely, the Pfaffian line bundles appearing here come equipped with a [[connection on a bundle|connection]],
 and what matters is a trivialization of these bundles as bundles with connection.
