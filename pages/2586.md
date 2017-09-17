@@ -110,7 +110,7 @@ We have
 
   * $Spin(6) \simeq SU(4)$ 
 
-* in [[Lorentzian spacetime|Lorentzian]] signature
+* in [[Lorentz group|Lorentzian]] signature
 
   * $Spin(1,1) \simeq GL(1,\mathbb{R})$
 
@@ -122,7 +122,7 @@ We have
 
   * $Spin(5,1) \simeq SL(2,\mathbb{H})$
 
-* in [[anti de Sitter spacetime|anti de Sitter]] signature
+* in [[anti de Sitter group|anti de Sitter]] signature
 
   * $Spin(2,2) \simeq SL(2,\mathbb{R}) \times SL(2,\mathbb{R})$
 
@@ -156,6 +156,8 @@ The [[Whitehead tower]] of the [[orthogonal group]] looks like
 $\cdots \to$ [[fivebrane group]] $\to$ [[string group]] $\to$ **spin group** $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
 
 Another extension of $SO$ is the [[spin^c group]].
+
+[[!include table of orthogonal groups and related]]
 
 ## References
 
