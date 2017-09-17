@@ -1,9 +1,117 @@
 
+# Equicontinuous functions
+* table of contents
+{: toc}
+
+## Idea
+
+A [[function]] $f$ is [[continuous map|continuous]] if, roughly speaking, $f(x)$ is arbitrarily close to $f(y)$ whenever $x$ is sufficiently close to $y$.  However, 'close' is relative, and $f(x)$ may be much closer to $f(y)$ than $g(x)$ is to $g(y)$, even if both $f$ and $g$ are continuous.  Nevertheless, given a [[family]] of functions, we may have that $f(x)$ is arbitrarily close to $f(y)$ for *every* function $f$ in the family at once whenever $x$ is sufficiently close to $y$.  In this case, the family of functions is _equicontinuous_.
+
+
+## Definitions
+
+Because we are considering the relative degree of closeness between potentially unrelated pairs of points, we need a [[uniform structure]] to define this concept.  So let $X$ and $Y$ be [[uniform spaces]] (although the concept should make sense in somewhat greater generality), and let $\mathcal{F}$ be a [[family]] of [[functions]] from $X$ to $Y$.
+
++-- {: .num_defn #Continuous}
+###### Definition
+
+The family $\mathcal{F}$ is __continuous__ if each member is [[continuous function|continuous]]:  For each [[entourage]] $E$ in $Y$, for each function $f$ in $\mathcal{F}$ and each [[point]] $x \in X$, for some entourage $D$ in $X$, for each point $y$ in $X$, whenever $x \approx_D y$, we have $f(x) \approx_E f(y)$.
+=--
+
+In short:
+$$ \forall E,\; \forall f,\; \forall x,\; \exists D,\; \forall y,\; x \approx_D y \;\Rightarrow\; f(x) \approx_E f(y) .$$
+
++-- {: .num_defn #UniformlyContinuous}
+###### Definition
+
+The family $\mathcal{F}$ is __uniformly continuous__ if each member is [[uniformly continuous function|uniformly continuous]]:  For each [[entourage]] $E$ in $Y$, for each function $f$ in $\mathcal{F}$, for some entourage $D$ in $X$, for each [[point]] $x$ in $X$, for each point $y$ in $X$, whenever $x \approx_D y$, we have $f(x) \approx_E f(y)$.
+=--
+
+In short:
+$$ \forall E,\; \forall f,\; \exists D,\; \forall x,\; \forall y,\; x \approx_D y \;\Rightarrow\; f(x) \approx_E f(y) .$$
+
++-- {: .num_defn #Equicontinuous}
+###### Definition
+
+The family $\mathcal{F}$ is __equicontinuous__ if:  For each [[entourage]] $E$ in $Y$, for each [[point]] $x$ in $X$, for some entourage $D$ in $X$, for each function $f$ in $\mathcal{F}$, for each point $y$ in $X$, whenever $x \approx_D y$, we have $f(x) \approx_E f(y)$.
+=--
+
+In short:
+$$ \forall E,\; \forall x,\; \exists D,\; \forall f,\; \forall y,\; x \approx_D y \;\Rightarrow\; f(x) \approx_E f(y) .$$
+
++-- {: .num_defn #UniformlyEquicontinuous}
+###### Definition
+
+The family $\mathcal{F}$ is __uniformly equicontinuous__ if:  For each [[entourage]] $E$ in $Y$, for some entourage $D$ in $X$, for each function $f$ in $\mathcal{F}$ and each [[point]] $x$ in $X$, for each point $y$ in $X$, whenever $x \approx_D y$, we have $f(x) \approx_E f(y)$.
+=--
+
+In short:
+$$ \forall E,\; \exists D,\; \forall f,\; \forall x,\; \forall y,\; x \approx_D y \;\Rightarrow\; f(x) \approx_E f(y) .$$
+
+All of these definitions are identical except for the placement of the [[quantifiers]] $\forall f$ and $\forall x$ before or after the quantifier $\exists D$.
+
+Just as it is reasonable to speak of a single function $f$ continuous at a single point $x$, so it is reasonable to speak of a family equicontinuous at a single point $x$ (or, for that matter, of a single function $f$ uniformly continuous).  However, it makes no sense to speak of a single function $f$ equicontinuous (or uniformly equicontinuous), nor can we speak of a family of functions uniformly equicontinuous at a single point $x$.
+
+
+## Properties
+
+The [[Cauchy sum theorem]] holds for an equicontinuous family of functions (from the [[real line]] to itself), *without* the requirement for [[uniform convergence]].
+
+
 ## References
 
 * Wikipedia, _[Equicontinuity](http://en.wikipedia.org/wiki/Equicontinuity)_
 
-[[!redirects equicontinuous functions]]
 
+[[!redirects equicontinuous family]]
+[[!redirects equicontinuous families]]
+[[!redirects equicontinuous family of functions]]
+[[!redirects equicontinuous families of functions]]
+[[!redirects equicontinuous family of maps]]
+[[!redirects equicontinuous families of maps]]
+
+[[!redirects equicontinuous collection]]
+[[!redirects equicontinuous collections]]
+[[!redirects equicontinuous collection of functions]]
+[[!redirects equicontinuous collections of functions]]
+[[!redirects equicontinuous collection of maps]]
+[[!redirects equicontinuous collections of maps]]
+
+[[!redirects equicontinuous sequence]]
+[[!redirects equicontinuous sequences]]
+[[!redirects equicontinuous sequence of functions]]
+[[!redirects equicontinuous sequences of functions]]
+[[!redirects equicontinuous sequence of maps]]
+[[!redirects equicontinuous sequences of maps]]
+
+[[!redirects equicontinuous function]]
+[[!redirects equicontinuous functions]]
 [[!redirects equicontinuous map]]
 [[!redirects equicontinuous maps]]
+
+
+[[!redirects uniformly equicontinuous family]]
+[[!redirects uniformly equicontinuous families]]
+[[!redirects uniformly equicontinuous family of functions]]
+[[!redirects uniformly equicontinuous families of functions]]
+[[!redirects uniformly equicontinuous family of maps]]
+[[!redirects uniformly equicontinuous families of maps]]
+
+[[!redirects uniformly equicontinuous collection]]
+[[!redirects uniformly equicontinuous collections]]
+[[!redirects uniformly equicontinuous collection of functions]]
+[[!redirects uniformly equicontinuous collections of functions]]
+[[!redirects uniformly equicontinuous collection of maps]]
+[[!redirects uniformly equicontinuous collections of maps]]
+
+[[!redirects uniformly equicontinuous sequence]]
+[[!redirects uniformly equicontinuous sequences]]
+[[!redirects uniformly equicontinuous sequence of functions]]
+[[!redirects uniformly equicontinuous sequences of functions]]
+[[!redirects uniformly equicontinuous sequence of maps]]
+[[!redirects uniformly equicontinuous sequences of maps]]
+
+[[!redirects uniformly equicontinuous function]]
+[[!redirects uniformly equicontinuous functions]]
+[[!redirects uniformly equicontinuous map]]
+[[!redirects uniformly equicontinuous maps]]
