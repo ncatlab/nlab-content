@@ -42,6 +42,26 @@ $$
 $$
 
 
+Let 
+
+$$
+  r_\bullet A
+  =
+  \left(
+     \cdots 
+     A \times A \times A \stackrel{\to}{\stackrel{\to}{\to}} A \times A \stackrel{\to}{\to} A
+  \right)
+$$ 
+
+We have 
+
+$$
+  match_k r_\bullet A = r_k A
+  \,.
+$$
+
+
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
