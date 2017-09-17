@@ -4,7 +4,7 @@
 
 ## Idea 
 
-The concept of *matroid*, due to Hassler Whitney, is one of the basic structures of combinatorics, giving several different ways of encoding/defining and presenting a general notion of "independence", e.g., linear independence in a vector space, algebraic independence in a field extension, etc. 
+The concept of *matroid*, due to Hassler Whitney, is fundamental to combinatorics, giving several different ways of encoding/defining and presenting a general notion of "independence", e.g., linear independence in a vector space, algebraic independence in a field extension, etc. 
 
 There is also a similar concept of an [[oriented matroid]]; every oriented matroid has an underlying matroid. 
 
@@ -12,21 +12,35 @@ There is also a similar concept of an [[oriented matroid]]; every oriented matro
 
 +-- {: .num_defn} 
 ###### Definition 
-A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $C: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in C(S \cup\{b\}) \cap \neg C(S)$, then $b \in C(S \cup\{a\}) \cap \neg C(S)$. 
+A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $\mathbf{C}: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in \mathbf{C}(S \cup\{b\}) \cap \neg \mathbf{C}(S)$, then $b \in \mathbf{C}(S \cup\{a\}) \cap \neg \mathbf{C}(S)$. 
 =-- 
 
-Usually when combinatorialists speak of matroids as such, $X$ is taken to be a finite set. A typical example is $X$ some finite subset of a vector space $V$, taking $C(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
+Usually when combinatorialists speak of matroids as such, $X$ is taken to be a finite set. A typical example is $X$ some finite subset of a vector space $V$, taking $\mathbf{C}(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
 
-Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $C(T) \subset C(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin C(S\backslash \{x\})$ for every $x \in S$). Again under this definition, $S$ is a _basis_ if $C(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $C(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
+Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $\mathbf{C}(T) \subset \mathbf{C}(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin \mathbf{C}(S\backslash \{x\})$ for every $x \in S$). Again under this definition, $S$ is a _basis_ if $\mathbf{C}(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $\mathbf{C}(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
 
 +-- {: .num_proposition} 
 ###### Proposition 
-Any two bases of a matroid have the same cardinality, called the _dimension_ of the matroid. 
+Any two bases of a finite matroid $X$ have the same cardinality, the _dimension_ of the matroid. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
+First, suppose $A$ is an independent set and $B$ is a basis, and suppose there are subsets $A_0 \subseteq A, B_0 \subseteq B$ such that $A_0 \cup B_0$ is a basis. We claim that for each $a \in A \backslash A_0$, there exists $b \in B_0$ such that $A_0 \cup \{a\} \cup (B_0 \backslash \{b\})$ is a basis. For, let $C \subseteq B_0$ be of minimum cardinality such that $a \in \mathbf{C}(A_0 \cup C)$; we know $C$ must be inhabited since $a \notin \mathbf{C}(A \backslash \{a\}) \supseteq \mathbf{C}(A_0)$; clearly $C \cap A_0 = \emptyset$. So let $b$ be an element of $C$. Since by minimality of $C$ we have  
 
+$$a \in \mathbf{C}(A_0 \cup (C \backslash \{b\}) \cup \{b\}) \cap \neg \mathbf{C}(A_0 \cup (C \backslash \{b\})),$$ 
+
+it follows from the exchange axiom that $b \in \mathbf{C}(A_0 \cup (C \backslash \{b\}) \cup \{a\})$. Thus $b \in \mathbf{C}(A_0 \cup (B_0 \backslash \{b\}) \cup \{a\})$, whence 
+
+$$\mathbf{C}(A_0 \cup (B_0 \backslash \{b\}) \cup \{a\}) = \mathbf{C}(A_0 \cup B_0 \cup \{a\}) = X$$ 
+
+so that $D \coloneqq A_0 \cup (B_0 \backslash \{b\}) \cup \{a\}$ "spans" $X$. Also $D$ is independent: if $x \in D$ and $x \neq a$, then 
+
+$$\mathbf{C}(D \backslash \{x\}) \subseteq \mathbf{C}((A_0 \cup B_0) \backslash \{x\})$$ 
+
+with neither side containing $x$ since $A_0 \cup B_0$ is independent; whereas if $x = a$ and supposing to the contrary that $a \in \mathbf{C}(D \backslash \{a\}) = \mathbf{C}((A_0 \cup (B_0 \backslash \{b\}))$, we conclude $A_0 \cup (B \backslash \{b\})$ has the same span as $D$. Since $D$ already spans, $b \in \mathbf{C}(A_0 \cup (B_0 \backslash \{b\}))$, again impossible since $A_0 \cup B_0$ is independent. This proves the claim. 
+
+Again assuming $A$ independent and $B$ a basis, now we show that $card(A) \leq card(B)$, which will finish the proof. Let $n = card(B)$, and suppose on the contrary that there are distinct elements $a_1, \ldots, a_{n+1} \in A$. Set $A_0 = \emptyset$ and $B_0 = B$. Applying the claim above inductively, we have that $\{a_1, \ldots, a_i\} \cup (B \backslash \{b_1, \ldots, b_i\})$ is a basis for $1 \leq i \leq n$, so in particular $\{a_1, \ldots, a_n\}$ spans $X$. Hence $a_{n+1} \in \mathbf{C}(\{a_1, \ldots, a_{n}\})$, contradicting the independence of $A$. 
 =-- 
 
 ## Examples 
@@ -41,6 +55,19 @@ Essentially the very same notion arises in model theory, except instead of being
 ###### Definition 
 A _pregeometry_ is a (possibly infinite) matroid (given by a set $X$ equipped with a closure operator $C$) such that for all $S \subseteq X$, if $x \in C(S)$ then $x \in C(S_0)$ for some finite subset $S_0 \subseteq S$. A **geometry** is a pregeometry such that $C(\emptyset) = \emptyset$ and $C(\{x\}) = \{x\}$ for every $x \in X$. 
 =-- 
+
+The language of independence, spanning, and basis carry over as before. A maximal independent set spans (i.e., is a basis), and maximal independent sets exist according to [[axiom of choice|Zorn's lemma]]. Again we have a notion of dimension by the following proposition. 
+
++-- {: .num_proposition} 
+###### Proposition 
+In a pregeometry, any two maximal independent sets have the same cardinality. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+
+=-- 
+
 
 ## Combinatorial optimization 
 
