@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Grothendieck-Riemann-Roch theorem_ describes  (the failure of) the [[natural transformation|naturality]] of the behaviour of a _[[Chern character]]_ under [[fiber integration|push forward]] along [[proper maps]].
+
+It says that the Chern-character of the push-forward of some $E$ is the push-forward of the [[cup product]] of the Chern-character of $E$ with a certain correction class.
+
+## References
+
+* Wikipedia, _[Grothendieck-Riemann-Roch theorem](http://en.wikipedia.org/wiki/Grothendieck%E2%80%93Riemann%E2%80%93Roch_theorem)_
+
+[[!redirects Riemann-Roch theorem]]
+
