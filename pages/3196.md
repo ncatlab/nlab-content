@@ -9,7 +9,7 @@
 
 Classical Morse theory centered around simple statements like Morse inequalities, concerning just the [[Betti number]]s. It is useful not only for studying manifolds, but also for studying infinite CW-type spaces *homotopically filtered in manifolds*, as by Milnor and Bott (especially *The stable homotopy of the classical groups*) for spaces of paths in a smooth manifold.
 
-Novikov--Morse theory is a variant using [[multivalued functions]].
+Novikov--Morse theory is a variant using [[multivalued functions]]. There is also a [[discrete Morse theory]] for combinatorial cell complexes.
 
 There are some infinite-dimensional generalizations like Floer instanton homology for 3-dimensional manifolds and also the Hamiltonian variant of [[Floer homology]] (and cohomology) for (finite dimensional) [[symplectic manifolds]]. Especially well studied is the case of the [[cotangent bundle]] of a differentiable manifold with its standard symplectic structure; this is sometimes called Floer--Oh homology. Floer homology has been partly motivated by Arnold's conjecture on periodic trajectories in [[classical mechanics]]. The symplectic variant of Floer cohomology is related to [[quantum cohomology]]. 
 
