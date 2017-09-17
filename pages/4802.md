@@ -70,6 +70,7 @@ This terminology is used notably in the context of the _[[first-order formulatio
 
 We discuss here how a choice of vielbein on a [[manifold]] is equivalently the [[reduction of structure groups|reduction of the structure group]] of the [[tangent bundle]] from the [[general linear group]] $GL(n)$ to its [[maximal compact subgroup]], the [[orthogonal group]].
 
+The following also introduces the description of this in terms of [[smooth infinity-groupoid|smooth]] [[twited cohomology|twisted]] [[cohomology]]. While of course this is not necessary to understand vielbeins, it does give a very natural conceptual description with the advantage that it seamlessly generalizes to notions of _[[generalized vielbein]]_ fields and generally to [[twisted differential c-structures]].
 
 #### The class of the tangent bundle
  {#ClassOfTheTangentBundle}
@@ -100,7 +101,7 @@ $$
 $$
 
 with values in invertible [[matrices]], hence in the
-[[general linear group]] $GL(n)$. By construction (by the [[chain rule]]), these functions satisfy on triple overlaps of coordinate charts the [[matric product]] equations
+[[general linear group]] $GL(n)$. By construction (by the [[chain rule]]), these functions satisfy on triple overlaps of coordinate charts the [[matrix product]] equations
 
 $$
   (\lambda_{i j})^\mu{}_\lambda (\lambda_{j k})^\lambda{}_{\nu} 
@@ -208,7 +209,7 @@ $$
   \array{
      X &&\stackrel{h}{\to}&& \mathbf{B} O(n)
      \\
-     & {}_{\mathllap{\lambda}}\searrow &\swArrow_{E}& \swarrow_{\mathrlap{\mathbf{c}}}
+     & {}_{\mathllap{\lambda}}\searrow &\swArrow_{E^{-1}}& \swarrow_{\mathrlap{\mathbf{c}}}
      \\
      && \mathbf{B}GL(n)
   }
@@ -257,12 +258,18 @@ $$
   $$
 
 Such a lift $(h,E)$ is an [[orthogonal structure]] on $T X$.
-The component $E$ is called the corresponding **vielbein**.
+The component $E$ is called the corresponding **vielbein**. It exhibits an [[isomorphism]] 
+
+$$
+  E : T X \stackrel{\simeq}{\to} V
+$$
+
+between a [[vector bundle]] $V \to X$ with [[structure group]] explicitly being the [[orthogonal group]] and the [[tangent bundle]], hence it exhibits the [[reduction of structure groups|reduction of the structure group]] of $T X$ from $GL(n)$ to $O(n)$.
 
 #### Moduli space of orthogonal structures: twisted cohomology
  {#ModuliSpaceOfOrhtogonalStructures}
 
-In order to understand the space of choices of vielbein fields on a given tangent bundle, hence the _[[moduli space]]_ or _[[moduli stack]]_ of vielbein fields, it is useful to first consider the [[homotopy fiber]] of the morphism $\mathbf{c} : \mathbf{B}O(n) \to \mathbf{B}GL(n)$. This is the [[coset]] $GL(n)/O(n)$. We may think of 
+In order to understand the space of choices of vielbein fields on a given tangent bundle, hence the _[[moduli space]]_ or _[[moduli stack]]_ of [[orthogonal structures]]/[[Riemannian metrics]] on $X$, it is useful to first consider the [[homotopy fiber]] of the morphism $\mathbf{c} : \mathbf{B}O(n) \to \mathbf{B}GL(n)$. One finds that this is the [[coset]] $O(n) \backslash GL(n)$. We may think of the [[fiber sequence]]
 
 $$
   \array{  
@@ -274,12 +281,12 @@ $$
   }
 $$
 
-as being a 2-bundle in $\mathbf{H}$ over the [[moduli stack]] $\mathbf{B}GL(n)$ with typical fiber $GL(n)/O(n)$. It is  the smooth [[associated infinity-bundle|associated bundle]] to the smooth [[universal principal bundle|universal GL(n)-bundle]] induced by the canonical [[action]] of $GL(n)$ on $GL(n)/O(n)$.
+as being a bundle in $\mathbf{H}$ over the [[moduli stack]] $\mathbf{B}GL(n)$ with typical fiber $GL(n)/O(n)$. It is  the smooth [[associated infinity-bundle|associated bundle]] to the smooth [[universal principal bundle|universal GL(n)-bundle]] induced by the canonical [[action]] of $GL(n)$ on $O(n)\backslash GL(n)$.
 
-This means that if the tangent bundle $T X$ is trivial, then the coset space $GL(n)/O(n)$ is the moduli space for vielbein fields on $T X$, in that the space of these is 
+This means that if the tangent bundle $T X$ is trivializable, then the coset space $O(n)\backslash GL(n)$ is the moduli space for vielbein fields on $T X$, in that the space of these is 
 
 $$
-  \mathbf{H}(X, GL(n)/O(n)) = C^\infty(X, GL(n)/ O(n))
+  \mathbf{H}(X, O(n)\backslash GL(n)) = C^\infty(X, O(n)\backslashGL(n))
   \,.
 $$
 
@@ -322,7 +329,7 @@ give the non-linear $T X$-associated bundle whose space of sections is the "twis
 
 #### Moduli stack of orthogonal structures
 
-The above says that the space of vielbein fields is the cohomology of $T X$ in the [[over-(infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}GL(n)}$
+The above says that the space of vielbein fields is the [[cohomology]] of $T X$ in the [[over-(infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}GL(n)}$ with coefficients in $\mathbf{c} : \mathbf{B}O \to \mathbf{B}GL(n)$
 
 $$
   O Struc_{TX}(X) \simeq \mathbf{H}_{/\mathbf{B}GL(n)}(T X, \mathbf{c})
@@ -341,9 +348,16 @@ $$
 
 We may further lift this discussion to [[differential cohomology]] to get genuine _differential_ $T X$-twisted $\mathbf{c}$-structures. 
 
-Write $\mathbf{B}G_{conn}$ for [[groupoid of Lie-algebra valued forms]], the [[moduli stack]] of $G$-[[connection on a bundle|connections]].
+Write $\mathbf{B}G_{conn}$ for [[groupoid of Lie-algebra valued forms]]. As an object of $\mathbf{H} = $ [[smooth infinity-groupoid|SmoothGrpd]] this the [[moduli stack]] of $G$-[[connection on a bundle|connections]].
 
-We have a fiber sequence
+The morphism $\mathbf{c}$ has an evident differential refinement
+
+$$
+  \mathbf{c}_{conn} : \mathbf{B}O(n)_{conn} \to \mathbf{B}GL(n)_{conn}
+  \,.
+$$
+
+The [[homotopy fiber]] of this differential refinement is still the same as before
 
 $$
   \array{
@@ -353,43 +367,108 @@ $$
     \\
     && \mathbf{B} GL(n)_{conn}
   }
+  \,,
 $$
 
-Given now an [[affine connection]]
+so that the moduli space of "differential vielbein fields" is the same as that of plain vielbein fields.
+
+Consider an [[affine connection]]
 
 $$
   \nabla_{T X} : X \to \mathbf{B}GL(n)
 $$
 
-with local components the [[Christoffel symbols]] 
+hence a $GL(n)$-[[principal connection]] which locally on out atas is given by the [[Christoffel symbols]] 
 
-$\Gamma_i = (\Gamma_i)_\mu{}{}^{\alpha}{}_\beta$
+$$
+  \Gamma_i = ((\Gamma_i)_\mu{}{}^{\alpha}{}_\beta)
+  \in 
+  \Omega^1(U_i, \mathfrak{gl}(n))
+  \,.
+$$
 
-A lift in 
+A lift $(\nabla_V, E)$ in 
 
 $$
   \array{
-    X &&\stackrel{\nabla_{E}}{\to}&& \mathbf{B}O_{conn}
+    X &&\stackrel{\nabla_{V}}{\to}&& \mathbf{B}O_{conn}
     \\
     & {}_{\mathllap{\nabla_{T X}}}\searrow 
-     &\swArrow_{E}& 
+     &\swArrow_{E^{-1}}& 
     \swarrow_{\mathbf{c}_{conn}}
     \\
     && \mathbf{B}GL(n)_{conn}
   }
 $$
 
-$$
-  \omega_\mu = E^{-1} d E + E^{-1} \Gamma_\mu E
-$$
+is in components
 
-$$
-  \omega_\mu{}^a{}_b 
-    = 
-   E^a{}_\nu \partial_\mu E^\nu{}_b
-   +
-   E^a{}_\nu \Gamma_\mu{}^\nu{}_\lambda E^\lambda{}_b
-$$
+
+1. a "[[spin connection]]"
+
+   $$
+     \omega_\mu = E d E^{-1} + E \Gamma_\mu E^{-1}
+   $$
+
+   $$
+     \omega_\mu{}^a{}_b 
+      = 
+      E^a{}_\nu \partial_\mu E^\nu{}_b
+      +
+      E^a{}_\nu \Gamma_\mu{}^\nu{}_\lambda E^\lambda{}_b
+      \,.
+   $$
+
+This is the standard formula for the relation between the [[Christoffel symbols]] and the [[spin connection]] in terms of the vielbein.
+
+### Generalized vielbein fields
+
+The above discussion seamlessly generalizes to many other related cases. For instance
+
+1. For the coefficient bundle
+
+   $$
+     \array{
+        O(n)\backslash O(n,n) /O(n) &\to& \mathbf{B} (O(n) \times O(n))
+      \\
+      && \downarrow
+      \\
+      && \mathbf{B}O(n,n)
+     }
+   $$
+
+   one gets the [[generalized vielbein]] of [[type II geometry]];
+
+1. for the coefficient bundle
+
+   $$
+     \array{
+        H_n\backslash E_n &\to& \mathbf{B} H_n
+      \\
+      && \downarrow
+      \\
+      && \mathbf{B} E_n
+     }
+   $$
+
+   coming from the inclusion of the [[maximal compact subgroup]] of an [[exceptional Lie group]] one gets generalized vielbein fields for [[exceptional generalized geometry]];
+
+1. for the coefficient bundle
+
+   $$
+     \array{
+       && \mathbf{B} E_8
+      \\
+      && \downarrow^{\mathbf{a}}
+      \\
+      && \mathbf{B}^3 U(1)
+     }
+   $$
+
+   coming from the second smooth universal [[Chern class]] of [[E8]] one gets part of the geometry of the [[supergravity C-field]]
+
+and so on. More examples are discussed for instance at 
+_[[twisted smooth cohomology in string theory]]_.
 
 
 ## Related concepts
