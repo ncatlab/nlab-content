@@ -134,5 +134,11 @@ $$
 
 * [[cup product]]
 
+## References
+
+Lecture notes include for instance
+
+* Patrick Morandi, _Ext Groups and Ext Functors_ ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
+
 [[!redirects Baer sums]]
 [[!redirects Baer's sum]]
