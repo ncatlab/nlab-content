@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
 =--
 =--
 
@@ -15,6 +19,8 @@
 {:toc}
 
 ## Idea
+
+String field theory is supposed to be something like a  [[quantum field theory]] which is the [[second quantization]] of the [[string]] in [[string theory]].
 
 Recall that [[string theory|perturbative string theory]] is a higher dimensional version of the Feynman perturbation series in [[quantum field theory]]. This Feynman perturbation series may be understood as computing the path integral over the Lagrangian of the given quantum field theory. _String field theory_ is the attempt to identify this Lagrangian description corresponding to the string perturbation series.
 
@@ -48,13 +54,15 @@ The shortcoming of the current development of string field theory can probably b
 
 Closed string field theory is governed by an [[L-infinity algebra]] of interactions, open string field theory by an [[A-infinity algebra]] and open-closed string field theory by a mixture of both: an [[open-closed homotopy algebra]].
 
-In fact the [[action functional]] of closed string field theory is a kind of [[schreiber:infinity-Chern-Simons theory]] functional, but over an "odd 3-dimensional space" (of [[BV-BRST complex|BRST-ghosts]]) 
 
 ## Definition
 
-So far string field theory is defined in terms of an [[action functional]]. So, strictly speaking, it is defined as a [[classical field theory]] whose [[quantization]] is to be considered.
+So far string field theory is defined in terms of an [[action functional]]. So, strictly speaking, it is defined as a [[classical field theory]]. The corresponding [[BV-BRST formalism|quantum master action]] is known, but apart from that not much detail about the [[quantization]] of this action has been considered in the literature.
 
-The [[configuration space]] is the [[BRST complex]] of the closed ([[superstring|super]]-)[[string]]. We shall write $\mathfrak{g}$ for that. 
+
+### The interaction terms
+
+The unrestricted [[configuration space]] of string field theory is the [[BRST complex]] of the closed ([[superstring|super]]-)[[string]]. We shall write $\mathfrak{g}$ for that. 
 
 This is equipped for each $k \in \mathbb{N}$ with a $k$-ary operation
 
@@ -62,7 +70,23 @@ $$
   [-,\cdots,-]_k : \mathfrak{g}^{\otimes k} \to \mathfrak{g}
 $$
 
-given by the [[correlator|(k+1)-point function]] of the string (the amplitude for $k$ closed strings coming in and merging into a single outgoing string). For $k = 1$ this is the [[BRST complex|BRST operator]].
+given by the [[correlator|(k+1)-point function]] of the string (the amplitude for $k$ closed strings coming in and merging into a single outgoing string). For $k = 1$ this is the [[BRST complex|BRST operator]]
+
+$$
+  [-]_1 = d_{BRST}
+  \,.
+$$
+
+These operations are graded-symmetric: for all $\{\Psi_j\}$ of homogeneous degree $deg \Psi_j$ and for all $0 \leq i \lt k$ we have
+
+$$
+  [\Psi_1 , \cdots, \Psi_i, \Psi_{i+1}, \cdots, \Psi_k]_k
+  =
+  (-1)^{(deg \Psi_i)(deg \Psi_{i+1})}
+  [\Psi_1 , \cdots, \Psi_{i+1}, \Psi_{i}, \cdots, \Psi_k]_k .
+$$
+
+([Zwiebach, (4.4)](#Zwiebach)).
 
 Moreover, there is a bilinear [[inner product]]
 
@@ -70,19 +94,100 @@ $$
   \langle -,- \rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{C}
 $$
 
-given by pairing of states.
+coming from the [[Hilbert space]] inner product of string states. This satisfies for all $\Psi_1, \Psi_2$ of homogeneous degree the relation
 
-The _[[action functional]]_ of closed string field theory is of the form
+$$
+  \langle \Psi_1 , \psi_2 \rangle
+  = 
+  (-1)^{(deg \Psi_1 + 1) (deg \Psi_2 + 1)}
+  \langle \Psi_2, \Psi_1 \rangle
+$$
+
+([Zwiebach, (2.50)](#Zwiebach)).
+
+
+From this one constructs the $(n+1)$-point functions
+
+$$
+  \{ \Psi_0, \Psi_1, \cdots, \Psi_k \}
+  :=
+  \langle \Psi_0, [\Psi_1, \cdots, \Psi_k]_k \rangle
+  \,.
+$$
+
+These are still graded-symmetric in all arguments: for all $\{\Psi_j\}$ of homogeneous degree $deg \Psi_j$ and all $0 \leq i \lt k$ we have
+
+$$
+  \{\Psi_0, \cdots, \Psi_i, \Psi_{i+1}, \cdots, \Psi_k\}
+  = 
+  (-1)^{(deg \Psi_i)(deg \Psi_{i+1})}
+  \{\Psi_0, \cdots, \Psi_{i+1}, \Psi_{i}, \cdots, \Psi_k\}
+  \,.
+$$
+
+([Zwiebach, (4.36)](#Zwiebach)).
+
+
+### The action functional
+
+The proper [[configuration space]] of string field theory is the sub-complex of the [[BRST complex]] of the closed ([[superstring|super]]-)[[string]] on those elements $\Psi$ for which
+
+1. $(b_0 - \bar b_0) \vert\Psi\rangle = 0$;
+
+1. $(L_0 - \bar L_0) \vert \Psi \rangle = 0$ ("level matching condition");
+
+1. $\vert \Psi \rangle^\dagger = - (\langle \Psi \vert)$ ("reality");
+
+1. $\vert \Psi$ is Grassmann even (...define...)
+
+1. $ghostnumber \vert \Psi \rangle = 2$. 
+
+([Zwiebach, (3.9)](#Zwiebach))
+
+
+The _[[action functional]]_ of closed string field theory is 
 
 $$
   S : \Psi 
    \mapsto 
    \sum_{k = 1}^\infty
+   \frac{1}{(k+1)!}
    \langle \Psi, [\Psi, \cdots, \Psi]_k\rangle
   \,.
 $$
 
-One finds that $(\mathfrak{g}, \{[-,\cdots,-]_k\})$ is an [[L-infinity algebra]] (see the references [below](ReferencesHomotopyAlgebra)) equipped with an [[invariant polynomial]] $\langle -,-\rangle$. The above action functional is of the form of [[schreiber:infinity-Chern-Simons theory]] for this input data.
+([Zwiebach, (4.41)](#Zwiebach))
+
+
+Since $[-]_1 = d_{BRST}$ is the [[BRST complex|BRST operator]] this starts out as
+
+$$
+  S : \Psi 
+  = 
+  \frac{1}{2}\langle \Psi d_{BRST} \Psi \rangle
+  + 
+  \frac{1}{3} \langle \Psi, [\Psi, \Psi]_2\rangle
+  + 
+  \cdots
+  \,.
+$$
+
+### As an $\infty$-Chern-Simons theory
+
+One finds that $(\mathfrak{g}, \{[-,\cdots,-]_k\})$ is an [[L-infinity algebra]] (see the references [below](ReferencesHomotopyAlgebra)) equipped with an [[invariant polynomial]] $\langle -,-\rangle$. 
+
+From the discussion at [[Chern-Simons element]] in the section [Canonical Chern-Simons element](http://ncatlab.org/nlab/show/Chern-Simons+element#CanonicalChernSimonsElement) we have that the [[Lagrangian]] of the [[schreiber:infinity-Chern-Simons theory]] defined by the data $(\mathfrak{g}, \langle \rangle)$ is
+
+$$
+  L : A \mapsto 
+  \langle A,  d A\rangle
+  + 
+  \sum_{k = 1}^\infty
+  \frac{2}{(k+1)!}
+  \langle A , [A, \cdots , A]_k\rangle
+$$
+
+or $A$ a $\mathfrak{g}$-[[infinity-Lie algebroid valued differential form|valued differential form]] on some $\Sigma$. So the closed string field theory action looks like that of $\infty$-Chern-Simons theory over an odd-graded $\Sigma$.
 
 ## References
 
@@ -95,6 +200,7 @@ Original articles are
 * [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
 
 * [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+  {#Zwiebach}
 
 Reviews and introductions include
 
@@ -111,7 +217,8 @@ Reviews and introductions include
 
 The [[L-infinity algebra]] structure in closed string field theory was first noticed in 
 
-* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33
+* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+
 
 The [[A-infinity algebra]] structure of open string field theory in 
 
