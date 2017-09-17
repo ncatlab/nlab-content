@@ -339,6 +339,11 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
   [[fundamental infinity-groupoid|singular simplicial complex]] functor
   and the realization is ordinary [[geometric realization]].
 
+
+## Related concepts
+
+* [[adjoint triple]], [[adjoint quadruple]]
+
 ## References
 
 A video of a pedagogical introduction to adjoint functors is provided by
