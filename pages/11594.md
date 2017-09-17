@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[type II superstring theory]] the degree-1 [[RR-charge]] is that of a [[D-brane]] with 0-dimensional [[worldvolume]], hence a "$(-1)$-brane" or "D-instanton".
+
+The RR-potenzial $C_0$ combines with the [[dilaton]] to the [[axio-dilaton]].
+
+## Related entries
+
+[[!include table of branes]]
+
+## References
+
+* G.W. Gibbons, M.B. Green and M.J. Perry, Phys. Lett. B370 (1996) 231; 
+
+* S.S. Gubser, A. Hashimoto, I.R. Klebanov and J.M. Maldacena, Nucl. Phys. B472 (1996) 231.
+
+[[!redirects D(-1)-branes]]
+
+[[!redirects D-instanton]]
+[[!redirects D-instantons]]
