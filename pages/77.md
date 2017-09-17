@@ -90,6 +90,8 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
   * [[∞-Lie algebra]]
 
+    * [[simplicial Lie algebra]]
+
   * [[∞-Lie algebroid]]
 
 
@@ -108,6 +110,8 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 * [[Poincare Lie algebra]]
 
 * [[super Poincare Lie algebra]]
+
+
 
 ## References
 
