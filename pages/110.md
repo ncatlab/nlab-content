@@ -1,4 +1,4 @@
-A morphism is what goes between [[object|objects]] in a [[category]].  
+A **morphism** is what goes between [[object|objects]] in a [[category]].  
 
 Given two objects in a category, say $x$ and $y$, there is a set $hom(x,y)$, called a [[hom-set]], whose elements are morphisms from $x$ to $y$.  Given a morphism $f$ in this hom-set, we write $f:x \to y$ to indicate that it goes from $x$ to $y$.
 
