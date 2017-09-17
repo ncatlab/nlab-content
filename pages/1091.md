@@ -105,7 +105,7 @@ In the case $Y = *$ is the  [[terminal object]], the base change geometric morph
 
 ## Applications
 
-Base change geoemtric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
+Base change geometric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
 
 ## References
 
