@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[semisimple Lie algebra]] $\mathfrak{g}$ is _compact_ is its [[Killing form]]  $\langle -,-\rangle : \mathfrak{g} \otimes \mathfrak{g}$  is a negative definite [[bilinear form]].
+A [[semisimple Lie algebra]] $\mathfrak{g}$ is _compact_ if its [[Killing form]]  $\langle -,-\rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{R}$  is a negative definite [[bilinear form]].
 
 ## Properties
 
