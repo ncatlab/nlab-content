@@ -1,3 +1,7 @@
+[[!redirects Rosebrugh]]
 Bob Rosebrugh is a category theorist, based in New Brunswick, Canada.
 
 [webpage](http://www.mta.ca/~rrosebru/)
+
+
+[[!redirects Rosebrugh]]
