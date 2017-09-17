@@ -43,3 +43,6 @@ One should beware that in [[Categories Work]], a more restrictive notion of "cre
 [[!redirects created colimit]]
 [[!redirects created colimits]]
 [[!redirects creation of colimits]]
+
+[[!redirects creates limits]]
+[[!redirects creates colimits]]
