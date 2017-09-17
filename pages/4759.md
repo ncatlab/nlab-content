@@ -46,6 +46,7 @@ The analogous classes for the [[orthogonal group]] are the [[Pontryagin class]]e
 
 * [[Chern character]]
 
+In [[Yang-Mills theory]] field configurations with non-vanishing second Chern-class (and minimal energy) are called [[instanton]]s. The second Chern class is the _instanton number_ .
 
 ## References
 
