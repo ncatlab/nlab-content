@@ -6,8 +6,14 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
 =--
 =--
+=--
+
+
 
 # Contents 
 * table of contents 
