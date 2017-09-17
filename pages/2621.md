@@ -96,7 +96,13 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 (relation to [[gauge theory]] and [[QED]])
 
+### In BV-BRST formalism
 
+Perturbative quantization in [[BV-BRST formalism]] is nicely systematically discussed in section 5 of 
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in quantum field theory_ ([pdf](http://www.math.northwestern.edu/~costello/factorization.pdf))
+
+in the broad context of [[factorization algebras]].
 
 [[!redirects Feynman perturbation series]]
 [[!redirects perturbation series]]
