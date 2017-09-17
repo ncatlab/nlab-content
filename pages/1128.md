@@ -1,4 +1,21 @@
-#Definition#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 In a [[additive category]] [[category with translation|with translation]] $T : C \to C$ a **complex** is a [[differential object]]
 
@@ -14,7 +31,7 @@ $$
 
 is the [[zero morphism]].
 
-#Examples#
+## Examples
 
 * A complex in the category $Gr(A)$ of [[graded object]]s in an additive category $C$ is called a [[chain complex]].
 
