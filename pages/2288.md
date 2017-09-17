@@ -26,17 +26,18 @@ To every [[(∞,1)-category]] is associated its corresponding [[stable (∞,1)-c
 
 A tool of major importance in stable homotopy theory and its application to [[higher algebra]] is the [[symmetric monoidal smash product of spectra]] which allows us to describe [[A-∞ ring]]s and [[E-∞ ring]]s as ordinary [[monoid]] objects in a [[model category]] that presents $Sp(Top)$.
 
-## Variations
 
-When the spaces and spectra in question carry an [[action]] of a [[group]] $G$ the theory refines to 
-
-* [[equivariant stable homotopy theory]] .
 
 ## Related concepts
 
 * [[S-theory]]
 
 * [[noncommutative stable homotopy theory]]
+
+
+When the spaces and spectra in question carry an [[infinity-action]] of a [[group]] $G$ the theory refines to 
+
+* [[equivariant stable homotopy theory]], [[global equivariant stable homotopy theory]].
 
 ## References
 
