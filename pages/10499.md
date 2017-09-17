@@ -341,7 +341,7 @@ $$
 
 $$
   \array{
-    &&  localization\;away\;\mathfrak{a} && \stackrel{}{\longrightarrow} && 
+    &&  localization\;away\;\mathfrak{a} && \stackrel{}{\longrightarrow} && \mathfrak{a}\;residual
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
