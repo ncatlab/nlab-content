@@ -9,14 +9,16 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A formulation of [[topology]] not based on the notion of [[topological space]] as a _[[set]]_ -- of points -- equipped with extra structure. For instance in [[locale|locale theory]] it is instead the collection of [[open subsets]] that is taken as the fundamental notion.
+Pointless topology is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  Note that pointless topology *has* points, but they are not fundamental; and [[space]] may well have no points and yet be far from [[empty space|empty]].
+
+In [[locale theory]], for example, one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion.  In [[formal topology]], one studies a set of *[[base for a topology|basic]]* open subspaces (with the extra structure of a [[posite]] with [[positivity predicate|positivity]]).  A locale is still a set with [[extra stuff]], but even this fails for formal topologies.
+
 
 ## References
 
