@@ -197,13 +197,13 @@ where we sum over all ways of breaking up a finite set $S$ into $k$ blocks, some
 
 $$(F \circ G)[n] = \sum_k F[k] \otimes_{S_k} (\sum_{[n] = T_1 + \ldots + T_k} G[|T_1|] \times \ldots \times G [|T_k|]),$$ 
 
-and it is clear from our discussion above that substitution is a monoidal product. 
+and it is clear from our discussion above that substitution is a monoidal product. The monoidal unit $I$ is a functor $\mathbb{P}^{op} \to Set$ where $I[n]$ is terminal if $n = 1$, else is initial. 
 
 ### Definition as monoid 
 
 We are at last ready for the one-sentence **definition**: 
 
-A ($Set$-based) **operad** is a [[monoid]] in the [[monoidal category]] $(Psh(\mathbb{P}), \circ)$. 
+A ($Set$-based) **operad** is a [[monoid]] in the [[monoidal category]] $(Psh(\mathbb{P}), \circ, I)$. 
 
 ### Remarks 
 
@@ -219,7 +219,46 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 
 ## The monad attached to an operad 
 
-...
+Each $Set$-based operad $M$ gives rise to a monad $\hat{M}$ on $Set$. Specifically, the monoidal category $Psh(\mathbb{P}, \circ)$ acts on $Set$ in such a way to give an [[actegory]] structure, and therefore an operad or $\circ$-monoid gives rise to a monad on $Set$. 
+
+Here are the details. There is a strong [[monoidal functor]] 
+
+$$i: (Set, \times) \to (Psh(\mathbb{P}), \circ)$$ 
+
+which as a functor sends a set $X$ to the functor
+
+$$\hat{X}: \mathbb{P}^{op} \to Set$$ 
+
+taking $[n]$ to $X$ if $n = 0$, else to $0$. This functor is full and faithful; conceptually, it treats a set $X$ as giving a set of 0-ary operations or constants indexed by itself. Notice that the composite 
+
+$$Psh(\mathbb{P}) \times Set \stackrel{1 \times i}{\to} Psh(\mathbb{P}) \times Psh(\mathbb{P}) \stackrel{\circ}{\to} Psh(\mathbb{P})$$ 
+
+factors through $Set$ (conceptually, when one applies a formal operation to constants, the result is again a constant). This gives an action
+
+$$Psh(\mathbb{P}) \times Set \to Set$$ 
+
+for an actegory structure; as it is the restriction of the substitution product $\circ$ along the inclusion $i$ in the second argument, we again denote it $\circ$, by abuse of notation. Given $F: \mathbb{P}^{op} \to Set$ and a set $X$, we have 
+
+$$F \circ X \cong \sum_{k \geq 0} F(k) \otimes_{S_k} X^k$$ 
+
+and given $G: \mathbb{P}^{op} \to Set$, we also have coherent natural isomorphisms $(F \circ G) \circ X \cong F \circ (G \circ X)$, $I \circ X \cong X$. 
+
++-- {: .un_def} 
+######Definition 
+The **monad** associated with an operad $(M, m: M \circ M \to M, u: I \to M)$ is the functor $\hat{M}: Set \to Set$ taking $X$ to $M \circ X$, equipped with natural transformations 
+
+$$\hat{M} \hat{M} X = M \circ (M \circ X) \cong (M \circ M) \circ X \stackrel{m \circ X}{\to} M \circ X = \hat{M} X$$ 
+
+[ ] 
+
+$$X \cong I \circ X \stackrel{u \circ X}{\to} M \circ X = \hat{M} X$$ 
+
+which provide $\hat{M}$ with the structure of a monad. 
+=-- 
+
+This definition of the associated monad carries over with ease to the enriched case, and to variants such as nonpermutative operads, braided operads, and cartesian operads (Lawvere theories). 
+
+Notice that an algebra for the operad $\hat{M}$ is a set $X$ equipped with a structure map $\alpha: M \circ X \to X$ which makes $i(X)$ a [[module]] over the monoid $M$ in the monoidal category $Psh(\mathbb{P})$. 
 
 ## Examples 
 
