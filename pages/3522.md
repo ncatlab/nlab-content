@@ -11,6 +11,174 @@ We may think of this operation as the analog of _linearizing_ a space. Turning a
 
 This is what Goodwillie calculus studies.
 
+
+### Analogy between homotopy theory and calculus {#Analogy}
+
+Here is an overview of the relation between [[homotopy theory]]/[[∞-groupoid]] theory and [[algebraic approaches to differential calculus|differential calculus]] that is the starting point for Goodwillie calculus. 
+
+> based on a message by [[André Joyal]] to the Category Theory Mailing list, May 12, 2010
+
+Write $k[ [x] ]$ for the [[ring]] of [[formal power series]] in one
+variable over a [[field]] $k$. The ring $k[ [x] ]$ bears some ressemblances
+with the category of [[pointed object|pointed]] [[homotopy type]]s (= pointed spaces up to [[weak homotopy equivalence]]s). The category of pointed
+homotopy types is a ring (the product is the [[smash product]]
+and the sum is the [[wedge]]).
+
+
+The following disctionary indicates what the correspondence between the two subjects is.
+
+* $k$ $\stackrel{corresponds to}{\mapsto}$ the category of [[pointed set]]s;
+
+* $k[ [x] ]$ 
+  $\mapsto$ 
+  the category of pointed [[homotopy type]]s;
+
+* $x$ $\mapsto$ the pointed circle;
+
+* the augmentation $(k[ [x] ] \to k)$ 
+  $\mapsto$ 
+  the [[homotopy group|connected components functor]] 
+  $\pi_0$ :  pointed homotopy types $\to$ pointed sets
+
+* the augmentation ideal $J$
+  $\mapsto$
+  the [[subcategory]] of pointed [[connected]] spaces;
+
+* the $n+1$ power of the augmentation ideal 
+  $J^{n+1}$
+  $\mapsto$
+  the subcategory of pointed $n$-[[connected]] spaces;
+
+* the product of an element in $J^{n+1}$ 
+  with an element of $J^{m+1}$ is an element of 
+  $J^{n+m+2}$
+  $\mapsto$
+  the [[smash product]] of an $n$-[[connected]] space 
+  with a $m$-connected space is $(n+m+1)$-connected;
+
+* multiplication by $x$ $\mapsto$ the [[suspension]] functor.
+
+* division by $x$ $\mapsto$ the [[loop space]] functor;
+
+  Notice here the difference: the loop functor is 
+  [[right adjoint]] to the suspension functor, not its [[inverse]]. 
+  Moreover, the loop space of a space has a special structure 
+  (it is a [[group object in an (infinity,1)-category|group]]).
+
+* the ideal $J=x k[ [x] ]$ is [[isomorphism|isomorphic]] 
+  to $k[ [x] ]$ via division by $x$
+  $\mapsto$
+  similarly, the category of pointed connected spaces is equivalent 
+  to the category of topological groups via the loop space 
+  functor (it is actually an [[Quillen equivalence]] 
+  of [[model categories]]).
+
+* More generally, the ideal $J^{n+1}$ is isomorphic to 
+  $k[ [x] ]$ via division by $x^{n+1}$.
+  $\mapsto$
+  similarly, the category of $n$-connected spaces is 
+  equivalent to the category of $(n+1)$-fold 
+  [[topological group]]s 
+  (it is actually an [[Quillen equivalence]] of 
+  [[model categories]]) via the $(n+1)$-fold loop space functor.
+
+* the quotient ring $k[ [x] ]/J^{n+1}$ $\mapsto$
+  the category of $n$-truncated homotopy types 
+  (=[[homotopy n-type]]s)
+
+* The sequence of approximations of a 
+  formal power series $f(x)=a_0+a_1x+ \cdots $
+
+  $a_0$
+
+  $a_0+a_1 x$
+
+  $a_0+a_1 x + a_2 x^2$
+
+  $\cdots$
+
+  $\mapsto$
+
+  the [[Postnikov tower]] of a pointed homotopy type $X$:
+
+  $[\pi_0(X)]$
+
+  $[\pi_0(X); \pi_1(X)]$
+
+  $[\pi_0(X); \pi_1(X); \pi_2(X)]$
+
+  $\cdots$
+
+  Here, $\pi_0(X)$ is the set of connected components of 
+  $X$, $[\pi_0(X); \pi_1(X)]$ is the [[fundamental groupoid]] 
+  of $X$,
+  $[\pi_0(X); \pi_1(X); \pi_2(X)]$
+  is the fundamental 2-groupoid of $X$, etc.
+
+
+* The differences between $f(x)$ and its successives approximations
+
+  $$
+   \begin{aligned}
+     R_0 = f(x)-a_0  &= a_1 x+a_2 x^2+a_3 x^3+ \cdots
+     \\
+     R_1 = f(x)-(a_0+a_1 x) &= a_2 x^2 + a_3 x^3 + a_4 x^4+ \cdots
+     \\
+     R_2 = f(x)-(a_0+a_1x+a_2x^2) &= a_3 x^3 + a_4 x^4 + a_5 x^5 +\cdots
+   \end{aligned}
+  $$
+
+  $\mapsto$
+  
+  the [[Whitehead tower]] of $X$,
+
+  $C_0=[0;\pi_1(X), \pi_2(X), \pi_3(X), \cdots]$
+
+  $C_1=[0;0, \pi_2(X), \pi_3(X), \cdots]$
+
+  $C_2=[0;0, 0, \pi_3(X), \cdots]$
+
+  Here, $C_0$ is the connected component of $X$ at the base point,
+  $C_1$ is the [[universal cover]] of $X$ constructed by from 
+  paths starting at the base point,
+  $C_2$ is the universal 2-cover of $X$ 
+  constructed from paths starting the base point, etc.
+
+* Division by $x$ is shifting down the coefficients of a 
+  power series.
+
+  If $f(x)=a_1 x+a_2 x^2 + \cdots$, 
+  then $f(x)/x= a_1+a_1 x^2+ \cdots $
+
+  Similarly, the loop space functor is shifting down 
+  the homotopy groups
+  of a pointed space: 
+
+  if $X=[a_0,a_1,a_2,...]$ then $\Omega(X)=[a_1,a_2,....]$.
+
+  Unfortunately, the [[suspension]] functor does not shift 
+  up the [[homotopy group]]s of a space. It is however shifting 
+  the first $2n$ homotopy groups of an $n$-connected space $X$ 
+  $(n \geq 1)$ by the
+  [[Freudenthal suspension theorem]]
+
+  For example, if $X=[0;0,a_2, a_3,...]$ then 
+  $\Sigma X=[0;0,0,a_2,b_3...]$,
+  and if $X=[0;0,0, a_3, a_4, a_5,...]$ then 
+  $\Sigma X=[0;0,0, 0, a_3, a_4, b_5,...]$.
+
+  In other words, the canonical map $X \to \Omega X$
+  is a $2n$-equivalence if $X$ is $n$-[[connected]] 
+  $(n \geq 1)$.
+  If $X[2n]$ denotes the $2n$-type of $X$ 
+  (the $2n$-[[truncated|truncation]] of $X$),
+  then we have a [[homotopy equivalence]]
+
+  $X[2n]  \to \Omega \Sigma X[2n] \simeq \Omega \Sigma X[2n+1]$.
+
+
+...
+
 ## References
 
 An introductory article is
