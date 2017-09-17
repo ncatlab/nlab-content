@@ -219,10 +219,15 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### B3.2 Diaconescu's theorem
 
+* [[torsor]], [[principal bundle]]
+
 * [[Diaconescu's theorem]]
 
 * [[Sierpinski topos]]
 
+#### B3.3 Giraud's theorem
+
+* [[Giraud's theorem]]
 
 ## C Toposes as Spaces
 
