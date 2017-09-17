@@ -681,3 +681,5 @@ Here are some slides from talks:
 
 [[!redirects Chern-Simons bundle 2-gerbe]]
 
+[[!redirects Chern-Simons circle 3-bundle with connection]]
+
