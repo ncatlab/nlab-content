@@ -1481,7 +1481,7 @@ In higher analogy to this but much more subtly, the [[partition function]] of th
 
 The general perspective of the [[path integral as a pull-push transform]] was originally laid out, somewhat implicitly, in
 
-* [[Dan Freed]]
+* [[Daniel Freed]]
 
   * _Quantum groups from path integrals_ ([arXiv:q-alg/9501025](http://xxx.lanl.gov/abs/q-alg/9501025))
 
@@ -1489,7 +1489,7 @@ The general perspective of the [[path integral as a pull-push transform]] was or
 
 and then fully explicitly in
 
-* [[Dan Freed]], _Twisted K-theory and the Verlinde ring_, Andrejewski lecture ([pdf slides](http://www.ma.utexas.edu/users/dafr/Andrejewski%20Lectures.html))
+* [[Daniel Freed]], _Twisted K-theory and the Verlinde ring_, Andrejewski lecture ([pdf slides](http://www.ma.utexas.edu/users/dafr/Andrejewski%20Lectures.html))
 
 Detailed discussion along these lines of a pull-push quantization over [[KU]] of a 2-dimensional [[Chern-Simons theory]]-like [[gauge theory]] is in 
 
@@ -1527,7 +1527,7 @@ The description of [[string topology]] operations as an [[HQFT]] defined by pull
 * Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv:0706.1276](http://arxiv.org/abs/0706.1276))
  {#Tamanoi07}
 
-A detailed discussion and generalization to the open-closed [[HQFT]] in the presence of a single space-filling [[brane]] is in
+A detailed discussion and generalization to [[open strings]] and an open-closed [[HQFT]] in the presence of a single space-filling [[brane]] is in
 
 * [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
  {#Godin}
@@ -1567,7 +1567,7 @@ Geometry]]_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966,
 
 Linearization of [[higher correspondences]] of [[discrete ∞-groupoids]] as the quantizaton of [[∞-Dijkgraaf-Witten theories]] is indicated in section 3 and 8 of 
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]], in P. Kotiuga (ed.), _A Celebration of the Mathematical Legacy of Raoul Bott,  AMS, (2010) ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
+* [[Daniel Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]], in P. Kotiuga (ed.), _A Celebration of the Mathematical Legacy of Raoul Bott,  AMS, (2010) ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
  {#FreedHopkinsLurieTeleman09}
 
 and in 
