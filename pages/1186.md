@@ -102,7 +102,7 @@ That $C$ is locally presentable is equivalent to each of the following character
 
   there exists a small $(\infty,1)$-category $D$ and a functor $f: PSh(D) \to C$ from the [[(infinity,1)-presheaf|(∞,1)-category of (∞,1)-presheaves]] on $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
-  * (if in addition $f$ is left [[exact functor|exact]] then $C$ is an [[(∞,1)-category of (∞,1)-sheaves]] on $C$)
+  * (if in addition $f$ is left [[exact functor|exact]] then $C$ is an [[(∞,1)-category of (∞,1)-sheaves]] on $D$)
 
 
 * there exists a [[combinatorial simplicial model category]] $A$ and (with $C$ incarnated as a [[quasi-category]]) an equivalence $ C \simeq N(A^\circ)$ of $C$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on fibrant and cofirant objects.
