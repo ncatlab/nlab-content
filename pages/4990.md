@@ -122,9 +122,9 @@ and
 
   * [[totally connected site]] / [[totally ∞-connected site]]
 
-* [[local site]]
+* [[local site]] / [[∞-local site]]
 
-* [[cohesive site]], [[(∞,1)-cohesive site]]
+* [[cohesive site]] / [[∞-cohesive site]]
 
 
 [[!redirects locally connected sites]]
