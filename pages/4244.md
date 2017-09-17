@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 An $n$-dimensional Calabi-Yau variety is an $n$-dimensional [[Kähler manifold]] with (holomorphically, rather than topologically) trivial [[canonical bundle]]. This is equivalent to having $SU(N)$-[[holonomy]]. 
 
 For compact Kaehler manifolds, Yau's theorem (also known as the Calabi conjecture) implies that the above conditions are also equivalent to the vanishing of the first [[Chern class]].
@@ -12,6 +19,11 @@ Note that $c_1(X) = 0$ implies in general that the canonical bundle is *topologi
 The language used in this article is implicitly analytic, rather than algebraic. Is this OK? Or should I make this explicit?
 =--
 
+## Related concepts
+
+* [[Calabi-Yau object]]
+
+  * [[Calabi-Yau algebra]], **Calabi-Yau manifold**
 
 
 [[!redirects Calabi-Yau]]
