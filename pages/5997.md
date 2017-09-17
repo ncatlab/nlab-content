@@ -47,7 +47,7 @@ A [[(-2)-truncated]] [[morphism]] is precisely an [[equivalence in an (∞,1)-ca
 
 Moreover, every morphism is [[(-2)-connected]]. 
 
-Therefore for $n = -2$ the $n$-connected/$n$-truncated factorization system says (only) that equivalences have inverses, unqique up to coherent homotopy.
+Therefore for $n = -2$ the $n$-connected/$n$-truncated factorization system says (only) that equivalences have inverses, unique up to coherent homotopy.
 
 ### The case $n = -1$
 
