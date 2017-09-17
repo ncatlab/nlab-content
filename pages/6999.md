@@ -36,6 +36,10 @@ The dual notion is that of a [[co-concrete object]].
 $\Gamma$ is a [[faithful functor]] on [[morphisms]] whose [[codomain]] is concrete. 
 
 
+## Related concepts
+
+[[!include cohesion - table]]
+
 
 ## References
 
