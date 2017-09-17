@@ -85,18 +85,19 @@ On the other hand, Voevodsky's definition is the only one among these four which
 
 
 ### As homotopy invariant Nisnevich sheaves with transfers (Voevodsky motives)
+ {#VoevodskyMotives}
 
-Associated to a [[Noetherian scheme]] $S$ there is an [[additive category]] $SmCor_S$ of "finite" [[correspondence]]s of [[scheme]]s, whose
+Associated to a [[Noetherian scheme]] $S$ there is an [[additive category]] $SmCor_S$ of "finite" [[correspondences]] of [[schemes]], whose
 
-* [[object]]s are smooth schemes of finite type over $S$;
+* [[objects]] are smooth schemes of finite type over $S$;
 
 * [[morphism]]s $SmCor_S(X,Y)$ are the abelian group of cycles on the [[fiber product]] $X \times_S Y$ that are "universally integral relative to $X$" and each of whose components are finite and and surjective over $X$.
 
-Details are in [MaVoWe, Appendix 1A](#MaVoWe). Associating to a morphism of schemes its graph defines a [[faithful functor]] $Sm/S\hookrightarrow SmCor_S$.
+See at _[[pure motive]]_ for more (see also [MaVoWe, Appendix 1A](#MaVoWe)). Associating to a morphism of schemes its graph defines a [[faithful functor]] $Sm/S\hookrightarrow SmCor_S$.
 
-An **(∞,1)-presheaf with transfers** on the category $Sm/S$ of smooth schemes of finite type is an [[(∞,1)-presheaf]] on $SmCor_S$ which transforms finite sums into finite (∞,1)-products (and hence take values in connective [[chain complexes]]).
+An **(∞,1)-[[presheaf with transfers]]** on the category $Sm/S$ of smooth schemes of finite type is an [[(∞,1)-presheaf]] on $SmCor_S$ which transforms finite sums into finite (∞,1)-products (and hence take values in connective [[chain complexes]]).
 
-The (∞,1)-category $DM^{eff}_{\geq 0}(S)$ is a certain reflexive [[localization]] of the (∞,1)-category of presheaves with transfers: it consists of those presheaves with transfers whose underlying presheaves on $Sm/S$ are [[(∞,1)-sheaves]] for the [[Nisnevich topology]] and are $\mathbb{A}^1$-homotopy invariant. 
+The (∞,1)-category $DM^{eff}_{\geq 0}(S)$ is a certain reflexive [[localization]] of the (∞,1)-category of presheaves with transfers: it consists of those presheaves with transfers whose underlying presheaves on $Sm/S$ are [[(∞,1)-sheaves]] for the [[Nisnevich topology]] and are [[A1-homotopy theory|A1-homotopy invariant]]. 
 
 The **Tate motive** $\mathbb{Z}(1)[2]$ is the image of the pointed scheme $(\mathbb{P}^1,\infty)$ in $DM^{eff}_{\geq 0}(S)$.
 
