@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## In algebra and analysis
+
+In [[algebra]] and [[analysis]] a _coefficient_ is an element of a [[ring]] $R$ (a [[number]]) which multiplies another fixed element. For instance for [[polynomial]] $\sum_n a_n x^n $ over $R$ in a [[variable]] $x$, the $a_n \in R$ are the coefficients of $x^n$.
+
+## In cohomology and homology
+
+In [[cohomology]] _coefficients_ are what the cohomology takes values in. For [[ordinary cohomology]] $H^\bullet(-,A)$ the [[abelian group]] $A$ is the _coefficient group_. For [[generalized (Eilenberg-Steenrod) cohomology]] the given [[spectrum]] $E$  that [[Brown representability|represents]] it is the _coefficient spectrum_. Dually for [[homology]]. 
+
+It is this notion of "coefficient" that appears in terms like
+
+* [[universal coefficient theorem]]
+
+* [[local system of coefficients]]
+
+* [[local coefficient bundle]] 
+
+
+category: disambiguation
+
+[[!redirects coefficients]]
