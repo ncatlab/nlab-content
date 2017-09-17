@@ -18,7 +18,9 @@ A basic [[lemma]] in [[homological algebra]].
 
 ## Related concepts
 
-* [[3x3 lemma]], [[5-lemma]]
+* [[3x3 lemma]], [[5-lemma]],
+
+* [[horseshoe lemma]]
 
 ## References
 
