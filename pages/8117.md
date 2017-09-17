@@ -142,7 +142,7 @@ following
 * [[Victor Maslov]], _Theory of Perturbations and Asymptotic Methods (in Russian)_, Moskov.
 Gos. Univ., Moscow, (1965).
 
-observed that, under a transversality assumption, the set-theoretic composition of two [[Lagrangian submanifolds]] is again a Lagrangian submanifold, and that this composition is a "[[classical limit]]" of the composition of certain [[operators]].
+observed that, under a transversality assumption, the set-theoretic composition of two [[Lagrangian submanifolds]] is again a Lagrangian submanifold, and that this composition is a "[[classical limit]]" of the composition of certain [[linear operators]].
 
 
 Shortly thereafter, 
