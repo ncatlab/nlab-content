@@ -16,13 +16,13 @@
 
 ## Definition
 
-An **adjoint quadruple** is a sequence of three [[adjunction]]s
+An **adjoint quadruple** is a sequence of three [[adjunctions]]
 
 $$
   f_! \dashv f^* \dashv f_* \dashv f^!
 $$
 
-between four morphisms.
+between a [[quadruple]] of [[morphisms]].
 
 ## Properties
 
