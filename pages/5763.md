@@ -28,9 +28,28 @@ One thing that is nice about [[Bohrification]] is that it makes the following st
 
 This is essentially a direct re-interpretation of [[Gleason's theorem]]: this theorem says that quantum states on $A$ are already fixed by demanding them to be maps on $A$ that are (positive, normed) linear functions on all commutative subalgebras of $A$. Now, the immediate formalization of a map $A \to \mathbb{C}$ that is required to preserve certain structure on all commutative subalgebras is a fully structure-preserving function, but _internal_ to the [[presheaf topos]] over the comutative subalgebras. That presheaf topos is the "Bohrification" of $A$.
 
-## Definition
+## Outline
 
-### $C^*$-algebras and partial $C^*$-algebras
+The discussion below proceeds in the following steps (following ([Nuiten11](#Nuiten)))
+
+1. [Bohr topos of a quantum mechanics system](#BohrToposOfQMSystem)
+
+   This discusses the Bohr topos incarnation of a [[quantum mechanical system]] -- the topos-theoretic quantum [[phase space]] -- and its [[functor]]ialty.
+
+1. [Kinematics on a Bohr topos](#KinematicsOnBohrTopos)
+
+   This discusses how the classical [[kinematics]] [[internalization|internal to]] a Bohr topos is the external quantum kinematics of the underlying quantum mechanical system.
+
+1. [(Pre-)Sheaf of Bohr toposes of a quantum field theory](#SheafOfBohrToposesOfQFT)
+
+   This discusses how the [[presheaves]] of Bohr toposes obtained by applying Bohrification to a [[local net of observables]] of a [[quantum field theory]].
+
+## Bohr topos of a quantum mechanical system
+ {#BohrToposOfQMSystem}
+
+### Definition
+
+#### $C^*$-algebras and partial $C^*$-algebras
 
 +-- {: .num_defn #PartialCStar}
 ###### Definition
@@ -71,7 +90,7 @@ for its set of [[normal operator]]s. This is naturally a [partial C-star algebra
 
 =--
 
-### The topos over commutative subalgebras
+#### The topos over commutative subalgebras
 
 
 +-- {: .num_defn #PosetOfCommutativeSubalgebras}
@@ -149,7 +168,7 @@ discussed at [[internal locale]].
 
 =--
 
-### Bohrification
+#### Bohrification
 
 +-- {: .num_defn #Bohrification}
 ###### Definition
@@ -170,7 +189,11 @@ is called the **Bohrification** of $A$.
 
 =--
 
-## Properties
+## Kinematics on a Bohr topos
+ {#KinematicsOnBohrTopos}
+
+
+### Properties
 
 ### Identification of the internal locale
 
@@ -326,6 +349,9 @@ that assigns to each [[open subset]] of $X$ regarded as [[spacetime]] an object 
 
 (...)
 
+## (Pre-)Sheaf of Bohr toposes of a quantum field theory
+ {#SheafOfBohrToposesOfQFT}
+
 
 ## References
 
@@ -372,3 +398,4 @@ The application of the [[double negation topology]] to make Bohrification coinic
 The generalization of Bohrification from [[quantum mechanics]] to [[quantum field theory]] ([[AQFT]]) is discussed in
 
 * Joost Nuiten, _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets]]_ 
+ {#Nuiten11}
