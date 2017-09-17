@@ -15,7 +15,7 @@ $$
 
 that in this case happen to be [[strict omega-groupoid]]s. The [[strict omega-groupoid]] $\mathbf{B}^n \mathbb{Z}$ has only [[identity]] $k$-morphisms for all $k$, except for $k = n$, where $\mathrm{Mor}_n(\mathbf{B}^n \mathbb{Z}) = \mathbb{Z}$ are the endomorphisms of the unique identity $(n-1)$-morphism. 
 
-The strict $\infty$-grouopoid $\mathbf{B}^n \mathbb{Z}$ is the one given under the [[Dold-Kan correspondence]] by the [[crossed complex]] of groupoids that is trivial everywhere and has the group $\mathbb{Z}$ in degree $n$.
+The strict $\infty$-groupoid $\mathbf{B}^n \mathbb{Z}$ is the one given under the [[Dold-Kan correspondence]] by the [[crossed complex]] of groupoids that is trivial everywhere and has the group $\mathbb{Z}$ in degree $n$.
 
 $$
   \begin{aligned}
