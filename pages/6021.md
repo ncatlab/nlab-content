@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+## Definition
+
+### For manifolds
+
+For $X$ a [[connected]] [[orientation|oriented]] [[boundary|closed]] [[manifold]], its integral [[homology]] group in degree the [[dimension]] of $X$ is [[isomorphic]] to the [[integer]]s
+
+$$
+  H_{dim X}(X, \mathbb{Z}) \simeq \mathbb{Z}
+  \,.
+$$
+
+The generator of this corresponding to the choice of [[orientation]] is called the **fundamental class** of $X$. 
+
+
+### Virtual fundamental class
+
+(...)
+
+* [[virtual fundamental class]].
