@@ -145,6 +145,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Gyre and Gimble](http://sixwingedseraph.wordpress.com/) (Charles Wells: foundations, categories, computer science)
 
+* [Holomorphusion](http://holomorphusion.wordpress.com) (commutative algebra, algebraic geometry)
+
 * [Hydrobates](http://alanrendall.wordpress.com) (dynamical systems, differential equations, biomedical modelling)
 
 * [Learning Curves](http://learningcurves.blogspot.com) (mathematics education from the perspective of a retiring college professor; may contain vulgar language and expressions of anger)
