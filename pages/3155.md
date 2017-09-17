@@ -38,3 +38,4 @@ category: people
 [[!redirects Dmitri Orlov]]
 [[!redirects D. Orlov]]
 [[!redirects D. O. Orlov]]
+[[!redirects Orlov]]
