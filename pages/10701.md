@@ -109,9 +109,13 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 ## Lecture 2 _Lazard's theorem_ 
 
+* [[Lazard ring]]
+
 * [[Lazard's theorem]]
 
 ## Lecture 3 _Lazard's theorem (continued)_ 
+
+* [[Lazard's theorem]]
 
 ## Lecture 4 _Complex-oriented cohomology theories_ 
 
@@ -133,10 +137,13 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 * [[Adams spectral sequence]]
 
-
 ## Lecture 9 _The Adams spectral sequence for MU_ 
 
+* [[Adams-Novikov spectral sequence]]
+
 ##  Lecture 10 _The proof of Quillen's theorem_ 
+
+* [[Quillen's theorem on MU]]
 
 ## Lecture 11 _Formal groups_ 
 
