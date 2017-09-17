@@ -1,4 +1,16 @@
 
+> See also _[[identity type]]_, _[[unit]]_, _[[equivalence]]_.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Equality and Equivalence
++-- {: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
 # Identity elements
 * table of contents
 {: toc}
