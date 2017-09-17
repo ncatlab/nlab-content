@@ -69,7 +69,7 @@ This is especially common when $S=$ [[Set]], in which case the final condition i
 +-- {: .num_defn #local}
 ###### Definition
 
-A [[sheaf topos]] $\mathcal{T}$ is a **local topos** if the [[global section]] [[geometric morphism]] $\mathcal{T} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}} Set$ has a further [[right adjoint]] functor $(LConst \vdash \Gamma \vdash CoDisc)$
+A [[sheaf topos]] $\mathcal{T}$ is a **local topos** if the [[global section]] [[geometric morphism]] $\mathcal{T} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}} Set$ has a further [[right adjoint]] $CoDisc$, making an [[adjoint triple]]  $(LConst \vdash \Gamma \vdash CoDisc)$
 
 $$
   CoDisc \colon Set \hookrightarrow \mathcal{T}. 
@@ -79,7 +79,7 @@ $$
 
 =-- 
 
-Another way of stating this is that a Grothendieck topos is local if and only if the terminal object $1$ is [[connected object|connected]] and [[projective object|projective]] (since this means precisely that $\Gamma = \hom(1, -)$ preserves colimits, and therefore has a right adjoint by virtue of an [[adjoint functor theorem]]). Another term for this: we say $1$ is _[[tiny object|tiny]]_. 
+Another way of stating this is that a Grothendieck topos is local if and only if the terminal object $1$ is [[connected object|connected]] and [[projective object|projective]] (since this means precisely that $\Gamma = \hom(1, -)$ preserves colimits, and therefore has a right adjoint by virtue of an [[adjoint functor theorem]]). Another term for this: we say $1$ is _[[tiny object|tiny]]_ ([[atomic object|atomic]]). 
 
 ## Properties
 
@@ -545,14 +545,14 @@ Let $LocTopos$ denote the 2-category of local [[Grothendieck toposes]] (over Set
 
 Note that if $E$ is a local topos with global sections geometric morphism $e^*\dashv e_*$, then the adjunction $e_*\dashv e^!$ is also a geometric morphism $Set\to E$.  In this way we have a functor $LocTopos \to PTopos$, which is a full embedding, and turns out to have a [[right adjoint]]: this right adjoint is called the **localization** of a pointed topos at its specified point.  For example:
 
-+-- {: .un_prop #LocalizationOfPresheafTopos}
++-- {: .num_prop #LocalizationOfPresheafTopos}
 ###### Proposition
 
 If $C$ is a [[small category]] and $U$ is an object of $C$, then the localization of the [[presheaf topos]] $[C^{op},Set]$ at the point induced by $U\colon 1\to C$ can be identified with the [[presheaf topos]] $[(C/U)^{op},Set]$ over the [[over category]] of $C$ over $U$. By the general properties of [[over topos]]es, this is equivalently the over-topos $PSh(C)/U$ (where $U$ is regarded in $PSh(C)$ by the [[Yoneda embedding]]).
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 
@@ -563,13 +563,14 @@ If $X=Spec(A)$ is the [[Zariski spectrum]] of a [[commutative ring]] $A$, and $P
 A similar construction is possible for [[bounded geometric morphism|bounded]] toposes over any base (not just Set).
 
 
-### Local over-toposes {#LocalOverTopoes}
+### Local over-toposes 
+  {#LocalOverTopoes}
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
-For $\mathcal{E}$ a [[Grothendieck topos]] and $X \in \mathcal{E}$ an object, the [[over topos]] $\mathcal{E}/X$ is local if $X$ is a [[tiny object]]. 
+For $\mathcal{E}$ a [[Grothendieck topos]] and $X \in \mathcal{E}$ an object, the [[over topos]] $\mathcal{E}/X$ is local if $X$ is a [[tiny object]] ([[atomic object]]). 
 
 =--
 
@@ -647,7 +648,7 @@ So $\Gamma$ does commute with colimits if $X$ is tiny. By the [[adjoint functor 
 =--
 
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 As a special case this reproduces the [above statement](#LocalizationOfPresheafTopos) that slices $PSh(C)/j(U)$ of presheaf toposes over objects in the image of the [[Yoneda embedding]] are local: every [[representable functor]] is [[tiny object|tiny]] (see there).
