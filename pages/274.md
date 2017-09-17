@@ -126,6 +126,8 @@ are in fact [[isomorphisms]] / [[bijections]] of sets. This property of the [[ne
 
 * [[Gamma space]]
 
+* [[Segal operad]]
+
 * [[table - models for (infinity,1)-operads]]
 
 
