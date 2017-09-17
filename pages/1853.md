@@ -164,11 +164,16 @@ $$
   \,.
 $$
 
+## Examples
+
+* The cup product for [[Deligne complex]]es is discussed at _[[Beilinson-Deligne cup-product]]_ . 
+
 ## References ##
 
 Recall from the discussion at [[models for ∞-stack (∞,1)-toposes]] that all [[hypercompletion|hypercomplete]] [[∞-stack]] [[(∞,1)-topos]]es are modeled by the [[model structure on simplicial presheaves]]. Accordingly understanding the cup product on simplicial presheaves goes a long way to wards the most general description. For a bit of discussion of this see around page 19 of
 
 * Jardine _Lectures on simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
 
 An early treatment of cup product can be found in this classic
 
