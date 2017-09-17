@@ -356,3 +356,6 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 
 [[!redirects algebraic theories]]
+
+[[!redirects finitary algebraic theory]]
+[[!redirects finitary algebraic theories]]
