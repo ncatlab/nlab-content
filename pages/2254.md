@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
 =--
 =--
 
