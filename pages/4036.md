@@ -42,7 +42,25 @@ Every [[paracompact space|paracompact]] [[manifold]] admits a good open cover.
 +-- {: .proof}
 ###### Proof
 
-Every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after lemma 10.3 in Milnor's _Morse Theory_, page 59). It is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
+Every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after lemma 10.3 ([Milnor](#Milnor)) page 59). It is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
+
+=--
+
+We can strengthen this:
+
++-- {: .un_prop }
+###### Proposition
+
+Every [[paracompact space|paracompact]] [[manifold]] of [[dimension]] $d$ admits an open cover such that every non-empty finite intersection is [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^d$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider an open cover by geodesically convex subsets as in the proof before.
+By picking any point in an intersection $U_{i_1} \cap \cdots \cap U_{i_p}$, by its geodesic completeness the [[geodesic flow]] starting
+at that point provides a diffeomorphism of $U_{i_1} \cap \cdots \cap U_{i_n}$ with a [[star-shaped]] neighbourhood of the origin of the [[tangent space]] at that point (again by ([Milnor](#Milnor)), lemma 10.3). By theorem 237 of ([Ferus](#Ferus)) this star-shaped region in turn is diffeomorphic to $\mathbb{R}^d$.
 
 =--
 
@@ -142,9 +160,9 @@ The following [[nPOV]] perspective on good open covers gives a useful general "e
 
 Let $sPSh(CartSp)_{proj}$ be the category of [[simplicial presheaves]] on the category [[CartSp]] equipped with the projective [[model structure on simplicial presheaves]].
 
-Let $X$ be a [[manifold]], or more generally a [[diffeological space]], regarded as a 0-[[truncated]] object of $sPSh(C)$.
+Let $X$ be a [[smooth manifold]], regarded as a 0-[[truncated]] object of $sPSh(C)$.
 
-Let $\{U_i \to X\}$ be a good open cover by [[open ball]]s.
+Let $\{U_i \to X\}$ be a good open cover by [[open ball]]s in the strong sensse: such that every finite non-empty intersection is diffeomorphic to an $\mathbb{R}^d$.
 
 Then: the [[Cech nerve]] $C(\{U\}) \in sPSh(C)$ is a cofibrant resolution of $X$ in the [[local model structure on simplicial presheaves]].
 
@@ -153,7 +171,7 @@ Then: the [[Cech nerve]] $C(\{U\}) \in sPSh(C)$ is a cofibrant resolution of $X$
 +-- {: .proof}
 ###### Proof
 
-Since every finite intersection of [[open ball]] is [[diffeomorphic]] to a [[Cartesian space]] $\mathbb{R}^n$ (see the section <a href="http://ncatlab.org/nlab/show/ball#Properties">Properties</a> at [[ball]]) we have that $C(U)$ is degreewise a [[coproduct]] of [[representable functor|representables]]. It is also evidently a [[split hypercover]].
+By assumption we have that $C(U)$ is degreewise a [[coproduct]] of [[representable functor|representables]]. It is also evidently a [[split hypercover]].
 
 This implies the statement by the [characterization of cofibrant objects in the projective structure](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects).
 
@@ -166,6 +184,15 @@ Notice that the [[descent]] condition for simplicial presheaves on [[CartSp]] at
 
 
 We can turn this around and speak for any [[site]] $C$ of a covering family $\{U_i \to X\}$ as being _good_ if the corresponding [[Cech nerve]] is degreewise a coproduct of representables. In the projective model structure on simplicial presheaves on $C$ such good covers will enjoy the central properties of good covers of topological spaces.
+
+
+## References
+
+* [[John Milnor]], _Morse theory_ , Princeton University Press (1963)
+{#Milnor}
+
+* [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf))
+{#Ferus}
 
 
 [[!redirects good cover]]
