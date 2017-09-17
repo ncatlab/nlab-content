@@ -61,3 +61,6 @@ In [[linear algebra]] an [[idempotent]] linear [[operator]] $P:V\to V$ is called
 
 [[!redirects projection]]
 [[!redirects projections]]
+
+[[!redirects projection operator]]
+[[!redirects projection operators]]
