@@ -6,7 +6,13 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
-no sand in this box -- just dirt --- and rocks
+no sand in this box -- just arrows
+
+$\curvearrowleft$ $\curvearrowbotright$
+
+$\leftsquigarrow$
+
+$\righttoleftarrow$ $\lefttorightarrow$
 
 ***
 
