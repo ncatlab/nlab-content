@@ -20,6 +20,35 @@ There is a different notion of an _infinitesimal character_ in [[Harish–Chandr
 
 There are important formulas concerning characters in representation theory, like Weyl character formula, Kirillov character formula, Demazure character formula and so on.  There is also a formula for the [[induced character]] of an [[induced representation]].
 
+## Left and right characters on a ring over a ring
+
+Let $A$ be a unital, not necessarily commutative, [[ring]] (or, more generally, $k$-algebra for $k$-commutative); then a monoid in a category of $A$-bimodules (which are respectively also compatibly $k$-modules), is called an $A$-ring. In other words an $A$-ring $B$ is an object in the [[coslice category]] $A\Ring$; it is thus a ring $B$ equipped with multiplication $\mu_B$ and a map $\eta: A\to B$ of rings. 
+
+A __left character__ of an $A$-ring $(B,\mu_B,\eta_B)$ is a map $\chi:B\to A$ such that 
+
+(i) (left $A$-linearity) 
+$\chi(\eta(a)b) = a\chi(b)$ for all $a\in A$, $b\in B$ 
+
+(ii) (associativity) $\chi(b b') = \chi(b (\eta\circ\chi)(b'))$ for all $b,b'\in B$
+
+(iii) (unitality) $\chi(1_B) = \chi(1_A)$ 
+
+where we denoted multiplication in $A$ and in $B$ by concatenation. The conditions on $\chi$ can be restated as 
+the requirement that the map $B\otimes A\to A$ given by 
+$b\otimes a\mapsto \chi(b\eta(a))$ is a $B$-action extending 
+the left regular $A$-action (i.e. the multiplication on $A$ 
+considered as a left action).
+
+Dually, a __right character__ of an $A$-ring $(B,\mu_B,\eta_B)$ is a map $\chi:B\to A$ such that 
+
+(i) (right $A$-linearity) 
+$\chi(b\eta(a)) = \chi(b)a$ for all $a\in A$, $b\in B$ 
+
+(ii) (associativity) $\chi(b b') = \chi((\eta\circ\chi)(b) b')$ for all $b,b'\in B$
+
+(iii) (unitality) $\chi(1_B) = \chi(1_A)$ 
+
+This is in turn equivalent to extending the right regular action of $A$ to the action of $B$ on $A$.
 
 ## Character of a topological space
 
