@@ -93,7 +93,7 @@ The 2-category $2Sh(C)$ of 2-sheaves on a small 2-site $C$ is, by definition, a 
 
 The above involves content transferred from 
 
-* [[Michael Shulman]], [[michaelshulamn:2-site]]
+* [[Michael Shulman]], _[[michaelshulamn:2-site]]_
 
 Strict 2-sites were considered in
 
@@ -102,3 +102,6 @@ Strict 2-sites were considered in
 Bicategorical 2-sites in
 
 * [[Ross Street]], _Characterizations of bicategories of stacks_ , Lecture Notes in Math., 962, 
+
+#
+[[!redirects 2-sheaves]]
