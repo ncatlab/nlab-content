@@ -148,6 +148,11 @@ A discussion of spectral triples as [[FQFT]] data encoding a [[representation]] 
 non-negative Ricci curvature and
 non-commutative geometry_ in _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ .
 
+A brief indication of some of the central ideas going into this is at
+
+* [[Urs Schreiber]],  [_Spectral triples and graph field theory_](http://golem.ph.utexas.edu/category/2007/06/had_the_pleasure_of_talking.html)
+
+
 A general introduction to and discussion of spectral triples with an eye on [[quantum mechanics]], [[quantum field theory]] and [[string theory]] is in
 
 * [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132))
@@ -174,3 +179,7 @@ One variation uses [[von Neumann algebra]]s instead of [[C-star algebra]]s.
 * M-T. Benameur, T. Fack, _On von Neumann spectral triples_ ([web](http://adsabs.harvard.edu/abs/2000math.....12233B)) 
 
 * [[Alain Connes]], [[Henri Moscovici]], _Type III and spectral triples_ ([arXiv:math/0609703](http://arxiv.org/abs/math/0609703))
+
+[[!redirects spectral triples]]
+[[!redirects graph field theory]]
+
