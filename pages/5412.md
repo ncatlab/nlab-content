@@ -110,7 +110,7 @@ where $f_!$ is given by postcomposition with $f$ and $f^*$ by [[pullback]] along
 +-- {: .proof}
 ###### Proof
 
-By [[universal colimit]]s in $\mathcal{E}$ the [[pullback]] functor $f^*$ preserves both [[limit]]s and [[colimit]]s. By the [[adjoint functor theorem]] and using that th over-toposes are [[locally pesentable categories]], this already implies that it has a [[left adjoint]] and a [[right adjoint]]. That the left adjoint is given by postcomposition with $f$ follows from the universality of the pullback: for $(a : A \to X)$ in $\mathcal{E}/X$ and $(b : B \to Y)$ in $\mathcal{E}/Y$ we have unique factorizations
+By [[universal colimit]]s in $\mathcal{E}$ the [[pullback]] functor $f^*$ preserves both [[limit]]s and [[colimit]]s. By the [[adjoint functor theorem]] and using that th over-toposes are [[locally presentable categories]], this already implies that it has a [[left adjoint]] and a [[right adjoint]]. That the left adjoint is given by postcomposition with $f$ follows from the universality of the pullback: for $(a : A \to X)$ in $\mathcal{E}/X$ and $(b : B \to Y)$ in $\mathcal{E}/Y$ we have unique factorizations
 
 $$
   \array{
