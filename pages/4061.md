@@ -42,6 +42,36 @@ On [[quantum mechanics]]:
 
 * A. Cannas da Silva, A. Weinstein, _Geometric models for noncommutative algebras_, 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
 
+## Lorentzian Geometry and General Relativity
+
+Global aspects of the geometry of spacetimes:
+
+* John K. Beem; Paul E. Ehrlich, ; Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete))
+
+After the introduction emphasis on asymtotics of spacetimes far from gravitation objects:
+
+* John Steward: _Advanced general relativity_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0752.53048&format=complete))
+
+Despite its title the next monograph does not just present the Kerr spacetime, it illustrates many core features of GR with the Kerr spacetime as the prominent example:
+
+* Barrett: O'Neill: _The geometry of Kerr black holes._ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0828.53078&format=complete)) 
+
+Here is an introduction to spinors in GR: 
+
+* Peter O'Donnell: _Introduction to 2-spinors in general relativity._  ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1021.83001&format=complete)) 
+
+while the classic reference for this is of course:
+
+* Roger Penrose and Wolfgang Rindler: _Spinors and Spacetimes_ (two volumes, [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0538.53024&format=complete) of the first edition of the first volume)
+
+An account of analytical solutions of black hole spacetimes:
+
+* S. Chandrasekhar: _The mathematical theory of black holes. _ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0912.53053&format=complete))
+
+Less focussed on proving mathematical results and more on computations:
+
+* Eric Poisson: _A relativist's toolkit. The mathematics of black-hole mechanics._ ([http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete))
+
 ## Integrable systems and solitons
 
 On [[integrable system]]s and [[soliton]]s:
@@ -129,3 +159,5 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
 * reference list of Movshev's sunysb [course on QM](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)
 
 * geometrical background for Kapustin's course at Caltech: [list](http://theory.caltech.edu/~kapustin/Ph229/recbooks.html)
+
+* John Baez: _How to Learn Math and Physics_(http://math.ucr.edu/home/baez/books.html)
