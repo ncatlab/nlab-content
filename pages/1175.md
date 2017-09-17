@@ -39,11 +39,11 @@ According to
 
 the situation is then this:
 
-####Definition:
+Definition:
 A $W^*$-algebra is a $C^*$-algebra whose underlying normed space is a dual Banach space.
 
-####Theorem:
-Every $W^*$-algebra is $W^*$-isomorphic to a von Neumann algebra ("on a suitable Hilbert space" is added in corollary 3 in paragraph 7.1, which is redundant however).
+Theorem:
+Every $W^*$-algebra is $W^*$-isomorphic to a von Neumann algebra ("on a suitable Hilbert space" is added in corollary 3 in paragraph 7.1, which is redundant however) and vice versa.
 
 Any objections to change the remarks accordingly? 
 =--
