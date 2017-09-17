@@ -43,11 +43,15 @@ $$
 
 ## Related concepts
 
-* [[Picard group]], [[Brauer group]]
+* [[Picard group]], [[Picard stack]]
+
+  * [[Brauer group]]
 
 * [[Picard 2-group]]
 
 * [[Picard 3-group]]
+
+* **Picard $\infty$-group**, [[Picard ∞-stack]]
 
 ## References
 
