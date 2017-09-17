@@ -369,7 +369,9 @@ Witt class.
 
 * [[Liouville cocycle]]
 
-* [[2d SCFT]]
+* [[SCFT]]
+
+  * [[2d SCFT]]
 
 ## References ##
 
