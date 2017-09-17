@@ -75,6 +75,8 @@ For $d= 4$ EM-duality is the special abelian case of [[S-duality]] for [[Yang-Mi
 
     * [[Montonen-Olive duality]]
 
+    * [[dual graviton]]
+
   * [[Seiberg duality]]
 
   * [[geometric Langlands correspondence]]
