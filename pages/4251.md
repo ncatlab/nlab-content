@@ -554,9 +554,9 @@ $$
 
 After old ideas by [[Alexander Grothendieck]] from [[Pursuing Stacks]], it seems that the first explicit formalization and proof of this statement is given in 
 
-* [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv1.library.cornell.edu/abs/math/0007157))
+* [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv.org/abs/math/0007157))
 
-In [theorem 2.13, p. 25](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0007/0007157v4.pdf#page=25) the author proves an equivalence of [[(∞,1)-categories]] (modeled there as [[Segal category|Segal categories]])
+In [theorem 2.13, p. 25](http://arxiv.org/PS_cache/math/pdf/0007/0007157v4.pdf#page=25) the author proves an equivalence of [[(∞,1)-categories]] (modeled there as [[Segal category|Segal categories]])
 
 $$
   LConst(X) \simeq Fib(\Pi(X))
