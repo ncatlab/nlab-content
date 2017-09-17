@@ -1,0 +1,69 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+To a [[permutative category]]  ${\vert C\vert}$ is naturally associated a [[Gamma-space]], hence a [[symmetric spectrum]]. The [[generalized (Eilenberg-Steenrod) cohomology]] theory [[Brown representability theorem|represented]] by this is called the 
+_([[algebraic K-theory|algebraic]]) [[K-theory]]_ of (or represented by) $C$.
+
+If the category is is even a [[bipermutative category]] then the corresponding [[K-theory of a bipermutative category]] in addition has [[E-infinity ring]] structure, hence is a [[multiplicative cohomology theory]].
+
+## Definition
+
+Write $FinSet^{*/}$ for the [[category]] of [[pointed objects]] [[finite sets]].
+
+For $C$ a [[permutative category]], there is naturally a [[functor]]
+
+$$
+  \widebar {C}_{(-)} : FinSet^{*/} \to Cat
+$$
+
+$$
+  A \mapsto \widebar C_A
+$$
+
+such that (...).
+
+([Elmendorf-Mandell, theorem 4.2](#ElmendorfMandell06))
+
+Accordingly, postcomposition with the [[nerve]] $N : Cat \to sSet$ produces from $C$ a [[Gamma-space]] $N \widebar C$. To this corresponds a [[spectrum]] 
+
+$$
+  K^{Seg} C \coloneqq \{N \widebar C_{S_\bullet^n}\}_n
+  \,.
+$$ 
+
+This is the _K-theory spectrum of $C$_.
+
+([Elmendorf-Mandell, def. 4.3](#ElmendorfMandell06))
+
+
+## Related concepts
+
+* [[K-theory of a bipermutative category]]
+
+## References
+
+* [[Peter May]], _The spectra associated to permutative categories_, Topology 17 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/23.pdf))
+
+* [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories as a model of connective stable homotopy_, in: [[Birgit Richter]] (ed.) _Structured Ring spectra_, Cambridge University Press (2004)
+
+* [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
+ {#ElmendorfMandell06}
+
+
+* [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082v2](http://arxiv.org/abs/0710.0082v2))
+
+
