@@ -289,6 +289,11 @@ Then $C^\circ$ and $L^H C$ are connected by an [[equivalence of (∞,1)-categori
 
 This is one of the central statements in ([DwyerKanFunctionComplexes](#DwyerKanFunctionComplexes)). The weak homotopy equivalence between $C^\circ(X,Y)$ and $L^H C(X,Y)$ is in corollary 4.7. The equivalence of $\infty$-categories stated above follows with this and the diagram of morphisms of simplicial categories in prop. 4.8.
 
+## Related concepts
+
+* [[localizer]]
+
+* [[localizing subcategory]]
 
 ## References 
 
