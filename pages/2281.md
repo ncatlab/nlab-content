@@ -20,3 +20,4 @@ category: people
 
 [[!redirects Sammy Eilenberg]]
 [[!redirects Eilenberg]]
+[[!redirects S. Eilenberg]]
