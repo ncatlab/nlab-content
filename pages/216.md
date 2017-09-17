@@ -124,6 +124,7 @@ makes the convolution algebra a star-algebra.
 =--
 
 ### For Lie groupoids
+ {#ForLieGroupoids}
 
 
 +-- {: .num_remark #ForLieGroupoids}
