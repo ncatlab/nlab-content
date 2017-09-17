@@ -34,6 +34,8 @@ Tim van Beek: There may be some confusion because spin in physics is a quantum p
 
 Zoran: it is exactly one of the puproses of the nlab to have a viewpoint which is systematics and not impressionistic. It is very clear where to draw the picture between classical and quantum from the point of view of the theoretical framework and from the point of view of Planck constant. 
 If you had a physical system simulating ANY of these you would see its classical limit h->0 still with supersymmetry in field description. I do not understand what is "physics" here. Why would full picture be physics and the hi energy mod Planck constant ratio limit of its description would not ?? 
+
+[[Ian Durham]]: I've done some work in the area of emergence and it is not entirely clear that classical systems automatically appear as  h -> 0.  M.H. Partovi has recently discovered quantum behavior in macroscopic systems, for instance, so I strongly dispute the usual h -> 0 argument (as do some other people working on emergence).
 =--
 
 ## quantizaton of classical field theory ##
