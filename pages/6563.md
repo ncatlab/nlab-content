@@ -100,6 +100,7 @@ Equilibrium critical phenomena:
 * Kardar's _Statistical Physics of Particles_ and _Statistical Physics of Fields_
 * Henkel's _Conformal Invariance and Critical Phenomena_ (1999)
 * P. A. Pearce (1994), "Recent progress in solving _A--D--E_ lattice models" _Physica A_ **205**: 15--30. ([pdf](http://mac0916.ms.unimelb.edu.au/~pap/Publications_pdf/1994PearceRecentProgressADE.pdf)) This one brings in [[Temperley-Lieb algebra]]s, two-colour braid monoid algebras and [[Reidemeister moves]].
+* J. Cardy (2010), _The Ubiquitous 'c': From the Stefan--Boltzmann Law to Quantum Information_, J.Stat.Mech. **2010**: P10004, ([arXiv:1008.2331](http://arxiv.org/abs/1008.2331))
 
 Random matrix theory:
 * Yan Fyodorov (2011) Random matrix theory. Scholarpedia, 6(3):9886 ([web](http://www.scholarpedia.org/article/Random_matrix_theory))
