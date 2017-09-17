@@ -74,7 +74,7 @@ $$d \to c + d \stackrel{\overset{(f, 1_d)}{\to}}{\underset{(g, 1_d)}{\to}} d$$
 where the first arrow is the coproduct coprojection. 
 =-- 
 
-+-- {: .num_corollary}
++-- {: .num_cor}
 ######Corollary 
 If $T$ is a monad on $Set$, then $Set^T$ is cocomplete. 
 =-- 
@@ -93,7 +93,7 @@ E & \stackrel{\overset{\pi_1}{\to}}{\underset{\pi_2}{\to}} & B & \to & Q}$$
 (the first two vertical arrows being algebra structure maps) is a coequalizer in $Set^T$. The last vertical arrow making the diagram commute gives $Q$ a $T$-algebra structure, and the split coequalizer in the bottom row is reflected in $Set^T$. 
 =-- 
 
-+-- {: .num_corollary} 
++-- {: .num_cor} 
 ###### Corollary 
 If $T$ is a monad on a complete and cocomplete category $C$ that preserves reflexive coequalizers, then $C^T$ is complete and cocomplete. 
 =-- 
@@ -107,7 +107,7 @@ Here is a more difficult result given in [Toposes, Theories, and Triples](#BarrW
 If $C$ has coequalizers and equalizers of arbitrary sets of parallel morphisms, and if a monad $T: C \to C$ preserves colimits of countable chains $\omega \to C$, then $C^T$ has coequalizers. 
 =-- 
 
-+-- {: .num_corollary} 
++-- {: .num_cor} 
 ###### Corollary 
 If $C$ is complete and cocomplete and $T: C \to C$ preserves filtered colimits, then $C^T$ is complete and cocomplete. 
 =-- 
