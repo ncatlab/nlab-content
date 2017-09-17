@@ -16,10 +16,53 @@
 
 ## Idea
 
-Just as a [[Grothendieck fibration]] $E\to B$ is an alternate way to encode a [[pseudofunctor]] $B^{op}\to $ [[Cat]], a *two-sided fibration* $A \leftarrow E \to B$ is a way to encode a pseudofunctor $A\times B^{op}\to Cat$.
+Recall that a functor $E \to B$ is called a [[fibration]] if its [[fibres]] $E_b$ vary [[pseudofunctor|functorially]] in $b$; taking _fibre_ to mean _strict fibre_ results in the notion of [[Grothendieck fibration]], while taking it to mean [[essential fibre]] gives the notion of [[Street fibration]].
+
+Similarly, a *two-sided fibration* $A \leftarrow E \to B$ is a pair of functors whose fibres $E(a,b)$ vary functorially in both $a$ and $b$.
 
 ## Definition
 
+Let $K$ be a [[bicategory]] with finite [[2-limits]], and recall that [[fibration in a 2-category|fibrations]] in $K$ may be defined in any of several ways; most importantly, cloven fibrations $E \to B$ in $K$ are the (pseudo)algebras for a (pseudo) 2-monad $L$ on $K/B$.  For a morphism $p \colon E \to A$ in $K$, $L p$ is given by composing the [[span]] $A \overset{p}{\leftarrow} E \to 1$ with the canonical span $\Phi A = A \overset{dom}{\leftarrow} A^{\mathbf{2}} \overset{cod}{\to} A$, so that $L p \colon E/p \to A$ is the canonical projection.  More generally, the same construction gives a monad $L$ on $Span K(B,A)$ whose algebras we call **left fibrations**.  In [[Cat]], a span $C \overset{p}{\leftarrow} H \overset{q}{\to} D$ is a left fibration if $p$ is a cloven fibration whose chosen cartesian lifts are $q$-vertical.
+
+Dually, there is a 2-monad $R$ on each $Span K(B,A)$ whose algebras
+are called **right fibrations**, the special case of $Span Cat(D,1)$ yielding cloven opfibrations.
+
+There is then a composite 2-monad $M$ that takes a span $E$ from $B$ to $A$ to $M E = \Phi A \circ E \circ \Phi B$, and $M$-algebras are called **two-sided fibrations**.
+
++-- {: .un_prop}
+###### Proposition
+
+A two-sided Street fibration from $B$ to $A$ in $Cat$ is given by a span $p \colon E \to A$, $q \colon E \to B$ such that
+
+1. each $a \to p x$ in $A$ has a [[cartesian morphism|cartesian]] lift in $E$ with codomain $x$ whose image under $q$ is invertible (that is, $E$ is a left fibration)
+
+1. each $q x \to b$ in $B$ has an opcartesian lift in $E$ with domain $x$ whose image under $p$ is invertible ($E$ is a right fibration)
+
+1. for each $f \colon e \to e'$ in $E$ the canonical arrow between the codomain of any opcartesian lift of $q f$ as in (2) and the domain of the cartesian lift of $p f$ as in (1) is an [[isomorphism]].
+=--
+
++-- {: .proof}
+###### Proof
+**Warning**: incomplete, possibly wrong
+
+By the usual theory of [[distributive laws]], an $M$-algebra $m \colon M E \to E$ gives rise to $L$- and $R$-algebras $m \cdot (\Phi A \circ \eta^R_E)$ and $m \cdot (\eta^L_E \circ \Phi B)$, and conversely an $L$-algebra $\ell$ and an $R$-algebra $r$ underlie an $M$-algebra if and only if there is an isomorphism $r \cdot (\ell \circ \Phi B) \cong \ell \cdot (\Phi A \circ r)$ that makes $r$ a morphism of $L$-algebras.
+
+Now given $\ell$ and $r$, because $L$ is [[colax-idempotent]], there is a unique two-cell $\bar r \colon r \cdot (\ell \circ \Phi B) \Rightarrow \ell \cdot (\Phi A \circ r)$ that makes $r$ a colax morphism of $L$-algebras.  So we want to show that given an $L$-algebra and an $R$-algebra in $Cat$, this two-cell is invertible if and only if condition (3) above holds.
+
+The two-cell in question is given here by $\ell \cdot (\Phi A \circ r) \cdot (\epsilon \circ \Phi B)$, where $\epsilon$ is the counit of the adjunction $\eta^L_E \dashv \ell$.
+
+... to be continued ...
+
+=--
+
+
+# Two-sided discrete fibrations
+
+## Definition
+
+A two-sided fibration $A \leftarrow E \to B$ in $K$ is **discrete** if it is [[discrete]] as an object of $K/A \times B$.
+
+For Grothendieck fibrations in [[Cat]], this means the following.
 
 +-- {: .un_defn}
 ###### Definition
@@ -36,19 +79,6 @@ $$
 $$ 
 
 for the full [[subcategory]] on the category of  [[span]]s on the 2-sided discrete fibrations.
-
-=--
-
-
-
-+-- {: .un_defn}
-###### Definition
-
-
-A **two-sided fibration** is a span $q \colon E \to A$, $p \colon E \to B$ such that
-1. each $b \to p e$ in $B$ has a [[cartesian morphism|cartesian]] lift in $E$ with codomain $e$ and lying in the fiber over the identity at $q e$
-1. each $q e \to a$ in $A$ has an opcartesian lift in $E$ with domain $e$ and lying in the fiber over the identity at $p e$
-1. for each $f \colon e \to e'$ in $E$ the canonical arrow between the codomain of any opcartesian lift of $q f$ as in (2) and the domain of the cartesian lift of $p f$ as in (1) is an [[isomorphism]].
 
 =--
 
