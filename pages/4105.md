@@ -16,6 +16,8 @@
 
   * [[lax functor]]
 
+  * [[equivalence of 2-categories]]
+
 * [[2-natural transformation]]
 
   * [[lax natural transformation]]
