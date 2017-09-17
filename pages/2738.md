@@ -333,9 +333,36 @@ This is prop 1.4 in [CisMoer09](http://arxiv.org/abs/0902.1954).
 
 As any [[category of presheaves]], $dSet$ is a [[cartesian monoidal category]]. However, the cartesian [[tensor product]] is not the natural one with respect to the inclusion of [[operads]] into dendroidal sets. The natural monoidal structure on [[Operad]] is rather a generalization of the [[Boardman-Vogt tensor product]].
 
-(...)
++-- {: .num_defn #BVTensorProduct}
+###### Definition
 
-Also with respect to this tensor product is $dSet$ a [[closed monoidal category]]. This is discussed [below](#ClosedMonoidalStructure).
+Write
+
+$$
+  N_d(-\otimes -)
+  :
+  \Omega \times \Omega
+  \hookrightarrow
+  Operad \times Operad
+  \hookrightarrow
+  Operad
+  \stackrel{N_d}{\to}
+  dSet
+$$
+
+for the functor that forms the [[Boardman-Vogt tensor product]] of the free operads given by two trees, and then regards the result as a dendroidal set by the dendroidal nerve, def. \ref{DendroidalNerve}.
+
+The **tensor product of dendroidal sets** is the [[Yoneda extension]] 
+
+$$
+  -\otimes - : dSet \times dSet \to dSet
+$$
+
+of this functor, hence the unique such functor which preserves [[colimits]] in both variables and coincides with the BV-tensor product of operads on $\Omega$.
+
+=--
+
+With respect to this tensor product is $dSet$ a [[closed monoidal category]]. This is discussed [below](#ClosedMonoidalStructure).
 
 
 ## Properties
@@ -482,7 +509,7 @@ inclusion $\Omega \hookrightarrow Operad$ from def. \ref{FreeOperadCategory}
 induces a [[nerve]] operation on [[operads]] with values in 
 [[simplicial sets]].
 
-+-- {: .num_defn}
++-- {: .num_defn #DendroidalNerve}
 ###### Definition
 
 For $O \in Operad$ an [[operad]], its **[[dendroidal nerve]]**
