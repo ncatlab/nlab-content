@@ -17,7 +17,7 @@
 
 "Harmonic oscillator" is a fancy name for a rock on a spring: 
 
-* in [[classical mechanics]] it is the physical system given by a point mass in a parabolic potential, feeling forces driving it back to a specified origin that are propertional to the distance of the mass from that origin.
+* in [[classical mechanics]] it is the [[physical system]] given by a point mass in a parabolic potential, feeling [[forces]] driving it back to a specified origin that are propertional to the distance of the [[mass]] from that origin.
 
 * in [[quantum mechanics]] and in particular [[quantum field theory]] the quantum harmonic oscillator governs not just the dynamics of idealized point masses but crucially appears in the dynamics of all free massive quantum fields. 
 
@@ -56,6 +56,16 @@ The creation operator $z$ adds a photon to the mix; there's only one way to do t
 This way of representing the state of a QHO is known as the _Fock basis_.
 
 ## References
+
+### Geometric quantization
+
+Discussion of [[geometric quantization]] of the harmonic oscillator is in 
+
+* Adrian Lim, _A non-standard geometric quantization of the harmonic oscillator_ ([pdf](http://www.math.cornell.edu/~pclim/Docs/papers/oscillator6.pdf))
+
+* G. Sherry, _Geometric quantization of the 3-dimensional harmonic oscillator_, Quaestiones Mathematicae, 8 (1986)
+
+* Sergey V. Zuev, _Geometric quantization of generalized oscillator_ ([arXiv:math-ph/9902024](http://arxiv.org/abs/math-ph/9902024))
 
 ### Categorification
 
