@@ -1,0 +1,31 @@
+
+The __octonionic Albert algebra__ is the algebra of $3$-by-$3$ [[hermitian matrices]] over the [[octonions]]; the __split-octonionic Albert algebra__ is the algebra of $3$-by-$3$ hermitian matrices over the [[split-octonion]]s.  These are (up to [[isomorphism]]) the only [[simple algebra|simple]] [[finite-dimensional space|finite-dimensional]] [[formally real algebra|formally real]] [[Jordan algebras]] over the [[real numbers]] that are not [[special Jordan algebra|special]], together comprising the __real Albert algebras__.  Their [[complexifications]] are isomorphic, the __complex-octonionic Albert algebra__, or simply the __complex Albert algebra__.  Analogues exist over any [[field]].
+
+An __exceptional Jordan algebra__ (over any field) is any Jordan algebra in which an Albert algebra appears as a [[direct summand]].  Every formally real Jordan algebra over the real numbers is either special or exceptional (so they all have excellent self-esteem).  The exceptional Jordan algebras are related to the [[exceptional Lie algebra]]s.
+
+
+[[!redirects exceptional Jordan algebra]]
+[[!redirects exceptional Jordan algebras]]
+
+[[!redirects Albert algebra]]
+[[!redirects Albert algebras]]
+
+[[!redirects real Albert algebra]]
+[[!redirects real Albert algebras]]
+
+[[!redirects octonionic Albert algebra]]
+[[!redirects octonionic Albert algebras]]
+
+[[!redirects split-octonionic Albert algebra]]
+[[!redirects split-octonionic Albert algebras]]
+[[!redirects split octonionic Albert algebra]]
+[[!redirects split octonionic Albert algebras]]
+
+[[!redirects complex Albert algebra]]
+[[!redirects complex Albert algebras]]
+[[!redirects complexified Albert algebra]]
+[[!redirects complexified Albert algebras]]
+[[!redirects complex-octonionic Albert algebra]]
+[[!redirects complex-octonionic Albert algebras]]
+[[!redirects complex octonionic Albert algebra]]
+[[!redirects complex octonionic Albert algebras]]
