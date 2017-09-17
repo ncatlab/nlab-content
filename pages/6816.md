@@ -50,9 +50,12 @@ Such "exact solutions" of the theory are of interest in that even though N=4, D=
 In other words, because understanding [[observables]] in [[QCD]]/[[Yang-Mills theory]] in general is difficult, going to special points in the space of all such theories -- such as the point of N=4, D=4 SYM -- may be hoped to yield a tractable approximation. For more on this way of studying [[QCD]] and other realistic theories by studying instead their highly symmetric but phenomenologically unrealistic siblings, see also at _[[string theory results applied elsewhere]]_.
 
 
-### Holography
+### Holography, AdS-CFT
 
 $N=4$ $d=4$ SYM is supposed to be related under the [[AdS/CFT correspondence]] to [[type II superstring theory]] [[Kaluza-Klein mechanism|compactified]] on a 5-[[sphere]] to an asymptotically [[anti de Sitter spacetime]].
+
+[[!include gauge theory from AdS-CFT -- table]]
+
 
 ### Twistor space formulation
 
