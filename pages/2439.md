@@ -92,7 +92,7 @@ Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological str
   hence the characteristic twists are in degree 2 of the group of units, hence of the graded group of units
 
   $$
-    gl_1(KU) \to \mathbb{S}
+    gl^{gr}_1(KU) \to \mathbb{S}
   $$
 
   hence are graded by the second [[homotopy group]] 
@@ -123,7 +123,7 @@ Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological str
   hence the characteristic twists are in degree 3 of the group of units, hence of the graded group of units
 
   $$
-    gl_1(tmf) \to \mathbb{S}
+    gl^{gr}_1(tmf) \to \mathbb{S}
   $$
 
   hence are graded by the third [[homotopy group]] 
@@ -155,7 +155,7 @@ Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological str
   hence the characteristic twists are in degree 6 of the group of units, hence of the graded group of units
 
   $$
-    gl_1(K(5)) \to \mathbb{S}
+    gl^{gr}_1(K(5)) \to \mathbb{S}
   $$
 
   hence are graded by the sixth [[homotopy group]] 
@@ -165,21 +165,6 @@ Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological str
   $$
 
   of the sphere spectrum.
-
-To see how ordinary superalgebra arises this way, consider the case of $KU$. While there is the canonical map of [[abelian ∞-groups]]
-
-$$
-  2Line \simeq B^2 U(1) \to B gl_1(KU)
-$$
-
-from [[line 2-bundles]], this does not hit all homotopy groups on the right. But refining to [[supergeometry]] and replacing the left with [[super line 2-bundles]] (see there) we do hit all the Donovan-Karoubi twists of K-theory
-
-$$
-  2sLine \to bgl_1^\ast(KU)
-  \,.
-$$
-
-(...)
 
 
 ## Associative superalgebras
