@@ -77,6 +77,10 @@ This is [[equivalence of categories|equivalent]] to
 
 The [[category]] of [[modules]]/[[representations]] over a given vertex operator algebra is a [[modular tensor category]], ([Huang](#Huang))
 
+### Goddard-Thorn theorem
+
+* [[Goddard-Thorn theorem]]
+
 ### Relation to $A_\infty$-algebras and RG fixed points
  {#RelationToAInfinityAlgebras}
 
@@ -101,6 +105,8 @@ The [[Moonshine]] module over the [[Griess algebra]] admits the structure of a v
 * has trivial degree-1 subspaces.
 
 A conjecture by Frenkel, Lepowsky and Meurman says that the Moonshine VOA is, up to isomorphism the unique VOA with these properties.
+
+See at _[[monster vertex algebra]]_.
 
 ## Variants 
 
@@ -216,4 +222,5 @@ Selecta Math. (N.S.) 6 (2000), no. 1, 105--130, [MR2002i:17022](http://www.ams.o
 
 [[!redirects vertex algebra]]
 [[!redirects vertex algebras]]
+
 [[!redirects vertex operator algebras]]
