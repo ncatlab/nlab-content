@@ -32,7 +32,7 @@ More generally, to every [[stable (infinity,1)-category]] $C$ is associated a [[
 
 ### As a localization of an $\infty$-group $\infty$-ring
 
-[[Snaith's theorem]] asserts that the [[K-theory spectrum]] for [[complex K-theory]] is the [[∞-group ∞-ring]] of the [[circle 2-group]] localized at the [[Bott element]] $\beta$:
+[[Snaith's theorem]] asserts that the [[K-theory spectrum]] for [[periodic complex K-theory]] is the [[∞-group ∞-ring]] of the [[circle 2-group]] localized at the [[Bott element]] $\beta$:
 
 $$
   KU \simeq \mathbb{S}[B U(1)][\beta^{-1}]
