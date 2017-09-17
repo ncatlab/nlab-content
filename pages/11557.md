@@ -44,7 +44,10 @@ If so one often says that _the cobordism theory determines the homology theory_ 
 
 Originally this was shown to be the case by ([Connor-Floyd 66](#ConnorFloyd66)) for $E= $[[KU]] with its canonical [[complex oriented cohomology theory|complex orientation]] $MU \to KU$ (they also showed the case for [[KO]] with $M Sp \to KO$). Later the [[Landweber exact functor theorem]] ([Landweber 76](#Landweber76)) generalized this to all [[complex oriented cohomology theories]] $M U \to E$. 
 
-The generalization to the actual [[Atiyah-Bott-Shapiro orientations]] of [[topological K-theory]], namely $M Spin^c \to KU$ and $M Spin \to KO$ is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). A version for a homology theory lifting the [[Ochanine elliptic genus]] is due to ([Hovey 95](#Hovey95)), building on ([Kreck-Stolz 93](#KreckStolz93)), see also at _[[spin orientation of Tate K-theory]]_.
+The generalization to the actual [[Atiyah-Bott-Shapiro orientations]] of [[topological K-theory]], namely $M Spin^c \to KU$ and $M Spin \to KO$ is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). 
+
+For [[elliptic cohomology]] wih the [[SO orientation of elliptic cohomology]] $M SO \toEll$ the statement is due to ([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)). For the refinement to the [[spin orientation of elliptic cohomology]] of ([Kreck-Stolz 93](#KreckStolz93)) a statement is due to ([Hovey 95](#Hovey95)).
+
 
 ## Refereces
 
@@ -54,6 +57,9 @@ The generalization to the actual [[Atiyah-Bott-Shapiro orientations]] of [[topol
 
 
 * {#HopkinsHovey92} [[Michael Hopkins]], [[Mark Hovey]], _Spin cobordism determines real K-theory_, Mathematische Zeitschrift 210.1 (1992): 181-196. ([[HopkinsHoveyCobordismK.pdf:file]])
+
+* {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
+
 
 * {#KreckStolz93} [[Matthias Kreck]], [[Stefan Stolz]], _$HP^2$-bundles and elliptic homology_, Acta Math, 171 (1993) 231-261 ([[KreckStolzElliptic.pdf:file]])
 
