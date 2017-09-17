@@ -1,0 +1,30 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Weinstein suggested that [[geometric quantization]] should yield a representation of a "[[category]]" whose
+
+* objects are symplectic manifolds $(X, \omega)$;
+
+* morphisms $(X_1,\omega_1) \to (X_2,\omega_2)$ are [[Lagrangian correspondences]]: Lagrangian submanifolds of $(X_1, \omega_1) \times (X_2, -\omega_2)$;
+
+and composition is given by taking fiver products of these Lagrangian submanifolds.
+
+However, this is not actually quite a category, since composition is only well-defined when the intersection of $L_1 \times L_2 \cap X_1 \times \Delta(X_2) \times X_3$ is [transverse](http://ncatlab.org/nlab/show/transversal+maps).
+
+Proposal for how to rectify this are in ([Wehrheim-Woodward](#WehrheimWoodward)) and in ([Kitchloo](#Kitchloo)) (by turning this into an [[(infinity,1)-category]]).
+
+## Related concepts
+
+* [[Fukaya category]]
+
+## References
+
+* [[Katrin Wehrheim]] and [[Chris Woodward]], _Functoriality for Lagrangian correspondances in Floer theory_, [arXiv:0708.2851](http://arxiv.org/abs/0708.2851)
+ {#WehrheimWoodward}
+
+* Nitu Kitchloo, _The Stable Symplectic Category and Geometric Quantization_ ([arXiv:1204.5720](http://arxiv.org/abs/1204.5720v1))
+ {#Kitchloo}
