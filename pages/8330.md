@@ -9,18 +9,18 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 A  _foundational axiom_ is an [[axiom]] that would be used in [[foundations]].
 
+
 ## Examples
 
 * [[large cardinal]]
-
   * [[axiom of infinity]]
   * [[Grothendieck universe]]
   * [[universe in a topos]]
@@ -31,7 +31,6 @@ A  _foundational axiom_ is an [[axiom]] that would be used in [[foundations]].
   * [[Vopěnka's principle]]
 
 * [[axiom of choice]]
-
   * [[countable choice]]
   * [[dependent choice]]
   * [[COSHEP]]
@@ -43,4 +42,6 @@ A  _foundational axiom_ is an [[axiom]] that would be used in [[foundations]].
   * [[axiom of separation]]
   * [[axiom of replacement]]
 
+
+[[!redirects foundational axiom]]
 [[!redirects foundational axioms]]
