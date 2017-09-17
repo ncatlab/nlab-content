@@ -139,7 +139,7 @@ See _[[black brane]]_ .
 
 If the worldvolume QFT of the fundamental branes (for instance the worlsheet 2d[[CFT]] of the string) is required to be a [[supersymmetric QFT]], specifically if the [[Green-Schwarz action functional]] is used only particular combinations of the dimenion $dim \Sigma = p + 1$ of the worldvolume and $D = dim X$ of [[spacetime]] are possible.
 
-The corresponding table has been called the **brane scan**
+The corresponding table has been called the **[[brane scan]]**
 
 [[branescan.gif:pic]]
 
@@ -197,7 +197,7 @@ More recent similar material with the emphasis on the [[K-theory]] aspects is
 
 ### Fundamental branes
 
-The "brane scan" table showing the consistent dimension pairs for the [[Green-Schwarz action functional]] was depicted in
+The "[[brane scan]]" table showing the consistent dimension pairs for the [[Green-Schwarz action functional]] was depicted in
 
 * [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
 {#Duff}
@@ -215,7 +215,9 @@ More along these lines is in
 See also [[division algebras and supersymmetry]].
 
 
+### Branes ending on branes
 
+* [[Andrew Strominger]], _Open P-Branes_, Phys. Lett. B383:44-47,1996 ([arXiv:hep-th/9512059](http://arxiv.org/abs/hep-th/9512059))
 
 [[!redirects branes]]
 
