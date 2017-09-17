@@ -51,6 +51,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[synthetic differential geometry]]
 
+* [[derived differential geometry]]
+
 * [[Lie theory]]
 
 * some modern subfields of differential geometry: [[symplectic geometry]], [[contact geometry]], [[Riemannian geometry]], Finsler, pseudoriemannian, [[symmetric space]]s, [[Fréchet manifold]]s
@@ -84,7 +86,7 @@ Online:
 
 ### Derived
 
-For differential [[derived geometry]] see
+For [[derived differential geometry]] see
 
 * [[Dominic Joyce]], _D-manifolds and d-orbifolds: a theory of derived differential geometry_ ([web](http://people.maths.ox.ac.uk/joyce/dmanifolds.html))
 
