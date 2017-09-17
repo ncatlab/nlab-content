@@ -76,6 +76,26 @@ Although intuitionstic mathematics does not accept all [[function sets]] (much l
 * [[realizability]]
 
 ## References
+ {#References}
+
+The roots of Brouwer's intuitionism are apparently in his PhD thesis
+
+* [[L.E.J. Brouwer]], _Over de Grondslagen der Wiskunde, PhD thesis_, Universiteit
+van Amsterdam, 1907.
+
+Then an axiomatization of intuitionistic mathematics is given in
+
+* [[Stephen Kleene]], R. E. Vesley, _The foundations of intuitionistic mathematics_,North-Holland (1965)
+
+in terms of [[realizability]] (the [[Kleene-Vesley topos]]), and hence intuitionistic mathematics is shown to be consistent.
+
+Reviews with further developments include for instance
+
+* [[Frank Waaldijk]], _On the foundations of constructive mathematics -- especially to the theory of continuous functions_  ([pdf](http://www.fwaaldijk.nl/foundations+of+constructive+mathematics.pdf))
+
+  (with a focus on [[constructive analysis]]).
+
+For more see also the references at _[[constructive mathematics]]_.
 
 That [[computable mathematics]] is an incarnation of intuitionistic mathematics is spelled out in the lecture notes
 
