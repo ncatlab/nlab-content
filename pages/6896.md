@@ -5,7 +5,7 @@ Currently I am thinking about [[vertical categorification]] of orbifolds.
 
 As to the rest my interests are in [[categorical logic]], [[type theory|type theories]] and [[foundations]].
 
-
+email: stephanspahn1atmedotcom
 category: people
 
 [[!redirects Stephan]]
