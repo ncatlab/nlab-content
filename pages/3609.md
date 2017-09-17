@@ -1,9 +1,7 @@
-<div class="rightHandSide toc">
-[[!include physicscontents]]
-</div>
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Hermitian adjoints
@@ -34,6 +32,10 @@ where $A^{*}$ is the Hermitian adjoint of $A$.
 
 The notation used here for the adjoint, $A^{*}$, is commonly used in linear algebraic circles (as is $A^{H}$).  In [[quantum mechanics]], $A^{\dagger}$ is exclusively used for the adjoint while $A^{*}$ is interpreted as the same thing as $\bar{A}$.
 
+
+## Related concepts
+
+* [[celestial sphere]]
 
 [[!redirects Hermitian matrix]]
 [[!redirects Hermitian matrixes]]
