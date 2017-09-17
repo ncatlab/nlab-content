@@ -61,18 +61,55 @@ S & \stackrel{u_S}{\to} & \beta S & & & & & & \beta \beta S & \stackrel{m_S}{\to
  & & S & & & & & & \beta S & \underset{\xi}{\to} & S
 }$$ 
 
-Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction, in order to accommodate [[continuous functions]] between topological spaces as the apropriate notion of morphism between relational $\beta$-modules.  See [[generalized multicategory]].
+Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction, in order to accommodate [[continuous functions]] between topological spaces (not continuous relations!) as the appropriate notion of morphism between relational $\beta$-modules.  See [[generalized multicategory]]. 
 
 
 ### Concrete
 
-A __relational $\beta$-module__ is a [[set]] $S$ and a [[binary relation]] $\to$ between [[ultrafilters]] on $S$ and [[elements]] of $S$ that satisfies a certain rule.
+A __relational $\beta$-module__ is a [[set]] $S$ and a [[binary relation]] $\xi: \beta S \to S$ between [[ultrafilters]] on $S$ and [[elements]] of $S$ that satisfy certain rules as described above. For $F \in \beta S$ and $x \in S$, we write $F \rightsquigarrow_\xi x$ if $(F, x)$ satisfies the relation, or often just $F \rightsquigarrow x$ if the relation is clear. We think of this as saying that the ultrafilter $F$ _converges_ to the point $x$, and thus $\xi$ as a kind of "notion of convergence". 
 
-To explain this rule, we first define a [[subset]] $A$ of $S$ to be __[[open subset|open]]__ if $A \in \mathcal{U}$ whenever $\mathcal{U} \to x \in A$.  Then the requirement on $\to$ is a converse:
+To explain the rules, we first set up a Galois correspondence between $\xi \in Rel(\beta S, S)$ and subsets $\mathcal{C} \subseteq P(S)$, so that fixed points on the $P(S)$ side are exactly topologies on $S$ and fixed points on the other side are relational $\beta$-module structures on $S$. Recall that each topology $\\mathcal{O} \subseteq P(S)$ induces a notion of convergence where $F \rightsquigarrow x$ means $N_x \subseteq F$ ($F$ contains the filter of neighborhoods of $x$). Accordingly, for general $\mathcal{C} \subseteq P(S)$, define the relation $conv(\mathcal{C}) = \xi: \beta S \to S$ by 
 
-*  $\mathcal{U} \to x$ if $A \in \mathcal{U}$ whenever $A$ is open and $x \in A$.
+$$F \rightsquigarrow_\xi x \;\;\; \Leftrightarrow \;\;\; (\forall_{U \in P(S)})\; U \in \mathcal{C} \; \wedge \; x \in U \; \Rightarrow \; U \in F.$$ 
 
-...
+A topology $\mathcal{O}$ can be retrieved from its notion of convergence: under the ultrafilter principle, the neighborhood filter of a point $x$ is just the intersection of all ultrafilters containing it (hence all $F$ such that $F \rightsquigarrow x$), and then a set is open if it is a neighborhood of all of its elements. Accordingly, for general "notions of convergence" $\xi \in Rel(\beta S, S)$, define a collection $\tau(\xi) \subseteq P(S)$ by 
+
+$$\tau(\xi) \coloneqq \{U \subseteq S: (x \in U \; \wedge\; F \rightsquigarrow_\xi x) \Rightarrow U \in F\}.$$ 
+
++-- {: .num_prop #topology} 
+###### Proposition 
+$\tau(\xi)$ is a topology on $S$. 
+=-- 
+
++-- {: .proof}
+###### Proof 
+It is trivial that $S \in \tau(\xi)$. If $U, V \in \tau(\xi)$, and if $x \in U \cap V$ and $F \rightsquigarrow x$, then also $x \in U$ and $x \in V$ and we conclude $U, V \in F$, whence $U \cap V \in F$ since $F$ is an ultrafilter, so that $U \cap V$ satisfies the condition of belonging to $\tau(\xi)$. Given a collection of elements $U_i \in \tau(\xi)$, if $x \in \cup_i U_i$ and $F \rightsquigarrow x$, then $x \in U_i$ for some $i$ and we conclude $U_i \in F$, whence $\cup_i U_i \in F$ since $F$ is upward closed. Therefore $\cup_i U_i$ satisfies the condition of belonging to $\tau(\xi)$ (vacuously so if the collection is empty). 
+=-- 
+
++-- {: .num_prop #galois} 
+###### Proposition 
+There is a Galois connection between notions of convergence on $S$ and subsets of $P(S)$, according to the bi-implication 
+
+$$\mathcal{C} \subseteq \tau(\xi) \; \Leftrightarrow \; \xi \subseteq conv(\mathcal{C}).$$ 
+
+=-- 
+
++-- {: .proof} 
+###### Proof 
+To establish the bi-implication, it suffices to observe that both containments $\mathcal{C} \subseteq \tau(\xi)$ and $\xi \subseteq conv(\mathcal{C})$ are equivalent to the condition 
+
+$$\forall_{F: \beta S} \forall_{U: P S} \forall_{x: S} (F \rightsquigarrow_\xi x) \; \wedge \; (U \in \mathcal{C}) \; \wedge \; (x \in U) \; \; \Rightarrow \; \; (U \in F).$$ 
+=-- 
+
++-- {: .num_prop #fix} 
+###### Proposition 
+If $\mathcal{O}$ is a topology on $S$, then $\mathcal{O} = \tau(conv(\mathcal{O}))$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+We already have $\mathcal{O} \subseteq \tau(conv(\mathcal{O}))$ from Proposition \ref{galois}. For the other direction, we must show that any $V$ belonging to $\tau(conv(\mathcal{O}))$ is a neighborhood of each of its points. Suppose the contrary: that $x \in V$ but $V$ is not a neighborhood of $x$. Then for every neighborhood $U \in N_x$, we have $U \cap \neg V \neq \emptyset$, so that sets of this form generate a filter. Extend to an ultrafilter $F$; clearly we have $F \rightsquigarrow x$ and $\neg V \in F$, but since $F \rightsquigarrow x$ and $V \in \tau(conv(\mathcal{O}))$ and $x \in V$, we also have $V \in F$, which is inconsistent with $\neg V \in F$. 
+=-- 
 
 This definition exhibits a topological space as a particular type of [[pseudotopological space]].  (A pseudotopological space is just a relational $\beta$-module which omits the "associativity" axiom.)
 
