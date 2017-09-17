@@ -66,7 +66,7 @@ In this notation a **site** $X$ is a pair consisting of
 
 Then a **morphism of sites** $f : X \to Y$ is
 
-* a morphism of presites $f : X \to Y$ (hencea [[functor]] $f^t : S_Y \to S_X$);
+* a morphism of presites $f : X \to Y$ (hence a [[functor]] $f^t : S_Y \to S_X$);
 
 * such that it preserves the site structure. This means
 
