@@ -1,3 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++-- {: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+### In 1-topos theory
+
 Let $(C, \tau)$ be a [[small site|small]] [[cartesian site|cartesian]] [[site]].
 
 +-- {: .num_defn}
@@ -20,6 +45,39 @@ Let $(C, \tau)$ be a [[small site|small]] [[cartesian site|cartesian]] [[site]],
 
 This is ([Johnstone, Theorem D3.3.7](#JohnstoneSketches)).
 
+### In $(\infty,1)$-topos theory
+ {#InInfinityToposTheory}
+
++-- {: .num_defn }
+###### Definition
+
+An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is an _$n$-coherent object_ if the [[slice (∞,1)-topos]] $\mathbf{H}_{/X}$ is an [[n-coherent (∞,1)-topos]] 
+
+=--
+
+([Lurie, def. 3.1](#Lurie)).
+
++-- {: .num_remark }
+###### Remark
+
+A coherent object which is also [[n-truncated object of an (∞,1)-category|n-truncated]] for some $n$ is called a _[[finitely constructible object]]_.
+
+=--
+
+([[Rational and p-adic Homotopy Theory|Lurie pAdic, def. 2.3.1]])
+
+## Examples
+
++-- {: .num_example }
+###### Example
+
+[[∞Grpd]] is a [[coherent (∞,1)-topos]] and a [[locally coherent (∞,1)-topos]]. An [[object]] $X$, hence an [[∞-groupoid]], is an $n$-coherent object if all its [[homotopy groups]] in degree $k \leq n$ are [[finite set|finite]]. Hence the fully coherent objects here are the [[homotopy types with finite homotopy groups]].
+
+=--
+
+([[Spectral Schemes|Lurie SpecSchm, example 3.13]])
+
+
 ## See also
 
 * [[compact object]]
@@ -29,3 +87,12 @@ This is ([Johnstone, Theorem D3.3.7](#JohnstoneSketches)).
 ## References
 
 * {#JohnstoneSketches} [[Peter Johnstone]], [[Sketches of an elephant]], D3.3.
+
+* {#Lurie} [[Jacob Lurie]], section 3 of _[[Spectral Schemes]]_ 
+
+
+[[!redirects coherent objects]]
+
+[[!redirects n-coherent object]]
+[[!redirects n-coherent objects]]
+
