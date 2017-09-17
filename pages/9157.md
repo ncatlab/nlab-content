@@ -1,0 +1,6 @@
+
+* [webpage](http://www.math.tamu.edu/~comech/archive/fedosov/)
+
+category: people
+
+[[!redirects Boris Vasilievich Fedosov]]
