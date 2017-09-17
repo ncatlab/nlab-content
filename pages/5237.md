@@ -34,7 +34,7 @@ For $C$ a [[monoidal category]], the **category of [[monoid]]s** $Mon(C)$  in th
 
 ## Properties
 
-### Free monoids {#FreeMonoids}
+### Free and relative free monoids {#FreeMonoids}
 
 +-- {: .un_lemma}
 ###### Observation
@@ -108,16 +108,105 @@ Free algebras of the form $F(A)$ are called **[[tensor algebra]]**s, at lest for
 +-- {: .un_prop #PushOutOfMonoidsAlongFreeMorphisms}
 ###### Proposition
 
-For $C$ a category with [[colimit]]s the category $Mon(C)$ of monoids has all [[pushout]]s along morphisms $F(f) : F(A) \to F(B)$ for $f : A \to B$ a morphism in $C$ and $F : C \to Mon(C)$ the free monoid functor from above.
+For $C$ a category with [[colimit]]s the category $Mon(C)$ of monoids has all [[pushout]]s 
+
+$$
+  \array{
+    F(K) &\stackrel{F(f)}{\to}& F(L)
+    \\
+    {}^{\mathllap{p}}\downarrow && \downarrow
+    \\
+    X &\to& P
+  }
+$$
+
+along morphisms $F(f) : F(K) \to F(L)$ for $f : K \to L$ a morphism in $C$ and $F : C \to Mon(C)$ the free monoid functor from above.
+
+Moreover, these pushouts in $Mon(C)$ are computed in $C$ as the [[colimit]] over a sequence
+
+$$
+  P \simeq \lim_{\to}( X := P_0 \to P_1 \to P_2 \to \cdots )
+$$
+
+of objects $(P_n)_{n \in \mathbb{N}}$, which are each given by pushouts in $C$ inductively as follows. 
+
+Assume $P_{n-1}$ has been defined. Write $Sub(\mathbf{n})$ for the [[poset]] of [[subset]]s of the $n$-element set $\mathbf{n}$ (this is the poset of paths along the edges of an $n$-dimensional cube). Define a [[diagram]]
+
+$$
+  K : Sub \mathbf{n} \to C
+$$
+
+by setting on subsets $S \subset \mathbf{n}$
+
+$$
+  K_S := X \otimes V_1 \otimes X \otimes V_2 \otimes  \cdots \otimes V_n 
+$$
+
+where
+
+$$
+  V_i := \left\{
+     \array{
+        K & if not i \in S
+        \\
+        L & if i \in S
+     }
+  \right.
+$$
+
+and by assigning to a morphism $S_1 \subset S_2$ the morphism which is the [[tensor product]] of identities on $X$, identities on $L$ and the given morphism $f : K \to L$.
+
+Write $K^-$ for the same diagram minus the terminal object $S = \mathbf{n}$. 
+
+Now take $P_n$ to be the [[pushout]]
+
+$$
+  \array{
+    \lim_{\to} K^- &\to& K \mathbf{n}
+    \\
+    \downarrow && \downarrow
+    \\
+    P_{n-1} &\to& P_n
+  }
+  \,,
+$$
+
+where the top morphism is the canonical one induced by the commutativity of the diagram $K$, and where the left morphism is defined in terms of components $K^-(S)$ of the colimit for $S \subset \mathbf{n}$ a proper subset by the tensor product morphisms of the form 
+
+$$
+  (\cdots X \otimes K \otimes \cdots \otimes L \otimes \cdots)
+  \stackrel{\cdots \otimes \mu_X \circ (Id \otimes p) \otimes \cdots \otimes Id_L \otimes \cdots}{\to}  
+  (X \otimes L)^{|S|} \otimes X
+  \to P_{|S|} \to P_{n-1}
+  \,.
+$$
+
+
 
 =--
 
-The construction is spelled out for instance in the proof of [SchwedeShipley, lemma 6.2](#SchwedeShipley)
+This construction is spelled out for instance in the proof of [SchwedeShipley, lemma 6.2](#SchwedeShipley)
 
 +-- {: .proof}
 ###### Proof 
 
+First we need to discuss that this definition is actually consistent, in that the morphism $\lim_\to K^- \to P_{n-1}$ is well defined.
+
 (...)
+
+
+We now equip $P$ with the following structure of a monoid in $C$:
+
+(...)
+
+We claim that this makes $X \to P$ indeed a morphism of monoids:
+
+(...)
+
+Finally we need to check the universal property of the cocone $P$ obtained this way:
+
+(...)
+
 
 =--
 
