@@ -4,7 +4,11 @@
 
 ##Idea##
 
-Event structures were introduced i order to abstract away from the precise 'places' and times at which events occur in distributed systems. The structre focuses on the events and the causal ordering between them.
+Event structures were introduced in order to abstract away from the precise 'places' and times at which events occur in distributed systems. The structure focuses on the events and the causal ordering between them.
+
+
+##Original form##
+
 +--{: . un-definition}
 ##Definition##
 An _event structure_, $(E,\le, \sharp)$, consists of a [[poset]] $(E,\le)$ of _events_, where the partial order relation expresses _causal dependency_, together with a symmetric irreflexive relation $\sharp$, called _incompatibility_  .  This data is to satisfy
@@ -19,8 +23,8 @@ and
 +--{: . un-definition}
 ##Definition## 
 
-Let $\mathbb{E} = (E,\le, \sharp)$ be an event structure. Define its set of _configurations_, 
-$D(\mathbb{E}) = D(E,\le, \sharp)$, to consist of those subsets $X \subseteq E$, which are 
+Let $\mathbb{E} = (E,\le, \sharp)$ be an event structure. Define its set of **configurations**, 
+$C(\mathbb{E}) = C(E,\le, \sharp)$, to consist of those subsets $X \subseteq E$, which are 
  
 * conflict-free: if $e, e'\in X$ then $\neg (e\sharp e')$,
 
@@ -32,7 +36,7 @@ and
 A morphism $f : \mathbb{E}\to \mathbb{E}'$ of event structures consists of a [[partial function]] $f : E \to  E'$ such that 
 
 * if 
-$X\in D(\mathbb{E})$, then $f(X) \in D(\mathbb{E}')$
+$X\in C(\mathbb{E})$, then $f(X) \in C(\mathbb{E}')$
 
 and 
 
@@ -55,7 +59,7 @@ With this definition of morphism, we get the category, $\mathbf{ES}$ of event st
 
 ##Alternative form##
 
-In some sources, rather than stress the _inconsistency relation_, the complementary _consistency relation_.  This leads to the definition of a family, $Con$, of finite subsets of $E$, which satisy
+In some sources, rather than stress the _inconsistency relation_, the complementary _consistency relation_.  This leads to the definition of a family, $Con$, of finite subsets of $E$, which satisfy
 
 
 * $\{e\}\in E$ for all $e\in E$;
@@ -69,7 +73,9 @@ and
 
 ##References##
 
-* G. Winskel and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
+* [[G. Winskel]] and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
-* G. Winskel, _Events, causality, and symmetry_, (an earlier version appeared in the BCS conference 'Visions in Computer Science.' September 2008. The final version appears in a special issue of The Computer Journal 2009; doi: 10.1093/comjnl/bxp052; see also  an [online version]
-(http://www.cl.cam.ac.uk/~gw104/CJVision-Revised.pdf)).
+* [[G. Winskel]], _Events, causality, and symmetry_, (an earlier version appeared in the BCS conference 'Visions in Computer Science.' September 2008. The final version appears in a special issue of The Computer Journal 2009; doi: 10.1093/comjnl/bxp052; see also  an [online version](http://www.cl.cam.ac.uk/~gw104/CJVision-Revised.pdf)).
+
+* [[G. Winskel]] and S. Staton, On the expressivity of symmetry in event structures,
+[LICS 2010](http://www.cl.cam.ac.uk/~gw104/lics2010final.pdf)
