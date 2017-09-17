@@ -56,8 +56,12 @@ Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which g
 
 ## Examples 
 
-The prototype is the pretopology consisting of [[open cover]]s of a
-[[topological space]]/[[manifold]].  Other pretopologies on [[Top]] include:
+The prototype is the pretopology on the [[category of open subsets]] $Op(X)$ 
+of a [[topological space]] $X$, consisting of [[open cover]]s of $X$. 
+
+Notice that a **basis for the topology** of $X$ is not a Grothendieck pretopology on $Op(X)$ (since it is in general not closed under pullback, which here is restriction) but is a [[coverage]] on $Op(X)$.
+
+Grothendieck Pretopologies on [[Top]] include:
 
 * [[local section|Local-section]]-admitting surjections
 * Surjective [[open map|open maps]]
@@ -68,7 +72,7 @@ An example for the category [[Diff]] of manifolds is the pretopology of [[surjec
 
 Most of the examples of [[coverage|coverages]] are in fact Grothendieck pretopologies.
 
-An example of a coverage that is not a pretopology is the coverage of [[good open cover]]s. In general the pullback of a good open cover is just an [[open cover]], not necessarily still one where all finite non-empty intersections are contractible.
+An example of a coverage that is not a pretopology is the coverage of [[good open cover]]s, say on [[Diff]]. In general the pullback of a good open cover is just an [[open cover]], not necessarily still one where all finite non-empty intersections are contractible.
 
 
 ## References
