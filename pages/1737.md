@@ -42,6 +42,9 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 
 * [[Samson Abramsky]];
 
+* [[Andrea Asperti]];
+
+
 * [[Andrej Bauer]];
 
 * [[Lars Birkedal]];
@@ -83,6 +86,10 @@ Other aspects are treated in
 
 * [[Michael Barr]], [[Charles Wells]], _[Category Theory for Computing Science](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html)_.
 
+and 
+
+* [[Andrea Asperti]], [[Guiseppe Longo]], _Categories, types and structures, An Introduction to Category Theory for the working computer scientist_, M.I. T. Press (out of print, but available [online](
+http://www.cs.unibo.it/~asperti/PAPERS/book.pdf).)
 
 category: computer science
 
