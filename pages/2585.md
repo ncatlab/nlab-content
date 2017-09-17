@@ -252,7 +252,7 @@ $$
   \right)
 $$
 
-mentioned above, consisting degreewise of coproducts of representables with $\Pi_0(U_i) = *$. Due to the lifting property of cofibrant objects, any colimit over all hypercovers can be computed by evaluating just at that hypercover.
+mentioned above, consisting degreewise of coproducts of representables with $\Pi_0(U_i) = *$. For instance if $X$ admits a [[good open cover]], we can take $Y$ to be the [[Cech nerve]] of that good cover. (For more on this see [[∞-Lie groupoid]].) Due to the lifting property of cofibrant objects, any colimit over all hypercovers can be computed by evaluating just at that hypercover.
 
 There the Artin-Mazur-Moerdijk-prescription yields
 
@@ -273,6 +273,9 @@ $$
 $$
 
 This is indeed the action of the left Quillen functor from above.
+
+It is the [[nerve theorem]] that asserts that for $Y$ the [[Cech nerve]] of a [[good open cover]], this simplicial set is homotopy equivalent to the original [[paracompact space]].
+
 
 A closely related, implicitly slightly more general statement is in on p. 25 of
 
