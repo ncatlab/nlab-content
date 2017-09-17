@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -11,7 +11,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -32,7 +32,7 @@ Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the t
 
   1. the open subsets of $X$ (thought of as subsets of $X^*$);
 
-  1. the [[complements]] (in $X^*$) of the [[closed subspace|closed]] [[compact space|compact]] subsets of $X$.
+  2. the [[complements]] (in $X^*$) of the [[closed subspace|closed]] [[compact space|compact]] subsets of $X$.
 
 (If $X$ is [[Hausdorff space|Hausdorff]], then its compact subsets must always be closed, so (2) is often given in a simpler form.)
 
@@ -54,6 +54,7 @@ $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X
 
 * [[Thom space]]
 
+
 ## References
 
 * John Kelly, _General Topology_ (1975)
@@ -61,6 +62,7 @@ $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X
 
 [[!redirects one-point compactification]]
 [[!redirects one-point compactifications]]
+[[!redirects One-point compactification]]
 [[!redirects Alexandroff compactification]]
 [[!redirects Alexandroff compactifications]]
 [[!redirects Alexandrov compactification]]
