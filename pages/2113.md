@@ -43,6 +43,8 @@ More generally, the __generalized flag variety__ is the complex projective varie
 
 * [[Schubert calculus]]
 
+* [[character sheaf]], [[horocycle correspondence]], [[Harish Chandra transform]]
+
 ## References
 
 * D. Monk, _The geometry of flag manifolds_, Proceedings of the London Mathematical Society 1959 s3-9(2):253--286; [doi:10.1112/plms/s3-9.2.253](http://dx.doi.org/10.1112/plms/s3-9.2.253)
