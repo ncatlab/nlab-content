@@ -122,7 +122,7 @@ and hence may consistently be named $S$.
 
 ## Examples and illustration
 
-### For the cosimplicial $sSet$-category
+### For the cosimplicial $sSet$-category {#IllustratOfCosimpSSetCat}
 
 We illustrate here the nature of the cosimplicial $sSet$-category $S : [n] \mapsto S[n]$.
 
@@ -232,11 +232,66 @@ and similarly for the one with 1 replaced by 2, *are* now fairly obvious.
 
 
 
-For $n = 4$, the corresponding diagram for $S[4](0,4)$ gives a cube (left to the reader), but here there is an interesting feature.  The 4-simplex has five 3-dimensional faces and each will give one 2-dimensional face of that cube.  A cube has six 2-dimensional faces. The 'extra' sixth face corresponds to the interchange law, or, if preferred, to the fact that
+For $n = 4$, the corresponding diagram for $S[4](0,4)$ gives a cube 
+but here there is an interesting feature.  
+
+Five of the six faces of the cube $|N(P_{0,4})|$ correspond to the the associativity of composition of triples of composable morphisms in $[4]$. These correspond to the 5 faces of the 4-simplex $\Delta[4]$, as depicted for instance at [[oriental]] and at [[monoidal category]].
+
+But the cube has one more face
+
+$$
+  \array{
+    (0,2,4) &\to& (0,1,2,4)
+    \\
+    \downarrow &\searrow& \downarrow
+    \\
+    (0,2,3,4) &\to& (0,1,2,3,4)
+  }
+$$
+
+which does not correspond to associativity: instead, this encodes the [[exchange law]]
+
+
+$$
+  \array{
+    && 1 &&&& 3
+    \\
+    & \nearrow &\Uparrow& \searrow && \nearrow && \searrow
+    \\
+    0 &&\to&& 2 &&  && 4
+    \\
+    &&  &&&& 3
+    \\
+    & && && \nearrow &\Uparrow& \searrow
+    \\
+    0 &&\to&& 2 && \to && 4  
+  }
+  \;\;\;\;\;\;
+  =
+  \;\;\;\;\;\;
+  \array{
+    && 1 &&&& 3
+    \\
+    & \nearrow && \searrow && \nearrow &\Uparrow& \searrow
+    \\
+    0 &&&& 2 && \to && 4
+    \\
+    && 1 &&&& 
+    \\
+    & \nearrow &\Uparrow& \searrow &&  && 
+    \\
+    0 &&\to && 2 && \to && 4  
+  }
+$$
+
+or, if preferred, to the fact that
 
 $$S[4](2,4)\times S[4](0,2)\to S[4](0,4)$$
 
 is to be a simplicial map.
+
+
+
 
 A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' in $S[5](0,5)$, and so on.
 
