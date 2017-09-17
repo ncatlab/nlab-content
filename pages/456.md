@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -48,12 +53,42 @@ such that the left adjoint $f^*:F \to E$ preserves finite [[limits]].
 
 If moreover the [[inverse image]] $f^*$ has also a [[left adjoint]] $f_! : F \to E$, then $f$ is an [[essential geometric morphism]].
 
-## Remarks
-
-* Since [[Grothendieck topos|Grothendieck toposes]] satisfy the (dual) hypotheses of Freyd's special [[adjoint functor theorem]], any functor $f^*$ between Grothendieck toposes which preserves all small colimits must have a right adjoint.  Therefore, a geometric morphism between Grothendieck toposes could equivalently be defined as a functor preserving finite limits and all small colimits.
+**Remark.** Since [[Grothendieck topos|Grothendieck toposes]] satisfy the (dual) hypotheses of Freyd's special [[adjoint functor theorem]], any functor $f^*$ between Grothendieck toposes which preserves all small colimits must have a right adjoint.  Therefore, a geometric morphism between Grothendieck toposes could equivalently be defined as a functor preserving finite limits and all small colimits.
 
 
-## Surjections and embeddings
+## Special classes of geometric morphisms
+
+There are vrious extra properties of a geometric moprhisms that are relevant. 
+
+* [[direct image]]/[[inverse image]]
+
+* [[global section|global sections]]
+
+* [[geometric embedding]]
+
+* [[locally connected geometric morphism]]
+
+  * [[essential geometric morphism]]
+
+  * [[connected geometric morphism]]
+
+* [[local geometric morphism]]
+
+* [[bounded geometric morphism]]
+
+* [[base change]]
+
+* [[etale geometric morphism]]
+
+* [[localic geometric morphism]]
+
+* [[hyperconnected geometric morphism]]
+
+* [[cohesive topos|cohesive morphism]]
+
+The following subsections describe some more.
+
+### Surjections and embeddings
 
 A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful functor|faithful]].  It is an **[[geometric embedding|embedding]]** if $f_*$ is [[full and faithful functor|fully faithful]].
 
@@ -78,7 +113,6 @@ where $E_G$ is the category of coalgebras for a finite-limit-preserving [[comona
 
 Every geometric morphism $f:E\to F$ factors, uniquely up to equivalence, as a surjection followed by an embedding.  There are two ways to produce this factorization: either construct $E_G$ where $G= f^*f_*$ is the comonad induced by the adjunction $f^*\dashv f_*$, or construct $Sh_j(F)$ where $j$ is the smallest Lawvere-Tierney topology on $F$ such that $f$ factors through $Sh_j(F)$.  In fact, surjections and embeddings form a 2-categorical [[orthogonal factorization system]] on the 2-category of topoi.
 
-## Examples {#Examples}
 
 ### Global sections and constant sheaves
 
@@ -303,5 +337,11 @@ Geometric morphisms are the topic of section VII of
 * [[Saunders MacLane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ .
 
 Embeddings and surjections are discussed in section VII.4.
+
+Geometric morphisms are defined in section A4 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+The special classes of geometric morphisms are discussed in section C3.
 
 [[!redirects geometric morphisms]]
