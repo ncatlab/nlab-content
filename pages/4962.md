@@ -3,12 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher geometry
+#### Cohesive $\infty$-Toposes
 +--{: .hide}
-[[!include higher geometry - contents]]
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
