@@ -1,27 +1,70 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-For $i : X \hookrightarrow Y$ an [[immersion]] (notably an [[embedding]]) of [[manifold]]s, the **normal bundle** of $X$ in $Y$ relative to $i$ is the the [[bundle]] 
++-- {: .num_defn}
+###### Definition
+
+For $i : X \hookrightarrow Y$ an [[immersion]] (notably an [[embedding]]) of [[smooth manifold]]s, the **normal bundle** of $X$ in $Y$ relative to $i$ is the the [[vector bundle]] 
 
 $$
-  N_i(X) \to X
+  N_i X  \to X
 $$
 
-which is [[fiber]]wise the [[quotient]] of the fiber of the [[tangent bundle]] of $Y$ by the [[tangent bundle]] of $X$: for $x \in X$
+which is [[fiber]]wise the [[quotient]] (of [[abelian group]]s underlying the [[vector space]]s) of the fiber of the [[tangent bundle]] of $Y$ by the [[tangent bundle]] of $X$: for $x \in X$
 
 $$
-  N_i(X)_x =  T_{i(x)}Y/T_x(X)
+  N_i (X)_x =  T_{i(x)}Y/T_x(X)
   \,.
 $$
 
+=--
+
 The dual notion is that of [[conormal bundle]].
+
++-- {: .num_remark}
+###### Remark
+
+There is always an [[isomorphism]]
+
+$$
+  T X \oplus N_i X  \simeq T Y|_X
+  \,,
+$$
+
+but it is not canonically given, hence in particular cannot it general be chosen [[natural transformation|naturally]]. Except if certain additional structure is given:
+
+If $Y$ is equipped with a [[Riemannian metric]] $g$, then we may identify the normal bundle with the bundle of [[vector]]s that are _orthogonal_  to ("normal to") the vectors in $T X$:
+
+$$
+  N_i(X) \simeq (T X)^\perp :=
+  \{
+    (x,v) \in T Y|_{X} | \forall w \in T_x X :  g(v,w) = 0
+  \}
+  \,.
+$$
+
+=--
 
 ## Related concepts
 
 * Normal bundle plays a central role for instance in the theory of [[fiber integration]] by means of [[Pontrjagin-Thom collaps map]]s.
 
-* [[conormal bundle]]
+* [[tubular neighbourhood]], [[conormal bundle]]
