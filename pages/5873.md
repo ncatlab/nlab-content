@@ -119,6 +119,8 @@ nontrivial $P(X)$, but a syntactically presented one".
 
 ## Related notions
 
+* [[comprehension]]
+
 * [[tripos]]
 
 * [[modal hyperdoctrine]]
