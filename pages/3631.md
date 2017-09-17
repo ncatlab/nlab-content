@@ -32,7 +32,7 @@ Two compacta contained in $s$ are said to have the _same shape_ if they are isom
 If $X$ and $Y$ are compacta in $s$, then $X$ and $Y$ have the same shape if and only if their complements $Q\setminus X$ and $Q\setminus Y$ are homeomorphic.
 =--
 
-Chapman extended the association $X$ 'goes to' $Q\setminus X$ to a functor from the Borsuk shape category to the weak [[proper homotopy]] category of complements in $Q$ of compacta.  This was the basis for Edwards-Hastings formulation of [[strong shape theory]], on replacing the weak form of proper homotopy by a strong form. 
+Chapman extended the association $X$ 'goes to' $Q\setminus X$ to a functor from the Borsuk shape category to the weak [[proper homotopy theory|proper homotopy]] category of complements in $Q$ of compacta.  This was the basis for Edwards-Hastings formulation of [[strong shape theory]], on replacing the weak form of proper homotopy by a strong form. 
 
 
 ##References##
