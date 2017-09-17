@@ -226,7 +226,7 @@ Therefore it is sufficient to list properties of only one type of these fib rati
 
 =--
 
-#### Homotopy lifting property
+### Homotopy lifting property
 
 In classical [[homotopy theory]], a continuous map $p : E \to B$ of [[topological spaces]] is said to have the [[homotopy lifting property]] if it has the [[right lifting property]] with respect to all morphisms $Y \stackrel{(Id, 0)}{\to} Y \times I$ for $I = [0,1]$ the standard [[interval]] and every commuting diagram
 
@@ -290,7 +290,7 @@ This is a corollary of the characterization of left anodyne morphisms in [Proper
 =--
 
 
-#### As fibrations in $\infty$-groupoids
+### As fibrations in $\infty$-groupoids
 
 The notion of right fibration of quasi-categories generalizes the notion of [[category fibered in groupoids]]. This follows from the following properties.
 
@@ -385,7 +385,7 @@ Due to [[Andre Joyal]]. Recalled as [[Higher Topos Theory|HTT, prop 2.1.2.2]].
 =--
 
 
-#### (Left/)Right anodyne moprphisms {#PropRightAnodyne}
+### (Left/)Right anodyne morphisms {#PropRightAnodyne}
 
 +-- {: .un_prop}
 ###### Proposition
