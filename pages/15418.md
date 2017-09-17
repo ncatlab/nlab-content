@@ -5,11 +5,21 @@
 
 ## Idea
 
-Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], [Selberg 56](#Selberg56) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _Selberg zeta function of a Riemann surface_. (e.g. [Bump,below theorem 19](#Bump)).
+Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _Selberg zeta function of a Riemann surface_. (e.g. [Bump, below theorem 19](#Bump)).
 
 > (Is it however on the nose the [[zeta function of an elliptic differential operator]] for the [[Laplace operator]]?)
 
+## Examples
+
+### Of Dirac operators twisted by a flat connection
+ {#OfDiracOperatorTwistedByFlatConnection}
+
+For $A$ a [[flat connection]] on a [[Riemannian manifold]], write $D_A$ for the [[Dirac operator]] twisted by this connection. 
+
+On a suitable [[hyperbolic manifold]], the [[partition function]]/[[theta function]] for $D_A$ appears in ([Bunke-Olbrich 94a, def. 3.1](#BunkeOlbrich94a)) (there for the odd dimensional case). The corresponding Selberg zeta formula is ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)). This has a form analogous to that of [[Artin L-functions]] with the flat connection replaced by a [[Galois representation]].
+
 ## Properties
+
 
 ### Function field analogy
 
@@ -23,8 +33,11 @@ Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula 
 
 ## References
 
+The original article is
+
 * {#Selberg56} [[Atle Selberg]], _Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series_, Journal of the Indian Mathematical Society 20 (1956) 47-87.
 
+Review includes
 
 * Wikipedia, _[Selberg zeta function](http://en.wikipedia.org/wiki/Selberg_zeta_function)_
 
@@ -32,11 +45,24 @@ Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula 
 
 * {#Bump} Bump, below theorem 19 in _Spectral theory of $\Gamma \backslash SL(2,\mathbb{R})$_ ([[BumpSpectralTheory.pdf:file]])
 
-* {#BunkeOlbrich95} [[Ulrich Bunke]], Martin Olbrich, _Selberg zeta and theta functions: a differential operator approach_, Akademie Verlag 1995
+Discussion in terms of [[theta functions]] of twisted [[Dirac operators]] is in 
 
-* [[Ulrich Bunke]], Martin Olbrich _$\Gamma$-Cohomology and the Selbeg zeta function_ ([arXiv:dg-ga/9411004](http://arxiv.org/abs/dg-ga/9411004))
+* [[Ulrich Bunke]], [[Martin Olbrich]], Andreas Juhl, _The wave kernel for the Laplacian on the classical locally symmetric spaces of rank one, theta functions, trace formulas and the Selberg zeta function_, Annals of Global Analysis and Geometry February 1994, Volume 12, Issue 1, pp 357-405
 
-* [[Ulrich Bunke]], Martin Olbrich, _Group cohomology and the singularities of the Selberg zeta function associated to a Kleinian group_ ([arXiv:dg-ga/9603003](http://arxiv.org/abs/dg-ga/9603003))
+* {#BunkeOlbrich94} [[Ulrich Bunke]], Martin Olbrich, _Theta and zeta functions for locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407013](http://arxiv.org/abs/dg-ga/9407013))
+
+and for odd-dimensional spaces also in
+
+* {#BunkeOlbrich94a} [[Ulrich Bunke]], [[Martin Olbrich]], _Theta and zeta functions for odd-dimensional locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407012](http://arxiv.org/abs/dg-ga/9407012))
+
+* {#BunkeOlbrich94b} [[Ulrich Bunke]], [[Martin Olbrich]] _$\Gamma$-Cohomology and the Selbeg zeta function_ ([arXiv:dg-ga/9411004](http://arxiv.org/abs/dg-ga/9411004))
+
+* [[Ulrich Bunke]], [[Martin Olbrich]], _Group cohomology and the singularities of the Selberg zeta function associated to a Kleinian group_ ([arXiv:dg-ga/9603003](http://arxiv.org/abs/dg-ga/9603003))
+
+A survey is in 
+
+* {#BunkeOlbrich95} [[Ulrich Bunke]], [[Martin Olbrich]], _Selberg zeta and theta functions: a differential operator approach_, Akademie Verlag 1995
+
 
 [[!redirects Selberg zeta function]]
 
