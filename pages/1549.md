@@ -1,3 +1,41 @@
-A class $I$ of [[object]]s in a [[cartesian closed category]] $C$ is called an **exponential ideal** if whenever $Y\in I$ and $X\in C$, the [[exponential object]] $Y^X$ is in $I$.  Of course, in particular this implies that $I$ is itself cartesian closed.
 
-If $I$ is a [[reflective subcategory]], then it is an exponential ideal if and only if its [[reflector]] $C\to I$ preserves finite [[product]]s (see A4.3.1 in the [[Elephant]]).
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A class $I$ of [[object]]s in a [[cartesian closed category]] $C$ is called an **exponential ideal** if whenever $Y\in I$ and $X\in C$, the [[exponential object]] $Y^X$ is in $I$.  
+
+Of course, in particular this implies that $I$ is itself cartesian closed.
+
+## Properties
+
++-- {: .num_theorem}
+###### Theorem
+
+If $I \hookrightarrow C$ is a [[reflective subcategory]], then it is an exponential ideal if and only if its [[reflector]] $C\to I$ preserves finite [[product]]s.
+
+=--
+
+This appears for instance as ([Johnstone, A4.3.1](#Johnstone)).
+
+
+## References
+
+The relation of exponential ideals to [[reflective subcategories]] is discussed in section A4.3.1 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+  {#Johnstone}
+
+[[!redirects exponential ideals]]
