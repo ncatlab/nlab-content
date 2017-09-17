@@ -173,7 +173,7 @@ This means that the [[configuration space]] of Chern-Simons theory over $(\Sigma
 This [[orbit method]]-formulation of Wilson loops in Chern-Simons theory was vaguely indicated in ([Witten89, p. 22 ](#Witten)). 
 More details were discussed in ([EMSS 89](#EMSS)), but in the context of other [[gauge theories]] ([[Yang-Mills theory]]) the same formulation appears much earlier in ([Balachandran, Borchardt, Stern 78](#BBS)).
 A detailed review and further refinements are discussed in section 4 of ([Beasley 09](#Beasley)).
-Aspects of the formulation in the context of [[BV-BRST formalism]] are discussed in ([Alekseev-Barmaz-Mnev 12](#AlekseevBarmazMnev)).
+Aspects of the formulation in the context of [[BV-BRST formalism]] are discussed in ([Alekseev-Barmaz-Mnev 12](#AlekseevBarmazMnev)). The formalizations via [[extended Lagrangians]] and [[extended prequantum field theory]] is in ([Fiorenza-Sati-Schreiber 12](#FiorenzaSatiSchreiber)). 
 
 
 ### For general gauge groups
@@ -596,6 +596,7 @@ A talk about the historical origins of the standard Chern-Simons forms see
 A discussion of Chern-Simons theory as a canonical object in [[infinity-Chern-Weil theory]] and its [[higher geometric quantization]] is in
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+ {#FiorenzaSatiSchreiber}
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
 
