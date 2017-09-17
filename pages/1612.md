@@ -71,17 +71,31 @@ Modular tensor categories arise as [[representation]] categories of [[vertex ope
 
 ### General
 
-section 2.1 of 
+A review is for instance in section 2.1 of ([Fuchs-Runkel-Schweigert 02](#FuchsRunkelSchweigert02)).
 
-* J. Fuchs, I. Runkel, C. Schweigert, _TFT construction of RCFT correlators I: partition functions_ ([arXiv](http://arxiv.org/abs/hep-th/0204148))
 
-### Relation to modular tensor categories
+### Relation to 3dCS/2dWZW quantum field theory
 
-A brief survey of results is in
+Discussion of modular tensor categories in [[quantum field theory]] ([[3d TQFT]] and [[2d CFT]], as well as their relation via the [[AdS3-CFT2 and CS-WZW correspondence|CS/WZW correspondence]]) includes the following.
+
+A general survey of the literature is in 
+
+* [[Eric Rowell]], _From quantum groups to Unitary modular tensor categories_, Contemporary Mathematics 2005 ([arXiv:math/0503226](http://arxiv.org/abs/math/0503226))
+
+See also
+
+* [[Victor Ostrik]], _Tensor categories in conformal field theory_, talk notes 2011  ([pdf slides](http://pages.uoregon.edu/vostrik/talks/beijing.pdf))
+
+More specific discussion in the context of [[2d CFT]] is in
+
+* {#FuchsRunkelSchweigert02} [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _TFT construction of RCFT correlators I: partition functions_ ([arXiv:hep-th/0204148](http://arxiv.org/abs/hep-th/0204148))
+
+  (for more along these lines see at _[[FRS formalism]]_)
+
+Review of construction of MTCs from [[vertex operator algebras]] is in
 
 * James Lepowsky, _From the representation theory of vertex operator algebras to modular tensor categories in conformal field theory_ ([pdf](http://www.pnas.org/content/102/15/5304.full.pdf))
 
-See [[vertex operator algebra]] for details.
 
 ### Examples
 
