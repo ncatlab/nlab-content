@@ -77,20 +77,27 @@ This means that it is desireable to get hold of presentable $(\infty,1)$-categor
 
 ## Definition 
 
-An [[(∞,1)-category]] $C$ is **presentable** precisely if the following equivalent conditions hold.
+### Locally presentable $(\infty,1)$-category
+
++-- {: .un_defn}
+###### Definition
 
 
-* $C$ is [[accessible (infinity,1)-category|accessible]] and admits small [[limit in quasi-categories|colimits]];
+An [[(∞,1)-category]] $C$ is called **locally presentable** 
+it is [[accessible (infinity,1)-category|accessible]] and admits small [[limit in quasi-categories|colimits]].
 
+=--
+
++-- {: .un_prop}
+###### Proposittion
+
+That $C$ is locally presentable is equivalent to each of the following characterizations.
 
 * $C$ is the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-presheaves]]:
 
   there exists a small $(\infty,1)$-category $D$ and a functor $f: PSh(D) \to C$ from the [[(infinity,1)-presheaf|(∞,1)-category of (∞,1)-presheaves]] on $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
   * (if in addition $f$ is left [[exact functor|exact]] then $C$ is an [[(∞,1)-category of (∞,1)-sheaves]] on $C$)
-
-
-This is equivalent to all of the following equivalent statements.
 
 
 * there exists a [[combinatorial simplicial model category]] $A$ and (with $C$ incarnated as a [[quasi-category]]) an equivalence $ C \simeq N(A^\circ)$ of $C$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on fibrant and cofirant objects.
@@ -105,28 +112,83 @@ This is equivalent to all of the following equivalent statements.
 
 * $C$ is [[locally small (infinity,1)-category|locally small]], admits small colimits, and there exists a [[cardinal number|regular cardinal]] $\kappa$ and a small [[set]] $Cmptcs$ of $\kappa$-[[compact object in an (infinity,1)-category|compact object]]s of $C$ such that every object in $C$ is a [[limit in quasi-categories|colimit]] of a small diagram in the full subcategory on $Cmpcts$.
 
+=--
 
-### The $(\infty,1)$-category of presentable $(\infty,1)$-categories 
-
-See
-
-* [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
-
-
-## Details
-
-...
+The equivalent $(\infty,1)$-categorical characterizations are originally due to [[Carlos Simpson]]. The whose theorem appears as [[Higher Topos Theory|HTT, theorem 5.5.1.1]].
 
 That [[localization of an (infinity,1)-category|localizations]] $C \stackrel{\leftarrow}{\hookrightarrow} PSh_{(\infty,1)}(K)$ correspond to combinatorial simplicial model categories is essentially **[Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem)**: every [[combinatorial model category]] arises, up to Quillen equivalence, as the left [[Bousfield localization of model categories|left Bousfield localization]] of the global projective [[model structure on simplicial presheaves]].
 
 * [[Dan Dugger]], _[[Combinatorial model categories have presentations]]_
 
 
+
+### The $(\infty,1)$-category of presentable $(\infty,1)$-categories 
+
+Locally presentable $(\infty,1)$-categories have a number of nice
+properties, and therefore it is of interest to consider as
+morphisms between them only those [[(∞,1)-functor]]s that preserve
+these properties. It turns out that it is useful to consider
+_[[limit in a quasi-category|colimit]] preserving_ functors. By the [[adjoint (∞,1)-functor theorem]] these are precisely the functors that have a right [[adjoint (∞,1)-functor]].
+
++-- {: .un_defn}
+###### Definition
+
+Write [[Pr(∞,1)Cat]] $\subset$ [[(∞,1)Cat]] for the (non-full) [[sub-quasi-category|sub-(∞,1)-category]] of [[(∞,1)Cat]] (the collection of not-necessarily small $(\infty,1)$-categories) on
+
+* those objects that are locally presentable $(\infty,1)$-categories;
+
+* those morphisms that are colimit-preserving [[(∞,1)-functor]]s.
+
+=--
+
+This is [[Higher Topos Theory|HTT, def. 5.5.3.1]].
+
+
+This $(\infty,1)$-category $Pr(\infty,1)Cat$ in turn as special properties. More on that is at [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]].
+
+
+
+
+
+
+
+
 ## Examples
 
-* For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-category $Alg_{(\infty,1)}(C)$ of algebras over $C$ regarded as an [[(∞,1)-algebraic theory]] is locally presentable.
-
 * An [[(∞,1)-topos]] is precisely a locally presentable $(\infty,1)$-category where the [[localization of an (∞,1)-category|localization]] functor also preserves finite limits.
+
+* Since [[Pr(∞,1)Cat]] admits all small limits, we obtain new locally presentable $(\infty,1)$-categories by forming limits over given ones. In particular the [[product]] of locally presentable $(\infty,1)$-categories is again locally presentable.
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ and $D$ locally presentable $(\infty,1)$-categories, write $Func^L(C,D) \subset Func(C,D)$ for the full sub-$(\infty,1)$-category on left-adjoint $(\infty,1)$-functors. This is itself locally presentable
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop 5.5.3.8]]
+
+Notice that this makes the [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]] _[[closed monoidal category|closed]]_ .
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ a locally presentable $(\infty,1)$-category and $p : K \to C$ a [[diagram]] in $C$, also the [[over quasi-category|over (∞,1)-category]] $C_{/pp}$ as well as the under-$(\infty,1)$-category $C_{p/}$ are locally presentable.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.3.10, prop. 5.5.3.11]].
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-category $Alg_{(\infty,1)}(C)$ of algebras over $C$ regarded as an [[(∞,1)-algebraic theory]] is locally presentable.
+
+=--
+
 
 ## References 
 
