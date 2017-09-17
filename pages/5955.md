@@ -127,5 +127,5 @@ Applications to [[string topology]] are discussed in
 See the section on string topology at [[sigma model]] for more on this.
 
 [[!redirects module spectra]]
-
+[[!redirects module-spectra]]
 [[!redirects module-spectrum]]
