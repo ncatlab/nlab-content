@@ -110,6 +110,26 @@ for the moment see
 Another main theorem about $(\infty,1)$-toposes is that
 [[models for ∞-stack (∞,1)-toposes]] are given by the [[model structure on simplicial presheaves]]. See there for details
 
+## Properties
+
+### Over-$(\infty,1)$-toposes
+
+**Proposition**
+
+For $\mathbf{H}$ an $(\infty,1)$-topos and $X \in \mathbf{H}$ an object, the [[over quasi-category|over (∞,1)-category]] $\mathbf{H}_{/X}$ is itself an $(\infty,1)$-topos. The projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ part of an  [[essential geometric morphism]]
+
+$$
+  \pi : \mathbf{H}_{/X} 
+  \stackrel{\overset{\pi_!}{\to}}{\stackrel{\overset{\pi^*}{\leftarrow}}{\underset{\pi_*}{\to}}}
+  \mathbf{H}
+  \,.
+$$
+
+This is [[Higher Topos Theory|HTT, prop. 6.3.5.1]].
+
+The $(\infty,1)$-topos $\mathbf{H}_{/X}$ could be called the [[gros topos]] of $X$. A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors as $\mathbf{K} \to \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ is called an [[etale geometric morphism]].
+
+
 
 ## $(\infty,1)$-topos theory {#ToposTheory}
 
