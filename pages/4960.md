@@ -45,7 +45,7 @@ In total this gives a quadruple of [[adjoint functor]]s
 
 A cohesive topos is a topos whose terminal [[geometric morphism]] admits an extenson to such a quadruple of adjoints, satisfying some further properties.
 
-Notice that the generic object in a cohesive topos is far from being just a set with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that neverthesee $\Gamma(X)$ is the singleton set, or even empty. The [[subcategory]] of objects in $E$ that we do may think of as bare sets with extra structure is the [[quasitopos]] $Conc_\Gamma(E)$ of the [[concrete sheaves]] inside $E$
+Notice that the generic object in a cohesive topos is far from being just a set with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that neverthesee $\Gamma(X)$ is the singleton set. The [[subcategory]] of objects in $E$ that we do may think of as bare sets with extra structure is the [[quasitopos]] $Conc_\Gamma(E)$ of the [[concrete sheaves]] inside $E$
 
 $$
   Set 
