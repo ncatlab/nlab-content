@@ -23,33 +23,69 @@ A [[submanifold]] of a [[symplectic manifold]] each [[tangent space]] of which i
 
 ### In cohesive higher geometry
 
-We discuss an axiomatization of ([[foliations]] by) isotropic subspaces in [[differential cohesion]].
+The following is a suggestion for an axiomatization of ([[foliations]] by) isotropic subspaces in the context [[differential cohesion]], followed by some considerations showing how these axioms reproduce traditional theory. 
+
+> Under construction.
 
 So let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]].
 
+As usual, we write $(\int \dashv \flat \dashv \sharp)$ for the [[adjoint triple]] of [[modalities]] that defines the [[cohesion]] -- [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] -- and we write $(Red \dashv \int_{inf} \dashv \flat_{inf})$ for the adjoint triple of of modalities that defines the [[differential cohesion]] -- [[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]. 
 
+Below we are going to axiomatize aspects of the traditional description of [[foliations]] by [[Lie groupoids]]/[[foliation groupoids]], so we start by briefly setting up some terminology on groupoids in differential cohesion.
 
+If we think of a [[1-epimorphism]] $\mathcal{G}_0 \to \mathcal{G}$ in $\mathbf{H}$ as the [[atlas]] on the cohesive $\infty$-groupoid $\mathcal{G} \in \mathbf{H}$, hence, by the [[Giraud-Rezk-Lurie axioms]], equivalently as a [[groupoid object in an (infinity,1)-category|groupoid object]] $\mathcal{G}_\bullet = \mathcal{G}_0^{\times^{\bullet+1}_{\mathcal{G}}}$, then we have the following "geometricity" constraints on groupoid objects
+
++-- {: .num_defn #GeometricAndEtale}
+###### Definition
+
+For $f \colon X \to Y$ any morphism in $\mathbf{H}$, write 
+
+$$
+  X \stackrel{L(f)}{\to} Y \underset{\int_{inf} Y}{\times} \int_{inf} X
+$$
+
+for the canonical morphism induced by the [[natural transformation|naturality]] of the $\int_{inf}$-[[unit of an adjunction|unti]]. We say that
+
+1. $f$ is a **[[formally smooth morphism]]** (or _[[submersion]]_) if $L(f)$ is a [[1-epimorphism]]
+
+1. $f$ is a **[[formally étale morphism]]** (or _[[local diffeomorphism]]_) if $L(f)$ is an [[equivalence in an (infinity,1)-category|equivalence]].
+
+Moreover, if $\pi \colon \mathcal{G}_0 \to \mathcal{G}$ is a [[1-epimorphism]], hence an [[atlas]] for the cohesive $\infty$-groupoid $\mathcal{G}$, then we say about the corresponding [[groupoid object in an (infinity,1)-category|groupoid object]] that
+
+1. $\mathcal{G}_\bullet$ is an [[geometric ∞-groupoid]] if its [[atlas]] $\pi$ is a [[formally smooth morphism]]/[[submersion]].
+
+1. $\mathcal{G}_\bullet$ is an [[étale ∞-groupoid]] if its [[atlas]] $\pi$ is a [[formally étale morphism]]/[[local diffeomorphism]].
+
+=--
 
 +-- {: .num_defn #FoliationInDifferentialCohesion}
 ###### Definition
 
 For $X \in \mathbf{H}$ a **[[foliation]]** of $X$ is 
-a morphism $\mathcal{D} \colon X \to X//\mathcal{D}$ which is 
+a morphism $\mathcal{D} \colon X \to X//\mathcal{D}$ in $\mathbf{H}$ which is 
 
 1. a [[1-epimorphism]];
 
 1. a [[formally smooth morphism]].
 
-Equivalently $\mathcal{D}$ is a map that exhibits $X$ as an [[atlas]]
-for a [[geometric infinity-groupoid]].
+Equivalently a foliation of $X$ is a map that exhibits $X$ as an [[atlas]]
+for a [[geometric infinity-groupoid]], def. \ref{GeometricAndEtale}.
 
-Given a foliation $\mathcal{D}$ we say that the **the leaf decomposition** of $X$ induced by the foliation is the [[(∞,1)-pullback]] $LeafDec(\mathcal{D})$ in 
+Given a foliation $\mathcal{D}$ on $X$ we say that the **the leaf decomposition** of $X$ induced by the foliation is the [[(∞,1)-pullback]] 
+
+$$
+  LeafDec(\mathcal{D})
+  \coloneqq
+  \flat(X//\mathcal{D}) \underset{X//\mathcal{D}}{\times} X
+$$ 
+
+in 
 
 $$
   \array{
     LeafDec(\mathcal{D}) &\stackrel{\iota_{\mathcal{D}}}{\to}& X
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{\mathcal{D}}}
     \\
     \flat (X//\mathcal{D}) &\to& X//\mathcal{D}
   }
@@ -57,8 +93,6 @@ $$
 $$
 
 =--
-
-Here $\flat$ is the [[flat modality]] of the given [[cohesion]].
 
 
 Now let $\mathbb{G} \in Grp_2(\mathbf{H})$ a [[braided ∞-group]]. Write
@@ -103,10 +137,19 @@ factors through the point.
 
 =-- 
 
+We now discuss how low-degree examples of this axiomatics interpreted in $\mathbf{H} \coloneqq $ [[SynthDiff∞Grpd]] reproduces the traditional notions of [[foliations]] and isotropic submanifolds of [[pre-symplectic manifolds]].
 
 
++-- {: .num_example }
+###### Example
 
-(...)  
+(...)
+
+=--
+
+(...)
+
+
 
 ## Related concepts
 
