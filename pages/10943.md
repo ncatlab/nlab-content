@@ -3,7 +3,7 @@ _test_
 
 $\sin(x^2/2)$
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec diam dolor. Sed eget suscipit nulla, non egestas dolor. Ut consequat arcu a sollicitudin suscipit. Fusce odio justo, congue eget tempus sed, facilisis eget arcu. Maecenas hendrerit id nunc eu rutrum. Integer sed leo sem. Integer consequat volutpat molestie. Fusce vehicula viverra dolor. Curabitur vestibulum urna a metus placerat, eu feugiat risus blandit.
+**Lorem** ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec diam dolor. Sed eget suscipit nulla, non egestas dolor. Ut consequat arcu a sollicitudin suscipit. Fusce odio justo, congue eget tempus sed, facilisis eget arcu. Maecenas hendrerit id nunc eu rutrum. Integer sed leo sem. Integer consequat volutpat molestie. Fusce vehicula viverra dolor. Curabitur vestibulum urna a metus placerat, eu feugiat risus blandit.
 
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam a iaculis ipsum. Suspendisse dapibus sollicitudin lobortis. Aliquam magna neque, rutrum id imperdiet eu, tristique quis nisl. Suspendisse luctus quis lectus vitae viverra. Maecenas eget porttitor ante. In semper felis arcu, ut semper nisl bibendum sit amet. Cras vestibulum, lectus vitae laoreet consectetur, odio sapien lacinia tortor, in varius sem erat aliquet nisi. Morbi nec elit cursus, elementum elit ac, sollicitudin libero. Nulla ut nunc felis. Etiam ac quam leo. Morbi non tincidunt mi, sit amet semper est. Morbi a sapien sed risus dictum mattis ut vitae tellus. Pellentesque tincidunt scelerisque sapien. Pellentesque tristique scelerisque dignissim.
 
