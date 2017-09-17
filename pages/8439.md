@@ -23,7 +23,7 @@
 
 ## Idea
 
-A _logical framework_ is a formal [[metalanguage]] for deductive systems, such as [[natural deduction]], [[type theories]], [[sequent calculus]], etc. 
+A _logical framework_ is a formal [[metalanguage]] for [[deductive systems]], such as [[natural deduction]], [[type theories]], [[sequent calculus]], etc. 
 
 
 ## Examples
