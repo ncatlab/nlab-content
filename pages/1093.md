@@ -19,7 +19,7 @@
 
 This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$ -- a [[Grothendieck topos]]. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. 
 
-## Definition and Properties
+## Definition
 
 Consider a [[site]] $S$, i.e. a [[category]] $S$ equipped with a [[coverage]], a [[Grothendieck topology]].  Think of this topology equivalently as encoded in a system of [[local isomorphism]]s (see there) on the [[presheaf]] category $PSh(S) := [S^{op}, Set]$.
 
@@ -57,6 +57,30 @@ In [[topos]]-theoretic language we therefore have that
 [[Grothendieck topos|Sheaf toposes]] are precisely the [[geometric embedding|subtoposes]] of [[presheaf]] toposes.
 
 =--
+
+## Properties
+
+
+Let $Sh(C)$ be a category of sheaves.
+
++-- {: .un_prop}
+###### Proposition
+
+A morphism $f : X \to Y$ is a [[monomorphism]] if it is a monomorphism of [[presheaves]], that is if for each $U \in C$ the [[function]] $f(U) : X(U) \to Y(U)$ is [[injective]].
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+A morphism $f : X \to Y$ in $Sh(C)$ is an [[epimorphism]] precisely if it is **locally surjective** in the sense that:
+
+for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such that for all $i \in I$ and every element $y \in Y(U)$ the element $f(p_i)(y)$ is in the image of $f(U_i) : X(U_i) \to Y(U_i)$.
+
+
+=--
+
 
 ## In higher category theory
 
