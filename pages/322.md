@@ -317,6 +317,7 @@ See also related discussion at [[club]].
 
 ## Examples 
 
+### Specific examples
 
 * [[associative operad]]
 
@@ -333,6 +334,10 @@ See also related discussion at [[club]].
 generalizations:
 
 * [[(∞,1)-operad]]
+
+### Inintial operads 
+
+For $C$ a set, the [[initial object]] $I_C$ of $C$-coloured operads has $I_C(c;c) = I_V$ for all $c$ in $C$ and all other components of $I_C$ are the [[initial object]] of $V$.
 
 ### Free operads {#FreeOperads}
 
