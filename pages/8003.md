@@ -54,6 +54,8 @@ This is the _K-theory spectrum of $C$_.
 
 * [[K-theory of a bipermutative category]]
 
+* [[algebraic K-theory of a symmetric monoidal (∞,1)-category]]
+
 ## References
 
 * [[Graeme Segal]], _Catgeories and cohomology theories_, Topology vol 13 (1974)  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
