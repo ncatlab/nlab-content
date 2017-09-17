@@ -36,7 +36,7 @@ Indeed, every $(\infty,1)$-category with finite [[limit]]s has a free [[stabiliz
 
 The [[homotopy category of an (∞,1)-category]] of a stable $\infty$-category is a [[triangulated category]].  
 
-Notice that the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is simple and natural.  So the complexity and bad behavior of triangulated categories comes [[decategorification]] of a structure that is natural in [[higher category theory]].
+Notice that the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is simple and natural.  The complexity and bad behavior of triangulated categories comes from them being the [[decategorification]] of a structure that is natural in [[higher category theory]].
 
 ## Definition
 
