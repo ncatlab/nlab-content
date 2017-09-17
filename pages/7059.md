@@ -216,6 +216,10 @@ We give the [[Coq]]-formalization of [Differential cohomology](http://ncatlab.or
 ## References
  {#References}
 
+A survey with discussion of applications to [[gauge theory]] and [[quantum field theory]] is at
+
+* [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]_ 
+
 The formulation of [[cohesive topos|axiomatic cohesion]] on 1-[[categories]] is due to [[Bill Lawvere]], see [there](http://ncatlab.org/nlab/show/cohesive+topos#References) for a detailed bibliography.
 
 The [[Coq]] formalization of [[cohesive (infinity,1)-topos|axiomatic homotopy cohesion]] is discussed in 
