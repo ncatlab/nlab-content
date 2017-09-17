@@ -313,6 +313,8 @@ For the notion in def. \ref{BD2Rig} this was conjectured by [[John Baez]], for t
 
 * [[distributivity for monoidal structures]]
 
+* [[prime spectrum of a monoidal stable (∞,1)-category]]
+
 ## References
 
 The proposal that a 2-ring should be a compatibly monoidal cocomplete category is due to
