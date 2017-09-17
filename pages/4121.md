@@ -1,6 +1,6 @@
 ###Definition
 
-A **basis** of a [[free module|free R-module]] M is a linear isomorphism $B\colon M \to \oplus_{i\in I}R$.
+A **basis** of a [[free module|free R-module]] $M$ is a linear [[isomorphism]] $B\colon M \to \oplus_{i\in I}R$.
 
 We see how this is equivalent to the classical definition of a basis as a linearly independent spanning set:
 
