@@ -286,6 +286,11 @@ Discussion with more emphasis on the applications to quantum field theory of int
 
 * [[Edward Witten]], _Dynamics of Quantum Field Theory_ in vol II, starting page 1119, of [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey,  [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. 
 
+Discussion of the BRST complex of the [[bosonic string]]/for [[2d CFT]] includes
+
+* [[Graeme Segal]], p.114 and following of _The definition of conformal field theory_ , preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ , London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577. ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
+
+
 Discussion of the BRST complex for the [[superstring]] (hence with the corresponding [[Lie algebroid]] being actually a [[super Lie algebroid]]) is for instance in 
 
 * [[José Figueroa-O'Farrill]], Takashi Kimura, _The BRST cohomology of the NSR string: vanishing and ``no-ghost'' theorems_, Comm. Math. Phys.
