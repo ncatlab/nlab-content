@@ -92,7 +92,9 @@ $$
 
 ### Exceptional isomorphisms
 
-In low dimensions the spin group happens to be [[isomorphism|isomorphic]] to various other classical group (among them the [[general linear group]] $GL(p,V)$ for $V$ the [[real number]]s $\mathbb{R}$, the [[complex number]]s $\mathbb{C}$ and the [[quaternions]] $\mathbb{Q}$, the [[orthogonal group]] $O(p,q)$, the [[unitary group]] $U(p,q)$ and the [[symplectic group]] $Sp(p,q)$).
+In low dimensions the spin group happens to be [[isomorphism|isomorphic]] ("sporadic isomorphisms") to various other classical group (among them the [[general linear group]] $GL(p,V)$ for $V$ the [[real number]]s $\mathbb{R}$, the [[complex number]]s $\mathbb{C}$ and the [[quaternions]] $\mathbb{Q}$, the [[orthogonal group]] $O(p,q)$, the [[unitary group]] $U(p,q)$ and the [[symplectic group]] $Sp(p,q)$).
+
+See for instance ([Garrett 13](#Garrett13)).
 
 We have
 
@@ -170,8 +172,16 @@ See also
 
 * wikipedia _[Spin group](http://en.wikipedia.org/wiki/Spin_group)_ 
 
+Examples of sporadic (exceptional) spin group isomorphisms incarnated as [[isogenies]] onto [[orthogonal groups]] are discussed in 
+
+* [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_, July 2013 ([pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf))
+ {#Garrett13}
+
 [[!redirects Spin group]]
 [[!redirects Spin]]
 [[!redirects Spin(n)]]
 
 [[!redirects spin-group]]
+
+[[!redirects spin groups]]
+[[!redirects spin-groups]]
