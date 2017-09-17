@@ -6,30 +6,34 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
-#### Cohesive $\infty$-Toposes
+#### Discrete and concrete objects
 +-- {: .hide}
-[[!include cohesive infinity-toposes - contents]]
+[[!include discrete and concrete objects - contents]]
 =--
 =--
 =--
 
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 The term _discrete groupoid_ is used in two different ways:
 
-1. as a synonym for 0-[[truncated]] [[groupoid]];
+1. as a synonym for _[[0-truncated]] [[groupoid]]_;
 
    this is discussed below in [Categorical meaning](#CategoricalMeaning)
 
-1. as a synonym for 1-[[truncated]] [[discrete ∞-groupoid]].
+1. as a synonym for [[1-truncated]] [[discrete ∞-groupoid]].
 
    this is discussed below in [Topological meaning](#TopologicalMeaning).
 
-Although the truncation terminology is not really established for $\infty$-[[infinity-categories]] that are not $\infty$-[[infinity-groupoids]], these particular meanings can easily be generalised to _discrete category_.
+Although the truncation terminology is not really established for [[n-categories]] that are not [[∞-groupoids]], these particular meanings can easily be generalised to a notion of _discrete category_. This, in turn, generalizes to a notion of _[[discrete object in a 2-category]]_.
+
+See also the related discussion at [[discrete space]].
 
 
 ## Categorical meaning
@@ -57,7 +61,7 @@ This is especially confusing if one extends the use of "discrete category over $
 
 * [[discrete group]] 
 
-* **discrete groupoid**
+* **discrete groupoid**, [[discrete object in a 2-category]]
 
 * [[discrete ∞-groupoid]]
 
