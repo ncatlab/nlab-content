@@ -16,7 +16,7 @@
 
 ## Definition
 
-The [[model category]] structure on the category $dgLie_k$ of [[dg-Lie algebra]]s over a commutative [[ring]] $k \superset \mathbb{Q}$ has
+The [[model category]] structure on the category $dgLie_k$ of [[dg-Lie algebra]]s over a commutative [[ring]] $k \supset \mathbb{Q}$ has
 
 * fibrations the surjective maps
 
