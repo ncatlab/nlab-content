@@ -17,7 +17,7 @@
 
 In addition to the well-known [[topological spaces]], many other structures can be used to found topological reasoning on sets, including [[uniform spaces]] and _proximity spaces_.  Proximity spaces provide a level of structure in between topologies and uniformities; in fact a proximity is equivalent to an equivalence class of uniformities with the same [[totally bounded space|totally bounded]] [[reflection]].
 
-Proximity spaces are often called _nearness spaces_, but this term has other meanings in the literature. (See for example [this article](http://ijmsa.yolasite.com/resources/43--newnew.pdf).) One can clarify with the term _set--set nearness space_.
+Proximity spaces are often called _nearness spaces_, but this term has other meanings in the literature. (See for example [this article](http://ijmsa.yolasite.com/resources/43--newnew.pdf).) One can clarify with the term _set--set nearness space_.  The same goes for the term _apartness space_, which is another way to look at the same basic idea.
 
 
 ## Notation and terminology
@@ -44,39 +44,54 @@ In [[constructive mathematics]], any one of these relations may be taken as prim
 
 ## Definitions
 
-From the previous section, we have a [[set]] $X$ and we are discussing [[binary relations]] $\delta, \bowtie, \ll$ on $X$.  These are required to satisfy the following conditions; in each row, the conditions for the various relations are all equivalent (classically).  In these conditions, $x, y$ are points, while $A, B, C$ are subsets, and we require them for all points or subsets.
+From the previous section, we have a [[set]] $X$ and we are discussing [[binary relations]] $\delta, \bowtie, \ll$ on $X$.  These are required to satisfy the following conditions; in each row, the conditions for the various relations are all equivalent (classically).  In these conditions, $x, y$ are points, while $A, B, C$ are subsets, and we require them for all points or subsets.  We list the conditions roughly in order of increasing optional-ness, then define terminology for relations satisfying them.
 
 | Name | Condition for nearness | Condition for apartness | Condition for proximal neighbourhoods |
 | - | - | - | - |
-| Symmetry | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B' \ll A'$ |
-| Additivity (left, binary) | $A \cup B \;\delta\; C$ iff $A \;\delta\; C$ or $B \;\delta\; C$ | $A \cup B \bowtie C$ iff $A \bowtie C$ and $B \bowtie C$ | $A \cup B \ll C$ iff $A \ll C$ and $B \ll C$ |
-| Additivity (right, binary) | $A \;\delta\; B \cup C$ iff $A \;\delta\; B$ or $A \;\delta\; C$ | $A \bowtie B \cup C$ iff $A \bowtie B$ and $A \bowtie C$ | $A \ll B \cap C$ iff $A \ll B$ and $A \ll C$ |
+| Isotony (left) | If $A \supseteq B \;\delta\; C$, then $A \;\delta\; C$ | If $A \subseteq B \bowtie C$, then $A \bowtie C$ | If $A \subseteq B \ll C$, then $A \ll C$ |
+| Isotony (right) | If $B \;\delta\; C \subseteq D$, then $B \;\delta\; D$ | If $B \bowtie C \supseteq D$, then $B \bowtie D$ | If $B \ll C \subseteq D$, then $B \ll D$ |
 | Additivity (left, nullary) | It is false that $\emptyset \;\delta\; A$ | $\emptyset \bowtie A$ | $\emptyset \ll A$ |
 | Additivity (right, nullary) | It is false that $A \;\delta\; \emptyset$ | $A \bowtie \emptyset$ | $A \ll X$ |
-| Isotony | If $A \subseteq C$ and $B \subseteq D$, then $C \;\delta\; D$ if $A \;\delta\; B$ | If $A \subseteq C$ and $B \subseteq D$, then $A \bowtie B$ if $C \bowtie D$ | If $A \subseteq C$ and $B \subseteq D$, then $A \ll D$ if $C \ll B$ |
+| Additivity (left, binary) | If $A \cup B \;\delta\; C$, then $A \;\delta\; C$ or $B \;\delta\; C$ | If $A \bowtie C$ and $B \bowtie C$, then $A \cup B \bowtie C$ | If $A \ll C$ and $B \ll C$, then $A \cup B \ll C$ |
+| Additivity (right, binary) | If $A \;\delta\; B \cup C$, then $A \;\delta\; B$ or $A \;\delta\; C$ | If $A \bowtie B$ and $A \bowtie C$, then $A \bowtie B \cup C$ | If $A \ll B$ and $A \ll C$, then $A \ll B \cap C$ |
 | Reflexivity (general) | If $A$ meets $B$ (their [[intersection]] is [[inhabited subset|inhabited]]), then $A \;\delta\; B$ | If $A \bowtie B$, then $A$ and $B$ are [[disjoint set|disjoint]] | If $A \ll B$, then $A \subseteq B$ |
-| Reflexivity (for singletons) | $\{x\} \;\delta\; \{y\}$ | It is false that $\{x\} \bowtie \{y\}$ | If $\{x\} \ll A$, then $x \in A$ |
-| Regularity (constructive) | If for every $D, E \subseteq X$ such that $D \cup E = X$, either $A \;\delta\; D$ or $E \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D, E \subseteq X$ such that $D \cup E = X$, both $A \bowtie D$ and $E \bowtie B$ | If $A \ll B$, then for some $D, E \subseteq X$ such that $D \subseteq E$, both $A \ll D$ and $E \ll B$ |
-| Regularity (simplified) | If for every $D \subseteq X$, either $A \;\delta\; D$ or $D' \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D \subseteq X$, both $A \bowtie D$ and $D' \bowtie B$ | If $A \ll B$, then for some $D \subseteq X$, both $A \ll D$ and $D \ll B$ |
+| Reflexivity (for singletons) | $\{x\} \;\delta\; \{x\}$ | It is false that $\{x\} \bowtie \{x\}$ | If $\{x\} \ll A$, then $x \in A$ |
+| Normality (constructive) | If for every $D, E \subseteq X$ such that $D \cup E = X$, either $A \;\delta\; D$ or $E \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D, E \subseteq X$ such that $D \cup E = X$, both $A \bowtie D$ and $E \bowtie B$ | If $A \ll B$, then for some $D, E \subseteq X$ such that $D \subseteq E$, both $A \ll D$ and $E \ll B$ |
+| Normality (simplified) | If for every $D \subseteq X$, either $A \;\delta\; D$ or $D' \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D \subseteq X$, both $A \bowtie D$ and $D' \bowtie B$ | If $A \ll B$, then for some $D \subseteq X$, both $A \ll D$ and $D \ll B$ |
+| Symmetry (constructive) | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | If $A \ll B$, $A \cup C = X$, and $B \cap D = \empty$, then $D \ll C$ |
+| Symmetry (simplified) | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B' \ll A'$ |
+| Separation | If $\{x\} \delta \{y\}$, then $x = y$ | Unless $\{x\} \bowtie \{y\}$, then $x = y$ | $x = y$ if, for all $A$, $y \in A$ whenever $\{x\} \ll A$ |
+| Perfection (left) | If $A \;\delta\; B$, then $\{x\} \;\delta\; B$ for some $x \in A$ | $A \bowtie B$ if $\{x\} \bowtie B$ for all $x \in A$ | $A \ll B$ if $\{x\} \ll B$ for all $x \in A$ |
+| Perfection (right) | If $A \;\delta\; B$, then $A \;\delta\; \{y\}$ for some $y \in B$ | If $A \bowtie \{y\}$ for all $y \in B$, then $A \bowtie B$ | If (for all $y$) $y \in B$ if (for all $C$) $y \in C$ if $A \ll C$, then $A \ll B$ |
 
-In this list, Isotony is redundant; it is equivalent to one direction of (left and right) binary additivity, so some lists include only the other direction.  In the light of Isotony, we need Reflexivity only for singletons, although this is often not done (to avoid mentioning points).  Similarly, Isotony allows us to simplify Regularity as shown (which is usually done), although this simplification is appropriate for constructive mathematics only when defining neighbourhood spaces.  Finally, left and right Additivity are equivalent in the light of Symmetry, so usually only one direction is given.
+When both left and right rules are shown, we only need one of them if we have Symmetry, but we need both if we lack Symmetry (or if we are using proximal neighbourhoods in constructive mathematics).  Even so, Isotony is usually given on both sides, since it is convenient to combine both directions into a single statement.  On the other hand, Isotony is equivalent to the converse of binary Additivity, so sometimes these are combined instead (so Isotony does not explicitly appear), usually on only one side when Symmetry is used.
 
-On the other hand, we have a __quasiproximity__ (etc) if Symmetry is allowed to fail; then both left and right Additivity must be stated.  (Symmetry for neighbourhood spaces is particularly tricky in constructive mathematics.)
+Whether made explicit or not, Isotony is very fundamental, and it is what allows the axioms after Additivity to be written in different forms.  In particular, we need Reflexivity only for singletons, although this is often not done (to avoid mentioning points).  Similarly, we usually simplify Normality as shown (although this is appropriate for constructive mathematics only when defining neighbourhood spaces).  In the same vein, Symmetry for proximal neighbourhoods is usually given in the simplified form (although now that is not appropriate for constructive mathematics).
 
-If $X$ and $Y$ are (quasi)-proximity spaces, then a [[function]] $f: X \to Y$ is said to be **proximally continuous** if $A \;\delta\; B$ implies $f_*(A) \;\delta\; f_*(B)$, equivalently if $A \bowtie B$ whenever $f_*(A) \bowtie f_*(B)$, equivalently if $f^*(C) \ll f^*(D)$ whenever $C \ll D$.  In this way we obtain a [[category]] $Prox$; the [[forgetful functor]] $Prox \to Set$ (taking a space to its set of points) makes it into a [[topological concrete category]].  The same goes for the category $QProx$ of quasiproximity spaces.
+A __topogeny__ is a relation that satisfies both forms of Isotony and all four forms of Additivity.  A __quasiproximity__ is a topogeny that also satisfies Reflexivity and Normality.  A topogeny (or quasiproximity) is __symmetric__ if it satisfies Symmetry; a __proximity__ is a symmetric quasiproximity.  A topogeny or (quasi)-proximity is __separated__ if it satisfies Separation.  A topogeny or quasiproximity is __perfect__ if it satisfies left Perfection, __coperfect__ if it satisfies right Perfection, and __biperfect__ if it satisfies both; a proximity (or a symmetric topogeny) is usually called simply __perfect__ if it satisfies any form of Perfection, because then it must satisfy both (except in constructive mathematics using proximal neighbourhoods).
+
+A __(quasi)-proximity space__ is a set equipped with a (quasi)-proximity.  All of these terms may be used with _nearness_, _apartness_, or _proximal neighbourhoods_, as explained in the previous section; nearness is usually the default.
+
++-- {: .un_remark}
+###### Warnings
+
+Some authors require a (quasi)-proximity to be separated; conversely, some authors do not require a (quasi)-proximity to satisfy Normality.  The term 'topogeny' is also not found in the literature (except [[toddtrimble:topogeny|here]], in a generalization of nearness spaces); it is derived from '[[topogenous relation]]', a term used in the theory of [[syntopogenous spaces]] for a nearness topogeny satisfying Reflexivity.  (Thus, quasiproximities and topogenous relations are the same thing for authors who use nearness and do not require Normality.)  The terminology for Perfection also comes from syntopogenous spaces.
+=--
+
+If $X$ and $Y$ are (quasi)-proximity spaces, then a [[function]] $f: X \to Y$ is said to be **proximally continuous** if $A \;\delta\; B$ implies $f_*(A) \;\delta\; f_*(B)$, equivalently if $A \bowtie B$ whenever $f_*(A) \bowtie f_*(B)$, equivalently if $f^*(C) \ll f^*(D)$ whenever $C \ll D$.  In this way we obtain [[categories]] $QProx$ and $Prox$; the [[forgetful functors]] $QProx \to Set$ and $Prox \to Set$ (taking a space to its set of points) make them into [[topological concrete categories]].
 
 
-## Relation to other topological structures
+## Relations to other topological structures
 
 ### Preorders
 
-Given points $x, y$ of a (quasi)-proximity space, let $x \leq y$ mean that $x$ belongs to every proximal neighbourhood of $\{y\}$, or equivalently (via Isotony) that $\{y\} \;\delta\; \{x\}$.  By Reflexivity, $\leq$ is [[reflexive relation|reflexive]]; by Regularity, $\leq$ is [[transitive relation|transitive]].  (In fact, we can use these to deduce that $x \leq y$ iff every proximal neighbourhood of $\{y\}$ is a proximal neighbourhood of $\{x\}$, which is manifestly reflexive and transitive.)  Therefore, $\leq$ is a [[preorder]].
+Given points $x, y$ of a (quasi)-proximity space, let $x \leq y$ mean that $x$ belongs to every proximal neighbourhood of $\{y\}$, or equivalently (via Isotony) that $\{y\} \;\delta\; \{x\}$.  By Reflexivity, $\leq$ is [[reflexive relation|reflexive]]; by Normality, $\leq$ is [[transitive relation|transitive]].  (In fact, we can use these to deduce that $x \leq y$ iff every proximal neighbourhood of $\{y\}$ is a proximal neighbourhood of $\{x\}$, which is manifestly reflexive and transitive.)  Therefore, $\leq$ is a [[preorder]].
 
 If the quasiproximity satisfies Symmetry, then this preorder is [[symmetric relation|symmetric]] and hence an [[equivalence relation]].
 
-Regardless of Symmetry, we say that a (quasi)-proximity space is __separated__ if this preorder is the [[equality relation]].  That is, $x = y$ if $x$ belongs to every proximal neighbourhood of $\{y\}$, or equivalently if every proximal neighbourhood of $\{y\}$ is a proximal neighbourhood of $\{x\}$, or equivalently if $\{x\}$ is near $\{y\}$, or equivalently if $\{x\}$ is not apart from $\{y\}$.  This may be viewed as a converse of simplified Reflexivity, which states that $\{x\} \;\delta\; \{y\}$ whenever $x = y$.
+Regardless of Symmetry, a (quasi)-proximity space is separated iff this preorder is the [[equality relation]].  That is, $x = y$ if $x$ belongs to every proximal neighbourhood of $\{y\}$, or equivalently if every proximal neighbourhood of $\{y\}$ is a proximal neighbourhood of $\{x\}$, or equivalently if $\{x\}$ is near $\{y\}$, or equivalently if $\{x\}$ is not apart from $\{y\}$.  This may be viewed as a converse of simplified Reflexivity, which states that $\{x\} \;\delta\; \{y\}$ whenever $x = y$.
 
-Conversely, given a set equipped with a preorder $\leq$, let $A \;\delta\; B$ if $x \leq y$ for some $x \in A$ and some $y \in B$, or equivalently let $A \bowtie B$ if $x \leq y$ for no $x \in A$ and no $y \in B$, or equivalently let $A \ll B$ if $x \leq y$ for $x \in A$ implies $y \in B$.  The we have a quasiproximity space which is symmetric iff $\leq$ is.
+Conversely, given a set equipped with a preorder $\leq$, let $A \;\delta\; B$ if $x \leq y$ for some $x \in A$ and some $y \in B$, or equivalently let $A \bowtie B$ if $x \leq y$ for no $x \in A$ and no $y \in B$, or equivalently let $A \ll B$ if $x \leq y$ for $x \in A$ implies $y \in B$.  Then we have a quasiproximity space which is symmetric iff $\leq$ is.
 
 In this way, we get the category $Proset$ of preordered sets as a [[reflexive subcategory]] of $QProx$, with the category $Setoid$ of [[setoids]] (sets equipped with equivalence relations) as a reflexive subcatgory of $Prox$.
 
@@ -123,11 +138,11 @@ The (separated) proximities inducing a given (Hausdorff) completely regular topo
 
 As a [[poset]], the [[power set]] $\mathcal{P}X$ of $X$ may be regarded as a [[category]] [[enriched category|enriched]] over [[truth values]].  There is a notion of a [[bimodule]] over a category, also called (more specifically) a distributor or [[profunctor]].
 
-Then a profunctor from $\mathcal{P}X$ to itself is precisely a binary relation $\ll$ on subsets of $X$ that satisfies Isotony.  Adding Reflexivity makes it a co-[[pointed object|pointed]] profunctor, and Regularity morally makes it a [[coassociative coalgebra]] with Reflexivity as counit.  (Actually, coassociativity is trivial when enriched over truth values, as is the claim that Reflexivity, once it exists, is a counit, but we say 'coassociative' to clarify which sense of 'coalgebra' we mean.)
+Then a profunctor from $\mathcal{P}X$ to itself is precisely a binary relation $\ll$ on subsets of $X$ that satisfies Isotony.  Adding Reflexivity makes it a co-[[pointed object|pointed]] profunctor, and Normality morally makes it a [[coassociative coalgebra]] with Reflexivity as counit.  (Actually, coassociativity is trivial when enriched over truth values, as is the claim that Reflexivity, once it exists, is a counit, but we say 'coassociative' to clarify which sense of 'coalgebra' we mean.)
 
-The sense in which Regularity makes this a coalgebra is actually a bit involved, and it only quite works because of Additivity.  A coalgebra with a given profunctor $\ll$ as its underlying bimodule has the *structure* of an operation that, given $x \ll z$, takes this to an equivalence class of $y$ such that $x \ll y \ll z$, where $y$ is equivalent to $y'$ if $y \subseteq y'$ (or by any equivalence that follows).  By Isotony and left binary Additivity, $x \ll y \cup y' \ll z$ (or use right Additivity and $y \cap y'$); since $y, y' \subseteq y \cup y'$, we have the desired equivalence.
+The sense in which Normality makes this a coalgebra is actually a bit involved, and it only quite works because of Additivity.  A coalgebra with a given profunctor $\ll$ as its underlying bimodule has the *structure* of an operation that, given $x \ll z$, takes this to an equivalence class of $y$ such that $x \ll y \ll z$, where $y$ is equivalent to $y'$ if $y \subseteq y'$ (or by any equivalence that follows).  By Isotony and left binary Additivity, $x \ll y \cup y' \ll z$ (or use right Additivity and $y \cap y'$); since $y, y' \subseteq y \cup y'$, we have the desired equivalence.
 
-This suggests that if we want a notion of proximity *without* Additivity, then Regularity must become more complicated, being a [[extra structure|structure]] rather than just a property (and a structure that should be preserved by proximal maps).
+This suggests that if we want a notion of proximity *without* Additivity, then Normality must become more complicated, being a [[extra structure|structure]] rather than just a property (and a structure that should be preserved by proximal maps).
 
 As for Additivity itself, this presumably corresponds to something more general in the world of profunctors related to [[limits]] and [[colimits]], but I haven\'t figured it out yet.
 
