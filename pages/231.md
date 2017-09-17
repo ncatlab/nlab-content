@@ -577,6 +577,8 @@ higher versions
 
 ## Related concepts
 
+* [[indexed monoidal category]]
+
 * [[Drinfeld center]]
 
 * [[Picard group]], [[Picard 2-group]]
