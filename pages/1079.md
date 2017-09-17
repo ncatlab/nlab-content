@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
 # Direct products
 * table of contents
 {: toc}
@@ -19,3 +34,9 @@ One of the requirements of a [[topological category]] is that any family of obje
 Many [[algebraic categories]], such as [[Grp]], [[Ab]], [[Ring]], etc, also have all direct products; this is where the term 'direct product' originated.
 
 The category of ($Set$-valued) models of any [[Lawvere theory]] has all direct products; this includes the examples from algebra above.
+
+## Related concepts
+
+* [[direct sum]]
+
+[[!redirects direct products]]
