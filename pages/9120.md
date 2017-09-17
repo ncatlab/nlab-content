@@ -1,0 +1,20 @@
+
+
+**[[cohesion]]**
+
+* ([[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]) 
+
+   $(&#643; \dashv \flat \dashv \sharp )$
+
+  * [[discrete object]],  [[codiscrete object]], [[concrete object]]
+
+**[[differential cohesion]]**
+
+* ([[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]) 
+
+  $(Red \dashv &#643;_{inf} \dashv \flat_{inf})$
+
+  * [[reduced object]], [[coreduced object]], [[formally smooth object]]
+
+  * [[formally étale map]]
+
