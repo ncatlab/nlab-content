@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Higher differential geometry_ is the incarnation of [[differential geometry]] in [[higher geometry]]. If the ambient (∞,1)-topos]] is not [[n-localic (∞,1)-topos|1-localic]] then one also speaks of [[derived differential geometry]].
+
+## Formalizations
+
+One axiomatization is [[cohesion]] and [[differential cohesion]].
+
+## Examples
+
+* [[Smooth∞Grpd]], [[SynthDiff∞Grpd]].
+
