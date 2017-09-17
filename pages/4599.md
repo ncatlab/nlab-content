@@ -1434,3 +1434,6 @@ for the class of circle 3-bundles that arise as differential refinements of degr
 
 [[!redirects circle n-bundles with connection]]
 [[!redirects circle n-bundles with connections]]
+
+
+[[!redirects circle n-bundle]]
