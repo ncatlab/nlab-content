@@ -1,8 +1,36 @@
-[[!redirects stabe orthogonal group]]
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
 the stable [[orthogonal group]]
+
+## Definition
+
+[[direct limit]]
+
+$$
+  O \coloneqq {\underset{\to}{\lim}}_n O(n)
+$$
+
+## Properties
+
+### Homotopy groups
+
+By the discussion at _[orthogonal group -- homotopy groups](orthogonal%20group#HomotopyGroups)_ we have that the [[homotopy groups]] of the stable orthogonal group are 
+
+| $n\;mod\; 8$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|---|---|---|---|---|---|---|---|
+| $\pi_n(O)$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ |0 | $\mathbb{Z}$ | 0 | 0 | 0 | $\mathbb{Z}$ |
+
+or if we instead write down the [[order of a group|order]]:
+
+| $n\;mod\; 8$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|---|---|---|---|---|---|---|---|
+| ${\vert\pi_n(O)\vert}$ | 2 | 2 | 1 | $\infty$ | 1 | 1 | 1 | $\infty$ |
+
 
 ## Related concepts
 
@@ -13,3 +41,5 @@ the stable [[orthogonal group]]
 * [[topological K-theory]]
 
 [[!redirects stable orthogonal groups]]
+
+[[!redirects stabe orthogonal group]]
