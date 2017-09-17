@@ -14,3 +14,11 @@ For $i : X \hookrightarrow Y$ an [[embedding]] of [[manifold]]s, a **tubular nei
   with an [[open neighbourhood]] of $X$ in $Y$.
 
 The [[derivative]] of $\hat i$ provides an [[isomorphism]] of $E$ with the [[normal bundle]] $\nu_{X/Y}$ of $X$ in $Y$.
+
+## References
+
+* wikipedia [tubular neighborhood](http://en.wikipedia.org/wiki/Tubular_neighborhood)
+
+For an analogue in homotopical algebraic geometry see
+
+* [[Marc Levine]], _Motivic tubular neighborhoods_, [pdf](http://www.uni-due.de/~bm0032/publ/TubNbdDocumenta.pdf)
