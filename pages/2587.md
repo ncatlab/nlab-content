@@ -183,16 +183,17 @@ $\cdots \to$ [[Fivebrane group]] $\to$ **string group** $\to$ [[spin group]] $\t
 ## References 
 
 
-Originally the String-group was just known by its generic name: with $\mathcal{B} O \langle 8 \rangle$ being the topologist's notation for the [[connected|7-connected]] of the [[delooping]] $\mathcal{B}O$ of the group $O$.
+Originally the String-group was just known by its generic name: with $\mathcal{B} O \langle 8 \rangle$ being the topologist's notation for the [[n-connected|7-connected]] cover of the [[delooping]]/[[classifying space]] $\mathcal{B}O$ of the group $O$.
 
 When it was realized that lifts of the structure maps $X \to \mathcal{B}O$ of the [[tangent bundle]] of a [[manifold]] $X$ through the projection $\mathcal{B}O\langle 8 \rangle \to \mathcal{B}O$ -- now called a [[String structure]] -- play the same role in [[string theory]] as a [[Spin structure]] does in ordinary [[quantum mechanics]], the term _String group_ for $\Omega (\mathcal{B}O\langle 8 \rangle)$ was suggested.
 
 Following some inquiries by [[Jim Stasheff]] and confirmed in private email by [[Haynes Miller]] it seems that the first one to propose the term _$String$ group_ for the group known to topologists as $\Omega (\mathcal{B}O\langle 8\rangle)$ was [[Haynes Miller]].
 
+A good review is in the introduction of
 
-Until somebody invests more energy into this entry here, there is this
+* [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
+{#Schommer-Pries}
 
-* blog entry on [String(n)](http://golem.ph.utexas.edu/string/archives/000572.html)
 
 
 [[!redirects String group]]
