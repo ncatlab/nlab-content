@@ -37,8 +37,10 @@ for every local coefficient system $A$ on $X$, and
 
 Furthermore the [[homotopy type]] of $X$ is completely determined by the pair of groups $(G_X, P_X)$ where 
 $G_X  = \pi_1T X,\;\; P_X = ker\;\pi_1t X$ and $P_X$ is a 
-[[perfect group|perfect]] [[subgroup]] of $G_X$.
+[[perfect group|perfect]] [[normal subgroup|normal]] [[subgroup]] of $G_X$. 
 
+More precisely, $X$ can be recovered, up to homotopy, by applying the [[plus construction]] to $K(G_X,1)$ with respect to $P_X$.
+ 
 
 ## References
 
