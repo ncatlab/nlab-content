@@ -222,3 +222,5 @@ The model structure on homotopy $T$-algebras for $T = $ [[CartSp]] the Lawvere t
 {#Spivak}
 
 [[!redirects homotopy T-algebras]]
+
+[[!redirects model structure on homotopy T-algebras]]
