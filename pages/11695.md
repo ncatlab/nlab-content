@@ -27,9 +27,9 @@ $$
   \mathbf{Br}(X) \coloneqq [X,\mathbf{B}^2 \mathbb{G}_m]
 $$
 
-into the second [[delooping]] of the [[multiplicative group]] (modulating [[line 2-bundles]]). (Where $X$ is a [[scheme]] or may itself be a [[derived scheme]], [[algebraic stack]], etc.). Indeed, just as the [[Picard stack]] turns under [[Lie integration]] (evaluation on [[infinitesimally thickened points]]) and 0-truncation into what is commonly called the _[[formal Picard group]]_, so this Brauer $\infty$-stack similarly gives what is commonly called the _[[formal Brauer group]]_.
+into the second [[delooping]] of the [[multiplicative group]] (modulating [[line 2-bundles]]), where $X$ is a [[scheme]] or may itself be a [[derived scheme]], [[algebraic stack]], etc. Indeed, just as the [[Picard stack]] turns under [[Lie integration]] (evaluation on [[infinitesimally thickened points]]) and 0-truncation into what is commonly called the _[[formal Picard group]]_, so this Brauer $\infty$-stack similarly gives what is commonly called the _[[formal Brauer group]]_.
 
-However, while therefore the terminology "Brauer stack" is the evident continuation of a traditional pattern (which in the other direction continues with the [[group of units]] and the mapping scheme $[X,\mathbb{G}_,]$), it seems that this terminology has never been introduced in the literature (at time of this writing). (?)
+However, while therefore the terminology "Brauer stack" is the evident continuation of a traditional pattern (which in the other direction continues with the [[group of units]] and the mapping scheme $[X,\mathbb{G}_m]$), it seems that this terminology has never been introduced in the literature (at time of this writing). (?)
 
  
 
