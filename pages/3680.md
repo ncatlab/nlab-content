@@ -33,7 +33,7 @@ when either of these [[colimit]]s exist.
 ## Definition
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition 
 **(final morphism of simplicial set)**
 
@@ -79,7 +79,7 @@ This definition is originally due to [[Andre Joyal]]. It appears as [[Higher Top
 
 This is equivalent to the following definition, in terms of the [[model structure for right fibrations]]:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition 
 
 The morphism $p : S \to T$ is final precisely if the terminal morphism $(p \to *) =   \left(
@@ -101,7 +101,7 @@ This is [[Higher Topos Theory|HTT, prop. 4.1.2.5]].
 
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 If $T$ is a [[Kan complex]] then $p : S \to T$ is final precisely if it is a weak equivalence in the standard [[model structure on simplicial sets]]. 
@@ -119,7 +119,7 @@ This is [[Higher Topos Theory|HTT, cor. 4.1.2.6]].
 
 ## Properties {#Properties}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition 
 **(preservation of undercategories and colimits)**
 
@@ -148,11 +148,11 @@ This is [[Higher Topos Theory|HTT, prop. 4.1.1.8]].
 
 The following result is the $(\infty,1)$-categorical analog of what is known as **Quillen's Theorem A**.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem 
 **(recognition theorem for final $(\infty,1)$-functors)**
 
-A morphism $p : K \to C$ of [[simplicial set]]s with $C$ a [[quasi-category]] is final precisely if for each object $c \in C$ the [[comma category|comma]]-object $c/p := c/C \times_C K$ is weakly [[contractible]]. 
+A morphism $p : K \to C$ of [[simplicial sets]] with $C$ a [[quasi-category]] is final precisely if for each object $c \in C$ the [[comma category|comma]]-object $c/p := c/C \times_C K$ is weakly [[contractible]]. 
 
 =--
 
@@ -178,6 +178,88 @@ This is due to [[Andre Joyal]]. A proof appears as [[Higher Topos Theory|HTT, pr
 
 =--
 
+The following says that up to equivalence, the cofinal maps of simplicial sets are the right [[anodyne morphisms]]
+
++-- {: .num_prop}
+###### Proposition
+
+A map of simplicial sets is cofinal precisely if it factors as a right anodyne map followed by a trivial fibration.
+
+=--
+
+This is ([Lurie, cor. 4.1.1.12](#Lurie)).
+
+## Examples
+
+### On categories of simplices
+ {#OnCategoriesOfSimplices}
+
++-- {: .num_defn}
+###### Definition
+
+For $K \in $ [[sSet]] a [[simplicial set]], write $\Delta_{/K}$ for its [[category of elements]], called here the [[category of simplices]] of the simplicial set: 
+
+an [[object]] of $\Delta_{/K}$ is a morphism of simplicial sets of the form $\Delta^n \to K$ for some $n \in \mathbb{N}$ (hence an $n$-[[simplex]] of $K$) and a morphism is a [[commuting diagram]]
+
+$$
+  \array{
+    \Delta^{n_1}&&\to&& \Delta^{n_2}
+    \\
+    & \searrow && \swarrow
+    \\
+    && K
+  }
+  \,.
+$$
+
+Moreover, write
+
+$$
+  \Delta_{/K}^{nd} \hookrightarrow \Delta_{/K}
+$$
+
+for the [[full subcategory]] on the non-degenerate simplices.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The category $\Delta_{/K}^{nd}$ is also known as the [[barycentric subdivision]] of $K$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The inclusion 
+
+$$
+  N(\Delta_{/K}^{nd}) \hookrightarrow N(\Delta_{/K})
+$$
+
+is a cofinal morphism of [[quasi-categories]].
+
+
+=--
+
+This appears as ([Lurie, variant 4.2.3.15](#Lurie)).
+
++-- {: .num_prop}
+###### Proposition
+
+For every simplicial set $K$ there exists a cofinal map
+
+$$
+  N(\Delta_{/K}) \to K
+  \,.
+$$
+
+=--
+
+This is ([Lurie, prop. 4.2.3.14](#Lurie)).
+
+
 ## Related concepts
 
 * [[final functor]]
@@ -191,6 +273,11 @@ This is due to [[Andre Joyal]]. A proof appears as [[Higher Topos Theory|HTT, pr
 Section 4.1 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
+
+Section 6 of 
+
+* [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
 
 
 [[!redirects cofinal (infinity,1)-functor]]
