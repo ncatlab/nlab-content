@@ -95,13 +95,17 @@ Special orthogonal groups over the reals are sometimes defined to be the connect
 
 Spin groups in signature $(m,n)$ for $m,n \geq 2$ have fundamental groups of order two.  They are simply connected when $m$ or $n$ is at most one. 
 
+## Related concepts
+
+* [[Clifford module]]
+
 ## References
 
 For some standard material see for instance
 
 * [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_ ([pdf](http://www.math.toronto.edu/mein/teaching/clif_main.pdf))
 
-* Lawson, Michelson _Spin geometry_
+* H. Blaine Lawson, ; Marie-Louise Michelsohn,  (1989), _Spin Geometry_, Princeton University Press, ISBN 0-691-08542-0.
 
 For a program that promotes the use of Clifford algebra as a good expositional tool in introductory [[mechanics]] see _[[Geometric Algebra]]_ . 
 
