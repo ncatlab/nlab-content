@@ -53,9 +53,50 @@ $$
   H_n(V) \coloneqq \frac{Z_n(V)}{B_n(V)} = \frac{ker(\partial_{n-1})}{im(\partial_n)}
 $$
 
-given by the [[quotient]] of the group of $n$-[[cycles]] by that of $n$-[[boundaries]] in $V_\bullet$.
+given by the [[quotient]] ([[cokernel]]) of the group of $n$-[[cycles]] by that of $n$-[[boundaries]] in $V_\bullet$.
 
 =--
+
+## Properties
+
+### Functoriality
+
++-- {: .num_prop}
+###### Proposition
+
+For all $n \in \mathbb{N}$ forming chain homology extends to a [[functor]]
+from the [[category of chain complexes]] in $\mathcal{A}$ to $\mathcal{A}$ itself
+
+$$
+  H_n(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks that [[chain homotopy]] (see there) respects [[cycles]] and [[boundaries]]. 
+
+=--
+
++-- {: .num_prop #ChainHomologyRespectsDirectProduct}
+###### Proposition
+
+Chain homology commutes with [[direct product]] of chain complexes:
+
+$$
+  H_n(\prod_i C^{(i)})
+  \simeq
+  \prod_i H_n(C^{(i)})
+  \,.
+$$
+
+Similarly for [[direct sum]].
+
+=--
+
 
 ## Examples
 
