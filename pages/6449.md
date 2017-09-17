@@ -1,0 +1,61 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $\mathfrak{g}$ a [[Lie algebra]] with non-generate binary [[invariant polynomial]] $\langle -,-\rangle$, the corresponding [[schreiber:infinity-Chern-Simons theory]] [[QFT]] is ordinary [[Chern-Simons theory]] in dimension 3.
+
+But also every other [[invariant polynomial]] $\langle-,-,\cdots,-\rangle$ on $\mathfrak{g}$ induces an [[schreiber:infinity-Chern-Simons theory]], now in higher dimension. This is often called _higher Chern-Simons theory_ . 
+
+Here we say _higher dimensional_ (but otherwise ordinary) Chern-Simons theory in order to distinguish from the more general "higher"-generalization, where $\mathfrak{g}$ is allowed to be a [[Lie 2-algebra]] or more generally an [[L-infinity algebra]] or fully generally a [[L-infinity algebroid]].
+
+
+## Examples
+
+Higher dimensional Chern-Simons theories appear automatically as components of systems of higher [[supergravity]], for instance in [[1-dimensional supergravity]] (they are automatically induced by the requirement of  [[local supersymmetry]] in these higher dimensional supergravity theories).
+
+(...)
+
+## Properties
+
+Higher Chern-Simons theory in dimension $4k+3$ is related by a [[holographic principle]] to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case).
+
+## Related concepts
+
+* [[schreiber:infinity-Chern-Simons theory]]
+
+  * [[Chern-Simons theory]]
+
+  * **higher dimensional Chern-Simons theory**
+
+  * [[AKSZ sigma-model]]
+
+    * [[Poisson sigma model]]
+
+      * [[A-model]], [[B-model]]
+
+    * [[Courant sigma-model]]
+
+      * [[Chern-Simons theory]]
+
+[[!redirects higher Chern-Simons theories]]
