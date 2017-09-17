@@ -55,7 +55,7 @@ Given a [[smooth manifold]] $X$ a _differentiably good open cover_ is a good ope
 
 ## Properties {#Properties}
  
-### Exsistence on paracompact smooth manifolds
+### Existence on paracompact smooth manifolds
  {#ExistenceOnParacompactManifolds}
 
 +-- {: .num_prop }
@@ -185,6 +185,21 @@ These sets $V_\alpha$ together with $int(D^{n+1})$ form a good open cover of $Y$
 
 =--
 
+### (Non-)Existence for topological manifolds
+
+For a (paracompact) [[topological manifold]] the construction via [[Riemannian metrics]] or similar smooth constructions in general does not work. 
+
+In ([Osborne-Stern 69](#OsborneStern69)) the following discussion for sufficient conditions getting "close" to good open covers is discussed:
+
+Let $X$ be a [[n-connected space|k-connected]] [[topological manifold]] of [[dimension]] $n$ (without [[boundary]](, and define 
+
+$$
+  q \coloneqq
+  min(k,n-3)
+  \,.
+$$ 
+
+For $p \in \mathbb{N}$ such that $p(q+1) \gt n$ then $X$ admits a cover by $p$ open balls and such that all nonempty intersections of the covering cells are [[n-connected space|(q−1)-connected]].
 
 ## $n$POV
 
@@ -223,18 +238,19 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 ## References
 
-* [[John Milnor]], _Morse theory_ , Princeton University Press (1963)
-{#Milnor}
+* {#Milnor} [[John Milnor]], _Morse theory_ , Princeton University Press (1963)
 
-* R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 (1978)
-{#Greene}
-
-* [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf))
-{#Ferus}
+* {#Greene} R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 (1978)
 
 
-* [[Raoul Bott]],  [[Loring Tu]], _Differential forms in algebraic topology_ 
-{#BottTu}
+* {#Ferus} [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf))
+
+
+* {#BottTu} [[Raoul Bott]],  [[Loring Tu]], _Differential forms in algebraic topology_ 
+
+* {#OsborneStern69} RP Osborne and JL Stern. _Covering Manifolds with Cells_, Pacific Journal of Mathematics, Vol 30, No. 1, 1969.
+
+* MathOverflow, _[Proving the existence of good covers](http://mathoverflow.net/q/102161/381)_
 
 [[!redirects good cover]]
 [[!redirects good covers]]
