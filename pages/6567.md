@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+## Idea
+
+The [[mechanics]] of rigid bodies in [[Cartesian space]].
+
+## Related concepts
+
+* [[angular velocity]]
+
+* [[angular momentum]]
+
+* [[moment of inertia]]
+
+## References
+
+A standard textbook reference is section 28 of
+
+* [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_ Springer
+
+References from the point of view of [[Geometric Algebra]] include
+
+* [[David Hestenes]], _Rotational dynamics with geometric algebra_ ([web](http://adsabs.harvard.edu/full/1983CeMec..30..133H))
+
+* Terje Vold, _An introduction to geometric algebra with an application to rigid body mechanics_ ([pdf](http://www.helsinki.fi/kemia/fysikaalinen/opetus/matnum/Lectures/2009/Vold_1.pdf))
