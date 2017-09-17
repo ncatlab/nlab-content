@@ -1,4 +1,23 @@
-A **strict epimorphism** in a [[category]] $C$ is a [[morphism]] which is the joint [[coequalizer]] of all parallel pairs that it coequalizes.  In other words, $f:B\to C$ is a strict epimorphism if it is the [[colimit]] of the (possibly large) diagram consisting of all [[parallel morphisms|parallel pairs]] $g,h:A \;\rightrightarrows\; B$ such that $f g = f h$.  Although the definition does not include this explicitly, it follows that $f$ is an [[epimorphism]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A **strict epimorphism** in a [[category]] $C$ is a [[morphism]] which is the joint [[coequalizer]] of all parallel pairs of [[morphism]]s that it coequalizes.  In other words, $f:B\to C$ is a strict epimorphism if it is the [[colimit]] of the (possibly large) diagram consisting of all [[parallel morphisms|parallel pairs]] $g,h:A \;\rightrightarrows\; B$ such that $f g = f h$.  Although the definition does not include this explicitly, it follows that $f$ is an [[epimorphism]].
+
+## Properties
 
 If $C$ has [[pullback]]s, then any such $g,h$ factor uniquely through the [[kernel pair]] $r,s:ker(f) \;\rightrightarrows\; B$ of $f$, which is itself such a pair (that is, $f r = f s$).  Thus, for any $k:B\to D$, we have $k g = k h$ for all $g,h$ with $f g = f h$ if and only if $k r = k s$.  Therefore, $f$ is strict epi if and only if it is the coequalizer of its kernel pair, hence if and only if it is an [[effective epimorphism]] and a [[regular epimorphism]].  For this reason, some sources define "regular epimorphism" in a category without pullbacks to mean what we have called a "strict epimorphism."
 
@@ -10,6 +29,7 @@ It is easy to see that in _any_ category, any regular epimorphism is strict.  In
 
 [[Mike Shulman]]: Not more than can be extracted from [[michaelshulman:2-congruence]] and [[michaelshulman:regular 2-category]].  What is there called an "eso" is the bicategorical version of a strong epi (which agrees with an extremal epi in the presence of pullbacks), and what is there called "the quotient of a 2-congruence" is the bicategorical version of a regular epi.  I've never thought about the bicategorical version of a strict epi; since strict epis agree with regular epis in the presence of finite limits I've never really had occasion to care about them independently.
 =--
-# References#
 
-* [[Categories and Sheaves]], p115-116.
+## References
+
+* Kashiware, Shapira, _[[Categories and Sheaves]]_ , p115-116.
