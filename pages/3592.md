@@ -65,8 +65,28 @@ $$X \to (i\circ L)(X)$$
 
 to take $x$ to $N(x) \coloneqq \{U \in \mathcal{O}(X): x \in U\}$. This gives a topological embedding of $X$ in $i(L(X))$. 
 
-This connection is explored in more depth with the category of [[equilogical spaces]], which can be seen either as a category of (set-theoretic) [[equivalence relation|partial equivalence relations]] over $AlgLat$, or equivalently of (set-theoretic) total [[equivalence relations]] on $T_0$ topological spaces.
++-- {: .un_remark}
+###### Remark 
+On similar grounds, if $U \colon AlgLat \to Set$ is the forgetful functor, then the [2-image](http://ncatlab.org/nlab/show/stuff%2C+structure%2C+property#a_factorisation_system_14) of the projection functor $\pi \colon Set\downarrow U \to Set$ is the category of topological spaces $Top$. In more nuts-and-bolts terms, an object $(S, L, f \colon S \to U(L))$ gives a space with underlying set $S$ and open sets those of the form $f^{-1}(O)$, where $O$ ranges over the Scott topology on $L$. Notice that if $(f \colon S \to S', g \colon L \to L')$ is a morphism in $Set \downarrow U$, then $f$ is continuous with respect to these topologies. Therefore the projection $\pi \colon Set \downarrow U \to Set$ factors through the faithful forgetful functor $Top \to Set$. Thus, working in the factorization system (eso+full, faithful) on $Cat$, we have a faithful functor $2$-$im(\pi) \to Top$ filling in as the diagonal 
 
+$$\array{
+Set \downarrow U & \to & Top \\
+\downarrow & \nearrow & \downarrow \\
+2\text{-}im(\pi) & \to & Set.
+}$$ 
+
+But notice also that $Set \downarrow U \to Top$ is [eso and full](http://ncatlab.org/nlab/show/ternary+factorization+system#examples_9). It is eso because any topology $\mathcal{O}(S)$ on $S$ can be reconstituted from the triple $(S, P{|\mathcal{O}(S)|}, S \to P{|\mathcal{O}(S)|} \colon x \mapsto N(x))$. We claim it is full as well. For, every continuous map $X \to X'$ between topological spaces induces a continuous map between their $T_0$ reflections $X_0 \to X_{0}'$, and since algebraic lattices like $P{|\mathcal{O}(X)|}$ (being continuous lattices) are [[injective objects]] in the category of $T_0$ spaces, we are able to complete to a diagram 
+
+$$\array{
+X & \to & X_0 & \to & P{|\mathcal{O}(X)|} \\
+\downarrow & & \downarrow & & \downarrow \\
+X' & \to & X_{0}' & \to & P{|\mathcal{O}(X')|}
+}$$ 
+
+where the rightmost vertical arrow is Scott-continuous (and the horizontal composites are of the form $x \mapsto N(x)$). Finally, since $Set \downarrow U \to Top$ is eso and full, it follows that $2$-$im(\pi) \to Top$ is eso, full, and faithful, and therefore an equivalence of categories. 
+
+This connection is explored in more depth with the category of [[equilogical spaces]], which can be seen either as a category of (set-theoretic) [[equivalence relation|partial equivalence relations]] over $AlgLat$, or equivalently of (set-theoretic) total [[equivalence relations]] on $T_0$ topological spaces.
+=-- 
 
 
 ### Completely distributive lattices
