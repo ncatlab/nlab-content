@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _partition function_ is a certain assignment that may be extracted from a system in [[statistical mechanics]], or in [[quantum field theory]]. It the quantum field theory $Z$ is presented as an [[FQFT]] that is a [[functor]] on a category of $d$-dimensional [[cobordism]]s, then the partition function is the assignment of $d$-dimensional [[torus|tori]] $T$ to the valued $Z(T)$ assigned to these by the QFT.
+The _partition function_ is a certain assignment that may be extracted from a system in [[statistical mechanics]], or in [[quantum field theory]]. If the quantum field theory $Z$ is presented as an [[FQFT]], that is, as a [[functor]] on a category of $d$-dimensional [[cobordism]]s, then the partition function is the assignment of $d$-dimensional [[torus|tori]] $T$ to the valued $Z(T)$ assigned to these by the QFT.
 
 By the axioms of functoriality and symmetric monoidalness of a QFT, this means that the partition function is the [[trace]] over the value of the QFT in the cylinder obtained by cutting the torus open.
 
