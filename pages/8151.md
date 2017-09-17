@@ -49,3 +49,6 @@ and hence computes the cohomology of $X$ with coefficients in $A$ in terms of th
 
 * [[Leray-Serre spectral sequence]]
 
+## References
+
+* [[James Milne]], section 11 of _[[Lectures on Étale Cohomology]]_
