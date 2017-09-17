@@ -40,6 +40,8 @@ The dual concept, which applies to cosinks ("sources"), is called a (perhaps sem
 
 ## Examples
 
+* If $D$ is the [[terminal category]], then final (or semi-final) lifts reduce to simply [[colimits]] in $C$.
+
 * An empty $U$-structured sink is just an object of $D$, and a semi-final lift of such a sink is a [[free object]] on $D$.  Thus $U$ admits semi-final lifts of empty sinks precisely when it has a [[left adjoint]].  Similarly, it admits final lifts of empty sinks precisely when it has a [[fully faithful functor|fully faithful]] left adjoint (i.e. it admits [[discrete objects]]).
 
 * A singleton $U$-structured sink is just a morphism of the form $f\colon U(X) \to Y$.  A strictly final lift of such a sink is precisely an [[opcartesian arrow]] lying over $f$.  Thus $U$ admits strictly final lifts of singleton structured sinks precisely when it is a [[Grothendieck opfibration]] (and final lifts of such sinks precisely when it is a [[Street opfibration]]).
@@ -50,6 +52,11 @@ The dual concept, which applies to cosinks ("sources"), is called a (perhaps sem
 
 * If $U$ has both a left and right adjoint, of which one (and hence also the other) is fully faithful, and $C$ is cocomplete, then $U$ admits final lifts of all *small* structured sinks.  See [[adjoint triple]] for a proof.  Dually, if $C$ is complete in this situation, then $U$ admits initial lifts of all small structured cosinks.
 
+## Remarks
+
+* (Semi-)final lifts can be generalized to *(semi-)final extensions*, which are to (semi-)final lifts as [[Kan extensions]] are to [[colimits]].
+
+* In [[Higher Topos Theory]] (section 4.3.1) the corresponding notion of (strictly) *final lift* for [[(∞,1)-categories]] is called a *$U$-colimit*.
 
 [[!redirects final lift]]
 [[!redirects final lifts]]
