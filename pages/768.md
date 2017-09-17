@@ -46,7 +46,7 @@ between the set of [[isomorphism]] classes of $G$-[[principal bundle]]s on $X$ a
 
 This space may be constructed as follows:
 
-write $\mathbf{B}G \in Top^{\Delta^{op}}$ for the [[simplicial topological space]] obtained as the [[nerve]] of the the one-object [[topological groupoid]] associated to $G$, the simplicial space given by
+write $\mathbf{B}G \in Top^{\Delta^{op}}$ for the [[simplicial topological space]] obtained as the [[nerve]] of the one-object [[topological groupoid]] associated to $G$, the simplicial space given by
 
 $$
   (\mathbf{B}G)_n) = G^{\times n}
