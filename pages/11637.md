@@ -30,6 +30,8 @@ This construction is the special case of the general construction of [[Artin-Maz
 
 ## Related concepts
 
+* [[Picard stack]]
+
 [[!include moduli of higher lines -- table]]
 
 
