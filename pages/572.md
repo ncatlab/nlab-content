@@ -201,8 +201,33 @@ is a weak equivalence.
 ([Rezk, theorem 6.2](#Rezk))
 
 ### Model category structure
+ {#ModelCategoryStructure}
 
 The category $[\Delta^{op}, sSet]$ of [[simplicial presheaves]] on the [[simplex category]] ([[bisimplicial sets]]) supports a [[model category]] structure whose fibrant objects are precisely the complete Segal spaces: the _[[model structure for complete Segal spaces]]_. This presents the [[(∞,1)-category of (∞,1)-categories]].
+
+### Relation to simplicial localization
+ {#RelationToSimplicialLocalization}
+
+Given $\mathcal{C}$ a [[category with weak equivalences]] $\mathcal{W} \subset Mor(\mathcal{C})$ or more generally a "[[relative category]]", then there is canonically a complete Segal space associated with it by the "relative nerve" construction, def. \ref{RelativeNerve} followed by fibrant replacement, and hence by the [model structure](#ModelCategoryStructure) this determines an [[(∞,1)-category]] $N_{Rezk}(\mathcal{C},\mathcal{W})$ . 
+
+On the other hand classical [[simplicial localization]]-theory provides several ways (e.g. [[hammock localization]]) to turn $(\mathcal{C}, \mathcal{W})$ into an [[(∞,1)-category]] $\mathcal{C}[\mathcal{W}]^{-1}$ which universally turns the elements in $\mathcal{W}$ into [[homotopy equivalences]].
+
++-- {: .num_theorem}
+###### Theorem
+
+These constructions are compatible in that there is an [[equivalence of (∞,1)-categories]]
+
+$$
+  N_{Rezk}(\mathcal{C},\mathcal{W})
+  \simeq
+  \mathcal{C}[\mathcal{W}^{-1}]
+  \,.
+$$
+
+=--
+
+For [[simplicial model categories]] this is ([Rezk, theorem 8.3](#{#Rezk}). For general [[model categories]] this is ([Bergner 07, theorem 6.2](#Bergner07)). For the fully general case this follows from results by [[Clark Barwick]], [[Daniel Kan]] and [[Bertrand Toën]] as pointed out by [[Chris Schommer-Pries]] [here on MathOverflow](http://mathoverflow.net/a/93139/381).
+
 
 ## Examples
  {#Examples}
@@ -337,25 +362,32 @@ A functor $f : C \to D$ is an [[equivalence of categories]] precisely if $Sing_J
 
 This appears as ([Rezk, theorem 3.7](#Rezk)).
 
-### Model categories as complete Segal spaces
+### Relative and Model categories as complete Segal spaces
+ {#RelativeCategoryAsCompleteSegalSpace}
 
-Let $C$ be a category with a class $W \subset Mor(C)$ of [[category with weak equivalences|weak equivalences]].  For instance, $C$ could be a [[model category]].  Then the [above](#OrdinaryCategoriesAsCompleteSegalSpaces) construction has the following evident variant.
+Let $C$ be a category with a class $W \subset Mor(C)$ of [[category with weak equivalences|weak equivalences]].  For instance, $C$ could be a [[model category]] or (much) more generally a "[[relative category]]".  Then the [above](#OrdinaryCategoriesAsCompleteSegalSpaces) construction has the following evident variant.
 
-+-- {: .num_prop}
++-- {: .num_prop #RelativeNerve}
 ###### Definition
+
 Let $N(C,W) \in [\Delta^{op}, sSet]$ be given by
 $$ N(C,W) : n \mapsto N(Core_W(C^{\Delta[n]})) \,, $$ 
 where now $Core_W(-)$ denotes the [[subcategory]] on those [[natural transformations]] whose components are [[weak equivalences]] in $C$.
+
 =--
 
 +-- {: .num_remark}
 ###### Remark
+
 The typical [[model category]] is not a [[small category]] with respect to the base choice of [[universe]]. In this case $N(C,W)$ will be a "[[large set|large]]" bisimplicial set. In other words, one needs to employ some [[universe enlargement]] to interpret this definition.
+
 =--
 
 +-- {: .num_remark}
 ###### Remark
+
 If $C$ is a model category, then $Core_W(C^{\Delta[n]})$ is the subcategory of weak equivalences in any of the standard [[model structures on functors]] on $C^{\Delta[n]}$. By a [classical fact](/nlab/show/%28infinity%2C1%29-categorical+hom-space#SpacesOfEquivalences) discssed at _[[(∞,1)-categorical hom-space]]_, its [[nerve]] is a model for the [[core]] of the corresponding [[(∞,1)-category of (∞,1)-functors]].
+
 =--
 
 The bisimplicial set $N(C,W)$ is not, in general, a complete Segal space.  It does, however, represent the same [[(∞,1)-category]] as the [[simplicial localization]] of $C$ at $W$; see [this MO question](http://mathoverflow.net/questions/92916/does-the-classification-diagram-localize-a-category-with-weak-equivalences/93139).
@@ -431,12 +463,16 @@ See at _[[model structure for dendroidal complete Segal spaces]]_ the section _[
 
 Complete Segal spaces were originally defined in 
 
-* [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
- {#Rezk}
+* {#Rezk} [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
+ 
 
 The relation to [[quasi-categories]] is discussed in 
 
 * [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+
+Further discussion of the relation to [[simplicial localization]] is in 
+
+* {#Bergner07} [[Julia Bergner]], _Complete Segal spaces arising from simplicial categories_ ([arXiv:0704.1624](http://arxiv.org/abs/0704.1624))
 
 A survey of the definition and its relation to equivalent definitions is in section 4 of 
 
@@ -447,6 +483,10 @@ See also pages 29 to 31 of
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
 For literature on the variants and refinements see at _[[Theta space]]_ and _[[n-fold complete Segal space]]_.
+
+Related MathOverflow discussion includes
+
+* [Does the classification diagram localize a category with weak equivalences?](http://mathoverflow.net/q/92916/381)
 
 ### Groupoidal version
  {#ReferencesGroupoidalVersion}
