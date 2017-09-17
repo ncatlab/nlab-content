@@ -1,0 +1,5 @@
+__A. P. Balachandran__ is an indian-american theoretical physicist, retired from the Syracuse University.
+
+Related page: [[entanglement]], [[entropy]]
+
+category: people
