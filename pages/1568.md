@@ -95,9 +95,9 @@ An ideal is a __[[maximal ideal]]__ if it is maximal among *proper* ideals.  A m
 
 That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; that every ideal is contained in a maximal ideal is a [[maximal ideal theorem]].
 
-An ideal $I$ is __principal__ if there exists an element $x \in I$ such that $y$ is a multiple of $x$ (in a rig) or $y \leq q$ (in an ordered set) whenever $y \in I$; we say that $I$ is __generated__ by $x$.  Every element $x$ generates a unique principal ideal, the set of all multiples of $x$ (in a rig) or the [[downset]] of $x$ (in an an order).  In the noncommutative case, 'multiple' should be interpreted in a left/right sense to match that of 'ideal'.
+An ideal $I$ is __principal__ if there exists an element $x \in I$ such that $y$ is a multiple of $x$ (in a rig) or $y \leq x$ (in an ordered set) whenever $y \in I$; we say that $I$ is __generated__ by $x$.  Every element $x$ generates a unique principal ideal, the set of all multiples of $x$ (in a rig) or the [[downset]] of $x$ (in an an order).  In the noncommutative case, 'multiple' should be interpreted in a left/right sense to match that of 'ideal'.
 
-More generally, the ideals form a [[Moore collection]] of subsets of $R$ or $L$, so we have an ideal __generated__ by any [[subset]].
+More generally, the ideals form a [[Moore collection]] of subsets of $R$ or $L$, so we have an ideal __generated__ by any [[subset]].  A subset $S$ that generates a given ideal $I$ may be called a __[[subbase]]__ of $I$; then $S$ is a __[[base]]__ if every element of $I$ is a multiple (in a rig) or a predecessor (in an order) of some element of $S$.  (In particular, every [[singleton subset]] is a base of its generated ideal.)  See also [[filter base]] and dualize for more about bases and subbases of ideals in lattices and other posets.
 
 
 [[!redirects ideal]]
@@ -155,3 +155,13 @@ More generally, the ideals form a [[Moore collection]] of subsets of $R$ or $L$,
 [[!redirects generated ideals]]
 [[!redirects ideal generated]]
 [[!redirects ideals generated]]
+[[!redirects ideal base]]
+[[!redirects ideal bases]]
+[[!redirects base of an ideal]]
+[[!redirects bases of an ideal]]
+[[!redirects bases of ideals]]
+[[!redirects ideal subbase]]
+[[!redirects ideal subbases]]
+[[!redirects subbase of an ideal]]
+[[!redirects subbases of an ideal]]
+[[!redirects subbases of ideals]]
