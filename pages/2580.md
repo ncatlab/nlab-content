@@ -13,6 +13,8 @@
 * automatic table of contents goes here
 {:toc}
 
+For an unrelated notion in differential geometry see [[distribution of subspaces]].
+
 ## Idea
 
 In [[functional analysis]], a _distribution_ (or generalized function) is a [[functional]] on a [[topological space|space]] of functions which typically is not representable by a function itself. In fact on a manifold, one may more properly distinguish the generalized functions from distributions, in the sense that generalized functions be functionals on densities, and distributions functionals on function. They extend traditional spaces of Lebesgue integrable functions in such a way to have
