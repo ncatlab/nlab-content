@@ -56,7 +56,7 @@ For $U = \{U_i \to X\}$ a [[cover]], the [[Cech nerve]] projection $C(U) \to X$ 
 
 ### Hypercover homology {#HypercoverHomology}
 
-Let $f : Y \to X$ be a hypercover. We may regard this as an object in the [[overcategory]] $Sh(C)/X$. By the discussion <a href="http://ncatlab.org/nlab/show/category+of+presheaves#RelWithOvercategories">here</a> this is equivalently $Sh(C/Y)$. Write $Ab(Sh(C/Y))$ for the category of abelian [[group object]]s in the [[sheaf topos]] $Sh(C/Y)$. This is an [[abelian category]].
+Let $f : Y \to X$ be a hypercover. We may regard this as an object in the [[overcategory]] $Sh(C)/X$. By the discussion <a href="http://ncatlab.org/nlab/show/category+of+presheaves#RelWithOvercategories">here</a> this is equivalently $Sh(C/X)$. Write $Ab(Sh(C/X))$ for the category of abelian [[group object]]s in the [[sheaf topos]] $Sh(C/X)$. This is an [[abelian category]].
 
 Forming in the sheaf topos the [[free functor|free]] abelian group on $f_n$ for each $n \in \mathbb{N}$, we obtain a simplicial abelian group object $\bar f \in Ab(Sh(C/X))^{\Delta}$. As such this has a [[Moore complex|normalized chain complex]] $N_\bullet(\bar f)$.
 
