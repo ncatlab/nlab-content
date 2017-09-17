@@ -392,35 +392,15 @@ where the second equivalence is the 2-categorical Yoneda lemma and the third use
 
 =--
 
-
 ### Structure of the representing object
 
-Let us now calculate $\widebar{k \mathbb{P}}$. It is the linear category of all $k$-linear functors 
+Let us now calculate $\widebar{k \mathbb{P}}$. In general, the linear Cauchy completion of a $k$-linear category $C$ consists of the full subcategory of linear presheaves $C^{op} \to Vect_k$ that are obtained as retracts of finite direct sums of representables $C(-, c): C^{op} \to Vect_k$. In the case of $C = k\mathbb{P}$, these are the polynomial functors 
 
-$$k\mathbb{P}^{op} \to Vect_k$$  
+$$F: \mathbb{P}^{op} \to FinVect_k$$ 
 
-which as modules are left adjoint to modules 
+where $F(n) = 0$ for large enough $n$. For it is clear that this category contains the representables and is closed under finite direct sums and retracts. On the other hand, every polynomial $F$ is a sum of monomials $F(0) \oplus F(1) \oplus \ldots \oplus F(n)$, and by Maschke's theorem, each $S_j$-module $F(j)$ is the retract of a finite sum of copies of the group algebra $k[S_j]$ which corresponds to the representable $k\mathbb{P}(-, j)$. 
 
-$$k\mathbb{P} \to Vect_k .$$ 
-
-But since $k\mathbb{P}$ is the coproduct of the one-object $k$-linear categories $k S_n$, this comes down to a sequence of right modules 
-
-$$(k S_n)^{op} \to Vect_k$$ 
-
-which are left adjoint to modules $k S_n \to Vect_k$. As is well known, these adjoint modules are the finitely generated projective right modules over $S_n$. 
-
-Hence an object of the Cauchy completion $\widebar{k \mathbb{P}}$ is given by a sequence of finitely generated projective $S_n$-modules, one for each $n$. Now in characteristic zero, Maschke's theorem (all short exact sequences of $S_n$-modules split) implies that all finitely generated $S_n$-modules are projective. Thus, finitely generated projective $S_n$-modules boil down to finite-dimensional representations of $S_n$. 
-
-Therefore an object of the Cauchy completion is a sequence of finite-dimensional $S_n$-modules, in other words a functor $\mathbb{P}^{op} \to Vect_k$ valued in finite-dimensional spaces. In summary, we have the following result. 
-
-+-- {: .un_thm} 
-######Theorem 
-The representing object $\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of functors $\mathbb{P}^{op} \to FinVect_k$. 
-=-- 
-
-Functors of the form $\mathbb{P}^{op} \to V$ go by many names, but here we will call them _species_ (after Joyal). 
-
-The linear symmetric monoidal structure on species is inherited from the monoidal structure of $\mathbb{P}$. Explicitly, the monoidal structure on $\mathbb{P}$ is at the object level given by adding integers, and on the morphism level given by group homomorphisms 
+The linear symmetric monoidal structure on polynomials is inherited from the monoidal structure of $\mathbb{P}$. Explicitly, the monoidal structure on $\mathbb{P}$ is at the object level given by adding integers, and on the morphism level given by group homomorphisms 
 
 $$S_m \times S_n \to S_{m+n}$$ 
 
@@ -428,7 +408,7 @@ which juxtapose permutations. This is linearized to give algebra maps
 
 $$k[S_m] \otimes k[S_n] \to k[S_{m+n}]$$ 
 
-which gives the structure of $k\mathbb{P}$. This structure uniquely extends to the Cauchy completion $\widebar{k\mathbb{P}}$, which is intermediate between $k\mathbb{P}$ and $Vect_k$-valued presheaves on $k\mathbb{P}$, according to Day convolution. The general formula for presheaves (species) $F, G: \mathbb{P}^{op} \to Vect_k$ is 
+which gives the monoidal category structure of $k\mathbb{P}$. This monoidal structure uniquely extends to the Cauchy completion $\widebar{k\mathbb{P}}$, which is intermediate between $k\mathbb{P}$ and $Vect_k$-valued presheaves on $k\mathbb{P}$, according to Day convolution. The general formula for the Day convolution product applied to presheaves $F, G: \mathbb{P}^{op} \to Vect_k$ is 
 
 $$(F \otimes G)(n) = \sum_{j+k = n} (F(j) \otimes G(k)) \otimes_{S_j \times S_k} S_n$$
 
@@ -436,9 +416,20 @@ or, in other notation,
 
 $$(F \otimes G)(n) = \sum_{j+k = n} Ind_{S_j \times S_k}^{S_n} F(j) \otimes G(k)$$
 
-and by restriction this formula gives the tensor product on species $F$ valued in finite-dimensional spaces. 
+and by restriction this formula gives the tensor product on polynomials $F$. It is a kind of categorification of the usual definition of product of (ordinary) polynomials, where given 
 
-This completes the description of the representing object $\widebar{k\mathbb{P}}$. 
+$$F(x) = \sum_{0 \leq j \leq M} \frac{f_j x^j}{j!} \qquad G(x) = \sum_{0 \leq k \leq N} \frac{g_k x^k}{k!}$$
+
+the $n^{th}$ Taylor coefficient of the product $F(x)G(x)$ is 
+
+$$\sum_{j+k = n} \frac{n!}{j! k!} f_j g_k$$ 
+
+So in summary, 
+
++-- {: .un_thm} 
+######Theorem 
+The representing object $\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of polynomials $\mathbb{P}^{op} \to FinVect_k$. 
+=-- 
 
 Now, having defined Schur functors abstractly as pseudonatural transformations $U \to U$, the representability theorem together with the 2-categorical Yoneda lemma means that the category of Schur functors is equivalent to the category of symmetric monoidal linear functors on $\widebar{k \mathbb{P}}$. Accordingly, we calculate 
 
@@ -448,49 +439,71 @@ In other words,
 
 +-- {: .un_thm}
 ######Theorem 
-The category of (abstract) Schur functors is equivalent to the functor category $[\mathbb{P}^{op},FinVect_k]$. 
+The category of (abstract) Schur functors is equivalent to the category of polynomial functors $\mathbb{P}^{op} \to FinVect_k$. 
 =-- 
 
-We will accordingly call a species of the form $\mathbb{P}^{op} \to FinVect_k$ a **Schur object**. 
+We will accordingly also call such a polynomial $\mathbb{P}^{op} \to FinVect_k$ a **Schur object**, and denote the linear category of polynomials by $Schur$. 
 
-NB: This theorem refers only to the underlying category. In other words, this category certainy has linear tensor category structure as well, but this structure is not respected by Schur functor composition which we consider next. 
+NB: This theorem refers only to the underlying category. In other words, this category certainly has linear tensor category structure as well, but this structure is not respected by Schur functor composition which we consider next. 
 
 ## Composition of Schur functors ##
 
-Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence to a monoidal structure on the underlying category of Schur objects $\mathbb{P}^{op} \to FinVect_k$, which we proceed to analyze. 
+Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence to a monoidal structure on the underlying category of Schur objects or polynomials $\mathbb{P}^{op} \to FinVect_k$, which we proceed to analyze. 
 
-It may be easier to do this in reverse. Start with a Schur object, i.e., a functor: 
+It may be easier to do this in reverse. Start with a Schur object, i.e., a functor
 
-$$1 \stackrel{F}{\to} [\mathbb{P}^{op}, FinVect_k].$$ 
+$$1 \stackrel{F}{\to} \overline{k\mathbb{P}}$$ 
 
-This induces a symmetric monoidal functor, unique up to (unique) symmetric monoidal isomorphism: 
+which names a polynomial. This induces a symmetric monoidal functor, unique up to (unique) symmetric monoidal isomorphism: 
 
-$$\mathbb{P} \stackrel{F^\sim}{\to} [\mathbb{P}^{op}, FinVect_k]: m \mapsto F^{\otimes m}$$ 
+$$\mathbb{P} \stackrel{F^\sim}{\to}\overline{k\mathbb{P}}: m \mapsto F^{\otimes m}$$ 
 
 Here $F^{\otimes m}$ is a Day convolution product of $m$ copies of $F$. Finally, the functor $F^\sim$ is linearized and extended (uniquely) to the linear Cauchy completion, to give a symmetric monoidal linear functor on $\widebar{k \mathbb{P}}$. The efficient tensor product description is 
 
-$$- \otimes_{\mathbb{P}} F^\sim: [\mathbb{P}^{op}, FinVect_k] \to [\mathbb{P}^{op}, FinVect_k]$$ 
+$$- \otimes_{\mathbb{P}} F^\sim: \overline{k\mathbb{P}} \to \overline{k\mathbb{P}}$$ 
 
 as this manifestly preserves colimits in the blank argument and therefore all colimits needed for the Cauchy completion. (And since the extension to the Cauchy completion is unique, this formula must be correct!) 
 
-In the language of species, this construction is called the _substitution product_, and is denoted $G \circ F$. Thus, 
+In the language of species, this construction is called the _substitution product_, and is denoted $G \circ F$. This is morally correct because it is indeed an appropriate categorification of polynomial composition. However, to avoid overloading the symbol $\circ$ in ways that might be confusing, we will rename it $G \boxtimes F$. Thus, 
 
-$$G \circ F = G \otimes_{\mathbb{P}} F^\sim$$ 
+$$G \boxtimes F = G \otimes_{\mathbb{P}} F^\sim$$ 
 
 In notation which looks slightly less abstract, this is the Schur object given by the formula 
 
-$$(G \circ F)(n) = \bigoplus_{n \geq 0} G(n) \otimes_{S_n} F^{\otimes n}$$ 
+$$(G \boxtimes F)(n) = \bigoplus_{k \geq 0} G(k) \otimes_{S_k} F^{\otimes k}(n)$$ 
 
-although 
+It should be noted that $(G \boxtimes F)(n)$ is indeed $0$ for large enough $n$, so that $G \boxtimes F$ is indeed polynomial. It is just the polynomial special case of the substitution product which is defined on general (Joyal) _species_ $F, G: \mathbb{P}^{op} \to Vect_k$. 
 
-(To be continued.) 
++-- {: .un_prop}
+######Proposition 
+The product $\boxtimes: Schur \times Schur \to Schur$ is a monoidal product. The unit of the monoidal product is the polynomial $X$ given by the representable $\mathbb{P}(-, 1): \mathbb{P}^{op} \to FinVect_k$. 
+=-- 
 
-There's a Schur functor from a symmetric monoidal category to itself for every $\mathbb{Z}[S_n]$ module $M$, given by 
-$$S_M(X)=X^{\otimes n}\otimes_{\Z[S_n]}M.$$
++-- {: .proof}
+######Proof (Sketch)
+The following proof is adapted from a similar argument due to Max Kelly: we exhibit an associativity isomorphism $\alpha: (- \boxtimes F) \boxtimes G \to - \boxtimes (F \boxtimes G)$ on the basis of universal properties. The point is that by the universal property of $\overline{k\mathbb{P}}$, the category of functors 
+$$F: 1 \to \overline{k\mathbb{P}}$$ 
+is equivalent to the category of symmetric monoidal linear functors 
+$$H: \overline{k\mathbb{P}} \to \overline{k\mathbb{P}}$$ 
+The correspondence in one direction takes $F$ to the symmetric monoidal functor $- \boxtimes F$, and in the other direction composes $H$ with $X: 1 \to \overline{k\mathbb{P}}$. Thus the unit isomorphism $X \boxtimes F \cong F$ is clear. Also, according to this equivalence, symmetric monoidal linear transformations between symmetric monoidal linear functors of the form 
+$$(- \boxtimes F) \boxtimes G \to - \boxtimes (F \boxtimes G)$$ 
+are in natural bijection with morphisms $(X \boxtimes F) \boxtimes G \to X \boxtimes (F \boxtimes G)$, which by the unit isomorphism reduce to morphisms $F \boxtimes G \to F \boxtimes G$. Thus, corresponding to the identity on $F \boxtimes G$ we obtain an associativity map $\alpha: (- \boxtimes F) \boxtimes G \to - \boxtimes (F \boxtimes G)$. By similar arguments that appeal to the universal property of $\overline{k \mathbb{P}}$, we get all the required axioms: the invertibility of $\alpha$, the pentagon, etc. 
+=--
 
-The composition of these functors corresponds to a strange monoidal structure on $\oplus_n\mathbb{Z}[S_n]$-mod, given by plethysm:
-$$M\boxtimes N=\mathrm{Ind}_{S_n\wr S_m}^{S_{mn}} M\wr N.$$
+To summarize: we have equivalences between 
 
-The Schur functors described above are those corresponding to irreducible modules over $\mathbb{Q}$. 
+* The category of pseudonatural transformations $U \to U$; 
+
+* The category of symmetric monoidal linear functors $\overline{k\mathbb{P}} \to \overline{k \mathbb{P}}$; 
+
+* The category $Schur = U(\overline{k\mathbb{P}})$. 
+
+The equivalence from $Schur \to SymMonLinCauch(\overline{k \mathbb{P}}, \overline{k \mathbb{P}})$ takes a polynomial $F$ to $- \boxtimes F$. Moreover, the associativity isomorphism is precisely a structure 
+
+$$(- \boxtimes G) \circ (- \boxtimes F) \to - \boxtimes (F \boxtimes G)$$ 
+
+of strong monoidal equivalence from $(Schur, \boxtimes)$ to the monoidal category $SymMonLinCauch(\overline{k\mathbb{P}}, \overline{k\mathbb{P}})$ under endofunctor composition. 
+
+The monoidal product $\boxtimes$ on $Schur$ goes by another name: it is the **plethystic monoidal product**. 
 
 [[!redirects Schur functors]]
