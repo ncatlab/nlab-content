@@ -384,6 +384,8 @@ See for instance ([Kiersz, prop. 3](#Kiersz)).
 
 * [[Vect]]
 
+* [[(∞,1)Mod]]
+
 * [[2Mod]]
 
 * [[nMod]]
