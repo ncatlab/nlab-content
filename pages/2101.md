@@ -53,7 +53,7 @@ Abstractly, one may *define* an [[algebraic category]] to be a category equipped
 
 ## References
 
-*  [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
+*  [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html))
 
 *  [[Emily Riehl]] and [[Dominic Verity]], Homotopy coherent adjunctions and the formal theory of monads ( [arxiv'd](http://arxiv.org/abs/1310.8279) )
 
