@@ -43,7 +43,7 @@ Later two more precise classes of correspondences were identified, that are rega
 +-- {: .num_remark}
 ###### Remark
 
-In view of thes two classes of examples it is maybe noteworthy that one can see that also closed [[string field theory]], which is supposed to one side of the [[AdS/CFT correspondence]], has the form of an [[schreiber:infinity-Chern-Simons theory]], as discussed there, for the [[L-infinity algebra]] of closed string correlators. So maybe the above two different realizations of the holographic principle are really aspects of one single mechanism for $\infty$-Chern-Simons theory. 
+In view of these two classes of examples it is maybe noteworthy that one can see that also closed [[string field theory]], which is supposed to be one side of the [[AdS/CFT correspondence]], has the form of an [[schreiber:infinity-Chern-Simons theory]], as discussed there, for the [[L-infinity algebra]] of closed string correlators. So maybe the above two different realizations of the holographic principle are really aspects of one single mechanism for $\infty$-Chern-Simons theory. 
 
 =--
 
@@ -73,7 +73,7 @@ $$
   \begin{aligned}
   \overline{Z_B(\Sigma)} 
   & \in 
-  Z_B(\partia_{in} \Sigma)^{*} \otimes Z_B(\partial_{out} \Sigma)
+  Z_B(\partial_{in} \Sigma)^{*} \otimes Z_B(\partial_{out} \Sigma)
    \\
    & \simeq
    Z_B(\partial \Sigma)
