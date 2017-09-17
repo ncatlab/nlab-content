@@ -98,7 +98,27 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 ### In dependent type theory
  {#InDependentTypeTheory}
 
-In [[dependent type theory]] -- and its further variants/refinements such as [[homotopy type theory]] -- there is also a somewhat different perspective on the axiom of choice. See at _[[Martin-Löf dependent type theory]]_ the section _[Axiom of choice](http://ncatlab.org/nlab/show/Martin-L%C3%B6f+dependent+type+theory#AxiomOfChoice)_.
+In [[dependent type theory]] -- and its further variants/refinements such as [[homotopy type theory]] -- there is also a somewhat different perspective on the axiom of choice. See also at _[[Martin-Löf dependent type theory]]_ the section _[Axiom of choice](Martin-L%C3%B6f+dependent+type+theory#AxiomOfChoice)_.
+
+
++-- {: .num_prop }
+###### Proposition
+
+The following form of the [[axiom of choice]] is _derivable_ in 
+[[Martin-Löf dependent type theory]]: 
+
+If $\Gamma, x : A, y : B(x) \vdash C(x, y) : \mathrm{Type}$,
+
+$$\Gamma \vdash (\forall x : A) (\exists y : B(x)) C(x, y) \to (\exists f : (\Pi x : A)B(x) )(\forall x : A) C(x, \mathrm{apply}(f, x)) : \mathrm{true}$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+One should note carefully that this is only "the axiom of choice" under the [[propositions-as-types]] interpretation of the [[quantifiers]] $\forall$ and $\exists$.  [[category theory|Category-theoretically]], using the propositions-as-types logic corresponds roughly to working with the [[subobject lattices]] in the [[ex/lex completion]] of a [[locally cartesian closed category]]; the axiom of choice then follows since every object of the original category becomes [[projective object|projective]] in its ex/lex completion.
+
+=--
 
 ### In higher category theory
 
