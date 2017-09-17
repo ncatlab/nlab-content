@@ -18,7 +18,7 @@ Some idea of its history is given in [[Algebraic K-theory, a historical perspect
 
 ##More recent history and the nPOV.
 
-From the most recent  [[nPOV]], algebraic K-theory is  an [[(∞,1)-functor]] that sends [[stable (∞,1)-categories]] to [[spectra]] -- their [[K-theory]] spectra.
+From the most recent [[nPOV]], algebraic K-theory is an [[(∞,1)-functor]] that sends [[stable (∞,1)-categories]] to certain [[spectra]] -- their [[K-theory]] spectra -- characterized roughly speaking as the universal finitary Morita invariant of stable (∞,1)-categories under which all exact sequences of stable (∞,1)-categories split. 
 
 Traditionally the stable $(\infty,1)$-categories that have been considered are those coming from categories of [[chain complex]]es, and in this sense algebraic K-theory is the study of [[K-theory]] of categories more general than that of (bounded [[chain complex]]es of) [[vector bundle]]s on a [[topological space]], which is the topic of [[topological K-theory]].
 
