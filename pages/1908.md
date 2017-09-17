@@ -74,7 +74,7 @@ There may also be extra structure induced more directly on $K(C)$. For instance 
 
 ## Further examples ##
 
-* The decategorifications of finite [[set]]s and finite [[vector space]]s are [[natural numbers]]
+* The decategorifications of finite [[set]]s and finite dimensional [[vector space]]s are [[natural numbers]]
   $$
     K(FinSet) \simeq \mathbb{N}
   $$
