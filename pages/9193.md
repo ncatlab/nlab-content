@@ -1,0 +1,68 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[theory (physics)|theory]] in [[physics]] which describes the fundamental physics of the [[observable universe]] to best present knowledge is a [[local Lagrangian]] [[field (physics)|field]] theory which combines 
+
+| Einstein- | Maxwell- | Yang-Mills- |  Dirac- | Higgs |
+|----------|---------|------------|--------|-------|
+|  [[gravity]] | [[electromagnetism]] | [[electroweak  field|electroweak]] and [[strong nuclear force]] | [[fermion|fermionic]] [[matter]] | [[scalar field]] |
+
+[[action functional]]:
+
+$$
+  S  \colon
+  (\cdots)
+  \mapsto
+  \int_X R(e) vol(e)
+  + 
+  \int_X \langle F_\nabla \wedge \star_e F_\nabla \rangle
+  + 
+  \int_X (\psi, D_{e,\nabla} \psi) vol(e)
+  + 
+  \cdots
+$$
+
+## Related concepts
+
+* [[Einstein-Hilbert action]]
+
+* [[Einstein-Maxwell theory]]
+
+* [[Einstein-Yang-Mills theory]]
+
+* [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
+
+* [[standard model of particle physics]]
+
+* [[standard model of cosmology]]
+
+## References
+
+
+Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ in 
+
+* _[[geometry of physics]]_
+
