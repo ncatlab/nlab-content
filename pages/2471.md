@@ -23,7 +23,7 @@ An _affinoid algebra_ is a local model for [[analytic spaces]] in [[analytic geo
 
 ## Definition
 
-Let $K$ be a complete [[ultrametric field]]. 
+Let $K$ be a [[complete normed field|complete]] [[non-archimedean valued field]]. 
 
 As a [[ring]], a __standard affinoid algebra__ (or Tate algebra) $T_{n,K}$ is the subring of the ring of 
 [[formal power series in $K[ [x_1, \ldots, x_n] ]$ consisting of all strictly [[convergence|converging]] series $ c= \sum_I c_I x^I$, that is such that $|c_I|\to 0$ as $I\to \infty$. 
@@ -31,6 +31,8 @@ As a [[ring]], a __standard affinoid algebra__ (or Tate algebra) $T_{n,K}$ is th
 There is a [[Gauss norm]] on such series $\|\sum_I c_I x^I \| = max\{|c_I|\}_I$. This is indeed a [[norm]] making $T_{n,K}$ into a Banach $K$-algebra of countable type. 
 
 An __affinoid algebra__ is any [[Banach algebra]] which can be represented in a form (Tate algebra)/(closed ideal). 
+
+The [[category]] of **$k$-[[affinoid spaces]]** is the [[opposite category]] of the category of $k$-affinoid algebras and bounded [[homomorphisms]] between them.
 
 
 ## Properties
@@ -55,3 +57,4 @@ See also
 
 * {#Bambozzi14} [[Federico Bambozzi]], _On a generalization of affinoid varieties_ ([arXiv:1401.5702](http://arxiv.org/abs/1401.5702))
 
+[[!redirects affinoid algebras]]
