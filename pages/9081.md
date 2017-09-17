@@ -87,7 +87,7 @@ While the [[standard model of fundamental physics - table|standard model of fund
 1. a **[[gauge theory|gauge]]** theory;
 1. a **[[Lagrangian]]** theory;
 1. a **[[local quantum field theory|local]]** theory;
-1. a **[[topological field theory|topological]] theory.
+1. a **[[topological field theory|topological]]** theory.
 
 We briefly indicate what this means, a formal discussion of these notions will be given in the  main part below.
 
@@ -102,6 +102,9 @@ We briefly indicate what this means, a formal discussion of these notions will b
       X &\stackrel{id}{\to}& X
      }
    $$
+
+  (This is the traditional formulation. At _[[field (physics)]]_ is discussed that the concept of _field [[fiber bundle]]_ needs to be refined to that of field _[[fiber ∞-bundle]]_ in order to accuratly capture all aspects of field theory:   _[The traditional idea of field bundles and its problems](physical+field#IdeaOfFieldBundlesAndItsProblems)_.)
+
 
 * A **[[gauge theory|gauge]]** theory in the broad sense has not just a [[set]] or [[smooth space]] of field configurations but has a [[groupoid]] or [[stack]]/[[smooth groupoid]] of field configurations: there are equivalences between nominally different field configurations 
 
@@ -142,6 +145,7 @@ We briefly indicate what this means, a formal discussion of these notions will b
 
 
 ### Chern-Simons field theory as a toy example
+ {#ChernSimonsTheoryAsAToyExample}
 
 Most of this was fairly well understood decades ago, by the 1960s. But even with all this conceptual understanding of the structure of fundamental physics available, there were and are a lot of implications of 
 _[[topological field theory|topological]] [[local  Lagrangian]] [[gauge field theory]]_ which remained elusive.
