@@ -16,15 +16,98 @@
 
 ## Idea
 
-_Diaconescu's theorem_ is one of central results in [[topos theory]], which says that there exists a natural [[equivalence of categories]]
+_Diaconescu's theorem_ asserts that any [[presheaf topos]] is the [[classifying topos]] for [[flat functor]]s on its [[site]].
+
+Often a special case of this is considered, which assrts that for every [[topological space]] $X$ and [[discrete group]] $G$ there is an [[equivalence of categories]]
+ 
+$$
+  Topos(Sh(X),[\mathbf{B}G, Set]) \simeq G Tors(X)
+$$
+
+between the [[geometric morphism]]s form the [[sheaf topos]] over $X$ to the category of [[permutation representation]]s of $G$ and the category of $G$-[[torsor]]s on $X$.
+
+## Statement
+
+
+For $C$ a [[category]], write 
 
 $$
-  Topos(Sh(X),B C) \simeq Tors(X;C)
+  PSh(C) := [C^{op}, Set]
+$$ 
+
+for its [[presheaf topos]]. 
+
+For $\mathcal{E}$ any [[topos]], write
+
+$$
+  FlatFunc(C, \mathcal{E}) \hookrightarrow [C, \mathcal{E}]
 $$
 
-where the left side is a category of [[geometric morphism]]s from the [[Grothendieck topos]] $Sh(X)$ of [[sheaves]] over a [[topological space]] $X$ to the [[classifying topos]] $B C$ of a [[small category]] $C$, and the right side is the category of left $C$-[[principal bundle]]s over $X$. 
+for the [[full subcategory]] of the [[functor category]] on the [[flat functor]].
+
++-- {: .num_theorem}
+###### Theorem
+**(Diaconescu's theorem)**
+
+There is an [[equivalence of categories]]
+
+$$
+  Topos(\mathcal{E}, PSh(C))
+   \simeq
+  FlatFunc(C, \mathcal{E})
+$$
+
+between the category of [[geometric morphism]]s $f : \mathcal{E} \to PSh(C)$ and the category of [[flat functor]]s $C \to \mathcal{E}$.
+
+This equivalence takes $f$ to the composite
+
+$$
+  C \stackrel{j}{\to} PSh(C) \stackrel{f^*}{\to} \mathcal{E}
+  \,,
+$$
+
+where $j$ is the [[Yoneda embedding]] and $f^*$ is the [[inverse image]] of $f$.
+
+=--
+
+See for instance ([Johnstone, theorem B3.2.7](#Johnstone)).
+
++-- {: .num_remark}
+###### Remark
+
+If $C$ is a [[cartesian category]] we may think of it as the [[syntactic category]] and in fact the [[syntactic site]] of an [[essentially algebraic theory]] $\mathbb{T}_C$.  A [[flat functor]] $C \to \mathcal{E}$ is then precisely a [[finite limit]] preserving functor, hence is precisely a $\mathbb{T}$-[[model]] in $\mathcal{E}$. 
+
+Therefore the above theorem says in this case that there is an [[equivalence of categories]]
+
+$$
+  Topos(\mathcal{E}, PSh(C))
+   \simeq
+  \mathbb{T}_C Mod(\mathcal{E})
+$$
+
+between the [[geometric morphism]]s and the $\mathbb{T}$-models in $\mathcal{E}$.
+
+This says that $PSh(C)$ is the [[classifying topos]] for $\mathbb{T}_C$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $G$ is a [[discrete group]] and $C = \mathbf{B}G$ is its [[delooping]] [[groupoid]], $PSh(C) \simeq [\mathbf{B}G, Set]$ is the category of [[permutation representation]]s of $G$, also called the [[classifying topos]] of $G$.
+
+In this case a flat functor $ C = \mathbf{B}G \to \mathcal{E}$ may be identified with a $G$-[[torsor]] object in $\mathcal{E}$. 
+
+For this reason one sees in the literature sometimes the term "torsor" for flat functors out of any category $C$. It is however not so clear in which sense this terminology is helpful in cases where $C$ is not a delooping groupoid or at least _some_ groupoid.
+
+=--
 
 ## References
+
+A standard textbook references is section B3.2 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+  {#Johnstone}
 
 The first proof of this result can be found in:
 
