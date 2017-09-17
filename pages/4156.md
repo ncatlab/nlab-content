@@ -1,10 +1,17 @@
 
-<div class="rightHandSide toc">
-[[!include physicscontents]]
-***
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### AQFT
++--{: .hide}
 [[!include AQFT and operator algebra contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * the following line creates the automatic table of contents
@@ -32,6 +39,7 @@ For some time physicists believed that subsets of the PCT symmetry are respected
 ## Definition ##
 
 ### Definition in the Wightman approach ###
+
 The PCT theorem for Wightman fields (see [[Wightman axioms]]) was proved by Res Jost, see references.
 
 This proof clarified the different conditions one has to impose, these are:
@@ -40,34 +48,38 @@ This proof clarified the different conditions one has to impose, these are:
 
 2. Positivity of the energy.
 
-3. There are only fields, which transform with respect to finite dimensional representations of the Lorentz group. (Transformation of the index space.)
+3. There are only fields, which transform with respect to finite dimensional representations of the [[Lorentz group]]. (Transformation of the index space.)
 
 4. Locality, which means that for spacelike distances the Bose fields commute with all other fields and the Fermi fields anticommute with each other.
 
-5. The Minkowski space has even dimensions.
+5. The [[Minkowski space]] has even dimensions.
 
 6. To every field in the theory appears its conjugate complex partner.
 
 ### Definition in the Haag-Kastler approach ###
+
 Let $\mathcal{M}(\mathcal{J})$ be a [[AQFT|Haag-Kastler net]] on [[Minkowski spacetime]].
 
-A PCT operator $\Theta$ is an anti-linear automorphism, that is for every local algebra $\mathcal{M}(\mathcal{O})$, elements $A, B \in \mathcal{M}(\mathcal{O})$ and $\lambda \in \mathbb{C}$ we have the relations
-$$
-\Theta(AB) = \Theta(A) \Theta(B) \; \; \text{and} \; \; \Theta(\lambda A) = \overline \lambda \Theta(A)
-$$
++-- {: .un_defn}
+###### Definition
 
-$$
-\Theta(\mathcal{M}(\mathcal{O})) = \mathcal{M}(-\mathcal{O})
-$$
+A **PCT operator** $\Theta$ on the local net is an anti-linear [[automorphism]], that is for every local algebra $\mathcal{M}(\mathcal{O})$, elements $A, B \in \mathcal{M}(\mathcal{O})$ and $\lambda \in \mathbb{C}$ we have the relations
 
-For the representation $U(\Lambda, a)$ of the [[Poincare group]] on $\mathcal{M}$ we have
-$$
-\Theta U(\Lambda, a) A = U(\Lambda, -a) \Theta A 
-$$
+1. $\Theta(A B) = \Theta(A) \Theta(B)$;
 
-Further, $\Theta$ has to transform every [[charged sector]] into its conjugate sector.
+1. $\Theta(\lambda A) = \overline \lambda \Theta(A)$;
 
-A PCT theorem in this approach is a theorem that states sufficient conditions such that a PCT operator $\Theta$ exists.
+1. $\Theta(\mathcal{M}(\mathcal{O})) = \mathcal{M}(-\mathcal{O})$;
+
+such that for $(\Lambda,a) \mapsto U(\Lambda, a)$ the given [[representation]] of the [[Poincare group]] on $\mathcal{M}$ we have 
+
+1. $\Theta U(\Lambda, a) A = U(\Lambda, -a) \Theta A$;
+
+1. $\Theta$ transforms every [[charge sector]] into its conjugate sector.
+
+=--
+
+A **PCT theorem** in this context is a theorem that states sufficient conditions such that a PCT operator $\Theta$ exists.
 
 ## Properties ##
 ...
@@ -83,7 +95,7 @@ Jost's proof for Wightman fields:
 
 * Res Jost: _Eine Bemerkung zum CPT Theorem_ Helv. Phys. Acta 30 (1957), p.409-416
 
-* Borchers, Yngvason: _On the PCT--Theorem in the Theory of Local Observables_ [arXiv](http://arxiv.org/abs/math-ph/0012020)
+* Borchers, Yngvason: _On the PCT--Theorem in the Theory of Local Observables_ ([arXiv:math-ph/0012020](http://arxiv.org/abs/math-ph/0012020))
 
 [[!redirects PCT]]
 [[!redirects PCT symmetry]]
