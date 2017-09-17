@@ -92,9 +92,7 @@ In
 
 it is shown that _cofibrant_ $\omega$-categories with respect to the canonical model structure are precisely the "free" ones, where "free" here means "generated from a [[polygraph]]" as described in 
 
-* [[Francois Métayer]], _Resolutions by polygraphs_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
-
-([[Polygraphs]] are equivalent to [[computad|computads]].)
+* [[Francois Métayer]], _Resolutions by [[polygraphs]]_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
 
 We had some blog discussion about this at
 [Freely generated omega-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
@@ -102,6 +100,8 @@ We had some blog discussion about this at
 ## Related concepts
 
 * [[model structure on strict omega-categories]]
+
+* [[2-trivial model structure]]
 
 ## References
 
