@@ -8,6 +8,8 @@
 
 ## Definition
 
+###Cylinder Object
+
 Let $A$ be a small category, and let $Psh(A)$ denote the functor category $[A^{op}, Set]$.  An object $X\in Ob(Psh(A))$ is called a [[presheaf]] (of sets).   
 
 A *cylinder on a presheaf* $X$ is a presheaf $I X$ with the following data:  
@@ -29,5 +31,17 @@ $$\begin{matrix}
 &&\partial^j_Y&&\sigma_Y&&\end{matrix}$$
 
 In particular, $\phi$ is a [[retract]] of $\psi$.  
+
+###Cylinder Functor
+
+A _cylinder functor_ is a cylinder object for the identity functor $1_Psh(A)$ in the endofunctor category $[Psh(A),Psh(A)]$.  
+
+####Elementary Homotopy Data
+
+A presheaf category is said to have a _elementary homotopy data_ if it is equipped with a cylinder functor I such that 
+
+* the functor I commutes with all small colimits;
+* the functor I respects monomorphisms; 
+* the natural transformation $\partial^j_{(-)}:1_{Psh(A)}\to I$ sends arrows of Psh(A) to commutative squares in Psh(A) in the obvious way.  We require that it sends all monomorphisms to [[pushout|cartesian squares]].
 
 (More to come..)
