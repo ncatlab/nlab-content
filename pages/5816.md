@@ -73,8 +73,7 @@ For $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)categ
 
 The definition first appeared in 
 
-* S. M. Carmody, _Cobordism Categories_ , PhD thesis, University of Cambridge,
-1995.
+* S. M. Carmody, _Cobordism Categories_ , PhD thesis, University of Cambridge, 1995.
 
 A definition also appeared in 
 
