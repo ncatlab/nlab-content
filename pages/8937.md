@@ -25,6 +25,9 @@ In [[higher geometric prequantization]] (see there for more details for the mome
 
 * [[line 2-bundle]]
 
+[[!include extended prequantum field theory - table]]
+
+
 
 [[!redirects prequantum circle n-bundle]]
 [[!redirects prequantum circle n-bundles]]
