@@ -659,7 +659,7 @@ Expositions with an eye towards [[higher inductive types]] include
 
 * [[Peter LeFanu Lumsdaine]], _Higher inductive types, a tour of the menageries_ ([blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/))
 
-* [[Mike Shulman]], _Inductive and higher inductive types_, talk slides (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
+* [[Mike Shulman]], _Inductive and higher inductive types_, talk slides (2012) ([pdf](http://www.sandiego.edu/~shulman/hottminicourse2012/04induction.pdf))
 
 Original references include
 
