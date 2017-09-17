@@ -56,7 +56,7 @@ $$
   a\colon A \;\vdash \; b(a) \colon B(a)
 $$
 
-is a [[dependent type]] whose [[categorical semantics]] is given by a [[morphism]] $A \stackrel{b}{\to} B$ in $\mathbf{H}$, then the $\infty$-image of that morphism is the categorical semantics of the type
+is a [[dependent term]] whose [[categorical semantics]] is given by a [[morphism]] $A \stackrel{b}{\to} B$ in $\mathbf{H}$, then the $\infty$-image of that morphism is the categorical semantics of the type
 
 $$
   \vdash \; 
