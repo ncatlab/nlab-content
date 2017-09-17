@@ -137,4 +137,5 @@ See also [[∞-Chern-Weil theory introduction]]
 [[!redirects Lie-algebra valued differential forms]]
 
 [[!redirects Lie algebra-valued form]]
+[[!redirects Lie algebra-valued 1-form]]
 [[!redirects groupoid of Lie algebra-valued forms]]
