@@ -1,0 +1,7 @@
+
+
+* [webpage](http://www.sissa.it/tpp/members.php?ID=12)
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Daniele_Amati) (German)
+
+category: people
