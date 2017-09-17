@@ -176,3 +176,7 @@ Other discussions of higher categories of cobordisms are
 
 [[!redirects (∞,n)-categories of cobordisms]]
 [[!redirects (infinity,n)-categories of cobordisms]]
+
+[[!redirects (∞,n)-category of n-fold correspondences]]
+[[!redirects (infinity,n)-category of n-fold correspondences]]
+
