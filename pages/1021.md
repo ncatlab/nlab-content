@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -55,12 +55,14 @@ Right adjoint functors preserve
 * [[monomorphism]]s.
 
 
-## Further remarks 
+## Related concepts
 
 *  See [[Galois connection]] for right adjoints of monotone functions.
 *  See [[adjoint functor]] for right adjoints of functors.
 *  See [[adjunction]] for right adjoints in $2$-categories.
 *  See [[examples of adjoint functors]] for examples.
+
+* [[parametric right adjoint]]
 
 [[!redirects right adjoints]]
 [[!redirects right adjoint -- history]]
