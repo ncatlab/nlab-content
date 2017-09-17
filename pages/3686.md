@@ -76,3 +76,8 @@ The relation to volumes of balls is discussed in
 * [[Andreas Blass]] and [[Stephen Schanuel]], On the volumes of balls ([ps](http://www.math.lsa.umich.edu/~ablass/vol.ps)).  
 
 [[!redirects symplectomorphisms]]
+
+[[!redirects Hamiltonian symplectomorphism]]
+[[!redirects Hamiltonian symplectomorphisms]]
+[[!redirects hamiltonian symplectomorphism]]
+[[!redirects hamiltonian symplectomorphisms]]
