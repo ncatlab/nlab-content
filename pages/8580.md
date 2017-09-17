@@ -425,7 +425,7 @@ We now end this introduction and overview and turn to the in-depth account of _g
 
 
 +-- {: bluebox #GEOMETRY}
-###### 
+###### Contents
 
 **I) Geometry**
 
@@ -8213,7 +8213,7 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 
 +-- {: bluebox #PHYSICS}
-###### 
+###### Contents
 
 **II) Physics**
 
@@ -8235,7 +8235,7 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 ## **Fields**
  {#Fields}
 
-In fundamental [[physics]] the basic entities that are being described by a [[physical theory]] -- its _[[kinematics|kinematical]] content_ -- are called _[[field (physics)|fields]]_; such as the _[[electromagnetic field]] (which we already encountered 
+In fundamental [[physics]] the basic entities that are being described by a [[physical theory]] -- its _[[kinematics|kinematical]] content_ -- are called _[[field (physics)|fields]]_; such as the _[[electromagnetic field]]_ (which we already encountered 
 [above](#ElectromagneticFieldStrength)) or the field of _[[gravity]]_ (which we also briefly encountered [before](#RiemannianGeometry)). Also all _[[matter]]_ is fundamentally described by fields (which we already mentioned [above](#SpinGeometry)).
 
 We discuss here the general notion of _[[field (physics)|physics fields]]_ in _[[prequantum field theory]], [[classical field theory]] and [[quantum field theory]].
@@ -9408,7 +9408,7 @@ By passing to [[irreducible representations]] in the above, we obtain specifical
 ## **Lagrangians and Action functionals**
  {#LagrangiansAndActionFunctionals}
 
-The _[[kinematics]]_ of a [[physical system]] is its content of [[field (physics)|fields]] which we discussed above in _[Fields](#Fields)_. The _[[dynamics]]_of the [[physical system]] is encoded by [[functional]] on the space of all fields, called the _[[action functional]]_. Good [[physical theories]] are _[[locality in physics|local]]_ and for these the action functional arises from [[integration]] of a [[local Lagrangian|local]] and _[[extended Lagranian|extended]]_ _[[Lagrangain]]_. This enocoding of [[dynamics]] by [[Lagrangians]] we discuss here.
+The _[[kinematics]]_ of a [[physical system]] is its content of [[field (physics)|fields]] which we discussed above in _[Fields](#Fields)_. The _[[dynamics]]_of the [[physical system]] is encoded by [[functional]] on the space of all fields, called the _[[action functional]]_. Good [[physical theories]] are _[[local quantum field theory|local]]_ and for these the action functional arises from [[integration]] of a [[local Lagrangian|local]]/ [[extended Lagrangian|extended]] _[[Lagrangian]]_. This enocoding of [[dynamics]] by [[Lagrangians]] we discuss here.
 
 ### Model layer
 
