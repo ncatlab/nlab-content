@@ -185,6 +185,8 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 
 * [[(∞,0)-category]]
 
+* [[(n,1)-category]]
+
 * [[(∞,1)-category]]
 
 * [[(∞,2)-category]]
