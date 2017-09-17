@@ -38,5 +38,6 @@ See
 
 ## References
 
-* _[[schreiber:Seminar on derived differential geometry]]_
+* Urs Schreiber, _[[schreiber:Seminar on derived differential geometry]]_
 
+* [[Dominic Joyce]], _D-manifolds and d-orbifolds: a theory of derived differential geometry_ ([pdf](http://people.maths.ox.ac.uk/joyce/dmbook.pdf))
