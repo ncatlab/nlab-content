@@ -53,3 +53,9 @@ Section 5.3.1 of
 
 [[!redirects cofiltered (∞,1)-category]]
 [[!redirects cofiltered (∞,1)-categories]]
+
+[[!redirects filtered (∞,1)-colimit]]
+[[!redirects filtered (infinity,1)-colimit]]
+
+[[!redirects filtered (∞,1)-colimits]]
+[[!redirects filtered (infinity,1)-colimits]]
