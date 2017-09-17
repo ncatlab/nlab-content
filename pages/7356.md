@@ -1,0 +1,50 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle -- to obtain [[type IIA supergravity]] -- and then apply [[T-duality]] along another circle direction to obtain [[type IIB supergravity]].
+
+More precisely, this process relates 11-dimensional supergravity on 11-dimensional [[torus]]-bundles /  [[elliptic fibrations]] to [[type IIA supergravity]]. What is called _F-theory_ is the explicit description of [[type IIB supergravity]] [[vacua]] in terms of such elliptic fibrations.
+
+In this description, the complex modulus $\tau$ of the torus fiber becomes re-interpreted as the _axio-dilaton_, where $Im(\tau) = g$ is the string coupling constant.
+
+
+## References
+
+### General
+
+The original article is 
+
+* [[Cumrum Vafa]], _Evidence for F-theory_, Nucl.Phys.B469:403-418,1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
+
+Lecture notes include
+
+* Timo Weigand, _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
+
+### Phenomenology and model building
+
+A large body of literature is concerned with particle physics [[phenomenology]] modeled in the context of F-theory.
+
+(...)
+
+### 4-Form flux
+
+The image of the [[supergravity C-field]] from [[11-dimensional supergravity]] to F-theory yields the _$G_4$-flux_.
+
+* Andres Collinucci, Raffaele Savelli, _On Flux Quantization in F-Theory_ (2010) ([arXiv:1011.6388](http://arxiv.org/abs/1011.6388))
+
+* Sven Krause, Christoph Mayrhofer, Timo Weigand, _Gauge Fluxes in F-theory and Type IIB Orientifolds_ (2012) ([arXiv:1202.3138](http://arxiv.org/abs/1202.3138))
