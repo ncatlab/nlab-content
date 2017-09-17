@@ -69,7 +69,7 @@ Another hint comes from the fact that the [[U-duality]]-structure of [[supergrav
 
 * [[Diaconescu-Moore-Witten anomaly]]
 
-* [[BFSS matrix model]], [[IKKT matrix model]]
+* [[BFSS matrix model]], [[IKKT matrix model]], [[membrane matrix model]]
 
 ## References
  {#References}
