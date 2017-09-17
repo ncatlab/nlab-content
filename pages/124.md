@@ -73,7 +73,7 @@ Accordingly there is a [[2-category]] [[Toposes]] of toposes.
 
 ### Grothendieck toposes
 
-The above is the definition of an *elementary* topos.  We also have the (historically earlier) notion of [[Grothendieck topos]]: a __Grothendieck topos__ is a topos is neither too small nor too large, in that it is:
+The above is the definition of an *elementary* topos.  We also have the (historically earlier) notion of [[Grothendieck topos]]: a __Grothendieck topos__ is a topos that is neither too small nor too large, in that it is:
 
 *  [[cocomplete category|cocomplete]] (not too small), and
 *  has a [[small set|small]] [[generating set]] (not too large).
