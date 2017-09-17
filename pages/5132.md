@@ -12,4 +12,6 @@ Its members include:
 
 * [[Francois Métayer]];
 
+* [[Yves Guiraud]].
+
 (more to be added ?)
