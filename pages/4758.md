@@ -23,7 +23,7 @@ The general notion of [[2-groupoid]] is also called _weak $2$-groupoid_ to disti
 A __strict $2$-groupoid__ is equivalently:
 
 *  a [[strict 2-category]] in which all morphisms are strictly invertible.
-*  a [[Grpd]]-[[enriched category]].
+*  a [[Grpd]]-[[enriched category]] in which all 1-morphisms are strictly invertible.
 *  a [[2-groupoid]] that is a [[strict 2-category]].
 *  a [[strict omega-groupoid]] that is $2$-[[truncated]].
 
