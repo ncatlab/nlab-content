@@ -30,7 +30,7 @@ In the first two cases, which work by replacing large limits by small ones, it s
 
 ## Examples {#Examples}
 
-### In presheaf categories
+### In presheaf categories {#InPresheafCategories}
 
 It is instructive to spell out the construction of the [[right adjoint]] from a colimit preserving functor $L$ in the simple case where all categories are [[categories of presheaves]]. This is a particularly simple case, but is useful in itself and serves as a template for the general case.
 
