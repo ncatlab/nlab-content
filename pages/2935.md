@@ -91,7 +91,7 @@ The [[branes]] of the Poisson sigma model are related to
 ### Holographic dual
  {#HolographicDual}
 
-By the Chern-Simons form of the [[holographic principle]] one expects the Poisson sigma-model to be related to a 1-dimesnional [[quantum field theory]]. This is [[quantum mechanics]]. The [above](#RelationToQuantizationOfPoissonManifolds) relation to the deformation quantization of Poisson manifolds goes in this direction. More explicit realizations have been attempted, for instance ([Vassilevich](#Vassilevich)). 
+By the Chern-Simons form of the [[holographic principle]] one expects the Poisson sigma-model to be related to a 1-dimensional [[quantum field theory]]. This is [[quantum mechanics]]. The [above](#RelationToQuantizationOfPoissonManifolds) relation to the deformation quantization of Poisson manifolds goes in this direction. More explicit realizations have been attempted, for instance ([Vassilevich](#Vassilevich)). 
 
 
 ## Related concepts
