@@ -11,7 +11,7 @@ Let $\underline W$ denote the codirected system of [[unipotent k-group|affine co
 
 $$W_{1k}\stackrel{T}{\to}W_{2k}\stackrel{T}{\to}W_{3k}\stackrel{T}{\to}\cdots$$
 
-The [[Witt ring]] $W(k)$ operates on $\underline W$ as follows:
+The [[Witt vectors|Witt ring]] $W(k)$ operates on $\underline W$ as follows:
 
 Let $\sigma$ denote the Frobenius morphism $W(k)\to W(k)$, let $a\mapsto a^{(p^n)}$. This Frobenius is bijective since $k$ is perfect. Let $a\in W(k)$, let $w\in W_n(R)$, $R\in M_k$. We define
 
