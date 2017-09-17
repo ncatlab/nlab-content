@@ -64,7 +64,7 @@ universal cones, which is described further below.
 
 Let in the following $D$ be a [[small category]] and [[Set]] the category of sets (possibly realized as the category $U Set$ of $U$-small sets with respect to a given [[Grothendieck universe]].) 
 
-#### Limit of a Set-valued functors 
+#### Limit of a Set-valued functor
 
 The **limit of a Set-valued functor** $F : D^{op} \to Set$ is the [[hom-set]] 
 $$
@@ -121,10 +121,7 @@ where $Hom(S, F(-)) : D^{op} \to Set$.
 The above formula generalizes straightforwardly to
 a notion of limit for 
 functors $F : D^{op} \to C$ for $C$
-an arbitrary category if we take the object "$lim F$"
-to be a [[presheaf]] on $C$. The true $lim F$ is then,
-if it exists, the object of $C$ 
-[[representable functor|representing]] this presheaf.
+an arbitrary category if we construct a certain [[presheaf]] on $C$ which we will call $\hat \lim F$. The actual limit $lim F$ is then, if it exists, the object of $C$ [[representable functor|representing]] this presheaf.
 
 
 More precisely, using the
@@ -150,7 +147,7 @@ Here the $\lim$ on the right is again that of
 By the above this can also be written as
 
 $$
-  (\hat lim F)(c) = 
+  (\hat \lim F)(c) = 
   Hom_{[D^{op}, Set]}(pt , Hom_C(c,F(-))
 $$
 or, suppressing the subscripts for readability:
@@ -160,7 +157,7 @@ $$
   \,.
 $$
 
-So also the [[presheaf]]-valued limit always exist. If this presheaf is [[representable functor|representable]] by an object $lim F$ of $F$, then this is the **limit** of $F$:
+So also the [[presheaf]]-valued limit always exists. Iff this presheaf is [[representable functor|representable]] by an object $\lim F$ of $F$, then this is the **limit** of $F$:
 
 $$
   Hom(c, \lim F)
