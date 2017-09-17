@@ -13,11 +13,6 @@
 =--
 =--
 
-* [[crossed complex]] $\Leftarrow$ **crossed module** $\Rightarrow$ [[2-crossed module]]
-
-* [[dg-Lie algebra]] $\Leftarrow$ [[differential crossed module]] $\Rightarrow$ [[differential 2-crossed module]]
-
-
 
 
 #Content#
@@ -145,10 +140,15 @@ crossed module.  This will not be proved here, but is not that difficult.  (Of c
 
 ## Related concepts 
 
-For crossed complexes of [[Lie group]]s there is the corresponding infinitesimal version: 
+* **crossed module**, [[differential crossed module]]
 
-* [[differential crossed module]]s.
+* [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
 
-Just as crossed modules are equivalent to strict [[2-group]]s, differential crossed modules are equivalent to strict  [[L-infinity-algebra|Lie 2-algebra]]s.
+* [[crossed complex]]
+
+* [[hypercrossed complex]]
+
+
+
 
 [[!redirects crossed modules]]
