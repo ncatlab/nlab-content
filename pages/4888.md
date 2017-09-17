@@ -27,56 +27,76 @@ More generally there should be notions of accociated $\infty$-bundles whose fibe
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]]. 
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
-For $F,X \in \mathbf{H}$ [[pointed object]]s, an **$\infty$-fiber bundle** on $X$ with fiber $F$ is a [[fiber sequence]]
+For $V,X \in \mathbf{H}$ two objects, say a _$V$-[[fiber ∞-bundle]] over $X$_ is a [[morphism]] $E \to X$ (an object in the [[slice (∞,1)-topos]] $\mathbf{H}_{/X}$) such that there exists an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] $U \to X$ and an [[(∞,1)-pullback]] square
 
 $$
-  F \to E \to X
+  \array{
+    U \times V &\to& E
+    \\
+    \downarrow && \downarrow
+    \\
+    U &\to& X
+  }
+  \,.
+$$ 
+
+=--
+
++-- {: .num_def}
+###### Definition
+
+Let $G \in Grp(\mathbf{H})$ be an [[∞-group]] equipped with an 
+[[∞-action]] $\rho$ on $V$. Then for $P \to X$ a $G$-[[principal ∞-bundle]] over $X$, the _$\rho$-associated $\infty$-bundle_ is
+
+$$
+  P \times_G V \to X
+  \,,
 $$
 
-which is locally trivial (...).
+where $P \times_G V := (P \times V)//G$ is the homotopy quotient of the diagonal $G$-action.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
-By the [Properties](#Properties) discussed below we have that such $\infty$-fiber bundles are classified by morphism $X \to \mathbf{B}Auf(F)$. These also classify $Aut(F)$-[[principal ∞-bundle]]s. We may say that $E$ is **associated** to this corresponding principal $\infty$-bundle.
+Below in _[Properties](#Properties)_ we see that every $\rho$-associated $\infty$-bundle is a $V$-fiber $\infty$-bundle and that every $V$-fiber $\infty$-bundle arises as associated to an  $\mathbf{Aut}(V)$-[[principal ∞-bundle]]
 
 =--
 
-## Properties {#Properties}
-
-+-- {: .un_prop}
-###### Theorem
-
-$\infty$-Fiber bundles $F \to E \to X$ are classified by morphisms $X \to \mathbf{B} Aut(F)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
+## Properties 
+ {#Properties}
 
 
-This is shown in ([Wendt](#Wendt)), section 5.5, using [[model category]]-theoretic presentations (see [[models for ∞-stack (∞,1)-toposes]]) 
+### General
 
++-- {: .num_proposition #Classification}
+###### Proposition
 
-=--
+For $V \in \mathbf{H}$, write $\mathbf{Aut}(V) \in Grp(\mathbf{H})$ for the internal [[automorphism ∞-group]] of $V$. This comes with a canonical action on $V$. Then the operation of sending an $\mathbf{Aut}$-[[principal ∞-bundle]] $P \to X$ to the associated $P \times_G V \to X$ establishes an equivalence
 
-
-+-- {: .un_remark}
-###### Remark
-
-
-This generalizes to associated $\infty$-bundles the statement (discussed at [[principal ∞-bundle]]) that $G$-principal $\infty$-bundles $P \to X$ are precisely the [[homotopy fiber]]s of [[cocycle]] morphism $X \to \mathbf{B}G$.
-
-Notice that the $(\infty,1)$-topos theoretic argument at [[principal ∞-bundle]] uses crucially that in the [[(∞,1)-topos]] $\mathbf{H}$ we have $(\infty,1)$-[[universal colimits]]. In [Wendt](#Wendt)) precisely the analogous [[homotopy colimit]]-properties produce the above result. Using these the result follows in analogy to [May](#May).
+$$
+  H^1(X, \mathbf{Aut}(V)) \simeq \{V-fiber\;$\infty$-bundles\}
+  \,.
+$$
 
 =--
 
-+-- {: .un_prop}
+In this generality this is discussed in ([NSS, section I 4.1](#NSS)). 
+
+
+### Presentation in simplicial presheaves
+
+
+
+In ([Wendt](#Wendt)), section 5.5, a [[presentable (infinity,1)-category|presentation]] of the general situation for [[n-localic (infinity,1)-topos|1-localic]] [[(∞,1)-toposes]] is given in terms of the [[model structure on simplicial presheaves]] (as discussed at [[models for ∞-stack (∞,1)-toposes]]) .
+
+Under this presentation we have:
+
++-- {: .num_prop}
 ###### Proposition
 
 The universal $F$-$\infty$-bundle $\mathbf{E} F \to \mathbf{B}Aut(F)$ is presented by the [[bar construction]]
@@ -93,9 +113,13 @@ Compare [[universal principal ∞-bundle]].
 
 ## Examples
 
+### Fibrations of topological spaces / simplicial sets
+
+For the special case that $\mathbf{H} = $ [[∞Grpd]] and using the [[presentable (∞,1)-category|presentation]] by the [[model structure on topological spaces]]/[[model structure on simplicial sets]] the classification theorem \ref{Classification} reduces to the classical statement of ([Stasheff](#Stasheff), [May](#May)).
+
 ### $\infty$-Gerbes
 
-In the case that the fiber $F$ is the [[delooping]] $F = \mathbf{B}G$ of an [[∞-group]] object $G$, the $\underline{Aut}(\mathbf{B}G)$-associated $\infty$-bundles are called **$G$-[[∞-gerbe]]s**. See there for more details.
+In the case that the fiber $F$ is the [[delooping]] $F = \mathbf{B}G$ of an [[∞-group]] object $G$, the $\underline{Aut}(\mathbf{B}G)$-associated $\infty$-bundles are called **$G$-[[∞-gerbes]]**. See there for more details.
 
 ## Related concepts
 
@@ -117,6 +141,7 @@ In the case that the fiber $F$ is the [[delooping]] $F = \mathbf{B}G$ of an [[�
 Early work on associated $\infty$-bundles takes place in the $(\infty,1)$-topos [[∞Grpd]] $\simeq$ [[Top]]. In
 
 * [[Jim Stasheff]], _A classification theorem for fiber spaces_ , Topology 2 (1963) 239-246
+ {#Stasheff}
 
 a classification of [[fibration]]s of [[CW-complex]]es with given CW-complex fiber in terms of maps into a classifying CW-complex is given.
 
@@ -125,20 +150,35 @@ A generalization of this is in
 * [[Peter May]], _Classifying Spaces and Fibrations_ Mem. Amer. Math. Soc. 155 (1975) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/Classifying.pdf))
 {#May}
 
+This has been reproven in various guises as the statement of [[univalence]] in the [[model]] [[sSet]] for [[homotopy type theory]]. See the references at _[[univalence]]_ for more on this.
+
 Generalizations with extra structure on the fibers are discussed in 
 
 * Claudio Pacati, Petar Pavesic, Renzo Piccinini, _On the classification of $\mathcal{F}$-fibrations_, Topology and its applications 87 (1998) ([pdf](http://www.fmf.uni-lj.si/~pavesic/RESEARCH/On%20the%20classification%20of%20F-fibrations.pdf))
 
-Consideration of associated $\infty$-bundles / [[fiber sequence]]s in general [[(∞,1)-topos]]es is more recent. 
-
-Associated $\infty$-bundles in terms of the presentation of the $(\infty,1)$-topos by the [[model structure on simplicial presheaves]] are discussed in
+Consideration of associated $\infty$-bundles / [[fiber sequences]] in general [[n-localic (infinity,1)-topos|1-localic]] [[(∞,1)-toposes]] [[presentable (infinity,1)-category|presented]] by a [[model structure on simplicial presheaves]] (which subsumes the above case for the trivial site) is discussed in
 
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
 {#Wendt}
 
-Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfield localization of model categories]] is in
+Related discussion on the behaviour of [[fiber sequences]] under left [[Bousfield localization of model categories]] is in
 
 * [[Matthias Wendt]], _Fibre sequences and localization of simplicial sheaves_ ([pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf))
+
+Similar considerations and results are in 
+
+* Martin Blomgren, Wojciech Chacholski, _On the classification of fibrations_ ([arXiv:1206.4443](http://arxiv.org/abs/1206.4443))
+ {#BlomgrenChacholski}
+
+With the advent of [[(∞,1)-topos theory]] all these statements and their generalizations follow from the existence of [[object classifiers]] in an [[(∞,1)-topos]]. For the classical case in [[∞Grpd]] $\simeq$ [[Top]]${}^\circ$ [[sSet]]${}^\circ$ this is discussed in 
+
+* _[object classifier in ∞Grpd](http://ncatlab.org/nlab/show/%28sub%29object+classifier+in+an+%28infinity%2C1%29-topos#ObjectClassifierInInfinityGroupoid)_,
+
+which reproduces the classical results ([Stasheff](#Stasheff), [May](#May)).
+
+For general [[(∞,1)-topos]] the classification of associated $\infty$-bundles is discussed in section I 4.1 of 
+
+* [[schreiber:Principal ∞-bundles -- theory, presentations and applications]] 
 
 [[!redirects associated infinity-bundle]]
 [[!redirects associated infinity-bundles]]
