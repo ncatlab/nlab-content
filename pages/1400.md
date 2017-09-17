@@ -17,6 +17,22 @@ If [[Cat]] is defined as consisting of ([[small category|small]]) [[category|cat
 _Toby_:  H\'m ... as I recall, you get an ordinary bicategory using canonical pullbacks and general anafunctors, but if you move to *saturated* anafunctors, then you still only get an anabicategory.  I should check this and then rewrite (here and at [[Cat]]) to say it correctly.  (Of course, if you really use anafunctors, then you should only *want* an anabicategory.)
 =--
 
+# Explicit definition #
+
+An anabicategory $\mathcal{C}$ consists of a set $\mathcal{C}_0$ of objects, a set $\mathcal{C}_1$ of 1-cells, which are relations $\mathcal{C}_0 \times \mathcal{C}_0$, and a set $\mathcal{C}_2$ of 2-cells, which are relations $\mathcal{C}_1 \times \mathcal{C}_1$. On these sets are defined several relations; for each relation $R$ if we have $R(x, y)$ $y$ is said to be a _value_ of $R$ at $x$. Some pairs $x, y$ with $R(x, y)$ are also said to be $specified values$; generally if $R$ has some value at $x$, at least one such value will be specified.
+1. There are _source_ and _target_ relations $\mathcal{C}_1 \times \mathcal{C}_0$ and $\mathcal{C}_2 \times \mathcal{C}_1$, and every 1- or 2- cell $f$ has some specified value for its source and target.
+1. There are _2-source_ and _2-target_ relations $\mathcal{C}_2 \times \mathcal{C}_0$, and every 2- cell $f$ has some specified value for its 2-source and 2-target.
+1. There are _identity_ relations $\mathcal{C}_0 \times \mathcal{C}_1$ and $\mathcal{C}_1 \times \mathcal{C}_2$, and every object or 1-cell has some specified value for its identity.
+1. There is a _composition_ relation $(\mathcal{C}_1 \times \mathcal{C}_1) \times \mathcal{C}_1$; whenever $f_1$ and $f_2$ are such that some specified value of the target at $f_1$ is also a specified value of the source at $f_2$, there is some specified value of the composite of $f_1$ and $f_2$.
+1. There is a _1-composition_ relation $(\mathcal{C}_2 \times \mathcal{C}_2) \times \mathcal{C}_2$; whenever $f_1$ and $f_2$ are such that some specified value of the 2-target at $f_1$ is also a specified value of the 2-source at $f_2$, there is some specified value of the composite of $f_1$ and $f_2$.
+1. There is a _2-composition_ relation $(\mathcal{C}_2 \times \mathcal{C}_2) \times \mathcal{C}_2$; whenever $f_1$ and $f_2$ are such that some specified value of the target at $f_1$ is also a specified value of the source at $f_2$, there is some specified value of the composite of $f_1$ and $f_2$.
+
+The relations satisfy the following conditions:
+1. For any 2-cell $f$, and any values $x$ and $y$ of its source and target (respectively), the set of values of the target of $x$, the target of $y$, and the 2-target of $f$ are all equal, and likewise for sources/2-sources. If $x$ or $y$ is a specified value, each specified value of its source is a specified value of the 2-source, and likewise for targets/2-targets.
+1. Any value of the source of a value $x$ of one of the identity relations is also a value of the target of $x$, and vice versa.
+1. The identity relation $\mathcal{C}_1\times \mathcal{C}_2$ and the 1- and 2- composition relations $(\mathcal{C}_2 \times \mathcal{C}_2) \times \mathcal{C}_2$ are functional: any two values of the identity on some 1-cell $x$, or any two values of one of the compositions on some 2-cells $f$ and $g$, must be equal (as elements of $\mathcal{C}_2$.
+1. ETC.
+
 # Reference #
 
 *  [[Michael Makkai]]; Avoiding the axiom of choice in general category theory; section 3 (which is part 4 [here](http://www.math.mcgill.ca/makkai/anafun/)).
