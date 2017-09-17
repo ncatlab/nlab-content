@@ -61,9 +61,12 @@ This appears as ([LBK, theorem 3.10](#LBK)).
 
 ## Related concepts
 
-* [[model structure on simplicial presheaves]]
+* [[model structure on simplicial sets]]
+
+  * [[model structure on simplicial presheaves]]
 
 * [[model structure on simplicial groupoids]]
+
 
 ## References
 
