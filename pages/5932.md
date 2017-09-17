@@ -1,4 +1,4 @@
-[[!redirects locally of finite presentation]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,9 +16,15 @@
 
 ## Definition
 
-see [wikipedia: Finite, quasi-finite, finite type, and finite presentation morphisms](http://en.wikipedia.org/wiki/Glossary_of_scheme_theory#Finite.2C_quasi-finite.2C_finite_type.2C_and_finite_presentation_morphisms)
+A morphism $f:Y\to X$ is __finitely presented at__ $x\in X$ if there is an affine open neighborhood $U\ni x$ and an affine open set $V\subset Y$, $f(V)\subset U$ such that
+$\mathcal{O}_Y(V)$ is finitely generated as $\mathcal{O}_X(U)$-module. A morphism $f:Y\to X$ is __locally finitely presented__ if it is finitely presented at each $x\in X$. It is __finitely presented__ if it is locally finitely presented, quasicompact and quasiseparated.  
 
-## Related concepts
+Morphism is __essentially finitely presented__ if it is a localization of a finitely presented morphism.  
+
+## References and related concepts
 
 * [[morphism of finite type]]
+* [wikipedia: Finite, quasi-finite, finite type, and finite presentation morphisms](http://en.wikipedia.org/wiki/Glossary_of_scheme_theory#Finite.2C_quasi-finite.2C_finite_type.2C_and_finite_presentation_morphisms)
 
+[[!redirects finitely presented morphism]]
+[[!redirects locally of finite presentation]]
