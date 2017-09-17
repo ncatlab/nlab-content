@@ -1,4 +1,7 @@
 
+Terry Wall is a British mathematician, who was particularly involved with the development of Surgery theory.  He was professor of mathematics at Liverpool University.
+
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/C._T._C._Wall)
 
 ## Related entries
@@ -9,3 +12,5 @@ category: people
 
 [[!redirects Charles Terence Clegg Wall]]
 [[!redirects Charles Wall]]
+
+[[!redirects C. T. C. Wall]]
