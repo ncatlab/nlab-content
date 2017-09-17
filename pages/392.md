@@ -1,8 +1,16 @@
+# The red herring principle
+* table of contents
+{: toc}
+
+
+## Idea
+
 The mathematical **red herring principle** is the principle that in [[mathematics]], a "red herring" need not, in general, be either red or a herring.
 
 Frequently, in fact, it is conversely true that all herrings are red herrings.  This often leads to mathematicians speaking of "non-red herrings," and sometimes even to a redefinition of "herring" to include both the red and non-red versions.
 
-### Notes ### 
+
+## Notes
 
 * Clearly, the term "red herring" here is not to be confused with the usual meaning, which typically refers to a deliberate attempt to divert or throw one off track, as for example a rhetorical tactic for this purpose, or a novelistic device. 
 
@@ -10,7 +18,8 @@ Frequently, in fact, it is conversely true that all herrings are red herrings.  
 
 Thus, "red herring" as used here is to be interpreted neutrally: it refers to a name of a concept which might throw the reader off-track, by accident as it were. 
 
-### Examples ###
+
+## Examples
 
 * A [[manifold with boundary]] is not a [[manifold]].  This leads to the use of "manifold without boundary."
 
@@ -32,7 +41,8 @@ Some adjectives are almost universally used as "red herring adjectives," i.e. pl
 
 * Originally, [[n-category]] referred only to the strict version, so that a "weak $n$-category" was not an $n$-category.  Nowadays some people (including many authors of the nLab)  are trying to reverse this, so that $n$-category means the weak version, while the strict version needs an adjective added.  Likewise for related concepts such as [[2-limit]] and [[strict 2-limit]].
 
-### Non-examples ###
+
+## Non-examples
 
 Some uses of terminology are similar in some ways, but don't quite fall under the same category.  For instance, in a number of cases mathematicians working in a particular field tend to omit [[dichotomy between nice objects and nice categories|niceness]] adjectives, e.g.:
 
@@ -42,5 +52,7 @@ Some uses of terminology are similar in some ways, but don't quite fall under th
 
 These terminological uses can create situations that appear similar to actual red herrings, such as the use of "noncommutative ring" by people who are familiar with using "ring" to mean "commutative ring."  However, since the actual definitions of terms like "ring" and "topological space" is generally accepted to be unchanged (as opposed to the commonly used abbreviations), these are not true red herrings.
 
+
 [[!redirects red herring]]
 [[!redirects red herring principle]]
+[[!redirects the red herring principle]]
