@@ -30,11 +30,11 @@ preserves [[epimorphisms]].
 
 ## Properties
 
-If the terminal object in $\mathcal{T}$ is [[projective object|projective]], then every internally projective object is projective. In the converse direction, 
+If the [[terminal object]] in $\mathcal{T}$ is [[projective object|projective]], then every internally projective object is projective. In the converse direction, 
 
 +-- {: .num_prop #enough} 
 ###### Proposition 
-If $\mathcal{T}$ has [[projective object|enough projectives]] and projectives are closed under binary products, then every projective object is internally projective. (In particular, if all objects of $\mathcal{T}$ are projective then all objects are internally projective.) 
+If $\mathcal{T}$ has [[projective object|enough projectives]] and projectives are closed under binary [[products]], then every projective object is internally projective. (In particular, if all objects of $\mathcal{T}$ are projective then all objects are internally projective.) 
 =-- 
 
 +-- {: .proof}
