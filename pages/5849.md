@@ -26,6 +26,31 @@ between four morphisms.
 
 ## Properties
 
+### General
+
+Every adjoint quadruple 
+
+$$
+  (f_! \dashv f^* \dashv f_* \dashv f^!)
+  :
+  C \to D
+$$ 
+
+induces an [[adjoint triple]] on $C$
+
+
+$$
+  (f^* f_! \dashv f^* f_* \dashv f^! f_*)
+  :
+  C \to C
+  \,,
+$$
+
+hence a [[monad]] [[left adjoint]] to a [[comonad]] left adjoint to a monad.
+
+
+### Canonical natural transformations
+
 Let $(p_! \dashv p^* \dashv p_*\dashv p^!) : \mathcal{E} \to \mathcal{S}$ be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup.
 
 We write 
