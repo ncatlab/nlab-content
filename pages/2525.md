@@ -50,6 +50,14 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
 
 ## Related concepts
 
+* [[equations of motion]]
+
+  * [[Newton's laws of motion]]
+
+  * [[Hamilton's equations]]
+
+  * [[Einstein's equations]]
+
 * [[variational calculus]]
 
 * [[de Donder-Weyl formalism]]
