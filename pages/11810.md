@@ -1,0 +1,17 @@
+
+## Related concepts
+
+* [[L-function]]
+
+* [[Beilinson regulator]]
+
+
+## References
+
+* [[Alexander Beilinson]] _Higher regulators and values of L-functions_, Journal of Soviet Mathematics 30 (1985), 2036-2070
+
+* Jan Nekovar, section 3 of _Beilinson's Conjectures_ ([pdf](http://people.math.jussieu.fr/~nekovar/pu/mot.pdf))
+
+
+[[!redirects Beilinson conjectures]]
+
