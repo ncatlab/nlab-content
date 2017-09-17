@@ -12,7 +12,7 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -42,6 +42,8 @@ In the [[AQFT]] approach to [[quantum field theory]] the observables are the ver
 * [[quantum observable]]
 
 * [[space of states (in geometric quantization)]]
+
+* [[beable]]
 
 [[!include Isbell duality - table]]
 
