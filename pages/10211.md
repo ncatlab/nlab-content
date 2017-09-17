@@ -1,4 +1,9 @@
 
+## Related concepts
+
+* [[connection on a bundle]]
+
+* [[iterated integral]]
 
 ## References
 
