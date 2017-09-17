@@ -189,25 +189,29 @@ A blog serving as a base for the HoTT community is at
 * _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
  {#HoTTSite}
 
-* Michael Warren, _Homotopy theoretic aspects of constructive type theory_ PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+The fact that every [[simplicial model category]] in which the cofibrations are [[monomorphisms]] provides a sound [[model]] for [[intensional type theory|intensional]] [[Martin-Löf type theory]] is discussed in 
+
+* [[Steve Awodey]], [[Michael Warren]], _Homotopy theoretic models of identity type_,  Mathematical Proceedings of the Cambridge Philosophical Society vol 146, no. 1 (2009) ([arXiv:0709.0248](http://arxiv.org/abs/0709.0248))
+
+and with more details in 
+
+* [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
 
 
 ### Code
  {#Code}
 
-The basic [[Coq]]-code libraries that set up homotopy type theory are at
+The basic [[Coq]]-code libraries that set up [[identity types]] and the resultin homotopy type theory are at
 
 * [https://github.com/HoTT/HoTT/tree/master/Coq](https://github.com/HoTT/HoTT/tree/master/Coq)
 
-A more pretty-printed ordered collection of these for human readers is in
+A slightly more human readable version is collected as a single pdf in
 
 * _HoTT-Coq code_ ([[HoTT-Coq-code.pdf:file]]) .
 
 A collection of all this code equipped with html-functionality that does display also the proofs (which otherwise only display when the code is loaded into a Coq-system) is at 
 
 * _[Proviola/HoTT](http://mws.cs.ru.nl/proviola/HoTT/)_ .
-
-
 
 
 More is in the repositories of various authors:
