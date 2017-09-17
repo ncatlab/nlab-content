@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Arthur_Wightman)
+
+## related $n$Lab entries
+
+* [[Wightman axioms]], [[AQFT]]
+
+category: people
