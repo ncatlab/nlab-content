@@ -41,3 +41,4 @@ From the [[nPOV]], of interest is [[Bob Coecke]] and [[Robert Spekkens]]' [Pictu
 
 [[!redirects inductive reasoning]]
 [[!redirects inductive inference]]
+[[!redirects inductive logic]]
