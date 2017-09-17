@@ -1,11 +1,12 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The [[loop space]] of a [[topological group]] inherits itself the structure of a [[group]] under pointwise group multiplication of loops. This is called a _loop group_ .
+The [[loop space]] of a [[topological group]] inherits itself the structure of a [[group]] under pointwise group multiplication of [[loops]]. This is called a _loop group_.
+
 
 ## Related concepts
 
@@ -23,7 +24,7 @@ The relation between [[representation]]s of loop groups and [[twisted K-theory]]
 * [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]
 
 
-
+[[!redirects loop group]]
 [[!redirects loop groups]]
 
 [[!redirects loop group representation]]
