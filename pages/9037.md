@@ -46,7 +46,7 @@ $$
 
 Let $X$ be 7-dimensional.
 
-Let $\Omega \on \wedge^3 \Gamma(T^* X)$ be a [[stable diffential form]]. This determines a [[Riemannian metric]] $\g_\Omega$ on $X$. Write $\star_\Omega$ for the corresponding [[Hodge star operator]]. The _Hitchin functional_ now is the function that takes stable forms to 
+Let $\Omega \in \wedge^3 \Gamma(T^* X)$ be a [[stable differential form]]. This determines a [[Riemannian metric]] $\g_\Omega$ on $X$. Write $\star_\Omega$ for the corresponding [[Hodge star operator]]. The _Hitchin functional_ now is the function that takes stable forms to 
 
 $$
   \int_X \Omega \wedge \star_\Omega \Omega
