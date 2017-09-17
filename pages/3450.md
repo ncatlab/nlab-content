@@ -37,11 +37,7 @@ An **$\infty$-Lie group** is accordingly a group object in [[∞-Lie groupoid]]s
 
 For details see [[groupoid object in an (∞,1)-category]].
 
-## Examples
-
-* [[Picard infinity-group]]
-
-## Related concepts
+## Related concepts and Examples
 
 
 * [[group]]
@@ -57,6 +53,12 @@ For details see [[groupoid object in an (∞,1)-category]].
   * [[automorphism ∞-group]]
 
     * [[∞-group of bisections]]
+
+  * [[∞-group of units]]
+
+    * [[Picard ∞-group]]
+ 
+      * [[Brauer ∞-group]]
 
   * [[center of an ∞-group]]
 
