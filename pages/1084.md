@@ -592,3 +592,5 @@ for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly i
 In the context of [[chain complexes]] the construction is discussed for instance in section 1.5 of 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ .
+
+[[!redirects mapping cones]]
