@@ -1,4 +1,7 @@
 
+## Applications
+
+* [[effective homology]]
 
 ## Related concepts
 
@@ -9,3 +12,4 @@
 * Wikipedia, _[Algorithm](http://en.wikipedia.org/wiki/Algorithm)_
 
 [[!redirects algorithms]]
+
