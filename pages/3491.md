@@ -1,12 +1,17 @@
-[[!redirects fibration of quasi-categories]]
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -19,17 +24,17 @@ For ordinary [[categories]] there is the notion of
 
 The analog of this for [[quasi-categories]] are
 
-* [[Cartesian fibration]]s
+* [[Cartesian fibrations]]
 
-* left/right fibrations of quasi-categories.
+* [[left fibrations]]/[[right fibrations]] of quasi-categories.
 
-There are more types of fibrations between the [[simplicial set]]s underlying the [[quasi-category]]
+There are more types of fibrations between the [[simplicial sets]] underlying the [[quasi-category]]
 
-* [[inner fibration]]s -- these correspond to **bundles of [[quasi-categories]]** : an inner fibration $E \to \Delta[1]$ over the interval is the quasi-categorical analog of a [[cograph of a profunctor]]: it characterizes the fibers $C, D$ over the endpoints $0,1 \in \Delta[1]$ as [[quasi-categories]]. Notably having an inner fibration $C \to \Delta[0]$ over the point says precisely that $C$ is a [[quasi-category]].
+* [[inner fibrations]] -- these correspond to **bundles of [[quasi-categories]]** : an inner fibration $E \to \Delta[1]$ over the interval is the quasi-categorical analog of a [[cograph of a profunctor]]: it characterizes the fibers $C, D$ over the endpoints $0,1 \in \Delta[1]$ as [[quasi-categories]]. Notably having an inner fibration $C \to \Delta[0]$ over the point says precisely that $C$ is a [[quasi-category]].
 
 * categorical fibrations -- these appear as the fibrations in the sense of [[model category]] theory in the Joyal [[model structure for quasi-categories]] $sSet_{Joyal}$ . But they have no particular intrinsic meaning in [[higher category theory]]. In fact, there is also the [[model structure on marked simplicial over-sets|model structure on marked simplicial sets]] which is [[Quillen equivalence|Quillen equivalent]] to $sSet_{Joyal}$ and in which the model-theoretic fibrations coincide precisely with the [[Cartesian fibration]]s that do have an intrinsic category theoretic meaning.
 
-
+* [[minimal Joyal fibrations]]
 
 ## Definition
 
@@ -112,13 +117,15 @@ A [[morphism]] of [[simplicial set]]s $f : X \to S$ is an **inner fibration** or
 
 The morphisms with the [[left lifting property]] against all inner fibrations are called **inner anodyne**.
 
-#### minimal fibration
+#### Minimal fibration
 
-[[minimal fibration]]
+* [[minimal Kan fibration]]
+
+* [[minimal Joyal fibration]]
 
 ## Properties
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 By the [[small object argument]] we have that every morphism $f : X \to Y$ of simplicial sets may be factored as
@@ -146,7 +153,7 @@ with $X \to Z$ a left/right/inner anodyne cofibraiton and $Z \to Y$ accordingly 
 
 ### (Left/)Right fibration
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Under the operation of forming the [[opposite quasi-category]], left fibrations turn into right fibrations, and vice versa: if $p : C \to D$ is a left fibration then $p^{op} : C^{op} \to D^{op}$ is a right fibration.
@@ -197,7 +204,7 @@ $$
 
 is an [[epimorphism]]. If it is even an [[isomorphism]] then the lift $\sigma$ exists _uniquely_ . This is the situation that the following proposition generalizes:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A morphism $p : X \to S$ of simplicial sets is a left fibration precisely if the canonical morphism
@@ -223,7 +230,7 @@ This is a corollary of the characterization of left anodyne morphisms in [Proper
 
 The notion of right fibration of quasi-categories generalizes the notion of [[category fibered in groupoids]]. This follows from the following properties.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan complex]], i.e. an [[∞-groupoid]].
@@ -238,7 +245,7 @@ Due to [[Andre Joyal]]. Recalled at [[Higher Topos Theory|HTT, prop. 1.2.5.1]].
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Right (left) fibrations are preserved by [[pullback]] in [[sSet]]. 
@@ -246,7 +253,7 @@ Right (left) fibrations are preserved by [[pullback]] in [[sSet]].
 =--
 
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 It follows that the fiber $X_c$ of every right fibration $X \to C$ over every point $c \in C$, i.e. the [[pullback]]
@@ -266,7 +273,7 @@ is a [[Kan complex]].
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ and $D$ quasi-categories that are ordinary [[categories]] (i.e. simplicial sets that are [[nerve]]s of ordinary categories), a morphism $C \to D$ is a right fibration precisely if the correspunding ordinary [[functor]] exhibits $C$ as a [[category fibered in groupoids]] over $D$.
@@ -282,7 +289,7 @@ This is [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
 
 A canonical class of examples of a [[fibered category]] is the [[codomain fibration]]. This is actually a [[bifibration]]. For an ordinary category, a bifiber of this is just a set. For an $(\infty,1)$-category it is an $\infty$-groupoid. Hence fixing only one fiber of the bifibration should yield a fibration in $\infty$-groupoids. This is asserted by the following statement.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $p : K \to C$ be an arbitrary morphism to a [[quasi-category]] $C$ and let $C_{p/}$ be the corresponding [[over quasi-category|under quasi-category]]. Then the canonical propjection $C_{p/} \to C$ is a left fibration.
@@ -300,7 +307,7 @@ Due to [[Andre Joyal]]. Recalled as [[Higher Topos Theory|HTT, prop 2.1.2.2]].
 
 #### (Left/)Right anodyne moprphisms {#PropRightAnodyne}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The collection of left anodyne morphisms (those with [[left lifting property]] against left fibrations) is equivalently $LAn = LLP(RLP(LAn_0))$ for the following choices of $LAn_0$:
@@ -334,7 +341,7 @@ This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.
 ### Inner fibrations
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A [[simplicial set]] $K$ is the [[nerve]] of an ordinary [[category]] $C$, $K \simeq_{iso} N(C)$ precisely if the terminal morphism $K \to \Delta[0]$ is an inner fibration with _unique_ inner [[horn]] fillers, i.e. precisely if for all morphisms 
@@ -365,7 +372,7 @@ This is [[Higher Topos Theory|HTT, prop. 1.1.2.2]]
 
 =--
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 It follows that under the [[nerve]] _every_ functor $f : C \to D$ between ordinary [[categories]] is an inner fibration.
@@ -447,13 +454,8 @@ chapter 2 of
 [[!redirects fibrations of quasi-categories]]
 [[!redirects fibration of simplicial sets]]
 [[!redirects fibrations of simplicial sets]]
-[[!redirects inner Kan fibration]]
-[[!redirects inner Kan fibrations]]
-[[!redirects right Kan fibration]]
-[[!redirects right Kan fibrations]]
-[[!redirects weak Kan fibration]]
-[[!redirects weak Kan fibrations]]
-[[!redirects right fibration]]
-[[!redirects right fibrations]]
+
 [[!redirects weak fibration]]
 [[!redirects weak fibrations]]
+
+[[!redirects fibration of quasi-categories]]
