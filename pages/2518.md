@@ -43,5 +43,10 @@ Among category theorists, it's popular to state the axioms of a structural set t
 
 * [[material-structural adjunction]]
 
+## References ##
+
+* P. Benacerraf, _What numbers could not be_, The Philosophical Review Vol. 74, No. 1, Jan., 1965  
+{#WhatNumbersCouldNotBe}
+
 
 [[!redirects structural set theories]]
