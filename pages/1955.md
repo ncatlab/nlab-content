@@ -351,6 +351,8 @@ All this is general abstract nonsense, nothing special to this example!  Any uni
 
 [[Eric]]: Thank you! That actually makes a little sense to me. As trivial as it may seem, the fact that I was even able to ask this question represents tremendous progress :)
 
+[[Herman Stel]]: Dear Eric and Prof. Baez. There is a mistake in the explanation by John Baez here. The two latter properties (both being that the derivation $d : A \to \Omega^1_K(A)$ is initial) are correct. The first one is not, though. If $\Omega^1_K(A)$ were the colimit of the huge diagram then for every derivation there would be a morphism from that derivation to the universal derivation, which is not true. Instead, note that an initial object is the vertex of a colimit of the empty diagram in any category (use that $\forall x\in X P(x)$ is true if $X$ is empty).
+
 =--
 
 
