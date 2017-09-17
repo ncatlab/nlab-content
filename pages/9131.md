@@ -83,7 +83,7 @@ and the issue is highlighted more explicitly in
 * {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories
 in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) 
 
-* [[Urs Schreiber]], _Higher field bundles for gauge fields_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[schreiber:Higher field bundles for gauge fields|web]])
+* {#Schreiber14} [[Urs Schreiber]], _Higher field bundles for gauge fields_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[schreiber:Higher field bundles for gauge fields|web]])
 
 A discussion of the problems of the traditional notion and its rectification in [[higher geometry]] is at
 
