@@ -199,6 +199,7 @@ Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]
 
 * [[Haar measure]], [[Borel measure]], [[Radon measure]], [[spectral measure]]
 
+* [[Wiener measure]]
 
 ## Related concepts
 
