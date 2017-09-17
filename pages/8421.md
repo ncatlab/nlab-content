@@ -214,6 +214,10 @@ A good account is at
 
 * Wikipedia, _[Natural deduction](http://en.wikipedia.org/wiki/Natural_deduction)_
 
+The standard rules for type-formation, term introduction/elimination and computation in [[dependent type theory]] are listed for instance in [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf)  of
+
+* [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
+
 
 [[!redirects natural deduction]]
 [[!redirects natural deductions]]
