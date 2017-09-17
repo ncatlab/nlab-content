@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -210,7 +211,13 @@ It is also possible to define the notion of a [[Cauchy real number]] object and 
 
 ## References
 
-* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+Section D4.7 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+See also
+
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
   {#MM94}
 
 
