@@ -19,7 +19,7 @@
 
 ## Definition
 
-For $G$ a [[topological group]] a _compact subgroup_ is a topological [[subgroup]] $K \subset G$ which is a [[compact topological space]].
+For $G$ a [[topological group]] a _compact subgroup_ is a topological [[subgroup]] $K \subset G$ which is a [[compact group]].
 
 +-- {: .num_defn}
 ###### Definition
