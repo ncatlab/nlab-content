@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -21,10 +20,10 @@
 
 ## Idea 
 
-The **Cobordism Hypothesis** roughly states that the [[(∞,n)-category of cobordisms]] $Bord_n$ is the 
+The **Cobordism Hypothesis** states, roughly, that the [[(∞,n)-category of cobordisms]] $Bord_n$ is the 
 [[free functor|free]] [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category with duals|with duals]] on a single object.
 
-Since a fully [[extended topological quantum field theory]] may be identified with an [[(∞,n)-functor]] $Z : Bord_n \to C$, this implies that all these [[TQFT]]s are entirely determined by their value on the point: "the [[n-vector space]] of [[state]]s" of the theory.
+Since a fully [[extended topological quantum field theory]] may be identified with an [[monoidal (∞,n)-functor|monoidal]] [[(∞,n)-functor]] $Z : Bord_n \to C$, this implies that all these [[TQFT]]s are entirely determined by their value on the point: "the [[n-vector space]] of [[state]]s" of the theory.
 
 
 
