@@ -1,4 +1,13 @@
 
+## Idea
+
+
+* [[effective epimorphism]] $\Rightarrow$ [[regular epimorphism]] $\Leftrightarrow$ [[covering]]
+
+* [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
+
+
+## Definition
 
 A [[morphism]] $f : X \to Y$ in a [[category]] $C$ is an **effective monomorphism** if
 
