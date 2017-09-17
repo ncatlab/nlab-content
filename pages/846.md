@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -18,6 +17,101 @@ The adaptation of this to simplicial sets reveals a neat link with some categori
 ## Motivating examples
 
 When $S = \Delta^0$ is the [[point]], then the join $S \star T$ is a genuine [[cone]] over $T$. Or if $S = 2$ is the discrete two-point space, the join is the [[suspension]] of $T$.
+
+For example, consider the two cones over $[2]$, the standard 2-simplex.  The first picture represents $[0]\star [2]$, while the second represents $[2]\star [0]$.  
+
++-- {: style="text-align:center"}
+<svg width="470" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw1" viewBox="0 0 10 10">
+   <path fill="#000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+  <marker refX="2" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_bk2" viewBox="0 0 10 10">
+   <path fill="#000" d="m10,0l-10,5l10,5l-5,-5l5,-5z"/>
+  </marker>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw3" viewBox="0 0 10 10">
+   <path fill="#000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_130">
+   <g id="svg_128">
+    <path id="svg_124" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#d3d3d3" transform="rotate(171.277 304.499 65.1274)" d="m218.899261,50.159206l102.532623,1.932983l68.666626,28.003536l-171.199249,-29.93652z"/>
+    <path id="svg_125" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#d1cfcf" transform="rotate(171.277 266.228 140.336)" d="m231.528839,195.407623l69.399536,28.428802l-47,-167.000027l-22.399536,138.571224z"/>
+    <path id="svg_126" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#b5b5b5" transform="rotate(171.277 339.673 144.244)" d="m278.971008,213.622772l121.404419,-140.879189l-22,143.000038l-99.404419,-2.12085z"/>
+   </g>
+   <g id="svg_129">
+    <text font-family="serif" font-size="24" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" id="svg_86" y="71.139696" x="218.761949">0</text>
+    <text font-family="serif" font-size="24" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" id="svg_87" y="87.298368" x="289.746416">1</text>
+    <text font-family="serif" font-size="24" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" id="svg_88" y="75.317857" x="389.180468">2</text>
+    <text font-family="serif" font-size="24" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" id="svg_89" y="231.842828" x="291.410478">[0]</text>
+   </g>
+  </g>
+  <g id="svg_127">
+   <g id="svg_110">
+    <path transform="rotate(-8.04566 118.504 226.091)" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#a5a5a5" id="svg_61" d="m32.904354,211.12323l102.532627,1.932983l68.666641,28.00354l-171.199268,-29.936523z"/>
+    <path transform="rotate(-8.04566 158.353 151.242)" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#b7b7b7" id="svg_63" d="m124.353134,207.742065l67.999985,27.000031l-46.999985,-167.000031l-21,140z"/>
+    <path transform="rotate(-8.04566 83.2128 146.714)" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#d1d1d1" id="svg_62" d="m21.445765,214.147995l123.534033,-138.933708l-21.999992,143.000023l-101.53404,-4.066315z"/>
+   </g>
+   <g id="svg_109">
+    <text transform="rotate(1.91612 30.4613 222.672)" font-family="serif" font-size="24" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" id="svg_71" y="230.938344" x="30.461294">0</text>
+    <text transform="rotate(1.91612 134.114 210.98)" font-family="serif" font-size="24" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" id="svg_72" y="219.246262" x="133.847098">1</text>
+    <text transform="rotate(1.91612 202.727 228.505)" font-family="serif" font-size="24" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000" id="svg_73" y="236.771905" x="202.993385">2</text>
+    <text transform="rotate(-8.12388 134.02 69.9918) rotate(-0.04 154.4 41.0667) rotate(10.6764 154.4 41.0667)" font-family="serif" font-size="24" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" id="svg_74" y="79.123145" x="139.709132">[0]</text>
+   </g>
+  </g>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_86 svg_88" fill="none" stroke="#000" points="224.4 62.9549 303.35 64.9935 382.3 67.0322" id="svg_97"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_87 svg_88" fill="none" stroke="#000" points="295.6 78.4742 338.95 73.2302 382.3 67.9863" id="svg_96"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_86 svg_87" fill="none" stroke="#000" points="224.4 64.182 253.75 70.9424 283.1 77.7028" id="svg_95"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_88 svg_89" fill="none" stroke="#000" points="382.8 76.8148 341.4 143.157 299.999 209.5" id="svg_94"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_87 svg_89" fill="none" stroke="#000" points="289.751 92.8 290.397 151.15 291.044 209.5" id="svg_93"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_86 svg_89" fill="none" stroke="#000" points="224.4 76.0527 254.608 142.776 284.816 209.5" id="svg_92"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_71 svg_73" fill="none" stroke="#000" points="35.8015 222.853 116.211 225.575 196.62 228.298" id="svg_80"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_72 svg_73" fill="none" stroke="#000" points="137.588 211.867 167.104 219.406 196.62 226.945" id="svg_79"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_71 svg_72" fill="none" stroke="#000" points="35.8015 222.069 82.9704 216.749 130.139 211.428" id="svg_78"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_74 svg_73" fill="none" stroke="#000" points="138.867 81.1743 168.859 150.37 198.852 219.565" id="svg_77"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_74 svg_71" fill="none" stroke="#000" points="126.435 81.1743 81.3684 147.618 36.3015 214.061" id="svg_76"/>
+  <polyline marker-end="url(#se_arrow_fw3)" se:connector="svg_74 svg_72" fill="none" stroke="#000" points="134.028 81.1743 134.068 141.642 134.108 202.111" id="svg_75"/>
+  <path id="svg_85" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#bcbcbc" transform="rotate(-180 926.839 -2662.98) matrix(0.988881 -0.148709 0.148709 0.988881 -20.793 54.4602)" d="m-997.370361,873.996216l123,-139.999939l-22,142.999939l-101,-3z"/>
+  <path id="svg_83" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#a5a5a5" transform="rotate(-180 -977.389 173.764) matrix(0.988881 -0.148709 0.148709 0.988881 3.38641 45.8432)" d="m255.030853,69.940491l101.466675,1.933327l66.000061,26.933342l-167.466736,-28.866669z"/>
+  <g transform="rotate(8.6766 307.787 139.809) rotate(-8.61437 307.787 139.809) rotate(-8.61437 307.787 139.809)" id="svg_105"/>
+  <foreignObject stroke-width="0" fill="none" height="20" width="48" font-size="16" id="svg_132" y="125" x="50">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mn>0</mn>
+      <mo stretchy="false">]</mo>
+      <mo>&#8902;</mo>
+      <mo stretchy="false">[</mo>
+      <mn>2</mn>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[0] \star [2]</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject height="20" width="48" font-size="16" id="svg_133" y="125" x="133.5">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mn>2</mn>
+      <mo stretchy="false">]</mo>
+      <mo>&#8902;</mo>
+      <mo stretchy="false">[</mo>
+      <mn>0</mn>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[2] \star [0]</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+ </g>
+</svg>
+=--  
 
 If you take two non-coplanar line segments in $\mathbb{R}^3$ (such as $A B$ and $C D$ in the picture below), then join every point in one to every point in the other, you get a 3-simplex (the tetrahedron in the picture). You can think of this as being the union of all the cones on the first segment, with cone points on the second one. We have that the join $\Delta[1]\star \Delta[1]$ is $\Delta[3]$.
 
