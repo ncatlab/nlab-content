@@ -20,7 +20,7 @@ $\mathbb{Z}_2$-coefficients, $k = 2$
 
 $$
   \array{
-     H^(X, \mathbb{Z}_2) &\stackrel{\tau}{\to}& H^1(L X, \mathbb{Z}_2)
+     H^2(X, \mathbb{Z}_2) &\stackrel{\tau}{\to}& H^1(L X, \mathbb{Z}_2)
      \\
      \xi &\mapsto& \tau(\xi)
   }
@@ -28,8 +28,8 @@ $$
 
 where $\xi$ is the second [[Stiefel-Whitney class]] we have that $X$ has  [[spin structure]] precisely if $\xi = 0$ is the trivial class.
 This implies of course that also $\tau(\xi)$ vanishes. Atiyah showed that if 
-the [[fundamental group]] $\pi_1(X) = 1$ of $X$ vanisjes, i.e. if $X$ is a
-[[simply connected space]], that the also the converse holds: $X$ is spin is
+the [[fundamental group]] $\pi_1(X) = 1$ of $X$ vanishes, i.e. if $X$ is a
+[[simply connected space]], that the also the converse holds: $X$ is spin if
 $\tau(\xi)$ vanishes in the cohomology of the loop space.
 
 **Questions** 
