@@ -471,3 +471,6 @@ and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher
 [[!redirects quasi-coherent modules]]
 
 [[!redirects quasi-coherent sheaf]]
+
+[[!redirects quasicoherent sheaf of modules]]
+[[!redirects quasicoherent sheaves of modules]]
