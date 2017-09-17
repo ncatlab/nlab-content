@@ -176,4 +176,12 @@ where $A$ is a connection form on the total space of the $Spin(n)$-[[principal b
 * **Chern-Simons circle 7-bundle**
 
 
+## References
+
+The CS 7-bundle as an [[circle n-bundle with connection|circle 7-bundle with connection]] on the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack]] of [[string 2-group]]-[[connection on a 2-bundle|2-connections]] has been constructed in 
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Hisham Sati]], _[[schreiber:Cech cocycles for differential characteristic classes]]_
+
 [[!redirects Chern-Simons circle 7-bundle]]
+
+[[!redirects Chern-Simons circle 7-bundles]]
