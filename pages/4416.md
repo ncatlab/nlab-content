@@ -10,6 +10,7 @@ He coauthored books
 
 Some other papers
 
-* F. Borceux, I. Stubbe, _A short introduction to enriched categories_, [pdf](www-lmpa.univ-littoral.fr/~stubbe/PDF/EnrichedCatsKLUWER.pdf)
+* F. Borceux, I. Stubbe, _A short introduction to enriched categories_, [pdf](http://www-lmpa.univ-littoral.fr/~stubbe/PDF/EnrichedCatsKLUWER.pdf)
 
-category: people 
+
+category: people
