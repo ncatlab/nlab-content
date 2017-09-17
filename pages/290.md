@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Quantum field theory_ is the general framework for the description of the fundamental processes in [[physics]] as understood today. These are carried by configurations of [[quantum fields]], therefore the name. Notably the [[standard model of particle physics]] is a quantum field theory and has been the main motivation for the development of the concept in general. 
+_Quantum field theory_ is the general framework for the description of the fundamental processes in [[physics]] as understood today. These are carried by configurations of [[field (physics)|fields]] under the generalized rules of [[quantum mechanics]], therefore the name. Notably the [[standard model of particle physics]] is a quantum field theory and has been the main motivation for the development of the concept in general. 
 
 Historically quantum field theory grew out of attempts to combine [[classical field theory]] in the context of [[special relativity]] with [[quantum mechanics]]. While some aspects of it are understood in exceeding detail, the overall picture of what quantum field theory actually is used to be quite mysterious. There are two main approaches for axiomatizing and formalizing the notion:
 
@@ -148,6 +148,4 @@ Texts on supersymmetric QFT include
 [[!redirects QFT]]
 [[!redirects quantum field theories]]
 
-[[!redirects quantum field]]
-[[!redirects quantum fields]]
 
