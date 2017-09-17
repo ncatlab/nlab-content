@@ -37,7 +37,7 @@ There are two definitions.  The second is more general, and is homotopy equivale
 * Define $B_0(M)$ to be finite linear combinations of 
   "$C$-[[string diagram]]s" drawn on $M$.
 
-* Define $B_1(M)$ to be finite linear combinations of triples $(B, u, r)$, where $B \subset M$ is a ball, $r$ is a [[string diagram]] on $M\setminus B$, and $u$ is a linear combination of string diagrams on which evaluates to [loan modification](http://www.mycaal.com) zero.
+* Define $B_1(M)$ to be finite linear combinations of triples $(B, u, r)$, where $B \subset M$ is a ball, $r$ is a [[string diagram]] on $M\setminus B$, and $u$ is a linear combination of string diagrams on which evaluates to zero.
 
 * Define $B_2(M)$ to be ...
 
