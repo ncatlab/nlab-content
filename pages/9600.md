@@ -1,0 +1,11 @@
+
+* [webpage](http://www.math.purdue.edu/~gottlieb/)
+
+## Related pages
+
+* [[associated infinity-bundle]]
+
+category: people
+
+[[!redirects Daniel Henry Gottlieb]]
+[[!redirects Daniel H. Gottlieb]]
