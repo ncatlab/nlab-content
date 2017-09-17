@@ -1,0 +1,60 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $(X,g)$ be a [[Riemannian manifold]] and $f \in C^\infty(X)$ a [[function]].
+
+The **gradient** of $f$ is the [[vector field]]
+
+$$
+  \nabla f := g^{-1} d_{dR} f \in \Gamma(T X)
+  \,,
+$$
+
+where $d_{dR} : C^\infty(X) \to \Omega^1(X)$ is the [[de Rham differential]].
+
+This is the unique vector field $\nabla f$ such that 
+
+$$
+  d_{dR} f = g(-,\nabla f)
+$$
+
+or equivalently this is the unique vector field such that
+
+$$
+  d_{dR} f = \star_g \iota_{\nabla f} vol_g
+  \,,
+$$
+
+where $vol_g$ is the [[volume form]] and $\star_g$ is the [[Hodge star operator]] induced by $g$.
+
+
+## Related concepts
+
+* **gradient**
+
+  * [[gradient flow]]
+
+* [[curl]]
+
+* [[divergence]]
+
+[[!redirects gradient vector field]]
