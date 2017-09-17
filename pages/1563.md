@@ -106,3 +106,5 @@ category: people
 [[!redirects Lawvere]]
 [[!redirects F. W. Lawvere]]
 [[!redirects F.W. Lawvere]]
+[[!redirects W. Lawvere]]
+
