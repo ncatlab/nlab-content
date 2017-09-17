@@ -234,6 +234,49 @@ $$
 This is considered on p. 305 of ([SchwedeShipley](#SchwedeShipley)).
 
 
++-- {: .proof}
+###### Proof 
+
+On a monoid $K$ the morphism
+
+$$
+  L^{mon} F K \to F L K
+$$
+
+is defined as a coequalizing morphism of monoids
+
+$$
+  F L F K \to F L K
+  \,.
+$$
+
+This in turn is given by a morphism in $C$
+
+$$
+  L F K \to F L K
+  \,.
+$$
+
+Take this to be given componentwise by the oplax counit $\tilde e$.
+
+This does coequalize then:  for one route is
+
+$$
+  L( (K) \otimes (K)  ) \to L(K \otimes K) \stackrel{\tilde e}{\to} L(K) \otimes L(K)
+$$
+
+and the other 
+
+$$
+  K( (K) \otimes (K) ) \stackrel{\tilde e}{\to} L K \otimes L K
+  \stackrel{Id}{\to}
+  L K \otimes L K
+  \,.
+$$
+
+
+=--
+
 ### Lift to a Quillen adjunction on monoids {#LiftToQuillenAdjunctionOnMonoids}
 
 We now describe how the adjunction  $(L^{mon} \dashv R)$ established above becomes a [[Quillen adjunction]] for the [[transferred model structure]]s on the categories of monoids, transferred along the [[stuff, structure, property|forgetful]]/[[free functor]] adjunction 
