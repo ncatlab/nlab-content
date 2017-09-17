@@ -72,6 +72,8 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 ## Related concepts
 
+* [[unity of opposites]]
+
 * [[duality in physics]]
 
 ## References
