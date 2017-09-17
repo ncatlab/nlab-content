@@ -23,6 +23,8 @@
 
 Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences. It is a special case of a [[localization of model categories]], corresponding to the homotopy-version of the notion of [[localization]] of categories by [[reflective subcategories]].
 
+The historically original example is the [[Bousfield localization of spectra]]. But the notion is much more general.
+
 ## Definition
 
 +-- {: .num_defn }
@@ -946,10 +948,7 @@ If $C$ is a left [[proper model category|proper]] ([[simplicial model category|s
 
 ### Localization of spectra
 
-Bousfield localization in categories of [[spectrum|spectra]]. For instance 
-[def 10, page 10](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.4299v1.pdf#page=10) of   [On K(1)-local SU-bordism](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.4299v1.pdf).
-
-(...) 
+see _[[Bousfield localization of spectra]]_ 
 
 
 ### Local model structure on presheaves 
