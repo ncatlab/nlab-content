@@ -921,13 +921,23 @@ An introduction is
 * [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://www.uoregon.edu/~ddugger/hocolim.pdf))
  {#Dugger}
 
-A general overview via universal properties is in the [[Georges Maltsiniotis]]' 2008 Sevilla lectures, particularly in lec. I:
+A general overview via universal properties is in the 
 
-I, localizers, [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_I_Localizers.pdf); II, model categories,  [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_II_Model_Categories.pdf); III, derivators, [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf): IV, summary on derivators [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Summary_on_Derivators.pdf)
+* [[Georges Maltsiniotis]] lecures Sevilla (2008) 
+
+  I, localizers, ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_I_Localizers.pdf)); 
+
+  II, [[model categories]],  ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_II_Model_Categories.pdf)); 
+
+  III, [[derivator]]s, ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf)): 
+
+  IV, summary on derivators ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Summary_on_Derivators.pdf))
+
+In
 
 * Wojciech Chacholski and Jerome Scherer, _Homotopy theory of diagrams_ ([arXiv](http://arxiv.org/abs/math.AT/0110316)) 
 
-This includes a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=19), and discusses how to compute them (co)limits concretely using local constructions.  For instance the above statement on the computation of homotopy pullbacks is proposition [2.5, p. 15](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=20)
+is given a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=19), and it is discussed how to compute homotopy (co)limits concretely using local constructions.  For instance the above statement on the computation of homotopy pullbacks is proposition [2.5, p. 15](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=20)
 
 A nice discussion of the expression of homotopy colimits in terms of coends is in 
 
@@ -936,8 +946,12 @@ A nice discussion of the expression of homotopy colimits in terms of coends is i
 
 A collection of examples and exercises is in 
 
-* Samuel Issacson, _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
+* [[Samuel Issacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
 {#Isaacson}
+
+See also 
+
+* [[Samuel Isaacson]], _A note on unenriched homotopy coends_ ([pdf](http://www.ma.utexas.edu/users/isaacson/PDFs/coends.pdf))
 
 Other references are
 
