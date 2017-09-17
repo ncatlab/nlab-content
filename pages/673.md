@@ -11,6 +11,11 @@ david dot roberts
 
 adelaide dot edu dot au
 
+You may also find me on
+
+* [MathOverflow](http://mathoverflow.net/users/4177/david-roberts)
+
+* [Google+](https://plus.google.com/+DavidRoberts/) (lots of open access stuff here)
 
 ## Papers ##
 
