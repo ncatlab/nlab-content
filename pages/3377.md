@@ -15,7 +15,7 @@ Higgs bundles play a central role in [[nonabelian Hodge theory]].
 
 ### In components
 
-Let $\mathcal{E}$ be a [[sheaf]] of [[section]]s of a holomorphic [[bundle]] $E$ on [[complex manifold]] $M$ with [[structure sheaf]] $\mathcal{O}_M$ and [[module]] of [[Kähler differential]]s $\Omega^1_M$. 
+Let $\mathcal{E}$ be a [[sheaf]] of [[section]]s of a [[holomorphic vector bundle]] $E$ on [[complex manifold]] $M$ with [[structure sheaf]] $\mathcal{O}_M$ and [[module]] of [[Kähler differential]]s $\Omega^1_M$. 
 
 A **Higgs field** on $\mathcal{E}$ is an $\mathcal{O}_M$-linear map
 
@@ -61,6 +61,12 @@ In [[nonabelian Hodge theory]] the [[moduli space]] of stable Higgs bundles over
 
 In the special case that $E$ has [[rank]] 1, hence is a [[line bundle]], the form $\Phi$ is simply any holomorphic 1-form. This case is also called that of an **abelian Higgs bundle**.
 
+### Bundles of holomorphic forms
+
+Let $X$ be a [[complex manifold]] and $\omega \in \Omega^{k,0}(X)$ for odd $k$. Then $\Omega^{\bullet,0}(X)$ becomes a Higgs bundle when equipped with the endomorphis-valued 1-form which sends a holomorphic vector $v$ to the wedge product operation with the contraction of $\omega$ with $v$.
+
+This is discussed in ([Seaman 98](#Seaman98))
+
 ## References
 
 The [[moduli space]] of Higgs bundles over an [[algebraic curve]] is one of the principal topics in works of [[Nigel Hitchin]] and [[Carlos Simpson]] in late 1980-s and 1990-s (and later Ron Donagi, Tony Pantev...).  
@@ -89,6 +95,10 @@ Discussion in terms of $X_{Dol}$ is in
 1492538 (99g:14028) ([arXiv:9604005](http://arxiv.org/abs/alg-geom/9604005))
 
 * {#Raboso14} [[Alberto García Raboso]], _A twisted nonabelian Hodge correspondence_, PhD thesis 2014 ([pdf slides](http://www.math.toronto.edu/agraboso/files/TwistedNAHT_Talk_Handout.pdf))
+
+Discussion of the example of homolorphic forms is in 
+
+* {#Seaman98} Walter Seaman, _Higgs Bundles and Holomorphic Forms_ ([arXiv:9811097](http://arxiv.org/abs/math/9811097))
 
 
 [[!redirects Higgs bundles]]
