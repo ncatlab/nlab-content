@@ -59,7 +59,7 @@ A remarkable and beautiful theorem of Chapman (the Chapman complement theorem) s
 ### Idea
 
 The idea of abstract shape theory is very simple. You have a category, $C$, of objects that you want to study.  (In Borsuk's classical topological case this was the (homotopy) category of compact metric spaces.) You  have a well behaved set of methods that work well for some subcategory, $D$, of those objects (polyhedra in Borsuk's case, where the methods were those of homotopy theory). The categorical idea that can be glimpsed behind the topological constructions of topological shape theory is that of replacing an object $X$ of $C$ with approximations to $X$ by objects of $D$, (so 'approximating' a compact metric space by polyhedra, for instance). Categorically this replaces the object $X$ by the [[comma category]], $(X/D)$, which comes with a projection functor to $D$, which 'records' the approximating $D$-object for each approximation. 
-You then use your invariants for objects in $D$ to define (and study) the more general objects in $C$. This does not come without consequences as you obtain new types of maps, (shape maps) between the objects of $C$, namely functors between the comma categories that respect the projections.  The objects of $C$ together with your new shape maps for the shape category of your situation.
+You then use your invariants for objects in $D$ to define (and study) the more general objects in $C$. This does not come without consequences as you obtain new types of maps, (shape maps) between the objects of $C$, namely functors between the comma categories that respect the projections.  The objects of $C$ together with your new shape maps form the shape category of your situation.
 
 
 ### Definition
@@ -147,6 +147,7 @@ The first description of shapes makes it obviously functorial in [[geometric mor
 
 $$
   \Gamma_{\mathbf{K}}\circ LConst_{\mathbf{K}}
+
   \to 
   \Gamma_{\mathbf{K}}
    \circ 
