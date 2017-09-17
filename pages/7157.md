@@ -60,7 +60,8 @@ The notion of 2-Segal space above is due to [[Mikhail Kapranov]] and Tobias Dyck
 
 * Tobias Dyckerhoff, _Higher Segal spaces _, talk at Steklov Mathematical Institute (2011) ([video](http://www.mathnet.ru/php/presentation.phtml?presentid=3718&option_lang=eng))
  {#DyckerhoffKapranov}
-* Mikhail Kapranov, _Higher Segal spaces _, talk at IHES (2012) ([video](http://www.dailymotion.com/video/xpm3at_mikhail-kapranov-a-meeting-on-the-occasion-of-the-75th-birthday-of-yuri-ivanovich-manin_tech))
+
+* [[Mikhail Kapranov]], _Higher Segal spaces _, talk at IHES (2012) ([video](http://www.dailymotion.com/video/xpm3at_mikhail-kapranov-a-meeting-on-the-occasion-of-the-75th-birthday-of-yuri-ivanovich-manin_tech))
  {#DyckerhoffKapranov}
 
 [[!redirects higher Segal space]]
