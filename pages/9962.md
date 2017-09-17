@@ -19,3 +19,5 @@ This idea has been very influential in particle physics in the 1980s-201xs, ofte
 
 * [[Kenneth Wilson]], _The Origins of Lattice Gauge Theory_, ([arXiv:hep-lat/0412043](http://arxiv.org/abs/hep-lat/0412043))
  {#Wilson04}
+
+[[!redirects naturality]]
