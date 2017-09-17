@@ -59,6 +59,8 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 
 * [[higher category theory and physics]]
 
+* [[motives in physics]]
+
 
 ## References
 
