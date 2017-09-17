@@ -34,4 +34,6 @@ A **Lie 2-groupoid** is a 2-[[truncated]] [[∞-Lie groupoid]].
 
 * [[higher differential geometry]]
 
+  * [[smooth infinity-groupoid]]
+
 [[!redirects Lie 2-groupoids]]
