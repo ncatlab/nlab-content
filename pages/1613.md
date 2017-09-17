@@ -1,4 +1,3 @@
-[[!redirects FFRS-formalism]]
 
 
 +-- {: .rightHandSide}
@@ -22,7 +21,7 @@
 
 ## Idea
 
-What might be called the _FFRS formalism_ after [[Jürgen Fuchs|Fuchs]], [[Ingo Runkel|Runkel]] and [[Christoph Schweigert|Schweigert]], also [[Fürg Fröhlich|Fröhlich]] and [[Jens Fjelstad|Fjelstad]] ([FRS 02](#FuchsRunkelSchweigert02), [FRS 04a](#FuchsRunkelSchweigert04a), [FRS 04b](#FuchsRunkelSchweigert04b),[FRS 05](#FuchsRunkelSchweigert05), [FFRS 06](#FjeldstadFuchsRunkelSchweigert06), [FFRS 08](#FjeldstadFuchsRunkelSchweigert06)) is a rigorous construction and classification of all [[rational CFT|rational]] _full_ [[2-dimensional conformal field theories]], where "full" means that these theories are defined on all 2-dimensional [[cobordisms]] (instead of just on [[tori]], which is a simple special case that much of the other literature traditionally concentrates on).
+What might be called the _FRS construction/theorem_ after [[Jürgen Fuchs|Fuchs]], [[Ingo Runkel|Runkel]] and [[Christoph Schweigert|Schweigert]], also [[Jürg Fröhlich|Fröhlich]] and [[Jens Fjelstad|Fjelstad]] ([FRS 02](#FuchsRunkelSchweigert02), [FRS 04a](#FuchsRunkelSchweigert04a), [FRS 04b](#FuchsRunkelSchweigert04b), [FRS 05](#FuchsRunkelSchweigert05), [FFRS 06](#FjeldstadFuchsRunkelSchweigert06), [FFRS 08](#FjeldstadFuchsRunkelSchweigert06)) is a rigorous construction and classification of all [[rational CFT|rational]] _full_ [[2-dimensional conformal field theories]], where "full" means that these theories are defined on all 2-dimensional [[cobordisms]] (instead of just on [[tori]], which is a simple special case that much of the other literature traditionally concentrates on).
 
 It is (was earlier) well known that the construction of [[2d CFTs]] may be decomposed into 
 
@@ -30,25 +29,25 @@ It is (was earlier) well known that the construction of [[2d CFTs]] may be decom
 
 1. a "global topological" aspects which consists of picking in these spaces of [[conformal blocks]] over each surface one element (one correlation function depending on conformal structure) in such a way that these choices globally fit together under gluing of 2-dimensional [[cobordisms]], a condition known as the _[[sewing constraint]]_.
 
-What the FFRS formalism effectively observes/shows is that the [[sewing constraints]] may be solved by appealing to a [[holography|holographic principle]] in form of the [[AdS3-CFT2 and CS-WZW correspondence]]. Indeed the FFRS formalism may be seen as providing a mathematically precise realization of this correspondence. (That is clear from the construction in the FFRS articles, but the relation to holography was made explicit in various web posts by Urs Schreiber and then later in ([Kapustin-Saulina 11](#KapustinSaulina11))).
+What the FRS theorem effectively observes/shows is that the [[sewing constraints]] may be solved by appealing to a [[holography|holographic principle]] in form of the [[AdS3-CFT2 and CS-WZW correspondence]]. Indeed the FRS formalism may be seen as providing a mathematically precise realization of this correspondence. (That is clear from the construction in the FFRS articles, but the relation to holography was made explicit in various web posts by Urs Schreiber and then later in ([Kapustin-Saulina 11](#KapustinSaulina11))).
 
-Namely given the [[vertex operator algebra]] that controls the CFT locally, then in the case of [[rational CFT]]  its [[representation category]]  is a [[modular tensor category]] (which may alternatively be obtained from suitable represetations of [[Hopf algebras]] or of [[loop groups]]) and by the [[Reshetikhin-Turaev construction]] or [[Turaev-Viro construction]] this defines a [[3d TQFT]], which is essentially knon to be the [[quantization of 3d Chern-Simons theory]]. 
+Namely given the [[vertex operator algebra]] that controls the CFT locally, then in the case of [[rational CFT]]  its [[representation category]]  is a [[modular tensor category]] (which may alternatively be obtained from suitable representations of [[Hopf algebras]] or of [[loop groups]], but for the full construction one needs in the end an equivalence to reps of a specified VOA) and by the [[Reshetikhin-Turaev construction]] or [[Turaev-Viro construction]] this defines a [[3d TQFT]], which is essentially knon to be the [[quantization of 3d Chern-Simons theory]]. 
 
 The way that the FFRS construction now works is that given a [[surface]] with field insertions, then the [[CFT]] [[correlator]] of that is computed by 
 
-1. first [[triangulation|triangulating]] the surface suitably, labelling the triangular with a [[Frobenius algebra]] object internal to the [[modular tensor category]];
+1. first [[triangulation|triangulating]] the surface suitably, labelling the triangulation with a [[Frobenius algebra]] object internal to the [[modular tensor category]];
 
 1. passing to the [[orientation double cover]] of the surface, filling that with a 3d [[cobordism]] with "[[Wilson loop]]" ribbons running through it and piercing the surface at the prescribed field insertions, where the ribbons are labeled by the [[objects]] of the representation category correpsonding to the field insertions (this makes one label for boundary field insertions and two for bulk field insertions, corresponding to the two "chiral" pieces of [[closed string]] CFT)
 
-1. applying the [[3d TQFT]] [[FQFT|functor]] to this labeled cobordism to produce an element in its [[hom-object|hom-space]];
+1. applying the [[3d TQFT]] [[FQFT|functor]] to this labeled cobordism with ribbons inside to produce an element in its [[hom-object|hom-space]];
 
-1. idenifying that hom space with the space of [[conformal blocks]] and hence finally producing an actual CFT correlator.
+1. identifying that hom space with the space of [[conformal blocks]] and hence finally producing an actual CFT correlator.
 
 [[FFRSStbl.gif:pic]]
 
 Previous to the FRS construction (and still) much of the literature on classification of [[2d CFTs]] concentrated on [[modular invariance|modular invariant]] [[partition functions]], hence on CFTs evaluated on a surface which is a [[torus]]. One interesting aspect of the FRS classification of _full_ CFTs that are defined not just on the torus but on all surfaces is that it showed examples of modular invariant partition functions in the literature which had all of: one, none, or several extensions to full CFTs. 
 
-Since full [[2d CFTs]] are what is relevant in [[string theory]], where these correspond to the [[vacua]] that the [[string perturbation series]] is perturbing about (while in [[statistical physics]] often just the torus is in fact sufficient) this means that the FRS classification is part of the mathematical identification of the [[landscape of string theory vacua]]. Now, [[rational CFTs]] are known to constitute but a tiny part of that landscape, instead a discrete subset since any deformation of a rational CFT is non-rational. Nevertheless, rational 2d CFTs play an important roles as the "internal" parts of striong theory [[KK-compactifications]]. Also, even a tiny space is infinitely more than the empty space, which is presently the part of the rest of the "landscape" that is understood rigorously.
+Since full [[2d CFTs]] are what is relevant in [[string theory]], where these correspond to the [[vacua]] that the [[string perturbation series]] is perturbing about (while in [[statistical physics]] often just the torus is in fact sufficient) this means that the FRS classification is part of the mathematical identification of the [[landscape of string theory vacua]]. Now, [[rational CFTs]] are known to constitute but a tiny part of that landscape, indeed a [[discrete space|discrete subset]] since any [[deformation]] of a rational CFT is non-rational. Nevertheless, rational 2d CFTs (the [[WZW model]]!) play an important roles as the "internal" parts of string theory [[KK-compactifications]]. Also, even a tiny space is infinitely more than the empty space, which is presently the part of the rest of the "landscape" that is understood rigorously.
 
 ## Related entries
 
@@ -108,3 +107,9 @@ and a discussion of the converse, that every rarional 2-d CT is obtained this wa
 [[!redirects Fuchs-Runkel-Schweigert construction]]
 
 [[!redirects FRS formalism]]
+
+[[!redirects FRS theorem on 2d rational CFT]]
+
+[[!redirects FFRS-formalism]]
+[[!redirects FFRS-formalism]]
+
