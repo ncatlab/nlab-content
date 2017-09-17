@@ -81,13 +81,13 @@ This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
 ###### Examples
 
 
-* Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage (\{U_i \to U\} covers if the [[join]] of the $U_i$ us $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
+* Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage ($\{U_i \to U\}$ covers if the [[join]] of the $U_i$ us $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
 
   * For $X$ a [[locally contractible space]], $Op(X)$ its [[category of open subsets]] and $cOp(X)$ the full subcategory of [[contractible]] open subsets, we have that $cOp(X)$ is a dense sub-site.
 
-* For $C = TopManifold$  the category of all [[paracompact topological space|paracompact]] [[topological manifold]]s equipped with the [[open cover]] coverage, the category [[CartSp]]${}_{top}$ is a dense sub-site: every paracompact manifold has a [[good open cover]] by [[open balls]] [[homeomorphic]] to a [[Cartesian space]].
+* For $C = TopManifold$  the category of all [[paracompact topological space|paracompact]] [[topological manifold]]s equipped with the [[open cover]] coverage, the category [[CartSp]]${}_{top}$ is a dense sub-site: every paracompact manifold has a [[good open cover]] by [[open balls]] [[diffeomorphic]] to a [[Cartesian space]].
 
-* Similaryl for $C = $ [[Diff]] the category of [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site.
+* Similarly for $C = $ [[Diff]] the category of [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site.
 
 =--
 
