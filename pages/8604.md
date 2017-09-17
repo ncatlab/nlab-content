@@ -62,3 +62,7 @@ Under the [[relation between type theory and category theory]], the [[categorica
 [[!redirects type forming]]
 [[!redirects type forming operation]]
 [[!redirects type forming operations]]
+
+[[!redirects type-forming]]
+[[!redirects type-forming operation]]
+[[!redirects type-forming operations]]
