@@ -39,6 +39,8 @@ An algebraic lattice is a [[poset]] which is [[locally finitely presentable cate
 This formulation suggests useful a way of viewing algebraic lattices in terms 
 of [[Gabriel-Ulmer duality]] (but with regard to enrichment in [[truth values]], instead of in $Set$). 
 
+As this last formulation suggests, algebraic lattices typically arise as [[subobject lattices]] for objects in locally finitely presentable categories. As an example, for any (finitary) [[Lawvere theory]] $T$, the subobject lattice of an object in $T$-$Alg$ is an algebraic lattice (this class of examples explains the origin of the term "algebraic lattice", which is due to Garrett Birkhoff). 
+
 ## Properties
 
 ### The category of algebraic lattices
@@ -47,17 +49,17 @@ The [[morphisms]] most commonly considered between algebraic lattices are the [[
 
 The resulting category __AlgLat__ is [[cartesian closed]] and is dually equivalent to the category whose objects are [[meet semilattices]] (construed as categories with [[finite limits]] [[enriched category|enriched]] over [[truth values]]) and whose morphisms are meet-preserving [[profunctors]] between them (using the convention that a $V$-enriched profunctor from $C$ to $D$ is a functor $D^{op} \times C \rightarrow V$; of course, with an opposite convention, one could similarly state a covariant equivalence). 
 
-There is a functor 
+There is a _full_ [[full embedding|embedding]] 
 
 $$i \colon AlgLat \to Top_0$$ 
 
-to the category of $T_0$-spaces, mapping an algebraic lattice $L$ to the space whose points are elements of $L$, and whose open sets $U$ are defined by the property that their characteristic maps 
+to the category of $T_0$-[[separation axioms|spaces]], taking an algebraic lattice $L$ to the space whose points are elements of $L$, and whose [[open sets]] $U$ are defined by the property that their [[characteristic maps]] 
 
 $$\chi_U: L \to \mathbf{2}$$ 
 
-($\chi_U(a) = 1$ if $a \in U$, else $\chi_U(a) = 0$) are poset maps that preserve directed colimits. The [[specialization order]] of $i(L)$ is $L$ again. 
+($\chi_U(a) = 1$ if $a \in U$, else $\chi_U(a) = 0$) are poset maps that preserve [[directed colimits]]. The [[specialization order]] of $i(L)$ is $L$ again. 
 
-Every $T_0$-space $X$ occurs as a subspace of some space $i(L)$ associated with an algebraic lattice. Explicitly, let $L(X)$ be the power set of the underlying set of the topology, $P{|\mathcal{O}(X)|}$, and define 
+Every $T_0$-space $X$ occurs as a [[subspace]] of some space $i(L)$ associated with an algebraic lattice. Explicitly, let $L(X)$ be the [[power set]] of the underlying set of the [[topology]], $P{|\mathcal{O}(X)|}$, and define 
 
 $$X \to (i\circ L)(X)$$ 
 
@@ -83,7 +85,7 @@ The [[completely distributive lattice|completely distributive]] algebraic lattic
 
 ## References
 
-The term was originally introduced by G. Birkhoff.
+* Andrej Bauer, Lars Birkedal, Dana Scott, _Equilogical Spaces_, Theoretical Computer Science, 315(1):35-59, 2004. ([web](http://math.andrej.com/2002/07/05/equilogical-spaces/)) 
 
 * Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
  {#Caramello}
