@@ -58,6 +58,9 @@ Hence $X$ here is equipped with an [[involution]] by a [[diffeomorphism]]. In th
 
 * [[KO-dimension]]
 
+[[!include chromatic tower examples - table]]
+
+
 ## References
 
 KR theory was introduced in
