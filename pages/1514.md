@@ -182,6 +182,8 @@ $$
 
 =--
 
+For more discussion along these lines see at _[[motivic quantization]]_.
+
 
 
 ### Perturbatively for free field theory in BV-formalism
