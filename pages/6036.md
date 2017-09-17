@@ -32,4 +32,6 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 
   * [[membrane]]
 
-[[!redirects superstring]]
+* [[string theory]]
+
+[[!redirects strings]]
