@@ -270,12 +270,16 @@ The case of "$E_{10}$" is discussed in
 * [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a 'small tension expansion' of M
 theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267));
 
-* A. Kleinschmidt, [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
 041 (2004) ([arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101))
 
 and that of "$E_{11}$" in 
 
 * [[Peter West]], _$E_{11}$ and M-theory_, Class. Quant. Grav. 18, 4443 (2001) ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081)).
+
+General discussion of the [[Kac-Moody groups]] arising in this context is for instance in 
+
+* Philipp Fleig, [[Axel Kleinschmidt]], _Eisenstein series for infinite-dimensional U-duality groups_ ([arXiv:1204.3043](http://arxiv.org/abs/1204.3043))
 
 ### Gauged supergravity
 
