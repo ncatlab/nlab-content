@@ -82,7 +82,14 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[anti de Sitter spacetime]]
 
-(...)
+* [[FRW spacetime]]
+
+## Related concepts
+
+* [[gravity]], [[cosmology]]
+
+* [[particle physics]], [[sigma-model]]
+
 
 [[!redirects space-time]]
 [[!redirects space time]]
