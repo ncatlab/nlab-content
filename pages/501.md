@@ -118,6 +118,8 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[countable ordinal]]
 
+* [[finite-dimensional vector space]]
+
 * [[finite homotopy type]], 
 
   * [[finite CW-complex]], [[finite spectrum]]
