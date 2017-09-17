@@ -20,15 +20,24 @@ There are various ways of understanding the affine simplex functor $\sigma: \Del
 
 #### First definition 
 
-One way is begins by regarding $\Delta^{op}$ as isomorphic to the category of nonempty ordinals, for which maps are functions that preserve order and the top and bottom elements. The $n$-element object $[n-1]$ of $\Delta$ corresponds to the $(n+1)$-element object of $\Delta^{op}$ (again denoted $[n-1]$) that is isomorphic to $\hom_{\Delta}([n-1], [1])$. A totally ordered set with top and bottom is called an _interval_, and the affine simplex functor arises by homming into the standard unit interval $I$:
+One way begins by regarding $\Delta^{op}$ as isomorphic to the category of nonempty ordinals, for which maps are functions that preserve order and the top and bottom elements. In other words, as the category of finite intervals, where an [[interval]] is a totally ordered set with a top and bottom element. 
+Indeed, for each ordinal $[n-1]$, the hom-set $\hom([n-1], [1])$ inherits from $[1]$ an interval structure under the pointwise definitions, and 
 
-$$\Delta = (\Delta^{op})^{op} \to Set: [n-1] \mapsto hom_{Int}([n-1], I)$$
+$$\hom(-, [1]) \colon \Delta^{op} \to FinInt$$ 
 
-This produces a contravariant functor $hom_{Int}(-, I): \Delta^{op} \to Set$, that is to say a covariant functor $\Delta \to Set$. The hom-sets may be identified with spaces of tuples
+is an equivalence (this can also be seen as a restriction of the Stone duality between finite posets and finite distributive lattices). 
 
-$$\{(x_0, x_1, \ldots, x_n): 0 = x_0 \leq x_1 \leq \ldots \leq x_n = 1\}$$
+Under this contravariant equivalence, the $n$-element object $[n-1]$ of $\Delta$ corresponds to the $(n+1)$-element finite interval (again denoted $[n-1]$). Consider the functor that arises by homming into the standard unit interval $I$:
 
-topologized as a subspace $\{0 \leq x_1 \leq \ldots \leq x_{n-1} \leq 1\}$ of $I^{n-1}$. This produces the functor $\sigma: \Delta \to Top$.
+$$\Delta \simeq (FinInt)^{op} \hookrightarrow Int^{op} \stackrel{\hom(-, I)}{\to} Set$$
+
+This functor lifts to a functor $hom_{Int}(-, I): \Delta \to Top$ that takes $[n-1]$ to the space of interval maps $[n-1] \to I$, 
+
+$$\{(x_0, x_1, \ldots, x_n): 0 = x_0 \leq x_1 \leq \ldots \leq x_n = 1\},$$
+
+topologized as a subspace $\{0 \leq x_1 \leq \ldots \leq x_{n-1} \leq 1\}$ of $I^{n-1}$. This gives the affine simplex functor $\sigma: \Delta \to Top$. 
+
+The category of intervals is an $\omega$-accessible category where the finitely presentable objects are the finite intervals. It follows that each representable on $Int$, in particular $\hom(-, I): FinInt^{op} \to Set$, is a filtered colimit of representable presheaves on $FinInt$. 
 
 #### Second definition 
 
