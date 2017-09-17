@@ -1,2 +1,17 @@
 
-A subobject of [[dimension]] $k$ inside an object of dimension $d$ is said to have _codimension_ $d-k$.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[subobject]] of [[dimension]] $k$ inside an [[object]] of dimension $d$ is said to have _codimension_ $d-k$.
+
+## Examples
+
+* A [[submanifold]] of dimension $k$ inside a manifold of dimension $d$ has codimension $d-k$.
+
+* In [[algebraic geometry]] a [[subvariety]] of codimension 1 is called a _[[divisor (algebraic geometry)]]_.
+
+[[!redirects codimensions]]
+
