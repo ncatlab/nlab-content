@@ -64,4 +64,6 @@ Then
 
 =--
 
+A proof of this from the [[salamander lemma]] is spelled out at _[salamander lemma -- implications -- four lemma](salamander+lemma#FourLemma)_.
+
 [[!redirects 4 lemma]]
