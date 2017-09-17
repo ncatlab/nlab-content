@@ -19,8 +19,9 @@
 
 ## Idea
 
-The **Chern character** of a [[generalized (Eilenberg-Steenrod) cohomology]] theory is a canonical morphism from the generalized cohomology to ordinary ([[Eilenberg-MacLane spectrum|Eilenberg Mac-Lane]]) real cohomology. When thought of in the refinement to [[differential cohomology]] and thinking of a cocycle in differential cohomology as a generalization of a [[connection on a bundle]], the Chern-character is the map that sends a generalized connection to its [[curvature characteristic form]].
+The **Chern character** of a [[generalized (Eilenberg-Steenrod) cohomology]] theory is a canonical morphism from the generalized cohomology to [[ordinary cohomology]]. When thought of in the refinement to [[differential cohomology]] and thinking of a cocycle in differential cohomology as a generalization of a [[connection on a bundle]], the Chern-character is the map that sends a generalized connection to its [[curvature characteristic form]].
 
+The archetypical example is the Chern-character from [[complex K-theory]] to [[ordinary cohomology]]. (This is a map from a [[complex oriented cohomology theory]] of [[chromatic level]] 1 to chromatic level 0. More generally one can also consider [[higher chromatic Chern characters]] that take values not in [[ordinary cohomology]] but in some cohomology theory of higher [[chromatic level]]. See at _[[higher chromatic Chern character]]_ for more on this.)
 
 More in detail, for every [[generalized (Eilenberg-Steenrod) cohomology]] theory given by a [[spectrum]] $E$, there is a canonical [[natural isomorphism]] from the rationalized $E$-cohomology to ordinary (Eilenberg-MacLane) cohomology with coefficients in the rationalized [[homotopy group]]s of $E$:
 
@@ -112,6 +113,14 @@ This is described for instance in section [4.8, page 47](http://arxiv.org/PS_cac
 ### Push-forward
 
 The behaviour of the Chern-character under [[fiber integration in generalized cohomology]] along [[proper maps]] is described by the [[Grothendieck-Riemann-Roch theorem]].
+
+## Related concepts
+
+* [[higher chromatic Chern character]]
+
+  * [[elliptic Chern character]]
+
+  * [[Morava E-theoretic Chern character]]
 
 ## References
 
