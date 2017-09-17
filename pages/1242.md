@@ -18,6 +18,7 @@
 {:toc}
 
 ## Definition
+ {#Definition}
 
 
 Let $\mathcal{A}$ be an [[additive category]] (often assumed to be an [[abelian category]], for instance $\mathcal{A} = R$[[Mod]] for $R$ some [[ring]]).
@@ -56,7 +57,7 @@ A general exact sequence is sometimes called a **long exact sequence**, to disti
 =--
 
 
-+-- {: .num_prop }
++-- {: .num_prop #CharacterizationByMonoEpi}
 ###### Proposition
 
 Explicitly, a sequence of morphisms 
