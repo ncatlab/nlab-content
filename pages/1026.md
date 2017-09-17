@@ -12,16 +12,11 @@ Since all limits can be obtained from (small) [[product]]s and binary [[equalize
 
 #Relation to other concepts#
 
+* The [[adjoint functor theorem]] states that any continuous functor between [[complete category|complete]] categories has a [[adjoint functor|left adjoint]] if it satisfies a certain 'small solution set' criterion.
 
-##Relation to adjoint functors##
-
-The [[adjoint functor theorem]] states that any continuous functor between [[complete category|complete]] categories has a [[adjoint functor|left adjoint]] if it satisfies a certain 'small solution set' criterion.
-
-##Relation to exact functors ##
-
-If $C$ has finite [[limit]]s, then functors commuting 
+* If $C$ has finite [[limit]]s, then functors commuting 
 with these _finite_ limits are precisely what are
-called left [[exact functor]]s.
+called left [[exact functor]]s.  Sometimes they are called "finitely continuous."
 
 
 #Examples#
@@ -38,6 +33,8 @@ $$
 # Warnings #
 
 1. Topologists sometimes use "continuous functor" to mean a functor [[enriched category|enriched]] over [[Top]], since a functor between topologically enriched categories is enriched iff its actions on hom-spaces are continuous functions.
+
+1. Sheaf-theorists sometimes say "continuous functor" for a [[cover-preserving functor]] between [[sites]], with the intuition being that it generalizes the [[inverse image]] induced by a [[continuous function]] of topological spaces.
 
 2. H. Bass in his treatment of [[K-theory]] uses the older term 'right continuous functor' for the dual notion of [[cocontinuous functor]] in a version which is [[additive functor|additive]]. If the domain of an additive functor which commutes with direct sums is a [[cocomplete category]], then the functor automatically has [[adjoint functor|right adjoint]]. Following this fact, some people in ring theory and noncommutative geometry use the simple term 'continuous functor' for a functor with a right adjoint (even if the domain [[abelian category]] is not cocomplete). In general, of course, this is just a bit more than *co*continuous in the standard sense.
 
