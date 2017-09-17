@@ -100,6 +100,8 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
   * [[vector bundle]]
 
+  * [[equivariant bundle]]
+
   * [[fiber bundles in physics]]
 
 * [[principal bundle]] / [[torsor]] / **associated bundle**
