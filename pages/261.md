@@ -274,8 +274,9 @@ category: topology
 
 [[!redirects face map]]
 [[!redirects boundary map]]
+[[!redirects degeneracy map]]
 [[!redirects face maps]]
 [[!redirects boundary maps]]
-
+[[!redirects degeneracy maps]]
 
 category : simplicial object
