@@ -1,3 +1,4 @@
+[[!redirects presentable (infinity,1)-category]]
 
 <div class="rightHandSide toc">
 [[!include quasi-category theory contents]]
@@ -8,17 +9,32 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
-A _presentable $(\infty,1)$-category_ is, as the name suggests, an [[(∞,1)-category]] that can be conveniently "presented by simpler means". It is the analog of the notion of [[presentable category]] for ordinary categories.
+The notion of _locally presentable $(\infty,1)$-category_ is the analog in [[(∞,1)-category]] theory of [[locally presentable category]] in ordinary [[category theory]]:
 
-+--{: .query}
-[[Mike Shulman]]: See [[presentable category]] for an objection to this terminology.  I prefer the standard term "locally presentable".
-=--
+There is a wealth of equivalent ways to make precise what this means, which are listed below. Two simple ones are:
 
-There is a wealth of equivalent ways to make precise what this means, which are listed below. The two most important ones are maybe the following:
+a locally presentable $(\infty,1)$-category $C$ is precisely
 
-## presentation by simplicial model categories ##
+* a [[reflective (∞,1)-subcategory]] of an [[(∞,1)-category of (∞,1)-presheaves]] 
+
+  $$
+    C \stackrel{\leftarrow}{\hookrightarrow} PSh_{(\infty,1)}(K)
+    \,;
+  $$
+
+* equivalent to the full subcategory $A^\circ$ of a [[combinatorial simplicial model category]] $A$ on fibrant-cofibrant objects 
+
+  (where the [[Kan complex]]-[[enriched category|enriched]] $A^\circ$ is regarded as an $(\infty,1)$-category, for instance as a [[quasi-category]] after applying the [[homotopy coherent nerve]]).
+
+If the [[left adjoint|left]] [[adjoint (∞,1)-functor]] to the [[full and faithful (∞,1)-functor]] $C \hookrightarrow PSh_{(\infty,1)}(C)$ also preserves finite [[limit]]s, then the locally presentable $C$ is an [[(∞,1)-topos]].
+
+
+**Warning on terminology.** In [[Higher Topos Theory|HTT]] -- where the notion has been introduced -- the term _presentable $(\infty,1)$-category_ is used for what we call a _locally presentable $(\infty,1)$-category_ here, in order to be in line with the established terminology in ordinary [[category theory]]. 
+
+
+### Presentation by simplicial model categories 
 
 Presentable $(\infty,1)$-categories are precisely those [[(∞,1)-categories]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ 
 
@@ -43,14 +59,12 @@ $$
 
 This is remark A.3.7.7 in [[Higher Topos Theory|HTT]].
 
-
-
 Partly due to the fact that [[simplicial model category|simplicial model categories]] have been studied for a longer time -- partly because they are simply more tractable -- than [[(∞,1)-categories]], many $(\infty,1)$-categories are indeed handled in terms of such a presentation by a [[simplicial model category]]. 
 
 The canonical example is the presentation of the [[(∞,1)-category of (∞,1)-sheaves]] on an ordinary (1-categorical) [[site]] $S$ by the simplicial [[model structure on simplicial presheaves|model category of simplicial presheaves]] on $S$.
 
 
-## presentation by conglomerates of objects in a small $(\infty,1)$-category ##
+### Presentation by conglomerates of objects in a small $(\infty,1)$-category 
 
 From another perspective, the notion of a presentable [[(∞,1)-category]] is a means to handle [[large category|large]] $(\infty,1)$-categories in terms of small ones.
 It is is a slight refinement of the notion of an [[accessible (∞,1)-category]].
@@ -59,25 +73,26 @@ A _presentable_ $(\infty,1)$-category is one which may be [[large category|large
 
 This means that it is desireable to get hold of presentable $(\infty,1)$-categories. The following long list of equivalent definitions allows for many equivalent characterization of presentable $(\infty,1)$-categories. In particular, all [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] are presentable.
 
-# Definition #
+## Definition 
 
-An [[(∞,1)-category]] $C$ is **presentable** precisely 
-
-* if there exists a [[combinatorial simplicial model category]] $A$ and an equivalence $ C \simeq N(A^\circ)$.
-
-
-  Here $A^\circ$ is the full [[SSet]]-subcategory of $A$ on fibrant-cofibrant objects and where $N(A^\circ)$ is the [[quasi-category]] arising as the [[homotopy coherent nerve]] of $A^\circ$.
-
-This is equivalent to all of the following equivalent statements.
+An [[(∞,1)-category]] $C$ is **presentable** precisely if the following equivalent conditions hold.
 
 
 * $C$ is [[accessible (infinity,1)-category|accessible]] and admits small [[limit in quasi-categories|colimits]];
+
 
 * $C$ is the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-presheaves]]:
 
   there exists a small $(\infty,1)$-category $D$ and a functor $f: PSh(D) \to C$ from the [[(infinity,1)-presheaf|(∞,1)-category of (∞,1)-presheaves]] on $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
   * (if in addition $f$ is left [[exact functor|exact]] then $C$ is an [[(∞,1)-category of (∞,1)-sheaves]] on $C$)
+
+
+This is equivalent to all of the following equivalent statements.
+
+
+* there exists a [[combinatorial simplicial model category]] $A$ and (with $C$ incarnated as a [[quasi-category]]) an equivalence $ C \simeq N(A^\circ)$ of $C$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on fibrant and cofirant objects.
+
 
 * $C$ is [[accessible (infinity,1)-category|accessible]] and for every [[cardinal number|regular cardinal]] $\kappa$ the full subcategory $C^\kappa$ (...explanation to be filled in...) admits $\kappa$-small [[limit in quasi-categories|colimits]];
 
@@ -89,15 +104,23 @@ This is equivalent to all of the following equivalent statements.
 * $C$ is [[locally small (infinity,1)-category|locally small]], admits small colimits, and there exists a [[cardinal number|regular cardinal]] $\kappa$ and a small [[set]] $Cmptcs$ of $\kappa$-[[compact object in an (infinity,1)-category|compact object]]s of $C$ such that every object in $C$ is a [[limit in quasi-categories|colimit]] of a small diagram in the full subcategory on $Cmpcts$.
 
 
-
-
-# The $(\infty,1)$-category of presentable $(\infty,1)$-categories #
+### The $(\infty,1)$-category of presentable $(\infty,1)$-categories 
 
 See
 
 * [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
 
-# References #
+
+## Details
+
+...
+
+That [[localization of an (infinity,1)-category|localizations]] $C \stackrel{\leftarrow}{\hookrightarrow} PSh_{(\infty,1)}(K)$ correspond to combinatorial simplicial model categories is essentially **[Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem)**: every [[combinatorial model category]] arises, up to Quillen equivalence, as the left [[Bousfield localization of model categories|left Bousfield localization]] of the global projective [[model structure on simplicial presheaves]].
+
+...
+
+
+## References 
 
 This is the topic of section 5 and section A.3.7 of
 
