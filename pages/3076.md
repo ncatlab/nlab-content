@@ -51,19 +51,13 @@
 
 ## (∞,1)-Categorical
 
-* [[limit in a quasi-category|limit in an (∞,1)-category]]
+* [[(∞,1)-limit]]
 
   * [[(∞,1)-pullback]]  
  
     * [[fiber sequence]]
 
-      * [[mapping cone]]
 
-      * [[mapping cocone]]
-
-### Quasi-categorical
-
-* [[limit in a quasi-category]]
 
 ### Model-categorical
 
@@ -73,6 +67,8 @@
 
   * [[homotopy pullback]]
 
+  * [[mapping cone]]
+
   * [[homotopy fiber]]
 
 * [[homotopy colimit]]
@@ -81,5 +77,6 @@
 
   * [[homotopy cofiber]]
 
+  * [[mapping cocone]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-limits+-+contents)</div>
