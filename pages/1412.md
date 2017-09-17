@@ -16,12 +16,14 @@
 
 The following is (supposed to be) a pedagogical motivation of the concepts [[sheaf]], [[stack]], [[infinity-stack]] and [[Higher Topos Theory|higher topos theory]]. It assumes only that the reader has a working knowledge of [[topological space]]s and aims to provide from that an intuitive but useful idea of the relevance of the circle of ideas of [[Categories and Sheaves|categories and sheaves]], [[cohomology]], [[sheaf cohomology]] and a bit of [[Higher Topos Theory|higher topos theory]].
 
+Actually, the reader need not even know anything about topological spaces. The only assumption we need is that a space is something that has _probes_ by test spaces (points, say). The reader can jump right to _[The basic idea of sheaves](#TheBasicIdeaOfSheaves)_.
 
 # Contents
 * automatic table of contents goes here
 {: toc}
 
 ## Motivation: maps between topological spaces
+ {#MapsBetweenTopologicalSpaces}
 
 Classes of maps between [[topological space]]s encode interesting information.
 
@@ -74,6 +76,7 @@ $$
 
 
 ## The basic idea of sheaves
+ {#TheBasicIdeaOfSheaves}
  
 To understand what a [[sheaf]] is, recall which aspect of the notion of [[topological space]] was relevant in the above examples $\mathcal{B}^{n} U(1)$: these spaces were entirely characterized by how one can _map_ other spaces _into_ them:
 $$ X \mapsto [X,\mathcal{B}^{n} U(1)] .$$
