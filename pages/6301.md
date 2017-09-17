@@ -1,0 +1,29 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+
+A basic characteristic of [[physics]] in the context of [[special relativity]] and [[general relativity]] is that causal influences on a [[Lorentzian manifold]] [[spacetime]] propagate [[timelike]] or [[lightlike]] but not [[spacelike]]. 
+
+The fact that any two spacelike separeted regions of spacetime thus behave like [independent subsystems](http://ncatlab.org/nlab/show/quantum+mechanics#Subsystems) is called **causal locality** or **Einstein causality**.
+
+For a formalization of this idea see for instance
+
+* [[local net of observables]].
+
+
+[[!redirects Einstein causality]]
+[[!redirects Einstein-causality]]
