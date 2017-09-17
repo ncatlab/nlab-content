@@ -46,6 +46,7 @@ sends real [[vector bundles]] to [[sphere bundles]], namely to [[(∞,1)-line bu
 ## Definition
 
 ### On groups
+ {#OnGroups}
 
 +-- {: .num_defn #SphereAsCompactification}
 ###### Definition
@@ -62,10 +63,10 @@ $$
 +-- {: .num_remark #ActionOfOrthogonalOnSphere}
 ###### Remark
 
-Since the process of [[one-point compactification]] is a [[functor]] on [[proper maps]], hence on [[homeomorphisms]], via def. \ref{SphereAsCompactification} the $n$-sphere inherits from the canonical [[action]] of the [[orthogonal group]] $O(n)$ on $\mathbb{R}^n$ an [[action]] 
+Since the process of [[one-point compactification]] is a [[functor]] on [[proper maps]], hence on [[homeomorphisms]], via def. \ref{SphereAsCompactification}, the $n$-sphere inherits from the canonical [[action]] of the [[orthogonal group]] $O(n)$ on $\mathbb{R}^n$ an [[action]] 
 
 $$
-  O(n) \times S^1 \longrightarrow S^n
+  O(n) \times S^n \longrightarrow S^n
 $$
 
 (by [[continuous maps]]) which preserves the base point (the "point at infinity").
@@ -74,11 +75,11 @@ $$
 
 For definiteness we distinguish in the following notationally between 
 
-1. the $n$-[[sphere]] $S^n \in Top$ regarded as a [[topological space]]
+1. the $n$-[[sphere]] $S^n \in Top$ regarded as a [[topological space]];
 
-1. its [[homotopy type]] $\Pi(S^n) \in L_{whe} Top \simeq$ [[∞Grpd]] given by its [[fundamental ∞-groupoid]];
+1. its [[homotopy type]] $\Pi(S^n) \in L_{whe} Top \simeq$ [[∞Grpd]] given by its [[fundamental ∞-groupoid]].
 
-Similarly we write $\Pi(O(n))$ for the [[homotopy type]] of the [[orthogonal group]], regarded as a [[group object in an (∞,1)-category]] in [[∞Grpd]].
+Similarly we write $\Pi(O(n))$ for the [[homotopy type]] of the [[orthogonal group]], regarded as a [[group object in an (∞,1)-category]] in [[∞Grpd]] (using that the [[shape modality]] $\Pi$ preserves [[finite products]]).
 
 +-- {: .num_defn #AutoequivalencesOfnSphere}
 ###### Definition
@@ -102,14 +103,14 @@ The [[∞-group]] $H(n)$, def. \ref{AutoequivalencesOfnSphere}, constitutes the 
 +-- {: .num_defn #OrthogonalActionOnSphereOnHomotopyGroups}
 ###### Definition
 
-By the presentation of [[∞Grpd]] by the [[model structure on topological spaces]], for $n \in \mathbb{N}$ the action of $O(n)$ on $S^n$
-of remark \ref{ActionOfOrthogonalOnSphere}, which equivalently is a homomorphism of [[topological groups]]
+Via the presentation of [[∞Grpd]] by the [[cartesian closed model structure|cartesian closed]] [[model structure on topological spaces|model structure on compactly generated topological spaces]] (and using that $S^n$ and $O(n)$ and hence their product are [[compact topological spaces|compact]]) we have that for $n \in \mathbb{N}$ the [[continuous function|continuous]] [[action]] of $O(n)$ on $S^n$
+of remark \ref{ActionOfOrthogonalOnSphere}, which by [[cartesian closed category|cartesian closure]] is equivalently a homomorphism of [[topological groups]] of the form
 
 $$
-  O(n) \longrightarrow Aut_{Top}(S^n)
+  O(n) \longrightarrow Aut_{Top^{\ast/}}(S^n)
 $$
 
-induces a canonical homomorphism of [[∞-groups]]
+induces a homomorphism of [[∞-groups]] of the form
 
 $$
   \Pi(O(n)) \longrightarrow Aut_{\infty Grpd^{\ast/}}(\Pi(S^n))
@@ -126,17 +127,44 @@ $$
 
 =--
 
-+-- {: .num_prop #OrthogonalActionOnSphereOnHomotopyGroups}
-###### Proposition
++-- {: .num_remark #OrthogonalActionOnSphereOnHomotopyGroups}
+###### Remark
 
-The homomorphism of remark \ref{OrthogonalActionOnSphereOnHomotopyGroups} are compatible with  [[suspension]].
+By construction, the homomorphism of remark \ref{OrthogonalActionOnSphereOnHomotopyGroups} are compatible with  [[suspension]] in that for all $n \in \mathbb{N}$ the [[diagrams]]
+
+$$
+  \array{
+    O(n) &\longrightarrow& Aut_{Top^{\ast/}}(S^n)
+    \\
+    \downarrow && \downarrow
+    \\
+    O(n+1) &\longrightarrow& Aut_{Top^{\ast/}}(S^{n+1})
+  }
+$$
+
+in $Grp(Top)$ commute, and hence so do the diagrams
+
+$$
+  \array{
+    \Pi(O(n)) &\longrightarrow& Aut_{\infty Grpd^{\ast/}}(\Pi(S^n))
+    \\
+    \downarrow && \downarrow
+    \\
+    \Pi(O(n+1)) &\longrightarrow& Aut_{\infty Grpd^{\ast/}}(\Pi(S^{n+1}))
+  }
+$$
+
+in $Grp(\infty Grpd)$, up to [[homotopy]].
 
 =--
+
+Therefore one can take the [[direct limit]] over $n$:
+
 
 +-- {: .num_defn #JHom}
 ###### Definition
 
-By prop. \ref{OrthogonalActionOnSphereOnHomotopyGroups}
+By remark \ref{OrthogonalActionOnSphereOnHomotopyGroups}
 there is induced a homomorphism 
 
 $$
@@ -239,7 +267,7 @@ The analysis of its image is due to
 
 This is reviewed for instance in 
 
-* [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_, chapter I, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter I, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
  {#Ravenel}
 
 * [[Johannes Ebert]], _The Adams conjecture after Edgar Brown_, ([pdf](http://www.math.uni-muenster.de/u/jeber_02/talks/adams.pdf))
