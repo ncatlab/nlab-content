@@ -110,6 +110,9 @@ This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).
 In a presheaf topos (on a small category) the notions of *$\neg\neg$-topology* and that of *[[dense topology]]* coincide.
 =--
 
+## In higher topos theory
+
+In a [[predicative topos|predicative]] context, the double negation modality is equivalent to the [[n-truncation modality]] for $n = -1$.
 
 ## References
 
