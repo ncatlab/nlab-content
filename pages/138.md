@@ -64,7 +64,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{cosk}_{n-1} Y &\longrightarrow& \mathbf{cosk}_{n-1} Y
+    \mathbf{cosk}_{n-1} Y &\longrightarrow& \mathbf{cosk}_{n-1} X
   }
 $$
 
