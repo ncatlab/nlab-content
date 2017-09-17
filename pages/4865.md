@@ -176,5 +176,10 @@ A classification of symmetric solutions is discussed in
 * [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_ ([arXiv:hep-th/9609122](http://arxiv.org/abs/hep-th/9609122))
  {#Witten96}
 
-
 See also the relevant references at _[[M5-brane]]_.
+
+### Description by exceptional generalized geometry
+
+* Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+
+
