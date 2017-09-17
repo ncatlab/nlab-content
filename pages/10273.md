@@ -921,7 +921,7 @@ $$
     \downarrow && \downarrow
     \\
     \mathbf{B}G
-    &\stackrel{}{\longrigtharrow}&
+    &\stackrel{}{\longrightarrow}&
     \mathbf{B}^{n+1}(\mathbb{R}/\Gamma_\mu)
   }
 $$
