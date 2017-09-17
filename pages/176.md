@@ -259,6 +259,12 @@ with some constant $C_{ij} \in \mathbb{C}$.
 
 ...
 
+## Conformal anomaly
+
+The [[Liouville cocycle]] appears when one moves from genuine [[representation]]s of 2-dimensional conformal [[cobordism]]s to [[projective representation|projective representations]]. The obstruction for such a projective representation to be a genuine representation is precisely given by the central charge $c$; when $c\neq 0$, one says that the conformal field theory has a _conformal [[quantum anomaly|anomaly]]_.
+
+...
+
 ## Related entries
 
 * [[Liouville cocycle]]
