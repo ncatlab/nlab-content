@@ -1,0 +1,8 @@
+Given a unital ring $k$, a _monic polynomial_ over $k$ is a polynomial with coefficients in $k$, whose highest order coefficient is $1$. A root of a monic polynomial over $k$ is by definition an _algebraic integer_ over $k$. Algebraic integer is usually an algebraic integer over $\mathbf{Z}$. All algebraic integers form a field called the _integral closure_ of $\mathbf{Z}$ in $\mathbf{C}$. 
+
+On the other hand, for a [[number field]] $K$, an integer in $K$ is an algebraic integer over $\mathbf{Z}$ which is in $K$; all integers in $K$ form a __ring of integers__ $\mathcal{O}_K$ of the number field $K$.
+
+
+See wikipedia: [algebraic number](http://en.wikipedia.org/wiki/Algebraic_integer)
+[[!redirects monic polynomials]]
+
