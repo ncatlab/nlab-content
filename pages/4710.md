@@ -71,21 +71,22 @@ In [[physics]], the quantities of a given dimension generally form an $\mathbb{R
 
 Often (but not always) these quantities form an [[orientation|oriented]] line, so that nonzero quantities are either positive or negative.  Then we usually also require a unit of measurement to be positive.  In fact, for some dimensions, there is no physical meaning to a negative quantity, in which case the quantities actually form a module over the rig $\mathbb{R}_{\ge 0}$ and every nonzero element is "positive."
 
-For example, the [[kilogramme]] is a unit of mass, because any mass may be expressed as a real multiple of the kilogramme.  Further, it is a positive unit; the mass of any physical object is a nonnegative quantity (so that mass quantities actually form an $\mathbb{R}_{\ge 0}$-module) and may be expressed as a nonnegative real multiple of the kilogramme.
+For example, the [[kilogram]] is a unit of mass, because any mass may be expressed as a real multiple of the kilogram.  Further, it is a positive unit; the mass of any physical object is a nonnegative quantity (so that mass quantities actually form an $\mathbb{R}_{\ge 0}$-module) and may be expressed as a nonnegative real multiple of the kilogram.
 
 
 ## Identities as units
 
-Often the term 'unit' (or 'unity') is used as a synonym for '[[identity element]]', especially when this identity element is denoted $1$.  For example, a 'ring with unit' (or 'ring with unity') is a ring with an identity (used by authors who say 'ring' for a rng).  Of course, a rng with identity has a unit, since $1$ itself is a unit; conversely, a commutative ring with a unit must have an identity.
+Often the term 'unit' (or 'unity') is used as a synonym for '[[identity element]]', especially when this identity element is denoted $1$.  For example, a 'ring with unit' (or 'ring with unity') is a ring with an identity (used by authors who say 'ring' for a rng).  Of course, a rng with identity has a unit, since $1$ itself is a unit; conversely, a commutative rng with a unit must have an identity.
 +-- {: .query}
-I haven\'t managed to find either a proof or a counterexample to the converse: that a rng with a unit must have an identity.
+I haven\'t managed to find either a proof or a counterexample to the converse (in the noncommutative case): that a rng with a unit must have an identity.
 
-Response: If R is a rng with a unit u, then every element uniquely factors through u. In particular, u itself does. u=au, with a unique. So a is an identity.
+Response: If $R$ is a rng with a unit $u$, then every element uniquely factors through $u$. In particular, $u$ itself does. $u = a u$, with $a$ unique. So $a$ is an identity.
 
 Reply: Why is $a$ an identity then?  This works if the rng is commutative: given any $v$, write $v$ as $b u$, and then $a v = a (b u) = b (a u) = b u = v$.  But without commutativity (and associativity), this doesn\'t work.
 =--
 
 It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
+
 
 ## Related concepts
 
