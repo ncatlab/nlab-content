@@ -39,6 +39,8 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
 
 ## Talks ##
 
+* _An explicit string bundle_, [AustMS 2013](http://www.maths.usyd.edu.au/u/austms2013/abstracts.html), 3 October 2013
+
 * _Proper class forcing_, [CT2013](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/programme.html), July 2013.
 
 * _On the Ganter-Kapranov approach to supersymmetry_, Strings Journal Club, University of Adelaide. 27 May 2013.
