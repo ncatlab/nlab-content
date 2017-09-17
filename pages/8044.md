@@ -13,7 +13,7 @@
 =--
 =--
 
-# Russel\'s paradox
+# Russell\'s paradox
 * table of contents
 {: toc}
 
