@@ -1,14 +1,18 @@
 [[!redirects A Survey of Elliptic Cohomology - compactifying the derived moduli space]]
 
 
-<div class="rightHandSide toc">
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
+=--
+=--
+=--
 
-</div>
 
-
->**Abstract** This entry discusses the descent spectral sequence and sheaves in homotopy theory.  Using said spectral sequence we compute $\pi_* tmf_{(3)}$.
+>**Abstract** This entry discusses the [[descent spectral sequence]] and sheaves in homotopy theory.  Using said spectral sequence we compute $\pi_* tmf_{(3)}$.
 
 
 +-- {: .standout}
