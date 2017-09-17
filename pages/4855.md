@@ -67,9 +67,11 @@ For $X$ a topological space equipped with the structure of a [[poset]] on its un
 +-- {: .un_example}
 ###### Example
 
-For $\Delta^k_{Top}$ the standard topological $k$-[[simplex]] its _standard directed paths_ are the maps $[0,1] \to \Delta^k$ into the [[spine]] that preserve the natural order on the spine. 
+For $\Delta^k_{Top}$ the standard topological $k$-[[simplex]] its _standard directed paths_ are order-preserving maps into its 1-[[simplicial skeleton|skeleton]] (the union of the 1-faces equipped with the evident [[poset]]-structure induced from that on the vertices).
 
 =--
+
+{#DirectedSimplex}
 
 +-- {: .un_def}
 ###### Definition
@@ -80,7 +82,7 @@ $$
   \sigma : \Delta^k_{Top} \to X
 $$
 
-that are morphisms of directed spaces with respect to the standard spine-paths in $\Delta^k$, as in the above example: maps such that the [[spine]] of $\Delta^k$ is mapped under $\sigma$ to a directed path in $X$.
+that are morphisms of directed spaces with respect to the [standard directed paths](#DirectedSimplex) in $\Delta^k$.
 
 $$
   \Pi(X,D)_k := Hom_{DTop}(\Delta^k_{Top}, (X,D))
@@ -115,9 +117,14 @@ For $k \geq 3$ these retracts are the identity on 1-faces, hence trivially prese
 If $X$ is undirected in that _all_ paths are labeled as directed -- $D = X^{[0,1]}$ -- then $\Pi(X,D)$ coincides with the [[fundamental ∞-groupoid]] $\Pi(X)$ of $X$.
 
 =--
+
 ## References ##
+
 Related constructions can be found in the following:
-* Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
-* Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88--100.
-* Tim Porter, _Enriched categories and models for spaces of
+
+* [[Marco Grandis]], _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
+
+* [[Tim Porter]], _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88--100.
+
+* [[Tim Porter]], _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
