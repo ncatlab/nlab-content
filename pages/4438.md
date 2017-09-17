@@ -4,9 +4,13 @@ This entry is about the notion of [[site]] in [[2-category]] theory. For the not
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topos Theory
+#### $(\infty,2)$-Topos theory
 +--{: .hide}
-[[!include topos theory - contents]]
+[[!include (infinity,2)-topos theory - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
 =--
 =--
 =--
@@ -103,6 +107,8 @@ Bicategorical 2-sites in
 
 * [[Ross Street]], [[zoranskoda:Characterization of Bicategories of Stacks]], [MR84d:18006](http://www.ams.org/mathscinet-getitem?mr=682967), p. 282-291 in: Category theory (Gummersbach 1981) Springer LNM __962__, 1982 
 {: #StreetCBS }
+
+See also _[[StreetCBS]]_.
 
 More discussion is in 
 
