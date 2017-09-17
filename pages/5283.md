@@ -56,7 +56,7 @@ $$
   \,,
 $$
 
-The operation $div_\omega$ is a [[derivation]] of the [[Schouten bracket]].
+The operation $div_\omega$ is a [[derivation]] of the [[Schouten bracket]] and makes multivectorfields into a [[BV-algebra]].
 
 A more general discussion of this phenomenon in ([CattaneoFiorenzaLongoni](CattaneoFiorenzaLongoni)).
 
@@ -72,6 +72,10 @@ and in section 2 of
 
 * [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/05-06.pdf))
 {#CattaneoFiorenzaLongoni}
+
+and on p. 6 of 
+
+* C. Roger, _Gerstenhaber and Batalin-Vilkovisky algebras_ ([ps](www.emis.de/journals/AM/09-4/roger.ps.gz))
 
 [[!redirects multivector field]]
 [[!redirects multivector fields]]
