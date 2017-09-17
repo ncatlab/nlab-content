@@ -25,7 +25,13 @@ If this distinction is not made, one speaks of [[intensional type theory]].
 
 Only the intensional but not the [[extensional type theory|extensional]] [[Martin-Löf type theory]] is [[decidable]]. See _[[intensional type theory]]_ for more on this.
 
+## References
 
+Among the most thorough recent treatments of extensional type theory are
+
+* [[Ieke Moerdijk]], E. Palmgren, _Wellfounded trees in categories_. Ann. Pure Appl. Logic, 104:189-218 (2000)
+
+* [[Ieke Moerdijk]], E. Palmgren, _Type theories, toposes and constructive set theory: predicative aspects of AST_,  Ann. Pure Appl. Logic, 114:155-201, (2002)
 
 
 [[!redirects intensional type theories]]
