@@ -17,8 +17,24 @@
 ## Idea
 
 
-The [[spectral sequence]] $E_{(n)}^{p,q}$ of a $\mathbb{Z}$-filtered graded cohomology [[chain complex|complex]] $d:F_i{C_j} \to F_i C_{j+1}$ is a tool for organizing data derivable from the families of [[fiber sequence|long exact cohomology sequences]]
-$$ \cdots\to H^j (F_i) \to H^j (F_{i+1}) \to H^j(F_{i+1}/F_i) \to H^{j+1}(F_i)\to\cdots $$
+The [[spectral sequence]] of a [[filtered object|filtered]] (co)[[chain complex]] 
+
+$$
+  \cdots \subset C_\bullet^{(2)}\subset C_\bullet^{(1)}\subset C_\bullet
+$$
+
+is a tool for computing the (co)[[chain homology]] of $C_\bullet$ from the (in general simpler) (co)chain homologies of the [[associated graded object]] $C_\bullet^{(n)}/C_\bullet^{(n+1)}$.
+
+So it is a tool for organizing data derivable from the families of [[long exact sequence|long exact]] [[fiber sequence]] in [[chain homology]]
+
+$$ 
+  \cdots\to H_p (C^{(q+1)}_\bullet) \to H_p (C^{(q)}_\bullet) 
+  \to 
+  H_p(C^{(q)}_\bullet/C^{(q+1)}_\bullet) \to H^{p+1}(C_\bullet^{(q+1}))
+ \to
+ \cdots 
+ \,.
+$$
 
 
 ## Definition
