@@ -325,7 +325,6 @@ The [[orientals]] related simplices to [[globes]].
 
 ## Related concepts
 
-
 * [[vertex]], [[edge]]
 
 * [[triangle]], [[tetrahedron]]
@@ -335,6 +334,8 @@ The [[orientals]] related simplices to [[globes]].
 * [[globe]], 
 
 * [[tree]], [[dendrex]]
+
+* [[Bloch region]]
 
 [[!redirects simplices]]
 
