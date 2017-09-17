@@ -14,15 +14,6 @@
 =--
 =--
 
-* [[connection on a bundle]]
-
-* **connection on a 2-bundle** / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
-
-* [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
-
-* [[connection on an ∞-bundle]]
-
-***
 
 #Contents#
 * table of contents
@@ -48,10 +39,28 @@ $$
   }
 $$
 
+## Related concepts
+
+* [[connection on a bundle]]
+
+* **connection on a 2-bundle** / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
+
+* [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
+
+* [[connection on an ∞-bundle]]
+
+
+
 
 ## References
 
-* U.S.,  [[Konrad Waldorf]], _Connections on non-abelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
+Connections on 2-bundles with vanishing 2-form curvature defined in terms of their [[higher parallel transport]] are discussed in
+
+* [[Urs Schreiber]],  [[Konrad Waldorf]], _Connections on non-abelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
+
+Examples of 2-connections with vanishing 2-form curvature obtained from [[geometric quantization]] are discusssed in
+
+* Olivier Brahic, _On the infinitesimal Gauge Symmetries of closed forms_ ([arXiv](http://arxiv.org/abs/1010.2189))
 
 
 [[!redirects connections on a 2-bundle]]
