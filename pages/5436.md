@@ -22,6 +22,7 @@ which is important for us. Unfortunately, in the departments of the applied math
 * [[homological algebra in finite element method]]
 * [[Runge-Kutta method]]
 * [[symplectic integrator]]
+* [[preconditioner]]
 
 Wikipedia: [applied mathematics](http://en.wikipedia.org/wiki/Applied_mathematics)
 
