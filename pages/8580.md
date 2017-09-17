@@ -1340,7 +1340,7 @@ Combinine prop. \ref{UniversalPropertyOfMappingSpace} with prop. \ref{ProductOfS
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #SmoothPathSpace}
 ###### Example
 
 Given a [[smooth space]] $X \in Smooth0Type$, its smooth **[[path space]]** is the smooth mapping space
@@ -1819,17 +1819,31 @@ What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (inf
 
 * [[type of propositions]]
 
-#### Cohesive modality
+#### Cohesive modality I: Sharp types
+
+
+$$
+  (\Pi \dashv \flat \dashv \sharp)
+  \;
+  \colon
+  \;
+  \mathbf{H}
+  \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  \mathbf{H}
+  \stackrel{\overset{Disc}{\to}}{\stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}}
+$$
 
 * [[modal logic]]
 
-* **sharp type** $\sharp A$ 
+**sharp type** $\sharp A$ 
 
-  maps $X \to \sharp A$ can be arbitrarily kinky ("sharp")
+maps $X \to \sharp A$ can be arbitrarily kinky ("sharp")
 
 $$
-  DeCohese \colon X \to \sharp X
+  DeCohese_X \colon X \to \sharp X
 $$
+
+
 
 
 
@@ -1838,52 +1852,56 @@ $$
 ## **Differential forms**
  {#DifferentialForms}
 
-*** 
+We have seen above in _[The continuum real (world-)line](TheContinuumRealWorldLine)_ that that [[real line]] $\mathbb{R}$ is the basic [[kinematics|kinematical structure]] in the [[differential geometry]] of [[physics]]. Notably the smooth [[path spaces]] $[\mathbb{R}, X]$ from example \ref{SmoothPathSpace} are to be thought of as the smooth spaces of _trajectories_ (for instance of some [[particle]]) in a [[smooth space]] $X$, hence of a smooth map $\mathbb{R} \to X$.
 
-Only keyword lists beyond this line. Come back a little later to find more material here.
+But moreover, in [[physics]] _[[dynamics]]_ is encoded by [[functionals]] on such trajectories: "[[action functionals]]". In the simplest case these are for instance homomorphisms of smooth spaces
 
-***
+$$
+  S \colon P X \to \mathbb{R}
+$$
+
+Such action functionals we discuss in their own right in _[Variational calculus](#VariationalCalculus)_ below. Here we first examine in detail a fundamental property they all have: they are supposed to be _[[local action functional|local]]_.
+
+Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories. As one takes this property to the limit, one finds that the action functional is fixed by its value on _[[infinitesimal space|infinitesimal]] displacements_ along the worldline. If $\gamma \colon \mathbb{R} \to X$ denotes a path and "$\dot \gamma(x)"$ denotes the corresponding infinitesimal path at worldline parameter $x$, then the value of the action functional on such an infinitesimal path is traditionally written as
+
+$$
+  \mathbf{d}S(\dot \gamma)_x \mathbb{R}
+  \,,
+$$
+
+to be read as "the small change $\mathbf{d}S$ of $S$ along the infinitesimal path $\dot \gamma_x$". 
+
+This function $\mathbf{d}S$ that assigns numbers to infinitesimal paths is called a _[[differential form]]_. This etymologically originates in the use of "form" as in [[bilinear form]]: something that is evaluated. Here it is evaluated on _infinitesimal differences_, referred to as _differentials_.
+
 
 
 
 ### Layer Mod
  {#DifferentialFormsLayerMod}
 
+We define smooth differential forms on [[Cartesian spaces]] in 
 
-The smooth _[[differential n-forms]]_ that we introduce below in 
-[spring](#spring) are a generalization of [[smooth functions]]: a _differential 0-form_ is equivalently a smooth function.
+We further introduce and motivate the notion of differential forms as such differential measures in 
 
-Therefore before we introduce differential forms, we first highlight a useful perspective on smooth functions in _[The smooth moduli space of smooth functions](#SmoothModuliSpaceOfSmoothFunctions)_
+* _[Differential forms on abstract coordinate sysetms](#DifferentialFormsOnAbstractCoordinateSystem)_
 
+Then we discuss how this induces a notion of smooth differential forms on general [[smooth spaces]] in 
 
-#### Differential 1-forms are smooth incremental path measures
+* _[Smooth universal moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)_.
 
-A [[smooth function]] $f \colon X \to \mathbb{R}$ is like a point-measure: for each point $x \colon * \to X$ it gives a value $f(x) \colon * \to \mathbb{R}$.
+Finally we provide a precise version of the statement that "Differential 1-forms are differential measures along paths." in 
 
-Instead a smooth function on the [[path space]] $\omega \colon P X \to \mathbb{R}$ is like a line measure. It gives a value for each path
+* _[Differential 1-forms are smooth incremental path measures](#1FormsAsSmoothFunctors)_
 
-$$
-  \frac{* \stackrel{\vdash \gamma}{\to} P X}{\mathbb{R} \stackrel{\gamma}{\to} X}
-  \,.
-$$
+and of the statement that "Differential 2-forms are differential measures along surfaces." in
 
-Suppose that measure is smooth and _incremental_ in that if we divide the path into segments $I_i$, then the value of the whole path in the sum of the value of the segments.
-
-Then in the limit, the path measure is fixed by knowing what it assigns to an _[[infinitesimal space|infinitesimal path]]_. Such an assignment is called a smooth _[[differential 1-form]]_.
-
-[[path groupoid]] 
-
-$$
-  \int_{(-)}\omega \colon P_1(X) \to \mathbf{B}\mathbb{R}
-$$
-
-
-
+* _[Differential 2-forms are smooth incremental surface measures](#2FormsAsSmoothFunctors)_
 
 
 #### Differential forms on abstract coordinate systems
+ {#DifferentialFormsOnAbstractCoordinateSystem}
 
-We indtroduce the basic concept of a smooth [[differential form]] on a [[Cartesian space]] $\mathbb{R}^n$. Below in _[The smooth universal moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)_ we use this to define differential forms on any [[smooth space]].
+We introduce the basic concept of a smooth [[differential form]] on a [[Cartesian space]] $\mathbb{R}^n$. Below in _[The smooth universal moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)_ we use this to define differential forms on any [[smooth space]].
 
 +-- {: .num_defn #Differential1FormsOnCartesianSpaces}
 ###### Definition
@@ -1961,7 +1979,7 @@ We call this the **universal smooth [[moduli space]]** of differential 1-forms.
 #### The smooth universal moduli space of differential forms
  {#SmoothUniversalModuliSpaceOfDifferentialForms}
 
-+-- {: .num_prop}
++-- {: .num_prop #SheafOfDifferentialFormsAsSmoothSpace}
 ###### Proposition
 
 For $n \in \mathbb{N}$ the assignment
@@ -1970,7 +1988,14 @@ $$
   \mathbb{R}^k \mapsto \Omega^n(\mathbb{R}^n)
 $$
 
-defines a [[smooth space]]. We denote this 
+defines a [[smooth space]].
+
+=--
+
++-- {: .num_defn #TheUniversalSmoothModuliSpaceOfDifferentialForms}
+###### Definition
+
+We denote the smooth space of differential forms of prop. \ref{SheafOfDifferentialFormsAsSmoothSpace} by
 
 $$
   \Omega^n(-) \in Smooth0Type
@@ -1978,6 +2003,7 @@ $$
 $$
 
 =--
+
 
 +-- {: .num_defn}
 ###### Definition
@@ -2013,9 +2039,84 @@ $\Omega^0(-) = \mathbb{R}$
 
 =--
 
+
+
+#### Differential 1-forms are smooth incremental path measures
+ {#1FormsAsSmoothFunctors}
+
+A [[smooth function]] $f \colon X \to \mathbb{R}$ is like a point-measure: for each point $x \colon * \to X$ it gives a value $f(x) \colon * \to \mathbb{R}$.
+
+Instead a smooth function on the [[path space]] $\omega \colon P X \to \mathbb{R}$ is like a line measure. It gives a value for each path
+
+$$
+  \frac{* \stackrel{\vdash \gamma}{\to} P X}{\mathbb{R} \stackrel{\gamma}{\to} X}
+  \,.
+$$
+
+Suppose that measure is smooth and _incremental_ in that if we divide the path into segments $I_i$, then the value of the whole path in the sum of the value of the segments.
+
+Then in the limit, the path measure is fixed by knowing what it assigns to an _[[infinitesimal space|infinitesimal path]]_. Such an assignment is called a smooth _[[differential 1-form]]_.
+
+[[path groupoid]] 
+
+$$
+  \int_{(-)}\omega \colon P_1(X) \to \mathbf{B}\mathbb{R}
+$$
+
+#### Differential 2-forms are smooth incremental surface measures
+ {#2FormsAsSmoothFunctors}
+
+[[path 2-groupoid]]
+
+(...)
+
+$$
+  \int_{(-)}\omega : P_2(X) \to \mathbf{B}^2 \mathbb{R}
+$$
+
+
+
+
 ### Layer Sem
 
 #### Concrete objects
+
+The smooth universal moduli space of differential forms $\Omega^n(-)$
+from def. \ref{TheUniversalSmoothModuliSpaceOfDifferentialForms}
+is noteworthy in that it has a property not shared by 
+other smooth spaces: while evidently being "large" (the space of all differential forms!) it has "very few points" and "very few $k$-dimensional subspaces" for low $k$.  In fact for $k \lt n$ there is only a unique such
+
+$$
+  Hom(\mathbb{R}^k, \Omega^n(-))
+  \simeq
+  \Omega^n(\mathb{R}^k)
+  = 
+  \{0\}
+  \,.
+$$
+
+So while $\Omega^n()$ is a large smooth space, it is "not supported on probes" in low dimensions in as much as one might expect, from more naive notions of smooth spaces.
+
+We now formalize this. The formal notion of an smooth space which _is_ supported on its probes is that of a _[[concrete object]]_. There is a univeral map that sends any smooth space to its _concretification_. The universal moduli spaces of differential forms turn out to be _non-concrete_ in that their concetrification is the point.
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathbf{H}$ be a local topos. Write $\sharp \colon \mathbf{H} \to \mathbf{H}$ for the corresponding sharp modality. Then an object $X \in \mathbf{H}$ is concrete if
+
+$$
+  DeCohese \colon X \to \sharp X
+$$
+
+is a [[monomorphism]].
+
+The _concretification_ of $X$ is the [[image]] factorization
+
+$$
+  DeCohese : X \to Conc(X) \hookrightarrow \sharp X
+$$
+
+=--
 
 * [[concrete object]], [[concrete sheaf]]
 
@@ -2270,15 +2371,31 @@ $$
 
 ### Layer Syn
 
+#### Identity types
+
 * [[identity type]]
 
 * [[h-level]]
 
 * [[homotopy type theory]]
 
+#### Cohesive modality II: flat types
+
+
+**flat type** $\flat A$
+
+maps $X \to \flat \mathbf{B}G$ are flat $G$-connections
+
+
+$$
+  \mathbf{B}G \colon Type
+  \;\vdash\;
+  UnderlyingBundle \colon \flat \mathbf{B}G \to \mathbf{B}G
+$$
 
 
 ## **Principal bundles**
+ {#PrincipalBundles}
 
 ### Layer Mod
 
