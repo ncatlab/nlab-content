@@ -15,9 +15,9 @@ Strictly speaking, composition as defined above is *binary* composition.  One ca
 Conversely, a category can equivalently be defined as a [[directed graph]] equipped with an $n$-ary composition operation for every [[natural number]] $n\ge 0$, satisfying suitable associativity axioms.  This definition may be called *unbiased*, as opposed to the usual definition which is "biased" towards $0$ and $2$.
 
 
-## Notation 
+## Notation {#Notation}
 
-Traditionally, the composite of $f$ and $g$ as above is written $g \circ f$, following the notation introduced by the followers of Leibniz for composition of [[function]]s.  This is often abbreviated as simply $g f$.  Of course, this notation preserves the order of symbols in the elementwise definition of function composition: $(g\circ f)(x) = g(f(x))$.
+Traditionally, the composite of $f$ and $g$ as above is written $g \circ f$, following the notation introduced by the followers of Leibniz for composition of [[functions]].  This is often abbreviated as simply $g f$.  Of course, this notation preserves the order of symbols in the elementwise definition of function composition: $(g\circ f)(x) = g(f(x))$.
 
 On the other hand, reading a diagram
 $$ x \stackrel{f}\to y \stackrel{g}\to z $$
@@ -25,19 +25,9 @@ the notation $f g$ reads better.  One way to make this anti-Leibniz convention c
 
 Therefore, the notations $g f$ and $f g$ are ambiguous, while $g \circ f$ and $f ; g$ are less so.  It seems that the notation $g f$ for $g\circ f$ is more common than $f g$ for $f ; g$, although the $f g$ notation occurs in some important older papers.
 
-+-- {: .query}
-Is $f; g$ really more common than $f g$, as Charles Wells wrote here a moment ago?  I\'ve seen $f g$ more often (even for this order) and $f; g$ mostly in CS-oriented literature, but my experience is probably not as broad.  ---Toby
-
-The change you made is probably good.  Much of my work in category theory was done in connection with computer science, so my perception may be skewed.  --Charles
-
-OK, thanks!  ---Toby
-
-[[Mike Shulman]]: I hope I didn't mess up these statements when I merged the two pages.
-=--
-
 Although diagrammatic order has advantages and partisans, especially among category theorists and computer scientists, the "classical" order of composition is firmly entrenched in much of mathematics.  Many people who agree that diagrammatic order is "better" on its own merits nevertheless believe that trying to change the established "classical" order of composition creates more confusion than it removes.
 
-In some older category theory papers, arrows were written pointing from right to left, so that the composition of arrows could be written in the "classical" style, while still preserving the diagrammatic intuition. Hom-sets were accordingly written $C(b,a)$, where $a$ is the [[source]], and $b$ is the [[target]].
+In some older category theory papers, arrows were written pointing from right to left, so that the composition of arrows could be written in the "classical" style, while still preserving the diagrammatic intuition. Hom-sets were accordingly written $C(b,a)$, where $a$ is the [[source]], and $b$ is the [[target]].  This sort of convention has also been used by people working with [[string diagrams]] and [[surface diagram]]s.
 
 ## In enriched category theory
 
