@@ -81,23 +81,57 @@ Conversely, $R$ is a [[Noetherian ring]] if [[direct sums]] of injective $R$-[[m
 
 This is due to Bass and Papp. See ([Lam, Theorem 3.46](#Lam)).
 
-### Existence of enough injectives
 
-+-- {: .num_prop}
+### Existence of enough injectives
+ {#ExistenceOfEnoughInjectives}
+
++-- {: .num_prop #AbHasEnoughInjectives}
 ###### Proposition
 
-Every $N \in R$[[Mod]] is a [[submodule]] $N \hookrightarrow I$ of an injective module $I$.
+The [[category]] $\mathbb{Z}$[[Mod]] $\simeq$ [[Ab]] has [[injective object|enough injective]].
 
 =--
-
-An detailed proof on elemenets appears for instance as ([May, lemma 4.4](#May)).
 
 +-- {: .proof} 
 ###### Proof 
 
-(...)
+We first show this for $R = \mathbb{Z}$ the ring of [[integers]] in which case $R$[[Mod]] = [[Ab]].
+
+By prop. \ref{InjectiveAbelianGroupIsDivisibleGroup} an [[abelian group]]
+is an injective $\mathbb{Z}$-module precisely if it is a [[divisible group]]. So we need to show that every [[abelian group]] is a [[subgroup]] of a [[divisible group]].
+
+To start with, notice that the group $\mathbb{Q}$ of [[rational numbers]] is divisible and hence that canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ shows that the additive group of [[integers]] embeds into an injective $\mathbb{Z}$-module.
+
+Now by the discussion at _[[projective module]]_ every [[abelian group]] $A$ receives an [[epimorphism]] $(\oplus_{s \in S} \mathbb{Z}) \to A$ from a [[free group|free]] abelian group, hence is the [[quotient group]] of a direct sum of copies of $\mathbb{Z}$. Accordingly it embeds into a quotient $\tilde A$ of a direct sum of copies of $\mathbb{Q}$.
+
+$$
+  \array{
+    ker &\stackrel{=}{\to}& ker 
+    \\
+    \downarrow && \downarrow
+    \\
+    (\oplus_{s \in S} \mathbb{Z}) &\hookrightarrow& (\oplus_{s \in S} \mathbb{Q})
+    \\
+    \downarrow && \downarrow
+    \\
+    A &\hookrightarrow& \tilde A
+  }
+$$
+
+Here $\tilde A$ is divisible because the [[direct sum]] of divisible groups is again divisible, and also the [[quotient group]] of a divisible groups is again divisble. 
+
+
 
 =--
+
++-- {: .num_prop #AbHasEnoughInjectives}
+###### Proposition
+
+For $R$ a [[ring]], the category $R$[[Mod]] has [[injective object|enough injectives]].
+
+=--
+
+An proof on elemenets appears for instance as ([May, lemma 4.4](#May)).
 
 
 ## Examples
