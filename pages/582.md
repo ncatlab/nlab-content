@@ -46,7 +46,11 @@ In practice this is of particular relevance for the $\infty$-version of [[regula
 **Warning** The same warning as at [[regular epimorphism]] applies: with this definition of regular monomorphism in an [[(∞,1)-category]] these may fail to satisfy various definitions of plain monomorphisms that one might think of. But the idea is that the only sensible notion of monomorphism in an [[(∞,1)-category]] is in fact that of regular monomorphism.
 
 
+[[!redirects regular monomorphism]]
 [[!redirects regular monomorphisms]]
 [[!redirects regular subobject]]
 [[!redirects regular subobjects]]
 [[!redirects regular mono]]
+[[!redirects regular monos]]
+[[!redirects regular monic]]
+[[!redirects regular monics]]
