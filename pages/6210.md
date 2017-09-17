@@ -22,7 +22,7 @@
 
 For $c$ any [[characteristic class]], its [[homotopy fiber]]s on [[cocycle]] [[∞-groupoid]]s represent $c$-[[twisted cohomology]] (for instance [[twisted bundle]]s, [[twisted spin structure]]s, etc.).
 
-If $c$ is refined to a characteristic class $\mathbf{c}$ in [[Smooth∞Grpd]] there may exists further refinements $\hat {\mathbf{c}}$ to [[ordinary differential cohomology]]. The twisted cohomology of these _differential characteristic classes_ may be called _twisted differential structures_ . For instance _[[differential string structure]]s_ . See [below](#Examples) for more examples.
+If $c$ is refined to a characteristic class $\mathbf{c}$ in [[Smooth∞Grpd]] there may exist further refinements $\hat {\mathbf{c}}$ to [[ordinary differential cohomology]]. The twisted cohomology of these _differential characteristic classes_ may be called _twisted differential structures_ . For instance _[[differential string structure]]s_ . See [below](#Examples) for more examples.
 
 
 
@@ -66,7 +66,7 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
 
 * Higher differential spin structures 
 
-  * [[twisted differential spin structure]]
+  * [[twisted spin structure|twisted differential spin structure]]
 
   * [[differential string structure]]
 
