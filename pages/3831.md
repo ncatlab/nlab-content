@@ -8,7 +8,7 @@ $$B_m \times B_n \to B_{m+n}$$
 
 which may be described as juxtaposition of braids. 
 
-The braid category came into prominence with the celebrated paper _Braided Monoidal Categories_ by Joyal and Street, who showed that the category of Artin braids (hitherto a thoroughly geometric construction) was the free braided (strict) monoidal category on the terminal category $1$, and that free [[braided monoidal category]] on a general category $C$ could be pictured as the category of braids whose strands are colored by morphisms in $C$. 
+The braid category came into prominence with the celebrated paper _Braided Monoidal Categories_ by Joyal and Street, who showed that the category of Artin braids (hitherto a thoroughly geometric construction) was the free braided (strict) monoidal category on the terminal category $1$, and that the free [[braided monoidal category]] on a general category $C$ could be pictured as the category of braids whose strands are colored by morphisms in $C$. 
 
 Joyal and Street also showed that the braid category could be regarded as a "[[walking structure|walking]] Yang-Baxter object". Recall that a [[Yang-Baxter object]] in a monoidal category $(M, \otimes, I)$ is an object $C$ equipped with an invertible "twist" map 
 
