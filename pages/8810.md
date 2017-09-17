@@ -56,17 +56,29 @@ e.g. ([Huybrechts-Lehn 96, example 1.2.10](#HuybrechtsLehn96))
 
 The [[Narasimhan–Seshadri theorem]] identifies [[moduli spaces]] of stable vector bundles with those of certain [[flat connections]].
 
+## Related concepts
+
+* [[Harder-Narasimhan filtration]]
+
+* [[moduli space]]
+
+
 ## References
 
-Related items: [[Harder-Narasimhan filtration]], [[moduli space]]
 
-The notion was introduced in 
+The concept was introduced in 
 
 * [[David Mumford]], _Geometric invariant theory_, Ergebnisse Math. Vol 34 Springer (1965)
 
 and
 
 * F. Takemoto, _Stable vector bundles on algebraic surfaces_, Nagoya Math. J.  47 (1972) 29-48 ([euclid](http://projecteuclid.org/euclid.nmj/1118798682)); _II_, 52 (1973) ([euclid](http://projecteuclid.org/euclid.nmj/1118794885))
+
+Review is in 
+
+* {#AtiyahBott83} [[Michael Atiyah]], [[Raoul Bott]], section 7 of _The Yang-Mills equations over Riemann surfaces_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences
+Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/stable/37156), [lighning summary](http://math.stackexchange.com/a/295505/58526))
+
 
 A textbook account is in
 
