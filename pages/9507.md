@@ -1,0 +1,5 @@
+__Goldblatt-Thomason theorem__ is a theorem in [[modal logic]] which characterizes the elementary classes are also modally definable classes. It says that if $K$ is an elementary class of Kripke frames, then $K$ is modally definable iff $K$ is closed under taking bounded morphic images, generated subframes, disjoint unions, and reflects ultrafilter extensions.
+
+* _Modal logic_, lecture notes, [pdf](http://math.berkeley.edu/~valby/modal_logic.pdf)
+
+category: logic
