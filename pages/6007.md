@@ -47,7 +47,7 @@ Accordingly, instead of a [[Thom class]] there is a _differential Thom class_ .
 
 For $X$ a [[compact space|compact]] [[smooth manifold]] and $V \to X$ a smooth real [[vector bundle]] of [[rank]] $k$ a **differential Thom cocycle** on $V$ is
 
-* a compactly supported cocycle $\hat \omega$ in the [[ordinary differential cohomology]] of degree $k$ of $V$;
+* a [[compact support|compactly supported]] [[cocycle]] $\hat \omega$ in the [[ordinary differential cohomology]] of degree $k$ of $V$;
 
 * such that for each $x \in X$ we have 
   
@@ -61,7 +61,7 @@ For $X$ a [[compact space|compact]] [[smooth manifold]] and $V \to X$ a smooth r
 +-- {: .num_remark}
 ###### Remark
 
-The underlying class $[\hat \omega] \in H^{k}_{compact}(V, \mathbb{Z})$ in compactly supported [[integral cohomology]] is an ordinary [[Thom class]] for $V$.
+The underlying class $[\hat \omega] \in H^{k}_{compact}(V, \mathbb{Z})$ in [[compact support|compactly supported]] [[integral cohomology]] is an ordinary [[Thom class]] for $V$.
 
 =--
 
@@ -91,7 +91,7 @@ This appears as ([HopkinsSinger, def. 2.9](#HopkinsSinger)).
 
 ### Fiber integration
 
-Write $\mathbf{H}^n_{diff}(-)$ for the (a) [[cocycle]] [[∞-groupoid]] of [[ordinary differential cohomology]]. For either choice, there is a fairly evident fiber integration of compactly supported cocycles along trivial Cartesian bundles $Y \times \mathbb{R}^N \to Y$ over a [[compact space|compact]] $Y$:
+Write $\mathbf{H}^n_{diff}(-)$ for the [[cocycle]] [[∞-groupoid]] of [[ordinary differential cohomology]]. For any choice of presentation, there is a fairly evident fiber integration of [[compact support|compactly supported]] [[cocycles]] along trivial [[Cartesian space]] bundles $Y \times \mathbb{R}^N \to Y$ over a [[compact space|compact]] $Y$:
 
 $$
   \int_{\mathbb{R}^N} 
@@ -104,7 +104,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-Let $X \to Y$ be a smooth function equipped with differential $H\mathbb{Z}$-orientation $U$, def. \ref{DifferentialOrientation}. Then the corresponding **fiber integration** of ordinary differential cohomology is the composite
+Let $X \to Y$ be a [[smooth function]] equipped with differential $H\mathbb{Z}$-orientation $U$, def. \ref{DifferentialOrientation}. Then the corresponding **fiber integration** of ordinary differential cohomology is the composite
 
 $$
   \int_{X/Y} :
