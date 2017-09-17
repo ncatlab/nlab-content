@@ -95,3 +95,7 @@ $$d_0 \stackrel{1_{d_0}}{\to} (d_0 \to \ldots \to d_n)$$
 but the collection of such $d_0 \to \ldots \to d_n$ is the same as $nerve(C)_n$. This completes the verification.
 
 =--
+
+
+[[!redirects universal element]]
+[[!redirects univeral element]]
