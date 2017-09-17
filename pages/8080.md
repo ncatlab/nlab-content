@@ -53,6 +53,8 @@ Closed duals play a central role in [[six operations]] yoga, notably in
 
 ## Related concepts
 
+* [[dualizing object in a closed category]]
+
 * [[dual object]]
 
 * [[duality]]
