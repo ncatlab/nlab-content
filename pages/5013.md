@@ -30,7 +30,7 @@ Finite topological spaces are [[equivalence of categories|equivalent]] to finite
 +-- {: .num_theorem}
 ###### Theorem
 
-Finite topological spaces have the same _[[weak homotopy equivalence|weak]]_ [[homotopy type]] as finite [[simplicial complexes]] / finite [[CW-complexes]].
+Finite topological spaces have the same _[[weak homotopy equivalence|weak]]_ [[homotopy type]]s as finite [[simplicial complexes]] / finite [[CW-complexes]].
 
 =--
 
