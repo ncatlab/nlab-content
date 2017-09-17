@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-For $\mathcal{V} \in$ [[∞Grpd]], this should be [[equivalence of (∞,1)-categories|equivalent]] to ordinary [[(∞,1)-categories]].
+For $\mathcal{V} \in$ [[∞Grpd]], this should be [[equivalence of (∞,1)-categories|equivalent]] to ordinary [[(∞,1)-categories]]. This is for instance in ([Lurie, def. 4.2.1.12](#Lurie)).
 
 A construction that should be a model for this notion in terms of a [[model category]] presentation for $\mathcal{V}$ is discussed in ([Simpson](#Simpson)). For the case that $\mathcal{V} = $ [[∞Grpd]] [[presentable (∞,1)-category|presented]] by the standard [[model structure on simplicial sets]] this reproduces the notion of _[[Segal categories]]_. (See there for further details and references.) The iteration of this construction yields [[Segal n-categories]], a model for [[(∞,n)-categories]].
 
@@ -48,7 +48,7 @@ Once a model category $V$ for $\mathcal{V}$ has been chosen, one can consider [[
 
 * [[Segal category]], [[Segal n-category]]
 
-* [[enriched homotopical category]]
+* [[enriched homotopical category]], [[weak enrichment]]
 
 * [[internal category in an (∞,1)-category]]
 
@@ -58,6 +58,9 @@ Once a model category $V$ for $\mathcal{V}$ has been chosen, one can consider [[
 
 * [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([arXiv:1001.4071](http://arxiv.org/abs/1001.4071))
  {#Simpson}
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
 [[!redirects enriched (∞,1)-category]]
 [[!redirects enriched (∞,1)-categories]]
