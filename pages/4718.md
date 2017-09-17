@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _rng_ (terminology due to [Jacobson](#Jacobson)) is a [[ring]] 'without [[identity]] element' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but we usually require our rings to have identities.
+A _rng_ (terminology due to [Jacobson](#Jacobson)) is a [[ring]] 'without [[identity]] element' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but outside of traditional ring theory we more often require our rings to be unital (have identities).
 
 
 ## Definitions
@@ -190,8 +190,6 @@ where the term is attributed to Louis Rowen.
 
 ([[Bourbaki|Bourbaki 6, chapter 1]]) uses the term "pseudo-ring" instead, which however has not caught on and even if more sane, will be understood less than "rng".
 
-
-[[!redirects rng]]
 [[!redirects rngs]]
 
 [[!redirects nonunital ring]]
