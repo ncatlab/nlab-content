@@ -14,12 +14,22 @@
 * table of contents
 {:toc}
 
+## Idea 
+
+The concept of _analytic spectrum_ is a realization of the concept of [[spectrum (geometry)]] in the context of [[non-archimedean analytic geometry]]. Given an [[affinoid algebra]] $A$ over a [[non-archimedean field]], then the concept of [[spectrum of a commutative ring]] whose points are [[prime ideals]]/[[maximal ideals]] does not produce a sensible space that admits [[analytic geometry]]. Rather, instead of regarding points of the spectrum as ring homomorphisms to $A \to \mathbb{R}$, the analytic spectrum instead takes points to be multiplicative [[seminorms]] ${\vert -\vert} \colon A \to \mathbb{R}_{\geq 0}$ bounded by the norm on the given field.
+
+If $Spec_{an}(A)$ is the set of all such multiplicative seminorms, then for $x \in Spec_{an}(A)$ a point one writes the corresponding seminorm as ${\vert - \vert}_x$ and thinks of it as being the norm on the function algebra on $Spec(A)$ which is given by "evaluating functions at $x$ and then applying the field norm to that".
+
+One turns this $Spec_{an}(A)$ into a [[topological space]] in the usual way by choosing the weakest topology such that under this assignment the original elements of $A$ become [[continuous function]] on $Spec_{an}(A)$.
+
+Globalizing this analytic spectrum construction leads to the concept of [[Berkovich analytic space]].
+ 
 ## Definition
 
 For $A$ a [[normed ring]], its _analytic spectrum_ or _Berkovich spectrum_ $Spec_an A$ is the set of all non-zero multiplicative [[seminorms]] on $A$, regarded as a [[topological space]] when equipped with the weakest topology such that all [[functions]]
 
 $$
-  Spec_an A \to \mathbb{R}_+
+  Spec_{an} A \to \mathbb{R}_+
 $$
 
 of the form 
@@ -102,7 +112,7 @@ Introductory exposition of the Berkovich [[analytic spectrum]] includes
 
 * {#Poineau07} [[Jérôme Poineau]], _Global analytic geometry_, pages 20-23 in EMS newsletter September 2007 ([pdf](http://www.ems-ph.org/journals/newsletter/pdf/2007-09-65.pdf))
 
-* [[Frédéric Paugam]], section 2.1.4 of_Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
+* [[Frédéric Paugam]], section 2.1.4 of _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
 
 * {#Berkovich09} [[Vladimir Berkovich]], section 1 of _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
