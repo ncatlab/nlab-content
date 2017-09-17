@@ -11,8 +11,7 @@
 =--
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -126,9 +125,18 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[sub-quasi-category]]
 
+* [[opposite quasi-category]]
+
 * [[fibrations of quasi-categories]]
 
-* [[opposite quasi-category]]
+  * [[inner Kan fibration]]
+
+  * [[Cartesian fibration]]
+
+  * [[left Kan fibration]]/[[right Kan fibration]]
+
+  * [[minimal Joyal fibration]]
+
 
 
 
