@@ -274,6 +274,10 @@ A textbook directed at mathematicians and explaining the "classical" concept of 
 
 * Martin Schottenloher: _A mathematical introduction to conformal field theory_ (2nd edition, [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1161.17014&format=complete))
 
+A survey of some of the basic manipulationsin chiral CFT, motivated from a [[path integral]] perspective is at
+
+* [[Domenico Fiorenza]], _[[domenicofiorenza:Vertex algebras avant Borcherds]]_
+
 See also the references at [[vertex operator algebra]].
 
 
