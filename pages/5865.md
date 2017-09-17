@@ -3185,6 +3185,7 @@ $$
   \mathbf{H}(X, \mathbf{B}^n A)
 $$
 
+
 in [[∞Grpd]]. This implies the [[short exact sequence]] using that 
 by construction the last morphism is surjective on connected components (because in the defining $(\infty,1)$-pullback for $\mathbf{H}_{diff}$ the right vertical morphism is by assumption surjective on connected components).
 
@@ -3909,3 +3910,5 @@ For formalizations of some structures in cohesive $(\infty,1)$-toposes in terms 
 [[!redirects cohesive (∞,1)-topos -- structures]]
 
 [[!redirects structures in a cohesive (∞,1)-topos]]
+
+[[!redirects structures in a cohesive infinity-topos]]
