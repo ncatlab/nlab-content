@@ -1,4 +1,6 @@
 <div class="rightHandSide toc">
+[[!include manifolds and cobordisms - contents]]
+***
 [[!include cohomology - contents]]
 </div>
 
@@ -8,9 +10,9 @@
 
 ## Definition
 
-_Complex cobordism cohomology theory_, denoted $M U$, is a [[generalized (Eilenberg-Steenrod) cohomology]] theory. 
+_Cobordism cohomology theory_, denoted $M O$ for _oriented cobordism cohomology_ , $M U$ for _complex cobordism cohomology_  etc, is the [[generalized (Eilenberg-Steenrod) cohomology]] theory represented by the [[Thom spectrum]].
 
-Its representing [[spectrum]], also denoted $M U$
+This spectrum, also denoted $M U$
 is the [[spectrum]] is in degree $2 n$ given by the [[Thom space]] of the [[vector bundle]] that is  [[associated bundle|associated]] by the defining [[representation]] of the [[unitary group]] $U(n)$ on $\mathbb{C}^n$ to the [[generalized universal bundle|universtal]] $U(n)$-[[principal bundle]]:
 
 $$
@@ -45,11 +47,16 @@ this is the universal even periodic cohomology theory with orientation
 
 The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universal coefficient ring for [[formal group law]]s.
 
-## Related entries
+## Differential cohomology refinement
+
+The refinement of cobordism cohomology theory to [[differential cohomology]] is [[differential cobordism cohomology]].
+
+## References
 
 for further context see the discussion at
 
-* [[A Survey of Elliptic Cohomology - cohomology theories]]
+* _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
 [[!redirects complex cobordism spectrum]]
+[[!redirects complex cobordism cohomology theory]]
 [[!redirects complex cobordism]]
