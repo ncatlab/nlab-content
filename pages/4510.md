@@ -1,14 +1,39 @@
-In [[homological algebra]] $Ext$ is one of the most important (bi)functors. 
 
-Given an **abelian category** $A$ the bifunctor $Hom_A : A^{op}\times A\to Ab$ can be considered as a functor either in first or in second variable, and compute the corresponding right derived functors. If they exist, the classical right derived functors of either functor agree and also agree with the homology of the mixed double complex obtained by taking simultaneously an injective [[resolution]] of the first contravariant argument and projective resolution of the second covariant argument. The last construction is called the balanced $Ext$.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
 
-Alternatively, one can consider the derived category and define 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+In the context of [[homological algebra]] the right [[derived functor]] of the [[hom-functor]] is called the _$Ext$-functor_ . It derives its name from the fact that the derived hom $Ext(A,K)$ between [[abelian group]]s classifies [[group extension]]s of $A$ by $K$. 
+
+(This is really a special case of the general discussion at [[cohomology]] and [[group cohomology]].)
+
+Together with the [[Tor]]-functor it is one of the central objects of interst in homological algebra.
+
+## Details
+
+Given an [[abelian category]] $A$ we may consider the [[hom-functor]] $Hom_A : A^{op}\times A\to Ab$ either as a functor in first or in second variable, and compute the corresponding right [[derived functor]]s. If they exist, the classical right derived functors of either functor agree and also agree with the [[homology]] of the mixed [[double complex]] obtained by taking simultaneously an injective [[resolution]] of the first contravariant argument and projective resolution of the second covariant argument. The last construction is called the balanced $Ext$.
+
+Alternatively, one can consider the [[derived category]] $D(A)$ and define 
 
 $$
 Ext^i(M,N) := Hom_{D(A)}(M,N[i])
 $$
 
 or define $Ext^i$-groups as groups of extensions of length $i$. 
+
+## References
 
 * H. Cartan, S. Eilenberg, _Homological algebra_, Princeton Univ. Press 1956.
 
@@ -17,3 +42,12 @@ or define $Ext^i$-groups as groups of extensions of length $i$.
 * S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
 
 * [[Charles Weibel]], _An introduction to homological algebra_,  Cambridge Studies in Adv. Math. 38, CUP 1994
+
+[[!redirects Ext group]]
+[[!redirects Ext-group]]
+[[!redirects Ext-groups]]
+[[!redirects Ext groups]]
+[[!redirects Ext functor]]
+[[!redirects Ext functors]]
+[[!redirects Ext-functor]]
+[[!redirects Ext-functors]]
