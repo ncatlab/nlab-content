@@ -133,13 +133,18 @@ $$
   g : X \to F_{\mathcal{S}}
 $$
 
-(in this setup simply by the [[2-Yoneda lemma]]) and the characteristic class $[c(g)]$ of that bundle is the bullback of that universal class $c$, hence the class represented by the composite
+(in this setup simply by the [[2-Yoneda lemma]]) and the characteristic class $[c(g)]$ of that bundle is the bullback of that [[universal characteristic class|universal class]] $c$, hence the class represented by the composite
 
 $$
   c(g) : X \stackrel{g}{\to} F_{\mathcal{S}} \stackrel{c}{\to} H
   \,.
 $$
 
+## Related concepts
+
+* [[universal characteristic class]];
+
+* [[differential characteristic class]]
 
 ## References
 
