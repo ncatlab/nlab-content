@@ -1929,12 +1929,12 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \Pi X &\to& & Q
+    \Pi X &\to & Q
   }
   \,,
 $$
 
-were on the right we have inserted the [[cone]] on $\Gamma X$ in order to turn the top morphism into a cofibration. From this ordinary pushout it is clear that the connected components of $Q$ are obtained from those of 
+where on the right we have inserted the [[cone]] on $\Gamma X$ in order to turn the top morphism into a cofibration. From this ordinary pushout it is clear that the connected components of $Q$ are obtained from those of 
 $\Pi X$ by identifying all those
 in the image of a connected component of $\Gamma X$. So if the left morphism is surjective on
 $\pi_0$ then $\pi_0(Q) = *$. This is precisely the condition that 
@@ -1981,7 +1981,7 @@ In analogy to how a cocycle $\nabla : \mathbf{\Pi}(X) \to \mathbf{B}G$ in
 $H^1_{\mathrm{flat}}(X,G)$ may be interpreted as 
 encoding $G$-valued parallel tranport over paths in $X$, a cocycle
 $\omega : \mathbf{\Pi}_{\mathrm{dR}}(X) \to \mathbf{B}G$ may be interpreted as
-encoding parallel transport over \emph{infinitesimal} paths in $X$. We may think
+encoding parallel transport over _infinitesimal_ paths in $X$. We may think
 of factoring through objects $\mathbf{B}\mathfrak{g} \to \mathbf{B}G$ of infinitsimal
 elements of $G$. These we identify with the intrinsic notion of $\infty$-Lie algebras
 in $\mathbf{H}$.
