@@ -23,12 +23,30 @@ Historically, it was an approximation to the true time evolution that was origin
 In view of this, quantization is often understood as a [[retraction|right inverse]] to the procedure that sends the full quantum dynamics to its [[classical limit]].
 
 
-## Related entries and references
+## Related entries 
 
-* [[geometric quantization]], [[deformation quantization]], [[semiclassical approximation]], [[BV-BRST formalism]]
-* [[path integral]], [[exercise in groupoidification - the path integral]]
+* [[reductions deformations resolutions in physics]]
 
-* [[quantization via the A-model]]
+  * **quantization**
+
+    * [[deformation quantization]]
+
+    * [[geometric quantization]]
+
+    * [[path integral]]
+
+    * [[semiclassical approximation]]
+
+    * [[quantization via the A-model]]
+
+  * [[gauge transformation]]
+
+    * [[BV-BRST formalism]]
+
+  * [[perturbation theory]]
+
+## References 
+
 
 A general geometrically inclined introduction can be found in 
 
