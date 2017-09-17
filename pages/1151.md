@@ -420,6 +420,8 @@ Classes of special cases of cohomologies with their own entries include
 
     * [[de Rham cohomology]]
 
+    * [[Dolbeault cohomology]]
+
   * [[etale cohomology]]
 
   * [[crystalline cohomology]]
