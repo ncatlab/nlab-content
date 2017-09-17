@@ -1,0 +1,34 @@
+
+
+## Related concepts
+
+* [[chromatic homotopy theory]]
+
+## References
+
+Lecture 21 of 
+
+* [[Jacob Lurie]], _Morava E-theory and Morava K-theory_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+ {#LurieLecture}
+
+---
+[arXiv:0910.1132](http://front.math.ucdavis.edu/0910.1132) Explicit non-abelian Lubin-Tate theory for GL(2)
+from arXiv Front: math.AG by Jared Weinstein
+Let $F$ be a non-Archimedean local field with residue field $k$ of odd
+characteristic, and let $B/F$ be the division algebra of rank 4. We explicitly
+construct a stable curve $\mathfrak{X}$ over the algebraic closure of $k$
+admitting an action of $GL_2(F)\times B^\times \times W_F$ which realizes the
+Jacquet-Langlands correspondence and the local Langlands correspondence in its
+cohomology.
+
+[arXiv:0911.5238](http://front.math.ucdavis.edu/0911.5238) Continuous homotopy fixed points for Lubin-Tate spectra
+from arXiv Front: math.AT by Gereon Quick
+We construct a stable model structure on profinite symmetric spectra with a
+continuous action of an arbitrary profinite group. This provides a natural
+framework for a new construction of homotopy fixed point spectra and of
+homotopy fixed point spectral sequences for the action of the extended Morava
+stabilizer group on Lubin-Tate spectra. These continuous homotopy fixed points
+are canonically equivalent to the homotopy fixed points of Devinatz and Hopkins
+but have a drastically simplified construction.
+
+nLab page on [[nlab:Lubin-Tate theory]]
