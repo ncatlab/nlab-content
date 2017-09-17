@@ -1,0 +1,10 @@
+
+A [[logical framework]].
+
+## Related concepts
+
+* [[Elf]]
+
+* [[Twelf]]
+
+[[!redirects ELF]]
