@@ -60,6 +60,8 @@ Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set
 
 Examples appear at 
 
+* [[star-autonomous category]]
+
 * [[Chu construction]]
 
 * [[rational homotopy theory]]
