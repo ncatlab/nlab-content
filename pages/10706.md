@@ -30,6 +30,21 @@ By the [[Brown representability theorem]] this defines a [[spectrum]] and the sp
 
 ## Statement
 
+By evaluation on $X = B U(1)$, every [[multiplicative cohomology theory|multiplicative]] [[complex oriented cohomology theory]] $E$ gives rise to a [[formal group]] over the [[graded ring]] $\pi_\bullet(E)$.
+
+Conversely, given a formal group $F$ over a [[graded ring]] $R$, one can ask whether this arises from some $E$ in this way. 
+
+Now since the [[Lazard ring]] $L$ classifies formal groups in that $F$ is equivalently given by a [[ring]] [[homomorphism]] $L \longrightarrow R$ and since moreover $L$ is the [[cohomology ring]] of [[complex oriented cohomology theory]] $L \simeq MU_\bullet(\ast)$, one can consider the functor
+
+$$
+  X \mapsto E_\bullet(X) \coloneqq MU_\bullet(X) \underset{L}{\otimes} R
+  \,.
+$$
+
+By construction this is such that $E_\bullet(\ast) \simeq R$. But this functor may fail to satisfy the axioms of a [[generalized homology theory]], hence may fail to be [[Brown representability theorem|Brown represented]] by an actual [[spectrum]] $E$.
+
+Landwever exactness is a sufficient condition on $R$ for $MU_\bullet(-)\otimes_L R$ to be indeed a generalized homology theory
+
 (...)
 
 ([Lurie, lect 15, theorem 9](#LurieLecture15))
