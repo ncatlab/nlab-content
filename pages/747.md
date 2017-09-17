@@ -254,7 +254,8 @@ For general $C$, there is still a whole family of model structures on $[C^{op}, 
 
   a review in on [p. 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=12) of [Field Lectures: Simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf)
 
-### Dependency on the underlying site
+
+### Dependency on the underlying site {#DependencyOnSite}
 
 
 +-- {: .un_prop #SiteDependence}
@@ -281,6 +282,47 @@ This is "little fact 5)" on page 10, 11 of ([JardineLectures](#JardineLecture)).
 
 =--
 
+
++-- {: .un_prop}
+###### Proposition
+
+
+Let $C$ be a [[site]] and $f : D \hookrightarrow$ a [[full subcategory|full]] [[dense sub-site]]. Then right [[Kan extension]] $f_* : [D^{op}, sSet] \to [C^{op}, sSet]$ along $f$ yields a [[simplicial Quillen adjunction]]
+
+$$
+  (f^* \dashv f_*) 
+   : 
+  [D^{op}, sSet]_{inj,loc} \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} 
+  [C^{op}, sSet]_{inj,loc}
+$$
+
+between the [[Bousfield localization of model categories|left Bousfield localizations]] of the projective model structures at the [[sieve]] inclusions $S(\{U_i\}) \to U$ for each [[covering]] family $\{U_i \to U\}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is immediate that we have a simplicial Quillen adjunction on the global injective model structure: by definition of right [[Kan extension]] we have an [[sSet]]-[[adjunction]] and the [[left adjoint]] restriction functor $f^*$ trivially preserves injective cofibrations and acyclic cofibrations.
+
+Since we have [[left proper model categories]] it is  sufficient (by the discussion at <a href="http://nlab.mathforge.org/nlab/show/simplicial%20Quillen%20adjunction#Recognition">recognition of simplicial Quillen adjunctions</a>) for deducing that the Quillen adjunction descends to the local strucuture to check that $f_*$ preserves locally fibrant objects, which in turn by properties of [[Bousfield localization of model categories|left Bousfield localization]] is equivalent to checking that $f^*$ sends covering sieve inclusions to weak equivalences in $[D^{op}, sSet]_{proj,loc}$.
+
+By the [result on generalized covers](#GeneralizedCover), for this it is sufficient to check that for every covering sieve $S(\{U_i\}) \to X$ and every representable $K \in D$ and morphism $K \to f^* X$, there is a [[covering]] $\{K_j \to K\}$ in $D$ and local lifts
+
+$$
+  \array{
+    K_j &\to& f^*(S(\{U_i\}))
+    \\
+    \downarrow && \downarrow
+    \\
+    K &\to& f^* X
+  }
+  \,.
+$$
+
+This follows directly from the single defining condition on a [[coverage]] on $C$.
+
+=--
 
 
 ## Fibrant and cofibrant objects {#FibAndCofibObjects}
@@ -487,7 +529,7 @@ $$
 
 The following definition and proposition provides information on what the general morphisms are which become weak equivalences after localization at 
 
-+-- {: .un_def}
++-- {: .un_def #GeneralizedCover}
 ###### Defintion
 
 Let $C$ be a [[site]]. A **[[local epimorphism]]** (or **generalized cover**) in $sPSh(C)$ is a morphism $f : E \to B$ of simplicial presheaves with the property that for every [[nab:representable functor|representable]] $U$ and every morphism $j(U) \to B$ there exists a [[covering]] [[sieve]] $\{U_i \to U\}$ such that for every $U_i \to U$ the composite $U_i \to U \to B$ has a lift $\sigma$ through $f$ 
@@ -674,6 +716,8 @@ In total this shows that the localization at the [[coverage]] produces the [[top
 
 
 =--
+
+
 
 
 ## Closed monoidal structure {#MonoidalStructure}
