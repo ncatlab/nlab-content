@@ -16,7 +16,7 @@ Alternatively, a sesquicategory may be given as a category $C$ together with a f
 
 ## Remarks
 
-A [[premonoidal category]] is the same as a sesquicategory with exactly one object.
+A strict [[premonoidal category]] is the same as a sesquicategory with exactly one object.
 
 A [[Gray-category]] does not have an underlying [[strict 2-category]], but it does have an underlying strict sesquicategory.  Thus, if one wants to define Gray-[[computads]], it is natural to work with "sesqui-computads" as a partway stage; see for instance [[toddtrimble:Surface diagrams]]
 
