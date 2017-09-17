@@ -25,6 +25,7 @@ For instance, a [[category]] can be presented by a [[simplicial set]], but [[iso
 
 The ideas here generalize in many directions.  For example, not only properties, but also constructions involving categories and functors, can fail to preserve equivalences.  
 
+
 ## Terminology
 {#terminology}
 
@@ -35,6 +36,7 @@ The ideas here generalize in many directions.  For example, not only properties,
 * A very precise way of stating this idea is encapsulated in [[Vladimir Voevodsky]]'s [[univalence axiom]], which is a fundamental part of [[homotopy type theory]] as a [[foundation]] for mathematics.  By identifying equivalences/isomorphisms with inhabitants of an [[identity type]], it ensures that all properties and structure which can be expressed within the formal [[type theory]] are invariant under such.
 
 * Floating around the web (and maybe the $n$Lab) is the idea of half-jokingly referring to a breaking of equivalence invariance as "evil". This is probably meant as a pedagogical way of amplifying that it is to be avoided.
+
 
 ## Motivation
 
@@ -58,7 +60,6 @@ Now let us move from the foundations of [[set theory]] to those of [[category th
 We can found mathematics on type theory without identity types, and then it is literally true that (in general) it makes no sense to compare objects of a given type for equality; one has to *define* a relevant equality predicate when there is one.  From the other direction, we can found mathematics on (weak) $\infty$-[[infinity-groupoid theory|groupoid theory]] (as in [[homotopy type theory]]), where the automatic notion of equality between object of a category is actually only isomorphism.
 
 However, these are not commonly used foundations.  Therefore, category theory is usually written in a language in which it does literally make sense to ask whether two objects of a given category are equal (meaning something stronger than that they are isomorphic), whether two functors between two given categories are equal, etc.  If we want these definitions to make sense in the general mathematical situation (where $Set$ is an example of a category, even though comparing two arbitrary sets for equality makes no mathematical sense), then we need to check that our definitions are compatible with the principle of equivalence.
-
 
 
 ## General definition
@@ -184,11 +185,15 @@ _Toby_:  I did the diagrams a bit, but I don\'t have any more time for a complet
 
 ### In physics
 
+Since [[Hilb]] and [[nCob]] are [[dagger-categories]], the discussion [above](#daggers) is relevant, particularly for [[TQFT]].
+
+
 #### In gauge theory
 
 See at
 
 * [[gauge transformation]], [[gauge equivalence]], [[gauge invariance]]
+
 
 #### In gravity
 
@@ -196,10 +201,11 @@ See at
 
 * [[general covariance]]
 
+
 ## How to break equivalence-invariance
 {#Breaking}
 
-> Or: just because it looks equivalence-breaking doesn\'t mean that it really is.
+> Or: just because it looks evil doesn\'t mean that it really is.
 
 Just as we can make use of [[basis|bases]] in [[linear algebra]], so we may make use of [[strict categories]] to discuss [[category theory]].  Philosophically, the concept of strict category is not in itself a breaking of equivalence-invariance; what does break equivalence-invariance is to say that $Set$ (and other well-known categories such as [[Grp]], etc) *are* strict categories.  Mathematically, strict categories form a $1$-[[1-groupoid|groupoid]] $Str Cat_\sim$ that is different from the $2$-[[2-groupoid|groupoid]] $Cat_\sim$, but there is still a canonical [[pseudo functor]] from $Str Cat_\sim$ to $Cat_\sim$ that we may find useful.
 
@@ -208,15 +214,12 @@ Much as the [[axiom of choice]] tells us that every vector space has a basis, so
 Perhaps the extreme case of this is using [[model categories]] to study [[homotopy theory]], which is (from the [[nPOV]]) really about $(\infty,1)$-[[(infinity,1)-category|categories]].  Even if model categories are not taken to be strict categories, they still form a $2$-groupoid and thus are still far more strict than $(\infty,1)$-categories, which only form an $\infty$-[[infinity-groupoid|groupoid]].  Nevertheless, they are quite useful (at least assuming the axiom of choice?).
 
 
-
-
 ## References
  {#References}
 
 A discussion of the principle of equivalence in the very [[foundations]] of mathematics by replacing [[ZFC]] by [[homotopy type theory]] is in
 
 * [[Vladimir Voevodsky]], _Foundations/formalization of mathematics and homotopy theory_, talk at IAS ([video](http://video.ias.edu/node/68))
-
 
 
 [[!redirects principle of isomorphism]]
