@@ -471,7 +471,7 @@ The desired left adjoint $f_!$ takes an algebra $\theta: S X \to X$ to the [[ref
 
 $$T S X \stackrel{\overset{(\mu_T \circ T f)X}{\to}}{\underset{T\theta}{\to}} T X \stackrel{\pi}{\to} T \otimes_S X$$ 
 
-in the category of $T$-algebras, where $\mu_T: T T \to T$ is the monad multiplication. The coequalizer is denoted $T \otimes_S X$ to emphasize the analogy with pushing forward $S$-modules $X$ along a ring homomorphism $f: S \to T$ to get $T$-modules; the proof below is an arrow-theoretic transcription of the usual proof of the adjunction between pushing out and pulling back in the context of rings and modules. 
+in the category of $T$-algebras, where $\mu_T: T T \to T$ is the monad multiplication. The coequalizer is denoted $T \otimes_S X$ to emphasize the analogy with pushing forward $S$-modules $X$ along a ring homomorphism $f: S \to T$ to get $T$-modules; the proof below is an arrow-theoretic transcription of the usual proof of the adjunction between pushing forward and pulling back in the context of rings and modules. 
 
 A finitary monad $T$ [preserves reflexive coequalizers](http://ncatlab.org/nlab/show/reflexive+coequalizer#applications_4), so that there is a canonical isomorphism 
 
