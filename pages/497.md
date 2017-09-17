@@ -38,7 +38,7 @@ The proof is as follows.  If $p$ is a truth value, then divide $\{0,1\}$ by the 
 
 On the other hand, if PEM holds, then we can show by induction that if $A$ and $B$ are choice, so is $A\sqcup B$ (add details).  Thus, all finite sets are choice.  Now if $n\to A$ is a surjection, exhibiting $A$ as finitely indexed, it has a section $A\to n$.  Since a finite set is always projective, and any retract of a projective object is projective, this shows that $A$ is projective.
 
-In particular, the axiom of choice implies PEM.  This argument, due originally to Diaconescu, can be internalized in any [[topos]]. However, other weak versions of choice such as [[countable choice]] (any surjection to a countable set (which for this purpose is any set isomorphic to the set of natural numbers) has a section), [[dependent choice]], or even [[COSHEP]] do not imply PEM. In fact, it is often claimed that axiom of choice is *true* in constructive mathematics (by the BHK interpretation of predicate logic), leading to much argument about exactly what that means.
+In particular, the axiom of choice implies PEM.  This argument, due originally to Diaconescu, can be internalized in any [[topos]]. However, other weak versions of choice such as [[countable choice]] (any surjection to a countable set (which for this purpose is any set isomorphic to the set of natural numbers) has a section), [[dependent choice]], or even [[COSHEP]] do not imply PEM. In fact, it is often claimed that axiom of choice is *true* in constructive mathematics (by the BHK or [[Brouwer-Heyting-Kolmogorov interpretation]] of predicate logic), leading to much argument about exactly what that means.
 
 
 category: foundational axiom
