@@ -21,7 +21,7 @@ A **link** is a generalisation of a [[knot]] where one is allowed more than one 
 
 +-- {: .num_defn #link}
 ###### Definition
-A **link** is an [[embedding]] of a finite number of copies of the [[circle]].  The embedding is usually taken in $\mathbb{R}^3$, or its one-point [[compactification]], $S^3$.
+A **link** is an [[embedding]] of a finite number of copies of the [[circle]].  The embedding is usually taken in $\mathbb{R}^3$, or its [[one-point compactification]], $S^3$.
 =--
 
 It is possible to generalise this to more varied sources and targets.
@@ -77,6 +77,12 @@ This is an example of a link that shows the difference between the two notions o
   <path transform="rotate(180, 446.51, 276.961)" id="svg_15824_17" d="m330.018829,338.553772c-1.166687,-79.765991 45.916992,-125.069305 123.374969,-123.127701c77.458008,1.941696 78.291992,75.620682 109.625,105.620682" stroke-width="12" stroke="#ff9400" fill="none"/>
  </g>
 </svg>
+
+#### Brunnian Links ####
+
+A _Brunnian link_ is a non-trivial link which has the property that the removal of any of its components results in an unlink.  The Borromean rings above are an example of a Brunnian link.  Whether or not the Hopf link is will hopefully be decided by the answers to [this MO question](http://mathoverflow.net/questions/40724/is-the-hopf-link-a-brunnian-link).
+
+
 
 ## References ##
 
