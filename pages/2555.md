@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
-[[!include homotopy - contents]]
-</div>
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Homotopy Theory
++-- {: .hide}
+[[ !include homotopy - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -55,3 +62,5 @@ If $C$ has the structure of a [[model category]] then one usually demands moreov
 * [[path space object]]
 
 [[!redirects cylinder objects]]
+[[!redirects cylinder]]
+[[!redirects cylinders]]
