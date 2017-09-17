@@ -33,7 +33,7 @@ which is natural with respect to $X$ and has the following properties.
 $$H_*(T X;A)\cong H_*(X;A),\;\;  H^*(T X;A)\cong H^*(X;A)$$ 
 for every local coefficient system $A$ on $X$, and 
 
-(ii) $\pi_i\;(T X)$ is trivial for $i\neq 1$ and $t X$ is onto.
+(ii) $\pi_i\;(T X)$ is trivial for $i\neq 1$ and $\pi_1\;t X$ is onto.
 
 Furthermore the [[homotopy type]] of $X$ is completely determined by the pair of groups $(G_X, P_X)$ where 
 $G_X  = \pi_1T X,\;\; P_X = ker\;\pi_1t X$ and $P_X$ is a 
