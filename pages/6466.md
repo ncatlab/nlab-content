@@ -22,9 +22,9 @@ More generally, we can define a real numbers object (RNO) in any category with s
 
 ## Definition
 
-Let $\mathcal{E}$ be a [[Heyting category]].  (This means, in particular, that every [[subobject poset]] has full [[first-order logic|first-order]] [[intuitionistic logic]].)  A (located Dedekind) __real numbers object__ in $\mathcal{E}$ is a [[ring object]] in $\mathcal{E}$ that satisfies (in the [[internal logic]]) the axioms of a [[Dedekind-complete]] [[linearly ordered]] [[Heyting field]].
+Let $\mathcal{E}$ be a [[Heyting category]].  (This means, in particular, that every we can interpret full [[first-order logic|first-order]] [[intuitionistic logic]] using the [[stack semantics]].)  A (located Dedekind) __real numbers object__ in $\mathcal{E}$ is a [[ring object]] in $\mathcal{E}$ that satisfies (in the [[internal logic]]) the axioms of a [[Dedekind-complete]] [[linearly ordered]] [[Heyting field]].
 
-In detail, a _commutative ring object_ in $\mathcal{E}$ is an object $R$ equipped with morphisms $0\colon \mathbf{1} \to R$, ${-}\colon R \to R$, ${+}\colon R \times R \to R$, $1\colon \mathbf{1} \to R$, and ${\cdot}\colon R \times R \to R$ (where $\mathbf{1}$ is the [[terminal object]] of $\mathcal{E}$ and $\times$ is the [[product]] operation) that make certain diagrams commute.  (These diagrams may be found at [[ring object]], in principle, although right now they\'re not there.)
+In detail, a _commutative ring object_ in $\mathcal{E}$ is an object $R$ equipped with morphisms $0\colon \mathbf{1} \to R$, ${-}\colon R \to R$, ${+}\colon R \times R \to R$, $1\colon \mathbf{1} \to R$, and ${\cdot}\colon R \times R \to R$ (where $\mathbf{1}$ is the [[terminal object]] of $\mathcal{E}$ and $\times$ is the [[product]] operation in $\mathcal{E}$) that make certain diagrams commute.  (These diagrams may be found at [[ring object]], in principle, although right now they\'re not there.)
 
 Given a commutative ring object $R$ in $\mathcal{E}$, we define a [[binary relation]] $\#$ on $R$ (that is a [[subobject]] of $R \times R$) as
 $$ \{ (x,y)\colon R \times R \;|\; \exists z\colon R.\, x \cdot z = y \cdot z + 1 \} ,$$
@@ -41,7 +41,7 @@ A (linearly) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equip
 *  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \lt y \implies x + z \lt y + z)$,
 *  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge 0 \lt z) \implies x \cdot z \lt y \cdot z)$.
 
-Given an ordered field object $R$ in $\mathcal{E}$, any object $\Gamma$ in $\mathcal{E}$, and subobjects $L$ and $U$ of $\Gamma \times R$, we say that $(L,U)$ is a _Dedekind cut_ in $R$ parametrised by $\Gamma$ if the following axioms hold:
+Given an ordered field object $R$ in $\mathcal{E}$, any object $\Gamma$ in $\mathcal{E}$, and subobjects $L$ and $U$ of $\Gamma \times R$, we say that $(L,U)$ is a _Dedekind cut_ in $R$ (parametrised by $\Gamma$) if the following axioms hold:
 *  $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in L$,
 *  $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in U$,
 *  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, ((x \lt y \wedge (a,y) \in L) \implies (a,x) \in L)$,
@@ -91,7 +91,7 @@ If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$, then there is
 Any Heyting category with an RNO must also have a [[natural numbers object]] (NNO).  Thus in a topos, or in more general categories as in the other constructions below, the existence of an RNO is equivalent to the existence of an NNO.
 +-- {: .un_thm}
 ###### Theorem
-If $R$ is an RNO in a Heyting category, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and ${-} + 1\colon N \to N$.
+If $R$ is an RNO in a Heyting category, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and $({-}) + 1\colon N \to N$.
 =--
 +-- {: .proof}
 ###### Proof
@@ -185,20 +185,20 @@ This allows us to define various further constructions on $X$ in internal terms 
 
 ## Generalizations
 
-It is also possible to define the notion of a [[Cauchy real number]] object and construct one in any $\Pi$-pretopos with an NNO, but as the internal logic in general lacks [[weak countable choice]], these are usually inequivalent.
+It is also possible to define the notion of a [[Cauchy real number]] object and construct one in any $\Pi$-pretopos with an NNO, but as the internal logic in general lacks [[weak countable choice]], these are usually inequivalent.  (There is also potentially a difference between the *classical* Cauchy RNO and the *modulated* Cauchy RNO; see definitions at [[Cauchy real number]], to be interpreted in the [[stack semantics]].)
 
 
 ## Related concepts
 
-* [[natural numbers object]]
+* [[natural number]], [[natural numbers object]]
 
-* [[Dedekind cut]]
+* [[real number]], **real numbers object]]**
 
 
 ## References
 
 * [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MM94}
+  {#MM94}
 
 
 [[!redirects real numbers object]]
