@@ -1,7 +1,7 @@
 
-Many very different things in mathematics are called _spectrum_ or _spectral_ or the like. This entry is about the notion of spectrum in [[stable homotopy theory]]. Other meanings are instances of [[spectral theory]] including
+Many very different things in mathematics are called _spectrum_ or _spectral_ or the like. This entry is about the notion of spectrum in [[stable homotopy theory]]. Most other meanings are instances of [[spectral theory]] including
 
-* [[spectrum of an operator]], spectra of families, of a Banach algebra, prime (primitive etc.) spectrum of a commutative or noncommutative ring, [[spectrum of an abelian category]] etc.
+* [[spectrum of an operator]], spectra of families, of a Banach algebra, prime (primitive etc.) spectrum of a commutative or noncommutative ring, [[spectrum of an abelian category]], [[Orlov spectrum]] of a triangulated category etc.
 
 There is also a notion of 
 
@@ -158,9 +158,8 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 Surveys include
 
-* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
-
-
-* [[John Greenlees]], _Spectra for commutative algebraists_ ([arXiv:math/0609452](http://arxiv.org/abs/math/0609452))
-
+* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_, [pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf)
+* [[John Greenlees]], _Spectra for commutative algebraists_, [arXiv:math/0609452](http://arxiv.org/abs/math/0609452)
+* [[Stefan Schwede]], _An untitled book project
+about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/~schwede/SymSpec.dvi), [pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf)
 [[!redirects spectra]]
