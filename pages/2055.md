@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -51,6 +50,10 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
 
 * [eom.springer.de](http://eom.springer.de) -- free online access to 8000 entries of Springer online Encyclopeadia of Mathematics 
+
+* [Geometry Gems](http://GeometryGems.wikispaces.com) -- Resources for geometry teachers
+
+* [GreenApples](http://GreenApples.wikispaces.com) -- Resources for new math teachers teachers
 
 * [Liber Mathematicae](http://www.libermath.org) -- site under construction, featuring a new free online journal and some expositional math resources
 
@@ -213,6 +216,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Musings Mathematical and Otherwise](http://edwardfhughes.wordpress.com) (Edward Hughes - Algebraic Geometry and String Theory)
 
 * [My research in geometry](http://alekskleyn.blogspot.com/) (Aleks Kleyn)
+
+* [NAPmath - math and technology in education] (http://NAPmath.wordpress.com)
 
 * [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com) (PhD student in quantum information -- last update July 2011)
 
