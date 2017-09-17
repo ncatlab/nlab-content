@@ -224,8 +224,13 @@ This is ([Lurie, lemma 4.3.6.9 (3)](#Lurie)).
 
 Here are some steps in the construction:
 
+
+
 +-- {: .num_defn #NotationForTensS}
 ###### Definition (Notation)
+
+Write $Tens^\otimes$ for the [[generalized (∞,1)-operad]]
+discussed at _[[tensor product of ∞-modules]]_.
 
 For $S \to \Delta^{op}$ an [[(∞,1)-functor]] (given as a map of simplicial sets from a [[quasi-category]] $S$ to the [[nerve]] of the [[simplex category]]), write
 
@@ -235,8 +240,7 @@ $$
   Tens^\otimes \underset{\Delta^{op}}{\times} S
 $$ 
 
-for the [[fiber product]] in [[sSet]], where $Tens^\otimes$
-is as defined at _[[bilinear map in an (∞,1)-category]]_.
+for the [[fiber product]] in [[sSet]].
 
 Moreover, for $\mathcal{C}^\otimes \to Tens^\otimes_S$ a [[fibration]] in the [[model structure for quasi-categories]] which exhibits $\mathcal{C}^\otimes$ as an $S$-[[family of (∞,1)-operads]], write
 
