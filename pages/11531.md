@@ -1,0 +1,16 @@
+
+
+
+
+## References
+
+* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _On the non-existence of elements of Kervaire invariant one_
+
+On the [[equivariant homotopy theory]] involved:
+
+* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
+
+More resources are collected at
+
+* [[Douglas Ravenel]], _[A solution to the Arf-Kervaire invariant problem](http://www.math.rochester.edu/people/faculty/doug/kervaire.html)_, web esources 2009
+
