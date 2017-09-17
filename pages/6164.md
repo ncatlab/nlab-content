@@ -31,3 +31,7 @@ Volume 9, Issue 1 & 4, 1986, Pages 29 - 54
 [[!redirects generalized homology theory]]
 [[!redirects generalized homology theories]]
 
+[[!redirects homology theory]]
+[[!redirects homology theories]]
+
+[[!redirects generalized homologies]]
