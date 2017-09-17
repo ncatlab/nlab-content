@@ -293,7 +293,9 @@ On $\mathcal{E}$ a [[elementary topos]] with [[Lawvere-Tierney topology]] $j$ co
 
 * **Axiom 1**. $j$ is [essential](#EssentialTopology).
 
-* **Axiom 2**. Every object is a [[subquotient]] of a [discrete object](#DiscreteObjects).
+* **Axiom 2 a**. There is an object $G \in \mathcal{E}$ such that every object is a [[subquotient]] of the [[product]] of a [discrete object](#DiscreteObjects) with $G$.
+
+* **Axiom 2 b**. With $G$ as above, there is a discrete object $G'$ and an [[epimorphism]] $G' \to \flat G$.
 
 * **Axiom 3**. For all [discrete object](#DiscreteObjects) $D$, if the [[internal hom]] $[X,D]$ is  [o-discrete](#ODiscreteObjects), then $X$ is also discrete.
 
@@ -304,11 +306,13 @@ On $\mathcal{E}$ a [[elementary topos]] with [[Lawvere-Tierney topology]] $j$ co
 +-- {: .num_theorem }
 ###### Theorem
 
-(...)
+These axioms characterize local geometric morphisms $\mathcal{E} \to Sh_j(\mathcal{E}) \simeq D_j(\mathcal{E})$.
+
+If $G$ is fixed to be the terminal object (in which case Axiom 2 b becomes empty), then they characterize local and [[localic geometric morphisms]].
 
 =--
 
-
+This is ([Awodey-Birkedal, theorem 3.1](#AwodeyBirkedal)) together with the discussion around remark 3.7.
 
 ## Examples
 
