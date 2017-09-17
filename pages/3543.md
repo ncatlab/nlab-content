@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Rational homotopy theory
++--{: .hide}
+[[!include differential graded objects - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -77,7 +87,7 @@ More generally, a setup by [[Bertrand Toen]] serves to provide a more comprehens
 +-- {: .un_theorem}
 ###### Theorem
 
-The left [[derived functor]] of the Quillen left adjoint $\Omega^\bullet : sSet \to dgAlg_{\mathbb{Q}}$ preserves [[homotopy pullback]]s of objects of finite type (each rational homotopy group is a finite dimensional vector space over the ground field).
+The left [[derived functor]] of the Quillen left adjoint $\Omega^\bullet : sSet \to dgAlg_{\mathbb{Q}}$ preserves [[homotopy pullback]]s of objects of [[finite type]] (each rational homotopy group is a finite dimensional vector space over the ground field).
 
 In other words in the induced pair of [[adjoint (∞,1)-functor]]s
 
