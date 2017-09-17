@@ -40,7 +40,7 @@ From the description above, $Tw(C)$ is the same as $Arr(C)$ the [[arrow category
 
 ## Properties
 
-From its definition as a comma category, there's a functor (a [[discrete fibration]], in fact) 
+From its definition as a comma category, there's a functor (a [[discrete opfibration]], in fact) 
 \[ 
 \pi_C \colon tw(C) \to C^{op} \times C 
 \] 
