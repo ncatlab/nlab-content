@@ -88,7 +88,14 @@ In a [[Trimble n-category]] the space of choices of composing a sequence of $n$ 
 
 =--
 
++-- {: .un_example}
+###### Example
 
+In an [[n-groupoid]] modeled as a $(n+1)$-[[coskeletal]] [[Kan complex]], the coherence law is the condition that every $(n+1)$-sphere $\partial \Delta^{n+1}$ has a _unique_ filler. This says that the corresponding space of choices is a point.
+
+More generally, for a [[homotopy n-type]] modeled as a [[Kan complex]], the coherence law is just that all these sphere fillers exist, which only says that there is a contractible space of choices.
+
+=--
 
 ## For other algebraic structures
 
@@ -100,3 +107,5 @@ One can consider coherence laws for algebraic structures other than $(n,r)$-cagt
 [[!redirects coherence]]
 
 [[!redirects coherence condition]]
+
+
