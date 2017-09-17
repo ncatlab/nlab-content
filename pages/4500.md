@@ -7,3 +7,5 @@ There are two definitions of a topological submersion $p:Y \to X$:
 * Each point $p$ of $Y$ has a local section $\sigma: V \to Y$ with $p\in V$ and $p = \sigma(x)$.
 
 The second definition includes the first as a special case.
+
+Surjective topological submersions form a singleton [[Grothendieck pretopology]] on [[Top]].
