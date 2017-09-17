@@ -28,7 +28,7 @@ If a single point $x$ is sufficient and if $D$ denotes the [[formal disk]] aroun
 $$
    [X^\ast, G] \backslash [D^\ast, G] / [D,G]
    \simeq
-   Bung_X(G)
+   Bun_X(G)
  \,,
 $$
 
