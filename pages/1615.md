@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### AQFT
++--{: .hide}
 [[!include AQFT and operator algebra contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -57,3 +63,5 @@ The notion of local net in the context of [[conformal field theory]] is a [[conf
 for the moment see the references at [[AQFT]].
 
 [[!redirects local nets]]
+
+[[!redirects Haag-Kastler net]]
