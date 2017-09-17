@@ -1,12 +1,19 @@
 
-This page is about the notion of _model_ in [[logic]]. For other notions see 
-
-* [[model (in theoretical physics)]]
+This page is about the notion of _model_ in [[logic]]. For the notion in [[physics]] see _[[model (in theoretical physics)]]_.
 
 ***
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
 
-#Contents#
+#Model#
 * table of contents
 {:toc}
 
