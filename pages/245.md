@@ -13,7 +13,7 @@ Intuitively speaking, a braided monoidal category is a category with a tensor pr
 
 ## Definition
 
-A **braided monoidal category** is a [[monoidal category]] $V$ equipped with a [[natural isomorphism]]
+A **braided monoidal category**, or __braided tensor category__, is a [[monoidal category]] $V$ equipped with a [[natural isomorphism]]
 
 $$ B_{x,y} : x \otimes y \to y \otimes x $$
 
@@ -138,6 +138,9 @@ Eventually we should include all these diagrams here, along with the definition 
 =--
 
 
+[[!redirects braided monoidal category]]
 [[!redirects braided monoidal categories]]
 [[!redirects braided category]]
 [[!redirects braided categories]]
+[[!redirects braided tensor category]]
+[[!redirects braided tensor categories]]
