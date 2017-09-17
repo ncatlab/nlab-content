@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+=--
+=--
+
 # Ternary factorisation systems
 * table of contents
 {: toc}
@@ -60,7 +71,7 @@ exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is c
 
 * More generally, if a category has both ([[epimorphism|epi]], [[strong monomorphism|strong mono]]) and ([[strong epimorphism|strong epi]], [[monomorphism|mono]]) factorizations, then since strong epis are epi, we have a ternary factorization.  Here $L_2\cap R_1$ is the class of monic epics, sometimes called [[bimorphisms]].  The maps in $R_2 L_1$ are sometimes called [[strict morphisms]].
 
-* On [[Cat]] there is a 2-categorical version of a ternary factorization system, determined by the [[factorization system on a 2-category|2-categorical factorization systems]] ([[essentially surjective functor|eso]]+[[full functor|full]], [[faithful functor|faithful]]) and (eso, [[fully faithful functor|full and faithful]]).  Here $L_2\cap R_1$ is the class of eso+faithful functors, while $R_2 L_1$ is the class of full functors.  This factorization system plays an important role in the study of [[stuff, structure, property]].
+* On [[Cat]] there is a 2-categorical version of a ternary factorization system, determined by the [[factorization system on a 2-category|2-categorical factorization systems]] ([[essentially surjective functor|eso]]+[[full functor|full]], [[faithful functor|faithful]]) and (eso, [[fully faithful functor|full and faithful]]).  Here $L_2\cap R_1$ is the class of eso+faithful functors, while $R_2 L_1$ is the class of full functors.  This factorization system plays an important role in the study of [[stuff, structure, property]]. For groupoids this is the [[1-image]]-[[2-image]] factorization.
 
 * On [[Topos]] there is also a 2-categorical ternary factorization system composed of the binary 2-categorical factorization systems ([[hyperconnected geometric morphism|hyperconnected]], [[localic geometric morphism|localic]]) and ([[geometric surjection|surjection]], [[geometric embedding|inclusion]]). Here the maps in $L_2\cap R_1$ have no name other than "localic surjections," and those in $R_2 L_1$ have no established name (although they are briefly mentioned in A4.6.10 of the [[Elephant]]).
 
