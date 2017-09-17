@@ -34,6 +34,12 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 
 * [[higher order logic]]
 
+## References
+
+The [[syntax - semantics duality]] in first order logic is discussed in 
+
+* [[Steve Awodey]], [[Henrik Forssell]], _First-Order Logical Duality_ ([arXiv:1008.3145](http://arxiv.org/abs/1008.3145))
+
 [[!redirects Predicate logic]]
 [[!redirects predicate logic]]
 [[!redirects predicate calculus]]
