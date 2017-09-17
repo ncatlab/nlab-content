@@ -31,7 +31,7 @@ According to _[[Science of Logic]]_, the [[unity of opposites|opposite]] of [[be
 
 * [[Georg Hegel]], _[[Science of Logic]]_
 
-* Stanford Encylcopedia of Philosophy, _[Nothingness](http://plato.stanford.edu/entries/nothingness/#WhyTheSomRatThaNot)_
+* Stanford Encyclopedia of Philosophy, _[Nothingness](http://plato.stanford.edu/entries/nothingness/#WhyTheSomRatThaNot)_
 
 [[!redirects nothingness]]
 
