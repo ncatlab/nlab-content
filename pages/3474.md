@@ -27,3 +27,9 @@ For more on this area, see at _[[étale homotopy]]_.
 ##References
 
 * [[Tamás Szamuely ]], [Heidelberg Lectures on Fundamental Groups](http://www.renyi.hu/~szamuely/pia.pdf), 2010.
+
+or in a lengthier form:
+
+*   [[Tamás Szamuely ]], Galois Groups and Fundamental Groups, Cambridge Studies in Advanced Mathematics, vol. 117, Cambridge University Press, 2009. 
+
+and earlier version is to be found [here](http://math.uchicago.edu/~aanders/books/szamuely_-_galois_groups_and_fundamental_groups.pdf).
