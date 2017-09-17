@@ -163,7 +163,7 @@ This appears as ([Johnstone, cor. B.2.3.22](#Johnstone)).
 
 Internal presheaves in a [[Grothendieck topos]] are discussed in Section V.7 of
 
-* [[Sauders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 and in section B2.3 of
 
