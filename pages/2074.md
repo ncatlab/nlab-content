@@ -261,7 +261,7 @@ The **model structure on marked simplicial over-sets** $Set^+/S$ over $S \in SSe
 
 +-- {: .un_def }
 ###### Definition/Proposition
-**(Cartesial model structure on $sSet^+/S$)**
+**(Cartesian model structure on $sSet^+/S$)**
 
 The category $SSet^+/S$ of [[marked simplicial set]]s over a marked simplicial set $S$ carries a structure of a [[proper model category|proper]] [[combinatorial simplicial model category]] defined as follows.
 
@@ -293,7 +293,7 @@ The model structure is proposition 3.1.3.7 in [[Higher Topos Theory|HTT]]. The s
 
 +-- {: .un_def }
 ###### Definition/Proposition
-**(coCartesial model structure on $sSet^+/S$)**
+**(coCartesian model structure on $sSet^+/S$)**
 
 There is another such model structure, with [[Cartesian fibration]]s replaced everywhere by **coCartesian fibrations.
 
