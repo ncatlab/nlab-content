@@ -8,6 +8,9 @@
 * automatic table of contents goes here
 {:toc}
 
+[[cosmiccube.jpg:pic]]
+
+
 ## Idea
 
 The **Cosmic Cube of [[higher category theory]]** is the name for a  [[diagram]] whose vertices correspond to special types of [[(n,r)-categories]], notably to $(n,r)$-categories with especially rigid [[stuff, structure, property|property and structure]].
