@@ -29,14 +29,41 @@ The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category
 
 ### Kleisli category
 
-The [[Kleisli category]] of the maybe monad is the category whose objects are the original objects, and whose morphisms are the [[partial functions]] in the original category.
+The [[Kleisli category]] of the maybe monad on $Set$ is the category whose objects are sets, and whose morphisms are [[partial functions]]. 
+
+This observation generalizes as follows: if $\mathbf{C}$ is an [[extensive category]] and has a [[terminal object]] $\ast$, then a morphism $g: X \to Y \coprod \ast$ as an object of the [[overcategory]] $\mathbf(C)/(Y \coprod \ast)$ determines (uniquely up to canonical isomorphism) an object 
+
+$$(f: X_1 \to Y, !: X_2 \to \ast) \in \mathbf{C}/Y \times \mathbf{C}/\ast$$ 
+
+such that $g = f \coprod !$, in other words a partial morphism $f: X \rightharpoonup Y$ whose domain of definition is a subobject $X_1 \hookrightarrow X$ with complement $X_2 \hookrightarrow X$. In brief, maps in the Kleisli category are partial maps with complemented domain. 
+
+In particular, in the case of a [[Boolean topos]], the Kleisli category is the category of objects and partial maps; see also [[partial map classifier]]. 
+
 
 ### EM-category and Relation to pointed objects
  {#EMCategoryAndRelationToPointedObjects}
 
 The [[algebra over a monad|algebras]] over the maybe monad are  [[pointed objects]]. 
 
-Moreover, the maybe monad is a [[monoidal monad]] and (by the discussion at _[[commutative monad]]_, see also ([Seal 12](#Seal12))), so that (in a sufficiently nice category such as a [[topos]]) its [[Eilenberg-Moore category]] of algebras canonically inherits the structure of a [[monoidal category]], and one finds that this is the [[smash product]] of pointed objects.
+Moreover, assuming $\mathbf{C}$ has [[finite products]], the maybe monad on $\mathbf{C}$ is a [[monoidal monad]] on the [[cartesian monoidal category]] $\mathbf{C}$. It follows (by the discussion at _[[commutative monad]]_, see also ([Seal 12](#Seal12))) that its [[Eilenberg-Moore category]] of algebras canonically inherits the structure of a [[monoidal category]], at least under the mild assumption that it has reflexive coequalizers. Note that the maybe monad $T$ preserves reflexive coequalizers, so the monadic functor creates reflexive coequalizers if the base category has them; in this abstract setting the monoidal product on algebras $(X, \alpha: T X \to X)$, $(Y, \beta: T Y \to Y)$ is given explicitly as the coequalizer of $T(\alpha \times \beta): T(T X \times T Y) \to T(X \times Y)$ and 
+
+$$T(T X \times T Y) \stackrel{T(\phi_{X, Y})}{\to} T T(X \times Y) \stackrel{\mu}{\to} T(X \times Y)$$ 
+
+where $\phi$ is one of the structural constraints on the monoidal monad $T$ and $\mu$ is the multiplication on $T$. One finds that this coequalizer yields the usual [[smash product]] of pointed objects.
+
++-- {: .num_remark} 
+###### Remark 
+The smash product as the correct monoidal product can also be deduced in a perhaps more perspicuous manner if we assume more of the base category: that it is cartesian closed, finitely complete, and finitely cocomplete. In that case we construct the internal hom of $T$-algebras, i.e., the internal hom of pointed objects $(Y, \beta: T Y \to Y)$ and $(Z, \gamma: T Z \to Z)$ directly as an equalizer of maps 
+
+$$\array{
+Z^Y & \to & T Z^{T Y} \\ 
+ & \mathllap{Z^\beta} \searrow & \downarrow \mathrlap{\gamma^{T Y}} \\
+ & & Z^{T Y}
+}$$ 
+
+where the top arrow expresses enriched functoriality of $T$ (which in turn is closely related to the [[strong functor|strength]] on $T$). The success of this is guaranteed by the commutativity of the monad (which here takes a particularly simple form, being given by the commutative _monoid_ $\ast$ with respect to coproduct $\coprod$). Then, by taking the monoidal product that is adjoint to the internal hom, one is led to the smash product $(X \wedge Y)_\ast$ all the same: that is, one can read off the smash product from the fact that pointed maps $X_\ast \to \hom_\ast(Y_\ast, Z_\ast)$ should correspond to pointed maps $(X \wedge Y)_\ast \to Z_\ast$. 
+=-- 
+
 
 ### Relation to natural number objects
 
