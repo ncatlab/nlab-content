@@ -161,13 +161,19 @@ The interpretation in terms of [[infinity-Chern-Weil theory]] is discussed in
 
 ### With branes {#LitWithBranes}
 
-The study of [[brane]]s in the Poisson sigma-model is started in 
+The study of [[branes]] in the Poisson sigma-model has been started in 
 
 * Damien Calaque, [[Giovanni Felder]], Andrea Ferrario, Carlo A. Rossi, _Bimodules and branes in deformation quantization_ ([arXiv:0908.2299](http://arxiv.org/abs/0908.2299))
 
 * Damien Calaque, [[Giovanni Felder]], Carlo A. Rossi, _Deformation quantization with generators and relations_ ([arXiv:0911.4377](http://arxiv.org/abs/0911.4377))
 
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _Coisotropic submanifolds in Poisson geometry and branes in the Poisson $\sigma$-model_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/02-04.pdf))
+
 * Andrea Ferrario, _Poisson Sigma Model with branes and hyperelliptic Riemann surfaces_ ([arXiv:0709.0635](http://arxiv.org/abs/0709.0635))
+
+A review is in 
+
+* F. Falceto, _Branes in Poisson sigma models_ (2009) ([pdf](http://benasque.org/2009gph/talks_contr/094Falceto.pdf))
 
 ### Recent developments
 
