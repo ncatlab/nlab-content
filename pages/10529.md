@@ -1,0 +1,1 @@
+Let $X$ be a topological vector space. A null sequence in $X$ is a convergent sequence whose limit is $0 \in X$.
