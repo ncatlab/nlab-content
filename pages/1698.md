@@ -752,7 +752,15 @@ $$
 being a fibration sequence. The corresponding long exact sequence in cohomology (as discussed above) is what is traditionally called the Mayer-Vietoris sequence of the cover of $X$ by $U$ and $V$ in $A$-cohomology.
 
 
+## References
 
+A discussion of fiber sequences in terms of [[associated ∞-bundle]]s is in
+
+* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
+
+Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfield localization of model categories]] is in
+
+* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf))
 
 
 [[!redirects fibration sequence]]
