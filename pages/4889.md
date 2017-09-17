@@ -74,14 +74,21 @@ to [[generalized the|the]] [[object classifier]], that modulates $X$ (the "name"
 
 ### In the syntax of homotopy type theory
 
-Let $\mathcal{C}$ be an [[(∞,1)-topos]]. Then its [[internal language]] is [[homotopy type theory]]. In terms of this the object $X \in \mathcal{C}$ is a [[type]] ([[homotopy type]]). In the type theory syntax the internal automorphism $\infty$-group then is (as an type, without yet the group structure)
+Let $\mathcal{C}$ be an [[(∞,1)-topos]]. Then its [[internal language]] is [[homotopy type theory]]. In terms of this the object $X \in \mathcal{C}$ is a [[type]] ([[homotopy type]]). In the type theory syntax the internal automorphism $\infty$-group $\mathbf{Aut}(X)$ then is (as a type, without yet the group structure)
 
 $$
   \vdash (X \stackrel{\simeq}{\to} X) : Type
   \,,
 $$
 
-the subtype of the [[function type]] on the [[equivalence in homotopy type theory|equivalences]].
+the [[subtype]] of the [[function type]] on the [[equivalence in homotopy type theory|equivalences]]. Its [[delooping]] $\mathbf{B}\mathbf{Aut}(X)$ is
+
+$$
+  \vdash \; \left(\sum_{Y : Type} [Y = X]\right) \colon Type
+  \,,
+$$
+
+where on the right we have [[dependent sum]] over one argument of the [[bracket type]]/[[inhabited type|(-1)-truncation]] $[X = Y] = isInhab(X = Y)$ of the [[identity type]] $(X = Y)$.
 
 The equivalence of this definition to the previous one is the statement of [[univalence]]. 
 
