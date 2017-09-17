@@ -86,9 +86,9 @@ Given a locale $X$, a __concrete [[point]]__ of $X$ may be defined in any of the
 
 1.  A point of $X$ is a [[continuous map]] $f\colon 1 \to X$;
 2.  Unravelling this in terms of $f^*\colon O(X) \to O(1)$ and viewing this as a [[characteristic function]], a point of $X$ is a [[completely prime filter]] in $O(X)$;
-3.  Unravelling (1) in terms of $f_*\colon O(1) \to O(X)$, which classically (using [[excluded middle]]) is determined by $f_*(\bot)$, a point of $X$ is [[prime element]] of $O(X)$.
+3.  Unravelling (1) in terms of $f_*\colon O(1) \to O(X)$, which classically (using [[excluded middle]]) is determined by $f_*(\bot)$, a point of $X$ is a [[prime element]] of $O(X)$.
 
-Definition (3) is simpler than (2), being an element of $O(X)$ satisfying a finitary condition rather than a subset of $O(X)$ satisfying an infinitary condition; however, it doesn\'t work in [[constructive mathematics]], which provides much (but by no means all) of the motivation for studying locales).
+Definition (3) is simpler than (2), being an element of $O(X)$ satisfying a finitary condition rather than a subset of $O(X)$ satisfying an infinitary condition.  However, it doesn\'t work in [[constructive mathematics]], which provides much (but by no means all) of the motivation for studying locales.
 
 
 ## Properties
