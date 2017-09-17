@@ -163,3 +163,7 @@ The theory of group objects is an example of a [[Lawvere theory]].
 [[!redirects inner groups]]
 [[!redirects group object]]
 [[!redirects group objects]]
+
+[[!redirects abelian group object]]
+[[!redirects abelian group objects]]
+
