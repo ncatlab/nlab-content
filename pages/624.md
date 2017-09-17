@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 # Contents
 * table of contents
 {: toc}
@@ -23,7 +21,7 @@
 
 Being *dualizable* is often thought of as a [[category theory|category-theoretic]] notion of *finiteness* for objects in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its [[tensor product]] just when it is finite-dimensional, and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] just when it is a finite [[cell complex|cell]] spectrum.
 
-A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the stable homotopy category are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[Sup]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
+A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the stable homotopy category are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[Ban]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
 
 +-- {: .num_remark}
 ###### Warning
