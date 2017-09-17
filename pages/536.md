@@ -19,13 +19,33 @@ An _algebraic [[theory]]_ is a concept in [[universal algebra]] that describes a
 
 ## Commentary
 
-Traditionally, algebraic theories were described in terms of [[logic|logical syntax]], as [[theory|first-order theories]] whose [[signature]]s have only function symbols, no relation symbols, and all of whose axioms are universally quantified equations.  Such descriptions are like presentations of a theory, analogous to generator and relations presentations of groups. In particular, different logical presentations can lead to equivalent mathematical objects. 
+Traditionally, algebraic theories were described in terms of [[logic|logical syntax]], as [[theory|first-order theories]] whose [[signature]]s have only function symbols, no relation symbols, and all of whose axioms are universally quantified equations.  Such descriptions may be viewed as _presentations_ of a theory, analogous to generator and relations presentations of groups. In particular, different logical presentations can lead to equivalent mathematical objects. 
 
-In his thesis, Lawvere undertook a more invariant description of (finitary) algebraic theories via the notion of [[Lawvere theory]]. Here all the definable operations of an algebraic theory, or rather their equivalence classes modulo the equational axioms imposed by the theory, are packaged together to form the morphisms of a category with finite products, for which every object is a finite power of a generating object. In the great semantic expansion envisaged by Lawvere for what constitutes a "model", the category so formed becomes a universal model of the theory, and carries all the information of the theory, independent of a particular presentation. Lawvere considers _this_ category, this universal model, to be the theory. To give an example, the universal model of the theory of groups, i.e., the Lawvere theory of groups, is the (2-)initial object in the (2-)category of categories with finite products and equipped with a group object. Traditional (set-theoretic) models of the theory are neatly defined as product-preserving functors from the Lawvere theory to the category of sets. 
+In his thesis, Lawvere undertook a more invariant description of (finitary) algebraic theories. Here _all_ the definable operations of an algebraic theory, or rather their equivalence classes modulo the equational axioms imposed by the theory, are packaged together to form the morphisms of a category with finite products, called a [[Lawvere theory]]. None of these operations are considered "primitive", so a Lawvere theory doesn't play favorites among operations. 
 
-Moreover, the categorical construction of the Lawvere theory is described very easily and elegantly: it is the category opposite to the category of (finitely generated) free algebras of the theory. 
+This article is about generalized Lawvere theories. The article [[Lawvere theory]] treats the traditional notion of finitary, single-sorted Lawvere theories, with worked examples. The core of the present article is a working out of the precise connection between infinitary (multi-sorted) Lawvere theories and monads. 
 
-Lawvere's program can be extended to cover certain theories with infinitary operations as well. In the best-behaved case, one has algebraic theories involving only operations of arity bounded by some [[cardinal number]], and these can be understood category-theoretically with a suitable generalization of Lawvere theories.  In the bounded case, the Lawvere theory can be described by a small category, and the category of models will be very well behaved, in particular it is a [[locally presentable category]]. In such cases there is a satisfying duality between syntax and semantics along the lines of [[Gabriel-Ulmer duality]]. 
+### Basic Intuitions 
+
+Intuitively, a Lawvere theory is the "generic category of products equipped with an object $x$ of given algebraic type $T$". For example, the Lawvere theory of groups is what you get by assuming a category with products and with a [[group object]] $x$ inside, and nothing more; $x$ can be considered "the generic group". Every object in the Lawvere theory is a finite power $x^n$ of the generic object $x$. The morphisms $x^n \to x$ are nothing but the $n$-ary operations it is possible to define on $x$. 
+
+In other words, if we abstract away from the usual set-theoretic semantics, and consider a model for the theory of groups to be _any_ category with finite products together with a specified group object inside, then the Lawvere theory of groups becomes a universal model of the theory, and carries all the information of the theory but independent of a particular presentation. In this way, theories and models of a theory are placed on an equal footing. A model of a Lawvere theory $T$ in a category with products $C$ is nothing but (i.e., is equivalent to) a product-preserving functor $T \to C$; where the generic object $x$ is sent to is the given model of $T$ in $C$. If $T$ is the Lawvere theory of groups, then a product-preserving functor $T \to Set$ is tantamount to an ordinary group. 
+
+The actual categorical construction of a Lawvere theory is described very easily and elegantly: it is the category opposite to the category of (finitely generated) free algebras of the theory. The free algebra on one generator becomes the generic object. 
+
+If theories and models are placed on an equal footing, then what feature sets "theories" _per se_ apart? In some very abstract sense, any category with products $C$ could be considered a theory, where the $C$-models in $D$ are product-preserving functors $C \to D$. Sometimes this is a useful point of view, but it is far removed from traditional syntactic considerations. To give a more "honest" answer, we remember that an ordinary (finitary, single-sorted) algebraic theory a la Lawvere is generated from a single object $x$, and that every other object should be (at least up to isomorphism) a finite power $x^n$. The exponent $n$ serves to keep track of arities of operations. 
+
+The generic "category of arities" $n$ is, in the finitary case, the category opposite to the category of finite sets (opposite because the $n$ appears contravariantly in powers $x^n$). This is also the Lawvere "theory of equality", or if you prefer the theory generated by an empty signature. The answer to the question "what sets theories apart" is that a Lawvere theory $T$ should come equipped with a product-preserving functor 
+
+$$x^{-}: FinSet^{op} \to T$$ 
+
+that is essentially surjective (each object of $T$ is isomorphic to $x^n$ for some arity $n$). As we see below, this definition is a cornerstone to a very elegant theory of algebraic theories. 
+
+### Extensions 
+
+#### Infinitary operations 
+
+Lawvere's program can be extended to cover many theories with infinitary operations as well. In the best-behaved case, one has algebraic theories involving only operations of arity bounded by some [[cardinal number]], and these can be understood category-theoretically with a suitable generalization of Lawvere theories.  In this bounded case, the Lawvere theory can be described by a small category, and the category of models will be very well behaved, in particular it is a [[locally presentable category]]. In such cases there is a satisfying duality between syntax and semantics along the lines of [[Gabriel-Ulmer duality]]. 
 
 Lawvere's program can to some degree be extended further: one can work with Lawvere theories which are locally small (not just small) categories. Here, the theory might not be bounded, but at least there is only a small set of operations of each arity. Examples of such large theories include 
 
@@ -49,6 +69,17 @@ In summary, then, here is the connection between the logical and categorial desc
 
 Then any small algebraic category is algebraic, and any algebraic category is large algebraic, but neither implication may be reversed.
 
+#### Multi-sorted operations 
+
+Lawvere theories can also be generalized to handle multi-sorted operations. If $S$ is a set of sorts, then multisorted operations are of the form 
+
+$$\prod_{s \in S} s^{n_s} \to t$$ 
+
+so that arities are functors $n: S \to Set$, where $S$ is seen as a discrete category. Thus, an infinitary multi-sorted Lawvere theory $T$ involves an essentially surjective product-preserving functor 
+
+$$(Set^S)^{op} \to T$$ 
+
+and the development goes through very much as in the single-sorted case. 
 
 ## Lawvere theories and monads 
 
