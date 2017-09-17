@@ -1,5 +1,5 @@
 
-Bruce Even Blackadar
+Bruce Evan Blackadar is an American operator algebra theorist at the University of Nevada.
 
 * [webpage](http://wolfweb.unr.edu/homepage/bruceb/)
 
