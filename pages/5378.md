@@ -34,7 +34,7 @@ This book by [[Baues]] gives an acoount of the author's interpretation of  [[Hen
 
 ##Index
 
-#Referecnes
+#References
 
 * _Algebraic Homotopy_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989).
 
