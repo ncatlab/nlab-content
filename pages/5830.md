@@ -27,9 +27,9 @@
 
 ## Idea
 
-_Homotopy type theory_ refers broadly to the interpretation of [[intensional type theory|intensional]] ([[Martin-Löf type theory|Martin-Löf]]-)[[dependent type theory]] in homotopy theory.  It is characterized by the viewpoint that [[identity types]] represent [[path spaces]], and are thereby used to define various concepts in homotopy theory.
+_Homotopy type theory_ refers broadly to the interpretation of [[intensional type theory|intensional]] ([[Martin-Löf type theory|Martin-Löf]]-)[[dependent type theory]] in [[homotopy theory]].  It is characterized by the viewpoint that [[identity types]] represent [[path spaces]], and are thereby used to define various concepts in homotopy theory.
 
-In the categorical [[semantics]] of homotopy type theory, [[types]] are interpreted not as [[set]]-like objecst, but as [[homotopy type]] or [[∞-groupoid]]-like objects.  Thus, whereas [[extensional type theory]] can serve as the [[internal language]] of [[1-categories]] (such as [[pretoposes]], [[locally cartesian closed categories]], or [[elementary toposes]]), homotopy type theory can serve as an internal language for various kinds of [[(∞,1)-category]].  (At present, such models are usually constructed by way of 1-categorical presentations of (∞,1)-categories using [[model categories]] and related structures such as [[weak factorization systems]]).
+In the [[categorical semantics|categorical]] [[semantics]] of homotopy type theory, [[types]] are interpreted not as [[set]]-like [[objects]], but as [[homotopy type]]- or [[∞-groupoid]]-like objects.  Thus, whereas [[extensional type theory]] can serve as the [[internal language]] of [[1-categories]] (such as [[pretoposes]], [[locally cartesian closed categories]], or [[elementary toposes]]), homotopy type theory can serve as an internal language for various kinds of [[(∞,1)-category]].  (At present, such models are usually constructed by way of 1-categorical presentations of (∞,1)-categories using [[model categories]] and related structures such as [[weak factorization systems]]).
 
 In addition to a viewpoint on identity types and a general class of categorical models, homotopy type theory is characterized by new homotopically motivated axioms and type-theoretic structures.  Notable among these are:
 
@@ -37,7 +37,7 @@ In addition to a viewpoint on identity types and a general class of categorical 
 
 * Strong [[function extensionality]], which is a consequence of univalence.
 
-* [[higher inductive type|Higher inductive types]], which among other things enable the construction of finite (∞,1)-[[colimits]], [[cell complexes]], [[n-truncated object of an (infinity,1)-category|truncations]], [[localizations]], and other objects which in classical homotopy theory are constructed using the [[small object argument]].
+* [[higher inductive type|Higher inductive types]], which among other things enable the construction of finite [[(∞,1)-colimits]], [[cell complexes]], [[n-truncated|truncations]], [[localizations]], and other objects which in classical homotopy theory are constructed using the [[small object argument]].
 
 With all of these axioms included, homotopy type theory behaves like the [[internal language of an (∞,1)-topos]], and conjecturally should admit actual models in any (∞,1)-topos. 
 
