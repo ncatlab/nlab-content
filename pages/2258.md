@@ -1,5 +1,5 @@
 [[!redirects Gonzalo E. Reyes]]
-
+[[!redirects Gonzalo Reyes]]
 
 * [blog](http://po-start.com/reyes/)
 
