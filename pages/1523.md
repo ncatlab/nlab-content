@@ -54,13 +54,9 @@ In this way, $\bar{\mathbb{N}}$ is the [[Alexandrov compactification]] of the [[
 
 It is sometimes convenient to represent $\bar{\mathbb{N}}$ as a [[subspace]] of the [[real line]] $\mathbb{R}$, which we can do by interpreting the natural number $n$ as $2^{-n}$ and $\infty$ as $0$.  Constructively, the monotone bit sequence $x$ becomes the real number
 $$ 
-\frac{1}{2} {\sum_{i=0}^\infty 2^{-(i+1)}} ,
-$$
+\frac{1}{2} {\sum_{i=0}^\infty x_i 2^{-i}}
+,$$
 which always converges.  Another common representation uses $1/(n+1)$ instead of $1/2^n$.
-
-+--{: .query}
-_David Roberts_: before I edited, this displayed formula above was $\frac12 \sum_i 2^{-(i+1)}$, which I'm sure is wrong. However, I'm not sure that this is right, as there is no mention of the bits of $x$. Are the individual summands meant to be $ 2^{-(i+1)}x_i$?
-=--
 
 Given any topological space $X$, an [[infinite sequence]] in $X$ may be thought of as a [[continuous map]] to $X$ from the discrete space $\mathbb{N}$.  Then this sequence [[convergent sequence|converges]] iff this map can be extended to a continuous map on $\bar{\mathbb{N}}$.  For this reason, $\bar{\mathbb{N}}$ is sometimes called the __universal convergent sequence__.  (Strictly speaking, unless $X$ is at least [[sequentially Hausdorff space|sequentially Hausdorff]], a map to $X$ from $\bar{\mathbb{N}}$ contains more information than a sequence in $X$ with the property of convergence.)
 
