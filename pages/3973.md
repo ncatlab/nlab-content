@@ -10,16 +10,9 @@
 =--
 =--
 
-* [[vector space]]
-
-* [[2-vector space]]
-
-* **$n$-vctor space**
-
-***
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -73,3 +66,15 @@ More generally, let $k$ here be a [[ring spectrum]]. Set
 ## $n$-Representations
 
 ...
+
+## Related concepts
+
+* [[vector space]]
+
+* [[2-vector space]]
+
+* **$n$-vctor space**
+
+
+
+[[!redirects n-vector spaces]]
