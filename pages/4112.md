@@ -52,7 +52,7 @@ I should check this some day; for the moment, I am taking it on faith.  ---Toby
 
 In either case, the idea is:
 *  A point of Cantor space corresponds to a number written in base $3$ with infinitely many digits, using only the digits $0$ and $2$; while
-*  An open corresponds to a collection of intervals, each of which is given by approximating a number in base $3$ to a finite number of digits, using only the digits $0$ and $2$.
+*  An open corresponds to a union of intervals, each of which is given by approximating a number in base $3$ to a finite number of digits, using only the digits $0$ and $2$.
 
 One sometimes speaks of the __Cantor set__ to stress that one is considering Cantor space as a subspace of the real line.
 
