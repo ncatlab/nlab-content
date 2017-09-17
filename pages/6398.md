@@ -36,6 +36,8 @@ There are several different incarnations of the superstring.
 
 * a mixture between the two has been proposed: the **[[Berkovits superstring]]** .
 
+[[!include worldvolume-target supersymmetry of brane sigma-models]]
+
 ## Related concepts
 
 * [[sigma-model]], [[supersymmetric sigma-model]], [[brane]]
@@ -56,6 +58,8 @@ There are several different incarnations of the superstring.
 * [[string theory]], [[supersymmetry]]
 
 * [[string scattering amplitude]]
+
+[[!include worldvolume-target supersymmetry of brane sigma-models]]
 
 ## References
 
