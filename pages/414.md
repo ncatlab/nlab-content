@@ -58,3 +58,5 @@ A category $C$ has **enough projectives** if for every object $X$ there is an ep
 
 [[!redirects enough projectives]]
 [[!redirects projective objects]]
+[[!redirects projective set]]
+[[!redirects projective sets]]
