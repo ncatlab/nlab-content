@@ -1,0 +1,32 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Ochanine elliptic genus]] $\Omega^{SO}_\bullet \to M_\bullet = \mathbb{Z}[\tfrac{1}{2}][\delta, \epsilon]$
+
+lifts to a map of spectra 
+
+$$
+  M SO \longrightarrow Ell
+$$
+
+([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)). Here $Ell[\tfrac{1}{6}]$ is equivalently [[tmf0(2)]] ([Behrens 05](#Behrens05)) and as such this lift is analogous to the [[string orientation of tmf]].
+
+## Properties
+
+### Induced relation between cobordism and homology
+
+The SO orientation of elliptic cohomology makes it expressible in terms of the [[cobordism cohomology theory]], see at _[[cobordism theory determining homology theory]]_ ([Landweber-Ravenel-Stong 93, theorem 1.2](#LandweberRavenelStong93)).
+
+## Related concepts
+
+[[!include genera and partition functions - table]]
+
+## References
+
+* {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
+
+* {#Behrens05} [[Mark Behrens]], _A modular description of the K(2)-local sphere at the prime 3_ ([arXiv:math/0507184](http://arxiv.org/abs/math/0507184))
