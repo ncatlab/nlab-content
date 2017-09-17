@@ -1,0 +1,51 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mechanism]] in the presence of [[branes]]: a KK-reduction of a [[spacetime]] of [[dimension]] $d+1$ in which a $p+1$-[[brane]] propagates results in a $d$-dimensional effective spacetime with a $p+1$-brane and with a "doubly reduced" $p$-brane, which is the reduction of those original $(p+1)$-brane configurations that wrapped the compactify cycle.
+
+## Examples
+
+Double dimensional reduction for the super-$p$-[[branes]] in $D$ dimensions which are described by the [[Green-Schwarz action functional]] corresponds to moving down and left the diagonals in the brane scan table of consistent such branes:
+
+[[branescan.gif:pic]]
+
+In particular the [[superstring]] appears as the double dimensional reduction of the [[M2-brane]] in the [[KK-compactification]] from [[11-dimensional supergravity]]/[[M-theory]] down to 10-dimensional [[type II supergravity]]/[[type II string theory]]. Similarly the [[D4-brane]] appears as the double dimensional reduction of the [[M5-brane]] under this process
+
+## References
+
+### General
+
+The above "brane scan" table showing the double dimensional reduciton pattern of the super-$p$-branes given by the [[Green-Schwarz action functional]] (see there for more references on this) is taken from 
+
+* [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
+ {#Duff}
+
+
+### Reduction of membrane to string
+
+(...)
+
+### Reduction of 5-brane to 4-brane
+
+* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+ {#Witten11}
+
+
+* [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
+
+
+[[!redirects double dimensional reduction]]
