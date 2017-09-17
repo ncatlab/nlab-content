@@ -54,6 +54,10 @@ $$Set^{op} \times Set \stackrel{G}{\to} Set: (x, y) \mapsto \hom(x, y)^{\hom(y, 
 
 and considering extranatural transformations from the constant $1$ (the terminal set) to $G$. Such tricks support the counterargument that the extra generality of the traditional definition is largely spurious, and not particularly helpful in terms of comprehension.
 
+# Composition
+
+Dinatural transformations cannot, in general, be composed with each other, although there are certain circumstances when they can be (such as when certain squares are pushouts or pullbacks, or when they are in fact ordinary natural transformations).  In general, what we can say is that dinatural transformations with fixed source and target form a [[paracategory]], and as we vary the source and target they form a [[2-multicategory with dinaturality]] (a cousin of an [[extraordinary 2-multicategory]]).
+
 
 # References
 
