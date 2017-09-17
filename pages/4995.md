@@ -84,15 +84,16 @@ $X$ in a cohesive $(\infty,1)$-topos $\mathbf{H}$
 if the morphism
 
 $$
-  \pi_0 \Gamma X \to \pi_0 \Gamma Disc \Pi X \simeq \pi_0 \Pi X
+  \Gamma X \to \Gamma Disc \Pi X \simeq \pi_0 \Pi X
 $$ 
 
-is an [[epimorphism]].
+is an [[effective epimorphism in an (∞,1)-category]], equivalently (as discussed there) such that this is an [[epimorphism]] on [[connected]] components.
+
 
 =--
 
-Here the first morphismism is the image under $\Gamma$ and $\pi_0 : \infty Grpd \to Set$ of the 
-$(Disc \dashv \Gamma)$-[[unit of an adjunction|unit]] and the second the image under $\pi_0$ of an inverse of the $(\Pi \dashv Disc)$-counit (which is invertible because $Disc$ is [[full and faithful (∞,1)-functor|full and faithful]] in a [[local (∞,1)-topos]].)
+Here the first morphismism is the image under $\Gamma$ of the 
+$(Disc \dashv \Gamma)$-[[unit of an adjunction|unit]] and the second is an inverse of the $(\Pi \dashv Disc)$-counit (which is invertible because $Disc$ is [[full and faithful (∞,1)-functor|full and faithful]] in a [[local (∞,1)-topos]].)
 
 +-- {: .un_defn #DiscreteObjectsAreConcrete}
 ###### Definition
