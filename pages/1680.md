@@ -87,9 +87,9 @@ its name.
 
 ## Related concepts
 
-* [[K-theory spectrum]]
+* [[generalized Eilenberg-MacLane spectrum]]
 
-* [[cohomology theory]]
+* [[cohomology theory]], [[ordinary cohomology]]
 
 [[!redirects Eilenberg-MacLane spectrum]]
 [[!redirects Eilenberg--MacLane spectrum]]
