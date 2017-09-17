@@ -27,6 +27,11 @@ $$ \bullet \in \bullet \in \bullet \in \bullet \in \cdots .$$
 
 The term 'point' is often used for a [[global element]]; that is the meaning, for example, in the sense of a [[point of a topos]] or a [[point of a locale]].  The connection is that a global element of $X$ is a map from the point to $X$.  So one may describe the point above as the *abstract* point, while a global element is a *concrete* point.
 
+## Related concepts
+
+[[!include homotopy n-types - table]]
+
+
 
 [[!redirects point]]
 [[!redirects points]]
