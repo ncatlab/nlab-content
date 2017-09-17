@@ -1,22 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-A **full and faithful functor** is a [[functor]] which is both [[full functor|full]] and [[faithful functor|faithful]].  "Full and faithful" is sometimes shortened to "fully faithful" or "ff."   See also [[subcategory]].
+A **full and faithful functor** is a [[functor]] which is both [[full functor|full]] and [[faithful functor|faithful]].  "Full and faithful" is sometimes shortened to "fully faithful" or "ff."   See also [[full subcategory]].
+
 
 ## Properties
 
@@ -31,6 +31,7 @@ For [[(∞,1)-category|(∞,1)-categories]] the corresponding notion of fully fa
 
 * [[fully faithful (∞,1)-functor]]
 
+
 ## Related concepts
 
 * [[essentially surjective functor]]
@@ -42,9 +43,10 @@ For [[(∞,1)-category|(∞,1)-categories]] the corresponding notion of fully fa
 * [[equivalence of categories]]
 
 
-[[!redirects fully faithful functor]]
+[[!redirects full and faithful functor]]
 [[!redirects full and faithful functors]]
+[[!redirects fully faithful functor]]
 [[!redirects fully faithful functors]]
-[[!redirects fully faithful]]
 
 [[!redirects full and faithful]]
+[[!redirects fully faithful]]
