@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #The category $CRing$#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition ##
@@ -13,7 +24,11 @@ The [[opposite category]] $CRing^{op}$ is the category of [[affine scheme]]s.
 
 ## Generalizations ##
 
+* The [[slice category]] of $CRing$ under a ring $R$ is the categoy $R$[[CAlg]] of commutative [[associative algebra]]s over $R$.
+
 * There is a "smooth" version of $CRing^{op}$: the category of [[smooth locus|smooth loci]],
 
 * There is a [[higher category theory]] version of $CRing$: the $(\infty,1)$-[[(∞,1)-category|category]] of $E_\infty$-[[E-∞ ring|rings]].
 
+
+category: category
