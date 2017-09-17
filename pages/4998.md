@@ -10,7 +10,7 @@
 This will give the classical definition as a non-deterministic state-based system and then show how to turn that form into the coalgebraic form.
 
 +-- {: .un_defn}
-###### Definition
+######Definition
 
 A **non-deterministic automaton** consists of the following data:
  
