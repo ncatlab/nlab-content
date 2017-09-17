@@ -13,24 +13,32 @@ This page is meant to be useful for readers who are interested in [[homotopy the
 
 > I am a homotopy theorist; what can homotopy type theory do for me?
 
-Since homotopy theory takes place in [[model categories]] and similar categorical structures, the input from homotopy type is via its [[categorical semantics]]. In this sense the question which this page is meant to help to answer is
+Since homotopy theory takes place in [[model categories]] and similar categorical structures, the input from homotopy type theory is via its [[categorical semantics]]. In this sense the question which this page is meant to help to answer is
 
 > I am a homotopy theorist; which methods can I learn from the [[categorical semantics of homotopy type theory]]?
 
 For the moment this page will mostly list pointers with brief comments to other entries where details are given. You should maybe read it like an instructional exercise list and follow the pointers for help.
 
+#Contents#
+* table of contents
+{:toc}
 
-1. From the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ are regarded systematically via the collection of their [[slice categories]] (their "[[hyperdoctrines]]"). If $\mathcal{C}$ is a [[locally cartesian closed category]] then every [[morphism]] $f : X \to Y$ in $\mathcal{C}$ induces an [[adjoint triple]] of functors between the corresponding slice categories
+## The perspective from slice categories
 
-   ([[dependent sum]] $\dashv$ [[base change]] $\dashv$ [[dependent product]])
-   = $(\sum_f \dashv f^* \dashv \prod_f) : \mathcal{C}_{/X} \to \mathcal{C}_{/Y}$.
+From the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ are regarded systematically via the collection of their [[slice categories]] (their "[[hyperdoctrines]]"). If $\mathcal{C}$ is a [[locally cartesian closed category]] then every [[morphism]] $f : X \to Y$ in $\mathcal{C}$ induces an [[adjoint triple]] of functors between the corresponding slice categories
 
-  Many familiar constructions are usefully expressed entirely in terms of these adjoint triples. For instance the [[internal hom]] in a slice category. 
+([[dependent sum]] $\dashv$ [[base change]] $\dashv$ [[dependent product]]) = $(\sum_f \dashv f^* \dashv \prod_f) : \mathcal{C}_{/X} \to \mathcal{C}_{/Y}$.
 
-1. the [[(-1)-truncated|(-1)-truncation]] of an object $X$ is naturally expressed by the [[isContr]]-operation  
+Many familiar constructions are usefully expressed entirely in terms of these adjoint triples. For instance the [[internal hom]] in a slice category. 
+
+## Formulas for (detecting) $n$-truncation
+
+The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type theory with identity types to genuine homotopy type theory is that in terms of [[identity types]] there are simple natural expressions for [[n-truncated|n-truncation]] and detection of $n$-truncation of objects and morphisms. Translated via [[categorical semantics]] to [[homotopy theory]], these formulas turn out to refomulate some basic yoga of model category computation in a new way that hasn't received attention before in homotopy theory, emphasizing the base change adjoint triple. 
+
+1. detecting if an object $X$ is [[(-2)-truncated]] is naturally expressed by the [[isContr]]-operation  
 
    $$
-     \tau_{-1}X = isContr(X) = \sum_{x : X} \prod_{y : X} (x = Y)
+     isContr(X) = \sum_{x : X} \prod_{y : X} (x = Y)
      \,.
    $$
 
@@ -40,11 +48,22 @@ For the moment this page will mostly list pointers with brief comments to other 
      f \times_C^h g \simeq \{ a : A, b : B | (f(a) = g(b)) \}
    $$
 
-1. The [[free loop space object]] of an object $X$ is expressed by the formula
+   Accordingly for the [[homotopy fiber]].
+
+1. For instance the [[free loop space object]] of an object $X$ is expressed by the amusing formula
 
    $$
      \mathcal{L}X = \{x,y : X | (x = y) and (x = y) \} = \{x,y: X | (x,x) = (y,y)\}
      \,.
    $$
+
+
+1. A morphism $f : E \to X$ is [[n-truncated]] if "all of its" [[homotopy fibers]] are $n$-truncated, where "all" is given by the dependent product.
+
+   This way of stating it is considerably more true to the concept than what has been in the literature before. 
+
+1. In particular, it is an [[equivalence in an (infinity,1)-category]] if "all of" its homotopy fiber are contractible.
+
+   $isEquiv(f) = ( \prod_{x : {X}} isContr(hfiber(f,x) )$.
 
 (...)
