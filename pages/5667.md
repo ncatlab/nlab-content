@@ -15,6 +15,10 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 =--
 =--
 
@@ -28,7 +32,7 @@ _KK-theory_ is a "bivariant" joint generalization of [[operator K-theory]] and [
 
 Abstractly, KK-theory is an [[additive category]] of [[C*-algebras]] which is the split-[[exact functor|exact]] and [[homotopy]]-invariant [[localization]] of [[C*Alg]] at the [[compact operators]]. Hence, abstractly KK-theory is a fundamental notion in [[noncommutative topology]], but its standard presentation by [[Fredholm module|Fredolm]]-[[Hilbert bimodules]] as above is rooted in [[functional analysis|functional]] [[analysis]]. A slight variant of this localization process is called _[[E-theory]]_.
 
-Due to this joint root in [[functional analysis]] and ([[noncommutative topology|noncommutative]]) [[cohomology]]/[[homotopy theory]], KK-theory is a natural home of [[index theory]], for [[elliptic operators]] on [[smooth manifolds]] as well as for their generalization to [[equivariant cohomology|equivariant]] situations, to [[foliations]] and generally to [[Lie groupoid]]-theory (via their [[groupoid convolution C*-algebras]]) and [[noncommutative geometry]].
+Due to this joint root in [[functional analysis]] and ([[noncommutative topology|noncommutative]]) [[cohomology]]/[[homotopy theory]] ("[[noncommutative stable homotopy theory]]"), KK-theory is a natural home of [[index theory]], for [[elliptic operators]] on [[smooth manifolds]] as well as for their generalization to [[equivariant cohomology|equivariant]] situations, to [[foliations]] and generally to [[Lie groupoid]]-theory (via their [[groupoid convolution C*-algebras]]) and [[noncommutative geometry]].
 
 As a special case of this, [[quantization]] in its incarnation as [[geometric quantization by push-forward]] has been argued to naturally proceed by [[index theory]] in KK-theory ([Landsman 03](#Landsman03), [Bos 07](#Bos07)). Also the coupling of [[D-branes]] and their [[Chan-Paton bundles]] in [[twisted K-theory]] with [[RR-charge]] in [[string theory]] is naturally captured by the coupling between [[K-homology]] and [[K-cohomology]] in KK-theory (e.g. [Szabo 08](#Szabo)).
 
@@ -258,6 +262,7 @@ $$
 ([Higson 87, theorem 4.8](#Higson))
 
 For more discussion of more explicit presentations of this [[localization]] process for obtaining KK-theory see at _[[homotopical structure on C*-algebras]]_ and also at _[[model structure on operator algebras]]_.
+
 
 ### Relation to homotopy-classes of $\ast$-homomorphisms
  {#RelationToHomotopyClassesOfStarHomomorphisms}
@@ -543,7 +548,7 @@ Further discussion in the context of [[stable homotopy theory]] and [[E-theory]]
 
 ### In the context of the Novikov conjecture
 
-* [[Jonathan Rosenberg]], _Group C*-algebras and Topological Invariants_, Proc. Conf. in Neptun, Romania, 1980, Pitman (London, 1985)
+* [[Jonathan Rosenberg]], _Group C*-algebras and Topological Invariants_ , Proc. Conf. in Neptun, Romania, 1980, Pitman (London, 1985)
  {#Rosernberg80}
 
 ### In the context of the Atiyah-Singer index theorem
