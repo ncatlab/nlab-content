@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohesive $\infty$-Toposes
-+--{: .hide}
-[[!include cohesive infinity-toposes - contents]]
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
 =--
 =--
 =--
@@ -15,7 +15,9 @@
 
 ## Idea
 
-A __discrete space__ is, in general, an object of a [[concrete category]] $Sp$ of spaces that is [[free functor|free]] on its underlying set.  Every [[topological concrete category]] has discrete spaces; so do many other categories, such as [[Diff]] and [[Hausdorff space|Haus Top]].  Non-concrete categories of spaces, such as [[Loc]], usually also have discrete spaces; the concept makes sense as long as there is a given [[forgetful functor]] from $Sp$ to [[Set]].
+A __discrete space__ is, in general, an object of a [[concrete category]] $Sp$ of spaces that is [[free functor|free]] on its underlying set.  
+
+Every [[topological concrete category]] has discrete spaces ([[discrete objects]]); so do many other categories, such as [[Diff]] and [[Hausdorff space|Haus Top]].  Non-concrete categories of spaces, such as [[Loc]], usually also have discrete spaces; the concept makes sense as long as there is a given [[forgetful functor]] from $Sp$ to [[Set]].
 
 The dual notion is that of a [[codiscrete space]].
 
