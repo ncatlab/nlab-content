@@ -124,7 +124,7 @@ Monadic modal type theory with [[idempotent monads]]/monadic reflection is discu
 
 * Oleg Kiselyov and Chung-chieh Shan, _Embedded Probabilistic Programming. Working conference on domain-specific languages_, (2009) ([pdf](http://www.cs.rutgers.edu/~ccshan/rational/dsl-paper.pdf))
 
-* [[Mike Shulman]], _Higher modalities_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
+* [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
  {#Shulman}
 
 Formalization of modalities in [[homotopy type theory]] is discussed also around def. 1.11 of
