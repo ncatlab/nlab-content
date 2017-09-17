@@ -25,7 +25,7 @@
 
 A _Yetter model_ is a [[sigma-model]] [[quantum field theory]] whose target space is a [[discrete infinity-groupoid|discrete]] [[2-groupoid]] and whose [[background gauge field]] is a [[circle n-bundle|circle 4-bundle]].
 
-Together with the [[Dijkgraaf-Witten theory|Dijkgraaf-Witten model]] these form the first two steps in filtering of target spaces by [[homotopy type]] [[truncated|truncation]] of [[schreiber:∞-Chern-Simons theory]] <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">with discrete target spaces</a>.
+Together with the [[Dijkgraaf-Witten theory|Dijkgraaf-Witten model]] these form the first two steps in filtering of target spaces by [[homotopy type]] [[truncated|truncation]] of [[schreiber:∞-Chern-Simons theory]] <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">with discrete target spaces</a>. It is hence also an example of a [[4d Chern-Simons theory]].
 
 
 ## Definition
@@ -42,6 +42,33 @@ Fix
   $$ 
 
 The **Yetter-model** is the <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">∞-Dijkgraaf-Witten theory</a> induced by this data.
+
+## Related concepts
+
+* [[schreiber:∞-Chern-Simons theory]]
+
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+
+  * [[2d Chern-Simons theory]]
+
+  * [[3d Chern-Simons theory]]
+
+  * [[4d Chern-Simons theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[6d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+  * [[infinite-dimensional Chern-Simons theory]]
+
+  * [[AKSZ sigma-model]]
+
+
+
 
 ## References
 
