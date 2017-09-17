@@ -201,7 +201,7 @@ $$T(q) T(p)^{o} = T(h)^{o} T(g).$$
 This in turn amounts to $T$ preserving weak pullbacks. (It actually says $T$ takes pullbacks to weak pullbacks, but this implies $T$ takes weak pullbacks to weak pullbacks because any endofunctor $T$ on $Set$ preserves epis, using the axiom of choice.) 
 =-- 
 
-+-- {: .num_prop} 
++-- {: .num_prop #BC} 
 ###### Proposition 
 The functor $\beta: Set \to Set$ satisfies the Beck-Chevalley condition (and therefore the extension $\beta: Rel \to Rel$ is a strict functor). 
 =-- 
@@ -226,6 +226,16 @@ $$J = \beta(g)(G) \coloneqq \{C \subseteq Y: g^{-1}(C) \in G\}$$
 
 and similarly $h(B) \in J$. It follows that $g(A) \cap h(B) \in J$ so that $g(A) \cap h(B) \neq \emptyset$. Any element $y \in g(A) \cap h(B)$ can be written as $y = g(r)$ and $y = h(s)$ for some $r \in A$ and $s \in B$, and this completes the proof. 
 =-- 
+
+### The 2-poset of $\beta$-relations 
+
+Proposition \ref{BC} is instrumental in developing a context in which relational $\beta$-modules may be seen in terms of (relational) [[generalized multicategories]]. 
+
+In the ordinary theory of generalized multicategories, one starts with a [[cartesian monad]] $T$ on a [[finitely complete category]] $C$, and proceeds to construct a [[bicategory]] of $T$-spans. These are spans of the form 
+
+$$T X \stackrel{p_1}{\leftarrow} R \stackrel{p_2} Y$$ 
+
+to be continued... 
 
 ## Proof of Main Theorem 
 
@@ -366,6 +376,28 @@ in other words $(\mathcal{G}, x)$ belongs to $\xi \circ m_S \circ \beta(\pi_1)$,
 This completes the proof of the Main Theorem (theorem \ref{conc}). 
 
 ## Continuous maps 
+
++-- {: .num_theorem} 
+###### Theorem 
+A function between two topological spaces $f: X \to Y$ is continuous if and only if $\xi \circ f \leq \beta(f) \circ \theta$ for their respective topological notions of convergence $\xi, \theta$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose first that $f$ is continuous, and that $(F, y) \in \beta(X) \times Y$ belongs to $\xi \circ f$, i.e., there is $x$ such that $F \rightsquigarrow x$ and $f(x) = y$. We want to show $\beta(f)(F) \rightsquigarrow y = f(x)$, or that any open set $V$ containing $f(x)$ belongs to $\beta(f)(F)$. The latter means $f^{-1}(V) \in F$, which is true since $f^{-1}(V)$ is an open set containing $x$ and $F \rightsquigarrow x$. 
+
+Now suppose $\xi \circ f \leq \beta(f) \circ \theta$. To show $f$ is continuous, it suffices to show that 
+
+$$f(\bar{A}) \subseteq \widebar{f(A)}$$ 
+
+for any $A \subseteq X$ (easy exercise). For $x \in \bar{A}$, lemma \ref{closed} shows there is $F: \beta(X)$ with $A \in F$ and $F \rightsquigarrow x$. Under the supposition we have $\beta(f)(F) \rightsquigarrow f(x)$, and we also have $f(A) \in \beta(f)(F)$, because $A \subseteq f^{-1}(f(A))$ and $F$ is upward closed and $A \in F$ implies $f^{-1}(f(A)) \in F$. Then again by lemma \ref{closed}, $f(A) \in \beta(f)(F)$ and $\beta(f)(F) \rightsquigarrow f(x)$ implies $f(x) \in \widebar{f(A)}$, as desired. 
+=-- 
+
++-- {: .num_corollary} 
+###### Corollary 
+**(Barr)** 
+The category of topological spaces is equivalent (even isomorphic to) the category of lax $\beta$-modules and lax morphisms between them. 
+=-- 
 
 ## Properties 
 
