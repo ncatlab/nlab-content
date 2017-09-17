@@ -16,6 +16,8 @@ If an [[(∞,1)-functor]] $p : C \to D$ if a Cartesian fibration then it possibl
 This way a Cartesian fibration $p : C \to D$ determines and is determined by an [[(∞,1)-functor]] $D^{op} \to (\infty,1)Cat$ into the
 [[(∞,1)-category of (∞,1)-categories]]. This is the content of the [[(∞,1)-Grothendieck construction]].
 
+Cartesian fibrations over$S$ are the fibrant objects in the [[model structure on marked simplicial over-sets]] over $S$.
+
 ## Definition 
 
 +-- {: .un_defn}
@@ -42,6 +44,8 @@ This is [[Higher Topos Theory|HTT, def. 2.4.2.1]].
 
 ## Properties {#Properties}
 
+### General properties
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -60,51 +64,6 @@ We have:
 ###### Proof
 
 This is [[Higher Topos Theory|HTT, prop. 2.4.2.3 ]].
-
-=--
-
-
-+-- {: .un_prop}
-###### Proposition 
-
-
-The following are equivalent:
-
-* $p : X \to Y$ is a Cartesian fibration and every edge in $X$ is 
-  $p$-Cartesian
-
-* $p$ is a [[right fibration]];
-
-* $p$ is a Cartesian fibration and every fiber is a [[Kan complex]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is  [[Higher Topos Theory|HTT, prop. 2.4.2.4]].
-
-=--
-
-
-
-+-- {: .un_prop}
-###### Proposition (over $\infty$-groupoids)
-
-Let $p : X \to Y$ be a morphism of [[simplicial set]]s where $Y$ is a [[Kan complex]]. Then the following are equivalent:
-
-1. $p$ is a Cartesian fibration
-
-1. $p$ is a coCartesian fibration
-
-1. $p$ is a [[Joyal model structure on simplicial sets|categorical fibration]]
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is  [[Higher Topos Theory|HTT, prop. 3.3.1.8]].
 
 =--
 
@@ -134,6 +93,97 @@ is a Cartesian fibration.
 ###### Proof
 
 This is  [[Higher Topos Theory|HTT, cor. 2.4.2.10]].
+
+=--
+
+
+### Relation to other kinds of fibrations
+
+The notion of [[right fibration]] is a special case of that 
+of Cartesian fibration:
+
++-- {: .un_prop}
+###### Proposition 
+
+
+The following are equivalent:
+
+* $p : X \to Y$ is a Cartesian fibration and every edge in $X$ is 
+  $p$-Cartesian
+
+* $p$ is a [[right fibration]];
+
+* $p$ is a Cartesian fibration and every fiber is a [[Kan complex]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is  [[Higher Topos Theory|HTT, prop. 2.4.2.4]].
+
+=--
+
+
+There are also the "categorical fibrations", the fibrations in the Joyal [[model structure for quasi-categories]] on $sSet$. These turn out not to have much of an intrinsic category theoretic meaning. By the following proposition one can understand the notion of Cartesian fibration as  a suitable refinement of the notion of categorical fibration
+
++-- {: .un_prop}
+###### Proposition 
+
+Every Cartesian $p : X \to Y$ in [[sSet]] is a fibration with respect to the [[Andre Joyal|Joyal]] [[model structure for quasi-categories]] on [[sSet]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is  [[Higher Topos Theory|HTT, prop. 3.3.1.7]].
+
+=--
+
+
+However, when the base is an $\infty$-groupoid, then the difference between Cartesian fibrations and categorical fibrations disappears:
+
++-- {: .un_prop}
+###### Proposition (over $\infty$-groupoids)
+
+Let $p : X \to Y$ be a morphism of [[simplicial set]]s where $Y$ is a [[Kan complex]]. Then the following are equivalent:
+
+1. $p$ is a Cartesian fibration
+
+1. $p$ is a coCartesian fibration
+
+1. $p$ is a [[Joyal model structure on simplicial sets|categorical fibration]]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is  [[Higher Topos Theory|HTT, prop. 3.3.1.8]].
+
+=--
+
+There is however another [[model category]] structure, which does model Cartesian fibrations.
+
++-- {: .un_prop}
+###### Proposition 
+
+Let $sSet^+/Y$ be the [[overcategory]] of the category of [[marked simplicial set]]s over $S$, equipped with the [[model structure on marked simplicial over-sets]]. 
+
+An object $X \to Y$ is fibrant in that model category precisely if 
+
+* the underlying morphism of simplicial sets $X \to Y$ is a Cartesian fibration;
+
+* the marked edges in $X$ are precisely the [[Cartesian morphism]]s.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is  [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
 
 =--
 
