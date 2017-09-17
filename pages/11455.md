@@ -29,6 +29,9 @@ $$
 
 ## References
 
+* {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
+
+
 * Wikipedia, _[Arithmetic genus](https://en.wikipedia.org/wiki/Arithmetic_genus)_
 
 * _[How to see the genus](http://lamington.wordpress.com/2009/09/23/how-to-see-the-genus/)_
