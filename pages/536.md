@@ -54,32 +54,74 @@ _[[essentially algebraic theory|Essentially algebraic theories]]_ allow for part
 
 _[[commutative algebraic theory|Commutative algebraic theories]]_ form an important subclass. Their categories of models are closed: the Hom sets have a natural model-structure, and the enriched Hom-functor has a left adjoint, _tensor-product_. The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
 
-## Lawvere theory of a monad 
+## Lawvere theories and monads 
 
-Let $T: Set \to Set$ be a monad. 
+We flesh out the relationships between theories and monads, starting from the most general situation and then adding conditions to cut down on the size of theories. The term "Lawvere theory" as used here will mean 
+
+### The large theory of a monad
+
+Let $T: Set \to Set$ be a monad, with unit $u: 1 \to T$ and multiplication $m: T T \to T$. 
 
 +-- {: .un_def}
 ######Definition 
-The large Lawvere theory $Th(T)$ of $T$ is the opposite of the [[Kleisli category]], $Kl(T)^{op}$. 
+The **large Lawvere theory** $Th(T)$ **of $T$** is the opposite of the [[Kleisli category]], $Kl(T)^{op}$. 
 =-- 
 
-A _model_ of the Lawvere theory is a functor $X: Kl(T)^{op} \to Set$ that preserves small products. A _homomorphism_ of models is a natural transformation between such functors. (Of course we can interpret models in any category with small products, not just $Set$.) 
+Objects of $Kl(T)^{op}$ are sets $n$, and every object $n$ of $Kl(T)^{op}$ is the $n^{th}$ power of a set $1$, so indeed $Kl(T)^{op}$ is a (locally small) [[infinitary Lawvere theory]]. 
 
-Each algebra $X$ of the monad gives rise to a model of the Lawvere theory: 
+A _model_ of the Lawvere theory is a functor $M: Kl(T)^{op} \to Set$ that preserves small products. A _homomorphism_ of models is a natural transformation between such functors. (Of course we can interpret models in any category with small products, not just $Set$.) 
+
+Each algebra $X$ of the monad gives rise to a model $M_X$ of the Lawvere theory: 
 
 $$Kl(T)^{op} \hookrightarrow Alg(T)^{op} \stackrel{\hom(-, X)}{\to} Set$$ 
 
-and similarly a morphism of algebras $f: X \to Y$ gives rise to a homomorphism of the associated models, so that we have a functor $Alg(T) \to Mod(Th(T))$. 
+and similarly a morphism of algebras $f: X \to Y$ gives rise to a homomorphism $M_f: M_X \to M_Y$, so that we have a functor $M: Alg(T) \to Mod(Th(T))$. 
 
 +-- {: .un_thm}
 ######Theorem 
-This functor is an equivalence. 
+$M$ is an equivalence. 
 =-- 
 
 +-- {: .proof} 
 ######Proof 
-To be continued. 
+The proof that $M$ is fully faithful is akin to the proof of the Yoneda lemma. Suppose $\theta: M_X \to M_Y$ is a natural transformation, and let $\xi: T X \to X$ be the algebra structure of $X$, regarded as an element of $M_X(X)$. Then $\theta$ is uniquely determined from the special value $\phi = \theta(X)(\xi) \in M_Y(X) = Alg(T X, Y)$. Indeed, for any $n \in Ob(Kl(T))$ and algebra map $h: T n \to X$, we have the equation 
+
+$$h = (T n \stackrel{T(h u(n)}{\to} T X \stackrel{\xi}{\to} X)$$ 
+
+whence by chasing the naturality diagram 
+
+$$\array{
+Alg(T X, X) & \overset{\theta(X)}{\to} & Alg(T X, Y) \\
+\mathllap{Alg(T(h u(n)), X)} \downarrow & & \downarrow \mathrlap{Alg(T(h u(n)), Y)} \downarrow \\
+Alg(T n, X) & \underset{\theta(Y)}{\to} & Alg(T n, Y)
+}$$
+
+applied to $\xi$ in the upper left corner, we obtain the formula 
+
+$$\theta(n)(h) = Alg(T(h u_n), Y)(\phi) \in Alg(T n, Y) = M_Y(n)$$ 
+
+(To be continued.) 
+
 =--
+
+### The monad of a locally small Lawvere theory 
+
+Now suppose $C$ is a locally small category with small products, equipped with an object $x$ such that the product-preserving functor 
+
+$$i: Set^{op} \to C: [1] \to x$$ 
+
+(which is unique up to isomorphism) is essentially surjective. For each set $[n]$, let $T[n]$ be the set $C(i[n], i[1])$. This is evidently functorial in the argument $[n]$, i.e., defines a functor $T: Set \to Set$. The evident composite 
+
+$$[n] \cong Set([1], [n]) \cong Set^{op}([n], [1]) \to C(i[n], i[1])$$ 
+
+defines a map $u[n]: [n] \to T[n]$ which is evidently natural in $[n]$: defines a natural transformation $u: 1_{Set} \to T$. 
+
+Morphism composition in $C$ induces a map $\xi: T[m] \times T[n]^m \to T[n]$: 
+
+$$T[m] \times T[n]^m = C(i[m], i[1]) \times C(i[n], i[1])^m \cong C(i[m], i[1]) \times C(i[n], i[m]) \stackrel{comp}{\to} C(i[n], i[1]) = T[n]$$ 
+
+Putting $[m] = T[n]$, there is a map $T T[n] \to T[n]$ that sends $\theta \in T T[n]$ to $\xi(\theta, 1_{T[n]} \in T[n]$. This is evidently natural in $[n]$ and defines a natural transformation $m: T T \to T$. 
+
 
 ## Metaphor
 
