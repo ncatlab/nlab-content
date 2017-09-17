@@ -22,5 +22,5 @@
 | (twisted-)[[self-dual object|self-duality]]-[induced dagger](self-dual+object#RelationToDaggerCompactStructure) of this counit | ([[twisted Umkehr map|twisted]]-)[[Umkehr map]]/[[fiber integration]] |  |
 |  [[linear polynomial functor]]  |  [[correspondence]]  |  space of [[trajectories]]  |
 |  [[linear polynomial functor]] with [[linear implication]] | [[integral kernel]] ([[pure motive]]) | [[prequantized Lagrangian correspondence]]/[[action functional]]  |
-| composite of this [[linear implication]] with daggered-counit followed by unit | [[integral transform]] | [[motivic quantization|motivic]] [[path integral]] |
+| composite of this [[linear implication]] with daggered-counit followed by unit | [[integral transform]] | [[motivic quantization|motivic]]/cohomological [[path integral]] |
 | [[trace]]  | [[Euler characteristic]] | [[partition function]] |
