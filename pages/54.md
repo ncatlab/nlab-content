@@ -15,13 +15,13 @@ I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathem
 
 # my research {#myresearch}
 
-My research has to a large extent been motivated by thinking about mathematical model building in theoretical physics. With co-editors we are currently producing a book that should give a good sense of modern insights into the general abstract structure of the world:
+My research has to a large extent been motivated by thinking about mathematical model building in theoretical physics. With [[Hisham Sati]] I am currently producing a book that should give a good sense of modern insights into the general abstract structure of the world:
 
-* [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]
+* _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
 This is the kind of stuff that I am thinking about.
 
-A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research and other activity is
+A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, teaching and other activity is
 
 * [[schreiber:HomePage|my personal web within the nLab]]
 
