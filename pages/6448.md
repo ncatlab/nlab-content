@@ -33,8 +33,10 @@ An equivalent definition focussing on open sets is this:
 A [[topological space]] $X$ is __completely regular__ if, given a point $a$ of $X$ and an [[open neighbourhood]] $U$ of $a$ in $X$, there is a continuous $f\colon X \to \mathbb{R}$ and a [[real number]] $c$ such that $a \in f^*(\{c\}') \subseteq U$.
 =--
 (Here $f^*(\{c\}')$ is the [[preimage]] under $f$ of the [[complement]] of the [[singleton]] of $c$.  Again, one can force $c = 1$, $f(a) = 0$, and even $f\colon X \to [0,1]$ if desired.)  This definition is suitable for [[constructive mathematics]] based on [[weak countable choice]], [[Markov's principle]], and the [[fan theorem]] (all of which follow from [[excluded middle]]), or in any case if the following interpretations are made:
+
 *  $f$ lands in the [[locale of real numbers]],
 *  the complement $\{c\}'$ is the [[open subspace]] [[apartness|apart]] from $c$.
+
 
 There is also a definition entirely in terms of the lattice of open sets, suitable for [[locales]], which I need to look up again.  (It\'s similar to the localic definition of [[regular space]], but using a stronger notion than well-inside.)
 
@@ -55,6 +57,8 @@ As is usual with the [[separation axioms]], some authors while conflate the mean
 *  Every completely regular space is [[regular space|regular]].
 
 *  The [[natural transformation|natural map]] from a Tychonoff space to its [[Stone-Cech compactification]] (the [[unit of an adjunction|unit of the adjunction]]) really is a [[compactification]]  in that it is the inclusion of a [[dense subspace]] into a [[compact space]].  Conversely, any [[subspace]] of a [[compact Hausdorff space]] must be Tychonoff.
+
+* Without $T_0$, we can say that a completely regular space embeds as a dense subspace of a [[compact regular space]], and any subspace of a compact regular space is complete regular.
 
 
 ## Examples
