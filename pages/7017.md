@@ -1,0 +1,5 @@
+
+
+The formal specification of a [[theory]].
+
+As opposed to [[semantics]].
