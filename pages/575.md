@@ -17,7 +17,7 @@
 
 ## Definition #
 
-A **Galois connection** is a [[dual adjunction]] between [[posets]].
+In order theory the term *Galois connection* can mean both: ''[[adjunction]] between posets'' and ''[[dual adjunction]] between [[posets]]''; the former notion is sometimes called ''monotone Galois connection'' and the latter ''antitone Galois connection''. In this article the term ''Galois connection'' shall mean ''[[dual adjunction]] between [[posets]]''.
 
 More explicitly, given posets $A$ and $B$, a Galois connection between $A$ and $B$ is a pair of order-reversing maps $f:A\to B$ and $g:B\to A$ such that $a\le g(f(a))$ and $b\le f(g(b))$ for all $a\in A$, $b\in B$.
 
