@@ -140,7 +140,7 @@ A **differential T-duality pair** is
 
 =--
 
-This is ([KahleValentino, def. 21](#KahleValentino)). It is the evident differential generalization of the description in [[topological T-duality]] that appears for instance around (7.11) of ([BunkeSchick](#BunkeSchick)).
+This is ([KahleValentino, def. 2.1](#KahleValentino)). It is the evident differential generalization of the description in [[topological T-duality]] that appears for instance around (7.11) of ([BunkeSchick](#BunkeSchick)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -162,7 +162,7 @@ $$
 
 This is itself an example of [[twisted cohomology]] (as discussed there). (We use here the notation at _[[schreiber:differential cohomology in a cohesive topos]]_ .)
 
-The differential T-duality pairs of def. \ref{DifferentialTDualityPair} are those elements $(P,\hat P, \sigma) \in TDualityPairs(X)_{conn}$ for which the [[twisted cohomology|twist]] $tw(P,\hat P, \sigma) \in H^4_{diff}(X)$ in [[ordinary differential cohomology]] has an underlying tricial [[circle n-bundle|circle 3-bundle]]. We could restrict the homotopy pullback to these, but it seems natural to include the full collection of twists. (Notice that these "twist" here are not the twists in "twisted K-theory", rather we are observing that already the notion of T-duality pairs itself is an example of cocycles in twisted cohomology in the general sense.)
+The differential T-duality pairs of def. \ref{DifferentialTDualityPair} are those elements $(P,\hat P, \sigma) \in TDualityPairs(X)_{conn}$ for which the [[twisted cohomology|twist]] $tw(P,\hat P, \sigma) \in H^4_{diff}(X)$ in [[ordinary differential cohomology]] has an underlying trivial [[circle n-bundle|circle 3-bundle]]. We could restrict the homotopy pullback to these, but it seems natural to include the full collection of twists. (Notice that these "twist" here are not the twists in "twisted K-theory", rather we are observing that already the notion of T-duality pairs itself is an example of cocycles in twisted cohomology in the general sense.)
 
 Notice that the above analogous to the notion of _[[differential string structure]]s in $StringBund(X)_{tw,conn}$ over $X$: as discussed in detail there, this is the [[homotopy pullback]]
 
