@@ -188,7 +188,7 @@ $$
 ### On Lie algebras {#OnLieAlgebras}
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 For $\mathfrak{g}$ a [[Lie algebra]], this definition of invariant polynomials is equivalent to more traditional ones.
@@ -228,7 +228,8 @@ for all $t_\bullet \in  \mathfrak{g}$.
 =--
 
 
-### On semisimple Lie algebras {#SemisimpLie}
+### On semisimple Lie algebras 
+ {#SemisimpLie}
 
 See [[Killing form]], [[string Lie 2-algebra]].
 
@@ -472,6 +473,22 @@ Therefore in horizontal equivalence classes of invariant polynomials on $(b \mat
 ###### Proposition
 
 =--
+
+### On reductive Lie algebras 
+ {#OnReductiveLieAlg}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathfrak{g}$ be a [[reductive Lie algebra]]. Then the subalgebra of invariant polynomials in the [[Weil algebra]] is the [[free construction|free graded algebra]] on the [[graded vector space]] of indecomposable invariant polynomials.
+
+This graded vector space has a vector space [[isomorphism]] of degree -1 to the graded vector space of add generators of the [[Lie algebra cohomology]] $H^\bullet(\mthafrak{g}) = H^\bullet(CE(\mathfrak{g}))$. 
+
+=--
+
+This appears for instance as ([GHV, vol III, page 242, theorem I](#GHV)).
+
+
 
 ## Role in $\infty$-Chern-Weil theory
 
@@ -729,6 +746,11 @@ More details for the moment at [[∞-Chern-Weil theory introduction]].
 * **invariant polynomial**
 
 ## References
+
+An standard textbook account of the traditional theory is in volume III of 
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+ {#GHV}
 
 The notion of invariant polynomials of $L_\infty$-algebras has been introduced in 
 
