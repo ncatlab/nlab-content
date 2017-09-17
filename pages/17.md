@@ -577,7 +577,7 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
         \end{matrix}
         $$
 
-1. _Include an image file_: This is the quick-and-dirty method.  To create the image file, either use a program like [textogif](http://www.fourmilab.ch/webtools/textogif/textogif.html) to create the image from a TeX file locally, or use a web service like _[codecogs](http://www.codecogs.com/components/equationeditor/equationeditor.php)_ or _[QuickLatex](http://www.quicklatex.com/)_.  Then follow the instructions [here](http://golem.ph.utexas.edu/instiki/show/File+Uploads) for putting it on the lab.
+1. _Include an image file_: This is the quick-and-dirty method.  To create the image file, either use a program like [textogif](http://www.fourmilab.ch/webtools/textogif/textogif.html) to create the image from a TeX file locally, or use a web service like _[codecogs](http://www.codecogs.com/components/equationeditor/equationeditor.php)_ (warning, codecogs xy-support seems to be broken now) or _[QuickLatex](http://www.quicklatex.com/)_ or [presheaf.com](http://presheaf.com).  Then follow the instructions [here](http://golem.ph.utexas.edu/instiki/show/File+Uploads) for putting it on the lab.
 
 1. _Include SVG_: See [here](#IncludeSVG) for the general procedure. This is arguably a "better" method, since unlike an image (and like MathML) SVG can be scaled with the text, and (in theory) edited by other users without recreating the entire diagram.  There are various methods for producing SVG.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]], [[oriental]] and [[comma object]].  Once you have some SVG, you can modify it by hand to put in the itex math; use the SVG `<foreignObject>` tag with a `$...$` inside it.  You need to put `markdown="1"` on the `<foreignObject>` tag, or else on a `<g>` tag containing it.
 
@@ -585,7 +585,7 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
    You can also use the SVG-editor to create and edit SVGs right here in the lab.  For more details see [this entry](#svgedit) below.
 
-1. Use the CodeCogs-server to produce [xypic](http://www.tug.org/applications/Xy-pic/)-coded diagrams.
+1. Use the CodeCogs-server to produce [xypic](http://www.tug.org/applications/Xy-pic/)-coded diagrams (WARNING: this seems to be broken now, try a similar service such as [presheaf.com](http://presheaf.com)).
 
    For that, code a diagram in _xypic_ as usual. Then write the code
    _all in one line without any spaces_ and in addition replace all
