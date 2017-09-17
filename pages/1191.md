@@ -33,8 +33,7 @@ _Toby_:  It means that if a weakly inaccessible cardinal exists, then a strongly
 
 [[Mike Shulman|Mike]]: I don't believe that.  Suppose that the smallest weakly inaccessible is not strongly inaccessible, and let $\kappa$ be the smallest strongly inaccessible.  Then $V_\kappa$ is a model of set theory in which there are weakly inaccessibles but not strong ones.  I'm almost certain there is no reason for the smallest weakly inaccessible to be strongly inaccessible.
 
-JCMcKeown: Surely $\beth_\kappa$ has cofinality at most $\kappa$, so it can't be regular.  Maybe the strengthening involves some forcing or other change of universe? E.g., you can forcibly shift $2^\lambda = \lambda^+$ for $\lambda \lt \kappa$, and then by weak inaccessibility, etc... I *think*.  Don't trust me.
-
+JCMcKeown: Surely $\beth_\kappa$ has cofinality at most $\kappa$, so it can't be regular.  Maybe the strengthening involves some forcing or other change of universe? E.g., you can forcibly shift $2^\lambda = \lambda^+$ for $\lambda \lt \kappa$, and then by weak inaccessibility, etc... I *think*.  Don't trust me. ---- (some days later) More than that: since the ordinals are well ordered, if there is any strongly inaccessible cardinal *greater* than $\kappa$, then there is a *least* one, say $\theta$.  Then $V_\theta$ is a universe with a weakly inaccessible cardinal and no greater strongly inaccessible cardinal. Ih! Mike said that already... So whatever construction will have to work the other way around: if there is a weakly inaccessible cardinal that isn't strongly inaccessible, and if furthermore a weakly inaccessible cardinal implies a strongly inaccessible cardinal, then the strongly inaccessible cardinal implied must be less than $\kappa$.  And that sounds really weird.
 =--
 
 ## Properties
