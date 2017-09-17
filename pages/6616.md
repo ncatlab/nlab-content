@@ -130,7 +130,7 @@ and that we may regard this as a morphism of $L_\infty$-algebroids
 $$
   \mathbf{\omega}
    : 
-  \mathfrak{T}\mathfrak{P} \to \mathfrak{T}b^2 \mathbb{R}
+  \mathfrak{T}\mathfrak{P} \to \mathfrak{T}b^3 \mathbb{R}
 $$
 
 The corresponding [[infinity-Chern-Weil theory|infinity-Chern-Weil homomorphism]] that we need to compute is given by the [[∞-anafunctor]]
@@ -184,7 +184,7 @@ $$
   \int_{\Delta^1}
     \omega_{i j} (d_{dR} X^i + \eta^i) \wedge d_{dR} \eta^j
   \in 
-  \Omega^2(U)
+  \Omega^3(U)
   \end{aligned}
   \,.
 $$
@@ -224,6 +224,12 @@ This completes the proof.
 
 * [[smooth ∞-groupoid]]
 
+
+## References
+
+A bit of discussion is in section 4.3 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
 
 
 [[!redirects symplectic ∞-groupoid]]
