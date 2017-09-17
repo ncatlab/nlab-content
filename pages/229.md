@@ -25,9 +25,11 @@ $$
 
 The [[category]] with abelian groups as [[object|objects]] and group homomorphisms as [[morphism|morphisms]] is called [[Ab]]. 
 
+Every abelian group has the canonical structure of a [[module]] over the [[commutative ring]] $\mathbf{Z}$.  That is, [[Ab]] = $\mathbf{Z}$-[[Mod]].
+
 ## Properties
 
-### In homtopy theory
+### In homotopy theory
 
 From the [[nPOV]], just as a [[group]] $G$ may be thought of as a ([[pointed object|pointed]]) [[groupoid]] $\mathbf{B}G$ with a single object -- as discussed at [[delooping]] -- an abelian group $A$ may be understood as a (pointed) [[2-groupoid]] $\mathbf{B}^2 A$ with a single object and a single morphism: the delooping of the delooping of $A$.
 
@@ -71,6 +73,7 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 * [[tensor product of abelian groups]], [[direct sum of abelian groups]]
 
 * [[free abelian group]], [[finite abelian group]]
+
 
 * [[abelianization]]
 
