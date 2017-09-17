@@ -29,8 +29,15 @@ The term 'point' is often used for a [[global element]]; that is the meaning, fo
 
 ## Related concepts
 
+### As homotopy types
+
 [[!include homotopy n-types - table]]
 
+### As geometric objects
+
+* [[geometric point]]
+
+* [[generalized element]]
 
 
 [[!redirects point]]
