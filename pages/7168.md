@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -54,6 +65,10 @@ $$
 
 So a quadratic refinement always exists when $2 \in k$ is invertible. Otherwise its existence is a non-trivial condition.
 
+
+## Related concepts
+
+* [[polarization identity]]
 
 ## References
 
