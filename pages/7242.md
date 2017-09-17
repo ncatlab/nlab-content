@@ -1,0 +1,7 @@
+Nick Gilbert is a British mathematician based in Heriot Watt universtiy in Edinburgh.
+
+* [Homepage](http://www.ma.hw.ac.uk/~nick/)
+
+* [Recent preprints and publications](http://www.ma.hw.ac.uk/~nick/ndg_research.html)
+
+category:people
