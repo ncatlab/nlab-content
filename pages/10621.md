@@ -1,5 +1,5 @@
 
-* [Wikipediak entry](http://en.wikipedia.org/wiki/Sergei_Novikov_(mathematician))
+* [Wikipediak entry](http://en.wikipedia.org/wiki/Sergei_Novikov_(mathematician)
 
 ## Related entries
 
