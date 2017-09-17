@@ -1,4 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A **large category** is a [[category]] which is not [[small category|small]].
+
+## Properties
 
 Many tools and results about small categories, in particular concerning [[limit]]s indexed by such a category, fail for large categories. There are various notions and techniques to deal with this problem and reduce or relate large categories to small categories as much as possible:
 
@@ -6,7 +29,11 @@ Many tools and results about small categories, in particular concerning [[limit]
 
 * Many large categories that arise in practice are (even essentially) large but still *accessible*.  An [[accessible category]] is a large category which behaves like the category of [[ind-object]]s of a small category and is therefore, while itself large, entirely governed by a small category.
 
-See also: [[foundations]], [[locally small category]].
 
+## Related concepts
+
+* [[small category]], [[locally small category]]
+
+* **large category**
 
 [[!redirects large categories]]
