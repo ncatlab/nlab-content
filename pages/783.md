@@ -1,7 +1,7 @@
 
 The European mathematician __Alexander Grothendieck__ (in French sometimes Alexandre Grothendieck), created a very influential body of work foundational for ([[algebraic geometry|algebraic]]) [[geometry]] but also for modern [[mathematics]] more generally. He is widely regarded as a singularly important figure of 20th century mathematics and his ideas continue to be highly influential in the 21st century. 
 
-* [Wikiedia article](http://en.wikipedia.org/wiki/Alexander_Grothendieck)
+* [Wikipedia article](http://en.wikipedia.org/wiki/Alexander_Grothendieck)
 
 Initially working on [[topological vector spaces]] and [[analysis]], Grothendieck then made revolutionary advances in [[algebraic geometry]] by developing [[sheaf and topos theory]] and [[abelian sheaf cohomology]] and formulating algebraic geometry in these terms ([[locally ringed spaces]], [[schemes]]). Later [[topos theory]] further developed independently and today serves as the foundation also for other kinds of [[geometry]]. Notably its [[homotopy theory|homotopy theoretic]] refinement to [[higher topos theory]] serves as the foundation for modern [[derived algebraic geometry]].
 
