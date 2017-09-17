@@ -25,98 +25,27 @@
 * automatic table of contents goes here
 {: toc}
 
-## Definition
+## Definitions
 
-The category of **von Neumann algebras** (also known as **W\*-algebras**)
-is the [[subcategory]] of the category of [[C*-algebra|C*-algebras]]
-consisting of C\*-algebras that admit a predual and morphisms of C\*-algebras that admit a predual.
+Traditionally, a __von Neumann algebra__ is a unital $*$-subalgebra of the algebra of [[bounded operators]] on some complex [[Hilbert space]] that is closed in [[weak operator topology]].  As such is automatically closed in the [[norm topology]], these form a (particularly nice) class of $C^*$-[[C-star-algebra|algebras]].
 
-More precisely, a von Neumann algebra is a C\*-algebra $A$
-such that there exits a [[Banach space]] $V$ (a **predual**)
-whose dual Banach space $V^*$ is isomorphic to the underlying Banach space of $A$.
-Similarly, a morphism of von Neumann algebras $f\colon A\to B$
-is a morphism of C\*-algebras such that there exists a
-morphism of Banach spaces $V\to W$ whose dual is isomorphic to the underlying morphism of Banach spaces of $f$.
+The definition above equips each von Neumann algebra with a representation on a Hilbert space, but there is also an intrinsic definition that gives us the algebra in its own right.  (Compare the historic definitions of $C^*$-algebras, as well as other examples of [[concrete and abstract structures]].)
 
-In the above definition a Banach space is a complex Banach space
-and a morphism of Banach spaces is a short map (linear map of norm at most 1).
-By a C\*-algebra we mean a complex unital C\*-algebra,
-and by a morphism of C\*-algebras we mean a unital morphism.
+A __$W^*$-algebra__ is a unital $C^*$-[[C-star-algebra|algebra]] that admits a predual (see immediately below); a $W^*$-[[morphism]] is a unital $*$-morphism that admits a predual.  In this way, the [[category]] of $W^*$-algebras becomes a [[subcategory]] of the category of (unital) $C^*$-algebras.
+
+In more detail, a $W^*$-algebra or (abstract) von Neumann algebra is a unital $C^*$-algebra $A$ such that there exists a [[Banach space]] $A_*$ (a __[[predual]]__) whose dual Banach space $(A_*)^*$ is [[isometric isomorphism|isometrically isomorphic]] to the underlying Banach space of $A$:
+$$ A_*^* \upset{i_A}\to A .$$
+Similarly, a morphism of such algebras $f\colon A \to B$ is a morphism of unital $C^*$-algebras (a unital morphism of $*$-algebras) such that there exists a [[short linear map]] between Banach spaces $f_*\colon B_* \to A_*$ whose dual is isomorphic to the underlying morphism of Banach spaces of $f$:
+$$ \array {
+   A_*^*                  & \upset{i_A}   & A \\
+   \llap{f_*^*}\downarrow &               & \rlap{f}\downarrow \\
+   B_*^*                  & \downset{i_B} & B
+} $$
 
 
-## History, alternative definitions, and terminology
+## Terminology
 
-Von Neumann originally defined von Neumann algebras
-(back then they were called rings of operators)
-as unital \*-subalgebras of $B(H)$ for some Hilbert space $H$
-that are closed in any of the several [[operator topology|operator topologies]] on $B(H)$ (except for the norm topology, which
-gives C\*-algebras);
-the ultraweak topology is most convenient for our purposes.
-We equip a von Neumann algebra with the topology
-induced by its inclusion into $B(H)$ equipped with the ultraweak topology.
-A morphism of von Neumann algebras can then be defined
-as a morphism of \*-algebras that is continous in the ultraweak topology.
-Here it is important that we disregard the data of the inclusion
-of a von Neumann algebra into $B(H)$ and treat it as an
-algebra on its own.
-
-Alternatively, we can define a von Neumann algebra $A$
-as a \*-algebra that admits an injective morphism into $B(H)$
-for some Hilbert space $H$ such that the image of the inclusion
-is closed in the ultraweak topology on $B(H)$.
-One can then prove that the topology induced on $A$
-by the ultraweak topology on $B(H)$ does not depend
-on the choice of $H$ or the particular inclusion of $A$ into $B(H)$.
-Hence one can define a morphism of von Neumann algebras
-as a morphism of \*-algebras that is continuous in the ultraweak topology.
-
-One disadvantage of such definitions is that they make it difficult
-to separate properties of von Neumann algebras
-from properties of their representations on Hilbert spaces.
-For example, as we have already observed, all faithful representations
-induce the same ultraweak topology on a von Neumann algebra.
-On the other hand, different representations
-induce _different_ weak topologies on a von Neumann algebra.
-This is manifestly clear in the approach with preduals,
-where the ultraweak topology was defined canonically,
-but unclear in the approach under discussion.
-
-Furthermore, not all von Neumann algebras come automatically
-equipped with a representation on a Hilbert space.
-As an example one can cite von Neumann algebras constructed using a universal property, e.g., the coproduct of two von Neumann algebras.
-Of course, such a representation can always be constructed
-(e.g., one can take Haagerup's standard form),
-but it requires additional work, which is completely
-unnecessary in the approach with preduals.
-
-Finally, the definitions under discussion unnecessarily
-confuse two very distinct notions: algebras and modules (or representations).
-As we will see below, the notion of a faithful representation
-of a von Neumann algebra precisely corresponds to the second
-definition in this section.
-One can then talk about morphisms of (faithful)
-representations of von Neumann algebras, which are very different 
-from morphisms of von Neumann algebras themselves.
-In the old terminology morphisms of representations
-of von Neumann algebras are sometimes very confusingly
-called _spatial morphisms of von Neumann algebras_
-(as opposed to _abstract morphisms_ that we discussed above).
-Similarly, representations of von Neumann algebras
-are sometime very confusingly called _von Neumann algebras_,
-whereas von Neumann algebras themselves are called _W\*-algebras_.
-
-The situation described above is very similar to the situation
-with smooth manifolds: one can define a smooth manifold
-as a sheaf with certain properties
-or as a smooth embedding into $R^n$.
-The latter approach makes it difficult to separate
-properties of smooth manifolds from properties of
-embeddings of smooth manifolds (think about the curvature
-versus the second fundamental form),
-not all smooth manifolds come equipped with an embedding into $R^n$
-(think of the coproduct of smooth manifolds),
-and finally, the latter definition unnecessarily confuses
-smooth manifolds and embeddings of smooth manifolds.
+Von Neumann algebras were first studied in a concrete setting, and the term 'von Neumann algebra' is sometimes still used explicitly for the [[concrete structure]] of a $W^*$-algebra (which is as we have defined it) equipped with a (free) representation on a [[Hilbert space]], or even more concretely in the original sense from the first paragraph.  Similarly, the term "spatial morphism of von Neumann algebras" may be used to refer to a morphism of such modules.
 
 The [[nPOV]] dictates that a clear distinction between
 the categories of algebras and modules must be maintained,
@@ -125,7 +54,7 @@ Hence we stick to the modern terminology, which also seems
 to be preferred in new papers on von Neumann algebras,
 see for example [arXiv:1110.5671v1](http://arxiv.org/abs/1110.5671).
 
-W\*-algebras should not be confused with W-algebras in (logarithmic) conformal field theory.
+$W^*$-algebras should not be confused with $W$-algebras in (logarithmic) conformal field theory.
 
 
 ## Sakai's theorem and properties of preduals
@@ -295,7 +224,6 @@ $$
 
 Then, by the [[spectral theorem]] every selfadjoint element A is represented by it's spectral measure E via
 $$
-
 A = \integral_{-\|A\|}^{\|A\|} \lambda E(d\lambda)
 $$
 The integral converges in norm to A and all spectral projections are elements of the von Neumann algebra. It immediatly follows that the set of finite sums of multiples of projections is norm dense in every von Neumann algebra. 
