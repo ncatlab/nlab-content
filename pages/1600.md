@@ -20,14 +20,16 @@
 
 ## Idea
 
-Orbispaces are to [[topological spaces]] what [[orbifold]]s are to [[manifold]]s. An orbispace is a topological generalization of an orbifold, a class of [[topological stack]]s with locally finite stabilizers.
+An _orbispace_ is a [[space]], particularly a [[topological stack]],  that is locally modeled on the [[homotopy quotient]]/[[action groupoid]] of a [[locally compact topological space]] by a rigid [[group]] [[action]].
+
+Orbispaces are to [[topological spaces]] what [[orbifolds]] are to [[manifolds]]. 
 
 
 ## References
 
-A detailed but elementary approach via atlases can be found in 
+A detailed but elementary approach via [[atlases]] can be found in 
 
-* Weimin Chen, A homotopy theory of orbispaces ([arXiv](http://arxiv.org/abs/math/0102020))
+* Weimin Chen, _A homotopy theory of orbispaces_ ([arXiv:math/0102020](http://arxiv.org/abs/math/0102020))
 
 and another approach is sketched in 
 
