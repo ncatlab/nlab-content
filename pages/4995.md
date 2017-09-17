@@ -76,6 +76,37 @@ where $f_!$ preserves [[finite limit|finite]] [[(∞,1)-product]].
 
 =--
 
++-- {: .un_defn #PiecesHavePoints}
+###### Definition
+
+We say that **pieces have points** for an object
+$X$ in a cohesive $(\infty,1)$-topos $\mathbf{H}$ 
+if the morphism
+
+$$
+  \pi_0 \Gamma X \to \pi_0 \Gamma Disc \Pi X \simeq \pi_0 \Pi X
+$$ 
+
+is an [[epimorphism]].
+
+=--
+
+Here the first morphismism is the image under $\Gamma$ and $\pi_0 : \infty Grpd \to Set$ of the 
+$(Disc \dashv \Gamma)$-[[unit of an adjunction|unit]] and the second the image under $\pi_0$ of an inverse of the $(\Pi \dashv Disc)$-counit (which is invertible because $Disc$ is [[full and faithful (∞,1)-functor|full and faithful]] in a [[local (∞,1)-topos]].)
+
++-- {: .un_defn #DiscreteObjectsAreConcrete}
+###### Definition
+
+We say **discrete objects are concrete** in $\mathbf{H}$ if for all
+$S \in [[∞Grpd]]$ the morphism
+
+$$
+  Disc S \to coDisc \Gamma Disc S \stackrel{\simeq}{\to} coDisc S
+$$
+
+induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1)-topos|homotopy sheaves]].
+
+=--
 
 ## Properties
 
@@ -1561,7 +1592,7 @@ In every [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ there is an intrin
 +-- {: .un_def}
 ###### Definition
 
-For $X \in \mathbf{H}$ an object, write $\mathbf{\Pi}_{dR}X$
+For $X \in \mathbf{H}$ an object, write $\mathbf{\Pi}_{dR}X := * \coprod_X \mathbf{\Pi} X$
 for the [[(∞,1)-colimit|(∞,1)-pushout]]
 
 $$
@@ -1576,7 +1607,7 @@ $$
 $$
 
 For $* \to A$ any [[pointed object]] in $\mathbf{H}$, write 
-$\mathbf{\flat}_{dR} A$ for the [[(∞,1)-pullback]]
+$\mathbf{\flat}_{dR} A : * \prod_A \mathbf{\flat}A$ for the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -1744,6 +1775,7 @@ where $(\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma}) : \mathbf{H} 
 This follows by the same kind of argument as above.
 
 =--
+
 +-- {: .un_def}
 ###### Definition
 
@@ -1849,6 +1881,50 @@ since the pullback of an equivalence is an equivalence.
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+If in a cohesive $\mathbf{H}$  _[pieces have points](#PiecesHavePoints)_ for $X \in \mathbf{H}$, precisely if $\mathbf{\Pi}_{dR} X $ is
+[[connected]] in that $\pi_0 \mathbf{H}(*, \mathbf{\Pi}_{dR}X) = *$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $\Gamma$ preserves [[(∞,1)-colimit]]s in a cohesive $(\infty,1)$-topos we have
+
+$$
+  \begin{aligned}
+    \mathbf{H}(*, \mathbf{\Pi}_{dR}X)
+    & \simeq
+    \Gamma \mathbf{\Pi}_{dR} X
+    \\  
+    & \simeq
+    * \coprod_{\Gamma X} \mathbf{\Gamma \mathbf{\Pi}X}  
+    \\
+    & \simeq
+    * \coprod_{\Gamma X} \mathbf{\Pi X}  
+  \end{aligned}
+  \,,
+$$
+
+where in the last step we used that $Disc$ is a [[full and faithful (∞,1)-functor|full and faithful]], so that there is an equivalence $\Gamma \mathbf{\Pi}X := \Gamma Disc \Pi X \simeq \Pi X$.
+
+For instance by [[presentable (infinity,1)-category|presenting]] $\Gamma X, \Pi X \in \infty Gprd$ in $sSet_{Quillen}$ we find that if the connected components of $\Gamma X$ surject on those of $\Pi X$, then the last pushout is connected.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+In summary this means that in a cohesive $(\infty,1)$-topos the objects $\mathbf{\Pi}_{dR} X$ have the abstract properties of [[de Rham schematic homotopy type]]s.
+
+In the [Examples](#Examples) we will see that, indeed, the intrinsic de Rham cohomology $H_{dR}(X, A) {:=} \pi_0 \mathbf{H}(\mathbf{\Pi}_{dR} X, A)$ reproduces ordinary de Rham cohomology in degree $g\gt 1$.
+
+In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in degree 1 we find that it reproduces closed 1-forms, not divided out by exact forms. This difference to ordinary de Rham cohomology in the lowest two degrees may be interpreted in terms of the obstruction-theoretic meaning of de Rham cohomology by which we essentially characterized it above: we have that the intrinsic $H_{dR}^n(X,K)$ is the home for the obstructions to flatness of $\mathbf{B}^{n-2}K$-[[principal ∞-bundle]]s. For $n = 1$ this are groupoid-principal bundles over the _groupoid_ with $K$ as its space of objects. But the 1-form curvatures of groupoid bundles are not to be regarded modulo exact forms. More details on this are at [[circle n-bundle with connection]].
+
+=--
 
 ### $\infty$-Lie algebras {#LieAlgebras}
 
@@ -1865,7 +1941,8 @@ $$
   \Pi \mathbf{B}\mathfrak{g} \simeq *
 $$
 
-we call its [[loop space object]] $\mathfrak{g} := \Omega_* \mathbf{B}G$ an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
+we call its [[loop space object]] 
+$\mathfrak{g} := \Omega_* \mathbf{B}\mathfrak{g}$ an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
 
 =--
 
@@ -2648,7 +2725,7 @@ More discussion is at [[schreiber:∞-Chern-Simons theory]].
 +-- {: .un_prop}
 ###### Proposition
 
-For $C$ an [[∞-cohesive site] [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ over $C$ is a cohesive $(\infty,1)$-topos.
+For $C$ an [[∞-cohesive site] the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ over $C$ is a cohesive $(\infty,1)$-topos satisfying the two axioms _[pieces have points](#PiecesHavePoints)_ and _[discrete objects are concrete](#DiscreteObjectsAreConcrete)_ .
 
 =--
 
