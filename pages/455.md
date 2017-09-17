@@ -35,23 +35,42 @@ A __Boolean lattice__ is a [[poset]] such that:
 *  given an element $a$, there is an element $\neg{a}$ (a [[complement]] of $a$) such that $a \wedge \neg{a} \leq \bot$ and $\top \leq a \vee \neg{a}$;
 *  given elements $a$, $b$, and $c$, we have $a \wedge (b \vee c) \leq (a \wedge b) \vee (a \wedge c)$.
 
-Although we don\'t say so, we can prove that $\top$, $\bot$, $a \wedge b$, $a \vee b$, and $\neg{a}$ are unique; this makes it more clear what the last two axioms actually mean.
+Although we don\'t say so, we can prove that $\top$, $\bot$, $a \wedge b$, $a \vee b$, and $\neg{a}$ are unique; this makes it more clear what the last two axioms actually mean. 
+
+Notice that a poset carries at most one Boolean algebra structure, making it [[stuff, structure, property|property-like structure]]. (The same is true of [[Heyting algebra]] structure.) 
 
 Alternatively, a __Boolean algebra__ is a [[set]] equipped with elements $\top$ and $\bot$, binary operations $\wedge$ and $\vee$, and a unary operation $\neg$, satisfying these identities:
 
-*  $a \wedge \top = a$,
-*  $a \vee \bot = a$,
-*  $a \wedge (b \wedge c) = (a \wedge b) \wedge c$,
-*  $a \vee (b \vee c) = (a \vee b) \vee c$,
-*  $a \wedge b = b \wedge a$,
-*  $a \vee b = b \vee a$,
-*  $a \wedge (a \vee b) = a$,
-*  $a \vee (a \wedge b) = a$,
-*  $a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)$,
-*  $a \wedge \neg{a} = \bot$,
-*  $a \vee \neg{a} = \top$.
+1.  $a \wedge \top = a$,
+1.  $a \vee \bot = a$,
+1.  $a \wedge (b \wedge c) = (a \wedge b) \wedge c$,
+1.  $a \vee (b \vee c) = (a \vee b) \vee c$,
+1.  $a \wedge b = b \wedge a$,
+1.  $a \vee b = b \vee a$,
+1.  $a \wedge (a \vee b) = a$,
+1.  $a \vee (a \wedge b) = a$,
+1.  $a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)$,
+1.  $a \vee (b \wedge c) = (a \vee b) \wedge (a \vee c)$,
+1.  $a \wedge \neg{a} = \bot$,
+1.  $a \vee \neg{a} = \top$.
 
-We can recover the poset structure: $a \leq b$ iff $a \wedge b = a$.
+We can recover the poset structure: $a \leq b$ iff $a \wedge b = a$. There is a certain amount of redundancy or overkill in this axiom list; for example, it suffices to give just axioms 1, 2, 5, 6, 9, 10, 11, 12. 
+
+#### Principle of duality 
+
+However it is defined, the theory of Boolean algebras is **self-dual** in the sense that for any sentence stated in the language $(\leq, \wedge\, vee, 0, 1, \neg)$, the sentence is a theorem in the theory of Boolean algebras iff the dual sentence, obtained by interchanging $\wedge$ and $\vee$, $0$ and $1$, and replacing $\leq$ by the opposite relation $\leq^{op}$, is also a theorem. 
+
+This incredibly useful result can be rephrased in several ways; for example, if a poset $B$ is a Boolean algebra, then so is its opposite $B^{op}$. 
+
+#### Boolean rings 
+
+A [[Boolean ring]] is a [[commutative ring]] with [[identity]] for which every element is idempotent: $x^2 = x$. The commutativity assumption follows from the others: we could define it to be a ring in which every element is idempotent. It should be noted that in a Boolean ring, we have $2 x = x + x = 0$ for all $x$. 
+
+The notion of Boolean algebra is equivalent to the notion of Boolean ring in the sense that their categories of models are equivalent. Given a Boolean ring, we define the operation $\wedge$ to be multiplication, and the operation $\vee$ by $x \vee y = x + y + x y$, and the operation $\neg$ by $\neg x = 1 + x$. The relation $x \leq y$ may be defined by the condition $x y = x$. In the other direction, given a Boolean algebra, we may define addition by [[symmetric difference]]: $x + y = (x \vee y) \wedge \neg(x \wedge y)$. 
+
+This equivalence of Boolean rings and Boolean algebras was exploited by [[Marshall Stone]] to give his theory of [[Stone duality]], in which every Boolean algebra $B$ is a Boolean algebra of sets; more particularly the Boolean algebra of clopen (closed and open) sets of a topological space $Spec(B)$, the **Stone space** of $B$. The notation intentionally suggests that the Stone space is the underlying space of the [[spectrum]] of $B$ as Boolean ring, taking "spectrum" in the sense of algebraic geometry. 
+
+A Stone space may be characterized abstractly as a [[topological space]] that is [[compact space|compact]], [[Hausdorff space|Hausdorff]], and [[totally disconnected space|totally disconnected]]. Stone duality asserts among other things that every such space is the spectrum of the Boolean algebra of clopen subsets. 
 
 ## Homomorphisms
 
