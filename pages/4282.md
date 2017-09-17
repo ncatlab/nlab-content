@@ -1,3 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A __$*$-algebra__ is an [[associative algebra]] (or even a [[nonassociative algebra]]) $A$ equipped with an [[anti-involution]].
 
 In more detail, begin with a [[commutative ring]] $K$ equipped with an [[involution]], written $x \mapsto \bar{x}$.  (The usual example for $K$ is the [[field]] $\mathbb{C}$ of [[complex numbers]], but the concept of $*$-algebra makes sense in more general contexts.  Note that we can take *any* commutative ring $K$ and simply define $\bar{x} \coloneqq x$.)  Then a __$K$-$*$-algebra__ (a $*$-algebra over $K$) is a $K$-[[module]] $A$ equipped with a $K$-[[bilinear map]] $A,A \to A$, written as multiplication (and often assumed to be associative) and a $K$-antilinear map $A \to A$, written as $x \mapsto x^*$, such that
@@ -7,7 +25,13 @@ In more detail, begin with a [[commutative ring]] $K$ equipped with an [[involut
 
 The claim that the anti-involution is $K$-antilinear means that $(r x)^* = \overline{r} x^*$ for all $r$ in $K$ and all $x$ in $A$.
 
-When $K$ is $\mathbb{C}$ (or the field $\mathbb{R}$ of [[real numbers]]), we can additionally ask that the $*$-algebra be a [[Banach algebra]]; then it is a __Banach $*$-algebra__.  Special cases of this are $C^*$-[[C-star-algebra|algebras]] and $W^*$-[[W-star-algebra|algebras]].
+## Banach star-algebras
+
+When $K$ is $\mathbb{C}$ (or the field $\mathbb{R}$ of [[real numbers]]), we can additionally ask that the $*$-algebra be a [[Banach algebra]]; then it is a __Banach $*$-algebra__.  Special cases of this are 
+
+* $C^*$-[[C-star-algebra|algebras]] 
+
+* and $W^*$-[[W-star-algebra|algebras]].
 
 
 [[!redirects star-algebra]]
