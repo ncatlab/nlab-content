@@ -260,7 +260,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is theorem 1.1. in [Dug00](http://arxiv.org/abs/math/0007068).
+This is theorem 1.1. in 
+
+* [[Dan Dugger]], _[[Combinatorial model categories have presentations]]_
 
 =--
 
