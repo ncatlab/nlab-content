@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -30,6 +34,8 @@ A [[program]]. A construction of a [[term]] of some [[type]].
 * [[programs as proofs]]
 
 * [[computational type theory]]
+
+* [[canonical form]]
 
 * [[computational trinitarianism]]
 
