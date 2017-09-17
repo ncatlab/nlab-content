@@ -1,17 +1,23 @@
-terminology by [[Bill Lawvere]]:
+In the terminology of [[Bill Lawvere]]:
 
-* an [[algebraic theory]] $T$: an _abstract general_ ;
+* a [[Lawvere theory]] $T$ is an _abstract general_;
 
-* the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$: a _concrete general_ ;
+* the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$ is a _concrete general_;
 
-* an [[object]] of $T Mod(E)$: a _concrete particular_
+* an [[object]] of any $T Mod(E)$ is a _concrete particular_.
 
 (is the last one right?)
 
-[[!redirects abstract general]]
-[[!redirects concrete general]]
-[[!redirects concrete particular]]
 
+[[!redirects abstract general]]
 [[!redirects abstract generals]]
+
+[[!redirects concrete general]]
 [[!redirects concrete generals]]
+
+[[!redirects concrete particular]]
 [[!redirects concrete particulars]]
+
+[[!redirects abstract general, concrete general and concrete particular]]
+[[!redirects abstract general, concrete general, and concrete particular]]
+[[!redirects abstract general, concrete general, concrete particular]]
