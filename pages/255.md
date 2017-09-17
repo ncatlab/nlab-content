@@ -1,6 +1,8 @@
 
 > This entry is about the notion of _monad_ in [[category theory]]. For other notions see _[[monad (disambiguation)]]_.
 
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -16,7 +18,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 The entry is about monads in the sense of category theory, for another concept see also [[monad in nonstandard analysis]]. 
@@ -151,6 +153,10 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
 * **monad** [[2-monad]]/[[doctrine]] / [[(∞,1)-monad]]
+
+  * [[idempotent monad]]
+
+  * [[monad (in programming theory)]], [[Lawvere-Tierney topology]]
 
 * [[operad]] / [[(∞,1)-operad]]
 
