@@ -56,7 +56,11 @@
 
 * [[U-duality]]
 
-* [[AdS/CFT|AdS/CFT duality]]
+* [[open/closed string duality]]
+
+  * [[AdS/CFT|AdS/CFT duality]]
+
+  * [[KLT relations]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/duality+-+contents)</div>
