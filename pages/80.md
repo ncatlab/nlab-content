@@ -58,6 +58,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * [[objective idealism]]
 
+* [[Converging Realities -- Toward a common philosophy of physics and mathematics]]
+
 ## References and links
 
 ### Related entries
