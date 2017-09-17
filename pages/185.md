@@ -675,11 +675,16 @@ Studies of the properties of $C^\infty$-rings include
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[RingsOfSmoothFunctionsI.pdf:file]]_ , Journal of Algebra 99 (1986)
 
-Synthetic spaces locally isomorphic to smooth loci were discussed in
+The notion of the spectrum of a $C^\infty$-ring and that of $C^\infty$-[[scheme]]s is discussed in
 
 * [[Eduardo Dubuc]], _$C^\infty$-schemes_ Amer. J. Math. 103 (1981) ([pdf](http://www.math.ist.utl.pt/~jroquet/Dubuc.pdf) [JSTOR](http://www.jstor.org/stable/select/2374046)).
 
-and more recently in
+and more generally in
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _Rings of smooth functions and their localization II_ , in _Mathematical logic and theoretical computer science_ page 275 ([Google books](http://books.google.nl/books?id=w02XaOa_0HAC&pg=PA262&lpg=PA262&dq=smooth+zariski+topos&source=bl&ots=Hj0AN3Lz3y&sig=TqRwTXz_u5R30AN2udLNOMQ2Ly0&hl=nl&ei=mCWZS-eLJcaD-QalyZlS&sa=X&oi=book_result&ct=result&resnum=2&ved=0CA4Q6AEwAQ#v=onepage&q=smooth%20zariski%20topos&f=false))
+
+
+More recent developments along these lines are in
 
 * [[Dominic Joyce]], _Algebraic geometry over $C^\infty$-rings_ ([arXiv:1001.0023](http://arxiv.org/abs/1001.0023))
 
