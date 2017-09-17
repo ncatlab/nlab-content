@@ -25,4 +25,9 @@ $$ W \left(\begin{array}{cc} d & c \\ a & b\end{array}\mid u\right) = \frac{\sin
 
 $G_{a, b}$ is the adjacency matrix of the graph. 
 
+Michael E. Fisher (1968), _Renormalization of Critical Exponents by Hidden Variables_ Physical Review **176**: 257--72. ([web](http://link.aps.org/doi/10.1103/PhysRev.176.257))
+
+:The mathematical content of this article consists chiefly in the analysis of some thermodynamic manipulations appropriate to the imposition of "constraints" on certain previously free thermodynamic variables and is quite elementary.  To motivate our analysis and reveal its theoretical significance we ask the following fundamental question: "To what extent are the observed values of the critical-point exponents universal?" ... the fairly close concurrence of all the exponent values for fluids and magnets does suggest the existence of a universal set of exponents.
+
+
 category: people
