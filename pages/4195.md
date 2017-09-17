@@ -21,14 +21,9 @@
 
 The _coherence theorem for monoidal categories_ is the [[coherence theorem]] that asserts that the [[associativity]] [[coherence law]] is indeed satisfied in a  [[monoidal category]].
 
+See
 
-## Statements ## 
-
-...
-
-## Proofs ##
-
-...
+* [[Mac Lane's proof of the coherence theorem for monoidal categories]]
 
 ## Discussion ## 
 
