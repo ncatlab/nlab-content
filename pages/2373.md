@@ -94,6 +94,18 @@
 
     * [[triangulated category]]
 
+## Morphisms
+
+* [[k-morphism]]
+
+  * [[2-morphism]]
+
+* [[transfor]]
+
+  * [[natural transformation]]
+
+  * [[modification]]
+
 ## Universal constructions
 
 * [[2-limit]]
