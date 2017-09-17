@@ -114,7 +114,7 @@ A discussion of reparameterization of directed paths in directed topological spa
 
 * Ulrich Fahrenberg and Martin Raussen, _Reparametrizations of Continuous Paths_ ([arXiv](http://arxiv.org/abs/0706.3560), ([blog](http://golem.ph.utexas.edu/category/2006/09/fahrenberg_and_raussen_on_cont.html)))
 
-Further references atre given in [[directed homotopy theory]].
+Further references are given in [[directed homotopy theory]].
 
 
 ## Discussion
