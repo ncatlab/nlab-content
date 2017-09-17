@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _formal scheme_ is a [[ringed space]] which is (typically) not an algebraic [[scheme]]. It is instead an enlarged version of a scheme including an infinitesimal neighborhood, which is expressed in terms of structure sheaves which are closer to sheaves of completions like formal power series rings rather than the polynomial rings.
+A _formal scheme_ is a completion of an algebraic scheme. It is a [[ringed space]] being an enlarged version of a scheme including an infinitesimal neighborhood, which is expressed in terms of structure sheaves which are closer to sheaves of completions like formal power series rings rather than the polynomial rings.
 
 ## Motivation
 
@@ -27,20 +27,26 @@ They do not converge as a series (and make sense) in an open set or in any of th
 
 There are roughly four equivalent definitions of a $k$-formal scheme for a field $k$:
 
-Let $Mf_k$ denote the category of finite dimensional $k$-rings.
+Let $Mf_k$ denote the category of finite dimensional $k$-rings (=$k$-algebras which are rings).
 
 1. A $k$-scheme is called a $k$_-formal scheme_ if it is is equivalent to a codirected colimit of finite (affine) $k$-schemes.
 
-1. A $k$-scheme is a $k$-formal scheme if it is presented by a [[profinite ring|profinite]] $k$-ring or -equivalently- by a $k$-ring which is the limit of discrete quotients which are finite $k$-rings. If $A$ is such a topological $k$-ring $Spf_k(A)(R)$ denotes the set of continous morphisms from $A$ to the topological discrete ring $R$. We have $Spf_k$ is a contravariant equivalence between the category of profinite $k$-rings and the category $fSch_k$ of formal $k$-schemes.
+1. A $k$-scheme is a $k$-formal scheme if it is presented by a [[profinite group|profinite]] $k$-ring; i.e a $k$-ring which is the limit of topologically discrete quotients which are finite $k$-rings. If $A$ is such a topological $k$-ring $Spf_k(A)(R)$ denotes the set of continous morphisms from $A$ to the topologically discrete ring $R$. We have $Spf_k$ is a (contravariant) equivalence between the category of profinite $k$-rings and the category $fSch_k$ of formal $k$-schemes.
 
-1. Instead of defining $fSch_k$ as the opposite of $Mf_k$ define it instead covariantly on the category of finite dimensional $k$-[[coring|corings]].
+1. Instead of defining the category $fSch_k$ of formal $k$-schemes as the opposite of $Mf_k$ define it instead covariantly on the category of finite dimensional $k$-[[coring|corings]].
 
 1. A formal $k$-scheme is precisely a left exact (commutig with finite limits) functor $X:Mf_k\to Set$.
 
 ([Demazure, p-divisible groups, chapter I](#Demp))
 
+The inclusion $Mf_k\hookrightarrow M_k$ induces a functor
 
-## Noetherian formal schemes
+$${}^\hat\; :Sch_k\to fSch_k$$
+
+called _completion functor_.
+
+
+### In terms of $I$-adic completion of rings, Noetherian formal schemes
 
 Given any [[ring]] $R$ and an [[ideal]] $I$ of $R$, there is a natural homomorphisms of rings $R/I^{n+1}\to R/I^n$ for all $n\geq 0$. The [[inverse limit]] $\hat{R}:=lim_n R/I^n$ is called the **completion of $R$ at the ideal $I$** or the **$I$-adic completion** of $R$. If $R$ is [[noetherian ring|noetherian]], the completion is noetherian as well. 
 
