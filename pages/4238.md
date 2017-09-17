@@ -1,8 +1,7 @@
 
 <div class="rightHandSide toc">
-[[!include physicscontents]]
+[[!include functorial quantum field theory - contents]]
 </div>
-
 
 #Contents#
 * automatic table of contents goes here
