@@ -1,0 +1,25 @@
+
+**[[(0,1)-category theory]]**, [[logic]]
+
+**[[(0,1)-category]]**, [[poset]]
+
+* [[meet]], [[join]], 
+
+* [[lattice]]
+
+  * [[true]], [[false]]
+
+  * [[implication]]
+
+  * [[logical conjunction]], [[and]], 
+  
+  * [[logical disjunction]], [[or]]
+
+  * [[lattice of subobjects]]
+
+**[[(0,1)-topos]]**
+
+* [[Heyting algebra]]
+
+* [[frame]], [[locale]]
+
