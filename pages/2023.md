@@ -69,7 +69,37 @@ To integrate a $1$-[[differential form|form]] on the real line requires orientin
 
 ### Properties
 
-* The [[classifying topos]] for linear intervals is the category [[sSet]] of [[simplicial sets]]. See the section _[For intervals](http://ncatlab.org/nlab/show/classifying+topos#ForIntervals)_ at _[[classifying topos]]_.
+#### Classifying topos
+
+The [[classifying topos]] for linear intervals is the category [[sSet]] of [[simplicial sets]]. See the section _[For intervals](http://ncatlab.org/nlab/show/classifying+topos#ForIntervals)_ at _[[classifying topos]]_.
+
+#### Relation to simplices
+ {#RelationToSimplices}
+
+Let $\mathbb{I}$ be the category of _finite_ linear intervals. 
+
+There is an [[equivalence of categories]]
+
+$$
+  \widehat{(-)} : \Delta^{op} \stackrel{\simeq}{\to} \mathbb{I}
+$$
+
+from the [[opposite category]] of the [[simplex category]] to $\mathbb{I}$.
+
+Here
+
+$$
+  \widehat{[n]} \coloneqq Hom_{\Delta}([n],[1]) \simeq [n+1]
+$$
+
+and the inverse is
+
+$$
+  [n] \mapsto Hom_{\mathbb{I}}([n],[1])
+  \,.
+$$
+
+See also at _[Simplex category -- Duality with intervals](simplex+category#DualityWithIntervals)_.
 
 ## In homotopy theory
 
