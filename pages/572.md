@@ -266,7 +266,7 @@ $$
 
 In degree 0 this is the the [[core]] of $C$ itself. In degree 1 it is the groupoid $\mathbf{C}_1$ underlying the [[arrow category]] of $C$. 
 
-One sees that the [[source]] and [[target]] functors $s, t : C^{\Delta[1]} \to C$ are [[isofibrations]] and hence their image under [[core]] and [[nerve]] are [[Kan fibrations]]. Therefore it follows that the [[homotopy pullback]] (see there) $\mathbf{C}_1 \times_{\mathbf{C}_0} \cdots \times_{\mathbf{C}_0} \mathbf{C}_1$ is given already be the ordinary pullback in the 1-category [[Grpd]]. Using this, it is immediate that for all $k$ the functors
+One sees that the [[source]] and [[target]] functors $s, t : C^{\Delta[1]} \to C$ are [[isofibrations]] and hence their image under [[core]] and [[nerve]] are [[Kan fibrations]]. Therefore it follows that the [[homotopy pullback]] (see there) $\mathbf{C}_1 \times_{\mathbf{C}_0} \cdots \times_{\mathbf{C}_0} \mathbf{C}_1$ is given already be the ordinary [[pullback]] in the [[1-category]] [[Grpd]]. Using this, it is immediate that for all $k$ the functors
 
 $$
   Core(C^{\Delta[k]}) \to Core(C^{\Delta[1]}) \times_{Core(C)} \cdots \times_{Core(C)} Core(C^{\Delta[1]}) 
@@ -282,7 +282,7 @@ $$
 
 is an equivalence. 
 
-It is clear that the composition operation defined this way "is" the composition in $C$. In particular the morphisms that are invertibel under this composition are precisely those that are already invertible in $C$. Therefore we have the core simplicial object
+It is clear that the [[composition]] operation in the complete Segal space defined this way "is" the composition in $C$. In particular the morphisms that are invertible under this composition are precisely those that are already invertible in $C$. Therefore we have the core simplicial object
 
 $$
   Core(\mathbf{C}) : k \mapsto N(Core(C)^{\Delta[k]})
@@ -296,7 +296,7 @@ This simplicial Kan complex has in each positive degree a [[path space object]] 
 
 Notably (since $\Delta[k]$ is [[weak homotopy equivalence|weak homotopy equivalent]] to the point) it follows that indeed all the face and degeneracy maps are weak homotopy equivalences.
 
-So for every category $C$, the simplicial object $\mathbf{C}$ constructed as above is a complete Segal space. This constructions extends to a functor $Cat \to completeSegalSpace$ and this is homotopy full and faithful.
+So for every category $C$, the simplicial object $\mathbf{C}$ constructed as above is a complete Segal space. This construction extends to a functor $Cat \to completeSegalSpace$ and this is homotopy full and faithful.
 
 #### Properties of the inclusion
  {#PropertiesOfTheInclusionOfCategories}
@@ -347,7 +347,7 @@ where now $Core_W(-)$ denotes the [[subcategory]] on those [[natural transformat
 
 +-- {: .num_remark}
 ###### Remark
-The typical model category is not a [[small category]] with respect to the base choice of [[universe]]. In this case $N(C,W)$ will be a "large" bisimplicial set. In other words, one needs to emply some [[universe enlargement]] to interpret this definition.
+The typical [[model category]] is not a [[small category]] with respect to the base choice of [[universe]]. In this case $N(C,W)$ will be a "[[large set|large]]" bisimplicial set. In other words, one needs to employ some [[universe enlargement]] to interpret this definition.
 =--
 
 +-- {: .num_remark}
@@ -357,7 +357,7 @@ If $C$ is a model category, then $Core_W(C^{\Delta[n]})$ is the subcategory of w
 
 The bisimplicial set $N(C,W)$ is not, in general, a complete Segal space.  It does, however, represent the same [[(∞,1)-category]] as the [[simplicial localization]] of $C$ at $W$; see [this MO question](http://mathoverflow.net/questions/92916/does-the-classification-diagram-localize-a-category-with-weak-equivalences/93139).
 
-We can, of course, always reflect $N(C,W)$ into a complete Segal space by passing to a fibrant replacement in the [[model structure for complete Segal spaces]].  But something better is true here: it suffices to make a _Reedy fibrant_ replacement (which does not change the [[homotopy type]] of the simplicial sets $N(Core_W(C^{\Delta[n]}))$, but only "arranges them more nicely").
+We can, of course, always reflect $N(C,W)$ into a complete Segal space by passing to a [[fibrant replacement]] in the [[model structure for complete Segal spaces]].  But something better is true here: it suffices to make a _[[Reedy model structure|Reedy]] fibrant_ replacement (which does not change the [[homotopy type]] of the simplicial sets $N(Core_W(C^{\Delta[n]}))$, but only "arranges them more nicely").
 
 +-- {: .num_prop}
 ###### Proposition
