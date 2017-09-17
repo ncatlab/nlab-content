@@ -21,11 +21,78 @@
 
 ## Definition
 
-### General
+### Externally
 
-For $F \in C$ an [[object]] in an [[(∞,1)-category]] $C$ its **automorphism $\infty$-group** is the [[∞-group]] $Hom_C(F,F) \in $ [[∞Grpd]] given by the [[derived hom space]] from $X$ to itself. 
+Let $\mathcal{C}$ be an [[(∞,1)-category]]. Let $X \in \mathcal{C}$ be an [[object]].
 
-For $C$ an ordinary [[category]] this reduces to the ordinary notion of [[automorphism group]].
+As a [[discrete ∞-groupoid|discrete]] [[∞-group]] the **automorphism $\infty$-group** of $X$ is the [[monomorphism in an (∞,1)-category|sub-]][[∞-groupoid]]
+
+$$
+  Aut(X) \hookrightarrow \mathcal{C}(X,X)
+$$
+
+of the [[derived hom space]] of [[morphisms]] in $\mathcal{C}$ from $X$ to itself, on those that are [[equivalence in an (∞,1)-category|equivalences]].
+
+This is an [[∞-group]] in [[∞Grpd]], 
+
+$$
+ Aut(X)\in Grp(\infty Grpd)
+  \,.
+$$
+
+
+### Internally
+
+Let $\mathcal{C}$ be a [[cartesian closed (∞,1)-category]] (for instance an [[(∞,1)-topos]]). Write
+
+$$
+  [-,-] : \mathcal{C}^{op} \times \mathcal{C} \to \mathcal{C}
+$$
+
+for the [[internal hom]]. Then for $X \in \mathcal{C}$ an object, the _internal automorphism $\infty$-group_ is the [[subobject]]
+
+$$
+  \mathbf{Aut}(X) \hookrightarrow [X,X]
+$$
+
+of the [[internal hom]] on those morphism that are [[equivalence in an (infinity,1)-category|equivalences]].
+
+In the special case that $\mathcal{C}$ is an [[∞-topos]], the [[delooping]] $\mathbf{B}\mathbf{Aut}(X)$ of the internal automorphism $\infty$-group is equivalently the [[∞-image]]
+
+$$
+  * \to \mathbf{B}\mathbf{Aut}(X) \hookrightarrow Obj
+$$
+
+of the morphism
+
+$$
+  * \stackrel{\vdash X}{\to} Obj
+$$
+
+to [[generalized the|the]] [[object classifier]], that modulates $X$ (the "name" of $X$).
+
+
+### In the syntax of homotopy type theory
+
+Let $\mathcal{C}$ be an [[(∞,1)-topos]]. Then its [[internal language]] is [[homotopy type theory]]. In terms of this the object $X \in \mathcal{C}$ is a [[type]] ([[homotopy type]]). In the type theory syntax the internal automorphism $\infty$-group then is (as an type, without yet the group structure)
+
+$$
+  \vdash (X \stackrel{\simeq}{\to} X) : Type
+  \,,
+$$
+
+the subtype of the [[function type]] on the [[equivalence in homotopy type theory|equivalences]].
+
+The equivalence of this definition to the previous one is the statement of [[univalence]]. 
+
+
+## Examples
+
+### In a 1-category
+
+If $\mathcal{C}$ happens to be a [[1-category]] then the external automorphism $\infty$-group of an object is the ordinary [[automorphism group]] of that object.
+
+If $\mathcal{C}$ happens to be a 1-[[topos]], then the internal automorphism $\infty$-group is the traditional automorphism [[group object]] in the topos. Etc.
 
 ### Of $\infty$-groups
 
