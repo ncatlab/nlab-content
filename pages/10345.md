@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] the _Rarita-Schwinger field_ is a type of [[field (physics)|field]] of [[spin]] $= 3/2$.
+
+The hypothetical [[gravitino]] in [[supergravity]] is an example.
+
+## Related concepts
+
+* [[Velo-Zwanziger problem]]
+
+## References
+
+* Wikipedia, _[Rarita-Schwinger equation](http://en.wikipedia.org/wiki/Rarita%E2%80%93Schwinger_equation)_
+
+[[!redirects Rarita-Schwinger fields]]
+
+[[!redirects Rarita-Schwinger equation]]
