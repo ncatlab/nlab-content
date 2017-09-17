@@ -1,12 +1,21 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential graded objects
++--{: .hide}
 [[!include differential graded objects - contents]]
-</div>
+=--
+=--
+=--
+
+This entry discusses some  relationships between  [[differential graded algebra]]s and [[differential graded Lie algebra]]s (DGLA)
 
 
-##Some  relationships between  differential graded algebras and differential graded Lie algebras (DGLA)
-
-
-
+#Contents#
+* table of contents
+{:toc}
 
 
 ##Idea
