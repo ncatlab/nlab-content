@@ -355,13 +355,13 @@ $$
 
 is equivalently 
 
-1. a choice of [[object]] $B \in \mathbf{H}$
+1. a choice of [[object]] $B \in \mathbf{H}$ (the image of $\ast in seq$]);
 
-1. a sequence of objects $\{X_n\} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos]] over $B$;
+1. a sequence of objects $\{X_n\} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos]] over $B$;a choi
 
 1. a sequence of [[morphisms]] $X_n \longrightarrow \Omega_B X_{n+1}$ from $X_n$ into the [[loop space object]] of $X_{n+1}$ in the slice.
 
-This is a [[prespectrum object]] in $\mathbf{H}_{/B}$. 
+This is a [[prespectrum object]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/B}$. 
 
 A [[natural transformation]] 
 $f \;\colon \;X_\bullet \to Y_\bullet$ between two such functors with components
@@ -378,7 +378,7 @@ $$
   \right\}
 $$
 
-is equivalently a morphism of base objects $f_b \;\colon\; B_1 \longrightarrow B_2$ in $\mathbf{H}$ together with morphisms $X_n \longrightarrow b^\ast Y_n$ into the [[(∞,1)-pullback]] of the components of $Y_\bullet$  along $b$.
+is equivalently a morphism of base objects $f_b \;\colon\; B_1 \longrightarrow B_2$ in $\mathbf{H}$ together with morphisms $X_n \longrightarrow f_b^\ast Y_n$ into the [[(∞,1)-pullback]] of the components of $Y_\bullet$  along $f_b$.
 
 
 Therefore the [[(∞,1)-presheaf (∞,1)-topos]] 
@@ -389,7 +389,7 @@ $$
   Func(seq, \mathbf{H})
 $$ 
 
-is the self-indexing of $\mathbf{H}$ with "fiberwise pre-stabilization".
+is the [[codomain fibration]] of $\mathbf{H}$ with "fiberwise pre-stabilization".
 
 A genuine [[spectrum object]] is a [[prespectrum object]] for which all the structure maps $X_n \stackrel{\simeq}{\longrightarrow} \Omega_B X_{n+1}$ are [[equivalence in an (∞,1)-category|equivalences]]. The [[full sub-(∞,1)-category]] 
 
