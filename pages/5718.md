@@ -131,9 +131,13 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 ## References
 
-The abstract characterization was given in the context of [[D-scheme]]s in 
+The abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
 
-* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebra]]_
+* [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+
+The explicit description in terms of formal duals of [[commutative monoid]]s in [[D-module]]s is in
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
  {#BeilinsonDrinfeld}
 
 An exposition of this is in section 2.3 of 
