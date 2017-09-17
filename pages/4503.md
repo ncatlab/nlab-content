@@ -149,6 +149,8 @@ The model $W G$ for the universal $G$-principal bundle has the special property 
 
 ## Related concepts
 
+* [[universal principal bundle]]
+
 * [[principal ∞-bundle]]
 
 * **universal principal $\infty$-bundle** , [[groupal model for universal principal ∞-bundles]]
@@ -172,4 +174,3 @@ The model $W G$ for the universal $G$-principal bundle has the special property 
 
 [[!redirects universal principal infinity-bundles]]
 
-[[!redirects universal principal bundle]]
