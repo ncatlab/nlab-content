@@ -84,10 +84,55 @@ Morphisms...
 
 ### Presheaves on a $Q$-category
 
-If $\mathbb{A} = (Q: A\leftrightarrow\bar{A}: I)$ is a $Q$-category, and $E$ a category, then there is an induced $Q$-category of $E^{\mathbb{A}}:(E^Q: E^{A}\leftrightarrow E^{\bar{A}}):E^I$; the new adjunction has unit $E^{\eta} : Id_{E^A} \to E^Q\circ E^I = E^{IQ}$ and counit $E^\epsilon : E^I\circ E^Q = E^{QI}\to Id_{E^{\bar{A}}}$. 
+The [[category of presheaves]] over any $Q$-category canonically inherits itself the structure of a Q-category. 
 
-Any subcategory $B\subset E^{\bar{A}}$ containing $Im(E^I)$ determines a Q-subcategory $E^A\leftrightarrow B$. 
++-- {: .num_prop #PresheafQCategories}
+###### Proposition
 
+Let $\mathbb{A} = \bar A \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} A$ be a $Q$-category. 
+Let $C$ be any category.
+
+Then forming [[copresheaves]] with values in $C$ yields a Q-category of the form
+
+$$
+  [\mathbb{A},C] :
+   [\bar A, C]
+     \stackrel{\overset{C^R = (-)\circ R}{\leftarrow}}{\underset{C^L = (-)\circ L}{\to}}
+   [A,C]
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The $(C^R \dashv C^L)$-[[unit of an adjunction|unit]] is the dual $C^\eta$  of the original counit $\eta$
+
+$$
+  C^{\eta} : Id_{C^A} \to C^L \circ C^R = C^{L R}
+$$ 
+
+and the counit is the dual of the original unit
+
+$$
+  C^\epsilon : C^R\circ C^L = C^{R L}\to Id_{C^{\bar{A}}}
+  \,.
+$$ 
+
+Since the [[left adjoint]] being a [[full and faithful functor]] is equivalent to the unit of the [[adjunction]] being an [[isomorphism]], it follows from $L$ being full and faithful that $C^R$ is full and faithful.
+
+=--
+
+This appears as ([Rosenberg, 2.7](#Rosenberg)).
+
++-- {: .num_defn #SubcategoryOfPresheafQCategories}
+###### Proposition
+
+Any subcategory $B\subset C^{\bar{A}}$ containing $Im(C^R)$ determines a Q-subcategory $C^A\leftrightarrow B$. 
+
+=--
 
 ### Almost quotient category of cones
 
@@ -124,13 +169,17 @@ An example of a cosite is a cosite of closed sets of a topological space.
 
 ### Sieves
 
-The $Q$-category of [[sieves]]
+
+
+The $Q$-category of [[sieves]].
 
 The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the subcategory of sieves corresponding to the Grothendieck topology...
 
 (needs explanation)
 
 ## $\mathbb{A}$-Sheaves
+
+We discuss the notion of a _$\mathbb{A}$-sheaves_ on a Q-category $\mathbb{A}$ and various equivalent reformulations.
 
 
 +-- {: .num_defn #BareSheafCondition}
@@ -157,12 +206,53 @@ where $\eta_x : u_* u^*(x) \to x$ is the $x$-component of the $(u^* \dashv u_*)$
 
 This appears as ([Rosenberg, 3.1.1](#Rosenberg)).
 
+
 The object $x$ is called an **$\mathbb{A}$-monopresheaf** is this canonical morphism is just a [[monomorphism]].
 
-+-- {: .num_defn #PresheafSheafCondition}
++-- {: .num_prop #SheafConditionByExtraRightAdjoint}
 ###### Proposition
 
-Let $\mathbb{A} : \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ be a Q-category for $A$ a [[small category]], let $C$ be a category with all small [[limit]]s  and let
+Let $\mathbb{A}$ be a Q-category with an extra [[right adjoint]] $u^! : A \to \bar A$
+
+$$
+  \mathbb{A}
+  : 
+  \bar A
+    \stackrel{\overset{u^*}{\leftarrow}}{\stackrel{\overset{u_*}{\to}}{\underset{u^!}{\leftarrow}}}
+  A
+  \,.
+$$
+
+Then an object $x \in A$ is an $\mathbb{A}$-sheaf in the sense of def. \ref{BareSheafCondition} precisely if the canonical morphism
+
+$$
+  u^*(x) \to u^!(x)
+$$
+
+is an [[isomorphism]] in $\bar A$. It is a monopresheaf precisely if this is a [[monomorphism]].
+
+=--
+
+This appears as ([Rosenberg, 3.1.3](#Rosenberg)).
+
++-- {: .proof}
+###### Proof
+
+Using the $(u_* \dashv u^!)$-[[adjunction]]-[[isomorphism]] we have that the canonical morphism from def. \ref{BareSheafCondition} is isomorphic to
+
+$$
+  \bar A(y, u^* x) \to A(u_* y, x) \stackrel{\simeq}{\to}
+   \bar A(y, u^! y)
+$$
+
+for all $y \in \bar A$.
+
+=--
+
++-- {: .num_note #PresheafSheafCondition}
+###### Note
+
+Let $\mathbb{A} : \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ be a Q-category for $A$ a [[small category]], let $C$ be a category with all small [[limit]]s. Then the Q-category of presheaves from prop \ref{PresheafQCategories} has an extra right adjoint $u^!_C := Ran_{u^*}$
 
 $$
   C^{\mathbb{A}} : 
@@ -171,9 +261,9 @@ $$
    C^{A}
 $$
 
-be the Q-category of presheaves. Her $u^!_C := Ran_{u^*}$ is the right [[Kan extension]] along $u^*$ which exists by the assumption that $C$ has all small limits.
+given by the right [[Kan extension]] along $u^*$, which exists by the assumption that $C$ has all small limits.
 
-Then $F \in C^{A}$ is a $C^{\mathbb{A}}$-sheaf, def. \ref{BareSheafCondition}, precisely if the canonical morphism
+Therefore by prop. \ref{SheafConditionByExtraRightAdjoint} a presheaf $F \in C^{A}$ is a $C^{\mathbb{A}}$-sheaf, def. \ref{BareSheafCondition}, precisely if the canonical morphism
 
 $$
   f^* F \to f^! F
@@ -185,22 +275,8 @@ is an [[isomorphism]].
 
 This appears as ([Rosenberg, 3.5](#Rosenberg)).
 
-+-- {: .proof}
-###### Proof
 
-Using the $(f_* \dashv f^!)$-[[adjunction]]-[[isomorphism]] we have that the canonical morphism from def. \ref{BareSheafCondition} is isomorphic to
-
-$$
-  C^{\bar A}(G, f^* F) \to C^{A}(f_* G, F) \stackrel{\simeq}{\to}
-   C^{\bar A}(G, f^! F)
-$$
-
-for all $G \in C^{\bar A}$.
-
-=--
-
-
-### Sheafification versus the Gabriel localization $G_{\mathcal{F}} = H^2_{\mathcal{F}}$
+## Sheafification versus the Gabriel localization $G_{\mathcal{F}} = H^2_{\mathcal{F}}$
 
 (...)
 
@@ -218,7 +294,7 @@ The formalism has been recently used (and shortly surveyed) in
 
 and also used in the general definition of "noncommutative" stacks in
 
-* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-37 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305))
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative stacks_, preprint MPI-2004-37 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305))
  {#KontsevichRosenbergStacks}
 
 
