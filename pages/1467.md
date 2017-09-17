@@ -95,6 +95,8 @@ A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 * A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
 
+* The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of a [[Cartesian space]] is compact precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]].
+
 One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness in locale theory.
 
 
