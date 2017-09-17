@@ -24,10 +24,15 @@ where $0 \leq a_n \leq p-1$, added and multiplied with the usual method of carry
 
 2. More precisely, it is the [[metric space]] [[completion]] of the ring of [[integers]] $\mathbb{Z}$ with respect to the $p$-adic [[absolute value]]. Since addition and multiplication of integers are [[uniform space|uniformly continuous]] with respect to the $p$-adic [[absolute value]], they extend uniquely to a uniformly continuous addition and multiplication on $\mathbb{Z}_p$. Thus $\mathbb{Z}_p$ is a [[topological ring]]. 
 
-3. Alternatively, it is the [[limit]], in the [[category]] of (unital) [[ring|rings]], of the [[diagram]] 
+3. Alternatively, it is the [[limit]] $\underset{\leftarrow}{\lim} \mathbb{Z}/(p^n)$, in the [[category]] of (unital) [[ring|rings]], of the [[diagram]] 
 $$\ldots \to \mathbb{Z}/(p^{n+1}) \to \mathbb{Z}/(p^n) \to \ldots \to \mathbb{Z}/(p)$$ 
-also considered as a topological ring if the limit is taken in the category of topological rings, and taking the rings in the diagram to have [[discrete space|discrete]] topologies. 
+(also considered as a [[topological ring]] if the limit is taken in the category of topological rings, and taking the rings in the diagram to have [[discrete space|discrete]] topologies).
 
+   This exhibits the completion of $\mathbb{Z}$ in the sense of [[completion of a ring]].
+
+4. Also $\mathbb{Z}[ [ x ] ]/(x-q)\mathbb{Z}[ [ x ] ]$, see at _[[analytic completion]]_. 
+
+Hence one also speaks of the _$p$-adic completion_ of the integers.
 
 ## Properties
 
