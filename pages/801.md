@@ -1,5 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
@@ -23,6 +36,11 @@ The sense of 'modeled' is related to Whithead's [[algebraic homotopy|algebraic h
 * Although the notion of homotopy type is defined for arbitrary spaces, it is most usual to restrict attention to 'locally [[nice topological space|nice]]' spaces such as polyhedra (i.e. realisations of [[simplicial complex|simplicial complexes]] or CW-complexes). Various other classes of space occur naturally in various parts of mathematics in particular in analysis and algebraic geometry and there the methods of abstract homotopy theory provide a way of mimicking the basic idea of homotopy type as described above. 
 
 *  Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets  coarser notions of equivalence which can be very useful. The particular case of $n$-equivalence leads to the related notion of [[homotopy n-type]].
+
+## Related concepts
+
+[[!include notions of type]]
+
 
 ## Literature
 
