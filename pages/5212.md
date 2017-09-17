@@ -8,3 +8,4 @@ for all $x$, $x\leq l m x$,
 where, as usual, $l$ is a shorthand for $\neg m \neg$.
 =--
 
+[[!redirects monadic algebra]]
