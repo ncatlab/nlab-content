@@ -21,7 +21,7 @@ $$
   U : Mat(n \times n, \mathbb{C}) \to Mat(k \times k, \mathbb{C})
 $$
 
-that preserves the subset of [[density matrices]], in that
+(so far this is a general "[[superoperator]]") that preserves the subset of [[density matrices]], in that
 
 * it preserves the [[trace]] of matrices;
 
