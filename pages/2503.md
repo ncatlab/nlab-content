@@ -116,7 +116,7 @@ $$
   \hat \Omega \mathfrak{g} \to P \mathfrak{g}
 $$
 
-of the universal central extension of the [[loop Lie algebra]] mapping into the path Lie algebra, which acts on the former in the evident way.
+of the [[universal central extension]] of the [[loop Lie algebra]] mapping into the path Lie algebra, which acts on the former in the evident way.
 
 This is proven in [BCSS](#BCSS).
 
