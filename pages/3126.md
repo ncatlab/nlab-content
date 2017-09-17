@@ -82,6 +82,8 @@ $$
 
 This is [[Deformation Theory|DT, def 1.1.12]].
 
+For a maybe more explicit definition see below at _[Tangent ∞-topos -- General](#TangentToposGeneral)_.
+
 Explicitly, the tangent $\infty$-category is given as follows.
 
 +-- {: .num_remark #TangentCatByExplicitFiberwiseStabilization}
@@ -239,6 +241,60 @@ where
 * $N$ is an $A$-[[∞-module over an ∞-algebra over an (∞,1)-operad|module]].
 
 
+### Cotangent complex
+ {#CotangentComplex}
+
+From its definition as the fiberwise stabilization of the [[codomain fibration]] $cod : Func(\Delta[1], C) \to C$ the tangent $(\infty,1)$-category $p : T_C \to C$ inherits a second $(\infty,1)$-functor to $C$, coming from the _domain_ evaluation
+
+$$
+  dom : T_C \to C
+  \,.
+$$ 
+
++-- {: .num_prop #CotangentComplexAdjunction}
+###### Definition/Proposition
+**(cotangent complex)**
+
+The domain evaluation $dom : T_C \to C$ admits a [[left adjoint|left]] [[adjoint (∞,1)-functor]]
+
+$$
+  (\Omega \dashv dom) : T_C \stackrel{\overset{\Omega}{\leftarrow}}{\underset{dom}{\to}}
+  C
+$$
+
+that is also a [[section]] of $p : T_C \to C$ in that 
+
+$$
+  (C \stackrel{\Omega}{\to} T_C \stackrel{p}{\to} C) \simeq Id_C
+$$ 
+
+and which hence exhibits $C$ as a [[retract]] of $T_C$.
+
+This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ the object $\Omega(A)$ is the [[cotangent complex]] of $A$.
+
+=--
+
+
+This is ([Lurie, def. 1.1.2, remark 1.2.3](#Lurie)).
+
+In more detail this adjunction is the composite 
+
+$$
+  (\Omega \dashv dom)
+  \;\colon\;
+  T_C
+  \stackrel{\overset{\Sigma^\infty_C}{\leftarrow}}{\underset{\Omega^\infty_{C}}{\to}}
+  C^{\Delta^1}
+  \stackrel{\overset{const}{\leftarrow}}{\underset{dom}{\to}}
+  C
+  \colon
+  \Omega
+  \,,
+$$
+
+where $(\Sigma^\infty_C \dashv \Omega^\infty_C)$ is the fiberwise [[stabilization]] relative adjunction, def. \ref{FiberwiseStabilization}.
+
+
 ### Tangent $\infty$-topos of an $\infty$-topos
  {#TangentTopos}
 
@@ -246,7 +302,9 @@ where
 
 We discuss how the tangent $\infty$-category of an [[(∞,1)-topos]] is itself an [[(∞,1)-topos]] over the tangent $\infty$-category of the original [[base (∞,1)-topos]] ([Joyal 08](#Joyal08)).
 
+
 #### General
+ {#TangentToposGeneral}
 
 
 +-- {: .num_defn}
@@ -528,58 +586,6 @@ $$
 
 For more on this see at _[[tangent cohesive (∞,1)-topos]]_.
 
-## Cotangent complex
- {#CotangentComplex}
-
-From its definition as the fiberwise stabilization of the [[codomain fibration]] $cod : Func(\Delta[1], C) \to C$ the tangent $(\infty,1)$-category $p : T_C \to C$ inherits a second $(\infty,1)$-functor to $C$, coming from the _domain_ evaluation
-
-$$
-  dom : T_C \to C
-  \,.
-$$ 
-
-+-- {: .num_prop #CotangentComplexAdjunction}
-###### Definition/Proposition
-**(cotangent complex)**
-
-The domain evaluation $dom : T_C \to C$ admits a [[left adjoint|left]] [[adjoint (∞,1)-functor]]
-
-$$
-  (\Omega \dashv dom) : T_C \stackrel{\overset{\Omega}{\leftarrow}}{\underset{dom}{\to}}
-  C
-$$
-
-that is also a [[section]] of $p : T_C \to C$ in that 
-
-$$
-  (C \stackrel{\Omega}{\to} T_C \stackrel{p}{\to} C) \simeq Id_C
-$$ 
-
-and which hence exhibits $C$ as a [[retract]] of $T_C$.
-
-This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ the object $\Omega(A)$ is the [[cotangent complex]] of $A$.
-
-=--
-
-
-This is ([Lurie, def. 1.1.2, remark 1.2.3](#Lurie)).
-
-In more detail this adjunction is the composite 
-
-$$
-  (\Omega \dashv dom)
-  \;\colon\;
-  T_C
-  \stackrel{\overset{\Sigma^\infty_C}{\leftarrow}}{\underset{\Omega^\infty_{C}}{\to}}
-  C^{\Delta^1}
-  \stackrel{\overset{const}{\leftarrow}}{\underset{dom}{\to}}
-  C
-  \colon
-  \Omega
-  \,,
-$$
-
-where $(\Sigma^\infty_C \dashv \Omega^\infty_C)$ is the fiberwise [[stabilization]] relative adjunction, def. \ref{FiberwiseStabilization}.
 
 ## Examples 
 
