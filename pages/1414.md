@@ -462,7 +462,9 @@ Two other papers are relevant to this:
 
 An elementary discussion of the concept of homotopy coherence forms Chapter V of
 
-*  K. H. Kamps, [[Tim Porter]], 1997, _Abstract Homotopy and Simple Homotopy Theory_, World Scientific Publishing Co. Inc., River Edge, NJ. 
+*  K. H. Kamps, [[Tim Porter]], _Abstract homotopy and simple homotopy theory_, World Scientific 1997. 
+
+* [[V. Hinich]], _Simplicial nerve in deformation theory_, [arxiv/0704.2503](http://arxiv.org/abs/0704.2503)
 
 For the role played by the simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see 
 
