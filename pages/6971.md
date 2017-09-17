@@ -26,6 +26,8 @@ The basic definition of [[identity types]] as an [[inductive type]] family makes
 
 1. We can add as an axiom the "uniqueness of identity proofs" (UIP) property that any two inhabitants of the same identity type $(x=y)$ are themselves equal (in the corresponding higher identity type).
 
+1. We can add a definitional [[eta-conversion]] rule for the identity types (see [here](/nlab/show/identity+type#EtaConversion)).
+
 1. We can add an "equality reflection" rule saying that if two terms are propositionally equal (i.e. the identity type $(x=y)$ is inhabited), then they are also *definitionally* equal.
 
 1. We can add Streicher's *axiom K* which says that any inhabitant of a self-equality type $(x=x)$ is equal to the identity/reflexivity equality $1_x$.  (Axiom K is so named because $K$ comes after $J$, and $J$ usually denotes the eliminator for identity types.)
