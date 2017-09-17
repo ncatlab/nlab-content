@@ -17,11 +17,26 @@
 
 Classically, an __algebraic variety__ is thought of as a geometric locus of zeros of a set of [[polynomial]] equations in finitely many variables. 
 
-Historically, there were several formalisms of various schools including the Italian school of [[algebraic geometry]] in the early 20th century (Veronese, Castelnuovo, Severi, ...), the American school between the two wars ([[Oscar Zariski]]), [[Andre Weil]], the abstract varieties of [[Jean-Pierre Serre]] and finally the [[scheme]] language of the [[Grothendieck]] school. One should note that in the case of (esp. projective) varieties over complex numbers there is an additional possibility to work using complex-analytic tools and complex topology.
+Historically, there were several formalisms of various schools including the Italian school of [[algebraic geometry]] in the early 20th century (Veronese, Castelnuovo, Severi, ...), the American school between the two wars ([[Oscar Zariski]]), [[Andre Weil]], the abstract varieties of [[Jean-Pierre Serre]] and finally the [[scheme]] language of the [[Grothendieck]] school. One should note that in the case of (esp. [[projective variety|projective]]) varieties over complex numbers there is an additional possibility to work using complex-analytic tools and complex topology.
 
 ## Definition
 
-Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ is an affine, quasiaffine, projective or quasiprojective $k$-variety. __Affine__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined. Affine varietes can be embedded as closed subvarieties into an [[affine space]] (in the sense of algebraic geometry). As topological spaces affine varieties are [[noetherian space|noetherian]]. __Projective__ $k$-varieties are obtained in a similar way from [[graded algebra|graded]] $k$-algebras. __Quasiaffine__ $k$-varieties are Zariski-open subspaces of affine $k$-varieties; __quasiprojective__ $k$-varieties are Zariski-open subspaces of projective $k$-varieties. In fact, by noticing that the affine $k$-space is Zariski open in a projective space of the same dimension, we see that the quasiprojective case includes all others. Morphisms between varieties are so-called [[regular map]]s.  Note that every kind of algebraic variety above may be interpreted as a quasiprojective variety.
+Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ means any of: affine, quasiaffine, [[projective variety|projective]] or quasiprojective $k$-variety. 
+
+
+* __Affine__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
+
+  Affine varietes can be embedded as closed subvarieties into an [[affine space]] (in the sense of algebraic geometry). As topological spaces affine varieties are [[noetherian space|noetherian]]. 
+
+* __[[projective variety|Projective]]__ $k$-varieties are obtained in a similar way from [[graded algebra|graded]] $k$-algebras. 
+
+* __Quasiaffine__ $k$-varieties are Zariski-open subspaces of affine $k$-varieties. 
+
+* __Quasiprojective__ $k$-varieties are Zariski-open subspaces of projective $k$-varieties. 
+
+  In fact, by noticing that the affine $k$-space is Zariski open in a projective space of the same dimension, we see that the quasiprojective case includes all others. 
+
+Morphisms between varieties are so-called [[regular maps]].  
 
 
 ## Properties
@@ -42,10 +57,6 @@ An amusing discussion on the differences between schemes and varieties can be fo
 [[!redirects affine algebraic variety]]
 [[!redirects affine algebraic varieties]]
 
-[[!redirects projective variety]]
-[[!redirects projective varieties]]
-[[!redirects projective algebraic variety]]
-[[!redirects projective algebraic varieties]]
 
 [[!redirects quasiaffine variety]]
 [[!redirects quasiaffine varieties]]
