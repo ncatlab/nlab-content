@@ -37,9 +37,19 @@ $$
 
 where the $\{q^i : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}\}$ are the canonical coordinates on the first $\mathbb{R}^n$-factor of the [[Cartesian space]] $\mathbb{R}^{2n}$, and where $\{p_o : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}\}$ are canonical coordinates  on the second $\mathbb{R}^n$-factor.
 
+## Related concepts
+
+### Quantum states and wave functions
+
 Upon ([[geometric quantization|geometric]]) [[quantization]] of the physical system described by the [[symplectic manifold]] $(X, \omega)$ a [[quantum state]] is supposed to be a function on $X$ -- or rather a [[section]] of a [[prequantum line bundle]] which is a "wave-function that only depends on the canonical coordinates", not on the canonical momenta. In terms of polarizations this is formalized by saying that a [[space of states (in geometric quantization)|quantum state]] is a section which is [[covariant derivative|covariant constant]] along the [[leaves]] of the polarization (along the "momentum direction"). 
 
+### Bohr-Sommerfeld leaves
+
 After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **[[Bohr-Sommerfeld leaf]]** of a (real) polarization is a [[leaf]] on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]] with connection.
+
+### Liouville integrability
+
+If a polarization on an $2n$-dimensional symplectic manifold is generated from $n$ [[Hamiltonian vector fields]] whose [[Hamiltonians]] commute with each other under the [[Poisson bracket]] (and one of them is regarded as that generating time evolution of a mechanical system) then one speaks of a [[Liouville integrable system]].
 
 ## References
 
