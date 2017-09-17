@@ -36,6 +36,10 @@ A _sylleptic 3-group_ is a [[3-group]] eqipped with the following equivalent [[s
 
 =--
 
+## Examples
+
+* If $(\mathcal{C}, \otimes)$ is a [[sylleptic monoidal 2-category]], then its [[Picard 3-group]] is a sylleptic 3-group.
+
 ## Related concepts
 
 
@@ -54,5 +58,7 @@ A _sylleptic 3-group_ is a [[3-group]] eqipped with the following equivalent [[s
 * [[abelian ∞-group]]
 
   * [[symmetric 2-group]]
+
+  * [[abelian 3-group]]
 
 [[!redirects syllectic 3-groups]]
