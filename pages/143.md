@@ -713,6 +713,8 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
   * [[locally constant sheaf]], [[constructible sheaf]]
 
+  * [[sheaf with transfer]]
+
 * [[2-sheaf]] / [[stack]]
 
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
