@@ -186,7 +186,7 @@ More along these lines is in
 
 * [[Michael Duff]], S. Ferrara, _Four curious supergravities_ ([arXiv](http://arxiv.org/abs/1010.3173))
 
-See also [[division algebras and supersymmetry]].
+See also _[[division algebras and supersymmetry]]_.
 
 
 ### $\kappa$-Symmetry 
