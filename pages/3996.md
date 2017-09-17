@@ -19,7 +19,7 @@
 
 Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** limits of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F(\eta)$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
 
-Of course, a functor $F$ preserves a colimit if $F^{op}$ preserves the corresponding limit.
+Of course, a functor $F$ reflects a colimit if $F^{op}$ reflects the corresponding limit.
 
 If $F$ reflects all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ reflects that sort of limit (e.g. $F$ reflects products, $F$ reflects equalizers, etc.).
 
