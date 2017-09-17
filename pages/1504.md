@@ -416,6 +416,9 @@ A formulation of superstring field theory more on line with the Chern-Simons typ
 
   * [[infinite-dimensional Chern-Simons theory]]
 
+Closed string field theory has been argued to arise from the [[dynamics]] of [[Wilson loops]] in the [[IKKT matrix model]] in ([Fukuma-Kawai-Kitazawa-Tsuchiya 97](#FukumaKawaiKitazawaTsuchiya97))
+
+
 
 
 ## References
@@ -635,6 +638,12 @@ Discussion of the [[L-infinity algebra]] [[schreiber:infinity-Chern-Simons theor
  {#ReferencesBackgroundIndependence}
 
 References discussing independence of string field theories on the [[CFT]] ([[sigma-model]] background) in terms of which they are written down.
+
+Conversely, closed string field theory has been argued to arise from the [[dynamics]] of [[Wilson loops]] in the [[IKKT matrix model]] in ([Fukuma-Kawai-Kitazawa-Tsuchiya 97](#FukumaKawaiKitazawaTsuchiya97))
+
+* M. Fukuma, H. Kawai, Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
+ {#FukumaKawaiKitazawaTsuchiya97}
+
 
 #### For closed string field theory
  {#ReferencesBackgroundIndependenceForClosed}
