@@ -17,7 +17,7 @@
 
 ## Idea
 
-An _$(\infty,1)$-functor_ is a morphism between [[(∞,1)-categories]]. It generalizes 
+An _$(\infty,1)$-functor_ is a [[homomorphism]] between [[(∞,1)-categories]]. It generalizes 
 
 * the notion of [[functor]] between [[categories]];
 
