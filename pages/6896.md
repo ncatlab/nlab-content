@@ -1,7 +1,11 @@
+
 I am a [Diplom](http://de.wikipedia.org/wiki/Diplomarbeit) student of mathematics.
 
 Currently I am thinking about [[vertical categorification]] of orbifolds.
 
 As to the rest my interests are in [[categorical logic]], [[type theory|type theories]] and [[foundations]].
 
+
 category: people
+
+[[!redirects Stephan]]
