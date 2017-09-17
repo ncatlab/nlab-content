@@ -19,7 +19,15 @@
 
 ## Definition
 
-For $\Sigma$ a [[Riemann surface]], a [[complex vector bundle]] $E \to \Sigma$ over $\Sigma$ is called **stable** if for all non-trivial subbundles $K \hookrightarrow E$ the inequality
+### Over a Riemann surface / over an algebraic curve
+
+For $\Sigma$ a [[Riemann surface]], a [[complex vector bundle]] $E \to \Sigma$ over $\Sigma$ is called **stable** if for all non-trivial subbundles $K \hookrightarrow E$ the [[inequality]]
+
+$$
+  \mu(K) \lt \mu(E)
+$$
+
+between their [[slope of a coherent sheaf|slopes]] holds, i.e. if the inequality
 
 $$
   \frac{deg(K)}{rank(K)}
@@ -27,9 +35,14 @@ $$
   \frac{deg(E)}{rank(E)}
 $$
 
-between the fractions of [[degree of a coherent sheaf|degree]] and [[rank]] of the vector bundles holds.
+holds between the fractions of [[degree of a coherent sheaf|degree]] and [[rank]] of the vector bundles  holds.
 
-see e.g. ([Huybrechts-Lehn 96, def. 1.2.4, def. 1.2.12, lemma 1.2.13](#HuybrechtsLehn96))
+e.g. ([Huybrechts-Lehn 96, bottom of p. 24](#HuybrechtsLehn96))
+
+
+### Over a general (Noetherian) scheme
+
+e.g. ([Huybrechts-Lehn 96, def. 1.2.4, def. 1.2.12](#HuybrechtsLehn96))
 
 ## Examples
 
@@ -65,3 +78,6 @@ See also
 
 
 [[!redirects stable vector bundles]]
+
+[[!redirects stable coherent sheaf]]
+[[!redirects stable coherent sheaves]]
