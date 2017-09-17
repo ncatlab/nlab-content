@@ -692,6 +692,8 @@ In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.5.
 
 A [[Beilinson-Drinfeld algebra]] is _not_ a [[dg-algebra]] with [[differential]] $\Delta$: the Poisson bracket $\hbar \{-,-\}$ measures the failure for the differential to satisfy the [[Leibniz rule]]. In particular the $\Delta$-[[cohomology]] is _not_ an [[associative algebra]].
 
+In this respect the notion of BV-quantization via BD-algebras differs from other traditional notions of BV-quantization, where one demands the quantum BV-complex to be a noncommutative dg-algebra deformation of the classical BV complex. But instead the BD-algebras induced by a [[local action functional]] and varying over open subsets of [[spacetime]]/[[worldvolume]] form a [[factorization algebra]] and _that_ encodes the [[algebra of observables]]: the _[[factorization algebra of observables]]_ (see there for more).
+
 =--
 
 But:
