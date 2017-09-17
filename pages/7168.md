@@ -1,0 +1,49 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $V$ a [[vector space]] or $k$-[[module]], a _quadric form_ on $V$ is a map
+
+$$
+  q : V \to k
+$$
+
+such that there is a [[bilinear form]] $\langle -,- \rangle : V \otimes V \to k$ with $q(v) = \langle v,v\rangle$.
+
+## Quadratic refinement
+
+Notice that we recover $\langle -,-\rangle$ up to a multiple of 2 from its qudratic form
+
+$$
+  2 \langle v,w\rangle = 
+  q(v + w) - q(v) - q(w) + q(0)
+  \,.
+$$
+
+A function $q' : V \to k$ (not necessarily bilinear) for which this equation holds _without_ the factor of 2, 
+
+$$
+  \langle v,w\rangle = 
+  q'(v + w) - q'(v) - q'(w) + q(0)
+  \,,
+$$
+
+then $q'$ is called a **quadratic refinement** of $\langle -,-\rangle$. This is nontrivial when 2 is not invertible in $k$.
+
+## References
+
+Course notes include for instance
+
+* _On the relation between quadratic and bilinear forms_ ([pdf](http://www.maths.manchester.ac.uk/~khudian/Etudes/Algebra/quadrform2.pdf))
+
+Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerful tool in [[algebraic topology]] and [[differential topology]]. See
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+[[!redirects quadratic forms]]
+
+[[!redirects quadratic refinement]]
+[[!redirects quadratic refinements]]
