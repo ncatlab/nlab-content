@@ -114,6 +114,10 @@ In the the [[(∞,1)-category]] [[Top]] we have that an object is $n$-connected 
 [[!redirects n-simply connected object]]
 [[!redirects n-simply connected objects]]
 
+[[!redirects ∞-connected]]
+[[!redirects ∞-connective]]
+
+
 [[!redirects n-connective object]]
 [[!redirects n-connective objects]]
 [[!redirects n-connective]]
