@@ -307,12 +307,12 @@ is equivalent to the category of $A$-[[module spectra]].
 
 ([Lurie, cor. 1.5.15](#Lurie)).
 
+
 ### Of an $\infty$-topos
  {#ExamplesTangentOfAnInfinityTopos}
 
 We discuss here aspects of the tangent $\infty$-categories of [[(∞,1)-toposes]].
 
-> This is a bit experimental, therefore lots of remarks. To be fleshed out later.
 
 First consider the [[base (∞,1)-topos]] $\mathbf{H} = $ [[∞Grpd]]. 
 
@@ -369,10 +369,10 @@ The statement then follows with the "[stable Giraud theorem](stable%20%28infinit
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #TangentOfInfinityGrpdIsTopos}
 ###### Proposition
 
-The tangent $(\infty,1)$-category $T \infty Grpd$ is itself 
+The tangent $(\infty,1)$-category $T (\infty Grpd)$ is itself 
 an [[(∞,1)-topos]].
 
 =--
@@ -425,7 +425,7 @@ $$
   (-) \times 0 \colon \infty Grpd \hookrightarrow T \infty Grpd
 $$
 
-and so the tangent $(\infty,1)$-category is [[cohesive (∞,1)-topos|cohesive]] over [[∞Grpd]]:
+and so the tangent $(\infty,1)$-category is [[cohesive (∞,1)-topos|cohesive]] over [[∞Grpd]], hence by prop. \ref{TangentOfInfinityGrpdIsTopos} $T(\infty Grpd)$ is a [[cohesive (∞,1)-topos]]:
 
 
 $$
@@ -434,7 +434,7 @@ $$
   \colon
   \;
   T(\infty Grpd)
-  \stackrel{\overset{\Gamma}{\to}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \stackrel{\overset{\Gamma}{\longrightarrow}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{(-) \times 0}{\leftarrow}}}}
   \infty Grpd
   \,.
 $$
@@ -443,9 +443,9 @@ Recalling that here $\Gamma = cod \circ \Omega^\infty$, we have one more adjunct
 
 $$
   \infty Grpd
-  \stackrel{\overset{\Omega}{\to}}{\underset{dom\circ \Omega^{\infty}}{\leftarrow}}
+  \stackrel{\overset{\Omega}{\longrightarrow}}{\underset{dom\circ \Omega^{\infty}}{\leftarrow}}
   T(\infty Grpd)
-  \stackrel{\overset{\Gamma}{\to}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \stackrel{\overset{\Gamma}{\longrightarrow}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{(-) \times 0}{\leftarrow}}}}
   \infty Grpd
   \,.
 $$
@@ -459,11 +459,11 @@ For $\mathbf{H}$ a general [[(∞,1)-topos]] the above discussion goes through e
 
 $$
   \mathbf{H}
-  \stackrel{\overset{\Omega}{\to}}{\underset{dom}{\leftarrow}}
+  \stackrel{\overset{\Omega}{\longrightarrow}}{\underset{dom}{\leftarrow}}
   T\mathbf{H}
-  \stackrel{\overset{\Gamma}{\to}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \stackrel{\overset{\Gamma}{\longrightarrow}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{(-) \times 0}{\leftarrow}}}}
   \mathbf{H}
-  \stackrel{}{\stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}}
+  \stackrel{}{\stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}}
   \infty Grpd
   \,.
 $$
