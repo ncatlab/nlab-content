@@ -61,9 +61,13 @@ are coherent then so is the third. All this holds even if $\mathcal{O}$ is a she
 
 A theorem of Serre says that the category of coherent sheaves over a projective variety of the form $Proj R$ where $R$ is a graded commutative Noetherian ring is equivalent to the localization of the category of finitely generated graded $R$-modules modulo its ("torsion") subcategory of (finitely generated graded) $R$-modules of finite length. 
 
-## Historical note
+## Historical note and definition variants
 
 First works on coherent sheaves in complex analytic geometry. Serre adapted their work to algebraic framework in his famous article [[FAC]]. Hartshorne's definitions are changed/adapted to the special setup of Noetherian schemes with the excuse that the coherence does not behave that well otherwise; thus they differ from the definitions in [[EGA]] and [[FAC]].  
+
+[[A. Vistoli]] commented at MathOverflow [here](http://mathoverflow.net/questions/68150) that for some categorical purposes
+
+> one should interpret "coherent" as meaning "quasi-coherent of finite presentation". The notion of coherent sheaf, as defined in EGA, is not functorial, that is, pullbacks of coherent sheaves are not necessarily coherent. Hartshorne's book defines "coherent" as "quasi-coherent and finitely generated", but this is a useless notion when working with non-noetherian schemes.
 
 ##References
 
