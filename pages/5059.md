@@ -28,7 +28,7 @@ The _Green-Schwarz action functional_ is the [[action functional]] of a [[sigma-
 
 * For $p = 0$ this is the **Green-Schwarz [[superparticle]]**.
 
-* For $p = 1$ the **Green-Schwarz [[type II superstring]]** (at the center of attention in [[string theory]]).
+* For $p = 1$ the **Green-Schwarz [[superstring]]** (at the center of attention in [[string theory]]).
 
   This model is in contrast to the [[NSR-string]], which instead has manifest worldsheet supersymmetry. See [[superstring]] for more on this.
 
