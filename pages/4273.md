@@ -1,9 +1,19 @@
 
 * [website](http://www.math.northwestern.edu/people/gradStudentProfiles/owen.gwilliam.html)
 
+## Some publications
+
+* [[Kevin Costello]], Owen Gwilliam, _[[Factorization algebras in perturbative quantum field theory]]_
+
+* Owen Gwilliam, _Factorization algebras and free field theories_, PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+
 ## related $n$Lab entries
 
-* [[factorization algebra]]
+* [[factorization algebra of observables]]
+
+* [[BV-quantization]]
+
+* [[Feynman diagram]]
 
 
 category: people
