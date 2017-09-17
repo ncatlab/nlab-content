@@ -31,6 +31,8 @@ The [[(∞,1)-category of (∞,1)-sheaves]] on a $(2,1)$-site is an [[n-localic 
 
 * [[2-site]], **(2,1)-site**
 
+  * [[(2,1)-sheaf]]
+
 * [[(∞,1)-site]]
 
   * [[model site]], [[simplicial site]]
@@ -39,5 +41,3 @@ The [[(∞,1)-category of (∞,1)-sheaves]] on a $(2,1)$-site is an [[n-localic 
 [[!redirects (2,1)-site]]
 [[!redirects (2,1)-sites]]
 
-[[!redirects (2,1)-sheaf]]
-[[!redirects (2,1)-sheaves]]
