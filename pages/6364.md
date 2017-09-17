@@ -45,12 +45,19 @@ See
 
 * _[[unitisation of C*-algebras]]_.
 
+### For $\mathbb{E}_k$-algebra
+
+Unitisation in the generality of [[Ek-algebra]] -- hence for [[nonunital Ek-algebras]] -- unitalization is the content of ([Lurie, prop. 5.2.3.13](#Lurie)).
+
 ## Related concepts
 
 * [[unit]]
 
 * [[unitality]]
 
+## References
+
+* {#Lurie} [[Jacob Lurie]], section 5.2.3 of _[[Higher Algebra]]_
 
 
 [[!redirects unitalization]]
