@@ -31,7 +31,7 @@ given by the [[exponential map]] $\exp(\tfrac{i}{\hbar}(-))$ from the [[additive
 Hence more explicitly over the [[complex numbers]] this is 
 
 $$
-  0 \to \mathbb{Z} \longrightarrow \mathbb{C} \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} \mathbb{C}^\times \to 0
+  0 \to \hbar2\pi\mathbb{Z} \longrightarrow \mathbb{C} \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} \mathbb{C}^\times \to 0
   \,,
 $$
 
