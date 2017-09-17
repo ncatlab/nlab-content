@@ -1,4 +1,3 @@
-[[!redirects higher arithmetic geometry]]
 
 > This entry is about traditional [[arithmetic geometry]] over [[higher local fields]]. For "[[E-∞ arithmetic geometry]]" see there.
 
@@ -22,6 +21,10 @@ the study of [[arithmetic geometry]] which concentrates on arithmetic schemes of
 
 The [[zeta functions]] in higher dimensional arithmetic geometry are called _[[arithmetic zeta functions]]_.
 
+
+## Related concepts
+
+* [[perfectoid space]]
 
 ## References
 
@@ -60,3 +63,5 @@ See also the conference webpage
 
 *  _[Symmetries and Correspondences: 
 Higher Structures in Number Theory](https://www.maths.nottingham.ac.uk/personal/ibf/files/hsnt1.html)_, Oxford, July 2014
+
+[[!redirects higher arithmetic geometry]]
