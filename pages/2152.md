@@ -104,7 +104,8 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 ## Related concepts
 
-* [[several complex variables]], [[analytic space]], [[Stein space]]
+* [[several complex variables]], [[analytic spectrum]], [[analytic space]], [[Stein space]]
+
 * [[Oka principle]], [[B1-homotopy theory]]
 
 ## References
