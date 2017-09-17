@@ -1199,4 +1199,5 @@ Most further statements here will appear in
 
 [[!redirects higher Atiyah groupoids]]
 
-
+[[!redirects higher gauge groupoid]]
+[[!redirects higher gauge groupoids]]
