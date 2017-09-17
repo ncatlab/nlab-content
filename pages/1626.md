@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
 [[!include topology - contents]]
-</div>
+=--
+=--
+=--
 
 # Contents
 * automatic table of contents goes here
@@ -95,6 +101,10 @@ The basic categorical results 1., 2., and 3. above carry over upon replacing "co
 
 As a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete!
 
+
+## Related concepts
+
+* [[locally connected topos]]
 
 [[!redirects connected space]]
 [[!redirects connected spaces]]
