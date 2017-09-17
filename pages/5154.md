@@ -374,3 +374,6 @@ The discussion of the model structure on algebras over a suitable operad is in
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijkAlgebras}
 
+
+[[!redirects model structures on algebras over an operad]]
+
