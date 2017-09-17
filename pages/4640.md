@@ -13,7 +13,16 @@
 * table of contents
 {:toc}
 
+## Idea
+
+For every [[Lawvere theory]] $T$ containing the theory of [[abelian group]]s [[Isbell duality|Isbell dual]] [[sheaf topos]] over formal duals of $T$-algebras contains a canonical [[line object]] $\mathbb{A}^1$.
+
+For $T$ the theory of commutative [[ring]]s this is called the _affine line_ .
+
+
 ## Definition
+
+### Affine line
 
 Let $k$ be a [[ring]], and $T$ the [[Lawvere theory]] of [[associative algebra]]s over $k$, such that the category of [[algebras over a Lawvere theory]] $T Alg = Alg_k$ is the [[category]] of $k$-algebras. 
 
@@ -23,17 +32,198 @@ Let $k$ be a [[ring]], and $T$ the [[Lawvere theory]] of [[associative algebra]]
 The canonical $T$-[[line object]] is the **affine line**
 
 $$
-  \mathbb{A}_k := Spec(F_T(*))  = Spec k[X]
+  \mathbb{A}_k := Spec(F_T(*))  = Spec k[t]
   \,.
 $$
 
 =--
 
-Here the [[free functor|free]] $T$-algebra on a single generator $F_T(*)$ is the [[polynomial algebra]] $k[X] \in Alg_k$ on a single generator and $Spec k[X]$ may be regarded as the corresponding object in the [[opposite category]] $Aff_k := Alg_k^{of}$ of [[affine scheme]]s over $Spec  k$.
+Here the [[free functor|free]] $T$-algebra on a single generator $F_T(*)$ is the [[polynomial algebra]] $k[t] \in Alg_k$ on a single generator $* = t$ and $Spec k[t]$ may be regarded as the corresponding object in the [[opposite category]] $Aff_k := Alg_k^{of}$ of [[affine scheme]]s over $Spec  k$.
 
 
+### Multiplicative group
+
+The multiplicative [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **multiplicative group** is the [[group scheme]] denoted $\mathbb{G}_m$
+
+* whose underlying affine scheme is
+
+  $$
+    (\mathbb{A}^1 - \{0\}) := Spec k[t,t^{-1}]
+    \,,
+  $$
+
+  where $k[t,t^{-1}]$ is the [[localization]] of the ring $k[t]$ at the element $t = (t-0)$.
+
+* whose multiplication operation
+
+  $$
+    \cdot \mathbb{G}_m \times \mathbb{G}_m \to \mathbb{G}_m
+  $$
+
+  is the morphism in $Ring^{op}$ corresponding to the morphism in [[Ring]]
+
+  $$
+    k[t_1,t_1^{-1}] \otimes_k k[t_2, t_2^{-1}] \leftarrow k[t,t^{-1}]
+  $$
+
+  given by $t \mapsto t_1 \cdot t_2$;
+
+* whose unit map $Spec k \to Spec k[t,t^{-1}]$ is given by
+
+  $$
+    t \mapsto 1
+  $$
+
+* and whose inversion map $Spec k[t,t^{-1}] \to Spec[t,t^{-1}]$ is given by
+
+  $$
+    t \mapsto t^{-1}
+    \,.
+  $$
+
+### Additive group
+
+The additive [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **additive group** is the [[group scheme]] denoted $\mathbb{G}_a$  
+
+* whose underlying object is $\mathbb{A}^1$ itself;
+
+* whose addition operation $\mathbb{G}_a \times \mathbb{G}_a \to \mathbb{G}_a$ is dually the ring homomorphism 
+
+  $$
+    k[t_1] \otimes_k k[t_2] \leftarrow k[t]
+  $$
+
+  given by
+
+  $$
+    t \mapsto t_1 + t_2
+    \,;
+  $$
+
+* whose unit map is given by
+
+  $$
+    t \mapsto 0
+    \,;
+  $$
+
+* whose inversion map is given by
+
+  $$
+    t \mapsto -t
+    \,.
+  $$
+
+## Properties {#Properties}
+
++-- {: .un_prop}
+###### Proposition
+
+Let $R$ be a commutative $k$-algebra. There is a [[natural isomorphism]] between
+
+* $\mathbb{Z}$-[[graded algebra|gradings]] on $R$;
+
+* $\mathbb{G}_m$-[[action]]s on $Spec R$.
+
+=--
+
++-- {: .proof}
+###### Proof
 
 
-## Related entries
+For the first direction, let $R$ be a $\mathbb{Z}$-[[graded algebra|graded commutative algebra]]. Then $X = Spec R$ comes with a $\mathbb{G}$-action given as follows: the action morphism
+
+$$
+ \rho :  X \times \mathbb{G}_m \to X
+$$
+
+is dually the ring homomorphism
+
+$$
+  R \otimes_k \mathbb{Z}[t,t^{-1}] \leftarrow R
+$$
+
+defined on homogeneous elements $r$ of degree $n$ by
+
+$$
+  r \mapsto r \cdot t^n
+  \,.
+$$
+
+The action property
+
+$$
+  \array{
+     X \times \mathbb{G}_m \times \mathbb{G}_m &\stackrel{Id \times \cdot}{\to}& X \times \mathbb{G}
+     \\
+     {}^{\mathllap{\rho} \times Id}\downarrow && \downarrow^{\mathrlap{\rho}}
+     \\
+     X \times \mathbb{G}_m &\stackrel{\rho}{\to}& X
+  }
+$$
+
+is equivalently the equation
+
+$$
+  r (t_1)^n \cdot (t_2)^n = r (t_1 \cdot t_2)^n
+$$
+
+for all $n \in \mathbb{Z}$. Similarly the [[unitality]] of the action is the equation
+
+$$
+  (1)^n = 1
+  \,.
+$$
+
+Conversely, given an action of $\mathbb{G}_m$ on $Spec R$ we have some morphism
+
+$$
+  R[t,t^{-1}] \leftarrow R
+$$
+
+that sends
+
+$$
+  r \mapsto \sum_{n \in \mathbb{Z}} r_n t^n
+  \,.
+$$
+
+
+By the action property we have that 
+
+$$
+  \sum_n r_n (t_1 t_2)^n = \sum_{n,k} (r_n)_k t_1^n t_2^k
+  \,.
+$$
+
+Hence 
+
+$$
+  (r_n)_k = 
+  \left\{
+    \array{
+       r_n & if \; n = k
+       \\
+       0 & otherwise
+    }
+  \right.
+$$
+
+and so the morphism gives a decomposition of $R$ into pieces labeled by $\mathbb{Z}$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This induces the algebraic construciton of [[projective space]]s as formal duals of graded algebras. See there for more details.
+
+=--
+
+
+## Related concepts
 
 * In [[A1-homotopy theory]] one considers [[homotopies]] in the [[sheaf topos]] over duals of $R$-algebras parameterized by the affine line.
+
+[[!redirects multiplicative group]]
+[[!redirects additive group]]
