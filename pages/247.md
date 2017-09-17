@@ -12,7 +12,6 @@ For my own reference: some pages that I'm planning to do some work on:
 * functoriality of [[codiscrete cofibrations]],
 * create a separate page [[two-sided fibration]], also work on [[fibration in a 2-category]]
 * give a definition at [[2-limit]]
-* write about some specific 2-limits, like [[inserter]], [[inverter]], [[equifier]]
 * give an example at [[monadicity theorem]].
 * [[image]]
 * copy some stuff over from my personal web
