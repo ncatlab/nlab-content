@@ -9,7 +9,7 @@ For $X$ a [[filtered object|filtered]] [[space]] entities like [[quasicoherent s
 
 ## Examples
 
-* The [[height filtration]] on the [[moduli stack of formal groups]] induces a filtration by suppert. The corresponding [[spectral sequence of a filtered stable homotopy type]] appears
+* The [[height filtration]] on the [[moduli stack of formal groups]] induces a filtration by support. The corresponding [[spectral sequence of a filtered stable homotopy type]] appears
 
 ## Related concepts
 
