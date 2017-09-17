@@ -1,9 +1,12 @@
-[[!redirects opinions on development of mathematics]]
-## Idea
 
-This is not part of philosophy, but the opinions on what is good mathematics, how mathematics could develop better, and how it should be stimulated to develop, as well as overviews of the current state of mathematics and its important points is important part of reflection, but also of practical action of a mathematician.
+# The development and current state of mathematics
+* table of contents
+{: toc}
 
-## On relation between conjectural and proved mathematics styles
+This is not part of [[philosophy]] in a narrow sense, but the opinions on what is good [[mathematics]], how mathematics could develop better, and how it should be stimulated to develop, as well as overviews of the current state of mathematics and its important points, is an important part of reflection, but also of the practical action of a mathematician.
+
+
+## On the relation between conjectural and proved mathematics styles
 
 This is a topic of a well-known discussion series in 1990s.
 
@@ -21,7 +24,13 @@ Somewhat later and with different scope, but related to this series, is also a l
 
 * Frank Quinn, _Contributions to a science of contemporary mathematics_, [pdf](http://www.math.vt.edu/people/quinn/history_nature/nature0.pdf)
 
+
 ## Some other issue
 
+...
 
 
+[[!redirects opinions on the development of mathematics]]
+[[!redirects opinions on development of mathematics]]
+[[!redirects development of mathematics]]
+[[!redirects development and current state of mathematics]]
