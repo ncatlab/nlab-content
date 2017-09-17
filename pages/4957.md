@@ -61,7 +61,7 @@ $$
 
 to indicate that if we think of $\Gamma$ as sending a [[space]] to its underlying $S$-object of points by forgetting [[cohesive topos|cohesion]], then $Disc$ creates the [[discrete space]]/[[discrete object]] and $Codisc$ the [[codiscrete space]]/[[codiscrete object]] on an object in $S$.
 
-This is especially common when $S=$ [[Set]], in which case the final condition is automatic since all functors are $Set$-indexed. Hence in that case we the following simpler [definition](local). 
+This is especially common when $S=$ [[Set]], in which case the final condition is automatic since all functors are $Set$-indexed. Hence in that case we have the following simpler [definition](local). 
 
 ### Local topos
  {#LocalTopos}
@@ -79,7 +79,7 @@ $$
 
 =-- 
 
-Another way of stating this is that a Grothendieck topos is local if and only if the terminal object $1$ is [[connected object|connected]] and [[projective object|projective]] (since this means precisely that $\Gamma = \hom(1, -)$ preserves colimits, and is therefore has a right adjoint by applying an [[adjoint functor theorem]]). Another term for this: we say $1$ is _[[tiny object|tiny]]_. 
+Another way of stating this is that a Grothendieck topos is local if and only if the terminal object $1$ is [[connected object|connected]] and [[projective object|projective]] (since this means precisely that $\Gamma = \hom(1, -)$ preserves colimits, and therefore has a right adjoint by virtue of an [[adjoint functor theorem]]). Another term for this: we say $1$ is _[[tiny object|tiny]]_. 
 
 ## Properties
 
