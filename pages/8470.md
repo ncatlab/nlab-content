@@ -36,7 +36,7 @@ This is ([van den Berg, def. 6.1](#vdBerg)).
 +-- {: .num_remark }
 ###### Remark
 
-The [[axiom of multiple choice]] appears in different strengths in the literature. Accordingly there is the notion of strong/weak predicative topos if it satisfies the strong/weak version of this axiom
+The [[axiom of multiple choice]] appears in different strengths in the literature, see at _[[WISC]]_. Accordingly there is the notion of strong/weak predicative topos if it satisfies the strong/weak version of this axiom.
 
 =--
 
