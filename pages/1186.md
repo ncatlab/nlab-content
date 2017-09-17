@@ -122,6 +122,12 @@ That [[localization of an (infinity,1)-category|localizations]] $C \stackrel{\le
 * [[Dan Dugger]], _[[Combinatorial model categories have presentations]]_
 
 
+## Examples
+
+* For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-category $Alg_{(\infty,1)}(C)$ of algebras over $C$ regarded as an [[(∞,1)-algebraic theory]] is locally presentable.
+
+* An [[(∞,1)-topos]] is precisely a locally presentable $(\infty,1)$-category where the [[localization of an (∞,1)-category|localization]] functor also preserves finite limits.
+
 ## References 
 
 This is the topic of section 5 and section A.3.7 of
