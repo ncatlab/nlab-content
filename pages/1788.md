@@ -212,7 +212,7 @@ Explain the difference between hide and click-to-hide?
 ***
 
 +--{: #itex2MMLversion}
-What version of itex2MML is the nLab running?
+What version of itex2MML is the nLab running (now updated to 1.4.2, but we'll leave this test up for informational purposes)?
 
 * Version 1.4.2? 
   $$
