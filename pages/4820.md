@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -12,11 +13,7 @@
 =--
 =--
 
-* [[Chern-Simons circle 3-bundle]]
 
-* **Chern-Simons circle 7-bundle**
-
-***
 
 #Contents#
 * table of contents
@@ -171,5 +168,12 @@ where $A$ is a connection form on the total space of the $Spin(n)$-[[principal b
 * [[differential fivebrane structure]]
 
 * [[dual heterotic string theory]]
+
+## Related concepts
+
+* [[Chern-Simons circle 3-bundle]]
+
+* **Chern-Simons circle 7-bundle**
+
 
 [[!redirects Chern-Simons circle 7-bundle]]
