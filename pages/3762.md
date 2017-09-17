@@ -19,6 +19,8 @@ There are several articles trying to attach zeta functions attached to [[triangu
 
 * there are attempts to understand the Riemann zeta function as the spectrum of a [[Hamiltonian]] of a [[quantum mechanical system]]. See at _[[Riemann hypothesis and physics]]_.
 
+* [[Beilinson regulator]]
+
 ## References
 
 
@@ -34,5 +36,14 @@ There are several articles trying to attach zeta functions attached to [[triangu
 * [[Vladimir Guletskii]], _Zeta functions in triangulated categories_, Mathematical Notes __87__, 3 (2010) 369--381, [math/0605040](http://arxiv.org/abs/math/0605040) 
 * [[Maxim Kontsevich|M. Kontsevich]], _Notes on motives in finite characteristics_, [math.AG/0702206](http://arxiv.org/abs/math.AG/0702206) 
 
+* [[John Baez]], _[[johnbaez:Zeta functions]]_
+
 [[!redirects zeta functions]]
 [[!redirects Riemann zeta function]]
+
+[[!redirects Dedekind zeta function]]
+[[!redirects Dedekind zeta functions]]
+
+[[!redirects Dedekind zeta-function]]
+[[!redirects Dedekind zeta-functions]]
+
