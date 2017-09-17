@@ -15,7 +15,12 @@
 
 ## Definition
 
-An [[object]] $A$ in a [[category]] is a **retract** of an object $B$ if there are [[morphisms]] $i:A\to B$ and $r:B\to A$ such that $r \circ i = 1_A$.
+An [[object]] $A$ in a [[category]] is a **retract** of an object $B$ if there are [[morphisms]] $i:A\to B$ and $r:B\to A$ such that $r \circ i = id_A$. In this case $r$ is called a **retraction** of $B$ onto $A$.
+
+$$
+  id : A \stackrel{i}{\to} B \underoverset{retraction}{r}{\to} A
+  \,.
+$$
 
 
 
@@ -233,6 +238,10 @@ With this the claim follows as in prop. \ref{RetractsOfLimits}.
 =--
 
 ## Examples
+
+### General
+
+* In a category with [[terminal object]] $*$ every morphism of the form $* \to X$ is a retract, and the unique morphism $X \to *$ is the corresponding retraction.
 
 ### Of simplices
 
