@@ -25,3 +25,5 @@ category: people
 [[!redirects Victor Ginzburg]]
 [[!redirects Victor Ginsburg]]
 [[!redirects V. Ginzburg]]
+
+[[!redirects Viktor Ginzburg]]
