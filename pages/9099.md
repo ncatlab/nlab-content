@@ -1,0 +1,88 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The case of [[higher dimensional Chern-Simons theory]] in [[dimension]] 7.
+
+## Related concepts
+
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+
+  * [[Chern-Simons theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * **7d Chern-Simons theory**
+
+  * [[AKSZ sigma-models]]
+
+  * [[string field theory]]
+
+  * [[infinite-dimensional Chern-Simons theory]]
+
+
+## References
+
+
+The abelian 7d [[higher dimensional Chern-Simons theory]] of a [[circle n-bundle with connection|circle 3-bundle with connection]] was considered in 
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#WittenI}
+
+* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+ {#Witten98}
+
+and argued to be the [[holographic principle|holographic dual]] to the [[self-dual higher gauge theory]] of an abelian 2-form connection on a _single_ [[M5-brane]] in its [[6d (2,0)-supersymmetric QFT]] on the worldvolume.
+
+The precise formulation of this functional in terms of [[differential cohomology]] and [[integral Wu structure]] was given in 
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+The Chern-Simons type action functionals $A \mapsto \int_X CS(A) \wedge \omega_4$ on a 7d [[G2-manifold]] $(X, \omega_3)$ was first considered in 
+
+* [[S. Donaldson]], [[R. Thomas]], _Gauge theory in higher dimensions_ ([pdf](http://www2.imperial.ac.uk/~rpwt/skd.pdf))
+ {#DonaldsonThomas}
+
+In 
+
+* [[Jan de Boer]], Paul de Medeiros, Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
+
+this is put into the context of [[topological M-theory]] (see around equation (2) in the introduction).
+
+In 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_
+
+the 7d Chern-Simons action obtained by [[Kaluza-Klein reduction|compactifying]] [[11-dimensional supergravity]] including the quantum corrections of the [[supergravity C-field]] on a 4-sphere (the [[AdS-CFT|AdS7/CFT6]] setup) is considered and refined to an [[extended Lagrangian]]. It contains the [Donaldson-Thomas](#DonaldsonThomas)-functional $\int_X CS(A) \wedge G_4$ as one summand and the [Witten](#WittenI)-functional as another.
+
+Further discussion of [[extended Lagrangians]] for 7d CS theories is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
+
+[[!redirects 7-dimensional Chern-Simons theory]]
+[[!redirects 7d Chern-Simons theories]]
+[[!redirects 7-dimensional Chern-Simons theories]]
