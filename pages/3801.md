@@ -41,6 +41,9 @@ The topological construction goes back to ([Godin](#Godin)). A conjecture for ho
 
 (...)
 
+## Related concepts
+
+* [[Goldman bracket]]
 
 ## References
 
