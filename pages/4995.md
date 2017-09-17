@@ -157,6 +157,60 @@ The [[coshape of an (∞,1)-topos]] $\mathbf{H}$ is the underlying $\infty$-grou
 
 (...)
 
+### Geometry {#Geometry}
+
+
++-- {: .query}
+
+[[Urs Schreiber]]:
+
+Every cohesive $(\infty,1)$-topos should canonically induce a [[geometry (for structured (∞,1)-toposes)]] $\mathcal{G}$ such that for every (concrete) object $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ -- which is the [[little topos]]-incarnation of $X$ -- is canonically a $\mathcal{G}$-[[structured (∞,1)-topos]].
+
+Perhaps take the corresponding pre-geometry $\mathcal{T}$ to be 
+
+$$
+  \mathcal{T} := ker \Pi \hookrightarrow \mathbf{H}
+$$
+
+the full sub-$(\infty,1)$-category of $\mathbf{H}$ on those objects $V$ such that $\Pi(V) \simeq *$.
+
+This is a category with finite products thanks to the condition that $\Pi$ preserves finite products. So it satisfies the main axiom of a pre-geometry. Need to think about the other axioms.
+
+Then for every $X \in \mathbf{H}$ we get a product-preserving functor
+
+$$
+  \mathcal{O}_X : \mathcal{T} \to \mathbf{H}/X
+$$
+
+simply  by $V \mapsto (X \times V \stackrel{p_1}{\to} X ) $. Notice that the object  on the right indeed corresponds to the sheaf of $V$-valued functions on $X$ under the identification of $\mathbf{H}/X$ with the sheaf topos on $X$.
+
+
+This construction is the composite
+
+$$
+  \mathcal{O}_X : 
+    \mathcal{T} 
+      \hookrightarrow 
+    \mathbf{H}
+    \stackrel{p^*}{\to}
+    \mathbf{H}/X
+$$
+
+for the [[etale geometric morphism]]
+
+$$
+  (p_! \dashv p^* \dashv p) : \mathbf{H}/X \to \mathbf{H}
+  \,.
+$$
+
+
+
+Now (...)
+
+
+
+=--
+
 ## Structures in a cohesive $(\infty,1)$-topos
 
 A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
