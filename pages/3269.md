@@ -36,3 +36,5 @@ Chow groups appear as the [[cohomology group]]s of [[motivic cohomology]] (see t
 A concise definition of the notion of Chow group and related concepts is in 
 
 * [this pdf](http://www.math.utah.edu/vigre/minicourses/algebra/spiroff3.pdf) from some [Vigre minicours](http://www.math.utah.edu/vigre/minicourses/) (???) 
+
+[[!redirects Chow groups]]
