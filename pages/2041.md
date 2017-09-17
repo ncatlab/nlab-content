@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -22,6 +22,13 @@ In other words, germs of sections at a point $x\in B$ are equivalence classes $[
 For example, take the sheaf of continuous (say, real-valued) functions on some space $X$.  Then every [[partial function]] $f$ defined on a [[neighbourhood]] of any given point $a$ in $X$ defines a germ at $a$.  Furthermore, the germ of $f$ equals the germ of $g$ if and only if $f = g$ on some neighbourhood $U$ of $a$; note that $U$ must be contained in the intersection of the domains of $f$ and $g$, but it may be smaller yet.
 
 For a modern example of this kind, with only $1$ stalk, consider the nonarchimedean [[field]] of germs of holomorphic functions at the origin of the field $\mathbb{C}$ of [[complex number]]s, which plays an important role in mirror symmetry as the [[base field]] for the geometry of families of [[Calabi-Yau manifold]]s in the large volume limit (cf. Kontsevich, Soibelman [doi:10.1007/0-8176-4467-9](http://dx.doi.org/10.1007/0-8176-4467-9), [arxiv:math/0406564v1](http://arxiv.org/abs/math/0406564v1)).  
+
+## Related concepts
+
+[[!include infinitesimal and local - table]]
+
+
+## References
 
 * R. Godement, Topologie algebrique et theorie de faisceaux, Paris 1958 
 
