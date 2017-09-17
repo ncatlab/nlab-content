@@ -10,6 +10,8 @@ The [[real oriented cohomology]]-version of the [[cohomology theory]] represente
 
 * [[MR-theory]]
 
+* [[ER-theory]]
+
 ## References
 
 * {#Araki78} S. Araki, _$\tau$-cohomology theories_, Japan Journal of Mathematics (N.S.) 4 (2) (1978) 363-416.
