@@ -458,35 +458,53 @@ $$
 +-- {: .proof}
 ###### Proof
 
+This statement may be understood as a special case of the following more general statement: 
 
-+--{.query} 
+* If $S$, $T$ are [[finitary monad]]s and $f: S \to T$ is a monad morphism, then the relative forgetful functor
+$$f^*: Alg_T \to Alg_S,$$ 
+which [[pullback|pulls back]] a $T$-algebra $\xi: T X \to X$ to the $S$-algebra $\xi \circ f X: S X \to X$, admits a [[left adjoint]]. 
 
-[[Todd Trimble|Todd]]: I'm not saying the cototality statement is wrong, but I guess I'm slightly mistrustful because I am told that sometimes categories of algebras for a Lawvere theory fail to be cototal, for example the category of groups (Richard Wood, private communication). So this assertion at least requires proof. 
+(In the case under discussion, $S$ is the free algebra monad on $Set$, $T$ is the free smooth algebra monad, and $f: S \to T$ is induced from the obvious inclusion $f(n): S(n) \to T(n)$ which interprets an $n$-ary algebra operation (in the theory $Th_S$) as a smooth operation in the theory $Th_T$. See [[finitary monad]] for discussion on the connection between finitary monads $T$ and Lawvere theories $Th_T$.)  
 
-However, I'm reasonably satisfied that the argument I gave earlier goes through, and I'll write up some details as soon as I get a free chance, which will be several hours from now. 
+The desired left adjoint $f_!$ takes an algebra $\theta: S X \to X$ to the [[reflexive coequalizer]] exhibited as a diagram  
 
-=--
+$$T S X \stackrel{\overset{(\mu_T \circ T f)X}{\to}}{\underset{T\theta}{\to}} T X \stackrel{\pi}{\to} T \otimes_S X$$ 
 
-This statement may be understood as a special case of the following much more general argument.
+in the category of $T$-algebras, where $\mu_T: T T \to T$ is the monad multiplication. The coequalizer is denoted $T \otimes_S X$ to emphasize the analogy with pushing forward $S$-modules $X$ along a ring homomorphism $f: S \to T$ to get $T$-modules; the proof below is an arrow-theoretic transcription of the usual proof of the adjunction between pushing out and pulling back in the context of rings and modules. 
 
-A [[finitary monad]] is a [[monad]] for a [[Lawvere theory]].
-Suppose given any morphism of finitary monads $f: S \to T$. In the case under discussion $S$ will be the free algebra monad on $Set$, $T$ will be the free smooth algebra monad, and 
+A finitary monad $T$ [preserves reflexive coequalizers](http://ncatlab.org/nlab/show/reflexive+coequalizer#applications_4), so that there is a canonical isomorphism 
 
-$$f X: S X \to T X$$ 
+$$T(T \otimes_S X) \cong (T T) \otimes_S X$$
 
-is the inclusion which takes an $X$-ary operation for the [[theory]] $S$ to the corresponding "smooth" $X$-ary operation for the theory $T$. The [[forgetful functor]] [[pullback|pulls back]] a $T$-algebra $\xi: T X \to X$ along $f X$ to obtain an $S$-algebra $\xi \circ f X: S X \to X$. 
+It follows that $T$-algebra ($T$-module) maps $\bar{g}: T \otimes_S X \to Y$, i.e., maps that render commutative the diagram 
 
-The [[left adjoint]] takes an algebra $\theta: S X \to X$ to the [[reflexive coequalizer]] of the pair 
+$$\array{
+T T \otimes_S X & \stackrel{T\bar{g}}{\to} & T Y \\
+\mu \otimes_S X \downarrow & & \downarrow \xi \\
+T \otimes_S X & \underset{\bar{g}}{\to} & Y
+}$$ 
 
-$$T S X \stackrel{\overset{(\mu_T \circ T f)X}{\to}}{\underset{T\theta}{\to}} T X$$ 
+are in bijection with maps $g: T X \to Y$ that render commutative 
 
-living in the category of $T$-algebras, where $\mu: T T \to T$ is the monad multiplication. This may be denoted $T \circ_S X$, by analogy with tensor products. 
+$$\array{
+T T X & \stackrel{T g}{\to} & T Y \\
+\mu \downarrow & & \downarrow \xi \\
+T X & \underset{g}{\to} & Y
+}$$ 
 
-A crucial observation that this construction works is that a finitary monad $T$ preserves reflexive coequalizers, more or less because finite power functors $x \mapsto x^n$ preserve reflexive coequalizers. Followed by a longish diagram chase which is more or less the same as for an analogous argument for modules over rings. 
+(that is to say, $T$-algebra maps $g: T X \to Y$) which additionally coequalize the parallel pair in the diagram 
 
-> check
+$$T S X \stackrel{\overset{(\mu_T \circ T f)X}{\to}}{\underset{T\theta}{\to}} T X \stackrel{g}{\to} Y$$
 
+Since $f: S \to T$ is a monad morphism, we have commutativity of parallel squares in 
 
+$$\array{
+T S X & \stackrel{\overset{(\mu_T \circ T f)X}{\to}}{\underset{T\theta}{\to}} & T X & \stackrel{g}{\to} & Y \\
+f S X \uparrow & & \uparrow f X & & \\
+S S X & \stackrel{\overset{\mu_S X}{\to}}{\underset{S \theta}{\to}} & S X
+}$$
+
+so that $g \circ f X$ coequalizes the bottom pair. However, because $g: T X \to Y$ is a $T$-algebra map, its pullback $g \circ f X: S X \to Y$ defines an $S$-algebra map $S X \to f^* Y$. This $S$-algebra map $g \circ f X$ factors through the coequalizer of the bottom pair of maps in $Alg_S$, i.e., factors uniquely through an $S$-algebra map $X \to f^*Y$. This establishes the adjunction $f_! \dashv f^*$. 
 
 =--
 
