@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -36,9 +47,9 @@ $
   \array{
     U \times_X Y &\to& Y
     \\
-    \downarrow^{loc iso}
+    {}^{\mathllap{loc iso}}\downarrow
     &&
-    \downarrow^{\Leftrightarrow loc iso}
+    \downarrow^{\mathrlap{\Leftrightarrow loc iso}}
     \\
     U &\to& X
   }
@@ -104,7 +115,7 @@ $$
   \,.
 $$
 
-Using the fact that morphisms in a presheaf category are [[strict morphisms]], so that [[image]] and [[coimage]] coincide, it useful, with an eye towards generalizations to [[sheaf|sheaves]] to [[stacks]] and [[∞-stacks]] (see in particular [[descent for simplicial presheaves]]), to say this equivalently in terms of the [[coimage]]: the local isomorphism corresponding to the covering [[sieve]] $\{V_i \to U\}$ is
+Using the fact that morphisms in a presheaf category are [[strict morphisms]], so that [[image]] and [[coimage]] coincide, it is useful, with an eye towards generalizations from [[sheaves]] to [[stacks]] and [[∞-stacks]] (see in particular [[descent for simplicial presheaves]]), to say this equivalently in terms of the [[coimage]]: the local isomorphism corresponding to the covering [[sieve]] $\{V_i \to U\}$ is
 
 $$
   colim (
