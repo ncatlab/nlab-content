@@ -16,7 +16,7 @@
 
 ## Idea
 
-_F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes encodes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]].
+_F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_ non-perturbative effects induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes encodes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]]. See also at _[[duality in string theory]]_
 
 ## Properties
 
