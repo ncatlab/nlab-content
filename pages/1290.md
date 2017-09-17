@@ -12,4 +12,4 @@ The classes of topologizing subcategories, [[reflective subcategory|reflective]]
 
 The terminology topologizing subcategory is (probably) coming from the related notion of a [[topologizing filter]] from the localization theory of rings. 
 
-[[!redirects toologizing subcategories]]
+[[!redirects topologizing subcategories]]
