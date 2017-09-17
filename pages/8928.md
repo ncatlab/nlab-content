@@ -68,6 +68,8 @@ Recent developments include
 
 * Oleg Lunin, [[Samir Mathur]], _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
 
+* Alejandra Castro, Joshua M. Lapan, Alexander Maloney, Maria J. Rodriguez, _Black Hole Monodromy and Conformal Field Theory_ ([arXiv:1303.0759](http://arxiv.org/abs/1303.0759))
+ 
 See also 
 
 * [String Theory Wiki](http://www.stringwiki.org), _[Black hole entropy](http://www.stringwiki.org/w/index.php?title=Black_Hole_Entropy)_
