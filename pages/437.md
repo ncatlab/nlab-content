@@ -35,7 +35,7 @@ such that $s$ is a weak equivalence.  (This also makes sense even if the product
 
 +-- {: .un_remark}
 ###### Notice
-Here $C^I$ is a primitive symbol. $I$ is _not_ assumed to be an object and $C^I$ is not assumed to be an [[closed category|internal hom]]. This is standard but somewhat abusive notation. It is supposed to remind us of the "nice" situation where the path object _is_ co-represented after all. See [[interval object]].
+Here $C^I$ is a primitive symbol. $I$ is _not_ assumed to be an object and $C^I$ is not assumed to be an [[closed category|internal hom]]. This is standard but somewhat abusive notation. It is supposed to remind us of the "nice" situation where the path object _is_ co-represented by an [[interval object]].
 =--
 
 If the category in question also has a notion of [[fibration]]s, such as in a [[category of fibrant objects]] or in a [[model category]], the morphism 
@@ -85,7 +85,7 @@ $$
 
 ### In simplicial model categories
 
-If $C$ is a [[simplicial model category]], then the [[power]]ing over [[sSet]] can be used to explicitly construct functorial path objects for fibrant objcts $X$: define $X \to X^I \to X \times X$ to be the [[power]]ing of $X$ by the morphisms
+If $C$ is a [[simplicial model category]], then the [[power]]ing over [[sSet]] can be used to explicitly construct functorial path objects for fibrant objcts $X$: define $X \to X^I \to X \times X$ to be the [[power|powering]] of $X$ by the morphisms
 
 $$
   \Delta[0] \coprod \Delta[0]
@@ -96,13 +96,13 @@ $$
 
 in $sSet_{Quillen}$. Notice that the first morphism is a cofibration and the second a weak equivalence in the standard [[model structure on simplicial sets]] and that all objects are cofibrant.
 
-Since by the axioms of an [[enriched model category]] the [[power]]in functor
+Since by the axioms of an [[enriched model category]] the [[power|powering functor]]
 
 $$
   (-)^{(-)} : sSet^{op} \times C \to C
 $$
 
-sends cofibrations and acyclic cofibrations in the first argument to fibratoins and acyclic fibrations inif the second argument is fibrant, and since this implies by the [[category of fibrant objects|factorization lemma]] that it then also preserves weak equivalences between cofibrant objects, it follows that $X^{\Delta[1]}$ is indeed a path object with the extra property that also the two morphisms $X^{\Delta[1]} \to X$ are acyclic fibratios.
+sends cofibrations and acyclic cofibrations in the first argument to fibrations and acyclic fibrations inif the second argument is fibrant, and since this implies by the [[category of fibrant objects|factorization lemma]] that it then also preserves weak equivalences between cofibrant objects, it follows that $X^{\Delta[1]}$ is indeed a path object with the extra property that also the two morphisms $X^{\Delta[1]} \to X$ are acyclic fibratios.
 
 
 ## Related notions
