@@ -470,6 +470,8 @@ A very neat Tannaka theorem for stacks is proved in
 
 * [[Jacob Lurie]], _Tannaka duality for geometric stacks_, ([arXiv:math.AG/0412266](http://arxiv.org/abs/math/0412266))
 
+* [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
 * [[Bertrand Toen]], [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (talk, video)
 
 * Moshe Kamensky, _Model theory and the Tannakian formalism_, [arXiv:0908.0604](http://arxiv.org/abs/0908.0604). 
