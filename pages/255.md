@@ -1,4 +1,6 @@
 
+> This entry is about the notion of _monad_ in [[category theory]]. For other notions see _[[monad (disambiguation)]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
