@@ -411,6 +411,8 @@ $$
 ## References
  {#References}
 
+* Pokman Cheung, _Supersymmetric field theories and cohomology_ ([arXiv:0811.2267](http://arxiv.org/abs/0811.2267))
+
 * [[Stefan Stolz]] (notes by Arlo Caine), _Supersymmetric Euclidean field theories and generalized cohomology_ Lecture notes (2009) ([pdf](http://www.nd.edu/~jcaine1/pdf/Lectures_complete.pdf))
  {#Stolz}
 
