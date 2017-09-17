@@ -23,7 +23,7 @@
 
 ## Idea
 
-The notion of Reedy category, though useful, is in some contexts inconveniently restrictive, since no Reedy category can contain any nonidentity isomorphisms.  This is problematic for many "shape categories" such as Connes' [[category of cycles]] $\Lambda$, [[Segal's category Gamma|Segal's category]] $\Gamma$, the [[tree category]] $\Omega$, and so on.  The notion of *generalized Reedy category* lifts this restriction, while maintaining the truth of the main theorem about Reedy categories: the existence of the [[Reedy model structure]].
+The notion of _[[Reedy category]]_, though useful, is in some contexts inconveniently restrictive, since no Reedy category can contain any nonidentity [[isomorphisms]].  This is problematic for many "[[geometric shape for higher structures|shape]] categories" such as Connes' [[category of cycles]] $\Lambda$, [[Segal's category Gamma|Segal's category]] $\Gamma$, the [[tree category]] $\Omega$, and so on.  The notion of *generalized Reedy category* lifts this restriction, while maintaining the truth of the main theorem about Reedy categories: the existence of the [[Reedy model structure]].
 
 In fact, there are two notions of generalized Reedy category in the literature, one due to Cisinski and one to Berger--Moerdijk.  They share many properties and examples.
 
@@ -31,7 +31,10 @@ In fact, there are two notions of generalized Reedy category in the literature, 
 
 ### Generalized Reedy categories
 
-A **Berger-Moerdijk generalized Reedy category** is a category $R$ together with two [[wide subcategories]] $R_+$ and $R_-$, and a function $d\colon ob(R)\to \alpha$ called *degree*, for some [[ordinal]] $\alpha$, such that
++-- {: .num_defn #BMGeneralizedReedyCategory}
+###### Definition
+
+A **Berger-Moerdijk generalized Reedy category** is a [[category]] $R$ together with two [[wide subcategories]] $R_+$ and $R_-$, and a [[function]] $d\colon ob(R)\to \alpha$ called *degree*, for some [[ordinal]] $\alpha$, such that
 
 1. every non-isomorphism in $R_+$ raises degree,
 
@@ -47,9 +50,28 @@ A **Berger-Moerdijk generalized Reedy category** is a category $R$ together with
 
 The last condition implies that the isomorphism in the penultimate condition must be unique.  It is not self-dual, but has an obvious dual version.  A BM generalized Reedy category is said to be **dualizable** if it satisfies both this condition and its dual.
 
-For a **Cisinski generalized Reedy category**, the final condition in the preceeding definition is replaced by
+
+=--
+
+This appears as ([Berger-Moerdijk, def. 1.1](#BergerMoerdijk)).
+
++-- {: .num_remark}
+###### Remark
+
+Generalized Reedy category structures (as opposed to ordinary structures!) can always be transported along [[equivalence of categories]].
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+For a **Cisinski generalized Reedy category**, the final condition in 
+def. \ref{BMGeneralizedReedyCategory} is replaced by
 
 * every morphism in $R_-$ admits a [[section]], and two parallel morphisms in $R_-$ are equal precisely when they have the same sections.
+
+=--
 
 For clarity, in the context of generalized Reedy categories, an ordinary [[Reedy category]] may be called a *strict Reedy category*.
 
@@ -185,11 +207,13 @@ This is ([Cisinski, prop. 8.1.31, 8.1.35](#Cisinski)).
 
 ## Examples
 
-### Examples (Berger-Moerdijk)
+### Berger-Moerdijk type
+
+#### Specific examples
 
 * Any [[Reedy category]] is a generalized Reedy category, in particular the [[simplex category]].
 
-* Any [[groupoid]] $G$ is also a generalized Reedy category, with $G_+ = G_- = G$.
+* Any (finite) [[groupoid]] $G$ is also a generalized Reedy category, with $G_+ = G_- = G$.
 
 * Connes' [[category of cycles]] $\Lambda$.
 
@@ -201,6 +225,9 @@ This is ([Cisinski, prop. 8.1.31, 8.1.35](#Cisinski)).
 
 * Any generalized [[direct category]] or generalized [[inverse category]] is also a generalized Reedy category, in which either $R_-$ or $R_+$ consists only of the isomorphisms.
 
+#### The class of crossed group sites
+
+(...) ([Berger-Moerdijk, section 2](#BergerMoerdijk))
 
 ## References
 
