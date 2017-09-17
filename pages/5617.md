@@ -26,7 +26,13 @@ If the manifold is unoriented, then we get a _volume [[pseudoform]]_ instead, or
 
 ## Definition
 
-For $(X,g)$ an [[orientation|oriented]] (pseudo)-[[Riemannian manifold]] of [[dimension]] $n$, its **volume form** $vol_g \in \Omega^n(X)$ is the [[differential form]] of degree $n$ that is defined by any of the following equivalent statements.
+### General
+
+For $X$ a general [[smooth manifold]], a _volume form_ on $X$ is a non-vanishing [[density]] (of rank 1) on $X$. If $X$ is [[orientation|oriented]] then this is equivalently a non-vanishing section of the [[canonical bundle]] of $X$, hence an everywhere non-vanishing [[differential n-form]] on $X$, for $n$ the [[dimension]] of $X$.
+
+### For Riemannian manifolds
+
+More specifically still, for $(X,g)$ an [[orientation|oriented]] (pseudo)-[[Riemannian manifold]] of [[dimension]] $n$, its **volume form** $vol_g \in \Omega^n(X)$ is the [[differential form]] of degree $n$ which measures the volume as seen by the metric $g$ in that it is characterized by any of the following equivalent statements.
 
 * The symmetric square $vol_g \cdot vol_g$ is equal to the $n$-fold [[wedge product]] $g \wedge \cdots \wedge g$, as elements of $\Omega^n(X) \otimes \Omega^n(X)$, and $vol_g$ is [[positive n-form|positive]].
 
@@ -49,7 +55,7 @@ For $(X,g)$ an [[orientation|oriented]] (pseudo)-[[Riemannian manifold]] of [[di
   See [[Poincare Lie algebra]] for more on this.
 
 
-## Generalisations
+### For unoriented manifolds
 
 If $(X,g)$ is unoriented, then the definitions above don't quite make sense, but (at least) the first three can be reinterpreted to give an $n$-[[pseudoform]] instead, the __volume pseudoform__, or __volume element__.  (Whether a pseudoform is positive is independent of the orientation, the Hodge operator still takes forms to pseudoforms, and local coordinates for a pseudoform include a local orientation.)
 
@@ -62,6 +68,8 @@ If I remember correctly, every volume (pseudo)form comes from a metric, which is
 ## Related concepts
 
 * [[density]]
+
+* [[divergence]]
 
 
 [[!redirects volume form]]
