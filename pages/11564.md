@@ -827,9 +827,9 @@ for the [[smooth spectrum]] induced by def. \ref{HopkinsSingerPullback}) from th
 
 Write 
 
-1. $\mathbf{Vect} \in Sh(SmthMfd) \hookrightarrow \mathbf{H} = Sh_\infty(SmthMfd)$ for the [[stack]] of (complex) [[vector bundles]];
+1. $\mathbf{Vect}^{\oplus} \in Sh(SmthMfd) \hookrightarrow \mathbf{H} = Sh_\infty(SmthMfd)$ for the [[stack]] of (complex) [[vector bundles]] equipped with the [[direct sum]];
 
-1. $\mathbf{Vect}_{conn} \in Sh(SmthMfd)$ for the [[stack]] of (complex) [[vector bundles]] with [[connection on a vector bundle|connection]]. 
+1. $\mathbf{Vect}_{conn}^{\oplus} \in Sh(SmthMfd)$ for the [[stack]] of (complex) [[vector bundles]] with [[connection on a vector bundle|connection]], equipped with direct sum;
 
 Write
 
@@ -846,7 +846,7 @@ into [[spectra]] which produces the [[algebraic K-theory of symmetric monoidal (
 Forming objectwise the [[algebraic K-theory of symmetric monoidal (∞,1)-categories]] and then [[∞-stackification|∞-stackifying]] (which we leave notationally implicit) produces [[smooth spectra]] 
 
 $$
-  \mathcal{K}(\mathbf{Vect}_{conn}),\;\mathcal{K}(\mathbf{Vect})
+  \mathcal{K}(\mathbf{Vect}_{conn}^\oplus),\;\mathcal{K}(\mathbf{Vect})
   \in 
   Stab(Smooth\infty Grpd)
   \,.
@@ -859,9 +859,9 @@ $$
 
 The [[smooth spectra]] $\mathcal{K}(\mathbf{Vect})$ and $\mathcal{K}(\mathbf{Vect}_{conn})$ are both differential refinements, def. \ref{DifferentialCoefficients}, of connective [[KU|ku]], both whose underlying [[geometrically discrete infinity-groupoid|geometrically discrete spectrum]] is the [[algebraic K-theory]] $K \mathcal{C}$ of the [[complex numbers]]:
 
-1. $\Pi(\mathcal{K}(Vect)) \simeq \Pi(\mathcal{K}(Vect_{conn}))\simeq ku$;
+1. $\Pi(\mathcal{K}(Vect^\oplus)) \simeq \Pi(\mathcal{K}(Vect_{conn}^\oplus))\simeq ku$;
 
-1. $\flat(\mathcal{K}(Vect)) \simeq \flat(\mathcal{K}(Vect_{conn}))\simeq K \mathbb{C}$.
+1. $\flat(\mathcal{K}(Vect^\oplus)) \simeq \flat(\mathcal{K}(Vect_{conn}^\oplus))\simeq K \mathbb{C}$.
 
 1. in both cases [points-to-pieces transform](cohesive%20topos#CanonicalComparison) $\flat \to \Pi$ is the canonical morphism $K \mathbb{C}\to ku$.
 
@@ -876,7 +876,7 @@ The [[smooth spectra]] $\mathcal{K}(\mathbf{Vect})$ and $\mathcal{K}(\mathbf{Vec
 The traditonal [[Chern character]] induces, via the [[universal property]] of the [[homotopy pullback]] in def. \ref{HopkinsSingerPullback}, a morphism
 
 $$
-  \mathcal{K}(\mathbf{Vect}_{conn})
+  \mathcal{K}(\mathbf{Vect}_{conn}^\oplus)
   \longrightarrow
   ku_{conn_{ch}}
 $$
