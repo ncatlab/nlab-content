@@ -218,7 +218,7 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 
 * The notion of generalized muticategories is even more general than this; for instance it also includes [[globular operads]] and [[topological spaces]].  See [[generalized multicategory]] for details.
 
-* In still other directions, there are for example notions of [[cyclic operad]] and [[modular operad]].  Anyone want to take these up? 
+* In still other directions, there are for example notions of [[cyclic operad]] and [[modular operad]].   
 
 ## The monad attached to an operad 
 
