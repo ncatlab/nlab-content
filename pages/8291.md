@@ -197,7 +197,7 @@ $$
 of the underlying abelian group into an injective abelian group $D$.
 
 
-Now consider the composite
+Now consider the [[adjunct]] $N \to R_*(D)$ of $i$, hence the composite
 
 $$
   N \stackrel{\eta_N}{\to} R_*(U(N)) \stackrel{R_*(i)}{\to} R_*(D)
@@ -211,7 +211,7 @@ $$
   \,.
 $$
 
-Hence this is monomorphism. Therefore it is now sufficient to see that $Hom_{Ab}(U(R), U(D))$ is an injective $R$-module.
+Once checks on components that this is a [[monomorphism]]. Therefore it is now sufficient to see that $Hom_{Ab}(U(R), U(D))$ is an injective $R$-module.
 
 This follows from the existence of the [[adjunction]] [[isomorphism]] given by lemma \ref{CoextensionOfScalarsForRModToZMod}
 
