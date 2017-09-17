@@ -123,6 +123,8 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 
 * [[Per Martin-Löf]], "Constructive mathematics and computer programming"
 
+* [[UF-IAS-2012]], _[Meaning Explanations](http://uf-ias-2012.wikispaces.com/Meaning+Explanations)_
+
 [[!redirects meaning explanation]]
 [[!redirects meaning explanations]]
 [[!redirects the meaning explanation]]
