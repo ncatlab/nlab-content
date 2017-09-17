@@ -129,7 +129,7 @@ One sees that the [[pushout product axiom]] implies that all the intermediate pu
 
 ### $A_\infty$-Algebras
 
-Under mild conditions on $C$ the model structure on monoids in $C$ is [[Quillen equivalence|Quillen equivalent]] to that of [A-infinity algebra]]s in $C$. See [[model structure on algebras over an operad]] for details.
+Under mild conditions on $C$ the model structure on monoids in $C$ is [[Quillen equivalence|Quillen equivalent]] to that of [[A-infinity algebras]] in $C$. See [[model structure on algebras over an operad]] for details.
 
 ## Related concepts
 
