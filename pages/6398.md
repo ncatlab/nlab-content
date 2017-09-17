@@ -69,6 +69,8 @@ There are several different incarnations of the superstring.
 
 * [[string scattering amplitude]]
 
+* [[2d supergravity]]
+
 [[!include worldvolume-target supersymmetry of brane sigma-models]]
 
 ## References
