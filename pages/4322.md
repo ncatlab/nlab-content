@@ -15,6 +15,8 @@
 
   * [[extended cobordism]]
 
+  * [[cobordism category]]
+
   * [[(∞,n)-category of cobordisms]]
 
     * [[FQFT|functorial quantum field theory]]
@@ -30,6 +32,8 @@
 * [[Thom's transversality theorem]]
 
 * [[Pontrjagin-Thom construction]]
+
+* [[Galatius-Tillmann-Madsen-Weiss theorem]]
 
 * [[cobordism hypothesis]]-theorem
 
