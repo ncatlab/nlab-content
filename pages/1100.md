@@ -103,7 +103,7 @@ Another main theorem about $(\infty,1)$-toposes is that
 
 **Proposition**
 
-For $\mathbf{H}$ an $(\infty,1)$-topos and $X \in \mathbf{H}$ an object, the [[over quasi-category|over (∞,1)-category]] $\mathbf{H}_{/X}$ is itself an $(\infty,1)$-topos. The projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ part of an  [[essential geometric morphism]]
+For $\mathbf{H}$ an $(\infty,1)$-topos and $X \in \mathbf{H}$ an object, the [[over-(∞,1)-category]] $\mathbf{H}_{/X}$ is itself an $(\infty,1)$-topos -- an **[[over-(∞,1)-topos]]**. The projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ part of an  [[essential geometric morphism]]
 
 $$
   \pi : \mathbf{H}_{/X} 
