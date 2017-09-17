@@ -7,11 +7,18 @@
 
 [[super Yang-Mills theory]] in [[dimension]] 5.
 
+## Properties
+
+### As the worldvolume theory of the D4-brane
+
+$D = 5$ SYM may be regarded as the [[worldvolume]] [[physical theory|theory]] on the [[D4-brane]] in [[type II string theory]]. Thought to be obtained via [[double dimensional reduction]] form the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]] ([Witten 11, section 4 and 5](#Witten11)).
+
 ## References
 
-The theory was introduced in 
+The theory was introduced/discussd as the [[double dimensional reduction]] of the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] in sections 4 and 5 of  
 
-* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+ {#Witten11}
 
 Topological twists are considered in 
 
