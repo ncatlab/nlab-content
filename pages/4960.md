@@ -803,10 +803,10 @@ $$
   \,.
 $$
 
-#### Families of sets 
+#### Families of sets -- the Sierpinksi topos
   {#FamiliesOfSets}
 
-We discuss an example of a cohesive topos over a [[cohesive site]] that is about the simplest non-trivial example that there is. Simple as it is, it does serve to already illustrate some key points. The following site is in fact also an [[∞-cohesive site]] and hence there is a corresponding example of a [[cohesive (∞,1)-topos]].
+We discuss an example of a cohesive topos over a [[cohesive site]] that is about the simplest non-trivial example that there is: the [[Sierpinski topos]]. Simple as it is, it does serve to already illustrate some key points. The following site is in fact also an [[∞-cohesive site]] and hence there is a corresponding example of a [[cohesive (∞,1)-topos]].
 
 Consider the site given by the [[interval category]] 
 
