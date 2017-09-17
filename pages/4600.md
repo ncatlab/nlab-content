@@ -163,7 +163,7 @@ In [[physics]]
 
 A good discussion is in 
 
-* [[Mike Hopkins]], I. Singer, [[Quadratic Functions in Geometry, Topology,and M-Theory]] ([arXiv](http://arxiv.org/abs/math.AT/0211216))
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv](http://arxiv.org/abs/math.AT/0211216))
 
   * A pedestrian introduction of ordinary differential cocycles is in section 2.3 there. 
 
