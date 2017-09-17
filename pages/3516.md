@@ -264,6 +264,8 @@ Suppose that $U\colon A\to X$ is solid and let $F\colon D\to A$ be a [[diagram]]
 
 Therefore, if $A$ is solid over $X$, then it admits all colimits which $X$ does.  Moreover, if we understand colimits in $X$, and we understand the semi-final lifts, then we understand colimits in $A$.
 
+In particular, if $X$ is [[cocomplete category|cocomplete]], then so is $A$.  In fact, more is true: if $X$ is [[total category|total]], then so is $A$.
+
 
 ### Lifting of model structures
 
