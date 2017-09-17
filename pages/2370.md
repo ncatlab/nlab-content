@@ -10,7 +10,7 @@
 ## Idea
 
 For various constructions in [[stable homotopy theory]] -- such as notably that of the
-[[symmetric monoidal smash product of spectra]] -- it is necessary to use a model
+[[symmetric monoidal smash product of spectra]] -- it is useful to use a model
 for objects in the [[stable (∞,1)-category of spectra]]
 and the [[stable homotopy category]] more refined than that given by 
 $\Omega$-[[spectrum|spectra]]. The notion of _coordinate-free spectrum_ is such
