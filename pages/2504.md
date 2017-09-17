@@ -98,7 +98,7 @@ $$
 $$
 
 $$
-  [Q_\alpha, Z^{a b}] = 2 i (C \Gamma^{[a}))_{\alpha \beta}Q^{b]\beta}
+  [Q_\alpha, Z^{a b}] = 2 i (C \Gamma^{[a})_{\alpha \beta}Q^{b]\beta}
 $$
 
 etc.
