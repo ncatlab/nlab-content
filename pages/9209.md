@@ -27,25 +27,19 @@ For $A$ and $B$ two suitable [[abelian category|abelian categories]], their Deli
 
 ### In terms of categories of modules and tensor product of algebras
 
-For $A$ an [[associative algebra]] over a [[field]] $k$, write $A$[[Mod]] for its [[category of modules]] of finite [[dimension]] over $k$.
-
-Within this entry, we will use the following terminology:
-
-A $k$-linear abelian category $C$ is said to be _finite_ if it is equivalent to a category $A$[[Mod]], as above. 
-
-
-Let $\mathcal{C}, \mathcal{D}$ be two such finite [[abelian categories]] over $k$.
+Let $\mathcal{C}, \mathcal{D}$ be two [[finite abelian categories]] over $k$.
 
 +-- {: .num_remark}
 ###### Remark
 
-By the above convention, for every finite abelian category over $k$ there is a $k$-[[associative algebra|algebra]] $A$ and an [[equivalence of categories]]
+We recall that for every finite abelian category over $k$, there is a finite-dimensional $k$-[[associative algebra|algebra]] $A$ and a $k$-linear [[equivalence of categories]]
 
 $$
-  \mathcal{C} \simeq A Mod
+  \mathcal{C} \simeq A Mod_{fd}
   \,
 $$
-but note that $A$ is determined only up to [[Morita equivalence]]. 
+
+where the right side consists of $A$-modules which are finite-dimensional as vector spaces over $k$. We remark that $A$ is determined only up to [[Morita equivalence]]. 
 =--
 
 +-- {: .num_prop}
