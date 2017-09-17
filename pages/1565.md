@@ -1,20 +1,47 @@
-[[!redirects semiring]]
-[[!redirects rigs]]
-[[!redirects semirings]]
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).  Similarly, a __semiring__ has neither negatives nor even zero.
 
-Specifically, it a [[set]] $R$ with operations of addition and multiplication, such that
+## Definition
+
+A _rig_ it a [[set]] $R$ with operations of addition and multiplication, such that
 *  $R$ is a [[monoid]] under multiplication;
-*  $R$ is an [[abelian monoid]] (for a rig) or an abelian semigroup (for a semiring) under addition;
+*  $R$ is an [[abelian monoid]] (for a rig) or an abelian [[semigroup]] (for a semiring) under addition;
 *  multiplication distributes over addition.
 
-More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[abelian group]]s, so a rig is a monoid object in abelian monoids and a semiring is a monoid object in abelian semigroups.
+More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[abelian group]]s, so a rig is a monoid object in abelian monoids and a semiring is a monoid object in abelian [[semigroup]]s.
 
-As with rings, one sometimes considers non-associative or non-unital versions (where multiplication may not be associative or may have no identity).  It is rarer to remove requirements from addition as we have done here.  But notice that while $R$ can be proved (from the other axioms) to be an [[abelian group]] under addition (and therefore a ring) as long as it is a [[group]], this argument does not go through if it is only a monoid.
+Equivalently, a semiring is the [[hom-set]] of of a [[semicategory]] with a single object that is [[enriched category|enriched]] in [[Ab]].
+
+### Further weakening
+
+As with rings, one sometimes considers non-associative or non-unital versions (where multiplication may not be [[associative]] or may have no [[identity]]).  It is rarer to remove requirements from addition as we have done here.  But notice that while $R$ can be proved (from the other axioms) to be an [[abelian group]] under addition (and therefore a ring) as long as it is a [[group]], this argument does not go through if it is only a monoid.
+
+## Properties
 
 Many rigs are either [[ring]]s or [[distributive lattice]]s.  Indeed, a ring is precisely a rig that forms a group under addition, while a distributive lattice is precisely a commutative rig in which the operations are idempotent.  Note that a [[Boolean algebra]] is a rig in both ways: as a lattice and as a [[Boolean ring]].
+
+Any rig can be completed to a ring by adding negatives, in the same way that the natural numbers are completed to the integers.  When applied to the set of isomorphism classes of objects in a rig category, the result is part of [[algebraic K-theory]].
+
+Matrices of rigs can be used to formulate versions of [[matrix mechanics]].
+
+
+## Examples
 
 Some rigs which are neither rings nor distributive lattices include:
 
@@ -25,8 +52,9 @@ Some rigs which are neither rings nor distributive lattices include:
 * The [[tropical rig]], which is $\mathbb{R}\cup \{\infty\}$ with addition $x\oplus y = min(x,y)$  and multiplication $x\otimes y = x+y$.
 * The [[ideals]] of a [[commutative ring]] form a rig under ideal addition and multiplication, where the unit and zero ideals are the unit and zero elements of the rig, respectively.  They also form a [[distributive lattice]] and therefore a rig in another way; note that the addition operation is the same in both rigs but the multiplication operation is different (being intersection in the lattice).
 
-Any rig can be completed to a ring by adding negatives, in the same way that the natural numbers are completed to the integers.  When applied to the set of isomorphism classes of objects in a rig category, the result is part of [[algebraic K-theory]].
-
-Matrices of rigs can be used to formulate versions of [[matrix mechanics]].
 
 [[!redirects semiring]]
+
+[[!redirects semiring]]
+[[!redirects rigs]]
+[[!redirects semirings]]
