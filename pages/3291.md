@@ -6,7 +6,7 @@ Some works of relevance for the $n$lab:
 
 * J. Bernstein, V. Lunts, _Equivariant sheaves and functors_, Springer Lecture Notes in Math. __1578__ (1994). MR 95k:55012
 
-* V. A. Lunts, [[Dmitri Orlov|D. O. Orlov]], _Uniqueness of enhancement for triangulated categories_, [arXiv:0908.4187](http://arxiv.org/abs/0908.4187).
+* V. A. Lunts, [[Dmitri Orlov|D. O. Orlov]], _Uniqueness of enhancement for triangulated categories_, J. Amer. Math. Soc.  23  (2010), 853-908, [arXiv:0908.4187](http://arxiv.org/abs/0908.4187), [doi](http://dx.doi.org/10.1090/S0894-0347-10-00664-8)
 
 * V. A. Lunts, [[Alexander Rosenberg|A. L. Rosenberg]], _Differential operators on noncommutative rings_, Selecta Math. (N.S.)  __3__  (1997),  no. 3, 335--359 ([doi](http://dx.doi.org/10.1007/s000290050014)); sequel: _Localization for quantum groups_, Selecta Math. (N.S.) __5__ (1999), no. 1, pp. 123--159 ([doi](http://dx.doi.org/10.1007/s000290050044)).
 
