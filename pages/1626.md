@@ -63,7 +63,9 @@ A space $X$ is **totally disconnected** if its connected components are precisel
 
 ## Path-connectedness 
 
-An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. In a [[nice category of spaces]], the set $\pi_0(X)$ of path components may be equivalently defined to be the coequalizer in 
+An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. 
+
+In a [[nice category of spaces]], the set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") may be equivalently defined to be the coequalizer in 
 
 $$X^{[0, 1]} \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} X \to \pi_0(X)$$
 
