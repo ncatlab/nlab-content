@@ -84,6 +84,36 @@ The [[Freyd cover]] of a [[topos]] is a [[local topos]], and in fact freely so. 
 
 This appears as ([Johnstone, lemma C3.6.4](#Johnstone)).
 
+### Homotopy dimension
+ {#HomotopyDimension}
+
++-- {: .num_prop}
+###### Proposition
+
+In a local [[sheaf topos]] over [[Set]], every [[inhabited object]] is globally inhabited:
+
+every object $X$ for which the unique morphism $X \to *$ to the [[terminal object]] is an [[epimorphism]] has a [[global point]] $* \to X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since in a local topos the [[global section]] functor $\Gamma$ is a [[left adjoint]], it preserves [[epimorphisms]]. Since it is a right adjoint it preserves the terminal object. Therefore $\Gamma(X) \to \Gamma(*) \simeq *$ is an epimorphism in [[Set]], hence a [[surjection]], meaning that $\Gamma(X)$ is [[inhabited]]. Since $\Gamma(X) \simeq Hom(*,X)$ (see [[global section geometric morphism]]), the claim follows.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In a [[topos]] every [[epimorphism]] is an [[effective epimorphism]]. Therefore $X \to *$ being an epi means that $X$ is a [[(-1)-connected]] object. Therefore the above statement says in terms of [[(infinity,1)-category theory]] that a non-trivial local topos has [[homotopy dimension]] 0.
+
+The same is true for any [[local (infinity,1)-topos]].
+
+=--
+
+
+
 ### Concrete sheaves
 
 Every local topos $\Gamma : E \to S$ comes with a notion of [[concrete sheaves]], a [[reflective subcategory]] $Conc_\Gamma(E) \hookrightarrow E$ which factors the topos inclusion of $S$:
