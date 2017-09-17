@@ -25,6 +25,8 @@ The [[philosophy]] of [[physics]].
 
 ## Related concepts
 
+* [[natural philosophy]]
+
 * [[metaphysics]]
 
 * [[philosophy of mathematics]]
