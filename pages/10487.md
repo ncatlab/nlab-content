@@ -1,7 +1,7 @@
 * [website](http://www.perimeterinstitute.ca/people/xiao-gang-wen) at Perimeter; 
 [homepage](http://dao.mit.edu/~wen) at MIT
 
-Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of strongly correlated electronic systems.
+Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of [[strongly correlated system|strongly correlated]] electronic systems.
 
 * Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, Xiao-Gang Wen, _Symmetry protected topological orders and the group cohomology of their symmetry group_, [arXiv:1106.4772](http://arxiv.org/abs/1106.4772); A short version in Science __338__, 1604-1606 (2012) [pdf](http://dao.mit.edu/~wen/pub/dDSPTsht.pdf)
 * [[Xiao-Gang Wen]], _Topological orders and edge excitations in FQH states_, Advances in Physics __44__, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond-mat/9506066)
