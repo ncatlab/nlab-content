@@ -52,7 +52,7 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 
 * _$\mathcal{S}$-categories, $\mathcal{S}$-groupoids, Segal categories and quasicategories_ The notes were prepared for a series of talks that I gave in Hagen in late June and early July 2003, and, with some changes, in the University of La Laguna, the Canary Islands, in September, 2003.
 
-*  _Profinite Algebraic Homotopy_.   There is a link to the first seven chapters of a draft monograph.  Hopefully, this is likely to be published, so this is an incomplete version. (At present count the full version will probably have more than 700 pages.)
+*  _Profinite Algebraic Homotopy_.   There is a link to the first eight chapters of a draft monograph.  Hopefully, this is likely to be published, so this is an incomplete version. (At present count the full version will probably have more than 700 pages.)
 
 category: people
 
