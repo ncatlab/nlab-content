@@ -1,3 +1,3 @@
-Despite the magnitude of the stakes, most Americans are confused by  the climate debate because House Republicans spread fear and deny fact.  It's time to deconstruct the arguments Republicans in Congress use to  justify their irresponsible votes.
- <a href="http://www.buyinbulgaria.com/Raybansunglassescheap.asp?cheap=resin-16" >Resin</a>
-[url=http://www.buyinbulgaria.com/Raybansunglassescheap.asp?cheap=resin-16]Resin[/url]
+Source:Germany and Belgium are the only European commercial property markets to record positive sentiment in both the occupier and investment commercial property markets during the second quarter of 2013.
+ <a href="http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=borough-c-35_42/" >Borough</a>
+[url=http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=borough-c-35_42/]Borough[/url]
