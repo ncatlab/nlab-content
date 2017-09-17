@@ -22,13 +22,21 @@ The source I am using to help me understand this does not quite make sense here 
 
 There are variants to this,  which include _non-blocking send but blocking receive_ , _non-blocking send and receive_ (*asynchronous message passing*), _broadcast to groups of processes_ , instead of ''point to point'' communication, etc.
 
++--{: .query}
+[[Adam]]: "Non-blocking send with blocking receive" is the rule required by Kahn process networks; this ensures that the resulting processes form a [domain](http://en.wikipedia.org/wiki/Domain_theory).  From a semantics standpoint I'm not sure that broadcast to $n$ recipients is really any different from just sending $n$ messages, one to each recipient.
+=--
+
 ####Shared memory models
 These make up another class of concurrent architectures.  Here process have a local memory where they can perform local computations, but also have a common memory space which is accessible to all.  Communication between processes is essentially asynchronous and is realised by reading and writing values in this common space. Here the problem occurs that several processes may want to write values to the same part of the memory at the same time.  To avoid the problems that this implies it is necessary to 'protect' the access to shared variables by some mechanism. A classical one is the ''semaphore'' as introduced by Dijkstra in 1968.
 
 The challenge is to find adequate mathematical models so as better to understand the behaviour of concurrent systems.
 
-
 (More needs to be put here and the above is not that great.  Not sure how to rewrite it and what to add, though!)
+
++-- {: .query}
+[[Adam]]: "Shared memory" is just a friendly way of presenting message-passing systems to a programmer -- at the end of the day, everything is message passing underneath if you dig down far enough.  If you want to __really__ dig, consider that digital circuits are point-to-point communication mechanisms, and physicists are suspicious of any "spooky [action at a distance](http://en.wikipedia.org/wiki/Action_at_a_distance_%28physics%29)" or [nonlocality](http://en.wikipedia.org/wiki/Nonlocality) -- which is what you would need in order to implement shared memory without some sort of message passing mechanism somewhere underneath.  Ours is a message-passing world; shared state is just an illusion used to make centralized-and-serial programmers feel more comfortable in a distributed-and-parallel world.  One could argue that the "mathematical models" called for are nothing more than simple translations into message-passing operations, which are the primary object of study.  (Note: I use message-passing here in the broadest sense, encompassing Petri Nets, CSP, trace structures, Kahn process networks, etc -- anything without shared state)
+=--
+
 
 ##Models
 
