@@ -264,6 +264,20 @@ For instance $tmf_0(2)$ (for the [[congruence subgroup]] which preserves an NS-R
 
 ## Properties
 
+### Homotopy groups
+ {#HomotopyGroups}
+
+The first few [[homotopy groups]] of $tmf$ are ([Hopkins 02, section 4.3](#Hopkins02))
+
+
+| $k$ |  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|-----|----|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
+| $\pi_k(tmf)$ | $\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/24\mathbb{Z}$ | 0 | 0 | $\mathbb{Z}/2\mathbb{Z}$ | 0 | $\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z}$ | $(\mathbb{Z}/2\mathbb{Z})^2$ | $\mathbb{Z}/6\mathbb{Z}$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}/3\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ |
+
+The canonical map $\mathbb{S} \to tmf$ (the unit of the [[E-∞ ring]] structure) induces in degree $\leq 6$ an isomorphism with the [[homotopy groups of spheres]]
+
+
+
 ### Inclusion of circle 2-bundles 
  {#InclusionOfCircle2Bundles}
 
