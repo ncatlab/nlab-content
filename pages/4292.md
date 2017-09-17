@@ -15,20 +15,16 @@
 
 ## Definition
 
-A power series in a [[variable]] $X$ and with [[coefficients]] in a [[ring]] $R$ is a [[series]] 
-of the form
+A power series in a [[variable]] $X$ and with [[coefficients]] in a [[ring]] $R$ is a [[series]] of the form
 
 $$
   \sum_{n = 0}^\infty a_n X^n
 $$
 
-with coefficients $(a_n \in R)_{n = 0}^\infty$. If there are
-no additional convergence conditions on a power series 
-we call it for emphasis also __formal power series__. 
+where $a_n$ is in $R$ for each $n\ge 0$. Given that there are
+no additional convergence conditions, a power series is also termed emphatically as a __formal power series__. 
 
-If there is $k \in \mathbb{N}$ such that $a_n = 0 $ for all $n \gt k$ then this is a [[polynomial]] of degree $k$.
-
-The collection of formal power series in variable $X$ with coefficients in a commutative ring $R$ is denoted $R [ [ X ] ]$. 
+For a commutative ring $R$, the collection of formal power series in variable $X$ with coefficients in $R$ has the structure of a ring and is denoted $R [ [ X ] ]$. 
 
 More generally, one considers power series $\sum_{n_1=0,n_2=0,\ldots, n_k = 0}^\infty a_{n_1\ldots n_k} X_1^{n_1} X_2^{n_2}\cdots X_k^{n_k}$ in $k$ variables $X_1,\ldots, X_k$ which are declared commutative with $a_{n_1\ldots n_k}\in R$, where $R$ is commutative;
 they form a formal power series ring $R [ [ X_1,\ldots, X_k
@@ -44,6 +40,10 @@ $$
 Of course, this implies that in a specialization, $b$-s commute with variables $X_{i_k}$; what is usually generalized to take some endomorphisms into an account (like at noncommutative polynomial level of partial sums where we get skew-polynomial rings, i.e. iterated Ore extensions).
 
 ## Examples
+
+### Polynomials
+
+For a natural number $k$, a power series $\sum_{n=0}^\infty a_n X^n$ such that $a_n = 0$ for all $n \gt k$ is a [[polynomial]] of degree at most $k$.
 
 ### Taylor series
 
