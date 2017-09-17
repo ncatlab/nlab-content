@@ -228,6 +228,8 @@ The first example along these lines is the [[Kalb-Ramond field]] or [[B-field]],
 
 * [[motives in physics]]
 
+* [[string theory FAQ]]
+
 ## References
 
 The basic relation between [[foliation]] theory and [[Lie groupoid]]-theory is discussed in 
