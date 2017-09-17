@@ -1,21 +1,17 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include cohomology - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -129,4 +125,7 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 * [[Matthias Wendt]], _Fibre sequences and localization of simplicial sheaves_ ([pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf))
 
 
+[[!redirects associated infinity-bundle]]
+[[!redirects associated infinity-bundles]]
 [[!redirects associated ∞-bundle]]
+[[!redirects associated ∞-bundles]]
