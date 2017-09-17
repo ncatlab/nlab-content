@@ -22,6 +22,27 @@
 
 In [[quantum field theory]] what has come to be known as the _holographic principle_ is the fact that the [[partition function]]s of some [[quantum field theories]] of [[dimension]] $n$ may be identified with [[state]] of QFTs in dimension $n + 1$:
 
+### For higher Chern-Simons/self dual gauge theory
+
+The [[phase space]] of [[higher dimensional Chern-Simons theory]] in dimension $4k+3$ on $\Sigma \times \mathbb{R}$ can be identified with the space of flat $2k+1$-forms on $\Sigma$. The [[presymplectic form]] on this space is given by the pairing
+
+$$
+  (\delta B_1, \delta B_2) \mapsto
+  \int_\Sigma \delta B_1 \wedge \delta B_2
+  \,.
+$$
+
+The [[geometric quantization]] of the theory requires that we choose a polarization of this (split the space of forms into "coordinates" and their "canonical momenta"). 
+
+One way to achieve this is to choose a [[conformal structure]] on $\Sigma$. The corresponding [[Hodge star operator]]
+
+$$
+  \star : \Omega^{2k+1}(\Sigma) \to \Omega^{2k+1}(\Sigma)
+$$
+
+provides the polarization by splitting into self-dual and anti-self-dual forms.
+
+Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be thought of as a function of the self-dual forms on $\Sigma$. Under holography this is identified with the [[correlator]] of a [[self-dual higher gauge theory]] on $\Sigma$.
 
 ## Examples
 
