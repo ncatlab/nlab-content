@@ -20,7 +20,7 @@
 
 ## Idea
 
-Over [[compact topological space|compact]] [[complex manifolds]] $X$, _Hodge symmetry_ is the property that the [[Dolbeault cohomology]] groups $H^{p,q}(X)$ are taken into each other under [[complex conjugation]] followed by switching the bidegree:
+Over [[compact topological space|compact]] [[Kähler manifolds]] $X$, _Hodge symmetry_ is the property that the [[Dolbeault cohomology]] groups $H^{p,q}(X)$ are taken into each other under [[complex conjugation]] followed by switching the bidegree:
 
 $$
   H^{p,q}(X) \simeq \overline{H^{q,p}(X)}
