@@ -46,6 +46,10 @@ See ([Witten11, p. 14](http://arxiv.org/PS_cache/arxiv/pdf/1101/1101.3216v1.pdf#
 Earlier indication for this had come from the observation [Witten92](#Witten92) that Chern-Simons theory is the effective background theory for the [[A-model]] 2d [[TCFT]] (see <a href="http://ncatlab.org/nlab/show/TCFT#ActionFunctionals">TCFT -- Worldsheet and effective background theories</a> for details).
 
 
+## Related concepts
+
+[[!include table of branes]]
+
 ## References
 
 Original sources include
