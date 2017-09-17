@@ -2,16 +2,16 @@
 #Contents#
 * automatic table of contents goes here
 {:toc}
-
+ 
 ## The idea
 
 Young diagrams are used to describe many objects in algebra and combinatorics, including:
 
 * integer partitions.  For example, the integer partition 
 
-$$ 17 = 5 + 4 + 4 + 2 + 1 + 1 $$ 
+  $$ 17 = 5 + 4 + 4 + 2 + 1 + 1 $$ 
 
-is drawn as the Young diagram
+  is drawn as the Young diagram
 
 +-- {: #Young style="text-align:center"}
 <svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
