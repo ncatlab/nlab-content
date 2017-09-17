@@ -27,7 +27,7 @@ A [[knot diagram]] is _$3$-colourable_ if we can assign colours to its arcs such
 ###### Examples
 * The usual diagram for the trefoil knot is $3$-colourable. (Just do it! Each arc is given a separate colour and it works.)
 
-* The figure-$8$ knot diagram
+* The [[figure-8 knot]] diagram
 
 [[!include figure 8 knot - SVG]]
 
@@ -172,7 +172,7 @@ with $a+b \equiv_n 2c$.
 
 What, of course, needs to be checked (left to 'the reader') is
 
-* this notion is a generalisation of 3-colourability (i.e. coincides in the case of $n = 3$;
+* this notion is a generalisation of 3-colourability (i.e. coincides in the case of $n = 3$);
 
 * $n$-colourability is preserved under [[Reidemeister moves]] so can be applied to a knot, not just to a knot diagram;
 
