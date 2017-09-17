@@ -69,13 +69,13 @@
 
     * [[totally connected geometric morphism]]
 
+  * [[etale geometric morphism]]
+
   * [[local geometric morphism]]
 
   * [[bounded geometric morphism]]
 
   * [[base change]]
-
-  * [[etale geometric morphism]]
 
   * [[localic geometric morphism]]
 
