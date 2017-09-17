@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $j_\infty E \to X$, the **variarional bicomplex** is essentially the [[de Rham complex]] $(\Omega^\bullet(j_\infty E),\mathbf{d})$ of $j_\infty E$ with [[differential forms]] $\Omega^n(j_\infty E) = \bigoplus_{h+v=n} \Omega^{h,v}(E)$ bigraded by [[horizontal differential form|horizontal]] degree $h$ (with respect to $X$) and vertical degree $v$ (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
+For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $j_\infty E \to X$, the **variational bicomplex** is essentially the [[de Rham complex]] $(\Omega^\bullet(j_\infty E),\mathbf{d})$ of $j_\infty E$ with [[differential forms]] $\Omega^n(j_\infty E) = \bigoplus_{h+v=n} \Omega^{h,v}(E)$ bigraded by [[horizontal differential form|horizontal]] degree $h$ (with respect to $X$) and vertical degree $v$ (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
 
 $$
   \mathbf{d} = d + \delta
@@ -130,7 +130,7 @@ $$
   \,,
 $$
 
-where the $\mathbf{d}$, $d$ and $\delta$, are the [[de Rham differential]]s of $X\times\Gamm(E)$, $X$ and $\Gamma(E)$, respectively.
+where the $\mathbf{d}$, $d$ and $\delta$, are the [[de Rham differential]]s of $X\times\Gamma(E)$, $X$ and $\Gamma(E)$, respectively.
 
 
 +-- {: .num_defn }
