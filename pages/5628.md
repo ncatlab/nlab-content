@@ -70,6 +70,7 @@ The HOMFLY polynomial generalises both the [[Jones polynomial]] and the [[Alexan
   1. $\alpha = 1$, $z = q^{1/2} - q^{-1/2}$
   1. $l = i$, $m = i (q^{-1/2} - q^{1/2})$
 
+category: knot theory
 
 [[!redirects HOMFLY-PT polynomial]]
 [[!redirects homfly-pt polynomial]]
