@@ -1,4 +1,25 @@
-In [[Riemannian geometry]] the curl of a vecor field $X$ over a 3-dimensional Riemannian manifold $(M,g)$ is the vector field $curl(X)$ defined by
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+In [[Riemannian geometry]] the **curl** of a [[vector field]] $X$ over a 3-dimensional [[Riemannian manifold]] $(M,g)$ is the vector field $curl(X)$ defined by
 
 $$
 curl(X)=g^{-1}\star_g d_{dR}g(X)
@@ -10,7 +31,8 @@ $$
 \star_g:\Omega^i(M;\mathbb{R}) \to \Omega^{3-i}(M;\mathbb{R})
 $$
 
-#### Example.
+## Examples
+
 If $(M,g)$ is $\mathbb{R}^3$ endowed with the canonical Euclidean metric, then the curl of a vector field $(X^1,X^2,X^3)=X^1\partial_1+X^2\partial_2+X^3\partial_3$ is
 
 $$
@@ -20,3 +42,11 @@ curl(X)^2=\frac{\partial X^1}{\partial x^3}-\frac{\partial X^3}{\partial x^1}
 ;\qquad
 curl(X)^3=\frac{\partial X^2}{\partial x^1}-\frac{\partial X^1}{\partial x^2} 
 $$
+
+## Related concepts
+
+* [[gradient]]
+
+* **curl**
+
+* [[divergence]]
