@@ -1,9 +1,14 @@
 
-The entries of the following table denote [[Quillen equivalences]] between [[model categories]] that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] of [[(∞,1)-categories]] (first table)  and [[(∞,1)-operads]] (second table) and [[monoidal (∞,1)-categories]] (third table).
+The entries of the following table display models, [[model categories]], and  [[Quillen equivalences]] between these that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] of [[(∞,1)-categories]] (second table), of [[(∞,1)-operads]] (third table) and of $\mathcal{O}$-[[monoidal (∞,1)-categories]] (fourth table).
 
-|  | **[[(∞,1)Cat]]** |  | |  |
+|  | general pattern |  | |  |
 |--|--|--|-|--|
-| [[model structure on sSet-categories|SimplicialCategories]] | $-$[[homotopy coherent nerve]]$\to$ | [[model structure on simplicial sets|SimplicialSets]] | | [[model structure for Cartesian fibrations|RelativeSimplicialSets]] | 
+| strict [[enriched (∞,1)-category|enrichment]]|  | [[(∞,1)-category]]/[[(∞,1)-operad]] |  |  | 
+| $\downarrow$ | | $\downarrow$ | | |
+| [[enriched (∞,1)-category]] | $\hookrightarrow$ | [[internal category in an (∞,1)-category|internal (∞,1)-category]] | | |
+|  |  |  | | |
+|  | **[[(∞,1)Cat]]** |  | |  |
+| [[model structure on sSet-categories|SimplicialCategories]] | $-$[[homotopy coherent nerve]]$\to$ | [[model structure on simplicial sets|SimplicialSets]]/[[quasi-categories]] | | [[model structure for Cartesian fibrations|RelativeSimplicialSets]] | 
 | $\downarrow$[[nerve|simplicial nerve]] | | $\downarrow$ | | |
 | [[model structure for Segal categories|SegalCategories]] | $\hookrightarrow$ | [[model structure for complete Segal spaces|CompleteSegalSpaces]] | | |
 |  |  |  | | |
@@ -12,7 +17,7 @@ The entries of the following table denote [[Quillen equivalences]] between [[mod
 | $\downarrow$[[dendroidal set|dendroidal nerve]] | | $\downarrow$ | | |
 | [[model structure for Segal operads|SegalOperads]] | $\hookrightarrow$ | [[model structure for dendroidal complete Segal spaces|DendroidalCompleteSegalSpaces]] | | |
 |  |  |  | | |
-|  | **[[Mon(∞,1)Cat]]** |  | | |
+|  | **$\mathcal{O}$[[Mon(∞,1)Cat]]** |  | | |
 |  |  | [[model structure for dendroidal Cartesian fibrations|DendroidalCartesianFibrations]] | | |
 
 [[!redirects table - models for (infinity,1)-categories]]
