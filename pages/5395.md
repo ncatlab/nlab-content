@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * the following line creates the automatic table of contents
 {: toc}
@@ -7,22 +18,24 @@
 
 +-- {: .un_theorem}
 ###### Theorem
-**(The adjoint lifting theorm)**. Consider the following commutative square of functors:
+**(The adjoint lifting theorm)**. Consider the following [[commutative diagram|commutative square]] of [[functor]]s:
 $$
 \begin{array}{cccc}\mathcal{A} & \overset{Q}{\to}  & \mathcal{B}    \\
 ^{U}\downarrow     &                   & \downarrow^{V} \\
 \mathcal{C}        & \underset{R}{\to} & \mathcal{D}
 \end{array}
 $$
+
 and suppose that
  
-* $U$ and $V$ are monadic, and 
-* $\mathcal{A}$ has coequalizers of reflexive pairs
+* $U$ and $V$ are [[monadic functor|monadic]], and 
 
-Then, if $R$ has a left adjoint, then $Q$ also has a left adjoint. 
+* $\mathcal{A}$ has [[coequalizer]]s of reflexive pairs.
+
+Then, if $R$ has a [[left adjoint]], then $Q$ also has a [[left adjoint]]. 
 =--
 
-A detailed proof may be found in Sec. 4.5 of Vol. 2 of [[Borceux]]
+A detailed proof may be found in Sec. 4.5 of Vol. 2 of [Borceux](#Borceux)
 (see especially Theorem 4.5.6 on p. 226 and Ex. 4.8.6 on p. 252).  
 
 +-- {: .un_cor}
@@ -74,5 +87,7 @@ if $\mathcal{A}$ has coequalizers of reflexive pairs and $\mathcal{C}$
 is small-cocomplete, then $\mathcal{A}$ is small cocomplete.
 
 ## References ##
-Section 4.5 of volume 2 of Francis Borceux, Handbook of categorical
-algebra , in 3 vols. 
+Section 4.5 of volume 2 of 
+
+* [[Francis Borceux]], _Handbook of categorical algebra_ , in 3 vols. 
+{#Borceux}
