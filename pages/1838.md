@@ -29,4 +29,10 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
     * [[Yang-Mills theory]]
 
+  * [[higher U(1)-gauge theory]]
+
+    * [[B-field]]
+
+    * [[supergravity C-field|C-field]]
+
 [[!redirects electrodynamics]]
