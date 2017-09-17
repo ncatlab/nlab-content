@@ -9,10 +9,10 @@ Dedekind cuts are a way to make precise the idea that a [[real number]] is that 
 
 In 1872, [[Richard Dedekind]] published _Stetigkeit und irrationale Zahlen_ (Continuity and irrational numbers), in which he pointed out that a real number may be uniquely determined its order relationships with rational numbers.  That is, the real number $x$ is determined by its __lower set__ $L_x$ and its __upper set__ $U_x$:
 \[ \label{cuts} \begin {split}
-   L_x \coloneqq \{ a\colon \mathbb{Q} \;|\; a \lt x \} \\
+   L_x \coloneqq \{ a\colon \mathbb{Q} \;|\; a \lt x \} ,\\
    U_x \coloneqq \{ b\colon \mathbb{Q} \;|\; x \lt b \}
 .\end {split} \]
-Dedekind had found great success understanding the 'ideal numbers' of [[ring theory]] as certain sets, which are what we now understand as [[ideal of a ring|ideals]].  So he defined a 'real number' as a pair of sets of rational numbers, the lower and upper sets shown above.  Such a pair of sets of rational numbers he called a 'Schnitt' (English 'cut'), nowadays called a 'Dedekind cut'.
+Dedekind had found great success understanding the 'ideal numbers' of [[ring theory]] as certain sets, which are what we now understand as [[ideal of a ring|ideals]].  So he defined a 'real number' as a pair of sets of rational numbers, the lower and upper sets shown above (actually a slight variation).  Such a pair of sets of rational numbers he called a 'Schnitt' (English 'cut'), nowadays called a 'Dedekind cut'.
 
 
 ## Definitions
@@ -22,9 +22,9 @@ Exactly which pairs of sets of rational numbers can appear this way?  We will de
 1.  $L$ is [[inhabited set|inhabited]]; that is, some rational number belongs to $L$.
 2.  Similarly, $U$ is inhabited.
 3.  $L$ is downward-closed; that is, if $a \lt b$ are rational numbers with $b \in L$, then $a \in L$.
-4.  Similarly, $U$ is downward-closed: if $a \lt b$ are rational numbers with $a \in U$, then $b \in U$.
+4.  Similarly, $U$ is upward-closed: if $a \lt b$ are rational numbers with $a \in U$, then $b \in U$.
 5.  $L$ is upward-open; that is, if $a \in L$, then $a \lt b$ for some $b \in L$.
-6.  Similarly, $U$ is downward-open; that is, if $b \in U$, then $a \lt b$ for some $a \in U$.
+6.  Similarly, $U$ is downward-open: if $b \in U$, then $a \lt b$ for some $a \in U$.
 7.  If $a \lt b$ are rational numbers, then $a \in L$ or $b \in U$.
 8.  If $a \in L$ and $b \in U$, then $a \lt b$.
 
@@ -39,12 +39,12 @@ The point of condition (7) is that we can estimate $x$ as closely as we like by 
 
 This is entirely [[constructive mathematics|constructive]].  We have $a_0 \lt x$ for some $a_0$ (by 1) and $x \lt b_0$ for some $b_0$ (by 2), so if we wish to estimate $x$ to within a positive rational number $\epsilon$, then we simply let $n$ be $\lceil{2/\epsilon}\rceil$ and apply (7) to each of the finitely many ($\lceil{n(b_0-a_0)}\rceil$) rational numbers with denominator $n$ that lie between $a_0$ and $b_0$.  This will eventually give us a numerator $i$ such that $(i-1)/n \lt x \lt (i+1)/n$, so we have estimated $x$ within $2/n \leq \epsilon$.  Alternatively, to estimate $x$ to $n$ digits after a decimal point (with an uncertainty of $1$ in the last digit), apply (1) to each of the $\lceil{(b_0-a_0) \times 10^n}\rceil$ numbers between $a_0$ and $b_0$ that have $n$ digits after the decimal point.  (We can never constructively determine the final digit with perfect certainty; for example, if we successively estimate $x$ as $0.5, 0.50, 0.500, \ldots$, no finite number of such estimates can ever ensure that $x$ won\'t come out to $0.4999\cdots9998$ when we go one digit farther.)
 
-Besides giving us a place to begin our estimation, (1&2) ensure that $x$ is finite.  Condition (8) enforces us the [[transitive relation|transitivity]] law $a \lt x \lt b \implies a \lt b$; (3&4) are likewise forms of transitivity.  (5&6) ensure that, even if $x$ happens to be a rational number, we are using the sets $L_x$ and $U_x$ given in (eq:cuts) instead of their closures (defined with $\leq$ instead of $\lt$).
+Besides giving us a place to begin our estimation, (1&2) ensure that $x$ is finite.  Condition (8) enforces the [[transitive relation|transitivity]] law $a \lt x \lt b \implies a \lt b$; (3&4) are likewise forms of transitivity.  (5&6) ensure that, even if $x$ happens to be a rational number, we are using the sets $L_x$ and $U_x$ given in (eq:cuts) instead of their closures (defined with $\leq$ instead of $\lt$).
 
 
 ### Dedekind completion
 
-We define $x \lt y$ to mean that there exist a rational number $a$ such that $x \lt a \lt y$; that is, some rational number belongs to both the upper set of $x$ and the lower set of $y$.  It is then straightforward to prove that $\lt$ is a [[linear order]]:
+We define $x \lt y$ to mean that there exists a rational number $a$ such that $x \lt a \lt y$; that is, some rational number belongs to both the upper set of $x$ and the lower set of $y$.  It is then straightforward to prove that $\lt$ is a [[linear order]]:
 
 *  [[asymmetric relation|Asymmetry]]:  If $x \lt y$ and $y \lt x$, pick $a$ such that $x \lt a \lt y$ and $b$ such that $y \lt b \lt x$.  Applying (8) in two ways, $a \lt b$ and $b \lt a$, which is impossible.
 *  [[comparison relation|Comparison]]:  If $x \lt z$ and $y$ is a Dedekind cut, then pick $a$ such that $x \lt a \lt z$.  Using (5) or (6), we can generalise this to two rational numbers $a$ and $b$ such that $x \lt a \lt b \lt z$.  Applying (7) to $a \lt b$, we get $x \lt y$ (if $a \lt y$) or $y \lt z$ (if $y \lt b$).
@@ -120,7 +120,7 @@ By [[excluded middle]], every extended cut is either a Dedekind cut, $(\mathbb{Q
 
 ### Interval cuts
 
-If we drop (7) (but keep 3&4), then the result in an __interval cut__; these represent intervals of the form $[x,y]$ for $x \leq y$, where $x$ is a lower real and $y$ is an upper real.  If we use only (1--6), then we allow for __back-to-front intervals__ $[x,y]$ where $x \leq y$ is no longer required.  Even classically, we cannot represent back-to-front intervals as subsets of the real line, but it is still possible to compute with them.
+If we drop (7) (but keep 3&4), then the result is an __interval cut__; these represent intervals of the form $[x,y]$ for $x \leq y$, where $x$ is a lower real and $y$ is an upper real.  If we use only (1--6), then we allow for __back-to-front intervals__ $[x,y]$ where $x \leq y$ is no longer required.  Even classically, we cannot represent back-to-front intervals as subsets of the real line, but it is still possible to compute with them.
 
 Whereas a located Dedekind cut can be approximated as closely as we wish, an interval cut represents a number as we measure it in the real world, where we may not be technically able (or even theoretically able, as in [[quantum physics]]) to make a more precise measurement.  A back-to-front interval indicates that we have made contradictory measurements, perhaps as a result of experimental error.
 
@@ -129,7 +129,7 @@ An article on [[interval arithmetic]] is probably the right place to talk about 
 
 ### Cuts of other numbers
 
-Instead of starting with rational numbers, we could use any [[dense suborder|dense]] subset of $\mathbb{Q}$; the result would be equivalent.  For example, we could start with the [[dyadic number]]s to show more explicitly how real numbers are reprsented by rational numbers written in binary notation.  Alternatively, we could start with something larger than (or incomparable with) $\mathbb{Q}$ that is still a dense subset of $\mathbb{R}$ (although you have to know what $\mathbb{R}$ is to state this).  For example, we could start with the real [[algebraic number]]s or the [[computable number]]s.
+Instead of starting with rational numbers, we could use any [[dense suborder|dense]] subset of $\mathbb{Q}$; the result would be equivalent.  For example, we could start with the [[dyadic number]]s to show more explicitly how real numbers are represented by rational numbers written in binary notation.  Alternatively, we could start with something larger than (or incomparable with) $\mathbb{Q}$ that is still a dense subset of $\mathbb{R}$ (although you have to know what $\mathbb{R}$ is to state this).  For example, we could start with the real [[algebraic number]]s or the [[computable number]]s.
 
 The basic theory also generalises immediately to any unbounded, [[dense order|dense]] linearly ordered set $S$; again, the result is equivalent as long as $S$ is a [[countably infinite set]].  The theory may be generalised further even to orders which may not be unbounded, dense, or even linear, but this requires modifications; see [[Dedekind completion]] (if we ever write that) or Sections 4.31--39 of _[[HAF]]_.
 
@@ -140,6 +140,7 @@ The basic theory also generalises immediately to any unbounded, [[dense order|de
    *  [Google Books](http://books.google.com/books?id=AO4GAAAAYAAJ) (in Fraktur font),
    *  [retyped](http://www.math.ru.nl/werkgroepen/gmfw/bronnen/dedekind2.html) 
 *  [[Paul Taylor]]; 2007--2009(?); [Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)
+*  _[[HAF]]_, 4.31--4.39
 
 
 [[!redirects Dedekind cut]]
