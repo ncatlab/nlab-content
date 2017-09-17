@@ -14,6 +14,8 @@
 * table of contents
 {:toc}
 
+## Idea
+
 A fundamental statement in [[stable homotopy theory]]/[[higher algebra]]/[[chromatic homotopy theory]].
 
 ## Statement
@@ -33,6 +35,10 @@ This is due to [[Ethan Devinatz]], [[Mike Hopkins]], and [[Jeff Smith]]. See [Lu
 ### Relation with $\infty$-fields
 
 The nilpotence theorem implies that every [[∞-field]] is an [[∞-module]] over the [[Morava K-theory]] [[spectrum]] $K(n)$, for some $n$. See at _[[∞-field]]_.
+
+## Related concepts
+
+* [[thick subcategory theorem]]
 
 ## References
 
