@@ -5,16 +5,15 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-
-No sand in this box.
-
-
+*  [[infinity-groupoid|$\infty$-groupoid]]
+*  [$\infty$-groupoid](http://ncatlab.org/nlab/show/infinity-groupoid)
+*  [[$\infty$-groupoid]]
 
 ***
 
 
 category: meta
-_
+
 [[!redirects Sandbox]]
 [[!redirects SandBox]]
 [[!redirects Sand Box]]
