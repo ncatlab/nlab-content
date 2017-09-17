@@ -145,7 +145,38 @@ Let $SuperPoint$ be the [[category]] of [[superpoint]]s. And $Sh(SuperPoint) = P
 
 We discuss a definition of supermanifolds that characterizes them, roughly,  as manifolds over this [[base topos]]. See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]].
 
+
 ### Definition
+
++-- {: .num_defn }
+###### Definition
+
+Let 
+
+$$
+  SuperSet := Sh(SuperPoint)
+$$
+
+be the [[sheaf topos]] over [[superpoint]]s. Let
+
+$$
+  \mathbb{K} \in SuperSet
+$$
+
+be the canomnical commutative ring object, as discussed at [[superalgebra]].
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+A **superdomain** is an open subfunctor (...) of a [[locally convex vector space|locally convex]] $\mathbb{K}$-module.
+
+=--
+
+This appears as ([Sachse, def. 4.6](#Sachse)). 
+
+We now want to describe supermanifolds as [[manifold]]s in $SuperSet$ modeled on superdomains.
 
 Write [[SmoothMfd]] for the [[category]] of ordinary [[smooth manifold]]s.
 
