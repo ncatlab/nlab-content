@@ -58,11 +58,58 @@ Traditionally one writes the image of $X\in an object S$ under $\mathbb{C}$ as $
 
 ## Examples
 
-* If $S$ has [[pullbacks]], then its [[codomain fibration]] is an $S$-indexed category denoted $\mathbb{S}$, with $\mathbb{S}^X = S/X$.  This indexed category represents $S$ itself in the world of $S$-indexed categories.
 
-* If $F\colon S\to T$ is a [[functor]] and $\mathbb{C}$ is a $T$-indexed category, then we have an $S$-indexed category $F^*\mathbb{C}$ defined by $(F^*\mathbb{C})^X = \mathbb{C}^{F(X)}$.
 
-* In particular, if $S$ and $T$ are [[finitely complete categories]] and $F\colon S\to T$ is a [[left exact functor]], then $F^*\mathbb{T}$ is an $S$-indexed category that represents $T$.  This situation frequently arises when $S$ and $T$ are [[toposes]] and $F$ is the [[inverse image]] part of a [[geometric morphism]].  In this way, if $S$ is a topos, then any topos *over* $S$ (i.e. an object of the [[slice 2-category]] $Topos/S$) gives rise to a topos *relative to* $S$, i.e. a "topos object" in the 2-category of $S$-indexed categories, and this operation can be shown to be fully faithful.
++-- {: .num_example #CanonicalSelfIndexing}
+###### Example
+**(canonical self-indexing)**
+
+If $\mathcal{S}$ has [[pullbacks]], then its [[codomain fibration]] is an $\mathcal{S}$-indexed category denoted $\mathbb{S}$. 
+
+This assigns to an object $I$ the corresponding [[over-category]] 
+
+$$
+  \mathbb{S}^I := \mathcal{S}/I
+$$
+
+and to a morphism $f : I \to J$ the functor $f^*$ that sends every $s \to I$ to its [[pullback]] $f^*$ along $f$.
+
+=--
+
+This indexed category represents $\mathcal{S}$ itself in the world of $\mathcal{S}$-indexed categories. 
+
+
++-- {: .num_example #CartesianFunctorIndexing}
+###### Example
+**(change of base)**
+
+If $F\colon \mathcal{S}\to \mathcal{T}$ is a [[functor]] and $\mathbb{C}$ is a $\mathcal{T}$-indexed category, then we have an $\mathcal{S}$-indexed category $F^*\mathbb{C}$ defined by 
+
+* $(F^*\mathbb{C})^I = \mathbb{C}^{F(I)}$ for every object $I \in \mathcal{S}$;
+
+* and $x^* = F(x)^*$ for every morphism $x : I \to J$ in $\mathcal{S}$.
+
+=--
+
+Combining these previous examples we get
+
++-- {: .num_example #CartesianFunctorIndexing}
+###### Example
+
+For $F : \mathcal{S} \to \mathcal{C}$ a functor and $\mathcal{C}$ a [[cartesian category]], there is the $\mathcal{S}$-indexed category $F^* \mathbb{C}$ given by
+
+* $(F^* \mathbb{C})^I = \mathcal{C}/F(I)$.
+
+If the functor $F$ preserves [[pullback]]s then this induces a morphism $\mathbb{S} \to F^* \mathbb{C}$ of $\mathcal{S}$-indexed categories.
+
+=--
+
+
+This situation frequently arises when $\mathcal{S}$ and $\mathcal{T}$ are [[toposes]] and $F$ is the [[inverse image]] part of a [[geometric morphism]].  In this way, if $\mathcal{S}$ is a topos, then any topos *over* $\mathcal{S}$ (i.e. an object of the [[slice 2-category]] [[Topos]]$/S$) gives rise to a topos *relative to* $\mathcal{S}$, i.e. a "topos object" in the 2-category of $\mathcal{S}$-indexed categories, and this operation can be shown to be fully faithful. See [[base topos]] for more on this.
+
+## Related concepts
+
+* [[indexed topos]]
 
 ## References
 
