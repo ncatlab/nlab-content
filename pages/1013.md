@@ -231,8 +231,6 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 [[!redirects properties]]
 [[!redirects extra property]]
 [[!redirects extra properties]]
-[[!redirects structure]]
-[[!redirects structures]]
 [[!redirects extra structure]]
 [[!redirects extra structures]]
 [[!redirects stuff]]
