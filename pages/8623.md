@@ -1,5 +1,5 @@
 
-> The following is an attempt to organize the [[foundations]] by starting with the most foundational foundation and successively adding [[axioms]]. This is under construction and tentative; let's discuss it [here](http://nforum.mathforge.org/discussion/4347/layers-of-foundations/#Item_1).
+> The following is an attempt to organize [[foundations]] by starting with a most foundational foundation and successively adding [[axioms]]. This is under construction and tentative; let's discuss it [here](http://nforum.mathforge.org/discussion/4347/layers-of-foundations/#Item_1).
 
 ***
 
