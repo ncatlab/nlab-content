@@ -62,7 +62,7 @@ There are many different kinds of of "logical theories", each of which correspon
 
 |Theory| |Category|
 |------|-|--------|
-|[[finite product theory]]| category with [[finite products]]|
+|[[finite product theory]]| |category with [[finite products]]|
 |[[cartesian logic|finite limit]] (aka "left exact" or "cartesian")| |[[finitely complete category]]|
 |[[regular logic|regular]]| |[[regular category]]|
 |[[coherent logic|coherent]]| |[[coherent category]]|
