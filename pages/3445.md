@@ -1,4 +1,6 @@
 
+> under construction. See the blog discussion <a href="http://golem.ph.utexas.edu/category/2010/11/locally_constant_sheaves.html">Locally Constant Sheaves</a> for the moment.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -46,14 +48,37 @@ are represented by
 
 Such data clearly is the local data for a [[covering space]] over $X$ with typical fiber any of the $F_i$.
 
+## Definition
+
+Let $(\Delta \dashv \Gamma) : \mathcal{E} \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}} Set$ be the [[global section]] geometric morphism of a [[sheaf topos]] $\mathcal{E}$.
+
+### First definition
+
+For $U \to *$ an [[epimorphism]] in $\mathcal{E}$, an [[object]] $E \in \mathcal{E}$ is called **locally constant and split by $U$** if in the [[over category]] $\mathcal{E}/U$ we have an [[isomorphism]]
+
+$$
+  E \times U \simeq (\Delta F) \times U
+  \,,
+$$
+
+for some $S \in $ [[Set]].
+
+### Second definition
+
+(...)
+
+
 ## Applications
 
-Locally constant sheaves are sheaves of sections of [[covering space]]s.
+* Locally constant sheaves are sheaves of sections of [[covering space]]s. 
 
-When used as coefficient objects in [[cohomology]] they are also called [[local system]]s.
+* When used as coefficient objects in [[cohomology]] they are also called [[local system]]s.
 
-The [[action]] of the [[fundamental groupoid]] $\Pi_1(X)$ on the fibers of a local system give rise to the notion of [[monodromy]].
-This may be used to define [[homotopy group (of an infinity-stack)|homotopy groups of]] general objects in a [[topos]].
+* The [[action]] of the [[fundamental groupoid]] $\Pi_1(X)$ on the fibers of a local system give rise to the notion of [[monodromy]].
+
+* This may be used to define [[homotopy group (of an infinity-stack)|homotopy groups of]] general objects in a [[topos]], and the [[fundamental group of a topos]].
+
+* This is the content of [[Galois theory]].
 
 ## Pattern
 
@@ -70,6 +95,21 @@ A locally constant sheaf / $\infty$-stack is also called a [[local system]].
 
 
 
+## References
+
+The definition of _locally constant sheaf_ originates in the notion of _covering projection_
+
+
+* [[SGA]] 4, Expos&eacute; IX, 2.0 .
+
+The topos-theoretic definition is reproduced for instance as definition 2.2 in 
+
+* [[Eduardo Dubuc]], _The fundamental progroupoid of a general topos_ ([arXiv:0706.1771](http://arxiv.org/abs/0706.1771))
+
+or as definition 1 in
+
+* [[Michael Barr]], [[Radu Diaconescu]], _On locally simply connected toposes and their fundamental groups_ ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1981__22_3_301_0))
+{#BarrDiaconescu}
 
 
 
