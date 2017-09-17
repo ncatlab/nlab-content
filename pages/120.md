@@ -53,7 +53,9 @@ See [[equivalence in an (infinity,1)-category]].
 
 ## In homotopy type theory
 
-In [[homotopy type theory]] equivalences can be axiomatized as those [[terms]] of [[function types]] all whose [[homotopy fibers]] are [[contractible]]:  have [[h-level]] 0.
+In [[homotopy type theory]] equivalences can be axiomatized as those [[terms]] of [[function types]] all whose [[homotopy fibers]] are [[contractible]].
+
+See _[[equivalence in homotopy type theory]]_.
 
 
 ## Related concepts
@@ -72,12 +74,14 @@ In [[homotopy type theory]] equivalences can be axiomatized as those [[terms]] o
 
 * [[equivalence in an (∞,1)-category]]
 
+* [[equivalence in homotopy type theory]]
+
 * [[equivalence of (∞,1)-categories]]
 
 
 ## References
 
-An introduction to equivalences in [[homotopy theory]]/[[homotopy type theory]] is in 
+An introduction to [[equivalence in homotopy type theory]] is in 
 
 * [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
 
