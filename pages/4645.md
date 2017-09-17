@@ -6,14 +6,18 @@
 ###Context###
 #### $\infty$-Chern-Weil theory
 +--{: .hide}
-[[!include infinity-Chern-Simons theory - contents]]
+[[!include infinity-Chern-Weil theory - contents]]
 =--
 =--
 =--
 
+* [[schreiber:differential cohomo,logy in an (∞,1)-topos -- survey]]
 
-> This is a subentry of [[∞-Chern-Weil theory]]. While there the general theory is discussed, this entry here considers some basic constructions in the traditional language of [[differential geometry]] that connect explicitly to basic concepts of ordinary [[Chern-Weil theory]].
+* **∞-Chern-Weil theory introduction**
 
+* [[∞-Chern-Weil theory]]
+
+***
 
 #Contents#
 * table of contents
