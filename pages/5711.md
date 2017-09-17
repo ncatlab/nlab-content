@@ -1,6 +1,9 @@
+[[!redirects Nicolai Reshitikhin]]
 
 * [website](http://math.berkeley.edu/~reshetik/)
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Nicolai_Reshetikhin)
 
 category: people
+
+[[!redirects Nikolai Reshetikhin]]
