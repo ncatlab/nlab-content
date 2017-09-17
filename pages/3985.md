@@ -938,6 +938,17 @@ which is a reflective embedding. It exhibits localization at $A^1$-[[cohomology]
 
 This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 
+## Related concepts
+
+* [[reflective subcategory]] / **reflective sub-$(\infty,1)$-category
+
+* [[coreflective subcategory]]
+
+## References
+
+section 5.2.7 of
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects reflective sub-(∞,1)-category]]
 [[!redirects reflective sub-(∞,1)-categories]]
