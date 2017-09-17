@@ -17,6 +17,13 @@
 
 A [[Riemannian manifold]] with [[special holonomy]] [[G2]].
 
+
+## Applications
+
+### In supergravity 
+
+In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]]/[[M-theory]] on $G_2$-manifolds (see for instance [Duff](#Duff)) can have attractive phenomenological properties, see for instance the _[[G2-MSSM]]_. 
+
 ## References
 
 ### General
@@ -34,5 +41,12 @@ For more see the references at _[[exceptional geometry]]_.
 The following references discuss the role of $G_2$-manifolds in [[11-dimensional supergravity]].
 
 * [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
+ {#Duff}
+
+A survey of the corresponding [[string phenomenology]] is in
+
+* Bobby Acharya, _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
 
 [[!redirects G2 manifolds]]
+[[!redirects G2-manifold]]
+[[!redirects G2-manifolds]]
