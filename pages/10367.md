@@ -5,7 +5,7 @@
 
 ## Idea
 
-Many of the important theorems of [[measure theory]] fail to hold in full generality.  (See below under Theorems for which theorems we\'re talking about.)  Often these theorems are stated for [[sigma-finite measures]], but they do hold a bit more generally than that.  In fact, they hold for _localizable_ measures, and this fact *characterizes* the localizable measures.
+Many of the important theorems of [[measure theory]] fail to hold in full generality.  (See below under Theorems for which theorems we\'re talking about.)  Often these theorems are stated for $\sigma$-[[sigma-finite measures|finite measures]], but they do hold a bit more generally than that.  In fact, they hold for _localizable_ measures, and this fact *characterizes* the localizable measures.
 
 
 ## Definition
