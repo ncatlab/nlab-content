@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
+In [[mathematics]] (also in [[physics]] and neighbouring disciplines) a [[theorem]] is sometimes said to be _folklore_ when the community feels that it has been around and generally accepted as true for a long time, without however a proof of it having been submitted and published in the usual manner.
+
+The sociology of folklore theorems can be subtle. In semi-formalized areas such as [[theoretical physics]] folklore convictions, correct ones and incorrect ones, have seriously impeded progress.
 
 [[Paul Taylor]] on folklore in [[category theory]]:
 
