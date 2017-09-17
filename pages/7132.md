@@ -1,5 +1,16 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 In the context of [[analytic geometry]], a **polydisc** is a [[product]] of [[discs]].
+
+## References
+
+* Leonard Lipshitz, Zachary Robinson, _Rings of separated power series_ ([[LipshitzRobinson.pdf:file]])
+
 
 [[!redirects polydisk]]
 
