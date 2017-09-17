@@ -60,7 +60,11 @@ is to be invariant. With the above this now implies that the components of $G$ a
 
 This finally implies that also the component of $C_3$ annihilated by $\iota_{11}$, is odd under the $\mathbb{Z}_2$-action. Therefore the restriction of $C_3$ to the orbifold fixed points has to vanish.
 
+## Related concepts
 
+* [[11-dimensional supergravity]]
+
+* [[M-theory]]
 
 
 ## References
