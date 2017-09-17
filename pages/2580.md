@@ -189,6 +189,6 @@ More generally one can study generalized differential $k$-forms in local coordin
 
 Sometimes one considers larger spaces of distributions, where worse singularities than in Schwarz theory are allowed. Most well known are the theory of [[hyperfunction]]s and the theory of **Coulombeau distributions**. 
 
-
-
-
+[[!redirects distributions]]
+[[!redirects generalized function]]
+[[!redirects generalized functions]]
