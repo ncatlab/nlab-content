@@ -51,22 +51,13 @@ Recently there have been attempts to understand the structure here more systemat
 
 Section 3 of
 
-* Dan Freed, Mike Hopkins, [[Jacob Lurie]], Constantin Teleman, _Topological Quantum Field Theories from Compact Lie Groups_ ([arXiv](http://arxiv.org/abs/0905.0731))
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ 
 
 proposes a general abstract nonsense way to construct [[path integral]] quantizations for finite group theories such as DW.
 
-In a similar vein, so far for $n=1$ it is shown in
+For more on this see
 
-* [[Johan Alm]], [[Quantization as a Kan Extension]]
-
-that the quantization procedure for DW theory is nothing but the Kan extension of the background field from target space down to parameter space. 
-
-An description of extended DW theory as the systematic pull-push quantization induced by a generalized [[schreiber:Differential Nonabelian Cohomology|differential cocycle]] is proposed at
-
-* [[schreiber:Nonabelian cocycles and their sigma model QFTs]]
-
-There in particular a first-principle derivation of the fact that extended DW theory assigns the [[representation category]] of the Drinfeld double to the circle is given (following Willerton, but deriving his construction from still more fundamental abstract nonsense).
-
+...
 
 [[!redirects Dijkgraaf--Witten theory]]
 [[!redirects Dijkgraaf–Witten theory]]
