@@ -169,12 +169,15 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
 * The category of [[pseudotopological spaces]] is a quasitopos, as is the category of [[subsequential spaces]].  (The latter is Grothendieck, but not the former.)  The category of [[topological spaces]] fails only to be locally cartesian closed.  In such "topological" quasitopoi, the strong monics are the "subspace inclusions" (i.e. those monics whose source has the topology induced from the target), and the strong-subobject classifier is the two-point space with the indiscrete topology.  (In particular, we cannot demand any sort of [[separation axiom]] and still have a quasitopos.)
 
-* The category of [[simplicial complex]]es is a quasitopos.
+* The category of [[marked simplicial set]]s.
 
-* The category of [[diffeological space]]s is a quasitopos.
+* A category of [[concrete sheaves]] on a [[concrete site]] is a Grothendieck quasitopos. See [[local topos]]. 
 
-* These are special cases of the general result: the category of [[concrete sheaves]] on a [[concrete site]] is a Grothendieck quasitopos. See [[local topos]].
+  This includes the following examples:
 
+  * The category of [[simplicial complex]]es.
+
+  * The category of [[diffeological space]]s.
 
 ## Related concept
 
