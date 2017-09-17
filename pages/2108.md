@@ -193,13 +193,7 @@ For the moment see at **[[space of states (in geometric quantization)]]_.
 
 To a large extent geometric quantization is realized by [[central extension]] of various Lie groups arising in [[classical mechanics]]/[[symplectic geometry]].
 
-Overy a [[connected topological space|connected]] and [[simply connected topological space|simply connected]] [[symplectic manifold]] $X$ we have the following [[short exact sequences]]:
-
-
-| | extension by | quantum extension | classical object | 
-|--|--|--|--|
-| of [[Lie algebras]] | [[real numbers]] | [[Hamiltonians]] under [[Poisson bracket]] | [[Hamiltonian vector fields]] |
-| of [[Lie groups]] | [[circle group]] | [[quantomorphism group]] | [[Hamiltonian symplectomorphism group]] |
+[[!include geometric quantization extensions - table]]
 
 
 
