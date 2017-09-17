@@ -110,6 +110,8 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[moduli space of Riemannian metrics]]
 
+* [[moduli space of connections]]
+
 ## Related concepts 
 
 * [[representable functor]]
