@@ -213,6 +213,14 @@ $$
 
 (...)
 
+The 2-sphere is the [[coadjoint orbit]]
+
+$$
+  S^2 \simeq SU(2)/U(1)
+$$
+
+(...)
+
 ### The prequantum line bundle and the metaplectic correction
 
 * _[Without connection](#PrequantumBundleWithoutConnection)_
@@ -309,45 +317,132 @@ And so it follows that there is a unique spin structure, namely given by choosin
  {#PrequantumConnection}
 
 
-We discuss equipping the above complex line bundles on $S^2$ with [[connection on a bundle|connections]].
+We discuss equipping the above complex line bundles on $S^2$ with [[connection on a bundle|connections]]. 
 
-+-- {: .num_defn}
++-- {: .num_defn #DeligneCocycle}
 ###### Definition
 
-For $k \in \mathbb{Z} \simeq H^2(S^2, \mathbb{Z})$ 
-refine the [[Cech cohomology|Cech cocycle]] of def. \ref{StandardCechCocycle} to a Cech-[[Deligne cohomology|Deligne cocycle]] with [[curvature]] form 
+For $k \in  H^2(S^2, \mathbb{Z}) \simeq \mathbb{Z} \hookrightarrow \mathbb{R}$, 
+refine the [[Cech cohomology|Cech cocycle]] of def. \ref{StandardCechCocycle} to a Cech-[[Deligne cohomology|Deligne cocycle]] with [[curvature]] [[differential 2-form]] the [[Kähler form]] of prop. \ref{KaehlerStructure}
 
 $$
-  \omega_k = \partial \overline{\partial} K_k
+  \omega = \partial \overline{\partial} K
 $$
 
 
-by taking the connection 1-form on $U_{+}$ to be 
+by taking the connection 1-form on $U_{\pm}$ to be 
 
 $$  
   \begin{aligned}
-    \theta_+
+    \theta
       & \coloneqq
-    \exp\left(-K\left(z_+, \overline{z}_+\right)\right) 
-     \overline{\partial}
-    \exp\left(K\left(z_+, \overline{z}_+\right)\right)
+    \exp\left(-K\right) 
+     {\partial}
+    \exp\left(K\right)
     \\
     & =
-    \overline{\partial} K
+    {\partial} K
     \\
-    & = \frac{k z_+ }{ 1 + {\vert z_+\vert}^2} d \overline{z}_+
+    & = k \frac{\overline{z} }{ 1 + {\vert z\vert}^2} d {z}_+
   \end{aligned}
   \,.
 $$
 
 =--
 
++-- {: .num_prop #DeligneCocycleIsConsistent}
+###### Proposition
+
+The Cech-Deligne cocycle in def. \ref{DeligneCocycle} is indeed well defined.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that the connection 1-form satisfies on $U_+ \cap U_- \simeq (S^2 - \{x_0, x_\infty\})$ the transition law
+
+$$
+  \theta_+ + z^{-k} d z^k = \theta_-
+  \,.
+$$
+
+To see this first notice that on $U_+ \cap U_- \simeq (\mathbb{C} - \{0\})$ 
+
+$$
+  \begin{aligned}
+   \theta_+ & = k\frac{\overline{z}_-^{-1}}{1 + {\vert z_-\vert^{-2}}} (-){z}_-^{-2} d {z}_-
+   \\
+   & = 
+   -k \frac{{z}_-^{-1} d{z}_-}{1 + {\vert z_-\vert^2}}
+   \\
+   & = 
+   -\frac{{z}_-^{-k} d {z}_-^k}{1  + {\vert z_-\vert}^2}
+  \end{aligned}
+  \,.
+$$
+
+With this it follows that on $U_+ \cap U_-$ indeed we have
+
+$$
+  \begin{aligned}
+    z_-^{-k} d z_-^k + \theta_+ 
+    & = 
+    k
+    \left(
+      z_-^{-1} -\frac{z_-^{-1}}{1 + {\vert z_-\vert}^2}
+    \right) d z_-
+    \\
+    & = 
+    k \frac{\overline{z}_-}{1 + {\vert z_-\vert}^2}
+    d z_-
+    \\
+    & = \theta_-
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_remark}
 ###### Remark
 
-By prop. \ref{spring}
+For $\epsilon \in (0,1)$ let $D_{(\epsilon, \infty)}$ be the [[disk]] of [[radius]] $\epsilon$ around $x_\infty \in S^2$. Then by the [[Stokes theorem]] with def. \ref{DeligneCocycle} we have
+the [[integral]] equality
+
+$$
+  \underset{S^2 - D_{(\epsilon,\infty)}}{\int} \omega
+  \;=\; 
+  \underset{\partial D_{(\epsilon, \infty)}}{\int} \theta
+  \;=\; 
+  \frac{k}{1 + \epsilon^2} 
+  \,.
+$$
+
+In the [[limit of a sequence|limit]] that $\epsilon \to 0$ this shows that for integral $k$ as above, $\omega$ has integral [[periods]]
+
+$$
+  \begin{aligned}
+  \int_{S^2} \omega
+  = 
+  \underset{\epsilon \to 0}{\lim}
+  \underset{S^2 - D_{(\epsilon,\infty)}}{\int} \omega
+  = 
+  \underset{\epsilon \to 0}{\lim}
+  \frac{k}{1 + \epsilon^2} 
+  = 
+  k
+  \in \mathbb{Z}
+  \end{aligned}
+  \,.
+$$
+
+This is essentially the relation that historically was first recognized by [[Paul Dirac]] in the context of what today is known as the _[[Dirac charge quantization]]_ argument. In more modern language this expresses the defining [[homotopy pullback]] property of [[ordinary differential cohomology]].
 
 =--
+
+
 
 
 
