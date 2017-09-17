@@ -135,3 +135,5 @@ The concrete description in terms of model theory on marked simplicial sets is i
 [[!redirects universal fibration of (∞,1)-categories]]
 
 [[!redirects universal right fibration]]
+
+[[!redirects universal Cartesian fibration]]
