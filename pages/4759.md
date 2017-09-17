@@ -67,7 +67,7 @@ $$
 
 ### First Chern class
 
-* The First Chern class of a bundle $P$ is the class of its [[determinant line bundle]] $det P$
+* The [[first Chern class]] of a bundle $P$ is the class of its [[determinant line bundle]] $det P$
 
   $$
     c_1(P) = [det P]
@@ -106,3 +106,6 @@ A brief introduction is in chapter 23, section 7
 
 
 [[!redirects Chern classes]]
+
+[[!redirects second Chern class]] 
+
