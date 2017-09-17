@@ -31,7 +31,7 @@ There are many equivalent definitions of a [[type]] being an _h-proposition_.  P
 +-- {: .num_defn}
 ###### Definition
 
-For $A$ a tpye, let $isProp(A)$ denote the [[dependent product]] of the [[identity types]] for all pairs of [[terms]] of $A$:
+For $A$ a type, let $isProp(A)$ denote the [[dependent product]] of the [[identity types]] for all pairs of [[terms]] of $A$:
 
 $$ isProp(A) \coloneqq \prod_{x\colon A} \prod_{y\colon A} (x=y) $$
 
