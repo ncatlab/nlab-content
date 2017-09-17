@@ -12,13 +12,13 @@ The universal [[elliptic genus|elliptic]] [[genus]] is a morphism $\phi_2 : \Ome
 
 As such it can be understood as the [[partition function]] of an $N=1$ $d=2$ [[sigma-model]] [[SCFT]] ("the [[heterotic string]]"). Formalizations of this construction exist both in [[AQFT]]-type ([Costello](#Costello)) and in [[FQFT]]-type [[quantum field theory]] ([Stolz-Teichner]())
 
-This can be refined to a morphism of [[ring spectra]]
+This can be refined to a morphism of [[ring spectra]] ([Ando-Hopkins-Rezk](#AndoHopkinsRezk))
 
 $$
  \sigma : MString \to tmf
 $$
 
-from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _$\sigma$-orientation_.
+from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _$\sigma$-[[orientation in generalized cohomology|orientation]]_.
 
 
 ## References
@@ -38,7 +38,13 @@ Surveys are in
 
 * Anand Dessai, _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
 
-A discussion of the refinement of the Witten genus to a morphism of ring spectra is in remark 1.4 of
+THe discussion of the refinement of the Witten genus to a morphism of ring spectra is in
+
+* [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_ ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+  {#AndoHopkinsRezk}
+
+
+see also remark 1.4 of
 
 * [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller and Lurie)_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.5130v1.pdf)).
 
