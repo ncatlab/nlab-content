@@ -42,7 +42,7 @@ which is _thin_ in that it doesn't sweep out any surface: every $2$-form pulled 
 
 +--{: .un_defn}
 ######Definition
-A path $\gamma : [0,1] \to X$ has **sitting instants** if there is a neighbourhood of the boundary of $[0,1]$ such that $\gamma$ is constant restricted to that.
+A path $\gamma : [0,1] \to X$ has **[[sitting instant]]s** if there is a neighbourhood of the boundary of $[0,1]$ such that $\gamma$ is constant restricted to that.
 =--
 
 +--{: .un_defn}
