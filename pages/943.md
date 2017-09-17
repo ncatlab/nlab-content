@@ -61,12 +61,17 @@ A naive approach to the problem of constructing "convenient categories" usually 
 
 To see this, we recall that a [[Hausdorff space]] is exponentiable if and only if it is [[locally compact space|locally compact]], and that an exponential $Y^X$ (provided it exists) is Hausdorff if $Y$ is. Thus, it is enough to exhibit two locally compact Hausdorff spaces $X$, $Y$ whose exponential is not locally compact.
 
-Take $X = Y = \mathbb{N}$ (the set of [[natural numbers]]) with the [[discrete topology]]. Then the exponential $\mathbb{N}^\mathbb{N}$ is forced to have the product topology, by the following calculation: 
+Take $X = \mathbb{R}$ with its usual topology and $Y = \mathbb{N}$ (the set of [[natural numbers]]) with the [[discrete topology]]. Suppose that an exponential $\mathbb{R}^\mathbb{N}$ exists in the category of locally compact Hausdorff spaces. Then it must be a countable product of copies of $\mathbb{R}$ by the following calculation: 
 
-$$LCH(X \times \mathbb{N}, \mathbb{N}) \cong LCH(\sum_{\mathbb{N}} X, \mathbb{N}) \cong \prod_{\mathbb{N}} LCH(X, \mathbb{N})$$ 
+$$LCH(X \times \mathbb{N}, \mathbb{R}) \cong LCH(\sum_{\mathbb{N}} X, \mathbb{R}) \cong \prod_{\mathbb{N}} LCH(X, \mathbb{R})$$ 
 
-where the last functor in $X$, in order to be [[representable functor|representable]], would have to be represented by a product $\prod_{\mathbb{N}} \mathbb{N}$. However, there is no such product in the category of locally compact Hausdorff spaces. The topological product is in fact homeomorphic to [[Baire space of irrational numbers|Baire space]], and this is not locally compact.
+where the last functor in $X$, in order to be [[representable functor|representable]], would have to be represented by a product $\prod_{\mathbb{N}} \mathbb{R}$. Using the universal property of products, one may easily exhibit a scalar multiplication 
 
+$$\mathbb{R} \times \mathbb{R}^{\mathbb{N}} \to \mathbb{R}^{\mathbb{N}}$$ 
+
+rendering $\mathbb{R}^{\mathbb{N}}$ a [[topological vector space]] (a TVS) over the real numbers. But it is well-known that locally compact TVS are finite-dimensional, and we have reached an absurdity. 
+
+Similarly, the topological product $\mathbb{N}^{\mathbb{N}}$ is homeomorphic to [[Baire space of irrational numbers|Baire space]], and this is not locally compact either. 
 
 ## "Nice" versus "convenient" categories of spaces
 {#NvC}
