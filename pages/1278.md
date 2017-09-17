@@ -495,9 +495,10 @@ and many more...
 
 * [[James Simons]], [[Dennis Sullivan]], _The Mayer-Vietoris Property in Differential Cohomology_ ([arXiv:1010.3300](http://arxiv.org/abs/1010.3300))
 
-## talk notes ##
+## Lectures and talks ##
 
 * The talks by [[Dan Freed]], Schick, [[Ulrich Bunke]] and Schreiber at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]. Much of the above material is taken from Thomas Schick's lecture there.
 
+* Simons Center Workshop on Differential Cohomology January 10, 2011- January 14, 2011 ([web](http://www.scgp.stonybrook.edu/?q=node/21))
 
 
