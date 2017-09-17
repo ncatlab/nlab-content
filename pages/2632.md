@@ -333,10 +333,24 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 ## References
 
-A classic textbook is 
+Classical textbooks (on the [[Hilbert space]] description) include
+
+* [[John von Neumann]], _Mathematische Grundlagen der Quantenmechanik_.
+(German) Mathematical Foundations of Quantum Mechanics. Berlin,
+Germany: Springer Verlag, 1932.
+
+* [[George Mackey]], _The Mathematical Foundations of Quamtum Mechanics_ A
+Lecture-note Volume, ser. The mathematical physics monograph series.
+Princeton university, 1963
+
+* E. Prugovecki, _Quantum mechanics in Hilbert Space_. Academic Press,
+1971.
+
 
 * [[Paul Dirac]], _[[The Principles of Quantum Mechanics]]_, International series of monographs on physics, Oxford University Press, 1978
   {#Dirac78}
+
+
 
 A list of scripts and lecture notes is at
 
