@@ -21,25 +21,26 @@
 
 ## Idea
 
-The _derived category_ $D(\mathcal{A})$ of an [[abelian category]] is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[(∞,1)-category of chain complexes]] in $\mathcal{A}$: the [[localization]] of the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ at the [[quasi-isomorphisms]].
+The _derived category_ $D(\mathcal{A})$ of an [[abelian category]] $\mathcal{A}$ is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[(∞,1)-category of chain complexes]] in $\mathcal{A}$: the [[localization]] of the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ at the [[quasi-isomorphisms]].
 
 More in detail, associated to $\mathcal{A}$ is
 
-* the [[category of chain complexes]] $K(\mathcal{A}) = Ch_\bullet(\mathcal{A})$ in $\mathcal{A}$ which
-is naturally a [[homotopical category]];
+* the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ in $\mathcal{A}$ which is naturally a [[homotopical category]];
+
+* the "[[homotopy category of chain complexes]]" $K(\mathcal{A})$;
 
 * the [[stable ∞-category]] $K_\infty(\mathcal{A})$ of [[chain complexes]] in $C$.
 
 The  _derived category_ $D(C)$ of $C$ is equivalently
 
-* the [[homotopy category|1-categorical homotopy category]] of $K(\mathcal{A})$;
+* the [[homotopy category|1-categorical homotopy category]] of $Ch_\bullet(\mathcal{A})$ with respect to the [[quasi-isomorphisms]];
 
 * the [[homotopy category of an (infinity,1)-category|(∞,1)-categorical homotopy category]] of $K_\infty(\mathcal{A})$.
 
 In either case, this means that under the canonical [[localization]] functor
 
 $$
-  Q : K(\mathcal{A}) \to D(\mathcal{A})
+  Q : Ch_\bullet(\mathcal{A}) \to D(\mathcal{A})
 $$
 
 the [[quasi-isomorphisms]] of [[chain complexes]] become true [[isomorphisms]]
