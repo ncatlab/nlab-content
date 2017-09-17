@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Finite objects
 * autmatic table of contents goes here
 {:toc}
@@ -53,3 +63,5 @@ _Mike_: Okay (to the move).  To the question, I'm realizing more and more that I
 
 [[!redirects finite object]]
 [[!redirects finite objects]]
+
+[[!redirects finite]]
