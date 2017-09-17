@@ -240,7 +240,7 @@ $$
 
 =--
 
-This was conjectued in ([Batanin-Street](#BataninStreet)) and shown in terms of free $n$-categories on $n$-graphs in 
+This was conjectured in ([Batanin-Street](#BataninStreet)) and shown in terms of free $n$-categories on $n$-graphs in 
 ([Makkai-Zawadowsky, theorem 5.10](#MakkaiZawadowsky)) and ([Berger 02, prop. 2.2](#BergerCellular)). In terms of the wreath product presentation, prop. \ref{ByWreathProduct} this is ([Berger 05, theorem 3.7](#Berger)).
 
 +-- {: .num_prop}
@@ -295,7 +295,7 @@ where in turn
 +-- {: .num_example #Grids}
 ###### Example
 
-Composite with the functor $\delta_n$ from remark \ref{ProductOfDeltaInTheta} we obtain an embedding of $n$-fold simplices into strict $n$-categories
+Composing with the functor $\delta_n$ from remark \ref{ProductOfDeltaInTheta} we obtain an embedding of $n$-fold simplices into strict $n$-categories
 
 $$
   \Delta^{\times n} \stackrel{\delta_n}{\to}
@@ -363,7 +363,7 @@ The $\Theta$-categories were introduced in
 * [[Andre Joyal]], _Disks, duality and Theta-categories_ ([[JoyalThetaCategories.pdf:file]])
  {#Joyal}
 
-A discussion with lots off pictures is in [chapter 7](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=131) of
+A discussion with lots of pictures is in [chapter 7](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=131) of
 
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guidebook_ ([pdf](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
 
