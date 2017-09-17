@@ -16,6 +16,10 @@ Recall from the discussion at [[representable presheaf]] that the presheaf repre
 
 <img src="http://ncatlab.org/ericforgy/files/hxalpha3.jpg" width = "400"/>
 
+which sends each object $U$ to $Hom_C(U,X)$ and each morphism $\alpha:U'\to U$ to the function
+
+$$h_X\alpha: Hom_C(U,X)\to Hom_C(U',X).$$
+
 Moreover, for $f : X \to Y$ an [[morphism]] in $C$, this induces a [[natural transformation]] $h_f : h_X \to h_Y$, whose component on $U$ in $X$ is illustrated by
 
 <img src="http://ncatlab.org/ericforgy/files/hf.jpg" width = "400"/>
