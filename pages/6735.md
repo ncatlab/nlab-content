@@ -74,7 +74,7 @@ On the other hand, comparison with other structures suggests that possibly the t
 
 ## References
 
-* [[Jonathan Bagger]], [[Neil Lambert]], Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
+* [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
 
 * [[Jonathan Bagger]], [[Neil Lambert]], Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
 
