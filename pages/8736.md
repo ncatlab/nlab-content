@@ -11,7 +11,7 @@ A _sum_ is a result of an operation called _addition_ and denoted $+$ (binary), 
 
 * In the case of numbers or more generally any [[topological abelian group]] or [[topological vector space]] (and generalizations), we can consider sums of [[infinite series]], and more generally [[integrals]]. (There are however also noncommutative integrals when the order of summation/multiplication of noncommuting quantities is taken into account.)
 
-* In a [[category]] the term _sum_ may refer to the [[coproduct]] of two [[objects]]; in particular, the sum of two [[abstract sets]] is their [[disjoint union]].
+* In a [[category]] the term _sum_ may refer to the [[coproduct]] of two [[objects]]; in particular, the sum of two [[abstract sets]] is their [[disjoint union]].  The sum of objects in a [[preadditive category]] may refer to the [[biproduct]] or [[direct sum]].
 
 * In a [[poset]] this becomes the notion of [[join]]; in particular, the [[union]] of two [[concrete sets]] ([[material set theory|material sets]] or [[subsets]] of a fixed set $U$) was once often called their _sum_.
 
