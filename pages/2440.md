@@ -82,6 +82,10 @@ One of the original references (or the original reference?) is
 
 * [[Victor Kac]], _Lie superalgebras_. Advances in Math. 26 (1977), no. 1, 8--96.
 
+A review of the classification is in 
+
+* [[Victor Kac]], _Classification of supersymmetries_,  	Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
+
 Surveys:
 
 * Groeger, _Super Lie groups and super Lie algebras_, lecture notes 2011 ([pdf](http://www.mathematik.hu-berlin.de/~groegerj/teaching_files/lecture12.pdf))
