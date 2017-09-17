@@ -173,3 +173,5 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 * B. Guillou, _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
 
 Parts of the above material is taken from a blog discussion between [[Mike Shulman|Mike]] and [[Urs Schreiber|Urs]] [here](http://golem.ph.utexas.edu/category/2010/01/the_sacred_and_the_profane.html#c031280).
+
+* blog on [Localization techniques in Equivariant Cohomology](http://www.aimath.org/wiki/localization/index.php/Main_Page)
