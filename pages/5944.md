@@ -8,3 +8,6 @@ A scheme is quasi-separated if it is quasi-separated over $Spec\, \mathbb{Z}$.
 [[!redirects quasiseparated morphism]]
 [[!redirects quasiseparated scheme]]
 [[!redirects quasi-separated schemes]]
+
+[[!redirects quasi-separated map]]
+[[!redirects quasi-separated maps]]
