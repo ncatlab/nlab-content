@@ -18,6 +18,7 @@ A [[locally convex topological vector space]] is a **DF space** if it possesses 
 1. The [[strong dual]] of a [[Fréchet space|metrisable]] locally convex topological vector space is a DF space.
 2. Every [[normable space]] is a DF space.
 3. Every [[infrabarrelled space]] that has a [[fundamental system|fundamental sequence]] of [[subsets of lctvs|bounded sets]] is a DF space.
+4. In particular, every [[LB space]] is a DF space, since any bounded set in an LB space is contained in one of the factors.
 
 +-- {: mynumprop #MetDF}
 ###### Proposition
