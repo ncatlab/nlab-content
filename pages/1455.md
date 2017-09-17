@@ -31,3 +31,15 @@ An [[initial object]] in the category of algebras for $F$ is an [[initial algebr
 [[!redirects algebra of a functor]]
 [[!redirects algebra for a functor]]
 [[!redirects algebra over an endofunctor]]
+
+[[!redirects algebras of an endofunctor]]
+[[!redirects algebras of a functor]]
+[[!redirects algebras for a functor]]
+[[!redirects algebras for an endofunctor]]
+[[!redirects algebras over an endofunctor]]
+
+[[!redirects algebras of endofunctors]]
+[[!redirects algebras of functors]]
+[[!redirects algebras for functors]]
+[[!redirects algebras for endofunctors]]
+[[!redirects algebras over endofunctors]]
