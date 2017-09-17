@@ -1,8 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
-
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -51,3 +60,5 @@ Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) ab
 [[!redirects period table of the higher categories]]
 [[!redirects period table of higher categories]]
 [[!redirects period table of higher category theory]]
+
+[[!redirects periodic table of higher categories]]
