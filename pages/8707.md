@@ -70,6 +70,10 @@ By adding to [[homotopy type theory]] three (higher) modalities that encode [[di
 ## References
  {#References}
 
+The clear identification of modal operators on types with [[monads]] is due to 
+
+* [[Eugenio Moggi]], _Notions of computation and monads. Information and Computation_, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
+
 A survey of the field of modal type theory is in the collections
 
 * M. Fairtlough, M. Mendler, [[Eugenio Moggi]] (eds.), _Modalities in Type Theory_, Mathematical Structures in Computer Science, Vol. 11, No. 4, (2001)
@@ -177,4 +181,3 @@ A list of related references is also kept at
 
 [[!redirects higher modality]]
 [[!redirects higher modalities]]
-
