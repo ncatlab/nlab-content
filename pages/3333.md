@@ -1,5 +1,25 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Stabe homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+* [[loop space object]] / [[delooping]]
+
+* [[free loop space object]] / **derived loop space**
+
+***
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
