@@ -119,3 +119,8 @@ See also
 [[!redirects structured ring spectra]]
 
 [[!redirects symmetric monoidal smash product of spectra]]
+
+[[!redirects monoidal category of symmetric spectra]]
+[[!redirects category of symmetric spectra]]
+[[!redirects monoidal categories of symmetric spectra]]
+[[!redirects categories of symmetric spectra]]
