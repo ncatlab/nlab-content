@@ -19,7 +19,7 @@
 
 In the [[perturbation theory]] of a [[quantum field theory]] defined by an [[action functional]] $S : Conf \to \mathbb{R}$, a **vacuum** of the theory is a [[classical mechanics|classical]] solution: a configuration $\phi_0 \in Conf$ that solves the [[Euler-Lagrange equation]]s of $S$.
 
-Because in the perturbative quantum dynamics around $\phi_0$ [[quantum|quanta]] are small deviations from a classical solution. Hence the absense of any quanta, hence the "vacuum", is the solution $\phi_0$ itself.
+Because in the perturbative quantum dynamics around $\phi_0$ [[quantum|quanta]] are small deviations from a classical solution. Hence the absence of any quanta, hence the "vacuum", is the solution $\phi_0$ itself.
 
 (...) 
 
