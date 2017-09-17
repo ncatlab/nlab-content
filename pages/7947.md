@@ -5,7 +5,7 @@ The ([[higher geometric quantization|higher]]) [[geometric quantization]] of a [
 |--||--|--|--|--|--|
 | 1 | [[symplectic geometry]] | [[Lie algebra]] | [[Hamiltonian vector fields]] | [[real numbers]] | [[Hamiltonians]] under [[Poisson bracket]] | 
 | 1 | |  [[Lie group]] | [[Hamiltonian symplectomorphism group]] | [[circle group]] | [[quantomorphism group]] | 
-| 2 | [[2-plectic geometry]] | [[Lie 2-algebra]] | [[Hamiltonian 1-forms]] | [[line Lie n-algebra|line Lie 2-algebra]] | [[Poisson Lie 2-algebra]] | 
+| 2 | [[2-plectic geometry]] | [[Lie 2-algebra]] | [[Hamiltonian vector fields]] | [[line Lie n-algebra|line Lie 2-algebra]] | [[Poisson Lie 2-algebra]] | 
 | 2 | | [[Lie 2-group]] | [[Hamiltonian n-plectomorphism|Hamiltonian 2-plectomorphisms]] | [[circle n-group|circle 2-group]] | [[quantomorphism n-group|quantomorphism 2-group]] | 
-| $n$ | [[n-plectic geometry]] | [[Lie n-algebra]] | [[Hamiltonian n-form|Hamiltonian (n-1)-forms]] | [[line Lie n-algebra]] | [[Poisson Lie n-algebra]] | 
+| $n$ | [[n-plectic geometry]] | [[Lie n-algebra]] | [[Hamiltonian vector fields]] | [[line Lie n-algebra]] | [[Poisson Lie n-algebra]] | 
 | $n$ | | [[smooth ∞-group|smooth n-group]] | [[Hamiltonian n-plectomorphisms]] | [[circle n-group]] | [[quantomorphism n-group]] | 
