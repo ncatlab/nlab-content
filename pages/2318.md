@@ -105,6 +105,8 @@ Since [[gauge theory]] is not just about [[principal bundle]]s, but about princi
 
 * **fivebrane structure**, [[differential fivebrane structure]]
 
+[[!include higher spin structure - table]]
+
 ## References
 
 The notion was introduced in
