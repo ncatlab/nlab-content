@@ -3,6 +3,8 @@
 
 ## related $n$Lab entries
 
-* [[Bredon cohomology]]
+* [[Bredon cohomology]], [[equivariant cohomology]]
+
+* [[equivariant homotopy theory]]
 
 category: people
