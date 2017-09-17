@@ -37,6 +37,13 @@ These kinds of ideas Wheeler liked to describe by phrases such as _charge withou
 [[Eric]: Of the four "X without X"s above, the one that is not in Wheeler's "Classical Physics from Geometry" is "Spin without Spin". This is described in Section 3.4 of [Matter from Space](http://philsci-archive.pitt.edu/archive/00004950/01/MatterFromSpace.pdf). It would be great to expand on that here.
 =--
 
++-- {: .query}
+[[Bruce Bartlett]]: Another example of this phenomenon seems to be the fact that Maxwell's equations in _matter_ are the same as Maxwell's equations in _curved space_ without matter! This is the basis of cloaking technology, see [article by Leonhardt and Philbin](http://arxiv.org/abs/cond-mat/0607418). You can read this equivalence both ways. Either you can conclude that _there is no such thing as curved space_: it's just a piece of dielectric material causing the light rays to bend which gives the illusion of curved space. Or you can conclude even more radically that _there is no such thing as matter_: what we think of as a block of wood is just a radically curved region of space (Maxwell's equations can't tell the difference). Or you can just think of it as a formal equivalence :-)
+=--
+
+
+
+
 ## References
 
 * [Geometrodynamics (Wikipedia)](http://en.wikipedia.org/wiki/Geometrodynamics)
