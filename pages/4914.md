@@ -94,7 +94,7 @@ By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canon
 
 ## Related concepts
 
-* [[diagram]], [[internal presheaf]]
+* [[diagram]], [[internal presheaf]], [[internal sheaf]]
 
 ## References
 
