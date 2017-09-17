@@ -13,6 +13,17 @@
 =--
 =--
 
+* **$\infty$-Lie algebra cohomology**
+
+* [[Chevalley-Eilenberg algebra]]
+
+* [[Weil algebra]]
+
+* [[invariant polynomial]]
+
+
+***
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
