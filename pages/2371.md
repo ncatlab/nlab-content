@@ -1,16 +1,10 @@
 
 **[[higher algebra]]**
 
-# Ingredients
-
-* [[higher category theory]]
-
-* [[algebra]]
-
-* [[stable homotopy theory]]
+[[universal algebra]]
 
 
-# Algebraic theories
+## Algebraic theories
 
 * [[algebraic theory]] / [[2-algebraic theory]] / [[(∞,1)-algebraic theory]]
 
@@ -18,17 +12,28 @@
 
 * [[operad]] / [[(∞,1)-operad]]
 
-# Universal algebra
+## Algebras and modules
 
-* [[universal algebra]]
+* [[algebra over a monad]]
 
-* [[algebra over a Lawvere theory]] 
+  [[∞-algebra over an (∞,1)-monad]] 
 
-* [[algebra over a monad]] 
+* [[algebra over an algebraic theory]] 
 
-* [[algebra over an operad]]
+  [[∞-algebra over an (∞,1)-algebraic theory]]
 
-# Higher algebras
+  * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
+
+* [[algebra over an operad]] 
+
+   [[∞-algebra over an (∞,1)-operad]]
+
+   * [[model structure on algebras over an operad]]
+
+
+
+
+## Higher algebras
 
 * [[monoidal (∞,1)-category]]
 
@@ -46,34 +51,21 @@
 
   * [[ring spectrum]]
 
-* [[A-∞ ring]]
+* [[A-∞ algebra]] 
 
-* [[E-∞ ring]]
+  * [[A-∞ ring]]
 
-# Models for higher algebras
+* [[E-∞ algebra]] 
 
-* [[model structure on simplicial T-algebras]]
+  * [[E-∞ ring]]
 
-  * [[simplicial ring]]
+* [[L-∞ algebra]] 
 
-* [[dg-algebra]]
 
-* [[E-∞ algebra]]
-
-* [[A-∞ algebra]]
-
-* [[L-∞ algebra]]
-
-# Geometry on formal duals of algebras
+## Geometry on formal duals of algebras
 
 * [[Isbell duality]]
 
 * [[derived geometry]]
-
-  * [[structured (∞,1)-topos]]
-
-  * [[generalized scheme]]
-
-  * [[function algebras on ∞-stacks]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+algebra+-+contents)</div>
