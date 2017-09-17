@@ -23,19 +23,21 @@
 
 * [[function algebras on ∞-stacks]]
 
+  * [[Isbell duality]]
+
+  * [[geometric ∞-stacks]]
+
 ## Examples
 
 * [[derived algebraic geometry]]
 
-  * [[simplicial ring]]
+  * [[simplicial ring]], [[E-∞ ring]]
 
-  * [[E-∞ ring]]
+  * [[dg-geometry]]
 
 * [[derived noncommutative geometry]]
 
   * [[noncommutative geometry]]
-
-  * [[A-∞-category]]
 
 * derived smooth geometry 
 
@@ -43,6 +45,6 @@
 
   * [[derived smooth manifold]]
 
-  * [[smooth ∞-groupoid]]
+  * [[∞-Lie groupoid]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+geometry+-+contents)</div>
