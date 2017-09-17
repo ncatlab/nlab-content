@@ -127,6 +127,7 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 ## Lecture 7 _The homology of MU_ 
 
+* [[Quillen's theorem on MU]]
 
 ##  Lecture 8 _The Adams spectral sequence_ 
 
