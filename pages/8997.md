@@ -22,7 +22,7 @@
 
 ## Idea
 
-Universel polymorphism is the ability for [[definitions]] to be implicitly duplicated at different [[universe]] levels, with the [[types]] they contain.
+Universe polymorphism is the ability for [[definitions]] to be implicitly duplicated at different [[universe]] levels, with the [[types]] they contain.
 
 ## Examples and applications
 
