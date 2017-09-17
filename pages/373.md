@@ -83,17 +83,25 @@ A 2-category in which all 1-morphisms and 2-morphisms are invertible is a [[2-gr
 
   This happens to be a [[strict 2-category]].
 
-The following example is a direct generalization of that
-
-* For $V$ any enriching category (a [[cosmos]]), there is the bicategory [[Prof]] whose
+* More generally, for $V$ any enriching category (such as a Benabou [[cosmos]]), there is a 2-category $V Cat$ whose
 
   * objects are $V$-[[enriched categories]];
+  * morphsims ane $V$-enriched functors; and
+  * 2-morphisms are $V$-natural transformations.
 
-  * morphisms are $V$-[[profunctor]]s;
+* On the other hand, for any such $V$ we also have a bicategory $V$-[[Prof]] whose
 
+  * objects are $V$-[[enriched categories]];
+  * morphisms are $V$-[[profunctor]]s; and
   * 2-morphisms are natural transformations between these.
 
-* Every [[monoidal category]] $C$ may be thought of as a [[bicategory]] $\mathfb{B}C$ (its [[delooping]]). This has
+* If $C$ is a category with [[pullbacks]], then there is a bicategory $Span(C)$ whose
+
+  * objects are the objects of $C$;
+  * morphisms are [[spans]] in $C$; and
+  * 2-morphisms are morphisms of spans.
+
+* Every [[monoidal category]] $C$ may be thought of as a [[bicategory]] $\mathbf{B}C$ (its [[delooping]]). This has
 
   * a single object $\bullet$;
 
@@ -101,21 +109,19 @@ The following example is a direct generalization of that
 
   * 2-morphisms are the morphisms of $C$ : $(\mathbf{B}C)_2 = C_1$;
 
-  [[horizontal composition]] in $mathbf{B}C$ is the [[tensor product]] in $C$ and [[vertical composition]] in $\mathbf{B}C$ is composition in $C$.
+  [[horizontal composition]] in $\mathbf{B}C$ is the [[tensor product]] in $C$ and [[vertical composition]] in $\mathbf{B}C$ is composition in $C$.
 
-  Conversely, every 2-category with a single object comes from a monoidal category this way, so the concepts are effectively equivalent. (Precisey: the 2-categrory of  _pointed_ 2-categories with a single object is equivalent to that of monoidal categories). 
+  Conversely, every 2-category with a single object comes from a monoidal category this way, so the concepts are effectively equivalent. (Precisely: the 2-category of  _pointed_ 2-categories with a single object is equivalent to that of monoidal categories).  For more on this relation see [[delooping hypothesis]], [[k-tuply monoidal n-category]], and [[periodic table]].
 
-  For more on this relation see [[k-tuply monoidal n-category]] and [[periodic table]].
-
-* Every  [[2-groupoid]] is a 2-category. For instance
+* Every [[2-groupoid]] is a 2-category. For instance
 
   * for $A$ any [[abelian group]], the double [[delooping]] $\mathbf{B}^2 A$ is the strict 2-category with a single object, a single 1-morphisms, set of 2-moprhisms being $A$ and both horizontal composition as well as [[vertical composition]] being the product in $A$.
 
   * for $G$ any [[2-group]], its single [[delooping]] is a 2-groupoid with a single object.
 
- * the [[path 2-groupoid]] of a space.
+* Every [[topological space]] has a [[path 2-groupoid]].
 
-* Every [[(∞,2)-category]] gives rise to its **homotopy 2-category** obtained by dividing out all 3-morphisms and higher.
+* Every [[(∞,2)-category]] has a **homotopy 2-category**, obtained by dividing out all 3-morphisms and higher.
 
 ## Properties
 
@@ -162,8 +168,14 @@ Some 2-category theory, including [[2-limit]]s/2-colimit is discussed in
 
 * [[Steve Lack]], _A 2-categories companion_ ([arXiv:0702535](http://arxiv.org/abs/math/0702535))
 
-The [[canonical model structure]] on [[Bicat]] is described in
+An older reference which introduces some of the basic notions is
 
+* [[Max Kelly]] and [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, LNM 420
+
+The [[canonical model structures]] on [[2-Cat]] and [[Bicat]] are described in
+
+* [[Steve Lack]], _A Quillen Model Structure for 2-categories_ , 
+K-Theory Volume 26, Number 2, 171-205
 * [[Steve Lack]], _A Quillen Model Structure for Bicategories_ , 
 K-Theory Volume 33, Number 3, 185-197, DOI: 10.1007/s10977-004-6757-9
  
