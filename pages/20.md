@@ -8,7 +8,7 @@
 =--
 =--
 
-This research [wiki](http://en.wikipedia.org/wiki/Wiki) -- the [[HomePage|nLab]] -- accompanies the research [blog](http://en.wikipedia.org/wiki/Blog) [The <i>n</i>-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), hosted by [[John Baez]], [[David Corfield]], and [[Urs Schreiber]]. [[Jacques Distler]] administers the system. See [category: people](http://ncatlab.org/nlab/list/people) for other people here [baju anak branded](http://goo.gl/m9uNV).
+This research [wiki](http://en.wikipedia.org/wiki/Wiki) -- the [[HomePage|nLab]] -- accompanies the research [blog](http://en.wikipedia.org/wiki/Blog) [The <i>n</i>-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), hosted by [[John Baez]], [[David Corfield]], and [[Urs Schreiber]]. [[Jacques Distler]] administers the system. See [category: people](http://ncatlab.org/nlab/list/people) for other people here.
 
 * Useful general information about the [[HomePage|nLab]] is at [[About]];
 
