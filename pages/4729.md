@@ -31,6 +31,63 @@ See the <a href="http://nlab.mathforge.org/nlab/show/Chern-Weil+theory+in+Smooth
 
 ## Definition
 
+### For braided $\infty$-groups
+
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] equippd with [[differential cohesion]] and let $\mathbb{G} \in Grp(\mathbf{H})$ be a [[braided ∞-group]]. Write 
+
+$$
+  curv_{\mathbb{G}}
+  \;\colon\;
+  \theta_{\mathbf{B}\mathbb{G}}
+  \to 
+  \flat_{dR}\mathbf{B}^2 \mathbb{G}
+$$
+
+for the [[Mauerr-Cartan form]] on the [[delooping]] [[∞-group]] $\mathbf{B}\mathbb{G} \in Grp(\mathbf{H})$.
+
+Let 
+
+$$
+  \Omega(-,\mathbb{G})
+  \to
+  \flat_{dR}\mathbf{B}^2 \mathbb{G}
+$$
+
+be the morphism out of a [[0-truncated]] object which is universal with the property that for $\Sigma \in \mathbf{H}$ any [[manifold]], the induced [[internal hom]] map
+
+$$
+  [\Sigma, \Omega(-,\mathbb{G})]
+  \to
+  [\Sigma, \flat_{dR}\mathbf{B}^2 \mathbb{G}]
+$$
+
+is a [[1-epimorphism]].
+
+Then write $\mathbf{B}\mathbb{G}_{conn}$ for the [[(∞,1)-pullback]] in 
+
+$$
+  \array{
+    \mathbf{B}\mathbb{G}_{conn}
+    &\to&
+    \Omega(-,\mathbb{G})
+    \\
+    \downarrow
+    &&
+    \downarrow
+    \\
+    \mathbf{B}\mathbb{G}
+    &\stackrel{curv_{\mathbb{G}}}{\to}&
+    \flat_{dR}\mathbf{B}^2 \mathbb{G}
+  }
+  \,.
+$$
+
+We say that $\mathbf{B}\mathbb{G}_{conn}$ is the [[moduli ∞-stack]] of **$\mathbb{G}$-principal $\infty$-connections.
+
+For instance for $\mathbb{G} = \mathbf{B}^{n-1}U(1)$ the [[circle n-group]] the moduli $n$-stack $\mathbf{B}^n U(1)_{conn}$ is presented by the [[Deligne complex]] for [[ordinary differential cohomology]] in degree $(n+1)$, hence is the moduli $n$-stack for [[circle n-bundles with connection]].
+
+### For $\infty$-groups obtained by Lie interation
+
 We assume that the reader is familiar with the notation and constructions discussed at [[Smooth∞Grpd]]. The following definition may be understood as a direct generalization of the description of ordinary $G$-connections as cocycles in the stack $\mathbf{B}G_{conn}$ as discussed at [[connection on a bundle]].
 
 We discuss now connections on those $G$-[[principal ∞-bundle]]s for which $G \in $ [[Smooth∞Grpd]] is an [[∞-Lie group|smooth ∞-group]] that arises from [[Lie integration]] of an [[L-∞ algebra]] $\mathfrak{g}$.
@@ -599,11 +656,11 @@ The global description was then introduced in
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
 
-An attempt at a comprehensive account is in 
+A more comprehensive account is in sections 3.9.6, 3.9.7 of
+
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-in section 3.3.9.
 
 [[!redirects ∞-connection on a principal ∞-bundle]]
 [[!redirects ∞-connection on a principal ∞-bundle]]
@@ -621,3 +678,8 @@ in section 3.3.9.
 [[!redirects connection on a smooth principal ∞-bundle]]
 [[!redirects connections on smooth principal ∞-bundles]]
 [[!redirects connection on a principal infinity-bundle]]
+
+[[!redirects principal ∞-connection]]
+[[!redirects principal infinity-connection]]
+[[!redirects principal ∞-connections]]
+[[!redirects principal infinity-connections]]
