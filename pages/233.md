@@ -82,31 +82,209 @@ For instance for $sAlg_k$ the [[(∞,1)-category]] of [[simplicial ring|simplici
 $A$-modules.
 
 
-## Details 
+## Definition
+ {#Definitions}
 
-We spell out details of the definition of module for 
+We spell out the definition of _module_ for 
 
-* the classical case of modules over rings;
+* [modules over a monoid in a monoidal category](#ModuleOverMonoidObject)
 
-* the generalized case of modules as presheaves in enriched category theory;
+with the special classical cases of 
 
-* the generalized case of modules as objects in stabilized overcategories.
+* [modules over a ring](#Rings)
+
+and
+
+* [sets with G-action](#GSets)
+
+Then we give more general definitions
+
+* [modules as presheaves in enriched category theory](#InEnrichedCategory)
+
+* [modules as objects in stabilized overcategories](#DefWithOCat).
 
 
-### Ordinary concept
+### Modules over a monoid in  a monoidal category
+ {#ModuleOverMonoidObject}
 
-A (right) module over a [[monoid]] $A$ [[internalization|internal to]] a [[monoidal category]] $(V, \otimes, I)$ is an object $N$ of $V$ equipped with a morphism
+Let $(\mathcal{V}, \otimes, I)$ be a [[monoidal category]] and $A$ a [[monoid object]]
+in $\mathcal{V}$, hence an object $A \in \mathcal{V}$ equipped with a multiplication morphism
 
 $$
-  \rho : N \otimes A \to N
+  \cdot : A \otimes A \to A
+$$ 
+
+and a unit element
+
+$$
+  e : I \to A
 $$
 
-in $C$ which satisfies the usual axioms of an [[action]].  
+satisfying the [[associativity law]] and the [[unit law]].
+
++-- {: .num_defn #ModuleInMonoidalCategory}
+###### Definition
+
+A (right) **module** over $A$ in $(\mathcal{V}, \otimes, I)$ is
+
+* an [[object]] $N \in \mathcal{V}$ 
+
+* equipped with a morphism
+
+  $$
+    \rho : N \otimes A \to N
+  $$
+
+  in $\mathcal{V}$
+
+such that this satisfies the axioms of an [[action]], in that the following are [[commuting diagrams]] in $\mathcal{V}$:
+
+$$
+  \array{
+     A \otimes A \otimes N &\stackrel{}{\to}& A \otimes N
+     \\
+     \downarrow^{\mathrlap{\cdot \otimes id_n}} && \downarrow^{\mathrlap{\rho}}
+     \\
+     A \otimes N &\stackrel{\rho}{\to}& N
+  }
+$$
+
+and
+
+$$
+  \array{   
+     I \otimes N &&\stackrel{i \otimes id_N}{\to}&& A \otimes N
+     \\
+     & \searrow && \swarrow_{\mathrlap{\rho}}
+     \\
+     && N
+  }
+  \,.
+$$
+
+=--
 
 
-#### Example: Modules over rings {#Rings}
+#### Modules over a ring
+ {#Rings}
 
-The category of all modules over commutative rings is [[Mod]]. It is a [[bifibration]]
+A [[ring]] is (as discused there) equivalently a [[monoid object]] in the category
+[[Ab]] of [[abelian groups]] turned into a [[monoidal category]]
+by means of the [[tensor product of abelian groups]] $\otimes$.
+Accordingly a _module over $R$_ is a module in $(Ab,\otimes)$ 
+accordin to def. \ref{ModuleInMonoidalCategory}.
+
+We unwind what this means in terms of [[abelian groups]] 
+regarded as [[sets]] with extra [[structure]]:
+
++-- {: .num_defn }
+###### Definition
+
+A **module** $N$ over a ring $R$ is
+
+1. an [[object]] $N \in $ [[Ab]], hence an [[abelian group]];
+
+1. equipped with a [[morphism]]
+
+   $$
+     \alpha : R \otimes N \to N
+   $$ 
+
+   in [[Ab]]; hence a [[function]] of the underlying [[sets]] that sends elements
+
+   $$
+     (r,n) \mapsto  r n  \coloneqq \alpha(r,n)
+   $$
+
+   and which is a [[bilinear function]] in that it satisfies
+
+   $$
+    (r, n_1 + n_2) \mapsto r n_1 + r n_2
+   $$
+
+   and
+
+   $$
+    (r_1 + r_2, n) \mapsto r_1 n + r_2 n
+   $$
+
+   for all $r, r_1, r_2 \in R$ and $n,n_1, n_2 \in N$;
+
+1. such that the [[diagram]]
+
+   $$
+     \array{
+        R \otimes R \otimes N 
+        &\stackrel{\cdot_R \otimes Id_N}{\to}& R \otimes N
+        \\
+        {}^{\mathllap{Id_R \otimes \alpha}}\downarrow 
+        && 
+        \downarrow^{\mathrlap{alpha}}
+        \\
+        R \otimes N &\to& N 
+     }
+   $$
+
+   [[commuting diagram|commutes]] in [[Ab]],  which means that for all elements
+   as before we have
+
+   $$
+     (r_1 \cdot r_2) n = r_1 (r_2 n)
+      \,.
+   $$
+
+1. such that the diagram
+
+   $$
+     \array{
+        1 \otimes N &&\stackrel{1 \otimes id_N}{\to}&& R \otimes N
+        \\
+        & \searrow && \swarrow_{\mathrlab{\alpha}}
+        \\
+        && N
+     }
+   $$
+     
+   commutes, which means that on elements as above 
+
+   $$
+     1 \cdot n = n
+     \,.
+   $$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Equivalently, this can be expressed in [[enriched category theory]]:
+
+Write $\mathbf{B}R$ for the [[Ab-enriched category]] with a single object and [[hom-object]] $R = \mathbf{B}A(\bullet, \bullet)$.
+
+Then an $R$-module $N$ is equivalently an $Ab$-[[enriched functor]]
+$$   
+  N : \mathbf{B}R \to Ab 
+  \,.
+$$
+
+This makes manifest that the category $R$[[Mod]] is 
+an [[Ab-enriched category]], namely the
+[[Ab]]-[[enriched functor category]] 
+
+$$
+  R Mod \simeq [\mathbf{B}R,Ab]  
+  \,.
+$$
+
+This point of view is discussed further [below](#InEnrichedCategory).
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+
+The category of all modules over all commutative rings is [[Mod]]. It is a [[bifibration]]
 
 $$
   Mod \to CRing
@@ -114,68 +292,15 @@ $$
 
 over [[CRing]].
 
-A [[ring]] is a [[monoid]] in [[Ab]]. Hence a module over a ring is first of all an [[object]] $N$ in [[Ab]], hence an abelian group. Moreover, it is equipped with a [[morphism]]
+This fibration may be characterized intrinsically, which gives
+yet another way of defining $R$-modules. This we turn to 
+[below](#ModulesOverARingInTermsOfStabilizedSlices).
 
-$$
-  \alpha : R \otimes N \to N
-$$ 
-
-in [[Ab]]. On the left we have the [[tensor product]] of abelian groups. So this is a morphism that sends
-
-$$
-  (r,n ) \mapsto r n
-$$
-
-such that
-
-$$
-  (r, n_1 + n_2) \mapsto r n_1 + r n_2
-$$
-
-and
-
-$$
-  (r_1 + r_2, n) \mapsto r_1 n + r_2 n
-  \,.
-$$
-
-Moreover, this morphism respects the monoid structure on $R$, in that the diagram
-
-$$
-  \array{
-     R \otimes R \otimes N 
-     &\stackrel{\cdot_R \otimes Id_N}{\to}& R \otimes N
-     \\
-     {}^{\mathllap{Id_R \otimes \alpha}}\downarrow 
-     && 
-     \downarrow^{\mathrlap{alpha}}
-     \\
-     R \otimes N &\to& N 
-  }
-$$
-
-commutes. In formulas this means that 
-
-$$
-  (r_1 \cdot r_2) n = r_1 (r_2 n)
-  \,.
-$$
-
-Finally the unit axioms says that the identity element of $R$ acts as the identity on $N$.
-
-Saying the same fully in terms of [[enriched category theory]]:
-
-Write $\mathbf{B}R$ for the [[Ab-enriched category]] with a single object and $R = \mathbf{B}A(\bullet, \bullet)$.
-A module $N$ is an $Ab$-functor 
-$$   
-  N : \mathbf{B}R \to Ab 
-  \,.
-$$
-
-The category $R Mod$ has $R$-modules as objects and $R$-module homomorphisms as morphisms.  More abstractly, this is the [[Ab]]-[[enriched functor category]] $[\mathbf{B}R,Ab]$.
+=--
 
 
-#### Example: $G$-sets {#GSets}
+#### $G$-sets 
+ {#GSets}
 
 Classically the notion of module is always regarded internal to [[Ab]], so that a module is always an abelian group with extra structure. But noticing that such abelian ring modules are just enriched presheaves in [[Ab]]-[[enriched category theory]], it makes sense to consider enriched presheaves in general $V$-enriched category theory as a natural generalization of the notion of module.
 
@@ -194,7 +319,8 @@ $\mathbf{B}G$ is the [[small category]] that is the [[delooping]] [[groupoid]] o
 Of course for this story to work, $G$ need not be a group, but could be any [[monoid]].
  
 
-### In enriched category theory
+### Presheaves in enriched category theory
+ {#InEnrichedCategory}
 
 Equivalently, regarding the [[monoid]] $A$ as a one-object $V$-[[enriched category]] $\mathbf{B}A$, the module together with its action are given by a $V$-[[enriched functor]]
 
@@ -227,13 +353,21 @@ are _$K$-$L$-[[bimodule]]s_, also known as _profunctors_ or _[[distributor]]s_ f
 
 
 
-### In terms of stabilized overcategories {#DefWithOCat}
+### In terms of stabilized overcategories 
+ {#DefWithOCat}
+
+There is a general definition of modules in terms of 
+stabilized slice-categories of the category of monoids:
+[[tangent (infinity,1)-categories]]. 
+
+#### Modules over a ring
+ {#ModulesOverARingInTermsOfStabilizedSlices}
 
 The ordinary case of modules over rings is phrased 
 in terms of stabilized overcategories by the following
-observation, wich apparently goes back to Quillen.
+observation, wich apparently goes back to [[Daniel Quillen]].
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Let $R \in CRing$ be a commutative [[ring]]. Then there is a canonical [[equivalence of categories|equivalence]] between the [[category]] $R Mod$ of $R$-modules and the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] of $CRing$ over $R$
