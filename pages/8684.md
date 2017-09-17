@@ -17,7 +17,8 @@
 
 ## Definition
 
-A __filtered ring__ (resp. filtered [[associative algebra|algebra]]) is a [[filtered object]] in the [[category]] [[Ring]] of [[rings]] (resp. algebras). 
+A __filtered ring__ (resp. filtered [[associative algebra|algebra]]) is a [[monoid object]] in the [[category]] of filtered abelian groups
+(resp. [[filtered vector space]]s).
 
 One considers positive and negative filtrations, as well as $\mathbb{Z}$-filtrations. 
 
