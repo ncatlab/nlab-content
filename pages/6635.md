@@ -103,6 +103,8 @@ This is useful in the construction of [[reflective factorization systems]].
 
 * [[complete category]]
 
+* [[locally bounded category]]
+
 
 ## References
 
