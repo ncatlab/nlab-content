@@ -1,10 +1,22 @@
-A *bridge* in a [[knot diagram]] is an arc that is the overpass in at least one crossing.
 
-The *bridge number*, $b(K)$ of a knot $K$ is the minimum number of bridges occuring in a diagram of the knot.
+# Bridge number
+* table of contents
+{: toc}
 
-By convention the [[unknot]] has bridge number equal to 1.
+## Definitions
 
-## Example## 
+A __bridge__ in a [[knot diagram]] is an arc that is the overpass in at least one crossing.
+
+The __bridge number__, $b(K)$ of a [[knot]] $K$ is the minimum number of bridges occuring in a diagram of the knot.
+
+By convention the [[unknot]] has bridge number equal to $1$.
+
++-- {: .query}
+Why not $0$?  (I don\'t see any bridges in the obvious diagram.)  Are there numerical operations on bridge numbers that only work for the unknot if its bridge number is $1$?  Can we motivate the existence of a bridge in the unknot by proper application of [[negative thinking]]?
+=--
+
+
+## Example
 
 The usual picture of the trefoil knot, which we will write as $T_{2,3}$ has three bridges, but the trefoil knot actually has bridge number 2. 
 
@@ -19,3 +31,6 @@ A knot $K$ has $b(K) = 1$ if and only if $k$ is the unknot.
 
 To complete the proof one needs to show or know that the trefoil is a non-trivial knot. That is most simply done using some invariant such as 3-[[n-colorability|colorability]].
 
+
+[[!redirects bridge number]]
+[[!redirects bridge numbers]]
