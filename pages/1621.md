@@ -23,3 +23,4 @@ $$
 
 * The skyscraper sheaf $skysc_x(S)$ is the [[direct image]] of $S$ under the [[geometric morphism]] $x : Set \to Sh(X)$ which defines the [[point of a topos]] given by $x \in X$ (see there for more details on this perspective).
 
+category: sheaf theory
