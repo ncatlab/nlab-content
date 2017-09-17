@@ -44,7 +44,7 @@ $$
 
 Compare this to [[Bousfield localization of model categories]], noticing that most triangulated categories arise as [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[stable (infinity,1)-category|stable (∞,1)-categories]], hence of [[homotopy category|homotopy categories]] of the [[model category|model categories]] presenting these.  
 
-Also note, to a tensored, triangulated category, one may associate a [[Bousfield Lattice]] which has deep connections to the above topic.
+Also note, to a tensored, triangulated category, one may associate a [[Bousfield lattice]] which has deep connections to the above topic.
 
 
 ## References ##
