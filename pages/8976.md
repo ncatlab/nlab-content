@@ -17,7 +17,7 @@
 ## Idea
 
 
-If one considers a [[hyperdoctrine]] of subobject lattices, hence a collection of them parameterized over a [[category of contexts]] and equipped with [[pullback]]/[[substitution]]/[[context extension]], then a _universal closure operator_ or _[[modality]]_ is a [[closure operator]] acting on each of the slices and being compatible with the pullback operation.
+If one considers a [[hyperdoctrine]] of subobject lattices, hence a collection of them parameterized over a [[category of contexts]] and equipped with [[pullback]]/[[substitution]]/[[context extension]], then a _universal closure operator_ or _[[modality]]_ is a [[closure operator]] acting on each of the slices and being compatible with the pullback operation. A hyperdoctrine equipped with such an operator is sometimes called a _[[modal hyperdoctrine]]_.
 
 If there is moreover a [[subobject classifier]] $\Omega$ (hence if that hyperdoctrine is the collection of [[slice categories]] of a [[topos]]) then a universal closure operator is represented by a single [[monad]]/[[comonad]] on that subobject classifier, $\Diamond \colon \Omega \to \Omega$, see the discussion [below](DefinitionForReflectiveSubcategories).
 
