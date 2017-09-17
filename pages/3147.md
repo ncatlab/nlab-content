@@ -1,3 +1,5 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -40,7 +42,14 @@ To this date generalized [[differential cohomology]] theories keep being studied
 
     * [[curvature]]
 
-* [[fiber integration in ordinary differential cohomology]]
+* [[differential orientation]]
+
+  * [[differential Thom class]]
+
+* [[fiber integration in differential cohomology]]
+
+  * [[fiber integration in ordinary differential cohomology]]
+
 
 * [[gauge field]]
 
@@ -52,3 +61,5 @@ To this date generalized [[differential cohomology]] theories keep being studied
  
 
 category: reference
+
+[[!redirects Quadratic Functions in Geometry, Topology,and M-Theory]]
