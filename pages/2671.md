@@ -48,3 +48,13 @@ The additional [[fermion]]ic field $\Psi$ is the [[gravitino]] field.
 
 > for the moment see [[D'Auria-Fre formulation of supergravity]] for further details
 
+## Related concepts
+
+* [[first order formulation of gravity]]
+
+* [[supergravity]]
+
+* [[Plebanski formulation of gravity]], [[gravity as a BF-theory]]
+
+* [[Chern-Simons gravity]]
+
