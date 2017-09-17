@@ -197,11 +197,26 @@ Arguments for the $SO(5)$ [[R-symmetry]] group on the 6d theory from the 7d theo
 * A. J. Nurmagambetov, I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
 
 ### Applications
+ {#Appications}
+
+#### To gravity
 
 Discussion of [[event horizons]] of [[black holes]] in terms of AdS/CFT is in
 
 * Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
 
+#### To condensed matter physics
+ {#ToCondensedMatterPhysics}
+
+Applications of AdS-CFT duality to [[condensed matter physics]] are reviewed in 
+
+* A S T Pires, _Ads/CFT correspondence in condensed matter_ ([arXiv:1006.5838](http://arxiv.org/abs/1006.5838))
+
+* [[Subir Sachdev]], _Condensed matter and AdS/CFT_ ([arXiv:1002.2947](http://arxiv.org/abs/1002.2947))
+
+* Yuri V. Kovchegov, _AdS/CFT applications to relativistic heavy ion collisions: a brief review_ ([arXiv:1112.5403](http://arxiv.org/abs/1112.5403))
+
+* Alberto Salvio, _Superconductivity, Superfluidity and Holography_ ([arXiv:1301.0201](http://arxiv.org/abs/1301.0201))
 
 [[!redirects AdS/CFT]]
 [[!redirects AdS/CFT correspondence]]
