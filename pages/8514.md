@@ -21,7 +21,7 @@ The abc conjecture implies the [[Mordell conjecture]] ([Elkies](#Elkies)).
 
 ## References
 
-[[Shinichi Mochizuki]] recently anounced the proof which community perceives as a serius but unchecked claim. 
+[[Shinichi Mochizuki]] recently anounced the proof which the mathematical community perceives as a serious but unchecked claim. 
 
 * [[Barry Mazur]], _Questions about number_, [pdf](http://www.math.harvard.edu/~mazur/papers/scanQuest.pdf) scan
  {#Mazur}
