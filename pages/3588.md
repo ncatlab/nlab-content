@@ -10,6 +10,10 @@
 
 [[!include notions of type]]
 
+# Types
+
+[[!include types and logic - table]]
+
 # Models
 
 * [[display map]]
@@ -20,6 +24,9 @@
 
   * [[Mitchell-Benabou language]]
 
+  * [[Kripke-Joyal semantics]]
+
 * [[internal logic of an (∞,1)-topos]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/type+theory+-+contents)</div>
