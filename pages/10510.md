@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+Paramaterized ([[stable homotopy theory|stable]]) [[homotopy theory]] is ([[stable homotopy theory|stable]]) [[homotopy theory]] of [[bundles]] of [[homotopy types]]/[[stable homotopy types]] over a given base space.
+
+For formalizations see at
+
+* [[parameterized spectrum]]
+
+* [[(infinity,1)-module bundle]]
+
+* [[tangent (infinity,1)-topos]]
+
+[[!redirects parameterized stable homotopy theory]]
