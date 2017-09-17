@@ -56,7 +56,7 @@ $$
 
   Equivalently this is the restricted product for the inclusions $\iota_v \colon \mathcal{O}_v \hookrightarrow k_v$ of the [[ring of integers]] of $k_v$ into $k_v$.
 
-* Under the [[function field analogy]] the above example is a special case of the following more general example: for $\Sigma$ an [[arithmetic curve]] then the restricted product of all the algebras of functions on all its punctured [[formal disks]], with the restrictions being along the inclusions of the functions on the un-punctured formald disks, appears in the description of [[Cech cohomology|Cech cocycles]] with respect to [[covers]] of the curve by the complement of any finite points and the formal disks around these points (e.g [Frenkel 05, section 3.2](#Frenkel05)). This is discussed in detail at _[moduli stack of bundles -- over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_. 
+* Under the [[function field analogy]] the above example is a special case of the following more general example: for $\Sigma$ an [[arithmetic curve]] then the restricted product of all the algebras of functions on all its punctured [[formal disks]], with the restrictions being along the inclusions of the functions on the un-punctured formal disks, appears in the description of [[Cech cohomology|Cech cocycles]] with respect to [[covers]] of the curve by the complement of any finite points and the formal disks around these points (e.g [Frenkel 05, section 3.2](#Frenkel05)). This is discussed in detail at _[moduli stack of bundles -- over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_. 
 
 
 
