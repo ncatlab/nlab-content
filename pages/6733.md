@@ -36,6 +36,7 @@ The M5-brane admits two solitonic excitations ($p$-branes within branes)
 
 * $p = 3$: the [[3-brane in 6d]] (see there for more)
 
+
 ### Dimensional reduction
 
 On [[Kaluza-Klein mechanism|dimensional reduction]] of [[11-dimensional supergravity]] on a circle the M5-brane turns into the [[NS5-brane]] and the [[D-brane|D4-brane]] of [[type II string theory]].
@@ -222,7 +223,14 @@ as witnessing a [[twisted string structure]] on the 5-brane ([Sati](#Sati10)).
 
 This condition reduces to the above one for the $B$-field under [[double dimensional reduction]] on the circle.
 
+### M5-brane charge
+
+
+See at _[[M5-brane charge]]_
+
 ## Related concepts
+
+
 
 * [[string theory]]
 
@@ -365,4 +373,7 @@ A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 * [[Hisham Sati]], _Twisted topological structures related to M-branes II: Twisted $Wu$ and $Wu^c$ structures_ ([arXiv:1109.4461](http://arxiv.org/abs/1109.4461))
  {#Sati}
 
+[[!redirects M5-branes]]
+
+[[!redirects M5-brane]]
 [[!redirects M5-branes]]
