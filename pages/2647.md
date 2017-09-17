@@ -1,10 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A __tensor category__ is a [[category]] equipped with an operation similar to the [[tensor product]] in [[Ab]].
 
-We tend not to use this term, since it means different things to different people.  It may mean:
+The precise definition associated with the term "tensor category" varies somewhat in the literatur.
+
+It may mean:
 *  any [[monoidal category]],
 *  specifically a [[symmetric monoidal category]] (and then a __quasitensor category__ is a [[braided monoidal category]]),
 *  an [[additive category|additive]] (symmetric) monoidal category,
 *  an [[Ab-enriched category|Ab-enriched]] or [[Vect]]-enriched (symmetric) monoidal category.
+
+## References
+
+
+
+* [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], _Topics in Lie theory and Tensor categories -- 9 Tensor categories_, Lecture notes (spring 2009) ([pdf](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/MIT18_769S09_lec09.pdf) [web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/)) 
 
 
 [[!redirects quasitensor category]]
