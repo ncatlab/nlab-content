@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -71,7 +86,9 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 
 ## Related concepts
 
-* [[degree of a coherent sheaf]], [[slope of a coherent sheaf]], [[stable vector bundle]]
+* [[degree of a coherent sheaf]], [[rank of a coherent sheaf]] [[slope of a coherent sheaf]], 
+
+* [[stable coherent sheaf]]
 
 * [[quasicoherent sheaf]]
 * [[triangulated categories of sheaves]]
