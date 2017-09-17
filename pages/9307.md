@@ -31,3 +31,8 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 
 * [[Smooth∞Grpd]], [[SynthDiff∞Grpd]].
 
+
+## Related pages
+
+* [[higher differential geometry applied to plain differential geometry]]
+
