@@ -5,4 +5,4 @@ Then a __funcoid__ from $A$ to $B$ consists of [[functions]] $\alpha\colon \math
 
 $$\forall\mathcal{X}\in\mathfrak{F}(A),\mathcal{Y}\in\mathfrak{F}(B): \mathcal{Y}\sqcap\alpha \mathcal{X} \ne 0^{\mathfrak{F}(A)} \Leftrightarrow \mathcal{X}\sqcap\beta \mathcal{Y} \ne 0^{\mathfrak{F}(B)}.$$
 
-Funcoids have only been studied by [[Victor Porton]], who invented them as an approach to [[general topology]] and claims that this work should win him the Abel prize.
+Funcoids have been studied by [[Victor Porton]] as an approach to [[general topology]].
