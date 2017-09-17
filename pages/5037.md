@@ -4,10 +4,10 @@
 {:toc}
 
 ##Idea##
-Temporal logics, as their name suggests, are logics that involve time.  They form a very large and important class of modal logics, but here we will, to start with, only look at some simple cases. Temporal logics are very closely related to [[tense logics]].
+Temporal logics, as their name suggests, are logics that involve time.  They form a very large and important class of [[modal logics]], but here we will, to start with, only look at some simple cases. Temporal logics are very closely related to [[tense logics]].
 
 ##Basic temporal language, (BTL)##
-First the basic temporal language is built with two binary model operators, which instead of being denoted 'box' and 'diamond', are written $F$ and $P$.  The intended interpretation of thes are:
+First the basic temporal language is built with two binary model operators, which instead of being denoted 'box' and 'diamond', are written $F$ and $P$.  The intended interpretation of these are:
 
 * $F\phi$ is _$\phi$ will be true at some **future** time_;
 
