@@ -744,6 +744,7 @@ This appears as ([Lurie, corl 1.5.4](#Lurie)).
 
 
 ### Embedding into the ambient big $(\infty,1)$-topos
+ {#EmbeddingIntoTheAmbientBigTopos}
 
 
 +-- {: .num_defn}
