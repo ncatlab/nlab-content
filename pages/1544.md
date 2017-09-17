@@ -370,6 +370,8 @@ See [[connection on a principal ∞-bundle]].
 
   * [[nonabelian Stokes theorem]]
 
+[[!include higher Atiyah groupoid - table]]
+
 [[!include gauge field - table]]
 
 ## References
