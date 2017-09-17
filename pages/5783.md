@@ -120,15 +120,16 @@ on superpoints given by the assignment
 $$
   \exp(\mathfrak{g}) : (\mathbb{R}^{0|q}, [k]) 
     \mapsto
-   Hom_{dgAlg_k}(
+   Hom_{dgsAlg_k}(
      CE(\mathfrak{g}, \Omega^\bullet_{vert}(\mathbb{R}^{0|q} \times \Delta^k))
    )
   \,.
 $$
 
-Here on the right we have [[vertical differential form]]s with resppect to the projection of [[supermanifold]]s $\mathbb{R}^{0|q} \times \Delta^k \to \mathbb{R}^{0|q}$ and with sitting instants (see [[Lie integration]]).
+Here on the right we have [[vertical differential form]]s with respect to the projection of [[supermanifold]]s $\mathbb{R}^{0|q} \times \Delta^k \to \mathbb{R}^{0|q}$ and with sitting instants (see [[Lie integration]]).
 
 =--
+
 
 +-- {: .num_note}
 ###### Note
@@ -140,7 +141,7 @@ Over $\mathbb{R}^{0|q}$ the super Lie integration from def \ref{Exp} is the ordi
 $$
   \exp(\mathfrak{q})(\mathbb{R}^{0|q}) 
     = 
-  \exp( \mathfrak{g}\otimes_k \Lambda_q )
+  \exp( (\mathfrak{g}\otimes_k \Lambda_q)_{even} )
   \,.
 $$
 
@@ -153,27 +154,33 @@ This is the standard [[even rules]] mechanism: write $\Lambda^q$ for the [[Grass
 
 $$
   \begin{aligned}
-    Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet_{vert}(\mathbb{R}^{0|q} \times \Delta^n))
+    Hom_{dgsAlg}(CE(\mathfrak{g}), \Omega^\bullet_{vert}(\mathbb{R}^{0|q} \times \Delta^n))
     & \simeq
-    Hom_{dgAlg}(
+    Hom_{dgsAlg}(
      CE(\mathfrak{g}), 
-     C^\infty(\mathbb{R}^{0|q}) \otimes \Omega^\bullet_{vert}( \Delta^n)
+     C^\infty(\mathbb{R}^{0|q}) \otimes \Omega^\bullet( \Delta^n)
     )
     \\
     & \simeq 
-    Hom_{dgAlg}(
+    Hom_{dgsAlg}(
       CE(\mathfrak{g}), 
-      \Lambda_q \otimes \Omega^\bullet_{vert}( \Delta^n)
+      \Lambda_q \otimes \Omega^\bullet( \Delta^n)
     )    
     \\
     & \subset
-    Hom_{Ch^\bullet(SVect)}(\mathfrak{g}^* , \Lambda_q \otimes \Omega^\bullet_{vert}( \Delta^n))
+    Hom_{Ch^\bullet(sVect)}(\mathfrak{g}^*[1] , \Lambda_q \otimes \Omega^\bullet( \Delta^n))
     \\
     & \simeq
-    Hom_{Ch^\bullet(SVect)}(\mathfrak{g}^*\otimes \Lambda^q ,  \Omega^\bullet_{vert}( \Delta^n))
+    Hom_{Ch^\bullet(sVect)}(\mathfrak{g}^*[1]\otimes (\Lambda^q)^* ,  \Omega^\bullet( \Delta^n))
     \\
     & \simeq
-    Hom_{Ch^\bullet(SVect)}((\mathfrak{g} \otimes \Lambda_q)^* ,  \Omega^\bullet_{vert}( \Delta^n))
+    Hom_{Ch^\bullet(sVect)}((\mathfrak{g} \otimes \Lambda_q)^*[1] ,  \Omega^\bullet( \Delta^n))
+    \\
+    & \simeq
+    Hom_{Ch^\bullet(sVect)}((\mathfrak{g} \otimes \Lambda_q)^*[1]_{even} ,  \Omega^\bullet( \Delta^n))
+    \\
+    & \supset
+    Hom_{dgsAlg}( CE((\mathfrak{g}\otimes_k \Lambda_q)_{even}),  \Omega^\bullet( \Delta^n))
   \end{aligned}
   \,.
 $$
