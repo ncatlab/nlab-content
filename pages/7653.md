@@ -531,6 +531,7 @@ $$
   \,.
 $$
 
+
 #### Differential refinement: Spin connection
  {#SpinConnection}
 
@@ -619,7 +620,7 @@ $$
 and the vielbeing $E$ now exhibits on each chart $U_i$ the familiar relation between the components of the spin connection and the Christoffel-symbols:
 
 $$
-  \omegai{}^a{}_b 
+  \omega{}^a{}_b 
    = 
    E_i^a{}_\nu d_{dR} E_i^\nu{}_b
    +
@@ -627,6 +628,44 @@ $$
    \,.
 $$
 
+#### Pullback of orthogonal structures
+ {#PullbackOfOrthogonalStructures}
+
+It is a familiar fact that many fields in physics "naturally pull back". For instance a [[scalar field]] on a [[spacetime]] $X$ is a [[function]] $\phi : X \to \mathbb{C}$, and for $f : Y \to X$ any [[smooth function]] between spactimes, there is the corresponding pullback function/field $f^* \phi : Y \to \mathbb{C}$.
+
+Similarly for $\phi : X \to \mathbf{B}G_{conn}$ a gauge field, as discussed above, it has naturally a pullback along $f$ given simply by forming the composite $f^* \phi : Y \stackrel{f}{\to} X \stackrel{\phi}{\to} \mathbf{B}G_{conn}$.
+
+But the situation is a little different for _twisted_ fields such as orthogonal structures/Riemannian metrics. If we think of a Riemannian metric as given by a non-degenerate rank-2 [[tensor]] on $X$, then the problem is that, while its pullback along $f$ will always be a rank-2 tensor, it is not in general non-degenerate anymore -- unless $f$ is a [[local diffeomorphism]].
+
+This is also nicely formulated in the language used above, in a way that has a useful generalization when we come to higher twisted structures below: since the metric is encoded not just in a plain morphism $h : X \to \mathbf{B}O$, but one that fits into a triangle
+
+$$
+  \array{
+     X && \stackrel{h}{\to} && \mathbf{B} O
+     \\
+     & {}_{\mathllap{T X}}\searrow & \swArrow_{E}& \swarrow_{\mathrlap{orth}}
+     \\
+     && \mathbf{B} GL
+  }
+$$ 
+
+a simple precomposition with just a morphism $f : Y \to X$ is not the right operation to send this triangle based on $X$ to one based on $Y$. 
+
+But since this triangle is a morphism $(h,E) : T X \to \mathbf{orth}$ in the [[slice topos]] $\mathbf{H}_{/\mathbf{B}GL}$, it is clear that it _does_ pull back precisely along refinements of $f : Y \to X$ to a morphism in $\mathbf{H}_{/\mathbf{B}GL}$.
+
+Such a refinement is a commuting triangle of the form
+
+$$
+  \array{
+    Y &&\stackrel{f}{\to}&& X
+    \\
+    & {}_{\mathllap{T Y}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{T X}}
+    \\
+    && \mathbf{B} GL
+  }
+$$
+
+in $\mathbf{H}$. But this is evidently the same as an isomorphism $T Y \simeq f^* T X$ between the tangent bundle of $Y$ and the pullback of the tangent bundle on $X$. And this exhibits $f$ as a [[local diffeomorphism]]. 
 
 #### Generalized vielbein fields: type II geometry, generalized CY and U-duality
 
@@ -2842,6 +2881,14 @@ $$
 (see [here](http://www.ncatlab.org/nlab/show/locally%20cartesian%20closed%20category#RelationCartesianClosureBaseChangeInTypeTheory)).
 
 While on the right this expresses the collection of sections of the pullback bundle, the left hand side expresses explicitly a $\mathbf{B}G$-parameterized collection of cocycles $X(b) \to E(b)$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Cocycles in twisted cohomology relative to a coefficient bundle
+$\mathbf{c} : E \to \mathbf{B}G$ do not pull back along morphisms in $\mathbf{H}$ (unless $G$ is trivial), but do pull back along morphisms in $\mathbf{H}$ that are lifted to morphisms in the slice $\mathbf{H}_{/ \mathbf{B}G}$.
 
 =--
 
