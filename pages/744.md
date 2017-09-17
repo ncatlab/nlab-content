@@ -94,7 +94,7 @@ You can use HTML/XML/SGML [character entity references](http://www.w3schools.com
 
 Did you read the _Naming Conventions_ section on the [[HowTo]]?
 
-### Where do I ask a question?
+### Where do I ask a question? {#AskAQuestion}
 
 How many times have you wanted to ask it?  If more than three times, put it here (*joke*!).
 
