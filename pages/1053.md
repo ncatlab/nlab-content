@@ -99,7 +99,7 @@ Here we define the set of propositions:
 *  For each proposition $A$ and proposition $B$, there are four additional propositions:
    *  $A \& B$ (read 'with'), the __additive [[conjunction]]__ of $A$ and $B$;
    *  $A \oplus B$ (read 'plus'), the __additive [[disjunction]]__ of $A$ and $B$;
-   *  $A \otimes B$ (read 'times'), the __multiplicative conjunction__ of $A$ and $B$;
+   *  $A \otimes B$ (read 'times'), the __[[multiplicative conjunction]]__ of $A$ and $B$;
    *  $A \parr B$ (read 'par' and sometimes written $A \mid B$), the __multiplicative disjunction__ of $A$ and $B$.
 *  There are also four constants to go with the four binary operations above:
    *  $\top$ (read 'top'), the __additive [[truth]]__;
@@ -107,7 +107,7 @@ Here we define the set of propositions:
    *  $\mathbf{1}$ (read 'one'), the __multiplicative truth__;
    *  $\bot$ (read 'bottom'), the __multiplicative falsity__.
 *  For each proposition $A$, there are two additional propositions:
-   *  $!{A}$ (read '[[of course]]'), the __exponential conjunction__ of $A$;
+   *  $!{A}$ (read '[[of course]]'), the __[[exponential conjunction]]__ of $A$;
    *  $?{A}$ (read 'why not'), the __exponential disjunction__ of $A$.
 
 The terms "exponential", "multiplicative", and "additive" come from the fact that "exponentiation converts addition to multiplication": we have $!{(A \& B)}\equiv !{A} \otimes !{B}$ and so on (see below).
