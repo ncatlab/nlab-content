@@ -97,3 +97,7 @@ In the category of [[Banach spaces]] (with [[short linear maps]]), the direct su
 
 [[!redirects weak direct product]]
 [[!redirects weak direct products]]
+
+[[!redirects direct summand]]
+[[!redirects direct summands]]
+
