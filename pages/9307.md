@@ -21,7 +21,7 @@
 
 ## Idea
 
-_Higher differential geometry_ is the incarnation of [[differential geometry]] in [[higher geometry]]. If the ambient (∞,1)-topos]] is not [[n-localic (∞,1)-topos|1-localic]] then one also speaks of [[derived differential geometry]].
+_Higher differential geometry_ is the incarnation of [[differential geometry]] in [[higher geometry]]. If the ambient [[(∞,1)-topos]] is not [[n-localic (∞,1)-topos|1-localic]] then one also speaks of [[derived differential geometry]].
 
 See at _[[motivation for higher differential geometry]]_ for motivation.
 
@@ -33,11 +33,19 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 
 * [[Smooth∞Grpd]], [[SynthDiff∞Grpd]].
 
+* [[Lie 2-groupoid]]
+
+* [[double Lie algebroid]], [[Lie algebroid-groupoid]], [[double Lie groupoid]]
+
+
 ## Related concepts
 
 * [[higher Lie theory]]
 
 * [[higher prequantum geometry]]
+
+
+
 
 
 
