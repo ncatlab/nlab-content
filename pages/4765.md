@@ -1,11 +1,18 @@
+
+# Homotopy algebras
+* table of contents
+{: toc}
+
 ## Idea 
 
-For various classical types of algebras, like associative, Lie, Leibniz, commutative and so on, one can form version where the required identities hold up to homotopy. The most important modification is that the required identities hold up to coherent homotopy; such were traditionally called strong homotopy algebras. If $P$ is an operad in some homotopical context than to obtain homotopy generalization of $P$-algebras, one needs to resolve the operad $P$ to an appropropriate replacement $P_\infty$ which is minimal or cofibrant in certain sense. 
+For each of various classical types of [[algebras]], like [[associative algebra|associative]], [[Lie algebra|Lie]], [[Liebniz algebra|Leibniz]], [[commutative algebra|commutative]] and so on, one can form a version where the required identities hold only up to [[homotopy]]. The most important modification is that the required identities hold up to *coherent* homotopy; such were traditionally called _strong homotopy algebras_. If $P$ is an [[operad]] in some homotopical context then to obtain the homotopy generalization of $P$-[[algebra of an operad|algebras]], one needs to [[resolution|resolve]] the operad $P$ to an appropropriate replacement $P_\infty$ which is minimal or cofibrant in certain sense. 
+
 
 ## Terminology in the case of dg-operads
 
-The classical case is in the setup of dg-operad. 
-Thus one had __strong homotopy associative__ algebras which are the same as $A_\infty$-algebras, __strong homotopy commutative__ (associative) algebras which also called $C_\infty$-algebras, __strong homotopy bialgebras__ or $B_\infty$-algebras, __strong homotopy Gerstenhaber__ or $G_\infty$-algebras and __strong homotopy Lie algebras__ or $L_\infty$-algebras and (strong) [[homotopy BV-algebra]]s or $BV_\infty$-algebras. 
+The classical case is in the setup of a [[dg-operad]]. 
+Thus one had __strong homotopy associative__ algebras which are the same as $A_\infty$-[[A-infinity-algebra|algebras]], __strong homotopy commutative__ (associative) algebras which also called $C_\infty$-[[C-infinity-algebra|algebras]], __strong homotopy bialgebras__ or $B_\infty$-[[B-infinity algebra|algebras]], __strong homotopy Gerstenhaber__ or $G_\infty$-[[G-infinity-algebra|algebras]] and __strong homotopy Lie algebras__ or $L_\infty$-[[L-infinity-algebra|algebras]] and (strong) [[homotopy BV-algebra]]s or $BV_\infty$-[[BV-infinity-algebra|algebras]]. 
+
 
 ## References
 
@@ -15,6 +22,8 @@ Thus one had __strong homotopy associative__ algebras which are the same as $A_\
 
 * [[Tom Leinster]], _Homotopy algebras for operads_, [math.QA/0002180](http://arxiv.org/abs/math.QA/0002180), 101 pages, 2000
 
+
+[[!redirects homotopy algebra]]
+[[!redirects homotopy algebras]]
 [[!redirects strong homotopy algebra]]
 [[!redirects strong homotopy algebras]]
-[[!redirects homotopy algebras]]
