@@ -29,37 +29,63 @@
 
 One of the most important observations of [[category theory]] is that large parts of mathematics can be [[internalization|internalized]] in any [[category]] with sufficient structure.  The most basic examples of this involve algebraic structures; for instance, a [[group]] can be defined in any category with finite products, and an [[internal category]] can be defined in any ambient category with [[pullback]]s. For such [[algebraic theory|algebraic]] (or even [[essentially algebraic theory|essentially algebraic]]) structures, which are defined by _operations_ with _equational axioms_ imposed, it suffices for the ambient category to have (usually finite) limits.
 
-However, it turns out that if we assume some additional structure on the ambient category, then much more of mathematics can be internalized, potentially including [[field]]s, [[local ring]]s, [[finite set]]s, [[topological space]]s, even the field of [[real number]]s.  The idea is to exploit the fact that all mathematics can be written in the language of logic, and seek a way to internalize logic in a category with sufficient structure.
+However, it turns out that if we assume some additional structure on the ambient category, then much more of mathematics can be internalized, potentially including [[field]]s, [[local ring]]s, [[finite set]]s, [[topological space]]s, even the field of [[real number]]s.  The idea is to exploit the fact that all mathematics can be written in the language of [[logic]], and seek a way to internalize logic in a category with sufficient structure.
 
-(There are other sorts of internalization that do not fit in this general framework.  For example, a [[monoid]] internal to a [[monoidal category]] is not an example of the sort of internalization discussed here; the framework we consider here can only deal with monoids in [[cartesian monoidal category|cartesian monoidal categories]], or at least cartesian [[multicategory|multicategories]].   However, [[linear logic]] holds out the hope of some reconciliation between the two.  See [[internalization]] for a discussion of the more  general notion in the context of [[doctrine]]s.)
+The basic ideas of the internal logic induced by a given a [[category]] $C$ is this:
+
+* the [[object]]s $A$ of $C$ are regarded as collections of things of a given [[type]] $A$;
+
+* a [[subobject]] $\phi \hookrightarrow A$ is regarded as a _proposition_ ([[predicate]]): by thinking of it as the sub-collection of all those things of type $A$ for which the statement $\phi$ is [[true]].
+
+  * the maximal subobject is hence the proposition that is always true, this is the logical object of [[truth]] $\top \hookrightarrow A$;
+
+  * the minimal subobject is hence the proposition that is always false, this is the logical object of [[falsity]] $\bottom \hookrightarrow A$;
+
+  * one proposition [[implication|implies]] another if as subobjects of $A$ they are connected by a morphism in the [[poset]] of subobjects: $\phi \Rightarrow \psi$ means $\phi \hookrightarrow \psi$
+
+* Logical operations are implemented by [[universal construction]]s on [[subobject]]s:
+  
+  * the conjunction [[and]] is the [[product]] of subobject (their [[meet]]);
+
+  * the conjunction [[or]] is the [[coproduct]] of subobjects (their [[join]]);
+
+  and so on.
+
+(There are other sorts of [[internalization]] that do not fit in this general framework.  For example, a [[monoid]] internal to a [[monoidal category]] is not an example of the sort of internalization discussed here; the framework we consider here can only deal with monoids in [[cartesian monoidal category|cartesian monoidal categories]], or at least cartesian [[multicategory|multicategories]].   However, [[linear logic]] holds out the hope of some reconciliation between the two.  See [[internalization]] for a discussion of the more  general notion in the context of [[doctrine]]s.)
 
 
 ## Internal first-order logic 
 
-It turns out that there is a hierarchy of types of logical theories, each of which corresponds to a type of category in which such theories can be internalized.
+### Kinds of internal logics in different categories
+
+There is a hierarchy of types of logical theories, each of which corresponds to a type of category in which such theories can be internalized.
 
 |Theory| |Category|
 |------|-|--------|
-|finite limit (aka "left exact" or "cartesian")| |[[finitely complete category]]|
+|[[cartesian logic|finite limit]] (aka "left exact" or "cartesian")| |[[finitely complete category]]|
 |[[regular logic|regular]]| |[[regular category]]|
-|coherent| |[[coherent category]]|
-|disjunctive| |[[extensive category|lextensive category]] (aka finitary disjunctive category)|
-|geometric| |[[coherent category|infinitary coherent category]] (aka geometric category)|
-|first-order| |[[Heyting category]]|
-|dependent types| |[[locally cartesian closed category]]|
-|higher order| |[[topos|elementary topos]]|
+|[[coherent logic|coherent]]| |[[coherent category]]|
+|[[disjunctive logic|disjunctive]]| |[[extensive category|lextensive category]] (aka finitary disjunctive category)|
+|[[geometric logic|geometric]]| |[[coherent category|infinitary coherent category]] (aka [[geometric category]])|
+|[[first-order logic|first-order]]| |[[Heyting category]]|
+|[[dependent types]]| |[[locally cartesian closed category]]|
+|[[higher order logic|higher order]]| |[[topos|elementary topos]]|
 
-Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]], which we do not discuss here.  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having all finite limits, such as finite product sketches or finite sum sketches, but the logical approach taken here seems to require at least finite limits.
+Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having all finite limits, such as finite product sketches or finite sum sketches, but the logical approach taken here seems to require at least finite limits.
+
+### Theories
 
 For purposes of this page, what we mean by a _theory_ is a _[[type theory]]_.  This entails the following.
 
-* The theory may have many different _types_ $A,B,C$.  For example, the theory of a group has only one type (group elements), but the theory of a-ring-and-a-module has two types (ring elements and module elements).  There are also generally _type constructors_ that build new types from basic ones, such as product types $A\times B$ and the unit type $1$.
+* The [[signature (in logic)|signature]] of the theory consists of
 
-* The theory will also generally contain _function symbols_ such as $f:A\to B$, each with a source and target that are types.  For example, the theory of a monoid has one type $M$, one function symbol $m:M\times M\to M$, and one function symbol $e:1\to M$.  Function symbols of source $1$ are also called _constants_.
+  * Various _[[types]]_ $A,B,C$.  For example, the theory of a group has only one type (group elements), but the theory of a-ring-and-a-module has two types (ring elements and module elements).  There are also generally _type constructors_ that build new types from basic ones, such as product types $A\times B$ and the unit type $1$.
 
-* The theory may also contain _relation symbols_ $R:A$, each equipped with a type.  For example, the theory of a [[partial order|poset]] has one type $P$ and one relation $\le:P\times P$.  The most basic relation symbol, which most theories contain, is _[[equality]]_ $=_A:A\times A$ on a type $A$.
+  * The theory will also generally contain _[[function symbol]]s_ such as $f:A\to B$, each with a source and target that are types.  For example, the theory of a monoid has one type $M$, one function symbol $m:M\times M\to M$, and one function symbol $e:1\to M$.  Function symbols of source $1$ are also called _constants_.
 
-* Finally the theory may contain _logical axioms_ of the form $\Gamma | \varphi  \vdash \psi$.  Here $\varphi$ and $\psi$ are first-order formulas built up from terms and relation symbols using logical connectives and quantifiers such as $\top,\bot,\wedge,\vee,\Rightarrow,\neg,\forall,\exists$, and $\Gamma$ is a _[[context]]_ which declares the type of every variable occurring in $\varphi$ and $\psi$.
+  * The theory may also contain _[[relation symbol]]s_ $R:A$, each equipped with a type.  For example, the theory of a [[partial order|poset]] has one type $P$ and one relation $\le:P\times P$.  The most basic relation symbol, which most theories contain, is _[[equality]]_ $=_A:A\times A$ on a type $A$.
+
+* Finally the theory may contain _logical [[axiom]]s_ of the form $\Gamma | \varphi  \vdash \psi$.  Here $\varphi$ and $\psi$ are first-order formulas built up from terms and relation symbols using logical connectives and quantifiers such as $\top,\bot,\wedge,\vee,\Rightarrow,\neg,\forall,\exists$, and $\Gamma$ is a _[[context]]_ which declares the type of every variable occurring in $\varphi$ and $\psi$.
 
 For example, the theory of a group has one type $G$, three function symbols $m:G\times G\to G$, $i:G\to G$, and $e:1\to G$, and axioms
 $$\array{
@@ -67,30 +93,35 @@ $$\array{
   x:G | \top \vdash m(x,i(x)) = e \;\wedge\; m(i(x),x) = e\\
   x:G | \top \vdash m(x,e) = x \;\wedge\; m(e,x) = x.
 }$$
-This is an _equational theory_, meaning that each axiom is just one or more equations between terms that must hold in a given context.  For a different sort of example, the theory of a poset has one type $P$, one relation $\le:P\times P$, and axioms
+This is an _[[equational theory]]_, meaning that each axiom is just one or more equations between terms that must hold in a given context.  For a different sort of example, the theory of a poset has one type $P$, one relation $\le:P\times P$, and axioms
 $$\array{
   x:P | \top \vdash x\le x\\
   x:P,y:P | x\le y \;\wedge\; y\le x \vdash x=y\\
   x:P,y:P,z:P | x\le y \;\wedge\; y\le z \vdash x\le z.
 }$$
 
-Now suppose that we have a category $C$ with finite limits and we want to interpret such a theory internally in $C$.  First, for each _type_ in the theory we choose an [[object]] of $C$.  Then for each _function symbol_ in the theory we choose a [[morphism]] in $C$.  And finally, for each _relation_ in the theory we choose a [[subobject]] in $C$. (We always interpret the relation of _equality_ on a type $A$ by the diagonal $A\hookrightarrow A\times A$ in $C$.)  Thus, for example, to interpret the theory of a group in $C$ we must choose an object $G$ and morphisms $m:G\times G\to G$, $i:G\to G$, and $e:1\to G$, while to interpret the theory of a poset, we must choose an object $P$ and a subobject $[\le] \hookrightarrow P\times P$.
+
+### Categorical semantics
+
+Now suppose that we have a category $C$ with [[finite limit]]s and we want to interpret such a theory internally in $C$. We identify the aspects of the theory with structures in the category by what is called [[categorical semantics]]: 
+
+First, for each _type_ in the theory we choose an [[object]] of $C$.  Then for each _function symbol_ in the theory we choose a [[morphism]] in $C$.  And finally, for each _relation_ in the theory we choose a [[subobject]] in $C$. (We always interpret the relation of _equality_ on a type $A$ by the diagonal $A\hookrightarrow A\times A$ in $C$.)  Thus, for example, to interpret the theory of a group in $C$ we must choose an object $G$ and morphisms $m:G\times G\to G$, $i:G\to G$, and $e:1\to G$, while to interpret the theory of a poset, we must choose an object $P$ and a subobject $[\le] \hookrightarrow P\times P$.
 
 Of course, this is not enough; we need to say somehow that _the axioms are satisfied_.  We first define, inductively, an interpretation of every _term_ that can be constructed from the theory by a morphism in $C$.  For example, given an object $G$ and a morphism $m:G\times G\to G$, there are two evident morphisms $G\times G\times G \to G$ which are the interpretations of the two terms $m(m(x,y),z)$ and $m(x,m(y,z))$.
 
-We then define, inductively, an interpretation of every _logical formula_ that can be constructed from the theory by a _subobject_ in $C$.  The idea is that if $x:A$ is a variable of type $A$ and $\varphi(x)$ is a formula with $x$ as its free variable, then the interpretation of $\varphi(x)$ should be the "subset" $\{x\in A | \varphi(x)\}$ of $A$.  The base case of this induction is that if $t$ is a term interpreted by a morphism $A\to B$ and $R:B$ is a relation symbol, then $R(t)$ is interpreted by the pullback of the chosen subobject $R\hookrightarrow B$ representing $R$ along the morphism $t:A\to B$.  The building blocks of logical formulas then correspond to operations on the posets $Sub(A)$ of subobjects in $C$, as follows.
+We then define, inductively, an interpretation of every _[[logical formula]]_ that can be constructed from the theory by a _subobject_ in $C$.  The idea is that if $x:A$ is a variable of type $A$ and $\varphi(x)$ is a formula with $x$ as its free variable, then the interpretation of $\varphi(x)$ should be the "subset" $\{x\in A | \varphi(x)\}$ of $A$.  The base case of this induction is that if $t$ is a term interpreted by a morphism $A\to B$ and $R:B$ is a relation symbol, then $R(t)$ is interpreted by the pullback of the chosen subobject $R\hookrightarrow B$ representing $R$ along the morphism $t:A\to B$.  The building blocks of logical formulas then correspond to operations on the posets $Sub(A)$ of subobjects in $C$, as follows.
 
 |Logical operator| |Operation on $Sub(A)$|
 |----------------|-|---------------------|
 |[[logical conjunction|conjunction]]: $\wedge$| |[[intersection]] (pullback)|
-|truth: $\top$| |top element ($A$ itself)|
+|[[truth]]: $\top$| |[[top element]] ($A$ itself)|
 |[[disjunction]]: $\vee$| |[[union]]|
-|falsity: $\bot$| |bottom element ([[initial object|strict initial object]])|
+|[[falsity]]: $\bot$| |[[bottom element]] ([[initial object|strict initial object]])|
 |[[implication]]: $\Rightarrow$| |[[Heyting algebra|Heyting implication]]|
-|[[existential quantification]]: $\exists$| |[[left adjoint]] to pullback|
-|[[universal quantification]]: $\forall$| |[[right adjoint]] to pullback|
+|[[existential quantification]]: $\exists$| |[[left adjoint]] to [[pullback]]|
+|[[universal quantification]]: $\forall$| |[[right adjoint]] to [[pullback]]|
 
-The fact that existential and universal quantifiers can be interpreted as left and right adjoints to pullbacks was first realized by Lawvere.  One way to realize that it makes sense is to notice that in [[Set]], the image of a subset $R\subset A$ under a function $f:A\to B$ can be defined as
+The fact that existential and universal quantifiers can be interpreted as left and right adjoints to pullbacks was first realized by [[Bill Lawvere]].  One way to realize that it makes sense is to notice that in [[Set]], the image of a subset $R\subset A$ under a function $f:A\to B$ can be defined as
 $$\{b\in B | (\exists a\in A)(a\in R \;\wedge\; f(a)=b)\},$$
 while its "dual image" (the right adjoint to pullback) can be defined as
 $$\{b\in B | (\forall a \in A)(f(a)=b \Rightarrow a\in R)\}.$$
@@ -378,8 +409,9 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 
 * Most books on topos theory develop some internal logic, at least in the context of a topos.  For example:
 
-  * "Sheaves in Geometry and Logic" by Mac Lane and Moerdijk
-  * "Topoi: the categorial analysis of logic" by Goldblatt 
+* [[Saunders Mac Lane]] [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
+
+* Goldblatt, "Topoi: the categorial analysis of logic" 
 
 * Part D of [[Elephant|Sketches of an Elephant]] is comprehensive.
 
