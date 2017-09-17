@@ -16,17 +16,17 @@
 
 ## Idea
 
-The _Boardman-Vogt tensor product_ is a natural [[tensor product]] on [[operads]]. It makes the category [[Operad]] of symmetric colored operads over [[Set]] into a [[closed monoidal category]].
+The _Boardman-Vogt tensor product_ is a natural [[tensor product]] on [[symmetric operads]]. It makes the category [[Operad]] of colored [[symmetric operads]] over [[Set]] into a [[closed monoidal category]].
 
 ## Definition
 
-All [[operads]] in the following are symmetric colored operads enriched over [[Set]].
+All [[operads]] in the following are colored [[symmetric operads]] enriched over [[Set]], equivalently [[symmetric multicategories]].
 
 Let $\mathcal{P}$ be an operad over a set of colors $C$, and $\mathcal{Q}$ be an operad over a set of colors $D$.
 
 Their **Boardman-Vogt tensor product** $P \otimes_{BV} Q$ is the operad whose set of colors is $C \times D$, and whose operations are given by generators and relations as follows:
 
-There is one generating operation for pair $(p,d)$ with $p \in \mathcal{P}(c_1, \cdots, c_n; c)$ and with $d \in D$, denoted
+There is one generating operation for every pair $(p,d)$ with $p \in \mathcal{P}(c_1, \cdots, c_n; c)$ and with $d \in D$, denoted
 
 $$
   p \otimes d 
@@ -59,10 +59,10 @@ for all $n \in \mathbb{N}$. These are subject to the following relations
 
    and for all $d \in D$ a morphism of operads
 
-  $$
-    \mathcal{P} \to \mathcal{P} \otimes_{BV} \{d\}
-    \,.
-  $$
+   $$
+     \mathcal{P} \to \mathcal{P} \otimes_{BV} \{d\}
+     \,.
+   $$
 
 1. The operations  in $\mathcal{P}$ and $\mathcal{Q}$ [[distributive law|distribute]] over each other in $\mathcal{P} \otimes_{BV} \mathcal{Q}$ in the evident sense (...).
 
@@ -138,6 +138,10 @@ $$
   [P_2, [P_1, E]]
   \,.
 $$
+
+## Examples
+
+(...)
 
 ## Related concepts
 
