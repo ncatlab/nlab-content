@@ -33,7 +33,7 @@ $$
   dim X = 4 k + 2 
 $$
 
-then the [[Hodge star]] operator squares to $+1$ (Lorentian signature) or $-1$ (Euclidean signature) on $\Omega^{k+1}(X)$. Therefore it makes sense in these dimensions to impose the _self-duality constraint_
+then the [[Hodge star]] operator squares to $+1$ (Lorentian signature) or $-1$ (Euclidean signature) on $\Omega^{k+1}(X)$. Therefore it makes sense in these dimensions to impose the _self-duality_ or _chirality_ constraint
 
 $$
   \pm F_\nabla = \star F_\nabla
@@ -46,7 +46,23 @@ But sense can be made of the theory of self-dual gauge fields by other means. No
 
 ## Examples
 
-* [[6d (2,0)-superconformal QFT]]
+### Chiral boson in 2d
+
+(...)
+
+The simplest case. A review is for instance in 
+([Witten I, section 2](#WittenI)). A detailed discussion is in ([GBMNV](#GBMNV)).
+
+(...)
+
+### Fivebrane in 11-dimensional supergravity
+
+The [[worldvolume]] theory of the [[M5-brane]], the
+[[6d (2,0)-superconformal QFT]], contains a self-dual 2-form field. Its [AdS7-CFT6 holographic](AdS-CFT#AdS7CFT6) description by 7-dimensional Chern-Simons theory is due to ([Witten I](#WittenI)).
+
+### RR-Fields in type II supergravity
+
+The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of fields). A holographic description is discussed in ([Belov-Moore II](#BelovMooreII)).
 
 ## References
 
@@ -57,6 +73,10 @@ Original reference on self-dual/chiral fields include
 * Mans Henningson, Bengt E.W. Nilsson, Per Salomonson, _Holomorphic factorization of correlation functions in (4k+2)-dimensional (2k)-form gauge theory_ ([arXiv:hep-th/9908107](http://arxiv.org/abs/hep-th/9908107))
 
 * M. Henningson, _The quantum Hilbert space of a chiral two-form in $d = 5 + 1$ dimensions_ ([arxiv:hep-th/0111150](http://arxiv.org/abs/hep-th/0111150))
+
+The chiral boson in 2d is discussed in detail in 
+
+* [[Luis Alvarez-Gaumé]], J.-B. Bost, [[Greg Moore]], P. Nelson, [[Cumrun Vafa]], _Bosonization On Higher Genus Riemann Surfaces_, Commun. Math. Phys. 112 (1987) 503. (#GBMNV)
 
 A precise formulation of the phenomenon in terms of [[differential cohomology]] is given in
 
@@ -69,6 +89,7 @@ A precise formulation of the phenomenon in terms of [[differential cohomology]] 
 The idea of describing self-dual higher gauge theory by abelian Chern-Simons theory in one dimension higher originates in 
 
 * [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#WittenI}
 
 * [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_ ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
 
@@ -79,6 +100,7 @@ Motivated by this the [[differential cohomology]] of self-dual fields had been d
 More discussion of the general principle is in 
 
 * Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
+ {#BelovMooreI}
 
 A quick exposition of the basic idea is in
 
@@ -88,6 +110,7 @@ The application of this to the description of
 [[type II string theory]] in 10-dimensions to [[schreiber:infinity-Chern-Simons theory|11-dimensional Chern-Simons theory]] is in the followup 
 
 * Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
+ {#BelovMooreII}
 
 Discussion of the [[quantum anomaly]] of self-dual theories is in
 
@@ -95,7 +118,7 @@ Discussion of the [[quantum anomaly]] of self-dual theories is in
 
 * Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_ ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639))
 
-Discussion of the [[conformal block]]s of self-dual higher gauge theories is in 
+Discussion of the [[conformal blocks]] of self-dual higher gauge theories is in 
 
 * [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
 
