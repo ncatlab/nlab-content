@@ -1,4 +1,5 @@
 * [website](http://www.perimeterinstitute.ca/people/xiao-gang-wen)
+[homepage](http://dao.mit.edu/~wen)
 
 Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of strongly correlated electronic systems.
 
