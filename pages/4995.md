@@ -22,7 +22,7 @@ $$
   (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : \mathbf{H} \to \infty Grpd
 $$ 
 
-such that $\Pi$ moreover preserves [[(∞,1)-limit|product]]s. Here
+with $Disc$ and $Codisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|product]]s. Here
 
 1. $Codisc$ induces an [[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _concrete_ objects, those that look like [[∞-groupoid]]s _equipped with extra cohesive structure_ : for instance with [[topology]], or with [[smooth structure]].
 
@@ -81,7 +81,9 @@ is **cohesive** over $\mathbf{S}$ if
 
 1. it is a [[local (∞,1)-topos]]
 
-This means  that we have a quadruple of [[adjoint (∞,1)-functor]]s
+and such that  $f_!$ preserves finite [[(∞,1)-limit|product]]s.
+
+For $S = $ [[∞Grpd]] this means equivalently:  we have a quadruple of [[adjoint (∞,1)-functor]]s
    
 $$
   (f_! \dashv f^* \dashv f_* \dashv f^!) : 
@@ -91,7 +93,9 @@ $$
   \;
 $$
 
-with both $f^*$ and $f^!$ being [[full and faithful (∞,1)-functor]]s.
+with both $f^*$ and $f^!$ being [[full and faithful (∞,1)-functor]]s and $f_!$ preserving finite products.
+
+(For more general $S$ there is an extra condition on $\Pi$.)
 
 If $(f_* \dashv f^*)$ is the [[global section]] geometric morphism of an $(\infty,1)$-topos over $\mathbf{S}$, we say that $\mathbf{H}$ is a **cohesive $(\infty,1)$-topos** over $\mathbf{S}$. In this case we denote the four $(\infty,1)$-functors also
 
@@ -103,9 +107,6 @@ $$
   \,.
 $$
 
-For a cohesive $(\infty,1)$-topos we also demand that 
-
-* $\Pi$ preserves [[(∞,1)-limit|(∞,1)-product]]s.
 
 =--
 
