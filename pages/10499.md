@@ -205,7 +205,7 @@ More generally:
 +-- {: .num_prop #ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
 ###### Proposition
 
-The product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at the [[coproduct]] $\vee_p S \mathbb{F}_p$ if all [[Moore spectra]]
+The product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at the [[coproduct]] $\vee_p S \mathbb{F}_p$ of all [[Moore spectra]]
 
 $$
   \prod_p L_p X
@@ -239,9 +239,9 @@ The first statement appears for instance as ([Bauer 11, below prop. 2.2](#Bauer1
 +-- {: .num_remark }
 ###### Remark
 
-By the discussion at _[[Bousfield localization of spectra]]_ and at _[[localization of a space]]_, the [[rationalization]] and the [[p-completion]] maps on spectra are [[homotopy cofibers]] of $E$-acyclifications $G_E(X) \to X$, for $E = H\mathbb{Q}$ and $E = H \mathbb{F}_p$  the [[Eilenberg-MacLane spectra]] of $\mathbb{Q}$ and of the [[cyclic group]]/[[finite field]] $\mathbb{F}_p = \mathbb{Z}/(p)$, respectively (e.g. [Lurie 10, lecture 20](localization+of+a+space#Lurie)).
+By the discussion at _[[Bousfield localization of spectra]]_ and at _[[localization of a space]]_, the [[rationalization]] and the [[p-completion]] maps on spectra are [[homotopy cofibers]] of $E$-acyclifications $G_E(X) \to X$, for $E = S \mathbb{Q} \simeq H \mathbb{Q}$ and $E = S \mathbb{F}_p$  the [[Moore spectra]] of $\mathbb{Q}$ and of the [[cyclic group]]/[[finite field]] $\mathbb{F}_p = \mathbb{Z}/(p)$, respectively (e.g. [Lurie 10, lecture 20](localization+of+a+space#Lurie)).
 
-Including this into the statement of of prop. \ref{FractureForSpectra} says that for spectra $X$ satisfying sufficient conditions as above, then the canonical diagram
+Including this into the statement of prop. \ref{FractureForSpectra} says that for spectra $X$ satisfying sufficient conditions as above, then the canonical diagram
 
 $$
   \array{
@@ -264,7 +264,7 @@ has the following exactness properties:
 1. the diagonals are [[homotopy cofiber sequences]] and hence also [[homotopy fiber sequences]].
 
 
-Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like the restriction of $X$ from [[Spec(Z)]] to all [[formal disks]] around the points $(p)$, and hence $G_{H\mathbb{F}_p}$ is like the restriction to the "complement of all formal disks". Finally $X_{\mathbb{Q}}$ may be understood as the restriction to the [[Ran space]] of $Spec(\mathbb{Z})$ ([Gaitsgory 11](#Gaitsgory11)), roughly the colimit of the restriction of $X$ to the complement of finitely many points, as this set of points ranges through all points.
+Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like the restriction of $X$ from [[Spec(Z)]] to all [[formal disks]] around the points $(p)$, and hence $G_{S\mathbb{F}_p}$ is like the restriction to the "complement of all formal disks". Finally $X_{\mathbb{Q}}$ may be understood as the restriction to the [[Ran space]] of $Spec(\mathbb{Z})$ ([Gaitsgory 11](#Gaitsgory11)), roughly the colimit of the restriction of $X$ to the complement of finitely many points, as this set of points ranges through all points.
 
 =--
 
