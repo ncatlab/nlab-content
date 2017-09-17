@@ -62,6 +62,10 @@ Discussion with an eye towards of holomorphic [[twisted K-theory]] is in
 
 * {#MathaiStevenson02} [[Varghese Mathai]], [[Danny Stevenson]], _Chern character in twisted K-theory: equivariant and holomorphic cases_, Commun.Math.Phys. 236 (2003) 161-186 ([arXiv:hep-th/0201010v5](http://lanl.arxiv.org/abs/hep-th/0201010v5))
 
+An equivariant example arising from more algebro-geometric origin is in
+
+* Giovanni Felder, [[Andre Henriques]], Carlo A. Rossi, [[Chenchang Zhu]], _ A gerbe for the elliptic gamma function_, Duke Math. J. 141(2008), 1-74 [arXiv:math/0601337](http://arxiv.org/abs/math/0601337) ([doi](http://dx.doi.org/10.1215/S0012-7094-08-14111-0))
+
 Discussion connecting explicitly to the holomorphic [[Brauer group]] includes
 
 * {#BenBassat08} [[Oren Ben-Bassat]], _Gerbes and the Holomorphic Brauer Group of Complex Tori_, Journal of Noncommutative Geometry, Volume 6, Issue 3 (2012) 407-455 ([arXiv:0811.2746](http://arxiv.org/abs/0811.2746))
