@@ -1,4 +1,17 @@
 
+> This entry is about the notion in [[linear algebra]]/[[quadratic forms]]. For the notion in [[symplectic geometry]] see at _[[polarization]]_.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 # The polarization identity
 * table of content
 {: toc}
