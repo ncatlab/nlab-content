@@ -34,6 +34,7 @@ to be the [[subgroup]] of the [[diffeomorphism group]] $P \stackrel{\simeq}{\to}
 Notice that the tuple $(P,A)$ is a [[regular contact manifold]] (see the discussion there), and so the quantomorphism group is equivalently that of contactomorphisms $(P,A) \to (P,A)$ of weight 0.
 
 ### In higher geometry
+ {#InHigherGeometry}
 
 This perspective lends itself to a more abstract description: we may regard the [[prequantum circle bundle]] as being modulated by a morphism
 
