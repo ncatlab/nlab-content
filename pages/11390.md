@@ -34,6 +34,9 @@ The prime spectrum of the [[(∞,1)-category of spectra]] ([[p-localization|p-lo
 
 Generally, the [[kernel]] of any [[generalized homology theory]] here is a thick ideal, but not generally a prime ideal.
 
+## Related concepts
+
+* [[spectrum of a triangulated category]]
 
 ## References
 
