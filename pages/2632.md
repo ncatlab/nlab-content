@@ -305,6 +305,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[propagator]]
 
+  * [[quantum superposition]], [[quantum fluctuation]], [[quantum entanglement]]
+
   * [[quantum measurement]]
 
   * [[hidden variable theory]], 
