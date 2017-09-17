@@ -138,3 +138,6 @@ There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]
 [[!redirects automorphism ∞-groups]]
 
 [[!redirects automorphism infinity-groups]]
+
+[[!redirects automorphism n-group]]
+[[!redirects automorphism n-groups]]
