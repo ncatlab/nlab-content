@@ -19,7 +19,7 @@
 
 ## Idea
 
-In full [[linear logic]]/[[linear type theory]] there is assumed a (comonadic) [[modality]] denoted "!", whose role is, roughly, to give linear types also a non-linear interpretation. This is also called the _exponential conjunction_ and is also known as the "of course"-modality and sometimes also as the "bang"-operation (for better or worse).
+In full [[linear logic]]/[[linear type theory]] there is assumed a (comonadic) [[modality]] denoted "!" and called the _exponential modality_, whose role is, roughly, to give linear types also a non-linear interpretation. This is also called  the "of course"-modality and sometimes also as the "bang"-operation.
 
 ## Categorical semantics
 
@@ -52,7 +52,7 @@ The interpretation of the !-modality as a [[Fock space]] construction is discuss
 
 * {#Fiore07} [[Marcelo Fiore]], _Differential Structure in Models of Multiplicative Biadditive Intuitionistic Linear Logic_, Lecture Notes in Computer Science Volume 4583, 2007, pp 163-177 ([pdf](http://www.cl.cam.ac.uk/~mpf23/papers/Types/diff.pdf))
 
-* {#Vicary07} [[Jamie Vicary]], _A categorical framework for the quantum harmonic oscillator_ ([arXiv:0706.0711](http://arxiv.org/abs/0706.0711))
+* {#Vicary07} [[Jamie Vicary]], _A categorical framework for the quantum harmonic oscillator_, International Journal of Theoretical Physics December 2008, Volume 47, Issue 12, pp 3408-3447 ([arXiv:0706.0711](http://arxiv.org/abs/0706.0711))
 
   (in the context of [[finite quantum mechanics in terms of dagger-compact categories]])
 
