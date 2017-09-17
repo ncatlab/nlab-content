@@ -193,9 +193,9 @@ A descent datum for a morphism $f : R \to S$ with respect to this bifibration is
 
 * the morphism $f^*$ sends an $S$-module $P$ to the $R$-module $P \otimes_S S_R$, where $S_R$ is $S$ regarded as a left $S$- and a right $R$-module. So $P \otimes_S S_R$ is just the $S$-module $P$ with only the right $R$-action remembered.
 
-Accordingly, the comonad with underlying functor $f^* f_*$ sends an $S$-module $P$ to the $S$-module $P \otimes_S S \otimes_R S = P \otimes_S C$.
+Accordingly, the comonad with underlying functor $f_* f^*$ sends an $S$-module $P$ to the $S$-module $P \otimes_S S \otimes_R S = P \otimes_S C$.
 
-A (co)algebra object for this comad is hence a co-action morphism 
+A (co)algebra object for this comonad is hence a co-action morphism 
 
 $$
   P \to P \otimes_S C
@@ -218,7 +218,7 @@ $$
 and
 
 $$
-  Vect(Y) := S Mod
+  Vec(Y) := S Mod
 $$
 
 for the corresponding [[category|categories]] of [[module]]s. The assignment of such categories to spaces
