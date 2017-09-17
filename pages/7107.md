@@ -5,7 +5,7 @@
 
 ## Idea
 
-The cofinality of a [[poset]] is a measure of the size of the poset and in particular of the size of its tails.
+The cofinality of a [[quoset]] is a measure of the size of the poset and in particular of the size of its tails.  An important special case is the cofinality of an [[ordinal number]], and there is a related concept of the cofinality of a [[cardinal number]].
 
 
 ## Definitions
@@ -23,7 +23,7 @@ If we start with a collection $C$ of [[cardinal numbers]], the __cardinal cofina
 
 Assume the [[axiom of choice]].  Then we may identify and simplify some of the concepts above.
 
-*  As a class of cardinal numbers, $cf(Q)$ is clearly a [[down-set]] (that is closed under [[subsets]]), so it must be the set $\{\kappa \;|\; \kappa \lt cf(Q)\}$ for some cardinal number $cf(Q)$, also called the __cofinality__.  (Note that $cf(Q) \leq {|Q|}$, equivalently ${|Q|} \nless cf(Q)$, since the [[identity function]] $Q \to Q$ has no upper bound.)  In this case, we conclude that there is a function $[cf(Q)] \to Q$ that has no strong upper bound, and that $cf(Q)$ is the smallest cardinal number with this property.  Assuming that $Q$ is a [[linear order]], it follows that the [[image]] of some function $[cf(Q)] \to Q$ is [[cofinal subset|cofinal]] in $Q$ (whence the terminology).
+*  As a class of cardinal numbers, $cf(Q)$ is clearly a [[down-set]] (that is closed under [[subsets]]), so it must be the set $\{\kappa \;|\; \kappa \lt cf(Q)\}$ for some cardinal number $cf(Q)$, also called the __cofinality__.  (Note that $cf(Q) \leq {|Q|}$, equivalently ${|Q|} \nless cf(Q)$, since the [[identity function]] $Q \to Q$ has no upper bound, so in particular we are *not* dealing with [[proper classes]].)  In this case, we conclude that there is a function $[cf(Q)] \to Q$ that has no strong upper bound, and that $cf(Q)$ is the smallest cardinal number with this property, which is the usual definition.  Assuming that $Q$ is a [[linear order]], it follows that the [[image]] of some function $[cf(Q)] \to Q$ is [[cofinal subset|cofinal]] in $Q$ (whence the terminology).
 
 *  Using the identification of cardinal numbers with certain [[von Neumann ordinals]], the ordinal cofinality $Ocf(Q)$ or $ocf(Q)$ becomes identified with the classical cofinality $cf(Q)$.  (But note that $Cf(Q)$, the collection of cardinal numbers, is only a subset of $Ocf(Q)$ when we identify cardinals as certain ordinals.)
 
@@ -36,7 +36,9 @@ Here is an important theorem on ordinal cofinality, which following our definiti
 $$ ocf(ocf(Q)) = ocf(Q) .$$
 In general, an ordinal number $\alpha$ such that $ocf(\alpha) = \alpha$ is called __regular__, so every ordinal cofinality is regular.  For example, $0$, $1$, and $\omega$ are regular ordinals.
 
-A [[regular cardinal]] is precisely a collection of cardinals $C$ such that $Ccf(C) = C$.  Assuming the [[axiom of choice]] and making identifications as above, the regular cardinals and the regular ordinals are the same.
+A __[[regular cardinal]]__ may be defined to be a collection of cardinals $C$ such that $Ccf(C) = C$.  Assuming the [[axiom of choice]] and making identifications as above, the regular cardinals and the regular ordinals are the same, except that $2$ is a regular cardinal (but not a regular ordinal).  Also, $\{1\}$ is a regular collection of cardinals that is not a down-set, although every other regular cardinal is (and so can be identified with a cardinal number), classically.
+
+Traditionally, one requires a regular ordinal or cardinal to be [[infinite set|infinite]], and thus classically they are the same with no exceptions.
 
 
 [[!redirects cofinality]]
