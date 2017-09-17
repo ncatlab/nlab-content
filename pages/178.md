@@ -997,13 +997,7 @@ $$
 
 Written this way it is evident that this definition misses to take into account any cofibrant replacement of $\mathbf{B}G$. 
 
-A more refined definition of cohomology of Lie groups has been given by Segal, which was later rediscovered by [[Jean-Luc Brylinski]], following Blanc.
-
-See section 4 of
-
-* [[Chris Schommer-Pries]], _A finite-dimensional String 2-group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
-
-for a review and applications.
+A more refined definition of cohomology of Lie groups has been given by ([Segal](#Segal)), which was later rediscovered by ([Brylinski](#Brylinski)), following ([Blanc](#Blanc)). A review is in section 4 of ([Schommer-Pries](#SchommerPries)).
 
 
 +-- {: .un_defn}
@@ -5681,7 +5675,10 @@ which parallels
 * [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
 {#Segal}
 
+A review is in section 4 of 
 
+* [[Chris Schommer-Pries]], _A finite-dimensional String 2-group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
+{#SchommerPries}
 
 
 [[!redirects Smooth∞Grpd]]
