@@ -1,4 +1,17 @@
-__Synthetic projective geometry__ is an axiomatic approach to  projective geometry without use of (algebraic or analytic) coordinate calculations (unlike the wider, modern study of projective and quasiprojective algebraic varieties). In particular, the method does not require that the projective space be defined over an algebraically closed ground field, or even a field at all; for example the noncommutative ground division rings are possible as well as combinatorial descriptions of finite projective geometries. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+__Synthetic projective geometry__ is an [[axiom|axiomatic]] approach to  [[projective geometry]] without use of (algebraic or analytic) [[coordinate]] calculations (unlike the wider, modern study of projective and [[quasiprojective algebraic varieties]]). In particular, the method does not require that that [[projective space]] be defined over an [[algebraically closed field|algebraically closed ground field]], or even a [[field]] at all; for example the noncommutative ground division rings are possible as well as combinatorial descriptions of finite projective geometries. 
+
+## Related concepts
+
+* [[synthetic geometry]]
+
+## References
 
 * U. Schoenwaelder, [Literatur zur synthetischen projektiven Geometrie](http://www.math.rwth-aachen.de/%7EUlrich.Schoenwaelder/Lit/Geom/litgsprojn.pdf)
 * Karl Georg Christian von Staudt, _Geometrie der Lage_, 1857 (projective geometry over reals)
