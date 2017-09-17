@@ -257,8 +257,8 @@ The standard reference on enriched categories is
 
 Vista of some modern generalizations is in
 
-* [[Tom Leinster]], _Generalized enrichement for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
-* [[Tom Leinster]], _Generalized enrichement of categories_, Journal of Pure and Applied Algebra __168__ (2002), no. 2-3, 391-406, [math.CT/0204279](http://arxiv.org/abs/math.CT/0204279)
+* [[Tom Leinster]], _Generalized enrichment for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
+* [[Tom Leinster]], _Generalized enrichment of categories_, Journal of Pure and Applied Algebra __168__ (2002), no. 2-3, 391-406, [math.CT/0204279](http://arxiv.org/abs/math.CT/0204279)
 
 Change of base is discussed in
 
