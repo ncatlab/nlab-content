@@ -56,6 +56,8 @@ However, there are also important effective descent morphisms in non-exact categ
 
 * In the category [[Loc]] of [[locales]], every [[triquotient map]] is an effective descent morphism.  These includes [[open map|open]] surjections and also [[proper map|proper]] surjections.
 
+* It is a theorem of Grothendieck that for the category $QCoh(X)$ of [[quasicoherent sheaf| quasicoherent sheaves]] on the [[fpqc site]] of a [[scheme]] every morphism induces(?) an effective descent morphism, i.e. $QCoh(X)$ forms a [[stack]] over the [[fpqc site]].
+
 ...
 
 ## References
