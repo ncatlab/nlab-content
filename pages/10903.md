@@ -189,7 +189,7 @@ Comments on the formalization of secondary [[integral transforms]] and [[quantiz
 
 * {#Schreiber14} [[Urs Schreiber]] _[[schreiber:Quantization via Linear homotopy types]]_ ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
 
-A first published proposal for a genuine syntact of dependent linear type theory is in 
+A first published proposal for a genuine syntax of dependent linear type theory is in 
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
 
