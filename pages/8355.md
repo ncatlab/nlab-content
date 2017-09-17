@@ -1,7 +1,13 @@
 
-A [[theory]], one of the weakest fragments of [[second-order arithmetic]] strong enough to do nontrivial mathematics.
+# Elementary function arithmetic
+* table of contents
+{: toc}
+
+## Idea
+
+Elementary function arithmetic is a [[first-order theory]] of [[natural numbers]], one of the weakest fragments of [[arithmetic]] strong enough to do nontrivial mathematics.
 
 
 ## References
 
-* Wikipedia, _[Elementary function arithmetric](http://en.wikipedia.org/wiki/Elementary_function_arithmetic)_ .
+* Wikipedia, _[Elementary function arithmetric](http://en.wikipedia.org/wiki/Elementary_function_arithmetic)_.
