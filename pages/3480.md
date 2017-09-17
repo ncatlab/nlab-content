@@ -344,12 +344,14 @@ See [[Tannaka duality for Lie groupoids]].
 See [[Tannaka duality for geometric stacks]].
 
 ### In higher category theory
+ {#InHigherCategoryTheory}
 
 In as far as the proof of Tannaka duality only depends on the [[Yoneda lemma]], the statement immediately generalizes to [[higher category theory]] whenever a higher generalization of the Yoneda lemma is available.
 
 This is notably the case for [[(∞,1)-category]] theory, where we have the [[(∞,1)-Yoneda lemma]].
 
 #### For permutation $\infty$-representations
+ {#ForInfinityPermutations}
 
 By applying the $(\infty,1)$-Yoneda lemma verbatim four times in a row as above [for permutation representations](#ForPermutationRepresentations), we obtain the following statement for "$\infty$-permutation representations".
 
@@ -386,6 +388,7 @@ in [[∞Grpd]].
 =--
 
 #### $\infty$-Galois theory
+ {#InfinityGaloisTheory}
 
 As a special case of this, we obtain a statement about $\infty$-Galois theory. For details and background see [[homotopy groups in an (∞,1)-topos]]. In that context one finds for a [[locally contractible space]] $X$ that the [[∞-groupoid]] $LConst(X)$ of [[locally constant ∞-stack]]s on $X$  is equivalent to $Rep_{\infty Grpd}(\Pi(X))$, where $\Pi(X)$ is the [[fundamental ∞-groupoid]] of $X$. 
 For $x \in X$ a point, write $F_x : LConst(X) \to \infty Grpd$ for the corresponding fiber functor.
@@ -403,7 +406,7 @@ $$
   \,.
 $$
 
-In particular do we have naturall isomorphisms of [[homotopy group]]s
+In particular do we have [[natural isomorphisms]] of [[homotopy group]]s
 
 $$
   \pi_n End(LConst(X) \stackrel{F_x}{\to} \infty Grpd)
@@ -413,6 +416,8 @@ $$
 $$
 
 =--
+
+More on this is at [[cohesive (∞,1)-topos -- structures]] in the section <a href="http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Homotopy">Galois theory in a cohesive (∞,1)-topos</a>
 
 ## References
 
