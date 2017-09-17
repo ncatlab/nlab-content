@@ -1,0 +1,7 @@
+
+
+## References
+
+* Wikipedia, _[Cartan subalgebra](http://en.wikipedia.org/wiki/Cartan_subalgebra)_
+
+[[!redirects Cartan subalgebras]]
