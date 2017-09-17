@@ -11,13 +11,14 @@
 
 # h-Propositions
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 In [[homotopy type theory]], the notion of **h-proposition** (or just a **proposition**, if no ambiguity will result) is an internalization of the notion of [[proposition]] / [[(-1)-truncated]] object.
 
 h-Propositions are how [[logic]] is embedded into homotopy type theory, via the [[propositions as some types]] / [[bracket types]] approach.
+
 
 ## Definition
 
@@ -34,15 +35,18 @@ $$ isProp(A) \coloneqq (A \to isContr(A)) $$
 
 The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "contractible if inhabited".
 
+
 ## Properties
 
 * We can prove that for any $A$, the type $isProp(A)$ is an h-proposition, i.e. $isProp(isProp(A))$.  Thus, any two inhabitants of $isProp(A)$ (witnesses that $A$ is an h-proposition) are "equal".
 
 * If $A$ and $B$ are h-props and there exist maps $A\to B$ and $B\to A$, then $A$ and $B$ are [[equivalence in homotopy type theory|equivalent]].
 
+
 ## Coq code
 
 * [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/HLevel.v)
+
 
 ## Semantics
 
@@ -58,9 +62,11 @@ represented by a fibration $isProp(A)\to B$.  By applying the above argument in 
 $$\prod_{x\colon B} isProp(A(x))$$
 in global context, which has a global element precisely when $isProp(A)\to B$ has a section.
 
+
 ## Remarks
 
-* h-Propositions are also said to be of **h-level 1**.
+* h-Propositions are also said to be of **[[h-level]] $1$**.
+
 
 [[!redirects h-propositions]]
 [[!redirects h-prop]]
