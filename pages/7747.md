@@ -171,3 +171,14 @@ The relation to "[[2-framings]]" is duscussed in
 
 [[!redirects parallelizable sphere]]
 [[!redirects parallelizable spheres]]
+
+[[!redirects n-framing]]
+[[!redirects n-framings]]
+[[!redirects 1-framing]]
+[[!redirects 1-framings]]
+[[!redirects 3-framing]]
+[[!redirects 3-framings]]
+[[!redirects 4-framing]]
+[[!redirects 4-framings]]
+[[!redirects 5-framing]]
+[[!redirects 5-framings]]
