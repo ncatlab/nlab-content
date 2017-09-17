@@ -17,22 +17,21 @@
 ## Definition
 
 
-For $n \in \mathbb{N}$ a [[natural number]],  the **unitary group** $U(n)$ is the [[group]] of [[isometry|isometries]] of the $n$-dimensional complex [[Hilbert space]] $\mathbb{C}^n$.   This is canonically identified with the group of $n \times n$ unitary [[matrices]].
+For a [[natural number]] $n \in \mathbb{N}$, the **unitary group** $U(n)$ is the [[group]] of [[isometry|isometries]] of the $n$-dimensional complex [[Hilbert space]] $\mathbb{C}^n$.   This is canonically identified with the group of $n \times n$ unitary [[matrices]].
 
 
-More generally, for $\mathcal{H}$ any Hilbert space, $U(\mathcal{H})$ is the group of [[unitary operator]]s on that Hilbert space. For the purposes of studying unitary representations of Lie groups, the topology is chosen to be the [[operator topology|strong operator topology]], although other topologies on $U(\mathcal{H})$ are frequently considered for other purposes. 
+More generally, for a Hilbert space $\mathcal{H}$, $U(\mathcal{H})$ is the group of [[unitary operator]]s on that Hilbert space. For the purposes of studying unitary representations of Lie groups, the topology is chosen to be the [[operator topology|strong operator topology]], although other topologies on $U(\mathcal{H})$ are frequently considered for other purposes. 
 
 ## Properties
 
-The unitary groups are naturally [[topological group]]s and [[Lie group]]s (infinite dimensional of $\mathcal{H}$) is infinite dimensional.
+The unitary groups are naturally [[topological group]]s and [[Lie group]]s (infinite dimensional if $\mathcal{H}$ is infinite dimensional).
 
 
 +-- {: .num_prop}
 ###### Proposition
+For $\mathcal{H}$ a Hilbert space, which can be either finite or infinite dimensional, the unitary group $U(\mathcal{H})$ and the [[general linear group]] $GL(\mathcal{H})$, regarded as [[topological group]]s, have the same [[homotopy type]]. 
 
-The unitary group $U(\mathcal{H})$ and the [[general linear group]] $GL(\mathcal{H})$, regarded as [[topological group]]s, have the same [[homotopy type]]. 
-
-$U(\mathcal{H})$ is the [[maximal compact subgroup]] of $GL(\mathcal{H})$.
+More specifically, $U(\mathcal{H})$ is a [[maximal compact subgroup]] of $GL(\mathcal{H})$.
 
 =--
 
@@ -48,7 +47,7 @@ By the [[Gram-Schmidt process]].
 ###### Theorem
 **(Kuiper's theorem)**
 
-For $\mathcal{H}$ a separable infinite-dimensional complex [[Hilbert space]], the unitary group $U(\mathcal{H})$ is [[contractible]].
+For a separable infinite-dimensional complex [[Hilbert space]] $\mathcal{H}$, the unitary group $U(\mathcal{H})$ is [[contractible]].
 
 =--
 
@@ -57,7 +56,7 @@ See also [[Kuiper's theorem]].
 +-- {: .num_note}
 ###### Note
 
-This in in contrast to each of the $U(n)$ for $n \in \mathbb{N}$, with $n \geq 1$, not of which is contractible.
+This in contrast to the finite dimensional situation. For $n \in \mathbb{N}$ ($n \ge 1$), $U(n)$ is not contractible.
 
 =--
 
@@ -80,17 +79,11 @@ or sometimes $B U(\infty)$. Notice that this is very different from $B U(\mathca
 
 ## Examples
 
-For instance $U(1)$ is the [[circle group]].
-
-## Properties
-
-For $\mathcal{H}$ a separable infinite-dimensional [[Hilbert space]], $U(\mathcal{H})$ is [[contractible]].
-
-
+$U(1)$ is the [[circle group]].
 
 ## Related concepts
 
-The subgroup of unitary matrices with [[determinant]] equal to 1 is the [[special unitary group]]. The [[quotient]] by the [[center]] is the [[projective unitary group]].
+The subgroup of unitary matrices with [[determinant]] equal to 1 is the [[special unitary group]]. The [[quotient]] by the [[center]] is the [[projective unitary group]].  The space of equivalence classes of unitary matrices under conjugation is the [[symmetric product of circles]].
 
 
 The analog of the unitary group for real metric spaces is the [[orthogonal group]].
