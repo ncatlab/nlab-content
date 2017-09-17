@@ -408,7 +408,7 @@ See at _[tmf -- Decomposition via arithmetic fracture squares](tmf#Decomopositio
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
 * {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
-by [[Andrew Ranicki]].
+by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011 ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
