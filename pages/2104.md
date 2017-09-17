@@ -297,3 +297,5 @@ Some discussion of quantization in terms of [[Bohr toposes]] is in
 * Kunji Nakayama, _Sheaves in Quantum Topos Induced by Quantization_ ([arXiv:1109.1192](http://arxiv.org/abs/1109.1192))
 
 
+[[!redirects quantizations]]
+
