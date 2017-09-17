@@ -18,7 +18,13 @@
 * table of contents
 {:toc}
 
-## Idea
+## Scope
+
+__Differential geometry__ is a mathematical discipline studying geometry of spaces using differential and integral calculus. Classical differential geometry studied submanifolds (curves, surfaces...) in Euclidean spaces. The traditional objects of differential geometry are finite and infinite-dimensional [[differentiable manifold]]s modelled locally on [[topological vector space]]s. Techniques of differential calculus can be further stretched to generalized smooth spaces. One often distinguished analysis on manifolds from differential geometry: analysis on manifolds focuses on functions from a manifold to the ground field and their properties, togehter with applications like PDEs on manifolds. Differential geometry on the other hand studies objects embedded into the manifold like submanifolds, their relations and additional structures on manifolds like bundles, connections etc. while the topological aspects are studied in a younger branch (from 1950s on) which is called [[differential topology]].
+
+## Generalized smooth spaces from $n$POV
+
+See also [[generalized smooth space]].
 
 _Differential geometry is the [[geometry]] modeled on [[Cartesian space]]s and [[smooth functions]] between them.
 
@@ -47,7 +53,7 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[Lie theory]]
 
-* [[Riemannian geometry]]
+* some modern subfields of differential geometry: [[symplectic geometry]], [[contact geometry]], [[Riemannian geometry]], Finsler, pseudoriemannian
 
  local model                |   global geometry
 ----------------------------|-----------------
@@ -62,11 +68,11 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 A comprehensive standard textbook is
 
 * Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of Differential Geometry_ , Wiley Classics Library
+* Michael Spivak, _A comprehensive introduction to differential geometry_ (5 Volumes) 
+* [[M M Postnikov]], _Lectures on geometry_ (5 vols. 3,4,5 are largely on differential geometry)
+* R. Sharpe, _Differential geometry -- Cartan's generalization of Klein's Erlagen program_, Springer (1997)
 
-* R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
-
-Among online lecture notes there is
+Online: 
 
 * Sigmundur Gudmundsson, _An Introduction to Riemannian Geometry_ ([pdf](http://www.maths.lth.se/matematiklu/personal/sigma/Riemann.pdf))
-
-and much more (...)
+* wikipedia: [differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)
