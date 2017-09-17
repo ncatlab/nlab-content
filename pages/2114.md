@@ -72,6 +72,3 @@ An amusing discussion on the differences between schemes and varieties can be fo
 [[!redirects quasi-projective algebraic varieties]]
 [[!redirects quasiprojective algebraic varieties]]
 
-
-[[!redirects variety]]
-[[!redirects varieties]]
