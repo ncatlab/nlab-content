@@ -110,6 +110,12 @@ is just a [[homotopy equivalence]].
 
 =--
 
++-- {: .num_remark}
+###### Remark
+The ordinary geometric realization can be described as the [[tensor product of functors]] ${|X_\bullet|}=\Delta^\bullet \otimes_{\Delta} X_\bullet$, and the fat geometric realization can likewise be described as ${\Vert X_\bullet\Vert} = i^* \Delta^\bullet \otimes_{\Delta_+} i^* X_\bullet$, where $i\colon \Delta_+ \hookrightarrow \Delta$ is the inclusion.  By general facts about tensor product of functors (essentially, the associativity of composition of [[profunctors]]), it follows that we can also write ${\Vert X_\bullet\Vert} \cong \Delta^\bullet \otimes_{\Delta} \Lan_i i^* X_\bullet \cong {| Lan_i i^* X_\bullet |} $.  In other words, the fat geometric realization of $X_\bullet$ is the ordinary geometric realization of a "fattened up" version of $X_\bullet$, which is obtained by forgetting the degeneracy maps of $X_\bullet$ and then "freely throwing in new ones."
+=--
+
+
 ## Reminder on nice simplicial topological spaces
 
 Simplicial topological spaces are in [[homotopy theory]] presentations for certain [[topological ∞-groupoid]]s . In this context what matters is not the operation of geometric realization itself, but its [[derived functor]]. This is obtained by evaluating ordinary geometric realization on "sufficiently nice" [[resolution]]s of simplicial topological spaces. These we discuss now.
@@ -339,9 +345,9 @@ We discuss how geometric realization interacts with [[limit]]s of simplicial top
 Geometric realization preserves [[pullback]]s: for $X_\bullet \to Y_\bullet \leftarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}}$ there are [[natural transformation|natural]] [[homeomorphism]]s
 
 $$
-  {|X_\bullet|} \times_{|Y_\bullet|} |Z_\bullet|
+  {|X_\bullet|} \,\times_{|Y_\bullet|}\, {|Z_\bullet|}
   \simeq
-  |X_\bullet \times_{Y_\bullet} Z_\bullet|
+  {|X_\bullet \,\times_{Y_\bullet}\, Z_\bullet|}
   \,.
 $$
 
