@@ -27,6 +27,9 @@ In fact, an analogous factorization system exists in any regular 2-category and 
 
 * The factorization of a functor in this factorization system is the construction of its [[full image]].
 
+* More on this for the case of functors between [[groipoids]] is at _[infinity-image --  Of Functors between groupoids](infinity-image#NImagesOf1FunctorsBetweenGroupoids)_.
+
+
 ## Related concepts
 
 * [[(epi, mono) factorization system]]
