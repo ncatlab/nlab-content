@@ -235,7 +235,7 @@ but remember there is also the order to keep track of.
 This operation extends to give the **ordinal sum** structure  on $\Delta_a$ (for details see the discussion in the entry [[simplex category]]) making it a [[monoidal category]], whose product operation is
 
 $$
-  \otimes_{join}: \Delta_a \times \Delta_a \to \Delta_a
+  \boxplus: \Delta_a \times \Delta_a \to \Delta_a
 $$
 $$
   ([n], [m]) \mapsto [n + m + 1]
@@ -247,16 +247,18 @@ $$
 Now, via the general process of [[Day convolution]], this monoidal structure on $\Delta_a$ is lifted to a monoidal structure on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
 
 $$
-  \otimes_{join} : asSet \times ASSet \to asSet
+  \star : ASSet \times ASSet \to ASSet
 $$
 $$
-  (S \otimes_{join} S')_n
+  (S \star S')(-)
   :=
   \int^{[i],[j] \in \Delta_a}
-    S_i \times S'_j \cdot \Delta([n],[i] \otimes_{join} [j])
+    (S_i \times S'_j) \times Hom_{\Delta_a}(-,[i] \boxplus [j])
   \,.
 $$
-
++--
+_Note:_ This is an abuse of notation because $Hom_{\Delta_a}(-,[i] \boxplus [j])$ is a functor, while $(S_i \times S'_j)$ is a set.  To be precise, the second $\times$ should be replaced with $\cdot$, which denotes the [[indexed copower]].
+=--
 Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|cocontinuous]] in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). 
 
 ### Extension to a closed monoidal structure
@@ -278,7 +280,7 @@ The join of two non-augmented simplicial sets is given by
 
 
 $$
-  (S \otimes_{join} S')_n =: (S \star S')_n := S_n \cup S'_n \cup 
+  (S \star S')_n := S_n \cup S'_n \cup 
    (\cup_{i+j = n-1} S_i \times S'_j)
   \,.
 $$
