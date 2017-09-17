@@ -9,12 +9,18 @@
 =--
 =--
 
-
+# Semantics
+* table of contents
+{: toc}
 
 ## Idea
 
-The interpretation of the [[syntax]] of [[theories]] in [[models]].
+Semantics is the interpretation of the [[syntax]] of a [[theory]] in a [[model]].
+
 
 ## Related concepts
 
-* [[categorical semantics]].
+* [[categorical semantics]]
+
+
+[[!redirects semantics]]
