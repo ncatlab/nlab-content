@@ -221,7 +221,7 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 ## References
 
-The term _Yoneda lemma_ originated in an interview of [[Nobuo Yoneda]] by [[Samuel Eilenberg]] at Paris Gare du Nord:
+The term _Yoneda lemma_ originated in an interview of [[Nobuo Yoneda]] by [[Saunders Mac Lane]] at Paris Gare du Nord:
 
 * Yoshiki Kinoshita, [posting to catlist in 1996](http://www.mta.ca/~cat-dist/catlist/1999/yoneda).
 
