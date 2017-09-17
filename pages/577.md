@@ -10,7 +10,6 @@
 =--
 
 
-
 # Cartesian monads
 * table of contents
 {: toc}
