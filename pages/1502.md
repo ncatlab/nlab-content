@@ -4,11 +4,13 @@
 
 #Idea#
 
-A _semisimple category_ is a [[Vect]]-[[enriched category]] in which each object is a [[direct sum]] of finitely many [[simple object]]s.
+A _semisimple category_ is a category in which each object is a [[direct sum]] of finitely many [[simple objects]].
 
 #Definition#
 
-A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called _semisimple_ if:
+An [[abelian category]] is called **semisimple** if every object is a direct sum of finitely many [[simple objects]].
+
+Alternatively, a [[monoidal category|monoidal]] [[linear category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called **semisimple** if:
 *  it has finite [[biproduct]]s (usually called '[[direct sum]]s'),
 *  [[split idempotent|idempotents split]] (so we say that it 'has [[subobject]]s' or, perhaps better, 'has [[retract]]s'), and
 
@@ -65,7 +67,7 @@ This says precisely that $V$ has been expressed as a direct sum of the $X_i$.
 
 #Remarks#
 
-* This definition of semisimple (taken from the reference of M&uuml;ger below) does not use the concept of [[abelian category]]. This is because the concepts that one thinks about with abelian categories such as [[kernel]]s and [[cokernel]]s do not play an important conceptual role in semisimple categories, being replaced by the more important concepts of [[biproduct]] and [[retract]]. Hence it is best to give a streamlined definition from first principles without going through the language of abelian categories which would have muddied the waters.
+* The above definition definition of semisimple monoidal linear category (taken from the reference of M&uuml;ger below) does not use the concept of [[abelian category]]. This is because the concepts that one thinks about with abelian categories such as [[kernel]]s and [[cokernel]]s do not play an important conceptual role in semisimple categories, being replaced by the more important concepts of [[biproduct]] and [[retract]]. Hence it is best to give a streamlined definition from first principles without going through the language of abelian categories which would have muddied the waters.
 
 * For a category to be semisimple, it needs to have a certain directional symmetry in its hom-sets, namely that $Hom(V, W)$ must at least have the same dimension as$Hom(W,V)$. This is the easiest way to check if a category will _fail_ to be semisimple. For instance, the category $Rep(A)$ of [[representations]] of an algebra $A$ will rarely be semisimple, precisely because there is no relation between $Hom(V, W)$ and $Hom(W,V)$ in general. Again, this can be traced back to the original algebra $A$ not having any 'symmetry' like the inverse operation in a group. 
 
