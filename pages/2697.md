@@ -63,7 +63,7 @@ This is [[Higher Topos Theory|HTT, prop. 6.5.2.13]].
 
 ## Models
 
-### In terms of model category theory
+### In terms of model category theory {#ModelCategory}
 
 Hypercomplete [[∞-stack]] [[(∞,1)-topos]]es are precisely those that are [[presentable (∞,1)-category|presented]] by the local [[Andre Joyal|Joyal]]-Jardine [[model structure on simplicial presheaves]], where weak equivalences of simplicial presheaves are those morphisms that induce isomorphisms on homotopy sheaves. In these models the fibrant objects are those simplical presheaves that satisfy [[descent]] over all [[hypercover]]s.
 
@@ -94,14 +94,23 @@ This is [[Higher Topos Theory|HTT, prop. 6.5.2.14]].
 +-- {: .proof}
 ###### Proof
 
-As discussed at [[(∞,1)-category of (∞,1)-presheaves]] we have that the global model structure presents the $(\infty,1)$-presheaves:
+The strategy is to form the localization in a 2-step process, where
+we first just form the Cech-localization, and then from that the 
+full hypercompletion. For that notice that among the weak equivalences in the Joyal-Jardine [[local model structure on simplicial presheaves]] are in particular the ordinary covering [[sieve]]s $S(\{U_i\}) \hookrightarrow j(U)$
+(here $j$ is the [[Yoneda embedding]]) associated with a [[cover]]in family $\{U_i \to U\}$ in the [[site]] $C$:
+
+since $C$ is an ordinary category, the simplicial presheaves $S(\{U_i\})$ and $j(U)$ have vanishing presheaves of homotopy groups in positive degree, while they coindide with their $\pi_0$-presheaves. Since the [[sheafification]] of $S(\{U_i\})$ is isomorphic to $j(U)$, by definition, it follows that the same holds for the $\pi_0$-presheaves and trivially for the $\pi_n$-presheaves. So $S(\{U_i\}) \to j(U)$ is a Joyal-Jardine weak equivalence. 
+
+We will now first localize with respect to these morphisms to obtain the Cech-localization whose fibrant objects are [[(∞,1)-sheaves]]. The point is that on these fibrant objects then, the Joyal-Jardine sheaves of homotopy groups can be seen to coincide with the [[categorical homotopy groups in an (∞,1)-topos|(∞,1)-categorical homotopy sheaves]] in terms of which [[hypercompletion]] is defined.
+
+To start with, 
+as discussed at [[(∞,1)-category of (∞,1)-presheaves]] 
+we have that the global model structure presents the $(\infty,1)$-presheaves:
 
 $$
   ([C^{op}, sSet]_{inj})^\circ \simeq PSh_{(\infty,1)}(C)
   \,.
 $$
-
-For $\{U_i \to U\}$ a [[covering]] of an object in $C$, write $S(\{U_i\}) \hookrightarrow j(U)$ for the corresponding [[sieve]]/subfunctor, regarded as a simplicially constant simplicial presheaf.
 
 Observe that 
 
@@ -110,18 +119,13 @@ Observe that
 1. hence since every object is cofibrant, the morphism $S(\{U_i\}) \to j(U)$
    is in $([C^{op}, sSet]_{inj})^\circ$;
 
-1. under the abocve identification it is an [[monomorphism in an (∞,1)-category|(∞,1)-monomorphism]] in $PSh_{(\infty,1)}(C)$.
+1. under the abovee identification it is an [[monomorphism in an (∞,1)-category|(∞,1)-monomorphism]] in $PSh_{(\infty,1)}(C)$ 
 
-Therefore the [[topological localization]] of $PSh_{(\infty,1)}(C)$ at these monomorphisms, i.e. the [[(∞,1)-category of (∞,1)-sheaves]] on $C$ is presented by the [[Bousfield localization of model categories|left Bousfield localizaiton]] $[C^{op}, sSet]_{inj,cov}$ of $[C^{op}, sSet]_{inj}$ at these covering subfunctors.
+   (discuss this bit in more detail...).
 
-Next observe that every [[sieve]] inclusion $S(\{U_i\}) \to j(U)$ induces an isomorphism on homotopy sheaves: all homotopy sheaves in positive degree are trivial anyway, and in degree 0 they are equal, precisely because under (ordinarty) [[sheafification]] the subfunctor $S(\{U_i\})$ becomes isomorphic to $j(U)$). So these subfunctors form a proper subset of the class of weak equivalences of $[C^{op}, sSet]_{inj,loc}$.
+Therefore the [[topological localization]] of $PSh_{(\infty,1)}(C)$ at these monomorphisms, i.e. the [[(∞,1)-category of (∞,1)-sheaves]] on $C$ is presented by the [[Bousfield localization of model categories|left Bousfield localization]] $[C^{op}, sSet]_{inj,cov}$ of $[C^{op}, sSet]_{inj}$ at the covering subfunctors $S(\{U_i\}) \to j(U)$.
 
-Therefore the [[Bousfield localization of model categories|left Bousfield localization]] at isos on homotopy sheaves can be done (if it exists, and we know it exists) in two steps, first localizing at just the covers, then at the isos on homotopy sheaves.
-
-The crucial observation now is that under the above identification, isos on homotopy sheaves in $[C^{op}, sSet]_{inj,loc}$ are precisely identified with the $\infty$-[[connected]] morphisms in $PSh_{(\infty,1)}(C)$. (...details...) 
-
-
-So in total we obatain the picture
+By the above remark, the Joyal-Jardine localization $[C^{op}, sSet]_{proj,loc}$ that we are after is a further localization of this Cech localization : we have the bottom row in the following diagram, and want to see that the top left corner is as indicated:
 
 $$
   \array{
@@ -153,6 +157,16 @@ $$
   }
   \,.
 $$
+
+Now recall that the [[categorical homotopy groups in an (∞,1)-topos]] of an object $X$ are defined by first forming the [[power]]ing $X^{* \to S^n} : X^{S^n} \to X$ and then paassing to the 0-[[truncated|truncation]] $\tau_{\leq 0} ( X^{S^n} \to X)$ of this object in the [[over quasi-category|over (∞,1)-category]].
+
+By the discussion at <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">Tensoring and cotensoring with an ∞-groupoid</a> we have that this powering operation is on fibrant objects modeled by the powering in the [[sSet]]-[[enriched model category]] $[C^{op}, sSet]_{inj,cov}$. But the powering of [[simplicial presheaves]] by [[simplicial set]] is just objectwise the [[internal hom]] of simplicial sets. In terms of this are defined the objectwise [[simplicial homotopy group]]s and hence the Joyal-Jardine homotopy-presheaves.
+
+Furthermore, if $X \in [C^{op}, sSet]_{inj,cov}$ is fibrant, it satisfies [[descent for simplicial presheaves]] at [[Cech cover]]s. Since powering is a [[Quillen bifunctor]], the same is then true for $X^S$, formed in the model category, so $X^S$ is an $\infty$-stack. But that means its 0-[[truncated|truncation]] $\tau_{\leq 0}(X^{S^n})$ is an ordinary [[sheaf]]. 
+
+In total this shows that _on fibrant objects_ $X$ in $[C^{op}, sSet]_{inj,cov}$, the Joyal-Jardine homotopy sheaves coincide with the $(\infty,1)$-categorical homotopy sheaves of the object $X$. 
+
+It remains to observe that under left [[Bousfield localization of model categories|Bousfield lcoalization]], the new fibrant objects are precisely those old fibrant objects that are also [[local object]]s with respect to the morphisms at which one localizes. With the above this implies that the left Bousfield localization $[C^{op}, sSet]_{inj,cov} \to [C^{op}, sSet]_{inj,loc}$ does model the [[hypercompletion]] $Sh_{(\infty,1)}(C) \to \widehat {Sh_{(\infty,1)}}(C)$.
 
 
 =--
