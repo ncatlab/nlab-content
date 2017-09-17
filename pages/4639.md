@@ -150,6 +150,9 @@ in the context of [[function algebras on ∞-stacks]].
 
 Given a [[monoidal category]] $C$, one may define a _line object in $C$_ to be an object $L$ such that the tensoring [[functor]]  $- \otimes L : C \to C$ has an [[inverse]].
 
+## Related concepts
+
+* [[2-line]]
 
 
 [[!redirects line object]]
