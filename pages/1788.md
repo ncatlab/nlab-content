@@ -197,6 +197,43 @@ Can we refer to \ref{first} or \ref{second}?
 
 ***
 
+Why has this **_elementary topos_{: style="font-style: normal"}** stopped working?
+
+<a id="anchor"></a>
+
+$$
+\widehat{\mathbb{C}} \, \underoverset{\underoverset{f_{*}}{\perp }{\rightarrow }}{\underoverset{\perp }{f_{!}}{\rightarrow }}{\longleftarrow \scriptsize f^{*} - \,} \widehat{\mathbb{D}}
+$$
+
+$$
+\mathcal{E}
+\underoverset{\underoverset{f_*}{\perp}{\rightarrow}}{\underoverset{\perp}{f_!}{\rightarrow}}{\longleftarrow {\scriptsize f^*} -}
+\mathcal{F}
+$$
+
+***
+
+What about anchors in lists?
+
+* <p id="refa"></p>
+  The first
+* <a id="refb"></a>
+  The second
+* <span id="refe"></span>
+  The second and a halfth
+* <p></p>
+  +-- {: #refc}
+  =--
+  The third
+
+* 
+  +-- {: #refd}
+  =--
+  The fourth
+
+* {: #reff } The sixth
+
+
 category: meta
 
 [[!redirects sandbox]]
