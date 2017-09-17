@@ -32,7 +32,7 @@ As you can see from the right-hand sides of the above sequence of definitions, o
 
 The concept of subset as it appears here generalises to [[subobject]] in category theory.  To be precise, a subset of $A$ is exactly a subobject of $A$ when $A$ is thought of as an object of the category [[Set]].
 
-When the abstract set $A$ is fixed, a subset $B$ of $A$ may be thought of as a __concrete set__; compare [[concrete group]] and [[concrete category]] (which are both concrete in similar but not quite analogous ways).
+When the abstract set $A$ is fixed, a subset $B$ of $A$ may be thought of as a __[[concrete structure|concrete]] set__.
 
 
 [[!redirects subset]]
