@@ -149,7 +149,12 @@ If the interval is moreover cocommutative, then the same is true for every symme
 
 This is [BergerMoerdijk, theorem 2.1](#BergerMoerdiskAlgebras), following ([BergerMoerdijk-Homotopy, theorem 3.2](#BergerMoerdijkHomotopy)). For more details see [[model structure on operads]].
 
++-- {: .un_remark}
+###### Remark
 
+Since the coalgebra interval in the [[category of chain complexes]] is not cocommutative, this case requires special discussion, as some of the statements below will not apply to it. For more on this case see [[model structure on dg-algebras over an operad]].
+
+=--
 
 ### Rectification of algebras
 
