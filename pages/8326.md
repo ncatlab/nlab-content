@@ -16,13 +16,14 @@ This page collects resources related to
 
 * [[Georg Hegel]]
 
-  _Wissenschaft der Logik_ ( _Science of Logic_ )
+  _Wissenschaft der Logik_ ( _Science of Logic_)
 
   Volume 1, _The objective logic_
 
   1812, 1831
 
-  ([English web version](http://www.marxists.org/reference/archive/hegel/works/hl/), [German web version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
+  ([English hyperlinked version](http://www.marxists.org/reference/archive/hegel/works/hl/),
+ [German hyperlinked version](http://hegel.logik.2.abcphil.de), [German raw text version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
 
 on, not quite _[[logic]]_ in the usual sense, but more something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58))).
 
@@ -33,7 +34,7 @@ on, not quite _[[logic]]_ in the usual sense, but more something like _[[logos]]
 ## Survey
  {#Survey}
 
-> With Hegel you're getting what seems to us today a curious package. The whole dynamic (or 'dialectic') of the unfolding of the Logik is prior to any actual thinking, realised in concrete humans. In fact, the world, and that part of it which is human thought, is the Idea (or Spirit) realising itself. I say 'curious', but in a way I'm hearing echoes of this in things Urs is suggesting, as though the universe worked itself out according to type theory. For Hegel one isn't to be a Kantian, where what one theorises about the universe is just how the universe is taken up by the human understanding, with the further idea that this will be limited in certain ways, e.g., no access to the thing-in-itself. For Hegel, the human mind itself is part of the universe and as such part of the unfolding of the Idea/Spirit. $[\cdots]$ It's a dizzying picture which tends either to delight or revolt people. $[$ See at _[[absolute idealism]]_ $]$ ([Corfield](http://nforum.mathforge.org/discussion/4117/the-wiki-history-of-the-universe/?Focus=34343#Comment_34343))
+> With Hegel you're getting what seems to us today a curious package. The whole dynamic (or '[[dialectic]]') of the unfolding of the [[logos|Logik]] is prior to any actual thinking, realised in concrete humans. In fact, the world, and that part of it which is human thought, is the Idea (or Spirit) realising itself. I say 'curious', but in a way I'm hearing echoes of this in things Urs is suggesting, as though the universe worked itself out according to [[type theory]]. For Hegel one isn't to be a Kantian, where what one theorises about the universe is just how the universe is taken up by the human understanding, with the further idea that this will be limited in certain ways, e.g., no access to the thing-in-itself. For Hegel, the human mind itself is part of the universe and as such part of the unfolding of the Idea/Spirit. $[\cdots]$ It's a dizzying picture which tends either to delight or revolt people. $[$ See at _[[absolute idealism]]_ $]$ ([Corfield](http://nforum.mathforge.org/discussion/4117/the-wiki-history-of-the-universe/?Focus=34343#Comment_34343))
 
 
 ## Topics of Volume One: The objective logic
@@ -105,6 +106,7 @@ We find the following rough dictionary between Hegel's informal terms and formal
 
 | Hegel's logic |  type theory |
 |-----|------|
+| quality | $\sim$ [[type]] |
 | moment | [[modality]] |
 | unity of opposites |  [[adjoint modality]] |
 | ground | [[antecedent]] |
@@ -121,7 +123,12 @@ We find the following rough dictionary between Hegel's informal terms and formal
 
 
 
-## Book one: The Doctrine of being
+## **Book one** Die Lehre vom Sein / The Doctrine of Being
+
+### $\;\;$ Womit muss der Anfang der Wissenschaft gemacht werden?
+
+### $\;\;$ Allgemeine Einteilung des Seins
+
 
 ### First section: Determinateness (Quality)
 
@@ -366,10 +373,12 @@ The [[continuum]].
 #### Second chapter. Quantum
 
 
+### Third section. The measure.
 
 
 
-## Book two: The doctrine of essence
+
+## **Book two** Die Lehre vom Wesen / The doctrine of essence 
 
 ### Reflection
 
@@ -438,8 +447,9 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 [[term introduction]] in [[natural deduction]]
 
 
+## **Book three** Die Lehre vom Begriff / The doctrine of the notion
 
-### Third section. The measure.
+
 
 
 ## Related entries
