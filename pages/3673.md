@@ -61,7 +61,9 @@ Sufficient conditions for this to define a cofibrantly generated model category 
 
    * $D$ has a fibrant [[resolution|replacement]] functor;
 
-   * and $D$ has functorial [[path object]]s for fibrant objects.
+   * and $D$ has functorial [[path object]]s for fibrant objects
+     
+     (meaning: a factorization of the [[diagonal]] $\Delta : A \to A \times A$ as a weak equivalence followed by a fibration (under $U$) $\Delta : A \stackrel{\simeq}{\to} P(A) \stackrel{fib}{\to} A \times A$, functorial in $A$).
 
 If these conditions are met, then for $I$ (resp. $J$) the set of generating (acyclic) cofibrations in $C$, the image set $F(I)$ (resp. $F(J)$) forms the set of generating (acyclic) cofibrations in $D$.
 
