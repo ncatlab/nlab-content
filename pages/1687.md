@@ -19,9 +19,11 @@
 
 ## Definition
 
+### General
+
 In full generality, we have the following definition of _gerbe_
 
-+-- {: .un_defn}
++-- {: .num_defn #GeneralDef}
 ###### Definition
 
 Given an [[(∞,1)-topos]] $\mathbf{X}$, a **gerbe** in $\mathbf{X}$ is an [[object]] $\mathcal{G} \in \mathbf{X}$ that is
@@ -32,7 +34,6 @@ Given an [[(∞,1)-topos]] $\mathbf{X}$, a **gerbe** in $\mathbf{X}$ is an [[obj
 
 =--
 
-We discuss a bit what this means.
 
 The first condition says that a gerbe is an object in the [[(2,1)-topos]] $\tau_{\leq 1 } \mathbf{X} \hookrightarrow \mathbf{X}$ inside $\mathbf{X}$. This means that for $C$ any [[(∞,1)-site]] of definition for $\mathbf{X}$, a gerbe is a [[(2,1)-sheaf]] on $C$, $\mathcal{G} \in Sh_{(2,1)}(C)$: a [[stack]] on $C$.
 
@@ -50,7 +51,51 @@ More precisely, we may associate to any $X \in C :=$ [[Top]] or $X \in C :=$ [[D
 
 Equivalent to this is the [[over-(∞,1)-topos|over-(2,1)-topos]] $\tau_{\leq 1} \mathbf{H}/j(X)$, where $\tau_{\leq 1}\mathbf{H} := Sh_{(2,1)}(C)$ is the [[big topos|big]] [[(2,1)-topos]] over $C$ (and $j$ denotes its [[(∞,1)-Yoneda embedding|(2,1)-Yoneda embedding]]).
 
-Since this $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] we may think of its objects a general [[topological ∞-groupoid|continuous ∞-groupoid]]s or [[∞-Lie groupoid|smooth ∞-groupoid]]s. In large parts of the literatur coming after [Giraud](#Giraud) gerbes, or related structures equivalent to them, are described this way in terms of [[topological groupoid]]s and [[Lie groupoid]]s. This perspective is associated with the notion of a _[[bundle gerbe]]_ .
+Since this $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] we may think of its objects a general [[topological ∞-groupoid|continuous ∞-groupoid]]s or [[∞-Lie groupoid|smooth ∞-groupoid]]s. In large parts of the literature coming after [Giraud](#Giraud) gerbes, or related structures equivalent to them, are described this way in terms of [[topological groupoid]]s and [[Lie groupoid]]s. This perspective is associated with the notion of a _[[bundle gerbe]]_ .
+
+### Banded gerbes
+
++-- {: .num_remark #RelationToEMObjects}
+###### Remark
+
+
+The definition \ref{GeneralDef} of gerbe $P$ is almost verbatim that of [[Eilenberg-MacLane object]] in degree 1. The only difference is that the latter is required to have not only the homotopy sheaf $\pi_0 = *$, but even have a "global section" in the form of a morphism $* \to P$.
+
+By the discussion at [[looping and delooping]] we have in an [[equivalence of (∞,1)-categories]]
+
+$$
+  (\Omega \dashv \mathbf{B})
+  :
+  \infty Gpr(\mathcal{X})
+   \stackrel{\overset{\Omega}{\leftarrow}}{\underset{\mathbf{B}}{\to}}
+  \mathcal{X}_{pt, \geq 1}
+$$
+
+between the [[∞-group]] objects in the ambient [[(∞,1)-topos]] $\mathcal{X}$ and the [[pointed object|pointed]] [[connected]] objects.
+
+It follows that a gerbe $P$ that admits a morphism $* \to P$ is the [[delooping]] of its own first [[categorical homotopy groups in an (∞,1)-topos|sheaf of homotopy groups]]
+
+$$
+  P \simeq \mathbf{B} \pi_1(P)
+  \,.
+$$
+
+=--
+
+The following definition characterizes gerbes that are _locally_ of this form. 
+
++-- {: .num_defn #Band}
+###### Definition
+
+Let $G \in Grp(\mathcal{X})$ be a group object. A gerbe $P \in \mathcal{X}$ has **band** $G$ if there exists an [[effective epimorphism]] $U \to *$ and an equivalence
+
+$$
+  P|_U \simeq \mathbf{B}(G|_U)
+  \,.
+$$ 
+
+
+=--
 
 
 
@@ -96,6 +141,9 @@ Introductions include
 * [[Lawrence Breen]], _Notes on 1- and 2-gerbes_ in [[John Baez]], [[Peter May]] (eds.) _[[Towards Higher Categories]]_ ([arXiv:math/0611317](http://arxiv.org/abs/math/0611317)).
   {#Breen}
 
+A discussion from the point of view of [[(infinity,1)-topos theory]] is in 
+
+* Jardine, Luo
 
 The definition for $n$-gerbes as $n$-truncated and $n$-connected objects (see [[∞-gerbe]]) is in
 
