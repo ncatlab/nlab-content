@@ -16,7 +16,7 @@
 
 ## Idea
 
-An [[(∞,1)-site]] is **locally $\infty$-connected** if it has properties that ensure that  the [[(∞,1)-category of (∞,1)-sheaves]] over it is a [[locally ∞-connected (∞,1)-topos]]
+An [[(∞,1)-site]] is **locally $\infty$-connected** if it has properties that ensure that  the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]] over it is a [[locally ∞-connected (∞,1)-topos]]
 
 
 ## Definition
@@ -24,7 +24,7 @@ An [[(∞,1)-site]] is **locally $\infty$-connected** if it has properties that 
 +-- {: .un_def}
 ###### Definition
 
-Call an [[(∞,1)-site]] $C$ **locally contractible** if every constant [[(∞,1)-presheaf]] on it is an [[(∞,1)-sheaf]].
+Call an [[(∞,1)-site]] $C$ **locally contractible** if every constant [[(∞,1)-presheaf]] on it is an [[(∞,1)-sheaf]] in the [[hypercomplete (∞,1)-topos]] over $C$.
 
 =--
 
@@ -36,8 +36,20 @@ Call an [[(∞,1)-site]] $C$ **locally contractible** if every constant [[(∞,1
 By the general notion of [[(∞,1)-colimit]] the constant $(\infty,1)$-presheaf functor has a left [[adjoint (∞,1)-functor]] given by taking colimits
 
 $$
+  Sh_{(\infty,1)}(C)
+    \stackrel{
+       \overset{}{\hookrightarrow}
+    }
+    {
+       \underset{L}{\leftarrow}
+    }
   PSh_{(\infty,1)}(C)
-    \stackrel{\overset{\lim_\to}{\to}}{\underset{Const}{\leftarrow}}}
+    \stackrel{
+       \overset{\lim_\to}{\to}
+    }
+    {
+       \underset{Const}{\leftarrow}
+    }
   \infty Grpd
   \,.
 $$
@@ -45,11 +57,87 @@ $$
 Since the [[(∞,1)-category of (∞,1)-sheaves]] sits by a [[full and faithful (∞,1)-functor]] inside presheaves and by assumption that every constant $(\infty,1)$-presheaf is an $(\infty,1)$-sheaf, this implies that we have also [[natural transformation|natural]] [[equivalence in an (∞,1)-category|equivalences]]
 
 $$
-  Sh(X, Const S) \simeq PSh(C, Const S) \simeq \infty Grpd(\lim_\to C , S)
+  \begin{aligned}
+     Sh(X, L Const S) 
+       &\simeq 
+     PSh(C, Const S)
+     \\
+       & \simeq  
+     \infty Grpd(\lim_\to C , S)
+  \end{aligned}
   \,.
 $$
 
 =--
+
+## Examples
+
++-- {: .un_def}
+###### Proposition
+
+Let $C$ be an 1-[[site]] such that every object $U$ has a [[split hypercover]] $Y \to U$ such that contracting all representables to points yields a weak equivalence. Equivalently, if the [[colimit]] functor $\lim_\to : [C^{op}, sSet] \to sSet$ sends this to a weak equivalence
+
+$$
+  \lim_\to Y \stackrel{\simeq}{\to} \lim_\to U = *
+  \,
+$$
+
+Then $C$ is locally $\infty$-connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may [[presentable (∞,1)-category|present]] $Sh_{(\infty,1)}(C)$ by the projective [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{proj}$ [[Bousfield localization of model categories|left Bousfield localized]] at the [[Cech nerve]] projections $C(\coprod_i U_i) \to U$ for each [[covering]] family $\{U_i \to U\}$ in $C$.
+
+By the discussion of cofibrant replacement at [[model structure on simplicial presheaves]] we have that a [[split hypercover]] $Y \to U$ is a cofibrant [[resolution]] in $[C^{op}, sSet]_{proj, loc}$ of $U$. 
+
+For $S \in sSet$ a [[Kan complex]] let $Const S : C^{op} \to sSet$ the corresponding constant simplicial presheaf. This is fibrant in $[C^{op}, sSet]_{proj}$. Since every split hypercover is cofibrant, it follows that $Const S$ is an $\infty$-sheaf precisely if for all $U \in C$ and some split hypercover $Y \to U$ we have that the morphism on [[derived hom-space]]s
+
+$$
+  [C^{op}, sSet](U, Const S) \to [C^{op}, sSet](Y, Const S)
+$$
+
+is a weak equivalence (of [[Kan complex]]es, necessatily). But we have 
+
+$$
+  [C^{op}, sSet](Y, Const S)
+  \simeq
+   sSet(\lim_\to Y, S)
+$$
+
+and 
+
+$$
+  [C^{op}, sSet](U, Const S) \simeq S
+  \,,
+$$
+
+so that the condition is that 
+
+$$
+  S \to sSet(\lim_\to Y, S)
+$$
+
+is a weak equivalence. This is the case for all $S$ precisely if $\lim_\to S$ is [[contractible]], which is precisely our assumption on $Y$.
+
+=--
+
++-- {: .un_prop}
+###### Corollary
+
+Let $X$ be a [[locally contractible topological space]]. Then $\hat Sh_{(\infty,1)}(C)$ is a [[locally ∞-connected (∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[category of open subsets]] $Op(X)$ is not in general a locally $\infty$-connected site according to the above definition. But there is another site of definition for $\hat Sh_{(\infty,1)}(X)$ which is: the full [[subcategory]] $cOp(X) \hookrightarrow Op(X)$  on the [[contractible]] [[open subset]]s. 
+
+=--
+
 
 ## Related concepts
 
