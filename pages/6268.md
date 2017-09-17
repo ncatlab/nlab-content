@@ -20,6 +20,8 @@
 A **classifying map** or **classifying morphism** for a given [[object]] is a [[morphism]] into a [[classifying space]] that classified this object.
 
 Where can I find a construction of the classifying morphism to a classifying space for a G-bundle with connection - using the connections as a 1-form?
+
+
 ## Examples
 
 * For [[subobject]]s one typically speaks of **characteristic maps** or **characteristic functions**. The corresponding classifiyng space is a _[[subobject classifier]]_ . See there for more.
