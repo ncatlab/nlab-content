@@ -5,7 +5,7 @@
 
 ## Idea
 
-Pairing of a [[chain]] with a [[cochain]]. As opposed to _[[cup product]]_, which pairs to cochains.
+Pairing of a [[chain]] with a [[cochain]]. As opposed to _[[cup product]]_, which pairs two cochains.
 
 ## Related concepts
 
