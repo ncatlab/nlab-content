@@ -48,6 +48,9 @@ _Geometric quantization via push-forward_  or _$Spin^{\mathbb{C}}$-quantization_
 ## References
  {#References}
 
+A survey is in 
+
+* Reyer Sjamaar, _Symplectic reduction and Riemann-Roch formulas for multiplicities_, Bull. Amer. Math. Soc. 33 (1996), 327-338  ([AMS](http://www.ams.org/journals/bull/1996-33-03/S0273-0979-96-00661-1/))
 
 
 The idea originates around
