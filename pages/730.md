@@ -112,6 +112,8 @@ There are important [[model category]] structures on $sSet$.
 
 * **sSet**, [[asSet]]
 
+* [[Ho(sSet)]]
+
 
 category: category
 
