@@ -5,7 +5,7 @@
 
 ## Idea
 
-Stone duality is a subject comprising various [[dualities]] between [[space and quantity]] in the area of general topology and topological algebra.
+Stone duality is a subject comprising various [[dualities]] between [[space and quantity]] in the area of general [[topology]] and topological algebra.
 
 
 ## Particular cases
