@@ -1,16 +1,54 @@
 
-#Contents#
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Reductive groups#
 * table of contents
 {:toc}
 
-## Reductive Lie groups
+## Definition
 
-### Definition
++-- {: .num_defn}
+###### Definition
 
 A [[Lie group]] $G$ is called _reductive_ if its [[Lie algebra]] $\mathfrak{g}$ is _reductive_ , which is the case if it is the the [[direct sum]] of an abelian and a [[semisimple Lie algebra]]. 
 
-### Properties
+=--
 
-A Lie algebra is reductive if and only if its [[adjoint representation]] is [[completely reducible representation|completely reducible]], but this does not imply that all of its finite dimensional representations are completely reducible. 
++-- {: .num_remark}
+###### Remark
 
-The concept of reductive is not quite the same for Lie groups as it is for algebraic groups because a reductive Lie group can be the group of real points of a unipotent algebraic group.
+A Lie algebra is reductive if and only if its [[adjoint representation]] is [[completely reducible]], but this does not imply that all of its finite dimensional representations are completely reducible. 
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The concept of reductive is not quite the same for [[Lie groups]] as it is for [[algebraic groups]] because a reductive Lie group can be the group of real points of a unipotent algebraic group.
+
+=--
+
+
+## Related concepts
+
+* [[semisimple Lie group]]
+
+
+## References
+
+* Wikipedia, _[Reductive group](http://en.wikipedia.org/wiki/Reductive_group)_
+
+[[!redirects reductive groups]]
+
+[[!redirects reductive Lie group]]
+[[!redirects reductive Lie groups]]
