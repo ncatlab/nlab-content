@@ -144,3 +144,8 @@ More details are in
 
 [[!redirects Pontrjagin-Thom construction]]
 [[!redirects Pontryagin-Thom construction]]
+
+[[!redirects umkehr map]]
+[[!redirects umkehr maps]]
+[[!redirects Umkehr map]]
+[[!redirects Umkehr maps]]
