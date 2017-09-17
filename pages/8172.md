@@ -71,7 +71,9 @@ $$
   \,.
 $$
 
-The Adams spectral sequence computes the [[kernels]] of the morphisms on [[homotopy groups]] of this map. ([Lurie 10, theorem 2](#Lurie10))
+The Adams spectral sequence computes the [[kernels]] of the morphisms on [[homotopy groups]] of this map. 
+
+In this form this appears as ([Lurie 10, theorem 2](#Lurie10)). For the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
 
 ## Properties
 
@@ -83,6 +85,8 @@ $\pi_{n+k}(S^n)$  is the [[Steenrod algebra]] (for given prime $p$).
 ## Related concepts
 
 * [[Adams-Novikov spectral sequence]]
+
+* [[May spectral sequence]]
 
 * [[Steenrod algebra]]
 
