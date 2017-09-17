@@ -9,6 +9,31 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The field of [[quantum field theory]] started out as a description of the [[fundamental particle]]s that are observed in experiment, such as [[electron]]s and [[photon]]s.
+
+However, even so, abstractly the formalization of the concept of _particle_ within [[QFT]]s is somewhat subtle.
+
+If the quantum field theory is on [[Minkowski space]] and comes with a [[Hilbert space|Hilbert]] [[space of states]] on which thus the  [[Poincare group]] of translations, rotations and boosts in Minkowski space acts, the massive _particle_ excitations of the theory can be found in the discrete spectrum of the time translation operator as the [[irreducible representation|irreducible]] [[unitary representations of the Poincare group]].
+
+For QFTs on [[curved]] [[spacetimes]] the situation is more subtle.
+
+Often, however, QFTs are considered as [[quantization]]s of given [[Lagrangian]]s. In these cases one often identifies their particle content with that explicitly encoded by the Lagrangian. Notably when that ariseses from [[second quantization]] of some 1-dimensional [[sigma-model]], the particles of the theory are those described by these sigma-models.
+
+## References
+
+Chapter VI of 
+
+* [[Rudolf Haag]], _[[Local Quantum Physics]]_
+
+discusses how to extract notions of particles from a [[local net of observables]] satisfying the [[Haag-Kastler axioms]].
+
+## Related concepts
 
 * [[relativistic particle]], [[spinning particle]], [[superparticle]]
 
