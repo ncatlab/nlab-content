@@ -10,13 +10,13 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea
 
-These are notes on
+This are notes on
 
 * [[Jacob Lurie]], _$\mathbb{E}[k]$-Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
@@ -29,7 +29,7 @@ A major application in the second part of the article is the study of [[topologi
 
 ### Grouplike monoid objects {#GrouplikeMonoid}
 
-Let $\mathcal{X}$ be an [[∞-stack]] [[(∞,1)-topos]] and $X : Ass \to \mathcal{X}$ be a monoid object in $\mathcal{X}$.  Say that $X$ is _grouplike_ if the composite
+Let $\mathcal{X}$ be an [[∞-stack]] [[(∞,1)-topos]] and $X : $ [[Assoc]] $\to \mathcal{X}$ be a [[monoid]] object in $\mathcal{X}$.  Say that $X$ is _grouplike_ if the composite
 
 $$
   \Delta^{op} \to Ass \to \mathcal{X}
@@ -39,7 +39,7 @@ $$
 
 is a [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathcal{X}$.
 
-Say an $\mathbb{E}[1]$-algebra object is grouplike if it is grouplike as an $Ass$-monoid. Say that an $\mathbb{E}[k]$-algebra object in $\mathcal{X}$ is grouplike is the restriction along $\mathbb{E}[1] \hookrightarrow \mathbb{E}[k]$ is.
+Say an $\mathbb{E}[1]$-algebra object is grouplike if it is grouplike as an [[Assoc]]-monoid. Say that an $\mathbb{E}[k]$-algebra object in $\mathcal{X}$ is grouplike is the restriction along $\mathbb{E}[1] \hookrightarrow \mathbb{E}[k]$ is.
 Write 
 
 $$
@@ -74,7 +74,7 @@ This is [[Ek-Algebras|EKAlg, theorem 1.3.6.]].
 
 =--
 
-Specifically for $\mathcal{X} = Top$, this refines to the classical theorem by [[Peter May]]
+Specifically for $\mathcal{X} = Top$, this reduces to the classical theorem by [[Peter May]]
 
 +-- {: .un_theorem}
 ###### Theorem (May recognition theorem)
