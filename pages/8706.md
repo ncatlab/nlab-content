@@ -59,7 +59,7 @@ where now $\mathbb{Z}$ is regarded as a chain complex concentrated in degree 0.
 The **reduced singular chain complex** $\tilde C_\bullet(X)$ of $X$ is the [[kernel]] of the augmentation map, the chain complex sitting in the [[short exact sequence]]
 
 $$
-  0 \to \tilde C_\bullet(C) \to C_\bullet(X) \stackrel{\epsilon}{\to} \mathbb{Z} \to 0
+  0 \to \tilde C_\bullet(X) \to C_\bullet(X) \stackrel{\epsilon}{\to} \mathbb{Z} \to 0
   \,.
 $$
 
@@ -253,7 +253,7 @@ Therefore we have a [[short exact sequence]] as shown in the top of this diagram
 
 $$
   \array{
-    0 &\to& H_0(*) &\stackrel{H_0(i)}{\hookrightarrow}&
+    0 &\to& H_0(*) &\stackrel{H_0(x)}{\hookrightarrow}&
     H_0(X) &\stackrel{}{\to}& H_0(X,*)
     &\to&
     0
