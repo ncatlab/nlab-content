@@ -1,14 +1,14 @@
 ## Definition
 
-Let $A$ be an abelian group, let $p$ be a prime number.
+Let $A$ be an abelian group and let $p$ be a prime number.
 
-The *$p$-adic Tate Module* $T_p(A)$ of $A$ is defined to limit
+The *$p$-adic Tate Module* $T_p(A)$ of $A$ is defined as the limit
 
 $$T_p(A):=lim_n A[p^n]:=lim_n ker(A\stackrel{\cdot p^n }{\to}A)$$
 
-of the directed diagram given by kernels of the endomorphism of $A$ defined by multiplication with $p^n$ and transition maps $d_i:=(\cdot p):A[p^{n+1}]\to A[p^n]$.
+of the directed diagram given by kernels of the endomorphisms of $A$ defined by multiplication by $p^n$ with transition maps $d_i:=(\cdot p):A[p^{n+1}]\to A[p^n]$.
 
-The Tate module can equivalently be described in terms of the endorphism ring of the [[Prüfer group]].
+The Tate module can equivalently be described in terms of the endomorphism ring of the [[Prüfer group]].
 
 ## References
 
