@@ -5,7 +5,7 @@
 | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_p[t]$ ([[polynomials]]) |   |
 | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_p(t)$ ([[rational functions]])  |  |
 | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_p((t))$ ([[Laurent series]]) |   |
-| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] of an [[algebraic curve]] $X$ over $k$ | [[structure sheaf]] $\mathcal{O}_\Sigma$ (?)  |
+| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] of an [[algebraic curve]] $X$ over $k$ | [[sheaf of rational functions]] $K_\Sigma$   |
 | [[spectrum of a commutative ring|spectrum]] of $K$ together with archimedean valuation [[places]] | $X$ |  [[Riemann surface]] $\Sigma$ |
 | [[Riemann zeta function]] |  | [[zeta function of a Riemann surface]] |
 
