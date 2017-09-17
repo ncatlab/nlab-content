@@ -1,0 +1,3 @@
+__Frederic Denef__ is a theoretical physicist at Leuven, Belgium. Most of his research is related to [[string theory]], including its connections to cosmology, black holes, mathematical physics and the formal analogy of holography in condensed matter theory.  
+
+* [web](http://www.kuleuven.be/wieiswie/en/person/00009261), [publications](https://lirias.kuleuven.be/cv?u=U0009261)
