@@ -1,2 +1,4 @@
 * Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_
 * S. Helgason, _Group representations and symmetric spaces_, Proc. ICM. Nice 1970, vol. 2, 313-320, [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.pdf), [djvu](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.djvu) 
+
+category: people
