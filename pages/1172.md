@@ -10,7 +10,7 @@ A _Cauchy space_ is a generalisation of a [[metric space]] with a bare minimum o
 
 ## Definitions
 
-A __Cauchy space__ is a set $S$ together with a collection of [[proper filters]] declared to be __Cauchy filters__.  These must satisfy axioms:
+A __Cauchy space__ is a set $S$ together with a collection of [[proper filters]] declared to be __[[Cauchy filters]]__.  These must satisfy axioms:
 
 1. Centred: The principal ultrafilter $F_x = \{ A \;|\; x \in A \}$ at $x$ is Cauchy;
 2. Isotone: If $F \subseteq G$ and $F$ is a Cauchy filter (and $G$ is at least a proper filter), then $G$ is Cauchy;
@@ -21,7 +21,7 @@ That is, the set of Cauchy filters is a local filter of proper filters that cont
 The definition can also be phrased in terms of [[nets]]; a __[[Cauchy net]]__ is a net whose [[eventuality filter]] is Cauchy.  In particular, a __[[Cauchy sequence]]__ is a [[sequence]] whose eventuality filter is Cauchy.
 
 
-The [[morphisms]] of Cauchy spaces are the Cauchy-continuous functions; a [[function]] $f$ between Cauchy spaces is __Cauchy-continuous__ if $f(F)$ is a ([[filterbase|base]] of a) Cauchy filter whenever $F$ is.  In this way, Cauchy spaces form a [[concrete category]] $Cau$.
+The [[morphisms]] of Cauchy spaces are the Cauchy-continuous functions; a [[function]] $f$ between Cauchy spaces is __Cauchy-continuous__ if $f(F)$ is a ([[filterbase|base]] of a) [[Cauchy filter]] whenever $F$ is.  In this way, Cauchy spaces form a [[concrete category]] $Cau$.
 
 
 ## Examples
@@ -37,7 +37,7 @@ More generally, any [[uniform space]] is a Cauchy space: $F$ is a Cauchy filter 
 Every Cauchy space is a [[convergence space]]; $F \to x$ if the intersection of $F$ with the principal ultrafilter $F_x$ is Cauchy.  Note that any convergent filter must be Cauchy.  Conversely, if every Cauchy filter is convergent, then the Cauchy space is called __[[complete space|complete]]__.
 
 
-The set of Cauchy filters on a Cauchy space has a natural Cauchy structure which is complete and (as a convergence space) [[preregular space|preregular]]; we identify the indistinguishable Cauchy filters to get a [[Hausdorff space]], the Hausdorff __[[Cauchy completion|completion]]__ of the original Cauchy space.  The complete Hausdorff Cauchy spaces thus form a [[reflective subcategory]] of $Cau$.  This completion agrees with the completion of a metric or uniform space; that is, Cauchy completion, even of a metric space, is an operation on its Cauchy structure only.
+The set of [[Cauchy filters]] on a Cauchy space has a natural Cauchy structure which is complete and (as a convergence space) [[preregular space|preregular]]; we identify the indistinguishable Cauchy filters to get a [[Hausdorff space]], the Hausdorff __[[Cauchy completion|completion]]__ of the original Cauchy space.  The complete Hausdorff Cauchy spaces thus form a [[reflective subcategory]] of $Cau$.  This completion agrees with the completion of a metric or uniform space; that is, Cauchy completion, even of a metric space, is an operation on its Cauchy structure only.
 
 
 A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bounded__) if every filter is contained in a Cauchy filter.  Equivalently (assuming the [[ultrafilter theorem]], a weak form of the [[axiom of choice]]), $S$ is precompact iff every [[ultrafilter]] is Cauchy.  A Cauchy space is [[compact space|compact]] (as a convergence space) iff it is both complete and precompact.  Conversely, it is precompact iff its completion is compact.
@@ -50,9 +50,6 @@ Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker
 
 [[!redirects Cauchy space]]
 [[!redirects Cauchy spaces]]
-
-[[!redirects Cauchy filter]]
-[[!redirects Cauchy filters]]
 
 [[!redirects Cauchy map]]
 [[!redirects Cauchy maps]]
