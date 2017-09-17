@@ -1,0 +1,4 @@
+
+
+A [[set]] $S$ of [[elements]] of an $R$-[[module]] is _linearly independent_ is the only [[linear combination]] that gives the 0-element has all [[coefficients]] equal to 0.
+
