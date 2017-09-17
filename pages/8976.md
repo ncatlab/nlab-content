@@ -1,50 +1,224 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[logic]] a _universal closure operator_ is [[idempotent monad]] (or comonad) on the [[subobject classifier]], $\Diamond \colon \Omega \to \Omega$. For $\phi \hookrightarrow X$ a [[subobject]] of $X$/[[proposition]] of [[type]] $X$, its closure $\Diamond \phi \hookrightarrow X$ under $\Diamond$ is the subobject classified by $\Diamond \circ \chi_{\phi}$, where $\chi_\phi$ is the name of $\phi$, hence given by the [[pasting diagram]] of [[pullback]] squares
+In [[logic]] a _universal closure operator_ is a [[monad]]/[[comonad]] on all [[subobject lattices]]  which is compatible with [[pullback]]/[[substitution]]/[[context extension]]. Often one requires an [[idempotent monad]] (or idempotent comonad).
+
+If there is a [[subobject classifier]] then such is given by a [[monad]]/[[comonad]] on that, $\Diamond \colon \Omega \to \Omega$, see the discussion below.
+
+More generally, in [[type theory]] with a [[type of types]] $\Omega$, a universal closure or _[[modal type theory|modality]]_ is an [[idempotent monad]] on $\Omega$, as above.
+
+
+## Definition
+
+
+### For reflective subcategories
+ {#DefinitionForReflectiveSubcategories}
+
+Let $Sh_j(\mathcal{C}) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathcal{E}$ be a [[reflective subcategory]] of a [[topos]] $\mathcal{E}$.
+
+Here we discuss explicit translations between the structure given by the [[localization|reflector]] $L$ and the corresponding closure operator $j \colon \Omega \to \Omega$ (the [[Lawvere-Tierney operator]]) in a way that makes the relation to [[modal type theory]] and [[monads (in computer science)]] most manifest.
+
++-- {: .num_defn #ClosureOperatorOfReflection}
+###### Definition
+
+Given a reflector $\sharp : \mathcal{E} \stackrel{L}{\to} Sh_j(\mathcal{E}) \hookrightarrow \mathcal{E}$, define for each object $X \in \mathcal{E}$ a **closure operator**,
+being a [[functor]] on the [[poset of subobjects]] of $X$
+
+$$
+  c_L : Sub(X) \to Sub(X)
+  \,,
+$$
+
+by sending any [[monomorphism]] $A \hookrightarrow X$ classified by a [[characteristic function]] $\chi_A : X \to \Omega$ to the [[pullback]] $c_L(A)$ in
 
 $$
   \array{
-    \phi &\to& \widehat \Omega
+    c_L(A) &\to& \sharp A
     \\
     \downarrow && \downarrow
     \\
-    \Diamond \phi &\to& &\to& \widehat \Omega
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    X &\stackrel{\chi_X}{\to}& \Omega &\stackrel{\Diamond}{\to}& \Omega
+    X &\to& \sharp X
   }
   \,,
 $$
 
-More generally, in [[type theory]] with a [[type of types]] $\Omega$, a universal closure or _[[modal type theory|modality]]_ is an [[idempotent monad]] on $\Omega$, as above.
+where $X \to \sharp X$ is the [[unit of an adjunction|adjunction unit]].
 
-More generally, in the [[context]]/[[slice category|slice]] over some $Y$, the closure of a map $f \colon X \to Y$ is the [[pullback]] morphism on the left of 
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+This is well defined. Moreover, $c_L$
+commutes with [[pullback]] ([[change of base]]).
+
+=--
+
+This appears as ([Johnstone, lemma A4.3.2](#Johnstone)).
+
++-- {: .num_defn }
+###### Definition
+
+A family of functors $Sub(X) \to Sub(X)$ for all objects $X$ that commutes with [[change of base]] is called a **universal closure operation**.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Given a [[left exact functor|left exact]] reflector $\sharp$ as above with induced closure operation $c_L$, the corresponding Lawvere-Tierney operator $j : \Omega \to \Omega$ is given as the composite
+
+$$
+  j : \Omega \to \sharp \Omega \stackrel{\chi_{\sharp true}}{\to} \Omega  
+  \,,
+$$
+
+where 
+
+* $\Omega \to \sharp \Omega$ is the [[unit of an adjunction|adjunction unit]];
+
+* $\chi_{\sharp true} : \sharp \Omega \to \Omega$ is the [[characteristic function]] of the result of applying $\sharp$ to the [[subobject classifier|universal subobject]]
+
+  $$
+    (* \stackrel{\sharp true}{\hookrightarrow} \sharp \Omega)
+     :=
+    \sharp (* \stackrel{true}{\hookrightarrow} \Omega)
+  $$
+
+  (which is again a [[monomorphism]] since $\sharp$ preserves [[pullbacks]]).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $A \hookrightarrow X$ any [[subobject]] with [[characteristic function]] $\chi_A : X \to \Omega$, we need to show that we have a [[pullback]] [[diagram]]
 
 $$
   \array{
-    Y \times_{\Diamond Y} \Diamond X &\to& \Diamond X
+    c_L(A) &\to& &\to& &\to& *
     \\
-    \downarrow && \downarrow^{\Diamond f}
+    \downarrow && && && \downarrow
     \\
-    Y &\to & \Diamond Y
+    X &\stackrel{\chi_A}{\to}& \Omega
+    &\stackrel{}{\to}&
+    \sharp \Omega
+    &\stackrel{}{\to}&
+    \Omega
   }
   \,.
 $$
 
-For more on this see, for the moment, at _[[Pi-closed morphism]]_.
+The pullback along the rightmost morphism is by definition $# * \to \sharp \Omega$
+
+$$
+  \array{
+    c_L(A) &\to& &\to& # * = * &\to& *
+    \\
+    \downarrow && && \downarrow && \downarrow
+    \\
+    X &\stackrel{\chi_A}{\to}& \Omega
+    &\stackrel{}{\to}&
+    \sharp \Omega
+    &\stackrel{}{\to}&
+    \Omega
+  }
+  \,.
+$$
+
+Moreover, by the [[natural transformation|naturality]] of the [[unit of an adjunction|adjunction unit]] we have a [[commuting diagram]]
+
+
+$$
+  \array{
+    X &\to& \sharp X
+    \\
+    {}^{\mathllap{\chi_A}}\downarrow && \downarrow^{\mathrlap{\sharp \chi_A}}
+    \\
+    \Omega &\to& \sharp \Omega
+  }
+  \,.
+$$
+
+Using this in the remaining bottom morphism of our would-be pullback square we find that equivalently
+
+$$
+  \array{
+    c_L(A) &\to& &\to& # * = * &\to& *
+    \\
+    \downarrow && && \downarrow && \downarrow
+    \\
+    X &\stackrel{}{\to}& \sharp X
+    &\stackrel{\sharp \chi_A}{\to}&
+    \sharp \Omega
+    &\stackrel{}{\to}&
+    \Omega
+  }
+$$
+
+needs to be a pullback diagram. Since $\sharp$ preserves pullbacks we have that also the middle square in 
+
+$$
+  \array{
+    c_L(A) &\to& \sharp A &\to& # * = * &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    X &\stackrel{}{\to}& \sharp X
+    &\stackrel{\sharp \chi_A}{\to}&
+    \sharp \Omega
+    &\stackrel{}{\to}&
+    \Omega
+  }
+$$
+
+is a pullback. But then also the left square is a pullback, by def. \ref{ClosureOperatorOfReflection}. This finally means, by the [[pasting law]], that also the total rectangle is a pullback.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Equivalently, by the [[pasting law]], we have that $j : \Omega \to \Omega$ is the [[characteristic function]] of the $L$-closure, def. \ref{ClosureOperatorOfReflection}, of the universal subobject $* \to \Omega$, because we have a [[pasting diagram]] of [[pullback]] squares
+
+$$
+  \array{
+    c_L(*) &\to& \sharp * = * &\to & * 
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \Omega &\to& \sharp \Omega &\stackrel{\chi_{\sharp true}}{\to} & \Omega
+  }
+  \,.
+$$
+
+In this form the statement appears in the proof of ([Johnstone, Theorem A4.3.9](#Johnstone)).
+
+=--
 
 
 ## Examples
 
-* [[Lawvere-Tierney topology]]
+* In [[Set]] a closure operator is also called a _[[Moore closure]]_. See there for more.
 
-* [[local topos]]
+* In a [[topos]] a universal closure operator as [above](#DefinitionForReflectiveSubcategories) is also called a  _[[Lawvere-Tierney topology]]_.
+
+* For a [[local topos]] there are the closure operators _[[flat modality]] $\dashv$ [[sharp modality]]_.
 
 ## Related concepts
 
@@ -53,11 +227,19 @@ For more on this see, for the moment, at _[[Pi-closed morphism]]_.
 
 ## References
 
-* Wikipedia, _[Closure operator](http://en.wikipedia.org/wiki/Closure_operator)_
+Section A4.4 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+
 
 [[!redirects universal closure operator]]
 [[!redirects closure operators]]
 
 [[!redirects closure operation]]
 [[!redirects closure operations]]
+
+[[!redirects universal closure operation]]
+[[!redirects universal closure operations]]
 
