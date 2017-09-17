@@ -23,25 +23,143 @@ More specifically the space of [[differential geometry|differential geometric]] 
 
 * and equipped with a [[Riemannian metric]] $g$ -- modelling the field of [[gravity]];
 
-* and a $U(1)$-[[gerbe]] with connection $G$; -- modelling the [[Kalb-Ramond field]]
+* and a $U(1)$-[[gerbe]] with connection $G$; -- modelling the [[Kalb-Ramond field]];
 
-admits a certain operation that, roughly, inverts the Riemannian circumference of the torus fibers and mixes the metric with the gerbe data. This is the operation called **T-duality**.
+* possibly a cocycle in [[differential K-theory]] modelling the [[RR-field]];
 
-It was noticed originally in the study of [[conformal field theory|conformal field theories]] in the context of [[string theory]]: the conformal field theory [[sigma-model]]s with target space $X$ turn out to be equivalent as [[quantum field theory|quantum field theories]] for T-dual backgrounds $(X,g,G)$ and $(X',g',G')$ (at least to the approximate degree to which these are realized as full CFTs in the first place).
+
+admits a certain operation that, roughly, inverts the Riemannian circumference of the torus fibers and mixes the metric with the gerbe data, such that the induced 2-dimensional $\sigma$-model QFTs for these backgrounds are equivalent. This is the operation called **T-duality**.
+
+This was noticed originally in the study of [[conformal field theory|conformal field theories]] in the context of [[string theory]]: the conformal field theory [[sigma-model]]s with target space $X$ turn out to be equivalent as [[quantum field theory|quantum field theories]] for T-dual backgrounds $(X,g,G)$ and $(X',g',G')$ (at least to the approximate degree to which these are realized as full CFTs in the first place).
 
 Further generalisations let $X$ be a nontrivial torus bundle, but the T-dual is then generically a bundle of [[noncommutative torus|non-commutative tori]]. (cite Mathai, Rosenberg and Hannabus)
 
-## Path integral heuristics deriving T-duality
+## Path integral heuristics deriving T-duality {#PathIntegral}
 
-The state of the art is still mostly that [[sigma-model]] [[QFT]]s are
-handled in terms of the [[path integral]] formulation, where the 
-[[action functional]] is a natural [[functional]] on the space of 
-differential geometric background data.
+We indicate how one can see T-duality from formal manipulations
+of the [[path integral]] for the [[string theory|string]] [[sigma-model]]. We look at the simplest situation, where the torus bundle in question is a trivial circle bundle over a [[Cartesian space]] carrying the metric induced from the standard flat metric on $\mathbb{R}^n$ and where there are no other nontrivial background fields. In fact, for the purpose of the following computation we can entirely ignore the base of this bundle and consider target space to be nothing but a circle. Since the [[sigma-model]] for this is on the worldsheet just the theory of a single free field with values in $S^1$, this is often also called the "free boson on the circle".
 
-We indicate how one can see T-duality from formal manipulaitons
-of the path integral for the [[string theory|string]].
+This means that the only geometric datum termining the background geometry is the circumference $2 \pi R$ of the fiber of the circle bundle. The statement of T-duality in this situation is that the 2-dimensional $\sigma$-model on this background yields the same 2-dimensional [[CFT]] as that for this kind of background with circumference of the circle being $2 \pi 1/R$.
 
-...
+### A first rough look
+
+A quick way to get an indication for this is to notice that the center-of-mass energy of the string in such a circle-bundle background is
+In terms of the worldsheet theory. In the simplified setup we mentioned before, a string on a circle of radius $R$ has 
+quantized momentum $p = \frac{\ell \in \mathbb{Z}}{R}$. In a state in which the string winds around the circle $m$ times and has $\ell$ quanta of kinetic momentum for propagation around the circle,  its energy is
+
+$$
+  E_0 = \sqrt{p^2 + M^2} = \sqrt{(\ell/R)^2 + (R m)^2 }
+  \,,
+$$
+
+This energy is clearly invariant under exchanging
+
+$$
+  (R, (\ell, p)) \mapsto (\frac{1}{R}, (p,\ell))
+  \,.
+$$
+
+This is of course far from being a proof that the corresponding two [[QFT]]s are equivalent, but it does already capture a good deal of the essence of what T-duality does and why it works.
+
+In slightly more detail, but still at a very rough level, if we denote by
+
+$$
+  X : \Sigma \to S^1_R
+$$
+
+the $\sigma$-model field on the worldsheet $\Sigma = \mathbb{R}^2$ with values in target space $S^1_R$ then T-duality with respect to this circle may be thought of as exchanging worldsheet momentum $\partial_t X$ with worldsheet winding $\partial_\sigma X$.
+
+This then also means that for the open string it exchanges von Neumann boundary conditions $\partial_\sigma X|_{\sigma = 0} = 0$ with Dirichlet boundary conditions $\partial_t X|_{\sigma = 0} = 0$. The first boundary condition is that describing an open string whose endpoints are free to propagate in worldsheet time, whereas the second boundary condition describes a situation where the endpoint of te string is fixed at some point in target space. In terms of the language of geometric target space data, a sigma-model with such a constraint is said to describe a [[D-brane]] in target space: the locus where the endpoints of the string are fixed. This is a first indication that the T-duality operation on geometric background also involves the [[RR-field]].
+
+
+### The path integral
+
+We follow [[Kentaro Hori]]'s [[path integral]] discussion of T-duality. Here the strategy is to consider a path integral over a certain space of auxiliary fields and show or argue that by "algebraically integrating out" some of these in two different ways, the path integral is equivalent to that over two different [[action functional]]s, which describe two T-dual geometric backgrounds.
+
+Let the bounary components of the worldsheet $\Sigma$ be labeled by
+$\partial \Sigma_{(1)}$.
+
+We consider the following fields on the worldsheet:
+
+
+* $\tilde X : \Sigma \to \mathbb{R}/(2\pi/R)\mathbb{Z} = S^1_R$ -- a circle-valued function; this is the standard $\sigma$-model field describing propagation of the string on the circle;
+
+* $X_{i} : \partial \Sigma \to S^1_R$ -- the boundary values of this field;
+
+
+* $b \in \Omega^1(\Sigma, \mathbb{R})$ -- a 1-form; this is the auxiliary field that will not contribute to the dynamics but serve to make the T-duality manifest.
+
+
+Consider then the [[action functional]] on this collection of fields given by the assignment
+
+$$
+  S'_E(\tilde X,b) = \frac{1}{2 \pi}
+  \int_\Sigma
+  (\frac{1}{2} b \wedge \star b  - b \wedge d \tilde X)
+  -
+  \frac{i}{2 \pi} \sum_{i = 1}^s
+  \int_{\partial \Sigma_{(i)}}
+  (\tilde X -a_i) d X_i
+  \,,
+$$ 
+
+where the $(a_i)$ are a collection of real numbers.
+
+We now want to formally perform the [[path integral]] over the fields in two different orders, which should give the same quantum field theories but in terms of different effective action functionals.
+
+If we do first the path integral over the field $b$ then by the general formal rule of "algebraically integrating out a non-dynamical field" which says that we can evaluate this path integral that formally looks like a Gaussian integral by the usual formulas for Gaussian integrals, we obtain the action functional
+
+
+$$
+  \tilde S_E =
+  \frac{1}{4 \pi} 
+  \int_\Sigma d \tilde X \wedge \star d \tilde X
+  +
+  \frac{i}{2\pi}
+  \int_{\partial \Sigma_{(i)}}
+  (\tilde X - a_i)
+  d X_i
+$$
+
+then doing the integral over the boundary values $X_i$ yields
+
+$$
+  \tilde X|_{\partial \Sigma_i} = a_i
+$$
+
+This is the action functional for a $\sigma$-model on $S^1_{1/R}$ with a D-brane at $\tilde X = a_i$.
+
+Now we evaluating the original path integral in a different way, this way first integrating over components of $\tilde X$. To do so, we imagine that we may re-encode the field $\tilde X$ in terms of its de Rham differential
+
+$$
+  d \tilde X = d f + \frac{2\pi}{R}\sum_A \eta_A \omega_A
+$$
+
+where $\eta_A$ are integers and
+
+$$
+  \{\omega_A\} \subset 
+   H^1(\Sigma, \mathbb{Z})
+   \simeq
+   \mathbb{Z}^{\oplus 2g + s - 1}
+ \,.
+$$
+
+Then formally performing the path integral over $f$ yields $d b = 0$ and $b|_{\partial \Sigma} = d X_i$. It follows that $b = d X$ for some other field $X : \Sigma \to S^1_R$. 
+
+So we get the action
+
+$$
+  S_E = \frac{1}{4\pi} \int_\Sigma d X \wedge \star d X
+  +
+  \frac{i}{2 \pi}
+   \sum_{i = 1}^s
+   \int_{\partial \Sigma_i}
+   a_i d X
+$$
+
+in terms of the field $X$.  This is the $\sigma$-model for string propagation on  $S^1_R$. with D-brane wrapped on  $S^1_R$ that carries on its worldvolume a [[gauge field]] given by a constant connection 1-form $a_i$.
+
 
 
 ## Topological T-duality 
@@ -57,7 +175,9 @@ Another approach to the study of T-duality takes a somewhat complementary point 
 
 In this context T-duality is described as an isomorphism of [[standard Courant algebroid]]s. This picture emerged in the study of [[generalized complex geometry]].
 
-### References
+## References
+
+
 
 T-duality is identified as an [[isomorphism]] of [[standard Courant algebroid]]s in section 4 of
 
