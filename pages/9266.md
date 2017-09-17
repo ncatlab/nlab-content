@@ -760,3 +760,6 @@ In conclusion, up to equivalence the bimodule is $L^2(X)$ regarded as a $C(X)-\m
 These are notes related to material that will appear in Master thesis of [[Joost Nuiten]] and [[Stefan Bongers]].
 
 (...)
+
+[[!redirects 2d Poisson-Chern-Simons theory]]
+[[!redirects 2d Poisson-Chern-Simons theories]]
