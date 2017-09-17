@@ -1,4 +1,4 @@
-[[!redirects Gonzalo E. Reyes]]
+[[!redirects G. E. Reyes]]
 [[!redirects Gonzalo Reyes]]
 
 * [blog](http://po-start.com/reyes/)
