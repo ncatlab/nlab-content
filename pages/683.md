@@ -237,7 +237,7 @@ When a strict homotopy limit exists, an arbitrary homotopy limit may be defined 
 
 ### Derivators {#Derivators}
 
-It is noteworthy that the homotopy limit and colimit in a [[category with weak equivalences]] are drastically different from the from the ordinary [[limit]] and colimit in the corresponding [[homotopy category]]: the universal property of the full $(\infty,1)$-categorical limits and colimits crucially does take into account the explicit higher cells and does not work just up to any higher cells.
+It is noteworthy that the homotopy limit and colimit in a [[category with weak equivalences]] are drastically different from the ordinary [[limit]] and colimit in the corresponding [[homotopy category]]: the universal property of the full $(\infty,1)$-categorical limits and colimits crucially does take into account the explicit higher cells and does not work just up to any higher cells.
 
 This (obvious) observation is a very old one and can be seen to be one of the driving forces behind the insight that just working with [[homotopy categories]] misses crucial information, something which today is understood as the statement that a homotopy category is just the [[decategorification]] of an [[(∞,1)-category]].
 
