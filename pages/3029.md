@@ -826,6 +826,57 @@ This is a nonabelian analog of the discussion at _[[mapping cone]]_ in the secti
 ### Abelian group extensions
  {#PropertiesAbelianGroupExtensions}
 
++-- {: .num_remark}
+###### Remark
+
+For $A, G \in $ [[Ab]] $\hookrightarrow$ [[Grp]] even a [[central extension]] $\hat G$ of $G$ by $A$ is not necessarily itself an abelian group. 
+
+=--
+
+But by prop. \ref{ExtractionAndReconstructionConsituteEquivalence} above it is so if the group 2-cocycle that classifies the extension is symmetric:
+
++-- {: .num_defn}
+###### Definition
+
+A 2-cocycle $c \colon G \times G \to A$ in [[group cohomology]] is **symmetric** if
+
+$$
+  \forall_{g_1, g_2 \in G} c(g_1, g_2) = c(g_2, g_1)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+A group 2-cocycle cohomologous to a symmetric group 2-cocycle is itself symmetric. Hence we may speak of symmetric group cohomology classes in degree 2.
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  H^2_{Grp}(G,A)_{sym} \hookrightarrow H^2_{Grp}(G,A)
+$$
+
+for the set (group) of classes of symmetric group 2-cocycles on $G$ with coefficients in $A$. 
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+For $G,A \in Ab \hookrightarrow Grp$, write
+$Ext(G,A)$
+for the subset of equivalence class of abelian group extensions of $G$ by $A$.
+
+=--
 
 The theory of _abelian group extensions_ in [[Ab]] is naturally and classically treated with tools of [[homological algebra]], such as the theory of [[Ext]]-functors.
 
