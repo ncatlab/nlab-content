@@ -780,14 +780,31 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 Alg. Geom. Topol. 13(3), 2013, pp. 1779--1813. ([preprint pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf) and [ArXiv](http://arxiv.org/abs/1011.4784).)
 
 
+[[!redirects fiber sequences]]
+
 [[!redirects fibration sequence]]
 [[!redirects fibration sequences]]
 
 [[!redirects homotopy fiber]]
-[[!redirects homotopy kernel]]
+[[!redirects homotopy fibre]]
+[[!redirects homotopy fibres]]
 [[!redirects homotopy fibers]]
+[[!redirects homotopy kernel]]
+[[!redirects homotopy kernels]]
 
-[[!redirects fiber sequences]]
+[[!redirects homotopy cofiber]]
+[[!redirects homotopy cofibre]]
+[[!redirects homotopy cofibres]]
+[[!redirects homotopy cofibers]]
+[[!redirects homotopy cokernel]]
+[[!redirects homotopy cokernels]]
+
+[[!redirects homotopy co-fiber]]
+[[!redirects homotopy co-fibre]]
+[[!redirects homotopy co-fibres]]
+[[!redirects homotopy co-fibers]]
+[[!redirects homotopy co-kernel]]
+[[!redirects homotopy co-kernels]]
 
 
 
