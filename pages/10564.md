@@ -535,7 +535,7 @@ and specifically in the context of [[parameterized WZW models]] in
 
 referring to 
 
-* {#DistlerSharpe07} [[Jacques Distler]], [[Eric Sharpe]], section 8.5 _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
+* {#DistlerSharpe07} [[Jacques Distler]], [[Eric Sharpe]], section 8.5 of _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
   {#DistlerSharpe10}
 
 Discussion of this in [[motivic quantization|cohomological quantization]] is in 
@@ -548,7 +548,7 @@ based on
 
 A proposal for realizing this via [[(2,1)-dimensional Euclidean field theories and tmf]] is in
 
-* [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
+* {#StolzTeichner11} [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
 
 $\,$
 
