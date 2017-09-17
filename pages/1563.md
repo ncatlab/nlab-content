@@ -37,8 +37,13 @@ See
 
 * _An interview with F. William Lawvere_, [Bulletin of the International Center for Mathematics](http://www.cim.pt/?q=publications) ([part 1, December 2007](http://www.cim.pt/files/publications/b23www.pdf), [part 2, June 2008](http://www.cim.pt/files/publications/b24www.pdf),  [full pdf](http://www.mat.uc.pt/~picado/lawvere/interview.pdf))
 
-for a survey of his academic path and work.
+for a survey of his academic path and work. See also
 
+* Interview by Felice Cardone, March 2019 ([pdf](http://conceptualmathematics.files.wordpress.com/2013/02/lawvereinterview.pdf))
+
+for an interview on his contributions to [[categorical logic]].
+
+For a (somewhat random) list of further links see also at "[conceptual mathematics](http://conceptualmathematics.wordpress.com/2013/02/09/happy-birthday-professor-f-william-lawvere/)".
 
 #Contents#
 * table of contents
