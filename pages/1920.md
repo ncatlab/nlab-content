@@ -47,7 +47,7 @@ $$\array{
 & & & \swarrow & & \searrow & & & \\
 & & R & & & & T S & &\\
 & ^f \swarrow & & \searrow ^g & & ^{T h} \swarrow & & \searrow ^{T k} & \\
-X & & & & T Y & & & & T T Z & \overset{\mu Z}{\rightarrow} & Z}$$
+X & & & & T Y & & & & T T Z & \overset{\mu Z}{\rightarrow} & TZ}$$
 
 A $T$**-multicategory** in $V$ is by definition a [[monad]] in the bicategory described above.  However, it is convenient to use the alternate word *monoid* rather than *monad* here, to avoid confusion with the monad $T$ which lives *on* $V$, and because the relevant morphisms of monoids (see below) are rather different from any of the usual sort of morphisms of monads.
 
