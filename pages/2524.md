@@ -53,7 +53,7 @@ $$
 The [[integral]]
 
 $$
-  \int_X L(j_\infy(-)) : \Gamma(\phi) \to \mathbb{R}
+  \int_X L(j_\infty(-)) : \Gamma(\phi) \to \mathbb{R}
 $$
 
 is the corresponding [[local action functional]].
@@ -65,3 +65,5 @@ is the corresponding [[local action functional]].
 [[!redirects Lagrangian mechanics]]
 
 [[!redirects Lagrangians]]
+
+[[!redirects local Lagrangian]]
