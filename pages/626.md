@@ -65,6 +65,10 @@ See the article by Selinger below for more examples.
 
 * [[surface diagram]]
 
+* [[proof net]]
+
+* [[Feynman diagram]]
+
 ## References
 
 ### Introductory material
