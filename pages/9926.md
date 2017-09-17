@@ -5,9 +5,7 @@
 
 ## Idea
 
-The [[moduli stack of formal groups]] $\mathcal{M}_{FG}$ admits a natural [[stratification]] whose open [[strata]] are labeled by a [[natural number]] called the _[[height of a formal group|height of formal groups]]_.
-
-The [[stratum]] $\mathcal{M}_{FG}^n$ can be identified with the [[homotopy quotient]] $\overline{\mathbb{F}}_{\mathrm{p}_p}// \mathbb{G}$, where the [[group]] $\mathbb{G}$ is the _[[Morava stabilizer group]]_. ([Lurie 10, lect. 19](#LurieLect19))
+The [[moduli stack of formal groups]] $\mathcal{M}_{FG}$ admits a natural [[stratification]] whose open [[strata]] $\mathcal{M}^n_{FG}$ are labeled by a [[natural number]] called the _[[height of a formal group|height of formal groups]]_.
 
 The [[deformation theory]] around these [[strata]] is _Lubin-Tate theory_. 
 
