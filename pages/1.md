@@ -85,11 +85,12 @@ Notice that **you don't need to know any MathML**. Only your browser does. You w
 Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
 
-## Steering Committee 
+## Steering Committee <a href="http://www.5hiva.com/cocktail-dresses/" style="color:#FFFFFF">cocktail-dresses</a>
  {#SteeringCommitte}
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
-<center><h3><a href="http://www.5hiva.com/cocktail-dresses/" style="color:#FFFFFF">cocktail-dresses</a></h3></center>
+
+
 category: meta
 
 [[!redirects HomePage]]
