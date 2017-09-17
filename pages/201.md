@@ -206,6 +206,8 @@ Categories [[enriched category|enriched]] over $Ab$ are called [[additive catego
 
 ## Related concepts
 
+* [[CMon]]
+
 * [[Mod]]
 
 * [[sAb]]
