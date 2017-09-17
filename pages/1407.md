@@ -13,7 +13,7 @@ _Perturbative string theory_ is something at least close to a [[vertical categor
 
 Recall that in [[quantum field theory]] one approach to make sense of the [[path integral]] is the _perturbation series expansion_,  which interprets the path integral as a certain sum over graphs of certain numbers assigned to each graph.
 
-The graphs are called _Feynman graphs_, the numbers assigned to them are called _(renormalized) amplitudes_ and the sum over graphs of (renormalized) amplitudes is the _perturbation series_.
+The graphs are called _Feynman graphs_, the numbers assigned to them are called _([[renormalization|renormalized]]) amplitudes_ and the sum over graphs of (renormalized) amplitudes is the _perturbation series_.
 
 The amplitude assigned to a single graph with $n$ external edges is interpreted as the amplitude for $n$ "quanta" or "particles" of the fields in question to interact in the way indicated by the graph. 
 
@@ -40,7 +40,7 @@ These aspects have motivated the impression that the string perturbation series 
 
 * while the worldsheet 2-d QFT whose correlators are summed over surfaces are themselves much easier to handle than the full target space quantum physics they are used to encode, a fully complete and rigorous theory of 2d QFT is available only in simple special cases. 
 
-* In particular, even though there are fewer arbitrary choices involved in the string perturbation series as compared to the ordinary Feynman perturbation series, one crucial choice still present is that of this wordlsheet 2d QFT. By the above, every choice of worlsheet QFT (called a choice of "vacuum") corresponds to a choice of effective target space geometry (to be thought of as the one that the perturbation series computes the quantum perturbations about) and particle content (see [[2-spectral triple]] for more on that). One would therefore like to understand the space of all worldsheet QFTs whose effective target space geometry and particle content is close to the one experimentally observed. After many years of rather na&iuml;ve approaches to handle or not to handle this, it has more recently at least come to the general attention that there is something to be better understood here.
+* In particular, even though there are fewer arbitrary choices involved in the string perturbation series as compared to the ordinary Feynman perturbation series, one crucial choice still present is that of this worldsheet 2d QFT. By the above, every choice of worlsheet QFT (called a choice of "vacuum") corresponds to a choice of effective target space geometry (to be thought of as the one that the perturbation series computes the quantum perturbations about) and particle content (see [[2-spectral triple]] for more on that). One would therefore like to understand the space of all worldsheet QFTs whose effective target space geometry and particle content is close to the one experimentally observed. After many years of rather na&iuml;ve approaches to handle or not to handle this, it has more recently at least come to the general attention that there is something to be better understood here.
 
 * More fundamentally, already the role of the original perturbation series in quantum field theory is actually not fully understood. It's main success is the observation that truncating or resumming the perturbation series in a more or less ad hoc way, it does yield values that very well describe a plethora of real world measurements.  One imagines that there is a _non-perturbative_ definition of [[quantum field theory]] such that under certain well-defined circumstances the perturbation series does yield an approximation to it and is _a posteriori_ justified by. If so, there should be an analogous nonperturbative definition of string theory. There is a large ratio of speculations on what that might be over solid results about it.
 
@@ -52,7 +52,7 @@ These aspects have motivated the impression that the string perturbation series 
 
 ## References
 
-String theory leads a life somewhere in between the usual physics literature and the usual math literature. Large parts of it are still lacking a satisfactory mathematical formulatio. But every now and then one aspect of the huge edifice of string theory finds a well defined formalization and branches off as a branch of pure mathematics. Famous examples are
+String theory leads a life somewhere in between the usual physics literature and the usual math literature. Large parts of it are still lacking a satisfactory mathematical formulation. But every now and then one aspect of the huge edifice of string theory finds a well defined formalization and branches off as a branch of pure mathematics. Famous examples are
 
 * [[FQFT|topological field theory]]
 
@@ -83,6 +83,10 @@ The question is what the formalism might be that unifies all this into one coher
 An article summarizing information about [[cohomology|cohomological]] models for aspects of string theory and listing plenty of useful further references is
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_
+
+An book trying to summarize the state of the art of capturing mathematical structures fundamental to the definition of perturbative string theory is
+
+* [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
 
 [[!redirects superstring theory]]
