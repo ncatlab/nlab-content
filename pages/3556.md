@@ -1,11 +1,38 @@
-> see also [[hyperdoctrine]]
 
-The general concept of hyperdoctrines, introduced by [[Lawvere]], does for predicate logics precisely what Lindenbaum algebras do for propositional logic, positioning the categorification of logic as a natural extension of the algebraicization of logic. As a specific example:
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
 
-A **first-order hyperdoctrine** (with [[equality]]) consists of a [[category]] with [[finite product]]s $C_T$, along with a [[functor]] $P : C_T^{op} \to HeytAlg_{AdjCyl}$ (where $HeytAlg_{AdjCyl}$ is the [[subcategory]] of [[HeytAlg|the category of Heyting algebras]] containing only those [[morphism]]s with [[left adjoint|left]] and [[right adjoint]]s) such that the following [[Beck-Chevalley condition]] is satisfied: for every [[object]] $A$, the [[left adjoint]]s to $P(\pi)$ for the [[projection]]s $\pi : A \times - \to -$ comprise a [[natural transformation]] from $P(A \times -)$ to $P(-)$, and so do the right adjoints.
+#Contents#
+* table of contents
+{:toc}
 
-With this, we have enough structure to interpret multi-sorted first-order intuitionistic logic with equality, taking the objects of $C_T$ to be sorts and its morphisms to be terms, $P$ to assign to each sort the [[Lindenbaum algebra]] of predicates upon that sort and to each term the operation of substitution of that term into predicates, and the left and right adjoints to $P$ upon projections to provide existential and universal [[quantification]], respectively, with the existence of the further adjoints providing the ability to interpret equality, and the Beck--Chevalley condition ensuring that quantification commutes appropriately with substitution (just as the propositional connectives do).
+## Idea
+
+The general concept of [[hyperdoctrines]], introduced by [[Lawvere]], does for [[predicate logic]] precisely what [[Lindenbaum algebras]] do for [[propositional logic]], positioning the categorical formulation of [[logic]] as a natural extension of the algebraicization of logic. 
+
+## Definition
+
+A **first-order hyperdoctrine** (with [[equality]]) consists of a [[category]] with [[finite products]] $C_T$, along with a [[functor]] $P : C_T^{op} \to HeytAlg_{AdjCyl}$ (where $HeytAlg_{AdjCyl}$ is the [[subcategory]] of [[HeytAlg|the category of Heyting algebras]] containing only those [[morphism]]s with [[left adjoint|left]] and [[right adjoint]]s) such that the following [[Beck-Chevalley condition]] is satisfied: for every [[object]] $A$, the [[left adjoint]]s to $P(\pi)$ for the [[projection]]s $\pi : A \times - \to -$ comprise a [[natural transformation]] from $P(A \times -)$ to $P(-)$, and so do the right adjoints.
+
+### Interpretation
+
+With this, we have enough structure to interpret multi-sorted [[first order logic|first-order]] [[intuitionistic logic]] with equality, taking the objects of $C_T$ to be sorts and its morphisms to be terms, $P$ to assign to each sort the [[Lindenbaum algebra]] of [[predicates]] upon that sort and to each term the operation of substitution of that term into predicates, and the left and right adjoints to $P$ upon projections to provide existential and universal [[quantification]], respectively, with the existence of the further adjoints providing the ability to interpret equality, and the Beck--Chevalley condition ensuring that quantification commutes appropriately with substitution (just as the propositional connectives do).
+
+### Variants
 
 There are, of course, many variants on this, corresponding straightforwardly to modifications of the kind of logic one wishes to represent. For instance, to represent specifically classical logic, one should use [[Boolean algebras]] instead of [[Heyting algebras]]. To represent first-order logic without equality, one should no longer require left and right adjoints to every morphism in the range of $P$, but rather only those given by the natural transformations yielding the quantifiers (i.e., only requiring adjoints to substitution along projections). Various higher-order constructs can be added by adding new ways of forming objects in $C_T$ (e.g., adding cartesian closedness). Etc.
 
 One can even extend this into the realm not just of provability, but furthermore of proof theory, by taking the objects in the codomain of $P$ to be categories rather than mere [[preorder]]s (e.g., by using [[bicartesian closed category|bicartesian closed categories]] rather than [[Heyting algebra]]s); in this case, the objects in a category $P(\sigma)$ would still represent predicates on the sort $\sigma$, but the morphisms in $P(\sigma)$ would represent proofs (rather than mere provability) of entailments between these predicates, with the possibility that not all such proofs would be equal.
+
+## Related concepts
+
+* [[coherent hyperdoctrine]]
+
+[[!redirects first-order hyperdoctrines]]
