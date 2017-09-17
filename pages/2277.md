@@ -69,9 +69,7 @@ EGA was never completed. The listed volumes I-IV are just a part of the original
 
 The [Wikipedia entry](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_G%C3%A9om%C3%A9trie_Alg%C3%A9brique_du_Bois_Marie) lists all of the seminars.
 
-##Beyond the SGAs
-
-Like _EGA_, _SGA_ was never completed.  Part of the unfinished plan of _SGA_ was attained in quick way by [[Pierre Deligne]] as _SGA $4\frac{1}{2}$_ (in other to justify preliminaries for his proof of the [[Weil conjecture]]s), of which Grothendieck did not approve.  
+[[Pierre Deligne]] edited a supplementary volume  _SGA $4\frac{1}{2}$_ comprisings parts of [[SGA5]], his own articles proving new results and some substantially rewritten and expanded material exposed in less satisfactory form in SGA5 (these results were used for his proof of the [[Weil conjecture]]s which appeared before SGA5).  
 
 ##References
 
