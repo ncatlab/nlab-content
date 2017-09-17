@@ -78,7 +78,7 @@ $$
   \,,
 $$
 
-for collections of structure constants $\{C^a{}_{b c}\}$ (the bracket on $\mathfrak{g}_0$) and $\{r^i_a\}$ (the differential $\mathfrak{g}_1 \to \mathgfrak{g}_0$) and $\{\alph^i{}_{a j}\}$ (the [[action]] of $\mathfrak{g}_0$ on $\mathfrak{g}_1$) and $\{r_{a b c}\}$ (the "Jacobiator" for the bracket on $\mathfrak{g}_0$).
+for collections of structure constants $\{C^a{}_{b c}\}$ (the bracket on $\mathfrak{g}_0$) and $\{r^i_a\}$ (the differential $\mathfrak{g}_1 \to \mathfrak{g}_0$) and $\{\alph^i{}_{a j}\}$ (the [[action]] of $\mathfrak{g}_0$ on $\mathfrak{g}_1$) and $\{r_{a b c}\}$ (the "Jacobiator" for the bracket on $\mathfrak{g}_0$).
 
 These constants are subject to constraints (the weak [[Jacobi identity]] and its higher [[coherence law]]s) which are precisely equivalent to the condition
 
