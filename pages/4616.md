@@ -34,7 +34,7 @@ Such $X$ is called
 
 * **proper** if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n = \bigcup_i s_i(X_{n-1})$.
 
-In other words this says: $X_\bullet$ is proper if it is a cofibrant in the [[Reedy model structure]] $[\Delta^{op}, Top_{Strom}]_{Reedy}$ on [[simplicial object]]s with respect to the [[Strøm model structure]] on [[Top]].
+In other words this says: $X_\bullet$ is proper if it is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, Top_{Strom}]_{Reedy}$ on [[simplicial object]]s with respect to the [[Strøm model structure]] on [[Top]].
 
 =--
 
