@@ -26,10 +26,10 @@ $$
   S \;\colon\; Corr_1^{eff}(\mathcal{C}) \longrightarrow Spectra
 $$
 
-For $G$ a [[finite group]] and $\mathcal{C}= G Set$ its category of [[permutation representations]], then $S$ is a genuine $G$-[[equivariant spectrum]] ([Guillou-May 11](#GuillouMay11)).
+For $G$ a [[finite group]] and $\mathcal{C}= G Set$ its category of [[permutation representations]], then $S$ is a genuine [[G-spectrum]] ([Guillou-May 11](#GuillouMay11)).
  So in this case the [[homotopy theory]] of spectral Mackey functors is a presentation for [[equivariant stable homotopy theory]] ([Guillou-May 11](#GuillouMay11), [Barwick 14](#Barwick14)).
 
-For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](#Barwick14)) Mackey functors as originally defined in ([Dress 71](#Dress71)).
+For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](#Barwick14)) to that of Mackey functors as originally defined in ([Dress 71](#Dress71)).
 
 ## References
 
