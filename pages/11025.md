@@ -1,0 +1,5 @@
+[[!redirects Peano]]
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Giuseppe_Peano)
+
+category: people
