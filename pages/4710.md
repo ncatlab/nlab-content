@@ -32,3 +32,10 @@ $$ x = u (u^{-1} x) .$$
 In [[physics]], the quantities of a given dimension generally form an $\mathbb{R}$-[[line]], a $1$-dimensional [[vector space]] over the [[real numbers]].  Then any non-[[zero]] quantity is a unit, called in this context a __unit of measurement__.  Often (but not always) these quantities form an [[orientation|oriented]] line, so that nonzero quantities are either positive or negative.  Then we usually also require a unit of measurement to be positive.
 
 For example, the [[kilogramme]] is a unit of mass, because any mass may be expressed as a real multiple of the kilogramme.  Further, it is a positive unit; the mass of any physical object is a positive quantity and may be expressed as a positive real multiple of the kilogramme.
+
+
+[[!redirects unit]]
+[[!redirects units]]
+
+[[!redirects unit of measurement]]
+[[!redirects unit of measurements]]
