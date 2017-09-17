@@ -1,5 +1,5 @@
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -69,4 +69,7 @@ Generally this entry is based on
 [[!redirects Kripke frame]]
 [[!redirects Kripke frames]]
 
+[[!redirects frame (modal logic)]]
 [[!redirects frames (modal logic)]]
+[[!redirects frame (Kripke)]]
+[[!redirects frames (Kripke)]]
