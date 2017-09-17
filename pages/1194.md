@@ -33,6 +33,8 @@ Given a [[category]] $\mathcal{C}$, we may speak about its **categorical semanti
 
 We may think of the _free variables_ here as being placeholders for all the [[generalized element]]s $U \stackrel{x}{\to} B$ of $B$. Then the assertion $x\colon B \vdash f(x)\colon A$ indicates that with $B \stackrel{f}{\to} A$ given we may send $U \stackrel{x}{\to} B$ to the [[composition]] $(U \stackrel{x}{\to} B \stackrel{f}{\to}A ) = (U \stackrel{f(x)}{\to} A)$.
 
+So the notation $x\colon B \vdash f(x)\colon A$ is a direct reflection of the description of the morphism $f$ under the [[Yoneda embedding]] $C \hookrightarrow Func(C^{op}, C)$. Since the Yoneda embedding is a [[full and faithful functor]], this is indeed an entirely equivalent characterization of the morphism $f$.
+
 Generally, [[composition]] of morphisms in the category
 
 $$
