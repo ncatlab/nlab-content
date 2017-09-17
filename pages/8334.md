@@ -15,9 +15,9 @@
 
 ## Idea
 
-Despite of what one might expect, much of [[cosmology]] is based on [[classical physics]]. Certainly the [[standard model of particle physics]] is constructed from _classical [[gravity]]_, namely an [[FRW model]] solution to [[Einstein's equations]], which serves as a fixed "background" over which one considers in a [[semiclassical approximation]] [[quantum fields]], say to model the [[cosmic microwave background radiation]].
+Despite what one might expect, much of [[cosmology]] is based on [[classical physics]]. Certainly the [[standard model of particle physics]] is constructed from _classical [[gravity]]_, namely an [[FRW model]] solution to [[Einstein's equations]], which serves as a fixed "background" over which one considers in a [[semiclassical approximation]] [[quantum fields]], say to model the [[cosmic microwave background radiation]].
 
-On the one hand it is remarkable how well the [[standard model of cosmology]] built this way compares to available experimental data. On the other hand it is clear that a more precise model will need to take [[quantum field theory]] into acount more properly. In particular non-classical effects of [[quantum gravity]] will play a role at least close to the initial singularity, if not also for the explanation of the [[cosmological constant]] and other aspects of the [[standard model of cosmology]] which currently don't have a conceptual explanation in the model.
+On the one hand it is remarkable how well the [[standard model of cosmology]] built this way compares to available experimental data. On the other hand it is clear that a more precise model will need to take [[quantum field theory]] into account more properly. In particular non-classical effects of [[quantum gravity]] will play a role at least close to the initial singularity, if not also for the explanation of the [[cosmological constant]] and other aspects of the [[standard model of cosmology]] which currently don't have a conceptual explanation in the model.
 
 Such a more comprehensively quantum mechanical discussion of [[cosmology]] goes by the term **quantum cosmology**. 
 
