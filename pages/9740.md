@@ -17,3 +17,5 @@ The sixth in the list of [[Hilbert's problems]]:
 
 * Wikipedia, _[Hilbert's sixth problem](http://en.wikipedia.org/wiki/Hilbert%27s_sixth_problem)_
 
+
+[[!redirects Hilbert's 6th problem]]
