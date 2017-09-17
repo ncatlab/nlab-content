@@ -29,6 +29,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
     * [[Yang-Mills theory]]
 
+      * [[quantization of Yang-Mills theory]]
+
     * [[QED]]
 
     * **QCD**
