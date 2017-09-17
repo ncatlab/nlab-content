@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $p$ a [[prime number]], the [[field]] of _complex $p$-adic numbers_ $\mathbb{C}_p$ is to the [[complex numbers]] as the [[p-adic rational numbers]] $\mathbb{Q}_p$ are to the [[rational numbers]].
+For $p$ a [[prime number]], the [[field]] of _complex $p$-adic numbers_ $\mathbb{C}_p$ is to the [[p-adic rational numbers]] $\mathbb{Q}_p$ as the [[complex numbers]] $\mathbb{C}$  are to the [[rational numbers]].
 
 ## Definition
 
