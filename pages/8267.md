@@ -18,28 +18,32 @@
 
 ## Idea
 
-The _salamander lemma_ is a fundamental lemma in [[homological algebra]] providing information on the [[homology groups]] of a [[double complex]]. Other fundamental lemmas of homological algebra are direct consequence of this lemma, such as the [[3x3 lemma]], the [[snake lemma]] and the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
+The _salamander lemma_ is a fundamental lemma in [[homological algebra]] providing information on the [[homology groups]] of a [[double complex]]. All the standard [[diagram chasing lemmas]] of [[homological algebra]] are direct and transparent consequences of this lemma, such as the [[3x3 lemma]], the [[four lemma]],  the [[snake lemma]] and the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
 
 These lemmas are old and classical, but their traditional proofs are, while elementary, not very illuminating. The Salamander lemma serves to make the mechanism behind these lemmas more transparent:
 
 > [[diagram chasing|Diagram-chasing arguments]] frequently lead to "magical" relations between distant points of diagrams: [[exact sequence|exactness]] implications, [[connecting homomorphism|connecting morphisms]], etc.. These long connections are usually composites of short "unmagical" connections, but the latter, and the objects they join, are not visible in the proofs. ([Bergman](#Bergman))
 
 ## The Salamander lemma
+ {#TheSalamanderLemma}
+
+The Salamander lemma, prop. \ref{SalamanderLemma} below, is a statement about the [[exact sequence|exactness]] of a sequence naturally associated with any [[morphism]] in a [[double complex]]. In the _[Preliminaries](#Preliminaries)_ we first introduce this sequence itself.
 
 
 ### Preliminaries
  {#Preliminaries}
 
-The Salamander lemma will be a statement about the exactness of a sequence naturally associated with any morphism in a double complex. Here we first introduce that sequence itself.
 
 +-- {: .num_remark}
 ###### Remark
+**(general assumption/convention)**
 
-As always in [[homological algebra]], when we consider elements of objects in the [[abelian category]] $\mathcal{A}$ it is either assumed that $\mathcal{A}$ is of the form $R$[[Mod]] for some [[ring]] $R$, or that one of the _[Embedding theorems](http://ncatlab.org/nlab/show/abelian%20category#EmbeddingTheorems)_ has been used to embed it into such, by a faithful and exact functor.
+As always in [[homological algebra]], when we consider _elements_ of objects in the [[abelian category]] $\mathcal{A}$ it is either assumed that $\mathcal{A}$ is of the form $R$[[Mod]] for some [[ring]] $R$, or that one of the _[Embedding theorems](http://ncatlab.org/nlab/show/abelian%20category#EmbeddingTheorems)_ has been used to embed it into such, by a [[faithful functor|faithful]] and [[exact functor]], and these elements are actual elements of the [[sets]] underlying these [[modules]].
+In the following many of the proofs are spelled out in terms of elements this way and we will not always repeat this assumption. This should help to amplify how utterly elementary the salamander lemma is. But explicitly element-free/general abstract proofs can of course be given with not much more effort, too, see ([Wise](#Wise)).
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #DonorReceptor}
 ###### Definition
 
 Let  $A_{\bullet \bullet}$ a [[double complex]] in some [[abelian category]] $\mathcal{A}$, hence a [[chain complex]] of chain complexes $A_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$, hence a [[diagram]] of the form
@@ -66,9 +70,9 @@ $$
   }
 $$
 
-where $\partial^{hor} \circ \partial^{hor} = 0$, where $\partial^{vert} \circ \partial^{vert} = 0$ and where all squares commute, $\partial^{hor} \circ \partial^{vert} = \partial^{vert} \circ \partial^{hor}$.
+where $\partial^{hor} \circ \partial^{hor} = 0$, where $\partial^{vert} \circ \partial^{vert} = 0$ and where all squares [[commuting diagram|commute]], $\partial^{hor} \circ \partial^{vert} = \partial^{vert} \circ \partial^{hor}$.
 
-Let $A \coloneqq A_{k l}$ be any [[object]] in the double complex at any fixed position $k,l$. This is the source and target of horizontal, vertical and digonal (composite of horizontal and vertical) [[morphisms]] to be denoted as follows:
+Let $A \coloneqq A_{k l}$ be any [[object]] in the double complex at any position $(k,l)$. This is the source and target of horizontal, vertical and digonal (unique composite of a horizontal and a vertical) [[morphisms]] to be denoted as follows:
 
 $$
   \array{
@@ -87,20 +91,22 @@ $$
 
 Define
 
-* $A^{hor} \coloneqq ker (\partial^{hor}_{out}) / im (\partial^{hor}_{in})$ -- the horizontal [[chain homology]] at $X$;
+* $A^{hor} \coloneqq ker (\partial^{hor}_{out}) / im (\partial^{hor}_{in}) \in \mathcal{A}$ -- the horizontal [[chain homology]] at $X$;
 
-* $A^{vert} \coloneqq ker (\partial^{vert}_{out}) / im (\partial^{vert}_{in})$ -- the vertical [[chain homology]] at $X$;
+* $A^{vert} \coloneqq ker (\partial^{vert}_{out}) / im (\partial^{vert}_{in}) \in \mathcal{A}$ -- the vertical [[chain homology]] at $X$;
 
-* ${}^{\Box}A \coloneqq \frac{ker (\partial^{hor}_{out}) \cap ker(\partial^{vert}_{out})}{im(\partial^{diag}_{in})}$ -- the "receptor" at $A$;
+* ${}^{\Box}A \coloneqq \frac{ker (\partial^{hor}_{out}) \cap ker(\partial^{vert}_{out})}{im(\partial^{diag}_{in})} \in \mathcal{A}$ -- the "receptor" at $A$;
 
-* $A_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) \oplus im(\partial^{vert}_{in})}$ -- the "donor" at $A$.
+* $A_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) \oplus im(\partial^{vert}_{in})}$ -- the "donor" at $A$;
+
+where $ker(-)$ denotes the [[kernel]] of a map, $im(-)$ the [[image]] of a map and $\frac{N_1}{N_2}$ the [[quotient module]] of the module $N_1$ by a [[submodule]] $N_2 \hookrightarrow N_1$ and $N_1 \oplus N_2$ the [[direct sum]] of two modules.
 
 =--
 
 +-- {: .num_lemma #Intramural}
 ###### Lemma
 
-The [[identity]] morphism on $A$ induces a [[commuting diagram]]
+The [[identity]] on representatives in $A$ induces a [[commuting diagram]] of [[homomorphisms]] from the donor of $A$ to the receptor of $A$, def. \ref{DonorReceptor}, via the horizontal and vertical [[homology groups]] at $A$:
 
 $$
   \array{
@@ -113,47 +119,69 @@ $$
     & \searrow && \swarrow
     \\
     && A_\Box
-    \,,
+    \,.
   }
 $$
 
-whose morphisms are to be called the **intramural maps** of $A$.
+These morphisms are to be called the **intramural maps** of $A$.
 
 =--
 
-("Intramural" because they go between objects that all belong to $A$ and hence remain "in the context of $A$". The "extramural" maps to follow instead go from objects associated to some $A$ to objects associated to some $B$, so they go "out of the context of $A$".)
+This is immediate, but here is a way to make it fully explicit:
+
++-- {: .proof}
+###### Proof
+
+The statement that the top two morphisms exist and are given by the identity on representatives is that if $[a] \in {}^\Box A$ is represented by $a \in A$, then $a$ also represents an element in $A^{hor}$ and $A^{vert}$.
+But this is the very definition of ${}^\Box A$: being a [[quotient module]] of $ker(\partial^{vert}_{out}) \cap ker(\partial^{hor}_{out})$ means that its elements are represented by elements of $A$ that are annihiliated by both $\partial^{vert}_{out}$ and $\partial^{hor}_{out}$. Moreover if $[a] \in {}^\Box A$ is 0 then $a$ also represents the 0-element in $A^{hor}$ and in $A^{vert}$, because by definition of ${}^\Box A$ it is then in the [[image]] of $\partial^{hor} \circ \partial^{vert} = \partial^{vert} \circ \partial^{hor}$. Moreover it is clear that everything respects addition of module elements and the [[action]] by the ring $R$, hence the top morphisms are well defined [[module]] [[homomorphisms]].
+
+Similarily the bottom two morphisms exist and are given by the identity on representatives by the very definition of $A_{\Box}$: this being a quotient of the kernel of $\partial^{vert} \partial^{hor} = \partial^{hor} \partial^{vert}$ it contains in particular the elements that are represented in $A$ by elements in the kernel of $\partial^{hor}$ and in the kernel of of $\partial^{vert}$ separately. And if $[a]$ is the 0-element in $A^{hor}$ or $A^{vert}$ then $a$ is in the image of $\partial^{hor}$ or of $\partial^{vert}$, respectively, and since these two images are quotiented out to obtain $A_{\Box}$, such $a$ also represent the 0-element there.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+
+In lemma \ref{Intramural} "intramural" is meant to allude to the fact that these morphisms go between objects that all come from $A$ and hence remain "in the context of $A$". The "extramural" maps to follow in lemma \ref{Extramural} below instead go from objects associated to some $A$ to objects associated to some $B$, so they go "out of the context of $A$".
+
+=--
 
 +-- {: .num_lemma #Extramural}
 ###### Lemma
 
-For $\partial^{hor} : A \to B$ any morphism in the double complex (either horizontal or vertical), there is an induced morphism
+For $\partial : A \to B$ is any morphism in the double complex (either horizontal or vertical), when applied to representatives in $A$ it induces a homomorphism
 
 $$
   A_\Box \to {}^\Box B
 $$
 
-to be called the **extramural map associated with $f$**. 
+from the donor of $A$ to the receptor of $B$, def. \ref{DonorReceptor}, to be called the **extramural map** associated with $\partial$. 
 
 
 =--
 
+Again this is immediate, but here is a way to make it explicit:
+
 +-- {: .proof}
 ###### Proof
 
-An $[a] \in A_{\Box}$ is represented by an $a \in A$ for which $\partial^{vert}\partial^{hor} a = 0$. The claim is that $\partial^{hor} a$ then represents an element in ${}^{\Box}B$ which is independent of the choice of representative:
+We discuss the case that $\partial = \partial^{hor}$ is a horizontal [[differential]]. The other case works verbatim the same way, only with the roles of $\partial^{hor}$ and $\partial^{vert}$ interchanged.
 
-* We have $\partial^{vert} (\partial^{hor} a) = 0$ by assumption on $a$ and $\partial^{hor} (\partial^{hor} a) = 0$ by the chain complex property. Hence $\partial^{hor} a$ represents an element in ${}^{\Box} B$.
+By definition \ref{DonorReceptor}, an $[a] \in A_{\Box}$ is represented by an $a \in A$ for which $\partial^{vert}\partial^{hor} a = 0$. The claim is that $\partial^{hor} a$ then represents an element in ${}^{\Box}B$ such that this is a module homomorphism.
 
-* If $a = \partial^{hor} c$ then $\partial^{hor} a = 0$ and if $a = \partial^{vert} c$ then $\partial^{hor} a = \partial^{hor} \partial^{vert}c \in im(\partial^{diag})$ hence is 0 in ${}^{\Box} B$.
+*  We have $\partial^{vert} (\partial^{hor} a) = 0$ by assumption on $a$ and $\partial^{hor} (\partial^{hor} a) = 0$ by the chain complex property. Hence $\partial^{hor} a$ represents an element in ${}^{\Box} B$.
+
+* If $[a] = 0$ then there is $c$ such that $a = \partial^{hor} c$ or $d$ such that $a = \partial^{vert} d$. In the first case the chain complex property gives that $\partial^{hor}a = \partial^{hor}\partial^{hor}c = 0$ and hence $[\partial^{hor} a] = 0$ in ${}^\Box B$, in the second $\partial^{hor}a = \partial^{hor}\partial^{vert} d$ which is also 0 in ${}^\Box B$ since this is the quotient by $im(\partial^{hor} \partial^{vert})$. 
 
 =--
 
 +-- {: .num_remark #ExtramuralMapsAsDiagonals}
 ###### Remark
 
-It is useful in computations as those shown below to draw these extramural morphisms as follows.
+It is useful in computations as those shown below in _[Implications - The diagram chasing lemmas](#Implications)_ to draw the extramural morphisms of lemma \ref{Extramural} as follows.
 
-1. For a horizontal $\partial : A \to B$ we draw the induced extramural map as
+1. For a horizontal $\partial^{hor} : A \to B$ we draw the induced extramural map as
 
    $$   
      \array{   
@@ -166,7 +194,7 @@ It is useful in computations as those shown below to draw these extramural morph
      \,.
    $$
 
-1. For a vertical $\partial : A \to B$ we draw the induced extramural map as
+1. For a vertical $\partial^{vert} : A \to B$ we draw the induced extramural map as
 
    $$
      \array{
@@ -211,8 +239,7 @@ $$
   \,.
 $$
 
-Below in _[Intramural and extramural isomorphism](#IntraExtramuralIsomorphisms)_ we discuss exactness conditions on $X_{\bullet, \bullet}$ that make these [[zigzags]] consist entirely of _[[isomorphisms]]_, so that they give "long diagonal identifications" in a double complex. These long diagonal identifications are what the basic diagram chasing lemmas all follow from, discussed below in 
-_[Implications](#Implications)_.
+Below in _[Intramural and extramural isomorphism](#IntraExtramuralIsomorphisms)_ we discuss [[exact sequence|exactness]] conditions on $X_{\bullet, \bullet}$ that make these [[zigzags]] consist entirely of _[[isomorphisms]]_, so that they give "long diagonal identifications" in a double complex. These long diagonal identifications are what the basic diagram chasing lemmas all follow from, discussed below in  _[Implications](#Implications)_.
 
 
 =--
@@ -220,7 +247,7 @@ _[Implications](#Implications)_.
 +-- {: .num_remark #OmittingIntramuralMaps}
 ###### Remark
 
-Morever, it is useful to combine the intramural notation of remark \ref{ExtramuralMapsAsDiagonals} with the evident diagonal notation for the extramural maps, which allow extramural maps to "enter at the receptor" and "exit at the donor" of a given entry in the double complex. Together these two notations yield for every piece of a [[double complex]] of the form
+Morever, it is useful to combine the exramural notation of remark \ref{ExtramuralMapsAsDiagonals} with the evident diagonal notation for the intramural maps, lemma \ref{Intramural}, which allow extramural maps to "enter at the receptor" and "exit at the donor" of a given entry in the double complex. Together these two notations yield for every piece of a [[double complex]] of the form
 
 $$
   \array{
@@ -258,9 +285,10 @@ $$
       \\
       &&&&& D
   }
+  \,.
 $$
 
-that give the salamander lemma, prop. \ref{SalamanderLemma} below, its name. 
+These give the salamander lemma, prop. \ref{SalamanderLemma} below, its name. 
 
 =--
 
@@ -310,22 +338,53 @@ is part of a [[double complex]] in an [[abelian category]], then there is a **6-
 
 $$
   \array{
-    && && && && && && B_{\Box}
+    &&  {}^\Box A
     \\
-    && && && && && & \nearrow && \searrow
+   & \nearrow && \searrow
     \\
     C_\Box &&\to&& A^{hor} &\to& A_{\Box} &\to& {}^{\Box} B &\to& B^{hor} 
    &&\to&& {}^{\Box}D 
    \\
-   & \searrow && \nearrow
+    && && && && && & \searrow && \nearrow
    \\
-   && 
-   {}^\Box A
+    && && && && && && B_{\Box}
   }
   \,,
 $$
 
 where all the elementary morphisms are the unique intramural maps from lemma \ref{Intramural} and the extramural maps from lemma \ref{Extramural} -- they are the morphisms of the _salamander diagram_ of remark \ref{OmittingIntramuralMaps}.
+
+Dually, if a diagram
+
+$$
+  \array{
+    C &\stackrel{\partial^{hor}}{\to}& A
+    \\
+    && \downarrow^{\mathrlap{\partial^{vert}}}
+    \\
+    && B &\stackrel{\partial^{hor}}{\to}& D
+  }
+$$
+
+is part of a double complex, then there is a 6-term [[long exact sequence]] running horizontally in 
+
+$$
+  \array{
+    && {}^\Box A
+    \\
+    & \nearrow & & \searrow
+    \\
+    C_\Box &&\to&& A^{vert} &\to& A_{\Box} &\to& {}^\Box B &\to&
+    B^{vert}
+    &&\to&&
+    {}^\Box D
+    \\
+    && && && && && & \searrow && \nearrow
+    \\
+    && && && && && && B_\Box
+  }
+  \,
+$$
 
 =--
 
@@ -334,27 +393,33 @@ This is ([Bergman, lemma 1.7](#Bergman)).
 +-- {: .proof}
 ###### Proof
 
-By the lemmas in the preliminaries, all the maps are given on representatives either by identities or by the [[differentials]] of the double complex.
+We spell out the proof of the first case. That of the second case is verbatim the same, only with the roles of $\partial^{hor}$ and $\partial^{vert}$ interchanged.
 
-**exactness at** $C_\Box \to A^{hor} \to A_\Box$.
+By lemmas \ref{Intramural} and \ref{Extramural}, all the maps are given on representatives either by identities or by the [[differentials]] of the double complex themselves. Using this we may check exactness at each position explicitly:
 
-An element $[a] \in A^{hor}$ is in the kernel of $A^{hor} \to A_{Box}$ if there is $c$ and $d$ such that
-$a = \partial^{vert}c + \partial^{hor} d$. 
-The $c$ that satisfy this hence satisfy $\partial^{hor}\partial^{vert} c = 0$ and so the map $\partial^{hor} : C_\Box \to A^{hor}$ hits all of the kernel of $A^{hor}\to A_\Box$. Also it clearly hits at most this kernel. 
+1. exactness at $C_\Box \to A^{hor} \to A_\Box$.
 
-**exactness at** $A^{hor} \to A_\Box \to {}^\Box B$.
+   An element $[a] \in A^{hor}$ is in the kernel of $A^{hor} \to A_{\Box}$ if there is $c$ and $d$ such that $a = \partial^{vert}c + \partial^{hor} d$. 
+The $c$ that satisfy this equation hence satisfy $\partial^{hor}\partial^{vert} c = 0$, hence represent elements in $C_\Box$ and so the map $\partial^{hor} : C_\Box \to A^{hor}$ hits all of the kernel of $A^{hor}\to A_\Box$. Also it clearly hits at most this kernel. 
 
-Suppose $[a] \in A_\Box$ is in the kernel of $A_\Box \to {}^\Box B$. This means that there is $c$ such that $\partial^{hor}a = \partial^{hor}\partial^{vert}c$, hence that $\partial^{hor} (a-\partial^{vert} c) = 0$. Hence $[a] = [a - \partial^{vert}c]$ is in the image of $A^{hor} \to A_{\Box}$. Conversely, clearly everything in that image in the kernel of $A_\Box \to {}^\Box B$.
+1. exactness at $A^{hor} \to A_\Box \to {}^\Box B$.
 
-**and so forth**
+   Suppose $[a] \in A_\Box$ is in the kernel of $A_\Box \to {}^\Box B$. This means that there is $c$ such that $\partial^{hor}a = \partial^{hor} \partial^{vert}c$, hence that $\partial^{hor} (a-\partial^{vert} c) = 0$. But $[a] = [a - \partial^{vert}c] \in A_{\Box}$ and so this says that $[a]$ is the image under $A^{hor} \to A_{\Box}$ of the element represented there by $a - \partial^{vert} c$. Conversely, clearly everything in that image is in the kernel of $A_\Box \to {}^\Box B$.
 
+1. exactness at $A_\Box \to {}^\Box B \to B^{hor}$
+
+   An element $[b] \in {}^\Box B$ is in the kernel of ${}^\Box B \to B^{hor}$ if there is $a$ such that $\partial^{hor} a = b$. But since the representative $b$ of $[b] \in {}^\Box B$ has to satisfy in particular $\partial^{hor} b = 0$ it follows that $\partial^{hor} \partial^{vert}a  = 0$ and hence that $a$ represents an alement in $A_{\Box}$, hence that $[b]$ is in the image of $A_{\Box} \to {}^{\Box }B$. Conversely, clearly every element in that image is in the kernel of ${}^\Box B \to B^{hor}$.
+
+1. exactness at ${}^\Box B \to B^{hor} \to {}^\Box D$
+
+   An element $[b] \in B^{hor}$ is in the kernel of $B^{hor} \to {}^\Box D$ if there is $a$ with $\partial^{vert} b = \partial^{vert} \partial^{hor} a$, hence $\partial^{vert}(b - \partial^{hor}a) = 0$ Since in addition $\partial^{hor}(b - \partial^{hor}a) = 0$ by assumption on $b$ and the chain complex property, this says that $[b] = [b + \partial^{hor} a]$ is in the image of ${}^\Box B \to B^{hor}$. Moreover, clearly everything in this image is in the kernel of $B^{hor} \to {}^\Box D$.
 
 =--
 
 ### Intramural and extramural isomorphisms
  {#IntraExtramuralIsomorphisms}
 
-The following two statements are direct concequences (special cases) of the salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps from the _[Preliminaries](#Preliminaries)_ to be [[isomorphisms]]. All of of the standard [[diagram chasing lemmas]] in [[homological algebra]] follows in a natural way from combining these _intramural isomorphisms_ with long zigzags of thse _extramural isomorphisms_. This is discussed below in _[The basic diagram chasing lemmas](#Implications)_.
+The following two statements are direct concequences (special cases) of the salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps, lemma \ref{Intramural} and lemma \ref{Extramural}, to be [[isomorphisms]]. All of of the standard [[diagram chasing lemmas]] in [[homological algebra]] follow in a natural way from combining these _intramural isomorphisms_ with long [[zigzags]] of thse _extramural isomorphisms_. This is discussed below in _[The basic diagram chasing lemmas](#Implications)_.
 
 +-- {: .num_cor #ExtramuralIso}
 ###### Corollary
@@ -406,7 +471,7 @@ Alternatively, this statement is a direct consequence of the salamander lemma al
 +-- {: .proof}
 ###### Proof
 
-Under the given assumptions the exact sequence of prop. \ref{SalamanderLemma} gives the exact sequence
+Under the given assumptions the exact sequence of prop. \ref{SalamanderLemma} involves the exact sequence
 
 $$
   0 \to A_{\Box} \to {}^\Box B \to 0
@@ -580,20 +645,14 @@ which gives the second isomorphism.
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-Corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} are also readily checked directly, without recourse to the Salamander lemma. But together with the Salamander lemma they will prove to be useful for the following derivations of the fundamental lemmas of homological algebra, and so it's the Salamander lemma that guides the use of these corollaries.
-
-=--
 
 ## Implications: The basic diagram-chasing lemmas
  {#Implications}
 
 We derive the basic [[diagram chasing lemmas - contents|diagram chasing lemmas]] from the salamander lemma, or in fact just from repeated application of the [intramural/extramural isomorphisms](#IntraExtramuralIsomorphisms).
 
-### The sharp $3 \times 3$ lemma
- {#Sharp3x3Lemmas}
+### The $3 \times 3$ lemma
+ {#3x3Lemmas}
 
 We derive the [[sharp 3x3 lemma]] from the salamander lemma.
 
@@ -634,7 +693,7 @@ First of all one notices that the diagram is a [[double complex]]: by column-exa
 
 We need to show that ${A'}^{hor}\simeq 0$ and ${B'}^{hor} \simeq 0$.
 
-First consider exactness at $A'$. The intramural iso, cor \ref{IntramuralIsos}, of
+First consider exactness at $A'$. The intramural iso, cor. \ref{IntramuralIsos} item 1, of
 
 $$
   \array{
@@ -658,14 +717,15 @@ $$
   }
 $$
 
-is ${}^\Box A' \simeq {A'}^{vert} = 0$, which together gives the desired exactness from the assumtion that ${A'}^{vert} \simeq 0$ (since all the columns are exact by assumption):
+according to cor. \ref{IntramuralIsos} item 2
+is ${}^\Box A' \simeq {A'}^{vert} = 0$. Together this gives the desired exactness from the assumtion that ${A'}^{vert} \simeq 0$ (since all the columns are exact by assumption):
 
 $$
   {A'}^{hor} \simeq A'_\Box \simeq ({A'}^{vert} \simeq 0)
   \,.
 $$
 
-To apply an analogous argument for ${B'}^{hor}$, we first interpolate along the [[zigzag]] of intramural maps along the diagonal
+To apply an analogous argument for ${B'}^{hor}$, we combine this kind of identification with the [[zigzag]] of intramural maps along the diagonal
 
 $$
   \array{
@@ -777,6 +837,8 @@ So ${C'}^{hor} \simeq C_{\Box}$ by the intramural iso, then $\dots \simeq A''_\B
 ### The $n \times n$ lemma
  {#nxnLemma}
 
+The proofs of the $3 \times 3$-lemmas [above](#3x3Lemmas) via long diagonal zigzags of extramural isomorphism clearly generalize from double complexes of size $3 \times 3$ to those of arbitrary finite size.
+
 +-- {: .num_prop #nxn}
 ###### Proposition
 
@@ -785,6 +847,8 @@ If in a diagram of the form
 $$
   \array{
     && 0 && 0 && 0 && 0 &&
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow
     \\
     0 &\to& X_{n,n} &\to& X_{n-1,n} &\to& X_{n-2,n} &\to& X_{n-3,n} &\to& \cdots
     \\
@@ -819,7 +883,7 @@ This appears as ([Bergman, lemma 2.6](#Bergman)).
 ###### Proof
 
 The proof proceeds in direct generalization of the proofs of the 
-sharp 3x3 lemma [above](#Sharp3x3Lemmas): the isomorphism for each $k$ is given by the comoposite of two extramural isomorphism that identify the given homology group with a donor or receptor group, respectively, with a long zigzag of extramural isomorphisms.
+3x3 lemma [above](#3x3Lemmas): the isomorphism for each $k$ is given by the comoposite of two extramural isomorphism that identify the given homology group with a donor or receptor group, respectively, with a long zigzag of extramural isomorphisms.
 
 =--
 
@@ -944,7 +1008,17 @@ and then the long sequence of zigzags of extramural ismoporphisms identifies thi
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The [[four lemma]], in turn, directly implies what is 
+known as the [[five lemma]].
+
+=--
+
+
 ### The snake lemma
+ {#TheSnakeLemma}
 
 We discuss a proof of the [[snake lemma]] from the salamander lemma.
 
@@ -1067,6 +1141,13 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+From the [[snake lemma]] one obtains in turn the 
+[[connecting homomorphism]], see there for details.
+
+=--
 
 ## References
 
@@ -1084,6 +1165,7 @@ An exposition of this is in
 A purely [[category theory|category-theoretic proof]] is in section 2 of 
 
 * [[Jonathan Wise]], _The Snake Lemma_ ([pdf](http://math.stanford.edu/~jonathan/papers/snake.pdf))
+ {#Wise}
 
 
 [[!redirects Salamander lemma]]
