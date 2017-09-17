@@ -27,7 +27,7 @@ Pre-additive categories are part of a sequence of _[[additive and abelian catego
 
 ## Terminology
 
-The term 'pre-additive category' is often used for *any* $Ab$-enriched category, for example in section 8 of Kashiwara--Schapira _[[Categories and Sheaves]]_.
+The term 'pre-additive category' is often used for *any* $Ab$-enriched category, for example in section 8 of Kashiwara--Schapira _[[Categories and Sheaves]]_, in Weibel's An introduction to homological algebra and Popescu's _Abelian categories with applications to rings and modules_.
 
 ## Related concepts
 
