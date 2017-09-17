@@ -1,7 +1,20 @@
 
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Topology
++--{: .hide}
 [[!include topology - contents]]
-</div>
+=--
+=--
+=--
+
+
 
 #Contents#
 * automatic table of contents goes here
