@@ -163,7 +163,7 @@ $$
 
 =--
 
-## Hamiltonian/symplectic vection -- In terms of moment maps 
+## Hamiltonian/symplectic version -- In terms of moment maps 
  {#HamiltonianNoetherTheorem}
 
 In [[symplectic geometry]] the analog of Noether's theorem is the statement that the [[moment map]] of a [[Hamiltonian action]] which preserbes a given time evolution is itself conserved by this time evolution.
@@ -244,7 +244,9 @@ The Hamitlonian Noether theorem is also reviewed in a broader context of mathema
 * [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/Towards-the-maths-of-QFT.pdf))
 
 
+The example of conserved currents in [[Chern-Simons theory]] is discussed in 
 
-* [pdf](http://www.trin.cam.ac.uk/butterfield/Papers/FinalBubFest.pdf)
+* M. Francaviglia, M. Palese, E. Winterroth, _Locally variational invariant field equations and global currents: Chern-Simons theories_, Communications in Matheamtical Physics 20 (2012) ([pdf](http://cm.osu.cz/sites/default/files/contents/20-1/cm020-2012-1_13-22.pdf))
+
 
 [[!redirects Noether theorem]]
