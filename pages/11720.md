@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The term "continuous cohomology" is often used as shorthand for the "naive" version of [[group cohomology]] of [[topological groups]] which uses [[cocycles]] of the form known for [[discrete groups]] and just requires them to be [[continuous functions]]. For "actual" group cohomology of topological groups one needs to in addition perform certain [[resolutions]] before considering continuous cocycles.
+
+See at _[Lie group cohomology -- Topological group cohomology](Lie+group+cohomology#TopologicalGroupCohomology)_ for details and references.
+
+## Related concepts
+
+* [[real homotopy theory]]
+
+## References
+
+* [[Edgar Brown]], Robert Szczarba, _Continuous cohomology and Real homotopy type II_ Asterisque 191, Societe Mathematique De France (1990). ([JSTOR](http://www.jstor.org/stable/2001017))
+
+[[!redirects continuous group cohomology]]
+
+
