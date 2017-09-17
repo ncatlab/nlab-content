@@ -22,6 +22,8 @@ While a [[permutative category]] already induces a [[symmetric spectrum]], [[Bro
 
 * [[K-theory of a permutative category]]
 
+* [[K-theory of a symmetric monoidal (∞,1)-category]]
+
 ## References
 
 * [[Peter May]], _$E_\infty$ Ring Spaces and $E_\infty$ Ring spectra_, Springer lectures notes in mathematics, Vol. 533, (1977) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf)) chaper VI
