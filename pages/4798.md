@@ -102,13 +102,21 @@ The fully general description for [[connections on ∞-bundles]] is at
 [[!include gauge field - table]]
 
 [[!redirects gauge transformations]]
+
 [[!redirects gauge symmetry]]
+[[!redirects gauge symmetries]]
 
 [[!redirects global gauge symmetry]]
 [[!redirects local gauge symmetry]]
+[[!redirects global gauge symmetries]]
+[[!redirects local gauge symmetries]]
+
+
 
 [[!redirects global symmetry]]
 [[!redirects local symmetry]]
+[[!redirects global symmetries]]
+[[!redirects local symmetries]]
 
 [[!redirects gauge equivalence]]
 [[!redirects gauge equivalences]]
