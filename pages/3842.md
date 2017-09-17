@@ -52,6 +52,10 @@ An object in this category is a [[presheaf]]. See there for more details.
 
 * A [[geometric embedding|sub-topos]] of a category of presheaves is a [[Grothendieck topos]]: a [[category of sheaves]] (see there for details).
 
+### Functoriality
+
+See [[functoriality of categories of presheaves]].
+
 ### Characterization
 
 +-- {: .num_thm}
@@ -157,6 +161,10 @@ See at _[[models in presheaf toposes]]_.
 ## Related concepts
 
 For [[(∞,1)-category]] theory see [[(∞,1)-category of (∞,1)-presheaves]].
+
+## References
+
+* [[SGA 4]]
 
 [[!include locally presentable categories - table]]
 
