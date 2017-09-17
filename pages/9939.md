@@ -178,8 +178,8 @@ The $E$-localization of a spectrum in this case is called _[[p-localization]]_.
 
 The original article is
 
-* [[Aldridge Bousfield]], _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
- {#Bousfield79}
+* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+ 
 
 Lecture notes include
 
