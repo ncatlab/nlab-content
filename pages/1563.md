@@ -19,6 +19,15 @@ Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](
 
   (on [[algebraic theories]], now also called [[Lawvere theories]])
 
+* _Extensive and intensive quantities_ Workshop on Categorical Methods in Geometry, Aaerhus (1983)
+
+  (a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "extensive quantities" and [[cohomology]]-like "intensive quantities")
+
+* _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
+
+  (on [[space and quantity]])
+ 
+
 * _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
 
   (on the description of [[differential equation]]s in terms of [[synthetic differential geometry]])
