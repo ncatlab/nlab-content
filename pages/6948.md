@@ -50,7 +50,7 @@ Universal quantification is essentially the [[direct image]] [[right adjoint]] o
 
 $$
     \mathcal{E}/X
-    \stackrel{\overset{\exists}{\to}}{\stackrel{\overset{- \times X}{\leftarrow}}{\underset{\forall}{\to}}}
+    \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}}
     \mathcal{E} 
   \,,
 $$
@@ -71,7 +71,7 @@ $$
   \array{
     \mathcal{E}/X
     & 
-    \stackrel{\overset{\exists}{\to}}{\stackrel{\overset{- \times X}{\leftarrow}}{\underset{\forall}{\to}}}
+    \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}}
     &
     \mathcal{E}
     \\
@@ -81,7 +81,9 @@ $$
     \\
     \tau_{\leq_{-1}} 
     \mathcal{E}/X
-    &&
+    &
+     \stackrel{\overset{\exists}{\to}}{\stackrel{\overset{}{\leftarrow}}{\underset{\forall}{\to}}}
+    &
     \tau_{\leq_{-1}}\mathcal{E}
   }
   \,.
