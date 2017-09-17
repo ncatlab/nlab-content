@@ -99,7 +99,7 @@ Let $G$ be a [[topological group]] acting on a [[C*-algebra]] $A$.
 +-- {: .num_prop }
 ###### Proposition
 
-If $G$ is a [[compact topological group|compact]] topological group, then the KK-theoretic representation ring, def. \ref{KKTheoreticRepresentationRing} coincides with the ordinary representation ring of $G$.
+If $G$ is a [[compact topological group]], then the KK-theoretic representation ring, def. \ref{KKTheoreticRepresentationRing} coincides with the ordinary [[representation ring]] of $G$.
 
 =--
 
