@@ -35,10 +35,17 @@ Reference:
 
 _relevance_: When reading [[AQFT]] literature you will often encounter the claim that given functions are holomorphic, Hartogs' theorem simplifies the task of checking these claims considerably, because you have to check the holomorphy in every single variable only.
 
+### analogues from the one-dimensional theory
+Some results remain true in the multi dimensional case.
+
+* Identity theorem: If a holomorphic function is zero in a neighbourhood of a point, it is the zero function.
+
+_remark_: As usual the domain is supposed to be an open, simply connected (not necessarily proper) subset of $\mathbb{C}^n$, which implies that the point of the precondition of the theorem is an interior point of the domain.
+
 ### domains of holomorphy
 One of the most notably difference of the theory of _one_ complex variable and of _several_ complex variables is that the [riemann mapping theorem] (http://en.wikipedia.org/wiki/Riemann_mapping_theorem) fails in several complex variables, which is in a certain sense the reason why in several complex variables there are domains which can be enlarged such that _all_ holomorphic functions extend to the larger domain.
 
-_handwaving_ why this is not possible in one dimension: According to the riemann mapping theorem every domain is biholomorph equivalent to the circle $E: = \{ z: |z| \le 1 \}$, which means that the rings of holomorphic functions are isomorph, too. But the ring of holomorphic functions on E has to every point in the boundary of E a function that has a pole in this point, so that E cannot be enlarged in a way that all holomorphic functions are extentable. Therefore this applies to every domain.
+_handwaving_ why this is not possible in one dimension: According to the riemann mapping theorem every domain (open, simply connected proper subset of $\mathbb{C}$) is biholomorph equivalent to the circle $E: = \{ z: |z| \le 1 \}$, which means that the rings of holomorphic functions are isomorph, too. But the ring of holomorphic functions on E has to every point in the boundary of E a function that has a pole in this point, so that E cannot be enlarged in a way that all holomorphic functions are extentable. Therefore this applies to every domain.
 
 Some domains in $\mathbb{C}^n$ _do_ have the property that they cannot be enlarged, and since this is an interesting property, the name **domain of holomorphy** was coined for these, and the question how they could be described was promoted to an interesting research topic in the beginning of the 20th century.
    
