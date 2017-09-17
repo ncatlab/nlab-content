@@ -1,0 +1,3 @@
+Kaum kerabat yang tadinya di ruang rehat, sudah turun ke bawah.Dengan berhati-hati, saya membuka pintu bilik mak, terus berlari ke bilik saya.Adik Mah mengekor di belakang.Malangnya tombol pintu bilik saya rosak, tidak dapat dikunci.Adik Mah duduk membelakangi pintu,badannya yang berat menutup pintu, membuatkannya seolah-olah terkunci.Saya tidak tentu arah. Apa yang harus saya lakukan?Saya masih tidak berani turun.Saya teringatkan mak di bawah. Bagaimana Mak menghadapi malu yang sebesar ini seorang diri?
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2232" >Nike Air Max 89 red uk</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2232]Nike Air Max 89 red uk[/url]
