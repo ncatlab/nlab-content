@@ -15,7 +15,7 @@
 
 ## Idea
 
-One proposal for a precise realization of the idea of "absolute" [[arithmetic geometry]] over [[F1|Spec(F1)]] is _Borger's absolute geometry_ ([Borger 09](#Borger09)). Here the structure of a [[Lambda-ring]] on a ring $R$, hence $Spec(R) \to Spec(\mathbb{Z})$  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined thereby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
+One proposal for a precise realization of the idea of "absolute" [[arithmetic geometry]] over [[F1|Spec(F1)]] is _Borger's absolute geometry_ ([Borger 09](#Borger09)). Here the structure of a [[Lambda-ring]] on a ring $R$, hence on its [[spectrum of a commutative ring|ring]] $Spec(R) \to Spec(\mathbb{Z})$,  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined thereby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
 
 $$
   Et(Spec(\mathbb{Z}))
@@ -83,9 +83,7 @@ and speak of the "[[etale topos]] over $Spec(\mathbb{F}_1)$", or the "absolute [
 > ah, maybe this differs from what Borger does. Check.
 
 
-
-
-The above [[adjoint triple]] induces an adjoint quadruple of functions on the [[categories of presheaves]]
+The above [[adjoint triple]] induces an [[adjoint quadruple]] of functors on the [[categories of presheaves]]
 
 $$
   PSh(Spec(\mathbb{Z})_{et})
