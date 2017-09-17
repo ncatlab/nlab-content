@@ -82,17 +82,17 @@ Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological str
       &\simeq&
       B K(\mathbb{Z},2)
       &\to& 
-      B gl_1(MU) 
+      B gl_1(KU) 
       &\to&
-      MU \text{-}Mod
+      KU \text{-}Mod
     }
   $$
 
-  for $MU$ the [[complex K-theory spectrum]] [[E-∞ ring]], and
+  for $KU$ the [[complex K-theory spectrum]] [[E-∞ ring]], and
   hence the characteristic twists are in degree 2 of the group of units, hence of the graded group of units
 
   $$
-    gl_1(MU) \to \mathbb{S}
+    gl_1(KU) \to \mathbb{S}
   $$
 
   hence are graded by the second [[homotopy group]] 
@@ -169,13 +169,13 @@ Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological str
 To see how ordinary superalgebra arises this way, consider the case of $KU$. While there is the canonical map of [[abelian ∞-groups]]
 
 $$
-  2Line \simeq B^2 U(1) \to B gl_1(MU)
+  2Line \simeq B^2 U(1) \to B gl_1(KU)
 $$
 
 from [[line 2-bundles]], this does not hit all homotopy groups on the right. But refining to [[supergeometry]] and replacing the left with [[super line 2-bundles]] (see there) we do hit everything:
 
 $$
-  s2Line \to bgl_1^\ast(MU)
+  s2Line \to bgl_1^\ast(KU)
   \,.
 $$
 
