@@ -70,12 +70,8 @@ This was proved by [Schanuel](#Schanuel).
 [[!redirects bornological set]]
 [[!redirects bornological sets]]
 
-[[!redirects bounded subset]]
-[[!redirects bounded subsets]]
 [[!redirects bounded subspace]]
 [[!redirects bounded subspaces]]
-[[!redirects bounded set]]
-[[!redirects bounded sets]]
 
 [[!redirects bounded space]]
 [[!redirects bounded spaces]]
