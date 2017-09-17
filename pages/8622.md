@@ -1,0 +1,6 @@
+
+* [webpage](http://www.cs.uleth.ca/~seldin/)
+
+category: people
+
+[[!redirects J. Seldin]]
