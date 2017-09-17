@@ -714,13 +714,154 @@ Only keyword lists beyond this line. Come back a little later to find more mater
 
 ### Layer Mod
 
-* [[smooth space]] = [[type|thing]] into which we can throw [[coordinate systems]] ([[motivation for sheaves, cohomology and higher stacks|conceptual exposition]])
+#### Plots of smooth spaces and their gluing
 
-  [[functor]] $X : CartSp^{op} \to Set$ such that coordinate patches glue
+The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in def. \ref{CartesianSpacesAndSmoothFunctions} inside it. At this point we want to impose no further conditions on a "space" than this. In particular we do not assume that we know beforehand a [[set]] of [[points]] underlying $X$. Instead, we define smooth spaces $X$ entirely _operationally_ as something about which we can ask "Which ways are there to lay out $\mathbb{R}^n$ inside $X$?" and such that there is a self-consistent answers to this question. The following definitions make precise what we mean by this. The reader wishing to see more motivational discussion first might look at _[[motivation for sheaves, cohomology and higher stacks|conceptual exposition]]_.
 
-* [[smooth manifold]] = [[smooth space]] that is [[covering|locally]] _[[equivalence|equivalent]]_ to a [[coordinate system]]
+For bevity we will refer "a way to lay out a coordinate system in $X$" as a _plot_ of $X$. The first set of consistency conditions on plots of a space is that they respect _coordinate transformations_. This is what the following definition formalizes.
 
-* [[diffeological space]] = [[smooth space]] such that every coordinate labels a [[point]] in the space (which need not be in a general smooth space)
++-- {: .num_defn #SmoothPreSpace}
+###### Definition
+
+A **smooth pre-space $X$ is 
+
+1. a collection of sets: for each [[Cartesian space]] $\mathbb{R}^n$ (hence for each [[natural number]] $n$) a [[set]] 
+
+   $$
+     X(\mathbb{R}^n) \in Set
+   $$  
+
+   -- to be thought of as the _set of ways of laying out $\mathbb{R}^n$ inside $X$_;
+
+1. for each abstract coordinate transformation, hence for each [[smooth function]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[function]] between the corresponding sets
+
+   $$
+     X(f) : X(\mathbb{R}^{n_2}) \to X(\mathbb{R}^{n_1})
+   $$
+
+   -- to be thought of as the function that sends a _plot_ of $X$ by $\mathbb{R}^{n_2}$ to the corespondingly transformed plot by $\mathbb{R}^{n_1}$ induced by laing out $\mathbb{R}^{n_1}$ inside $\mathbb{R}^{n_2}$.
+
+such that this is compatible with coordinate transformations:
+
+1. the [[identity]] coordinate transformation does not change the plots:
+
+   $$
+     X(id_{\mathbb{R}^n}) = id_{X(\mathbb{R}^n)}
+     \,,
+   $$
+
+1. changing plots along two consecutive coordinate transformations $f_1 \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ and $f_2 \colon \mathbb{R}^{n_2} \to \mathbb{R}^{n_3}$ is the same as changing them along the [[composition|composite]] coordinate transformation $f_2 \circ f_1$:
+
+   $$
+     X(f_2)\circ X(f_1) = X(f_2 \circ f_1)
+     \,.
+   $$
+   
+=--
+
+But there is one more consistency condition for a collection of plots to really be probes of some space: it must be true that if we glue small coordinate systems to larger ones, then the plots by the larger ones are the same as the plots by the collection of smaller ones that agree where they overlap. We first formalize this idea of "plots that agree where their coordinate systems overlap."
+
++-- {: .num_defn #MatchingFamiliesOfPlots}
+###### Definition
+
+Let $X$ be a smooth pre-space, def. \ref{SmoothPreSpace}.
+
+For $\{U_i \to \mathbb{R}^n\}_{i \in I}$ a differentially [[good open cover]], def. \ref{DifferentiallyGoodOpenCover}, let 
+
+$$
+  GluedPlots(\{U_i \to \mathbb{R}^n\}, X) \in Set
+$$
+
+be the set set of $I$-[[tuples]] of $U_i$-plots of $X$ which coincide on all double [[intersections]] 
+
+$$  
+  \array{
+    && U_i \cap U_j
+    \\
+    & {}^{\mathllap{\iota_i}}\swarrow && \searrow^{\mathrlap{\iota_j}}
+    \\
+    U_i &&&& U_j
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbb{R}^n
+  }
+$$ 
+
+(also called the _[[matching families]]_ of $X$ over the given cover):
+
+$$
+  GluedPlots(\{U_i \to \mathbb{R}^n\}, X)
+  \coloneqq
+  \left\{
+    \left(p_i \in X(U_i)\right)_{i \in I}
+    |
+    \forall_{i,j \in I} : X(\iota_i)(p_i) = X(\iota_j)(p_j)
+  \right\}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In def. \ref{MatchingFamiliesOfPlots} the [[equation]]
+
+$$ 
+  X(\iota_i)(p_i) = X(\iota_j)(p_j)
+$$
+
+says in words that 
+
+> The plot $p_i$ of $X$ by the coordinate system $U_i$ inside the bigger coordinate system $\mathbb{R}^n$ coindices with the plot $p_j$ of $X$ by the other coordinate system $U_j$ inside $X$ when both are restricted to the [[intersection]] of $U_i$ and $U_j$ inside $\mathbb{R}^n$.
+
+=--
+
++-- {: .num_remark #NaiveDescentMorphism}
+###### Remark
+
+For each differentially good open cover $\{U_i \to X\}_{i \in I}$ and each smooth pre-space $X$, def. \ref{SmoothPreSpace}, there is a canonical [[function]]
+
+$$
+  X(\mathbb{R}^n) \to GluedPlots(\{U_i \to \mathbb{R}^n\}, X)
+$$
+
+from the set of $\mathbb{R}^n$-plots of $X$ to the set of tuples of glued plots, which sends a plot $p \in X(\mathb{R}^n)$ to its restriction to all the $\phi_i U_i \hookrightarrow \mathbb{R}^n$:
+
+$$
+  p \mapsto (X(\phi_i)(p))_{i \in I}
+  \,.
+$$
+
+=--
+
+If $X$ is supposed to be consistently probable by coordinate systems, then it most be true that the set of ways of laying out a coordinate system $\mathbb{R}^n$ inside it coincides with the set of ways of laying out tuples of glued coordinate systems inside it, for each good cover $\{U_i \to \mathbb{R}^n\}$ as above. Therefore:
+
++-- {: .num_defn}
+###### Definition
+
+A smooth pre-space $X$, def. \ref{SmoothPreSpace} is a **[[smooth space]]** if for all differentially good open covers $\{U_i \to \mathbb{R}^n\}$, def. \ref{DifferentiallyGoodOpenCover}, the canonical function of remark \ref{NaiveDescentMorphism} from plots to glued plots is a [[bijection]]
+
+$$
+  X(\mathbb{R}^n) \stackrel{\simeq}{\to} GluedPlots(\{U_i \to \mathbb{R}^n\}, X)
+  \,.
+$$
+
+=--
+
+This is the definition that essentially all of the following is based on. We do discuss now constructions that produce new [[smooth spaces]] from given ones, but it will not until a few sections later that we consider those examples of smooth spaces which traditionally are put at the beginning of the discussion: [[smooth manifold]]. But just to orient the reader, here is a little outlook:
+
++-- {: .num_remark}
+###### Remark
+
+Later we define/see that
+
+* a _[[smooth manifold]]_  is a [[smooth space]] that is [[covering|locally]] _[[equivalence|equivalent]]_ to a [[coordinate system]];
+
+* a _[[diffeological space]]_ is a [[smooth space]] such that every coordinate labels a [[point]] in the space (which need not be in a general smooth space).
+
+We will establish a long sequence of [[faithful functor|faithful]] inclusions 
 
 $\{$[[coordinate systems]]$\}$ 
  $\hookrightarrow$
@@ -733,10 +874,18 @@ $\{$[[smooth spaces]]$\}$
 $\{$[[smooth groupoids]]$\}$ 
  $\hookrightarrow \cdots $
 
+
+=--
+
+#### Smooth mapping spaces
+ {#SmoothMappingSpaces}
+
 [[mapping spaces]]: for $\Sigma, X$ [[smooth spaces]], the [[mapping space]] $[\Sigma,X]$ is defined as the [[smooth space]] whose $U$-[[coordinate charts]] are $\mathbf{H}(\Sigma \times U ,X)$.
 
 
 Example: [[smooth loop space]] $L X = [S^1, X]$ (on the horizon: [[path integral]])
+
+
 
 ### Layer Sem
  {#SmoothSpacesLayerSem}
