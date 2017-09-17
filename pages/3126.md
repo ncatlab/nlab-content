@@ -67,7 +67,7 @@ This is ([Lurie, section 1.1](#Lurie)) formulated in view of ([Lurie, remark 1.1
 ###### Definition
 **(tangent $(\infty,1)$-category)**
 
-[[generalized the|The]] **tangent $(\infty,1)$-category** $T_{\mathcal{C}} \to \mathcal{C}$ [[generalized the|the]] _fiberwise stabilization_ of the [[codomain fibration]]  $cod : \mathcal{C}^{\Delta^1} \to \mathcal{C}$:
+[[generalized the|The]] **tangent $(\infty,1)$-category** $T_{\mathcal{C}} \to \mathcal{C}$ is [[generalized the|the]] _fiberwise stabilization_ of the [[codomain fibration]]  $cod : \mathcal{C}^{\Delta^1} \to \mathcal{C}$:
 
 $$
   (T_{\mathcal{C}} \stackrel{p}{\to} \mathcal{C}) := Stab(Func(\Delta[1], \mathcal{C}) \stackrel{cod}{\to} \mathcal{C}  )
@@ -107,7 +107,7 @@ $$
   (i \dashv Stab)
 $$
 
-given by [[stabilization]]. (Note that this is not a functor on all of $(\infty,1)Cat$, where instead the obstructions to functoriality are given by [[Goodwillie calculus]]). 
+given by [[stabilization]]. (Note that this is not a functor on all of $(\infty,1)Cat$, where instead the obstructions to functoriality are given by [[Goodwillie calculus]].) 
 
 So the classifying map of the codomain fibration factors through this and hence we can postcompose with the [[stabilization]] functor to obtain
 
