@@ -136,12 +136,6 @@ The [[presymplectic structure]] on the [[covariant phase space]] has apparently 
 
 Zuckerman states that on the reduced phase space of $GL(2,\mathbb{R})$-Chern-Simons theory the presymplectic form becomes the [[Weil-Petersson symplectic form]].
 
-### Geometric quantization
-
-Of the existing formalizations of [[quantization]], it is _[[geometric quantization]]_ that is naturally suited for the treatment of Chern-Simons theory.
-
-For the moment, see the references [below](http://ncatlab.org/nlab/show/Chern-Simons+theory#ReferencesGeometricQuantization).
-
 
 ## Classical Chern-Simons theory (general case)
  {#ClassicalChern-SimonsTheoryGeneral}
@@ -194,6 +188,115 @@ $$
 $$
 
 (For the moment see [[higher dimensional Chern-Simons theory]] for references on this case.)
+
+## Geometric quantization
+
+Of the existing formalizations of [[quantization]], it is _[[geometric quantization]]_ that is naturally suited for the treatment of Chern-Simons theory.
+
+For the moment, see the references [below](http://ncatlab.org/nlab/show/Chern-Simons+theory#ReferencesGeometricQuantization).
+
+### Extended / in higher codimension
+  {#GeometricQuantHigher}
+
+We discuss aspects of Chern-Simons theory in 
+[[higher geometric quantization]].
+
+Let $G$ be a [[simply connected topological space|simply connected]] [[Lie group]], such as
+the [[spin group]].
+
+Write $\mathbf{B}G \in \mathbf{H}$ for the [[smooth infinity-groupoid|smooth]] [[moduli stack]] of $G$-[[principal bundles]] (as discussed [here](smooth+infinity-groupoid+--+structures#LieGroups)) and write $\mathbf{B}G_{conn} \in \mathbf{H}$ for that of $G$-[[connection on a bundle|principal bundles with connection]]. (Here $\mathbf{H} = $ [[Smooth∞Grpd]] is the [[(∞,1)-topos]] for smooth [[higher geometry]].) Similarly, for $n \in \mathbb{N}$ write $\mathbf{B}^n U(1)_{conn}$ for the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|moduli n-stack]] of [[circle n-bundles with connection]]. 
+
+In contrast, write $B G \in $ [[Top]] for the ordinary [[classifying space]] of $G$-principal bundles, the [[geometric realization of simplicial topological spaces|geometric realization]] of $\mathbf{B}G$.
+
+By the discussion at [[Lie group cohomology]] we have 
+
+$$
+  H^4(B G, \mathbb{Z}) \simeq \mathbb{Z} \simeq 
+  \pi_0 \mathbf{H}^3(\mathbf{B}G, U(1))
+  \,.
+$$
+
+Write 
+
+$$
+  \mathbf{c} : \mathbf{B}G \to \mathbf{B}^3 U(1)
+$$
+
+for a morphism in $\mathbf{H}$ representing this class. This modulates the [[circle n-group|cicle 3-group]]=$\mathbf{B}^2 U(1)$-[[principal ∞-bundle]] over $\mathbf{B}G$
+
+$$
+  \array{
+    P 
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G &\stackrel{\mathbf{c}}{\to}& \mathbf{B}^3 U(1)
+  }
+$$
+
+sometimes called the [[Chern-Simons circle 3-bundle]].
+
+By the discussion at _[[differential String structure]]_ ([FSS](#FiorenzaSchreiberStasheff)) this map has a differential refinement to a morphism of smooth moduli stacks of the form:
+
+$$
+  \mathbf{c}_{conn} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}
+  \,.
+$$
+
+Let then $\Sigma_k$ be a compact closed [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $0 \leq k \leq 3$. We can form the [internal hom](%28infinity,1%29-topos#ClosedMonoidalStructure) (mapping $\infty$-stack) $[\Sigma_k,-]$ and produce the morphism
+
+$$
+  [\Sigma_k, \mathbf{c}_{conn}]
+  : 
+  [\Sigma_k, \mathbf{B}G_{conn}]
+  \to
+  [\Sigma_k, \mathbf{B}^3 U(1)_{conn}]
+  \,.
+$$
+
+This in turn we may postcompose with the operation of [[fiber integration in ordinary differential cohomology]], refined to a morphism of [[smooth ∞-groupoids]]
+
+$$
+  \exp(2 \pi i \int_{\Sigma_k}(-)) : [\Sigma_k, \mathbf{B}^n U(1)_{conn}] \to \mathbf{B}^{n-k}U(1)_{conn}
+  \,.
+$$
+
+The result is a morphism
+
+$$
+  \exp(2 \pi i \int_{\Sigma_k} [\Sigma_k, (-)])
+  : 
+  [\Sigma_k, \mathbf{B}G_{conn}]
+   \stackrel{[\Sigma_k, \mathbf{c}_{conn}]}{\to}
+  [\Sigma_k, \mathbf{B}^3 U(1)_{conn}]
+    \stackrel{\exp(2 \pi i \int_{\Sigma_k}(-))}{\to}
+  \mathbf{B}^{3-k} U(1)_{conn}
+  \,.
+$$
+
+The result is a [[circle n-bundle with connection|circle (3-k)-bundle with connection]] over the smooth moduli stack of Chern-Simons fields on $\Sigma_k$.  We explain now how, as $k$-varies, there [[transgression|transgressions]] of the differential characteristic map $\mathbf{c}_{conn}$ constitute [[prequantum circle n-bundle|prequantum circle (3-k)-bundles]] for an [[higher geometric quantization]] of Chern-Simons theory, as indicated in the following table.
+
+| [[codimension]] $k= $ |  |  [[prequantum circle n-bundle|prequantum circle (3-k)-bundle]]
+|--|--|--|
+| 3 | [[differential string structure|differentially refined]] [[first fractional Pontryagin class]] | $\mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$ |
+| 2 | [[Wess-Zumino-Witten model]] background [[B-field]] | $G \stackrel{\bar \nabla_{can}}{\to} [S^1, \mathbf{B}G_{conn}] \stackrel{[S^1, \mathbf{c}_{conn}]}{\to} [S^1, \mathbf{B}^3 U(1)_{conn}] \stackrel{\exp(2 \pi i \int_{S^2}(-))}{\to} \mathbf{B}^2 U(1)_{conn} $ |
+| 1 | ordinary [[prequantum circle bundle]] of Chern-Simons theory | $[\Sigma_2, \flat\mathbf{B}G] \to [\Sigma_2, \mathbf{B}G_{conn}] \stackrel{[\Sigma_2, \mathbf{c}_{conn}]}{\to} [\Sigma_2, \mathbf{B}^3 U(1)_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_2}(-)}{\to}  \mathbf{B} U(1)_{conn}$ |
+| 0 | [[action functional]] of Chern-Simons theory | $[\Sigma_3, \mathbf{B}G_{conn}] \stackrel{[\Sigma_3, \mathbf{c}_{conn}]}{\to} [\Sigma_3, \mathbf{B}^3 U(1)_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_3}(-))}{\to} U(1)$ |
+
+The first line we have already discussed ([FSS](#FiorenzaSchreiberStasheff)). 
+The second line is implicit in ([CJMSW, def. 3.3, prop. 3.4](#CJMSW)). There it is shown that there is a natural $G$-[[principal connection]] on $S^1 \times$, such that the [[fiber integration in ordinary differential cohomology]] of its [[Chern-Simons circle 3-bundle|Chern-Simons circle 3-bundle with connection]] $\nabla_{con}$ over $S^1$ is the [[Wess-Zumino-Witten model]] [[circle n-bundle with connection|circle n-bundle with connection]] on $G$. But in terms of moduli stacks this means that there is a canonical morphism
+
+$$
+  \nabla_{can} : G \times S^1 \to \mathbf{B}G_{conn}
+$$
+
+such that its [[internal hom]]-[[adjunct]]
+
+$$
+  \bar \nabla_{conn} : G \to [S^1 , \mathbf{B}G_{conn}]
+$$
+
+has the property that postcomposition with $\exp(2 \pi i \int_{S^1}[S^1, \mathbf{c}_{conn}])$ modulates the WZW 2-bundle. This is precisely the content of the second line in the table above.
 
 
 
@@ -440,6 +543,16 @@ Decent expositions are for instance in
 and in section 3.3 of
 
 * [[Tudor Dimofte]], [[Sergei Gukov]], _Quantum Field Theory and the Volume Conjecture_, in Andersen, Boden, Hahn, Himpel (eds.)_Chern-Simons gauge theory: 20 years after_, AMS (2011) ([arXiv:1003.4808](http://arxiv.org/abs/1003.4808))
+
+The "[[prequantum circle n-bundle|prequantum circle 3-bundle]]" in codimension 3, was constructed in 
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]] [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
+  {#FiorenzaSchreiberStasheff}
+
+and in codimension 2 ([[Wess-Zumino-Witten model]]) implicitly in 
+
+* [[Alan Carey]], [[Stuart Johnson]], [[Michael Murray]], [[Danny Stevenson]], [[Bai-Ling Wang]], _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_, Commun.Math.Phys. 259 (2005) 577-613 ([arXiv:math/0410013](http://arxiv.org/abs/math/0410013))
+ {#CJMSW}
 
 #### Hamiltonian quantization
 
