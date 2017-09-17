@@ -23,6 +23,12 @@ Whatever it is otherwise, [[string theory]] turns out to be an organizational pr
 
 * **[[U-duality]]** .
 
+Then there are the "string-string dualities", notably the 
+
+* [[duality between F-theory and heterotic string theory]]
+
+Then there are the 
+
 There is also 
 
 * the relation between [[11-dimensional supergravity]] and the various string theories, see
