@@ -5,9 +5,9 @@
 
 ## Idea
 
-The _flop transition_ is a continuous path in a space of _noncommutative 2-geometries_ that starts at an ordinary complex 3-dimensional [[Calabi-Yau space]], then passes through a point that does not correspond to an ordinary geometry (the _Gepner point_) and emerges afterwards again as an ordinary CY-geometry -- but now with different [[topology]].
+The _flop transition_ is a continuous path in a space of _noncommutative 2-geometries_ that starts at an ordinary complex 3-dimensional [[Calabi-Yau space]], then passes through a point that does not correspond to an ordinary geometry (the _[[Gepner model|Gepner point]]_) and emerges afterwards again as an ordinary CY-geometry -- but now with different [[topology]].
 
-This was found and discussed in the context of [[string theory]] but the phenomenon is a general abstract one in the theory of S[[CFT]]s regarded as generalized geometries -- as described at [[2-spectral triple]].
+This was found and discussed in the context of [[string theory]] but the phenomenon is a general abstract one in the theory of [[2d SCFTs]] regarded as generalized geometries -- as described at [[2-spectral triple]].
 
 ## Related concepts
 
@@ -23,3 +23,4 @@ A rough and brief survey of the flop transition and related phenomena with many 
 
 * [[Brian Greene]], _Aspects of collapsing cocycles_ ([ps](cdsweb.cern.ch/record/475955/files/0011059.ps.gz))
 
+[[!redirects flop transitions]]
