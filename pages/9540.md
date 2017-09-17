@@ -144,9 +144,13 @@ An $(A, \mathbb{C})$-Hilbert $C^\ast$-bimodule is equivalently just as [[represe
 
 ## Related concepts
 
+* [[amplimorphism]]
+
 * [[generalized elliptic operator]]
 
 * [[KK-theory]]
+
+
 
 ## References
 
