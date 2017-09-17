@@ -210,10 +210,11 @@ $$
 =--
 
 ### Descent and cohomology
+ {#DescentAndCohomology}
 
 The following theorem characterizes the [[∞-stack]]/[[(∞,1)-sheaf]]-condition for the [[presentable (∞,1)-category|presentation]] of an [[(∞,1)-topos]] by a [[local model structure on simplicial presheaves]] in terms of descent along hypercovers.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #DescentFromDescentAlongHypercovers}
 ###### Theorem
 
 In the [[local model structure on simplicial presheaves]] $PSh(C)^{\Delta^{op}}$ an object is fibrant precisely if it is fibrant in the global [[model structure on simplicial presheaves]] and in addition satisfies [[descent]] along all hypercovers over representables that are degreewise [[coproduct]]s of representables.
