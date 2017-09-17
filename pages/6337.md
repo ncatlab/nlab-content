@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _genus_ of a [[surface]] is an [[integer]] that classifies the surface's [[homeomorphism]] class.
+The _genus_ of a [[surface]] is an [[integer]] that helps classify the surface's [[homeomorphism]] class.  It gives the number of handles or `cross caps' that are in a sum decomposition of the surface.
 
 ## Related concepts
 
@@ -16,4 +16,10 @@ The _genus_ of a [[surface]] is an [[integer]] that classifies the surface's [[h
 
 ## References
 
+
 * Wikipedia, _[Genus](http://en.wikipedia.org/wiki/Genus_%28mathematics%29)_
+
+Various approaches to the classification of surfaces are described in introductory texts such as 
+
+* [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
+
