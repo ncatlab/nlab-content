@@ -252,8 +252,8 @@ a closed string propagating without interaction.
 
 We will work out the covariant Hamiltonian formalism (also known as the **de Donder-Weyl formalism**) for this example in detail. We follow here the exposition found in 
 
-* F. Helein, Hamiltonian formalisms for
-multidimensional calculus of variations and perturbation theory, [arXiv:math-ph/0212036](http://arxiv.org/abs/math-ph/0212036)
+* [[Frédéric Hélein]], _Hamiltonian formalisms for
+multidimensional calculus of variations and perturbation theory_, [arXiv:math-ph/0212036](http://arxiv.org/abs/math-ph/0212036)
 
 For simplicity we will only consider the case where $\Sigma$ is the
 cylinder $\mathbb{R}\times S^1$ and $X$ is $d$-dimensional Minkowski spacetime, $\mathbb{R}^{1,d-1}$.
