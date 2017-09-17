@@ -303,6 +303,7 @@ To that end, first consider the following flavors of geometry.
 +-- {: .num_example #TheSites}
 ###### Example
 
+
 Let $S$ denote either of the following [[sites]]:
 
 * $SmoothMfd$ [[smooth manifolds]];
@@ -460,7 +461,7 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_{\hat E}}} && \searrow
     \\
-    \flat \Pi_{dR} {\hat E}  && && {\hat E} && && \Pi \flat_{dR}  \hat E
+    \Pi_{dR} \flat  {\hat E}  && && {\hat E} && && \Pi \flat_{dR}  \hat E
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{ch_E}}
     \\
@@ -815,7 +816,7 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-    \flat \Pi_{\mathfrak{a}dR} X  &&  && X &&  && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
+    \Pi_{\mathfrak{a}dR} \flat   X  &&  && X &&  && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
@@ -838,18 +839,12 @@ The special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}
 +-- {: .num_remark #FracturingOnEInfinityAlgebras}
 ###### Remark
 
-By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](completion+of+a+module#Monoidalness)_, the [[adjoint modality]] of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} is by [[monoidal (∞,1)-functors]] on $A Mod$. This means that $(\Pi_{\mathfrak{a}}\dashv \flat_{\mathfrak{a}})$ passes to [[commutative monoid in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]] in $A Mod$, hence to ([[Isbell duality|formal duals of]]) [[E-∞ algebras]], hence to affine [[spaces]] in [[E-∞ geometry]]
+By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](completion+of+a+module#Monoidalness)_, the [[adjoint modality]] of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} is a "[[monoidal (∞,1)-functors]]" without possibly preservation of the unit on $A Mod$. This means that $(\Pi_{\mathfrak{a}}\dashv \flat_{\mathfrak{a}})$ passes to "[[commutative monoid in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]]-without unit" in $A Mod$, hence to ([[Isbell duality|formal duals of]]) [[E-∞ algebras]]-without unit, hence to affine [[spaces]] in "non-compact"-[[E-∞ geometry]]
 
-$$
-  (\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )  \colon
-  E_\infty Alg_A^{op} \to E_\infty Alg_A^{op}
-  \,.
-$$
+Notice that in addition $\Pi_{\mathfrak{a}}$ here should preserve [[finite products]] (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
+[this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing) finite coproducts in $CRng(A Mod)$ are computed in the underlying $A Mod$.
 
-Notice that in addition $\Pi_{\mathfrak{a}}$ here preserves [[finite products]]. (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
-[this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing) finite coproducts in $CRing(A Mod)$ are computed in the underlying $A Mod$.
-
-Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine [[E-∞ geometry|E-∞]]-[[arithmetic geometry]].
+Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine "non-compact"-[[E-∞ geometry|E-∞]]-[[arithmetic geometry]] (over "$E_\infty$-[[rngs]]").
 
 =--
 
