@@ -38,6 +38,8 @@ Recent times have seen major progress in understanding these axiomatizations and
 
 ## Higher categories in quantum field theory
 
+(See also [[higher category theory and physics]] and ([SatiSchreiber](#SatiSchreiber))).
+
 Even though _quantum field theory_ has been around for decades and has been very successful both as a phenomenological model in experimental physics as well as a source of deep mathematical structures and theorems, from a mathematical perspective it is still to a large extent mysterious, though recently much progress is being made.
 
 There are essentially two alternative approaches for formalizing quantum field theory and making it accessible to mathematical treatment: 
@@ -50,7 +52,7 @@ There are essentially two alternative approaches for formalizing quantum field t
 
 Both [[AQFT]] and [[FQFT]] involve the language of [[category theory]] and  [[higher category theory]]. In fact, a couple of important higher categorical structures were motivated from and first considered in the context of quantum field theory. For instance 
 
-* John Roberts first conceived the idea of $\infty$-categorical [[nonabelian cohomology]] in the context of [[AQFT]].
+* [[John Roberts]] first conceived the idea of $\infty$-categorical [[nonabelian cohomology]] in the context of [[AQFT]].
 
 * the description of 2-dimensional [[CFT]] and 3-dimentional [[TFT]] in terms of [[modular tensor categories]] provides a major application of the theory of [[monoidal categories]];
 
@@ -68,35 +70,56 @@ There are some indications that such [[higher category theory|higher categorical
 
 Ours is the age to figure this out.
 
+## Examples
+
+* [[gauge theory]]
+
+  * [[electromagnetism]]: [[QED]], 
+
+  * [[Yang-Mills theory]]: [[QCD]]
+
+* [[conformal field theory]]
 
 ## References
-
-* P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
-
-* V. S. Varadarajan, _Supersymmetry for mathematicians: an introduction_, AMS and Courant Institute, 2004.
-
-* R. E. [[Borcherds]], A. Barnard, _Lectures on QFT_, [arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014)
 
 A short introduction to different aspects of QFT usually covered in a first course is this:
 
 * Gerald B. Folland, _Quantum field theory: A tourist guide for mathematicians_, Math. Surveys and Monographs __149__ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
 
-An extensive compilation of QFT from the viewpoint of a mathematician: 
+
+* R. E. [[Borcherds]], A. Barnard, _Lectures on QFT_, ([arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014))
+
+
+An extensive compilation of material on QFT aiming for mathematical precision is
 
 * [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists. I: Basics in mathematics and physics._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1124.81002&format=complete)), _II: Quantum electrodynamics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81005&format=complete))
+
+A discussion of aspects of QFT with an eye towards applications in [[string theory]] and _aimed_ at mathematicians (though requiring more of a physicist's mindset than many pure mathematicians will find themselves in) is
+
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
 
 Differential geometric and topological aspects (e.g. connections to index theorems and moduli spaces) are emphasized in
 
 * Charles Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
 
+An indication of the modern foundational picture of quantum mechanics is attempted in
+
+* [[Hisham Sati]], [[Urs Schreiber]], _Mathematical foundations of quantum field and perturbative string theory_ Proceedings of Symposia in Pure Mathematics, AMS (<a href="http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory">web</a>).
+ {#SatiSchreiber}
+
+See also
+
 * [[Albert Schwarz]], Quantum field theory and topology, Grundlehren der Math. Wissen. __307__, Springer 1993.  
 
-* [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]], _Mathematical foundations of quantum field and perturbative string theory_ Proceedings of Symposia in Pure Mathematics, AMS (<a href="http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory">web</a>).
 
 * [[Graeme Segal]}, _[[Three Roles of Quantum Field Theory]]_ , Felix Klein lectures, Bonn (2011)
 
 For further references see [[FQFT]] and [[AQFT]].
 
+Texts on supersymmetric QFT include
+
+* V. S. Varadarajan, _Supersymmetry for mathematicians: an introduction_, AMS and Courant Institute, 2004.
 
 
 [[!redirects QFT]]
