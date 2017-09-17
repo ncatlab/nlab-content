@@ -202,6 +202,9 @@ For more on this see prop. \ref{AutomorphismInfinityGroup} below.
 By def. \ref{AxiomaticDefinition} $Cat_{(\infty,n)}$ is [[equivalence of (∞,1)-categories]] to a [[localization of an (∞,1)-category|localization]] of the [[(∞,1)-category of (∞,1)-presheaves]] on $Str n Cat_{gen}$. In fact, various subcategories of $Str n Cat_{gen}$ are already sufficient. Here we discuss these [[presentable (∞,1)-category|presentations]]. 
 
 
+#### Universal presentation
+
+
 +-- {: .num_defn #UniversalLocalizingClass}
 ###### Definition
 
@@ -226,7 +229,7 @@ Write $S$ for the strongly saturated class of morphisms (see [[reflective sub-(�
 The [[localization of an (∞,1)-category|localization]] of the [[(∞,1)-category of (∞,1)-presheaves]] over $Str n Cat_{gen}$, def. \ref{nCatGen} at the class of morphism $S$ from def. \ref{UniversalLocalizingClass} is a [[presentable (∞,1)-category|presentation]] of $Cat_{(\infty,n)}$, def. \ref{AxiomaticDefinition}:
 
 $$
-  Cat_{(\infty,n)} \simeq PSh_\infty(Str n Cat_{gen})[S^-1]
+  Cat_{(\infty,n)} \simeq PSh_\infty(Str n Cat_{gen})[S^{-1}]
   \,.
 $$
 
@@ -234,19 +237,147 @@ $$
 
 ([B-SP, theorem 7.6](#BarwickSchommerPries)).
 
++-- {: .proof}
+###### Proof
+
+The three axioms of def. \ref{AxiomaticDefinition} are satisfied effectively by construction  of $S$ (...). Conversely, every localization satisfying the second and third axiom must invert the morphisms in $S$, hence must be a sub-localization.
+
+=--
+
+Various other presentations of $Cat_{(\infty,n)}$ are obtained by localizations over subcategories of  
+$i : Str n Cat_{restr} \hookrightarrow Str n Cat_{gen}$ at a set of morphisms $T \subset Mor(PSh_\infty(R))$. Write
+
+$$
+  PSh_\infty(Str n Cat_{restr})
+   \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}}
+  PSh_\infty(Str n Cat_{gen})
+$$
+
+for the induced [[essential geometric morphism]].
+
++-- {: .num_prop #SufficientConditionsForPresentation}
+###### Proposition
+
+The following conditions are sufficient in order that 
+
+$$
+  Cat_{(\infty,n)} \simeq 
+  PSh_\infty(Str n Cat_{gen})[S^{-1}]
+  \stackrel{i^*}{\to} 
+  PSh_\infty(Str n Cat_{restr})[T^{-1}]
+$$
+
+is an [[equivalence of (∞,1)-categories]]:
+
+1. $i^*(S_0) \subset T$
+
+1. $i_!(T_0) \subset S$
+
+1. [[generalized the|the]] [[unit of an adjunction|counit]] $id \to i^* i_!$ has components in $T$;
+
+1. the $k$-[[globe]] $G_k$ is in the essential image of $i$, for each $0 \leq k \leq n$.
+
+
+=--
+
+([B-SP, theorem 9.2](#BarwickSchommerPries)) 
+
+#### Theta-spaces
+
+
++-- {: .num_prop }
+###### Proposition
+
+The $n$th [[Theta category]] is a [[full subcategory]] $\Theta_n \hookrightarrow Str n Cat_{gen}$ and the localization that defines the $(\infty,1)$-category $\Theta_n Space$ of $(\infty,n)$-[[Theta-spaces]] satisfies the conditions of prop. \ref{SufficientConditionsForPresentation}. 
+
+Hence $\Theta_n$-spaces are a model for $(\infty,n)$-categories, in the sense of def. \ref{AxiomaticDefinition}:
+
+$$
+  \Theta_n Space \simeq Cat_{(\infty,n)}
+  \,.
+$$
+
+=--
+
+([B-SP, theorem 11.15](#BarwickSchommerPries))
+
+
 ### Via $\infty$-enrichment
  {#ViaEnrichment}
 
-* [[enriched (∞,1)-category]]
+#### General
 
-* [[Segal n-category]]
+There should be a general notion of _[[enriched (∞,1)-category]]_ (see there) over a [[monoidal (∞,1)-category]] $\mathcal{V}$. Write $\mathcal{V}Cat$ for the [[(∞,1)-category]] of $\mathcal{V}$-enriched $(\infty,1)$-categories.
+
++-- {: .num_defn #EnrichementDefinition}
+###### Definition
+
+For $n \in \mathbb{N}$ write
+
+$$
+  Cat_{(\infty,n)} \coloneqq
+  (((\infty Grpd Cat) Cat) \cdots) Cat
+  \,.
+$$
+
+=--
+
+
+#### Presentation by Segal $n$-categories
+
+A presentation of the notion of $n$-fold enrichement of
+def. \ref{EnrichementDefinition} is given by
+_[[Segal n-categories]]_.
+
+(...)
 
 ### Via $\infty$-internalization
  {#ViaInternalization}
 
-* [[internal category in an (∞,1)-category]]
+#### General
 
-* [[n-fold complete Segal space]]
+There is a general notion of _[[internal category in an (∞,1)-category]]_. For $\mathcal{C}$ an [[(∞,1)-category]] write $Cat(\mathcal{C})$ for the $(\infty,1)$-category of internal categories in $\mathcal{C}$. Write $Cat_{(\infty,1)} \coloneqq$ [[∞Grpd]] for the $(\infty,1)$-category of [[∞-groupoids]].
+
+
++-- {: .num_defn }
+###### Definition
+
+For $n \in \mathcal{N}$ the $(\infty,1)$-category of 
+$(\infty,n)$-categories is
+
+$$
+  Cat_{(\infty,n)}
+  \coloneqq  
+  Cat^n(\infty Grpd)
+  \coloneqq
+  Cat(\cdots Cat(Cat_{(\infty,0)}) \cdots)
+  \,.
+$$
+
+=--
+
+([Lurie](#Lurie)).
+
+#### Presentation by $n$-fold complete Segal spaces
+
+A presentation of $Cat^n(\infty Grpd)$ is given by [[n-fold complete Segal spaces]].
+
+
++-- {: .num_prop }
+###### Proposition
+
+The $n$-fold  product of the [[simplex category]] is naturally a [[full subcategory]] $\Delta{\times n} \hookrightarrow Str n Cat_{gen}$ and the localization that gives the $(\infty,1)$-category $CSS(\Delta^{\times n})$ of [[n-fold complete Segal space]] satisfies the conditions of prop. \ref{SufficientConditionsForPresentation}. 
+
+Hence $n$-fold complete Segal space are a model for $(\infty,n)$-categories, in the sense of def. \ref{AxiomaticDefinition}:
+
+$$
+  \Theta_n Space \simeq Cat_{(\infty,n)}
+  \,.
+$$
+
+=--
+
+([B-SP, theorem 12.6](#BarwickSchommerPries))
 
 
 ## Properties
@@ -339,6 +470,7 @@ The definition in terms of [[Theta spaces]] is due to
 An iterartive definition in terms of [[n-fold complete Segal spaces]] is given in
 
 * [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ {#Lurie}
 
 A summary of definitions and some known comparison results can be found at
 
