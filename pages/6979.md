@@ -31,6 +31,12 @@ Dependent type systems are heavily used for _[[certified programming|software ce
 
 They also seem to support a [[foundations]] of mathematics in terms of [[homotopy type theory]].
 
+## Descitpion
+
+### Judgments for types and terms
+
+[[!include judgements for types and terms - table]]
+
 ## Properties
 
 +-- {: .num_theorem}
