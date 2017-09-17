@@ -30,11 +30,11 @@ Conversely, starting with a given theory of logic or a given type theory, we say
 
 ## Definition
 
-For the general idea, for the moment see at _[[type theory]]_ the section _[An introduction for category theorists](type+theory#CategoricalSemantics)_.
+For the general idea, for the moment see at _[[type theory]]_ the section _[An introduction for category theorists](type+theory#CategoricalSemantics)_ and see at _[[relation between type theory and category theory]]_.
 
 ### Of dependent type theory
 
-We discuss how to interpret judgements of [[dependent type theory]] in a given [[category]] $\mathcal{C}$ with [[finite limits]]. 
+We discuss how to interpret judgements of [[dependent type theory]] in a given [[category]] $\mathcal{C}$ with [[finite limits]]. For more see _[[categorical model of dependent types]]_.
 
 Write $cod : \mathcal{C}^I \to \mathcal{C}$ for its [[codomain fibration]], and write 
 
@@ -203,6 +203,12 @@ $$
 ### Of homotopy type theory
 
 See _[[categorical semantics of homotopy type theory]]_.
+
+## Related pages
+
+* [[relation between type theory and category theory]]
+
+* [[categorical model of dependent types]]
 
 ## References
 
