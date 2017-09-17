@@ -1,13 +1,20 @@
-Thanks to [[Mario Pasquato|Mario]]'s 3rd lecture at [[Croatian black hole school]]. 
 
-Typical ways of observing [[black holes]] in Nature -- only indirectly:
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The typical ways of -- indirectly -- observing [[black holes]] in Nature -- are
 
 * <nowiki>1.</nowiki> via X-ray emission. The nearby gas or nearby stars get acreted about a black hole and accelerate in the vicinity producing radiation emission;
 * <nowiki>2.</nowiki> in star clusters with no gas, such as globular clusters, the only way is to see how the black hole affects the motion of nearby stars. 
 
-ad 1) X ray emission. Consider first stars. Radiation pressure outwards, gravity inwards. If the radiation stronger the star dissolves. __Eddington's luminosity limit__
+## X-ray emission
 
-$$L_{Edd} = \frac{GMm_0 4\pi c}{\sigma}$$
+Consider first stars. Radiation pressure outwards, gravity inwards. If the radiation stronger the star dissolves. __Eddington's luminosity limit__
+
+$$L_{Edd} = \frac{G M m_0 4\pi c}{\sigma}$$
 
 In astrophysical units $L_{Edd} = \frac{M}{M_{sun}}\cdot 1.26 \cdot 10^38 erg/s$. For about ten solar masses this is about $10^{39} erg/s$. So something radiating above this limit is heavier of ten solar masses, under the assumption that the emission is isotropic and there are no other mechanisms which can violate the Eddington's limit (e.g. no beaming). 
 So the sources above $10^{39} erg/s$ (and under the assmptions above) are called the ultraluminous X-ray sources. Candidates for IMBH. 
@@ -16,8 +23,10 @@ Spectrum observation in the acretion disk. Get temperature as a function of $R$ 
 
 This method for fitting with the spectrum is called **multicolor** disk model.  
 
-ad 2) Let us concentrate on the second method.
-This (effects on the motion of nearby stars) can be observed directly via black hole influence sphere or as global evidence (the whole cluster is affected). If the black hole has mass $M$, we can look at the escape velocity $\sqrt{\frac{2GM}{R}_{inf}}\sim \langle v \rangle$. 
+
+## Effects on nearby stars
+
+Effects of a [[black hole]] on the motion of nearby stars can be observed directly via black hole influence sphere or as global evidence (the whole cluster is affected). If the black hole has mass $M$, we can look at the escape velocity $\sqrt{\frac{2GM}{R}_{inf}}\sim \langle v \rangle$. 
 
 $R_{inf}$ -- is the influence sphere radius. $GM_{BH}/R_{inf} = GM_{GC}/R_{GC}$. Thus
 
@@ -53,3 +62,7 @@ IMBH --  hosting GCs has a large core.
 Another signature of the presence of black hole, acceleration of the  global shrinking the cluster puff the core and mass segregation accelerates in the cluster (infall of heavy stars). 
 
 Heavier main sequence stars (0.8 solar mass) compare with smaller ones (0.2 solar masses). Distribution tells if there is an energy source near the core. If you know how many binary stars there in principle one could be able to tell if there is a black hole there or not. 
+
+## References
+
+In parts taken from [[Mario Pasquato|Mario]]'s 3rd lecture at the [[Croatian black hole school]], 2010. 
