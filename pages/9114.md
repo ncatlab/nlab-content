@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -142,7 +141,7 @@ However, what makes local prequantum field theory rich is that it naturally inco
 
 But plain boundaries are just the first example of a general phenomenon known as "[[QFT with defects|defects]]" or "phase dualities" or "singularities" in field theories. Notably the boundary field theory itself may have boundaries, in which case this means that the original theory had _[[manifold with corners|corners]]_ where different boundary pieces meet. This we discuss in 
 
-* _[Corner field theory](#CornerFieldTheory)
+* _[Corner field theory](#CornerFieldTheory)_.
 
 Generally there are fields theories with general such singularties:
 
@@ -702,7 +701,7 @@ $$
   \,.
 $$
 
-Regarded this way, we say the [gauge group acting on the single field $\phi_0$ forms a _[[groupoid]]_, whose single _[[object]]_ is $\phi_0$ and whose set of _[[morphisms]]_ is $G$. 
+Regarded this way, we say the [[gauge group]] acting on the single field $\phi_0$ forms a _[[groupoid]]_, whose single _[[object]]_ is $\phi_0$ and whose set of _[[morphisms]]_ is $G$. 
 
 
 ##### Groupoids and basic homotopy 1-type theory
@@ -1680,8 +1679,6 @@ This forms one section of the more comprehensive lecture notes at
 
 * _[[geometry of physics]]_
 
-
-
 [[!redirects prequantum field theory]]
 [[!redirects prequantum field theories]]
 [[!redirects local prequantum field theory]]
@@ -1692,7 +1689,3 @@ This forms one section of the more comprehensive lecture notes at
 
 [[!redirects higher prequantum field theory]]
 [[!redirects higher prequantum field theories]]
-
-
-
-
