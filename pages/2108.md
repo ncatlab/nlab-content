@@ -548,11 +548,17 @@ One can consider geometric quantization in [[supergeometry]].
 * Gijs M. Tuynman, _Super Symplectic Geometry and Prequantization_ (2003) ([arXiv:math-ph/0306049](http://arxiv.org/abs/math-ph/0306049))
 
 
-### Variants
+### In higher differential geometry
 
-References on [[geometric quantization of symplectic groupoids]] are
+Geometric quantization in or with tools of [[higher differential geometry]], notably with/over [[Lie groupoids]] is discussed in the following references.
 
-* Eli Hawkins, _A Groupoid Approach to Quantization_ ([arXiv](http://arxiv.org/abs/math.SG/0612363))
+
+* [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) [pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf)
+ {#Bos}
+
+The [[geometric quantization of symplectic groupoids]] is accomplished in
+
+* [[Eli Hawkins]], _A Groupoid Approach to Quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
  {#Hawkins}
 
 [[!redirects geometric prequantization]]
