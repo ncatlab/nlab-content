@@ -177,40 +177,80 @@ But motivic quantization is not bound to deal with supersymmetric field theories
 
 ## Expositional summary
 
-> under construction
+We give here a leisurely exposition of the main ideas of motivic quantization of local prequantum field theory. For more details skip ahead to _[General theory](#GeneralTheory).
+
+1. _[Local prequantum field theory](ExpositionLocalPrequantumFieldTheory)_
+
+1. _[Cohomological quantization](#ExpositionCohomologicalQuantization)_
+
+1. _[Examples](#ExpositionExamples)_
 
 ### 1. Local prequantum field theory
+ {#ExpositionLocalPrequantumFieldTheory}
 
-By the [[cobordism hypothesis]]-[[theorem]], 
-
-[[topological field theory|topological]] [[local field theory]] is
-
+By the [[cobordism hypothesis]] a [[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect QFT]] [[local field theory]] is a [[monoidal (∞,n)-functor]]
 
 $$
   Z \;\colon\; Bord_n^\otimes \to \mathcal{C}^\otimes
-  \,.
 $$
 
-Here for [[quantum theory|quantum]] [[field theory]], $\mathcal{C}$ is to be an $n$-dimensional analog of a [[category of modules]] $E Mod$, for $E$ an [[E-∞ ring]], for instance $E Mod^{\Box^n}$.
+from an [[(∞,n)-category of cobordisms]] with [[branes]] and [[domain walls]].
+
+Here for actial [[quantum theory|quantum]] (as opposed to [[prequantum field theory|prequatum]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _linear_ [[tensor category|tensor]] [[category of modules]] $R Mod$ for some [[commutative ring|commutative]] [[ground ring]] $R$ ordinarily the [[complex numbers]].
+
+Here in [[homotopy theory]] we choose, more generally, a ground [[E-∞ ring]] $E$. This comes with its [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category of ∞-modules]] $E Mod^\otimes$.
+
+A decent choice for $\mathcal{C}^\otimes$ is then $\mathcal{C}^\otimes = E Mod^{\Box^n}$, the [[symmetric monoidal (∞,n)-category]] of $n$-dimensional [[cubes]] in $E Mod$. 
 
 $$
   Z \; \colon \;
   Bord_n^\otimes \to (E Mod^{\Box^n})^\otimes
+$$
+
+This assigns [[propagator]] [[linear maps]] between [[spaces of quantum states]]. 
+
+$$
+  \left(
+  \array{
+   x_{1,1}  &\to& x_{2,1}
+   \\
+   \downarrow & {world- \atop volume} & \downarrow
+   \\
+   x_{1,2} & \to & x_{2,2}
+  }
+  \right)
+  \;\;\;\;
+  \stackrel{Z}{\mapsto}
+  \;\;\;\;
+  \left(
+  \array{
+    V_{1,1} &\stackrel{}{\to}& V_{2,1}
+    \\
+    \downarrow & {{quantum \atop states} \atop {and \; propagators}} & \downarrow
+    \\
+    V_{1,2} &\to& V_{2,2}
+  }
+  \right)
   \,.
 $$
 
-But most quantum field theories of interested both in nature and in theory are very special examples of this general definition, in that they arise via a process of [[quantization]] from spaces of [[field (physics)|fields]] equipped with [[action functionals]] -- from [[higher differential geometry|higher differential geometric data]]
+The linearity of $E Mod$ encodes the [[superposition principle]] of [[quantum physics]], which says that [[states]] may be added and possibly additively cancel. This is _[[quantum interference]]_, the hallmark of [[quantum physics]].
 
+But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or similar, the notion of monoidal $Z$ as above is still much more general than what a physicist would typically call quantum field theory.
 
-So let $\mathbf{H}$ be a category of spaces (of [[field (physics)|fields]]). 
+Because most quantum field theories of interested both in nature and in theory are very special examples of this general definition, in that: 
+
+* they arise via a process of [[quantization]] from [[higher differential geometry|higher differential geometric data]] in terms of [[spaces]] of [[field (physics)|field configurations]] equipped with [[action functionals]].
+
+In order to capture this, we take $\mathbf{H}$ be a suitable ambient category of [[spaces]] of [[field (physics)|fields]]. (Following a suggestion of [[William Lawvere]], we call these suitable cateories _[[cohesive (∞,1)-toposes]]_.)
 
 For instance 
 
-* for $\mathbf{Fields} = X \in \mathbf{H}$ a [[manifold]] this is a [[sigma-model]] [[field (physics)|field]], 
+* for $\mathbf{Fields} = X \in \mathbf{H}$ a [[manifold]], this is a space of [[sigma-model]] [[field (physics)|fields]], 
 
-* or for $\mathbf{Fields} = \mathbf{B}G_{conn}$ a [[moduli stack]] of [[principal connections]] this is a [[gauge field]]. 
+* or for $\mathbf{Fields} = \mathbf{B}G_{conn}$ a [[moduli stack]] of [[principal connections]], this is a space of [[gauge fields]]. 
 
-Let $Corr_n(\mathbf{H})$ be $n$-fold [[correspondences]] in $\mathbf{C}$. A [[morphism]] here is a space of [[trajectories]]
+Let $Corr_n(\mathbf{H})$ be $n$-fold [[correspondences]] in $\mathbf{C}$. A [[morphism]] here is a space of [[trajectories]] $\mathbf{Fields}_{trajectories}$ of fields, together with projections to the incoming and the outgoing fields
 
 $$
   \array{
@@ -224,10 +264,39 @@ $$
      && &&
     \mathbf{Fields}_{out}
   }
+  \,.
 $$
 
+For instance for 
 
-Then 
+$$
+  \left(
+  \partial_{in} \Sigma
+  \coprod
+  \partial_{out} \Sigma
+  \right)
+  \hookrightarrow
+  \Sigma
+$$
+
+a [[cobordism]] and $\mathbf{Fields}$ a [[moduli stack]] of fields as above, then forming [[mapping spaces]] yields the correspondence
+
+$$
+  \array{
+    && [\Sigma, \mathbf{Fields}]
+    \\
+    & \swarrow && \searrow
+    \\
+    [\partial_{in}\Sigma, \mathbf{Fields}]
+    && && 
+    [\partial_{out} \Sigma, \mathbf{Fields}]
+  }
+$$
+
+which exhibits field configurations on $\Sigma$ as trajectories along which fields on $\partial_{in} \Sigma$ propagate to $\partial_{out} \Sigma$.
+
+
+Therefore a [[monoidal (∞,n)-functor]]
 
 $$
   \array{
@@ -240,7 +309,8 @@ $$
   }
 $$
 
-defines _field content_, a functor that sends a [[manifold]] $\Sigma$ to 
+defines _field content_ for a [[field theory]]. By the [[cobordism hypothesis]] (and since _every_ object in $Corr_n(\mathbf{H})$ is a [[fully dualizable object]]) this is just equivalent to the choice of [[moduli stack]] $\mathbf{Fields} \in \mathbf{H}$.
+Given this, the above functor sends a [[cobordism]] $\Sigma$ to 
 
 $$
   \mathbf{Fields}(\Sigma)
@@ -250,13 +320,7 @@ $$
 
 the "[[phase space]]" of "flat fields" on $\Sigma$.
 
-Let $\mathbf{B}^n U(1)$ be [[phase and phase space in physics|physical phases]] then the [[slice (∞,1)-topos]]
-
-$$
-  \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
-$$
-
-is the collection of [[local Lagrangians]]/[[local action functionals]]:
+Now a [[local Lagrangian]]/[[local action functional]] in $\mathbf{Fields}$ is a map
 
 $$
   \array{
@@ -269,9 +333,15 @@ $$
   \,.
 $$
 
-Now $Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)$ contains trajectories equipped with action functionals.
+Therefore the _category of local action functionals_ is  the [[slice (∞,1)-topos]]
 
-Notice that by the "[[holographic principle]] of [[homotopy theory]]" (if you wish), this induces action functionals of lower degree in higher dimension
+$$
+  \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
+$$
+
+And therefore the category $Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)$ of correspondences in the slice contains trajectories equipped with action functionals.
+
+By the "[[holographic principle]] of [[homotopy theory]]" (if you wish), this induces action functionals of lower degree in higher dimension: let $\Sigma$ be a [[closed manifold]], then
 
 $$
   \array{
@@ -279,13 +349,13 @@ $$
     \\
     & \swarrow && \searrow 
     \\
-    \mathbf{Fields}_{\mathrm{in}}
+    \mathbf{Fields}_{\emptyset}
     && 
      \swArrow 
     &&
-    \mathbf{Fields}_{\mathrm{out}}
+    \mathbf{Fields}_{\emptyset}
     \\
-    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+    & {}_{\mathllap{1}}\searrow && \swarrow_{\mathrlap{1}}
     \\
     && \mathbf{B}^n U(1)
   }
@@ -295,7 +365,7 @@ $$
   \array{
     && \mathbf{Fields}_{traj}
     \\
-    & \swarrow &\downarrow^{\exp(i S)}& \searrow 
+    & \swarrow &\downarrow^{\mathrlap{\exp(i S)}}& \searrow 
     \\
     \ast
     &\leftarrow& 
@@ -312,7 +382,7 @@ $$
 
 So in top dimension these are the traditional [[action functionals]] with values in the [[circle group]] $U(1)$.
 
-So in conclusion, a [[local action functional]] $\exp(i S)$ on a species $\mathbf{Fields}$ of [[field (physics)|physical fields]] a lift
+In conclusion, a [[local action functional]] $\exp(i S)$ on a species $\mathbf{Fields}$ of [[field (physics)|physical fields]] a is lift $\exp(i S)$ in
 
 $$
   \array{
@@ -324,16 +394,17 @@ $$
     \\
     && Corr_n\left(\mathbf{H}\right)^\otimes
   }
+  \,.
 $$
 
-is a [[local prequantum field theory]].
+This diagram defines a _[[local prequantum field theory]]_ ([[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect field theory|defects]]).
 
 
 What we need now for [[quantization]] is a [[path integral]]
-map that adds up the values of the action functional over the space of trajectories.
+map that adds up the values of the [[action functional]] over the space of trajectories, a functor of the form
 
 $$
-  \int [D(-)] (-)
+  \int (-)
   \;\;
    \colon
   \;\;
@@ -342,22 +413,54 @@ $$
    (E Mod^{\Box^n})^\otimes
 $$
 
-As such this will in general only exist for [[schreiber:∞-Dijkgraaf-Witten theory]] where $\mathbf{Fields}$ is a [[discrete ∞-groupoid]] and hence has a "counting measure".
+As such this will in general only exist for [[schreiber:∞-Dijkgraaf-Witten theory]] where $\mathbf{Fields}$ is a [[discrete ∞-groupoid]] and hence has a "counting measure". This case has been considered in ([Freed-Hopkins-Lurie-Teleman 09](#FreedHopkinsLurieTeleman09), [Morton 10](#Morton10)).
 
 In the general case the path integral requires that we _choose_ a suitable [[measure]]/[[orientation]] on the spaces of fields. 
+We see below what this means, for the moment we just write 
 
-We see below what this means, for the moment let's just write $Corr^{or}_n(\mathbf{H}_{/\mathbf{B}^n U(1)})^\otimes$ as a mnemonic for a suitable [[(∞,n)-category]] of suitably oriented/measured spaces of fields with action functional. If we then can make sense of the [[path integral]] then we can paste the ingredients together to finally get
+$$
+  Corr^{or}_n(\mathbf{H}_{/\mathbf{B}^n U(1)})^\otimes
+$$ 
+
+(i.e. with an ${(-)}^{or}$-superscript) as a mnemonic for a suitable [[(∞,n)-category]] of suitably oriented/measured spaces of fields with action functional. Then we may consider lifts of the action functional to _measure-valued_ action functionals
+
+$$
+  \exp(i S) \, d\mu
+  \;\colon\;
+  Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to
+  \left(
+   E Mod^{\Box^n}
+  \right)^\otimes
+  \,.
+$$
+
+A [[path integral]] is then to be a monoidal functor of the form
+
+$$
+  \int(-) \;\colon\;
+  Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to 
+  \left(
+    E Mod^{\Box^n}
+  \right)^\otimes
+  \,.
+$$
+
+This we discuss in the next section. Once we have such a [[path integral]] functor, the [[quantization]] 
+process is its [[composition]] with the given [[prequantum field theory]] $\exp(i S) \, d \mu$ to obtain the genuine quantized [[quantum field theory]]:
 
 $$
   \array{
-    \int [D \phi] \exp(i S(\phi))
+    \underset{\phi \in \mathbf{Fields}}{\int} 
+     \exp(i S(\phi)) \, d \mu(\phi)
     &
     \colon
     &
     Bord_n^\otimes
-     &\stackrel{\exp(i S)}{\to}& 
+     &\stackrel{\exp(i S)\, d\mu}{\to}& 
     Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
-    &\stackrel{\int [-] (-)}{\to}&
+    &\stackrel{\int (-) }{\to}&
     \left(
      E Mod^{\Box^n}
     \right)^\otimes
@@ -366,21 +469,32 @@ $$
     \\
     && && Corr_n\left(\mathbf{H}\right)^\otimes
   }
+  \,.
 $$
 
 
-
-
 ### 2. Cohomological quantization
+ {#ExpositionCohomologicalQuantization}
 
 
-Traditionally this is done under the embedding 
+The _linearization_ which encodes
+the [[superposition principle]] in [[quantum mechanics]]
+is encoded by the canonical embedding
 
 $$
   U(1) \hookrightarrow GL_1(\mathbb{C})
 $$ 
 
-So here now we are to choose a map
+of the [[circle group]] into the [[group of units]]
+of the standard [[ground ring]], which is the [[complex numbers]]. 
+Using this, the traditional [[path integral]] is supposed to
+
+* add up the values of the [[action functionals]] $\exp(i S(\phi)) \in U(1) \hookrightarrow GL_1(\mathbb{C}) \hookrightarrow \mathbb{C} Mod = Vect_{\mathbb{C}}$ as $\phi$ ranges over the space of fields (trajectories)
+
+* to produce an [[linear map]], hence a morphism $\mathbb{C} Mod \to \mathbb{C}Mod$ of [[module]].
+
+Since here in higher/[[local prequantum field theory]] the 
+standard [[ground ring]] $\mathbb{C}$ is replaced by a "group [[E-∞ ring]]" $E$, and $U(1)$ is replaced by the [[circle n-group]] $\mathbf{B}^{n-1}U(1)$, we are to encode the linearization by a morphism of [[∞-groups]]
 
 $$
   \mathbf{B}^{n-1}U(1) \to GL_1(E)
@@ -408,7 +522,80 @@ $$
 
 exhibits an [[(∞,1)-module bundle]] bundle, which is in fact an $E$-line bundle.
 
+(...) 
+
+Give a [[monoidal category]] $\mathcal{C}^\otimes$ and given a [[morphism]]
+
+$$
+  f \;\colon\; V_1 \to V_2
+$$
+
+an _[[Umkehr map]]_ is just 
+
+* the [[dual morphism]] $f^\ast \colon V_2^\ast \to V_1^\ast$
+
+* such that [[equivalences]] $V_i^\ast \simeq V_i$ exhbiting self-[[dual objects]] exist ([[Poincaré duality]]) and have been chosen ([[orientation in generalized cohomology|orientation]])
+
+This allows in total to have a morphism between the same objects, but in the opposite direction
+
+$$
+  f^! 
+   \;\colol\;
+  V_2
+   \stackrel{\simeq}{\to} 
+  V_2^\ast
+   \stackrel{f^\ast}{\to}
+  V_1^\ast
+    \stackrel{\simeq}{\to}
+  V_1
+  \,.
+$$
+
+That this is also the mechanism of [[fiber integration in generalized cohomology]] is almost explicit in the literature ([[Alexander-Whitehead-Atiyah duality]]), if maybe not fully clearly so. The statement is discussed explicitly in ([Nuiten 13, section 4](#Nuiten13)).
+
+Since we are dealing with $E$-[[(∞,1)-module bundles]], we are interested in the parameterized/fiberwise version of this statement:
+
+given a morphism of $E$-module bundles
+
+$$
+  \array{
+    X && \stackrel{f}{\to} && Y
+    \\
+    & {}_{\mathllap{f^\ast \chi}}\searrow   
+    &\swArrow_\simeq& 
+    \swarrow_{\mathrlap{\chi}}
+    \\
+    && E Mod
+  }
+$$
+
+we want to form the _fiberwise_ [[dual objects]] and [[dual morphisms]].
+
+Now it is unnecessarily restrictive that the whole bundles $\chi$ and $f^\ast \chi$ are self-[[dual objects]]. It is sufficient that we find _other_ bundles which are _fiberwise duals_.
+
+This means that an [[orientation in generalized cohomology|orientation]] in $\chi$-[[twisted cohomology]] is a choice of 
+
+1. a possibly different $E$-module bundle $\beta$;
+
+1. a choice of equivalence
+
+$$
+  \beta^\ast \simeq \chi
+  \,.
+$$
+
+Since the class of these bundles is the twist, this means that 
+
+_Under fiber integration in [[twisted cohomology]], the twist may change._
+
+This is actually well familiar in the special case of degree-0 twists, which are just the _grading_ on the [[cohomology theory]]: fiber integration decreases the degree by the relative dimension of the spaces.
+
+(...)
+
+
+
 ### 3. Examples
+ {#ExpositionExamples}
 
 (...)
 
@@ -2215,6 +2402,7 @@ and applied to a pull-push quantization of [[Dijkgraaf-Witten theory]] in
 * [[Jeffrey Morton]], _2-Vector Spaces and Groupoids_ ([arXiv:0810.2361](http://arxiv.org/abs/0810.2361))
 
 * [[Jeffrey Morton]], _Cohomological Twisting of 2-Linearization and Extended TQFT_ ([arXiv:1003.5603v4](http://arxiv.org/abs/1003.5603v4))
+ {#Morton10}
 
 following previous work by [[Daniel Freed]] and [[Frank Quinn]].
 
