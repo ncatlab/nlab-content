@@ -1,0 +1,35 @@
+
+**[[additive and abelian categories]]**
+
+## Context and background
+
+* [[enriched category theory]]
+
+* [[homological algebra]]
+
+* [[stable homotopy theory]]
+
+## Categories
+
+* [[Ab-enriched category]]
+
+* [[pre-additive category]]
+
+* [[additive category]], 
+
+* (AB1) [[pre-abelian category]] 
+
+* (AB2) [[abelian category]]
+
+* (AB5) [[Grothendieck category]]
+
+## Functors
+
+* [[additive functor]]
+
+* left/right [[exact functor]]
+
+* [[derived functor]]
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/additive+and+abelian+categories+-+contents)</div>
