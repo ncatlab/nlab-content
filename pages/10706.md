@@ -61,7 +61,11 @@ Between Landweber exact spectra, every [[phantom map]] is already null-homotopic
 
 * [[Lazard's theorem]]
 
+* [[Landweber exact functor theorem]]
+
 * [[Quillen's theorem on MU]]
+
+* [[Landweber-Novikov theorem]]
 
 ## References
 
