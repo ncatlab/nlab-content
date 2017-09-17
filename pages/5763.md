@@ -250,7 +250,7 @@ that assigns to each [[open subset]] of $X$ regarded as [[spacetime]] an object 
 
 ## References
 
-[[Nils Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed in
+[[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed in
 
 * Erhard Scheibe. _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
 {#Scheibe}
