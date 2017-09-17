@@ -115,12 +115,6 @@ The full subcategory $\mathcal{T}_{dKf} \hookrightarrow \mathcal{T}$ can be rega
 =--
 
 
-### Relation to compact objects
-
-An object in a sheaf topos is a [[compact object]] precisely if it is Kuratowski-finite.
-
-(??)
-
 ### Relation to slice toposes
 
 +-- {: .num_prop}
@@ -136,7 +130,7 @@ out of the [[slice topos]] is a [[proper geometric morphism]].
 
 =--
 
-([Moerdijk-Vermeulen, examples 1.4](#MoerdijkVermeulen))
+([Moerdijk-Vermeulen, examples III 1.4](#MoerdijkVermeulen))
 
 ## Examples
 
@@ -180,3 +174,4 @@ See also
 [[!redirects finite]]
 
 [[!redirects Kuratowski finite object]]
+[[!redirects Kuratowski finite objects]]
