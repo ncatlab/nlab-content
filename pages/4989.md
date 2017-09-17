@@ -50,35 +50,41 @@ Thus, it remains to show "continuity" of $\Pi_0$. ...
 
 ### Families of sets {#FamiliesOfSets}
 
-Here is a simplistic example (or counterexample depending 
-on which axioms we want to satisfy, see below).
-
 Consider the site given by the [[interval category]] 
 
 $$
   C = \{\emptyset \to *\}
 $$
 
-with trivial topology. The category of sheaves = presheaves on this is the [[arrow category]] $Arr(Set)$.
+equipped with trivial [[Grothendieck topology|topology]]. The category of sheaves = presheaves on this is the [[arrow category]] 
+
+$$
+  Sh(\{\emptyset \to *\})
+  \simeq
+   PSh(\{\emptyset \to *\})
+  \simeq
+  Arr(Set)
+$$
+
+since a presheaf $X$ on $C$ is given by a morphism
 
 $$
   X : (\emptyset \to *) \mapsto (I \leftarrow S)
-  \,.
 $$
 
-We find
+in [[Set]]. We find
 
 * $\Gamma : (I \leftarrow S) \mapsto S$
 
 * $\Pi_0 : (I \leftarrow S) \mapsto I$.
 
-We may interpret this as follows: by decomposing $S$ into its [[fiber]]s, an object $(I \leftarrow S)$ is an $I$-indexed family of sets: $S = \coprod_i S_i$. The "cohesive pieces" are the $S_i$ and there are $|I|$-many of them. This is what $\Pi_0$ computes.
+We may interpret this as follows: by decomposing $S$ into its [[fiber]]s, an object $(I \leftarrow S)$ is an $I$-indexed family of sets: $S = \coprod_i S_i$. The "cohesive pieces" are the $S_i$ and there are $|I|$-many of them. This is what $\Pi_0$ computes, which clearly preserves products.
 
 Moreover we find for $K \in Set$:
 
 * $Disc : K \mapsto (K \stackrel{Id}{\leftarrow} K)$;
 
-* $Codisc : K \mapsto (* \stackrel{}{\leftarrow} K)$
+* $CoDisc : K \mapsto (* \stackrel{}{\leftarrow} K)$
 
 (and evidently both these functors are full and faithful).
 
@@ -86,8 +92,122 @@ This matches the interpretation we just found: $Disc K$ is the collection of ele
 
 What is not true in this example is that $Disc K \to Codisc K$ is a monomorphism. In particular, notice that the fibers $S_i$ may be empty. This is notably the case for the object $y(\emptyset) = (* \leftarrow \emptyset)$ represented by $\emptyset$. So there may be cohesive pieces that contain no point.
 
+This is the simplest special case of a general class of examples:
 
-### Sites of balls;
+for $C$ any [[small category]], we have the left and right [[Kan extension]] of presehaves $F : C^{op} \to Set$ along the [[functor]] $C^{op} \to *$. By definition, this are the [[colimit]] and [[limit]] functors
+
+$$
+  (\lim_\to \dashv Const \dashv \lim_\leftarrow) :
+  PSh(C) \stackrel{\overset{\lim_{\to}}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\lim_\leftarrow}{\to}}}
+  Set
+  \,.
+$$
+
++-- {: .un_lemma}
+###### Observation
+
+If $C$ has a [[terminal object]] $*$ then 
+
+* $\lim_\leftarrow$ is given by evaluation on this object;
+
+* there is a further [[right adjoint]] $(\lim_\leftarrow \dashv CoConst)$
+
+  given by
+
+  $$
+    CoConst : S \mapsto (c \mapsto Set(C(*,c), S)
+    \,.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The terminal object of $C$ is the [[initial object]] of the [[opposite category]] $C^{op}$ and therefore the limit over any functor $F : C^{op} \to Set$ is given by evaluation on this object
+
+$$
+  \lim_\leftarrow (C^{op} \stackrel{F}{\to} Set) \simeq F(*)
+  \,.
+$$
+
+To see that we have a pair of [[adjoint functor]]s $(\lim_\to \dashv CoConst)$
+we check the natural [[hom-set]] equivalence 
+$PSh_C(F, CoConst S ) \simeq Set(\lim_\to F , S)$ by computing
+
+$$
+  \begin{aligned}
+    PSh_C(F , CoConst S) 
+     & \simeq 
+      \int_{c \in C} Set(F(c), Set(C(*,c), S))
+    \\
+    & \simeq
+        \int_{c \in C} Set(F(c) \times C(*,c), S)
+    \\
+     & \simeq 
+         Set( \int^{c \in C} F(c) \times C(*,c) , \; S)
+    \\
+     & \simeq Set(F(*), S)
+  \end{aligned}
+  \,,
+$$
+
+Here the first step is the expression of [[natural transformation]]s by [[end]]-calculus, the second uses the fact that [[Set]] is a [[cartesian closed category]], the third uses that any [[hom-functor]] sends [[coend]]s in the first argument to ends, and the last one uses the [[co-Yoneda lemma]].
+
+=--
+
+The formal dual of this statement is the following.
+
++-- {: .un_lemma}
+###### Corollary
+
+If $C$ has an [[initial object]] $\emptyset$ then 
+
+* $\lim_\to$ is given by evaluation on this object;
+
+* there is a further [[left adjoint]] $(L \dashv \lim_\to)$,
+
+  so that $\lim_\to$ preserves all small limits and in particular
+  all finite products.
+
+=--
+
+In summary we have
+
++-- {: .un_lemma}
+###### Proposition
+
+If $C$ has both an [[initial object]] $\emptyset$ as well as a [[terminal object]] $*$ then there is a quadruple of adjoint functors
+
+$$
+  (\Pi_0 \dashv Disc \dashv \Gamma \dashv CoDisc)
+   :
+   PSh(C) \to Set
+  \,,
+$$
+
+where
+
+* $\Gamma$ is given by evaluation on $*$;
+
+* $\Pi_0$ is given by evaluation of $\emptyset$ and preserves products.
+
+=--
+
+The above interpretation of the cohesiveness encoded by $C = \{\emptyset \to *\}$ still applies to the general case: a general object $X \in PSh(C)$ is, by restriction to the unique morphism $\emptyset \to *$ in $C$ a set-indexed  family of sets
+
+$$
+  X(\emptyset \to *) = (\Pi_0(X) = X(\emptyset) \leftarrow  X(*) = \Gamma(X))
+$$
+
+and $\Gamma$ picks out the total set of points, while $\Pi_0$ picks of the indexing set ("of cohesive components"). The extra information for general $C$ with initial and terminal object is that for every object $c \in C$ these cohesive lumps of points are refined to a hierarchy of lumps and lumps-of-lumps
+
+$$
+  X(\emptyset \to c \to *) = (\Pi_0(X) \leftarrow X(c) \leftarrow \Gamma(X))
+  \,.
+$$ 
+
+### Sites of balls
 
 Any full small subcategory of [[Top]] on [[connected]] topological spaces with the canonical induced [[open cover]] [[coverage]] is a cohesive site. If a subcategory on [[contractible]] spaces, then this is also an [[(∞,1)-cohesive site]]. 
 
