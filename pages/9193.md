@@ -26,24 +26,11 @@
 
 The [[theory (physics)|theory]] in [[physics]] which describes the fundamental physics of the [[observable universe]] to best present knowledge is a [[local Lagrangian]] [[field (physics)|field]] theory which combines 
 
-| Einstein- | Maxwell- | Yang-Mills- |  Dirac- | Higgs |
-|----------|---------|------------|--------|-------|
-|  [[gravity]] | [[electromagnetism]] | [[electroweak  field|electroweak]] and [[strong nuclear force]] | [[fermion|fermionic]] [[matter]] | [[scalar field]] |
-
-[[action functional]]:
-
-$$
-  S  \colon
-  (\cdots)
-  \mapsto
-  \int_X R(e) vol(e)
-  + 
-  \int_X \langle F_\nabla \wedge \star_e F_\nabla \rangle
-  + 
-  \int_X (\psi, D_{e,\nabla} \psi) vol(e)
-  + 
-  \cdots
-$$
+| [[theory (physics)|theory]]: | [[Einstein-Hilbert action|Einstein]]- | [[Einstein-Maxwell theory|Maxwell]]- | [[Einstein-Yang-Mills theory|Yang-Mills]]- |  [[Einstein-Yang-Mills-Dirac theory|Dirac]]- | [[Einstein-Yang-Mills-Dirac-Higgs theory|Higgs]] | 
+|--|----------|---------|------------|--------|-------|
+| |  [[gravity]] | [[electromagnetism]] | [[electroweak  field|electroweak]] and [[strong nuclear force]] | [[fermion|fermionic]] [[matter]] | [[scalar field]] |
+| [[field (physics)|fields]] | [[vielbein field]] $e$ | $U(1)$-[[principal connection]] $\nabla_{em}$  | $G$-[[principal connection]]  |  [[spinor]] $\psi$ |  [[scalar field]] $H$ |
+| [[Lagrangian]] $L = $ | $R(e) vol(e) + $ | $ F_{\nabla_{em}} \wedge \star_e F_{\nabla_{em}} + $ | $ (\psi , D \psi) vol(e) + $ |  $ \nabla \bar H \wedge \star_e \nabla H  + \left(\lambda  {\vert H\vert}^4 - \mu^2 {\vert H\vert}^2 \right) vol(e) $ |
 
 ## Related concepts
 
@@ -66,3 +53,6 @@ Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctio
 
 * _[[geometry of physics]]_
 
+
+
+[[!redirects Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
