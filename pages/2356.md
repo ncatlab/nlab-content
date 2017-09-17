@@ -35,6 +35,7 @@ In particular for $\mathbf{H}_{th}$ an
 
 * [[sheaf of meromorphic functions]]
 
+* [[sheaf of rational functions]]
 
 ## References
 
