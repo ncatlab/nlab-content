@@ -15,7 +15,7 @@
 
 ## Idea
 
-Algebraic topology is generally the study of [[functor]]s from [[nice categories of spaces]] to [[algebraic category|algebraic categories]].  This is in hindsight, in fact, [[category theory]] originally developed out of algebraic topology, where it was used first simply to describe what was going on and then to axiomatise [[Eilenberg-Steenrod cohomology]] theories.
+Algebraic topology is generally the study of [[functor]]s from [[nice categories of spaces]] to [[algebraic category|algebraic categories]].  This can be considered, from the nPOV, as closely related to higher [[category theory]]. Category theory  originally developed out of algebraic topology, where it was used first simply to describe what was going on and then to axiomatise [[Eilenberg-Steenrod cohomology]] theories. There has been considerable convergence of the two subjects, not only in methodology, but in aims and motivations.
 
 
 ## Related entries
@@ -38,7 +38,7 @@ Algebraic topology is generally the study of [[functor]]s from [[nice categories
 
 A textbook with an emphasis on [[homotopy theory]] is in 
 
-* Marcelo Aguilar, Samuel Gitler, Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([pdf](http://bib.tiera.ru/b/91777))
+* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([pdf](http://bib.tiera.ru/b/91777))
 
 Lecture notes include
 
