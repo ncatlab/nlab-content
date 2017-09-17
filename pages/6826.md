@@ -42,4 +42,6 @@ Some examples are discussed at
 
 * {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
 
+* {#Roest04} Diederik Roest, _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
+
 [[!redirects gauged supergravities]]
