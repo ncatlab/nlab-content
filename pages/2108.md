@@ -204,6 +204,7 @@ corresponding to $f$;
 Given a [[prequantum bundle]] as above, the actual step of genuine _geometric quantization_ consists first of forming _half_ its space of sections in a certain sense. Physically this means passing to the space of [[wavefunctions]] that depend only on [[canonical coordinates]] but not on [[canonical momenta]]. Second, [[subgroups]] of the group pf (exponentiated) [[prequantum operators]] are made to descend to this space of quantum states, these are the [[quantum operators]] or [[quantum observables]].
 
 #### Quantum states
+ {#QuantumStates}
 
 Historically, the traditional way to formalize the formation of the [[space of quantum states]] is as a 3-step process
 
@@ -728,6 +729,7 @@ In the general case the [[determinant line bundle]] of the [[spin^c structure]] 
 
 
 #### Quantum operators / observables
+ {#QuantumOperators}
 
 
 Given a [[Hamiltonian action]] on the [[symplectic manifold]] by a [[Lie group]] $G$, we can apply the above K-theoretic quantization by push-foward in $G$-[[equivariant K-theory]], to 
