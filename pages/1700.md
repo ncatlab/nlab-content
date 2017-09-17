@@ -1,21 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
 ## Idea
 
 Classical Galois theory classifies [[field extension]]s. This is a special case of a classification of [[locally constant sheaves]] in a [[topos]]. 
+
 
 ## Classical Galois theory for fields {#ClassicalGaloisTheory}
 
@@ -159,9 +160,9 @@ Let $A$ be a [[ring]] and $N$ a [[module]] over $A$.
 
 A collection of elements $(w_i)_{i \in I}$ of $N$ is called a [[basis]] of $N$ (over $A$) if for every $x \in N$ there is a unique collection $(a_i)_{i \in I}$ of elements of $A$ such that $a_i = 0$ for all but finitely many $i \in I$ and $x = \sum_{i \in I} a_i w_i$. 
 
-If $N$ has a basis it is called _free_ (over $A$). If $A$ is not the zero ring and $N$ is free with basis $(w_i)_{i \in I}$, then the [[cardinality]] $# I$ only depends on $N$, and not on the choice of basis. It is called the [[rank]] of $N$ over $A$, notation: $rank_A(M)$. If $N$ is a [[finitely generated]] free module then the rank is finite.
+If $N$ has a basis it is called _[[free module|free]]_ (over $A$). If $N$ is free with basis a [[finite set]] of [[cardinality]] $n$, then we say that $N$ is _free with [[rank]] $n$_ (over $A$). In this case, $N$ is a [[finitely generated]] free module.
 
-Let $N$ be a finitely generated free $A$-module with basis $w_1, w_2, \cdots, w_n$ and let $f : N \to N$ be $A$-linear. Then
+Let $N$ be a finitely generated free $A$-module with basis $w_1, w_2, \cdots, w_n$ and let $f\colon N \to N$ be $A$-linear. Then
 
 $$
   f(w_i) = \sum_{j = 1}^n a_{i j} w_j \;\;\;
@@ -180,9 +181,9 @@ This is an element of $A$ that only depends on $f$, and not on the choice of bas
 
 #### Separable algebras
 
-Let $A$ be a [[ring]], $B$ an $A$-[[algebra]], and suppose that $B$ is finitely generated and free as an $A$-module. For every $b \in B$ the map $mult_b : B \to B$ defined by $mult_b : x \mapsto b x$ is $A$-linear, and the [[trace]] $Tr(b)$ or $Tr_{B/A}(b)$ is defined to be $Tr(mult_b)$. The map $Tr  B \to A$ is easily seen to be $A$-linear and to satisfy $Tr(a) = rank_A(B) \cdot a$ for $a \in A$.
+Let $A$ be a [[ring]], $B$ an $A$-[[algebra]], and suppose that $B$ is free with finite rank $n$ as an $A$-module. For every $b \in B$ the map $mult_b\colon B \to B$ defined by $mult_b\colon x \mapsto b x$ is $A$-linear, and the [[trace]] $Tr(b)$ or $Tr_{B/A}(b)$ is defined to be $Tr(mult_b)$. The map $Tr\colon B \to A$ is easily seen to be $A$-linear and to satisfy $Tr(a) = n a$ for $a \in A$.
 
-The $A$-[[module]] $Hom_A(B,A)$ (underlying which is the [[hom-set]] in the [[category]] of [[module]]s) is clearly free over $A$ with the same rank as $B$. Define the $A$-linear map $\phi : B \to Hom_A(B,A)$ by 
+The $A$-[[module]] $Hom_A(B,A)$ (underlying which is the [[hom-set]] in the [[category]] of [[module]]s) is clearly free over $A$ with the same rank as $B$. Define the $A$-linear map $\phi\colon B \to Hom_A(B,A)$ by 
 
 $$
   \phi(x) : y \mapsto Tr(x y)
