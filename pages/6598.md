@@ -32,6 +32,8 @@
 
   * [[symplectic vector field]], [[Hamiltonian vector field]]
 
+    * [[Hamiltonian]], [[Hamiltonian form]]
+
   * [[symplectic gradient]]
 
 * [[Hamiltonian action]], [[moment map]]
