@@ -1,16 +1,18 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-## Idea
+## In posets
 
-An interval is an [[under category]], [[over category]], or under-over category in a [[poset]].
+### Idea
+
+In the general context of [[posets]], an _interval_ is an [[under category]], [[over category]], or under-over category.
 
 
-## Definitions
+### Definitions
 
-Specifically, given a poset $P$ and an element $x$ of $P$, the __upwards unbounded interval__ $[x,\infty[$ (also $[x,\infty)$, $[x,\infty[_P$, etc) is the [[subset]]
+Given a [[poset]] $P$ and an element $x$ of $P$, the __upwards unbounded interval__ $[x,\infty[$ (also $[x,\infty)$, $[x,\infty[_P$, etc) is the [[subset]]
 $$ {[x, \infty[} = \{ y : P \;|\; x \leq y \} ;$$
 the __downwards unbounded interval__ $]{-\infty}, x]$ (also $(-\infty,x]$, $]{-\infty},x]_P$, etc) is the subset
 $$ ]{-\infty}, x] = \{ y : P \;|\; y \leq x \} ;$$
@@ -37,9 +39,9 @@ These are important in analysis, and more generally whenever the [[quasiorder]] 
 The entire poset $P$ is also considered an __unbounded interval__ in itself.
 
 
-## Intervals in the real line
+### Intervals in the real line
 
-Intervals of [[real numbers]] are important in analysis and topology.  The bounded closed intervals in the real line are the original [[compact space]]s.
+Intervals of [[real numbers]] are important in [[analysis]] and [[topology]].  The bounded closed intervals in the real line are the original [[compact space]]s.
 
 The __unit interval__ $[0,1]$ is primary in [[homotopy theory]]; a __[[homotopy]]__ from $f$ to $g$ (themselves continuous maps from $A$ to $B$) is a continuous map $h: A \times [0,1] \to B$ such that $h(x,0) = f(x)$ and $h(x,1) = g(x)$ always.  This generalises to the notion of [[interval object]] in an arbitrary category.
 
@@ -47,6 +49,19 @@ The usual [[integral]] in ordinary calculus is done over an interval in the real
 
 To integrate a $1$-[[differential form|form]] on the real line requires orienting an interval; the standard orientation is from $x$ to $y$ in $[x,y]$.  If $x \gt y$, then $[x,y]$ (which by the definition above would be [[empty set|empty]]) may also be interpreted as $[y,x]$ with the reverse orientation.  This also matches the traditional notation for the integral.
 
+## In homotopy theory
+
+In [[homotopy theory]], "cellular" models for the intervals play a central role. See [[interval object]].
+
+## In geometry
+
+The [[geometry]] (for instance [[differential geometry]]) of intervals, for instance in the [[real line]], are often relevant. 
+
+See for instance [Geometric spaces and their homotopy types](http://ncatlab.org/nlab/show/cohesive+homotopy+type+theory#GeometricSpacesAndTheirHomotopyTypes) at [[cohesive homotopy type theory]].
+
+## Related concepts
+
+* [[interval type]], [[interval object]]
 
 [[!redirects intervals]]
 [[!redirects unit interval]]
