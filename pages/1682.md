@@ -25,6 +25,39 @@ From this sheaf, one can recover the Adams-type spectral sequence associated to 
 
 ## Properties
 
+### Inclusion of circle 2-bundles 
+ {#InclusionOfCircle2Bundles}
+
+
+Write $B^2 U(1) \simeq K(\mathbb{Z},3)$ for the [[abelian ∞-group]] whose underlying [[homotopy type]] is the [[classifying space]] for [[circle 2-bundle]]. Write $\mathbb{S}[B^2 U(1)]$ for its [[∞-group ∞-ring]]. 
+
++-- {: .num_prop}
+###### Proposition
+
+There is a canonical homomorphism of [[E-∞ rings]]
+
+$$
+  \mathbb{S}[B^2 U(1)] \to tmf
+  \,.
+$$
+
+=--
+
+See ([Ando-Blumberg-Gepner 10, section 8](#ABG10)).
+
++-- {: .num_remark}
+###### Remark
+
+This means that every [[circle 2-bundle]] ($U(1)$-[[bundle gerbe]]) given by a modulating map $\chi \colon X \to B^2 U(1)$ determines a class represented by
+
+$$
+  X \stackrel{\chi}{\to} B^2 U(1) \to \mathbb{S}[B^2 U(1)] \to tmf
+$$
+
+in the $tmf$-[[generalized cohomology]] of its base space $X$.
+
+=--
+
 ### Witten genus and string orientation
 
 The $tmf$-[[spectrum]] is the codomain of the [[Witten genus]], or rather of its refinements to the [[string orientation of tmf]]
@@ -112,7 +145,7 @@ $$
 where the [[smash product]] $\wedge$ of ring spectral over the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor product]] operation on function algebras formally dual to forming products of spaces.
 
 
-As a [[groupoid object in an (infinity,1)-category|groupoid object]] this is still equivalent to just $Spec tmf$.
+As a [[groupoid object in an (∞,1)-category|groupoid object]] this is still equivalent to just $Spec tmf$.
 
 ### Decategorification: the ordinary moduli stack of elliptic curves
 
@@ -185,6 +218,12 @@ More details are at
 and in the series of lecture notes linked to there.
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+
+Discussion of [[twisted cohomology]]  with [[coefficients]] in $tmf$
+is in section 8 of
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ {#ABG10}
 
 
 [[!redirects TMF]]
