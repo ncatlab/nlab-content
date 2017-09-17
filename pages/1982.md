@@ -27,7 +27,7 @@ Measure theory is the field of mathematics that grew out of the [[Lebesgue measu
 
 The general measure theory studies general notions and constructions in measure theory, like the connection to integration, the measure spaces, derivation by measure, [[Caratheodory construction]] and so on.
 
-Probability theory studies special class of measures, so called [[probability measure]]s which are normalized to unity.
+[[probability theory|Probability theory]] studies special class of measures, so called [[probability measure]]s which are normalized to unity.
 
 Measure theory is very much having a central role in studying so called [[ergodic theory]] of dynamical system.
 
