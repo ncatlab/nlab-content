@@ -105,7 +105,7 @@ $$
 
 ## Examples 
 
-### Monads in [[Cat]]
+### Monads in Cat
 
 Monads are often considered in the 2-category [[Cat]] where they are given by [[endofunctors]] with a monoid structure on them.  In particular, monads _in_ [[Cat]] _on_ [[Set]] are equivalent to the equational theories studied in universal algebra.  In this context, a monad abstracts the concept of an [[algebraic theory]] (such as "group" or "ring"), giving a general notion of [[extra structure]] on an object of a category.
 
@@ -120,6 +120,8 @@ To capture the theory fully, we need to include a little more data: a natural ma
 * An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
 
 * If $C$ is a category with [[finite limits]], then a monad in the bicategory of [[spans]] in $C$ is the same thing as an [[internal category]] in $C$.
+
+* A monad in the bicategory [[Prof]] of [[profunctors]] on a category $A$ can be identified with an identity-on-objects functor $A\to B$.
 
 
 ## Algebras/modules over a monad {#Algebras}
@@ -144,7 +146,7 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 ## Related entries 
 
 
-* [[adjunction]], [[comonad]], [[adjoint monad]], [[algebra over a monad]], [[monad with arities]]
+* [[adjunction]], [[comonad]], [[adjoint monad]], [[algebra over a monad]], [[monad with arities]], [[distributive law]]
 
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
