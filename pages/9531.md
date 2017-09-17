@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[set]] equipped with a [[permutation representation]] of a ([[discrete group|discrete]]) [[group]] $G$.
+
+## Related concepts
+
+* [[Galois theory]]
+
+
+
+[[!redirects G-sets]]
