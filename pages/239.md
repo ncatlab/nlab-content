@@ -115,6 +115,10 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[tensor product of chain complexes]]
 
+* [[Deligne tensor product of abelian categories]]
+
+* [[tensor product of presentable (infinity,1)-categories]]
+
 ## Related concepts
 
 [[!include homotopy-homology-cohomology]]
