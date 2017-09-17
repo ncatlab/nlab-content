@@ -80,10 +80,15 @@ The book
 
 is all about Stone duality.
 
-See also
-
 * Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_, [arxiv/1103.3493](http://arxiv.org/abs/1103.3493) 158 pp.
 
+There is a version in model theory, [[Makkai duality]],
+
+* [[M. Makkai]], _Stone duality for first-order logic_, Adv. Math. __65__ (1987) no. 2, 97--170, <a href="http://dx.doi.org/10.1016/0001-8708(87)90020-X">doi</a>, [MR89h:03067](http://www.ams.org/mathscinet-getitem?mr=900266); _Duality and definability in first order logic_, Mem. Amer. Math. Soc. __105__ (1993), no. 503
+
+Another variant is in
+
+* Henrik Forssell, _First-order logical duality_, Ph.D. thesis, Carnegie Mellon U. 2008, [pdf](http://www.andrew.cmu.edu/user/awodey/students/forssell.pdf)
 
 [[!redirects Stone duality]]
 [[!redirects Stone dualities]]
