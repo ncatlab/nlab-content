@@ -1,6 +1,13 @@
-__$Sup Lat$__ is the [[category]] whose [[objects]] are [[suplattices]] and whose [[morphisms]] are suplattice [[homomorphisms]], that is [[functions]] which preserve all [[joins]] (including the [[bottom element]]).
 
-Analogously, __$Inf Lat$__ is the category whose objects are [[inflattices]] and whose morphisms are inflattice homomorphisms, which preserve all [[meets]].  Actually, $Sup Lat$ and $Inf Lat$ are [[equivalence of categories|equivalent]]; the difference between the two is merely the notational choice between $\leq$ and $\geq$.  However, this choice corresponds to using either of two [[inclusion functor]]s representing $Sup Lat$ and $Inf Lat$ as [[replete subcategories]] of [[Pos]]; similarly, [[CompLat]] can be viewed as a replete [[wide subcategory]] of $Sup Lat$ and $Inf Lat$ in two different ways.
+# $Sup Lat$
+* table of contents
+{: toc}
+
+## Definitions
+
+__$Sup Lat$__ is the [[category]] whose [[objects]] are [[suplattices]] and whose [[morphisms]] are suplattice [[homomorphisms]], that is [[functions]] which preserve all [[joins]] (including the [[bottom element]]).  Analogously, __$Inf Lat$__ is the category whose objects are [[inflattices]] and whose morphisms are inflattice homomorphisms, which preserve all [[meets]].
+
+Actually, $Sup Lat$ and $Inf Lat$ are [[equivalence of categories|equivalent]]; the difference between the two is merely the notational choice between $\leq$ and $\geq$.  However, this choice corresponds to using either of two [[inclusion functor]]s representing $Sup Lat$ and $Inf Lat$ as [[replete subcategories]] of [[Pos]]; similarly, [[CompLat]] can be viewed as a replete [[wide subcategory]] of $Sup Lat$ and $Inf Lat$ in two different ways.
 
 One can write __$Comp Semi Lat$__ (meaning the category of [[complete semilattices]]) if one wishes to remain ambiguous about the notation.
 
@@ -11,7 +18,7 @@ $Sup Lat$ is given by a [[variety of algebras]], or equivalently by an [[algebra
 
 The __free inflattice__ on $X$ is slightly less natural; of course, we can take it to be $\mathcal{P}X$ with the operation of union again, but then the order on the elements is the opposite of the usual order.  However, we can also take it to be $\mathcal{P}X$ with the operation of [[intersection]]; this uses the fact that [[complementation]] is an [[automorphism]] of $\mathcal{P}X$.  Then the generator $a$ appears as $X \setminus \{a\}$ in the lattice.
 
-$Sup Lat$ is a [[monoidal category]]; it admits a [[tensor product]] which represents "bilinear maps," i.e. functions which preserve joins separately in each variable.  A [[monoid object|monoid]] in $Sup Lat$ is a __[[quantale]]__, including [[frames]] as a special case.
+$Sup Lat$ is a [[monoidal category]]; it admits a [[tensor product]] which represents [[binary morphisms]]: functions which preserve joins separately in each variable.  A [[monoid object|monoid]] in $Sup Lat$ is a __[[quantale]]__, including [[frames]] as a special case.
 
 
 ## In weak foundations
@@ -26,6 +33,7 @@ category: category
 [[!redirects Sup]]
 [[!redirects SupLat]]
 [[!redirects Sup Lat]]
+[[!redirects Inf]]
 [[!redirects InfLat]]
 [[!redirects Inf Lat]]
 [[!redirects CompSemiLat]]
