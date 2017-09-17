@@ -15,3 +15,9 @@ between the hom-set/category/space from $[X]$ to $C$, for any $C\in StructCat$, 
 ## References
 
 * A [blog post](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html) about walking objects (among other things).
+
+
+[[!redirects walking structure]]
+[[!redirects walking structures]]
+[[!redirects walking object]]
+[[!redirects walking objects]]
