@@ -32,14 +32,14 @@ A category internal to some given $(\infty,1)$-category $\mathcal{C}$ is a [[sim
 
 If $\mathcal{C}$ happens to be just a 1-category, then this already makes $A$ an [[internal category]]. Generally, however, $\mathcal{C}$ comes with its own notion of [[homotopy]], and one must ask in addition that the notion of [[equivalence in an (∞,1)-category|equivalence]] in $A$ is compatible with that in $\mathcal{C}$ (the "[[complete Segal space|completeness condition]]").
 
-A general abstract way of formalizing this is given in [Lurie, sections 1.1, 1.2](#Lurie). For historical reasons, the notion of _internal $(\infty,1)$-category_ there goes by the name _complete Segal space object_, in honor of the notion of a _[[complete Segal space]]_ (due to [[Charles Rezk]] and in turn chose in honor of the [[Segal conditions]] for ordinary categories), which is an internal $(\infty,1)$-category in $\mathcal{C} = $ [[∞Grpd]].
+A general abstract way of formalizing this is given in [Lurie, sections 1.1, 1.2](#Lurie). For historical reasons, the notion of _internal $(\infty,1)$-category_ there goes by the name _complete Segal space object_, in honor of the notion of a _[[complete Segal space]]_ (due to [[Charles Rezk]] and in turn chosen in honor of the [[Segal conditions]] for ordinary categories), which is an internal $(\infty,1)$-category in $\mathcal{C} = $ [[∞Grpd]]. But more generally we can consider internal category in a more general [[(∞,1)-topos]], and these are [[(∞,2)-sheaves]] of [[(∞,1)-categories]]
 
 There are a variety of [[model category]] structures that [[presentable (infinity,1)-category|present]] the $(\infty,1)$-category of all internal $(\infty,1)$-categories in a suitable $\mathcal{C}$, which typically go as models for _complete Segal space objects_. The soundness of these models is discussed below in _[Model category presentations](#ModelCategoryPresentations)_ ([Lurie, section 1.5](#Lurie)).
 
 ## Motivation and introduction
  {#MotivationAndIntroduction}
 
-Before coming to the formal definitions below in [Definition](#Definition), here are some words for the reader looking for introduction and orientation into the general problem of formulating categories internally in [[homotopy theory]].
+Before coming to the formal definitions below in _[Definition](#Definition)_, here are some words for the reader looking for introduction and orientation into the general problem of formulating categories internally in [[homotopy theory]].
 
 Whatever exactly the right or desired nature of a _category internal to an $(\infty,1)$-category/[[homotopy theory]]_ is (and we will see that there are some subtleties to beware of and some variants to account for), the bare minimum must be that it consists of
 
@@ -463,9 +463,9 @@ works essentially as [before](#CompleteCategoryInTopos) in an $(\infty,1)$-topos
 
 * [Iterated internalization -- Internal n-categories](#InternalnCategories).
 
-Internal to the archetypical base $(\infty,1)$-topos [[∞Grpd]] these are, externally, the bare [[(∞,n)-categories]]. Internal to an [[(∞,1)-category of (∞,1)-sheaves]] over some [[(∞,1)-site]], these are the [[(∞,n)-sheaves]] on that site. More on this is in the 
+Internal to the archetypical base $(\infty,1)$-topos [[∞Grpd]] these are, externally, the bare [[(∞,n)-categories]]. Internal to an [[(∞,1)-category of (∞,1)-sheaves]] over some [[(∞,1)-site]], these are the [[(∞,n)-sheaves|(∞,n+1)-sheaves]] on that site. More on this is in the 
 
-* [Examples](#Examples)
+* _[Examples](#Examples)_
 
 below.
 
@@ -675,7 +675,7 @@ $$
   \,.
 $$
 
-We call $n Cat(\mathbf{H})$ the $(\infty,1)$-category of **[[(∞,n)-categories]]** in $\mathbf{H}$, or of **[[(∞,n)-sheaves]]** or **[[stacks]] of $(\infty,n-1)$-categories** on (the [[(∞,1)-site]] of definition of) $\mathbf{H}$. 
+We call $n Cat(\mathbf{H})$ the $(\infty,1)$-category of **[[(∞,n)-categories]]** in $\mathbf{H}$, or of **[[(∞,n)-sheaves|(∞,n+1)-sheaves]]** or (-**[[stacks]]) of $(\infty,n)$-categories** on (the [[(∞,1)-site]] of definition of) $\mathbf{H}$. 
 
 =--
 
