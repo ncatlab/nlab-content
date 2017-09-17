@@ -25,6 +25,8 @@ A [[section]] of a spinor bundle is called a **spinor**.
 
 ## Related concepts
 
+* [[fiber bundles in physics]]
+
 * [[rotor]]
 
 * [[spinor]], [[spin representation]]
