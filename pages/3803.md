@@ -225,6 +225,12 @@ Discussion of generalizations to "chain duality" is at
 * [[Andrew Ranicki]], _45 slides on chain duality_, September 1996 ([pdf](http://www.math.uiuc.edu/K-theory/0154/45slides.pdf))
  {#Ranicki96}
 
+Discussion in [[etale cohomology]] is in 
+
+* [[James Milne]], sections 14 and 24 of _[[Lectures on Étale Cohomology]]_
+
+
+
 ### For Hochschild cohomology
 
 [[nLab:Poincaré duality]] on [[nLab:Hochschild cohomology|Hochschild (co)homology]]
