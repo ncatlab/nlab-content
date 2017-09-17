@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+The book
+
+* [[Robert Harper]]
+
+  _Practical Foundations for Programming Languages_
+
+  Cambridge University Press (2012)
+
+lays the foundations of the theory of [[programming languages]] in terms of [[type theory]].
+
+
+## Related entries
+
+* [[Practical Foundations]]
+
+category: reference
