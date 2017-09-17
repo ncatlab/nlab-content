@@ -56,6 +56,8 @@ See also
 
 * MathOverflow, _[Where do all the projection formulas come from?](http://mathoverflow.net/q/67228/381)_
 
+* MathOverflow, _[Ubiquity of the push-pull formula](http://mathoverflow.net/q/18799/381)_
+
 [[!redirects reciprocity]]
 
 [[!redirects projection formulas]]
