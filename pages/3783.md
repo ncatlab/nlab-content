@@ -20,18 +20,17 @@
 
 ## Idea ##
 
-The **Kerr spacetime**(s) is a (family of) certain [[Lorentzian manifold]]s / [[spacetime]]s. 
-The Kerr spacetime describes the ambient vacuum spacetime of a spherically symmetric rotating mass density, it can be extended in a way that this mass density degenerates to a singularity of spatial radius zero. This mathematical idealization is often said to describe a rotating black hole.
+The **Kerr spacetime** is the unique stationary axially symmetric [[asymptotically flat]] vacuum (family of) solution(s) to the [[Einstein field equations]]. Informally, it describes an eternal, rotating [[black hole]] inside an otherwise empty universe. It is thought to closely approximate the gravitational field outside of compact rotating objects, to the point that astrophysical black holes are often described as "Kerr".
 
-The Kerr spacetimes are parametrized by two parameters $m$ and $a$ that have the physical interpretation of mass and angular momentum per unit mass respectively, of the rotating object they describe. In the degenerate case of a = 0 the Kerr spacetimes reduce to the [[Schwartzschild spacetime]]s.
 
 ## Abstract ##
-The definition states the components of the metric tensor in a specific coordinate system, the Boyer-Lindquist coordinates, and compares those to the Minkowski and Schwartzschild metrics. Some properties can be read off directly from the metric tensor, this is done in the properties paragraph.
+The definition states the components of the metric tensor in a specific coordinate system, the Boyer-Lindquist coordinates, and compares those to the Minkowski and Schwartzschild metrics. Some properties can be read off directly from the metric tensor, which is done in the properties paragraph.
 
-## Definition ##
-The simplest description of the Kerr metric is by using spherical coordinates $r, \phi, \theta$ on the "space" $\mathbb{R}^3$ and a time coordinate $t \in \mathbb{R}$. In the context of the Kerr metric these coordinates are called **Boyer-Lindquist coordinates**.
+## Boyer-Lindquist Description ##
 
-The Kerr metric has two real parameters $m, a \ge 0$.
+Spacetimes in the Kerr family are distinguished by two (real) parameters, $m$ and $a$, respectively interpreted as the hole's mass and angular momentum per unit mass. Indeed as $a \to 0$ the geometry approaches that of a mass $m$ "nonrotating" [[Schwartzchild spacetime]].
+
+As in the Schwartzchild spacetime, the observations of distant observers can be described using spherical coordinates $r, \phi, \theta$ on the "space" $\mathbb{R}^3$ and a time coordinate $t \in \mathbb{R}$. These coordinates are called **Boyer-Lindquist coordinates** in the context of the Kerr geometry. They limit to Schwartzchild coordinates with $a \to 0$.
 
 We define two functions mainly as an abbreviation:
 $$
