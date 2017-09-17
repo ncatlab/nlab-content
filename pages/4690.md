@@ -80,9 +80,7 @@ $$
 
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
-* [[standard model of particle physics]]
-
-* [[standard model of cosmology]]
+[[!include standard model of fundamental physics - table]]
 
 ## References
 
