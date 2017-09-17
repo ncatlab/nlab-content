@@ -179,6 +179,8 @@ A connection to algebraic geometry:
 * C. de Concini, D. Eisenbud, C. Procesi, _Young diagrams and determinantal
 varieties_, Invent. Math. __56__ (1980), 129-165.
 
+category: combinatorics
+
 [[!redirects Young diagram]]
 [[!redirects Young diagrams]]
 [[!redirects Ferrers diagram]]
