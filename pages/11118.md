@@ -1,0 +1,18 @@
+A **graded unitary monoid** $\Phi$ in a [[monoidal category]] $C$ is the data of
+
+* for each $n \in \mathbf{N}$, an [[object]] $\Phi_n$,
+* for each $m,n \in \mathbf{N}$, a [[morphism]]
+  $$ \Phi_m \times \Phi_n \to \Phi_{m+n} $$
+such that the obvious [[associativity]] and [[unit]] [[axioms]] hold.
+
+## Examples
+
+* In the [[symmetric monoidal category]] of [[groups]] with the [[cartesian product]], two examples of graded monoids are the trivial one $1 = (1)_n$ and the **graded monoid of symmetric groups** $\Sigma = (\Sigma_n)_n$.
+
+## See also
+
+* [[monoid object]]
+* [[graded object]]
+
+[[!redirects graded unitary monoid]]
+[[!redirects graded unital monoid]]
