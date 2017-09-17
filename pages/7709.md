@@ -1,0 +1,7 @@
+In [[set theory]], a __constructible set__ is any set in [[constructible universe]], see there. One can generalize to constructible elements in more general [[Boolean lattice]]s. 
+
+For example, in [[general topology]], given a [[topological space]] $(X,\tau)$, a __constructible subset__ of $X$, sometimes (when $(X,\tau)$ is fixed) often simply referred as a constructible set, is an element of the smallest Borel algebra of sets containing the topology $\tau$. 
+
+In the case of [[theory]] ACF of algebraically closed fields, for every model $K$, the constructible sets in affine space $K^n$ are precisely the [[definable set]]s for the language of fields.
+
+Cf. also the concept of a constructible sheaf. 
