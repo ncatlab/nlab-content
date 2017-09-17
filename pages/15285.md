@@ -29,8 +29,13 @@
 |   | $\mathbb{A}_K$ ([[ring of adeles]]) |   |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$ ([[restricted product]] of [[function rings]] on all punctured [[formal disks]] around all points in $\Sigma$)  | 
 |   | $\mathcal{O}$ |  | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ (function ring on all [[formal disks]] around all points in $\Sigma$) |
 |   | $\mathbb{I}_K = GL_1(\mathbb{A}_K)$ ([[group of ideles]]) |  | $\prod^\prime_{x\in \Sigma} GL_1(\mathbb{C}((t_x)))$ |
-| **automorphy and bundles**  |  |  |  |
-|   |  |   $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$) | 
+| **Galois and class field theory** |   |   |   |
+|   |  [[Galois group]] |  " | $\pi_1(\Sigma)$ [[fundamental group]]  |
+|   |  [[Galois representation]] |  " | [[flat connection]] ("[[local system]]") on $\Sigma$ |
+|| **automorphy and bundles**  |  |  |  |
+|  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)$ ([[idele class group]]) | " |   | 
+|  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)/GL_1(\mathbb{O})$  | " |  [[Cech cohomology|Cech]] [[cocycles]] mod [[coboundaries]] for [[holomorphic line bundles]] with respect to cover by formal disks = [[moduli stack of bundles|moduli stack of line bundles]] $Bun_{GL_1}(\Sigma)$  | 
+|   | $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) |  " | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$)   | 
 |   | number field [[Langlands correspondence]] |  function field [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
 |   | [Tamawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
 | **zeta functions**  |  |  |  |
