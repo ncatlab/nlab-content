@@ -59,19 +59,47 @@ We have obvious categories of algebras of both sorts.  Of course, any [[algebra 
 ###### Lemma
 If $(S,\sigma)$ is well-pointed, then an object $A$ admits at most one $S$-algebra structure.  This happens exactly when $\sigma_A$ is an isomorphism, in which case its inverse is that unique algebra structure.
 =--
-
++-- {: .proof}
+###### Proof
+Commutativity of the diagram
+$$
+\begin{array}{ccc} 
+S S A & \overset{S a}\to & S A \\
+\mathllap{\scriptsize{\sigma_{S A}=S\sigma_A}}\uparrow && \;\;\;\;\uparrow\mathrlap{\scriptsize{\sigma_A}} \\
+S A & \underset{a}\to & A
+\end{array}
+$$
+gives that $\sigma_A\circ a= 1_{S A}$, which together with $a\sigma_A= 1_A$ gives the invertibility of $a\colon S A\to A$ and the uniqueness of the algebra structure.
+=--
 Thus, when $S$ is well-pointed, the category of $S$-algebras is a [[full subcategory]] of $\mathcal{A}$.  Well-pointed endofunctors are important, so we mention a few other ways to obtain them.
 
 +-- {: .num_lemma #WellPointedQuotient}
 ###### Lemma
-If $(S,\sigma)$ is a well-pointed endofunctor and $S\to T$ is a natural transformation whose components are [[epimorphisms]], then $T$ is also well-pointed.
+If $(S,\sigma)$ is a well-pointed endofunctor and $\alpha\colon S\to T$ is a natural transformation whose components are [[epimorphisms]], then $T$ is also well-pointed.
 =--
-
++-- {: .proof}
+###### Proof
+The putative transformation $\eta\colon 1\to T$ is the composition $\alpha\circ \sigma$. First of all notice that $\sigma T\circ \alpha = S\eta$, since
+$$\begin{array}{cc} 
+S\eta_A &= S \alpha_A \circ  S\sigma_A \\
+&= S\alpha_A \circ \sigma_{S A}\\
+&= \sigma_{T A}\circ \alpha_A
+\end{array}$$
+by naturality of the transformations involved. Now, it suffices to show that $\eta T \circ \alpha = T\eta \circ \alpha$, and since $\alpha$ is an epimorphism we can conclude. This follows, again, from a naturality diagram plus the previous argument:
+$$\begin{array}{ccc} 
+(\eta T \circ \alpha)_A &=& \alpha_{T A}\circ \sigma_{T A}\circ \alpha_A \\
+&=& \alpha_{T A} \circ S \eta_A\\
+&=& T \eta_A \circ \alpha_A \\
+&=& (T\eta \circ\alpha)_A\end{array}$$
+=--
 +-- {: .num_lemma #WellPointedCointersection}
 ###### Lemma
 Suppose $(S_i,\sigma_i)$ is a family of (accessible) well-pointed endofunctors and let $\sigma:Id \to S$ be the [[wide pushout]] of all the points $\sigma_i:Id \to S_i$.  Then $(S,\sigma)$ is (accessible and) well-pointed, and $S Alg = \bigcap_i (S_i Alg)$.
 =--
++-- {: .proof}
+###### Proof
 
+=--
 +-- {: .num_lemma #WellPointedTransfer}
 ###### Lemma
 Let $F:\mathcal{A} \rightleftarrows \mathcal{B} :G$ be an adjunction and $(S',\sigma')$ an (accessible) well-pointed endofunctor on $\mathcal{B}$.  Let $(S,\sigma)$ be the pushout
@@ -80,8 +108,10 @@ $$ \array{ F G & \xrightarrow{F \sigma' G} & F S' G \\
   Id & \xrightarrow{\sigma} & S. } $$
 Then $(S,\sigma)$ is (accessible and) well-pointed, and $A\in\mathcal{A}$ is an $S$-algebra exactly when $G A$ is an $S'$-algebra.
 =--
++-- {: .proof}
+###### Proof
 
-
+=--
 ## Free algebras for well-pointed endofunctors
 
 The basic theorem to which all others can be reduced is the following.
