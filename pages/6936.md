@@ -213,6 +213,4 @@ Expositions include
 
 * [[Mike Shulman]], _Inductive and higher inductive types_ talk slides (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
 
-* [[Mike Shulman]], _A tentative proposal for a general syntax for higher inductive types_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/syntax.pdf/382449944/syntax.pdf))
-
 [[!redirects higher inductive types]]
