@@ -43,7 +43,8 @@ Such Jordan algebras are called __special__ Jordan algebras; all others are call
 
 Among the exceptional Jordan algebras over the [[real numbers]], there is a remarkable $27$-dimensional example: the **Albert algebra** $\mathbb{Al}$ of [[self-adjoint matrix|self-adjoint]] $3\times 3$ [[matrix|matrices]] over the [[octonion|octonions]] with the same formula as above for the product in terms of [[matrix product]]. Notice that the octonions and their matrices do *not* form associative algebras, but only [[alternative algebras]], so the Jordan identity for the Albert algebra is not automatic (it does not hold for all alternative algebras) but is a consequence of more special circumstances.
 
-## Formally real Jordan algebras and their origin in quantum physics ##
+## Formally real Jordan algebras and their origin in quantum physics 
+ {#OriginInQuantumPhysics}
 
 Jordan algebras had their origin in the study of the foundations of [[quantum mechanics|quantum theory]].  In 1932, [[Pascual Jordan]] tried to isolate some axioms that an 'algebra of [[observable]]s' should satisfy ([Jordan 32](#Jordan32)).
 
@@ -88,6 +89,8 @@ $$x \le y \; \& \; y \le x \quad \implies \quad x = y\,.$$
 So, in a formally real Jordan algebra we can reasonably talk about one observable being 'greater' than another.
 
 In fact the Jordan identity $(x \circ y) \circ (x \circ x) = x \circ (y \circ (x \circ x)) $ is a _consequence_ of the above definition of formally real Jordan algebra.  So, every formally real Jordan algebra is a Jordan algebra (but not conversely).
+
+For more on this see also at _[order-theoretic structure in quantum mechanics -- Relation to non-commutative geometry](order-theoretic+structure+in+quantum+mechanics#RelationToTheNonCommutativePhaseSpace)_.
 
 
 ## Classification of formally real Jordan algebras
