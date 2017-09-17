@@ -1,0 +1,59 @@
+
+> under construction, am being interrupted...
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _integral Wu structure_ in degree $2k$ on an [[orientation|oriented]] [[smooth manifold]] $X$  is a refinement of the [[Wu class]] $\nu_{2k} \in H^{2k}(X, \mathbb{Z}_2)$ by a [[cocycle]] $\phi$ in degree $2k$ [[ordinary differential cohomology]] $H^{2k}_{diff}(X)$, hence a [[circle n-bundle with connection|circle (2k-1)-bundle with connection]] whose underlying higher [[Dixmier-Douady class]] equals $\nu_{2k} mod 2$.
+
+## Definition
+
+
+## Properties
+
+### In terms of smooth $\infty$-stacks
+
+Integral Wu structures have a natural formulation in the [[(∞,1)-topos]]  [[Smooth∞Grpd]] as follows.
+
+If we read the defining expression for the collection of $\nu_{2k}$ integral Wu structures 
+
+$$
+  \hat \mathbf{Wu}_{\nu_{2k}}
+  \coloneqq
+  \left\{
+    \phi \in \mathbf{B}^{2k-1} U(1)_{conn}
+    |
+    (\phi \simeq \nu_{2k} mod 2)
+  \right\}
+$$
+
+in [[homotopy type theory]], its [[categorical semantics]] is given by the [[homotopy pullback]] of [[moduli ∞-stacks]]
+
+
+$$
+  \array{
+     \hat \mathf{Wu}_{\nu_{2k}} &\to& [X,\mathbf{B}^{2k-1} U(1)_{conn}]
+     \\
+     \downarrow && \downarrow
+     \\
+     * &\stackrel{\nu_{2k}}{\to}& [X, \mathbf{B}^{2k} \mathbb{Z}_2]
+  }
+  \,.
+$$
+
+(...)
+
+## References
+
+The notion was introduced in def. 2.12 of 
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+motivated by considerations in 
+
+* [[Edward Witten]], _On flux quantization in M-theory and the effective action_ ([arXiv:hep-th/9609122v2](http://arxiv.org/abs/hep-th/9609122v2))
+
+[[!redirects integral Wu structures]]
