@@ -1,0 +1,35 @@
+# Contents #
+* table of contents 
+{: toc}
+
+## Idea 
+
+The simplicial approximation theorem roughly says that if $X$ and $Y$ are [[simplicial complexes]] and $f: {|X|} \to {|Y|}$ is a [[continuous map]] between their [[geometric realizations]], then after further [[subdivisions]] $X'$, $Y'$ there is a simplicial map $g: X' \to Y'$ such that ${|g|}$ is [[homotopy|homotopic]] to $f$. 
+
+## Statement 
+
+Let $X$ be a simplicial complex, with vertex set $X_0$. We recall that the geometric realization of $X$ is a space whose points may be described as functions $\alpha: X_0 \to [0, 1]$ such that $\alpha^{-1}((0, 1])$ is a simplex of $X$ (in particular, finite) and $\sum_{v \in X_0} \alpha(v) = 1$. For a simplex $s$ of $X$, we let ${|s|}$ denote the _closed_ (affine) simplex in the geometric realization ${|X|}$, defined by the formula 
+
+$${|s|} = \{\alpha \in {|X|}: \alpha(v) \gt 0 \; implies \; v \in s\}.$$ 
+
+This may be identified with a standard affine simplex, and we topologize ${|s|}$ so that this identification is a homeomorphism. ${|X|}$ is then given the coherent topology: the largest topology rendering each inclusion ${|s|} \hookrightarrow {|X|}$ is continuous. 
+
+We let $\langle s \rangle$ denote the _open_ simplex: 
+
+$$\langle s \rangle = \{\alpha \in {|X|}: \alpha(v) \neq 0 \; iff \; v \in s\}.$$ 
+
+If $X, Y$ are simplicial complexes, then a function $f: X_0 \to {|Y|}$ can be extended linearly to a continuous map $\tilde{f}: {|X|} \to {|Y|}$ by the rule 
+
+$$\tilde(f)(\alpha) = \sum_{v \in X_0} \alpha(v)f(v),$$ 
+
+provided that for every simplex $s$ of $X$, all convex combinations of elements of $f(s)$ lie in ${|Y|}$. 
+
+We may then define a general _subdivision_ (not necessarily an iterated barycentric subdivision) of a simplicial complex $X$ to be a simplicial complex $X'$ such that 
+
+* Vertices of $X'$ are points of ${|X|}$, 
+
+* For every simplex $s'$ of $X'$, there is a simplex of $X$ such that $s' \subseteq {|s|}$, 
+
+* The linear map $\tilde{i}: {|X'|} \to {|X|}$ induced from the inclusion $i: X' \hookrightarrow {|X|}$ is a homeomorphism. 
+
+(to be continued) 
