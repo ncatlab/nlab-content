@@ -19,7 +19,7 @@ Let  $\mathbb{C}$ and $\mathbb{D}$ be $\mathbb{E}$-[[indexed categories]], that 
 
 Then an **$\mathbb{E}$-indexed functor** $F:{\mathbb{C}}\to{\mathbb{D}}$ is a [[pseudonatural transformation]] $F \colon \mathbb{C} \Rightarrow \mathbb{D}$: it assigns to each [[object]] $A$ of $\mathbb{E}$ a functor $F^A:{\mathbb{C}}^A\to{\mathbb{D}}^A$ and to each [[morphism]] $f:A\to B$ of $\mathbb{E}$ a coherent [[isomorphism]] $\mathbb{D}(f) \circ F^B \cong F^A \circ \mathbb{C}(f)$.
 
-+-- {: .standout}
++-- {: .query}
 
 Would it be fair to define a "weak indexed functor" as above except with a natural transformation rather than natural isomorphism?  I'm starting to wonder why Johnstone bothered reversing the direction if the components are all isos. -- [[Adam]]
 
