@@ -27,14 +27,19 @@ Given some algebraic structure, such as a [[group]], equipped with a notion of (
 
 Notice that there is also the closely related but in general different notion of an [[indecomposable representation]].  Every irrep is indecomposable, but the converse may fail.
 
-A representation that has proper nontrivial subrepresentations but can not be decomposed into a [[direct sum]] of such representations is indecomposable but still reducible.
+A representation that has proper nontrivial subrepresentations but can not be decomposed into a [[direct sum]] of such representations is an **indecomposable representation** but still reducible.
 
 ## Related concepts
+
+* [[simple object]]
 
 * In [[quantum physics]] an irreducible representation of an [[algebra of observables]] is called a _[[superselection sector]]_.
 
 
 [[!redirects irreducible representations]]
+
+[[!redirects indecomposable representation]]
+[[!redirects indecomposable representations]]
 
 [[!redirects irrep]]
 [[!redirects irreps]]
