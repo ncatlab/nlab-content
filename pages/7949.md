@@ -1,4 +1,3 @@
-[[!redirects ∞-image]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,9 +17,10 @@
 
 The generalization of the notion of _[[image]]_ from [[category theory]] to [[(∞,1)-category theory]].
 
-## Defintion
+## Definition
 
 ### By epi/mono factorization in an $(\infty,1)$-topos
+ {#ViaEpiMonoFactorization}
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Then by the discussion at _[[(n-connected, n-truncated) factorization system]]_ there is a [[orthogonal factorization system in an (∞,1)-category|orthogonal factorization system]] 
 
@@ -38,6 +38,49 @@ $$
 $$
 
 we may call $im(f) \hookrightarrow Y$ the **$\infty$-image** of $f$.
+
+### As the ∞-colimit of the kernel ∞-groupoid
+ {#ViaColimitOfCechNerve}
+
+In a sufficiently well-behaved 1-[[category]], the [[coimage|(co)image]] of a morphism $f \colon X \to Y$ may be defined as the [[coequalizer]] of its [[kernel pair]], hence by the fact that 
+
+$$
+  X \times_Y X \stackrel{\to}{\to} X \stackrel{}{\to} im(f)
+$$
+
+is a [[colimit|colimiting]] [[cocone]] under the [[parallel morphism]] [[diagram]].
+
+In an [[(∞,1)-topos]] the $\infty$-image is the [[(∞,1)-colimit]] not just of these two morphisms, but of the full "$\infty$-kernel", namely of the full [[Cech nerve]] [[simplicial object]]
+
+$$
+  \cdots
+   \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
+  X \times_Y X \times_Y X
+   \stackrel{\to}{\stackrel{\to}{\to}} 
+  X \times_Y X \stackrel{\to}{\to} X \stackrel{}{\to} im(f)
+  \,.
+$$
+
+(Here all degeneracy maps are notionally suppressed.)
+
+To see that this gives the same notion of $\infty$-image as given by the epi-mono factorization as discussed [above](#ViaEpiMonoFactorization), let $f \colon X \stackrel{f}{\to} im(f) \hookrightarrow Y$ be such a factorization. Then using (by the discussion at _[truncated morphism -- Recursive characterization](n-truncated+object+of+an+%28infinity%2C1%29-category#RecursiveDefinition)_) that the [[(∞,1)-pullback]] of a [[monomorphism in an (∞,1)-category|monomorphism]] is its domain, we find a [[pasting diagram]] of [[(∞,1)-pullback]] squares of the form
+
+$$
+  \array{ 
+    X \times_{im(f)} X &\to & X &\stackrel{\simeq}{\to} & X
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f}}
+    \\
+    X &\stackrel{f}{\to}& im(f) &\stackrel{\simeq}{\to}& im(f)
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow
+    \\
+    X &\stackrel{f}{\to}& im(f) &\hookrightarrow& Y
+  }
+  \,,
+$$
+
+which shows, by the [[pasting law]], that $X \times_{Y} X \simeq X \times_{im(f)} X$ and hence that the [[Cech nerve]] of $X \stackrel{f}{\to} Y$ is equivalently that of the effective epimorphism $X \stackrel{f}{\to} im(f)$. Now, by one of the [[Giraud-Rezk-Lurie axioms]] satisfied by [[(∞,1)-toposes]], the [[(∞,1)-colimit]] over the [[Cech nerve]] of an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] is that morphism itself. Therefore the $\infty$-image defined this way coincides with the one defined by the epi/mono factorization.
 
 ## Properties
 
@@ -141,3 +184,4 @@ the corresponding morphism to the [[object classifier]]. Then the $\infty$-image
 
 * [[homotopy image]]
 
+[[!redirects ∞-image]]
