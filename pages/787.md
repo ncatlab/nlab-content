@@ -22,7 +22,7 @@
 
 ## Idea
 
-A **Courant algebroid**  -- or better: **Courant Lie 2-algebroid** -- is precisely a [[symplectic Lie n-algebroid|symplectic Lie 2-algebroid]] ([Roytenberg](#RoytenbergStructure)):
+A **Courant algebroid**  -- or better: **Courant Lie 2-algebroid** -- (named after [[Theodore Courant]]) is precisely a [[symplectic Lie n-algebroid|symplectic Lie 2-algebroid]] ([Roytenberg](#RoytenbergStructure)):
 
 it is a [[L-infinity algebroid|Lie 2-algebroid]] $\mathfrak{P}$ whose [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P})$ is equipped with the structure of a [[Poisson n-algebra|Poisson 3-algebra]] whose Poisson bracket
 
