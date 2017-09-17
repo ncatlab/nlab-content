@@ -1,0 +1,32 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+
+_[[monad]]_ in the context of [[enriched category theory]].
+
+
+
+## Related entries
+
+* [[strong monad]]
+
+* [[additive monad]]
+
+
+[[!redirects enriched monads]]
