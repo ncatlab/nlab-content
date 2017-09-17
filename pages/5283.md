@@ -58,6 +58,7 @@ $$
 
 The operation $div_\omega$ is a [[derivation]] of the [[Schouten bracket]].
 
+A more general discussion of this phenomenon in ([CattaneoFiorenzaLongoni](CattaneoFiorenzaLongoni)).
 
 
 ## References
@@ -67,6 +68,10 @@ The isomorphisms between the de Rham complex and the complex of polyvector field
 * Thomas Willwacher, Damien Calaque _Formality of cyclic cochains_ ([arXiv:0806.4095](http://arxiv.org/abs/0806.4095))
 {#WillwacherCalaque}
 
+and in section 2 of 
+
+* [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/05-06.pdf))
+{#CattaneoFiorenzaLongoni}
 
 [[!redirects multivector field]]
 [[!redirects multivector fields]]
