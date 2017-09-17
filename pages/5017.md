@@ -44,6 +44,30 @@ The Haefliger stack is a [[terminal object]] in the [[2-category]] of [[étale s
 
 ([Carchedi 12, theorem 3.3.](#Carchedi12))
 
+This implies ([Carchedi 12, 3,2](#Carchedi12))
+
++-- {: .num_theorem #StacksOnEtaleSiteAndEtaleStacks}
+###### Theorem
+
+There is an equivalence 
+
+$$
+  \Theta \colon St(SmthMfd^{et}) \simeq EtSt(SmthMfd)^{et} 
+$$
+
+between [[stacks]] on the [[site]] of smooth manifolds with [[local diffeomorphisms]] between them and [[étale stacks]] with [[étale morphisms]] between them inside all [[smooth stacks]].
+
+=--
+
+([Carchedi 12, theorem 1.3](#Carchedi12))
+
++-- {: .num_remark}
+###### Remark
+
+This in turn implies for instance that the Haefliger groupoid for [[complex structures]] ([Carchedi 12, p. 38](#Carchedi12)) is simply the image under the equivalence $\Theta$ in theorem \ref{StacksOnEtaleSiteAndEtaleStacks} of the sheaf on $SmthMfd^{et}$ which sends each smooth manifold to its set of [[complex structures]]. (...)
+
+=--
+
 ### Sheaves and stacks on the Haefliger groupoid.
 
 Consider in the following the union $\mathcal{H}$ of Haefliger groupoids over all $n$.
