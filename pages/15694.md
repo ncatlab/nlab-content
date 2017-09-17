@@ -1,0 +1,10 @@
+
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Hagen_Kleinert)
+
+## related $n$Lab enttries
+
+* [[path integral quantization]]
+
+category: people
