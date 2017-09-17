@@ -42,6 +42,8 @@ The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad
 
 * The [[Chevalley-Eilenberg algebra]] of a [[symplectic Lie n-algebroid]] (see there for details) is naturally a Poisson $(1+n)$-algebra. 
 
+* A [[classical BV complex]] is naturally (if obtained as a [[derived critical locus]], or else by definition) a Poisson 0-algebra.
+
 ## Related concepts
 
 * [[Poisson bracket Lie n-algebra]]
@@ -56,4 +58,16 @@ For discussion in the context of [[perturbation theory|perturbative]] [[quantum 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]]), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf)) 
 
 and for further references along these lines see at _[[factorization algebra]]_.
+
+[[!redirects Poisson n-algebras]]
+
+[[!redirects Poisson 0-algebra]]
+[[!redirects Poisson 1-algebra]]
+[[!redirects Poisson 2-algebra]]
+[[!redirects Poisson 3-algebra]]
+
+[[!redirects Poisson 0-algebras]]
+[[!redirects Poisson 1-algebras]]
+[[!redirects Poisson 2-algebras]]
+[[!redirects Poisson 3-algebras]]
 
