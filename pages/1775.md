@@ -206,8 +206,8 @@ is a [[limit in a quasi-category|pullback]] in $C$.
 
 =--
 
-### Effective quotients
-
+### Effective quotients {#Effective}
+ 
 
 +-- {: .un_prop}
 ###### Proposition
