@@ -12,7 +12,7 @@ The [[Bousfield localization of spectra]] $L_{E(n)}$ at $n$th Morava E-theory is
 ### Relation to formal groups
 
 
-Chromatic localization on [[complex oriented cohomology theories]] like the restriction to the closed substack
+Chromatic localization on [[complex oriented cohomology theories]] is like the restriction to the closed substack
 
 $$
   \mathcal{M}_{FG}^{\leq n+1}
