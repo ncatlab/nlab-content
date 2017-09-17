@@ -34,7 +34,7 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 * [JSTOR](http://www.jstor.org) -- a big repository of past issues of main, mainly American and English journals -- requires institution subscription
 
 * [archive of category list](http://blog.gmane.org/gmane.science.mathematics.categories)
-* [tac](http://www.tac.mta.ca/tac) -- Theory and Application of Categories, free journal and a category reprint collection
+* [tac](http://www.tac.mta.ca/tac) -- Theory and Application of Categories, free journal and a category [reprint](http://www.tac.mta.ca/tac/reprints/index.html) collection
 * [MSRI books](http://library.msri.org/books)
 
 ## General lists of math resources
