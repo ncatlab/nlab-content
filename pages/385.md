@@ -97,5 +97,5 @@ A collection of Crans's papers, including those on teisi, can be found here:
 
 The most modern version, incorporating many new primitives is given in 
 
-* Omega-categories and chain complexes, Homology, Homotopy and Applications 6(1) (2004), 175-200.
-{#Steiner}
+* [[Richard Steiner]], _Omega-categories and chain complexes_, Homology, Homotopy and Applications 6(1) (2004), 175-200 ([journal](http://www.intlpress.com/hha/v6/n1/a12/), [pdf](http://www.intlpress.com/hha/v6/n1/a12/pdf))
+ {#Steiner}
