@@ -1065,7 +1065,7 @@ The construction of the infinitesimal path object has been amplified and discuss
 
 The discussion that the normalized [[cosimplicial algebra]] of functions on the [[infinitesimal singular simplicial complex]] is the [[de Rham complex]] is further discussed in 
 
-* Herman Stel, _[[Cosimplicial C-infinity rings and the de Rham complex of Euclidean space]]_ ([arXiv:arXiv:1310.7407](http://arxiv.org/abs/arXiv:1310.7407))
+* Herman Stel, _[[schreiber:Cosimplicial C-infinity rings and the de Rham complex of Euclidean space]]_ ([arXiv:arXiv:1310.7407](http://arxiv.org/abs/arXiv:1310.7407))
 
 The results on differentiable [[Lie group cohomology]] used above is in 
 
