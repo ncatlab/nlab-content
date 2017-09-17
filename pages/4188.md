@@ -1,6 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 
@@ -9,7 +19,7 @@
 +-- {: .un_def}
 ###### Definition
 
-For $(X_j, \omega_j)$ two [[symplectic manifold]]s, a **Lagrangian correspondence** is a submanifold of $X^-_0 \times X_1$
+For $(X_j, \omega_j)$ two [[symplectic manifold]]s, a **Lagrangian correspondence** is a [[correspondence]] $Z \to X^-_0 \times X_1$ which is a  [[submanifold]] of $X^-_0 \times X_1$
 
 $$
   \iota : L_{0,1} \hookrightarrow X^-_0 \times X_1
@@ -84,6 +94,8 @@ which is a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suit
 
 * [[Weinstein symplectic category]]
 
-* [[Lagrangian correspondences and category-valued TFT]].
+* [[Lagrangian correspondences and category-valued TFT]]
+
+* [[cosmic Galois group]]
 
 [[!redirects Lagrangian correspondences]]
