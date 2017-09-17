@@ -54,14 +54,14 @@ In the definition of a Kripke model the valuation is all important.  It is what 
 
    * Firstly an important role here is played by the multiple structures that $\mathbf{2}$ has. It is a [[Heyting algebra]]; it has a natural [[poset]] structure; it is the [[subobject classifier]] in the [[topos]] of sets, and so on. In fact it is the source of most of the logic semantic structure within this context.  Its structure induces similar structures on the powerset, $\mathcal{P}(W)$, given by union etc, that made the semantics work above.  (See also the discussion on [[dualizing object|ambimorphic objects]] in the entry on the [[Chu construction]].)
 
-   * Next note that although we said 'set' we could do a lot of this in other settings.  For instance we could work within a more general topos with an object of possible worlds and an opject of propositions. We would need the extra [[Heyting algebra]] structure on what would there probably be written as $\Omega$, and our negation interpretation would be more subtle.
+   * Next note that although we said 'set' we could do a lot of this in other settings.  For instance we could work within a more general topos with an object of possible worlds and an object of propositions. We would need the extra [[Heyting algebra]] structure on what would there probably be written as $\Omega$, and our negation interpretation would be more subtle.
 
-   * Finally we could categorify things.  For the moment we will leave this aside, but note the discussion at [[truth value]]
+   * Finally we could categorify things.  For the moment we will leave this aside, but note the discussion at [[truth value]].
 
 
-1.  For convenience we will write $P$ for $Prop$, then a valuation is $V: P\to \mathbf{2}^W$, and using  co[[currying]] this corresponds to $V: P\times W\to \mathbf{2}$.  That of course correpons to a subset of $P\times W$.  That subset consists of all pairs, $(p,w)$, for which $w\in V(p)$ so  interprets as the set of pairs in which the proposition $p$ is 'true' in world $w$.
+1.  For convenience we will write $P$ for $Prop$, then a valuation is $V: P\to \mathbf{2}^W$, and using  co[[currying]] this corresponds to $V: P\times W\to \mathbf{2}$.  That, of course, corresponds to a subset of $P\times W$.  That subset consists of all pairs, $(p,w)$, for which $w\in V(p)$ so  interprets as the set of pairs in which the proposition $p$ is 'true' in world $w$.
 
-1.  We could re[[currying|curry]] to get $V$ to correspond to $\tilde{V}: W \to \mathcal{P}(P)$, so that $\tilde{V}(w)$ is the set of propositions true about the world $w$.
+1.  We could re[[currying|curry]] after transposing $P$ and $W$, to get $V$ to correspond to $\tilde{V}: W \to \mathcal{P}(P)$, so that $\tilde{V}(w)$ is the set of propositions true about the world $w$.
 
 1.  Another useful direction is to see this as giving a binary [[Chu construction|Chu space]]. (To be investigated later.) 
 
