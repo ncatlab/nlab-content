@@ -54,7 +54,9 @@ For details see [[groupoid object in an (∞,1)-category]].
 
   * [[looping and delooping]]
 
-  * [[automorphism ∞-group]],
+  * [[automorphism ∞-group]]
+
+    * [[∞-group of bisections]]
 
   * [[center of an ∞-group]]
 
