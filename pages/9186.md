@@ -1,0 +1,6 @@
+
+## References
+
+* Wikipedia, _[R-Symmetry](http://en.wikipedia.org/wiki/R-symmetry)_
+
+[[!redirects R-symmetries]]
