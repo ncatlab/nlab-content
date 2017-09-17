@@ -56,9 +56,9 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 ## Related entries
 
-* [[logos (in philosophy)]]
+* [[category (philosophy)]], [[modality]]
 
-* [[Nous]]
+* [[logos (in philosophy)]], [[Nous]]
 
 * [[metaphysics]]
 
