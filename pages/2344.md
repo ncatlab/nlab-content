@@ -282,6 +282,8 @@ Special kinds of derivators:
 * [[stable derivator]]
 * [[monoidal derivator]]
 * [[enriched derivator]]
+* [[finitely complete prederivator]]
+* [[regular derivator]]
 
 Special limits and structures in derivators:
 
