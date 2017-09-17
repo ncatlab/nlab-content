@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _(linear) complex structure_ on a [[vector space]] $V$ is an [[automorphism]] $J : V \to V$ that squares to minus the identity: $J \circ J = - Id$.
+
+An _almost complex structure_ on a [[smooth manifold]] $X$ is smooth [[section]] $J \in \Gamma(T X \otimes T^* X)$ such that over each point $x \in X$ $J$ is a linear complex structure on that [[tangent space]] $T_x X$ under the canonical identification $End T_x X \simeq T_x X\otimes T_x^* X$.
+
+A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[complex manifold]] on $X$. Every such defines  an almost complex structure and almost complex structures arising this way are called _integrable_ .
+
+## Properties
+
+The _Newlander-Nierenberg theorem_ states that an almost complex structure $J$ on a smooth manifold is integrable precisely if its [[Nijenhuis tensor]] vanishes, $N_J = 0$.
+
+## References
+
+A discussion of deformations of complex structures is in
+
+* [[Domenico Fiorenza]], _[[domenicofiorenza:The periods map of a complex projective manifold. An oo-category perspective]]_
+
+[[!redirects complex structures]]
+[[!redirects almost complex structure]]
+[[!redirects Newlander-Nierenberg theorem]]
