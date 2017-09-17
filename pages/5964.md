@@ -3,3 +3,5 @@ Dorette Pronk is a category theorist at Dalhousie University, Canada.
 * [webpage](http://www.mscs.dal.ca/Faculty/pronk.htm)
 
 [[!redirects D. Pronk]]
+[[!redirects Dorette A. Pronk]]
+[[!redirects D. A. Pronk]]
