@@ -26,7 +26,7 @@ The simplest example of such regulators are
 
 * the [[Dedekind zeta-function]] of $K$;
 
-* the Dirichlet regulator map, discussed below
+* the Dirichlet regulator map, discussed below.
 
 
 These regulators can be understood to be essentially the [[Chern characters]] in [[algebraic K-theory]] ([Tamme 12](#Tamme12)), which has a particularly natural construction in [[differential algebraic K-theory]] ([Bunke-Tamme 12](#BunkeTamme12))
@@ -59,7 +59,7 @@ $$
 
 A description of this in [[differential algebraic K-theory]] is in ([Bunke-Tamme  12, 1.2](#BunkeTamme12)):
 
-for $X$ a [[smooth manifold]], then a class in $K R^0(X)$ is represented by  [[finitely generated module|finitely generated]] [[projective module|projective]] $R$-[[module bundle]] $V \to X$. Write
+for $X$ a [[smooth manifold]], then a class in $K R^0(X)$ is represented by  a [[finitely generated module|finitely generated]] [[projective module|projective]] $R$-[[module bundle]] $V \to X$. Write
 
 $$
   cycl(V) \in K R^0(X)
@@ -90,7 +90,7 @@ $$
   \,.
 $$
 
-In [[differential algebraic K-theory]] this construction can be refined from landing in [[de Rham cohomology]] to landing in genuine [[ordinary differential cohomology]] ([[higher prequantization]]), hence with $CS_p(\nabla_{V_\sigma}^\ast, \nabla_{V_\sigma})$ itself realizes as the [[curvature]] of a [[circle n-bundle with connection|circle (p-1)-bundle with connection]].
+In [[differential algebraic K-theory]] this construction can be refined from landing in [[de Rham cohomology]] to landing in genuine [[ordinary differential cohomology]] ([[higher prequantization]]), hence with $CS_p(\nabla_{V_\sigma}^\ast, \nabla_{V_\sigma})$ itself realized as the [[curvature]] of a [[circle n-bundle with connection|circle (p-1)-bundle with connection]].
 
 ## Properties
 
@@ -143,9 +143,8 @@ The Bott regulator is due to
 
 The relation to [[Chern characters]] is made very explicit in
 
-* [[Georg Tamme]], _Karoubi's relative Chern character and Beilinson's regulator_,
-Ann. Sci. Ec. Norm. Super. (4) 45 (2012), no. 4, 601-636.
- {#Tamme12}
+* {#Tamme12} [[Georg Tamme]], _Karoubi's relative Chern character and Beilinson's regulator_, Ann. Sci. Ec. Norm. Super. (4) 45 (2012), no. 4, 601-636. ([[TammeRegulator.pdf:file]])
+ 
 
 The interpretation of these regulator Chern characters in [[differential algebraic K-theory]] is due to
 
@@ -170,6 +169,57 @@ See also
 * {#Suslin84} A.A. Suslin, _On the K-theory of local fields_, In Proceedings of the Luminy conference on algebraic K-theory (Luminy, 1983), volume 34, pages 301-318, 1984.
 
 * Wikipedia, _[Beilinson regulator](http://en.wikipedia.org/wiki/Beilinson_regulator)_
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+
+
 
 [[!redirects Beilinson regulators]]
 
