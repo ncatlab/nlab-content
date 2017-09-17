@@ -61,12 +61,16 @@ An object in there is some [[group]]: a concrete particular.
 
 ## References
 
+The [[category theory|category-theoretic]] formalization of these notions as proposed by Bill Lawvere is disussed in print for instance in
+
 * [[Bill Lawvere]], _Categorical refinement of a Hegelian principle_, section 1 of [[Bill Lawvere]], _Tools for the advancement of objective Logic: Closed categories and toposes_, in John Macnamara, [[Gonzalo Reyes]], _the logical foundations of cognition_, Oxford University Press (1994)
   {#Lawvere}
 
-
 See also an email comment recorded [here](http://conceptualmathematics.wordpress.com/2012/06/09/general-concepts-and-reality-prof-f-william-lawvere/).
 
+For discussion of "particular" and related in [[philosophy]] see also
+
+* Wikipedia, _[Particular](http://en.wikipedia.org/wiki/Particular)_, _[Abstract particular](http://en.wikipedia.org/wiki/Abstract_particulars)_
 
 [[!redirects abstract general]]
 [[!redirects abstract generals]]
