@@ -175,6 +175,7 @@ This appears for instance as ([Segal, prop. 4.2](#Segal)).
 
 * [[string group]]
 
+* [[caloron correspondence]]
 
 
 ## References
