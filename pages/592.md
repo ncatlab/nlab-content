@@ -1,13 +1,11 @@
 
-
 <div class="rightHandSide toc">
 [[!include infinity-limits - contents]]
 </div>
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -95,6 +93,7 @@ and
 $$ h j_A = i_B .$$
 Since this universal property expresses the concept of pushout purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[colimit]].  
 
+
 ## Definition
 
 A **pushout** is a [[colimit]] of a [[diagram]] like this:
@@ -143,7 +142,9 @@ $$
   }
 $$
 
-and the object $x$ is also called the **pushout**.  It has the universal property already described above in the special case of the category $Set$. 
+and the object $x$ is also called the **pushout**.  It has the universal property already described above in the special case of the category $Set$.
+
+Other terms: $x$ is a __cofibred coproduct__ of $a$ and $b$, or (especially in [[algebraic categories]] when $f$ and $g$ are [[monomorphisms]]) a free product of $a$ and $b$ with $c$ __amalgamated__, or more simply an __amalgamation__ (or __amalgam__) of $a$ and $b$.
 
 The concept of pushout is a special case of the notion of **[[cofiber coproduct|wide pushout]]** (compare [[wide pullback]]), where one takes the colimit of a diagram which consists of a set of arrows $\{f_i: c \to a_i\}_{i \in I}$. Thus an ordinary pushout is the case where $I$ has cardinality $2$. 
 
@@ -154,3 +155,17 @@ See [[pullback]] for more details.
 
 [[!redirects pushout]]
 [[!redirects pushouts]]
+
+[[!redirects cofibred coproduct]]
+[[!redirects cofibred coproducts]]
+[[!redirects cofibered coproduct]]
+[[!redirects cofibered coproducts]]
+
+[[!redirects amalgamated free product]]
+[[!redirects amalgamated free products]]
+[[!redirects amalgamated coproduct]]
+[[!redirects amalgamated coproducts]]
+[[!redirects amalgamation]]
+[[!redirects amalgamations]]
+[[!redirects amalgam]]
+[[!redirects amalgams]]
