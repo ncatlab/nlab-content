@@ -1,8 +1,7 @@
-[[!redirects fibration sequence]]
 <div class="rightHandSide toc">
-[[!include infinity-limits - contents]]
-***
 [[!include cohomology - contents]]
+***
+[[!include infinity-limits - contents]]
 </div>
 
 
@@ -148,7 +147,7 @@ $$
 Again, all squares and all pasting squares appearing here are homtopy pullback squares. If I had labeled to two morphisms to the point out of the loop object one would see that $\bar \Omega f$ indeed reverses orientation of loops. 
 
 
-### Long exact sequences in cohomology
+### Long exact sequences in cohomology {#LongSequCoh}
 
 
 Usually, when looking at fibration sequences in 1-categorical contexts of the [[homotopy category of an (∞,1)-category]], one doesn't see these long fibration squences directly, but only "in cohomology".
@@ -321,7 +320,188 @@ $$
 The same logic -- even the same diagrams -- work for [[principal 2-bundles]] and generally for [[principal ∞-bundles]].
 
 
+### Integral versus real cohomology {#Integralreal}
+
+One of the most basic fibration sequences that appears all over the place in practice is the sequence of [[Eilenberg-MacLane object]]s
+
+$$
+  \cdots
+  \to
+  \mathbf{B}^{n-1} \mathbb{R}/\mathbb{Z}
+  \to 
+  \mathbf{B}^n \mathbb{Z}
+  \to 
+  \mathbf{B}^n \mathbb{R}
+  \to  
+  \mathbf{B}^n \mathbb{R}/\mathbb{Z}
+  \to 
+  \mathbf{B}^{n+1} \mathbb{Z}
+  \to 
+  \cdots
+$$
+
+in $\mathbf{H} = $ [[∞Grpd]]/[[Top]], where $\mathbb{R}$ is the abelian group (under addition) of [[real number]], $\mathbb{Z}$ the abelian group of [[integer]]s, and where $\mathbb{R}/\mathbb{Z} = S^1 = U(1)$ is their [[quotient]] group, the circle group or [[unitary group]] $U(n)$ for $n=1$.
+
+A quick way to see that this is indeed a fibration sequence is to realize that $\mathbb{R}/\mathbb{Z}$ is equivalent to the weak quotient [[action groupoid]] $\mathbb{R}//\mathbb{Z}$. Since everything here is in the image of the [[Dold-Kan correspondence]]
+
+$$
+  \infty Grpd \simeq
+  KanCplx
+  \hookrightarrow
+  sSet 
+   \stackrel{\overset{U}{\leftarrow}}{\underset{F}{\to}}
+  sAb
+  \stackrel{\overset{\Xi}{\leftarrow}}{\underset{N^\bullet}{\to}}
+  Ch^+
+$$
+
+it is useful to model this fiber sequence as a sequence of [[chain complex]]es
+
+$$
+  (
+  \mathbf{B}^n\mathbb{R}
+  \to 
+  \mathbf{B}^n \mathbb{R}//\mathbb{Z}
+  \to 
+  \mathbf{B}^{n+1}\mathbf{B} \mathbb{Z}
+  )
+  \;\;\;
+  =
+  \;\;\;
+  U \Xi
+  \left(
+     \left[
+     \array{
+       \vdots
+       \\
+       \downarrow
+       \\
+       0
+       \\
+       \downarrow
+       \\
+       \mathbb{R}
+       \\
+       \downarrow
+       \\
+       \vdots
+     }
+     \right]
+     \;\;\;
+     \to
+     \;\;\;
+     \left[
+     \array{
+       \vdots
+       \\
+       \downarrow
+       \\
+       \mathbb{Z}
+       \\
+       \downarrow
+       \\
+       \mathbb{R}
+       \\
+       \downarrow
+       \\
+       \vdots
+     }
+     \right]
+     \;\;\;
+     \to
+     \;\;\;
+     \left[
+     \array{
+       \vdots
+       \\
+       \downarrow
+       \\
+       \mathbb{Z}
+       \\
+       \downarrow
+       \\
+       0
+       \\
+       \downarrow
+       \\
+       \vdots
+     }
+     \right]
+  \right)
+  \,.
+$$
+
+Written this way the second morphism is evidently a degreewise surjection, hence is a fibration in the [[model structure on chain complexes]]. Therefore this being a fibration sequence is equivalent (as described at [[homotopy pullback]]) to the first morphism being equivalent to the ordinary [[kernel]] of the second, which clearly it is.
+
+From this fiber sequence we obtain long exact sequences in cohomology, for instance in [[singular cohomology]]: let $X$ be a [[topological space]] and for $A$ an abelian group let
+
+$$
+  H^n(X,A) := \pi_0 \infty Grpd( \Pi(X), \mathbf{B}^n A)
+$$
+
+be its cohomology with coefficients in $A$, computed in [[∞Grpd]] which we may [[presentable (∞,1)-category|present]] by [[sSet]], where the [[fundamental ∞-groupoid]] $\Pi(X)$ is the singular simplicial complex $Sing X$ and we have
+
+$$
+  H^n(X,A) = \pi_0 sSet(Sing X, U \Xi A[n])
+  \,.
+$$
+
+Then, as discussed [above](LongSequCoh), the fiber sequence of coefficients  $
+  \cdots
+  \to
+  \mathbf{B}^{n-1} \mathbb{R}/\mathbb{Z}
+  \to 
+  \mathbf{B}^n \mathbb{Z}
+  \to 
+  \mathbf{B}^n \mathbb{R}
+  \to  
+  \mathbf{B}^n \mathbb{R}/\mathbb{Z}
+  \to 
+  \mathbf{B}^{n+1} \mathbb{Z}
+  \to 
+  \cdots
+$ yields the long exact sequence in cohomology
+
+$$
+  \cdots 
+  H^{n-1}(X,\mathbb{Z}/\mathbb{R})
+  \to H^n(X,\mathbb{Z}) \to H^n(X,\mathbb{R}) \to 
+  H^n(X,\mathbb{Z}/\mathbb{R})
+  \to
+  H^{n+1}(X,\mathbb{Z})
+  \to
+  \cdots
+  \,.
+$$
+
+In applications it often happens that one has a situation where the _real_ cohomology is trivial, i.e $H^n(X,\mathbb{R}) = 0$ in some degree $n$. In that case the exactness of the sequence
+
+$$
+  \cdots 
+  \to H^n(X,\mathbb{Z}) 
+  \to 0 \to 
+  H^n(X,\mathbb{Z}/\mathbb{R})
+  \to
+  H^{n+1}(\mathbb{Z})
+  \to
+  0
+  \to
+  \cdots
+$$
+
+implies that in this case we have an [[isomorphism]]
+
+$$
+  H^n(X,\mathbb{Z}/\mathbb{R})
+  \stackrel{\simeq}{\to}
+  H^{n+1}(\mathbb{Z})
+  \,.
+$$
+
+
+
 ### Mayer-Vietoris sequences {#MayerVietoris}
+
 
 A **Mayer-Vietoris sequence** is a fibration sequence obtained from an $(\infty,1)$-pullback diagram:
 
@@ -392,6 +572,7 @@ being a fibration sequence. The corresponding long exact sequence in cohomology 
 
 
 
+[[!redirects fibration sequence]]
 [[!redirects fibration sequences]]
 [[!redirects cofibration sequence]]
 [[!redirects homotopy fiber]]
@@ -401,7 +582,6 @@ being a fibration sequence. The corresponding long exact sequence in cohomology 
 [[!redirects homotopy fibers]]
 [[!redirects homotopy cofibers]]
 
-[[!redirects fiber sequence]]
 [[!redirects fiber sequences]]
 
 [[!redirects Mayer-Vietoris sequence]]
