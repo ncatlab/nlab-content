@@ -157,9 +157,11 @@ These are important **cancellation** laws for the connections. They can be inter
 
 In the [[omega-groupoid]] case, the $\Gamma^+_i$ can be recovered from the $\Gamma^-_i$, and vice versa,  by using the inverses, assumed to arise from the groupoid structure. 
 
-The main result of the first paper below is that (strict) cubical omega-groupoids with connections are equivalent to crossed complexes. It is easy to construct a functor from the former to the latter; the hard work is to show that such an omega-groupoid may be functorially reconstructed from the crossed complex it contains. 
+The main result of the second paper below is that (strict) cubical omega-groupoids with connections are equivalent to crossed complexes. It is easy to construct a functor from the former to the latter; the hard work is to show that such an omega-groupoid may be functorially reconstructed from the crossed complex it contains. 
 
-The main result of the second  paper below is that (strict) cubical omega-categories  with connections are equivalent to strict globular omega-categories. 
+This work is used in the third paper to construct and apply a strict cubical homotopy groupoid of a filtered space. 
+
+The main result of the fourth   paper below is that (strict) cubical omega-categories  with connections are equivalent to strict globular omega-categories. 
 
 
 ##References## 
@@ -169,6 +171,9 @@ The main result of the second  paper below is that (strict) cubical omega-catego
 
 * R. Brown and P.J. Higgins, The algebra of cubes, _J. Pure
 Appl. Alg.+, 21 (1981), 233--260.
+
+* Brown, R. and Higgins, P.~J. Colimit theorems for relative homotopy groups.
+_J. Pure Appl. Algebra_ 22~(1) (1981) 11--41.
 
 
 * F. Al-Agl, R. Brown and R. Steiner, Multiple categories: the equivalence   between a globular and cubical approach, _Advances in Mathematics_, 170,   (2002), 71--118.
