@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include 2-category theory - contents]]
 </div>
@@ -46,6 +45,8 @@ in which the triangles commute up to isomorphism, there exists a morphism $u\col
 Stephan: I would not write $f\alpha =g \beta$ since 1-cells are not composable with 2-cells.
 
 _Toby_:  They are, through the operation of [[whiskering]].
+
+Stephan: Thank you Toby. I inserted this example in [[horizontal composition]]
 =--
 
 To see that these definitions are equivalent, we observe that both assert the [[representable functor|representability]] of some [[2-functor]] (where "representability" is understood in the 2-categorical "up-to-equivalence" sense), and that the corresponding 2-functors are equivalent.
