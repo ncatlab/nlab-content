@@ -173,7 +173,7 @@ There is a canonical isomorphism
 
 Here $\mathcal{T}_X$ is the tangent sheaf of $X$, and $X$ is embedded diagonally in $X^2$. 
 
-This is a consequence of the following result. Let $\mathcal{C}_{cd, X}$ be the sheaf of continuous Hochschild cochains of $X$. It is a bounded below complex of quasi-coherent $\mathcal{O}_X$-modules.
+This is a consequence of the following result. Let $\mathcal{C}_{cd, X}$ be the sheaf of continuous Hochschild cochains of $X$. It is a bounded below complex of quasi-coherent $\mathcal{O}_{X^2}$-modules.
 
 +-- {: .num_theorem #Yek1}
 ###### Theorem 
@@ -205,7 +205,7 @@ Here is the result. (See also [Van den Bergh](http://dx.doi.org/10.1016/j.jalgeb
 Any quasi-coherent sheaf $\mathcal{M}$ on $X$ admits a canonical flasque resolution called the mixed resolution:
 \[ \mathcal{M} \to \operatorname{Mix}(\mathcal{M}) . \]
 This "mixes" the jet resolution with the Cech resolution (corresponding to an affine open covering of $X$ that we suppress). 
-In particular there is a quasi-isomorphisms of sheaves of DG algebras 
+In particular there are quasi-isomorphisms of sheaves of DG algebras 
 \[ \mathcal{T}_{poly, X} \to \operatorname{Mix}(\mathcal{T}_{poly, X}) \]
 and 
 \[ \mathcal{D}_{poly, X} \to \operatorname{Mix}(\mathcal{D}_{poly, X}) . \]
