@@ -67,6 +67,7 @@ structural one.  From a model of either kind of set theory we can construct a mo
 
 
 ### Material set theory
+ {#MaterialSetTheory}
 
 In a material set theory (also called a *membership-based set
 theory*), the elements of a set exist independently of that set.
