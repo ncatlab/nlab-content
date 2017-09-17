@@ -59,6 +59,10 @@ and
 $$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\ell_y}{\longrightarrow} y $$
 respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.)
 
+## Related concepts
+
+* [[cartesian monoidal (∞,1)-category]]
+
 
 [[!redirects cartesian monoidal category]]
 [[!redirects cartesian monoidal categories]]
