@@ -12,7 +12,7 @@
 
 
 #Content#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -36,7 +36,21 @@ continuous if and only if $f$ is $k$-continuous.
 
 A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t:C\to X$ is closed (when $C$ is compact Hausdorff).
 
-## Kaonization
+## Examples
+
+Examples of compactly generated spaces include
+
+* every [[compact space]];
+
+* every [[locally compact space]];
+
+* every [[topological manifold]]
+
+* every [[CW-complex]].
+
+## Closure operations
+
+### Kaonization
 
 Let $k\Top$ denote the category of $k$-spaces and continuous maps, and $\Top_k$ denote the category of all topological spaces and $k$-continuous maps.  We have inclusions
 $$ k\Top \to \Top \to \Top_k $$
@@ -51,12 +65,13 @@ Moreover, the identity $id: X \to k(X)$ is $k$-continuous, so that the counit be
 Since $k\Top \hookrightarrow \Top$ is coreflective, it follows that $k\Top$ is [[complete category|complete]] and [[cocomplete category|cocomplete]].  Its [[colimits]] are constructed as in $Top$, but its [[limits]] are the $k$-ification of limits in $Top$.  This is nontrivial already for [[products]]: the $k$-space product $X\times Y$ is the $k$-ification of the usual [[product topology]].  The $k$-space product is better behaved in many ways; e.g. it enables [[geometric realization]] to preserve products (and all finite limits), and the product of two [[CW complexes]] to be another CW complex.
 
 
-## Weak Hausdorffification
+### Weak Hausdorffification
 
 (this is a left adjoint...)
 
+## Properties
 
-## Cartesian closure
+### Cartesian closure
 
 The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian closed]].  For arbitrary spaces $X$ and $Y$, define the *test-open* or *compact-open topology* on $\Top_k(X,Y)$ to have the [[subbase]] of sets $M(t,U)$, for a given compact Hausdorff space $C$, a map $t\colon C \to X$, and an open set $U$ in $Y$, where $M(t,U)$ consists of all $k$-continuous functions $f\colon X \to Y$ such that $f(t(C))\subseteq U$.
 
@@ -83,7 +98,7 @@ It follows that the category $k\Top$ of $k$-spaces and continuous maps is also c
 Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorff, conditions.
 
 
-## Local cartesian closure 
+### Local cartesian closure 
 
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
@@ -130,6 +145,8 @@ Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Un
 
 * [[Peter May]], _[[A concise course in algebraic topology]]_, Chapter 5
 
+
+* Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
 
 [[!redirects compactly generated spaces]]
 [[!redirects k-space]]
