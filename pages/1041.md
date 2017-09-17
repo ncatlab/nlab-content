@@ -149,7 +149,7 @@ Alternatively, one can reason with [[generalized elements]] in an abelian catego
 
 #### Counterexamples
 
-First of all, it's easy to see that not every abelian category is equivalent to $R$[[Mod]] for some ring $R$.  The reason is that $R Mod$ has all [[small category]] [[limits]] and [[colimits]].  The category of [[finitely generated module|finitely generated]] $R$-modules is an abelian category that lacks these properties.
+First of all, it's easy to see that not every abelian category is equivalent to $R$[[Mod]] for some ring $R$.  The reason is that $R Mod$ has all [[small category]] [[limits]] and [[colimits]].  For a [[Noetherian ring]] $R$ the category of [[finitely generated module|finitely generated]] $R$-modules is an abelian category that lacks these properties.
 
 
 #### Embedding into $Ab$
