@@ -52,13 +52,35 @@ The dual concept is a [[coalgebra for an endofunctor]]. Both algebras and coalge
 
 ## Properties
 
-If the endofunctor $F$ has the structure of a [[monad]], then an [[algebra over a monad|algebra (aka module) over that monad]] is an algebra for $F$ that satisfies an additional [[associativity]] property. Morphisms between algebras for monads are simply morphisms between algebras for the underlying functors. For more details see [[algebra over a monad]].
+### Relation to algebras over a monad
 
-An [[initial object]] in the category of algebras for $F$ is an [[initial algebra]] of $F$. 
+The concept of an [[algebra of an endofunctor]] itself is somewhat odd, the natural concept being that of an [[algebra over a monad]].
+
++-- {: .num_prop}
+###### Proposition
+
+The [[category]] of [[algebras of an endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ is [[equivalence of categories|equivalent]] to the category of [[algebras over a monad]] of the [[free monad]] on $F$.
+
+=--
+
+The proof is fairly straightforward, see for instance ([Maciej](#Maciej)).
 
 ## Related concepts
 
+* [[initial algebra of an endofunctor]]
+
 * [[algebra over a monad]], [[algebra over a profunctor]], [[coalgebra over an endofunctor]]
+
+## References
+
+A textbook account of the basic theory is in [chapter 10](http://www.andrew.cmu.edu/course/80-413-713/notes/chap10.pdf) of
+
+* [[Steve Awodey]], _Category theory_ lecture notes (2011) ([web](http://www.andrew.cmu.edu/course/80-413-713/))
+
+The relation to [[free monads]] is discussed in 
+
+* [Maciej](#http://maciejcs.wordpress.com/), _[Free monads and their algebras](http://maciejcs.wordpress.com/2012/04/17/free-monads-and-their-algebras/)_
+ {#Maciej}
 
 [[!redirects algebra of an endofunctor]]
 [[!redirects algebra of a functor]]
