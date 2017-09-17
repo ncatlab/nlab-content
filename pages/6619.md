@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -35,6 +37,22 @@ There is an generalization of the machinery of geometric quantization to [[sympl
 (...)
 
 ([Hawkins, section 4.2](#EH))
+
+(...)
+
+Given a [[symplectic groupoid]] $(X,\omega)$, the symplectic form defines a class in degree-3 [[de Rham cohomology]] $H_{dR}^3(X)$. 
+
+(Notice that, while this $\omega$ is typically expressed as a 2-form on $X_1$, this represents indeed a degree-3 cocycle in the [[simplicial de Rham complex]] of the [[nerve]] of $X$).
+
+We say that $\omega$ is _integral_ if it is in the image of the [[curvature]] map 
+
+$$
+  curv : H^2_{diff}(X,U(1)) \to H^3_{dR}(X)
+$$
+
+from the [[ordinary differential cohomology]] of $X$. If this is the case, we say that a lift $(\hat X, \nabla)$ of $\omega$ to $\mathbf{H}_{diff}(X, \mathbf{B}^2 U(1))$, hence to the [[2-groupoid]] of [[circle n-bundle with connection|circle 2-bundles with connection]] over $X$, is a **prequantum line bundle** for $(X,\omega)$.
+
+Notice that this traditional terminology is off by one: the underlying $\hat X \to X$ is a [[circle 2-group]]-[[principal 2-bundle]] on $X$.
 
 (...)
 
@@ -94,8 +112,6 @@ $$
   \end{aligned}
 $$
 
-(??)
-
 (...)
 
 ## Properties
@@ -109,21 +125,28 @@ If the task is to quantize a [[Poisson manifold]], then both methods, [[Maxim Ko
 
 For more on this see at [[extended geometric quantization of 2d Chern-Simons theory]]
 
-## Definition
 
-Given a [[symplectic groupoid]] $(X,\omega)$, the symplectic form defines a class in degree-3 [[de Rham cohomology]] $H_{dR}^3(X)$. 
+## Examples
 
-(Notice that, while this $\omega$ is typically expressed as a 2-form on $X_1$, this represents indeed a degree-3 cocycle in the [[simplicial de Rham complex]] of the [[nerve]] of $X$).
+### Ordinary geometric quantization of a symplectic manifold
 
-We say that $\omega$ is _integral_ if it is in the image of the [[curvature]] map 
+For $(X,\pi = \omega^{-1})$ an ordinary [[symplectic manifold]]
+the [[symplectic groupoid]] is just the [[pair groupoid]]
+equipped with the multiplicative form $s^* \omega + t^* \bar \omega$.
+Any ordinary [[prequantum line bundle]] $P$ and [[polarization]]
+$\mathcal{F}$ of $(X,\omega)$ induces a prequantization
+$s^* L + t^* \bar L$ and coresponding polarization of the symplectic groupoid. The resulting [[twisted convolution algebra]] is that of [[compact operators]] on $X/\mathcal{F}$. 
 
-$$
-  curv : H^2_{diff}(X,U(1)) \to H^3_{dR}(X)
-$$
+([EH, example 6.1](#EH))
 
-from the [[ordinary differential cohomology]] of $X$. If this is the case, we say that a lift $(\hat X, \nabla)$ of $\omega$ to $\mathbf{H}_{diff}(X, \mathbf{B}^2 U(1))$, hence to the [[2-groupoid]] of [[circle n-bundle with connection|circle 2-bundles with connection]] over $X$, is a **prequantum line bundle** for $(X,\omega)$.
 
-Notice that this traditional terminology is off by one: the underlying $\hat X \to X$ is a [[circle 2-group]]-[[principal 2-bundle]] on $X$.
+### Moyal quantization of Poisson vector space
+ {#MoyalQuantizationofPoissonVectorSpace}
+
+For $(X,\pi)$ a Poisson vector space, hence a [[vector space]] $X = V$ equipped with a constant (translating invariant) [[Poisson bivector]], the geometric quantization of the corresponding [[symplectic groupoid]] yields the [[Moyal quantization]] of $(V, \pi)$.
+
+([EH, example 6.2](#EH))
+
 
 ## Related concepts
 
