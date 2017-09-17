@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,6 +30,8 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 * [[elementary function arithmetic]]
 
 * [[second order arithmetic]]
+
+* [[arithmetic geometry]]
 
 * [[Weil conjecture]], [[Fermat's last problem]], [[abc conjecture]]
 
