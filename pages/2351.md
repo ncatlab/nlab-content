@@ -305,7 +305,7 @@ This completes the sketched proof of essential uniqueness.
 
 Each cartesian bicategory $\mathbf{B}$ gives rise to a bifibration, or in other language a (weak) 2-functor 
 
-$$\mathbf{B}(i-, i-): Map(\mathbf{B})^op} \times Map(\mathbf{B}) \to Cat$$ 
+$$\mathbf{B}(i-, i-): Map(\mathbf{B})^{op} \times Map(\mathbf{B}) \to Cat$$ 
 
 or in other words a $Cat$-valued bimodule over $Map(\mathbf{B})$, for which each $\mathbf{B}(i f, i c): \mathbf{B}(i b, i c) \to \mathbf{B}(i a, i c)$ has a left adjoint 
 
@@ -315,7 +315,7 @@ and similarly each $\mathbf{B}(i c, i f): \mathbf{B}(i c, i a) \to \mathbf{B}(i 
 
 Thus, each cartesian bicategory gives rise to an $Ob(\mathbf{B})$-indexed family $\mathbf{B}(i-, c)$ of what we shall call ([_faute de mieux_]) generalized coherent hyperdoctrines: 
 
-+-- {: un_def} 
++-- {: .un_def} 
 ######Definition  
 Let $C$ be a 2-category with 2-products. A **generalized coherent hyperdoctrine** over $C$ is a 2-functor 
 $$P: C^{op} \to FPCat$$
