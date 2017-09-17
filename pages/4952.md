@@ -33,6 +33,10 @@ $$
 
 * [[Poincare Lie algebra]]
 
+* [[Ricci tensor]], [[scalar curvature]]
+
+* [[gravity]]
+
 [[!redirects Riemann curvature]]
 [[!redirects Riemannian curvature]]
 
