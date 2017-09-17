@@ -45,7 +45,7 @@ When translating this into the language of modules we cannot use bases so we hav
 
 Suppose there is some identity in $M$ of the form $\sum_i a_i m_i = 0$ with $m_i \in M$ and $a_i \in A$.  Then there is a family $\{n_j\}$ in $M$ such that every $m_i$ can be written in the form $m_i = \sum_j b_{i j} n_n$ and the coefficients $b_{i j}$ have the property that $\sum_i a_i b_{i j} = 0$.
 
-The module $M$ being flat is equivalent to being able always to do this.
+The module $M$ being flat is equivalent to being able always to do this. After some unwinding, it means that a module is flat if and only if it is a [[filtered colimit]] of free modules. 
 
 This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
 
