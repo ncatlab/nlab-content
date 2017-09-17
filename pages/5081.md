@@ -201,6 +201,17 @@ This is a special case of the [[(∞,1)-Grothendieck construction]]. See the sec
 
 =--
 
+The following proposotion asserts that the over-$(\infty,1)$-topos over an $n$-[[truncated]] object indeed behaves like a generalized [[n-groupoid]]
+
++-- {: .un_prop}
+###### Proposition
+
+For $n \in \mathbb{N}$ and $\mathcal{X}$ an [[n-localic (∞,1)-topos]], then the over-$(\infty,1)$-topos $\mathcal{X}/U$ is $n$-localic precisely if the object $U$ is $n$-[[truncated]].
+
+=--
+
+This is ([StrSp, lemma 2.3.16](#StrSp)).
+
 ## Related concepts
 
 * [[over-topos]]
@@ -210,8 +221,13 @@ This is a special case of the [[(∞,1)-Grothendieck construction]]. See the sec
 
 ## References
 
-Section 6.3.5 of 
+The general notion is discussed in section 6.3.5 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+Some related remarks are in 
+
+* [[Jacob Lurie]], _[[Structured Spaces]]_ 
+{#StrSp}
 
 [[!redirects over-(∞,1)-topos]]
