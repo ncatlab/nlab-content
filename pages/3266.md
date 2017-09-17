@@ -5,9 +5,9 @@
 
 ## Idea
 
-**Geometric representation theory** studies [[representation]]s (of various symmetry objects like [[algebraic group|algebraic groups]], [[Hecke algebra]]s, [[quantum groups]], [[quiver]]s etc.) realizing them by [[higher geometry|geometric means]], e.g. by geometrically defined [[actions]], as [[section]]s of various [[bundles]] or [[sheaves]], [[D-modules]], [[perverse sheaf|perverse sheaves]] and so on. 
+**Geometric representation theory** studies [[representation]]s (of various symmetry objects like [[algebraic group|algebraic groups]], [[Hecke algebra]]s, [[quantum groups]], [[quiver]]s etc.) realizing them by [[higher geometry|geometric means]], e.g. by geometrically defined [[actions]], as [[section]]s of various [[bundles]] or [[sheaves]], [[D-modules]], [[perverse sheaf|perverse sheaves]], [[deformation quantization modules]] and so on. 
 
-Typically the underlying spaces for the sheaves involved are [[Grassmanian]]s, [[flag variety|flag varieties]], [[configuration space]]s and the like. Another important tool are cohomological vanishing theorems in appropriate contexts. Some historical landmarks are the [[Borel-Weil theorem]], the [[Borel-Weil-Bott theorem]], [[Kazhdan-Lusztig conjecture]], the [[BBDG decomposition theorem]], the [[Beilinson-Bernstein localization theorem]] and the [[Lusztig conjectures]]. 
+Typically the underlying spaces for the sheaves involved are [[Grassmannian]]s, [[flag variety|flag varieties]], [[configuration space]]s and the like. Another important tool are cohomological vanishing theorems in appropriate contexts. Some historical landmarks are the [[Borel-Weil theorem]], the [[Borel-Weil-Bott theorem]], [[Kazhdan-Lusztig conjecture]], the [[BBDG decomposition theorem]], the [[Beilinson-Bernstein localization theorem]] and the [[Lusztig conjectures]]. 
 
 ## References
 
