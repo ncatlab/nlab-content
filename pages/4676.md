@@ -59,7 +59,7 @@ a bundle 2-gerbe over a manifold $X$ is
 
 Bundle 2-gerbes were briefly introduced in
 
-* [[Alan Carey]], Michael Murray]], B.L. Wang, _Higher bundle gerbes and cohomology classes in gauge theories_ ([arXiv:hep-th/9511169](http://arxiv.org/abs/hep-th/9511169))
+* [[Alan Carey]], [[Michael Murray]], B.L. Wang, _Higher bundle gerbes and cohomology classes in gauge theories_ ([arXiv:hep-th/9511169](http://arxiv.org/abs/hep-th/9511169))
 
 and further developed in
 
