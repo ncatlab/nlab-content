@@ -34,7 +34,9 @@ Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a 
 
 We call the combined hypothesis of this property a __zigzag__; each hypothesis $a_i \sim b_i$ is a __zig__, and each hypothesis $b_i \gt a_{i^+}$ is a __zag__.  To indicate the length of a zigzag, we will count the zigs; the zigzag (eq:zigzag) has $n$ zigs (and $n - 1$ zags).  A typical nondegenerate zigzag with $3$ zigs is shown below; it consists of $3$ overlapping open intervals, each of which belongs to a given open set; we are motivated to conclude that the entire interval from $a_1$ to $b_3$ belongs to that open set.
 
-<center><a href="http://www.codecogs.com/eqnedit.php?latex=\xymatrix%20{%20a_1%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20%26%20%26%20a_2%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20b_1%20\ar%20[l]%20%26%20%26%20a_3%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20b_2%20\ar%20[l]%20%26%20%26%20%26%20b_3}"><img src="http://latex.codecogs.com/gif.latex?\xymatrix%20{%20a_1%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20%26%20%26%20a_2%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20b_1%20\ar%20[l]%20%26%20%26%20a_3%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20b_2%20\ar%20[l]%20%26%20%26%20%26%20b_3}" title="\xymatrix { a_1 \ar @/^1pc/ [rrrr] ^ {\sim} &amp; &amp; &amp; a_2 \ar @/^1pc/ [rrrr] ^ {\sim} &amp; b_1 \ar [l] &amp; &amp; a_3 \ar @/^1pc/ [rrrr] ^ {\sim} &amp; b_2 \ar [l] &amp; &amp; &amp; b_3}" /></a></center>
++-- {: style="text-align:center"}
+[[!include zigzag of real numbers - SVG]]
+=--
 
 Thus the zigzag property for $n = 2$ is property (3), the zigzag property for $n = 1$ is trivial (if $a \sim b$, then $a \sim b$), and the zigzag property for $n \gt 2$ may be proved by [[induction]].  (There is also a sense in which the zigzag property for $n = 0$ is property (1), but I haven\'t quite got my head around that.)
 
@@ -102,7 +104,7 @@ Therefore, each point defines a [[completely prime filter]] on the frame of all 
 
 Given a point $x$ and an open $G$, we say that $x$ __co-belongs__ to $G$, written $x \notin G$, if we never have $a \lt x$, $b \gt x$, and $(a,b) \subseteq G$, which is precisely the [[negation]] of the property that $x \in G$.  We think of this condition as defining a *[[closed subspace|closed]]* set to which $x$ *does* belong.  Notice that $x \notin \bigcup_k G_k$ if and only if $x \notin G_k$ for each $k$, giving the desired behaviour for an arbitrary intersection of closed sets (which corresponds to union of open sets under [[de Morgan duality]]).  We also have that $x \notin \mathbb{R}$ always fails, and $x \notin G \cap H$ if $x \notin G$ or $x \notin H$.  To prove that $x \notin G$ or $x \notin H$ whenever $x \notin G \cap H$, however, we must use [[excluded middle]]; constructively, closed sets don\'t behave well under union.
 
-A related question is whether we can reconstruct $G$ from the set of points which belong to it.  This should be equivalent to the [[fan theorem]], which is classically true and also accepted by [[Brouwer]]\'s school of intuitionism, but refuted in the Russian school in which all real numbers are assumed to be [[computable number|computable]].  (I should check this.)  Arguably, the real lesson of these logical technicalities is that we should remember that opens, not points, are the fundamental concept in a locale.
+A related question is whether we can reconstruct $G$ from the set of points which belong to it.  This should be equivalent to the [[fan theorem]], which is classically true and also accepted by [[Jan Brouwer|Brouwer]]\'s school of intuitionism, but refuted in the Russian school in which all real numbers are assumed to be [[computable number|computable]].  (I should check this.)  Arguably, the real lesson of these logical technicalities is that we should remember that opens, not points, are the fundamental concept in a locale.
 
 
 ## The Heine--Borel theorem
