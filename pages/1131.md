@@ -7,7 +7,7 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
-#### Differential-graded objects
+#### Rational homotopy theory
 +--{: .hide}
 [[!include differential graded objects - contents]]
 =--
