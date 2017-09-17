@@ -53,3 +53,5 @@ Traditionally the [[types]] in geometric homotopy type theory, hence the _geomet
 [[!redirects geometric homotopy type]]
 [[!redirects geometric homotopy types]]
 
+
+[[!redirects geometric homotopy theory]]
