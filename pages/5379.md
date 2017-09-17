@@ -43,8 +43,7 @@ This 72 page article, by [[Hans Baues]], is to be found in the [[Handbook of Alg
 
 ##References
 
-#References
-
+#Linked Reference:
 *  [[Handbook of Algebraic Topology]], ed. I. M.James, Elsevier Science, 1995.
 
 category:reference
