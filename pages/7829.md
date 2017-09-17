@@ -154,6 +154,8 @@ Further discussion of the relation to [[holonomy]] is in
 
 * Xianzhe Dai, Weiping Zhang, _Eta invariant and holonomy, the even dimensional case_, [arXiv:1205.0562](http://arxiv.org/abs/1205.0562)
 
+* _Eta invariant and Selberg  zeta function of odd type over convex co-compact hyperbolic manifolds_ ([pdf](http://www.imar.ro/~sergium/fisiere/Eta-Selberg2501.pdf))
+
 Eta invariants play role in 
 
 * Lisa C. Jeffrey, _Symplectic quantum mechanics and Chern=Simons gauge theory I_,  [arxiv/1210.6635](http://arxiv.org/abs/1210.6635)
