@@ -3,3 +3,8 @@
 * _Homotopy Normal Maps_ (2010) ([arXiv:1011.4708](http://arxiv.org/abs/1011.4708))
 
 * _Descent data of cosimplicial 2-groupoids_, [arXiv:1112.3072](http://arxiv.org/abs/1112.3072)
+
+
+category:people
+
+[[!redirects MatanP]]
