@@ -173,12 +173,7 @@ Related $n$lab entries include [[cotangent complex]], [[Maurer-Cartan equation]]
 
 * E. Sernesi, _An overview of classical deformation theory_, [pdf](http://www.iasbs.ac.ir/faculty/varsaie/sernesi.pdf)
 
-
-In
-
-* [[Jacob Lurie]], [[Deformation Theory]] ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091))
-
-a very setup for deformation theory over any [[(∞,1)-category]] is described. Then as an application the deformation theory of [[E-∞-ring]]s is developed.
+* [[Jacob Lurie]], [[Deformation Theory]] ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091)) -- describes a very setup for deformation theory over any [[(∞,1)-category]] is described. Then as an application the deformation theory of [[E-∞-ring]]s is developed. An application: J. Lurie, _Moduli problems for ring spectra_, [moduli.pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf).
 
 * [[Yan Soibelman]], _Lectures on deformation theory and mirror symmetry_ ([ps](http://www.math.ksu.edu/~soibel/ipam-final.ps))
 
