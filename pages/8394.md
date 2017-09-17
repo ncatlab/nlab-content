@@ -44,18 +44,17 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 ## Related concepts
 
 * [[computation]]
-
 * [[computational trinitarianism]]
-
+* [[computational topology]]
 * [[list of mathematics software]]
 
 ## References
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
+category: software, applications
 
 [[!redirects programming languages]] 
-
 [[!redirects functional programming language]]
 [[!redirects functional programming languages]]
  
