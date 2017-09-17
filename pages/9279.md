@@ -16,7 +16,9 @@
 
 ## Idea
 
-The notion of _hopfish algebra_ is a generalization of that of [[Hopf algebra]] designed to behave better with respect to [[Morita equivalence]] of algebras. It is defined to be a [[sesquialgebra]] which is grouplike in a suitable sense.
+The notion of _hopfish algebra_ is a generalization of that of [[Hopf algebra]] designed to behave better with respect to [[Morita equivalence]] of algebras. It is defined to be a [[sesquialgebra]] (hence a 2-algebra/[[3-module]]) which is grouplike in a suitable sense.
+
+The notion subsumes [[Hopf algebras]] and [[weak Hopf algebras]].
 
 ## Definition
 
