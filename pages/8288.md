@@ -321,11 +321,9 @@ $$
   \,.
 $$
 
-for all $n$. We now construct this by [[induction]] over $n$. 
+for all $n$. We now construct this by [[induction]] over $n$, where we take $\eta^0 \coloneqq 0$.
 
-It is convenient to start at $n = -1$, take $\eta^{\leq 0} \coloneqq 0$ and $f^{\lt 0} \coloneqq 0$. Then the above condition holds for $n = -1$.
-
-Then in the induction step assume that for given $n \in \mathbb{N}$ we have constructed $\eta^{\bullet \leq n}$ satisfying the above condition for $f^{\lt n}$ 
+Then in the induction step assume that for given $n \in \mathbb{N}$ we have constructed $\eta^{\bullet \leq n}$ satisfying the above conditions. 
 
 First define now 
 
@@ -333,7 +331,7 @@ $$
   g^n \coloneqq f^n - d_J^{n-1} \circ \eta^n
 $$
 
-and observe that by induction hypothesis
+and observe that
 
 $$
   \begin{aligned}
@@ -351,10 +349,10 @@ $$
   \,.
 $$
 
-This means that $g^n$ factors through $g^n$ is $X^n / im(d^{n-1}_X) \to J^n$. 
+This means that the [[image]] of $g^n$ is $X^n / im(d^{n-1}_X) \hookrightarrow J^n$. 
 
 Observe then that by exactness of $X^\bullet$ the morphism
-$X^n / im(d^{n-1}_X) \stackrel{d^n_X}{\to} X^{n+1}$ is a [[nLab:monomorphism]]. Together this gives us a diagram of the form
+$X^n / im(d^{n-1}_X) \stackrel{d^n_X}{\to} X^{n+1}$ is a [[monomorphism]]. Together this gives us a diagram of the form
 
 
 $$
@@ -467,7 +465,7 @@ commutes in $\mathcal{A}$ (which makes the full diagram in $Ch^\bullet(\mathcal{
 We construct these $f^\bullet = (f^n)_{n \in \mathbb{N}}$ by [[induction]].
 
 
-To start the induction, the morphism $f^0$ in the last diagram above can be found by the defining [[right lifting property]] of the [[injective object]] $Y^0$ against the [[monomorphism]] $i_X$.
+To start the induction, the morphism $f^0$ in the first diagram above can be found by the defining [[right lifting property]] of the [[injective object]] $Y^0$ against the [[monomorphism]] $i_X$.
 
 Assume then that for some $n \in \mathbb{N}$ component maps $f^{\bullet \leq n}$ have been obtained such that $d^k_Y\circ f^k = f^{k+1}\circ d^k_X$ for all $0 \leq k \lt n$ . In order to construct $f^{n+1}$ consider the following diagram, which we will describe/construct stepwise from left to right:
 
@@ -513,7 +511,7 @@ The morphism $f_\bullet$ in prop. \ref{InjectiveResolutionOfCodomainRespectsMorp
 +-- {: .proof}
 ###### Proof
 
-Given two cochain maps $g_1^\bullet, g_2^\bullet$ making the diagram commute, a [[chain homotopy]] $g_1^\bullet \Rightarrow g_2^\bullet$ is equivalently a [[null homotopy]] $0 \Rightarrow g_2^\bullet - g_1^\bullet$ of the difference, which sits in a square of the form
+Given two chain maps $g_1^\bullet, g^2_\bullet$ making the diagram commute, a [[chain homotopy]] $g_1^\bullet \Rightarrow g_2^\bullet$ is equivalently a [[null homotopy]] $0 \Rightarrow g_2^\bullet - g_1^\bullet$ of the difference, which sits in a square of the form
 
 $$
   \array{
@@ -913,7 +911,7 @@ We discuss how the injective/projective resolutions constructed in _[Existence a
 Write 
 
 $$
-  \mathcal{K}^{+}(\mathcal{A}) \hookrightarrow \mathcal{K}(\mathcal{A})
+  \mathcal{K}^{+,n}(\mathcal{A}) \hookrightarrow \mathcal{K}(\mathcal{A})
 $$ 
 
 for the [[full subcategory]] of the [[homotopy category of chain complexes]] on the one bounded above or bounded below, respectively.
@@ -1525,6 +1523,94 @@ $Ext^1(G,A) \simeq H^2_{Grp}(G,A)$. By the discussion at _[[group extension]]_ i
 
 =--
 
+
+### Cohomology of cyclic groups 
+
+Let $G = C_k$ be a [[cyclic group]] of finite order $k$, with generator $g$. Define special elements in the group algebra $\mathbb{Z}G$: 
+
+$$N = 1 + g + g^2 + \ldots + g^{k-1}$$ 
+
+$$\,$$ 
+
+$$D = g - 1,$$
+
+and denote the corresponding multiplications by these elements by the same letters $N, D \colon \mathbb{Z}G \to \mathbb{Z}G$. 
+
+Then a very simple and useful projective resolution of the trivial $G$-module $\mathbb{Z}$ is based on an exact sequence of $G$-modules 
+
+$$\ldots \stackrel{N}{\to} \mathbb{Z}G \stackrel{D}{\to} \mathbb{Z}G \stackrel{N}{\to} \mathbb{Z}G \stackrel{D}{\to} \mathbb{Z}G \to \mathbb{Z} \to 0$$ 
+
+where the last map $\mathbb{Z}G \to \mathbb{Z}$ is induced from the trivial group homomorphism $G \to 1$. 
+
+It follows from this resolution that the cohomology groups $H^n(C_k, A)$ for a $C_k$-module $A$ are periodic of order 2: 
+
+$$H^{n+2}(C_k, A) \cong H^n(C_k, A)$$ 
+
+for $n \geq 1$. More precisely, 
+
++-- {: .num_prop} 
+###### Proposition 
+For $G = C_k$, we have 
+
+* $H^0(G, A) = A^G = \ker(D) \colon A \to A$, 
+
+* $H^{2 j + 1}(G, A) = \ker(N)/im(D)$ for $j \geq 0$, 
+
+* $H^{2 j}(G, A) = \ker(D)/im(N)$ for $j \geq 1$. 
+=-- 
+
+A well-known calculation in the cohomology of cyclic groups is **Hilbert's Theorem 90**. 
+
++-- {: .num_theorem} 
+###### Theorem 
+Suppose $K$ be a finite Galois extension of a field $k$, with a cyclic Galois group $G = \langle g \rangle$. Regard the multiplicative group $K^\ast$ as a $G$-module. Then $H^1(G, K^\ast) = 0$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $\sigma \in \mathbb{Z}G$, and denote the action of $\sigma$ on an element $\beta \in K$ by exponential notation $\beta^\sigma$. The action of the element $N \in \mathbb{Z}G$ is 
+
+$$\beta^N = \beta^{1 + g + \ldots + g^{n-1}} = \beta \cdot \beta^g \cdot \ldots \beta^{g^{n-1}}$$ 
+
+which is precisely the _norm_ $N(\beta)$. We are to show that if $N(\beta) = 1$, then there exists $\alpha \in K$ such that $\beta = \alpha/g(\alpha)$. 
+By the lemma that follows, the homomorphisms $1, g, \ldots, g^{n-1}: K\ast \to K\ast$ are, considered as functions valued in $K$, $K$-linearly independent. It follows in particular that 
+
+$$1 + \beta g + \beta^{1+g}g^2 + \ldots + \beta{1 + g + \ldots + g^{n-2}}g^{n-1}$$ 
+
+is not identically zero, and therefore there exists $\theta \in K$ such that the element 
+
+$$\alpha = \theta + \beta \theta^g + \beta^{1+g}\theta^{g^2} + \ldots + \beta^{1 + g + \ldots + g^{n-2}}\theta^{g^{n-1}}$$ 
+
+is non-zero. Using the fact that $N(\beta) = 1$, one may calculate that $\beta \alpha^g = \alpha$, as was to be shown. 
+=-- 
+
+The next result may be thought of as establishing "independence of characters" (where "characters" are valued in the multiplicative group of a field): 
+
++-- {: .num_lemma} 
+###### Lemma 
+Let $K$ be a field, let $G$ be a monoid, and let $\chi_1, \ldots, \chi_n \colon G \to K^\ast$ be distinct monoid homomorphisms. Then the functions $\chi_i$, considered as functions valued in $K$, are $K$-linearly independent. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+A single $\chi \colon G \to K^\ast$ obviously forms a linearly independent set. Now suppose we have an equation 
+
+\[a_1 \chi_1 + \ldots + a_n \chi_n = 0\]
+
+where $a_i \in K$, and assume $n$ is as small as possible. In particular, no $a_i$ is equal to $0$, and $n \geq 2$. Choose $g \in G$ such that $\chi_1(g) \neq \chi_2(g)$. Then for all $h \in G$ we have 
+
+$$a_1 \chi_1(h g) + \ldots + a_n \chi_n(h g) = 0$$ 
+
+so that 
+
+\[a_1 \chi_1(g) \chi_1 + \ldots + a_n \chi_n(g)\chi_n = 0.\] 
+
+Dividing equation 2 by $\chi_1(g)$ and subtracting from it equation 1, the first term cancels, and we are left with a shorter relation 
+
+$$(a_2\frac{\chi_2(g)}{\chi_1(g)} - a_2)\chi_2 + \ldots = 0$$ 
+
+which is a contradiction. 
+=-- 
 
 ## Related concepts
  {#RelatedConcepts}
