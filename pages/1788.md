@@ -11,6 +11,8 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 blah
 =--
 
+block me if you can
+
 ***
 
 category: meta
