@@ -1,4 +1,12 @@
 
 * [G+ page](https://plus.google.com/117011416665127979744/posts)
 
+## related $n$Lab pages
+
+* [[3-Lie algebra]]
+
+* [[Nambu mechanics]]
+
+* [[membrane matrix model]]
+
 category: people
