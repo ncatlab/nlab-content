@@ -29,10 +29,22 @@ For $(G, \omega)$ an [[n-plectic geometry]] with [[higher geometric quantization
 
 The corresponding [[Lie n-algebra]] is the _[[Heisenberg Lie n-algebra]]_.
 
+## Properties
+
+### Relation to parameterized WZW models
+
+* [[parameterized WZW model]]
+
 
 ## Related concepts
 
 [[!include geometric quantization extensions - table]]
+
+
+## References
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
+  {#FiorenzaRogersSchreiber13}
 
 
 [[!redirects Heisenberg ∞-group]]
@@ -41,3 +53,6 @@ The corresponding [[Lie n-algebra]] is the _[[Heisenberg Lie n-algebra]]_.
 [[!redirects Heisenberg n-groups]]
 [[!redirects Heisenberg ∞-groups]]
 [[!redirects Heisenberg infinity-groups]]
+
+[[!redirects Heisenberg 2-group]]
+[[!redirects Heisenberg 2-groups]]
