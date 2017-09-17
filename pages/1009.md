@@ -20,9 +20,19 @@
 
 ## Idea 
 
-What is called the _AKSZ formalism_ -- after the initials of its four authors -- Alexandrov, [[Maxim Kontsevich]], [[Albert Schwarz]], Oleg Zaboronsky -- is a technique for constructing [[action functional]]s in [[BV-BRST formalism]]  for [[sigma model]] [[quantum field theories]] whose target space is an [[∞-Lie algebroid]].
+What is called the _AKSZ formalism_ -- after the initials of its four authors -- Alexandrov, [[Maxim Kontsevich]], [[Albert Schwarz]], Oleg Zaboronsky -- is a technique for constructing [[action functional]]s in [[BV-BRST formalism]]  for [[sigma model]] [[quantum field theories]] whose target space is an [[symplectic Lie n-algebroid]] $(\mathfrak{P}, \omega)$.
 
-Examples include the [[Poisson sigma-model]], [[topological Yang-Mills theory]], ...
+The [[action functional]] of AKSZ theory is that of [[∞-Chern-Simons theory]] induced from the [[Chern-Simons element]] that correspondonds to the [[invariant polynomial]] $\omega$.
+
+## Examples
+
+* to a [[Poisson Lie algebroid]] corresponds the [[Poisson sigma-model]];
+
+* the a [[Courant algebroid]] corresponds the [[Courant sigma-model]];
+
+* [[topological Yang-Mills theory]], 
+
+* and so on ...
 
 
 
