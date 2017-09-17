@@ -10,7 +10,9 @@ Related subjects:
 *  etc ...
 
 
-See also the [English Wikipedia article](http://secure.wikimedia.org/wikipedia/en/wiki/Vladimir_Voevodsky) and Voevodsky's [web site](http://www.math.ias.edu/~vladimir/Site3/home.html).
+See also the [English Wikipedia article](http://secure.wikimedia.org/wikipedia/en/wiki/Vladimir_Voevodsky) and Voevodsky's [web site](http://www.math.ias.edu/~vladimir/Site3/home.html). 
+
+Recently he works on the "[univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)" of mathematics. 
 
 
 category: people
