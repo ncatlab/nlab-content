@@ -50,6 +50,7 @@ desc="Sets with functions"
 small="no"
 concrete="yes"
 skeleton="Cardinals"
+abelian=no
 imp_enrich=""
 imp_monoidal="cartesian product"
 imp_adj=""
