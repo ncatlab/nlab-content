@@ -10,22 +10,32 @@
 =--
 
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 
 ## Idea
 
-A **Courant algebroid** -- or better: **Courant Lie 2-algebroid** -- a [[symplectic Lie n-algebroid|symplectic Lie 2-algebroid]] ([Roytenberg](#RoytenbergStructure)):
+A **Courant algebroid**  -- or better: **Courant Lie 2-algebroid** -- is precisely a [[symplectic Lie n-algebroid|symplectic Lie 2-algebroid]] ([Roytenberg](#RoytenbergStructure)):
 
-on its defining [[Chevalley-Eilenberg algebra]] $CE(\Theta)$ exists a graded Poisson bracket $\{-,-\}$ of degree $-2$ and in it a degree 3 element $\Theta$ -- the higher analog of the [[Poisson Lie algebroid|Poisson bivector]] $\pi$ -- such that the differential on $CE(\theta)$ is
+it is a [[L-infinity algebroid|Lie 2-algebroid]] $\mathfrak{P}$ whose [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P})$ is equipped with the structure of a [[Poisson n-algebra|Poisson 3-algebra]] whose Poisson bracket
 
 $$
-  d_{CE(\theta)} = \{\Theta, - \}
+  \{-,-\} : CE(\mathfrak{P})\otimes CE(\mathfrak{P})
+  \to 
+  CE(\mathfrak{P})
+$$
+
+of degree -2 in non-degenerate. 
+
+Therefore the [[differential]] $d_{CE(\mathfrak{P})}$ on $CE(\mathfrak{P})$ has a [[Hamiltonian]] with respect to this bracket in that there is an element $\Theta \in CE(\mathfrak{P})$ such that
+
+$$
+  d_{CE(\mathfrak{P})} = \{\Theta, -\}
   \,.
 $$
 
-In the traditional literature, this Lie 2-algebroid perspective on Courant algebroids is not usually considered. Instead, by the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is thought of as a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
+## History
 
 The concept of Courant algebroids was originally introduced by Irene Dorfman and Ted Courant to study [[geometric quantization]] in the presence of constraints. Later it was considered by Liu, [[Alan Weinstein]] and Xu in the study of [[double Lie algebroid]]s.
 
@@ -46,7 +56,13 @@ Moreover, the way [[Lie algebroid]]s may be expressed in terms of [[Lie-Rinehart
 
 ***
 
-## Standard Courant algebroid and $U(1)$-gerbes
+## Examples
+
+### Lie algebras of compact type
+
+A Courant Lie 2-algebroid over the point is precisely an ordinary [[Lie algebra]] $\mathfrak{g}$ that is equipped with a quadratic and non-degenerate [[invariant polynomial]].
+
+### Standard Courant algebroid and $U(1)$-gerbes
 
 The [[standard Courant algebroid]] of a [[manifold]] $X$ is the one which 
 
@@ -143,6 +159,10 @@ Chris Rogers' paper discusses 2-plectic manifolds, manifolds with nondegenerate 
 * [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_, ([arXiv:1001.0040](http://arxiv.org/abs/1001.0040))
 
 * [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_, ([arxiv:1009.2975](http://arxiv.org/abs/1009.2975))
+
+The relation to [[schreiber:∞-Chern-Simons theory]] is discussed in 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]_
 
 [[!redirects Courant Lie algebroid]]
 [[!redirects Courant Lie algebroids]]
