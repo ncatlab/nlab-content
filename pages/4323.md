@@ -469,6 +469,11 @@ A generalized notion of Thom spectra in terms of [[(∞,1)-module bundles]] is d
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
 
+Discussion of Thom spectra from the point of view of [[(infinity,1)-module bundles]] is in the references cited there and in
+
+* [[Dylan Wilson]], _Thom spectra from the $\infty$ point of view_, 2013 ([pdf](http://www.math.northwestern.edu/~bwill/thom/DWthom4.pdf)) 
+
+
 ### As dual objects in the stable homotopy category
 
 The relation of Thom spectra to [[dualizable objects]] in the [[stable homotopy category]] is originally due to ([Atiyah 61](#Atiyah61)) and
@@ -485,5 +490,7 @@ A brief exposition appears as example 3.7 in
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032), [slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf)).
  {#PontoShulman}
+
+
 
 [[!redirects Thom spectra]]
