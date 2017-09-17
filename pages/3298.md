@@ -288,6 +288,8 @@ We start with the general-abstract definition of Hochschild homology and then lo
 
 ### General abstract
 
+#### Hochschild homology
+
 +-- {: .un_def}
 ###### Definition
 
@@ -299,7 +301,7 @@ More generally, for $K$ any [[∞-groupoid]], the **higher order Hochschild coho
 
 Notice that this defines Hochschild cohomology for [[∞-stack]]s. Usually Hochschild cohomology is formulated in terms of the corresponding [[function algebras on ∞-stacks]] $\mathcal{O}(X)$, under [[Isbell duality]]. The Hochschild cohomology of $X$ then corresponds to what is called the Hochschild _homology_ of $\mathcal{O}(X)$.
 
-The following definition formalizes a special class of case of the above general abstract definition that reproduces the notion of Hochschild homology for [[(∞,1)-algebraic theory|∞-algebra]]s as usually understood.
+The following definition formalizes a special class of cases of the above general abstract definition that reproduces the notion of Hochschild homology for [[(∞,1)-algebraic theory|∞-algebra]]s as usually understood.
 
 +-- {: .un_def}
 ###### Definition
@@ -319,8 +321,10 @@ In the context of the above definition we have
 
 $$
   \mathcal{O} (\mathcal{L}X) \simeq S^1 \cdot \mathcal{O}(X) \in T Alg_\infty
-  \,.
+  \,,
 $$
+
+where on the right we have the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-tensoring</a> of $T Alg_\infty$ over $\infty Grpd$.
 
 This object we call the **Hochschild homology complex** of $\mathcal{O}X$.
 
@@ -340,12 +344,43 @@ Because the [[(∞,1)-Yoneda embedding]] preserves [[(∞,1)-limits]] the limit 
 
 =--
 
+#### Topological chiral homology {#TopologicalChiralHomology}
+
+Notice that the tensoring that gives the Hochschild homology is given by the $\infty$-colimit ove the constant functor
+
+$$
+  K \cdot A \simeq {\lim_\to}_K A
+  \,.
+$$
+
+This generalizes to $\infty$-colimits of functors constant on an algebra, but over a genuine [[(∞,1)-category]] diagram.
+
+Specifically let $X$ be framed $n$-manifold, $A$ an [[little k-cubes operad|En-algebra]] and $D_X$ the [[(∞,1)-category]] whose objects are framed embeddings of disjoint uniions of open discs into $X$ and morphisms are inclusions of these. Let $F_A$ be the functor that assigns $A^{k}$ to an object corresponding to $k$ discs in $X$, and iterated products/units to morphisms 
+
+Then the [[(∞,1)-colimit]]
+
+$$
+  {\lim_\to}_{D_X} F_A
+$$
+
+is called the [[topological chiral homology]] of $X$.
+
+For $A$ an ordinary associatve algebra, hence in particular an $E_1$-algebra, and $X$ the circle, this reproduces the ordinary Hochschild homology of $A$ (see below).
+
+### Specific concrete
+
+We unwind the above generall abstract definition in special classes of examples and find more explicit and more traditional definitions of Hochschild homology.
+
+#### Pirashvili's higher order Hochschild homology
+
+We demonstrate how the above $(\infty,1)$-category theoretic definition of higher order Hochschild homology reproduces the simplicial definition by ([Pirashvili](#Pirashvili)).
+
 +-- {: .un_prop}
 ###### Proposition
 
 Let $T$ be a [[Lawvere theory]] regarded as a 0-[[truncated]] [[(∞,1)-algebraic theory]]. 
 
-Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$ is presented in the [[model structure on simplicial T-algebras]] (if that is a [[simplicial model category]]) by the orinary [[tensoring]] $K \cdot \mathcal{O}(X)$ for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
+Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$ is presented in a [[model structure on simplicial T-algebras]] that is a [[simplicial model category]] by the ordinary [[tensoring]] $K \cdot \mathcal{O}(X)$ for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
 
 =--
 
@@ -359,16 +394,60 @@ The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-cat
 +-- {: .un_remark}
 ###### Remark
 
-For $T$ the theory of ordinary [[associative algebra]]s this reproduces the definition of higher order Hochschild cohomology by ([Pirashvili](#Pirashvili)).
+Notice that we can always use the [[model structure on homotopy T-algebras]] to satisfy the assumption of the above proposition. That is a [[simplicial model category]] for every $T$. 
+
+If however we find a simplicial [[model structure on simplicial T-algebras]] then the coproduct is the tensor product of algebras, and we get explicitly Pirashvili's formulation, as described in the next example.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+For $T$ the theory of ordinary  commutative [[associative algebra]]s over a ring $k$, we have a standard [[simplicial model category]] structure on $CAlg_k^{\Delta^{op}}$ that presents $T Alg_\infty$ (as discussed at [[model structure on simplicial algebras]]).
+
+Observe that the [[coproduct]] of $k$-algebras is the [[tensor product]] over $k$
+
+$$
+  A \coprod B \simeq A \otimes B
+  \,.
+$$
+
+Therefore the [[tensoring]] of a $k$-algebra over a morphism $S \to T$ of [[set]]s is
+
+$$
+  ({S \to T}) \cdot A = A^{\otimes_k |S|} \to A^{\otimes_k |T|}
+$$
+
+where the product in $A$ is used to map several copies of $A$ to a single one, and the unit in $A$ is used to insert copies of $A$.
+
+Let for instance $\Delta[1]/\partial \Delta[1]$ be a simplicial model for the circle. Then for $A$ any algebra we get the simplicial algebra
+
+$$
+  (\Delta[1]/\partial \Delta[1])A =
+  \left(
+     \cdots A\otimes_k A \otimes_k A\stackrel{\overset{\mu \otimes Id\circ \sigma \otimes Id}{\to}}{\stackrel{\overset{\mu \otimes Id}{\to}}{\underset{Id \otimes \mu}{\to}}} A \otimes_k A
+    \stackrel{\overset{\mu}{\to}}{\stackrel{\mu}{\to}}A 
+  \right)
+  \,,
+$$
+
+where
+
+* the single copy of $A$ in degree 0 corresponds to the single 0-cell of $\Delta[1]/\partial \Delta[1]$;
+
+* the two copies of $A$ in degree 2 correspond to the two 1-cells of $\Delta[1]/\partial \Delta[1]$: the unique degenerate 1-cell coming from $\Delta[1]$ and the degenerate 1-cell on the single 0-cell.
+
+The [[Moore complex]] of the simplicial algebra is the ordinary [[chain complex]] $C_\bullet(A,A)$ that computes Hochschild homology of $A$ with coefficients in itself. This is described in detail in the section [The Hochschild chain complex of an associative algebra](#HochschildChainComplex).
+
+Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra whose Moore complex is the complex that ([Pirashvili](#Pirashvili)) uses to define higher order Hochschild homology.
 
 =--
 
 
-### The Hochschild chain complex of an associatve algebra {#HochschildChainComplex}
+#### The Hochschild chain complex of an associative algebra {#HochschildChainComplex}
 
-We define and describe the Hochschild (co)chain complex explicitly, without worrying about where it comes from conceptually. The following sections then discuss the general abstract concepts of which the Hochschild complex is a model.
-
-Throughout, let $A$ be an [[associative algebra]] (over some ring $k$).
+We spell out explicitly the Hochschild chain complex for an 
+[[associative algebra]] (over some ring $k$) with coefficients in a [[bimodule]].
 
 
 +-- {: .un_def #PlainBarComplex}
@@ -481,14 +560,12 @@ The fact that the circle appears here has in fact a deep significance: the Hochs
 =--
 
 
-### As function algebras on derived loop spaces {#FuncsOnDerivedLoopSpace}
+#### By homotopy pushouts {#FuncsOnDerivedLoopSpace}
 
-We discuss how the Hochschild complex is the function algebra on a [[derived loop space]] object in the context of [[derived geometry]].
+We discuss in an alternative way how the Hochschild complex is the function algebra on a [[derived loop space]] object in the context of [[derived geometry]].
 
 
-#### For commutative $k$-Algebras
-
-We first describe the situation for ordinary commutative algebras.
+We describe the situation for ordinary commutative associative algebras.
 
 Let $T$ be the [[Lawvere theory]] of ordiary commutative [[associative algebra]]s over a [[field]] $k$. We shall regard this as an [[(∞,1)-algebraic theory]]. 
 
@@ -701,11 +778,6 @@ This derivation
 =--
 
 
-#### For general $T$-algebras {#LoopSpaceForGeneralTAlgebras}
-
-strategy: for $T$ a general [[monad]] proceed as above but replace the bar complex of a commutative $k$-algebra with the monadic [[bar construction]] of the $T$-algebra $\mathcal{O}(X)$
-
-(...)
 
 ## Properties
 
@@ -953,7 +1025,10 @@ A survey of higher order Hochschild (co)homology and further developments and re
 * [[Grégory Ginot]], _Higher order Hochschild cohomology ([pdf](http://www.institut.math.jussieu.fr/~ginot/papers/Higher-Order-Hochschild-Long.pdf))
 
 
+For references on [[topological chiral homology]] see there.
+
 Interesting wishlists for treatments of Hochschild cohomology are in [this](http://mathoverflow.net/questions/28472/book-on-hochschild-cohomology) MO discussion.
+
 
 
 [[!redirects Hochschild homology]]
