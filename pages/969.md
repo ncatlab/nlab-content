@@ -19,7 +19,7 @@ In general, [[localization]] is a process of adding formal inverses to an algebr
 
 ### Motivation
 
-A classic example is the localization of a commutative [[ring]]: we can 'localize the ring $\mathbb{Z}$ at the prime $2$' and obtain the ring $\mathbb{Z}[\frac{1}{2}]$, or localize it at all primes and obtain its field of fractions: the field $\mathbb{Q}$ of [[rational number|rational numbers]].
+A classic example is the [[localization of a commutative ring]]: we can 'localize the ring $\mathbb{Z}$ at the prime $2$' and obtain the ring $\mathbb{Z}[\frac{1}{2}]$, or localize it at all primes and obtain its field of fractions: the field $\mathbb{Q}$ of [[rational number|rational numbers]].
 
 The reason for the term 'localization' becomes more apparent when we consider examples of a more vividly geometric flavor.  
 
@@ -155,6 +155,13 @@ See also [[localization of a simplicial model category]].
 
 * [[localizing subcategory]]
 
+* [[simplicial localization]]
+
+* [[Bousfield localization of model categories]]
+
+* [[localization of a simplicial model category]]
+
+* [[localization of a ring]]
 
 ## References
 
@@ -176,6 +183,11 @@ A __terminological discussion__ prompted by question in which sense "localizatio
 [[!redirects localizations]]
 [[!redirects localisation]]
 [[!redirects localisations]]
+
+[[!redirects localization of a category]]
+[[!redirects localizations of a category]]
+[[!redirects localizations of categories]]
+
 
 [[!redirects localization functor]]
 [[!redirects localization functors]]
