@@ -15,11 +15,16 @@
 
 ## Examples
 
-* **For [[semisimple Lie algebra]] tagets**
+* **For [[semisimple Lie algebra]] targets**
 
   * [[Chern-Simons theory]]
 
       * [[Dijkgraaf-Witten theory]]
+
+
+* **For [[2-group]] targets**
+
+  * [[Crane-Yetter model]]
 
 * **For [[Lie 2-algebra]] targets**
 
