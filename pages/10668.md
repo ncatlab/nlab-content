@@ -27,7 +27,7 @@ In ([[Spectral Schemes|Lurie, Spectral Schemes]]) this is called "[[spectral geo
 
 An [[E-∞ scheme]] in this sense is a [[structured (∞,1)-topos]] in $E_\infty$geometry.
 
-## Refereces
+## References
 
 The basic definitions are in
 
