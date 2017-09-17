@@ -4,9 +4,13 @@
 
 * _Algebraic K-theory_, Kluwer Acad. Publishers, Amsterdam, 1995, 440 pages.
 
-Hvedri Inassaridze was (is?) also active in politics. His son Niko (Nick) Inassaridze ([homepage](http://www.rmi.ge/~inas/)) is also a mathematician (who studied extensively a notion of [nonabelian tensor product](http://www.bangor.ac.uk/~mas010/nonabtens.html) useful in nonabelian homological algebra). 
+He is the founding editor of the Journal of Homotopy and Related Structures [(JHRS)](http://tcms.org.ge/Journals/JHRS/).
 
-[homepage](http://www.rmi.ge/~hvedri)
+Hvedri Inassaridze was (is?) also active in politics. 
+
+His son [[Niko Inassaridze|Niko (Nick) Inassaridze]]  is also a mathematician (who has studied extensively a notion of [nonabelian tensor product](http://www.bangor.ac.uk/~mas010/nonabtens.html) useful in nonabelian homological algebra). 
+
+*  [homepage](http://www.rmi.ge/~hvedri)
 
 
 category: people
