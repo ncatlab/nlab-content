@@ -70,11 +70,6 @@ The $JB$-algebra $A$ is a __$JBW$-algebra__ if it is unital and if its [[underly
 See [[von Neumann algebra]] for motivation of the predual.  (Is it unique?  Should be!)
 
 
-## Properties
-
-Coming ... but basically, $JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algebras have nicer properties like those of von Neumann algebras.
-
-
 ## Examples
 
 The main example of a $JB$-algebra is the algebra of [[self-adjoint operator]]s in a $C^*$-[[C-star-algebra|algebra]].  For a $JBW$-algebra, try the algebra of self-adjoint operators in a [[von Neumann algebra]].
@@ -82,6 +77,11 @@ The main example of a $JB$-algebra is the algebra of [[self-adjoint operator]]s 
 In particular, the algebra of self-adjoint operators on a [[Hilbert space]] is a $JBW$-algebra.  (Note that a real Hilbert space and its complexification have the same algebra of self-adjoint operators.)
 
 The [[trivial ring|trivial algebra]] (which is the algebra of self-adjoint operators on the zero Hilbert space) is a $JBW$-algebra, although it might not fit definitions by authors who mistakenly require ${\|1\|} = 1$.
+
+
+## Properties
+
+Coming ... but basically, $JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algebras have nicer properties like those of von Neumann algebras.
 
 
 ## References
