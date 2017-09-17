@@ -456,3 +456,6 @@ The observation then re-appears independently in
 
 [[!redirects twisted vector bundle]]
 [[!redirects twisted vector bundles]]
+
+[[!redirects twisted unitary bundle]]
+[[!redirects twisted unitary bundles]]
