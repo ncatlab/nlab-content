@@ -117,6 +117,8 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[CFT]], [[2d CFT]], [[perturbation theory]]
 
+    * [[Gepner model]], [[flop transition]]
+
   * [[world sheets for world sheets]]
 
 * [[string scattering amplitude]]
