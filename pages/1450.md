@@ -170,7 +170,7 @@ This is discussed at
 
 The idea of axiomatizing [[differential geometry]] using [[topos]] theory originates in 
 
-* [[Bill Lawvere]], _Categorical dynamics_, lecture  (Chicago 1967) ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
+* [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967) ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
 
 The first model for the axioms presented there served to demonstrate that the theory is non-empty, but was hard to work with. Much of the later work was concerned with refining the model-building. For instance
 
