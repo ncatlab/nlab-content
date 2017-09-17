@@ -19,7 +19,7 @@ We should limit to books which we can really recommend, either by their special 
 * Robin Hartshorne, _Algebraic geometry_, Springer
 * Qing Liu, _Algebraic geometry and arithmetic curves_, 592 pp. Oxford Univ. Press 2002 
 * D. Eisenbud, J. Harris, _The geometry of schemes_, Springer Grad. Texts in Math.
-* [[David Mumford]], _Red book of varieties and schemes_
+* [[David Mumford]], _Red book of varieties and schemes_ (cf. also unfinished sequel notes for the later part of Mumford's course, coauthored with Oda, [ch. 1-6 pdf](http://www.math.upenn.edu/~chai/624_08/mumford-oda_chap1-6.pdf), [ch. 7-8 pdf](http://www.math.upenn.edu/~chai/624_08/mumford-oda_chap7-8.pdf))
 * Amnon Neeman, _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__ 
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 
 * Ravi Vakil's Berkeley [course notes](http://math.stanford.edu/~vakil/0708-216)
@@ -82,7 +82,7 @@ With the collaboration of C. H. Clemens and A. Corti. Translated from the 1998 J
 
 ## Cohomology theories for schemes
 
-* J. Milne, _Etale cohomology_
+* J. S. Milne, _Etale cohomology_, Princeton Univ. Press 1980, [gbooks](http://books.google.com/books?id=uAT4T4BXC50C&lpg=PP1&dq=milne%20etale%20cohomology)
 * P. Berthelot, A. Ogus, _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ISBN0-691-08218-9
 * ...list basic literature on [[motive]]s 
 * [[Marc Levine]], _Mixed motives_, Math. Surveys and Monographs __57__, Amer. Math. Soc.  1998, free [pdf](http://www.ams.org/online_bks/surv57/surv57.pdf)
@@ -93,7 +93,7 @@ With the collaboration of C. H. Clemens and A. Corti. Translated from the 1998 J
 
 These are advanced books or long foundational expositions.
 
-* Knudsen, _Algebraic spaces_
+* D. Knutson, _Algebraic spaces_, Springer 1971
 * [[Ofer Gabber]], Lorenzo Ramero, _Almost ring theory_, arxiv and published
 * [[Jacob Lurie]], _Derived algebraic geometry_, several issues, arxiv
 * [[Bertrand Toen]], [[Gabrielle Vezzosi]], HAG and DAG
@@ -108,13 +108,14 @@ Things like Groebner bases, combinatorical methods with toric varieties etc.
 * David A. Cox, John B. Little, Don O'Shea, _Ideals, varieties, and algorithms_
 
 
-## Historical but now outdated
+## Historically important but now outdated
 
 While many of these fine books are still pleasure for some readers, they do not capture the modern viewpoint and have maybe too old notation to be regularly used. But one should be aware of them, and of sometimes unique material exposed there. 
 
 * W. V. D. Hodge, Daniel Pedoe, _Methods of algebraic geometry_, 3 vols. (see review by Coxeter in Bull. Amer. Math. Soc. __55__, 3, part 1 (1949), 315-316, [euclid](http://projecteuclid.org/euclid.bams/1183513548))
 * F. Severi, Vol. I (1942): Serie, sistemi d'equivalenza e correspondenze algebriche sulle varieta algebriche. Vol. I I (1958) and I I I (1959): Geometria dei sistemi algebrici sopra una superficie e sopra una varieta algebrica.
 
+category: reference
 
 [[!redirects books in algebraic geometry]]
 [[!redirects book in algebraic geometry]]
