@@ -302,7 +302,7 @@ $(J^1 E)^* \cong \Lambda_1^{n+1} T^* E$, as desired.
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #CanonicalFormInGoodCoordinates}
 ###### Remark
 
 In practice it is better to use the [[pullback of differential forms|pulled back]] [[volume form]] $\pi^* \vol$ as a substitute for the coordinate-dependent $n+1$-form $\mathbf{d}q^1 \wedge \cdots \wedge \mathbf{d}q^{n+1}$ on $E$.  This gives another [[basis]] of
@@ -342,7 +342,99 @@ $$
 
 ### Examples
 
+#### Free field theory
+ {#FreeFieldTheory}
+
+We write out the multisymplectic geometry corresponding to a [[free field theory]].
+
+Let $\Sigma = (\mathbb{R}^{d-1;1}, \eta)$ be [[Minkowski spacetime]].
+Write the canonical [[coordinates]]
+
+$$
+  \sigma^i \;\colon\; \Sigma \longrightarrow \mathbb{R}
+  \,.
+$$
+
+Let $(X,g)$ be a [[Riemannian manifold]]. For simplicity of notation we assume that $X \simeq \mathbb{R}^k$ is a [[vector space]], too. Write its canonical coordinates as
+
+$$
+  \phi^a \;\colon\; X \longrightarrow \mathbb{R}
+  \,.
+$$
+
+Let $X \times \Sigma \to \Sigma$ be the [[field bundle]].
+Its first [[jet bundle]] then has canonical coordinates
+
+$$
+  \{ \sigma^i \}, \{\phi^a\}, \{\phi^a_{,i}\} \;\colon\; j_\infty^1(\Sigma \times X) \longrightarrow X
+  \,.
+$$
+
++-- {: .num_defn}
+###### Definition
+
+
+The [[local Lagrangian]] for [[free field theory]] with this [[field bundle]] is
+
+$$
+  L  
+   \coloneqq
+  \left(
+     \frac{1}{2} g^{i j} \eta_{a b} \phi^a_{,i} \phi^a_{,j}
+  \right)
+  \wedge
+  \mathbf{d}\sigma^1 \wedge \cdots \wedge \mathbf{d}\sigma^d
+  \,.
+$$
+
+=--
+
+The [[canonical momenta]] are
+
+$$
+  \begin{aligned}
+    p_a^i \wedge \mathbf{d}\sigma^1 \wedge \cdots \wedge \mathbf{d}\sigma^d
+      & \coloneqq 
+    \frac{\partial}{\partial u^a_i} L
+    \\
+      & =
+    \left(
+       g^{i j} \eta_{a b} \phi^a_{,j}
+    \right)
+    \wedge
+    \mathbf{d}\sigma^1 \wedge \cdots \wedge \mathbf{d}\sigma^d    
+  \end{aligned}
+$$
+
+So the boundary term $\theta$ in [[variational calculus]], 
+(see [this remark](covariant+phase+space#CanonicalThetaDensityInLocalCoordinates) at _[[covariant phase space]]_ ) is
+
+$$
+  \begin{aligned}
+    \mathbf{d}u^a 
+     \wedge
+    \iota_{\partial_i}
+    \left(
+      \frac{\partial}{\partial \phi^a_{,i}}L 
+    \right)
+     & =  
+    p^i_a \wedge (\iota_{\partial_{\sigma^i}} vol) \wedge \mathbf{d}u^a
+    \\
+    & =  p^i_a \wedge dq_i^a
+    \,,
+  \end{aligned}
+$$
+
+where in the last line we adopted the notation of remark \ref{CanonicalFormInGoodCoordinates}.
+
+This shows that the canonical [[multisymplectic form]]
+is the "covariant symplectic potential current density" 
+which is induced by the free field Lagrangian.
+
+
 #### Bosonic particle propagating on a manifold
+
+> scratch
 
 Ordinary point [[particle]] [[mechanics]] on a [[manifold]] $X$ involves [[trajectories]] $\mathbb{R} \to X$ in $X$, with parameter space $\Sigma = \mathbb{R}$ the [[real line]], thought of as the abstract "[[worldline]]" of the particle.
 
@@ -351,7 +443,7 @@ Ordinary point [[particle]] [[mechanics]] on a [[manifold]] $X$ involves [[traje
 
 * target space: $X$, some [[manifold]] -- **spacetime**;
 
-* configuration bundle: $(E \to \mathbb{E}) = (\mathbb{R}\times X \to \mathbb{R})$;
+* configuration bundle: $(E \to \mathbb{R}) = (\mathbb{R}\times X \to \mathbb{R})$;
 
 * jet bundle: $J^1 E = \mathbb{R} \times T X$ .
 
