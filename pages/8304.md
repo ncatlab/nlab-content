@@ -1,14 +1,64 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
 
-## Definition for groups
+#Contents#
+* table of contents
+{:toc}
 
-For $G$ a [[group]], its **abelianization** is the [[quotient]] of $G$ by its [[commutator subgroup]]:
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+For $G$ a [[group]], its **abelianization** $G^{ab} \in $ [[Grp]] is the [[quotient]] of $G$ by its [[commutator subgroup]]:
 
 $$
   G^{ab} \coloneqq G/[G,G]
   \,,
 $$
 
-This is an [[abelian group]].
+=--
+
+The abelianization is an [[abelian group]]. Indeed, it is the [[universal construction|universal]] abelian group induced by $G$, in the following sense:
+
++-- {: .num_prop }
+###### Proposition
+
+Abelianization extends to a [[functor]] $(-)^{ab} \colon $ [[Grp]] $\to$ [[Ab]] and this functor is [[left adjoint]] to the [[forgetful functor]] $U \colon Ab \to Grp$ from abelian groups to group. 
+
+=--
+
+Hence abelianization is the _[[free construction]]_ of an abelian group from a group.
+
+## Examples
+
+### Free groups
+
+A [[free abelian group]] on a set $S$ is the abelianization of the [[free group]] on $S$.
+
+Hence if $F \colon Set \to Grp$ is the [[free group]]-functor and $F_{Ab} \colon Set \to Ab$ is the [[free abelian group]] functor, then 
+
+$$
+  \array{
+    Set &&\stackrel{F_{ab}}{\to}&& Ab
+    \\
+    & {}_{\mathllap{F}}\searrow && \nearrow_{\mathrlap{(-)^{ab}}}
+    \\
+    && Grp
+  }
+  \,.
+$$
 
 [[!redirects abelianizations]]
