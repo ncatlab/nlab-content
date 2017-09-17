@@ -16,3 +16,5 @@ A morphism $h:M\to N$ of Poisson manifolds is a morphism of smooth manifolds suc
 [[!redirects Poisson manifolds]]
 [[!redirects Poisson bivector]]
 [[!redirects Poisson structure]]
+
+[[!redirects Poisson bracket]]
