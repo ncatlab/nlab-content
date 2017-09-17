@@ -141,11 +141,13 @@ For handling just groupoids exclusively their description in terms of Kan comple
 
 [[!include homotopy n-types - table]]
 
-* [[topological groupoid]], [[Lie groupoid]]
+* [[groupoid action]], [[groupoid-principal bundle]]
 
-* [[Hopf algebroid]]
+* [[topological groupoid]], [[Lie groupoid]], [[smooth groupoid]]
 
 * [[stack]], [[geometric stack]]
+
+* [[Hopf algebroid]]
 
 
 ## References
