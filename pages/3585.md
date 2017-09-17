@@ -287,7 +287,7 @@ It is possible to use hyperfunctions as an introduction to generalized functions
 
 * Urs Graf: _Introduction to hyperfunctions and their integral transforms_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05662238&format=complete))
 
-
+category: analysis
 [[!redirects hyperfunction]]
 [[!redirects hyperfunctions]]
 [[!redirects Sato's hyperfunction]]
