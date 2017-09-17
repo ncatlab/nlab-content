@@ -374,8 +374,11 @@ for $A$ a $\mathfrak{g}$-[[infinity-Lie algebroid valued differential form|value
 
 
 ## Superstring field theory
+ {#SuperstringFieldTheory}
 
-For the moment see _[[WZW-type superstring field theory]]_ .
+The maybe most wide-spread attempt to generalize the above to [[superstring]] field theory replaces the Chern-Simons-type action with a [[Wess-Zumino-Witten theory]]-type action, see at _[[WZW-type superstring field theory]]_ .
+
+A formulation of superstring field theory more on line with the Chern-Simons type bosonic theory is proposed in ([Jurco-Muenster 13](#JurcoMuenster13)). See also the introduction there for a survey of the literature
 
 
 
@@ -465,6 +468,7 @@ and further detailed analysis is in
 
 
 ### Superstring field theory
+ {#ReferencesSuperstringFieldTheory}
 
 Original articles include
 
@@ -475,6 +479,13 @@ Original articles include
 Reviews include
 
 * [[Nathan Berkovits]], _Review of open superstring field theory_ , ([arXiv:hep-th/0105230](http://arxiv.org/abs/hep-th/0105230))
+
+An modern [[operad|operadic]]-formulation is in 
+
+* [[Branislav Jurco]], Korbinian Muenster, _Type II Superstring Field Theory: Geometric Approach and Operadic Description_ ([arXiv:1303.2323](http://arxiv.org/abs/1303.2323))
+ {#JurcoMuenster13}
+
+See also the introduciton there for a survey of the literature.
 
 ### Relation to $A_\infty$- and $L_\infty$-algebras
  {#ReferencesHomotopyAlgebra}
