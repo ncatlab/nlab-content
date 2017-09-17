@@ -989,7 +989,7 @@ For instance something analogous to the notion of [[infinity-connected (infinity
 
 The characterization of infinitesimal extensions and formal smoothness by adjoint functors is considered in 
 
-* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([pdf](http://nlab.mathforge.org/nlab/files/KontsevichRosenbergNCSpaces.pdf), [ps](http://www.mpim-bonn.mpg.de/preblob/2331), [dvi](http://www.mpim-bonn.mpg.de/preblob/2303))
  {#KontsevichRosenbergSpaces}
 
 in the context of _[[Q-categories]]_ .
