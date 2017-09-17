@@ -13,5 +13,6 @@
 category: people
 
 [[!redirects Jean Bénabou]]
+[[!redirects J. Bénabou]]
 [[!redirects Benabou]]
 [[!redirects Bénabou]]
