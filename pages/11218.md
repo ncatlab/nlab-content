@@ -53,3 +53,5 @@
 * [[persistent homology]], [[effective homology]]
 
 * [[computable physics]]
+
+* [[Church-Turing thesis]]
