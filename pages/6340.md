@@ -111,6 +111,11 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
 ## References
 
+Original articles include
+
+* [[Michael Atiyah]], [[Isadore Singer]], _Index theory for skew-adjoint Fredholm operators_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/askew.pdf))
+
+
 A standard textbook account in the context of [[KK-theory]] is in section 24.1 of 
 
 * [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
@@ -129,6 +134,7 @@ An explicit formula in [[Chern-Weil theory]] for indices of differential operato
 
 * [[Thomas Schick]], _$L^2$-index, KK-theory, and connections_, New York J. Math. 11 (2005) ([arXiv:math/0306171](http://arxiv.org/abs/math/0306171))
  {#Schick05}
+
 
 [[!redirects indices]]
 
