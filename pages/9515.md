@@ -25,9 +25,7 @@ A variant of [[algebraic K-theory]] for [[operator algebras]] ([[Banach algebras
 
 ## Related concepts
 
-* [[KK-theory]]
-
-* [[E-theory]]
+[[!include noncommutative motives - table]]
 
 ## References
 
