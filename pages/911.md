@@ -15,7 +15,11 @@
 
 ## Idea
 
-For a functor $F : C \to Set$, we may think of $Set$ as the [[classifying space]] of "[[Set]]-bundles;" see [[generalized universal bundle]].  The category of elements of $F$ is, in this sense, the [[Set]]-bundle classified by $F$.  It comes equipped with a projection to $C$ which is a [[Grothendieck fibration|discrete fibration]], and provides an equivalence between presheaves and discrete fibrations.
+The _category of elements_ of a [[functor]] $F : C \to $ [[Set]] is a [[category]] $el(F) \to C$ sitting over the [[domain]] [[category]] $C$, such that the [[fiber]] over an [[object]] $c \in C$ is the set $F(c)$. 
+
+This is a special case of the [[Grothendieck construction]].
+
+We may think of [[Set]] as the [[classifying space]] of "[[Set]]-bundles;" see [[generalized universal bundle]].  The category of elements of $F$ is, in this sense, the [[Set]]-bundle classified by $F$.  It comes equipped with a projection to $C$ which is a [[Grothendieck fibration|discrete fibration]], and provides an equivalence between presheaves and discrete fibrations.
 
 Forming a category of elements can be thought of as "unpacking" a [[concrete category]]. For example, consider a concrete category $C$ consisting of two objects $X,Y$ and two non-trivial morphisms $f,g$
 
@@ -92,18 +96,15 @@ This is intended to illustrate the concept that constructing a category of eleme
 
 ### Action Groupoid
 
-Given a [[vector space]] $V$, a group $G$, and a [[representation]] 
-
-$$\rho:\mathbf{BG}\to Vect,$$
-
-denote the image of $\rho$ by
-
-$$V\nearrow G.$$
-
-The [[action groupoid]] $V//G$ is then given by
-
-$$V//G=Explode(V\nearrow G).$$
+In the case that $C = \mathbf{B}G$ is the [[delooping]] [[groupoid]] of a [[group]] $G$, a functor $\rho : \mathbf{B}G \to Set$ is a [[permutation representation]] $V$ of $G$ and its category of elements is the corresponding [[action groupoid]] $V//G$.
 
 
+## Related concepts
+
+* **category of elements**
+
+* [[Grothendieck construction]]
+
+* [[(∞,1)-Grothendieck construction]]
 
 [[!redirects Exploding a Category]]
