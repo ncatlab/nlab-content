@@ -8,6 +8,9 @@ If you need it, here is my email: david dot roberts (at symbol) adelaide dot edu
 
 ## Papers ##
 
+* _Mapping groupoids of Lie groupoids and the bundle 
+gerbe caloron transform_, joint with Raymond Vozzo.
+
 * _$Con(ZF+\neg WISC)$_, [pdf](http://ncatlab.org/nlab/files/notWISC2.pdf), (2012) (Please note that Corollary 12 is not yet proved true as stated. What _is_ true is that WISC is independent of [[ZFA]], as long as one allows a [[proper class]] of [[urelement|atoms]].)
 
 * _The universal simplicial bundle is a simplicial group_, [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). Accepted for publication in the [New York Journal of Mathematics](http://nyjm.albany.edu/nyjm.html).
