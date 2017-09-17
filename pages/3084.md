@@ -17,4 +17,5 @@ Observe that the definition of equivariant sheaf only depends on the [[action gr
 
 The appropriate notion of the "[[equivariant derived category]]" is in general not equal to the derived category of the [[abelian category]] of equivariant sheaves; one needs to resolve appropriately.  
 
+category: sheaf theory
 [[!redirects equivariant sheaves]]
