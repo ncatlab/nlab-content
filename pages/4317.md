@@ -1,8 +1,18 @@
-## The idea ##
 
-A [[rig]] is a 'ring without negatives'.  [[categorification|Categorifying]] this notion, we obtain various notions of [[2-rig]], one of which is the notion of 'rig category'.  A typical example would be the [[groupoid]] of [[finite set|finite sets]] and [[bijection|bijections]], with disjoint union playing the role of addition and the ordinary product of sets playing the role of multiplication.  This rig category can be thought of as a categorification of the natural numbers.  Note that in this example, disjoint union is _not_ the categorical coproduct, and product of sets is _not_ the categorical product.  
+# Rig categories
+* table of contents
+{: toc}
 
-So, a **rig category** $C$ is a category with a [[symmetric monoidal category|symmetric monoidal]] structure $(C,\oplus,0)$ for addition and a [[monoidal category|monoidal]] structure $(C, \otimes, I)$ for multiplication, together with left and right distributivity natural isomorphisms
+## Idea
+
+Recall that a [[rig]] is a '[[ring]] without negatives': a [[monoid object]] in the category of [[commutative monoids]] with the usual [[tensor product]].  [[categorification|Categorifying]] this notion, we obtain various notions of [[2-rig]], one of which is the notion of 'rig category'.
+
+A typical example would be the [[groupoid]] of [[finite set|finite sets]] and [[bijection|bijections]], with [[disjoint union]] playing the role of addition and [[cartesian product]] playing the role of multiplication.  This rig category can be thought of as a categorification of the set of [[natural numbers]].  Note that in this example, disjoint union is _not_ the categorical [[coproduct]], and product of sets is _not_ the categorical [[product]] (because we are working in the *groupoid* of finite sets).  
+
+
+## Definition
+
+A **rig category** $C$ is a category with a [[symmetric monoidal category|symmetric monoidal]] structure $(C,\oplus,0)$ for addition and a [[monoidal category|monoidal]] structure $(C, \otimes, I)$ for multiplication, together with left and right distributivity natural isomorphisms
 
 $$ d_\ell : x \otimes (y \oplus z) \to 
 (x \otimes y) \oplus (x \otimes z) $$
@@ -18,11 +28,15 @@ satisfying a set of coherence laws worked out by Kelly and Laplaza:
 
 Note that these authors used the term 'ring category'.  We take the liberty of switching to 'rig category' because it is typical for these to lack additive inverses.
 
-While a rig can have the [[extra property]] of being commutative, a rig category can have the [[extra structure]] of being [[braided monoidal category|braided]] and may then have the further property of being [[symmetric monoidal category|symmetric]].
+While a rig can have the [[extra property]] of being [[commutative ring|commutative]], a rig category can have the [[extra structure]] of being [[braided monoidal category|braided]] and may then have the further property of being [[symmetric monoidal category|symmetric]].
+
+
+## Baez's conjecture
 
 +-- {: .un_thm}
 ###### Conjecture ([[John Baez]])
-Using the correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the initial symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here.   In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, _up to 2-isomorphism_.
+
+Using the correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the [[initial object|initial]] symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here; see [[2-limit]].  In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, up to an [[equivalence]] which is itself unique up to an [[isomorphism]] which is actually unique (up to [[equality]]).
 =--
 
 
