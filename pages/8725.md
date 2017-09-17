@@ -38,6 +38,10 @@ An [[∞-group]] $G$ is _braided_ if it is equipped with the following equivalen
   
 =--
 
+## Examples
+
+See the examples at _[[braided 2-group]]_, _[[braided 3-group]]_.
+
 ## Related concepts
 
 * [[∞-group]], [[k-tuply groupal n-groupoid]]
