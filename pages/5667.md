@@ -416,6 +416,8 @@ $$
 
 * The [[Novikov conjecture]] has been verified in many cases using KK-theory. (see for instance [Roseberg 80](#Rosernberg80)).
 
+* The [[Atiyah-Singer index theorem]] is naturally formutaled in KK-theory/[[E-theory]]. (See ([Higson-Roe](#HigsonRoe))).
+
 ## Related concepts
 
 * [[operator K-theory]]
@@ -521,6 +523,11 @@ Discussion in the context of [[stable homotopy theory]] and [[E-theory]] is in
 
 * [[Jonathan Rosenberg]], _Group C*-algebras and Topological Invariants_, Proc. Conf. in Neptun, Romania, 1980, Pitman (London, 1985)
  {#Rosernberg80}
+
+### In the context of the Atiyah-Singer index theorem
+
+* [[Nigel Higson]], [[John Roe]], _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ (2004) ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
+ {#HigsonRoe}
 
 ### For convolution algebras and In geometric quantization
 
