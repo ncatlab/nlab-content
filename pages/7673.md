@@ -68,7 +68,7 @@ where $C^I$ is the [[arrow category]] of $C$, and such that
 +-- {: .num_remark}
 ###### Remark
 
-We do not ask that $C^I\to C$ be a [[Grothendieck fibration|fibration]] (that would require $C$ to have all pullbacks), only that the *particular* morphisms in the image of $E$ are cartesian.
+We do not ask that $C^I \to C$ be a [[Grothendieck fibration|fibration]] (that would require $C$ to have all pullbacks), only that the *particular* morphisms in the image of $E$ are cartesian.
 
 =--
 
