@@ -74,9 +74,11 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[stable homotopy theory]]
 
+* [[telescopic complexity]]
+
 * [[Morava K-theory]]
 
-  * [[E-∞ field]]
+  * [[∞-field]]
 
   * [[integral Morava K-theory]]
 
