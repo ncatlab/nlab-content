@@ -9,7 +9,7 @@ The instructions are at [this Forum discussion](http://www.math.ntnu.no/~stacey/
 The announcement of the change and the reasons for it have been [archived](http://ncatlab.org/nlab/revision/2009+September+changes/397).
 
 
-## 2010-03-27
+## 2010-03-21
 
 * _Rafael_: Commented on [[database of categories]]. I will continue to log my changes here and i don't even feel to argue about it.
 
