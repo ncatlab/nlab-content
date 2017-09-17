@@ -27,11 +27,11 @@ These are spaces used in $G$-[[equivariant homotopy theory]].
 
 ## Properties
 
-It seems that the collection fo $G$-CW-complexes has a [[full sub-(infinity,1)-category|full embedding]] into the [[(infinity,1)-presheaves]] on the [[orbit category]] $Orb(G)$.
+It seems that the collection of $G$-CW-complexes has a [[full sub-(infinity,1)-category|full embedding]] into the [[(infinity,1)-presheaves]] on the [[orbit category]] $Orb(G)$.
 
 ## References
 
-* [[Peter May]], section I.3 of _Equivariant homotopy and cohomology theorty_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf
+* [[Peter May]], section I.3 of _Equivariant homotopy and cohomology theory_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf
 ))
 
 * Jay Shah, _Equivariant algebraic topology_
