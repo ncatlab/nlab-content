@@ -433,6 +433,11 @@ A review of Reedy model structures is in section A.2.9 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
+Discussion of functoriality of Reedy model structures is in 
+
+* [[Clark Barwick]], _On Reedy Model Categories_ ([arXiv:0708.2832](http://arxiv.org/abs/0708.2832))
+ {#Barwick}
+
 The discussion of enriched Reedy model structures is in
 
 * Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
@@ -440,10 +445,13 @@ The discussion of enriched Reedy model structures is in
 
 The main statement is theorem 4.7 there.
 
+
 The model structure on towers is discussed in section 6 of 
 
 * [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
  {#GoerssJardine}
+
+
 [[!redirects Reedy model category]]
 [[!redirects Reedy model categories]]
 
