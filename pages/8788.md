@@ -45,6 +45,10 @@ and is highlighted in the general context of [[geometric quantization]] in
 
   (Section 6.8 "Geometric quantization as a push-forward")
 
+and the last section of 
+
+* _Stable complex and $Spin^c$-structures_ ([[StableComplexSpinC.pdf:file]])
+
 Further developments are in
 
 * Ana Cannas Da Silva, Yael Karshon, and Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_, Trans. Amer. Math. Society 352(2) (1999), 525-552. ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
