@@ -192,6 +192,12 @@ When it was realized that lifts of the structure maps $X \to \mathcal{B}O$ of th
 
 Following some inquiries by [[Jim Stasheff]] and confirmed in private email by [[Haynes Miller]] it seems that the first one to propose the term _$String$ group_ for the group known to topologists as $\Omega (\mathcal{B}O\langle 8\rangle)$ was [[Haynes Miller]].
 
+A model of the string group by [[local nets]] of fermions is discussed in
+
+* [[Stefan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) ([pdf](http://web.me.com/teichner/Math/Surveys_files/MPI.pdf))
+
+Many more models exist by now in terms of [[geometric realization]] of a model for the [[string 2-group]]. See there for more references.
+
 A good review is in the introduction of
 
 * [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
