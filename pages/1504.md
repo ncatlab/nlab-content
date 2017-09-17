@@ -220,7 +220,7 @@ $$
 ### As an $\infty$-Chern-Simons theory
  {#AsAnInfinityCSTheory}
 
-The above action functional for closed string field theory turns out to have a general abstract meaning in [[higher category theory]]/[[homotopy theory]].
+The above action functional for closed string field theory turns out to have a general abstract meaning in [[higher category theory]]/[[homotopy theory]]. We spell out here how the action functional for closed string field theory is an example of an [[schreiber:∞-Chern-Simons theory]] in that it arises precisely as the [[Chern-Simons element]] of the binary pairing regarded as a binary [[invariant polynomial]] on the [[L-∞ algebra]] of string fields.
 
 +-- {: .num_prop}
 ###### Proposition
