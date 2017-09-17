@@ -48,7 +48,11 @@ See [[Dedekind cut]] for more.
 
 ### Cauchy sequences
 
-See [[Cauchy real number]] for now.
+Classically, a real number can be given by an [[infinite sequence]] of rational numbers, each of which is a decimal fraction that approximates the real number to a given number of decimal places.  We can generalise this to any [[Cauchy sequence]] of rational numbers.  However, now each real number has several representations, so we need to specify an [[equivalence relation]] on the Cauchy sequences.  Thus, $\mathbb{R}$ is constructed as a [[subquotient]] of the [[function set]] $\mathbb{Q}^{\mathbb{N}}$.
+
+This construction is equivalent to the construction by Dedekind cuts, at least assuming a weak form of [[countable choice]] that also follows from [[excluded middle]].  Thus it is popular in both [[classical mathematics]] and traditional [[constructive mathematics]], which accepts countable choice.  However, in stricter forms of constructive mathematics, including those used as [[internal languages]] in [[topos theory]], the Cauchy reals and Dedekind reals are not equivalent.
+
+See [[Cauchy real number]] for more.
 
 
 ### The complete ordered field
