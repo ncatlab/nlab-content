@@ -33,3 +33,5 @@ From this perspective a choice of orientation is the first in a series of specia
 ## Orientation in generalized cohomology
 
 * [[orientation in generalized cohomology]]
+
+[[!redirects orientable]]
