@@ -1,0 +1,52 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Let $\mathcal{A}$ be an [[abelian category]] and write $Ch_\bullet(\mathcal{A})$ for its [[category of chain complexes]]. Under forming [[chain homology]]
+
+$$
+  H_0 : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
+$$
+
+in some (any) fixed degree, a [[homotopy fiber sequence]] in $Ch_\bullet(\mathcal{A})$ is sent to a [[long exact sequence]] in $\mathcal{A}$. This is the _homology long exact sequence_. 
+
+Often this is considered specifically for the case that the fiber sequence in $Ch_\bullet(\mathcal{A})$ is that induced from a [[short exact sequence]] in $\mathcal{A}$. In this case the further map (that which makes the sequence "long") is called the [[connecting homomorphism]].
+
+## Statement
+
+(...)
+
+For the moment see still at _[[fiber sequence]]_, for instance the section
+_[long exact sequence in cohomology](fiber%20sequence#LongSequCoh)_ there.
+
+[[!redirects long exact sequence in cohomology]]
+[[!redirects long exact sequences in homology]]
+[[!redirects long exact sequences in cohomology]]
+
+[[!redirects homology exact sequence]]
+[[!redirects homology exact sequences]]
+[[!redirects cohomology exact sequence]]
+[[!redirects cohomology exact sequences]]
+
+[[!redirects homology long exact sequence]]
+[[!redirects homology long exact sequences]]
+[[!redirects cohomology long exact sequence]]
+[[!redirects cohomology long exact sequences]]
+
