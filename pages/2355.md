@@ -10,7 +10,7 @@
 
 ## Idea
 
-The notion of adjunction between two [[(∞,1)-functor]]s generalizes the notion of [[adjoint functor]]s from [[category theory]] to [[(infinity,1)-category|(∞,1)-category theory]].
+The notion of adjunction between two [[(∞,1)-functors]] generalizes the notion of [[adjoint functors]] from [[category theory]] to [[(infinity,1)-category|(∞,1)-category theory]].
 
 
 There are many equivalent definitions of the ordinary notion of [[adjoint functor]]. Some of them have more evident generalizations to some parts of [[higher category theory]] than others. 
@@ -24,7 +24,7 @@ There are many equivalent definitions of the ordinary notion of [[adjoint functo
 
   The analog of this definition makes sense very generally in [[(∞,1)-category theory]], where $Hom_C(-,-) : C^{op} \times C \to \infty Grpd$ is the $(\infty,1)$-categorical hom-object.
 
-* One other characterization of adjoint functors  in terms of their [[cograph of a functor|cograph]]s. At [[cograph of a functor]] it is discussed how two functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if the cograph of $L$ coincides with the cograph of $R$ up to the obvious reversal of arrows
+* One other characterization of adjoint functors  in terms of their [[cograph of a functor|cographs]]. At [[cograph of a functor]] it is discussed how two functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if the cograph of $L$ coincides with the cograph of $R$ up to the obvious reversal of arrows
 
 $$
   (L \dashv R) \Leftrightarrow
@@ -44,7 +44,7 @@ Using the [[(∞,1)-Grothendieck construction]] the notion of cograph of a funct
 ###### Definition
 **(in terms of hom equivalence induced by unit map)**
 
-A pair of [[(∞,1)-functor]]s 
+A pair of [[(∞,1)-functors]] 
 
 $$ 
   C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} 
@@ -62,17 +62,17 @@ $$
   Hom_D(c,R(d))
 $$
 
-is an equivalence of [[∞-groupoid]]s.
+is an equivalence of [[∞-groupoids]].
 
 =--
 
-In terms of the concrete incarnation of the notion of $(\infty,1)$-category by the notion of [[quasi-category]], we have that $Hom_(C)(L(c),d)$ and $Hom_D(c,R(d))$ are incarnated as [[hom-object in a quasi-category|hom-objects in quasi-categories]], which are [[Kan complex]]es, and the above equivalence is a [[homotopy equivalence]] of Kan complexes.
+In terms of the concrete incarnation of the notion of $(\infty,1)$-category by the notion of [[quasi-category]], we have that $Hom_(C)(L(c),d)$ and $Hom_D(c,R(d))$ are incarnated as [[hom-object in a quasi-category|hom-objects in quasi-categories]], which are [[Kan complexes]], and the above equivalence is a [[homotopy equivalence]] of Kan complexes.
 
 In this form this definition appears as [[Higher Topos Theory|HTT, def. 5.2.2.7]].
 
 ### In terms of cographs
 
-We make use here of the explicit realization of the [[(∞,1)-Grothendieck construction]] in its incarnation for [[quasi-categories]]: here an [[(∞,1)-functor]]s $L : D \to C$ may be regarded as a map $\Delta[1]^{op} \to $ [[(∞,1)Cat]], which corresponds under the Grothendieck construction to a [[Cartesian fibration]] of [[simplicial set]]s $coGraph(L) \to \Delta[1]$. 
+We make use here of the explicit realization of the [[(∞,1)-Grothendieck construction]] in its incarnation for [[quasi-categories]]: here an [[(∞,1)-functors]] $L : D \to C$ may be regarded as a map $\Delta[1]^{op} \to $ [[(∞,1)Cat]], which corresponds under the Grothendieck construction to a [[Cartesian fibration]] of [[simplicial sets]] $coGraph(L) \to \Delta[1]$. 
 
 +-- {: .un_defn}
 ###### Definition
@@ -80,11 +80,11 @@ We make use here of the explicit realization of the [[(∞,1)-Grothendieck const
 
 Let $C$ and $D$ be [[quasi-categories]]. An **adjunction** between $C$ and $D$ is 
 
-* a morphism $K \to \Delta[1]$ of [[simplicial set]]s, which is both a [[Cartesian fibration]] as well as a coCartesian fibration.
+* a morphism $K \to \Delta[1]$ of [[simplicial sets]], which is both a [[Cartesian fibration]] as well as a coCartesian fibration.
 
 * together with [[equivalence of quasi-categories]] $C \stackrel{\simeq}{\to} K_{\{0\}}$ and $D \stackrel{\simeq}{\to} K_{\{1\}}$.
 
-Two [[(∞,1)-functor]]s $L : C \to D$ and $R : D \to C$ are called **adjoint** -- with $L$ _left adjoint_ to $R$ and $R$ _right adjoint_ to $L$ if
+Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** -- with $L$ _left adjoint_ to $R$ and $R$ _right adjoint_ to $L$ if
 
 * there exists an adjunction $K \to I$ in the above sense
 
@@ -111,12 +111,12 @@ This is [[Higher Topos Theory|HTT, prop 5.2.2.8]].
 
 ## Examples
 
-A large class of examples arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunction]]s between [[simplicial model category|simplicial model categories]].
+A large class of examples arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunctions]] between [[simplicial model category|simplicial model categories]].
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $C$ and $D$ [[sSet]]-[[enriched categories]] whose hom-objects are all [[Kan complex]]es, the image 
+For $C$ and $D$ [[sSet]]-[[enriched categories]] whose hom-objects are all [[Kan complexes]], the image 
 
 $$
   N(A) \stackrel{\overset{N(L)}{\leftarrow}}{\underset{N(R)}{\to}}
@@ -132,7 +132,7 @@ $$
 
 is an adjunction of [[quasi-categories]].
 
-Moreover, if $A$ and $B$ are equipped with the structure of a [[simplicial model category]] then the quasi-categorically [[derived functor]]s 
+Moreover, if $A$ and $B$ are equipped with the structure of a [[simplicial model category]] then the quasi-categorically [[derived functors]] 
 
 $$
   N(A^\circ) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
