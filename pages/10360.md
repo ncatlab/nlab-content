@@ -24,6 +24,8 @@ The generalization of [[symplectic reduction]] from [[symplectic manifolds]] to 
 
 [[!include symplectic reduction - table]]
 
+* [[quantization commutes with reduction]]
+
 
 ## References
 
