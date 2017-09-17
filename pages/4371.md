@@ -39,15 +39,16 @@ Classically, we have $L = L_{\neg\neg}$ if and only if $L$ is the [[discrete loc
 +-- {: .num_example}
 ###### Example
 
-Let $\mathcal{O}_X$ be the sheaf of continuous (or smooth, or holomorphic, or regular) functions on a topological space (or manifold, or complex manifold, or reduced scheme) $X$. Then the [[direct image|pushforward]] of the [[inverse image|pullback]] of $\mathcal{O}_X$ to the smallest dense sublocale of $X$ is the sheaf of meromorphic functions on $X$ (i.e. sections over an open subset $U$ are given by sections of $\mathcal{O}_X$ defined on some dense open subset $V \subseteq U$).
-
+Let $\mathcal{O}_X$ be the sheaf of [[continuous map|continuous]] (or [[smooth map|smooth]], or [[holomorphic map|holomorphic]], or [[regular map|regular]]) functions on a [[topological space]] (or [[smooth manifold]], or [[complex manifold]], or [[reduced scheme]]) $X$. Then the [[direct image|pushforward]] of the [[inverse image|pullback]] of $\mathcal{O}_X$ to the smallest dense sublocale of $X$ is the sheaf of [[meromorphic functions]] on $X$ (i.e. sections over an open subset $U$ are given by sections of $\mathcal{O}_X$ defined on some dense open subset $V \subseteq U$).
 =--
+
 
 ## In topos theory
 
 The notion of double negation sublocale may be [[categorification|categorified]] from locales to [[toposes]].  
 
 If $E$ is a [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negation]] operator $\neg \colon \Omega \to \Omega$, defined by virtue of the fact that $\Omega$ is an [[internalisation|internal]] [[Heyting algebra]].  
+
 
 ### Definition
 
@@ -128,7 +129,6 @@ $$
 $$
 
 and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] holds.
-
 
 
 ## References
