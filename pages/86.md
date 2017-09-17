@@ -189,28 +189,32 @@ The latter is NOT in a Poisson context, any more than Lagrangians are only for s
 
 
 
-The [[path integral]] in [[quantum field theory]] is supposed to be the integral over a space $X$ of field configurations
-using a measure $d\mu_S$ which is conceived in the form
+The [[path integral]] in [[quantum field theory]] is supposed to be the integral over a field [[configuration space]] $X$ using a [[measure]] $d\mu_S$ which is conceived in the form
+
 $$
   \mu_S(\phi) = \exp(\frac{i}{\hbar} S(\phi)) \mu(\phi)
   \;\;\;\;
   \phi \in X
   \,,
 $$
-for $\mu$ some other measure and $S : X \to \mathbb{R}$ the _action functional_.
 
-If one thinks of $X$ as an ordinary $(d \lt \infty)$-dimensional smooth manifold, $d\mu_S$ will be given by a volume form, $\mu_S \in \Omega^d(X)$. By contraction of multivector fields with forms, every choice of volume form on $X$ induces an isomorphism between differential forms and multivectors
+for $\mu$ some other measure and $S : X \to \mathbb{R}$ the _[[action functional]]_.
+
+If one thinks of $X$ as an ordinary $(d \lt \infty)$-[[dimension]]al [[smooth manifold]], $d\mu_S$ will be given by a [[volume form]], $\mu_S \in \Omega^d(X)$. By contraction of [[multivector field]]s with forms, every choice of volume form on $X$ induces an [[isomorphism]] between [[differential form]]s and [[polyvector field]]s
+
 $$
   \mu : \Omega^\bullet(X) \stackrel{\simeq}{\to}
   \wedge^{-\bullet} \Gamma(T X)
   \,,
 $$
+
 which is usefully thought of as reversing degrees. Under this isomorphism the deRham differential maps to a divergence operator conventionally denoted
+
 $$
   \mu : d \mapsto \Delta
 $$
-which interacts naturally with the canonical bracket on multivector fields: the [Schouten bracket](http://en.wikipedia.org/wiki/Schouten-Nijenhuis_bracket)
-This idea can be found recalled for instance on p.3 of Willwacher, Calaque [Formality of cyclic cochains](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4095v2.pdf#page=3).
+
+which interacts naturally with the canonical bracket on multivector fields: the [[Schouten bracket]]. (See [[polyvector field]] for more details.)
 
 The point to notice now is
 
