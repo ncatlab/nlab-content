@@ -5,31 +5,15 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+**Please leave these theorems alone for a bit** *Andrew Stacey*
+
 +-- {: .num_theorem #a}
 ###### Theorem
 
 The first letter of the English alphabet is A.
 =--
 
-+-- {: .un_theorem}
-###### Theorem
-
-The second letter of the English alphabet is B.
-=--
-
-+-- {: .num_theorem #d}
-###### Theorem
-
-The third letter of the English alphabet is C.
-=--
-
-+-- {: .num_theorem #d}
-###### Theorem
-
-The first letter of the English alphabet is A.
-=--
-
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The second letter of the English alphabet is B.
@@ -41,7 +25,25 @@ The second letter of the English alphabet is B.
 The third letter of the English alphabet is C.
 =--
 
-Theorems \ref{a} and \ref{c} are numbered.
++-- {: .num_theorem}
+###### Theorem
+
+The fourth letter of the English alphabet is D.
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+The fifth letter of the English alphabet is E.
+=--
+
++-- {: .num_theorem #f}
+###### Theorem
+
+The sixth letter of the English alphabet is F.
+=--
+
+Theorem \ref{a} refers to A, Theorem \ref{c} to C, and Theorem \ref{f} to F.
 
 ***
 
