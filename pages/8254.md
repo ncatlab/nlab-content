@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Generally, a _chain_ is an element of a _[[chain complex]]_. 
+
+Specifically for the complex computing the [[singular homology]] of a [[topological space]], a _[[singular chain]]_ is a [[formal linear combination]] of [[simplices]] in that space.
+
+## Related concepts
+
+[[!include chains and cochains - table]]
+
+[[!redirects chains]]
