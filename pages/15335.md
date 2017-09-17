@@ -1,0 +1,25 @@
+Let $SemiLat$ be the category of meet-[[semilattices]] (i.e., [[posets]] admitting finite meets). Regarding $\mathbf{2} = \{0 \leq 1\}$ ambimorphically either as a set or as a meet-semilattice, i.e., as a [[dualizing object]], there is a pair of adjoint functors given by homming into $\mathbf{2}$, 
+
+$$Set \stackrel{Set(-, \mathbf{2})^{op}}{\to} SemiLat^{op} \;\; \dashv SemiLat^{op} \stackrel{SemiLat(-, \mathbf{2})}{\to} Set,$$ 
+
+and the **filter monad** is the monad $Filt$ induced by this adjunction. (Compare [[ultrafilter monad]].) 
+
+Following this recipe, we can describe the monad more explicitly. For a set $X$, $Filt(X)$ is the set of meet-preserving maps $\mathbf{2}^X \to \mathbf{2}$. This is in natural bijection with subsets of the power set $\mathbf{2}^X = P X$ that are upward-closed and closed under finite intersections, i.e., [[filters]] in the Boolean algebra $P X$ (or as one says, filters _on_ $X$). The unit of the monad evaluated at $X$ is $prin_X: X \to Filt(X)$, taking $x \in X$ to the principal filter $prin_X(x) \coloneqq \{A \subseteq X: x \in A\}$. 
+
+we can read off the multiplication $\mu$ on the filter monad directly from this recipe; the result for $\Phi \in Filt(Filt(X))$ is 
+
+$$\mu_X(\Phi) \coloneqq \{A \subseteq X: \{F \in Filt(X): A \in F\} \in \Phi\}.$$ 
+
+However, there is another description often encountered in the literature: 
+
+$$\mu_X(\Phi) = \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}.$$ 
+
++-- {: .proof} 
+###### Proof 
+To see $\bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\} \subseteq \mu_X(\Phi)$, suppose $A \in \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}$, i.e., suppose there is $\mathcal{U}$ with \mathcal{U} \in \Phi$ and $A \in \bigcap \mathcal{U}$. Then $A \in F$ for all $F \in \mathcal{U}$, and since 
+already $\mathcal{U} \in \Phi$, we see $\{F \in Filt(X): A \in F\} \in \Phi$ by upward closure of $\Phi$. Hence $A \in \mu_X(\Phi)$. 
+
+To see $\mu_X(\Phi) \subseteq \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}$, 
+
+... 
+=-- 
