@@ -37,6 +37,8 @@ Therefore every morphism $f : b_1 \to b_2$ in a bifibration has both a push-forw
 
 * The canonical functor [[Mod]] $\to $ [[CRing]] is a bifibration.
 
+* The [[forgetful functor]] [[Top]] $\to$ [[Set]] is a bifibration. See also [[topological concrete category]].
+
 
 ## Relation to monadic descent
 
