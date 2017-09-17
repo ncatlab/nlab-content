@@ -63,7 +63,7 @@ $$
 Explicitly, for $t \in \mathfrak{g}$ this sends $f$ to the function
 $(d_\rho f)(t)$ which is the derivative along $t \in T_e G$ of the function $G \times V \stackrel{\rho}{\to}V \stackrel{f}{\to} \mathbb{R}$.
 
-Even more explicitly, if we choose local coordinates $\{v^k\} : \mathbb{R}^{dim V} \to V$ on a patch, and choose a basis $\{t^a\}$ of $\mathfrak{g}^*$ then we have that restricted to this patch the differential is on generators by
+Even more explicitly, if we choose local coordinates $\{v^k\} : \mathbb{R}^{dim V} \to V$ on a patch, and choose a basis $\{t^a\}$ of $\mathfrak{g}^*$ then we have that restricted to this patch the differential is on generators given by
 
 $$
   d_\rho : f \mapsto \rho^\mu{}_a t^a \wedge \partial_k f
