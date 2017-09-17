@@ -149,7 +149,7 @@ However, not all $Vect$-valued species correposnd to Schur functors, because we 
 We call this the **category of polynomial species**.  The reason for the term 'polynomial' is that any functor of the form
 $$   S_R(X) = \bigoplus_{n \ge 0} R_n \otimes_{\mathbb{C}[S_n]} X^{\otimes n} $$
 gives rise to a formal power series called its **generating function**: 
-$$      \sum_{n \ge 0} \frac{dim(R_n) x^n}{n!}  \, $$
+$$      \sum_{n \ge 0} \frac{dim(R_n) \, x^n}{n!}  \, , $$
 and this power series is a polynomial precisely when $R$ is a polynomial species.
 
 The category of representations of any groupoid has many nice features.  For example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], by which we mean a symmetric monoidal category that is also abelian, where tensoring with any object is right exact.   So, the category of $Vect$-valued species is symmetric monoidal abelian --- and it is easy to check that the subcategory of polynomial species inherits this structure.  Since $Schur$ is equivalent to the category of polynomial species, it too is symmetric monoidal abelian.  
