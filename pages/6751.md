@@ -308,6 +308,8 @@ We discuss here an equivalent reformulation of the [above](#DefinitionsAndConstr
 
 * [Definitions and constructions](#FormulationInHigherGeometryDefinitions)
 
+
+
 ### Survey 
  {#FormulationInHigherGeometrySurvey}
 
@@ -526,13 +528,15 @@ $$
  {#ExtendedChern-SimonsTheoryAndWilsonLoops}
 
 We discuss how an [[extended Lagrangian]] 
-for $G$-[[Chern-Simons theory]] with [[Wilson loop]] [[QFT with defects|defects]] is naturally obtained from the above [[higher geometry|higher geometric]] formulation of the orbit method. In particular we discuss how the relation between Wilson loops and [[1-dimensional Chern-Simons theory]] [[sigma-models]] with [[target space]] the [[coadjoint orbit]], as discussed  [above](#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit) is naturally obtained this way.
+for $G$-[[Chern-Simons theory]] with [[Wilson loop]] [[QFT with defects|defects]] is naturally obtained from the [above](#FormulationInHigherGeometryDefinitions) [[higher geometry|higher geometric]] formulation of the orbit method. In particular we discuss how the relation between Wilson loops and [[1-dimensional Chern-Simons theory]] [[sigma-models]] with [[target space]] the [[coadjoint orbit]], as discussed  [above](#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit) is naturally obtained this way.
 
-Let $\Sigma$ be a [[orientation|oriented]] [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] 3 and let $\iota_\Sigma : S^1 \hookrightarrow \Sigma$ be a [[submanifold]] inclusion of the [[circle]]. 
+Let $\Sigma$ be an [[orientation|oriented]] [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] 3 and let $\iota_\Sigma : S^1 \hookrightarrow \Sigma$ be a [[submanifold]] inclusion of the [[circle]]. 
 
-Let $R$ be an irreducible unitary representaiton of $G$ and let $\langle \lambda,-\rangle$ be a [[weight (in representation theory)|weight]] corresponding to it by the [[Borel-Weil-Bott theorem]].
+Let $R$ be an [[irreducible representation|irreducible]] 
+[[unitary representation]] of $G$ and let $\langle \lambda,-\rangle$ be a [[weight (in representation theory)|weight]] corresponding to it by the [[Borel-Weil-Bott theorem]].
 
-Regarding th inclusion $\iota_\Sigma$ as an object in the [[arrow category]] $\mathbf{H}^{\Delta^1}$, say that a [[gauge field]] configuration for $G$-[[Chern-Simons theory]] on $\Sigma$ with Wilson loop $\iota_\Sigma$ in the representation $R$ is a map
+Regarding the inclusion $\iota_\Sigma$ as an object in the [[arrow category]] $\mathbf{H}^{\Delta^1}$, say that a [[gauge field]] configuration for $G$-[[Chern-Simons theory]] on $\Sigma$ with 
+[[Wilson loop]] $\iota_\Sigma$ and labeled by the [[representation]] $R$ is a map
 
 $$
   \phi 
@@ -542,7 +546,7 @@ $$
   \mathbf{J}
 $$ 
 
-in $\mathbf{H}^{\Delta^1}$. Such a map is equivalently by a square
+in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$ of the ambient [[cohesive (∞,1)-topos]]. Such a map is equivalently by a square
 
 $$
   \array{
@@ -567,15 +571,15 @@ In components this is
 
 which fixes the field on the circle defect to be $(A|_{S^1})^g$, as indicated. 
 
-Moreover, a _[[gauge transformation]]_ between two such fields $\kappa : \phi \Rightarrow \phi'$ is a $G$-gauge transformation of $A$ and  a $T$-gauge transformation of $A|_{S^1}$ such that these intertwine the component maps $g$ and $g'$. If we keep the bulk gauge field $A$ fixed, then his means that two fields $\phi$ and $\phi'$ as above are gauge equivalent precisely if there is a function $t : S^1 \to T$ such that $g = g' t$, hence gauge [[equivalence classes]] of fields for fixed bulk gauge field $A$ are parameterized by their components $[g] = [g'] \in [S^1, G/T]$ with values in the coset space, hence in the coadjoint orbit.
+Moreover, a _[[gauge transformation]]_ between two such fields $\kappa : \phi \Rightarrow \phi'$ is a $G$-gauge transformation of $A$ and  a $T$-gauge transformation of $A|_{S^1}$ such that these intertwine the component maps $g$ and $g'$. If we keep the bulk gauge field $A$ fixed, then his means that two fields $\phi$ and $\phi'$ as above are gauge equivalent precisely if there is a function $t \;\colon\; S^1 \to T$ such that $g = g' t$, hence gauge [[equivalence classes]] of fields for fixed bulk gauge field $A$ are parameterized by their components $[g] = [g'] \in [S^1, G/T]$ with values in the coset space, hence in the coadjoint orbit.
 
 For every such field configuration we can evaluate two [[action functionals]]: 
 
 1. that of 3d [[Chern-Simons theory]], whose [[extended Lagrangian]] is $\mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$;
 
-1. that of the [[1-dimensional Chern-Simons theory]] discussed [above](#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit) whose [[extended Lagrangian]] is $\langle \lambda, \mathbf{\theta}\rangle : \Omega^1(-,\mathfrak{g})//T \to \mathbf{B}U(1)_{conn}$, by prop. \ref{Extended1dCSLagrangianFromLambda}.
+1. that of the [[1-dimensional Chern-Simons theory]] discussed [above](#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit) whose [[extended Lagrangian]] is $\langle \lambda, -\rangle : \Omega^1(-,\mathfrak{g})//T \to \mathbf{B}U(1)_{conn}$, by prop. \ref{Extended1dCSLagrangianFromLambda}.
 
-These are obtained by postcomposing the above square on the right by these [[extended Lagrangians]] and then preforming the [[fiber integration in ordinary differential cohomology]] over $S^1$ and over $\Sigma$, respectively. 
+These are obtained by postcomposing the above square on the right by these [[extended Lagrangians]] 
 
 $$
   \array{
@@ -593,14 +597,15 @@ $$
     &\stackrel{\mathbf{c}}{\to}&
     \mathbf{B}U(1)_{conn}
   }
-  \,.
 $$
+
+and then preforming the [[fiber integration in ordinary differential cohomology]] over $S^1$ and over $\Sigma$, respectively. 
 
 For the bottom map this gives the ordinary action functional of [[Chern-Simons theory]]. For the top map inspection of the proof of prop. \ref{Extended1dCSLagrangianFromLambda} shows that this gives the 1d Chern-Simons action whose [[partition function]] is the [[Wilson loop]] observable by prop. \ref{WilsonLoopIsPartitionFunctionOf1dCSSigmaModel} above. 
 
 More formally, we have an extended Chern-Simons theory as follows. 
 
-The [[moduli space]] of fields $\phi : \iota_X \to \mathbf{H}$ as above is the [[homotopy pullback]]
+The [[moduli stack]] of fields $\phi : \iota_X \to \mathbf{J}$ in $\mathbf{H}^{(\Delta^1)}$ as above is the [[homotopy pullback]]
 
 $$
   \array{
@@ -614,8 +619,9 @@ $$
     &\to&
     [S^1, \mathbf{B}G_{conn}]
   }
-  \,.
 $$
+
+in $\mathbf{H}$, where square brackets indicate the [[internal hom]] in $\mathbf{H}$.
 
 Postcomposing the two projections with the two [[transgressions]] of the [[extended Lagrangians]]
 
@@ -682,16 +688,18 @@ $$
 and hence a total prequantum bundle
 
 $$
-  \exp(2 \pi i \int_{\coprod_i {*}}[\coprod_i {*}, \langle -\rangle])
+  \exp\left(2 \pi i \int_{\coprod_i {*}}\left[\coprod_i {*}, \langle -\rangle\right]\right)
    \otimes
-  \exp(2 \pi i \int_{\Sigma_2}[\Sigma_2, \mathbf{c}])
+  \exp\left(2 \pi i \int_{\Sigma_2}\left[\Sigma_2, \mathbf{c}\right]\right)
   \;:\;
-  \mathbf{Fields}(S^1 \hookrightarrow \Sigma)
-  \to U(1)
+  \mathbf{Fields}\left(S^1 \hookrightarrow \Sigma\right)
+  \to U\left(1\right)
   \,.
 $$
 
 One checks that this is indeed the correct prequantization as considered in ([Witten 98, p. 22](#Witten)).
+
+(...)
 
 
 
