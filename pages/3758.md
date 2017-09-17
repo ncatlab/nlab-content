@@ -35,10 +35,6 @@ Broadly speaking, formalizations of quantum mechanics are of two main different 
 
 +--{: .query}
 [[Ian Durham]]: Please help make this a bit more clear, but please note there is some dispute concerning the nature of quantum states, including whether or not they even exist (see below).
-
-[[Tim van Beek]]: I tried to insert a few ideas of mine...I guess we would have to narrow this page to a certain interpretation of quantum physics, like "what is a quantum state in the traditional sense of quantum mechanics" or "what is a quantum state in the sense of the xy picture of QFT".
-
-
 =--
 
 
@@ -91,10 +87,6 @@ In the quantum Bayesian view, there is really no such thing as a quantum state. 
 Taken in this context, physics is really a relational theory which is why category theory is ideally suited to describe it: the richest part of category theory is the morphisms (arrows).  Without them you're essentially reduced to a very limited (and uninteresting) set theory.  The internal morphisms of categories as well as functors between categories are the "meat" of category theory and this is precisely the same idea QBism attempts to capture in the context of quantum theory.  Category theory may prove to be the ideal tool for a fuller and richer development of QBism.
 
 ## References
-
-+--{: .query}
-[[Tim van Beek]]: One (short) remark per reference what it's about would be nice.
-=--
 
 * C.A. Fuchs, _QBism, the Perimeter of Quantum Bayesianism_ ([pdf](http://arxiv.org/abs/1003.5209)), gives a nice summary of the quantum Bayesian view and also provides a treasure trove of references on discussions (going all the way back to the beginning of quantum theory) on quantum states.
 
