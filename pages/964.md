@@ -69,7 +69,7 @@ The notation $\mathcal{O}$ to supposed to remind us that every frame is like a [
 
 So in particular a frame is a _[[lattice]]_ which has not only finite [[joins]] but all small joins. 
 
-It is not, in general, quite a _[[distributive lattice]]_, though.
+Furthermore, as the distributive law certainly holds when the joins in question are finite, it is a _[[distributive lattice]]_.
 
 =--
 
