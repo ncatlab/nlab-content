@@ -16,14 +16,34 @@
 ## Idea
  {#Idea}
 
-Quite generally, _automorphic forms_ are [[functions]] on [[coset spaces]] $G/K$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of some [[subgroup]] $K \hookrightarrow G$. 
+Quite generally, _automorphic forms_ are suitably well-behaved [[functions]] on [[coset spaces]] $G/K$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of some [[subgroup]] $K \hookrightarrow G$. 
 
+### Modular forms
 
 For [[modular group]]/[[congruence subgroups]] $K$ of the real [[general linear group]] in dimension 2, $G = SL(2,\mathbb{R})$, _[[modular forms]]_ may be identified with such functions on $SL(2,\mathbb{R})/K$ (see at _[modular form -- as automorphic forms](http://ncatlab.org/nlab/show/modular+form#AsAutomorphicForms)_) and this is where the concept of automorphic forms originates.
 
-In [[harmonic analysis]] one typically considers [[topological groups]] and [[discrete subgroups]].
+### In harmonic analysis
 
-For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]], and for the subgroup $GL_n(F)$, then the automorphic functions form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. See at _[[Langlands correspondence]]_ for more on this. 
+In [[harmonic analysis]] one typically considers [[topological groups]] $G$ with [[discrete group]] [[subgroups]] $K$ and considers [[continuous functions]], typically bounded..
+
+### Automorphic representation in number theory
+
+For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]], and for the subgroup $GL_n(F)$, then sufficiently well-behaved functions on $GL_n(F)\backslash GL_n(\nathbb{A}_F)$ form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. Here "well-behaved" typically means
+
+1. **finiteness** -- the functions [[invariant]] under the [[action]] of the [[maximal compact subgroup]] [[span]] a [[finite number|finite]] [[dimension|dimensional]] [[vector space]];
+
+1. **central character** -- the action by the [[center of a group|center]] is is controled by (...something...);
+
+1. **growth** -- the functions are [[bounded functions]];
+
+1. **cuspidality** -- (...)
+
+(e.g. [Frenkel 05, section 1.6](#Frenkel05))
+
+But these conditions are not set in stone, they are being varied according to application (see e.g. [this MO comment](http://mathoverflow.net/a/66598/381))
+
+See at _[[Langlands correspondence]]_ for more on this.
+
 
 
 ## Properties
@@ -54,6 +74,10 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 [[!redirects automorphic forms]]
 
 * [pdf](http://math.stanford.edu/~conrad/modseminar/pdf/L10.pdf)
+
+Review in the context of the [[geometric Langlands correspondence]] is in
+
+* {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
 
 ### In string theory
