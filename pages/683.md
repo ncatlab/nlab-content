@@ -780,7 +780,7 @@ where $Q'_{Reedy}(\cdots)$ is a cofibrant resolution in the Reedy model structur
 
 * $\tilde X$ is always cofibrant in $[\Delta^{op},sSet_{Quillen}]_{Reedy}$;
 
-* a cofibrant resolution of the point in $[\Delta, sSet_{Quillen}]_{Reedy}$ iss given by $\Delta[-] : \Delta \to sSet$.
+* a cofibrant resolution of the point in $[\Delta, sSet_{Quillen}]_{Reedy}$ is given by $\Delta[-] : \Delta \to sSet$.
 
 It follows that the hocolim is given by 
 
