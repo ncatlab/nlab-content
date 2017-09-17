@@ -94,7 +94,11 @@ The situation for [[generalised cohomology theories]] is much more complicated t
 
 > *J. F. Adams*{: style="text-align: right"}
 
-The lecture concentrates on the Universal Coefficient Theorem and, as a by-product, the [[Künneth theorem]]. The general problems that a Universal Coefficient Theorem should apply to are the following:
+The lecture concentrates on the Universal Coefficient Theorem and, as a by-product, the [[Künneth theorem]]. 
+
+Let $E$ and $F$ be two [[commutative ring spectra]] and write $E^*$ and $E_*$, etc, for the corresponding [[generalized cohomology theory]] and [[generalized homology theory]].
+
+Then the general problems that a Universal Coefficient Theorem should apply to are the following:
 
 1. <p></p>
    +-- {: .num_enuma #enumiAa }
