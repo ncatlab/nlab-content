@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Type theory
+#### Topos Theory
++--{: .hide}
+[[!include type theory - contents]]
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+[[!redirects theory of infinite decidable object]]
+
+
+##Idea##
+The _theory of decidable objects_ $D$ is the logical [[theory]] whose models in a [[coherent category]] are precisely the [[decidable objects]].
+
+##Definition##
+The _theory of decidable objects_ $D$is the theory over the signature with one sort and one binary relation $#$ besides equality with axioms $(x#x)\vdash_x\perp$ and $\top\vdash_{x,y} ((x#y)\vee(x=y))$.
+
+##Properties##
+
+* For a [[topos]] $\mathcal{E}$ the category of models $Mod_D(\mathcal{E})$ is the category of decidable objects in $\mathcal{E}$. The _[[classifying topos]]_ $Set[D]$ for the theory of decidable objects is the functor category $[FinSet_{mono},Set]$ where $FinSEt_{mono}$ is the category of finite sets and monomorphisms. $Set[D]$ is a [[locally decidable topos]].
+
+* The theory of _infinite decidable objects_ $D_\infty$ adds to $D$ the axioms $\top\vdash_{x_1,\dots,x_n} (\exists y)\bigwedge_{i=1}^{n}(y#x_i)$ for all $n$ with $\top\vdash(\exists y)\top$ for $n=0$. The models of $D_\infty$ are precisely the infinite decidable objects and its classifying topos $Set[D_\infty]$ is the [[Schanuel topos]].
+
+##Related concepts##
+
+*[[theory of objects]]
+
+*[[locally decidable topos]]
+
+*[[Schanuel topos]]
+
+##References##
+
+* [[Peter Johnstone]], _Sketches of an [[Elephant]] II_, Oxford UP 2002. pp.906,925.
