@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[group]] of [[matrices]] under [[matrix multiplication]], hence a [[subgroup]] of a [[general linear group]].
+
+Often: _[[matrix Lie group]]_.
+
+For instance: [[orthogonal group]], [[unitary group]].
+
+## Related concepts
+
+* [[matrix Lie algebra]]
+
+[[!redirects matrix groups]]
