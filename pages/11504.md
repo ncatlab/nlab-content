@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+## Related concepts
+
+* [[superstring field theory]]
+
+## References
+
+A [[supergeometry|supergometric]] interpretation of picture changing operators as part of the geometry of [[super Riemann surfaces]] is given in 
+
+* [[Alexander Belopolsky]], _New Geometrical Approach to Superstrings_ ([arXiv:hep-th/9703183](http://arxiv.org/abs/hep-th/9703183))
+
+further amplified in 
+
+
+* [[Edward Witten]], appendix D of _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
+
+
+[[!redirects picture changing operators]]
