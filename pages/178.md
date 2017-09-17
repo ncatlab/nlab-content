@@ -4964,13 +4964,13 @@ $$
 Let $G \in Smooth \infty Grpd$ be an [[∞-group|n-group]] given by [Lie integration](#LieIntegration) of an [[L-∞ algebra]] $\mathfrak{g}$, in that the [[delooping]] object $\mathbf{B}G$ is presented by the $(n+1)$-[[simplicial skeleton|coskeleton]] [[simplicial presheaf]] 
 $\mathbf{cosk}_{n+1}\exp(\mathfrak{g})$.
 
-Then for $X \in [CartSp_{smootth}, sSet]_{proj}$ any object and $\hat X$ a cofibrant resolution, we say that 
+Then for $X \in [CartSp_{smooth}, sSet]_{proj}$ any object and $\hat X$ a cofibrant resolution, we say that 
 
 $$
   [CartSp_{smooth}^{op},sSet](\hat X, \mathbf{cosk}_{n+1}\exp(\mathfrak{g})_{diff})
 $$
 
-is the [[Kan complex]] of **pseudo-$G$-[[connection on an ∞-bundle|n-connections]]. 
+is the [[Kan complex]] of **[[connection on an ∞-bundle|pseudo n-connections]] on $G$-[[principal ∞-bundle]]s. 
 
 =--
 
@@ -4998,10 +4998,10 @@ Write $inv(\mathfrak{g}) \hookrightarrow W(\mathfrak{g})$ for the sub-dg-algebra
 +-- {: .un_prop}
 ###### Observation
 
-We have 
+For the [[line Lie n-algebra]] we have 
 
 $$
-  inv(b^{n-1}\mathbb{R}) \simeq CE(b^n \mathbb{R})
+  \mathrm{inv}(b^{n-1}\mathbb{R}) \simeq CE(b^n \mathbb{R})
   \,.
 $$
 
@@ -5089,7 +5089,7 @@ This is by construction in transgression with $\langle - \rangle$.
    homomorphism this implies that also
    $\mu_1 = \mu_2 + d_{CE(\mathfrak{g})} \lambda|_{CE(\mathfrak{g})}$.
 
-1. Given to nontrivial invariant polynomials 
+1. Given two nontrivial invariant polynomials 
    $\langle - \rangle_1$ and $\langle - \rangle_2$ let
    $cs_1 \in W(\mathfrak{g})$ be any element such that
    $d_{W(\mathfrak{g})}cs_1 = \langle - \rangle_1$.
@@ -5165,8 +5165,8 @@ $$
 $$
 
 be the presentation, as above, of the [[product]] of all
-differental refinements of characteristic classes on
-$\exp(\mathfrak{g})$ induced from Lie integration of 
+[[differential characteristic class|differential refinements of characteristic classes]] on
+$\exp(\mathfrak{g})$ induced from [[Lie integration]] of 
 transgressive [[∞-Lie algebra cohomology|L-∞ algebra cocycles]].
 
 
