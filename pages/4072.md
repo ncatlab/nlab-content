@@ -23,6 +23,7 @@ More generally, in [[higher category theory]], a finite limit is a [[limit]] of 
 
 
 ## Properties
+ {#Properties}
 
 +-- {: .num_prop}
 ###### Proposition
