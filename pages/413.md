@@ -4,17 +4,18 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The notion of superdifferential form is the generalization of the notion of [[differential form]] from [[manifold]]s to [[supermanifold]]s.
+The notion of superdifferential form is the generalization of the notion of [[differential form]] from [[manifolds]] to [[supermanifolds]].
 
 
-## Definition {#Definition}
+## Definition 
+ {#Definition}
 
-Ordinary [[differential form]]s on a [[manifold]] $X$ may be regarded as the functions on the [[supermanifold]] called the [[shifted tangent bundle]]
+Ordinary [[differential forms]] on a [[manifold]] $X$ may be regarded as the functions on the [[supermanifold]] called the [[shifted tangent bundle]]
 
 $$
   \Omega^\bullet(X) = C^\infty(T[1] X)
@@ -27,6 +28,8 @@ The notion of shifted tangent bundle makes sense also when $X$ itself was alread
 Another way to think of superdifferential forms is using the perspective of Lie theory:
 
 For $\mathbf{X}$ a supermanifold with function algebra $C^\infty(\mathbf{X})$, the [[Lie infinity-algebroid|qDGCA]] $\Omega^\bullet(X)$ of differential forms on $X$ is the [[Weil algebra]] of $C^\infty(\mathbf{X})$, (regarded as a $\mathbb{Z}_2$-graded [[dg-algebra]]).
+
+For more see at _[[super Cartesian space]]_ and at _[[signs in supergeometry]]_.
 
 ## Examples {#Examples}
 
@@ -41,14 +44,14 @@ The algebra of superdifferential forms on $\mathbb{R}^{1|1}$ is the [[exterior a
 * a generator $d \theta$ in even degree (the differential of the canonical odd coordinate).
 
 Notice in particular that while $ d x \wedge d x = 0$
-the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ is in even degree. In fact al higher wedge powers of $d \theta$ with itself exist.
+the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ is in even degree. In fact all higher wedge powers of $d \theta$ with itself exist.
 
 
 ## Remarks
 
 * Being a $\mathbb{Z}_2$-graded locally free algebra itself, one can regard $\Omega^\bullet(X)$ itself (even for $X$ a usual manifold!) as the "algebra of functions" (more precisely [[inner hom]], i.e. mapping space into the line) on another supermanifold. That supermanifold is called $T[1] X$, the **[[shifted tangent bundle]]** of $X$. By definition we have $C^\infty(T[1]X) = \Omega^\bullet(X)$. From this point of view, the existence of the differential $d$ on the graded algebra $\Omega^\bullet(X)$ translates into the existence of a special odd vector field on $T[1]X$. This is a **homological vector field** in that it is odd and the super Lie bracket of it with itself vanishes: $[d,d] = 0$.
 
-* In the context of [[NQ-supermanifolds]], where one may regard $C^\infty(X)$ as the Chevalley-Eilenberg algebra of an $L_\infty$-[[Lie infinity-algebroid|algebroid]] it is useful to notice that $\Omega^\bullet(X)$ is the corresponding [[Weil algebra]]. If $X$ is a Lie $n$-algebroid then $T[1]X$ is a Lie $(n+1)$-algebroid.
+* In the context of [[L-infinity algebroids]], where one may regard $C^\infty(X)$ as the [[Chevalley-Eilenberg algebra]] of an $L_\infty$-[[Lie infinity-algebroid|algebroid]] it is useful to notice that $\Omega^\bullet(X)$ is the corresponding [[Weil algebra]]. If $X$ is a Lie $n$-algebroid then $T[1]X$ is a Lie $(n+1)$-algebroid.
 
 
 [[!redirects differential forms on supermanifolds]]
