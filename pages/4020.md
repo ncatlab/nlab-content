@@ -5,7 +5,7 @@
 
 ## Idea
 
-The Hahn--Banach theorem explains why the concept of [[locally convex spaces]] is of interest in the analysis of [[topological vector spaces]]: It ensures that such a space will have enough continuous linear functionals such that the topological dual space is interesting.
+The Hahn--Banach theorem explains why the concept of [[locally convex spaces]] is of interest in the analysis of [[topological vector spaces]]: It ensures that such a space will have enough continuous linear functionals such that the [[dual vector space|topological dual space]] is interesting.
 
 
 ## Foundational issues
