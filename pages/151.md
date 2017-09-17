@@ -67,8 +67,10 @@ In terms of general abstract concepts in [[category theory]] instances of dualit
 * [[dual space]], [[dual vector space]]
 * the duality between [[space and quantity]]
 * [[Poincaré duality]] for finite dimensional (oriented) closed manifolds
+
+* [[Spanier-Whitehead duality]], [[Brown-Comenetz duality]], [[Anderson duality]]
+
 * [[Pontryagin duality]] for commutative ([[Hausdorff space|Hausdorff]]) [[topological group|topological groups]]
-* [[Brown-Comenetz duality]]
 * [[Cartier duality]] of a finite flat commutative [[group scheme]]
 * [[Serre duality]] on nonsingular projective algebraic varieties which has as a special case the statement of the [[Riemann-Roch theorem]]
 * [[Grothendieck duality]], [[coherent duality]] for [[coherentsheave|coherent sheaves]]
@@ -78,7 +80,7 @@ In terms of general abstract concepts in [[category theory]] instances of dualit
 * [[Stone duality]]
 * [[syntax - semantics duality]]
 * [[Eckmann-Hilton duality]]
-* [[Spanier-Whitehead duality]]
+
 * [[Tannaka duality]]
 
 
