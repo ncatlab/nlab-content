@@ -1,7 +1,10 @@
 
 ## Function field analogy
 
+[[!include function field analogy -- table]]
+
 * Wikipedia, _[Function field analogy](https://en.wikipedia.org/wiki/Function_field_analogy)_
+
 
 ## Related concepts
 
