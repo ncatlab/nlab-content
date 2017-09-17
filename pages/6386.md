@@ -1,13 +1,15 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-An **algebraic number** is a [[root]] of a [[polynomial]] [[equation]] with [[integer]] coefficients (or, equivalently with [[rational number|rational]] coeffients). 
+An **algebraic number** is a [[root]] of a [[polynomial]] with [[integer]] coefficients (or, equivalently, with [[rational number|rational]] coeffients).
 
-An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coefficients. Given a [[field]] $k$ a (algebraic) __[[number field]]__ $K = k[P]$ over $k$ is the minimal [[field]] containing all the roots of a given polynomial $P$ with coefficients in $k$. Usually one considers algebraic number fields over rational numbers. 
+A number (especially a [[complex number]]) which is *not* algebraic is called __transcendental__; famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the [[natural logarithm]].
+
+An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coefficients. Given a [[field]] $k$ the (algebraic) __[[number field]]__ $K = k[P]$ over $k$ is the minimal [[field]] containing all the roots of a given polynomial $P$ with coefficients in $k$. Usually one considers algebraic number fields over rational numbers. 
 
 
 ## Related concepts
@@ -18,4 +20,8 @@ An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coeffi
  
   * [[number field]]
 
+
+[[!redirects algebraic number]]
 [[!redirects algebraic numbers]]
+[[!redirects transcendental number]]
+[[!redirects transcendental numbers]]
