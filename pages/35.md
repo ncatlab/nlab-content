@@ -135,6 +135,8 @@ See
 
 * [[homotopy groups of a Lie groupoid]]
 
+* [[Morita morphism]], [[Hilsum-Skandalis morphism]]
+
 ## References
 
 Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
