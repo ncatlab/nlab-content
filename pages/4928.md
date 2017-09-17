@@ -26,7 +26,7 @@ These make up another class of concurrent architectures.  Here process have a lo
 The challenge is to find adequate mathematical models so as better to understand the behaviour of concurrent systems.
 
 
-(More needs to be put here.  Not sure what though!)
+(More needs to be put here and the above is not that great.  Not sure how to rewrite it and what to add, though!)
 
 ##Models
 
