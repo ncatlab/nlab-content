@@ -159,5 +159,7 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 
 
 
+[[!redirects higher category theory]]
 
-
+[[!redirects higher category]]
+[[!redirects higher categories]]
