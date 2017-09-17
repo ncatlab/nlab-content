@@ -1,0 +1,10 @@
+
+* [webpage](http://www.ingvet.kau.se/juerfuch/)
+
+## Related entries
+
+* [[CFT]]
+
+* [[FFRS formalism]]
+
+category: people
