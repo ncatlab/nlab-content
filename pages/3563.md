@@ -42,7 +42,7 @@ $$\alpha \colon \mathbf{Magma}(A) \to A$$
 
 which evaluates binary words in $A$ as elements in $A$, whenever possible, using the partial applicative structure and induction on the structure of the word. 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition 
 A partial applicative structure $A$ is a _partial combinatory algebra_ (a **PCA**) if there are elements $k, s \in A$ such that 
 * For all $a, b \in A$, $k a$ and $k a b$ are defined and $k a b = a$. 
@@ -73,7 +73,7 @@ Then, we say $A$ is _functionally complete_ if every term $t \in A[X]$, viewed a
 
 For example, if $k$, $s$ are elements which realize $A$ as a PCA, then $k$ represents the term $t = x_0$ viewed as belonging to $\mathbf{Magma}(A + \{x_0, x_1\})$, and $s$ represents the term $(x_0 x_2)(x_1 x_2)$ viewed as belonging to $\mathbf{Magma}(A + \{x_0, x_1, x_2)\}$. 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ###### Theorem 
 A partial combinatory algebra is functionally complete. 
 =-- 
@@ -118,8 +118,7 @@ Y & = & \lambda y. (s I I)(s(k y)(s I I)) \\
 
 ## Examples of PCA's
 
-1. (Kleene's first algebra.) Suppose given a coding of all partial recursive functions of the form 
-$$\mathbb{N}^k \to \mathbb{N}$$ 
+1. (Kleene's first algebra.) Suppose given a coding of all [[partial recursive functions]] of the form  $$\mathbb{N}^k \to \mathbb{N}$$ 
 (ranging over $k = 0, 1, 2, \ldots$) by elements of $\mathbb{N}$, and a coding of elements of $\mathbb{N}^k$ over all $k$ by elements of $\mathbb{N}$. Define a partial applicative structure  
 $$\mathbb{N} \times \mathbb{N} \to \mathbb{N}$$ 
 where $p q = \{p\}([q])$ whenever the right side is defined, where $\{p\}$ is the $p^{th}$ partial recursive function and $[q]$ is the $q^{th}$ tuple. It may be checked that $k$ and $s$, defined extensionally in the obvious way, are partial recursive functions, so we get in this way a PCA. 
@@ -160,7 +159,7 @@ r(p a a') & = & (\lambda z. z a a')(\lambda x. \lambda y. y) \\
 That out of the way, let $P(A)$ be the power set of $A$ and let $X$ be a set. 
 Put a preorder structure on $P(A)^X$ as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $a'$ in $f(x)$, $a$ applied to $a'$ is defined and an element of $g(x)$. We will of course take $f \leq g$ just in case $Hom(f, g)$ is inhabited. 
 
-+-- {: .num_thm} 
++-- {: .num_theorem} 
 ###### Theorem 
 The preorder $P(A)^X$ has finite products, finite coproducts, and is cartesian closed. In other words, the preorder $P(A)^X$ is a [[Heyting prealgebra]]. 
 =-- 
