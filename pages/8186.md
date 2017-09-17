@@ -7,5 +7,6 @@ On the [[allegory|Allegories]] side: it may be said they were first widely publi
 
 The book, while it covers an extraordinary amount of ground in less than 300 pages, is fairly idiosyncratic, especially in the choice of terminology and in the overall arrangement (designed to be self-contained for the diligent reader). There is no list of references given. 
 
+* [[Peter Freyd]] and Andre Scedrov, _Categories, Allegories_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
 
 category: reference
