@@ -10,6 +10,7 @@ This page is to help you copy and past special characters if you want them.  For
 
 Until we get it better organised, here is some stuff copied from [[ericforgy:itex2MML]].  Remember to use iTeX itself when appropriate.
 
+The [itex symbols list](http://xbeta.org/wiki/show/itex) is pretty comprehensive and well-organised.
 
 ### Arrows
 
