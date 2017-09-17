@@ -285,7 +285,7 @@ the standard choice on the right is a 3-category of (multi) [[fusion categories]
 
 * [[morphisms]] are bimodule categories;
 
-* [[2-morphisms]]: bimodule homomrphism functors;
+* [[2-morphisms]]: bimodule homomorphism functors;
 
 * [[n-morphisms|3-morphisms]]: [[natural transformations]] of these.
 
