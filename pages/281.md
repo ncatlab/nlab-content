@@ -34,6 +34,10 @@ which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivale
 
 * **automorphism group**
 
+  * [[inner automorphism group]]
+
+  * [[outer automorphism group]]
+
 * [[automorphism 2-group]]
 
 * [[automorphism ∞-group]]
