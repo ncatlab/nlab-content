@@ -62,3 +62,6 @@ category: people
 [[!redirects étale homotopy group]]
 [[!redirects etale homotopy groups]]
 [[!redirects étale homotopy groups]]
+
+[[!redirects étale fundamental group]]
+[[!redirects étale fundamental groups]]
