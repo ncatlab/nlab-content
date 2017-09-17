@@ -170,7 +170,7 @@ Every [[atomic geometric morphism]] is an [[essential geometric morphism]].
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref.{LeftRightAdjoint}.
+By prop. \ref{LeftRightAdjoint}.
 
 =--
 
