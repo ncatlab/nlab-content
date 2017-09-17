@@ -125,7 +125,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-As discussed there (and as is discussed below) for $A \in \mathbf{T}H$ a [[cohesive homotopy type]] then we may think of $\Pi_{dR}\Omega A$ and of  $\flat_{dR} \Sigma A$  as being the [[de Rham complex]] with [[coefficients]] in $\Pi(\flat_{dR} \Sigma A)$, truncated to negative degree and to non-negative degree, respectively; the canonical map
+As discussed there (and as is discussed below) for $A \in \mathbf{T}_\ast H$ a [[cohesive homotopy type]] then we may think of $\Pi_{dR}\Omega A$ and of  $\flat_{dR} \Sigma A$  as being the [[de Rham complex]] with [[coefficients]] in $\Pi(\flat_{dR} \Sigma A)$, truncated to negative degree and to non-negative degree, respectively; the canonical map
 
 $$
   \array{
@@ -159,7 +159,7 @@ $$
   \,.
 $$
 
-Its component on $\hat E\in T Stab(\mathbf{H})$ we write $ch_{\hat E}$ or $ch_E$, for short.
+Its component on $\hat E\in T_\ast \mathbf{H}$ we write $ch_{\hat E}$ or $ch_E$, for short.
 
 =--
 
