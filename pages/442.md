@@ -17,6 +17,28 @@ that takes the 1-element cardinal to $x$ is commonly supposed to be surjective o
 A **[[model]]** of $T$ is a product-preserving functor $T \to Set$, and _homomorphism of models_ is a natural transformation between such functors. A _morphism_ of theories $T \to T'$ is again a product-preserving functor. Thus, $Fin^{op}$ (the "theory of [[equality]]") is initial in the category of Lawvere theories. 
 
 
+### Remarks
+
+1. If $C$ is a category with finite products, then a group (object) in $C$ may be defined as a product-preserving functor $T_{Grp} \to C$. For example, a topological group may be identified with a functor $T_{Grp} \to Top$, and a Lie group with a product-preserving functor $T_{Grp} \to Man$ into the category of smooth [[manifold]]s. An analogous statement holds for any finitary algebraic theory, when formulated in terms of its Lawvere theory $T$. 
+
+1. Some people use 'finite-product theory' to mean any (small) category with finite products, reserving 'Lawvere theory' to refer to finite product theories with the property that every object is isomorphic to a product of finitely many copies of a given object $x$. Finite-product theories $C$ can be regarded as a special case of multisorted Lawvere theories (see below) where the set of sorts is $Ob(C)$ itself. Some, but not all, the above discussion generalizes to this case. 
+
+1. As _finite-product theories_, Lawvere theories are at one end of a spectrum of [[theory|theories]] of differing logical strengths. For example, there are left exact theories, regular theories, geometric theories, and so on, which require for their interpretation categories of differing degrees of strength in their [[internal logic]]. See also [[classifying topos]].
+
+
+### Variations
+
+* A **multisorted** or multityped Lawvere theory for a given set of sorts $S$ is a category with finite products $C$ together with a function $i: S \to Ob(C)$ such that every object of $C$ is isomorphic to a finite product of objects of the form $i(S)$. An example is the theory for ring-module pairs, which may be regarded as a two-sorted theory in which one sort is interpreted as a ring and the other as a module over that ring. 
+
+* An [[infinitary Lawvere theory]] allows for infinitary operations.  An example is the theory of [[suplattices]], where we have, for every [[cardinal number]] $n$, an operation to take the [[supremum]] of $n$ elements.  While Lawvere theories correspond to finitary monads on $Set$, infinitary Lawvere theories correspond to arbitrary monads.
+
+* A [[Fermat theory]] is a Lawvere theory equipped with a notion of differentiation.
+
+
+
+
+
+
 ## Examples
 
 ### The theory of sets {#TheoryOfSets}
@@ -95,7 +117,7 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 
 * For $k$ a [[field], the category of _free $k$-associative algebras_ is the (syntactic category of the) theory of ordinary [[associative algebra]]s over $k$.
 
-* The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebra]]s.
+* The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebra]]s. This is also a [[Fermat theory]].
 
 ## Properties
 
@@ -192,7 +214,7 @@ $$
   \,.
 $$ 
 
-Since for any set $S$ we have $U_{T_1} F_{T_1}(S) \subset $U_{T_2} F_{T_2}(S)$ it follows that $\Gamma \subset T_{T_2} F_{T_2} U_{T_1}(A)$. For $\langle \Gamma \rangle$ the smalles $T_2$-congruence containing $\Gamma$ we have that $F_{T_2} U_{T_1}(A) / \langle \Gamma \rangle$ is a $T_2$-algebra. 
+Since for any set $S$ we have $U_{T_1} F_{T_1}(S) \subset U_{T_2} F_{T_2}(S)$ it follows that $\Gamma \subset T_{T_2} F_{T_2} U_{T_1}(A)$. For $\langle \Gamma \rangle$ the smallest $T_2$-congruence containing $\Gamma$ we have that $F_{T_2} U_{T_1}(A) / \langle \Gamma \rangle$ is a $T_2$-algebra. 
 
 This one checks is  $f_* A$.
 
@@ -211,24 +233,6 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 =--
 
 
-
-
-## Remarks
-
-1. If $C$ is a category with finite products, then a group (object) in $C$ may be defined as a product-preserving functor $T_{Grp} \to C$. For example, a topological group may be identified with a functor $T_{Grp} \to Top$, and a Lie group with a product-preserving functor $T_{Grp} \to Man$ into the category of smooth [[manifold]]s. An analogous statement holds for any finitary algebraic theory, when formulated in terms of its Lawvere theory $T$. 
-
-1. Some people use 'finite-product theory' to mean any (small) category with finite products, reserving 'Lawvere theory' to refer to finite product theories with the property that every object is isomorphic to a product of finitely many copies of a given object $x$. Finite-product theories $C$ can be regarded as a special case of multisorted Lawvere theories (see below) where the set of sorts is $Ob(C)$ itself. Some, but not all, the above discussion generalizes to this case. 
-
-1. As _finite-product theories_, Lawvere theories are at one end of a spectrum of [[theory|theories]] of differing logical strengths. For example, there are left exact theories, regular theories, geometric theories, and so on, which require for their interpretation categories of differing degrees of strength in their [[internal logic]]. See also [[classifying topos]].
-
-
-## Variations
-
-* A **multisorted** or multityped Lawvere theory for a given set of sorts $S$ is a category with finite products $C$ together with a function $i: S \to Ob(C)$ such that every object of $C$ is isomorphic to a finite product of objects of the form $i(S)$. An example is the theory for ring-module pairs, which may be regarded as a two-sorted theory in which one sort is interpreted as a ring and the other as a module over that ring. 
-
-* An [[infinitary Lawvere theory]] allows for infinitary operations.  An example is the theory of [[suplattices]], where we have, for every [[cardinal number]] $n$, an operation to take the [[supremum]] of $n$ elements.  While Lawvere theories correspond to finitary monads on $Set$, infinitary Lawvere theories correspond to arbitrary monads.
-
-* A [[Fermat theory]] is a Lawvere theory equipped with a notion of differentiation.
 
 
 
