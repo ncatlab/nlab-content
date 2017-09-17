@@ -133,7 +133,7 @@ $$
 $$
 of $n \in \mathbb{N}$ copies of the [[co-span]] $I$ with itself by pushout over adjacent legs exist in $V$;
 
-* and all $V$-objects of morphisms ${}_{pt}[I, I^{\vee n}]_{pt}$ of cospans (as described at [[co-span]]) are weakly equivalent to the point
+* and for all $n$, the $V$-objects of morphisms ${}_{pt}[I, I^{\vee n}]_{pt}$ of cospans (as described at [[co-span]]) are weakly equivalent to the point
  $$ 
    {}_{pt}[I, I^{\vee n}]_{pt}
    \,.
@@ -151,7 +151,7 @@ the following definition is given:
 
 Let $V$ be a [[monoidal model category]] and write $pt$ for the tensor unit in $V$ (not necessarily the terminal object). 
 
-A **segment** object $I$ in a [[monoidal model category]] $V$ is 
+A **[[segment object|segment (object)]]** $I$ in a [[monoidal model category]] $V$ is 
 
 * a factorization 
 
@@ -486,6 +486,7 @@ Then for low $n \in \mathbb{N}$ the above construction yields this
   $$
     \array{
       (0) \to (1)
+
     }
   $$
   
