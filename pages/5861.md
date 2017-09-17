@@ -1154,18 +1154,30 @@ We call $\mathcal{O}_X$ the **[[structure sheaf]]** of $X$.
 +-- {: .num_remark }
 ###### Remark
 
-For $X, A \in \mathbf{H}_{th}$ and for $U \to X$ a [[formally étale morphism]] in $\mathbf{H}_{th}$, we have that 
+For $X, A \in \mathbf{H}_{th}$ and for $U \to X$ a [[formally étale morphism]] in $\mathbf{H}_{th}$ (hence like an [[open subset]] of $X$), we have that 
 
 $$
-  \mathcal{O}_{X}(A)(U) 
-  \coloneqq
-  \Sh_{\mathbf{H}}(X)( U , \mathcal{O}_{X} )
-  \simeq
-  \mathbf{H}(U,A)
-  =
-  A(U)
-  \,.
+  \begin{aligned}
+    \mathcal{O}_{X}(A)(U) 
+    & \coloneqq
+    Sh_{\mathbf{H}_{th}}(X)( U , \mathcal{O}_{X}(A) )
+    \\
+    & \coloneqq   
+    Sh_{\mathbf{H}_{th}}(X)( U , Et(X \times A) )
+    \\
+    & \simeq
+    (\mathbf{H}_{th})_{/X}(U, X \times A)
+    \\
+    & \simeq
+    \mathbf{H}_{th}(U,A)
+    \\
+    & \simeq
+    A(U)
+  \end{aligned}
+  \,,
 $$
+
+where we used the [[adjoint (∞,1)-functor|∞-adjunction]] $(\iota \dashv Et)$ of prop. \ref{EtalificationIsCoreflection} and the [[(∞,1)-Yoneda lemma]].
 
 This means that $\mathcal{O}_{X}(A)$ behaves as the _sheaf of $A$-valued functions over $X$_. 
 
