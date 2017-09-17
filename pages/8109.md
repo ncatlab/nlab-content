@@ -1,0 +1,9 @@
+
+
+## References
+
+* [[Jacob Lurie]], _Chromatic Homotopy Theory_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+
+[[!redirects chromatic level]]
+[[!redirects chromatic filtration]]
+[[!redirects chromatic levels]]
