@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The generalization of [[inductive types]] from [[type theory]] to [[homotopy type theory]].
+
+## Related concepts
+
+[[!include notions of type]]
+
+## References
+
+Expositions include
+
+* [[Mike Shulman]], _Homotopy type theory IV_ ([blog entry](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html))
+
+* [[Peter LeFanu Lumsdaine]], _Higher inductive types, a tour of the menageries_ ([blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/))
+
+* [[Peter LeFanu Lumsdaine]], _Higher Inductive Types: The circle and friends, axiomatically_ ([pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf))
+
+[[!redirects higher inductive types]]
