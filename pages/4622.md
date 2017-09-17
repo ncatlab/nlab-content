@@ -55,6 +55,14 @@ The same is true in the archetypical [[(∞,1)-topos]] [[∞Grpd]]. From that pe
 
 In this sense, the object $false$ in [[Set]] or [[∞Grpd]] may canonically be thought of as being [[generalized the|the]] unique [[empty groupoid]].
 
+## Related concepts
+
+* [[true]], [[unit type]]
+
+* **false**, [[empty type]]
+
+* [[contradiction]], [[inconsistency]]
+
 
 [[!redirects false]]
 [[!redirects False]]
