@@ -133,6 +133,7 @@ See [[CartSp]].
 
 * [[affine space]]
 
+In [[complex geometry]] for purposes of [[Cech cohomology]] the role of Cartesian spaces is played by [[Stein manifolds]].
 
 ## References
 
