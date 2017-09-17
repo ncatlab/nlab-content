@@ -9,6 +9,14 @@
 =--
 =--
 
+* [[special orthogonal Lie algebra]]
+
+* [[string Lie 2-algebra]]
+
+* **fivebrane Lie 6-algebra**
+
+***
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,7 +47,7 @@ $$
   \,.
 $$
 
-But $\mu_7$ is still also a [[∞-Lie algebra cocycle]] on this
+But $\mu_7$ is still also a [[∞-Lie algebra cocycle]] on $\mathfrak{string}$:
 
 $$
   \mu_7 : \mathfrak{string} \to b^6 \mathbb{R}
@@ -68,4 +76,4 @@ As with many of these [[∞-Lie algebra]]-constructions, the existence of the ob
 
 and its relation to [[fivebrane structure]]s and [[quantum anomaly]]-cancellation in [[dual heterotic string theory]] was discussed in 
 
-* SSSII <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">web</a>
+* SSSII (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">web</a>)
