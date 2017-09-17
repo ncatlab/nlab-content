@@ -69,6 +69,8 @@ To be continued...
 
 * [[double Hecke algebra]]
 
+* [[Hecke correspondence]]
+
 * [[Hecke category]]
 
 * [[Iwahori–Hecke algebra]]
