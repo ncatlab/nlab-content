@@ -33,7 +33,7 @@ There are several distinct meaning of what is a Riemann surface, and it can be c
 
 ## Definition
 
-Classically, a **Riemann surface** is a [[connected space|connected]] $1$-dimensional [[complex manifold]], in the strictest sense of 'manifold'.  In other words, it's a [[Hausdorff space|Hausdorff]] [[second countable space]] $M$ which is locally [[homeomorphism|homeomorphic]] to $\mathbb{C}$ via charts (i.e., [[homeomorphisms]]) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is [[holomorphic function|holomorphic]].
+Classically, a **Riemann surface** is a [[connected space|connected]] complex-$1$-dimensional [[complex manifold]], in the strictest sense of 'manifold'.  In other words, it's a [[Hausdorff space|Hausdorff]] [[second countable space]] $M$ which is locally [[homeomorphism|homeomorphic]] to the [[complex plane]] $\mathbb{C}$ via charts (i.e., [[homeomorphisms]]) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is [[holomorphic function|holomorphic]].
 
 There are generalizations e.g. over [[local field]]s in [[rigid analytic geometry]]. 
 
@@ -113,6 +113,8 @@ In the theory of Riemann surfaces, there are several important theorems.  Here a
 * [[super Riemann surface]]
 
 * [[stable vector bundle]]
+
+* [[beta-gamma system]]
 
 ## References
 
