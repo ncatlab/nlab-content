@@ -121,10 +121,113 @@ being an [[exact sequence]]. In this form one often finds the definition of proj
 
 =--
 
+### $F$-Resolutions of an object
+ {#FResolutions}
 
-### Resolution of a complex
+Projective and injective resolutions are typically used for computing the [[derived functor]] of some [[additive functor]] $F \colon \mathcal{A} \to \mathcal{B}$; see at _[[derived functor in homological algebra]]_. While projective resolutions in $\mathcal{A}$ are _sufficient_ for computing _every_ [[left derived functor]] on $Ch_\bullet(\mathcal{A})$ and injective resolutions are sufficient for computing _every_ [[right derived functor]] on $Ch^\bullet(\mathcal{A})$, if one is interested just in a single functor $F$ then such resolutions may be more than _necessary_. A weaker kind of resolution which is still sufficient is then often more convenient for applications. These _$F$-projective resolutions_ and _$F$-injective resolutions_, respectively, we discuss here. A special case of both are _$F$-[[acyclic resolutions]]_.
 
-(...)
+$\,$
+
+Let $\mathcal{A}, \mathcal{B}$ be [[abelian categories]] and let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[additive functor]]. 
+
++-- {: .num_defn #FInjectives}
+###### Definition
+
+Assume that $F$ is [[left exact functor|left exact]]. An [[additive category|additive]] [[full subcategory]] $\mathcal{I} \subset \mathcal{A}$ is called **$F$-injective** (or: consisting of $F$-injective objects) if
+
+1. for every object $A \in \mathcal{A}$ there is a [[monomorphism]] $A \to \tilde A$ into an object $\tilde A \in \mathcal{I} \subset \mathcal{A}$;
+
+1. for every [[short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A, B \in \mathcal{I} \subset \mathcal{A}$ also $C \in \mathcal{I} \subset \mathcal{A}$;
+
+1. for every [[short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+
+=--
+
+And dually:
+
++-- {: .num_defn #FProjectives}
+###### Definition
+
+Assume that $F$ is [[right exact functor|right exact]]. An [[additive category|additive]] [[full subcategory]] $\mathcal{P} \subset \mathcal{A}$ is called **$F$-projective** (or: consisting of $F$-projective objects) if
+
+1. for every object $A \in \mathcal{A}$ there is an [[epimorphism]] $\tilde A \to A$ from an object $\tilde A \in \mathcal{P} \subset \mathcal{A}$;
+
+1. for every [[short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $B, C \in \mathcal{P} \subset \mathcal{A}$ also $A \in \mathcal{P} \subset \mathcal{A}$;
+
+1. for every [[short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $C\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+
+=--
+
+For instance ([Schapira, def. 4.6.5](#Schapira)).
+
+With the $\mathcal{I},\mathcal{P}\subset \mathcal{A}$ as above, we say:
+
++-- {: .num_defn #FProjectivesResolution}
+###### Definition
+
+For $A \in \mathcal{A}$, 
+
+* an **$F$-injective resolution** of $A$ is a [[cochain complex]] $I^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ and a [[quasi-isomorphism]]
+
+  $$
+    A \stackrel{\simeq_{qi}}{\to} I^\bullet
+  $$ 
+
+* an **$F$-projective resolution** of $A$ is a [[cochain complex]] $Q_\bullet \in Ch_\bullet(\mathcal{P}) \subset Ch^\bullet(\mathcal{A})$ and a [[quasi-isomorphism]]
+
+  $$
+    Q_\bullet \stackrel{\simeq_{qi}}{\to} A
+    \,.
+  $$ 
+
+=--
+
+Let now $\mathcal{A}$ have enough projectives / enough injectives, respectively.
+
++-- {: .num_example #FAcyclicObjectsAreFProjectiveObjects}
+###### Example
+
+For $F \colon \mathcal{A} \to \mathcal{B}$ an [[additive functor]],
+let $Ac \subset \mathcal{A}$ be the [[full subcategory]] on the $F$-[[acyclic objects]]. Then
+
+* if $F$ is [[left exact functor|left exact]], then $\mathcal{I} \coloneqq Ac$ is a subcategory of $F$-injective objects;
+
+* if $F$ is [[right exact functor|right exact]], then $\mathcal{P} \coloneqq Ac$ is a subcategory of $F$-projective objects.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the case that $F$ is right exact. The other case works dually.
+
+The first condition of def. \ref{FInjectives} is satisfied because every [[injective object]] is an $F$-[[acyclic object]] and by assumption there are enough of these. 
+
+For the second and third condition of def. \ref{FInjectives} use that there is the [[long exact sequence]] of [[derived functors]] prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
+
+$$
+  0 \to A \to B \to C \to R^1 F(A) \to R^1 F(B) \to R^1 F(C) \to R^2 F(A) \to R^2 F(B) \to R^2 F(C) \to \cdot
+  \,.
+$$
+
+For the second condition, by assumption on $A$ and $B$ and definition of $F$-[[acyclic object]] we have $R^n F(A) \simeq 0$ and $R^n F(B) \simeq 0$ for $n \geq 1$ and hence short exact sequences
+
+$$
+  0 \to 0 \to R^n F(C) \to 0
+$$
+
+which imply that $R^n F(C)\simeq 0$ for all $n \geq 1$, hence that $C$ is acyclic. 
+
+Similarly, the third condition is equivalent to $R^1 F(A) \simeq 0$. 
+
+=--
+
++-- {: .num_example #FAcyclicResolution}
+###### Example
+
+The $F$-projective/injective resolutions by [[acyclic objects]] as in example \ref{FAcyclicObjectsAreFProjectiveObjects} are called **$F$-acyclic resolutions**.
+
+=--
 
 ## Properties
 
@@ -1991,6 +2094,7 @@ which is a [[contradiction]].
 For instance section 4.5 of 
 
 * [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ {#Schapira}
 
 or sections 3.1 and 4.2 in 
 
@@ -2006,3 +2110,7 @@ or section 4 of
 
 [[!redirects injective resolution]]
 [[!redirects injective resolutions]]
+
+[[!redirects acyclic resolution]]
+[[!redirects acyclic resolutions]]
+
