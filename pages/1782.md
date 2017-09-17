@@ -134,19 +134,24 @@ See at _[[Beilinson regulator]]_.
 
 ## References 
 
+Survey is in 
+
+*  Dominique Arlettaz, _Algebraic K-theory of rings from a topological viewpoint_ ([pdf](http://www.math.uiuc.edu/K-theory/0420/Arlettaz-survey.pdf))
+
+
 A fundamental paper is
 
 * [[R. W. Thomason]], Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.
 
 A reference for classical constructions is
 
-* [[Charles Weibel]], _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
- {#Weibel}
+* {#Weibel} [[Charles Weibel]], _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
+ 
 
 The [[(infinity,1)-category theory]] picture is discussed in
 
-* [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
- {#BlumbergGepnerTabuada}
+* {#BlumbergGepnerTabuada} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
+ 
 
 (in terms of [[noncommutative motives]]) and in
 
@@ -154,9 +159,10 @@ The [[(infinity,1)-category theory]] picture is discussed in
 
 For discussion of stable phenomena in algebraic K-theory, see section 4 of 
 
-* [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0908/0908.1938v2.pdf))
- {#Cohen}
+* {#Cohen} [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0908/0908.1938v2.pdf))
+ 
 
 Discussion of the [[comparison map between algebraic and topological K-theory]] includes
 
 * [[Jonathan Rosenberg]], _Comparison between algebraic and topological K-theory for Banach algebras and $C^\ast$-algebras_   ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
+
