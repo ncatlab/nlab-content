@@ -28,6 +28,8 @@ An [[irreducible representation]] of the [[super Poincaré Lie algebra]] is call
 
 * [[spin representation]]
 
+* [[BPS state]]
+
 * [[supersymmetry]]
 
 * [[Wigner classification]]
