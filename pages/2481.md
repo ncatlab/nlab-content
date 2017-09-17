@@ -45,6 +45,8 @@ See also
 
 ## **3.** Coherent $\infty$-Topoi
 
+* [[coherent (∞,1)-topos]]
+
 * [[compact topos]]
 
 ## **4.** Deligne's completeness theorem
@@ -56,6 +58,8 @@ See also
 ## **7.** Digression: Henselian rings
 
 ## **8.** Spectral Deligne-Mumford stacks
+
+* [[Deligne-Mumford stack]]
 
 ## **9.** Comparison results
 
