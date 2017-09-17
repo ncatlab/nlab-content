@@ -240,9 +240,10 @@ The second and third condition say in words that $(\mathcal{X}, \mathcal{O}_{\ma
 
 ## References
 
-Standard references on smooth manifolds include
+A textbook reference is
 
-(...)
+* John Lee, _[Introduction to Smooth Manifolds](http://www.math.washington.edu/~lee/Books/smooth.html)_, Springer Graduate Texts in Mathematics 218 ([pdf of chapter 1](http://www.math.washington.edu/~lee/Books/Smooth/c01.pdf))
+
 
 The general abstract framework of [[higher geometry]] referred to above is discussed in 
 
