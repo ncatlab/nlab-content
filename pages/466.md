@@ -144,7 +144,7 @@ For emphasis, here is the interpretation of these three corollaries in words:
 
 The Yoneda lemma tends to carry over to all important generalizations of the context of [[locally small category|categories]]:
 
-* There is an analog of the Yoneda lemma in [[enriched category theory]].
+* There is an analog of the Yoneda lemma in [[enriched category theory]]. See [[enriched Yoneda lemma]].
 
 * In the context of [[module]]s (see also [[Day convolution]]) the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identifies the bimodule $\hom_C(-, -)$ as a unit bimodule.
 
