@@ -21,6 +21,10 @@ Whatever it is otherwise, [[string theory]] turns out to be an organizational pr
 
 There is also 
 
-* [[AdS/CFT correspondence]].
+* the relation between [[11-dimensional supergravity]] and the various string theories, see
+
+  * [[F-theory]]
+
+* the [[AdS/CFT correspondence]].
 
 [[!redirects dualities in string theory]]
