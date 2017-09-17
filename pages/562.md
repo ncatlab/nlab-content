@@ -102,6 +102,7 @@ While almost any fibration between "concrete" categories that arises in practice
 
 We might also think that it is evil to say that the target of the cartesian arrow $\phi$ is equal to the given object $e$, akin to the topological distinction between [[Serre fibrations]] and [[Dold fibrations]], where the initial point of a lifted path can only be specified up to homotopy.  However, this part of the definition is really better regarded as a typing assertion, akin to saying, in the definition of a [[product]] of two objects $A$ and $B$, that the target of the two projections $A\times B\to A$ and $A\times B \to B$ are *equal* to $A$ and $B$.  Moreover, any weakening along these lines would actually be equivalent to the version above: if we demand only that for any $f\colon a\to b$ in $B$ and $e\in E_b$, there exists a cartesian $\phi\colon e' \to \hat{e}$ with $p(\phi)=f$ and an isomorphism $\hat{e}\cong e$ in the fiber $E_b$, then you can just compose $\phi$ with the isomorphism $\hat{e}\cong e$ to get a cartesian arrow $\hat{\phi}\colon e'\to e$ with $p(\phi)=f$ still.  The reason this doesn't work in topology is that paths come with parametrizations, and requiring the lower triangle (in the square drawn at [[Dold fibration]]) to commute strictly prevents the reparametrization necessary to compose with a vertical homotopy.
 
+The idea of [[proto-fibration]] is closely related to this.
 
 ### Internal version 
 
