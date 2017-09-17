@@ -9,6 +9,10 @@ The [[equivariant cohomology]] version of the [[generalized cohomology theory]] 
 
 e.g. _[[equivariant operator K-theory]]_, _[[equivariant KK-theory]]_.
 
+## Examples
+
+The $G$-equivariant K-theory of the point for $G$ a [[compact Lie group]] is the [[representation ring]] of $G$.
+
 ## Related concepts
 
 * [[Baum-Connes conjecture]]
