@@ -100,6 +100,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Jonas Frey]]
 * [[Jonas Meyer]]
 * [[Josep Elgueta]]
+* [[Jürgen Koslowski]]
 * [[Kareem|Kareem Carr]]
 * [[Kevin Lin]]
 * [[Kevin Walker]]
