@@ -23,9 +23,10 @@ In [[physics]] the dynamics of a system may be encoded by a [[functional]] -- ca
 
 For emphasis the description of dynamics by action functionals is called the **Lagrangean** approach. Another forumlation of dynamics in physics that does not involve an action functional explicitly is [[Hamiltonian mechanics]] on [[phase space]]. At least in certain classes of cases the relation and equivalence of both approaches is understood. Generally the formulation of [[quantum field theory]] in terms of action functionals suffers from a lack of precise understanding of what the [[path integral]] over the action functional really means. 
 
+
 ## Definition
 
-Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]] with a [[natural numbers object]] and equipped with a [[line object]] $\mathbb{A}^1$. Let $C \in \mathbf{H}$ be the [[configuration space]] of a physical system. Then an **action functional** is a morphism
+Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]] with a [[natural numbers object]] and equipped with an additive [[line object]] $\mathbb{A}^1$ (see there). Let $C \in \mathbf{H}$ be the [[configuration space]] of a physical system. Then an **action functional** is a morphism
 
 $$
   \exp(i S(-)) : C \to \mathbb{A}^1 / \mathbb{Z}
@@ -39,15 +40,7 @@ $$
   \,.
 $$
 
-
-This is the [[Euler-Lagrange equation]] of the system. The [[homotopy fiber]]
-
-$$
-  P \to C
-$$
-
-of this morphism is the [[covariant phase space]] inside the configuration space: the space of classically realized trajectories/histories of the system.
-
+This is the [[Euler-Lagrange equation]] of the system. The [[critical locus]] of $S$ is the [[covariant phase space]] inside the configuration space: the space of classically realized trajectories/histories of the system. If $\mathbf{H}$ models [[derived geometry]] then this critical locus is presented by a [[BRST-BV complex]].
 
 
 ## Local action functionals
