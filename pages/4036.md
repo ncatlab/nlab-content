@@ -97,7 +97,7 @@ i \downarrow & & \downarrow \\
 D^{n+1} & \to & Y
 }$$ 
 
-also admits a good open cover. Let $\{U_\alpha\}$ be a good open cover of $X$ closed under finite intersections, and choose a contracting [[homotopy]] $h_\alpha: I \times U_\alpha \to U_\alpha$ such that $h_\alpha(0, -) = id$ and $h_\alpha(1, -)$ is constant. For any subset $S \subseteq D^{n+1}$, let $Hull(S)$ denote the [[convex hull]] of $S$. Then, if $V$ is relatively open in the boundary $S^n$, $Hull(V)$ is open in $D^{n+1}$. It follows that the image in $Y$ of 
+also admits a good open cover. Let $\{U_\alpha\}$ be a good open cover of $X$ closed under nonempty finite intersections, and choose a contracting [[homotopy]] $h_\alpha: I \times U_\alpha \to U_\alpha$ such that $h_\alpha(0, -) = id$ and $h_\alpha(1, -)$ is constant. For any subset $S \subseteq D^{n+1}$, let $Hull(S)$ denote the [[convex hull]] of $S$. Then, if $V$ is relatively open in the boundary $S^n$, $Hull(V)$ is open in $D^{n+1}$. It follows that the image in $Y$ of 
 
 $$V_\alpha \coloneqq U_\alpha \cup Hull(\phi^{-1}(U_\alpha)) \subseteq X \cup D^{n+1}$$ 
 
@@ -107,7 +107,7 @@ $$H_\alpha: I \times V_\alpha \to V_\alpha$$
 by 
 
 $$
-H_\alpha(v, t) = \left\{ 
+H_\alpha(t, v) = \left\{ 
 
 \array{
 (1 - 2t)v + 2t \frac{v}{|v|} & 0 \leq t \lt 1/2, v \in int(D^{n+1}) \cap V_\alpha \\
