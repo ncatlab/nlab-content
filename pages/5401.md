@@ -11,7 +11,6 @@
 
 Entries discussing aspects of _cohesion_ include the following
 
-
 * [[motivation for cohesion]], [[geometry of physics]]
 
 * [[cohesive topos]]
@@ -32,6 +31,8 @@ Entries discussing aspects of _cohesion_ include the following
 
 * [[tangent cohesive (∞,1)-topos|stable cohesion]]
 
+* [[global equivariant homotopy theory]]
+
 * [[Euclidean-topological ∞-groupoids|continuous cohesions]]
 
 * [[smooth ∞-groupoid|smooth cohesion]]
@@ -45,7 +46,7 @@ Entries discussing aspects of _cohesion_ include the following
 
 * [differential calculus in cohesion](differential+calculus#InCohesiveHomotopyTheory)
 
-* [[schreiber:differential cohomology in a cohesive topos|differential cohomology]]
+* [[differential cohomology]]/[[differential cohomology diagram]]
 
 * [[∞-Chern-Weil theory introduction]]
 
