@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include functorial quantum field theory - contents]]
 </div>
@@ -9,7 +8,6 @@
 {:toc}
 
 #Definition#
-
 
 ....
 
@@ -57,8 +55,6 @@ regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.
 
 * [[Edward Frenkel]], [[Constantin Teleman]], 
   [[AJ Tolland]], _Gromov-Witten Gauge Theory I_ ([arXiv](http://arxiv.org/abs/0904.4834))
-
-An explicit [[FQFT]] point of view is developed in
 
 * [[Constantin Teleman]], _The structure of 2D semi-simple field theories_ ([arXiv](http://arxiv.org/abs/0712.0160))
 
