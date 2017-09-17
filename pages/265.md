@@ -295,13 +295,13 @@ This is how derived functors are traditionally introduced in homological algebra
 
 * [[homotopy limit]], [[homotopy colimit]], [[homotopy Kan extension]]
 
+* [[derived category]]
+
 ## References
 
-A standard textbook reference on derived funcotrs in [[homological algebra]] is chapter 2 of 
+### General
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
-
-More general discussion in [[homotopy theory]] is for instance in 
+General discussion of derived functors in [[homotopy theory]] is for instance in 
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
@@ -313,6 +313,24 @@ Discussion in the context of [[(∞,1)-categories]] is in section 5.2.4 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
+
+### In homological algebra
+
+An standard textbook introduction to [[derived functors in homological algebra]] is in 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_.
+
+A systematic discussion of this case from the point of view of [[localization]] and [[homotopy theory]] is in section 13 of 
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
+
+and, similarly, in section 7 of 
+
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ {#Schapira}
+
+
+
 
 [[!redirects derived functors]]
 
