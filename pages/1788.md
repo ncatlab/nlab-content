@@ -454,6 +454,8 @@ some more text.
 
 $$\int_{j=1}^n \frac{1}{j}$$
 
+$$x^2 + y^2\]
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
