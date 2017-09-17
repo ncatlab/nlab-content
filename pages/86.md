@@ -628,10 +628,12 @@ A standard textbook on the application of BRST-BV to [[gauge theory]] is
 
 
 
+* S. Lyakhovich, A. Sharapov,  _BRST theory without Hamiltonian and Lagrangian_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/0411/0411247v2.pdf))
+
+* [[Florian Schätz]], _BFV-complex and higher homotopy structures_ ([pdf](http://www.math.ist.utl.pt/~fschaetz/BFV-complex.pdf))
 
 * MO: [what is the BV formalism and its uses](http://mathoverflow.net/questions/30352/what-is-the-batalin-vilkovisky-formalism-and-what-are-its-uses-in-mathematics/32443#32443)
 
-* S. Lyakhovich, A. Sharapov,  _BRST theory without Hamiltonian and Lagrangian_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/0411/0411247v2.pdf))
 
 
 [[!redirects BV-theory]]
