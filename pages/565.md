@@ -38,7 +38,7 @@ The object $c_0$ is called a [[generator]] of the category.
 
 +-- {: .un_remark}
 ###### Remark
-Sometimes (often?) the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statement of concrete [[duality|dualities]] induced by [[dual adjunction]]s.
+Often the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statement of concrete [[duality|dualities]] induced by [[dual adjunction]]s.
 =--
 
 
@@ -53,6 +53,22 @@ This abstract nonsense indicates the usual collection of examples of concrete ca
 * Take $ C $ is the category of [[Banach space]]s with morphisms those (everywhere-defined) linear transformations with norm bounded (above) by $ 1 $ (so $ \| T v \| \leq \| v \| $ for all $ v $ in the source).  Then there are two versions of $ U $ that one may use: one where $ U ( V ) $ (for $ V $ a Banach space) consists of *every* vector in $ V $, and one where $ U ( V ) $ consists of those vectors bounded by $ 1 $ (so the closed unit ball in $ V $).  The first may seem more obvious at first, but only the second is representable (by a $ 1 $-dimensional Banach space).
 
 * A concrete category that is equipped with the structure of a [[site]] in a compatible way is a [[concrete site]].
+
+
+## Characterization
+
++--{: .un_theorem}
+###### Theorem
+A [[finitely complete category]] is concrete, in the sense that it admits a faithful functor to $Set$, if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] subobjects.
+=--
++--{: .proof}
+###### Proof
+"Only if" was proven by Isbell, "Two set-theoretical theorems in categories", Fund. Math 53 (1963).  To prove it, note that if $F: C\to D$ is a faithful functor, then it is injective on equivalence classes of regular subobjects.  For suppose that $m\colon a \to x$ is the [[equalizer]] of $f,g\colon x\rightrightarrows y$, and $n\colon b\to x$ is the equalizer of $h,k\colon x\rightrightarrows z$.  If $F(a) \cong F(b)$ as subobjects of $F(x)$, then since $f m = g m$ and so $F(f)\circ F(m) = F(g)\circ F(m)$, we must also have  $F(f)\circ F(n) = F(g)\circ F(n)$; hence (since $F$ is faithful) $f n = g n$, so that $n$ factors through $m$.  Conversely, $n$ factors through $m$, so we have $a\cong b$ as subobjects of $x$.  Since $Set$ is regularly well-powered, it follows that any category admitting a faithful functor to $Set$ must also be so.
+
+(Actually, Isbell proved a more general condition which applies to categories that may lack finite limits.)
+
+"If" was proven by [[Peter Freyd]], "Concreteness", JPAA 3 (1973).  The argument is rather more involved, passing through [[additive categories]], and is not reproduced here.
+=--
 
 
 ## Generalisations
