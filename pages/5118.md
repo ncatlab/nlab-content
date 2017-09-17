@@ -91,7 +91,7 @@ We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overse
 The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). While the left adjoint $L$ will not extend to monoids unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$:
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be a [[monoidal category]] with colimits, write $Mon(C)$ for its category of [[monoid]]s and $U_C : Mon(C) \to C$ for the evident [[forgetful functor]]. This has a [[left adjoint]] $F_C : C \to Mon(C)$ where on an object $X \in C$ the underlying object of $F_C X$ is
@@ -137,7 +137,7 @@ Conversely, every choice for $f_1$ extends to a morphism $f$ in $Mon(C)$ this wa
 
 =--
 
-+-- {: .un_prop #AdjunctionOnMonoids}
++-- {: .num_prop #AdjunctionOnMonoids}
 ###### Proposition
 
 Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a pair of adjoint functors between monoidal categories where $R$ is a lax monoidal functor and $D$ has all small colimits.
@@ -175,14 +175,6 @@ in $Mon(C)$ of the following two morphisms
   $$
 
   which is componentwise given by the [[lax comonoidal functor|lax comonoidal structure]] on $L$ induced by the lax monoidal structure on $R$.
-
-This monoid left adjoint is related to the original left adjoint by a [[natural isomorphism]]
-
-$$
-  L^{mon} \circ F_D
-  \simeq
-  F_C \circ L
-$$
 
 =--
 
@@ -260,6 +252,23 @@ The coequalizer property says indeed precisely that these two adjuncts are equal
 =--
 
 
++-- {: .num_lemma #LemmaOnNaturalIso}
+###### Lemma
+
+There is a [[natural isomorphism]]
+
+$$
+  L^{mon} \circ F_D
+  \simeq
+  F_C \circ L
+  \,.
+$$
+
+=--
+
+This is considered on p. 305 of ([SchwedeShipley](#SchwedeShipley)).
+
+
 ### Lift to a Quillen adjunction on monoids {#LiftToQuillenAdjunctionOnMonoids}
 
 We now describe how the adjunction  $(L^{mon} \dashv R)$ established above becomes a [[Quillen adjunction]] for the [[transferred model structure]]s on the categories of monoids, transferred along the [[stuff, structure, property|forgetful]]/[[free functor]] adjunction 
@@ -315,7 +324,7 @@ $$
 
 described above exists (just as an adjunction, not yet assumed to be a Quillen adjunction).
 
-+-- {: .un_lemma #VeryFirstTechnicalLemma}
++-- {: .num_lemma #VeryFirstTechnicalLemma}
 ###### Lemma
 
 The morphism
@@ -377,7 +386,7 @@ commutes. This follows from the unitality of the [[lax monoidal functor]] $R$.
 
 =--
 
-+-- {: .un_lemma #OneTechnicalLemma}
++-- {: .num_lemma #OneTechnicalLemma}
 ###### Lemma
 
 For every monoid $B \in Mon(D)$ which is an $(L^\mon \dashv R)$-[[cell object]], the $(L \dashv R)$-[[adjunct]]
@@ -406,11 +415,11 @@ $(L \dashv R)$-adjunct $\chi_I$ is a weak equivalence.
 
 We now proceed from this by induction over the cells of the [[cell object]] $B$.
 
-So assume now that we have already shown that on some cell object $B$ the morphism $\chi_B$ is a weak equivalence. We want to deduce then that that after forming a new monoid $P$ by cell attachment, i.e. by a pushout
+So assume now that we have already shown that on some cell object $B$ the morphism $\chi_B$ is a weak equivalence. We want to deduce then that that after forming a new monoid $P$ by cell attachment, i.e. by a [[pushout]]
 
 $$
   \array{
-    F K &\to& F'
+    F K &\to& F K'
     \\
     \downarrow && \downarrow 
     \\
@@ -419,6 +428,33 @@ $$
 $$
 
 for $K \to K'$ a cofibration in $D$, also $\chi_P : L P \to L^{mon} P $ is a weak equivalence.
+
+Notice that since $L^{mon}$ is left adjoint also
+
+$$
+  \array{
+    L^{mon} F K &\to& L^{mon} F K'
+    \\
+    \downarrow && \downarrow 
+    \\
+    L^{mon} B &\to& L^{mon} P
+  }
+$$
+
+is a pushout in $Mon(C)$, and by the natural isomorphism from [the above lemma](#LemmaOnNaturalIso) so is
+
+$$
+  \array{
+    F L K &\to& F L K'
+    \\
+    \downarrow && \downarrow 
+    \\
+    L^{mon} B &\to& L^{mon} P
+  }
+  \,.
+$$
+
+
 
 * We claim that $B$ is cofibrant and that we can without restriction assume $K$ and $K'$ to be cofibrant in $D$.
 
@@ -451,13 +487,32 @@ for $K \to K'$ a cofibration in $D$, also $\chi_P : L P \to L^{mon} P $ is a wea
     \,.
   $$
 
-  Since cofibrations are preserved under pushout, it follows that also $B \coprod_K K'$ is cofibrant if $K \to K'$ is a cofibration. So $B \to B \coprod_K K'$ can be used in place of $K \to K'$.
+  Since cofibrations are preserved by the Quillen left adjoint $F$ and under pushout, it follows that also $B \coprod_K K'$ is cofibrant if $K \to K'$ is a cofibration. So $B \to B \coprod_K K'$ can be used in place of $K \to K'$.
 
-Now
+Notice that this means that our pushout square is in fact a [[homotopy pushout]] square (as discussed there). In particular a weak equivalence of these pushout diagrams will induce a weak equivalence of the pushouts, so that is what we will establish.
 
-(...)
+We now use the proof of ([SchwedeShipleyAlgebras, lemma 6.2](#SchwedeShipleyAlgebras)) for getting the following statement about the object underlying $P$
 
-(quite a bit still to be filled in)
+This $P$ is a [[colimit]] of a sequence of cofibrations
+
+$$
+  P \simeq \lim_{\to} ( B := P_0 \hookrightarrow P_1 \hookrightarrow P_2 \hookrightarrow \cdots )
+$$
+
+such that each morphism $P_{n-1} \hookrightarow P_n$ is a pushout in $D$ of a particular cofibration $Q_n(K,K', B) \hookrightarrow (B \otimes K')^{\otimes n} \otimes B$
+
+By the coresponding disccussion of these pushouts under $L^{mon}$ it follows that also $L^{mon} P$ is the colimit of a sequence of cofibrations betwen objects $R_n$ that are pushouts of these particular cofibrations.
+
+And the morphism $\chi_P$ respects all that and sends
+
+$$
+  \chi_{P_n} : L P_n \to L^{mon} R_n 
+$$
+
+at each stage of the cell attachments. So it is sufficient to show that the three components of these maps on the pushout squares are weak equivalences. Since we showed above that our pushout squares are actually [[homotopy pushout]] squares, this will imply that also $\chi_P$ is a weak equivalence.
+
+This again works by using ([SchwedeShipleyAlgebras, lemma 6.2](#SchwedeShipleyAlgebras)).
+
 
 =--
 
@@ -469,7 +524,7 @@ If $U_C$ [creates](#CreatedModelStructure) the model structure on $Mon(C)$ and t
 
 =--
 
-This is a special case of lemma 6.2 in ([SchwedeShipleyAlgebras](#SchwedeShipleyAlgebras))
+This is a special case of  ([SchwedeShipleyAlgebras, lemma 6.2](#SchwedeShipleyAlgebras))
 
 +-- {: .proof}
 ###### Proof 
