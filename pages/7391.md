@@ -946,7 +946,7 @@ $$
 
 This in turn means that $X_n \to X_0$ has the right lifting property against the tree boundary inclusions. Since these are the generating cofibration in the [[model structure on dendroidal sets]], this implies that $X_n \to X_0$ is an equivalence. So this shows that the second item implies the first.
 
-For the converse, it is sufficient to see that all the morphisms in the set are acyclic cofibrations in the locally constant model structure. (...)
+For the converse, it is sufficient to see that all the morphisms in the set are acyclic cofibrations in the locally constant model structure. This follows with the discussion [here](model+structure+on+dendroidal+sets#RelationToModelStructureForDendroidalCompleteSegal) at _[[model structure on dendroidal sets]]_.
 
 =--
 
