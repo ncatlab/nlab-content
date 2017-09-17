@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -81,7 +81,7 @@ $$
 
 Thus, formal definitions of pasting diagram include conditions which impose a consistent "directionality" of the cells so they can be pasted together.
 
-In an [[n-category]] a pasting diagram is similarly a collection of [[k-morphism|n-morphism]] with a prescribed way how they are to fit together at their boundaries. There are a number of ways of formalizing pasting diagrams, depending partly on the constituent shapes one allows, and also on the technical hypotheses that allow proofs of pasting theorems, which include directionality conditions but usually also "loop-freeness" conditions to ensure there exists a unique way to resolve or evaluate the diagram. (N.B.: usually a completely unambiguous evaluation is only possible in a strict $n$-category; in a weak $n$-category, one allows uniqueness up to a "contractible space of choices".) 
+In an [[n-category]] a pasting diagram is similarly a collection of [[k-morphism|n-morphisms]] with a prescribed way how they are to fit together at their boundaries. There are a number of ways of formalizing pasting diagrams, depending partly on the constituent shapes one allows, and also on the technical hypotheses that allow proofs of pasting theorems, which include directionality conditions but usually also "loop-freeness" conditions to ensure there exists a unique way to resolve or evaluate the diagram. (N.B.: usually a completely unambiguous evaluation is only possible in a strict $n$-category; in a weak $n$-category, one allows uniqueness up to a "contractible space of choices".) 
 
 Despite some technical differences among the formalizations, the core idea throughout is that the overall geometric shapes of pasting diagrams should be (contractible) $n$-dimensional polyhedra, broken down into smaller polyhedral cells which come equipped with directionality or orientations, that can be sensibly pasted together as in the above descriptions once the cells have been assigned values in an $n$-category. 
 
