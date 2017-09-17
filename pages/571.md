@@ -53,6 +53,24 @@ Monomorphisms are preserved by [[right adjoint]] [[functor]]s.
 =--
 
 
+## Variations
+
+At [epimorphism](/nlab/show/epimorphism#Variations) there is a long list of variations on the concept of epimorphism.  Each of these, of course, has a dual notion for monomorphism, but the ones most commonly used are:
+
+* [[split monomorphism]] = morphism which has a [[retraction]]
+* [[normal monomorphism]] = a [[kernel]] of some morphism (in a category with [[zero morphisms]])
+* [[regular monomorphism]] = an [[equalizer]] of some [[parallel pair]]
+* [[strong monomorphism]] = a monomorphism [[orthogonality|right orthogonal]] to [[epimorphisms]]
+* monomorphism
+
+Frequently, regular and strong monics coincide.  For instance, this is the case in any [[quasitopos]], and also in [[Top]], where they are the subspace inclusions (the plain monomorphisms are the injective functions).
+
+Sometimes, all monomorphisms are regular---this seems to happen a bit more frequently than for epimorphisms.  For instance, this is the case in any [[pretopos]] (including any [[topos]], such as [[Set]]), but also in any [[abelian category]], and also in the category [[Grp]].
+
+In [[Ab]] and in any [[abelian category]], all monomorphisms are normal.  But this is not so in [[Grp]], where (despite the fact that all monomorphisms are regular), the normal monics are the inclusions of [[normal subgroups]] (hence the name).  In any [[Ab-enriched category]], all regular monics are normal, but not all monics need be regular.
+
+In a [[Boolean topos]], such as [[Set]] (in [[classical mathematics]]), any monomorphism with [[inhabited set|inhabited]] domain is split.  Of course, no monic with empty domain and inhabited codomain can be split (in contrast to the dual case, where it can happen that all epimorphisms split -- the [[axiom of choice]]).
+
 
 ## Related concepts 
 
