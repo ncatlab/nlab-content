@@ -9,4 +9,8 @@
 
 * [[model structure on dg-algebras]]
 
+* [[string topology]]
+
+* [[Simons-Sullivan structured bundle]]
+
 category: people
