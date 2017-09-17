@@ -566,7 +566,7 @@ So a genuine $\infty$-Lie algebra valued connection is a cocycle with values in 
 
 $$
   \array{
-    C^\infty(U)\otimes \Omega^\bullet(\Delta k)
+    C^\infty(U \times \Delta k)_{vert}
     &\leftarrow&
     CE(\mathfrak{g})
     &&&
@@ -589,7 +589,7 @@ $$
   \,,
 $$
 
-where the top morphism encodes the cocycle for the underlying $G = \tau_n\exp(\mathfrak{g})$-[[nLab:principal ∞-bundle]], where the middle morphism encodes the connection data and the bottom morphism the [[nLab:curvature characteristic form]]s.
+(with $\Omega^\bullet(U \times \Delta^k)_{vert}$ the dg-algebra of [[vertical differential form]]s on the bundle $U \times \Delta^k \to U$), where the top morphism encodes the cocycle for the underlying $G = \tau_n\exp(\mathfrak{g})$-[[nLab:principal ∞-bundle]], where the middle morphism encodes the connection data and the bottom morphism the [[nLab:curvature characteristic form]]s.
 
 Such $\infty$-Lie algebra valued connections were introduced in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">SSSI</a> and further studied in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>.
 
