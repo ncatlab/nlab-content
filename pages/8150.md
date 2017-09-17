@@ -26,7 +26,7 @@ A natural [[tensor product]] of [[chain complexes]] that makes the [[category of
 Let $R$ be a [[commutative ring]] and $\mathcal{A} = R$[[Mod]] the [[category]] of [[modules]] over $R$. Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] of $R$-modules. 
 
 
-+-- {: .num_defn }
++-- {: .num_defn #TheTensorProdComplex}
 ###### Definition
 
 For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $X \otimes Y \in Ch_\bullet(\mathcal{A})$ for the chain complex whose component in degree $n$ is given by the [[direct sum]]
@@ -39,9 +39,231 @@ over all tensor products of components whose degrees sum to $n$,
 and whose [[differential]] is given on elements $(x,y)$ of homogeneous degree by
 
 $$
-  d (x, y) = (d_X x, y) + (-1)^{deg(y)} (x, d_Y y)
+  \partial^{X \otimes Y} (x, y) = (\partial^X x, y) + 
+  (-1)^{deg(y)} (x, \partial^Y y)
   \,.
 $$
+
+=--
+
+## Examples
+
+### Square as tensor product of interval with itself
+ {#SquareAsIntervalSquared}
+
++-- {: .num_example }
+###### Example
+
+
+For $R$ some [[ring]], let $I_\bullet \in Ch_\bullet(R Mod)$ be the chain complex given by
+
+$$
+  I_\bullet =
+  \left[
+     \cdots \to 0 \to 0 \to R \stackrel{\partial^{I}_0}{\to} R \oplus R
+  \right]
+  \,,
+$$
+
+where $\partial^I_0 = (-id, id)$. 
+
+This is the [[normalized chain complex]] of the [[chain on a simplicial set|simplicial chain complex]] of the standard simplicial interval, the 1-[[simplex]] $\Delta_1$, as follows: we may think of 
+
+$$
+ I_0 = R \oplus R \simeq R[ \{(0), (1)\} ]
+$$
+
+as the $R$-[[linear span]] of two [[basis]] elements labelled "$(0)$" and "$(1)$", to be thought of as the two 0-[[chain on a simplicial set|chains]] on the endpoints of the interval. Similarly we may think of
+
+$$
+  I_1 = R \simeq R[\{(0 \to 1)\}]
+$$
+
+as the free $R$-module on the single basis element which is the unique non-degenerate 1-[[simplex]] $(0 \to 1)$ in $\Delta^1$.
+
+Accordingly, the [[differential]] $\partial^I_0$ is the oriented [[boundary]] map of the interval, taking this basis element to
+
+$$
+  \partial^I_0 : (0 \to 1) \mapsto (1) - (0) 
+$$
+
+and hence a general element $r\cdot(0 \to 1)$ for some $r \in R$ to 
+
+$$
+  \partial^I_0 : r\cdot(0 \to 1) \mapsto r\cdot (1) - r\cdot(0) 
+  \,.
+$$
+
+We now write out in full details the tensor product of chain complexes of $I_\bullet$ with itself, according to def. \ref{TheTensorProdComplex}:
+
+$$
+  S_\bullet \coloneqq I_\bullet \otimes I_\bullet
+  \,.
+$$
+
+By definition and using the above choice of [[basis]] element, this is in low degree given as follows:
+
+$$
+  \begin{aligned}
+    S_0 
+    &=  
+    I_0 \oplus I_0 
+    \\
+    & =
+    (R \oplus R) \otimes (R \oplus R)
+    \\
+    & \simeq R \oplus R \oplus R \oplus R
+    \\
+    & = 
+    \left\{
+       r_{00} \cdot ((0),(0)')
+       +
+       r_{01} \cdot ((0),(1)')
+       +
+       r_{10} \cdot ((1),(0)')
+       +
+       r_{11} \cdot ((1),(1)')
+       |
+       r_{\cdot, \cdot} \in R
+    \right\}
+  \end{aligned}
+  \,,
+$$
+
+where in the last line we express a general element as a linear combination of the canonical basis elements which are obtained as tensor products $(a,b) \in R\otimes R$ of the previous basis elements. Notice that by the definition of [[tensor product of modules]] we have relations like
+
+$$
+  r ( (0), (1)') = (r(0), (1)') = ((0), r(1)')
+$$
+
+etc. 
+
+Similarly then, in degree-1 the tensor product chain complex is
+
+$$
+  \begin{aligned}
+     (I \otimes I)_1 
+     & =
+     (I_0 \otimes I_1) \oplus (I_1 \otimes I_0)
+     \\
+     & \simeq
+     R \otimes (R \oplus R) \oplus (R \oplus R) \otimes R
+     \\
+     & \simeq
+     R \oplus R \oplus R \oplus R
+     \\
+     & \simeq
+     \left\{
+       r_{0} \cdot ((0),(0\to 1)')
+       + 
+       r_{1} \cdot ((1), (0 \to 1)')
+       + 
+       \bar r_0 \cdot ((0\to 1), (0)')
+       +
+       \bar r_1 \cdot ((0 \to 1), (1)')
+       |
+       r_{\cdot}, \bar r_{\cdot} \in R
+     \right\}
+  \end{aligned}
+  \,.
+$$
+
+And finally in degree 2 it is 
+
+$$
+  \begin{aligned}
+     (I \otimes I)_2
+     & \simeq
+     I_1 \otimes I_1
+     \\
+     & \simeq
+     R \otimes R
+     \\
+     & \simeq R
+     \\
+     & \simeq
+     \left\{
+       r\cdot ((0 \to 1), (0 \to 1)')
+       |
+       r \in R
+     \right\}
+  \end{aligned}
+  \,.
+$$
+
+All other contributions that are potentiall present in $(I \otimes I)_\bullet$ vanish (are the [[trivial group|0-module]]) because all higher terms in $I_\bullet$ are.
+
+The tensor product basis elements appearing in the above expressions have a clear [[geometry|geometric]] interpretation: we can label a square with them as follows
+
+$$
+  \array{
+     ((0),(1)')
+     &&\underset{((0\to 1),(0))}{\to}&&
+     ((1),(1)')
+     \\
+     \\
+     {}^{\mathllap{((0),(0\to 1)')}}\uparrow 
+     &&\righttoleftarrow^{((0 \to 1), (0\to 1)')}&& 
+     \uparrow^{\mathrlap{((1),(0 \to 1)')}}
+     \\
+     \\
+     ((0),(0)')
+     &&\underset{((0\to 1),(0)')}{\to}&&
+     ((1),(0)')
+  }
+  \,.
+$$
+
+This diagram indicates a [[cellular complex|cellular]] square and identifies its canonical [[singular chains]] with the elements of $(I \otimes I)_\bullet$. The arrows indicate the orientation. For instance the fact that
+
+$$
+  \begin{aligned}
+    \partial^{I \otimes I} ((0 \to 1), (0)')
+    & =
+    (\partial^I (0 \to 1), (0)')
+    + (-1)^1
+    ((0\to 1), \partial^I (0))
+    \\
+    & = 
+    ( (1) - (0), \;(0)' )
+    - 0
+    \\
+    & = 
+    ((1), (0)') - ((0), (0)')
+  \end{aligned} 
+$$
+
+says that the oriented [[boundary]] of the bottom morphism is the bottom right element (its target) minus the bottom left element (its source), as indicated. Here we used that the differential of a degree-0 element in $I_\bullet$ is 0, and hence so is any tensor product with it.
+
+Similarly the oriented boundary of the square itself is computed to
+
+$$
+  \begin{aligned}
+    \partial^{I \otimes I} ((0 \to 1), (0 \to 1)')
+    &=
+    (\partial^I (0 \to 1), (0 \to 1)')
+    - 
+    ((0 \to 1), \partial^I(0 \to 1))
+    \\
+    & = 
+    ((1)- (0), (0 \to 1)')
+    -
+    ((0 \to 1), (1)' - (0)')
+    \\
+    & = 
+    ((1), (0 \to 1)')
+    -
+    ((0), (0 \to 1)')
+    -
+    ((0 \to 1), (1)')
+    +
+    ((0 \to 1), (0)')
+  \end{aligned}
+  \,,
+$$
+
+which can be read as saying that the boundary is the evident boundary thought of as oriented by drawing it _counterclockwise_ into the plane, so that the right arrow (which points up) contributes with a +1 prefactor, while the left arrow (which also points up) contributes with a -1 prefactor.
+
 
 =--
 
