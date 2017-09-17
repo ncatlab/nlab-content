@@ -16,7 +16,7 @@
 
 ## Idea ##
 
-The **type** and **cotype** of a [[Banach space]] measure how far it is from being a [[Hilbert space]].  The definition is based on the observation, due to [[von Neuman]], that a Banach space is a Hilbert space if and only if it satisfies the [[parallelogram identity]].  Recall that this states that in a Hilbert space,
+The **type** and **cotype** of a [[Banach space]] measure how far it is from being a [[Hilbert space]].  The definition is based on the observation, due to [[John von Neumann]], that a Banach space is a Hilbert space if and only if it satisfies the [[parallelogram identity]].  Recall that this states that in a Hilbert space,
 $$
 \| x + y\|^2 + \|x - y\|^2 = 2\|x\|^2 + 2\|y\|^2.
 $$
