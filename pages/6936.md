@@ -6,8 +6,14 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
 =--
 =--
+=--
+
+
 
 
 #Contents#
@@ -190,7 +196,9 @@ Finally, the fourth through seventh constructors say that $L X$ is a spectrum, b
 
 ## Related concepts
 
-* [[inductive type]]
+* [[inductive type]], [[initial algebra of an endofunctor]]
+
+* **higher inductive type**, [[initial algebra of a presentable ∞-monad]]
 
 
 ## References
