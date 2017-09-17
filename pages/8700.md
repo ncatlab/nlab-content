@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[continuous function]] between two [[compact topological spaces]], its _degree_ is a measure for how often the function "wraps its domain around its codomain".
+
+## References
+
+Wikipedia, _[Degree of a continuous mapping](http://en.wikipedia.org/wiki/Degree_of_a_continuous_mapping)_
+
