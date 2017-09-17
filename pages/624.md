@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,6 +12,13 @@
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+Being *dualizable* is often thought of as a [[category theory|category-theoretic]] notion of *finiteness* for objects in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its [[tensor product]] just when it is finite-dimensional, and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] just when it is a finite [[cell complex|cell]] spectrum.
+
+A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the stable homotopy category are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[Sup]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.)
+
 
 ## In a monoidal category
 
@@ -30,11 +36,12 @@ If $C$ is [[braided monoidal category|braided]] then left and right adjoints in 
 +-- {: .un_remark}
 ###### Remark
 
-nfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  But if we define right duals to be the same as right adjoints in $\mathbf{B}C$, then a right dual of $A$ is an object $A^*$ equipped with a **unit** (or *coevaluation*)
+Unfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  But if we define right duals to be the same as right adjoints in $\mathbf{B}C$, then a right dual of $A$ is an object $A^*$ equipped with a **unit** (or *coevaluation*)
 $$i: I \to A^* \otimes A $$
 and **counit** (or *evaluation*)
 $$e : A \otimes A^* \to I $$
 satisfying the 'triangle identities' familiar from the concept of [[adjunction]].
+Of course, in a [[symmetric monoidal category]], there is no difference between left and right duals.
 
 =--
 
@@ -46,6 +53,13 @@ If every object of $C$ has a left and right dual, then $C$ is called a [[rigid m
 =--
 
 See [[category with duals]] for more discussion.
+
+
+### Examples
+
+* Let $V$ be a finite-dimensional [[vector space]] over a field $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the triangle identities, so $V^*$ is a dual of $V$ in $Vect_k$.
+
+* Let $M$ be a finite-dimensional [[manifold]], choose an embedding $M\hookrightarrow \mathbb{R}^n$ for some $n$, and let $Th(N X)$ be the [[Thom spectrum]] of the [[normal bundle]] of this embedding.  Then the [[Thom collapse]] map defines an $\eta$ which exhibits $Th(N X)$ as a dual of $\Sigma_+^\infty M$ in the [[stable homotopy category]].  This is a version of [[Spanier-Whitehead duality]].
 
 
 ### Properties
@@ -82,6 +96,10 @@ As before, we may equivalently state this after [[delooping]] the monoidal struc
 =--
 
 ## References
+
+Duals in a monoidal category are a very classical notion.  A large number of examples can be found in
+
+* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, [PDF](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf).
 
 The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to section 2.3 of
 
