@@ -12,7 +12,7 @@ $$ L_a b = a \cdot b $$
 and $[L_a, L_b]$ is the usual commutator of operators using [[composition]]:
 $$ [L_a, L_b] = L_a L_b - L_b L_a $$
 while $[a,b]$ is the commutator defined using the $\cdot$ operation:
-$$ [a,b] = a \cdot b - b \cdot a$$
+\[ [a,b] = a \cdot b - b \cdot a  \label{torsion_free_identity} \]
 
 Unravelling this, we see a pre-Lie algebra is vector space $A$ equipped with a bilinear operation $\cdot: A \times A \to A$ such that
 \[ a \cdot (b \cdot c) - b \cdot (a \cdot c) = 
@@ -26,12 +26,10 @@ makes $A$ into a Lie algebra.  But this is also true for pre-Lie algebras!  It i
 
 ## Examples
 
-First, given a [[manifold]] with a torsion-free [[connection]] $\nabla$ on its [[tangent bundle]], we can make the space of [[tangent vector fields]] into a pre-Lie algebra by defining
+First, given a [[manifold]] with a flat torsion-free [[connection]] $\nabla$ on its [[tangent bundle]], we can make the space of [[tangent vector fields]] into a pre-Lie algebra by defining
 $$  v \cdot w = \nabla_v w $$
-The definition of 'torsion-free' is precisely \eqref{basic_identity}.  The Lie algebra arising from this pre-Lie algebra is just the usual Lie algebra of vector fields.
-+-- {: .query}
-Isn't it the case the connection must be both torsionless and flat (i.e., the curvature is zero) in order for the PLA (pre-Lie algebra) conditions to be satisified?  Thanks.
-=--
+The definition of 'flat' is precisely \eqref{basic_identity}, whereas that of 'torsion-free' is precisely \eqref{torsion_free_identity}.  The Lie algebra arising from this pre-Lie algebra is just the usual Lie algebra of vector fields.
+
 
 Second, suppose $O$ is a [[linear operad]], and let $A$ be the free $O$-[[algebra of an operad|algebra]] on one generator.  As a vector space we have
 $$  A = \bigoplus_{n} O_n/S_n \, .$$
