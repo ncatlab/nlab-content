@@ -34,14 +34,13 @@ This can be thought of as:
 *  the $2$-dimensional [[normed division algebra]];
 *  the [[Clifford algebra]] $Cl_{0,1}(\mathbb{R})$;
 *  the elliptic $2$-dimensional algebra of [[hypercomplex numbers]];
-*  the [[complexification]] of $\mathbb{R}$.
+*  the [[complexification]] of $\mathbb{R}$;
+*  the connected locally compact Hausdorff topological algebraically closed field.
 
-
-We think of $\mathbb{R}$ as a [[subset]] of $\mathbb{C}$ by identifying $a$ with $a + 0 \mathrm{i}$.  $\mathbb{C}$ is equipped with an [[involution]], called __complex conjugation__, that maps $\mathrm{i}$ to $\bar{\mathrm{i}} = -\mathrm{i}$:
-$$ \overline{a + \mathrm{i} b} = a - \mathrm{i} b .$$
+We think of $\mathbb{R}$ as a [[subset]] of $\mathbb{C}$ by identifying $a$ with $a + \mathrm{i} 0$.  $\mathbb{C}$ is equipped with a $\mathbb{R}$-linear [[involution]], called __complex conjugation__, that maps $\mathrm{i}$ to $\bar{\mathrm{i}} = -\mathrm{i}$. Concretely, $ \overline{a + \mathrm{i} b} = a - \mathrm{i} b $. 
 $\mathbb{C}$ also has an [[absolute value]]:
 $$ |{a + \mathrm{i} b}| = \sqrt{a^2 + b^2} ;$$
-notice that the absolute value of a complex number is a non-negative real number, with
+notice that the absolute value of a complex number is a nonnegative real number, with
 $$ |z|^2 = z \bar{z} .$$
 
 
@@ -51,9 +50,9 @@ Most concepts in analysis can be extended from $\mathbb{R}$ to $\mathbb{C}$, as 
 
 ### Geometry of complex numbers
 
-The complex numbers form a plane, the __complex plane__ $\mathbb{C} \cong \mathbb{R}^2$.  The standard real-valued coordinates on this plane are $\mathrm{x}$ and $\mathrm{y}$, with $\mathrm{z} = \mathrm{x} + \mathrm{i}\mathrm{y}$ the [[identity function]] on $\mathbb{C}$.  Much of [[complex analysis]] can be understood through [[differential topology]] by identifying $\mathbb{C}$ with $\mathbb{R}^2$, using either $\mathrm{x}$ and $\mathrm{y}$ or $\mathrm{z}$ and $\bar{\mathrm{z}}$.  (For example, Cauchy\'s integral theorem is Green\'s/Stokes\'s theorem.)
+The complex numbers form a plane, the __complex plane__. Indeed, a map $\mathbb{C} \to \mathbb{R}^2$ given by sending $\mathrm{x} + \mathrm{i}\mathrm{y}$ to the standard real-valued coordinates $(\mathrm{x},\mathrm{y})$ on this plane is a bijection. Much of [[complex analysis]] can be understood through [[differential topology]] by identifying $\mathbb{C}$ with $\mathbb{R}^2$, using either $\mathrm{x}$ and $\mathrm{y}$ or $\mathrm{z}$ and $\bar{\mathrm{z}}$.  (For example, Cauchy\'s integral theorem is Green\'s/Stokes\'s theorem.)
 
-It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C}$, the [[Riemann sphere]] $\overline{\mathbb{C}}$ (note that the bar here does *not* indicate complex conjugation).  One may think of $\overline{\mathbb{C}}$ as $\mathbb{C} \cup \{\infty\}$; functions valued in $\mathbb{C}$ but containing 'poles' may be taken to be valued in $\overline{\mathbb{C}}$, with $f(\zeta) = \infty$ whenever $\zeta$ is a pole of $f$.
+It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C}$, the [[Riemann sphere]] $\mathbb{C}P^1$.  One may think of $\mathbb{C}P^1$ as $\mathbb{C} \cup \{\infty\}$; functions valued in $\mathbb{C}$ but containing 'poles' may be taken to be valued in $\overline{\mathbb{C}}$, with $f(\zeta) = \infty$ whenever $\zeta$ is a pole of $f$.
 
 ## Related concepts
 
