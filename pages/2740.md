@@ -215,6 +215,10 @@ $$
 
 =--
 
+### Lagrangian submanifolds and coisotropic submanifolds
+
+The [[Lagrangian dg-submanifolds]] (see there for more) of a Poisson Lie algebroid correspond to the [[coisotropic submanifolds]] of the corresponding [[Poisson manifold]].
+
 ## Related concepts ##
 
 * Under [[Lie integration]] a Poisson Lie algebroid is supposed to yield a [[symplectic groupoid]].
