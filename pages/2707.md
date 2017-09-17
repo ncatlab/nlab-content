@@ -67,9 +67,9 @@ Then (with the list of such axioms suitably completed) we want to say that:
 
 **Idea of Definition.**
  
-1. The [[initial object]] -- to be denoted $DM$ -- in the evident [[(∞,2)-category]] of such functors $D$ is the the **motive** (or the "motive functor" or the like).
+1. The [[initial object]] -- to be denoted $SH$ -- in the evident [[(∞,2)-category]] of such functors $D$ is the the **motive** (or the "motive functor" or the like).
 
-1. For every $X \in \mathcal{C}$ the direct image $p_*(1) \in DM(Spec k)$ of the tensor unit under the projection $X \to Spec k$ to the base space is **the motive of $X$**.
+1. For every $X \in \mathcal{C}$ the exceptional direct image $p_#(1) \in SH(Spec k)$ of the tensor unit under the projection $X \to Spec k$ to the base space is **the motive of $X$**.
 
 **Idea of one central theorem.** The assignment that sends $X \in \mathcal{C}$ to the stable [[A1-homotopy theory]] over $X$ is such an initial object.
 
