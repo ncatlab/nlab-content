@@ -56,7 +56,7 @@ where
 
 * the **twistor space** is the [[complex projective space]] $\mathbb{C}P^3 = Gr_1(\mathbb{C}^4)$;
 
-* the correspondence space is the space of lines in planes in $\mathbb{C}^4$.
+* the correspondence space $Gr_{1, 2}(\mathbb{C}^4)$ is the space of lines in planes in $\mathbb{C}^4$.
 
 
 (e.g. [Ward-Wells 90](#WardWells90))
