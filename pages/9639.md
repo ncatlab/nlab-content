@@ -18,6 +18,14 @@ A quick review of the description via [[Chern-Simons theory]] with further point
 
 * Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, [arXiv:0807.2857](http://arxiv.org/abs/0807.2857)
 
+J. Bellissard introduced an approach via [[noncommutative geometry]] and Connes-Chern character: 
+
+* J. Bellissard, A. van Elst, H. Schulz Baldes, _The noncommutative geometry of the quantum Hall effect_, 79 pages, J. Math. Phys. __35__, 5373 (1994) [cond-mat/9411052](http://arxiv.org/abs/cond-mat/9411052) [doi](http://link.aip.org/link/doi/10.1063/1.530758)
+
+In terms of [[Berry phase]] and Chern numbers in 
+
+* Joseph E. Avron, Daniel Osadchy, Ruedi Seiler, _A Topological look at the quantum Hall effect_, Physics Today __56__:8, [doi](http://dx.doi.org/10.1063/1.1611351)
+
 Relation to [[Pfaffian]] state is illuminated in 
 
 * [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B(1991)362 [pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
