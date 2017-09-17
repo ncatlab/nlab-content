@@ -42,7 +42,7 @@ For $\mathcal{C}$ a [[category]], a [[class]] $D \subset Mor(\mathcal{C})$ of [[
 It follows automatically that the [[full subcategory]] on $D$ of the [[arrow category]] $\Arr(\mathcal{C})$ is [[replete subcategory|replete]]; in other words, the [[property]] of $\mathcal{C}$-morphisms given by membership in $D$ is not [[evil]].
 
 
-+-- {: num_defn #well-rooted}
++-- {: .num_defn #well-rooted}
 ###### Definition
 
 The category with displays is called **well rooted** if it has a [[terminal object]] $1$ and all the morphisms to $1$ are display maps.
