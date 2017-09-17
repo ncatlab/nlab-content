@@ -13,6 +13,7 @@
 
 * _[[Universal Homotopy Theories]]_
 
+* _[[Combinatorial model categories have presentations]]_
 
 [[!redirects Dan Dugger]]
 
