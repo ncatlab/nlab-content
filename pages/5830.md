@@ -45,9 +45,11 @@ The following list displays some keywords defined in the [[Coq]]-implementation 
 
 Let $C$ be a given ambient [[(∞,1)-category]] which 
 
-* has a [[terminal object in an (∞,1)-category|terminal object]];
+* has [[(∞,1)-pullback]]s and [[(∞,1)-pushout]]s, 
 
-* is [[(∞,1)-tensoring|tensored]] over [[∞Grpd]]. 
+  * hence has a [[terminal object in an (∞,1)-category|terminal object]];
+
+* is [[cartesian closed (∞,1)-category|cartesian closed]].
 
 Then
 
@@ -67,7 +69,7 @@ For $X, Y \in C$ two objects
 
     X -> Y : Type
 
-denotes the [[(∞,1)-categorical hom-space|∞-hom space]] $C(X,Y) \in $ [[∞Grpd]], regarded as an object of $C$ via the [[(∞,1)-tensoring]].
+denotes the [[internal hom]] $[X,Y] \in C$.
 
     P (x : X) : Type
 
@@ -84,10 +86,6 @@ The total space object $P$ of this bundle (the _[[dependent sum]]_ of the bundle
 or
 
     total (fun (x : X) => P x) : Type
-
-or
-
-    exists x : X , P x : Type
 
 The code
 
