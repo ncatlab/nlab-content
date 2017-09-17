@@ -1,0 +1,7 @@
+
+Related entries include: [[harmonic form]], [[Hodge theory]]
+
+MathOverflow: [why-is-the-laplacian-ubiquitous](http://mathoverflow.net/questions/54986/why-is-the-laplacian-ubiquitous)
+
+[[!redirects Laplacian]]
+[[!redirects Laplace operators]]
