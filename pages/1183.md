@@ -83,6 +83,8 @@ We draw from ([FHLT, section 3](#FHLT)).
 ### Quantum field theory
  {#ExpositionQuantumFieldTheory}
 
+#### Definition
+
 For our purposes here, a [[quantum field theory]] of [[dimension]] $n$ is a [[symmetric monoidal functor]]
 
 $$
@@ -110,6 +112,57 @@ We think of data as follows:
 
 * the [[morphism]] $Z(\hat \Sigma) : Z(\Sigma_{in}) \to Z(\Sigma_{out})$ that $\Sigma$ assigns to any [[cobordism]] $\hat \Sigma$ with incoming [[boundary]] $\Sigma_{in}$ and outgoing boundary $\Sigma_{out}$ is the [[propagator]] along $\hat \Sigma$: it maps every state $\psi \in Z(\Sigma_{in})$ of the system over $\Sigma_{in}$ to the state $Z(\Psi) \in \Sigma_{out}$ that is the result of the evolution of $\psi$ along $\hat \Sigma$ by the _dynamics_ of the system. Or conversely: the action of $Z$ encodes what this dynamics is supposed to be.
 
+#### Examples
+ {#ExpositionQFTExamples}
+
+* A simple but archetypical example is this: let $S := Riem$ be [[Riemannian manifold|Riemannian structure]]. Then the category $Bord_1^{Riem}$ of 1-dimensional cobordisms equipped with Riemannian structure is generated (as a [[symmetric monoidal category]]) from [[interval]]s 
+
+  $$
+    \bullet \stackrel{t}{\to} \bullet
+  $$
+
+  equipped with a [[length]] $t \in \mathbb{R}_+$. Composition is given by addition of lengths
+
+  $$
+    (\bullet \stackrel{t_1}{\to} \bullet \stackrel{t_2}{\to})
+    = 
+    (\bullet \stackrel{t_1 + t_2}{\to} \bullet)
+    \,.
+  $$
+
+  Therefore a 1-dimensional [[Euclidean quantum field theory]]
+
+  $$
+    Z : Bord_1^{Riem} \to Vect
+  $$
+
+  is specified by
+  
+  * a [[vector space]] $\mathcal{H}$ ("of [[state]]s") assigned to the point;
+
+  * for each $t \in \mathbb{R}_+$ a linear endomorphism
+
+    $$
+      U(t) : \mathcal{H} \to \mathcal{H}
+    $$
+
+    such that 
+
+    $$  
+      U(t_1 + t_2) = U(t_2) \circ U(t_1)
+      \,.
+    $$
+
+  This is just a system of [[quantum mechanics]]. If we demand that $Z$ respects the [[smooth structure]] on the space of morphisms in $Bord_1^{Riem}$ then there will be a linear map $i H : \mathcal{H} \to \mathcal{H}$ such that
+
+   $$
+     U(t) = \exp(i H t)
+     \,.
+   $$
+
+   This $H$ is called the [[Hamilton operator]] of the system.
+   
+   (We are glossing here over some technical fine print in the definition of $Bord_1^{Riem}$. Done right we have that $\mathcal{H}$ may indeed be an infinite-dimensional vector space. See [[(1,1)-dimensional Euclidean field theories and K-theory]])
 
 ### Classical field theory
  {#ExpositionClassicalFieldTheory}
