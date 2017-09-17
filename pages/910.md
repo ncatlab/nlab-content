@@ -47,7 +47,9 @@ is a homeomorphism (not just a $k$-homeomorphism).
 
 [[Todd Trimble]]: That may be just the point: that the domain is not necessarily a $k$-space. I have to admit that I haven't worked through the details of this exposition, but one thing I tripped over is the fact that we're dealing with _all_ topological spaces $X$, $Y$, not just $k$-spaces. 
 
-[[Mike Shulman]]: But any topological space is isomorphic in $k\Top$ to its $k$-ification, right?  So $k\Top$ might as well be defined to consist of $k$-spaces and continuous maps.
+[[Mike Shulman]]: But any topological space is isomorphic in $k\Top$ to its $k$-ification, right?  So $k\Top$ might as well be defined to consist of $k$-spaces and continuous maps. 
+
+[[Todd Trimble]]: Okay, you're right that makes sense. So in that case, it seems that Zoran definitely has a point here. 
 =--
 
 The topology on $k\Top(X,Y)$ that is used here is the test-open
