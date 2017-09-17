@@ -36,7 +36,7 @@ On [[truncated object of an (∞,1)-category|0-truncated]] objects the notion re
 
 ## References
 
-* [[Mike Shulman]], ([blog comment](golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html#c041358))
+* [[Mike Shulman]], ([blog comment](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html#c041358))
 
 [[!redirects initial algebra of a presentable ∞-monad]]
 
