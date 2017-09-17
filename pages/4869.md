@@ -19,14 +19,11 @@
 
 A __bridge__ in a [[knot diagram]] is an arc that is the overpass in at least one crossing.
 
-The __bridge number__, $b(K)$ of a [[knot]] $K$ is the minimum number of bridges occuring in a diagram of the knot.
+The __bridge number__, $b(K)$ of a [[knot]] $K$ is the minimum number of bridges occurring in a diagram of the knot.
 
 By convention the [[unknot]] has bridge number equal to $1$.
 
-+-- {: .query}
-Why not $0$?  (I don\'t see any bridges in the obvious diagram.)  Are there numerical operations on bridge numbers that only work for the unknot if its bridge number is $1$?  Can we motivate the existence of a bridge in the unknot by proper application of [[negative thinking]]?
-=--
-
+Almost by default this gives a knot invariant as it takes the minimum over all [[knot diagram|knot diagrams]] that represent the isotopy class of the knot. (There is some work to do, but this is left for the moment!)
 
 ## Example
 
@@ -54,14 +51,16 @@ has three bridges, but the trefoil knot actually has bridge number 2, as shown:
 
 The first drawing corresponds to the picture as a (2,3)-[[torus knot]]. The knot thus can be represented on the surface of a solid torus $S^1\times D^2$ in $S^3$. The 3-sphere can be represented as the union of two solid tori with, in this case, the second one being $D^2\times S^1$, where the boundary of the $D^2$ in each case is the corresponding $S^1$ of the other case. Thinking of the trefoil on this other solid torus it is a $(3,2)$-torus knot .... (the second picture) and this has just two bridges, so $b(T_{2,3})\leq 2$.
 
-How does one know that the trefoil does not have $b(K) = 1$.  For that we use
+*How does one know that the trefoil does not have $b(K) = 1$?*  
+
+For that we use
 +-- {: .un_proposition}
 ###### Proposition
 
 A knot $K$ has $b(K) = 1$ if and only if $K$ is the unknot.
 =--
 
-To complete the proof one needs to show or know that the trefoil is a non-trivial knot. That is most simply done using some invariant such as 3-[[n-colorability|colorability]].
+To complete the proof that $b(trefoil)= 2$, one needs to show or know that the trefoil is a non-trivial knot. That is most simply done using some invariant such as 3-[[n-colorability|colorability]].
 
 +-- {: .un_proposition}
 ###### Proposition
@@ -71,8 +70,7 @@ The bridge number is a [[knot invariant]].
 This is more or less 'by default' as $b(K)$ is defined as a minimum over all [[knot diagram|knot diagrams]].
 
 #####Remark:
-
-Why is there the convention  that $b(unknot)= 1$? There is a neat result that means that if you know bridge number for [[prime knot|prime knots]] then you can (theoretically) calcuate t for all composite knots. This states the following:
+Why is there the convention  that $b(unknot)= 1$? There is a neat result that means that if you know bridge number for [[prime knot|prime knots]] then you can (theoretically) calculate it for all composite knots. This states the following:
 +-- {: .un_proposition}
 ###### Proposition
 
