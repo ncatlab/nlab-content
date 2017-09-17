@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Burt_Ovrut)
+
+## related $n$Lab pages
+
+* [[string phenomenology]]
+
+category: people
