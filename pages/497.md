@@ -1,5 +1,5 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -8,6 +8,7 @@
 In [[logic]], the principle of **excluded middle** states that every [[truth value]] is either true or false. (This is sometimes called the 'axiom' or 'law' of excluded middle, either to emphasise that it is or is not optional; 'principle' is a relatively neutral term.) One of the many meanings of [[classical logic]] is to emphasise that this principle holds in the logic; in contrast, it fails in [[intuitionistic logic]].
 
 The principle of excluded middle (hereafter, PEM), as a statement about truth values themselves, is accepted by nearly all mathematicians; those who doubt or deny it are a distinct minority, the [[constructive mathematics|constructivists]]. However, when one [[internalization|internalises]] mathematics in categories other than [[Set|the category of sets]], there is no doubt that excluded middle often fails internally. See the examples listed at [[internal logic]]. (Those categories in which excluded middle holds are called [[Boolean category|Boolean]]; in general, the adjective 'Boolean' is often used to indicate the applicability of PEM.)
+
 
 ## PEM versus AC 
 
@@ -25,4 +26,12 @@ On the other hand, if PEM holds, then we can show by induction that if $A$ and $
 
 In particular, the axiom of choice implies PEM.  This argument, due originally to Diaconescu, can be internalized in any [[topos]]. However, other weak versions of choice such as [[countable choice]] (any surjection to a countable set (which for this purpose is any set isomorphic to the set of natural numbers) has a section), [[dependent choice]], or even [[COSHEP]] do not imply PEM. In fact, it is often claimed that axiom of choice is *true* in constructive mathematics (by the BHK interpretation of predicate logic), leading to much argument about exactly what that means.
 
+
 category: foundational axiom
+
+[[!redirects Excluded Middle]]
+[[!redirects excluded middle]]
+[[!redirects law of excluded middle]]
+[[!redirects the law of excluded middle]]
+[[!redirects principle of excluded middle]]
+[[!redirects the principle of excluded middle]]
