@@ -5,7 +5,8 @@
 
 ## Idea
 
-Since there are several meanings of _[[spectrum]]_ there are accordingly several things one may mean by "spectral geometry".
+Since there are several meanings of _[[spectrum]]_ there are accordingly several things one may mean by "spectral geometry". Most of those belong
+either to the geometry as seen either by point spectra of [[spectral theory]] (of operators, families of operators, operator algebras, rings, associative algebras, abelian categories etc.), or by spectra in the sense of [[stable homotopy theory]] like [[symmetric spectra]], $E_\infty$-spectra, ring spectra...
 
 
 ### Geometry seen by operator spectra
