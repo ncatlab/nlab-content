@@ -154,15 +154,8 @@ Every [[proper model category|proper]] [[cofibrantly generated model category|co
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is ([RezkSchwedeShipley,prop 1.3](#RezkSchwedeShipley)).
 
-This is prop 1.3 
-
-* [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_ American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
-
-
-=--
 
 
 +-- {: .num_theorem }
@@ -181,15 +174,10 @@ structure on $s A = [\Delta^{op}, A]$ such that
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is theorm 3.1 in
-
-* [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_ American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
+This is ([RezkSchwedeShipley, theorm 3.1](#RezkSchwedeShipley)).
 
 
-=--
 
 ## Warning on terminology
 
@@ -207,6 +195,9 @@ section 9.1.5 of
 * [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 
 of Mathematical Surveys and Monographs , American Mathematical Society, 
 2009.
+
+* [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_ American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
+ {#RezkSchwedeShipley}
 
 section A.3 in
 
