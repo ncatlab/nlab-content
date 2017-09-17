@@ -34,7 +34,7 @@ The following conditions on a [[category]] $C$ are equivalent.  When they are sa
 
    ![cube](http://quicklatex.com/cache3/ql_af6fe9cbb3a7ee55b65eda25feb2062b_l3.png)
 
-   if $X\to Y$ is a monomorphism, the bottom square is a pushout, and the left and back faces are pullbacks, then the top face is a pushout if and only if the front and right face are pullbacks.
+   if $X\to Y$ is a monomorphism, the bottom square is a pushout, and the left and back faces are pullbacks, then the top face is a pushout if and only if the front and right face are pullbacks.  In other words, pushouts of monomorphisms are [[van Kampen colimits]].
 
 =--
 
