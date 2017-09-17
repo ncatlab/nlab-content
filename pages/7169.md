@@ -80,7 +80,9 @@ Notably, the [[diagonal]] of the intersection pairing in in dimension $2k-1$ is 
 Its [[quadratic refinement]] is discussed in 
 ([Hopkins-Singer](#HopkinsSinger)), induced from/modeled on [[characteristic elements of a bilinear form|characteristic elements]] given by [[integral Wu structures]].
 
+### On framed manifolds
 
+On a [[framed manifold]] the intersection pairing has a canonical [[quadratic refinement]], leading to the [[Kervaire invariant]].
 
 ## Related concepts
 
@@ -99,8 +101,8 @@ Introductions and surveys include
 
 Discussion of the intersection pairing in [[ordinary differential cohomology]] and especially its [[quadratic refinement]] is in 
 
-* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
- {#HopkinsSinger}
+* {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ 
 
 [[!redirects intersection pairings]]
 
