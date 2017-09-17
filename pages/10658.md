@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -26,6 +25,7 @@
 [[motive|Motivic]] structures enters [[quantum physics]] in two dual guises, related to on the one hand [[algebraic deformation quantization]] and on the other hand to [[geometric quantization]]
 
 ### Via perturbative algebraic deformation quantization
+ {#ViaPerturbativeAlgebraicDeformationQuantization}
 
 In the first case one observes that [[formal deformation quantization]] of $n$-dimensional [[prequantum field theory]] amounts to choosing an inverse [[equivalence]] to the [[formality]] map from [[En-algebras]] to [[Pn-algebras]], this is explained at _[Motivic Galois group action on the space of quantizations](deformation+quantization#MotivicGaloisGroup)_. 
 
