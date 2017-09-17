@@ -48,8 +48,7 @@ A [[category]] $C$ is called **regular** if
 
 =--
 
-+-- {: .un_remark}
-###### Remarks
+We make the following remarks:
 
 * The kernel pair is always an [[congruence]] on $d$ in $C$; informally, $\ker(f) = d\times_c d$ is the [[subobject]] of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the 'kernel' of a function in [[Set]]). The coequalizer above is supposed to be the "object of equivalence classes" of $\ker(f)$ as an internal [[equivalence relation]].
 
@@ -61,18 +60,16 @@ A [[category]] $C$ is called **regular** if
 
   along a morphism $c' \to c$ is again a coequalizer diagram (nor need a regular category have coequalizers of all parallel pairs).
 
-=--
-
 In fact, an equivalent definition is:
 
 +-- {: .un_defn}
 ###### Definition
 
-A **regular category** is a finitely complete category with pullback-stable [[image]] factorizations.  
+A **regular category** is a finitely complete category with pullback-stable [[image]] factorizations.
 
 =--
 
-See [[familial regularity and exactness]] for a generalization of this approach to include [[coherent category|coherent]] categories as well.
+Here we are using "image" in the sense of "the smallest monic through which a morphism factors."  See [[familial regularity and exactness]] for a generalization of this approach to include [[coherent category|coherent]] categories as well.
 
 
 ## Examples
@@ -83,7 +80,7 @@ Examples of regular categories include the following:
 
 * More generally, any [[topos]] is regular. 
 
-* More generally, a locally [[cartesian closed category]] with coequalizers is regular, and so any [[quasitopos]] is regular. 
+* Even more generally, a locally [[cartesian closed category]] with coequalizers is regular, and so any [[quasitopos]] is regular. 
 
 * The category of [[algebra over a Lawvere theory|models]] of any finitary [[algebraic theory]] (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of [[abelian group]]s. 
 
@@ -167,6 +164,16 @@ Regular categories of the form $C_{reg/lex}$ for a lex category $C$ can be chara
 
 When the reg/lex completion is followed by the [[ex/reg completion]] which completes a regular category into an [[exact category|exact one]], the result is unsurprisingly the [[ex/lex completion]].  See [[regular and exact completions]] for more about all of these operations.
 
+## Related pages
+
+* **regular category**
+* [[exact category]]
+* [[coherent category]]
+* [[pretopos]]
+
+* [[regular 2-category]]
+* [[regular derivator]]
+* [[regular (∞,1)-category]]
 
 ## References
 
