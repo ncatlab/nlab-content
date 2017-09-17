@@ -16,12 +16,12 @@
  
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #EquivalentDefinitions}
 ###### Definition
 
 A [[geometric morphism]] between [[toposes]] $(f^* \dashv f_*) : \mathcal{E} \to \mathcal{F}$ is **surjective** or a **geometric surjection** if it satisfies the following equivalent criteria:
 
-* its [[inverse image functor]] $f_*$ is [[faithful functor|faithful]];
+* its [[inverse image functor]] $f_*$ is [[faithful functor|faithful]] (in contrast to the [[direct image]] being [[full and faithful functor|full and faithful]] for a [[geometric embedding]] ); 
 
 * its [[inverse image functor]] $f^*$ is [[conservative 
 functor|conservative]];
@@ -48,8 +48,65 @@ The equivalence of these condition appears for instance as [MacLaneMoerdijk, VII
 
 ### Surjection/embedding factorization
 
-See [[geometric surjection/embedding factorization]]
++-- {: .num_prop #CofreeAlgebraFunctorIsSurjective}
+###### Observation
 
+For $T : \mathcal{E} \to \mathcal{E}$ a [[left exact functor|left exact]] [[comonad]] the cofree algebra functor
+
+$$
+  F : \mathcal{E} \to T CoAlg(\mathcal{E})
+$$
+
+to the [[topos of coalgebras]] is a geometric surjection.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[topos of coalgebras]] the [[inverse image]] is the [[forgetful functor]] to the underlying $\mathcal{E}$-objects. This is clearly a [[faithful functor]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Up to [[equivalence of categories|equivalence]], every geometric surjection is of this form.
+
+=--
+
+This appears for instance as ([MacLaneMoerdijk, VII 4., prop 4](#MacLaneMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+With observation \ref{CofreeAlgebraFunctorIsSurjective} we only need to show that if $f : \mathcal{E} \to \mathcal{F}$ is surjective, then there is $T$ such that
+
+$$
+  \array{
+     \mathcal{E} &\stackrel{f}{\to}& \mathcal{F}
+     \\
+     & {}_{\mathllap{F}}\searrow & \downarrow^{\mathrlap{\simeq}}
+     \\
+     && T CoAlg(\mathcal{E})
+  }
+  \,.
+$$
+
+For this, take $T := f^* f_*$. This is a [[left exact functor]] by definition of [[geometric morphism]]. By assumption on $f$ and using the equivalent definition of def. \ref{EquivalentDefinitions} we have that $f^*$ is a [[conservative functor]]. This means that the conditions of the [[monadicity theorem]] are met, so so $f^*$ is a [[monadic functor|comonadic functor]]. 
+
+=--
+
+For more on this see _[[geometric surjection/embedding factorization]]_  .
+
+## Examples
+
++-- {: .num_prop}
+###### Proposition
+
+For $f : X \to Y$ a [[continuous function]] between [[topological space]]s and $(f^* \dashv f_*) : Sh(X) \to Sh(Y)$ the corresponding geometric morphisms of [[sheaf topos]]es, $f$ is a surjection precisely if $(f^* \dashv f_*)$ is a surjective geometric morphism.
+
+=--
 
 ## Related concepts
 
