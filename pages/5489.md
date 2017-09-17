@@ -39,4 +39,4 @@ In $\mathbb{R}_{\pm \infty}$ we have the nullary $\wedge() = +\infty$ which give
 
 Another approach is to define a special scheme for composition for when a nullary operator does not exist that instead uses a unary operator that is an identity map (or factored through one).
 
-So far an unbounded lattice is the only example I can think of where an [[associative operad|associative binary operation]] does not have a corresponding nullary form (or when an associative (co) product does not have a corresponding (co) terminal object.) It is unknown if whether all such cases can be handled by the general scheme computing in an enlarged context.  
+This approach generalizes to any [[semigroup]] or to any category with binary ([[coproduct|co]]) [[products]].  A yet more general context (possibly not fully worked out) would be a [[binary operation]] in any [[associative operad]].
