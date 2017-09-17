@@ -38,6 +38,10 @@ If there are hidden identity morphisms, then to say the triangle commutes is to 
 
 [[Eric]]: Thanks David. I think I've managed to boil it down to the basic disagreement. It is about "shape dependence". I reject the notion of shape dependence. The morphism $f:X\to X$ is a loop and this loop is the same as $f:X\righttoleftarrow$. I [explain this](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=332&Focus=7368#Comment_7368) on the n-Forum. The point is, you can accept shape dependence, in which case I agree with everything you say. Or you reject shape dependence and work with semidiagrams instead.
 
++-- {: .query}
+I don\'t think that there\'s any doubt that $e^2 = e$ is the intended interpretation of the second diagram by everybody who uses commutative diagrams.  The fact that the same object $X$ shows up twice is irrelevant; the whole point of putting $X$ in there twice is because you *don\'t* want parallel identity arrows.  Of course, you can invent an alternative interpretation if you want, but I don\'t think that you\'ll find any usage to match it in the wild.  ---Toby
+=--
+
 ##Main Article
 
 A stub for now.
