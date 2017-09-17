@@ -46,7 +46,7 @@ has [[unit]] and [[counit]] which are [[equivalences]] on the underlying bare [[
 ### Relation to equivariant cohomology
  {#RelationToEquivariantCohomology}
 
-Spectra with $G$-action [[Brown representability theorem|represent]] $\mathbb{Z}$-graded [[cohomology]] on [[G-spaces]].
+Spectra with $G$-action [[Brown representability theorem|represent]] $\mathbb{Z}$-graded [[equivariant cohomology]] on [[G-spaces]].
 
 For $X$ a [[G-space]] and $E$ a spectrum with $G$-action, then the corresponding cohomology is
 
@@ -65,7 +65,16 @@ $$
 
 is the [[dependent product]] over $\mathbf{B}G$ of the intrinsic [[cohomology]] of the tangent slice topos. See at _[[∞-action]]_ for more on this.
 
-Notice here [[Elmendorf's theorem]] which identifies [[G-spaces]] with [[(∞,1)-presheaves]] over the [[orbit category]] $Orb_G$. It is via this equivalence that spectra with $G$-action represent [[Bredon cohomology]].
+Notice here [[Elmendorf's theorem]] which identifies [[G-spaces]] with [[(∞,1)-presheaves]] over the [[orbit category]] $Orb_G$. It is via this equivalence that spectra with $G$-action represent [[equivariant cohomology]] in the form of [[Bredon cohomology]].
+
+Hence exhibiting a spectrum $E$ with $G$-action as a [[spectrum]]-valued [[presheaf]] on the [[orbit category]] means to assign to any [[coset space]] $G/H$ of $G$ the $H$-[[homotopy fixed points]] of $E$:
+
+$$
+  E//G \;\colon\;  G/H \mapsto E^{H}
+  \,.
+$$
+
+
 
 ## References
 
