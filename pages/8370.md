@@ -45,6 +45,8 @@ This is referred to as "computational trinitarianism" in ([Harper](#Harper)), wh
 
 ## Related concepts
 
+* [[syntax-semantics duality]]
+
 * [[relation between category theory and type theory]]
 
 * [[programs as proofs]], [[propositions as types]]
