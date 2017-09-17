@@ -8,13 +8,13 @@ Let $k$ be a field of prime characteristic $p\gt 0$.
 
 A commutative formal $k$-group $G$ is called *[[p-divisible group|p-divisible formal k-group]]* or *Barsotti-Tate group* if it satisfies the following properties:
 
-(pdg1) $p\cdot id_G\to G$ is an epimorphism.
+: (pdg1) $p\cdot id_G\to G$ is an epimorphism.
 
-(pdg2) $G$ is a $p$-torsion group in that $G=\cup_j ker(p^j\cdot id_G)$
+: (pdg2) $G$ is a $p$-torsion group in that $G=\cup_j ker(p^j \cdot id_G)$
 
-(pdg3) $ker(p\cdot id_G)$ is finite.
+: (pdg3) $ker(p\cdot id_G)$ is finite.
 
-We have $rk(ker p\cdot id_G)=p^h$, $h\in \mathbb{N}$. This $h$ is called the *height $ht(G)$ of $G$*.
+We have $rk(ker \,p \cdot id_G)=p^h$, $h\in \mathbb{N}$. This $h$ is called the *height $ht(G)$ of $G$*.
 =--
 
 +-- {: .num_rem}
@@ -64,7 +64,7 @@ This is a $p$-divisible formal group with $ht(G^\prime)=ht(G)$ and we have $p_j^
 
 +-- {: .num_example}
 ###### Example
-The constant formal group $(\mathbb{Q}_p /\mathbb{Z}_p)_k$ is a $p$-divisible group of height $1$.
+Let $\mathbb{Z}_p$ denote the [[p-adic number|ring of p-adic integers]], let $\mathbb{Q}_p$ denote the [[p-adic number|field of p-adic numbers]]. The constant formal group $(\mathbb{Q}_p /\mathbb{Z}_p)_k$ is a $p$-divisible group of height $1$.
 
 Conversely any $p$-divisible group of height $h$ is isomorphic to $(\mathbb{Q}_p /\mathbb{Z}_p)^h_k$.
 
@@ -72,7 +72,15 @@ Conversely any $p$-divisible group of height $h$ is isomorphic to $(\mathbb{Q}_p
 
 +-- {: .num_example}
 ###### Example
+Let $A$ be a commutative [[algebraic group|algebraic k-group]], such that $p id_G:A\to A$ is an epimorphism. Then
 
+1. $ker(p\cdot id_A)$ is finite.
+
+1. $A(p):=\cup_j ker(p^j id_A)$ is a $p$-divisible group containing $\hat A^\circ=\cup_j ker(F^j G)$.
+
+1. If $A=\mu_k$ we have $A(p)=\cup_j p^j \mu_k=(\mathbb{Q}_p /\mathbb{Z}_p)^\prime_k$.
+
+1. If $A$ is an abelian variety of dimension $g$ $p id_A$ is an epimorphism with $rk(her p id_G)=p^{2g}$ and consequently $A(p)$ is a $p$-divisible group of height $2g$. This example is further described in chapter [[V, p-adic cohomology of abelian varieties]], particularly in [[V.3, structure of the p-divisible group A(p)]].
 =--
 
 +-- {: .num_prop}
