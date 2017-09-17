@@ -109,9 +109,9 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
   * **AQFT**
 
-    * [[Haag-Kastler axioms]]
+    * [[Haag-Kastler axioms]], [[Wightman axioms]]
 
-    * [[local net of observables]]
+    * [[local net of observables]], [[field net]]
 
     * [[quantum lattice systems]], [[string-localized quantum field]]
 
