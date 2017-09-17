@@ -362,6 +362,8 @@ Other texts include
 
 * [[Bodo Pareigis]], _Category theory_, [dvi](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.dvi), [ps](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.ps), [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.pdf)
 
+* [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
+
 ### Teaching category theory
 
 * [[Andrew Stacey]], _Teaching category theory_ ([web](http://www.math.ntnu.no/~stacey/CountingOnMyFingers/TeachingCategories.html))
