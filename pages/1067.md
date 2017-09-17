@@ -16,6 +16,12 @@
 
 ## Idea
 
+A _chain complex_ is a [[complex]] in an [[additive category]] (often assumed to be an [[abelian category]]).
+
+The archetypical example, from which the name derives, is the [[singular chain complex]] $C_\bullet(X)$ of a [[topological space]] $X$.
+
+Chain complexes are the basic objects of study in [[homological algebra]].
+
 ### Basic
 
 A _chain complex_ $V_\bullet$ is a sequence $\{V_n\}_{n \in \mathbb{N}}$ of [[abelian groups]] or [[modules]] (for instance [[vector spaces]]) or similar equipped with linear maps $\{d_n : V_{n+1} \to V_n\}$ such that $d^2 = 0$, i.e. the composite of two consecutive such maps is the [[zero morphism]] $d_n \circ d_{n+1} = 0$.
@@ -38,22 +44,100 @@ In particular this reasoning shows that connective chain complexes of abelian gr
 
 
 ## Definition
+ {#Definition}
 
 ### In components
+ {#InComponents}
 
-A ($\mathbb{Z}$-graded) **chain complex** in a [[category]] $C$ with a notion of [[zero morphism]] (usually [[abelian category|abelian]]) is a sequence of [[object]]s $V_n$, $n\in\mathbb{Z}$, and [[morphism]]s $\partial_n:V_n \to V_{n-1}$ called [[differential|(co)differentials]] or _boundary maps_:
+Let $\mathcal{C}$ be an [[abelian category]].
+
++-- {: .num_defn}
+###### Definition
+
+A ($\mathbb{Z}$-graded) **chain complex** in $\mathcal{C}$ is 
+
+* a collection of [[objects]] $\{C_n\}_{n\in\mathbb{Z}}$, 
+
+* and of [[morphisms]] $\partial_n : C_n \to C_{n-1}$
 
 $$ 
-\cdots \overset{\partial_3}{\to} V_2 \overset{\partial_2}{\to} V_1 \overset{\partial_1}{\to} V_0 \overset{\partial_0}{\to} V_{-1} \overset{\partial_{-1}}{\to} \cdots
+  \cdots \overset{\partial_3}{\to} C_2 \overset{\partial_2}{\to} C_1 \overset{\partial_1}{\to} C_0 \overset{\partial_0}{\to} C_{-1} \overset{\partial_{-1}}{\to} \cdots
 $$
 
-such that $\partial_n  \circ \partial_{n+1} = 0$ (the [[zero morphism]]) for each $n$.  
+such that 
 
-(Note: the use of terminology 'differential' as against 'codifferential' depends largely on the traditions of the subject area in which the double complex is arising.)
+$$
+  \partial_n  \circ \partial_{n+1} = 0
+$$ 
 
-More precisely, this is a _homologically graded_ chain complex, in which the differentials lower degree; if we rename $V_n$ to $V_{-n}$ so that the differentials raise degree, it becomes a _cohomologically graded_ chain complex or a **[[cochain complex]]**.  Common choices for $C$ include [[Ab]], [[Vect]], or $R Mod$, in which case we obtain the familiar definition of an (unbounded) chain complex of abelian groups, vector spaces, or modules.
+(the [[zero morphism]]) for all $n \in \mathbb{N}$.  
 
-Frequently one also considers $\mathbb{N}$-graded (or _nonnegatively graded_) chain complexes, which can be identified with $\mathbb{Z}$-graded ones for which $V_n=0$ when $n\lt 0$.  Similarly, an $\mathbb{N}$-graded _cochain_ complex is a cochain complex for which $V_n=0$ when $n\lt 0$, or equivalently a chain complex for which $V_n=0$ when $n\gt 0$.
+=--
+
+A [[homomorphism]] of chain complexes is a [[chain map]] (see there). Chain complexes with chain maps between them form the [[category of chain complexes]] $Ch_\bullet(\mathcal{C})$.
+
+One uses the following  terminology for the components of a chain complex, all deriving from the example of a [[singular chain complex]]:
+
++-- {: .num_defn}
+###### Definition
+
+For $V_\bullet$ a chain complex
+
+* the morphisms $\partial_n$ are called the **[[differentials]]** or **[[boundary]] maps**;
+
+* the [[element in an abelian category|elements]] of 
+  are called the **$n$-[[chains]]**;
+
+* the elements in the [[kernel]] 
+
+  $$
+    Z_n \coloneqq ker(\partial_{n-1})
+  $$
+
+  of $\partial_{n-1} : C_n \to C_{n-1}$ are called the **$n$-[[cycles]]**;
+
+* the elements in the [[image]] 
+
+  $$
+    B_n \coloneqq im(\partial_n)
+  $$
+
+  of $\partial_{n} : C_{n+1} \to C_{n}$ are called the **$n$-[[boundaries]]**;
+
+* the [[cokernel]] 
+
+  $$
+    H_n \coloneqq Z_n/B_n
+  $$
+
+  is called the degree-$n$ **[[chain homology]]** of $C_\bullet$.
+
+=--
+
+The [[duality|dual]] notion:
+
++-- {: .num_defn}
+###### Definition
+
+A **[[cochain complex]]** in $\mathcal{C}$ is a chain complex in the [[opposite category]] $\mathcal{C}^{op}$. Hence a tower of morphisms as above, but with each [[differential]] $d_n : V^n \to V^{n+1}$ increasing the degree.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+One also says **homologically graded** complex, for the case that the differentials lower degree, and _cohomologically graded_ complex for the case where they raise degree.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Frequently one also considers $\mathbb{N}$-graded (or _nonnegatively graded_) chain complexes (for instance in the [[Dold-Kan correspondence]]), which can be identified with $\mathbb{Z}$-graded ones for which $V_n=0$ when $n\lt 0$.  Similarly, an $\mathbb{N}$-graded _cochain_ complex is a cochain complex for which $V_n=0$ when $n\lt 0$, or equivalently a chain complex for which $V_n=0$ when $n\gt 0$.
+
+=--
+
+
 
 ### In terms of translations
 
@@ -61,14 +145,29 @@ Note that in particular, a chain complex is a [[graded object]] with extra struc
 
 ## Examples
 
-### Over a field
+Common choices for the ambient [[abelian category]] $\mathcal{C}$ include [[Ab]], $k$[[Vect]] (for $k$ a [[field]]) and generally $R$[[Mod]] (for $R$ a [[ring]]), in which case we obtain the familiar definition of an (unbounded) chain complex of [[abelian groups]], [[vector spaces]] and, generally, of  [[modules]].
 
-In $C =$ [[Vect]]$_k$ a chain complex is also called a [[differential graded vector space]], consistent with other terminology such as [[differential graded algebra]].  This is also a special case in other ways: every chain complex over a field is [[quasi-isomorphism|quasi-isomorphic]] to its [[homology]] (the latter considered as a chain complex with zero differentials).  Nothing of the sort is true for chain complexes in more general categories.
+
+### In $k$-vector spaces
+
+In $C =$ [[Vect]]$_k$ a chain complex is also called a [[differential graded vector space]], consistent with other terminology such as [[differential graded algebra]] over $k$.  This is also a special case in other ways: every chain complex over a field is [[formal dg-algebra|formal]]: [[quasi-isomorphism|quasi-isomorphic]] to its [[homology]] (the latter considered as a chain complex with zero differentials).  Nothing of the sort is true for chain complexes in more general categories.
 
 ### In chain complexes
 
-A chain complex in a category of chain complexes is called a [[double complex]].
+A chain complex in a category of chain complexes is a [[double complex]].
 
+### Singular and cellular chain complex
+
+For $X$ a [[topological space]], there is its [[singular simplicial complex]].
+
+More generally, for $S$ a [[simplicial set]], there is the chain complex
+$S \cdot R$ of $R$ [[chains on a simplicial set]].
+
+### Of a simplicial abelian group
+
+For $A_\bullet$ a [[simplicial abelian group]], there is a chain complex $C_\bullet(A)$, the [[alternating face map complex]], and a chain complex $N_\bullet(A)$, the [[normalized chain complex]] of $A$.
+
+The [[Dold-Kan correspondence]] says that this construction establishes an [[equivalence of categories]] between non-negatively-graded chain complexes and [[simplicial abelian groups]].
 
 ## Properties
 
@@ -79,6 +178,9 @@ There is a [[model category]] structure on the category $Ch(A)$ of chain complex
 See [[model structure on chain complexes]].
 
 ## Related concepts
+
+[[!include chains and cochains - table]]
+
 
 * [[category of chain complexes]]
 
@@ -96,7 +198,16 @@ See [[model structure on chain complexes]].
 
 * [[perfect chain complex]]
 
-[[!include chains and cochains - table]]
+## References
+
+A basic discussion is for instance in section 1.1 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_.
+
+A more comprehensive discussion is in section 11 of 
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_,
+
   
 
 [[!redirects chain complexes]]
