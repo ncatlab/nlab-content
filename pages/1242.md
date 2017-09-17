@@ -20,7 +20,7 @@
 ## Definition
 
 
-Let $\mathcal{A}$ be an [[additive category]] (often assumed to be an [[abelian category]]).
+Let $\mathcal{A}$ be an [[additive category]] (often assumed to be an [[abelian category]], for instance $\mathcal{A} = R$[[Mod]] for $R$ some [[ring]]).
 
 +-- {: .num_defn #ExactSequence}
 ###### Definition
@@ -62,7 +62,7 @@ A general exact sequence is sometimes called a **long exact sequence**, to disti
 Explicitly, a sequence of morphisms 
 
 $$ 
-  A \stackrel{i}\to B \stackrel{p}\to C 
+  0 \to A \stackrel{i}\to B \stackrel{p}\to C  \to 0
 $$
 
 is short exact, def. \ref{ShortExactSequence}, precisely if
@@ -72,6 +72,31 @@ is short exact, def. \ref{ShortExactSequence}, precisely if
 1. $p$ is an [[epimorphism]], 
 
 1. and the [[image]] of $i$ equals the [[kernel]] of $p$  (equivalently, the [[coimage]] of $p$ equals the [[cokernel]] of $i$).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The third condition is the definition of exactness at $B$. So we need to show that the first two conditions are equivalent to exactness at $A$ and at $C$.
+
+This is easy to see by looking at elements when $\mathcal{A} \simeq R$[[Mod]], for some ring $R$ (and the general case can be reduced to this one using one of the [embedding theorems](abelian%20category#EmbeddingTheorems)):
+
+The sequence being exact exact at 
+
+$$
+  0 \to A \to B
+$$
+
+means, since the [[image]] of $0 \to A$ is just the element $0 \in A$, that the [[kernel]] of $A \to B$ consists of just this element. But since $A \to B$ is a [[group homomorphism]], this means equivalently that $A \to B$ is an [[injection]]. 
+
+Dually, the sequence being exact at
+
+$$
+  B \to C \to 0
+$$
+
+means, since the [[kernel]] of $C \to 0$ is all of $C$, that also the [[image]] of $B \to C$ is all of $C$, hence equivalently that $B \to C$ is a [[surjection]].
 
 =--
 
@@ -170,11 +195,39 @@ is exact.
 
 ## Examples
 
+### Specific examples
+ {#SpecificExamples}
+
+
++-- {: .num_example #MultiplicationAndCyclicGroup}
+###### Example
+
+Let $\mathcal{A} = \mathbb{Z}$[[Mod]] $\simeq$ [[Ab]]. For $n \in \mathbb{N}$ with $n \geq 1$ let $\mathbb{Z} \stackrel{\cdot n}{\to} \mathbb{Z}$ be the [[linear map]]/[[homomorphism]] of [[abelian groups]] which acts by the ordinary multiplication of [[integers]] by $n$. This is clearly an [[injection]]. The [[cokernel]] of this morphism is the projection to the [[quotient group]], which is the [[cyclic group]] $\mathbb{Z}_n \coloneqq \mathbb{Z}/n\mathbb{Z}$. Hence we have a short exact sequence
+
+$$
+  0 \to \mathbb{Z} \stackrel{\cdot n}{\to} \mathbb{Z}
+  \to \mathbb{Z}_n
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[connecting homomorphism]] of the [[long exact sequence in homology]] induced from short exact sequences of the form in example \ref{MultiplicationAndCyclicGroup} is called a _[[Bockstein homomorphism]]_.
+
+=--
+
+### Classes of examples
+
 * [[long exact sequence of homotopy groups]]
 
 * [[long exact sequence in cohomology]]
 
 * [[long exact sequence in homology]]
+
+
 
 ## Related concepts
 
