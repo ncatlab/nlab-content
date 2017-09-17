@@ -141,6 +141,9 @@ $$
 
 * [[local net of observables]]
 
+[[!include Isbell duality - table]]
+
+
 
 ## References
  {#References}
