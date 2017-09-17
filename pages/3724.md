@@ -144,3 +144,7 @@ The basic theory also generalises immediately to any unbounded, [[dense order|de
 
 [[!redirects Dedekind cut]]
 [[!redirects Dedekind cuts]]
+[[!redirects Dedekind real]]
+[[!redirects Dedekind reals]]
+[[!redirects Dedekind real number]]
+[[!redirects Dedekind real numbers]]
