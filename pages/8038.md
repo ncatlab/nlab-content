@@ -69,11 +69,15 @@ In [[super Yang-Mills theory]] (and there in particular in the [[planar limit]] 
 
 * [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
 
-### In string theory
+### In string theory and higher supergravity
 
 * Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_ ([arXiv:1011.0456](http://arxiv.org/abs/1011.0456))
 
+* [[Michael Green]], _Properties of low energy graviton scattering amplitudes_, June 2010 ([pdf](http://string.lpthe.jussieu.fr/cargese/2010/talks/green_cargese2010.pdf))
+
 For more see at _[[string scattering amplitude]]_.
+
+
 
 ### Motivic structure
 
