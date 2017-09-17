@@ -36,6 +36,7 @@ $$
 
 * [[Lichnerowicz formula]]
 
+* [[p-curvature]]
 
 [[!redirects scalar curvatures]]
 
