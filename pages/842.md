@@ -129,7 +129,10 @@ A pasting diagram of two squares is a morphism
 
 $$
   \Delta[2] \times \Delta[1] \to C
+  \,.
 $$
+
+Schematically this looks like
 
 $$
   \array{
@@ -228,16 +231,17 @@ See [[homotopy Kan extension]] for details.
 
 +-- {: .un_prop}
 ###### Proposition
-**(models by homotopy limits)**
 
-Let $K$ and $C$ be categories [[enriched category|enriched]] in [[Kan complex|Kan complexes]] and $F : K \to C$ a morphism of Kan-enriched categories (i.e. an [[sSet]]-[[enriched functor]]). Then the [[homotopy limit]] of $F$  coincides with the quasi-categorical limit of $F$ under [[homotopy coherent nerve]].
+For $C$ and $A$ [[Kan complex]]-[[enriched categories]] and $F \in [C,A]$ an [[sSet]]-[[enriched functor]], a morphism $\eta : F \to const_q$ exhibits $q \in A$ as a homotopy colimit in $A$ in sense described at [[homotopy Kan extension]] precisely if for $N(f) : N(C) \to N(A)$ the corresponding morphism of [[quasi-categories]] under the [[homotopy coherent nerve]] and $N(f)^\triangleright : N(C)^\triangleright \to N(A)$ the extension to cones given by $\eta$, $N(f)^{\triangleright}$ is a quasi-categorical colimit diagram in the above sense.
+
+=--
+
++-- {: .proof}
+###### Proof
 
 This is [[Higher Topos Theory|HTT, theorem 4.2.4.1]].
 
 =--
-
-
-
 
 ## References
 
