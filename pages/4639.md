@@ -144,6 +144,8 @@ For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ 
 
 * [[affine modality]]
 
+* [[Picard scheme]], [[Picard modality]]
+
 ### References
 
 The notion of a line object over general abelian Lawvere theories has been considered in
