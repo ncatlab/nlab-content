@@ -963,7 +963,7 @@ applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as i
 The [[spectral sequence of a simplicial stable homotopy type]] has as first page/$E_1$-term the [[cohomology groups]] of the [[Moore complex]] associated with the [[cosimplicial objects]] of [[homotopy groups]]
 
 $$
-  E_1^{p,q}
+  E_2^{p,q}
   = 
   H^p(\pi_q(Tot (cosk_\bullet(Y))))
   \Rightarrow
