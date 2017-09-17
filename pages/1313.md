@@ -139,6 +139,6 @@ Note that any cartesian closed category with finite coproducts must be distribut
 [[!redirects exponentiation]]
 [[!redirects exponent]]
 
-
+[[!redirects exponentials]]
 
 
