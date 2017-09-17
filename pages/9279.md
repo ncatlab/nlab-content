@@ -37,15 +37,35 @@ satisfying the evident [[associative law]] and [[unit law]].
 
 =--
 
++-- {: .num_defn}
+###### Definition
+
+A **preantipode** for a [[sesquiunital sesquialgebra]] $A$ is a left $A \otimes A$-[[module]] $S$ equipped with an [[isomorphism]] of right $A \otimes A$-[[modules]]
+
+$$
+  S^* \simeq Hom_A(\epsilon, \Delta)
+  \,.
+$$
+
+An preantipode is an **antipode** if it is a [[free module]] over $A$ of [[rank]] 1 when regarded as an $A$-$A^{op}$-[[bimodule]].
+
+A sesquiunital sesquialgebra equipped with such an antipode is a **hopfish algebra**.
+
+=--
+
+This is ([TWZ, def. 3.1, def. 3.2](#TWZ)).
+
 ## References
 
 The notion was introduced in
 
 * Xiang Tang, [[Alan Weinstein]], [[Chenchang Zhu]], _Hopfish algebras_, Pacific J. Math. 231 (2007), no. 1, 193--216. ([arXiv:math/0510421](http://arxiv.org/abs/math/0510421))
+ {#TWZ}
 
 
 [[!redirects Hopfish algebra]]
 
 [[!redirects hopfish algebras]]
 [[!redirects Hopfish algebras]]
+
 
