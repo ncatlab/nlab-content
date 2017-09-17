@@ -514,7 +514,12 @@ This kind of diagram under forming $\pi_0$ has been traditionally known from [[o
 
 ## References
 
-The idea of forming $T_\ast \mathbf{H}$ as a home for nontrivial [[stable homotopy types]] was originally suggested by [[Joyal]], see the references at _[[tangent (infinity,1)-topos]]_.
+The idea of forming $T_\ast \mathbf{H}$ as a home for nontrivial [[stable homotopy types]] was originally suggested by [[Georg Biedermann]] and [[André Joyal]], see section 35 of 
+
+* [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+  {#Joyal08}
+
+and see the further references at _[[tangent (infinity,1)-topos]]_.
 
 Discussion of [[differential cohomology]] in $T_\ast Smooth \infty Grpd \simeq Stab(Smooth \infty Grpd)$ is in
 
@@ -525,6 +530,10 @@ The above discussion of geometric twisted generalized cohomology as cohomology i
 
 * [[Urs Schreiber]], talk at _[Twists, generalised cohomology and applications](http://wwwmath.uni-muenster.de/sfb/sfb878/2013/twists.html)_, October 2013 ([talk notes](twisted+smooth+cohomology+in+string+theory#LocalPrequantumFieldTheory))
   {#SchreiberTwists2013}
+
+Discussion in a comprehensive context of cohesion is in section 4.2.3 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
 
 [[!redirects cohesive tangent (∞,1)-topos]]
 
