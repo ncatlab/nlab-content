@@ -351,7 +351,7 @@ Above is discussed that every reflective subcategory is the localization at the 
 One can turn this around and define or construct reflective $(\infty,1)$-subcategories by specifying collections of local morphisms.
 
 
-+-- {: .un_prop}
++-- {: .un_prop #LocalizationProposition}
 ###### Proposition
 **(localization proposition)**
 
