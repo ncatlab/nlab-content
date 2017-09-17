@@ -74,6 +74,12 @@ The definition of topological space was a matter of some debate, especially abou
 
 ...
 
+## Related concepts
+
+* [[nice topological space]]
+
+  * [[sequential topological space]]
+
 [[!redirects topological space]]
 [[!redirects topological spaces]]
 [[!redirects topological structure]]
