@@ -53,14 +53,32 @@ The above notion of "binary" factorization system can be generalized to factor a
 
 ## Examples
 
+### General 
+
 * [[(epi, mono) factorization system|(epi, mono)]] (= [[image]] factorization), 
+
+
+### In Cat
+
+In [[Cat]]:
 
 * [[(eso, fully faithful) factorization system|(eso, fully faithful)]], 
 [[(eso+full, faithful) factorization system|(eso+full, faithful)]], [[(bo, ff) factorization system|(bo, ff)]]
 
-* [[(hyperconnected, localic) factorization system|(hyperconnected, localic)]]
+### In $(\infty,1)Cat$
+
+In [[(∞,1)Cat]]:
 
 * [[(n-connected, n-truncated) factorization system|(n-connected, n-truncated)]]
+
+### In $Topos$
+
+In [[Topos]]:
+
+* [[(hyperconnected, localic) factorization system|(hyperconnected, localic)]]
+
+* [[(geometric surjection, embedding) factorization system]]
+
 
 
 ## Related concepts
