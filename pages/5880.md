@@ -26,16 +26,7 @@ The _photon_ is the [[gauge boson]] of the [[electromagnetic field]], hence of _
 
 ## Related concepts
 
-* [[boson]]
+[[!include fields and quanta - table]]
 
-  * [[gauge boson]]
-
-    * **photon**, [[gluon]], [[graviton]]
-
-* [[fermion]] 
-
-  * [[electron]], [[quark]],
-
-  * [[gravitino]], [[gaugino]] , [[dilatino]]
 
 [[!redirects photons]]
