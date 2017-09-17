@@ -54,6 +54,7 @@ $$
   \;\;\;\;
   \mapsto
   \;\;\;\;
+
   \left(
     \array{
        x
@@ -203,7 +204,7 @@ Apart from its general role in mathematics, category theory provides the high-le
 
 Outside of pure mathematics, category theory finds major applications in
 
-* fundamentsal [[physics]] -- see [[higher category theory and physics]].
+* fundamental [[physics]] -- see [[higher category theory and physics]].
 
 * theoretical [[computer science]].
 
