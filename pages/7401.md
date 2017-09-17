@@ -113,7 +113,7 @@ For $n \in \mathbb{N}$ write
 
   $$
     \array{
-       a &\to& b
+       a &\stackrel{\in S^+}{\to}& b
        \\
        \downarrow^{\mathrlap{\in S^+}} && \downarrow^{\mathrlap{\in S^+}} & not\, invertible
        \\
@@ -204,7 +204,7 @@ For $n \in \mathbb{N}$, let $X \in [S, \mathcal{C}]$. Write
 
 The following proposition says that the "global" latching objects indeed contain all the ordinary latching objects in the given degree. 
 
-+-- {: .num_prop }
++-- {: .num_prop #GlobalLatchingContainsLocalLatchings}
 ###### Proposition
 
 For $s \in Obj(S)_n$ we have
@@ -360,8 +360,8 @@ It remains to show that the relevant lifting and factorization properties hold. 
 
 We work with the "global" latching objects from [above](#GlobalLatchingObjects).
 
-+-- {: .num_prop }
-###### Observation
++-- {: .num_remark }
+###### Remark
 
 A morphism $f : X \to Y$ in $[S, \mathcal{C}]_{gReedy}$ is a Reedy cofibration
 precisely if for all $n \in \mathbb{N}$ the global relative latching morphism, def. \ref{GlobalLatching}
@@ -370,10 +370,19 @@ $$
   X_n \coprod_{L_n(X)} L_n(Y) \to Y_n
 $$
 
-is a cofibration in $[G_n(S), \mathcal{C}]$.
+is a cofibration in $[G_n(S), \mathcal{C}]_{proj/inj}$.
 
 =--
 
++-- {: .proof}
+###### Proof
+
+The coproduct in the presheaf category $[G_n(S), \mathcal{C}]$ is computed objectwise, so that the component of the $n$th relative latching morphism at $s \in S$ is the relative latching morphism at $s$, by prop. \ref{GlobalLatchingContainsLocalLatchings}.
+
+The [[groupoid]] $G_n(S)$ is equivalent to the disjoint union $\coprod_{[r] \in \pi_0 G_n(S)} B Aut_S(s)$ of the automorphism groupoids of one representative in each isomorphism class. A morphism in $[G_n(S), \mathcal{C}]_{proj/inj}$ is a cofibration precisely if its restriction to all of the $[B Aut_{\mathcal{C}}(s), \mathcal{C}]_{proj/inj}$ is. 
+
+
+=--
 
 +-- {: .num_lemma #LiftingLemma}
 ###### Lemma
@@ -522,7 +531,8 @@ and so is a weak equivalence by [[two-out-of-three]].
 +-- {: .num_lemma #LatchingIntertwiner}
 ###### Lemma
 
-Suppose $\phi : R \to S$ is a morphism of generalized Reedy categories such that the induced square (see prop. \ref{DiagramOfRestrictions})
+Suppose $\phi : R \to S$ is a morphism of 
+[[generalized Reedy categories]] such that the induced square (see prop. \ref{DiagramOfRestrictions})
 
 $$
   \array{
@@ -544,10 +554,9 @@ is an isomorphism.
 
 Given a Reedy category $S$, examples of $\phi$ satisfying this condition include
 
-$$ 
-  \phi := dom_n i_n : S^+(n) \to S
-$$
+1. $\phi := dom_n \circ i_n : S^+(n) \to S$;
 
+1. $\phi := : S_{\leq n} \hookrightarrow S$.
 
 =--
 
@@ -594,6 +603,34 @@ $$
   \end{aligned}
   \,.
 $$
+
+Now concerning the two examples.
+
+By definition we have
+
+$$
+ (S^+(n))^+((k))
+ \simeq
+  \left\{
+  \array{  
+    t &\stackrel{deg \; raising}{\to}& t'
+    \\
+    \downarrow && \downarrow && deg\; raising
+    \\
+    s &\stackrel{\simeq}{\to}& s' && deg = k
+    \\
+    \downarrow && \downarrow && deg \; raising
+    \\
+    r &\stackrel{id}{\to}& r  && deg = n
+  }
+  \right\}
+  \,,
+$$
+
+where on the right the vertical sequences in $S$ indicate objects in $(S^+(m))^+((k))$ and the whole diagram on the right indicates a morphism there. 
+
+One sees that this is indeed the fiber product as claimed.
+
 
 =--
 
