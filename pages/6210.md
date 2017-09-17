@@ -61,7 +61,7 @@ $$
     &\to&
     *
     \\
-    \downarrow^{\mathrlap{P}}
+    \downarrow^{\mathrlap{P}} && \downarrow
     \\
     \mathbf{H}(X, \mathbf{B}G)
     &\stackrel{\mathbf{H}(X, \mathbf{c})}{\to}&
@@ -74,6 +74,26 @@ we may call equivalently
 * the $\infty$-groupoid of $K$-structures on $P$ (with respect to the given $\mathbf{c}$);
 
 * the $\infty$-groupoid of $[P]$-twisted $\mathbf{c}$-structures.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+As discussed at _[[twisted cohomology]]_, we may think of an object in 
+$\mathbf{c}Struc_{[P]}(X)$ as a [[section]] (up to [[homotopy]]) $\sigma$
+
+$$
+  \array{
+    && \mathbf{B}G
+    \\
+    & {}^{\sigma}\nearrow& \downarrow^{\mathbf{c}}
+    \\
+    X &\stackrel{g}{\to}& \mathbf{B}K
+  }
+$$
+
+where we think of $\mathbf{c}$ as being the **universal twisting $\infty$-bundle** and where $g : X \to \mathbf{B}K$ is a morphism presenting $P$.
 
 =--
 
