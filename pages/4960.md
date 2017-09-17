@@ -230,7 +230,7 @@ $$
 
 etc. for counits.
 
-+-- {: .un_prop}
++-- {: .num_prop #TheCanonicalMorphisms}
 ###### Proposition/Definition
 
 We have [[commuting diagram]]s, [[natural transformation|natural]] in $X \in \mathcal{E}$, $S \in \mathcal{S}$
