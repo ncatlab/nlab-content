@@ -116,7 +116,7 @@ $$
   \,,
 $$
 
-where the $x_i \in H^\bullet(B U(1)^n , \mathbb{Z})$ are the universal characteristic classes of the [[maximal torus]], hence are $n$ incarnations of the [[first Chern class]] 
+where the $x_i \in H^\bullet(B U(1)^n , \mathbb{Z})$ are the universal characteristic classes of the [[maximal torus]], hence are $n$ incarnations of the universal [[first Chern class]] (equivalently: the [weights](group+character#RelationToChernRootsAndSplittingPrinciple) of the [[group characters]] of $U(n)$).
 It follows that every [[complex vector bundle]] $\xi$ of [[rank]] $n$ over a space $X$ when pulled back to its [[flag space]] bundle decomposes as a [[direct sum]] of [[complex line bundles]] $\zeta_i$ and has [[Chern classes]] $c_k$ expressed in terms of the [[first Chern classes]] of these line bundles as
 
 $$
