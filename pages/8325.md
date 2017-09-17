@@ -47,9 +47,9 @@ and in
 
 and in
 
-* Hans Reichenbach, p. 72 of _The rise of scientific philosophy_
+* Hans Reichenbach, p. 72 of _The rise of scientific philosophy_, 1951.
 
-> Hegel has been called the successor of Kant; that is a serious misunderstanding of Kant and an unjustified elevation of Hegel. Kant's system, though proved untenable by later developments, was the attempts of a great mind to establish rationalism on a scientific basis. Hegel's system is the poor construction of a fanatic who has seen one empirical truth and attemtps to make it a logical law within the most unscientific of all logics. Whereas Kant's system marks the peak of the historical line of rationalism, Hegel's  system belongs in the period of decay of speculative philosophy which characterizes the nineteenth century.
+> Hegel has been called the successor of Kant; that is a serious misunderstanding of Kant and an unjustified elevation of Hegel. Kant's system, though proved untenable by later developments, was the attempt of a great mind to establish rationalism on a scientific basis. Hegel's system is the poor construction of a fanatic who has seen one empirical truth and attempts to make it a logical law within the most unscientific of all logics. Whereas Kant's system marks the peak of the historical line of rationalism, Hegel's  system belongs in the period of decay of speculative philosophy which characterizes the nineteenth century.
 
 
 The point that Hegel's controversial views on the foundations of physics were later partly vindicated by modern developments is made by [[R. G. Collingwood]] in his book _An Essay on Metaphysics_ (1940). He writes concerning the views expressed by the physicist [[Arthur Eddington]] in the 1928 Gifford lectures:
