@@ -41,7 +41,7 @@ $$\int_{Y^{-1}(B)}X(\omega)d P(\omega)=\int_{Y^{-1}(B)}(g\circ Y)(\omega)d P (\o
 
 (The equivalence of the last two formulas is given since we always have $\int_B g(u)d P^Y (u)=\int_{Y^{-1}(B)} (g\circ Y)(\omega)d P (\omega)$ by the substitution rule.)
 
-Note that it does *not* follow from the preceding definition that the conditional expectation exists. This will be shown in the following section.
+Note that it does *not* follow from the preceding definition that the conditional expectation exists. This is a consequence of the Radon-Nikodym theorem as will be shown in the following section. (Note that the argument of the theorem applies to the definition of the conditional expectation by random variables if we consider the pushforward measure as given by a sub-$\sigma$-algebra of the original one.)
 
 ## Conditional expectation relative to a sub-$\sigma$-algebra
 
