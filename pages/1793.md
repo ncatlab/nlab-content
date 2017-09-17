@@ -791,6 +791,10 @@ For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an 
 * [[model structure on dg-modules]].
 
 
+## Related concepts
+
+* [[(∞,1)-category of chain complexes]]
+
 ## History and references {#References}
 
 An original source for the standard model structure on $Ch^{\bullet \geq 0}(A)$ with $A$ having enough injectives is
