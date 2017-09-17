@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include representation theory - contents]]
 =--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 =--
 =--
 
@@ -64,13 +68,22 @@ The above irreducible complex representations admit a [[quaternionic structure]]
 
 * [[spinor]], [[spinor bundle]]
 
+* [[Fierz identity]]
+
 * [[unitary representation of the super Poincaré group]]
 
 * [[charge conjugation matrix]]
 
 * [[metaplectic representation]]
 
+
+
 ## References
+
+Chapter I.5 of 
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+
 
 * Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
 
