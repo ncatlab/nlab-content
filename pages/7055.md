@@ -3,7 +3,7 @@ Larry Siebenmann is a Canadian born mathematician who is based at Orsay (Paris s
 
 * [English Wikipedia poage](http://en.wikipedia.org/wiki/Laurent_C._Siebenmann)
 
-* [Equipe de Topologie et Dynamique (Orsay)](http://topo.math.u-psud.fr/)
+* [Equipe de Topologie et Dynamique (Orsay)](http://www.math.u-psud.fr/topodyn/accueil.php)
 
 
 
