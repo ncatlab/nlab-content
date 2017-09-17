@@ -1,9 +1,18 @@
-## Determinant of a matrix
+
+## Definition
+
+### Determinant of a matrix
 
 ...
 
+## Properties
+
+## In terms of Berezinian integrals
+
+see [[Pfaffian]] for the moment
+
 ## Related entries
 
-* [[determinant line bundle]], [[quasideterminant]], [[resultant]]
+* [[Pfaffian]], [[determinant line bundle]], [[quasideterminant]], [[resultant]]
 
 [[!redirects determinants]]
