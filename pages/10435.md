@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # End compactification
 * table of contents
 {: toc}
 
 ## Idea
 
-Whereas the [[one-point compactification]] of a (sufficiently [[nice topological space|nice]]) [[topological space]] adjoins only a single [[point at infinity]], the end compactification adjoins one point for each [[connected component]] of infinity.
+Whereas the [[one-point compactification]] of a (sufficiently [[nice topological space|nice]]) [[topological space]] adjoins only a single [[point at infinity]], the _end compactification_ adjoins one point for each [[connected component]] of infinity.
 
 
 ## Definition
