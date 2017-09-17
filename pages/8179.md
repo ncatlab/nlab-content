@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A kind of [[spectral sequence]].
+
+## References
+
+* Jerrold Siegel, _On the Construction of the Bockstein Spectral Sequence_, Transactions of the American Mathematical Society
+Vol. 210, (Sep., 1975), pp. 203-224 ([JSTOR](http://www.jstor.org/stable/1997132))
+
