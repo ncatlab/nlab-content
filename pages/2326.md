@@ -47,6 +47,7 @@ In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] there is a no
 
 Notice that a [[locale]] is itself a (Grothendieck) [[(0,1)-topos]]. Hence a localic topos is a 1-[[topos]] that behaves essentially like a [[(0,1)-topos]]. In the wider context this would be called a [[n-localic (infinity,1)-topos|1-localic (1,1)-topos]].
 
+Generalizing in a different direction, there is a notion of a [[localic geometric morphism]] $f\colon E\to S$, which exhibits its source $E$ as a "localic $S$-topos."  A Grothendieck topos $E$ is then localic, in the sense considered here, if and only if the unique geometric morphism $E\to Set$ is localic.  Moreover, just localic topoi can be identified with locales, for any base topos $S$ the 2-category of localic $S$-topoi is equivalent to the 2-category of internal locales in $S$.
 
 [[!redirects localic topos]]
 [[!redirects localic toposes]]
