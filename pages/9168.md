@@ -34,3 +34,11 @@ In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime
 
 [[!redirects scalar field]]
 [[!redirects scalar fields]]
+
+[[!redirects real scalar field]]
+[[!redirects reak scalar fields]]
+
+
+[[!redirects complex scalar field]]
+[[!redirects complex scalar fields]]
+
