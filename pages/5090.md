@@ -321,13 +321,15 @@ We will choose to kill off $g$ setting it equal to 1 (and eliminating it from th
 $$\langle a,b,c,d,e\mid baf^{-1}=cbf^{-1}= dcf^{-1}=edf^{-1}=aef^{-1}=1\rangle.$$
 
 
+This is 'the' **Dehn presentation** of $G(K)$ for this knot
+
 We can eliminate $f$ as it can be expressed in terms of the other generators.  This gives us
 
 $$\langle a,b,c,d,e\mid ba = cb =dc= ed = ae\rangle.$$
 
 (This does correspond to something neat.  The 'geometric' significance of the faces is they represent a path that starts above the 'page' goes down through that face then comes up through the face labelled $g$ (as we set that equal to 1). The presentation in its current form shows that going down through any of the lobes back up then down through the next one to the left you end up going through the middle!.) It can be useful to keep $f$ in the presentation as we will see.
 
-This group presentation is [[Tietze transformation|Tietze equivalent]] to $\langle f,y\mid f^5 = y^2\rangle$. (Use the substitution $y=edcba$.)  Note that the nature of the cinquefoil as a (2,5)-[[torus knot]] ca be seen in the presentation.
+This group presentation is [[Tietze transformation|Tietze equivalent]] to $\langle f,y\mid f^5 = y^2\rangle$. (Use the substitution $y=edcba$.)  Note that the nature of the cinquefoil as a (2,5)-[[torus knot]] can be seen in this presentation.
 
 ##The Wirtinger presentation##
-
+To  get the Wirtinger presentation of $G(K)$, you label the arcs of the knot diagram rather than the faces. The arc labels will give the generators in this presentation and the crossings will give the relations.  
