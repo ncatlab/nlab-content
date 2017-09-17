@@ -102,6 +102,18 @@ The notion of representable functors has its straightforward analogs also in [[h
 
 ## Examples 
 
+The central point about examples of representable functors is:
+
+_Representable functors are ubiquitous_ . 
+
+To a fair extent, [[category theory]] is all about representable functors and the other [[universal construction]]s: [[Kan extension]]s, [[adjoint functor]]s, [[limit]]s, which are all special cases of representable functors -- and representable functors are special cases of these.
+
+Listing examples of representable functors in [[category theory]] is much like listing examples of [[integral]]s in [[analysis]]: one can and does fill books with these. (In fact, that analogy has more to it than meets the casual eye: see [[coend]] for more).
+
+
+Keeping that in mind, we do list some special cases and special classes of examples that are useful to know. But any list is necessarily wildly incomplete.
+
+
 ### Limits 
 
 If $F:J\to C$ is a diagram in $C$, we can construct a diagram $\hom_C(-,F)$ in the [[functor category]] $Set^{C^{op}}$ as the composite of $F$ with the curried [[hom-functor]] $C\to\Set^{C^{op}}$ (the [[Yoneda embedding]]).  The object-wise [[limit]] of this diagram in [[Set]], that is, the functor $C^{op}\to\Set$ sending on object $x$ to the set which is the limit of the diagram $\hom_C(x,F):J\to\Set$, is representable iff the diagram $F$ has a limit in $C$; in fact, a representing object for that limit functor is exactly $\lim F$, and we obtain a natural isomorphism
