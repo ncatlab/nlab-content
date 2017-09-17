@@ -48,7 +48,7 @@ Many models for $E_\infty$-operads in the literature are not in fact cofibrant i
 
 (...)
 
-## Properties
+## Properties {#Propeties}
 
 
 ### Grouplike monoid objects {#GrouplikeMonoid}
@@ -63,7 +63,7 @@ $$
 
 is a [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathcal{X}$.
 
-Say an $\mathbb{E}[1]$-algebra object is grouplike if it is grouplike as an $Ass$-monoid. Say that an $\mathbb{E}[k]$-algebra object in $\mathcal{X}$ is grouplike is the restriction along $\mathbb{E}[1] \hookrightarrow \mathbb{E}[k]$ is.
+Say an $\mathbb{E}[1]$-algebra object is grouplike if it is grouplike as an $Ass$-monoid. Say that an $\mathbb{E}[k]$-algebra object in $\mathcal{X}$ is grouplike if the restriction along $\mathbb{E}[1] \hookrightarrow \mathbb{E}[k]$ is.
 Write 
 
 $$
