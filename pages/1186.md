@@ -36,7 +36,7 @@ If the [[left adjoint|left]] [[adjoint (∞,1)-functor]] to the [[full and faith
 **Warning on terminology.** In [[Higher Topos Theory|HTT]] -- where the notion has been introduced -- the term _presentable $(\infty,1)$-category_ is used for what we call a _locally presentable $(\infty,1)$-category_ here, in order to be in line with the established terminology in ordinary [[category theory]]. 
 
 
-### Presentation by simplicial model categories 
+### Presentation by simplicial model categories {#PresentationBySimpModCat}
 
 Presentable $(\infty,1)$-categories are precisely those [[(∞,1)-categories]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ 
 
