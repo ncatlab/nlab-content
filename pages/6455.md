@@ -1,0 +1,8 @@
+
+* [webpage](http://www.physics.ucla.edu/~dhoker/index.htm)
+
+## Related entries
+
+* [[string theory]]
+
+category: people
