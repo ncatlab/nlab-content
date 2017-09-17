@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+For $X$ a space of [[dimension]] $2k$ and $H^k(X)$ a [[cohomology group]] on $X$ in degree $k$ with coefficients in some $A$, the **intersection pairing** on cohomology is the map
+
+$$
+  H^k(X) \times H^k(X) \to A
+$$
+
+given by
+
+$$
+  (\lambda, \omega) \mapsto \int_X (\lambda \cup \omega)
+  \,,
+$$
+
+where in the integrand on the right we have the [[cup product]]
+
+$$
+  \cup : H^k(X) \times H^k(X) \to H^{2k}(X)
+  \,.
+$$
+
+[[!redirects intersection pairings]]
