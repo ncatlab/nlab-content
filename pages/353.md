@@ -128,6 +128,8 @@ Please add any other comparisons you are aware of!
 
 * **$n$-category**
 
+* [[(n,1)-category]]
+
 * [[(∞,1)-category]]
 
 * [[(∞,2)-category]]
