@@ -4,7 +4,7 @@
 
 ## Definition ##
 
-If $C$ and $D$ are [[enriched categories]] over a [[cosmos]] $V$, that is, a complete and cocomplete symmetric [[closed monoidal category]], then a [[profunctor]] $F$, from $C$ to $D$, that is, a $V$-functor $D^{op} \otimes C\to V$, induces two adjoint $V$-functors: $F_{\ast}: (V^C)^{op} \to V^{D^{op}} and F^{\ast}: V^{D^{op}} \to (V^C)^{op}$.
+If $C$ and $D$ are [[enriched categories]] over a [[cosmos]] $V$, that is, a complete and cocomplete symmetric [[closed monoidal category]], then a [[profunctor]] $F$, from $C$ to $D$, that is, a $V$-functor $D^{op} \otimes C\to V$, induces two adjoint $V$-functors: $F_{\ast}: (V^C)^{op} \to V^{D^{op}}$ and $F^{\ast}: V^{D^{op}} \to (V^C)^{op}$.
 
 $$
 (V^C)^{op}(F^{\ast} p, q) \cong V^{D^{op}}(p, F_{\ast} q).
