@@ -312,6 +312,10 @@ Finally notice that the prequantization lift to [[differential cohomology]] is e
 
   * [[infinite-dimensional Chern-Simons theory]]
 
+* [[M-theory on G2-manifolds]], [[topological M-theory]]
+
+* [[Hitchin functional]]
+
 
 ## References
 
