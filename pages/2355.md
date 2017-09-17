@@ -333,7 +333,7 @@ By the analogous dual argument, we find that it is also a coCartesian fibration 
 
 For the second statement, we need to refine the above argument just slightly to pass to the full $sSet$-subcategories on fibrant cofibrant objects:
 
-let $K$ be as before and let $K^\circ$ be the full $sSet$-subcategory on objects that are fibrant-cofibrant (in $C$ or in $D$, respectively). Then foe any fibrant cofibrant $d \in D$, we cannot just use the identity morphism $Id_{R(d)} \in K(R(d),d)$ since the right Quillen functor $R$ is only guaranteed to respect fibrations, not cofibrations, and so $R(d)$ might not be in $K^\circ$. But we can use the [[small object argument]] to obtain a functorial cofibrant replacement functor $Q : C \to C$, such that $Q(R(d))$ is cofibrant and there is an acyclic fibration $Q(R(d)) \to R(d)$. Take this to be the morphism in $K(Q(R(d)), d)$ that we pick for a given $d$. Then this does induce a homotopy equivalence
+let $K$ be as before and let $K^\circ$ be the full $sSet$-subcategory on objects that are fibrant-cofibrant (in $C$ or in $D$, respectively). Then for any fibrant cofibrant $d \in D$, we cannot just use the identity morphism $Id_{R(d)} \in K(R(d),d)$ since the right Quillen functor $R$ is only guaranteed to respect fibrations, not cofibrations, and so $R(d)$ might not be in $K^\circ$. But we can use the [[small object argument]] to obtain a functorial cofibrant replacement functor $Q : C \to C$, such that $Q(R(d))$ is cofibrant and there is an acyclic fibration $Q(R(d)) \to R(d)$. Take this to be the morphism in $K(Q(R(d)), d)$ that we pick for a given $d$. Then this does induce a homotopy equivalence
 
 $$
   C(c', Q(R(d))) \to C(c',R(d)) = K(c',d)
