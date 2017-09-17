@@ -136,26 +136,46 @@ From now on ''$k$-group'' will mean by default ''commutative $k$-group'' and the
 
 ### 1. isogenies
 
+[[Demazure, lectures on p-divisible groups, IV.1, isogenies]]
+
 ### 2. the category of $F$-spaces
 
-### 4. classificaton of $F$-spaces over an algebraically closed field.
+[[Demazure, lectures on p-divisible groups, IV.2, the category of F-spaces]]
+
+### 3. the spaces $E^\lambda$, $\lambda \ge 0$
+
+[[Demazure, lectures on p-divisible groups, IV.3, the spaces E^lambda, lambda \ge 0]]
+
+### 4. classificaton of $F$-spaces over an algebraically closed field
+
+[[Demazure, lectures on p-divisible groups, IV.4, classificaton of F-spaces over an algebraically closed field]]
 
 ### 5. slopes
 
-### 6. the characteristic class of an endomorphim
+[[Demazure, lectures on p-divisible groups, IV.5, slopes]]
+
+### 6. the characteristic class of an endomorphism
+
+[[Demazure, lectures on p-divisible groups, IV.6, the characteristic class of an endomorphism]]
 
 ### 7. specialization of $p$-divisible groups
 
+[[Demazure, lectures on p-divisible groups, IV.7, specialization of p-divisible groups]]
+
 ### 8. some particular cases
+
+[[Demazure, lectures on p-divisible groups, IV.8, some particular cases]]
 
 ## chapter V: $p$-adic cohomology of abelian varieties
 
-[[V, p-adic cohomology of abelian varieties]]
-
 ### 1. abelian varieties, known facts
+
+[[Demazure, lectures on p-divisible groups, V.1, abelian varieties, known facts]]
 
 ### 2. points of finite order and endomorphisms
 
+[[Demazure, lectures on p-divisible groups, V.2, points of finite order and endomorphisms]]
+
 ### 3. structure of the $p$-divisible group $A(p)$
 
-[[V.3, structure of the p-divisible group A(p)]]
+[[Demazure, lectures on p-divisible groups, V.3, structure of the p-divisible group A(p)]]
