@@ -24,7 +24,7 @@
 
 ## Idea
 
-For $a$ a [[dualizable object]] in a [[symmetric monoidal category]] $C$ (or more generally an object in a [[traced monoidal category]]), there is a natural notion of the _trace_ of an [[endomorphism]] $f:a \to a$, which reproduces the ordinary notion of trace of a [[linear map]] of [[finite number|finite]] [[dimension|dimensional]] [[vector spaces]] in [[linear algebra]] for the case that $C = Vect$.
+For $a$ a [[dualizable object]] in a [[symmetric monoidal category]] $C$ (or more generally an [[object]] in a [[traced monoidal category]]), there is a natural notion of the _trace_ of an [[endomorphism]] $f:a \to a$, which reproduces the ordinary notion of trace of a [[linear map]] of [[finite number|finite]] [[dimension|dimensional]] [[vector spaces]] in [[linear algebra]] for the case that $C = Vect$.
 
 
 ## Definition
@@ -80,6 +80,8 @@ The trace of the identity $1_a:a \to a$ is called the **[[dimension]]** or [[Eul
 * $C = Span(Top^{op})$: here the trace is the [[co-span co-trace]] which can be seen as describing the gluing of in/out boundaries of [[cobordism]]s 
  
 * $C = Span(Grpd)$: this reproduces the notion of trace of a linear map within the interpretation of spans of groupoids as linear maps in the context of [[groupoidification]] and [[geometric function theory]], made explicit at [[span trace]]
+
+* In the [[symmetric monoidal (infinity,1)-category of spectra]], the trace on the identity on a [[suspension spectrum]] of a [[manifold]] $X$ is the [[Euler characteristic]] of $X$ (see there).
 
 ## Generalizations
 
