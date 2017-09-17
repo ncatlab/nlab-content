@@ -153,6 +153,9 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 
   * [[generalized second law of thermodynamics]]
 
+## Related concepts
+
+* [[entropic force]]
 
 ## References
 {#References}
