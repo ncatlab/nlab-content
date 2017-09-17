@@ -27,8 +27,7 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 
 * See [[familial regularity and exactness]] for a generalization of exactness and its relationship to [[extensive category|extensivity]].
 
-* The [[codomain fibration]] of an exact category is a [[stack]] for its [[regular category|regular topology]].  However, being exact is not a necessary condition for this to hold in a regular category; all that is required is that if $R\rightrightarrows A$ is a kernel pair, then so is $f^*R \rightrightarrows B$ for any $f\colon B\to A$.  In particular, this holds in any regular category with pullback-stable [[reflexive coequalizer]]s, such as any [[quasitopos]].
-
+* The [[codomain fibration]] of an exact category is a [[stack]] for its [[regular category|regular topology]].  However, being exact is not a necessary condition for this to hold in a regular category; all that is required is that if $R\rightrightarrows A$ is a kernel pair, then so is $f^*R \rightrightarrows B$ for any $f\colon B\to A$.
 
 ## Examples ##
 
