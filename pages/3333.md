@@ -510,7 +510,8 @@ $$
 
 In [[Top]] the notion of free loop space objects reproduces the standard notion of topological [[free loop space]]s.
 
-### Details for $\mathcal{L} \mathbf{B}G$ {#LoopsInBG}
+### Details for $\mathcal{L} \mathbf{B}G$ 
+  {#LoopsInBG}
 
 Let the ambient [[(∞,1)-category]] be [[∞Grpd]], let $G$ be an ordinary [[group]] and $\mathbf{B}G$ its one-object [[delooping]] [[groupoid]]. 
 
