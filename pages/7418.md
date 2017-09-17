@@ -19,9 +19,12 @@
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 An **elegant Reedy category** is a [[Reedy category]] $R$ such that the following *equivalent* conditions hold
 
-* For every monomorphism $A\hookrightarrow B$ of presheaves on $R$ and every $x\in R$, the induced map $A_x \amalg_{L_x A} L_x B \to B_x$ is a monomorphism.
+* For every [[monomorphism]] $A\hookrightarrow B$ of [[presheaves]] on $R$ and every $x\in R$, the induced map $A_x \amalg_{L_x A} L_x B \to B_x$ is a monomorphism.
 
 * Every [[span]] of codegeneracy maps in $R$ has an [[absolute colimit|absolute]] [[pushout]] in $R$ that also consists of codegeneracy maps.
 
@@ -31,13 +34,19 @@ An **elegant Reedy category** is a [[Reedy category]] $R$ such that the followin
 
   1. Every element of a presheaf $R$ is a degeneracy of some nondegenerate element in a unique way.
 
+=--
+
 In particular, if $R$ is elegant, then every codegeneracy map is a [[split epimorphism]].
 
-## Model structures
+## Properties
+
+### Model structures
 
 +-- {: .num_theorem}
 ###### Theorem
+
 If $R$ is an elegant Reedy category and $M$ is a [[model category]] in which the [[cofibrations]] are exactly the [[monomorphisms]], then the [[Reedy model structure]] and the [[injective model structure]] on $M^{R^{op}}$ coincide.
+
 =--
 
 In particular, this implies that every $M$-valued presheaf on an elegant Reedy category is Reedy cofibrant.
@@ -54,6 +63,13 @@ In particular, this implies that every $M$-valued presheaf on an elegant Reedy c
 * If $X$ is any presheaf on an elegant Reedy category $R$, then the opposite of its [[category of elements]] $(el X)^{op}$ is again an elegant Reedy category.  This is fairly easy to see from the fact that $Set^{el X}$ is equivalent to the slice category $Set^{R^{op}}/X$.
 
 Note that unlike the notion of [[Reedy category]], the notion of elegant Reedy category is not self-dual: if $R$ is elegant then $R^{op}$ will not generally be elegant.
+
+## Related concepts
+
+* [[generalized Reedy category]]
+
+* [[Reedy model structure]]
+
 
 ## References
 
