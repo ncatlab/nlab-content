@@ -23,7 +23,7 @@ This page collects some links and other material related to the article
 
   ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
 
-The article considers the generalization of a phenomenon in [[spontaneous symmetry breaking]] in abelian ([[higher gauge theory|higher]]) [[gauge theory]], that was considered earlier in ([Banks-Seiberg 08](#BanksSeiberg08)), to _[[nonabelian cohomology|nonabelian]]_ [[higher gauge theory]], hence involving not just [[differential 1-form]] [[gauge potentials]] but 2-form gauge potentials ("nonabelian [[B-fields]]").
+The article considers the generalization of a phenomenon in [[spontaneous symmetry breaking]] in abelian ([[higher gauge theory|higher]]) [[gauge theory]], that was considered earlier in ([Banks-Seiberg 08](#BanksSeiberg08)), to _[[nonabelian cohomology|nonabelian]]_ [[higher gauge theory]], hence involving not just [[differential 1-form]] [[gauge potentials]] but 2-form gauge potentials ("nonabelian [[B-fields]]"), hence to [[principal 2-connections]].
 
 Specifically, in ([Banks-Seiberg 08, (2.4)-(2.9)](#BanksSeiberg08)) is an argument saying that some properties of the low energy limit of abelian [[Yang-Mills theory|Yang-Mills like]] [[gauge theories]] in four dimensions with ([[Higgs mechanism|Higgs-like]]) [[spontaneous symmetry breaking]] to a discrete gauge [[cyclic group]] $\mathbb{Z}_p$ are described by a dual [[BF-theory]], hence a [[higher gauge theory]] represented by a [[principal 2-connection|2-connection]] instead of an ordinary [[connection on a bundle|connection]]. Here the duality is [[electric-magnetic duality]], but applied not to the 1-form [[gauge field]] but to the [[Higgs boson]]-like [[scalar field]], whose magentic dual in 4d is indeed a $(4 - (0+1) - 1 = 2)$-form  [[higher gauge field]]. See at _[[connection on a 2-bundle]]_ for more on this.
 
@@ -35,6 +35,7 @@ Followups include
 
 * [[Anton Kapustin]], [[Ryan Thorngren]], _Topological Field Theory on a Lattice, Discrete Theta-Angles and Confinement_ ([arXiV:1308.2926](http://arxiv.org/abs/1308.2926))
 
+* [[Ryan Thorngren]], _Electric-Magnetic Duality of Topological Gauge Theories from Compactification_ ([arXiv:1309.1489](http://arxiv.org/abs/1309.1489))
 
 ***
 
