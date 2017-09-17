@@ -16,6 +16,19 @@ $$
 
 A __grouplike__ (or group-like) element is a semi-grouplike one such that $\epsilon(g) = 1$. 
 
+**Proposition.** An $A$-coring $(C,\Delta,\epsilon)$ has a grouplike element iff $A$ is a right or left $C$-comodule.
+
+*Proof.* Given a grouplike element $g\in C$, one defines a right coaction $\rho = \rho_g : A \to A\otimes_A C\cong C$ by the formula 
+
+$$
+\rho(a) = 1_A \otimes_A ga = ga
+$$ 
+
+it is clear that this is a map of $A$-bimodules. Now $(\rho\otimes id_C)(1_A\otimes_A ga) = g\otimes_A 1_A\otimes ga = g\otimes ga$, while $(id\otimes \Delta_C)(1_A\otimes ga) = 1_A \otimes_A g\otimes ga = g\otimes ga$ hence the coassociativity and similarly for the counit.
+
+Conversely, let $(A,\rho)$ be a right $C$-comodule. Then one checks that $\rho(1_A)\in A\otimes_A C \cong C$ is a grouplike.
+
+For the left comodules the story is similar, e.g. $\rho(a) = ag$. 
 ### Special case: grouplike elements in coalgebras
 
 Every [[coalgebra]] is special case of a [[coring]].
