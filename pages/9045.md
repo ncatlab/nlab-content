@@ -31,6 +31,8 @@ If instead of considering a single [[cohomology group]] one considers the cohomo
 
 * [[Hodge cohomology]]
 
+* [[intermediate Jacobian]]
+
 ## References
 
 A comprehensive textbook acount is in 
