@@ -1,6 +1,7 @@
+
 # Contents
 * contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -17,28 +18,35 @@ A third definition says that a (strict) sesquicategory is given by a category $C
 
 Fourthly, sesquicategories can be defined as categories [[enriched category|enriched in]] categories, where the monoidal structure for the enrichment is not the usual cartesian product but the tensor adjoint to the 'unnatural' hom, in which the hom-category $[C,D]$ has morphisms given by $C$-indexed families of arrows of $D$ _without_ any naturality requirement.
 
+
 ## Remarks
 
 A [[premonoidal category]] is the same as a sesquicategory with exactly one object.
 
 A [[Gray-category]] does not have an underlying [[strict 2-category]], but it does have an underlying strict sesquicategory.  Thus, if one wants to define Gray-[[computads]], it is natural to work with "sesqui-computads" as a partway stage; see for instance [[toddtrimble:Surface diagrams]]
 
-The name 'sesquicategory' literally means $1\frac{1}{2}$-category, although they are actually *more* general than $2$-categories (which are of course more general than $1$-categories).  Probably the reason for the name is that a sesquicategory is "part of the way" from a 1-category to a 2-category; you add the 2-cells and some of the structure, but you leave out one of the axioms.
+The name 'sesquicategory' literally means $1\frac{1}{2}$-category, although they are actually *more* general than $2$-categories (which are of course more general than $1$-categories).  However, one can also view a *strict* $2$-category or sesquicategory as a $1$-category with [[extra structure]] (the $2$-cells and their composition), and in this way sesquicategories are partway between $1$-categories and $2$-categories, with only one axiom left out.
 
-The paper by Stell shows the relation with rewriting. 
+The paper [Stell (1994)](#Stell) shows the relation with rewriting. 
 
-The paper by Brown shows how a sesquicategory arises from a whiskered category. 
+The paper [Brown (2010)](#Brown) shows how a sesquicategory arises from a whiskered category. 
+
 
 ## References
 
 * [this discussion](http://www.mta.ca/~cat-dist/catlist/1999/2-cats-without) on the categories list.
+{#catlist}
 
-* Stell, J. Modelling term rewriting by sesquicategories.
+* Stell, J., Modelling term rewriting by sesquicategories.
 Technical report, University of Keele ~(TR94-02).
+{#Stell}
 
-* [[Ross Street]], _Categorical structures_, p. 529-577 in Handbook of Algebra, vol. 1, edited by M. Hazewinkel, Elsevier  1996.
+* [[Ross Street]], _Categorical structures_, p. 529--577 in Handbook of Algebra, vol. 1, edited by M. Hazewinkel, Elsevier  1996.
+{#Street}
 
 * [[Ronnie Brown]], Possible connections between whiskered categories and groupoids, Leibniz algebras, automorphism structures and local-to-global questions. J. Homotopy Relat. Struct., 5(1) (2010) 305--318.
+{#Brown}
+
 
 [[!redirects sesquicategory]]
 [[!redirects sesquicategories]]
