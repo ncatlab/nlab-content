@@ -34,7 +34,7 @@ Note that once the Lebesgue measure is known for open sets, the outer regularity
 ##References
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Lebesgue_measure).
-* [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1385&Focus=11747#Comment_11747)
+* [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1385&Focus=11747#Comment_11747)
 
 For a very intuitive and readable derivation, see:
 
