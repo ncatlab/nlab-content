@@ -18,7 +18,8 @@ The __Abel-Jacobi map__ $C\to J(C)$ is defined with help of [[periods]].
 
 ## Related concepts
 
-* [[intermediate Jacobian]]
+[[!include moduli of higher lines -- table]]
+
 
 ## References
 
