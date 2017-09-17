@@ -892,7 +892,7 @@ and using the obvious face and degeneracy maps: face maps act by mapping compone
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $D$ be a [[category]] and $F : D \to$ [[Top]] a [{[functor]]. Then the homotopy colimit of $F$ is equivalent to the [[geometric realization of simplicial topological spaces]] of $s F$:
+Let $D$ be a [[category]] and $F : D \to$ [[Top]] a [[functor]]. Then the homotopy colimit of $F$ is equivalent to the [[geometric realization of simplicial topological spaces]] of $s F$:
 
 $$
    hocolim F \simeq \vert sF \vert
