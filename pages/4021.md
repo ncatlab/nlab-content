@@ -39,6 +39,10 @@ Some argue that th
 
 (...)
 
+[[ergodic process]]
+
+(...)
+
 ### Statistical Manifolds 
 
 Families of probability distributions often form statistical models, that is, submanifolds of the space of all probability measures on a sample space. Techniques from [[differential geometry]] may be applied in a theory known as [[information geometry]].
