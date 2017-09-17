@@ -110,6 +110,8 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 * Chen Chung Chang, H. Jerome Keisler, _Model Theory. Studies in Logic and the Foundations of Mathematics_. 1973, 1990, Elsevier. 
 * Wilfrid Hodges, _A shorter model theory_, Cambridge University Press 1997
 * [[David Kazhdan]], _Lecture notes in motivic integration_, with intro to logic and model theory, [pdf](http://www.ma.huji.ac.il/~kazhdan/Notes/motivic/b.pdf)
+* R. Cluckers, J. Nicaise, J. Sebag (Editors), _Motivic Integration and its Interactions with Model Theory and Non-Archimedean Geometry_, 2 vols.
+London Mathematical Society Lecture Note Series __383__, __384__ 
 * David Marker, _Model Theory: An Introduction_ Graduate Texts in Mathematics __217__ (2002) 
 * C U Jensen, H Lenzing, Model theoretic algebra: with particular emphasis on fields, rings, modules (1989)
 * [[Boris Zilber]], _Elements of geometric stability theory_, lecture notes, [pdf](http://people.maths.ox.ac.uk/zilber/est.pdf); _On model theory, non-commutative geometry and physics_, (survey draft) [pdf](http://people.maths.ox.ac.uk/zilber/bul-survey.pdf); _Zariski geometries_, book, [draft pdf](http://people.maths.ox.ac.uk/zilber/s.pdf);  On model theory, noncommutative geometry and physics, conference talk, [video](http://zomobo.net/play.php?id=wnhbpIQBpiE)
