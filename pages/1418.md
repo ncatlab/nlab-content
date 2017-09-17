@@ -19,6 +19,17 @@
 
 ## Definition
 
+
++-- {: .num_defn}
+###### Definition
+
+A **locally finitely presentable category** is an [[ℵ]]${}_0$-[[locally presentable category]].
+
+=--
+
+We spell out what this means:
+
+
 An [[object]] $X$ of a [[category]] $C$ is said to be [[finitely presentable object|finitely presentable]] (sometimes called [[compact object|compact]] or 'finite') if the [[representable functor]] $C(X,-)$ is finitary, i.e., preserves [[filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ consisting of the finitely presentable objects.
 
 
