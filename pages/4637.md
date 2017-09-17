@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+[[space]] $\leftarrow$ **Isbell duality**  $\rightarrow$ [[algebra]]
+
+***
+
+
 #Contents#
 * tabel of contents
 {:toc}
