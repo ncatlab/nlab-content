@@ -13,7 +13,7 @@ The exposition here is pretty much [[Toby Bartels|my]] own work, although of cou
 ## Idea
 {#idea}
 
-To describe the local of the real numbers, we need first of all to describe what an open in the real line is.  The key insight is that an open set is determined by the open intervals of [[rational numbers]] that it contains.  This is analogous to the key insight of [[Richard Dedekind]]\'s definition of [[real number]]: that a point in the real line is determined by which open intervals of rational numbers that it belongs to.  (Once you\'re talking about rational numbers, things are manageable.)
+To describe the locale of the real numbers, we need first of all to describe what an open in the real line is.  The key insight is that an open set is determined by the open intervals of [[rational numbers]] that it contains.  This is analogous to the key insight of [[Richard Dedekind]]\'s definition of [[real number]]: that a point in the real line is determined by which open intervals of rational numbers that it belongs to.  (Once you\'re talking about rational numbers, things are manageable.)
 
 
 ## Opens
