@@ -172,7 +172,7 @@ A specific notion of [[homotopical category]] is that of a [[model category]]. $
 
 At the very beginning, a [[model category]] was understood as a "model for the category [[Top]] of topological spaces," or more precisely [[homotopy types]]: some [[category]] with extra [[stuff, structure, property|structure and properties]] which allows one to perform all operations familiar of the [[homotopy theory]] of [[topological spaces]].
 
-As mentioned above, from the point of view of [[(∞,1)-categories]], [[Top]] may naturally be regarded an as [[(∞,1)-category]] and is in fact the archetypical example, analogous to how [[Set]] is the archetypical examples of an ordinary [[category]].
+As mentioned above, from the point of view of [[(∞,1)-categories]], [[Top]] may naturally be regarded an as [[(∞,1)-category]] and is in fact the archetypical example, analogous to how [[Set]] is the archetypical example of an ordinary [[category]].
 
 This indicates that, more generally, a [[model category]] should actually be a means to model (i.e. encode) in 1-categorical terms an $(\infty,1)$-category, and of course this is true since indeed any [[category with weak equivalences]] presents an $(\infty,1)$-category via Dwyer-Kan simplicial localization.  In the case of a model category, however, or at least a [[simplicial model category]], this $(\infty,1)$-category has a different, simpler construction.
 
