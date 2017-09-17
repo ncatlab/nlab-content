@@ -84,7 +84,7 @@ such that
 ### Of $A_\infty$ CY-categories
 
 
-* Let $X$ be a smooth projective [[Calabi-Yau]] variety of dimension $d$.
+* Let $X$ be a smooth projective [[Calabi-Yau variety]] of dimension $d$.
   Write $D^b(X)$ for the bounded [[derived category]] of 
   that of [[coherent sheaves]] on $X$. 
 
