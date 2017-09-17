@@ -502,7 +502,8 @@ $$
 * [[homotopy BV algebra]]
 
 
-## References
+## References 
+ {#References}
 
 A classical standard references is
 
