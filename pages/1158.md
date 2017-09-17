@@ -410,6 +410,12 @@ As described in some detail at [[electromagnetic field]] in abelian higher [[gau
 
 ## Related concepts
 
+* [[intermediate Jacobian]] ([[self-dual higher gauge theory]])
+
+* [[Abel-Jacobi map]]
+
+* [[Beilinson regulator]]
+
 * [[circle n-bundle with connection]]
 
 * [differential cohomology diagram -- Examples -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)
