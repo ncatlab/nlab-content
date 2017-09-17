@@ -4,13 +4,13 @@
 
 ## Definition
 
-An infinite [[cardinal]] $\pi$ is a **regular cardinal** if it satisfies the following equivalent definitions:
+An infinite [[cardinal]] $\kappa$ is a **regular cardinal** if it satisfies the following equivalent definitions:
 
-* no [[set]] of cardinality $\pi$ is the union of fewer than $\pi$ sets of cardinality less than $\pi$.  
+* no [[set]] of cardinality $\kappa$ is the union of fewer than $\kappa$ sets of cardinality less than $\kappa$.  
 
-* given a function $P \to X$ (regarded as a family $\{P_x\}_{x\in X}$) such that $|X| \lt \pi$ and $|P_x| \lt \pi$ for all $x \in X$, then $|P| \lt \pi$.  
+* given a function $P \to X$ (regarded as a family $\{P_x\}_{x\in X}$) such that $|X| \lt \kappa$ and $|P_x| \lt \kappa$ for all $x \in X$, then $|P| \lt \kappa$.  
 
-* the [[category]] $\Set_{\lt\pi}$ of sets of cardinality $\lt\pi$ has all [[colimits]] of size $\lt\pi$.  
+* the [[category]] $\Set_{\lt\kappa}$ of sets of cardinality $\lt\kappa$ has all [[colimits]] of size $\lt\kappa$.  
 
 A cardinal that is not regular is called **singular**.
 
