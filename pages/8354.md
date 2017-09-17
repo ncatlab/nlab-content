@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## In type theory
+
+In [[type theory]] a _program_ is the same as a  [[proof]] (see _[[proofs as programs]]_): since here proof means, _[[constructive mathematics|constructive]] proof_ this consists of explicitly [[definition|defining]] a [[term]] of a certain [[type]] (by _[[propositions as types]]_).  
+
+## Related concepts
+
+* [[theory]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[definition]]/[[proof]]/**program** ([[proofs as programs]])
+
+* [[theorem]], [[axiom]]
+
+
+
+[[!redirects propgrams]]
