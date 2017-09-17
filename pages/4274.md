@@ -101,7 +101,7 @@ $$
 
 where $G_k$ are the [[Eisenstein series]] ([Ando-Hopkins-Strickland 01](AndoHopkinsStrickland01), [Ando-Hopkins-Rezk 10, prop. 10.9](#AndoHopkinsRezk10)).
 
-By the discussion at _[Integrality and modularity](#IntegralityAndModularity)_ a [[modular form]] with respect to the variable $q$. Such functions which are power series of two variables $z$ and $q$ with elliptic nature in $z$ and modular nature in $q$ are called _[[Jacobi forms]]_ ([Zagier 86, p. 8](#Zagier86), [Ando-French-Ganter 08](#AndoFrenchGanter08)).
+This is a [[modular form]] with respect to the variable $q$, see also the the discussion below at _[Integrality and modularity](#IntegralityAndModularity)_ . Such functions which are power series of two variables $z$ and $q$ with elliptic nature in $z$ and modular nature in $q$ are called _[[Jacobi forms]]_ ([Zagier 86, p. 8](#Zagier86), [Ando-French-Ganter 08](#AndoFrenchGanter08)).
 
 In fact $K_w$ above is proportional to (the inverse of) the [[Weierstrass sigma-function]] (see e.g. [Ando Basterra 00, section 5.1](#AndoBasterra00)).
 
