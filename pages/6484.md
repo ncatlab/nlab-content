@@ -1,2 +1,8 @@
-* wikipedia: [Function field of an algebraic variety](http://en.wikipedia.org/wiki/Function_field_of_an_algebraic_variety)
-* Caterina Consani, [[Matilde Marcolli]], _Quantum statistical mechanics over function fields_, [math.QA/0607363](http://arxiv.org/abs/math/0607363)
+
+* Wikipedia (English): [Function field of an algebraic variety](http://en.wikipedia.org/wiki/Function_field_of_an_algebraic_variety)
+
+* Caterina Consani and [[Matilde Marcolli]], _Quantum statistical mechanics over function fields_, [math.QA/0607363](http://arxiv.org/abs/math/0607363)
+
+
+[[!redirects function field]]
+[[!redirects function fields]]
