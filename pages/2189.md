@@ -27,6 +27,10 @@ Some other entries are related to the conceptual and categorical understanding o
 
 Very relevant for [[quantization]] is also the geometric study of differential operators (see [[D-geometry]], [[diffiety]]) and distributions (cf. [[microlocal analysis]]), by analysis of oscillating integrals ([[semiclassical approximation]]), [[symplectic geometry]] (esp. the geometry of [[lagrangian submanifold]]s which could often be viewed as quantum points) etc. Some of the topological properties of differential operators are studied in [[index theory]], where special role have so called [[Dirac operator]]s. Sometimes it is possible or even useful to avoid fine analysis by using the [[algebraic approaches to differential calculus]] and [[regular differential operator|differential operators]], what also makes possible some noncommutative analogues. 
 
+### On contructivism and computable analysis
+
+* [[computable analysis]]
+
 ## References
 
 See also disambiguation entry [[calculus]]. 
