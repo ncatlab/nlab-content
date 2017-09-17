@@ -136,6 +136,22 @@ The [[additive group]] in $Ring^{op}$ corresponding to the affine line -- usuall
     \,.
   $$
 
+### Group of roots of unity
+
+The group of $n$th [[roots of unity]] is
+
+$$
+  \mu_n = Spec(k[t](t^n -1))
+  \,.
+$$
+
+This sits inside the [[multiplicative group]] via the [[Kummer sequence]]
+
+$$
+  \mu_n \longrightarrow \mathbb{G}_m \stackrel{(-)^n}{\longrightarrow}\mathbb{G}_m
+ \,.
+$$
+
 ## Properties 
  {#Properties}
 
