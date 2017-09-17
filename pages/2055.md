@@ -20,7 +20,7 @@ For a quick introduction to math blogging, see
 See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web).
 
 
-+--{: .query}
++-- {: .standout}
 
 Please [[How to get started|help]] with improving this page:
 
@@ -89,7 +89,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Alasdair's Musings] (http://amca01.wordpress.com) Mainly (but not entirely) mathematics education and computer algebra systems.
 
-* {Algebraic Topology](http://altopology.math.web.id) by Denik Agustito; emphasis on modern categorical methods
+* [Algebraic Topology](http://altopology.math.web.id) by Denik Agustito; emphasis on modern categorical methods
 
 * [A Mind for Madness](http://hilbertthm90.wordpress.com) "Musings on art, philosophy, mathematics, and physics" (topics like [[differential geometry]], [[homological algebra]], but also belletristics) 
 
