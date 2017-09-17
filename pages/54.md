@@ -11,7 +11,7 @@ The best way to contact me is by sending me an email at <urs.schreiber@gmail.com
 
 ## my position {#myposition}
 
-I have my PhD in theoretical [[physics]]. Have been a postdoc in [[mathematics|maths]] and [[mathematical physics]] for four years at Hamburg University. Was based for a bit at <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and have a postdoc position in Prof. [[Ieke Moerdijk]]'s group since 2009, first in Utrecht and then the group moved to Nijmegen in 2012.
+I have my PhD in theoretical [[physics]] but have worked in math departments ever since. Have been a postdoc in [[mathematics|maths]] and [[mathematical physics]] for four years at Hamburg University. Had then a few months of guest position at [HIM](http://www.hausdorff-research-institute.uni-bonn.de) and then at [MPI](http://www.mpim-bonn.mpg.de/) in Bonn, and since 2009 have a postdoc position in Prof. [[Ieke Moerdijk]]'s group, first in Utrecht and then the group moved to Nijmegen in 2012.
 
 ## my research {#myresearch}
 
@@ -29,14 +29,49 @@ See the exposition at
 
 This is the kind of stuff that I am working on.
 
-## students, teaching and other activity
+## publications, talks, teaching and students
 
-I like to put information into context. For that purpose I had started the [nLab wiki project](http://ncatlab.org/nlab/show/HomePage) in November 2008 (see [Wikipedia on "nLab"](http://en.wikipedia.org/wiki/NLab)).
-
-A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, students, teaching and other activity is here:
+A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, talks, students, teaching and other activity is here:
 
 * _[[schreiber:HomePage|my personal web within the nLab]]_.
 
+See specifically:
+
+* [publications](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects);
+
+* [talks](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References);
+
+* [teaching lecture notes](http://ncatlab.org/schreiber/show/HomePage#Teaching);
+
+* [students](http://ncatlab.org/schreiber/show/HomePage#students).
+
+## $n$Lab
+
+I like to put information into context. For that purpose I had started the 
+
+* [nLab wiki project](http://ncatlab.org/nlab/show/HomePage) 
+
+in November 2008. At the moment it has a nominal page count of almost 10,000 entries (some very short, but some very long). 
+
+For more on what this is see also
+
+* me on: _[[schreiber:What is... the nLab|What is... the nLab?]]_
+
+* Wikipedia on: _[nLab](http://en.wikipedia.org/wiki/NLab)_.
+
+## more on the web
+
+For more see my home pages 
+
+* _[at Wikipedia](https://en.wikipedia.org/wiki/Urs_Schreiber)_, 
+
+* _[at Math.SE](http://mathoverflow.net/users/381/urs-schreiber)_ ("MathOverflow"), 
+
+* _[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)
+
+* _[at Philosophy.SE](http://philosophy.stackexchange.com/users/5473/urs-schreiber)_
+
+* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_.
 
 ## copyright statement
  {#CopyrightStatement}
