@@ -1,4 +1,7 @@
 
+## Related concdets
+
+* [[Weil conjecture on Tamagawa numbers]]
 
 ## References
 
@@ -9,5 +12,9 @@
 Relation to [[Yang-Mills theory]] and the [[moduli space of connections]]:
 
 * Aravind Asok, Brent Doran, Frances Kirwan, _Yang-Mills theory and Tamagawa numbers_ ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
+
+Some other relation to [[quantum mechanics]] and maybe to the [[Witten genus]] (?) is claimed in 
+
+* M. A. Olshanetsky, _Quantum-mechanical calculations in the algebraic group theory_, Comm. Math. Phys. Volume 132, Number 2 (1990), 441-459. ([Euclid](http://projecteuclid.org/euclid.cmp/1104201160))
 
 [[!redirects Tamagawa numbers]]
