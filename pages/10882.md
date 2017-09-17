@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 This page collects some links related to the article
 
 * [[Jacob Lurie]],
@@ -8,5 +19,25 @@ This page collects some links related to the article
  ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf))
 
 of [[representable|representability]] by [[Deligne-Mumford stacks]] in [[E-∞ geometry]].
+
+## 1. Cotangent complex
+
+## 2. Properties of moduli functors
+
+## 3. Representability theorems
+
+## 4. Tangent complexes and dualizing modules
+
+### 4.1 The tangent complex
+
+### 4.2 Dualizing modules
+
+* [[dualizing module]]
+
+### 4.3 Existence of dualizing modules
+
+### 4.4 A linear representability criterion
+
+### 4.5 Existence of cotangent complexes
 
 category: reference
