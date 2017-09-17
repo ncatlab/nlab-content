@@ -29,3 +29,5 @@ As a [[category]] has an [[internal logic]] so a [[2-category]] has internal _2-
 
 
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
+
+  * [[michaelshulman:internal logic of a 2-category]]
