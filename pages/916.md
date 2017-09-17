@@ -108,6 +108,9 @@ This is all yet different from the category of pointed sets.
 
 For a more sophisticated analysis of computation, $Set_\bot$ can be replaced with a suitable category of domains, such as [[direction|directed]] [[complete lattice|complete]] [[partial order|partially ordered]] sets (DCPOs).  The requirement that $\bot$ be preserved can then be removed to model lazy computation, but now we are hardly talking about partial functions anymore.
 
+## Related concepts
+
+* [[entire function]]
 
 
 ## References 
