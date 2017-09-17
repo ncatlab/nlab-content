@@ -14,8 +14,10 @@ adelaide dot edu dot au
 
 ## Papers ##
 
+* _A relative topological fundamental groupoid_, in preparation (NB this will replace _A bigroupoid's topology_, below)
+
 * _Mapping groupoids of Lie groupoids and the bundle 
-gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
+gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo, in preparation.
 
 * _$Con(ZF+\neg WISC)$_, unpublished preprint, [[davidroberts:Con(ZF+notWISC)|webpage]].
 
