@@ -91,9 +91,14 @@ The [[limits]] of [[category theory]] are a great generalization of an analogy w
 ## Related concepts
 
 * [[filter]]
+
 * [[convergence space]]
+
 * [[series]]
+
 * [[limit point]]
+
+* [[radius of convergence]]
 
 
 category: analysis
