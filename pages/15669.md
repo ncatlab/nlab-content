@@ -8,7 +8,7 @@ Review of the first three sections of ([Rapoport-Zink 96](#RapoportZink96)) is i
 
 * _Rapoport-Zink spaces_, lecture notes 2013 [pdf](http://www.math.uni-bielefeld.de/~verhoek/files/notes-pdiv-2.pdf)
 
-Further lectur notes include
+Further lecture notes include
 
 * _KIAS Intensive Lecture Series on Shimura varieties and Rapoport-Zink spaces_ ([web](http://home.kias.re.kr/MKG/h/ILSSRZ2014/))
 
