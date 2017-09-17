@@ -42,10 +42,14 @@ $$
 as the first-order system of "covariant" [[Hamilton equations]]
 
 $$
-  \frac{\delta H}{\delta \pi_i^\mu} = \partial_\mu \phi^i
+  \partial_\mu \phi^i
+    =
+  - \frac{\delta H}{\delta \pi_i^\mu} 
   \,,
   \;\;\;\;
-  \frac{\delta H}{ \delta \phi^i} = - \partial_\mu \pi^\mu_i
+  \partial_\mu \pi^\mu_i
+   =
+  \frac{\delta H}{ \delta \phi^i} 
   \,.
 $$
 
@@ -54,13 +58,21 @@ This $H$ is also called the _de Donder-Weyl Hamiltonian_.
 In terms of the [[multisymplectic form]]
 
 $$
-  \Omega := d \pi^\mu_i \wedge  d \phi^i  \wedge (\iota_{\partial_\mu} vol_\Sigma) + d H \wedge vol_\Sigma
+  \Omega 
+   \coloneqq 
+   \mathbf{d} \pi^\mu_i \wedge  \mathbf{d} \phi^i  
+   \wedge (\iota_{\partial_\mu} vol_\Sigma) 
+    + 
+    \mathbf{d} H \wedge vol_\Sigma
 $$
 
 the critical field configurations are precisely those whose top-degree multi-tangent spaces annihilate $\Omega$.
 
 (...)
 
+## Related concepts
+
+* [[Hamiltonian n-vector field]]
 
 
 ## References
