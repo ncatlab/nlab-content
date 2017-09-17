@@ -1,28 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Mapping space
-+--{: .hide}
++-- {: .hide}
 [[!include mapping space - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
-The smooth loop space of a [[smooth manifold]], say $M$, is the [[space]] of smooth maps from the circle, $S^1$, to $M$.  It naturally carries the structure of a [[diffeological space]] or [[Frolicher space]] and can be given compatibly the structure of an infinite dimensional [[Frechet manifold|Fréchet manifold]].
+The smooth loop space of a [[smooth manifold]], say $M$, is the [[space]] of smooth maps from the circle, $S^1$, to $M$ (smooth [[loops]] in $M$).  It naturally carries the structure of a [[diffeological space]] or [[Frolicher space]] and can be given compatibly the structure of an infinite dimensional [[Frechet manifold|Fréchet manifold]].
 
 By extending the idea of a manifold to that of a [[generalized smooth space]], smooth loop spaces can be viewed as the result of applying the [[internal hom]]-functor $[-,-] : Sh(CartSp)^{op} \times Sh(CartSp) \to Sh(CartSp)$ in the [[category of sheaves]] on the [[site]] [[CartSp]] with the circle as the source:
 
@@ -345,3 +342,7 @@ Concretely for the question discussed here some useful statements are collected 
 
 
 This entry was created in parallel with [this MO thread](http://mathoverflow.net/questions/12652/loop-spaces-as-generalized-smooth-spaces-or-as-infinite-dimensional-manifolds) from which parts of it is taken.
+
+
+[[!redirects smooth loop space]]
+[[!redirects smooth loop spaces]]
