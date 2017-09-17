@@ -65,7 +65,21 @@ $$
   \,.
 $$
 
-Here on the right $Ho_{Top}$ and $Ho_{\infty Grpd}$ denotes the [[homotopy category]] of the [[(∞,1)-categories]] of [[topological spaces]] and of [[∞-groupoids]], respectively.
+Here on the right $Ho_{Top}$ and $Ho_{\infty Grpd}$ denotes the [[homotopy category]] of the [[(∞,1)-categories]] of [[topological spaces]] and of [[∞-groupoids]], respectively. 
+
+Not only the set $\pi_0\mathbf{Top}(X, K(A,n))=Ho_{Top}(X, K(A,n))$ is related to the cohomology of $X$ with coefficients in $A$, but also the higher homotopy groups $\pi_i\mathbf{Top}(X, K(A,n))$ are, and in the most obvious way: if $X$ is a connected CW-complex, then
+$$
+H^{n-i}(X,A)=\pi_i\mathbf{Top}(X, K(A,n))=\pi_i\mathbf{\infty Grpd}(X, \mathbf{B}^n A),
+$$
+for any choice of base point on the right hand sides. This fact, which appears to have first been remarked by Thom and Federer, is an immediate consequence of the natural homotopy equivalences
+$$
+\Omega\mathbf{H}(X,Y)\simeq \mathbf{H}(X,\Omega Y)
+$$
+and
+$$
+\Omega K(A,n)\simeq K(A,n-1)
+$$
+one has in every $(\infty,1)$-[[(infinity,1)-topos|topos]], see [[loop space object]]. For $G$ a nonabelian group, Gottlieb proves the following nonabelian analogue of the above result: let $X$ be a finite dimensional connected CW-complex; for a fixed map $f:X\to K(G,1)$, let $C_f$ be the centralizer in $G=\pi_1 K(G,1)$ of $f_*(\pi_1(X))$. Then the connected component of $f$ in $\mathbf{Top}(X,K(G,1))$ is a $K(C_f,1)$.
 
 Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most familiar) example of [[nonabelian cohomology]]. Nonabelian cohomology in higher degrees is obtained by replacing here the coefficient $\infty$-groupoids of the simple for $\mathbf{B}^n A$ with more general $\infty$-groupoids.
 
