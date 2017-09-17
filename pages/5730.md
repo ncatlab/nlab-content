@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A **complex manifold** is a [[manifold]] modeled on $\mathbb{C}^n$ (the complex $n$-dimensional complex line):
+
+it is a [[smooth manifold]] locally isomorphic to $\mathbb{C}^n$ whose transition functions are [[holomorphic function]]s.
+
+## References
+
+For instance
+
+* Stefan Vandoren, _Lectures on Riemannian Geometry, Part II:
+Complex Manifolds_ ([pdf](http://www.phys.uu.nl/~vandoren/MRIlectures.pdf))
+
+[[!redirects complex manifolds]]
