@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
 =--
 =--
 
@@ -116,9 +120,12 @@ In [[logic]], functions types express [[implication]]. More precisely, for $\phi
 ## Related concepts
 
 * [[function application]]
+
 * [[dependent product type]]
+
 * [[lambda calculus]]
-* [[implication]]
+
+* [[implication]], [[linear implication]]
 
 ## References
 
