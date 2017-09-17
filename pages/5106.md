@@ -17,7 +17,7 @@ To judge whether a modal logic gives a good encoding of the properties of a part
 
 *  If $\mathbb{F}$ is a class of frames (all of the same relational signature), then we say $\phi $ is _valid in $\mathbb{F}$_ (notation $\mathbb{F}\models \phi$ if $\mathfrak{F}\models \phi$ for all $\mathfrak{F}\in \mathbb{F}$, and is **valid**, $\models\phi$, if it is valid on the class of all frames.
 =--
-Fixing a given set $P$ of atomic formulae and the relational signature that we are considering:
+Fixing a given set $P$ of atomic formulae and the [[signature (in logic)|relational signature]] that we are considering:
 +--
 {: .un_prop}
 ######Proposition######
