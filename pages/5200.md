@@ -27,7 +27,7 @@ In this second form, it clearly corresponds to ''Agent $i$ knows that (s)he know
 ##Reflexive transitive Kripke frames##
 With $T_{(m)}$, the models corresponded to frames where each relation $R_i$ was reflexive.  Here we consider the class $\mathcal{S}4(m)$ of models with frames, where each $R_i$ is both reflexive _and_ transitive.
 
-+--{: .un_defn}
++--{: .un_theorem}
 ######Theorem (Soundness of $S4_{(m)}$)
 $S4_{(m)}\vdash \phi \Rightarrow \mathcal{S}4(m)\models \phi.$
 =--
