@@ -440,3 +440,7 @@ The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasico
 [[!redirects quasicoherent sheaves]]
 [[!redirects quasicoherent module]]
 [[!redirects quasicoherent modules]]
+
+[[!redirects quasi-coherent sheaves]]
+[[!redirects quasi-coherent module]]
+[[!redirects quasi-coherent modules]]
