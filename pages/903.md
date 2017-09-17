@@ -236,11 +236,11 @@ Homotopy groups and their properties can naturally be formalized in [[homotopy t
 
 and a proof that 
 
-$\pi_k(S^1) \simeq \left\{ \array{ 0 & for \;k \lt n \\ \mathbb{Z} & for\; k = n} \right.$ 
+$\pi_k(S^n) \simeq \left\{ \array{ 0 & for \;k \lt n \\ \mathbb{Z} & for\; k = n} \right.$ 
 
 is in 
 
-* [[Dan Licata]], [[Guillaume Brunerie]], _[PiNSN.agda](hott-agda / homotopy / PiNSN.agda)_
+* [[Dan Licata]], [[Guillaume Brunerie]], _[PiNSN.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiNSN.agda)_
 
 [[!redirects homotopy group]]
 [[!redirects homotopy groups]]
