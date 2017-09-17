@@ -9,15 +9,6 @@
 =--
 =--
 
-* [[functor]]
-
-* [[2-functor]] / [[pseudofunctor]]
-
-* **$n$-functor**
-
-* [[(∞,1)-functor]]
-
-***
 
 # Higher functors
 * table of contents
@@ -38,7 +29,8 @@ An $n$-[[n-natural transformation|natural transformation]] goes between $n$-func
 *  [[function]] (a $0$-[[0-functor|functor]])
 *  [[functor]] (a $1$-[[1-functor|functor]])
 *  [[2-functor]], including [[pseudo functor]]
-*  etc
+* [[(∞,1)-functor]]
+
 
 
 [[!redirects n-functor]]
