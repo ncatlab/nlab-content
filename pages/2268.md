@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -73,6 +80,10 @@ If $\mathfrak{g} = \mathfrak{u}(1) = \mathbb{R}$ is the abelian 1-dimensional Li
 
 More on $\infty$-Lie algebroid-valued differential forms is (eventually) at [[schreiber:∞-Lie algebroid valued differential forms]].
 
+
+## Related concepts
+
+The higher-order version of tangent Lie algebroids are [[jet bundle]] [[D-scheme]]s.
 
 ## References ##
 
