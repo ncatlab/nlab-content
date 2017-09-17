@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
