@@ -2370,7 +2370,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-If $\mathbf{H}$ is cohesivem then we have 
+If $\mathbf{H}$ is cohesive then we have 
 
 $$
   \exp Lie \circ \exp Lie \simeq \exp Lie \circ \Sigma \circ \Omega
