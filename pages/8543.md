@@ -268,3 +268,11 @@ is called a *Markow process*.
 ## Chapman-Kolmogorow Equation
 
 For a Markow process the Chapman-Kolmogorow equation encodes the statement that the transition probabilities of the process form a [[semigroup]].
+
+If in the notation from above $(P_t:\Omega\times\mathfrak{A}\to [0,1])_t$ is a family of stochastic kernels $(\Omega,\mathfrak{A})\to(\Omega,\mathfrak{A})$ such that all $P_t(\omega,-):\mathfrak{A}\to [0,1]$ are probabilities, then $(P_t)_t$ is called *transition semigroup* if
+
+$$\overline P_t (P_s(\omega,A))=P_{s+t} (\omega, A)$$
+
+where
+
+$$\overline P_t: P_s(\omega,-)\mapsto (A\mapsto\int_\Omega P_t (y,A) P_s(\omega,-)(d_y))$$
