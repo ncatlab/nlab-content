@@ -1,9 +1,16 @@
-
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-category theory
++--{: .hide}
 [[!include 2-category theory - contents]]
-----
+=--
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
 
 # Pseudofunctors
 * table of contents
@@ -72,7 +79,7 @@ Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__
 
 ## Lax functors
 
-If we remove the requirement that $P_{\id_x}$ and $P_{x,y,z}(f,g)$ be invertible, then we have the definition of __[[lax functor]]__.  If we reverse the direction of these as well, then we have an __[[oplax functor]]__.  (Probably the convention of which is lax and which is oplax are sometimes reversed.)
+If we remove the requirement that $P_{\id_x}$ and $P_{x,y,z}(f,g)$ be invertible, then we have the definition of __[[oplax functor]]__.  If we reverse the direction of these as well, then we have an __[[lax functor]]__.
 
 
 [[!redirects pseudofunctor]]
