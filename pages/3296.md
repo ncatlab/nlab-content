@@ -76,14 +76,22 @@ $X \stackrel{c}{\to} B G \stackrel{k}{\to} \mathcal{B}^n A$ represents a class $
 
 Notable families of examples include:
 
-* for $G = O$ the [[orthogonal group]]: [[Pontryagin class]]es, [[Stiefel-Whitney class]]es;
+* for $G = O$ the [[orthogonal group]]: 
 
-* for $G = SO$ the [[special orthogonal group]]: [[Euler class]]es;
+  [[Pontryagin classes]], [[Stiefel-Whitney classes]], [[Wu classes]];
+
+* for $G = SO$ the [[special orthogonal group]]: 
+
+  [[Euler classes]];
 
 
-* for $G = U$ the [[unitary group]]: [[Chern class]]es;
+* for $G = U$ the [[unitary group]]: 
 
-* for $G = \mathbf{B}U(1)$ the [[circle n-group|circle 2-group]]: the [[Dixmier-Douady class]].
+  [[Chern classes]];
+
+* for $G = \mathbf{B}U(1)$ the [[circle n-group|circle 2-group]]: 
+
+  the [[Dixmier-Douady class]].
 
 
 
