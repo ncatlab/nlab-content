@@ -47,4 +47,6 @@ The connected components of this is equivalently the [[group cohomology]] of $G$
 
 * [[gauge invariance]]
 
+* [[coinvariant]]
+
 [[!redirects invariants]]
