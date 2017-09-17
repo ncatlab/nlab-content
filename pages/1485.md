@@ -222,9 +222,9 @@ Any space $X$ can always be turned into a manifold modelled on itself, using any
 
 ## Patching as Idempotent Splitting
 
-In an exercise of his 1973 Perugia lectures [[F. William Lawvere]] reported a somewhat surprising observation: In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a category of open subsets of Euclidian spaces. More precisely:
+In an exercise of his 1973 Perugia lectures [[F. William Lawvere]] reported a somewhat surprising observation: In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a category of open subsets of Euclidean spaces. More precisely:
 
-Let $Man$ be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a finite-dimensional, second-countable, Hausdorff, $C^\infty$ [[manifold]] without boundary.  Let $i: Open \hookrightarrow Man$ be the [[full subcategory]] whose objects are the [[open subspaces]] of finite-dimensional [[Cartesian spaces]]. 
+Let $Man$ be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a finite-dimensional, second-countable, Hausdorff, $C^\infty$ manifold without boundary.  Let $i: Open \hookrightarrow Man$ be the [[full subcategory]] whose objects are the [[open subspaces]] of finite-dimensional [[Cartesian spaces]]. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -335,7 +335,7 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
 
 * John Loftin, _The real definition of a smooth manifold_ ([pdf](http://andromeda.rutgers.edu/~loftin/difffal03/manifold.pdf))
 
-The proof that idempotents split in the category of manifolds was adapted from this MO answer: 
+The proof that idempotents split in the category of smooth manifolds was adapted from this MO answer: 
 
 * Zack (http://mathoverflow.net/users/300/zack), Idempotents split in category of smooth manifolds?, URL (version: 2014-04-06): http://mathoverflow.net/q/162556 ([web](http://mathoverflow.net/a/162556/2926)) 
 
