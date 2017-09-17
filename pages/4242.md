@@ -11,9 +11,9 @@
 
 ## Idea
 
-What is called the _B-model_ is the 2-dimensional [[topological conformal field theory]] corresponding to the [[Calabi-Yau category]] of complexes of [[vector bundle]]s on a [[Calabi-Yau space]] $X$.
+The _B-model_ is a 2-dimensional [[topological conformal field theory|topological N=2 superconformal field theory]] attached to a compact [[Calabi-Yau variety]] $X$. In Kontsevich's version, instead of SCFT with Hilbert space, one assembles all the data in terms of [[Calabi-Yau category|Calabi-Yau A-infinity category]]. 
 
-The B-model arose in formal [[physics]] from considerations of [[string theory|superstring]]-propagation on Calabi-Yau spaces: it may be motivated by considering the [[vertex operator algebra]] of the 2d[[CFT|SCFT]] given by the supersymmetric [[sigma-model]] with target $X$ and then deforming it such that one of the super-[[Virasoro-algebra|Virasoro]] generators squares to 0. The resulting "topologically twisted" algebra may then be read as being the [[BRST complex]] of a [[TCFT]].
+The B-model arose in formal [[physics]] from considerations of [[string theory|superstring]]-propagation on Calabi-Yau varieties: it may be motivated by considering the [[vertex operator algebra]] of the 2d[[CFT|SCFT]] given by the supersymmetric [[sigma-model]] with target $X$ and then deforming it such that one of the super-[[Virasoro-algebra|Virasoro]] generators squares to 0. The resulting "topologically twisted" algebra may then be read as being the [[BRST complex]] of a [[TCFT]].
 
 By [[homological mirror symmetry]], the B-model is dual to the  [[A-model]].
 
