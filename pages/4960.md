@@ -724,7 +724,7 @@ $$
 
 
 
-#### Smooth sets
+#### Smooth sets {#SmoothSets}
 
 Here we go in detail through a 1-categorical version of the above arguments, over the site of cohesion [[CartSp]]. Below in [infinity-Lie groupoids](#InfLieGrpd) we look at the full $(\infty,1)$-topos over this site.
 
