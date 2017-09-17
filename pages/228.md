@@ -7,7 +7,7 @@ Of course, nobody but a category-theorist would use the above as a *definition* 
 
 (Notice that these are dual to the axioms for an [[equivalence relation]]; like those axioms, these correspond to [[identity morphism]]s, [[inverse]]s, and [[composition]] in a groupoid.)
 
-The [[negation]] of an apartness relation is an equivalence relation. (The converse of this is equivalent to [[excluded middle]].) An apartness relation is _tight_ (see [[connected relation]]) if this equivalence relation is [[equality]]; any apartness relation defines a tight apartness relation on the [[quotient set]]. A tight apartness relation, also called an _inequality_, is often written $\ne$ instead of $\#$, but keep in mind that $\ne$ is not the negation of $=$; rather, $=$ is the negation of $\ne$. (So inequality, when it exists, is more basic than equality.)
+The [[negation]] of an apartness relation is an equivalence relation. (The converse of this is equivalent to [[excluded middle]].) An apartness relation is __tight__ (see [[connected relation]]) if this equivalence relation is [[equality]]; any apartness relation defines a tight apartness relation on the [[quotient set]]. A tight apartness relation, also called an __inequality__, is often written $\ne$ instead of $\#$, but keep in mind that $\ne$ is not the negation of $=$; rather, $=$ is the negation of $\ne$. (So inequality, when it exists, is more basic than equality.)
 
 If $S$ and $T$ are both sets equipped with apartness relations, then a [[function]] $f: S \to T$ is _strongly extensional_ if $x \# y$ whenever $f(x) \# f(y)$; that is, $f$ reflects apartness. The strongly extensional functions are precisely the [[enriched functor]]s between $TV^\op$-enriched groupoids, so they are the correct morphisms. (Note that there is no nontrivial notion of enriched [[natural isomorphism]], at least not when the apartness in $T$ is strict.)
 
@@ -93,4 +93,7 @@ I am also not sure in which sense you refer to the law of the excluded middle. S
    _[[Urs Schreiber|Urs]] replies to the reply:_ I like this statement "$(-1)\Cat = \Omega$". Would we also want to say $(-2)Cat = \{1 \stackrel{\top}{\to} \Omega\}$?
 
 
+[[!redirects apartness relation]]
 [[!redirects apartness relations]]
+[[!redirects tight apartness relation]]
+[[!redirects tight apartness relations]]
