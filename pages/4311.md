@@ -17,10 +17,9 @@ There is a conjecture of Kontsevich that the Hochschild-cyclic spectral sequence
 
 Noncommutative Hodge theory is being developed in
 
-* L. Katzarkov, [[Maxim Kontsevich]], [[Tony Pantev]], _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
+* [[Ludmil Katzarkov]], [[Maxim Kontsevich]], [[Tony Pantev]], _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
 
-
-* D. Kaledin, _Cartier isomorphism and Hodge theory in the non-commutative case_,  Arithmetic geometry,  537--562, Clay Math. Proc. __8__, Amer. Math. Soc. 2009, [arxiv/0708.1574](http://arxiv.org/abs/0708.1574)
+* [[D. Kaledin]], _Cartier isomorphism and Hodge theory in the non-commutative case_,  Arithmetic geometry,  537--562, Clay Math. Proc. __8__, Amer. Math. Soc. 2009, [arxiv/0708.1574](http://arxiv.org/abs/0708.1574)
 
 * D. Kaledin, _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex)
 
