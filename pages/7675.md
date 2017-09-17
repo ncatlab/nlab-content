@@ -1,0 +1,5 @@
+A finite limit of $k$-formal schemes is $k$-formal. The category of $k$-formal schemes has arbitrary products.
+
+A formal $k$-scheme is called _local $k$-scheme_ if it is the formal spectrum of a [[local ring]] (=has a unique maximal ideal).
+
+Any formal $k$-scheme is a coproduct of local $k$-schemes ([Demazure, p.15](#Demp)).
