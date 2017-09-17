@@ -45,6 +45,8 @@ A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all o
 
 * [[Tim Porter]], _[[PorterDipath.pdf:file]]_
 
+* [Causal sets in Wikipedia (English)](http://en.wikipedia.org/wiki/Causal_sets)
+
 
 [[!redirects causets]]
 [[!redirects causal set]]
