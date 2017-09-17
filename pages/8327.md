@@ -1,11 +1,13 @@
 
 **[[philosophy]]**
 
+* [[ontology]]
+
+  * [[being]], [[becoming]]
+
 ### Of logic
 
 [[Science of Logic]]
-
-* [[being]], [[becoming]]
 
 ### Of mathematics
 
