@@ -69,19 +69,27 @@ for the [[Bousfield localization of model categories|left Bousfield localization
 
 These two model structures are equivalent:
 
-+-- {: .un_defn}
-###### Definition
++-- {: .un_prop}
+###### Proposition
 
-The identity [[adjunction]] establishes a [[Quillen equivalence]]
+Let 
 
 $$
-  (Id \dashv Id)
+  (\tau \dashv N) : Grpd \stackrel{\overset{\tau}{\leftarrow}}{\underset{N}{\to}}
+  sSet
+$$
+
+be the [[nerve]] functor and its [[left adjoint]] $\tau$. Postcomposition with this induces a [[Quillen adjunction]]
+
+$$
+  (\tau_* \dashv N_*)
   :
   [C^{op}, Grpd_{nat}]_{loc}
-  \underoverset{\leftarrow}{\to}{\simeq}
+  \underoverset{\underset{N_*}{\to}}{\overset{\tau_*}{\leftarrow}}{\simeq}
   [C^{op}, sSet_{Quillen}]_{loc, W}
-  \,.
 $$
+
+that is a [[Quillen equivalence]].
 
 =--
 
