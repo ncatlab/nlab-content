@@ -1,19 +1,36 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _[[moduli space]] of [[complex structures]]_
+A _[[moduli space]]/[[moduli stack]] of [[complex structures]]_ on a given [[topological manifold]]/[[smooth manifold]].
 
-(Typically a [[moduli stack]] and typically an [[orbifold]]/[[Deligne-Mumford stack]].)
+For complex structures on 2-dimensional manifolds this is called _[[Teichmüller space]]_, an [[orbifold]]/[[Deligne-Mumford stack]].
+
+Specifically for once-punctured 2-dimensional manifolds of [[genus]] 1 ([[tori]]) this is equivalently the [[moduli stack of elliptic curves]] over the complex numbers.
 
 ## Related concepts
 
 * [[moduli space of conformal structures]]
 
+* [[moduli space of curves]]
+
 * [[Teichmüller theory]]
+
+* [[Kodaira-Spencer theory]]
 
 ## References
 
@@ -27,3 +44,4 @@ and in
 
 [[!redirects moduli spaces of complex structures]]
 
+[[!redirects moduli stack of complex structures]]
