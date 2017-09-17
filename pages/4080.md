@@ -1,0 +1,15 @@
+Given an irreducible variety $X$ and a variety $Y$ a rational map $f: X\dashrightarrow Y$ (notice dashed arrow notation) is an equivalence class of partially defined maps, namely the pairs $(U, f_U)$ where $f_U$ is a regular map $f_U: U\to Y$ defined on dense Zariski open subvarieties $U\subset X$ and the equivalence is the agreement on the common intersection. 
+
+The notion of an [[image of a rational map]] is nontrivially defined, see that entry. A rational map $f: X\dashrightarrow Y$ is __dominant__ if its image as a rational map is the whole of $Y$. 
+
+The composition of rational maps $g\circ f$ where $f: X\dashrightarrow Y$ and $g: Y\dashrightarrow Z$ is not always defined, namely it is even possible that the image of $f$ lies out of any dense open subset in $Y$, where $g$ is defined as a regular map. The composition is defined as the class of equivalence of pairs $(g_V\circ f_U|,  f_U^{-1}(V))$ where $U\subset X$ and $V\subset Z$ are open dense subsets and $f_U^{-1}(V)\neq \emptyset$ if such exist and undefined otherwise. 
+
+If $f$ is dominant then in this situation is the composition $g\circ f$ is always defined. 
+
+See also [[birational map]], [[birational geometry]], [[rational variety]], [[unirational variety]]. 
+
+[[!redirects rational maps]]
+[[!redirects dominant rational map]]
+[[!redirects dominant rational maps]]
+[[!redirects dominant map of varieties]]
+[[!redirects dominant rational map of varieties]]
