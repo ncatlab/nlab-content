@@ -649,6 +649,25 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
   * [[fine sheaf]]
 
   * [[flabby sheaf]]
+
+* [[descent]]
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * [[descent morphism]]
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+
+
 ## References
 
 Section C2 in 
