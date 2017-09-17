@@ -135,14 +135,16 @@ See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more
 * [[Jim Stasheff]], _Homotopy associative $H$-spaces I, II_, Trans. Amer. Math. Soc. 108, 1963, 275-312 
 {#Stasheff}
 
-* [[Peter May]], _The geometry of iterated loop spaces_
-{#May}
+* [[Peter May]], _The geometry of iterated loop spaces_ Lecture Notes in Mathematics 271 (1970) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+ {#May}
 
 * H. Wada, _Local connectivity of mapping spaces_, Duke Mathematical Journal, vol ? (1955) pp 419-425
 
 The simplicial loop group functor is discussed in chapter V, section 5 of
 
-* [[Paul Goerss]], J. Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+
+See also the references at [[looping and delooping]].
 
 [[!redirects loop spaces]]
 
