@@ -11,6 +11,10 @@ The [[Lie integration]] of [[higher Courant Lie algebroids]].
 
 [[!include higher Atiyah groupoid - table]]
 
+[[!include slice automorphism groups in higher prequantum geometry - table]]
+
+
+
 [[!redirects higher Courant groupoids]]
 
 [[!redirects Courant 2-groupoid]]
