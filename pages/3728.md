@@ -19,3 +19,4 @@ Equivalently, $f$ is an equivalence if it is the image of a functor of quasi-cat
 
 [[!redirects (infinity,1)-equivalence]]
 [[!redirects (∞,1)-equivalence]]  
+[[!redirects equivalence in an (∞,1)-category]]
