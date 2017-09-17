@@ -1,0 +1,6 @@
+
+A [[theory]].
+
+## References
+
+* Wikipedia, _[Elementary function arithmetric](http://en.wikipedia.org/wiki/Elementary_function_arithmetic)_ .
