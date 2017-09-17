@@ -174,6 +174,8 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 * [[real numbers object]]
 
+* [[computable real number]]
+
 * [[p-adic numbers]]
 
 * in [[constructive analysis]] one may use the [[completion monad]] for dealing with real numbers
