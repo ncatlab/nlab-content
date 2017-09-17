@@ -26,16 +26,23 @@ When supplemented by [[inductive types]], it become the __Calculus of Inductive 
 
 More in detail, the _Calculus of (co)Inductive Constructions_ is
 
-1. a system of [[natural deduction]] with [[dependent types]];
+1. a [[pure type system]], hence
 
-1. with the natural-deduction rule for [[dependent product types]] specified;
+   1. a system of [[natural deduction]] with [[dependent types]];
 
-1. and with a rule for how to introduce new such natural-deduction rules for arbitrary (co)[[inductive types]].
+   1. with the natural-deduction rule for [[dependent product types]] specified;
 
-1. and with a [[type of types]] (hierarchy).
+1. with a rule for how to introduce new natural-deduction rules for arbitrary ([[coinductive type|co]])[[inductive types]].
 
-All of the other standard [[type formation|type formations]] are subsumed by the existence of arbitrary inductive types, notably the [[empty type]], [[unit type]] and [[dependent sum types]] are special inductive types.
+1. and with [[universes]]:
 
+   a cumulative hierarchy of [[predicative mathematics|predicative]] [[types of types]]
+
+   and an impredicative [[type of propositions]].
+
+
+
+All of the other standard [[type formation|type formations]] are subsumed by the existence of arbitrary inductive types, notably the _[[empty type]]_, _[[dependent sum types]]_ and _[[identity types]]_ are special inductive types. Specifying these hence makes the calculus of constructions be an [[intensional type theory|intensional]] [[dependent type theory]].
 
 ## References
 
