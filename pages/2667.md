@@ -209,7 +209,11 @@ are the components of a natural transformation from the functor $X \mapsto X^{\o
 
 +-- {: .query}
 
-[[John Baez]]: Todd wrote "cokernel of the pair", but shouldn't one say either say "cokernel of $\widetilde{p_\lambda})$" or "coequalizer of the pair", as above?  I prefer saying just "cokernel".  If this is bad, we should also fix it below.
+[[John Baez]]: Todd wrote "cokernel of the pair", but shouldn't one say either say "cokernel of $\widetilde{p_\lambda})$" or "coequalizer of the pair", as above?  I prefer saying just "cokernel".  If this is bad, we should also fix it below. 
+
+[[Todd Trimble]]: Yes, you're right, I meant coequalizer. But I think you want $V_\lambda$ to correspond to the _image_ of $p_\lambda$ (which is the coequalizer of $p$ and $1$, i.e., the cokernel of $1-p$), not the cokernel of $p_\lambda$. Is that right? 
+
+I guess I had another question here. According to the way you've set it up, where $p_\lambda$ is the identity of a matrix algebra component, it looks like you're projecting not just onto a $V_\lambda$ but onto a factor $V_{\lambda}^{d(\lambda)}$ where $d(\lambda)$ is the dimension of the irrep $V_\lambda$. Because that's how big the matrix algebra is. 
 
 =--
 
