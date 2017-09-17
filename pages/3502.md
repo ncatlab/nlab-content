@@ -2,7 +2,9 @@ While for manifolds there is a [[Poincare duality|Poincaré duality]] relating h
 
 * M. Banagl, _Topological invariants of stratified spaces_, Springer Monographs in Math. 2000. 
 
-* scans from old MacPherson's notes [pdf](http://faculty.tcu.edu/gfriedman/notes/ih.pdf)
+* R. MacPherson, _Intersection homology and perverse sheaves_,  1990 notes [pdf](http://faculty.tcu.edu/gfriedman/notes/ih.pdf)
+
+* R. MacPherson, _Global questions in the topology of singular spaces_, Proc. ICM Warsaw 1983, [pdf](http://www.mathunion.org/ICM/ICM1983.1/Main/icm1983.1.0213.0236.ocr.pdf)
 
 * wikipedia: [intersection homology](http://en.wikipedia.org/wiki/Intersection_homology)
 
