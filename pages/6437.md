@@ -353,14 +353,10 @@ of the action functionals
 of the 2-dimensional $\sigma$-models called the 
 _[[A-model]]_ and the _[[B-model]]_ .
 
-In ([Roytenberg](#Roytenberg)) a more detailed discussion of
-the general construction is given. While there, too, some 
-technical subtleties are glossed over, such as the precise definition of the 
-mapping space, a central achievement is that an explicit 
-and general formula for $\mathbf{S}$ and hence for $S_{\mathrm{AKSZ}}$ 
-is derived. For $\{x^a\}$ a coordinate chart on $X$ that formula is
+In ([Roytenberg](#Roytenberg)), a more detailed discussion of the general construction is given, including an explicit 
+and general formula for $\mathbf{S}$ and hence for $S_{\mathrm{AKSZ}}$ . 
+For $\{x^a\}$ a coordinate chart on $X$ that formula is
 the following.
-
 
 +-- {: .num_defn #TheAKSZAction}
 ###### Definition
@@ -449,3 +445,16 @@ See [∞-Chern-Simons theory -- Examples -- Dijkgraaf-Witten theory](http://ncat
 
 See [[schreiber:∞-Chern-Simons theory]].
 
+## References
+
+The [[AKSZ sigma-model]] is discussed in
+
+* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
+ {#AKSZ}
+
+* [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ Lett.Math.Phys.79:143-159,2007 ([arXiv](http://arxiv.org/abs/hep-th/0608150)).
+ {#Roytenberg}
+
+General $\infty$-Chern-Simons theory is discussed in 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:infinity-Chern-Simons theory]]_
