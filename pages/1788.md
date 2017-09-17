@@ -6,7 +6,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 $\coloneqq$ $\eqqcolon$
 
-[pdf](http://www.tex.ac.uk/ctan///////macros/latex/contrib/beamer/doc/beameruserguide.pdf)
+[pdf](http://link.springer.com/content/pdf/10.1023%2FA%3A1015225622516.pdf)
 
 | | [[local prequantum field theory]] | [[homotopy theory]] |  | [[local action functional]] / [[prequantum n-bundle]] |  |
 |--|--|--|--|--|--|
