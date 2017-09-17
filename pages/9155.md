@@ -23,9 +23,11 @@ A central aspect of [[quantum field theory]] usually desired or demanded or expe
 
 * there is no "action at a distance", but all influences propagate (on a [[Lorentzian manifold]]) at some finite speed (that of light, usually);
 
-* phenomena of large scale [[spacetime]]/[[worldvolume]] are entirely determined by phenomena on smaller scales.
+* phenomena of large scale [[spacetime]]/[[worldvolume]] are entirely determined by phenomena on smaller scales;
 
-In some [[effective quantum field theories]] locality may be violated, if fundamental local processes are averaged out to a single non-local macroscopic process.
+* (space-line) separated regions of [[spacetime]] behave like [independent subsystems](quantum+mechanics#Subsystems) ([[causal locality]]).
+
+In some [[effective quantum field theories]] locality may be violated, if fundamental local processes are averaged out to a single non-local macroscopic process, but for _fundamental_ physics of the [[observable universe]] it is thought to hold.
 
 ### Formalization in quantum field theory
 
@@ -41,7 +43,7 @@ Locality is formalized in the two main axiomatizations of quantum field theory a
 
 * In [[FQFT]] locality is encoded in the [[functor]]-property of the functor on the [[category of cobordisms]]: being a functor means that the assignment to a cobordism $\Sigma$ is obtained by composing the assignments to any decompoisition of $\Sigma$ into small cobordims. In particular in _[[extended quantum field theory]]_ (now also sometimes called "fully localized" QFT) this is [[(infinity,n)-functor|n-functorial]] meaning that this gluing condtion holds in all dimensions and in all directions.
 
-### Formalization in prequantum field theory
+### Formalization in pre-quantum field theory
 
 There are also properties of locality in _[[prequantum field theory]]_.
 
@@ -49,6 +51,9 @@ A _[[Lagrangian]]_ is called a _[[local Lagrangian]]_ if it "depends only on fin
 
 Here, too, one can consider the analog of [[extended quantum field theory]] and ask for _[[extended Lagrangians]]_ that are not only local as top-degree forms on [[spacetime]]/[[worldvolume]], but which also have an "extended" to lower dimensional subspaces.
 
+## Related concepts
+
+* [[microcausality]], [[Einstein causality]]
 
 [[!redirects local quantum field theories]]
 
