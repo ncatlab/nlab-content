@@ -1,3 +1,8 @@
+# Contents
+* table of contents
+{: toc}
+
+
 ## Idea 
 
 A __tripos__ is a [[first-order hyperdoctrine|first-order hyperdoctrine with equality]]  satisfying an additional property that allows it to interpret impredicative higher-order logic as well. In particular, every tripos gives rise to a corresponding [[topos]]). 
@@ -27,7 +32,7 @@ The $in_c$ are called _generic predicates_. In particular, put $P = P 1$ and $in
 
 $$\hom(-, P^c) \cong \hom(-, P) \circ (c \times -)^{op} \to {|Pred_T|} \circ (c \times -)^{op} = Pred_T(c \times -)$$ 
 
-and in this way the single generic predicate $(P, in)$ can be used to generate a generic predicate over $c$, as $(P^c, in_c = (eval_c)^\ast(in))$, i.e., the generic predicate over $c$ is obtained by pulling back along the [[evaluation]] map $eval_c \colon c \times P^c \to P$. (N.B.: this need not reproduce the original generic predicates, but the resulting tripos structure may be compared with the original tripos structure in both directions: there are maps $P c \to P^c$ and $P^c \to P c$, with the generic predicates in the two triposes pulling back to each other along these maps).  
+and in this way the single generic predicate $(P, in)$ can be used to generate a generic predicate over $c$, as $(P^c, in_c = (eval_c)^\ast(in))$, i.e., a generic predicate over $c$ is obtained by pulling back along the [[evaluation]] map $eval_c \colon c \times P^c \to P$. (N.B.: this need not reproduce the original generic predicates, but the resulting tripos structure may be compared with the original tripos structure in both directions: there are maps $P c \to P^c$ and $P^c \to P c$, with the generic predicates in the two triposes pulling back to each other along these maps).  
 
 In practice, the category $C_T$ will indeed often be cartesian closed (frequently taking $C_T = Set$ in fact), and triposes are frequently formed in the manner just described, starting with a generic predicate over $1$ and pulling it back along the maps $eval_c$ to get a generic predicate over any $c$. 
 
@@ -46,17 +51,14 @@ obtained by pulling back the generic predicate $t \colon 1 \to \Omega$ over $1$ 
 
 1. If $H$ is a complete Heyting algebra, we can take $C_T = Set$, and put 
 $$Pred_T = \hom(-, H) \colon Set^{op} \to HeytAlg.$$ 
-Completeness of $H$ is used to ensure that for each function $f \colon X \to Y$, the Heyting algebra map $Pred_T(f) \colon H^Y \to H^X$ has a left and right adjoint. The identity map $\hom(-, H) \to Pred_T$ is the epimorphism we use to generate the tripos structure, taking of course $(H, 1_H \in H^H)$ as the generic predicate over $1$. 
-{#Heyt}
+Completeness of $H$ is used to ensure that for each function $f \colon X \to Y$, the Heyting algebra map $Pred_T(f) \colon H^Y \to H^X$ has a left and right adjoint. The identity map $\hom(-, H) \to Pred_T$ is the epimorphism we use to generate the tripos structure, taking of course $(H, 1_H \in H^H)$ as the generic predicate over $1$.{#Heyt}
 
 1. If $A$ is a [[partial combinatory algebra]] (PCA), we can form a tripos in the following manner. Let $C_T = Set$. For each set $X$, one can put a pre-ordering on $P(A)^X$ \[here, the $P(A)$ refers to the actual powerset of $A$ in $Set$\] as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $b$ in $f(x)$, $a$ applied to $b$ is defined and an element of $g(x)$. We will of course take $f \leq g$ just in case $Hom(f, g)$ is inhabited. The relation $\leq$ is reflexive and transitive, by functional completeness for PCA's. It is straightforward that for a function $f \colon X \to Y$, the pullback map 
 $$P(A)^f \colon P(A)^Y \to P(A)^X$$ 
 preserves the preorder structure. Now define $Pred_T(X)$ to be the poset obtained from the preorder $P(A)^X$ by posetal reflection. With the help of functional completeness, it may be shown that $Pred_T(X)$ is in fact a Heyting algebra, and we get in this way a hyperdoctrine; see [here](http://ncatlab.org/nlab/show/partial+combinatory+algebra#realizability_toposes_11) for details. Notice in this case we have, by construction, an epimorphism between set-valued functors  
 $$\hom_{Set}(-, P(A)) \to {|Pred_T|}$$ 
-and thus we obtain a tripos, called the _realizability tripos_ associated with the PCA $A$. 
-{#PCA}
+and thus we obtain a tripos, called the _realizability tripos_ associated with the PCA $A$.{#PCA}
 
-In the case where $A$ is [[Kleene's first algebra]] (the PCA whose elements are natural numbers taken as codes for computer programs taking natural number input and producing natural number output if they halt, with obvious application partial function), this is also called the [[effective topos]].
 
 ## From triposes to toposes 
 
@@ -66,7 +68,7 @@ $$\array{
 Pred_T(X \times Y) \times Pred_T(Y \times Z) & \stackrel{\pi_{X \times Y}^\ast \times \pi_{Y \times Z}^\ast}{\to} & Pred_T(X \times Y \times Y \times Z) \times Pred_T(X \times Y \times Y \times Z) \\ 
 & \stackrel{\wedge}{\to} & Pred_T(X \times Y \times Y \times Z) \\
 & \stackrel{(1 \times \delta \times 1)^\ast}{\to} & Pred_T(X \times Y \times Z) \\
-& \stackrel{\exists_{1 \times ! times 1}}{\to} & Pred_T(X \times Z). 
+& \stackrel{\exists_{1 \times ! \times 1}}{\to} & Pred_T(X \times Z). 
 }$$ 
 
 This gives in fact a [[dagger-category]] enriched in [[poset|posets]], where $(-)^\dagger: \hom(X, Y) \to \hom(Y, X)$ is the evident isomorphism $Pred_T(X \times Y) \to Pred_T(Y \times X)$. The _opposite_ of a relation $r \colon X \to Y$ is $r^\dagger \colon Y \to X$, and a relation $r \colon X \to X$ is _symmetric_ if $r^\dagger = r$. In summary, we get an [[allegory]] (bicategories of relations being essentially equivalent to unitary pretabular allegories). 
@@ -82,16 +84,18 @@ We will be interested in splitting not all idempotents (as in $Set$-based or $Po
 Let $T$ be a tripos, and let $Rel_T$ be the bicategory of relations obtained from $T$. Let $Split_{per}(Rel_T)$ be the bicategory obtained by splitting the PERs. Then the locally discrete bicategory of maps (whose 1-cells are left adjoints or total functional relations) in $Split_{per}(Rel_T)$ is a topos. 
 =-- 
 
-Before we undertake a conceptual analysis of this theorem, it might be good to recall one case, due to [[Denis Higgs|Higgs]] in his treatment of Boolean-valued and Heyting-valued set theory a la Scott and Solovay. This is given in the next section. 
+In the case of a [realizability tripos](#PCA) associated with a PCA $A$, this construction yields the realizability topos of $A$. In the particular case where $A$ is [[Kleene's first algebra]] (the PCA whose elements are natural numbers taken as codes for computer programs taking natural number input and producing natural number output if they halt, with obvious application partial function), this is also called the [[effective topos]].
+
+Before we undertake a conceptual analysis of this theorem, we give in the next section some details for the tripos attached to a complete Heyting algebra, described [here](#Heyt). The description of the resulting topos coincides with that of [[Denis Higgs|Higgs]], in his treatment of localic toposes in terms of Boolean-valued or Heyting-valued set theory (a la Scott and Solovay). 
 
 ### Relation to $H$-valued sets
 
 Consider the tripos $T = T_H$ obtained from a complete Heyting algebra $H$ ([example 2](#Heyt)), or more exactly the bicategory of relations obtained from this. Let us describe explicitly the bicategory obtained by splitting the PERs: 
 
-* An object in the PER-splitting completion in this case is a set $X$ together with a function $e \colon X \times X \to H$ which is symmetric and transitive in the sense described above. This boils down to having, for all elements $x, y, z \in X$,  
+* An object in the PER-splitting completion in this case is a set $X$ equipped with a function $e \colon X \times X \to H$ which is symmetric and transitive in the sense described above. This boils down to having, for all elements $x, y, z \in X$,  
 $$e(x, y) = e(y, x)$$ 
 $$e(x, y) \wedge e(y, z) \leq e(x, z)$$ 
-This is also known as an _$H$-valued set_. (We do not assume reflexivity, where $\top \leq e(x, x)$ for all $x$.) 
+This is also known as an _$H$-valued set_. (We do not assume reflexivity, where $\top \leq e(x, x)$ for all $x$.) The function $e$ can be thought of as a measure of equality. 
 
 * A morphism from $(X, e_X)$ to $(Y, e_Y)$ is a relation $r \colon X \to Y$, or a function $r \colon X \times Y \to H$, such that $r \circ e_X = r = e_Y \circ r$. (Cf. [[Karoubi envelope]].) The conditions $r \circ e_X \leq r$, $e_Y \circ r \leq r$ mean we have a two-sided "action": 
 $$e_X(x', x) \wedge r(x, y) \leq r(x', y), \qquad r(x, y) \wedge e_Y(y, y') \leq r(x, y').$$ 
@@ -101,19 +105,19 @@ but since $e_X$ is symmetric and transitive, we have
 $$\bigvee_{x' in X} e_X(x, x') \wedge r(x', y) = \bigvee_{x'} e_X(x, x') \wedge e_X(x, x') \wedge e_X(x', x) \wedge r(x', y) \leq \bigvee_{x'} e_X(x, x') \wedge e(x', x) \leq e(x, x)$$ 
 so that in fact we have $r(x, y) \leq e_X(x, x)$. Similarly we have $r(x, y) \leq e(y, y)$, and these two conditions conversely imply $r \leq r \circ e_X$, $r \leq e_Y \circ r$, as may be easily checked. 
 
-Such morphisms $r$ also called _relations between $H$-valued sets_. Such relations in $Split_{per}(Rel_T)$ may be composed just as they are in $Rel_T$, and if $r$ is an $H$-valued relation, so is $r^\dagger$. On the other hand, as described at [[Karoubi envelope]], the identity from $(X, e)$ to itself is given by the relation $e$ (clearly the identity $1_X$ doesn't work!). The result $Split_{per}(Rel_T)$ is also a bicategory of relations (although, as we will eventually see, much more is true). 
+Such morphisms $r$ are called _relations between $H$-valued sets_. Such relations in $Split_{per}(Rel_T)$ may be composed just as they are in $Rel_T$, and if $r$ is an $H$-valued relation, so is $r^\dagger$. On the other hand, as described at [[Karoubi envelope]], the identity from $(X, e)$ to itself is given by the relation $e$ (clearly the identity $1_X$ doesn't work!). The result $Split_{per}(Rel_T)$ is also a bicategory of relations (although, as we will eventually see, much more is true). 
 
 A relation $r \colon (X, e_X) \to (Y, e_Y)$ between PERs is _functional_ if 
 
-* $e_X = 1_{(X, e_X)} \leq r^\dagger \circ r$ ("totality"); 
-
 * $r \circ r^\dagger \leq 1_{(Y, e_Y)} = e_Y$ ("well-definedness"). 
 
-The second of these conditions means 
+* $e_X = 1_{(X, e_X)} \leq r^\dagger \circ r$ ("totality"); 
+
+The first of these conditions means 
 
 $$r^\dagger(y, x) \wedge r(x, y') = r(x, y) \wedge r(x, y') \leq e_Y(y, y')$$ 
 
-The first condition means 
+The second condition means 
 
 $$e_X(x, x') \leq \bigvee_{y \in Y} r(x, y) \wedge r^\dagger(y, x')$$ 
 
