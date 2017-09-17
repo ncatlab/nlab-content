@@ -89,14 +89,49 @@ See ([Lurie, page 57](#Lurie)).
 ## Properties
  {#Properties}
 
-**Claim**
++-- {: .num_prop }
+###### Claim
 
 $Span_n(\infty Grpd)$ is a [[symmetric monoidal (∞,n)-category]] [[cobordism hypothesis|with duals]].
 
 More generally If $C$ is any symmetric monoidal $(\infty,n)$-category with 
 duals, then so is $Span_n(\infty Grpd,C)$.
 
+=--
+
 This appears as ([Lurie, remark 3.2.3](#Lurie)).
+
+Let $Bord_n$ be the [[(∞,n)-category of cobordisms]].
+
++-- {: .num_prop #HomsFromBordIntoSpan}
+###### Claim
+
+The following data are equivalent
+
+1. Symmetric monoidal $(\infty,n)$-functors
+
+   $$
+     Bord_n \to Span_n(\infty Grpd)
+   $$
+
+1. Pairs $(X,V)$, where $X$ is a [[topological space]] and $V \to X$ a [[vector bundle]] of [[rank]] $n$.
+
+=--
+
+This appears as ([Lurie, claim 3.2.4](#Lurie)).
+
++-- {: .num_note }
+###### Note
+
+In view of the [[cobordism hypothesis]] for <a href="http://ncatlab.org/nlab/show/cobordism+hypothesis#CobsWithExtraTopStructure">cobordisms equipped with extra topological structure</a> and noticing that
+
+$$
+  Bord_n \simeq Bord_n^{O(n)}
+$$
+
+([Lurie, example 2.4.22]) this says something like that in $Span_n(\infty Grpd)$ every object of [[∞Grpd]] becomes fully dualizable.
+
+=--
 
 
 ## References
