@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+Let $G$ be a [[compact topological group|compact]] [[Lie group]]. 
+
+A **[[torus]]** in $G$ is an [[abelian group|abelian]] [[subgroup]] $T \hookrightarrow G$ wich is [[connected topological space|connected]] (and [[compact topological group|compact]]).
+
+A **maximal torus** is a subgroup which is maximal with these properties.
+
+## Related concepts
+
+* [[maximal compact subgroup]]
+
+* [[orbit method]]
+
+[[!redirects maximal tori]]
