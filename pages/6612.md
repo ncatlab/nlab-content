@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Higher symplectic geometry_ is the generalization of [[symplectic geometry]] to the context of [[higher geometry]].
+
+It involves two kinds of generalizations:
+
+1. the [[symplectic form]] generalizes from a 2-form to a form of arbitrary arity. This aspect is called [[multisymplectic geometry]].
+
+1. the base [[manifold]] is generalized to a [[smooth ∞-groupoid]] or [[∞-Lie algebroid]]. For binary symplectic forms this is called a [[symplectic Lie n-algebroid]].
+
+In the full higher symplectic geometry both of these aspects are unified: a _multisymplectic $\infty$-groupoid_ is a [[smooth ∞-groupoid]] equipped with a [[smooth infinity-groupoid -- structures|differential n-form on smooth ∞-groupoids]] satisfying some condition.
+
+Examples of higher symplectic geometries arise naturally as the [[covariant phase space]]s "over the point" or "in top codimension" (in the sense of [[extended topological quantum field theory]]) in systems of [[schreiber:∞-Chern-Simons theory]]: their $\infty$-multisymplectic form is the [[invariant polynomial]] that defines the theory.
+
+## References
+
+For the moment see the references at [[multisymplectic geometry]] and [[symplectic Lie n-algebroid]].
+
