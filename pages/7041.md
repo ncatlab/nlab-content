@@ -21,20 +21,25 @@
 
 A _bump function_ is a [[smooth function]] on a [[Cartesian space]] which has [[compact support]].
 
-One reason the category of smooth spaces and functions is important is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to analytic or algebraic objects. For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
+One reason the category of smooth spaces and functions is important is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to analytic or algebraic objects (where bump functions do not exist in these categories). For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
 
 ## Basic construction 
 
-Define a function $\phi(x)$ on the open interval $(0, 1)$ by 
+Define a function $\phi(x)$ on the standard open unit ball of $\mathbb{R}^n$ by 
 
-$$\phi(x) = \exp(-\frac1{x} + \frac1{1-x})$$ 
+$$\phi(x) = \exp(\frac1{{\|x\|^2} - 1})$$ 
 
-so that $\phi$ vanishes infinitely rapidly as $x$ approaches $0$ from the right and becomes infinite rapidly as $x$ approaches $1$ from the left. Then define 
+so that $\phi(x)$ and all of its higher derivatives vanish rapidly as $x$ approaches the boundary. This gives a smooth function compactly supported on the unit ball centered at the origin. 
 
-$$\psi(x) = \frac{\phi(x)}{1 + \phi(x)}$$ 
+For $\varepsilon \gt 0$, define $\phi_\varepsilon(x) \coloneqq \phi(x/\varepsilon)$, and define 
 
-so that the values of $\psi$ flatten out to $0$ near $x = 0$ and flatten out to $1$ near $x = 1$. Finally, for any 4-tuple $a \lt b \lt c \lt d$, define (to be continued). 
- 
+$$\psi_\varepsilon = \frac{\phi_\varepsilon}{{\|\phi_\varepsilon\|}_1}$$ 
+
+so that the $\psi_\varepsilon$ is a smooth approximation to the identity (= Dirac functional), compactly supported on the unit ball of radius $\varepsilon$ and having an $L^1$ norm equal to $1$. Then, it is standard that for any pair $K \subset V$ with $K$ compact and $V$ open in $\mathbb{R}^n$, we can choose an open $U$ containing $K$ and with compact closure contained in $V$, and then taking the convolution product 
+
+$$\psi_\varepsilon \ast \chi_U$$ 
+
+of $\psi_\varepsilon$ with the characteristic function $\chi_U$, for $\varepsilon$ sufficiently small, we obtain a function equal to $1$ on $K$ and $0$ outside $V$. 
 
 ## References
 
