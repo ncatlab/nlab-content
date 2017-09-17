@@ -13,12 +13,17 @@ There are several conditions on a topos that are necessary and sufficient to be 
 * The maps $\top, \bot: 1 \to \Omega$ are a [[coproduct]] cone (so in particular, $\Omega \cong 1 + 1$, but this alone is not sufficient).
 
 
-## As a context for foundations
+## Properties
+
+### As a context for foundations
 
 The [[internal logic]] of a boolean topos with [[natural numbers object]] can serve as [[foundations]] for "ordinary" mathematics, except for that which relies on the [[axiom of choice]].  If you add the axiom of choice, then you get (an internal version of) [[ETCS]]; conversely, if you use an arbitrary topos, then you get [[constructive mathematics]].  (For some high-powered work, you may also need to add a version of the [[axiom of replacement]] or an axiom of [[Grothendieck universe]]s.)
 
 Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in fact a topos.  This is why 'generalised [[predicative mathematics|predicativism]]' (with function types but not power types) is necessarily a feature of [[constructive mathematics]] only.
 
+### Relation to measure theory
+
+Boolean toposes are closed related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06)).
 
 ## Examples
 
@@ -31,6 +36,11 @@ If $E$ is any topos, the category of [[sheaf|sheaves]] for the [[double negation
 Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R. Diaconescu; see [[excluded middle]] for a brief discussion. 
 
 [[Barr's theorem]] implies that any topos $E$ can be covered by a Boolean topos $F$, in the sense of there being a [[surjective geometric morphism]] $f \colon F \to E$. 
+
+## References
+
+* {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006 ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
+
 
 
 [[!redirects Boolean topos]]
