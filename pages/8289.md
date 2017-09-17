@@ -1,0 +1,57 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The term **bifunctor** or **functor of two variables** is another word for a _[[functor]]_ whose [[domain]] is the [[product]] of two [[categories]].
+
+For for $C_1$, $C_2$ and $D$ [[categories]], a functor
+
+$$
+  F : C_1 \times C_2 \to D
+$$
+
+is also called a _bifunctor_ from $C_1$ and $C_2$ to $D$.
+
+
+## Examples
+
+Famous bifunctors are 
+
+* the [[hom functor]]
+
+  $$
+    Hom(-,-) : C^{op} \times C \to Set
+  $$
+
+  on any [[small category]] $C$, or if $C$ is a [[closed category]], the [[internal hom]] functor
+
+  $$
+    [-,-] : C^{op} \times C \to C
+    \,.
+  $$
+
+* on every [[monoidal category]] $(C, \otimes)$ then [[tensor product]] functor
+
+  $$
+    \otimes : C \times C \to C
+  $$
+
+## Related concepts
+
+* [[Quillen bifunctor]]
+
+[[!redirects bifunctors]]
+
