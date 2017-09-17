@@ -112,7 +112,7 @@ In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ 
 
 We follow [exercise 7H](http://katmat.math.uni-bremen.de/acc/acc.pdf#page=129) of ([AdamekHerrlichStrecker](#AdamekHerrlichStrecker)).
 
-Let $K \hookrightarrow H$ be a finite subgroup. We 
+Let $K \hookrightarrow H$ be a subgroup. We 
 need to define another group $G$ and group homomorphisms 
 $f_1, f_2 : H \to G$ such that
 
