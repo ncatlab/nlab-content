@@ -22,12 +22,89 @@
 
 The _model structure for dendroidal complete Segal spaces_ is an [[operad|operadic]] generalization of the [[model structure for complete Segal spaces]]. It serves to [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] of [[(∞,1)-operads]].
 
+## Definition
+
+Write $\Omega$ for the [[tree category]], the site for [[dendroidal sets]]
+
+$$
+  dSet := [\Omega^{op}, Set]
+  \,.
+$$
+
+Write $\otimes$ for the Boardman-Vogt tensor product on [[dendroidal sets]] (see there for details).
+
+
+### Segal core
+
++-- {: .num_defn #SegalCore}
+###### Definition
+
+For $T \in \Omega$, write $Sc[T] \hookrightarrow \Omega[T]$ for the [[subobject]] of [[dendroidal sets]] consisting of all the subtree corolla inclusions.
+
+Call this the **Segal core** of $T$.
+
+=--
+
+See ([Cisinski-Moerdijk, section 2](#CisinskiMoerdijk)).
+
+### The model structure
+
+
++-- {: .num_defn}
+###### Definition
+
+Let $dsSet_{gReedy} := [\Omega^{op}, sSet]$ be the category of [[dendroidal set|dendroidal]] [[simplicial sets]], equipped with the [[generalized Reedy model structure]] induced from the [[generalized Reedy category]] $\Omega$.
+
+Write 
+
+$$
+  dsSet_{Segal}
+  \stackrel{\leftarrow}{\to}
+  dsSet_{Reedy}
+$$ 
+
+for the [[Bousfield localization of model categories|left Bousfield localization]] at the set of Segal core inclusions $\{Sc[R] \to \Omega[T]\}_{T \in \Omega}$, def. \ref{SegalCore}, to be called the **model structure for dendroidal Segal spaces**. A fibrant object in this category is called a **dendroidal Segal space**.
+
+Write 
+
+$$
+  dsSet_{cSegal}
+  \stackrel{\leftarrow}{\to}
+  dsSet_{Segal}
+$$ 
+
+for the further left Bousfield localization at the set of morphisms 
+$\{\Omega[T]\otimes (J_d \to \eta) \}_{T \in \Omega, }$, where $J_d$ is the _dendroidal interval_
+
+$$
+  J_d := 
+  i_!(N(\tau(\Delta[1])))
+  \,.
+$$
+
+Call this the **model structure for complete dendroidal Segal spaces**. A fibrant object in here is called a **complete dendroidal Segal space**.
+
+=--
+
+This is [Cisinski-Moerdijk, def. 5.4, def. 6.2](#CisinskiMoerdijk).
+
 ## Properties
 
+### Relation to other model structures
+
+We discuss the relation to various other model structures for operads. For an overview see _[[table - models for (infinity,1)-operads]]_.
+
+#### To dendroidal sets
+
 (...)
+
+#### To Segal operads
+
+(...) [[model structure for Segal operads]]
 
 ## References
 
 The model structure for dendroidal complete Segal spaces was introduced in 
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_ ([arXiv:1010.4956](http://arxiv.org/abs/1010.4956))
+ {#CisinskiMoerdijk}
