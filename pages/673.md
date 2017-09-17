@@ -39,7 +39,7 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
 
 ## Talks ##
 
-* _Proper class forcing_, TBC, July 2013.
+* _Proper class forcing_, [CT2013](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/programme.html), July 2013.
 
 * _On the Ganter-Kapranov approach to supersymmetry_, Strings Journal Club, University of Adelaide. 27 May 2013.
 
