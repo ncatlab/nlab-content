@@ -57,7 +57,7 @@ $$
  \stackrel{\to}{\to} C_0
 $$
 
-of its [[action groupoid]] $C_0//C_1$ (the ($(\infty,1)$-categorical) [[colimit]] over its diagram)
+of its [[action groupoid]] $C_0//C_1$ (the  [[(∞,1)-colimit]] over its diagram)
 
 $$
  \cdots C_2 \stackrel{\to}{\stackrel{\to}{\to}} C_1 \stackrel{\to}{\to} C_0
@@ -100,7 +100,7 @@ $$
   }
 $$
 
-is a [[limit in a quasi-category|pullback diagram]] in $C$. 
+is a [[(∞,1)-pullback]] diagram in $C$. 
 
 The $(\infty,1)$-category of groupoid objects in $C$ is the full [[sub-(∞,1)-category]] 
 
@@ -113,6 +113,7 @@ of the [[(∞,1)-category of (∞,1)-functors]] on those objects that are groupo
 =--
 
 This is [[Higher Topos Theory|HTT, prop. 6.1.2.6, item 4'']] with [[Higher Topos Theory|HTT, def. 6.1.2.7]].
+
 
 +-- {: .un_def}
 ###### Definition 
@@ -133,7 +134,7 @@ A groupoid object $A : \Delta^{op} \to C$ is the **[[Cech nerve]]** of a morphis
     }
   $$
   
-  of $A^+$ is a [[limit in a quasi-category|pullback]] diagram in $C$.
+  of $A^+$ is a [[(∞,1)-pullback]] diagram in $C$.
 
 =--
 
@@ -145,7 +146,7 @@ then the groupoid object is [[delooping|deloopable]] in the groupoid sense.
 +-- {: .un_def}
 ###### Definition 
 
-A groupoid object $A : \Delta^{op} \to C$ is an **effective [[quotient object]]** if the [[limit in a quasi-category|colimit]] diagram $A^+ : \Delta_a^{op} \to C$ exists, such that $A$ is the [[Cech nerve]] of $A^+_0 \to A^+_{-1}$, i.e. of $A_0 \to \lim_\to A_\bullet$.
+A groupoid object $A : \Delta^{op} \to C$ is an **effective [[quotient object]]** if the [[(∞,1)-colimit]] diagram $A^+ : \Delta_a^{op} \to C$ exists, such that $A$ is the [[Cech nerve]] of $A^+_0 \to A^+_{-1}$, i.e. of $A_0 \to \lim_\to A_\bullet$.
 
 =--
 
@@ -163,6 +164,41 @@ $$
   \right)
   \,.
 $$
+
+### Relation to $(\infty,1)$-quotients {#RelationToQuotients}
+
++-- {: .un_remark}
+###### Remark
+
+A groupoid object in an $(\infty,1)$-category 
+
+$$
+\left(  \cdots  A_2  \stackrel{\to}{\stackrel{\to}{\to}}
+   A_1 \stackrel{\to}{\to} A_0
+  \right)
+$$
+
+is the [[(∞,1)-category]] analog of an internal [[equivalence relation]] on $CA_0$, which is just a pair of morphisms
+
+$$
+   R \stackrel{\to}{\to} A_0
+   \,.
+$$
+
+The [[colimit]] ([[coequalizer]]) of the latter diagram is the [[quotient]] of $C_0$ by the relation $R$.
+
+Accordingly, the [[(∞,1)-colimit]] 
+
+$$
+  \lim_\to (\Delta^{op} \stackrel{A}{\to} C)
+$$
+
+over the simplicial diagram $A : \Delta^{op} \to C$ is the corresponding **$(\infty,1)$-quotient**.
+
+If we are given a [[model category]] [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] $C$, then this [[(∞,1)-colimit]] is presented by a [[homotopy colimit]] over the corresponding simplicial diagraM a **homotopy quotient** .
+
+=--
+
 
 ## Properties
 
@@ -213,7 +249,7 @@ $$
   }
 $$
 
-is a [[limit in a quasi-category|pullback]] in $C$.
+is a [[(∞,1)-pullback]] in $C$.
 
 =--
 
