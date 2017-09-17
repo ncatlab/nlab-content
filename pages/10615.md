@@ -28,8 +28,14 @@ For all $n \in \{-2, -1, 0,1,2,3, \cdots\}$, [[truncated object in an (infinity,
 
 $(-2)$-truncation is the [[unit type]] modality (constant on the unit type).
 
-$(-1)$-truncation is given by _[[bracket types]]_. [[classical logic|Classically]], this is the same as the [[double negation modality]]; in general, the bracket type ${\|A\|_{-1}}$ only entails the double negation $\neg(\neg{A})$.
+$(-1)$-truncation is given by _[[bracket types]]_. [[classical logic|Classically]], this is the same as the [[double negation modality]]; in general, the bracket type ${\|A\|_{-1}}$ only entails the double negation $\neg(\neg{A})$:
+there is a canonical [[function]]
 
+$$
+  {\|A\|_{-1}} \longrightarrow \neg(\neg{A})
+$$
+
+and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] holds.
 
 ### Relation to higher inductive types
 
