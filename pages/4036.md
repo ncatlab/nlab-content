@@ -191,7 +191,7 @@ For a (paracompact) [[topological manifold]] the construction via [[Riemannian m
 
 In ([Osborne-Stern 69](#OsborneStern69)) the following discussion for sufficient conditions getting "close" to good open covers is discussed:
 
-Let $X$ be a [[n-connected space|k-connected]] [[topological manifold]] of [[dimension]] $n$ (without [[boundary]](, and define 
+Let $X$ be a [[n-connected space|k-connected]] [[topological manifold]] of [[dimension]] $n$ (without [[boundary]]), and define 
 
 $$
   q \coloneqq
@@ -237,7 +237,7 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 ## Related concepts
 
-* [good covers by Stein manifolds](Stein+manifold#GoodCoversBySteinManifolds)
+* [good covers by Stein manifolds](Stein+manifold#GoodCoversBySteinManifolds) - note that this is a different concept, with vanishing Dolbeault cohomology replacing contractibility.
 
 ## References
 
