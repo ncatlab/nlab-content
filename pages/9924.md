@@ -23,24 +23,24 @@ The _Kan-Thurston theorem_ says that every [[path-connected topological space]] 
 For every path connected  space $X$ with base point there exists a ([[Serre fibration|Serre-]])-[[fibration]]
 
 $$
-  tX \colon TX\rightarrow X
+  t X \colon T X \rightarrow X
 $$ 
 
 which is natural with respect to $X$ and has the following properties. 
 
-(i) The map $tX$ induces an [[isomorphism]] on ([[singular homology|singular]]-)[[homology]] and [[singular cohomology|cohomology]] with [[local coefficient bundle|local coefficients]]
+(i) The map $t X$ induces an [[isomorphism]] on ([[singular homology|singular]]-)[[homology]] and [[singular cohomology|cohomology]] with [[local coefficient bundle|local coefficients]]
 
-$$H_*(TX;A)\cong H_*(X;A),\;\;  H^*(TX;A)\cong H^*(X;A)$$ 
-for every local coeficient system $A$ on $X$, and 
+$$H_*(T X;A)\cong H_*(X;A),\;\;  H^*(T X;A)\cong H^*(X;A)$$ 
+for every local coefficient system $A$ on $X$, and 
 
-(ii) $\pi_i\;(TX)$ is trivial for $i\neq 1$ and $tX$ is onto.
+(ii) $\pi_i\;(T X)$ is trivial for $i\neq 1$ and $t X$ is onto.
 
 Furthermore the [[homotopy type]] of $X$ is completely determined by the pair of groups $(G_X, P_X)$ where 
-$G_X  = \pi_1TX,\;\; P_X = ker\;\pi_1tX$ and $P_X$ is a 
+$G_X  = \pi_1T X,\;\; P_X = ker\;\pi_1t X$ and $P_X$ is a 
 [[perfect group|perfect]] [[subgroup]] of $G_X$.
 
 
 ## References
 
-* [[Daniel Kan]] and [[William Thurston]], _Every conncted space has the homology of a $K(\pi,1)$_, Topology  Vol.  15.  pp.  253--258, 1976.  
+* [[Daniel Kan]] and [[William Thurston]], _Every connected space has the homology of a $K(\pi,1)$_, Topology  Vol.  15.  pp.  253--258, 1976.  
 
