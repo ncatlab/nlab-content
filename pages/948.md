@@ -1,19 +1,17 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 #### Mathematics
-+--{: .hide}
++-- {: .hide}
 [[!include mathematicscontents]]
 =--
 =--
 =--
-
 
 # Constructive mathematics
 * tic
@@ -43,7 +41,7 @@ There are, however, differences among constructivists as well.
 
 * Some, like [[Errett Bishop]], simply remove choice and excluded middle from [[classical mathematics]] with nothing to replace them.  However, this makes it difficult to define a satisfactory notion of continuous function, even $\mathbb{R} \to \mathbb{R}$ without using [[locales]]; see (Waaldijk 2003).
 
-* Others add "non-classical" axioms which contradict choice or excluded middle, but which are consistent in their absence, such as "all total functions $[0,1] \to \mathbb{R}$ are continuous" (the [[continuity axiom]] of the "[[intuitionism|intuitionistic]]" school of [[Jan Brouwer|L. E. J. Brouwer]]) or "all partial functions $\mathbb{N} \to \mathbb{N}$ are computable" (the [[computability axiom]] of the "[[Russian constructivism|Russian]]" school of [[Andrey Markov|A. A. Markov]], which is also called "constructive recursive analysis").
+* Others add "non-classical" axioms which contradict choice or excluded middle, but which are consistent in their absence, such as "all total functions $[0,1] \to \mathbb{R}$ are continuous" (the [[continuity axiom]] of the "[[intuitionism|intuitionistic]]" school of [[L. E. J. Brouwer]]) or "all partial functions $\mathbb{N} \to \mathbb{N}$ are computable" (the [[computability axiom]] of the "[[Russian constructivism|Russian]]" school of [[Andrey Markov|A. A. Markov]], which is also called "constructive recursive analysis").
 
 * Most accept weaker versions of choice, such as [[countable choice]] or even [[dependent choice]], but the school of [[Fred Richman]] rejects even these; see (Richman 2000).  [[Toby Bartels]] argues that the intuition behind accepting these justifies the (stronger) axiom [[COSHEP]] (the category of sets has enough projectives).
 
