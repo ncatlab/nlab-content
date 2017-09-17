@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -50,7 +49,7 @@ More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such t
 
 * More generally, if $C$ is any [[variety of algebras]], then an object is compact precisely if it is [[finitely presented object|finitely presented]] as an algebra.  A proof can be found in Corollary 3.13 of [[LPAC]].
 
-* Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].  (It is *not* true that $X$ is a compact object of $Top$ iff it is a compact topological space; see below.
+* Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].  (It is *not* true that $X$ is a compact object of $Top$ iff it is a compact topological space; see below.)
 
 
 ## Generalizations 
