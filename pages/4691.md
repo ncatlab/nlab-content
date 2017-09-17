@@ -25,7 +25,7 @@ $$ h(p) \coloneqq - p \log p $$
 
 Both $h(0)$ and $h(1)$ are $0$, but for different reasons; $h(1) = 0$ because, upon verifying a statement with probability $1$, one gains no information; while $h(0) = 0$ because one expects never to verify a statement with probability $0$.  In general, $-\log p$ is the information gained by verifying a statement of probability $p$, but this will happen only with probability $p$, hence $-p \log p$.
 
-We have not specified the base of the [[logarithm]], which amounts to a constant factor (proportional to the logarithm of the base), which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $256$ (byte: $8$ bits), $3$ (trit), $\mathrm{e}$ (nat or neper), $10$ (bel, originally a unit of power intensity in telegraphy), and $\root{10}{10}$ (decibel: $1/10$ of a bel).
+We have not specified the base of the [[logarithm]], which amounts to a constant factor (proportional to the logarithm of the base), which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $256$ (byte: $8$ bits), $3$ (trit), $\mathrm{e}$ (nat or neper), $10$ (bel, originally a unit of power intensity in telegraphy, or ban, dit, or hartley), and $\root{10}{10}$ (decibel: $1/10$ of a bel).  In applications to [[statistical physics]], common bases are approximately $10^{3.1456 \times 10^{22}}$ (joule per kelvin), $1.65404$ (calorie per mole-kelvin), etc.
 
 
 ### Entropy of a $\sigma$-algebra on a probability space
@@ -116,6 +116,8 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 [[David Roberts]]: there would of course be physical constraints - speeds are bounded by $c$, for instance, and discretisation of energy - so in reality, the fibre probably turns out to be finite after a detailed analysis. Even allowing an 'almost uniform' probability distribution (one which is decaying fast enough, but slowly as possible) is not physically unreasonable and seems to get around the problem. But this is just heuristics, I haven't checked anything.
 
 _Toby_:  Classically, I think that this fibre is hardly ever finite.  As a toy example, with $N = 4$ and $n = 2$, consider a system of two equal-mass particles on a line, taking their average for the coarse-graining.  So given position and momentum of the centre of mass of the two particles (which constitute a point in $R^2$), what could the positions and momenta of the two individual particles (which all together constitute a point in $R^4$) be?  There are infinitely many possibilities, even if we put a bound on how far apart the two particles could be.  If the particles are bound in, say, a harmonic oscillator, then we can even put a bound on how far apart the particles will *ever* be, in both position and momentum, and still the fibre is infinite (although perhaps compact).
+
+In quantum physics, I agree, then the fibre is often finite.
 =--
 This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
 
