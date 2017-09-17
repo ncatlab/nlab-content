@@ -479,7 +479,7 @@ A very neat Tannaka theorem for stacks is proved in
 
 * [[Bertrand Toen]], [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (talk, video)
 
-* Moshe Kamensky, _Model theory and the Tannakian formalism_, [arXiv:0908.0604](http://arxiv.org/abs/0908.0604). 
+* Moshe Kamensky, _Model theory and the Tannakian formalism_, [arXiv:0908.0604](http://arxiv.org/abs/0908.0604); _Tannakian formalism over fields with operators_, [arxiv/1111.7285](http://arxiv.org/abs/1111.7285)
 
 * H. Fukuyama, I. Iwanari, _Monoidal infinity category of complexes from Tannakian viewpoint_, [arxiv/1004.3087](http://arxiv.org/abs/1004.3087)
 
