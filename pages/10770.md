@@ -294,23 +294,24 @@ Therefore we have in low degree the following situation
 
 The following tables show the [[p-primary components]] of the [[stable homotopy groups of spheres]] for low values, the image of J appears as the bottom row. 
 
-Here the horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The appearance of a string of $k$ connected dots vertically above index $n$ means that there is a [[direct sum|direct summand]] [[primary group]] of [[order of a group|order]] $p^k$. See example \ref{InterpretTable} below for illustration. (These tables are taken from ([Hatcher](homotopy+groups+of+spheres#Hatcher)), where in turn were they were generated based on ([Ravenel 86](#Ravenel))).
+Here the horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The appearance of a string of $k$ connected dots vertically above index $n$ means that there is a [[direct sum|direct summand]] [[primary group]] of [[order of a group|order]] $p^k$. See example \ref{InterpretTable} below for illustration. (These tables are taken from ([Hatcher](homotopy+groups+of+spheres#Hatcher)), where in turn they were generated based on ([Ravenel 86](#Ravenel))).
 
 
-**at $p = 2$**
+**$p = 2$-primary component** (e.g. [Ravenel 86, theorem 3.2.11, figure 4.4.46](#Ravenel))
 
 <img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D2pic.gif" alt="stable homotopy groups of spheres at 2" />
 
-**at $p = 3$**
+**$p = 3$-primary component**
 
 <img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D3pic.gif" alt="stable homotopy groups of spheres at 3" />
 
-**at $p = 5$**
-
+**$p = 5$-primary component**
 
 <img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D5pic.gif" alt="stable homotopy groups of spheres at 5" />
 
 =--
+
+We illustrate how to read these tables:
 
 +-- {: .num_example #InterpretTable}
 ###### Example
@@ -320,6 +321,13 @@ The [[finite abelian group]] $\pi_3(\mathbb{S}) \simeq \mathbb{Z}_{24}$ decompos
 
 The [[finite abelian group]] $\pi_7(\mathbb{S}) \simeq \mathbb{Z}_{240}$ decomposes into [[primary groups]] as $\simeq \mathbb{Z}_{16} \oplus \mathbb{Z}_3 \oplus \mathbb{Z}_5$. Here $16 = 2^4$ corresponds to the four dots above $n = 7$ in the first table, and $3 = 3^1$ to the single dot over $n = 7$ in the second and $5 = 5^1$ to the single dot over $n = 7$ in the third table.
 
+The [[finite abelian group]] $\pi_11(\mathbb{S}) \simeq \mathbb{Z}_{504}$ has [[primary group]]-decomposition $\cdots \simeq \mathbb{Z}_{2^3} \oplus \mathbb{Z}_{3^2} \oplus \mathbb{Z}_7$ and so this corresponds to the three connected dots over $n = 11$ in the first table and the two connected dots over $n = 11$ in the second (and there will be one dot over $n = 11$ in the fourth table for $p = 7$ not shown here). 
+
+The groups $\pi_1(\mathbb{S}) \simeq \pi_2(\mathbb{S}) \simeq \pi_6(\mathbb{S}) \simeq \pi_{10}(\mathbb{S}) \simeq \mathbb{Z}_2$ correspond to the single dots over $n = 1,2,6,10$ in the first table, respectively.
+
+The group $\pi_8(\mathbb{S}) \simeq \mathbb{Z}_2 \oplus \mathbb{Z}_2$ corresponds to the two _unconnected_ dots over $n = 8$ in the first table.
+
+Similarly the group $\pi_9(\mathbb{S}) \simeq \mathbb{Z}_2 \oplus \mathbb{Z}_2 \oplus \mathbb{Z}_2$ corresponds to the three unconnected dots above $n = 9$ in the first table.
 
 =--
 
@@ -875,6 +883,7 @@ $$
 =--
 
 This is ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  ([Wilson 13, theorem 1.2.4](#Wilson13)).
+
 
 
 
