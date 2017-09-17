@@ -3948,7 +3948,7 @@ We axiomatize the existence of infinitesimals by further [[modal logic|modalitie
 +-- {: .num_defn #DifferentialCohesiveTopos}
 ###### Definition
 
-Given a [[cohesive topos]] $\mathbf{H} = Cohesive0Type$ over a [[base topos]] [[Disc∞Grpd|Discrete0Type]], a structure of **[[differential cohesion]]** on $\mathbf{H}$ is an [[essential geometric morphism|essential]] [[connected geometric morphism|connected]] [[geometric embedding]] into a [[cohesive topos]] $\mathbf{H}_{th} = InfThickenedCohesive0Type$:
+Given a [[cohesive topos]] $\mathbf{H} = Cohesive0Type$ over a [[base topos]] [[Disc∞Grpd|Discrete0Type]], a structure of **[[differential cohesion]]** on $\mathbf{H}$ is an [[geometric embedding]] into a [[cohesive topos]] $\mathbf{H}_{th} = InfThickenedCohesive0Type$ with an extra [[left eadjoint]] that preserves the terminal object:
 
 $$
   \array{
@@ -5776,7 +5776,69 @@ Below in the [Model Layer](#IntegrationModelLayer) we discuss the classical exam
 
 #### Integration
 
-##### Integration of differential forms
+##### Integration over a coordinate patch
+
+For $n \in \mathbb{N}$ let
+
+$$
+  C^n 
+  \coloneqq
+  \{
+    \vec x \in \mathbb{R}^n
+    |
+    \forall_i (0 \leq x_i \leq 1)
+  \}
+  \hookrightarrow
+  \mathbb{R}^n
+$$
+
+be the standard unit [[cube]]. 
+
+Let 
+
+$$
+  \omega \in \Omega^n(\mathbb{R}^n)
+$$
+
+be a [[differential n-form]]. 
+
+$$
+  \omega = f \mathbf{d} x^1 \wedge \mathbf{d} x^2 \wedge \cdots \wedge \mathbf{d} x^n
+  \,.
+$$
+
+Let $Partitions(C^k)$ be the [[poset]] whose elements are partitions of the unit $n$cube $C^n$ into $N^n$ subcubes, for $N \in \mathbb{N}$, ordered by inclusion. 
+
+Let 
+
+$$
+  \sum_{(-)} \omega
+  \colon
+  Partitions(C^k)
+  \to 
+  \mathbb{R}
+$$
+
+be the function that sends
+
+$$
+  \frac{1}{N^n}
+  \sum_{x^1 = 0}^N
+  \sum_{x^2 = 0}^N
+  \cdots
+  \sum_{k^n = 0}^N
+  f( x^1, \cdots, x^n )
+  \,.
+$$
+
+Then 
+
+$$
+  \int_{C^k} \omega \colon \lim_{N} \sum_N \omega
+  \,. 
+$$
+
+##### Integration of differential over a manifold
 
 $\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
 
