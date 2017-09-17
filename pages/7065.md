@@ -9,6 +9,68 @@
 =--
 =--
 
+# Contractible types
+* table of contents
+{:toc}
+
+## Idea
+
+In [[homotopy type theory]], the notion of **contractible [[type]]** is an internalization of the notion of [[contractible space]] / [[(-2)-truncated]] object.
+
+## Definition
+
+Given a type $A$ in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]], we define a new type
+
+$$isContr(A) \coloneqq \sum_{x\colon A} \prod_{y\colon A} (y=x)$$
+
+where $(y=x)$ denotes the identity type.
+
+In [[propositions as types]] language, this can be pronounced as "there exists a point $x\colon A$ such that every other point $y\colon A$ is equal to $x$."  Under the homotopy-theoretic interpretation, it should be thought of as the type of *contractions* of $A$ --- since the dependent product describes *continuous* functions, the paths from $y$ to $x$ depend continuously on $y$ and thus exhibit a contraction of $A$ to $x$.
+
+A provably [[equivalence in homotopy type theory|equivalent]] definition is
+$$isContr(A) \coloneqq A \;\times\; isProp(A) $$
+(where of course we have to use a definition of [[isProp]] which doesn't refer to $isContr$).
+
+## Properties
+
+* For any type $A$, the type $isContr(A)$ is an [[h-proposition]].  In particular, we can show $isContr(A) \to isContr(isContr(A))$: if a type is contractible, then its space of contractions is also contractible.
+
+* A type is contractible if and only if it is [[equivalence in homotopy type theory|equivalent]] to the [[unit type]].
+
+## Coq code
+
+* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Contractible.v)
+
+## Semantics
+
+Let $\mathcal{C}$ be a [[locally cartesian closed category]] with sufficient structure to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[trivial cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.)
+
+Then for a fibrant object $A$, the fibrant object $isContr(A)$ is obtained by taking the dependent product of the path-object $A^I \to A\times A$ along one projection $A\times A\to A$ (then forgetting the remaining map to $A$).
+
+This means that to give a [[global element]] of $isContr(A)$ is to give a global element $a\colon 1\to A$ together with a right [[homotopy]] relating the composite $A\to 1\to A$ to the identity.  Thus, $A\to 1$ is a (right) [[homotopy equivalence]], and hence (since $A$ is [[fibrant]]) an [[acyclic fibration]].
+
+Conversely, if $\mathcal{C}$ is a model category, $A$ and $1$ are cofibrant, and $A\to 1$ is an acyclic fibration, then $A\to 1$ is a right homotopy equivalence, and hence $isContr(A)$ has a global element.  Thus, in most cases, the existence of a global element of $isContr(A)$ (which is unique up to homotopy, since $isContr(A)$ is an [[h-proposition]]) is equivalent to $A\to 1$ being an acyclic fibration.
+
+More generally, we may apply this locally.  Suppose that $A\to B$ is a fibration, which we can regard as a dependent type
+$$x\colon B \vdash A(x)\colon Type.$$
+Then we have a dependent type
+$$x\colon B \vdash isContr(A(x))\colon Type$$
+represented by a fibration $isContr(A)\to B$.  By applying the above argument in the [[slice category]] $\mathcal{C}/B$, we see that (if $\mathcal{C}$ is a model category, and $A$ and $B$ are cofibrant) $isContr(A)\to B$ has a [[section]] exactly when $A\to B$ is an acyclic fibration.
+
+We can also construct the type
+$$\prod_{x\colon B} isContr(A(x))$$
+in global context, which has a global element precisely when $isContr(A)\to B$ has a section.  Thus, a global element of this type is also equivalent to $A\to B$ being an acyclic fibration.
+
+## Remarks
+
+* Contractible types are also called of **h-level 0**.
 
 
-In [[homotopy type theory]], the notion of **contractible [[type]]** / [[h-level 0]] type is an internalization of the notion of [[contractible space]] / [[(-2)-truncated]] object.
+[[!redirects contractible types]]
+[[!redirects h-level 0]]
+[[!redirects h-level 0 type]]
+[[!redirects (-2)-truncated type]]
+[[!redirects (-2)-truncated types]]
+[[!redirects type of contractions]]
+[[!redirects h-contractible type]]
+[[!redirects isContr]]
