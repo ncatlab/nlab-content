@@ -178,7 +178,7 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 * The [[nerve]] of a [[category]] is a 2-coskeletal simplicial set.
 
-* A [[Kan complex]] that is $(n+1)$-coskeletal is (the [[nerve]] of) an [[n-groupoid]].
+* A [[Kan complex]] that is $(n+1)$-coskeletal is equivalent to (the [[nerve]] of) an [[n-groupoid]].
 
 * A 0-coskeletal simplicial set $X$ is (-1)-[[truncated]] and hence either empty or a [[contractible]] [[Kan complex]] , $X \stackrel{\simeq}{\to} *$ that is the [[nerve]] $X = N(C)$ of a [[groupoid]] $C$ that has a [[equivalence of categories]] $C \simeq *$.
 
