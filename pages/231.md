@@ -583,6 +583,10 @@ higher versions
 
 * [[multicategory]], [[bicategory]], [[enriched category]], [[actegory]]
 
+* [[module category]]
+
+* [[Hopf monoidal category]]
+
 ## References
 
 A fairly comprehensive set of lecture notes on the [[higher algebra]] monoidal categories is in
