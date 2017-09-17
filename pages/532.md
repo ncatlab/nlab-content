@@ -1,8 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -10,7 +19,7 @@
 
 ##Idea
 
-A **simplicial T-complex** is essentially a [[Kan complex]] equipped with a _choice_ of [[horn]] fillers -- an [[algebraic Kan complex]].
+A **simplicial T-complex** is essentially a [[Kan complex]] equipped with a _choice_ of [[horn]] fillers. It is essentially a special case of an [[algebraic Kan complex]].
 
 There is quite a difference between the [[Kan complex]] structure
 
@@ -34,8 +43,6 @@ thin structure satisfies the following axioms:
 * Every degenerate element is thin.
 * Every [[horn]] in $K$ has a unique thin filler.
 * A thin filler of a thin box also has its last face thin.
-
-This is closely related to the definition of [[algebraic Kan complex]].
 
 
 ##Remarks##
