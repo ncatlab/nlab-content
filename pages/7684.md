@@ -1,3 +1,8 @@
+[[!redirects II.5, the Frobenius and the Verschiebung morphism]]
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+ 
 Let $k$ be a field with prime characteristic $p$.
 
 The [[Frobenius morphism]] $F_G: G\to G^{(p)}$ commutes with finite products and hence if $G$ is a [[k-group-functor]] $G^{(p)}$ is a $k$-group functor, too, and $F_G$ is a $k$-group morphism.
