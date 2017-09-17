@@ -1,8 +1,8 @@
-Ben Webster is a C.L.E. Moore Instructor at MIT.
+I'm a professor at the University of Oregon.
 
-His research is on connections between [[representation theory]], geometry and topology, including Khovanov-Rozansky homology and the geometry of symplectic singularities.
+My research is on connections between [[representation theory]], geometry and topology, including Khovanov-Rozansky homology and the geometry of symplectic singularities.
 
-He is a blogger at [Secret Blogging Seminar](http://sbseminar.wordpress.com/).  
+I'm a blogger at [Secret Blogging Seminar](http://sbseminar.wordpress.com/).  
 
 ##Expository posts:##
 
