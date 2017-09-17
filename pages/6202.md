@@ -1,11 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
-Let $C$ and $D$ be [[monoidal categories]], and $F\colon C \leftrightarrows D : G$ a *comonoidal adjunction, i.e. an [[adjunction]] in the [[2-category]] of colax [[monoidal functors]].  (By [[doctrinal adjunction]], this implies that $G$ is a strong monoidal functor.)  This adjunction is a **Hopf adjunction** if the canonical morphisms
+Let $C$ and $D$ be [[monoidal categories]], and $F\colon C \leftrightarrows D : G$ a _comonoidal adjunction_ , i.e. an [[adjunction]] in the [[2-category]] of colax [[monoidal functors]].  (By [[doctrinal adjunction]], this implies that $G$ is a strong monoidal functor.)  This adjunction is a **Hopf adjunction** if the canonical morphisms
 
 $$ F(x \otimes G y) \to F x \otimes y $$
 $$ F(G y \otimes x) \to y \otimes F x $$
 
-are isomorphisms for any $x\in C$ and $y\in D$.
+are [[isomorphisms]] for any $x\in C$ and $y\in D$.
 
 Of course, if $C$, $D$, $F$, and $G$ are [[symmetric monoidal category|symmetric]], then it suffices to ask for one of these.  If $C$ and $D$ are moreover [[cartesian monoidal category|cartesian monoidal]], then any adjunction is comonoidal, and the condition is also (mis?)named [[Frobenius reciprocity]].
 
