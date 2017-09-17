@@ -68,6 +68,12 @@ determines a functor $C\to A\star B$ and viceversa.
 
 * The **cone** below a category $C$ is the join $C \star \mathrm{pt}$. The cone above $C$ is the join $\mathrm{pt} \star C$. 
 
+#Related concepts
+
+* [[join of quasi-categories]];
+
+*  [[join of simplicial sets]].
+
 #References#
 
 See [p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of 
