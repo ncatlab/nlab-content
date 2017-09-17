@@ -262,7 +262,18 @@ _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mat
 ### Injective resolutions
  {#InjectiveResolutions}
 
-spring
+(...)
+
+## Related concepts
+
+* [[projective object]], [[projective presentation]], [[projective resolution]]
+
+  * [[projective module]]
+
+* **injective object**, [[injective presentation]], [[injective resolution]]
+
+  * [[injective module]]
+
 
 ## References
 
