@@ -678,9 +678,11 @@ We need to show that the [[pullback]] of a weak equivalence $w$ along a fibratio
 ### Homotopies and derived hom spaces
  {#HomotopiesAndDerivedHomSpaces}
 
+In any [[model category]] we have a notion of [[homotopy]] between [[1-morphisms]]. In any [[category of fibrant objects]] we still have a notion of [[right homotopy]], given by maps into a [[path space object]]. So all of the above model category/fibrant object category structures yield models for [[homotopies]] between morphisms of $L_\infty$-algebras.
+
 A discussion of [[path space objects]] of and hence of [[right homotopies]] between $L_\infty$-algebras (in the category of def. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra}) is for instance in ([Dolgushev 07, section 5](#Dolgushev07)).
 
-More generally a description of the full [[derived hom space]] between two $L_\infty$-algebras is obtained via remark \ref{CategoryOfFibrantObjectsLInfinity} from the description of [derived hom-spaces in categoris of fibrant objects](category%20of%20fibrant%20objects#DerivedHomSpaces).
+More generally, a description of the full [[derived hom space]] between two $L_\infty$-algebras is obtained via remark \ref{CategoryOfFibrantObjectsLInfinity} from the description of [derived hom-spaces in categories of fibrant objects](category+of+fibrant+objects#DerivedHomSpaces).
 
 ### Homotopy fiber products
  {#HomotopyFiberProducts}
