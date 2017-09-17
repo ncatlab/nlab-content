@@ -15,8 +15,12 @@
 | [[exponential conjunction]] |  |  [[Fock space]] |
 | [[dependent sum]] over [[finite homotopy type]] | [[Thom spectrum]] |  |
 | [[dualizable object|dualizable]] [[dependent sum]] over [[finite homotopy type]] | [[Atiyah duality]] between [[Thom spectrum]] and [[suspension spectrum]] |  |
-| (twisted) [[self-dual object|self-dual type]] | [[Poincaré duality]] |  |
+| (twisted) [[self-dual object|self-dual type]] | [[Poincaré duality]] | [[inner product]] |
 | [[dependent sum]] coinciding with [[dependent product]] | [[ambidextrous adjunction|ambidexterity]], [[semiadditive (∞,1)-category|semiadditivity]] |  |
 | [[dependent sum]] coinciding with [[dependent product]] up to [[invertible type]] | [[Wirthmüller isomorphism]] |  |
-| [[trace]] on [[dual type|dual]] of [[dependent sum]] | [[Euler characteristic]] | [[partition function]] |
-| (twisted-)[[self-dual object|self-duality]]-[induced dagger-structure](self-dual+object#RelationToDaggerCompactStructure) | ([[twisted Umkehr map|twisted]]-)[[Umkehr map]]/[[fiber integration]]/[[integral transform]] | [[motivic quantization|motivic]] [[path integral]] |
+| $(\sum_f \dashv f^\ast)$-[[counit of an adjunction|counit]] | pushforward in [[generalized homology]] |  |
+| (twisted-)[[self-dual object|self-duality]]-[induced dagger](self-dual+object#RelationToDaggerCompactStructure) of this counit | ([[twisted Umkehr map|twisted]]-)[[Umkehr map]]/[[fiber integration]] |  |
+|  [[linear polynomial functor]]  |  [[correspondence]]  |  space of [[trajectories]]  |
+|  [[linear polynomial functor]] with [[linear implication]] | [[integral kernel]] ([[pure motive]]) | [[prequantized Lagrangian correspondence]]/[[action functional]]  |
+| composite of this [[linear implication]] with daggered-counit followed by unit | [[integral transform]] | [[motivic quantization|motivic]] [[path integral]] |
+| [[trace]]  | [[Euler characteristic]] | [[partition function]] |
