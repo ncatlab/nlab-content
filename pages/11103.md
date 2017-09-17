@@ -1,0 +1,22 @@
+
+**[[twisted cohomology|twisted]] [[generalized cohomology theory]] is [[categorical semantics|∞-categorical]] [[semantics]] of [[linear homotopy type theory]]**
+
+| [[linear homotopy type theory]] | [[generalized cohomology theory]] | [[quantum theory]] |
+|---------------------------------|-----------------------------------|--------------------|
+| [[linear type]] | ([[module spectrum|module]]-)[[spectrum]] |  |
+| [[multiplicative conjunction]] | [[smash product of spectra]] |  [[composite system]] |
+| [[dependent linear type]]           | [[(infinity,1)-module bundle|module spectrum bundle]] |  [[prequantum bundle]] |
+| [[Frobenius reciprocity]] | [[six operation yoga]] in [[Wirthmüller context]] |  |
+| [[dual object|dual type]] (linear negation) | [[Spanier-Whitehead duality]] |  |
+| [[invertible type]]  | [[twisted generalized cohomology|twist]]  |  |
+| [[dependent sum]] | [[generalized homology]] [[spectrum]] | [[space of quantum states]] ("[[bra-ket|bra]]") |
+| [[dual type|dual]] of [[dependent sum]] | [[generalized cohomology]] [[spectrum]] | [[space of quantum states]] ("[[bra-ket|ket]]") |
+| [[linear implication]] | [[bivariant cohomology]] |  |
+| [[exponential conjunction]] |  |  [[Fock space]] |
+| [[dependent sum]] over [[finite homotopy type]] | [[Thom spectrum]] |  |
+| [[dualizable object|dualizable]] [[dependent sum]] over [[finite homotopy type]] | [[Atiyah duality]] between [[Thom spectrum]] and [[suspension spectrum]] |  |
+| (twisted) [[self-dual object|self-dual type]] | [[Poincaré duality]] |  |
+| [[dependent sum]] coinciding with [[dependent product]] | [[ambidextrous adjunction|ambidexterity]], [[semiadditive (∞,1)-category|semiadditivity]] |  |
+| [[dependent sum]] coinciding with [[dependent product]] up to [[invertible type]] | [[Wirthmüller isomorphism]] |  |
+| [[trace]] on [[dual type|dual]] of [[dependent sum]] | [[Euler characteristic]] | [[partition function]] |
+| (twisted-)[[self-dual object|self-duality]]-[induced dagger-structure](self-dual+object#RelationToDaggerCompactStructure) | ([[twisted Umkehr map|twisted]]-)[[Umkehr map]]/[[fiber integration]]/[[integral transform]] | [[motivic quantization|motivic]] [[path integral]] |
