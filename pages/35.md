@@ -9,18 +9,18 @@
 =--
 
 #Contents#
-* autmatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A _Lie groupoid_ is a [[groupoid]] with smooth structure The notion of Lie groupoid is the groupoid analog of [[Lie group]].
+A _Lie groupoid_ is a [[groupoid]] with [[smooth structure]]. The notion of Lie groupoid is the [[horizontal categorification|groupoid analog]] of the notion _[[Lie group]]_.
 
 ## Definition
 
-As an _object, a _ _Lie groupoid_ $X$ is understood to be an [[internal category|internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]].
+A _Lie groupoid_ $X$ is an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifolds]].
 
-To ensure that this definition makes sense, one needs to ensure that the space $Mor(X) \times_{s,t} Mor(X)$ of composable [[morphism]]s is an object of [[Diff]]. This is achieved either by adopting the definition of [[Ehresmann internal category|internal groupoid in the sense of Ehresmann]], which includes as data the [[smooth manifold]] of [[composable pairs]], or by taking the conventional route and demanding that the source and target maps $s,t : Mor(X) \to Obj(X)$ are [[submersion]]s. This ensures the [[pullback]] exists to define said manifold or composable pairs.
+Since [[Diff]] does not have all [[pullbacks]], to ensure that this definition makes sense, one needs to ensure that the space $Mor(X) \times_{s,t} Mor(X)$ of composable [[morphism]]s is an object of [[Diff]]. This is achieved either by adopting the definition of [[Ehresmann internal category|internal groupoid in the sense of Ehresmann]], which includes as data the [[smooth manifold]] of [[composable pairs]], or by taking the conventional route and demanding that the source and target maps $s,t : Mor(X) \to Obj(X)$ are [[submersion]]s. This ensures the [[pullback]] exists to define said manifold or composable pairs.
 
 But for most practical purposes, the apparently evident [[2-category]] $Grpd(Diff)$ of such internal groupoids, [[internal functor]]s and internal [[natural transformation]]s is _not_ the correct 2-category to consider. One way to see this is that the [[axiom of choice]] fails in [[Diff]], which means that an internal functor $X \to Y$ of internal groupoids which is [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]] may nevertheless not be an equivalence, in that it may not have a weak inverse in $Grpd(Diff)$.
 
