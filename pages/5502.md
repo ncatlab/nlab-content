@@ -12,7 +12,7 @@ These together with the _internal_ [[Ext]] and [[Tor]] functors are often called
 
 ## Related concepts
 
-* [[Grothendieck duality]]
+* [[Grothendieck duality]], [[Verdier duality]]
 
 ## References
 
