@@ -1,4 +1,23 @@
-The applications of [[higher category theory]] to computer science are numerous.  The interested reader can start here:
 
-* John Power, [Why tricategories?](http://www.lfcs.inf.ed.ac.uk/reports/94/ECS-LFCS-94-289/)
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Computer science studies [[programs]] and languages to express them.
+
+Together with its [[type theory]] and [[category theory]], computer science is part of the [[computational trinitarianism]].
+
+
+## References
+
+A discussion of [[foundations]] of programming languages is in
+
+*  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+{#Harper}
+
+A suggestion for a classification of structures arising in computer science is in
+
+* [[John Power]], _[Why tricategories?](http://www.lfcs.inf.ed.ac.uk/reports/94/ECS-LFCS-94-289/)_
 
