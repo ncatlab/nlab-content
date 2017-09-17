@@ -507,7 +507,7 @@ There is a notion of [[algebra over an operad]]. The corresponding notion of mod
 
 Let $R$ be a [[commutative ring]].
 
-+-- {: .num_example}
++-- {: .num_example #RingAsModuleOverItself}
 ###### Example
 
 The ring $R$ is naturally a module over itself, by regarding its multiplication map $R \otimes R \to R$ as a module action $R \otimes N \to N$ with $N \coloneqq R$.
@@ -568,7 +568,29 @@ A $\mathbb{Z}$-module, hence an abelian group, is not a free module if it has a 
 
 For $R = k$ a [[field]], an $R$-module is equivalently a [[vector space]] over $k$.
 
-Every finitely-generated free $k$-module is a [[free module]], hence everey finite dimensional vector space has a [[basis of a free module|basis]]. For infinit-dimension this is true if the [[axiom of choice]].
+Every finitely-generated free $k$-module is a [[free module]], hence everey finite dimensional vector space has a [[basis of a free module|basis]]. For infinite dimensions this is true if the [[axiom of choice]] holds.
+
+=--
+
++-- {: .num_example #SubmodulesInExamples}
+###### Example
+
+For $N$ a module and $\{n_i\}_{i \in I}$ a set of elements, the
+[[linear span]]
+
+$$
+  \langle n_i\rangle_{i \in I} \hookrightarrow N
+  \,,
+$$
+
+(hence the completion of this set under addition in $N$ and multiplication by $R$) is a [[submodule]] of $N$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Consider example \ref{SubmodulesInExamples} for the case that the module is $N = R$, the ring itself, as in example \ref{RingAsModuleOverItself}. Then a [[submodule]] is equivalently (called) an _[[ideal]]_ of $R$.
 
 =--
 
