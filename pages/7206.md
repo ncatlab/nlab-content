@@ -27,6 +27,8 @@
 
 The maximally supersymmetric $N = 8$-version arises from [[type II supergravity]] in 10 dimension by [[Kaluza-Klein mechanism|compactification]] on a 6-[[torus]].
 
+The $N=1$-version alternatively from [[M-theory on G2-manifolds]].
+
 ## Related entries
 
 * [[string theory results applied elsewhere]]
