@@ -24,21 +24,21 @@ The definition of a state relies on the notion of positivity of the elements of 
 
 +-- {: .un_def}
 ###### Definition
-An element A of an (abstract) $C*$-algebra is called **positive** if it is self-adjoint and its spectrum is contained in $[0, \infinity)$. We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given $C*$-algebra).
+An element A of an (abstract) $C^*$-algebra is called **positive** if it is self-adjoint and its spectrum is contained in $[0, \infinity)$. We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given $C^*$-algebra).
 =--
 
-Remark: This defintion is motivated by the Hilbert space situation, where an operator $A \in \mathcal{B} (\mathcal{H})$ is called positive if for every vector $x \in \mathcal{H}$ the inequality $ \langle x, Ax \rangle \ge 0$ holds. If the abstract $C^*$-algebra of the definition above is represented on a Hilbert space, then we see that by [[functional calculus]] we can define a self adjoint operator $B$ by $B := f(A)$ with $f(t) := t^{1/2}$ and get  $ \langle x, Ax \rangle = \langle Bx, Bx \rangle \ge 0$. This shows that the positive elements of the abstract algebra, if represented on a Hilbert space, become positive operators as defined here in the Hilbert space setting.
+Remark: This defintion is motivated by the Hilbert space situation, where an operator $A \in \mathcal{B} (\mathcal{H})$ is called positive if for every vector $x \in \mathcal{H}$ the inequality $ \langle x, A x \rangle \ge 0$ holds. If the abstract $C^*$-algebra of the definition above is represented on a Hilbert space, then we see that by [[functional calculus]] we can define a self adjoint operator $B$ by $B := f(A)$ with $f(t) := t^{1/2}$ and get  $ \langle x, A x \rangle = \langle B x, B x \rangle \ge 0$. This shows that the positive elements of the abstract algebra, if represented on a Hilbert space, become positive operators as defined here in the Hilbert space setting.
 
 +-- {: .un_def}
 ###### Definition
 
-A [[linear functional]] $\rho$ on an $C*$-algebra is **positive** if $A \ge 0$ implies that  $\rho(A) \ge 0$.
+A [[linear functional]] $\rho$ on an $C^*$-algebra is **positive** if $A \ge 0$ implies that  $\rho(A) \ge 0$.
 
-A **state** of a unital $C*$-algebra is [[linear functional]] $\rho$ such that $\rho$ is positive and $\rho(\mathbb{1}) = 1$.
+A **state** of a unital $C^*$-algebra is [[linear functional]] $\rho$ such that $\rho$ is positive and $\rho(\mathbb{1}) = 1$.
 
 =--
 
-Though the mathematical notion of state is already close to what physicists have in mind, they usually restrict the set of states further and consider normal states only. We let $\mathcal{R}$ be an $C*$-algebra and $\pi$ an representation of $\mathcal{R}$ on a Hilbert space $\mathcal{H}$.
+Though the mathematical notion of state is already close to what physicists have in mind, they usually restrict the set of states further and consider normal states only. We let $\mathcal{R}$ be an $C^*$-algebra and $\pi$ an representation of $\mathcal{R}$ on a Hilbert space $\mathcal{H}$.
  
 Combined definition and theorem: A **normal state** $\rho$ is a state that satisfies one of the following equivalent conditions (this list is not complete, i.e. there are more equivalent characterizations of normal states):
 
@@ -54,11 +54,11 @@ The last one is most frequently used by physicists, in that context the operator
 
 Reference: Kadison and Ringrose, definition 7.1.11 and theorem 7.1.12.
 
-Sometimes the observables of a system are described by an abstract $C*$-algebra, in this case an important notion is the folium:
+Sometimes the observables of a system are described by an abstract $C^*$-algebra, in this case an important notion is the folium:
 
 +-- {: .un_def}
 ###### Definition
-The **folium** of a representation $\pi$ of an $C*$-algebra  $\mathcal{R}$ on a Hilbert space is the set of normal states of $\pi(\mathcal{R})$.
+The **folium** of a representation $\pi$ of an $C^*$-algebra  $\mathcal{R}$ on a Hilbert space is the set of normal states of $\pi(\mathcal{R})$.
 =--
 
 +-- {: .un_def}
@@ -73,9 +73,9 @@ Normal states are vector states if $\mathcal{R}$ is a [[von Neumann algebra]] wi
 
 Reference: This is theorem 7.2.3 in the book of Kadison and Ringrose.
 
-The set of states of an $C*$-algebra is sometimes called the **state space**.
+The set of states of an $C^*$-algebra is sometimes called the **state space**.
 
-The state space is non-empty (define a state on the subalgebra $\mathbb{C} \mathbb{1}$ and extend it to the whole $C*$-algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the  [[Krein-Milman theorem]] (see Wikipedia: [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem)) it is the weak$^*$-closure of it's extreme points.
+The state space is non-empty (define a state on the subalgebra $\mathbb{C} \mathbb{1}$ and extend it to the whole $C^*$-algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the  [[Krein-Milman theorem]] (see Wikipedia: [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem)) it is the weak$^*$-closure of it's extreme points.
 
 +-- {: .un_def}
 ###### Definition
