@@ -236,13 +236,13 @@ $R$[[Mod]]
 
 **Theorem 2.6.1** [[Künneth formula]]
 
-**Universal cofficient theorem for homology 3.6.2** [universal coefficient theorem in homology](universal coefficient theorem#InHomology)
+**Universal cofficient theorem for homology 3.6.2** [universal coefficient theorem in homology](universal+coefficient+theorem#InHomology)
 
 **Theorem 3.6.3** [[Künneth formula for complexes]]
 
-**Application 3.6.4** [universal coefficient theorem in topology](universal coefficient theorem#InTopology)
+**Application 3.6.4** [universal coefficient theorem in topology](universal+coefficient+theorem#InTopology)
 
-**Universal coefficient theorem in cohomology 3.6.5** [universal coefficient theorem in cohomology](universal coefficient theorem#InCohomology)
+**Universal coefficient theorem in cohomology 3.6.5** [universal coefficient theorem in cohomology](universal+coefficient+theorem#InCohomology)
 
 [[Eilenberg-Zilber theorem]]
 
