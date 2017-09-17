@@ -10,15 +10,18 @@ $$ \frac{\partial 1}{\partial x_i} = 0$$
 
 $$ \frac{\partial x_i}{\partial x_i} = 1$$
 
-$$ \frac{\partial x_i^{-1}}{\partial x_i} = -x_i^{-1}$$
 
-$$ \frac{\partial x_j^{\pm 1}}{\partial x_i} = 0,\;\;i\neq j$$  
-
-and extended to the products $u = y_1\ldots y_n$ where $y_i = x_k$ or $y_i=x_k^{-1}$ for some $k = k(i)$ by the formula
+extended to the products $u = y_1\ldots y_n$ where $y_i = x_k$ or $y_i=x_k^{-1}$ for some $k = k(i)$ by the formula
 
 $$
 \frac{\partial u }{\partial x_i} = \sum_{s=1}^n y_1\cdots y_{s-1} \frac{\partial y_s }{\partial x_i}.
 $$ 
+
+This then implies that 
+
+$$ \frac{\partial x_i^{-1}}{\partial x_i} = -x_i^{-1}$$
+
+$$ \frac{\partial x_j^{\pm 1}}{\partial x_i} = 0,\;\;i\neq j$$  
 
 Notice that the summands on the right-hand side are "of different length". 
 
