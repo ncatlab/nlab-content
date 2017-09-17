@@ -54,7 +54,7 @@ For $C$ a [[combinatorial model category]] and $D$ a [[small category]] the proj
 
 * are themselves [[combinatorial model category|combinatorial model categories]];
 
-* are right or left [[proper model categories]] of $C$ is right or left proper, respectively.
+* are right or left [[proper model categories]] if $C$ is right or left proper, respectively.
 
 * are [[simplicial model categories]] if $C$ is a [[simplicial model category]], with respect to the [[sSet]]-[[enriched category|enrichment]] for which the [[sSet]]-[[copower|tensoring]] is objectwise that of $C$.
 
