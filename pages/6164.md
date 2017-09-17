@@ -13,6 +13,8 @@ For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordin
 
 * [[generalized cohomology]]
 
+* [[Atiyah-Hirzebruch spectral sequence]]
+
 
 ## References
 
