@@ -55,21 +55,28 @@ On the other hand, products of $C$-objects in $Top$ need not land in $C$, so in 
 
 * others to be written.
 
-## Counter examples
+## Counterexamples
 
-* [[locally compact topological space]]s are not cartesian closed
+A naive approach to the problem of constructing "convenient categories" usually runs into problems. For example, one could try to work with the full subcategory of $Top$ consisting of spaces which are [[exponential object|exponentiable]]; the problem is that even if $X$ and $Y$ are exponentiable, the exponential $Y^X$ may not be: 
 
-  As a counterexam consider $\mathbb{N}^{\mathbb{N}}$ where $\mathbb{N}$ has the usual discrete topology. Discrete spaces are of course locally compact, and the compact-open topology is the usual product topology. But this exponential is not locally compact, because there is an explicit homeomorphism between this space and the space of irrationals in the interval  (0,1) with its usual subspace topology. This homeomorphism is given by the regular continued fraction expansion.
+* The category of exponentiable spaces is not cartesian closed. (It is of course cartesian: the product of two exponentiable spaces under the usual product topology is exponentiable.) 
 
+To see this, we recall that a [[Hausdorff space]] is exponentiable if and only if it is [[locally compact space|locally compact]], and that an exponential $Y^X$ (provided it exists) is Hausdorff if $Y$ is. Thus, it is enough to exhibit two locally compact Hausdorff spaces $X$, $Y$ whose exponential is not locally compact Hausdorff. 
+
+Take $X = Y = \mathbb{N}$ with the [[discrete topology]]. Then the exponential $\mathbb{N}^\mathbb{N}$ is forced to have the product topology, by the following calculation: 
+
+$$LCH(X \times \mathbb{N}, \mathbb{N}) \cong LCH(\sum_{\mathbb{N}} X, \mathbb{N}) \cong \prod_{\mathbb{N}} LCH(X, \mathbb{N})$$ 
+
+where the last functor in $X$, in order to be representable, would have to be represented by a product $\prod_{\mathbb{N}} \mathbb{N}$. However, there is no such product in the category of locally compact Hausdorff spaces. The topological product is in fact homeomorphic to the space of irrationals between $0$ and $1$ via the regular continued fraction expansion, and this is not locally compact. 
 
 ## "Nice" versus "convenient" categories of spaces
 {#NvC}
 
 A related entry is [[nice category of spaces]]. Here we explain the difference between "convenient" and "nice" categories of spaces. 
 
-"A convenient category of topological spaces" is the title of a well-known paper by Norman Steenrod, who emphasized particularly function space constructions (i.e., cartesian closure) as a great convenience for working algebraic topologists, on top of (generally less problematic) completeness and cocompleteness assumptions.
+"A convenient category of topological spaces" is the title of a well-known paper by Norman Steenrod, who emphasized particularly function space constructions (i.e., cartesian closure) as a great convenience for working algebraic topologists, on top of (generally less problematic) completeness and cocompleteness assumptions. (See also the historical remarks that follow.) 
 
-It is well-known that $Top$ is not [[cartesian closed category|cartesian closed]].  One can characterize the [[exponential law for spaces|exponentiable spaces]], which include all [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] spaces, but the naive idea of simply cutting down to some of these does not give a good cartesian closed category either, since firstly it need not be complete and cocomplete, and secondly even if $X$ and $Y$ are exponentiable, the exponential $Y^X$ need not be.
+It is well-known that $Top$ is not [[cartesian closed category|cartesian closed]].  One can characterize the [[exponential law for spaces|exponentiable spaces]], which include all [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] spaces, but as we saw above, the naive idea of simply cutting down to some of these does not give a good cartesian closed category either, since firstly it need not be complete and cocomplete, and secondly even if $X$ and $Y$ are exponentiable, the exponential $Y^X$ need not be.
 
 However, one can cut down to *some* full subcategory of spaces which does admit function spaces.  This typically involves the subtle and delicate interplay between compactness conditions and openness conditions.  It comes at a cost -- that limits and/or colimits in the subcategory might not be computed as they are in $Top$ -- but this is generally considered a very small price to pay in exchange for the great convenience of these assumptions. 
 
@@ -82,6 +89,18 @@ For example, the category of [[compact Hausdorff space]]s can be considered as b
 It should also be noted that "[[space]]" itself has a wider meaning than the technical notion of "[[topological space]]", even if topological intuitions come into play. For example, in domain theory, one often considers certain types of posets (for example, [[directed-complete partial order|dcpos]]) as certain types of "spaces". In this direction, we have that the category of dcpos and _Scott-continuous_ maps between them forms a complete, cocomplete, cartesian closed category. However, these types of spaces are quite far removed from the traditional concerns of geometry, hence are not "convenient" in the sense given above (despite the manifold relations between Scott continuity and the point-set topology which underlies the classical results on compactly generated spaces). In another direction, the category of [[locales]] is in some respects "nice", but these are not topological spaces either. 
 
 Along with the entry on [[nice category of spaces]], see also [[subsequential space]], [[Johnstone's topological topos]], and Spanier's [[quasitopological space]]s. None of these is convenient in the precise sense above. 
+
+## Historical remarks 
+
+The phrase "convenient category of topological spaces" predates Steenrod's paper by a number of years. Indeed, Ronnie Brown had written the following in the introduction to his paper Function Spaces and Product Topologies: 
+
+* "It may be that the category of Hausdorff k-spaces is adequate and convenient for all purposes of topology."
+
+In fact Brown had proven the relevant properties for function spaces in his 1961 thesis. (Note that this predates the formal introduction of cartesian closed categories in Lawvere's thesis by a couple of years; thus Brown's work anticipated some of the later developments on monoidal closed and cartesian closed categories and their applications to topology, which was to attract much attention in the sixties.) 
+
+Of course, as has often been emphasized by Lawvere, the need for and convenience of considering function spaces is a very old idea in geometry (going back to the roots of the calculus of variations for example). Some of the function-space precursors to the sought-after convenient categories of spaces appear in Kelley's book General Topology (1955), where a chapter is devoted to various topologies on function spaces, including of course the compact-open topology. Meanwhile, the relevance of Kelley spaces (or k-spaces) had been recognized from various angles, for example Kelley's book indicates the completeness of function spaces (wrt the compact-open topology) when the base is a complete uniform space and the exponent is a k-space, and also the relevance of k-spaces to studies of how products interact with quotient spaces. A fuller appreciation of the connections between function spaces and the interactions between products and quotients came about as categorical methods permeated the general consciousness, particularly through appreciation of the central and simplifying role of adjunctions. 
+
+Appreciation of the role of convenient categories was in full force by the early seventies (see for example May's Geometry of Iterated Loop Spaces, where the category of Hausdorff k-spaces plays a foundational role). They are recognized elsewhere too (and not just within the categorical community); see for example Convenient Categories for Analysis by Kriegl and Michor. 
 
 
 ## References
