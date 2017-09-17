@@ -91,3 +91,4 @@ For the notion of copowering in [[(∞,1)-category theory]] see the section <a h
 [[!redirects copowers]]
 
 [[!redirects tensoring]]
+[[!redirects copowering]]
