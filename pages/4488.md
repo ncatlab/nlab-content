@@ -13,15 +13,6 @@
 =--
 =--
 
-* [[groupoid of Lie-algebra valued forms]]
-
-* **2-groupoid of Lie 2-algebra valued forms**
-
-* [[3-groupoid of Lie 3-algebra valued forms]]
-
-* [[∞-groupoid of ∞-Lie-algebra valued forms]]
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -206,6 +197,18 @@ $$
 $$
 
 where $P_2(C(\{\U_i\}) \in 2LieGrpd$ is a resolution of the [[path 2-groupoid]] of $X$.
+
+
+## Related concepts
+
+* [[groupoid of Lie-algebra valued forms]]
+
+* **2-groupoid of Lie 2-algebra valued forms**
+
+* [[3-groupoid of Lie 3-algebra valued forms]]
+
+* [[∞-groupoid of ∞-Lie-algebra valued forms]]
+
 
 
 ## References
