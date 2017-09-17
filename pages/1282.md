@@ -17,15 +17,15 @@ For examples of the other [[universal construction]]s see
 
 * [Examples of limits](#examplesoflimits)
 
-  * [simple diagrams](#limitssimplediagrams)
+  * [Simple diagrams](#limitssimplediagrams)
 
-  * [filtered limits](#filteredlimits)
+  * [Filtered limits](#filteredlimits)
 
-  * [in term of other operations](#limitsintermsofotherops)
+  * [In term of other operations](#limitsintermsofotherops)
 
-  * [limits and colimits in Set](#limcoliminset)
+  * [Limits and colimits in Set](#limcoliminset)
  
-  * [limits in presheaf categories](#limitsinpresheafcat)
+  * [Limits in presheaf categories](#limitsinpresheafcat)
 
   * [limits in under categories](#limitsinundercat)
 
@@ -34,7 +34,7 @@ For examples of the other [[universal construction]]s see
 
 In the following examples, $D$ is a [[small category]], $C$ is any category and the limit is taken over a functor $F : D^{op} \to C$.
 
-## simple diagrams {#limitssimplediagrams}
+## Simple diagrams {#limitssimplediagrams}
 
 
 * the limit of the empty diagram $D = \emptyset$ in $C$ is, if it exists [[nLab:generalized the|the]] [[nLab:terminal object|terminal object]];
@@ -45,13 +45,13 @@ In the following examples, $D$ is a [[small category]], $C$ is any category and 
 
 * if $D$ has an [[nLab:terminal object|terminal object]] $I$ (so that $I$ is an [[nLab:initial object|initial object]] in $D^{op}$), then the limit of any $F : D^{op} \to C$ is $F(I)$.
 
-## filtered limits {#filteredlimits}
+## Filtered limits {#filteredlimits}
 
 * if $D$ is a [[nLab:poset|poset]], then the limit over $D^{op}$ is the supremum over the $F(d)$ with respect to $(F(d) \leq F(d')) \Leftrightarrow (F(d) \stackrel{F(\leq)}{\leftarrow} F(d'))$;
 
 * the generalization of this is where the term "limit" for categorical limit (probably) originates from: for $D$ a [[nLab:filtered category|filtered category]], hence $D^{op}$ a cofiltered category, one may think of $(d \stackrel{f}{\to} d') \mapsto (F(d) \stackrel{F(f)}{\leftarrow} F(d')$ as witnessing that $F(d')$ is "larger than" $F(d)$ in some sense, and $lim F$ is then the "largest" of all these objecs, the limiting object. This interpretation is perhaps more evident for filtered [[nLab:colimit|colimits]], where the codomain category $C$ is thought of as being the [[nLab:opposite category|opposite]] $C = E^{op}$. See the motivation at [[nLab:ind-object|ind-object]].
 
-## in terms of other operations {#limitsintermsofotherops}
+## In terms of other operations {#limitsintermsofotherops}
 
 the limit of $F : D^{op} \to C$ is always a [[nLab:subobject|subobject]] of the [[nLab:product|product]] of the $F(d)$, namely the [[nLab:equalizer|equalizer]] of
 
@@ -81,7 +81,7 @@ in terms of a subset of a product set.
 In particular therefore, a category has all limits already if it has all products and equalizers.
 
 
-## limits and colimits in Set {#limcoliminset}
+## Limits and colimits in Set {#limcoliminset}
 
 In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to the very familiar operations of 
 
@@ -117,9 +117,9 @@ $Set(X, lim F) \simeq lim Set(X,F(-))$, where on the right the limit is taken of
   If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
 
 
-### limits in presheaf categories {#limitsinpresheafcat}
+### Limits in presheaf categories {#limitsinpresheafcat}
 
-Here consider limits of functors $F : D^{op} to PSh(C)$
+Consider limits of functors $F : D^{op} \to PSh(C)$
 with values in the category of [[nLab:presheaf|presheaves]] on a [[nLab:small category|small category]] $C$.
 
 +-- {: .un_prop}
@@ -133,6 +133,8 @@ Here on the right the limit is over the functor
 $F(-)(c) : D^{op} \to Set$.
 =--
 
+Similarly [[colimit]]s of presheaves are computed objectwise.
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -144,8 +146,10 @@ $$
   Y(lim F) \simeq lim (Y\circ F)
 $$
 if $lim F$ exists.
+
 =--
 
+**Warning** The Yoneda embedding does _not_ in general preserve colimits.
 
 ## Limits in under-categories {#limitsinundercat}
 
