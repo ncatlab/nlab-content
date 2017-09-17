@@ -210,7 +210,7 @@ Notice that one can read this as saying that $Cob_n(X)$ is roughly like the [[fr
 
 We discuss the special case of the cobordism hypothesis for $(X,\xi)$-bundles (def. \ref{CatOfCobordismsWithXIStructure}) for the special case that $X$ is the [[classifying space]] of a [[topological group]].
 
-Let $G$ be a [[topological group]] equipped with a [[homomorphism]] $\chi : G \to O(n)$ to the [[orthogonal group]]. Notice that via the canonical linear [[representation]] $\mathbf{B}O(n) \to$ [[Vect]] of $O(n)$ on $\mathb{R}^n$, this induces accordingly a representation of $G$ on $\mathbb{R}^n$..
+Let $G$ be a [[topological group]] equipped with a [[homomorphism]] $\chi : G \to O(n)$ to the [[orthogonal group]]. Notice that via the canonical linear [[representation]] $\mathbf{B}O(n) \to$ [[Vect]] of $O(n)$ on $\mathbb{R}^n$, this induces accordingly a representation of $G$ on $\mathbb{R}^n$..
 
 Let then 
 
