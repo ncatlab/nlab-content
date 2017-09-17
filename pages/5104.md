@@ -1,3 +1,4 @@
+
 # Concepts of basis in functional analysis
 * tic
 {: toc}
@@ -19,7 +20,7 @@ In infinite dimensions, having a basis becomes more valuable as the spaces get m
 +-- {: .num_defn #basis}
 Let $V$ be a [[topological vector space]] and $B \subseteq V$ a subset.
 
-1. We say that $B$ is a **Hamel basis** if:
+1. We say that $B$ is a **[[Hamel basis]]** if:
    1. Every element of $v$ is a finite linear combination of elements of $B$,
    2. If $v = \sum_{b \in B} \alpha_b b$ then the $\alpha_b$ are unique.
 
@@ -61,17 +62,14 @@ Let $V$ be a [[topological vector space]] and $B \subseteq V$ a subset.
 
 * Enflo, P. (1973). A counterexample to the approximation problem in {B}anach spaces. _Acta Math._, _130_, 309--317.
 
-* Semadeni, Z. (1982). _Schauder bases in {B}anach spaces of continuous functions_ (Vol. 918). Lecture Notes in Mathematics. Berlin: Springer-Verlag.
+* Semadeni, Z. (1982). _Schauder bases in Banach spaces of continuous functions_ (Vol. 918). Lecture Notes in Mathematics. Berlin: Springer-Verlag.
 
 
 category: functional analysis
 
 [[!redirects basis in functional analysis]]
+[[!redirects bases in functional analysis]]
 [[!redirects basises in functional analysis]]
-
-[[!redirects Hamel basis]]
-[[!redirects Hamel bases]]
-[[!redirects Hamel basises]]
 
 [[!redirects topological basis]]
 [[!redirects topological basises]]
