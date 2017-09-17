@@ -103,6 +103,19 @@ Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Se
 
 An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
 
+### The Successor Monad
+
+The successor monad is an example of monad on the $\subset$ partial order on $Set$. We may as well have $S X=X\cup\{X\}$ and then for $f:X\to Y$
+$$ S f(x)=\left\{ \begin{matrix} f(x) & x\in X \\ Y & x = X \end{matrix} \right.$$
+The structure map $\eta_X$ is the inclusion of $X$ in $S X$; the map $\mu_X:S S X\to S X$ restricts to $S X$ as the identity, and futhermore has $\mu_X(S X)=X$.
+
+The set of morphisms in the [[Kleisli Category]] of $(S,\eta,\mu)$ from $X$ to $Y$ is canonically equivalent to the set of _partial functions_ from $X$ to $Y$; its [[Steenrod-Moore Category]] is equivalent to the category of pointed sets and pointed maps, i.e. morphisms $1\to X$ and commuting squares between such morphisms.
+
+The Successor monad as defined here is also interesting in that it stabilizes the (finite) von Neumann ordinals and *monotone* maps between them, and that $\eta$ and $\mu$ are also monotone.  Thus the successor monad restricts as a monad to a skeleton of the augmented [[simplex category]].  Furthermore, every monotone map of ordinals can be written as a composite of arrows of the form $S^k \mu_l$ and $S^m \eta_n$.
+
++-- {: .query}
+[[JCMcKeown]]: I want to say something like $(S,\eta,\mu)$ _generates_ the (skeletal augmented) simplex category; there is surely a right way to say that, but what is it?
+=--
 
 ## Algebras/modules over a monad {#Algebras}
 
