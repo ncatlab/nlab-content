@@ -1,3 +1,10 @@
+With [[Saunders Mac Lane]], 'Sammy' Eilenberg was one of the 'fathers' of [[category theory]]. In their 1945 paper *General theory of natural equivalences* they introduced the definition of category. The reason for introducing categories was to introduce functors, and the reason for introducing functors was to introduce natural transformations (more specifically natural equivalences) in order to define what natural means in mathematics.
+
+
+
+
+
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Samuel_Eilenberg)
 
 #Related $n$Lab entries#
