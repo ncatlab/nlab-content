@@ -40,7 +40,7 @@ More generally, for a class $V$ of arrows in a category $C$, an object $A\in C$ 
 +-- {: .un_remark}
 ###### Remark
 
-As for sheaves, it is sufficient to check the separartion condition on the [[dense monomorphism]]s, hence on the [[sieve]]s.
+As for sheaves, it is sufficient to check the separation condition on the [[dense monomorphism]]s, hence on the [[sieve]]s.
 
 For $\{p_i : U_i \to U\}$ a [[covering]] family of an object $U \in S$, the condition is that if $a,b \in A(U)$ are such that for all $i$ we have $A(p_i)(a) = A(p_i)(b)$ then already $a = b$.
 
