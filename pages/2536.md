@@ -31,6 +31,7 @@ But later Jordan algebras have been studied largely for their own sake.
 
 More recently, the [[Bohr topos]] associated to a noncommutative [[algebra of observables]] was found to really see the underlying Jordan algebra structure. See at _[[Bohr topos]]_ and _[[poset of commutative subalgebras]]_ for more on this.
 
+
 ## Definition
 
 A **Jordan algebra** is a [[commutative algebra|commutative]] [[nonassociative algebra]] $J$ satisfying the __Jordan identity__ $(x y) (x x) = x (y (x x))$ for all $x,y$ in $J$.  It follows that $J$ is [[power-associative algebra|power-associative]], and the Jordan identity generalizes to
@@ -44,6 +45,7 @@ $$x\circ y \stackrel{def}{=} \frac{x\cdot y + y \cdot x}{2}.$$
 Such Jordan algebras are called __special__ Jordan algebras; all others are called __exceptional__.
 
 Among the exceptional Jordan algebras over the [[real numbers]], there is a remarkable $27$-dimensional example: the **Albert algebra** $\mathbb{Al}$ of [[self-adjoint matrix|self-adjoint]] $3\times 3$ [[matrix|matrices]] over the [[octonion|octonions]] with the same formula as above for the product in terms of [[matrix product]]. Notice that the octonions and their matrices do *not* form associative algebras, but only [[alternative algebras]], so the Jordan identity for the Albert algebra is not automatic (it does not hold for all alternative algebras) but is a consequence of more special circumstances.
+
 
 ## Formally real Jordan algebras and their origin in quantum physics 
  {#OriginInQuantumPhysics}
@@ -98,6 +100,7 @@ For more on this see also at _[order-theoretic structure in quantum mechanics --
 
 
 ## Classification of formally real Jordan algebras
+{#frc}
 
 In 1934, Jordan published a paper with von Neumann and Wigner classifying finite-dimensional formally real Jordan algebras ([Jordan-vonNeumann-Wigner 34](#JordanvNeumannWigner34)).
 
@@ -145,7 +148,7 @@ Because the spin factor $\mathbb{R}^n \oplus \mathbb{R}$ can be identified with 
 In 1983, Zelmanov drastically generalized the result of Jordan, von Neumann and Wigner by classifying all simple Jordan algebras, including infinite-dimensional ones ([Zelmanov 83](#Zelmanov83)).
 
 
-## Self-dual homogeneous convex cones ##
+## Self-dual homogeneous convex cones
 
 The formalism of Jordan algebras seems rather removed from the
 actual practice of [[physics]], because in quantum theory we hardly ever take two observables $a$ and $b$ and form their Jordan product
@@ -335,11 +338,13 @@ v \in C, v' \in C' \} . $$
 
 In short: finite-dimensional formally real Jordan algebras arise fairly naturally as observables starting from a formalism where nonnegative observables form a cone, as long as we insist on some properties of this cone.
 
+
 ## Relation to commutative subalgebras
 
 For every associative algebra there is its [[semilattice of commutative subalgebras]]  $ComSub(A)$. At least for $Am B$ [[von Neumann algebra]]s without type $I_2$ [[von Neumann algebra factor]]-subfactors, the isomorphisms $ComSub(A) \to ComSub(B)$ correspond to isomorphisms between the corresponding Jordan algebras $A_J \to B_J$.
 
 For more details see [[semilattice of commutative subalgebras]].
+
 
 ## Related concepts
 
@@ -350,6 +355,7 @@ For more details see [[semilattice of commutative subalgebras]].
   * [[Alfsen-Shultz theorem]]
 
   * [[Harding-Döring-Hamhalter theorem]]
+
 
 ## References
 
@@ -391,3 +397,9 @@ p. 80 of
 
 [[!redirects Jordan algebra]]
 [[!redirects Jordan algebras]]
+
+[[!redirects formally real Jordan algebra]]
+[[!redirects formally real Jordan algebras]]
+
+[[!redirects special Jordan algebra]]
+[[!redirects special Jordan algebras]]
