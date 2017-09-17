@@ -10,7 +10,7 @@
 
 Two [[morphisms]] $C \stackrel{L}{\to} D$ and $D \stackrel{R}{\to} C$ in a [[2-category]] $\mathcal{C}$ form an **adjunction** if they are **dual** to each other.
 
-There are two archetypal examples:
+There are two archetypical examples:
 
 *  If $A$ is a [[monoidal category]] and $\mathcal{C} = \mathbf{B}A$ is the one-object 2-category incarnation of $A$ (the [[delooping]] of $A$), so that the morphisms in $\mathcal{C}$ correspond to the objects of $A$, then the notion of adjoint morphisms in $\mathcal{C}$ coincides precisely with the notion of [[dualizable object|dual objects]] in a $A$.
 
