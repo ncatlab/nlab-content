@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $\infty$-Lie theory
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
 =--
@@ -11,7 +11,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -37,3 +37,6 @@ $Lie Alg$ is the [[full subcategory]] of the [[opposite category]] of the catego
 
 
 category: category
+
+[[!redirects LieAlg]]
+[[!redirects Lie Alg]]
