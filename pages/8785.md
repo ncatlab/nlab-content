@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+On a [[complex manifold]] $X$ the [[de Rham complex]] $\Omega^\bullet(X)$ refines to a [[bigraded object|bigraded]] complex $\Omega^{\bullet, \bullet}(X)$, where a [[differential form]] of bidegree $(p,q)$ has holomorphic degree $p$ and antiholomorphic degree $q$.
+
+## Definition
+
+(...)
+
+## Properties
+
+### In terms of sheaf cohomology
+
+Let $CartSp_{compl}$ be the [[category]] of complex [[Cartesian spaces]] $\mathbb{C}^n$ and [[holomorphic functions]] between them.
+
+For $p \in \mathbb{N}$ write $\Omega^p \colon CartSp_{complex}^{op} \to Set$ for the [[sheaf]] of holomorphic [[differential n-form|differential p-forms]].
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[complex manifold]], let $\{U_i \to X\}$ be a holomorphic good open cover. Then the [[Cech cohomology]] of this cover with [[coefficients]] in $\Omega^p$ in degree $q$ is the Dolbeault cohomology in bidegree $(p,q)$
+
+$$
+  H^{p,q}(X) \simeq \pi_0 sPSh(CartSp_{comp})(C(\{U_i\}, \Omega^p[q]))
+  \,.
+$$
+
+=--
+
+For instance ([Maddock, theorem 1.0.1](#Maddock)).
+
+## References
+
+* Zachary Maddock, _Dolbeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
+ {#Maddock}
+
+[[!redirects Dolbeault cohomology]]
