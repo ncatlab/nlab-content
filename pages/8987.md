@@ -26,9 +26,11 @@
 
 Given a [[presymplectic form]] $(X, \omega)$ (hence any closed [[differential 2-form]]), a _[[prequantization]]_ of it in the traditional sense is a choice of [[circle bundle with connection]] on $X$ whose [[curvature]] 2-form is $\omega$. Since the [[circle group]] $U(1)$ is equivalent, as a [[smooth ∞-group]] to the [[2-group]] coming from the [[crossed module]] $(\mathbb{Z} \hookrightarrow \mathbb{R})$, such a lift exists whenever the [[periods]] of $\omega$ are integral, hence are in the inclusion of the [[integers]] into the [[real numbers]] $\mathbb{Z} \hookrightarrow \mathbb{R}$.
 
-But conversely this means that for _any_ closed differential 2-form $\omega$ there is a [[connection on a 2-bundle]] on a $(\Gamma \hookrightarrow \mathbb{R})$-[[principal 2-bundle]], where $\Gamma \hookrightarrow \mathbb{R}$ is the inclusion of the [[discrete group]] of [[periods]] of $\omega$.
+But conversely this means that for _any_ closed differential 2-form $\omega$ there is a [[connection on a 2-bundle]] on a $(\Gamma \hookrightarrow \mathbb{R})$-[[principal 2-bundle]], where $\Gamma \hookrightarrow \mathbb{R}$ is the inclusion of the [[discrete group]] of [[periods]] of $\omega$. 
 
-If $\Gamma$ here is not finitely generated, then the [[smooth 2-group]] $(\Gamma \to \mathbb{R})$ is not equivalent to a smooth 1-group, and hence this is a genuine case of _[[higher geometric prequantization]]_. The upshot being that while not every closed 2-form has an ordinary [[prequantization]], it always does have one in [[higher geometric prequantization]], at least if we admit to choose the structure 2-group accordingly.
+If here $\Gamma \hookrightarrow \mathbb{R}$ is a global multiple of the canonical inclusion $\mathbb{Z} \hookrightarrow \mathbb{R}$ then there is of course an [[isomorphism]] $(\mathbb{R}/\Gamma) \simeq (\mathbb{R}/\mathbb{Z}) =  U(1)$. This identification coresponds to a choice of _[[Planck's constant]]_ (see there).
+ 
+If however $\Gamma$ is not [[finitely generated object|finitely generated]], then the [[smooth 2-group]] $(\Gamma \to \mathbb{R})$ is not equivalent to a smooth 1-group, and hence this is a genuine case of _[[higher geometric prequantization]]_. The upshot being that while not every closed 2-form has an ordinary [[prequantization]], it always does have one in [[higher geometric prequantization]], at least if we admit to choose the structure 2-group accordingly.
 
 These considerations are currently mostly motivated purely mathematically. But the claim is that there useful physical applications (... eventually to be added here...).
 
