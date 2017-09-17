@@ -144,14 +144,19 @@ Let $sPSh(CartSp)_{proj}$ be the category of [[simplicial presheaves]] on the ca
 
 Let $X$ be a [[manifold]], or more generally a [[diffeological space]], regarded as a 0-[[truncated]] object of $sPSh(C)$.
 
-Then: the [[Cech nerve]] $C(\{U_i\}) \in sPSh(C)$ of a good open cover $\{U_i \to X\}$ is cofibrant in $X$.
+Let $\{U_i \to X\}$ be a good open cover so that all finite and non-empty intersections are [[homeomorphic]] to an [[open ball]]. (This is the case for the above constructions).
+
+Then: the [[Cech nerve]] $C(\{U_i\}) \in sPSh(C)$ of the good open cover $\{U_i \to X\}$ is cofibrant in $X$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This is a special case of the [characterization of cofibrant objects in the projective structure](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects): the point is that the fact that the cover is _good_ means that the Cech nerve $C(\{U_i\})$ is degreewise a [[coproduct]] of [[representable functor|representables]]: every open contractible subset is isomorphic to an open ball, hence to an object in the site [[CartSp]].
+Since every [[open ball]] is [[diffeomorphic]] to a [[Cartesian space]] $\mathbb{R}^n$ (see the section <a href="http://ncatlab.org/nlab/show/diffeomorphism#RelationHomeomorphism">Relation to homeomorphisms</a> at [[diffeomorphism]]) we have that $C(U_i)$ is degreewise a [[coproduct]] of [[representable functor|representables]]. It is also evidently a [[split hypercover]].
+
+This implies the statement by the [characterization of cofibrant objects in the projective structure](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects).
+
 
 =--
 
