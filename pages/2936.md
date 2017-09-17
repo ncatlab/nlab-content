@@ -41,7 +41,7 @@ In fact, this is true of any [[separable space]]. What distinguishes Polish spac
 
 +-- {: .num_lemma #baire} 
 ###### Lemma 
-Every Polish space $X$ admits a continuous surjection from Baire space. 
+Every [[inhabited]] Polish space $X$ admits a continuous surjection from Baire space. 
 =-- 
 
 +-- {: .proof} 
