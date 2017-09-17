@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[sigma-model]] [[quantum field theory]] describes the propagation of a [[brane]] on some [[target space]] $X$. Typically the dynamics is controled by a [[gauge field]] on $X$ under which the brane is [[charge]]d. This is the **background gauge field** of the $\sigma$-model. The term "background" alludes to the fact that this background gauge field is fixed and only serves to influence the dynamics of the brane coupled to it. More generally, one could also study the quantum dynamics of the possible background fields themselves. This would be given by the corresponding [[gauge theory]] on $X$.
+
+## Examples
+
+* The electrically charged [[relativistic particle]] is described by a [[sigma-model]] with background gauge field the [[electromagnetic field]] on [[spacetime]]. 
+
+
+* The [[string]] of [[string theory]] may be described by a [[sigma-model]] with background gauge field the [[Kalb-Ramond field]].
+
+* [[Chern-Simons theory]] may be understood as the [[sigma-model]] of a [[membrane]] charged under a background field that is a [[Chern-Simons circle 3-bundle]].
+
+## Related concepts
+
+* [[sigma model]]
+
+  * [[worldvolume]]
+  
+  * [[target space]]
+
+  * **background field**
+
+[[!redirects background field]]
