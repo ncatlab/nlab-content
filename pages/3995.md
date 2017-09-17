@@ -1,77 +1,15 @@
-#Contents#
-* automatic table of contents goes here
-{:toc}
 
-In logic, a **signature** is a collection of data which prescribes the 'alphabet' of non-logical symbols of a logical theory, saying which operations and predicates are taken to be primitive. 
 
-For other notions of signature, see [[signature (disambiguation)]]. 
+The term **signature** refers to a number of quite different notions in mathematics, including but not limited to: 
 
-## Definition
+* signature of a permutation, 
 
-Formally, a **signature** $\Sigma$ consists of 
+* signature of a diagonal matrix or quadratic form 
 
-* A set $S$ whose elements are called **sorts** of $\Sigma$, 
+* [[signature (in logic)]]
 
-* A set $Rel(\Sigma)$ whose elements are called **relation symbols**, equipped with a function $ar: Rel(\Sigma) \to S^*$ to the free monoid on $S$ which prescribes an **arity** for each relation symbol, 
+* [[signature genus]]
 
-* A set $Func(\Sigma)$ whose elements are called **function symbols**, equipped with a function 
-$$\langle dom, cod \rangle: Func(\Sigma) \to S^* \times S$$ 
-which prescribes an arity or type for each function symbol. A function symbol $f$ is usually written as $dom(f) \to cod(f)$ to indicate its arity. 
+* etc....
 
-The majority of (but far from all) mathematical concepts are described by means of a **single-sorted** signature, where $S$ consists of a single element $X$. Examples where multisorted signatures are used is the theory of categories (with an object sort and a morphism sort) and (multi)directed graphs (with a vertex sort and an edge sort). But in the single-sorted or one-sorted case, the free monoid on the one-sort set is isomorphic to $\mathbb{N}$, and the arity of a relation is a number $n$. Hence we speak of an $n$-ary relation (unary, binary, etc.). Similarly, the arity of a function symbol or operation $f$ is the number $n$ which indexes $dom(f)$ (hence we speak of unary operations, binary operations, etc.) In either the single-sorted or multisorted case, a 0-ary operation (where the domain empty) is usually called a **constant**. 
-
-A **relational** signature is where $Func(\Sigma)$ is empty, and an **equational** or **algebraic** signature is where $Rel(\Sigma)$ is empty. (In the latter case, the only relation symbol is the equality symbol, but this is typically considered a logical symbol.) Occasionally one allows a relational signature to have constants. 
-
-A (set-theoretic) **model** or **interpretation** $M$ of a signature consists of functions which assign
-
-* To each sort $s$ a set $M(s)$, 
-
-* To each relation symbol $R$ of arity $\langle s_1, \ldots, s_n \rangle$ a subset $M(R) \hookrightarrow M(s_1) \times \ldots \times M(s_n)$, 
-
-* To each function symbol $f$ of type $\langle s_1, \ldots, s_n \rangle \to s$ a function $M(f): M(s_1) \times \ldots \times M(s_n) \to M(s)$. In the case of constants of type $s$, the empty product on the left is taken to be a terminal or 1-element set $1$, whose element needs no name but is often given a generic name like '$*$'. 
-
-## Examples 
-
-An important point to bear in mind is that _essentially_ the same theories (where 'same' means that the categories of models are equivalent or even isomorphic) may have very different signatures. For example, 
-
-* The theory of groups is usually described as a single-sorted theory whose signature has one binary operation (called 'multiplication') $m$, one constant $e$ (called 'identity'), and one unary operation (called 'inversion') $i$. But it can also be described using a signature with just one (binary) operation $m$; there one adds in extra axioms which posit the existence of an identity and of inverse elements. Or, it can be described using a signature with a single (binary) operation $d$ (for 'division'). All these are examples of equational signatures. 
-
-* A [[Boolean ring]] is usually described as a commutative ring with identity in which multiplication is idempotent, hence the theory of Boolean rings is usually presented using the signature normally reserved for rings (with identity). A [[Boolean algebra]] may be described using a variety of signatures, for example non-equationally, involving a binary relation $\leq$ and function symbols $\wedge$, $\neg$, $\top$. 
-
-* The theory ZFC is usually described using a single-sorted relational signature with one binary relation $\in$. However, other approaches are possible: one can also describe ZFC with a relational symbol $\subseteq$ together with a unary function symbol $sing$ (to be interpreted as taking a 'set' $S$, i.e., an element of a ZFC structure, to a singleton 'set' $\{S\}$). 
-
-## Remarks 
-
-The multiplicity of ways in which one can describe essentially the same class of objects is a phenomenon which in higher category theory is often referred to as [[bias]]. Often one desires to use an 'unbiased' approach which includes different signatures under one roof and on the same footing. In the case of algebraic (equational) theories, this can be done using the device of clones or [[Lawvere theory|Lawvere theories]], which does not single out certain non-logical operations as 'privileged'. 
-
-There are several reasons though why one might prefer to retain some bias, for example: 
-
-* Tradition, familiarity, thus ease of reference. For example, a group _is_ a set equipped with a binary $m$, an unary $i$, and a constant $e$, rather than a set equipped with a single division operation, or a finite product-preserving functor for that matter. 
-
-* Mathematical intuition. That is, different signatures may invoke different intuitions or attitudes toward a subject; for example, "Boolean rings" may invoke a more algebraic or algebro-geometric attitude (as in [[Stone duality]]) whereas "Boolean algebras" may invoke a more logical attitude (propositional logic). 
-
-* Differences in logical strength. That is, first-order logic should be thought of as coming in layers, ranging from equational logic up to [[pretopos]] logic, and different signatures may need differing levels of logical strength for them to be interpreted as intended. Equational logic may be preferred on occasion because it is a very weak logic, whereas relational signatures often require at least the strength of regular categories for them to be interpreted correctly. 
-
-## The language of a signature
-
-Each signature $\Sigma$ generates a language whose elements are predicates formed by using $\Sigma$ as alphabet. In traditional logical syntax, this runs as follows: (to be filled in). 
-
-This can be recast in categorical terms as follows: the operational part of a signature $\Sigma$ is a span 
-
-$$S^* \leftarrow Func_\Sigma \to S$$ 
-
-which generates a multisorted Lawvere theory, $Law(Func_\Sigma)$. 
-
-Define 
-
-$$i: S^* \to Set: \vec{s} \mapsto \{R \in Rel(\Sigma): ar(R) = \vec{s}\}$$ 
-
-where $S^*$ is treated as a discrete category. Define an **interpretation** of $\Sigma$ to be an ordered pair 
-
-$$(M: Law(Func_\Sigma)^{op} \to Bool, \rho: i \to U M j)$$ 
-
-where $U: Bool \to Set$ is the underlying-set functor, $j: S^* \to Law(Func_\Sigma)^{op}$ is the obvious inclusion functor, $M$ is a functor whose values $M(f)$ on morphisms have left adjoints $\exists_f$ such that the Beck-Chevalley conditions are satisfied, and $\rho$ is a natural transformation. A **morphism** of interpretations $(M, \rho) \to (M', \rho')$ is a natural transformation $\phi: M \to M'$ commuting with the left adjoints, such that $\rho' = (U(\phi)j) \circ \rho$. 
-
-The **language** of $\Sigma$ is the initial interpretation. 
-
-(To be expanded upon and cleaned up...)
+[[!redirects signature (disambiguation)]]
