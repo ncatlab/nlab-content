@@ -65,6 +65,8 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
 
 * Shinji Tsujikawa, _Introductory review of cosmic inflation_,  lecture notes given at The Second Tah Poe School on Cosmology _Modern Cosmology_, Naresuan (2003) ([arXiv:hep-ph/0304257](http://arxiv.org/abs/hep-ph/0304257)).
 
+* Jerome Martin, Christophe Ringeval, Vincent Vennin, _Encyclopaedia Inflationaris_ ([arXiv:1303.3787](http://arxiv.org/abs/1303.3787))
+
 * Wikipedia, _[Inflation (cosmology)](http://en.wikipedia.org/wiki/Inflation_%28cosmology%29)_
 
 ### Original articles
