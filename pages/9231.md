@@ -1,5 +1,3 @@
-[[!redirects Gaussian probability distributions]]
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -11,27 +9,40 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
 A [[probability distribution]] on a [[Cartesian space]] $\mathbb{R}^n$ is called **Gaussian** or a **normal distribution** if it is of the form
 
 $$
-  \mu_S \;\colon\; \vec x \mapsto \frac{(2\pi)^{n/2}}{\sqrt{det A}} 
+  \mu_S \;\colon\; \vec x \mapsto \frac{\sqrt{det A}}{(2\pi)^{n/2}} 
   \exp\left(-\tfrac{1}{2} \left\langle \vec x , A \vec x\right\rangle\right)
-  d x^1 \wedge \cdots d x^n
+  \,d x^1 \cdots d x^n
   \,.
 $$
 
 where $A$ is some $n \times n$ [[matrix]] such that $\langle -, A-\rangle$ is a positive definite [[bilinear form]]. Here $\det A$ denotes the [[determinant]] and $\langle -,-\rangle$ is the canonical [[bilinear form]] on $\mathbb{R}^n$.
 
+Since $\sqrt{\det A}$ is the coordinate of the [[volume element]] $vol_A$ associated with $A$, we may equivalently write this as
+
+$$
+  \mu_S \;\colon\; \vec x \mapsto \frac{1}{(2\pi)^{n/2}} 
+  \exp\left(-\tfrac{1}{2} \left\langle \vec x , A \vec x\right\rangle\right)
+  \,vol_A  \,.
+$$
+
+The [[mean]] of this distribution is $\vec{0}$; for a distribution with mean $\vec{c}$, replace $\langle{\vec{x},A \vec{x}}\rangle$ with $\langle{\vec{x} - \vec{c},A \vec{x} - A \vec{c}}\rangle$.
+
+The matrix $A$ is the [[inverse matrix|inverse]] of the [[covariance matrix]].  In particular, for $n = 1$, we may write $x^2/\sigma^2$ (or $(x-c)^2/\sigma^2$ for mean $c$) in place of $\langle{\vec{x},A \vec{x}}\rangle$, where $\sigma$ is the [[standard deviation]].
+
+
 ## Related concepts
 
 * [[Feynman diagram]]
+
 
 [[!redirects Gaussian probability measure]]
 [[!redirects Gaussian probability measures]]
@@ -39,6 +50,8 @@ where $A$ is some $n \times n$ [[matrix]] such that $\langle -, A-\rangle$ is a 
 [[!redirects Gaussian distribution]]
 [[!redirects Gaussian distributions]]
 
+[[!redirects Gaussian probability distribution]]
+[[!redirects Gaussian probability distributions]]
+
 [[!redirects normal distribution]]
 [[!redirects normal distributions]]
-
