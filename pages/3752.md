@@ -196,8 +196,11 @@ Semicategories and semigroups are mentioned for instance in section 2 in
 
 Semicategories with an eye towards their generalization to [[semi-Segal spaces]] are briefly discussed at the beginning of 
 
-* [[Yonatan Harpaz]], _Quasi-unital $\infty$-Categories_ ([arXiv:1210.0212](http://arxiv.org/abs/1210.0212))
- {#Harpaz}
+* {#Harpaz} [[Yonatan Harpaz]], _Quasi-unital $\infty$-Categories_ ([arXiv:1210.0212](http://arxiv.org/abs/1210.0212))
+ 
+Structures obtained by further relaxing also the [[associativity]] law are discussed in 
+
+* Salvatore Tringali, _Plots and Their Applications - Part I: Foundations_  ([arXiv:1311.3524](http://arxiv.org/abs/1311.3524))
 
 [[!redirects semicategories]]
 
