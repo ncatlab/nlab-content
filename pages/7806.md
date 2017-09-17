@@ -1,0 +1,2 @@
+
+For $V$ a [[vector space]] over the [[real numbers]] or some other $\mathbb{R}$-[[module]], its _complexification_ is the [[tensor product]] over $\mathbb{R}$ with the [[complex numbers]] $\mathbb{C}$: the _[[extension of scalars]]_ along the canonical inclusion $\mathbb{R} \hookrightarrow \mathbb{C}$.
