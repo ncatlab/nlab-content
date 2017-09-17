@@ -55,26 +55,6 @@
     * [[orbifold]]
 
 
-### Examples
-
-* [[orthogonal group]]
-
-* [[spin group]]
-
-* [[string 2-group]]
-
-* [[fivebrane 6-group]]
-
-* [[Atiyah Lie groupoid]]
-
-* [[schreiber:path ∞-groupoid]]
-
-  * [[path groupoid]]
-
-  * [[path n-groupoid]]
-
-* [[principal ∞-bundle|smooth principal ∞-bundle]]
-
 
 ## ∞-Lie algebroids
 
@@ -93,25 +73,6 @@
 * [[Lie ∞-algebroid representation]]
 
 
-### Examples
-
-* [[string Lie 2-algebra]]
-
-* [[supergravity Lie 3-algebra]]
-
-* [[tangent Lie algebroid]]
-
-* [[Atiyah Lie algebroid]]
-
-* [[n-symplectic manifold]]
-
-  * [[symplectic manifold]]
-
-  * [[Poisson Lie algebroid]]
-
-  * [[Courant Lie algebroid]]
-
-    * [[generalized complex geometry]]
 
 ## Integration and differentiation
 
@@ -135,7 +96,54 @@
 
 * [[curvature characteristic form]]
 
+* [[Chern-Weil homomorphism]]
+
 * [[Chern-Simons form]]
+
+
+## Examples
+
+### $\infty$-Lie groupoids
+
+* [[orthogonal group]]
+
+* [[spin group]]
+
+* [[string 2-group]]
+
+* [[fivebrane 6-group]]
+
+* [[Atiyah Lie groupoid]]
+
+* [[schreiber:path ∞-groupoid]]
+
+  * [[path groupoid]]
+
+  * [[path n-groupoid]]
+
+* [[principal ∞-bundle|smooth principal ∞-bundle]]
+
+### $\infty$-Lie algebroids
+
+* [[string Lie 2-algebra]]
+
+* [[supergravity Lie 3-algebra]]
+
+* [[tangent Lie algebroid]]
+
+* [[Atiyah Lie algebroid]]
+
+* [[n-symplectic manifold]]
+
+  * [[symplectic manifold]]
+
+  * [[Poisson Lie algebroid]]
+
+  * [[Courant Lie algebroid]]
+
+    * [[generalized complex geometry]]
+
+
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Lie+theory+-+contents)</div>
