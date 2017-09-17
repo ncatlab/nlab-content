@@ -104,6 +104,8 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 
 * [[Emily Riehl]], _Algebraic model structures_, ([arXiv:0910.2733](http://arxiv.org/abs/0910.2733)).
 
+* [[Thomas Athorne]], _The coalgebraic structure of cell complexes_, [TAC](http://www.tac.mta.ca/tac/volumes/26/11/26-11abs.html)
+
 [[!redirects algebraic weak factorisation system]]
 [[!redirects natural weak factorisation system]]
 [[!redirects natural weak factorization system]]
