@@ -698,7 +698,7 @@ This implies the existence of $s_!$ and the fact that $X \to s^* s_! X$ is epi.
 
 Every [[topos]] $\mathcal{E}$ comes with its [[internal logic]]. From this internal perspective, the existence of extra external functors on $\mathcal{E}$ -- such as the $\Pi_0$ and the $coDisc$ on a cohesive topos -- is manifested by the existence of extra internal logical operators. These may be understood as _modalities_ equipping the internal logic with a structure of a [[modal logic]].
 
-For the case of [[local toposes]], of which cohesive toposes are a special case, this internal modal interpretation of the extra external functor $coDisc$ been noticed in ([AwodeyBirkedal, section 4.2](#AwodeyBirkedal)). (Beware that in that reference the symbols "$\flat$" and "#" are used precisely oppositely to their use here).
+For the case of [[local toposes]], of which cohesive toposes are a special case, this internal modal interpretation of the extra external functor $coDisc$ has been noticed in ([AwodeyBirkedal, section 4.2](#AwodeyBirkedal)). (Beware that in that reference the symbols "$\flat$" and "#" are used precisely oppositely to their use here).
 
 +-- {: .num_defn #DiscreteModality}
 ###### Definition
