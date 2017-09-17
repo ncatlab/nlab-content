@@ -122,7 +122,7 @@ in that for all $A \in \mathfrak{g}$ with  $b_0^- A = 0$ we have
 This is ([Zwiebach, (2.61)](#Zwiebach)).
 
 
-This satisfies for all $\Psi_1, \Psi_2$ of homogeneous degree the relation
+The inner product satisfies for all $\Psi_1, \Psi_2$ of homogeneous degree the relation
 
 \[
   \label{GradedSymmetryBilinearPairing}
@@ -134,6 +134,8 @@ This satisfies for all $\Psi_1, \Psi_2$ of homogeneous degree the relation
 
 ([Zwiebach, (2.50)](#Zwiebach)).
 
+
+Moreover, it is non-vanishing only on pairs of elements of total degree 5. ([Zwiebach, (2.31)(2.44)](#Zwiebach)).
 
 From this one constructs the $(n+1)$-point functions
 
@@ -230,7 +232,7 @@ This is ([Zwiebach, (4.12)](#Zwiebach)). For more details on the $L_\infty$-stru
 +-- {: .num_prop}
 ###### Proposition
 
-The inner product $\langle -,-\rangle$ is a non-degenerate [[invariant polynomial]] on this $L_\infty$-algebra. 
+The inner product $\langle -,-\rangle$ satisfies the definition of a non-degenerate [[invariant polynomial]] on this $L_\infty$-algebra when restricted to fields of even degree as in def. \ref{LabelConfigurationSpace}.
 
 =--
 
@@ -323,14 +325,11 @@ $$
      C_{a_0, a_1, \cdots, a_k}
      \,
      r^{a_0} \wedge r^{a_1} \wedge t^{a_2} \wedge \cdots \wedge t^{a_k}
-     \\
-     & = 
-     0
   \end{aligned}
   \,.
 $$
 
-Here the expressions vanish term-by-term due to the symmetry properties (eq:GradedSymmetrykPointFunction): by first switching the factors in the wedge product and then relabelling the indices we obtain
+This expression vanishes term-by-term by the symmetry properties (eq:GradedSymmetrykPointFunction) when restricted to fields of even degree: by first switching the factors in the wedge product and then relabelling the indices we obtain
 
 $$
   \begin{aligned}
@@ -352,11 +351,11 @@ $$
 
 where in the last step we used the constraints on degrees given by def. \ref{LabelConfigurationSpace}.
 
-This shows that $\langle-,-\rangle$ is an invariant polynomial. The non-degeneracy is due to (eq:NonDegeneracyOfInnerProduct).
+This shows that $\langle-,-\rangle$ satisfies the defining equation of an invariant polynomial on the proper configuration space. The non-degeneracy is due to (eq:NonDegeneracyOfInnerProduct).
 
 =--
 
-From the discussion at [[Chern-Simons element]] in the section [Canonical Chern-Simons element](http://ncatlab.org/nlab/show/Chern-Simons+element#CanonicalChernSimonsElement) we have that the [[Lagrangian]] of the [[schreiber:infinity-Chern-Simons theory]] defined by the data $(\mathfrak{g}, \langle \rangle)$ is
+From the discussion at [[Chern-Simons element]] in the section [Canonical Chern-Simons element](http://ncatlab.org/nlab/show/Chern-Simons+element#CanonicalChernSimonsElement) we have that the [[Lagrangian]] of the [[schreiber:infinity-Chern-Simons theory]] defined by the data $(\mathfrak{g}, \langle -,-\rangle)$ is
 
 $$
   L : A \mapsto 
@@ -367,7 +366,8 @@ $$
   \langle A , [A, \cdots , A]_k\rangle
 $$
 
-or $A$ a $\mathfrak{g}$-[[infinity-Lie algebroid valued differential form|valued differential form]] on some $\Sigma$. So the closed string field theory action looks like that of $\infty$-Chern-Simons theory over an odd-graded $\Sigma$.
+for $A$ a $\mathfrak{g}$-[[infinity-Lie algebroid valued differential form|valued differential form]] on some $\Sigma$. So the closed string field theory action looks like that of $\infty$-Chern-Simons theory over an odd-graded $\Sigma$.
+
 
 ## References
 
@@ -382,13 +382,29 @@ Original articles are
 * [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
   {#Zwiebach}
 
-Reviews and introductions include
+Brief reviews include
 
 * [[Barton Zwiebach]], _Closed String Field Theory: An Introduction_ ([arXiv:hep-th/9305026](http://arxiv.org/abs/hep-th/9305026))
 
+* Leonardo Rastelli, _String Field Theory_ in _Encyclopedia of Mathematical Physics_ ([arXiv:hep-th/0509129](http://arxiv.org/abs/hep-th/0509129))
+
+A textbook-like account is in
+
 * W. Siegel, _Introduction to string field theory_ ([arXiv:hep-th/0107094](http://arxiv.org/abs/hep-th/0107094))
 
+Further developments are in
+
+* [[Ashoke Sen]], [[Barton Zwiebach]], _Quantum Background Independence of Closed String Field Theory_ ([arXiv:hep-th/9311009](http://arxiv.org/abs/hep-th/9311009))
+
 ### Superstring field theory
+
+Original articles include
+
+* R. Saroja, [[Ashoke Sen]], _Picture Changing Operators in Closed Fermionic String Field Theory_ ([arXiv:hep-th/9202087](http://arxiv.org/abs/hep-th/9202087))
+
+* Yuji Okawa, [[Barton Zwiebach]], _Heterotic String Field Theory_ ([arXiv:hep-th/0406212](http://arxiv.org/abs/hep-th/0406212))
+
+Reviews include
 
 * [[Nathan Berkovits]], _Review of open superstring field theory_ , ([arXiv:hep-th/0105230](http://arxiv.org/abs/hep-th/0105230))
 
