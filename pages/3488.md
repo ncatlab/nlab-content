@@ -163,6 +163,33 @@ In the literature this statement is known somewhat implicitly in slightly weaker
   and the definition before that states essentially what the above proposition states at the level of [[homotopy category|homotopy categories]]: it asserts that if $C$ has contractible objects, that then there exists a left adjoint $Ho(\Pi):Ho(Sh_{(\infty,1)}(C)) \to Ho(\infty Grpd)$. They also give the explicit formula which is stated at [[schreiber:homotopy ∞-groupoid]].
 
 
+### Properties {#LocInfConnProperties}
+
++-- {: .un_prop}
+###### Observation
+
+For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos, also all its objects $X \in \mathbf{H}$ are locally $\infty$-connected, in that their [[petit topos|petit]] [[over quasi-category|over-(∞,1)-toposes]] $\mathbf{H}/X$ are locally $\infty$-connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general facts recalled at [[etale geometric morphism]] we have an [[essential geometric morphism]]
+
+$$
+  (\Pi \circ \pi_! \dashv \pi^*\circ L Const \dashv \Gamma \circ \pi_*) : 
+  \mathbf{H}_{/X}
+   \stackrel{\overset{\pi_!}{\to}}{\stackrel{\overset{\pi^*}{\leftarrow}}{\underset{\pi_*}{\to}}}
+  \mathbf{H}
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{\L Const}{\leftarrow}}{\underset{\Gamma}{\to}}}  
+   \infty Grpd
+  \,.
+$$
+
+=--
+
+
 ### Further structures
 
 The fact that the terminal geometric morphism is essential gives rise to various induced structures of interest. For instance it induces a notion of 
