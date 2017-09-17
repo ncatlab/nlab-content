@@ -664,7 +664,7 @@ $$
   \;\;\;\;
   \left(
     \array{  
-       r^a  =& d t^a + \frac{1}{2}C^a{}_{b c} t^b \wedge t^c + 
+       r^a  =& d t^a + \frac{1}{2}C^a{}_{b c} t^b \wedge t^c 
        \\
        h = & d b + cs - c     
        \\
