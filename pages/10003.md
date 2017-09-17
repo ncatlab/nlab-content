@@ -1,0 +1,9 @@
+[[!redirects homotopy fixed points]]
+
+[[invariants]] in [[homotopy theory]].
+
+For the moment see at
+
+* [Invariants -- For infinity-group actions](invariant#ForInfinityGroupActions)
+
+* [Infinity-action -- Invariants](infinity-action#Invariants)
