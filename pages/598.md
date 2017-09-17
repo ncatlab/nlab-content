@@ -149,7 +149,7 @@ $$
   \array{
     P_\bullet &\to& *
     \\
-    \downarrow &swArrow& \downarrow
+    \downarrow &\swArrow& \downarrow
     \\
     X_\bullet &\to& \mathbf{B}G
   }
@@ -389,8 +389,21 @@ with face and degeneracy maps
 
 =--
 
+#### References
 
+Here are some pointers on where precisely the above statements can be found in
 
+* [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
+
+There the abbreviation PCTP ( _principal twisted cartesian product_ ) is used for what above we called just [[twisted Cartesian product]]s.
+
+The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting function]] $\phi$ arises as the pullback of $W G \to \overline{W}G$ along a morphjism of simplicial sets $X \to \overline{W}G$ can be found there by combining
+
+1. the last sentence on p. 81 which asserts that pullbacks of PTCPs $X \times_\phi G \to X$ along morphisms of simplicial sets $f : Y \to X$ yield PTCPs corresponding to the composite of $f$ with $\phi$;
+
+1. section 21 which establishes that $W G \to \bar W G$ is the PTCP for some universal twisting function $r(G)$.
+
+1. lemma 21.9 states in the language of composites of twisting functions that every PTCP comes from composing a cocycle $Y \to \bar W G$ with the universal twisting function $r(G)$. In view of the relation to pullbacks in item 1, this yields the statement in the form we stated it above.
 
 
 ## References 
@@ -399,21 +412,22 @@ A standard reference for the case of _abelian_ simplicial groups is [chapter 5](
 
 * Goerss-Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
-Section 1.3.3 of
+Also chapter IV of
 
-* [[Tim Porter]], [[Tim Porter:crossed menagerie|The Crossed Menagerie]] 
+* [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
 
-discusses simplicial groups in the context of [[nonabelian algebraic topology]].
-
-The algorithm for finding the horn fillers in a simplicial group is given in the proof of
-
-theorem 17.1, page 67 of
-
-* [[Peter May]], _Simplicial Objects in Algebraic Topology_ .
-
-The theorem that every simplicial group is a Kan complex is originally due to
+The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. This is originally due to
 
 * J. C. Moore, _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
+
+In fact, it seems that this is the origin of the very notion of [[Kan complex]].
+
+
+Section 1.3.3 of
+
+* [[Tim Porter]], _[[Tim Porter:crossed menagerie|The Crossed Menagerie]]_ 
+
+discusses simplicial groups in the context of [[nonabelian algebraic topology]].
 
 
 [[!redirects simplicial groups]]
