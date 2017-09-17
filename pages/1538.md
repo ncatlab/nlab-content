@@ -152,7 +152,7 @@ $$
 
 =--
 
-This means that the [[transgression]] of the Dijkgraaf-witten background field
+This means that the [[transgression]] of the Dijkgraaf-Witten background field
 
 $$
   \alpha : \mathbf{B}G \to \mathbf{B}^n U(1)
@@ -202,7 +202,7 @@ If $X_{n-k}$ is closed then the $k$-vector spaces associated by the TFT to $X_{n
 
 ## Relation to Chern-Simons theory
 
-Dijkgraaf-Witten theiry is to be thought of as the finite group version of [[Chern-Simons theory]]. Chern-Simons theory looks formally just as the above, only that all finite $n$-groupoids appearing here are replaced by [[Lie ∞-groupoid]]s ([[∞-stack]]s on [[CartSp]]).
+Dijkgraaf-Witten theory is to be thought of as the finite group version of [[Chern-Simons theory]]. Chern-Simons theory looks formally just as the above, only that all finite $n$-groupoids appearing here are replaced by [[Lie ∞-groupoid]]s ([[∞-stack]]s on [[CartSp]]).
 
 ## References
 
