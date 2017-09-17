@@ -135,3 +135,12 @@ with identity unit.  It is clear, too, that the morphism $i \colon p \to B/p$ as
 
 *  Mark Weber, Yoneda structure from 2-toposes.  _Applied Categorical Structures_ 15:259--323 (2007).
 
+[[!redirects fibrations in a 2-category]]
+[[!redirects fibrations in 2-categories]]
+[[!redirects internal fibration]]
+[[!redirects internal fibrations]]
+[[!redirects opfibration in a 2-category]]
+[[!redirects opfibrations in a 2-category]]
+[[!redirects opfibrations in 2-categories]]
+[[!redirects internal opfibration]]
+[[!redirects internal opfibrations]]
