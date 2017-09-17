@@ -141,9 +141,36 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ## Appendix 1. Hopf Algebras and Hopf Algebroids 
 
+### 1. Basic definitions
+
 * [[Hopf algebra]]
 
 * [[Hopf algebroid]]
+
+* [[module]], [[comodule]]
+
+### 2. Homological algebra
+
+* [[derived functor]]
+
+* [[Ext]] for [[comodules]]
+
+
+### 3. Some spectral sequences
+
+* [[spectral sequence]]
+
+* [[Cartan-Eilenberg spectral sequence]]
+
+
+### 4. Massey products
+
+* [[Massey product]]
+
+
+### 5. Algebraic Steenrod operations
+
+* [[Steenrod algebra]] on co[[Tor]]-groups of [[comodules]] over [[Hopf algebroids]]
 
 ## Appendix 2. Formal Group Laws
 
