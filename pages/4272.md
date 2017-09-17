@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
 #### AQFT
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
@@ -14,8 +18,11 @@
 =--
 
 
+
+
+
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
