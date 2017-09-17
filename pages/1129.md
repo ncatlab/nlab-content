@@ -228,14 +228,9 @@ $$f''(r x + y) = k(r) + g(y)$$
 is well-defined and extends $f'$, as desired. 
 =-- 
 
-+-- {: .num_cor}
++-- {: .num_corollary #DirectSumInjectives}
 ###### Corollary
-{#DirectSumInjectives} 
-
-Assume that the [[axiom of choice]] holds.
-
-Let $R$ be a [[Noetherian ring]], and let $\{Q_j\}_{j \in J}$ be a collection of [[injective modules]] over $R$. Then the [[direct sum]] $Q = \bigoplus_{j \in J} Q_j$ is also injective. 
-
+(Assume that the [[axiom of choice]] holds.) Let $R$ be a [[Noetherian ring]], and let $\{Q_j\}_{j \in J}$ be a collection of [[injective modules]] over $R$. Then the [[direct sum]] $Q = \bigoplus_{j \in J} Q_j$ is also injective. 
 =-- 
 
 +-- {: .proof}
