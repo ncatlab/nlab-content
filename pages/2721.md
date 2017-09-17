@@ -143,16 +143,17 @@ Therefore $cs_1 \wedge P_1$ exhibits a horizontal equivalence $P_1 \wedge P_2 \s
 
 =--
 
-+-- {: .num_defn}
-###### Definition
 
-We write $inv(\mathfrak{g})$ for the graded algebra of horizontal-equivalence classes of invariant polynomials of $\mathfrak{g}$, When regarded as a [[dg-algebra]] with trivial differential there is a dg-algebra homomorphism
++-- {: .num_prop #ClassesOfInvPolysFormGradedVectorSpace}
+###### Observation
+
+Horizontal equivalence classes of invariant polynomials on $\mathfrak{g}$ form a [[graded vector space]] $inv(\mathfrak{g})_V$. There is a morphism of graded vector spaces
 
 $$
-  inv(g) \to W(g)
+  inv(\mathfrak{g})_V \hookrightarrow W(\mathfrak{g})
 $$
 
-that includes for each class one representative into the Weil algebra.
+unique up to horizontal equivalence, that sends each horizontal equivalence class to a representative.
 
 =--
 
@@ -160,9 +161,26 @@ that includes for each class one representative into the Weil algebra.
 ###### Remark
 
 By prop. \ref{DecomposablePolysAreHorizontallyTrivial} it follows that 
-$inv(\mathfrak{g})$ is generated from indecomposable invariant polynomials.
+$inv(\mathfrak{g})_V$ contains only indecomposable invariant polynomials.
 
 =--
+
+
++-- {: .num_defn}
+###### Definition
+
+We write $inv(\mathfrak{g})$ for the [[dg-algebra]] whose underlying [[graded algebra]] is the [[free construction|free]] graded algebra on the [[graded vector space]] $inv(\mathfrak{g})_V$, and whose [[differential]] is trivial.
+
+Since invariant polynomials are closed, the inclusion of graded vector spaces from observation \ref{ClassesOfInvPolysFormGradedVectorSpace} induces an inclusion of dg-algebras
+
+$$
+  inv(g) \hookrightarrow W(g)
+  \,.
+$$
+
+
+=--
+
 
 
 ## Role in $\infty$-Chern-Weil theory
