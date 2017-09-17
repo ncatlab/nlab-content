@@ -1,13 +1,12 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea
 
-It would be nice to write something here, but most mathematicians know what a differential equation is and most physicists use them regularly.  See [Wikipedia](http://en.wikipedia.org/wiki/Differential_equation).
-
+A _differential equation_ is an [[equation]] involving [[terms]] that are [[derivatives]].
 
 ## As sub-$\infty$-groupoids of tangent and jet bundle
 
@@ -125,9 +124,12 @@ In this diagram now
     \,.
   $$
 
-***********************
 
-* Yves Andre, _Solution algebras of differential equations and quasi-homogeneous varieties_, [pdf](http://arxiv.org/abs/1107.1179)
+## References
+
+> Lots of references to go here
+
+* Yves Andre, _Solution algebras of differential equations and quasi-homogeneous varieties_, ([arXiv:1107.1179](http://arxiv.org/abs/1107.1179))
 
 
 [[!redirects differential equations]]
