@@ -43,13 +43,13 @@ Recall that one says $p$ **[[split idempotent|splits]]** if there exists an obje
 
 There is a [[reflective subcategory|universal functor]] from the category of (say, small) [[preadditive categories]] to the category of Karoubian categories, the __[[Karoubinization functor]]__; its value on a preadditive category $C$ is also called the __[[Karoubian envelope]]__ or the __[[pseudo-abelian completion]]__ of $C$. 
 
-More in detail, there exists a Karoubian category $kar(C)$ associated to any category $C$, and a fully faithful functor $\varphi : C \to kar(C)$, which is [[universal property | universal]] in the sense that for any Karoubian category $C'$, the functor
+In more detail, there exists a Karoubian category $kar(C)$ associated to any category $C$, and a fully faithful functor $\varphi : C \to kar(C)$, which is [[universal property | universal]] in the sense that for any Karoubian category $C'$, the functor
 
 $$\underline{Hom}(kar(C), C') \to \underline{Hom}(C, C')$$
 
 taking a functor $F : kar(C) \to C'$ to the composite $F \circ \varphi$ is an [[equivalence]] of categories.  $kar(C)$ is called the **[[Karoubi envelope]]** of $C$ (aka the _[[Cauchy completion]]_, or the _[[idempotent-splitting completion]]_).  It can be realized explicitly by taking as objects pairs $(X, p)$, with $p$ idempotent, and as morphisms $(X, p) \to (Y, q)$ the morphisms $f : X \to Y$ that satisfy $f = q \circ f \circ p$.
 
-## Exampls
+## Examples
 
 The requirement that, say, a [[dg-category]] or a [[triangulated category]] be Karoubian is a natural requirement in a number of contexts. 
 
