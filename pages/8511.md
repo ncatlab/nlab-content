@@ -57,5 +57,11 @@ Discussion in a general context of [[projective resolutions]] in [[homological a
  {#Schapira}
 
 
+A useful source that discusses the use of syzygies in algebraic geometry, 
+
+
+* [[D.Eisenbud]], _The Geometry of Syzygies_, Graduate Texts in Mathematics, vol. 229, Springer, 2005. 
+
+
 [[!redirects syzygies]]
 
