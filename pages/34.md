@@ -151,7 +151,7 @@ A brief useful survey of approaches to the definition of higher categories is pr
 
 The theory of [[quasi-categories]] as [[(∞,1)-categories]] has reached a point where it is well developed and being applied to a wealth of problems with
 
-* [[Jacob Lurie]], [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
 
 
