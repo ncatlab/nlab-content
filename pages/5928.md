@@ -19,12 +19,12 @@ A family of morphisms $\{Spec A_i \to Spec R\}$ in $CRing^{op}$ is a Zariski-[[c
 * each ring $A_i$ is the [[localization]]
 
   $$
-    A_i = R[s_i^{-1}]
+    A_i = R[r_i^{-1}]
   $$
 
   of $R$ at a single element $r_i \in R$ 
 
-* $Spec A_i \to Spec R$ is the canonical inclusion, dual to the canonical ring homomorphism $R \to R[s_i^{-1}]$;
+* $Spec A_i \to Spec R$ is the canonical inclusion, dual to the canonical ring homomorphism $R \to R[r_i^{-1}]$;
 
 * There exists $\{f_i \in R\}$ such that
 
