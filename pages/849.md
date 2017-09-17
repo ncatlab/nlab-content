@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 In a [[closed category]] $C$ (for instance a [[closed monoidal category]]) for any two objects $X,Y$ there is an object $hom(X,Y)$ representing the collection of morphisms from $X$ to $Y$. This is called the **internal hom**, expressing the idea that this the perspective on the collection of morphisms from $X$ to $Y$ from the inside of $C$.
 
 You can distinguish this from the external [[hom-set]] $Hom(x,y)$; however, every closed category comes equipped with a functor to [[Set]] (although it need not be [[faithful functor|faithful]]) and the external hom is the underlying set of the internal hom.  To be explicit, if $I$ is the [[unit object]] of the closed category $C$, then
@@ -8,11 +15,11 @@ naturally.  The rightward map here is often called __currying__, especially in a
 
 Every closed category may be seen as a category [[enriched category|enriched]] over itself.  Accordingly, an internal hom is a special case of a [[hom-object]].
 
-## Examples of internal homs
+## Examples
 
-The following examples are meant to illustrate the concept of an 'internal hom', hopefully showing the utility of the concept.
 
-### Internal hom for super vector spaces
+### For super vector spaces
+
 The category $SVect$ of [[super vector space]]s has objects $\mathbb{Z}/2$-[[graded vector space]]s with morphisms being _even_ linear maps between them (linear maps which send even things to even things and odd things to odd things):
 $$
  Hom_SVect (V, W) = Even Lin(V,W).
@@ -23,7 +30,8 @@ $$
 $$
 Note that $hom_{SVect}$ is indeed a super vector space, with the even elements being those maps which preserve the grading and the odd elements being those which change it. One uses this definition to turn SVect into a [[closed monoidal category]]. 
 
-### Internal hom for Banach spaces
+### For Banach spaces
+
 A similar thing happens in the category $Ban$ of [[Banach space]]s.  The external hom consists of only the linear maps bounded by $1$:
 $$ Hom_Ban(V,W) = \{ f: Lin(V,W) \;|\; \|f\| \leq 1 \} .$$
 This definition of morphism recovers the proper notion of [[isomorphism]] of Banach spaces, as well as defining the [[product]] and [[coproduct]] as the [[direct sum]] completed with $p = \infty$ or $p = 1$ respectively.
@@ -31,6 +39,12 @@ This definition of morphism recovers the proper notion of [[isomorphism]] of Ban
 But the internal hom is the Banach space of all bounded linear maps:
 $$ hom_Ban(V,W) = \{ f: Lin(V,W) \;|\; \|f\| \lt \infty \} .$$
 This is a Banach space and makes $Ban$ into a [[closed category]].
+
+### For smooth spaces
+
+See
+
+* [[manifold structure of mapping spaces]].
 
 ## Discussion
 
