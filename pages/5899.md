@@ -43,7 +43,7 @@ $$
 }
 $$
 
-where the horizontal arrows are the natural bijections given by the adjunctions. [Eilenberg and Moore](#EilenbergMoore) would write $\phi\dashv\psi$ and talk about "adjointness for morphisms" (of functors), which is of course relative to the given adjunctions among functors. MacLane calls the correspondence *conjugation* ([[Categories for Working Mathematician]], 99-102).  The Australian category theory school calls it the [[mate]] correspondence.
+where the horizontal arrows are the natural bijections given by the adjunctions. [Eilenberg and Moore](#EilenbergMoore) would write $\phi\dashv\psi$ and talk about "adjointness for morphisms" (of functors), which is of course relative to the given adjunctions among functors. MacLane calls the correspondence *conjugation* ([[Categories for Working Mathematician]], 99-102).  It is a special case, of a general construction of [[mate]]s, in terminology of Australian category school. 
 
 If $\eta,\eta'$ and $\epsilon,\epsilon'$ are their 
 [[unit of an adjunction|unit]] and counit of course the upper arrow is $(S M\stackrel{f}\to N)\mapsto Tf\circ \eta_M$ and the lower arrow $(S'M\stackrel{g}\to N)\mapsto T'g\circ\eta'_M$. Thus the condition renders as 
@@ -88,7 +88,9 @@ $$
 
 equal to the dual $(\beta\circ\alpha)^*$ of $\beta\circ\alpha$,
 
-*Proof*. We need to prove that the composition
+*Proof*. [[Mike Shulman]] notices that this is a special case of known contravariant functoriality of [[mate]]s, but here is a direct proof.
+
+We need to prove that the composition
 
 $$
 G^s\stackrel{\eta_l G^s}\to G^l T^l G^s\stackrel{G^l\beta G^s}\to G^l T^s G^s\stackrel{G^l \epsilon_s}\to G^l\stackrel{\eta_k G^l}\to G^k T^k G^l\stackrel{G^k\alpha G^l}\to G^k T^l G^l\stackrel{G^k\epsilon_l}\to G^k 
