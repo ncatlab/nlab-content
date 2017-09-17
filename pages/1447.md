@@ -653,6 +653,20 @@ $$
 
 There is a [[factorization system on a 2-category|factorization system]] on the [[2-category]] [[Topos]] whose left class is the [[surjective geometric morphisms]] and whose right class is the geometric embeddings.  The factorization of a geometric morphism can be said to construct its [[image]] in the topos-theoretic sense.
 
+
+## Related concepts
+
+In the more general context of [[(∞,1)-topos theory]] an **$(\infty,1)$-geometric embedding** is an [[(∞,1)-geometric morphism]]
+
+$$
+  (f^* \dashv f_*) : \mathcal{X} \stackrel{\leftarrow}{\hookrightarrow}
+   \mathcal{Y}
+$$
+
+such that the [[right adjoint]] [[direct image]] $f_*$ is a [[full and faithful (∞,1)-functor]].
+
+See [[reflective sub-(∞,1)-category]] for more details.
+
 ## References
 
 section VII, 4 of 
@@ -661,3 +675,6 @@ section VII, 4 of
 {#MacLaneMoerdijk}
 
 [[!redirects geometric embeddings]]
+
+[[!redirects (∞,1)-geometric embedding]]
+[[!redirects (infinity,1)-geometric embedding]]
