@@ -1175,6 +1175,9 @@ and hence $0 \to F(A) \to F(B) \to F(C) \to $ is a short exact sequence itself p
 For further discussion along these lines see at _[[derived functor in homological algebra]]_.
 
 ### Derived Hom-functor / $Ext$-functor
+ {#DerivedHomFunctor}
+
+We discuss the use of projective resolutions in the computation of [[Ext]]-functors and [[group extensions]].
 
 +-- {: .num_defn #Extensions}
 ###### Definition
@@ -1258,9 +1261,45 @@ $$
   \,.
 $$
 
-By the commutativity of the top square, the morphism $c$ is 1-[[cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$. By prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} any other choice $\tilde c$ fitting into such a commuting diagram is related by a [[chain homotopy]] to $c$, and hence, hence differs by a [[coboundary]] in $Hom(Y_\bullet,N)$. Therefore the above map is well defined.
+By the commutativity of the top square, the morphism $c$ is 1-[[cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$. By prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} any other choice $\tilde c$ fitting into such a commuting diagram is related by a [[chain homotopy]] to $c$.
+
+$$
+  \array{
+     Y_2 &\to& 0 
+     \\
+     \downarrow^{\mathrlap{\partial_1^{Y}}} &\nearrow_{\eta_1 = 0}& \downarrow
+     \\
+     Y_1 &\stackrel{c - \tilde c}{\to}& A
+     \\
+     \downarrow^{\mathrlap{\partial_0^Y}} &\nearrow_{\eta_0}& \downarrow
+     \\
+     Y_0 &\to& \hat G
+     \\
+     \downarrow &\nearrow_{}& \downarrow
+     \\
+     G &\to& G
+  }
+  \,.
+$$
+
+The chain homotopy condition here says that 
+
+$$
+  c - \tilde c = \eta_0 \circ \partial^{Y}_0 
+$$
+
+and hence that in $Hom(Y_\bullet,N)$ we have that $d \eta_0 = c - \tilde c$ is a [[coboundary]]. Therefore for the given choice of resolution $Y_\bullet$ we have obtained a well-defined map
+
+$$
+  Ext(G,A) \to Ext^1(G,A)
+  \,.
+$$
+
+If now $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective resolution, with respect to which we define such a map as above, then lifting the identity map on $G$ to a chain map between these resolutions in both directions, by prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms}, establishes an isomorphism between the resulting maps, and hence the construction is independent also of the choice of resolution.
 
 =--
+
+(...)
 
 
 ### Relation to syzygies
