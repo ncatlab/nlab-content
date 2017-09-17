@@ -23,7 +23,7 @@
 
 Where an ordinary [[manifold]] is a [[space]] locally modeled on [[Cartesian spaces]], an _orbifold_ is, more generally, a [[space]] that is locally modeled on [[Lie groupoid|smooth]] [[action groupoids]] (="stack quotients") of a [[finite group]] [[action|acting]] on a [[Cartesian space]].
 
-This turns out to be equivalent ([Moerdijk](#Moerdijk), [Mordijk-Pronk](#MoerdijkPronk)) to saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
+This turns out to be equivalent ([Moerdijk](#Moerdijk), [Moerdijk-Pronk](#MoerdijkPronk)) to saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
 The word _orbifold_ was invented in ([Thurston 1992](#Thurston)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the actions of finite groups on the charts are always effective. Nowdays we call such orbifolds _effective_ and those which are global quotients by a finite group _global quotient orbifolds_.  
 
