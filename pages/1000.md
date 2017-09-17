@@ -1,12 +1,25 @@
-A [[monad]] $(T,\mu,i)$ on the category of sets, is __finitary__ (also called __algebraic__, although some people consider any monad to be an algebraic notion) if the underlying endofunctor $T:\mathrm{Set}\to\mathrm{Set}$ commutes with [[filtered colimits]]. In other words, an algebraic monad is a monoid in the category of algebraic endofunctors on $\mathrm{Set}$.
 
-A finitary monad $(T,\mu,i)$ is completely determined by its value on all finite ordinals $n\in\mathbb{N}_0$ considered as standard [[finite set]]s.  $T(n)$ is then the set of $n$-ary operations.  The notion of algebraic monad is hence similar to the notion of a nonsymmetric [[operad]] in $\mathrm{Set}$, but it is not equivalent, because of the possibility of duplicating or discarding inputs.
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-More precisely, each finitary monad $T$ defines a [[Lawvere theory]] $Th_T$, namely $Th_T = Free_{fin}^{op}$ where $Free_{fin}$ is the category of free algebras $T(n)$ on finite sets (as a full subcategory of $Alg_T$). In fact, the two notions are equivalent: the assignment 
+## Definition
+
+A [[monad]] $(T,\mu,i)$ on the category [[Set]] of sets, is __finitary__ (also called __algebraic__, although some people consider any monad to be an algebraic notion) if the underlying [[endofunctor]] $T:\mathrm{Set}\to\mathrm{Set}$ commutes with [[filtered colimits]]. 
+
+In other words, an algebraic monad is a [[monoid]] in the category of algebraic endofunctors on $\mathrm{Set}$.
+
+## Properties
+
+A finitary monad $(T,\mu,i)$ is completely determined by its value on all finite [[ordinal]]s $n\in\mathbb{N}_0$ considered as standard [[finite set]]s.  $T(n)$ is then the set of $n$-ary operations.  The notion of algebraic monad is hence similar to the notion of a nonsymmetric [[operad]] in $\mathrm{Set}$, but it is not equivalent, because of the possibility of duplicating or discarding inputs.
+
+More precisely, each finitary monad $T$ defines a [[Lawvere theory]] $Th_T$, namely $Th_T = Free_{fin}^{op}$ where $Free_{fin}$ is the category of [[free construction|free]] algebras $T(n)$ on finite sets (as a full subcategory of $Alg_T$). In fact, the two notions are equivalent: the assignment 
 
 $$T \mapsto Th_T$$
 
-defines an equivalence between the category of finitary monads on $Set$ and the category of Lawvere theories. Moreover, the category of $T$-algebras is equivalent to the category of models of $Th_T$. However, a technical advantage of Lawvere theories is that they can be interpreted in categories other than [[Set]]: a model of a Lawvere theory $\mathcal{T}$ in a category with cartesian products $C$ is just a product-preserving functor $\mathcal{T} \to C$. 
+defines an equivalence between the category of finitary monads on $Set$ and the category of Lawvere theories. Moreover, the category of $T$-algebras is equivalent to the [[category of models]] of $Th_T$. However, a technical advantage of Lawvere theories is that they can be interpreted in categories other than [[Set]]: a model of a Lawvere theory $\mathcal{T}$ in a category with cartesian products $C$ is just a product-preserving functor $\mathcal{T} \to C$. 
+
+## Applications
 
 There is an interesting commutativity condition singling out the subclass of commutative algebraic/finitary monads, cf. [[commutative algebraic theory]]; they are useful to establish a theory of [[generalized scheme after Durov|generalized commutative schemes]]. 
 
