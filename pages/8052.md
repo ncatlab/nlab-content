@@ -1,1 +1,9 @@
-* [Wikipedia page](http://en.wikipedia.org/wiki/Excision_theorem)
+
+## Related entries
+
+* [[Blakers-Massey theorem]]
+
+## References
+
+* Wikipedia, _[Excision](http://en.wikipedia.org/wiki/Excision_theorem)_
+
