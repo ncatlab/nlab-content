@@ -1,4 +1,4 @@
-The cohomology of (small) categories went through several preliminary stages before the major publication by Baues and Wirshing.  The actual method and ideas that they use can be found earlier in an unpublished document by Charles Wells from 1979. (A version of that is available [here](http://www.cwru.edu/artsci/math/wells/pub/pdf/catext.pdf).) The paper traces the theory back to Leech earlier in the 1970s for the related situation of semigroup cohomology.
+The cohomology of (small) categories went through several preliminary stages before the major publication by Baues and Wirshing.  The actual method and ideas that they use can be found earlier in an unpublished document by Charles Wells from 1979. (A version of that is available [here](http://www.cwru.edu/artsci/math/wells/pub/pdf/catext.pdf).) The paper traces the theory back to Leech earlier in the 1970s for the related situation of semigroup cohomology. It handles non-Abelian coefficients as well as the Abelian ones the Baues and Wirsching use.
 
 
 
