@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[perturbation theory]] (in [[QFT]]) a _tachyon_ is an excitation/[[particle]] with _negative [[mass]] squared_, hence technically with [[imaginary number|imaginary]] mass.
+
+Since the masses of particles in [[perturbation theory]] give the second derivative of the background potential energy at the point about which the [[perturbation series]] is developed, a tachyon in the spectrum indicates that the [[perturbation theory]] is set up about an _unstable_ [[vacuum]].
+
+## Examples
+
+### In bosonic string theory
+
+The excitation of the [[open string]] in [[bosonic string theory]] famously contains a tachyon mode. By [[Sen's conjecture]] this indicates the instability of the space-filling [[D25-brane]] on which the ends of the open bosonic string propagate. Using [[string field theory]] to get a [[non-perturbative field theory|non-perturbative]] description of the situation one can follow the decay of the [[D25-brane]] to the "true" (stable) [[bosonic string theory]] [[vacuum]]. See at _[[Sen's conjecture]]_ for more.
+
+### In superstring theory
+
+Similarly in [[superstring theory]] [[open string]] states between [[brane]]/[[anti-brane]] pairs can be tachyonic, signallying the decay of these brane configurations.
+
+(...)
+
+## Related concepts
+
+* [[field (physics)]]
+
+* [[vacuum]], [[false vacuum]]
+
+* [[inflaton field]]
+
+## References
+
+* Wikipedia, _[Tachyon](http://en.wikipedia.org/wiki/Tachyon)_
+
+[[!redirects tachyons]]
+
+[[!redirects tachyon field]]
+[[!redirects tachyon fields]]
