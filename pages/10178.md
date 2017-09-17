@@ -476,31 +476,79 @@ $$
 ### 2. Cohomological quantization
  {#ExpositionCohomologicalQuantization}
 
+So to quantize a [[local prequantum field theory]] $\exp(i S) \,d\mu$ as above we need to
 
-The _linearization_ which encodes
-the [[superposition principle]] in [[quantum mechanics]]
-is encoded by the canonical embedding
+1. choose a linearization, given by 
+
+   1. a choice of ground [[E-∞ ring]] $E$ (playing the role of the [[complex numbers]] in plain [[quantum mechanics]]);
+
+   1. a choice of [[∞-group]] homomorphism
+
+      $$
+        \mathbf{B}^{n-1}U(1) \to GL_1(E)
+      $$
+
+      from the [[∞-group]] of [[phase and phase space in physics|phases]] to the [[∞-group of units]] of $E$ (playing the role of the canonical $U(1) \hookrightarrow \mathbb{C}^\times$ in plain [[quantum mechanics]])
+
+1. [[fiber integration in generalized cohomology|integrate]] $\exp(i S ) \,d\mu$ over $\mathbf{Fields}$ in $E$-modules (playing the role of the [[path integral]] in plain [[quantum mechanics]]).
+
+While traditionally the definition of [[path integral]] is notoriously elusive, here we make use of general abstract but basic facts of [[higher linear algebra]] in a _[[tensor (∞,1)-category]]_ (a [[stable (∞,1)-category|stable]] and [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category]]): the simple basic ide is that
+
+**Cohomological integration**
+
+1. _Fiber integration of $E$-modules along a map is forming the [[dual morphisms]]_ of pulling back $E$-modules.
+
+1. The choice of _measure_ against which one integrates is the choice of identification of [[dual objects]].
+
+The basic example to think of is integration in [[ordinary cohomology]] via [[Poincaré duality]]:
+
+For $R$ a [[commutative ring]], write $E = H R$ for its [[Eilenberg-MacLane spectrum]]. Then for $X$ a manifold, the [[mapping spectrum]] 
 
 $$
-  U(1) \hookrightarrow GL_1(\mathbb{C})
-$$ 
-
-of the [[circle group]] into the [[group of units]]
-of the standard [[ground ring]], which is the [[complex numbers]]. 
-Using this, the traditional [[path integral]] is supposed to
-
-* add up the values of the [[action functionals]] $\exp(i S(\phi)) \in U(1) \hookrightarrow GL_1(\mathbb{C}) \hookrightarrow \mathbb{C} Mod = Vect_{\mathbb{C}}$ as $\phi$ ranges over the space of fields (trajectories)
-
-* to produce an [[linear map]], hence a morphism $\mathbb{C} Mod \to \mathbb{C}Mod$ of [[module]].
-
-Since here in higher/[[local prequantum field theory]] the 
-standard [[ground ring]] $\mathbb{C}$ is replaced by a "group [[E-∞ ring]]" $E$, and $U(1)$ is replaced by the [[circle n-group]] $\mathbf{B}^{n-1}U(1)$, we are to encode the linearization by a morphism of [[∞-groups]]
-
-$$
-  \mathbf{B}^{n-1}U(1) \to GL_1(E)
+  H R^\bullet(X)
+  \coloneqq
+  [X,H R]
 $$
 
-into the [[∞-group of units]] of the base [[E-∞ ring]].
+is the [[ordinary cohomology]] of $X$, its dual the [[ordinary homology]], with [[coefficients]] in $R$.
+
+For $X$ a [[closed manifold]], [[Poincaré duality]] asserts that  $H R^\bullet(X) \in H R Mod$ is essentially a self-[[dual object]], except for a shift in degree: a choice of [[orientation]] of $X$ induces an [[equivalence]]
+
+$$
+  H R^\bullet\left(X\right)
+    \underoverset{\sim}{PD_X}{\to} 
+  \left( 
+   H R^{\bullet+ dim(X)}\left(X\right)\right)^\ast 
+  \simeq
+  H R_{\bullet + dim(X)}\left(X\right)
+  \,.
+$$
+
+Using this, for $f \colon X \to Y$ a map of [[closed manifolds]] of [[dimension]] $d$, a compatible choice of [[orientation]] of both $X$ and $Y$ induces from the canonical push-forward map $f_\ast$ on homology the [[Umkehr map]]/push-forward map on cohomology, by the composition
+
+$$
+  f^!
+  = 
+  \int_f
+    \;\colon\;
+  H R^\bullet(X)
+   \underoverset{\simeq}{PD_X}{\to}
+  H R_{\bullet + dim(X)}(X)
+   \stackrel{f_\ast}{\to}
+  H R_{\bullet + dim(X)}(Y)
+   \underoverset{\simeq}{PD_Y^{-1}}{\to}
+  H R^{n-(dim(X)-dim(Y))}(Y)
+  \,.
+$$
+
+This is ordinary [[integration]]: if $R = \mathbb{R}$ is the ring of [[real numbers]] and $X$ and $Y$ are [[smooth manifolds]], then $H \mathbb{R}^\bullet(X)$ is modeled by [[differential forms]] on $X$, $PD_X$ is given by a choice of [[volume form]] and $f^! = \int_{f}$ is ordinary [[integration of differential forms]]. 
+
+This elegant general abstract description of [[integration]] in [[tensor (∞,1)-category]] seems to have the only defect that instead of an actual self-[[dual object|duality]], there is that shift in degree.
+
+This, too, hower, is nicely explained as one passes to [[twisted cohomology]], where everything becomes nice.
+
+(...)
+
 
 Then for $\exp(i S)$ the composite
 
@@ -536,11 +584,12 @@ an _[[Umkehr map]]_ is just
 
 * such that [[equivalences]] $V_i^\ast \simeq V_i$ exhbiting self-[[dual objects]] exist ([[Poincaré duality]]) and have been chosen ([[orientation in generalized cohomology|orientation]])
 
+
 This allows in total to have a morphism between the same objects, but in the opposite direction
 
 $$
   f^! 
-   \;\colol\;
+   \;\colon\;
   V_2
    \stackrel{\simeq}{\to} 
   V_2^\ast
@@ -575,12 +624,14 @@ Now it is unnecessarily restrictive that the whole bundles $\chi$ and $f^\ast \c
 
 This means that an [[orientation in generalized cohomology|orientation]] in $\chi$-[[twisted cohomology]] is a choice of 
 
-1. a possibly different $E$-module bundle $\beta$;
+1. a possibly different $E$-module bundle $(X \stackrel{\beta}{\to} E Mod)$;
 
 1. a choice of equivalence
 
 $$
-  \beta^\ast \simeq \chi
+  \left(X \stackrel{\beta}{\to}\right)^\ast 
+    \simeq 
+   \left( X \stackrel{\chi}{\to} E Mod \right)
   \,.
 $$
 
