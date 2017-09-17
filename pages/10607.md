@@ -111,6 +111,39 @@ Looking through ([Hegel 1812, vol 1, book 1, section 1, chapter 1](#Hegel1812)) 
 
 which seems to be well-captured by the above unity transformation.
 
+### Quantity : discreteness $\dashv$ continuity
+ {#Mengen}
+
+The adjoint modality in a [[local topos]] is that given by
+[[flat modality]] $\dashv$ [[sharp modality]]
+
+$$
+  \flat \dashv \sharp
+  \,.
+$$
+
+Capturing [[discrete objects]]/[[codiscrete objects]].
+
+The corresponding unity transformation is
+
+$$
+    \flat X \longrightarrow X \longrightarrow \sharp X
+$$
+
+According to ([Lawvere 94, p. 6](#Lawvere94)) this unity captures the duality that in a [[set]] all [[elements]] are distinct and yet indistinguishable, an apparent [[paradox]] that may be traced back to [[Georg Cantor]].  
+
+Looking through Hegel's [[Science of Logic]] at _[On discreteness and repulsion](#Science+of+Logic#OnDiscretenessAndRepulsion)_ one can see that matches with what Hegel calls
+
+> (par 398) Quantity is the unity of these moments of continuity and discreteness
+
+$$
+  \array{
+    \flat X &\longrightarrow& X &\longrightarrow& \sharp X
+    \\
+    {moment\;of \atop discreteness} && && {moment\;of \atop continuity}
+  }
+$$
+
 
 ### Continuuum : repulsion $\dashv$ cohesion
  {#ContinuumRepulsionCohesion}
@@ -133,39 +166,33 @@ $$
 
 Looking through ([Hegel 1812, vol 1, book 1, section 2, chapter 1](#Hegel1812)) one might call $\flat$ "repulsion", call $\int$ "attraction"/"[[cohesion]]" and then call this unity of opposites "[[continuum]]". Indeed, by the discussion at _[[cohesive topos]]_, this does quite well capture the geometric notion of continuum geometry.
 
+### Infinitesimal Continuuum : infin. repulsion $\dashv$ infinit. cohesion
+ {#ContinuumRepulsionCohesion}
 
-### Quantity : discreteness $\dashv$ continuity
- {#Mengen}
+For $\mathbf{H}$ equipped moreover with [[differential cohesion]],
+there is the [[infinitesimal object|infinitesimal]] version of 
+[[shape modality]] $\dashv$ [[flat modality]]  namely the adjoint modality
 
-The other adjoint cylinder in a [[cohesive topos]] is that given by
-[[flat modality]] $\dashv$ [[sharp modality]]
+[[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]
+
 
 $$
-  \flat \dashv \sharp
+  \int^{inf} \dashv \flat^{inf}
   \,.
 $$
 
-Capturing [[discrete objects]]/[[codiscrete objects]].
-
-The corresponding unity transformation
-
-$$
-    \flat X \longrightarrow X \longrightarrow \sharp X
-$$
-
-According to ([Lawvere 94, p. 6](#Lawvere94)) this unity captures the duality that in a [[set]] all [[elements]] are distinct and yet indistinguishable, an apparent [[paradox]] that may be traced back to [[Georg Cantor]].  
-
-Looking through Hegel's [[Science of Logic]] at _[On discreteness and repulsion](#Science+of+Logic#OnDiscretenessAndRepulsion)_ one can see that matches with what Hegel calls
-
-> (par 398) Quantity is the unity of these moments of continuity and discreteness
+The corresponding unity-transformation is the 
 
 $$
   \array{
-    \flat X &\longrightarrow& X &\longrightarrow& \sharp X
-    \\
-    {moment\;of \atop discreteness} && && {moment\;of \atop continuity}
+    \flat^{inf} X \longrightarrow X \longrightarrow \int X^{inf}
   }
 $$
+
+maps from the [[coefficients]] for [[crystalline cohomology]] to the [[de Rham space]] of types $X$, where all infinitesimal neighbour points are identified. 
+
+In view of the above the unity exhibited here is clearly to be called the "infinitesimal continuum".
+
 
 
 ### Cohesive sets
