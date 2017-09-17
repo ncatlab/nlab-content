@@ -1,3 +1,3 @@
-Solar chargers come in all different forms and formats-from  for ease of transport to those that roll out into mats for maximum  surface area. Some are waterproof; some are not (a factor to consider  when using a solar charger for camping, back-packing, or river trips).  They also vary in charge time versus electrical output and performance  in indirect sun (important for using solar chargers in less-than-sunny  climates). There are also a whole class of , whether laptop bags, , or .
- <a href="http://www.curoindia.com/Coachhandbagcharming.asp?charming=Kristin-c-86.html" >Kristin</a>
-[url=http://www.curoindia.com/Coachhandbagcharming.asp?charming=Kristin-c-86.html]Kristin[/url]
+The 68-year-old, of Leighton Buzzard, Bedfordshire, has now been charged with two further acts of indecent assault against the same woman between 1 January 1992 and 31 December 1993.
+ <a href="http://www.artifexassociates.com/Coachhandbagcharming.asp?charming=Hamptons-c-7.html" >Hamptons</a>
+[url=http://www.artifexassociates.com/Coachhandbagcharming.asp?charming=Hamptons-c-7.html]Hamptons[/url]
