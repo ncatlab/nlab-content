@@ -25,14 +25,15 @@
 
 ## Definition
 
-The [[profinite completion of a group|profinite completion]] of the [[integers]] is
+The [[profinite completion of a group|profinite completion]] of the [[integers]] is the [[inverse limit]]
 
 $$
   \widehat{\mathbb{Z}} 
     \coloneqq 
   \underset{\leftarrow}{\lim}_{n \in \mathbb{N}} (\mathbb{Z}/n\mathbb{Z})
-  \,.
 $$
+
+over all the [[cyclic groups]] over their canonical [[filtered diagram]].
 
 ## Properties
 
@@ -55,3 +56,5 @@ $$
  
 * Groupprops, _[Profinite completion of the integers](http://groupprops.subwiki.org/wiki/Profinite_completion_of_the_integers)_
 
+
+[[!redirects profinite integers]]
