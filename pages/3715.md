@@ -384,7 +384,9 @@ For discussion of [[motive|motivic structures]] in [[geometric quantization]] se
 
 The concept of algebraic deformation quantization originates around
 
-* {#BayenFlatoFronsdalLichnerowiczSternheimer78} F. Bayen, [[Moshé Flato]], C. Fronsdal, , [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation Theory and Quantization_, Annals of Physics (N.Y.) 111, 61, 111 (1978)
+* {#BayenFlatoFronsdalLichnerowiczSternheimer78} F. Bayen, [[Moshé Flato]], C. Fronsdal, , [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation theory and quantization. I. Deformations of symplectic structures._, Annals of Physics (N.Y.) 111, 61, 111 (1978) ([publisher](http://www.sciencedirect.com/science/article/pii/0003491678902245))
+
+* {#BayenFlatoFronsdalLichnerowiczSternheimer78b} F. Bayen, [[Moshé Flato]], C. Fronsdal, , [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation theory and quantization. II. Physical applications_, Annals of Physics 111, 111-151 (1978)  ([publisher](http://www.sciencedirect.com/science/article/pii/0003491678902257))
 
 A prescription for deformation quantization of [[symplectic manifolds]] and varieties and also of [[Poisson manifolds]] that have a [[regular foliation]] by [[symplectic leaves]] is discussed in 
 
