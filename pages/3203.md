@@ -36,8 +36,6 @@ Important classes of bounded operators are the [[compact operators]], [[trace-cl
 
 ## Related concepts
 
-* [[operator]]
-
 * [[linear operator]]
 
 * **bounded linear operator** / [[unbounded linear operator]]
