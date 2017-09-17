@@ -38,7 +38,7 @@ Obviously, up to [[homeomorphism]], all that matters is the surjective function 
 
 1. Recall that a map $q \colon X \to Y$ is [[open map|open]] if $q(U)$ is open in $Y$ whenever $U$ is open in $X$. It is not the case that a quotient map $q \colon X \to Y$ is necessarily open. Indeed, the identification map $q \colon I \sqcup \{\ast\} \to S^1$, where the endpoints of $I$ are identified with $\ast$, takes the open point $\ast$ of the domain to a non-open point in $S^1$. 
 
-1. Nor is it the case that a quotient map is necessarily a closed map; the classic example is the projection map $\pi_1 \colon \mathbb{R}^2 \to \mathbb{R}$, which projects the closed locus $x y = 1$ onto a non-closed subset of $\mathbb{R}$. (This is a quotient map, by the next remark. 
+1. Nor is it the case that a quotient map is necessarily a closed map; the classic example is the projection map $\pi_1 \colon \mathbb{R}^2 \to \mathbb{R}$, which projects the closed locus $x y = 1$ onto a non-closed subset of $\mathbb{R}$. (This is a quotient map, by the next remark.) 
 
 1. It is easy to prove that a continuous open surjection $p \colon X \to Y$ is a quotient map. For instance, projection maps $\pi \colon X \times Y \to Y$ are quotient maps, provided that $X$ is inhabited. 
 
