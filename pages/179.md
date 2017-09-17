@@ -1266,6 +1266,8 @@ The infinitesimal reasoning involved in this proof is discussed in ([Kock, secti
 
 ## Related concepts
 
+* [[sheaf of L-∞ algebras]]
+
 * [[∞-Lie algebroid cohomology]]
 
 * [[∞-Lie algebroid valued differential forms]]
