@@ -29,9 +29,15 @@ is a [[proper map]].
 
 So in particular the [[automorphism group]] of any [[object]] in a proper Lie groupoid is a [[compact space|compact]] [[Lie group]]. In this sense proper Lie groupoids generalize [[compact Lie groups]].
 
+
 ## Examples
 
 * An [[orbifold]] is (presented by) a proper [[étale groupoid]].
+
+## Related concepts
+
+* [[effective Lie groupoid]]
+
 
 ## References
 
