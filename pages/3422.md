@@ -987,9 +987,13 @@ for the moment see
 
 ## References
 
-The construction for $\infty$-groupoid fibrations i.e. left/right fibrations is the content of section 2.2.1, that of quasi-category fibrations i.e. Cartesian fibrations that of section 3.2 in
+The construction for $\infty$-groupoid fibrations i.e. left/right fibrations is the content of section 2.2.1, that of quasi-category fibrations i.e. Cartesian fibrations that 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], section 3.2 _[[Higher Topos Theory]]_
+
+More on model-category theoretic construction of the $\infty$-Grothendieck construction with values in $\infty$-groupoids is in 
+
+* {#HeutsMoerdijk13} [[Gijs Heuts]], [[Ieke Moerdijk]], _Left fibrations and homotopy colimits_ ([arXiv:1308.0704](http://arxiv.org/abs/1308.0704))
 
 
 [[!redirects (∞,1)-Grothendieck construction]]
