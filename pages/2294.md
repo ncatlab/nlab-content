@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
@@ -37,7 +37,7 @@ A **category** (single-sorted version) is a [[collection]] $C$, whose elements a
 5. $x\circ s(x)=x$ and $t(x)\circ x=x$ (both composites are always defined, because of the first two axioms)
 6. $(x\circ y)\circ z = x\circ (y\circ z)$, if either is defined (in which case the other is defined by the axiom 3).
 
-The first two axioms say that $s$ and $t$ are [[idempotent]] endofunctions on $C$ which have the same [[image]].  The elements of their common image (the $x$ such that $s(x)=x$, or equivalently $t(x)=x$) are called _identities_ or _objects_.  Once that is done, the rest of the identification is straightforward.
+The first two axioms say that $s$ and $t$ are [[idempotent]] [[endofunctions]] on $C$ which have the same [[image]].  The elements of their common image (the $x$ such that $s(x)=x$, or equivalently $t(x)=x$) are called _identities_ or _objects_.  Once that is done, the rest of the identification is straightforward.
 
 A **[[functor]]** between single-sorted categories is just a function $f:C\to D$ such that $f(s(x)) = s(f(x))$, $f(t(x)) = t(f(x))$, and $f(x\circ y)= f(x)\circ f(y)$ whenever $x\circ y$ is defined (which, by the first two axioms of a functor and axiom (3) of a category, implies that $f(x)\circ f(y)$ is defined).
 
