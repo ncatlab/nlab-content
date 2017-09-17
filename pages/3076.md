@@ -39,13 +39,19 @@
 
 ## $(\infty,1)$-Categorical
 
-* [[limit in a quasi-category]]
+* [[limit in a quasi-category|limit in an (∞,1)-category]]
+
+  * [[(∞,1)-pullback]]  
  
-* [[fibration sequence]]
+    * [[fiber sequence]]
 
-  * [[mapping cone]]
+      * [[mapping cone]]
 
-  * [[mapping cocone]]
+      * [[mapping cocone]]
+
+### Quasi-categorical
+
+* [[limit in a quasi-category]]
 
 ### Model-categorical
 
