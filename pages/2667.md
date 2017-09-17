@@ -129,7 +129,7 @@ $$ (F \otimes G)(V) = F(V) \otimes G(V) $$
 
 These make $Schur$ into a [[rig category]].
 
-But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets.  Since product distributes over disjoint union, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these give the category of representations of $\mathbb{P}$ two more monoidal structures, making it into a rig category in another way.  The same is true for the subcategory $Schur$.
+But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product $\times$ and disjoint union $+$ of finite sets.  Since $\times$ distributes over $+$, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these give the category of representations of $\mathbb{P}$ two more monoidal structures, making it into a rig category in another way.  The same is true for the subcategory $Schur$.  
 
 On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ yet another monoidal structure, the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.   
 
@@ -141,8 +141,7 @@ We have described Schur functors as special functors
 
 $$  F: FinVect \to FinVect  $$
 
-But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts.   In fact they can be applied to any [[symmetric monoidal category|symmetric monoidal]]
-[[Cauchy complete category|Cauchy complete]] [[linear category]].  Here by **linear category** we mean a category enriched over $Vect$, the category of vector spaces over a fixed field $k$ of characteristic zero.  Such a category is **Cauchy complete** when:
+But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts.   In fact they can be applied to any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]].  Here by **linear category** we mean a category enriched over $Vect$, the category of vector spaces over a fixed field $k$ of characteristic zero.  Such a category is **Cauchy complete** when:
 
 * it has [[biproducts]], also known as [[direct sums]], and 
 
@@ -396,7 +395,7 @@ So, instead of $Cat$ let us consider $Set$, and instead of $SymMonLinCauch$ let 
 
 $$ U : CommRing \to Set \, . $$
 
-What are the natural transformations from this functor to itself?  Clearly any polynomial $P \in \mathbb{Z}[x]$
+What are the natural transformations from this functor to itself?  Any polynomial $P \in \mathbb{Z}[x]$
 defines such a natural transformation, since for any commutative ring $R$ there is a function $P_R: U(R) \to U(R)$ given by
 
 $$ P_R : x \mapsto P(x) $$
@@ -417,13 +416,13 @@ $$ F(1) \cong \mathbb{Z}[x] $$
 
 and homomorphisms from $F(1)$ to any commutative ring $R$ are in one-to-one correspondence with elements of the underlying set of $R$, since
 
-$$ U(R) = hom(1, U(R)) = hom(F(1), R) \, . $$
+$$ U(R) \cong hom(1, U(R)) \cong hom(F(1), R) \, . $$
 
 So, we say $F(1)$ [[representable functor|represents]] the functor $U$.   This makes it easy to show that the set of natural transformations from $U$ to itself is isomorphic to the underlying set of $\mathbb{Z}[x]$, namely $U(F(1))$:
 
-$$hom(U,U) \simeq hom(hom(F(1), -), hom(F(1), -)) \simeq hom(F(1), F(1)) \simeq U(F(1))$$ 
+$$[U,U] \cong [hom(F(1), -), hom(F(1), -)] \cong hom(F(1), F(1)) \simeq U(F(1))$$ 
 
-In the first step here we use the representability $U = hom(F(1), -)$; in the second we use the [[Yoneda lemma]], and in the third  we use the adjointness between $U$ and $F$.   
+In the first step here we use the representability $U \cong hom(F(1), -)$; in the second we use the [[Yoneda lemma]], and in the third  we use the adjointness between $U$ and $F$.   
 
 We shall carry out a categorified version of this argument to prove that $Schur$ is the category of endomorphisms of the 2-functor
 
@@ -484,7 +483,7 @@ so that $\widebar{k \mathbb{P}}$ is the representing object.
 
 +-- {: .query}
 
-[[John Baez]]: I took remarks from this query box and used them to improve the proof above.  However, it could still use more improvement.
+[[John Baez]]: I took remarks from the query box here and used them to improve the proof above.  However, it could still use more improvement.
 
 =--
 
@@ -494,7 +493,7 @@ Let us now calculate $\widebar{k \mathbb{P}}$. In general, the linear Cauchy com
 
 $$F: \mathbb{P}^{op} \to FinVect$$ 
 
-where $F(n) = 0$ for large enough $n$.  For it is clear that this category contains the representables and is closed under finite direct sums and retracts. On the other hand, every polynomial $F$ is a sum of monomials $F(0) \oplus F(1) \oplus \ldots \oplus F(n)$, and by Maschke's theorem, each $S_j$-module $F(j)$ is the retract of a finite sum of copies of the group algebra $k[S_j]$ which corresponds to the representable $k\mathbb{P}(-, j)$. 
+where $F(n) = 0$ for large enough $n$.  For it is clear that this category contains the representables and is closed under finite direct sums and retracts. On the other hand, every polynomial $F$ is a sum of monomials $F(0) \oplus F(1) \oplus \cdots \oplus F(n)$, and by Maschke's theorem, each $S_j$-module $F(j)$ is the retract of a finite sum of copies of the group algebra $k[S_j]$ which corresponds to the representable $k\mathbb{P}(-, j)$. 
 
 So, inspired by Joyal's work on species [ref], we make the following definition:
 
@@ -504,23 +503,29 @@ A **polynomial species** is a functor $F: \mathbb{P}^{op} \to FinVect$ where $F(
 
 =--
 
-The linear symmetric monoidal structure on polynomial species is inherited from the monoidal structure of $\mathbb{P}$. Explicitly, the monoidal structure on $\mathbb{P}$ is at the object level given by adding integers, and on the morphism level given by group homomorphisms 
+As we have mentioned, the category of polynomial species inherits two monoidal structures from $\mathbb{P}$ via [[Day convolution]].  Most important is the one coming from the _additive_ monoidal structure on $\mathbb{P}$, which is given on the level of objects by adding natural numbers, and on the morphism level given by group homomorphisms 
 
 $$S_m \times S_n \to S_{m+n}$$ 
 
-which juxtapose permutations. This is linearized to give algebra maps 
+which juxtapose permutations.  This can be linearized to give algebra maps 
 
 $$k[S_m] \otimes k[S_n] \to k[S_{m+n}]$$ 
 
-which gives the monoidal category structure of $k\mathbb{P}$. This monoidal structure uniquely extends via [[Day convolution]] to the Cauchy completion $\widebar{k\mathbb{P}}$, which is intermediate between $k\mathbb{P}$ and $Vect$-valued presheaves on $k\mathbb{P}$. The general formula for the Day convolution product applied to presheaves $F, G: \mathbb{P}^{op} \to Vect$ is 
+which give the monoidal category structure of $k\mathbb{P}$. This monoidal structure uniquely extends via [[Day convolution]] to the Cauchy completion $\widebar{k\mathbb{P}}$, which is intermediate between $k\mathbb{P}$ and the category of $Vect$-valued presheaves on $k\mathbb{P}$.  The general formula for the Day convolution product applied to presheaves $F, G: \mathbb{P}^{op} \to Vect$ is 
 
-$$(F \otimes G)(n) = \sum_{j+k = n} (F(j) \otimes G(k)) \otimes_{S_j \times S_k} S_n$$
+$$(F G)(n) = \sum_{j+k = n} (F(j) \otimes G(k)) \otimes_{S_j \times S_k} k[S_n]$$
+
++-- {: .query}
+
+Todd had written $S_n$ where I have put $k[S_n]$ here.
+ 
+=-- 
 
 or, in other notation, 
 
-$$(F \otimes G)(n) = \sum_{j+k = n} Ind_{S_j \times S_k}^{S_n} F(j) \otimes G(k)$$
+$$(F G)(n) = \sum_{j+k = n} Ind_{S_j \times S_k}^{S_n} F(j) \otimes G(k)$$
 
-and by restriction this formula gives the tensor product on polynomial species. It is a kind of categorification of the usual definition of product of ordinary polynomials, where given 
+and by restriction this formula gives a tensor product on polynomial species.  This tensor product is a kind of categorification of the usual definition of product of ordinary polynomials, where given 
 
 $$F(x) = \sum_{0 \leq j \leq M} \frac{f_j x^j}{j!} \qquad G(x) = \sum_{0 \leq k \leq N} \frac{g_k x^k}{k!}$$
 
