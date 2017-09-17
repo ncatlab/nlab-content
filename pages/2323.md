@@ -31,7 +31,8 @@
 
 * [[(∞,1)-topos]]
 
-* [[(n,1)-topos]]
+
+* [[(n,1)-topos]], [[n-topos]]
 
   * [[truncated|n-truncated object]]
 
@@ -43,7 +44,7 @@
 
     * [[sheaf]]
 
-  * [[(2,1)-topos]]
+  * [[(2,1)-topos]], [[2-topos]]
 
     * [[(2,1)-presheaf]]
 
