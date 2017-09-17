@@ -41,6 +41,9 @@ and example 2.13 in the lecture notes
 
 More discussion is in section 7.2 of ([BCWZ](#BCWZ)).
 
+Another class of Dirac structures on Lie groups -- multiplicative Dirac structuress -- is discussed in 
+
+* [[Cristian Ortiz]], _Multiplicative Dirac structures on Lie groups_,  Comptes Rendus Academie des Sciences Paris, Ser. I 346 (2008) ([arXiv:0906.2373](http://arxiv.org/abs/0906.2373))
 
 [[!redirects Cartan-Dirac structure]]
 [[!redirects Cartan-Dirac structures]]
