@@ -927,7 +927,7 @@ The Kronecker product of theories was introduced in an article of Freyd:
 
 Recently [[Nikolai Durov]] rediscovered that notion for the purposes of geometry (under the name __commutative algebraic monad__), constructed their spectra (generalizing the [[spectrum (geometry)|spectrum]] of Grothendieck) and theory of [[generalized scheme after Durov|generalized schemes on this basis]]. There is a generalized version of the [[Eckmann–Hilton argument]] concerning commutative finitary monads. Much detail including many examples and further constructions are in his thesis
 
-* [[Nikolai Durov]], _New approach to Arakelov geometry_, [arXiv:0704.2030](http://arXiv.org/math/abs/0704.2030)
+* [[Nikolai Durov]], _New approach to Arakelov geometry_, [arXiv:0704.2030](http://arXiv.org/abs/0704.2030)
 
 
 [[!redirects commutative algebraic theories]]
