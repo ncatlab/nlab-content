@@ -34,7 +34,9 @@ If $f$ is locally connected, then it makes sense to think of the left adjoint $f
 
 ## Examples
 
-If the terminal [[global section]] geometric morphism is locally connected, one speaks of a [[locally connected topos]].
+* If the terminal [[global section]] geometric morphism $E \to Set$ is locally connected, one calls $E$ a [[locally connected topos]].  More generally, if $E\to S$ is locally connected, we may call $E$ a *locally connected $S$-topos*.
+
+* Let $X$ be a [[topological space]] (or a [[locale]]) and $U\subseteq X$ an [[open subset]], with corresponding [[geometric embedding]] $j\colon Sh(U)\to Sh(X)$.  Then any $A\in Sh(X)$ can be identified with a space (or locale) $A$ equipped with a [[local homeomorphism]] $A\to X$, in such a way that $Sh(X)/A \simeq Sh(A)$.  Moreever, $j^*A \in Sh(U)$ can be identified with the pullback of $A\to X$ along $U$, and so $Sh(U)/j^*A \simeq Sh(j^*A)$ similarly.  Noting that $j^*A \to A$ is again the inclusion of an open subset, and using the fact that the inverse image part of any open [[geometric embedding]] is cartesian closed, we see that $(j/A)^*\colon Sh(X)/A \to Sh(U)/j^*A$ is cartesian closed for any $A$.  Hence $j$ is locally connected.
 
 ## References
 
