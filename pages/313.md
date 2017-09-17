@@ -13,7 +13,7 @@ One speaks of such functors as diagrams for instance
 
 * when the [[limit]] or [[colimit]] over the functor is considered. This is then  often called the limit or colimit of the corresponding diagram. 
 
-* when _commuting diagrams_ are considered: a **commuting diagram** in $C$ is a diagram for which $J$ is a [[poset]]. 
+* when _commuting diagrams_ are considered: a **[[commuting diagram]]** in $C$ is a diagram for which $J$ is a [[poset]]. 
 
   So a commuting diagram is a diagram where every two morphisms in $C$ that are assigned to any pair of _parallel morphisms in $J$_ (i.e. with same source and target in $J$) are equal. 
 
@@ -148,5 +148,6 @@ One speaks of such functors as diagrams for instance
 
   This is non-finite commuting diagram.
 
+
+[[!redirects diagram]]
 [[!redirects diagrams]]
-[[!redirects commuting diagram]]
