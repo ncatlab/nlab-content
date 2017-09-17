@@ -1,4 +1,5 @@
 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -88,10 +89,10 @@ $$
 
 More in detail this means the following.
 
-First notice that since by construction $\pi_i(\mathcal{B}Spin(n)) = 0 $ for $0 \leq i \leq 3$, by the [[Hurewicz theorem]] we have for the degree 4 [[integral cohomology]] group of the [[delooping]]/[[classifying space]] $\mathcal{B}Spin(n)$ that
+First notice that since by construction $\pi_i(\mathcal{B}Spin(n)) = 0 $ for $0 \leq i \leq 3$, by the [[Hurewicz theorem]] we have for the degree 4 [[integral cohomology]] group of the [[classifying space]] $B Spin(n)$ that
 
 $$
-  H^4(\mathcal{B} Spin(n)) \simeq \pi_4(\mathcal{B}Spin(n))
+  H^4(B Spin(n)) \simeq \pi_4(B Spin(n))
   \simeq
   \mathbb{Z}
   \,.
@@ -100,20 +101,20 @@ $$
 The generator of this group is called the **fractional first Pontryagin class** and denoted 
 
 $$
-  \frac{1}{2}p_1 : \mathcal{B} Spin(n) \to \mathcal{B}^4 \mathbb{Z} \simeq K(\mathbb{Z},4)
+  \frac{1}{2}p_1 : B Spin(n) \to B^4 \mathbb{Z} \simeq K(\mathbb{Z},4)
 $$ 
 
 because the ordinary first [[Pontryagin class]] $p_1 : \mathcal{B} SO(n) \to K(\mathbb{Z},4)$ fits into a diagram
 
 $$
   \array{
-    \mathcal{B} Spin(n) &\stackrel{\frac{1}{2} p_1}{\to}&
-    \mathcal{B}^4 \mathbb{Z}
+    B Spin(n) &\stackrel{\frac{1}{2} p_1}{\to}&
+    B^4 \mathbb{Z}
     \\
     \downarrow && \downarrow^{\cdot 2}
     \\
-    \mathcal{B} SO(n) &\stackrel{p_1}{\to}&
-    \mathcal{B}^4 \mathbb{Z}
+    B SO(n) &\stackrel{p_1}{\to}&
+    B^4 \mathbb{Z}
   }
   \,,
 $$
@@ -126,18 +127,18 @@ The [[delooping]] of the String-group as a [[topological group]] is the [[homoto
 
 $$
   \array{
-    \mathcal{B} String(n) &\to& {*}
+    B String(n) &\to& {*}
     \\
     \downarrow && \downarrow
     \\
-    \mathcal{B} Spin(n) &\to& \mathcal{B}^4 \mathbb{Z}
+    B Spin(n) &\to& \mathcal{B}^4 \mathbb{Z}
   }
 $$
 
 in [[Top]].
 
 
-In other words: $\mathcal{B}String(n)$ is the $U(1)$- 2-[[gerbe]] or $\mathcal{B}^2 U(1)$ [[principal ∞-bundle]] on $\mathcal{B} Spin(n)$ whose class is $\frac{1}{2}p_1 \in H^4(\mathcal{B}Spin(n), 4)$.
+In other words: $B String(n)$ is the $U(1)$- 2-[[gerbe]] or $B^2 U(1)$ [[principal ∞-bundle]] on $B Spin(n)$ whose class is $\frac{1}{2}p_1 \in H^4(B Spin(n), 4)$.
 
 
 ## Models 
