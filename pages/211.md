@@ -1,4 +1,3 @@
-
 # The Anonymous Coward
 * table of contents
 {: toc}
@@ -9,6 +8,7 @@ The **Anonymous Coward** is the default username for editing this wiki. So if so
 
 However, people who *really* want to be anonymous should know that every editor\'s IP address is listed at [RecentlyRevised](http://ncatlab.org/nlab/recently_revised).  (Well, usually.  [[Urs Schreiber]] ---or for all we know, possibly somebody impersonating him (^_^)--- has managed to keep his IP address out sometimes.)
 
+(added this for consistency.)
 
 ## Discussion
 
