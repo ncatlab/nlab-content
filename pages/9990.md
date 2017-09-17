@@ -49,6 +49,12 @@ The interpretation of the elliptic genus/[[Witten genus]] as the [[partition fun
 
 * [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1104117076))
 
+Similar elliptic genera of $N=2$ $d = 2$ field theories and [[Landau-Ginzburg models]] are discussed in 
+
+* [[Edward Witten]], _On the Landau-Ginzburg Description of $N=2$ Minimal Models_, Int.J.Mod.Phys.A9:4783-4800,1994 ([arXiv:hep-th/9304026](http://arxiv.org/abs/hep-th/9304026))
+
+* Toshiya Kawai, Yasuhiko Yamada, Sung-Kil Yang, _Elliptic Genera and $N=2$ Superconformal Field Theory_ ([arXiv:hep-th/9306096](http://arxiv.org/abs/hep-th/9306096))
+
 More on this is in 
 
 * Sujay K. Ashok, Jan Troost, _A Twisted Non-compact Elliptic Genus_, JHEP 1103:067,2011 ([arXiv:1101.1059](http://arxiv.org/abs/1101.1059))
