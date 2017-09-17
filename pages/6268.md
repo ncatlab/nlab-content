@@ -24,12 +24,19 @@ Where can I find a construction of the classifying morphism to a classifying spa
 
 ## Examples
 
-* For [[subobject]]s one typically speaks of **characteristic maps** or **characteristic functions**. The corresponding classifiyng space is a _[[subobject classifier]]_ . See there for more.
+* For [[subobjects]] one typically speaks of **characteristic maps** or **characteristic functions**. The corresponding classifiyng space is a _[[subobject classifier]]_ . See there for more.
 
+* More generally, in an [[(infinity,1)-topos]] every "small" (see there) object in a [[slice (infinity,1)-topos]] is given by a classifying morphism into the [[object classifier]];
+
+* In [[dependent type theory|dependent]]/[[homotopy type theory|homotopy]] [[type theory]] these classifying morphisms are the [[categorical semantics]] for [[functions]] into a [[type of types]] that classify [[dependent types]]. See at _[[categorical model of dependent types]]_ for more on this.
 
 ## Related concepts
 
 * [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+* [[display map]], [[substitution]]
+
+[[!redirects classifying morphisms]]
 
 [[!redirects classifying map]]
 [[!redirects classifying function]]
