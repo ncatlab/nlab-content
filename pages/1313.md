@@ -22,7 +22,7 @@ As before, let $C$ be a category and $X,Y\in C$.
 
 * If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__.  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if it has a [[terminal object]] and every object is exponentiable.
 
-* More generally, a morphism $Y \to A$ is __exponentiable__ when it is exponentiable in the [[over category]] $C/A$.  Then $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ if every morphism is exponentiable.
+* More generally, a morphism $f\colon Y \to A$ is __exponentiable__ when it is exponentiable in the [[over category]] $C/A$.  This is equivalent to saying that the [[pullback]] functor $f^*$ has a [[right adjoint]], usually denoted $\Pi_f$ and called a [[dependent product]].  In particular, $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ iff every morphism is exponentiable.
 
 * Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ is __exponentiating__.  Again, $C$ is __cartesian closed__ if it has a terminal object and every object is exponentiating.  (The reader should beware that some authors say "exponentiable" for what is here called "exponentiating.")
 
