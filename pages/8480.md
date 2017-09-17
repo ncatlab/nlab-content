@@ -8,7 +8,7 @@ A _fixed point_ (or _fixpoint_) of an [[endofunction]] $f \colon X \to X$ is an 
 
 More generally still, we can speak of the same notion but replacing global elements $x \colon 1 \to X$ by [[generalized elements]] $x \colon U \to X$, where again $x$ is a fixed point of $f \colon X \to X$ if $f \circ x = x$. 
 
-The same notion undergoes further generalization by [[categorification]]. For example, if $F \colon C \to C$ is an endofunctor, then an object $c$ of $C$ is called a "fixed point" of $F$ is there is an [[isomorphism]] $F(c) \cong c$ (although usually, a fixed point of a functor is an object together with a specified such isomorphism). 
+The same notion undergoes further generalization by [[categorification]]. For example, if $F \colon C \to C$ is an [[endofunctor]], then an object $c$ of $C$ is called a "fixed point" of $F$ is there is an [[isomorphism]] $F(c) \cong c$ (although usually, a fixed point of a functor is an object together with a specified such isomorphism). 
 
 The importance of fixed points all throughout mathematics is difficult to overstate. They are particularly important in analysis, topology, lattice theory, set theory, and category theory. Fixed points of endofunctors frequently arise as solutions to "recursive equations", especially in the form of [[initial algebra of an endofunctor|initial algebras and terminal coalgebras]]. 
 
