@@ -1,0 +1,64 @@
+
+> This entry is about dualizing objects in closed (monoidal) categories in the sense of [[homological algebra]] and [[stable homotopy theory]] (e.g. [[dualizing modules]]). For a more general concept see at _[[dualizing object]]_.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _dualizing object_ $D$ in a [[closed category]] $\mathcal{D}$ is an [[object]] such that the [[internal hom]] $[-,D] \colon \mathcal{C} \to \mathcal{C}^{op}$ into it serves as an [[involution|involutive]] [[duality]] operation on $\mathcal{C}$ in that applying it twice yields an [[equivalence of categories]] $[[-,D],D] \colon \mathcal{C} \to \mathcal{C}$.
+
+Typically one assumes $\mathcal{C}$ to be a [[closed monoidal category]] and requires that the [[adjunct]] of the [[evaluation map]] provides a [[natural equivalence]] 
+
+$$
+  id_{\mathcal{C}} \stackrel{\simeq}{\longrightarrow} [[-,D],D]
+  \,.
+$$
+
+In this form dualizing objects appear for instance in the definition of [[star-autonomous categories]].
+
+More specifically in [[homological algebra]] and [[stable homotopy theory]] there are typically also certain [[finite object|finiteness conditions]] imposed on a dualizing object $D$ and one speaks of specifically of _[[dualizing modules]]_ (See for instance ([Heard Stojanoska 14, def. 3.1](#HeardStojanoska14) and [[Representability Theorems|Lurie, section 4.2]]). 
+
+Notably in a [[Grothendieck-Verdier context]] $(f^\ast \dashv f_\ast)$, $(f_! \dashv f^!)$ of [[six operations]] the functor $f^!$ typically preserves dualizing objects in this sense, which is a crucial ingredient of [[Verdier duality]]. 
+
+## Examples
+
+### In the category of spectra -- Anderson duality
+
+In the [[stable (infinity,1)-category of spectra]], the [[sphere spectrum]] (which induces [[Spanier-Whitehead duality]] on spectra which are [[dualizable objects]] with respect to the [[smash product of spectra]]) is not a dualizing object, but the [[Anderson spectrum]] $I_{\mathbb{Z}}$ is ([[Representability Theorems|Lurie, Example 4.3.9]]). The [[duality]] operation 
+$[-,I_{\mathbb{Z}}]$ that it induces in [[Anderson duality]].
+
+For instance the Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)); and [[tmf]] is Anderson self-dual ([Stojanoska 12](#Stojanoska12))
+
+## Related concepts
+
+* [[dual object in a closed category]]
+
+## References
+
+* [[Jacob Lurie]], section 4.2 of _[[Representability Theorems]]_
+
+* {#Stojanoska12} [[Vesna Stojanoska]], _Duality for Topological Modular Forms_, Doc. Math. 17 (2012) 271-311 ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
+
+* {#HeardStojanoska14} [[Drew Heard]], [[Vesna Stojanoska]], _K-theory, reality, and duality_ ([arXiv:1401.2581](http://arxiv.org/abs/1401.2581))
+
+
+[[!redirects dualizing objects in a closed category]]
+
+[[!redirects dualizing objects in closed categories]]
