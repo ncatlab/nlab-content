@@ -142,8 +142,9 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 ## Related concepts
 
-* One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial set]]s.
+One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial sets]].
 
+Or one may change the shape category to pass from [[simplicial sets]] to [[cellular sets]]. A quasi-category-like definition of [[(∞,n)-categories]] on these is discussed at _[[model structure on cellular sets]]_.
 
 
 ## References
