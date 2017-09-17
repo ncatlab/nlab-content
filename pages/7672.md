@@ -372,11 +372,15 @@ Discussion in [[higher algebra]] in term of [[(∞,1)-module bundles]] is in
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
 
-The complex J-homomorphism is discussed in 
+The [[complex geometry|complex]] J-homomorphism is discussed in 
 
 * [[Victor Snaith]], _The complex J-homomorphism_, Proc. London Math. Soc. (1977) s3-34 (2): 269-302 ([journal](http://plms.oxfordjournals.org/content/s3-34/2/269.full.pdf+html))
 
 * [[Victor Snaith]], _Infinite loop maps and the complex $J$-homomorphism_, Bull. Amer. Math. Soc. Volume 82, Number 3 (1976), 508-510. ([Euclid](http://projecteuclid.org/euclid.bams/1183537922))
+
+A [[p-adic number|p-adic]] J-homomorphism is described in 
+
+* Dustin Clausen, _p-adic J-homomorphisms and a product formula_ ([arXiv:1110.5851](http://arxiv.org/abs/1110.5851))
 
 
 ### The image of J
