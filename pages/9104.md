@@ -21,11 +21,11 @@
 
 ## Idea
 
-A _Heisenberg $n$-group_ is a sub-[[∞-group]] of a [[quantomorphism n-group]] on those whose underlying [[n-plectomorphisms]] act "linearly" in a prescribed way. This is the higher refinement of the traditional notion of _[[Heisenberg group]]_.
+A _Heisenberg $n$-group_ is a sub-[[∞-group]] of a [[quantomorphism n-group]] of a [[n-plectic geometry|n-plectic space]] $(G, \omega)$ equipped with [[∞-group]] structure, on those whose underlying [[n-plectomorphisms]] act  by lect [[∞-action]] of $G$ on itself. This is the higher refinement of the traditional notion of _[[Heisenberg group]]_.
 
 ## Definition
 
-For $(X, \omega)$ an [[n-plectic geometry]] with [[higher geometric quantization|higher geometric prequantization]] $(X, \nabla)$ and for $X$ equipped with the [[∞-action]] of an [[abelian ∞-group]]m the corresponding _Heisenberg n-group_ is the sub-[[∞-group]] of the [[quantomorphism n-group]] on those elements whose corresponding [[n-plectomorphism]] is given by such a linear action.
+For $(G, \omega)$ an [[n-plectic geometry]] with [[higher geometric quantization|higher geometric prequantization]] $(G, \nabla)$ and for $G$ equipped with [[∞-group]] structure, the corresponding _Heisenberg $\infty$-group_ is the sub-[[∞-group]] of the [[quantomorphism n-group]] on those elements whose corresponding [[n-plectomorphism]] is given by such a left action.
 
 The corresponding [[Lie n-algebra]] is the _[[Heisenberg Lie n-algebra]]_.
 
