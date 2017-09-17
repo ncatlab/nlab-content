@@ -25,7 +25,7 @@ $$
   \,.
 $$
 
-The [[inverse image]] of $\mathbb{G}_m$ under [[base change]] along $S \to \ast$ we will still denote by $\mathbb{G}_m \in Grp(\mathcal{B})$.
+The [[inverse image]] of $\mathbb{G}_m$ under [[base change]] along $S \to \ast$ we will still denote by $\mathbb{G}_m \in Grp(\mathcal{B}_{/S})$.
 
 Write $\mathbf{B}\mathbb{G}_m$ for the [[delooping]] of $\mathbb{G}_m$. 
 
@@ -35,7 +35,7 @@ $$
   X \longrightarrow \mathbf{B}\mathbb{G}_m
 $$
 
-modulate $\mathbb{G}_m$-[[principal ∞-bundles]] on $X$, whose canonically [[associated ∞-bundles]] are $\mathbb{G}_a$-[[∞-line bundles]]. (...)
+modulate $\mathbb{G}_m$-[[principal ∞-bundles]] on $X$, whose canonically [[associated ∞-bundles]] are algebraic $\mathbb{G}_a$-[[∞-line bundles]]. (...) (Notice that by the [[Koszul-Malgrange theorem]] these are often better thought of as line bundles with flat holomorphic connection...)
 
 The [[internal hom]]/[[mapping stack]]
 
