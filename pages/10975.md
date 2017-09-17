@@ -1,0 +1,4 @@
+
+* [blog](http://bosker.wordpress.com)
+
+category: people
