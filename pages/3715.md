@@ -229,8 +229,22 @@ Such a thing is called a [[Gerstenhaber algebra]].  Note that we do not have the
 =--
 
 ### Motivic Galois group action on the space of quantizations
+ {#MotivicGaloisGroup}
 
-According to ([Kontsevich 99](Kontsevich99)) a [[quotient group]] of the [[motivic Galois group]] apparently equivalent to the [[Grothendieck-Teichmüller group]] naturally [[action|acts]] on the space of formal deformation quantizations of a finite dimensional manifold. See also at _[[cosmic Galois group]]_.
+In ([Kontsevich 99](Kontsevich99)) it was indicated that a [[quotient group]] of the [[motivic Galois group]] apparently equivalent to the [[Grothendieck-Teichmüller group]] naturally [[action|acts]] on the space of formal deformation quantizations of a finite dimensional manifold. See also at _[[cosmic Galois group]]_.
+
+This has been formalized as follows. The formal deformation quantization of ([Kontsevich](#Kontsevich)) is all induced by the [[Kontsevich formality]] theorem, which states that ober suitable [[manifolds]]/[[varieties]] $X$ there is an [[equivalence]] of [[L-∞ algebras]] 
+
+
+$$
+  \mathcal{X}(X) \stackrel{\simeq}{\to} C^\bullet(X)
+$$
+
+identifying the [[multivector fields]] on $X$ with the [[Hochschild cohomology]] complex (of its [[function algebra]]).  Every choice of such an equivalence induces one formal deformation quantization of a [[Poisson manifold]] $X$, and the two quantizations induced by two equivalent (homotopic) equivalences are in turn equivalent.
+
+Therefore one may regard the [[∞-groupoid]] $Maps^{L_\infty}_{equiv}(\mathcal{X}(X), C^\bullet(X))$ as the "space of formal deformation quantizations" of $X$.
+
+In ([Dolgushev 1109, theorem 6.2](#Dolgushev1109), [Dolgushev 1111, theorem 3.1](#Dolgushev1111)) it is shown that the set $\pi_0 Maps^{L_\infty}_{equiv}(\mathcal{X}(X), C^\bullet(X))$ of connected components of this space is, up to a choice of basepoint, the [[Grothendieck-Teichmüller group]], hence is a [[torsor]] over that group.
 
 ## Examples
 
@@ -281,6 +295,15 @@ A direct and general formula for the deformation quantization of any Poisson man
  {#Kontsevich}
 
 This secretly uses the [[Poisson sigma-model]] (see there for more details) induced by the given target [[Poisson Lie algebroid]].
+
+The classification of the space of such formal deformation quantization is discussed in 
+
+* [[Vasily Dolgushev]], _Stable Formality Quasi-isomorphisms for Hochschild Cochains I_ ([arXiv:1109.6031](http://arxiv.org/abs/1109.6031))
+ {#Dolgushev1109}
+
+* [[Vasily Dolgushev]], _Exhausting formal quantization procedures_ ([arXiv:1111.2797](http://arxiv.org/abs/1111.2797))
+ {#Dolgushev1111}
+
 
 Deformation quantization in [[quantum field theory]] in the context of [[AQFT]] is discussed in
 
