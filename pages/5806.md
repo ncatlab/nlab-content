@@ -84,8 +84,13 @@ Even more generally one can allow the [[∞-groupoid]]s $X, Y, \cdots$ to be [[(
 ## Definition
  {#Definition}
 
+### Direct definition
+
 The [[(∞,2)-category]] of spans in [[∞Grpd]] is discussed in some detail in ([Dyckerhoff-Kapranov 12, section 10](#DyckerhoffKapranov12)).
 For a sketch of the definition for all $n$ see ([Lurie, page 57](#Lurie)).
+
+### Definition via coalgebras
+ {#DefinitionViaCoalgebras}
 
 In ([BenZvi-Nadler 13, remark 1.17](#BenZviNadler13)) it is observed that 
 
@@ -97,6 +102,43 @@ is equivalently the [[(∞,n)-category]] of [[En-algebras]] and [[(∞,1)-bimodu
 
 (This immediately applies that every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]].)
 
+To see how this works, consider $X \in \mathbf{H}$ any object regarded as a coalgebra in $\mathbf{H}$ via its [[diagonal map]]. Then a [[comodule]] $E$ over it is a [[co-action]]
+
+$$
+  E \to E \times X
+$$
+
+and hence is canoncially given by just a map $E \to X$. 
+
+Then for 
+
+$$
+  \array{
+    && E_1 &&&& E_2
+    \\
+    & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    X && && Y && && Z
+  }
+$$
+
+two consecutive spans, now interpreted as two bi-comodules, their [[tensor product]] of comodules over $Y$ as a coalgebra is the limit over
+
+$$
+  E_1 \times E_2
+  \stackrel{\to}{\to}
+  E_1 \times X \times E_2
+  \stackrel{\to}{\stackrel{\to}{\to}}
+  ...
+$$
+
+This is indeed the fiber product
+
+$$
+  E_1 \underset{X}{\times} E_2 \stackrel{(p_1, p_2)}{\to} E_1 \times E_2
+$$
+
+as it should be for the composition of [[correspondences]].
 
 ## Properties
  {#Properties}
