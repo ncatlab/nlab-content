@@ -190,7 +190,7 @@ For supergravity Lagrangians "of ordinary type" it turns out that
 
 * $N = 1$ [[11-dimensional supergravity]] 
 
-is the highest dimension possible. All lower dimensional theories in this class appear as compactifications of this theory or otherwise derived from it, such as
+is the highest dimension possible. All lower dimensional theories in this class appear as [[KK-compactifications]] of this theory or are [[deformations]] of such:
 
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
 
@@ -207,6 +207,8 @@ is the highest dimension possible. All lower dimensional theories in this class 
 * [[4-dimensional supergravity]]
 
 * [[3-dimensional supergravity]]
+
+* [[2-dimensional supergravity]]
 
 In dimension $(1+0)$ supergravity coupled to [[sigma-model]] fields is the [[spinning particle]].
 
