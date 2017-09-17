@@ -22,6 +22,9 @@ Examples include
 * [[colorability]]
 * [[knot group]]= the fundamental group of the complement of the knot.
 
+
+Many of these extend to [[link invariant|link invariants]] or have variants that depend on the knot being oriented.
+
 [[!redirects knot invariants]]
 [[!redirects Knot Invariant]]
 [[!redirects Knot Invariants]]
