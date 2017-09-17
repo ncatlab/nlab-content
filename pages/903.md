@@ -231,6 +231,8 @@ As opposed to [[cohomology]] where people are used to talking about [[generalize
 
 * [[homotopy groups in an (infinity,1)-topos]]
 
+* [[finite homotopy type]], [[nilpotent homotopy type]], [[p-local homotopy type]], [[p-complete homotopy type]]
+
 ## References
 
 ### General
