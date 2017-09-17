@@ -42,7 +42,7 @@ There exists a set.
 
 However, one can then use the axiom of separation ([[bounded separation]] is enough) to prove that there exists an empty set, and then use the [[axiom of extensionality]] to prove that this empty set is unique.
 
-In some axiomatic frameworks, even this is unnecessary; while it makes little sense from the standpoint of [[categorial logic]], it was once traditional to take $\forall x,\; P[x] \;\Rightarrow\; \exists x,\; P[x]$ as an axiom (or theorem) of [[first-order logic]].  It is then automatic that something exists, and if one uses a [[material set theory]] or [[pure sets]], then this something must be a set.
+In some axiomatic frameworks, even this is unnecessary; while it makes little sense from the standpoint of [[categorial logic]], it was once traditional to take $\forall x,\; P[x] \;\Rightarrow\; \exists x,\; P[x]$ as an axiom (or theorem) of [[first-order logic]].  It is then automatic that something exists, and if one uses a [[material set theory]] of [[pure sets]], then this something must be a set.
 
 Alternatively, since the [[axiom of infinity]] states the existence of a set (and is often phrased to state explicitly the existence of an empty set), then the axiom of the null set becomes unnecessary for another reason.
 
@@ -51,8 +51,6 @@ category: foundational axiom
 
 [[!redirects empty set]]
 [[!redirects empty sets]]
-[[!redirects null set]]
-[[!redirects null sets]]
 
 [[!redirects axiom of empty set]]
 [[!redirects axiom of the empty set]]
