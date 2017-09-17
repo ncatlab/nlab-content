@@ -269,6 +269,20 @@ The image in [[K-theory]] of these [[Chan-Paton gauge fields]] over conjugacy cl
 * [[Eckhard Meinrenken]], _On the quantization of conjugacy classes_,  	Enseign. Math. (2) 55 (2009), no. 1-2, 33-75 ([arXiv:0707.3963](http://arxiv.org/abs/0707.3963))
 
 
+### Relation to dimensional reduction of Chern-Simons
+
+One can also obtain the WZW-model by [[KK-reduction]]
+from [[Chern-Simons theory]].
+
+E.g.
+
+* [[Matthias Blau]], G. Thompson, _Derivation of the Verlinde Formula from Chern-Simons Theory and the G/G model_, Nucl.Phys. B408 (1993) 345-390 ([arXiv:hep-th/9305010](http://arxiv.org/abs/hep-th/9305010))
+
+A discussion in [[higher differential geometry]] via [[transgression]] in [[ordinary differential cohomology]] is in 
+
+* _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
+
+* _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
 
 ### Relation to extended TQFT
 
