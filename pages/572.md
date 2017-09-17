@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _complete Segal space_ is a [[internal category in an (∞,1)-category]] in [[∞Grpd]], with the latter [[presentable (∞,1)-category|presented]] by [[sSet]]/[[Top]]. Complete Segal spaces are a model for [[(∞,1)-categories]].
+A _complete Segal space_ is a model for an [[internal category in an (∞,1)-category]] in [[∞Grpd]], with the latter [[presentable (∞,1)-category|presented]] by [[sSet]]/[[Top]]. Complete Segal spaces present [[(∞,1)-categories]].
 
 More in detail, a complete Segal space $X$ is
 
@@ -44,6 +44,19 @@ such that
 1. the notion of equivalence in $X_\bullet$ is compatible with that in the ambient [[∞Grpd]] ("completeness"): the sub-simplicial object $Core(X_\bullet)$ on the invertible morphisms in each degree has all face and degeneracy maps being homotopy equivalences.
 
 ## Definition
+
+We first discuss
+
+* [Complete Segal spaces](#CompleteSegalSpaces)
+
+as such, and then the more general notion of
+
+* [Complete Segal space objects](#CompleteSegalSpaceObjects)
+
+in a suitable model category/$(\infty,1)$-category $\mathcal{C}$, which reduces to the previous notion for $\mathcal{C} = sSet_{Quillen}$.
+
+### Complete Segal spaces
+ {#CompleteSegalSpaces}
 
 +-- {: .num_defn}
 ###### Definition
@@ -147,6 +160,11 @@ is a weak equivalence.
 This condition is equivalent to $X$ being a [[local object]] with respect to the morphism $N(\{0 \stackrel{\simeq}{\to} 1\}) \to *$. This is discussed [below](#CharacterizationOfCompleteness).
 
 =--
+
+### Complete Segal space objects
+ {#CompleteSegalSpaceObjects}
+
+(...)
 
 ## Properties
 
