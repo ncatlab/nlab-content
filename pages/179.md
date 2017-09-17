@@ -185,11 +185,35 @@ $$
   \,.
 $$
 
+(Notice that $\Xi \mathfrak{a}$ is indeed a _commutative_ cosimplicial algebra, since $\omega$ and $x$ in $(\omega,x)$ are by definition in the same degree.)
+
+To define the [[cosimplicial object|cosimplicial structure]], let 
+$\{e_j\}_{j = 0}^n$ be the canonical [[basis]] for $\mathbb{R}^n$ and consider also the basis $\{v_j\}_{j = 0}^n$ given by
+
+$$
+  v_{j} := e_j - e_{0}
+  \,.
+$$
+ 
+Then for $\alpha : [k] \to [l]$ a morphism in the [[simplex]] category, set
+
+$$
+  \alpha v_j := v_{\alpha(j)} - v_{\alpha(0)}
+$$
+
+and extend this skew-multilindarly to a map $\alpha : \wedge^\bullet \mathbb{R}^k \to \wedge^\bullet \mathbb{R}^l$. In terms of all this the action of $\alpha$ on homogeneous elements $(\omega,x)$ in the cosimplicial algebra is defined by
+
+$$
+  \alpha : 
+  (\omega, x) 
+    \mapsto
+  (\omega, \alpha x) + (d_\mathfrak{a} \omega , v_{\alpha(0)}\wedge \alpha(x))
+$$
+
 =--
 
-Notice that $\Xi \mathfrak{a}$ is indeed a _commutative_ cosimplicial algebra, since $\omega$ and $x$ in $(\omega,x)$ are by definition in the same degree.
 
-This is reviewed in [CastiglioniCortinas, (1), (2)](#CastiglioniCortinas) in the context of a comprehesive discussion of the dual [[monoidal Dold-Kan correspondence]] _not_ restricted to commutative dg-algebras and nilpotent cosimplicial extensions as we do here.
+This is due to ([CastiglioniCortinas, (1), (2), (20), (22)](#CastiglioniCortinas)).
 
 We shall refine the image of $\Xi$ to cosimplicial [[smooth algebra]]s. Let $T := $[[CartSp]]${}_{smooth}$ be the category of [[Cartesian space]]s and [[smooth function]]s between, them, regarded as a [[Lawvere theory]]. Write 
 
@@ -805,10 +829,10 @@ $$
 ###### Proof
 
 
-Let $\{t_a\}$ be the canonical basis for $\mathbb{R}^k$ and $\{v^i\}$ the canonical basis for $\mathbb{R}^n$. We claim that an isomorphism is given by the assignment
+Let $\{t_a\}$ be the canonical basis for $\mathbb{R}^k$ and $\{e^i\}$ the canonical basis for $\mathbb{R}^n$. We claim that an isomorphism is given by the assignment
 
 $$
-  \phi : \epsilon^i_a \mapsto (t_a , v^i)
+  \phi : \epsilon^i_a \mapsto (t_a , e^i)
   \,.
 $$
 
@@ -818,10 +842,10 @@ $$
   \begin{aligned}
     \phi(\epsilon_a^i \epsilon_{a'}^{i'})
     & =
-   (t_a \wedge t_{a'}, v^i \wedge v^{i'})
+   (t_a \wedge t_{a'}, e^i \wedge e^{i'})
     \\
     & = 
-    -(t_{a'} \wedge t_{a}, v^i \wedge v^{i'})
+    -(t_{a'} \wedge t_{a}, e^i \wedge e^{i'})
     \\
     & = -\phi(\epsilon_{a'}^i \epsilon_{a}^{i'})
   \end{aligned}
@@ -831,7 +855,7 @@ $$
 The inverse clearly exists, given on generators by
 
 $$
-  \phi^{-1} : (t_a, v^i) \mapsto \epsilon_a^i
+  \phi^{-1} : (t_a, e^i) \mapsto \epsilon_a^i
   \,.
 $$
 
