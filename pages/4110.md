@@ -12,7 +12,7 @@ Baez\'s law it is *not* due to [[John Baez]].  It is only named after him, in ac
 ## Examples
 
 *  [[currying|Currying]] was first identified by [[Moses Schonfinkel|Moses Schönfinkel]], rather than by [[Haskell Curry]].
-*  [[Kripke frame]]s may also be due to Richard Monatgue, Hintikka and 'others'.
+*  [[Kripke frame]]s go back before Kripke to 1957; see [nForum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1991).
 
 There are several more already on the nLab; they just don't link here yet.
 
