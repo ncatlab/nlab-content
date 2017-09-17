@@ -18,7 +18,7 @@
 
 ## Definition
 
-A bisimplicial set is a bisimplicial object in [[Set]].
+A bisimplicial set is a [[bisimplicial object]] in [[Set]].
 
 
 ## Properties
