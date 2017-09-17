@@ -269,6 +269,9 @@ Some [[twisted cohomology|twists]] of Morava K-theory/maps into its [[∞-group 
 * [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
  {#SatiWesterland11}
 
+For a review in the context of [[M-theory]] see
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
 
 
 [[!redirects Morava K-theories]]
