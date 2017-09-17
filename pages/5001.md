@@ -37,7 +37,7 @@ The standard reference is
 
 * Goerss, Jardine, _Simplicial homotopy theory_
 
-The homotopy spectral sequence for cosimplicial spaces is in chapter VIII.
+The homotopy [[spectral sequence]] for cosimplicial spaces is in chapter VIII.
 
 * J. Jardine, _Cosimplicial spaces and cocycles_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/cosimp3.pdf))
 
