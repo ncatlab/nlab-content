@@ -27,7 +27,6 @@ For $R$ a commutative [[ring]], let $Alg_R$ or $2Vect_R$ (see at [[2-vector spac
 
 * [[objects]] are $R$-[[associative algebra|algebras]];
 
-
 * [[morphisms]] are [[bimodules]] over $R$-algebras;
 
 * [[2-morphisms]] are bimodule homomorphisms.
@@ -38,7 +37,7 @@ $$
   \mathbf{Br}(R) \coloneqq Core(Alg_R)
 $$
 
-be the maximal [[infinity-group|3-group]] inside (which is hence a [[braided 3-group]]), the [[core]] on the invertible objects, hence the [[2-groupoid]] whose
+be its [[Picard 3-group]], hence the maximal [[infinity-group|3-group]] inside (which is hence a [[braided 3-group]]), the [[core]] on the invertible objects, hence the [[2-groupoid]] whose
 
 * [[objects]] are algebras which are invertible up to [[Morita equivalence]] under tensor product;
 
