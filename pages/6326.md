@@ -1,13 +1,13 @@
 ## Idea
 
-__Orlov's dimension spectrum__ (or simply Orlov spectrum) is an invariant of a triangulated category, introduced by [[Dmitri Orlov]]. When the triangulated category if of geometric origin (e.g. bounded derived category of coherent sheaves on a projective variety, or a Fukaya category associcated to a symplectic manifold) then the Orlov's spectrum reflects some geometric information. The spectrum is 
-defined in terms of counting the extensions needed to generate all the objects from a fixed object, with some other operations, like competing under direct corpoducts and summands not counted. 
+__Orlov's dimension spectrum__ (or simply Orlov spectrum) is an invariant of a triangulated category, introduced by [[Dmitri Orlov]]. When the triangulated category is of geometric origin (e.g. the bounded derived category of coherent sheaves on a projective variety, or the Fukaya category associated to a symplectic manifold) then the Orlov spectrum reflects some geometric information. The spectrum is 
+defined in terms of counting the extensions needed to generate all the objects from a fixed object, with some other operations, like competing under direct coproducts and summands not counted. 
 
 ## Definitions
 
-An object $E$ ni triangulated category $T$ defines the smallest triangulated subcategory $I_E\subset T$ which is closed under direct sum. Given two full triangulated subcategories $I_1$ and $I_2$ one defines the full triangulated category $I_1 \ast I_2$ consisting of all $M$ such that there exist $M_1$ in $I_1$ and $M_2$ in $I_2$ such that $M_1\to I_1\to M_2$ is a distinguished triangle, and by $\langle I_1 \ast I_2\rangle$ the smallest full subcategory of $T$ containing $I_1 \ast I_2$ and closed under finite coproducts, summands and shifts. Define by induction $\langle E\rangle_1 = I_E$ and $\langle E\rangle_{k+1} = \langle \langle E\rangle_k \ast I_E \rangle$, $k\gt 1$. 
+An object $E$ in a triangulated category $T$ defines the smallest triangulated subcategory $I_E\subset T$ which is closed under direct sum. Given two full triangulated subcategories $I_1$ and $I_2$ one defines the full triangulated category $I_1 \ast I_2$ consisting of all $M$ such that there exist $M_1$ in $I_1$ and $M_2$ in $I_2$ such that $M_1\to M \to M_2$ is a distinguished triangle, and by $\langle I_1 \ast I_2\rangle$ the smallest full subcategory of $T$ containing $I_1 \ast I_2$ and closed under finite coproducts, summands and shifts. Define by induction $\langle E\rangle_1 = I_E$ and $\langle E\rangle_{k+1} = \langle \langle E\rangle_k \ast I_E \rangle$, $k\gt 1$. 
 
-The __dimension of a triangulated category__ $T$ is the minimal integer $d\gt 0$ such that there is $E\in Ob T$ such that $\langle E\rangle_d = T$ or infinity otherwise. The __generation time__ $d_E$ of an object $E$ in $T$ such that $\langle E\rangle_{d+1} = T$ and $\langle R\rangle_d \neq T$. $E$ is a strong generator if the generation time $d_E$ is finite. 
+The __dimension of a triangulated category__ $T$ is the minimal integer $d\gt 0$ such that there is $E\in Ob T$ such that $\langle E\rangle_d = T$ or infinity otherwise. The __generation time__ $d_E$ of an object $E$ in $T$ such that $\langle E\rangle_{d+1} = T$ and $\langle E\rangle_d \neq T$. $E$ is a strong generator if the generation time $d_E$ is finite. 
 
 The __dimension spectrum__ of $T$ is the set $\sigma(T)$ of generation times of all strong generators of $T$. 
 
