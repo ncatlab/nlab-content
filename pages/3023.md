@@ -121,6 +121,9 @@ A [[compact topological space|compact]] Riemann surface of [[genus]] $g \gq 2$ i
 
 ([MO discussion](http://mathoverflow.net/a/93340/381))
 
+### Branched covers
+
+By the [[Riemann existence theorem]], every connected compact [[Riemann surface]] admits the [[structure]] of a [[branched cover of the Riemann sphere]]. ([MO discussion](http://mathoverflow.net/a/53286/381))
 
 ### Function field analogy
 
