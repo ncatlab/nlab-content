@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself.
+In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself. This is a [[closure operator]]/[[modality]].
 
 
 ## In logic
@@ -45,7 +45,7 @@ If $E$ is a [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negat
 
 ### Definition
 
-+-- {: .num_def #DoubleNegationTopology}
++-- {: .num_defn #DoubleNegationTopology}
 ###### Definition/Proposition
 
 The double negation morphism
@@ -136,3 +136,6 @@ Section VI of
 [[!redirects double negation topologies]]
 [[!redirects double-negation topology]]
 [[!redirects double-negation topologies]]
+
+[[!redirects double negation modality]]
+[[!redirects double negation modalities]]
