@@ -241,5 +241,7 @@ For a discussion of the relation betwen [[motive]]s and motivic cohomology, see 
 
 * [[Spencer Bloch]], _Lectures on Mixed Motives_ ([ps](http://www.math.uchicago.edu/~bloch/motive.ps))
 
+* [[Marc Hoyois]], _On the relation between algebraic cobordism and motivic cohomology_ ([pdf](http://math.northwestern.edu/~hoyois/papers/hopkinsmorel.pdf))
+
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
