@@ -41,7 +41,7 @@ Every [[topos]] with a [[size issues|small set]] of [[separator|generators]] (e.
 
 +-- {: .proof} 
 ###### Proof 
-Let $C$ be a set of generators for the topos. We claim that 
+Let $C$ be a set of generators for the topos; as usual, let $\Omega$ be the subobject classifier. We claim that a product 
 
 $$\prod_{c \in C} \Omega^c$$ 
 
@@ -59,7 +59,7 @@ $$Y \to \prod_{c \in C} \Omega^c$$
 
 that yields distinct results when composed with $f$ and $g$. This proves the claim. 
 
-The object $\prod \Omega^c \cong \Omega^{\sum c}$ is injective because already $\Omega$ is injective (see Mac Lane-Moerdijk, IV.10), and it is a general fact that in a [[cartesian closed category]], an exponential $X^Y$ whose base $X$ is injective is also injective. 
+The object $\prod \Omega^c$ is injective because already $\Omega$ is injective (see Mac Lane-Moerdijk, IV.10), and it is a general fact that in a [[cartesian closed category]] (or more generally a [[closed monoidal category]]), an exponential (or internal Hom) $X^Y$ whose base $X$ is injective is also injective, and products of injective objects are injective. 
 =-- 
 
 Notice also that the existence of a small (co)generating family is one of the conditions in one version of the [[adjoint functor theorem]]. We may conclude, for example, that [[Grothendieck toposes]] are cototal (q.v.). 
