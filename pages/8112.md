@@ -16,13 +16,16 @@
 ## Idea
  {#Idea}
 
-Quite generally, _automorphic forms_ are suitably well-behaved [[functions]] on [[coset spaces]] $K \backslash G$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of some [[subgroup]] $K \hookrightarrow G$. 
+Quite generally, _automorphic forms_ are suitably well-behaved [[functions]] on a [[quotient]] space $K\backslash X$ and specifically on a [[coset spaces]] $K \backslash G$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of some [[subgroup]] $K \hookrightarrow G$. 
 
 By pullback of functions the linear space of such functions hence constitutes a [[representation]] of $G$ and such representations are then called _automorphic representations_, specifically so if $G = GL_n(\mathbb{A}_K)$ is the [[general linear group]] with [[coefficients]] in a [[ring of adeles]] of some [[global field]] and $K = GL_n(K)$. This is the subject of the _[[Langlands program]]_. There one also considers [[unramified]] such representations, which are constituted by functions that in addition are invariant under the action of $GL_n$ with coefficients in the [[integral adeles]], see [below](#InNumberTheory). 
 
+
+
 ### Modular forms
 
-For [[modular group]]/[[congruence subgroups]] $K$ of the real [[general linear group]] in dimension 2, $G = SL(2,\mathbb{R})$, _[[modular forms]]_ may be identified with such functions on $SL(2,\mathbb{R})/K$ (see at _[modular form -- as automorphic forms](http://ncatlab.org/nlab/show/modular+form#AsAutomorphicForms)_) and this is where the concept of automorphic forms originates.
+For [[modular group]]/[[congruence subgroups]] $K$ of the real [[general linear group]] in dimension 2, $G = SL(2,\mathbb{R})$, _[[modular forms]]_ may be identified with such functions on $SL(2,\mathbb{R})/K$ (see at _[modular form -- as automorphic forms](modular+form#AsAutomorphicForms)_) and this is where the concept of automorphic forms originates (see e.g. [this MO comment](http://mathoverflow.net/a/124785/381) for the history of terminology).
+
 
 ### In harmonic analysis
 
