@@ -137,7 +137,7 @@ for every diagram
 
 ## Properties
 
-### Transgression cocycles ###
+### Transgression cocycles {#TransgressionCocycles}
 
 We describe how to an [[nLab:∞-Lie algebroid]] invariant polynomial $\omega$ we associate an [[∞-Lie algebroid]] cocycle $\nu$ that is _in transgression with_ $\omega$.
 
@@ -235,6 +235,8 @@ For instance for $\mathfrak{g}$ a semisimple Lie algebra with Killing form $P = 
 ### On tangent Lie algebroids
 
 For $X$ a [[smooth manifold]], and invariant polynomial on the [[tangent Lie algebroid]] $\mathfrak{a} = T X$ is precisely a closed [[differential form]] on $X$.
+
+
 
 
 
