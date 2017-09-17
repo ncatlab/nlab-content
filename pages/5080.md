@@ -15,14 +15,16 @@
 
 ## Idea
 
-Every [[(∞,1)-topos]] $E$ has a [[shape of an (∞,1)-topos]] $Shape(E) \in Pro\infty Grpd$. When $E$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] then this is a genuine [[∞-groupoid]] $\Pi(E) \in $ [[∞Grpd]]. We may think of this as the [[fundamental ∞-groupoid]] of the $(\infty,1)$-topos regarded as a generalized [[space]].
+Every [[(∞,1)-topos]] $E$ has a [[shape of an (∞,1)-topos|shape]] $Shape(E) \in Pro\infty Grpd$. When $E$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] then this is a genuine [[∞-groupoid]] $\Pi(E) \in $ [[∞Grpd]]. We may think of this as the [[fundamental ∞-groupoid]] of the $(\infty,1)$-topos regarded as a generalized [[space]].
 
-But also every [[locally ∞-connected (∞,1)-topos]] has an _internal_ notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\Pi_E : E \to \infty Grpd$. Applied to its [[terminal object]] this does agree with the shape:
+But also every [[locally ∞-connected (∞,1)-topos]] has an _internal_ notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] for objects of $E$, denoted $\Pi_E : E \to \infty Grpd$. Applied to its [[terminal object]] this does agree with the fundamental ∞-groupoid of the topos:
 
 $$
   \Pi(E) \simeq \Pi_E(*)
   \,.
 $$
+
+Conversely, for an object $X\in E$, the fundamental ∞-groupoid $\Pi_E(X)$ internal to $E$ can be identified with the fundamental ∞-groupoid of the locally ∞-connected (∞,1)-topos $E/X$.
 
 
 ## Definition
