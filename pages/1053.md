@@ -105,7 +105,7 @@ We now define the valid sequents, where we write $A, B, C \vdash D, E, F$ to sta
    *  If $\Gamma, A, \Delta \vdash \Theta$ or $\Gamma, B, \Delta \vdash \Theta$, then $\Gamma, A \& B, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A, \Theta$ and $\Gamma \vdash \Delta, B, \Theta$, then $\Gamma \vdash \Delta, A \& B, \Theta$.
    *  Dually, if $\Gamma \vdash \Delta, A, \Theta$ or $\Gamma \vdash \Delta, B, \Theta$, then $\Gamma \vdash \Delta, A \oplus B, \Theta$; conversely, if $\Gamma, A, \Delta \vdash \Theta$ and $\Gamma, B, \Delta \vdash \Theta$, then $\Gamma, A \oplus B, \Delta \vdash \Theta$.
    *  If $\Gamma, A, B \Delta \vdash \Theta$, then $\Gamma, A \otimes B, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A $ and $\vdash B, \Theta$, then $\Gamma \vdash \Delta, A \otimes B, \Theta$.
-   *  Dually, if $\Gamma \vdash \Delta, A, B, \Theta$, then $\Gamma \vdash \Delta, A \parr B, \Theta$; conversely, if $A, \Gamma \vdash \Delta$ and $\Theta, B \vdash$, then $\Theta, A \parr B, \Gamma \vdash \Delta$.
+   *  Dually, if $\Gamma \vdash \Delta, A, B, \Theta$, then $\Gamma \vdash \Delta, A \parr B, \Theta$; conversely, if $A, \Gamma \vdash \Delta$ and $\Theta, B \vdash \Delta$, then $\Theta, A \parr B, \Gamma \vdash \Delta$.
    *  Always $\Gamma \vdash \Delta, \top, \Theta$; dually (there is no converse), $\Gamma, \mathbf{0}, \Delta \vdash \Theta$.
    *  If $\Gamma, \Delta \vdash \Theta$, then $\Gamma, \mathbf{1}, \Delta \vdash \Theta$; conversely, $\vdash \mathbf{1}$.
    *  Dually, if $\Gamma \vdash \Delta, \Theta$, then $\Gamma \vdash \Delta, \bot, \Theta$; conversely, $\bot \vdash$.
