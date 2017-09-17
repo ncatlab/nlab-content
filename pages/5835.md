@@ -4,3 +4,5 @@ Jeff Giansiracusa is an EPSRC funded research fellow at Swansea University in th
 * [homepage at Swansea](http://maths.swansea.ac.uk/staff/jhg/index.html)
 
 category: people
+
+[[!redirects Jeffrey Giansiracusa]]
