@@ -51,7 +51,7 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[synthetic differential geometry]]
 
-* [[derived differential geometry]]
+* [[higher differential geometry]], [[derived differential geometry]]
 
 * [[D-geometry]]
 
