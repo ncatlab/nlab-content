@@ -1,7 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
 # Topological locales
 * tables of contents
@@ -18,7 +28,7 @@ Let $X$ be a [[topological space]].  Then we may define a [[locale]], denoted $\
 
 A locale is __topological__, or __spatial__, if it is [[isomorphism|isomorphic]] to $\Omega(X)$ for some topological space $X$.
 
-A locale $L$ has __enough points__ if, given any two opens $U$ and $V$ in $L$, $U = V$ if (hence iff) precisely the same [[point of a locale|points]] of $L$ belong to $U$ as belong to $V$.
+A locale $L$ has __[[point of a topos|enough points]]__ if, given any two opens $U$ and $V$ in $L$, $U = V$ if (hence iff) precisely the same [[point of a locale|points]] of $L$ belong to $U$ as belong to $V$.
 
 
 ## Properties
@@ -43,6 +53,16 @@ Therefore, the [[full subcategory]] of $Loc$ on the topological locales is [[equ
 The terms 'topological locale' and 'spatial locale' can be confusing; they suggest a locale [[internalization|in]] [[Top]] or in some category [[Sp]] of spaces, which is not correct.  Instead, the adjective 'topological' and 'spatial' should be taken in the same vein as 'localic' in '[[localic topos]]' or 'topological' in 'topological [[convergence space|convergence]]'.  These two terms also suggest that the study of *other* locales is not part of [[topology]] or that these other locales are not [[spaces]], which is also incorrect.
 
 The really clear term for a topological locale is 'locale with enough points to separate the opens', but 'locale with enough points' should be unambiguous.  However, it is still a bit long.  The shortest term, 'spatial locale', is probably also the most common.  Occasionally one sees 'spacial' instead of 'spatial', but this might just be a misspelling.
+
+## Related concepts
+
+* [[locale]]
+
+* [[topological space]]
+
+* [[ionad]]
+
+* [[topos]]
 
 
 [[!redirects topological locale]]
