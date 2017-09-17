@@ -58,8 +58,11 @@ For more details see
 
 ## References
 
-ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory textbook using it: 
+ETCS was proposed in 
 
+* [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511 (1965), reprinted as [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_, Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
+
+An undergraduate set-theory textbook using it is
 
 * [[William Lawvere]], R. Rosebrugh, _Sets for Mathematics_ , ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 {#LawvereRosebrugh}
