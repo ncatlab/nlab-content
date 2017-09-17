@@ -58,6 +58,8 @@ That some [[particle]]s have a property called [[spinor|spin]] was found in 1922
 
   * [[relativistic particle]], **spinning particle**, [[superparticle]]
 
+    * [[A-hat genus]], [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
   * [[string]], [[spinning string]], [[superstring]]
 
   * [[membrane]]
