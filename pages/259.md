@@ -47,7 +47,7 @@ An **[[algebraic quasi-category]]** is a quasi-category equipped with a _choice_
 
 * One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial set]]s.
 
-* In older literature, the term "quasicategory" was sometimes used for a "very large" category whose objects are [[large categories]] or otherwise built out of [[proper classes]], but nowadays this usage is fairly archaic.
+* In older literature, such as [[The Joy of Cats]], the term "quasicategory" was sometimes used for a "very large" category whose objects are [[large categories]] or otherwise built out of [[proper classes]], but nowadays this usage is fairly archaic.  See also [[metacategory]]
 
 
 ### Higher associahedra in quasi-categories
