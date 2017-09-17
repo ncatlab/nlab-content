@@ -91,6 +91,8 @@
 
         * [[local net]]
 
+      * [[Reeh-Schlieder theorem]]     
+
       * [[Osterwalder-Schrader theorem]]
 
       * [[PCT theorem]]
@@ -103,9 +105,13 @@
 
     * [[FQFT|functorial QFT]]
 
+      * [[cobordism]]
+
       * [[(∞,n)-category of cobordisms]]
 
       * [[cobordism hypothesis]]-theorem
+
+      * [[extended topological quantum field theory]]
 
   * Tools
 
