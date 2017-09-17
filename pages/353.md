@@ -17,7 +17,7 @@
 
 * [[3-category]], [[tricategory]]
 
-* [[4-category]]], [[tetracategory]]
+* [[4-category]], [[tetracategory]]
 
 * **$n$-category**
 
