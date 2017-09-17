@@ -76,19 +76,19 @@ The [[local quantum field theory|locality]] [[axiom]] encodes the the physical p
 +-- {: .num_remark}
 ###### Remark
 
-Many _auxiliary_ [[operator]]s in [[quantum field theory]] do _not_ satisfy causal locality: for instance operators associate to [[current]]s in [[gauge theory]]. The idea is that those operators that actually do qualify as _[[observables]]_ do satisfy the axiom, however, i.e. in particular those that are [[gauge symmetry|gauge invariant]].
+Many _auxiliary_ [[operators]] in [[quantum field theory]] do _not_ satisfy causal locality: for instance operators associate to [[current]]s in [[gauge theory]]. The idea is that those operators that actually do qualify as _[[observables]]_ do satisfy the axiom, however, i.e. in particular those that are [[gauge symmetry|gauge invariant]].
 
 =--
 
 ### Extra axioms
 
-#### Strong locality
+#### Einstein locality 
 
 Commutativity of spacelike separated observables can be argued to capture only part of [[causal locality]]. 
 
-A natural stronger requirement is that [[spacelike]] separated regions of [[spacetime]] are literally [independent quantum subsystems](http://ncatlab.org/nlab/show/quantum%20mechanics#Subsystems) of any larger region. By the formalization of _independent subsystem_ in [[quantum mechanics]] this means the following:
+A natural stronger requirement is that [[spacelike]] separated regions of [[spacetime]] are literally [independent quantum subsystems](quantum%20mechanics#Subsystems) of any larger region. By the formalization of _independent subsystem_ in [[quantum mechanics]] this means the following:
 
-+-- {: .num_defn}
++-- {: .num_defn #EinsteinLocality}
 ###### Definition
 
 A local net $\mathcal{A}$ satisfies **Einstein locality** if for every causal embedding $X_1 \coprod X_2 \to X$ the [subsystems](http://ncatlab.org/nlab/show/quantum%20mechanics#Subsystems) 
@@ -103,7 +103,7 @@ $$
   \mathcal{A}(X_2) \hookrightarrow \mathcal{A}(X)
 $$
 
-are _independent_ meaning that the algebra $\mathcal{A}(X_1) \vee \mathcal{A}(X_2) \in \mathcal{A}(X)$ which they generate is [[isomorphism|isomorphic]] to the [[tensor product]] $\mathcal{A}(X_1) \otimes \mathcal{A}(X_2)$.
+are _independent_ in that the algebra $\mathcal{A}(X_1) \vee \mathcal{A}(X_2) \in \mathcal{A}(X)$ which they generate is [[isomorphism|isomorphic]] to the [[tensor product]] $\mathcal{A}(X_1) \otimes \mathcal{A}(X_2)$.
 
 =--
 
@@ -128,9 +128,12 @@ This appears as ([BrunettiFredenhagen, 5.3.1, theorem 1](#BrunettiFredenhagen)).
 +-- {: .num_remark}
 ###### Remark
 
-Einstein locality implies causal locality, but is stronger.
+Einstein locality implies [[causal locality]], but is stronger.
 
 =--
+
++-- {: .num_remark}
+###### Remark
 
 Other properties implied by Einstein locality are sometimes extracted as separate axioms. For instance the condition that for $X_1 \coprod X_2 \to X$ a causal embedding, we have
 
@@ -138,6 +141,40 @@ $$
   \mathcal{A}(X_1) \cap \mathcal{A}(X_2) = \mathbb{C}
   \,.
 $$
+
+=--
+
+#### Strong locality
+ {#StrongLocality}
+
+In ([Nuiten 11](#Nuiten11)) the following variant of [[causal locality]] was considered and shown to be equivalent to a [[descent]] condition for the system of [[Bohr toposes]] associated with a local net of observables
+
++-- {: .num_defn #StrongLocality}
+###### Definition
+
+A net of observables is **strongly local** if it is microlocal in that algebras $A_1 = A(O_1)$ and $A_2 = A(O_2)$ associated with  spacelike separated regions commute with each other, and in addition for all commutative subalgebras $C_1 \subset A_1$ and $C_2 \subset A_2$ the algebra $C_1 \vee C_2 \subset A(O_1 \vee O_2)$ satisfy
+
+1. $(C_1 \vee C_2) \cap A_1 = C_1$
+
+1. $(C_1 \vee C_2) \cap A_2 = C_2$.
+
+=--
+
+This is ([Nuiten 11, def 14](#Nuiten11)).
+
++-- {: .num_remark }
+###### Remark
+
+It is clear that Einstein locality implies strong locality, def. \ref{EinsteinLocality}
+
+$$
+   Einstein\;locality \;\;\Rightarrow  \;\; Strong\;locality
+  \,.
+$$
+
+In fact strong locality is strictly weaker than Einstein locality in that there are strongly locally embedded subalgebras which are not Einstein locally embedded. More discussion of this is in ([Wolters 13, section 6.3.3](#Wolters13)).
+
+=--
 
 
 #### Time-slice axiom
@@ -232,6 +269,15 @@ A comprehensive review, with plenty of background information, is in
 * [[Christian Bär]], [[Klaus Fredenhagen]], (eds.) _Quantum field theory on curved spacetime_ , Lecture notes in physics, Springer (2009)
   {#BaerFredenhagen}
 
+Discussion of Einstein locality of a net of observables equivalently as a [[descent]] condition on the system of [[Bohr toposes]] induced by the [[algebras of observables]] is in 
+
+* [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]_, Bachelor thesis 2011
+  {#Nuiten11}
+
+A review of this with some further discussion is in section 6 of 
+
+* Sander Wolters, _Quantum toposophy_, PhD Thesis 2013
+  {#Wolters13}
 
 ### In perturbation theory
 
