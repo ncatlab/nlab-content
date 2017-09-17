@@ -198,7 +198,7 @@ $$
   \stackrel{\mathbf{c}_n}{\to} \mathbf{B}^2 U(1)
 $$
 
-is induced a notion of [[twisted cohomology]] which makes the Kalb-Ramonf field act as a twist for [[twisted K-theory]].
+is induced a notion of [[twisted cohomology]] which makes the Kalb-Ramond field act as a twist for [[twisted K-theory]].
 
 In these terms, the setup of T-duality is a [[correspondence]] of [[Kalb-Ramond field]]s over [[spacetime]] [[torus]]-bundles $P \to X$ and $\hat P \to X$ that induces an integral transform
 
