@@ -105,4 +105,6 @@ However, the 2-categories $T Alg_l$ and $T Alg_c$ are not so well-behaved; they 
 [[!redirects colax morphisms]]
 [[!redirects oplax morphism]]
 [[!redirects oplax morphisms]]
+[[!redirects pseudo morphism]]
+[[!redirects pseudo morphisms]]
 
