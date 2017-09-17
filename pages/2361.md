@@ -13,7 +13,7 @@
 =--
 =--
 
-An __inverse limit__ is the same thing as a [[limit]].  (Similarly, a [[direct limit]] is the same thing as a [[colimit]].)  In this context, an __inverse system__ is the same thing as a [[diagram]], and an __inverse cone__ is the same thing as a [[cone]].
+An __inverse limit__ is the same thing as a [[limit]].  (Similarly, a [[direct limit]] is the same thing as a [[colimit]].)  In this context, an __inverse system__ is the same thing as a [[diagram]], and an __inverse cone__ is the same thing as a [[cone]]. If the __indexing category__ is that associated to the natural numbers with its usual order, then an inverse system is often called an __inverse sequence__.
 
 Many authors restrict this terminology to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]. 
 
