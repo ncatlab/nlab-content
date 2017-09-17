@@ -1,0 +1,12 @@
+
+In [[physics]]:
+
+* [[classical field theory]]
+
+* [[quantum field theory]]
+
+In [[mathematics]]:
+
+* [[class field theory]]
+
+category: disambiguation
