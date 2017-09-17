@@ -33,6 +33,8 @@ for more on this.
 
 * [[flat section]]
 
+* [[local section]]
+
 [[!redirects sections]]
 [[!redirects cross section]]
 [[!redirects cross-section]]
