@@ -421,3 +421,6 @@ and the generalization to classification of smooth [[principal 2-bundle]]s is in
 
 [[!redirects Lie infinity-groupoid]]
 [[!redirects Lie infinity-groupoid]]
+
+[[!redirects smooth ∞-group]]
+[[!redirects smooth ∞-groups]]
