@@ -1,0 +1,64 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let 
+
+$$
+  \langle -,-\rangle
+  \colon
+  V \otimes V \to k
+$$ 
+
+be a [[bilinear form]]. A [[function]] 
+
+$$
+  q \colon V \to k
+$$ 
+
+is called a **[[quadratic refinement]]** of $\langle -,-\rangle$ if
+
+$$
+  \langle v,w\rangle = 
+  q(v + w) - q(v) - q(w) + q(0)
+$$
+
+for all $v,w \in V$.
+
+
+If such $q$ is indeed a [[quadratic form]] in that $q(t v) = t^2 q(v)$ then $q(0) = 0$ and
+
+$$
+  \langle v , v \rangle = 2 q(v)
+  \,.
+$$
+
+This means that a quadratic refinement by a [[quadratic form]] always exists when $2 \in k$ is invertible. Otherwise its existence is a non-trivial condition. One way to express quadratic refinements is by [[characteristic elements of a bilinear form]]. See there for more.
+
+## Related concepts
+
+* [[cubical structure on a line bundle]]
+
+## References
+
+Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerful tool in [[algebraic topology]] and [[differential topology]]. See
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+
+
+
+[[!redirects quadratic refinements]]
