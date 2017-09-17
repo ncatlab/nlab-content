@@ -1,13 +1,23 @@
+
+## Related concepts
+
 * [[symplectic structures]]
 * [[derived algebraic geometry]]
-* [[AKSZ topological field theory]]
+* [[AKSZ sigma-model]]
+
+## References
 
 * [[Tony Pantev]], [[Bertrand Toen]], [[Michel Vaquie]], [[Gabriele Vezzosi]], _Shifted symplectic structures_, 2013, 
 [arXiv:1111.3209](http://arxiv.org/abs/1111.3209).
 
 * [[Pavel Safronov]], _Quasi-Hamiltonian reduction via classical Chern--Simons theory_, 2013, [arXiv:1311.6429](http://arxiv.org/abs/1311.6429).
 
+[[Darboux theorem]]:
+
 * [[Chris Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A Darboux theorem for derived schemes with shifted symplectic structure_, 2013, [arXiv:1305.6302](http://arxiv.org/abs/1305.6302).
+
+* [[Oren Ben-Bassat]], [[Christopher Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A 'Darboux Theorem' for shifted symplectic structures on derived Artin stacks, with applications_ ([arXiv:1312.0090](http://arxiv.org/abs/1312.0090))
+
 
 [[!redirects shifted symplectic structures]]
 [[!redirects derived symplectic geometry]]
