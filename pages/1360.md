@@ -171,16 +171,16 @@ For $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant rep
 
 ### General
 
-* The thandard [[model structure on simplicial sets]] $sSet_{Quillen}$ is a [[closed monoidal category|closed]] [[monoidal model category]] and is hence naturally enriched, as a model category, over itself. This is the archetypical simplicial model category.
+* The standard [[model structure on simplicial sets]] $sSet_{Quillen}$ is a [[closed monoidal category|closed]] [[monoidal model category]] and is hence naturally enriched, as a model category, over itself. This is the archetypical simplicial model category.
 
 * For $C$ any small [[sSet]]-[[enriched category]] and $A$ [[simplicial combinatorial model category]], the [[global model structure on functors]] $[C^{op}, A]_{proj}$ and $[C^{op},A]_{inj}$ are themselved simplicial combinatorial model categories. See _[[model structure on simplicial presheaves]]_.
 
-* The [[Bousfield localization of model categories|left Bousfield localization]] of a [[combinatorial simplicial model category]] at any set of morphisms is again a combinatorial simplicial model category. Large clases of examples arise this way. 
+* The [[Bousfield localization of model categories|left Bousfield localization]] of a [[combinatorial simplicial model category]] at any set of morphisms is again a combinatorial simplicial model category. Large classes of examples arise this way. 
 
 ### Simplicial Quillen equivalent models 
   {#SimpEquivMods}
 
-While many model categories do not admit an $sSet_{Quillen}$-enrichment, for large classes of model categories one can find a [[Quillen equivalence]] to a model cateory that does have an $sSet_{Quillen}$-enrichment.
+While many model categories do not admit an $sSet_{Quillen}$-enrichment, for large classes of model categories one can find a [[Quillen equivalence]] to a model category that does have an $sSet_{Quillen}$-enrichment.
 
 These are constructed as [[Bousfield localization of model categories|Bousfield localization]] of [[Reedy model structures]] on the [[category of simplicial objects]] in the given model category. 
 
