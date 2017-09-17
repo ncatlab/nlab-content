@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/C._S._Seshadri)
+
+## related $n$Lab entries
+
+* [[Narasimhan-Seshadri theorem]]
+
+category: people
