@@ -5,19 +5,20 @@
 
 ## Idea
 
-The unordered pair of $x$ and $y$, denoted $\{x,y\}$, has the property that $\{x_1,y_1\} = \{x_2,y_2\}$ if and only if $x_1 = x_2$ and $y_1 = y_2$ or $x_1 = y_2$ and $y_1 = x_2$.  In other words, the unordered pair $\{x,y\}$ is the same as the [[ordered pair]] $(x,y)$, except that presentation order does not matter.
+The _unordered pair_ of $x$ and $y$, denoted $\{x,y\}$, has the property that $\{x_1,y_1\} = \{x_2,y_2\}$ if and only if $x_1 = x_2$ and $y_1 = y_2$ or $x_1 = y_2$ and $y_1 = x_2$.  In other words, the unordered pair $\{x,y\}$ is the same as the _[[ordered pair]]_ $(x,y)$, except that presentation order does not matter.
 
-A more transparent terminology calls an _unordered pair_ a __pair set__ which allows __pair__ to unambiguously mean _ordered pair_ (as it usually does in current usage), however the _ordered/unordered_ distinction is well entrenched in the literature.
+A more transparent terminology calls an unordered pair a _pair set_, which allows a _pair_ to unambiguously be an ordered pair (as is usual in current usage), however the _ordered/unordered_ distinction is well entrenched in the literature.
+
 
 ## Definition
 
 Unordered pairs are commonly defined as [[subsets]], as follows:
 
-If $A$ is a [[set]] and $x$ and $y$ are [[elements]] of $A$, then the __unordered pair__ $\{x,y\}$ is the [[subset]] of $A$ with the property that $z \in \{x,y\}$ if and only if $z = x$ or $z = y$.  Note that $\{x,x\} = \{x\}$, a [[singleton]].
+If $A$ is a [[set]] and $x$ and $y$ are [[elements]] of $A$, then the __unordered pair__ or __pair set__ $\{x,y\}$ is the [[subset]] of $A$ with the property that $z \in \{x,y\}$ if and only if $z = x$ or $z = y$.  Note that $\{x,x\} = \{x\}$, a [[singleton]].
 
 In [[material set theory]], we may apply this when $x$ and $y$ are not previously given as elements of any set $A$.  In that case, the existence of the unordered pair is given by the [[axiom of pairing]].
 
-The set of all unordered pairs of elements of $A$ may be denoted $\big(\!\big({A \atop 2}\big)\!\big)$.
+The set of all unordered pairs of elements of $A$ may be denoted $\big(\!\big({A \atop 2}\big)\!\big)$.  [[classical mathematics|Classically]] (using [[excluded middle]]), $\big(\!\big({A \atop 2}\big)\!\big)$ is the internal [[disjoint union]] $\big({A \atop 1}\big) \uplus \big({A \atop 2})$; in other words, every unordered pair is either a $1$-element set (a [[singleton]]) or a $2$-element set.
 
 
 ## Relation to ordered pairs
@@ -34,3 +35,7 @@ The term '[[pairing]]' in the $n$Lab usually refers to *ordered* pairs.
 
 [[!redirects unordered pair]]
 [[!redirects unordered pairs]]
+[[!redirects pair set]]
+[[!redirects pair sets]]
+[[!redirects pair subset]]
+[[!redirects pair subsets]]
