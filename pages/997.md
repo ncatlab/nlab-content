@@ -1,9 +1,9 @@
-A __cogenerator__ in a category $C$ is an object $S$ such that the functor $h_S = C(-,S) : C^{\mathrm{op}} to\mathrm{Set}$ is [[faithful functor|faithful]]. This means that for any pair $g_1,g_2\in C(X,Y)$, if they are indistinguishable by morphisms to $S$ in the sense that
+A __cogenerator__ in a [[category]] $C$ is an [[object]] $S$ such that the [[functor]] $h_S = C(-,S) : C^{\mathrm{op}} to\mathrm{Set}$ is [[faithful functor|faithful]]. This means that for any pair $g_1,g_2\in C(X,Y)$, if they are indistinguishable by morphisms to $S$ in the sense that
 $$ \forall (\theta: Y \to S),\; \theta \circ g_1 = \theta \circ g_2 ,$$
 then $g_1 = g_2$.
 
 One often extends this notion to a __cogenerating family__ of objects, which is a (usually [[small category|small]]) set $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $C$ such that the family $C(-,S_a)$ is jointly faithful. This means that for any pair $g_1,g_2\in C(X,Y)$, if they are indistinguishable by morphisms to $\mathcal{S}$ in the sense that
-$$ \forall (a: A),\; \forall (\theta: X \to S_a),\; \theta \circ g_1 = \theta \circ g_2 ,$$
+$$ \forall (a: A),\; \forall (\theta: Y \to S_a),\; \theta \circ g_1 = \theta \circ g_2 ,$$
 then $g_1 = g_2$.
 
 The dual notion is [[generator]].
