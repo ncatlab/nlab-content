@@ -43,7 +43,7 @@ The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon
 
 ## References
 
-*  Douglas Bridges, Fred Richman, and Peter Schuster (1998). A weak countable choice principle. Available from [Fred Richman's Documents](http://www.math.fau.edu/Richman/HTML/DOCS.HTM).
+*  Douglas Bridges, Fred Richman, and Peter Schuster (1998). A weak countable choice principle. [PDF](http://math.fau.edu/richman/Docs/wcc.pdf) [AMS PDF](http://www.ams.org/proc/2000-128-09/S0002-9939-00-05327-2/)
 {#BRS}
 
 
