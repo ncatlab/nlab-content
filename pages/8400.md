@@ -16,7 +16,7 @@
 
 ## Idea
 
-Kleene's second algebra is a [[partial combinatory algebra]] based on [[irrational number|Baire space]]. It was introduced by Kleene to formalize Brouwer's notion of choice sequence.
+Kleene's second algebra is a [[partial combinatory algebra]] based on [[irrational number|Baire space]]. It was introduced by [[Kleene]] to formalize [[Brouwer]]'s notion of [[choice sequence]].
 
 ## Definition
 
@@ -62,7 +62,7 @@ Kleene's second algebra is an abstraction of [[function realizability]] introduc
 
 ## References
 
-* Kleene, Introduction to Meta-Mathematics, 1952
+* [[Stephen Kleene]], _Introduction to Meta-Mathematics_ (1952)
 
 * {#Streicher07} [[Thomas Streicher]], example 3.4 of _Realizability_ (2007/08) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
 
@@ -70,6 +70,6 @@ Kleene's second algebra is an abstraction of [[function realizability]] introduc
 
 A presentation of neighborhood functions using algebras and co-algebras:
 
-* {#GhaniHP09} Neil Ghani, Peter Hancock, Dirk Pattinson, Continuous Functions on Final Coalgebras, 2009. [PDF](https://personal.cis.strath.ac.uk/neil.ghani/papers/ghani-mfps09.pdf)
+* {#GhaniHP09} [[Neil Ghani]], Peter Hancock, Dirk Pattinson, _Continuous Functions on Final Coalgebras_, 2009. ([pdf](https://personal.cis.strath.ac.uk/neil.ghani/papers/ghani-mfps09.pdf))
 
 [[!redirects Kleene's second partial combinatory algebra]]
