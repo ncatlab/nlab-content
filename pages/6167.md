@@ -1,3 +1,4 @@
+[[!redirects Sander Kupers]]
 
 * [website](http://math.stanford.edu/~kupers/)
 
