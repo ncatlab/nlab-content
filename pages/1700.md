@@ -398,6 +398,8 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 
 * [[categorical Galois theory]]
 
+* [[anabelian geometry]]
+
 * [[geometric homotopy groups in an (∞,1)-topos]]
 
 * [[fundamental group of a topos]]
