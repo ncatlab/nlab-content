@@ -52,6 +52,8 @@ if
 
 That $\mathcal{C}$ is locally presentable is equivalent to each of the following equivalent characterizations.
 
+1. $\mathcal{C}$ is [[locally small (infinity,1)-category|locally small]], with all small [[(∞,1)-colimits]] such that there is a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of [[small objects]] which generates all of $\mathcal{C}$ under [[(∞,1)-colimits]].
+
 1.  $\mathcal{C}$ is the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-presheaves]] $PSh_\infty(K)$ along an [[accessible (∞,1)-functor]]:
 
     there exists a [[small (∞,1)-category]] $K$ and a pair of [[adjoint (∞,1)-functors]]
@@ -77,11 +79,10 @@ That $\mathcal{C}$ is locally presentable is equivalent to each of the following
 
 1. There exists a [[cardinal number|regular cardinal]] $\kappa$, a small $(\infty,1)$-category $D$ with $\kappa$-small [[limit in quasi-categories|colimits]] and an equivalence $Ind_\kappa D \stackrel{\simeq}{\to} \mathcal{C}$ with the category of $\kappa$-[[ind-object]]s of $D$.
 
-1. $\mathcal{C}$ is [[locally small (infinity,1)-category|locally small]], admits small colimits, and there exists a [[cardinal number|regular cardinal]] $\kappa$ and a small [[set]] $Cmptcs$ of $\kappa$-[[compact object in an (infinity,1)-category|compact object]]s of $C$ such that every object in $C$ is a [[limit in quasi-categories|colimit]] of a small diagram in the full subcategory on $Cmpcts$.
 
 =--
 
-This is [Lurie, theorem 5.5.1.1](#Lurie), attributed to [[Carlos Simpson]]. 
+This is [Lurie, theorem 5.5.1.1](#Lurie), following ([Simpson](#Simpson)). We discuss this further below in _[Equivalent characterizations](#EquivalentCharacterizations)_.
 
 
 +-- {: .num_remark}
@@ -117,6 +118,37 @@ This $(\infty,1)$-category $Pr(\infty,1)Cat$ in turn as special properties. More
 
 
 ## Properties
+
+### Equivalent characterizations
+ {#EquivalentCharacterizationsDetails}
+
+We indicate stepts in the proof of prop. \ref{EquivalentCharacterizations}.
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $f \colon \mathcal{C} \to \mathcal{D}$ be an [[(∞,1)-functor]] which exhibits $\mathcal{D}$ as an [[idempotent completion of an (∞,1)-category|idempotent completion of]] $\mathcal{C}$. Let $\kappa$ be a [[regular cardinal]]. Then the induced functor on [[(∞,1)-categories of ind-objects]]
+
+$$
+  Ind_\kappa(f) \colon Ind_\kappa(\mathcal{C}) \to Ind_\kappa(\mathcal{D})
+$$
+
+is an [[equivalence of (∞,1)-categories]].
+
+=--
+
+This is ([Lurie, lemma 5.5.1.3](#Lurie)).
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $L \colon \mathcal{C} \to \mathcal{D}$ be an [[(∞,1)-functor]] between [[(∞,1)-categories]] which have $\kappa$-[[filtered (∞,1)-colimits]], and let $R$ be a [[right adjoint|right]] [[adjoint (∞,1)-functor]] of $L$. If $R$ preserves $\kappa$-[[filtered (∞,1)-colimits]] then $L$ preserves $\kappa$-[[compact objects]].
+
+=--
+
+This is [Lurie, lemma 5.5.1.4](#Lurie).
+
+(...)
 
 
 ### Stability under various constructions
@@ -271,6 +303,23 @@ The canonical example is the presentation of the [[(∞,1)-category of (∞,1)-s
 
 ## Examples
 
+The basic example is:
+
++-- {: .num_example}
+###### Example
+
+[[∞Grpd]] is locally presentable.
+
+=--
+
+([Lurie, example 5.5.1.8](#Lurie))
+
++-- {: .proof}
+###### Proof
+
+According to the discussion at [(∞,1)-colimit -- Tensoring with an ∞-groupoid](limit+in+a+quasi-category#Tensoring) every [[∞-groupoid]] is the colimit over itself of the functor contant on the point, the terminal $\infty$-groupoid. This is clearly compact, and hence generates [[∞Grpd]].
+
+=--
 
 +-- {: .num_example}
 ###### Example
@@ -312,6 +361,7 @@ For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-cate
 The theory of locally presentable $(\infty,1)$-categories was first implicitly conceived in terms of [[model category]] presentations in
 
 * [[Carlos Simpson]],  _A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
+ {#Simpson}
 
 The full intrinsic $(\infty,1)$-categorical theory appears in section 5 
 
