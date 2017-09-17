@@ -13,7 +13,7 @@ Compare the ideas discussed on this page with those at [[internal profunctor]] a
 Given $C\in Cat(E)$, with the usual structure maps $s,t,i,c$, an **internal diagram** $F$ on $C$ (or, of type $C$) is given by
 
 * a morphism $d : F_0\to C_0$ in $E$ together with
-* a morphism $e : F_1= F_0\times_{C_0} C_1 \to C_1$
+* a morphism $e : F_1= F_0\times_{C_0} C_1 \to F_0$
 
 where $F_1$ is the pullback
 \[
