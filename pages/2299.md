@@ -87,6 +87,11 @@ A notable exception to this is possibly the program by [[Maxim Kontsevich]] and 
 
 * [[higher Cartan geometry]]
 
+## Related concepts
+
+[[!include Isbell duality - table]]
+
+
 ## References
 
 An axiomatization of higher geometry of [[little topos|little]] [[(∞,1)-topos]]es is proposed in
