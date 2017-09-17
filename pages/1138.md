@@ -3,7 +3,9 @@
 [[!include topos theory - contents]]
 </div>
 
+This page is about **inverse images of sheaves** and related subjects.  For the set-theoretic operation, see [[preimage]].
 
+***
 
 # Inverse images
 * tic
@@ -21,7 +23,7 @@ $$
   f^{-1} : Sh(Y) \to Sh(X)
 $$
 
-that may be interpreted as encoding the idea of _pulling back along $f$_ the "bundle of wich the sheaf is the sheaf of sections".
+that may be interpreted as encoding the idea of _pulling back along $f$_ the "bundle of which the sheaf is the sheaf of sections".
 
 In the case that $X$ and $Y$ are (the [[site]]s corresponding to) [[topological space]]s this interpretation becomes literally true: the inverse image of a sheaf on topological spaces is the pullback operation on the corresponding [[etale space]]s.
 
@@ -215,7 +217,7 @@ called the **inverse image functor**.
 
 The standard example is that where $X$ and $Y$ are [[topological space]]s and $S_X = Op(X)$, $S_Y = Op(Y)$ are their [[category of open subsets|categories of open subsets.]]
 
-A continuous map $f : X \to Y$ induces the obvious functor $f^{-1} : Op(Y) \to Op(X)$, since preimages of open subsets under continuous maps are open. 
+A [[continuous map]] $f : X \to Y$ induces the obvious functor $f^{-1} : Op(Y) \to Op(X)$, since [[preimages]] of open subsets under continuous maps are open. 
 
 Hence presheaves canonically push-forward
 
@@ -257,5 +259,6 @@ For the description in terms of pullback of etale spaces see secton VII.1 of
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
 
 
+[[!redirects inverse image]]
 [[!redirects inverse images]]
 [[!redirects inverse image functor]]
