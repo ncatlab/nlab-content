@@ -239,7 +239,7 @@ This is easy to see in low dimensions:
     \array{
       && x_1
       \\
-      & {}^{\mathllap{d_2 \phi}}\nearrow &\Downarrow^\phi& \searrow^{\mathrlap{d_1 \phi}}
+      & {}^{\mathllap{d_2 \phi}}\nearrow &\Downarrow^\phi& \searrow^{\mathrlap{d_0 \phi}}
       \\
       x_0 &&\underset{d_1 \phi}{\to}&& x_2
     }
