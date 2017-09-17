@@ -25,7 +25,7 @@
 
 __$Set$__ is the (or a) [[category]] with [[sets]] as [[objects]] and [[functions]] between sets as [[morphisms]]. 
 
-This definition is somewhat vague by design. Rather than canonize a fixed set of principles, the nLab adopts a 'pluralist' point of view which recognizes different needs and foundational assumptions among mathematicians who use set theory. Thus, there are various axes ('axises') to consider when formulating categorical properties one thinks $Set$ should satisfy, including 
+This definition is somewhat vague by design. Rather than canonize a fixed set of principles, the nLab adopts a 'pluralist' point of view which recognizes different needs and foundational assumptions among mathematicians who use set theory. Thus, there are various axes to consider when formulating categorical properties one thinks $Set$ should satisfy, including 
 
 * First-order vs. higher-order logic 
 
