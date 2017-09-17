@@ -347,14 +347,16 @@ $$
 
 =--
 
-This appears for instance as ([May, corollary 11.6](#May)). See also the proof that geometric realization of simplicial stes preserves pullbacks, at [[geometric realization]].
+This appears for instance as ([May, corollary 11.6](#May)).  See also the proof that geometric realization of simplicial sets preserves pullbacks, at [[geometric realization]].
+
+It is essential here that we are working in a category $Top$ such as compactly generated spaces or k-spaces: in the category of *all* topological spaces this would not be true.  It works in these cases because product and/or quotient topologies in these categories are slightly different from in the category of all topological spaces.
 
 
 #### Fat geometric realization
 
 The operation of [fat geometric realization](#FatGeometricRealization) does not preserve [[fiber product]]s on the nose, in general, but it does preserve all [[finite limit]]s up to [[homotopy]]. 
 
-Write $\Vert * \Vert$ for the fat geometric realization of the point. Notice that due to the identification of $sTop$ with its [[overcategory]] over the point (the simplicial topological space constant on the point), $sTop\simeq sTop/*$, we may regard fat geometric gealization as a functor with values in the [[overcategory]] $Top/\Vert*\Vert$ over the 
+Write ${\Vert * \Vert}$ for the fat geometric realization of the point. Notice that due to the identification of $sTop$ with its [[overcategory]] over the point (the simplicial topological space constant on the point), $sTop\simeq sTop/*$, we may regard fat geometric gealization as a functor with values in the [[overcategory]] $Top/{\Vert*\Vert}$ over the 
 [fat geometric realization of the point](#GeometricRealizationOfThePoint).
 
 +-- {: .num_prop}
@@ -363,7 +365,7 @@ Write $\Vert * \Vert$ for the fat geometric realization of the point. Notice tha
 The functor
 
 $$
-  \Vert - \Vert \colon  Top^{\Delta^{op}} \to Top/\Vert*\Vert
+  {\Vert - \Vert} \colon  Top^{\Delta^{op}} \to Top/{\Vert*\Vert}
 $$
 
 preserves all [[finite limit]]s.
@@ -473,7 +475,7 @@ $$
 The geometric realization of $N \mathbf{B}G$ is a model for the [[classifying space]] $B G$ of $G$-[[principal bundle]]s
 
 $$
-  |N \mathbf{B}G| \simeq B G
+  {|N \mathbf{B}G|} \simeq B G
   \,.
 $$
 
@@ -499,14 +501,14 @@ Recall from the discussion at [[universal principal ∞-bundle]] that $\mathbf{E
 We say a morphism $f \colon  X \to Y$ of [[simplicial topological space]]s is a **global Kan fibration** if for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the canonical morphism
 
 $$
-  X_n \to Y_n \times_{sTop(\Lambda^n_k, Y)} sTop(\Lambda^n_k, X)
+  X_n \to Y_n \;\times_{sTop(\Lambda^n_k, Y)}\; sTop(\Lambda^n_k, X)
 $$
 
 in [[Top]] has a [[section]], where 
 
 * $\Lambda^n_k \in $ [[sSet]] $\hookrightarrow Top^{\Delta^{op}}$ is the $k$th $n$-[[horn]] regarded as a [[discrete space|discrete]] [[simplicial topological space]]:
 
-* $sTop(-,-) \colon  sTop^{op} \times sTop \to Top$ is the [[Top]]-[[hom object]].
+* $sTop(-,-) \colon  sTop^{op} \times sTop \to Top$ is the [[Top]]-valued [[hom object]], which may be regarded as a hom-object in the Top-[[enriched category|enriched]] [[functor category]] $sTop = [\Delta^{op},Top]$.
 
 We say a [[simplicial topological space]] $X_\bullet \in Top^{\Delta^{op}}$ is **(global) Kan simplicial space** if the unique morphism $X_\bullet \to *$ is a global Kan fibration, hence if for all $n \in \mathbb{N}$ and all $0 \leq i \leq n$ the canonical [[continuous function]]
 
@@ -546,11 +548,11 @@ The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), t
 For $G$ well-sectioned, the geometric realization
 
 $$
-  \vert W G \vert \to \vert \bar W G \vert
+  {\vert W G \vert} \to {\vert \bar W G \vert}
 $$
 
 is a global fibration [[resolution]] in $Top_{Quillen}$ of the point inclusion 
-$* \to B|G|$.
+$* \to B{|G|}$.
 
 =--
 
@@ -641,13 +643,13 @@ By prop. \ref{SimplicialTopologicalUniversalBundle} and prop. \ref{SimplicialTop
 are good simplicial topological spaces. Therefore by prop. \ref{RealizationOfGoodSimplicialSpacesIsHomotopyColimit} we have
 
 $$
-  hocolim P_\bullet \simeq |P_\bullet|
+  hocolim P_\bullet \simeq {|P_\bullet|}
 $$
 
 in [[Ho(Top)]]. By prop. \ref{RealizationPreservesPullbacks} we have that 
 
 $$
-  \cdots = {|X_\bullet|} \times_{|\bar W G|} |W G|
+  \cdots = {|X_\bullet|} \times_{|\bar W G|} {|W G|}
   \,.
 $$
 
@@ -655,11 +657,11 @@ But prop. \ref{RealizationSimplicialTopologicalUniversalBundle} says that this i
 
 $$
   \array{
-    |P| &\to& |W G|
+    {|P|} &\to& {|W G|}
     \\
     \downarrow && \downarrow
     \\
-    |X| &\stackrel{\tau}{\to}& |\bar W G|
+    {|X|} &\stackrel{\tau}{\to}& {|\bar W G|}
   }
   \,,
 $$
@@ -668,7 +670,7 @@ because $|W G| \to |\bar W G|$ is again a fibration resolution of the point incl
 
 
 $$
-  hocolim P_\bullet \simeq hofib( |\tau| )
+  hocolim P_\bullet \simeq hofib( {|\tau|} )
   \,.
 $$
 
