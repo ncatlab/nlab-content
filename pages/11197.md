@@ -24,9 +24,11 @@ The [[stable (infinity,1)-category of spectra]] has a [[dualizing object in a cl
 
 ## Examples
 
-The Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)); and [[tmf]] is Anderson self-dual ([Stojanoska 12](#Stojanoska12))
+The Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)); and [[tmf]]$[1/2]$ is Anderson dual to its 21-fold suspension ([Stojanoska 12](#Stojanoska12)).
 
 ## Related concepts
+
+* [[Brown-Comenetz duality]]
 
 * [[Spanier-Whitehead duality]]
 
