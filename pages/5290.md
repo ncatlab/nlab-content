@@ -34,6 +34,24 @@ A **Gerstenhaber algebra** is a [[chain complex]] $A$ equipped with
 
 =--
 
-A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A \to A$ is a **[[BV-algebra]]**.
+## Properties
+
++-- {: .un_theorem}
+###### Theorem
+
+The [[homology]] of the  [[operad]] for Gerstenhaber algebras in [[chain complexes]] is the operad for Gerstenhaber algebras.
+
+Accordingly the [[homology]] of a [[E2-algebra]] is a Gerstenhaber algebra.
+
+=--
+
+This is due to [Cohen (1976)](#Cohen).
+
+A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A \to A$ is a **[[BV-algebra]]**. This is the homology of an algebra over the _framed_ little disk operad.
+
+## References
+
+* Cohen (1976)
+{#Cohen}
 
 [[!redirects Gerstenhaber algebras]]
