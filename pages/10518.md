@@ -78,7 +78,7 @@ $$
   [\mathcal{L}_{WZW},\mathcal{L}_{WZW}]_{/\mathbf{B}^n U(1)_{conn}}^\simeq
 $$
 
-of $\mathcal{L}_{WZW}$ regarded as an object of the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n ((1)_{conn}}$ (the full [[∞-group]] on the right is the [[quantomorphism n-group]]).
+of $\mathcal{L}_{WZW}$ regarded as an object of the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$ (the full [[∞-group]] on the right is the [[quantomorphism n-group]]).
 
 By ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13)) this [[∞-group]] is (for connected $\Pi(X)$, without restriction of generality) a $\mathbf{B}^{n-1}U(1)$-[[∞-group extension]] of $G$, 
 
