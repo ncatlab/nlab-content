@@ -1747,7 +1747,7 @@ Its [[loop space object]] $\mathfrak{g} := \Omega_* \mathbf{B}G$ we call an **[[
 Set
 
 $$
-  Lie 
+  FLie
   := 
   \mathbf{\Pi}_{dR} \circ \mathbf{\flat}_{dR} 
   \,.
@@ -1761,7 +1761,7 @@ $$
 For $\mathbf{B}G \in */\mathbf{H}$ we have that 
 
 $$
-  Lie \mathbf{B}G \in \mathbf{L} \hookrightarrow \mathbf{H}
+  FLie \mathbf{B}G \in \mathbf{L} \hookrightarrow \mathbf{H}
 $$
 
 is an [infinitesimal object](#InfinitesimalObjects)
@@ -1832,7 +1832,7 @@ By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \s
 We have 
 
 $$
-  Lie \circ Lie \simeq Lie \circ \Sigma \circ \Omega
+  FLie \circ FLie \simeq FLie \circ \Sigma \circ \Omega
   \,.
 $$
 
@@ -1911,19 +1911,19 @@ $$
   \,.
 $$
 
-Finally to obtain $Lie \circ Lie$ we do one more computation of this sort, using that $Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) and is a [[left adjoint]] (with right adjoint given by $\mathbf{\flat}_{dR} \mathbf{\Pi}_{dR}$):
+Finally to obtain $FLie \circ FLie$ we do one more computation of this sort, using that $FLie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) and is a [[left adjoint]] (with right adjoint given by $\mathbf{\flat}_{dR} \mathbf{\Pi}_{dR}$):
 
 $$
   \begin{aligned}
-    Lie Lie A 
+    FLie FLie A 
     & \simeq 
-    Lie \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} A
+    FLie \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} A
     \\
     & \simeq
-    * \coprod_{Lie \mathbf{\flat}_{dR} A} \mathbf{\Pi} \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\flat}_{dR} A
+    * \coprod_{FLie \mathbf{\flat}_{dR} A} \mathbf{\Pi} \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\flat}_{dR} A
     \\
     & \simeq 
-    * \coprod_{Lie \mathbf{\flat}_{dR} A} *    
+    * \coprod_{FLie \mathbf{\flat}_{dR} A} *    
     \\
     & \simeq 
     * \coprod_{\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\flat}_{dR} A} *
@@ -1935,37 +1935,43 @@ $$
     * \coprod_{Lie \Omega A} *   
     \\
     & \simeq
-    Lie ( * \coprod_{\Omega A} * )
+    FLie ( * \coprod_{\Omega A} * )
     \\
     & \simeq
-    Lie \Sigma \Omega A  
+    FLie \Sigma \Omega A  
   \end{aligned} 
   \,.
 $$
 
 =--
 
++-- {: .un_remark}
+###### Remark
 
-We shall also write
+For $G$ an [[∞-group]] the object $\Sigma \Omega \mathbf{B}G$ may be thought of as the [[delooping]] of the free $\infty$-group on the underlying object of $G$. Therfore the above proposition may be read as saying that $FLie \mathbf{B}G$ is the delooping of the _free ∞-Lie algebra_ on the $\infty$-Lie algebra $\mathfrak{g}$ of $G$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+For $\mathbf{B}G \in \mathbf{H}$ we call the [[image]]
 
 $$
-  Lie \mathbf{B}G =: \mathbf{B}\mathfrak{g}
-$$
+  Lie \mathbf{B}G := im( FLie \mathbf{B}G \to \mathbf{B}G)
+$$ 
 
-and hence for the counit of the $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$-adjunction we write
+the _Lie differentiation_ of $\mathbf{B}G$ (...)
 
-$$
-  \mathbf{B}\mathfrak{g} \to \mathbf{B}G
-  \,.
-$$
+=--
 
 
 
-+-- {: .un_prop #LieValuesofDeRham}
-###### Proposition
++-- {: .un_corollary #LieValuesofDeRham}
+###### Corollary
 
 
-Every [de Rham cocycle](#deRhamCohomology) $\omega : \mathbf{\Pi}_{dR} X \to \mathbf{B}G$ factors universally through the [[∞-Lie algebra]] of $G$
+Every [de Rham cocycle](#deRhamCohomology) $\omega : \mathbf{\Pi}_{dR} X \to \mathbf{B}G$ factors through the ∞-Lie algebra of $G$
 
 $$
   \array{
@@ -1985,7 +1991,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the unit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$.
+By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the counit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ we have that $\omega$ factors through the [[unit of an adjunction|counit]9 $FLie \mathbf{B}G \to \mathbf{B}G$. Hence also through its image.
 
 =--
 
@@ -1994,7 +2000,7 @@ Therefore instead of speaking of a $G$-valued de Rham cocycle, it is more accura
 +-- {: .un_prop}
 ###### Corollary
 
-Every morphism $Lie \mathbf{B}H \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors universally through the $\infty$-Lie algebra of that $\infty$-group
+Every morphism $Lie \mathbf{B}H \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors through the $\infty$-Lie algebra of that $\infty$-group
 
 $$
   \array{
