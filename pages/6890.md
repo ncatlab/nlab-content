@@ -59,9 +59,11 @@ For Coq-projects in [[homotopy type theory]] see
 
 A web-based version of Coq is at 
 
-* _[ProofWeb](http://prover.cs.ru.nl)_
+* _[ProofWeb -- Provers](http://prover.cs.ru.nl/login.php#provers)_
 
-To start it, scroll down to "Proof assistants on the web", choose "Coq" from the menu "proof assistant" and Click on "guest login". In the user interface that appears, enter Coq-code in the left window and hit the arrow-buttons to "run" it with output appearing in the right window. The guest account allows everything except saving files.
+To start it, choose "Coq" from the menu "proof assistant" and Click on "guest login". In the user interface that appears, enter Coq-code in the left window and hit the arrow-buttons to "run" it with output appearing in the right window. The guest account allows everything except saving files and loading libraries. But with copy-and-paste one can of course "include libraries" by hand. 
+
+(Notice, though, that the current version can for instance not read the [[homotopy type theory|HoTT]] libraries verbatim, since it does not understand implicit types yet.)
 
 A tool for viewing proofs in static Coq files without loading them into Coq is 
 
