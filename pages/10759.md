@@ -50,7 +50,7 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 
 =--
 
-### Filtered objects and chain complexes
+### Filtered objects and their associated chain complexes
 
 +-- {: .num_defn #GeneralizedFilteredObject}
 ###### Definition
@@ -80,15 +80,15 @@ We could also consider the sequential diagram as a filtering of its [[homotopy c
 +-- {: .num_defn #ChainComplexInStableInfinityCategory}
 ###### Definition
 
-A $\mathbb{Z}$-chain complex in a [[stable (∞,1)-category]] $\mathcal{C}$ is an [[(∞,1)-functor]]
+Let $I$ be a [[linearly ordered set]]. An $I$-chain complex in a [[stable (∞,1)-category]] $\mathcal{C}$ is an [[(∞,1)-functor]]
 
 $$
-  F \;\colon\; (\mathbb{Z}, \leq) \times (\mathbb{Z}, \leq) \longrightarrow \mathcal{C}
+  F \;\colon\; I \times I \longrightarrow \mathcal{C}
 $$
 
 such that 
 
-1. for each $n \in \mathbb{Z}$, $F(n,n) \simeq 0$ is the [[zero object]];
+1. for each $n \in I$, $F(n,n) \simeq 0$ is the [[zero object]];
 
 1. for all $i \leq j \leq k$ the induced [[diagram]]
 
@@ -106,13 +106,13 @@ such that
 
 =--
 
-This is dual to [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
+This is [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
 
 
 +-- {: .num_remark }
 ###### Remark
 
-Given a chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableInfinityCategory}, 
+Given a $\mathbb{Z}$-chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableInfinityCategory}, 
 setting
 
 $$
@@ -139,7 +139,7 @@ Consider the inclusion of [[posets]]
 $$
   (\mathbb{Z}, \leq)
   \to 
-  (\{\infty\}\cup\mathbb{Z}, \leq) \times (\{\infty\}\cup\mathbb{Z}, \leq)
+  (\mathbb{Z}\cup \{\infty\}, \leq) \times (\mathbb{Z}\cup \{\infty\}, \leq)
 $$
 
 given by
@@ -152,12 +152,12 @@ $$
 The induced [[(∞,1)-functor]]
 
 $$
-  Func((\{\infty\}\cup\mathbb{Z}, \leq) \times (\{\infty\}\cup\mathbb{Z}, \leq), \mathcal{C})
+  Func((\mathbb{Z}\cup \{\infty\}, \leq) \times (\mathbb{Z}\cup \{\infty\}, \leq), \mathcal{C})
   \longrightarrow
   Func((\mathbb{Z}, \leq), \mathcal{C})
 $$
 
-restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category of chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of generalized filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}).
+restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category of $\mathbb{Z}\cup \{\infty\}$-chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of generalized filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}).
 
 
 =--
@@ -213,7 +213,7 @@ This exact couple gives rise in the usual way to a spectral sequence. Explicitly
 +-- {: .num_defn }
 ###### Definition
 
-Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding complex, according to prop. \ref{ChainComplexesFromFilteredObjects}.
+Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding chain complex, according to prop. \ref{ChainComplexesFromFilteredObjects}.
 
 Then for all $i \leq j \leq k$ there is a [[long exact sequence of homotopy groups]] in $\mathcal{A}$ of the form
 
