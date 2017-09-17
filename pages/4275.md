@@ -15,7 +15,10 @@ from the [[bordism ring]]
 
 $$
   \Omega_{SO} := \frac{closed\;oriented\;manifolds}{cobordisms}
+  \,.
 $$
+
+The cobordism ring here^may be replaced by rings of cobordisms with extra structure.  And it may, at least in some cases, be refined to a [[cobordism ring spectrum]].
 
 ## Examples
 
