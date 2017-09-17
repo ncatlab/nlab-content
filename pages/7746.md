@@ -1,5 +1,12 @@
 
 
+## Idea
+
+_Factorization homology_ ([[topological chiral homology]]) is a [[homology theory]] for [[framed manifold|framed]] $n$-[[dimension|dimensional]] [[manifolds]] with coefficients in [[En-algebras]].
+
 ## References
 
 * Hiro Tanaka, _Manifold calculus is dual to factorization homology_, at [Talbot 2012:_ Calculus of functors](http://math.mit.edu/conferences/talbot/2012/_2012.php) ([pdf](http://math.mit.edu/conferences/talbot/2012/notes/14_Tanaka_FactorizationHomology%28hiro%29.pdf))
+
+* [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([arXiv:1104.0181](http://arxiv.org/abs/1104.0181))
+
