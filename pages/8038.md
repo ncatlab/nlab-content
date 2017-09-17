@@ -1,15 +1,37 @@
 [[!redirects scattering amplitudes]]
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
-(...)
+The [[probability amplitude]] for a process of scattering of [[fundamental particles]] or [[fundamental strings]] off each other. The collection of scattering amplitudes forms the [[S-matrix]]. 
 
 ## Related concepts
 
 * [[quantum field theory]]
 
+* [[S-matrix]]
+
 * [[renormalization]]
+
+* [[on-shell recursion]]
+
+* [[KLT relations]]
+
+* [[string theory results applied elsewhere]]
 
 ## References
 
@@ -22,3 +44,7 @@
 * Ruth Britto, _Loop amplitudes in gauge theories: modern analytic approaches_ ([arXiv:1012.4493](http://arxiv.org/abs/1012.4493))
 
 See also at _[[motivic multiple zeta values]]_.
+
+### In string theory
+
+* Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_ ([arXiv:1011.0456](http://arxiv.org/abs/1011.0456))
