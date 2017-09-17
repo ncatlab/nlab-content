@@ -29,5 +29,8 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 See also literature at [[Yang-Mills instanton]].
 * [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
 * Nicholas Manton, Paul M. Sutcliffe, _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
+
+* [[Werner Nahm]], _Self-dual monopoles and calorons_, in _Group theoretical methods in physics_ (Trieste, 1983), pages 189-200. Springer, Berlin (1984) ([journal](http://www.springerlink.com/index/y005405w74862327.pdf))
+
 [[!redirects instanton]]
 [[!redirects instantons]]
