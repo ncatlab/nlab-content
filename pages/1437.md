@@ -194,6 +194,9 @@ $$Set^{\omega^{op}},$$
 
 aka the [[tree|category of trees]], where $\omega$ is the colimit of the finite ordinals $[n]$. The statement that the category of trees is equivalent to its small-coproduct cocompletion says that the category of trees is equivalent to the category of forests. 
 
+## Related concepts
+
+Terminal coalgebras are the [[categorical semantics]] of [[M-types]].
 
 ## References 
 
