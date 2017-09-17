@@ -27,7 +27,7 @@ The dual concept is that of a [[regular epimorphism]].
 
 ### Relation to effective monomorphisms 
 
-Recall that a monomorphism $i: A \to B$ is [[effective monomorphism|effective]] if the pushout 
+Recall that a monomorphism $i: A \to B$ is [[effective monomorphism|effective]] if the [[pushout]]
 
 $$\array{
 A & \stackrel{i}{\to} & B \\
