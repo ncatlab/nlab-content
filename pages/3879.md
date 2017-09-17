@@ -25,7 +25,9 @@
 
 More recently, one also sometimes uses a less familiar term **physical mathematics** for the study of mathematical constructions inspired by models of theoretical physics; thus the final aim may be more mathematical (say finding a new topological invariant using physical intuition) than in the mathematical physics. However there is no clean boundary and to some extent the two notions are interchangeable.
 
-## References
+## References and links
+
+See related, but disputable notion of [[applied mathematics]]. 
 
 A historically inclined article on [mathematical physics](http://en.wikipedia.org/wiki/Mathematical_physics) is featured on wikipedia.
 
