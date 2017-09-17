@@ -5,11 +5,20 @@
 
 ## Idea
 
-A Wilson loop is an operator in (both classical and quantum) [[gauge theory]] obtained from the [[holonomy]] of the [[gauge field|gauge]] [[connection on a bundle|connection]]. More precisely, the __Wilson loop__ along a closed [[loop]] $C$ is the trace of the [[time-ordered exponential]]
+A _Wilson loop_ or _Wilson line_ is an [[observable]] in (both classical and quantum) [[gauge theory]] obtained from the [[holonomy]] of the [[gauge field|gauge]] [[connection on a bundle|connection]]. 
+
+Hence if the gauge connection is given by a globally defined 1-form $A$, then the __Wilson loop__ along a closed [[loop]] $C$ is the trace of the [[time-ordered exponential]]
 $$
 W_C = Tr(\mathcal{P}exp(i\oint_C A_\mu d x^\mu))
 $$
 where $\mathcal{P}$ is the "time-ordering operator" and $A_\mu$ are the components of the connection. 
+
+## Examples
+
+### In Chern-Simons theory
+
+In $SU(3)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jones polynomial]] of the given curve. See there for more details.
+
 
 
 ## References
@@ -24,3 +33,10 @@ where $\mathcal{P}$ is the "time-ordering operator" and $A_\mu$ are the componen
 
 [[!redirects Wilson loop]]
 [[!redirects Wilson loops]]
+[[!redirects Wilson-loop]]
+[[!redirects Wilson-loops]]
+
+[[!redirects Wilson line]]
+[[!redirects Wilson-line]]
+[[!redirects Wilson lines]]
+[[!redirects Wilson-lines]]
