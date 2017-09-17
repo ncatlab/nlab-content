@@ -90,6 +90,8 @@ $$
 
 ## Related concepts
 
+* [[spin orientation of Tate K-theory]]
+
 * [[spin^c structure]]
 
 * [[Grothendieck-Riemann-Roch theorem]]
