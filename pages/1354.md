@@ -65,6 +65,10 @@ The relation to [[stable (infinity,1)-categories]] is discussed in
 
 * {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
 
+## References
+
+* [[Valery Lunts]], Olaf M. Schnuerer, _New enhancements of derived categories of coherent sheaves and applications_, [arXiv](http://arxiv.org/abs/1406.7559).
+
 [[!redirects enhanced triangulated categories]]
 
 [[!redirects DG enhancement]]
