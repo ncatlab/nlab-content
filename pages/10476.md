@@ -1,0 +1,72 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Elmendorf's theorem_  states that for $G$ a [[topological group]], then the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences".
+
+More in detail, for $G$ a [[topological group]], write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]]. Say that a [[continuous map]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** such that for any [[closed subspace|closed subgroup]] $H \hookrightarrow G$, the induced function on $H$-[[fixed point]] spaces $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
+
+$$
+  Top^G[\{weak\,G-homotopy\;equivalences\}^{-1}]
+  \in (\infty,1)Cat
+$$
+
+for the corresponding [[simplicial localization]].
+
+Next, write $Orb_G$ for the [[full subcategory]] of $Top^G$ on the $G$-[[homogeneous spaces]] of the form $G/H$, but regarded as an [[(∞,1)-category]] by regarding each hom-topological space as its [[homotopy type]]. Write moreover $Top^{Orb_G}$ for the category of [[continuous function|continuous]] functors $Orb_G^{op} \longrightarrow Top$. Write finally
+
+$$
+  PSh_\infty(Orb_G)
+   \in 
+ (\infty,1)Cat
+  \,.
+$$
+
+Then Elmendorf's theorem asserts that there is an [[equivalence of (∞,1)-categories]]
+
+$$
+  Top^G[\{weak\;G-homotopy\;equivalences\}^{-1}]
+  \simeq
+  PSh_\infty(Orb_G)
+  \,.
+$$
+
+
+
+
+
+
+## Related concepts
+
+* [[global equivariant homotopy theory]]
+
+* [[Bredon cohomology]]
+
+## References
+
+See for instance
+
+* Marc Stephan, _Elmendorf's theorem for cofibrantly generated model categories_, ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856))
+
+[[!redirects Elmendorf theorem]]
