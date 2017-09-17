@@ -176,7 +176,9 @@ CPM, classical structures, ...
 
 * [[qbit]]
 
-* [[quantum logic]] 
+* [[quantum logic]]
+
+* [[information theory]]
 
 
 
