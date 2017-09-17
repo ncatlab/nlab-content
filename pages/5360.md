@@ -1,25 +1,32 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Manifolds and cobordisms
-+--{: .hide}
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+> For a [[topological space]] satisfying the $R_0$ regularity condition (which states that the [[specialisation preorder]] is [[symmetric relation|symmetric]], hence an [[equivalence relation]]), see [[separation axioms]].
 
-## Idea ##
+***
+
+# Contents
+* table of contents
+{: toc}
+
+## Idea
 
 A _symmetric space_ is a specially nice [[homogeneous space]], characterized by the property that for each [[point]] there is a symmetry fixing that point and acting as $-1$ on its [[tangent space]].  An example would be the [[sphere]], the [[Euclidean plane]], or the [[hyperbolic plane]].
 
-## Definitions ##
+
+## Definitions
 
 A **symmetric space** is classically defined to be a [[quotient]] [[manifold]] of the form $G/H$, where $G$ is a [[Lie group]] and the [[subgroup]] $H$ is the set of fixed points of some [[involution]] $\sigma : G \to G$, that is, a smooth [[homomorphism]] with $\sigma^2 = 1_G$.   Using the involution, every point $a \in G/H$ gives rise to a [[smooth function]]
 
@@ -30,6 +37,7 @@ fixing the point $a$ and acting as $-1$ on the tangent space of $a$.  This opera
 More precisely, a **symmetric pair** is a pair $(G,H)$ where $G$ is a [[Lie group]] and the subgroup $H$ is the set of fixed points of some [[involution]] $\sigma : G \to G$.  Different pairs $(G,H)$, $(G',H')$ can give what is normally considered the same symmetric space $G/H \cong G'/H'$.   In other words, not every morphism of symmetric spaces arises from a morphism of symmetric pairs.
 
 To avoid this problem, we may define a symmetric space more intrinsically to be an involutory [[quandle]] object $Q$ in the category of smooth manifolds, with the property that each point $a \in Q$ is an _isolated_ fixed point of the map $a \triangleright - : Q \to Q$.  
+
 
 ## References
 
@@ -44,3 +52,7 @@ The relation to quandles is given in Theorem I.4.3.  Bertram attributes this res
 See also 
 
 * Ottmar Loos, _Symmetric Spaces II_, Benjamin, New York, 1969.
+
+
+[[!redirects symmetric space]]
+[[!redirects symmetric spaces]]
