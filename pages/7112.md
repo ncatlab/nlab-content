@@ -1,5 +1,5 @@
 
-* [webpage](http://www.wisdom.weizmann.ac.il/math/profile/scientists/berkovich-profile.htmla)
+* [personal webpage](http://www.wisdom.weizmann.ac.il/~vova/), [institute webpage](http://www.wisdom.weizmann.ac.il/math/profile/scientists/berkovich-profile.html)
 
 ## related entries
 
