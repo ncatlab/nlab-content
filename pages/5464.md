@@ -9,7 +9,7 @@
 =--
 =--
 
-> This page contains the beginning of the LaTeX-to-instiki conversion of an article submitted for peer-review to the [[annals:HomePage|Annals of the nLab]].
+> This page contains the beginning of the LaTeX-to-instiki conversion of an article to be submitted for peer-review to the [[annals:HomePage|Annals of the nLab]].
 
 * [[Tom Leinster]], _An informal introduction to topos theory_ ([arXiv:1012.5647](http://arxiv.org/abs/1012.5647))
 
