@@ -9,31 +9,21 @@
 =--
 =--
 
-* [[sheaf]]
-
-* [[2-sheaf]] / **stack**
-
-* [[(∞,1)-sheaf]] / [[∞-stack]]
 
 
-***
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 ## Idea
 
-The notion of _stack_ is the one-step [[vertical categorification]] of a [[sheaf]]: it is a [[2-sheaf]].
+Th term _stack_ is a traditional synony for [[2-sheaf]], or usually rather for [[(2,1)-sheaf]]:
 
-Or rather, it is the half-categorification of a sheaf where the _codomain_ is categorified (from [[Set]] to [[Cat]] or [[Grpd]]). If also the domain (the [[site]]) is categorified, one speaks of a [[derived stack]].
+it is a [[1-truncated]] [[(∞,1)-sheaf]]/[[∞-stack]].
 
-Since the full $\infty$-categorification of "[[sheaf]]" is [[∞-stack]], a stack is conversely an [[∞-stack]] which happens to be 1-truncated.
-
-From this $\infty$-point of view it seems a bit pointless to say "stack" instead of "2-sheaf" and accordingly for instance in [[Higher Topos Theory|HTT]] the term [[(infinity,1)-sheaf|∞-sheaf]] is used instead of $\infty$-stack.
-
-More concretely this means that a stack on a [[site]] $S$ is 
+More concretely this means that a stack on a [[site]] $S$ (or more generally [[(2,1)-site]] $S$ for [[derived stack]]s) is 
 
 * a ([[pseudofunctor|pseudo]]-)[[functor]] from  $S^{op}$ to the 2-category [[Cat]] of categories or [[Grpd]] of groupoids;
 
@@ -107,6 +97,12 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 (where the first equivalence comes from the bicategorical Yoneda lemma, and the second functor is induced from the subfunctor $i: F \to \hom(-, c)$) is an equivalence for all $J$-covering sieves $F$. This formulation connects up nicely, that is, is a straight categorification of what was put down in the entry [[sheaf]]. 
 
 ## Related concepts
+
+* [[sheaf]]
+
+* [[2-sheaf]] / [[(2,1)-sheaf]] /  **stack** / [[model structure for (2,1)-sheaves]]
+
+* [[(∞,1)-sheaf]] / [[∞-stack]]
 
 Special kinds of stacks include
 
