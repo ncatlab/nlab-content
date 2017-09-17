@@ -49,3 +49,6 @@ Discussion that makes the [[super L-infinity algebra]] [[homotopy theory]] under
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],  _[[schreiber:The brane bouquet]]_
 
 [[!redirects extended super-spacetime]]
+
+[[!redirects extended super spacetime]]
+[[!redirects extended super spacetimes]]
