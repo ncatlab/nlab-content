@@ -23,8 +23,8 @@ The $\Sigma_n$-[[action]] on $P_n$ this from the definition of symmetric operad 
 
 ## References
 
-* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv:0109158](http://arxiv.org/abs/math/0109158))
+* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_, [arXiv:math.AT/0109158](http://arxiv.org/abs/math/0109158)
 {#BerFre01}
 
-* [[Clemens Berger]], [[Benoit Fresse]], _A prismatic decomposition of the Barratt-Eccles operad_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0204/0204326v1.pdf))
+* [[Clemens Berger]], [[Benoit Fresse]], _A prismatic decomposition of the Barratt-Eccles operad_, [math.AT/0204326](http://arxiv.org/abs/math/0204326)
 
