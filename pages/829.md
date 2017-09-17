@@ -1,4 +1,4 @@
-_Sharing graphs_ are another kind of [[string diagram]] which focuses on the syntax of a language.  Given a [BNF](http://en.wikipedia.org/wiki/Backus-Naur_form) description of a context-free grammar, we get a category whose objects are (roughly) lists of subterms and whose morphisms are rules for composing the subterms into terms.  
+_Sharing graphs_ are another kind of [[string diagram]] which focuses on the syntax of a language.  Given a [BNF](http://en.wikipedia.org/wiki/Backus-Naur_form) description of a [[context-free grammar]], we get a category whose objects are (roughly) lists of subterms and whose morphisms are rules for composing the subterms into terms.  
 
 #Example: Untyped lambda calculus
 Lambda calculus terms are recursively defined as follows:
