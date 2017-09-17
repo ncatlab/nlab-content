@@ -1,3 +1,4 @@
+[[!redirects infinity-image]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -50,7 +51,7 @@ $$
 
 is a [[colimit|colimiting]] [[cocone]] under the [[parallel morphism]] [[diagram]].
 
-In an [[(∞,1)-topos]] the $\infty$-image is the [[(∞,1)-colimit]] not just of these two morphisms, but of the full "$\infty$-kernel", namely of the full [[Cech nerve]] [[simplicial object]]
+In an [[(∞,1)-topos]] the 1-image is the [[(∞,1)-colimit]] not just of these two morphisms, but of the full "$\infty$-kernel", namely of the full [[Cech nerve]] [[simplicial object]]
 
 $$
   \cdots
@@ -80,7 +81,7 @@ $$
   \,,
 $$
 
-which shows, by the [[pasting law]], that $X \times_{Y} X \simeq X \times_{im(f)} X$ and hence that the [[Cech nerve]] of $X \stackrel{f}{\to} Y$ is equivalently that of the effective epimorphism $X \stackrel{f}{\to} im(f)$. Now, by one of the [[Giraud-Rezk-Lurie axioms]] satisfied by [[(∞,1)-toposes]], the [[(∞,1)-colimit]] over the [[Cech nerve]] of an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] is that morphism itself. Therefore the $\infty$-image defined this way coincides with the one defined by the epi/mono factorization.
+which shows, by the [[pasting law]], that $X \times_{Y} X \simeq X \times_{im(f)} X$ and hence that the [[Cech nerve]] of $X \stackrel{f}{\to} Y$ is equivalently that of the effective epimorphism $X \stackrel{f}{\to} im(f)$. Now, by one of the [[Giraud-Rezk-Lurie axioms]] satisfied by [[(∞,1)-toposes]], the [[(∞,1)-colimit]] over the [[Cech nerve]] of an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] is that morphism itself. Therefore the 1-image defined this way coincides with the one defined by the epi/mono factorization.
 
 ### Tower of $n$-images
 
@@ -90,23 +91,26 @@ $$
   X \simeq im_\infty(f) \to \cdots \to im_2(f) \to im_1(f) \to im_0(f) \simeq Y
 $$
 
-factoring $f$, such that for each $n \in \mathbb{N}$ the factorization $X \to im_{n+2}(f) \to Y$ is the [[(n-connected, n-truncated) factorization]] of $f$.
+factoring $f$, such that for each $n \in \mathbb{N}$ the factorization $X \to im_{n+2}(f) \to Y$ is the [[(n-connected, n-truncated) factorization system]] of $f$.
 
 This is the relative [[Postnikov system]] of $f$.
 
 ## Properties
 
+
+
+
 ### Syntax in homotopy type theory
  {#SyntaxInHomotopyTypeTheory}
 
 Let the ambient [[(∞,1)-category]] be an [[(∞,1)-topos]] $\mathbf{H}$. Then its [[internal language]] is [[homotopy type theory]].
-We discuss the [[syntax]] of $\infty$-images in this theory.
+We discuss the [[syntax]] of 1-images in this theory.
 
 +-- {: .num_prop #SyntaxOfInfinityImage}
 ###### Proposition
 If 
 $$ a\colon A \;\vdash \; f(a) \colon B $$
-is a [[term]] whose [[categorical semantics]] is a [[morphism]] $A \xrightarrow{f} B$ in $\mathbf{H}$, then the $\infty$-image of that morphism, when regarded as an object of $\mathbf{H}/B$, is the categorical semantics of the [[dependent type]]
+is a [[term]] whose [[categorical semantics]] is a [[morphism]] $A \xrightarrow{f} B$ in $\mathbf{H}$, then the 1-image of that morphism, when regarded as an object of $\mathbf{H}/B$, is the categorical semantics of the [[dependent type]]
 $$
   (b:B) \; \vdash \; 
   \Big(\Big[
@@ -140,14 +144,14 @@ Here all objects now denote [[fibrant object]] representatives of the given obje
 
 Now the interpretation of the sum $\sum_{a:A}$ is simply that we forget the map to $A$ (or equivalently compose with the projection $A\times B\to B$), regarding $\tilde A$ as an object of $\mathbf{M}/B$.  Of course, this is just a fibration resolution of $f$ itself.
 
-Finally, the interpretation of the [[bracket type]] of this is precisely the [[n-truncated object in an (infinity,1)-category|(-1)-truncation]] of this morphism, which by the discussion there is its $\infty$-image $im_\infty(\tilde A \to B)$, regarded as a dependent type over $B$.  Thus, it is precisely the the $\infty$-image of $f$.
+Finally, the interpretation of the [[bracket type]] of this is precisely the [[n-truncated object in an (infinity,1)-category|(-1)-truncation]] of this morphism, which by the discussion there is its 1-image $im_1(\tilde A \to B)$, regarded as a dependent type over $B$.  Thus, it is precisely the the 1-image of $f$.
 =--
 
 By additionally forgetting the remaining map to $B$, we obtain:
 
 +-- {: .num_cor #NonDependentSyntax}
 ###### Corollary
-In the above situation, the $\infty$-image of $f$, regarded as an object of $\mathbf{H}$ itself, is the semantics of the non-dependent type
+In the above situation, the 1-image of $f$, regarded as an object of $\mathbf{H}$ itself, is the semantics of the non-dependent type
 $$
   \vdash \; 
   \Big(\Big(
@@ -190,7 +194,7 @@ $$
   * \stackrel{\vdash V}{\to} Obj_\kappa
 $$
 
-the corresponding morphism to the [[object classifier]]. Then the $\infty$-image of this is $\mathbf{B}\mathbf{Aut}(V)$, the [[delooping]] of the internal [[automorphism ∞-group]] of $V$.
+the corresponding morphism to the [[object classifier]]. Then the 1-image of this is $\mathbf{B}\mathbf{Aut}(V)$, the [[delooping]] of the internal [[automorphism ∞-group]] of $V$.
 
 ### Of functors between groupoids
  {#NImagesOf1FunctorsBetweenGroupoids}
