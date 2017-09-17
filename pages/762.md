@@ -55,8 +55,8 @@ This condition occurs in the [[higher homotopy van Kampen theorem]] for [[crosse
 
 ## Properties
 
-Thus filtered spaces arise from many geometric and algebraic situations. (See also [[stratified space]]s). 
-So it is  interesting that one can define strict higher homotopy groupoids for filtered spaces more easily than for spaces themselves. 
+We thus see that filtered spaces arise from many geometric and algebraic situations, and see also [[stratified space]]s). 
+It is  therefore interesting that one can define strict higher homotopy groupoids for filtered spaces more easily than for spaces themselves. 
 
 Note also that it is standard to be able to replace, using mapping cylinders, a sequence of maps $Y_n \to Y_{n+1}$ by a sequence of inclusions. 
 
