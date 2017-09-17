@@ -46,3 +46,4 @@ is a [[Quillen bifunctor]].
 
 * The most familiar examples of enriched model categories are [[simplicial model category|simplicial model categories]].
 
+[[!redirects enriched model categories]]
