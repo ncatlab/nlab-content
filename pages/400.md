@@ -18,8 +18,20 @@ Roughly speaking, a **factorization system** on a [[category]] consists of two c
 
 * In a [[strict 2-category]] there is also the notion of an [[enhanced factorization system|enhanced (orthogonal) factorization system]], of which the main example is [[bo-ff factorization system|(bo,ff)]] in [[Cat]].
 
+* A [[strict factorization system]] is one in which the factorizations are specified uniquely on the nose, rather than merely up to isomorphism.
+
 Particular examples of factorization systems of various sorts can be found on the individual pages referred to above.
 
+
+## Higher-ary factorization systems
+
+The above notion of "binary" factorization system can be generalized to factor a morphism into more than two factors.
+
+* The orthogonal 3-ary version is a [[ternary factorization system]].
+
+* This has a generalization to a [[k-ary factorization system]].
+
+* The corresponding 3-ary version for *weak* factorization systems is closely related to the notion of [[model category]] (one of the main applications of weak factorization systems).
 
 ## References
 
