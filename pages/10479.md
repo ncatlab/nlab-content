@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -26,23 +28,146 @@ Differential algebraic K-theory is the [[differential cohomology]]-refinement of
 In ([Bunke-Tamme 12](#BunkeTamme12)) this is realized effectively as the [[schreiber:differential cohomology in a cohesive topos]] of the [[tangent (∞,1)-topos]] of the [[cohesive (∞,1)-topos]]
 
 $$
-  Sh_\infty\left(SmthMfd, Sh_\infty\left(Sch_{\mathbb{Z}}\right)\right)
+  \mathbf{H} \coloneqq Sh_\infty\left(SmthMfd, \mathbf{B} \right)
   \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
-  Sh_\infty(Sch_{\mathbb{Z}})
+  \mathbf{B}
 $$
 
-of [[∞-stacks]] on the [[site]] of [[smooth manifolds]] with values in turn in [[∞-stack]] over a [[site]] of [[arithmetic schemes]], hence by [[smooth ∞-groupoids]] but over a [[base (∞,1)-topos]] of algebraic [[∞-stacks]].
+of [[∞-stacks]] on the [[site]] of [[smooth manifolds]] with values in turn in [[∞-stacks]]  over a [[site]] of [[arithmetic schemes]], hence by [[smooth ∞-groupoids]] but over a [[base (∞,1)-topos]] 
+
+$$
+  \mathbf{B}
+  \coloneqq
+  Sh_\infty\left(Sch_{\mathbb{Z}}\right)
+$$ 
+
+of algebraic [[∞-stacks]].
 
 This may be regarded as sitting inside the [[smooth E-∞-groupoids]].
 
 It is observed in this context that the [[Beilinson regulator]] in [[algebraic K-theory]] is naturally understood as a [[Chern character]] in this perspective of [[differential cohomology]] ([Bunke-Tamme 12](#BunkeTamme12)), which helps with studying it.
 
 
+
 ## Definition
 
-There is a refinement of the [[Beilinson regulator]] to a smoothly parameterized version $\mathbf{K}$ of [[algebraic K-theory]].
+### Absolute Hodge cohomology
 
-Differential algebraic K-theory is the [[homotopy pullback]] of that along a suitable inclusion of cycles. ([Bunke-Tamme 13, def. 3.1](#BunkeTamme13))
++-- {: .num_defn #HodgeComplexOverComplexNumbers}
+###### Definition
+
+Write 
+
+$$
+  \Omega^\bullet_{\mathbb{C}} \in Stab(Sh_\infty(Sch_{\mathbb{C}}))
+$$
+
+for the [[chain complex]] of [[abelian sheaves]] (regarded as a [[sheaf of spectra]] under the [[stable Dold-Kan correspondence]]) which computes [[absolute Hodge cohomology]] of [[complex varieties]].
+
+=--
+
+([Bunke-Tamme 12, section 3.1](#BunkeTamme12))
+
++-- {: .num_defn #HodgeComplexOverIntegers}
+###### Definition
+
+
+Write 
+
+$$
+  \Omega^\bullet_{\mathbb{Z}} \coloneqq compl^\ast \Omega^\bullet_{\mathbb{C}} \in Stab(\mathbf{B})
+$$
+
+for the [[inverse image]] of $\Omega^\bullet_{\mathbb{C}}$ under the [[base change]] given by
+
+$$
+  compl
+  \coloneqq
+  (-)\times_{\mathbb{Z}}Spec(\mathbb{C}) 
+  \;\colon\; 
+  Sch_{\mathbb{Z}}\longrightarrow Sch_{\mathbb{C}}
+  \,.
+$$
+
+=--
+
+([Bunke-Tamme 12, section 3.2](#BunkeTamme12))
+
+
+### Algebraic K-theory of schemes
+
+Write 
+
+$$
+  \mathbf{Vect}_{lc} \in \mathbf{H}
+$$
+
+for the [[stack]] which to $X\times S \in SmthMfd \times Sch_{\mathbb{Z}}$ assigns the groupoid of locally free and locally finitely generated $pr_S^\ast \mathcal{O}_S$-[[modules]] (modules over the [[inverse image]] of the [[structure sheaf]] of $S$ under the [[projection]] map $X \times S \to S$).
+
+This is a commutative monoid object with respect to [[direct sum]]. Write
+
+$$
+  K \coloneqq \mathcal{K}(\mathbf{Vect}_{lc}^{\oplus})
+$$
+
+
+This is the ordinary [[algebraic K-theory]] of [[schemes]], as in ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
+
+([Bunke-Tamme 12, section 3.3](#BunkeTamme12))
+
+
+### The refined Beilinson regulator
+ {#RefinedBeilinsoRegulator}
+
+There is a refinement of the [[Beilinson regulator]] to a smoothly parameterized version $\mathbf{K}$ of [[algebraic K-theory]]:
+
++-- {: .num_defn #TheBeilinsonRegulator}
+###### Definition
+
+(...)
+
+$$
+  r^{Beil} 
+  \;\colon\;
+  K 
+    \longrightarrow
+  \Omega^\bullet_{\mathbb{Z}}
+$$
+
+=--
+
+As a homomorphism of [[spectrum objects]] this is ([Bunke-Tamme 12, def. 4.26](#BunkeTamme12)). As a homomorphism of [[E-∞ ring]] objects, this is ([Bunke-Tamme 13, def. 2.18](#BunkeTamme13)).
+
+### Differential algebraic K-theory
+
++-- {: .num_defn #HodgeComplexOverComplexNumbers}
+###### Definition
+
+_Differential algebraic K-theory_ is the [[homotopy fiber product]]
+
+$$
+  \hat K \coloneqq K \underset{\Omega^\bullet_{\mathbb{Z}}}{\times} \Omega^{\bullet \geq 0}_{\mathbb{Z}}  \in Stab(\mathbf{H})
+$$
+
+of the inclusion of the non-negative degree truncation of the absolute Hodge complex, def. \ref{HodgeComplexOverIntegers}, with the refined Beilinson regulator, def. \ref{TheBeilinsonRegulator}
+
+$$
+  \array{
+    \hat K &\longrightarrow& \Omega^{\bullet \geq 0}_{\mathbb{Z}}
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    K &\underset{r^{Beil}}{\longrightarrow}& \Omega^\bullet_{\mathbb{Z}}
+  }
+  \,.
+$$
+
+=--
+
+([Bunke-Tamme 12, def. 5.1](#BunkeTamme12), [Bunke-Tamme 13, def. 3.1](#BunkeTamme13)).
+
+
+
 
 ## Applications
 
@@ -56,13 +181,18 @@ Differential algebraic K-theory is the [[homotopy pullback]] of that along a sui
 
 ## References
 
-* [[Ulrich Bunke]], [[Georg Tamme]], _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
- {#BunkeTamme12}
+Differential algebraic K-theory as above is introduced and studied in
 
+* {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
+ 
 * [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
 
-* [[Ulrich Bunke]], [[Georg Tamme]], _Multiplicative differential algebraic K-theory and applications_ ([arXiv:1311.1421](http://arxiv.org/abs/1311.1421))
- {#BunkeTamme13}
+* {#BunkeTamme13} [[Ulrich Bunke]], [[Georg Tamme]], _Multiplicative differential algebraic K-theory and applications_ ([arXiv:1311.1421](http://arxiv.org/abs/1311.1421))
+
+Relevant references in ordinary [[algebraic K-theory]] include
+
+* {ThomasonTrobaugh90} [[Robert Thomason]] and Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, The Grothendieck Festschrift, Vol. III, Progr. Math., vol. 88, Birkhauser Boston, Boston, MA, 1990, pp. 247-435. MR 1106918 (92f:19001)
+ 
 
 [[!redirects differential algebraic K-theory]]
 
