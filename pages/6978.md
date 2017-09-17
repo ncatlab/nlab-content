@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A **locally cartesioan closed functor** is a [[functor]] between [[locally cartesian closed categories]] that preserves the locally cartesian closed structure up to coherent [[isomorphism]].
+
+## Examples
+
+* Every [[logical functor]] between [[toposes]] is locally cartesian closed.
+
+## Related concepts
+
+* [[cartesian closed functor]]
+
+[[!redirects locally cartesian closed functors]]
