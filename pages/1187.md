@@ -49,6 +49,8 @@ This appears as ([[Higher Topos Theory|HTT, def. 5.3.4.5]]).
 
 ## Properties
 
+### General
+
 Let $\kappa$ be a [[regular cardinal]].
 
 +-- {: .num_prop #StabilityUnderColimits}
@@ -62,6 +64,14 @@ in $C$.
 =--
 
 This is ([[Higher Topos Theory|HTT, cor. 5.3.4.15]]).
+
+### Presentation in combinatorial model categories
+
+If the [[(∞,1)-category]] $\mathcal{C}$ is a [[locally presentable (∞,1)-category]], then it is the [[simplicial localization]] of a [[combinatorial model category]] $C$, and one may ask how the 1-categorical notion of [[compact object]] in $C$ relates to the $(\infty,1)$-categorical notion of compact in $\mathcal{C}$.
+
+Since compactness is defined in terms of colimits, the question is closely related to the question which 1-categorical $\kappa$-[[filtered colimits]] in $C$ are already [[homotopy colimits]] (without having to [[derived functor|derive]] them first).
+
+General statements seem not to be in the literature yet, but see [this MO discussion](http://mathoverflow.net/questions/95165/compact-objects-in-model-categories-and-infty-1-categories).
 
 ## Examples
 
