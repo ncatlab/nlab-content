@@ -56,5 +56,13 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 (TODO: references and explanations).
 
+## Examples
+
+* [[Minkowski spacetime]]
+
+* [[Kerr spacetime]]
+
+...
+
 [[!redirects space-time]]
 [[!redirects space time]]
