@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -23,7 +23,7 @@ When regarded as a [[topological operad]], the topology on the space of all such
 
 Therefore the [[algebra over an operad|algebras over]] the $E_k$ operad are "$k$-fold monoidal" objects For instance [[k-tuply monoidal (n,r)-category|k-tuply monoidal (n,r)-categories]].
 
-The limiting $E_\infty$ operad is the resolution of the ordinary commutative monoid operad $Comm$. Its algebras are [[commutative algebra in an (infinity,1)-category|homotopy commutative monoid objects]] such as $E_\infty$-[[E-infinity-ring|rings]].
+The limiting [[E-∞ operad]] is a [[resolution]] of the ordinary commutative monoid operad [[Comm]]. Its algebras are [[commutative algebra in an (infinity,1)-category|homotopy commutative monoid objects]] such as $E_\infty$-[[E-infinity-ring|rings]].
 
 
 
@@ -149,9 +149,10 @@ Explicit models of $E_\infty$-operads include
 
 ## Related concepts
 
+
 * [[A-∞ operad]]
 
-* **$E_\infty$-operad**
+* [[E-∞ operad]]
 
 * [[L-∞ operad]]
 
@@ -215,10 +216,6 @@ For the relation to Poisson Operads see
 [[!redirects E-k-operad]]
 [[!redirects E-n-operad]]
 
-[[!redirects E-infinity operad]]
-[[!redirects E-∞ operad]]
-[[!redirects E-infinity-operad]]
-[[!redirects E-∞-operad]]
 
 [[!redirects E-k operad]]
 [[!redirects E-k operad]]
