@@ -229,14 +229,16 @@ $$
 
 On [[manifolds]] with [[spin structure]] whe Witten genus takes values in $\mathbb{Z}[ [ q ] ]$ 
 
-On manifolds with [[string structure]] it takes values in (the $q$-expansion of) [[modular forms]] for $SL_2(\mathbb{Z})$, meaning that setting $q = e^{2 \pi i \tau}$ then as a function $f$ of the parameter $\tau$ taking vakues in the [[upper half plane]] the Witten genus satisfies
+On manifolds with rational [[string structure]] it takes values in (the $q$-expansion of) [[modular forms]] for $SL_2(\mathbb{Z})$, meaning that setting $q = e^{2 \pi i \tau}$ then as a function $f$ of the parameter $\tau$ taking vakues in the [[upper half plane]] the Witten genus satisfies
 
 $$
   f(-1/\tau) = (-\tau)^n f(\tau)
   \,.
 $$
 
-### Non-examples 
+Finally on manifolds with actual [[string structure]] it takes values in [[topological modular forms]]. See at _[[Witten genus]]_ for more.
+
+## Non-examples 
 
 ### Euler characteristic
 
