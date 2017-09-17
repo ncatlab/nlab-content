@@ -15,12 +15,12 @@
 
 ## Idea
 
-The notion of a _quasi-Hopf algebra_ generalizes this of a [[Hopf algebra]] ([Drinfeld 89](#Drinfeld89)). 
+The notion of a _quasi-Hopf algebra_ generalizes this of a [[Hopf algebra]] by weakening the [[associativity]] [[coherence]] ([Drinfeld 89](#Drinfeld89)). 
 
 Geometrically, where the [[groupoid convolution algebra]] of the [[delooping]] [[groupoid]] $\mathbf{B}G$ of a [[finite group]] $G$ naturally has the structure of a Hopf algebra, the [[twisted groupoid convolution algebra]] of $\mathbf{B}G$ equipped with a 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ is naturally a quasi-Hopf algebra.
-
 Since such a 3-cocycle is precisely the [[background gauge field]] of the 3d [[TFT]] called [[Dijkgraaf-Witten theory]], and hence quasi-Hopf algebras arise there ([Dijkgraaf-Pasquier-Roche 91](#DijkgraafPasquierRoche)).
 
+More generally, quasi-Hopf algebras are obtained from twists by a nonabelian [[bialgebra cocycle|bialgebra 3-cocycle]].
 
 
 ## Definition
