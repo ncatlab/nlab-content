@@ -19,8 +19,9 @@
 
 ## Overview
 
-_Hodge theory_ is centered with fine structure seen at the level of (complex, rational and integer) [[cohomology|cohomologies]] (and [[motives]]) of [[Kähler manifolds]], based on the study of [[harmonic forms]] on them, and the [[Hodge theorem]]: 
-Hodge decomposition, [[hard Lefschetz theorem]], [[pure Hodge structures]], [[mixed Hodge structures]], [[variations of Hodge structure]], [[Hodge to de Rham spectral sequence]], [[periods]]... This basic setup is however by now vastly generalized. 
+_Hodge theory_ is the study of properties of (complex, rational and integer) [[cohomology]] (and [[motives]]) of [[Kähler manifolds]], induced by a [[Hodge filtration]] -- given in the classical situation by [[harmonic differential forms]] --  and the corresponding [[Hodge theorem]].
+
+Central aspects of the theory include Hodge decomposition, [[hard Lefschetz theorem]], [[pure Hodge structures]], [[mixed Hodge structures]], [[variations of Hodge structure]], [[Hodge to de Rham spectral sequence]], [[periods]]... This basic setup is however by now vastly generalized. 
 
 
 The nomenclature "nonabelian"/"noncommutative" Hodge theory may be confusing - to clarify:
@@ -35,7 +36,7 @@ Ultimately, the goal is to develop a Hodge theory for noncommutative spaces with
 
 ## Related entries
 
-* [[harmonic form]], [[Hodge star]]
+* [[harmonic differential form]], [[Hodge star operator]]
 
 * [[Hodge theorem]]
 
