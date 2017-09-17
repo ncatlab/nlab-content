@@ -29,7 +29,7 @@ where $\epsilon$ is the excision map. The main result of Blakers and Massey is a
 $$ \pi_{m}(A,C) \otimes \pi_{n}(B,C) \to \pi_{m+n-1}(X;A,B)$$
 _is an isomorphism_. 
 
-Notice that since the tensor product is zero if one of its factors is zero, this result also gives criteria for the excision morphism $\epsilon$ to be an isomorphism in a certain range of dimensions. For this reason the excision consequences of that sequence are  also  called the _excision theorem of Blakers and Massey_ and have been given quite separate proofs for example in Hatcher, and in tom Dieck. The  first non zero triad homotopy group is also called the _critical group_.
+Notice that since the tensor product is zero if one of its factors is zero, this result also gives criteria for the excision morphism $\epsilon$ to be an isomorphism in a certain range of dimensions. For this reason the excision consequences of that sequence are  also  called the _excision theorem of Blakers and Massey_ and have been given quite separate proofs for example in Hatcher, and in tom Dieck. The  first non zero triad homotopy group is also called the _critical group_. Note that in _algebraic topology_ one wants _algebraic_ results, not just connectivity results. 
 
 The natural question is what happens if the conditions  that $m,n \geq 3$ and $C$ simply connected are weakened.   For example in the case $m=n=2$  we have the additional structure that the morphisms $\pi_2(A,C) \to \pi_1(C), \pi_2(B,C) \to \pi_1(C)$ are crossed modules, and so the required relative homotopy groups are in general nonabelian. If $m \geq 3 ,n \geq 3$ then $\pi_m(A,C), \pi_n(B,C)$ are still $\pi_1(C)$-modules.
 
