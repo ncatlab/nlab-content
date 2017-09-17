@@ -1,4 +1,8 @@
 * [web](http://www.math.harvard.edu/~shlomo)
 * wikipedia [Shlomo Sternberg](http://en.wikipedia.org/wiki/Shlomo_Sternberg)
 
+## Related entires
+
+* [[Guillemin-Sternberg geometric quantization conjecture]]
+
 [[!redirects S. Sternberg]]
