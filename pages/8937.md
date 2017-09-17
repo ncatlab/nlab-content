@@ -54,4 +54,7 @@ In [[higher geometric prequantization]] (see there for more details for the mome
 [[!redirects prequantum infinity-bundle]]
 [[!redirects prequantum infinity-bundles]]
 
+[[!redirects higher prequantum bundle]]
+[[!redirects higher prequantum bundles]]
+
 
