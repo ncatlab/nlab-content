@@ -544,6 +544,14 @@ The term 'Grothendieck Construction' is applied in the literature to at least tw
 
 A [[representable functor]] $C(-,X) :  C^{op} \to Set \hookrightarrow Cat$ maps under the Grothendieck construction to the [[slice category]] $C/X$. The corresponding fibrations $C/X \to C$ are also called [[representable fibered categories]].
 
+## Related concepts
+
+* [[category of elements]]
+
+* **Grothendieck construction**
+
+* [[(infinity,1)-Grothendieck construction]]
+
 ## References
 
 A standard textbook reference is sections A1.1.7, B1.3.1 in
