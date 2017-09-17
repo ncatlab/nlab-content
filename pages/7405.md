@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,11 +31,17 @@ $$
   (-)^\delta : DistLattice \to DistLattice^+
 $$
 
-from the [[category]] of [[distributive lattices]] to that of completely distributive [[algebraic lattices]]. This is [[left adjoint]] to the corresponding [[forgetful functor]].
+from the [[category]] of [[distributive lattices]] to that of [[completely distributive lattice|completely distributive]] [[algebraic lattices]]. This is [[left adjoint]] to the corresponding [[forgetful functor]], exhibiting [[completely distributive algebraic lattices]] as a [[reflective subcategory]] of the distributive lattices
+
+$$
+  DistLattice^+ \stackrel{\overset{(-)^\delta}{\leftarrow}}{\hookrightarrow}
+  DistLattice
+  \,.
+$$
 
 ### For Heyting algebras
 
-The canonical extension $L^\delta$ of a distributive lattice $L$ is a complete and completely distributive lattice.
+The canonical extension $L^\delta$ of a [[distributive lattice]] $L$ is a [[complete lattice|complete]] and [[completely distributive lattice]].
 
 In particular the canonical extension is a [[Heyting algebra]]. If $L$ is itself already a Heyting algebra, then $e_L : L \to L^\delta$ preserves the Heyting [[implication]]. Also, canonical extension preserves homomorphisms of Heyting algebras. Hence it restricts to a functor
 
