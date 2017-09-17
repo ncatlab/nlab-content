@@ -125,7 +125,7 @@ $$
 ### In a stabilized $\infty$-topos -- twisted ES-type (sheaf) cohomology
  {#InAStabilizedInfinityTopos}
 
-Let now $\mathcal{C} = Stab(\mathbf{H})$ be an [[stable (∞,1)-category]] of [[spectrum objects]] in an ambient [[(∞,1)-topos]] $\mathbf{H}$. Let $E \in CRing_\infty(\mathbf{H})$ be a corrresponding [[E-∞ ring]] object. Write
+Let now $\mathcal{C} = Stab(\mathbf{H})$ be an [[stable (∞,1)-category]] of [[spectrum objects]] in an ambient [[(∞,1)-topos]] $\mathbf{H}$. Let $E \in CRing_\infty(\mathbf{H})$ be a corresponding [[E-∞ ring]] object. Write
 
 $$
   GL_1(E) \hookrightarrow \mathbf{Aut}(E)
@@ -156,7 +156,7 @@ $$
   \,,
 $$
 
-where $Pic(E Mod)$ denotes the [[Picard ∞-groupoid]]. This suggest to speak not just of twists of the form $\chi \colon X \to \mathbf{B}GL_1(E) \simeq E Line \hookrightarrow E Mod$ but more generally of twists of the form $\chi colon Pic(E Mod) \hookrightarrow E Mod$. While these in general no longer define $E$-[[fiber ∞-bundles]] (so that sections of them are strictly speaking in general no longer locally $E$-cohomology cocycles), this more general notion has the advantage that it makes sense also in [[symmetric monoidal (∞,1)-categories]] different from those of the form $Stab(\mathbf{H})$. 
+where $Pic(E Mod)$ denotes the [[Picard ∞-groupoid]]. This suggest to speak not just of twists of the form $\chi \colon X \to \mathbf{B}GL_1(E) \simeq E Line \hookrightarrow E Mod$ but more generally of twists of the form $\chi \colon Pic(E Mod) \hookrightarrow E Mod$. While these in general no longer define $E$-[[fiber ∞-bundles]] (so that sections of them are strictly speaking in general no longer locally $E$-cohomology cocycles), this more general notion has the advantage that it makes sense also in [[symmetric monoidal (∞,1)-categories]] different from those of the form $Stab(\mathbf{H})$. 
 
 This we turn to [below](#InASymmetricMonoidalInfinityCategory).
 
