@@ -19,30 +19,47 @@
 
 ## Idea
 
-The _Landau-Ginzburg model_ (LG-model) is a certain 2-[[dimension]]al [[TQFT]] related to the [[A-model]] and the [[B-model]].
+A _Landau-Ginzburg model_ (LG-model) is a 2-[[dimension]]al [[supersymmetry|supersymmetric]] [[sigma model]] [[QFT]] characterized by the fact that its [[Lagrangian]] contains a potential term: for $(X,g)$ a [[complex manifold|complex]] [[Riemannian manifold|Riemannian]] [[target space]], the [[action functional]] of the LG-model is schematically of the form
 
-More precisely, for [[target space]] a [[Fano variety]] the usual [[B-model]] does not quite exist, since the corresponding supersymmetric [[string]] [[sigma model]] is not conformally invariant as a quantum theory, and the axial $U(1)$ [[R-current]] used to define the B-twist is [[quantum anomaly|anomalous]]. Still, there exists an anlogous [[derived category]] of B-branes. A Landau-Ginburg model is something that provides the dual A-branes to this under [[homological mirror symmetry]]. Conversely, Landau-Ginzburg B-branes are homological mirror duals to the [[A-model]] on a Fano variety.
+$$
+  S_{LB} : (\phi : \Sigma \to X) \mapsto
+  \int_\Sigma \vert (\nabla \Phi \vert^2 + \vert (\nabla W)(\phi) \vert^2 
+  + fermionic terms) d \mu
+  \,,
+$$
+
+where $\Sigma$ is the 2-[[dimension]]al [[worldsheet]] and $W : X \to \mathbb{C}$ -- called the model's _superpotential_ -- is a [[holomorphic function]]. (Usually $X$ is actually taken to be a [[Cartesian space]] and all the nontrivial structure is in $W$.)
+
+Landau-Ginzburg models have gained inmportance as constituing one type of QFTs that are related under [[homological mirror symmetry]]:
+
+For [[target space]] $X$ a [[Fano variety]] the usual [[B-model]] does not quite exist on it, since the corresponding supersymmetric [[string]] [[sigma model]] is not conformally invariant as a quantum theory, and the axial $U(1)$ [[R-current]] used to define the B-twist is [[quantum anomaly|anomalous]]. Still, there exists an anlogous [[derived category]] of B-branes. A Landau-Ginburg model is something that provides the dual A-branes to this under [[homological mirror symmetry]]. Conversely, Landau-Ginzburg B-branes are homological mirror duals to the [[A-model]] on a Fano variety.
 (...)
 
-As first duggested by [[Maxim Kontsevich]], the B-branes in the LG-model (at least in a certain class of cases) are not given by [[chain complex]]es of [[coherent sheaves]] as in the [[B-model]], but by _[[twisted complexes]]_ : for these the square of the [[differential]] $d \circ d = [W,-]$ is in general non-vanishing and equal to the commutator with an object called the _superpotential_ of the LG-model. They form a [[curved dg-algebra]].
+As suggested by [[Maxim Kontsevich]] (see [Kapustin-Li, section 7](#KapustinLi)), the B-branes in the LG-model (at least in a certain class of cases) are not given by [[chain complex]]es of [[coherent sheaves]] as in the [[B-model]], but by _[[twisted complexes]]_ : for these the square of the [[differential]] is in general non-vanishing and identified with the _superpotential_ of the LG-model. 
 
 (...)
 
+## $(\infty,1)$-Categories of branes
 
-## Related concepts
 
-* [[curved dg-algebra]]
+(...) [[curved dg-algebra]]
+
+(...) [CaldararuTu](#CaldararuTu)
 
 ## References
 
 For instance
 
 * [[Anton Kapustin]], Yi Li, _D-Branes in Landau-Ginzburg Models and Algebraic Geometry_ ([arXiv:hep-th/0210296](http://arxiv.org/abs/hep-th/0210296))
+ {#KapustinLi}
 
 The [[derived category]] of [[D-brane]]s in type B LG-models is discussed in
 
 * [[Dmitri Orlov]], _Derived Categories of Coherent Sheaves and Triangulated Categories of Singularities_ ([arXiv](http://arxiv.org/abs/math.ag/0503632))
+ {#Orlov}
 
+* Andrei Caldararu, Junwu Tu, _Curved $A_\infty$-algebras and Landau-Ginzburg models_ ([pdf](http://www.math.wisc.edu/~andreic/publications/AinfinityLG.pdf))
+ {#CaldararuTu}
 
 [[!redirects LG-model]]
 [[!redirects LG-models]]
