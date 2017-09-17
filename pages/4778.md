@@ -1,7 +1,12 @@
-__Gian-Carlo Rota__ was a great [[combinatorialist]]; in addition to numerous results he deserves much credit on systematizing many methods.   
+__Gian-Carlo Rota__ was a great [[combinatorialist]]; in addition to numerous concrete results he deserves much credit on systematizing many methods.   
 
 * [wikipedia](http://en.wikipedia.org/wiki/Gian-Carlo_Rota)
 
 Related entries in nlab include [[umbral calculus]] and [[Rota-Baxter algebra]].
 
+A nice reading about appreciation of systematic/foundational work in mathematics is his preface ([pdf](http://bergeron.math.uqam.ca/Species/foreword.pdf), [ps.gz](http://bergeron.math.uqam.ca/Species/foreword.ps.gz), [bookpage](http://bergeron.math.uqam.ca/Species/especes.html)) to [[Combinatorial species and tree-like structures]] (Enc. Math. Appl., Camb. Univ. Press 1997) by F. Bergeron, G. Labelle and P. Leroux.
+
+
 category: people
+
+[[!redirects Gian Carlo Rota]]
