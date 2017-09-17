@@ -55,7 +55,7 @@ The basic problem with the path integral comes from the fact that there is no tr
 
 * in [[differential geometry]]
 
-  *  [[differential form]]s are involved in integration over differentiable manifolds; more generally, one can integrate currents (cf. [[geometric measure theory]]
+  *  [[differential form]]s are involved in integration over differentiable manifolds, see at _[[integration of differential forms]]_ ; more generally, one can integrate currents (cf. [[geometric measure theory]]
 
 *  in [[supergeometry]]
 
@@ -70,6 +70,9 @@ vector fields and flows)
 * stratified versions related to Grothendieck rings and valuations:
 [[Euler integration]], [[motivic integration]]
 
+## Related concepts
+
+* [[integration of differential forms]]
 
 ## References
 
