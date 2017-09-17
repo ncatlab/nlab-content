@@ -68,3 +68,5 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
 
 [[!redirects monoidal closed category]]
+[[!redirects closed monoidal categories]]
+[[!redirects monoidal closed categories]]
