@@ -1,0 +1,17 @@
+
+
+## Idea
+
+A [[super Lie algebra]] which [[Lie algebra extension|extends]] the [[super Poincare Lie algebra]] in $D = 10+1$.
+
+## Properties
+
+Arises as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there).
+
+## References
+
+(...)
+
+[[!redirects M-theory Lie algebra]]
+
+[[!redirects M-Lie algebra]]
