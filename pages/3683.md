@@ -76,6 +76,8 @@ and the canonical operator method_, Nauka, Moscow, 1978.
 * Albert Schwarz, Oleg Zaboronsky, _Supersymmetry and localization_, Comm. Math. Phys. __183__, 2 (1997), 463-476, [euclid](http://projecteuclid.org/euclid.cmp/1158328185)
 
 * [[Albert Schwarz]], _Semiclassical approximation in [[Batalin-Vilkovisky quantization|Batalin-Vilkovisky formalism]]_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246). 
+* A. Laptev, I.M. Sigal, _Global Fourier integral operators and semiclassical asymptotics_, Review of Math. Physics, __12__:5 (2000) 749--766 [pdf](http://www.math.kth.se/~laptev/Research/Papers/LSig.pdf)
+* Maurice A. de Gosson, _Symplectic geometry, Wigner-Weyl-Moyal calculus, and quantum mechanics in phase space_, 385 pp. [pdf](http://opus.kobv.de/ubp/volltexte/2009/3021/pdf/2006_06.pdf)
 
 For large N-limit compared to semiclassical expansion see
 
