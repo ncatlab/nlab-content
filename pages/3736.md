@@ -251,8 +251,24 @@ being the unit of the adjunction $A_j \to U F A_j$. Take $\tilde r$ to be the (u
 
 ### Monadicity
 
-()
+We now give a formal justification for calling the objects of $Alg C$ _algebraic_ objects by showing that $Alg C$ is the category of algebras over an [[algebraic theory]] in $C$, or more precisely that it is the category of [[algebras over a monad|algebra over the monad]] $F \circ U$ on $C$ 
 
++-- {: .un_theorem}
+###### Theorem
+
+The functor $U : Alg C \to C$ is [[monadic]].
+
+=--
+
+This is ([Nikolaus, prop. 24](#Nikolaus))
+
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
 ## Examples
 
 ### Algebraic $\infty$-groupoids {#AlgebaicHigherCategories}
@@ -278,6 +294,7 @@ $$
 $$
 
 establishes an equivalence of an algebraic with the standard geometric model for $(\infty,1)$-categories.
+
 
 ## References
 
