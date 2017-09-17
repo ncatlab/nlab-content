@@ -178,7 +178,7 @@ We discuss an equivalent formulation of the Segal condition in terms of notions 
 
 #### For simplicial objects and category objects
 
-We characterize below in prop. \ref{CatAsPullback} the category of categories of the pullback of the [[topos]] of [[simplicial set]] along the inclusion of the topos of graphs into that of presheaves on finite linear graphs. 
+We characterize below in prop. \ref{CatAsPullback} the category of categories as the pullback of the [[topos]] of [[simplicial set]] along the inclusion of the topos of graphs into that of presheaves on finite linear graphs. 
 
 First we state some preliminaries.
 
