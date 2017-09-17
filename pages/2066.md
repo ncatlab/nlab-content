@@ -180,7 +180,7 @@ By lemma \ref{def2}, it suffices to prove that
 
 * If $p : U \to U$ is a smooth idempotent on an open set $U \subseteq \mathbb{R}^n$, then the subset $Fix(p) \hookrightarrow U$ is an embedded submanifold. 
 
-For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case $U$ carries a structure of vector bundle over $M$ in such a way that the inclusion $M \hookrightarow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
+For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case $U$ carries a structure of vector bundle over $M$ in such a way that the inclusion $M \hookrightarrow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
 
 For the second statement, assume that the origin $0$ is a fixed point of $p$, and let $T_0(U) \cong \mathbb{R}^n$ be its tangent space (observe the presence of a _canonical_ isomorphism to $\mathbb{R}^n$). Thus we have idempotent linear maps $d p(0), Id-d p(0): T_0(U) \to T_0(U)$ where the latter factors through the inclusion $\ker \; d p(0) \hookrightarrow T_0(U)$ via a projection map $\pi: T_0(U) \to \ker \; d p(0)$. We have a map $f: U \to \mathbb{R}^n$ that takes $x \in U$ to $x - p(x)$; let $g$ denote the composite 
 
@@ -257,7 +257,11 @@ The Karoubi envelope for the additive case (see also [[additive envelope]]) is c
 
 Discussion for [[triangulated categories]] is in 
 
-* Paul Balmer, Marco Schlichting, _Idempotent completion of triangulated categories_ ([pdf](http://www.math.ucla.edu/~balmer/research/Pubfile/IdempCompl.pdf))
+* Paul Balmer, Marco Schlichting, _Idempotent completion of triangulated categories_ ([pdf](http://www.math.ucla.edu/~balmer/research/Pubfile/IdempCompl.pdf)) 
+
+The proof that idempotents split in the category of manifolds was adapted from this MO answer: 
+
+* Zack (http://mathoverflow.net/users/300/zack), Idempotents split in category of smooth manifolds?, URL (version: 2014-04-06): http://mathoverflow.net/q/162556 ([web](http://mathoverflow.net/a/162556/2926)) 
 
 [[!redirects Karoubi completion]]
 [[!redirects Karoubi complete category]]
