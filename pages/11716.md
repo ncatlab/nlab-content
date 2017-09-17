@@ -1,0 +1,16 @@
+
+## Idea
+
+A [[triangulated category]] equipped with the structure of a [[tensor category]] in a compatible way.
+
+## Related concepts
+
+* [[spectrum of a tensor triangulated category]]
+
+## References
+
+Review is for instance in 
+
+* [[Greg Stevenson]], _Tensor actions and locally complete intersection_ PhD thesis 2011 ([pdf](http://www.math.uni-bielefeld.de/~gstevens/Stevenson_thesis.pdf))
+
+[[!redirects tensor triangulated categories]]
