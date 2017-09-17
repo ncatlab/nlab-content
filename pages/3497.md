@@ -64,31 +64,24 @@ This appears as [[Higher Topos Theory|HTT, def. 6.4.1.1]].
 
 ## Properties
 
-For $\mathcal{T}_1$, $\mathcal{T}_2$ $(n,1)$-toposes for some $n$, write  
+Write [[(∞,1)-Topos]] for the [[(∞,1)-category]] of [[(∞,1)-topos]] and [[(∞,1)-geometric morphisms]]. Write $(n,1)Topos$ for the [[(n,1)-category|(n+1,1)-category]] of $(n,1)$-toposes and geometreic moprphisms between these.
+
+The following proposition asserts that when passing to the $(n,1)$-topos of an [[(∞,1)-topos]] $\mathcal{X}$, only the [[n-localic (∞,1)-topos|n-localic]] "Postnikiov stage" of $\mathcal{X}$ matters.
+
+
++-- {: .un_prop}
+###### Proposition
+
+Every $(n,1)$-topos $\mathcal{Y}$ is the [[(n,1)-category]] of $(n-1)$-[[truncated]] objects in an [[n-localic (∞,1)-topos]] $\mathcal{X}_n$
 
 $$
-  Func^{geom}(\mathcal{T}_1, \mathcal{T}_2)
-  \subset 
-  Func(\mathcal{T}_1, \mathcal{T}_2)
+  \tau_{n-1} X_n  \stackrel{\simeq}{\to} \mathcal{Y}
+  \,.
 $$
 
-for the full [[sub-quasi-category|sub (∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on [[geometric morphism]]s.
+=--
 
-Write $Topos_{(n,1)}$ for the $(\infty,1)$-category of $(n,1)$-toposes and geometric morphisms between them.
-
-Recall that an $(n,1)$-topos $\mathcal{X}$ is [[n-localic (∞,1)-topos|m-localic]] for $m \leq n$ if for everey $(n,1)$-topos $\mathcal{Y}$ the restriction to the $(m-1)$-[[truncated|truncations]]
-
-$$
-  Func^{geom}(\mathcal{Y}, \mathcal{X})
-  \to
-  Func^{geom}(\tau_{m -1}\mathcal{Y}, \tau_{m-1}\mathcal{X})  
-$$
-
-is an [[equivalence of quasi-categories|equivalence of (∞,1)-categories]]. 
-
-([[Higher Topos Theory|HTT, def. 6.4.5.8]]).
-
-This is in particular the case for $\mathcal{X} = Sh_{(n,1)}(C)$ with $C$ a small [[(n,1)-category]] with finite limits.
+This is ([[Higher Topos Theory|HTT, prop. 6.4.5.7]]).
 
 
 +-- {: .un_prop}
@@ -128,3 +121,4 @@ Section 6.4 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
+[[!redirects (n,1)-toposes]]
