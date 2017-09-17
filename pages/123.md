@@ -8,6 +8,18 @@
 =--
 =--
 
+
+* **functor**
+
+* [[2-functor]]
+
+* [[n-functor]]
+
+* [[(∞,1)-functor]]
+
+***
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
