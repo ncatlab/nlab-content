@@ -134,6 +134,8 @@ $$
   \,.
 $$
 
+This is [[cohomology with constant coefficients]].
+
 Notice that since $X$ is in fact the [[terminal object]] of $Sh_{(\infty,1)}(X)$ and that $Sh_{(\infty,1)}(X)(X,-)$ is in fact that [[global section]]s functor, this is equivalently
 
 $$
