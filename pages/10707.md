@@ -49,3 +49,5 @@ The [[deformation theory]] around these [[strata]] is [[Lubin-Tate theory]].
 [[!redirects moduli stacks of formal groups]]
 
 [[!redirects height filtration]]
+
+[[!redirects moduli stack of formal group laws]]
