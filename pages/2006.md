@@ -106,6 +106,8 @@ In [[type theory|typed]] [[functional programming]] Kleisli composition is used 
 
 ## Related concepts
 
+* [[Kleisli object]]
+
 * [[Kleisli 2-category]]
 
 * [[monad (in computer science)]]
