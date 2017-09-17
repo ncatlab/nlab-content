@@ -17,7 +17,7 @@ Founders of Morse theory were [[Marston Morse]], [[Raoul Bott]] and [[Albert Sch
 
 ## Definitions
 
-A on a smooth manifold $M$, [[smooth]] function $\varphi: M \to \mathbb{R} $ is said to be *Morse* (or *a Morse function*) if
+A on a smooth manifold $M$, [[smooth map|smooth]] function $\varphi: M \to \mathbb{R} $ is said to be *Morse* (or *a Morse function*) if
 
 * the zero set of $ d \varphi $ consists of isolated points, and
 * the [[Hessian]] of $\varphi$ at these points is nondegenerate.
@@ -25,13 +25,13 @@ A on a smooth manifold $M$, [[smooth]] function $\varphi: M \to \mathbb{R} $ is 
 The Morse functions on $M$ are dense in most reasonable topologies you could put on $C^{\infty}(M)$.
 A further condition which is useful in case $M$ is not compact is 
 
-* if the (closed!) preimage of $ -\infty , \lambda ] $ under $\varphi$ is compact for all $\lambda$, then $\varphi$ is said to be *coercive*, whether or not it is Morse.
+* if the (closed!) preimage of $( -\infty , \lambda ] $ under $\varphi$ is compact for all $\lambda$, then $\varphi$ is said to be *coercive*, whether or not it is Morse.
 
 Together with a (smooth) Riemann structure $g =\langle \cdot,\bullet\rangle$, any real function $\varphi$ on $M$ defines a [[flow]] on $M$ by the equation
 $$ - \langle \dot x, Y_x \rangle = Y_x \varphi = d\varphi(Y_x).$$
-The Morse functions are notable in that the flows they define have isolated fixed-points with trivially linearizable dynamics, and <nowiki>[fixme: less vague?]</nowiki> no other stable cyles.
+The Morse functions are notable in that the flows they define have isolated fixed-points with trivially linearizable dynamics, and <nowiki>...[fixme: less vague?]...</nowiki> no other stable cyles.
 
-When $\varphi$ is Morse and coercive, the unstable manifolds of the fixpoints can be arranged into a [[CW complex]] $C_{unstable} (\varphi,g)$, canonically homeomorphic to $M$.  When $M$ is compact, $\varphi$ and $-\varphi$ are automatically both coercive, and $-\varphi$ induces a [[Poincare duality|dual]] CW complexe $ C_{stable} (\varphi,g) $.  Concretely, <nowiki>[details]</nowiki>.
+When $\varphi$ is Morse and coercive, the unstable manifolds of the fixpoints can be arranged into a [[CW complex]] $C_{unstable} (\varphi,g)$, canonically homeomorphic to $M$.  When $M$ is compact, $\varphi$ and $-\varphi$ are automatically both coercive, and $-\varphi$ induces a [[Poincare duality|dual]] CW complexe $ C_{stable} (\varphi,g) $.  Concretely, ....<nowiki>[details]</nowiki>.
 
 ### Sketch of a trivial application
 
