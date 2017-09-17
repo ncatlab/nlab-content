@@ -30,7 +30,20 @@ Sometimes this is referred to just as "global homotopy theory", leaving the equi
 
 More precisles, the _global equivariant homotopy category_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] on the global [[orbit category]] $Orb$ ([Henriques-Gepner 07, section 1.3](#HenriquesGepner07)), regarded as an [[(∞,1)-category]].
 
-Here $Orb$ has a [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Orb(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
+Here $Orb$ has as [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Orb(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
+
+By the main theorem of ([Henriques-Gepner 07](#HenriquesGepner07)) the [[(∞,1)-presheaves]] on the global [[orbit category]] are equivalently "cellular" [[topological stacks]]/[[topological groupoids]] ("[[orbispaces]]"), we might write this as
+
+$$
+  ETopGrpd^{cell} = PSh_\infty(Orb)
+  \,.
+$$
+
+(As such that global equivariant homotopy theory should be similar to [[ETop∞Grpd]]. Observe that this is a [[cohesive (∞,1)-topos]] with $\Pi$ such that it sends a topological [[action groupoid]] of a [[topological group]] $G$ acting on a [[topological space]] $X$ to the [[homotopy quotient]] $\Pi(X)//\Pi(G)$.)
+
+The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definition than [Henriques-Gepner 07](#HenriquesGepner07)) is that $PSh_\infty(Orb)$ is a [[cohesive (∞,1)-topos]] with $\Gamma$ producing homotopy quotients.
+
+
 
 ## Related concepts
 
@@ -40,8 +53,8 @@ Here $Orb$ has a [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorica
 
 The global orbit category $Orb$ is considered in 
 
-* [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
-  {#HenriquesGepner07}
+* {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
+  
 
 Global unstable equivariant homotopy theory is discussed as a [[localization]] of the category of "orthogonal spaces" (the unstable version of [[orthogonal spectra]]) in chapter I of
 
