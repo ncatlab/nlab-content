@@ -70,6 +70,8 @@ A key observation here is ([Atiyah-Bott 83, section 7](#AtiyahBott83)), that a $
 
 * [[Higgs bundle]]
 
+* [[algebraic line bundle]]
+
 * [[holomorphic line 2-bundle]]
 
 ## References
