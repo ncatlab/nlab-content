@@ -18,9 +18,9 @@
   * [[FAQ|FAQ]]
   * [[Contributors]]
   * [[inbound citations|Inbound Citations]]
-  * [[Uploaded Files]]
+  * [Uploaded Files](http://ncatlab.org/nlab/file_list)
   * [[Sandbox|Sandbox]]
-  * [Wiki Webs](http://ncatlab.org/web_list)
+  * [All Webs](http://ncatlab.org/web_list)
 
 * [[math resources|Math Resources]]
 
