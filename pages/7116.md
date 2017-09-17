@@ -3,9 +3,14 @@
 * table of contents
 {: toc}
 
+## Terminology
+
+In [[field]] theory, what we call an 'absolute value' here is often called a 'valuation'.  However, there is also a more general notion of [[valuation]] used in field theory, which is what we call 'valuation'.  The notion of absolute value is also used in [[functional analysis]], where it may be called a 'multiplicative norm' (rather than merely submultiplicative, as norms on [[Banach algebras]] are required to be).
+
+
 ## Definition
 
-For $k$ a [[rig]] (typically a [[field]] or at least an [[integral domain]]), an **absolute value** (or real-valued [[valuation]]) on $k$ is a non-trivial multiplicative [[seminorm]].
+For $k$ a [[rig]] (typically either a [[field]] or at least an [[integral domain]], or else an [[associative algebra]] over such), an **absolute value** on $k$ is a (non-trivial) multiplicative [[seminorm]], or equivalently a finite real-valued [[valuation]].
 
 This means it is a [[function]] 
 
@@ -21,7 +26,7 @@ to the [[real numbers]] such that for all $x, y \in k$
 
 3. ${\vert x \cdot y\vert} = {\vert x \vert} {\vert y \vert}$;
 
-4. ${\vert x + y\vert} \leq {\vert x \vert} + {\vert y \vert}$ ([[triangle identity]]).
+4. ${\vert x + y\vert} \leq {\vert x \vert} + {\vert y \vert}$ (the [[triangle inequality]]).
 
 
 If the last condition is strengthened to
@@ -94,6 +99,7 @@ $$
 $$
 
 These standard absolute values are archimedean, and with respect to these standard absolute values, both $\mathbb{R}$ and $\mathbb{C}$ are [[complete field|complete]] and hence are complete [[archimedean valued fields]]. Notice that $\mathbb{R}$ is in addition an [[ordered field]] and as such also an [[archimedean field]].
+
 
 ### On the rational numbers
 
