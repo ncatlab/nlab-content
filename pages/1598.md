@@ -148,3 +148,10 @@ Accordingly, so does the notion of Lie group generalize to [[Lie 2-group]], ... 
 
 
 [[!redirects Lie groups]]
+
+[[!redirects classical group]]
+[[!redirects classical groups]]
+
+
+[[!redirects classical Lie group]]
+[[!redirects classical Lie groups]]
