@@ -1,3 +1,3 @@
-"The happiest people I know are self-employed and living on their own terms, as opposed to living in a box back home and getting less than two weeks vacation per year," McKibben said. "I hope to see lots more people go this direction. Thats my mission."
- <a href="http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-wayfarer-c-56.html" >Ray Ban Wayfarer</a>
-[url=http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-wayfarer-c-56.html]Ray Ban Wayfarer[/url]
+Passionate collectors like Dimas and Wiltshire say they enjoy art collecting as a lifestyle, not necessarily an investment. To that end, the pair opened to help develop Sydneys street art scene.
+ <a href="http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=rb3484-25" >RB3484</a>
+[url=http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=rb3484-25]RB3484[/url]
