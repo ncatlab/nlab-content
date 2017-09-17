@@ -20,7 +20,7 @@
 A _continuum_ is in general something opposite to a [[discrete object|discrete]]. 
 There are several notions of continuum in mathematics:
 
-* often _the continuum_ is taken to be the [[real line]]; consequently the *cardinality of the continuum* is the cardinality of the [[set]] of [[real numbers]]. There is a related **[[continuum hypothesis]]** in [[set theory]].
+* often _the continuum_ is taken to be the [[real line]]; consequently the *cardinality of the continuum* is the cardinality of the [[set]] of [[real numbers]]. There is a related **[[continuum hypothesis]]** in [[set theory]]. 
 
 * a **metric continuum** is any [[compact space|compact]] [[connected space|connected]] [[metric space]]
 
