@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
 +--{: .hide}
 [[!include foundations - contents]]
@@ -9,10 +9,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Statement
 
@@ -78,4 +77,5 @@ where most of the above results were proven.  Some others can be found in
 category: foundational axiom
 
 [[!redirects SVC]]
+[[!redirects small violations of choice]]
 [[!redirects axiom of small violations of choice]]
