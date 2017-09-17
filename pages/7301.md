@@ -1,0 +1,6 @@
+
+For the moment see the corresponding paragraph at _[[open map]]_.
+
+(...)
+
+[[!redirects open geometric morphisms]]
