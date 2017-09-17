@@ -1,0 +1,116 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $A$ some fixed [[ring]],
+a _linear equation_ (over $A$) is an [[equation]] between a fixed element $\vec v \in N^{n_1}$ of an $A$-[[module]] $N^{n_0}$ and elements in the image of an $A$-module [[homomorphism]] $K \cdot (-) : N^{n_0} \to N^{n_1}$ with values in that module
+
+$$
+  \vec u : N^{n_1} \vdash  [K \cdot \vec u = \vec v] : Prop
+  \,.
+$$
+
+## Definition
+
+Let $A$ be a [[ring]] and let $N$ be a left $A$-[[module]]. 
+
+Let $n_0,n_1 \in \mathbb{N}$ and let $K = (K_{i j})$ be an an $n_0 \times n_1$ [[matrix]] with entries in $A$. By [[matrix multiplication]] this defines a [[linear function]]
+
+$$
+  K \cdot (-) : N^{n_0} \to N^{n_1}
+  \,.
+$$
+
+Finally let 
+
+$$
+  \vdash \vec v =_{def} (v_j) \in N^{n_0}
+$$ 
+
+be an $n_1$-[[tuple]] of elements in $N$, hence an element of the [[direct sum]] $A$-[[module]] $N^{n_1}$. 
+
+Then the **linear equation** defined by $K$ and $v$ is 
+
+$$
+  u_1, \cdots, u_{n_0} : R 
+    \vdash 
+  \left[\sum_{j = 1}^{n_0} K_{1 j} u_j = v_1\right]
+  \vee
+  \cdots
+  \left[\sum_{j = 1}^{n_0} K_{n j} u_j = v_n\right] : Prop
+  \,.
+$$
+
+or in [[matrix calculus]] notation simply
+
+$$
+  \vec u \in R^{n_0} \vdash \left[K \cdot \vec u = \vec v\right] : Prop
+  \,.
+$$
+
+If here $\vec v = 0$ this is a **homogeneous** linear equation.
+
+This is a notion of fundamental interest in _[[linear algebra]]_.
+
+## Properties
+
+### Relation to modules and projective resolution
+
+Consider dually the 
+
+$$
+  (-) \cdot K : A^{n_1} \to A^{n_0}
+$$
+
+Consider the [[quotient]] [[module]] of $A^{n_1}$ by the [[image]] of this map
+
+$$
+  A^{n_1}/ (A^{n_0} \cdot K)
+  \,,
+$$
+
+hence the [[cokernel]] of the map, fitting in the [[exact sequence]]
+
+$$
+  A^{n_1} \stackrel{(-)\cdots K}{\to} A^{n_1} \to A^{n_1}/(A^{n_1}\cdot K)
+  \to 0
+$$
+
+Applying the [[left exact functor|left exact]] [[hom functor]] $Hom_{A Mod}(-,N)$ to this yields [[exact sequence]]
+
+$$
+  0 \to Hom_{A Mod}(A^{n_1}/(A^{n_0}\cdot K), N)
+  \to 
+  N^{n_0}
+  \stackrel{K \cdot(-)}{\to}
+  N^{n_1}
+  \,.
+$$
+
+This identifies $Hom_{A Mod}(A^{n_1}/(A^{n_0}\cdot K), N)$ as the space of solutions of the _homogeneous_ linear [[equation]] $K \cdot \vec u = 0$.
+
+(...)
+
+## Related concepts
+
+* [[differential equation]]
+
+* [[matrix calculus]]
+
+* [[determinant]]
+
+[[!redirects linear equations]]
