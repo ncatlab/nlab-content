@@ -166,8 +166,18 @@ See at _[[Becker-Gottlieb transfer]]_.
 
 The Borel regulator is due to 
 
-* [[Armand Borel]], _Stable real cohomology of arithmetic groups_, Ann. Sci. Ecole Norm. Sup. (4) 7 (1974), 235-272 (1975). MR 0387496 
-  {#Borel74}
+* {#Borel74} [[Armand Borel]], _Stable real cohomology of arithmetic groups_, Ann. Sci. Ecole Norm. Sup. (4) 7 (1974), 235-272 (1975). MR 0387496 
+  
+The Beilinson regulator (with values in [[Deligne cohomology]]) is due to 
+
+* {#Bloch81} [[Spencer Bloch]], _The dilogarithm and extensions of Lie algebras_, Algebraic K-Theory Evanston 1980, Lecture Notes in Mathematics Volume 854, 1981, pp 1-23
+
+* {#Beilinson85} [[Alexander Beilinson]], _Higher regulators and values of L-functions_, J. Soviet Math. 30 (1985), 2036-2070 (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
+
+reviewed in
+
+* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
+
 
 The relation to [[Chern characters]] is made very explicit in
 
@@ -217,5 +227,4 @@ See also
 
 [[!redirects regulator in algebraic K-theory]]
 [[!redirects regulators in algebraic K-theory]]
-
 
