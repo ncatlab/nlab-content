@@ -11,5 +11,8 @@ The entries of the following table denote [[Quillen equivalences]] between [[mod
 | $\downarrow$[[dendroidal set|dendroidal nerve]] | | $\downarrow$ | | |
 | [[model structure for Segal operads|SegalOperads]] | $\hookrightarrow$ | [[model structure for dendroidal complete Segal spaces|DendroidalCompleteSegalSpaces]] |
 
+[[!redirects table - models for (infinity,1)-categories]]
 
+[[!redirects table - models for (∞,1)-categories]]
+[[!redirects table - models for (∞,1)-operads]]
 
