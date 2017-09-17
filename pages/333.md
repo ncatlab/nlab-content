@@ -45,4 +45,6 @@ Noncommutative formal geometry, concerned with objects like infinitesimal neighb
 
 * [[non-commutative analytic space]]
 
+* [[QFT on non-commutative spacetime]]
+
 [[!redirects non-commutative geometry]]
