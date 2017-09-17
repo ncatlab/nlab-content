@@ -19,15 +19,20 @@
 
 ## Idea
 
-A [[proof theory|proof-theoretically]] weak [[theory]] based on [[elementary function arithmetic]] which is strong enough derive "almost all of undergraduate mathematics".
+Second-order arithmetic is a [[theory]] dealing with natural numbers and, what makes it "second-order", sets of natural numbers. SOA, or $Z_2$ as it is often denoted, is [[proof theory|proof-theoretically]] weak in comparison with [[ZFC]], but still strong enough to derive "almost all of undergraduate mathematics" (Friedman).
 
 ## Related concepts
 
-* [[foundations]]
+* [[foundations]] 
+
+* [[elementary function arithmetic]] 
 
 ## References
 
-* Wikipedia _[Second order arithmetic](http://www.math.osu.edu/~friedman.8/)_
+* Wikipedia _[Second order arithmetic](http://en.wikipedia.org/wiki/Second-order_arithmetic)_
+
+* Harvey Friedman's [Home Page](http://www.math.osu.edu/~friedman.8/)
 
 
 [[!redirects SOA]]
+[[!redirects second-order arithmetic]] 
