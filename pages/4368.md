@@ -1,6 +1,11 @@
-## The idea ##
+# Gabriel--Ulmer duality
+* table of contents
+{: toc}
 
-**Gabriel--Ulmer duality** says that there is a equivalence of 2-categories (or in other words, a [[biequivalence]]) 
+
+## The idea
+
+**Gabriel--Ulmer duality** says that there is an [[equivalence of categories|equivalence]] of [[2-categories]] (or in other words, a [[biequivalence]]) 
 
 $$ 
 \begin{matrix}
@@ -11,7 +16,7 @@ $$
 
 where [[Lex]] is the 2-category of:
 
-* small finitely complete categories, 
+* small [[finitely complete categories]], 
 
 * finite limit preserving functors, and 
 
@@ -19,16 +24,16 @@ where [[Lex]] is the 2-category of:
 
 and LFP is the 2-category of 
 
-* locally finitely presentable
-categories, 
+* [[locally finitely presentable categories]], 
 
 * finitary right adjoint functors and 
 
 * natural transformations.
 
-The idea is that an object $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  Gabriel--Ulmer duality says that this category of models is locally finitely presentable, and that we can recover the theory $C$ from its category of models.
+The idea is that an object $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  Gabriel--Ulmer duality says that this category of models is locally finitely presentable, all LFP categories arise in this way, and we can recover the theory $C$ from its category of models.
 
-## References ##
+
+## References
 
 The original source is:
 
@@ -40,3 +45,7 @@ For some nice general treatments of Gabriel--Ulmer duality and its generalizatio
 
 * Stephen Lack and John Power, Gabriel--Ulmer duality and Lawvere Theories enriched over a general base.  ([web](http://www.scm.uws.edu.au/~stevel/papers/jfp.pdf))
 
+
+[[!redirects Gabriel-Ulmer duality]]
+[[!redirects Gabriel–Ulmer duality]]
+[[!redirects Gabriel--Ulmer duality]]
