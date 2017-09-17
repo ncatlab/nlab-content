@@ -1,4 +1,3 @@
-
 #Contents#
 * toc
 {:toc}
@@ -94,7 +93,7 @@ Note that an opfibration is the same as an internal fibration in the 2-category 
 Note also that a given pseudofunctor $B^{op}\to Cat$ can be represented both by a fibration $E_1\to B$ and by an opfibration $E_2\to B^{op}$.  However $E_2$ is _not_ the opposite category of $E_1$.
 
 
-### Non-evil version 
+### Non-evil version {#StreetFibration}
 
 There is something [[evil]] about the notion of fibration, namely the requirement that for every $f:a\to b$ and $e\in E_b$ there exists a $\phi:e'\to e$ such that $p(e')$ is _[[equality|equal]]_, rather than merely [[isomorphism|isomorphic]], to $a$.  This is connected with the fact that we use strict fibers, rather than [[essential fiber]]s, and that fibrations and pseudofunctors can be recovered from each other up to isomorphism rather than merely equivalence.
 
