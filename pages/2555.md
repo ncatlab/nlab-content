@@ -35,7 +35,7 @@ The composite of these two maps is the codiagonal $(Id,Id) :  X \coprod X \to X$
 
 These properties are the characterizing properties of the cylinder that can be abstracted and realized in other categories.
 
-The notion dual to _cylinder object_ is [[path space object]], which is thus sometimes alternatively called a cocylinder]]. Cylinder objects and path space objects are used to define [[left homotopies]] and [[right homotopies]], respectively.
+The notion dual to _cylinder object_ is [[path space object]], which is thus sometimes alternatively called a cocylinder. Cylinder objects and path space objects are used to define [[left homotopies]] and [[right homotopies]], respectively.
 
 
 There are several views on the role of cylinders /  cocylinders in homotopy theory. If there is a natural notion of weak equivalence or [[quasi-isomorphism]] then the cylinder is used to encode a notion of homotopy equivalence compatible with the weak equivalences. In some other situations, a 'cylinder' , often functorially given and well structured in some way, may be the _primitive_ notion that allows a notion of 'homotopy equivalence' to be put forward.  Below we give a definition optimised for the former situation. Some indication of the second context is given in the entry [[cylinder functor]].
