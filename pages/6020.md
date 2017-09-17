@@ -32,6 +32,8 @@ A [[sigma-model]] [[quantum field theory]] describes the propagation of a [[bran
 
 ## Related concepts
 
+* [[field (physics)]]
+
 * [[sigma model]]
 
   * [[worldvolume]]
