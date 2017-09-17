@@ -140,7 +140,7 @@ where
 
 1. both squares are [[homotopy pullback]] and [[homotopy pushout]] squares;
 
-1. the two boundary sequences ate long [[homotopy fiber sequences]] and [[homotopy cofiber sequences]].
+1. the two boundary sequences are long [[homotopy fiber sequences]] and [[homotopy cofiber sequences]].
 
 =--
 
