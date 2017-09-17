@@ -52,7 +52,7 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
 * _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87 ([pdf](http://www.ima.umn.edu/preprints/Jan84Dec84/87s.pdf))
 
-* _Cohesive toposes and Cantor's "lauter Einsen"_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+* _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
   
   (an early version of the notion of [[cohesive topos]]es)
 
@@ -99,6 +99,8 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
   (on basic category theory, the [[category of sets]] and [[elementary toposes]], and an approach to [[indexed categories]])
 
+
+Many of these writings are influenced to some extent from [[Georg Hegel]]'s _[[Science of Logic]]_.
 
 category: people
 
