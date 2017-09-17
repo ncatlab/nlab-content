@@ -5,7 +5,7 @@
 
 ## Idea ##
 
-The general procedure in [[K-theory]] is to assign a **K-theory spectrum** $\mathbf{K}(C)$ to a [[stable (∞,1)-category]] $C$. 
+The general procedure in [[K-theory]] is to assign an **[[algebraic K-theory]] [[spectrum]]** $\mathbf{K}(C)$ to a [[stable (∞,1)-category]] $C$. 
 
 In practice these stable $(\infty,1)$-categories are usually [[presentable (infinity,1)-category|presented]] by [[homotopical category|homotopical categories]] called [[Waldhausen category|Waldhausen categories]].
 
