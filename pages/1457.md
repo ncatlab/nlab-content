@@ -40,15 +40,11 @@ then we get __ultrametric spaces__, a more restricted concept.  (This include fo
 
 [[Lawvere]] has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be supremum instead, enriched categories amount to Lawvere ultrametric spaces.
 
-Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of enriched category theory.  This includes for example the notion of [[Cauchy complete category|Cauchy completion]], which in general enriched category theory is related to [[Karoubi envelope|Karoubi envelopes]] and [[Morita equivalence]]. 
+Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of enriched category theory.  This includes for example the notion of [[Cauchy complete category|Cauchy completion]], which in general enriched category theory is related to [[Karoubi envelope|Karoubi envelopes]] and [[Morita equivalence]].
 
-One would like to say that imposing the symmetry axiom gives us [[enriched groupoid|enriched groupoids]], which is correct for ultrametric spaces.  It\'s not clear, however, what this means for more general metric spaces, since the enriching category is then not [[cartesian monoidal category|cartesian]].
+Imposing the symmetry axiom then gives us enriched $\dagger$-[[dagger category|categories]].  Note that when enriching over a [[cartesian monoidal category|cartesian monoidal]] poset, there is no difference between a $\dagger$-category and a groupoid, so ultrametric spaces can also be regarded as [[enriched groupoid|enriched groupoids]], which is perhaps a more familiar concept.
 
-+--{: .query}
-[[Mike Shulman|Mike]]: Perhaps it would be more accurate to say that the symmetry axiom gives us enriched $\dagger$-[[dagger category|categories]]?
-
-_Toby_:  Yeah, that could work.  I was thinking of arguing that it makes sense to enrich groupoids in any monoidal poset, cartesian or otherwise, since we can write down the operations and all equations are trivial in a poset.  But maybe it makes more sense to call those enriched $\dagger$-categories.
-=--
+(The requisite axioms for an enriched groupoid do not make sense when the enriching category is not cartesian, but one might argue that since in a poset "they would commute automatically anyway", it makes sense to call any poset-enriched $\dagger$-category also an "enriched groupoid".  However, perhaps it makes more sense just to speak about enriched $\dagger$-categories.)
 
 
 ## Motivation for the axioms 
