@@ -44,6 +44,27 @@ This is a [[cohesive (∞,1)-topos]]. It is an <a href="http://nlab.mathforge.or
 
 (...)
 
+## References
+
+Supermanifolds regarded as sheaves on sites similar to $CartSp_{super}$ are considered -- in the context of [[synthetic differential supergeometry]] -- in
+
+* H. Nishimura, _Synthetic differential supergeometry_,  International Journal of Theoretical Physics, 	Volume 37, Number 11 (1998) ([journal](http://www.springerlink.com/content/l226546023178715/))
+
+* D. N. Yetter, _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) 
+
+* H. Nishimura, _Differential forms in synthetic differential supergeometry_, International Journal of Theoretical Physics, Volume 38, Number 2 / Februar 1999 ([journal](http://www.springerlink.com/content/w732u72q874u740k/))
+
+* H. Nishimura, _Supersmooth topoi_, International Journal of Theoretical Physics, Volume 39, Number 5 ([journal](http://www.springerlink.com/content/v2573726852x6470/))
+
+* H. Nishimura, _Synthetic theory of superconnections_, International Journal of Theoretical Physics, 39 ([journal](http://www.springerlink.com/content/m35085347gw88651/))
+
+
+
+Something roughly akin to looking at supermanifolds as [[sheaves]] on a combination of even [[smooth manifold]] and [[superpoint]]s is in
+
+* L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_ ([arXiv:0908.1872](http://arxiv.org/abs/0908.1872))
+
+
 [[!redirects super smooth ∞-groupoid]]
 [[!redirects super smooth infintiy-groupoid]]
 
