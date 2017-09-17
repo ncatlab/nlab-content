@@ -26,17 +26,32 @@ Under forming [[loop space objects]], $\infty$-group extensions are the special 
 
 ## Definition
 
-Let $\mathcal{H}$ an [[(∞,1)-topos]] and $G \in Grp(\mathbf{H})$ an [[∞-group]] with [[delooping]] $\mathbf{B}G$. Then for $A$ an abelian ([[E-∞ algebra|E-∞]]) [[∞-group]] and $n \in \mathbf{N}$ an extension of $G$ by $A$ in degree $n$ is sequence of $\infty$-groups 
+Let $\mathcal{H}$ an [[(∞,1)-topos]] and $G, A, \hat G \in Grp(\mathbf{H})$ be [[∞-groups]] with [[deloopings]] $\mathbf{B}G$, $\mathbf{B}A$ and $\hat \mathbf{G}$, respectively.
+
++-- {: .num_defn}
+###### Definition
+
+An **extension** $\hat G$ of $G$ by $A$ is a [[fiber sequence]] of the form
 
 $$
-  \mathbf{B}^{n-1} A \to \hat G \to A
+  \mathbf{B}A \stackrel{i}{\to} \mathbf{B}\hat G \stackrel{p}{\to} \mathbf{B}G
 $$
 
-such that this arises as the [[loop space object|looping]] of a [[fiber sequence]]
+such that the this exhibits $\Omega i \colon A \hookrightarrow \hat G$ as a [normal morphism](normal+subgroup#NormalMorphismOfInfinityGroups), hence such that $G \simeq \hat G \sslash G$.
+
+=-- 
+
+In the case that $A$ is at least [[En-algebra|E2]], hence in the case that the double [[delooping]] $\mathbf{B}^2 A$ exists, this is equivalent to the 
+
++-- {: .num_defn #E2Extensions}
+###### Definition
+
+
+For $A$ an [[En-algebra|E-2]] [[∞-group]], an extension $\hat G$ of $G$ by $A$ is a [[fiber sequence]] in $\mathbf{H}$ of the form
 
 $$
   \array{
-     \mathbf{B}^n A
+     \mathbf{B} A
      &
      \stackrel{\Omega \mathbf{c}}{\to}
      &
@@ -46,16 +61,55 @@ $$
      \\
      && \mathbf{B}G
      &\stackrel{\mathbf{c}}{\to}&
-     \mathbf{B}^{n+1}A
+     \mathbf{B}^2 A
      \,.
   }
+  \,.
 $$
 
-hence, by the discussion there, of a $\mathbf{B}^n A$-[[principal ∞-bundle]] over $\mathbf{B}G$.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Def. \ref{E2Extensions} equivalently says that
+
+* $\mathbf{B}\hat G \to \mathbf{B}G$ is an $\mathbf{B} A$-[[principal ∞-bundle]] over $\mathbf{B}G$;
+
+* the extension is classified by the [[group cohomology]] class
+
+  $$
+    [\mathbf{c}] \in \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^2 A) 
+    =
+    H^2_{Grp}(G,A)
+    \,.
+  $$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If here $A$ is an [[Eilenberg-MacLane object]] $A = \mathbf{B}^{n}\mathcal{A}$, then the above says that extension of $G$ by the $n$-fold [[delooping]]/[[suspension]] $\mathbf{B}^n\mathcal{A}$ is classified by degree-$n$ [[group cohomology]]
+
+$$
+  H_{Grp}(G, \mathbf{B}^n\mathcal{A})
+  =
+  \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^{n+1}\mathcal{A})
+  =
+  H_{Grp}^{n+1}(G, \mathcal{A})
+  \,.
+$$
+
+In particular if $G$ here is [[n-truncated object in an (infinity,1)-category|0-truncated]] (hence a plain [[group object]] in the underlying 1-[[topos]]) then this reproduces the traditional theory of [[group extensions]] of 1-groups by 1-groups.
+
+
+=--
+
 
 ## Properties
 
-By the main classification result at _[[principal ∞-bundles]]_, the [[∞-groupoid]] of $\infty$-group extensions is equivalent to
+Notably for abelian $A$, by the main classification result at _[[principal ∞-bundles]]_, the [[∞-groupoid]] of $\infty$-group extensions is equivalent to
 
 $$
   \mathbf{Ext}^n(G, A)
