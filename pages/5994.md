@@ -234,3 +234,5 @@ For the [[sigma model]] describing the [[brane|heterotic superstring]] propagati
 * [[path integral]]
 
 * [[spinors in Yang-Mills theory]]
+
+[[!redirects fermionic path integrals]]
