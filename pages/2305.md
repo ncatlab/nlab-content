@@ -60,7 +60,9 @@ For more on this see at
 
 * _[structures in a cohesive infinit-topos -- de Rham cohomology](cohesive+%28infinity%2C1%29-topos+--+structures#deRhamCohomology)_
 
-* _[[differential cohomology diagram]]_
+More precisely, $\flat_{dR} \Sigma A$ and $\Pi_{dR} \Omega A$ play the role of the non-negative degree and negative degree part, respectively of the de Rham complex with coefficients in $\Pi \flat_{dR} \Sigma A$. For more on this see at 
+
+* _[differential cohomology diagram -- de Rham coefficients](differential%20cohomology%20diagram#DeRhamCoefficients)_.
 
 ## Properties
 
@@ -71,6 +73,7 @@ For more on this see at
 * [[de Rham theorem]]
 
 ### Relation to Deligne complex
+
 
 See at _[[Deligne complex]]_
 
