@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -181,6 +185,8 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 * [[equivariant K-theory]], [[equivariant operator K-theory]], [[equivariant KK-theory]]
 
   * [[Baum-Connes conjecture]], [[Green-Julg theorem]], [[Atiyah-Segal completion theorem]]
+
+  * [[quantization commutes with reduction]]
 
 
 ## References
