@@ -99,6 +99,8 @@ Therefore the condition that the invariant polynomial is $n$-plectic amounts to 
 
 [[!include Isbell duality - table]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 ## References
 
