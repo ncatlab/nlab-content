@@ -1016,7 +1016,7 @@ For instance we will see that two open 2-balls $\mathbb{R}^2 \simeq D^2$ along a
 
 =--
 
-But the most basic example we consider right now:
+But the following most basic example we consider right now:
 
 +-- {: .num_example #CartesianSpaceAsSmoothSpace}
 ###### Example
@@ -1888,10 +1888,13 @@ We have seen above in _[The continuum real (world-)line](TheContinuumRealWorldLi
 But moreover, _[[dynamics]]_ in [[physics]]  is encoded by _[[functionals]] on such trajectories_: by "[[action functionals]]". In the simplest case these are for instance homomorphisms of smooth spaces
 
 $$
-  S \colon \left[\left[0,1\right], X\right] \to \mathbb{R}
+  S \colon \left[I, X\right] \to \mathbb{R}
+  \,,
 $$
 
-Such action functionals we discuss in their own right in _[Variational calculus](#VariationalCalculus)_ below. Here we first examine in detail a fundamental property they all have: they are supposed to be _[[local action functional|local]]_.
+where $I \hookrightarrow \mathbb{R}$ is the standard unit [[interval]].
+
+Such [[action functionals]] we discuss in their own right in _[Variational calculus](#VariationalCalculus)_ below. Here we first examine in detail a fundamental property they all have: they are supposed to be _[[local action functional|local]]_.
 
 Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories: if a rajectory $\gamma$ is decomposed as a trajectory $\gamma_1$ followed by a trajectory $\gamma_2$, then the action functional is assitive
 
@@ -1903,7 +1906,7 @@ $$
 As one takes this property to the limit of iterative subdivision, one finds that action functionals are entirely determined by their value on _[[infinitesimal space|infinitesimal]] displacements_ along the worldline. If $\gamma \colon \mathbb{R} \to X$ denotes a path and "$\dot \gamma(x)$" denotes the corresponding "infinitesimal path" at worldline parameter $x$, then the value of the action functional on such an infinitesimal path is traditionally written as
 
 $$
-  \mathbf{d}S(\dot \gamma)_x \mathbb{R}
+  \mathbf{d}S(\dot \gamma)_x  \in \mathbb{R}
   \,,
 $$
 
@@ -1941,7 +1944,7 @@ We introduce the basic concept of a smooth [[differential form]] on a [[Cartesia
 For $n \in \mathbb{N}$ a **[[smooth differential 1-form]]** $\omega$ on a [[Cartesian space]] $\mathbb{R}^n$ is an $n$-[[tuple]] 
 
 $$
-  (\omega_i \in CartSp(\mathbb{R}^n,\mathbb{R}))_{i = 1}^n
+  \left(\omega_i \in CartSp\left(\mathbb{R}^n,\mathbb{R}\right)\right)_{i = 1}^n
 $$
 
 of [[smooth functions]], which we think of equivalently as the [[coefficients]] of a [[formal linear combination]]
@@ -1960,7 +1963,7 @@ $$
 
 for the set of smooth [[differential 1-forms]] on $\mathbb{R}^k$.
 
-For $\phi \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$ a [[smooth function]], the [[pullback of differential forms|pullback of differential 1-forms]] along $f$ is the [[function]]
+For $\phi \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$ a [[smooth function]], the **[[pullback of differential forms|pullback of differential 1-forms]]** along $f$ is the [[function]]
 
 $$
   f^* \colon \Omega^1(\mathbb{R}^{k}) \to \Omega^1(\mathbb{R}^{\tilde k})
@@ -1975,59 +1978,140 @@ $$
 and then extended linearly, hence
 
 $$
-  f^* \omega = f^* \left( \sum_{i} \omega_i \mathbf{d}x^i \right)
-  \coloneqq
-  \sum_{i = 1}^k \left(f^* \omega\right)_i \sum_{j = 1}^{\tilde k} \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+  \begin{aligned}
+    f^* \omega & = f^* \left( \sum_{i} \omega_i \mathbf{d}x^i \right)
+    \\
+    & \coloneqq
+     \sum_{i = 1}^k \left(f^* \omega\right)_i \sum_{j = 1}^{\tilde k} \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+    \\
+    & = 
+     \sum_{i = 1}^k  \sum_{j = 1}^{\tilde k} \left(f^* \omega\right)_i \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+  \end{aligned}
   \,.
 $$
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_remark}
+###### Remark
 
-The assignment of differential 1-forms
-
-$$
-  \Omega^1(-) \colon \mathbb{R}^k \mapsto \Omega^1(\mathbb{R}^k)
-$$
-
-of def. \ref{Differential1FormsOnCartesianSpaces} defines a [[smooth space]], def. \ref{SmoothSpace}
-
-$$
-  \Omega^1(-) \in Smooth0Type
-  \,.
-$$
+We think of $\mathbf{d} x^i$ as a measure for [[infinitesimal space|infinitesimal]] displacements along the $x^i$-[[coordinate]] of a [[Cartesian space]]. This idea is made precise below in [Differential 1-forms are smooth increnemental path measures](#1FormsAsSmoothFunctors).
 
 =--
 
-We call this the **universal smooth [[moduli space]]** of differential 1-forms.
+Even if in the above definition we speak only about the [[set]] $\Omega^1(\mathbb{R}^k)$ of differential 1-forms, this set naturally carries further [[structure]].
+
++-- {: .num_defn #ModuleStructureOn1FormsOnRk}
+###### Definition
+
+1. The set $\Omega^1(\mathbb{R}^k)$ is naturally an [[abelian group]] with addition given by componentwise addition
+
+   $$
+      \begin{aligned}
+         \omega + \lambda & =
+          \sum_{i = 1}^k \omega_i \mathbf{d}x^i + \sum_{j = 1}^k \lambda_j \mathbf{d}x^j
+         \\
+         & = \sum_{i = 1}^k(\omega_i + \lambda_i) \mathbf{d}x^j
+      \end{aligned}
+      \,,
+   $$
+
+1. The abelian group $\Omega^1(\mathbb{R}^k)$ is naturally equipped with the structure of a [[module]] over the [[ring]] $C^\infty(\mathbb{R}^k,\mathbb{R}) = CartSp(\mathbb{R}^k, \mathbb{R})$ of [[smooth functions]], where the [[action]] $C^\infty(\mathbb{R}^k,\mathbb{R}) \times\Omega^1(\mathbb{R}^k) \to \Omega^1(\mathbb{R}^k)$ is given by componentwise multiplication
+
+   $$
+     f \cdot \omega = \sum_{i = 1}^k( f \cdot \omega_i) \mathbf{d}x^i
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn }
+###### Remark
+
+More abstractly, this just says that $\Omega^1(\mathbb{R}^k)$ is the [[free module]] over $C^\infty(\mathbb{R}^k)$ on the set $\{\mathbf{d}x^i\}_{i = 1}^k$.
+
+=--
+
+The following definition captures the idea that if $\mathbf{d} x^i$ is a measure for displacement along the $x^i$-[[coordinate]], and $\mathbf{d}x^j$ a measure for displacement along the $x^j$ coordinate, then there should be a way te get a measure, to be called $\mathbf{d}x^i \wedge \mathbf{d} x^j$, for infinitesimal _surfaces_ (squares) in the $x^i$-$x^j$-plane. And this should keep track of the [[orientation]] of these squares, whith 
+
+$$
+  \mathbf{d}x^j \wedge \mathbf{d}x^i = - \mathbf{d}x^i \wedge \mathbf{d} x^j
+$$
+
+being the same infinitesimal measure with orientation reversed.
+
++-- {: .num_defn #DifferentialnForms}
+###### Definition
+
+For $k,n \in \mathbb{N}$, the **smooth [[differential forms]]** on $\mathbb{R}^k$ is the [[exterior algebra]]
+
+$$
+  \Omega^\bullet(\mathbb{R}^k) 
+   \coloneqq
+  \wedge^\bullet_{C^\infty(\mathbb{R}^k)} \Omega^1(\mathbb{R}^k)
+$$
+
+over the [[ring]] $C^\infty(\mathbb{R}^k)$ of [[smooth functions]] of the [[module]] $\Omega^1(\mathbb{R}^k)$ of smooth 1-forms, prop. \ref{ModuleStructureOn1FormsOnRk}.
+
+We write $\Omega^n(\mathbb{R}^k)$ for the sub-module of degree $n$ and call its elements the **smooth [[differential n-forms]]**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Explicitly this means that a [[differential n-form]] $\omega \in \Omega^n(\mathbb{R}^k)$ on $\mathbb{R}^k$ is a [[formal linear combination]] over $C^\infty(\mathbb{R}^k)$ of [[basis]] elements of the form $\mathbf{d} x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n}$ for $i_1 \lt i_2 \lt \cdots \lt i_n$:
+
+$$
+  \omega = \sum_{1 \leq i_1 \lt i_2 \lt \cdots \lt i_n \lt n} \omega_{i_1, \cdots, i_n} \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n}
+  \,.
+$$
 
 
+=--
 
-**Definition** [[differential form]] on [[coordinate system]] $\mathbb{R}^n$ = element of [[exterior algebra]] of $\Omega^1(\mathbb{R}^n)$ over $C^\infty(\mathbb{R}^n)$
++-- {: .num_defn #PullbackOfDifferentialForms}
+###### Definition
+
+The [[pullback of differential forms|pullback of differential 1-forms]] of def. \ref{Differential1FormsOnCartesianSpaces} extends as an $C^\infty(\mathbb{R}^k)$-[[associative algebra|algebra]] [[homomorphism]] to $\Omega^n(-)$, given for a smooth function $f \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^k$ on basis elements by
+
+$$
+  f^* \left(  \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n} \right)
+  = 
+  \left(f^* \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n} \right)
+  \,. 
+$$ 
+
+=--
 
 
 #### The smooth universal moduli space of differential forms
  {#SmoothUniversalModuliSpaceOfDifferentialForms}
 
-+-- {: .num_prop #SheafOfDifferentialFormsAsSmoothSpace}
+Above we have defined differential $n$-form on abstract coordinate systems. Here we extend this definition to one of differential $n$-forms on arbitrary [[smooth spaces]]. We start by observing that the space of _all_ differential $n$-forms on cordinate systems themselves naturally is a smooth space.
+
++-- {: .num_prop}
 ###### Proposition
 
-For $n \in \mathbb{N}$ the assignment
+The assignment of differential $n$-forms
 
 $$
-  \mathbb{R}^k \mapsto \Omega^n(\mathbb{R}^n)
+  \Omega^n(-) \colon \mathbb{R}^k \mapsto \Omega^n(\mathbb{R}^k)
 $$
 
-defines a [[smooth space]].
+of def. \ref{DifferentialnForms} together with the [[pullback of differential forms]]-functions of def. \ref{PullbackOfDifferentialForms}
 
-=--
+$$
+  \array{
+    \mathbb{R}^{k_1} &\mapsto & \Omega^1(\mathbb{R}^{k_1})
+    \\
+    \uparrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f^*}}
+    \\
+    \mathbb{R}^{k_2} &\mapsto& \Omega^1(\mathbb{R}^{k_2})
+  }
+$$
 
-+-- {: .num_defn #TheUniversalSmoothModuliSpaceOfDifferentialForms}
-###### Definition
-
-We denote the smooth space of differential forms of prop. \ref{SheafOfDifferentialFormsAsSmoothSpace} by
+defines a [[smooth space]] in the sense of def. \ref{SmoothSpace}:
 
 $$
   \Omega^n(-) \in Smooth0Type
@@ -2036,11 +2120,41 @@ $$
 
 =--
 
++-- {: .num_defn #SmoothModuliSpaceOfnForms}
+###### Definition
+
+
+We call this 
+
+$$
+  \Omega^n \colon Smooth0Type
+$$
+
+the **universal smooth [[moduli space]]** of differential $n$-forms. 
+
+=--
+
+The reason for this term is that homomorphisms of smooth spaces into $\Omega^1$ _modulate_ differential $n$-forms on their [[domain]], by prop. \ref{YonedaForSmoothSpaces} (and hence by the [[Yoneda lemma]]):
+
++-- {: .num_example}
+###### Example
+
+For the [[Cartesian space]] $\mathbb{R}^k$ regarded as a smooth space by example \ref{CartesianSpaceAsSmoothSpace}, there is a [[natural bijection]]
+
+$$
+  \Omega^n(\mathbb{R}^k) \simeq Hom(\mathbb{R}^k, \Omega^1)
+$$
+
+between the set of smooth $n$-forms on $\mathbb{R}^n$ according to def. \ref{Differential1FormsOnCartesianSpaces} and the set of homomorphism of smooth spaces, $\mathbb{R}^k \to \Omega^1$, according to def. \ref{HomomorphismOfSmoothSpaces}.
+
+=--
+
+In view of this we have the following elegant definition of smooth $n$-forms on an arbitrary smooth space.
 
 +-- {: .num_defn}
 ###### Definition
 
-For $X \in Smooth0Type$, a **[[differential n-form]]** on $X$ is a [[homomorphism]] of [[smooth spaces]] of the form
+For $X \in Smooth0Type$ a [[smooth space]], def. \ref{SmoothSpace}, a **[[differential n-form]]** on $X$ is a [[homomorphism]] of [[smooth spaces]] of the form
 
 $$
   \omega \colon X \to \Omega^n(-)
@@ -2050,28 +2164,83 @@ $$
 Accordingly we write
 
 $$
-  \Omega^n(X) \coloneqq Smooth0Type(X,\Omega^n(-))
-  \,.
+  \Omega^n(X) \coloneqq Smooth0Type(X,\Omega^n)
 $$
 
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-By prop \ref{YonedaForSmoothSpaces} (the [[Yoneda lemma]])
-we have that $\Omega^n(\mathbb{R}^k)$ is unambiguous.
+for the set of smooth $n$-forms on $X$.
 
 =--
+
 
 +-- {: .num_prop}
 ###### Proposition
 
-$\Omega^0(-) = \mathbb{R}$
+$\Omega^0 = \mathbb{R}$
 
 =--
 
++-- {: .num_defn #PullbackOfDifferentialFormsOnSmoothSpaces}
+###### Definition
 
+For $f \colon X \to Y$ a [[homomorphism]] of [[smooth spaces]], def. \ref{HomomorphismOfSmoothSpaces}, the **[[pullback of differential forms]]** along $f$ is the [[function]]
+
+$$
+  f^* \colon \Omega^n(Y) \to \Omega^n(X)
+$$
+
+given by the [[hom-functor]] into the smooth space $\Omega^n$ of def. \ref{SmoothModuliSpaceOfnForms}:
+
+$$
+ f^* \coloneqq Hom(-, \Omega^n)
+ \,.
+$$
+
+This means that it sends an $n$-form $\omega \in \Omega^n(Y)$ which is modulated by a homomorphism $Y \to \Omega^n$ to the $n$-form $f^* \omega \in \Omega^n(X)$ which is modulated by the [[composition|composite]] $X \stackrel{f}{\to} X \to \Omega^n$.
+
+=--
+
++-- {: .num_defn}
+###### Proposition
+
+For $X = \mathbb{R}^{\tilde k}$ and $Y = \mathbb{R}^{k}$ definition \ref{PullbackOfDifferentialFormsOnSmoothSpaces} reproduces def. \ref{PullbackOfDifferentialForms}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Again by the [[Yoneda lemma]].
+
+=--
+
+The following adds further explanation to the role of $\Omega^n \in Smooth0Tye$ as a _[[moduli space]]_. Notice that since $\Omega^n$ is itself a [[smooth space]], we may speak about differential $n$-forms on $\Omega^n$ itsefl.
+
++-- {: .num_defn #UniversalDifferentialnForm}
+###### Definition
+
+The **universal differential $n$-forms** is the differential $n$-form
+
+$$
+  \omega^n_{univ} \in \Omega^n(\Omega^n)
+$$
+
+which is modulated by the [[identity]] [[homomorphism]] $id \colon \Omega^n \to \Omega^n$.
+
+=--
+
+With this definition we have:
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in Smooth0Type$ any [[smooth space]], every differential $n$-form on $X$, $\omega \in \Omega^n(X)$ is the pullback of differential forms, def. \ref{PullbackOfDifferentialFormsOnSmoothSpaces}, of the universal differential $n$-form, def. \ref{UniversalDifferentialnForm}, along a homomorphism $f$ from $X$ into the moduli space $\Omega^n$ of differential $n$-forms:
+
+$$
+  \omega = f^* \omega^n_{univ}
+  \,.
+$$
+
+=--
 
 #### Differential 1-forms are smooth incremental path measures
  {#1FormsAsSmoothFunctors}
