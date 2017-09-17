@@ -317,6 +317,8 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 ## Related concepts
 
+* [[identity of indiscernibles]]
+
 * [[intensional type theory]], [[extensional type theory]]
 
 * [[axiom K]]
