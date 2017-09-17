@@ -13,10 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -28,28 +27,30 @@ A $C^*$-category can be thought of as a [[horizontal categorification]] of a [[C
 +-- {: .num_defn}
 ###### Definition
 
-A $C^*$-category is a $*$-[[star-category|category]] enriched in Banach spaces such that: 
-1. Every arrow $a \in Hom(x,y)$ satisfies the $C^*$-identity ${\|a^* a\|} = {\|a\|}^2$. 
-1. Composition satisfies ${\|{b a}\|} \leq {\|b\|} {\|a\|}$ for all composable pairs of arrows $a$ and $b$. 
-1. For every arrow $a \in Hom(x,y)$ there exists an arrow $b \in Hom(x,x)$ such that $a^\ast a = b^ \ast b$.
+A __$C^*$-category__ is a $*$-[[star-category|category]] [[enriched category|enriched]] in the category [[Ban]] of [[Banach spaces]] such that: 
 
+1. Every arrow $a \in Hom(x,y)$ satisfies the $C^*$-identity ${\|a^* a\|} = {\|a\|}^2$.
+
+2. Composition satisfies ${\|{b a}\|} \leq {\|b\|} {\|a\|}$ for all composable pairs of arrows $a$ and $b$. (That is, we give $Ban$ the [[projective tensor product]].)
+ 
+3. For every arrow $a \in Hom(x,y)$ there exists an arrow $b \in Hom(x,x)$ such that $a^\ast a = b^ \ast b$.
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
 Condition (3) above is equivalent to requiring that every arrow of the form $x^* x$ is positive in the sense of $C^*$-algebras. Unlike $C^*$-algebras, this does not follow automatically, as can be seen by considering the category with two objects $x,y$ with all morphism sets a copy of $\mathbb{C}$ and with involution defined on $a \in Hom(x,y)$ by $a^* = \overline{a}$ if $x=y$ and $a^* = -\overline{a}$ otherwise.  
-
 =--
+
 
 ## Examples
 
 +-- {: .num_example}
 ###### Example
 
-The $C^\ast$-[[representation category]] of a weak [[Hopf C-star-algebra]] (see there for details) is naturally a [[rigid monoidal category|rigid monoidal]] $C^\ast$-category.
-
+The $C^\ast$-[[representation category]] of a weak [[Hopf C-star-algebra|Hopf]] $C^\ast$-algebra (see there for details) is naturally a [[rigid monoidal category|rigid monoidal]] $C^\ast$-category.
 =--
+
 
 ## Related concepts
 
@@ -59,14 +60,17 @@ The $C^\ast$-[[representation category]] of a weak [[Hopf C-star-algebra]] (see 
 
 * [[KK-theory]]
 
+
 [[!redirects C-star-category]]
 [[!redirects C-star-categories]]
 [[!redirects C*-category]]
 [[!redirects C*-categories]]
+[[!redirects C-star category]]
+[[!redirects C-star categories]]
+
 [[!redirects C-star-algebroid]]
 [[!redirects C-star-algebroids]]
 [[!redirects C*-algebroid]]
 [[!redirects C*-algebroids]]
-
-[[!redirects C-star category]]
-[[!redirects C-star categories]]
+[[!redirects C-star algebroid]]
+[[!redirects C-star algebroids]]
