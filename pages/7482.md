@@ -22,6 +22,12 @@ The generalisation of [[ordered pair]] to something having more positions is usu
 See [[ordered pair]] for methods of formalising ordered pairs (which are $2$-tuples) in various [[foundations of mathematics]].  Some of these generalise immediately to $n$-tuples for arbitrary $n$; otherwise, we may define $n$-tuples [[recursion|recursively]]: a triple is an ordered pair whose (say) first component is an ordered pair; a quadruple is an ordered pair whose first component is a triple, etc.
 
 
+## Related concepts
+
+* A 2-tuple is a [[pair]].
+
+* A 3-tuple is [[triple]].
+
 [[!redirects tuple]]
 [[!redirects tuples]]
 [[!redirects n-tuple]]
