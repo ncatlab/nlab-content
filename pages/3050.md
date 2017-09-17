@@ -244,7 +244,7 @@ $$
   \,.
 $$
 
-As an example, think of this in the context $C = Top$ with $\pi Y \to X$ coming from an open [[cover]] $\{U_i \to X\}$ of $X$ with $Y = \coprod_i U_i$, and with $P = Y \times G$ a trivial $G$-[[principal bundle]] for some [[group]] $G$. Then the space $Y \times_X Y = \coprod_{i j} U_i \cap U_j$ is the union of double intersection of covering patches, and $(Y \times_X Y) \times_Y P = (\coprod_{i j} U_i \cap U_j \times G)$ is to be thought of as the trivial $G$-principal bundle over $U_j$, restricted to the intersection. In this case our morphism $\rho$ acts as
+As an example, think of this in the context $C = Top$ with $\pi  \colon Y \to X$ coming from an open [[cover]] $\{U_i \to X\}$ of $X$ with $Y = \coprod_i U_i$, and with $P = Y \times G$ a trivial $G$-[[principal bundle]] for some [[group]] $G$. Then the space $Y \times_X Y = \coprod_{i j} U_i \cap U_j$ is the union of double intersection of covering patches, and $(Y \times_X Y) \times_Y P = (\coprod_{i j} U_i \cap U_j \times G)$ is to be thought of as the trivial $G$-principal bundle over $U_j$, restricted to the intersection. In this case our morphism $\rho$ acts as
 
 $$
   \rho : \coprod_{i j} : (U_i \cap U_j \times G) \to \coprod_i U_i \times G
