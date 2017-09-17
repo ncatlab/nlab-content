@@ -27,7 +27,7 @@ A **symplectic manifold** is
 
   * a closed smooth [[differential form|2-form]] $\omega \in \Omega^2_{cl}(X)$;
 
-  * such that $\omega$ is **non-degenerate, which means equivalently that
+  * such that $\omega$ is **non-degenerate**, which means equivalently that
 
     * $\omega^{\wedge n}=\omega\wedge\omega\wedge\cdots\wedge\omega$ has the maximal [[rank]] at every point $p\in X$;
 
@@ -93,6 +93,20 @@ $$
 $$
 
 ## Properties
+
+### Symplectic and almost symplectic structure
+ {#SymplecticStructure}
+
+The existence of a 2-form $\omega \in \Omega^2(X)$ which is non-degenerate (but not necessarily closed) is equivalent to the existence of a [[G-structure|Sp-structure]] on $X$, a [[reduction of the structure group]] of the [[tangent bundle]] along the inclusion of the [[symplectic group]] into the [[general linear group]]
+
+$$
+  Sp(2n) \hookrightarrow GL(2n)
+  \,.
+$$
+
+Such an _Sp(2n)-structure_ is also called an _almost symplectic structure_ on $X$. Adding the extra condition that $d \omega = 0$ makes it a genuine symplectic structure.
+
+A _[[metaplectic structure]]_ on a symplectic or almost symplectic manifold is in turn [[lift of the structure group]] to the [[metaplectic group]]. 
 
 ### Symplectomorphisms
 
@@ -190,4 +204,7 @@ The generalization of the notion of symplectic manifolds to [[dg-geometry]] is s
 [[!redirects symplectic form]]
 
 [[!redirects symplectic structure]]
+[[!redirects almost symplectic structure]]
 
+[[!redirects symplectic structures]]
+[[!redirects almost symplectic structures]]
