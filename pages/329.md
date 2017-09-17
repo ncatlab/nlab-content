@@ -1,9 +1,8 @@
 # Strict $2$-categories
-* tic
+* table of contents
 {: toc}
 
-
-##Idea
+## Idea
 
 * A strict 2-category is a [[directed n-graph|directed 2-graph]] equipped with a composition operation on adjacent 1-cells and 2-cells which is strictly unital and associative.
 
@@ -15,7 +14,8 @@ Notice that _[[double category]]_ is another term for _[[n-fold category|2-fold 
 
 (And similarly, strict globular [[n-category|n-categories]] may be identified with those [[n-fold category|n-fold categories]] for which all cube faces "in one direction" are discrete. A similar statement for weak $n$-categories is to be expected, but little seems to be known about this.)
 
-##Definition
+
+## Definition
 
 A _strict 2-category_, often called simply a _2-category_, is a [[enriched category|category enriched over]] [[Cat]], where $Cat$ is treated as the [[1-category]] of [[strict categories]]. 
 
@@ -24,7 +24,7 @@ Similarly, a [[strict 2-groupoid]] is a groupoid enriched over groupoids. This i
 They are also special cases of strict globular omega-groupoids, and the category of these is equivalent to the category of [[crossed complex]]es. 
 
 
-###Details
+### Details
 
 Working out the meaning of '$Cat$-enriched category', we find that a strict 2-category $K$ is given by
 
@@ -46,7 +46,8 @@ $$
 The axioms for associativity and unitality of $comp$ ensure that horizontal composition behaves just like composition of 1-cells in a 1-category.  In particular, the action of $comp$ on objects $f,g$ of hom-categories (i.e. 1-cells of $K$) is the usual composite of morphisms.
 
 
-###More details
+### More details
+{#detailedDefn}
 
 In even more detail, a strict $2$-category $K$ consists of
 
@@ -80,11 +81,16 @@ such that
 The construction in the last axiom is the _horizontal composite_ $\theta \circ \eta\colon h \circ f \to i \circ g$.  It is possible (and probably more common) to take the horizontal composite as basic and the whiskerings as derived operations.  This results in fewer, but more complicated, axioms.
 
 
-##Remarks
+## Remarks
 
 * A strict 2-category is the same as a [[strict omega-category]] which is trivial in degree $n \geq 3$.
 
 * This is to be contrasted with a _weak 2-category_ called a [[bicategory]]. In a strict 2-category composition of 1-morphisms is strictly associative and comoposition with [[identity morphism]]s strictly satisfies the required identity law. In a weak 2-category these laws may hold only up to coherent 2-morphisms.
 
 
+[[!redirects strict 2-category]]
 [[!redirects strict 2-categories]]
+[[!redirects globular strict 2-category]]
+[[!redirects globular strict 2-categories]]
+[[!redirects strict globular 2-category]]
+[[!redirects strict globular 2-categories]]
