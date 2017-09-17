@@ -17,7 +17,30 @@
 
 ## Idea
 
-Given a [[continuous function]] between two [[compact topological spaces]], its _degree_ is a measure for how often the function "wraps its domain around its codomain".
+Given a [[continuous function]] between two [[connected space|connected]]  [[manifold|closed oriented manifolds]] of the same dimension, its _degree_ is a measure for how often the function "wraps its domain around its codomain".
+
+## Definition 
+
+Recall that if $X$ is a connected closed oriented manifold of dimension $n$, then its top [[singular homology|homology group]] $H_n(X) = H_n(X; \mathbb{Z})$ is isomorphic to $\mathbb{Z}$, where the generator $1 \in \mathbb{Z}$ is identified with the orientation class $[\omega_X]$ of $X$. Given a continuous map $f \colon X \to Y$ between two such manifolds, the homomorphism $f_\ast = H_n(f) \colon H_n(X) \to H_n(Y)$ is therefore specified by the integer $n$ such that $f_\ast [\omega_X] = n [\omega_Y]$. This integer is called the **degree** of $f$. 
+
+## Computing the degree 
+
+We suppose throughout that $X$ and $Y$ are connected closed oriented manifolds of the same dimension $n$. The degree of a continuous function $g \colon X \to Y$ is frequently computed according to the following considerations: 
+
+* The space of continuous functions $g \colon X \to Y$ has a dense subspace consisting of smooth functions $f \colon X \to Y$, and in particular every continuous function $g$ is homotopy equivalent to a smooth function $f$. It therefore suffices to compute the degree of $f$. 
+
+* By [[Sard's theorem]], the set of singular values of a smooth function $f$ has measure zero (using for example the orientation on $Y$ to define a volume form and hence a measure). Accordingly, we may choose a regular value $y \in Y$. 
+
+* The [[inverse image]] $f^{-1}(y)$ is a compact $0$-dimensional manifold, hence consists of finitely many (possibly zero) points $x_1, \ldots, x_r \in X$. Since these are regular points, $f$ restricts to a diffeomorphism 
+$$f_i \colon U_i \to V$$ 
+where $U_i$ is a small neighborhood of $x_i$ and $V$ is a small neighborhood of $y$. The diffeomorphism $f_i$ either preserves or reverses the orientation of $U_i$, i.e., the sign of the determinant as a mapping between $n$-forms 
+$$\Omega^n(U_i) \to \Omega^n(V)$$ 
+is either $+1$ or $-1$. 
+
+* By a straightforward application of the [[excision axiom]] in homology, it follows that the degree of $f$ is the sum of these signs: 
+$$\deg(f) = \sum_{i=1}^r sign(\Omega^n(f_i))$$ 
+and this quantity is independent of the choice of regular value $y$. 
+
 
 ## References
 
