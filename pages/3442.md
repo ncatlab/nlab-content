@@ -97,3 +97,4 @@ In this diagram now
     \,.
   $$
 
+[[!redirects differential equations]]
