@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -6,28 +15,31 @@
 
 ## Idea
 
-The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of [[set theory|set-theoretic]] [[foundations]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  The axioms of ETCS can be summed up in one sentence as:
-
-* _The [[Set|category of sets]] is a [[well-pointed topos]] with a [[natural numbers object]] satisfying the [[axiom of choice]]._
-
-ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory textbook using it:
-
-* F. William Lawvere, R. Rosebrugh, [_Sets for mathematics_](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics)
-
-An informative discussion of the pros and cons of Lawvere's approach can be found in
-
-* Jean-Pierre Marquis, _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_ ([pdf](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
-
-Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied).  Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
-
-*  Erik Palmgren, _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf))
+The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of [[set theory|set-theoretic]] [[foundations]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  
 
 
 ## Definition
 
-see
+The axioms of ETCS can be summed up in one sentence as:
 
-* [[fully formal ETCS]]
++-- {: .un_defn}
+###### Definition
+
+The [[Set|category of sets]] is [[generalized the|the]] [[topos]] which is
+
+1. is [[well-pointed topos]] 
+
+1. has a [[natural numbers object]]
+
+1. and satisfies the [[axiom of choice]].
+
+=--
+
+For more details see 
+
+* [[fully formal ETCS]].
+
+
 
 ## Todd Trimble's exposition of ETCS
 
@@ -39,6 +51,29 @@ see
 
 * Todd Trimble, _ETCS: Building joins and coproducts_
 ([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/))
+
+## References
+
+ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory textbook using it: 
+
+
+* [[William Lawvere]], R. Rosebrugh, _Sets for mathematics_ , ([web][(http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
+{#LawvereRosebrugh}
+
+
+
+An informative discussion of the pros and cons of Lawvere's approach can be found in
+
+* Jean-Pierre Marquis, _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_ ([pdf](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
+
+Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied).  Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
+
+*  Erik Palmgren, _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf))
+
+
+
+
+
 
 
 category: foundational axiom
