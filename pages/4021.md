@@ -97,4 +97,8 @@ For big picture in probability theory see answers to
 An instance of a "categorical thinking" (in a generalized sense) in solving probability problems is a solution to Buffon's noodle problem ([wikipedia](http://en.wikipedia.org/wiki/Buffon%27s_noodle)) discussed by 
 Tom Leinster at nCafe [here](http://golem.ph.utexas.edu/category/2010/03/a_perspective_on_higher_catego.html).
 
-* Klain, Gian-Carlo Rota, _Introduction to geometric probability_
+* Klain, [[Gian-Carlo Rota]], _Introduction to geometric probability_
+
+* [[Terrence Tao]], Blog notes: [a review of probability theory](http://terrytao.wordpress.com/2010/01/01/254a-notes-0-a-review-of-probability-theory)
+
+> just as the natural numbers can be defined abstractly without reference to any numeral system (e.g. by the Peano axioms), core concepts of probability theory, such as random variables, can also be defined abstractly, without explicit mention of a measure space; we will return to this point when we discuss free probability later in this course. 
