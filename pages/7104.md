@@ -47,7 +47,7 @@ The main challenges of higher doctrine theory are the following:
 
 * Basing on the above, give a precise definition of coherent theory (finiteness property for the syntax) in a given doctrine.
 
-* Prove that, under the set theoretic axiom of choice and the formalization of higher categories through set theoretical methods, the doctrinal axiom of choice is true.
+* Prove that, under the set theoretic axiom of choice and the formalization of higher categories through set theoretical methods (i.e., by one of the standard delooping machines), the doctrinal axiom of choice is true.
 
 
 ## Examples
