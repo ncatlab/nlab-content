@@ -1,2 +1,1 @@
-[[!redirects Rene Thom]]
-
+&lt; [[Rene Thom]]
