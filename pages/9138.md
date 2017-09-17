@@ -68,9 +68,20 @@ Hence these functors are a [[Frobenius functor|frobenius pair]].
 ## Examples
 
 
-* [[effect algebra of predicates]]
+(1) [[effect algebra of predicates]]
 
-* The real unit inteval $[0,1]$ with $\vee$ being addition of real numbers is an effect algebra since $[0,1]$ is a pcm with zero object $0$ and commutative, associative addition of real numbers and $x\perp y$ iff $x+y\le 1$. The orthocomplement of $x\in [0,1]$ is given by $\x^\perp=1-x$.
+(2) The real unit inteval $[0,1]$ with $\vee$ being addition of real numbers is an effect algebra since $[0,1]$ is a pcm with zero object $0$ and commutative, associative addition of real numbers and $x\perp y$ iff $x+y\le 1$. The orthocomplement of $x\in [0,1]$ is given by $\x^\perp=1-x$.
+
+(3) Let $D$ denote the discrete-probability-distribution [[monad]] on $Set$ which sends a set $X$ to the collection
+
+$$D(X):=\{r_1 x_1+\dots +r_n x_n|x_i\in X, r_i\in [0,1], \Sigma_i r_i=1\}$$
+
+of formal convex combinations of elements of $X$ and let $Kl(D)$ denote the [[Kleisli category]] of $D$ which has as objects (just) sets and a morphism $f:X\to Y$ in $Kl(D)$ is a function $f:X\to D(Y)$ which can be interpreted as a [[Markov chain]] where the [[probability]] of the transition $x\to x_i$ is the coefficient $r_i\in [0,1]$ in the the convex sum $f(x)=r_1 x_1+\dots+r_n x_n$. $Kl(D)$ has as coproducts coproducts of $Set$. A predicate on $X\in Kl(D) $is hence a function $p:X\to D(X+X)$ and $[id_X,id_X]\circ p =id_X$ means that $p(x)\in D(X+X)$ is a convex combination of elements of the form $k_1 x, k_2 x\in X+X$ such that we have $p(x)=\varphi(x)k_1 x +\psi(x)k_2 x$ with $\varphi(x),\psi(x)\in [0,1]$ such that $\varphi{x}+\psi(x)=1$. Hence $p(x)$ can be written as $p(x)=\varphi(x)k_1 x + (1-\varphi(x))k_2 x$. In particular a predicate is (uniquely determined by) a function $\varphi:X\to [0,1]$ to the [[unit interval]]. In this view the orthocomplemet of $\varphi(x)$ is the function $x\mapsto 1-\varphi(x)$ which is point-wise the orthocomplement of the unit interval in the second example.
+
+(4) In the category $Hilb$ of [[Hilbert space|Hilbert spaces]] the coproduct coincides with the product and hence is a [[biproduct]]. In this case a predicate $p:X\to X\otimes X$ on a Hilbert space $X$ has the form $p=\lt p_1,p_2\gt$ of a pair of maps and   $[id_X,id_X]\circ p$ is equivalent to $p_1 +p_2=id_X$ where $+$ is point-wise addition. In particular $p_1$ and $p_2$ determine each other uniquely.
+
+And now comes the eponymous feature: The category $Hilb$ is a [[dagger category]] and the dagger morphism $(-)^\dagger:Hilb^{op}\to Hilb$ is the identity on objects and complex conjugationn on morphisms. An endomorphism $f:X\to X$ is called to be a *positive endomorphism* if there is a $g$ such that $f=g^\dagger\circ g$ and a predicate on $X$ is called to be an **effect** (on $X$) if $p_1$ and $p_2$ are positive. Another name for effect is "unsharp predicate"; in this terminology a "sharp predicate" is a subset of the set of projections onto $X$.
+
 
 
 ## Reference
