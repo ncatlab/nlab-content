@@ -92,3 +92,13 @@ that defines the Chern-character map is induced by a canonical cocycle on the [[
 This is described for instance in section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of
 
 * [[Mike Hopkins]], I. Singer, [[Quadratic Functions in Geometry, Topology,and M-Theory]] ([arXiv](http://arxiv.org/abs/math.AT/0211216))
+
+## References
+
+Section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of
+
+* [[Mike Hopkins]], I. Singer, [[Quadratic Functions in Geometry, Topology,and M-Theory]] ([arXiv](http://arxiv.org/abs/math.AT/0211216))
+
+A characterization of Chern-character maps for [[K-theory]] is in
+
+* Goncalo Tabuada, _A universal characterization of the Chern character maps_ ([arXiv](http://arxiv4.library.cornell.edu/abs/1002.3726))
