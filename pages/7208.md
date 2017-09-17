@@ -1,6 +1,18 @@
 
+## Idea
+
+(...)
+
 ## References
 
+Surveys include
+
 * wikipedia, _[Kac-Moody algebra](http://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra)_
+
+Affine Kac-Moody algebras are discussed in 
+
+* David Hernandez, _An introduction to affine Kac-Moody algebras_ ([pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf))
+
+ 
 
 [[!redirects Kac-Moody algebras]]
