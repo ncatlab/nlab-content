@@ -26,3 +26,6 @@ If $C$ is a [[Grothendieck topos]], then the canonical covering sieves are those
 
 [[!redirects canonical coverage]]
 [[!redirects canonical Grothendieck topology]]
+
+[[!redirects canonical site]]
+[[!redirects canonical sites]]
