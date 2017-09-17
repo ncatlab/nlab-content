@@ -194,7 +194,7 @@ for the composite [[adjunction]]. For $X,A \in \infty LieGrpd$ we call $\mathbf{
 =--
 
 
-#### Coefficients for $\infty$-Lie algebra valued differential forms
+#### Coefficients for $\infty$-Lie algebra valued differential forms {#CoeffsLieAlgForms}
 
 For $X \in \infty LieGrpd$ we write $\mathbf{\Pi}_{dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}(X)$, i.e. for the [[pushout]]
 
