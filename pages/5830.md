@@ -264,6 +264,10 @@ Introductions to the idea of homotopy type theory include
 * [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#Voevodsky}
 
+A master fairly comprehensive exposition is 
+
+* Egbert Rijke, _Homotopy type theory_ (2012) ([pdf](http://hottheory.files.wordpress.com/2012/08/hott2.pdf))
+
 Introductory talks include also
 
 * [[Thorsten Altenkirch]], [[Thierry Coquand]], _Towards higher dimensional type theory_, Nottingham (2011) ([pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf))
@@ -294,7 +298,7 @@ Material concerning the
 
 * _[Univalent foundations program 2012/2013](http://www.math.ias.edu/sp/univalent)_, Institute of Advanced Study, Princeton
 
-is in the wikie
+is in the wiki
 
 * _[UF-IAS-2012](http://uf-ias-2012.wikispaces.com/)_ .
 
