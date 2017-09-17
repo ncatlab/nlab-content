@@ -160,6 +160,8 @@ In the [[physics]], the theory of [[general relativity]] models the field of [[g
 
 ## Related concepts
 
+* [[Weitzenböck connection]]
+
 * [[connection on a bundle]]
 
   * [[parallel transport]], [[holonomy]]
