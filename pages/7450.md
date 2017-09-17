@@ -17,6 +17,8 @@
 
 * [[2-presheaf]], [[2-site]], [[2-sheaf]], [[stack]]
 
+* [[n-localic 2-topos]]
+
 * [[2-Giraud theorem]]
 
 **[[(2,1)-topos]]**
