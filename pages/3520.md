@@ -11,21 +11,30 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Statement
 
-The **Hadamard lemma** (or Hadamard's lemma) states that for every [[smooth function]] $f \in C^\infty(\mathbb{R})$ on the [[real line]] there is a smooth function $g$ such that
++-- {: .num_prop}
+###### Proposition
+**(Hadamard lemma)**
+
+For every [[smooth function]] $f \in C^\infty(\mathbb{R})$ on the [[real line]] there is a smooth function $g$ such that
 
 $$
   f(x) = f(0) + x \cdot g(x)
   \,.
 $$
 
+=--
+
 This function $g$ is also called a **Hadamard quotient**.
 
-It follows that $g(0) = f'(0)$ is the derivative of $f$ at 0. By applying this repeatedly the lemma says that $f$ has a partial Taylor expansion whose remainder $h$ is a smooth function:
++-- {: .num_cor}
+###### Corollary
+
+It follows that $g(0) = f'(0)$ is the [[derivative]] of $f$ at 0. By applying this repeatedly the lemma says that $f$ has a partial [[Taylor series]] expansion whose remainder $h$ is a smooth function:
 
 $$
   f(x) = f(0) + x f'(0) + x^2 f''(0) + \cdots + x^n h(x)
@@ -46,19 +55,30 @@ $$
   \,.
 $$
 
-### Proof 
+=--
+
++-- {: .proof}
+###### Proof
 
 Holding $x$ fixed, put $h(t) = f(t x)$. Then 
 
-$$f(x) - f(0) = \int_{0}^{1} h'(t) d t = \int_{0}^{1} \sum_{i=1}^n \frac{\partial f}{\partial x_i} (t x) \cdot x_i d t$$ 
+$$
+  f(x) - f(0) = \int_{0}^{1} h'(t) d t = \int_{0}^{1} \sum_{i=1}^n \frac{\partial f}{\partial x_i} (t x) \cdot x_i d t
+  $$ 
 
-where the second equality uses the chain rule. The lemma follows by putting 
+where the second equality uses the [[chain rule]]. 
+The lemma follows by putting 
 
-$$g_i(x) = \int_{0}^{1} \frac{\partial f}{\partial x_i}(t x) d t$$
+$$
+  g_i(x) = \int_{0}^{1} \frac{\partial f}{\partial x_i}(t x) d t
+  \,.
+$$
+
+=--
 
 ## Remarks
 
-* The Hadamard lemma implies that the [[derivation]]s of the algebra $C^\infty(X)$ of smooth functions on a smooth [[manifold]] are in bijection with the [[vector field]]s on $X$. See [[derivation]] for details.
+* The Hadamard lemma implies that the [[derivations]] of the algebra $C^\infty(X)$ of smooth functions on a smooth [[manifold]] are in bijection with the [[vector fields]] on $X$. See [[derivation]] for details.
 
 * A more abstract way to state the Hadamard lemma (and a bit more) is to say that [[generalized smooth algebra|smooth function rings]] form a [[Fermat theory]]. As such the Hadamard lemma is a crucial ingredient for [[Models for Smooth Infinitesimal Analysis|well-adapted models]] of [[synthetic differential geometry]].
 
