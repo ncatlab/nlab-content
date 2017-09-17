@@ -54,6 +54,32 @@ _[[essentially algebraic theory|Essentially algebraic theories]]_ allow for part
 
 _[[commutative algebraic theory|Commutative algebraic theories]]_ form an important subclass. Their categories of models are closed: the Hom sets have a natural model-structure, and the enriched Hom-functor has a left adjoint, _tensor-product_. The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
 
+## Lawvere theory of a monad 
+
+Let $T: Set \to Set$ be a monad. 
+
++-- {: .un_def}
+######Definition 
+The large Lawvere theory $Th(T)$ of $T$ is the opposite of the [[Kleisli category]], $Kl(T)^{op}$. 
+=-- 
+
+A _model_ of the Lawvere theory is a functor $X: Kl(T)^{op} \to Set$ that preserves small products. A _homomorphism_ of models is a natural transformation between such functors. (Of course we can interpret models in any category with small products, not just $Set$.) 
+
+Each algebra $X$ of the monad gives rise to a model of the Lawvere theory: 
+
+$$Kl(T)^{op} \hookrightarrow Alg(T)^{op} \stackrel{\hom(-, X)}{\to} Set$$ 
+
+and similarly a morphism of algebras $f: X \to Y$ gives rise to a homomorphism of the associated models, so that we have a functor $Alg(T) \to Mod(Th(T))$. 
+
++-- {: .un_thm}
+######Theorem 
+This functor is an equivalence. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+To be continued. 
+=--
 
 ## Metaphor
 
