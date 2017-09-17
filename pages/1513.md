@@ -35,3 +35,5 @@ Recall that a [[sheaf]] on $S$ is a presheaf $A$ such that for all local isomorp
 As with sheaves, it is sufficient to check only the [[dense monomorphism]]s instead of all local isomorphisms.  This is equivalent to checking [[cover]]ing [[sieve]]s.
 
 [[!redirects monopresheaf]]
+
+[[!redirects separated presheaves]]
