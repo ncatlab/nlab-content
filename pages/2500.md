@@ -204,6 +204,8 @@ In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 
 * [[duality in physics]], [[duality in string theory]]
 
+* [[special geometry]]
+
 [[!include table of branes]]
 
 
