@@ -72,5 +72,8 @@ is a [[Quillen bifunctor]].
 
 * The concept can be generalized to [[enriched homotopical category]].
 
+## References
+
+Bertrand Guillou, J.P. May, enriched model categories and diagram categories, [arXiv:1110.3567v1](http://arxiv.org/abs/1110.3567)
 
 [[!redirects enriched model categories]]
