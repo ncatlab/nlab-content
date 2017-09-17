@@ -1,0 +1,5 @@
+
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Bernard_Julia)
+
+category: people
