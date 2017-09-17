@@ -90,11 +90,16 @@ The [[string scattering amplitudes]] exhibit certain relations due to the extend
 
 * [[twistor string theory]] explains some ([[N=4 D=4 super Yang-Mills theory|super]]) [[Yang-Mills theory]] [[scattering amplitudes]]
 
-* Precision scattering amplitudes in [[QCD]] use [[twistor string theory]] [[on-shell recursion]] methods:
+* Precision scattering amplitudes in [[QCD]] use [[twistor string theory]] [[on-shell recursion]] methods,
+
+This also goes by the term "on-shell methods". See also at _[[amplituhedron]]_.
 
 Reviews include
 
 * [[Matthew Strassler]], _From string theory to the large hadron collider_ ([blog post](http://profmattstrassler.com/2012/08/15/from-string-theory-to-the-large-hadron-collider/))
+
+* [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+ {#Dixon13}
 
 * Rutger Boels, _On-shell recursion for string theory amplitudes on the disk and the sphere_ ([pdf](http://www.itp.uni-hannover.de/nordic/slides/Boels.pdf))
 
