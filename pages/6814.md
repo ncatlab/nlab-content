@@ -1,0 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+In [[string theory]] the _NS-branes_ are 
+
+* the [[string]] itself
+
+* the [[NS5-brane]]
+
+To be distinguished from the [[D-branes]] in [[type II string theory]]  and from the [[M-brane]]s in [[11-dimensional supergravity]].
+
+[[!redirects NS-branes]]
