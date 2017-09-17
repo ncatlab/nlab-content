@@ -57,7 +57,10 @@ By the way, every time you edit this page, you wreck the links to external web p
 
 Lowercase Greek letters starting from $\kappa$ are often used for cardinal numbers.
 
+
 ## Cardinal arithmetic 
+
+### Definition
 
 For $S$ a [[set]], write $|S|$ for its cardinality. Then the standard operations in the [[category]] [[Set]] induce arithmetic operations on cardinal numbers:
 
@@ -118,22 +121,33 @@ The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-o
 * For every transfinite cardinal $\pi$ we have $\pi+\pi = \pi$ and $\pi \cdot \pi = \pi$.
 
 
-## Properties of cardinals 
 
-A transfinite cardinal $\pi$ is a **[[regular cardinal]]** if no set of cardinality $\pi$ is the union of fewer than $\pi$ sets of cardinality less than $\pi$.  Equivalently, $\pi$ is regular if given a function $P \to X$ (regarded as a family $\{P_x\}_{x\in X}$) such that $|X| \lt \pi$ and $|P_x| \lt \pi$ for all $x \in X$, then $|P| \lt \pi$.  Again equivalently, $\pi$ is regular if the category $\Set_{\lt\pi}$ of sets of cardinality $\lt\pi$ has all [[colimits]] of size $\lt\pi$.  The [[successor]] of any infinite cardinal, such as $\aleph_1$, is a regular cardinal.
 
-A cardinal is called **singular** if it is not regular.  For instance, $\aleph_\omega = \bigcup_{n\in \mathbb{N}} \aleph_n$ is singular, more or less by definition, since $\aleph_n\lt\aleph_\omega$ and $|\mathbb{N}| = \aleph_0 \lt\aleph_\omega$.
 
-A **limit cardinal** is one which is not a successor of any other cardinal.  Note that _every_ cardinal is a limit [[ordinal number|ordinal]] (in the picture where cardinals are identified with certain ordinals).
+## Properties of cardinals
 
-A **strong limit cardinal** is a cardinal $\pi$ such that if $\lambda\lt \pi$, then $2^\lambda\lt\pi$, for any cardinal $\lambda$. Since $\lambda^+ \le 2^\lambda$, any strong limit is a limit. Conversely, assuming the [[continuum hypothesis]], every limit is a strong limit.  Since $2^\lambda$ is the cardinality of the [[power set]] $P(\lambda)$, a cardinal $\pi$ is a strong limit iff the category $\Set_{\lt\pi}$ is an elementary [[topos]].
+* A transfinite cardinal $\pi$ is a **[[regular cardinal]]** if no set of cardinality $\pi$ is the union of fewer than $\pi$ sets of cardinality less than $\pi$.  Equivalently, $\pi$ is regular if given a function $P \to X$ (regarded as a family $\{P_x\}_{x\in X}$) such that $|X| \lt \pi$ and $|P_x| \lt \pi$ for all $x \in X$, then $|P| \lt \pi$.  Again equivalently, $\pi$ is regular if the category $\Set_{\lt\pi}$ of sets of cardinality $\lt\pi$ has all [[colimits]] of size $\lt\pi$.  The [[successor]] of any infinite cardinal, such as $\aleph_1$, is a regular cardinal.
 
-An [[inaccessible cardinal]] is any (usually uncountable) regular strong limit cardinal.  A **weakly inaccessible cardinal** is a regular limit cardinal.
+* A cardinal is called **singular** if it is not regular.  For instance, $\aleph_\omega = \bigcup_{n\in \mathbb{N}} \aleph_n$ is singular, more or less by definition, since $\aleph_n\lt\aleph_\omega$ and $|\mathbb{N}| = \aleph_0 \lt\aleph_\omega$.
+
+* A **limit cardinal** is one which is not a successor of any other cardinal.  Note that _every_ cardinal is a limit [[ordinal number|ordinal]] (in the picture where cardinals are identified with certain ordinals).
+
+* A **strong limit cardinal** is a cardinal $\pi$ such that if $\lambda\lt \pi$, then $2^\lambda\lt\pi$, for any cardinal $\lambda$. Since $\lambda^+ \le 2^\lambda$, any strong limit is a limit. Conversely, assuming the [[continuum hypothesis]], every limit is a strong limit.  Since $2^\lambda$ is the cardinality of the [[power set]] $P(\lambda)$, a cardinal $\pi$ is a strong limit iff the category $\Set_{\lt\pi}$ is an elementary [[topos]].
+
+* An **[[inaccessible cardinal]]** is any (usually uncountable) regular strong limit cardinal.  A **weakly inaccessible cardinal** is a regular limit cardinal.
+
+* A cardinal $\kappa$ is a **[[measurable cardinal]]** if some (hence any) set of cardinality $\kappa$ admits a two-valued [[measure]] which is $\kappa$-additive, or equivalently an [[ultrafilter]] which is $\kappa$-complete.
+
+## Groupoid cardinality
+
+For a generalization of cardinality from sets to [[groupoids]] see [[groupoid cardinality]].
+
+
+
 
 
 ## References
 
-For a generalization of cardinality from sets to [[groupoids]] see [[groupoid cardinality]].
 
 +-- {: .query}
 _Stephen_: What is a _good standard_ references on this topic?
