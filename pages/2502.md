@@ -212,6 +212,8 @@ For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "
 
 ## Related concepts
 
+* [[super Minkowski spacetime]], [[signs in supergeometry]]
+
 * [[super Poincaré group]], [[supersymmetry]]
 
 * [[supermultiplet]], [[BPS state]]
