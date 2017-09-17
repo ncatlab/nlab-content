@@ -5,7 +5,7 @@
 
 ## Idea
 
-A $\sigma$-ideal is a collection of sets (either [[subsets]] of an ambient set or [[pure sets]]) that are considered 'small' in some fashion.  Unlike the notion of 'small' in [[small category]], this is not expected to be closed under most infinitary operations, but it *is* expected to be closed under [[countable set|countably]] infinitary operations, in particular under countablary [[union]].
+A $\sigma$-ideal is a collection of sets (either [[subsets]] of an ambient set or [[pure sets]]) that are considered 'small' in some fashion.  Unlike the notion of 'small' in [[small category]], this is not expected to be closed under most infinitary operations, but it *is* expected to be closed under [[countable set|countably]] infinitary operations, in particular under countable [[union]].
 
 If we use 'large' sets instead, then we have a $\delta$-filter.
 
