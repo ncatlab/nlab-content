@@ -1027,6 +1027,21 @@ In addition,
 
 * Another class of examples are [[(∞,n)-categories of spans]].
 
+## Extra structure and properties
+
+We discuss extra [[structure]] that an [[(∞,n)-category]] can carry
+and extra [[properties]] that it may enjoy.
+
+### $\mathcal{O}$-Monoidal $(\infty,n)$-categories 
+
+* [[monoidal (∞,1)-category]]
+
+* [[symmetric monoidal (∞,n)-category]]
+
+### $(\infty,n)$-Categories with all adjoints
+
+* [[(∞,n)-category with all adjoints]]
+
 ## Related concepts
 
 * [[0-category]], [[(0,1)-category]]
