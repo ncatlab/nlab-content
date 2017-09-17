@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Complex geometry
-+--{: .hide}
++-- {: .hide}
 [[!include complex geometry - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -23,11 +22,13 @@ $$
   \,.
 $$ 
 
-If we think of $\Sigma$ as retrievable from its [[field]] of [[meromorphic functions]] (see for example [Mumford](#Mum)), then each such map $\phi$ is dual to a [[field extension]] $\mathbb{C}(t) \hookrightarrow Func(\Sigma)$; this is an _algebraic_ field extension. The dual map $\phi$ is [[surjective map|surjective]], and restricts to a [[covering space]] projection after removing all the (finitely many) [[ramification points]] of $\phi$. 
+If we think of $\Sigma$ as retrievable from its [[field]] of [[meromorphic functions]] (see for example [Mumford](#Mum)), then each such map $\phi$ is dual to a [[field extension]] $\mathbb{C}(t) \hookrightarrow Func(\Sigma)$; this is an _algebraic_ field extension. The dual map $\phi$ is [[surjective map|surjective]], and restricts to a [[covering space]] projection after removing all the (finitely many) [[ramification point|ramification points]] of $\phi$. 
+
 
 ## Properties
 
 By the [[Riemann existence theorem]], every connected compact [[Riemann surface]] admits the [[structure]] of a branched cover of the Riemann sphere. ([MO discussion](http://mathoverflow.net/a/53286/381))
+
 
 ## References
 
@@ -36,7 +37,11 @@ By the [[Riemann existence theorem]], every connected compact [[Riemann surface]
 * David Mumford, _Curves and their Jacobians_, U. Michigan Press (1977). 
  {#Mum} 
 
-[[!redirects branched covers of Riemann sphere]]
 
+[[!redirects branched cover of Riemann sphere]]
+[[!redirects branched covers of Riemann sphere]]
+[[!redirects branched cover of a Riemann sphere]]
+[[!redirects branched covers of a Riemann sphere]]
+[[!redirects branched covers of Riemann spheres]]
 [[!redirects branched cover of the Riemann sphere]]
 [[!redirects branched covers of the Riemann sphere]]
