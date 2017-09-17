@@ -59,7 +59,7 @@ This condition occurs in the [[higher homotopy van Kampen theorem]] for [[crosse
 Thus filtered spaces arise from many geometric and algebraic situations. (See also [[stratified space]]s). 
 So it is  interesting that one can define strict higher homotopy groupoids for filtered spaces more easily than for spaces themselves. 
 
-Note also that it is standard to be able to replace, using mapping cylinders, a sequence of maps $Y_n \to Y_{n+1}$ by a sequence of inclusions [outdoor fountains](http://www.outdoorfountains.com/). 
+Note also that it is standard to be able to replace, using mapping cylinders, a sequence of maps $Y_n \to Y_{n+1}$ by a sequence of inclusions. 
 
 
 [[!redirects filtered topological space]]
