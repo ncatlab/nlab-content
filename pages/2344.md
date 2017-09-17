@@ -122,7 +122,7 @@ By contrast, in the derivator coming from a model category or $(\infty,1)$-categ
 In any derivator $D$, any functor which induces a homotopy equivalence of nerves is a $D$-equivalence.
 =--
 
-This theorem follows from Cisinski's theorem that the nerve equivalences are the smallest [[basic localizer]], once we verify that the $D$-equivalences are in fat a basic localizer.
+This theorem follows from Cisinski's theorem that the nerve equivalences are the smallest [[basic localizer]], once we verify that the $D$-equivalences are in fact a basic localizer.
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -293,7 +293,7 @@ Special limits and structures in derivators:
 ## References
 
 The notion of derivator is originally due to [[Grothendieck]] in [[Pursuing Stacks]]. 
-The first thirteen chapters of a 2000 page manuscript of Grothendieck (in French) about derivators can be found at:
+The first fifteen chapters of a 2000 page manuscript of Grothendieck (in French) about derivators can be found at:
 
 * [[Alexander Grothendieck]],  _[Les D&eacute;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
 
