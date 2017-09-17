@@ -25,7 +25,7 @@ Given an [[object]] $c\in C$, one considers the [[representable functor]] $Hom_{
 
 Let the **cell category** of $X$, denoted $i_{\mathcal{C}} X$, be the full subcategory of the [[overcategory]] $\mathcal{C}Set/X$ whose objects are the transformations of the form $\Delta^c\to X$. The correspondence $X\mapsto i_{\mathcal{C}}X$ extends to a functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ which has a right adjoint $i_{\mathcal{C}}^*:Cat\to\mathcal{C}Set$ whose object part is given by the formula
 
-$$ i_{\mathcal{C}}^*(D)(c):= Hom_{\mathcal{C}}(\mathcal{C}/c,D).$$
+$$ i_{\mathcal{C}}^*(D)(c):= Hom_{Cat}(\mathcal{C}/c,D).$$
 
 Denote the counit of the adjunction $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$. 
 
