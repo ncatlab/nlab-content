@@ -64,7 +64,7 @@ The category __$Ban Bialg$__ of Banach bialgebras has, as objects, Banach bialge
 
 ## Dual Banach algebras
 
-If $A$ is a Banach coalgebra, then the [[dual space]] $A^*$ is a [[Banach algebra]].  Actually, this is more general than $A^* = [A,K]$; if $B$ is any Banach algebra, then so is the $[A,B]$ (the Banach space of [[bounded linear maps]] from $A$ to $B$).
+If $A$ is a Banach coalgebra, then the [[dual space]] $A^*$ is a [[Banach algebra]].  Actually, this is more general than $A^* = [A,K]$; if $B$ is any Banach algebra, then so is $[A,B]$ (the Banach space of [[bounded linear maps]] from $A$ to $B$).
 
 This result is nothing special about Banach (co)algebras; it holds in any [[closed monoidal category]].  The multiplication operation in $[A,B]$ is given by
 $$ (\lambda \mu) x = m (\lambda \otimes \mu) \Delta x ,$$
@@ -87,7 +87,21 @@ of its diagonal entries; the dual comultiplication (which part of me wants to ca
 $$ (\sum_{i + j = k} a_k)_{i,j} = (a_{i + j})_{i,j} $$
 (so each antidiagonal is constant).
 
-We are lucky that nvolution exists, since the dual of a Banach algebra need not be a Banach coalgebra; but arguably nvolution is easier to describe than convolution, so let us shift perspective and take nvolution as basic.  Then convolution necessarily exists on the dual of $l^\infty$, but (at least in [[classical mathematics]]) $l^1$ is only a subspace of that.  So from this perspective, what's lucky is that the convolution of elements of $l^1$ remains in $l^1$.  (In [[dream mathematics]], $l^1$ is the entire dual of $l^\infty$, so no luck is required.)
+We are lucky that nvolution exists, since the dual of a Banach algebra need not be a Banach coalgebra; but arguably nvolution is easier to describe than convolution, so let us shift perspective and take nvolution as basic.  Then convolution necessarily exists on the dual of $l^\infty$, but (at least in [[classical mathematics]]) $l^1$ is only a subspace of that.  So from this perspective, what's lucky is that the convolution of elements of $l^1$ remains in $l^1$.  (In [[dream mathematics]], $l^1$ is the entire dual of $l^\infty$, so no luck is required.)  Of course, since $l^1$ *is* the dual of $c_0$ (the space of sequences with limit $0$), perhaps what\'s lucky is that the nvolution of an element of $c_0$ belongs to $c_0 \hat{\otimes}_\pi c_0$.
+
+
+## Operators between Banach coalgebras
+
+Let $A$ and $B$ be Banach coalgebras.
+
+Of course, $A$ and $B$ are [[Banach spaces]], so we may consider the whole panoply of [[linear operators]] from $A$ to $B$.  In general, a linear operator is only a [[partial function]], defined on a [[linear subspace]] of $A$ (and otherwise only required to be a [[linear map]]); but in particular we consider the [[densely-defined operator]]s (each defined on a [[dense subspace|dense]] subspace of $A$), the [[bounded operators]] (each defined on all of $A$ and [[bounded map|bounded]] or equivalently [[continuous map|continuous]]), and the [[short operators]] (each bounded with a [[norm]] at most $1$).
+
+A __coalgebra homomorphism__ from $A$ to $B$ is a linear operator $T\colon A \to B$ such that the following hold for all $x \in \dom T$:
+*  $\Delta x \in (\dom T) \hat{\otimes}_\pi (\dom T)$,
+*  $\Delta_B T x = (T \otimes T) \Delta_A x$ (which exists by the previous line), and
+*  $\epsilon_B T x = \epsilon_A x$ (which always exists).
+
+We can then consider __densely-defined homomorphisms__, __bounded homomorphisms__, and __short homomorphisms__; the last are the morphisms in $Ban Coalg$ (although of course any of these classes of homomorphisms could be taken to be morphisms of a different category with the same objects).
 
 
 [[!redirects Banach coalgebra]]
