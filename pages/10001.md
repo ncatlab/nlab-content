@@ -140,9 +140,11 @@ More mathematically formalized discussion of topologically twisted supersymmetri
 * [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
  {#Costello11}
 
-See also
+In
 
 * [[Kevin Costello]], _Supersymmetric gauge theory and the Yangian_ ([arXiv:1303.2632](http://arxiv.org/abs/1303.2632))
+
+is discussed that the holomorphically twisted $N=1$ theory is controled by the [[Yangian]] in analogy to how [[Chern-Simons theory]] is controled by a [[quantum group]].
 
 [[!redirects topologically twisted D=4 super Yang-Mills theories]]
 
