@@ -19,7 +19,7 @@
 
 ## Idea
 
-The notion of _M-type_ is the [[duality|formal dual]] of that of [[W-type]].
+The notion of _M-type_ is the [[duality|formal dual]] of that of [[W-type]]: a certain [[coinductive type]].
 
 The [[categorical semantics]] of an $M$-type is a [[terminal coalgebra of an endofunctor]].
 
