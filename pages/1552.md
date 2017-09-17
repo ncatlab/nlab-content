@@ -3,7 +3,7 @@ A gauge space is a [[topological space]] (necessary completely regular) whose to
 
 Actually, a gauge space has additional structure, so that it can be seen as giving a (completely regular) [[Cauchy space]], a [[uniform space]], or even a generalisation of a [[metric space]] in which the category $Met$ of metric spaces and short maps is a [[full subcategory]].
 
-Please note that, while this is based on the presentation in _[[HAF]]_, the precise definitions of the objects and morphisms of the [[category]] of gauge spaces below constitute original research.  (In particular, _HAF_ really considers the category of pregauge spaces and uniformly continuous maps, which is equivalent to the category of [[uniform space]]s, since it uses them only to study that category.)
+Please note that, while this is based on the presentation in _[[HAF]]_, the precise definitions of the objects and morphisms of the [[category]] of gauge spaces below constitute original research.  (In particular, _HAF_ really considers the category of pregauge spaces and uniformly continuous maps, which is equivalent to the category of [[uniform spaces]], since it uses them only to study that category.)
 
 
 ## Definitions
@@ -18,7 +18,7 @@ Given a [[set]] $X$, a __pregauge__ on $X$ is simply a family of [[metric space|
     $$ e(x,y) \leq d(x,y) $$
     for all $x, y$ in $X$, then $e \in G$.
 
-A pregauge satisfying axioms (1&2) is a __base__ for a gauge; a base is precisely what generates a gauge by taking the downward closure.  Any pregauge whatsoever is a __subbase__ for a gauge; a subbase is precisely what generates a base by closing under finitary [[join]]s.
+A pregauge satisfying axioms (1&2) is a __[[base]]__ for a gauge; a base is precisely what generates a gauge by taking the downward closure.  Any pregauge whatsoever is a __[[subbase]]__ for a gauge; a subbase is precisely what generates a base by closing under finitary [[join]]s.
 
 
 A __gauge space__ is a set equipped with a gauge.  A __quasigauge__ is a collection of quasipseudometrics satisfying (1--3); a __quasigauge space__ is a set equipped with a quasigauge.
