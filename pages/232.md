@@ -28,7 +28,7 @@ See also [[enriched category theory]].
 
 Ordinarily enriched categories have been considered as _enriched over_ a [[monoidal category]]. This is discussed in the section
 
-* [Enrichment in a monoidal category](InMonoidCat)
+* [Enrichment in a monoidal category](#InMonoidCat)
 
 More generally, one may think of a monoidal category as a [[bicategory]] with a single object and this way regard enrichment in a monoidal category as the special case of _enrichment in a bicategory_ . This is discussed in the section
 
