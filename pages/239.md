@@ -124,7 +124,14 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 ## Related concepts
 
+* [[cartesian product]]
+
+* [[internalhom]]
+
+* [[composite system]]
+
 [[!include homotopy-homology-cohomology]]
+
 
 
 ## References
