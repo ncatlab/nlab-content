@@ -95,7 +95,7 @@ Here are some examples:
 
 * The adjunction $- \times X: \SimpSet \leftrightarrow \SimpSet :(-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $\Simp\Set$ into a [[cartesian closed category]].
 
-
+* Let $E$ be a [[Grothendieck topos]] equipped with an "interval" $I$, i.e. a [[total order|totally ordered object]] in the [[internal logic]] equipped with distinct top and bottom elements.  Then we have the functor $\Delta \to E$ sending $[n]$ to the subobject $ \{ (x_1,x_2,\dots,x_n) \;|\; x_1 \le x_2 \le \dots \le x_n \} \hookrightarrow I^n $ which gives rise to a [[geometric morphism]] $E\to \SimpSet$.  Therefore, $\SimpSet$ is the [[classifying topos]] of such "intervals".
 
 
 
@@ -107,6 +107,22 @@ There are important [[model category]] structures on $sSet$.
 * The standard [[model structure on simplicial sets]] [[presentable (infinity,1)-category|presents]] the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoid]]s.
 
 * The [[model structure for quasi-categories]] on $sSet$ presents the [[(∞,2)-category]] of [[(∞,1)-categories]] [[(∞,1)Cat]].
+
+### Internal logic
+
+Like any [[elementary topos]], $\SimpSet$ has an [[internal logic]].  Here we list some properties of this logic.
+
+* It is a [[two-valued topos]], i.e. the only subobjects of $1 = \Delta^0$ are $0$ and $1$.  (This is not really a property of the internal logic, but we include it to contrast with the next point.)
+
+* It is not [[Boolean topos|Boolean]].  In general, the [[complement]] of a simplicial subset $A\subseteq B$ is the *full* simplicial subset on the vertices of $B$ not contained in $A$ ("full" meaning it contains a simplex of $B$ as soon as it contains all its vertices).  Thus, $A\cup \neg A = B$ only if $A$ is a [[connected component]] of $B$, i.e. any simplex with at least one vertex in $A$ lies entirely in $A$.
+
+* By [[Diaconescu's theorem]], $\SimpSet$ therefore does not satisfy the [[axiom of choice]].
+
+* It does, however, satisfy the [[countable axiom of choice]] (at least if [[Set]] does), since the [[natural numbers object]] is simply the discrete simplicial set of ordinary natural numbers.
+
+* Similarly, it satisfies [[Markov's principle]].
+
+* Less obviously, it satisfies the [[Kreisel-Putnam axiom]] that $(\neg p \to (q\vee r)) = ((\neg p \to q) \vee (\neg p \to r))$; see [this MO question](http://mathoverflow.net/questions/159989/internal-logic-of-the-topos-of-simplicial-sets/) and answers.
 
 ## Related concepts
 
