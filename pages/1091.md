@@ -143,6 +143,13 @@ Base change geometric morphisms may be interpreted in terms of [[fiber integrati
 
 * [[(∞,1)-pullback]], [[homotopy pullback]]
 
+* **base change**
+
+  * [[dependent sum]], [[dependent product]]
+
+  * [[dependent sum type]], [[dependent product type]]
+
+
 ## References
 
 A general discussion that applies (also) to [[enriched categories]] and [[internal categories]] is in 
