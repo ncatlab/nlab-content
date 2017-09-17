@@ -1,4 +1,3 @@
-[[!redirects test143]]
 
 This page is for general thoughts and notes on the mathematics literature as a whole, questions related to open access, etc.
 
@@ -15,4 +14,13 @@ This page is for general thoughts and notes on the mathematics literature as a w
 * More sites listed at [Motivic Stuff](http://homotopical.wordpress.com/links/journals/)
 * Some sites listed in this [MathOverflow question](http://mathoverflow.net/questions/87053/papers-archives-especially-not-indexed-by-google)
 
+
 category:reference
+
+[[!redirects test143]]
+[[!redirects The Mathematical Literature]]
+[[!redirects The mathematical literature]]
+[[!redirects the mathematical literature]]
+[[!redirects Mathematical Literature]]
+[[!redirects Mathematical literature]]
+[[!redirects mathematical literature]]
