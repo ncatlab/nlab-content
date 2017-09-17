@@ -42,14 +42,14 @@ $$
 
 With this duality constraint imposed, one speaks of **self-dual higher gauge fields** or **chiral higher gauge fields** or **higher gauge fields with self-dual curvature**. (These are a higher degree/dimensional generalization of what in [[Yang-Mills theory]] are called [[Yang-Mills instanton]] field configurations.)
 
-Since imposing the self-duality constraint on the fields that enter the above [[action functional]] makes that functional vanish identically, self-dual higher gauge theory is notorious for being subtle in that either it does not have a [[Lagrangian]] field theory description, or else a somewhat intricate indirect one (e.g. [Witten 96, p. 7](#Witten96), [Belov-Moore 06I](#BelovMooreI)). But instead one may regard the self-duality condition rather as part of the quantum theory ([Witten 96, p.8](#Witten96), [DMW 00b, page 3](#MW00)), namely as a choice of [[polarization]] of the [[phase space]] of an unconstrained theory in one dimension higher. By such as "[[holographic principle]]" the [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[higher dimensional Chern-Simons theory]] in dimension $4 k + 3$.
+Since imposing the self-duality constraint on the fields that enter the above [[action functional]] makes that functional vanish identically, self-dual higher gauge theory is notorious for being subtle in that either it does not have a [[Lagrangian]] field theory description, or else a somewhat intricate indirect one (e.g. [Witten 96, p. 7](#Witten96), [Belov-Moore 06a](#BelovMooreI)). But instead one may regard the self-duality condition rather as part of the quantum theory ([Witten 96, p.8](#Witten96), [Witten 99, section 3](#Witten99) [DMW 00b, page 3](#MW00)), namely as a choice of [[polarization]] of the [[phase space]] of an unconstrained theory in one dimension higher. By such as "[[holographic principle]]" the [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[higher dimensional Chern-Simons theory]] in dimension $4 k + 3$.
 
-The way this works is understood in much mathematical detail for $k = 0$, see at _[[AdS3-CFT2 and CS-WZW correspondence]]_. Motivated by this it has been proposed and studied in a fair bit of mathematical detail for $k = 1$ ([Witten 96](#Witten96), [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]), see at _[[M5-brane]]_ and _[[6d (2,0)-superconformal QFT]]_ and [AdS7/CFT6](AdS-CFT#AdS7CFT6). In both these cases the [[higher gauge fields]] are [[cocycle]]s in [[ordinary differential cohomology]]. In ([DMW 00](#MW00), [Belov-Moore II](#BelovMooreII)) it is suggested that similarly taking the self-dual fields to be cocycles in ([[differential K-theory|differential]]) [[complex K-theory]] produces the [[RR-fields]] of [[type II superstring theory]] in dimension 10.
+The way this works is understood in much mathematical detail for $k = 0$, see at _[[AdS3-CFT2 and CS-WZW correspondence]]_. Motivated by this it has been proposed and studied in a fair bit of mathematical detail for $k = 1$ ([Witten 96](#Witten96), [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]), see at _[[M5-brane]]_ and _[[6d (2,0)-superconformal QFT]]_ and [AdS7/CFT6](AdS-CFT#AdS7CFT6). In both these cases the [[higher gauge fields]] are [[cocycle]]s in [[ordinary differential cohomology]]. In ([DMW 00](#MW00), [Belov-Moore 06b](#BelovMooreII)) it is suggested that similarly taking the self-dual fields to be cocycles in ([[differential K-theory|differential]]) [[complex K-theory]] produces the [[RR-fields]] of [[type II superstring theory]] in dimension 10.
 
 ## Definition (outline)
  {#Definition}
 
-The [[holographic principle|holographic]] definition of self-dual abelian higher gauge field theory in dimension $4k+2$ given in ([Witten 96](#Witten96)) is in outline the following.
+The [[holographic principle|holographic]] definition of self-dual abelian higher gauge field theory in dimension $4k+2$ given in ([Witten 96](#Witten96), [Witten 99](#Witten99)) is in outline the following.
 
 Imagine the self-dual $2k$-form [[field (physics)|field]] on $\Sigma$ to be coupled to [[sources]] given by $(2k+1)$-form gauge fields, hence by [[cocycles]] in [[ordinary differential cohomology]] $[\Sigma, \mathbf{B}^{2k+1}\mathbb{G}^\times_{conn}]$ of degree $(2k+2)$. One may try to write down a [[Lagrangian]] for this coupling (and that is what is discussed in ([Belov-Moore 06I](#BelovMooreI))) and the resulting [[partition function]] is then locally a function of the [[source fields]], hence a function on the [[intermediate Jacobian]] $[\Sigma, \mathbf{B}^{2k+1}\mathbb{G}^\times_{conn}]$ and globally (since the [[action functional]] will not be strictly [[gauge invariance|gauge invariant]]) a holomorphic [[section]] of a certain [[holomorphic line bundle]] on that space.
 
@@ -57,7 +57,7 @@ However, no choice of [[Lagrangian]] will enforce a strictly self-dual gauge fie
 
 The question then is: which line bundle? Some plausibility arguments show that it must be a [[Theta characteristic]] bundle, hence a [[square root]] of the [[canonical bundle]] on the [[intermediate Jacobian]].  These have 1-dimensional spaces of holomorphic sections ([[theta functions]]) and hence any choice of that already uniquely fixes the would-be [[partition function]], too, up to a choice of global factor. (For that reason later authors often regard the partition function as a line bundle, somewhat abusing the terminology.)
 
-The claim then is that the correct choice of [[Theta characteristic]] to use is a [[quadratic refinement]] of the [[intersection pairing]] (the [[Beilinson-Deligne cup-product]])
+The claim then is that the correct choice of [[Theta characteristic]] to use is a [[quadratic refinement]] of the [[intersection pairing]] (the [[Deligne-Beilinson cup-product]])
 
 $$
   [\Sigma, \mathbf{B}^{2k+1}\mathbb{G}^\times_{conn}]
@@ -98,7 +98,7 @@ in dimension $4k+3$ (for $k \in \mathbb{N}$) is [[holographic principle|holograp
 
 * $(k=1)$: [[7-dimensional Chern-Simons theory]] is related to a [[fivebrane]] model on its boundary;
 
-* $(k=2)$: [[11-dimensional Chern-Simons theory]] (of [[field (physics)|fields]] which are [[cocycles]] in ([[twisted differential K-theory|twisted differential]]) [[complex K-theory]]) is related to a parts of a [[type II string theory]] on its boundary (or that of the space-filling [[D9-brane]], if one wishes) ([Belov-Moore 06 II](#BelovMooreII)).
+* $(k=2)$: [[11-dimensional Chern-Simons theory]] (of [[field (physics)|fields]] which are [[cocycles]] in ([[twisted differential K-theory|twisted differential]]) [[complex K-theory]]) is related to a parts of a [[type II string theory]] on its boundary (or that of the space-filling [[D9-brane]], if one wishes) ([Belov-Moore 06b](#BelovMooreII)).
 
 
 #### Conformal structure from polarization
@@ -209,8 +209,25 @@ The [[worldvolume]] theory of the [[M5-brane]], the
 [[6d (2,0)-superconformal QFT]], contains a self-dual 2-form field. Its [AdS7-CFT6 holographic](AdS-CFT#AdS7CFT6) description by 7-dimensional Chern-Simons theory is due to ([Witten 96](#Witten96)).
 
 ### RR-Fields in 10d (on the "9-brane")
+ {#RRFieldsin10d}
 
-The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of fields). A holographic description is discussed in ([Belov-Moore II](#BelovMooreII)) based on ([DMW 00](#MW00)). A refined discussion of the required quadratic pairing is in ([DFM 09](#DFM09)). 
+The [[RR-field]] in [[type II string theory]] are self-dual. Since the RR-fields are [[cocycles]] in ([[differential K-theory|differential]]) [[K-theory]], the proper discussion of this now involves generalizing from the above story  [[ordinary cohomology]] and hence generalizing the concept of [[principally polarized variety|principally polarized]] [[intermediate Jacobians]] from ordinary cohomology to K-theory.
+
+(Of course one may, as a warmup, "approximate" K-theory classes on a 10-manifold by integral cohomology lifts of the degree-5 component of their [[Chern character]] and hence discuss that as abelian self-dual higher gauge theory in dimension 10. This is discussed in ([Witten 99, section 4](#Witten99))).
+
+The relevant analog of the [[intermediate Jacobian]] for K-tehory on a 10-manifold is naturally taken to be
+
+$$
+  K(X)\otimes_{\mathbb{Z}} \mathbb{R}/ K(X)
+$$
+
+(where the action is via the [[Chern character]]/realification $K \to K \otimes \mathbb{R}$).
+
+
+This is proposed and discussed in ([Witten 99, section 4.3](#Witten99), [Moore-Witten 99, section 3](#MooreWitten99), [DMW 00, section 7.1](#MW00), [Belov-Moore 06b, section 5](#BelovMooreII)): 
+
+where for ordinary cohomology the ([[quadratic refinement]] of the) [[intersection product]] (= [[Deligne-Beilinson cup product]] followed by [[fiber integration in ordinary differential cohomology]]) provided the [[symplectic structure]]/[[polarized variety|polarization]] of the intermediate Jacobian, here it is tensoring of [[Dirac operators]] followed by [[fiber integration in differential K-theory]], hence the [[index of a Dirac operator|index]] map in K-theory.
+
 
 ## Related concepts
 
