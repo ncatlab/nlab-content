@@ -1,15 +1,28 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### Physics
++-- {: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
+
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-In [[quantum mechanics]] a _density matrix_ is a linear endomorphism of a [[Hilbert space]] of states that represents a [[statistical ensemble]] of [[quantum state]]s.
+In [[quantum mechanics]] a _density matrix_ is a linear endomorphism of a [[Hilbert space]] of pute [[quantum states]] that represents a [[statistical ensemble]] of [[quantum states]], hence [[mixed states]].
+
+The space of density matrices inside all suitable endomorphisms is called the _[[Bloch region]]_.
 
 
 ## Notation
@@ -61,6 +74,9 @@ More controversially, two entirely different probabilisitic combinations of stat
 * Nielsen, M, and Chuang, I. *Quantum Computation and Quantum Information*, Cambridge University Press, Cambridge, 2000.
 
 * Schumacher, B. and Westmoreland, M. *Q-PSI: Quantum Processes, Systems, and Information*, Cambridge University Press, Cambridge, 2010.
+
+* [[Greg Kuperberg]], section 1.4 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
+ {#Kuperberg05}
 
 
 [[!redirects density matrix]]
