@@ -35,3 +35,7 @@ to the domain projection $dom : T_C \to C$ turns out to send each $A$ to its [[c
 The definition and study of the notion is tangent $(\infty,1)$-categories is from 
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
+
+[[!redirects tangent (infinity,1)-categories]]
+[[!redirects tangent (∞,1)-category]]
+[[!redirects tangent (∞,1)-categories]]
