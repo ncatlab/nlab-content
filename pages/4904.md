@@ -38,7 +38,7 @@ $$
 
 where we regard $C$ as a [[Kan complex]]-[[enriched category]] and have on the right the [[sSet]]-[[enriched functor category]] with the projective or injective model structure, and $(-)^\circ$ denoting the full enriched subcategory on fibrant-cofibrant objects.
 
-This says in particular that every weak $(\infty,1)$-functor $f : C \to \infty \mathrm{Grp}$ is equivalent to a _rectified_ on $F : C \to KanCplx$. And $f \in PSh_{(\infty,1)}(C^{op})$ belongs to $Alg_{(\infty,1)}(C)$ if $F$ preserves finite products _weakly_  in that for $\{c_i \in C\}$ a finite collection of objects, the canonical natural morphism
+This says in particular that every weak $(\infty,1)$-functor $f : C \to \infty \mathrm{Grp}$ is equivalent to a _rectified_ one $F : C \to KanCplx$. And $f \in PSh_{(\infty,1)}(C^{op})$ belongs to $Alg_{(\infty,1)}(C)$ if $F$ preserves finite products _weakly_  in that for $\{c_i \in C\}$ a finite collection of objects, the canonical natural morphism
 
 $$
   F(c_1 \times \cdots, \c_n)
