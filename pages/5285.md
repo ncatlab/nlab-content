@@ -402,6 +402,67 @@ $$
 
 For more illustrations see for instance ([Ghrist, (4.5)](#Ghrist)).
 
+### Homology of cells: disks and spheres
+ {#HomologyOfDisksAndSpheres}
+
++-- {: .num_prop }
+###### Proposition
+
+For all $n \in \mathbb{N}$ the [[reduced singular homology]] of the $n$-[[sphere]] $S^n$ is
+
+$$
+  \tilde H_k(S^n)
+  = 
+  \left\{
+    \array{
+      \mathbb{Z} & if\; k = n  
+      \\
+      0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The $n$-sphere may be realized as the [[pushout]] 
+
+$$
+  S^n \simeq D^n/S^{n-1} \coloneqq D^{n} \coprod_{S^{n-1}} *
+$$
+
+which is the $n$-[[ball]] with its [[boundary]] $(n-1)$-sphere identified with the [[point]]. The inclusion $S^{n-1} \hookrightarrow D^n$ is a "good pair" in the sense of def. \ref{GoodPair}, and so the [[long exact sequence]] from prop. \ref{RelativeHomologyLongExactSequence} yields a long exact sequence
+
+$$
+  \cdots \to \tilde H_{k+1}(S^n) \to \tilde H_k(S^{n-1}) \to \tilde H_k(D^n) \to \tilde H_k(S^n) \to \tilde H_{k-1}(S^{n-1}) \to \cdots
+  \,.
+$$
+
+Since the [[disks]] are all [[contractible topological spaces]] we have $H_k(D^n) \simeq 0$ for all $k,n$ by [this example](reduced+homology#ReducedHomologyOfPoints) at _[[reduced homology]]_. This means that in the above long exact sequence all the morphisms
+
+$$
+  \tilde H_{k+1}(S^{n+1}) \to \tilde H_k(S^n)
+$$
+
+are [[isomorphisms]], for all $k \in \mathbb{N}$. Since 
+
+$$
+  \tilde H_n(S^0) \simeq 
+  \left\{
+    \array{
+       \mathbb{Z} & if \; n = 0
+       \\
+       0 & otherwise
+    }
+  \right.
+$$ 
+
+(by [this example](reduced+homology#ReducedHomologyOf0Sphere) at _[[reduced homology]]_) the statement follows by [[induction]] on $n$.
+
+=--
 
 ## Properties
 
@@ -511,6 +572,65 @@ is an [[isomorphism]].
 =--
 
 This is known as the _[[Hurewicz theorem]]_.
+
+### Relation to relative homology
+ {#RelationToRelativeHomology}
+
+For the present purpose one makes the following definition.
+
++-- {: .num_defn #GoodPair}
+###### Definition
+
+A [[topological subspace]] inclusion $A \hookrightarrow X$ in [[Top]] is called a **good pair** if 
+
+1. $A$ is [[inhabited set|inhabited]] and [[closed subset|closed]] in $X$;
+
+1. $A$ has a [[neighbourhood]] in $X$ of which it is a [[deformation retract]].
+
+=--
+
+Write $X/A$ for the [[cokernel]] of the inclusion, hence for the [[pushout]]
+
+$$
+  \array{
+    A &\hookrightarrow& X
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& X/A
+  }
+$$
+
+in [[Top]].
+
++-- {: .num_prop #RelativeHomologyLongExactSequence}
+###### Proposition
+
+If $A \hookrightarrow X$ is a good pair, def. \ref{GoodPair}, then the singular homology of $X/A$ coincides with the [[relative homology]] of $X$ relative to $A$.  In particular, therefore, it fits into a [[long exact sequence]] of the form
+
+$$
+  \cdots
+  \to
+  \tilde H_n(A)
+  \to
+  \tilde H_n(X)
+  \to 
+  \tilde H_n(X/A)
+  \to 
+  \tilde H_{n-1}(A)
+  \to 
+  \tilde H_{n-1}(X)
+  \to 
+  \tilde H_{n-1}(X/A)
+  \to 
+  \cdots
+  \,.
+$$
+
+=--
+
+For instance ([Hatcher, theorem 2.13](#Hatcher)).
+
 
 ### Relation to generalized homology
 
