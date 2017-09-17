@@ -55,7 +55,7 @@ There is a resolution of the operad $\mathrm{Ass}$ of associative algebras (as o
 
 A **morphism of $A_\infty$-algebras** $f : A\to B$ is a collection $\lbrace f_n\rbrace_{n\geq 1}$ of maps 
 $$
-f_n : (A[1])^{\otimes n}\to A[1]
+f_n : (A[1])^{\otimes n}\to B[1]
 $$
 of degree $0$ satisfying
 $$
