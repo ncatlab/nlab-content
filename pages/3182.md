@@ -2,18 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Topos Theory
+#### Cohesive $\infty$-Toposes
 +--{: .hide}
-[[!include (infinity,1)-topos - contents]]
-=--
-#### Higher geometry
-+--{: .hide}
-[[!include higher geometry - contents]]
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
 
-> this entry is under construction. Much of what should eventually go here is currently at [[Lie infinity-groupoid|smooth ∞-groupoid]] and [[schreiber:path ∞-groupoid]].
+> this entry is under construction. Much of what should eventually go here is currently at [[Lie infinity-groupoid|smooth ∞-groupoid]]
 
 #Contents#
 * automatic table of contents goes here
@@ -124,18 +120,6 @@ set, and where evaluates a simplicial presheaf on the manifold that is the [[poi
 **Theorem (Dugger)**
 
 This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the  standard [[model structure on simplicial sets]] on the left and the above model structure $SPSh(Diff)_{loc}^I$ on the right.
-
-## Related concepts
-
-* [[cohesive (∞,1)-topos]]
-
-  * [[discrete ∞-groupoid]]
-
-  * **continuous $\infty$-groupoid**
-
-  * [[smooth ∞-groupoid]]
-
-  * [[synthetic differential ∞-groupoid]]
 
 
 ## References
