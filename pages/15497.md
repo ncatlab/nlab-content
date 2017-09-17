@@ -1,2 +1,2 @@
-Levis
- <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc229.html" title="PARAJUMPERS">PARAJUMPERS</a>
+Before buying fashion bracelets, you should keep few things in your mind. Nowadays, there are lots of online jewellery that provide jewellery but not all websites are trustworthy. There are plenty of online fake stores offering low quality and fake fashion bracelets. Therefore before buying fashion bracelets, you should check the trustworthiness of the store.Friday, September 13, 2013
+ <a href="http://www.singladentalcare.com/shoponlinejp.asp?cheap=shop/115288/products-fl70.html" title="Winter clothes">Winter clothes</a>
