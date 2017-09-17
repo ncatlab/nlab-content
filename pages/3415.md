@@ -1,12 +1,21 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-***
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
@@ -78,7 +87,7 @@ This means that for $X \in SSet$ we have
 
 * and $k_!(X)_n = \int^{[k]} X_k \cdot \Delta'[k]$.
 
-**Proof** This is ([JoTi, prop 1.19](http://arxiv.org/PS_cache/math/pdf/0607/0607820v2.pdf#page=7))
+**Proof** This is ([JoTi, prop 1.19](#JoyalTierney))
 
 The following proposition shows that $(k_! \dashv k^!)$ is indeed a model for $(i \dashv Core)$:
 
@@ -88,11 +97,25 @@ The following proposition shows that $(k_! \dashv k^!)$ is indeed a model for $(
 
 * for $X \in sSet$ a [[quasi-category]], the canonical morphism $k^!(X) \to Core(X)$ is an acyclic fibration in $sSet_{Quillen}$.
 
-**Proof** This is ([JoTi, prop 1.20](http://arxiv.org/PS_cache/math/pdf/0607/0607820v2.pdf#page=7))
+**Proof** This is ([JoTi, prop 1.20](#JoyalTierney))
 
 
 
+## References
 
+The original construction of the Joyal model structure is in
+
+* [[Andre Joyal]], _Theory of quasi-categories I_ 
+
+Unfortunately, this is still not publically available. 
+
+A proof that proceeds via [[homotopy coherent nerve]] and [[simplicially enriched categories]] is given in detail following theorem 2.2.5.1 in
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+The relation to the model structure for [[complete Segal space]]s is in
+
+* [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_ ([arXiv](http://arxiv.org/abs/math/0607820))
 
 [[!redirects Joyal model structure]]
 [[!redirects Joyal model structure on simplicial sets]]
