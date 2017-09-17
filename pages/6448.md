@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
-
 
 # Tychonoff spaces
 * table of contents
@@ -35,7 +34,7 @@ A [[topological space]] $X$ is __completely regular__ if, given a point $a$ of $
 =--
 (Here $f^*(\{c\}')$ is the [[preimage]] under $f$ of the [[complement]] of the [[singleton]] of $c$.  Again, one can force $c = 1$, $f(a) = 0$, and even $f\colon X \to [0,1]$ if desired.)  This definition is suitable for [[constructive mathematics]] based on [[weak countable choice]], [[Markov's principle]], and the [[fan theorem]] (all of which follow from [[excluded middle]]), or in any case if the following interpretations are made:
 *  $f$ lands in the [[locale of real numbers]],
-*  the complement $\{c\}'$ is the [[open set]] of all real numbers [[apartness|apart]] from $c$.
+*  the complement $\{c\}'$ is the [[open subspace]] [[apartness|apart]] from $c$.
 
 There is also a definition entirely in terms of the lattice of open sets, suitable for [[locales]], which I need to look up again.  (It\'s similar to the localic definition of [[regular space]], but using a stronger notion than well-inside.)
 
@@ -67,6 +66,7 @@ As is usual with the [[separation axioms]], some authors while conflate the mean
 * Every [[topological group]] is Tychonoff.
 
 * Every [[CW-complex]] is Tychonoff.
+
 
 [[!redirects completely regular space]]
 [[!redirects completely regular spaces]]
