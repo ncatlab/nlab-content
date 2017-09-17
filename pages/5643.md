@@ -155,6 +155,27 @@ The [[Lie integration]] of $\mathfrak{g}$ is ...
 
 * [[D'Auria-Fre formulation of supergravity]]
 
+## Related concepts
+
+* [[cohesive (∞,1)-topos]]
+
+  * [[discrete ∞-groupoid]]
+
+  * [[Euclidean-topological ∞-groupoid]]
+
+  * [[smooth ∞-groupoid]]
+
+  * [[synthetic differential ∞-groupoid]]
+
+  * [[super ∞-groupoid]]
+
+  * **smooth super ∞-groupoid**
+
+  * [[synthetic differential super ∞-groupoid]]
+
+
+
+
 ## References
 
 
