@@ -164,7 +164,7 @@ $$\langle x_1, \ldots, x_n\mid relations from crossings, x_m=1\rangle.$$
 This is a presentation of $G(K)$.
 
 
-##Example of  Dehn presentation##
+##Example of a Dehn presentation##
  We will calculate the Dehn presentation for the cinquefoil knot.  (This is the next knot in the family of $(2,k)$-torus knots after the [[trefoil]].  It has five lobes when drawn in the nice symmatric form.) We orient the diagram clockwise and have labelled the faces of the diagram with the letters $a$, up to $g$.  
 
 <svg
