@@ -45,7 +45,7 @@ To give the standard (geometric) semantics of modal logics one needs the models 
 
 Generally this entry is based on
 
-* P. Blackburn, M. de Rijke and Y. Vedema, _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001, 
+* P. [[Blackburn]], M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001, 
 
 (any mistakes or errors of interpretation are due to ....!)
 
