@@ -1,7 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 What is usually called "generalized cohomology" is obtained from a generalization of the axioms of Eilenberg--Steenrod. 
 
-This turns out to be equivalent to [[cohomology]] with coefficient object a [[spectrum]]. See
+By [[Brown's representability theorem]] this is equivalent to [[cohomology]] with coefficient object a [[spectrum]]. See
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
@@ -9,5 +20,5 @@ This turns out to be equivalent to [[cohomology]] with coefficient object a [[sp
 
 * [[cohomology group]] .
 
-Notice that there is a "generalization of generalized cohomology", called [[nonabelian cohomology]].
+Notice that there are "generalizations of generalized cohomology". See the discussion at _[[cohomology]]_.
 
