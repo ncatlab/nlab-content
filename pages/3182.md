@@ -440,7 +440,8 @@ $$
   \,.
 $$
 
-By the [above proposition](#FundGroupoidOfParacompact) we have weak equivalences $\lim_\to Q X_k \simeq (\mathbb{L} \lim_\to) X_k \simeq Sing X_k$, so that
+By the [above proposition](#FundGroupoidOfParacompact) we have 
+for each $k \in \mathbb{N}$ weak equivalences $\lim_\to Q X_k \simeq (\mathbb{L} \lim_\to) X_k \simeq Sing X_k$, so that
 
 $$
   \begin{aligned}
