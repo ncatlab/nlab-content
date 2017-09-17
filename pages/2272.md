@@ -52,6 +52,8 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 * [[Poisson Lie algebroid]]
 
+* [[Poisson bracket Lie n-algebra]]
+
 [[!include Isbell duality - table]]
 
 
