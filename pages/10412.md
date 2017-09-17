@@ -73,3 +73,5 @@ Journalistic coverage includes
 See also
 
 * Wikipedia: _[Amplituhedron](http://en.wikipedia.org/wiki/Amplituhedron)_
+* Thomas Lam, _Amplituhedron cells and Stanley symmetric functions_, 
+[arxiv/1408.5531](http://arxiv.org/abs/1408.5531)
