@@ -13,10 +13,9 @@
 =--
 =--
 
-# Dependent products
+# Dependent products and sums
 * table of contents
 {: toc}
-
 
 ## Idea
 
@@ -30,52 +29,22 @@ equals the usual product projection; in other words, $ev$ is a morphism in the [
 
 In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$ to $Set/A$ in which taking the product with $A$ is the left adjoint and applying this universal property is the right adjoint.  This is the basis for the definition below, but we add one further level of generality: we move everything from $Set$ to an arbitrary over category $Set/I$.
 
-
-## Definition
-
-### In category theory
-
-For $C$ a [[category]], the **dependent product** of the morphism $g: B \to A$ indexed by the morphism $f: A \to I$ is an object $\prod_f g$ in the [[over category]] $C/I$, where the operation $\prod_f: C/A \to C/I$ is [[generalized the|the]] [[adjoint functor|right adjoint]] to the [[base change]] functor $f^*: C/I \to C/A$.
-
-For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
-
-### In type theory
-
-In [[type theory]] the operation $\Pi_{x \in X} P_x$ is written
-
-$$
-  \forall x : X , P x
-  \,.
-$$
-
-But beware that in this context the phrase "dependent product" actually refers to what we call the dependent *sum*!  This is because when $g\colon B\to A$ is a constant family, i.e. a [[projection]] $C\times A \to A$ from a binary cartesian [[product]], then its dependent sum is just the ordinary cartesian product $C\times A$.  In the same context, what we call the dependent product can be identified with the [[exponential object]] $C^A$.  In other words, *dependent sums generalize ordinary products*, while *dependent products generalize ordinary exponentials*.
-
-This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
+We also consider dependent *sums*, which are actually simpler.
 
 
+## Definitions
 
+For $C$ a [[category]], the **dependent product** of the morphism $g\colon B \to A$ indexed by the morphism $f\colon A \to I$ is an object $\prod_f g$ in the [[over category]] $C/I$, where the operation $\prod_f\colon C/A \to C/I$ is [[generalized the|the]] [[adjoint functor|right adjoint]] to the [[base change]] functor $f^*\colon C/I \to C/A$. For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
+
+In [[type theory]], the operation of dependent product is typically taken as a primitive.  When employing the [[Curry–Howard correspondence]], one often writes $\Pi_{x \in X} P_x$ as written $\forall x\colon X, P x$, because dependent products correspond to [[universal quantification]].
+
+The *left* adjoint to the base-change functor, the __dependent coproduct__ or __[[dependent sum]]__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).  In the Curry--Howard correspondence, this corresponds to the [[particular quantification]] $\exists x\colon X, P x$.
+
+Note that the binary [[cartesian product]] is a special case of the direct *sum*: when $g\colon B\to A$ is a constant family, i.e. a [[projection]] $C \times A \to A$ from a binary [[product]], then its dependent sum is just the ordinary cartesian product $C \times A$.  In this context, the dependent product can be identified with the [[exponential object]] $C^A$.  In other words, *dependent sums generalize ordinary products*, while *dependent products generalize ordinary exponentials*.  This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
 
 
 ## Properties
  {#Properties}
-
-### Relation to dependent sum
-
-The *left* adjoint to the base-change functor, the __dependent coproduct__ or __[[dependent sum]]__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
-
-Dependent products (and sums) exist in any [[topos]]:
-
-+-- {: .un_prop }
-###### Proposition
-
-For $C$ a topos and $f : A \to I$ any morphism in $C$, both the left adjoint $\sum_f : C/A \to C/I$ as well as the right adjoint $\prod_f: C/A \to C/I$ to $f^*: C/I \to C/A$ exist. 
-
-Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
-=--
-
-This is ([MacLaneMoerdijk, theorem 2 in section IV, 7](#MacLaneMoerdijk)).
-
-
 
 ### Relation to spaces of sections
  {#RelationToSpacesOfSections}
@@ -137,15 +106,32 @@ This statement and its proof remain valid in [[homotopy theory]]. More in detail
 
 =--
 
+
 ## Examples
 
-* the dependent product plays a role in the definition of [[universe in a topos]].
+Dependent products (and sums) exist in any [[topos]]:
+
++-- {: .un_prop }
+###### Proposition
+
+For $C$ a topos and $f : A \to I$ any morphism in $C$, both the left adjoint $\sum_f : C/A \to C/I$ as well as the right adjoint $\prod_f: C/A \to C/I$ to $f^*: C/I \to C/A$ exist. 
+
+Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
+=--
+
+This is ([MacLaneMoerdijk, theorem 2 in section IV, 7](#MacLaneMoerdijk)).
+
+The dependent product plays a role in the definition of [[universe in a topos]].
+
 
 ## Related concepts
 
-* [[base change]]
+[[base change]]
 
-  * [[dependent sum]], **dependent product**
+* [[dependent sum]], **dependent product**
+
+[[!include notions of type]]
+
 
 ## References
 
@@ -153,9 +139,6 @@ Some aspects are discussed in section IV of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
   {#MacLaneMoerdijk}
-
-
-[[!include notions of type]]
 
 
 [[!redirects dependent product]]
