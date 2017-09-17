@@ -145,3 +145,5 @@ Textbook discussion of broken symmetry in [[gravity]] and [[supergravity]] in th
  {#Strominger}
 
 [[!redirects spontaneously broken symmetries]]
+
+[[!redirects spontaneous symmetry breaking]]
