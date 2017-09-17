@@ -144,7 +144,7 @@ Now for any category $D$, $K( D)(*)$ is exactly the set of functors $[G/\!/G, D]
 =--
 ### Category of simplices
 
-For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]], the corresponding category of elements its called its _[[category of simplices]]_. See there for more. 
+For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]], the corresponding category of elements is called its _[[category of simplices]]_. See there for more. 
 
 ## Related concepts
 
