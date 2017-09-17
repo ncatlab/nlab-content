@@ -40,6 +40,9 @@ For instance
 
 * [[higgsino]]
 
+[[!include standard model of fundamental physics - table]]
+
+
 ## References
 
 The general theory of [[spontaneous symmetry breaking]] is discussed in
