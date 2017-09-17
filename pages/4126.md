@@ -27,7 +27,7 @@ Let $\mathbb{H}$ be a separable complex Hilbert space and $\Sigma$ be a collecti
 
 ## Sheaf-theoretic interpretation
 
-...should include discussion of Isham's derivation and perhaps items from the nCafe discussion...
+Isham has shown that the Kochen-Specker theorem is equivalent to the statement that there the spectral presheaf has no global elements.
 
 ## References
 
@@ -42,3 +42,5 @@ The original paper outlining Bell's theorem:
 The original paper outlining Gleason's theorem:
 
 * A.M. Gleason "Measures on the closed subspaces of a Hilbert space," Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050).
+
+## Discussion
