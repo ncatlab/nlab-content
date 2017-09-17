@@ -32,9 +32,9 @@ We walk through the main bits of the article:
 
 One [[axiom]] on a [[cohesive topos]] $\mathcal{E}$ is that the [[global section]] [[geometric morphism]] $\Gamma : \mathcal{E} \to \mathcal{S}$  to the given [[base topos]] $\mathcal{S}$ has a further [[left adjoint]] $\Pi_0 := \Gamma_! : \mathcal{E} \to \mathcal{S}$ to its [[inverse image]] $\Gamma^{\ast}$, which we shall write $\mathrm{Disc} := \Gamma^{\ast}$, for reasons discussed below. This extra left adjoint has the interpretation that it sends any object $X$ to the set $\Pi_0(X)$ "of [[connected]] components". What Lawvere calls a [[locally connected topos|connected object]] in the article (p. 4) is hence one that is sent by $\Pi_0$ to the [[terminal object]].
 
-Another [[axiom]] is that $\Pi_0$ preserves finite [[product]]s. This implies by the above that the collection of connected objects is closed under finite products. This appears on page 6. What he mentions there with reference to Hurewicz is that given a topos with such $\Pi_0$, it becomes canonically [[enriched category|enriched]] over the [[base topos]].
+Another [[axiom]] is that $\Pi_0$ preserves finite [[product]]s. This implies by the above that the collection of connected objects is closed under finite products. This appears on page 6. What he mentions there with reference to Hurewicz is that given a topos with such $\Pi_0$, it becomes canonically [[enriched category|enriched]] over the [[base topos]] in a second way, a geometric way.
 
-By the way, this, like various other aspects of cohesive toposes, may be arguzed to live up to its full relevance as we make the evident step to 
+The meaning of this, like that of various other aspects of cohesive toposes, may be clearer as we make the evident step to 
 [[cohesive (∞,1)-topos]]es.  (But notice that this, while inspired by Lawvere, is not due to him.) 
 
 In this more encompassing context the extra [[left adjoint]] $\Pi_0$ becomes a left [[adjoint (∞,1)-functor]] $\Pi_\infty$ which we just write $\Pi$: it sends, one can show, any object to its [[fundamental infinity-groupoid in a locally infinity-connected (infinity,1)-topos
