@@ -323,20 +323,38 @@ We don't need to fall back to classical Lie theory to obtain $G$ in the above ar
 
 Write $b^n \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $(n+1)$ and vanishing differential.
 
-Write $e b^n \mathbb{R}$ for the dg-algebra on one generator in degree $(n+1)$ and one in degree $(n+2)$ and the differential taking the former to the latter.
 
 =--
 
-+-- {: .un_lemma}
-###### Observation
+
++-- {: .un_prop}
+###### Proposition
+
+The [[discrete ∞-groupoid]] underlying $\exp(b^n \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
 
 $$
-  \exp(b^{k-1} \mathbb{R})_{bare}
+  \exp(b^{n} \mathbb{R})_{disc}
   : 
-  [n] \mapsto \Omega^k_{closed}(\Delta^n)
+  [k] \mapsto \Omega^n_{closed}(\Delta^k)
 $$
 
-is the simplicial set that in degree $n$ is the set of closed $k$-forms on the $n$-simplex.
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The $\infty$-Lie integration of $b^n \mathbb{R}$ is the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie n-group</a> $\mathbf{B}^n \mathbb{R}$. 
+
+With $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathb{R}$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
+
+$$
+  \int_{\Delta^\bullet} : 
+  \exp(b^n \mathbb{R})
+   \stackrel{\simeq}{\to}
+  \mathbf{B}^{n+1} \mathbb{R}
+  \,.
+$$
+
 
 =--
 
@@ -347,7 +365,8 @@ is the simplicial set that in degree $n$ is the set of closed $k$-forms on the $
 The operation of [[integration|integrating]] an $n$-form on the $n$-simplex over the $n$-simplex gives an equivalence
 
 $$
-  \int_{\Delta^\bullet} : \exp(b^n \mathbb{R}) \stackrel{}{\to}
+  \int_{\Delta^\bullet} : 
+  \mathbf{cosk}_{n+1}\exp(b^n \mathbb{R}) \stackrel{}{\to}
   \mathbf{B}^{n+1}\mathbb{R}
   \,.
 $$
@@ -358,12 +377,22 @@ $$
 ###### Proof
 
 
+First we observe that the map
 
+$$
+  \int_{\Delta^\bullet}
+  :
+  (\omega \in \Omega^n_{vert,cl}(U \times \Delta^k))
+  \mapsto
+  \int_{\Delta^k} \omega \in C^\infty(U, \mathbb{R})
+$$ 
 
-From this it follows that also every closed $n$-form on the $k$-sphere for $k \gt n$ may be extended as a closed $n$-form to the $(n+1)$-ball. The same holds for smooth families of forms. This implies that $\exp(b^n \mathbb{R}) \to \mathbf{B}^n \mathbb{R}$ is an acyclic fibration for all $n$.
+is a morphism of 
+[[simplicial presheaves]] $\exp(b^n \mathbb{R}) \to \mathbf{B}^{n+1}\mathbb{R}$ on [[CartSp]]${}_{smooth}$. Since it goes between presheaves of abelian [[simplicial group]]s by the [[Dold-Kan correspondence]] it is sufficient to check that we have a morphism of [[chain complex]]es of presheaves on the corresponding [[Moore complex|normalized chain complex]]es.
 
-=--
+The only nontrivial degree to check is degree $n$. Let $\lambda \in \Omega^{vert,cl}^n(\Delta^{n+1})$. The differential of the normalized chains complex sends this to the signed sum of its restrictions to the $n$-faces of the $(n+1)$-simplex. Followed by the integral over $\Delta^n$ this is the piecewise integral of $\lambda$ over the boundary of the $n$-simplex. Since $\lambda$ has sitting instants, there is $0 \lt \epsilon \in \mathbb{R}$ such that there are no contributions to this integral in an $\esilon$-neighbourhood of the $(n-1)$-faces. Accordingly the integral is equivalently that over the smooth surface inscribed into the $(n+1)$-simplex, as indicated in the following diagram
 
+To prove this we repeatedly use that differential forms with sitting instants on the $n$-simplex may be treated as differential forms on the $n$-[[ball]]. 
 
 <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
@@ -406,6 +435,60 @@ From this it follows that also every closed $n$-form on the $k$-sphere for $k \g
   <line id="svg_41" y2="321" x2="363" y1="332" x1="355" stroke-width="4" stroke="#000000" fill="none"/>
  </g>
 </svg>
+
+Since $\lambda$ is a closed form on the $n$-simplex, this surface integral vanishes, by the [[Stokes theorem]]. Hence $\int_{\Delta^\bullet}$ is indeed a chain map.
+
+It remains to show that $\int_{\Delta^\bullet} : \mathbf{cosk}_{n+1} \exp(b^n \mathbb{R}) \to \mathbf{B}^{n+1}\mathbb{R}_{chn}$ is an isomorphism on the [[simplicial homotopy]] group in degree $n$ (for each $U \in CartSp$). This amounts to the statement that a closed $n$-form with sitting instants on the boundary of $\Delta^{n+1}$ may be extended to a closed form on $\Delta^n$ precisely if its integral over the boundary vanishes.
+
+To demonstrate this, we want to work with forms on the $(n+1)$-[[ball]] insteas of the $(n+1)$-simplex. To achieve this, choose again $0 \lt \epsilon \in \mathbb{R}$ and construct the [[diffeomorphism|diffeomorphic]] image of $S^n \times [1,1-\epsilon]$ inside the $(n+1)$-simplex as indicated in the above diagram: outside an $\epsilon$-neighbourhood of the corners the image is a rectangular $\epsilon$-thickening of the faces of the simplex. Inside the $\epsilon$-neighbourhoods of the corners it bends smoothly. By the [[Steenrod-Wockel approximation theorem]] the diffeomorphism from this $\epsilon$-thickening of the smoothed boundary of the simplex to $S^n \times [0,1]$ extends to a smooth function from the $(n+1)$-simplex to the $(n+1)$-ball. 
+
+By choosing epsilon smaller than each of the sitting instants of the given $n$-form, we have that this $n$-form vanishes on the $\epsilon$-neighbourhoods of the corners and is hence entirely determined by its restriction to the smoothed simplex, identified with the $(n+1)$-ball.
+
+We are now reduced to showing: a smooth $n$-form $\omega \in \Omega^n_{vert,cl}(U \times S^n)$ extends smoothly to a closed $n$-form $\hat \omega \in \Omega^n_{vert,cl}(U \times B^{n+1})$ precisely if its integral vanishes, $\int_{S^n} \omega = 0 \in C^\infty(U, \mathbb{R})$.
+
+We show this by induction on $n$.
+
+For $n = 1$, let $\omega$ be a smooth 1-form on $S^1$ whose integral vanishes and which has sitting instants at least at one point. Let $f : [0,1] \to [0,1]$ be any smoothing function (a smooth non-degreasing surjection that is constant in a neighbourhood of 0 and 1). In terms of standard polar coordinates on the 2-[[ball]] $D^2$, with $\theta = 0$ the point where $A$ has sitting instants, write $A = A_\theta d \theta$ and set
+
+$$
+  \hat A := f \wedge A_\theta  d \theta 
+    + (\int_0^{\theta} A_\theta(\theta') d \theta') f'(r) d r
+  \,.
+$$
+
+This is a well defined smooth 1-form on the disk because the integral vanishes for $\theta = 2 \pi$ and in fact in a neighbourhood of that value, due to sitting instant. By construction of $f$ it equals $A$ on the boundary. Moreover, it is closed by construction and clearly depends smoothly also on the parameter in $U \in CartSp$ that we suppressed.
+
+Now assume that the statement has been proven for some $n-1 \geq 1$. Let $B^n$ be a closed $n$-form on $S^n$, which has sitting instants around at least one point and whose integral vanishes. We now construct an $(n-1)$-form $a$ with $d a = B$ and then extend that to the $(n+1)$-ball.
+
+To do so, cut out a little $n$-disk around the point of sitting instants on which $B$ is still constant. Identify the remaining punctured $n$-sphere with the $n$-disk via a [[smooth function]] $h : D^n \to S^n$. The pullback form $h^*B$ has by the [[Poincare lemma]] a form $A$ with $d A = B$. Concretely, in standard polar coordinates on $D^n$ we could take
+
+$$
+  A(t,\{\phi_i\}) = \int_{0}^r \iota_{\partial_r} h^*B
+  \,.
+$$
+
+But we want to pass to a different representative that vanishes on the boundary of $D^n$. For that purpose, observe that the integral of $A$ around $\partial D^n$ vanishes, since by the [[Poincare lemma]] and the assumptions on $B$ we have
+
+$$
+  \int_{\partial D^n} A \simeq \int_{D^n} h^* B = \int_{S^n} B = 0
+  \,.
+$$
+
+Therefore we can invoke the induction hypothesis to find (smoothly) a closed $(n-1)$-form $A'$ which equals $A$ on $\partial \Delta^n$. Then the difference $A - A'$ still has the property that
+
+$$
+  d (A-A') = h^*B
+$$
+
+but now $(A-A')$ is constantly 0 on $\partial D^n$. Moreover, we claim that at this boundary all its derivatives vanish. This follows with the above formula for $A$ from the fact that $B$ has sitting instants in the image of $\partial D^n$ under $h$ (is constantly 0 there) and that $A'$ by induction hypothesis is radially constant at the boundary.
+
+Due to this it follows that there is a smooth $(n-1)$-form on $S^n$ whose pullback along $h$ is $A-A'$:  the extension of $A-A'$ by 0 to from $D^n \simeq$ the punctured $n$-sphere to the whose $n$-sphere.
+
+Then with the smoothing function $f$ from above define finally the $(n-1)$-form on $S^{n+1}$ given by $\hat a (r, \{\phi_i\})= f(r) \wedge a(\{\phi_i\})$ and $\hat B = d \hat a$. This is an extension of $B$ that we needed to construct.
+
+=--
+
+
 
 ### Integrating the string Lie 2-algebra to the string Lie 2-group
 
