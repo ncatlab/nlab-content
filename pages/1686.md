@@ -73,47 +73,143 @@ Analogously a **homology spectral sequence** is collection of objects $(E_{p,q}^
 
 +-- {: .un_defn}
 ###### Definition
+**(convergence)**
 
-A spectral sequence $(E_r)$ **collapses** at the $r$th term if $E_r \simeq E_{r+1} \simeq \cdots =: E_\infty$
-
-A spectral sequence $(E_r)$ **converges** at $(p,q)$ if there exists finite $r$ such that $E_r^{p,q} \simeq E_{r+1}^{p,q} \cdots =: E_\infty^{p,q} $. One writes this as
+A component of a spectral sequence $(E_r)$ **converges** at $(p,q)$ if there exists finite $r$ such that $E_r^{p,q} \simeq E_{r+1}^{p,q} \cdots =: E_\infty^{p,q} $. One writes this as
 
 $$
   E^{p,q}_r \Rightarrow E^{p,q}_\infty
   \,.
 $$
 
-A spectral sequence is said to **degenerate** in the $E_r$-term if $d^{p,q}_{r'} = 0$ for all $r'\geq r$. Then clearly $E_\infty^{p,q} = E_r^{p,q}$.
+A spectral sequence is said to **degenerate** in the $E_r$-term if $d^{p,q}_{r'} = 0$ for all $r'\geq r$. Then clearly it converges degreewise.
 
+A spectral sequence is called **bounded** if for each $r$ and $n$ there are only finitely many non-vanishing terms of the form $E_r^{p,n-p}$. Also a bounded spectral sequence converges degreewise.
 
-Specifically, for $(E^n)_{n \in \mathbb{Z}}$ a family of objects, (thought of as a page with $E^n$ on each place $(p,q)$ of the $n$-th diagonal $p+q = n$) and we say that a spectral sequence $(E^{p,q}_r)$ **converges** to $(E^n)$ and write
+A spectral sequence $(E_r)$ **converges** if it converges degreewise to a graded filtration: if there is a graded object $(H^n)_{n \in \mathbb{Z}}$ equipped in each degree with a _finite_ filtration
 
 $$
-  E_r^{p,q} \Rightarrow E^{p+q}
+  0 \subset \cdots \subset F^{p} H^n \subset F^{p-1}H^n  \subset \cdots \subset F^0 H^n := H^n
 $$
 
-if for each $n$ there is a decreasing filtration  $E^n  \cdots \supset F^p E^n \supset F^{p+1} E^n \supset \cdots$ and isomorphisms $E^{p,q}_\infty \to F^p E^{p+q}/F^{p+1} E^{p+q}$. 
+such that
+
+$$
+  E_\infty^{p,q}  \simeq F^p H^{p+q} / F^{p+1}H^{p+q}
+  \,.
+$$
+
+The notation for this is
+
+$$
+  E_r^{p,q} \Rightarrow H^{p+q}
+  \,.
+$$
 
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
-In applications one is interested in computing the $E^n$ and uses spectral sequences converging to this as tools for approximating $E^n$ in terms of the given filtration.
+In applications one is interested in computing the $H^n$ and uses spectral sequences converging to this as tools for approximating $H^n$ in terms of the given filtration.
 
 Therefore usually spectral sequences are required to converge in each degree, or even that for each pair $(p,q)$ there exists an $r_0$ such that for all $r\geq r_0$, $d_r^{p-r,q+r-1} = 0$.
 
 =--
 
++-- {: .un_defn}
+###### Definition
+**(collaps)**
+
+A spectral sequence **collases** at $r$ if in $E_r^{p,q}$ only a single row or a single column in non-vanishing.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
 
 
+If $(E_r)$ collapses at $r$, then it converges to $H^\bullet$ with $H^n$ being the unique entry $E^{p,q}_r$ on the non-vanishing row/column with $p+q = n$.
 
+=--
 
 ### Graphical presentation
 
+(...)
+
 ## Examples
 
-### Filtered complexes
+### First quadrant spectral sequence
+
++-- {: .un_def}
+###### Definition
+
+A **first quadrant spectral sequence** is one for wich all pages are concentrated in the first quadrant of the $(p,q)$-plane, in that
+
+$$
+  ((p \lt 0) or (q \lt 0))
+  \;\;
+  \Rightarrow
+  E_r^{p,q} = 0
+  \,.
+$$
+
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+If the $r$th page is concentrated in the first qudrant, then so the $(r+)st$ page. So if the first one is, then all are.
+
+=--
+
+
++-- {: .un_lemma}
+###### Observation
+
+Every first quadrant spectral sequence converges at $(p,q)$ from $r \gt max(p,q+1)$ on
+
+$$
+  E_{max(p,q+1)+1}^{p,q} = E_\infty^{p,q}
+  \,.
+$$
+
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+If a first quadrant spectral sequence converges
+
+$$
+  E_r^{p,q} \Rightarrow H^{p+q}
+$$
+
+then each $H^n$ has a filtration of length $n+1$
+
+$$
+  0 = F^{n+1}H^n \subset F^n H^n \subset \cdots \subset F^1 H^n \subset F^0 H^n = H^n
+$$
+
+and we have
+
+* $F^n H^n \simeq E_\infty^{n,0}$
+
+* $H^n/F^1 H^n \simeq E_\infty^{0,n}$.
+
+=--
+
+### Spectral sequence of a filtered complex
+
+(...)
+
+#### Spectral sequence of a double complex
+
+A [[double complex]] is naturall filtered in two ways: by columns and by rows. By the above this gives two different spectral sequences associated with it.
+
+(...)
 
 ### Exact couples
 
@@ -148,7 +244,7 @@ The _Leray spectral sequence_ is the special case of the Grothendieck spectral s
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $X, Y$ be suitable [[site]]s and $f : X \to Y$ be a morphism of sites. Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bulle(Sh(Y,Ab))$ be the [[model structure on chain complexes|odel categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
+Let $X, Y$ be suitable [[site]]s and $f : X \to Y$ be a morphism of sites. () Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bulle(Sh(Y,Ab))$ be the [[model structure on chain complexes|odel categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
 
 $$
   \Gamma_X : \mathcal{C} \stackrel{f_*}{\to} \mathcal{D} \stackrel{\Gamma_Y}{\to} Ch_\bullet(Ab)
@@ -173,15 +269,24 @@ and hence computes the cohomology of $X$ with coefficients in $A$ in terms of th
 
 ## Properties
 
-### Convergence of the double-complex spectral sequence
++-- {: .un_lemma}
+###### Lemma
+**(mapping lemma)**
 
+If $f : (E_r^{p,q} \to (F_r^{p,q}))$ is a morphism of spectral sequences such that for some $r$ we have that $f_r : E_r^{p,q} \toF_r^{p,q}$ is an isomorphism, then also $f_s$ is an isomorphism for all $s \geq r$.
 
-+-- {: .un_theorem}
-###### Theorem
+=--
+
++-- {: .un_lemma}
+###### Lemma
+**(classical convergence theorem)**
 
 (...)
 
 =--
+
+This is recalled in ([Weibel, theorem 5.51](#Weibel)).
+
 
 ## References
 
@@ -190,6 +295,7 @@ and hence computes the cohomology of $X$ with coefficients in $A$ in terms of th
 A standard textbook reference is chapter 5 of 
 
 * [[Charles Weibel]], _An introduction to homological algebra_ Cambridge studies in advanced mathematics 38 (1994)
+{#Weibel}
 
 A useful brief review of standard definitions and facts about spectral sequences is 
 
