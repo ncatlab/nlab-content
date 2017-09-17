@@ -1,9 +1,13 @@
-# Idea #
+# Tall--Wraith monoids
+* table of contents
+{: toc}
+
+## Idea
 
 Given an [[algebraic theory]] $V$, a $V$-algebra is a model of $V$ in the category $Set$.  A _Tall--Wraith $V$-monoid_ is _the kind of thing that acts on $V$-algebras_.  
 
 
-# Definition #
+## Definition
 
 +-- {: .num_definition #twmonoid}
 ###### Definition
@@ -50,8 +54,7 @@ As an aside, we note a consequence.  As we've seen, the category of co-$V$-algeb
 One postscript to this is that although the category of co-$V$-algebra objects in $V Alg$ is not a variety of algebras, for a specific Tall--Wraith $V$-monoid $P$, the category of $P$-modules _is_ a variety of algebras.
 
 
-
-# Examples #
+## Examples
 
 * If $V$ is the theory of [[commutative ring|commutative unital rings]], a $V$-algebra is a commutative unital ring, and the corresponding sort of Tall--Wraith $V$-monoid is called a [[biring]].  
 
@@ -110,7 +113,8 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
 
   Thus a Tall--Wraith monoid for abelian groups is actually an ordinary monoid in the category of abelian groups: in other words, a [[ring]]!
 
-# References #
+
+## References
 
 * _Representable functors and operations on rings_, D. Tall and [[Gavin Wraith|G. Wraith]], Proc. London Math. Soc. (3), 1970, 619--643.
 
@@ -208,8 +212,10 @@ On the issue as to whether or not we should use $\mathcal{A}$ and so forth, I'm 
 =--
 
 
-[[!redirects Tall--Wraith monoid]]
-[[!redirects Tall–Wraith monoid]]
-[[!redirects Tall--Wraith monoids]]
-[[!redirects Tall–Wraith monoids]]
+[[!redirects Tall-Wraith monoid]]
 [[!redirects Tall-Wraith monoids]]
+[[!redirects Tall–Wraith monoid]]
+[[!redirects Tall–Wraith monoids]]
+[[!redirects Tall--Wraith monoid]]
+[[!redirects Tall--Wraith monoids]]
+
