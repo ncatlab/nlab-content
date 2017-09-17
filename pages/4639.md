@@ -111,6 +111,9 @@ This is called the **multiplicative group** of the line object, often denoted $\
 
 =--
 
+### The group of roots of unity
+
+See at _[[roots of unity]]_.
 
 ### Examples
 
