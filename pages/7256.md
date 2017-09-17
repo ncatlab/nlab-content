@@ -9,7 +9,13 @@ When $C$ is an [[extensive category]] regarded as enriched in $Set$, we call $c$
 
 * If $X$ is connected and $X \to Y$ is epic, then $Y$ is connected. 
 
-For non-extensive categories (e.g., categories of modules), the relation to "connectedness" tends to be less intuitive[^fine]. Nevertheless, the concept of coproduct-preserving representable remains important, and it is useful to collect some basic information. 
+For non-extensive categories (e.g., categories of modules), the relation to "connectedness" tends to be less intuitive[^fine].  Nevertheless, the concept of (arbitrary) coproduct-preserving representable remains important, and it is useful to collect some basic information.
+
+## Absoluteness
+
+In an [[Ab-enriched category]], *finite* coproducts are [[absolute colimits]], hence are preserved by *every* representable.  Thus, the interest is in representables which preserve infinite coproducts as well (which is what most of this page is about).
+
+At the other extreme from extensive categories, in a [[SupLat]]-enriched category (such as [[SupLat]] or [[Rel]]) *arbitrary* coproducts are absolute, and hence preserved by every representable.
 
 ## Module categories 
 
