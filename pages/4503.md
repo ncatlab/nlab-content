@@ -131,7 +131,7 @@ $$
   \,.
 $$
 
-For $G$ a [[simplicial group]] the standard simplicial model for the [[delooping]] of $G$ in $\mathbf{H} = $[[∞Grpd]] is denoted $\bar W G$. This is a Kan complex with a single vertex and $Dec \barr W G$ is the standard model for the universal [[simplicial principal bundle]], traditionally written $W G$.
+For $G$ a [[simplicial group]] the standard simplicial model for the [[delooping]] of $G$ in $\mathbf{H} = $[[∞Grpd]] is denoted $\bar W G$. This is a Kan complex with a single vertex and $Dec \bar W G$ is the standard model for the universal [[simplicial principal bundle]], traditionally written $W G$.
 
 $$
   Dec \bar W G = W G \to \bar W G
