@@ -25,7 +25,7 @@ The _Orbit method_ (or _Kirillov's method_, or _method of coadjoint orbits_) is 
 More in detail, the dual $\mathfrak{g}^*$ of a (say finite-dimensional real) [[Lie algebra]] has a canonical structure of a [[Poisson manifold]] (with the Poisson structure due to [[Alexandre Kirillov]] and [[Jean-Marie Souriau]]), namely for any $a\in \mathfrak{g}^*$, 
 
 $$
-\{ f, g\}(a) := \langle [d f_a, d g_a],a\rangle
+\{ f, g\}(a) \coloneqq \langle [d f_a, d g_a],a\rangle
  \,.
 $$
 
@@ -51,7 +51,7 @@ Throughout, let $G$ be a [[semisimple Lie group|semisimple]] [[compact topologic
 Write $\mathfrak{g}$ for its [[Lie algebra]]. Its canonical (up to scale) binary [[invariant polynomial]] we write
 
 $$
-  \langle -,-\rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{R}
+  \langle -,-\rangle \colon \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{R}
   \,.
 $$
 
@@ -72,7 +72,7 @@ Write
 
 1. $T \hookrightarrow G$ inclusion of the [[maximal torus]] of $G$.
 
-1 $\mathfrak{t} \hookrightarrow \mathfrak{g}$ the corresponding [[Cartan subalgebra]]
+1. $\mathfrak{t} \hookrightarrow \mathfrak{g}$ the corresponding [[Cartan subalgebra]]
 
 
 In all of the following we consider an element $\langle\lambda,-\rangle \in \mathfrak{g}^*$.
@@ -142,7 +142,7 @@ Write $\theta \in \Omega^1(G, \mathfrak{g})$ for the [[Maurer-Cartan form]] on $
 Write 
 
 $$
-  \Theta_\lambda := \langle \lambda, \theta \rangle \in \Omega^1(G)
+  \Theta_\lambda \coloneqq \langle \lambda, \theta \rangle \in \Omega^1(G)
 $$
 
 for the 1-form obtained by pairing the value of the Maurer-Cartan form at each point with the gixed element $\lambda \in \mathfrak{g}^*$.
@@ -150,7 +150,7 @@ for the 1-form obtained by pairing the value of the Maurer-Cartan form at each p
 Write
 
 $$
-  \nu_\lambda := d_{dR} \Theta_\lambda
+  \nu_\lambda \coloneqq d_{dR} \Theta_\lambda
 $$
 
 for its [[de Rham differential]].
@@ -195,10 +195,10 @@ $$
   \Gamma_{wt} \stackrel{\simeq}{\to} Hom_{LieGrp}(G,U(1))
 $$
 
-where the identification takes $\langle \alpha , -\rangle \in \mathfrak{t}^*$ to $\rho_\alpha : T \to U(1)$ given on $t = \exp(\xi)$ for $\xi \in \mathfrak{t}$ by
+where the identification takes $\langle \alpha , -\rangle \in \mathfrak{t}^*$ to $\rho_\alpha \colon T \to U(1)$ given on $t = \exp(\xi)$ for $\xi \in \mathfrak{t}$ by
 
 $$
-  \rho_\alpha : \exp(\xi) \mapsto \exp(i \langle \alpha, \xi\rangle)
+  \rho_\alpha \colon \exp(\xi) \mapsto \exp(i \langle \alpha, \xi\rangle)
   \,.
 $$
 
@@ -227,13 +227,13 @@ Let $A|_{S^1} \in \Omega^1(S^1, \mathfrak{g})$ be a [[Lie algebra valued 1-form]
 For 
 
 $$
-  \rho : G \to Aut(V)
+  \rho \colon G \to Aut(V)
 $$
 
 a [[representation]] of $G$, write
 
 $$
-  W_{S^1}^R(A) :=  hol^R_{S^1}(A) := Tr_R( tra_{S^1}(A) )
+  W_{S^1}^R(A) \coloneqq  hol^R_{S^1}(A) \coloneqq Tr_R( tra_{S^1}(A) )
 $$
 
 for the [[holonomy]] of $A$ around the circle in this representation, which is the [[trace]] of its [[parallel transport]] around the circle (for any basepoint). If one thinks of $A$ as a [[background gauge field]] then this is alse called a [[Wilson loop]].
@@ -249,7 +249,7 @@ $$
   [S^1, G/T] \to U(1)
 $$
 
-be given by sending $g T : S^1 \to G/T$ represented by $g : S^1 \to G$ to
+be given by sending $g T \colon S^1 \to G/T$ represented by $g \colon S^1 \to G$ to
 
 $$
   \exp(i \int_{S^1} \langle \lambda, A^g\rangle )
@@ -259,7 +259,7 @@ $$
 where 
 
 $$
-  A^g := Ad_g(A) + g^* \theta
+  A^g \coloneqq Ad_g(A) + g^* \theta
 $$
 
 is the [[gauge transformation]] of $A$ under $g$. 
@@ -300,7 +300,7 @@ Notice that since $\mathcal{O}_\lambda$ is a [[manifold]] of finite [[dimension]
  {#FormulationInHigherGeometry}
 
 
-We discuss here a natural equivalent reformulation of the [above](#DefinitionsAndConstructions) ingredients of the orbit method in terms of the [[higher geometry]] of [[smooth ∞-groupoids]], and specifically in terms of the [[extended prequantum field theory]] of [[Chern-Simons theory]] with [[Wilson line]] [[QFT with defects|defects]].
+We discuss here a natural equivalent reformulation of the [above](#DefinitionsAndConstructions) ingredients of the orbit method in terms of the [[higher geometry]] of [[smooth ∞-groupoids]], and specifically in terms of the [[extended prequantum field theory]] of [[Chern-Simons theory]] with [[Wilson line]] [[QFT with defects|defects]] ([FSS](#FSS)).
 
 1. [Survey](#FormulationInHigherGeometrySurvey)
 
@@ -366,9 +366,16 @@ for the [[moduli stack]] of $G$-[[principal connections]].
 Write 
 
 $$
-  \mathbf{J} := ( \Omega^1(-,\mathfrak{g})//T \to \Omega^1(-,\mathfrak{g})//G \simeq \mathbf{B}G_{conn} )
+  \mathbf{J} 
+  \coloneqq 
+  \left( \; 
+   \Omega^1(-,\mathfrak{g})//T 
+     \;\to\; 
+     \Omega^1(-,\mathfrak{g})//G \simeq \mathbf{B}G_{conn} 
+    \;
+  \right)
   \in 
-  \mathbf{H}^{\Delta^1}
+  \mathbf{H}^{(\Delta^1)}
 $$
 
 for the canonical map, as indicated.
@@ -404,13 +411,13 @@ The following proposition says what happens to this statement under differential
 The [[homotopy fiber]] of $\mathbf{J}$ in def. \ref{InclusionOfModuliStacks} is 
 
 $$
-  \mathbf{\theta} : G/T \stackrel{}{\to} \Omega^1(-,\mathfrak{g})//T
+  \mathbf{\theta} \colon G/T \stackrel{}{\to} \Omega^1(-,\mathfrak{g})//T
 $$
 
 given over a test manifold $U \in $ [[CartSp]] by the map
 
 $$
-  \mathbf{\theta}_U : C^\infty(U,G/T) \to \Omega^1(U,\mathfrak{g})
+  \mathbf{\theta}_U \colon C^\infty(U,G/T) \to \Omega^1(U,\mathfrak{g})
 $$
 
 which sends $g \mapsto g^* \theta$, where $\theta$ is the [[Maurer-Cartan form]] on $G$.
@@ -531,7 +538,7 @@ $$
 That this construction defines a map $*//T \to *//U(1)$ is 
 the statement of prop. \ref{WeightsAndCharacters}. It remains to check that the differential 1-forms gauge-transform accordingly. 
 
-For this the key point is that since $T \simeq G_\lambda$ stabilizes $\langle \lambda , - \rangle$ under the [[coadjoint action]], the [[gauge transformation]] law for points $A : U \to \mathbf{B}G_{conn}$, which for $g \in C^\infty(U,G)$ is
+For this the key point is that since $T \simeq G_\lambda$ stabilizes $\langle \lambda , - \rangle$ under the [[coadjoint action]], the [[gauge transformation]] law for points $A \colon U \to \mathbf{B}G_{conn}$, which for $g \in C^\infty(U,G)$ is
 
 $$
   A \mapsto Ad_g A + g^* \theta
@@ -560,7 +567,7 @@ The composite of the canonical maps of prop. \ref{ThetaAsHomotopyFiberOfJ} and p
 
 $$
   \langle \lambda, \mathbf{\theta}\rangle
-  : 
+  \colon 
   G/T
   \stackrel{\mathbf{\theta}}{\to}
   \Omega^1(-,\mathfrak{g})//T
@@ -585,7 +592,7 @@ The curvature 2-form is modulated by the composite
 
 $$
   \omega 
-  :
+  \colon
   G/T
   \stackrel{\mathbf{\theta}}{\to}
   \Omega^1(-,\mathfrak{g})//T
@@ -599,7 +606,7 @@ $$
 Unwinding the above definitions and propositions, one finds that this is given over a test manifold $U \in $ [[CartSp]] by the map
 
 $$
-  \omega_U : C^\infty(G/T) \to \Omega^2_{cl}(U)
+  \omega_U \colon C^\infty(G/T) \to \Omega^2_{cl}(U)
 $$
 
 which sends
@@ -665,13 +672,13 @@ In components this is
 
 which fixes the field on the circle defect to be $(A|_{S^1})^g$, as indicated. 
 
-Moreover, a _[[gauge transformation]]_ between two such fields $\kappa : \phi \Rightarrow \phi'$ is a $G$-gauge transformation of $A$ and  a $T$-gauge transformation of $A|_{S^1}$ such that these intertwine the component maps $g$ and $g'$. If we keep the bulk gauge field $A$ fixed, then his means that two fields $\phi$ and $\phi'$ as above are gauge equivalent precisely if there is a function $t \;\colon\; S^1 \to T$ such that $g = g' t$, hence gauge [[equivalence classes]] of fields for fixed bulk gauge field $A$ are parameterized by their components $[g] = [g'] \in [S^1, G/T]$ with values in the coset space, hence in the coadjoint orbit.
+Moreover, a _[[gauge transformation]]_ between two such fields $\kappa \colon \phi \Rightarrow \phi'$ is a $G$-gauge transformation of $A$ and  a $T$-gauge transformation of $A|_{S^1}$ such that these intertwine the component maps $g$ and $g'$. If we keep the bulk gauge field $A$ fixed, then his means that two fields $\phi$ and $\phi'$ as above are gauge equivalent precisely if there is a function $t \;\colon\; S^1 \to T$ such that $g = g' t$, hence gauge [[equivalence classes]] of fields for fixed bulk gauge field $A$ are parameterized by their components $[g] = [g'] \in [S^1, G/T]$ with values in the coset space, hence in the coadjoint orbit.
 
 For every such field configuration we can evaluate two [[action functionals]]: 
 
-1. that of 3d [[Chern-Simons theory]], whose [[extended Lagrangian]] is $\mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$;
+1. that of 3d [[Chern-Simons theory]], whose [[extended Lagrangian]] is $\mathbf{c} \colon \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$;
 
-1. that of the [[1-dimensional Chern-Simons theory]] discussed [above](#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit) whose [[extended Lagrangian]] is $\langle \lambda, -\rangle : \Omega^1(-,\mathfrak{g})//T \to \mathbf{B}U(1)_{conn}$, by prop. \ref{Extended1dCSLagrangianFromLambda}.
+1. that of the [[1-dimensional Chern-Simons theory]] discussed [above](#WilsonLoopsAnd1DCSSigmaModelWithTargetTheCoadjointOrbit) whose [[extended Lagrangian]] is $\langle \lambda, -\rangle \colon \Omega^1(-,\mathfrak{g})//T \to \mathbf{B}U(1)_{conn}$, by prop. \ref{Extended1dCSLagrangianFromLambda}.
 
 These are obtained by postcomposing the above square on the right by these [[extended Lagrangians]] 
 
@@ -707,7 +714,7 @@ for $G$-[[Chern-Simons theory]] with [[Wilson loop]] [[QFT with defects|defects]
 
 More formally, we have an extended Chern-Simons theory as follows. 
 
-The [[moduli stack]] of fields $\phi : C \to \mathbf{J}$ in $\mathbf{H}^{(\Delta^1)}$ as above is the [[homotopy pullback]]
+The [[moduli stack]] of fields $\phi \colon C \to \mathbf{J}$ in $\mathbf{H}^{(\Delta^1)}$ as above is the [[homotopy pullback]]
 
 $$
   \array{
@@ -884,6 +891,11 @@ Generalizations to [[supergeometry]] are discussed in
 A generalization to [[higher geometry]] and [[2-group]] [[2-representations]] is proposed in 
 
 * [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantum field theory_ ([arXiv:0901.3975](http://arxiv.org/abs/0901.3975))
+
+The above discussion of the interpretation of th eorbit method in terms of higher [[moduli stacks]] for [[differential cohomology]] appears in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+ {#FSS}
 
 See also
 
