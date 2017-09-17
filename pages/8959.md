@@ -1,3 +1,4 @@
+[[!redirects meaning explanation]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -12,17 +13,20 @@
 =--
 =--
 
-# The meaning explanation of type theory
+# The meaning explanations of type theory
 
 * table of contents
 {: toc}
 
 ## Idea
 
-[[Per Martin-Löf]]'s **meaning explanation of type theory** is a way to motivate the rules of [[type theory]] based on the idea of *assigning* types to "computational objects" in a pre-existing semantics.  It can be regarded either as meta-mathematical 
-or as "pre-mathematical".
+[[Per Martin-Löf]]'s **meaning explanations of type theory** provide a way to justify the correctness of the rules of [[type theory]]. The meaning of the judgements of type theory are defined by computation of closed terms to canonical form in a lambda calculus extended with constants for the constructors and eliminators of type theory.
 
-The meaning explanation, in its default form, validates not just the rules of [[intensional type theory]] but the stronger rules of [[extensional type theory]].  Thus, if one regards it as the "intended semantics" then one may believe in the extensional theory.  However, like any particular semantics for a formal theory, the meaning explanation also validates many other "rules" as well which no one would consider adding to type theory, so it is not so clear that the meaning explanation itself argues for extensionality.  (It can also be modified so as to no longer satisfy extensionality.)
+From a technical point of view, the meaning explanations give rise to a realizability model of type theory, where realizers are terms in the extended lambda calculus. However, the term "meaning explanations" refer to the fact that they explain the basic "pre-mathematical" reasons for the constructive validity of the judgements of the theory.
+
+The meaning explanations validate not just the rules of [[intensional type theory]] but also the stronger rules of [[extensional type theory]].  
+
+Thus, if one regards it as the "intended semantics" then one may believe in the extensional theory.  However, like any particular semantics for a formal theory, the meaning explanation also validates many other "rules" as well which no one would consider adding to type theory, so it is not so clear that the meaning explanation itself argues for extensionality.  (It can also be modified so as to no longer satisfy extensionality.)
 
 
 ## Definition
