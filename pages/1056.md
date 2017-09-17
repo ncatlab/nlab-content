@@ -44,6 +44,8 @@ There is a _different_ model structure on [[Cat]] in which weak equivalences are
 
 * [[basic localizer]]
 
+* [[Dwyer map]]
+
 * [[homotopy hypothesis]]
 
 * [[model structure on simplicial sets]], [[model structure on topological spaces]]
