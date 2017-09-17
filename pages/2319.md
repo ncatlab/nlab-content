@@ -62,10 +62,10 @@ Over a [[Riemann surface]] spin structures correspond to [[square roots]] of the
 
 More generally:
 
-+-- {: .num_prop}
++-- {: .num_prop #SpinstructureOnCompactKaehlerIsSquareRootOfCanonical}
 ###### Proposition
 
-A spin structure on a [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
+A spin structure on a [[compact topological space|compact]] [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
 
 * there is a choice of [[square root]] $\sqrt{\Omega^{n,0}}$ of the [[canonical line bundle]] $\Omega^{n,0}$ (a "[[Theta characteristic]]"); 
 
@@ -99,6 +99,67 @@ This is due to ([Hitchin 74](#Hitchin74)). A textbook account is for instance in
 In the context of [[quantum field theory]] the existence of a spin structure on a [[Riemannian manifold]] $X$ arises notably as the condition for [[quantum anomaly]] cancellation of the [[sigma-model]] for the spinning particle -- the superparticle -- propagating on $X$. 
 
 It is the generalization of this anomaly computation from the worldlines of superparticles to super[[string theory|string]]s that leads to [[string structure]], and then further the generalizaton to the worldvolume anomaly of fivebranes that leads to [[fivebrane structure]].
+
+## Examples
+
+### On the 2-sphere
+ {#OnThe2Sphere}
+
+The 2-[[sphere]] $S^2$ is famously a [[complex manifold]]: the [[Riemann sphere]]. One standard way to exhibit the complex structure is to cover $S^2$ with two copies of the [[complex plane]] with [[coordinate]] transition functions on the overlap $\mathbb{C} - \{0\}$ given by
+
+$$
+  z_2 = z_1^{-1}
+  \,.
+$$
+
+The 2-sphere is moreover a [[Kähler manifold]] and of course [[compact topological space|compact]]. Therefore by prop. \ref{SpinstructureOnCompactKaehlerIsSquareRootOfCanonical} a spin structure on $S^2$ is equivalently a [[square root]] $\sqrt{\Omega^{1,0}} \in \mathbf{Line}_{\mathbb{C}}(S^2)$ of the [[canonical line bundle]] $\Omega^{1,0}$, which here is simply the holomorphic 1-form bundle.
+
+Now hermitian [[complex line bundles]] on the 2-sphere are classified by $H^2(S^2, \mathbb{Z}) \simeq \mathbb{Z}$. By the [[clutching construction]] a line bundle given by two trivializing sections $\sigma_1, \sigma_2$ of the trivial line bundle on the coordinate patch $\mathbb{C}$ has class the [[winding number]] of the transition function
+
+$$
+  S^1 \hookrightarrow \mathbb{C} - \{0\}
+  \stackrel{s_2 s_1^{-1}}{\to} \mathbb{C}^\times
+  \,.
+$$
+
+Now the canonical section of the holomorphic 1-form bundle on $\mathbb{C}$ is simply the canonical 1-form $d z$ itself. By the above [[coordinate charts]] we have on $\mathbb{C} - \{0\}$
+
+$$
+  d z_2 = d (z_1^{-1}) = - z_1^{-2} d z_1
+$$
+
+and so the transition function of the canonical bundle in this local trivialization is 
+
+$$
+  - z^{-2} \colon \mathbb{C}-\{0\} \to \mathbb{C}^\times
+  \,.
+$$
+
+This has winding number $\pm 2$. Therefore the [[first Chern class]] of the holomorphic 1-form bundle $\Omega^{1,0}$ is $c_1(\Omega^{1,0}) =  \pm 2$ (the sign being an arbitrary convention, determined by the identification $H^2(S^2, \mathbb{Z}) \simeq \mathbb{Z}$).
+
+And so it follows that there is a unique spin structure, namely given by choosing $\sqrt{\Omega^{1,0}}$ to be the line bundle on $S^2$ with first Chern class $\pm 1$. 
+
+
+To construct $\sqrt{\Omega^{1,0}}$ by local sections analogous to how we got $\Omega^{1,0}$ from the two sections $d z_1$ and $d z_2$, slice open $\mathbb{C}$ to $\mathbb{C} - [0,\infty)$ and consider one of the two $z_1^{-1/2} d z_1$ as a local section of the trivial complex line bundle. Do the same on the other patch. Then
+
+$$
+  \begin{aligned}
+    z_2^{-1/2} d z_2 
+    &= 
+    z_1^{1/2} (-z_1^{-2} d z_1)
+    \\
+    &=  -z_1^{-1}\left(z_1^{-1/2} dz_1\right)
+  \end{aligned}
+  \,.
+$$
+
+This is well defined also over the cut and so we can patch the cut with any small neighbourhood with any section chosen over it and conclude that these sections are the local sections locally trivializing a bundle of class $\pm 1$ and hence that of $\sqrt{\Omega^{1,0}}$.
+
+
+
+
+
+
 
 ## Higher spin structures
  {#Higher}
@@ -290,6 +351,8 @@ A survey is also at
 
 * _[Theta characteristics and framings](http://amathew.wordpress.com/2013/06/23/theta-characteristics-and-framings/)_
 
+
+* _Spin manifolds_ ([pdf](http://empg.maths.ed.ac.uk/Activities/Spin/Lecture4.pdf))
 
 ### In quantum anomaly cancellation
 
