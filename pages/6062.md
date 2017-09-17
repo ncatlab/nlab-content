@@ -518,6 +518,14 @@ is the [[left adjoint]] part of a [[Quillen equivalence]] between the model stru
 ([Pridham, cor. 4.56](#Pridham))
 
 
+### On cosimplicial algebras
+ {#OnCosimplicialAlgebras}
+
+Also a version of the "[dual monoidal Dold-Kan correspondence](monoidal+Dold-Kan+correspondence#DualDoldKanQuillenEquivalences)" gives a Quillen equivalence between two model structures for $L_\infty$-algebras. This is ([Pridham, section 4.4](#Pridham)).
+
+This equivalence has the nice property that starting with the [[Chevalley-Eilenberg algebra]] and then "denormalizing" it under dual monoidal Dold-Kan to a cosimplicial nilpotent algebra yields manifestly an incarnation of the $L_\infty$-algebra in terms of simplicial complexes of infinitesimal simplices as is implicit in the work of [[Anders Kock]] in [[synthetic differential geometry]]. This is spelled out further in [[schreiber:differential cohomology in a cohesive topos|dcct, section 4.5.1]].
+
+
 ## Properties
 
 We discuss some further properties of the [above](DefinitionsAndQuillenEquivalences) model category structures. 
