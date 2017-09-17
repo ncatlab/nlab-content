@@ -120,11 +120,11 @@ $$i\colon Bool \hookrightarrow Heyt.$$
 The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _[[regular element|regularization]]_ $\neg\neg x$.
 =--
 
-Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins. Perhaps somewhat surprisingly, it also preserves implications (including negations). 
+Thus $\neg\neg\colon L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i\colon L_{\neg\neg} \to L$, and this preserves meets but not joins. It also preserves negations; more generally and perhaps surprisingly, it preserves implications as well. 
 
 Regular elements are not to be confused with _[[complemented element]]s_, i.e., elements $x$ in a Heyting algebra such that $x \vee \neg x = 1$, although it is true that every complemented element is regular. An example of a regular element which is not complemented is given by the unit interval $(0, 1)$ as an element of the topology of $\mathbb{R}$; a complemented element in a Heyting algebra given by a topology is the same as a [[clopen subset]]. 
 
-Complemented elements furnish another universal relation between Boolean algebras and Heyting algebras: the set of complemented elements in a Heyting algebra $H$ is a Boolean algebra $Comp(H)$. The inclusion $Comp(H) \to H$ is a Heyting algebra map which is universal among Heyting algebra maps $B \to H$ out of Boolean algebras $B$: 
+Complemented elements furnish another universal relation between Boolean algebras and Heyting algebras: the set of complemented elements in a Heyting algebra $H$ is a Boolean algebra $Comp(H)$, and the inclusion $Comp(H) \to H$ is a Heyting algebra map which is universal among Heyting algebra maps $B \to H$ out of Boolean algebras $B$. In other words, we have the following result.  
 
 +-- {: .num_theorem}
 ###### Theorem 
@@ -158,7 +158,9 @@ as required.
 
 +-- {: .proof}
 ###### Proof of theorem 1
-Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins (and since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins). It also preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. So, when computed in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations 
+Since $\neg \neg$ is a monad, and $L_{\neg \neg}$ is the corresponding category (poset) of $\neg \neg$-algebras, the left adjoint $\neg \neg \colon L \to L_{\neg \neg}$ preserves joins. Since this map is epic, this also gives the fact that $L_{\neg \neg}$ has joins. The map $L \to L_{\neg\neg}$ preserves meets by the preceding lemma, and $\neg \neg 1 = \neg 0 = 1$. Thus $L \to L_{\neg\neg}$ is a surjective lattice map, and it follows that $L_{\neg\neg}$ is distributive because $L$ is. 
+
+Working in $L_{\neg \neg}$ (where the join will be written $\vee_{\neg\neg}$ and the meet $\wedge_{\neg\neg}$), we have for any $x \in L_{\neg \neg}$ the equations 
 
 $$x \vee_{\neg \neg} \neg x = \neg \neg (x \vee \neg x) = \neg (\neg x \wedge \neg \neg x) = \neg 0 = 1$$ 
 
@@ -166,7 +168,7 @@ $$\,$$
 
 $$x \wedge_{\neg\neg} \neg x = x \wedge \neg x = 0$$ 
 
-so that $\neg x$ is the complement of $x \in L_{\neg \neg}$. (Which also shows that $\neg\neg \colon L \to L_{\neg\neg}$ preserves negation, once we know $L_{\neg\neg}$ is a Boolean algebra.) Also the distributive laws hold in $L_{\neg\neg}$ because they hold in $L$ and $L \to L_{\neg\neg}$ is a surjective map of lattices. Since $L_{\neg\neg}$ is a complemented distributive lattice, it is a Boolean algebra. 
+so that $\neg x$ is the complement of $x \in L_{\neg \neg}$. We have thus shown that $L_{\neg\neg}$ is a complemented distributive lattice, i.e., a Boolean algebra. This calculation also shows that $\neg\neg \colon L \to L_{\neg\neg}$ preserves negation. 
 
 To show $L \to L_{\neg\neg}$ preserves implication, we may start from the observation (see the following lemma) that in any Heyting algebra $L$, we have 
 
