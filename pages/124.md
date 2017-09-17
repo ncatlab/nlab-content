@@ -13,10 +13,7 @@ A topos is a [[category]] that resembles the category [[Set]] of sets and functi
 
 A topos in this sense is sometimes called an __elementary topos__ or a __Lawvere--Tierney topos__ to distinguish it from the original but more specific [[Grothendieck topos]].
 
-For a longer introduction, try:
-
-* John Baez, [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
-
+While crucially different from [[abelian categories]], there is some intimate relation between toposes and abelian categories. For more on that see [[AT category]].
 
 ## Definition 
 
@@ -104,6 +101,10 @@ The analogs of topos theory in [[higher category theory]] is [[higher topos theo
 A well developed case is that of [[(∞,1)-topos]]es.
 
 ## References {#References}
+
+For an introduction, try:
+
+* [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
 
 Another survey is in
 
