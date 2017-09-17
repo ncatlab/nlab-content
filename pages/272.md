@@ -74,7 +74,15 @@ Sheaves are used explicitly in:
 * [[spin-statistics theorem]]
 
 
---- much information to be filled in ---
+## Related concepts
+
+* **AQFT**
+
+  * [[Haag-Kastler axioms]]
+
+  * [[local net of observables]]
+
+* [[FQFT]]
 
 ## References
 
