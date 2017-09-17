@@ -171,6 +171,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Victor Porton]]
 * [[Vishal Lama]]
 * [[ViV]]
+* [[Yaron]]
 * [[Yemon Choi]]
 * [[Yury Lifshits]]
 * [[Zoran Škoda]]
