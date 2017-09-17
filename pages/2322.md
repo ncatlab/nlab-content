@@ -91,9 +91,9 @@ Every [[(∞,1)-topos]] has a subobject classifier.
 ### Object classifier {#DetailsObjClassf}
 
 
-**Remark/Warning.** However, the point of haveing [[subobject]]s and hence [[monomorphism]] classified by an object in an ordinary [[topos]] may be thought of as being solely due to the fact that in a 1-[[topos]], any object necessarily classifies a _set_  (or rather a [[poset]] i.e. a [[0-category]] or rather a [[(0,1)-category]]) of morphisms, and the point of subobjects/monomorphisms of a given object is that they don't have [[automorphism]]s and hence indeed form a set (or rather: [[poset]]).
+**Remark/Warning.** However, the point of having [[subobject]]s and hence [[monomorphism]]s classified by an object in an ordinary [[topos]] may be thought of as being solely due to the fact that in a 1-[[topos]], any object necessarily classifies a _set_  (or rather a [[poset]] i.e. a [[0-category]] or rather a [[(0,1)-category]]) of morphisms, and the point of subobjects/monomorphisms of a given object is that they don't have [[automorphism]]s and hence indeed form a set (or rather: [[poset]]).
 
-In an $(\infty,1)$-topos we might thus expeect an object that classifies _all_ morphisms, in that the assignment
+In an $(\infty,1)$-topos we might thus expect an object that classifies _all_ morphisms, in that the assignment
 
 $$
   c \mapsto Core(C_{/c})
