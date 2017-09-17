@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _finite spectrum_ is a [[spectrum]] presented by [[finite CW-complexes]].
+
+## Properties
+
+Many of the basic constructions and theorems in [[chromatic homotopy theory]] apply to finite [[p-local spectra]], such as
+
+* [[telescopic localization]]
+
+* [[periodicity theorem]]
+
+* [[chromatic convergence theorem]]
+
+
+## Related concepts
+
+* [[finite set]], [[finite number]]
+
+* [[finite topological space]], [[finite CW-complex]]
+
+* [[p-local spectrum]]
+
+## References
+
+
+* [[Neil Strickland]], Section 2.2 of _An introduction to the category of spectra_ ([pdf](http://neil-strickland.staff.shef.ac.uk/research/stableintro.pdf))
+
+[[!redirects finite spectra]]
+
