@@ -48,6 +48,8 @@ We similarly define unary operations ${(-)\uparrow}$, ${(-) \downarrow}$ for any
 
 $$\vdash {x \uparrow} = x_1 or {x \downarrow} = x_0$$ 
 
+### Order-theoretic operations 
+
 Next, we define meet and join operations on $I$, making it a lattice, by exploiting corecursion. A slick corecursive definition of the order $\leq$ is that $x \leq y$ 
 
 * if ${x \downarrow} = 0$ and ${x \uparrow} \leq {y \uparrow}$, or 
@@ -63,6 +65,19 @@ which works is
 * $\xi(x, y) = i_0({x \uparrow}, {y \uparrow})$ if ${x \downarrow} = 0$ or ${y \downarrow} = 0$; 
 
 * $\xi(x, y) = i_1({x \downarrow}, {y \downarrow})$ if ${x \uparrow} = 1 = {y \uparrow}$. 
+
+### Midpoint operations 
+
+The general midpoint operation is not as easy to construct as one might think, but to start with we do have operations which take the midpoint between a given point and an endpoint. Namely, the left midpoint operation is the unary operation defined by 
+
+$$l = (I \stackrel{i_0}{\to} I \vee I \stackrel{\alpha^{-1}}{\to} I)$$ 
+
+and the right midpoint operation is defined by 
+
+$$r = (I \stackrel{i_1}{\to} I \vee I \stackrel{\alpha^{-1}}{\to} I).$$
+
+
+
 
 
 [[!redirects real coalgebra]]
