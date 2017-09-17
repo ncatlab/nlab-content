@@ -2,6 +2,11 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 
 * wikipedia [German](http://de.wikipedia.org/wiki/Albert_S._Schwarz)
 
+## Selected publications
+
+(See also the [list of arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz.)
+
+
 * _The partition function of a degenerate functional_, Commun. Math. Phys. __67__, 1 (1979)
 
 * M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], A. Schwarz, O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997, [hep-th/9502010](http://arxiv.org/abs/hep-th/9502010)
@@ -12,7 +17,6 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 
 * _[[semiclassical approximation|Semiclassical approximation]] in Batalin-Vilkovisky formalism_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246)
 
-* [arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz
 
 * monograph: *Quantum field theory and topology*, Grundlehren der Math. Wissen. __307__, Springer 1993. (translated from Russian original Kvantovaja teorija polja i topologija, *Nauka*, Moscow, 1989. 400 pp.)
 
