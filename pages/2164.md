@@ -60,7 +60,7 @@ The construction of models for nonstandard analysis does, however, have a topos-
 
 ### Atomic object 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (Lawvere)
 
 In a [[cartesian closed category]] $C$ an [[object]] $D$ is called **infinitesimal** **atomic** if the [[hom-functor]]
@@ -73,7 +73,7 @@ In particular, since every [[left adjoint]] functor preserves colimits,
 such an object is in particular a [[tiny object]] and in particular a [[compact object]].
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark 
 **(intuitive interpretation)**
 
@@ -114,7 +114,7 @@ So only if $\Sigma$ qualifies as having infinitesimal extension can the functor 
 
 ### Formal infinitesimal space 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition **(formal infinitesimal space)**
 
 An object $\Delta$ in a [[smooth topos]] $(\mathcal{T}, R)$
@@ -160,7 +160,7 @@ by $f$ at the point $0 \hookrightarrow D \to \mathbb{R}$.
 
 Accordingly, for each $k \in \mathbb{N}$ 
 there is a "slightly bigger" infinitesimal interval often denoted $D_k$, which is such that restricting a smooth function $f : \mathbb{R} \to \mathbb{R}$
-along $D_k \to \mathbb{R}$ produces the order-$k$ jet represented by this 
+along $D_k \to \mathbb{R}$ produces the order-$k$ [[jet]] represented by this 
 function at the given point. 
 
 Still infinitesimal but bigger than all these is the object 
@@ -183,7 +183,7 @@ by a function that vanishes on the interval.
 
 Precisely: 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 The ([[generalized smooth algebra|generalized smooth]]) algebra of smooth 
@@ -226,7 +226,7 @@ _[[Models for Smooth Infinitesimal Analysis]]_, $D$ is the [[space]] [[duality|d
 to the [[generalized smooth algebra]] $C^\infty(\mathbb{R})/J^2$ obtained as the
 smooth functions on the real line modulo squares of functions that vanish at the origin.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (the $1$-dimensional infinitesimal space)
 
 In the context of [[generalized smooth algebra]], the $1$-dimensional infinitesimal
@@ -244,11 +244,8 @@ a smooth function $h \in C^\infty(\mathbb{R})$ such that for all $x \in \mathbb{
 we have $g(x) = g(0) + x g'(x) + x^2 h(x)$. So modulo $x^2$, every smooth function is in fact
 a polynomial function. 
 
-+--{.query}
-Zoran:  reason, if my memory is right, Leites in his around 1976 survey of supermanifolds proveds and puts important role of Hadamard's lemma in supercontext, but I do not recall details, maybe somebody shoudl check.
-=--
 
-See pages 19&20 of _[[Models for Smooth Infinitesimal Analysis|MSIA]]_.
+See pages 19-20 of _[[Models for Smooth Infinitesimal Analysis|MSIA]]_.
 
 In this dual generators-and-relations description, the infinitesimal interval is very familiar in many mathematically less sophisticated contexts. It prevails for instance
 in the basic physics textbook treatment since [[Isaac Newton]] up to this day. [[Sophus Lie]] is famously
@@ -269,10 +266,12 @@ Using the [[topos]]-[[internal logic]] we may speak of both $R$ and $D$ as
 if they were [[set]]s, where "element" means [[generalized element]]. This 
 way we have:
 
-+-- {: .un_defn}
-###### Definition (infinitesimal interval object)
++-- {: .num_example #FirstOrderInfinitesimalInterval}
+###### Example 
 
-Let $(\mathcal{T}, R)$ be a [[smooth topos]]. Then the **[[infinitesimal interval object]]**
+Let $(\mathcal{T}, R)$ be a [[smooth topos]]. Then the 
+first order 
+**[[infinitesimal interval object]]**
 $D$ is the [[subobject]] of $R$ of all those elements whose square is 0.
 
 $$
@@ -306,33 +305,38 @@ of $R$ with domain of definition $U$ : $\cdots = U \to 0 \to R$.
 This works analogously to how the $k$-[[cube]] is the $k$-fold [[cartesian product]]
 $D^k$ of the [[unit interval]] $[-1,1]$ with itself.
 
-+-- {: .un_defn}
-###### Definition
++-- {: .num_example}
+###### Example
 
-The infinitesimal $k$-cube $D^k$ is the $k$-fold cartesian product of the
-infinitesimal interval $D$ with itself.
+The $k$-fold [[cartesian product]] $D^k$ of the first-order infinitesimal interval $D$, example \ref{FirstOrderInfinitesimalInterval}, 
+with itself might be called the "infinitesimal $k$-cube". 
 
-This means that in terms of generalized elements we have
+By the discussion at [[smooth algebra]], we have
 
 $$
-  D^k = \{(x_1, \cdots, x_n) \in R^n | \forall j,k  : \;x_j \cdot x_k = 0 \}
+  C^\infty(D^k) \simeq C^\infty(D)^{\otimes^k} \simeq (\mathbb{R}[\epsilon]/(\epsilon^2))^{\otimes^k}
+  \,.
 $$
+
 =--
 
 
-### The $k$-dimensional infinitesimal interval
+### The $k$-dimensional infinitesimal disk
 
-+-- {: .un_defn}
-###### Definition
++-- {: .num_example}
+###### Example
 
-For $n\in \mathbb{N}$ the $k$-dimensional infinitesimal interval is
+For $n\in \mathbb{N}$ the $k$-dimensional infinitesimal disk is
 
 $$
-  D(n) := \{ (x_1,\cdots, c_k) \in R^k | \forall j,k : x_j \cdot x_k = 0 \}
+  D(k) 
+   \coloneqq 
+  \{ (x_1,\cdots, x_k) \in R^k | \forall j,k \colon x_j \cdot x_k = 0 \}
 $$
+
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Since in particular $x_j^2 = 0$ for all elements of the 
@@ -346,8 +350,8 @@ which is proper if $n \gt 1$. For $n = 1$ we have $D(1) = D$.
 
 While $D(n)$ is closed under multiplication by elements of $R$, it is
 not in general closed under addition of its elements. For instance for
-$d_1,d_2 \in D(1) = D$ we have that $d_1 + d_2$ (the operation being in $R$)
-is still in $D$ precisely if $(d_1,d_2)$ is in $D(2)$.
+$d_1,d_2 \in D(1) = D$ we have that $d_1 + d_2$ (the operation being in $R$) is still in $D$ precisely if $(d_1,d_2)$ is in $D(2)$.
+
 =--
 
 
@@ -388,7 +392,7 @@ Functions on spaces of infinitesimal $k$-simplices turn out to be degree $k$-dif
 
 #### Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 The algebra $C^\infty(\tilde D(k,n))$ is the 
@@ -408,7 +412,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 By multiplying out the latter set of relations and using the former, these relations are seen to be equivalent to the set of relations
@@ -433,7 +437,7 @@ A general element $f$ of this algebra we think of as a function on a certain inf
 
 Since $C^\infty(\tilde D(k,n))$ is a [[infinitesimally thickened point|Weil algebra]] in the sense of [[synthetic differential geometry]], its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] (as discussed there) and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 For $n = 2$ and $k = 2$ we have that $C^\infty(\tilde D(2,2))$ consists of elements of the form
@@ -502,7 +506,7 @@ $$
 for the corresponding [[determinant]], given as a product of generators in $C^\infty(\tilde D(k,n))$. Here the sum runs over all [[permutation]]s $\sigma$ of $\{1, \cdots, r\}$ and $sgn(\sigma) \in \{+1, -1\} \subset \mathbb{R}$ is the [[signature]] of the permutation $\sigma$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -560,7 +564,7 @@ $$
 where $e$ is the $r \times r$ subdetermined given by the subset $\{i_1, \cdots, i_r\}$ and $(\{j_1, \cdots, j_r\})$ as discussed above.
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In section 1.3 of
@@ -576,7 +580,7 @@ effectively this proposition appears as the "[[Kock-Lawvere axiom]] scheme for $
 Let $C^\infty(\tilde D(k,n))_{top}$ be the sub-[[vector space]] of the underlying vector space of $C^\infty(\tilde D(k,n))$ on those elements that vanish if the collection of generators $\epsilon_i = (\epsilon_i^1 , \epsilon_i^2, \cdots, \epsilon_i^n)$ is set to 0, for all $i$. This are those elements that are linear combinations of the form $\sum_{e_{top} \in E_{top}} det(e_{top}) f_{e_{top}}$, for $e_{top}$ ranging over the maximal square submatrices of $(\epsilon_i^j)$.
 
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 
@@ -612,7 +616,7 @@ Dually this is a [[smooth algebra|smooth]] [[cosimplicial algebra]]. Under the _
 This we now describe in detail. All the arguments involved are still (with slightly different parameterization, possibly) due to [[Anders Kock]], the only new thing here being the observation that the restriction to the joint kernel of the degeneracy maps exhibts the Dold-Kan map, and that this way using the simplicial picture everything acquires a nice [[nPOV]] interpretation as being about the [[schreiber:infinitesimal path ∞-groupoid]] of $\mathbb{R}^n$, regarded either as an infinitesimal [[Lie ∞-groupoid]] or as a [[∞-Lie algebroid]].
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Consider the [[simplicial object|simplicial]] [[smooth locus]]
@@ -751,7 +755,7 @@ $$
 the space of differential $k$-forms on $\mathbb{R}^n$.
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The normalized cochain complex of  the cosimplicial algebra $C^{\infty}((\mathbb{R}^n)^{(\Delta^n_{diff})})$ is [[isomorphism|isomorphic]] as a cochain complex to the [[de Rham complex]] of $\mathbb{R}^n$.
