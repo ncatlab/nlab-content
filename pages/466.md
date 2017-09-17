@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -214,15 +214,23 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 ## References
 
+The term _Yoneda lemma_ originated in an interview of [[Nobuo Yoneda]] by [[Samuel Eilenberg]] at Paris Gare du Nord:
+
+* Yoshiki Kinoshita, [posting to catlist in 1996](http://www.mta.ca/~cat-dist/catlist/1999/yoneda).
+
+In _[[Categories for the Working Mathematician]]_ MacLane writes that this happened in 1954.
+
+
+Reviews and expositions include
+
+* [[Saunders MacLane]], _The Yoneda Lemma_, Mathematica Japonicae 47: 156 (1998)
+
 * [[Tom Leinster]], _[[LeinsterYoneda.ps:file]]_
 
 A discussion of the Yoneda lemma from the point of view of [[universal algebra]] is in
 
 * [[Vaughan Pratt]], _The Yoneda lemma without category theory: algebra and applications_ ([pdf](http://boole.stanford.edu/pub/yon.pdf)).
 
-The term _Yoneda lemma_ originated in an interview of [[Nobuo Yoneda]] by [[Samuel Eilenberg]] at Paris Gare du Nord:
-
-* Yoshiki Kinoshita, [posting to catlist in 1996](http://www.mta.ca/~cat-dist/catlist/1999/yoneda).
 
 [[!redirects yoneda lemma]]
 [[!redirects Yoneda Lemma]]
