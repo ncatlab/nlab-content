@@ -26,7 +26,9 @@ and the other identities are obvious; thus $e$ is a split coequalizer of $f$ and
 
 ### Split epimorphisms
 
-Dually, if $e\colon B\to C$ is a [[split epimorphism]], with a splitting $s\colon C\to B$, say, then the [[kernel pair]] of $e$, if it exists, is a split coequalizer diagram.  For if $A \;\underoverset{f}{g}{\rightrightarrows}\; B$ is this kernel pair, then the two maps $s e, 1_B \colon B\to B$ satisfy $e \circ s e = e \circ 1_B$, and hence induce a map $t\colon B\to A$ such that $f t = 1_B$ and $g t = s e$.
+Dually, if $e\colon B\to C$ is a [[split epimorphism]], with a splitting $s\colon C\to B$, say, then $e$ is a split coequalizer of $B \;\underoverset{1}{s e}{\rightrightarrows}\; B$, the morphism $t$ being the identity.
+
+Moreover, $e$ is also the split coequalizer of its [[kernel pair]], if the latter exists.  For if $A \;\underoverset{f}{g}{\rightrightarrows}\; B$ is this kernel pair, then the two maps $s e, 1_B \colon B\to B$ satisfy $e \circ s e = e \circ 1_B$, and hence induce a map $t\colon B\to A$ such that $f t = 1_B$ and $g t = s e$.
 
 
 ## Examples
