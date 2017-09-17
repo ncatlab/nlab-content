@@ -123,7 +123,7 @@ is the set of [[section]]s of the [[bundle]] $2 \mathbb{N} \hookrightarrow \math
 
 ## References
 
-The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple]] with the existantial/universal quantifiers is due to
+The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple]] with the existential/universal quantifiers is due to
 
 * [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
