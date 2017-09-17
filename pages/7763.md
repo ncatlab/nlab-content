@@ -40,7 +40,10 @@ The notion was introduced in def. 2.12 of
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
-motivated by considerations in 
+motivated by considerations about abelian [[7d Chern-Simons theory]] in 
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#WittenI}
 
 * [[Edward Witten]], _On flux quantization in M-theory and the effective action_ ([arXiv:hep-th/9609122v2](http://arxiv.org/abs/hep-th/9609122v2))
 
