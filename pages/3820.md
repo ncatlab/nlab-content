@@ -82,15 +82,27 @@ $$
   \end{aligned}
 $$
 
-where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$, and where $EL(\phi)\delta\phi$ is a degree-$(1,dim X)$ and $\theta$ is a degree-$(1, dim X - 1)$ element in the [[variational bicomplex]] (one variational form degree and, respectively, $dim X$ or $(dim X - 1)$-spacetime form degrees). On a local [[coordinate]] patch $\{x^i\}$ for $X$ this is 
+where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$, and where $EL(\phi)\delta\phi$ is a degree-$(1,dim X)$ and $\theta$ is a degree-$(1, dim X - 1)$ element in the [[variational bicomplex]] (one variational form degree and, respectively, $dim X$ or $(dim X - 1)$-spacetime form degrees). 
+
++-- {: .num_remark #CanonicalThetaDensityInLocalCoordinates}
+###### Remark 
+
+
+On a local [[coordinate]] patch $\{x^i\}$ for $X$ the form $\theta$ here is given by
 
 $$
   \theta(\phi) 
     = 
-  (\iota_{\partial_i} \frac{\partial L}{\partial_i \phi^a} )
+  (\iota_{\partial_i} \frac{\delta L}{\delta  \phi^a_{,i}} )
+  \wedge
    \delta \phi^a
   \,.
 $$
+
+If $L = L_{kin} + L_{pot}$ is the sum of a standard [[kinetic Lagrangian]] for a [[free field theory]] and a potential term that only depends on the fields themselves and not on their derivatives,  then this is at the same time the canonical [[multisymplectic form]] for the given [[field bundle]]. See at _[[multisymplectic geometry]]_ the section _[Examples -- Free field theory](#CanonicalThetaDensityInLocalCoordinates)_ for more on this relation.
+
+=--
+
 
 The above definition of $EL$ and $\theta$ in terms of $\delta S$ yields the following identity upon taking another exterior variational derivative of both sides
 
