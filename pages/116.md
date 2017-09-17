@@ -6,11 +6,11 @@
 
 ## Definition ##
 
-A **group** is a [[monoid]] in which every element has an [[inverse]].
+A **group** is a [[monoid]] in which every element has an [[inverse]] (necessarily unique).
 
+An **[[abelian group]]** is a group in which moreover the order in which two elements are multiplies is irrelevant.
 
-
-##Delooping##
+## Delooping ##
 
 To some extent, a group "is" a [[groupoid]] with a single object, or more precisely a [[pointed object|pointed]] groupoid with a single object.
 
