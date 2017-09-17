@@ -1,0 +1,98 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A theorem in [[Galois cohomology]] due to [[David Hilbert]].
+
+## Statement
+
++-- {: .num_theorem} 
+###### Theorem 
+
+Suppose $K$ be a [[finite set|finite]] [[Galois extension]] of a [[field]] $k$, with a [[cyclic group|cyclic]] [[Galois group]] $G = \langle g \rangle$ of [[order]] $n$. Regard the [[multiplicative group]] $K^\ast$ as a $G$-[[module]]. Then the [[group cohomology]] of $G$ with [[coefficients]] in $K^\ast$ -- the [[Galois cohomology]] -- satisfies 
+
+$$
+  H^1(G, K^\ast) = 0
+  \,.
+$$ 
+
+=-- 
+
++-- {: .proof} 
+###### Proof 
+
+Let $\sigma \in \mathbb{Z}G$ be an element of the [[group algebra]], and denote the [[action]] of $\sigma$ on an [[element]] $\beta \in K$ by exponential notation $\beta^\sigma$. The action of the element $N \in \mathbb{Z}G$ is 
+
+$$\beta^N = \beta^{1 + g + \ldots + g^{n-1}} = \beta \cdot \beta^g \cdot \ldots \beta^{g^{n-1}}$$ 
+
+which is precisely the _[[norm]]_ $N(\beta)$. We are to show that if $N(\beta) = 1$, then there exists $\alpha \in K$ such that $\beta = \alpha/g(\alpha)$. 
+
+By lemma \ref{XYZ} below, the [[homomorphisms]] $1, g, \ldots, g^{n-1}: K^\ast \to K^\ast$ are, when considered as elements in a vector space of $K$-valued functions, $K$-[[linear independence|linearly independent]]. It follows in particular that 
+
+$$1 + \beta g + \beta^{1+g}g^2 + \ldots + \beta^{1 + g + \ldots + g^{n-2}}g^{n-1}$$ 
+
+is not identically zero, and therefore there exists $\theta \in K^\ast$ such that the element 
+
+$$\alpha = \theta + \beta \theta^g + \beta^{1+g}\theta^{g^2} + \ldots + \beta^{1 + g + \ldots + g^{n-2}}\theta^{g^{n-1}}$$ 
+
+is non-zero. Using the fact that $N(\beta) = 1$, one may easily calculate that $\beta \alpha^g = \alpha$, as was to be shown. 
+=-- 
+
+The next result may be thought of as establishing "independence of characters" (where "[[group character|characters]]" are valued in the [[multiplicative group]] of a field): 
+
++-- {: .num_lemma #XYZ} 
+###### Lemma 
+
+Let $K$ be a [[field]], let $G$ be a [[monoid]], and let $\chi_1, \ldots, \chi_n \colon G \to K^\ast$ be distinct monoid [[homomorphisms]]. Then the [[functions]] $\chi_i$, considered as functions valued in $K$, are $K$-[[linear independence|linearly independent]]. 
+
+=-- 
+
++-- {: .proof} 
+###### Proof 
+A single $\chi \colon G \to K^\ast$ obviously forms a [[linear independence|linearly independent]] set. Now suppose we have an [[equation]] 
+
+\[a_1 \chi_1 + \ldots + a_n \chi_n = 0\]
+
+where $a_i \in K$, and assume $n$ is as small as possible. In particular, no $a_i$ is [[equality|equal]] to $0$, and $n \geq 2$. Choose $g \in G$ such that $\chi_1(g) \neq \chi_2(g)$. Then for all $h \in G$ we have 
+
+$$a_1 \chi_1(g h) + \ldots + a_n \chi_n(g h) = 0$$ 
+
+so that 
+
+\[a_1 \chi_1(g) \chi_1 + \ldots + a_n \chi_n(g)\chi_n = 0.\] 
+
+Dividing equation 2 by $\chi_1(g)$ and subtracting from it equation 1, the first term cancels, and we are left with a shorter relation 
+
+$$(a_2\frac{\chi_2(g)}{\chi_1(g)} - a_2)\chi_2 + \ldots = 0$$ 
+
+which is a [[contradiction]]. 
+
+=-- 
+
+## Related concepts
+
+* [[Kummer theory]]
+
+## References
+
+(...)
+
+
+[[!redirects Hilbert Theorem 90]]
+[[!redirects Hilbert theorem 90]]
+
+[[!redirects Hilbert's theorem 90]]
+
