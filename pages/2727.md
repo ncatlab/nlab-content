@@ -53,10 +53,19 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 ## Related concepts
 
-* [[brakcket types]]
+* [[bracket types]]
 
 * [[proofs as programs]]
 
+
+## References
+
+The idea was originally developed in
+
+* [[Per Martin-Löf]], _Intuitionistic Type Theory_, Notes by Giovanni Sambin of a series of lectures given in Padua, June 1980. Bibliopolis, Napoli, 1984.
+
+
+* W. W. Tait. The completeness of intuitionistic first-order logic. Unpublished manuscript.
 
 [[!redirects propositions as types]]
 [[!redirects propositions as types in type theory]]
