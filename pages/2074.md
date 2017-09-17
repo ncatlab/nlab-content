@@ -1,10 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-***
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -42,6 +49,9 @@ Marked simplicial sets are [[simplicial set]]s with a little bit of extra [[stuf
 
 
 ### Definition 
+
+
+#### In components
 
 +-- {: .un_def }
 ###### Definition 
@@ -82,8 +92,87 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 
 =--
 
+#### As a quasi-topos
 
-### Cartesian closure
+Simple as the above definition is, for seeing some of its properties it is useful to think of $sSet^+$ in a more abstract way.
+
++-- {: .un_def }
+###### Definition 
+
+Let $\Delta^+$ be the [[category]] defined as the [[simplex category]] $\Delta$, but with one more object $[1^+]$ that factors the unique morphism $[1] \to [0]$ in $\Delta$ 
+
+$$
+  \array{
+    [0] &\stackrel{\to}{\to}& [1]
+    \\
+    {}^{\mathllap{=}}\downarrow &\swarrow& \downarrow^{\mathrlap{p}}
+    \\
+    [0] &\leftarrow& [1^+]  
+}
+  \,.
+$$
+
+Equip this category with a [[coverage]] whose only non-trivial covering family is  $\{p : [1] \to [1]^+\}$.
+
+=--
+
++-- {: .un_lemma #Quasitopos}
+###### Observation
+
+The category $sSet^+$ is the [[quasi-topos]] of [[separated presheaves]] on $\Delta^+$:
+
+$$
+  sSet^+ \simeq SepPSh(\Delta^+)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A [[presheaf]] $X : (\Delta^+)^{op} \to Set$ is separated precisely if the morphism
+
+$$
+  X(p) : X_{1^+} \to X_1
+$$
+
+is a [[monomorphism]], hence if $X_{1^+}$ is a subset of $X_1$. By functoriality this subset contains all the degenerate 1-cells
+
+$$
+  \array{
+      X_0
+      \\
+      \downarrow & \searrow^{\mathrlap{\sigma}}
+      \\
+      X_{1^+} &\hookrightarrow& X_1
+  }
+  \,.
+$$
+
+Therefore we may naturally identify $X$ as a simplicial set equipped with a subset of $X_1$ that contains all degenerate 1-cells.
+
+Moreover, a morphism of separated preseheaves on $\Delta^+$ is by definition just a [[natural transformation]] between them, which means it is under this interpretation precisely a morphism of simplicial sets that respects the marked 1-simplices.
+
+=--
+
+Notice that $sSet^+$ is a genuine quasi-topos:
+
++-- {: .un_lemma}
+###### Observation
+
+$sSet^+$ is not a [[topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The canonical morphisms $X^\flat \to X^#$ are [[monomorphism]]s and [[epimorphism]]s, but not [[isomorphism]]s. Therefore $sSet^+$ is not a [[balanced category]], hence cannot be a topos.
+
+=--
+
+### Cartesian closure {#CartesianClosure}
 
 +-- {: .un_lemma }
 ###### Lemma
@@ -96,27 +185,7 @@ The category $sSet^+$ is a [[cartesian closed category]].
 +-- {: .proof}
 ###### Proof
 
-We may think of marked simplicial sets as a [[presheaf]] category on a slight enhancement of the [[simplex category]] $\Delta$: let $\Delta^+$ be the category defined as $\Delta$, but with one more object $[1^+]$, with morphisms between $[0]$ and $[1]$ of the form
-
-$$
-  \array{
-    [0] &\stackrel{\to}{\to}& [1]
-    \\
-    \downarrow^= && \downarrow^{\mathrlap{p}}
-    \\
-    [0] &\leftarrow& [1^+]  
-}
-$$
-
-compatible with the remaining morphisms in the evident way. Then for an object $X \in PSh(\Delta^+)$ for which the morphism $X_{1^+} \to X_1$ is an injection, we may think of $X_{1^+}$ as the marked edges. Since the degeneracy map $[0]\leftarrow [1]$ factors through $[1^+]$, the marked edges contain all the degenerate edges then, as desired. A morphism of such presheaves is then a morphism of simplicial sets preserving the marked edges, hence a morphism in $sSet^+$. So we find $sSet^+$ as the full [[subcategory]]
-
-$$
-  sSet^+ \hookrightarrow PSh(\Delta^+)
-$$
-
-on those objects $X$ for which $X_{1^+} \to X_1$ is an injection.
-
-The presheaf represented by $[1]$ is $\Delta[1]^\flat$ with only the degenerate edges marked, whereas the presheaf represented by $[1^+]$ is $\Delta[1]^#$, with also the non-degenerate edge marked.
+This is an immediate consequence of the above [observation](#Quasitopos) that $sSet^+$ is a [[quasitopos]]. But it is useful to spell out the Cartesian closure in detail.
 
 By the general logic of the [[closed monoidal structure on presheaves]] we have that $PSh(\Delta^+)$ is cartesian closed. It remains to check that if $X,Y \in PSh(\Delta^+)$ are marked simplicial sets in that $X_{1^+} \to X_1$ is a monomorphism and similarly for $Y$, that then also $Y^X$ has this property.
 
@@ -248,8 +317,11 @@ Similarly, the $n$-cells of $Map_S^#(X,Y^\sharp)$ are morphisms $X \times \Delta
 ###### Proposition
 
 
-There are functors 
+We have a sequence of [[adjoint functor]]s
+
 $$
+  (-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}
+  :
   \array{ 
     & \stackrel{(-)^{\flat}}{\to} & 
     \\ 
@@ -261,7 +333,6 @@ $$
   }
 $$
  
-with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
 
 
 =--
