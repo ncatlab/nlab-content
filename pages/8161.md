@@ -16,14 +16,18 @@
 
 ## Idea
 
-Generally, in a [[category]] $\mathcal{C}$ a _filtered object_ is an [[object]] $X$ equipped with a _filtration_: a sequence of [[monomorphisms]]
+Generally, in a [[category]] $\mathcal{C}$,  one of the more usual forms of a _filtered object_ encountered is an [[object]] $X$ equipped with a _filtration_: a sequence of [[monomorphisms]]
 
 $$
-  \emptyset \hookrightarrow \cdots \hookrightarrow X_{(2)}  
+   \cdots \hookrightarrow X_{(n)}\hookrightarrow \cdots \hookrightarrow X_{(2)}  
   \hookrightarrow X_{(1)}
   \hookrightarrow X_{(0)} =: X
   \,.
 $$
+
+There are variants in which the sequence may be infinite 'to the right'  or may be bounded or stationary in some way to the left. In situations where quotients make sense, extra conditions on the quotients $X_{(n)}/X_{(n+1)}$, are often imposed; see [[associated graded object]]. 
+
+In more generality, it is also possible to index using any [[ordered group|ordered abelian group]].
 
 ## Examples
 
