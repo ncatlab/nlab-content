@@ -11,9 +11,38 @@ Rough idea: The [[Wightman axioms]] describe how the algebra of observables of a
 
 In this sense the Osterwalder--Schrader theorem states and proves conditions that assure that the Wick rotation is a well defined isomorphism of quantum field theories on Minkowski and on Euclidean spacetime.
 
-## Precise Statement of the Theorem
-...will go here.
+## axioms of euclidean field theory
+The axioms of euclidean field theory are the euclidean analogue of the [[Wightman axioms]] on Minkowski spacetime.
+The axioms may be formulated for tempered distributions, but we follow the lines of Glimm and Jaffe and define them for $\mathcal{D}'(\mathbb{R}^d)$, the space of distributions that is dual to the space of all smooth functions with compact support, $mathcal{D}(\mathbb{R}^d)$.
+We define the generating functional on $mathcal{D}(\mathbb{R}^d)$
+$$
+S(f) := \integral e^{i \phi(f)} d\mu
+$$
+as the inverse Fourier transform of a Borel probability measure $d\mu$ on $mathcal{D}'(\mathbb{R}^d)$.
 
+* **OS0 (analyticity)**: For every finite set of test functions $f_1, f_2,...f_n$ and complex numbers $z:= (z_1, z_2, ...z_n)$ the function
+$$
+        z \mapsto S(\sum_{k=1}^n z_k f_k)
+$$
+is entire analytic on $\mathbb{C}^n$
+
+* **OS1 (regularity)**: For some p with $1 \le p \le 2$ and some constant c the following inequality holds for all test functions f:
+$$
+     | S(f) | \le exp(c \| f \|_{L_1} + \| f\|^p_{L_p})
+$$ 
+
+* **OS2 (invariance)**
+
+* **OS2 (reflection positivity)**
+
+* **OS2 (ergodicity)**
+
+## the theorem
+
+## references
+The main reference is the classic textbook about constructive quantum field theory:
+
+* Glimm, James; Jaffe, Arthur: "Quantum physics. A functional integral point of view." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0461.46051&format=complete))
 
 [[!redirects Osterwalder-Schrader theorem]]
 [[!redirects Osterwalder–Schrader theorem]]
