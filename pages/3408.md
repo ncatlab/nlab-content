@@ -8,6 +8,8 @@ In [[constructive mathematics]], we do not use the entire power set but instead 
 
 +--{: .query} [[Tim Porter]] Can I suggest you ask this on the forum?  It is much more likely to get attention there than here. It would also be good to know who you are!!! 
 
++--{: .query} [[G. Rodrigues]] Will do that. The lack of a name was a combination of inexperience and distraction.
+
 =--
 
 category: category
