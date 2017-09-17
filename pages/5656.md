@@ -25,7 +25,7 @@ This is to distinguish from more general notions of [[cohomology]], such as [[ge
 
 Ordinary cohomology is modeled by [[singular cohomology]].
 
-### Chromatic filtration
+### Chromatic level
 
 [[!include chromatic tower examples - table]]
 
@@ -38,3 +38,6 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 * [[twisted ordinary cohomology]]
 
 * [[affine modality]]
+
+* [[comparison theorem (étale cohomology)]]
+
