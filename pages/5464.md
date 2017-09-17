@@ -1,6 +1,3 @@
-\theoremstyle{plain}
- \newtheorem{fact}{Fact}
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +13,7 @@
 
 * [[Tom Leinster]], _An informal introduction to topos theory_ ([arXiv:1012.5647](http://arxiv.org/abs/1012.5647))
 
-#An informal introduction to topos theory#
+# An informal introduction to topos theory
 * table of contents
 {:toc}
 
@@ -162,7 +159,8 @@ This property of sets can now be stated in purely categorical terms.  We use
 $\hookrightarrow$ to indicate a mono ($=$ [[monomorphism]] $=$ monic).  
 
 +-- {: .num_definition}
- ###### Definition
+###### Definition
+
 Let $\mathcal{E}$ be a category with a terminal object, $1$.  A _subobject
 classifier_ in $\mathcal{E}$ is an object $\Omega$ together with a map $t\colon 1 \to
 \Omega$ such that for every mono $A \stackrel{\hookrightarrow}{m} X$ in $\mathcal{E}$, there exists a
@@ -185,7 +183,8 @@ $m$).
 To understand this further, we need two lemmas.
 
 +-- {: .num_lemma #lemma:pb-mono}
- ###### Lemma
+###### Lemma
+
 In any category, the pullback of a mono is a mono.  That is, if
 $$
   \array{
