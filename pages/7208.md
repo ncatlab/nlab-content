@@ -61,12 +61,12 @@ The fact that every simply laced hyperbolic Kac-Moody algebra appears as a subal
 
 * Sankaran Viswanath, _Embeddings of hyperbolic Kac-Moody algebras into $E_{10}$_ ([pdf](http://math.iisc.ernet.in/~svis/ehk.pdf))
 
-### Affine case
+### Affine Lie algebras
 
-Affine Kac-Moody algebras are discussed in 
+As far as applications this is the most important class. 
+See $n$Lab entry [[affine Lie algebra]] and 
 
 * David Hernandez, _An introduction to affine Kac-Moody algebras_ ([pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf))
-
 
 ### In supergravity
 
