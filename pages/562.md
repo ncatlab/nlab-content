@@ -200,6 +200,12 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 [[Sridhar Ramesh]]: Ah, of course, that's what I was missing. Thanks, both of you; that clears it all up.
 =--
 
+## Related concepts
+
+* **Grothendieck fibration**, [[two-sided fibration]]
+
+* [[Cartesian fibration]]
+
 ## References 
 
 * Part B of [[Sketches of an Elephant]] (by [[Peter Johnstone]]) contains a lot of basic information and some good intuition, although he uses the non-standard words "prone" and "supine" where most people say "cartesian" and "opcartesian" morphism.
