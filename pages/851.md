@@ -271,7 +271,8 @@ $$
 
 This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
 
-### Colimits in a slice
+### Limits and Colimits in a slice
+ {#LimitsAndColimits}
 
 The forgetful functor $\mathcal{C}_{/X} \to \mathcal{C}$ out of a slice ([[dependent sum]]) [[reflected limit|reflects]] [[(∞,1)-colimits]]:
 
@@ -283,6 +284,17 @@ Let $f \colon K \to \mathcal{C}_{/X}$ be a [[diagram]] in the slice of an [[(∞
 =--
 
 This appears as ([Lurie, prop. 1.2.13.8](#Lurie)).
+
+On the other hand [[(∞,1)-limits]] in the slice are computed as limits over the diagram with the slice-cocone adjoined:
+
++-- {: .num_prop }
+###### Proposition
+
+For $\mathcal{C}$ an [[(∞,1)-category]], $X \;\colon\; \mathcal{D} \longrightarrow \mathcal{C}$ a [[diagram]], $\mathcal{C}_{/X}$ the [[comma category]] (the over-$\infty$-category if $\mathcal{D}$ is the point) and $F \;\colon\; K \to \mathcal{C}_{/X}$ a [[diagram]] in the [[comma category]], then the [[(∞,1)-limit]] $\underset{\leftarrow}{\lim} F$ in $\mathcal{C}_{/X}$ coincides with the limit $\underset{\leftarrow}{\lim} F/X$ in $\mathcal{C}$. 
+ 
+=--
+
+For a proof see at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOvercategories)_.
 
 
 ## Related concepts
@@ -327,6 +339,9 @@ Section 1.2.9 of
 [[!redirects over-(∞,1)-category]]
 [[!redirects over-(infinity,1)-category]]
 
+[[!redirects slice infinity-category]]
+[[!redirects slice infinity-categories]]
+
 [[!redirects over-(∞,1)-categories]]
 [[!redirects over-(infinity,1)-categories]]
 
@@ -353,4 +368,3 @@ Section 1.2.9 of
 [[!redirects slice (∞,1)-categories]]
 [[!redirects slice (infinity,1)-category]]
 [[!redirects slice (infinity,1)-categories]]
-
