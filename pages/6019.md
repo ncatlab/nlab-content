@@ -37,6 +37,8 @@ For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]])
   * [[background gauge field]]
 
   * [[genus]]
+
+* [[world sheets for world sheets]]
   
 [[!redirects worldline]]
 
