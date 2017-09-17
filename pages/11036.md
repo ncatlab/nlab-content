@@ -31,7 +31,11 @@ With [[linear logic]]/[[linear type theory]] interpreted as [[quantum logic]]/[[
 
 We begin by describing proof nets for multiplicative linear logic (MLL), which is interpretable in $\ast$-[[star-autonomous category|autonomous]] categories. Similar proof nets may be given for other forms of [[linear type theory]] such as multiplicative intuitionistic linear logic, which is interpretable in [[symmetric monoidal category|symmetric]] [[closed monoidal categories]]. 
 
-[[formula|Formulas]] in MLL are built from an alphabet $T$ of propositional variables and two constants $\top$, $\bot$ by applying operations $\otimes$ and $\multimap$. The construction of a formula may be displayed as a binary planar tree. 
+### Proof structures 
+
+Before describing proof nets, we start with Girard's notion of _proof structure_. It is simplest to describe the cut-free version, as this is closely connected with the notion of [[Kelly-Mac Lane graph]], or KM-graph for short. We need just a few preliminaries. 
+
+[[formula|Formulas]] in MLL may be built from an alphabet $\mathbf{T}$ of propositional variables and two constants $\mathbf{1}$, $\bot$ by applying operations $\otimes$ and $\multimap$. The construction of a formula may be displayed as a binary planar tree. 
 
 We consider two-sided sequents $\Gamma = A_1, \ldots, A_m \vdash \Delta = B_1, \ldots, B_n$, wherein the formulas of $\Gamma$ to the left of the turnstyle are called _negative_ and the formulas of $\Delta$ are called _positive_. Subformulas of these formulas acquire signs according to the following rules: 
 
@@ -43,26 +47,40 @@ We indicate the sign of a subformula using a superscript, e.g., $S^+$.
 
 +-- {: .num_defn} 
 ###### Definition 
-A (cut-free) _proof structure_ of type $\Gamma \to \Delta$ is a directed graph whose vertices are subformulas and whose edges are either 
+A (cut-free) _proof structure_ of type $\Gamma \to \Delta$ (in the language of MLL) is a directed graph whose vertices are subformulas of the formulas of $\Gamma, \Delta$, and whose edges are either 
 
-* "KM-links" (Kelly-Mac Lane links) which are of the form $t^- \to t^+$ between two subformula occurrences of the same variable $t \in T$ but with opposite sign (always oriented from a negative occurrence to a positive occurrence); 
+* "KM-links" (Kelly-Mac Lane links) which are of the form $t^- \to t^+$ between two subformula occurrences of the same variable $t \in \mathbf{T}$ but with opposite sign (always oriented from a negative occurrence to a positive occurrence); 
 
 * Edges in binary construction trees of the formulas $A_i, B_j$, oriented according to the following rules: 
 
 $$\array{
- & & (S \otimes T)^- & & \qquad S^+ & & & & T^+ \\ 
- & \swarrow & & \searrow & \qquad & \searrow & & \swarrow & \\ 
-S^- & & & & T^- \qquad & & (S \otimes T)^+
+ & & (S \otimes T)^- & & \qquad S^+ & & & & T^+ \qquad & & (S \multimap T)^- & & \qquad S^- & & & & T^+ \\ 
+ & \swarrow & & \searrow & \qquad & \searrow & & \swarrow & \qquad  & \nearrow & & \searrow & \qquad & \nwarrow & & \swarrow & \\ 
+S^- & & & & T^- \qquad & & (S \otimes T)^+ \qquad S^+ & & & & T^- \qquad & & (S \multimap T)^+
 }$$ 
-
-$$\array{
- & & (S \multimap T)^- & & \qquad S^- & & & & T^+ \\ 
- & \nearrow & & \searrow & \qquad & \nwarrow & & \swarrow & \\ 
-S^+ & & & & T^- \qquad & & (S \multimap T)^+
-}$$
 =-- 
 
-(To be continued) 
+For a proof structure of type $\Gamma \to \Delta$, it is clear that the only information not determined from $\Gamma$ and $\Delta$ are the KM-links. These KM-links give a KM-graph. 
+
+MLL formulas $A$ and proof structures of type $A \to B$ form a category $Struct[\mathbf{T}]$. Composition of proof structures is given by composing the underlying KM-graphs; identity proof structures are given by identity KM-graphs. 
+
+In fact this category of proof structures is a $\ast$-autonomous category. As objects are MLL formulas, it is clear how $\otimes$ and $\multimap$ are defined on objects. (To be continued.) 
+
+### Proof nets 
+
+Proof nets are those proof structures that arise by taking the KM-graphs of morphisms that are definable in the language of $\ast$-autonomous categories. 
+
+More exactly, let $F[\mathbf{T}]$ be the free $\ast$-autonomous category on $\mathbf{T}$ (as discrete category), viewing $\ast$-autonomous categories and functors that preserve $\ast$-autonomous category _strictly_ as a 1-category that is 1-monadic over $Cat$, the category of small categories and functors. Observe that the objects of $F[\mathbf{T}]$ may be identified with MLL formulas. We view the morphisms of $F[\mathbf{T}]$ as representing morphisms that are definable (starting with the datum $\mathbf{T}$). 
+
+As $Struct[\mathbf{T}]$ is $\ast$-autonomous, the obvious inclusion $\mathbf{T} \hookrightarrow Struct[\mathbf{T}]$ induces a unique strict $\ast$-autonomous functor $S: F[\mathbf{T}] \to Struct[\mathbf{T}]$. 
+
++-- {: .num_defn} 
+###### Definition 
+A **proof net** (in the language of MLL) of type $A \to B$ is a proof structure $\pi$ of that type that is of the form $S(f)$, for some arrow $f: A \to B$ in $F[\mathbf{T}]$. 
+=-- 
+
+(To be continued.) 
+
 
 ## References
 
