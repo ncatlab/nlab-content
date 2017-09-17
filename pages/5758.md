@@ -83,6 +83,12 @@ A general account is around section 11.2.5 of
 * [[Benoit Fresse]], _Modules over operads and functors_ Springer Lecture Notes in Mathematics, (2009) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.159.5833&rep=rep1&type=pdf))
 {#Fresse}
 
+and in section 3 of
+
+* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+{#Hinich}
+
+
 The [[homotopy category]] and [[triangulated category]] of dg-modules is discussed for instance also in
 
 * Joseph Bernstein, _DG-modules and equivariant cohomology_ ([pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/luntz_ESF/4-dg-modules-and-equivariant-cohomology.pdf)).
