@@ -676,4 +676,6 @@ We may now define the Schur functor $S_\nu$ on $C$ attached to a Young tableau $
 
 =--
 
-[[!redirects Schur functors]]^^
+
+[[!redirects Schur functor]]
+[[!redirects Schur functors]]
