@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/David_Hilbert)
+
+category: people
