@@ -6,7 +6,7 @@ A **monoidal fibration** is a functor $\Phi\colon E\to B$ such that
 * $E$ and $B$ are [[monoidal categories]] and $\Phi$ is a strict [[monoidal functor]], and
 * the tensor product of $E$ preserves [[cartesian arrows]].
 
-If $B$ is [[cartesian monoidal category|cartesian monoidal]], then monoidal fibrations over $B$ are equivalent to [[pseudofunctors]] $B^{op} \to MonCat$.
+If $B$ is [[cartesian monoidal category|cartesian monoidal]], then monoidal fibrations over $B$ are equivalent to [[pseudofunctors]] $B^{op} \to MonCat$, which are called [[indexed monoidal categories]].
 
 ## References
 
