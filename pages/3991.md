@@ -1,5 +1,3 @@
-
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -54,4 +52,26 @@ There are several reasons though why one might prefer to retain some bias, for e
 
 * Differences in logical strength. That is, first-order logic should be thought of as coming in layers, ranging from equational logic up to [[pretopos]] logic, and different signatures may need differing levels of logical strength for them to be interpreted as intended. Equational logic may be preferred on occasion because it is a very weak logic, whereas relational signatures often require at least the strength of regular categories for them to be interpreted correctly. 
 
-[[!redirects signature]]
+## The language of a signature
+
+Each signature $\Sigma$ generates a language whose elements are predicates formed by using $\Sigma$ as alphabet. In traditional logical syntax, this runs as follows: (to be filled in). 
+
+This can be recast in categorical terms as follows: the operational part of a signature $\Sigma$ is a span 
+
+$$S^* \leftarrow Func_\Sigma \to S$$ 
+
+which generates a multisorted Lawvere theory, $Law(Func_\Sigma)$. 
+
+Define 
+
+$$i: S^* \to Set: \vec{s} \mapsto \{R \in Rel(\Sigma): ar(R) = \vec{s}\}$$ 
+
+where $S^*$ is treated as a discrete category. Define an **interpretation** of $\Sigma$ to be an ordered pair 
+
+$$(M: Law(Func_\Sigma)^{op} \to Bool, \rho: i \to U M j)$$ 
+
+where $U: Bool \to Set$ is the underlying-set functor, $j: S^* \to Law(Func_\Sigma)^{op}$ is the obvious inclusion functor, $M$ is a functor whose values $M(f)$ on morphisms have left adjoints $\exists_f$ such that the Beck-Chevalley conditions are satisfied, and $\rho$ is a natural transformation. A **morphism** of interpretations $(M, \rho) \to (M', \rho')$ is a natural transformation $\phi: M \to M'$ commuting with the left adjoints, such that $\rho' = (U(\phi)j) \circ \rho$. 
+
+The **language** of $\Sigma$ is the initial interpretation. 
+
+(To be expanded upon and cleaned up...)
