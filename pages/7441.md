@@ -3,7 +3,7 @@
 
 ## In a 1-category
 
-* [[Bishop set]]
+* [[Bishop set]], [[setoid]]
 
 * [[internal category]], [[internal groupoid]]
 
@@ -40,6 +40,11 @@
 
 * [[model structure for complete Segal spaces]]
 
+## Internal $n$-category
+
+* [[n-category object in an (∞,1)-category]]
+
+* [[Theta_n space]]
 
 ## Operadic case
 
