@@ -303,10 +303,10 @@ Write $\mathcal{M}_{cub}$ for the [[moduli stack]] of such [[cubic curves]]. The
 
 $$
   \mathcal{M}_{ell} \hookrightarrow \mathcal{M}_{cub} 
-  \hookrightarrow \mathcal{M}_{FG}.
+  \longrightarrow \mathcal{M}_{FG}.
 $$
 
-See at _[[elliptic curve]]_for details. (A textbook account is in [Silverman 09, III](#Silverman09), a review with an  eye towards [[tmf]] is in [Mathew, section 3](#Mathew)).
+See at _[[elliptic curve]]_ for details. (A textbook account is in [Silverman 09, III](#Silverman09), a review with an  eye towards [[tmf]] is in [Mathew, section 3](#Mathew)).
 
 Two standard versions of [[Hopf algebroids]] representing $\mathcal{M}_{\overline{ell}}$ as a [[geometric stack]] are usefully reviewed in ([Mathew, section 4](#Mathew)).
 
