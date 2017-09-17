@@ -26,15 +26,15 @@ On [[quantum mechanics]]:
 
 ## Geometry and symmetries in classical and QM, but not much QFT 
 
-* Peter Olver, *Equivalence, invariants, and symmetry*, Cambridge University Press, Cambridge, UK, 1995.  
+* Peter Olver, *Equivalence, invariants, and symmetry*, Cambridge Univ. Press 1995.  
 
-* Sternberg, Shlomo (1994), *Group theory and physics*, Cambridge University Press. 
+* Shlomo Sternberg, *Group theory and physics*, Cambridge University Press 1994. 
 
 * V. I. Arnold, *Mathematical methods of classical mechanics*, Springer (1989).
 
 * V. Guillemin, S. Sternberg, *Symplectic techniques in physics*, Cambridge University Press (1990)
 
-* Theodore Frankel, _The geometry of physics_
+* Theodore Frankel, _The geometry of physics_, Cambridge Univ. Press
 
 * N. P. Landsman, _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp.
 
@@ -68,7 +68,7 @@ while the classic reference for this is:
 
 * Eric Poisson, _A relativist's toolkit. The mathematics of black-hole mechanics._ ([http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete)) (computationally oriented)
 
-See also the above book by Ward and Wells; and mainstream theoretical physics gravity textbooks by Misner, Thorne, and Wheeler; Schutz; Landau-Lifschitz vol. 2; Wald; [[Chandrasekhar]] etc. For the [[supergravity]] see the appropriate chapters in the above listed collection by Deligne et al. or the references listed at [[supergravity]]. 
+See also the above book by Ward and Wells; and mainstream theoretical physics gravity textbooks by Misner, Thorne and Wheeler; Schutz; Landau-Lifschitz vol. 2; Wald; [[Chandrasekhar]] etc. For the [[supergravity]] see the appropriate chapters in the above listed collection by Deligne et al. or the references listed at [[supergravity]]. 
 
 ## Integrable systems and solitons
 
@@ -148,7 +148,7 @@ The related subject of positive energy representations for loop groups is repres
 
 * N. N. Bogoliubov, A. A. Logunov, I. T. Todorov, *Introduction to axiomatic quantum field theory*, 1975
 
-* R. Haag, _Local quantum physics: fields, particles, algebras_, Springer 
+* R. Haag, _Local quantum physics: fields, particles, algebras_, Springer 1992 [MR94d:81001](http://www.ams.org/mathscinet-getitem?mr=94d:81001), 1996 [MR98b:81001](http://www.ams.org/mathscinet-getitem?mr=98b:81001)
 
 * Huzihiro Araki: _Mathematical theory of quantum fields._ Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
 
