@@ -28,7 +28,7 @@ In [[general relativity]], every chart of the [[atlas]] of the given spacetime r
 
 Let $(X,\mu)$ be a [[spacetime]]. Let $\phi: V \subset X \to \mathbb{R}^4$ be a chart of $X$ such that there is an open, simply connected subset $U \subset \V$ with vanishing [[stress-energy tensor]] $T$ in $U$.
 
-Assume that there are two points $a, b \in U$ such that the curvature vanishes in a neighborhood of $a$ and does not vanish near $b$. This means in terms of the [[differential geometry]] describing the situation that the [[pseudo-Riemannian metric]] $\mu$ on $X$ is [[Ricci flat]] when restricted to $U$ and flat when restricted to a neighborhood of $a$. 
+Assume that there are two points $a, b \in U$ such that the curvature vanishes in a neighborhood of $a$ and does not vanish near $b$. This means in terms of the [[differential geometry]] describing the situation that the [[pseudo-Riemannian metric]] $\mu$ on $X$ is [[Ricci-flat metric|Ricci flat]] when restricted to $U$ and flat when restricted to a neighborhood of $a$. 
 
 Given these assumptions, there is a [[diffeomorphism]] $\psi: X \stackrel{\simeq}{\to} X$ (an [[isomorphism]] in [[Diff]]) reducing to the identity outside of $U$, with $\psi(a) = b$. Let $\mu' = \psi^*(\mu)$ be the pullback of $\mu$ along $\psi$. Since the field equations of [[general relativity]] are covariant (respect [[isomorphism]]s in the category of [[pseudo-Riemannian manifold]]s), both $\mu$ and $\mu'$ are solutions to the field equations. So one observer will say that there is no gravitation at the spacetime point $a$, while another will say there is.
 
