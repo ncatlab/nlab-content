@@ -1,7 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
 * table of contents
 {:toc}
 
-# Idea
+## Idea
 
 A **structural set theory** is a [[set theory]] which describes structural mathematics.  As conceived by the structuralist, mathematics is the study of structures whose form is independent of the particular attributes of the things that make them up.  For instance, in [[ZF]] set theory, "the set of natural numbers" can be defined as the von Neumann naturals $\omega_N = \{ \emptyset, \{\emptyset\}, \{\emptyset, \{\emptyset\}\}, \dots \}$ or alternately as the Zermelo naturals $\omega_Z = \{ \emptyset, \{\emptyset\}, \{\{\emptyset\}\}, \dots \}$, but either definition has all the necessary properties (namely, the properties making it a [[natural numbers object]] in [[Set|the category of sets]], when equipped with an appropriate successor operation).  The structuralist says, essentially, that the number "$3$" should denote "the third place in a natural numbers object" rather than some particular set such as $\{\emptyset, \{\emptyset\}, \{\emptyset, \{\emptyset\}\}\}$ as it does in any definition of "the set of natural numbers" in ZF.
 
@@ -12,11 +25,11 @@ Thus, somewhat paradoxically, it turns out that one of the primary attributes of
 Among category theorists, it's popular to state the axioms of a structural set theory by specifying elementary properties of [[Set|the category of sets]]; the orthodoxy here (to the extent that there is one) is probably [[Bill Lawvere]]'s [[ETCS]].  It is weaker than ZFC and must be supplemented with an [[axiom of collection]] to handle some esoteric parts of modern mathematics, although it suffices for most everyday uses.  Another structural set theory, which is stronger than ETCS (since it includes the axiom of collection by default) and also less closely tied to category theory, is [[SEAR]].
 
 
-# Semiformal Definition
+## Semiformal Definition
 
 The following is an attempted formal definition of when a set theory is structural.  It should be regarded as extremely tentative.
 
-## Notions of set
+### Notions of set
 
 First of all, in order to give a definition pertaining to all set theories, we need to know: what is a set theory?  Probably no theory can *intrinsically* be called a set theory; it is only given that distinction by our intent to regard some of its objects of study as "sets" and others as their "elements."  Thus we make the following definition.
 
@@ -52,7 +65,7 @@ We have split the notions of sethood and elementhood into both a type and a pred
 
    * If ETCS is stated with dependent types (a type $hom(A,B)$ for every pair of objects $A$ and $B$), then the type of potential sets is the type of objects, the sethood predicate is $\top$, the type of potential elements of $A$ is $hom(1,A)$, and the elementhood predicate is $\top$.
 
-## Structural Presentation
+### Structural Presentation
 
 Now we make the following definition.
 
@@ -100,7 +113,7 @@ It is, however, easy to modify the two- or one-sorted version of ETCS to make it
 It would be nice to have a definition according to which any "presentation" of ETCS would be structural; intuitively, a theory should be structural if it is "equivalent" in some sense to a structurally presented one.  However, I haven't yet been able to come up with a notion of "equivalence" which includes the above modifications of ETCS, yet excludes the equivalence between ETCS and BZC (or ZFC and ETCS+R / SEARC).
 
 
-## Consequences of structural presentation
+### Consequences of structural presentation
 
 From our definition of structural presentation we can deduce some of the other standard properties of structural set theories.  The first is that "elements of different sets cannot be compared for equality."
 
@@ -128,7 +141,7 @@ Note that the assumption about equality is quite reasonable if we want to interp
 
 
 
-# Discussions
+## Discussions
 
 This discussion originally took place at [[SEAR]], but it is more appropriate here.
 
