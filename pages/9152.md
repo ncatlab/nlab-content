@@ -1,0 +1,11 @@
+
+## Related concepts
+
+* [[coordinates]]
+
+## References
+
+* Wikipedia, _[Polar coordinate system](http://en.wikipedia.org/wiki/Polar_coordinate_system)_
+
+[[!redirects polar coordinate system]]
+[[!redirects polar coordinate systems]]
