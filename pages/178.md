@@ -1441,7 +1441,7 @@ $$
   \,.
 $$
 
-From the description of the resolution for $\mathbf{\flat}\mathbf{B E}G$ in [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we have that in such a morphism the label $g_1$, $g_2$ and $f$ are related by
+From the description of the [[resolution]] for $\mathbf{\flat}\mathbf{B E}G$ in [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we have that in such a morphism the label $g_1$, $g_2$ and $f$ are related by
 
 $$
   g_2 = f g_1
@@ -2412,7 +2412,7 @@ Above we have defined for every [[L-∞-algebra]] $\mathfrak{g}$ a tower of $\in
 
 Recall that in the above examples we saw for $G$ a Lie $\infty$-group that the underlying discrete Lie $\infty$-groupoid $\mathbf{\flat} \mathbf{B}G$ is resolved by the presheaf $G TrivBund_{flat}$ of trivial $G$-principal $\infty$-bundles with flat connection. From this resolution the de Rham object $\mathbf{\flat}_{dR} \mathbf{B}G$ is obtained as an ordinary pullback of presheaves. These statements we now produce in the full generality of an $\infty$-Lie group obtained from the integration of an $L_\infty$-algebra.
 
-First we produce a resolution of the underlying bare $\infty$-groupoid
+First we produce a [[resolution]] of the underlying bare $\infty$-groupoid
 
 $$
   \mathbf{\flat}\exp(\mathfrak{g}) : (U,[n]) \mapsto 
