@@ -15,14 +15,14 @@
 
 ## Idea
 
-A __pseudonatural transformation__ is a [[lax natural transformation]] whose $2$-cell components are all [[invertible 2-morphism|invertible]].  
+A __pseudonatural transformation__ is a [[lax natural transformation]] whose $2$-cell components are all [[equivalence|invertible]].  
 
 ## Definition
 
 +-- {: .num_defn} 
 ######Definition 
 
-Given two [[2-functors]] $U, V: S \stackrel{\to}{\to} C$ between [[2-categories]], a **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each [[object]] $s$ of $S$ a [[morphism]] $\phi(s): U(s) \to V(s)$ of $C$, and to each [[morphism]] $f: r \to s$ of $S$ an invertible [[2-morphism]] $\phi(f)$ of $C$:  
+Given two [[2-functors]] $U, V: S \stackrel{\to}{\to} C$ between [[2-categories]], a **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each [[object]] $s$ of $S$ a [[morphism]] $\phi(s): U(s) \to V(s)$ of $C$, and to each [[morphism]] $f: r \to s$ of $S$ an [[equivalence|invertible]] [[2-morphism]] $\phi(f)$ of $C$:  
 
 $$
 \array{
@@ -32,28 +32,96 @@ V(r) & \underset{V(f)}{\to} & V(s)
 }
 $$ 
 
-These 2-cells must be well-behaved on composition of 1-cells and on unit 1-cells in the following sense, where we leave [[compositor]]s and [[unitor]]s implicit:
+such that the followin [[coherence law]]s are satisfied in  $C$ (throughout we leave the [[associator]]s and [[unitor]]s in $C$ implicit):
 
-$$
-\array{
-  U(r) & \stackrel{U(f)}{\to} & U(s) & \stackrel{U(g)}{\to} & U(t) & & U(r) & \stackrel{U(g f)}{\to} & U(t) & & 
-  \\
-\phi(r) \downarrow & \phi(f) \swArrow & \downarrow \phi(s) & \phi(g) \swArrow & \downarrow \phi(t) & = & \phi(r) \downarrow & \phi(g f) \swArrow & \downarrow \phi(t) & & & \\
-V(r) & \underset{V(f)}{\to} & V(s) & \underset{V(g)}{\to} & V(t) & & V(r) & \underset{V(g f)}{\to} & V(t) & & & 
-}$$
+1. respect for composition: for all composable morphisms $r \stackrel{f}{\to} s \stackrel{g}{\to} t$ in $S$ we have an equality
 
-$$\array{
-U(r) & \stackrel{U(1_r)}{\to} & U(r) & & \\
-\phi(r) \downarrow & \phi(1_r) \swArrow & \downarrow \phi(r) & = & 1_{\phi(r)} \\
-V(r) & \underset{V(1_r)}{\to} & V(r) & & 
-}$$
+   $$
+   \array{
+      && U(s)
+      \\
+      & {}^{\mathllap{U(f)}}\nearrow &\downarrow^{\phi(s)}& \searrow^{\mathrlap{U(g)}}
+      \\
+     U(r) &\swArrow_{\phi(f)}&V(s) &\swArrow_{\phi(g)}& U(t)
+     \\
+     {}^{\mathllap{\phi(r)}}\downarrow &{}^{V(f)}\nearrow& 
+      \Downarrow^{V(f,g)}
+     &\searrow^{V(g)}& \downarrow^{\mathrlap{\phi(t)}} 
+     \\
+     V(r) &&\underset{V( g\circ f)}{\to}&& V(s)
+   }
+    \;\;\;
+    =
+    \;\;\;
+   \array{
+     && U(s)
+     \\
+     & {}^{\mathllap{U(f)}}\nearrow &\Downarrow^{U(f,g)}& \searrow^{\mathrlap{U(g)}}
+     \\
+     U(r) &&\stackrel{U(g \circ f)}{\to}&& U(t)
+     \\
+     {}^{\mathllap{\phi(r)}}\downarrow && 
+       \swArrow_{\phi(g \circ f )}
+     && \downarrow^{\mathrlap{\phi(t)}}
+     \\
+     V(r) &&\underset{V(g \circ f)}{\to}&& V(t)
+   }
+     \,,
+   $$
 
-We also require the maps $\phi(r)$ to satisfy a naturality property, for every 1-cell $f:s \to t$ in $S$:
+   of [[pasting]] [[2-morphisms]] as indicated, where $U(f,g)$ and $V(f,g)$ denote the compositors of the [[2-functor]]s $U$ and $V$,
 
-$$\array{
-x
-}$$
+1. respect for units, (...)
 
+1. naturality
+
+   for every [[2-morphism]] 
+
+   $$
+     \array{
+        && \stackrel{f}{\to}
+        \\
+        & \nearrow && \searrow
+        \\
+        r &&\Downarrow^{F}&& s
+        \\
+        & \searrow && \nearrow
+        \\
+        && \underset{g}{\to}
+     }
+   $$
+
+   in $S$ an equality
+
+   $$
+     \array{
+        && \stackrel{U(f)}{\to}
+        \\
+        & \nearrow &\Downarrow^{U(F)}& \searrow
+        \\
+        U(r) &&\stackrel{U(g)}{\to}&& U(s)
+        \\
+        {}^{\mathllap{\phi(r)}}\downarrow &&\swArrow_{\phi(g)}&& \downarrow^{\mathrlap{\phi(s)}}
+        \\
+        V(r) &&\underset{V(g)}{\to}&& V(s)
+     }
+     \;\;\;
+       =
+     \;\;\;
+     \array{
+       U(r) &&\stackrel{U(f)}{\to}&& U(s)
+       \\
+       {}^{\mathllap{\phi(r)}}\downarrow &&\swArrow_{\phi(f)}&& \downarrow^{\mathrlap{\phi(s)}}
+       \\
+       V(r) &&\stackrel{V(f)}{\to}&& V(s)
+       \\
+       & \searrow &\Downarrow^{V(F)}& \nearrow
+       \\
+       && \underset{V(g)}{\to}
+     }
+   $$
+
+   in $C$.
 
 =-- 
 
