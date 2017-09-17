@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -350,3 +355,7 @@ A survey is in chapter 1 of
 [[!redirects stable path objects]]
 [[!redirects propositional equality]]
 [[!redirects propositionally equal]]
+
+[[!redirects principle of substitution]]
+[[!redirects principle of substitution of equals for equals]]
+[[!redirects principle of substituting equals for equals]]
