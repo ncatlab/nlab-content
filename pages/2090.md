@@ -1,8 +1,9 @@
-The boundary between philosophical and logical foundational studies of mathematics is very unclear indeed -- one has only to think of Russell's part in _Principia Mathematica_. For a discussion of more obviously logical foundational aspects of category theory see [[foundations]].
+The boundary between [[philosophy|philosophical]] and [[logic|logical]] foundational studies of mathematics is very unclear indeed -- one has only to think of Russell's part in _Principia Mathematica_. For a discussion of more obviously logical foundational aspects of category theory see [[foundations]].
 
 To be done
 
-###Philosophical papers###
+
+## Philosophical papers
 
 Jean-Pierre Marquis, 1995, Category Theory and the Foundations of Mathematics: Philosophical Excavations. Synthese 103 (3).
 
