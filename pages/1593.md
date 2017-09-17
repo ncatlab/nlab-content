@@ -166,10 +166,10 @@ Orientifold circle $n$-bundles are not $\mathbb{Z}_2$-[[equivariant cohomology|e
 The [[geometric realization]] 
 
 $$
-  \tilde R := |\mathbf{B}[U(1) \to \mathbb{Z}_2]|
+  |\mathbf{B}[U(1) \to \mathbb{Z}_2]|
 $$
 
-of $\mathbf{B}[U(1) \to \mathbb{Z}]$ is the [[homotopy n-type|homotopy 3-type]] with [[homotopy group]]s
+of $\mathbf{B}[U(1) \to \mathbb{Z}]$ is a [[homotopy n-type|homotopy 3-type]] with [[homotopy group]]s
 
 $$
   \pi_0(\tilde R)  = 0
@@ -197,7 +197,7 @@ and nontrivial action of $\pi_1$ on $\pi_3$.
 +-- {: .proof}
 ###### Proof
 
-By the theorem discussed <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological+infinity-groupoid#GeometricHomotopy">here</a> at [[ETop∞Grpd]] we have that 
+By the theorem discussed [here](Euclidean-topological+infinity-groupoid#GeometricHomotopy) at [[ETop∞Grpd]] we have that 
 
 1. specifically 
 
@@ -217,22 +217,13 @@ By the theorem discussed <a href="http://nlab.mathforge.org/nlab/show/Euclidean-
 
 Since $\pi_3(K(\mathbb{Z}), 3) \simeq \mathbb{Z}$ and $\pi_1(B \mathbb{Z}_2) \simeq \mathbb{Z}_2$ and all other [[homotopy group]]s of these two spaces are trivial, the homotopy groups of $\tilde R$ follow by the [[long exact sequence of homotopy groups]] associated to our fiber sequence.
 
-Finally, since the action of $\mathbb{Z}_2$ in the [[crossed module]] is nontrivial, $\pi_1(\tilde R)$ must act notriviall on $\pi_3(\mathbb{Z})$. It can only act nontrivial in a single way, up to homotopy.
 
 =--
 
-+-- {: .num_remark }
-###### Remark
+## Twisted KO
 
-The space 
+([DFM I](#Precis), [DFM II](#DistlerFreedMooreII)).
 
-$$
-  R := \mathbb{Z}_2 \times \tilde R
-$$
-
-is taken to be the coefficient object for orientifold ([[differential cohomology|differential]]) cohomology as appearing in [[string theory]] in ([DFM I](#Precis)). More details are in ([DFM II](#DistlerFreedMooreII)).
-
-=--
 
 
 ## References
