@@ -47,7 +47,7 @@ The group $K_0(C)$ is called the **K-group** of $C$ or the [[Grothendieck group]
 
 The "K" is chosen by Grothendieck for the German word _Klasse_ for "class". The K-group of $C$ is the group of equivalence classes of $C$: it is a group due to the existence of a notion of exact sequences in $C$.
 
-K-theory starts with the study of these K-groups and their higher analogues. Sometimes the K-groups themseles are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
+K-theory starts with the study of these K-groups and their higher analogues. Sometimes the K-groups themselves are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
 
 More generally, there is a [[symmetric monoidal (infinity,1)-category|symmetric groupal ∞-groupoid]] $\mathbf{K}(C)$  -- i.e. a connective [[spectrum]] -- in between the [[decategorification]] from $C$ to $K(C)$ of which $K(C)$ is the set of [[simplicial homotopy group|connected components]]
 
@@ -66,7 +66,7 @@ This is also called the **Waldhausen K-theory** of $C$.
 
 Much of the literature on K-theory discusses constructions that _model_ the above abstract setup in terms of [[model category|model categories]], or just their [[homotopy category|homotopy categories]], often of the [[derived category|derived catgeories]] type and then often expressed in terms of the [[abelian category]] or more generally [[Quillen exact category]] from which the derived category is derived.
 
-Only a subset of the structure on a [[model category]] is necessary in order to conveniently extract the K-groups of the [[presentable (infinity,1)-category|presented]] [[stable (∞,1)-category]]. For that reason the axioms of a [[Waldhausen category]] have been devised to provide just the necessary convenient prerequesites to compute the K-groups of the [[(∞,1)-category]] [[presentable (infinity,1)-category|presented]] by the underlying [[homotopical category]].
+Only a subset of the structure on a [[model category]] is necessary in order to conveniently extract the K-groups of the [[presentable (infinity,1)-category|presented]] [[stable (∞,1)-category]]. For that reason the axioms of a [[Waldhausen category]] have been devised to provide just the necessary convenient prerequisites to compute the K-groups of the [[(∞,1)-category]] [[presentable (infinity,1)-category|presented]] by the underlying [[homotopical category]].
 
 * In particular, the K-group associated to the [[stable (∞,1)-category]] $Ch^b(A)$ of _bounded_ [[chain complex]]es in an [[abelian category]] or [[exact category]] $A$ is often called the K-group of $A$ itself and just denoted
 
@@ -160,7 +160,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Whis Waldhausen/hocolim-construction gives the _connective_ K-theory, taking values in [[connective spectra]]. The [[universal construction|universal]] completion to functor that sends [[homotopy cofibers]] of [[stable (infinity,1)-categories]] to homotopy cofibers of spectra is the corresponding unconnective $\mathbb{K}$-functor.
+This Waldhausen/hocolim-construction gives the _connective_ K-theory, taking values in [[connective spectra]]. The [[universal construction|universal]] completion to functor that sends [[homotopy cofibers]] of [[stable (infinity,1)-categories]] to homotopy cofibers of spectra is the corresponding unconnective $\mathbb{K}$-functor.
 
 =--
 
