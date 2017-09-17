@@ -321,7 +321,9 @@ $$
 
 ### Prequantum 2-states
 
-Generally, given a [[prequantum line 2-bundle]] the corresponding (local) [[prequantum n-states]] are the (local) [[sections]] of this [[line 2-bundle]], and these in turn are equivalently the [[twisted unitary bundles]] (maybe best known for the [[WZW model]] where these are the [[Chan-Paton gauge fields]]). These 2-sections/twisted bundles form a [[2-vector space]] of prequantum 2-states. This is equivalently a [[category of modules]] over some [[associative algebra]], well defined up to [[Morita equivalence]]. A canonical way of constructing this algebra is as follows: present the [[line 2-bundle]] as a [[bundle 2-gerbe]], hence as a multiplicative [[line bundle]] over the morphisms of a [[Lie groupoid]], then the algebra is the [[groupoid algebra]] of sections of this line bundle. A module over this is manifestly a [[bundle gerbe module]], which in turn is equivalently a unitary bundle twisted by the line 2-bundle.
+Generally, given a [[prequantum line 2-bundle]] the corresponding (local) [[prequantum n-states]] are the (local) [[sections]] of this [[line 2-bundle]], and these in turn are equivalently the [[twisted unitary bundles]] (maybe best known for the [[WZW model]] where these are the [[Chan-Paton gauge fields]]). These 2-sections/twisted bundles form a [[2-vector space]] of prequantum 2-states. This is equivalently a [[category of modules]] over some [[associative algebra]], well defined up to [[Morita equivalence]]. 
+
+A canonical way of constructing this algebra is as follows: present the [[line 2-bundle]] as a [[bundle 2-gerbe]], hence as a multiplicative [[line bundle]] over the morphisms of a [[Lie groupoid]], then the algebra is the [[groupoid algebra]] (see there for details) of sections of this line bundle. A module over this is manifestly a [[bundle gerbe module]], which in turn is equivalently a unitary bundle twisted by the line 2-bundle.
 
 
 More in detail:
