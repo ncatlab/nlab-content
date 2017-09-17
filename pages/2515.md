@@ -31,19 +31,18 @@ with those of
 
 * [[supergeometry - contents|supergeometry]].
 
+## Related entries
+
+* [[smooth superalgebra]]
+
+* [[synthetic differential super infinity-groupoid]]
+
 
 ## References 
 
 
-* H. Nishimura, _Synthetic differential supergeometry_,  International Journal of Theoretical Physics, 	Volume 37, Number 11 (1998) ([journal](http://www.springerlink.com/content/l226546023178715/))
-
 * [[David Yetter]], _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1988__29_2_87_0))
 
-* H. Nishimura, _Differential forms in synthetic differential supergeometry_, International Journal of Theoretical Physics, Volume 38, Number 2 / February 1999 ([journal](http://www.springerlink.com/content/w732u72q874u740k/))
-
-* H. Nishimura, _Supersmooth topoi_, International Journal of Theoretical Physics, Volume 39, Number 5 ([journal](http://www.springerlink.com/content/v2573726852x6470/))
-
-* H. Nishimura, _Synthetic theory of superconnections_, International Journal of Theoretical Physics, 39 ([journal](http://www.springerlink.com/content/m35085347gw88651/))
 
 * [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_, ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134))
 
@@ -53,3 +52,14 @@ The article
  {#KonechnySchwarz}
  
 considers manifolds with odd and even nilpotent functions: formal supermanifolds.
+
+
+Synthetic supergeometry is also discussed in 
+
+* H. Nishimura, _Synthetic differential supergeometry_,  International Journal of Theoretical Physics, 	Volume 37, Number 11 (1998) ([journal](http://www.springerlink.com/content/l226546023178715/))
+
+* H. Nishimura, _Differential forms in synthetic differential supergeometry_, International Journal of Theoretical Physics, Volume 38, Number 2 / February 1999 ([journal](http://www.springerlink.com/content/w732u72q874u740k/))
+
+* H. Nishimura, _Supersmooth topoi_, International Journal of Theoretical Physics, Volume 39, Number 5 ([journal](http://www.springerlink.com/content/v2573726852x6470/))
+
+* H. Nishimura, _Synthetic theory of superconnections_, International Journal of Theoretical Physics, 39 ([journal](http://www.springerlink.com/content/m35085347gw88651/))
