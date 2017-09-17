@@ -51,15 +51,29 @@ of this morphism is the [[covariant phase space]] inside the configuration space
 
 
 ## Local action functionals
+ {#LocalActionFunctional}
 
-The action functional $\exp(i S(-)) : C \to \mathbb{A}^1 / \mathb{Z}$ for a [[quantum field theory]] on a parameter space $X$ with [[configuration space]] of fields $C$ on $X$  is usually required to be a **local functional** given by a **[[Lagrangean]] density**: a [[differential form]] $L(\phi)$ on $X$ of degree $dim X$ depending on the fields in $C$, such that 
+An action functional is called **local** if it arises from integration of a [[Lagrangian]].
 
-$$
-  S : \phi \mapsto \int_X L(\phi)
-  \,.
-$$
+More precisely, an action functional $S : C \to \mathbb{A}^1$ is called local if
 
-For a more manifestly [[general relativity|relativistic]] formulation, we may obtain the action functional by integrating the Lagrangean density on [[spacetime]].
+* the [[configuration space]] $C$ is the space $C = \Gamma_X(E)$ of [[section]]s of a [[fiber bundle]] $E \to X$ over some parameter space ([[spacetime]] $X$);
+
+* there is a [[Lagrangian]] density $J_\infty(E) \to \Omega^{\dim X}(X)$ on the [[jet bundle]] of $E$;
+
+* on a section/field configuration $\phi : X \to E$ the action $S$ takes the value
+
+  $$
+    S(\phi) = \int_X L(j_\infty(\phi))
+    \,,
+  $$
+
+  where $j_\infty(\phi) = (\phi, \partial_i \phi, \cdots)$ is the jet-prolongation of $\phi$ (the collection of all its higher partial derivatives).
+
+Consider action functional for on a configuration space of 
+[[smooth function]]s from the line to a [[smooth manifold]] $X$.
+
+We can consider
 
 1. $ S(q) = \int_a^b L(q,\dot{q}) \,\mathrm{d}t $, where $q$ is a path through configuration space, on the time interval $[a,b]$, with derivative $\dot{q} = \mathrm{d}q/\mathrm{d}t$.  When minimising the action, we fix the values of $q(a)$ and $q(b)$.
 2. $ L(q,\dot{q}) = \int_{S} \mathcal{L}(q,\dot{q}) \,\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z $, where now $q$ is a configuration of fields on $S$, which is a region of space.  We fix boundary conditions on the boundary of $S$ (typically that $q$ and $\dot{q}$ go to zero if $S$ is all of space).
@@ -74,3 +88,6 @@ A large class of examples of action functionals arises in [[schreiber:∞-Chern-
 
 
 [[!redirects action functionals]]
+
+[[!redirects local action functional]]
+[[!redirects local action functionals]]
