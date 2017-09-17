@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of content
