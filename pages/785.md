@@ -30,6 +30,7 @@ A __homotopy pushout__ is the [[duality|dual]] concept.
 
 For more details see [[homotopy limit]].
 
+In the context of [[homotopy type theory]] a homotopy pullback is the [[categorical semantics|interpretation]] of the space of solutions to an [[equation]].
 
 ## Definition 
 
@@ -314,6 +315,8 @@ Since by assumption on the categorical interpretation of a type, all objects her
 Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fiber sequence]]s and [[loop space object]]s.
 
 ## Related concepts
+
+* [[equation]]
 
 * [[homotopy limit]]
 
