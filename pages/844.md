@@ -95,6 +95,13 @@ $$
   \,.
 $$
 
+#Related concepts
+
+* [[join of categories]];
+
+*  [[join of simplicial sets]].
+
+
 ## References
 
 The operation $\star_s$
@@ -106,7 +113,7 @@ is discussed around [proposition 1.2.8.3, p. 43](http://arxiv.org/PS_cache/math/
 The operation $\diamondsuit$ is discussed in
 [chapter 3](http://www.crm.cat/HigherCategories/hc2.pdf#page=95) of
 
-* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+* [[André Joyal]], _The theory of quasicategories and its applications_ lectures for the advanced course, at the conference on _Simplicial Methods in Higher Categories_, ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
 
 and in [[Higher Topos Theory|section 4.2.1]] of
 
