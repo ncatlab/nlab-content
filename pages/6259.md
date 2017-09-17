@@ -50,9 +50,13 @@ But sense can be made of the theory of self-dual gauge fields by other means. No
 
 ## References
 
-An original reference on sefl-dual/chiral fields is
+Original reference on self-dual/chiral fields include
 
 * X. Bekaert, [[Marc Henneaux]], _Comments on Chiral $p$-Forms_ ([arXiv:hep-th/9806062](http://arxiv.org/abs/hep-th/9806062))
+
+* Mans Henningson, Bengt E.W. Nilsson, Per Salomonson, _Holomorphic factorization of correlation functions in (4k+2)-dimensional (2k)-form gauge theory_ ([arXiv:hep-th/9908107](http://arxiv.org/abs/hep-th/9908107))
+
+* M. Henningson, _The quantum Hilbert space of a chiral two-form in $d = 5 + 1$ dimensions_ ([arxiv:hep-th/0111150](http://arxiv.org/abs/hep-th/0111150))
 
 A precise formulation of the phenomenon in terms of [[differential cohomology]] is given in
 
