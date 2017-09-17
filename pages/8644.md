@@ -19,7 +19,7 @@ In [[QCD]] [[instanton]] configurations of the [[gauge field]] control the exper
 
 One considers QCD on a [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to a Euclidean $\mathbb{R}^4$ and assumes the [[field strength]] to vanish beyond some finite radius. This makes the gauge field configurations be equivalently $SU(3)$-[[principal connections]] on the 4-[[sphere]] $S^4$. The [[second Chern class]] of the underlying $SU(3)$-[[principal bundle]] is called the [[Yang-Mills instanton]]-number of the gauge field configuration. The theoretical/experimentally observed [[vacuum]] of [[QCD]] is some [[superposition]] of gauge fields in various instanton number sectors.
 
-In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] (ground state of QCD) is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. The details of this model remain subtle, see for instance ([Schaefer-Shuryak](#SchaeferShuryak)) for a good survey.
+In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] (ground state of QCD) is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. Some details of this model remain subtle, see for instance ([Schaefer-Shuryak](#SchaeferShuryak)) for a good survey.
 
 ## Related concepts
 
@@ -37,3 +37,6 @@ In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] 
 [[!redirects instantons in QCD]]
 [[!redirects instanton in quantum chromodynamics]]
 [[!redirects instantons in quantum chromodynamics]]
+[[!redirects instanton liquid]]
+[[!redirects QCD instanton liquid]]
+[[!redirects instanton liquid in quantum chromodynamics]]
