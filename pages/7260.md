@@ -63,3 +63,7 @@ Survey and exposition of aspects of organizing the large-scale structure of the 
 * Wikipedia, _[The cosmic distance ladder](http://en.wikipedia.org/wiki/Cosmic_distance_ladder)_
 
 * [[Terence Tao]], _[The cosmic distance ladder](http://terrytao.wordpress.com/2007/05/31/the-cosmic-distance-ladder/)_
+
+A sketch of a comprehensive picture had been proposed in 
+
+* [[Erich Jantsch]], _[[The Self-Organizing Universe]]_ (1980)
