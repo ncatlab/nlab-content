@@ -223,11 +223,13 @@ The [[string orientation of tmf]] was given in
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
 
-Expositions includes
+Expositions include
 
 * {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf))
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+
+* [pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf)
 
 See also
 
