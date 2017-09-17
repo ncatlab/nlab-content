@@ -62,10 +62,6 @@ A quick and rough survey of this and vaguely related motivic structures in physi
 
 * A. Rej, [[Matilde Marcolli]], _Motives, an introductory survey for physicists_ ([pdf](http://www.its.caltech.edu/~matilde/ObiMotivesSurveyFinal.pdf))
 
-A detailed review of motivic structures in [[periods]] in [[scattering amplitudes]] is in 
-
-* Dan Li, _Periods And Motives: Applications In
-Mathematical Physics_, Thesis 2012 ([pdf](http://diginole.lib.fsu.edu/cgi/viewcontent.cgi?article=6885&context=etd)).
 
 A detailed review of the motivic [[cosmic Galois group]] [[action]] on the space of [[renormalization]] procedures is in section 7 of
 
