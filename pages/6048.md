@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The 2-dimensional [[sigma-model]] called the "[[string]]" exhibits a rich structure (whose study is the topic of (perturbative) [[string theory]]). Notably its [[supergeometry]] version comes in five different types, that are superficially different, but seem to be closely related on a deeper level.  
+
+In ([Witten95](#Witten95)) it was argued that the 10-dimensional [[target space]] theories of these five types are all limiting cases of one single 11-dimensional target space theory that extends [[11-dimensional supergravity]]. It was then argued that this should accordinly be the [[target space]] of 3-dimensional [[sigma-model]] such that the 2-dimensional string $\sigma$-models are limiting cases. This 3d model is said to describe the _M-theory membrane_ or _M2-brane_ for short.
+
+
+## Related concepts
+
+* [[string theory]]
+
+* [[sigma model]], [[brane]]
+
+## References
+
+* [[Edward Witten]], _String Theory Dynamics In Various Dimensions_ ([arXiv](http://arxiv.org/abs/hep-th/9503124))
+ {#Witten95}
+
+[[!redirects M-theory membrane]]
