@@ -35,3 +35,7 @@ Number fields $k$ are examples of [[global field]]s, in fact they are the global
 * [[algebraic curve]]
 
 [[!redirects number fields]]
+
+[[!redirects algebraic number field]]
+[[!redirects algebraic number fields]]
+
