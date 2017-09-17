@@ -16,7 +16,7 @@
 
 A _higher homotopy van Kampen theorem_ is a theorem that asserts that the [[homotopy type]], or certain invariants thereof, of a [[topological space]] can be computed by a suitable [[colimit]] or [[homotopy colimit]] over homotopy types of its pieces.
 
-This generalizes the [[van Kampen theorem]], which only deals with the underlying 1-type (the fundamental groupoid). The actual statements of the results depend on the models of the homotopy invariants being considered.
+These all in some sense generalize the [[van Kampen theorem]], which only deals with the underlying 1-type (the fundamental groupoid). The actual statements of the results depend on the models of the homotopy invariants being considered.
 
 ## For topological spaces {#ForTopSpaces}
 
@@ -104,6 +104,8 @@ Let $0 \to P \to Q \to R \to 0$ be an [[exact sequence]] of [[abelian groups]]. 
 
 ## References
  {#References}
+
+Various versions exist, generalising the classical theorem. 
 
 The version for topological spaces and the [[fundamental infinity-groupoid]] functor is discussed in  [Appendix A.1](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf#page=134) of
 
