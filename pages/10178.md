@@ -1414,6 +1414,57 @@ In this fashion one can now in principle climb higher up the dimensional ladder 
 Next interesting might be the holographic motivic quantization analogously of the [[Yang monopole]] at the boundary of the [[M5-brane]] ending on the [[M9-brane]]. Later.
 
 
+## General abstract type theoretic summary
+ {#GeneralAbstractTypeTheoreticSummary}
+
+> under construction
+
+We give a summary of the central steps of motivic quantization of local prequantum field theory in general abstract terms of (or akin to) [[homotopy type theory]], hence in the [[internal language]] of [[(∞,1)-toposes]]. This is to bring out the sheer conceptual simplicity underlying the process.
+
+1. To choose a [[homotopy type theory]] for [[local prequantum field theory]] is to choose a [[homotopy type theory]] $\mathbf{H}$ with [[differential cohesion|differential]] [[cohesion]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(Red \dashv \Pi_{inf} \dashv \flat_{ingf})$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
+
+
+1. To choose a [[phase and phase space in physics|group of phases]] is to 
+   choose an [[abelian ∞-group]] $\mathbb{G} \in Grp(\mathbf{H})$.
+
+   By [[differential cohesion]] this choice induces a a [[type]]
+   $\mathbf{B}\mathbb{G}_{conn}$ of $\mathbb{G}$-[[principal ∞-connections]].
+
+   We pass to this [[context]], hence to the [[slice (∞,1)-topos|slice homotopy theory]]
+   $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$. We say that this is 
+   _a context for [[local prequantum field theory]]_ and that a [[type]]
+   here is a [[local action functional]]. Its [[dependent sum]]
+   is the [[moduli ∞-stack]] of [[field (physics)|fields]].
+
+1. To choose a [[superposition principle]] is to choose an 
+   [[E-∞ ring]] type $E \in CRing_\infty(\mathbf{H})$ and a 
+   a [[function]] $\rho \colon \mathbf{B}\mathbb{G}_{conn} \longrightarrow 
+   \mathbf{B}GL_1(E)$.
+
+   Given a superposition principle, the [[dependent sum]] of a
+   [[local action functional]] along $\rho$ we call the
+   [[higher prequantum line bundle|higher prequantum E-line bundle]].
+
+1. A [[section]] of the [[higher prequantum line bundle]] is called a
+   [[wavefunction]] and forming the [[space of sections]] is an 
+   [[(∞,1)-functor]] 
+   $E^{\bullet + (-)}(-) \colon \mathbf{H}_{/\mathbf{B}GL_1(E)} \longrightarrow E Mod$
+   to $E$-[[∞-modules]].
+
+1. A [[relation]] in the local prequantum field theory context
+   $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$ we call a 
+   [[space]] of [[trajectories]]. Its [[dependent sum]]
+   along $\rho$ we call the corresponding [[integral kernel]].
+   The image of that under $\Gamma$ we call maybe by the same name.
+   A choice of self-[[dual object|duality]] on its correspondence $E$-module
+   we call a [[path integral]] [[measure]]. This induces
+   a [[linear function]] by passing to [[dual morphisms]] and this is the
+   [[quantum propagator]] given by [[quantization]] of the original
+   space of [[trajectories]]. 
+
+
+
+  
 
 ## **I)** General theory
  {#GeneralTheory}
