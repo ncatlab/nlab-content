@@ -22,7 +22,7 @@
 
 The construction called _Bohrification_ by some authors is a generalization of the [[Gelfand spectrum]] for commutative [[C-star algebra]]s to a context of _noncommutative_ $C^*$-algebras. It assigns to a noncommutative $C^*$-algebra $A$ a generalized [[Gelfand spectrum]] in the form of a [[locale]] $\underline{\Sigma}_A$ [[internalization|internal]] to the [[sheaf topos]] $\mathcal{T}_A$ over the [[semilattice of commutative subalgebras]] of $A$, or  equivalently its externalization $\Sigma_A \to \mathcal{C}(A)$ regarded as a [[locale]] [[over category|over]] the locale of open subalgebras.
 
-When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this construction has been suggested to formalize faithfully and usefully a heuristic that has goes back to [[Nils Bohr]] and is known as the _doctrine of classical concepts_ ([Scheibe](#Scheibe)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechnics may be, it is to be probed and detected by classical/commutative logic/geometry. In _Bohrification_ this heuristics is formalized by the [[semilattice of commutative subalgebras]] and various entities induced by this [[posite]]. The internal [[locale]] $\underline{\Sigma}_A$ may be thought of as an incarnation of the quantum [[phase space]] encoded by $A$.
+When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this construction has been suggested to formalize faithfully and usefully a heuristic that has goes back to [[Nils Bohr]] and is known as the _doctrine of classical concepts_ ([Scheibe](#Scheibe)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. In _Bohrification_ this heuristics is formalized by the [[semilattice of commutative subalgebras]] and various entities induced by this [[posite]]. The internal [[locale]] $\underline{\Sigma}_A$ may be thought of as an incarnation of the quantum [[phase space]] encoded by $A$.
 
 ## Definition
 
@@ -31,7 +31,7 @@ When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this
 
 A **partial $C^\ast$-algebra is a [[set]] $A$ equipped with
 
-* a symmetric and reflextive binary [[relation]] $C \subset A \times A$;
+* a symmetric and reflexive binary [[relation]] $C \subset A \times A$;
 
 * elements $0,1 \in A$;
 
@@ -43,7 +43,7 @@ A **partial $C^\ast$-algebra is a [[set]] $A$ equipped with
 
 * (partial) binary operations $+, \times : C \to A$
 
-such that every set $S \subset T$ of elements that are pairwise in $C$ is contained in a set $T \subset A$ whose elements are also pairwise in $C$ and on which the above operations yield the structure of a commutative [[C-star algebra]].
+such that every set $S \subset A$ of elements that are pairwise in $C$ is contained in a set $T \subset A$ whose elements are also pairwise in $C$ and on which the above operations yield the structure of a commutative [[C-star algebra]].
 
 A [[homomorphism]] of partial $C^\ast$-algebra is a function preserving this structure. This defines a [[category]] $PCstar$ of partial $C^\ast$ algebras.
 
@@ -83,8 +83,8 @@ $$
 
 the [[sheaf topos]] for the [[double negation topology]].
 
-Both of these arenaturally [[ringed topos]]es with ring object 
-$\underline{A} : C \mapsto U(C)$ (where $U : CStar \to Set$ is the underlying set functor) that is actually a [[internalization|interal]] commutative $C^*$-algebra. Write $\underline{\Sigma}_A$ and $\Sigma_A^{\not \not}$, respectively for the corresponding [[internal locale]]s associated to $\underline{A}$ by internal [[constructive Gelfand duality]]. Write 
+Both of these are naturally [[ringed topos]]es with ring object 
+$\underline{A} : C \mapsto U(C)$ (where $U : CStar \to Set$ is the underlying set functor) that is actually a [[internalization|internal]] commutative $C^*$-algebra. Write $\underline{\Sigma}_A$ and $\Sigma_A^{\not \not}$, respectively for the corresponding [[internal locale]]s associated to $\underline{A}$ by internal [[constructive Gelfand duality]]. Write 
 
 $$
   \Sigma_A \to \mathcal{C}(A)
@@ -133,7 +133,7 @@ is called the **Bohrification** of $A$.
 ###### Proposition
 
 
-The [[locale]] in $Loc/\Sigma_A$ may be directly expressd as
+The [[locale]] in $Loc/\Sigma_A$ may be directly expressed as
 
 $$
   \Sigma_A := 
