@@ -53,6 +53,8 @@ gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
 ## Talks ##
 
+* _TBC_, [Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html), Heriot-Watt University, June 2014.
+
 * _An explicit string bundle_, [Algebra/Geometry/Topology seminar](http://www.ms.unimelb.edu.au/research/seminars.php?id=1653) University of Melbourne, 22 November 2013.
 
 * _An explicit string bundle_, [AustMS 2013](http://www.maths.usyd.edu.au/u/austms2013/abstracts.html), 3 October 2013 ([slides in WriteLaTeX](https://www.writelatex.com/read/tsbybtssscbg)).
