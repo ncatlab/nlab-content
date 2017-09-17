@@ -430,9 +430,15 @@ This means that Connes' [[spectral triple]] whose particle spectrum reproduces t
 
 ## Related pages
 
-* [[higher differential geometry applied to plain differential geometry]]
+* [[motivation for sheaves, cohomology and higher stacks]]
+
+* [[motivation for higher differential geometry]]
 
 * [[applications of (higher) category theory]]
+
+* [[motivation for cohesion]]
+
+
 
 ## References
 
