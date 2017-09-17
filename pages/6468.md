@@ -36,6 +36,10 @@ A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$. This means th
 
 ## Related concepts
 
+* [[formal Brauer group]]
+
+* [[K3-cohomology]]
+
 * [[F-theory]],
 
 * [[elliptic fibration]]
