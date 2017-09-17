@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Killing vector_ on a ([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian manifold]] is a _covariantly constant vector_ : a [[vector field]] $v \in \Gamma(T C)$ that is annihilated by (the symmetrization of) the [[covariant derivative]] of the corresponding [[Levi-Civita connection]].
+
+The [[exponential map|flow]]s of Killing vectors are [[isometries]] of the Riemannian manifold onto itself.
+
+Similarly a _Killing spinor_ is a covariantly constant [[spinor]].
+
+
+## Related concepts
+
+* [[Killing spinor]]
+
+[[!redirects Killing vectors]]
+
+[[!redirects Killing vector field]]
+
+[[!redirects Killing spinor]]
+[[!redirects Killing spinors]]
+
+[[!redirects covariantly constant spinor]]
+[[!redirects covariantly constant spinors]]
