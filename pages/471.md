@@ -200,6 +200,12 @@ of $n \in \mathbb{N}$ copies of the [[co-span]] $I$ with itself by pushout over 
    \,.
  $$
 
+### In homtopy type theory
+  {#InHomotopyTypeTheory}
+
+In [[homotopy type theory]] the cellular interval can be axiomatized as a [[higher inductive type]]. See _[[interval type]]_ for more.
+
+
 
 ## Examples
 
@@ -679,75 +685,11 @@ Given a suitable interval obect in a [[site]] $C$, one may ask for [[∞-stack]]
 
 See [[A1-homotopy theory]].
 
+## Related concepts
+
+* [[interval]], [[interval type]]
 
 
-## Discussion
-
-+-- {: .query}
-
-> [[Urs Schreiber]]: this is really old discussion by now. We might want to start putting dates on discussions. In principle it can be seen from the entry history, but readers glancing at this here hardly will. Maybe discussions like this here are better had at the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) after all.
-
-We had originally started discussing the notion of interval objects at [[homotopy]] but then moved it to this entry here. The above entry grew out of the following discussion we had, together with discussion at [[Trimble n-category]].
-
-_[[Urs Schreiber|Urs]]:_ Let me chat a bit about what I am looking for here. It seems very useful to have a good notion of what it means in a context like a [[closed category|closed]] [[category of fibrant objects]] to say that _[[path object]]s are compatibly corepresented_.
-
-By this should be meant: there exists an object $I$ such that
-
-* for $B$ any other object, $[I,B]$ is a path object;
-
-* and such that $I$ has some structure and property which makes it "nice".
-
-In something I am thinking about the main point of $I$ being _nice_ is that it can model compositon: it must be possible to put two intervals end-to-end and get an interval of twice the length. In some private notes [[schreiber:Nonabelian homotopical cohomology and fiber bundles|here]] I suggest that:
-
-a "category with interval object" should be
-
-* a [[closed monoidal homotopical category]]
-
-* with a compatible structure of a [[category of fibrant objects]]
-
-* and equipped with an **internal co-categoy** on $\sigma, \tau : pt \to I$ for $I$ the _interval object_;
-
-* such that $I$ co-represents path objects, in that for all objects $B$, $[I,B]$ is a path object for $B$.
-
-I think there are a bunch of obvious examples: all familiar models of higher groupoids (Kan complexes, $\omega$-groupoids etc.) with the interval object being the obvious cellular interval $\{a \stackrel{\simeq}{\to} c\}$.
-
-I also describe one class of applications which I think this is needed/useful for: recall how Kenneth Brown in section 4 of his article on [[category of fibrant objects]] (see theorems recalled there and reference given there) describes fiber bundles in the abstract homotopy theory of a _pointed_ category of fibrant objects. This is pretty restrictive. In order to describe things like $\infty$-vector bundles in an context of [[enriched homotopy theory]] one must drop this assumption of the ambient category being pointed. The structure of it being a category with an interval object is just the necessary extra structure to still allow to talk of (principal and associated) fiber bundles in abstract homotopy theory. It seems.
-
-Comments are very welcome.
-
-_[[Todd Trimble|Todd]]_: The original "Trimblean" definition for weak $n$-categories (I called them "flabby" $n$-categories) crucially used the fact that in a nice category $Top$, we have a highly nontrivial $Top$-operad where the components have the form $\hom_{Top}(I, I^{\vee n})$, where $X \vee Y$ here denotes the cospan composite of two bipointed spaces (each seen as a cospan from the one-point space to itself), and the hom here is the internal hom between cospans. 
-
-My comment is that the only thing that stops one from generalizing this to general (monoidal closed) model categories is that "usually" $I$ doesn't seem to be "nice" in your sense here, and so one doesn't get an interesting (nontrivial) operad when my machine is applied to the interval object. But I'm generally on the lookout for this sort of thing, and would be very interested in hearing from others if they have interesting examples of this.
-
-[[Urs Schreiber]]: Thanks, Todd. I should have listed the examples I had in mind: I was thinking about 
-[[strict omega-category]] here, where the 1st [[oriental]]
-$G_1 = I = \{a \to b\}$ should naturally be an internal 
-co-category, where co-composition is the functor which
-sends $a \to b$ to the composite $a_1 \to (b_1 = a_2) \to a_2$.
-
-More generally, there are, I think $n$ different co-category
-structures on the standard $n$-globe, with co-source and
-co-target given by the two injections of the standard
-$(k \lt n)$-globe. 
-
-The composition operations in the internal hom 
-$\omega$-category $hom(C,D)$ in strict $\omega$-categories can,  I'd think, then be thought of as coming from the image of these co-categories under
-$Hom(C\otimes -, D)$.
-
-A description of what I just tried to say with the illuminating diagrams is on [p. 35 here](http://ncatlab.org/schreiber/files/nacq.pdf#page=35).
-Hope I got this right. Please let me know if I am mixed up.
-
-_[[Todd Trimble|Todd]]_: It seems to me there might be some trickiness about which hom you want. The thing you're proposing sounds like it would work to describe the hom for $\omega$-Cat as a cartesian closed category, but I'm not sure off the bat how it will play out with respect to the Crans-Gray monoidal biclosed structure. I'd have to think about it more carefully, but there's something a little "thin" about the strict co-category structure on say the category 2 (as an interval co-category in $Cat$) which makes me wonder.
-
-(After an email from Urs:) I think Urs is right after all -- this should work fine for either monoidal structure. 
-
-_[[Urs Schreiber|Urs]]_: Also by email, Todd points out that of course more generally, we want our interval objects to form internal co-categories only _up to coherent homotopy_, because otherwise the example of $G_1$ in strict $\omega$-categories is likely to be essentially the only good example.  We want internal _homotopy co-categories_.
-
-I need to learn more about how one would go about systematically defining concepts internal to a model category up to homotopy. What are the available tools for handling higher coherent homotopies in an arbitrary model category?
-
-My understanding is that Todd is going to write an entry on the Trimble definition of $\infty$-categories, and that this  issue appears there in some guise. So maybe I'll just wait for Todd's entry to appear...
-
-=--
 
 
 [[!redirects interval objects]]
