@@ -49,7 +49,7 @@ A __poset__ is a [[category]] such that:
 
 * if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$ (which by the above implies that $x$ and $y$ are [[isomorphic]]), then $x = y$.
 
-This says that a poset is a _[[(0,1)-category]]_.
+This says that a poset is a [[(0,1)-category]] or equivalently a [[thin category]].
 
 Equivalently, we may define a poset to be a [[skeletal category|skeletal]] [[thin category|thin]] category, or equivalently a skeletal [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
 
@@ -94,7 +94,7 @@ A poset can be understood as a [[(0,1)-category]]. This suggests an obvious [[ve
 ## Properties
 
 ### Locales from posets -- Alexandroff topology
- {LocalesFromPosets}
+{#LocalesFromPosets}
 
 +-- {: .num_defn }
 ###### Definition
