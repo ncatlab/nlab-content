@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
 [[!include higher geometry - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -38,7 +45,7 @@ This original version of the PhD thesis essentially looks at [[structured (∞,1
 
 The published version
 
-* [[David Spivak]], _Derived smooth manifolds_ ([arXiv](http://arxiv.org/abs/0810.5174))
+* [[David Spivak]], _Derived smooth manifolds_ ([arXiv:0810.5174](http://arxiv.org/abs/0810.5174))
 
 essentially does the same, but with [[Diff]] replaced by [[CartSp]]. Only that [[CartSp]] does not quite satisfy all the axioms of a pregeometry.
 
