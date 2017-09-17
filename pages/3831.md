@@ -1,0 +1,30 @@
+The **braid category** $\mathbf{B}$ is the strict [[monoidal category|monoidal]] [[groupoid]] obtained as the disjoint union of all the [[braid group|braid groups]] $B_n$, $n \geq 0$ (thus, the coproduct of 1-object groupoids in the category of groupoids). The objects of $\mathbf{B}$ are thus identified with natural numbers $n$, and all morphisms are automorphisms $n \to n$ given by elements in braid groups $B_n$. The monoidal product 
+
+$$\mathbf{B} \times \mathbf{B} \to \mathbf{B}$$ 
+
+is given objectwise by addition of integers $n$, and on morphisms it is given by group homomorphisms 
+
+$$B_m \times B_n \to B_{m+n}$$ 
+
+which may be described as juxtaposition of braids. 
+
+The braid category came into prominence with the celebrated paper _Braided Monoidal Categories_ by Joyal and Street, who showed that the category of Artin braids (hitherto a thoroughly geometric construction) was the free braided (strict) monoidal category on the terminal category $1$, and that free braided monoidal category on a general category $C$ could be pictured as the category of braids whose strands are colored by morphisms in $C$. 
+
+Joyal and Street also showed that the braid category could be regarded as a "walking Yang-Baxter object". Recall that a [[Yang-Baxter object]] in a monoidal category $(M, \otimes, I)$ is an object $C$ equipped with a "twist" map 
+
+$$R: C \otimes C \to C \otimes C$$ 
+
+such that 
+
+$$\array{
+C \otimes C \otimes C & \overset{R \otimes 1}{\to} & C \otimes C \otimes C & \overset{1 \otimes R}{\to} & C \otimes C \otimes C \\
+1 \otimes R \downarrow & & & & \downarrow R \otimes 1 \\
+C \otimes C \otimes C & \underset{R \otimes 1}{\to} & C \otimes C \otimes C & \underset{1 \otimes R}{\to} & C \otimes C \otimes C
+}$$ 
+
+commutes (as usually done, we work in strict monoidal categories for convenience). The statement now is that the braid category is initial in the category of strict monoidal categories equipped with a Yang-Baxter object. 
+
+This result gave a conceptual framework in which to interpret quantum group representations as giving knot invariants. 
+
+[...]
+
