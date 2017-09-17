@@ -1177,6 +1177,9 @@ For further discussion along these lines see at _[[derived functor in homologica
 ### Derived Hom-functor / $Ext$-functor
  {#DerivedHomFunctor}
 
+Consider the [[derived functor]] of the [[hom functor]].
+
+
 +-- {: .num_defn #ExtFunctorAsRightDerivedContravariantHom}
 ###### Definition
 
@@ -1191,6 +1194,16 @@ for the [[right derived functor]], def. \ref{RightDerivedFunctorOfLeftExactFunct
 =--
 
 We discuss the use of projective resolutions in the computation of [[Ext]]-functors and [[group extensions]].
+
+By corollary \ref{EquivalenceOfExt1WithExt} below we have a [[natural equivalence]]
+
+$$
+ Ext^1(G,A) \simeq Ext(G,A)
+$$
+
+of the first [[Ext]]-group of $G,A \in $ [[Ab]] with the group [[group extensions]] of $G$ by $A$. The proof there proceeds via  [[group cohomology]] in theorem \ref{EquivalenceOfExt1WithH2Grp}. 
+
+The following shows how to directly map an extension to an $Ext$-group, using the above theory of projective resolutions.
 
 +-- {: .num_defn #Extensions}
 ###### Definition
@@ -1360,7 +1373,7 @@ $$
   \,,
 $$
 
-where now $+_G : G \times G \to G$ denotes the addition (group operation) in the abelian group $G$, which the sum $\sum$ on the right forms [[formal linear combinations]], hence is the group operation in the [[free abelian grou]] $F(U(A)^n)$.
+where now $+_G : G \times G \to G$ denotes the addition (group operation) in the abelian group $G$, which the sum $\sum$ on the right forms [[formal linear combinations]], hence is the group operation in the [[free abelian group]] $F(U(A)^n)$.
 
 =--
 
@@ -1439,20 +1452,20 @@ is a projective resolution, def. \ref{ProjectiveResolution}.
 +-- {: .proof}
 ###### Proof
 
-By def. \ref{ProjectiveResolutionThatGivesGroupCocyclesByDoldKan} the [[differentials]] of $F_\bullet$ are images of [[functions]] between sets under the [[free abelia group]] functor. Hence the [[image]] of $\partial^F_{n+1}$ coincides with the [[kernel]] of $\partial^F_n$ precisely if this is the case for the underlying functions of sets.  
+By def. \ref{ProjectiveResolutionThatGivesGroupCocyclesByDoldKan} the [[differentials]] of $F_\bullet$ are images of [[functions]] between sets under the [[free abelian group]] functor. Hence the [[image]] of $\partial^F_{n+1}$ coincides with the [[kernel]] of $\partial^F_n$ precisely if this is the case for the underlying functions of sets.  
 
 But with def. \ref{ProjectiveResolutionThatGivesGroupCocyclesByDoldKan} 
 there this follows by the [[Dold-Kan correspondence]], which itentifies the [[homology groups]] of $C(\overline{W}G)_\bullet$ with the [[simplicial homotopy groups]] of $\Omega\overline{W}G$, which are trivial in positive degree and coincide with $G$ in degree 0.
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
++-- {: .num_theorem #EquivalenceOfExt1WithH2Grp}
+###### Theorem
 
 There is a [[natural isomorphism]]
 
 $$
-  Ext^1(G,A) \simeq H^2(G,A)
+  Ext^1(G,A) \simeq H^2_{Grp}(G,A)
 $$
 
 between the first [[Ext]]-group of $G$ with [[coefficients]] in $A$ and the degree-2 [[group cohomology]] group of $G$ with coefficients in $A$.
@@ -1464,7 +1477,7 @@ between the first [[Ext]]-group of $G$ with [[coefficients]] in $A$ and the degr
 
 Let $F_\bullet \stackrel{\simeq_{qi}}{\to} G$ be a projective resolution
 that starts out as in def. \ref{ProjectiveResolutionThatGivesGroupCocycles}. 
-By construction of the [[derived functor]] $Ext^1(-,A) \coloneqq R^1 Hom(-,A)$ by def. ref{ExtFunctorAsRightDerivedContravariantHom} we have
+By construction of the [[derived functor]] $Ext^1(-,A) \coloneqq R^1 Hom(-,A)$ by def. \ref{ExtFunctorAsRightDerivedContravariantHom} we have
 
 $$
   Ext^1(G,A) \simeq H^1(Hom(F_\bullet, A))
@@ -1489,8 +1502,26 @@ and this is precisely a group coboundary.
 
 =--
 
++-- {: .num_cor #EquivalenceOfExt1WithExt}
+###### Corollary
 
+There is a natural equivalence
 
+$$
+  Ext^1(G,A) \simeq Ext(G,A)
+$$
+
+between the first [[Ext]]-functor group as indicated and the group of [[group extensions]] of $G$ by $A$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By theorem \ref{EquivalenceOfExt1WithH2Grp} we have a natural equivalence
+$Ext^1(G,A) \simeq H^2_{Grp}(G,A)$. By the discussion at _[[group extension]]_ in the section _[Properties -- Central extensions -- Classification](group+extension#CentralExtensionClassificationByGroupCohomology)_ we have furthermore a natural equivalence $H^2_{Grp}(G,A) \simeq Ext(G,A)$. Combining both gives the claimed equivalence.
+
+=--
 
 
 ## Related concepts
