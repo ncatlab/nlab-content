@@ -1,2 +1,2 @@
-http://sportblue6sforsale.makesit.net/ knrjxfode <a href="http://sportblue6sforsale.makesit.net/">Sport Blue 6s Online</a>
- <a href="http://sportblue6s.makesit.net/" >Jordan 6 Retro Sport Blue</a>
+http://www.landtrustepwv.org/jordan6sportblue.htm/ nczjca <a href="http://www.landtrustepwv.org/jordan6sportblue.htm">Jordan 6 Sport Blue</a> uumztje
+ <a href="http://www.brickish.org/airjordan6sportblue.htm" >Jordan 6 Sport Blue</a>
