@@ -102,6 +102,10 @@
 
   * [[∞-Chern-Simons theory]]
 
+* [[Klein geometry]], [[Klein 2-geometry]], [[higher Klein geometry]]
+
+* [[Euclidean geometry]], [[Cartan geometry]], [[higher Cartan geometry]]
+
 * [[Riemannian geometry]]
 
   * [[gravity]], [[supergravity]]
