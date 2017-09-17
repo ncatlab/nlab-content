@@ -37,5 +37,6 @@ Here $1$ is a [[terminal category]] (exactly one object and exactly one morphism
 ## Related concepts
 
 * [[constant sheaf]]
+* [[diagonal functor]]
 
 [[!redirects constant functors]]
