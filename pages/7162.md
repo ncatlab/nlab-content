@@ -23,11 +23,13 @@ This is to some extent a [[Jordan algebra]]-analog of the [[Gelfand-Naimark theo
 
 Other theorems on the foundations of [[quantum mechanics]] include
 
-* [[Kochen-Specker theorem]]
+* [[order-theoretic structure in quantum mechanics]]
 
-* [[Gleason's theorem]]
+  * [[Kochen-Specker theorem]]
 
-* [[Harding-Döring-Hamhalter theorem]]
+  * [[Gleason's theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
 
 * [[Wigner theorem]]
 
