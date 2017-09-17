@@ -1,9 +1,9 @@
 
 **[[(0,1)-category theory]]**, [[logic]], [[order theory]]
 
-**[[(0,1)-category]]**, [[proset]], [[poset]]
+**[[(0,1)-category]]**
 
-* [[lattice]], [[semilattice]]
+* [[proset]], [[poset]]
 
   * [[top]], [[true]], 
 
@@ -11,11 +11,15 @@
 
   * [[implication]]
 
+  * [[filter]], [[interval]]
+
+* [[lattice]], [[semilattice]]
+
   * [[meet]], [[logical conjunction]], [[and]]
   
   * [[join]], [[logical disjunction]], [[or]]
 
-  * [[regular element]], [[compact element]]
+  * [[compact element]]
 
 * [[lattice of subobjects]]
 
@@ -26,6 +30,8 @@
 **[[(0,1)-topos]]**
 
 * [[Heyting algebra]]
+
+  * [[regular element]]
 
   * [[Boolean algebra]]
 
