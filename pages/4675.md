@@ -832,6 +832,14 @@ $$
 
 Here we are indicating on the right the generators and their relation in $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ and on the left their images and the images of the relations in $\Omega^\bullet(U_i)$.   This are first the definitions of the [[curvature]]s themselves and then the [[Bianchi identities]] satisfied by these.
 
+### Differential string structures and fermionic string quantum anomalies
+
+The [[Pfaffian line bundle]] controlling the [[fermionic path integral]] of the [[heterotic superstring]] propagating on target $X$ trivializes precisely if the target has a (geometric) string structure.
+
+
+One shows that the [[Pfaffian line bundle]] on the worldsheet is [[isomorphic]] as a bundle with connection with the [[transgression]] of the differential string structure on the target space to the mapping space $[\Sigma,X]$. So the target space having a (differential) string structure is a sufficient condition for the cancellation of the [[quantum anomaly]].
+
+(First argued in [Killingback](#Killingback), later made precise in ([Bunke](#Bunke))).
 
 
 ### The Green-Schwarz mechanism in heterotic supergravity
@@ -1119,7 +1127,15 @@ A comprehensive discussion including all the formal background and the applicati
 
 in section 4.2.
 
+The relation to [[quantum anomaly]] cancellation in [[heterotic string theory]] has been first discussed in 
 
+* Killingback, _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588
+ {#Killingback}
+
+and given a rigorous treatment in 
+
+* [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
+ {#Bunke}
 
 [[!redirects differential string structures]]
 
