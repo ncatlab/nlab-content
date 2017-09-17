@@ -25,6 +25,11 @@ A link to Peter Hilton's Alan Turing lecture 2006 is [here](http://www.colossus-
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Peter_Hilton)
 
-
+* [Biography (History of Mathematics)](http://www-history.mcs.st-andrews.ac.uk/Biographies/Hilton.html)
 
 category: people
+
+
+[[!redirects Hilton]]
+[[!redirects Peter J. Hilton]]
+[[!redirects P. J. Hilton]]
