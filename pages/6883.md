@@ -64,9 +64,9 @@ This case is discussed in
 
 ### For the first Chern class
 
-A discussion of 1d CS theory in the context of large $N$-gauge theory is in ([GradyGwilliam](#GradyGwilliam)).
+A discussion of 1d CS theory in the context of large $N$-gauge theory is in 
 
-* V.P. Nair, _The Matrix Chern-Simons One-form as a Universal Chern-Simons Theory_ ([arXiv:hep-th/0605007](http://arxiv.org/abs/hep-th/0605007))
+* V.P. Nair, _The Matrix Chern-Simons One-form as a Universal Chern-Simons Theory_ 	Nucl.Phys.B750:289-320,2006 ([arXiv:hep-th/0605007](http://arxiv.org/abs/hep-th/0605007))
   {#Nair}
 
 ### For a symplectic Lie 0-algebroid
