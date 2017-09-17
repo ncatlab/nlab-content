@@ -105,6 +105,8 @@ $$
 
 is positive.
 
+Note that [[Bob Coecke|Coecke]] has shown that FdHilb, the category of finite dimensional Hilbert spaces and linear maps, has the completely positive maps as morphisms.  See _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)).
+
 =--
 
 +-- {: .un_theorem}
@@ -149,7 +151,7 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 * composition of morphisms is, of course, the composition in [[Vect]], i.e. the ordinary composition of linear maps.
 
-See also [[extremal quantum channel]]s.
+See also [[extremal quantum channel]]s and [[graphical quantum channel]]s.
 
 ### Discussion
 
