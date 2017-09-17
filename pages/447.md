@@ -153,7 +153,7 @@ If $i: X \to Y$ is a monomorphism of simplicial sets, then $R(i): R(X) \to R(Y)$
 
 +-- {: .proof} 
 ###### Proof 
-Any monomorphism $i \colon X \to Y$ in $Set^{\Delta^{op}}$ can be seen as the result of iteratively adjoining nondegenerate $n$-simplices. In other words, there is a chain of inclusions $X = F(0) \hookrightarrow F(1) \hookrightarrow \ldots Y = colim_i F(i)$, where $F: \kappa \to Top$ is a functor from some ordinal $\kappa = \{0 \leq 1\leq \ldots\}$ (as [[preorder]]) that preserves directed colimits, and each inclusion $F(\alpha \leq \alpha + 1): F(\alpha) \to F(\alpha + 1)$ fits into a pushout diagram 
+Any monomorphism $i \colon X \to Y$ in $Set^{\Delta^{op}}$ can be seen as the result of iteratively adjoining nondegenerate $n$-simplices. In other words, there is a chain of inclusions $X = F(0) \hookrightarrow F(1) \hookrightarrow \ldots Y = colim_i F(i)$, where $F: \kappa \to Set^{\Delta^{op}}$ is a functor from some ordinal $\kappa = \{0 \leq 1\leq \ldots\}$ (as [[preorder]]) that preserves directed colimits, and each inclusion $F(\alpha \leq \alpha + 1): F(\alpha) \to F(\alpha + 1)$ fits into a pushout diagram 
 
 $$\array{
 \partial \Delta(-, n) & \to & F(\alpha) \\
