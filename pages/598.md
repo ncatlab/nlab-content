@@ -334,8 +334,73 @@ $$
 $$
 
 
-### Principal bundles {#PrincipalBundles}
+### Simplicial Principal bundles {#PrincipalBundles}
 
+Simplicial groups model all [[∞-group]]s in [[∞Grpd]]. Accordingly all [[principal ∞-bundle]]s in [[∞Grpd]] should be modeled by [[simplicial principal bundle]]s.
+
+
++-- {: .un_def}
+###### Definition
+**(principal action)**
+
+Let $G$ be a simplicial group. For $P$ a [[Kan complex]], an 
+[[action]] of $G$ on $E$
+
+$$
+  \rho : E \times G \to E
+$$
+
+is called **principal** if it is degreewise principal, i.e. if for all $n \in \mathbb{N}$ the only elements $g \in G_n$ that have any fixed point $e \in E_n$ in that $\rho(e,g) = e$ are the neutral elements.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+The canonical action 
+
+$$
+  G \times G \to G
+$$
+
+of any simplicial group on itself is principal.
+
+=--
+
++-- {: .un_def}
+###### Definition
+**(simplicial principal bundle)**
+
+For $G$ a simplicial group, a morphism $P \to X$ of [[Kan complex]]es equipped with a $G$-[[action]] on $P$ is called a $G$-**simplicial principal bundle** if
+
+* the action is principal;
+
+* the base is isomorphic to the quotient $E/G := \lim_{\to}(E \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to} E})$ by the action:
+
+  $$
+    E/G \simeq X
+    \,.
+  $$ 
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+A simplicial $G$-principal bundle $P \to X$ is necessarly a [[Kan fibration]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as Lemma 18.2 in [MaySimpOb](#MaySimplicialObjects).
+
+=--
+
+
+#### Universal simplicial $G$-principal bundle
 
 +-- {: .un_def}
 ###### Definition
@@ -349,24 +414,6 @@ $$
 
 =--
 
-
-Notice by the discussion at [[decalage]] that this should be precisely the standard realization of the [[generalized universal bundle]] in the [[category of fibrant objects]] $KanCplx$, namely the [[pullback]]
-
-$$
-  \array{
-     W G &\to& *
-     \\
-     \downarrow && \downarrow
-     \\
-     \overline{W}G^{\Delta[1]} &\stackrel{d_0}{\to}& \overline{W}G
-     \\
-     \downarrow^{d_1}
-     \\
-     \overline{W}G
-  }
-$$
-
-which produces the canonical [[Kan fibration]] replacement of the morphism $* \to \overline{W}G$.
 
 By the discussion at [[homotopy pullback]] this means that for $X_\bullet$ any [[Kan complex]], an ordinary [[pullback]] diagram
 
@@ -474,6 +521,7 @@ A standard reference for the case of _abelian_ simplicial groups is [chapter 5](
 Also chapter IV of
 
 * [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
+  {#MaySimplicialObjects}
 
 The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. This is originally due to
 
