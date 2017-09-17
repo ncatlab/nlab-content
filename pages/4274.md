@@ -50,6 +50,7 @@ from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also c
  {#References}
 
 ### General
+ {#ReferencesGeneralCase}
 
 The original reference on the [[string theory|string theoretic]] analytic interpretation of [[elliptic genera]] and on the Witten genus is
 
@@ -139,6 +140,7 @@ and in terms of [[factorization algebra]] in
  {#Costello}
 
 ### Twisted case
+ {#ReferencesTwistedCase}
 
 The twisted Witten genus in the present of [[background gauge field]] hence for a [[twisted string structure]]/[[string^c structure]] was considered in 
 
