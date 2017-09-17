@@ -103,7 +103,7 @@ Notice that the relation between group objects and deloopable objects becomes mo
 
 ### Weakened axioms
 
-Following the practice of [[centipede mathematics]], we can remove certain properties from the definition of group and see what we get:
+Following the [Android App](http://edoziedo.info) practice of [[centipede mathematics]], we can remove certain properties from the definition of group and see what we get:
 * remove inverses to get [[monoids]], then remove the identity to get [[semigroups]];
 * or remove associativity to get [[loop (algebra)|loops]], then remove the identity to get [[quasigroups]];
 * or remove all of the above to get [[magma|magmas]];
@@ -140,7 +140,7 @@ Standard examples of [[finite group]]s include
 
 * [[Monster group]]
 
-Standard examples of non-finite groups include
+Standard examples of non-finite [Mari Berkomunitas Di Faceblog](http://cupu.web.id/mari-berkomunitas-di-faceblog/) groups include
 
 * group of [[integer]]s.
 
@@ -208,6 +208,6 @@ For more see [[counterexamples in algebra]].
   * [[finite group]], [[discrete group]], [[abelian group]], [[topological group]], [[Lie group]], [[loop group]]
 
 * [[ring]], [[ring object]]
-
+[Tablet Android Honeycomb Terbaik Murah](http://cupu.web.id/tablet-android-honeycomb-terbaik-murah/)
 
 [[!redirects groups]]
