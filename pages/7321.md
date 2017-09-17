@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A [[model category]] structure on the [[category]] [[Operad]] of [[Set]]-enriched coloured [[symmetric operads]] which generalizes the [[canonical model structure]] on [[Cat]].
+
+## Definition
+
+A [[weak equivalence]] $f : P \to Q$ is a morphism of operads whose underlying functor of categories is an [[essentially surjective functor]] and such for every collection $(c_1, \cdots, c_n; c)$ of colours it induces an [[isomorphism]]
+
+$$
+  P(c_1, \cdots, c_n; c) \to Q(f(c_1), \cdots, f(c_n); f(c))
+  \,.
+$$
+
+A [[fibration]] is a morpism $f : P \to Q$ such that for every isomorphism in $Q$ and a lift of its source object to $P$ there is an isomorphism in $P$ covering it under $f$.
+
+## Related concepts
+
+* [[model structure on operads]]
+
+* [[model structure on dendroidal sets]]
+
+
+## References
+
+* [[Ittay Weiss]], _Dendroidal sets_, PhD thesis ([web](http://igitur-archive.library.uu.nl/dissertations/2007-0918-200833/UUindex.html))
+
