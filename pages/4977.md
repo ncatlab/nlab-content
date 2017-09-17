@@ -15,7 +15,7 @@
 
 ## Idea
 
- A [[regular monomorphism]] in a [[category]] is a morphism that is the [[equalizer]] of any pair of morphisms. A _regular monomorphism in an $(\infty,1)$-category_ is the analog of this in [[(∞,1)-category theory]].
+ A [[regular monomorphism]] in a [[category]] is a morphism that is the [[equalizer]] of some pair of morphisms. A _regular monomorphism in an $(\infty,1)$-category_ is its analog in an [[(∞,1)-category theory]].
 
 
 ## Definition
