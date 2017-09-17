@@ -107,7 +107,7 @@ That space $Sierp$, in turn,
 
 1. has a [[focal point]]
 
-which implies the coresponding three properties of the Sierpinski $\infty$-topos above.
+which implies the corresponding three properties of the Sierpinski $\infty$-topos above.
 
 =--
 
