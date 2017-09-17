@@ -198,6 +198,7 @@ The seminal result on the relation to [[loop group]] [[representations]], now ag
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted K-theory and loop group representations_ ([arXiv:math/0312155](http://arxiv.org/abs/math/0312155))
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]] I_ ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906))
+ {#FHT07}
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]] II_ ([arXiv:math/0511232](http://arxiv.org/abs/math/0511232))
 
@@ -217,13 +218,19 @@ Discussion in terms of [[twisted bundles]]/[[bundle gerbe modules]] is in
 * [[Peter Bouwknegt]], [[Alan Carey]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv:hep-th/0106194](http://arxiv.org/abs/hep-th/0106194))
   {#CBMMS} 
 
+also [FHT 07, around p. 26](#FHT07)
+
+* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
+
+(which establishes the relation to [[KK-theory]])
+
 * [[Max Karoubi]], _Twisted bundles and twisted K-theory_, [arxiv/1012.2512](http://arxiv.org/abs/1012.2512) 
  {#Karoubi}
 
 * [[Ulrich Pennig]], _Twisted K-theory with coefficients in $C^\ast$-algebras_, ([arXiv:1103.4096](http://arxiv.org/abs/1103.4096))
  {#Pennig}
 
-Discussion in terms of [[vectorial bundle]]s is in
+Discussion in terms of [[vectorial bundles]] is in
 
 * [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
  {#Gomi}
