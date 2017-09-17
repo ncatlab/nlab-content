@@ -1,0 +1,17 @@
+
+
+A **cross product** on a [[Cartesian space]] $V = \mathbb{R}^n$ is a [[linear function]]
+
+$$
+  (-) \times (-) : V \times V \to V
+$$
+
+such that for all $x, y\in V$ we have
+
+1. $x \cdot (x \times y) = (x \times y) \cdot y = 0$;
+
+1. ${\vert x \times y \vert}^2 = {\vert x \vert}^2 {\vert y \vert}^2 - (x \cdot y)^2$. 
+
+Cross products exists precisely for $n = 0,1,3,7$. In the first two dimensions it is trivial, though, but in dimension 3 and 7 it is an important nontrivial structure. These four numbers are related to the four [[normed division algebra]]s and to many other things.
+
+ 
