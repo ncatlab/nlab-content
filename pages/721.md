@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include topos theory - contents]]
 </div>
@@ -69,7 +68,7 @@ An example for the category [[Diff]] of manifolds is the pretopology of [[surjec
 
 Most of the examples of [[coverage|coverages]] are in fact Grothendieck pretopologies.
 
-An example of a covergage that is not a pretopology is the coverage of [[good open cover]]s. In general the pullback of a good open cover is just an [[open cover]], not necessarily still one where all finite non-empty intersections are contractible.
+An example of a coverage that is not a pretopology is the coverage of [[good open cover]]s. In general the pullback of a good open cover is just an [[open cover]], not necessarily still one where all finite non-empty intersections are contractible.
 
 
 ## References
