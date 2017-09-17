@@ -9,19 +9,35 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-The [[mechanics]] of rigid bodies in [[Cartesian space]].
+The [[mechanics]] of _rigid bodies_ in [[Cartesian space]].
+
+Up to the dynamics of the [[center of mass]], this is the special case of [[Hamiltonian dynamics on Lie groups]] for the case of the [[special orthogonal group]] $SO(n)$.
+
+Often this is considered (only) for $n = 3$, which is the case pertaining to rigid bodys in observable nature.
 
 ## Related concepts
 
-* [[angular velocity]]
+* [[Hamiltonian dynamics on Lie groups]]
 
-* [[angular momentum]]
+  * **rigid body dynamics**
 
-* [[moment of inertia]]
+    * [[angular velocity]]
+
+    * [[angular momentum]]
+ 
+    * [[moment of inertia]]
 
 ## References
+
+A discussion from the more general perspective of [[Hamiltonian dynamics on Lie groups]] is in section 4.4 of 
+
+* [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ 
 
 * [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_, Springer 1989 (section 28)
 
