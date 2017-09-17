@@ -42,11 +42,13 @@ Unlike in the usual [[classical mechanics|classical mechanical] systems, in some
 
 ## Related concepts
 
-* [[variational calclus]]
+* [[variational calculus]]
+
+* [[de Donder-Weyl formalism]]
 
 ## References
 
-* [wikipedia](http://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation).
+* Wikipedia, _[Euler-Lagrange equation](http://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation)_.
 
 [[!redirects Euler-Lagrange equations]]
 
