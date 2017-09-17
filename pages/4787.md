@@ -21,6 +21,8 @@ There are many notions of _dimension_ of [[space]]s.  What they all have in comm
 
 *  A [[metric space]] has a __[[Hausdorff dimension]]__ which may be any non-negative real number.
 
+* A space in [[noncommutative geometry]] ([[spectral geometry]] via [[spectral triples]]) may have a notion of [[KO-dimension]].
+
 ### Of objects in a symmetric monoidal category: Euler characteristic
 
 The dimension of a (finite dimensional) [[vector space]] $V$ over a [[field]] $k$ is equivalently the [[trace]] of the [[identity]] [[morphism]] in the [[symmetric monoidal category]] [[Vect]] (which is a linear map $k \to k$, canonically identified with an element in $k$)
