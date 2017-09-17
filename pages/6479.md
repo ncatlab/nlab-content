@@ -42,14 +42,16 @@ A **geometry** is a pregeometry such that $cl(\emptyset) = \emptyset$ and $cl(\{
 
 +-- {: .num_defn}
 ###### Definition 
-Given a pregeometry $(X, cl)$, a subset $A \in P X$ is **independent** if for all $a \in A$, $a \notin cl(A - \{a\})$. An independent set $A$ said to be a **basis** for $Y \in P X$ if $Y \subseteq cl(A)$. All bases of $Y$ have the same cardinality (?), called the **dimension** of $Y$. 
+Given a pregeometry $(X, cl)$, a subset $A \in P X$ is **independent** if for all $a \in A$, $a \notin cl(A - \{a\})$. An independent set $A$ said to be a **basis** for $Y \in P X$ if $Y \subseteq cl(A)$. All bases of $Y$ have the same cardinality, called the **dimension** of $Y$. 
 =-- 
 
 ## Related concepts
 
 * [[stability in model theory]]
 
-* [[Zariski geometry]]
+* [[Zariski geometry]] 
+
+* [[matroid]] 
 
 
 ## References
