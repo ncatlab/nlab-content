@@ -58,6 +58,12 @@ There is a simple geometric interpretation of the expression on the right side o
 [[Michael Hardy]]: A student in India whom I encountered via the internet told me that the problem of proving the "conditional identity" that $4\sin\alpha\sin\beta\sin\gamma = sin(2\alpha) + \sin(2\beta) + \sin(2\gamma)$ if $\alpha+\beta+\gamma=\pi$ recurs perennially on the joint entrance exam of the Indian Institutes of Technology.  Hence "well known".
 =--
 
+Here is an inversion identity:
+
+$$
+\prod_{i=1}^\infty \cos\theta_i = f_0 + \frac{1}{2} f_2 + \frac{1}{2 \cdot 4} f_4 + \frac{1}{2 \cdot 4 \cdot 6} f_6 + \frac{1}{2 \cdot 4 \cdot 6 \cdot 8} f_8 + \cdots
+$$
+
 ## A preliminary question
 
 Are these four identities the first four terms in a sequence that continues?
