@@ -1,11 +1,11 @@
+
 # Linear orders
 * tic
 {: toc}
 
-
 ## Idea
 
-A _linear order_ (also is called _pseudo-order_, according to Wikipedia) is the irreflexive version of a [[total order]].  A __linearly ordered set__, or __loset__, is a [[set]] equipped with a linear order.
+A _linear order_ (also called _pseudo-order_, according to Wikipedia) is the irreflexive version of a [[total order]].  A __linearly ordered set__, or __loset__, is a [[set]] equipped with a linear order.
 
 In [[classical mathematics]], the distinction between linear orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of linear orders on $S$, and one distinguishes them by the notation $\lt$ (for the linear order) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
 
@@ -40,7 +40,7 @@ One can also interpret connectedness not as an axiom but as a definition of [[eq
 
 Classically, any [[total order]] defines an example of a linear order, as explained below, and this also holds constructively in discrete mathematics.  So here I will focus on constructive analysis.
 
-Of course, the big example here is the field of [[real number]]s.  Both the Dedekind reals and the Cauchy reals (even if [[countable choice]] fails so these are not equivalent) have a linear order $\lt$ that extends the (discrete) linear order on the rational numbers.  Since the corresponding partial order $\leq$ cannot be proved total (and in some classically invalid versions of constructive mathematics can even be proved not total), $\lt$ is more directly useful than $\leq$ is constructive analysis.  In any case, $\lt$ is more fundamental, since $\leq$ can be defined in terms of $\lt$ but not the other way around.
+Of course, the big example here is the field of [[real number]]s.  Both the Dedekind reals and the Cauchy reals (even if [[weak countable choice]] fails so these are not equivalent) have a linear order $\lt$ that extends the (discrete) linear order on the rational numbers.  Since the corresponding partial order $\leq$ cannot be proved total (and in some classically invalid versions of constructive mathematics can even be proved not total), $\lt$ is more directly useful than $\leq$ is constructive analysis.  In any case, $\lt$ is more fundamental, since $\leq$ can be defined in terms of $\lt$ but not the other way around.
 
 The Mac Neille real numbers have both $\lt$ and $\leq$; however, in this case, neither is a linear or total order, nor can they be defined in terms of one another.
 
@@ -70,10 +70,11 @@ One often sees $x \lt y$ defined as $x \le y$ but $x \ne y$; this is equivalent,
 Keep in mind, however, that the only use of [[excluded middle]] in the classical theory is the assumption that $x = y$, $x \lt y$, and $x \leq y$ are always either true or false.  There is therefore a perfect correspondence between [[decidable subset|decidable]] linear orders and decidable total orders on sets with [[decidable equality]].
 
 
+[[!redirects linear order]]
 [[!redirects linear orders]]
-[[!redirects loset]]
-[[!redirects losets]]
-[[!redirects linearly ordered set]]
-[[!redirects linearly ordered sets]]
 [[!redirects linear ordering]]
 [[!redirects linear orderings]]
+[[!redirects linearly ordered set]]
+[[!redirects linearly ordered sets]]
+[[!redirects loset]]
+[[!redirects losets]]
