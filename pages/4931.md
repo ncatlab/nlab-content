@@ -47,7 +47,7 @@ A simple result on the _homeomorphism_ type of _closed_ balls is the following:
 
 +-- {: .un_thm}
 ###### Theorem 
-A [[compact]] [[convex subset|convex]] [[subset]] $D$ in $\mathbb{R}^n$ with [[nonempty]] [[interior]] is [[homeomorphic]] to $D^n$. 
+A [[compact space|compact]] [[convex subset|convex]] [[subset]] $D$ in $\mathbb{R}^n$ with [[nonempty set|nonempty]] [[interior]] is [[homeomorphic]] to $D^n$. 
 =-- 
 
 +-- {: .proof}
@@ -62,7 +62,7 @@ The claim reduces to the following three steps.
 
 1. It's injective: for this we need to show that if $v, w \in \partial D$ are distinct points, then neither is a positive multiple of the other. Supposing otherwise, we have $w = t v$ for $t \gt 1$, say. Let $B$ be a ball inside $D$ containing $0$; then the convex hull of $\{w\} \cup B$ is contained in $D$ and contains $v$ as an interior point, contradiction.  
 
-So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ between compact [[Hausdorff space]]s, is a homeomorphism. 
+So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ between [[compact Hausdorff space]]s, is a homeomorphism. 
 =--
 
 By slightly modifying this argument, we can prove that the closure of any open [[star-shaped]] region is homeomorphic to the $n$-disk iff it is compact. For, we may assume every point in the closure is connected to the origin by a line segment in the closure. Steps 1 and 2 above hold without modification, and as for step 3, for any open neighborhood of the line segment between the origin and $w$, any convex open subneighborhood of the segment contains $v$ as an interior point. 
