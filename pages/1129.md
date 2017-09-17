@@ -106,7 +106,7 @@ $$
   }
 $$
 
-and hence the $J$-injective objects are precisely those that have the [[left lifting property]] against the class $j$.
+and hence the $J$-injective objects are precisely those that have the [[right lifting property]] against the class $J$.
 
 =--
 
