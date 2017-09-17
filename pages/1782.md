@@ -99,6 +99,8 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 
 ## Related concepts
 
+* [[K-theory of symmetric monoidal (∞,1)-categories]]
+
 * [[Beilinson regulator]]
 
 * [[differential algebraic K-theory]]
