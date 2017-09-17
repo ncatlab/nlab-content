@@ -70,40 +70,33 @@ See at _[Hamiltonian vector field -- Relation to Poisson bracket](Hamiltonian+ve
 
 Let $(X, \omega)$ be a [[symplectic manifold]] and let $\mathfrak{g}$ be a [[Lie algebra]]. Write $(C^\infty(X), \{-,-\})$ for the [[Poisson bracket]] Lie algebra underlying the corresponding [[Poisson algebra]]. 
 
-+-- {: .num_defn}
++-- {: .num_defn #MomentMap}
 ###### Definition
 
-A _[[Hamiltonian action]]_ of $\mathfrak{g}$ on $(X, \omega)$ is a Lie algebra [[homomorphism]]
+A _[[Hamiltonian action]]_ of $\mathfrak{g}$ on $(X, \omega)$ is a [[Lie algebra]] [[homomorphism]]
 
 $$
-  \tilde \mu : \mathfrak{g} \to (C^\infty(X), \{-,-\})
+  \tilde \mu \;\colon\; \mathfrak{g} \longrightarrow (C^\infty(X), \{-,-\})
   \,.
 $$
 
 The corresponding function
 
 $$
-  \mu : X \to \mathfrak{g}^*
+  \mu \;\colon\; X \longrightarrow \mathfrak{g}^*
 $$
 
 to the [[dual vector space]] of $\mathfrak{g}$, defined by
 
 $$
-  \mu : x \mapsto \tilde \mu(-)(x)
+  \mu \;\colon\; x \mapsto \tilde \mu(-)(x)
 $$
 
 is the corresponding **moment map**.
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-This is a homomorphism of [[Poisson manifolds]].
-
-=--
-
-+-- {: .num_remark}
++-- {: .num_remark #Notation}
 ###### Remark
 
 If one writes the evaluation pairing as
@@ -112,14 +105,88 @@ $$
   \langle -,-\rangle : \mathfrak{g}^* \otimes \mathfrak{g} \to \mathbb{R}
 $$
 
-then the equation characterizing $\mu$ reads for all $x \in X$ and $A \in \mathfrak{g}$
+then the equation characterizing $\mu$ in def. \ref{MomentMap} reads for all $x \in X$ and $v \in \mathfrak{g}$
 
 $$
-  \langle \mu(x), A \rangle = \tilde \mu(A)(x)
+  \langle \mu(x), v \rangle = \tilde \mu(v)(x)
   \,.
 $$
 
 This is the way it is often written in the literature.
+
+Notice that this in turn means that 
+
+$$
+  \tilde \mu(v)= \mu^\ast \langle -,v\rangle
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #EquivalenceOfLieAndPoissonFormulation}
+###### Proposition
+
+The following are equivalent
+
+1. the linear map underlying $\tilde\mu$ in def. \ref{MomentMap} is [[Lie algebra]] [[homomorphism]];
+
+1. its dual $\mu$ is a [[Poisson manifold]] [[homomorphism]] with respect to the [[Lie-Poisson structure]] on $\mathfrak{g}^\ast$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by just unwinding the definitions.
+
+In one direction, suppose that $\tilde \mu$ is a Lie homomorphism. Since the [[Lie-Poisson structure]] is fixed on linear functions on $\mathfrak{g}^\ast$, it is sufficient to check that $\mu^\ast$ preserves the Poisson bracket on these. 
+Consider hence two Lie algebra elements $v_1, v_2 \in \mathfrak{g}$ regarded as linear functions $\langle -,v_i\rangle$ on $\mathfrak{g}^\ast$. Noticing that on such linear functions the Lie-Poisson structure is given by the Lie bracket we have, using remark \ref{Notation}
+
+$$
+  \begin{aligned}
+    \mu^\ast \{\langle -,v_1\rangle, \langle -,v_2\rangle\}
+    &=
+    \mu^\ast \langle-,[v_1,v_2]\rangle
+    \\
+    & = \tilde \mu([v_1,v_2])
+    \\
+    & = \{\tilde\mu(v_1), \tilde\mu(v_2)\}
+    \\
+    & = 
+   \left\{  
+      \mu^\ast \langle -,v_1\rangle, \mu^\ast \langle -,v_2\rangle
+   \right\}
+  \end{aligned}
+$$
+
+and hence $\mu^\ast$ preserves the Poisson brackets.
+
+Conversely, suppose that $\mu$ is a Poisson homomorphism. Then
+
+$$
+  \begin{aligned}
+    \tilde\mu [v_1,v_2]
+    &=
+    \mu^\ast \langle -, [v_1,v_2]\rangle
+    \\
+    & =
+    \mu^\ast \{\langle -,v_1\rangle, \langle -,v_2\rangle\}
+    \\
+    & =
+    \left\{
+      \mu^\ast \langle -, v_1\rangle,
+      \mu^\ast \langle -, v_2\rangle
+    \right\}
+    \\
+    & =
+    \left\{
+      \tilde\mu(v_1), \tilde\mu(v_2)
+    \right\}
+  \end{aligned}
+$$
+
+and so $\tilde \mu$ is a Lie homomorphism.
 
 =--
 
@@ -166,6 +233,8 @@ The moment map is a crucial ingredient in the construction of Marsden--Weinstein
 ## References
 
 ### General
+
+* [[Victor Guillemin]], [[Yael Karshon]], [[Viktor Ginzburg]], _Moment Maps, Cobordisms, and Hamiltonian Group Actions_, Mathematical Surveys and Monographs, volume 98
 
 Lecture notes and surveys include
 
