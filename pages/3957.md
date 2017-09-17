@@ -27,7 +27,7 @@ There are various equivalent definitions of a _convenient_ vector space, a long 
 
 +-- {: .num_defn #ConSp}
 ###### Definition 
-A [[locally convex topological vector space]] is said to be **convenient** or **$c^\infty$-complete** if whenever $c \colon \mathbb{R} \to E$ is a curve such that $l \circ c \colon \mathbb{R} \to \mathbb{R}$ is smooth for all $l \in E^*$ then $c$ is smooth.
+A [[locally convex topological vector space]] $E$ is said to be **convenient** or **$c^\infty$-complete** if whenever $c \colon \mathbb{R} \to E$ is a curve such that $l \circ c \colon \mathbb{R} \to \mathbb{R}$ is smooth for all $l \in E^*$ then $c$ is smooth.
 =--
 
 We shall give one other characterisation which recasts the definition in language more common in functional analysis.
@@ -38,6 +38,15 @@ A [[locally convex topological vector space]], $E$, is said to be **locally comp
 =--
 
 The equivalence of these two forms part of Theorem 2.14 of [KM](#KM).
+
+Other equivalent characterizations of convenient vector spaces $E$ are:
+
+
+* $E$ is a [[locally convex vector space]] and every [[Mackey-Cauchy sequences]] in $E$ converges.
+
+* $E$ is a [[locally convex vector space]] and for every smooth curve $c : \mathbb{R} \to E$ there is a curve $\int c$ such that $c$ is the [[derivative]] of $\int c$.
+
+See for instance ([Blute](#Blute)).
 
 ## Examples
 
@@ -51,10 +60,25 @@ The equivalence of these two forms part of Theorem 2.14 of [KM](#KM).
 
 * The definition of a convenient vector space has a natural interpretation in terms of [[Frölicher space]]s. It may also be related to [[synthetic differential geometry]]: convenient vector spaces form a [[full subcategory]] of the [[Cahiers topos]] ([Kock](#Kock),[KockReyes](#KockReyes)).
 
-##Reference
+## Related concepts
 
-* Andreas Kriegl, Peter Michor: _the convenient setting of global analysis_ (free download [here] (http://www.ams.org/publications/online-books/surv53-index))
-{#KM}
+* [[convenient manifold]]
+
+## References
+
+A standard textbook reference is
+
+* [[Andreas Kriegl]], [[Peter Michor]]: _The convenient setting of global analysis_, AMS (1997) ([pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf))
+ {#KM}
+
+A survey is for instance in the slides
+
+* Richard Blute, _Convenient Vector Spaces, Convenient Manifolds and Differential Linear Logic_ (2011) ([pdf](http://aix1.uottawa.ca/~rblute/FMCS.pdf))
+ {#Blute}
+
+Results on equivalent characterizations are for instance in
+
+* Thomas E. Gilsdorf, _Strictly Webbed Convenient Locally Convex Spaces_, Int. Journal of Math. Analysis, Vol. 1, 2007, no. 16, 775 - 782 ([pdf](http://www.m-hikari.com/ijma/ijma-password-2007/ijma-password13-16-2007/gilsdorfIJMA13-16-2007.pdf))
 
 The embedding of convenient vector spaces into the [[Cahiers topos]] and hence the treatment of their differential geometry by [[synthetic differential geometry]] is due to
 
