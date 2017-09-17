@@ -20,7 +20,7 @@ An interesting subclass of [[quantum field theory|quantum field theories]] is th
 
 Historically, it was an approximation to the true time evolution that was originally found and studied, by Newton, Maxwell, Einstein and others. This is now known as "[[classical physics]]". The true dynamics in turn is "quantum physics".
 
-In view of this, quantization is often understood as a [[retraction|right inverse]] to the procedure that sends the full quantum dynamics to its [[classical limit]].
+In view of this, quantization is often understood as a [[retraction|right inverse]] to the procedure that sends the full quantum dynamics to its [[classical limit]]. As such it is not well defined, i.e. unique, when it exists. Additional structures sometimes make it unique. 
 
 
 ## Related entries
@@ -62,3 +62,5 @@ A proposal for a full formalization of the notion of quantization for "finite" t
 A historical discussion by [[Zoran Škoda|one]] of the $n$labizants is here: [mathlight:quantization](http://mathlight.wordpress.com/2010/03/19/quantization). See also Urs's manifesto at [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]].
 
 * [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
+
+* [[Sergey Gukov]], [[Edward Witten]], _Branes and quantization_, [arxiv/0809.0305](hhttp://arxiv.org/abs/0809.0305) 
