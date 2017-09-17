@@ -179,10 +179,10 @@ The locally $\kappa$-presentable categories for $\kappa = \aleph_0$.
 
 * More generally, by Gabriel--Ulmer duality, $Set^C$ is locally finitely presentable if $C$ is small. For, the finite limit completion of $C$, $Lex(C)$, is also small, and $Set^C$ is equivalent to the category of finitely continuous functors $Lex(C) \to Set$. 
 
-* More generally still, if $A$ is locally finitely presentable and $C$ is small, then $A^C$ is locally finitely presentable. Indeed, embed $A$ as a finitely-accessible reflective subcategory of a presheaf topos $Set^B$, and then note that by 2-functoriality of $(-)^C$ we get $A^C$ as a finitely-accessible reflective subcategory of $Set^{B \times C}$.
+* More generally still, if $A$ is locally finitely presentable and $C$ is [[small category|small]], then $A^C$ is locally finitely presentable. Indeed, embed $A$ as a [[accessible category|finitely-accessible]] [[reflective subcategory]] of a [[presheaf topos]] $Set^B$, and then note that by [[2-functor|2-functoriality]] of $(-)^C$ we get $A^C$ as a finitely-accessible reflective subcategory of $Set^{B \times C}$.
 
 
-* The category of algebras of a [[Lawvere theory]], for example [[Grp]], is locally finitely presentable. A $T$-algebra $A$ is finitely presented if and only if the hom-functor $Alg_T(A, -)$ preserves filtered colimits, and any $T$-algebra can be expressed as a filtered colimit of finitely presented algebras. 
+* The category of [[algebra over a Lawvere theory|algebras of]] a [[Lawvere theory]], for example [[Grp]], is locally finitely presentable. A $T$-algebra $A$ is finitely presented if and only if the [[hom-functor]] $Alg_T(A, -)$ preserves [[filtered colimits]], and any $T$-[[algebra over an algebraic theory|algebra]] can be expressed as a filtered colimit of finitely presented algebras. 
 
 +-- {: .query} 
 This deserves to be expanded upon. 
