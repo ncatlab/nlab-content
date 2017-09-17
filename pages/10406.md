@@ -17,7 +17,11 @@ This entry collects hyperlinks related to the lecture notes
 
 * Sean Bates, [[Alan Weinstein]],
 
-  _Lectures on the geometry of quantization_
+  _Lectures on the geometry of quantization_,
+
+   Berkeley Mathematics Lecture Notes series,
+
+   American Mathematical Society, 1997
 
   ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
 
