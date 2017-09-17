@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Definition
 
 Let $C$ be a [[category]] and let $M$ be a class of [[monomorphisms]] in $C$.  (Often, $M$ will be the right class in an [[orthogonal factorization system]].)  We say that $C$ is **$M$-complete** if it admits all (even [[large category|large]]) [[intersections]] of $M$-[[subobjects]].  This means that it admits all (even large) [[wide pullbacks]] of families of $M$-morphisms, and such pullbacks are again in $M$.  (If $M$ is the right class of an OFS, then any intersection of $M$-morphisms which exists is automatically in $M$.)
@@ -66,6 +86,9 @@ Now suppose given $f\colon A\to B$; we want to construct an $(E_S,M_S)$-factoriz
 Let $w = n g$ be the $(E',M')$-factorization of $w$.  Since $M' \subseteq M_S$, it suffices to show that $g\in E_S$.  Note also that since $w$ is a first factor of the unit $\eta_A$, by passing to adjuncts we find that $S w$ is [[split monic]]; hence so also is $S g$.  But $T S g$ is then also split monic, hence belongs to $M$ and thus also to $M'$.  Therefore, since $g\in E'$, the naturality square for $\eta$ at $g$ contains a lift.  Passing to adjuncts again, we find that $S g$ is also [[split epic]], hence an isomorphism; thus $g\in E_S$ as desired.
 =--
 
+## Related concepts
+
+* [[complete category]]
 
 ## References
 
