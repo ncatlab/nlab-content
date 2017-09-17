@@ -68,7 +68,7 @@ where $f$ is a $L$-coalgebra and $g$ is an $R$-algebra, the functorial factoriza
 
 ##Small object argument##
 
-There is a modification of the [[small object argument]], due to Richard Garner, which produces **cofibrantly generated** NWFS. Importantly, Garner's small object argument allows the generators to be a small category over the arrow category $K^{[2]}$, rather than simply a set of arrows. As a result, there are WFS which are not cofibrantly generated in the classical sense, but which can be exhibited as the underlying WFS of a cofibrantly generated NWFS.
+There is a modification of the [[small object argument]], due to Richard Garner, which produces **cofibrantly generated** NWFS by adapting the construction of a [[free monad]] on an endofunctor.  Importantly, Garner's small object argument allows the generators to be a small category over the arrow category $K^{[2]}$, rather than simply a set of arrows. As a result, there are WFS which are not cofibrantly generated in the classical sense, but which can be exhibited as the underlying WFS of a cofibrantly generated NWFS.
 
 ## References
 
@@ -77,3 +77,7 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 * Richard Garner, "Understanding the small object argument", [arXiv](http://arxiv.org/abs/0712.0724).
 
 * Emily Riehl, "Natural weak factorization systems in model structures", [arXiv](http://arxiv.org/abs/0910.2733).
+
+[[!redirects natural weak factorization systems]]
+[[!redirects NWFS]]
+[[!redirects nwfs]]
