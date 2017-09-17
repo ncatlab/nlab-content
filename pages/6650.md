@@ -49,6 +49,10 @@ A stable reflective factorization system is sometimes called **local**.
 
   More generally, in an [[(∞,1)-topos]] for all $n \in \mathbb{N}$ the [[(n-epi, n-mono) factorization system]] (see there for more details) is a stable [[orthogonal factorization system in an (∞,1)-category]]. 
 
+## Related concepts
+
+* [[reflective factorization system]]
+
 ## References
 
 The relation between stable factorization systems and the Beck-Chevalley condition of the associated fibrations is discussed in
