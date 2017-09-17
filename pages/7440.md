@@ -32,6 +32,49 @@ A general abstract way of formalizing this is given in [Lurie, sections 1.1, 1.2
 
 There are a variety of [[model category]] structures that [[presentable (infinity,1)-category|present]] the $(\infty,1)$-category of all internal $(\infty,1)$-categories in a suitable $\mathcal{C}$, which typically go as models for _complete Segal space objects_. The soundness of these models is discussed below in _[Model category presentations](#ModelCategoryPresentations)_ ([Lurie, section 1.5](#Lurie)).
 
+## Motivation and introduction
+
+Before coming to the formal definitions below in [Definition](#Definition), here are some words for the reader looking for introduction and orientation into the general problem of formulating categories internally in [[homotopy theory]].
+
+Whatever exactly the right or desired nature of a _category internal to an $(\infty,1)$-category/[[homotopy theory]]_ is (and we will see that there are some subtleties to beware of and some variants to account for), the bare minimum must be that it consists of
+
+1. a _collection_ $X_0$ of [[objects]] -- but we shouldn't say [[set]] of objects, of course, instead the generic terminology is: a _[[type]] of objects_ and so we should write
+
+   $\vdash \; X_0 \colon Type$;
+
+1. for each [[pair]] $x_0, x_1 \colon X_0$ of objects, an _$(x_0,x_1)$-[[dependent type]] of [[morphisms]]_ $X_1(x_0,x_1)$ "from $x_0$ to $x_1$,
+  
+   $x_0, x_1 \colon X_0 \;\vdash \; X_1(x_0, x_1)$.
+
+(One might decide to collect these all together to a single type $X_1 \coloneqq \underset{x_0,x_1 \colon Type}{\sum} X_1(x_0,x_1)$, but the theory flows much more naturally if we do keep the dependency on the objects explicit.)
+
+At this point one might be tempted to proceed in close analogy to traditional formulations in [[internal category]] theory in non-homotopic 1-[[category theory]] and consider an explicit [[composition]] [[function]]
+
+$$
+  x_0, x_1, x_2 \colon X_0 \;\vdash\; comp_{x_0,x_1,x_2} \colon X_1(x_0,x_1) \times X_1(x_1, x_2) \to X_1(x_0, x_2)
+$$
+
+to be thought of as taking a [[pair]] $(g,f)$ of compasable morphisms to their composite morphism $g \circ f$, and demand that it satisfies [[associativity]] up to [[homotopy]]. This approach is explored below in the section _[H-category types](#HCategoryTypes)_, where it is also discussed that this is _not_ the correct notion of category objects internal to a homotopy-theoretic context. 
+
+To get a hint for what the correct formulation should be, it is useful to turn this around and investigate which internal-homotopy-theory structure an _ordinary_ [[small category]] ([[internal category|internal to]] [[Set]]) gives rise to.
+
+Namely, bare [[homotopy theory]] is about [[groupoids]] and then [[n-groupoids]] and [[∞-groupoids]], and so it should be relevant that a groupoid is itself a category and that, conversely, every category $C \in Cat(Set)$ already contains some "homotopy theory", namely its maximal groupoid, its _[[core]]_ $i_C \colon core(C) \to C$. This groupoid is "the [[homotopy theory]] of the [[objects]] of $C$" in the sense that is contains all the information about the objects and their [[equivalences]]. Therefore it is natural to regard this as the "type of objects" and declare $X_0 \coloneqq core(C)$, regarded as an object of objects in the ambient [[(∞,1)-category]] [[Grpd]] $\hookrightarrow$ [[∞Grpd]].
+
+But once we take that perspective, it is clear what the type $X_1$ of morphisms should be: it should be the [[comma object]] of the core inclusion with itself: $X_1 \coloneqq (i_C/i_C)$. 
+
+This is exposition is further developed in _[Segal space -- construction from a category](#Segal%20space#ConstructionFromACategory)_. There it is discussed how proceeding this way, one finds from $C$ a homotopy-theoretic kind of [[nerve]] which is now not a [[simplicial object]] in [[Set]] anymore (a [[simplicial set]]) as the nerve in ordinary [[category theory]] is, but which is now a [[simplicial object in an (∞,1)-category]], namely in [[Grpd]] $\hookrightarrow$ [[∞Grpd]]. In degree $k \in \mathbb{N}$ it contains not the _set_ of sequences of composable morphisms, but the "space" of such sequences, which just as the "space" $X_0$ of objects knows all the [[homotopies]], namely all the [[equivalences]] between such sequences of composable morphisms.
+
+One then recalls a basic fact of traditional [[category theory]]: a [[simplicial set]] is the [[nerve]] of a [[category]] precisely if it satisfies the [[Segal conditions]]: which say that it is built from certain iterated [[fiber products]] of the 1-[[simplices]] over the [[vertices]]. Accordingly, here one should expect that the simplicial groupoid $X_\bullet$ is built in degree $k$ by a $k$-fold [[homotopy fiber product]] of the space of 1-simplices over the space of vertices, and indeed one finds that it is. 
+
+In traditional category theory a simplicial set is the nerve of a category if and only if it satisfies the [[Segal conditions]]. Does the converse already hold here? The above inspection shows that instead of the core inclusion $i_C \colon core(C) \to C$ we could have started with _any_ [[functor]] $i \colon K \to C$ and $X_n \coloneqq i^{/^n}$ would still defined a simplicial groupoid that satisfies the [[Segal conditions]]. So in homotopy theory the Segal conditions, which witness the fact that we formed a nerve by iteraded [[homotopy fiber product]], need to be accompanied by one more condition which ensures that we are indeed forming the homotopy fiber product not of any map, but of the [[core]]-inclusion (this is often, but somewhat undescrptively, called the "[[complete Segal space|compleness]] condition", and more recently also called a [[univalence]] condition). 
+
+Finally, the [[nerve]] of a category in fact contains lots of redundant information. It is [[coskeleton|2-coskeletal]] and hence in a precise sense already its [[skeleton|2-skeleton]] $X_2 \stackrel{\to}{\stackrel{\to}{\to}} X_1 \stackrel{\to}{\to} X_0$ contains all the relevant information. Therefore we may decide to write this out explicitly in terms of a further [[dependent type]] $X_2$ of [[compositions]]. This explicit 2-skeletal formulation of internal [[(1,1)-categories]] in [[homotopy theory]] is spelled out below in _[(1,1)-Category types](#1CategoryTypes)_.
+
+But of course the point of category objects internal ot an $(\infty,1)$-category is to speak about structures of higher homotopical degree, hence about untruncated [[simplicial objects in an (∞,1)-category]] and the appropriate conditions on them to qualify as internal categories. The comprehensive discussion of this definition we turn to in _[Definition](#Definition)_.
+
+
+
+
 
 ## Definition
  {#Definition}
@@ -630,6 +673,7 @@ This is how the above formulation implicitly deals with [[homotopy coherent diag
 =--
 
 #### H-Category types
+ {#HCategoryTypes}
 
 It may be instructive to begin by discussing a notion of [[internal category]] in [[homotopy theory]] which is _not_ an category object in an $(\infty,1)$-category and which does _not_ interpret as an [[(∞,1)-category]], but which serves to illustrate a subtlety in the correct definition. In fact, it is an internal formulation of the [[H-category]] that underlies in particular any genuine precategory object, by def. \ref{HomotopyCategoryOfPreCategoryObject} above.
 
