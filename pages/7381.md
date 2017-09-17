@@ -58,3 +58,4 @@ Articles that discuss the relation of arithmetic Chow groups to [[ordinary diffe
  {#BurgosGil97}
 
 [[!redirects arithmetic Chow groups]]
+[[!redirects Arithmetic Chow groups]]
