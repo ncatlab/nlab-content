@@ -10,6 +10,8 @@
 
 ## Basic concepts
 
+* [[almost symplectic structure]], [[metaplectic structure]], [[metalinear structure]]
+
 * [[symplectic form]], [[n-plectic form]]
 
 * [[symplectic Lie n-algebroid]]
