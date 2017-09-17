@@ -1,8 +1,28 @@
-<div class="rightHandSide toc">
-[[!include monoidal categories - contents]]
-</div>
 
-A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]].  This a weakening of the concept of [[cartesian monoidal category]], which might seem like pointless [[centipede mathematics]] were it not for the existence of many interesting examples.  
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+# Semicartesian monoidal categories
+
+* table of contents
+{: toc}
+
+## Definition
+
+A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]].  This a weakening of the concept of [[cartesian monoidal category]], which might seem like pointless [[centipede mathematics]] were it not for the existence of interesting examples and applications.
+
+## Examples
 
 Some examples of semicartesian monoidal categories that are not cartesian include the following.
 
@@ -16,6 +36,10 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 
 * The category of [[convex space|convex spaces]], also known as 'barycentric algebras', made into a closed monoidal category where the internal hom has $hom(x,y)$ being the set of convex linear maps from $x$ to $y$, made into an barycentric algebra via pointwise operations.
 
+## Properties
+
+### Semicartesian vs. cartesian
+
 In a semicartesian monoidal category, any tensor product of objects $x \otimes y$ comes equipped with morphisms 
 $$ p_x : x \otimes y  \to x $$
 $$ p_y : x \otimes y \to y$$
@@ -24,6 +48,18 @@ $$ x \otimes y \stackrel{1 \otimes e_y}{\longrightarrow} x \otimes I \stackrel{r
 and
 $$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\ell_y}{\longrightarrow} y $$
 respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.)  This also follows if we posit the existence of a natural [[diagonal morphism]] $x \to x \otimes x$.
+
+### Colax functors
+
+It is well-known that any functor between cartesian monoidal categories is automatically and uniquely [[colax monoidal functor|colax monoidal]]; the colax structure maps are the comparison maps $F(x\times y) \to F x \times F y$ for the cartesian product.  (This also follows from abstract nonsense given that the [[2-monad]] for cartesian monoidal categories is [[colax-idempotent 2-monad|colax-idempotent]].)  An inspection of the proof reveals that this property only requires the domain category to be semicartesian monoidal, although the codomain must still be cartesian.
+
+### Semicartesian operads
+
+The notion of [[semicartesian operad]] is a type of [[generalized multicategory]] which corresponds to semicartesian monoidal categories in the same way that [[operads]] correspond to (perhaps symmetric) monoidal categories and [[Lawvere theories]] correspond to cartesian monoidal categories.  Applications of semicartesian operads include:
+
+* [Generalized operads in classical algebraic topology](http://golem.ph.utexas.edu/category/2009/10/generalized_operads_in_classic.html) (blog post) -- this also uses the above fact about colax functors
+
+* [Characterizing finite measure spaces](http://golem.ph.utexas.edu/category/2011/05/an_operadic_introduction_to_en.html#c038131) (blog comment)
 
 
 [[!redirects semicartesian category]]
