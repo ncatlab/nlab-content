@@ -5,7 +5,7 @@
 
 ## Idea
 
-For $G$ a [[Lie group]], $\mathcal{B}G \in $ [[Top]] the corresponding [[classifying space]] and $c \in H^4(\mathcal{B}G, \mathbb{Z})$ a [[cocycle]] (in integral [[singular cohomology]]), what is called a **Chern-Simons 2-gerbe** with class $c$ is effectively a refinemnet to [[differential cohomology]] of $c$, i.e. a realization of the idea
+For $G$ a [[Lie group]], $\mathcal{B}G \in $ [[Top]] the corresponding [[classifying space]] and $c \in H^4(\mathcal{B}G, \mathbb{Z})$ a [[cocycle]] (in integral [[singular cohomology]]), what is called a **Chern-Simons 2-gerbe** with class $c$ is effectively a refinement to [[differential cohomology]] of $c$, i.e. a realization of the idea
 
 * a smooth $\mathbf{B}^2 U(1)$-[[principal infinity-bundle|principal 3-bundle]] "on $\mathcal{B} G$";
 
