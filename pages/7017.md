@@ -17,11 +17,14 @@
 
 ## Idea
 
-Syntax is the formal specification of a [[theory]], as opposed to [[semantics]].
+Syntax is the formal specification of a [[theory]] if [[formal logic]], as opposed to [[semantics]].
 
 ## Related concepts
 
 * [[syntax - semantics duality]]
 
+* [[relation between type theory and category theory]]
+
+* [[transcendental syntax]]
 
 [[!redirects syntax]]
