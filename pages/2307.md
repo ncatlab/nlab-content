@@ -110,3 +110,5 @@ See also
 [[!redirects complex cobordism]]
 
 [[!redirects complex bordism]]
+
+[[!redirects cobordism homology theory]]
