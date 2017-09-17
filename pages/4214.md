@@ -1,6 +1,11 @@
+# Companion pairs
+* table of contents
+{: toc}
+
 ## Idea
 
 A **companion pair** in a [[double category]] is a way of saying that a horizontal arrow and a vertical arrow are "isomorphic," even though they do not live in the same 2-category.
+
 
 ## Definition
 
@@ -18,11 +23,13 @@ such that $\psi \circ_h \phi = id_f$ and $\phi \circ_v \psi = id_{f'}$, where $\
 
 Given such a companion pair, we say that $f$ and $f'$ are **companions** of each other.
 
+
 ## Examples
 
 * In the double category $\mathbf{Sq}(K)$ of squares ("quintets") in any 2-category $K$, a companion pair is simply an invertible 2-cell between two parallel 1-morphisms of $K$.
 
 * In the double category $T$-**Alg** of algebras, lax morphisms, and colax morphisms for a [[2-monad]], an arrow (of either sort) has a companion precisely when it is a *strong* (= pseudo) $T$-morphism.  This is important in the theory of [[doctrinal adjunction]].
+
 
 ## Remarks
 
@@ -34,7 +41,11 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 
 * Companion pairs and mate-pairs of 2-cells between them in any double category $D$ form a 2-category $Comp(D)$.  The functor $Comp\colon DblCat \to 2Cat$ is right adjoint to the functor $Sq\colon 2Cat \to DblCat$ sending a 2-category to its double category of squares.
 
+
 [[!redirects companion]]
 [[!redirects companions]]
+[[!redirects companion pair]]
 [[!redirects companion pairs]]
 [[!redirects companion pair in a double category]]
+[[!redirects companion pairs in a double category]]
+[[!redirects companion pairs in double categories]]
