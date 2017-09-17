@@ -1,0 +1,16 @@
++-- {: .num_defn}
+###### Definition
+Let $K\hookrightarrow L$ denote a Galois field extension. The the automorphism group
+
+$$Gal(K\hookrightarrow L):=Aut_K(L)$$
+
+consisting just of those automorphisms of $L$ whose restriction to $K$ is the identity is called *Galois group of the field extension $K\hookrightarrow L$.
+=--
+
+Every Galois group $Gal(K\hookrightarrow L)=lim_{K\hookrightarrow E\hookrightarrow L}Gal (K\hookrightarrow E)$  is a [[profinite group|profinite]] [[topological group]] in that it is the limit of the topologically discrete Galois groups of the intermediate extensions between $K$ and $L$.
+
+The just defined Galois group is the one occurring in the classical [[Galois theory]] for fields. The analog of the Galois group in the [[Galois theory|Galois theory for schemes]] is a [[fundamental group]] (of a scheme) and is rarely calle Galois group.
+
+The Galois group $Gal(K\hookrightarrow K_s)$ of the separable closure of $K$ is called *[[absolute Galois group]]* of $K$. In this case we have $Gal(K\hookrightarrow K_s)\simeq \pi_1(Spec\; K)$ is equivalent to the [[fundamental group]] of the [[scheme]] $Spec K$.
+
+If the scheme moreover is a [[group scheme]] (i.e. endowed with a group structure) modules over the Galois group which are called [[Galois module|Galois modules]] play an important role in [[algebraic number theory]].
