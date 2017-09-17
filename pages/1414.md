@@ -20,7 +20,7 @@ $$
   \,.
 $$
 
-is induced, by the general machinery of [[nerve and realization]] induced by a 
+is induced, by the general machinery of [[nerve and realization]], by a 
 [[simplicial object|cosimplicial]] [[simplicially enriched category]], namely a [[functor]]
 
 $$
@@ -465,6 +465,7 @@ and
 * Mitya Borachenko, Notes and exercise on $\infty$-cateogires([pdf](http://math.uchicago.edu/~mitya/langlands/quasicategories.pdf))
 
 
+For more references see [[relation between quasi-categories and simplicial categories]].
 
 ## Discussion ##
 
