@@ -1,7 +1,15 @@
+# Boolean rings
+* table of contents
+{: toc}
+
+## Definitions
+
 A [[ring]] $R$ is __Boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$.
 
+Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]] $Boo Rng$.
 
-Consequences:
+
+## Properties
 
 *  $R$ has characteristic $2$ (meaning that $x + x = 0$ for all $x$):
    $$ 2 x = 4 x - 2 x = 4 x^2 - 2 x = (2 x)^2 - 2 x = 2 x - 2 x = 0 .$$
@@ -37,14 +45,14 @@ In fact, we have:
 Boolean rings and Boolean algebras are equivalent.
 =--
 
-This extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of Boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of Boolean algebra structures on $R$. The category of boolean rings is [[BooRng]].
+This extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of Boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of Boolean algebra structures on $R$.
 
 Here is a very convenient result: although a Boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
 
 
 ## Terminology
 
-Back in the day, the term 'ring' meant a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to Boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'Boolean ring' (meaning an idemptotent semigroup in $Ab$) and 'Boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]].
+Back in the day, the term 'ring' meant a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to Boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'Boolean ring' (meaning an idempotent semigroup in $Ab$) and 'Boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]].
 
 
 ## Analogues
@@ -52,6 +60,11 @@ Back in the day, the term 'ring' meant a possibly *non*unital ring; that is a [[
 Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a Boolean ring may be defined as a semilattice in $Ab$.  However, with Boolean rings, we do not need to hypothesise commutativity; it follows.
 
 
+[[!redirects Boolean ring]]
 [[!redirects boolean ring]]
 [[!redirects Boolean rings]]
 [[!redirects boolean rings]]
+[[!redirects Boo Rng]]
+[[!redirects BooRng]]
+[[!redirects Boo Ring]]
+[[!redirects BooRing]]
