@@ -55,6 +55,7 @@ The basic constructions that higher geometric quantization is concerned with are
 | [[n-plectic ∞-groupoid]]  | $X \stackrel{\omega}{\to} \Omega^{n+1}_{cl}(-,\mathbb{G})$ | [[twisted cohomology|twisting]] [[cocycle]] in [[de Rham cohomology]] |
 | [[symplectomorphism group]] | $\mathbf{Aut}_{/\Omega^{n+1}(-,\mathbb{G})}(\omega) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\omega}}\searrow && \swarrow_{\mathrlap{\omega}} \\ && \Omega^{n+1}_{cl}(-,\mathbb{G})  } \right\}$ |   |
 | [[prequantum circle n-bundle]] | $\array{ && \mathbf{B}^n \mathbb{G}_{conn} \\ & {}^{\mathllap{\mathbf{c}_{conn}}}\nearrow & \downarrow^{\mathrlap{curv}} \\ X &\stackrel{\omega}{\to}& \Omega^{n+1}(-,\mathbb{G})}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[ordinary differential cohomology|differential cohomology]] |
+| [[Planck's constant]] $\hbar$ | $\tfrac{1}{\hbar}\mathbf{c}_{conn} : X \to \mathbf{B}^n \mathbb{G}_{conn}$ | divisibility of twisting class  |
 | [[quantomorphism group]] $\superset$ [[Heisenberg group]] | $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | twist [[automorphism ∞-group]] |
 | [[Hamiltonian]] [[quantum operator (in geometric quantization)|quantum observables]] with [[Poisson bracket]] | $Lie(\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}))$  | [[infinitesimal cohesion|infinitesimal]] twist automorphisms |
 | [[Hamiltonian actions]] of a [[smooth ∞-group]] $G$ / dual [[moment maps]]| $ \mu : \mathbf{B}G \to \mathbf{B}\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn})$ | $G$-[[∞-action]] on the twisting |
@@ -204,6 +205,8 @@ But for any further nontrivial such autoequivalence in the slice we would need i
 
   $\tfrac{1}{2}\hat \mathbf{p}_1 : \mathbf{B}Spin_{conn} \to \mathbf{B}^3 U(1)_{conn}$
 
+So [[Planck's constant]] here is  $\hbar = 2$ (relative to the naive multiple).
+
 The total space of the prequantum 3-bundle is
 
 $$
@@ -250,6 +253,9 @@ $$
   [[differential fivebrane structure|differential second fractional Pontryagin class]] 
 
   $\tfrac{1}{6}\hat \mathbf{p}_2 : \mathbf{B}String_{conn} \to \mathbf{B}^z U(1)_{conn}$
+
+So [[Planck's constant]] here is  $\hbar = 6$ (relative to the naive multiple).
+
 
 The total space of the prequantum 7-bundle is
 
