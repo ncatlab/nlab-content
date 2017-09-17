@@ -201,9 +201,9 @@ $$
   \,.
 $$
 
-This is now the [[interaction]] term for the correspomnding [[brane]] [[sigma-model]] on the curved [[super spacetime]].
+This is now the [[interaction]] term for the corresponding [[brane]] [[sigma-model]] on the curved [[super spacetime]].
 
-## Related concdepts
+## Related concepts
 
 * [[gauged WZW model]]
 
