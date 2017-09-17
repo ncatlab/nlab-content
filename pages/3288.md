@@ -345,7 +345,11 @@ When unwrapping what all this means, one sees that the object $LoopSpace_x(X) \i
 
 ## Related concepts
 
+* [[Dirac operator on smooth loop space]]
+
 * [[Dirac-Ramond operator]], [[Witten genus]]
+
+
 
 ## References
 
