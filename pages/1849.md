@@ -25,6 +25,8 @@ The field content of 11-dimensional [[nLab:supergravity]] contains a field calle
 ## The DFM-model
  {#DFMmodel}
 
+### Construction via $E_8$ gauge fields
+
 In ([DFM, section 3](#DFM)) the following definition is considered and argued to be a good model of the supergravity $C$-field.
 
 Notice that the [[nLab:homotopy group]]s of the [[nLab:classifying space]] $B E_8$ of the [[nLab:Lie group]] [[nLab:E8]] satisfy
@@ -116,8 +118,45 @@ $$
   \,.
 $$
 
+### Orientation and fractional classes
+
+Ordinarily, given a $Spin \times E_8$-bundle $P \to Y$ with first fractional [[Pontryagin class]]
+
+$$
+  \lambda := \frac{1}{2}p_1(P)
+$$
+
+and second [[Chern class]]
+
+$$
+  a := c_2(P)
+$$
+
+the $C$-field is supposed to have a [[curvature]] class in [[de Rham cohomology]] given by 
+
+$$
+  a_{dR} + \frac{1}{2} \lambda_{dR} \in H_{dR}^4(Y)
+  \,.
+$$
+
+Since in general $\lambda = \frac{1}{2}p_1(P)$ is not further divisible in integral cohomology, this means that this cannot be the curvature of any [[differential character]]/[[bundle 2-gerbe]]/[[circle n-bundle with connection|circle 3-bundle with connection]], since these are necessarily the images in de Rham cohomology of their integral classes.
+
+See also ([DFM, section 12.1](#DFM)) where it is argued that this is related to boundaries and orientation double covers.
+
+### Restriction to the boundary
+
+By [DFM, section 12](#DFM) on a manifold $Y$ with boundary $X = \partial Y$ we are to impose $C|_{\partial Y} = 0$. 
+
+See the discussion [below](#RestrictionToBoundaryInChernWeil) for how this reproduces the [[Green-Schwarz mechanism]] for heterotic [[supergravity]] on the boundary.
+
 
 ## Description in $\infty$-Chern-Weil theory
+
+Some remarks on ways to regard similar cohomological situations from the point of view of [[∞-Chern-Weil theory]].
+
+### Abstract definition
+
+We shall consider here first the case of the double $C$-field, whose curvature is the image in de Rham cohomology of the proper integral class $2 a - \lambda $
 
 Recall from the discussion at [[circle n-bundle with connection]]
 that in the [[cohesive (∞,1)-topos]] $\mathbf{H} := $ [[Smooth∞Grpd]] the circle 3-bundles with local 3-form connection over an object $X \in \mathbf{H}$ are cocycles in the object $\mathbf{H}_{diff}(X, \mathbf{G}^3 U(1))$ that is the [[(∞,1)-pullback]]
@@ -143,14 +182,63 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{H}(X, \mathbf{B} E_8)
-    &\stackrel{\hat \mathbf{c}_2}{\to}&
+    \mathbf{H}(X, \mathbf{B} (Spin \times E_8))
+    &\stackrel{(2\mathbf{c}_2)_{dR}- (\frac{1}{2}\mathbf{p}_1)_{dR}}{\to}&
     \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^4 U(1))
   }
   \,.
 $$
 
-In order to compute this $(\infty,1)$-pullback, we follow the discussion at  [[differential string structure]], where presentations of this pullback in terms of [[simplicial presheaves]] arising from  [[Lie integration]] is given.
+By its <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWeilTheory">intrinsic definition</a> we have that $(\mathbf{c}_2)_{dR}$ is the composite
+
+$$
+  (\mathbf{c}_2)_{dR} : 
+  \mathbf{B}E_8
+   \stackrel{\mathbf{c}_2}{\to}
+  \mathbf{B}^3 U(1)
+    \stackrel{curv}{\to}
+  \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)
+$$ 
+
+of the smooth second Chern-class with the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature form</a> on $\mathbf{B}^3 U(1)$. Similarly for $(\frac{1}{2}\mathbf{p}_2)_{dR}$.
+
+By the pasting law for [[(∞,1)-pullback]]s, this implies that the above $(\infty,1)$-pullback may be decomposed into two consecutive pullbacks of the form
+
+$$
+  \array{
+    C Field(X) &\stackrel{\hat \chi}{\to}& \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
+     &\stackrel{\omega}{\to}&
+     H^4_{dR}(X)
+   \\
+    \downarrow && \downarrow && \downarrow
+   \\
+   \mathbf{H}(X, \mathbf{B}E_8)
+    &\stackrel{2\mathbf{c}_2- \frac{1}{2}\mathbf{p}_2}{\to}&
+   \mathbf{H}(X, \mathbf{B}^3 U(1))
+    &\stackrel{curv}{\to}&
+   \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^4 U(1))
+  }
+  \,,
+$$
+
+where on the right we find the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">defining pullback</a> for (the [[cocycle]] [[3-groupoid]] of) [[ordinary differential cohomology]].
+
+This immediately yields the existence of the morphism
+
+$$
+  \hat \chi : C Field(X) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
+    \stackrel{\tau_{\leq 0}}{\to}
+    H^4_{diff}(X)
+$$
+
+that maps $C$-field configurations to [[ordinary differential cohomology]] in degree 4, whose [[curvature]] $\omega(\hat \chi)$ is the image $(\mathbf{c}_2)_{dR} :=  curv(2\mathbf{c}_2 - \frac{1}{2}\mathbf{p}_2)$ in de Rham cohomology of the second Chern-class of some $E_8$-bundle.
+
+Notice that this also immediately implies that $\hat \xhi(C)$ has all the general properties that make its [[higher parallel transport]] over [[membrane]] worldvolumes be well-defined.
+
+
+### Explicit presentation by differential form data
+
+In order to compute the $(\infty,1)$-pullback $C Field(X)$ more explicitly, we follow the discussion at  [[differential string structure]], where presentations of this pullback in terms of [[simplicial presheaves]] arising from  [[Lie integration]] is given.
 
 Using this we presents $\hat \mathbf{c}_2$ by
 
@@ -176,9 +264,9 @@ $$
     \array{ 
       F_\omega =& d A + \frac{1}{2}[A \wedge A]
       \\
-      C_3 =& \nabla B := d B + CS(A) - Q_3 
+      C_3 =& \nabla B := d B + CS(A) - H_3 
       \\
-      \mathcal{G}_4  =& d Q_3
+      \mathcal{G}_4  =& d H_3
       \\
       d F_A =& - [A \wedge F_A]
       \\
@@ -198,7 +286,7 @@ $$
        \\
        c & \mapsto C_3
        \\
-       q & \mapsto Q_3
+       h & \mapsto H_3
        \\
        g & \mapsto \mathcal{G}_4
     }
@@ -208,9 +296,9 @@ $$
     \array{  
        r^a  =& d t^a + \frac{1}{2}C^a{}_{b c} t^b \wedge t^c + 
        \\
-       c = & d b + cs - q     
+       c = & d b + cs - h     
        \\
-       g  =& d q
+       g  =& d h
        \\
        d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
        \\
@@ -221,8 +309,7 @@ $$
   \right)
 $$
 
-on $U \times \Delta^k$. (Notice that compared to the discussion at [[differential string structure]] we have renamed $H$ to $C$ and $C$ to $Q$ to fit standard notation as far as possible.) 
-
+on $U \times \Delta^k$. 
 Let $\{U_i \to X\}$ be a differentiably [[good open cover]]. We hit all connected components of $\mathbf{H}(X, \mathbf{B}E_8)$ by considering in 
 
 $$
@@ -258,9 +345,37 @@ where
 
 * $CS(\nabla_1, \nabla_2) = \int_{\Delta^1} \langle F_{\hat \nabla} \wedge F_{\hat \nabla}\rangle $ is the relative [[Chern-Simons form]] corresponding to the shift of $E_8$-connection.
 
-(...)
+### Restriction to the boundary
+  {#RestrictionToBoundaryInChernWeil}
 
+We have seen that $C Field(Y)$ is the 3-goupoid of those [[Cech cohomology|Cech cocycles]] on $Y$ with coefficients in $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)_{diff}$ such that the curvature 4-form $\mathcal{G}_4$ has a fixed globally defined value. 
 
+Consider the subobject of the [[simplicial presheaf]] $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ on those cells for which $C = 0$.
+
+By the above grauge transformation law
+
+$$
+  C_2 = C_1 + d \omega + CS(A_1, A_2)
+$$
+
+this means that this picks those [[morphism]]s for which the 
+
+$$
+  CS(A_1,A_2) = \int_{\Delta^1} \langle F_{A} \wedge F_{A}\rangle 
+  = 0
+  \,,
+$$
+
+where $A = A_U + \lambda d t \in \Omega^1(U \times \Delta^1, \mathfrak{g})$ is the 1-form datum.
+
+This is the case on paths for which $\iota_t F_A = 0 $, but this are exactly the paths that induce genuine [[gauge transformation]]s between $A_1$ and $A_2$, where 
+
+$$
+  \frac{d}{d t} A = d_U \lambda + [\lambda , A]
+  \,.
+$$
+
+This means that cocycles with coefficients in this subobject for $C = 0$ are cocycles as described at [[differential string structure]], exhibiting the [[Green-Schwarz mechanism]] on the heterotic boundary.
 
 ## Related concepts
 
