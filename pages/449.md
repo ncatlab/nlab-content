@@ -22,9 +22,9 @@
 
 In an _algebraic definition_ of [[(n,r)-categories]] [[composition]] of [[higher morphism]]s is a genuine algebraic operation. As opposed to a _geometric model_ where composites are only guaranteed to exist, in an algebraic model there is prescription for finding these composites.
 
-These choice may be given in an elementary way as binary composition operations as in an ordinary [[category]], or the composition operation may be controled by sophisticated algebraic structures such as [[operad]]s that, while keeping track of all specified composites, may allow large of possible composition operations.
+These choices may be given in an elementary way as binary composition operations as in an ordinary [[category]], or the composition operation may be controled by sophisticated algebraic structures such as [[operad]]s that, while keeping track of all specified composites, may allow large combinations of possible composition operations.
 
-The composition operation in an algebraic model for an $(n,r)$-category are subject to [[associativity]]  [[coherence law]]s. On the geometric size these reflect the fact that the spaces of possible choices of composites are contractible.
+The composition operation in an algebraic model for an $(n,r)$-category are subject to [[associativity]]  [[coherence law]]s. On the geometric side these reflect the fact that the spaces of possible choices of composites are contractible.
 
 Typically an algebraic model for higher categories admits a [[nerve]] operation that turns it into an equivalent geometric model. Conversely, typically one can obtain an algebraic model form a geometric model by making _choices_ of composites.
 
@@ -41,7 +41,7 @@ Typically an algebraic model for higher categories admits a [[nerve]] operation 
 
   * [[tetracategory]]
 
-  are algebraic models for [[n-categories]] with $1 \leq n \leq 4$ given in terms of direct explicit operations: no [[operad]]s or other tools are used but all the possible compossition operations are defined elementarily and all the relevant [[coherence law]]s are demanded explcitly. This makes these models very concrete and hands-on. But it also has the disadvantage that beginning with tricategories these definitions become quite unwieldy.
+  are algebraic models for [[n-categories]] with $1 \leq n \leq 4$ given in terms of direct explicit operations: no [[operad]]s or other tools are used but all the possible composition operations are defined elementarily and all the relevant [[coherence law]]s are demanded explicitly. This makes these models very concrete and hands-on. But it also has the disadvantage that beginning with tricategories these definitions become quite unwieldy.
 
 * For [[strict n-categories]] all subtleties with [[associator]]s and [[coherence law]]s are absent (by definition) and therefore there are straightforward algebraic models for these See [[strict omega-category]], [[strict omega-groupoid]] and [[n-fold category]]. The drawback is of course that these strict models capture only a very restricted part of higher category theory.
 
