@@ -51,6 +51,8 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 * [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) ([pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF))
 
+For the relation to [[Floer homology]] see also
+
 * [[Simon Donaldson]], _Floer homology groups in Yang-Mills theory_ Cambridge University Press (2002) ([pdf](http://catdir.loc.gov/catdir/samples/cam031/2001035888.pdf))
 
 [[!redirects Yang--Mills theory]]
