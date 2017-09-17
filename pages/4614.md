@@ -587,7 +587,7 @@ $$
   \,.
 $$
 
-This means that the degeneracy maps of $P_\bullet$ are induced degreewise by morphisms between pullbacks in [[Top]] that are degreewise [[closed cofibration]]s, where one of the morphisms in each pullback is a fibration. By the properties discussed at [[closed cofibration]], this implies that also these degeneracy maps of $P_\bullet$ are closed cofibration.
+This means that the degeneracy maps of $P_\bullet$ are induced degreewise by morphisms between pullbacks in [[Top]] that are degreewise [[closed cofibration]]s, where one of the morphisms in each pullback is a fibration. By the properties discussed at [[closed cofibration]], this implies that also these degeneracy maps of $P_\bullet$ are closed cofibrations.
 
 =--
 
@@ -595,9 +595,9 @@ This means that the degeneracy maps of $P_\bullet$ are induced degreewise by mor
 ###### Definition
 
 
-Under the degreewise [[Yoneda embedding]] $sTop \hookrightarrow [Top^{op}, sSet]$ simplicial topological spaces embed into the category of [[simplicial presheaves]] in [[Top]].
+Under the degreewise [[Yoneda embedding]] $sTop \hookrightarrow [Top^{op}, sSet]$ simplicial topological spaces embed into the category of [[simplicial presheaves]] on [[Top]].
 
-We equip this with the projective [[model structure on simplicial presheaves]] $[Top^{op}, sSet]_{proj}$ and we speak of [[homotopy limit]]s in $sTop$ under this embedding.
+We equip this with the projective [[model structure on simplicial presheaves]] $[Top^{op}, sSet]_{proj}$, and we speak of [[homotopy limit]]s in $sTop$ under this embedding.
 
 =--
 
