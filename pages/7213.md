@@ -70,7 +70,7 @@ Reviewes include
 
 * Daniel Persson, _Arithmetic and Hyperbolic Structures in String Theory_ ([arXiv:1001.3154](http://arxiv.org/abs/1001.3154))
 
-* Nassiba Tabti, _Kac-Moody algebraic structures in supergravity theories_ ([arXiv:0910.1444](http://arxiv.org/abs/0910.1444)
+* Nassiba Tabti, _Kac-Moody algebraic structures in supergravity theories_ ([arXiv:0910.1444](http://arxiv.org/abs/0910.1444))
 
 Original articles include
 
