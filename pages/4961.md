@@ -41,5 +41,17 @@ For $S \in Set$
 
 For an axiomatization of this situation see [[cohesive topos]].
 
-[[!redirects codiscrete topology]]
 [[!redirects discrete topology]]
+
+[[!redirects discrete topologies]]
+[[!redirects discrete topological structure]]
+[[!redirects discrete topological structures]]
+[[!redirects discrete topological space]]
+[[!redirects discrete topological spaces]]
+
+[[!redirects codiscrete topology]]
+[[!redirects codiscrete topologies]]
+[[!redirects codiscrete topological structure]]
+[[!redirects codiscrete topological structures]]
+[[!redirects codiscrete topological space]]
+[[!redirects codiscrete topological spaces]]
