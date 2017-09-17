@@ -33,10 +33,21 @@ $$
   \,.
 $$
 
+## Properties
 
-## Orientation of manifolds
+### Relation to orientation of manifolds
 
 For $X$ an $n$-dimensional [[manifold]] a lift of [[generalized the|the]] classifying map $X \to \mathcal{B}O(n)$ of the $O(n)$-[[principal bundle]] to which the [[tangent bundle]] $T X$ is [[associated bundle|associated]] is the same as a choice of [[orientation]] of $X$.
+
+## Examples
+
+For the almost degenerate case $n = 2$ there are exceptional [[isomorphisms]] of [[Lie groups]]
+
+$$
+  SO(2) \simeq U(1) \simeq Spin(2)
+$$
+
+with the [[circle group]] and [[spin group]] in dimension 2.
 
 ## Related concepts
 
