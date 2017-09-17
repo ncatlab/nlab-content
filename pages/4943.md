@@ -24,6 +24,7 @@ The generalization of this to [[Riemannian manifold]]s and [[metric space]]es is
 
 The **convex hull** of a subset is the smallest convex subset containing it.
 
+A generalization off the notion of a convex set is that of a [[convex space]].
 
 ## Properties
 
@@ -33,3 +34,8 @@ Every convex set is [[star-shaped]].
 [[!redirects convex hull]]
 [[!redirects convex set]]
 [[!redirects convex sets]]
+
+[[!redirects convex subset]]
+[[!redirects convex subsets]]
+[[!redirects convex sub-set]]
+[[!redirects convex sub-sets]]
