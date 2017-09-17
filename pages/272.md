@@ -33,16 +33,6 @@ On the other hand, all three of these encode what in phyics are called _Eudlidea
 
 In the context of the Haag-Kastler axioms there is a precise theorem, the [[Osterwalder-Schrader theorem]], relating the Euclidean to the Lorentzian formulation: this is the operation known as [[Wick rotation]].
 
-+-- {: .query}
-Comment by [[Tim van Beek]]: I'd like to put that down on the nLab (I mean the precise formulation of the Osterwalder-Schrader theorem), but would do that on the Haag-Kastler axioms page instead of here - I would dedicate this page to an overview and connections to newer developments involving higher categories, and use the Haag-Kastler page to cite some classical results (like DHR-Superselection theory). 
-Urs, what do you think?
-BTW: Is this the correct format to insert a comment?
-
-[[Urs Schreiber]]: yes, sounds like a good plan. And yes, the idea is that we include comments like this one in query boxes here, yes.
-
-=--
-
-
 --- much information to be filled in ---
 
 ## References
