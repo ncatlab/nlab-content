@@ -205,6 +205,8 @@ The Kontsevich and Soibelman references below are also good.
 
 * [[deformation quantization]]
 
+* [[Lubin-Tate theory]]
+
 ## References
 
 * C. Doran, _Deformation Theory: An Historical Annotated
