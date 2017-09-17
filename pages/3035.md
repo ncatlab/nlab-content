@@ -79,6 +79,9 @@
 
 * [[L-∞-algebra]]
 
+  * [[model structure for L-∞ algebras]]: [[model structure on dg-Lie algebras|on dg-Lie algebras]],  [[model structure on dg-coalgebras|on dg-coalgebras]], [[model structure on simplicial Lie algebras|on simplicial Lie algebras]]
+
+
   * [[Lie algebra]]
 
     * [[semisimple Lie algebra]], [[compact Lie algebra]]
@@ -98,6 +101,7 @@
 * [[super L-∞ algebra]]
 
   * [[super Lie algebra]]
+
 
 ## Formal Lie groupoids
 
