@@ -6,9 +6,15 @@
 
 ## Idea
 
-The 2-dimensional [[sigma-model]] called the "[[string]]" exhibits a rich structure (whose study is the topic of (perturbative) [[string theory]]). Notably its [[supergeometry]] version comes in five different types, that are superficially different, but seem to be closely related on a deeper level.  
+The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] -- the [[supergravity C-field]] -- that naturally couples to higher electrically charged 2-[[brane]]s ([[membrane]]s). By a process called _double dimensional_ reduction, these are related to [[string]]s (Bergshoeff-Sezgin-Townsend, Duff, 80s).
 
-In ([Witten95](#Witten95)) it was argued that the 10-dimensional [[target space]] theories of these five types are all limiting cases of one single 11-dimensional target space theory that extends [[11-dimensional supergravity]]. It was then argued that this should accordinly be the [[target space]] of 3-dimensional [[sigma-model]] such that the 2-dimensional string $\sigma$-models are limiting cases. This 3d model is said to describe the _M-theory membrane_ or _M2-brane_ for short.
+When in ([Witten95](#Witten95)) it was argued that the 10-dimensional [[target space]] theories of the five types of [[string theory|superstring theories]] are all limiting cases of one single 11-dimensional target space theory that extends [[11-dimensional supergravity]], it was natural to guess that this supergravity membrane accordingly yields a 3-dimensional [[sigma-model]] that reduces in limiting cases to the [[string]] [[sigma-models]].
+
+But there are two aspects that make this idea a little subtle, even at this vague level: first, there is no good theory of the [[quantization]] of the membrane [[sigma-model]], as opposed to the well understood quantum [[string]],. Secondly,  Secondly, that hypothetical "theory extending 11-dimensional supergravity" ("M-theory") has remained elusive enough that it is not clear in which sense the membrane would relate to it in a way analogous to how the string relates to its [[target space]] theories (which is fairly well understood).
+
+Later, with the [[BFSS matrix model]] some people gained
+more confidence in the idea, by identifying the corresponding degrees
+of freedom in a special case.
 
 
 ## Related concepts
