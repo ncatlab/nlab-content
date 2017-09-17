@@ -1,15 +1,1 @@
-
-## Related entries
-
-* [[partial recursive function]]
-
-* [[computability]]
-
-* [[Type Two Theory of Effectivity]]
-
-## References
-
-* Wikipedia, _[Computable function](http://en.wikipedia.org/wiki/Computable_function)_
-
-[[!redirects computable functions]]
-
+&lt; [[computable function]]
