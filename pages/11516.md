@@ -36,6 +36,11 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 * [[representation sphere]]
 
 
+## Related concepts
+
+[[!include equivariant homotopy theory -- table]]
+
+
 ## References
 
 See the references at _[[equivariant homotopy theory]]_.
