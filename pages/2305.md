@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 =--
 =--
 
@@ -44,6 +48,8 @@ For [[analytic space]]s
 
 ## Related concepts
 
+* [[pullback of differential forms]]
+
 * [[twisted de Rham cohomology]]
 
 * [[Deligne cohomology]]
@@ -56,11 +62,13 @@ For [[analytic space]]s
 
 * [[absolute de Rham cohomology]]
 
-* [[Hidge-de Rham spectral sequence]]
+* [[Hodge-de Rham spectral sequence]]
 
 ## References
 
 ### In differential geometry
+
+(...)
 
 ### In algebraic geometry
 
@@ -94,3 +102,5 @@ analytic De Rham cohomology_ ([pdf](http://www.emis.de/journals/JTNB/2004-2/page
 [[!redirects deRham cohomology]]
 
 [[!redirects de Rham complex]]
+
+[[!redirects de Rham complexes]]
