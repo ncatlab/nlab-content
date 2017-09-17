@@ -1,5 +1,5 @@
 
-An _$(n,0)$-category_ is an [[(n,r)]-category]] that is an [[n-groupoid]].
+An _$(n,0)$-category_ is an [[(n,r)-category]] that is an [[n-groupoid]].
  
 By the general rules of $(n,r)$-[[(n,r)-category|categories]], an __$(n,0)$-category__ is an $\infty$-[[infinity-category|category]] such that
 *  any $j$-morphism is an [[equivalence]], for $j \gt 0$;
