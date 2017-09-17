@@ -74,7 +74,7 @@ $$
   \,.
 $$
 
-One finds the first few Wu as [[polynomials]] in the Stiefel-Whitney classes
+One finds the first few Wu classes as [[polynomials]] in the Stiefel-Whitney classes as follows
 
 * $v_1 = w_1$;
 
@@ -234,9 +234,13 @@ In ([Witten 1996](#Witten)) it is discussed that the space of [[states]] of this
 
 The original reference is 
 
-* Wu ... (1955)
+* Wu, _On Pontrjagin classes: II_ Sientia Sinica 4 (1955) 455-490
 
-See also
+See also around p. 228 of
+
+* [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton University Press (1974)
+
+and
 
 * [[Robert Stong]], Toshio Yoshida, _Wu classes_ Proceedings of the American Mathematical Society  Vol. 100, No. 2, (1987)  ([JSTOR](http://www.jstor.org/pss/2045970))
 
