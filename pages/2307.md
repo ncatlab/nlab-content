@@ -80,16 +80,24 @@ $$
 
 ## References
 
-for further context see the discussion at
+A textbook account is in 
+
+* [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+ {#Rudyak98}
+
+Lecture notes include lecture 5 in 
+
+* [[Jacob Lurie]], _Chromatic Homotopy Theory_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+
+
+For further context see also the discussion at
 
 * _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
+See also
 
 * [[Haynes Miller]], _"Chromatic" homotopy theory_ May 2011 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
 
-Lecture 5 in 
-
-* [[Jacob Lurie]], _Chromatic Homotopy Theory_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
 
 
 [[!redirects complex cobordism spectrum]]
