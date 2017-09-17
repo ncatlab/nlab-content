@@ -309,13 +309,13 @@ It's hard to give a universal definition of "a type theory," but the following v
 
 Generally, a type theory is formulated by the rules called _[[natural deduction]]_, which declare the nature of each kind of type by a 4-step rule:
 
-1. **type-formation rules**, which say on which basis a new [[type]] can be introduced
+1. **[[type formation]] rules**, which say on which basis a new [[type]] can be introduced
 
-1. **term-introduction rules**, which say how that new type can be inhabited by [[terms]]
+1. **[[term introduction]] rules**, which say how that new type can be inhabited by [[terms]]
 
-1. **term-elimination rules**, which say how from a term of the new type one gets terms of other types
+1. **[[term elimination]] rules**, which say how from a term of the new type one gets terms of other types
 
-1. **computation rules** which constrain the result of combining term introduction with term elimination.
+1. **[[computation rules]]** which constrain the result of combining term introduction with term elimination.
 
 Note that in general, the following definitions are mutually [[recursion|recursive]].
 
@@ -576,6 +576,16 @@ Discussion aimed towards [[homotopy type theory]] includes
 * [[Martin Hofmann]], [[Thomas Streicher]], _The groupoid interpretation of type theory_,  in Sambin, Giovanni (ed.) et al., Twenty-five years of constructive type theory. Proceedings of a congress, Venice, Italy, October 19--21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998) [ps.gz](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz)
 
 * [[Thomas Streicher]], _Identity Types and Weak Omega-Groupoids_ 2006 [pdf.gz](http://www.mathematik.tu-darmstadt.de/~streicher/TALKS/uppsala.pdf.gz)
+
+
+Formalization of parts of [[mathematics]] in type theory is discussed in
+
+* [[Thierry Coquand]], _[ForMath](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath)_
+
+for [[homological algebra]]:
+
+* [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](http://assert-false.net/arnaud/papers/Towards%20constructive%20homological%20algebra%20in%20type%20theory.pdf))
+ {#CoquandSpiwack}
 
 
 Further online resources include
