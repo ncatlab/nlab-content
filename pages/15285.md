@@ -4,13 +4,16 @@
 |-------------------|----------------------|----|
 | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_p[t]$ ([[polynomials]]) |   |
 | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_p(t)$ ([[rational functions]])  |  |
-| $p$ ([[prime number]]) |  | $x \in \Sigma$  |
-| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_p((t))$ ([[Laurent series]]) | $\mathbb{C}((t_x))$  |
-|  |  $\mathcal{O}_p$  |  $\mathbb{C}[ [ t_x ] ]$ |
-| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] $F$ of an [[algebraic curve]] $X$ over $k$ | [[sheaf of rational functions]] $K_\Sigma$   |
-| [[spectrum of a commutative ring|spectrum]] of $K$ together with [[archimedean valuation]] [[places]] | $X$ |  [[Riemann surface]] $\Sigma$ |
-| $\mathbb{A}$ ([[adeles]]) | $\mathbb{A}$ |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$  | 
-| $\mathcal{O}$ | $\mathcal{O}$ | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ |
+| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_p((t))$ ([[Laurent series]]) |   |
+| $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_p[ [ t ] ]$ ([[power series]])  |    |
+| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) |  $F$ ([[function field]] of an [[algebraic curve]] $X$ over $\mathbb{F}_p$) |  $K_\Sigma$  ([[sheaf of rational functions]] in [[complex curve]] $\Sigma$)  |
+| $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
+| $Spec(\mathcal{O}_K)$ ([[spectrum of a commutative ring|spectrum]] with archimedean [[places]])   | $X$ ([[arithmetic curve]]) |   $\Sigma$ ([[complex curve]]) 
+| $v$ prime ideal in [[ring of integers]] $\mathcal{O}_K$ |  | $x \in \Sigma$ |
+| $K_v$ ([[formal completion]] at $v$)  |   | $\mathbb{C}((t_x))$ ([[function algebra]] on punctured [[formal disk]] around $x$) |
+| $\mathcal{O}_{K_v}$ ([[ring of integers]] of [[formal completion]]) |    |  $\mathbb{C}[ [ t_x ] ]$ ([[function algebra]] on [[formal disk]] around $x$) |
+| $\mathbb{A}_K$ ([[ring of adeles]]) |   |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$  | 
+| $\mathcal{O}$ |  | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ |
 | [[Riemann zeta function]] |  | [[zeta function of a Riemann surface]] |
 |  |   $GL_n(F) \backslash GL_n(\mathbb{A})//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[automorphic representations]]) | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([[moduli stack of bundles]] on $\Sigma$) | 
 |  |  [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
