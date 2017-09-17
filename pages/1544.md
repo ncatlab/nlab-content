@@ -358,6 +358,8 @@ See [[connection on a principal ∞-bundle]].
 
   * [[moduli space of connections]]
 
+  * [[fiber bundles in physics]]
+
 * [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
 
 * [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
