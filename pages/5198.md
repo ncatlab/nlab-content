@@ -22,6 +22,7 @@ This, of course, means that $\underline{S}^n $ is defined as a pushout
 1. The space $\underline{S}^n$ is, of course, considered as being based at the ray (given by the right vertical map in the pushout square).
 
 1. The space $\underline{S}^n$ is a [[spherical object]] and the family $\mathcal{A} = \{\underline{S}^n\}^\infty_{n=0}$ defines a theory.
+
 ##The Brown-Grossman homotopy groups##
 +--{: .un_defn}
 ######Definition######
