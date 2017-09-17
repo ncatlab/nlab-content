@@ -1,3 +1,6 @@
+[[!redirects super Minkowski space]]
+[[!redirects super Minkowski space]]
+[[!redirects super Minkowski space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,7 +26,7 @@
 
 ## Idea
 
-The [[spacetime]] in [[supergeometry]]/[[supergravity]] which is the super-analog of ordinary [[Minkowski spacetime]].
+A [[super spacetime]] which is an analog in [[supergeometry]] of ordinary [[Minkowski spacetime]].
 
 ## Definition 
 
@@ -64,3 +67,5 @@ Discussion of how [[super L-infinity algebra]] [[L-infinity cocycle|extensions]]
 [[!redirects super Minkowski spacetime]]
 [[!redirects super-Minkowski spacetime]]
 
+[[!redirects super Minkowski spacetimes]]
+[[!redirects super-Minkowski spacetimes]]
