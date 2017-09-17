@@ -1104,6 +1104,59 @@ and this makes $\mathbf{H}$ be $\infty$-connected and locally $\infty$-connected
 
 =--
 
++-- {: .un_def}
+###### Proposition
+
+Let $\mathbf{H}$ be a [[locally ∞-connected (∞,1)-topos]]. If $X \in \mathbf{H}$ is [[small-projective]] then the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is 
+
+1. [[locally ∞-connected (∞,1)-topos|locally ∞-connected]];
+
+1. [[local (∞,1)-topos|local]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is proven at [[locally ∞-connected (∞,1)-topos]], the second at [[local (∞,1)-topos]].
+
+=--
+
++-- {: .un_def}
+###### Proposition
+
+In a cohesive $(\infty,1)$-topos $\mathbf{H}$, if $X$ is 
+[[small-projective]] then so is its path ∞-groupoid $\mathbf{\Pi}(X)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Because of the triple of [[adjoint (∞,1)-functor]]s 
+$(\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma})$ we have for [[diagram]] $A : I \to \mathbf{H}$ that
+
+$$
+  \begin{aligned}
+     \mathbf{H}(\mathbf{\Pi}(X), {\lim_\to}_i A_i)
+     & \simeq 
+     \mathbf{H}(X, \mathbf{\flat}{\lim_\to}_i A_i)
+    \\
+     & \simeq 
+     \mathbf{H}(X, {\lim_\to}_i \mathbf{\flat} A_i)
+     \\
+     & \simeq 
+     {\lim_\to}_i \mathbf{H}(X,  \mathbf{\flat} A_i)
+  \end{aligned}
+  \,,
+$$ 
+
+where in the last step we used that $X$ is [[small-projective]] by assumption.
+
+=--
+
+
 
 +-- {: .un_def}
 ###### Definition
@@ -1611,6 +1664,12 @@ We characterize objects in a cohesive $(\infty,1)$-topos that behave as cohesive
 A [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ in a cohesive $(\infty,1)$-topos such that
 
 $$
+  \Pi \mathbf{B}\mathfrak{g} \simeq *
+$$
+
+and
+
+$$
   \Gamma \mathbf{B}\mathfrak{g} \simeq *
 $$
 
@@ -1621,63 +1680,6 @@ Its [[loop space object]] $\mathfrak{g} := \Omega_* \mathbf{B}G$ we call an **[[
 
 =--
 
-+-- {: .un_def}
-###### Proposition
-
-Let $\mathbf{H}$ be a [[locally ∞-connected (∞,1)-topos]]. If $X \in \mathbf{H}$ is [[small-projective]] then the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is 
-
-1. [[locally ∞-connected (∞,1)-topos|locally ∞-connected]];
-
-1. [[local (∞,1)-topos|local]].
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The first statement is proven at [[locally ∞-connected (∞,1)-topos]], the second at [[local (∞,1)-topos]].
-
-=--
-
-+-- {: .un_def}
-###### Proposition
-
-In a cohesive $(\infty,1)$-topos $\mathbf{H}$, if $X$ is [[small projective]] then so is its [path ∞-groupoid](#Paths) $\mathbf{\Pi}(X)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Because of the triple of [[adjoint (∞,1)-functor]]s 
-$(\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma})$ we have for [[diagram]] $A : I \to \mathbf{H}$ that
-
-$$
-  \begin{aligned}
-     \magthbf{H}(\mathbf{\Pi}(X), {\lim_\to}_i A_i)
-     & \simeq 
-     \mathbf{H}(X, \mathbf{\\flat}{\lim_\to}_i A_i)
-    \\
-     & \simeq 
-     \mathbf{H}(X, {\lim_\to}_i \mathbf{\\flat} A_i)
-     \\
-     & \simeq 
-     {\lim_\to}_i \mathbf{H}(X,  \mathbf{\\flat} A_i)
-  \end{aligned}
-  \,,
-$$ 
-
-where in the last step we used that $X$ is [[small-projective]] by assumption.
-
-=--
-
-+-- {: .un_def}
-###### Definition
-
-For $X \in \mathbf{H}$ a [[small projective]] object in a cohesive $(\infty,1)$-topos, we say that an **[[∞-Lie algebroid]]** $\mathfrak{a}$ over $X$ is an $\infty$-Lie algebra in $\mathbf{H}/{\mathbf{\Pi}(X)}$.
-
-=--
 
 
 ### Lie theory {#LieTheory}
