@@ -50,6 +50,8 @@ This is reviewed in ([GLSW, section 2](#GLSW)).
 
 * [[generalized tangent bundle]], [[exceptional tangent bundle]]
 
+* [[generalized Calabi-Yau manifold]], [[generalized G2-manifold]]
+
 * [[Bn-geometry]], [[differential T-duality]]
 
 ## References
