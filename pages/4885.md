@@ -1,11 +1,43 @@
-The Reidemeister moves are local changes to knot or link diagrams.  The conventions are that part of the diagram is shown with the 'move' indicated, but that outside that, the diagram of the link is unchanged and that no other part of the diagram appears at the crossings that are changed by that move. 
 
-These moves were given in the book by Reidemeister (Knotentheorie, Ergebnisse de math,1932)
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
-###Note: ### 
-In manipulating a link diagram, the changes obtained by elongating part of the diagram, rotating it, etc., are not counted as changing the structure of the diagram provided they do not change any crossing,and so they may be done without comment.  The 'moves' outlined here do change things locally near crossings.
+#Contents#
+* table of contents
+{:toc}
 
-##R1
+## Idea
+
+The _Reidemeister moves_ are local changes to [[knot]] or [[link]] [[knot diagram|diagrams]].  
+
+These moves were given in the book by [Reidemeister](#Reidemeister) 
+
+
+## Definition
+
+We define the Reidemeister moves in terms of link diagrams
+
+The conventions are that part of the diagram is shown with the 'move' indicated, but that outside that, the diagram of the link is unchanged and that no other part of the diagram appears at the crossings that are changed by that move. 
+
+
+**Note.** In manipulating a link diagram, the changes obtained by elongating part of the diagram, rotating it, etc., are not counted as changing the structure of the diagram provided they do not change any crossing,and so they may be done without comment.  The 'moves' outlined here do change things locally near crossings.
+
+
+
+
+### First Reidemeister moves
+
 The two local configurations
 
 <svg width="297" height="69" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="7559">
@@ -20,7 +52,19 @@ The two local configurations
 </svg>
 
 are interchangable, (plus another with the opposite twist);
-##R2
+
+### Second Reidemeister move
 
 
-##R3
+### Third Reidemeister move
+
+
+## Properties
+
+**Theorem** Two [[knot diagram]]s correspond to the same knot, up to planar [[isotopy]], precisely if they can be connected by a sequence of applications of the three Reidemeister moves.
+
+## References
+
+* Reidemeister, _Knotentheorie_ , Ergebnisse der Mathematik (1932)
+
+[[!redirects Reidemeister move]]
