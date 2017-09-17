@@ -88,6 +88,11 @@ exhibits a [[complex torus]], and this is the _$k$th intermediate Jacobian_ prop
 The intermediate Jacobians receive canonical maps from cycles (...)
 See at _[[Abel-Jacobi map]]_.
 
+### Theta-characteristics
+
+A certain [[square root]] of the [[canonical bundle]] on intermediate Jacobians -- hence a [[Theta characteristic]] -- in dimension $2k+1$ thought of as [[moduli spaces]] of (flat) [[circle n-bundles with connection|circle (2k+1)-bundles with connection]] yields the [[partition function]] of [[self-dual higher gauge theory]].  ([Witten 96](#Witten96), [Hopkins-Singer 02](#HopkinsSinger02)).
+
+
 ## Examples
 
 ### $n = 1$: Picard varitey
@@ -168,11 +173,19 @@ In [[positive number|positive]] [[characteristic]]:
 
 Applications in [[string theory]]:
 
-
 * {#Morrison95} [[David Morrison]], section 4 of _Mirror Symmetry and the Type II String_, Nucl.Phys.Proc.Suppl. 46 (1996) 146-155 ([arXiv:hep-th/9512016](http://arxiv.org/abs/hep-th/9512016))
 
 * {#BKNPP09} Ling Bao, Axel Kleinschmidt, Bengt E. W. Nilsson, Daniel Persson, Boris Pioline, _Instanton Corrections to the Universal Hypermultiplet and Automorphic Forms on SU(2,1)_, Commun. Num. Theor. Phys. 4 (1), 187-266 (2010) ([arXiv:0909.4299](http://arxiv.org/abs/0909.4299))
 
 * {#Baarsma11} A. Baarsma, _The hypermultiplet moduli space of compactified type IIA string theory_, Master Thesis, Utrecht 2011 ([web](http://dspace.library.uu.nl/handle/1874/203182))
 
+
+The relation of Theta characteristics on [[intermediate Jacobians]] to [[self-dual higher gauge theory]] was first recognized in 
+
+* {#Witten96} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_, J.Geom.Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+
+and the argument there was made rigorous in 
+
+* {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ 
 [[!redirects intermediate Jacobians]]
