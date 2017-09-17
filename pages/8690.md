@@ -1,0 +1,6 @@
+Yang-Baxter equation is an imprecise term for any of the several related equations, among them:
+
+* [[classical Yang-Baxter equation]]
+* [[quantum Yang-Baxter equation]]
+* modified classical Yang-Baxter equation
+* [[dynamical quantum Yang-Baxter equation]]
