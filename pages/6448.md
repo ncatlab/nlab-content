@@ -82,3 +82,6 @@ As is usual with the [[separation axioms]], some authors while conflate the mean
 
 [[!redirects completely regular locale]]
 [[!redirects completely regular locales]]
+
+[[!redirects completely regular topological space]]
+[[!redirects completely regular topological spaces]]
