@@ -201,7 +201,7 @@ Over the years various people at
 * _Foundations of Mathematics_ [mailing list](http://www.math.psu.edu/simpson/fom/) (around 1998)
 {#FOM}
 
-have challanged [[category theory|category theorists]] to write down a fully formal presentation of ETCS.
+have challenged [[category theory|category theorists]] to write down a fully formal presentation of ETCS.
 
 
 [[!redirects fully formal definition of ETCS]]
