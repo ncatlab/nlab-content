@@ -69,8 +69,9 @@ There is a functor $Cat_1^{op} \to CAT_1$, from the [[large category|large]] [[C
 * [[Bart Jacobs]],  _Categorical Logic and Type Theory_.  Elsevier, 1999.
  {#Jacobs99}
 
+* [[Finn Lawler]], section "Tabulation and comprehension" in _[[finnlawler:thesis outline|Fibrations of predicates and bicategories of relations]]_ (2014)
+
 [[!redirects comprehension schema]]
 
 [[!redirects comprehension scheme]]
 [[!redirects comprehension schemes]]
-
