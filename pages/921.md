@@ -180,6 +180,8 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 * in [[constructive analysis]] one may use the [[completion monad]] for dealing with real numbers
 
+* [[exact real computer arithmetic]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 
