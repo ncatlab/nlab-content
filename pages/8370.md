@@ -40,6 +40,10 @@ the following notions are equivalent:
 
 This is referred to as "computational trinitarianism" in ([Harper](#Harper)), where also an exposition is given.
 
+>The central dogma of computational trinitarianism holds that Logic, Languages, and Categories are but three manifestations of one divine notion of computation.  There is no preferred route to enlightenment: each aspect provides insights that comprise the experience of computation in our lives.
+
+>Computational trinitarianism entails that any concept arising in one aspect should have meaning from the perspective of the other two.  If you arrive at an insight that has importance for logic, languages, and categories, then you may feel sure that you have elucidated an essential concept of computation--you have made an enduring scientific discovery. 
+
 [[!include types and logic - table]]
 
 ## References
