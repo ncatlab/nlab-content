@@ -225,7 +225,7 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 
 * [[(∞,1)-presheaf]]
  
-
+* [[(∞,n)-presheaf]]
 
 [[!redirects presheaves]]
 [[!redirects presheaf category]]
