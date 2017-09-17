@@ -1,0 +1,4 @@
+
+* [biographical information](http://www.maths.ed.ac.uk/~aar/surgery/uicc/vkamg.txt)
+
+category: people
