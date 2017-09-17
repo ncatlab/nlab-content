@@ -198,6 +198,8 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 * [[symplectic reduction]]
 
+* [[symplectic connection]]
+
 * [[geometric quantization]], [[canonical momentum]]
 
 * [[contact manifold]]
@@ -207,6 +209,7 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 [[!include (co)isotropic subspaces - table]]
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 
 ## References
