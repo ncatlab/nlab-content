@@ -9,6 +9,7 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+$X^\sharp$ $X^\flat$ $X^\natural$
 
 category: meta
 
