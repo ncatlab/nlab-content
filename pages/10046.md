@@ -23,7 +23,7 @@ Let $P$ be a [[poset]] with [[directed joins]].
 
 +-- {: .un_defn}
 ###### Definition
-For $a,b\in P$, we say that $a$ is **way below** $b$ and write $a\ll b$ if whenever $S\subseteq P$ is a directed subset and $b\le \bigvee P$ (where $\bigvee P$ denotes the join of $P$), then there exists $s\in S$ with $a\le s$.
+For $a,b\in P$, we say that $a$ is **way below** $b$ and write $a\ll b$ if whenever $S\subseteq P$ is a directed subset and $b\le \bigvee S$ (where $\bigvee S$ denotes the join of $S$), then there exists $s\in S$ with $a\le s$.
 =--
 
 +-- {: .un_defn}
@@ -45,6 +45,8 @@ A poset $P$ with directed joins is continuous if and only if $\bigvee: Idl(P) \t
 ## Properties
 
 * A [[frame]] is a continuous lattice just when its corresponding [[locale]] is [[locally compact locale]], hence [[exponentiable object|exponentiable]].
+
+* The forgetful functor from continuous lattices to sets is a [[monadic functor]]. Here the left adjoint takes a set $X$ to the lattice of filters in the power set Boolean algebra $P X$. 
 
 ## Related pages
 
