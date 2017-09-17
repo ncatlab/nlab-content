@@ -89,9 +89,8 @@ where $L_{B,A}\colon D(B) \to D(B,A)$ denotes the reflection.  It also has a rig
 
 Define a **category with zeros** to be a category $B$ equipped with a full subcategory $B_0$.  By the preceeding remarks, any pointed derivator gives rise to a contravariant pseudofunctor defined on the 2-category of categories with zeros (and functors preserving the specified subcategories), all of whose transition functors have both adjoints.  It is natural to look for exactness conditions, analogous to (Der4) and the characterization of [[homotopy exact squares]], which apply to these adjoints.
 
-+-- {: .query}
-The following is a "first try"; probably a more precise statement is possible.
-=--
+Since the Beck-Chevalley transformation relating composites of these adjoints is the composite of the corresponding transformation for the unpointed diagram and a Beck-Chevalley transformation relating the restriction functors to the reflections $D(B) \to D(B,B_0)$, we clearly need to study when restriction commutes with these reflections.  This is the purpose of the following definition and lemma.
+
 
 +-- {: .num_defn #LocallyNullFinal}
 ###### Definition
@@ -151,7 +150,7 @@ By definition of $M_A$, the morphisms between these objects are the obvious ones
 Finally, consider the case of an $a\in A$ and a $b_0\in B_0 \subset M_B$, and a $\varphi\colon b_0 \to f(a)$.  The category in question consists of triples $(a_0\in A_0, b_0 \to f(a_0), a_0\to a)$ which compose to $\varphi$ (since there are no morphisms in $M_B$ from $b_0\in B_0$ to anything in the image of $A\subset M_A$).  But this is precisely the category asserted to be contractible in the assumption that $f$ is locally null-final.
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #HomotopyExactWithZeros1}
 ###### Theorem
 If a square
 $$\array{ I & \xrightarrow{f} & J \\
@@ -177,14 +176,14 @@ $$\array{ D(I,I_0) & \xleftarrow{f^*} & D(J,J_0) \\
   D(K)  & \xleftarrow{g^*} & D(L)\\
   ^{L_K}\downarrow & \seArrow & \downarrow^{L_L}\\
   D(K,K_0) & \xleftarrow{g^*} & D(L,L_0)}$$
-in which the first square is an isomorphism by the first assumption and by the second assumption and 
-lemma \ref{LocallyNullFinalLemma}.
+in which the first square is an isomorphism by the first assumption, and the second square by the second assumption and 
+Lemma \ref{LocallyNullFinalLemma}.
 
 =--
 
 For example, we can conclude:
 
-+-- {: .num_cor}
++-- {: .num_cor #LocallNullFinalFF}
 ###### Corollary
 If $f\colon A\to B$ is a locally null-final functor between categories with zeros, then for any pointed derivator $D$, the functor $f_!\colon D(A,A_0) \to D(B,B_0)$ is fully faithful.
 =--
@@ -197,9 +196,49 @@ $$\array{ A & \xrightarrow{id} & A \\
 satisfies the hypotheses of the previous theorem.
 =--
 
-+--{: .query}
-Ideally, however, it should be possible to weaken the hypotheses of the theorem to assert only that $g$ is "locally-null-final relative to $k$."
+Theorem \ref{HomotopyExactWithZeros1} is not best possible, however.  Its two conditions characterize when the two squares into which the Beck-Chevalley transformation factors are separately isomorphisms.  However, it might happen that the composite is an isomorphism even though one or the other of the transformations is not separately an isomorphism.
+
+In particular, the condition of "local null-finality" on the bottom morphism $g$ uses no information about the categories $I$ and $J$.  If we know some things about them, then we can correspondingly weaken this condition.
+
++-- {: .num_theorem #HomotopyExactWithZeros2}
+###### Theorem
+Suppose given a square
+$$\array{ I & \xrightarrow{f} & J \\
+  ^h\downarrow & \swArrow & \downarrow^k\\
+  K & \xrightarrow{g} & L}$$
+of categories with zeros, where $L$ is equipped with a full subcategory $\hat{L}_0 \subseteq L_0$ of its category of zeros.  Write $\check{L}_0 = L_0 \setminus \hat{L}_0$, and suppose the following.
+
+1. The square is [[homotopy exact square|homotopy exact]] as a square of categories, when the categories of zeros are ignored.
+
+1. For any pointed derivator $D$, the functor $k_!\colon D(J) \to D(L)$ maps $D(J,J_0)$ into $D(L,\hat{L}_0)$.  For instance, this is the case if for each $z\in \hat{L}_0$, the category $k/z$ has a terminal object lying in $J_0$.
+
+1. For each $x\in L\setminus L_0$ and $y\in \hat{L}_0$ and morphism $x\xrightarrow{\varphi} y$ in $L$, the following category has a contractible nerve: its objects are triples $(z\in L_0, x\xrightarrow{\alpha} z, z\xrightarrow{\beta} y)$ such that $\beta\alpha=\varphi$, and its morphisms are morphisms $z_1\to z_2$ in $L$ commuting with the given morphisms *and* such that either $z_1 \in \hat{L}_0$ or $z_2 \notin \hat{L}_0$.
+
+1. For every $x\in \check{L}_0$ and $y\in K$ and $x \xrightarrow{\varphi} g(y)$ in $L$, the category of triples $(z\in K_0 \cap g^{-1}(\check{L}_0), x\xrightarrow{\alpha} g(z), z \xrightarrow{\beta} y)$ such that $g(\beta).\alpha= \varphi$ has a contractible nerve ("relative local null-finality").
+
+Then for any pointed derivator, the induced transformation
+$$\array{ D(I,I_0) & \xleftarrow{f^*} & D(J,J_0) \\
+  ^{h_!}\downarrow & \seArrow & \downarrow^{k_!}\\
+  D(K,K_0) & \xleftarrow{g^*} & D(L,L_0)}$$
+is an isomorphism.
 =--
+
++-- {: .proof}
+###### Proof
+**(Sketch)** Because of the second condition in the theorem, instead of the reflection $D(L) \to D(L,L_0)$ it will suffice to consider the reflection $D(L,\hat{L_0}) \to D(L,L_0)$.  We use the third condition to give an alternate way to compute this reflection, and the fourth condition to ensure that restriction along $g$ commutes with this reflection.
+
+Let $\hat{M}_L$ be the codirected mapping cylinder of $\check{L}_0 \hookrightarrow L$.  If $L \xrightarrow{u} \hat{M}_L \xrightarrow{p} L $ are as before, then $u_*$ identifies $D(L,\hat{L}_0)$ with the subcategory of $D(\hat{M}_L)$ consisting of diagrams which are zero on the copy of $\check{L}_l$ that is the target end of the mapping cylinder and on the copy of $\hat{L}_0$ inside the copy of $L$ that is the source end; call this subcategory $D(\hat{M}_L, \hat{L}_0 \cup \check{L}_0)$.
+
+Now if the adjunction $p_! \colon D(\hat{M}_L) \rightleftarrows D(L) \;: p^*$ restricts to an adjunction $D(\hat{M}_L, \hat{L}_0 \cup \check{L}_0)\rightleftarrows D(L,L_0)$, we will be able to compute the reflection $D(L,\hat{L}_0) \to D(L,L_0)$ as $p_! u_*$, as before.  This will follow if the following square is exact:
+$$\array{ \hat{L}_0 \cup \check{L}_0 & \to & \hat{M}_L \\
+  \downarrow & & \downarrow \\
+  L_0 & \to & L } $$
+where $\hat{L}_0 \cup \check{L}_0$ denotes the same full subcategory of $\hat{M}_L$ as above.  Exactness of this square can be verified to be equivalent to the third condition in the theorem.
+
+Finally, modifying the proof of Lemma \ref{LocallyNullFinalLemma}, we see that the fourth condition in the theorem implies commutativity of $g^*$ with this reflection $p_! u_*$.  Therefore, the theorem follows as before.
+=--
+
+If $\hat{L}_0 = \emptyset$, then the second and third conditions of Theorem \ref{HomotopyExactWithZeros2} are vacuous and it reduces to Theorem \ref{HomotopyExactWithZeros1}.  At the other extreme, if $\hat{L}_0 = L_0$, then the second and fourth conditions of Theorem \ref{HomotopyExactWithZeros2} are vacuous and the third becomes "$k_!$ maps $D(J,J_0)$ into $D(L,L_0)$."
 
 
 ### Extraordinary inverse images
