@@ -3609,6 +3609,8 @@ We see below that both the [[Wess-Zumino-Witten theory]] as well as [[Wilson lin
 
 * [[higher prequantum geometry]]
 
+* traditional [[Lagrangian mechanics]] and [[Hamiltonian mechanics]] are naturally embedding into higher prequantum field theory by the notion of [[prequantized Lagrangian correspondences]]
+
 * [[quantization]] of prequantum field theory is naturally formulated in terms of _[[motivic quantization]]_
 
 ## References
