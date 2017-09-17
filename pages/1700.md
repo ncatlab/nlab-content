@@ -394,6 +394,8 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 
 * [[fundamental ∞-groupoid of an (∞,1)-topos]]
 
+* [[Lascar group]] (a Galois group of first order theories)
+
 ## References
 
 Lecture notes on the Galois theory for schemes are in
