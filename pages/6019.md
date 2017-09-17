@@ -34,7 +34,9 @@ For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]])
 
     * worldsheet
   
-      * [[Riemann surface]], [[elliptic curve]]
+      * [[Riemann surface]], [[elliptic curve]], [[algebraic curve]] 
+
+      * [[worldsheet parity operator]]
 
   * [[target space]]
 
