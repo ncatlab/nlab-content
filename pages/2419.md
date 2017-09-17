@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -8,11 +18,11 @@
 
 A _modular form_ is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation properties.
 
-Modular forms appear as
 
-* as the [[cohomology ring]] over the point in the [[cohomology theory]] called [[tmf]] -- "tmf" stands for "topological modular forms";
- 
-* as the [[partition functions]] of certain 2-dimensional [[quantum field theories]].
+Modular forms appear as the [[coefficient]] ring of the [[Witten genus]] on manifolds with rational [[string structure]].
+
+(For manifolds with actual [[string structure]] this refines to [[topological modular forms]]).
+
 
 ## Definition
 
@@ -80,7 +90,9 @@ $$
 
 * [[Witten genus]]
 
-* [[tmf]]
+* [[modular form]]
+
+* [[topological modular form]], [[tmf]]
 
 ## Links and references
 
