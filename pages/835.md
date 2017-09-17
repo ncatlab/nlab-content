@@ -100,7 +100,7 @@ More generally one may consider a [[Kan complex]] that is just [[homotopy equiva
 
 ## Strict $2$-groupoids
 
-The general notion of $2$-groupoid above is also called __weak $2$-groupoid__ to distinguish from the special case of **[[strict 2-groupoids]]**. A strict $2$-groupoid is a [[strict 2-category]] in which all morphisms are strictly invertible. This is equivalently a [[Grpd]]-[[enriched category]].
+The general notion of $2$-groupoid above is also called __weak $2$-groupoid__ to distinguish from the special case of **[[strict 2-groupoids]]**. A strict $2$-groupoid is a [[strict 2-category]] in which all morphisms are strictly invertible. This is equivalently a certain type of [[Grpd]]-[[enriched category]].
 
 
 [[!redirects 2-groupoid]]
