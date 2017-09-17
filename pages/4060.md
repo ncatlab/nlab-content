@@ -1,3 +1,4 @@
+
 <svg width="743pt" height="548pt" viewBox="0.00 0.00 743.00 548.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 544)">
 <title>LCTVS</title>
@@ -330,3 +331,6 @@
 </g>
 </g>
 </svg>
+
+
+category: svg
