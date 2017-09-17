@@ -1,8 +1,33 @@
-Berezinian or superdeterminant
 
-* wikipedia [Berezinian](http://en.wikipedia.org/wiki/Berezinian)
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Algebra and Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
 
-Related entries: [[supergeometry]], [[quasideterminant]], [[supertrace]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+The notion of _super determinant_ of _Berezinian_ is the generalization of the notion of [[determinant]] of a [[matrix]] from [[algebra]] to [[super algebra]].
+
+## Related entries
+
+* [[supergeometry]], [[quasideterminant]], [[supertrace]]
+
+* [[Berezin integral]]
+
+## References
+
+* Wikipedia, _[Berezinian](http://en.wikipedia.org/wiki/Berezinian)_
+
 
 [[!redirects Berezinian]]
 [[!redirects superdeterminants]]
