@@ -83,7 +83,7 @@ This was shown in ([Stallings](#Stallings)).
 +-- {: .un_theorem}
 ###### Theorem
 
-In $d = 4$ the analog of this statement is false. One says that on $\mathb{R}^4$ there exist [[exotic smooth structure]]s.
+In $d = 4$ the analog of this statement is false. One says that on $\mathbb{R}^4$ there exist [[exotic smooth structure]]s.
  
 =--
 
