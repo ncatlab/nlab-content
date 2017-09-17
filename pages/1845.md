@@ -52,6 +52,8 @@ In nice cases this is the degree 0 part of a non-connective [[spectrum]] which i
 This is also called the **Waldhausen K-theory** of $C$.
 
 
+
+
 ## Special cases and models ##
 
 Much of the literature on K-theory discusses constructions that _model_ the above abstract setup in terms of [[model category|model categories]], or just their [[homotopy category|homotopy categories]], often of the [[derived category|derived catgeories]] type and then often expressed in terms of the [[abelian category]] or more generally [[Quillen exact category]] from which the derived category is derived.
@@ -107,7 +109,6 @@ This construction is also conjectured in the last section of Toen-Vezzosi's _A r
 
 In the case that $C$ is the [[simplicial localization]] of a [[Waldhausen category]] $\bar C$ the explicit way to obtain this is the [[Waldhausen S-construction]].
 
-**Proposition**
 
 It should be true that with this definition we have an isomorphism of groups
 
@@ -115,6 +116,24 @@ $$
   K(C) \simeq \pi_0 \mathbf{K}(C)
   \,.
 $$
+
+
+There is a universal characterization of the construction of the K-theory spectrum $K(A)$ of a stable $(\infty,1)$-category $A$:
+
+there is an $(\infty,1)$-functor
+
+$$
+  U : (\infty,1)StabCat \to N
+$$
+
+to a stable $(\infty,1)$-category which is universal with the property that it respects colimits and exact sequences in a suitable way. Given any stable $(\infty,1)$-category $A$, its (connective or non-connective, depending on details) algebraic K-theory spectrum is the hom-object
+
+$$
+  K(A) \simeq Hom(U(Sp), U(A))
+  \,,
+$$
+
+where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. (See the references below.)
 
 
 
@@ -151,6 +170,12 @@ In view of this remark 11.4 in
 
 interprets the construction of the K-theory spectrum as a natural operation of 
 [[stable (infinity,1)-category|stable (∞,1)-categories]], as described above.
+
+The universal property of the $(\infty,1)$-categorical definition is studied in 
+
+* [[Andrew Blumberg]], [[David Gepner]], [[Gonzalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
+
+
 
 
 The standard constructions of K-theory spectra from [[Quillen exact categories]] are discussed in detail in chapter 1 of
