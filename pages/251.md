@@ -57,7 +57,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
 ## Examples ##
 
-* If $C$ is a 2-category, we have a double category $Sq(C)$ whose objects are those of $C$, both of whose types of morphisms are the morphisms in $C$, and whose squares are 2-cells in $C$ with their source and target both decomposed as a composite of two morphisms.  (These squares are sometimes called *quintets* $(\alpha,f,g,h,k)$ where $\alpha\colon f g \to h k$.)
+* If $C$ is a [[2-category]], we have a double category $Sq(C)$ whose objects are those of $C$, both of whose types of morphisms are the morphisms in $C$, and whose squares are 2-cells in $C$ with their source and target both decomposed as a composite of two morphisms.  (These squares are sometimes called *quintets* $(\alpha,f,g,h,k)$ where $\alpha\colon f g \to h k$.)
 
   (In this example, the two edge categories coincide.  Double categories with this property are called **edge-symmetric**.)
 
