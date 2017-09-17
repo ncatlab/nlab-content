@@ -1,4 +1,9 @@
-#Definition#
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A _simplicial sheaf_ $A$ is equivalently
 
@@ -32,14 +37,23 @@ A _simplicial sheaf_ $A$ is equivalently
 
   is degreewise a [[sheaf]].
 
-# Model structure #
+## Model structure ##
 
 The standard [[model structure on simplicial presheaves]] restricts to the standard [[model structure on simplicial sheaves]], this restriction is a [[Quillen equivalence]] and equipped with this model structure $SSh(C)$ is one of the standard [[models for ∞-stack (∞,1)-toposes]] for the site $C$.
 
-# Simplicial concrete sheaves #
+## References
 
-Sometimes it is useful to restrict further to [[simplicial object]]s in the category of [[concrete sheaf|concrete sheaves]] on $C$. 
+A discussion of the [[homotopy theory]] of [[simplicial objects]] in [[toposes]] using [[Cisinski model structures]] is in 
 
-For instance for  $C$ a suitable [[site]] of smooth test spaces a simplicial concrete sheaf is a simplicial [[diffeological space]].
+* Garth Warner, _Homotopical topos theory_ ([pdf](http://www.math.washington.edu/~warner/HTT_Warner.pdf))
+
+The last part of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+is annoucned to be about simplicial objects in toposes, but that part does not exist yet.
+
+For more see at _[[simplicial presheaf]]_ and _[[model structure on simplicial presheaves]]_.
+
 
 [[!redirects simplicial sheaves]]
