@@ -238,8 +238,6 @@ $i:I_E \Rightarrow G;E$.
 (I need to relate this to the notion of limiting amount of information, 
 showing how that arises from the adjunction.) 
 
-...Find out how to draw diagrams. ...
-
 ...Find out why function composition e.g. $FG$, isn't appearing in maths font. ...
 
 ### The problem of noise, and of different languages ###
@@ -286,12 +284,17 @@ That's about as far as I've got; the examples I've so far constructed have the s
 
 ### Another example: learning linear transformations ###
 
-Let's try this one. ...A bit rough here...
-See my example about linear associators, earlier. [...How do I make hyperlinks to sections?...] Think of learning a linear transformation. $E$ is the category of sets of pairs $\langle v,w \rangle$. $C$ is the category of linear transformations between vector spaces $V$ and $W$. $G$ puts pairs together to make a linear transformation. As with the least-squares example, this only works exactly if I restrict the sets in $E$. If not ... should I now think of freely completing $C$ to make a new category $C'$ which contains targets for sets of interfering points?
+(I need to complete this and the following examples.)
+In this, I'm leading up to generalisation in simple neural networks. Think of learning a linear transformation. $E$ is the category of sets of pairs $\langle v,w \rangle$. $C$ is the category of linear transformations between vector spaces $V$ and $W$. $G$ puts pairs together to make a linear transformation. (What does $F$ do, and is it unique?) As with the least-squares example, this only works exactly if I restrict the sets in $E$.
+
+### Another example: linear associators ###
+
+I need to check my terminology here and revise this type of neural network (should it actually be called a _non_-linear associator?). The idea is as in the previous example, but where sets of examples aren't restricted to being expressible as linear transformations. In this case, generalisation has to "do the best it can", modulo interference between learnt associations. Question: what should $C$ be? Ought it to be some kind of completion of $C$ above?
 
 ### Another example: averages ###
 
-And let's try this. ...Also rough... It's related to stochastic logic programming. $E$ is the category of sequences with elements $H$, $T$, representing sequences of coin tosses. $C$ is the category of canonical SLP programs that can generate these sequences. $G$ maps a sequence to its generator. I believe, from what I've read of SLP so far, that the generating program (clauses for H and T labelled with their weight) can be represented as just the proportion of H's and T's in the sequence. So $G$ is 
+Let $E$ be the category of real pairs $\langle h, t \rangle$. Let $C$ be the category of real pairs whose elements sum to 1. Let $G$ map $\langle h, t \rangle$ to $\langle h/(h+t), t/(h+t) \rangle$. Let $F$ be the identity.
+(Are $E$ and $C$ discrete?) (I'm working towards the way that induction in stochastic logic programming induces weights for the learnt clauses.)
 
 ## Informal justification ##
 
