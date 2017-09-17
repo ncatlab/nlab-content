@@ -15,11 +15,12 @@ Thus **sequential compactness** is what [[compact space|compactness]] looks like
 A topological space is **sequentially compact** if every [[sequence]] in it has a [[convergence|convergent]] [[subsequence]].
 =--
 
-##Warning
+## Relationship to Compactness ##
+
 Compactness does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions (see for example wikipedia: [compact spaces] (href="http://en.wikipedia.org/wiki/Compact_space")). 
 In [[metric spaces]] for example both notions coincide.
 
-A famous example of a space that is compact, but not countably compact, is the product space
+A famous example of a space that is compact, but not sequentially compact, is the product space
 $$
     I^{I} := [0, 1]^{[0, 1]}
 $$
@@ -27,10 +28,12 @@ with the [[product topology]]. It is compact by the [[Tychonoff theorem]].
 
 Points of $I^{I}$ are functions $I \to I$, and the product topology is the topology of pointwise convergence.
 
-Define a sequence $(a_n)$ in $I^{I}$ with $a_n(x)$ being the nth digit in the binary expansion of $x$. Assume that there is a convergent subsequence $(a_{n_k})$ and define $p \in I$ by the binary expansion that has a $0$ if $n_k$ is even and a $1$ if $n_k$ is odd, then the sequence $(a_{n_k}) (p)$ is $...0, 1, 0, 1...$ which is not convergent: _contradiction_!
+Define a sequence $(a_n)$ in $I^{I}$ with $a_n(x)$ being the nth digit in the binary expansion of $x$.  Let $a \coloneqq (a_{n_k})$ be a subsequence and define $p_a \in I$ by the binary expansion that has a $0$ in the $n_k$th position if $k$ is even and a $1$ if $k$ is odd (and, for definiteness, define it to be $0$ elsewhere).  Then the projection of $(a_{n_k})$ at the $p_a$th coordinate is $1, 0, 1,0,...$ which is not convergent.  Hence $(a_{n_k})$ is not convergent.
 
 (Basically that's the diagonal trick of [[Cantor's theorem]]).
- 
+
+However, as $I^I$ is compact, $a$ has a convergent subnet.  An explicit construction of a convergent subset is as follows.  Define a "digit choice" function $c \colon I \to \{0,1\}$ such that $c(p)$ occurs infinitely often in the binary expansion of $p$.  Consider the subset $K$ of $I \times \mathcal{P}(\mathbb{N})$ consisting of pairs $(p,A)$ where $A \subseteq c^{-1}(c(p))$.  We put a partial ordering on this family by $(p,A) \preceq (q,B)$ if $B \subseteq A$.  We define a map $K \to \mathbb{N}$ by $(p,A) \mapsto \min A$.  This is order-preserving and hence defines a subnet of $a$.  We claim that this subnet converges.  The point is that when viewing $a$ as a function $\mathbb{N} \to I^I$ then the composition $K \to \mathbb{N} \to I^I \to I$ is eventually constant for any projection $e_p \colon I^I \in I$.
+
 # Properties #
 
 The following is a list of properties of and pertaining to sequentially compact spaces.
