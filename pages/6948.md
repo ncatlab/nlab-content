@@ -86,9 +86,9 @@ $$
     &
     \mathcal{E}
     \\
-    \mathllap{\tau_{\leq_{-1}}}\downarrow \uparrow
+    {}^\mathllap{\tau_{\leq_{-1}}}\downarrow \uparrow
     &&
-    \mathllap{\tau_{\leq_{-1}}}\downarrow \uparrow
+    {}^\mathllap{\tau_{\leq_{-1}}}\downarrow \uparrow
     \\
     \tau_{\leq_{-1}} 
     \mathcal{E}/X
