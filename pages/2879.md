@@ -14,10 +14,10 @@ There are several generalization to the noncommutative case. A difficult part is
 
 The commutative version is classical, and there is an extensive literature. 
 
-The nonsymmetric version is due Lu: 
+A nonsymmetric version is due Lu and a similar version is later studied by Xu 
 
 *  Jiang-Hua Lu, _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__, 1 (1996) pp. 47-70, [q-alg/9505024](http://arxiv.org/abs/q-alg/9505024), [MR95e:16037](http://www.ams.org/mathscinet-getitem?mr=95e:16037), [doi](http://dx.doi.org/10.1142/S0129167X96000050)
-
+* Ping Xu, Quantum groupoids, Commun. Math. Phys., 216:539581, 2001.
 Modern concept over noncommutative base is in two formally different formalisms, but the concepts are equivalent: 
  
 * B. Day, [[R. Street]], _Monoidal bicategories and Hopf algebroids_, Advances in Mathematics __129__, 1 (1997) 99--157 
