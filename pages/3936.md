@@ -57,3 +57,5 @@ The **category of models** in this case is hence the [[full subcategory]] of the
 [[!redirects models]]
 [[!redirects category of models]]
 [[!redirects categories of models]]
+
+[[!redirects model (logic)]]
