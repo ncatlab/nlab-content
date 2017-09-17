@@ -5,4 +5,7 @@
 
 * [[path integral]]
 
+
 category: people
+
+[[!redirects Christian Bar]]
