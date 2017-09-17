@@ -35,21 +35,28 @@ of the essentially unique point $* \to \mathbf{B}G$ (see at _[[Lie differentiati
 
 In particular, one succinct way to present [[L-∞ algebras]] (as discussed there) is as [[dg-coalgebras]]:
 
-+-- {: .num_defn }
-###### Definition
++-- {: .num_prop  #LInfinityAlgebraIsQuasiFreeDgCoalgebra}
+###### Proposition/Definition
 
 An [[L-∞ algebra]] $(\mathfrak{g}, [-], [-,-], [-,-,-], \cdots)$ structure on a [[graded vector space]] $\mathfrak{g}$ is equivalently a [[dg-coalgebra]] structure on the graded-commutative [[cofree coalgebra]] over $\mathfrak{g}$.
 
 Conversely, the [[category]] of [[L-∞ algebras]] (and general "weak" morphisms between them) is the [[full subcategory]] of that of counital cocommutative [[dg-coalgebras]] on those whose underlying bare graded-commutative [[coalgebra]] (forgetting the codifferential) is free
 
 $$
-  L_\infty Alg \hookrightarrow dgCoCAlk
+  L_\infty Alg \hookrightarrow dgCoCAlg
   \,.
 $$
 
 =--
 
-Accordingly it is of interest to have a also [[model structure on dg-coalgebras]] which presents $L_\infty$-algebras.
+Accordingly it is of interest to have also [[model structure on dg-coalgebras]] or dually (on [[pro-objects]] of) [[dg-algebras]] which presents $L_\infty$-algebras. Prop. \ref{LInfinityAlgebraIsFibrantObjectIndgFormalSpace} below identifies the category $L_\infty Alg$ as the ([[full subcategory|full sub-]])[[category of fibrant objects]] inside such a model structure of "differential graded formal spaces", which in turn is related by a [[zig-zag]] of [[Quillen equivalence]] to various other models
+
++-- {: .num_remark}
+###### Remark/Warning
+
+So we write "$L_\infty Alg$" here for the _[[1-category]]_ of $L_\infty$-algebras and general morphisms between them, since this is an entry on model category presentations. If we want to refer to the [[(∞,1)-category]] of $L_\infty$-algebras we here write explicitly "$L_W( L_\infty Alg$", referring to the [[simplicial localization]] of this 1-category.
+
+=--
 
 
 ## Definitions and Quillen equivalences
@@ -60,9 +67,9 @@ We list definitions of various [[model category]] structures that all [[presenta
 
 * [On dg-Coalgebras](#OndgCoalgebras)
 
-* [On higher sheaves over infinitesimally thickened points](#SheavesOverCosimplicialInfinitesimallyThickenedPoints)
+* [On simplicial sheaves over cosimplicial formal spaces](#SheavesOverCosimplicialInfinitesimallyThickenedPoints)
 
-* [dg-infinitesimal thickened points](#OnDgInfinitesimallyThickenedPoints)
+* [On dg-formal spaces](#OnDgInfinitesimallyThickenedPoints)
 
 
 
@@ -243,7 +250,7 @@ is a [[weak equivalence]] that exhibits $\mathcal{C}\mathcal{L}\mathfrak{g}$ as 
 
 
 
-### $(\infty,1)$-Sheaves over cosimplicial infinitesimally thickened points
+### On simplicial presheaves over cosimplicial formal spaces 
  {#SheavesOverCosimplicialInfinitesimallyThickenedPoints}
 
 
@@ -323,7 +330,7 @@ Between quasi-smooth objects in $DerivedFormalSpace$ the weak equivalences are p
 This is ([Pridham, cor. 2.16](#Pridham)).
 
 
-### On dg infinitesimally thickened points
+### On dg formal spaces
  {#OnDgInfinitesimallyThickenedPoints}
 
 +-- {: .num_defn #dgFormalSpace}
@@ -363,11 +370,75 @@ There is a [[cofibrantly generated model category|cofibrantly generated]]
 
 This is ([Pridham, prop. 4.26](#Pridham)).
 
++-- {: .num_prop #LInfinityAlgebraIsFibrantObjectIndgFormalSpace}
+###### Proposition
+
+$L_\infty$-algebras are precisely the [[fibrant objects]] in $dgFormalSpace$: the [[functor]]
+
+$$
+  L_\infty Alg \stackrel{CE}{\to} Pro(dgArtinCAlg_k)^{op} \simeq dgFormalSpace
+$$
+
+which regards an $L_\infty$-algebra $\mathfrak{g}$ as a [[dg-coalgebra]] by prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} and then forms the dual [[dg-algebra]] -- the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ -- is an [[equivalence of categories]] onto its [[essential image]], which are the [[fibrant objects]] of $dgFormalSpace$:
+
+$$
+  CE 
+   \;\colon\;
+  L_\infty Alg
+  \stackrel{\simeq}{\to}
+  dgFormalSpace_{fib}
+  \hookrightarrow
+  dgFormalSpace
+  \,.
+$$
+
+=--
+
+This is proven inside the proof of ([Pridham, prop. 4.42](#Pridham)).
+
+
++-- {: .num_remark}
+###### Remark
+
+In particular this shows that 
+the category $L_\infty Alg$ 
+of prop/def. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} carries the structure of a _[[category of fibrant objects]]_ that presents the [[homotopy theory]] of $L_\infty$-algebras. Notice that, of course, passing to the full subcategory of fibrant objects does not change the [[homotopy theory]] presented by the underlying [[category with weak equivalences]] in that we have an [[equivalence of (∞,1)-categories]] between the [[simplicial localizations]]
+
+$$
+  L_W(dgFormalSpace)
+  \simeq
+  L_W(L_\infty Alg)
+  \,.
+$$
+
+=--
+
+The following proposition characterizes the structure of this [[category of fibrant objects]].
+
++-- {: .num_prop #LInfinityAlgebrasAsACategoryOfFibrantObjects}
+###### Proposition
+
+The induced structure of a [[category of fibrant objects]] on $L_\infty Alg$ under the inclusion of prop. \ref{LInfinityAlgebraIsFibrantObjectIndgFormalSpace} has
+
+1. [[weak equivalences]] are precisely the maps that are [[quasi-isomorphisms]] on the underlying chain complexes;
+
+1. [[fibrations]] are precisely the maps that are [[surjections]] on the undelying chain complexes.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is proven in the proof of ([Pridham, prop. 4.4.2](#Pridham)), the second follows with ([Pridham, def. 4.34](#Pridham)) and the existence of the model structure on $dgFormalSpaces$.
+
+=--
+
 +-- {: .num_prop }
 ###### Proposition
 
 If $k$ is of [[characteristic]] 0 then there is a [[zig-zag]] of [[Quillen equivalences]] between
-$DerivedFormalSpace$, def. \ref{DerivedFormalSpace} and $dgFormalSpace$, \ref{dgFormalSpace}, hence an [[equivalence of (∞,1)-categories]] between their [[simplicial localizations]]
+$DerivedFormalSpace$, def. \ref{DerivedFormalSpace} and $dgFormalSpace$, def. \ref{dgFormalSpace}, hence an [[equivalence of (∞,1)-categories]] between their [[simplicial localizations]]
 
 $$
   L_W DerivedFormalSpace \simeq L_W dgFormalSpace
