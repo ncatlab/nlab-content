@@ -51,41 +51,27 @@ The second describes elimanation on absolute types. This is the formalization of
 
 We discuss the [[categorical semantics]] of inductive types.
 
-+-- {: .num_remark}
-###### Remark
-
-Traditionally in [[category theory]], the notion of an [[initial algebra of an endofunctor|initial algebra]] $W$ [[algebra for an endofunctor|for an endofunctor]] $F$ can be broken down into three parts: 
-
-
-1. It is an $F$-algebra, given by a structure $F(W) \to W$. Typically this structure is delivered in terms of _constructors_ (maps into $W$ out of the components of a coproduct decomposition of $F(W)$).
-
-1. For any algebra $A$, there exists an algebra map $W \to A$.
-
-1. Any two algebra maps from $W$ to $A$ are equal. 
-
-
-=--
-
-In the type theoretic use of the notion, the same concept is naturally thought of as broken down a bit differently (for a variety of reasons):
-
 
 +-- {: .num_defn #InterpretationOfTheRules}
 ###### Definition
 
-The categorical interpretation of introduction, elimination and computation rule are the following.
+The categorical interpretation of [[induction]], hence of the _dependent elimination_ and computation rules from [above](#InductionRules) are the following. 
+
+Let $\mathcal{C}$ be the ambient [[category]].
 
 1. **introduction rule** 
 
-   The interpretation of inductive term introduction is by a morphism
+   The interpretation of inductive term introduction is by an [[endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ and an [[algebra over an endofunctor]], exhibited by a [[morphism]] in $\mathcal{C}$ of the form
 
    $$
      F(W) \to W
+     \,.
    $$
 
 
 1. **elimination rule** 
 
-   Given a [[display map]] (e.g., a [[fibration]]) $B \to W$, where $B$ is given an algebra structure and the display map is an algebra map, the (dependent) eliminator is interpreted as a specified [[section]] $\sigma : W \to B \in \mathcal{C}_{/W}$
+   The interpretation of the dependent elimination rule says that given a [[display map]] $B \to W$, where $B$ is given an $F$-[[algebra over an endofunctor|algebra structure]] and the display map is an $F$-algebra [[homomorphism]], the dependent eliminator is interpreted as a specified [[section]] $\sigma : W \to B \in \mathcal{C}_{/W}$, hence as a [[diagram]]
 
    $$
      \array{
@@ -97,36 +83,60 @@ The categorical interpretation of introduction, elimination and computation rule
      }
    $$
 
+   in $\mathcal{C}$.
+
 1. **computation rule** 
 
-   That section $\sigma$ is required to be an [[algebra for an endofunctor|algebra]] [[homomorphism]].
+   The interpretation of the dependent computation rules is that the section $\sigma$ from above is required to be an [[algebra for an endofunctor|algebra]] [[homomorphism]].
+
+=--
+
++-- {: .num_defn #InterpretationOfTheSimpleRules}
+###### Definition
+
+The categorical interpretation of [[recursion]], hence of the absolute elimination rules from [above](#RecursionRules) in a suitable [[category]] $\mathcal{C}$ is the following
+
+1. **introduction rule** 
+
+   The interpretation of inductive term introduction is by an [[endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ and an [[algebra over an endofunctor]], exhibited by a [[morphism]] in $\mathcal{C}$ of the form
+
+   $$
+     F(W) \to W
+     \,.
+   $$
+
+1. **elimination rule**
+
+   The interpretation of the absolute elimination rule is that for $A$ any other $F$-[[algebra of an endofunctor|algebra]], there is a morphism $W \to A$ in $\mathcal{C}$.
+
+1. **computation rule**
+
+   The interpretation of the absolute computation rule says that the morphism $W \to A$ from above is an algebra [[homomorphism]] and is unique as such.
+
+In summary this says that the recursion rules are interpretd as an [[initial algebra of an endofunctor]].
 
 =--
 
 
-+-- {: .num_remark #EliminationInterpretationImpliesMapsOut}
-###### Remark
-
-For the special case that $B \to W$ is a [[projection]] $p_1 : W \times A \to W$, the elimination and comutation rule imply in particular a specified algebra homomorphism from $W$ to any other $F$-algebra $A$.
-
-=--
 
 +-- {: .num_prop #BothFormulationsOfInitialityAreEquivalent}
 ###### Proposition
 
 When interpreted in a category $\mathcal{C}$ of [[homotopy type|homotopy 0-types]] = sets,
 definition \ref{InterpretationOfTheRules}
-is equivalent to saying that $W$ is an [[initial algebra for an endofunctor|initial algebra]] for $F$.
+and
+definition \ref{InterpretationOfTheSimpleRules}
+are indeed equivalent.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-One direction is immediate: suppose that $W$ is an initial algebra. Then by definition it comes with a morphism $F(W) \to W$. Then since [[initial object|initiality]] entails first of all the existence of a morphims to any other object it follows that with $B$ another $F$-algebra there is a homomorphism $W \to B$, and since secondly initiality entails uniqueness of this morphism, it follows that given a homomorphism $B \to W$ the composite $W \to B \to W$ has to equal the identity $id_W$, hence that $B \to W$ has a section, and uniquely so.
+First suppose that $W$ is an initial $F$-algebra as in def. \ref{InterpretationOfTheSimpleRules}. Then since [[initial object|initiality]] entails first of all the existence of a morphims to any other object it follows that with $B$ another $F$-algebra there is a homomorphism $W \to B$, and since secondly initiality entails uniqueness of this morphism, it follows that given a homomorphism $B \to W$ the composite $W \to B \to W$ has to equal the identity $id_W$, hence that $B \to W$ has a section, and uniquely so.
 
 Conversely, assume that $W$ satisfies definition \ref{InterpretationOfTheRules}.
-By remark \ref{EliminationInterpretationImpliesMapsOut} we have a homomorphism from $W$ to any other $F$-algebra $A$. Therefore to show that $W$ is an initial $F$-algebra it remains to show that for $f, g : W \to A$ two algebra homomorphism, they are necessarily equal.
+For $A$ any other $F$-algebra we can form the trivial display map $W \times A \to W$ by [[projection]] and a [[section]] of this is equivalently just a morphism $W \to A$,  so we have a homomorphism from $W$ to any other $F$-algebra $A$. Therefore to show that $W$ is an initial $F$-algebra it remains to show that for $f, g : W \to A$ two algebra homomorphism, they are necessarily equal.
 
 To that end, notice that by the assumption of 0-truncation, the [[diagonal]]  $\delta \colon A \to A \times A$ is a display map / fibration. 
 
@@ -147,12 +157,6 @@ which is also an algebra homomorphism. Therefore by the interpretation of the el
 
 =--
 
-+-- {: .num_remark }
-###### Remark
-
-Notice that this is the [[induction]] principle (subalgebras of an initial algebra are the whole initial algebra). 
-
-=--
 
 +-- {: .num_remark }
 ###### Remark
@@ -256,7 +260,7 @@ In the following we write of course for short $0 : * \to \mathbb{N}$ and $s : \m
 +-- {: .num_example}
 ###### Example
 
-We spell out in detail how the [[initial object|initiality]] of this object is the classical [[induction principle]]. 
+We spell out in detail how the fact that $\mathbb{N}$ satisfied def. \ref{InterpretationOfTheRules} is the classical [[induction principle]]. 
 
 That principle says informally that if a [[proposition]] $P$ depending on the natural numbers is true at $n = 0$ and such that if it is true for some $n$ then it is true for $n+1$, then it is true for all natural numbers.
  
@@ -399,7 +403,50 @@ The categorical interpretation of this is as a morphism $p : \mathbb{N} \to P$ i
 
 #### Recursion
 
++-- {: .num_example}
+###### Example
 
+We spell out how the fact that $\mathbb{N}$ satisfies def. \ref{InterpretationOfTheSimpleRules} is the classical [[recursion principle]]. 
+
+
+So let $A$ be an $F$-algebra object, hence equipped with a morphism
+
+$$
+  a_0 : * \to A
+$$
+
+and a morphism
+
+$$
+  h : A \to A
+  \,.
+$$
+
+By [[initial object|initiality]] of the $F$-algebra $\mathbb{N}$, there is then a (unique) morphism
+
+$$
+  f : \mathbb{N} \to A
+$$
+
+such that the diagram 
+
+$$
+  \array{
+    * &\stackrel{0}{\to}& \mathbb{N} &\stackrel{(-)+1}{\to}& \mathbb{N}
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f}}
+    \\
+    * &\stackrel{a_0}{\to}& A &\stackrel{h}{\to}& A
+  }
+$$
+
+commutes. This means precisely that $f$ is the function defined recursively by
+
+1. $f(0) = a_0$;
+
+1. $f(n+1) = h(f(n))$.
+
+=--
 
 
 ### Identity types
@@ -446,7 +493,11 @@ and the [[initial object|initial]] such is the [[path space object]] $A^I \to A 
 
 #### Induction
 
-The [[induction principle]] for [[identity types]] is the principle of "substitution of equals for equals" or the like.
+
++-- {: .num_example}
+###### Example
+
+We spell out in detail how the the [[induction principle]] def. \ref{InterpretationOfTheRules} for identity types is th [[principle of substition of equals for equals]].
 
 To have an $F$-algebra $\langle E \to A\times A\rangle$ over $\langle A^I \to A \times A\rangle$ means precisely to have a diagram
 
@@ -481,7 +532,8 @@ $$
 
 The elimination rule then says that this extends to a section $A^I \to E$, hence a "proof of $E$ over all identifications" $a = b$.
 
-(...)
+=--
+
 
 ### W-types
 
