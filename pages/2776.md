@@ -51,3 +51,8 @@ A quick definition and comments on its relation to [[FQFT]] are in section 4.1 o
 Technical details are in section 3 of
 
 * [[Jacob Lurie]], _[[Ek-Algebras]]_
+
+which meanwhile has becomes part of section 5 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_ .
+
