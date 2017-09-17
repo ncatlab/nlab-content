@@ -267,7 +267,7 @@ A [[schreiber:symplectic ∞-Lie algebroid]] / [[n-symplectic manifold]] $(\math
 
 The corresponding Chern-Simons elements of $\omega$ are the integrands for the [[action functional]]s of various [[TQFT]] [[sigma-model]]s.
 
-With $\{-,-\} : CE(\mathfrak{a}) \otimes CE(\mathfrak{a) \to CE(\mathfrak{a})$ the [[Poisson bracket]] induced by $\omega$ we have that there exists a [[∞-Lie algebra cocycle]]  $\mu \in CE(\mathfrak{a})$ such that
+With $\{-,-\} : CE(\mathfrak{a}) \otimes CE(\mathfrak{a}) \to CE(\mathfrak{a})$ the graded [[Poisson bracket]] induced by $\omega$ we have (see [Roytenberg](#Roytenberg)) that there exists a [[∞-Lie algebra cocycle]]  $\mu \in CE(\mathfrak{a})$ such that
 
 $$
   d_{CE(\mathfrak{a})} = \{\mu, -\}
@@ -284,62 +284,69 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-The cocycle $\mu$ is in transgression with $\frac{1}{2}\omega$. If in local coordinates we have
+The cocycle $\mu$ is in transgression with $\frac{1}{2}\omega$. On a coordinate patch $\{x^i\}$ a Chern-Simons element is
 
 $$
-  \omega = \omega_{a b} \mathbf{d}x^a \wedge \mathbf{d}x^b
+  \begin{aligned}
+    cs &= \frac{1}{4}\iota_{v} \omega_{a b} + \mu
+    \\
+    &= \frac{1}{2} \omega_{i j} x^i \mathbf{d}x^j + \mu
+  \end{aligned}
+  \,,
 $$
 
-then the corresponding Chern-Simons element $cs \in \mathbf{W}(\mathfrak{a})$ is
-
-$$
-  cs = \frac{1}{2}\omega_{a b} x^a \wedge \mathbf{d}x^b + \mu
-  \,.
-$$
 
 =--
+
+Here $\mathbf{d}$ is the shift derivation in the Weil algebra, in that $d_{W(\mathfrak{a})} = d_{CE(\mathfrak{a})} + \mathbf{d}$.
 
 +-- {: .proof}
 ###### Proof
 
-To safe typing signs, we write as if all functions were even graded. By standard reasoning the computation holds true then also for arbitrary grading with the usual signs inserted.
+To safe typing signs, we write as if all functions were even graded. By standard reasoning the computation holds true then also for arbitrary grading.
+ 
+Observe that 
 
-Observe that on unshifted generators we have
+1. on unshifted generators we have
 
-$$
-  \mathbf{d}x^b \omega_{a b} \{x^a  , -\} = \mathbf{d}
-$$
+   $$
+     (\mathbf{d}x^b) \omega_{a b} \{x^a  , -\} = \mathbf{d}
+   $$
 
-(where on the right we have the shift derivation in the Weil algebra). Therefore acting with the differential of the [[Weil algebra]] on 
-the first term in $cs$ yields
+
+1. we have garded commutators 
+
+   $[\mathb{d}, \iota_v] = Id$ 
+
+   and 
+
+   $[d_{CE(\mathfrak{a})}, \iota_v] = d_{CE(\mathfrak{a})}\mathbf{d}^{-1}$.
+
+Therefore 
 
 $$
   \begin{aligned}
-    d_{W(\mathfrak{a})}  (\omega_{a b}x^a \wedge \mathbf{d}x^b )
+    d_{W(\mathfrak{a})} \frac{1}{2}\iota_{v} \omega
     &= 
-    \omega_{a b}\mathbf{d}x^a \wedge \mathbf{d}x^b 
-    +
-    (\mathbf{d}\omega_{a b}) x^a \wedge \mathbf{d}x^b
-    +
-    \{ \mu, \omega_{a b}x^a \} \mathbf{d}x^b
-    -
-    \omega_{a b} x^a \mathbf{d}\{\mu, x^b\}
-    \\
-    &=
-    \omega_{a b}\mathbf{d}x^a \wedge \mathbf{d}x^b 
-    +
-    \{ \mu, \omega_{a b}x^a \} \mathbf{d}x^b
-    +
-    \omega_{a b} (\mathbf{d} x^a) \wedge \{\mu, x^b\}
+    [d_{W(\mathfrak{a})}, \iota_{v}] \frac{1}{2}\omega
     \\
     & =
-    \omega_{a b}\mathbf{d}x^a \wedge \mathbf{d}x^b 
-    -
-    2 \mathbf{d}\mu
-   \end{aligned}
+    (Id + d_{CE(\mathfrak{a})} \mathbf{d}^{-1} ) \frac{1}{2}\omega
+    \\
+    & =
+    \frac{1}{2}\omega + \omega_{a b} \{\mu, x^a\} \mathbf{d}x^b
+    \\
+    &= \frac{1}{2} \omega - \mathbf{d}\mu
+  \end{aligned}
+  \,,
 $$
 
-(...)
+where in the first line we used that by definition of [[invariant polynomial]] $d_{W(\mathfrak{a})} \omega = 0$. Similarly, using that by definition $d_{CE(\mathfrak{a})} \mu = 0$ we have 
+
+$$
+  d_{W(\mathfrak{a})} \mu = \mathbf{d}\mu
+  \,.
+$$
 
 =--
 
@@ -348,7 +355,7 @@ $$
 
 
 The Chern-Simons action functional corresponding to this Chern-Simons element
-on $\mathfrak{a}$ is that considered in [[AKSZ-theory]]. 
+on $\mathfrak{a}$ is that considered in [[AKSZ theory]]. 
 
 =--
 
@@ -452,6 +459,12 @@ A survey of higher Chern-Simons elements and their action functions as applied t
 
 * Jorge Zanelli, _Lecture notes on Chern-Simons (super-)gravities_ [arXiv:0502193](http://arxiv.org/abs/hep-th/0502193)
 {#Zanelli}
+
+For the discussion if symplectic $n$-Lie algebroids above see [[n-symplectic manifold]] and
+
+* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv:math/0203110](http://arxiv.org/abs/math/0203110))
+{#Roytenberg}
+
 
 [[!redirects Chern-Simons elements]]
 
