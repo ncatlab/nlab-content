@@ -20,7 +20,7 @@ For example, a [[quotient Hopf algebra]] $B$ of $H$, with quotient map $\pi: H\t
 
 * [[Zoran Škoda]], _Localizations for construction of quantum coset spaces_, in "Noncommutative geometry and Quantum groups", W.Pusz,  P.M. Hajac, eds. Banach Center Publications __61__, pp. 265--298, Warszawa 2003, [math.QA/0301090](http://arxiv.org/abs/math.QA/0301090).
 
-* A. U. Klymik, K. Schmuedgen, _Quantum groups and their representations_, Springer 1997.
+* A. U. Klimyk, K. Schmuedgen, _Quantum groups and their representations_, Springer 1997.
 
 
 [[!redirects quantum homogeneous space]]
