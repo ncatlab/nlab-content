@@ -31,6 +31,8 @@ In applications in [[computer science]] one uses for instance the _[[completion 
 
 * [[computable real number]]
 
+* [[exact real computer arithmetic]]
+
 * [[computable physics]]
 
 
