@@ -1,4 +1,3 @@
-[[!redirects algebraic cycles]]
 
 #Contents#
 * table of contents
@@ -43,7 +42,11 @@ where the sum goes over closed integral subschemes $Z$ of codimension 1 and with
 ## Related concepts
 
 * [[Chow groups]]
+
 * [[Cartier divisor]]
+
+* [[Abel-Jacobi map]]
+
 
 ## References
 
@@ -56,3 +59,4 @@ A relation to [[iterated integrals]] and [[diffeological spaces]] is discussed i
 
 * [[Richard Hain]], _Iterated Integrals and Algebraic Cycles: Examples and Prospects_ ([arXiv:](http://arxiv.org/abs/math/0109204))
 
+[[!redirects algebraic cycles]]
