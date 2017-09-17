@@ -140,7 +140,7 @@ See also
 * web page of a project [Noncommutative topology - homotopy functors and E-theory ](http://www.math.ku.dk/~jg/papers/etheory.html)
 
 
-* [[Snigdahayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_  [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
+* [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_  [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
  {#Mahanta}
 
 * [pdf](http://faculty.tcu.edu/epark/papers/ETheory_JFA.pdf)
