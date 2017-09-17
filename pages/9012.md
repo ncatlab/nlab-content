@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $(\mathcal{C}, \otimes)$ a [[monoidal category]], the [[full subcategory]] on the objects that are invertible under the tensor operation is the [[Picard groupoid]] $PIC(\mathcal{C}, \otimes)$. This inherits the monoidal structure from $(\mathcal{C}, \otimes)$ and hence becomes a [[2-group]]. This is the **Picard 2-group** of $(\mathcal{C}, \otimes)$.
+
+## Properties
+
+### Relation to Picard group
+
+The [[decategorification]] of the Picard 2-group, hence the [[group]] of connected components is the ordinray [[Picard group]] $Pic(\mathcal{C}, \otimes)$.
+
+$$
+  Pic(\mathcal{C}, \otimes) \simeq \pi_0 PIC(\mathcal{C}, \otimes)
+  \,.
+$$
+
+## Related concepts
+
+* [[Picard 3-group]]
+
+* [[Picard ∞-group]]
+
+[[!redirects Picard 2-groups]]
+
+[[!redirects Picard groupoid]]
+[[!redirects Picard groupoids]]
