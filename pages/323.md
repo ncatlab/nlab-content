@@ -228,11 +228,13 @@ Then the left square and  the outer rectangle are pullbacks but the right square
 
 
 
-## See also:
-* [[base change]]
-* [[homotopy pullback]]
-* [[2-limit]] for pullbacks in a [[2-category]]
-* [[wide pullback]]
+## Related concepts
+
+* [[fiber product]], [[base change]]
+
+* [[lax pullback]], [[comma object]]
+
+* [[(∞,1)-pullback]], [[homotopy pullback]]
 
 [[!redirects pullbacks]]
 [[!redirects pullback square]]
