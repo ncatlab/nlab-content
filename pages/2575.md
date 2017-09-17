@@ -820,6 +820,10 @@ More discussion of this is in
 
 * [[Scott Axelrod]], _Geometric Quantization of Chern-Simons Gauge Theory_ PhD thesis (1991)
 
+The role of the [[metaplectic correction]] is studied in some detail in 
+
+* Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
+
 Decent expositions are for instance in 
 
 * M. B. Young, _Chern-Simons theory, knots and moduli spaces of connections_ 2010 ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
@@ -852,7 +856,7 @@ and in codimension 2 ([[Wess-Zumino-Witten model]]) implicitly in
 
 #### Hamiltonian quantization
 
-* [[Anton Alexeev]], [[Harald Grosse]], [[Volker Schomerus]], _Combinatorial quantization of the Hamiltonian Chern-Simons theory_ ([pdf](http://www.mat.univie.ac.at/~esiprpr/esi079.pdf))
+* [[Anton Alekseev]], [[Harald Grosse]], [[Volker Schomerus]], _Combinatorial quantization of the Hamiltonian Chern-Simons theory_ ([pdf](http://www.mat.univie.ac.at/~esiprpr/esi079.pdf))
 
 
 
