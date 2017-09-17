@@ -1,12 +1,27 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ##The Knot Group of a Knot##
-The **knot group**, $G(K)$, of a knot $K$ is the [[fundamental group]] of the complement of the knot.  Taking this apart, the knot, $K$, is an embedding of $S^1$ into $\mathbb{R}^3$ or $S^3$. We tend to abuse terminology and to think (and write) of $K$ as  the image of the embedding rather than the embedding itself. (If you perform an ambient [[isotopy]] on the knot then it deforms this complement into the complement of the isotopic knot.) . We can therefore write $\mathbf{R}^3-K$ for the space outside the knot, i.e. its complement.  This is clearly arcwise connected so we do not need to worry about a choice of base point any point will do.  We make the 
-+--{: .un_defn}
-######Definition######
+
+The **knot group**, $G(K)$, of a [[knot]] $K$ is the [[fundamental group]] of the complement of the knot.  Taking this apart, the knot, $K$, is an embedding of $S^1$ into $\mathbb{R}^3$ or $S^3$. We tend to abuse terminology and to think (and write) of $K$ as  the image of the embedding rather than the embedding itself. (If you perform an ambient [[isotopy]] on the knot then it deforms this complement into the complement of the isotopic knot.) . We can therefore write $\mathbf{R}^3-K$ for the space outside the knot, i.e. its complement.  This is clearly arcwise connected so we do not need to worry about a choice of base point any point will do.  We make the 
+
++-- {: .un_defn}
+###### Definition
+
 $G(K) := \pi_1(\mathbf{R}^3-K)$.
 
 =--
@@ -14,6 +29,7 @@ $G(K) := \pi_1(\mathbf{R}^3-K)$.
 This is fine, but does not tell us how to calculate anything about this group for a given knot. Luckily there are two neat algorithms for giving [[group presentation|presentations]] of $G(K)$ for arbitrary knots, one due to Wirtinger, the other to Dehn.
 
 ##The Dehn Presentation##
+
 Orient the knot diagram.  that diagram will divide the plane into various faces.  Label these faces with distinct letters. We will use $x_1,\ldots, x_n$. (These face labels will be the generators in the presentation.)  
 
 For the relations, we get one such for each crossing:
