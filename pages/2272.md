@@ -79,6 +79,8 @@ Every [[local action functional]] which admits a [[Green's function]] for its [[
 
 * [[Poisson cohomology]]
 
+* [[Poisson reduction]]
+
 * [[isotropic submanifold]], [[coisotropic submanifold]]
 
 * [[symplectic leaf]]
