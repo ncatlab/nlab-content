@@ -12,15 +12,17 @@ Let $G$ and $H$ be [[graph|simple graphs]]. Then $H$ is a **graph minor** of $G$
 
 * Contracting edges, where contracting an edge means removing it and identifying its endpoints. 
 
-## Definition via subquotients 
+Graph minors can be viewed as certain types of subquotients in an appropriate category of graphs. 
 
-The operations of interest can be expressed in categorical terms; there is a nice category of simple graphs such that a graph minor is the same thing as a subquotient in this category. Namely, we take the point of view that a simple graph is essentially the same thing as a set $V$ equipped with a reflexive symmetric relation $E$, and a morphism of simple graphs is a function which respects these relations. Indeed, such a relation determines and is uniquely determined by a simple graph $G$ where for given vertices $x, y \in V$, there is an edge between $x$ and $y$ in $G$ iff both $E(x, y)$ and $x \neq y$. 
+## Categorical POV  
 
-Notice that the contraction of edges is neatly captured by quotients in this category. For example, if we want to contract a collection of edges by identifying points along an equivalence relation $R$, that is via a quotient map $q \colon V \to V/R$, then we simply take the image of the composite 
+We take the point of view that a simple graph is essentially the same thing as a set $V$ equipped with a reflexive symmetric relation $E$, and a morphism of simple graphs is a function which respects these relations. Indeed, such a relation determines and is uniquely determined by a simple graph $G$ where for given vertices $x, y \in V$, there is an edge between $x$ and $y$ in $G$ iff both $E(x, y)$ and $x \neq y$. 
+
+Notice that contraction of edges yields a quotient in this category. For example, if we want to contract a collection of edges by identifying certain points along an equivalence relation $R$, that is via some quotient map $q \colon V \to V/R$, then we simply take the image of the composite 
 
 $$E \hookrightarrow V \times V \stackrel{q \times q}{\to} V/R \times V/R;$$ 
 
-notice this image is a reflexive symmetric relation on $V/R$. While it might seem more natural to use instead an _irreflexive_ relation for _loop-free graphs_ (a relation $E$ being **irreflexive** if it has empty intersection with the diagonal in $V \times V$), the fact of the matter is that irreflexive relations are not closed under the taking of images, and we cannot express so neatly the contraction operations by taking a quotient in the category of symmetric irreflexive operations. 
+notice this image is a reflexive symmetric relation on $V/R$. While it might seem more natural to use instead an _irreflexive_ relation to express _loop-free graphs_ (a relation $E$ being **irreflexive** if it has empty intersection with the diagonal in $V \times V$), the fact of the matter is that irreflexive relations are not closed under the taking of images, and the category of sets with symmetric irreflexive relations and relation-preserving morphisms does not admit the forming of such quotients. 
 
 Thus, we let $SimpGph$ denote the category of sets equipped with a reflexive symmetric relation. This category has many convenient properties: 
 
@@ -34,11 +36,7 @@ $SimpGph$ is a [[Grothendieck quasitopos]], in particular [[regular category|reg
 The underlying vertex-set functor $Vert \colon SimpGph \to Set$ reflects and preserves monos and epis, and preserves all limits and colimits. 
 =-- 
 
-For details on these results, see [[category of simple graphs]]. 
-
-+-- {: .num_defn} 
-###### Definition 
-A contraction of a simple graph $G$ is a quotient = regular epi $G \to H$. A subgraph is a mono $H \hookrightarrow H'$ in $SimpGph$. A **graph minor** is a subquotient in $SimpGph$: 
+For details on these results, see [[category of simple graphs]]. A _quotient_ will mean a regular epi $G \twoheadrightarrow H$. A subgraph is a mono $H \hookrightarrow H'$ in $SimpGph$. A subquotient in $SimpGph$ is a diagram of shape 
 \[\array{
 G & \twoheadrightarrow & G' \\
  & & \uparrow^\mathrlap{mono} \\
@@ -49,7 +47,7 @@ G & \twoheadrightarrow & G' \\
 
 +-- {: .num_prop} 
 ###### Proposition 
-The graph minor relation is reflexive and transitive. 
+The subquotient relation is reflexive and transitive. 
 =-- 
 
 +-- {: .proof} 
@@ -67,7 +65,9 @@ G & \twoheadrightarrow & G' & \twoheadrightarrow & G'' \\
 where we use the simple fact that the pushout of a mono along an arrow in $SimpGph$ is a mono (because $Vert$ reflects monos and preserves monos and pushouts, plus the fact that the pushout of a mono in $Set$ is a mono). 
 =-- 
 
-For finite graphs, the graph minor relation is also antisymmetric (if $G$ and $H$ are minors of one another, then they are isomorphic). Indeed, if either the arrow $G \twoheadrightarrow G'$ or the arrow $H \hookrightarrow G'$ is not an isomorphism, then $H$ has strictly fewer edges and vertices than $G$. This is clearly not the case for infinite graphs (e.g., the infinite rooted binary tree without leaves contains as a subgraph a disjoint sum of two copies of itself). 
+For finite graphs, the subquotient relation is also antisymmetric (if $G$ and $H$ are minors of one another, then they are isomorphic). Indeed, if either the arrow $G \twoheadrightarrow G'$ or the arrow $H \hookrightarrow G'$ is not an isomorphism, then $H$ has strictly fewer edges and vertices than $G$. This is clearly not the case for infinite graphs (e.g., the infinite rooted binary tree without leaves contains as a subgraph a disjoint sum of two copies of itself). 
+
+(I intend to expand this section, eventually. Hopefully one can develop a categorical story about graph minors in particular.) 
 
 ## Minor-closed families 
 
