@@ -1,0 +1,22 @@
+
+## Definition
+
+## Related concepts
+
+* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+
+* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
+
+* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
+
+* [[geometric category]], **geometric functor**, [[geometric logic]], [[geometric theory]]
+
+
+## References
+
+Remark C2.2.10
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+[[!redirects geometric functors]]
+
