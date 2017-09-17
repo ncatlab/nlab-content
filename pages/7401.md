@@ -182,6 +182,102 @@ $$
 
 =--
 
+### Skeleta and coskeleta
+
+For $n \in \mathbb{N}$, write 
+
+$$
+  t_n : S_{\leq n}  \hookrightarrow S
+$$ 
+
+for the [[full subcategory]]
+on the objects of degree $\leq n$.
+
++-- {: .num_defn }
+###### Definition
+
+Left and right [[Kan extension]] along $t_n$ defines an [[adjoint triple]]
+
+$$
+  ((t_n)_! \dashv t_n^* \dashv (t_n)_*)
+  :
+   [S_{\leq n},\mathcal{C}] \stackrel{\overset{(t_n)_!}{\to}}{\stackrel{\overset{t_n^*}{\leftarrow}}{\underset{(t_n)_*}{\hookrightarrow}}}
+  [S,\mathcal{C}]
+  \,.
+$$
+
+
+The induced [[monads]]
+
+$$
+  (sk_n \dashv cosk_n)
+  : 
+  [S,\mathcal{C}]
+    \stackrel{\overset{(t_n)_!}{\leftarrow}}{\underset{t_n^*}{\hookrightarrow}}
+  [S_{\leq n},\mathcal{C}]
+    \stackrel{\overset{t_n^*}{\hookleftarrow}}{\underset{(t_n)_*}{\to}}
+  [S,\mathcal{C}]
+$$
+
+are the **$n$-[[skeleton]]** and **$n$-[[coskeleton]]** functors, respectively.
+
+Define for all $X \in [S, \mathcal{C}]$ the notation $sk_{-1}X$ to denote the [[initial object]] and $cosk_{-1}X$ the [[terminal object]].
+
+=--
+
+The $((t_n)_! \dashv t_n^*)$-[[unit of an adjunction|counit]] and the $(t_n^* \dashv (t_n)_*)$-unit induces [[natural transformations]]
+
+$$
+  sk_n \to id
+$$
+
+$$
+  id \to cosk_n
+  \,.
+$$
+
++-- {: .num_lemma }
+###### Lemma
+
+The degree-$n$th latching object, def. \ref{GlobalLatching}, is isomorphic to the $(n-1)$-skeleton, and dually, the degree-$n$ matching object is isomorphic to the $(n-1)$-coskeleton. Under these identifications the canonical morphisms on both sides match
+
+$$
+  Latch_n(X) \simeq sk_{n-1}(X) 
+$$
+
+$$
+  Match_n(X) cosk_{n-1}(X)
+$$
+
+
+=--
+
+This is ([Ber-Moer, lemma 6.2](#BergerMoerdijk)).
+
++-- {: .num_lemma #coSkeletonTower}
+###### Lemma
+
+There are towers of [[natural trasnsformations]]
+
+$$
+  \emptyset \to sk_0 X \to sk_1 X \to sk_2 X \to \cdots \to X
+  \,,
+$$
+
+and
+
+$$
+  X \to \cdots \to cosk_2 X \to cosk_1 X \to cosk_0 X \to *
+  \,,
+$$
+
+that exhibit $X$ as the [[colimit]] of its skeleton tower and as the [[limit]] of its coskeleton tower.
+
+=--
+
+This is ([Ber-Moer, lemma 6.3](#BergerMoerdijk)).
+
+
 (...)
 
 ## Proof of the model category axioms
@@ -239,25 +335,27 @@ is a cofibration in $[G_n(S), \mathcal{C}]$.
 
 ## Properties
 
-### General
+### Skeletal filtration and coskeleton tower
 
-+-- {: .num_theorem }
-###### Theorem
++-- {: .num_prop }
+###### Proposition
 
-Let $S$ be a (Cisinski-Moerdijk)-[[generalized Reedy category]]. And let $\mathcal{C}$ be a [[cofibrantly generated model category]].
+Let $S$ be a Berger-Moerdijk-[[generalized Reedy category]] and $\mathcal{C}$ any [[model category]]. Let $X \in [S, \mathcal{C}]$ and let $n \in \mathbb{N}$ and $k \lt l \leq \infty$. Recall the skeleta/coskeleta towers from lemma \ref{coSkeletonTower}.
 
-Then with cofibrations, fibrations and weak equivalences as in def. \ref{ReedyModelStructure}, $[S, \mathcal{C}]$ is a [[model category]].
+1. If $X$ is Reedy cofibrant according to def. \ref{ReedyModelStructure} then all $sk_n X$ are Reedy cofibrant and the canonical morphisms $sk_k X \to sk_l X$ are Reedy cofibrations. 
+
+1. If $X$ is Reedy fibrant according to def. \ref{ReedyModelStructure} then all $cosk_n X$ are Reedy fibrant and the canonical morphisms $cosk_l X \to cosk_k X$ are Reedy fibrations. 
+
 
 =--
 
-This is ([Berger-Moerdijk, theorem 1.6](#BergerMoerdijk)).
-
+This is ([Ber-Moer, prop. 6.5](#BergerMoerdijk)).
 
 ### Relation to other model structures
 
 (...)
 
-## Examples
+## Example
 
 * Every ordinary [[Reedy category]] is a generalized Reedy category, and in this case the above model structure reduces to the traditional [[Reedy model structure]].
 
