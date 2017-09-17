@@ -82,6 +82,10 @@ Texts on [[type theory]] typically deal with the subtleties of the notion of _eq
 * [[Per Martin-Löf]], _Intuitionistic type theory_, Lecture notes (1980)
   {#PML}
 
+Besides [[Kurt Gödel]]\'s _[[Dialectica]]_ paper, which might be the first paper to mention intensional equality
+(and the fact that it should be decidable), another reference is [[Dick de Bruijn]]\'s [[Automath]], which makes
+a distinction between definitional equality and "book" equality.
+
 
 [[!redirects equal]]
 [[!redirects equals]]
