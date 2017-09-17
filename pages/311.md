@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -191,6 +191,8 @@ These general considerations are quite commonplace in algebraic topology, where 
 * [[classifying morphism]]
 
 * [[representable morphism of stacks]]
+
+* [[Artin representability theorem]], [[Artin-Lurie representability theorem]]
 
 ## References
 
