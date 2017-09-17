@@ -1,12 +1,20 @@
-**Warning: This page is tentative and may contain errors.**
 
-## Idea ##
+# Hasse diagrams
+* table of contents
+{: toc}
+
++-- {: .standout}
+Warning: This page is tentative and may contain errors.
+=--
+
+## Idea
 
 Given a [[finite category|locally finite]] [[partially ordered set]] $C$, its _Hasse diagram_ encodes the minimal amount of information necessary to reproduce the ordering relation.
 
-## Definition ##
 
-A **Hasse diagram** $H$ is a [[directed graph]] such that the [[graph|adjacency relation]] equals the [[covering relation]].
+## Definition
+
+A **Hasse diagram** $H$ is a [[directed graph]] (or [[quiver]]) such that the [[graph|adjacency relation]] equals the [[covering relation]].
 
 In other words, a Hasse diagram is a directed graph in which for each edge $x\to y$ there is no other path from $x$ to $y$. There are no intermediate edges.
 
@@ -24,7 +32,8 @@ $$F:Hasse\to Ord$$
 
 allows us to identify a Hasse diagram with each proset.
 
-## References ##
+
+## References
 
 * See also [[Hasse n-graph]]
 * [Wikipedia](http://en.wikipedia.org/wiki/Hasse_diagram)
