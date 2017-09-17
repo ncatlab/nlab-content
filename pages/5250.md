@@ -8,6 +8,7 @@
 The future cone of a point $x$ is the set consisting of all points in the future of $x$.  (We usually interpret this condition weakly, so that $x$ itself belongs to its own future cone.)
 
 
+
 ## In relativity theory
 
 Given a [[Lorentzian manifold]] equipped with a global choice of which [[timelike curve]]s are future-directed, the __future cone__ of $x$ consists of all points $y$ such that there exists a future-directed curve (which may be timelike, lightlike, or a mixture) from $x$ to $y$.
@@ -22,8 +23,10 @@ In the context of [[directed homotopy theory]] the **future cone** of a point, $
 
 ## Dual concept
 
-The dual concept is the **[[past cone]]**.
+The dual concept is the [[past cone]].
 
+##Synonyms (tentative)
 
+Perhaps the terms *forward cone* resp. *backward cone* might be used as synonyms for the concept.
 [[!redirects future cone]]
 [[!redirects future cones]]
