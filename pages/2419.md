@@ -58,6 +58,10 @@ $$
 
 is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$
 
+## Examples
+
+* [[j-invariant]]
+
 ## Related concepts
 
 * [[Witten genus]]
