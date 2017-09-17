@@ -126,7 +126,7 @@ Let $Z \hookrightarrow A \hookrightarrow X$ be a sequence of [[topological subsp
 In the above situation, the inclusion $(X-Z, A-Z) \hookrightarrow (X,A)$ induces [[isomorphism]] in relative singular homology groups
 
 $$
-  H_n(X-Z, A-Z) \stackrel{\simeq}{\to} H_n(X,Z)
+  H_n(X-Z, A-Z) \stackrel{\simeq}{\to} H_n(X,A)
 $$
 
 for all $n \in \mathbb{N}$.
