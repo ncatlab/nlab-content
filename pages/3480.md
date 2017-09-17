@@ -178,6 +178,7 @@ $$
 =--
 
 ### For $V$-modules
+  {#ForVModules}
 
 Let $V$ be a ([[locally small category|locally small]]) [[closed monoidal category|closed]] [[symmetric monoidal category]], so that $V$ is enriched in itself via its [[internal hom]].
 
@@ -240,9 +241,10 @@ $$
 From this statement of Tannaka duality in $V$-enriched category theory
 now various special cases of interest follow, by simply choosing suitable enrichement categories $V$.
 
-#### For algebra modules
+#### For algebra modules 
+  {#ForAlgebraModules}
 
-The general case of Tannaka duality for $V$-modules described above restricts to the classical case of Tannaka duality for linear representations by setting $V :=$ [[Vect]], the category of [[vector space]]s over some fixed [[ground field]].
+The general case of Tannaka duality for $V$-modules described [above](#ForVModules) restricts to the classical case of Tannaka duality for linear representations by setting $V :=$ [[Vect]], the category of [[vector space]]s over some fixed [[ground field]].
 
 In this case the above says
 
