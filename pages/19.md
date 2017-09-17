@@ -247,6 +247,8 @@ See [[category theory vs order theory]] for more discussion.
 
 * **category theory**
 
+  * [[general abstract]]
+
 * [[2-category theory]]
 
 * [[(∞,1)-category theory]]
