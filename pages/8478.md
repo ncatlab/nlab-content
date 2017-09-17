@@ -197,6 +197,8 @@ The notion of sequent was introduced in section 2.3 of ([Gentzen 1935](#Gentzen)
 
 * [[sequent calculus]]
 
+* [[cut rule]]
+
 ## References
 
 In section 2.3
