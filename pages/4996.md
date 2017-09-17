@@ -129,7 +129,7 @@ The fact that $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using
 
 
 
-## Properties
+## Properties {#Properties}
 
 +-- {: .un_theorem}
 ###### Theorem
