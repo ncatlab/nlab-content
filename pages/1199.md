@@ -1,3 +1,4 @@
+
 # Contents
 * automatic table of contents goes here
 {: toc}
@@ -26,7 +27,7 @@ Again let $S$ be the set of natural numbers, but now let $x \prec y$ if $x \lt y
 
 More generally, let $S$ be a set of [[ordinal numbers]] (or even the proper class of all ordinal numbers), and let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _transfinite induction_.
 
-Let $S$ be the set of positive integers, and let $x \prec y$ mean that $x$ divides $y$: $x \mid y$, or $y/x$ is an integer.  This relation is also well-founded, so one can prove properties of integers by induction on their divisors.
+Let $S$ be the set of [[integers]], and let $x \prec y$ mean that $x$ properly divides $y$: $y/x$ is an integer other than $\pm{1}$.  This relation is also well-founded, so one can prove properties of integers by induction on their proper divisors.
 
 
 ## Formulations in classical logic
