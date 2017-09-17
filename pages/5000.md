@@ -61,6 +61,7 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 * P. Griffiths, J. Harris, _Principles of algebraic geometry_
 * Phillip A. Griffiths, _Introduction to algebraic curves_
 * [[Daniel Huybrechts]], _Complex geometry - an introduction_, Springer (2004). Universitext. 309 pages.
+* [[Donu Arapura]], _Algebraic geometry over the complex numbers_, Springer Universitext 223, 329 pp.
 
 ## Mori program and birational geometry
 
