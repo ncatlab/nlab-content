@@ -21,9 +21,36 @@ In the context of _[[geometric quantization]]_ a _metaplectic correction_ is a c
 
 It is called a _correction_ mostly for historical reasons, since it was not included in all constructions from the beginning. 
 
+## Properties
+
+### Induced inner product / Hilbert space structure
+
+A [[metaplectic structure]] on a [[symplectic manifold]] $(X, \omega)$ induces a [[metalinear structure]] on each [[Lagrangian submanifold]] $Q \hookrightarrow X$. This allows to form a [[square root]] line bundle $\sqrt{\Lambda^n T^* Q}$ of the [[canonical bundle]] of $Q$ and hence induces an [[inner product]] on [[sections]] of the [[tensor product]] $E|_Q \otimes \sqrt{\Lambda^n T^* Q}$ with the restriction of any [[line bundle]] $E$ on $X$ (a prequantum line bundle, notably).
+
 ## Related concepts
 
 * [[metaplectic group]]
+
+[[!include square roots of line bundles - table]]
+
+## References
+
+For general discussion see the references listed at _[[geometric quantization]]_, for instance the introduction in section 7.2 of
+
+* Sean Bates, [[Alan Weinstein]], _Lectures on geometric quantization_ ([pdf](http://math.berkeley.edu/~alanw/GofQ.pdf))
+
+or
+
+* [[Martin Schottenloher]], _Metaplectic reduction_ ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/GQ/12%20Metaplectic%20Correction.1.1.pdf))
+
+Discussion with an eye towards [[Theta characteristics]] is in 
+
+* [[Andrei Tyurin]], _Quantization, classical and quantum field theory and Theta-functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466v1))
+
+
+Further references include
+
+* L. Charles, _Semi-classical properties of geometric quantization with metaplectic correction_ ([arXiv:math.SG/0602168](http://arxiv.org/abs/math.SG/0602168))
 
 [[!redirects metaplectic correction]]
 [[!redirects metaplectic corrections]]
