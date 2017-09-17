@@ -20,6 +20,8 @@ A [[ring]] compatibly equipped with a [[norm]] on the underlying group.
 
 If suitably complete with respect to the norm, then a normed ring is a [[Banach ring]].
 
+The [[Berkovich spectrum]] of a normed ring $R$ is the set of multiplicative [[seminorms]] on $R$ that are bounded by the norm on $R$.
+
 ## Related concepts
 
 * [[division ring]]
