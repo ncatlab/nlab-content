@@ -134,3 +134,6 @@ For instance chapter IV in vol III of
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 [[!redirects Lie algebras]]
+
+[[!redirects Lie bracket]]
+[[!redirects Lie brackets]]
