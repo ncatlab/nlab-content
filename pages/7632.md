@@ -1,4 +1,4 @@
-**Substructural logic** is a general term for [[logic]]s in which the *structural rules*:
+**Substructural logic** is a general term for [[logic]]s in which the *[[structural rules]]*:
 
 * the [[contraction rule]]
 * the [[weakening rule]]
