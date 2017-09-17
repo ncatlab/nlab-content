@@ -26,9 +26,9 @@ A __proximity space__ is a kind of [[structured set]]: it consists of a [[set]] 
 
 *  The __proximity relation__ or __nearness relation__ $\delta$; subsets $A$ and $B$ are __proximal__  or __near__ if $A \;\delta\; B$;
 *  The __apartness relation__ $\bowtie$; $A$ and $B$ are __apart__ if $A \bowtie B$.
-*  The __neighbourhood relation__ $\ll$; $A$ is a __neighbourhood__ of $B$ if $B \ll A$.
+*  The __neighbourhood relation__ $\ll$; $A$ is a __proximal neighbourhood__ of $B$ if $B \ll A$.
 
-The conditions required of these relations are given below in the Definitions.
+The conditions required of these relations are given below in the Definitions.  (We say 'proximal neighbourhood' instead of simply 'neighbourhood' to avoid misapplying intuition from general topology.  Don\'t think of $A \ll B$ as meaning that $A \subseteq Int(B)$; think of it as meaning that $Cl(A) \subseteq Int(B)$, which is stronger.)
 
 
 In [[classical mathematics]], these relations are all interdefinable:
@@ -46,7 +46,7 @@ In [[constructive mathematics]], any one of these relations may be taken as prim
 
 From the previous section, we have a [[set]] $X$ and we are discussing [[binary relations]] $\delta, \bowtie, \ll$ on $X$.  These are required to satisfy the following conditions; in each row, the conditions for the various relations are all equivalent (classically).  In these conditions, $x, y$ are points, while $A, B, C$ are subsets, and we require them for all points or subsets.
 
-| Name | Condition for nearness | Condition for apartness | Condition for neighbourhoods |
+| Name | Condition for nearness | Condition for apartness | Condition for proximal neighbourhoods |
 | - | - | - | - |
 | Symmetry | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B' \ll A'$ |
 | Additivity (left, binary) | $A \cup B \;\delta\; C$ iff $A \;\delta\; C$ or $B \;\delta\; C$ | $A \cup B \bowtie C$ iff $A \bowtie C$ and $B \bowtie C$ | $A \cup B \ll C$ iff $A \ll C$ and $B \ll C$ |
@@ -54,13 +54,12 @@ From the previous section, we have a [[set]] $X$ and we are discussing [[binary 
 | Additivity (left, nullary) | It is false that $\emptyset \;\delta\; A$ | $\emptyset \bowtie A$ | $\emptyset \ll A$ |
 | Additivity (right, nullary) | It is false that $A \;\delta\; \emptyset$ | $A \bowtie \emptyset$ | $A \ll X$ |
 | Isotony | If $A \subseteq C$ and $B \subseteq D$, then $C \;\delta\; D$ if $A \;\delta\; B$ | If $A \subseteq C$ and $B \subseteq D$, then $A \bowtie B$ if $C \bowtie D$ | If $A \subseteq C$ and $B \subseteq D$, then $A \ll D$ if $C \ll B$ |
-| Reflexivity | If $A$ meets $B$ (their [[intersection]] is [[inhabited subset|inhabited]]), then $A \;\delta\; B$ | If $A \bowtie B$, then $A$ and $B$ are [[disjoint set|disjoint]] | If $A \ll B$, then $A \subseteq B$ |
-| Regularity | If for every $D, E \subseteq X$ such that $D \cup E = X$, either $A \;\delta\; D$ or $E \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D, E \subseteq X$ such that $D \cup E = X$, both $A \bowtie D$ and $E \bowtie B$ | If $A \ll B$, then for some $D, E \subseteq X$ such that $D \subseteq E$, both $A \ll D$ and $E \ll B$ |
-| Separation | $x = y$ if $\{x\} \;\delta\; \{y\}$ | $x = y$ unless $\{x\} \bowtie \{y\}$ | $x = y$ unless $\{x\} \ll \{y\}'$ |
+| Reflexivity (general) | If $A$ meets $B$ (their [[intersection]] is [[inhabited subset|inhabited]]), then $A \;\delta\; B$ | If $A \bowtie B$, then $A$ and $B$ are [[disjoint set|disjoint]] | If $A \ll B$, then $A \subseteq B$ |
+| Reflexivity (simplified) | $\{x\} \;\delta\; \{y\}$ | It is false that $\{x\} \bowtie \{y\}$ | If $\{x\} \ll A$, then $x \in A$ |
+| Regularity (constructive) | If for every $D, E \subseteq X$ such that $D \cup E = X$, either $A \;\delta\; D$ or $E \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D, E \subseteq X$ such that $D \cup E = X$, both $A \bowtie D$ and $E \bowtie B$ | If $A \ll B$, then for some $D, E \subseteq X$ such that $D \subseteq E$, both $A \ll D$ and $E \ll B$ |
+| Regularity (simplified) | If for every $D \subseteq X$, either $A \;\delta\; D$ or $D' \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D \subseteq X$, both $A \bowtie D$ and $D' \bowtie B$ | If $A \ll B$, then for some $D \subseteq X$, both $A \ll D$ and $D \ll B$ |
 
-Separation should *not* be required by default; a proximity, proximity space, set--set apartness space, etc is __separated__ if it satisfies this axiom.
-
-In this list, Isotony is redundant; it is equivalent to one direction of (left and right) binary additivity, so some lists include only the other direction.  In the light of Isotony, it is sufficient to state Reflexivity only for [[singleton subset|singletons]] (where $B$ in the axiom for neighbourhoods is the complement of a singleton instead, which is inappropriate in constructive mathematics); this is not common, but it allows us to see Separation as a converse of Reflexivity for singletons.  Similarly, Isotony allows us to assume that $D$ and $E$ are complements in Regularity (or that $D = E$ in the axiom for neighbourhoods), which is usually done (although this is inappropriate in constructive mathematics, except for neighbourhoods).  Finally, left and right Additivity are equivalent in the light of Symmetry, so usually only one direction is given.
+In this list, Isotony is redundant; it is equivalent to one direction of (left and right) binary additivity, so some lists include only the other direction.  In the light of Isotony, we are able to simplify Reflexivity as shown, although this is often not done (to avoid mentioning points).  Similarly, Isotony allows us to assume to simplify Regularity as shown (which is usually done), although this simplification is appropriate for constructive mathematics only when axiomatizing proximal neighbourhoods.  Finally, left and right Additivity are equivalent in the light of Symmetry, so usually only one direction is given.
 
 On the other hand, we have a __quasiproximity__ (etc) if Symmetry is allowed to fail; then both left and right Additivity must be stated.  (Symmetry for neighbourhood spaces is particularly tricky in constructive mathematics.)
 
@@ -71,6 +70,15 @@ If $X$ and $Y$ are proximity spaces, then a function $f:X\to Y$ is said to be **
 
 
 ## Relation to other topological structures
+
+### Preorders
+
+Given points $x, y$ of a (quasi)-proximity space, let $x \leq y$ mean that $x$ belongs to every proximal neighbourhood of $\{y\}$, or equivalently (via Isotony) that $\{y\} \;\delta\; \{x\}$.  By Reflexivity, $\leq$ is [[reflexive relation|reflexive]]; by Regularity, $\leq$ is [[transitive relation|transitive]].  (In fact, we can use these to deduce that $x \leq y$ iff every proximal neighbourhood of $\{y\}$ is a proximal neighbourhood of $\{x\}$, which is manifestly reflexive and transitive.)  Therefore, $\leq$ is a [[preorder]].
+
+If the quasiproximity satisfies Symmetry, then this preorder is [[symmetric relation|symmetric]] and hence an [[equivalence relation]].
+
+Regardless of Symmetry, we say that a (quasi)-proximity space is __separated__ if this preorder is the [[equality relation]].  That is, $x = y$ if $x$ belongs to every proximal neighbourhood of $\{y\}$, or equivalently if every proximal neighbourhood of $\{y\}$ is a proximal neighbourhood of $\{x\}$, or equivalently if $\{x\}$ is near $\{y\}$, or equivalently if $\{x\}$ is not apart from $\{y\}$.  This may be viewed as a converse of simplified Reflexivity, which states that $\{x\} \;\delta\; \{y\}$ whenever $x = y$.
+
 
 ### Topological spaces
 
