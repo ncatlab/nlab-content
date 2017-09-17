@@ -1,6 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 If a [[subset]] $k$ of a [[field]] $K$ is a [[subalgebra|subfield]], then we call the larger field $K$ an **extension** of the smaller field $k$. 
 
 More generally, if $k \to K$ is *any* [[ring]] [[homomorphism]] between fields, then it must be an [[injection]], so we may treat it as a field extension. 
+
+## Related concepts
+
+* [[regular field extension]]
+
+* [[Galois theory]]
+
+* [[group extension]]
 
 
 [[!redirects field extension]]
