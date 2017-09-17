@@ -25,6 +25,10 @@ In the [[standard model of particle physics]] and the [[standard model of cosmol
 
 The formalization of fermions is in [[supergeometry]]: fermion fields are [[sections]] of [[spinor bundles]] with odd-degree fibers in [[supergeometry]]. This is exhibited by what is called _[[Fermi-Dirac statistics]]_ and the [[Pauli exclusion principle]].
 
+## Examples
+
+* [[electron]], [[quark]]
+
 ## Related entries
 
 * [[particle]], [[matter]]
