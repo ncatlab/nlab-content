@@ -55,6 +55,26 @@ The following is (or will eventually be) a linked list of keywords.
 
 #### 2.1.4 $\infty$-Preoperads
 
+### 2.2 Constructions of $\infty$-Operads
+
+### 2.3 Disintegration and assembly
+
+### 2.4 Products and coproducts
+
+#### 2.4.1 Cartesian symmetric monoidal structure
+
+* [[cartesian monoidal (∞,1)-category]]
+
+#### 2.4.2 Monoid objects
+
+* [[monoid]]
+
+* [[Gamma space]]
+
+#### 2.4.3 CoCartesian Symmetric Monoidal Structure
+
+#### 2.4.4 Wreath Products
+
 
 
 
@@ -82,7 +102,11 @@ The following is (or will eventually be) a linked list of keywords.
 
 #### 4.1.1 The $\infty$-Operad $\mathcal{Ass}^\otimes$
 
+* [[associative operad]]
+
 * [[A-∞ operad]]
+
+* [[planar (∞,1)-operad]]
 
 #### 4.1.2 Simplicial models for associative algebras
 
