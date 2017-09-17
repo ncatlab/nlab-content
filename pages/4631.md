@@ -143,5 +143,10 @@ $$
   More generally this applies to [[hypercover]]s.
 
 
+## Related concepts
+
+* [[augmentation]], [[augmentation ideal]]
+
+
 [[!redirects augmented simplicial set]]
 [[!redirects augmented simplicial sets]]
