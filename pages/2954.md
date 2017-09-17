@@ -13,4 +13,6 @@
 
 * [[Topological Quantum Field Theories from Compact Lie Groups]]
 
+[[!redirects Daniel Freed]][[!redirects Daniel S. Freed]]
+
 category: people
