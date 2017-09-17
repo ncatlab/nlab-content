@@ -74,15 +74,6 @@ $$
 
 where $f_!$ preserves [[finite limit|finite]] [[(∞,1)-product]].
 
-We say that **discrete objects are concrete** in $\mathbf{H}$ if
-for all [[n-groupoid]]s $S \in n Grpd \hookrightarrow \infty Grpd$  the morphism
-
-$$
-  Disc S \to coDisc \Gamma Disc S \simeq coDisc S
-$$
-
-is a $(n-1)$-[[truncated]].
-
 =--
 
 
@@ -1585,114 +1576,27 @@ This follows by general facts discussed at [[reflective sub-(∞,1)-category]].
 +-- {: .un_def}
 ###### Definition
 
-
-For $n \in \mathbb{N}$
-we say an object $X \in \mathbf{H}$ is 
-**$n$-concrete** if the [[unit of an adjunction|counit]]
+We say a 0-[[truncated]] object $X \in \mathbf{H}$ is 
+is **concrete** if the [[unit of an adjunction|counit]]
 
 $$
   X \to \mathrm{coDisc} \Gamma X
 $$
 
-is an $(n-2)$-[[truncated]] morhism.
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-
-Since a $(-2)$-truncated morphism are precisely the
-[[equivalence in an (∞,1)-category|equivalences]], 
-the 0-concrete objects are
-precisely the codiscrete objects, by the above. 
-
-The 1-concrete objects are those for which 
-$X \to \mathrm{coDisc} \Gamma X$ is a 
-[[monomorphism in an (∞,1)-category]].
+is a [[monomorphism]]. We say a general object $X$ is 
+concrete if all its 
+[[categorical homotopy groups in an (∞,1)-topos|categorical homotopy sheaves]] are concrete.
 
 =--
 
 +-- {: .un_prop}
 ###### Proposition
 
-An object $X \in \mathbf{H}$ is $n$-concrete precisely if for $C$ any [[(∞,1)-site]] of definition
-of $\mathbf{H}$ we have that for all $U \in C$ the morphism
-
-  $$
-    X(U) \to \mathrm{Func}(\Gamma(U), \Gamma(X))
-  $$
-
-  is $(n-2)$-truncated.
+For $C$ an [[∞-cohesive site]], a 0-truncated object in the 
+[[(∞,1)-topos]] over $C$ is concrete prescisely if it is
+a [[concrete sheaf]] in the traditional sense.
 
 =--
-
-+-- {: .proof}
-###### Proof
-
-Monomorphisms of [[(∞,1)-sheaves]] are detected objectwise. 
-Using the [[(∞,1)-Yoneda lemma]] and the $(\Gamma \dashv \mathrm{coDisc})$-adjunction 
- we have therefore that $X$ is $n$-concrete precisely if for all $U \in C$ the morphism
- 
- $$
-    X(U) \simeq \mathbf{H}(U,X) \to \mathbf{H}(U, \mathrm{coDisc} \Gamma X)
-    \simeq \infty \mathrm{Grpd}(\Gamma(U), \Gamma(X))
-  $$
-
-is $(n-2)$-truncated.
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-We say that an object $X \in \mathbf{H}$ that is both $n$-truncated and $(n+1)$-concrete,
-  is a **concrete cohesive $n$-groupoid** .
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-
-By the above we think of a concrete cohesive $n$-groupoid $X$ as a bare [[n-groupoid]] $\Gamma X \in n \mathrm{Grpd} \hookrightarrow \infty \mathrm{Grpd}$ 
-_equipped with cohesive structure_
-given by the information which  maps of bare $\infty$-groupoids from test
-object $U$ to $S$ and which homotopies of these and 
-higher homotopies of those 
-are to be regarded as _cohesive structure preserving_ .
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-The axiom _discrete objects are concrete_ in $\mathbf{H}$, 
-from the [above definition](#CohesiveInfinTopos) says 
-precisely that for for $S \in n Grpd$ an [[n-groupoid]], 
-the discrte object 
-$Disc S \in \mathbf{H}$ is a concrete cohesive $n$-groupoid.
-
-=--
-
-
-+-- {: .un_prop}
-###### Proposition
-
-Let $\mathbf{H}$ be the cohesive $(\infty,1}$-topos over an
-[[∞-cohesive site]]. Then we have
-
-* The concrete cohesive $(-1)$-groupoids are precisely the 
-  [[terminal object in an (∞,1)-category|terminal]]
-  and the [[initial object]] of $\mathbf{H}$.
-
-* The concrete cohesive 0-groupoids
-  are precisely the [[concrete sheaves]] on $C$ 
-  in the traditional sense
-
-=--
-
-
 
 
 
@@ -1723,15 +1627,6 @@ $$
 
 we call an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
 
-We say an object $A \in \mathbf{H}$ is an **[[∞-Lie algebroid]]** if for every point $* \to A$ the corresponding [[loop space object]] $\Omega_x A$ is equivalent to an $\infty$-Lie algebra.
-
-Write
-
-$$
-  \mathbf{L}\hookrightarrow \mathbf{H} 
-$$
-
-for the full [[sub-(∞,1)-category]] on $\infty$-Lie algebroids.
 
 =--
 
