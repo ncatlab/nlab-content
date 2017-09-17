@@ -37,7 +37,7 @@ with the operations
 
 *  ${\left\|\phi\right\|} + {\left\|\psi\right\|} = {\left\|\phi \vee \psi\right\|}$;
 
-*  ${\left\|\phi\right\|} \cdot {\left\|\psi\right\|}= {\left\|\phi \wedge \psi\right\|}||||$;
+*  ${\left\|\phi\right\|} \cdot {\left\|\psi\right\|}= {\left\|\phi \wedge \psi\right\|}$;
 
 *  ${\|\phi\|^-} = {\|\neg\phi\|}$;
  
