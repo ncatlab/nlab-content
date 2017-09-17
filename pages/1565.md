@@ -59,6 +59,10 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[tropical geometry]]
 
+* [[tropical semiring]]
+
+* [[idempotent semiring]]
+
 * A [[categorification]] of the notion of rig is the notion of [[bimonoidal category]].
 
 ## References
