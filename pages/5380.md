@@ -32,9 +32,9 @@ For $T$ the theory of commutative [[ring]]s, $\mathbb{A}^1$ is the standard [[af
 
 **Claim**
 
-For $R$ a commutave ring, an [[action]] of $\mathbb{G}$ on $Spec R$ is equivalently a $\mathbb{Z}$-grading on $R$.
+For $R$ a commutative ring, an [[action]] of $\mathbb{G}$ on $Spec R$ is equivalently a $\mathbb{Z}$-grading on $R$.
 
-Skecth of the proof:
+Sketch of the proof:
 
 Notice that the product structure on $\mathbb{G}$
 
