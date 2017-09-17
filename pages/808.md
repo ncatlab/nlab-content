@@ -10,6 +10,8 @@ The term **connection** can mean any of
            
     * [[Ehresmann connection]]
 
+    * [[flat connection]]
+
   * [[meromorphic connection]]
   * [[Grothendieck connection]]
   * [[simplicial connection]]
