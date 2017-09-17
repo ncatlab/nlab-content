@@ -1,0 +1,6 @@
+
+A _complex vector bundle_ is a [[vector bundle]] with respect to [[vector spaces]] over the [[complex numbers]].
+
+A omplex vector bundle with complex 1-dimensional [[fibers]] is a [[complex line bundle]].
+
+[[!redirects complex vector bundles]]
