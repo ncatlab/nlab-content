@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -52,5 +52,9 @@ The metric on $M$ induces the standard [[topology]] on $M$.
 To see this, first note that it is a local question, so we can reduce to the case of $M$ an open ball in euclidean space $\mathbb{R}^n$.  Each tangent vector $v \in T_p(M)$ can be viewed as an element of $\mathbb{R}^n$ in a natural way.  Now let $\left \Vert{\cdot}\right \Vert_{\mathbb{R}^n}$ be the standard norm on $\mathbb{R}^n$.  By continuity, we can find $\delta \gt 0$ by shrinking $M$ if necessary such that for all $v \in T_p(M), p \in K$,
 \[  \delta \left \Vert{v}\right \Vert_{\mathbb{R}^n} \leq \left \Vert{v}\right \Vert_p \leq \delta^{-1}   \left \Vert{v}\right \Vert_{\mathbb{R}^n} ;\]
 in particular, the lengths of curves in $M$ are necessarily comparable to the usual lengths in $\mathbb{R}^n$.  The result now follows.
+
+## Related concepts
+
+* [[orthogonal structure]]
 
 [[!redirects Riemannian metrics]]
