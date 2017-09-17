@@ -9,13 +9,7 @@
 =--
 =--
 
-* **algebraic theory** / [[Lawvere theory]] / [[2-Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
-* [[monad]] / [[(∞,1)-monad]]
-
-* [[operad]] / [[(∞,1)-operad]]
-
-***
 
 
 # Algebraic theories
@@ -56,9 +50,15 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 *  [[bimodel|Bimodels]]
 
 
-## In higher category theory
+## Related concepts
 
-* [[(∞,1)-algebraic theory]]
+* [[essentially algebraic theory]]
+
+* **algebraic theory** / [[Lawvere theory]] / [[2-Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
 
 
 ## References
