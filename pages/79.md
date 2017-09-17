@@ -9,7 +9,7 @@
 =--
 =--
 
-
+* [[philosophy of mathematics]]
 
 * [[foundations|Structural Foundations]] with annotated toc of 3 great books with numerous links to related nlab content:
 
@@ -67,7 +67,7 @@
 
 * [[discrete mathematics]]: 
 
-  * [[set theory]], [[category theory]]
+  * [[set theory]], [[category theory]], [[higher category theory]]
 
   * [[graph]], [[directed graph]], [[quiver]], [[order]], [[poset]], [[filter]], ... 
 
