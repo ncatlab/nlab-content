@@ -34,7 +34,7 @@ a system of _supersymmetric quantum mechanics_ has
 
 * a [[super Hilbert space]] $\mathcal{H}$;
 
-* an odd operator $D$ in $\mathcal{H}$;
+* an odd operator $D$ in $\mathcal{H}$, the [[supercharge]]
 
 * such that $D \circ D = H$ is the [[Hamiltonian]].
 
