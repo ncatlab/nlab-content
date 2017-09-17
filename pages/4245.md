@@ -1,7 +1,12 @@
-#Idea
 
-The Fukaya category of a [[symplectic manifold]] $X$ is an
-[[A-infinity category]] having [[Lagrangian submanifold]]s of $X$ as objects, the
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The _Fukaya category_ of a [[symplectic manifold]] $X$ is an
+[[A-∞ category]] having [[Lagrangian submanifold]]s of $X$ as objects, the
 so-called Fukaya category of $X$. 
 When two Lagrangian submanifolds $L_1$ and $L_2$ of $X$ meet
 transversally, their hom-space in the Fukaya category can be roughly
@@ -21,14 +26,10 @@ in terms of counting pseudo-holomorphic disks into $X$ whose boundaries
 lie on the given Lagrangian submanifolds, but when intersections are
 nontransverse, the definition of $m_k$ becomes more evasive.
 
-#References
+## References
 
 Fukaya categories have first been introduced in
 
-* Kenji Fukaya, _Morse homotopy,
+* [[Kenji Fukaya]], _Morse homotopy,
    $A_\infty$-category, and Floer homologies_. Proceedings of GARC Workshop
    on Geometry and Topology '93 (Seoul, 1993). ([link](http://www.math.kyoto-u.ac.jp/~fukaya/mfikki.pdf))
----
-Book draft by Seidel on Fukaya categories and Picard-Lefschetz theory, in Symplectic folder. First chapter covers A-infty categories.
-
-nLab page on [[nlab:Fukaya category]]
