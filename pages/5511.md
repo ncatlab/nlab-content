@@ -88,6 +88,16 @@ is [[injective function|injective]].
 
 This appears as ([Rezk, lemma 7.9](#Rezk)). 
 
++-- {: .num_prop}
+###### Proposition
+
+A morphism in an [[(∞,1)-topos]] is an effective epimorphism precisely if its [[0-truncated|0-truncation]] is an [[effective epimorphism]] in the underlying 1-[[topos]].
+
+=--
+
+This is ([Lurie, prop. 7.2.1.14](#Lurie)).
+
+
 ## Examples
 
 +-- {: .num_prop #EffectiveEpisOfInfinityGroupoids}
