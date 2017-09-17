@@ -4,5 +4,6 @@ The initials 'SGA I' (or in more modern times 'SGA1') refer to the seminar notes
 
 
 [[!redirects SGA I]]
+[[!redirects SGA 1]]
 
 category: reference
