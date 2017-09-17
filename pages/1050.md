@@ -16,6 +16,7 @@
 =--
 =--
 =--
+
 #Contents#
 * tic
 {: toc}
@@ -23,8 +24,8 @@
 
 ## Idea 
 
-A [[functor]] is _left exact_ or [[flat functor|flat]] if it preserves [[finite limits]], and _right exact_ if it preserves [[finite colimits]].
-An functor is called _exact_ if it is both left and right exact.
+A [[functor]] is called _left exact_ or [[flat functor|flat]] if it preserves [[finite limits]], and _right exact_ if it preserves [[finite colimits]].
+A functor is called _exact_ if it is both left and right exact.
 
 Specifically [[Ab]]-[[enriched functor]]s between [[abelian categories]] are exact if they preserve [[exact sequence]]s.
 
