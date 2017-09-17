@@ -52,9 +52,9 @@ since a polynomial in $\mathbb{Z}[x, y]$ is the zero polynomial if it vanishes f
 
 The binomial coefficient polynomials $\binom{x}{k}$ (here $x$ is an indeterminate) satisfy the recurrence 
 
-$$\Delta \binom{x}{k} \coloneqq \binom{x+1}{k} - \binom{x}{k} = \binom{x}{k-1}, \qquad \binom{x}{0} \equiv 1.$$ 
+$$\Delta \binom{x}{k} \coloneqq \binom{x+1}{k} - \binom{x}{k} = \binom{x}{k-1}, \qquad \binom{x}{0} \equiv 1, \binom{0}{k} = 0\; (k \neq 0).$$ 
 
-The first equation may be viewed as the discrete analogue of the continuous [[derivative]] formula 
+(Note this also determines a meaning for $\binom{x}{k}$ for _negative_ integers $k$.) The first equation may be viewed as the discrete analogue of the continuous [[derivative]] formula 
 
 $$\frac{d}{d x} \frac{x^k}{k!} = \frac{x^{k-1}}{(k-1)!}.$$ 
 
