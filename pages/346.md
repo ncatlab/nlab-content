@@ -61,7 +61,7 @@ sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given her
 
 ## Examples
 
-* Any [[closed monoidal category]] gives a closed category, by simply forgetting the tensor product and remembering only the internal-hom.  Most examples seem to be of this sort, although as remarked above it is often the case that the closed structure is "primary" and the tensor product is defined as a left adjoint to it.
+* Any [[closed monoidal category]] gives a closed category, by simply forgetting the tensor product and remembering only the internal-hom.  Most examples seem to be of this sort, although as remarked above it is often the case that the closed structure is "primary" and the tensor product is defined as a left adjoint to it. (It is also true, by a result due to Miguel LaPlaza, that every closed category embeds fully and faithfully into a closed monoidal category by a strong [[closed functor]], i.e., one respecting closed structure up to suitably coherent isomorphism, and this closed functor is also strong monoidal if the original closed category is closed monoidal.)  
 
 * Any [[multicategory]] which has a unit, i.e. an object $I$ such that $C(;Y) \cong C(I;Y)$ naturally, and is closed in the sense that for any $Y,Z$ there is an object $[Y,Z]$ with natural isomorphisms $C(X_1,\dots,X_n,Y;Z) \cong C(X_1,\dots,X_n; [Y,Z])$, gives rise to a closed category.  Conversely, from any closed category we can construct a multicategory of this sort, by defining the multimaps as $C(X_1,\dots,X_n; Z) = C(X_1, [X_2,\dots,[X_n,Z]])$.  Thus closed categories are essentially equivalent to closed unital multicategories.
 
