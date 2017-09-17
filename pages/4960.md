@@ -116,7 +116,7 @@ In summary $\mathcal{E}$ is cohesive over $\mathcal{S}$ if we have a quadruple o
 $$
  (f_! \dashv f^* \dashv f_* \dashv f^!) : 
  \mathcal{E}
-  \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
+  \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\hookleftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\hookleftarrow}}}
   \mathcal{S}
 $$
 
@@ -124,12 +124,24 @@ such that $f_!$ preserves finite products.
 
 =--
 
-To reflect the geometric interpretation of these axioms we shall here and in related entries often name these functors as follows
++-- {: .num_remark}
+###### Remark
+
+With $f^*$ being a [[full and faithful functor]] also $f^!$ is, as indicated (for instance by the discussion at [[adjoint triple]]). 
+
+Hence the definition of cohesion specifies two [[full subcategories]], equivalent to each other, both [[coreflective subcategory|coreflective]] and one also [[reflective subcategory|reflective]].
+
+Since a [[topos]] is a [[cartesian closed category]] it follows with the
+discussion [here](http://ncatlab.org/nlab/show/reflective+subcategory#ReflectiveSubcategoriesOfCartesianClosedCategotries) that both of these are [[exponential ideals]]. In fact the condition that the $f^*$-inclusion is an exponential ideal is equivalent to the condition that $f_!$ preserves finite products. 
+
+=--
+
+To reflect the geometric interpretation of these axioms we will here and in related entries often name these functors as follows
 
 $$
  (\Pi_0 \dashv Disc \dashv \Gamma \dashv coDisc) : 
  \mathcal{E}
-  \stackrel{\stackrel{\overset{\Pi_0}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}
+  \stackrel{\stackrel{\overset{\Pi_0}{\to}}{\overset{Disc}{\hookleftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{coDisc}{\hookleftarrow}}}
   \mathcal{S}
   \,.
 $$
@@ -237,8 +249,8 @@ This implies that for all $X \in \mathcal{E}$ also $f_! \Omega^X \simeq *$.
 
 This appears as axiom 2 in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces)).
 
-+-- {: .num_note}
-###### Note
++-- {: .num_remark}
+###### Remark
 
 There is some overlap between the structures and conditions appearing here and those considered in the context of [[Q-categories]]. See there for more details.
 
