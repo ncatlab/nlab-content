@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -106,6 +105,10 @@ The (reduced) [[covariant phase space]] of gravity (presented for instance by it
 which is surveyed in
 
 * Katarzyna Rejzner, _The BV formalism applied to classical gravity_ ([pdf](http://rejzner.com/talks/Karlsruhe2011.pdf))
+
+Careful discussion of [[observables]] in gravity is in 
+
+* {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)
 
 
 [[!redirects Einstein gravity]]
