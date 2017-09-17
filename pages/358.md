@@ -13,18 +13,18 @@
 
 ## Idea
 
-A $k$-tuply monoidal $n$-category is an [[n-category]] in which [[object]]s can be multiplied in $k$ different ways, all of which [[interchange law|interchange]] with each other up to equivalence.  By the [[Eckmann-Hilton argument]], this implies that these $k$ ways all end up being equivalent, but that the single resulting operation is more and more commutative as $k$ increases.  The [[stabilization hypothesis]] states that by the time we reach $k = n + 2$, the multiplication has become "maximally commutative." 
+A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which [[objects]] can be multiplied in $k$ different ways, all of which [[interchange law|interchange]] with each other up to equivalence.  By the --[[Eckmann--Hilton argument]], this implies that these $k$ ways all end up being equivalent, but that the single resulting operation is more and more commutative as $k$ increases.  The [[stabilization hypothesis]] states that by the time we reach $k = n + 2$, the multiplication has become "maximally commutative." 
 
 
-While there is maybe no generally accepted definition of $k$-tuply monoidal $n$-category yes, it seems that defining it to be an $n$-category with an action of the [[little k-cubes operad]] makes good sense, as discussed furhter below. With this definition the stabilization hypothesis is a theorem at least for [[(n,1)-categories]] (see below).
+While there is maybe no generally accepted definition of $k$-tuply monoidal $n$-category yet, it seems that defining it to be an $n$-category with an action of the [[little k-cubes operad]] makes good sense, as discussed further below. With this definition the stabilization hypothesis is a theorem at least for $(n,1)-[[(n,1)-category|categories]] (see below).
 
 By the [[delooping hypothesis]] a $k$-tuply monoidal $n$-category can be interpreted as a special kind of $(n+k)$-category. One may take this hypothesis as a definition, but it has been verified in many low-dimensional cases; see below.
 
 ## Definition
 
-For purposes of this page, a __$k$-tuply monoidal $n$-category__ is a [[pointed object|pointed]] [[n-category|(n+k)-category]] such that any two parallel [[k-morphism|j-morphism]]s are [[equivalence|equivalent]], for $j \lt k$.  One usually relabels the $j$-morphisms as $(j-k)$-morphisms.  You may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
+For purposes of this page, a __$k$-tuply monoidal $n$-category__ is a [[pointed object|pointed]] $(n+k)$-[[n-category|category]] such that any two parallel $j$-[[k-morphism|morphisms]] are [[equivalence|equivalent]] for $j \lt k$.  One usually relabels the $j$-morphisms as $(j-k)$-morphisms.  You may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
 
-The given point serves as an equivalence between $(-1)$-morphisms (for now, see $(n,r)$-[[(n,r)-category|category]] for these), so there is nothing to say if $k \leq 0$ except that the category is pointed.  Thus we may as well assume that $k \geq 0$.  Also, according to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category.  Unlike the restriction $k\ge 0$,  this one is not trivial.
+The given point serves as an equivalence between $(-1)$-[[(-1)-morphism|morphisms]] (for now, see $(n,r)$-[[(n,r)-category|category]] for these), so there is nothing to say if $k \leq 0$ except that the category is pointed.  Thus we may as well assume that $k \geq 0$.  Also, according to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category.  Unlike the restriction $k\ge 0$,  this one is not trivial.
 
 ### Special cases
 
@@ -34,13 +34,13 @@ The given point serves as an equivalence between $(-1)$-morphisms (for now, see 
 
   * [[monoidal category]]
 
-* A **double monoidal** $n$-category is a _braided_ monoidal $n$-category. See
+* A **doubly monoidal** $n$-category is a __[[braided monoidal n-category]]. See
 
   * [[braided monoidal category]].
 
-* A __symmetric monoidal $n$-category__ is an $k$-tuply monoidal $n$-category for $k \geq n+2$. 
+* A __symmetric monoidal $n$-category__ is an $k$-tuply monoidal $n$-category for $k \geq n+2$. (This also called a _stably monoidal $n$-category_, but never a stable monoidal $n$-category.)
 
-  That this is indeed independent of $k$, as soon as $k$ is large enough, is te statement of the [[stabilization hypothesis]], more on which below. 
+  That this is indeed independent of $k$, as soon as $k$ is large enough, is the statement of the [[stabilization hypothesis]], more on which below. 
 
   See
 
@@ -74,7 +74,7 @@ As remarked above, a $0$-tuply monoidal $n$-category is just a pointed one, and 
 
 ### $k=1$, $n=0$ 
 
-A 1-tuply monoidal 0-category is a pointed 0-connected 1-category, or a 1-category with a chosen object in which all objects are isomorphic.  Thus we might as well as assume there is exactly one object, in which case we just have a [[monoid]].  A functor between one-object categories, which preserves the basepoint automatically, is exactly a [[monoid]] [[homomorphism]].
+A 1-tuply monoidal 0-category is a pointed 0-connected 1-category, or a 1-category with a chosen object in which all objects are isomorphic.  Thus we might as well as assume there is exactly one object, in which case we just have a [[monoid]].  A functor between one-object categories, which preserves the basepoint automatically, is exactly a monoid [[homomorphism]].
 
 More interestingly, a natural transformation between functors $f,g:X\to Y$ between one-object categories is just an object $y\in Y$ (its component at the single object) such that $f(x) y = y g(x)$ for all $x\in X$.  So the 2-category of 0-connected 1-categories is not equivalent to the 1-category of monoids.  However, a _pointed_ natural transformation must have its component at the basepoint being the identity; thus $y=1$ and so the only such natural transformations are identities $f=g$.  Therefore, the 2-category of pointed 0-connected 1-categories (that is, 1-tuply monoidal 0-categories) is equivalent to the 1-category of monoids.
 
