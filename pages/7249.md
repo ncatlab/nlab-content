@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Simplicial homotopy theory_ is the study of [[homotopy theory]] by means of [[simplicial sets]]. 
+_Simplicial homotopy theory_ is the study of [[homotopy theory]] by means of [[simplicial sets]], but also the study of those properties of simplicial sets detectable by means of techniques adapted from topological [[homotopy theory]].
 
 ## Related entries
 
