@@ -1,7 +1,13 @@
-[[!redirects superdifferential form]]
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
 [[!include supergeometry - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -57,3 +63,5 @@ the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ i
 
 [[!redirects differential forms on supermanifolds]]
 [[!redirects super differential form]]
+
+[[!redirects superdifferential form]]
