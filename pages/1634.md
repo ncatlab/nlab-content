@@ -54,3 +54,9 @@ As the term implies, an open neighbourhood is precisely a neighbourhood that is 
 [[!redirects local bases]]
 [[!redirects local subbase]]
 [[!redirects local subbases]]
+
+[[!redirects open neighborhood]]
+[[!redirects open neighbourhood]]
+[[!redirects open neighborhoods]]
+[[!redirects open neighbourhoods]]
+
