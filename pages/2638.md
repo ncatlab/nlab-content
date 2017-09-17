@@ -17,7 +17,10 @@
 
 _Laurent series_ generalize [[power series]] by allowing both positive and negative powers. In particular, _Laurent series_ with complex coefficients generalize [[Taylor series]] of analytic functions to meromorphic functions. A Laurent series for a meromorphic function $f(z)$ at finite $z\in\mathbb{C}$ has the form
 $$ f(z) = \sum_{n=k}^{\infty}f_n z^n, $$
-where $k$ is merely constrained to be finite and is often negative.
+where $k$ is merely constrained to be finite and is often negative. 
+
+Or, in some contexts one wants to take $k = -\infty$. Here such a formal sum (with powers extending infinitely in both directions) is suggestive notation for an element belonging to the dual $\prod_{n \in \mathbb{Z}} R \cdot z^n$ 
+of a ring $\oplus_{n \in \mathbb{Z}} R \cdot z^n$ (see Laurent polynomials below). In such contexts, Laurent series can be likened to distributions, i.e., functionals on the algebra of functions $\mathbb{Z} \to R$ with compact support. 
 
 ## Definition
 
@@ -43,17 +46,36 @@ In general, questions of convergence are treated as separate issues. In complex 
 
 On the other hand, in algebra one often hears of the ring of _formal Laurent series_. Here, the presence of the word "ring" signifies that we are restricting the coefficients so that multiplication makes sense. Thus, 
 
-+-- {: .num_defn} 
++-- {: .num_defn #ring} 
 ###### Definition 
 The _ring of formal Laurent series_ over a [[commutative ring]] $A$ in an indeterminate $x$ consists of Laurent series $\sum_{n \in \mathbb{Z}} f_n z^n$, with $f_n \in A$ but where all but finitely many $f_n$ for $n \lt 0$ vanish. 
 =-- 
 
 Multiplication defined as above clearly makes sense. If $A$ is a field $k$, then this ring is usually denoted $k((x))$ and is in fact a [[field]]; indeed it is the [[field of fractions]] of the ring $k[ [x] ]$ of [[formal power series]], where $k[ [x] ]$ is often viewed as a discrete [[valuation ring]]. 
 
++-- {: .num_remark #restrict} 
+###### Remark 
+It would perhaps be clearer if we used the term "restricted Laurent series" to cover the Laurent series considered in Definition \ref{ring}, and let "Laurent series" be the term that covers doubly infinite series. 
+=-- 
 
 ## Properties
 
-### Dirac distribution 
+### Laurent series as distributions 
+
+Another point of view on Laurent series is given in the following alternative definition. 
+
++-- {: .num_defn} 
+###### Definition 
+A Laurent series over $k$ is a $k$-linear functional 
+
+$$\phi: k[z, z^{-1}] \to k$$ 
+
+on the algebra of Laurent polynomials. 
+=-- 
+
+The associated series is $\sum_{n \in \mathbb{Z}} \phi(z^n)z^n$. But here we emphasize the point of view that Laurent series have a distribution-like character, with Laurent polynomials being considered a space of functions $\mathbb{Z} \to k$ with compact (finite) support, via the evident inclusion 
+
+$$k[z, z^{-1}] \cong \oplus_{n \in \mathbb{Z}} k \cdot z^n \hookrightarrow \prod_{n \in \mathbb{Z}} k \cdot z^n = k^{\mathbb{Z}}.$$ 
 
 Of particular interest as a Laurent series is the formal Dirac distribution, 
 
@@ -63,7 +85,9 @@ which intuitively is like the Fourier transform $\sum_{n = -\infty}^\infty e^{i 
 
 * For $f(z)$ a Laurent polynomial, $f(z)\delta(z) = f(1)\delta(z)$. 
 
-Thus, $\delta(z)$ behaves something like the distribution which evaluates at the multiplicative identity $z=1$. More generally, for $a \in k^\ast$ an invertible unit, the series $\delta(a z) = \sum_{n \in \mathbb{Z}} a^n z^z$ satisfies 
+Indeed, notice that $\delta(z)$ is the distribution $p \mapsto p(1)$ which evaluates a Laurent polynomial at the multiplicative identity $z=1$. 
+
+More generally, for $a \in k^\ast$ an invertible unit, the series $\delta(a z) = \sum_{n \in \mathbb{Z}} a^n z^z$ satisfies 
 
 * $f(z)\delta(a z) = f(a^{-1})\delta(a z)$. 
 
@@ -85,11 +109,11 @@ $$h(z) = \sum_{n \in \mathbb{Z}} f_n g_n z^n.$$
 
 +-- {: .num_theorem #Puiseux} 
 ###### Theorem 
-If $K$ is [[algebraically closed field|algebraically closed]] and has [[characteristic]] 0, then the [[algebraic closure]] of the field of formal Laurent series $K((x))$ over $K$ is the field of [[Puiseux series]] over $K$.
+If $K$ is [[algebraically closed field|algebraically closed]] and has [[characteristic]] 0, then the [[algebraic closure]] of the field of (restricted) Laurent series $K((x))$ over $K$ is the field of [[Puiseux series]] over $K$.
 
 =-- 
 
-See at _[[Puiseux series]]_ for more details.
+Here "restricted" refers to Remark \ref{restrict}. See _[[Puiseux series]]_ for more details on this result.
 
 
 ## References 
