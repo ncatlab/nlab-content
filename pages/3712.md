@@ -2,7 +2,7 @@ The purpose of this stub is to collect (in future) various characterizations, ex
 
 ## Definition and general properties
 
-A [[connection]] on a fibre bundle is **flat** if its [[curvature]] is zero. The same definition of faltness holds for connections in various algebraic setups. 
+A [[connection]] on a fibre bundle is **flat** if its [[curvature]] is zero. The same definition of flatness holds for connections in various algebraic setups. 
 
 The condition of flatness is usually expressed via the [[Maurer-Cartan equation]]. Flat connections on bundles correspond to [[local system]]s. 
 
