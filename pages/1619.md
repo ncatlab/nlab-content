@@ -200,6 +200,25 @@ Given a [[spin structure]] $S : X \to \mathbf{B} Spin(n)$ we say that the **stri
 
 =--
 
+### Twisted and differential string structures
+
+(...)
+
+The [[2-groupoid]] of string structures is the [[homotopy fiber]] of 
+
+$$
+  \frac{1}{2}p_1 : Top(X, \mathcal{B}Spin) \to Top(X, \mathcal{B}^4 \mathbb{Z})
+$$
+
+over the trivial cocycle. Followowing the general logic of [[twisted cohomology]] the 2-groupoids over a nontrivial cocycle $c : X \to \mathcal{B}^4 \mathbb{Z}$ may be thought of as that of _twisted_ string structures.
+
+The [[Pontryagin class]] $\frac{1}{2}p_1$ refines to the [[smooth first fractional Pontryagin class]] $\frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$. That leads to [[differential string structure]]s.
+
+(...)
+
+
+
+
 ## Properties
 
 ### Choices of string structures
@@ -315,20 +334,9 @@ The rest of the diagram is constructed in order to prove the following:
 
 =--
 
-## Twisted and differential string structures
+## Examples
 
-The [[2-groupoid]] of string structures is the [[homotopy fiber]] of 
-
-$$
-  \frac{1}{2}p_1 : Top(X, \mathcal{B}Spin) \to Top(X, \mathcal{B}^4 \mathbb{Z})
-$$
-
-over the trivial cocycle. Followowing the general logic of [[twisted cohomology]] the 2-groupoids over a nontrivial cocycle $c : X \to \mathcal{B}^4 \mathbb{Z}$ may be thought of as that of _twisted_ string structures.
-
-The [[Pontryagin class]] $\frac{1}{2}p_1$ refines to the [[smooth first fractional Pontryagin class]] $\frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$. That leads to [[differential string structure]]s.
-
-(...)
-
+* On a 3-[[dimension|dimensional]] [[orientation|oriented]] [[manifold]] string structures are equivalently [[2-framings]].
 
 ## Related entries
 
@@ -381,3 +389,5 @@ For discussion of String-structures using 3-classes on total spaces see for inst
 [[!redirects String structure]]
 [[!redirects String-structure]]
 [[!redirects string-structure]]
+
+[[!redirects string structures]]
