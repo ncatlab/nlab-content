@@ -427,8 +427,11 @@ Introductions are in
 * [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
  {#Friedlander}
 
-
 * [[Max Karoubi]], _K-theory: an introduction_ 
+
+A textbook account of topological K-theory with an eye towards [[operator K-theory]] is section 1 of
+
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
 
 A discussion of the topological K-theory of [[classifying space]]s of [[Lie group]]s is in 
 
