@@ -1,3 +1,27 @@
-See [[Pontrjagin dual]]. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+See at _[[Pontrjagin dual]]_.
+
+## Related concepts
+
+* [[Cartier duality]] 
 
 [[!redirects Pontrjagin duality]]
+
+[[!redirects Pontryagin duality]]
+
