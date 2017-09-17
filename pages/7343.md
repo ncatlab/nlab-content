@@ -95,7 +95,12 @@ The further observation that therefore the sewing of [[Riemann surfaces]] on whi
 * [[Davide Gaiotto]], _N=2 dualities_ ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
  {#Gaiotto09}
 
-(This is possibly the mechanism behind the [[AGT correspondence]], though the details obehind that statement seem to be unclear.)
+The topological twisting of the compactification which is used around (2.27) there was previously introduced in section 3.2.1 of
+
+> * [[Davide Gaiotto]], [[Gregory Moore]] and [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_, ([arXiv:0907.3987](http://arxiv.org/abs/0907.3987))
+ 
+
+(This is possibly also the mechanism behind the [[AGT correspondence]], though the details obehind that statement seem to be unclear.)
 
 A brief review of these matters is in ([Moore 12, section 7](#Moore12)). An amplification of the relevance of this to the understanding of [[S-duality]]/[[electric-magnetic duality]] is in
 
