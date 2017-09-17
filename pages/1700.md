@@ -401,9 +401,12 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 
 
 (...)
+
 ## Related entries
 
 * [[categorical Galois theory]], [[Grothendieck's Galois theory]]
+
+* [[differential Galois theory]]
 
 * [[Galois cohomology]]
 
