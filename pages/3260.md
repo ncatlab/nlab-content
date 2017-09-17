@@ -255,3 +255,7 @@ Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug
 The generalization of the homotopy theory of $G$-spaces and of Elmendorf's theorem to that of $G$-objects in more general [[model category|model categories]] is in 
 
 * [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
+
+see also 
+
+* Marc Stephan, _Elmendorf's theorem for cofibrantly generated model categories_, [arXiv:1308.0856](http://arxiv.org/abs/1308.0856), also Masters Thesis E.T.H., 2010.
