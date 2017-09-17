@@ -115,7 +115,7 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
 
   Thus the fact that $\iota$ is the inverse for the diagonal+zero co-monoidal structure is due to the fact that $\iota$ is the inverse for $(\alpha,\eta)$ and $\alpha : A \oplus A \to A$ is the co-diagonal in $AbGrp$ and $\eta : I \to A$ is the unit.
  
-  It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
+  It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to below.  This monoidal structure for abelian groups turns out to be the tensor product.
 
   Thus a Tall--Wraith monoid for abelian groups is actually an ordinary monoid in the category of abelian groups: in other words, a [[ring]]!
 
@@ -124,7 +124,11 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
 
 We now recapitulate the discussion above in a slightly more general context. 
 
-For now our context is that of [[monads]] $T$ on [[Set]]. The category of $T$-[[Eilenberg-Moore category|algebras]] is denoted $Set^T$, with forgetful functor $U: Set^T \to Set$ and free functor $F: Set \to Set^T$, whose composite is the monad $T = U F$, and whose [[counit]] is denoted $\epsilon: F U \to 1_{Set^T}$. 
+### Bialgebras over a monad 
+
+For now our context is that of [[monads]] $T$ on [[Set]], although all of what follows can be generalized considerably, for example to [[enriched category theory]] replacing $Set$ by a suitable [[cosmos]] $\mathbf{V}$. 
+
+Notation: the category of $T$-[[Eilenberg-Moore category|algebras]] is denoted $Set^T$, with forgetful functor $U: Set^T \to Set$ and free functor $F: Set \to Set^T$, whose composite is the monad $T = U F$, and whose [[counit]] is denoted $\epsilon: F U \to 1_{Set^T}$. 
 
 For each $T$-algebra $R$, there is an [[adjunction|adjoint pair]] of functors 
 
@@ -138,12 +142,26 @@ on $\hom(R, -): Set^T \to Set$, thus giving a lifting denoted (by abuse of langu
 
 $$\beta: W T \to W$$ 
 
-where $W = W_R \coloneqq - \cdot R: Set \to Set^T$. A $T$-bialgebra map is a $T$-algebra map $f: R \to S$ such that the induced map $W_f: W_R \to W_S$ is a morphism of right $T$-modules. 
+where $W = W_R \coloneqq - \cdot R: Set \to Set^T$. A $T$-*bialgebra map* is a $T$-algebra map $f: R \to S$ such that the induced map $W_f: W_R \to W_S$ is a morphism of right $T$-modules. 
 
 +-- {: .num_example} 
 ###### Example 
 A good case to keep in mind is that of [[birings]], which are $T$-bialgebras for the [[Lawvere theory]] $T$ of [[commutative rings]]. The monad morphism $T \to \hom(R, -\cdot R)$ has components $T X \to \hom(R, X \cdot R)$ for each set $X$. Here $X \cdot R$ is an $X$-indexed coproduct of copies of $R$, where coproduct in the category of commutative rings $Set^T$ is given by tensor product. Thus, for example, $2 \cdot R$ is the ring $R \otimes R$. The component $T(2) \to \hom(R, 2\cdot R)$ therefore "interprets" each element $\theta \in T(2)$, i.e., each binary operation in the Lawvere theory, as a binary *co*-operation $R \to R \otimes R$. This applies in particular to the elements $m, a \in T(2)$ which abstractly represent multiplication and addition (seen as natural operations on the category of commutative rings). 
 =-- 
+
+### Monoidal product on bialgebras over a monad 
+
+We thus have several perspectives on what a $T$-bialgebra is: 
+
+* A $T$-algebra $R$ equipped with a monad morphism $T \to \hom(R, -\cdot R)$, 
+
+* A $T$-algebra equipped with a compatible $T$-coalgebra structure (actually the same as the preceding item, but in different words), 
+
+* A $T$-algebra $R$ for which $\hom(R, -)$ is provided with a left $T$-algebra structure, 
+
+* A $T$-algebra $R$ for which $-\cdot R$ is provided with a right $T$-algebra/module structure. 
+
+The following proposition gives two more useful descriptions: 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -152,7 +170,7 @@ Let $Ladj(Set^T, Set^T)$ ($Radj(Set^T, Set^T)$) be the category of left (right) 
 
 +-- {: .proof} 
 ###### Sketch of proof 
-The main thing to check is that the functor $R \mapsto \hom(R, -)$ to $Radj(Set^T, Set^T)$ is [[essentially surjective functor|essentially surjective]]. The essential point is that $\Phi$ has a left adjoint iff $U \Phi$ has a left adjoint iff $U \Phi: Set^T \to Set$ is [[representable functor|representable]]: $U \Phi \cong \hom(R, -)$ for some $T$-algebra $R$ (in which case the lift $\Phi$ of $\hom(R, -)$ through $U$ is tantamount to a $T$-algebra structure on $\hom(R, -)$). The only (mildly) tricky part is that $\Phi$ has a left adjoint if $U\Phi$ has a left adjoint $W = W_R$. To define the left adjoint $\Psi$ of $\Phi$ objectwise, we take any $T$-algebra $S$ with its canonical presentation 
+The main thing to check is that the functor $R \mapsto \hom(R, -)$ to $Radj(Set^T, Set^T)^{op}$ is [[essentially surjective functor|essentially surjective]]. The essential point is that $\Phi$ has a left adjoint iff $U \Phi$ has a left adjoint iff $U \Phi: Set^T \to Set$ is [[representable functor|representable]]: $U \Phi \cong \hom(R, -)$ for some $T$-algebra $R$ (in which case the lift $\Phi$ of $\hom(R, -)$ through $U$ is tantamount to a $T$-algebra structure on $\hom(R, -)$). The only (mildly) tricky part is that $\Phi$ has a left adjoint if $U\Phi$ has a left adjoint $W = W_R$. To define the left adjoint $\Psi$ of $\Phi$ objectwise, we take any $T$-algebra $S$ with its canonical presentation 
 
 $$F U F U S \stackrel{\overset{\epsilon F U S}{\to}}{\underset{F U \epsilon}{\to}} F U S \stackrel{\epsilon}{\to} S$$ 
 
@@ -163,13 +181,19 @@ $$W(T U S) \stackrel{\overset{\beta U S}{\to}}{\underset{W U\epsilon S}{\to}} W(
 where $\beta: W T \to T$ is the $T$-module structure coming from the monad morphism $\phi: T \to \hom(R, -\cdot R)$. This objectwise definition of $\Psi$ easily extends to morphisms by [[universal property|universality]] and provides a left adjoint to $\Phi$. Remaining details are left to the reader. 
 =-- 
 
-The import of this proposition is that left adjoint endofunctors on $Set^T$ compose, i.e., endofunctor composition gives a monoidal structure on $Ladj(Set^T, Set^T)$, and this monoidal structure transports across the categorical equivalence of the proposition to give a monoidal structure on $T$-$BiAlg$. The resultant monoidal product on $T$-bialgebras is denoted $\odot$. 
+One import of this proposition is that left adjoint endofunctors on $Set^T$ compose, i.e., endofunctor composition gives a monoidal structure on $Ladj(Set^T, Set^T)$, and this monoidal structure transports across the categorical equivalence of the proposition to give a monoidal structure on $T$-$BiAlg$. The resultant monoidal product on $T$-bialgebras is denoted $\odot$. 
 
-A direct construction of $\odot$ can be extracted by following the proof of the proposition. If $R, S$ are $T$-bialgebras, then the underlying $T$-algebra of $S \odot R$ (corresponding to composition of $\hom(S, -) \circ \hom(R, -)$ of right adjoints $Set^T \to Set^T$) is computed as a reflexive coequalizer in $Set^T$: 
+A second import of this proposition is that the canonical functor $T\text{-}Bialg \to Ladj(Set^T, Set^T)$ induces a functor which is reasonably denoted 
+
+$$\odot: T\text{-}Bialg \times Set^T \to Set^T,$$ 
+
+realizing an [[actegory]] structure over the monoidal category $T\text{-}Bialg$. 
+
+A direct construction of the monoidal product $\odot$ can be extracted by following the proof of the proposition. If $R, S$ are $T$-bialgebras, then the underlying $T$-algebra of $S \odot R$ (corresponding to composition of $\hom(S, -) \circ \hom(R, -)$ of right adjoints $Set^T \to Set^T$) is computed as a reflexive coequalizer in $Set^T$: 
 
 $$T U S \cdot R \stackrel{\overset{\epsilon U S \cdot R}{\to}}{\underset{\beta U S}{\to}} U S \cdot R \to S \odot R.$$ 
 
-Here $\epsilon U S$ is the same as the $T$-algebra structure $T U S \t U S$ on $S$. Whereas $\beta X: T X \cdot R \to X \cdot R$ is a component of the $T$-module structure $W_R T \to W_R$; it is mated by the $- \cdot R \dashv \hom(R, -)$ adjunction to the component of the coalgebra structure $\phi X: T X \to \hom(R, X \cdot R)$. 
+Here $\epsilon U S$ is the same as the $T$-algebra structure $T U S \to U S$ on $S$. Whereas $\beta X: T X \cdot R \to X \cdot R$ is a component of the $T$-module structure $W_R T \to W_R$; it is mated by the $- \cdot R \dashv \hom(R, -)$ adjunction to the component of the coalgebra structure $\phi X: T X \to \hom(R, X \cdot R)$. 
 
 To extract the $T$-coalgebra structure on $S \odot R$, let us observe generally that if $F: C \to D$ is a left adjoint, then for any category $E$ there is an induced left adjoint $[1_E, F]: [E, C] \to [E, D]$ and similarly an induced left adjoint $Ladj(E, C) \to Ladj(E, D)$. Applying this to the case where $C = D = E = Set^T$ and where $F$ is the left adjoint to the lift $\hom(R, -): Set^T \to Set^T$, we find that 
 
@@ -182,6 +206,25 @@ $$X \cdot (S \odot R) \cong (X \cdot S) \odot R, \qquad T X \cdot (S \odot R) \c
 so that the desired right $T$-module structure is given componentwise by a composite 
 
 $$\beta (S \odot R)_X \coloneqq \left(T X \cdot (S \odot R) \cong (T X \cdot S) \odot R \stackrel{(\beta S)_X \odot R}{\to} (X \cdot S) \odot R \cong X \cdot (S \odot R)\right).$$ 
+
+### Tall-Wraith monoids relative to a monad 
+
+A *Tall-Wraith monoid* over $T$ is of course a monoid in the monoidal category $(T\text{-}BiAlg, \odot)$. We note that the unit in his monoidal category is the free $T$-algebra $F(1)$, equipped with its canonical lift $id: Set^T \to Set^T$. That is, the $T$-coalgebra structure on $F(1)$ is given tautologously by 
+
+$$T(X) \cong U F(X) \cong Set^T(F(1), F(X)) \cong Set^T(F(1), X \cdot F(1)).$$ 
+
+So, multiplication on a Tall-Wraith monoid is a bialgebra map $m: R \odot R \to R$ and the unit is a bialgebra map $u: F(1) \to R$. Such a monoid is tantamount precisely to a monoid in $Ladj(Set^T, Set^T)$, i.e., to a *left adjoint monad* on $Set^T$. In particular, for a Tall-Wraith monoid $R$, one has a category $R Alg$ of algebras over that monad, giving a monadic functor $Alg_R \to Set^T$. 
+
+Now, recall that left adjoint monads are canonically [[mate|mated]] to right adjoint comonads $C$, in such a way that the category of algebras over the monad is equivalent to the category of coalgebras over the comonad. In short, Tall-Wraith monoids over $T$ are essentially the same thing as functors 
+
+$$G: C \to Set^T$$ 
+
+which are simultaneously *monadic and comonadic*: the comonadicity means $G$ is a left adjoint and has a left adjoint $F$, so that the monad $G F: Set^T \to Set^T$ resides in $Ladj(Set^T, Set^T)$, and such monads are tantamount to Tall-Wraith monoids. 
+
++-- {: .num_example} 
+###### Example 
+In the important example where $T$ is the theory of commutative rings and $\Lambda$ is the bialgebra $\mathbb{Z}[x_1, x_2, \ldots]$, equipped with a Tall-Wraith multiplication $\Lambda \odot \Lambda \to \Lambda$ given by [[plethysm]] (a decategorified product that arises by viewing $\Lambda$ as the Grothendieck ring of the category of $Ab$-valued [[species]] together with its substitution or plethystic product), the category $Alg_\Lambda$ may be identified with the category of [[lambda-rings]]. In this case the monad $\Lambda \odot -$ has right adjoint given by $\hom(\Lambda, -)$. The *right* adjoint $CRing \to \Lambda Ring$ to the forgetful functor is the big Witt functor, often denoted $W$. 
+=-- 
 
 
 ## References
