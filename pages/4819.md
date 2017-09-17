@@ -40,7 +40,7 @@ If this is the case, it makes sense to ask if $\star F_\nabla$ itself is the cur
 
 If such $\tilde \nabla$ exists, its [[higher parallel transport]] is the gauge interaction [[action functional]] for $(d-n-3)$-dimensional objects propagating on $X$.
 
-In the special case of ordinary [[electromagnetism]] with $n=1$ and $d = 4$ we have that electrocalled charged 0-dimensional particles couple to $\nabla$ and magnetically charged $(4-(1+1)-2) = 0$-dimensional particles.
+In the special case of ordinary [[electromagnetism]] with $n=1$ and $d = 4$ we have that electrically charged 0-dimensional particles couple to $\nabla$ and magnetically charged $(4-(1+1)-2) = 0$-dimensional particles couple to $\tilde \nabla$.
 
 In analogy to this case one calls generally the $d-n-3$-dimensional objects coupling to $\tilde \nabla$ the **magnetic duals** of the $(n-1)$-dimensional objects coupling to $\nabla$.
 
