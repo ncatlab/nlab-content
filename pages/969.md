@@ -157,13 +157,17 @@ See also [[localization of a simplicial model category]].
 
 * [[simplicial localization]]
 
-* [[Bousfield localization of model categories]]
-
 * [[localization of a simplicial model category]]
 
 * [[localization of a ring]], [[localization of a commutative ring]]
 
   * [[localization of a module]]
+
+* [[localization of model categories]]
+
+  * [[localization of simplicial model categories]]
+
+  * [[Bousfield localization of model categories]]
 
 ## References
 
