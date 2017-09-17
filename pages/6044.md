@@ -62,7 +62,7 @@ We then have over the [[real numbers]]:
 * In dimension $7$, there are uncountably many binary cross products.  Even fixing a basis and requiring compatibility with this, there are still hundreds of cross products.
 * In any other finite dimension, there are no binary cross products at all.
 
-These cross products exist over any base field, but as far as I know there may be additional cross products over some.  Of course, the claim that there are uncountably many cross products in $7$ dimensions should be generalised and made more precise; the space of these inner products is some [[algebraic variety]].
+These cross products exist over any base field, but as far as I know there may be additional cross products over some.  (Of course, the claim that there are uncountably many cross products in $7$ dimensions should be generalised and made more precise; the space of these inner products is some [[algebraic variety]].)
 
 Binary cross products are closely related to [[normed division algebras]] (NDAs).  Given a normed division algebra $A$, the imaginary hyperplane $Im(A)$ inherits an inner product from $A$ and gains a cross product as
 $$ x \times y \coloneqq Im(x y) = \frac{1}{2}[x,y] = x y + x \cdot y .$$
@@ -106,6 +106,13 @@ Then for an inner product space $V$ over $\mathbb{R}$ of finite dimension $n$, w
 * If $k = n - 1$, then there are two cross products, one for each orientation, as described above.
 * If $k = n$, then there are no cross products.
 * If $k \gt n$, then there is one cross product, whose value is always $0$.
+
+
+## Exterior products
+
+The cross product is also called 'outer product', and both of these terms are sometimes also used for the [[exterior product]].  In its most basic form, the exterior product of two vectors $u,v$ is a [[bivector]] $u \wedge v$.  In $3$ dimensions, given an inner product and an orientation, we can use the [[Hodge dual]] to turn this into a vector, and this is the classical cross product once more.  In $2$ dimensions, using the same structure, we can turn the bivector into a scalar; this is sometimes called the __scalar cross product__.  Using only the inner product but not the orientation, we get (respectively) a [[pseudovector]] (sometimes called an axial vector) or a [[pseudoscalar]]; this perspective is common in [[geometric algebra]].  (In general in dimension $n$, a bivector becomes an $(n-2)$-(pseudo)-vector, but this is not usually an simplification.)
+
+In classical applications of the cross product, often not all of the structure is needed, and the exterior product is really the fundamental concept.
 
 
 ## Cross product and curl
