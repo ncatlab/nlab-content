@@ -69,6 +69,12 @@ $$
 
 This is discussed for instance as ([Awodey, prop. 7.31](#Awodey)). For the generalization to all sets see at _[Set -- Properties -- Opposite category and Boolean algebras](Set#OppositeCategory)_. See at _[[Stone duality]]_ for more on this.
 
+## Related cncepts
+
+* [[permutation category]]
+
+* [[braid category]]
+
 ## References
 
 * [[Steve Awodey]], _[Category Theory](http://www.andrew.cmu.edu/course/80-413-713/) -- lecture 7_ ([pdf](http://www.andrew.cmu.edu/course/80-413-713/notes/chap07.pdf))
