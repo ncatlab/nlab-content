@@ -43,6 +43,8 @@ A [[Poisson manifold]] induces a [[Poisson Lie algebroid]], which is a [[symplec
 
 * [[Dirac structure]]
 
+* [[coisotropic calculus]]
+
 ## References
 
 Surveys include
