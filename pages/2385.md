@@ -11,12 +11,12 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
 
-In a context of [[synthetic differential geometry]], the _de Rham space_ $dR(X)$ of a [[space]] $X$ is the quotient of $X$ that identifies [[infinitesimal object|infinitesimally close points]].
+In a context of [[synthetic differential geometry]] or [[D-geometry]], the _de Rham space_ $dR(X)$ of a [[space]] $X$ is the [[quotient]] of $X$ that identifies [[infinitesimal object|infinitesimally close points]].
 
 ## Definition 
 
