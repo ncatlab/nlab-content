@@ -1,0 +1,7 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Andrey_Kolmogorov)
+
+category: people
+
+[[!redirects Kolmogorov]]
