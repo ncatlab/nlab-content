@@ -21,7 +21,7 @@
 
 The _coherence theorem for [[symmetric monoidal bicategories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
 
-1. Every diagram of constraint 2-cells in a free [[symmetric monoidal bicategory]] commutes.
+1. Every diagram of constraint 2-cells in a free [[symmetric monoidal bicategory]] commutes; in other words, any two parallel composites of constraint 2-cells are equal. Moreover, two parallel composites of constraint 1-cells are isomorphic if and only if they have the same underlying [[permutation]], in which case they are uniquely isomorphic.
 
 1. Every symmetric monoidal bicategory is equivalent to a strict symmetric monoidal bicategory.
 
