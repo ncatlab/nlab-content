@@ -86,35 +86,33 @@ Such a standard Courant algebroid may be understood as the higher analog of the 
 
 A useful place to start reading about Courant algebroids with an emphasis on its Lie-2-algebroid nature (in [[NQ-supermanifold]]-language) is
 
-* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
+* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv:math/0203110](http://arxiv.org/abs/math/0203110))
 
 This proceeds from the perspective of [[n-symplectic manifold]]s and derives the fact that a 2-symplectic manifold encodes and is encoded by a Courant algebroid.
 The last section is about the [[standard Courant algebroid]].
 
-
-
 Another useful summary of the theory of Courant algebroids is in [section 3](http://arxiv.org/PS_cache/math/pdf/0401/0401221v1.pdf#page=19) of
 
-* [[Marco Gualtieri]], _Generalized complex geometry_ ([arXiv](http://arxiv.org/abs/math/0401221))
+* [[Marco Gualtieri]], _Generalized complex geometry_ ([arXiv:math/0401221](http://arxiv.org/abs/math/0401221))
 
 
 The identification of the [[L-infinity-algebra|Lie 3-algebra]] incarnation of the same date was given by
 
-* [[Dmitry Roytenberg]] and [[Alan Weinstein]], _Courant algebroids and strongly homotopy Lie algebras_ ([arXiv](http://arxiv.org/abs/math/9802118))
+* [[Dmitry Roytenberg]], [[Alan Weinstein]], _Courant algebroids and strongly homotopy Lie algebras_ ([arXiv:math/9802118](http://arxiv.org/abs/math/9802118))
 
 Equation (9) and theorem 4.3 there gives the [[L-infinity-algebra|Lie 3-algebra]] corresponding to a Courant algebroid (the way the [[tangent Lie algebroid]] gives the [[Lie algebra]] of vector fields). In this perspective the Courant algebroid with base space a point is the [[string Lie 2-algebra]].
 
 This is reviewed and further developed in
 
-* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ ([arXiv](http://arxiv.org/abs/math.DG/9910078))
+* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ ([math.DG/9910078](http://arxiv.org/abs/math.DG/9910078))
 
 A discussion of Courant algebroids with an eye towards the relation of the [[standard Courant algebroid]] to [[bundle gerbe]]s is 
 
-* [[Paul Bressler]], [[Alexander Chervov]], _Courant algebroids_ ([arXiv](http://arxiv.org/abs/hep-th/0212195))
+* [[Paul Bressler]], [[Alexander Chervov]], _Courant algebroids_ ([hep-th/0212195](http://arxiv.org/abs/hep-th/0212195))
 
 The relation between the two different Lie-alebroid-like  definition of Courant algebroids, one with skew, the other with non-skew brackets inspired on the level of [[L-infinity algebra|Lie 2-algebra]]s the treatment
 
-* [[Dmitry Roytenberg]], _On weak Lie 2-algebras_ ([arXiv](http://arxiv.org/abs/0712.3461))
+* [[Dmitry Roytenberg]], _On weak Lie 2-algebras_ ([arXiv/0712.3461](http://arxiv.org/abs/0712.3461))
 
 Chris Rogers paper discusses 2-plectic manifolds, manifolds with nondegenerate closed 3 forms and shows that they are related to a special class of Courant algebroids, those that are exact.
 
