@@ -1,3 +1,14 @@
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 A quasitopos is a particular kind of [[category]] that is not quite a [[topos]].  Instead of the usual [[subobject classifier]], it has a classifier only for *[[strong monomorphism|strong]]* [[subobject]]s.
 
 ## Definition
@@ -58,7 +69,7 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
 * [[Peter Johnstone]], [[Sketches of an Elephant]], A2.6 and C2.2.
 
-* J. Baez, A. Hoffnung, _Convenient categories of smooth spaces_, to appear, Trans. AMS, ([arXiv](http://arxiv.org/abs/0807.1704))
+* [[John Baez]], [[Alex Hoffnung]], _Convenient categories of smooth spaces_, to appear, Trans. AMS, ([arXiv](http://arxiv.org/abs/0807.1704))
 
 Need to reference work by various combinations of authors including Baez, Dolan, Hoffnung, and others on diffeological spaces and simplicial complexes... 
 
