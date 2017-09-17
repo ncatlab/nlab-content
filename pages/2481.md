@@ -30,4 +30,33 @@ See also
 
 * [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
 
+
+#Contents#
+* table of contents
+{:toc}
+
+## **1.** Sheaves of spectra
+
+* [[sheaf of spectra]]
+
+## **2.** Spectral schemes
+
+* [[E-infinity scheme]]
+
+## **3.** Coherent $\infty$-Topoi
+
+* [[compact topos]]
+
+## **4.** Deligne's completeness theorem
+
+## **5.** Flat descent
+
+## **6.** Flat descent for modules
+
+## **7.** Digression: Henselian rings
+
+## **8.** Spectral Deligne-Mumfor stacks
+
+## **9.** Comparison results
+
 category: reference
