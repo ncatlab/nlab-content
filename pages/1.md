@@ -24,7 +24,7 @@ $\,$
 =--
 
 
-[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]]. <a style="text-align: right;color: white" href="http://www.5hiva.com/cocktail-dresses/" rel="dofollow" title="cocktail dresses">cocktail dresses</a>
 
 # The $n$Lab
 * automatic table of contents goes here
@@ -45,7 +45,7 @@ We all make notes as we read papers, read books and doodle on pads of paper. The
 
 For more see [[About]].
 
-We originally designed this place as an adjunct to the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), but it\'s more independent now.  <a style="text-align: right;color: white" href="http://www.5hiva.com/cocktail-dresses/" rel="dofollow" title="cocktail dresses">cocktail dresses</a>
+We originally designed this place as an adjunct to the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), but it\'s more independent now. 
 
 
 ## Discussions
