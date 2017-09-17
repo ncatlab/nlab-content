@@ -17,11 +17,13 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 ###### Theorem
 **(Ostrowski)**
 
-Any [[complete field|complete]] [[archimedean field]] is, as an [[associative algebra]] and as a [[topological space]], [[isomorphism|isomorphic]] to either the [[real numbers]] or the [[complex numbers]].
+Any [[complete field|complete]] [[archimedean valued field]] is, as an [[associative algebra]] and as a [[topological space]], [[isomorphism|isomorphic]] to either the [[real numbers]] or the [[complex numbers]].
 
 =--
 
 ## Related entries
+
+* [[absolute value]], [[archimedean valued field]]
 
 * [[p-adic numbers]]
 
