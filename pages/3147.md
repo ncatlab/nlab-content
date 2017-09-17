@@ -13,7 +13,7 @@
 
 This entry is about the article
 
-* [[Mike Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([journal](http://projecteuclid.org/euclid.jdg/1143642908), [arXiv](http://arxiv.org/abs/math.AT/0211216))
+* [[Mike Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([journal](http://projecteuclid.org/euclid.jdg/1143642908), [arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216))
 
 which discusses [[differential cohomology]] and uses it to study [[quadratic refinements]] of [[intersection pairing]] $(x,y) \mapsto \int_\Sigma x \cup y$ in [[cohomology]]. This is motivated from and related to the [[physics]] of [[self-dual higher gauge theory]] appearing in [[string theory]] and the corresponding [[quantum anomaly|quantum anomalies]].
 
@@ -53,11 +53,11 @@ To this date generalized [[differential cohomology]] theories keep being studied
 
 * [[fiber integration in ordinary differential cohomology]]
 
-  * [[fiber integration in ordinary differential cohomology]]
-
 ## Algebraic topology
 
 * [[intersection pairing]], [[quadratic refinement]]
+
+* [[signature genus]], [[Kervaire invariant]]
 
 * [[Wu class]], [[integral Wu structure]]
 
