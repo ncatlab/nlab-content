@@ -218,8 +218,8 @@ Another textbook is
 
 Two useful introductory expositions of basic ideas of synthetic differential geometry are
 
-*  [Mike Shulman], _Chicago Pizza-Seminar: Synthetic Differential Geometry_ ([pdf](http://www.math.uchicago.edu/~shulman/exposition/sdg/pizza-seminar.pdf))
+*  [[Mike Shulman]], _Chicago Pizza-Seminar: Synthetic Differential Geometry_ ([pdf](http://home.sandiego.edu/~shulman/papers/sdg-pizza-seminar.pdf))
 
-*  [John Bell], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
+*  [[John Bell]], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
 
 
