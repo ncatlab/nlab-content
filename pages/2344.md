@@ -248,13 +248,44 @@ Furthermore, $\widehat{X}$ can be described rather explicitly: it is the derivat
 
 From there, you can see that any derivator is canonically enriched in the derivator $\widehat{*}\simeq Ho(SSet)$: as $*$ acts uniquely on any prederivator, $\widehat{*}\simeq Ho(SSet)$ acts uniquely on any derivator (as far as we ask compatibility with homotopy colimits).  Thus the [[homotopy hypothesis]] might be reformulated vaguely as: is there an algebraic model of $\widehat{*}$?  Then one may guess that some notion of higher groupoid might do the job.
 
+## Constructions of derivators
+
+Viewing a derivator as a partway point between an $(\infty,1)$-category and its homotopy category, and recalling that $(\infty,1)$-categories are often presented by [[categories with weak equivalences]] and in particular [[model categories]], we can construct derivators in two general ways.
+
+### From homotopy theory
+
+If $(C,W)$ is a [[category with weak equivalences]], then the representable prederivator defined by $D_C(X) = Cat(X,C) = C^X$ comes equipped with weak equivalences $W^X$ on each category $C^X$.  We define the *homotopy prederivator* $Ho(C)$ by inverting these weak equivalences in each diagram category:
+$$Ho(C)(X) = Ho(C^X,W^X) = C^X[(W^X)^{-1}]$$
+
++--{: .un_theorem}
+###### Theorem (Cisinski)
+If $C$ is a [[model category]], then $Ho(C)$ is a derivator.
+=--
+
+Some of the axioms are easy to check.  For instance, since [[homotopy limits]] and colimits in categories with weak equivalences are derived functors of the usual limits and colimits, they supply left and right adjoints to derived pullback functors; this shows (Der3).  (This shows moreover that homotopy limits and Kan extensions in a model category coincide with the notions of homotopy limit and Kan extension in its homotopy derivator, so that by working in $Ho(C)$ we really are studying the things we want to study.)
+
+
+### From $(\infty,1)$-categories
+
+If $C$ is an $(\infty,1)$-category, it has a homotopy category $Ho(C)$ obtained by identifying equivalent 1-morphisms.  If our $(\infty,1)$-categories are modeled by [[quasicategories]], then $Ho(-)$ is the [[left adjoint]] of the [[nerve]], often denoted $\tau_1$.
+
+Now since categories are in particular $(\infty,1)$-categories, for any category $X$ we have a [[functor (∞,1)-category]] $C^X$, and thus a homotopy category $Ho(C^X)$.  We define the *homotopy prederivator* of $C$ by
+$$Ho(C)(X) = Ho(C^X).$$
+If $C$ has [[limit in an (∞,1)-category|limits]] and colimits in the $(\infty,1)$-categorical sense, then $Ho(C)$ should be is a derivator.
+
 
 ## Related pages
+
+Special kinds of derivators:
 
 * [[pointed derivator]]
 * [[stable derivator]]
 * [[monoidal derivator]]
 
+Special limits and structures in derivators:
+
+* [[pullback in a derivator]]
+* [[monomorphism in a derivator]]
 
 ## References
 
