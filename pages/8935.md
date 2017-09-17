@@ -40,6 +40,12 @@ $$
 
 ## References
 
+The axiom K was introduced in 
+
+* [[Thomas Streicher]], _Investigations into intensional type theory_ Habilitation thesis (1993) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf))
+
+For a review and discussion of the implementation in [[Coq]] see
+
 * Pierre Corbineau, _The K axiom  in Coq (almost) for free_ ([pdf](http://coq.inria.fr/files/adt-2fev10-corbineau.pdf)) 
 
 [[!redirects Streicher axiom K]]
