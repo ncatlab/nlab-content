@@ -68,7 +68,7 @@ Locally presentable categories are precisely the categories of [[sketch|models o
 +-- {: .proof}
 ###### Proof
 
-This is theorem _xyz_ in [Adamek--Rosicky](#AdamekRosicky).
+This is corollary 1.52 in [Adamek--Rosicky](#AdamekRosicky).
 =--
 
 This proposition extrapolates part of the Gabriel--Ulmer duality (see below), which concerns [[locally finitely presentable categories]]: 
