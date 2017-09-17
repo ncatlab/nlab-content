@@ -1,10 +1,10 @@
 _Francis Borceux_ is a category theorist at Louvain (Belgium). He wrote a 3-volume 
 
-* __Handbook of categorical algebra__
+* __[[Handbook of categorical algebra]]__
 
 He coauthored books
 
-* F. Borceux, [[George Janelidze]], _Galois theories_, Cambridge Studies in Advanced Mathematics __72__
+* F. Borceux, [[George Janelidze]], _[[Galois theories]]_, Cambridge Studies in Advanced Mathematics __72__
 
 * F. Borceux, [[Dominique Bourn]], _[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004
 
