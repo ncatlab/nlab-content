@@ -88,8 +88,9 @@ That establishes the claim.
 
 ## Corollaries
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
+
 Let $F : C \to D$ be a functor from a [[category of fibrant objects]] to any [[category with weak equivalences]] that sends trivial fibrations to weak equivalences. Then this functor necessarily sends all weak equivalences to weak equivalences, hence is a [[homotopical functor]].
 =--
 
@@ -122,6 +123,27 @@ By the assumption that $F$ preserves trivial fibrations we have that both horizo
 ###### Remark
 If $C$ is the full subcategory of fibrant objects in a [[model category]], then this corollary asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
 =--
+
++-- {: .num_corollary}
+###### Corollary
+
+Let $A \to C \leftarrow B$ be a diagram between fibrant objects in a [[model category]]. Then the ordinary [[pullback]] $A \times_C^h B$
+
+$$
+  \array{
+     A \times_C^h B &\to& C^I
+     \\
+     \downarrow && \downarrow
+     \\
+     A \times B &\to& C \times C
+  }
+$$
+
+presents the [[homotopy pullback]] of the original diagram.
+
+=--
+
+See the section _[Concrete constructions](http://ncatlab.org/nlab/show/homotopy+pullback#ConcreteConstructions)_ at _[[homotopy pullback]]_ for more details on this.
 
 ## Examples
 
