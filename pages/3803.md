@@ -52,9 +52,9 @@ Here the duality is typically exhibited in two steps:
 
 1. a [[Thom isomorphism]] identified the $R$-cohomology of the Thom space back with that of $X$.
 
-More generally, spaces $X$ are not self-dual in this way, but may at least be dual to themselves but equipped with a [[twisted cohomology|twist]]. This yields to twisted [[Umkehr maps]] in [[twisted cohomology]] (see for instance at [[Freed-Witten-Kapustin anomaly cancellation]]).
+More generally, spaces $X$ are not self-dual in this way, but may at least be dual to themselves but equipped with a [[twisted cohomology|twist]]. This yields the _[[twisted Umkehr maps]]_ in [[twisted cohomology]] (see for instance at [[Freed-Witten-Kapustin anomaly cancellation]]).
 
-(...)
+For more on this see at _[[twisted Umkehr map]]_.
 
 ## Properties
 
@@ -87,7 +87,7 @@ Dennis Sullivan's paper Infinitesmal Computations in Topology (Theorem 13.2).  T
 
 =--
 
-See also ([Ranicki 96](#Ranicki96)).
+See also ([Ranicki 96](#Ranicki96)) and see at _[[Poincaré complex]]_.
 
 ### Relation to Thom isomorphism
 
@@ -108,6 +108,14 @@ Another generalization, for singular spaces, is with help of stratifications and
 * in [[derived category|derived]] [[abelian sheaf|abelian]] [[sheaf and topos theory]]: [[Verdier duality]]
 
 * in [[nonabelian cohomology]]: [[nonabelian Poincaré duality]]
+
+## Related concepts
+
+* [[Poincaré complex]]
+
+* [[Poincaré duality algebra]]
+
+
 
 ## References
 
