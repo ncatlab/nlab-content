@@ -79,9 +79,21 @@ which is furthermore a [[full and faithful functor]].
 
 =--
 
+In fact, we can simplify this definition further, by the following result. 
 
++-- {: .num_prop} 
+###### Proposition 
+For $\mathcal{T}$ to be a local topos, it is necessary and sufficient that $\Gamma = \mathcal{T}(\ast, -) \colon \mathcal{T} \to Set$ have a right adjoint, i.e., that the terminal object $\ast$ be [[connected object|connected]] and [[projective object|projective]]. 
+=-- 
 
++-- {: .proof} 
+###### Proof 
+The necessity is clear by definition. To prove sufficiency, we must prove that $Codisc$ is fully faithful. This is so iff $LConst$ is fully faithful, by [this proposition](nlab/show/ajoint+triple#FullyFaithful). Now $LConst: Set \to \mathcal{T}$ takes a set $S$ to the $S$-indexed coproduct $S \cdot \ast$ of copies of $\ast$ in $\mathcal{T}$. Thus the functor $LConst$ is fully faithful iff the unit $S \to \mathcal{T}(\ast, S \cdot \ast)$ is an isomorphism. But since $\ast$ is connected, $\mathcal{T}(\ast, -)$ preserves this $S$-indexed coproduct. Thus the unit at $S$, being a composite 
 
+$$S \cong S \cdot \mathcal{T}(\ast, \ast) \to \mathcal{T}(\ast, S \cdot \ast)$$ 
+
+of two isomorphisms, is an isomorphism.
+=-- 
 
 ## Properties
 
