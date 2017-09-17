@@ -19,7 +19,9 @@ A category $C$ satisfying (any of) the following equivalent conditions is said t
 
    [[John Baez]]: How come the first sentence of [this paper](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf) seems to suggest that the category of models of _any_ essentially algebraic theory is locally finitely presentable?  The characterization below, which I did not write, seems to agree.  Here there is no restriction that the theory be finitary.  Does this contradict what Mike is saying, or am I just confused?  
 
+_Mike_: The syntactic category of a non-finitary essentially algebraic theory is not a category with finite limits but a category with $\kappa$-limits where $\kappa$ is the arity of the theory.  A finitary theory can have infinitely many sorts and operations; what makes it finitary is that each operation only takes finitely many inputs, hence can be characterized by an arrow whose domain is a finite limit.  I think this makes the first sentence of that paper completely consistent with what I'm saying.
 =--
+
 1. $C$ is equivalent to the category of finite-limit-preserving functors $D \to Set$ for some small category $D$ with finite limits.
 1. $C_{fp}$ has finite colimits, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{fp}^{op},Set]$ identifies $C$ with the category of finite-limit-preserving functors $C_{fp}^{op} \to Set$.
 1. $C$ is the category of models for a finite limit [[sketch]].
@@ -33,3 +35,5 @@ Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [
 * [[Top]], [[FinSet]] are not lfp.
 
 [[!redirects locally finitely presentable categories]]
+[[!redirects lfp category]]
+[[!redirects lfp categories]]
