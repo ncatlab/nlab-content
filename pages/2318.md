@@ -109,7 +109,7 @@ Since [[gauge theory]] is not just about [[principal bundle]]s, but about princi
 
 The notion was introduced in
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Fivebrane structures_ , Reviews in mathematical physics, 10 (2009) 1197 ([arXiv:0805.0564](http://arxiv.org
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Fivebrane structures]]_ , Reviews in mathematical physics, 10 (2009) 1197 ([arXiv:0805.0564](http://arxiv.org
 /abs/0805.0564))
  {#SSS2}
 
@@ -133,3 +133,5 @@ and
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_ ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
 
 [[!redirects fivebrane structure]]
+
+[[!redirects Fivebrane structures]]
