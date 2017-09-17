@@ -19,6 +19,7 @@ $$\Big[\sum_i a_i\Big]$$
 
 $$\left(\Big[\sum_i a_i\Big]\right)$$
 
+<img src="http://quicklatex.com/cache3/ql_1c81764c5c9e8040d29b987f7bf8d9c4_l3.png"></img>
 
 $\lceil, \rceil,
 \lfloor,
