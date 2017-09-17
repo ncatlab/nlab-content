@@ -39,11 +39,12 @@ $$
 in $\mathcal{A}$ such that 
 
 $$
-  f_n - g_n = \partial^D \circ  \psi_n + \psi_{n-1} \partial^C
+  f_n - g_n = \partial^D \circ  \psi_n + \psi_{n-1} \circ \partial^C
   \,.
 $$
 
 =--
+
 
 +-- {: .num_remark}
 ###### Remark
