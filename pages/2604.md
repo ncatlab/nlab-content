@@ -15,6 +15,7 @@ Examples include
 * [[crossing number]]
 * [[bridge number]]
 * [[unknotting number]]
+* [[knot genus]]
 * [[Jones polynomial]]
 * [[HOMFLY polynomial]]
 * [[Alexander polynomial]]
