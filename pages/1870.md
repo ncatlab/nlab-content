@@ -188,7 +188,7 @@ The perspective of twisted K-theory by sections of a $K U$-bundle of spectra is 
 
 Discussion in terms of [[twisted bundles]]/[[bundle gerbe modules]] is in 
 
-* [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
+* [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv:hep-th/0106194](http://arxiv.org/abs/hep-th/0106194))
   {#CBMMS} 
 
 * [[Max Karoubi]], _Twisted bundles and twisted K-theory_, [arxiv/1012.2512](http://arxiv.org/abs/1012.2512) 
