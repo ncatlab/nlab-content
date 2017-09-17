@@ -518,7 +518,9 @@ Formulated in terms of [[derived stack]]s over the [[(∞,1)-category]] of [[dg-
 
 for the moment see [[function algebras on ∞-stacks]]
 
+### Function 2-algebras on algebraic stacks
 
+see [[Tannaka duality for geometric stacks]]
 
 ## References
 
