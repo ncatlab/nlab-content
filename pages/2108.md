@@ -329,3 +329,4 @@ References on [[geometric quantization of symplectic groupoids]] are
 * Eli Hawkins, _A Groupoid Approach to Quantization_ ([arXiv](http://arxiv.org/abs/math.SG/0612363))
  {#Hawkins}
 
+[[!redirects geometric prequantization]]
