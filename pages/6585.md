@@ -1,3 +1,6 @@
+
+> to be merged with [[canonical transformation]]
+
 ## Local picture
 
 Local picture is explained in 
