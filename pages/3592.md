@@ -89,25 +89,30 @@ This connection is explored in more depth with the category of [[equilogical spa
 =-- 
 
 ### Relation to locally finitely presentable categories 
+ {#RelationToLocallyFinitelyPresentableCategories}
 
 One of our definitions of algebraic lattice is: a poset $L$ which is locally finitely presentable when viewed as a category. The completeness of $L$ means that right adjoints $L \to Set$ are representable, given by $L(p, -) \colon L \to Set$, and we are particularly interested in those representable functors that preserve [[filtered colimits]]. These correspond precisely to finitely presentable objects $p$, which in lattice theory are usually called compact elements. These compact elements are closed under finite joins. 
 
-By Gabriel-Ulmer duality, $L$ is determined from the join-semilattice of compact elements $K$ by $L \cong Lex(K^{op}, Set)$. Since the elements of $K^{op}$ are subterminal, we can also write $L \cong Lex(K^{op}, 2)$ where $2 = Sub(1)$. 
+By [[Gabriel-Ulmer duality]], $L$ is determined from the join-semilattice of compact elements $K$ by $L \cong Lex(K^{op}, Set)$. Since the elements of $K^{op}$ are subterminal, we can also write $L \cong Lex(K^{op}, 2)$ where $2 = Sub(1)$. 
 
 
 
 +-- {: .num_theorem}
-###### Theorem (Porst) 
+###### Theorem 
+**(Porst)**
+
 If $C$ is a [[locally finitely presentable category]] and $X$ is an object of $C$, then 
 
 * The lattice of subobjects $Sub(X)$, 
 
-* The lattice of quotient objects (equivalence classes of epis sourced at $X$) $Quot(X)$, 
+* the lattice of quotient objects (equivalence classes of epis sourced at $X$) $Quot(X)$, 
 
-* The lattice of congruences (internal equivalence relations) on $X$ 
+* the lattice of congruences (internal equivalence relations) on $X$ 
 
 are all algebraic lattices. 
 =-- 
+
+This is due to [Porst](#Porst).
 
 ### Completely distributive lattices
 
@@ -122,13 +127,22 @@ This appears as ([Caramello, remark 4.3](#Caramello)).
 
 The [[completely distributive lattice|completely distributive]] algebraic lattices form a [[reflective subcategory]] of that of all distributive lattices. The reflector is called _[[canonical extension]]_.
 
+## Related concepts
+
+[[!include locally presentable categories - table]]
+
 
 ## References
 
-* Andrej Bauer, Lars Birkedal, Dana Scott, _Equilogical Spaces_, Theoretical Computer Science, 315(1):35-59, 2004. ([web](http://math.andrej.com/2002/07/05/equilogical-spaces/)) 
+* [[Andrej Bauer]], [[Lars Birkedal]], [[Dana Scott]], _Equilogical Spaces_, Theoretical Computer Science, 315(1):35-59, 2004. ([web](http://math.andrej.com/2002/07/05/equilogical-spaces/)) 
 
 * Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
  {#Caramello}
+
+The relation to [[locally finitely presentable categories]] is discussed in
+
+* [[Hans Porst]], _Algebraic lattices and locally finitely presentable categories_ ([pdf](http://www.math.uni-bremen.de/~porst/dvis/PORST_AlgebraicLattices_revfinAU.pdf))
+ {#Porst}
 
 
 [[!redirects algebraic lattice]]
