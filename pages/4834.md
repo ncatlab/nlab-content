@@ -1,3 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea ##
 
 A pure type system is an explicitly typed [[lambda calculus]]
@@ -6,6 +29,15 @@ the basic idea is that
 $$\Gamma, x:A \vdash B:C$$
 implies
 $$\Gamma \vdash (\lambda x:A . B) : (\prod x:A . C).$$
+
+In other words a _pure type system_ is
+
+1. a system of [[natural deduction]];
+
+1. for [[dependent types]];
+
+1. and with (only) the [[dependent product type]] [[type formation|formation]] rule specified.
+
 
 ## Definition ##
 
@@ -90,12 +122,24 @@ But there is an example with even non-circular system of axioms:
 | A      | $\ast : \square$, $\square : \triangle$
 | R      | $(\ast, \ast)$, $(\square, \ast)$, $(\square, \square)$, $(\triangle, \square)$
 
+## Related concepts
+
+Adding to a pure type sytstem
+
+1. rules for introduing [[inductive types]];
+
+1. possibly a [[type of types]] hierarchy
+
+makes it a _[[calculus of inductive constructions]]_.
+
 ## References ##
 
-Henk Barendregt (Catholic University Nijmegen),
-[[Lambda calculi with types]],
-To appear in
-Handbook of Logic in Computer Science, Volume II,
-Edited by
-S. Abramsky, D.M. Gabbay and T.S.E. Maibaum
+* Henk Barendregt (Catholic University Nijmegen), _[[Lambda calculi with types]]_, To appear in [[Samson Abramsky]], D.M. Gabbay and T.S.E. Maibaum
+(eds.) _Handbook of Logic in Computer Science_, Volume II,
 Oxford University Press
+
+A quick survey is in 
+
+* Frade, _Calculus of inductive constructions_ ([pdf](http://www3.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
+
+[[!redirects pure type systems]]
