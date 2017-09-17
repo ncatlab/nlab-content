@@ -21,7 +21,7 @@ $$
 ([Penrose 94, section 8.7](#Penrose94))
 
 
-Penrose (contrversally) argued that [[quantum gravity]] effects on [[decoherence]] of [[quantum superposition]] causes [[physics]] to be non-[[computability|computable]] and serves to explain aspects of the human [[mind]] such as [[conciousness]]. This latter aspect he is more recently developing in more concrete detail in [[quantum biology]] (see there for more) with [[Stuart Hameroff]].
+Penrose (controversially) argued that [[quantum gravity]] effects on [[decoherence]] of [[quantum superposition]] causes [[physics]] to be non-[[computability|computable]] and serves to explain aspects of the human [[mind]] such as [[consciousness]]. This latter aspect he is more recently developing in more concrete detail in [[quantum biology]] (see there for more) with [[Stuart Hameroff]].
 
 ## some publications
 
