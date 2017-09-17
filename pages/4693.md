@@ -37,3 +37,6 @@ $$
 
 [[!redirects Avogadro's constant]]
 [[!redirects mole]]
+
+[[!redirects Avogadro number]]
+[[!redirects Avogadro's number]]
