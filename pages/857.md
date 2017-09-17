@@ -63,5 +63,5 @@ See the references at [[simplicial T-complex]].
 Polyhedral $T$-complexes are discussed in
 
 * David W. Jones, _A general theory of polyhedral sets and the corresponding
-  $T$-complexes_. Dissertationes Math. (Rozprawy Mat.) 266 (1988) 110. [Scanned Thesis](http://pages.bangor.ac.uk/r.brown/pdffiles/jones1983PolyTComplexes.pdf)
+  $T$-complexes_. Dissertationes Math. (Rozprawy Mat.) 266 (1988) 110. [Scanned Thesis](http://www.bangor.ac.uk/r.brown/pdffiles/jones1983PolyTComplexes.pdf) or from [RBPhDsSupervised](http://www.bangor.ac.uk/~mas010/doctorates.html)
  {#Jones}
