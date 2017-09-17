@@ -24,6 +24,7 @@ A _group extension_ of a [[group]] $G$ by a group $A$ is third group $\hat G$ th
 
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn }
 ###### Definition
@@ -114,7 +115,7 @@ $$
   \array{
      && \hat G_1
     \\
-    & \nearrow && \earrow
+    & \nearrow && \searrow
     \\
     A &&\downarrow^{\mathrlap{f}}&& G
     \\
@@ -267,7 +268,9 @@ $$
 
 =--
 
-+-- {: .num_defn }
+We prove this below. First we introduce stepwise the ingredients that go into the proof.
+
++-- {: .num_defn #CentralExtensionAssociatedTo2Cocycle}
 ###### Definition
 **(central extension associated to group 2-cocycle)**
 
@@ -277,18 +280,192 @@ $$
   G \times_c A \in Grpd
 $$
 
-as follows. The underlying set is the [[cartesian product]] $U(G) \times U(A)$ of the underlying sets of $G$ and $A$. The group operation on this given by
+as follows. The underlying set is the [[cartesian product]] $U(G) \times U(A)$ of the underlying sets of $G$ and $A$. The group operation on this is given by
 
 $$
   (g_1, a_1) \cdot (g_2, a_2)
   \coloneqq
-  (g_1 \cdot g_2, a_1 + a_2 + c(g_1, g_2))
+  (g_1 \cdot g_2 ,\; a_1 + a_2 + c(g_1, g_2))
   \,.
 $$
 
 =--
 
-(...)
++-- {: .num_prop }
+###### Proposition
+
+This defines indeed a group: the [[cocycle]] condition on $c$ gives precisely the  [[associativity]] of the product on $G \times_c A$.
+
+The construction extends to a [[homomorphism]]
+
+$$
+  Rec : H^2_{Grp}(G,A) \to Ext(G,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Forming the product of three elements of $G \times_c A$ bracketed to the left is, according to def. \ref{CentralExtensionAssociatedTo2Cocycle},
+
+$$
+  \left(
+    \left(g_1, a_1\right) \cdot \left(g_2, a_2\right)
+  \right)
+  \cdot
+  \left(
+    g_3, a_3
+  \right)
+ = 
+  \left( 
+    g_1 g_2 g_3 \;,\; a_1 + a_2 + a_3 
+    + 
+    c(g_1, g_2) +  c\left(  g_1 g_2, g_3 \right) 
+  \right)
+  \,.
+$$
+
+Bracketing the same three elements to the right yields
+
+$$
+  \left(g_1, a_1\right) 
+   \cdot 
+  \left(
+     \left(g_2, a_2\right)
+     \cdot
+   \left(
+    g_3, a_3
+  \right)
+ \right)
+ = 
+  \left( 
+    g_1 g_2 g_3 \;,\; a_1 + a_2 + a_3 
+    + 
+    c(g_2, g_3) +  c\left(  g_1 , g_2 g_3 \right) 
+  \right)
+  \,.
+$$
+
+The difference between the two expressions is read off to be precisely
+
+$$
+  (1, (d c) (g_1, g_2, g_3))
+ \,,
+$$
+
+where $d c$ denotes the group cohomology differential of $c$. Hence this vanishes precisely if $c$ is a group 2-cocycle.
+
+=--
+
+Assume the [[axiom of choice]] in the ambient [[foundations]].
+
++-- {: .num_defn #2CocycleExtractedFromCentralExtension}
+###### Definition
+
+Given a central extension $A \to \hat G \to B$ define a group 2-cocycle $c : G \times G \to A$ as follows.
+
+Choose a [[section]] $\sigma : U(G) \to U(\hat G)$ of the underlying [[sets]] (which exists by the [[axiom of choice]] and the fact that $p : \hat G \to G$ is by definition an [[epimorphism]]). Then define $c$ by
+
+$$
+  c
+  \colon
+  (g_1, g_2) 
+    \mapsto
+  \sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)
+  \in A
+  \,,
+$$
+
+where in the right we are using that by the section-property of $\sigma$ and the group homomorphism property of $p$
+
+$$
+  p(\sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)) = 1
+$$
+
+and hence by the exactness of the extension the argument is in $A \hookrightarrow \hat G$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The construction of prop. \ref{2CocycleExtractedFromCentralExtension} indeed yields a 2-cocycle in [[group cohomology]]. It extends to a morphism
+
+$$
+  Extr \colon Ext(G,A) \to H^2_{Grp}(G,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The cocycle condition to be checked is that 
+
+$$
+  c(g_1, g_2) - c(g_0 g_1, g_2) + c(g_0, g_1 g_2) - c(g_0, g_1)
+  = 
+  1
+$$
+
+for all $g_0, g_1, g_2 \in G$. Writing this out with def. \ref{2CocycleExtractedFromCentralExtension} yields
+
+$$
+  \sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)
+  \left(\sigma(g_0 g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_0 g_1 g_2)\right)^{-1}
+  \sima(g_0)^{-1} \sigma(g_1 g_2)^{-1} \sigma(g_0 g_1 g_2)
+  \left( \sigma(g_0)^{-1} \sigma(g_1)^{-1} \sigma(g_0 g_1)  \right)^{-1}
+  \,.
+$$
+
+Here it is sufficient to observe that for every term also the inverse term appears.
+
+To see that this is a well-defined map to $H^2_{grp}(G,A)$ we need to check that for $\tilde \sigma : G \to \hat G$ a different choice of section, the coresponding cocycles differ by a group coboundary $\tilde c - c = d h$. Clearly this is obtained by setting
+
+$$
+  h \colon g \mapsto \tilde \sigma(g)\sigma(g)^{-1}
+  \,,
+$$
+
+where we use that the right hand side is in $A \hookrightarrow \hat G$ since because both $\sigma$ and $\tilde \sigma$ are sections of $p$, the image of the right hand under $p$ is the neutral element in $G$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The two morphisms of  of def. \ref{CentralExtensionAssociatedTo2Cocycle} and
+def. \ref{2CocycleExtractedFromCentralExtension} exhibit the [[equivalence]]
+
+$$
+  H^2_{Grp}(G,A) \stackrel{\underoverset{\simeq}{Extr}{\leftarrow}}{\underset{Rec}{\to}} CentrExt(G,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $[c] \in H^2_{Grp}(G,A)$. Then by construction of $\hat G \coloneqq G \times_c A$ there is a canonical section of the underlying function of sets $U(G \times_c A) \to U(G)$ given by $(id_{U(G)}, 0) U(G) \to U(G) \times U(A)$. The cocycle induced by this section sends
+
+$$
+  \begin{aligned}
+    (g_1, g_2) & \mapsto - (g_1, 0)^{-1} (g_1, 0)^{-1} (g_1 g_2, 0)
+    \\
+    & =  - (g_1, 0)^{-1} (g_1, 0)^{-1} (g_1 g_2, 0)
+    \\
+    & = (1, c(g_1, g_2))
+  \end{aligned}
+$$
+
+This shows that $Extr \circ Rec = id$ and in particular that $Rec$ is a [[surjection]]. It is readily seen that the [[kernel]] of $Rec$ is trivial, and so it is an equivalence.
+
+
+=--
 
 #### Formulation in homotopy theory
 
@@ -508,7 +685,8 @@ we call it the **(external) semidirect product**.
 
 +-- {: .proof}
 ###### Proof
-The checking the associativity we have done above for pairs of the form $(a,e)$ etc. This was useful to find the cocycle condition correctly. Now the general associativity should be a similar calculation with general elements. Using (eq:psi1) and (eq:psi2) it can be done.
+
+We have checked above the [[associativity]] for pairs of the form $(a,e)$ etc. This was useful to find the cocycle condition correctly. Now the general associativity should be a similar calculation with general elements. Using (eq:psi1) and (eq:psi2) it can be done.
 
 $$\array{
 \psi(a)\psi(e)k & =& \psi(a)Ad_K(\chi(a,e))k \\
