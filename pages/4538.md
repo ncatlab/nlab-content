@@ -285,6 +285,8 @@ $A_1 = Hom(Z_{n-1}, A)$, $A_2 = Hom(B_{n-1}, A)$, $A_3 = Hom(C_n/B_n,A)$.
 
 Let $C_\bullet \in Ch_\bullet(Ab)$ be a [[chain complex]] of [[free abelian groups]], and let $A \in $ [[Ab]] be any abelian group. Write $C_\bullet \otimes A$ etc. for the degreewise [[tensor product of abelian groups]].
 
+More generally, let $R$ be a [[ring]] which is a [[principal ideal domain]] (in the above $R = \mathbb{Z}$ is the ring of [[integers]]), let $C_\bullet \in Ch_\bullet(R Mod)$ be a chain complex of [[free modules]] over $R$, let $A \in R Mod$ be any $R$-[[module]] and write $C_k \otimes_R A$ for the [[tensor product of modules]] over $R$.
+
 +-- {: .num_theorem #TheoremInOrdinaryHomology}
 ###### Theorem
 
@@ -293,17 +295,17 @@ For each $n \in \mathbb{N}$ there is a [[short exact sequence]]
 $$
   0 
    \to 
-  H_n(C_\bullet) \otimes A
+  H_n(C_\bullet) \otimes_R A
    \to   
-  H_n(C_\bullet \otimes A)
+  H_n(C_\bullet \otimes_R A)
    \to 
-  Tor_1(H_{n-1}(C_\bullet), A)
+  Tor_1^{R Mod}(H_{n-1}(C_\bullet), A)
    \to 
   0
   \,
 $$
 
-where on the right we have the first [[Tor]]-group of $H_{n-1}(C_\bullet)$ with $A$. 
+where on the right we have the first [[Tor]]-module of the [[chain homology]] $H_{n-1}(C_\bullet)$ with $A$. 
 
 =--
 
