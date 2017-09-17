@@ -1,0 +1,17 @@
+
+**[[index theory]]**
+
+[[topological index]], [[analytical index]]
+
+[[Atiyah-Singer index theorem]]
+
+**[[differential operator]]**
+
+* [[symbol of a differential operator]]
+
+  * [[elliptic operator]], [[elliptic complex]]
+
+* [[index of a differential operator]]
+
+* [[Dirac operator]]
+
