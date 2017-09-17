@@ -3,7 +3,7 @@ classification of [[special holonomy]] [[manifolds]] by [[Berger's theorem]]:
 
 | [[G-structure]] | [[special holonomy]] | [[dimension]] | preserved [[differential form]] |
 |--|--|--|--|
-| [[Kähler manifold]] | [[unitary group|U(k)]] | $2k$ |  |
+| [[Kähler manifold]] | [[unitary group|U(k)]] | $2k$ | [[Kähler forms]] |
 | [[Calabi-Yau manifold]] | [[special unitary group|SU(k)]] | $2k$ | |
 | [[hyper-Kähler manifold]] | [[symplectic group|Sp(k)]] | $4k$ |  |
 | [[G2 manifold]] | [[G2]] | $7$ | [[associative 3-form]] |
