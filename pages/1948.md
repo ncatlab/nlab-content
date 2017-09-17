@@ -83,7 +83,7 @@ In particular, every cofibration if $[C,A]_{proj}$ is in particular a cofibratio
 
 =--
 
-This is argued in the begiining of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].
+This is argued in the beginning of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].
 
 +-- {: .un_prop}
 ###### Corollary
@@ -91,11 +91,23 @@ This is argued in the begiining of the proof of [[Higher Topos Theory|HTT, lemma
 The [[identity]] [[functor]]s
 
 $$
-  [D,C]_{proj} \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
-  [D,C]_{inj}
+  [D,C]_{inj}   
+    \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [D,C]_{proj}
 $$
 
-form a [[Quillen equivalence]] (with $Id : [D,C]_{proj} \to [D,C]_{inj}$ being the right Quillen functor).
+form a [[Quillen equivalence]] (with $Id : [D,C]_{proj} \to [D,C]_{inj}$ being the left Quillen functor).
+
+If $D$ is a [[Reedy category]] this factors through the [[Reedy model structure]]
+
+$$
+  [D,C]_{inj}   
+    \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [D,C]_{Reedy}
+    \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [D,C]_{proj}
+$$
+
 
 The functor model structures depend Quillen-functorially on their codomain, in that for
 
