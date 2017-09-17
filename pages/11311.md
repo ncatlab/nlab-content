@@ -68,10 +68,11 @@ Discussion of Jacobi forms as coefficients of the [[elliptic genus]]/[[Witten ge
 
 * {#Zagier86} [[Don Zagier]], pages 8,9 of _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf))
 
-* [pdf](http://www.cft2011.mathi.uni-heidelberg.de/content/lecture_notes.pdf)
+
+* {#AndoFrenchGanter08} [[Matthew Ando]], Christopher French, [[Nora Ganter]], _The Jacobi orientation and the two-variable elliptic genus_, Algebraic and Geometric Topology 8 (2008) p. 493-539 ([pdf](http://www.msp.warwick.ac.uk/agt/2008/08-01/agt-2008-08-016s.pdf))
 
 See also
 
 * Wikipedia, _[Jacobi form](http://en.wikipedia.org/wiki/Jacobi_form)_
 
-[[!redirects modular forms]]
+[[!redirects Jacobi forms]]
