@@ -1,3 +1,3 @@
-Billionaire Mukesh Ambani's Reliance, which has seen a slump in gas output from its KG D6 gas fields, has said gas prices need to be increased in order to encourage further investment.
- <a href="http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=classic-c-38_40/" >Classic</a>
-[url=http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=classic-c-38_40/]Classic[/url]
+Solar chargers come in all different forms and formats-from  for ease of transport to those that roll out into mats for maximum  surface area. Some are waterproof; some are not (a factor to consider  when using a solar charger for camping, back-packing, or river trips).  They also vary in charge time versus electrical output and performance  in indirect sun (important for using solar chargers in less-than-sunny  climates). There are also a whole class of , whether laptop bags, , or .
+ <a href="http://www.curoindia.com/Coachhandbagcharming.asp?charming=Kristin-c-86.html" >Kristin</a>
+[url=http://www.curoindia.com/Coachhandbagcharming.asp?charming=Kristin-c-86.html]Kristin[/url]
