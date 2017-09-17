@@ -2,16 +2,22 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Category theory
+#### Regular and Exact categories
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include regular and exact categories - contents]]
 =--
 #### Limits and colimits
 +--{: .hide}
 [[!include infinity-limits - contents]]
 =--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
 =--
 =--
+=--
+
+
 
 # Exactness properties
 * table of contents
