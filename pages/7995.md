@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $n \in \mathbb{N}$ The _metalinear group_ is a [[Lie group]] that is a $\mathbb{Z}_2$-[[group extension]] of the [[general linear group]] $GL(n)$.
+
+## Definition
+
+Inside the [[symplectic group]] $Sp(n)$ sits the [[general linear group]] 
+
+$$
+  Gl(n) \hookrightarrow Sp(n)
+$$
+
+as the subgroup that preserves the standard [[Lagrangian submanifold]] $\mathbb{R}^n \hookrightarrow \mathbb{R}^{2n}$. Restriction of the metaplectic [[group extension]] along this inclusion defines the [[metalinear group]] $Ml(n)$
+
+$$
+  \array{
+    Ml(n) &\hookrightarrow& Mp(n)
+    \\
+    \downarrow && \downarrow
+    \\
+    Gl(n) &\hookrightarrow& Sp(n)
+  }
+  \,.
+$$
+
+Hence a [[metaplectic structure]] on a [[symplectic manifold]] induces a [[metalinear structure]] on its [[Lagrangian submanifolds]].
+
+## Related concepts
+
+* [[spin group]]
