@@ -23,7 +23,18 @@
 
 ## Idea
 
-For a suitable [[linear operator]] (say on [[section]] of a [[line bundle]] over a [[Riemann surface]]), its _zeta function_ is the [[sum]] of the $-s$-powers of all its [[eigenvalues]], as a function of $s$. This is analogous to the _[[Riemann zeta function]]_ and the [[Dedekind zeta function]] (or would be if there were something like a [[Laplace operator]] on [[Spec(Z)]]).
+For a suitable [[linear operator]] $H$ (say on [[section]] of a [[line bundle]] over a [[Riemann surface]]), its _zeta function_ is the [[analytic continuation]] of the [[trace]]
+
+$$
+  \zeta_H(s) \coloneqq Tr(H^{-s})
+$$
+
+of the $-s$ power of $H$, which, if $H$ is suitably self-adjoint, is
+the [[sum]] of the $-s$-powers of all its [[eigenvalues]], as a function of $s$. This is analogous to the _[[Riemann zeta function]]_ and the [[Dedekind zeta function]] (or would be if there were something like a [[Laplace operator]] on [[Spec(Z)]] or more generally on an [[arithmetic curve]], see at _[[function field analogy]]_).
+
+The exponetial of the derivative of the zeta function and $n = 0$ also encodes the [[functional determinant]] of $H$, a regularized version ("zeta function regularization") of the naive and generally ill-defined product of all eigenvalues. As such zeta functions play a central role in [[quantum field theory]].
+
+Generally, the values of $\zeta_H(s)$ of interest in [[physics]] (when regarding $H$ as a [[Hamilton operator]]) are those for (low) integral $s$. These are just the _[[special values of L-functions]]_.
 
 ## Definition
 
@@ -284,9 +295,14 @@ The definition of a _[[functional determinant]]_ via the exponential of the deri
 
 Discussion in the special case of [[2d CFT]] ([[worldsheet]] [[string theory]]) is in 
 
+
 * {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
 
 * {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]] ,Jean-Benooit Bost, [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Communications in Mathematical Physics_, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
 
+[[!redirects zeta functions of elliptic differential operators]]
+
+
 [[!redirects functional determinant]]
 [[!redirects functional determinants]]
+
