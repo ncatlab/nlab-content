@@ -23,9 +23,11 @@
 
 ## Idea
 
-As the [[type theory]] of [[sheaf toposes]] (under the [[relation between category theory and type theory]]) is _[[geometric type theory]]_, so the [[homotopy type theory]] of [[(∞,1)-sheaf]] [[(∞,1)-toposes]] deserves to be called _geometric homotopy type theory_.
+As the [[type theory]] of [[sheaf toposes]] (under the [[relation between category theory and type theory]]) is _[[geometric type theory]]_, so the [[homotopy type theory]] of [[(∞,1)-sheaf]] [[(∞,1)-toposes]] deserves to be called _geometric homotopy type theory_. 
 
-In terms of [[axioms]] a geometric homotopy type theory should be something like
+Traditionally the [[types]] in geometric homotopy type theory, hence the _geometric homotopy types_, are known as _[[∞-stacks]]_ and maybe better as _[[(∞,1)-sheaves]]_, notably as _[[moduli ∞-stacks]]_.
+
+In terms of [[axioms]] in [[type theory]], a geometric homotopy type theory should be something like
 
 * plain [[homotopy type theory]] (i.e. [[dependent type theory]] with [[intensional type theory|intensional]] [[identity types]])
 
@@ -35,6 +37,13 @@ In terms of [[axioms]] a geometric homotopy type theory should be something like
 
 * and maybe with a "small type of generators" in some sense.
 
+## Examples
+
+* [[geometrically discrete homotopy type]]
+
+* [[smooth homotopy type]]
+
+* [[smooth super homotopy type]]
 
 ## Related concepts
 
