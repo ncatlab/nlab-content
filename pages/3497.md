@@ -27,14 +27,14 @@ This generalizes: every $(n,1)$-topos arises as the full [[sub-quasi-category|(�
 
 Recall that
 
-* a 1-[[Grothendieck topos]] is precisely a [[accessible functor|accessible]] [[geometric embedding]] into a [[category of presheaves]] $PSh(C)$ on some [[small category]] $C$
+* a 1-[[Grothendieck topos]] is precisely an [[accessible functor|accessible]] [[geometric embedding]] into a [[category of presheaves]] $PSh(C)$ on some [[small category]] $C$
 
   $$
     Sh(C) \stackrel{\overset{lex}{\leftarrow}}{\hookrightarrow} PSh(C)
     \,.
   $$
 
-* a [[(∞,1)-topos]] (of [[∞-stack]]s/[[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]]) is precisely a [[accessible (∞,1)-functor|accessible]] [[reflective (∞,1)-subcategory|geometric embedding]] into a [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ on some small [[(∞,1)-category]] $C$:
+* a [[(∞,1)-topos]] (of [[∞-stack]]s/[[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]]) is precisely an [[accessible (∞,1)-functor|accessible]] [[reflective (∞,1)-subcategory|geometric embedding]] into a [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ on some small [[(∞,1)-category]] $C$:
 
   $$
     Sh_{(\infty,1)}(C)
