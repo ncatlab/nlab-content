@@ -48,9 +48,7 @@ Examples of compactly generated spaces include
 
 * every [[CW-complex]].
 
-## Closure operations
-
-### Kaonization
+## Kaonization
 
 Let $k\Top$ denote the category of $k$-spaces and continuous maps, and $\Top_k$ denote the category of all topological spaces and $k$-continuous maps.  We have inclusions
 $$ k\Top \to \Top \to \Top_k $$
@@ -64,10 +62,8 @@ Moreover, the identity $id: X \to k(X)$ is $k$-continuous, so that the counit be
 
 Since $k\Top \hookrightarrow \Top$ is coreflective, it follows that $k\Top$ is [[complete category|complete]] and [[cocomplete category|cocomplete]].  Its [[colimits]] are constructed as in $Top$, but its [[limits]] are the $k$-ification of limits in $Top$.  This is nontrivial already for [[products]]: the $k$-space product $X\times Y$ is the $k$-ification of the usual [[product topology]].  The $k$-space product is better behaved in many ways; e.g. it enables [[geometric realization]] to preserve products (and all finite limits), and the product of two [[CW complexes]] to be another CW complex.
 
+If one is interested in $k$-spaces which are also [[weakly Hausdorff space|weak Hausdorff]], then there is a further [[reflector]] which must be applied; see [[weakly Hausdorff space]].
 
-### Weak Hausdorffification
-
-(this is a left adjoint...)
 
 ## Properties
 
