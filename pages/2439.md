@@ -172,10 +172,10 @@ $$
   2Line \simeq B^2 U(1) \to B gl_1(KU)
 $$
 
-from [[line 2-bundles]], this does not hit all homotopy groups on the right. But refining to [[supergeometry]] and replacing the left with [[super line 2-bundles]] (see there) we do hit everything:
+from [[line 2-bundles]], this does not hit all homotopy groups on the right. But refining to [[supergeometry]] and replacing the left with [[super line 2-bundles]] (see there) we do hit all the Donovan-Karoubi twists of K-theory
 
 $$
-  s2Line \to bgl_1^\ast(KU)
+  2sLine \to bgl_1^\ast(KU)
   \,.
 $$
 
