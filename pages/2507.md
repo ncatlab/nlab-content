@@ -53,3 +53,6 @@ for instance page 370, part II section II.3.3
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], _[[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]_
 
 
+[[!redirects super Minkowski spacetime]]
+[[!redirects super-Minkowski spacetime]]
+
