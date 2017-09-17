@@ -16,7 +16,7 @@ Tw(C) = el(hom) = * / hom
 \]
 
 
-## Explicit description
+### Explicit description
 
 Unpacking the well-known explicit construction of [[comma object|comma objects]] in $\mathbf{Cat}$ as [[comma category|comma categories]], we get that $Tw(C)$ has
 
@@ -30,10 +30,10 @@ Unpacking the well-known explicit construction of [[comma object|comma objects]]
   B             & \underset{q}{\to}         & D
 \end{matrix}
 \]
-you could view then morphisms from $f$ to $g$ as *factorizations* of $g$ through $f$; this is in fact a good way of getting the arrows directions above right.
+you could view then morphisms from $f$ to $g$ as *factorizations* of $g$ through $f$.
 
 
-## Origin of the name
+### Origin of the name
 
 From the description above, $Tw(C)$ is the same as $Arr(C)$ the [[arrow category]] of $C$, but with the direction of $p$ above in the def of morphism *reversed*, hence the twist. 
 
@@ -53,7 +53,7 @@ and keeps everything at the morphisms level.
 
 ### $tw(C)$ and wedges
 
-One could say that $tw(C)$ *classifies* [[wedge|wedges]], in the sense of for a functor $F \colon C^{op} \times C \to B$ 
+One could say that $tw(C)$ *classifies* [[wedge|wedges]], in the sense that for any functor $F \colon C^{op} \times C \to B$,
 
 * [[extranatural transformation|extranatural transformations]] $ e \stackrel{\bullet}{\to} F $ 
 
@@ -61,7 +61,7 @@ are the same as
 
 * [[natural transformation|natural transformations]] $ e \to F \circ \pi_C $ 
 
-This can be used to give a proof of the reduction of [[end|ends]] to [[conical limit|conical limits]] in the $\mathbf{Set}$-enriched case. 
+This can be used to give a proof of the reduction of [[end|ends]] to [[conical limit|conical limits]] in the $\mathbf{Set}$-enriched case, and is used in the construction of [[ends in a derivator]].
 
 
 ## References
