@@ -31,19 +31,35 @@ Let $\mathcal{C}$ be a category with small [[limits]] and [[colimits]].
 +-- {: .num_defn #FirstNotation}
 ###### Definition
 
-For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and every [[natural transformation]] $\phi : X \to Y$ write 
+For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and every [[natural transformation]] $\phi : X \to Y$ 
 
 * $S^+(s)$ for the [[full subcategory]] of the [[slice category]] $S^+/s$ on the non-invertible morphisms into $s$;
 
 * $S^-(s)$ for the [[full subcategory]] of the [[under category]] $s/S^-$ on the non-invertible morphisms out of $s$;
 
-* $Latch_s(X) := {\lim_\to}_{(r \to s) \in S^+(s)} X(r)$ for the [[colimit]] of $X$ over $S^+(s)$, called the **latching object** of $X$ at $s$;
+* write
 
-* $Match_s(X) := {\lim_\leftarrow}_{(s \to r) \in S^-(s)} X(r)$ for the [[limit]] of $X$ over $S^-(s)$, called the **matching object** of $X$ at $s$.
+  $$Latch_s(X) := {\lim_{\underset{(r \to s) \in S^+(s)}{\to}}} X(r)$$ 
 
-* $X_s \coprod_{Latch_s(X)} Latch_s(Y) \to Y_s$ for the universal morphism induced from the morphism $L_s(X) \to X_s$, called the **relative latching map** of $\phi$ at $s$;
+  for the [[colimit]] of $X$ over $S^+(s)$, called the **latching object** of $X$ at $s$;
 
-* $X_s \to Match_s(X) \prod_{Match_s(Y)} Y_s$ for the dual universal morphism, called the **relative matching map** of $\phi$ at $s$.
+* write
+
+  $$Match_s(X) := {\lim_{\underset{(s \to r) \in S^-(s)}{\leftarrow}}} X(r)$$ 
+ 
+  for the [[limit]] of $X$ over $S^-(s)$, called the **matching object** of $X$ at $s$.
+
+* write
+
+  $$X_s \coprod_{Latch_s(X)} Latch_s(Y) \to Y_s$$ 
+
+  for the universal morphism induced from the morphism $L_s(X) \to X_s$, called the **relative latching map** of $\phi$ at $s$;
+
+* write
+
+  $$X_s \to Match_s(X) \prod_{Match_s(Y)} Y_s$$ 
+
+  for the dual universal morphism, called the **relative matching map** of $\phi$ at $s$.
 
 =--
 
@@ -58,13 +74,17 @@ Equivalently this means that for all $s$ the above objects and morphisms take pl
 
 =--
 
-Choose now once and for all on all $[B Aut(r), \mathcal{C}]$ either the projective or the injective [[model structure on functors]]. We will write $[B Aut(r), \mathcal{C}]_{proj/inj}$ to indicate some fixed choice. 
+Choose now once and for all on all on $[\coprod_{s \in S} B Aut(s), \mathcal{C}]$ either the projective or the injective [[model structure on functors]] (if they exist). We will write $[\coprod_{s \in S} B Aut(s), \mathcal{C}]_{proj/inj}$ to indicate some fixed choice. 
 
 
 +-- {: .num_defn #ReedyModelStructure}
 ###### Definition
 
-Let $S$ be a (Cisinski-Moerdijk)-[[generalized Reedy category]]. And let $\mathcal{C}$ be a [[cofibrantly generated model category]]. Write $[S, \mathcal{C}]$ for the [[category of presheaves]] on $S^{op}$ with values in $\mathcal{C}$.
+Let $S$ be a (Berger-Moerdijk)-[[generalized Reedy category]]. 
+
+And let $\mathcal{C}$ be such that the model structure $[\coprod_{s \in S} B Aut(s), \mathcal{C}]_{proj/inj}$ exists (sufficient for the projective structure is that $\mathcal{C}$ is a [[cofibrantly generated model category]] and sufficient for the injective structure is that it is a [[combinatorial model category]]). 
+
+Write $[S, \mathcal{C}]$ for the [[category of presheaves]] on $S^{op}$ with values in $\mathcal{C}$.
 
 Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
 
@@ -82,7 +102,7 @@ Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
     X_s \to M_s(X) \prod_{M_s(Y)} Y_s
   $$
 
-  is a fibration in $\mathcal{C}$;
+  is a fibration in $[S, \mathcal{C}]_{proj/inj}$;
 
 * a **Reedy weak equivalence** if for each $s \in S$ the morphism
 
@@ -94,10 +114,10 @@ Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
 
 =--
 
-### Global latching objects
+### Degreewise latching and matching objects
  {#GlobalLatchingObjects}
 
-We discuss here an alternative way of speaking about the latching objects, one where all indices at a given degree $n \in \mathbb{N}$ are collected.
+We discuss here an alternative way of speaking about the latching objects, one where all indices at a given _degree_ $n \in \mathbb{N}$ are collected.
 
 Recall from def. \ref{FirstNotation} that for $s \in S$ we write $S^+(s)$
 for the category of non-invertible degree-increasing morphisms into $s$. We introduce the union of these categories over all objects of a fixed degree.
@@ -107,7 +127,7 @@ for the category of non-invertible degree-increasing morphisms into $s$. We intr
 
 For $n \in \mathbb{N}$ write
 
-* $S^+(n) = \coprod_{d(s) = n} S^+(s)$;
+* $S^+(n) = \coprod_{s \in S \atop d(s) = n} S^+(s)$;
 
 * $d_ n : S^+((n)) \to S$ for the restriction of the [[domain opfibration]] to objects that are non-invertible morphisms in $S^+$ with codomain in degree $n$ and to morphisms whose codomain is invertible, i.e. to diagrams of the form
 
@@ -146,20 +166,21 @@ $$
   \,,
 $$
 
-where the vertical morphisms are (non-full) inclusions and the square is a [[pullback]] of an [[opfibration]].  Therefore it satisfies the [[Beck-Chevalley condition]] so that we have a [[natural isomorphism]]
+where the vertical morphisms are (non-full) inclusions and the square is a [[pullback]] (in the 1-category [[Cat]]) of an [[opfibration]].  Therefore it satisfies the [[Beck-Chevalley condition]] (see the discussion there) so that we have a [[natural isomorphism]]
 
 $$
   (cod_n)_! i_n^* \simeq i_n^* (cod_n)_!
-  \,.
+  \,,
 $$
 
+where $(cod_n)_!$ denotes left [[Kan extension]] along $cod_n$.
 
 =--
 
 +-- {: .num_remark #RestrictedCodomainIsOpfibration}
 ###### Remark
 
-The restricted [[codomain fibration|codomain opfibration]] $cod_n : S^+((n)) \to G_n$ is still an [[opfibration]]: it is the [[Grothendieck construction]] of the [[pseudofunctor]]
+The restricted [[codomain fibration|codomain opfibration]] $cod_n : S^+((n)) \to G_n$ is indeed still an [[opfibration]]: it is the [[Grothendieck construction]] of the [[pseudofunctor]]
 
 $$
   S^+(-) : G_n(S) \to Cat
@@ -221,16 +242,18 @@ and the component of the $n$th latching morphism on $s$ is the canonical $Latch_
 ###### Proof
 
 By remark \ref{RestrictedCodomainIsOpfibration} 
-$(cod_n)_!$ is the left Kan extension along an [[opfibration]]. By a standard fact (see [here](http://ncatlab.org/nlab/show/Kan+extension#AlongFibrations) at _[[Kan extension]]_) these are computed at any object by the colimit over the fiber over that object.
+$(cod_n)_!$ is the left [[Kan extension]] along an [[opfibration]]. By a standard fact (see [here](http://ncatlab.org/nlab/show/Kan+extension#AlongFibrations) at _[[Kan extension]]_) these are computed at any object by the colimit over the fiber over that object.
 
 By definition, that fiber is 
 
 $$
+  cod_n^{-1}(s)
+  = 
   \left\{
     \array{
-      a &&\stackrel{deg\;raising}{\to}&& b
+      a &&\stackrel{\in S^+}{\to}&& b
       \\
-      & \searrow && \swarrow  && deg\; raising
+      & \searrow^{\mathrlap{\in S^+}} && \swarrow_{\mathrlap{\in S^+}}  && non\; invertible
       \\
       && s
     }
@@ -240,8 +263,44 @@ $$
 
 This is indeed $S^+(s)$ (by the essential uniqueness of the $S^+\circ S^-$-factorization, this necessarily has the morphisms $a \to b$ in $S^+$, too.)
 
+So 
 
+$$
+  \begin{aligned}
+  ((cod_n)_! dom_n^* X)(s)
+  & \simeq
+  \lim_{\underset{S^+(s)}{\to}} (X \circ dom)
+  \\
+  & \simeq
+  =: Latch_s(X)
+  \end{aligned}
+  \,.
+$$
 =--
+
+An entirely dual discussion gives the degreewise matching objects: we have a diagram of categories
+
+$$
+  \array{
+    S &\stackrel{cod_n}{\leftarrow}& S^-((n)) &\stackrel{dom_n}{\to}& G_n(S)
+    &\stackrel{j_n}{\hookrightarrow}& S
+    \\
+    &&
+    {}^{\mathllap{i_n}}\uparrow && \uparrow^{\mathrlap{i_n}}
+    \\
+    && S^+(n) &\stackrel{dom_n}{\to}& Obj(S)_n
+  }  
+  \,,
+$$
+
+and 
+
+$$
+  Match_n X := (dom_n)_* cod_n^* X
+  \,,
+$$
+
+where $(dom_n)_*$ is the right [[Kan extension]] along $dom_n$.
 
 ### Skeleta and coskeleta
  {#SkeletaAndCoskeleta}
@@ -279,7 +338,7 @@ $$
   [S,\mathcal{C}]
     \stackrel{\overset{(t_n)_!}{\leftarrow}}{\underset{t_n^*}{\to}}
   [S_{\leq n},\mathcal{C}]
-    \stackrel{\overset{t_n^*}{\leftarrow}}{\underset{t_n_*}{\to}}
+    \stackrel{\overset{t_n^*}{\leftarrow}}{\underset{(t_n)_*}{\to}}
   [S,\mathcal{C}]
 $$
 
@@ -288,6 +347,22 @@ are the **$n$-[[skeleton]]** and **$n$-[[coskeleton]]** functors, respectively.
 Define for all $X \in [S, \mathcal{C}]$ the notation $sk_{-1}X$ to denote the [[initial object]] and $cosk_{-1}X$ the [[terminal object]].
 
 =--
+
++-- {: .num_remark }
+###### Remark
+
+Here $(t_n)_!$ and $(t_n)_*$ are indeed [[full and faithful functors]], as indicated.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $t_{n-1}$ is a [[full and faithful functor]], so is its left Kan extension
+(see [here](Kan+extension#LeftKanOnRepresentables) at _[[Kan extension]]_). Moreover in an [[adjoint triple]] the leftmost functor is full and faithful if and only if the rightmost one is.
+
+=--
+
 
 The $((t_n)_! \dashv t_n^*)$-[[unit of an adjunction|counit]] and the $(t_n^* \dashv (t_n)_*)$-unit induces [[natural transformations]]
 
@@ -303,14 +378,15 @@ $$
 +-- {: .num_lemma #LatchingIsSkeleton}
 ###### Lemma
 
-The degree-$n$th latching object, def. \ref{GlobalLatching}, is isomorphic to the $(n-1)$-skeleton, and dually, the degree-$n$ matching object is isomorphic to the $(n-1)$-coskeleton. Under these identifications the canonical morphisms on both sides match
+For all $n \in \mathbb{N}$, the $n$th latching object, def. \ref{GlobalLatching}, is isomorphic to the $(n-1)$-skeleton in degree $n$, and dually, the degree-$n$ matching object is isomorphic to the $(n-1)$-coskeleton in degree $n$. Under these identifications the canonical morphisms on both sides match
 
 $$
-  Latch_n(X) \simeq sk_{n-1}(X) 
+  Latch_n(X) \simeq (sk_{n-1}(X))_n
 $$
 
 $$
-  Match_n(X) \simeq cosk_{n-1}(X)
+  Match_n(X) \simeq (cosk_{n-1}(X))_n
+  \,.
 $$
 
 
@@ -318,10 +394,58 @@ $$
 
 This is ([Ber-Moer, lemma 6.2](#BergerMoerdijk)).
 
++-- {: .proof}
+###### Proof
+
+Observe that for any $s \in S$ of degree $n$, the canonical inclusion
+
+$$
+  i_s : S^+(s) \hookrightarrow t_{n-1}/ s
+$$
+
+into the [[comma category]] is a [[cofinal functor]]: 
+
+* for $d \to s$ any object in $t_{n-1}/s$ it factors essentially uniquely as $d \stackrel{\in S^-}{\to} \stackrel{\in S^+}{\to} s$, and hence the [[comma category ]] $d/i_s$ is non-empty;
+
+* similarly, since every morphism factors essentially uniquely in $S$, there is a zig-zag between any two objects in $d / i_s$ constructed from the isomorphisms that exhibit the essentially unique factorization.
+
+With this the statement follows from the fact that retsriction along cofinal functors preserves colimits and the pointwise description of left [[Kan extension]] by [[colimits]] over comma categories:
+
+$$
+  \begin{aligned}
+    sk_{n-1}(X)_n(s)
+    & :=
+    (j_n^* (t_{n-1})_! t_{n-1}^* X )(s)
+    \\
+    & \simeq 
+    ((t_{n-1})_! t_{n-1}^* X )(s)
+    \\
+    & \simeq
+    \lim_{\underset{t_{n-1}/ s }{\to}} X \circ t_{n-1}
+    \\
+    & \simeq 
+    \lim_{\underset{S^+(s)}{\to}} X \circ dom_n
+    \\
+    & \simeq 
+    Latch_n X
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
 +-- {: .num_lemma #coSkeletonTower}
 ###### Lemma
 
-There are towers of [[natural transformations]]
+The tower of inclusions
+
+$$
+  S_{0} \hookrightarrow S_{\leq } \hookrightarrow \cdots \hookrightarrow S_{\leq n-1}
+  \stackrel{q_{n-1}}{\hookrightarrow} S_{\leq n} \hookrightarrow \cdots
+$$
+
+induces towers of [[natural transformations]]
 
 $$
   \emptyset \to sk_0 X \to sk_1 X \to sk_2 X \to \cdots \to X
@@ -344,10 +468,48 @@ This is ([Ber-Moer, lemma 6.3](#BergerMoerdijk)).
 +-- {: .proof}
 ###### Proof
 
-The morphisms in the tower come from the [[unit of an adjunction|adjunction units and counits]]. To see that for instance the first diagram is colimiting, 
-consider a cocone $\{sk_n X \to Y\}$. By adjointness this is equivalently
-a system of morphisms $\{X_{\leq n} \to Y_{\leq n}\}$. Hence there is a unique morphism
-$X \to Y$ that factors the original cocone.
+The morphisms in the tower come from the [[unit of an adjunction|adjunction units and counits]]: the morphism 
+
+$$
+  sk_n X \to sk_{n+1} X
+$$
+
+is
+
+$$
+   (t_{n+1})_! (q_n)_! q_n^* t_{n+1}^*X \to  (t_{n+1})_! t_{n+1}^* X
+  \,.
+$$
+
+Therefore a [[cocone]] under this morphism
+
+$$
+  \array{
+    sk_{n-1} X &&\to& sk_n X
+    \\
+    & \searrow && \swarrow
+    \\
+    && Y
+  }
+$$
+
+is equivalently a diagram
+
+$$
+  \array{
+    (q_{n})_! q_{n}^* t_{n+1} X &&\to& t_{n+1}^* X
+    \\
+    & \searrow && \swarrow
+    \\
+    && t_{n+1}^* Y
+  }
+  \,,
+$$
+
+which in turn is equivalently just a morphism $t_n^* X \to t_n^* Y$. So 
+a cocone under the whole tower is an object $Y$ equipped for each $n$ with 
+a morphism $t_n^* X \to t_n^* Y$. Clearly $X$ itself is the [[initial object|inital]]
+such object.
 
 =--
 
@@ -362,7 +524,7 @@ Given
 
 * and an object $X_n \in [G_n(S), \mathcal{C}]$;
 
-the choice $X_{\leq n} \in [S_{\leq (n-1)}, \mathcal{C}]$
+the choices of $X_{\leq n} \in [S_{\leq (n-1)}, \mathcal{C}]$
 such that 
 
 * $X_{\leq (n-1)} = t^*_{n-1} X_{\leq n}$ 
@@ -448,7 +610,7 @@ is a cofibration in $[G_n(S), \mathcal{C}]_{proj/inj}$.
 +-- {: .proof}
 ###### Proof
 
-The coproduct in the presheaf category $[G_n(S), \mathcal{C}]$ is computed objectwise, so that the component of the $n$th relative latching morphism at $s \in S$ is the relative latching morphism at $s$, by prop. \ref{GlobalLatchingContainsLocalLatchings}.
+The pushout in the presheaf category $[G_n(S), \mathcal{C}]$ is computed objectwise, so that the component of the $n$th relative latching morphism at $s \in S$ is the relative latching morphism at $s$, by prop. \ref{GlobalLatchingContainsLocalLatchings}.
 
 The [[groupoid]] $G_n(S)$ is equivalent to the disjoint union $\coprod_{[r] \in \pi_0 G_n(S)} B Aut_S(s)$ of the automorphism groupoids of one representative in each isomorphism class. A morphism in $[G_n(S), \mathcal{C}]_{proj/inj}$ is a cofibration precisely if its restriction to all of the $[B Aut_{\mathcal{C}}(s), \mathcal{C}]_{proj/inj}$ is. 
 
@@ -458,12 +620,11 @@ The [[groupoid]] $G_n(S)$ is equivalent to the disjoint union $\coprod_{[r] \in 
 +-- {: .num_lemma #LiftingLemma}
 ###### Lemma
 
-In the generalized Reedy model structure, def. \ref{ReedyModelStructure}, 
+In the generalized Reedy structure, def. \ref{ReedyModelStructure}, the following holds.
 
-* Acyclic Reedy cofibrations $f$ such that for all $n \in \mathbb{N}$ the morphism $Latch_n(f)$ is an objectwise weak equivalence have the [[left lifting property]] against fibrations;
+* Acyclic Reedy cofibrations $f$ such that for all $n \in \mathbb{N}$ the morphism $Latch_n(f)$ is an objectwise acyclic cofibration have the [[left lifting property]] against fibrations;
 
-* Acyclic Reedy cofibrations have the [[left lifting property]] against Reedy fibrations $f$ with the special property that for all $n \in \mathbb{N}$ the morphism $Match_n(f)$ is an objectwise weak equivalence.
-
+* Reedy cofibration have the left lifting property against acyclic Reedy fibrations $g$ with the special property that all $Latch_n(g)$ are objectwise acyclic fibrations.
 
 =--
 
@@ -472,7 +633,7 @@ This is ([Ber-Moer, lemma 5.2, lemma 5.4](#BergerMoerdijk)).
 +-- {: .proof}
 ###### Proof
 
-We show the first clause. The second is dual. So let $f : X \to Y$ be an acyclic cofibration and let $g : Y \to X$ be a fibration.
+We show the first clause. The second is dual. So let $f : X \to Y$ be an acyclic cofibration with the above extra property, and let $g : Y \to X$ be a fibration.
 We will exhibit a lift in any commuting diagram
 
 $$
@@ -485,7 +646,7 @@ $$
   }
 $$
 
-by stepwise constructing lifts in in the skeletal filtration, lemma \ref{coSkeletonTower}.
+by stepwise constructing lifts in the skeletal filtration, lemma \ref{coSkeletonTower}.
 
 At $n = 0$, observe that since $L_0(X) = \emptyset$ for all $X$, the fact that 
 
@@ -636,7 +797,7 @@ is
 By lemma \ref{SkeletalExtension}, this is precisely the data that characterizes an extension of $\gamma_{\leq (n-1)}$ to $\gamma_{\leq n}$.
 
 
-By assumption, the left vertical morphism in (eq:MainLiftingDiagram) is a cofibration in $[G_n, \mathcal{C}]_{proj/inj}$, and the right vertical morphism is a fibration there. Therefore to get the lift and hence complete the induction step, it is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{E}$ over each $s \in S$.
+By assumption, the left vertical morphism in (eq:MainLiftingDiagram) is a cofibration in $[G_n, \mathcal{C}]_{proj/inj}$, and the right vertical morphism is a fibration there. Therefore to get the lift and hence complete the induction step, it is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{C}$ over each $s \in S$.
 
 Also by assumption we have that $L_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
 (A_s \coprod_{L_n(A)_s} L_n(B)_s)$. The morphism $v_n(s)$ finally sits in the diagram
@@ -678,7 +839,7 @@ $$
 is a pullback (in the 1-category [[Cat]]). Then for each $X \in [S, \mathcal{C}]$, there is a [[natural isomorphism]]
 
 $$
-  L_k(\phi^*(X)) \to \phi_k^*(L_k X)
+  Latch_k(\phi^*(X)) \stackrel{\simeq}{\to} \phi_k^*(Latch_k X)
   \,,
 $$
 
@@ -714,7 +875,7 @@ $$
   }
 $$ 
 
-whose rows define, by prop. \ref{DiagramOfRestrictions}, the latching objects by pull-push. Since the pullback square, being the pullback of an [[opfibration]] (the [[codomain opfibration]]) satisfies the [[Beck-Chevalley condition]] (by the fact discussed [here](http://ncatlab.org/nlab/show/Beck-Chevalley+condition#PullbacksOfOpfibrations)), we find the intertwining isomorphism as follows:
+whose rows define, by prop. \ref{DiagramOfRestrictions}, the latching objects by pull-push. Since the pullback square, being the pullback of an [[opfibration]] (the [[codomain opfibration]]), satisfies the [[Beck-Chevalley condition]] (by the fact discussed [here](http://ncatlab.org/nlab/show/Beck-Chevalley+condition#PullbacksOfOpfibrations)), we find the intertwining isomorphism as follows:
 
 $$
   \begin{aligned}
@@ -744,13 +905,13 @@ $$
  \simeq
   \left\{
   \array{  
-    t &\stackrel{deg \; raising}{\to}& t'
+    t &\stackrel{\in S^+}{\to}& t'
     \\
-    \downarrow && \downarrow && deg\; raising
+    \downarrow^{\mathrlap{\in S^+}} && \downarrow^{\mathrlap{\in S^+}} && non\; invertible
     \\
     s &\stackrel{\simeq}{\to}& s' && deg = k
     \\
-    \downarrow && \downarrow && deg \; raising
+    \downarrow^{\mathrlap{\in S^+}} && \downarrow^{\mathrlap{\in S^+}} && non \; invertible
     \\
     r &\stackrel{id}{\to}& r  && deg = n
   }
@@ -785,22 +946,22 @@ This is ([Ber-Moer, lemma 5.3](#BergerMoerdijk)).
 We show this by induction over $n$, using the skeletal filtration def. \ref{SkeletaByAdjunction}. For $n = 0$ we have for all $X$ that
 $L_n X = sk_{-1} X = \emptyset$, and hence the condition is trivially satisfied. 
 
-So assume now that the statement has been shown for all $(k \lt n)$, then we need to show that $i_n^* L_n f$ is an acyclic cofibration in $[Obj(S)_n, \mathcal{C}]$, hence that every square of the form
+So assume now that the statement has been shown for all $(k \lt n)$, then we need to show that $i_n^* Latch_n f$ is an acyclic cofibration in $[Obj(S)_n, \mathcal{C}]$, hence that every square of the form
 
 $$
   \array{   
-    i_n^* L_n A &\to& Y
+    i_n^* Latch_n A &\to& Y
     \\
-    \downarrow^{\mathrlap{i_n^* L_n f}} && \downarrow^{g}
+    \downarrow^{\mathrlap{i_n^* Latch_n f}} && \downarrow^{g}
     \\
-    i_n^* L_n B &\to& X
+    i_n^* Latch_n B &\to& X
   }
 $$
 
 with $g$ a fibration in $[Obj(S)_n, \mathcal{C}]_{proj/inh}$ (hence over every object of degree $n$) has a lift. Since by lemma \ref{DiagramOfRestrictions} we have
 
 $$
-  i^*_n L_n = i_n^* cod_! dom_n^* \simeq cod_! i_n^* dom_n^*
+  i^*_n Latch_n := i_n^* cod_! dom_n^* \simeq cod_! i_n^* dom_n^*
 $$
 
 such a filler is equivalently a filler in 
@@ -845,12 +1006,12 @@ $$
   \,.
 $$
 
-Since $(d_n i_n)_k$ is a [[faithful functor]] between groupoids, $(d_n i_n)_k^*$ preserves cofibrations, and so the above relative latching morphism is a cofibration, hence $(dom_n i_n)^*(f)$ is a Reedy cofibration.
-Similarly, since $L_k(f)$ is an acyclic cofibration by induction hypothesis, so is $L_k((d_n i_n)_k^* f)$. So finally the assumption of lemma \ref{LiftingLemma} are checked for (eq:SomeLiftingDiagram) and so we do have a lift.
+Since $(dom_n i_n)_k$ is a [[faithful functor]] between groupoids, $(dom_n i_n)_k^*$ preserves cofibrations in the projective structure (and trivially does so always in the injective structure), and so the above relative latching morphism is a cofibration, hence $(dom_n i_n)^*(f)$ is a Reedy cofibration.
+Similarly, since $Latch_k(f)$ is an acyclic cofibration by induction hypothesis, so is $Latch_k((dom_n i_n)_k^* f)$. This way the assumption of lemma \ref{LiftingLemma} are checked for (eq:SomeLiftingDiagram) and so we do have a lift.
 
 =--
 
-Now we can finally conclude:
+We can finally conclude:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -922,7 +1083,7 @@ If now $f$ is an acyclic cofibration, then by lemma \ref{ExtraPropertyOfAcyclicC
 
 Conversely, if all $v_n$ here are weak equivalences, then an argument similar to lemma \ref{ExtraPropertyOfAcyclicCofibrations} shows that all $u_n$ are weak equivalences. (...)
 
-The argument for fibrations is precisely dual to this.
+The argument for fibrations is dual to this.
 
 =--
 
@@ -948,7 +1109,7 @@ $$
   \,.
 $$
 
-Now assume for some $n \in \mathcal{N}$ that a factorization of 
+Now assume for some $n \in \mathbb{N}$ that a factorization of 
 
 $$
   f_{\leq (n-1)}
