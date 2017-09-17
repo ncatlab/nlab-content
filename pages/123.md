@@ -155,7 +155,7 @@ $;
   }  
 $.
 
-This reproducces the external definition of functors above for [[small categories]], which are categories [[internalization|internal to]] [[Set]]
+This reproduces the external definition of functors above for [[small categories]], which are categories [[internalization|internal to]] [[Set]]
 
 In many cases, this notion is too restrictive, and we should use internal [[anafunctors]] instead.
 
