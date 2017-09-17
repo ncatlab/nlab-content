@@ -1,1 +1,5 @@
-category: spam
+__Sage__ is a particular free licence _mathematics_ software. It is interoperable with singular which comes in a standard package. It uses a version of _python_ interface.
+
+* [sagemath.org](http://www.sagemath.org)
+* sage notebook: [sagenb.org](http://www.sagenb.org)
+
