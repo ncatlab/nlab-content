@@ -1,3 +1,3 @@
-Source:Germany and Belgium are the only European commercial property markets to record positive sentiment in both the occupier and investment commercial property markets during the second quarter of 2013.
- <a href="http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=borough-c-35_42/" >Borough</a>
-[url=http://www.cyclesouthindia.com/Coachhandbagcharming.asp?charming=borough-c-35_42/]Borough[/url]
+In summer, when Lake Okeechobee became overwhelmed by major rains, the Army Corps of Engineers, fearing a tear up of the dike, opted instead to release billions of gallons of polluted water into the surrounding estuaries, which included the St Lucie River and Estuary as well as the Indian River Lagoon. It was not long afterwards that the bandaid solution to save another will ultimately kill another. The water deluge from Lake Okeechobee, which carried contaminates from area farms and septic tanks, spurred a burst of dangerous algae, a prelude of the perfect storm of environmental dangers.
+ <a href="http://www.topazg.com/Coachhandbagdiscount.asp?discount=herm232s-bolide-37cm-c-93_109.html" >Bolide 37CM</a>
+[url=http://www.topazg.com/Coachhandbagdiscount.asp?discount=herm232s-bolide-37cm-c-93_109.html]Bolide 37CM[/url]
