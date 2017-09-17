@@ -1,4 +1,22 @@
-An isometry is a [[function]] that preserves a metric, either in the sense of a [[metric space]] or in the sense of a [[Riemannian manifold]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _isometry_ is a [[function]] that preserves a metric, either in the sense of a [[metric space]] or in the sense of a [[Riemannian manifold]].
 
 
 ## Metric spaces
@@ -17,5 +35,8 @@ An __isometry__ $f\colon (X,g) \to (X',g')$ between Riemannian manifolds is a mo
 
 Global isometries are the [[isomorphisms]] of metric spaces or Riemannian manifolds.  An isometry is __global__ if it is a [[bijection]] whose inverse is also an isometry.  Bewteen metric spaces, isometries are necessarily [[injections]] and bijective isometries necessarily have isometries as inverses, so global isometries between metric spaces are also called _[[surjection|surjective]] isometries_; this does not work for Riemannian manifolds (where the inverse of an isometry need not be a morphism of manifolds), nor does it work for [[pseudometric spaces]] (where an isometry need not be injective).
 
+## Infinitesimal isometries
+
+see [[Killing vector field]]
 
 [[!redirects isometries]]
