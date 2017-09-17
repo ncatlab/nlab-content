@@ -43,7 +43,7 @@ Another class of examples: internal homs $\hom_{sLat}(X, X)$ in the closed monoi
 Quantales, as monoids in the symmetric monoidal category $sLat$, can be tensored to produce new quantales. 
 
 
-##$*$-quantale##
+## $*$-quantales
 
 A $*$-quantale is a quantale $Q$ equipped with an additional structure of an involution 
 
@@ -78,3 +78,11 @@ There is a variety of notions of morphism of quantale, just as there is a variet
 * An even stronger notion is where the morphisms also strongly preserve the closed structure, i.e., the internal homs or residuations. (An example is to be developed for [[building]]s.) 
 
 * There are corresponding notions of morphisms of $*$-quantales, where in each case morphisms strongly respect the $*$ operations. For instance, the notion of $*$-enriched category over a $*$-monoidal poset $M$ can be equivalently recast as a lax morphism between $*$-quantales, $2^d: 2^M \to 2^{X \times X}.$
+
+
+[[!redirects quantale]]
+[[!redirects quantales]]
+[[!redirects *-quantale]]
+[[!redirects *-quantales]]
+[[!redirects star-quantale]]
+[[!redirects star-quantales]]
