@@ -48,3 +48,5 @@ Papers about the application of [[microlocal analysis]]:
 * Alexander Strohmaier, Rainer Verch, Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0202003)).
 
 [[!redirects AQFT on curved spacetime]]
+
+[[!redirects quantum field theory on curved spacetime]]
