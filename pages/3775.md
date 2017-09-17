@@ -27,8 +27,6 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Paul Bressler]]
 
-* [[Jean-Luc Brylinski]]
-
 * [[Pierre Cartier]]
 
 * [[Guido Castelnuovo]]
@@ -65,6 +63,8 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Heisuke Hironaka]]
 
+* [[André Hirschowitz]]
+
 * [[Friedrich Hirzebruch]]
 
 * [[Nigel Hitchin]]
@@ -84,6 +84,10 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 * [[Kazuya Kato]] [wikipedia](http://en.wikipedia.org/wiki/Kazuya_Kato)
 
 * [[Ludmil Katzarkov]]
+
+* [[Kiran Kedlaya]]
+
+* [[Alexander Kuznetsov]]
 
 * [[Felix Klein]]
 
@@ -147,6 +151,10 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Tony Pantev]]
 
+* [[Alexander Polishchuk]]
+
+* [[Michael Rapoport]]
+
 * [[Bernhard Riemann]] [french wikipedia](http://fr.wikipedia.org/wiki/Bernhard_Riemann)
 
 * [[Alexander Rosenberg]]
@@ -175,7 +183,7 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Bertrand Toen]]
 
-* [[Richard Thomason]]
+* [[Robert Thomason]]
 
 * [[Boris Tsygan]]
 
