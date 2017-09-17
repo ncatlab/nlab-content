@@ -36,13 +36,13 @@ $$
 such that there are [[natural isomorphism]]s 
 
 $$
-  F \circ G \simeq Id_D
+  F \circ G \cong Id_D
 $$
 
 and 
 
 $$
-  G \circ F \simeq Id_C
+  G \circ F \cong Id_C
   \,.
 $$
 =--
