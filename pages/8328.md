@@ -24,7 +24,7 @@
 
 ## References
 
-* [[Hegel]], _[[Science of Logic]]_
+* [[Hegel]], _[[Science of Logic]]_, Volume One: _The Objective Logic_, Book One, _The Doctrine of Being_, Chapter 1 _Being_
 
 * [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
 
