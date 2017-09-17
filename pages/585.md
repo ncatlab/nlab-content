@@ -15,7 +15,7 @@
 
 [[Todd Trimble]]'s definition of weak $n$-[[n-category|category]] is an example of a notion of [[weak omega-category]] which is based on using an [[operad]] induced by all the possible compositions of an [[interval object]] with itself for describing weak composition of 1-morphisms. The higher cells and their composition are then obtained iteratively.
 
-Trimble originally called these *flabby* $n$-categories, which was intended to distinguish them from "weak" $n$-categories (since at the time he wasn't convinced that they were truly weak enough, owing to the fact that we use strict maps of algebras along the way), and also to recall the word "flab" as used by Frank Adams in his Infinite Loop Spaces book (since there is rather a lot of topological flab in the definition).  
+Trimble originally called these *flabby* $n$-categories, which was intended to distinguish them from "weak" $n$-categories (since at the time he wasn't convinced that they were truly weak enough, owing to the fact that we use strict maps of algebras along the way), and also to recall the word "flab" as used by [[Frank Adams]] in his Infinite Loop Spaces book (since there is rather a lot of topological flab in the definition).  
 
 ## Basic idea
 
