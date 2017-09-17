@@ -10,10 +10,12 @@
 =--
 
 # Paradoxes
+*table of contents
+{:toc}
 
 ## Idea
 
-A _paradox_ is an example of reasoning that seems perfectly valid but which results in a [[contradiction]] or [[inconsistency]]. For example:
+A _paradox_ is an example of reasoning that seems perfectly valid on first sight, but which results in a [[contradiction]] or [[inconsistency]]. For example:
 
 > The following statement is false.
 
