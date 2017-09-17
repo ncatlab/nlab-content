@@ -39,6 +39,19 @@ Local gauge groups are are visible in the [[Lagrangian mechanics|Lagrangian]] ap
 
 * Wikipedia: [gauge group](http://en.wikipedia.org/wiki/Gauge_group)
 
+### Global gauge group
+
+Chapter IV of 
+
+* [[Rudolf Haag]], _[[Local Quantum Physics]]_
+
+### Local gauge group
+
 
 [[!redirects gauge group]]
 [[!redirects gauge groups]]
+
+[[!redirects global gauge group]]
+[[!redirects global local group]]
+[[!redirects global gauge groups]]
+[[!redirects global local groups]]
