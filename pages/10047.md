@@ -1,0 +1,45 @@
+# Continuous categories
+
+* table of contents
+{: toc}
+
+## Idea
+
+A continuous category is a [[categorification]] of the notion of [[continuous poset]].
+
+## Definition
+
+Let $C$ be a [[category]] and $Ind(C)$ its category of [[ind-objects]].  We assume that $C$ has [[filtered colimits]], which is equivalently to say that the restricted [[Yoneda embedding]] $\hat{(-)} : C\to Ind(C)$ has a left adjoint $\colim$.
+
++-- {: .un_defn}
+###### Definition
+A category $C$ with filtered colimits is a **continuous category** if $\colim: Ind(C) \to C$ has a left adjoint.
+=--
+
+If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Thus, a poset is a continuous category exactly when it is a [[continuous poset]].
+
+## Examples
+
+* Any [[locally finitely presentable category]] is a continuous category.
+
+* A [[Grothendieck topos]] is a continuous category if and only if it is an [[exponentiable object]] in the 2-category of toposes.
+
+  * If $X$ is a [[stably locally compact locale]] (or more generally a [[metastably locally compact locale]]), then $Sh(X)$ is continuous and hence exponentiable.  It does *not* suffice for $X$ to be locally compact (i.e. for its [[frame]] $O(X)$ of opens to be a continuous poset).
+
+## Wavy arrows
+
+If $C$ is continuous, with $L:C\to Ind(C)$ the left adjoint of $\colim$, and $x,y\in C$, we define a **wavy arrow** $x\rightsquigarrow y$ to be a morphism $\hat{x} \to L(y)$ in $Ind(C)$.  This is a categorification of the [[way-below relation]] on a continuous poset: when $C$ is a poset we have a wavy arrow $x\rightsquigarrow y$ just when $x\ll y$.
+
+Since $\colim \hat{x} = x$ and $\colim L(y)=y$, the functor $\colim$ assigns to every wavy arrow a "straight" arrow $x\to y$ in $C$.  Moreover, wavy arrows can be composed: the composite of $f:\hat{x} \to L(y)$ and $g:\hat{y} \to L(z)$ is the composite
+$$ \hat{x} \xrightarrow{f} L(y) \xrightarrow{i} \hat{y} \xrightarrow{g} L(z) $$
+where $i$ is the [[adjunct]] of the identity $y = \colim \hat{y}$ (or of the identity $\colim L(y) = y$).
+
+Thus, we have a category whose objects are those of $C$ and whose morphism are wavy arrows, and $\colim$ defines a bijective-on-objects functor from this category to $C$ itself (which is neither full nor faithful).  In this way, every continuous category can be regarded as enriched over $Set^{\to}$: a structure similar to an [[M-category]].  Note, though, that the map between the two kinds of arrows goes the other way: in an M-category we have an inclusion of tight morphisms (usually written as straight arrows) into loose ones (sometimes written as wavy arrows), while here we have a forgetful map from wavy arrows to straight ones.
+
+## References
+
+* [[Peter Johnstone]] and [[Andre Joyal]], *Continuous categories and exponentiable toposes*, JPAA 25 (1982)
+
+[[!redirects continuous categories]]
+[[!redirects wavy arrow]]
+[[!redirects wavy arrows]]
