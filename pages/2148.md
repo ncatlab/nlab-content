@@ -54,7 +54,7 @@ It is useful to show that  the work of Reidemeister was extended in another way 
 dim $X \leq n$ and $\pi_i Y = 0$ for $2\leq i \leq  n - 1$, the
 homotopy classification of maps $X \to  Y$ can be reduced to a
 purely algebraic problem of classifying, up to an appropriate
-notion of homotopy, the $\p1$-equivariant chain homomorphisms $C_*
+notion of homotopy, the $\pi_1$-equivariant chain homomorphisms $C_*
 \widetilde{X} \to  C_* \widetilde{Y}$ between the cellular chain complexes of the
 universal  covers. The classification of homotopy equivalences $Y
 \simeq Y$ can similarly be reduced to a purely algebraic problem.
