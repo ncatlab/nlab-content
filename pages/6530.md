@@ -1,3 +1,4 @@
+[[!redirects opinions on development of mathematics]]
 ## Idea
 
 This is not part of philosophy, but the opinions on what is good mathematics, how mathematics could develop better, and how it should be stimulated to develop, as well as overviews of the current state of mathematics and its important points is important part of reflection, but also of practical action of a mathematician.
