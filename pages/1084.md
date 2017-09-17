@@ -1067,7 +1067,7 @@ $$
   \begin{aligned}
     h_{n-1}\partial^{cone(f)}(x_{n-1}, \hat z_n)
     &= 
-    h_{n-1}( \partial^X, x_{n-1} \partial^Y \hat z_n + x_{n-1}  )
+    h_{n-1}( \partial^X x_{n-1}, \partial^Y \hat z_n + x_{n-1}  )
     \\
     & = p_{n-1}( \partial^Y \hat z_n + x_{n-1})
     \\
@@ -1111,9 +1111,9 @@ $$
 
 and so the condition is that $x_{n-1} \coloneqq \partial^Y \hat z_n$ (which implies $\partial^X x_{n-1} = \partial^X \partial^Y \hat z_n = \partial^Y \partial^Y \hat z_n = 0$ due to the fact that $f_n$ is assumed to be an inclusion, hence that $\partial^X$ is the restriction of $\partial^Y$ to elements in $X_n$).
 
-This condition clearly has a unique solution for every lift $\hat z_n$ and a lift $\hat z_n$ always exists since $p_n : Y_n \to Z_n$ is surjective, by assumoption that we have a [[short exact sequence]] of chain complexes. This shows that $H_n(h_\bullet)$ is surjective.
+This condition clearly has a unique solution for every lift $\hat z_n$ and a lift $\hat z_n$ always exists since $p_n : Y_n \to Z_n$ is surjective, by assumption that we have a [[short exact sequence]] of chain complexes. This shows that $H_n(h_\bullet)$ is surjective.
 
-To see that it is also injective we need to show that for any other lift $\tilde z_n$ the cycles $(\partial^Y \hat z_n, z_n)$ and $(\partial^Y \tilde z_n, z_n)$ are homologous in $cone(f)_\bullet$. Again by prop. \ref{ComponentsOfMappingConeInChainComplexes} this means that we need to find $(x_{n}, y_{n+1}) \in X_{n-1} \oplus Y_n$ such that
+To see that it is also injective we need to show that for any other lift $\tilde z_n$ the cycles $(\partial^Y \hat z_n, \hat z_n)$ and $(\partial^Y \tilde z_n, \tilde z_n)$ are homologous in $cone(f)_\bullet$. Again by prop. \ref{ComponentsOfMappingConeInChainComplexes} this means that we need to find $(x_{n}, y_{n+1}) \in X_{n-1} \oplus Y_n$ such that
 
 $$
   \begin{aligned}
