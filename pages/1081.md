@@ -129,6 +129,12 @@ $$
 
 For more see [[generalized homology]].
 
+## Related concepts
+
+* [[generalized homology]]
+
+* [[factorization homology]]
+
 [[!redirects homology group]]
 [[!redirects homology groups]]
 
