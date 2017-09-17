@@ -105,7 +105,7 @@ The following definition looks at a differential refinement of this situation.
 For $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ a [[characteristic class|characteristic map]]
 in $\mathbf{H}$ and $\hat {\mathbf{c}} : \mathbf{B}G_{\mathrm{conn}}
   \to \mathbf{B}^n U(1)_{\mathrm{conn}}$ its differential refinement,
-sending [[connections on ∞-bundles]] to [[circle n-bundles with connection]] (see [[∞-Chern-Weil homomorphism]]).
+sending [[connections on ∞-bundles]] to [[circle n-bundles with connection]] (see [[∞-Chern-Weil homomorphism]], we may think of this also as an [[extended Lagrangian]] for a [[higher gauge theory]]).
 
 We write $\hat {\mathbf{c}}\mathrm{Struc}_{\mathrm{tw}}(X)$ for the 
   corresponding [[twisted cohomology]], 
@@ -175,9 +175,24 @@ and expanded on in
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_
  {#FSS}
 
+An exposition is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ 
+
+Lecture notes include
+
+* [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, Lectures at the ESI-institute (June 2012)
+
 A general account is in section 4.2 of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+In 
+
+* [[Daniel Freed]], [[Constantin Teleman]], _Relative quantum field theory_ ([arXiv:1212.1692](http://arxiv.org/abs/1212.1692))
+ {#FreedTeleman}
+
+it is proposed to call such twisted structures "relative fields". 
 
 
 [[!redirects twisted differential c-structure]]
