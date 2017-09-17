@@ -46,5 +46,7 @@ from the [[Grothendieck topos|sheaf topos]] to the [[topos]] [[Set]].
 
 A locally constant sheaf / $\infty$-stack is also called a [[local system]].
 
+See also at _[[constant presheaf]]_.
+
 category: sheaf theory
 [[!redirects constant sheaves]]
