@@ -85,11 +85,15 @@ Abstract bicategories of partial maps, parallel to [[bicategory of relations|bic
 {#Carb} 
 
 
-
-
 [[!redirects partial function]]
 [[!redirects partial functions]]
 [[!redirects partially defined function]]
 [[!redirects partially defined functions]]
 [[!redirects partially-defined function]]
 [[!redirects partially-defined functions]]
+
+[[!redirects partial map]]
+[[!redirects partial maps]]
+
+[[!redirects partial morphism]]
+[[!redirects partial morphisms]]
