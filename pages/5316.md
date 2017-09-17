@@ -353,6 +353,13 @@ $$
 
 ## Properties
 
+### Finite covers
+
+The [[moduli space]] $\mathcal{M}_{ell}[n]$ of [[elliptic curves with level-n structure]] (for some $n \in \mathbb{N}$) provides a finite [[covering]] of $\mathcal{M}_{ell}$ (similarly for the compactifications).
+
+(Over the [[complex numbers]] this is the _[[modular curve]]_).
+
+
 ### Cohomology
 
 +-- {: .num_prop}
@@ -416,6 +423,8 @@ This is a special case of the result in ([Zagier-Harer 86](#ZagierHarer86)) disc
 * [[moduli stack of tori]]
 
 * [[moduli stack of formal groups]]
+
+[[!include moduli stack of curves -- table]]
 
 ## References
 
