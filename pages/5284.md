@@ -41,6 +41,8 @@ If $X$ is a [[topological space]], the **free loop space** $L X$ of $X$ is defin
   * [[delooping]]
   * [[loop space]], **free loop space**, [[derived loop space]]
 
+* [[caloron correspondence]]
+
 * [[suspension object]]
   * [[suspension]]
 
