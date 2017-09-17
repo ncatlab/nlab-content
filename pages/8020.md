@@ -23,7 +23,7 @@ We can now give an *abstract* definition of the notion of *concrete* group:  An 
 
 ### Categories
 
-...
+... [[concrete category]] ...
 
 
 ### Boolean algebras
@@ -36,7 +36,7 @@ We can now give an *abstract* definition of the notion of *concrete* group:  An 
 ...
 
 
-### Banach and Hilbert spaces
+### Hilbert spaces
 
 ...
 
