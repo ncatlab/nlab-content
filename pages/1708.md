@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
@@ -10,15 +14,8 @@
 =--
 =--
 
-* [[group]]
 
-* [[2-group]]
 
-* **$n$-group**
-
-* [[∞-group]]
-
-***
 
 #Contents#
 * table of contents
@@ -49,4 +46,4 @@ See also
 
 * [[∞-group]]
 
-[[!redirects n-groups]
+[[!redirects n-groups]]
