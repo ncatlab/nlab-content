@@ -45,7 +45,7 @@ The object $A$ is __finitely presented__ if it is the [[coequalizer]] of a [[par
 
 * A set $X$ is a finitely generated object in Set iff it is [[finite set|(Kuratowski-)finite]]. For this to hold constructively, [[filtered categories]] (appearing in the definition of _[[filtered colimit]]_) have to be understood as categories admitting cocones of every _Bishop-finite_ diagram.
 
-*  For $R$ a [[ring]], an $R$-[[module]] $N$ is finitely generated if it is a quotient of a [[free module]] with a finite [[basis of a free module|basis]].
+*  For $R$ a [[ring]], an $R$-[[module]] $N$ is a [[finitely generated module]] if it is a [[quotient]] of a [[free module]] with a finite [[basis of a free module|basis]].
 
 ## References
 
