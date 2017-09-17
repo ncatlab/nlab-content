@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+One of the affine [[Kac-Moody groups]] in the E-series.
+
+* [[E6]], [[E7]],  [[E8]], **E9**, [[E10]], [[E11]], $\cdots$
+
+## Related concepts
+
+* [[exceptional Lie group]]
+
+* [[exceptional geometry]], [[exceptional generalized geometry]]
+
+## References
+
+* [[Hermann Nicolai]], [[Henning Samtleben]], _On $K(E_9)$_ ([arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055))
