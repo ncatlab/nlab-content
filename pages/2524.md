@@ -64,6 +64,9 @@ is the corresponding [[local action functional]].
 
 * [[extended Lagrangian]]
 
+* traditional [[Lagrangian mechanics]] and [[Hamiltonian mechanics]] are naturally embedding into [[local prequantum field theory]] by the notion of [[prequantized Lagrangian correspondences]]
+
+
 ## References
 
 * [[Daniel Freed]], _Lecture 2 of [[Five lectures on supersymmetry]]_
