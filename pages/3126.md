@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
 #### $(\infty,2)$-Topos theory
 +--{: .hide}
 [[!include (infinity,2)-topos theory - contents]]
@@ -238,12 +242,18 @@ where
 ### Tangent $\infty$-topos of an $\infty$-topos
  {#TangentTopos}
 
-In ([Joyal 08](#Joyal08)) is an argument which should show that for 
-$\mathbf{H}$ an [[(∞,1)-topos]] then also the tangent $(\infty,1)$-category $T \mathbf{H}$ is an [[(∞,1)-topos]].
 
-The argument proceeds along the following lines.
 
-Let $seq$ be the [[diagram]] category (following [Joyal 08, section 35.5](#Joyal08)) as follows:
+We discuss how the tangent $\infty$-category of an [[(∞,1)-topos]] is itself an [[(∞,1)-topos]] over the tangent $\infty$-category of the original [[base (∞,1)-topos]] ([Joyal 08](#Joyal08)).
+
+#### General
+
+
++-- {: .num_defn}
+###### Definition
+
+
+Let $seq$ be the [[diagram]] category as follows:
 
 $$
   seq 
@@ -272,7 +282,14 @@ $$
   \,.
 $$
 
-Then given an [[(∞,1)-topos]] $\mathbf{H}$, an [[(∞,1)-functor]]
+=--
+
+([Joyal 08, section 35.5](#Joyal08))
+
++-- {: .num_remark}
+###### Remark
+
+Given an [[(∞,1)-topos]] $\mathbf{H}$, an [[(∞,1)-functor]]
 
 $$
   X_\bullet \;\colon\; seq \longrightarrow \mathbf{H}
@@ -303,7 +320,8 @@ $$
   \right\}
 $$
 
-is equivalently a morphism of base objects $f_b \;\colon\; B_1 \longrightarrow B_2$ in $\mathbf{H}$ together with morphisms $X_n \longrightarrow b^\ast Y_n$ into the [[(∞,1)-pullback]] of the components of $Y_\bullet$  along $b$
+is equivalently a morphism of base objects $f_b \;\colon\; B_1 \longrightarrow B_2$ in $\mathbf{H}$ together with morphisms $X_n \longrightarrow b^\ast Y_n$ into the [[(∞,1)-pullback]] of the components of $Y_\bullet$  along $b$.
+
 
 Therefore the [[(∞,1)-presheaf (∞,1)-topos]] 
 
@@ -323,9 +341,30 @@ $$
 
 on the genuine [[spectrum objects]] is therefore the "fiberwise [[stabilization]]" of the self-indexing, hence the tangent $(\infty,1)$-category.
 
-One observes ([Joyal 08, section 35.1](#Joyal08)) that the inclusion of spectrum objects into prespectrum objects has a [[left adjoint]] given by a [[filtered (∞,1)-colimit]] construction:
+=--
 
-Forming degreewise [[loop space objects]] constitutes a functor $\Omega \colon \mathbf{H}^{seq} \longrightarrow \mathbf{H}^{seq}$ and by definition of $seq$ this comes with a [[natural transformation]] out of the identity
++-- {: .num_lemma #SpectrificationLemma}
+###### Lemma
+**(spectrification is left exact reflective)**
+
+The inclusion of [[spectrum objects]] into $\mathbf{H}$  is [[left exact (infinity,1)-functor|left]] [[reflective sub-(infinity,1)-category|reflective]], hence it has a [[left adjoint]] [[(∞,1)-functor]] $L$ which preserves [[finite (∞,1)-limits]].
+
+$$
+  T \mathbf{H}
+  \stackrel{\overset{L_{lex}}{\leftarrow}}{\hookrightarrow}
+  \mathbf{H}^{seq}
+  \,.
+$$
+
+
+=--
+
+([Joyal 08, section 35.1](#Joyal08))
+
++-- {: .proof}
+###### Proof 
+
+Forming degreewise [[loop space objects]] constitutes an [[(∞,1)-functor]] $\Omega \colon \mathbf{H}^{seq} \longrightarrow \mathbf{H}^{seq}$ and by definition of $seq$ this comes with a [[natural transformation]] out of the identity
 
 $$
   \theta \;\colon\; id \longrightarrow \Omega
@@ -341,30 +380,85 @@ $$
   \,.
 $$
 
-Consider then a sufficient [[transfinite composition]] $\rho^{tf}$ which stabilizes, then this provides a [[reflective sub-(infinity,1)-category|reflection]] $L \;\colon\; \mathbf{H}^{seq} \longrightarrow T \mathbf{H}$.
+Consider then a sufficiently deep [[transfinite composition]] $\rho^{tf}$. By the [[small object argument]] available in the [[presentable (∞,1)-category]] $\mathbf{H}$ this stabilizes, and hence provides a [[reflective sub-(infinity,1)-category|reflection]] $L \;\colon\; \mathbf{H}^{seq} \longrightarrow T \mathbf{H}$.
 
-Since [[transfinite composition]] is a [[filtered (∞,1)-colimit]] and since in an [[(∞,1)-topos]] these commute with [[finite (∞,1)-limits]], it follows that spectrum objects are an [[exact (∞,1)-functor|left exact]] [[reflective sub-(∞,1)-category]] 
+Since [[transfinite composition]] is a [[filtered (∞,1)-colimit]] and since in an [[(∞,1)-topos]] these commute with [[finite (∞,1)-limits]], it follows that spectrum objects are an [[exact (∞,1)-functor|left exact]] [[reflective sub-(∞,1)-category]].
 
-$$
-  T \mathbf{H} \stackrel{\overset{L_{lex}}{\leftarrow}}{\hookrightarrow} \mathbf{H}^{seq}
-  \,.
-$$
+=--
 
-([Joyal 08, section 35.1](#Joyal08))
++-- {: .num_prop}
+###### Proposition
 
-But this means, by the discussion at _[[(∞,1)-topos]]_,  that $T \mathbf{H}$ has a [[geometric embedding]] into an [[(∞,1)-topos]] and is hence itself an [[(∞,1)-topos]].
+For $\mathbf{H}$ an [[(∞,1)-topos]] over the [[base (∞,1)-topos]] $\infty Grpd$, its [[tangent (∞,1)-category]] $T \mathbf{H}$ is an [[(∞,1)-topos]] over the base $T \infty Grpd$ (and hence in particular also over $\infty Grpd$ itself).
+
+=--
 
 ([Joyal 08, section 35.5](#Joyal08))
 
++-- {: .proof}
+###### Proof 
 
-Now assume that $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] over [[∞Grpd]]:
+By the the spectrification lemma \ref{SpectrificationLemma} 
+$T \mathbf{H}$ has a [[geometric embedding]] into the [[(∞,1)-presheaf (∞,1)-topos]] $\mathbf{H}^{seq}$, and this implies that it is an [[(∞,1)-topos]] (by the discussion there).
+
+Moreover, since both [[adjoint (∞,1)-functor]] in the [[global section geometric morphism]] $\mathbf{H} \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}} \infty Grpd$ preserve [[finite (∞,1)-limits]] they preserve [[spectrum objects]] and hence their immediate [[(∞,1)-presheaf]] prolongation immediately restricts to the inclusion of spectrum objects
+
+$$
+  \array{
+    T \mathbf{H} &\stackrel{\overset{T \Delta}{\leftarrow}}{\underset{T \Gamma}{\longrightarrow}}&
+   T \infty Grpd
+   \\
+   \downarrow^{\mathrlap{incl}} && \downarrow^{\mathrlap{incl}}
+   \\
+   \mathbf{H}
+    &
+    \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}}
+    &
+   \infty Grpd
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We may think of the tangent $\infty$-topos $T \mathbf{H}$ as being an [[extension]] of $\mathbf{H}$ by its [[stabilization]] $Stab(\mathbf{H}) \simeq T_\ast \mathbf{H}$:
+
+$$
+  \array{
+    Stab(\mathbf{H}) &\stackrel{\overset{Stab(\Delta)}{\leftarrow}}{\underset{Stab(\Gamma)}{\longrightarrow}}&
+    Sp
+    \\
+    \downarrow && \downarrow
+    \\
+    T\mathbf{H} &\stackrel{\overset{T\Delta}{\leftarrow}}{\underset{T\Gamma}{\longrightarrow}}&
+    T \infty Grpd
+    \\
+    \downarrow^{\mathrlap{base}} && \downarrow^{\mathrlap{base}}
+    \\
+    \mathbf{H} &\stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}}&
+    \infty Grpd
+  }
+  \,.
+$$
+
+=--
+
+
+#### Cohesive tangent $\infty$-topos of a cohesive $\infty$-topos
+
+Assume that $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] over [[∞Grpd]], 
+in that there is an [[adjoint quadruple]]
 
 $$
   \mathbf{H}
     \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
   \infty Grpd
-  \,.
 $$
+
+with $Disc, coDisc$ being [[full and faithful (∞,1)-functors]] and $\Pi$ preserving finite [[(∞,1)-products]].
 
 Since [[(∞,1)-limits]] and [[(∞,1)-colimits]] in an [[(∞,1)-presheaf (∞,1)-topos]] are computed objectwise, this [[adjoint quadruple]] immediately prolongs to $\mathbf{H}^{seq}$
 
@@ -399,7 +493,7 @@ $$
 
 Again since $L$ is a [[left exact (∞,1)-functor]] this composite $L \Pi$ preserves finite [[(∞,1)-products]].
 
-So it should follow in conclusion that if $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then its tangent $(\infty,1)$-category $T \mathbf{H}$ is itself a [[cohesive (∞,1)-topos]] over the tangent $(\infty,1)$-category  $T \infty Grpd$ of the [[base (∞,1)-topos]], which is an [[extension]] of the cohesion of the $\infty$-topos $\mathbf{H}$ over $\infty Grpd$ by the cohesion of the stable $\infty$-category $Stab(\mathbf{H})$ over $Stab(\infty Grpd) \simeq Spec$:
+So it follows in conclusion that if $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then its tangent $(\infty,1)$-category $T \mathbf{H}$ is itself a [[cohesive (∞,1)-topos]] over the tangent $(\infty,1)$-category  $T \infty Grpd$ of the [[base (∞,1)-topos]], which is an [[extension]] of the cohesion of the $\infty$-topos $\mathbf{H}$ over $\infty Grpd$ by the cohesion of the stable $\infty$-category $Stab(\mathbf{H})$ over $Stab(\infty Grpd) \simeq Spec$:
 
 $$
   \array{
@@ -430,6 +524,7 @@ $$
   \,.
 $$
 
+For more on this see at _[[tangent cohesive (∞,1)-topos]]_.
 
 ## Cotangent complex
  {#CotangentComplex}
@@ -803,5 +898,11 @@ is discussed in 35.5 of
   {#Joyal08}
 
 [[!redirects tangent (infinity,1)-categories]]
+
 [[!redirects tangent (∞,1)-category]]
 [[!redirects tangent (∞,1)-categories]]
+
+[[!redirects tangent (∞,1)-topos]]
+[[!redirects tangent (∞,1)-toposes]]
+[[!redirects tangent (infinity,1)-topos]]
+[[!redirects tangent (infinity,1)-toposes]]
