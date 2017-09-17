@@ -66,6 +66,8 @@ This is the special case of [[Einstein-Yang-Mills theory]] for the [[gauge group
 
 * [[Einstein-Yang-Mills theory]]
 
+* [[Eistein-Yang-Mills-Dirac theory]]
+
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
 * [[standard model of particle physics]]
