@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -17,6 +17,7 @@ The collection of power series in variable $X$ with coefficients in $R$ is denot
 
 If there is $k \in \mathbb{N}$ such that $a_n = 0 $ for all $n \gt k$ then this is a [[polynomial]] of degree $k$.
 
+
 ## Examples
 
 For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] on the [[real line]], and for $f^{(n)} \in C^\infty(\mathbb{R})$ denoting its $n$th [[derivative]] its [[MacLaurin series]] (its [[Taylor series]] at $0$) is the power series
@@ -27,4 +28,7 @@ $$
   \,.
 $$
 
+If this power series converges to $f$, then we say that $f$ is _[[analytic function|analytic]]_.
 
+
+[[!redirects power series]]
