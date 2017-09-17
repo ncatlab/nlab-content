@@ -124,7 +124,7 @@ The computation of _gravitational anomalies_ in the sense of nontrivialities of 
 
 * L. Alvarez-Gaume and [[Edward Witten]], _Gravitational Anomalies_ Nucl. Phys. B234 (1984) 269.
 
-* [[Edward Witten]], _Global gravitational anomalies_ , Commun. Math. Phys. 100 (1985) 197.
+* [[Edward Witten]], _Global gravitational anomalies_ , Commun. Math. Phys. 100 (1985) 197. ([EUCLID](http://projecteuclid.org/euclid.cmp/1103943444))
 
 The mathematical formulation of this in terms of [[index theory]] is due to
 
