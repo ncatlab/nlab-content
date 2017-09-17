@@ -29,7 +29,7 @@ More generally, for $\mathcal{A}$ an [[abelian category]] one can consider $\mat
 
 ## References
 
-A basic textbook introduction begins for instance around Definition 1.5.6 of 
+A basic textbook introduction begins for instance around Definition 1.6.5 of 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
