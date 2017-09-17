@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -8,7 +7,7 @@
 The **Hawaiian earring space** is a famous counterexample in [[topology]] which shows the need for care in hypotheses to develop a good theory of [[covering space]]s. 
 
 It is an example of a space which is not [[semi-locally simply connected space|semi-locally simply connected]]. 
-
+[hilarious quotes](http://itshumour.blogspot.com/2009/09/top-10-hilarious-quotes.html)
 ## Definition
 
 The Hawaiian earring space is the [[topological space]] defined to be the set 
@@ -19,4 +18,4 @@ endowed with [[subspace topology]] inherited from $\mathbb{R}^2$.
 
 Every neighborhood of $(0, 0)$ has non-contractible loops inside it (this would not be the case under the [[CW topology]], where the result would be a countable bouquet of circles). 
 
-[[!redirects Hawaiian earring spaces]]
+[[!redirects Hawaiian earring spaces]] [nursery rhymes](http://itshumour.blogspot.com/2009/07/funny-nursery-rhymes-remixed.html)
