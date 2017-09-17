@@ -251,11 +251,19 @@ This year marked the 20th anniversary of Witten's seminal paper _Quantum field t
 ### Geometric quantization and Chern--Simons theory?
 In [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), Witten makes the tantalizing observation that the "trace" occuring in the "trace of the holonomy around the knot" term in the path integral should _itself_ be seen as a path integral. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]] (password required).   
 
-##Chern--Simons theory and knot homology
+## Related concepts
 
-One question that's been bugging me (Ben Webster) recently is what fills in the analogy "[[Jones polynomial]] is to Chern--Simons theory as [[Khovanov homology]] is to ??"
+### Floer homology
+
+See [[Floer homology]].
+
+
+### Knot homology
+
+One question that's been bugging me (Ben Webster) recently is what fills in the analogy "[[Jones polynomial]] is to Chern--Simons theory as [[Khovanov homology]] is to ??" (Answer now at [[Khovanov homology]].)
 
 Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?_  I'm inclined to think there must be one, as it seems that all of the knot homologies associated by Chern--Simons theory to representations have categorifications (I have a [mostly finished paper](http://math.mit.edu/~bwebster/KI-HRT.pdf) on this).  Presumably these all glue together into something, possibly by a similar trick to the Reshetikhin-Turaev construction of 3-manifold invariants, but it's not so easy for me to see how.
+
 
 
 ## References  
