@@ -1,0 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+## Idea
+
+In the context of [[mechanics]] one distinguishes between **kinematics** and **dynamics**:
+
+1. _kinematics_ concerns the [[phase space]], the [[states]] and [[observables]];
+
+1. _dynamics_ concerns the evolution of the system in [[spacetime]]: for instance its [[Hamiltonian]].
+
+[[!redirects kinematics]]
+[[!redirects dynamics]]
