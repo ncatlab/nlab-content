@@ -28,6 +28,14 @@ W_C = Tr(\mathcal{P}exp(i\oint_C A_\mu d x^\mu))
 $$
 where $\mathcal{P}$ is the "time-ordering operator" and $A_\mu$ are the components of the connection. 
 
+## Properties
+
+### Relation to 1d Chern-Simons theory
+
+For $G$ a suitable [[Lie group]] (compact, semi-simple and simply connected) the Wilson loops of $G$-[[principal connections]] are equivalently the [[partition functions]] of a [[1-dimensional Chern-Simons theory]].
+
+This appears famously in the formulation of [[Chern-Simons theory]] [with Wilson lines](Chern-Simons+theory#WithWilsonLineObservables). More detailes are at _[[orbit method]]_.
+
 ## Examples
 
 ### In Chern-Simons theory
