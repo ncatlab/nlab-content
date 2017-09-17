@@ -1,14 +1,12 @@
 This entry is about the article:
 
-* [[Jacob Lurie]], _Spectral Schemes_
+* [[Jacob Lurie]], _Spectral Schemes_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VII.pdf))
 
-which **doesn't exist yet**.
 
 This studies the theory of [[generalized scheme]]s whose [[structure sheaf]] takes values in [[E-infinity ring]]-spectra.
 
-This is the topic of what some people call [[brave new algebraic geometry]].
 
-Some of this is at least indicated in 
+See also 
 
 * [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
 
