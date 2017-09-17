@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -16,11 +31,23 @@ We discuss below how the concept of prequantized Lagrangian correspondences neat
 
 Then we show how also the notion of prequantized Lagrangian correspondence is -- still naturally in the context of [[local prequantum field theory]] -- further refined from the context of [[symplectic manifolds]] to that of [[Poisson manifolds]]. Specifically, this is obtained by realizing that prequantized Lagrangian correspondences are really naturally to be regarded as correspondences-of-correspondences in a [[higher category of correspondences|2-category of correspondences]], where now the new lower-order correspondences are instead [[boundary field theories]] for a [[2d Chern-Simons theory]] (a non-perturbative [[Poisson sigma-model]]).  
 
-## Details
+## Classical mechanics by prequantized Lagrangian correspondences
 
-### Symplectic manifolds and phase spaces
+### Phase spaces and symplectic manifolds
 
-We write $(X,\omega)$ for a [[symplectic manifold]] with underlying [[smooth manifold]] $X$ and [[symplectic form|symplectic]] [[differential 2-form]] $\omega \in \Omega^2_{cl}(X)$. In [[physics]] this models the [[phase space]] of a [[mechanical system]].
+Given a [[physical system]], one says that its _[[phase space]]_ is the
+space of its possible ("classical") histories or _[[trajectories]]_. 
+The first two of [[Newton's laws of motion]] say that [[trajectories]] of [[physical systems]] are (typically) determined by [[differential equations]] of  _second_ order, and therefore these spaces of trajectories are (typically) equivalent to initial value data of 0th and of 1st derivatives. In [[physics]] this data (or rather its linear dual) is referred to as the _[[canonical coordinates]]_ and the _[[canonical momenta]]_, respectively, traditionally denoted by the symbols "$q$" and "$p$". 
+But being [[coordinates]], these are actually far from being canonical in the mathematical sense; all that has invariant meaning is, locally, the surface element $\mathbf{d}p \wedge \mathbf{d}q$ spanned by a change of coordinates and momenta.
+
+So far this says that a physical phase space is mathematically formalized
+by a sufficiently [[smooth manifold]] $X$ which is equipped with a closed
+and non-degenerate [[differential 2-form]] $\omega  \in \Omega^2_{\mathrm{cl}}(X)$, hence by a [[symplectic manifold]] $(X,\omega)$.
+
+But if the [[mechanical system]], and hence the [[differential equations]]
+that describe it, is subject to [[constraints]], then the full [[phase space]] is [[foliation|foliated]] by unconstrained phase spaces in the above sense and so the  above surface element may be any closed 2-form, not necessarily non-degenerate. This is a _[[pre-symplectic manifold]]_ $(X,\omega)$ and this is the generality considered in the following discussion: a _[[phase space]]_ is a _[[pre-symplectic manifold|pre-symplectic]] [[smooth manifold]]_.
+
+
 
 +-- {: .num_example}
 ###### Example
@@ -29,8 +56,123 @@ The [[sigma-model]] describing the propagation of a [[particle]] on the [[real l
 
 =--
 
+When dealing with spaces $X$ that are equipped with extra structure, such as  $\omega \in \Omega^2_{\mathrm{cl}}(X)$, then it is useful to have 
+a _universal [[moduli space]]_ for these structures, and this will be central for our developments here. 
+So we need a "[[smooth space]]" $\mathbf{\Omega}^2_{\mathrm{cl}}$ of sorts, characterized by the property that  there is a [[natural bijection]] between smooth closed differential  2-forms $\omega \in \Omega^2_{\mathrm{cl}}(X)$ and [[smooth maps]]
+$
+    X \longrightarrow \mathbf{\Omega}^2_{\mathrm{cl}}
+$.
+Of course such a universal moduli spaces of closed 2-forms does not exist in the  [[category]] of [[smooth manifolds]]. But it does exist canonically if we  slightly generalize the notion of "smooth space" suitably. 
 
-### Symplectomorphisms and canonical transformations
++-- {: .num_defn}
+###### Definition
+
+A _[[smooth space]]_ or _smooth 0-type_ $X$ is 
+
+1. an assignment to each $n \in \mathbb{N}$ of a  set, to be written $X(\mathbb{R}^n)$ and to be called the  _set of smooth maps from $\mathbb{R}^n$ into $X$_,
+
+1. an assignment to each ordinary smooth function $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between Cartesian spaces of  a function of sets $X(f) : X(\mathbb{R}^{n_2}) \to X(\mathbb{R}^{n_1})$, to be called the _pullback of smooth functions into $X$ along $f$_;
+
+such that
+
+1. this assignment respects composition of smooth functions;
+
+1. this assignment respect the [[covering]] of [[Cartesian spaces]] by [[open disks]]: for every [[good open cover]] $\{\mathbb{R}^n \simeq U_i \hookrightarrow \mathbb{R}^n\}_i$, the set $X(\mathbb{R}^n)$ of smooth functions out of $\mathbb{R}^n$ into $X$ is in natural bijection with the set $\left\{ (\phi_i)_i \in \prod_i X(U_i) \;|\;  \forall_{i,j}\; \phi_i|_{U_{i} \cap U_j}   = \phi_j|_{U_{i} \cap U_j} \right\}$ of tuples of smooth functions out of the patches of the cover which agree on all intersections of two patches.
+
+=--
+
+For more on this see at _[[geometry of physics]]_ in the section _[Smooth spaces](geometry%20of%20physics#SmoothSpaces)_.
+
+While the formulation of this definition is designed to make transparent its geometric meaning, of course equivalently but more abstractly this says the following:
+
++-- {: .num_defn}
+###### Definition
+
+ Write [[CartSp]] for the [[category]] of [[Cartesian spaces]] with 
+[[smooth functions]] between them, and consider it as a [[site]] by equipping it with the [[coverage]] of [[good open covers]]. 
+A _[[smooth space]]_ or _smooth 0-type_ is a [[sheaf]] on this site. 
+The _[[topos]] of smooth 0-types_ is the [[category of sheaves]]
+  $$
+    \mathrm{Smooth}0\mathrm{Type} \coloneqq \mathrm{Sh}(\mathrm{CartSp})
+	\,.
+  $$
+
+=--
+
+In the following we will abbreviate the notation to
+$$
+  \mathbf{H} \coloneqq \mathrm{Smooth}0\mathrm{Type}
+  \,.
+$$
+
+For the discussion of presymplectic manifolds, we need the following two 
+examples.
+
++-- {: .num_example}
+###### Example
+
+  Every smooth manifold $X \in \mathrm{SmoothManifold}$ becomes
+  a smooth 0-type by the assignment 
+  $$
+    X : n \mapsto C^\infty(\mathbb{R}^n, X)
+	\,.
+  $$
+  This construction extends to a [[full subcategory|full embedding]]
+  of [[smooth manifolds]] into [[smooth spaces]]
+  $$
+    SmoothManifold
+    \hookrightarrow
+    \mathbf{H}
+  $$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+  For $p \in \mathbb{N}$, write $\mathbf{\Omega}^p_{\mathrm{cl}}$
+  for the smooth space given by the assignment
+  $$
+    \mathbf{\Omega}^p_{\mathrm{cl}} : n \mapsto \Omega^p_{\mathrm{cl}}(\mathbb{R}^n)
+  $$
+  and by the evident pullback maps of differential forms.
+
+=--
+
+For more see at _[[geometry of physics]]_ in the section _[Differential forms](geometry%20of%20physics#DifferentialForms)_.
+
+
+This solves the [[moduli problem]] for closed smooth differential forms:
+
+
++-- {: .num_prop #PresymplecticFormsAsMapsIntoASmoothSpace}
+###### Proposition
+
+  For $p \in \mathbb{N}$
+  and $X \in SmoothManifold \hookrightarrow Smooth0Type$, 
+  there is a [[natural bijection]]
+  $$
+    \mathbf{H}(X,\mathbf{\Omega}^p_{\mathrm{cl}})
+	\simeq
+	\Omega^p_{\mathrm{cl}}(X)
+	\,.
+  $$
+
+=--
+
+So a presymplectic manifold $(X,\omega)$ is equivalently a map of smooth spaces of the form
+$$
+  \omega \;\colon\;
+    X \longrightarrow \mathbf{\Omega}^2_{\mathrm{cl}}
+  \,.
+$$
+
+### Canonical transformations and symplectomorphisms
+
+An [[equivalence]] between two [[phase spaces]], hence a re-expression
+of the "canonical" coordinates and momenta, is called a 
+_[[canonical transformation]]_ in [[physics]]. Mathematically this is
+a _[[symplectomorphism]]_.
 
 +-- {: .num_defn}
 ###### Definition
@@ -63,22 +205,15 @@ In [[physics]] [[symplectomorphisms]] are traditionally known as _[[canonical tr
 
 =--
 
-For the present purpose it is useful to formulate [[symplectomorphisms]] in the language of the [[topos]] $\mathbf{H}$ of [[smooth spaces]]. This is discussed in much detail at _[[geometry of physics]]_ in the section _[Smooth spaces](geometry%20of%20physics#SmoothSpaces)_. 
 
-In terms of this there is a [[smooth space|smooth]] universal [[moduli space]] $\Omega^2_{cl}$ of closed [[differential 2-forms]], and by the [[Yoneda lemma]] one such $\omega \in \Omega^2_{cl}(X)$ is equivalently a [[homomorphism]] of the form
+The above formulation of pre-symplectic manifolds as maps into a moduli space of closed 2-forms yields the following formulation of symplectomorphisms,  which is very simple in itself, 
+but contains in it the seed of an important phenomenon:
 
-$$
-  \omega \;\colon\; X \longrightarrow \Omega^2_{cl}
-$$
- 
-This is explained in detail at _[[geometry of physics]]_ in the section _[Differential forms](geometry%20of%20physics#DifferentialForms)_.
 
-In this language we have:
++-- {: .num_prop}
+###### Proposition
 
-+-- {: .num_remark}
-###### Remark
-
-A [[symplectomorphism]] $f \colon (X_1, \omega_2) \longrightarrow (X_2, \omega_2)$ as above is equivalently a [[commuting diagram]] of the form
+A [[symplectomorphism]] $f \colon (X_1, \omega_2) \longrightarrow (X_2, \omega_2)$ as above is equivalently a [[commuting diagram]] in $\mathbf{H}$ of the form
 
 $$
   \array{
@@ -91,7 +226,49 @@ $$
   \,.
 $$
 
-Yet another equivalent way to say this is that both $(X_1, \omega_1)$ and $(X_2, \omega_2)$ are naturally [[objects]] in the [[slice topos]] $\mathbf{H}_{/\Omega^2_{cl}}$ and that a [[symplectomorphism]] is equivalently just a [[morphism]] between them, in this [[slice topos]].
+=--
+
+Situations like this are naturally interpreted in the _[[slice topos]]_:
+
++-- {: .num_defn}
+###### Definition
+
+For $A \in \mathbf{H}$ any [[smooth space]],
+  the _[[slice topos]]_  $\mathbf{H}_{/A}$ is the [[category]] whose
+  [[objects]] are objects $X \in \mathbf{H}$ equipped with [[maps]]
+  $X \to A$, and whose [[morphisms]] are [[commuting diagrams]]] in $\mathbf{H}$
+  of the form
+  $$
+    \array{
+      X &&\longrightarrow&& Y
+      \\
+      & \searrow && \swarrow
+      \\
+      && \mathbf{Omega}^2_{cl}
+    }
+  $$
+
+=--
+
+Hence if we write $\mathrm{SymplManifold}$ for the category of smooth pre-symplectic manifolds
+  and symplectomorphisms betwen them, then we have the following.
+
+
++-- {: .num_prop}
+###### Proposition
+
+
+   The construction of
+  prop. \ref{PresymplecticFormsAsMapsIntoASmoothSpace} constitutes a
+  full embedding
+  $$
+     SymplManifold 
+     \hookrightarrow 
+     \mathbf{H}_{/\mathbf{\Omega}^2_{\mathrm{cl}}}
+  $$
+  of pre-symplectic manifolds with symplectomorphisms between them into 
+  the slice topos of smooth spaces over the smootu moduli space of
+  closed differential 2-forms.
 
 =--
 
@@ -227,6 +404,140 @@ $$
 
 =--
 
+### The kinetic action, pre-quantization and differential cohomology
+
+Given a pre-symplectic form $\omega \in \Omega^2_{\mathrm{cl}}(X) $, 
+by the [[Poincare lemma]] there is a good cover $\{U_i \hookrightarrow X\}_i$
+and smooth 1-forms $\theta_i \in \Omega^1(U_i)$ such that 
+$\mathbf{d}\theta_i = \omega_{|U_i}$. Physically such a 1-form is 
+(up to a factor of 2) a choice
+of _[[kinetic energy]] density_ called a _[[kinetic Lagrangian]]_ 
+$L_{\mathrm{kin}}$:
+$$
+  \theta_i = 2 L_{\mathrm{kin}, i}
+  \,.
+$$
+Given a path $\gamma : [0,1] \to X$ in phase space, its 
+_[[kinetic action]]_ $S_{\mathrm{kin}}$ 
+is supposed to be the integral of $\mathcal{L}_{\mathrm{kin}}$
+along this trajectory. In order to make sense of this with the
+above locally defined kinetic Lagrangians,
+there are to be functions $g_{i j} \in C^\infty(U_i \cap U_j, \mathbb{R})$
+such that
+$$
+  \theta_j|_{U_j} - \theta_i|_{U_i} = \mathbf{d}g_{i j}
+  \,.
+$$
+If on triple intersections these functions satisfy
+$$
+  g_{ij} + g_{j k} = g_{i k}
+$$
+then there is a well defined action functional
+$$
+  S_{\mathrm{kin}}(\gamma) \in \mathbb{R}
+$$
+obtained by dividing $\gamma$ into small pieces that each map to a single
+patch $U_i$, integrating $\theta_i$ along this piece, and adding the 
+contribution of $g_{i j}$ at the point where one switches from using
+$\theta_i$ to using $\theta_j$.
+
+However, requiring this condition on triple overlaps as an equation between
+$\mathbb{R}$-valued functions makes the local patch structure trivial: if this
+holds then one can find a single $\theta \in \Omega^1(X)$ and
+functions $h_i \in C^\infty(U_i, \mathbb{R})$ such that 
+$\theta_i = \theta|_{U_i} + \mathbf{d}h_i$. This has the
+superficially pleasant effect that the the action is 
+simply the integral against this globally defined 1-form, 
+$S_{\mathrm{kin}} = \int_{[0,1]} \gamma^\ast L_{\mathrm{kin}}$, but it also
+means that the pre-symplectic form $\omega$ is exact, which is 
+not the case in many important examples.
+
+On the other hand, what really matters in physics is not the action functional
+$S_{\mathrm{kin}} \in \mathbb{R}$ itself, 
+but the _exponentiated_ action 
+$$
+  \exp( \tfrac{i}{\hbar} S ) \in \mathbb{R}/(2\pi \hbar)\mathbb{Z}
+  \,.
+$$
+For this to be well defined, one only needs that the equation
+$g_{i j} + g_{j k} = g_{i k}$ holds modulo addtion of an integral
+multiple of $h = 2\pi \hbar$, which is _[[Planck's constant]]_. 
+If this is the case, then one says that the data 
+$(\{\theta_i\}, \{g_{i j}\})$ defines 
+equivalently
+
+* a $U(1)$-principal connection;
+
+* a degree-2 cocycle in ordinary differential cohomology 
+
+on $X$, with _[[curvature]]_ the given symplectic 2-form $\omega$.
+
+Such data is called a _[[pre-quantization]]_ of the symplectic manifold 
+$(X,\omega)$. Since it is the exponentiated action functional
+$\exp(\frac{i}{\hbar} S)$ that enters the quantization of the 
+given mechanical system (for instance as the integrand of a 
+[[path integral]]),
+the [[prequantization]] of a symplectic manifold is indeed precisely
+the data necessary before quantization.
+
+Therefore, in the spirit of the above discussion of pre-symplectic structures,
+we would like to refine the smooth moduli space of closed 
+differential 2-forms to a moduli space of prequantized differential 
+2-forms. 
+
+Again this does naturally exist if only we allow for a good notion of
+"space". An additional phenomenon to be taken care of now is that
+while pre-symplectic forms are either equal or not, their
+pre-quantizations can be different and yet be _[[equivalence|equivalent]]_:
+
+because there is still a remaining freedom to change this data without
+changing the exponentiated action along a _closed_ path:
+we say that a choice of functions 
+$h_i \in C^\infty(U_i, \mathbb{R}/(2\pi\hbar)\mathbb{Z})$
+defines an equivalence between 
+$(\{\theta_i\}, \{g_{i j}\})$ and $(\{\tilde \theta_i\}, \{\tilde g_{i j}\})$
+if $\tilde \theta_i - \theta_i = \mathbf{d}h_i$
+and $\tilde g_{i j} - g_{i j} = h_j - h_i$.
+
+This means that the space of prequantizations of $(X,\omega)$
+is similar to an _[[orbifold]]_: it has points which are connected by 
+gauge equivalences: there is a _[[groupoid]]_ of pre-quantum structures
+on a manifold $X$. 
+
+Write then $\mathbf{B}U(1)_{\mathrm{conn}}$
+for the moduli space of prequantizations. This is characterized by the fact that 
+a map
+
+$$
+    X 
+      \longrightarrow
+   \mathbf{B}U(1)_{\mathrm{conn}}
+$$
+
+is equivalently a prequantum structure, and a homotopy between two 
+such maps is equivalently a gauge transformation between those.
+
+$$
+  F
+  \;\colon\;
+   \mathbf{B}U(1)_{\mathrm{conn}}
+     \longrightarrow
+   \mathbf{\Omega}^2_{\mathrm{cl}}
+$$
+
+A prequantization of $(X,\omega)$ is hence a lift $\nabla$ in
+$$
+  \array{
+    X &\stackrel{\nabla}{\longrightarrow}& \mathbf{B}U(1)_{conn}
+    \\
+    & {}_{\mathllap{\omega}}\searrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    && \mathbf{\Omega}^2_{cl}
+  }
+  \,.
+$$
+
+
 ### Prequantized Lagrangian correspondences
 
 But the reason to consider [[Hamiltonian symplectomorphisms]] instead of general [[symplectomorphisms]] is really because these give [[homomorphisms]] not just between plain [[symplectic manifold]], but between their _prequantizations_. To these we turn now.
@@ -345,6 +656,8 @@ $$
 $$
 
 =--
+
+This is a special case of the discussion in ([hgp 13](#FiorenzaRogersSchreiber13a)).
 
 +-- {: .proof}
 ###### Proof
