@@ -101,6 +101,8 @@ The [[predicative topos]] formed by Bishop sets in type theory is discussed in
 * [[Benno van den Berg]], _Predicative toposes_  ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
 
+* [[UF-IAS-2012]], _On the setoid model of type theory_ ([video](http://video.ias.edu/univalent/palmgren))
+
 
 [[!redirects Bishop set]]
 [[!redirects Bishop sets]]
