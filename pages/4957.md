@@ -81,7 +81,7 @@ Since a local geometric morphism has a [[left adjoint]] in the [[2-category]] [[
 ## Elementary Axiomatization
  {#ElementaryAxiomatization}
 
-Every local topos $\Gamma : \mathcal{E} \to \mathcal{S}$, $S$ is equivalent to the [[category of sheaves]] for a [[Lawvere-Tierney topology]] $j$ on $\mathcal{E}$.  A sound and complete elementary [[axiomaxiomatization]] of local maps of (bounded) toposes can be given in terms of properties of topos $E$ and topology $j$ ([AwodeyBirkedal](#AwodeyBirkedal))
+For any local topos $\Gamma \colon \mathcal{E} \to \mathcal{S}$, the base topos $\mathcal{S}$ is equivalent to the [[category of sheaves]] for a [[Lawvere-Tierney topology]] $j$ on $\mathcal{E}$.  A sound and complete elementary [[axiomatization]] of local maps of (bounded) toposes can be given in terms of properties of topos $E$ and topology $j$ ([AwodeyBirkedal](#AwodeyBirkedal))
 
 We discuss first
 
@@ -99,7 +99,7 @@ themselves.
 
 Let $\mathcal{E}$ be an [[elementary topos]] equipped with a [[Lawvere-Tierney topology]] $j : \Omega \to \Omega$.
 
-Write $V \mapsto # V$ for the $j$-closure operation on [[subobjects]] $V \hookrightarrow X$
+Write $V \mapsto \sharp  V$ for the $j$-closure operation on [[subobjects]] $V \hookrightarrow X$
 
 $$
   \array{
@@ -107,7 +107,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    # V &\to& &\to& {*}
+    \sharp  V &\to& &\to& {*}
     \\
     \downarrow && \downarrow  &&  \downarrow 
     \\
@@ -132,10 +132,10 @@ for the [[reflective subcategory]] [[category of sheaves|of j-sheaves]].
 +-- {: .num_defn #EssentialTopology}
 ###### Definition
 
-We say that $j$ is an **[[essential geometric morphism|essential]] topology** if for all objects $X$ the closure operation $# : Sub(X) \to Sub(X)$ on [[posets of subobjects]] on has a [[left adjoint]] $\flat \dashv #$:
+We say that $j$ is an **[[essential geometric morphism|essential]] topology** if for all objects $X$ the closure operation $\sharp  : Sub(X) \to Sub(X)$ on [[posets of subobjects]] on has a [[left adjoint]] $\flat \dashv \sharp $:
 
 $$
-  (U \hookrightarrow # V)
+  (U \hookrightarrow \sharp  V)
    \Leftrightarrow
   (\flat U \hookrightarrow V)
   \,.
@@ -148,14 +148,14 @@ This appears under the term "principal" in ([Awodey-Birkedal, def. 2.1](#AwodeyB
 +-- {: .num_remark}
 ###### Remark
 
-We use the notation "$\flat$" and "$#$" oppositely to the use on p.14 of [Awodey-Birkedal](#AwodeyBirkedal). Our convention is such that it harmonizes with the terminology at _[[cohesive topos]]_ and _[[cohesive (infinity,1)-topos]]_, where it makes interpretational sense to pronounce "$\flat$" as "flat".
+We use the notation "$\flat$" and "$\sharp $" oppositely to the use on p.14 of [Awodey-Birkedal](#AwodeyBirkedal). Our convention is such that it harmonizes with the terminology at _[[cohesive topos]]_ and _[[cohesive (infinity,1)-topos]]_, where it makes interpretational sense to pronounce "$\flat$" as "flat".
 
 =--
 
 +-- {: .num_prop #InternalCharacterizationOfLocalReflection}
 ###### Proposition
 
-A [[Lawvere-Tierney topology]] $j$ is [essential](#EssentialTopology), $(\flat \dashv #)$, precisely if for all objects $X$ there exists a least $#$-[[dense subobject]] $U_X \hookrightarrow X$.
+A [[Lawvere-Tierney topology]] $j$ is [essential](#EssentialTopology), $(\flat \dashv \sharp )$, precisely if for all objects $X$ there exists a least $\sharp $-[[dense subobject]] $U_X \hookrightarrow X$.
 
 =--
 
@@ -164,10 +164,10 @@ This appears as ([AwodeyBirkedal, lemma 2.3](#AwodeyBirkedal)).
 +-- {: .proof}
 ###### Proof
 
-By the discussion at [[category of sheaves]] we have that $#$ is given by the composite
+By the discussion at [[category of sheaves]] we have that $\sharp $ is given by the composite
 
 $$
-  # : \mathcal{E} \stackrel{\Gamma}{\to} Sh_j(\mathcal{E}) \stackrel{coDisc}{\hookrightarrow} \mathcal{E}
+  \sharp  : \mathcal{E} \stackrel{\Gamma}{\to} Sh_j(\mathcal{E}) \stackrel{coDisc}{\hookrightarrow} \mathcal{E}
   \,,
 $$
 
@@ -185,7 +185,7 @@ $$
   \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\hookrightarrow}}
   \mathcal{E}
   : 
-  #
+  \sharp 
   \,.
 $$
 
@@ -196,10 +196,10 @@ $$
   \,.
 $$
 
-We need to show that these are $#$-[[dense monomorphisms]], hence that 
+We need to show that these are $\sharp $-[[dense monomorphisms]], hence that 
 
 $$
-  #(\flat X \to X)
+  \sharp (\flat X \to X)
   = 
   (coDisc \Gamma Disc \Gamma \to coDisc \Gamma X)
 $$
@@ -224,7 +224,7 @@ $$
 Using that also $coDisc$ is full and faithful and then [[2-out-of-3]] for [[isomorphisms]] it follows that $coDisc \Gamma Disc \Gamma X \stackrel{\simeq}{\to} coDisc \Gamma X$ hence
 
 $$
-  # \flat X \stackrel{\simeq}{\to} # X
+  \sharp  \flat X \stackrel{\simeq}{\to} \sharp  X
 $$
 
 is indeed an isomorphism. 
