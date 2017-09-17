@@ -504,7 +504,7 @@ $$
   \,.
 $$
 
-Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
+Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniqueness of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
 =--
 
 ### Commutativity with limits and colimits
