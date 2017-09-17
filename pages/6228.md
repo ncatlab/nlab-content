@@ -31,6 +31,8 @@
 
 * [[information geometry]]
 
+* [[information metric]]
+
 * [[Wasserstein metric]]
 
 ## Thermodynamics
