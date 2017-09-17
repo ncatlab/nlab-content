@@ -64,6 +64,8 @@ Examples appear at
 
 * [[rational homotopy theory]]
 
+* [[dualizing complex]], [[dualizing module]]
+
 ## References
 
 * H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
