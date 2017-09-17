@@ -1,4 +1,3 @@
-[[!redirects reduced ring]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -40,3 +39,5 @@ $$
 
 is called the [[de Rham space]] of $X$.
 
+[[!redirects reduced ring]]
+[[!redirects reduced rings]]
