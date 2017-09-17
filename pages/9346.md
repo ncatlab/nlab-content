@@ -53,7 +53,7 @@ This situation is analogous to the following simple setup: the theory of [[smoot
 
 There are a host of educated guesses of what non-perturbative string theory might be, if anything, but it remains unknown. At some point the term _[[M-theory]]_ had been established for whatever that non-perturbative theory is, but even though it already has a name, it still remains unknown.
 
-Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and large remains mysterious, if it exists at all.
+Therefore if the qualification "perturbative"/"non-perturbative" is suppressed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and large remains mysterious, if it exists at all.
 
 ### Why is string theory controversial?
 
