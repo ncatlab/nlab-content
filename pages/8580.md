@@ -8268,10 +8268,10 @@ Before we discuss technical details starting in the [next chapter](#Fields) here
  {#IngredientsOfFundamentalPhysics}
 
 Ever since [[Issac Newton]], [[theories of physics]] are formulated in the language of [[mathematics]]. Modern physics is formulated in terms of modern mathematics in the most intimate way.
-We aim to give here a account at least of central parts of modern physics naturally formulated in the mathematics of _[[higher geometry]]_ that we discussed in _[geometry of physics - Geometry](geomery+of+physics#GEOMETRY)_. 
+We aim to give here an account at least of central parts of modern physics naturally formulated in the mathematics of _[[higher geometry]]_ that we discussed above in _[geometry of physics - Geometry](geomery+of+physics#GEOMETRY)_. 
 
 The physics that we are concerned with is _fundamental_ physics,
-that part of the large subject of physics which is concerned with elementary  processes and phenomena of physics from which all others are thoght to _emerge_ as approximations to collective effects of complex configurations of the elementary 
+that part of the large subject of physics which is concerned with elementary  processes and phenomena of physics from which all others are thought to _emerge_ as approximations to collective effects of complex configurations of the elementary 
 entities.
 
 The best [[theory (physics)|theory]] of fundamental physics as presently understood is known as _[[Einstein-Yang-Mills-Dirac-Higgs theory]]_. 
@@ -8324,11 +8324,20 @@ We briefly indicate what this means, a formal discussion of these notions will b
 
    A gauge theory in the original sense specifically has a groupoid of [[principal connections]] as its configurations. (Notice that gauge transformations are not in general just a redundancy of the description of the theory, but are genuine data: there are in general non-trivial gauge [[automorphisms]] of a field and the stack of gauge field configurations is not in general equivalent to a plain [[sheaf]].)
 
-* A **[[Lagrangian]]** theory is one which is specified by a function on the space of all its configurations, called the (exponentiated) _[[action functional]]_ $\exp(i S)$. This function is assumed to be the [[integration of differential forms|integral]] of a [[differential form]] $L$ on [[spacetime]] that itself is a function of the field configurations and called the [[Lagrangian]] of the theory. 
+* A **[[Lagrangian]]** theory is one which is specified by a [[smooth function]] on the space of all its configurations, called the (exponentiated) _[[action functional]]_ $\exp(i S)$. This function is assumed to be the [[integration of differential forms|integral]] of a [[differential form]] $L$ on [[spacetime]] that itself is a function of the field configurations and called the [[Lagrangian]] of the theory. 
 
   $$
     \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\right)\left(x\right) \right) 
   $$
+
+
+* A **[[local quantum field theory|local]]** theory has a Lagrangian form which at each point of spacetime only depends on the values of the fields at that point, and of finitely many derivatives of the fields at that point.
+
+  $$
+    \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\left(x\right), \nabla \phi\left(x\right)\right)\right) 
+  $$
+
+  This means that a _[[local Lagrangian]]_ is a [[variational bicomplex|horizontal form on]] the [[jet bundle]] of the field bundle of which the fields are sections.
 
   The [[critical locus]]
 
@@ -8339,15 +8348,7 @@ We briefly indicate what this means, a formal discussion of these notions will b
 	  \right\}
   $$
 
-  of the action functional is called the _[[phase space]]_ of the theory, a point of this is said to be a solution to the _[[equations of motion]]_ of the theory.
-
-* A **[[local quantum field theory|local]]** theory has a Lagrangian form which at each point of spacetime only depends on the values of the fields at that point, and of finitely many derivatives of the fields at that point.
-
-  $$
-    \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\left(x\right), \nabla \phi\left(x\right)\right)\right) 
-  $$
-
-  This means that a _[[local Lagrangian]]_ is a horizontal form on the [[jet bundle]] of the field bundle of which the fields are sections.
+  of the local action functional is called the _[[phase space]]_ of the theory, a point of this is said to be a solution to the _[[equations of motion]]_ of the theory.
 
 * A **[[topological field theory|topological]]** theory finally is one where the field bundle is naturally associated to every smooth manifold, typically of some fixed dimension and possibly equipped with  topological [[G-structure]] such as an orientation, but not equipped with any further geometric structure: all geometric structure such as metrics on spacetime are themselves regarded as parts of the field content in a topological theory.
 
@@ -8504,11 +8505,11 @@ So we are after a picture as indicated in the following table.
 ### Intermezzo: Recalling elements of higher cohesive geometry  
  {#IntermezzoElementsOfHigherCohesiveGeometry}
 
-The idea of _[[extended prequantum field theory]]_ indicated [above](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)  is best illustrated by the example of [[Chern-Simons field theory]]. We talk about this in a moment [below](#CSAsArchetypicalExample), but since in order to do so we need now at least some basic notions from [[cohesion|cohesive]] [[higher geometry]], we briefly recall these first.
+The idea of _[[extended prequantum field theory]]_ indicated [above](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)  is best illustrated by the example of [[Chern-Simons field theory]]. We talk about this in a moment [below](#CSAsArchetypicalExample), but since in order to do so we need now at least some basic notions from [[cohesion|cohesive]] [[higher geometry]], we very briefly recall these first, just for reference. For more discussion see at _[geometry of physics - smooth homotopy types](geometry+of+physics#SmoothnGroupoids)_  and _[geometry of physics - Maurer-Cartan forms](geometry+of+physics#MaurerCartanForms)_ and _[geometry of physics  - principal connections](geometry+of+physics#PrincipalConnections)_
 
-(...)
+Fix some [[site]] $\mathcal{C}$ of test spaces which encode some notion of  [[geometry]]. The running example to keep in mind is the site [[SmthMfd]] of [[smooth manifolds]], or equivalently its full [[dense subsite]] of [[CartSp]] on manifolds of the form $\mathbb{R}^n$.  Assume for simplicity that the site has _[[point of a topos|enough points]]_ (which [[SmthMfd]] does).
 
-For $\mathcal{C}$ a [[site]] with [[point of a topos|enough points]] the [[(2,1)-category]] of [[(2,1)-sheaves]] ([[stacks]]) on $\mathcal{C}$ is the [[simplicial localization]]
+Then the [[(2,1)-category]] of [[(2,1)-sheaves]] ([[stacks]]) on $\mathcal{C}$ is the [[simplicial localization]] 
 
 $$
   Sh_{(2,1)}(\mathcal{C})
@@ -8517,19 +8518,17 @@ $$
   \,.
 $$
 
-$L_{le}$: formally turn [[stalk]]-wise ("local") [[equivalence of groupoids|equivalence of groupoids]] into actual [[equivalences]].
+of that of [[groupoid]]-valued [[presheaves]] on $\mathbf{C}$ at the _local equivalences_. This means that $Sh_{(2,1)}(\mathcal{C})$ is the result of turning [[stalk]]-wise ("local") [[equivalence of groupoids|equivalence of groupoids]] into actual [[equivalences]].
 
-(...)
+For the running example of $\mathcal{C} \simeq $ [[SmthMfd]] we may think of an object in $Sh_{(2,1)}(\mathcal{C})$ as a _[[smooth groupoid]]_. Examples include [[smooth manifolds]], [[diffeological space]],  [[orbifolds]], [[Lie groupoids]]/[[differentiable stacks]], sheaves of smooth differential forms, etc.
+
+The higher refinement of groupoids which we need are _[[∞-groupoids]]_. The collection of these is equivalently that of [[simplicial sets]] or (compactly generated weakly Hausdorff) [[topological spaces]] with the [[weak homotopy equivalences]] universally turned into actual [[homotopy equivalences]]:
 
 $$
   \infty Grpd \simeq L_{whe} sSet \simeq L_{whe} Top
 $$
 
-$L_{w}$: formally turn [[weak homotopy equivalences]] into actual [[homotopy equivalences]].
-
-(...)
-
-
+The combination of these two aspects, the [[geometry]] and the [[homotopy theory]], is that of [[(∞,1)-sheaves]]/[[∞-stacks]], here we write $\mathbf{H}$ for the collection of [[presheaves]] of [[simplicial sets]] ([[simplicial presheaves]]) with the local ([[stalk]]-wise) [[weak homotopy equivalences]] universally turned into actual homotopy equivalences:
 
 $$
   \array{
@@ -8555,16 +8554,14 @@ $$
   }&
   L_{whe} Func(\mathcal{C}^{op}, sSet)
   }
+  \,.
 $$
 
+This $\mathbf{H}$ is the _[[(∞,1)-topos]]_ over $\mathcal{C}$. This is the kind of context for the [[higher geometry]] encoded by $\mathcal{C}$ in which all of our constructions take place.
 
-$L_{lwhe}$: universally turn [[stalk]]-wise ("local") [[weak homotopy equivalences]] into actual [[homotopy equivalences]]
+In order to formulate not just [[kinematics]] but also [[dynamics]] in [[physics]], we need to require that $\mathbf{H}$ has an intrinsic notion of what it means to have a _path_ or _[[trajectory]]_ inside one of its objects. This is axiomatized by the notion of  _[[cohesion]]_: 
 
-(...)
-
-[[cohesion]]
-
-$\mathcal{C}$ an [[infinity-cohesive site]] 
+if $\mathcal{C}$ satisfies some properties that make it an an [[infinity-cohesive site]], the the [[global section geometric morphism]] of $\mathbf{H}$ extended to an [[adjoint quadruple]] of [[(∞,1)-functors]]:
 
 $$
   \array{
@@ -8584,15 +8581,15 @@ $$
   }
 $$
 
-(...)
+with some mild extra condition on $\Pi$ and $coDisc$. This is the case in particular for $\mathcal{C} = $ [[SmthMfd]] in which case we say that $\mathbf{H}$ is the [[cohesive (∞,1)-topos]] of _[[smooth ∞-groupoids]]_.
 
-the [[adjoint quadruple]] of [[(∞,1)-functors]] induces an [[adjoint triple]] of [[comonad|co]][[(∞,1)-monads]]:
+The defining [[adjoint quadruple]] of [[(∞,1)-functors]] induces an [[adjoint triple]] of [[comonad|co]][[(∞,1)-monads]]:
 
 | [[shape modality]] | $\dashv$ | [[flat modality]] | $\dashv$ |[[sharp modality]] |
 |--|--|--|--|--|
 | $\mathbf{\Pi} \coloneqq Disc \circ \Pi$ | | $flat \coloneqq Disc \circ \Gamma$ |   | $\sharp \coloneqq coDisc \circ \Gamma$  |
 
-for $G \in Grp(\mathbf{H})$ we have a [[pasting diagram]] of [[(∞,1)-pullbacks]]
+For $G \in Grp(\mathbf{H})$ a [[group object in an (∞,1)-category|group object]] in $\mathbf{H}$, hence a geometric [[∞-group]], we have by these axioms of [[cohesion]] a [[pasting diagram]] of [[(∞,1)-pullbacks]]
 
 $$
   \array{
@@ -8620,9 +8617,13 @@ $$
     \\
     * &\to& principal\,coefficients
   }
+  \,.
 $$
 
-for $\mathbb{G}$ a [[braided ∞-group]] set 
+Here the [[delooping]] $\mathbf{B}G$ is the moduli of geometric $G$-[[principal ∞-bundles]],  $\flat_{dR} \mathbf{B}G$ is that of flat [[infinity-Lie algebroid-valued differential form
+|L-∞ algebra valued differential forms]] and $\theta_G$ is the _[[Maurer-Cartan form]]_ on the [[smooth ∞-group]] $G$.
+
+If $\mathbb{G}$ is "slightly abelian" in that it is equipped with the structure of a [[braided ∞-group]], then we write
 
 $$
   curv_{\mathbb{G}}
@@ -8632,8 +8633,10 @@ $$
   \flat_{dR}\mathbf{B}^2 \mathbb{G}
 $$
 
-then $\mathbb{G}$-[[differential cohomology]] is $curv_{\mathbf{B}\mathbb{G}}$-[[twisted cohomology]]
+for the [[Maurer-Cartan form]] of its [[delooping]] [[∞-group]] and call this the _universal [[curvature]] characteristic_.
 
+Then _$\mathbb{G}$-[[differential cohomology]]_ is 
+_$curv_{\mathbf{B}\mathbb{G}}$-[[twisted cohomology]]_.
 In particular, if we consider globally defined curvature forms
 
 $$
@@ -8656,7 +8659,7 @@ $$
   }
 $$
 
-is the mopduli for [[principal ∞-connections]].
+is the moduli for [[principal ∞-connections]].
 
 Now for 
 
@@ -8690,9 +8693,9 @@ $$
   \,.
 $$
 
-These are the [[extended Lagrangians]] here.
+These are the [[extended Lagrangians]] in our discussion of [[extended prequantum field theory]].
 
-if $\mathbb{G} = \mathbf{B}^{n-1}U(1)$ then 
+In particular if, in the context of [[smooth ∞-groupoids]], we consider $\mathbb{G} = \mathbf{B}^{n-1}U(1)$ the [[circle n-group]] then 
 
 $$
   \mathbf{B}\mathbb{G}_{conn}
@@ -8700,10 +8703,11 @@ $$
   \mathbf{B}^n U(1)_{conn}
   \simeq
   DK(  U(1) \to \Omega^1 \to \cdots \to \Omega^n)
-  \,.
 $$
 
-There is [[fiber integration in ordinary differential cohomology]] refined to moduli $\infty$-stacks: for $\Sigma_k$ an oriented [[closed manifold]] of [[dimension]] $k$ we have a map
+is given as the [[∞-stackification]] of the image under the [[Dold-Kan correspondence]] of the _[[Deligne complex]]_ for [[ordinary differential cohomology]].
+
+In this case there is [[fiber integration in ordinary differential cohomology]] refined to moduli $\infty$-stacks: for $\Sigma_k$ an oriented [[closed manifold]] of [[dimension]] $k$ we have a map of [[moduli ∞-stacks]]
 
 $$
   \exp\left(
@@ -8716,7 +8720,7 @@ $$
   \,.
 $$
 
-Composed with the [[internal hom]] this is _[[transgression]]_ of differential cocycles. 
+Composed with the [[internal hom]] this is _[[transgression]]_ of differential cocycles. The transgressions of an [[extended Lagrangian]] as above are (the moduli for) the higher [[prequantum n-bundles]] that we consider here.
 
 
 ### Chern-Simons theory as the archetypical example
@@ -8785,7 +8789,7 @@ $$
     &\stackrel{\hat \mathbf{c}}{\to}&
     \mathbf{B}^3 U(1)_{conn} 
     \\
-    \downarrow && \downarrow &&& \mathbf{H}
+    \downarrow && \downarrow &&&&& \in  \mathbf{H}
     \\
     \mathbf{B}G
     &\stackrel{\mathbf{c}}{\to}&
@@ -8793,7 +8797,7 @@ $$
     \\
     && &&& \downarrow^{\mathrlap{{\vert \Pi(-)\vert}}}
     \\
-    B G &\stackrel{c}{\to}& B^3 U(1) &&& L_{whe} Top
+    B G &\stackrel{c}{\to}& B^3 U(1) &&&&& \in L_{whe} Top
   }
 $$
 
@@ -8917,7 +8921,7 @@ This can be understood as a higher analog of the [[second Stiefel-Whitney class]
 
 From the point of view of [[extended prequantum field theory]] we are to regard each horizontal map in this tower as classifying the potential underlying [[instanton sector]] of an [[extended Lagrangian]]/[[prequantum n-bundle]], and we may ask if these lift to actual extended Lagrangian.
 
-The next step up the ladder is the universal [[second fractional Pontryagin class]]. Its [[twisted differential string structure|differential refinement]] as been constructed in ([FSS diff coc](#FiorenzaSchreiberStasheff)).
+The next step up the ladder is the universal [[second fractional Pontryagin class]]. Its [[twisted differential string structure|differential refinement]] has been constructed in ([FSS diff coc](#FiorenzaSchreiberStasheff)).
 
 $$
   \array{
@@ -8925,7 +8929,7 @@ $$
     &\stackrel{\widehat {\tfrac{1}{6}\mathbf{p}_2}}{\to}&
     \mathbf{B}^7 U(1)_{conn} 
     \\
-    \downarrow && \downarrow &&& \mathbf{H}
+    \downarrow && \downarrow &&&&& \in \mathbf{H}
     \\
     \mathbf{B}G
     &\stackrel{ \tfrac{1}{6}\mathbf{p}_2 }{\to}&
@@ -8933,7 +8937,7 @@ $$
     \\
     && &&& \downarrow^{\mathrlap{{\vert \Pi(-)\vert}}}
     \\
-    B String &\stackrel{\tfrac{1}{6}p_2}{\to}& B^7 U(1) &&& L_{whe} Top
+    B String &\stackrel{\tfrac{1}{6}p_2}{\to}& B^7 U(1) &&&&& \in L_{whe} Top
   }
   \,.
 $$
@@ -8943,7 +8947,7 @@ This now defines an [[extended Lagrangian]] for a  [[7d Chern-Simons theory]] on
 Coming back to the above arguments about the relation of the 7d theory to a 6d theory, these suggest that the 6d theory involves  [[prequantum n-bundle|prequantum 6-bundle]]-analog of the [[WZW model|WZW 2-bundle]]. 
 
 Indeed, the assignment of a higher Wess-Zumino-Witten-type [[prequantum n-bundle|prequantum (n-1)-bundle]] to an extended prequantum Lagrangian works very generally: the _prequantum $(n-1)$-bundle_ is the WZW-type $(n-1)$-bundle of the theory.
-Its underlying $(n-1)$-bundle is simply the [[looping]] of the $n$-bundle underlying the [[extended Lagrangian]]. Specifically, the [[string 2-group]]-[[7d Chern-Simons theory]] has a WZW- prequantum 6-bundle on the [[string 2-group]] which is modulated by the map
+Its underlying $(n-1)$-bundle is simply the [[looping]] of the $n$-bundle underlying the [[extended Lagrangian]]. Specifically, the [[string 2-group]]-[[7d Chern-Simons theory]] has a WZW- prequantum 6-bundle on the [[string 2-group]] which is modulated by the [[looping]] $\Omega(\tfrac{1}{6}\mathbf{p}_2)$ of the differential characteristic map $\tfrac{1}{2}\mathbf{p}_2$
 
 $$
   \array{
@@ -8968,6 +8972,8 @@ $$
   }
   \,.
 $$
+
+Here the lower factorization of this map shows canonically that this 6-bundle is [[equivariant]] with respect to the [[adjoint action|adjoint]] [[∞-action]] of the [[string 2-group]] on itself, the analog of the ordinary adjoint equivariance of the ordinary WZW 2-bundle.
 
 Therefore in summary we find the following identifications of [[extended prequantum field theory]] with (semi-)traditional notions:
 
