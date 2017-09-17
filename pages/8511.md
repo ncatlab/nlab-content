@@ -63,6 +63,8 @@ Non-linear variants of the idea of syzygy are
 
 * [[homotopical syzygy]]
 
+* [[computad]]
+
 and
 
 * [[homological syzygy]].
