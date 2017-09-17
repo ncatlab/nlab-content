@@ -3,26 +3,16 @@
 [[!include topos theory - contents]]
 </div>
 
-#Contents#
-* automatic table  of contents goes here
-{:toc}
+Given a [[topological space]] $X$, the [[open subspaces]] of $X$ form a [[poset]] which is in fact a [[frame]].  This is the __frame of open subspaces__ of $X$.  When thought of as a [[locale]], this is the __[[topological locale]]__ $\Omega(X)$.  When thought of as a [[category]], this is the __[[category of open subsets]]__ of $X$.
+
+Similarly, given a [[locale]] $X$, the open subspaces of $X$ form a poset which is in fact a frame.  This is the __frame of open subspaces__ of $X$.  When thought of as a locale, this is simply $X$ all over again.  When thought of as a category, this is a [[site]] whose [[topos of sheaves]] is a __[[localic topos]]__.
 
 
-## Definition
-
-Given a [[topological space]] $X$, the [[open subspaces]] of $X$ form a [[poset]] which is in fact a [[frame]].  When thought of as a [[locale]], this is the __locale of open subspaces__ of $X$.
-
-
-## Properties
-
-If $X$ is a [[sober space]], we tend to identify it with its locale of opens.  Conversely, a locale has __[[locale with enough points|enough points]]__ if it is [[isomorphisms|isomorphic]] to the locale of opens of some space $X$.
-
-
-[[!redirects locale of opens]]
-[[!redirects locales of opens]]
-[[!redirects locale of open sets]]
-[[!redirects locales of open sets]]
-[[!redirects locale of open subsets]]
-[[!redirects locales of open subsets]]
-[[!redirects locale of open subspaces]]
-[[!redirects locales of open subspaces]]
+[[!redirects frame of opens]]
+[[!redirects frames of opens]]
+[[!redirects frame of open sets]]
+[[!redirects frames of open sets]]
+[[!redirects frame of open subsets]]
+[[!redirects frames of open subsets]]
+[[!redirects frame of open subspaces]]
+[[!redirects frames of open subspaces]]
