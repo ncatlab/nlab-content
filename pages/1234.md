@@ -5,20 +5,28 @@
 
 ## Idea
 
-The category of _pure_ [[motives]] has [[smooth variety|smooth]] [[projective varieties]] as its [[objects]], while the category of [[mixed motives]] is supposed to be constructed from all [[smooth varieties]].  
+[[Grothendieck]] conjectured that every [[Weil cohomology theory]] factors uniquely through some category, which he called the category of motives.  For [[smooth variety|smooth]] [[projective varieties]] (over some field $k$) such a category was given by Grothendieck himself, called the category of pure Chow motives.  For general smooth varieties the category is still conjectural, see [[mixed motives]].
 
-Specifically, a category of _pure [[Chow motives]]_ is informally a certain linearization or [[additive and abelian categories|abelianization]] of a category of (say smooth projective) [[algebraic varieties]] over a field.
+## Definition
 
-See also [[motive]]
+Fix some [[adequate equivalence relation]] $\sim$ (e.g. [[rational equivalence]]).  Let $Z^i(X)$ denote the group of $i$-codimensional [[algebraic cycles]] and let $A^i_\sim(X)$ denote the quotient $Z^i(X)/\sim$.
 
-+--{.query}
-THE FOLLOWING IS NOT A DEFINITION, just a rough description of steps which require lots of further details to become a definition. 
-=--
+Consider the category of [[correspondences]] $Corr_\sim(k)$ whose objects are smooth [[projective varieties]] and morphisms are
+$$Corr(h(X),h(Y)) = \bigoplus_\alpha A^{n_i}_\sim(X_i \times Y)$$
+where $(X_i)$ are the [[irreducible components]] of $X$ and $n_i$ are their respective [[dimensions]].  The composition of two morphisms $\alpha \in Corr(X,Y)$ and $\beta \in Corr(Y,Z)$ is given by
+$$ p_{XZ,*} (p_{XY}^*(\alpha) . p_{YZ}^*(\beta)) $$
+where $p_{XY}$ denotes the projection $X \times Y \times Z \to X \times Y$ and so on, and $.$ denotes the [[intersection product]] in $X \times Y \times Z$.  There is a canonical [[contravariant functor]] $h : SmProj(k) \to Corr(k)$ from the category of smooth projective varieties over $k$ given by mapping $X \mapsto X$ and a morphism $f : X \to Y$ to the [[image]] of its [[graph morphism]] $\Gamma_f : X \to X \times Y$.  The category of correspondences is [[symmetric monoidal category|symmetric monoidal]] with $h(X) \otimes h(Y) = h(X \times Y)$.  We also define a category $Corr_\sim(k, A)$ of correspondences with [[coefficients]] in some [[commutative ring]] $A$, by tensoring the morphisms with $A$; this is an $A$-[[linear category]] [[additive category|additive]] [[symmetric monoidal category|symmetric monoidal]] category.
 
-Given an [[adequate equivalence relation]] for algebraic cycles (the typical 4 choices are the rational, numerical, algebraic and homological equivalences), one constructs a version of [[Chow ring]]s, or what is axiomatically called a [[Weyl cohomology theory]] for varieties; the treatment of adequate relations typically involves a nontrivial tool, the so called [[Chow moving lemma]]. To define the category of __effective pure motives__, one starts with the category of smooth varieties over a field $k$, then enlarges the hom-sets between any two objects $X,Y$ by including a linear version of [[span|correspondence]]s, which are roughly the Chow cohomology classes of cycles on $X\times Y$. This gives an [[additive category]]; its [[Karoubian category|Karoubian envelope]] with formally inverted [[Lefschetz motive]] is the category of effective pure motives over $k$. The Lefschetz motive is inverted in order to make the tensor category of motives [[rigid monoidal category|rigid]].
+The [[Karoubi envelope]] (pseudoabelianisation) of this category $Corr_\sim(k)$ is called the category of **effective pure motives** (with coefficients in $A$ and with respect to the equivalence relation $\sim$), denoted $Mot^eff_\sim(k, A)$.  Explicitly its objects are pairs $(h(X), p)$ with $X$ a smooth projective variety and $p \in Corr(h(X), h(Y))$, and morphisms from $(h(X), p)$ to $(h(Y), q)$ are compositions $q \circ \alpha \circ p$ with $\alpha \in Corr(h(X), h(Y))$.  This is still a [[symmetric monoidal category|symmetric monoidal]] category with $(h(X), p) \otimes (h(Y), q) = (h(X \times Y), p \times q)$.  Further it is [[Karoubian category|Karoubian]], $A$-[[linear category|linear]] and [[additive category|additive]].
 
-see also
+There is a decomposition $h(\mathbf{P}^1_k) = h(\Spec(k)) \oplus \mathbf{L}$ of the motive of the [[projective line]] for some motive $\mathbf{L}$; $\mathbf{L}$ is called the [[Lefschetz motive]].  Finally to get a [[rigid category]] we formally invert the Lefschetz motive to get a category $Mot_\sim(k, A)$ of **pure motives** (with coefficients in $A$ and with respect to $\sim$).  This is a [[rigid category||rigid]], [[Karoubian category|Karoubian]], [[symmetric monoidal category]].  Its objects are triples $(h(X), p, n)$ with $n \in \mathbf{Z}$.
 
+When $\sim$ is [[rational equivalence]], $A^*_\sim$ are the [[Chow groups]], and $Mot_\sim(k)$ is called the category of **pure Chow motives**.
+
+## See also
+
+* [[motive]]
+* [[mixed motive]]
 * [[Voevodsky motive]]
 
 ##References##
@@ -28,6 +36,8 @@ see also
 *  Mihnyong Kim, [Classical Motives: Motivic $L$-functions](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf)
 
 * Bruno Kahn, [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
+
+* Sujatha, _Motives from a categorical point of view_.  Lecture notes (2008).  [url](http://www.math.tifr.res.in/~sujatha/ihes.pdf)
 
 category: algebraic geometry
 
