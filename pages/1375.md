@@ -101,6 +101,8 @@ $$
 
 One can define $\Phi$-symmetric $F$-spectra in a category $C$, where $\Phi$ is a [[graded monoid]] in the [[category]] of [[groups]] and $F : C \to C$ is a $\Phi$-symmetric [[endofunctor]] of $C$.  Here we follow [Ayoub](#Ayoub).
 
+(One recovers the classical case described at [[spectrum]] by taking $C$ to be the [[category]] of [[pointed spaces]], $\Phi$ to be the trivial [[graded monoid]], and $F$ to be the [[suspension functor]].)
+
 1.  Let $\Phi$ be a [[graded monoid]] in the category of [[groups]].  Explicitly this is the data of [[groups]] $\Phi_n$ for all $n \in \mathbf{N}$ with morphisms $\Phi_m \times \Phi_n \to \Phi_{m+n}$ for all $m,n \ge 0$ (subject to various axioms...).  $\Phi$ will usually be either $\Sigma = (\Sigma_n)_n$, the [[graded monoid]] of [[symmetric groups]], or $1 = (1_n)_n$, the [[graded monoid]] of [[trivial group]]s.
 
 2.  A **$\Phi$-[[symmetric sequence]]** in $C$ is a [[sequence]] of objects $(X_n)_{n \ge 0}$ together with [[actions]] $a_n : \Phi_n \to \Aut_C(X_n)$.  We write $Seq(\Phi, C)$ for the category of $\Phi$-[[symmetric sequences]].  See [[symmetric sequence]] for details.
