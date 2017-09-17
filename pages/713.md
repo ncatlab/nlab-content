@@ -17,7 +17,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 Passing from a [[category]] $C$ to its [[presheaf]] category $PSh(C) := [C^{op},Set]$ may be regarded as the operation of
 "freely adjoining [[colimit]]s to $C$". 
@@ -33,7 +33,7 @@ is the **free cocompletion** of $C$.
 The [[universal property]] of the [[Yoneda embedding]] is expressed in terms of the [[Yoneda extension]] of any [[functor]] $F : C \to D$ to a category $D$ with colimits.
 
 
-# Technical details #
+## Technical details 
 
 
 The [[Yoneda embedding]]
@@ -54,7 +54,7 @@ This "free cocompletion" property generalizes to [[enriched category]] theory. I
 If $C$ is not small, then its free cocompletion still exists, but it is not the category of all presheaves on $C$.  Rather, it is the category of [[small presheaves]] on $C$, i.e. presheaves that are small colimits of representables.
 
 
-# Gentle explanation #
+## Gentle explanation 
 
 This section is a slightly new sort of experiment.
 Here [[John Baez]] would like to explain this remark to [[Mike Stay]]:
@@ -101,7 +101,7 @@ Our job is to understand how to construct this $\widehat{F}$.
 
 But before we do that:
 
-##Why do we care?##
+### Why do we care?
 
 There are many reasons why this theorem is important.  Mike Stay needs it to convert between two equivalent descriptions of [[profunctors]] from a category $A$ to a category $B$.  On the one hand, we can think of them as [[functor|functors]]
 
@@ -197,8 +197,9 @@ Now for one more exercise:
 
 [[Mike Stay]]:  I don't know.  Something about naturality?
 
-##How should we think about this, intuitively?##
-  
+### How should we think about this, intuitively?
+
+ 
 When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in [[colimit]]s (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a [[decategorification|decategorified]] analogue:
 
 **Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \tilde{A} \to B$ making this triangle commute:
@@ -232,62 +233,8 @@ Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to 
 
 [[John Baez]]: You're right: in some gold-plated treatment it would be good to carefully distinguish between commutative monoids and their underlying categories, or cocomplete categories and their underlying categories.  That would be especially nice if we wanted to see 'free commutative monoid' or 'free cocompletion' as some sort of [[monad]].  But let's prove the Theorem first and gold-plate it later, in the section below called **Free cocompletion as a pseudomonad**.
 
-##But really: why should we care?##
 
-[[Eric]]: Will this Theorem also help us understand [[An Exercise in Kantization]]?
-
-[[John Baez]]:  I don't know and I don't really care.  I certainly don't want to talk about that stuff here!  But if you need to understand left Kan extensions or coends, you should find this Theorem good practice. 
-
-[[Urs Schreiber]]: At least the [[Yoneda extension]] that is being discussed here is a special case of a left [[Kan extension]].
-
-[[John Baez]]: Okay, so maybe this class will help Eric.  But if Eric is the sort of guy who likes vector spaces better than commutative monoids, he may prefer to understand the Theorem as a souped-up analogue of _this_:
-
-**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the vector space with elements of $A$ as its basis, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a vector space, given any function $F : A \to B$, there is a linear operator $\tilde{F} : \tilde{A} \to B$ making this triangle commute:
-$$
-  \array{
-     A &\stackrel{F}{\to}& B
-     \\
-     \downarrow^y & \nearrow_{\tilde{F}}
-     \\
-     \tilde{A}
-  }
-  
-$$
-
-**Proof.** The proof here is easy.   Elements of $\tilde{A}$ are linear combinations of elements of $A$, like
-
-$$ x = \sum c_i a_i $$
-
-with some coefficients $c_i$.  So, $\tilde{F}$ is determined by the fact that it's linear and acts like $F$ on guys in $A$:
-
-$$\tilde{F}(x) = \tilde{F} (\sum c_i a_i) =
-\sum c_i \tilde{F}(a_i) = \sum c_i F(a_i)  $$
-
-Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to check some stuff.  Check that $\tilde{F}$ is well-defined.  Check that it's linear.  Check that it makes the diagram commute.  Check that it's unique.  All this is follow-your-nose stuff.
-
-[[Eric]]: Maybe this is _too_ pedestrian, but if we assume $A$ is finite and $B$ is finite dimensional, we can do this with matrices. Given $a_i\in A$, we have
-
-$$y(a_i) = \sum_j y_{ij} a_j\quad\text{and}\quad\tilde{F}\circ y(a_i) = \sum_i y_{ij} \tilde{F}(a_j) = \sum_{j,k} y_{ij} \tilde{F}_{jk} b_k.$$
-
-Also,
-
-$$F(a_i) = \sum_k F_{ik} b_k.$$
-
-If the triangle commutes, we have
-
-$$F_{ik} = \sum_j y_{ij} \tilde{F}_{jk}.$$
-
-Therefore, we can determine $\tilde{F}$ as long a $y$ has a right inverse (which the obvious inclusion does). In hindsight, it is obvious. If $\tilde{F}\circ y = F\implies \tilde{F} = F\circ y^{-1}$.
-
-[[John Baez]]: This is a slightly bizarre argument, but it can probably be rescued.  $F$ is not a linear operator: it's just a function from a set $A$ to a vector space $B$.  So, it's slightly bizarre to write down a _matrix_ for $F$ as you do above!  Nonetheless, if you think it about it, there's a perfectly sensible way to use a matrix to describe a function from a set to a vector space with a chosen basis.  And what the theorem is doing is using this matrix to define the linear operator $\tilde{F}$ from $\tilde{A}$ to $B$.
-
-[[Eric]]: Bizarre?? But this is exactly the way I meant it.
-
-[[John Baez]]: Okay, great.  The bizarre part was that you didn't explain yourself: you introduced this matrix $F_{ij}$ without saying what it was, leaving us to guess that you'd invented a new idea: using a matrix to describe a map from a set to a vector space.  To add to the fun, you also introduced _another_ matrix $\tilde{F}_{ij}$ which happens to be precisely _equal_ to $F_{ij}$, but _means something different_.  But all's well that ends well: I eventually guessed what you meant, and now everything is hunky-dory.  
-
-And indeed, all these ideas have nice analogues in the categorified version---the Theorem I'm struggling to get Mike to understand!  If we live long enough, we'll see that [[profunctors]] are categorified matrices.  But maybe we should just prove the Theorem and then ponder the analogies further.   So....
-
-##Proving the theorem##
+### Proving the theorem
 
 Okay, now let's stop fiddling around and try to prove the bloody Theorem:
 
@@ -392,7 +339,7 @@ Lo and behold --- now we have a _formula_ for $\widehat{F}$.  So, we just need t
 But I bet you want me to actually follow my nose this time.
 
 
-# Free cocompletion as a pseudomonad#
+## Free cocompletion as a pseudomonad
 
 [[David Corfield]]: So is this 'free cocompletion' part of  an adjunction between the category of categories and the category of cocomplete categories (modulo size worries?).
 Or should we think of it as part of a [[pseudoadjunction]] between _2-categories_?  (I would start a page on that, but how are naming conventions going in this area?)
@@ -440,13 +387,13 @@ we're stuck: the '$Cat$' at right contains larger categories than the one at lef
 
 In [their work on species](http://www.lacim.uqam.ca/~gambino/species.pdf), Fiore, Gambino, Hyland and Winskel had to confront this issue.  In one draft of this paper they had a very artful and sophisticated device for dealing with this size problem.  In the latest draft they seem to have sidestepped it entirely: you'll see they discuss the 'free symmetric monoidal category on a category' pseudomonad, but never the 'free cocomplete category on a category' pseudomonad, even though they _do_ use the $\widehat{C}$ construction all over the place.  Somehow they've managed to avoid the need to consider this construction as a pseudomonad!
 
-# In higher category theory
+## In higher category theory
 
 One can ask for the notion of free cocompletion in the wider context of [[higher category theory]].
 
 * for [[(∞,1)-category]] theory there is [[free (∞,1)-cocompletion]] .
 
-# References #
+## References 
 
 This reference might also give helpful clues:
 
