@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A notion of _[[equality]]_ in [[type theory]] involving the notion of _[[judgement]]_.
+
+## References
+
+* Robin Adams, _Pure type systems with judgemental equality_, Journal of Functional Programming, Volume 16 Issue 2(2006)   ([web](http://dl.acm.org/citation.cfm?id=1114675))
+
+* Vincent Siles, Hugo Herbelin, _Equality is typable in semi-full pure type systems_ ([pdf](http://pauillac.inria.fr/~herbelin/publis/lics-SilHer10-pts-typed-conv.pdf))
+
+[[!redirects judgemental equality]]
+[[!redirects judgmental equalities]]
+[[!redirects judgemental equalities]]
