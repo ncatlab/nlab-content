@@ -151,7 +151,7 @@ $$
   \,.
 $$ 
 
-#### As a mapping space object
+#### As a mapping space object {#AsMappingSpaceObject}
 
 +-- {: .un_defn}
 ###### Definition/Proposition
@@ -162,19 +162,27 @@ $$
   S^1 \in Top \simeq \infty Grpd \stackrel{LConst}{\hookrightarrow} \mathbf{H}
 $$
 
-for the [[circle]]. In [[Top]] this is the usual topological circle. In [[∞Grpd]] this is (the [[homotopy type]] of) the [[fundamental ∞-groupoid]] of the topological circle. We may tink of this as the [[(∞,1)-pushout]]
+for the [[circle]]. In [[Top]] this is the usual topological circle. In [[∞Grpd]] this is (the [[homotopy type]] of) the [[fundamental ∞-groupoid]] of the topological circle. We may think of this as the [[(∞,1)-pushout]]
+
+$$
+  S^1 \simeq * \coprod_{* \coprod *} *
+$$
+
+hence as the universal [[cocone]]
 
 $$
   \array{
     * \coprod * &\to& *
     \\
-    \downarrow && \downarrow
+    \downarrow &\swArrow_{\simeq}& \downarrow
     \\
     * &\to& S^1
   }
 $$
 
-in $\infty Grpd$. In $\mathbf{H}$ we still write $S^1$ for the [[constant ∞-stack]] on this, the image of this under $LConst$. Since $LConst$ is a [[left adjoint]] and hence preserves this oushout, there is no risk of confusion.
+in $\infty Grpd$. 
+
+In $\mathbf{H}$ we still write $S^1$ for the [[constant ∞-stack]] on this, the image of this under $LConst$. Since $LConst$ is a [[left adjoint]] and hence preserves this poushout, there is no risk of confusion.
 
 =--
 
@@ -196,12 +204,53 @@ $$
 
 =--
 
-Since every [[(∞,1)-topos]] is a [[cartesian closed (∞,1)-category]] we have for every object $X \in \mathbf{H}$ an [[internal hom]]-[[(∞,1)-functor]]
++-- {: .un_remark}
+###### Remark
+
+Informally the $(\infty,1)$-pushout $* \coprod_{* \coprod *} *$ may be thought of as 
+
+* the disjoint union of two points $*_1$, $*_2$;
+
+* equipped with _two_ non-equivalent abstract [[homotopies]] between them
+
+  $$
+    S^1 
+    =
+   \left\{
+    \array{
+       & \nearrow \searrow^{\mathrlap{\simeq}}
+       \\
+       *_1 && *_2
+       \\
+       & \searrow \nearrow_{\mathllap{\simeq}}
+    }
+    \right\}
+    \,.
+  $$ 
+
+This equivalent way of modelling the circle not as a single point with an automorphism, but as two points with two isomorphisms is what connects directly to the definition of the free loop space object. This we now come to. It is also the fundamenal source of the basic structure of [[Hochschild cohomology|Hochschild (co)homology]] (as discussed there).
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+
+Every [[(∞,1)-topos]] is a [[cartesian closed (∞,1)-category]]: we have for every object $X \in \mathbf{H}$ an [[internal hom]]-[[(∞,1)-functor]]
 
 $$
   [X,-] : \mathbf{H} \to \mathbf{H}
   \,.
 $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is discussed at [[(∞,1)-topos]] in the section <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">Closed monoidal structure</a>.
+
+=--
 
 +-- {: .un_prop}
 ###### Proposition
@@ -218,7 +267,14 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This follows from the above by the fact (see <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">closed monoidal structure on (∞,1)-toposes</a>) that the internal hom in an $(\infty,1)$-topos preserves finite colimits in its first argument and all limits in its second argument. This yields
+This follows from the above by the fact (see <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#ClosedMonoidalStructure">closed monoidal structure on (∞,1)-toposes</a>) that the internal hom in an $(\infty,1)$-topos preserves finite colimits in its first argument and satisfies 
+
+$$
+  [*,X] \simeq X
+  \,.
+$$
+
+This yields
 
 $$
   \begin{aligned}
