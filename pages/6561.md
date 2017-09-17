@@ -42,3 +42,4 @@ Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www-conference.
 
 
 [[!redirects 6d (2,0)-susy QFT]]
+[[!redirects 6d (2,0)-superconformal QFT]]
