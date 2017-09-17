@@ -29,7 +29,7 @@ For $C$ a [[permutative category]] its [[nerve]]/[[geometric realization]] $\ver
 
 In particular for $R$ a [[topological ring]] one considers $C$ a [[skeletal category|skeleton]] of the [[groupoid]] of (finitely generated) [[projective modules]] over $R$. Then the K-theory of $C$ is the [[algebraic K-theory]] of $R$ (e.g. [May, p. 25](#May))
 
-By ([Dwyer-Kan 80](#DwyerKan80)) the operation $\Omega B (-)$ is the [[derived functor]] of [[group completion]], so that this construction ought to be a model for the [[K-theory of a symmetric monoidal (infinity,1)-category]].
+By ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) the operation $\Omega B (-)$ is the [[derived functor]] of [[group completion]], so that this construction ought to be a model for the [[K-theory of a symmetric monoidal (infinity,1)-category]].
 
 ### Via Gamma spaces
 
