@@ -2,7 +2,6 @@ Let $X$ and $Y$ be [[topological spaces]]. The set $Map(X,Y)$ (often denoted als
 
 If $Y$ is a [[metric space]] then the compact-open topology is the _topology of uniform convergence on compact subsets_ in the sense that $f_n \to f$ in $Map(X,Y)$ with the compact-open topology iff for every compact subset $K\subset X$, $f_n \to f$ uniformly on $K$. If (in addition) the domain $X$ is compact then this is the _topology of uniform convergence_.
 
-The compact-open topology is most sensible when the topology of $X$ is [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]], for in this case $Map(X,Y)$ with the compact-open topology is an [[exponential object]] $Y^X$ in the category $Top$ of all topological spaces.  This implies that we have an [[exponential law for spaces]] $Top(X,Map(Y,Z))\cong Top(X\times Y,Z)$ whenever $Y$ is locally compact Hausdorff.  See also [[convenient category of topological spaces]].
-
+The compact-open topology is most sensible when the topology of $X$ is [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]], for in this case $Map(X,Y)$ with the compact-open topology is an [[exponential object]] $Y^X$ in the category $Top$ of all topological spaces.  This implies the [[exponential law for spaces]] , i.e. the adjunction map is a bijection $Top(X,Map(Y,Z))\cong Top(X\times Y,Z)$ whenever $Y$ is locally compact Hausdorff; and it becomes a homeomorphism $Map(X,Map(Y,Z))\cong Map(X\times Y,Z)$ if in addition $X$ is also Hausdorff. See also [[convenient category of topological spaces]].
 
 [[!redirects compact open topology]]
