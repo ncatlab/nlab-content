@@ -53,9 +53,9 @@ There are various objects that model the abstract notion of 2-groupoid.
 
 ## Strict 2-groupoids
 
-The general notion of 2-groupoid is also called _weak 2-groupoid_ to distinguish from the special case of **strict 2-groupoids**. A strict 2-groupod is a [[strict 2-category]] in which all morphisms are strictly invertible. This is equivalently a [[Grpd]]-[[enriched category]].
+The general notion of 2-groupoid is also called _weak 2-groupoid_ to distinguish from the special case of **strict 2-groupoids**. A strict 2-groupoid is a [[strict 2-category]] in which all morphisms are strictly invertible. This is equivalently a [[Grpd]]-[[enriched category]].
 
-This is a [[strict omega-groupoid]] in which all [[k-morphism]]s for $k \gt 2$ are [[identities]]. This is equivalently a [[crossed complex]] of the form $(G_2 \to G_2 \stackrel{\to}{\to} G_0)$.
+This is a [[strict omega-groupoid]] in which all [[k-morphism]]s for $k \gt 2$ are [[identities]]. This is equivalently a [[crossed complex]] of the form $(G_2 \to G_1 \stackrel{\to}{\to} G_0)$.
 
 Strict 2-groupoids embed into all 2-groupoids modeled by bigroupoids by regarding a strict 2-category as a special case of a [[bicategory]].
 
