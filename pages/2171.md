@@ -109,7 +109,7 @@ Here a _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n
 
 
 
-(This is a picture of  3 strand braid.) 
+(This is a picture of a 3 strand braid.) 
 
 We can transform / 'isotope' these braid diagrams just as we can transform [[knot diagrams]], again using [[Reidemeister moves]]. The 'isotopy' classes of braid diagrams form a group in which the composition is obtained by putting one diagram above another. 
 
@@ -315,8 +315,23 @@ This is the inverse of the first 3-braid we saw.
 
 There are useful [[group presentations]] of the braid groups.   We will return later to the interpretation of the [[generators and relations]] in terms of diagrams. 
 
+## Geometric definition 
 
-##A presentation of $Br_{n+1}$
+Let $C_n \hookrightarrow \mathbb{C}^n$ be the space of configurations of $n$ points in the [[complex plane]], whose elements are those $n$-tuples $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. The [[symmetric group]] $S_n$ acts on $C_n$ by permuting coordinates. Let $C_n/S_n$ be the orbit space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), and let $[z_1, \ldots, z_n]$ be the image of $(z_1, \ldots, z_n)$ under the quotient $\pi: C_n \to C_n/S_n$. We take $p = (1, 2, \ldots, n)$ as basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as basepoint for $C_n/S_n$. 
+
++-- {: .num_defn} 
+###### Definition 
+The _braid group_ $Br_n$ is the [[fundamental group]] $\pi_1(C_n/S_n, [p])$. The _pure braid group_ $P_n$ is $\pi_1(C_n, p)$. 
+=-- 
+
+Evidently a braid $\beta$ is represented by a path $\alpha: I \to C_n/S_n$ with $\alpha(0) = [p] = \alpha(1)$. Such a path may be uniquely lifted through the covering projection $\pi: C_n \to C_n/S_n$ to a path $\tilde{\alpha}$ such that $\tilde{\alpha}(0) = p$. The end of the path $\tilde{\alpha}(1)$ has the same underlying subset as $p$ but with coordinates permuted: $\tilde{\alpha}(1) = (\sigma(1), \sigma(2), \ldots, \sigma(n))$. Thus we have a map $\beta \mapsto \sigma$ appearing as the quotient map of an exact sequence 
+
+$$1 \to P_n \to Br_n \to S_n \to 1$$ 
+
+which is part of a long exact homotopy sequence corresponding to the fibration $\pi: C_n \to C_n/S_n$. 
+
+
+## A presentation of $Br_{n+1}$
 
 The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]] given by 
 
