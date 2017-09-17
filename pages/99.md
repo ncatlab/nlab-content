@@ -49,7 +49,7 @@ Let $\mathfrak{g}$ be a finite-dimensional [[Lie algebra]]. The **Weil algebra**
 
 * equipped with a [[derivation]] $d : W(\mathfrak{g}) \to W(\mathfrak{g})$ that makes this a [[dg-algebra]], defined by the fact that on $\mathfrak{g}^*$ it acts as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ plus the degree shift morphism $\mathfrak{g}^* \to \mathfrak{g}^*$.
 
-This Weil algebra has trivial [[chain homology and cohomology|cohomology]] and sits in a sequence
+This Weil algebra has trivial [[chain homology and cohomology|cohomology]] everywher (except in degree 0 of course) and sits in a sequence
 
 $$
   CE(\mathfrak{g}) \leftarrow W(\mathfrak{g})
@@ -388,7 +388,7 @@ Notice the evident
 +-- {: .un_lemma}
 ###### Observation
 
-The [[cochain cohomology]] of $F(\mathfrak{g})$ vanishes.
+The [[cochain cohomology]] of $F(\mathfrak{g})$ vanishes in positive degree.
 
 =--
 
@@ -802,7 +802,7 @@ A survey of Weil algebras for Lie algebras is also available at
 
 * [[eom|Encyclopedia of Mathematics]]: [Weil algebra of a Lie algebra](http://eom.springer.de/W/w130050.htm)
 
-Weil algebra for [[8-Lie algebra]]s and their role in defining [[invariant polynomial]]s and [[Chern-Simons element]]s on $\infty$-Lie algebras from [[8-Lie algebra cocycle]] are considered in
+Weil algebra for [[L-infinity algebra]]s and their role in defining [[invariant polynomial]]s and [[Chern-Simons element]]s on $\infty$-Lie algebras from [[infinity-Lie algebra cohomology|L-infinity algebra cocycle]] are considered in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
 {#SSSI}
