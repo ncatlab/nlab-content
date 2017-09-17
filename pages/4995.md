@@ -853,7 +853,7 @@ is an equivalence.
 The pair of classes
 
 $$
-  ($\mathbf{\Pi}-equivalence, \mathbf{\Pi}-closed morphisms)
+  (\mathbf{\Pi}-equivalences, \mathbf{\Pi}-closed morphisms)
 $$
 
 is an [[orthogonal factorization system in an (infinity,1)-category|orthogonal factorization system]] in $\mathbf{H}$.
@@ -893,7 +893,7 @@ $$
   \,.
 $$
 
-By naturality of the [[unit of an adjunction|adjunction unit]], this square is equivalent to
+By naturality of the [[unit of an adjunction|adjunction unit]], the total rectangle is equivalent to
 
 $$
   \array{
