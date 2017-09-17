@@ -1,5 +1,5 @@
 
-There are 18 countably infinite families and 26 sporadic [[finit group|finite]] [[simple group|simple]] [[group]]s.
+There are 18 countably infinite families and 26 sporadic [[finite group|finite]] [[simple group|simple]] [[group]]s.
 In slightly more detail, a finite simple group is one of the following
 
 1. A group of prime order
