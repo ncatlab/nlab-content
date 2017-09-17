@@ -13,11 +13,11 @@
 
   * [[locally full sub-2-category]]
 
-* [[sub-(∞,1)-category]] ([[sub-(∞,1)-catgeory - internal formulation|internal formulation]])
+* [[sub-(∞,1)-category]] ([[sub-(∞,1)-category - internal formulation|internal formulation]])
 
-  * [[reflective sub-(∞,1)-category]] ([[reflective sub-(∞,1)-catgeory - internal formulation|internal formulation]])
+  * [[reflective sub-(∞,1)-category]] ([[reflective sub-(∞,1)-category - internal formulation|internal formulation]])
 
-  * [[reflective product-preserving sub-(∞,1)-category]] ([[reflective product-preserving sub-(∞,1)-catgeory - internal formulation|internal formulation]])
+  * [[reflective product-preserving sub-(∞,1)-category]] ([[reflective product-preserving sub-(∞,1)-category - internal formulation|internal formulation]])
 
 
 * [[thick subcategory]] (of a [[triangulated category]])
