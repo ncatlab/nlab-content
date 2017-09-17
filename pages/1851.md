@@ -18,7 +18,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -119,6 +119,8 @@ This phenomenon has traditionally been known somewhat implicitly in the context 
 * [[conserved current]], [[charge]]
 
 * [[electric charge]], **magnetic charge**
+
+* [[flux]]
 
 ## References
 
