@@ -93,6 +93,54 @@ This is as for [[weak homotopy equivalences]], see the discussion at _[Relation 
 
 =--
 
+### Relation to mapping cones and homotopy (co)fibers
+ {#RelationToMappingCone}
+
++-- {: .num_prop }
+###### Proposition
+
+A [[chain map]] is a quasi-isomorphism precisely if its [[homotopy cofiber]] in the [[(∞,1)-category of chain complexes]] has trivial [[homology groups]].
+
+=--
+
+By basic properties discussed at _[[truncated object in an (∞,1)-category]]_.
+
+Concretely this means in particular the following.
+
++-- {: .num_prop }
+###### Proposition
+
+A [[chain map]] $f_\bullet : C_\bullet \to D_\bullet$ is a quasi-isomorphism precisely if its [[mapping cone]] $cone(f)_\bullet \in Ch_\bullet(\mathcal{A})$ has all trivial [[chain homology]] groups.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows for instance from the [[homology long exact sequence]]
+
+$$
+  \cdots
+  \to
+   H_{n+1}(c)\to H_{n+1}(D) \to H_{n+1}(cone(f))
+  \to 
+  H_n(C) \to H_n(D) \to H_n(cone(f))
+  \to
+  H_{n-1}(C) \to H_{n-1}(D) \to H_{n-1}(cone(f))  
+  \to
+  \cdots
+  \,.
+$$
+
+If here by assumption $H_n(cone(f)) = 0$ for all $n$, then this involves [[exact sequences]] of the form
+
+$$
+  0 \to H_n(C) \stackrel{H_n(f)}{\to} H_n(D) \to 0
+$$
+
+for all $n$. But this says that the [[kernel]] and [[cokernel]] of $H_n(f)$ are trivial for all $n$, hence that $H_n(f)$ is an [[isomorphism]] for all $n$, hence that $f_\bullet$ is a quasi-isomorphism.
+
+=--
 
 
 ## In homotopy theory
