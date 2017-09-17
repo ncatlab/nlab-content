@@ -5,14 +5,14 @@
 
 ## Idea
 
-The notion of _$A_\infty$-field_ is to the notion of [[A-∞ algebra]]/[[E-∞ rings]] as that of _[[field]]_ is to [[associative algebra]]/[[ring]].
+The notion of _$A_\infty$-field_ is to the notion of [[A-∞ algebra]] as that of _[[field]]_ is to [[associative algebra]]/[[ring]].
 
 ## Definition
 
 +-- {: .num_remark}
 ###### Remark
 
-An [[A-∞ ring]] $A$ is an **$\infty$-field** if $\pi_\bullet A$ is a [[graded field]].
+An [[A-∞ ring]] or in fact just an [[H-space]] $A$ is a **field** if $\pi_\bullet A$ is a [[graded field]].
 
 =--
 
@@ -21,7 +21,7 @@ For instance ([Lurie, lecture 24, def. 3](#LurieLecture)).
 
 ## Examples
 
-The [[Morava K-theory]] [[E-∞ rings]] $K(n)$ are essentially the only $E_\infty$-fields. See at _[Morava K-theory  -- As infinity-Fields](Morava+K-theory#AsInfinityFields)_.
+The [[Morava K-theory]] [[A-∞ rings]] $K(n)$ are essentially the only $A_\infty$-fields. See at _[Morava K-theory  -- As infinity-Fields](Morava+K-theory#AsInfinityFields)_.
 
 ## Related concepts
 
