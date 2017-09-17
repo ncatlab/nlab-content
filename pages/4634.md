@@ -202,9 +202,9 @@ For the approach of [[Bertrand Toën]]-[[Michel Vaquié]]-[[Gabriele Vezzosi]], 
 
 and the Ph.D. thesis of [[Marco Robalo]], under the supervision of [[Bertrand Toën]]:
 
-* [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012, [arxiv](http://arxiv.org/abs/1206.3645)
+* [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
 
-* [[Marco Robalo]], _Noncommutative Motives II: K-Theory and Noncommutative Motives_, June 2013, [arxiv](http://arxiv.org/abs/1306.3795)
+* [[Marco Robalo]], _Noncommutative Motives II: K-Theory and Noncommutative Motives_, June 2013, ([arxiv:1306.3795](http://arxiv.org/abs/1306.3795))
 
 Also the lectures notes:
 
