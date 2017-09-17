@@ -16,7 +16,7 @@ An alternative description of $sin$ is as the unique function $\mathbb{R}\to\mat
 $$ 1 - x^2 \leq \frac{sin(x)}{x} \leq 1 $$
 and 
 $$ sin 3 x = 3 sin x - 4 sin^3 x $$
-although this makes practical calculations rather difficult. (If you really care to know why this characterization works, you can look [here](http://ncatlab.org/toddtrimble/published/Characterization+of+sine).) 
+although this makes practical calculations rather difficult. (If you really care to know why this characterization works, you can look [here](http://ncatlab.org/toddtrimble/published/Characterization+of+sine). Or [here](http://nforum.mathforge.org/discussion/5773/a-short-note-for-todd-trimble/#Item_4).) 
 
 ### Tangential Remarks
 
