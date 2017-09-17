@@ -15,6 +15,9 @@ in the [[automorphism group]] of the [[fiber]] $P_{x_0}$ of the bundle. This is 
 
 ## Properties
 
+Proposition. If on a smooth principal bundle $P\to X$ there is a connection $\nabla$ whose holonomy group is $G$ then the structure group can be reduced to $G$. 
+
+
 (...)
 
 The [[Ambrose-Singer theorem]] states that the [[Lie algebra]] of the holonomy group of a [[connection on a bundle]] $\nabla$ on $X$ at a point $x \in X$ is spanned by the [[parallel transport]] $Ad_{tra_\nabla(\gamma)}(F_A(v \vee w))$ of the [[curvature]] $F_A$ evaluated on any $v \vee w \in \wedge^2 T_y X$ at $y \in X$ along any path $\gamma$ from $x \to y$.
