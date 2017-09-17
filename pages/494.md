@@ -439,6 +439,10 @@ Using the given [[isomorphism]], we may transfer the [[comonad]] structure on $L
 
 * [[adjoint triple]], [[adjoint quadruple]]
 
+* [[proadjoint]]
+
+* [[adjoint (infinity,1)-functor]]
+
 ## References
 
 For standard references see any of the standard references on [[category theory]], listed there, for instance 
