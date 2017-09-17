@@ -2,9 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Functional analysis
 +--{: .hide}
 [[!include functional analysis - contents]]
+=--
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
 =--
 #### AQFT
 +--{: .hide}
@@ -12,6 +20,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * automatic table of contents goes here
