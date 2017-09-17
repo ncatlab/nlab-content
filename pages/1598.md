@@ -179,6 +179,8 @@ The [[exceptional Lie groups]] incude
 
 * [[Hamiltonian dynamics on Lie groups]]
 
+* [[complex Lie group]]
+
 * [[Poisson Lie group]]
 
 * [[invariant differential form]], [[Maurer-Cartan form]]
@@ -188,6 +190,9 @@ The [[exceptional Lie groups]] incude
 
 ## References
 
+### General
+
+* Mark Haiman, lecture notes by [[Theo Johnson-Freyd]], _Lie groups_, Berkeley 2009 ([pdf](http://math.berkeley.edu/~theojf/LieGroups.pdf))
 
 ### On infinite-dimensional Lie groups
  {#ReferencesOnInfiniteDimensionalLieGroups}
