@@ -1,0 +1,59 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $C$ be a [[category]] with [[finite limits]]. A **[[coherent logic|coherent]] [[hyperdoctrine]]** over $C$ is a [[functor]]
+
+$$
+  P : C^{op} \to DistLattice
+$$
+
+from the [[opposite category]] of $C$ to the category of [[distributive lattices]], such that for every [[morphism]] $f : A \to B$ in $C$, the functor $P(A) \to P(B)$ has a [[left adjoint]] $\exists_f$ satisfying
+
+1. [[Frobenius reciprocity]];
+
+1. [[Beck-Chevalley condition]].
+
+## Examples
+
+### Powersets
+
+The [[powerset]] functor
+
+$$
+  P : Set^{op} \to DistLattice
+$$
+
+(sending a [[set]] to its [[power set]] and a [[function]] to the [[preimage]]-assignment) is a coherent hyperdoctrine. 
+
+### Over a coherent category
+
+Let $C$ be a [[coherent category]]. For every [[object]] $A \in C$ the [[poset of subobjects]] $Sub_C(A)$ is a [[distributive lattice]]. 
+
+The corresponding [[functor]]
+
+$$
+  C^{op} \to DistLattice
+$$ 
+
+from the [[opposite category]] of $C$ to the category of distributive lattices is called the **coherent hyperdoctrine** of $C$.
+
+## Related concepts
+
+* [[first-order hyperdoctrine]]
+
+
+[[!redirects coherent hyperdoctrines]]
