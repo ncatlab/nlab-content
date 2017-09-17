@@ -123,17 +123,23 @@ Gleason's original paper outlining the theorem is
 
 * A.M. Gleason "Measures on the closed subspaces of a Hilbert space," Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050).
 
-A monograph stating and proving both the classical theorem and extensions to von Neumann algebras is this:
+A standard textbook exposition of the theorem and its meaning is 
 
-* Hamhalter, Jan: "Quantum measure theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1038.81003&format=complete))
+* [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_ ,
+
+where it appears as theorem 2.3 (without proof).
+
+A monograph stating and proving both the classical theorem and extensions to [[von Neumann algebras]] is 
+
+* Jan Hamhalter, _Quantum measure theory_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1038.81003&format=complete))
 
 The classical theorem is proved also in this monograph:
 
-* K.R. Parthasarathy: _An Introduction to Quantum Stochastic Calculus_ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0751.60046&format=complete))
+* K. R. Parthasarathy, _An Introduction to Quantum Stochastic Calculus_ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0751.60046&format=complete))
 
 Gleason\'s Theorem for POVMs is proved here:
 
-* Paul Busch; 1999; _Quantum states and generalized observables: a simple proof of Gleason's theorem_; [arXiv](http://arxiv.org/abs/quant-ph/9909073)
+* Paul Busch, _Quantum states and generalized observables: a simple proof of Gleason's theorem_; (1999) ([arXiv](http://arxiv.org/abs/quant-ph/9909073)) 
 
 The failure of Gleason's theorem for _classical_ states (on [[Poisson algebra]]s) is discussed in
 
