@@ -8,7 +8,7 @@
 =--
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
 =--
 =--
 =--
@@ -116,6 +116,15 @@ That the [[geometric realization of simplicial topological spaces]] of a proper 
 In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topological space]], a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by [[Graeme Segal]] and then refined by Tammo tom Dieck.
 
 =--
+
+## Related concepts
+
+* [[simplicial topological space]], **nice simplicial topological space**
+
+* [[simplicial topological group]]
+
+* [[geometric realization of simplicial spaces]].
+
 
 ## References
 
