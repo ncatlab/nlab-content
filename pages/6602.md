@@ -3,6 +3,14 @@
 * table of contents
 {:toc}
 
+## Idea 
+
+(...)
+
+## Relation to 2d (2,0)-superconformal QFT
+
+The chiral de Rham complex of $X$ arises as the [[quantum observables]] of a [[2d (2,0)-superconformal QFT]] [[sigma-model]] with [[target space]] $X$.
+
 ## Related concepts
 
 *  [[chiral differential operator]], [[vertex operator algebra]], [[chiral algebra]]
