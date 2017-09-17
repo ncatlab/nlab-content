@@ -139,7 +139,8 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 * [[cohomological integration]], [[BV-BRST quantization]]
 
-## References {#References}
+## References 
+ {#References}
 
 The original textbook reference is
 
@@ -149,13 +150,15 @@ Comprehensive lecture notes include
 
 * R. Rosenfelder, _Path Integrals in Quantum Physics_ ([arXiv:1209.1315](http://arxiv.org/abs/1209.1315))
 
-Modern precise formulations of path integral technology for [[quantum mechanics]] can be found for instance in
+Generalization of the [[Feynman-Kac formula]] to quantum particles propagating on general compact [[Riemannian manifolds]] and charged under a [[gauge field]] given by a [[connection on a bundle]] is in
 
 * [[Christian Bär]], [[Frank Pfäffle]], _Path integrals on manifolds by finite dimensional approximation_,  J. reine angew. Math., (2008), 625: 29-57. ([arXiv:math.AP/0703272](http://arxiv.org/abs/math.AP/0703272))
 
-This discusses the path integral for the [[sigma-model]] given by a particle propagating on a  [[Riemannian manifold]] and charged under a [[gauge field]] given by a [[connection on a bundle]].
-
 * Dana Fine, Stephen Sawin, _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_ ([arXiv:0705.0638](http://arxiv.org/abs/0705.0638))
+
+Discussion in terms of [[Wiener measures]] is in
+
+* Vassili Kolokoltsov, _Path integration: connecting pure jump and Wiener processes_ ([pdf](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/kolokoltsov/minnesota.pdf))
 
 A rigorous discussion for [[phase spaces]] equipped with a [[Kähler polarization]] and a [[prequantum line bundle]] is in 
 
@@ -172,6 +175,10 @@ _Mathematical theory of Feynman path integrals. An introduction_ ([ZMATH](href="
 ormat=complete))
 * [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
 * [[Edward Witten]], _A new look at the path integral of quantum mechanics_, ([arxiv/1009.6032](http://arxiv.org/abs/1009.6032))
+
+Discussion of quantization of [[Chern-Simons theory]] via a [[Wiener measure]] is in
+
+* Adrian P. C. Lim, _Chern-Simons Path Integral on $\mathbb{R}^3$ using Abstract Wiener Measure_ ([pdf](http://www.math.cornell.edu/~pclim/Docs/papers/CSabe01.pdf))
 
 Lecture notes on [[quantum field theory]], emphasizing mathematics of the Euclidean path integrals and the relation to statistical physics are at
 
