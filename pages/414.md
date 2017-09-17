@@ -40,7 +40,15 @@ $$
   \,.
 $$
 
-Yet another way to say  this is that the [[hom-functor]] $Hom(P,-)$ preserves epimorphisms.
+Yet another way to say  this is that
+
+
++-- {: .num_defn #ByCovHomPreservingEpis}
+###### Definition
+
+An object $P$ is projective precisely if the [[hom-functor]] $Hom(P,-)$ preserves [[epimorphisms]].
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -82,8 +90,58 @@ This terminology refers to the existence of [[projective resolutions]], prop. \r
 * The [[axiom of choice]] can be phrased as "all objects of [[Set]] are projective."  See also [[internally projective object]] and [[COSHEP]].
 
 ## In abelian categories
+ {#InAbelianCats}
 
 Projective objects and [[injective objects]] in [[abelian categories]] $\mathcal{A}$ are of central interest in [[homological algebra]]. Here they appear as parts of [[cofibrant resolutions]] and [[fibrant resolutions]], respectively, in the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$, with respecto to one of the two standard [[model structures on chain complexes]].
+
+### Equivalent characterizations
+ {#EquivalentCharacterizationInAbelianCats}
+
++-- {: .num_prop #EquivalenceOfDefinitionsInAbelian}
+###### Proposition
+
+The following are equivalent
+
+1. $X \in \mathcal{A}$ is a projective object (in that it has the [[left lifting property]] against [[epimorphisms]], def. \ref{ByCovHomPreservingEpis});
+
+1. The [[hom-functor]] $Hom(X,-) : \mathcal{A} \to $ [[Ab]] is an [[exact functor]].
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+For every object $X$, the hom-functor $Hom(X,-)$ is a [[left exact functor]]. So the second statement is equivalently that it is also right exact precisely if $X$ is projective.
+
+=--
+
++-- {: .proof}
+###### Proof of prop. \ref{EquivalenceOfDefinitionsInAbelian}
+
+Let 
+
+$$
+  0 \to A \stackrel{i}{\hookrightarrow} B \stackrel{p}{\to} C \to 0
+$$
+
+be a [[short exact sequence]] and consider
+
+$$
+  Hom(X,A) 
+    \stackrel{Hom(X,i)}{\to}
+  Hom(X,B)
+   \stackrel{Hom(X,p)}{\to}
+  Hom(X,C)
+  \,.
+$$
+
+Since $Hom(X,-)$ is generally left exact, by the above remark, it preserves [[kernels]] and so $Hom(X,p)$ is a [[monomorphism]] and $ker( Hom(X,p) ) \simeq im ( Hom(X,i) )$, generally. 
+
+Therefore we are reduced to showing that $Hom(X,p)$ is an [[epimorphism]] precisely if $X$ is projective. But this is def. \ref{ByCovHomPreservingEpis}.
+
+
+=--
+
 
 ### Projective resolutions
 
@@ -136,8 +194,18 @@ If $\mathcal{A}$ has _enough projectives_ in the sense of defn \ref{EnoughProjec
 * For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See at _[[projective module]]_ for more on this.
 
 
+## Related concepts
+
+* **projective object**, [[projective presentation]], [[projective resolution]]. 
+
+  * [[projective module]]
+
+* [[injective object]], [[injective presentation]], [[injective resolution]]
+
+  * [[injective module]]
 
 [[!redirects enough projectives]]
 [[!redirects projective objects]]
 [[!redirects projective set]]
 [[!redirects projective sets]]
+,
