@@ -50,6 +50,9 @@ Some rigs which are neither rings nor distributive lattices include:
 * Polynomials with coefficients in any rig.
 * The set of isomorphism classes of objects in any [[distributive category]], or more generally in any [[rig category]].
 * The [[tropical rig]], which is $\mathbb{R}\cup \{\infty\}$ with addition $x\oplus y = min(x,y)$  and multiplication $x\otimes y = x+y$.
+
+ Tropical rigs are one of an important class of [[idempotent semirings]]. 
+
 * The [[ideals]] of a [[commutative ring]] form a rig under ideal addition and multiplication, where the unit and zero ideals are the unit and zero elements of the rig, respectively.  They also form a [[distributive lattice]] and therefore a rig in another way; note that the addition operation is the same in both rigs but the multiplication operation is different (being intersection in the lattice).
 
 
