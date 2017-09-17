@@ -54,7 +54,7 @@ The category $Set_*$ naturally comes with [[forgetful functor]] $p : Set_* \to S
 +-- {: .un_prop}
 ###### Proposition
 
-Equipped with the [[smash product]] $\otimes := \wedge$ of pointed set, $(Set_*, \weedge)$ is a [[closed monoidal category|closed]] [[symmetric monoidal category]].
+Equipped with the [[smash product]] $\otimes := \wedge$ of pointed set, $(Set_*, \wedge)$ is a [[closed monoidal category|closed]] [[symmetric monoidal category]].
 
 The [[internal hom]] $Set_*(X,Y)$ is the [[hom-set]] in $*/Set$ pointed by the morphism $X \to Y$ that sends everything to the basepoint in $Y$.
 
