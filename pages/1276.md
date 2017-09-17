@@ -20,14 +20,20 @@
 +-- {: .num_defn}
 ###### Definition
 
-Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]], say $M$, is __flat__ if [[tensoring]] with $M$ over $A$ as a [[functor]] from left $A$-modules to left $k$-modules is an [[exact functor]] (sends [[short exact sequences]] to short exact sequences).  
+Given a [[commutative ring]] (or $k$-[[associative algebra|algebra]]) $A$, a left $A$-[[module]], say $N$, is __flat__ if [[tensoring]] with $N$ over $A$ as a [[functor]] from left $A$-modules to left $k$-modules 
+
+$$
+  (-)\otimes_A N : Mod_A \to Mod_k
+$$
+
+is an [[exact functor]] (sends [[short exact sequences]] to short exact sequences).  
 
 =--
 
 +-- {: .num_remark}
 ###### Remarks
 
-* Tensoring with $M$ is automatically right exact, so it is equivalent to require that tensoring with $M$ be left exact.  Since [[Mod]] is [[finitely complete category|finitely complete]], this is also equivalent to requiring that tensoring with $M$ be a [[flat functor]].
+* Tensoring with $N$ is automatically right exact, so it is equivalent to require that tensoring with $N$ be left exact.  Since [[Mod]] is [[finitely complete category|finitely complete]], this is also equivalent to requiring that tensoring with $N$ be a [[flat functor]].
 
 * On an [[abelian category]], the notions of _[[exact functor]]_ and _[[flat functor]]_ coincide.
 
@@ -39,7 +45,7 @@ Given a [[ring]] (or $k$-algebra) $A$, a left $A$-[[module]], say $M$, is __flat
 
 There is a characterisation of flatness that says that a left $A$-module $M$ is flat if and only if "everything (that happens in $M$) happens for a reason (in $A$)".
 
-The meaning of this is akin to the existence of bases in vector spaces.  In a vector space, say $V$, if we have an identity of the form $\sum_i \alpha_i v_i = 0$ then we cannot necessarily assume that the $\alpha_i$ are all zero.  However, if we choose a basis then we can write each $v_i$ in terms of the basis elements, say $v_i = \sum_j \beta_{i j} u_j$, and substitute in to get $\sum_{i j} \alpha_i \beta_{i j} u_j = 0$.  Now as $\{u_j\}$ forms a basis, we can deduce from this that for each $j$, $\sum_i \alpha_i \beta_{i j} = 0$.  These last identities happen in the coefficient field, which is standing in place of $A$ in the analogy.
+The meaning of this is akin to the existence of [[basis of a vector space|bases in vector spaces]].  In a [[vector space]], say $V$, if we have an identity of the form $\sum_i \alpha_i v_i = 0$ then we cannot necessarily assume that the $\alpha_i$ are all zero.  However, if we choose a basis then we can write each $v_i$ in terms of the basis elements, say $v_i = \sum_j \beta_{i j} u_j$, and substitute in to get $\sum_{i j} \alpha_i \beta_{i j} u_j = 0$.  Now as $\{u_j\}$ forms a basis, we can deduce from this that for each $j$, $\sum_i \alpha_i \beta_{i j} = 0$.  These last identities happen in the coefficient field, which is standing in place of $A$ in the analogy.
 
 When translating this into the language of modules we cannot use bases so we have to be a little more relaxed.  The following statement is the right one.
 
@@ -47,7 +53,9 @@ Suppose there is some identity in $M$ of the form $\sum_i a_i m_i = 0$ with $m_i
 
 The module $M$ being flat is equivalent to being able always to do this.
 
-There is an alternative way to phrase this which is less element-centric.  The elements $m_i$ correspond to a morphism into $M$ from a free module, say $m \colon F \to M$.  The $a_i$ correspond to a morphism $a \colon F \to F$, multiplying the $i$th term by $a_i$.  That we have the identity $\sum_i a_i m_i = 0$ says that the composition $m a$ is zero, or that $m \colon F \to M$ factors through the coequaliser of $a$ and $0$.  Now we consider the elements $n_j$.  These define another morphism from a free module, say $n \colon E \to M$.  That the $m_i$ can be expressed in terms of the $n_j$ says that the morphism $m$ factors through $n$.  That is, there is a morphism $b \colon F \to M$ such that $m = n b$.  We therefore have to factorisations of $m$: one through $n$ and one through $\coker a$.  The question is as to whether these have any relation to each other.  In particular, does $\coker a \to M$ factor through $n$?  We can represent all of this in the following diagram.
+There is an alternative way to phrase this which is less element-centric.  The elements $m_i$ correspond to a [[morphism]] into $M$ from a [[free module]], say $m \colon F \to M$.  The $a_i$ correspond to a morphism $a \colon F \to F$, multiplying the $i$th term by $a_i$.  That we have the identity $\sum_i a_i m_i = 0$ says that the composition $m a$ is zero, or that $m \colon F \to M$ factors through the [[coequaliser]] of $a$ and $0$.  
+
+Now we consider the elements $n_j$.  These define another morphism from a free module, say $n \colon E \to M$.  That the $m_i$ can be expressed in terms of the $n_j$ says that the morphism $m$ factors through $n$.  That is, there is a morphism $b \colon F \to M$ such that $m = n b$.  We therefore have to factorisations of $m$: one through $n$ and one through the [[cokernel]] $\coker a$.  The question is as to whether these have any relation to each other.  In particular, does $\coker a \to M$ factor through $n$?  We can represent all of this in the following diagram.
 
 +-- {: style="text-align:center"}
 <svg width="222" height="136" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="14804">
@@ -180,11 +188,26 @@ There is an alternative way to phrase this which is less element-centric.  The e
 
 Saying that $M$ is flat says that this lift always occurs.
 
-Taking this a step further, we consider the filtered family of all finite subsets of $M$.  This generates a filtered family of finitely generated free modules with compatible morphisms to $M$.  So there is a morphism from the colimit of this family to $M$.  This morphism is surjective by construction.  To show that it is injective, we need to show that any element in one of the terms in the family that dies by the time it reaches $M$ has actually died on the way.  This is precisely what the above characterisation of flatness is saying: the element corresponding to $\sum_i a_i m_i$ that dies in $M$ is already dead by the time it reaches $E$.
+Taking this a step further, we consider the [[filtered category|filtered family]] of all finite [[subsets]] of $M$.  This generates a filtered family of [[finitely generated module|finitely generated]] [[free modules]] with compatible morphisms to $M$.  So there is a morphism from the [[colimit]] of this family to $M$.  This morphism is [[surjection|surjective]] by construction.  To show that it is [[injection|injective]], we need to show that any element in one of the terms in the family that dies by the time it reaches $M$ has actually died on the way.  This is precisely what the above characterisation of flatness is saying: the element corresponding to $\sum_i a_i m_i$ that dies in $M$ is already dead by the time it reaches $E$.
 
-Hence a module is flat if and only if it is a [[filtered colimit]] of free modules. 
+Hence a module is flat if and only if it is a [[filtered colimit]] of [[free modules]]. 
 
 This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
+
+## Properties
+
+A module is flat if and only if it is a [[filtered colimit]] of [[free modules]]. 
+
+
+## Related concepts
+
+* [[flat resolution lemma]]
+
+## References
+
+For instance section 3.2 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
 
 [[!redirects flat modules]]
