@@ -1,3 +1,4 @@
+[[!redirects marked simplicial set]]
 #Contents#
 * automatic table of contents goes here
 {:toc}
