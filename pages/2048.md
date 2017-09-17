@@ -72,7 +72,7 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 ## Related concepts
 
 * [[quasicoherent sheaf]]
-
+* [[triangulated categories of sheaves]]
 * [[Bondal-Orlov reconstruction theorem]]
 
 ##References
