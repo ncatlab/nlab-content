@@ -28,8 +28,15 @@ The much larger work has happened for decades building [[Mizar]]'s enormous libr
 
 * [[Coq]], [[Agda]]
 
+Projects for formalization of mathematics
+
+* [[ForMath]]
+
+* [[The QED Project]]
+
 
 ## References
+
 
 * Wikipedia, _[Proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)_
 
