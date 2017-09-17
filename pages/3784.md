@@ -51,6 +51,8 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[FRW spacetime]]
 
+* [[Einstein manifold]]
+
 ## Related concepts
 
 * [[gravity]], [[cosmology]]
