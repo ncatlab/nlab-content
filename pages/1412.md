@@ -436,6 +436,10 @@ Notice that all these objects $A$ do indeed behave, and can be treated like, gen
 
 * [[higher category theory and physics]]
 
+* [[motives in physics]]
+
+* [[string theory FAQ]]
+
 category: motivation
 
 [[!redirects motivation for sheaves, cohomology and higher stacks]]
