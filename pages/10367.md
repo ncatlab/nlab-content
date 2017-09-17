@@ -5,7 +5,7 @@
 
 ## Idea
 
-Many of the important theorems of [[measure theory]] fail to hold in full generality.  (See below Often these theorems are stated for [[sigma-finite measures]], but they do hold a bit more generally than that.  In fact, they hold for _localizable_ measures, and this fact *characterizes* the localizable measures.
+Many of the important theorems of [[measure theory]] fail to hold in full generality.  (See below under Theorems for which theorems we\'re talking about.)  Often these theorems are stated for [[sigma-finite measures]], but they do hold a bit more generally than that.  In fact, they hold for _localizable_ measures, and this fact *characterizes* the localizable measures.
 
 
 ## Definition
@@ -16,9 +16,10 @@ Given two measurable subsets $E$ and $F$, $E$ __essentially contains__ $F$ if th
 $$ \{ x\colon X \;|\; x \in F \;\Rightarrow\; x \in E \} $$
 is [[full set|full]]; or equivalently (using [[excluded middle]]) if $F \setminus E$ is [[null set|null]].
 
-Then $\mu$ is __localizable__ if the following conditions all apply:
+Then $\mu$ is __localizable__ if the following conditions both apply:
 
 *  Semifiniteness:  Every measurable set $E$ with positive measure essentially contains a measurable set with finite positive measure.  (We may strengthen 'essentially contains' to 'contains' in this clause.)
+
 *  Essential suprema:  Given any collection $\mathcal{C}$ of measurable sets, there is a measurable set $E$ such that:
 
    *  $E$ essentially contains each element of $\mathcal{C}$; and
@@ -26,7 +27,7 @@ Then $\mu$ is __localizable__ if the following conditions all apply:
 
    (This set $E$ is essentially unique, in that it essentially contains and is essentially contained in any other set with the same property; we call $E$ [[the]] __essential supremum__ of $\mathcal{C}$.)
 
-If we generalize to [[measures]] taking place in some space more general than $[0,\infty]$, then as long as a measure $\mu$ has an [[absolute value]] ${|\mu|}$ that takes values in $[0,\infty]$, then $\mu$ is __localizable__ if ${|\mu|}$ is.
+We generalize to [[measures]] taking place in some space other than $[0,\infty]$: a $\mu$ is __localizable__ if ${|\mu|}$ is, as long as $\mu$ has an [[absolute value]] (or [[total variation]]) ${|\mu|}$ that takes values in $[0,\infty]$.
 
 
 [[!redirects localizable measure]]
