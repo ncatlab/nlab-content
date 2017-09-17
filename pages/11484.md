@@ -85,3 +85,7 @@ Discussion over the [[complex numbers]] is in
 
 [[!redirects nodal cubic]]
 [[!redirects nodal cubics]]
+
+[[!redirects nodal singularity]]
+[[!redirects nodal singularities]]
+
