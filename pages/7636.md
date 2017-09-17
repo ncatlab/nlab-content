@@ -98,6 +98,40 @@ This ([Seely, theorem 6.3](#Seely)).
 
 We now discuss this in detail.
 
+### Type theories
+
+For definiteness, self-containedness and for references below, we say what a [[dependent type theory]] is, following ([Seely, def. 1.1](#Seely)).
+
++-- {: .num_defn}
+###### Definition
+
+A **[[dependent type theory]]** or **[[Martin-Löf type theory]]** $T$ is a _[[theory]]_ with some [[signature (in logic)]] of function symbols with values in types and in terms (...) subject to the following rules
+
+1. **type formation rules** 
+
+   1. $1$ is a type (the [[unit type]]);
+  
+   1. if $a, b$ are terms of type $A$, then $(a = b)$ is a type (the [[equality type]]);
+
+  1. if $A$ and $B[x]$ are types, $B$ depending on a [[free variable]] of type $A$, then the following symbols are types
+
+     1. $\prod_{a : A} B[a]$ ([dependent product]), written also $(A \to B)$ if $B[x]$ in fact does not depend on $x$;
+
+     1. $\sum_{a : A} B[a]$ ([[dependent sum]]), written also $A \times B$ if $B[x]$ in fact does not depend on $x$;
+
+1. **term formation rules**
+
+   1. $* \in 1$ is a term of the [[unit type]];
+
+   1. (...)
+
+1. **equality rules**
+
+   1. (...)
+
+
+=--
+
 #### Category of contexts
 
 +-- {: .num_defn}
