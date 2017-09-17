@@ -89,4 +89,9 @@ where $pfaff(M_{k l})$ denotes the Pfaffian of the matrix whose labels are $k,l$
 
 * J.-G. Luque, J.-Y. Thibon, _Pfaffian and hafnian identities in shuffle algebras_, [math.CO/0204026](http://arxiv.org/abs/math.CO/0204026)
 
+There is also a deformed noncommutative version of Pfaffian related to [[quantum linear group]]s:
+
+* Naihuan Jing, Jian Zhang, _Quantum Pfaffians and hyper-Pfaffians_, [arxiv/1309.5530](http://arxiv.org/abs/1309.5530)
+
 [[!redirects Pfaffians]]
+[[!redirects pfaffian]]
