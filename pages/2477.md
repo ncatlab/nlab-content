@@ -76,6 +76,13 @@ $$
   }
 $$
 
+## Related cocepts
+
+* **geometric stack**
+
+* [[geometric ∞-stack]]
+
+
 ## References
 
 A good discussion of topological and differentiable stacks is around definition 2.3 in
@@ -106,11 +113,6 @@ Geometric stacks over the site of schemes modeled on [[smooth loci]] is in secti
 
 * [[Dominic Joyce]], _Algebraic geometry over $C^\infty$-rings_ ([arXiv:1001.0023](http://arxiv.org/abs/1001.0023))
 
-## Related cocepts
-
-* **geometric stack**
-
-* [[geometric ∞-stack]]
  
 
 [[!redirects geometric stack]]
