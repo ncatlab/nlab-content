@@ -6,16 +6,7 @@ Note that, in the absence of associativity, it\'s not enough (even for a loop) t
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
 
-+--{.query}
-_Zoran_ This picture is already at [[centipede mathematics]] and regarding that the entry quasigroup should expand by more meaningful graphs for them, and that we like lightweight wiki anyway (for backuping, downloading etc.), I would suggest to keep the picture only at a single place where it belongs -- at [[centipede mathematics]].
-
-_Toby_:  As far as backing things up, this makes no difference; there\'s only one file on the servers.  Even when reading the wiki, your browser will only download it once as you go through pages.  However, as a matter of style, I agree that the picture does not work very well most places that John put it, including here.  (I think that John may have been in a silly mood yesterday.)
-
-[[John Baez]]: Sort of --- I think a certain amount of humor would not kill this website.  I was also in the mood for letting people know that certain topics are widely considered centipede mathematics. 
-
-=--
-
-Some consider these concept to be examples of [[centipede mathematics]] and uninteresting due to their lack of deep applications.  For example, one mathematician has written:
+Some consider the concept of quasigroup to be an example of [[centipede mathematics]] and uninteresting due to their lack of deep applications.  For example, one mathematician has written:
 
 >The meeting was dominated by algebraic loop theory.  It occured to me that as a way to use your intellectual resources this was very akin in significance to doing a difficult sudoku, a thought that was made very ironic when one speaker started making loops out of what were essentially sudoku squares.
 
