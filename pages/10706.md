@@ -24,7 +24,7 @@
 
 ## Idea
 
-Every [[complex oriented cohomology theory]] induces a [[formal group]]. The _Landweber exact functor theorem_ says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a suitable [[ring]] via some [[formal group law]] yields a [[cohomology theory]].
+Every [[complex oriented cohomology theory]] induces a [[formal group]]. The _Landweber exact functor theorem_ says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]].
 
 By the [[Brown representability theorem]] this defines a [[spectrum]] and the spectra arising this way are called _Landweber exact spectra_. ([e.g. Lurie lect 17, p.2](#Lurie17)).
 
