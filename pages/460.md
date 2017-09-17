@@ -13,6 +13,10 @@
 * table of contents
 {: toc}
 
+## Idea 
+
+If $\mathcal{O}(X)$ is the topology on a topological space $X$, and if a map $\mathcal{O}(X) \to \mathcal{O}(1)$ that preserves finite meets and arbitrary joins is considered an instance of "seeing a point $1 \to X$", then $X$ is "sober" if every point we see is really there (i.e., is induced from a point = continuous map $1 \to X$), and if we never see double. 
+
 ## Definition
 
 A [[topological space]] $X$ is **sober** if its [[point]]s are exactly determined by its open-set [[lattice]].  Different equivalent ways to say this are:
@@ -21,7 +25,7 @@ A [[topological space]] $X$ is **sober** if its [[point]]s are exactly determine
 
 * The [[function]] from points of $X$ the _completely prime [[filter]]s_ of its open-set lattice is a [[bijection]].
 
-* (Assuming classical logic) $X$ is $T_0$ and every [[irreducible closed set]] (non-empty closed set that is not the union of any two non-empty closed sets) is the closure of a point.
+* (Assuming classical logic) $X$ is $T_0$ and every [[irreducible closed set]] (non-empty closed set that is not the union of any two non-empty closed sets) is the closure of a (unique, by $T_0$) point.
 
 In each case, half of the definition is that $X$ is $T_0$, the other half states that $X$ has __enough points__:
 
@@ -36,14 +40,16 @@ In each case, half of the definition is that $X$ is $T_0$, the other half states
 
 * Sobriety is a separation property that is stronger than $T_0$, but incomparable with $T_1$.  With [[classical logic]], every [[Hausdorff space]] is sober, but this can fail [[constructive mathematics|constructively]].
 
-* The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint]] is called the **soberification**.  This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the space of points of some locale, and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]].
+* The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint]] is called the **soberification**.  This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the space of points of some locale, and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]]. 
 
 * A topological space has enough points if and only if its $T_0$ quotient is sober.  Spaces with enough points are also reflective, and a topological space is $T_0$ iff this reflection is sober.
 
 
 ## Examples (and non-examples)
 
-* Any nontrivial [[indiscrete space]] is not sober, since it is not $T_0$. More interestingly, the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the closure of a point.  Its _soberification_ is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties.
+* Any nontrivial [[indiscrete space]] is not sober, since it is not $T_0$. More interestingly, the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the closure of a point.  Its _soberification_ is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties. 
+
+The last (non-)example shows that sobriety is not a hereditary separation property, i.e., subspaces of sober spaces need not be sober. 
 
 * The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words ([[lists]]) with the "extends" preorder), then the soberification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words ([[streams]]).
 
