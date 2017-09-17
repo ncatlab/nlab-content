@@ -147,13 +147,14 @@ We look at some aspects of the [above](#BasicStructures) general abstract story 
 
 #### Introduction
 
-The discovery of [[gauge theory]] in fundamental physics is the discovery of [[groupoid]]s. The notion of [[gauge transformation]] is close to synonymous to the notion [[isomorphism]] and more generally [[equivalence in an (∞,1)-category]].
+The discovery of [[gauge theory]]  is effectively the discovery of [[groupoid]]s in fundamental physics. The notion of [[gauge transformation]] is close to synonymous to the notion [[isomorphism]] and more generally to _[[equivalence in an (∞,1)-category]]_ .
 
 More precisely, the mathematical model for a [[gauge field]] in physics is a [[cocycle]] in [[differential cohomology]]. The development of [[differential cohomology]] has to a fair extent been motivated by and influenced by its application to fundamental theoretical physics in general and [[gauge theory]] in particular.  
 
-Around 1850 Maxwell realized that the  [[field strength]] of the [[electromagnetic field]] is modeled by a closed [[differential form|differential 2-form]] on [[spacetime]]. In the 1930s Dirac observed that more precisely this 2-form is the [[curvature]] 2-form of a [[circle group|U(1)]]-[[principal bundle]] with [[connection on a bundle|connection]], hence that the electromagnetic field is modeled as what today is called a degree 2-cocycle in _[[ordinary differential cohomology]]_ .
+Around 1850 Maxwell realized that the  [[field strength]] of the [[electromagnetic field]] is modeled by a closed [[differential form|differential 2-form]] on [[spacetime]]. In the 1930s Dirac observed that more precisely this 2-form is the [[curvature]] 2-form of a [[circle group|U(1)]]-[[principal bundle]] with [[connection on a bundle|connection]], hence that the electromagnetic field is modeled 
+by what today is called a degree 2-cocycle in _[[ordinary differential cohomology]]_ .
 
-Meanwhile, in 1915, Einstein had identified also the [[field strength]] of the [[gravity|field of gravity]] as the $\mathfrak{so}(d,1)$-valued curvature 2-form of the canonical [[orthogonal group|O(d,1)]]-[[principal bundle]] [[connection on a bundle|with connection]] on a $d+1$-dimensional [[spacetime]] [[Lorentzian manifold]]. This is a cocycle in differential [[nonabelian cohomology]]: [[Chern-Weil theory]].
+Meanwhile, in 1915, Einstein had identified also the [[field strength]] of the [[gravity|field of gravity]] as the $\mathfrak{so}(d,1)$-valued curvature 2-form of the canonical [[orthogonal group|O(d,1)]]-[[principal bundle]] [[connection on a bundle|with connection]] on a $d+1$-dimensional [[spacetime]] [[Lorentzian manifold]]. This is a cocycle in differential [[nonabelian cohomology]]: in [[Chern-Weil theory]].
 
 In the 1950s [[Yang-Mills theory]] identified the [[field strength]] of all the [[gauge field]]s in the [[standard model of particle physics]] as the $\mathfrak{u}(n)$-valued [[curvature]] 2-forms of [[unitary group|U(n)]]-[[principal bundle]]s [[connection on a bundle|with connection]]. This is again a cocycle in differential [[nonabelian cohomology]].
 
@@ -162,11 +163,12 @@ In the 1950s [[Yang-Mills theory]] identified the [[field strength]] of all the 
 
 **Entities of ordinary [[gauge theory]]**
 
-[[Lie algebra]] $\mathfrak{g}$ with [[gauge group|gauge]] [[Lie group]] $G$ --   [[connection on a bundle|connection]] with values in $\mathfrak{g}$ on $G$-[[principal bundle]] over [[smooth manifold]] $X$.
+[[Lie algebra]] $\mathfrak{g}$ with [[gauge group|gauge]] [[Lie group]] $G$ --   [[connection on a bundle|connection]] with values in $\mathfrak{g}$ on $G$-[[principal bundle]] over a [[smooth manifold]] $X$.
 
 =--
 
-It is noteworthy that already in this mathematical formulation of experimentally well-confirmed fundamental physics the seed of higher differential cohomology is hidden: Dirac had not only identified the [[electromagnetic field]] as a [[line bundle]] with connection, but he also correctly identified (rephrased in modern language) its underlying cohomological [[Chern class]] with the (physically hypothetical but formally inevitable) [[magnetic charge]] located in [[spacetime]]. But in order to make sense of this, he had to resort to removing the support of the magnetic charge density from the spacetime manifold, because Maxwell's equations imply that at the support of any magnetic charge, the 2-form representing the [[field strength]] of the [[electromagnetic field]] is in fact _not_ closed and hence in particular _not_ the curvature 2-form of a connection.
+It is noteworthy that already in this mathematical formulation of experimentally well-confirmed fundamental physics the seed of higher differential cohomology is hidden: Dirac had not only identified the [[electromagnetic field]] as a [[line bundle]] with connection, but he also correctly identified (rephrased in modern language) its underlying cohomological [[Chern class]] with the (physically hypothetical but formally inevitable) [[magnetic charge]] located in [[spacetime]]. But in order to make sense of this, he had to resort to removing the support of the magnetic charge density from the spacetime manifold, because Maxwell's equations imply that at the support of any magnetic charge the 2-form representing the [[field strength]] of the [[electromagnetic field]] is in fact _not_ closed and hence in particular _not_ the curvature 2-form of an ordinary connection on 
+an ordinary bundle.
 
 In ([Freed](#Freed)) Dirac's old argument was finally patched by refining the model for the electomagentic field one more step: 
 [[Dan Freed]] notices that the charge current 3-form is itself to be regarded as a curvature, but for a connection on a [[circle n-bundle with connection|circle 2-bundle with connection]] -- also called a [[bundle gerbe]] -- , which is a cocycle in degree 3 [[ordinary differential cohomology]]. Accordingly, the [[electromagnetic field]] is fundamentally not quite a [[line bundle]], but a [[twisted bundle]] with connection, with the twist being the [[magnetic charge]] 3-cocycle. Freed shows that this perspective is inevitable for understanding the [[quantum anomaly]] of the [[action functional]] for [[electromagnetism]] is the presence of magnetic charge. 
@@ -183,13 +185,15 @@ In attempts to better understand the structure of these two theories and their i
 
 =--
 
-Notably the [[string theory|string]] is charged under a field called the [[Kalb-Ramond field]] which is modeled by a $\mathbf{B}U(1)$-[[principal 2-bundle]] with connection, where $\mathbf{B}U(1)$ is the [[nLab:Lie 2-group]] [[delooping]] of the [[circle group]]: the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 2-group</a>. Its [[Lie 2-algebra]] $b\mathfrak{u}(1)$ is given by the [[differential crossed module]] $[\mathfrak{u}(1) \to 0]$ which has $\mathfrak{u}(1)$ shifted up by one in homological degree.
+Notably the [[string theory|string]] is charged under a field called the _[[Kalb-Ramond field]]_ or _$B$-field_ which is modeled by a $\mathbf{B}U(1)$-[[principal 2-bundle]] with connection, where $\mathbf{B}U(1)$ is the [[nLab:Lie 2-group]] [[delooping]] of the [[circle group]]: the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 2-group</a>. Its [[Lie 2-algebra]] 
+$\mathbf{B}\mathfrak{u}(1)$ is given by the [[differential crossed module]] $[\mathfrak{u}(1) \to 0]$ which has $\mathfrak{u}(1)$ shifted up by one in homological degree.
 
 So far all these differential cocycles were known and understood mostly as concrete constructs, without making their abstract home in [[differential cohomology]] explicit. It is the next gauge field that made [[Dan Freed|Freed]] and [[Mike Hopkins|Hopkins]] propose ([FreedHopkins](#FreedHopkins), [Freed](#Freed)) that the theory of differential cohomology is generally the formalism that models [[gauge field]]s in physics:
 
-The superstring is also charged under what is called the [[RR-field]], a  [[gauge field]] modeled by cocycles in [[differential K-theory]]. In even degrees we may think of this as a differential cocycles whose [[curvature]] form has coefficients in the [[∞-Lie algebra]] $\oplus_{n=0}^\infty b^{2 n} \mathfrak{u}(1)$. Here $b^{2n} \mathfrak{u}(1)$ is the abelian [[L-∞-algebra|2n-Lie algebra]] whose underlying complex is concentrated in degree $2 n$ on $\mathbb{R}$.
+The superstring is also charged under what is called the [[RR-field]], a  [[gauge field]] modeled by cocycles in [[differential K-theory]]. In even degrees we may think of this as a differential cocycle whose [[curvature]] form has coefficients in the [[∞-Lie algebra]] 
+$\oplus_{n=0}^\infty \mathbf{B}^{2 n} \mathfrak{u}(1)$. Here $b^{2n} \mathfrak{u}(1)$ is the abelian [[L-∞-algebra|2n-Lie algebra]] whose underlying complex is concentrated in degree $2 n$ on $\mathbb{R}$.
 
-So even more generally, one finds [[∞-Lie algebra]]s, [[∞-Lie group]]s and gauge fields behaving like connections with values in these.
+So fully generally, one finds [[∞-Lie algebra]]s, [[∞-Lie group]]s and gauge fields behaving like connections with values in these.
 
 +-- {: .standout}
 
@@ -199,9 +203,9 @@ So even more generally, one finds [[∞-Lie algebra]]s, [[∞-Lie group]]s and g
 
 =--
 
-The [[curvature characteristic form]]s / [[Chern character]]s in the abelian formulation of differential cohomology take values in abelian [[∞-Lie algebra]]s and are therefore effectively nothing but differential forms with values in a complex of vector spaces, but more generally in [[∞-Chern-Weil theory]] on nonabelian [[principal ∞-bundle]]s, the [[curvature]]s forms themselves take values in general [[∞-Lie algebra]]s, such as the [[string Lie 2-algebra]] the [[supergravity Lie 3-algebra]] or the [[fivebrane Lie 6-algebra]].
+The [[curvature characteristic form]]s / [[Chern character]]s in the abelian formulation of differential cohomology take values in abelian [[∞-Lie algebra]]s and are therefore effectively nothing but differential forms with values in a complex of vector spaces, but more generally in [[∞-Chern-Weil theory]] on nonabelian [[principal ∞-bundle]]s, the [[curvature]]s forms themselves take values in general [[∞-Lie algebra]]s, such as the [[string Lie 2-algebra]], the [[supergravity Lie 3-algebra]] and the [[fivebrane Lie 6-algebra]].
 
-Apart from generalizing the notion of gauge [[Lie group]]s to [[Lie 2-group]]s and further, structural considerations in fundamental physics also led theoretical physicists to consider models for [[spacetime]] that are more general than than the notion of a [[smooth manifold]]. In [[string theory]] [[spacetime]] is allowed to be more generally an [[orbifold]] or a generalization thereof, such as an [[orientifold]]. The natural mathematical model for these generalized spaces are [[Lie groupoid]]s or essentially equivalently: [[differentiable stack]]s. 
+Apart from generalizing the notion of gauge [[Lie group]]s to [[Lie 2-group]]s and further, structural considerations in fundamental physics also led theoretical physicists to consider models for [[spacetime]] that are more general than than the notion of a [[smooth manifold]]. In [[string theory]] [[spacetime]] is allowed to be more generally an [[orbifold]] or a generalization thereof, such as an [[orientifold]]. The natural mathematical model for these generalized spaces are [[Lie groupoid]]s or, essentuially equivalently, _[[differentiable stack]]s_ . 
 
 It is noteworthy that the notions of generalized gauge groups and the generalized spacetime models encountered this way have a natural common context: all of these are examples of a notion of smooth [[∞-groupoid]] modeled as differentiable [[∞-stack]]s: these we may call [[∞-Lie groupoid]]s.
 
