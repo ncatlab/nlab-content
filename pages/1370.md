@@ -26,11 +26,11 @@ Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new proje
 
 * A. Joyal, [[Ieke Moerdijk|I. Moerdijk]], _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press 1995. viii+123 pp. ISBN: 0-521-55830-1
 
-* A. Joyal, _The theory of quasi-categories and its applications_, lectures at CRM Barcelona February 2008, draft [hc2.pdf](http://www.crm.cat/HigherCategories/hc2.pdf)
+* A. Joyal, _The theory of quasi-categories and its applications_, lectures at CRM Barcelona February 2008, draft [hc2.pdf](http://www.crm.cat/HigherCategories/hc2.pdf) and [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf) at backup location
 
 * A Joyal, _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
 
-* A. Joyal, M. Tierney, _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf)
+* A. Joyal, M. Tierney, _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf), 
 
 * A. Joyal, _A letter to Grothendieck_, April 1983 (contains a Quillen model structure on simplicial presheaves). 
 
