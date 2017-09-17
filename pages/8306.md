@@ -37,7 +37,7 @@ In terms of [[elements]] this means that
 a bilinear map $f : A \times B \to C$ is a function of sets that satisfies for all elements $a_1, a_2 \in A$ and $b_1, b_2 \in B$ the two relations
 
 $$
-  f(a_1 + a_2, b_1) = f(a_1,b_1) + f(a_2, b_2)
+  f(a_1 + a_2, b_1) = f(a_1,b_1) + f(a_2, b_1)
 $$
 
 and
