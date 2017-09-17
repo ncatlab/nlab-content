@@ -1,4 +1,3 @@
-
 > under construction
 
 <div class="rightHandSide toc">
@@ -15,7 +14,10 @@ Witten introduced two topological twists of a supersymmtric nonlinear sigma mode
 
 The B-model arose in considerations of [[string theory|superstring]]-propagation on Calabi-Yau varieties: it may be motivated by considering the [[vertex operator algebra]] of the 2d[[CFT|SCFT]] given by the N=2 supersymmetric nonlinear [[sigma-model]] with target $X$ and then changing the fields so that one of the super-[[Virasoro-algebra|Virasoro]] generators squares to 0. The resulting "topologically twisted" algebra may then be read as being the [[BRST complex]] of a [[TCFT]].
 
+One can also define a B-model for [[Landau-Ginzburg models]]. The category of [[D-branes]] for the open string theory is given by the category of [[matrix factorizations]] (this was proposed by Kontsevich and elaborated by Kapustin-Li; see also papers of Orlov). For the genus 0 closed string theory, see the work of Saito.
+
 By [[homological mirror symmetry]], the B-model is dual to the  [[A-model]].
+
 
 ## References
 
