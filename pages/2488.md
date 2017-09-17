@@ -142,7 +142,7 @@ Notice that this expected statement does require the assumption that $X$ is $k$-
 +-- {: .un_prop}
 ###### Proposition
 
-In an $(\infty,1)$-category $C$ with finite limits, a morphism
+In an $(\infty,1)$-category $C$ with [[finite limits]], a morphism
 $f : X \to Y$ is $k$-truncated (for $k \geq -1$) precisely if the
 [[diagonal]] morphism $X \to X \times_Y X$ is $(k-1)$-truncated.
 
@@ -156,7 +156,7 @@ This is [[Higher Topos Theory|HTT, lemma 5.5.6.15]].
 By definition $f$ is $k$-truncated if for each object 
 $d \in C$ we have that $C(d,f)$ is $k$-truncated in 
 [[∞Grpd]]. Since the [[hom-functor]]s $C(d,-)$ preserve
-finite [[limit in a quasi-category|limits]], wee have 
+[[(∞,1)-limits]], we have 
 in particular that $X \to X \times_Y X$ in $C$ 
 is $k$-truncated 
 if $C(d,X) \to C(d,X) \times_{C(d,Y)} C(d,X)$ is
