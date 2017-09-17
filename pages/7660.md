@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+#Contents#
+* tabe of contents
+{:toc}
+
+## Idea
+
+[[B-bordism]] for [[string structure]]
+
+## Related concepts
+
+* [[Witten genus]]
+
+## References
+
+* [Manifold Atlats](http://www.map.mpim-bonn.mpg.de/Main_Page), _[String bordism](http://www.map.mpim-bonn.mpg.de/String_bordism)_
+
+
+[[!redirects string bordism]]
