@@ -11,3 +11,5 @@ where $C^{op}$ is the [[opposite category]] to $C$, which sends any object $x \i
 And indeed, both the hom-functors just mentioned can easily be obtained from the more general functor, also called a **hom-functor**:
 $$ hom : C^{op} \times C \to Set, $$
 where $C^{op} \times C$ is the [[product category]] of $C^{op}$ and $C$, which sends any object $(x,y) \in C^{op} \times C$ to the hom-set $hom(x,y)$.
+
+[[!redirects hom-functors]]
