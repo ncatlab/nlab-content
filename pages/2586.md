@@ -9,9 +9,7 @@
 =--
 =--
 
-$\cdots \to$ [[fivebrane group]] $\to$ [[string group]] $\to$ **spin group** $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
 
-***
 
 #Contents#
 * table of contents
@@ -22,6 +20,19 @@ $\cdots \to$ [[fivebrane group]] $\to$ [[string group]] $\to$ **spin group** $\t
 
 The __spin group__ $Spin(n)$ is the [[universal covering space]] of the [[special orthogonal group]] $SO(n)$. By the usual arguments it inherits a group structure for which the operations are smooth and so is a [[Lie group]] like $SO(n)$.
 
+
+## Properties
+
+### General
+
+By definition the spin group sits in a [[short exact sequence]] of groups
+
+$$
+  \mathbb{Z}_2 \to Spin \to SO
+  \,.
+$$
+
+### Homotopy theory
 
 The spin group is one element in the [[Whitehead tower]] of $O(n)$, which starts out like
 
@@ -79,17 +90,31 @@ $$
   \,.
 $$
 
+## Applications
 
-## Spin geometry
+### Spin geometry
 
 See [[spin geometry]]
 
-## In physics
+### In physics
 
 The name arises due to the requirement that the structure group of the [[tangent bundle]] of [[spacetime]] lifts to $Spin(n)$ so as to 'define particles with spin'... (Someone more awake and focused please put this into proper words!)
 
 See [[spin structure]].
 
+## Related concdeps
+
+The [[Whitehead tower]] of the [[orthogonal group]] looks like
+
+$\cdots \to$ [[fivebrane group]] $\to$ [[string group]] $\to$ **spin group** $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
+
+Another extension of $SO$ is the [[spin^c group]].
+
+## References
+
+A standard textbook reference is
+
+* H.B. Lawson and M.-L. Michelson, _Spin Geometry_ , Princeton University Press, Princeton, NJ, (1989)
 
 [[!redirects Spin group]]
 [[!redirects Spin]]
