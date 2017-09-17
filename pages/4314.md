@@ -58,7 +58,7 @@ For every [[proper class]] sequence $\langle M_\alpha | \alpha \in Ord\rangle$ o
 
 =--
 
-+-- {: .un_theorem}
++-- {: .un_theorem #ColimitsCoreflective}
 ###### Theorem
 
 The VP is equivalent to the statement:
