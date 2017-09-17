@@ -42,6 +42,7 @@
 
     * [[representation theory]]
   * [[algebraic approaches to differential calculus]]
+  * [[counterexamples in algebra]]
 * [[analysis]]
   * [[nonstandard analysis]]
   * [[functional analysis]]
