@@ -4,9 +4,10 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-[pdf](http://www.math.ist.utl.pt/~rfern/Estudantes/TeseIStruchiner.pdf)
+* [pdf](http://physics.indiana.edu/~sg/p622/qft_S35-39.pdf)
 
-[pdf](http://www.ams.org/journals/tran/1964-113-01/S0002-9947-1964-0164299-4/S0002-9947-1964-0164299-4.pdf)
+
+* [pdf](http://www.staff.science.uu.nl/~wit00103/ftip/Ch7.pdf)
 
 ***
 
