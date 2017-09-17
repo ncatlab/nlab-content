@@ -1,22 +1,29 @@
+
+# Tautologies
+* table of contents
+{: toc}
+
 ## Idea
 
-In [[boolean]] [[propositional logic]], a _tautology_ is any proposition whose validity is unconditional --- independent of the validity of its propositional variables. Several generalizations are possible. On the one hand, the family of boolean tautolgies is also the family of boolean theorems: a proposition is a boolean tautology iff it has a boolean proof. On the other hand, construing a boolean proposition as a universalized equation in the language of boolean algebras, the boolean propositions are also the (universal, first-order) propositions of the form $P(x_1,...,x_n) = \top$ that are valid in every boolean algebra.
+In [[classical logic|boolean]] [[propositional logic]], a _tautology_ is any [[proposition]] whose validity is unconditional --- independent of the validity of its propositional variables. Several generalizations are possible. On the one hand, the family of boolean tautolgies is also the family of boolean [[theorems]]: a proposition is a boolean tautology iff it has a boolean proof. On the other hand, construing a boolean proposition as a [[universal quantification|universalized]] [[equation]] in the language of [[boolean algebras]], the boolean propositions are also the (universal, first-order) propositions of the form $P(x_1,...,x_n) = \top$ that are valid in every boolean algebra.
 
-...
+Of course, tautologies exist in other logics besides boolean logic, although boolean logic is perhaps the simplest nontrivial case.
+
 
 ## Definition
 
-A *tautology* of an [[entailment]] $(\rhd)$ is an entailed consequence of the initial [[context]]. That is, $\phi$ is a tautology iff
-$$ \{\} \rhd \phi .$$
+Given a [[logic]], a [[context]] $\Gamma$ within that logic, and a class of [[models]] of $\Gamma$, a __tautology__ is a [[proposition]] $\phi$ in $\Gamma$ that is true in all models; that is,
+$$ \mathcal{M} \vDash \phi $$
+for every model $\mathcal{M}$.
 
-Hence, $\phi$ is a (semantic) tautology in some first-order language iff it is valid in all models of that language:
-$$ \vDash \phi $$
-or equivalently, for all models $\mathcal{M}$ of the language,
-$$ \mathcal{M} \vDash \phi .$$
-
-Similarly, a (syntactic) tautology in some first-order language is a theorem with no hypotheses:
-$$ \vdash \phi .$$
 
 ## Discussion
 
-...
+Compare the notion of __[[theorem]]__, sometimes called a _syntactic tautology_, which asks that $\phi$ be *provable* in $\Gamma$:
+$$ \Gamma \vdash \phi .$$
+
+In the best behaved cases, each context has a [[free model]] such that the theorems are precisely the tautologies for the free model.  (For example, in the case of boolean propositional logic, the free model for the context with $n$ variables is the [[free object|free]] [[boolean algebra]] on $n$ generators.)  Even without this, there may be a class of models that can be proved to be [[soundness theorem|sound]] (every theorem is a tautology) and [[completeness theorem|complete]] (every tautology is a theorem).
+
+
+[[!redirects tautology]]
+[[!redirects tautologies]]
