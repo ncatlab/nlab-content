@@ -8,6 +8,8 @@ Sometimes, late at night, when everyone is asleep, the lab elves come by and cle
 
 Anybody can be a lab elf, and most lab elves sign their own names.  Edits attributed to 'lab elf' are usually done by [[Andrew Stacey]] (I think), but who knows?
 
+Some lab elves have handy superpowers to edit the options on webs and create new ones; at the moment, these are [[Andrew Stacey]], [[Toby Bartels]], and [[Urs Schreiber]].
+
 
 category: meta
 
