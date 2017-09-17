@@ -41,7 +41,7 @@ This function $g$ is also called a **Hadamard quotient**.
 It follows that $g(0) = f'(0)$ is the [[derivative]] of $f$ at 0. By applying this repeatedly the lemma says that $f$ has a partial [[Taylor series]] expansion whose remainder $h$ is a smooth function:
 
 $$
-  f(x) = f(0) + x f'(0) + x^2 f''(0) + \cdots + x^n h(x)
+  f(x) = f(0) + x f'(0) + \frac1{2} x^2 f''(0) + \cdots + \frac1{n!} x^n h(x)
   \,.
 $$
 
