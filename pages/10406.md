@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+This entry collects hyperlinks related to the lecture notes
+
+* Sean Bates, [[Alan Weinstein]],
+
+  _Lectures on the geometry of quantization_
+
+  ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
+
+on [[classical mechanics]] formalized in [[symplectic geometry]] and its [[quantization]] by the process of [[geometric quantization]].
+
+A related textbook for the symplectic perspective on classical mechanics is
+
+* [[Vladimir Arnold]], _[[Mathematical methods of classical mechanics]]_
+
+category: reference
