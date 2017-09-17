@@ -28,7 +28,11 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 * [[quadratic form]]
 
-* [[symplectic form]]
+* [[symplectic form]], [[Kähler form]]
+
+* [[Riemannian metric]]
 
 [[!redirects bilinear form]]
 [[!redirects bilinear forms]]
+
+[[!redirects positive definite bilinear form]]
