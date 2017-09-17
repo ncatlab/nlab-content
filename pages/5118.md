@@ -85,7 +85,7 @@ This is proposition 3.16 in ([SchwedeShipley](#SchwedeShipley)).
 
 ### Lift to an adjunction on monoids {#LiftToAdjunctionOnMonoids}
 
-We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, an adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding categories of [[monoid]]s. In the following secton we discuss how this is itself a Quillen adjunction
+We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, an adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding [[categories of monoids]]. In the following secton we discuss how this is itself a Quillen adjunction
 
 
 The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). While the left adjoint $L$ will not extend to monoids unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$.
@@ -95,8 +95,10 @@ As described at [[category of monoids]], if $C$ has [[coproduct]]s, then we have
 $$
   (F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
    C
-  \,.
+  \,,
 $$
+
+where $F(X)$ is the [[tensor algebra]] over the object $X$ in $(C, \otimes)$.
 
 
 +-- {: .num_prop #AdjunctionOnMonoids}
@@ -241,7 +243,7 @@ $$
   \,.
 $$
 
-For the purposes of the following statement, we define
+See [[model structure on monoids]]. For the purposes of the following statement, we define
 
 +-- {: .un_def #CreatedModelStructure}
 ###### Definition
@@ -254,7 +256,7 @@ We say a model category structure on $Mon(C)$ is _created_ by $U_C$ if
 
 =--
 
-+-- {: .un_theorem}
++-- {: .un_theorem #LiftedQuillenAdjunction}
 ###### Theorem
 
 Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a lax monoidal Quillen adjunction between [[monoidal model categories]] with cofibrant unit obects.
@@ -268,7 +270,7 @@ $$
   \,,
 $$
 
-between the transferred model structures on monoids.
+between the [[transferred model structure|transferred]] [[model structure on monoids|model structures on monoids]].
 
 =--
 
@@ -420,7 +422,7 @@ $$
 
 * We claim that $B$ is cofibrant and that we can without restriction assume $K$ and $K'$ to be cofibrant in $D$.
 
-  The first statement follows from an inductive application of [SchwedeShipleyAlgebras, lemma 6.2](#SchwedeShipleyAlgebras). For the second statement notice that since $F$ is left adjoint and preserves pushouts in $D$, we have that $P$ is also the pushout of the diagram
+  The first statement follows from an inductive application of the construction of pushouts as discussed at [[category of monoids]] in the section <a href="http://ncatlab.org/nlab/show/category+of+monoids#FreeMonoids">free monoids</a>. For the second statement notice that since $F$ is left adjoint and preserves pushouts in $D$, we have that $P$ is also the pushout of the diagram
 
   $$
     \left(
@@ -453,7 +455,7 @@ $$
 
 Notice that this means that our pushout square is in fact a [[homotopy pushout]] square (as discussed there). In particular a weak equivalence of these pushout diagrams will induce a weak equivalence of the pushouts, so that is what we will establish.
 
-We now use the proof of ([SchwedeShipleyAlgebras, lemma 6.2](#SchwedeShipleyAlgebras)) for getting the following statement about the object underlying $P$
+We now proceed as in [[category of monoids]] in the section <a href="http://ncatlab.org/nlab/show/category+of+monoids#FreeMonoids">free monoids</a> for getting the following statement about the object underlying $P$
 
 This $P$ is a [[colimit]] of a sequence of cofibrations
 
@@ -473,8 +475,7 @@ $$
 
 at each stage of the cell attachments. So it is sufficient to show that the three components of these maps on the pushout squares are weak equivalences. Since we showed above that our pushout squares are actually [[homotopy pushout]] squares, this will imply that also $\chi_P$ is a weak equivalence.
 
-This again works by using ([SchwedeShipleyAlgebras, lemma 6.2](#SchwedeShipleyAlgebras)).
-
+This again works by proceeding as in [[category of monoids]] in the section <a href="http://ncatlab.org/nlab/show/category+of+monoids#FreeMonoids">free monoids</a>.
 
 =--
 
@@ -486,20 +487,19 @@ If $U_C$ [creates](#CreatedModelStructure) the model structure on $Mon(C)$ and t
 
 =--
 
-This is a special case of  ([SchwedeShipleyAlgebras, lemma 6.2](#SchwedeShipleyAlgebras))
-
 +-- {: .proof}
 ###### Proof 
 
-(...)
+This is once more a consequence of the lemma on pushouts at at [[category of monoids]] in the section <a href="http://ncatlab.org/nlab/show/category+of+monoids#FreeMonoids">free monoids</a>.
 
 =--
 
+We have now collected all prerequisites and turn to the proof of the [theorem about lifted Quillen adjunctions](#LiftedQuillenAdjunction).
 
 +-- {: .proof}
 ###### Proof of the theorem
 
-First notice that since by assumption the model structure on $Mon(D)$ is [created](#CreatedModelStructure) by $U_D$ it follows by definition that the cofibrant $B$ is a [[retract]] of a [[cell object]] in $Mon(D)$. Then the [above lemma](#OneTechnicalLemma) asserts that
+First notice that since by assumption the [[model structure on monoids]] $Mon(D)$ is [created](#CreatedModelStructure) by $U_D$ it follows by definition that the cofibrant $B$ is a [[retract]] of a [[cell object]] in $Mon(D)$. Then the [above lemma](#OneTechnicalLemma) asserts that
 
 $$
   \chi_B : L B \to L^{mon} B
@@ -556,7 +556,7 @@ The lax monoidal version is considered as definition 3.6 of
 * [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
 {#SchwedeShipley}
 
-Some of the facts mentioned above are from
+The statements involving pushouts along free monoid morphisms are discussed in lemma 6.2 of 
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
 {#SchwedeShipleyAlgebras}
