@@ -58,7 +58,7 @@ In the context of [[11-dimensional supergravity]] there is a $\sigma$-model with
 ## Exposition of classical sigma-models
  {#ExpositionClassical}
 
-We survey, starting from the very basics, [[classical field theory]] aspects of $\sigma$-models.
+We survey, starting from the very basics, [[classical field theory]] aspects of $\sigma$-models that describe dynamics of [[particle]]s, [[strings]]s and [[brane]]s on geometric [[target space]]s.
 
 ### The Newtonian particle
  {#ExpositionNewtonianParticle}
@@ -114,15 +114,126 @@ and the collection $(\Sigma, X, \vec F)$ of all three is a _$\sigma$-model_ .
 Given this data, the space of solutions to the original [[differential equation]]
 
 $$
-  P := \{ \gamma \in Conf | \vec F = m \vec a \}
+  P := \{ \gamma \in Conf | \forall t \in \mathbb{R} : \vec F_{\gamma(t)} = m \vec a(t) \}
 $$
 
-is called the [[covariant phase space]] of the model. The configurations in $P \subset Conf$ have the interpretation of being those potential configurations, that describe actual trajectories of particles observed in nature.
+is called the [[covariant phase space]] of the model. The configurations in $P \subset Conf$ have the interpretation of being those potential configurations, that describe actual trajectories of [[particle]]s observed in nature.
+
+Notice that in the case of vanishing [[force]] field $\vec F = 0$, the [[equations of motion]] of the [Newtonian particle](#ExpositionNewtonianParticle)
+
+$$
+  \vec a = 0
+$$
+
+may be read as characterizing precisely the [[geodesic]]s in $\mathbb{R}^3$ regarded as a [[Riemannian manifold]] using the canonical [[metric]]. This is a special and limiting case of the [relativistic particle](#RelativisticParticle) discussed below.
+
+A cautionary note is in order. While the Newtonian particle may serve as an introductory example for motivating the concept of $\sigma$-models, it in general lacks some of the nice properties that later on we shall take to be characteristic of $\sigma$-models. Mainly this is due to the fact that the Newtonian particle is but a limiting approximation to the [[relativistic particle]] to which we turn next.
+
 
 ### The relativistic particle
  {#RelativisticParticle}
 
-* [[relativistic particle]]
+
+The Newtonian particle propagating on $\mathbb{R}^3$ is a special and limiting case of a particle propagating on a 4-dimensional [[pseudo-Riemannian manifold]]: [[spacetime]]. For historical reasons (the same that led to the theory of [[gravity]] being called a theory of [[general relativity|relativity]]) this is called the [[relativistic particle]].
+
+* Let [[target space]] be [[pseudo-Riemannian manifold]] $(X,g)$, thought of as [[spacetime]];
+
+* let parameter space $\Sigma = \mathbb{R}$ still be the [[real line]], thought of as the abstract [[worldline]] of a [[relavistic particle]];
+
+* let the [[background gauge field]] be given by a smooth [[differential form|1-form]] $A \in \Omega^1(X)$, whose [[exterior derivative]] $F := d A$ is the [[field strangth]] of an [[electromagnetic field]].
+
+The [[configuration space]] is now the [[quotient]]
+
+$$
+  Conf = C^\infty(\mathbb{R}, X)//Diff(\mathbb{R})
+  \,,
+$$
+
+of [[smooth function]]s $\Sigma \to X$ by [[diffeomorphism]]s $\Sigma \to \Sigma$.
+
+For vanishing background field, the [[covariant phase space]] is
+
+$$
+  P = \{ [\gamma] \in Conf | \nabla_{\dot \gamma} \dot \gamma = 0  \}
+  \subset Conf 
+  \,,
+$$
+
+where $\nabla$ denotes the [[covariant derivative]] of the [[Levi-Civita connection]] of the background metric $g$ on the [[tangent bundle]] $T X$ of $X$: this is the subspace of those trajectories $\gamma$, which exhibit a [[parallel transport]] of their tangent vectors with respect to the [[Levi-Civita connection]] of the background metric.
+
+In the special case that $X$ is [[Minkowski spacetime]], where we may find a global [[coordinate chart]] $(\mathbb{R}^4, \eta) \simeq X$, this are exactly the straight lines in $\mathbb{R}^4$. Given any such, there is precisely one representative in the diffeomorphism class for which $\mathbb{R} \stackrel{\gamma}{\to} \mathbb{R}^4 \stackrel{x^0}{\to} \mathbb{R}$ is the identity, hence for which the [[worldline]] parameter coincides precisely with the chosen global time coordinate $t := x^0$ on $\mathbb{R}^4$. For those the equations of motions are again those of the free Newtonian particle $\vec a = 0$.
+
+Generally, for arbitrary $X$ and arbitrary [[background gauge field]] $A$, the equations of motion are
+
+$$
+  g(\nabla_{\dot \gamma} \dot \gamma,-) =  \frac{q}{m}\iota_{\dot \gamma} F
+  \,,
+$$
+
+where on the left we have the 1-form given by evaluating the covariant acceleration in the metric tensor, while on the right we have the 1-form given by evaluation the [[field strength]] 2-form on the covariant velocity. The term on the right is the [[Lorentz force]] excerted by the background electromagnetic field on the relativistic particle of charge $q$:
+
+restricting again to the case that $X$ is [[Minkowski space]] equipped with a global [[coordinate chart]] $\mathbb{R}^4 \simeq X$ we can decompose the [[electromagnetic field]] strength 2-form as
+
+$$
+  F = \vec E_i \cdot d x^i \wedge d t + \vec B_i \epsilon_{i j k} d x^j \edge d x^j
+  \,,
+$$
+
+where $\vec E$ is the electric field and $\vec B$ the magnetic field. The above equations of motion are in this case
+
+$$
+  \vec a = \frac{q}{m} \vec E + \frac{q}{m} \vec v \times \vec B
+  \,,
+$$
+
+where in the second term we have the [[cross product]] of vectors in $\mathbb{R}^3$. 
+
+
+The points in the [[covariant phase space]]
+
+$$
+  P = \{ [\gamma] \in Conf | 
+   g(\nabla_{\dot \gamma} \dot \gamma,-) =  \frac{q}{m}\iota_{\dot \gamma} F
+    \}
+  \subset Conf 
+$$
+
+happen to be the local critical points of the [[functional]]
+
+$$
+  S : Cont \to \mathbb{R}
+$$
+
+given by
+
+$$
+  S([\gamma]) 
+   := 
+  m \int_\Sigma dvol(\gamma^*g)  + q \int_\Sigma \gamma^* A
+  \,.
+$$
+
+This is the [[action functional]] of the relativistic particle $\sigma$-model. The first summan is called the _kinetic action_ , the second is calle the _gauge coupling_  action. Typically one characterizes the models in terms of such action functionals, from which the [[covariant phase space]] then derives. This typically yields a simpler and deeper description of the model. 
+
+For instance for the above action functional has an evident generalization to the case where the background [[electromagnetic field]] is not given by a globally defined 1-form, but more generally by a [[circle n-bundle with connection|cicle bundle with connection]] $\nabla$: if we pass to the exponentiated action
+
+$$
+  \exp(i S(\gamma)) = 
+  \exp(i \int_\Sigma dvol(\gamma^*g) ) 
+  \exp(i q \int_\Sigma \gamma^* A)
+$$
+
+the second factor is evidently the [[holonomy]] of the connection over the worldline. Hence for general electromagnetic background gauge fields the action functional is (assuming for simplicity now closed curves with $\Sigma = S^1$)
+
+$$
+  \exp(i S(\gamma))   
+  = 
+  \exp(i \int_\Sigma dvol(\gamma^*g) ) 
+  hol(\nabla, \gamma)
+  \,.
+$$
+
+
 
 
 ### The relativistic string
