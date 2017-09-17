@@ -1,0 +1,5 @@
+
+half the diameter of a [[sphere]]
+
+[[!redirects radii]]
+
