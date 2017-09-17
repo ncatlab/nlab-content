@@ -1,52 +1,57 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Definition
 
 Given a [[2-category]] $K$, [[adjunction|adjoint pairs]] $(\eta,\epsilon) \colon f \dashv u \colon b \to a$ and $(\eta',\epsilon') \colon f' \dashv u' \colon b' \to a'$ , and 1-cells $x \colon a \to a'$ and $y \colon b \to b'$, there is a bijection
 $$ K(a,b')(f' x,y f) \cong K(b,a')(x u,u' y) $$
-given by pasting with the unit of one adjunction and the counit of the other, i.e.
+given by [[pasting]] with the unit of one adjunction and the counit of the other, i.e.
+
 $$
-\array{
   \array{
-    a & \overset{x}{\to} & a' \\
-
-    f \downarrow & \lambda \Downarrow & \downarrow f' \\
-
-    b & \underset{y} & b'
+    a & \overset{x}{\to} & a' 
+    \\
+    f \downarrow & \lambda \Downarrow & \downarrow f' 
+    \\
+    b & \underset{y}{\to} & b'
   }
-
-  & \mapsto &
-
+  \;\;\;\;\;
+    \mapsto
+  \;\;\;\;\;
   \array{
-    b & \overset{u}{\to} & a & \overset{x}{\to} & a' &             \overset{1}{\to} &     a' \\
-
-    1 \downarrow & \epsilon \Downarrow & f \downarrow &  \lambda             \Downarrow     & \downarrow f' & \Downarrow \eta' & \downarrow 1 \\
-
-    b & \underset{1}{\to} & b & \underset{y} & b' & \underset{u'}{\to}                     & a'
+    b & \overset{u}{\to} & a & \overset{x}{\to} 
+    & a' &   \overset{1}{\to} &     a' 
+   \\
+    1 \downarrow & \epsilon \Downarrow & f \downarrow &  
+    \lambda      \Downarrow     & \downarrow f' & \Downarrow \eta' 
+    & \downarrow 1 \\
+    b & \underset{1}{\to} & b & \underset{y}{\to} 
+    & b' & \underset{u'}{\to}    & a'
   }
-}
 $$
+
 and
+
 $$
-\array{
   \array{
-    b & \overset{y}{\to} & b' \\
- 
+    b & \overset{y}{\to} & b' \\ 
     u \downarrow & \mu \Uparrow & \downarrow u' \\
-
-    a & \underset{x} & a'
+    a & \underset{x}{\to} & a'
   }
-
-  & \mapsto &
-
+  \;\;\;\;\;
+    \mapsto 
+  \;\;\;\;\;
   \array{
-
-    a & \overset{f}{\to} & b & \overset{y}{\to} & b' & \overset{1}{\to} &     b' \\
-
-    1 \downarrow & \eta \Uparrow & u \downarrow & \mu \Uparrow &     \downarrow u' & \Uparrow \epsilon' & \downarrow 1 \\
-
-    a & \underset{1}{\to} & a & \underset{x} & a' & \underset{f'}{\to} &     b'
+    a & \overset{f}{\to} & b & \overset{y}{\to} & b' 
+    & \overset{1}{\to} &     b' \\
+    1 \downarrow & \eta \Uparrow & u \downarrow 
+    & \mu \Uparrow &     \downarrow u' & \Uparrow \epsilon' & \downarrow 1 \\
+    a & \underset{1}{\to} & a & \underset{x}{\to} & a' & \underset{f'}{\to} &     b'
   }
-}
 $$
+
 That this is a bijection follows easily from the triangle identities.  The 2-cells $\lambda$ and $\mu$ are called **mates** with respect to the adjunctions $f \dashv u$ and $f' \dashv u'$ (and to the 1-cells $x$ and $y$).
 
 ## Example
@@ -57,4 +62,4 @@ and the pasting operations as above yield the usual definition of the isomorphis
 
 ## References
 
-Kelly, G. M., Street, R., _Review of the elements of 2-categories_, in Kelly (ed.), Category Seminar, LNM 420.
+* [[Max Kelly]], [[Ross Street]], _Review of the elements of 2-categories_, in Kelly (ed.), Category Seminar, LNM 420.
