@@ -20,7 +20,7 @@
 +-- {: .un_def}
 ###### Definition
 
-For $C$ an [[(∞,1)-category]] with [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s, a [[morphism]] $f : y \to X$ is an **effective epimorphism** if it is the [[(∞,1)-colimit]] of its [[Cech nerve]]: the augmented simplicial diagram
+For $C$ an [[(∞,1)-category]] with [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s, a [[morphism]] $f : Y \to X$ is an **effective epimorphism** if it is the [[(∞,1)-colimit]] of its [[Cech nerve]]: the augmented simplicial diagram
 
 $$
   \cdots
