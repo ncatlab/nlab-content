@@ -101,6 +101,22 @@ There are other versions of this theorem, including generalizations to monadicit
 The version of the monadicity theorem given in [[Categories Work]] uses an [[evil]] notion of "creation of limits" and concludes that the comparison functor is an *isomorphism* of categories, rather than merely an equivalence.  But the versions mentioned above can be found in the excercises.
 
 
+## Examples and Applications
+
+### Groups over sets
+
+We will use Duskin's variant to prove that the [[forgetful functor]] $U\colon$[[Grp]]$\to$[[Set]] is monadic.  Of course, this is also easy to show by explicit computation, but it serves as a useful example of how to use a monadicity theorem.  We first need it to have a left adjoint: this is easy to show by a direct construction of [[free groups]], but we could also invoke the [[adjoint functor theorem]].  It is also easy to show that it is conservative (a bijective group homomorphism is a group isomorphism), so it remains to consider congruences.
+
+Since limits in $Grp$ are created in $Set$, a [[congruence]] in $Grp$ on a group $G$ is an [[equivalence relation]] on $G$ which is also a [[subgroup]] of $G\times G$.  This latter condition means that if $g_1\sim g_2$ and $h_1\sim h_2$, then also $g_1^{-1}\sim g_2^{-1}$ and $g_1 h_1 \sim g_2 h_2$.  Since $g\sim g$ for all $g$, it follows that $g\sim h$ if and only if $1\sim h g^{-1}$, so $\sim$ is determined by the subset $H\subseteq G$ of those $h\in G$ such that $1\sim h$.  This $H$ is clearly a subgroup of $G$, and moreover a [[normal subgroup]], since if $h\in H$ and $g\in G$ we have $1 = g^{-1} g \sim g^{-1} h g$, so $g^{-1} h g\in H$.  Conversely, it is easy to construct a congruence from any normal subgroup, so the two notions are equivalent.  It remains only to observe that the quotient of a group by a normal subgroup is, in fact, a quotient of its associated congruence in $Grp$, which is preserved by $U$.  Thus, by Duskin's monadicity theorem, $U$ is monadic.
+
+### Categories over computads
+
+The monadicity theorem becomes more important when the base category $C$ is more complicated and harder to work with explicitly, and when the objects of $D$ are not obviously defined as "objects of $C$ with extra structure."  For instance, the category of [[strict 2-categories]] is monadic over the category of 2-[[globular sets]], essentially by definition, but it is much less trivial to show that it is *also* monadic over the category of [[2-computads]].  This latter fact can, however, be proven using the monadicity theorem.
+
+### Monadic descent
+
+The monadicity theorem also plays a central role in [[monadic descent]].
+
 ## In $(\infty,1)$-categories
 
 There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 3.4](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=107) of
@@ -108,18 +124,18 @@ There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
 
-## Applications
-
-The monadicity theorem plays a central role in [[monadic descent]].
-
 ## References
 
-A canonical textbook reference is section 4 in volume 2 of
+Canonical textbook references include 
 
-* [[Francis Borceux]], _Handbook of categorical algebra_ , in 3 vols. 
+* Section 4 in volume 2 of [[Francis Borceux]], _Handbook of categorical algebra_ , in 3 vols. 
 {#Borceux}
 
-* [[Michael Barr]], [[Charles Wells]], _Triples, toposes, and theories_ , Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983, [ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt), [web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html), [pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf)
+* Section VI.7 of [[Categories Work]].
+
+* Chapter 3 of [[Michael Barr]], [[Charles Wells]], _Triples, toposes, and theories_ , Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983, [ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt), [web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html), [pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf)
+
+Other references include:
 
 * [[descent]], [[FGA explained]], [[SGA 1]], [[Benabou-Roubaud theorem| Bénabou-Roubaud's theorem]]
 
