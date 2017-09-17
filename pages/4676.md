@@ -30,7 +30,7 @@
 
 A _bundle 2-gerbe_ is a special presentation of the total space of a $\mathbf{B}^2 U(1)$-[[principal 3-bundle]], where $\mathbf{B}^2 U(1)$ is the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 3-group</a>.
 
-Bundle 2-gerbes with connection are accordingly a special cocycle representative for [[circle n-bundles with connection]], hence for degree 4 [[Deligne cohomology]], hence for degree 4 [[Cheeger-Simons differential character]]s.
+A [[connection on a bundle 2-gerbe]] is a special cocycle representative for [[circle n-bundles with connection]], hence for degree 4 [[Deligne cohomology]], hence for degree 4 [[Cheeger-Simons differential character]]s.
 
 The definition is built by iteration on the definition of [[bundle gerbe]]:
 
@@ -42,7 +42,7 @@ a bundle 2-gerbe over a manifold $X$ is
 
 * a morphims of bundle gerbes $\pi_1^* \mathcal{L} \otimes\pi_2^* \mathcal{L} \to \pi_1^* \mathcal{L}$;
 
-* which is associative up to a choice of coherent 2-morphisms.
+* which is associative up to a choice of coherent [[2-morphism]]s.
 
 ## Examples
 
