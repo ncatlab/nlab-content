@@ -1,5 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A **copresheaf** on a [[category]] $C$ is a [[presheaf]] on the [[opposite category]] $C^{op}$. 
+
+In other words, a co-presheaf on $C$ is just a [[functor]] on $C$. One speaks of functors as co-presheafs if one wants to impose a gluing condition on them and pass to _[[cosheaves]]_.
+
+
+
 
 [[!redirects copresheaves]]
 
