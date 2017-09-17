@@ -130,3 +130,8 @@ $$
 is an [[equivalence of categories]]. This is shown at [[module]].
 
 =--
+
+
+## In higher category theory
+
+See [[tangent (infinity,1)-category]].
