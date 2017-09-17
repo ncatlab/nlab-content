@@ -10,51 +10,96 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Definitions
 
+We first discuss the classical case of bases 
+
+* [for topological spaces](#ForTopologicalSpaces)
+
+and then the more general case of bases 
+
+* [for sites / Grothendieck topologies](#ForSites).
+
 ### For topological spaces
+ {#ForTopologicalSpaces}
 
-For $X$ a [[topological space]], a __[[base]]__ or __basis__ for the topology of $X$ is a collection of [[open subset]]s -- called __basic open subsets__ or __generating open subsets__ -- such that every open subset is a [[union]] of basic ones.
++-- {: .num_defn}
+###### Definition
 
-If we think of the topology on $X$ as being encoded in the standard [[Grothendieck topology]] that it induces on its [[category of open subsets]] $Op(X)$, then a base for the topology induces a _[[coverage]]_ on $Op(X)$, whose covering families are the open covers by basic open subsets, which generates this Grothendieck topology.
+For $X$ a [[topological space]], a __[[base]]__ or __basis__ for the topology of $X$ is a collection of [[open subsets]] -- called __basic open subsets__ or __generating open subsets__ -- such that every open subset is a [[union]] of basic ones.
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If one thinks of the topology on $X$ as being encoded in the standard [[Grothendieck topology]] that it induces on its [[category of open subsets]] $Op(X)$, then a base for the topology induces a _[[coverage]]_ on $Op(X)$, whose covering families are the open covers by basic open subsets, which generates this Grothendieck topology.
+
+This connects to the more general definition \ref{BasisForGrothendieckTopology} below.
+
+=--
 
 ### For sites / Grothendieck topologies
+ {#ForSites}
 
-For $C$ a [[category]] with [[pullback]]s and equipped with a [[Grothendieck topology]], a [[basis for the Grothendieck topology]] is a [[coverage]] that generates this Grothendieck topology and which is stable under pullback and is transitive.
++-- {: .num_defn #BasisForGrothendieckTopology}
+###### Definition
 
+For $C$ a [[category]] with [[pullbacks]] and equipped with a [[Grothendieck topology]], a [[basis for the Grothendieck topology]] is a [[coverage]] that generates this Grothendieck topology and which is stable under pullback and is transitive.
 
-### Warning 
+=--
+
++-- {: .num_remark}
+###### Remark
+**(Warning)**
 
 Unfortunately the established terminology "basis" in [[topology]] and [[topos theory]]  is not quite consistent with the inclusion of topological spaces into topos theory:
 
-because the collection of basic open subsets of a base for a topological space $X$ is in general not closed under intersection with open subsets, this [[coverage]] on $Op(X)$ is in general _not_ a [[basis for a Grothendieck topology]] (a [[Grothendieck pretopology]]) on $Op(X)$.
+because the collection of basic open subsets of a base for a topological space $X$ is in general not closed under [[intersection]] with open subsets, this [[coverage]] on $Op(X)$ is in general _not_ a [[basis for a Grothendieck topology]] (a [[Grothendieck pretopology]]) on $Op(X)$.
 
-So "basis" in topology corresponds to "[[coverage]]" in topos theory, not to "basis" in topos theory.
+So "basis" in topology corresponds to _[[coverage]]_ in topos theory, not to "basis" in topos theory.
 
 On the other hand, some authors avoid the term [[basis for a Grothendieck topology]] and say [[Grothendieck pretopology]] instead.
 
-
-## Properties
-
-...
+=--
 
 
 ## Examples
 
-We list examples for bases of topological spaces. For examples of bases of Grothendieck topologies see [[basis for a Grothendieck topology]] instead.
+We list examples for bases of topological spaces. For examples of bases of Grothendieck topologies see _[[basis for a Grothendieck topology]]_ instead.
 
-* For the [[discrete topology]] on a set $X$, the collection of all singleton subsets is a base.
++-- {: .num_example}
+###### Example
 
-* For every [[metric space]], in particular every [[paracompact space|paracompact]] [[manifold]] the collection of open subsets that are [[open ball]]s forms a base for the topology.
+For the [[discrete topology]] on a set $X$, the collection of all [[singleton]] subsets is a base.
 
-  Notice that this means that [[covering]] families consisting of such basic open subsets are [[good open cover]]s.
+=--
 
-  For instance a base for the topology on the [[real line]] is given by the collection of open intervals $(a,b) \subset \mathbb{R}$
++-- {: .num_example}
+###### Example
 
+For every [[metric space]], in particular every [[paracompact space|paracompact]] [[manifold]], the collection of [[open subsets]] that are [[open balls]] forms a base for the topology.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means that [[covering]] families consisting of such _basic_ open subsets are [[good open covers]].
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+For instance a base for the topology on the [[real line]] is given by the collection of open intervals $(a,b) \subset \mathbb{R}$.
+
+=--
 
 
 [[!redirects base for a topology]]
