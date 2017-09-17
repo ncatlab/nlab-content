@@ -79,7 +79,10 @@ For a similar link list with considerable overlap see
 
 * [[Grothendieck topos]]
 
+
 ##IV First Properties of Elementary Topoi
+
+### 1. Definition of a topos
 
 * [[subobject classifier]]
 
@@ -103,11 +106,47 @@ For a similar link list with considerable overlap see
 
 * [[dependent product]]
 
+### 2. The construction of exponentials
 
+* [[exponential object]]
 
+### 3. Direct image
 
-* [[infinity-topos]]
+* [[direct image]]
 
+### 4. Monads and Beck's theorem
+
+* [[monad]]
+
+* [[Eilenberg-Moore category]]
+
+* [[monadic functor]]
+
+* [[monadicity theorem]]
+
+### 5. The construction of colimits
+
+### 6. Factorization and images
+
+* [[image]]
+
+### 7. The slice category as a topos
+
+* [[over-topos]]
+
+### 8. Lattice and Heyting algebra objects in a topos
+
+* [[lattice]]
+
+* [[Heyting algebra]]
+
+### 9. The Beck-Chevalley condition
+
+* [[Beck-Chevalley condition]]
+
+### 10. Injective objects
+
+* [[injective objects]]
 
 
 ## V Basic Constructions of Topoi
@@ -147,6 +186,8 @@ For a similar link list with considerable overlap see
 ### 8. The topos of coalgebras
 
 * [[comonad]]
+
+* [[topos of coalgebras]]
 
 ### 9. The filter-quotient construction
 
