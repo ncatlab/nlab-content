@@ -59,10 +59,12 @@ Any hyperconnected geometric morphism is [[connected geometric morphism|connecte
 So the name is not unreasonable.
 
 
-+-- {: .un_prop #HyperconnLocalicFactorizationSystem}
++-- {: .num_prop #HyperconnLocalicFactorizationSystem}
 ###### Proposition
 
-Hyperconnected geometric morphisms are the left class of a 2-categorical [[orthogonal factorization system]] on the 2-category of toposes; the right class is the class of [[localic geometric morphisms]].  
+Hyperconnected geometric morphisms are the left class of a 2-categorical [[orthogonal factorization system]] on the 2-category of toposes; the right class is the class of [[localic geometric morphisms]].
+
+([[(hyperconnected,localic) factorization system]]).  
 
 =--
 
