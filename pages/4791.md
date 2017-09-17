@@ -47,6 +47,11 @@ This means that all the way up to the 15 [[coskeleton]] the group $E_8$ looks, [
 By the above discussion of homotopy groups, it follows (by [[Chern-Weil theory]]) that the first [[invariant polynomials]] on the [[Lie algebra]] $\mathfrak{e}_8$ are the quadratic [[Killing form]] and then next an octic polynomial. That is described in ([Cederwall-Palmkvist](#CederwallPalmkvist)).
 
 
+### As U-duality of 3d SuGra
+
+$E_8$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 3 dimensions.
+
+
 ## Related entries
 
 The gorup $E_8$ plays a role in some exceptional [[differential geometry]]/[[differential cohomology]]. See for instance
