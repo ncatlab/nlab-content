@@ -463,7 +463,7 @@ where
 
 ### As an automorphism 2-group of fermionic CFT
 
-([Douglas-Henriques](#DouglasHenriques))
+The string 2-group also appears as a certain [[automorphism 2-group]] inside the [[3-category of fermionic conformal nets]] ([Douglas-Henriques](#DouglasHenriques))
 
 
 ## Related concepts
@@ -522,7 +522,7 @@ A construction explicitly in terms of the "basic" [[bundle gerbe]] on $G$ is dis
 
 * [[Konrad Waldorf]], _A Construction of String 2-Group Models using a Transgression-Regression Technique_ ([arXiv:1201.5052](http://arxiv.org/abs/1201.5052))
 
-Via fermionic nets:
+Via fermionic nets/[[2-Clifford algebra]]:
 
 * [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
  {#DouglasHenriques}
