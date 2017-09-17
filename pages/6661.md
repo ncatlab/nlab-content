@@ -1,0 +1,93 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+# Rigged limits
+* table of contents
+{: toc}
+
+## Idea
+
+A **rigged limit** is a [[2-limit]] which is [[created limit|created]] in 2-categories of algebras and [[lax morphisms|lax]], colax, or pseudo morphisms for a 2-monad.
+
+In order to characterize these most precisely, however, it turns out to be convenient to generalize from [[2-categories]] to [[F-categories]], using the corresponding notions of $\mathcal{F}$-monad, $\mathcal{F}$-limit, and so on.
+
+## Definition
+
+Let $D$ be a [[small category|small]] strict $\mathcal{F}$-[[F-category|category]].  Then we have the [[functor category|functor]] $\mathcal{F}$-category $[D,\mathcal{F}]$ (where $\mathcal{F}$ denotes the $\mathcal{F}$-category $\mathcal{F}$).  An object of $[D,\mathcal{F}]$ is an $\mathcal{F}$-functor $\Phi\colon D\to \mathcal{F}$, which can be identified with a pair of 2-functors $\Phi_\tau\colon D_\tau \to Cat$ and $\Phi_\lambda\colon D_\lambda\to Cat$ together with a 2-natural transformation
+$$\array{D_\tau & & \overset{J_D}{\to} & & D_\lambda\\
+  & {}_{\Phi_\tau}\searrow & \neArrow & \swarrow_{\Phi_\lambda} \\
+  & & Cat } $$
+whose components are full embeddings (objects of $\mathcal{F}$).
+
+The [[tight morphisms]] in $[D,\mathcal{F}]$ are $\mathcal{F}$-natural transformations in the usual sense of enriched category theory, whereas its [[loose morphisms]] are 2-natural transformations between loose parts.
+
+We also have an $\mathcal{F}$-category $Oplax(D,\mathcal{F})$ with the same objects, whose loose morphisms are [[oplax natural transformations]] between loose parts which are strictly 2-natural on tight morphisms, and whose tight morphisms are those whose components are all tight.  The inclusion
+$$ [D,\mathcal{F}] \to Oplax(D,\mathcal{F}) $$
+has a left adjoint, which induces an $\mathcal{F}$-[[comonad]] $\mathcal{Q}_c^D$ on $[D,\mathcal{F}]$.
+
++-- {: .un_defn}
+###### Definition
+A weight $\Phi\colon D\to \mathcal{F}$ is **$l$-rigged** if
+
+1. It is a $\mathcal{Q}_c^D$-coalgebra, and
+1. The canonical functor $Lan_{J_D} \Phi_\tau \to \Phi_\lambda$ is surjective on objects.
+=--
+
+We obtain definitions of **$c$-rigged** and **$p$-rigged** weights if we replace $Oplax(D,\mathcal{F})$ by $Lax(D,\mathcal{F})$ and $Pseudo(D,\mathcal{F})$, respectively.
+
+## Characterization
+
+Let $w$ denote one of $l$, $c$, or $p$.
+
++-- {: .un_theorem}
+###### Theorem
+For an $\mathcal{F}$-weight $\Phi$, the following are equivalent.
+
+1. $\Phi$ is $w$-rigged.
+1. For any $\mathcal{F}$-monad $T$ on an $\mathcal{F}$-category $K$, the $\mathcal{F}$-functor $U_w\colon T Alg_w \to K$ creates $\Phi$-weighted limits.
+1. For any 2-monad $T$ on a 2-category $K$, the functor $U_w\colon T Alg_w \to K$ (where $K$ denotes the chordate $\mathcal{F}$-category on $K$) creates $\Phi$-weighted limits.
+=--
+
+See ([LS](#LS)) for the proof.
+
+## Examples
+
+The following limits are $l$-rigged.
+
+* The [[2-limit]] of any diagram of tight morphisms which is also a limit as a diagram of loose morphisms.  This includes any [[product]] and any [[power]].
+
+* The [[oplax limit]] of any diagram of loose morphisms.
+
+* The [[inserter]] of a [[parallel pair]] $f,g\colon A\to B$ such that $f$ (the domain of the 2-cell to be inserted) is tight.  Here the projection to $A$ is tight and tightness-detecting.
+
+* The [[equifier]] of a parallel pair of 2-cells between a parallel pair of 1-morphisms $f,g\colon A\to B$ such that $f$ (the domain of the 2-cells) is tight.  Again, the projection to $A$ is tight and tightness-detecting.
+
+* The [[Eilenberg-Moore object]] of a loose monad.  Here the canonical forgetful morphism is tight and tightness-detecting.
+
+Each has a fairly obvious dual version which is $c$-rigged.  There are $p$-rigged versions as well, but $p$-rigged weights are almost equivalent to [[PIE-limits]]; see ([LS](#LS)) for details.
+
+## References
+
+* [[Stephen Lack]], "Limits for lax morphisms". *Appl. Categ. Structures*,
+13(3):189--203, 2005
+
+* [[Stephen Lack]] and [[Mike Shulman]], "Enhanced 2-categories and limits for lax morphisms", [arXiv](http://arxiv.org/abs/1104.2111).
+ {#LS}
+
+[[!redirects rigged limit]]
+[[!redirects rigged limits]]
+[[!redirects l-rigged limit]]
+[[!redirects l-rigged limits]]
+[[!redirects c-rigged limit]]
+[[!redirects c-rigged limits]]
+[[!redirects p-rigged limit]]
+[[!redirects p-rigged limits]]
+
