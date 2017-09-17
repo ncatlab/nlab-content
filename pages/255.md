@@ -13,15 +13,6 @@
 =--
 =--
 
-* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
-
-* **monad** / [[(∞,1)-monad]]
-
-* [[operad]] / [[(∞,1)-operad]]
-
-***
-
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -159,12 +150,18 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 ## Related entries 
 
+
+* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+
+* **monad** / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
+
 * [[strong monad]]
 
 * [[bar construction]]
 
 * [[monadic descent]]
-
 
 ## References
 
