@@ -29,24 +29,151 @@ Let $X$ be a [[topological space]]. Write $C_\bullet(X)$ for its [[singular chai
 +-- {: .num_defn}
 ###### Definition
 
-The **reduced singular homology** of $X$, denoted $\tilde H_\bullet(X)$, is the [[chain homology]] of the [[augmentation|augmented]] chain complex
+The **augmentation map** is the homomorphism of abelian groups
 
 $$
-  \cdots \to C_2(X) \stackrel{\partial_1}{\to} C_1(X) \stackrel{\partial_0}{\to} C_0(X) \stackrel{\epsilon}{\to}
-  \mathbb{Z} \to 0
-  \,,
+  \epsilon \colon C_0(X) \to \mathbb{Z}
 $$
 
-where the **augmentation map** $\epsilon$ adds the [[coefficients]] of all 0-chains:
+which adds up all the coefficients of all 0-chains:
 
 $$
   \epsilon \colon \colon \sum_{i} n_i \sigma_i \mapsto \sum_i n_i
   \,.
 $$
 
+Since the boundary of a 1-chain is in the [[kernel]] of this map, it constitutes a [[chain map]]
+
+$$
+  \epsilon \colon C_\bullet(X) \to \mathbb{Z}
+  \,,
+$$
+
+where now $\mathbb{Z}$ is regarded as a chain complex concentrated in degree 0.
+
+=--
+
++-- {: .num_defn #ReducedSingularChainComplex}
+###### Definition
+
+The **reduced singular chain complex** $\tilde C_\bullet(X)$ of $X$ is the [[kernel]] of the augmentation map, the chain complex sitting in the [[short exact sequence]]
+
+$$
+  0 \to \tilde C_\bullet(C) \to C_\bullet(X) \stackrel{\epsilon}{\to} \mathbb{Z} \to 0
+  \,.
+$$
+
+The **reduced singular homology** $\tilde H_\bullet(X)$ of $X$ is the [[chain homology]] of the reduced singular chain complex
+
+$$
+  \tilde H_\bullet(X) \coloneqq H_\bullet(\tilde C_\bullet(X))
+  \,.
+$$
+
+=--
+
+Equivalently:
+
++-- {: .num_defn}
+###### Definition
+
+The **reduced singular homology** of $X$, denoted $\tilde H_\bullet(X)$, is the [[chain homology]] of the [[augmentation|augmented]] chain complex
+
+$$
+  \cdots \to C_2(X) \stackrel{\partial_1}{\to} C_1(X) \stackrel{\partial_0}{\to} C_0(X) \stackrel{\epsilon}{\to}
+  \mathbb{Z} \to 0
+  \,.
+$$
+
 =--
 
 ## Properties
+
+### Relation to ordinary homology
+
+Let $X$ be a [[topological space]], $H_\bullet(X)$ its [[singular homology]] and $\tilde H_\bullet(X)$ its reduced singular homology, def. \ref{ReducedSingularChainComplex}.
+
++-- {: .num_prop}
+###### Proposition
+
+For $n \in \mathbb{N}$ there is an [[isomorphism]]
+
+$$
+  H_n(X)
+  \simeq
+  \left\{
+    \array{
+      \tilde H_n(X) & for \; n \geq 1
+      \\
+      \tilde H_0(X) \oplus \mathbb{Z} & for\; n = 0
+    }
+  \right.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[homology long exact sequence]] of the defining short exact sequence $\tilde C_\bullet(C) \to C_\bullet(X) \stackrel{\epsilon}{\to} \mathbb{Z}$ is, since $\mathbb{Z}$ here is concentrated in degree 0, of the form
+
+$$
+  \cdots \to \tilde H_n(X) \to H_n(X) \to 0 \to \cdots \to 
+  0 \to 
+  \cdots \to \tilde H_1(X) \to H_1(X) \to 0 \to 
+  \tilde H_0(X) \to H_0(X) \stackrel{\epsilon}{\to}  \mathbb{Z} \to 0 
+  \,.
+$$
+
+Here [[exact sequence|exactness]] says that all the morphisms $\tilde H_n(X) \to H_n(X)$ for positive $n$ are [[isomorphisms]]. Moreover, since $\mathbb{Z}$ is a [[free abelian group]], hence a [[projective object]], the remaining [[short exact sequence]]
+
+$$
+  0 \to \tilde H_0(X) \to H_0(X) \to \mathbb{Z} \to 0
+$$
+
+is [[split exact sequence|split]] (as discussed there) and hence $H_0(X) \simeq \tilde H_0(X) \oplus \mathbb{Z}$.
+ 
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X = *$ the [[point]], the morphism
+
+$$
+  H_0(\epsilon) H_0(X) \to \mathbb{Z}
+$$
+
+is an [[isomorphism]]. Accordingly the reduced homology of the point vanishes in every degree:
+
+$$
+  \tilde H_\bullet(*) \simeq 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at _[Singular homology -- Relation to homotopy groups](singular%20homology#RelationToHomotopyGroups)_ we have that 
+
+$$
+  H_n(*) \simeq
+  \left\{
+    \array{
+       \mathbb{Z} & for \; n = 0
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+Moreover, it is clear that $\epsilon \colon C_0(*) \to \mathbb{Z}$ is the [[identity]] map. 
+
+=--
+
 
 ### Relation to relative homology
 
