@@ -60,7 +60,7 @@ Noncommutative projective spaces, noncommutative grassmannians, universal noncom
 
 * M. Artin, J. Zhang, _Noncommutative projective schemes_, Adv. Math. 109, 228--287 (1994).
 
-
+category: algebraic geometry, noncommutative geometry
 [[!redirects noncommutative scheme]]
 [[!redirects noncommutative schemes]]
 [[!redirects non-commutative scheme]]
