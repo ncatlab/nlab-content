@@ -42,7 +42,7 @@ For a discussion of this in the finite-dimensional case see
 
 The [[GNS construction]]) shows how to interpret every abstract $C^*$-algebra as a concrete $C^*$-algebra.
 
-$C^*$-algebras with a group $G$ that is represented via automorphisms of the algebra are called [[C-star system]]s.
+$C^*$-algebras with a group $G$ that is represented via automorphisms of the algebra are called [[C-star-systems]].
 
 See [[operator algebras]].
 
