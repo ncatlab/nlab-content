@@ -15,7 +15,14 @@
 
 ## Idea 
 
-The analog of a [[filtered category]] in the context of [[(∞,1)-categories]].
+This is the analog of a [[filtered category]] in the context of [[(∞,1)-categories]]. The main purpose of considering filtered (∞,1)-categories is to define filtered (∞,1)-colimits. These are commuting with finite (∞,1)-limits.
+
+## Definition
+
+Let $\kappa$ be a [[regular cardinal]], let $C\in \sSet$ be an (∞,1)-category.
+
+$C$ is called **$\kappa$-filtered** if for all $\kappa$-small $K\in\sSet$ and every morphism $f:K\to C$ there is a morphism $\hat p:\rcone(K)\to C$ extending $f$ where $\rcone(K)$ denotes the (right) [[cone]] of the simplicial set $K$. $C$ is called **filtered** if it is $\omega$-filterd.
+
 
 ## Properties
 
