@@ -1,0 +1,21 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An [[action]]
+
+$$
+  \rho : G \times X \to X
+$$
+
+of a group $G$ on a set $X$ is _free_ 
+if for every $x \in X$ and every $g\in G$, 
+the morphisms $g x = x$ implies $g=1_G$.
+
+## Related concepts
+
+* [[homogeneous space]]
+* [[transitive action]]
+* [[torsor]]
