@@ -67,7 +67,7 @@ In case that you do feel that this is not an option and that you do need to cont
 
 If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
 
-If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)!
+If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://goo.gl/2k3nD)!
 
 ## Using the $n$Lab
  {#TermsOfUse}
@@ -98,7 +98,7 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. 
 
 
-category: meta
+category: meta, [Roulette](http://www.russian-rules.ru)
 
 [[!redirects HomePage]]
 [[!redirects Home Page]]
