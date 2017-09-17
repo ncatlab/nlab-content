@@ -8,9 +8,15 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-In [[type theory]], a [[term]] belonging to some [[type]] is said to be of **canonical form** if it is explicitly built up using the constructors of that type.  A canonical form is in particular a [[normal form]] (one not admitting any reductions), but the converse need not hold.
+Systems of _formal_ [[logic]], such as [[type theory]], try to transform expressions into a _canonical form_ which then serves as the end result of the given computation or deduction. A formal system is said to enjoy _canonicity_ if every expression reduced to canonical form.
+
+More precisely, in [[type theory]], a [[term]] belonging to some [[type]] is said to be of **canonical form** if it is explicitly built up using the constructors of that type.  A canonical form is in particular a [[normal form]] (one not admitting any reductions), but the converse need not hold.
 
 For example, the terms of type $\mathbb{N}$ (a [[natural numbers type]]) of canonical form are the *numerals*
 $$ S(S(S(\cdots (0)\cdots ))). $$
@@ -27,8 +33,21 @@ Similarly, using the univalence axiom, we can obtain a term $p : (\mathbb{N}=\ma
 
 It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation.  Some partial progress towards this can be found [here](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/).
 
+## References
+
+Discussion of canonicity in [[homotopy type theory]] with [[univalence]] is discussed in 
+
+* Simon Huber (with [[Thierry Coquand]]), _Towards a computational justification of the Axiom of Univalence_ , talk at _TYPES 2011_ ([pdf](http://www.cse.chalmers.se/~simonhu/slides/types11.pdf))
+
+* [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf))
+
+Similar discussion for [[2-type theory]] is in 
+
+* [[Dan Licata]], _Canonicity for 2-Dimensional Type theory_  (2011) ([web](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/))
+
 [[!redirects canonical form]]
 [[!redirects canonical forms]]
 [[!redirects canonicity]]
 [[!redirects canonicity for type theory]]
 [[!redirects type-theoretic canonicity]]
+
