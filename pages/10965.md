@@ -14,8 +14,13 @@ Lawvere's formalization of Hegel's "[[Science of Logic]]" in terms of the [[cate
 ## Introduction
 
 (...)
+One of the clearest expressions of the philosophical role envisaged for Fregean logic appears at the end of Russell's chapter _Logic As The Essence Of Philosophy_
 
-Despite the initial rejection of Hegelian ideas by analytic philosophy, there have recently been increasing signs of a willingness to re-engage with Hegel's writings, in particular on the part of John MacDowell and Robert Brandom (Redding, 2007). One feature of analytic philosophy which needs reconsidering according to Redding is the primacy of first-order predicate logic. 
+>The old logic put thought in fetters, while the new logic gives it wings. It has, in my opinion, introduced the same kind of advance into philosophy as Galileo introduced into physics, making it possible at last to see what kinds of problems may be capable of solution, and what kinds are beyond human powers. And where a solution appears possible, the new logic provides a method which enables us to obtain results that do not merely embody personal idiosyncrasies, but must command the assent of all who are competent to form an opinion. (Logic As The Essence Of Philosophy, 1914)
+
+In the same chapter Hegel was taken to task for his attempt to widen logic to a form of metaphysics. Much of it appears to Russell to result from muddled thinking, for instance, a failure to distinguish the 'is' of predication from the 'is' of identity.
+
+Despite the initial lengthy rejection of Hegelian ideas by analytic philosophy, there have recently been increasing signs of a willingness to re-engage with Hegel's writings, in particular on the part of John MacDowell and Robert Brandom (Redding, 2007). One feature of analytic philosophy which needs reconsidering according to Redding is the primacy of first-order predicate logic. 
 
 (...)
 
@@ -32,3 +37,5 @@ Despite the initial rejection of Hegelian ideas by analytic philosophy, there ha
 * [[schreiber:Type-semantics for quantization]]
 
 * Paul Redding, _Analytic Philosophy and the Return of Hegelian Thought_, Cambridge University Press, 2007 ([review](http://ndpr.nd.edu/news/23465-analytic-philosophy-and-the-return-of-hegelian-thought/) by Willem A. deVries)
+
+* [[Bertrand Russell]], 'Logic As The Essence Of Philosophy', chap. 2 of _Our Knowledge of the External World_, (1914)
