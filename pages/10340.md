@@ -1,9 +1,11 @@
 
 
-  local model           |     global [[geometry]]
-------------------------|--------------------------
- [[Euclidean geometry]] | [[Riemannian geometry]]
- [[Lorentzian geometry]]| [[pseudo-Riemannian geometry]]
-  [[Klein geometry]]    |    [[Cartan geometry]]
- [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
- [[higher Klein geometry]]  |   [[higher Cartan geometry]]
+|  | local model [[space]] |     global [[geometry]]  |  [[differential cohomology]]  |  [[first order formulation of gravity]] |
+|--|-----------------------|--------------------------|-------------------------------|--------------|
+| general |  [[Klein geometry]]    |    [[Cartan geometry]]  | [[Cartan connection]] |      |
+| examples | [[Euclidean geometry]] | [[Riemannian geometry]]  |  [[affine connection]]  | [[Euclidean gravity]]     | 
+|  | [[Lorentzian geometry]]| [[pseudo-Riemannian geometry]] | [[spin connection]] | [[Einstein gravity]] |
+|          |  [[super Minkowski spacetime|Lorentzian supergeomety]] |  [[supergeometry]]  | [[superconnection]]  | [[supergravity]] |
+| general | [[Klein 2-geometry]]       |   [[Cartan 2-geometry]] |   |      |
+|  | [[higher Klein geometry]]  |   [[higher Cartan geometry]] | [[higher Cartan connection]]  |   |
+| examples | [[extended superspacetime|extended super Minkowski spacetime]] |  extended supergeometry  |    | [[higher gauge theory|higher]] [[supergravity]]: [[type II supergravity|type II]], [[heterotic supergravity|heterotic]], [[11-dimensional supergravity|11d]] |  
