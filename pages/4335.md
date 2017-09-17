@@ -32,7 +32,7 @@ V(r) & \underset{V(f)}{\to} & V(s)
 }
 $$ 
 
-such that the followin [[coherence law]]s are satisfied in  $C$ (throughout we leave the [[associator]]s and [[unitor]]s in $C$ implicit):
+such that the following [[coherence law]]s are satisfied in  $C$ (throughout we leave the [[associator]]s and [[unitor]]s in $C$ implicit):
 
 1. respect for composition: for all composable morphisms $r \stackrel{f}{\to} s \stackrel{g}{\to} t$ in $S$ we have an equality
 
