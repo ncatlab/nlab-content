@@ -1,4 +1,6 @@
 
+> This page is about a general theorem in [[topos theory]]. For other meanings see e.g. [[comparison theorem (étale cohomology)]].
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context###
