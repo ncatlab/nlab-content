@@ -30,3 +30,5 @@ A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$. This means th
 * David Morrison, _[The geometry of K3 surfaces](http://www.cgtp.duke.edu/ITP99/morrison/cortona.pdf)_ Lecture notes (1988)
 
 [[!redirects K3 surfaces]]
+
+[[!redirects K3]]
