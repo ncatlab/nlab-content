@@ -69,7 +69,7 @@ $$
 
 # MacLane's co-Yoneda lemma#
 
-In a brief uncommented exercise on p. 63 of 
+In a brief uncommented exercise on p. 62 of 
 
 * MacLane, [[Categories Work|Categories for the Working Mathematician]],
 
