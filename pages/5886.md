@@ -19,9 +19,13 @@
 
 ## Definition
 
-A [[strong monoidal functor]] between [[cartesian categories]] is called a **cartesian functor**. More generally, a functor between Grothendieck's [[fibered categories]] is __cartesian__ if it sends cartesian morphisms into cartesian morphisms. The first definition then follows in the case of the [[codomain fibration]] for cartesian categories (with a choice of cartesian lifts to make them also monoidal categories).
+A [[strong monoidal functor]] between [[cartesian categories]] is called a **cartesian functor**. 
 
-For example the 1-morphisms in the 2-category of stacks are the cartesian functors. 
+More generally, a functor between Grothendieck's [[fibered categories]] is __cartesian__ if it sends [[cartesian morphism]]s into cartesian morphisms. The first definition then follows in the case of the [[codomain fibration]] for cartesian categories (with a choice of cartesian lifts to make them also monoidal categories).
+
+## Examples
+
+* The 1-[[morphism]]s in a [[2-category]] of [[stack]], regarded dually under the [[Grothendieck construction]] as a 2-category of [[fibered categories]], are defined to be the cartesian functors. 
 
 ## Related concepts
 
