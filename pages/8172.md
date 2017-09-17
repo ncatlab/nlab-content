@@ -36,9 +36,21 @@ $$
 
 where $A$ is the [[Steenrod algebra]]. 
 
-This is built via an [[Adams resolution]].
+This is built via an [[Adams resolution]]
 
-This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel, theorem, 2.1.1](#Ravenel)).
+$$
+  \array{
+    X = X_0 &\stackrel{g_0}{\leftarrow}&  X_1 &\stackrel{g_1}{\leftarrow}& X_2 &\stackrel{g_2}{\leftarrow}& X_3 &\stackrel{}{\leftarrow}& \cdots
+    \\
+    \downarrow^{\mathrlap{f_0}} && \downarrow^{\mathrlap{f_1}} && \downarrow^{\mathrlap{f_2}} && \downarrow^{\mathrlap{f_3}} &&
+    \\
+    K_0 && K_1 && K_2 && K_2
+  }
+$$
+
+The [[long exact sequence]] induced by this give an [[exact couple]] and the Adams spectral sequence is the corresponding [[spectral sequence]].
+
+This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel, theorem, 2.1.1, def. 2.1.8](#Ravenel)).
 
 ### Via cosimplicial spectra 
 
