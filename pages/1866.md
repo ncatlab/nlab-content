@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 #### Differential cohomology
 +--{: .hide}
@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 
@@ -42,6 +42,12 @@ In the presence of a nontrivial [[Kalb–Ramond field]] the RR field is [[twiste
 Moreover, the RR field is constrained to be a self-dual differential K-cocycle in some sense.
 
 The RR field derives its name from the way it shows up when the [[supergravity]] theory in question is derived as an effective background theory in [[string theory]]. From the [[sigma-model]] perspective of the string the RR field is the condensate of fermionic 0-mode excitations of the type II superstring for a particular choice of boundary conditons called the _Ramond_ boundary condititions. Since these boundary conditions have to be chosen for _two_ spinor components, the name appears twice. 
+
+## Related concepts
+
+* [[differential K-theory]]
+
+[[!include table of branes]]
 
 ## References 
 
