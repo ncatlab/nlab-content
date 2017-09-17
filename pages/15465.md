@@ -1,2 +1,0 @@
-Is it okay to place a portion of this on my site if I publish a reference point to this webpage?
-Sac Longchamp Compiegne http://www.unchataparis.fr/visinfo.php?pid=895
