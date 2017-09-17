@@ -48,6 +48,19 @@ $$
 
 where $Hom_F(-)$ denotes the subset of morphisms of simplicial sets that restricts to $F$ on $K$.
 
+**alternative definition** Alternatively the over/under category may be defined with respect to the other (equivalent) definition of [[join of quasi-categories]] $\diamondsuit$. The result is denoted $C^{/F}$.
+
+**Proposition**
+
+There is an equivalence of quasi-categories
+
+$$ 
+  C_{/F} \to C^{/F}
+  \,.
+$$
+
+This is [[Higher Topos Theory|HTT, prop. 4.2.1.5]]
+
 ## Properties
 
 * The simplicial set $C_{/F}$ is indeed again a [[quasi-category]].  
