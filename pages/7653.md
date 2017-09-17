@@ -2824,7 +2824,7 @@ $$
 
 ### Further twists
 
-There are various further twisted cohomological structures in string theory known or conjectured (for which possibly no smooth refinement has been constructed yet). We briefly list some of them.
+There are various further twisted cohomological structures in string theory known or conjectured (for some of which possibly no smooth refinement has been constructed yet). We briefly list some of them.
 
 #### Twisted super bundle
  {#TwistedSuperBundle}
@@ -2863,6 +2863,75 @@ $$
   }
   \,.
 $$
+
+#### Relative fields
+ {#RelativeFields}
+
+Meanwhile in ([Freed-Teleman 2012](#FreedTeleman)) special cases of the general notion of _twisted fields_ [above](#TableOfTwists) are being called _relative fields_. We briefly spell out how the definitions considered in that article are examples of the general notion above. 
+
+For $\pi \in Grp(Set) \hookrightarrow Grp(Smooth\infty Grpd)$ a [[discrete group]] and for $\overline{X} \in \mathbf{H} \coloneqq$ [[Smooth∞Grpd]] any object (for instance a [[smooth manifold]]) a morphism $\phi_{\overline{X}} \colon \overline{X} \to \mathbf{B}\pi$ modulates a $\pi$-[[principal bundle]] $X \to \overline{X}$ over $X$, hence a free $\pi$-[[action]] on $X$ such that $X \to \overline{X}$ is the [[quotient]] map. 
+
+Then the corresponding [[twisted cohomology]] $\mathbf{H}_{/\mathbf{B}\pi}(-, \phi_{\overline{X}})$ has 
+
+1. domains are objects $\Sigma$ equipped with a $\pi$-[[principal bundle]], modulated by a morphism $\phi_\Sigma \colon \Sigma \to \mathbf{B}\pi$;
+
+1. cocycles are morphism $\phi_\Sigma \to \phi_X$ in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}\pi}$, hence [[diagrams]] of the form
+
+   $$
+     \array{
+     \Sigma &&\stackrel{f}{\to}&& \overline{X}
+     \\
+     & {}_{\mathllap{\phi_\Sigma}}\searrow &\swArrow_{\theta}& \swarrow_{\mathrlap{\phi_X}}
+     \\
+     && \mathbf{B}\pi
+     }
+   $$
+
+   in $\mathbf{H}$, hence maps $f \colon \Sigma \to \overline{X}$ equipped with equivalences
+
+   $$
+    \theta \colon f^* \phi_X \stackrel{\simeq}{\to} \phi_\Sigma
+    \,.
+   $$
+
+This class of examples is what appears as def. 3.4 in ([Freed-Teleman](#FreedTeleman)). It contains in particular the above examples of _[Reduction of structure group](#ReductionOfTheStructureGroup)_ and [its differential refinement](#SpinConnection).
+
+Next, consider a compact Lie group $\overline{G}$ and a central [[group extension]] $\pi \to G \to \overline{G}$. This is classified by a cocycle 
+
+$$
+  \mathbf{c} \colon \mathbf{B}\overline{G} \to \mathbf{B}^2 \pi
+  \,.
+$$
+
+Then the corresponding twisted cohomology $\mathbf{H}_{/\mathbf{B}^2 \pi}(-, \mathbf{c})$ has
+
+1. domains are objects $\Sigma$ equipped with a $\mathbf{B}\pi$-[[principal 2-bundle]]/[[bundle gerbe]] modulated by a morphism $\phi_\Sigma \colon \Sigma \to \mathbf{B}^2 \pi$;
+
+1. cocycles are morphism $\phi_\Sigma \to \mathbf{c}$ in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^2\pi}$, hence [[diagrams]] of the form
+
+   $$
+     \array{
+     \Sigma &&\stackrel{f}{\to}&& \overline{X}
+     \\
+     & {}_{\mathllap{\phi_\Sigma}}\searrow &\swArrow_{\theta}& \swarrow_{\mathrlap{\mathbf{c}}}
+     \\
+     && \mathbf{B}^2\pi
+     }
+   $$
+
+   in $\mathbf{H}$, hence maps $f \colon \Sigma \to \overline{X}$ equipped with equivalences
+
+   $$
+     \theta \colon \mathbf{c}(f) \stackrel{\simeq}{\to} \phi_\Sigma
+   $$
+
+   between the principal 2-bundle/bundle gerbe $\mathbf{c}(f)$ induced by the $\overline{G}$-principal bundl modulated by $f$, and the one modulated by $\phi_\Sigma$.
+
+Alternatively one can use here the differential refinement of $\mathbf{B}\overline{G}$ to the [[moduli stack]] $\mathbf{B}\overline{G}_{conn}$ of $\overline{G}$-[[principal connections]].
+
+Examples and further details are discussed in [Schreiber, section 4](#Schreiber).  In ([Freed-Teleman](#FreedTeleman)) this example appears as def. 4.6.
+
+
 
 
 
@@ -3292,7 +3361,7 @@ The smooth $\infty$-stack refinements of these structures, as discussed above, h
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
  {#NSS}
 
-An attempt at a general theory of such smooth homotopy-types is laid out in 
+A general theory of such smooth homotopy-types is laid out in 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
  {#Schreiber}
@@ -3311,3 +3380,9 @@ Closely related lectures at the same program included
 * [[Dan Freed]], _Lectures on twisted $K$-theory and orientifolds_ at _[ESI Program on K-Theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_ (2012) ([pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf))
  {#FreedLecture}
 
+Later, some special cases of the general notion of twisted fields considered [above](#TableOfTwists) are being called _relative fields_ in 
+
+* [[Daniel Freed]], [[Constantin Teleman]], _Relative quantum field theory_ ([arXiv:1212.1692](http://arxiv.org/abs/1212.1692))
+ {#FreedTeleman}
+
+as discussed above in the section _[Relative fields](#RelativeFields)_ .
