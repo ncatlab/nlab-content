@@ -41,3 +41,6 @@ All the couplings appearin in the [[standard model of particle physics]] are "mi
 * [[spinors in Yang-Mills theory]]
 
 * [[Yukawa coupling]]
+
+[[!include gauge field - table]]
+
