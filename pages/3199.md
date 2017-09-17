@@ -50,6 +50,8 @@ The [[Schrödinger equation]] without potential term is similar to the
 
 * [[Laplace operator]]
 
+* [[heat kernel]]
+
 ## References
 
 A standard textbook account is
