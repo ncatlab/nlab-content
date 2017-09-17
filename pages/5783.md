@@ -74,6 +74,15 @@ with ring structure induced over each [[super point]] $\mathbb{R}^{0|q} = Spec \
 
 The [[higher algebra]] over this ring object is what is called [[superalgebra]]. See there for details on this.
 
+For $k$ the ground field and $j(k)$ its embedding as a super vector space into the topos by the map discussed at [superalgebra -- In the topos over superpoints -- K-modules](super+algebra#SuperModulesAsbbKModules) we have
+
+$$
+  \mathbb{K} \simeq j(k)
+  \,.
+$$
+
+
+
 ### Supergeometry
 
 (...) [[supergeometry]] (...)
