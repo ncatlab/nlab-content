@@ -60,7 +60,7 @@ In total this gives a quadruple of [[adjoint (∞,1)-functor]]s
 A cohesive $(\infty,1)$-topos is an $(\infty,1)$-topos whose terminal [[global section]] [[geometric morphism]] admits an extenson to such a quadruple of adjoints, such that $Disc$ and $Codisc$ are [[full and faithful (∞,1)-functor]]s
 
 
-Notice that despite this motivation, the general object in a cohesive $(\infty,1)$-topos is far from being a bare $\infty$-groupoid with extra structure: while the functor $\Gamma$ does produce the $\infty$-groupoid underlying an object $X$ in the cohesive $(\infty,1)$-topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ is $k$-[[truncated]] for very small $k$. But using the [[geometric embedding]] $Codisc : \infty Grpd \hookrightarrow \mathbf{H}$ we find there is intrinsically an [[(∞,1)-quasitopos]] $Conc(\mathbf{H})$ of [[concrete sheaf|concrete (∞,1)-sheaves]] inside $\mathbf{H}$
+Notice that despite this motivation, the general object in a cohesive $(\infty,1)$-topos is far from being a bare $\infty$-groupoid with extra structure: while the functor $\Gamma$ does produce the $\infty$-groupoid underlying an object $X$ in the cohesive $(\infty,1)$-topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ is $k$-[[truncated]] for very small $k$. But using the [[geometric embedding]] $Codisc : \infty Grpd \hookrightarrow \mathbf{H}$ we find there is intrinsically an [[(∞,1)-quasitopos]] $Conc(\mathbf{H})$ of [[concrete (∞,1)-sheaves]] inside $\mathbf{H}$
 
 $$
   Codisc : \infty Grpd \hookrightarrow Conc(\mathbf{H}) \stackrel{\overset{concretize}{\leftarrow}}{\hookrightarrow} \mathbf{H}
@@ -96,13 +96,13 @@ $$
   (f_! \dashv f^* \dashv f_* \dashv f^!) : 
   \mathbf{H}
    \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
-  \mathbf{S}
+  \infty Grpd
   \;
 $$
 
 with both $f^*$ and $f^!$ being [[full and faithful (∞,1)-functor]]s and $f_!$ preserving finite products.
 
-(For more general $S$ there is an extra condition on $\Pi$.)
+(For more general $\mathbf{S}$ there is an extra condition on $\Pi$.)
 
 If $(f_* \dashv f^*)$ is the [[global section]] geometric morphism of an $(\infty,1)$-topos over $\mathbf{S}$, we say that $\mathbf{H}$ is a **cohesive $(\infty,1)$-topos** over $\mathbf{S}$. In this case we denote the four $(\infty,1)$-functors also
 
@@ -179,7 +179,7 @@ For more on this see [[∞-Chern-Weil theory introduction]].
 
 ### Concrete objects
 
-Even with a notion of cohesion, the general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
+Even with a notion of cohesion, the general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete (∞,1)-sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
 
 Since 
 
@@ -199,7 +199,7 @@ $$
   \,.
 $$
 
-This encodes the [[concrete sheaf|concrete]] objects in $\mathbf{H}$.
+This encodes the [[concrete (∞,1)-sheaf|concrete]] objects in $\mathbf{H}$.
 
 
 ### Concordance {#Concordance}
@@ -443,19 +443,15 @@ See <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-cohesive+site#Propertie
 =--
 
 +-- {: .un_prop}
-###### Example
+###### Examples
 
-* The $(\infty,1)$-topos $(\infty,1)Sh(TopBalls)$ is that of (generalized) **topological $(\infty,1)$-groupoids**.
+* The $(\infty,1)$-topos $(\infty,1)Sh(TopBalls)$ is that of [[topological ∞-groupoid]]s.
 
-  Aspects of this are studied in 
+* The $(\infty,1)$-topos $(\infty,1)Sh(CartSp)$ is that of [[smooth ∞-groupoid]]s.
 
-  * [[Dan Dugger]], _Sheaves and homotopy theory_ ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
+  The 0-[[truncated]] [[concrete (∞,1)-sheaf|concrete]] objects in this are precisely the [[diffeological space]]s. Accordingly the general [[concrete (∞,1)-sheaves]] here we may think of as **diffeological $\infty$-groupoids**.
 
-* The $(\infty,1)$-topos $(\infty,1)Sh(CartSp)$ is that of (generalized) [[∞-Lie groupoid]]s.
-
-  The 0-[[truncated]] [[concrete sheaf|concrete]] objects in this are precisely the [[diffeological space]]s. Accordingly the general concrete objects here we may think of as **diffeological $\infty$-groupoids**.
-
-* The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of (generalized) [[∞-Lie groupoid]]s that contain also [[infinitesimal object|infinitesimal]] $\infty$-Lie groupoids: [[∞-Lie algebroid]]s.
+* The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of [[smooth ∞-groupoid]]s that contain also [[infinitesimal object|infinitesimal]] $\infty$-Lie groupoids: [[∞-Lie algebroid]]s.
 
 
 =--
