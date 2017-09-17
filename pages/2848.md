@@ -1,4 +1,4 @@
-[[!redirects predicate]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,18 +19,27 @@
 
 ## Idea
 
-In [[logic]], a __predicate__  is a statement with (potentially) a [[free variable]] in it.  More specifically, a predicate in (say) the variables $x,y,z$ is a statement whose free variables may include $x$, $y$, and $z$; a predicate on (say) the [[type]]s $X,Y,Z$ is a statement whose free variables may include a variable of type $X$, a variable of type $Y$, and a variable of type $Z$.
-
-The term **proposition** may be used synonymously with 'predicate', or it may be restricted to the case when there are *no* free variables.
-
-In modern logic, it\'s often cleaner to speak of the propositions (or predicates) that can be stated in any given [[context]]; the context specifies the free variables available.
+In [[logic]], a __proposition__ is intended to be interpreted [[semantics|semantically]] as having a [[truth value]].  In modern logic, it's cleanest to start by specifying a [[context]] and considering the propositions *in* that context.
 
 
-## In categorical logic
+## Predicates
 
-In the [[internal logic]] of a [[category]], [[type]]s are given by [[object]]s of the category predicates of type $T$ are given by [[subobject]]s $\phi \hookrightarrow T$.
+If (in a given context $\Gamma$) we have a [[type]] $A$, then we may extend $\Gamma$ to a context $\Delta \coloneqq \Gamma, x\colon A$ (assuming that the [[variable]] $x$ is not otherwise in use).  We may then think of any proposition in $\Delta$ as a __predicate__ $P$ over $\Gamma$ with the __free variable__ $x$ of type $A$; this generalises to more complicated extensions of contexts (say by several variables).
 
-We think of $T$ as the analogue of the "set" of possible values of variables $t$ and of $\phi$ as being the subset on those $t$ for which the statement $\phi(t)$ is [[true]].
+If $P$ is a predicate with free variable $x$ of type $A$ and $t$ is a [[term]] of type $A$, then we get a proposition $P[t/x]$ by substituting $t$ for every instance of $x$ in $P$.  Conversely, any proposition $Q$ may be interpreted as a predicate $Q[\hat{x}]$ in which the free variable $x$ simply doesn't appear.  (We have $Q[\hat{x}][t] = Q$ for every term $t$.)
+
+There is a more traditional approach of viewing a predicate as a [[function]] from terms to propositions, a __propositional function__.  Then $P[t/x]$ is written $P(t)$, while $P$ itself from above is written $P(x)$ (since a variable is a term).  In this approach, less care is taken with the context, and $Q[\hat{x}]$ is conflated with $Q$.
+
+
+## In category-theoretic logic
+
+In [[category-theoretic logic|categorial logic]], we have a [[category]] $\mathcal{C}$ and a [[class of monomorphisms]] (often all [[monomorphisms]]) $\mathcal{M}$ in $\mathcal{C}$.  Then a __context__ is an [[object]] of $\mathcal{C}$ and a __proposition__ in the context $\Gamma$ is an $\mathcal{M}$-[[subobject]] of $\Gamma$.  We also have a class of [[display maps]] (often all [[morphisms]] in $\mathcal{C}$) such that $\mathcal{M}$ is closed under [[pullbacks]] along display maps and along [[sections]] of display maps.  These two ways of pulling back propositions in one context to propositions in another context correspond (respectively) to forming $Q[\hat{x}]$ and $P[t/x]$.
+
+More specifically, if $\mathcal{C}$ is a [[finitely complete category]], then the objects of $\mathcal{C}$ may equivalently be viewed as contexts and as types in the [[internal language]] of $\mathcal{C}$; a morphism from $\Gamma$ to $A$ is a term of type $A$ in context $\Gamma$.  The extension of $\Gamma$ by a variable $x$ of type $A$ is the [[product]] $\Gamma \times A$, and the display map to $\Gamma$ is simply the projection.  Every term $t\colon \Gamma \to A$ defines a section of this display map, and we may literally construct $Q[\hat{x}]$ and $P[t/x]$ as pullbacks.
+
+If $\mathcal{C}$ is even a [[topos]], then a subobject $Q$ of $\Gamma$ may be identified with a term whose type is the [[subobject classifier]] $\Omega$, and the predicate $Q[\hat{x}]$ is the [[composite]] $\Gamma \times A \to \Gamma \to \Omega$.  Given a term $t\colon \Gamma \to A$ and a predicate $P\colon \Gamma \times A \to \Omega$, the proposition $P[t/x]$ is the composite $\Gamma \to \Gamma \times A \to \Omega$.
+
+Intuitively, think of an object $A$ in the [[slice category]] $\mathcal{C}/\Gamma$ as the set of possible values of terms $t$ of type $A$ in context $\Gamma$, and think of a predicate $P$ as being the subset on those $t$ for which the statement $\phi(t)$ is [[true]].
 
 
 [[!redirects predicate]]
