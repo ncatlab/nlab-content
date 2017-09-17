@@ -7,7 +7,9 @@
 
 * [[Dan Freed]], [[Mike Hopkins]], Constantin Teleman, _Loop groups and twisted K-theory ,I, II _ ([arXiv:0312155](http://arxiv.org/abs/math/0312155), [arXiv:0711.1906](http://arxiv.org/abs/0711.1906), [arXiv:0511232](http://arxiv.org/abs/math/0511232))
 
-  on [[loop group]]s and [[twisted K-theory]]
+  on [[loop group]]s and [[twisted K-theory]]. The result on K-groups has been lifted to an equivalence of categories in
+
+* [[Daniel S. Freed]], Constantin Teleman, _Dirac families for loop groups as [[matrix factorization]]s_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
 
 * Constantin Teleman, _The structure of 2D semi-simple field theories_ ([arXiv](http://arxiv.org/abs/0712.0160))
 
