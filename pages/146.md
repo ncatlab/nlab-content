@@ -49,19 +49,30 @@ The Yoneda embedding sends each object $c \in C$ to the presheaf
 $$ F(-) = hom(-, c) $$
 Presheaves of this form, or isomorphic to those of this form, are called [[representable functors|representable]]; among their properties, representable presheaves always turn colimits into limits, in the sense that a representable functor from $C^{op}$ to $Set$ turns colimits in $C$ (i.e., limits in $C^{op}$) into limits in $Set$ (i.e., colimits in $Set^{op}$). In general, such continuity is a necessary but not sufficient criterion for representability; however, nicely enough, it _is_ sufficient when $C$ itself is a presheaf category. To see this, suppose $K$ is such a presheaf on $C = [D^{op}, Set]$, and let $G = K Y$, a presheaf on $D$. By the [[Yoneda lemma]], we have a natural isomorphism between $[D^{op}, Set](Y(-), G)$ and $K Y(-)$. But by the free cocompletion property of the Yoneda embedding, a colimit-preserving functor on presheaves is entirely determined by its precomposition with $Y$; accordingly, our isomorphism must extend to an identification of $[C^{op}, Set](-, G)$ with $K(-)$, thus establishing the representability of $K$.
 
-## Properties of presheaves
+## Properties
 
-Any category of presheaves is [[complete category|complete]] and [[cocomplete category|cocomplete]], with both [[limit|limits]] and [[colimit|colimits]] being computed _pointwise_.  That is, to compute the limit or colimit of a diagram $F : D \to Set^{C^op}$, we think of it as a functor $F: D \times C^{op} \to Set$ and take the limit or colimit in the $D$ variable.
+### Limits and colimits
+
+Any [[category of presheaves]] is [[complete category|complete]] and [[cocomplete category|cocomplete]], with both [[limit|limits]] and [[colimit|colimits]] being computed _pointwise_.  That is, to compute the limit or colimit of a diagram $F : D \to Set^{C^op}$, we think of it as a functor $F: D \times C^{op} \to Set$ and take the limit or colimit in the $D$ variable.
+
++-- {: .un_prop}
+###### Proposition
 
 Every presheaf is a [[colimit]] of [[representable functor|representable presheaves]].
 
-An elegant way to express this for any preaheaf $F : C^{op} \to Set$ is as the [[end|coend]] identity
+=--
+
+An elegant way to express this colimit for a presheaf $F : C^{op} \to Set$ is in terms of the [[coend]] identity
+
 $$
   F(-) = \int^{c \in C} F(c) \times hom_C(-,c)
+  \,,
 $$
-using [[Yoneda reduction]].
 
-Another way to express the same is as follows: let $Y : C \to [C^{op}, Set]$ be the [[Yoneda embedding]] and let $C_F$ be the corresponding [[comma category]]
+which follows by [[Yoneda reduction]]. See also [[co-Yoneda lemma]].
+
+More concretely: let $Y : C \to [C^{op}, Set]$ denote the [[Yoneda embedding]] and let $C_F := Y/F$ be the corresponding [[comma category]], the [[category of elements]] of $F$:
+
 $$
   C_F := 
   \left\lbrace
@@ -74,14 +85,29 @@ $$
      }
   \right\rbrace 
 $$
-and let $p : C_F \to C$ the canonical functor. Then
+
+and let $p : C_F \to C$ the canonical forgetful functor. Then the colimit over representables expression $F$ is
+
 $$
    F \simeq colim_{(Y(V) \to F) \in C_F} (Y\circ p)
   \,.
 $$
 
-To see this notice that for every $B \in [C^{op}, Set]$
-and using the property of the Hom we have
+This is often written with some convenient abuse of notation as
+
+$$
+  F \simeq colim_{V \to F} V
+  \,.
+$$
+
+Notice that these formulas can also be understood as those for the left [[Kan extension]] (see there) of $F$ along the identity functor.
+
++-- {: .proof}
+###### Proof
+
+Notice that for every $B \in [C^{op}, Set]$
+and using the property of the [[hom-functor]] we have
+
 $$
  \begin{aligned}
   Hom_{[C^{op}, Set]}(colim_{(Y(V) \to F) \in C_F} (Y\circ p),B)
@@ -94,7 +120,7 @@ $$
 $$
 by the [[Yoneda lemma]]. 
 
-By the definition of a limit, we have that 
+By the definition of [[limit]] we have that 
 
 $$\cdots=Hom_{[C_F^{op}, Set]}(pt,B),$$
 
@@ -105,6 +131,8 @@ $$
   \,.
 $$
 Since this holds for all $B$, the claim follows, again using the [[Yoneda lemma|Yoneda lemma]].
+
+=--
 
 
 ## Special cases
