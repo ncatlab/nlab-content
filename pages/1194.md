@@ -114,7 +114,7 @@ In symbols this is written as:
 $$ \frac { x\colon C \vdash f(x)\colon B \qquad y\colon B \vdash g(y)\colon A }
          { x\colon C \vdash g(f(x))\colon A } $$
 
-Here the horizontal bar indicates that we have written down a _rule_, the rule that the judgement on the bottom is valid whenever the judgements on the top are valid.
+Here the horizontal bar indicates that we have written down a _rule_, the rule that the [[judgement]] on the bottom is valid whenever the judgements on the top are valid.
 
 What is an [[identity morphism]] $A \stackrel{f = Id_A}{\to} A$ in category theory is a term represeting the function $f(x) = x$ in type theory, namely the variable $x$ itself regarded as a term: $x$ is a term of type $A$ whenever $x$ is a variable of type $A$.
 
@@ -321,9 +321,9 @@ Note that in general, the following definitions are mutually [[recursion|recursi
 
 * A **typing declaration** is something of the form $t:A$.  We say that $t$ is a **term** (of type $A$) and that $A$ is the **type**.  In some type theories, there is a fixed collection of allowable types, while in others the types are themselves terms belonging to some other type (often called $Type$).
 
-* A **[[context]]** is a list of typing declarations, in which each term is a fresh variable (i.e. one not occurring to the left of its typing declaration).  If the list of types is not fixed, then one requires that each type occurring in a context be well-formed relative to the sub-context appearing to its left.  In other words, for $\Gamma, x:A$ to be a valid context, the judgment (see below) $\Gamma \vdash A:Type$ must be derivable.
+* A **[[context]]** is a list of typing declarations, in which each term is a fresh variable (i.e. one not occurring to the left of its typing declaration).  If the list of types is not fixed, then one requires that each type occurring in a context be well-formed relative to the sub-context appearing to its left.  In other words, for $\Gamma, x:A$ to be a valid context, the [[judgment]] (see below) $\Gamma \vdash A:Type$ must be derivable.
 
-* A **judgment** is something of the form $\Gamma \vdash \mathcal{J}$, where $\Gamma$ is a valid context.  Different type theories allow different things in the place of $\mathcal{J}$, but the most common are *typing declarations* and *equalities* between terms of the same type.  For example, the judgment
+* A **[[judgment]]** or _[[hypothetical judgment]]_ is symbols of the form $\Gamma \vdash \mathcal{J}$, where $\Gamma$ is a valid context --  a [[sequent]].  Different type theories allow different things in the place of $\mathcal{J}$, but the most common are *typing declarations* and *equalities* between terms of the same type.  For example, the judgment
   $$ x:N, y:N \vdash x+y :N $$
   asserts that any two natural numbers have a sum, which is also a natural number.  Similarly, 
   $$ x:N, y:N, z:N \vdash (x+y)+z = x+(y+z) :N $$
