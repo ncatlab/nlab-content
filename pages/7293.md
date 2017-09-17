@@ -15,9 +15,134 @@
 
 ## Idea
 
-What are called the _Steenrod squares_ is a certain system of [[cohomology operations]] on [[cohomology]] with [[coefficients]] in $\mathbb{Z}_2$.
+What are called the _Steenrod squares_ is the system of [[cohomology operations]] on [[cohomology]] with [[coefficients]] in $\mathbb{Z}_2$ which is compatible with [[suspension]] (the "stable cohomology operations"). 
+
+The Steenrod squares together form the _[[Steenrod algebra]]_, see there for more.
 
 ## Definition
+
+### Construction in terms of extended squares
+ {#DefinitionInTermsOfExtendedSquares}
+
+We discuss the explicit construction of the Steenrod-operations in terms of [[chain maps]] of [[chain complexes]] of $\mathbb{F}_2$-[[vector spaces]] equipped with a suitable product. We follow ([Lurie 07, lecture 2](#Lurie07)).
+
+Write $\mathbb{F}_2 \coloneqq \mathbb{Z}/2\mathbb{Z}$ for the [[field]] with two elements.
+
+For $V$ an $\mathbb{F}_2$-[[module]], hence an $\mathbb{F}_2$-[[vector space]], and for $n \in \mathbb{N}$, write
+
+$$
+  V^{\otimes n}_{h \Sigma_n} \in \mathbb{F}_2 Mod
+$$
+
+for the [[homotopy quotient]] of the $n$-fold [[tensor product]] of $V$ with itself by the [[action]] of the [[symmetric group]]. Explicitly this is presented, up to [[quasi-isomorphism]] by the ordinary [[coinvariants]] $D_n(V)$ of the tensor product of $V^{\otimes n}$ with a [[free resolution]] $E \Sigma_n^\bullet$ of $\mathbb{F}_2$:
+
+$$
+  V^{\otimes n}_{h \Sigma_n}
+  \simeq
+  D_n(V)
+  \coloneqq
+  (V^{\otimes n} \otimes E\Sigma_n)_{\Sigma_n}
+  \,.
+$$
+
+This is called the $n$th _[[extended power]]_ of $V$.
+
+For instance
+
+$$
+  D_2(  \mathbb{F}_2[-n])
+  \simeq
+  \mathbb{F}_2[-2n] \otimes C^\bullet(B \Sigma_2)
+  \,,
+$$
+
+where on the right we have the, say, [[singular cohomology]] [[cochain complex]] of the [[homotopy quotient]] $\ast //\Sigma_2 \simeq B \Sigma_2 \simeq \mathbb{R}P^\infty$, which is the [[homotopy type]] of the [[classifying space]] for $\Sigma_2$.
+
+A [[chain map]]
+
+$$
+  D_2(V) \longrightarrow V
+$$
+
+is called a _symmetric multiplication_ on $V$ (a shadow of an [[E-infinity algebra]] structure). The archetypical class of examples of these are given by the [[singular cohomology]] $V = C^\bullet(X, \mathbb{F}_2)$ of any [[topological space]] $X$,  for instance of $B \Sigma_2$.
+
+Therefore there is a canonical [[isomorphism]]
+
+$$
+  H^k(D_2(\mathbb{F}_2[-n]))
+  \simeq
+  H_{2n - k}(B \Sigma_2, \mathbb{F}_2) e_{2n}
+$$
+
+of the [[cochain cohomology]] of the extended square of the chain compplex concentrated on $\mathbb{F}_2$ in degree $n$ with the [[singular homology]] of this classifying space shifted by $2 n$.
+
+Using this one gets for general $V$ and for each $i \leq n$ a map that sends an element in the $n$th [[cochain cohomology]]
+
+$$
+  [v] \in H^n(V)
+$$
+
+represented  by a morphism of [[chain complexes]]
+
+$$
+  v \;\colon\; \mathbb{F}_2[-n] \longrightarrow V
+$$
+
+to the element
+
+$$
+  \overline{Sq}^i(v) \in H^{n+1}(D_2(V))
+$$
+
+represented by the [[chain map]]
+
+$$
+  \mathbb{F}_2[-n-i]
+  \stackrel{1}{\longrightarrow}
+  C^\bullet(B \Sigma_2, \mathbb{F}_2)
+  \stackrel{\simeq}{\longrightarrow}
+  D_2(\mathbb{F}_2[-n])
+   \stackrel{D_2(v)}{\longrightarrow}
+  D_2(V)
+  \,.
+$$
+
+If moreover $V$ is equipped with a _symmetric product_ $D_2(V) \longrightarrow V$ as above, then one can further compose and form the element
+
+$$
+  {Sq}^i(v) \in H^{n+1}(V)
+$$
+
+represented by the [[chain map]]
+
+$$
+  \mathbb{F}_2[-n-i]
+  \stackrel{1}{\longrightarrow}
+  C^\bullet(B \Sigma_2, \mathbb{F}_2)
+  \stackrel{\simeq}{\longrightarrow}
+  D_2(\mathbb{F}_2[-n])
+   \stackrel{D_2(v)}{\longrightarrow}
+  D_2(V)
+   \longrightarrow
+  V
+  \,.
+$$
+
+This [[linear map]]
+
+$$
+  Sq^i \;\colon\; H^\bullet(V) \longrightarrow H^{\bullet + i}(V)
+$$
+
+is called the $i$th _Steenrod operation_ or the $i$th _Steenrod square_ on $V$. By default this is understood for $V = C^\bullet(X,\mathbb{F}_2)$ the $\mathbb{F}_2$-[[singular homology|singular cochain complex]] of some [[topological space]] $X$, as in the above examples, in which case it has the form
+
+$$
+  Sq^i \;\colon\; H^\bullet(X, \mathbb{F}_2) \longrightarrow H^{\bullet+i}(X,\mathbb{F}_2)
+  \,.
+$$
+
+
+### Axiomatic characterization
 
 For $n \in \mathbb{N}$ write $B^n \mathbb{Z}_2$ for the [[classifying space]] of [[ordinary cohomology]] in degree $n$ with [[coefficients]] in the [[group of order 2]] $\mathbb{Z}_2$ (the [[Eilenberg-MacLane space]] $K(\mathbb{Z}_2,n)$), regarded as an [[object]] in the [[homotopy category]] $H$ [[model structure on topological spaces|of topological spaces]]).
 
@@ -140,7 +265,7 @@ Lecture notes on Steenrod squares and the [[Steenrod algebra]] include
   Lecture 4 _The Adem relations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture4.pdf))
 
   Lecture 5 _The Adem relations (cont.)_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture5.pdf))
-
+  {#Lurie07}
 
 See also
 
