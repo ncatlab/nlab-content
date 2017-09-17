@@ -1,0 +1,22 @@
+
+Let $\mathbf{F}_{p^s}$ be the finite field with $p^s$ elements where $p$ is a  prime number. Let $n$ be an integer $n\neq 0 (mod p)$. Then define the __quadratic symbol __
+
+$$
+\left(\frac{n}{p}\right) = \left\lbrace \array{1, & if n = x^2 (mod p)\\ -1, & if n \neq x^2 (mod p)}\right.
+$$
+
+Now take a special case in which $n$ is also prime. 
+
+__Quadratic reciprocity law__. Let $q,p$ be primes. 
+
+(i) if $p,q$ are odd and $p = 1 (mod 4)$, then $\left(\frac{p}{q}\right) = \left(\frac{q}{p}\right)$
+
+(ii) if $p,q = 3 (mod 4)$ then  $\left(\frac{p}{q}\right) = -\left(\frac{q}{p}\right)$
+
+(iii) if $q = 2$ and $p$ is odd then $\left(\frac{2}{p}\right) = 1$ if $p = \pm 1 (mod 8)$ and $\left(\frac{q}{p}\right)= -1$ if $p = \pm 3 (mod 8)$
+
+Quadratic reciprocity law is due [[Gauss]] and is the first discovered among the numerous reciprocity laws in number theory. It comes from facts about [[cyclotomic extension]]s. 
+
+* wikipedia: <a href="http://en.wikipedia.org/wiki/Reciprocity_law_(mathematics)">reciprocity laws (mathematics)</a>
+* Serge Lang, _Algebraic number theory_, 
+* K. G. F. Gauss, _Disquisitiones arithmeticae_
