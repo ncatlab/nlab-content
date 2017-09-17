@@ -165,9 +165,14 @@ If one understands $A_\infty$-category as "operadically defined higher category"
 
 * Eugenia Cheng, _Comparing operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
 
-Section 5 of 
+
+With operads modeled by [[dendroidal sets]], [[n-categories]] for low $n$ viewed as objects with an $A-\infty$-composition operation are discussed in  section 5 of 
 
 * Andor Lucacs, _Cyclic Operads, Dendroidal Structures, Higher Categories_ ([pdf](http://igitur-archive.library.uu.nl/dissertations/2011-0211-200314/lukacs.pdf))
+
+and
+
+* Andor Lucacs, _Dendroidal weak 2-categories_ ([arXiv:1304.4278](http://de.arxiv.org/abs/1304.4278))
 
 See also the references at _[[model structure on algebras over an operad]]_.
 
