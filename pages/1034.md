@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
@@ -13,8 +13,7 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -50,7 +49,8 @@ If we assume only (1)--(3), then the identity morphism $1_0:0\to 0$ of the initi
 
 Note that any object isomorphic to a $U$-small object is $U$-small; thus in the language of [[Grothendieck universe]]s this notion of smallness corresponds to _essential_ smallness.  Roughly, we may say that (1) corresponds to transitivity of a Grothendieck universe, (3) and (4) correspond to closure under power sets, and (2) corresponds to closure under indexed unions.
 
-## Example: universes in SET
+
+## Example: universes in $SET$
 
 We spell out in detail some implications of these axioms for the case
 that the [[topos]] in question is the Categeory of Sets according to 
@@ -136,8 +136,6 @@ In **summary**
 * the [[product|product]] of a $U$-small family of $U$-small sets is $U$-small.
 
 
-
-
 ## Axioms of universes 
 
 Just as [[ZFC]] and other material [[set theory|set theories]] may be augmented with axioms guaranteeing the existence of [[Grothendieck universe]]s, so may [[ETCS]] and other structural set theories be augmented with axioms guaranteeing the existence of universes in the above sense.  For example, the counterpart of Grothendieck's axiom
@@ -174,7 +172,7 @@ In a topos with a universe, we can talk about small objects in the [[internal lo
 
 In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axioms are equivalent to their "external" versions that refer to [[global element]]s of $U$.
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman|Mike]]: I haven't actually checked anything in this section, but it seems probable.
 =--
 
@@ -182,3 +180,11 @@ In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axiom
 ## References 
 
 * Thomas Streicher, "[Universes in Toposes](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz)."  In _From sets and types to topology and analysis: towards practicable foundations for constructive mathematics_.
+
+
+[[!redirects universe in a topos]]
+[[!redirects universes in a topos]]
+[[!redirects universes in toposes]]
+[[!redirects universe in the topos]]
+[[!redirects universes in the topos]]
+[[!redirects universes in the toposes]]
