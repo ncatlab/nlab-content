@@ -412,6 +412,11 @@ In
 
 it is argued that in the [[AdS/CFT correspondence]] it is in fact just the Chern-Simon terms inside the corresponding [[supergravity]] theories whose states control the [[conformal block]]s of the dual [[CFT]]. So the CS/CFT correspondence is a part (a crucial part) of the AdS/CFT correspondence, at least for $AdS_5/CFT_4$ and $AdS_7/CFT_6$.
 
+### Black hole / CFT correspondence
+
+* Monica Guica, Thomas Hartman, Wei Song, [[Andrew Strominger]], _The Kerr/CFT Correspondence_ ([arXiv:0809.4266](http://arxiv.org/abs/0809.4266))
+
+* Alejandra Castro, Alexander Maloney, [[Andrew Strominger]], _Hidden Conformal Symmetry of the Kerr Black Hole_ ([arXiv:1004.0996](http://arxiv.org/abs/1004.0996))
 
 ### General abstract formulation
 
