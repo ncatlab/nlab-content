@@ -404,7 +404,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Embed the topological spaces under the canonical inclusion (the _external [[Yoneda embedding]]_) $Top \hookrightarrow Sh(TopBalls) \hookrightarrow \mathbf{H} = (\infty,1)Sh(TopBall)$ as 0-[[truncated]] objects into the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s.
+We want to show this by regarding the problem inside a cohesive $(\infty,1)$-topos. So embed the topological spaces under the canonical inclusion (the _external [[Yoneda embedding]]_) $Top \hookrightarrow Sh(TopBalls) \hookrightarrow \mathbf{H} = (\infty,1)Sh(TopBall)$ as 0-[[truncated]] objects into the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s.
 
 Observe that the embedding $Top \hookrightarrow Sh(TopBall)$ of topological spaces into [[concrete sheaves]] on [[open balls]] preserves the above pushout diagram. 
 
@@ -412,7 +412,7 @@ We shall claim now that also the the embedding $Sh(TopBalls) \hookrightarrow \ma
 
 To see that our pushout is preserved in $\mathbf{H}$, we [[presentable (∞,1)-category|present]] this by the [[Bousfield localization of model categories|left Bousfield localization]] $[TopBalls^{op}, sSet]_{proj,loc}$ of the global projective [[model structure on simplicial presheaves]] $[TopBalls^{op}, sSet]_{proj}$ (as described at [[models for ∞-stack (∞,1)-toposes]]).
 
-By the disucssion at [[good open cover]] we can find _compatible_ good open covers of our topological spaces, good covers on $X$, and $U_i$ such that the embeddings $U_i \to X$ send covering patches to covering patches (for instance choose a Riemannian metric on $X$, form the cover of geodesically convex neighbourhoods of radius less than or equal the convexity radius around each point as described there. The restriction this to $U_1$ and $U_2$ gives the corresponding construction on these subspaces.
+By the disucssion at [[good open cover]] we can find _compatible_ good open covers of our topological spaces, good covers on $X$ and $U_i$ such that the embeddings $U_i \to X$ send covering patches to covering patches (for instance choose a Riemannian metric on $X$, form the cover of geodesically convex neighbourhoods of radius less than or equal the convexity radius around each point as described there. The restriction of this to $U_1$ and $U_2$ gives the corresponding construction on these subspaces.
 
 
 By the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">model structure on simplicial presheaves -- cofibrant resolutions</a> the [[Cech nerve]]s of these good open covers constitute cofibrant [[resolution]]s $Q X \stackrel{\simeq}{\to} X$, $Q U_i \stackrel{\simeq}{\to} U_i$ in $[TopBalls^{op}, sSet]_{proj,loc}$. By the construction we just mentioned we can arrange that the induced morphism $Q (U_1 \cap U_2) \to Q U_i$ is degreewise an inclusion of summands into a coproduct of representables. We shall argue now that this is a cofibration.
@@ -429,9 +429,11 @@ $$
   }
 $$
 
-in $[TopBalls^{op}, sSet]_{proj,loc}$ is a [[homotopy pushout]] diagram (as described there). This pushout of simplicial presheaves is computed degreewise, hence $P$ is the [[hypercover]] of $X$ that in degree $k$ has those $k$-fold intersections of opens of the original cover that either sit entirely in $U_1$ or entirely in $U_2$. This indeed is still a hypercover of $X$, so that there is a weak equivalence $P \stackrel{\simeq}{\to} X$ and we find $X$ as the homotopy colimit.
+in $[TopBalls^{op}, sSet]_{proj,loc}$ is a [[homotopy pushout]] diagram (as described there).This pushout of simplicial presheaves is computed degreewise, hence $P$ is the simplicial object whose $k$-cells are $k$-fold intersections of opens either in $U_1$ or in $U_2$. Since the objects we are pushing out are 0-[[truncated]] it is sufficient to check that the 1-truncation of the objectwise [[Kan fibrant replacement]] of $P$ is equivalent to $X$. But this is the case: for $V$ in $U_1$ but not in $U_2$ and $V'$ the other way round, both intersecting in $U_1 \cap U_2$ we have no morphism in $P$ from points $(x,i)$ to points $(x,j)$ in the double intersection, but in the Kan fibrant replacement of $P$ we do, because there we can first just restrict to smaller subset and then switch patches. (...) Hence $X$ is the homotopy colimit. 
 
-To see that the morphisms are indeed cofibrations, write $Q(U_1 \cap U_2) \to Q(U_i)$ in [[coend]]-notation as
+
+
+We get back now to showingthat the morphisms $Q(U_1 \cap U_2) \to Q(U_i)$ are indeed cofibrations. For that purpose, notice that we may write them in [[coend]]-notation as
 
 $$
  \int^{[k] \in \Delta}
@@ -469,6 +471,7 @@ the latching objects $L_k V_\bullet$ and $L_k W_\bullet$ are the summands of cop
 
 
 =--
+
 
 
 ## Interpretation {#Interpretation}
