@@ -32,7 +32,7 @@ The concrete category $A$ is __algebraic__ if the following conditions hold:
 The concrete category $A$ is __monadic__ if the following conditions hold:
 
 *  $A$ has [[free objects]].
-*  The [[adjunction]] $F \vdash U$ is [[monadic adjunction|monadic]].
+*  The [[adjunction]] $F \dashv U$ is [[monadic adjunction|monadic]].
 =--
 
 +-- {: .un_defn}
