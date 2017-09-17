@@ -21,7 +21,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -421,6 +421,8 @@ This produces a bundle gerbe whose class in $H^3(X,\mathbb{Z})$ has $[H]$ as its
 ## Related entries
 
 * [[centrally extended groupoid]]
+
+* [[line 2-bundle]], [[holomorphic line 2-bundle]]
 
 * [[transgression of bundle gerbes]]
 
