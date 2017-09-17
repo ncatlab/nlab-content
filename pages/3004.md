@@ -78,6 +78,8 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
   The [[classifying topos]] of this theory is the topos of [[sheaves]] on the [[real numbers]].
 
+* A geometric theory whose [[classifying topos]] is a [[presheaf topos]] is called a _[[theory of presheaf type]]_.
+
 
 ## Other characterizations
 
