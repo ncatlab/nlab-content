@@ -1,17 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
 # Contents
-* table of contents goes here 
+* table of contents 
 {: toc}
 
 
 ## Idea 
 
-In classical mathematics, a _countable_ ordinal is a well-ordered set whose cardinality is countable (i.e., either finite or denumerable). 
+In [[classical mathematics]], a _countable_ [[ordinal]] is a [[well ordering|well-ordered]] [[set]] whose [[cardinality]] is countable (i.e., either [[finite set|finite]] or [[natural numbers|denumerable]]). 
 
-Countable ordinals play an important role in recursion theory, computability theory, and in proof theory, where they are used for example to measure the consistency strength of formal theories. They also play a role in philosophy of mathematics, for example to discuss what it means for a notion to be "predicative". 
+Countable ordinals play an important role in [[recursion]] theory, [[computability theory]], and in [[proof theory]], where they are used for example to measure the [[consistency]] strength of formal [[theories]]. They also play a role in [[philosophy of mathematics]], for example to discuss what it means for a notion to be "[[predicativity|predicative]]". 
 
 ## Definitions 
 
-As indicated above, countable ordinals can be defined structurally as countable well-ordered sets (or "[[wosets]]"). As is the case with any ordered set, a woset $W$ can be regarded as a coalgebra over the covariant power-set functor, 
+As indicated above, countable ordinals can be defined structurally as countable well-ordered sets (or "[[wosets]]"). As is the case with any ordered set, a woset $W$ can be regarded as a [[coalgebra over an endofunctor|coalgebra]] over the covariant [[power-set]] functor, 
 
 $$\theta: W \to P(W)$$ 
 
@@ -21,7 +36,7 @@ $$x \mapsto \{y: y \lt x\}.$$
 
 A coalgebra map $f: W \to W'$ between wosets, aka a [[simulation]], amounts to an inclusion of the domain as an initial segment of the codomain. 
 
-The category of countable wosets and simulations, thus ordered by inclusion, is a preorder and in fact equivalent to a woset. In material set theory, this woset is often identified with the first uncountable ordinal (well-ordered set under the membership relation), often denoted $\omega_1$. Structurally, we can define $\omega_1$ up to isomorphism as a skeleton of the category of countable ordinals, and so the study of countable ordinals becomes a study of the order structure of $\omega_1$. 
+The [[category]] of countable wosets and simulations, thus ordered by inclusion, is a [[preorder]] and in fact equivalent to a woset. In [[material set theory]], this woset is often identified with the first uncountable ordinal (well-ordered set under the membership relation), often denoted $\omega_1$. Structurally, we can define $\omega_1$ up to [[isomorphism]] as a [[skeleton]] of the category of countable ordinals, and so the study of countable ordinals becomes a study of the order structure of $\omega_1$. 
 
 This $\omega_1$ has no top element (of course not: otherwise $\omega_1$ would be a countable ordinal), and much of the interest and fun of the subject lies in playing the childhood game of seeing who can name the bigger number, or in this case the bigger countable ordinal. A key fact is that $\omega_1$ is countably cocomplete, and therefore behaves like a self-contained universe with respect to countably cocontinuous operations. There is quite a lot of scope in what one can build up to using such operations. After playing the larger ordinal game for a while, and becoming impressed by the sizes of ordinals one can define -- while recognizing at the same time that one is "never getting anywhere" relative to $\omega_1$ itself -- it is hard not to become awestruck by the staggering immensity of $\omega_1$. 
 
