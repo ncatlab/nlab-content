@@ -94,3 +94,5 @@ See also section A.3.2 of
 [[!redirects model structure on SSet-categories]]
 [[!redirects model structure on simplicial categories]]
 [[!redirects model structure on simplicially enriched categories]]
+[[!redirects Bergner model structure]]
+[[!redirects Bergner model structure on simplicially enriched categories]]
