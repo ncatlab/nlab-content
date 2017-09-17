@@ -47,4 +47,4 @@ The convergence space $\mathcal{L}_c^n(E,F)$ is a convergence vector space.  It 
 =--
 
 
-=--
+[[!redirects convergence vector spaces]]
