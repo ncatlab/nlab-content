@@ -258,7 +258,7 @@ $$
   \,,
 $$
 
-saying that the [[monad]] $f_! f^\ast$ commutes with dualization up to a "twist" given by tensoring with $D$.
+saying that the [[comonad]] $f_! f^\ast$ commutes with dualization up to a "twist" given by tensoring with $D$.
 
 =--
 
