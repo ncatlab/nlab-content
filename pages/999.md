@@ -99,9 +99,9 @@ which proves the claim.
 
 ## Examples 
 
-* In $C = $ [[Set]] an object is compact precisely if it is a (Kuratowski) [[finite set]].
+* In $C = $ [[Set]] an object is compact precisely if it is a ([[Kuratowski finite object|Kuratowski]]) [[finite set]].
 
-* For $C$ a [[topos]], $X$ is compact if it is Kuratowski-[[finite object|finite]].
+* For $C$ a [[topos]], $X$ is compact if it is a [[Kuratowski finite object]].
 
 * In $C = $ [[Grp]] an object is compact precisely if it is finitely presented as a group.
 
