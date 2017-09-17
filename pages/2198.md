@@ -28,7 +28,7 @@ A __proximity space__ is a kind of [[structured set]]: it consists of a [[set]] 
 *  The __apartness relation__ $\bowtie$; $A$ and $B$ are __apart__ if $A \bowtie B$.
 *  The __neighbourhood relation__ $\ll$; $A$ is a __proximal neighbourhood__ of $B$ if $B \ll A$.
 
-The conditions required of these relations are given below in the Definitions.  (We say 'proximal neighbourhood' instead of simply 'neighbourhood' to avoid misapplying intuition from general topology.  Don\'t think of $A \ll B$ as meaning that $A \subseteq Int(B)$; think of it as meaning that $Cl(A) \subseteq Int(B)$, which is stronger.)
+The conditions required of these relations are given below in the Definitions.  (We say 'proximal neighbourhood' instead of simply 'neighbourhood' to avoid misapplying intuition from general topology.  That $A \ll B$ doesn\'t necessarily mean that $A \subseteq Int(B)$; sometimes it means that $Cl(A) \subseteq Int(B)$, which is stronger, or something else.)
 
 
 In [[classical mathematics]], these relations are all interdefinable:
