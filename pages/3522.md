@@ -206,7 +206,7 @@ to products, so it is like an exponential.  Compared to an exponential, the iden
 >...our point of view is that stable homotopy is analogous to the function $e^{x - 1}$ rather than to a linear function, and the Goodwillie tower is an infinite product, rather than an infinite sum, namely it is analogous to the product
 
 $$
-e^{x - 1} \cdot e^{-\frac{(x - 1)^2}{2}} \cdot e^{-\frac{(x - 1)^3}{3}} \ldots = e^{ln(1 + (x - 1))} = x. 
+e^{x - 1} \cdot e^{-\frac{(x - 1)^2}{2}} \cdot e^{\frac{(x - 1)^3}{3}} \ldots = e^{ln(1 + (x - 1))} = x. 
 $$
 
 >(p. 2)
