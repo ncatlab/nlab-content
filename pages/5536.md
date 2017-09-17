@@ -1,3 +1,4 @@
+[[!redirects schlessinger's criterion]]
 
 #Contents#
 * automatic table of contents goes here
@@ -36,7 +37,7 @@ $k[\epsilon]$ is defined to be the ring $k[\epsilon]/(\epsilon^2)$ with the triv
 
 Note that whenever we are given a predeformation functor $F$, and two maps of rings: $A'\to A$ and $A''\to A$ we get an induced map $F(A'\times_A A'')\to F(A')\times_{F(A)} F(A'')$ by functoriality of $F$ and the universal property of a [[pullback]]. Call this map (\*).
 
-Schlessinger gives four conditions in his paper called (H1) - (H4).
+Schlessinger gives four conditions in his [paper](#Schless) called (H1) - (H4).
 
 (H1) If $A''\to A$ is a small thickening then (\*) is surjective.
 
@@ -60,7 +61,7 @@ One can think of (H4) as gluing being unique on a small thickening over itself.
 
 ## The Theorem
 
-The main theorem of Schlessinger's paper says that  (H1), (H2), and (H3) are satisfied if and only if $F$ has a hull. The second part of the theorem is that $F$ is prorepresentable if and only if in addition (H4) is satisfied.
+The main theorem of Schlessinger's [paper](#Schless) says that  (H1), (H2), and (H3) are satisfied if and only if $F$ has a hull. The second part of the theorem is that $F$ is prorepresentable if and only if in addition (H4) is satisfied.
 
 We call a predeformation functor a *deformation functor* if it satisfies (H1) and (H2).
 
@@ -83,5 +84,8 @@ Consider the node $X=\text{Spec} k[ [ x,y ] ] /(xy)$. Then the pair $(k[ [ t ] ]
 
 See also [[deformation theory]] and references therein.
 
-* M. Schlessinger, _Functors of Artin rings_, Trans. AMS 130, 208-222 (1968) -- this was a groundbreaking article at the time, still much cited. 
+* M. Schlessinger, _Functors of Artin rings_, Trans. AMS 130, 208-222 (1968) 
+{#Schless}
+
+this was a groundbreaking article at the time, still much cited. 
 
