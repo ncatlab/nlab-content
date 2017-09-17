@@ -8,15 +8,19 @@
 
 Two maps $f : X \to Z$ and $g : Y \to Z$ of [[manifold]]s are _transversal_ roughly if the images of $X$ and $Y$ in $Z$ do not "touch tangentially".
 
+
 ## Definition 
 
-Two maps $f : X \to Z$ and $g : Y \to Z$ of [[manifold]]s are _transversal_ if for all point $x \in X$ and $y \in Y$ with $f(x) = z = g(y)$ the differentials of $f$ and $g$ in these points span the entire tangent space at $z$ in that
+Two maps $f : X \to Z$ and $g : Y \to Z$ of [[manifold]]s are __transversal__ if for all point $x \in X$ and $y \in Y$ with $f(x) = z = g(y)$ the differentials of $f$ and $g$ in these points span the entire tangent space at $z$ in that
 
 $$
   im(d f) + im(d g) \simeq T_z Z
   \,.
 $$
 Note that this is not required to be a direct sum. Also, if $f$ (say) is a [[submersion]], then it is transversal to all $g$.
+
+Here is a slick category-theoretic way to phrase the definition:  Two maps with a common [[target]] are transversal iff their [[pullback]] exists and is preserved by the [[tangent bundle]] functor; that is, $T(X \times_Z Y) = T X \times_{T Z} T Y$.
+
 
 ## Remarks 
 
@@ -34,6 +38,7 @@ More precisely:
 
 
 [[!redirects transversal map]]
+[[!redirects transversal maps]]
 
-[[!redirects transverse maps]]
 [[!redirects transverse map]]
+[[!redirects transverse maps]]
