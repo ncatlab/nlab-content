@@ -17,7 +17,7 @@
 
 In [[physics]] there are (at least) two different concepts that go by the name **gauge group**:
 
-* a _local gauge group_ $G$ is a structure group of of $G$-[[principal bundle]]s in the configuration space of a classical [[gauge theory]]: it acts by [[gauge transformation]]s on the space of field configurations.
+* a _local gauge group_ $G$ is a structure group of $G$-[[principal bundle]]s in the configuration space of a classical [[gauge theory]]: it acts by [[gauge transformation]]s on the space of field configurations.
 
 * a _global gauge group_ is a group of [[automorphism]]s that acts on the ([[local net]] of) [[observable]]s of a [[quantum field theory]].
 
