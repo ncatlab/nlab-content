@@ -211,7 +211,7 @@ For comparison of the following with other renormalization schemes, see at ([Cos
 
 1. [The path integral](#ThePathIntegral)
 
-1. [Renormalized action]{#RenormalizedAction}
+1. [Renormalized action](#RenormalizedAction)
 
 1. [Renormalization](#Renormalization)
 
