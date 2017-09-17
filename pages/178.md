@@ -2,7 +2,10 @@
 
 <div class="rightHandSide toc">
 [[!include infinity-Lie theory - contents]]
+***
+[[!include (infinity,1)-topos - contents]]
 </div>
+
 
 
 #Contents#
@@ -15,7 +18,7 @@ The notion of **$\infty$-Lie groupoid** is the generalization of the notion of [
 
 an $\infty$-Lie groupoid is an [[∞-groupoid]] that is _smooth_ in some sense.
 
-One way to realize this is to pick a [[site]] $C$ of smooth test spaces -- such as [[CartSp]] or [[Diff]] -- and take a smooth $\infty$-groupoid $A$ to be an [[∞-stack]] $A : C^{op} \to $ [[∞Grpd]] on this site. 
+One way to realize this is to pick a [[site]] $C$ of smooth test spaces -- such as [[CartSp]] or [[Diff]] -- and take a smooth $\infty$-groupoid $A$ to be an [[∞-stack]]/[[(∞,1)-sheaf]] $A : C^{op} \to $ [[∞Grpd]] on this site. 
 
 * Evalutaed on the [[point]] $* \in C$ this encodes an ordinary [[∞-groupoid]] $A(*) \in \infty Grpd$, which is the underlying $\infty$-groupoid of our smooth $\infty$-groupoid.
 
@@ -201,13 +204,77 @@ Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at 
 
   * [[Verity on descent for strict omega-groupoid valued presheaves]].   
 
+
+## The $(\infty,1)$-topos on $CartSp$ {#InfSheavesOnCartSp}
+
+We discuss in more detail some properties of the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[(∞,1)-sheaves]] on [[CartSp]].
+
++-- {: .un_defn}
+###### Definition
+
+Let $C = $ [[CartSp]] equipped with the structure of a [[site]] by the [[coverage]] of [[good open cover]]s.
+ 
+Write $Sh_{(\infty,1)}(CartSp) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}$ for the induced [[topological localization]]. 
+
+=--
+
+By the discussion at [Cech localizaton at a coverage](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage) this is modeled by the [[Bousfield localization of model categories|left Bousfield localization]] of $sPSh(CartSp)_{proj}$ at [[Cech nerve]]s of covering families.
+
++-- {: .un_lemma}
+###### Lemma
+
+Let $X$ be a [[smooth manifold]], regarded as an object in $sPSh(C)$. Ket $\{U_i \to X\}$ be a [[good open cover]] of $X$ and $C(\{U_i\})$ the corresponding [[Cech nerve]]. Then 
+
+$$
+  C(\{U_i\}) \stackrel{\simeq}{\to} X
+$$
+
+is a weak equivalence in $sPSh(CartSp)_{proj,cov}$ and in fact a cofibrant replacement for $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The morphism $\coprod_i j(U_i) \to X$ of which $C(\{U_i\})$ is the Cech nerve of a [[local epimorphism]] in that for every $j(V) \to X$ there exists a [[covering]] family $\{V_i \to V\}$ and lifts $\sigma_i$
+
+$$
+  \array{
+    j(V_i) &\stackrel{\sigma_i}{\to}& \coprod_i j(U_i)
+    \\
+    \downarrow && \downarrow
+    \\
+    j(V) &\to& X 
+  }
+  \,.
+$$
+
+Namely take $\{V_i \to V\}$ to be simply (any open refinement of) the open cover of $X$ pulled back to $V$.
+
+By the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CechLocalization">Cech localization at Grothendieck (pre)topologies</a> this implies that $C(\{U_i\}) \to X$ is a weak equivalence in $sPSh(C)_{proj,cov}$.
+
+Moreover, since the cover is _good_ the Cech nerve $C(\{U_i\})$ is degreewise a coproduct of representables. By the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">cofibrant objects</a> this implies that it is cofibrant.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This fact related to the classical [[nerve theorem]] which asserts that the simplicial set obtained by contracting in $C(\{U_i\})$ all copies of [[Cartesian space]]s to the point is a model for the [[homotopy type]] of $X$.
+
+More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally ∞-connected (∞,1)-topos]]... 
+
+=--
+
+
+
 ## References
 
 in the (unfinished but noteworthy) notes
 
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
-$\infty$-stacks on [[Diff]] considered, but there with an emphasis of the [[localization of an (infinity,1)-category]] to those that are in fact homotopy invariant and hence collapse to discrete $\infty$-groupoids. See also [[topological infinity-groupoid]].
+$\infty$-stacks on [[Diff]] considered, but there with an emphasis of the [[localization of an (infinity,1)-category]] to those that are in fact homotopy invariant and hence collapse to discrete $\infty$-groupoids. See also [[topological ∞-groupoid]].
 
 
 
