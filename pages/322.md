@@ -98,6 +98,9 @@ Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** i
 
   * and is $\Sigma_n$ equivariant in the evident way.
 
+An equivalent term for a colored operad in $V$ is a [[symmetric multicategory]] which is [[enriched category|enriched]] over $V$.  Which term is used depends on the author and the point of view being taken.  (According to the common terminology of [[horizontal categorification]], one might also call a colored operad an "operad-oid," but thankfully this seems not to be common.  On the other hand one might adapt the terminology backwards and call a [[category]] a "colored [[monoid]]".)
+
+
 ### Algebras 
 
 An _[[algebra over an operad]]_  $F$ in $V$ is just a semantics for interpreting the $F(n)$ as objects of actual $n$-ary operations on an object $v$. That is, an $F$-algebra structure on an object $v$ in $V$ consists of a collection of maps 
