@@ -44,6 +44,10 @@ With this duality constraint imposed, one speaks of _self-dual_ higher gauge fie
 
 But sense can be made of the theory of self-dual gauge fields by other means. Notably --  by a version of the [[holographic principle]] the -- [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] in dimension $4 k + 3$.
 
+## Examples
+
+* [[6d (2,0)-superconformal QFT]]
+
 ## References
 
 An original reference on sefl-dual/chiral fields is
