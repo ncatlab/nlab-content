@@ -1,5 +1,14 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A [[foliation]] consists of [[submanifolds]]. Each of them is called a _leaf_ of the foliation.
 
-[[!redirects leafs]]
+## Related concepts
+
+* [[Bohr-Sommerfeld leaf]]
+
+[[!redirects leaves]]
