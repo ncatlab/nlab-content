@@ -382,11 +382,11 @@ The map $\mathbf{J}$ is the differential refinement of the [[delooping]] $\mathb
 
 $$
   \array{
-    \mathcal{O}_\lambda \simeq G/T &\to& \mathbf{B}T
+    \mathcal{O}_\lambda \simeq G/T &\to& \mathbf{B}T & \simeq *//T
     \\
     && \downarrow
     \\
-    && \mathbf{B}G
+    && \mathbf{B}G & \simeq *//G
   }
   \,.
 $$
@@ -465,6 +465,26 @@ Unwinding the definitions shows that $hofib(\mathbf{J})$ has
    in $C^\infty(U,G)//C^\infty(U,T)$.
 
 1. The canonical map $hofib(\mathbf{J}) \to \Omega^1(-,\mathfrak{g})//T$ picks the top horizontal part of these commuting triangles hence equivalently sends $g$ to $g^* \theta$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+There is yet one more fiber sequence of similar structure. If we let $L G \coloneqq [S^1, G]$ denote the free [[loop group]], then there is a fiber sequence
+
+$$
+  \array{
+    G/T &\to& L G / T
+    \\
+    && \downarrow
+    \\
+    && L G / G & \simeq \Omega G
+  }
+  \,.
+$$
+
+The [[geometric quantization]] of $L G / T$ yields the [[positive energy representations]] of the [[loop group]] $L G_\mathcal{C}$. See at _[loop group -- Properties -- Representations](loop+group#Representations)_ for more on this.
 
 =--
 
