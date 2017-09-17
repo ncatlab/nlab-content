@@ -101,9 +101,13 @@ There are interesting cases in which such sheaf toposes contain objects that loo
 
 ## Properties
 
-Let $(f^* \dashv f_*) : F \underoverset{f^*}{f_*}{\leftrightarrows} E$ be a [[geometric morphism]] of toposes. If $N \in E$ is a natural numbers object, then $f^* N$ is a natural numbers object in $F$. ([[Elephant|Elephant, lemma 4.1.14]]).
+Let $(f^* \dashv f_*) : F \underoverset{f^*}{f_*}{\leftrightarrows} E$ be a [[geometric morphism]] of toposes. If $N \in E$ is a natural numbers object, then $f^* N$ is a natural numbers object in $F$. ([[Elephant|Elephant, lemma 4.1.14]]). 
 
+In particular, if $E$ is a Grothendieck topos, then there is a unique geometric morphism $\Gamma: E \to Set$. If $E^*$ is the left exact left adjoint, it follows that 
 
+$$E^*(\mathbb{N}) \cong E^*(\sum_{n: \mathbb{N}} 1) \cong \sum_{n: N} E^* 1 \cong \sum_{n: \mathbb{N}} 1,$$ 
+
+with the evident successor and constant $0$, is the natural nunbers object in $E$.  
 
 [[!redirects natural numbers objects]]
 [[!redirects natural number object]]
