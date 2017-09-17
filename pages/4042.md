@@ -66,15 +66,15 @@ Perhaps the most general [[set theory|set-theoretically]] based construction of 
 
 ## Related concepts
 
-* The [[algebra over a monad]] over a free monad on an endofuncori is an _[[algebra over an endofunctor]]_.
+* The [[algebra over a monad]] over a free monad on an endofunctor is an _[[algebra over an endofunctor]]_.
 
 ## References
 
-* [[Max Kelly]], "A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on"
+* [[Max Kelly]], ["A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on"](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=4759448)
 
-* [[Max Kelly]] and [[John Power]], "Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads"
+* [[Max Kelly]] and [[John Power]], ["Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads"](http://www.sciencedirect.com/science/article/pii/0022404993900928)
 
-* [[Steve Lack]], "On the monadicity of finitary monads"
+* [[Steve Lack]], ["On the monadicity of finitary monads"](http://www.maths.usyd.edu.au/res/Catecomb/Lack/1997-29.html)
 
 [[!redirects free monads]]
 [[!redirects algebraically-free monad]]
