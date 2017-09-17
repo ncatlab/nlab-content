@@ -21,7 +21,7 @@ One of the types of [[BPS states]] of [[11-dimensional supergravity]] is called 
 
 Under the [[duality in string theory|duality between M-theory and type IIA string theory]] the M0-brane maps to the [[D0-brane]] ([Bergshoeff-Townsend 96](#BergshoeffTwonsend96)).
 
-Bound statesof M-waves and [[M5-branes]] are argued to correspond to [[self-dual string]] [[instanton]] solutions in the [[6d (2,0)-superconformal QFT]] [[worldsheet]] theory of the M5 in ([Chu-Isono 12](#ChuIsono13)).
+Bound states of M-waves and [[M5-branes]] are argued to correspond to [[self-dual string]] [[instanton]] solutions in the [[6d (2,0)-superconformal QFT]] [[worldsheet]] theory of the M5 in ([Chu-Isono 12](#ChuIsono13)).
 
 
 ## Related concepts
