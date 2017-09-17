@@ -22,7 +22,9 @@ $$
   P : T^{op} \to \mathbf{C}
 $$
 
-to some [[category]] or [[higher category]] $\mathbf{C}$ whose [[internal logic]] corresponds to $L$, such that for every morphism $f : A \to B$ the morphism $P(f)$ has both a [[left adjoint]] as well as a [[right adjoint]].
+to some [[2-category]] (or even [[higher category]]) $\mathbf{C}$ af categories whose [[internal logic]] corresponds to $L$, such that for every morphism $f : A \to B$ the morphism $P(f)$ has both a [[left adjoint]] as well as a [[right adjoint]].
+
+A canonical class of example is where $P$ sends $X \in T$ to the [[poset of subobjects]] $Sub_T(X)$ of $X$. 
 
 Moreover, the left adjoint is typically required to satisfy  [[Frobenius reciprocity]] and the [[Beck-Chevalley condition]].
 
