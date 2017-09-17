@@ -18,7 +18,7 @@
 
 In [[quantum mechanics]], the _Born--Oppenheimer approximation_ is a method for approximating the [[energy]] a [[quantum mechanical system]] by identifying "light" and "heavy" degrees of freedom and then treating the solving for the "light" dynamics as if depending only on the static configuration of the "heavy" degrees of freedom.
 
-Historically this is motivated from, and still heavily used in practice, for the computation of energy spectra of [[molecules]], where the [[atomic nuclei]] are much heavier than the [[electrons]], so that their dynamics can be split off to a good degree of approximation.
+Historically this is motivated from, and still heavily used in practice, for the computation of energy spectra of [[molecule|molecules]], where the [[atomic nucleus|atomic nuclei]] are much heavier than the [[electron|electrons]], so that their dynamics can be split off to a good degree of approximation.
 
 
 ## References
