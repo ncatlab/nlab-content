@@ -1,3 +1,8 @@
+
+# Discrete fibrations
+* table of contents
+{: toc}
+
 ## Definition
 
 A [[functor]] $F: C \to B$ is a **discrete fibration** if for every object $c$ in $C$, and every morphism of the form $g : b\to F(c)$ in $B$ there is a unique morphism $h : d\to c$ in $C$ such that $F(h) = g$.  
@@ -68,4 +73,6 @@ the morphism $c\circ j : X\to C_1$, where $c: C_1\times_{C_0} C_1\to C_1$ is the
 
 **Example.** Given internal functors $a : A\to D$ and $b : B\to D$ in $E$, the obvious span $A\leftarrow a\downarrow b\rightarrow B$ is a discrete fibration from $A$ to $B$. 
 
+
+[[!redirects discrete fibration]]
 [[!redirects discrete fibrations]]
