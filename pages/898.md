@@ -16,6 +16,8 @@ A category whose opposite is filtered is called **cofiltered**.
 
 A **(finitely) filtered category** (sometimes called a **filtrant category**, as for instance in Kashiwara--Schapira\'s book [[Categories and Sheaves]]) is a [[category]] $C$ in which any finite diagram has a [[cocone]].  That is, for any finite category $D$ and any functor $F:D\to C$, there exists an object $c\in C$ and a natural transformation $F\to \Delta c$ where $\Delta c:D\to C$ is the constant diagram at $c$.
 
+Equivalently, filtered categories can be characterized as those categories where, for every finite diagram $J$, the diagonal functor $\Delta : C \to C^J$ is [[final functor|final]]. This point of view can be generalized to other kinds of categories whose colimits are well-behaved with respect to a type of limit, such as [[sifted colimit|sifted]] categories.
+
 This can be rephrased in more elementary terms by saying that:
 
 * There exists an object of $C$  (the case when $D=\emptyset$)
