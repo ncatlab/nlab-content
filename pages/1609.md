@@ -31,7 +31,7 @@ or his book: M.V. Lawson,  Inverse semigroups: the theory of partial symmetries,
 He makes the point that they were initially studied by Ehresmann and are very closely related to inverse semi-groups.  
 =--
 
-See more in [this online article](http://www.mathematics21.org/binaries/ordered-cats-with-inv.pdf). Feel free to copy the information from this my article to nLab wiki.
+See more in [Funcoids and Reloids article](http://www.mathematics21.org/binaries/funcoids-reloids.pdf). Feel free to copy the information from this my article to nLab wiki.
 
 ## See also ##
 * [[generalized continuity]]
