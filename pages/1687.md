@@ -282,6 +282,9 @@ More details on gerbes is at the following sub-entries:
 
 * [[gerbe (general idea)]]
 
+## Examples
+
+* [[determinantal gerbe]]
 
 ## Related concepts
 
