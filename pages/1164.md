@@ -37,7 +37,7 @@ Given a [[topological group]] $G$ the __orbit category__ $\operatorname{Or}G$ (d
 +-- {: .num_remark }
 ###### Remark
 
-For suitable continuous [[actions]] of $G$ on a [[topological space]] $X$, every [[orbit]] of the action is [[isomorphism|isomomorphic]] to one of the [[homogeneous spaces]] $G/H$ (the [[stabilizer group]] of any point in the orbit is conjugate to $H$). This is the sense in which def. \ref{TheOrbitCategory} gives "the category of all $G$-orbits".
+For suitable continuous [[actions]] of $G$ on a [[topological space]] $X$, every [[orbit]] of the action is [[isomorphism|isomorphic]] to one of the [[homogeneous spaces]] $G/H$ (the [[stabilizer group]] of any point in the orbit is conjugate to $H$). This is the sense in which def. \ref{TheOrbitCategory} gives "the category of all $G$-orbits".
 
 =--
 
