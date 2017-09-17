@@ -68,7 +68,7 @@ for $\beta$ of degree 2. This is called alternatively $n$th _Morava E-theory_, o
 There is a [[Snaith theorem]] for the [[homotopy fixed points]] of 
 the Morava E-theory spectrum $E_n$ for the canonical [[infinity-action|action]] of a certain group, which identifies these with a localization of the [[∞-group ∞-ring]] on the [[n-group|(n+1)-group]] $B^{n+1} \mathbb{Z}_p$. ([Westerland 12, theorem 1.2](#Westerland12))
 
-See at _[Snatih-like theorem for Morava E-theory](Snaith+theorem#ForMoravaETheory)_ for more.
+See at _[Snaith-like theorem for Morava E-theory](Snaith+theorem#ForMoravaETheory)_ for more.
 
 ### Bousfield localization and chromatic filtration
  {#BousfieldLocalizationAndChromaticFiltration}
