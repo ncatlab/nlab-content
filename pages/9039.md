@@ -16,18 +16,25 @@
 
 ## Idea
 
-A [[membrane]] [[sigma-model]] [[topological quantum field theory]]. Roughly related to [[topological M-theory]] as the [[M2-brane]] is related to [[M-theory]] and to the [[topological string]] ([[A-model]]/[[B-model]]) as the [[M2-brane]] is related to the [[string]] and to the [[topological M5-brane]] as the [[M2-brane]] is related to the [[M5-brane]].
+A [[membrane]] [[sigma-model]] [[topological quantum field theory]] that is roughly related to [[topological M-theory]] as the [[M2-brane]] is related to [[M-theory]] and to the [[topological string]] ([[A-model]]/[[B-model]]) as the [[M2-brane]] is related to the [[string]] and to the [[topological M5-brane]] as the [[M2-brane]] is related to the [[M5-brane]].
 
 The [[target space]] of the topological membrane is a [[G2-manifold]], the [[action functional]] is governed by the [[higher holonomy]] of the compatible [[supergravity C-field]] over the membrane [[worldvolume]].
 
+## Definition
+
+According to ([Bao-Bengtsson-Cederwall-Nillson 05, equation (2.14)](#BaoBengtssonCederwallNillson05)) the topological $(p=2)$-brane is the super 2-brane which exists in $D = 7$ according to the [[brane scan]], which says that the [[super Poincare Lie algebra]] in $D = 7$ carries an exceptional [[Lie algebra cocycle]] of degree $(p+2)$, hence admits the [[Green-Schwarz action functional]] for a super 2-brane.
+
 ## Related concepts
+
+[[!include brane scan]]
 
 [[!include table of branes]]
 
 
 ## References
 
-* Ling Bao, Viktor Bengtsson, [[Martin Cederwall]], Bengt E.W. Nilsson, _Membranes for Topological M-Theory_ ([arXiv:hep-th/0507077](http://arxiv.org/abs/hep-th/0507077))
+* Ling Bao, Viktor Bengtsson, [[Martin Cederwall]], [[Bengt Nilsson]], _Membranes for Topological M-Theory_ ([arXiv:hep-th/0507077](http://arxiv.org/abs/hep-th/0507077))
+ {#BaoBengtssonCederwallNillson05}
 
 * Giulio Bonelli, Alessandro Tanzini, [[Maxim Zabzine]], _On topological M-theory_ ([arXiv:hep-th/0509175](http://arxiv.org/abs/hep-th/0509175))
 
