@@ -2,25 +2,39 @@
 
 There are two parts of the fundamental theorem of [[differential calculus]]. The constructive content of one part is that a [[uniformly continuous]] real-valued function on a closed bounded interval has an [[antiderivative]]. The other part is the [[Stokes theorem]] in the case of a closed bounded interval.
 
-## In synthetic differential geometry
+## Theorem statement
 
-In [[synthetic differential geometry]], the Stokes theorem in the case of $[0, 1]$ is mandated definitionally.
+Recall that, for a function $f$, __an antiderivative of $f$__ is a function $F$ that solves the differential equation $F' = f$. 
 
-+--{: .num_defn}
-###### Definition
-For a map $f: [0, 1] \to R$, the __definite integral of its derivative__ $\int_0^1 \! f'(t) dt$ is equal to $f(1) - f(0)$.
++--{: .num_theorem}
+###### Theorem.
+**Fundamental theorem of differential calculus.**
+1. A smooth map $f: [0, 1] \to {\mathbb{R}}$ satisfies $\int_0^1 \! f'(t) \, dt = f(1) - f(0)$.
+1. A smooth map $f: [0, 1]\to {\mathbb{R}}$ has a unique [[antiderivative]] $F:[0,1]\to {\mathbb{R}}$ that satisfies $F(0) = 0$.
 =--
 
-This defines the definite integral of each map which is the derivative of another map. The other part of the fundamental theorem of differential calculus is axiomatized into synthetic differential geometry. The Integration axiom below asserts that antiderivatives exist uniquely, up to a constant.
+The first part is the [[Stokes theorem]] in the case of $[0, 1]$. The second part asserts that antiderivatives exist uniquely, up to a constant.
 
- **Integration axiom**. A map $f: [0, 1]\to R$ has a unique [[antiderivative]] $g:[0,1]\to R$ that satisfies $g(0) = 0$.
+We state the theorem for the interval $[0, 1]$. By applying a suitable affine transformation, we can deduce corresponding result for each interval $[a, b]$ where $a$ and $b$ are real numbers with $a \le b$.
 
-Assuming the Integration axiom, the definite integral of every map is now defined.
+Depending on your choice of foundation, you will have to make precise what a "smooth map" is. If you prefer constructive analysis, then in the first part you may suppose that $f$ is uniformly differentiable, and in the second part may suppose that $f$ is uniformly continuous. If you prefer to assume the excluded middle but prefer analysis, then you will suffice with the pointwise version of differentiability and continuity. If you prefer synthesis, then the first part is your definition of the definite integral and the second part you build into your premises as the Integration axiom.
+
+## Integral formula for derivative
+
+In the literature, the following consequence of the fundamental theorem is often articulated as a portion of the first part. The purpose of this section is to show, independent of foundations, that the fundamental theorem gives an integral formula for the antiderivative mentioned in the second part.
+
++--{: .num_cor}
+###### Corollary. 
+A smooth map $f: [0, 1]\to {\mathbb{R}}$ satisfies $f(x) = \left(\int_0^x \! f(t) \, {\mathrm{d}}t\right)'$.
+=--
+
++-- {: .proof}
+###### Proof
+Suppose $x$ is in $[0, 1]$. By the second part of the fundamental theorem, there is $F$ such that $F' = f$. By the first part of the fundamental theorem applied to an affine transform of $F$, we have $\int_0^x F'(t) \, {\mathrm{d}}t = F(x) - F(0)$. Thus, $\int_0^x f(t) \, {\mathrm{d}}t = F(x) - F(0)$. Differentiating gives the required result.  
+ =--
 
 ## References
 
 * Wikipedia, _[Fundamental theorem of calculus](http://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus)_
-
-* [[Anders Kock]], Synthetic Differential Geometry
 
 [[!redirects fundamental theorem of differential calculus]]
