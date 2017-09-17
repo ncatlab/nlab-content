@@ -78,7 +78,7 @@ Now suppose that we have a category $C$ with finite limits and we want to interp
 
 Of course, this is not enough; we need to say somehow that _the axioms are satisfied_.  We first define, inductively, an interpretation of every _term_ that can be constructed from the theory by a morphism in $C$.  For example, given an object $G$ and a morphism $m:G\times G\to G$, there are two evident morphisms $G\times G\times G \to G$ which are the interpretations of the two terms $m(m(x,y),z)$ and $m(x,m(y,z))$.
 
-We then define, inductively, an interpretation of every _logical formula_ that can be constructed from the theory by a _subobject_ in $C$.  The idea is that if $x:A$ is a variable of type $x$ and $\varphi(x)$ is a formula with $x$ as its free variable, then the interpretation of $\varphi(x)$ should be the "subset" $\{x\in A | \varphi(x)\}$ of $A$.  The base case of this induction is that if $t$ is a term interpreted by a morphism $A\to B$ and $R:B$ is a relation symbol, then $R(t)$ is interpreted by the pullback of the chosen subobject $R\hookrightarrow B$ representing $R$ along the morphism $t:A\to B$.  The building blocks of logical formulas then correspond to operations on the posets $Sub(A)$ of subobjects in $C$, as follows.
+We then define, inductively, an interpretation of every _logical formula_ that can be constructed from the theory by a _subobject_ in $C$.  The idea is that if $x:A$ is a variable of type $A$ and $\varphi(x)$ is a formula with $x$ as its free variable, then the interpretation of $\varphi(x)$ should be the "subset" $\{x\in A | \varphi(x)\}$ of $A$.  The base case of this induction is that if $t$ is a term interpreted by a morphism $A\to B$ and $R:B$ is a relation symbol, then $R(t)$ is interpreted by the pullback of the chosen subobject $R\hookrightarrow B$ representing $R$ along the morphism $t:A\to B$.  The building blocks of logical formulas then correspond to operations on the posets $Sub(A)$ of subobjects in $C$, as follows.
 
 |Logical operator| |Operation on $Sub(A)$|
 |----------------|-|---------------------|
@@ -388,7 +388,6 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 * Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of [[display morphisms]].
 
 
-[[!redirects internal logic]]
 [[!redirects internal logics]]
 [[!redirects internal language]]
 [[!redirects internal languages]]
