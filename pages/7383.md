@@ -1,0 +1,48 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _dendroidal homotopy coherent nerve_ is an [[operad|operadic]] generalization of the standard [[homotopy coherent nerve]]. It is a [[functor]]
+
+$$
+  hcN_d : Top Operad \to dSet
+$$
+
+from the [[category]] of [[Top]]-[[operads]] to that of [[dendroidal sets]], given by
+
+$$
+  hcsN_d(P) : T \mapsto dSet(W_H(T), P)
+  \,,
+$$
+
+where $T$ is an object of the [[tree category]], regarded as a free [[symmetric operad]], and $W_H(T)$ is its [[Boardman-Vogt resolution]].
+
+## Properties
+
+The dendroidal homotopy coherent nerve induces a [[Quillen equivalence]] between the [[model structure on operads]] over [[Top]]/[[sSet]] and the [[model structure on dendroidal sets]] (see there for details).
+
+
+
+## References
+
+See the references at _[[model structure on dendroidal sets]]_.
+
+
+[[!redirects homotopy coherent dendroidal nerve]]
