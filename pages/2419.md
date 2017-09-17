@@ -85,6 +85,7 @@ As such these functions are then invariant under the [[action]] of the [[modular
 
 This generalizes to the case of other [[congruence subgroups]] (as [above](ForCongruenceSubgroups)). Generally such functions on [[coset spaces]] like this are called _[[automorphic forms]]_. See there for more.
 
+For the history of the terminology "modular form"/"automorphic form" see also [this MO comment](http://mathoverflow.net/a/124785/381).
 
 ## Properties
 
