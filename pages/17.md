@@ -111,7 +111,7 @@ You do this in two steps, the first of which may have already been done:
 
 2. Clicking on the question mark to begin editing the new page.  (It will not actually be created until you hit Submit.)
 
-_Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (`[[like this|Like this]]`.) We loosely agreed to try to follow that and some other naming conventions; see below.
+_Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (`[[like this|Like this]]`.) We loosely agreed to try to follow that and some other naming conventions; see [below](#naming).
 
 However, this is less of an issue now that we have [[redirects]].
 
@@ -124,7 +124,9 @@ Once you edit a page for the first time, your name will appear at the bottom, gr
 
 To create your user page, simply click the question mark that appears next to your name at the bottom of the page after making a modification and add content to the edit box that appears. If you'd like to make a user page prior to modifying an existing page, you can do so by making some trivial modification to the [[Sandbox]], which will put your name at the bottom of the page where you can click the question mark. (Or hack the URL.)
 
+
 ## Naming conventions ##
+{#naming}
 
 These are not set in stone, but we\'re following them for now. Changing page titles results in unnecessary work for the [[lab elves]], so you should try to follow these if possible (or dispute them if not).  It is most important to follow these in links to pages that don\'t yet exist, so that the pages will be created at the correct title (and only once).
 
