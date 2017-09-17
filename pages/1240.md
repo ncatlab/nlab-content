@@ -251,7 +251,7 @@ $$i^*(h\cdot w) = \phi_e^{-1}([(e,s(h)v)]) = s(h)v = s(h) i^*(w)$$
 
 #Related issues#
 
-[[Bill Lawvere]] noted a structural similarity between induced representations and quantification. See blog [discussion](http://golem.ph.utexas.edu/category/2007/10/concrete_groups_and_axiomatic.html#c012917).
+[[Bill Lawvere]] noted a structural similarity between induced representations and [[quantification]]. See blog [discussion](http://golem.ph.utexas.edu/category/2007/10/concrete_groups_and_axiomatic.html#c012917).
 
 If the modules over a group are considered as comodules over the function Hopf algebra over the group, then one can instead consider the induction for comodules. See [[cotensor product]]. 
 
