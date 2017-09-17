@@ -140,7 +140,7 @@ This is [BergerMoerdijk, theorem 2.1](#BergerMoerdiskAlgebras), following ([Berg
 
 
 
-### Rectificaction of algebras
+### Rectification of algebras
 
 Recall the notion of resolutions of operads and of the _[[Boardman-Vogt resolution]]_ $W(H,P)$ from [[model structure on operads]].
 
