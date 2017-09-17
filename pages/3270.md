@@ -8,7 +8,10 @@ In some physical situations solutions can be quite constrained by some special s
 
 Surely, one often works at the derived level. An adaptation of the  notion of stability into the setup of [[triangulated categories]] has been introduced by Bridgeland. Bridgeland stability for the derived categories of (boundary conditions of) D-branes (B-model) are relevant for string theory.
 
-We should also mention the related wall crossing in [[representation theory]]. Symmetries related to Weyl groups, Weyl chambers and chamber walls are involved (what is sometimes also in BPS setup above, see the paper by Cheng and Verlinde below). A priori wall crossing functors in representation theory (introduced in 1970s by Russian school, Gelfand, Bernstein etc.) are about certain functors which in take as input an infinite-dimensional representation, tensor it with finite-dimensional and look for certain pieces in the decomposition, where the business of chamber walls is crucial. 
+
+## Another wall crossing: representation theory
+
+We should also mention the related wall crossing in [[representation theory]]. Symmetries related to Weyl groups, Weyl chambers and chamber walls are involved (what is sometimes also in BPS setup above, see the paper by Cheng and Verlinde below). A priori wall crossing functors in representation theory (introduced in 1970s by Russian school, Gelfand, Bernstein etc.) are about certain functors which in take as input an infinite-dimensional representation, tensor it with finite-dimensional and look for certain pieces in the decomposition, where the business of chamber walls is crucial. Cf. A. [[Beilinson]], [[Victor Ginzburg|V. Ginzburg]], _Wall-crossing functors and $D$-modules_, Representation Theory __3__ (electronic), 1--31 (1999) [pdf](http://www.ams.org/ert/1999-003-01/S1088-4165-99-00063-1/S1088-4165-99-00063-1.pdf).
 
 ## Conferences, seminars and related $n$lab pages
 
@@ -20,12 +23,6 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 * Description of seminar on stability conditions and Stokes factors in Bonn, [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)## References on wall crossing functors in representation theory
 
 ## Literature
-
-###Representation theory wall crossing functors
-
-* (rep. theory wall crossing functors) A. [[Beilinson]], [[Victor Ginzburg|V. Ginzburg]], _Wall-crossing functors and $D$-modules_, Representation Theory __3__ (electronic), 1--31 (1999) [pdf](http://www.ams.org/ert/1999-003-01/S1088-4165-99-00063-1/S1088-4165-99-00063-1.pdf).
-
-### Wall crossing related to stability and Stokes factors
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
 
