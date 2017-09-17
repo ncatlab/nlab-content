@@ -39,7 +39,7 @@ The following is an explicit component-wise definition of sheaves that is fully 
 
 Let $(C,J)$ be a [[site]] in the form of a [[small category]] $C$ equipped with a [[coverage]] $J$.
 
-A [[presheaf]] $A \in PSh(C)$ is a **sheaf** with respect to $J$ is
+A [[presheaf]] $A \in PSh(C)$ is a **sheaf** with respect to $J$ if
 
 * for every [[covering]] family $\{p_i : U_i \to U\}_{i \in I}$ in $J$
 
