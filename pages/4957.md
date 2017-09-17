@@ -61,39 +61,24 @@ $$
 
 to indicate that if we think of $\Gamma$ as sending a [[space]] to its underlying $S$-object of points by forgetting [[cohesive topos|cohesion]], then $Disc$ creates the [[discrete space]]/[[discrete object]] and $Codisc$ the [[codiscrete space]]/[[codiscrete object]] on an object in $S$.
 
-This is especially common when $S=$ [[Set]], in which case the final condition is automatic since all functors are $Set$-indexed. Hence in that case we the following simpler definition
+This is especially common when $S=$ [[Set]], in which case the final condition is automatic since all functors are $Set$-indexed. Hence in that case we the following simpler [definition](local). 
 
 ### Local topos
  {#LocalTopos}
 
-+-- {: .num_defn}
++-- {: .num_defn #local}
 ###### Definition
 
 A [[sheaf topos]] $\mathcal{T}$ is a **local topos** if the [[global section]] [[geometric morphism]] $\mathcal{T} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}} Set$ has a further [[right adjoint]] functor $(LConst \vdash \Gamma \vdash CoDisc)$
 
 $$
-  CoDisc \colon Set \hookrightarrow \mathcal{T}
+  CoDisc \colon Set \hookrightarrow \mathcal{T}. 
 $$ 
 
-which is furthermore a [[full and faithful functor]].
+(As just stated, it is automatic in the case over $Set$ that this is furthermore a [[full and faithful functor]].) 
 
 =--
 
-In fact, we can simplify this definition further, by the following result. 
-
-+-- {: .num_prop} 
-###### Proposition 
-For $\mathcal{T}$ to be a local topos, it is necessary and sufficient that $\Gamma = \mathcal{T}(\ast, -) \colon \mathcal{T} \to Set$ have a right adjoint, i.e., that the terminal object $\ast$ be [[connected object|connected]] and [[projective object|projective]]. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-The necessity is clear by definition. To prove sufficiency, we must prove that $Codisc$ is fully faithful. This is so iff $LConst$ is fully faithful, by [this proposition](nlab/show/ajoint+triple#FullyFaithful). Now $LConst: Set \to \mathcal{T}$ takes a set $S$ to the $S$-indexed coproduct $S \cdot \ast$ of copies of $\ast$ in $\mathcal{T}$. Thus the functor $LConst$ is fully faithful iff the unit $S \to \mathcal{T}(\ast, S \cdot \ast)$ is an isomorphism. But since $\ast$ is connected, $\mathcal{T}(\ast, -)$ preserves this $S$-indexed coproduct. Thus the unit at $S$, being a composite 
-
-$$S \cong S \cdot \mathcal{T}(\ast, \ast) \to \mathcal{T}(\ast, S \cdot \ast)$$ 
-
-of two isomorphisms, is an isomorphism.
-=-- 
 
 ## Properties
 
