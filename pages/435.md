@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Enriched category theory
 +--{: .hide}
 [[!include enriched category theory contents]]
@@ -17,9 +17,7 @@
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -39,7 +37,8 @@ For instance
 
 * on the other hand, eqipping the $sSet$-enriched category with the structure of an $sSet_{Joyal}$-enriched model category over the Joyal-[[model structure for quasi-categories]] makes it a model for an [[(∞,2)-category]].
  
-## Definition ##
+
+## Definition
 
 +-- {: .un_defn}
 ###### Definition
@@ -70,11 +69,13 @@ By a web of [[Quillen equivalence]]s this is related to the other incarnations o
 
 * [[relation between quasi-categories and simplicial categories]].
 
+
 ### Properties
 
 #### Homotopy Kan extension
 
 See [[homotopy Kan extension]] for the moment.
+
 
 #### Model structure
 
@@ -87,7 +88,6 @@ See [[(∞,2)-category]] for the moment.
 
 
 ## References
-
 
 Simplicially enriched categories as models for $(\infty,1)$-categories are discussed in some detail in section A.3 of 
 
@@ -104,8 +104,17 @@ which describes resolutions of the simplicial functor categories between two sim
 which shows that these resolved functor categories are in fact $sSet$-[[A-∞ categories]].
 
 
+[[!redirects simplicially enriched category]]
 [[!redirects simplicially enriched categories]]
+[[!redirects sSet-enriched category]]
+[[!redirects sSet-enriched categories]]
+[[!redirects SSet-enriched category]]
+[[!redirects SSet-enriched categories]]
+[[!redirects SimpSet-enriched category]]
+[[!redirects SimpSet-enriched categories]]
 [[!redirects sSet-category]]
-[[!redirects SSet-category]]
 [[!redirects sSet-categories]]
+[[!redirects SSet-category]]
 [[!redirects SSet-categories]]
+[[!redirects SimpSet-category]]
+[[!redirects SimpSet-categories]]
