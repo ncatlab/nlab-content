@@ -106,7 +106,7 @@ $$
 We discuss now that $P$ canonically has the structure of a $G$-[[principal ∞-bundle]] and that $\mathbf{B}G$ is the [[fine moduli space]] for $G$-principal $\infty$-bundles.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(principal $G$-action)**
 
@@ -148,7 +148,7 @@ is the **base space** defined by this action.
 We may thinkl of $P//G$ as the **[[action groupoid]]** of the $G$-action on $P$. For us it _defines_ this $G$-action.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The $G$-principal action as defined above satisfies the 
@@ -268,7 +268,7 @@ $$
   }
 $$
 
-By defnition of $P$ as the homotopy fiber of $X \to \mathbf{B}G$, the lower horizontal morphism is equivbalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also equivalent to the pullback
+By definition of $P$ as the homotopy fiber of $X \to \mathbf{B}G$, the lower horizontal morphism is equivbalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also equivalent to the pullback
 
 $$
   \array{
@@ -363,7 +363,7 @@ $$
 
 We have established that every [[cocycle]] $X \to \mathbf{B}G$ canonically induced a $G$-principal action on the homotopy fiber $P \to X$. The following definition declares the _$G$-principal $\infty$-bundles_ to be those $G$-principal actions that do arise this way.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 We say a $G$-principal action of $G$ on $P$ over $X$ is a 
@@ -398,23 +398,90 @@ $$
 
 
 =--
- 
-### Morphisms of $G$-principal $\infty$-bundles
 
-The morphisms of $G$-principal $\infty$-bundles are to be such that they respect the $G$-action, so that the [[∞-groupoid]] $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$ is naturally equivalent to the cocycle $\infty$-groupoid $Hom_C(X, \mathbf{B} G)$
++-- {: .num_defn}
+###### Definition
+
+For $G$ an [[infinity-group]] in $\mathbf{H}$ and $X \in \mathbf{H}$ any object, write
 
 $$
-  G Bund(X) \simeq Hom_C(X, \mathbf{B} G)
+  G Bund(X) \subset Grpd(\mathbf{H})/{*//G}
+$$
+
+for the [[sub-(infinity,1)-category]] on the [[over-(infinity,1)-category]] of the groupoid objects over $*//G$ on the $G$-principal $\infty$-bundles as above.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+We have an [[equivalence of (∞,1)-categories]]
+
+$$
+  G Bund(X) \simeq \mathbf{H}(X, \mathbf{B}G)
+$$
+
+of $G$-orincipal $\infty$-bundles over $X$ with [[cocycles]] $X \to \mathbf{B}G$.
+
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+The [[arrow category]] $\mathbf{H}^I$ is still an [[(infinity,1)-topos]] and hence the Griraud-Lurie axioms still hold. This means that by the discussion at [[groupoid object in an (infinity,1)-category]] (using the statement below [[Higher Topos Theory|HTT, cor. 6.2.3.5]]) we have an equivalence
+
+$$
+  Grpd(\mathbf{H}^I) \simeq 
+  (\mathbf{H}^{I})^{I}_{eff}
+$$
+
+between groupoid objects in $\mathbf{H}^I$ and [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]] in the arrow category. 
+
+Notice that groupoid objects and effective epis in $\mathbf{H}^I$ are given objectwise over the two objects of the inerval $I = \Delta[1]$.
+
+Restricting this equivalence along the inclusion
+
+$$
+  \mathbf{H}(X, \mathbf{B}G)
+    \hookrightarrow
+  (\mathbf{H}^I)^I
+$$ 
+
+given by sending a cocycle to its homotopy fiber diagram
+
+$$
+ (X \to \mathbf{B}G)
+  \mapsto 
+  \left(
+     \array{
+        P &\to& * 
+        \\
+        \downarrow && \downarrow
+        \\
+        X &\to& \mathbf{B}G
+     }
+  \right)
+$$
+
+therefore yields precisely the equivalence in question
+
+$$
+  \array{
+     G Bund(X) &\hookrightarrow& Grpd(\mathbf{H}^I)
+     \\
+     \downarrow^\simeq && \downarrow^\simeq
+     \\
+     \mathbf{H}(X, \mathbf{B}G)
+     &\stackrel{hofib}{\hookrightarrow}&
+     (\mathbf{H}^I)^I
+  }
   \,.
 $$
 
-Then this says that $G$-principal bundles are classified by $G$-[[cohomology]]
+=--
 
-$$
-  G Bund(X)/_\simeq = H(X,\mathbf{B}G) := Ho_C(X, \mathbf{B}G)
-$$
-
-given by the [[hom-set]] in the [[homotopy category of an (infinity,1)-category|homotopy category of the (∞,1)-category]] $C$.
+In words this says that the [[cohomology]] on $X$ with coefficients in $G$ classified $G$-principal $\infty$-bundles, and in fact does so on the level of [[cocycle]]s.
 
 ### Connections on $G$-principal $\infty$-bundles
 
@@ -665,6 +732,14 @@ See also
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
 
 on [[associated ∞-bundle]]s.
+
+The fully general abstract formalization in [[(∞,1)-topos theory]] as discussed here was first inducated in 
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], [[schreiber:Twisted Differential String and Fivebrane Structures]]
+
+A more comprehensive conceptual account is in 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 [[!redirects principal infinity-bundles]]
 [[!redirects principal ∞-bundle]]
