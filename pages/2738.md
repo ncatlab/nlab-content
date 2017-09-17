@@ -1152,7 +1152,7 @@ canonically induces [[nerve and realization]] functors:
 +-- {: .num_defn }
 ###### Definition
 
-The **homotopy coherent nerve** of a simplicial operad $P$ is the dendroidal set $hcN_d(P)$ given by
+The **[[dendroidal homotopy coherent nerve]]** of a [[simplicial operad]] $P$ is the dendroidal set $hcN_d(P)$ given by
 
 $$
   hcN_d(P) : T \mapsto Hom_{Operad_{sSet}}(W_H(T), P)
@@ -1178,6 +1178,7 @@ $$
   {\vert -\vert}_H : dSet \to Operad_{sSet}
 $$
 
+(or $W_!$ as [[model structure on dendroidal sets|here]])
 for the corresponding [[left adjoint]] [[nerve and realization|realization]].
 
 =--
