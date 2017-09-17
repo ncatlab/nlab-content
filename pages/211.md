@@ -28,3 +28,4 @@ category: meta
 [[!redirects Anonymous Hero]]
 [[!redirects AnonymousHeroicSpeller]]
 [[!redirects NeedNotBeConcrete]]
+[[!redirects sandboxfan]]
