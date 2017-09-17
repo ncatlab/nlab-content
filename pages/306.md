@@ -207,13 +207,15 @@ As pointed out there, from some perspective it is not so much a _subobject_ clas
 
 ## Related concepts
 
+* [[object classifier]]
+
+* [[type of propositions]], [[type of types]]
+
 * [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
 
 * [[classifying topos]]
 
 * [[universal principal bundle]], [[universal principal ∞-bundle]]
-
-* [[classifying topos]}
 
 * [[classifying morphism]]
 
