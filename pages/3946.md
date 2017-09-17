@@ -57,4 +57,22 @@ A distribution $f$ is smooth in a conic subset $\Gamma$ of the cotangent bundle 
 
 Let $U \subseteq \mathbb{R}^n$ be an open subset, $T^* U$ its cotangent bundle and $f$ be a distribution on $U$. The complement of the union of all conic subsets of $T^* U$ where $f$ is smooth is the **wavefront set $WF(f)$**.
 
+
+## Examples
+
+### Onedimensional Examples
+We take a brief look at distributions on $\mathcal{D} \mathbb{R}$ with singular support consisting of the origin. In one dimension, at the origin, there are of course exactly two directions along which a distribution could be smooth, namely $\zeta \le 0$ and $\zeta \gt 0$.
+
+We define the [[Fourier transform]] to be
+$$
+\mathcal{F}(f)(\zeta) = \hat f (\zeta) = \int_{- \infty}^{\infty} f(x) \exp(-2 \pi i x \zeta)
+$$
+
+For the delta distribution $\delta$, we have $\mathcal{F}(\delta) = 1$, which does not satisfy the decay condition of smoothness.
+
+
+## References
+
+* Wikipedia: [wavefront set] (http://en.wikipedia.org/wiki/Wavefront_set)
+
 [[!redirects wavefront sets]]
