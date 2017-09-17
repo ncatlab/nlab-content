@@ -178,7 +178,7 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 * [[universal principal bundle]], [[universal principal ∞-bundle]]
 
-* [[classifying topos]}
+* [[classifying topos]]
 
 * [[subobject classifier]]
 
@@ -193,5 +193,10 @@ A concise introduction of classifying spaces of [[vector bundles]] is around p. 
 
 * [[Peter May]], _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
   {#May}
+
+Discussion of [[universal principal bundles]] over their classifying spaces is in 
+
+* Stephen Mitchell, _Universal principal bundles and classifying spaces_ ([pdf](http://www-math.mit.edu/~mbehrens/18.906/prin.pdf))
+
 
 [[!redirects classifying spaces]]
