@@ -52,3 +52,6 @@ If for fixed $i$ the $j_i$ range only over a [[finite set]], then the morphism i
 
 [[!redirects finite type morphism]]
 [[!redirects finite type morphisms]]
+
+[[!redirects scheme of finite type]]
+[[!redirects schemes of finite type]]
