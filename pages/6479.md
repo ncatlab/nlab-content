@@ -42,7 +42,7 @@ A **geometry** is a pregeometry such that $cl(\emptyset) = \emptyset$ and $cl(\{
 
 * Let $X$ be a [[vector space]], and let $cl$ be the monad on $P X$ whose algebras are vector subspaces of $X$. Clearly $cl$ is finitary (any subspace is the set-theoretic union of finite-dimensional subspaces), and the exchange condition is a classical fact about vector spaces related to the notion of independence. Thus $cl$ is a pregeometry. 
 
-* Similarly, let $X$ be a [[projective space]] $\mathbb{P}V$, and let $cl$ be the monad on $P X$ whose algebras are projective subspaces. Then $cl$ is a geometry (the closure of a point is a point). Any pregeometry $cl$ gives rise to a geometry in a similar way, in the sense that a pregeometry $cl$ induces a geometry on the image of the function $X \to P X$, $x \mapsto cl(\{x\})$. 
+* Similarly, let $X$ be a [[projective space]] $\mathbb{P}V$, and let $cl$ be the monad on $P X$ whose algebras are projective subspaces. Then $cl$ is a geometry (the closure of a point is a point). Any pregeometry $cl$ gives rise to a geometry in a similar way, in the sense that a pregeometry $cl$ induces a geometry on the image of the function $X \to P X$, $x \mapsto cl(\{x\})$, as explained in Remark \ref{project}. 
 
 * Let $X$ be an algebraically closed field; let $cl$ be the monad on $P X$ whose algebras are algebraically closed subfields. Then $cl$ is a pregeometry. That the exchange condition is satisfied is a classical result credited to Steinitz[^fine]. 
 =-- 
@@ -61,13 +61,13 @@ $$cl^Y(S) = cl(S) \cap Y.$$
 It is immediate that $A \subseteq Y$ is independent in $(X, cl)$ iff it is independent in $(Y, cl^Y)$, and that it is a basis for $Y$ in $(X, cl)$ iff it is a basis for $Y$ in $(Y, cl^Y)$. By this observation, to prove that any $Y \in P(X)$ has a well-defined dimension, we may assume without loss of generality that $Y = X$. That a pregeometry $X$ has well-defined dimension was proven [here](nlab/show/matroid#welldefined). 
 =-- 
 
-+-- {: .num_remark} 
++-- {: .num_remark #project} 
 ###### Remark 
-There is a standard way of getting a geometry from a pregeometry $(X, cl)$. First, if $cl(\emptyset) \neq \emptyset$, then replace $X$ by $X' \coloneqq X \backslash cl(\emptyset)$, equipped with the restriction pregeometry of the previous remark. Then define an equivalence relation on $X'$ by $x \sim y$ if $cl(\{x\}) = cl(\{y\})$, and define a pregeometry on the quotient set $X'/\sim$ by 
+There is a standard way of getting a geometry from a pregeometry $(X, cl)$. First, if $cl(\emptyset) \neq \emptyset$, then replace $X$ by $X' \coloneqq X - cl(\emptyset)$, equipped with the restriction pregeometry of the previous remark. Then define an equivalence relation on $X'$ by $x \sim y$ if $cl(\{x\}) = cl(\{y\})$, and define a pregeometry on the quotient set $X'/\sim$ by 
 
 $$\widehat{cl}(A) \coloneqq \{[b]: b \in cl(A)\}$$ 
 
-where $[b]$ denotes the equivalence class of $b$. This gives a kind of abstraction of the process of taking a projectivization of a vector space. 
+where $[b]$ denotes the equivalence class of $b$. This abstracts the process of taking a projectivization of a vector space. 
 =-- 
 
 ### Minimal and strongly minimal sets 
@@ -83,7 +83,7 @@ $$\{c \in M: \mathbf{M} \models \phi(c, a_1, \ldots, a_n)\}$$
 is finite. The **algebraic closure** of $A$, denoted $acl(A)$, is the set of elements of $M$ that are algebraic over $A$. 
 =-- 
 
-+-- {: .num_prop} 
++-- {: .num_prop #finclos} 
 ###### Proposition 
 The algebraic closure $A \mapsto acl(A)$ defines a finitary closure operator on $M$. 
 =-- 
@@ -94,16 +94,18 @@ That $acl$ is monotone (preserves order) is obvious. Also the fact that $acl$ is
 
 Taking $\phi(y, w)$ to be the equality predicate $y = w$, we see $A \subseteq acl(A)$. 
 
-For idempotence of $acl$, suppose $b_1, \ldots, b_k \in acl(A)$ and $\mathbf{M} \models \psi(c, b_1, \ldots, b_k)$ where $\{y \in M: \mathbf{M} \models \psi(y, b_1, \ldots, b_k)\}$ has exactly $m$ elements. Write down a formula $F_{m, \psi}(x_1, \ldots, x_k)$ that says $\{y \in M: \mathbf{M} \models \psi(y, x_1, \ldots, x_k)\}$ has at most $m$ elements: 
+For idempotence of $acl$, suppose $b_1, \ldots, b_k \in acl(A)$ and $\mathbf{M} \models \psi(c, b_1, \ldots, b_k)$ where $\{y \in M: \mathbf{M} \models \psi(y, b_1, \ldots, b_k)\}$ has exactly $m$ elements. Write down a formula $F_{m, \psi}(x_1, \ldots, x_k)$ that says $\{y \in M: \mathbf{M} \models \psi(y, x_1, \ldots, x_k)\}$ has at most $m$ elements (by adding some extra inequalities, we can make this "exactly $m$ elements"): 
 
 $$F_{m, \psi}(x_1, \ldots, x_k) \coloneqq \exists_{y_1, \ldots, y_m} \forall_y \psi(y, x_1, \ldots, x_k) \Leftrightarrow (y = y_1) \vee \ldots \vee (y = y_m).$$ 
 
-Now for $i = 1, \ldots, k$, let $\phi_i$ be a formula that witness $b_i \in acl(A)$, i.e., $\mathbf{M} \models \phi_i(b_i, a_{i, 1}, \ldots, a_{i, n_i})$ where $a_{i, k} \in A$ and $\{x \in M: \mathbf{M} \models \phi_i(x, a_{i, 1}, \ldots, a_{i, n_i})\}$ has finitely many elements. Then 
+Now for $i = 1, \ldots, k$, let $\phi_i$ be a formula witnessing $b_i \in acl(A)$, i.e., $\mathbf{M} \models \phi_i(b_i, a_{i, 1}, \ldots, a_{i, n_i})$ where $a_{i, k} \in A$ and $\{x \in M: \mathbf{M} \models \phi_i(x, a_{i, 1}, \ldots, a_{i, n_i})\}$ has finitely many elements. Then 
 
 $$\exists_{x_1, \ldots, x_k} F_{m, \psi}(x_1, \ldots, x_k) \wedge \psi(y, x_1, \ldots, x_k) \wedge \bigwedge_{i=1}^k \phi_i(x_i, a_{i, 1}, \ldots, a_{i, n_i})$$ 
 
 is a formula with parameters in $A$ that witnesses $c \in acl(A)$. This proves the idempotence of $acl$. 
 =-- 
+
+As before, this notion of algebraic closure $acl: P(M) \to P(M)$ can be restricted to a closure operator $acl^X: P(X) \to P(X)$ for a subset $X \subseteq M$, via the definition $acl^X(A) \coloneqq X \cap acl(A)$ for $A \subseteq X$. One often writes just $acl$ instead of $acl^X$, provided that $X$ is understood. 
 
 +-- {: .num_defn} 
 ###### Definitions 
@@ -128,9 +130,25 @@ A theory $\mathbf{T}$ is _strongly minimal_ if for any model $\mathbf{M}$ of $\m
 The algebraic closure operator on a minimal set $X$ is a pregeometry. 
 =-- 
 
-+-- {: .proof} 
++-- {: .proof}  
 ###### Proof 
-To be added. 
+Let $A \subseteq X$ and suppose $c \in acl(A \cup \{b\}) - acl(A)$ for $b, c \in X$; we want to show $b \in acl(A \cup \{c\})$. Thus, suppose $\phi(c, b)$ is a formula with parameters from $A$ such that $\mathbf{M} \models \phi(c, b)$ and $card(\{x \in X: \mathbf{M} \models \phi(x, b)\}) = n$, a finite number. As in the proof of Proposition \ref{finclos}, let $\psi(w)$ be a formula that says $card(\{x \in X: \mathbf{M} \models \phi(x, w)\}) = n$. This is a formula with parameters from $A$ and $\psi(b)$ is satisfied in $\mathbf{M}$. 
+
+If $\{y \in X: \mathbf{M} \models \phi(c, y) \wedge \psi(y)\}$ is finite, then since $b$ belongs to this set, $\phi(c, y) \wedge \psi(y)$ would witness $b \in acl(A \cup \{c\})$ and we would be done. So suppose otherwise. Then this set is cofinite in $X$, so that 
+
+$$card(X - \{y \in X: \mathbf{M} \models \phi(c, y) \wedge \psi(y)\}) = m$$ 
+
+for some finite $m$, and we can again write down a formula $\chi(x)$ with parameters from $A$ that says 
+
+$$card(X - \{y \in X: \mathbf{M} \models \phi(x, y) \wedge \psi(y)\}) = m.$$
+
+If $\chi(x)$ defines a finite subset of $X$, then since $\chi(c)$ is satisfied, we would reach the conclusion that $c \in acl(A)$, a contradiction. Hence $\chi(x)$ defines a subset cofinite in $X$. We may therefore choose $n+1$ elements $a_1, \ldots, a_{n+1} \in X$ such that $\chi(a_i)$ is satisfied. By our supposition, 
+
+$$B_i \coloneqq \{u \in X: \mathbf{M} \models \phi(a_i, u) \wedge \psi(u)\}$$ 
+
+is cofinite for $i = 1, \ldots, n+1$. Hence $\bigcap_{i=1}^{n+1} B_i$ is inhabited, say by an element $b'$. We have at least $n+1$ elements $x \in X$ such that $\phi(x, b')$ is satisfied, namely $x = a_1, \ldots, a_{n+1}$. But now this contradicts the fact $\psi(b')$. 
+=-- 
+
 =-- 
 
 ## Related concepts
