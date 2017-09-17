@@ -231,7 +231,7 @@ What about anchors in lists?
   =--
   The fourth
 
-* {: #reff } The sixth
+* {: #reff }The sixth
 
 
 category: meta
