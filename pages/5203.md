@@ -37,7 +37,7 @@ An inserter in $K^{op}$ (see [[opposite 2-category]]) is called a **coinserter**
 
 ## Properties
 
-* Any inserter is a [[faithful morphism]], but not in general fully faithful.
+* Any inserter is a [[faithful morphism]], and also a [[conservative morphism]], but not in general a [[fully faithful morphism]].
 
 * Any strict inserter is, in particular, an inserter.  (This is not true for all strict 2-limits.)
 
