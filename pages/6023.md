@@ -35,6 +35,19 @@ The collection of all probability distributions on a measurable space carries va
 
 * [[Wasserstein metric]]
 
+## Examples
+
+* [[Gaussian probability distribution]]
+
+## Related concepts
+
+* [[probability space]]
+
+* [[expectation value]]
+
+* [[moment]]
+
+* [[entropy]]
 
 [[!redirects probability distribution]]
 [[!redirects probability distributions]]
