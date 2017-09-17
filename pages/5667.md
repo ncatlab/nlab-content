@@ -5,7 +5,7 @@
 
 ## Idea
 
-KK-theory is a "bivariant" version of the [[K-theory]] of [[operator algebras]]: for $A, B$ two operator algebras there, their _KK-group_ $KK(A,B)$ behaves in the first argument as K-homology of $A$ and in the second as K-cohomology of $B$.
+KK-theory is a "bivariant" version of [[operator K-theory]]: for $A, B$ two [[operator algebras]] there, their _KK-group_ $KK(A,B)$ behaves in the first argument as K-homology of $A$ and in the second as K-cohomology of $B$.
 
 There is a [[stable (infinity,1)-category]] and in particular a [[triangulated category]] of operator algebras such that $KK(-,-)$ is the [[hom-set]] of the corresponding [[homotopy category]] ([Lean](#Lean))
 
@@ -13,6 +13,11 @@ Accordingly, the groups $KK(A,B)$ are now viewed as a "correct" hom-set among no
 
 KK-theory was introduced by [[Gennady Kasparov]] in 1980, prompted by the advances in [[Brown-Douglas-Fillmore theory]], especially in the last 1977 article.
 
+## Related concepts
+
+* [[operator K-theory]]
+
+  * [[E-theory]]
 
 ## References
 
@@ -24,5 +29,5 @@ The underlying [[triangulated category]] is discussed in
 
 * [[Ralf Meyer]], _KK-theory as a triangulated category_ (2009) ([pdf](http://wwwmath.uni-muenster.de/u/echters/Focused-Semester/lecturenotes/Meyer_--_KK-theory_as_a_triangulated_category.pdf))
 
-* Rohan Lean, to appear
+* Rohan Lean, to appear [pdf]()
  {#Lean}
