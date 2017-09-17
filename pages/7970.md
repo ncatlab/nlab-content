@@ -34,7 +34,7 @@ By the [[GAGA]]-principle holomorphic vector bundles and more generally analytic
 ###### Theorem 
 **([[Koszul-Malgrange theorem]])**
 
-Holomorphic vector bundles over a [[complex manifold]] are equivalently [[complex vector bundles]] which are equipped with a holomorphic [[flat connection]]. Under this identification the [[Dolbeault operator]] $\bar \partial$ acting on the [[sections]] of the holomorphic vector bundle is identified with the holomorphic component of the [[covariant derivative]] of the given connection.
+Holomorphic vector bundles over a [[complex manifold]] are equivalently [[complex vector bundles]] which are equipped with a (hermitean) holomorphic [[flat connection]]. Under this identification the [[Dolbeault operator]] $\bar \partial$ acting on the [[sections]] of the holomorphic vector bundle is identified with the holomorphic component of the [[covariant derivative]] of the given connection.
 
 The analogous statement is true for generalization of vector bundles to [[chain complexes]] of [[module sheaves]] with [[coherent cohomology]].
 
