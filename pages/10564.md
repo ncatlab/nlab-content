@@ -438,9 +438,9 @@ By the general discussion at [[quantization of Chern-Simons theory]] and the [[h
 
 When restricting the above general construction
 to the [[Tate curve]], then the confromal blocks become
-[[loop group representations]].
+[[loop group representations]] (when over the complex numebers, at least) ([Ando00, theorem 10.10](#Ando00)).
 
-In terms of differential geometry [[schreiber:differential cohomology in a cohesive topos|dcct]] consider the map
+In terms of differential geometry ([[schreiber:differential cohomology in a cohesive topos|dcct]]) consider the map
 
 $$
   G \longrightarrow [S^1, \mathbf{B}G_{conn}]
