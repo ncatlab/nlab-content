@@ -7,7 +7,8 @@
 
 Unramified morphism of algebraic [[scheme]]s is a geometric generalization of a notion of an unramified [[field extension]]. The notion of ramification there, in turn is motivated by the branching phenomena in number fields, which in the [[Riemann surface]] picture involve branchings similar to the branching involved in Riemann surfaces over complex numbers. 
 
-A weaker (infinitesimal) version is the notion of formally unramified morphism. 
+A weaker (infinitesimal) version is the notion of 
+[[formally unramified morphism]]. 
 
 ### Historical remarks
 
@@ -21,7 +22,7 @@ $$
 $$
 of residue fields is a finite and separable extension of fields.
 
-A morphism $f:X\to Y$ of schemes is __formally unramified__ if for every thickenning
+A morphism $f:X\to Y$ of schemes is __[[formally unramified]]__ if for every [[infinitesimal object|infinitesimal thickenning]]
 $T\to T'$ of schemes over $Y$, the canonical morphism of sheaves of sets over $T$
 $$
 U\mapsto (Scheme/Y)(U,X)
@@ -51,9 +52,4 @@ Characterization: a morphism is formally unramified iff the module $\Omega_{Y/X}
 
 
 [[!redirects unramified morphisms]] 
-[[!redirects formally unramified morphism]]
-[[!redirects formally unramified morphisms]]
-
-[[!redirects formally unramified]]
-
 [[!redirects unramified]]
