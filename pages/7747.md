@@ -23,10 +23,13 @@ More generally, one means by a _framing_ not a trivialization of the tangent bun
 
 * of the [[normal bundle]] if the manifold is understood  [[embedding|embedded]] in some [[Cartesian space]] $\mathbb{R}^d$
 
-* of the _stable tangent bundle_.
-
+* of the _[[stable tangent bundle]]_.
 
 Accordingly, a _framed cobordism_ is a [[cobordism]] equipped with a framing on the underlying manifold.
+
+For $dim(X)$ the [[dimension]] of the manifold and $n \geq dim(X)$, then one also speaks of an _$n$-framing_ to mean a trivialization of the "$n$-stabilized tangent bundle"  $T X \oplus \mathbb{R}^{n-dim(X)}$ (where the right [[direct sum|direct summand]] denotes the trivial real [[vector bundle]] of [[rank]] $n - dim(X)$). These $n$-framed manifolds appear in particular in the construction of the  [[cobordism category]] of framed $n$-dimensional cobordisms. The [[cobordism hypothesis]] asserts essentially that the [[(∞,n)-category of cobordisms]] with $n$-framing is the [[free construction|free]] [[symmetric monoidal (∞,n)-category with duals]].
+
+Beware that there is also the term "[[2-framing]]" due to ([Atiyah](#Atiyah)), which is related but different.
 
 ## Examples
 
@@ -116,12 +119,15 @@ On a framed manifold there is a canonical [[quadratic refinement]] of the [[inte
 
 The theorem about the parallizablitiy of spheres is due to
 
-* [[John Adams]], _On the Non-Existence of Elements of Hopf Invariant One_ Bull. Amer. Math. Soc. 64, 279-282, 1958, Ann. Math. 72, 20-104, 1960.
- {#Adams58}
+* {#Adams58} [[John Adams]], _On the Non-Existence of Elements of Hopf Invariant One_ Bull. Amer. Math. Soc. 64, 279-282, 1958, Ann. Math. 72, 20-104, 1960.
+ 
+The case of 3-manifolds and the relation to "[[2-framings]]" is duscussed in
 
-See also 
+* {#Atiyah} [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
 
-* [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
+Rieview in the context of the [[Kervaire invariant]] includes
+
+* [[Akhil Mathew]], _The Kervaire invariant I_ ([web](https://amathew.wordpress.com/2012/10/01/the-kervaire-invariant-i/#more-3888))
 
 The [[moduli space of framed surfaces]] is discussed in 
 
