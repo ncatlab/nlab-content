@@ -1,0 +1,11 @@
+
+   [[brane]]   |    in [[supergravity]]          |   has [[worldvolume]] theory
+---------------|---------------------------------|----------------------------------
+ [[D0-brane]]  |   [[type IIA supergravity]]     |     [[BFSS matrix model]]
+ [[D1-brane]]  |   [[type IIB supergravity]]     | 2d [[CFT]] with [[BH entropy]]
+ [[D3-brane]]  |   [[type IIB supergravity]]     |    [[super Yang-Mills theory]]
+ [[D4-brane]]  |   [[type IIA supergravity]]     | [[Khovanov homology]] observables
+ [[D5-brane]]  |   [[type IIB supergravity]]     |          ...
+ [[NS5-brane]] |   [[type IIB supergravity]]     |    [[little string theory]]
+ [[M2-brane]]  | [[11-dimensional supergravity]] |        [[ABJM theory]]
+ [[M5-brane]]  | [[11-dimensional supergravity]] | [[6d (2,0)-superconformal QFT]]
