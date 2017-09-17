@@ -18,7 +18,7 @@
 
 The _Sierpinski topos_ is the [[arrow category]] of [[Set]]. This is the [[category of presheaves]] over the [[interval category]] $\mathbf{2} = \{0 \to 1\}$. 
 
-The latter is, regarded as a [[frame]], the [[category of opens]] of the [[Sierpinski space]]. 
+The latter is, the category of non-empty [[open subsets]] of the [[Sierpinski space]], and its trivial [[Grothendieck topology]] is that inherited from the standard topology inherited from the inclusion into the [[category of opens]] of the Sierpinksi space.
 
 ## Properties
 
