@@ -16,11 +16,16 @@
 
 ## Idea
 
-A description of the [[worldline]] dynamics of interacting  [[D0-brane]]s.
+A description of the [[worldline]] dynamics of interacting  [[D0-brane]]s. In the limit of large numbr $N$ of D0 branes supposed to encode the [[non-perturbative quantum field theory|strong coupling limit]] of [[type II string theory]] (see also at _[[M-theory]]_).
 
 
 ## References
 
+The original article is
 
 * [[Tom Banks]], W. Fischler, S.H. Shenker and [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043)).
+
+A review of further developments is in 
+
+* [[David Berenstein]], _Classical dynamics and thermalization in holographic matrix models_, talk at Leiden, October 2012 ([pdf](http://www.lorentzcenter.nl/lc/web/2012/514/presentations/Berenstein.pdf))
 
