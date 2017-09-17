@@ -22,7 +22,7 @@ So $CartSp$ may be thought of as the [[full subcategory]] of [[Diff]] on the [[s
 
 Along the general lines of [notions of space](http://ncatlab.org/nlab/show/space#NotionsOfSpace) we have the following notions of spaces modeled on $CartSp$.
 
-Consider [[CartSp]] as a [[site]] with the standard notion of [[coverage]] (for instance good open covers, using that fact that a [[Cartesian space]] is [[diffeomorphism|diffeomorphic]] to an open ball).
+Consider [[CartSp]] as a [[site]] with the standard notion of [[coverage]] (for instance [[good open cover]]s, using that fact that a [[Cartesian space]] is [[diffeomorphism|diffeomorphic]] to an open ball).
 
 Then 
 
