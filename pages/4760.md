@@ -24,11 +24,11 @@ The (unitary) _geometric nerve_ is a natural  [[nerve]] operation on [[bicategor
 The construction, thus, yields a functor:
 
 $$
-  N : BiCat \to sSet
+  N : BiCat_{NLax} \to sSet
   \,.
 $$
 
-extending the ordinary nerve constrution on the category of small categories. 
+extending the ordinary nerve construction on the category of small categories, where morphisms of BiCat are _normal lax 2-functors_: these are the lax 2-functors which strictly preserve identities. 
 
 Special cases of the construction relate to earlier constructions relating to the [[homotopy coherent nerve]], see below for more detail.
 
@@ -47,22 +47,21 @@ $$
 The bicategorical nerve is the nerve induced from that. So for $C$ a bicategory we have
 
 $$
-  N(C) : [k] \mapsto Hom_{NLax}(\Delta[k], C)
+  N(C) : [k] \mapsto BiCat_{NLax}(\Delta[k], C)
   \,.
 $$
-where $Hon_{NLax}$ is taking the _normal lax 2-functors_ as morphisms:
-these are the lax 2-functors which strictly preserve identities. There are also an oplax version and non-normalized version.
+
+There are also an oplax version and two non-normalized versions.
  
 ## Properties
 
 * The [[simplicial set]]s in the image of the geometric nerve are 3-[[coskeletal]].
 
-* The geometric nerve identifies precisely [[bigroupoid]]s with 2-[[hypergroupoid]]s: those [[Kan complexes]] for which the horn fillers in dimension $\geq 3$ are _unique_ . 
+* The geometric nerve identifies precisely [[bigroupoid]]s with 2-[[hypergroupoid]]s: those [[Kan complexes]] for which the horn fillers in dimension $\geq 3$ are _unique_ . (Theorem 8.6 in ([Duskin](#Duskin)))  
 
-  (Theorem 8.6 in ([Duskin](#Duskin)))  
+(This shows in particular that bigroupoids model all [[homotopy 2-type]]s.)
 
-  (This shows in particular that bigroupoids model all [[homotopy 2-type]]s.)
-
+* The nerve is a full and faithful functor $BiCat_{NLax}\to sSet$.
 
 ## Example
 
