@@ -13,6 +13,7 @@ Traditionally this has considered in the context of [[geometry]] over formal dua
 ## General abstract notion
  {#GeneralAbstractNotion}
 
+### Definition
 
 Let 
 
@@ -32,7 +33,7 @@ As a class of examples that is useful to keep in mind consider a [[Q-category]] 
 
 $$
   ((u^* \dashv u^_* \dashv u^!) : \mathbf{H}_{th} \to \mathbf{H}) := 
-  ([dom,Set] \dashv [\epsilon, Set] \dashv [codom,Set] \ [\bar A, Set] \to [A,Set])
+  ([dom,Set] \dashv [\epsilon, Set] \dashv [codom,Set] : [\bar A, Set] \to [A,Set])
 $$ 
 
 be the corresponding <a href="http://nlab.mathforge.org/nlab/show/Q-category#PresheafQCategory">Q-category of copresheaves</a>.
@@ -54,7 +55,7 @@ From this we get for every morphism $f : X \to Y$ in $\mathbf{H}$ a canonical mo
   \,.
 \]
 
-+-- {: .num_defn}
++-- {: .num_defn #AbstractFormallySmoothMorphism}
 ###### Definition
 
 A morphism $f : X \to Y$ in $\mathbf{H}$ is called **formally smooth** if (eq:MorphismIntoPullback) is an [[effective epimorphism]].
@@ -63,14 +64,14 @@ A morphism $f : X \to Y$ in $\mathbf{H}$ is called **formally smooth** if (eq:Mo
 
 This appears as ([KontsevichRosenberg, def. 5.1, prop. 5.3.1.1](#KontsevichRosenbergSpaces)).
 
-+-- {: .num_defn}
++-- {: .num_defn #AbstractFormallySmoothObject}
 ###### Definition
 
 An object $X \in \mathbf{H}$ is called **formally smooth** if the morphism $X \to *$ to the [[terminal object]] is formally smooth.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #AbstractFormallySmoothObjectDirect}
 ###### Proposition
 
 The object $X$ is formally smooth precisely if 
@@ -85,38 +86,64 @@ is an [[effective epimorphism]].
 
 This appears as ([KontsevichRosenberg, def. 5.3.2](#KontsevichRosenbergSpaces)).
 
+### Properties
+
++-- {: .num_prop}
+###### Proposition
+
+Formally smooth morphisms are closed under composition.
+
+=--
+
+This appears as ([KontsevichRosenberg, prop. 5.4](#KontsevichRosenbergSpaces)).
+
 
 ## Concrete notion
  {#ConcreteNotion}
 
-In the context of geometry over formal duals of [[ring]]s and [[associative algebra]]s there are two definitions
 
-
-
-
-* Grothendieck's notion of formal smoothness for [[commutative rings]], [[schemes]], morphisms (or even more general functors $Scheme^{op}\to Set$) which will be discussed here. 
-
-
-
-In EGA IV, Grothendieck defines formal smoothness in the generality of relative setup: for morphisms. Formal smoothness is weaker than smoothness, and there are characterizations when formally smooth morphisms are smooth.
 
 
 ### Over commutative rings 
  {#OverCommutativeRings}
 
-A morphism $f :X\to Y$ is __formally smooth__ if   it satisfies the _infinitesimal lifting property_: for every ring $A$ and nilpotent [[ideal]] $I\subset A$ and morphism $Spec(A)\to Y$ the induced map
+Let $k$ be a [[field]] and let $CAlk_k$ be the [[category]] of commutative 
+[[associative algebra]]s over $k$. Write
+
+$$
+  \mathbf{H} = [CAlg_k, Set]
+$$
+
+for the [[presheaf topos]] over the [[opposite category]] $CAlg_k^{op}$. This is the context in which [[scheme]]s and [[algebraic space]]s over $k$ live.
+
++-- {: .num_defn #CFormalSmoothness}
+###### Definition
+
+
+A morphism $f :X\to Y$ in $\mathbf{H} = [CAlg_k, Set]$ is __formally smooth__ if   it satisfies the _infinitesimal lifting property_: for every algebra $A$ and nilpotent [[ideal]] $I\subset A$ and morphism $Spec(A)\to Y$ the induced map
 
 $$ Hom_Y(Spec(A), X)\to Hom_Y(Spec(A/I),X)$$
 
 is surjective. 
 
+=--
+
 This is due to ([[EGAIV]]${}_4$ 17.1.1)
+
++-- {: .num_prop #AbstractAndConcreteCommutativeFormallySmoothCoincidesOnObjects}
+###### Proposition
+
+An object $X \in [CAlg_k, Set]$ is formally smooth in the concrete sense of def. \ref{CFormalSmoothness} precisely if it is so in the abstract sense of def. \ref{AbstractFormallySmoothObjectDirect}.
+
+=--
+
+This appears as ([KontsevichRosenbergSpaces, 4.1](#KontsevichRosenbergSpaces)).
 
 #### Smoothness versus formal smoothness 
 
 For a morphism $f:X\to Y$ of schemes, and $x$ a point of $X$, the following are equivalent
 
-(i) $f$ is smooth at $x$
+(i) $f$ is a [[smooth morphism]] at $x$
 
 (ii) $f$ is locally of finite presentation at $x$ and there is an open neighborhood $U\subset X$ of $x$ such that $f|_U: U\to Y$ is formally smooth
 
@@ -133,11 +160,44 @@ A [[scheme]] $S$, i.e. a scheme over the ground ring $k$, is a [[formally smooth
 
 There is also an interpretation of formal smoothness via the formalism of [[Q-categories]].
 
+
 ### Over noncommutative algebras
 
-see 
 
-  ([CuntzQuillen](#CuntzQuillen)), [[quasi-free algebra]]
+Let $k$ be a [[field]] and let $Alg_k$ be the category of [[associative algebra]]s over $k$ (not necessarily commutative). Let
+
+$$
+  Alg_k^{inf} : \bar A \to Alg_k
+$$
+
+be the [[Q-category]] of <a href="http://ncatlab.org/nlab/show/Q-category#InfinitesimalThickening">infinitesimal thickenings</a> of $k$-algebras (whose objects are surjective $k$-algebra morphisms with nilpotent kernel).
+Notice that the [[presheaf topos]] 
+
+$$
+  \mathbf{H} := [Alg_k, Set]
+$$ 
+
+is the context in which [[noncommutative scheme]]s live. Let $\mathbf{H}_{th} \to \mathbf{Q}$ be the <a href="http://ncatlab.org/nlab/show/Q-category#PresheafQCategory">copresheaf Q-category</a> over $Alg_k^{inf}$.
+
+
++-- {: .num_prop #NCFormalSmoothness}
+###### Proposition
+
+Let $f : R \to S$ be a morphism in $Alg_k$ such that $R$ is a [[separable algebra]]. Write $Spec f : Spec S \to Spec R$ for the corresponding morphism in $\mathbf{H} = [Alg_k, Set]$.
+
+This $Spec f$ is formally smooth in the sense of def. \ref{AbstractFormallySmoothMorphism} precisely if the $S \otimes_k S^{op}$-[[module]]
+
+$$
+  \Omega^1_{S|R} := ker ( R \otimes_k R \stackrel{mult}{\to} R \stackrel{f}{\to} S)
+$$
+
+is a [[projective object]] in $S \otimes_k S^{op}$[[Mod]].
+
+
+=--
+
+
+In particular, setting $R = k$ we have that an object of the form $Spec S$ is formally smooth according to def. \ref{AbstractFormallySmoothObject} precisely if $\Omega^1(S|k)$ is projective. This is what in ([CuntzQuillen](#CuntzQuillen)) is called the condition for a [[quasi-free algebra]].
 
 ## References
 
