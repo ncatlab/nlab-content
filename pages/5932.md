@@ -1,2 +1,24 @@
+[[!redirects locally of finite presentation]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 see [wikipedia: Finite, quasi-finite, finite type, and finite presentation morphisms](http://en.wikipedia.org/wiki/Glossary_of_scheme_theory#Finite.2C_quasi-finite.2C_finite_type.2C_and_finite_presentation_morphisms)
+
+## Related concepts
+
+* [[morphism of finite type]]
+
