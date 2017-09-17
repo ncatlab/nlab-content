@@ -66,6 +66,7 @@ Traditionally one writes the image of an object $X \in S$ under $\mathbb{C}$ as 
 If $\mathcal{S}$ has a [[terminal object]] $*$ we think of $\mathbb{C}^*$ as the **underlying ordinary category** of the $\mathcal{S}$-indexed category $\mathbb{C}$. Part of the theory of indexed categories is about when and how to extend structures on $\mathbb{C}^*$ to all of $\mathbb{C}$.
 
 A morphism of $S$-indexed categories is an [[indexed functor]].
+
 ## Examples
 
 ### Self indexing
@@ -89,7 +90,6 @@ and to a morphism $f : I \to J$ the functor $f^*$ that sends every $s \to I$ to 
 This indexed category represents $\mathcal{S}$ itself (or rather its [[codomain fibration]]) in the world of $\mathcal{S}$-indexed categories. 
 
 ### Base change
-
 
 +-- {: .num_example #BaseChange}
 ###### Example
@@ -138,6 +138,10 @@ See [[base topos]] for more on this.
 
 Also, via this indexed category, $f$ exhibits $\mathcal{C}$ as a [[2-sheaf]] (see there) over $\mathcal{C}$, with respect to the [[canonical topology]].
 
+
+### Indexed monoidal category
+
+See also _[[indexed monoidal category]]_.
 
 ## Properties
 
