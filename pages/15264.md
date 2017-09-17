@@ -1,0 +1,12 @@
+
+## Related concepts
+
+* [[observable universe]]
+
+* [[dark matter]]
+
+## References
+
+* Wikipedia, [Galaxy](http://en.wikipedia.org/wiki/Galaxy)
+
+[[!redirects galaxies]]
