@@ -1,0 +1,17 @@
+
+> under construction
+
+## Idea
+
+The Reidemeister trace, developed by Reidemeister and Wecken, is an algebraic invariant of a selfmap of a compact polyhedron which, if successfully computed, gives both the [[Lefschetz numbers]] and [[Nielsen numbers]].
+
+## References
+
+A review of the classical theory is for instance in
+
+* Peter Staecker, _The Reidemeister trace: computation by nilpotentization and extension to coincidence theory_ (PhD thesis)
+
+A reformulation of the Reidemeister trace in terms of [[bicategorical trace]] is in 
+
+* [[Kate Ponto]], [[Michael Shulman]], _The multiplicativity of fixed point invariants_ ([arXiv](http://arxiv.org/abs/1203.0950))
+
