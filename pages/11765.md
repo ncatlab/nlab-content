@@ -31,7 +31,7 @@
 
 ## Idea
 
-A _complex analytic $\infty$-groupod_ is an [[∞-groupoid]] equipped with [[higher geometry|geometric]] structure in the sense of [[complex analytic geometry]], such that [[complex analytic spaces]] [[full subcategory]] of the [[n-truncated object in an (∞,1)-topos|0-truncated]] complex analytic $\infty$-groupoids. Hence a complex analytic $\infty$-groupoid is an [[(∞,1)-sheaf]]/[[∞-stack]] on the [[site]] of [[complex manifolds]] (or some of its [[dense subsites]]). This is directly analogous to how [[(∞,1)-sheaves]] over the [[site]] of [[smooth manifolds]] may be regarded as _[[smooth ∞-groupoids]]_.
+A _complex analytic $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[higher geometry|geometric]] structure in the sense of [[complex analytic geometry]], such that [[complex analytic spaces]] [[full subcategory]] of the [[n-truncated object in an (∞,1)-topos|0-truncated]] complex analytic $\infty$-groupoids. Hence a complex analytic $\infty$-groupoid is an [[(∞,1)-sheaf]]/[[∞-stack]] on the [[site]] of [[complex manifolds]] (or some of its [[dense subsites]]). This is directly analogous to how [[(∞,1)-sheaves]] over the [[site]] of [[smooth manifolds]] may be regarded as _[[smooth ∞-groupoids]]_.
 
 
 ## Definition
