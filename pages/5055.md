@@ -1,6 +1,9 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Dirac)
 
+## Related entries
+
+* [[The Principles of Quantum Mechanics]]
 
 category: people
 
