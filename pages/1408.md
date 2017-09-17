@@ -158,10 +158,10 @@ right adjoint.
 
 In summary this means that structure sheaves 
 $\mathcal{O} : \mathcal{G} \to \mathcal{X}$ are equivalently encoded
-in [[geometric morphism]]s
+in [[geometric morphism]]s to the [[(∞,1)-category of (∞,1)-sheaves]] on the geoemtry
 
 $$
-  \mathcal{X} \stackrel{\leftarrow}{\to}
+  \mathcal{X} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{}{\to}}
   Sh_{(\infty,1)}(\mathcal{G})
   \,.
 $$
