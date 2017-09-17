@@ -223,6 +223,23 @@ This is such that for $X$ a topological space, geometric morphisms $Sh(X) \to Sh
 
 This idea admits generalizations to [[localic groups]] --- and even to [[localic groupoids]].  For more details, see [[classifying topos of a localic groupoid]] .
 
+## Classifying topos as a generalization of the notion of classifying space in topology
+
+In view of the analogy between the classifying topos denoted $B G$, such that the [[groupoid]] $G Bund(X)$ of $G$-[[principal bundle]]s over $X$ is equivalent to geometric morphims $Sh(X) \to B G$:
+
+$$
+  G Bund(X) \simeq Topos(Sh(X), B G)
+  \,
+$$
+
+and the notion of [[classifying space]] in [[topology]], which for the discrete group $G$ is a [[topological space]] $\mathcal{B} G$ such that
+
+$$
+  \pi_0 G Bund(X) \simeq \pi_0 Top(X, \mathcal{B}G)
+  \,
+$$
+
+we should expect there to be a topos analog of the total space, $E G$, for the classifying space. This analog is the *generic G-torsor*, which is an internal $G$-torsor in the topos $Set^G$.  The important aspect of the space $E G$ is that as a principal $G$-bundle over $\mathcal{B} G$, it is a *universal element*, i.e. the natural transformation $Hom(X, \mathcal{B}G) \to G Bdl(X)$ that it induces (by the [[Yoneda lemma]]) is the isomorphism which exhibits $\mathcal{B}G$ as the object representing the functor $X \mapsto G Bdl(X)$.  For the same Yoneda reasons, the classifying topos $Sh(C_T)$ of any geometric theory $T$ comes with a *generic $T$-model*, which is a $T$-model in $Sh(C_T)$ which represents the functor $E \mapsto T Mod(E)$ in the same way.  For $T$ = the theory of $G$-torsors, this generic model is the generic $G$-torsor.
 
 
 ## References ##
