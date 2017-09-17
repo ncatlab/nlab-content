@@ -2094,34 +2094,200 @@ is equivalent to disjoint union of groupoids of $U(1)$-bundles with connection w
 
 ### Circle $n$-bundles with connection {#CirclenBundles}
 
-In the abelian case it is easy to generalize the above construction to higher degrees.
+For $A$ an [[abelian group]] there is a straightforward generalization of the above constructions to $(G = \mathbf{B}^{n-1}A)$-principal $n$-bundles with connection. We spell out the ingredients of the construction in a way analogous to the above discussion. A first-principles derivation of the objects we consider here is at [[circle n-bundle with connection]].
 
-use [[Dold-Kan correspondence]] to construct
-
-$\mathbf{B}^n U(1) := \Xi U(1)[n]$
-
-$\mathbf{B} INN(U(1)) = \Xi (U(1) \to U(1))[n]$
-
-Then form
+Specifically we consider the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle n-group</a> $G = \mathbf{B}^{n-1}U(1)$. We may make use of the [[Dold-Kan correspondence]] for handling this:
+ 
+this correspondence is an [[equivalence of categories]]
 
 $$
-  \mathbf{B}^n U(1)_{diff}
-  =
-  U \mapsto
+  Ch_\bullet+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Xi}{\to}} sAb
+$$
+
+that identifies abelian [[simplicial group]]s with non-negatively graded [[chain complex]]es. Since this is functorial, it also identifies chain complexes of (presheaves) of abelian groups with simplicial presheaves that take values in simplicial groups.
+
+Using this, we can write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for all $n \in \mathbb{N}$ simply as
+
+$$
+  \mathbf{B}^n U(1) := \Xi U(1)[n]
+  \,,
+$$
+
+where in the argument of $\Xi$ we have the chain complex
+
+$$
+  U(1)[n] = 
+  \left(
+     C^\infty(-,U(1)) \to 0 \to \cdots \to 0
+  \right)
+$$
+
+with the sheaf represented by $U(1)$ in degree $n$.
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $\{U_i \to X\}$ an [[open cover]] of a smooth manifold $X$ and $C(U)$ its [[Cech nerve]], [[∞-anafunctor]]s
+
+$$
+  \array{
+    C(U) &\stackrel{g}{\to}& \mathbf{B}^n U(1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+are in natural bijection to functions
+
+$$
+  g_{i_0 \cdots i_n} : U_{i_0} \cap \cdots \cap U_{i_n} \to \mathbb{R}/\mathbb{Z}
+$$
+
+satisfying 
+
+$$
+  (\partial g)_{i_0 \cdots i_{n+1}}
+  :=
+  \sum_{k = 0}^{n} g_{i_0 \cdots i_{k-1} i_k \cdot i_n}
+  = 0
+  \,,
+$$
+
+that is, to cocycle in degree $n$ [[Cech cohomology]] on $U$ with values in $U(1)$.
+
+=--
+
+The bundle $P \to X$ classified by such a cocycle we may call a 
+[[circle n-bundle]].
+
++-- {: .un_def}
+###### Definition
+
+Write
+
+$$
+  \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)_{chn} = 
+  \Xi\left(
+    \Omega^1(-) \stackrel{d_{dR}}{\to}
+    \Omega^2(-) \stackrel{d_{dR}}{\to}
+    \cdots
+    \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)
+  \right)
+$$
+
+and
+
+$$
+  \mathbf{B}^n U(1)_{diff} = 
   \left\{
    \array{
-      U &\to& \mathbf{B}^n U(1)
+      (-) &\to& \mathbf{B}^n U(1)
      \\
      \downarrow && \downarrow
      \\
-     \mathbf{\Pi}(U) &\to& \mathbf{B}^n INN(U(1))
+     \mathbf{\Pi}(-) &\to& \mathbf{B}^n INN(U(1))
    }
   \right\}
+  =
+  \Xi
+  \left(
+    \array{
+      C^\infty(-,\mathbb{R}/\mathbb{Z}) 
+      &\stackrel{d_{dR}}{\to}&
+      \Omega^1(-) &\stackrel{d_{dR}}{\to}&
+      \cdots
+      &
+      \to
+      &
+      \Omega^n(-)
+      \\
+      \oplus & \nearrow_{\mathrlap{Id}} & \cdots && \nearrow_{\mathrlap{Id}}
+      \\
+      \Omega^1(-) 
+      &\stackrel{d_{dR}}{\to}& 
+      \cdots
+      &
+      \Omega^n(-)
+    }
+  \right)
 $$
 
-(...)
+and
 
-see [[circle n-bundle with connection]]
+$$
+  \mathbf{B}^n U(1)_{conn}
+  = 
+  \Xi\left(
+    C^\infty(-, \mathbb{R}/\mathbb{Z})
+    \stackrel{d_{dR}}{\to} 
+    \Omega^1(-) \stackrel{d_{dR}}{\to}
+    \Omega^2(-) \stackrel{d_{dR}}{\to}
+    \cdots
+    \stackrel{d_{dR}}{\to} \Omega^n(-)
+  \right)
+  \,.
+$$
+
+=--
+
+
++-- {: .un_lemma}
+###### Observation
+
+We have a pullback diagram
+
+$$
+  \array{
+    [CartSp^{op}, sSet](C(U), \mathbf{B}^n U(1)_{conn})
+    &\to&
+    \Omega^{n+1}_{cl}(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    [CartSp^{op}, sSet](C(U), \mathbf{B}^n U(1))
+    &\to&
+    [CartSp^{op}, sSet](C(U), \mathbf{\flat}_{dR}\mathbf{B}^{n-1}U(1))
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    [CartSp^{op}, sSet](C(U), \mathbf{B}^n U(1))
+  }
+  \,.
+$$
+
+=--
+
+Morphisms $C(U) \to \mathbf{B}^n U(1)_{conn}$ are in natural bijection with tuples
+
+$$
+  \left(
+     C_{i}, B_{i_0 i_1}, A_{i_0 i_1, i_2}, 
+     \cdots
+     Z_{i_0 \cdots i_{n-1}},
+     g_{i_0 \cdots i_{n}}
+  \right)
+  \,,
+$$
+
+where $C_i \in \Omega^n(U_i)$, $B_{i_0 i_1} \in \Omega^{n-1}(U_{i_0} \cap U_{i_1})$, etc. such that
+
+$$
+  C_{i_0} - C_{i_1} = d B_{i_0 i_1}
+$$
+
+and
+
+$$
+  B_{i_0 i_1} - B_{i_0 i_2} + B_{i_1 i_2} = d A_{i_0 i_1 i_2}
+  \,,
+$$
+
+etc. This is a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. We think of this as determining a [[circle n-bundle with connection]].
+
+Connections on $G$-principal $\infty$-bundles for nonabelian $G$ do not have quite such a simple description. Therefore it makes sense to _approximate_ every $G$-cocylce $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycle by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to turn extrac a circle $n$-bundle from it. This is what we turn to now.
 
 
 ### $\infty$-Lie algebra valued connections {#LieConnections}
@@ -3302,8 +3468,8 @@ $$
 Projection onto the third horizontal component gives the map to the curvature classes
 
 $$
-  \exp(b^{n-1}\mathbb{R})_{diff} \to \mathbf{\flat_{dR}}\exp(b^{n+1} \mathbb{R})_{simp}
-  \,.
+  \exp(b^{n-1}\mathbb{R})_{diff} \to \mathbf{\flat}_{dR}\exp(b^{n} \mathbb{R})_{simp}
+  \,,
 $$
 
 In total, this constitutes an $\infty$-anafunctor
@@ -3368,12 +3534,12 @@ for $g$ the cocycle for a $G$-principal bundle, any ordinary [[connection on a b
 =--
 
 
-But evidently we have more information available here. The ordinary [[Chern-Weil homomorphism]] refines from a map that assigns curvature characteristic forms, to a map that assigns [[secondary characteristic class]]es in the sense that it assigns [[circle n-bundles with connection]] whise curvature is this cuvature characteristic form.
+But evidently we have more information available here. The ordinary [[Chern-Weil homomorphism]] refines from a map that assigns curvature characteristic forms, to a map that assigns [[secondary characteristic class]]es in the sense that it assigns [[circle n-bundles with connection]] whose curvature is this cuvature characteristic form.
 
 The local connection forms of these circle bundles are given by the middle horizontal morphisms. These are the [[Chern-Simons form]]s 
 
 $$
-  \Omega^\bullet(U \times \Delta^k)
+  \Omega^\bullet(U)
   \stackrel{A}{\leftarrow}
   W(\mathfrak{g})
   \stackrel{cs}{\leftarrow}
@@ -3383,12 +3549,6 @@ $$
  \,.
 $$
 
-+-- {: .un_example}
-###### Example
-
-(...)
-
-=--
 
 ##### Secondary characteristic classes
 
