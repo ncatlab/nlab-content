@@ -44,6 +44,8 @@ In the context of the Haag-Kastler axioms there is a precise theorem, the [[Oste
 
 ## Theorems
 
+* [[Reeh-Schlieder theorem]]
+
 * [[Osterwalder-Schrader theorem]]
 
 * [[PCT theorem]]
