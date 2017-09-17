@@ -25,7 +25,7 @@ Let $\mathcal{A}$ be an [[abelian category]] with arbitrary [[direct sums]].
 Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] in $\mathcal{A}$ and $C_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ for the category of [[double complexes]]. (Hence we use the convention that in a double complex the vertical and horizontal [[differential]] commute with each other.)
 
 +-- {: .num_defn}
-###### Defintition
+###### Definition
 
 For $C_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ a [[double complex]], it **total complex** $Tot(C)_\bullet \in Ch_\bullet(\mathcal{A})$ is the [[chain complex]] whose components are the [[direct sums]]
 
