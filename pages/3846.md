@@ -22,13 +22,15 @@ Since $char(k) \neq 2$, we can recover the bilinear form from the norm by the fo
 
 $$\langle u, v \rangle = \frac{N(u + v) - N(u) - N(v)}{2}$$ 
 
-Every composition algebra has a **conjugation** defined by: 
+Since the bilinear form is nondegenerate, we may infer $u = v$ whenever 
 
-$$\bar{u} = 2\langle u, e \rangle e - u$$ 
+$$\langle u, w \rangle = \langle v, w \rangle$$
+
+and this will be frequently used in the sequel. 
 
 ## Basic identities
 
-The arrangements of the proofs follows the treatment by Conway and Smith (see references below). 
+The arrangements of the proofs below closely follow the treatment by Conway and Smith (see references below). 
 
 +-- {: .un_prop}
 ######Proposition (Scaling)
@@ -66,13 +68,63 @@ $$\langle u v + w v, u x + w x \rangle = \langle u v, u x \rangle + \langle w v,
 and now we equate the right-hand sides and cancel to get the result. 
 =--
 
-## Conjugation identities 
+### Conjugation identities 
+
+In any composition algebra, we may define a **conjugation** operator by 
+
+$$\bar{v} = 2\langle v, e \rangle e - v$$
+
+The next few propositions develop properties of conjugation. 
 
 +-- {: .un_prop}
-######Proposition ("Braid" equation)
+######Proposition (Adjointness)
 $\langle u v, w \rangle = \langle v, \bar{u}w \rangle$ and $\langle u v, w \rangle = \langle u, w\bar{v} \rangle$
+=-- 
+
++-- {: .proof}
+######Proof
+Put $x = e$ in the exchange identity to get the first equation in 
+
+$$\langle u v, w \rangle = 2\langle u, w \rangle \langle v, 1 \rangle - \langle u, w v \rangle = \langle u, w(2\langle v, e\rangle e - v)\rangle = \langle u, w\bar{v} \rangle$$
 =--
 
++-- {: .un_prop} 
+######Proposition (Involution) 
+$v = \bar{\bar{v}}$ for all $v$. 
+=-- 
+
++-- {: .proof}
+######Proof 
+For all $u$ we have 
+
+$$\langle u, v \rangle = \langle u\bar{v}, e \rangle = \langle u, \bar{\bar{v}} \rangle$$ 
+
+and the result follows from nondegeneracy. 
+=-- 
+
++-- {: .un_prop} 
+######Proposition (Unitarity) 
+$\langle u, v \rangle = \langle \bar{v}, \bar{u} \rangle = \langle \bar{u}, \bar{v} \rangle$.  
+=-- 
+
++-- {: .proof} 
+######Proof 
+$\langle u, v \rangle = \langle e, \bar{u}v \rangle = \langle \bar{v}, \bar{u} \rangle = \langle \bar{u}, \bar{v} \rangle$ where the last equation is symmetry of the bilinear form. 
+=-- 
+
++-- {: .un_prop}
+######Proposition (Anti-automorphism) 
+$\bar{u} \bar{v} = \widebar{v u}$. 
+=-- 
+
++-- {: .proof}
+######Proof 
+For all $w$ we have 
+
+$$\langle \bar{u}\bar{v}, w \rangle = \langle \bar{v}, u w \rangle = \langle \bar{v}\bar{w}, u \rangle = \langle \bar{w}, v u \rangle = \langle \widebar{v u}, w \rangle$$
+
+using involution and unitarity. The result follows from nondegeneracy of the form. 
+=-- 
 
 ## Cayley-Dickson doubling construction
 
