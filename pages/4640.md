@@ -43,7 +43,7 @@ Here the [[free functor|free]] $T$-algebra on a single generator $F_T(*)$ is the
 
 ### Multiplicative group
 
-The multiplicative [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **multiplicative group** is the [[group scheme]] denoted $\mathbb{G}_m$
+The multiplicative [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **multiplicative group** -- is the [[group scheme]] denoted $\mathbb{G}_m$
 
 * whose underlying affine scheme is
 
@@ -83,7 +83,7 @@ The multiplicative [[group object]] in $Ring^{op}$ corresponding to the affine l
 
 ### Additive group
 
-The additive [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **additive group** is the [[group scheme]] denoted $\mathbb{G}_a$  
+The additive [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **additive group** -- is the [[group scheme]] denoted $\mathbb{G}_a$  
 
 * whose underlying object is $\mathbb{A}^1$ itself;
 
@@ -220,7 +220,7 @@ One sees that these two constructions are [[inverse]] to each other.
 
 ### Projective space
 
-The diagonal action of the multiplicative group on the [[product]] $\mathbb{A}^n := \prod_{i = 1 \cdots n} \mathbb{A}^1$ for $n \in \mathbb{N}$ 
+The [[diagonal]] [[action]] of the multiplicative group on the [[product]] $\mathbb{A}^n := \prod_{i = 1 \cdots n} \mathbb{A}^1$ for $n \in \mathbb{N}$ 
 
 $$
   \mathbb{A}^n \times \mathbb{G}_m \to \mathbb{A}^n
