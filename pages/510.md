@@ -1,6 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable homotopy theory
++--{: .hide}
 [[!include stable homotopy theory - contents]]
-</div>
+=--
+=--
+=--
+
+
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -87,11 +98,8 @@ There might be a type of categorical structure related to a spectrum in the same
 One realization of this kind of idea is the notion of [[combinatorial spectrum]].
 
 
-## Remarks
 
-* In direct analogy to how topological spaces form the archetypical example, [[Top]], of an [[(∞,1)-category]], spectra form the archetypical example $Sp(Top)$ of a [[stable (∞,1)-category]]. In fact, there is a general procedure for turning any [[pointed category|pointed]] [[(∞,1)-category]] $C$ into a stable $(\infty,1)$-category $Sp(C)$, and doing this to the category $Top_*$ of [[pointed object|pointed]] spaces yields $Sp(Top)$.
-
-## Examples of spectra
+## Examples 
 
 * [[Eilenberg-MacLane spectrum]]
 
@@ -102,5 +110,21 @@ One realization of this kind of idea is the notion of [[combinatorial spectrum]]
 * [[Thom spectrum]], [[complex cobordism spectrum]]
 
 
+## Properties
+
+### Stabilization
+
+In direct analogy to how topological spaces form the archetypical example, [[Top]], of an [[(∞,1)-category]], spectra form the archetypical example $Sp(Top)$ of a [[stable (∞,1)-category]]. In fact, there is a general procedure for turning any [[pointed category|pointed]] [[(∞,1)-category]] $C$ into a stable $(\infty,1)$-category $Sp(C)$, and doing this to the category $Top_*$ of [[pointed object|pointed]] spaces yields $Sp(Top)$.
+
+### Symmetric monoidal structure
+
+* [[smash product of spectra]]
+
+* [[symmetric monoidal smash product of spectra]]
+
+
+### Model category structure
+
+* [[model structure on spectra]]
 
 [[!redirects spectra]]
