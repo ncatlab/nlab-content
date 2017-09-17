@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A **Street fibration**, or **weak fibration**, is a generalization of a [[Grothendieck fibration]] which is [[non-evil]], i.e. covariant under equivalence of categories.  In [[Cat]], every Street fibration is equivalent to a Grothendieck one, so the extra generality is not very useful; since it is also fairly cumbersome, it is rarely used.  However, when working internally to a [[bicategory]], Street fibrations are really the only sensible notion.
