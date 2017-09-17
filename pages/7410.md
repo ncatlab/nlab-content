@@ -3,18 +3,31 @@
 * table of contents
 {:toc}
 
+**Warning** on terminology: This is unrelated to the notion of _[[type]]_ in [[type theory]]. 
 
 ## Idea
 
-In [[model theory]], a "type" is a set of [[first-order logic|first order formulas]] in a language $L$, which are true as a sequence of elements of an $L$-structure.
+In [[model theory]], an $n$-type is a set of [[first-order logic|first order formulas]] $p(x_1,\ldots,x_n)$ in a language $L$ with $n$ free variables $x_1,\ldots,x_n$, which are true for some sequence of $n$-elements of an $L$-structure $M$ substituted for $x_1,\ldots,x_n$. One often limits consideration to the models $M$ of a given $L$-[[theory]] $T$. 
 
-**Warning** on terminology: This is unrelated to the notion of _[[type]]_ in [[type theory]].
+There are some extension of this notion of type beyond first order, for example the notion of [[Galois type]]s in [[infinitary logic]], which is particularly important i the study of [[abstract elementary class]]es.  
 
+An important method toward classification of theories is study of the number of nonisomorphic models in each cardinality; its study if related to the study of types, 
+and the phenomenon of [[forking]] in model theory; that aspect is studied in [[stability theory]]. 
+
+## More heuristics
+
+The simplest first order theories are generalizations of algebraic geometry where points correspond to special (e.g. maximal, prime) ideals in a ring; types generalize points in some of such cases. Other "spectral" intuition also applies. 
+
+Finally, one may expand the model $M$ a larger model $M'$. The elements of automorphism group of the larger model will move the "points" around and a type will become an orbit for the larger model $M'$. This point of view is used especially for the generalization, so called [[Galois type]]s.
 
 ## Related concepts
 
 * [[topos of types]]
+* [[forking]]
+* [[Galois type]]
+* [[stability theory]]
 
 ## References
 
-* Wikipedia, _[Type - model theory](http://en.wikipedia.org/wiki/Type_%28model_theory%29)_
+* Wikipedia, _[type (model theory)](http://en.wikipedia.org/wiki/Type_%28model_theory%29)_, [forking extension](http://en.wikipedia.org/wiki/Forking_extension)
+* Siu-Ah Ng, _Forking_, (Springer Online) Encyclopedia of Mathematics. [web](http://www.encyclopediaofmath.org/index.php?title=Forking&oldid=19231) (note inside the wrong link (cross reference) to a type in the sense of type theory) 
