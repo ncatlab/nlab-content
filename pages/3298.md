@@ -411,7 +411,7 @@ Consider a [[model structure on simplicial T-algebras]]/on [[homotopy T-algebras
 
 1. it is a [[simplicial model category]];
 
-1. simplicially constant simplicial algebras are cofibrant.
+1. [[tensoring]] with simplicial sets preserves cofibrant replacement.
 
 Then for $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ and $K \in \infty Grpd$ the higher order Hochschild homology complex $K \cdot \mathcal{O}(X)$  is presented by the ordinary [[tensoring]] $K \cdot \mathcal{O}(X)$ in the model category, for $K$ any [[simplicial set]] incarnation of the $\infty$-groupoid.
 
@@ -427,11 +427,11 @@ The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-cat
 +-- {: .un_remark}
 ###### Remark
 
-We can always use the [[model structure on homotopy T-algebras]] to satisfy the assumption of the above proposition. That is a [[simplicial model category]] for every $T$ and every ordinary algebra is fibrant in this structure. 
+We can always use the [[model structure on homotopy T-algebras]] to satisfy the assumption of the above proposition. That is a [[simplicial model category]] for every $T$ and every ordinary algebra is cofibrant in this structure. 
 
-Notice that in this model category if $\mathcal{O}(X)$ is fibrant, then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathcal{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
+Notice that in this model category even if $\mathcal{O}(X)$ is fibrant (which it is if $\mathcal{O}X$ is an ordinary algebra), then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathcal{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
 
-On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschid homology, as described below in [Examples -- Simplicial algebra on the circle](#SimplicialCircleAlgebra).
+On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschild homology, as described below in [Examples -- Simplicial algebra on the circle](#SimplicialCircleAlgebra).
 
 =--
 
@@ -448,7 +448,7 @@ Let $A \in CAlg_k$ be a commutative [[associative algebra]] over a commutative [
 
 Above in the section on [Higher order Hochschild homology](#PirashviliHigherOrder) we had discussed how the Hochschild homology of $A$ is given by the [[simplicial algebra]] $(\Delta[1]/\partial \Delta[1]) \cdot A \in CAlg_k^{\Delta^{op}}$ that is the [[tensoring]] of $A$ regarded as a constant simplicial algebra with the [[simplicial set]] $\Delta[1]/\partial \Delta[1]$ (the 1-[[simplex]] with its two 0-cells identified).
 
-We describe now in detail what this simplicial circle algebra looks like.
+We describe now in detail what this simplicial circle algebra looks like. The proof that this construction is indeed homotopy-good is given below in [As functions on the derived loop space](#FuncsOnDerivedLoopSpace)
 
 First of all notice what our simplicial model of the circle looks like in low degrees
 
@@ -865,8 +865,7 @@ The fact that the circle appears here has in fact a deep significance: the Hochs
 
 #### As function algebra on the derived loop space {#FuncsOnDerivedLoopSpace}
 
-We derive in an alternative way how the Hochschild complex of an ordinary associative algebra $\mathcal{O}(X)$ is the function algebra on the [[derived loop space]] object $\mathcal{L}X$ in the context of [[derived geometry]].
-
+We give a formal derivation of the Hochschild complex of an ordinary commutative associative algebra $\mathcal{O}(X)$ as the function algebra on the [[derived loop space]] object $\mathcal{L}X$ in the context of [[derived geometry]].
 
 So let now $T$ be the [[Lawvere theory]] of ordiary commutative [[associative algebra]]s over a [[field]] $k$, regard as a 0-[[truncated]] [[(∞,1)-algebraic theory]]. 
 
