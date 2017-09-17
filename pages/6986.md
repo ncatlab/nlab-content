@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc} 
+
+
+## Idea
+
+In [[type theory]] the _bottom type_ is the [[type]] with no [[term]].
+
+In a [[model]] by [[categorical semantics]] the unit type maps to an [[initial object]].
+
+## Related concepts
+
+* [[unit type]]
+
+[[!redirects bottom types]]
