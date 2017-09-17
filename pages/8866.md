@@ -26,6 +26,9 @@ _Differential Galois theory_ is an analogue of [[Galois theory]] where [[fields]
 
 * Teresa Crespo, _The origins of differential Galois theory_ ([pdf slides](http://atlas.mat.ub.es/personals/crespo/Origins.pdf))
 
+* Andy R. Magid, _Universal Covers and Category Theory in Polynomial and
+Differential Galois Theory_ ([pdf](http://www.math.ou.edu/~amagid/fieldsproc.pdf))
+
 Textbook accounts include
 
 * Marius van der Put, Michael Singer, _Galois Theory of Linear Differential Equations_, Springer Berlin (2003)
