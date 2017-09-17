@@ -72,3 +72,5 @@ There are many entries on [[sheaf]], [[stack]], [[site]], [[locale]] and [[topos
 and pages on various [[cohomology|cohomologies]], including [[sheaf cohomology]], [[nonabelian cohomology]], [[differential cohomology]], [[Deligne cohomology]], [[etale cohomology]], [[equivariant cohomology]], [[Bredon cohomology]] and their cocycle classes including [[torsors]], [[gerbes]], [[principal 2-bundles]] as well as the related picture of the [[descent]] theory (cf. [[oriental]], [[descent for simplicial presheaves]]...). A modern systematic theory of cohomology and descent can be done using the language of $(\infinity,1)$-categories and abstract [[homotopy theory]], say via Quillen [[model categories]] (e.g. of [[simplicial presheaves]]).  
 
 [[!include Isbell duality - table]]
+
+[[!redirects geometric]]
