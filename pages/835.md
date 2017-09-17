@@ -9,17 +9,6 @@
 =--
 =--
 
-* [[groupoid]]
-
-* **$2$-groupoid**
-
-* [[3-groupoid]]
-
-* [[n-groupoid]]
-
-* [[∞-groupoid]]
-
-***
 
 # Contents
 * table of contents
@@ -151,6 +140,11 @@ The general notion of $2$-groupoid above is also called __weak $2$-groupoid__ to
 * The [[fundamental infinity-groupoid]] of a [[topological space]] that is itself a homotopy 2-type.
 
 * The [[path 2-groupoid]] of a [[smooth manifold]].
+
+## Related concepts
+
+[[!include homotopy n-types - table]]
+
 
 [[!redirects 2-groupoid]]
 [[!redirects 2-groupoids]]
