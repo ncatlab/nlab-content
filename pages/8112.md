@@ -1,4 +1,4 @@
 
 * related entries: [[modular form]], [[topological automorphic form]]
-* Norman Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
+* Nolan Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
 [[!redirects automorphic forms]]
