@@ -1,0 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+## References
+
+A visualization of the big observable structures in the universe, drawn to scale, is in 
+
+* American Museum of Natural History, _Mind Explosion_ ([video](http://www.youtube.com/watch?v=PkNTzStmdJk))
+
