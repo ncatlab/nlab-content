@@ -151,6 +151,12 @@ see
 
 ## References
 
+A review is in
+
+* [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](http://arxiv.org/abs/1011.6663)).
+
+The Simons-Sullivan model is due to
+
 * [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
  {#SimonsSullivan}
 
@@ -160,7 +166,7 @@ The basic article for the Bunke-Schick model is
 
 * [[Ulrich Bunke]], [[Thomas Schick]], _Smooth K-Theory_ ([arXiv:0707.0046](http://arxiv.org/abs/0707.0046))
 
-Re survey talk is
+A survey talk is
 
 * [[Ulrich Bunke]], _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
 
@@ -181,5 +187,7 @@ A variant of this definition with the advantage that there is a natural morphism
 * Alain Berthomieu, _A version of smooth K-theory adapted to the
 total Chern class_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4728v1.pdf))
 
-* [[[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_
+The operation of [[T-duality]] on [[twisted differential K-theory]] is discussed in
+
+* [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_
 
