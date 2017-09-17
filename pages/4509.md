@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -57,7 +57,7 @@ If $C$ is a category of [[chain complex]]es in a suitable (possibly structured) 
 
 A _resolution_ is an acyclic nonpositive complex $P_\cdot$ which coaugments $M$ or an acyclic nonnegative complex $I^\cdot$ which augments $M$, i.e. it is equipped with a map of complexes $P_\cdot \to M$ or a map of complexes $M\to I^\cdot$.
  
-If each object $P_n$ is a [[projective object]] then  $P_\cdot \to M$ is a **projective resolution** , and if each $I^n$ is an [[injective object]] then $M\to I^\cdot$ is an **injective resolution** . These are fibrant and cofibrant resolutions in the suitable [[model structure on chain complexes]].
+If each object $P_n$ is a [[projective object]] then  $P_\cdot \to M$ is a **[[projective resolution]]** , and if each $I^n$ is an [[injective object]] then $M\to I^\cdot$ is an **[[injective resolution]]** . These are fibrant and cofibrant resolutions in the suitable [[model structure on chain complexes]].
 
 There are further generalizations like unbounded resolutions etc.
 
@@ -73,6 +73,8 @@ There are further generalizations like unbounded resolutions etc.
 
 [[!redirects fibrant resolution]]
 [[!redirects cofibrant resolution]]
+[[!redirects fibrant resolutions]]
+[[!redirects cofibrant resolutions]]
 
 
 [[!redirects projective resolution]]
