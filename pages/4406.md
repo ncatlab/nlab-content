@@ -30,7 +30,7 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 1. Real [[algebraic number]]s form a real closed field. 
 
-1. A field of nonstandard real numbers (as in [[Robinson nonstandard analysis]]) is real closed. 
+1. A field of nonstandard real numbers (as in Robinson [[nonstandard analysis]]) is real closed. 
 
 1. [[surreal number|Surreal numbers]] form a (large) real closed field. 
 
