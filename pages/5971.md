@@ -36,4 +36,10 @@ $$
 
 * [[electric charge]], [[magnetic charge]]
 
+## Related concepts
+
+[[!include gauge field - table]]
+
+
+
 [[!redirects charges]]
