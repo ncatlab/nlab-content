@@ -31,7 +31,7 @@ $$
   Y : C \hookrightarrow [C^{op}, Set]
 $$
 
-into its [[presheaf category]]. Under this embedding, every object $X$ of $C$ is mapped the [[functor]] -- the [[representable functor]] represented by it --
+into its [[presheaf category]]. Under this embedding, every object $X$ of $C$ is mapped to the [[functor]] -- the [[representable functor]] represented by it --
 
 $$
   GenEl(X) : C^{op} \to Set
