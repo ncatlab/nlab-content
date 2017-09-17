@@ -60,7 +60,7 @@ Global unstable equivariant homotopy theory is discussed as a [[localization]] o
 
 * [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
 
-Discussion of the gloabl equivariant homotopy theory as a [[cohesive (∞,1)-topos]] is in 
+Discussion of the global equivariant homotopy theory as a [[cohesive (∞,1)-topos]] is in 
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
 
