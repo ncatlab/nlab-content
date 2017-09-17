@@ -1,0 +1,25 @@
+
+
+A useful way to visualise and manipulate knots is to project the knot onto a plane. A small change in the direction of projection will ensure that it is one-to-one except at the double points, called crossings, where the "shadow" of the knot crosses itself once transversely. At each crossing, to be able to recreate the original knot, the over-strand must be distinguished from the under-strand. This is usually done by creating a break in the strand going underneath.
+
+###A few more details:
+
+A knot $K$ is usually specified by a projection to a plane.  Consider the parallel projection
+
+$$p: \mathbb{R}^3 \to \mathbb{R}^2$$
+
+defined by $p(x,y,z) = (x,y,0)$  
+
+(If you prefer your knots to be in $S^3$, of course, you can remove a single point from the complement of $K$ and then project down to $\mathbf{R}^3$.  It does not matter which point you use.)
+
+A point $\mathbf{x}$ in the image $pK$ is called a *multiple point* if $p^{-1}(\mathbf{x})$ contains more than one point of $K$.  A *double point* occurs when there are exactly two points of $K$ in this and a *triple point* ... etc.  Multiple points of infinite order could occur.
+
+A knot is in *regular position* with respect to $p$ if there are only double points and these are genuine crossings (i.e. no tangential touching occurs in the projected curve).
+
+### Fact:
+
+Any smooth or PL knot $K$ is equivalent under an arbitrarily small rotation of $\mathbf{R}^3$ to one in regular position with respect to $p$.
+
+A proof can be found in Crowell and Fox (page 7).
+
+Once given such a projection one can construct a diagram from it in the manner sketched out at the top of the page. 
