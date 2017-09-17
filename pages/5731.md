@@ -32,6 +32,12 @@ On infinite-dimensional manifolds, we have several notions of holomorphic functi
 
 * [[domain of holomorphy]]
 
+* [[biholomorphic function]]
+
+## References
+
+* {#Voisin02} [[Claire Voisin]], section 1 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
 [[!redirects holomorphic function]]
 [[!redirects holomorphic functions]]
 [[!redirects holomorphic map]]
