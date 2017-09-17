@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Contents {: .clickToReveal}
@@ -115,6 +114,8 @@ Currently known issues (last updated 2014-05-21) include:
 
 ## Steering Committee 
  {#SteeringCommitte}
+
+The domain $ncatlab.org$ and the $n$Lab's virtual server are owned (rented) by [[Urs Schreiber]]. The technical administration of the software installation is done by [[Adeel Khan Yusufzai]] (and was previously done by [[Andrew Stacey]] for several years).
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. 
 
