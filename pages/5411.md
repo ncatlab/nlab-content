@@ -102,3 +102,8 @@ A discussion of dualizable objects is in section 2.3 of
 
 [[!redirects symmetric monoidal (∞,n)-category]]
 [[!redirects symmetric monoidal (∞,n)-categories]]
+
+[[!redirects monoidal (∞,n)-category]]
+[[!redirects monoidal (infinity,n)-category]]
+[[!redirects monoidal (∞,n)-categories]]
+[[!redirects monoidal (infinity,n)-categories]]
