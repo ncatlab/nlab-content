@@ -159,6 +159,8 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * [[strong monoidal functor]]
 
+* [[monoidal adjunction]]
+
 * [[indexed monoidal category]]
 
 * [[cartesian functor]]
