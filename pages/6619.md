@@ -176,6 +176,10 @@ Their [[prequantization]] are developed in
 
 The interpretation of symplectic groupoids in [[higher geometry]] is made fairly explicit in ([LGX](#LGX)) above.
 
+The relation between prequantizability of the symplectic groupoid and the non-perturbative version of the [[Poisson sigma-model]] ([[2d Chern-Simons theory]]) is disucssed in 
+
+* Francesco Bonechi, [[Alberto Cattaneo]], [[Maxim Zabzine]], _Geometric quantization and non-perturbative Poisson sigma model_,  Adv. Theor. Math. Phys. 10:683-712,2006 ([arXiv:math/0507223](http://arxiv.org/abs/math/0507223))
+
 A notion of [[polarization]] and of actual [[geometric quantization]] of symplectic groupoids, yielding a [[strict deformation quantization]] of the underlying Poisson manifold, is discussed in
 
 * [[Eli Hawkins]], _A groupoid approach to quantization_,  J. Symplectic Geom. Volume 6, Number 1 (2008), 61-125. ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
