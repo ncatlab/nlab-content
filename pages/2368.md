@@ -25,7 +25,7 @@
 
 In [[higher algebra]] and [[stable homotopy theory]] one is interested in [[monoid in a monoidal (∞,1)-category|monoid objects]] in the [[stable (∞,1)-category of spectra]] -- called $A_\infty$-[[A-∞-ring|rings]] -- and [[commutative monoid in an (infinity,1)-category|commutative monoid objects]] -- called $E_\infty$-[[E-∞-ring|rings]]. These monoid objects satisfy associativity, uniticity and, in the $E_\infty$-case, commutativity up to coherent higher homotopies. 
 
-For concretely working with these objects, it is often useful to have concrete  [[category theory|1-categorical]] algebraic models for these intricate [[higher category theory|higher categorical]]/homotopical entities. The _symmetric monoidal smash product of spectra_ is a structure that allows to model [[A-infinity ring]]s as ordinary [[monoid]]s and [[E-infinity ring]]s as ordinray [[commutative monoid]]s in a suitable [[category]].
+For concretely working with these objects, it is often useful to have concrete  [[category theory|1-categorical]] algebraic models for these intricate [[higher category theory|higher categorical]]/homotopical entities. The _symmetric monoidal smash product of spectra_ is a structure that allows to model [[A-infinity ring]]s as ordinary [[monoid]]s and [[E-infinity ring]]s as ordinary [[commutative monoid]]s in a suitable [[category]].
 
 ## Prehistory
 
@@ -55,7 +55,7 @@ The construction of $S$-modules by EKMM begins with the notion of [[coordinate-f
 
 Since the unit transformation is of the form $S\wedge E \to E$, where $S$ is the [[sphere spectrum]], and this map looks like the action of a ring on a module, the objects of this subcategory are called **$S$-modules** and the category is called $Mod_S$.  The intuition is that just as an abelian group is a [[module]] over the archetypical ring $\mathbb{Z}$ of [[integer|integers]], a spectrum should be regarded as a module over the archetypal ring spectrum, namely the sphere spectrum.
 
-Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\mathbb{Z}$ of $\mathbb{Z}$-[[module]]s, i.e. a $\mathbb{Z}$-algebra, an $A_\infty$ or $E-\infty$ ring spectrum is a (possibly commutative) monoid in the category of $S$-modules, and thus referred to as an **$S$-algebra**.  More generally, for any $A_\infty$-[[A-infinity-ring|ring spectrum]] $R$, there is a notion of $R$-[[module]] spectra forming a category $Mod_R$, which in turn carries an associative and commutative smash product $\wedge_R$ and a [[model category]] structure on $Mod_R$ such that $\wedge_R$ becomes unital in the [[homotopy category]].  All this is such that an $A_\infty$-[[A-infinity-algebra|algebra]] over $R$ is a [[monoid object]] in $(Mod_R, \wedge_R)$.  Similarly $E_\infty$-[[E-infinity-algebra|algebras]] are commutative monoid objects in $(Mod_R, \wedge_R)$.
+Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\mathbb{Z}$ of $\mathbb{Z}$-[[module]]s, i.e. a $\mathbb{Z}$-algebra, an $A_\infty$ or $E_\infty$ ring spectrum is a (possibly commutative) monoid in the category of $S$-modules, and thus referred to as an **$S$-algebra**.  More generally, for any $A_\infty$-[[A-infinity-ring|ring spectrum]] $R$, there is a notion of $R$-[[module]] spectra forming a category $Mod_R$, which in turn carries an associative and commutative smash product $\wedge_R$ and a [[model category]] structure on $Mod_R$ such that $\wedge_R$ becomes unital in the [[homotopy category]].  All this is such that an $A_\infty$-[[A-infinity-algebra|algebra]] over $R$ is a [[monoid object]] in $(Mod_R, \wedge_R)$.  Similarly $E_\infty$-[[E-infinity-algebra|algebras]] are commutative monoid objects in $(Mod_R, \wedge_R)$.
 
 ### Symmetric spectra
 
@@ -75,7 +75,7 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 
 
 In the mid-1990s, several categories of spectra with nice smash products were discovered, and simultaneously,
-model categories experienced a major renaissance. 1993, Elmendorf, Kriz, Mandell and May
+model categories experienced a major renaissance. In 1993, Elmendorf, Kriz, Mandell and May
 introduced the S-modules and [[Jeff Smith]] gave the first talks about symmetric spectra; the details of
 the model structure were later worked out and written up in 
 
