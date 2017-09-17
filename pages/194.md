@@ -10,24 +10,29 @@ $$
   \array{
     && b
     \\
-    & \nearrow &\mathllap{\scriptsize{\alpha}}\Downarrow& \searrow
+    & \nearrow &\Downarrow& \searrow
     \\
     a &&\to&& c
   }
 $$
 
-+--{.query}
-[[Eric]]: How about a square?
+A cubical $2$-morphism looks like this:
+
 $$\array{
 a & \to & b \\
-\downarrow & \mathllap{\scriptsize{\alpha}}\Downarrow & \downarrow \\
+\downarrow & \Downarrow & \downarrow \\
 c & \to & d
 }
 $$
-Both the above are special cases of a square. Is there anything worth saying about squares?
-=--
 
 Of course, using [[identity morphisms]] and [[composition]], we can turn one into the other; which is more fundamental depends on what [[geometric shape for higher categories]] you use.
+
++--{.query}
+[[Eric]]: Are there any consistency requirements for a 2-morphism? For example, in the bigon above, if $f:a\to b$, $g:a\to b$, and $\alpha:f\to g$, are there requirements on $\alpha:f\to g$ regarding $f$ and $g$? For example, should $\alpha$ come with component 1-morphisms $\alpha_a:a\to a$ and $\alpha_b:b\to b$ such that 
+$$\alpha_a\circ g = f\circ\alpha_b$$
+? Could there be a 2-morphism without the corresponding 1-morphism components?
+
+=--
 
 
 [[!redirects 2-morphism]]
