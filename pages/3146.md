@@ -21,7 +21,7 @@
 
 ## Idea
 
-The formal notion of _curvature_ is a formalization and generalization of the intuitive notion of the ("[extrinsic](Extrinsic)") curvature of a [[surface]] embedded in a [[Cartesian space]] $\mathbb{R}^n$.
+The formal notion of _curvature_ is a formalization and generalization of the intuitive notion of the ("[extrinsic](#Extrinsic)") curvature of a [[surface]] embedded in a [[Cartesian space]] $\mathbb{R}^n$.
 
 This extrinsic curvature of a surface is called [[Gaussian curvature]]. It may also be understood intrinsically as a property of just the surface without reference to the ambient [[Cartesian space]] that it is embedded in: the canonical [[metric]] on $\mathbb{R}^n$ induces a [[Riemannian metric]] on the surface and the surface's curvature is encoded in the [[Levi-Civita connection]] on the [[tangent bundle]] of the surface.
 
