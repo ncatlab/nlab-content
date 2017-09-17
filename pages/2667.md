@@ -3,7 +3,7 @@
 {:toc}
 
 
-#Idea and definition#
+## Idea and definition ##
 
 Classically, a **Schur functor** is a specific sort of [[functor]] 
 
@@ -14,7 +14,11 @@ on the category of finite-dimensional complex [[vector space|vector spaces]].  N
 $$ F: hom(V,W) \to hom(F(V) , F(W)) $$
 
 is a polynomial function from the vector space 
-$hom(V,W)$ to the vector space $hom(F(V), F(W))$
+$hom(V,W)$ to the vector space $hom(F(V), F(W))$. 
+
++--{.query}
+[[Todd Trimble|Todd]]: I still think this is not quite right. For $F$ the exterior algebra construction, these maps are polynomial. But we have $F \cong \sum_n \Lambda^n$ which is not a finite direct sum of irreducible Schur functors. 
+=--
 
 In more modern treatments, a Schur functor is a functor defined (in a [[polymorphism|polymorphic]] way) on [[module|modules]] over more general [[commutative ring]] $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
 
@@ -22,7 +26,7 @@ $$F_R: Mod_R \to Mod_R$$
 
 It turns out that much of the theory of Schur functors can be generalized even further, beyond module categories.  In this article, Todd Trimble and John Baez plan to explore the scope of such generality and --- we hope --- write a paper about what we find.
 
-# Examples #
+## Examples ##
 
 The first thing that should be understood from the beginning is that a general Schur functor $F$ is _nonlinear_: the action on [[hom-set|hom-sets]] 
 
@@ -45,59 +49,109 @@ Even though Schur functors do not respect linear structure, the category $Schur$
 We need to lead up to a proof that the above conceptual definition of Schur functor is actually _correct_, i.e., that it matches the usual definition given below. 
 
 =--
-# Schur functors associated with Young diagrams #
+
+## Schur functors associated with Young diagrams ##
 
 Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect_{\mathbb{C}}$.   They also make sense on categories of group representations, chain complexes, group representations, coherent sheaves of vector spaces, and so on.  
 
-To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete]] category enriched over $FinVect_k$, where $k$ is any field of characteristic zero.   (In the present context, Cauchy completeness means that $C$ has [[biproducts]], also known as [[direct sums]], and also that [[idempotent|idempotents]] [[splitting|split]].)
+To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[category]] enriched over $FinVect_k$, where $k$ is any field of characteristic zero.   (In the present context, Cauchy completeness means that $C$ has [[biproducts]], also known as [[direct sums]], and also that [[idempotent|idempotents]] [[splitting|split]].)
 
 Recall that the [[group algebra]] $k[S_n]$ decomposes as a direct sum of matrix algebras 
 
 $$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
 
-where $\lambda$ ranges over isomorphism classes of irreducible representations of $S_n$, and $V_\lambda$ is any representation chosen from its isomorphism class. In more concrete terms, these representations $V_\lambda$ are labelled by $n$-box [[Young diagram|Young diagrams]].   At the level of $S_n$-representations, we have
+where $\lambda$ ranges over isomorphism classes of irreducible representations of $S_n$, $V_\lambda$ is any representation chosen from its isomorphism class, and the $\hom$ here is the hom of underlying vector spaces. In more concrete terms, these representations $V_\lambda$ are labelled by $n$-box [[Young diagram|Young diagrams]].   At the level of $S_n$-representations, we have
 
 $$k[S_n] \cong \bigoplus_{\nu} V_{\nu}$$ 
 
 where this time $\nu$ ranges over $n$-box [[Young tableau]]x, and $V_\nu$ represents the irreducible subrepresentation of $k[S_n]$ attached to $\nu$.  
 
-This group algebra lives as a [[monoid]] in the symmetric monoidal category $FinVect_k$. We would like it to also live in $C$.  
+This group algebra lives as a [[monoid]] in the symmetric monoidal category $FinVect_k$. We would also like to interpret it as living in $C$, by "change of base" from $FinVect_k$ to $C$. 
 
-To achieve, this let $Sk$ be the [[skeleton]] of $FinVect_k$ consisting of the vector spaces $k^n$ and all linear maps between these.   There is an evident linear functor
+### Change of base ###
 
-$$ Sk \to C $$
+To achieve this change of base, let $Mat$ be the $k$-linear category whose objects are integers $m \geq 0$ and whose morphisms $m \to n$ are $m \times n$ matrices with entries in $k$. There is an evident linear functor 
 
-sending $k^n$ to $I^n$, where $I$ is the tensor unit in $C$.  Since $Sk$ is equivalent as a linear category to $Vect_k$, we therefore obtain a linear functor 
+$$Mat \to C$$ 
+
+which takes $m$ to $I^m$, the direct sum of $m$ copies of the tensor unit $I$. It is the unique linear functor taking $1$ to $I$, up to unique linear isomorphism. In the case $C = FinVect_k$, the linear functor 
+
+$$Mat \to FinVect_k,$$ 
+
+taking $1$ to $k$, is a linear equivalence (exhibiting $Mat$ as a [[skeleton]] of $C$). Thus we could equally well say that there is a linear functor 
 
 $$i: FinVect_k \to C$$ 
 
-which is in fact [[symmetric monoidal functor|symmetric monoidal]].  
+which, up to unique linear isomorphism, is the unique linear functor taking $k$ to $I$. Notice that a [[symmetric monoidal functor]] of this form must take the tensor unit $k$ to $I$ (up to coherent isomorphism, as always), and in fact $i$ is symmetric monoidal, because there is a canonical isomorphism
 
-+--{.query} 
+$$I^m \otimes I^n \cong I^{m n},$$ 
 
-Is $i$ the unique symmetric monoidal linear functor from $FinVect_k$ to $C$, up to symmetric monoidal natural transformation?
+using the fact that $\otimes$ preserves direct sums in each argument, and the fact that there is a canonical isomorphism $I \otimes I \cong I$. 
 
+In summary, we have the following proposition. 
+
++-- {: .un_prop}
+######Proposition 
+There is exactly one symmetric monoidal linear functor 
+$i: FinVect_k \to C$, up to symmetric monoidal linear isomorphism. 
 =--
 
-This functor $i$ therefore maps the group algebra $k[S_n]$ to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  It also maps each of the irreducible representations $V_\lambda$ to a corresponding module over the monoid $k[S_n]$ in $C$, which we again denote by $V_\lambda$. 
+(As a matter of fact, $i: FinVect_k \to C$ can also be described as the left adjoint to the lax monoidal functor $\hom(I, -): C \to FinVect_k$, and it is well known that such left adjoints carry strong monoidal structure.) 
 
-If $X$ is an object of $C$, the symmetric group $S_n$ has a representation on $X^{\otimes n}$.  It thus has a representation 
+This symmetric monoidal functor $i$ therefore maps the group algebra $k[S_n]$, as a [[monoid]] in the monoidal category $FinVect_k$, to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  It also maps each of the Young tableau representations $V_\nu$, as a module over $k[S_n]$ in $FinVect_k$, to a corresponding module over the monoid $k[S_n]$ in $C$, which we again denote by $V_\nu$. 
+
+### Modules over a bimonoid ###
+
+Furthermore, $k[S_n]$ is a [[bimonoid]] in $FinVect_k$, hence becomes a bimonoid when interpreted in $C$ (notice that in order to express this categorically, one needs the _symmetric_ monoidal structure and its preservation under the functor $i$). 
+
+The category of modules over a bimonoid is a monoidal category. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
+
+$$\delta: k[S_n] \to k[S_n] \otimes k[S_n],$$
+
+the tensor product $V \otimes W$ of two $k[S_n]$-modules in $C$ carries a module structure where the action is defined by 
+
+$$k[S_n] \otimes V \otimes W \stackrel{\delta \otimes 1_{V \otimes W}}{\to} k[S_n] \otimes k[S_n] \otimes V \otimes W \stackrel{1 \otimes \sigma \otimes 1}{\to} k[S_n] \otimes V \otimes k[S_n] \otimes W \stackrel{\alpha_V \otimes \alpha_W}{\to} V \otimes W$$ 
+
+where $\sigma$ is a symmetry isomorphism and $\alpha_V$, $\alpha_W$ are the actions on $V$ and $W$. 
+
+### Definition of Schur functors on $C$ ###
+
+Now we consider a particular case of tensor product representations. If $X$ is an object of $C$, the symmetric group $S_n$ has a representation on $X^{\otimes n}$. (Indeed, for each $\sigma \in S_n$, there is a corresponding symmetry isomorphism $X^{\otimes n} \to X^{\otimes n}$. From this one may construct an action 
+
+$$k[S_n] \otimes X^{\otimes n} \cong \bigoplus_{\sigma \in S_n} I \otimes X^{\otimes n} \to X^{\otimes n}$$ 
+
+which is the required representation.) So, if $V_\nu$ is a Young tableau representation of $k[S_n]$ in $C$, we obtain a tensor product representation 
 
 $$V_\nu \otimes X^{\otimes n}$$ 
 
-and we define $S_\nu(X)$ to be the object of $S_n$-coinvariants of $V_{\nu} \otimes X^{\otimes n}$, by which we mean:
+of $k[S_n]$ in $C$. 
 
-$$S_\nu(X) = V_{\nu} \otimes X^{\otimes n} / S_n$$
+Consider next the **averaging operator** $e = \frac1{n!} \sum_{\sigma \in S_n} \sigma$: 
 
-We can construct this by splitting idempotents: namely, $V_{\nu}$ is the cokernel of an idempotent in $k[S_n]$, so $S_\nu(X)$ may be defined as the cokernel of the corresponding idempotent in $k[S_n] \otimes X^{\otimes n}$.
+$$e: V_\nu \otimes X^{\otimes n} \to V_\nu \otimes X^{\otimes n}$$ 
 
-This construction of $S_\nu(X)$ defines the **Schur functor** $S_\nu$ on $C$.   
+This operator makes sense since $k$ has characteristic zero, and crucially, this operator is _idempotent_ (because $e = \sigma e$ for all $\sigma \in S_n$). Because we assume idempotents split in $C$, we have a (split) coequalizer 
+
+$$V_\nu \otimes X^{\otimes n} \stackrel{\overset{e}{\to}}{\underset{1}{\to}} V_\nu \otimes X^{\otimes n} \to V_\nu \otimes_{S_n} X^{\otimes n}$$
+
+We may now define the Schur functor $S_\nu$ on $C$ attached to a Young tableau $\nu$. 
+
++-- {: .un_def}
+######Definition 
+The **Schur functor** $S_\nu: C \to C$ is defined as follows. Given an object $X$ of $C$, $S_\nu(X)$ is the object of $S_n$-coinvariants $V_{\nu} \otimes_{S_n} X^{\otimes n}$. Given a morphism $f: X \to Y$ in $C$, $S_\nu(f)$ is the unique map $S_\nu(X) \to S_\nu(Y)$ such that 
+$$\array{
+V_\nu \otimes X^{\otimes n} & \to & S_\nu(X) \\
+1 \otimes f^{\otimes n} \downarrow & & \downarrow S_\nu(f) \\
+V_\nu \otimes Y^{\otimes n} & \to & S_\nu(Y)
+}$$ 
+commutes, where the horizontal arrows are the coequalizer maps. 
+=--
 
 As we have constructed them, there is one such functor for each Young tableau.  However, different Young tableaux with the same underlying Young diagram give isomorphic representations of $S_n$ and thus naturally isomorphic Schur functors.  So, it is more typical to say there is one Schur functor $S_\lambda$ for each Young diagram $\lambda$.
 
 More generally we can define a Schur functor 
 
-$$    S_R : C \to C $$
+$$  S_R : C \to C  $$
 
 for any finite-dimensional representation $R$ of $S_n$, as follows.  We can write $R$ as a finite direct sum of irreducible representations:
 
@@ -105,13 +159,11 @@ $$  R = \bigoplus_i V_{\lambda_i}  $$
 
 and then define, for any object $x \in C$, 
 
-$$  S_R(x) = \bigoplus_i S_{\lambda_i}(x) \, .$$
+$$  S_R(-) = \bigoplus_i S_{\lambda_i}(-) \, .$$
 
-Using Schur's lemma, one can check that this construction extends uniquely to a functor (?).
+Using Schur's lemma, one can check that this construction extends uniquely to a functor (?). (Do we even need to say this at all?) 
 
-=-- 
-
-# Schur functors as actions of the plethystic monoidal category
+## Schur functors as actions of the plethystic monoidal category ##
 
 There's a Schur functor from a symmetric monoidal category to itself for every $\mathbb{Z}[S_n]$ module $M$, given by 
 $$S_M(X)=X^{\otimes n}\otimes_{\Z[S_n]}M.$$
@@ -123,7 +175,7 @@ The Schur functors described above are those corresponding to irreducible module
 
 _Todd_: To be related to composition of analytic functors a la Joyal species... We also have material on plethysm, Tall-Wraith monoid, etc. to be linked to. 
 
-# (Tentative) High-level description of Schur functors #
+## (Tentative) High-level description of Schur functors ##
 
 As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pretty wide contexts, and the formula for the $S_\lambda$ is in some sense "polymorphic". The question arises as to the right way to give sense to such [[polymorphism]], or in other words the compatibility between these Schur functors across the various structured categories where they are defined. Here is a very general expression of that compatibility proposed by [[John Baez]]. 
 
@@ -159,7 +211,7 @@ U(D) & \underset{S_D}{\to} & U(D)
 
 (Coherent in the standard sense implied by strong naturality.) Following usual procedure in 2-category theory, a **morphism** between Schur functors is a modification $\phi: S \to T$ between such strong natural transformations. 
 
-## Discussion for module categories 
+## Discussion for module categories ##
 
 The weakest or baseline assumption is that objects of $SymMonLin$ are symmetric monoidal additive categories in which idempotents split. In the case of modules over a commutative ring $A$, this means that minimally we have to include finitely generated projective $A$-modules. This plays a role analogous to finite-dimensional vector spaces over a field, and in fact let's emphasize the analogy by letting $Vect_A$ denote the category of finitely generated projectives over $A$. 
 
