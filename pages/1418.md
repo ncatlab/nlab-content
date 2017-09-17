@@ -19,15 +19,8 @@
 
 ## Definition
 
-An object $X$ of a category $C$ is said to be [[finitely presentable object|finitely presentable]] (or finitary, sometimes called [[compact object|compact]]) if the [[representable functor]] $C(X,-)$ preserves [[filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ on the finitely presentable objects.
+An object $X$ of a category $C$ is said to be [[finitely presentable object|finitely presentable]] (sometimes called [[compact object|compact]] or 'finite') if the [[representable functor]] $C(X,-)$ is finitary, i.e., preserves [[filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ consisting of the finitely presentable objects.
 
-+--{: .query}
-[[Mike Shulman|Mike]]: Do people really call finitely presentable _objects_ "finitary"?  I've only seen that word applied to functors (those that preserve filtered colimits).
-
-Toby: I have heard 'finite'; see [[compact object]].
-
-_Mike_: Yes, I've heard 'finite' too.
-=--
 
 A category $C$ satisfying (any of) the following equivalent conditions is said to be __locally finitely presentable__ (or **lfp**):
 
@@ -37,20 +30,6 @@ A category $C$ satisfying (any of) the following equivalent conditions is said t
 1. $C_{fp}$ has finite colimits, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{fp}^{op},Set]$ identifies $C$ with the category of finite-limit-preserving functors $C_{fp}^{op} \to Set$.
 
 Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [[cardinal number]] $\kappa$, results in the notion of a [[locally presentable category]].
-
-   +-- {: .query}
-
-   [[Toby Bartels|Toby]]: In the list of equivalent conditions above, does this essentially algebraic theory also have to be finitary?; that is, if it\'s an [[algebraic theory]], then it\'s a [[Lawvere theory]]?  
-   
-   [[Mike Shulman|Mike]]: Yes, it certainly has to be finitary.  Possibly the standard meaning of "essentially algebraic" implies finitarity, though, I don't know.
-
-   _Toby_:  I wouldn\'t use 'algebraic' that way; see [[algebraic theory]].
-
-   [[John Baez]]: How come the first sentence of [this paper](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf) seems to suggest that the category of models of _any_ essentially algebraic theory is locally finitely presentable?  The characterization below, which I did not write, seems to agree.  Here there is no restriction that the theory be finitary.  Does this contradict what Mike is saying, or am I just confused?  
-
-   _Mike_: The syntactic category of a non-finitary essentially algebraic theory is not a category with finite limits but a category with $\kappa$-limits where $\kappa$ is the arity of the theory.  A finitary theory can have infinitely many sorts and operations; what makes it finitary is that each operation only takes finitely many inputs, hence can be characterized by an arrow whose domain is a finite limit.  I think this makes the first sentence of that paper completely consistent with what I'm saying.
-   =--
-
 
 ## Examples
 
