@@ -120,6 +120,7 @@ where we inserted the normalization factor $\frac{1}{2}$.
 * [[Andre Joyal]], [[Ross Street]], and [[Dominic Verity]], _Traced Monoidal Categories_  
 * Dold, Albrecht and Puppe, Dieter, _Duality, trace, and transfer_
 * [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf)), Section 5
+* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf)).
 
 For partial trace, particularly its application to quantum mechanics, see:
 
