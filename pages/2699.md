@@ -228,6 +228,6 @@ Further, for Borel equivariant cohomology we require
 
 _Proof._ In the case of ordinary equivariant cohomology we can use property (5) to reduce to the case where $X$ has only Abelian stabilizer groups.  Then via (3) we reduce to $X$ being a colimit of $T$-equivariant cells $D^k \times T/T_0$ for $T_0$ Abelian. Via homotopy equivalence (1) we reduce to $X = T / T_0$.  Using property (2) we see $A_T (X) = A_{T_0} (*)$, so (4) yields $A_{T_0} (*) = \hat M (*/T_0 )$
 
- see also [[AbTop]]
+
 
 
