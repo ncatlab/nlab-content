@@ -48,7 +48,7 @@
 |   | $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) |  " | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$, by [[Weil uniformization theorem]])   | 
 |   | [Tamagawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
 | **[[theta functions]]**  |  |  |  |
-|  |  [[Hecke theta function]]  |  |  |    
+|  |  [[Hecke theta function]]  |  | [[functional determinant]] [[determinant line bundle|line bundle]] of [[Dirac operator]]/chiral [[Laplace operator]] on $\Sigma$ |    
 | **[[zeta functions]]**  |  |  |  |
-|   |  [[Dedekind zeta function]] | [[Weil zeta function]] | [[zeta function of a Riemann surface]] |
+|   |  [[Dedekind zeta function]] | [[Weil zeta function]] | [[zeta function of a Riemann surface]]/[[zeta function of an elliptic differential operator|of the Laplace operator]] on $\Sigma$ |
 
