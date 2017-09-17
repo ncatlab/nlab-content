@@ -17,7 +17,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition ##
@@ -139,6 +139,8 @@ Standard examples of [[finite group]]s include
 * [[symmetric group]] $\Sigma_n$
 
 * [[cyclic group]]
+
+* [[braid group]] $Br_n$
 
 * [[Monster group]]
 
