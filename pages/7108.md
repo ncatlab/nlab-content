@@ -1,10 +1,16 @@
+
+# Graded sets
+* table of contents
+{: toc}
+
 ## Definition
 
 Let $S$ be a [[set]].  Frequently, $S$ is a [[group]] or [[monoid]] (usually commutative).
 
-An **$S$-graded set** is an $S$-indexed family of sets $\{X_s\}_{s\in S}$.  This can equivalently be described as a function $S\to Set$, or as a function $X\to S$ (with $X_s$ the fiber over $s\in S$).
+An **$S$-graded set** is an $S$-indexed [[family of sets]] $\{X_s\}_{s\in S}$.  This can equivalently be described as a function $S \to Set$, or as a function $X \to S$ (with $X_s$ the [[fiber]] over $s\in S$).
 
 The elements of $X_s$ are often said to have **degree** $s$.
+
 
 ## Examples
 
@@ -12,7 +18,8 @@ The most common choices of $S$ are probably:
 
 * the [[natural numbers]] $\mathbb{N}$.
 * the [[integers]] $\mathbb{Z}$.
-* the 2-element set $\mathbb{Z}/2$.  In this case, the elements of degree 0 are often called **even**, and those of degree 1 **odd**.
+* the $2$-element set $\mathbb{Z}/2$.  In this case, the elements of degree $0$ are often called **even**, and those of degree $1$ **odd**.
+
 
 ## Monoidal structure and enrichment
 
@@ -22,6 +29,16 @@ $$ (X \otimes Y)_s = \coprod_{u+v = s} (X_u \times Y_v) $$
 
 This is a special case of [[Day convolution]].
 
-A $Set^S$-[[enriched category]] is a category whose morphisms all have degrees in $S$, and such that identity morphisms have degree 0 and $deg(g f) = deg(g) + deg(f)$.  Note that its underlying ordinary category, in the usual sense of enriched category theory, is the category of degree-0 morphisms.
+A $Set^S$-[[enriched category]] is a category whose morphisms all have degrees in $S$, and such that identity morphisms have degree $0$ and $deg(g f) = deg(g) + deg(f)$.  Note that its underlying ordinary category, in the usual sense of enriched category theory, is the category of degree-$0$ morphisms.
 
+
+## Graded objects
+
+Given any set $S$ and any [[category]] $C$, the category of __$S$-graded objects of $C$__ is simply the [[functor category]] $C^S$ (identifying $S$ with its discrete category).  This includes graded sets as above, as well as [[graded vector spaces]] and [[graded modules]].  However, [[graded rings]] and [[graded algebras]] are not the same (and in particular require $S$ to be a [[monoid]]).
+
+
+[[!redirects graded set]]
 [[!redirects graded sets]]
+
+[[!redirects graded object]]
+[[!redirects graded objects]]
