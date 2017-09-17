@@ -30,6 +30,14 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
 ## References
 
+A general geometrically inclined introduction can be found in 
+
+* Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+
+* N. P. Landsman, _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Math. 1998. xx+529 pp. 
+
 A proposal for a full formalization of the notion of quantization for "finite" theories such as [[Dijkgraaf-Witten theory]] is in
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
+
+A historical discussion by [[Zoran Škoda|one]] of the $n$labizants is here: [mathlight:quantization](http://mathlight.wordpress.com/2010/03/19/quantization). See also Urs's manifesto at [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]].
