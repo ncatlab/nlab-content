@@ -196,3 +196,7 @@ For functors with more complicated shapes than $C \rightrightarrows D$, see [[ex
 
 
 [[!redirects natural transformations]]
+
+[[!redirects naturality square]]
+[[!redirects naturality squares]]
+
