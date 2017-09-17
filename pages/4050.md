@@ -19,7 +19,9 @@ A _category with duals_ is a [[category]] where [[objects]] and/or [[morphisms]]
 
 *  An __[[autonomous category]]__, or __[[rigid category]]__ is a monoidal category that is both left and right autonomous. Note that any braided monoidal category is autonomous on both sides if it is autonomous on either side.
 
-*  A __[[pivotal category]]__ is an autonomous category equipped with a [[monoidal natural transformation|monoidal]] [[natural isomorphism]] from the [[identity functor]] to the [[double dual]] functor. A one-sided autonomous category with such an isomorphism is automatically two-sided autonomous. Although each braided autonomous category has an isomorphism from $A$ to $A^{**}$, such a category is not necessarily pivotal because this isomorphism is not in general monoidal. On the other hand, every [[balanced monoidal category|balanced]] autonomous category is pivotal. 
+*  A __[[pivotal category]]__ is an autonomous category equipped with a [[monoidal natural transformation|monoidal]] [[natural isomorphism]] from the [[identity functor]] to the [[double dual]] functor. A one-sided autonomous category with such an isomorphism is automatically two-sided autonomous. Although each braided autonomous category has an isomorphism from $A$ to $A^{**}$, such a category is not necessarily pivotal because this isomorphism is not in general monoidal. On the other hand, every [[balanced monoidal category|balanced]] autonomous category is pivotal.
+
+*  A __[[spherical category]]__ is a pivotal category where the left and right [[trace]] operations coincide on all objects.
 
 *  A __[[tortile category]]__, or __[[ribbon category]]__, is a [[balanced monoidal category|balanced]] autonomous (therefore pivotal) category in which the [[twist]] on $A^*$ is the dual of the twist on $A$. 
 
