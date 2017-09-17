@@ -17,10 +17,6 @@
 =--
 =--
 
-=--
-=--
-
-
 
 # Hilbert modules
 * table of contents
