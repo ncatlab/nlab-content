@@ -86,6 +86,10 @@ The [[E10]]-geometry of [[11-dimensional supergravity]] compactified to the line
 
 * [[Thibault Damour]], [[Hermann Nicolai]], _Higher order M theory corrections and the Kac-Moody algebra E10_ ([arXiv:hep-th/0504153](http://arxiv.org/abs/hep-th/0504153))
 
+The [[E11]]-geometry of 11-dimensional supergravity compactified to the point is discussed in 
+
+* [[Peter West]], _Generalised geometry, eleven dimensions and E11_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
+
 [[!redirects exceptional generalized geometry]]
 
 [[!redirects exceptional generalized geometries]]
