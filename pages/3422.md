@@ -579,6 +579,36 @@ $\Delta[1]^{op} \to $ [[(∞,1)Cat]], hence to an [[(∞,1)-functor]] $F : D \to
 
 By the above  procedure we can express $F$ as the image of $p$ under the straightening functor. However, there is a more immediate way to extract this functor, which we now describe.
 
+First recall the situation for the ordinary [[Grothendieck construction]]: given a [[Grothendieck fibration]] $K \to \{0 \to 1\}$, we obtain a functor $f : K_1 \to K_0$ between the fibers, by _choosing_ for each object $d \in K_1$ a [[Cartesian morphism]] $e_d \to d$. Then the universal property of Cartesian morphism yields for every  morphism $d_1 \to d_2$ in $K_1$ the unique left vertical filler in
+
+$$
+  \array{
+    e_{d_1} &\to& d_1
+    \\
+    \downarrow && \downarrow
+    \\
+    e_{d_2} &\to& d_2
+  }
+  \,.
+$$
+
+And again by universality, this assignment if functorial $K_1 \to K_0$.
+
+Diagrammatically, the choice of Cartesian morphisms here is a lift $e$ in the diagram
+
+$$
+  \array{
+    K_1 &\hookrightarrow& K
+    \\
+    \downarrow &\nearrow_e& \downarrow
+    \\
+    K_1 \times \{0 \to 1\} &\to& \{0 \to 1\}
+  }
+  \,.
+$$
+
+This diagrammatic way of encoding the functor associated to a Grothendieck fibration over the interval generalizes straightforwardly to the [[quasi-category]] context.
+
 +-- {: .un_defn}
 ###### Definition
 
@@ -643,7 +673,9 @@ $$
 
 in the category $sSet^+$ of marked simplicial sets.
 
-By some proposion the left vertical morphism is _marked anodyne_ which means that a lift $d : D^\flat \times \Delta[1]^# \to K^{\sharp}$ against the Cartesian fibration in 
+Here the left vertical morphism is [marked anodyne](http://ncatlab.org/nlab/show/model+structure+for+Cartesian+fibrations#MarkedAnodyne): it is the [[smash product]] of the marked cofibration (monomorphism) $Id : D^\flat \to D^\flat$ with the marked anodyne morphism $\Delta[1]^# \to \Delta[0]$. By the stability properties discussed at [Marked anodyne morphisms](http://ncatlab.org/nlab/show/model+structure+for+Cartesian+fibrations#MarkedAnodyne), this implies that the morphism itself is marked anodyne.
+
+As discussed there, this means that a lift $d : D^\flat \times \Delta[1]^# \to K^{\sharp}$ against the Cartesian fibration in 
 
 $$
   \array{
