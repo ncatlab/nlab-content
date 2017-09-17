@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -10,7 +9,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -26,6 +25,7 @@ A **finite topological space** is a [[topological space]] whose underlying [[set
 
 ## Properties
 
+Finite topological spaces are [[equivalence of categories|equivalent]] to finite [[preordered sets]], by the [[specialisation order]].
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -50,4 +50,5 @@ The original results by McCord are in
 * M.C. McCord. _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474.
 
 
+[[!redirects finite topological space]]
 [[!redirects finite topological spaces]]
