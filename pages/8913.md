@@ -28,6 +28,7 @@ The [[homotopy category of an (∞,1)-category]] of [[∞Grpd]]. [[equivalence o
 
 A [[monoid object]] in $Ho(\infty Grpd)$ is an _[[H-monoid]]_.
 
+A [[group object]] in $Ho(\infty Grpd)$ is an _[[H-group]]_.
 
 ## Related concepts
 
