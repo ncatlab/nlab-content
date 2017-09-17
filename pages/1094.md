@@ -363,7 +363,7 @@ really unnecessary for the examples above?
 
 ## Related concepts
 
-* **sheafification**
+* **sheafification**, [[plus-construction on presheaves]]
 
 * [[(∞,1)-sheafification]] / [[∞-stackification]]
 
