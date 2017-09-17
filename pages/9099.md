@@ -313,7 +313,7 @@ Further discussion of [[extended Lagrangians]] for 7d CS theories is in
 
 The Chern-Simons type action functionals $A \mapsto \int_X CS(A) \wedge \omega_4$ on a 7d [[G2-manifold]] $(X, \omega_3)$ was first considered in 
 
-* [[S. Donaldson]], [[R. Thomas]], _Gauge theory in higher dimensions_ ([pdf](http://www2.imperial.ac.uk/~rpwt/skd.pdf))
+* [[S. Donaldson]], R. Thomas, _Gauge theory in higher dimensions_ ([pdf](http://www2.imperial.ac.uk/~rpwt/skd.pdf))
  {#DonaldsonThomas}
 
 and around (3.23) of
