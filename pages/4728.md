@@ -19,8 +19,13 @@ A **surface** is a [[space]] of [[dimension]] 2.
 
 In [[differential geometry]] this means a 2-dimensional [[smooth manifold]] or something thereby [[parametrization|parametrized]].
 
+In [[complex analytic geometry]] this usually means a [[complex manifold]] of _complex_ dimension 2.
+
+Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]]_ is a [[variety]] of algebraic dimension 2. 
 
 ## Related concepts
+
+* analog for dimension 1: [[curve]], [[algebraic curve]]
 
 * [[genus of a surface]]
 
