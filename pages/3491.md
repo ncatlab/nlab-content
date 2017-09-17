@@ -1,3 +1,4 @@
+[[!redirects fibration of quasi-categories]]
 
 <div class="rightHandSide toc">
 [[!include quasi-category theory contents]]
@@ -139,6 +140,7 @@ with $X \to Z$ a left/right/inner anodyne cofibraiton and $Z \to Y$ accordingly 
 ### Kan fibration
 
 ...
+
 
 ### (Left/)Right fibration
 
