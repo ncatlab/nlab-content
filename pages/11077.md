@@ -100,8 +100,11 @@ $$
 
 * {#HoveySadofsky96} [[Mark Hovey]], H. Sadofsky, _Tate cohomology lowers chromatic Bouseld classes_ Proceedings of the AMS 124, 1996, 3579-3585.
 
-
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
+
+Some basics of [[Morava K-theory|K(1)]]-local [[E-∞ rings]] are in
+
+* [[Michael Hopkins]], _$K(1)$-local $E_\infty$-Ring spectra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/knlocal.pdf))
 
 
 
