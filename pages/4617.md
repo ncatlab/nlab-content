@@ -618,7 +618,7 @@ that is [[presentable (∞,1)-category|presented]] by the model category theoret
 +-- {: .un_theorem}
 ###### Theorem
 
-The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-category|presentation]] models $C$-small objects (...) the inthe [[reflective sub-(∞,1)-category]]
+The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-category|presentation]] that models $C$-small objects (...) in the [[reflective sub-(∞,1)-category]]
 
 $$
   \mathbf{L}_C \stackrel{\stackrel{\mathcal{O}}{\leftarrow}}{\hookrightarrow}
