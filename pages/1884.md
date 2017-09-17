@@ -399,13 +399,16 @@ The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topo
 
 [[!include chromatic tower examples - table]]
 
+### As the shape of the smooth K-theory spectrum
+
+See at _[[differential cohomology diagram]]_.
 
 ### Relation to algebraic K-theory
  {#RelationToAlgebraicKTheory}
 
 The topological K-theory over a space $X$ is not
 identical with the _[[algebraic K-theory]]_ of the
-ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch), [Rosenberg](#Rosenberg)).
+ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch), [Rosenberg](#Rosenberg)). See at _[[comparison map between algebraic and topological K-theory]]_.
 
 
 
@@ -460,14 +463,13 @@ A discussion of the topological K-theory of [[classifying space]]s of [[Lie grou
 * Stefan Jackowski and Bob Oliver, _Vector bundles over classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Jackowski-Oliver/bg-bu.pdf))
  {#JackowskiOliver}
 
-Relations to [[algebraic K-theory]] are discussed in
+The [[comparison map between algebraic and topological K-theory]] is discussed for instance in
 
-* Michael Paluch, _Algebraic $K$-theory and topological spaces_ K-theory 0471 ([web](http://www.math.uiuc.edu/K-theory/0471/))
- {#Paluch}
+* {#Paluch} Michael Paluch, _Algebraic $K$-theory and topological spaces_ K-theory 0471 ([web](http://www.math.uiuc.edu/K-theory/0471/))
+ 
 
-
-* [[Jonathan Rosenberg]], _Comparison Between Algebraic and Topological K-Theory for Banach Algebras and $C^*$-Algebras_, ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
- {#Rosenberg}
+* {#Rosenberg} [[Jonathan Rosenberg]], _Comparison Between Algebraic and Topological K-Theory for Banach Algebras and $C^*$-Algebras_, ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
+ 
 
 [[!redirects complex K-theory]]
 
