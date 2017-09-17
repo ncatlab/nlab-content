@@ -15,9 +15,15 @@ Krull dimension of the ring is $1$.
 
 ## Properties
 
+### General
+
 * Every projective algebraic curve is [[birationally equivalent]] to a plane algebraic curve
 * [[Mordell conjecture]]: every algebraic curve of genus $g\geq 2$ defined over rationals has at least one point over rationals
 * To a nonsingular curve $C$ over the field of complex numbers one associates an [[abelian variety]], namely its [[Jacobian variety]] together with the period map or Abel-Jacobi map $C\to J(C)$.
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
 
 ## References
 
