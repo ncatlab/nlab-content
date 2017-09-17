@@ -70,8 +70,9 @@ Cf. also [[Rozansky-Witten theory]].
 
 * Thomas Willwacher, _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_, [arxiv/1009.1654](http://arxiv.org/abs/1009.1654)
 
-* [[S. A. Merkulov]], _Graph complexes with loops and wheels_, in (Manin's Festschrift:) Algebra, Arithmetic, and Geometry
-Progress in Mathematics __270__ (2009) 311-354, [doi](http://dx,doi.org/10.1007/978-0-8176-4747-6_10), [pdf](http://www2.math.su.se/~sm/Papers/graph_complexes.pdf)
+* Vasily Dolgushev, Christopher L. Rogers, Thomas Willwacher, _Kontsevich's graph complex, GRT, and the deformation complex of the sheaf of polyvector fields_, [arxiv/1211.4230](http://arxiv.org/abs/1211.4230)
+
+* [[S. A. Merkulov]], _Graph complexes with loops and wheels_, in (Manin's Festschrift:) Algebra, Arithmetic, and Geometry, Progress in Mathematics __270__ (2009) 311-354, [doi](http://dx,doi.org/10.1007/978-0-8176-4747-6_10), [pdf](http://www2.math.su.se/~sm/Papers/graph_complexes.pdf)
 
 The following survey has discussion of context between the graph complex and [[Batalin-Vilkovisky formalism]]:
 
