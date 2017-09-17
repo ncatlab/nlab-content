@@ -1,3 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The concept of internal relation is an [[internalization]] of the concept of a [[relation]] from [[Set]] to more general [[categories]] and it is often called just a __relation__ in the category $C$.
 
 If $C$ is a [[regular category]], then its category of internal binary relations is an [[allegory]]. The objects of an allegory may, but do not need to be, internal relations in some ambient category. 
@@ -23,3 +41,5 @@ The various kinds of relations described at [[relation]] can often be interprete
 For example, an internal relation $R$ on $X$ is said to be __[[reflexive relation|reflexive]]__ if it contains the [[diagonal subobject]] $X\hookrightarrow X\times X$ of $X$; this can even be stated if $X \times X$ does not exist in the category.
 
 An internal [[equivalence relation]] is often called a [[congruence]].
+
+[[!redirects internal relation]]
