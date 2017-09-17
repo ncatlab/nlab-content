@@ -38,13 +38,6 @@ since the middle one preserves [[(∞,1)-colimits]] (since colimits in slices ar
 
 # Other Stuff
 
-
-###### Theorem
-$2=1$.
-
-###### Proof
-Trivial consequence of the axioms.
-
 =--
 
 ### A Heading
