@@ -20,13 +20,13 @@
 
 ## Idea
 
-The notion of a Kan complex is an abstraction of the structure found in the [[singular simplicial complex]] of a topological space. 
-
 A Kan complex is a [[geometric definition of higher category|geometric model]] of an $\infty$-[[infinity-groupoid|groupoid]] based on the [[geometric shapes for higher structures|shape]] modeled by the [[simplex category]].
 
 A Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all $k \in \mathbb{N}$, such that for all composable $k$-morphisms a composite does exist (not necessarily uniquely) and  such that all $k$-morphisms are invertible under this composition.
 
 In a Kan complex there are no _specified_ composites. But one may _choose_ out for all composable $k$-morphisms a composite and thus arrive at an [[algebraic definition of higher category|algebraic model]] for $\infty$-groupoids: [[algebraic Kan complex]]es.
+
+The notion of a Kan complex is an abstraction of the structure found in the [[singular simplicial complex]] of a topological space. 
 
 ## Definition
 
@@ -100,6 +100,7 @@ $$
 ## As models for $\infty$-groupoids
  {#AsGrpds}
 
+Like [[quasi-category|quasi-categories]] are a model for ($\infty$,1)-categories Kan complexes are a model for $\infty$-[[infinity-groupoid|groupoids]].
 
 Kan complexes are among the most convenient and popular models for [[∞-groupoids]]. The horn filling condition from this point of view is read as guaranteeing that
 
@@ -109,7 +110,7 @@ For illustrations of the horn-filler conditions see [[Kan fibration]].
 
 Whatever other definition of [[∞-groupoid]] one considers, it is expected to map to a Kan complex under the [[nerve]].
 
-We expand now a bit on how a Kan complex may naturally be thought of as a _[[globular set|globular]]_ [[∞-groupoid]]: a [[higher category theory|higher category]] in which all [[k-morphisms]] for all $k \in \mathbb{N}$ are invertible.
+We expand now a bit on how a Kan complex may naturally be thought of as a _[[globular set|globular]]_ [[∞-groupoid]]: a [[higher category theory|higher category]] in which all [[k-morphisms]] for all $k \in \mathbb{N}$ are invertible. A structure mediating between the simplicial- and the globular model for $\infty$-groupoids is that of [[oriental|orientals]].
 
 For this interpretation, one thinks of a $k$-dimensional cell $\phi \in C_K$ of a Kan complex $C$ as a [[globular set|globular]] [[k-morphism]] whose 
 
@@ -118,6 +119,43 @@ For this interpretation, one thinks of a $k$-dimensional cell $\phi \in C_K$ of 
 * _target_ is the $(k-1)$-morphism given by the pasting diagram of the $(k-1)$-cells that are the faces $d_{k-1} \phi, \; d_{k-3} \phi, d_{k-5} \phi \cdots$  of $\phi$
 
 where $d_i : C_k \to C_{k-1}$ are the [[simplicial identities|face maps]] of the [[simplicial set]] $C$.
+
+The task of analyzing the combinatorics of k-simplices and their boundaries quickly goes beyond what can be handled in a naive fashion. Luckily, this combinatorial problem has been completely solved by [[Ross Street]] in his work on [[oriental]]s.
+
+The $k$-[[oriental]] $O(k)$ is precisely the prescription for how exactly to think of  a $k$-[[simplex]] as being a [[k-morphism]] in an [[omega-category]]. The first few look like this:
+
+$$
+\array{\arrayopts{\rowalign{center}}
+O(\Delta^0) = & \{ 0\} \\
+O(\Delta^1) = & \left\{ 0 \to 1\right\} \\
+O(\Delta^2) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta2]]
+\end{svg}}
+\right\}\\
+O(\Delta^3) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta3]]
+\end{svg}}\right\}\\
+O(\Delta^4) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta4]]
+\end{svg}}
+\right\}
+}
+$$
+
+In fact, the [[omega-nerve]] $N(K)$ of an [[omega-category]] $K$ is the [[simplicial set]] whose collection of $k$-cells $N(K)_k := Hom(O(k),K)$ is precisely the collection of images of the $k$th oriental $O(k)$ in $K$.
+
+This is fully formally the prescription of how to think of a Kan complex as an $\infty$-groupoid: the Kan complex $C$ is the [[omega-nerve]] of an [[omega-category]] in which all morphism are invertible:
+
+* the $k$-cells in  $C_k$ are precisely the collection of $k$-morphisms ihn the omega-category of shape the $k$th [[oriental]] $O(k)$;
+
+* the [[horn]]-filler conditions satisfied by these cells is precisely a reflection of the fact that
+
+  1. there exists a notion of composition of adjacent k-morphisms in the [[omega-category]];
+
+  1. under this composition all $k$-morphisms have an inverse.
 
 This is easy to see in low dimensions: 
 
@@ -178,43 +216,6 @@ $$
 $$
 
 All we can say for sure is that _at least_ one such 2-cell exists, and that the 2-cells themselves may be composed in some way. This is precisely what the horn-filler conditions in a Kan complex encode.
-
-To see this for the composition of 2-morphisms, we need to move further up in dimension. The task of analyzing the combinatorics of k-simplices and their boundaries in the above fashion quickly goes beyond what can be handled in a naive fashion. Luckily, this combinatorial problem has been completely solved by [[Ross Street]] in his work on [[oriental]]s.
-
-The $k$-[[oriental]] $O(k)$ is precisely the prescription for how exactly to think of  a $k$-[[simplex]] as being a [[k-morphism]] in an [[omega-category]]. The first few look like this:
-
-$$
-\array{\arrayopts{\rowalign{center}}
-O(\Delta^0) = & \{ 0\} \\
-O(\Delta^1) = & \left\{ 0 \to 1\right\} \\
-O(\Delta^2) = & \left\{
-\array{\begin{svg}
-[[!include oriental > Delta2]]
-\end{svg}}
-\right\}\\
-O(\Delta^3) = & \left\{
-\array{\begin{svg}
-[[!include oriental > Delta3]]
-\end{svg}}\right\}\\
-O(\Delta^4) = & \left\{
-\array{\begin{svg}
-[[!include oriental > Delta4]]
-\end{svg}}
-\right\}
-}
-$$
-
-In fact, the [[omega-nerve]] $N(K)$ of an [[omega-category]] $K$ is the [[simplicial set]] whose collection of $k$-cells $N(K)_k := Hom(O(k),K)$ is precisely the collection of images of the $k$th oriental $O(k)$ in $K$.
-
-This is fully formally the prescription of how to think of a Kan complex as an $\infty$-groupoid: the Kan complex $C$ is the [[omega-nerve]] of an [[omega-category]] in which all morphism are invertible:
-
-* the $k$-cells in  $C_k$ are precisely the collection of $k$-morphisms ihn the omega-category of shape the $k$th [[oriental]] $O(k)$;
-
-* the [[horn]]-filler conditions satisfied by these cells is precisely a reflection of the fact that
-
-  1. there exists a notion of composition of adjacent k-morphisms in the [[omega-category]];
-
-  1. under this composition all $k$-morphisms have an inverse.
 
 We have already seen in low dimension how the existence of composites in an $\omega$-category is reflected in the fact that in a Kan-complex certain 22-simplices exist, and how the non-uniqueness of these 2-simplices reflects the existence of nontrivial 2-morphisms.
 
@@ -385,7 +386,10 @@ Other concepts:
 
 ## References
 
-See the references at _[[simplicial set]]_.
+For Kan complexes in general see the references at _[[simplicial set]]_.
+
+For Kan complexes as $\infty$-groupoids: [Eugenia Cheng - higher dimensional categories - an illustrated guide book](http://www.cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
+
 
 
 [[!redirects Kan complexes]]
