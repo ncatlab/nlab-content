@@ -307,6 +307,10 @@ The relation between the two different Lie-alebroid-like  definition of Courant 
 
 * [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_, ([arxiv:1009.2975](http://arxiv.org/abs/1009.2975))
 
+A higher analog of the [[standard Courant algebroid]] with the [[generalized tangent bundle]] $T X \oplus T^* X$ replaced by $T X \oplus \wedge^n T^* X$ is discussed in
+
+* [[Marco Zambon]], _$L_\infty$-algebras and higher analogues of Dirac structures and Courant algebroids_, J. Symplectic Geometry, ([arXiv:1003.1004](http://arxiv.org/abs/1003.1004))
+
 The relation to [[schreiber:∞-Chern-Simons theory]] is discussed in 
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]_
