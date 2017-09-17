@@ -5,9 +5,14 @@
 
 ## Definitions
 
-In [[topology]], a (parametrised, oriented) __path__ in a [[space]] $X$ is a map (a [[morphism]] in an appropriate [[category]] of spaces) to $X$ from the [[unit interval]] $\mathbb{I} = [0,1]$.  A __path from $a$ to $b$__ is a path $c$ such that $c(0) = a$ and $c(1) = b$.  An __unparametrised path__ is an [[equivalence class]] of paths, such that $f$ and $g$ are equivalent if there is an [[monotone function|increasing]] [[automorphism]] $\phi$ of $\mathbb{I}$ such that $g = f \circ \phi$.  An __unoriented path__ is an equivalence class of paths such that $f$ is equivalent to $(x \mapsto f(1 - x))$.  A __Moore path__ has domain $[0,n]$ for any [[natural number]] $n$ (or possibly any nonnegative [[real number]]).  All of these variations can be combined, of course.  (For unoriented paths, one usually says 'between $a$ and $b$' instead of 'from $a$ to $b$'.  Also, a Moore path from $a$ to $b$ has $f(n) = b$ instead of $f(1) = b$.)
+In [[topology]], a (parametrised, oriented) __path__ in a [[space]] $X$ is a map (a [[morphism]] in an appropriate [[category]] of spaces) to $X$ from the [[unit interval]] $\mathbb{I} = [0,1]$.  A __path from $a$ to $b$__ is a path $c$ such that $c(0) = a$ and $c(1) = b$.  An __unparametrised path__ is an [[equivalence class]] of paths, such that $f$ and $g$ are equivalent if there is an [[monotone function|increasing]] [[automorphism]] $\phi$ of $\mathbb{I}$ such that $g = f \circ \phi$.  An __unoriented path__ is an equivalence class of paths such that $f$ is equivalent to $(x \mapsto f(1 - x))$.  A __Moore path__ has domain $[0,n]$ for some [[natural number]] (or possibly any [[real number]]) $n$.  All of these variations can be combined, of course.  (For unoriented paths, one usually says 'between $a$ and $b$' instead of 'from $a$ to $b$'.  Also, a Moore path from $a$ to $b$ has $f(n) = b$ instead of $f(1) = b$.)
 
-In [[graph theory]], a __path__ is a [[list]] of edges, each of which ends where the next begins.  Actually, this is a special case of the above, if we use Moore paths and interpret $[0,n]$ as the linear graph with $n + 1$ vertices and $n$ edges; in this way, the other variations become meaningful (although as the only directed graph automorphism of $[0,n]$ is the [[identity morphism|identity]], parametrisation is trivial for directed graphs and equivalent to orientation for undirected graphs).
+In [[graph theory]], a __path__ is a [[list]] of edges, each of which ends where the next begins.  Actually, this is a special case of the above, if we use Moore paths and interpret $[0,n]$ as the linear graph with $n + 1$ vertices and $n$ edges; in this way, the other variations become meaningful.  (However, as the only directed graph automorphism of $[0,n]$ is the [[identity morphism|identity]], parametrisation is trivial for directed graphs and equivalent to orientation for undirected graphs.  Note that a non-Moore path is simply an edge, one of the fundamental ingredients of a graph.)
+
+
+## Composition
+
+... [[Moore path category]] ...
 
 
 ## Related entries
