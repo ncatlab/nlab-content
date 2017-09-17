@@ -59,15 +59,20 @@ Moreover, Witten has suggested that this S-duality secretly drives a host of oth
 
 * [[Yang-Mills theory]]
 
-* [[electric-magnetic duality]]
+* **S-duality**
 
-* [[geometric Langlands duality]]
+  * [[electro-magnetic duality]]
+
+  * [[geometric Langlands correspondence]]
+
+  * [[quantum geometric Langlands correspondence]]
+
 
 
 
 ## References
 
-The understanding of Montonen-Olive duality as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory compactified on a torus is described in 
+The understanding of Montonen-Olive duality as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory -- the [[6d (2,0)-superconformal QFT]] -- compactified on a torus is described in 
 
 * [[Edward Witten]], 
 
@@ -75,5 +80,8 @@ The understanding of Montonen-Olive duality as a remnant conformal transformatio
 
   _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
 
+* [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
+
+See also [[electro-magnetic duality]].
 
 [[!redirects Montonen-Olive duality]]
