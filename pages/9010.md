@@ -70,6 +70,13 @@ The [[braided 3-group]] $\mathbf{Br}(R)$ of line 2-bundles over $Spec R$ has as 
 
 See at _[[super line 2-bundle]]_.
 
+## Related concepts
+
+* [[line bundle]]
+
+* [[line n-bundle]]
+
+* [[line n-bundle with connection]]
 
 ## References
 
@@ -107,4 +114,5 @@ The above higher supergeometric story is made explicit in
 [[!redirects line 2-bundles]]
 [[!redirects 2-line bundle]]
 [[!redirects 2-line bundles]]
+
 
