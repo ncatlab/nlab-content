@@ -63,6 +63,8 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 Related $n$lab entries include [[Weyl algebra]], [[regular differential operator]], [[local system]], [[differential bimodule]], [[Grothendieck connection]], [[crystal]], [[algebraic analysis]]. 
 
+* [[D-scheme]]
+
 
 ## References 
 
