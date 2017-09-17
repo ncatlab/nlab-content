@@ -738,6 +738,8 @@ For more and a discussion of [[twisted Umkehr maps]] see at _[[Poincaré duality
 
 * [[bivariant cohomology theory]]
 
+* [[bivariant algebraic K-theory]], [[K-motive]]
+
 * [[operator K-theory]]
 
 * [[E-theory]]
