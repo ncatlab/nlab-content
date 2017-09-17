@@ -79,8 +79,67 @@ where
 
 * the correspondence space $Gr_{1, 2}(\mathbb{C}^4)$ is the space of lines in planes in $\mathbb{C}^4$.
 
-
 (e.g. [Ward-Wells 90](#WardWells90))
+
+## Details
+
+### For 4d Minkowski space
+
+By the [exceptional spin isomorphism](spin+group#ExceptionalIsomorphisms) 
+
+$$
+  Spin(3,1) \simeq SL(2,\mathbb{C})
+$$
+
+one may identify points $(x^i) = (x^0, x^1, x^2, x^3)$ in [[Minkowski spacetime]] with [[Hermitean matrices]]
+
+$$
+  \left(x^{\alpha \beta}\right)
+  \coloneqq
+  (x^i \gamma_i^{\alpha \beta})
+  =
+  \tfrac{1}{\sqrt{2}}
+  \left(
+    \array{
+       x^0 + x^3 & x^1 + i x^2
+       \\
+       x^1 - i x^2 & x^0 - x^3
+    }
+  \right)
+$$
+
+(where $\gamma_i$ denote the generators of the [[Clifford algebra]] given by the [[Pauli matrices]]). This is such that the [[Lorentz metric]] [[norm]] is just the [[determinant]] of this [[matrix]]
+
+$$
+  \Vert \left(x^i\right) \Vert 
+   = 
+   2 det\left(\left(x^{\alpha \beta} \right)\right)
+  \,.
+$$
+
+A rank-2 [[tensor]] (2-from) $(F_{i j})$ with $F_{i j} = - F_{j i}$ has spinorial expression of the simple form
+
+$$
+  F_{\alpha_1 \beta_1 \alpha_2 \beta_2}
+  \coloneqq
+  F_{i_1 i_2} \gamma^{i_1}_{\alpha_1 \beta_1} \gamma^{i_2}_{\alpha_2 \beta_2}
+  = 
+  \phi_{\alpha_1 \alpha_2} \epsilon_{\beta_1 \beta_2}
+  + 
+  \psi_{\beta_1 \beta_2} \epsilon_{\alpha_1 \alpha_2}
+  \,.
+$$
+
+Crucially its [[Hodge star|Hodge dual]] has the simple expression
+
+$$
+  (\star F)_{\alpha_1 \beta_1 \alpha_2 \beta_2}
+  = 
+  - i \phi_{\alpha_1 \alpha_2} \epsilon_{\beta_1 \beta_2}
+  + 
+  i \psi_{\beta_1 \beta_2} \epsilon_{\alpha_1 \alpha_2}  
+$$
+
 
 ## Related concepts
 
