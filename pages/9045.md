@@ -47,6 +47,10 @@ See also
 
 * [[Jozef Steenbrink]], S. Zucker, _Variation of mixed Hodge structure I_, Invent. Math. __80__ (1985), 489-542.
 
+A review is in section 8.4 of 
+
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
 
 * Wikipedia, _[Hodge structure](http://en.wikipedia.org/wiki/Hodge_structure), 
 
