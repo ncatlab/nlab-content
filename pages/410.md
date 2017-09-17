@@ -45,6 +45,14 @@ More generally, even if the entire left adjoint $F$ doesn't exist, a [[free obje
 Dually, a __cofree functor__ is a [[right adjoint]] to a forgetful functor; these seem to be less common.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors are sometimes called __fascist functors__.
 
 
+### Examples
+
+* the cofree coalgebra on a vector space which applies to other coalgebras of a [[PROP]] of an [[operad]]. 
+
+* The right adjoint to the underlying functor $Set^C \to Set/C_0$ (and plenty more where that came from). 
+
+* [[coreflective subcategories]] 
+
 [[!redirects free functor]]
 [[!redirects free functors]]
 [[!redirects free construction]]
