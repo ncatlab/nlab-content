@@ -475,6 +475,47 @@ $$
 
 =--
 
+### The Heisenberg group and the Poisson bracket from equivalence correspondences
+
+Above we have interpreted [[maps]] $f \colon X \to Y$ as [[correspondences]]
+between $X$ and $Y$ by taking the [[correspondence space]] to be the 
+[[graph of a function|graph]] of $f$. There is also another natural way
+to regard maps as correspontences: we may simply take $X$ as the correspondence
+space, take the left map out of it to be the identity and the right map 
+to be $f$ itself:
+
+$$
+  \left(
+    X \stackrel{f}{\longrightarrow} Y
+  \right)
+  \;\;  
+    \mapsto
+  \;\;
+  \left(
+    \array{
+       && X
+       \\
+       & {}^{\mathllap{id}}\swarrow && \searrow^{\mathrlap{f}}
+       \\
+      X && && Y
+    }
+  \right)
+  \,.
+$$
+
+Consider now those correspondences which are [[equivalences]] ([[isomorphisms]])
+in the [[category of correspondences]] $Corr_1(\mathbf{H})$. If we forget
+the [[smoot structure]] on everything and consider just correspondences
+of the underlying [[sets]], hence $Corr_1(Set)$, then it is easy to see
+that under the [[cardinality]] map correspondences are given by [[matrices]]
+with [[cardinality]] entries and [[composition]] of correspondence 
+by [[fiber product]] induces [[matrix multiplication]]. 
+
+Therefor for a correspondence to be an equivalence-transformation it has
+to be of the form above, induced by a direct [[map]], which in 
+addition is an [[equivalence]] $f \colon X \stackrel{\simeq}{\longrightarrow} Y$.
+
+
 
 ## References
 
