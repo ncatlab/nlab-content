@@ -56,6 +56,8 @@ __Formal group schemes__ are simply the [[group object]]s in a category of [[for
 
 For a generalization over [[operads]] see ([Fresse](#Fresse)).
 
+
+
 ## Properties
 
 ### In characteristic 0
@@ -68,6 +70,10 @@ The quotient [[moduli stack]] $\mathcal{M}_{FG} \times Spec \mathbb{Q}$ of forma
 =--
 
 For instance ([Lurie 10, lecture 12, corollary 3](#Lurie10)).
+
+### Universal formal group
+
+* [[Lazard ring]], [[Quillen's theorem on MU]]
 
 ### Relation to complex oriented cohomology theories
 
@@ -115,6 +121,8 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 ## References
 
+### General
+
 * [[Alexander Grothendieck]] et al. [[SGA]] III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
  {#Grothendieck}
 
@@ -127,12 +135,24 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 * Michel [[Demazure, lectures on p-divisible groups]]
  
-* [[Daniel Quillen]], on the formal group laws of unoriented and complex cobordism theory, 1969, [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183530915)
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
- {#Lurie10}
+[[Quillen's theorem on MU]] is due to
+
+* {#Quillen69} [[Daniel Quillen]], on the formal group laws of unoriented and complex cobordism theory, 1969, [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183530915)
 
 
+### 1-Dimensional formal groups 
+
+A basuc introduction is in
+
+* Carl Erickson, _One-dimensional formal groups_ ([pdf](http://people.brandeis.edu/~cwe/pdfs/formal_groups.pdf))
+
+See also
+
+* [[Takeshi Torii]], _One dimensional formal group laws of height $N$ and $N-1$_, PhD thesis 2001 ([pdf](http://mathnt.mat.jhu.edu/mathnew/Thesis/Torii.thesis.pdf))
+
+* [[Takeshi Torii]], _On Degeneration of One-Dimensional Formal Group Laws and Applications to Stable Homotopy Theory_,  American Journal of Mathematics Vol. 125, No. 5 (Oct., 2003), pp. 1037-1077 ([JSTOR](http://www.jstor.org/stable/25099207))
 
 [[!redirects formal groups]]
 
@@ -141,4 +161,3 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 [[!redirects formal group law]]
 [[!redirects formal group laws]]
-
