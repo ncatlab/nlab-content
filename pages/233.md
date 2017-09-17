@@ -808,6 +808,8 @@ $$
 
   * [[linear independence]]
 
+  * [[Noetherian module]]
+
   * [[Fredholm module]]
 
   * [[completion of a module]]
