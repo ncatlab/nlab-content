@@ -24,7 +24,7 @@ In [[logic]], a __proposition__ is intended to be interpreted [[semantics|semant
 
 ## Predicates
 
-If (in a given context $\Gamma$) we have a [[type]] $A$, then we may extend $\Gamma$ to a context $\Delta \coloneqq \Gamma, x\colon A$ (assuming that the [[variable]] $x$ is not otherwise in use).  We may then think of any proposition in $\Delta$ as a __predicate__ $P$ over $\Gamma$ with the __free variable__ $x$ of type $A$; this generalises to more complicated extensions of contexts (say by several variables).
+If (in a given context $\Gamma$) we have a [[type]] $A$, then we may extend $\Gamma$ to a context $\Delta \coloneqq \Gamma, x\colon A$ (assuming that the [[variable]] $x$ is not otherwise in use).  We may then think of any proposition in $\Delta$ as a __predicate__ $P$ in $\Gamma$ with the __free variable__ $x$ of type $A$; this generalises to more complicated extensions of contexts (say by several variables).
 
 If $P$ is a predicate with free variable $x$ of type $A$ and $t$ is a [[term]] of type $A$, then we get a proposition $P[t/x]$ by substituting $t$ for every instance of $x$ in $P$.  Conversely, any proposition $Q$ may be interpreted as a predicate $Q[\hat{x}]$ in which the free variable $x$ simply doesn't appear.  (We have $Q[\hat{x}][t/x] = Q$ for every term $t$.)
 
@@ -40,6 +40,11 @@ More specifically, if $\mathcal{C}$ is a [[finitely complete category]], then th
 If $\mathcal{C}$ is even a [[topos]], then a subobject $Q$ of $\Gamma$ may be identified with a term whose type is the [[subobject classifier]] $\Omega$, and the predicate $Q[\hat{x}]$ is the [[composite]] $\Gamma \times A \to \Gamma \to \Omega$.  Given a term $t\colon \Gamma \to A$ and a predicate $P\colon \Gamma \times A \to \Omega$, the proposition $P[t/x]$ is the composite $\Gamma \to \Gamma \times A \to \Omega$.  Internalising a bit, we may view $Q$ as a [[global element]] $1 \to \Omega^\Gamma$ and $P$ as a [[morphism]] $A \to \Omega^\Gamma$, recovering the view that predicates are proposition-valued 'functions' (morphisms).
 
 In general, we may intuitively think of an object $A$ in the [[slice category]] $\mathcal{C}/\Gamma$ as the 'set' (object) of possible values of terms $t$ of type $A$ in context $\Gamma$, and think of a predicate $P$ with a free variable of type $A$ (in the same context) as being the 'subset' (subobject) on those $t$ for which the statement $\phi(t)$ is [[true]].
+
+
+## Propositional and predicate logic
+
+In [[propositional logic]], we fix a single context and consider the logic of propositions in that context.  In [[predicate logic]], we fix a base context but work also in extensions of that context by free variables.  Predicate logic uses [[quantifiers]] as a way to move between contexts, more specifically to move from a predicate $P$ in a given context $\Gamma$ (which is a proposition in some extension of $\Gamma$) to a proposition in $\Gamma$.  The free variables in the predicate still appear in the written form of the proposition, but they are now *bound* variables and are not free in the proposition\'s context; some logicians prefer to systematically replace bound variables with numbered placeholders (especially when defining [[Goedel number]]s and the like).
 
 
 [[!redirects proposition]]
