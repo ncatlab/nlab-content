@@ -42,6 +42,7 @@ For instance when working with the [[model structure on functors|injective]] [[m
 ## Details
 
 ### For ordinary presheaves
+ {#ForPresheaves}
 
 For ordinary [[presheaves]], a descent object is a set of _[[matching families]]_
 
@@ -75,6 +76,38 @@ $$
 $$
 
 Writing this out in components shows that this is the set of [[matching families]].
+
+If the [[descent morphism]]
+
+$$
+  [C^{op}, Set](X, A) \to Desc(\{U_i\}, A)
+$$
+
+is an [[isomorphism]] one says that $A$ satisfies the [[sheaf]]-condition with respect to the [[cover]] $\{U_i \to X\}$. If this morphism is only a [[monomorphism]] one says that $A$ satisfies the [[separated presheaf]]-condition.
+
+
+### For groupoid valued presheaves / pseudofunctors
+ {#ForGroupoidValuedPresheaves}
+
+For $A : C^{op} \to $ [[Grpd]] a [[2-functor]] (hence a "[[pseudofunctor]]" if $C$ is an ordinary [[category]] regarded as a [[2-category]]) and for $\hat X \to X$ a [[covering]] morphism in $C$, the descent object now is a [[groupoid]] 
+
+$$
+  Desc(\hat X, A) := [C^{op}, Grpd](\hat X, A) \in Grpd
+  \,.
+$$ 
+
+If the [[descent morphism]]
+
+$$
+  [C^{op}, Grpd](X, A) \to Desc(\hat X, A)
+$$ 
+
+is an [[equivalence of groupoids]], one says that $A$ satisfies the _[[(2,1)-sheaf]]_- or _[[stack]]_-condition with respect to the [[cover]] $\hat X \to X$. If it is just a [[full and faithful functor]], one says (sometimes) that $A$ satisfies the condition for a _[[separated prestack]]_ with respect to this cover.
+
+Similar statements hold for the case of 2-functors with values in [[Cat]]. Here one also often talks about a _[[stack]]-condition_, though less ambiguous would be to speak of _[[2-sheaf]]-conditions_.
+
+By the [[Grothendieck construction]] one may identifiy pseudofunctors $C^{op} \to Cat$ equivalently with [[fibered categories]] (or just [[categories fibered in groupoids]] for $C^{op} \to Grpd$) over $C$, and all of the above has analogs in this dual description.
+
 
 ### For simplicial presheaves
 
@@ -121,7 +154,7 @@ A definition of descent objects for presheaves with values in strict $\omega$-ca
 
 A discussion of a missing condition on this definition is in 
 
-* [[Dominic Verity]], _Relating descent notions_ ([pdf](http://ncatlab.org/nlab/files/VerityDescent.pdf) [nLab](Verity on descent for strict omega-groupoid valued presheaves))
+* [[Dominic Verity]], _Relating descent notions_ ([pdf](http://ncatlab.org/nlab/files/VerityDescent.pdf) [[Verity on descent for strict omega-groupoid valued presheaves|nLab]])
   {#Verity} 
 
 [[!redirects descent objects]]
