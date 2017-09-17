@@ -17,7 +17,7 @@
 
 For $G$ a [[topological group]] a _compact subgroup_ is a topological [[subgroup]] $K \subset G$ which is a [[compact topological space]].
 
-A _maximal compact subgroup_ is a maximal subgroup with this property. This exists uniquely up to [[conjugation]], if $G$ is a (finite-dimensional) [[Lie group]].
+A _maximal compact subgroup_ is a maximal subgroup with this property. This exists uniquely up to [[conjugation]], if $G$ is a (finite-dimensional) [[connected space|connected]] [[Lie group]]. (Notice it might not exist at all without the connectedness assumption. An example is the [[Prüfer group]] $\mathbb{Z}[1/p]/\mathbb{Z}$ endowed with the discrete ($0$-dimensional) smooth structure. This is a union of an increasing sequence of finite cyclic groups, each obviously compact.) 
 
 ## Properties
 
