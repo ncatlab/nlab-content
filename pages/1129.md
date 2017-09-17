@@ -30,7 +30,7 @@ Let $C$ be a [[category]] and $J \subset Mor(C)$ a [[class]] of [[morphism]]s in
 
 Frequently $J$ is the class of all [[monomorphism]]s or a related class.  
 
-This is notably the case for  $C$ is a [[category of chain complexes]] equipped with the injective [[model structure on chain complexes]] and $J$ is its class of cofibrations.
+This is notably the case for  $C$ is a [[category of chain complexes]] equipped with the injective [[model structure on chain complexes]] and $J$ is its class of [[cofibrations]].
 
 =--
 
@@ -69,6 +69,8 @@ We say that a category $C$ has **enough injectives** if every object admits a mo
 
 
 =---
+
+
 
 The dual notion is a [[projective object]]. 
 
@@ -127,7 +129,7 @@ The term _injective object_ is used most frequently in the context that $C$ is a
 ###### Observation
 
 
-For $C$ an [[abelian category]] the class $J$ of monomorphisms is the same as the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is [[exact sequence|exact]].  
+For $C$ an [[abelian category]] the class $J$ of monomorphisms is the same as the class of morphisms $f : A \to B$ such that $0 \to A \stackrel{f}{\to} B$ is [[exact sequence|exact]].  
 
 =--
 
@@ -162,7 +164,7 @@ is a pullback, hence $0 \to A \to B$ is exact.
 
 =--
 
-+-- {: .num_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 An [[object]] $I$ of an abelian category $C$ is then **injective** if it satisfies the following equivalent conditions:
@@ -249,18 +251,30 @@ _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mat
 
 * At least assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  Full AC is much more than required, however; [[small violations of choice]] suffices.
 
-* As soon as the category of abelian groups has enough injectives, so does the [[abelian category]] of [[modules]] over some [[ring]] $R$.  To see this, observe that the forgetful functor $U\colon R Mod \to AbGp$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $\mathbb{R}$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]], and so its right adjoint $R_*$ preserves injective objects.  Thus given any $R$-module $M$, we can embed $U(M)$ in an injective abelian group $I$, and then $M$ embeds in $R_*(I)$.
+* As soon as the category [[Ab]] of [[abelian groups]] has enough injectives, so does the [[abelian category]] $R$[[Mod]] of [[modules]] over some [[ring]] $R$.  To see this, observe that the [[forgetful functor]] $U\colon R Mod \to AbGp$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $\mathbb{R}$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]], and so its right adjoint $R_*$ preserves injective objects.  Thus given any $R$-module $M$, we can embed $U(M)$ in an injective abelian group $I$, and then $M$ embeds in $R_*(I)$.
 
-* The category of abelian [[sheaves]] on any small [[site]] also has enough injectives.  (This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.)  A proof of this can be found in [[Peter Johnstone]]'s book *Topos Theory*, p261.
+* The category of [[abelian sheaves]] on any small [[site]] also has enough injectives.  (This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.)  A proof of this can be found in [[Peter Johnstone]]'s book *Topos Theory*, p261.
 
 * Combining the last fact with the penultimate one (which relativizes to any topos), we find that the category of modules over any [[sheaf of rings]] on any small site also has enough injectives.  This slick proof of this important fact was pointed out by Colin McLarty in an email to the categories list dated 10 Oct 2010.
 
+## Properties
+
+### Injective resolutions
+ {#InjectiveResolutions}
+
+spring
 
 ## References
 
+The notion of injective modules was introduced in 
+
+* R. Baer (1940)
+
+(The dual notion of [[projective modules]] was considered explicitly only much later.)
+
 A general discussion can be found in 
 
-* Kashiwara-Schapira, _[[Categories and Sheaves]]_
+* Kashiwara, Schapira, _[[Categories and Sheaves]]_
 
 The general notion of injective objects is in section 9.5, the case of injective complexes in section 14.1.
 
