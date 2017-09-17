@@ -231,13 +231,27 @@ As a special case this reproduces the [above statement](#LocalizationOfPresheafT
 
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
-* [[connected topos]] / [[∞-connected (∞,1)-topos]]
+  * [[connected topos]] / [[∞-connected (∞,1)-topos]]
 
-* [[totally connected topos]] / [[totally connected (∞,1)-topos]]
+  * [[strongly connected topos]] / [[strongly ∞-connected (∞,1)-topos]]
+
+  * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
 
 * **local topos** / [[local (∞,1)-topos]].
 
 * [[cohesive topos]] / [[cohesive (∞,1)-topos]]
+
+and
+
+* [[locally connected site]], [[locally ∞-connected site]]
+
+* [[connected site]]
+
+* [[local site]]
+
+* [[cohesive site]], [[(∞,1)-cohesive site]]
+
+
 
 
 ## References
