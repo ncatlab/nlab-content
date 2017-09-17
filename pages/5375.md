@@ -16,11 +16,11 @@
 
 ## Idea
 
-In _anabelian geometry_ one studies how much information about a [[space]] $X$ (specifically: an [[algebraic variety]]) is contained already in its first [[étale homotopy group]] $\pi_1^{et}(x,X)$ (specifically: the [[algebraic fundamental group]]). 
+In _anabelian geometry_ one studies how much information about a [[space]] $X$ (specifically: an [[algebraic variety]]) is contained already in its first [[étale homotopy group]] $\pi^{et}_1(X,x)$ (specifically: the [[algebraic fundamental group]]). 
 
-The term "anabelian" is alluding to "the _less_ [[abelian group|abelian]] $\pi_1(X,x)$ is, the more information it carries about $X$." Precisely: an [[anabelian group]] is a non-[[trivial group]] for which every [[finite index subgroup]] has trivial [[center]].
+The term "anabelian" is alluding to "the _less_ [[abelian group|abelian]] $\pi^{et}_1(X,x)$ is, the more information it carries about $X$." Precisely: an [[anabelian group]] is a non-[[trivial group]] for which every [[finite index subgroup]] has trivial [[center]].
 
-Accordingly, an algebraic variety whose [[isomorphism class]] is entirely determined by $\pi_1^{et}(x,X)$ is called an **anabelian variety**.
+Accordingly, an algebraic variety whose [[isomorphism class]] is entirely determined by $\pi^{et}_1(X,x)$ is called an **anabelian variety**.
 
 An early conjecture motivating the theory (in [Grothendieck](#Grothendieck)) was that all [[hyperbolic curves]] over [[number fields]] are anabelian varieties. This was eventually proven by various authors in various cases.  In ([Uchida](#Uchida)) and ([Neukirch](#Neukirch)) it was shown that an isomorphism between [[Galois groups]] of [[number fields]] implies the existence of an isomorphism between those number fields. For algebraic curves over [[finite fields]], over [[number fields]] and over [[p-adic field]] the statement was eventually completed by ([Mochizuki 96](#Mochizuki96)).
 
