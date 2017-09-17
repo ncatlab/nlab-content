@@ -35,9 +35,9 @@ In a [[Boolean category|Boolean]] [[extensive category]] (such as a [[Boolean to
 
 Partial map classifiers also exist in every [[elementary topos]], but in the non-Boolean case they are harder to construct.  In the [[internal logic]], $B_\bot$ can be defined in two ways:
 
-* $B_\bot$ is the set of [[subsingleton]] subsets of $B$.  In this case, the universal partial map $B_\bot \rightharpoonup B$ has domain the set of singleton subsets of $B$, on which it is an isomorphism.
+*  $B_\bot$ is a [[subobject]] of the [[power object]] $\mathcal{P}B$ consisting of the [[subsingleton]] subobjects of $B$.  In this case, the universal partial map $B_\bot \rightharpoonup B$ has domain the set of [[singleton]] subobjects of $B$, on which it is an isomorphism.
 
-* $B_\bot$ is the set of functions $P\to B$ whose domain $P$ is a [[subsingleton]].  In this case, the universal partial map $B_\bot \rightharpoonup B$ has domain the set of maps whose domain is [[terminal object|terminal]], on which it is an isomorphism.
+*  $B_\bot$ is the object of partial maps $1 \rightharpoonup B$.  In this case, the universal partial map $B_\bot \rightharpoonup B$ has domain the set of partial maps which are total, on which it is an isomorphism.
 
 Note that neither of these constructions is [[predicative mathematics|predicative]].  The second makes more sense in a [[higher category]] (or in its internal logic such as [[homotopy type theory]]).
 
