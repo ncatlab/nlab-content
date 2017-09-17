@@ -1,0 +1,8 @@
+
+* [webpage](http://user.math.uzh.ch/ayoub/)
+
+## Related entries
+
+* [[motive]]
+
+category: people
