@@ -1,0 +1,1 @@
+The Urysohn metrization theorem states that a [[second-countable space|second-countable]] [[separation axiom|regular Hausdorff]] [[topological space|space]] $X$ is [[metrizable space|metrizable]].  
