@@ -1,10 +1,10 @@
 ## Definition
 
-Let $M$ be a [[category]] with two [[model category|model structures]] $(C_q,W_q,F_q)$ and $(C_h,W_h,F_h)$, and assume that $F_h\subseteq F_q$ and $W_h \subseteq W_q$.  
+Let $M$ be a [[category]] with two closed [[model category|model structures]] $(C_q,W_q,F_q)$ and $(C_h,W_h,F_h)$, and assume that $F_h\subseteq F_q$ and $W_h \subseteq W_q$.  
 
 +-- {: .un_theorem}
 ###### Theorem
-There is a **mixed model structure** $(C_m,W_q,F_h)$ on $M$ in which the fibrations are the $h$-fibrations, but the weak equivalences are the $q$-equivalences.
+There is a (necessarily unique closed) **mixed model structure** $(C_m,W_q,F_h)$ on $M$ in which the fibrations are the $h$-fibrations, but the weak equivalences are the $q$-equivalences.
 =--
 
 ## Properties
