@@ -1193,6 +1193,10 @@ $$
 
 * [[synthetic differential ∞-groupoid]]
 
+## Related concepts
+
+* [[differential homotopy type theory]]
+
 ## References
 
 
