@@ -1,4 +1,8 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea ##
 A Montel space is a [[topological vector space]] such that the [[strong dual]] has a compactness property that infinite dimensional [[normed spaces]] cannot have: The weak and strong topologies coincide.
 
