@@ -56,7 +56,9 @@ $$s, t\colon E \stackrel{\to}{\to} V$$
 
 (the source and target functions). More generally, a __quiver internal to a category__ (more simply, *in* a category) $C$ consists of two objects $E$, $V$ and two morphisms $s, t\colon E \to V$. 
 
-If $G = (E, V, s, t)$ and $G' = (E', V', s', t')$ are two quivers in a category $C$, a __morphism__ $g\colon G \to G'$ is a pair of morphisms $g_0\colon V \to V'$, $g_1\colon E \to E'$ such that $s' \circ g_1 = g_0 \circ s$ and $t' \circ g_1 = g_0 \circ t$. 
+If $G = (E, V, s, t)$ and $G' = (E', V', s', t')$ are two quivers in a category $C$, a __morphism__ $g\colon G \to G'$ is a pair of morphisms $g_0\colon V \to V'$, $g_1\colon E \to E'$ such that $s' \circ g_1 = g_0 \circ s$ and $t' \circ g_1 = g_0 \circ t$.
+
+In [[graph theory]], a quiver may be called a __directed pseudograph__ (or some variation on that theme), but category theorists often just call them __directed graphs__.
 
 
 ## Remarks
@@ -131,3 +133,5 @@ These references need to be cleaned up. There are also many more to be added.
 
 [[!redirects quiver]]
 [[!redirects quivers]]
+[[!redirects directed pseudograph]]
+[[!redirects directed pseudographs]]
