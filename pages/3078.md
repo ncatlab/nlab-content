@@ -7,6 +7,10 @@
 
 * [[Kapranov's noncommutative geometry]]
 
-[[!redirects Kapranov]]
 
 category: people
+
+[[!redirects Mikhail Kapranov]]
+[[!redirects Kapranov]]
+[[!redirects Михайл Капранов]]
+[[!redirects Капранов]]
