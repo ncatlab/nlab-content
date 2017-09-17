@@ -16,6 +16,47 @@
 
 ## Idea
 
+By _quantization_ is meant some process that 
+
+1. reads in a system of [[classical mechanics]], or rather of _[[prequantum field theory|prequantum]]_ data in the form of an [[Lagrangian]]/[[action functional]] and or a [[phase space]] equipped with [[symplectic manifold|symplectic structure]]
+
+1. and returns a corresponing system of [[quantum mechanics]].
+
+### Motivation from classical mechanics and Lie theory
+
+Quantization of course was and is motivated by experiment, hence by ovservation of the [[observable universe]]: it just so happens that [[quantum mechanics]] and [[quantum field theory]] correctly account for experimental observations where [[classical mechanics]] and [[classical field theory]] gives no answer or incorrect answers. A historically important example is the phenomenon called the "[[ultraviolet catastrophe]]", a [[paradox]] predicted by classical [[statistical mechanics]] which is _not_ observed in nature, and which is corrected by [[quantum mechanics]].
+
+But one may also ask indepently of experimental input, if there are good formal reasons and motivations to pass from [[classical mechanics]] to [[quantum mechanics]]. Could one have been led to [[quantum mechanics]] by just pondering the mathematical formalism of [[classical mechanics]]?
+
+Here is an argument to this extent. It will work for readers with a background in modern [[mathematics]], notably in [[Lie theory]], and with an understanding of the formalization of classical/prequantum mechanics in terms of [[symplectic geometry]]. 
+
+A system of [[classical mechanics]]/prequantum mechnanics is a [[phase space]], formalized as a [[symplectic manifold]] $(X, \omega)$. A symplectic manifold is in particular a [[Poisson manifold]], which means that the [[algebra of functions]] on [[phase space]] $X$, the algebra of classical [[observables]], is canonically equipped with a compatible [[Lie bracket]]: the _[[Poisson bracket]]_. This Lie bracket is what controls [[dynamics]] in [[classical mechanics]]. For instance if $H \in C^\infty(X)$ is the function on [[phase space]] which is interpreted as assigning to each configiuration of the system its [[energy]] -- the [[Hamiltonian]] function -- then the [[Poisson bracket]] with $H$ yields the [[infinitesimal object|infinitesimal]] time evolution of the system: the [[differential equation]] famous as [[Hamilton's equations]].
+
+To take notice of here is the _[[infinitesimal space|infinitesimal]]_ nature of the [[Poisson bracket]]. Generally, whenever one has a [[Lie algebra]] $\mathfrak{g}$, then it is to be regarded as the [[infinitesimal object|infinitesimal]] approximation to a globally defined object, the corresponding [[Lie group]] (or generally [[smooth group]]) $G$. One also says that $G$ is a _[[Lie integration]]_ of $\mathfrak{g}$ and that $\mathfrak{g}$ is the [[Lie differentiation]] of $G$.
+
+Therefore a natural question to ask is: _Since the observables in [[classical mechanics]] form a [[Lie algebra]] under [[Poisson bracket]], what then is the corresponding [[Lie group]]?_
+
+The answer to this is of course "well known" in the literature, in the sense that there are relevant monographs which state the answer. But, maybe surprisingly, the answer to this question is not (at time of this writing) a widely advertized fact that would have found its way into the basic educational textbooks. The answer is that this [[Lie group]] which integrates the [[Poisson bracket]] is the "[[quantomorphism group]]", an object that seamlessly leads over to the [[quantum mechanics]] of the system.
+
+Before we say this in more detail, we need a brief technical aside: of course [[Lie integration]] is not quite unique. There may be different global [[Lie group]] objects with the same [[Lie algebra]]. 
+
+The simplest example of this is already the one of central importance for the issue of quantization, namely the Lie integration of the abelian [[line Lie algebra]] $\mathbb{R}$. This has essentially two different [[Lie groups]] associated with it: the [[simply connected topological space|simply connected]] [[translation group]], which is just $\mathbb{R}$ itself again, equipped with its canonical additive [[abelian group]] structure, and the [[discrete space|discrete]] [[quotient]] of this by the group of [[integers]], which is the [[circle group]]
+
+$$
+  U(1) = \mathbb{R}/\mathbb{Z}
+  \,.
+$$
+
+
+
+
+
+
+
+
+### Quantization of field theory
+
+
 An interesting subclass of [[quantum field theory|quantum field theories]] is thought to arise from [[prequantum field theory]] via a process called _quantization_.   This process reads in certain -- usually [[differential geometry|differential geometric]] -- data, interprets this data as specifying the dynamics of some [[physical system]], and spits out the [[quantum field theory]] that encodes the time evolution of this system.
 
 Historically, it was an approximation to the true time evolution that was originally found and studied, by Newton, Maxwell, Einstein and others. This is now known as "[[classical physics]]". The true dynamics in turn is "[[quantum physics]]".
