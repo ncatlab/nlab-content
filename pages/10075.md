@@ -38,6 +38,8 @@ $$
 
 * When a [[prequantum line bundle]] is positive, then traditional [[geometric quantization]] with [[Kähler polarization]] coincides with [[geometric quantization by push-forward]], see [this remark](geometric+quantization#SectionsAndEulerQuantizationCoincidesOnPositiveBundles).
 
+* [[stable vector bundle]], 
+
 ## References
 
 * Wikipedia, _[Positive line bundle](http://en.wikipedia.org/wiki/Positive_form#Positive_line_bundles)_
