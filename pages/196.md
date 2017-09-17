@@ -68,6 +68,21 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 * [[fixed point]]
 
+* [[functor]]
+
+* [[2-functor]] / [[pseudofunctor]]
+
+  * [[monoidal functor]]
+
+* [[n-functor]]
+
+* [[(∞,1)-functor]]
+
+* [[(∞,n)-functor]]
+
+
+
+
 [[!redirects function]]
 [[!redirects functions]]
 
