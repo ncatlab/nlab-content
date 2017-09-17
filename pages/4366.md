@@ -33,4 +33,5 @@ To appear in the _Journal of Pure and Applied Algebra_. 31 pages.
 
 category: people
 
+[[!redirects Thomas Fiore]]
 [[!redirects Tom Fiore]]
