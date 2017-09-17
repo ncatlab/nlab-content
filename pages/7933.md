@@ -64,6 +64,7 @@ The basic constructions that higher geometric quantization is concerned with are
 | [[∞-representation]] of [[n-group]] $\mathbf{B}^{n-1}\mathbb{G}$ on $V_n$| $\array{ V_n &\to& V_n//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow^{\mathbf{p}} \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
 |[[prequantum space of states]] | $\mathbf{\Gamma}_X(E) := [\mathbf{c},\mathbf{p}]_{/\mathbf{B}^n \mathbb{G}} = \left\{ \array{ X &&\stackrel{\sigma}{\to}&& V//\mathbf{B}^{n-1}\mathbb{G} \\ & {}_{\mathllap{\mathbf{c}}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{p}}} \\ && \mathbf{B}^n \mathbb{G} } \right\} $ | [[cocycles]] in $[\mathbf{c}]$-[[twisted cohomology|twisted V-cohomology]] |
 | [[prequantum operator]] | $\widehat{(-)} : \mathbf{\Gamma}_X(E) \times \mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) \to \mathbf{\Gamma}_X(E)$ | [[∞-action]] of twist automorphisms on twisted cocycles |
+| [[trace]] to higher [[dimension]] | $\array{ [S^1, V_n//\mathbf{B}^{n-1}\mathbb{G}_{conn}] &\stackrel{tr\,hol_{S^1}}{\to}& V_{n-1}//\mathbf{B}^{n-2}\mathbb{G}_{conn}  \\  \downarrow^{\mathrlap{\mathbf{p}^{V_n}_{conn}}} && \downarrow^{\mathrlap{\mathbf{p}^{V_{n-1}}_{conn}}} \\ \mathbf{B}^n \mathbb{G}_{conn} &\stackrel{\exp(2 \pi i \int_{S^1}(-))}{\to}& \mathbf{B}^{n-1} \mathbb{G}_{conn} }$  | [[fiber integration in ordinary differential cohomology]] adjoined with one in nonabelian differential cohomology |
 
 
 
