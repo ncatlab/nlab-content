@@ -4,6 +4,9 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 =--
 ***
 
++-- {: .absolute style="position: fixed"}
+Can we fix it?
+=--
 
 +-- {: .num_theorem #thmA}
 ###### Theorem ######
@@ -129,6 +132,16 @@ $$
 [[reflective subcategory|*reflective* subcategory]]
 
 [[reflective subcategory|<em>reflective</em> subcategory]]
+
+A test of *underlining*, with punctuation
+
+A test of _underlining_, with punctuation
+
+A test of **underlining**, with punctuation
+
+A test of __underlining__, with punctuation
+
+Only it wasn't *underlining*, it was **emphasis**.
 
 category: meta
 
