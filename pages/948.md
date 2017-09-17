@@ -122,6 +122,10 @@ The distinction between object language and metalanguage exists even in [[classi
 
 Concepts that usually arise in constructive mathematics, often because they are classically trivial:
 
+* [[type theory]]
+
+* [[setoid]]
+
 *  [[anafunctor]] (classically equivalent to a [[functor]])
 *  [[apartness relation]] (classically complementary to an [[equivalence relation]])
 *  [[comparison]] (classically complementary to a [[transitive relation]])
