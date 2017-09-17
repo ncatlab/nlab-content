@@ -325,7 +325,7 @@ A [[locally presentable category]] $\mathcal{C}$ is called a _[[topos]]_, precis
 
 ## Summary and overview
 
-In summary the discussion [above](#BasicIdea) says that the notion of locally presenatble categories sits in a sequence of notions as indicated in the row labeled "category theory" in the following table. The other rows are supposed to indicate that regarding a category as a [[(1,1)-category]] and simply varying in this story the parameters $(n,r)$ in "[[(n,r)-category]]" one obtains fairly straightforward analogs of the notion of locally presentable category in other fragments of [[higher category theory]]. These we discuss in more detail further below.
+In summary the discussion [above](#BasicIdea) says that the notion of locally presentable categories sits in a sequence of notions as indicated in the row labeled "category theory" in the following table. The other rows are supposed to indicate that regarding a category as a [[(1,1)-category]] and simply varying in this story the parameters $(n,r)$ in "[[(n,r)-category]]" one obtains fairly straightforward analogs of the notion of locally presentable category in other fragments of [[higher category theory]]. These we discuss in more detail further below.
 
 **Locally presentable categories:** [[large categories|Large categories]] whose [[objects]] arise from [[small object|small]] [[generators]] under [[small colimit|small]] [[relations]].
 
