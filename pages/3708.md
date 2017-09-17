@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -352,7 +352,7 @@ That this is a bijection is the statement of the above lemma.
 
 The original observation that $T_{Ring} \simeq Mod$ is due to
 
-* Quillen, ...
+* [[Daniel Quillen]], ...
 
 A discusson of $T_{SmoothAlg}$ is in 
 
