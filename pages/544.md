@@ -3,6 +3,8 @@
 </div>
 
 
+## Idea
+
 An $A_\infty$-algebra is an algebra for the cofibrant resolution of the [[operad]] $Ass$ of associative algebras: it is an algebra which is associative only up to higher coherent homotopy.
 
 Concretely, an $A_\infty$-algebra is the structure of a degree 1 coderivation 
@@ -58,13 +60,41 @@ $$
 $$
 For example, $f_1\circ D_1 = D_1\circ f_1$.
 
-#Remarks#
+
+
+## Relation to dg-algebras
+
+
++-- {: .un_theorem }
+###### Theorem
+**(Kadeishvili (1980), Merkulov (1999))**
+
+If $A$ is a [[dg-algebra]], regarded as a strictly associative $A_\infty$-algebra, its [[chain homology and cohomology|chain cohomology]] $H^\bullet(A)$, regarded as a [[chain complex]] with trivial differentials, naturally carries the structure of an $A_\infty$-algebra, unique up to isomorphism, and is weakly equivalent to $A$ as an $A_\infty$-algebra.
+
+=--
+
+
++-- {: .un_remark }
+###### Remark
+
+This theorem provides a large supply of examples of $A_\infty$-algebras: there is a natural $A_\infty$-algebra structure on all cohomoloies such as
+
+* [[de Rham cohomology]]
+
+* [[Hochschild cohomology]]
+
+etc.
+=--
+
+
+
+## Related concepts
 
 * See also [[L-infinity-algebra]], [[A-infinity-category]].
 
-#References#
+## References
 
-* B. Keller, _A brief introduction to $A_\infty$-algebras_ ([pdf](http://people.math.jussieu.fr/~keller/publ/IntroAinfEdinb.pdf))
+* [[Bernhard Keller]], _A brief introduction to $A_\infty$-algebras_ ([pdf](http://people.math.jussieu.fr/~keller/publ/IntroAinfEdinb.pdf))
 
 
 [[!redirects A-infinity-algebras]]
