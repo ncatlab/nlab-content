@@ -5,12 +5,19 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 #### Phyics
 +--{: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
+
+
+
 
 #Contents#
 * automatic table of contents goes here
