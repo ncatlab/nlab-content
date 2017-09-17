@@ -17,7 +17,7 @@
 
 Let  $\mathbb{C}$ and $\mathbb{D}$ be $\mathbb{E}$-[[indexed categories]], that is, [[pseudofunctors]] $\mathbb{E}^\mathrm{op} \to Cat$.
 
-Then an **$\mathbb{E}$-indexed functor** $F:{\mathbb{C}}\to{\mathbb{D}}$ is a [[pseudonatural transformation]] $F \colon \mathbb{C} \Rightarrow \mathbb{D}$: it assigns to each [[object]] $A$ of $\mathbb{E}$ a functor $F^A:{\mathbb{C}}^A\to{\mathbb{D}}^A$ and to each [[morphism]] $f:A\to B$ of $\mathbb{E}$ a coherent [[isomorphism]] $\mathbb{D}(f) \circ F^B \cong F^A \circ \mathbb{C}(f)$.
+Then an **$\mathbb{E}$-indexed functor** $F:{\mathbb{C}}\to{\mathbb{D}}$ is a [[pseudonatural transformation]] $F \colon \mathbb{C} \Rightarrow \mathbb{D}$: it assigns to each [[object]] $A$ of $\mathbb{E}$ a [[functor]] $F^A:{\mathbb{C}}^A\to{\mathbb{D}}^A$ and to each [[morphism]] $f:A\to B$ of $\mathbb{E}$ a [[natural isomorphism]] $\mathbb{D}(f) \circ F^B \cong F^A \circ \mathbb{C}(f)$ that is coherent with respect to the structural isomorphisms of $\mathbb{C}$ and $\mathbb{D}$ (see [[pseudonatural transformation]] for details).
 
 +-- {: .query}
 
@@ -33,6 +33,13 @@ Finn, after I wrote my comment somebody completely rewrote the page; you saw a c
 The Elephant gives essentially the same definition as above; in particular, the 'natural isomorphism' it mentions is (in this page's notation) between $\mathbb{D}(f) \circ F^B$ and $F^A \circ \mathbb{C}(f)$ as above, not $F^B$ and $F^A$ as you'd written.
 
 Finn, you can see the revision history of a page by clicking on the **History** link below.  The original version of the page contained the text "natural isomorphism", and the current page does not contain that text.  There's nothing wrong with that (perhaps it's a change for the better), but my comment certainly isn't relevant to the new content, and you responded as if I was commenting on the new content.  -- [[Adam]]
+
+[[Finn Lawler|Finn]]:
+> The original version of the page contained the text "natural isomorphism", and the current page does not contain that text.
+
+That's because I changed it at the same time as I responded to your initial comment.  I have changed it slightly again in a way that I hope makes things clearer.
+
+The best place to discuss nLab pages is not here on the lab itself but on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum).  If you'd like to discuss this page further then that's the place to do it.
 
 =--
 
