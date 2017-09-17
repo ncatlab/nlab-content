@@ -89,6 +89,10 @@ Also, thank you both Toby and David for your quick and informative replies, I re
 
 We can [[internalization|internalize]] the concept of semigroup in any [[monoidal category]] (or even [[multicategory]]) $V$ to get a __semigroup object__ in $V$.
 
+## Related topics
+
+There is a strong connection between semigroups and finite automata; see e.g. [[Krohn-Rodes theory]].
+
 
 ## References
 
