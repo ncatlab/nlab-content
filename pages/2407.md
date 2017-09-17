@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 __Propositional logic__, also called __$0$th-order logic__ and __sentential logic__, is that part of [[logic]] that deals only with [[propositions]] with no bound variables.  
@@ -28,6 +28,7 @@ A __propositional calculus__, also called __sentential calculus__, is simply a s
 
 * [[higher order logic]]
 
+[[!redirects propositional logic]]
 [[!redirects propositional calculus]]
 [[!redirects 0th-order logic]]
 [[!redirects 0-th-order logic]]
