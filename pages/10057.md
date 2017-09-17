@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Hopf monoids
 
 * table of contents
@@ -34,7 +46,10 @@ as does the analogous diagram with $1\otimes s$ replaced by $s\otimes 1$.
 ## Closed monoidal structure on modules
 {#ClosedStructureOnModules}
 
-For any bimonoid $H$ in $\mathcal{C}$, the category $Mod_H$ of $H$-modules inherits a monoidal structure such that the forgetful functor $Mod_H \to \mathcal{C}$ is strong monoidal; see [[bimonoid]].  If $H$ is moreover a Hopf monoid and $\mathcal{C}$ is a [[closed monoidal category]], then $Mod_H$ is also closed, and the forgetful functor is strong closed (preserves internal-homs).
+For any bimonoid $H$ in $\mathcal{C}$, the category $Mod_H$ of $H$-[[modules]] inherits a monoidal structure such that the [[forgetful functor]] ("[[fiber functor]]") $Mod_H \to \mathcal{C}$ is [[strong monoidal functor|strong monoidal]]; see _[[bimonoid]]_.  If $H$ is moreover a Hopf monoid and $\mathcal{C}$ is a [[closed monoidal category]], then $Mod_H$ is also closed, and the forgetful functor is strong closed (preserves [[internal homs]]).
+
+This is a special case of [[Tannaka duality]] [for monoids/algebras](Tannaka+duality#ForAlgebraModules), see at _[[structure on algebras and their module categories - table]]_.
+
 
 Specifically, given $H$-modules $M$ and $N$, we define an $H$-module structure on the internal-hom $Hom(M,N)$ in $\mathcal{C}$ to be the [[adjunct]] of the following composite:
 $$
