@@ -35,7 +35,7 @@ This geometry of symplectic Lie 2-algebroids turns out to unify, among other thi
 
 Let $V$ be a [[dimension|finite dimensional]] [[vector space]] over the [[real numbers]].
 
-Recall that a _[[complex strucutre]]_ on $V$ is a [[linear map]]
+Recall that a _[[complex structure]]_ on $V$ is a [[linear map]]
 
 $$
   J : V \to V
