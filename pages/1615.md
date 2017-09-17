@@ -207,7 +207,7 @@ The notion of local net in the context of [[conformal field theory]] is a [[conf
 
       * [[cohomology of local net of observables]]
 
-      * [[factorization algebra]], [[chiral algebra]], [[topological chiral homology]], [[blob complex]].
+      * [[factorization algebra of observables]], [[chiral algebra]], [[topological chiral homology]], [[blob complex]].
 
   * [[FQFT]]
 
