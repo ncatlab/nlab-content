@@ -14,16 +14,16 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
 An **$n$-truncated [[∞-groupoid]]** is an [[n-groupoid]].
 
-An **$n$-truncated [[topological space]]** is a [[homotopy n-type]]: all [[homotopy group]]s above degree $n$ are trivial.
+An **$n$-truncated [[topological space]]** is a [[homotopy n-type]]: all [[homotopy groups]] above degree $n$ are trivial.
 
-An **$n$-truncated object** in a general [[(∞,1)-category]] is an object such that all hom-$\infty$-groupoids into it are $n$-truncated.
+An **$n$-truncated object** in a general [[(∞,1)-category]] is an object such that all [[(∞,1)-categorical hom-space|hom-∞-groupoids]] into it are $n$-truncated.
 
 If an object in an [[(∞,1)-topos]]_ is $k$-truncated for any (possibly large) $k$, then it is $n$-truncated precisely if all its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] above degree $n$ are trivial. 
 
@@ -234,6 +234,10 @@ Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the 
 This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A construction of the factorization in terms of a [[model category]] [[presentable (∞,1)-category|presentation]] is in ([Rezk, prop. 8.5](#Rezk)). See also [[n-connected/n-truncated factorization system]].
 
 
+### Model category presentations
+ {#ModelCategoryPresentations}
+
+There are [[model structures for homotopy n-types]] that [[presentable (∞,1)-category]] present the full [[sub-(∞,1)-categories]] of $n$-truncated objects in some ambient $(\infty,1)$-category. See there for more details.
 
 
 ## Truncation 
@@ -682,6 +686,10 @@ hence (-1)-truncated, precisely if $X$ is $0$-truncated (an [[h-set]]).
 
 * **$n$-truncated morphism** / [[n-connected]] morphism
 
+* [[n-groupoid]], [[homotopy n-type]]
+
+* [[model structure for homotopy n-types]]
+
 [[!include homotopy n-types - table]]
 
 
@@ -713,6 +721,9 @@ Discussion in the context of [[homotopy type theory]] is in
 [[!redirects n-truncated object of an (∞,1)-category]]
 [[!redirects n-truncated object in an (infinity,1)-category]]
 [[!redirects n-truncated object in an (∞,1)-category]]
+[[!redirects n-truncated objects in an (infinity,1)-category]]
+[[!redirects n-truncated objects in an (∞,1)-category]]
+
 
 [[!redirects truncated object of an (infinity,1)-category]]
 [[!redirects truncated object of an (∞,1)-category]]
