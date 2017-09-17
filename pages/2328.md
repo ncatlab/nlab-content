@@ -9,16 +9,8 @@
 =--
 =--
 
-* **$(0,1)$-topos**
-
-* [[topos]]
-
-* [[2-topos]]
-
-* [[(∞,1)-topos]]
 
 
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -36,11 +28,22 @@ The notion of $(0,1)$-topos is essentially equivalent to that of [[Heyting algeb
 Notice that every $(1,1)$-[[Grothendieck topos]] comes from a [[localic groupoid]], i.e. a [[groupoid]] [[internal category|internal to]] locales, hence a groupoid internal to $(0,1)$-toposes. See [[classifying topos of a localic groupoid]] for more.
 
 
+## Related concepts
+
+* **$(0,1)$-topos**
+
+* [[topos]]
+
+* [[2-topos]]
+
+* [[(∞,1)-topos]]
+
+
 ## References
 
 section 6.4.2 of 
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects Grothendieck (0,1)-topos]]
