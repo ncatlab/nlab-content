@@ -1,3 +1,3 @@
-Hendak dipengapakan apakah buah hatinya itu? Namun, tanpa sedar dia menganguk, tanda setuju. Sebab, dia yakin isterinya tidak akan melakukan perkara yang bukan-bukan.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2418" >retro Jordan 12 gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2418]retro Jordan 12 gold[/url]
+Sebaik aku menoleh,aku terkejut melihat kak Marsya dihadapanku..ku dakap erat tubuh kecil molek itu..
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=937" >Nike Air Max 2010 sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=937]Nike Air Max 2010 sale[/url]
