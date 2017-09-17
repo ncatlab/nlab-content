@@ -6,5 +6,6 @@
 |  | $\leftarrow$ **[[differentiation]]** |  | **[[integration]]** $\to$  |  |  | |
 | [[derivative]] | |  [[Taylor series]] | | [[germ]] | | [[smooth function]] | 
 | [[tangent vector]] | | [[jet]] | | [[germ]] of [[curve]] | | [[curve]] | 
+| [[square-0 ring extension]] | |  [[nilpotent ring extension]] | |  | | [[ring extension]] | 
 | [[Lie algebra]] |  | [[formal group]] |  |  [[local Lie group]] | | [[Lie group]] | 
 | [[Poisson manifold]] |  | [[formal deformation quantization]] | | local strict deformation quantization | | [[strict deformation quantization]] |
