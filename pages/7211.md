@@ -25,6 +25,21 @@
 
 [[supergravity]] in [[dimension]] 3.
 
+## Related concepts
+
+* [[11-dimensional supergravity]] 
+
+* 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
+
+* [[7-dimensional supergravity]]
+
+* [[5-dimensional supergravity]]
+
+* [[4-dimensional supergravity]]
+
+* **3-dimensional supergravity**
+
+
 ## References
 
 * [[Hermann Nicolai]], [[Henning Samtleben]], _Compact and Noncompact Gauged Maximal Supergravities in Three Dimensions_ ([arXiv:hep-th/0103032](http://arxiv.org/abs/hep-th/0103032))
