@@ -236,17 +236,20 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 * An $L_\infty$-alghebra internal to [[super vector space]]s is a [[super L-∞ algebra]].
 
-### Concrete examples
-
-* [[Lie algebra]]
-
-* [[line Lie n-algebra]]
+### Classes of examples
 
 * [[automorphism Lie 2-algebra]]
 
 * [[inner derivation Lie 2-algebra]]
 
+* [[endomorphism ∞-Lie algebra]]
+
 * For every $\infty$-Lie algebra $\mathfrak{g}$ there is its [[automorphism ∞-Lie algebra]]. In terms of [[rational homotopy theory]] this models the rational automorphism group of the [[rational space]] corresponding to $\mathfrak{g}$.
+
+
+### Specific examples
+
+* [[line Lie n-algebra]]
 
 * [[string Lie 2-algebra]]
 
