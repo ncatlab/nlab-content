@@ -29,25 +29,25 @@ In detail, a _commutative ring object_ in $\mathcal{E}$ is an object $R$ equippe
 Given a commutative ring object $R$ in $\mathcal{E}$, we define a [[binary relation]] $\#$ on $R$ (that is a [[subobject]] of $R \times R$) as
 $$ \{ (x,y)\colon R \times R \;|\; \exists z\colon R.\, x \cdot z = y \cdot z + 1 \} ,$$
 written in the [[internal language]] of $\mathcal{E}$.  Then $R$ is a (Heyting) _field object_ if $\#$ is a tight [[apartness relation]]; that is if the following axioms (in the internal language) hold:
-*  $\forall x\colon R.\, \neg(x \# x)$,
-*  $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies y \# x)$,
-*  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \# z \implies (x \# y \vee y \# z))$,
-*  $\forall x\colon R.\, \forall y\colon R.\, (\neg(x \# y) \implies x = y)$.
+*  [[irreflexive relation|irreflexivity]]: $\forall x\colon R.\, \neg(x \# x)$,
+*  [[symmetric relation|symmetry]]: $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies y \# x)$ (which can actually be proved using $-$),
+*  [[comparison relation|comparison]]: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \# z \implies (x \# y \vee y \# z))$,
+*  [[tight relation|tightness]]: $\forall x\colon R.\, \forall y\colon R.\, (\neg(x \# y) \implies x = y)$.
 
 A (linearly) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equipped with a binary relation $\lt$ such that the following axioms hold:
-*  $\forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies x \# y)$,
-*  $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies (x \lt y \vee y \lt x))$,
-*  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge y \lt z) \implies x \lt z)$,
-*  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \lt y \implies x + z \lt y + z)$,
-*  $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge 0 \lt z) \implies x \cdot z \lt y \cdot z)$.
+*  strong [[irreflexive relation|irreflexivity]]: $\forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies x \# y)$,
+*  strong [[tight relation|tightness]]: $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies (x \lt y \vee y \lt x))$,
+*  [[transitive relation|transitivity]]: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge y \lt z) \implies x \lt z)$,
+*  respecting addition: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \lt y \implies x + z \lt y + z)$,
+*  respecting multiplication: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge 0 \lt z) \implies x \cdot z \lt y \cdot z)$.
 
 Given an ordered field object $R$ in $\mathcal{E}$, any object $\Gamma$ in $\mathcal{E}$, and subobjects $L$ and $U$ of $\Gamma \times R$, we say that $(L,U)$ is a _Dedekind cut_ in $R$ (parametrised by $\Gamma$) if the following axioms hold:
-*  $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in L$,
-*  $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in U$,
-*  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, ((x \lt y \wedge (a,y) \in L) \implies (a,x) \in L)$,
-*  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in U \wedge x \lt y) \implies (a,y) \in U)$,
-*  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies ((a,x) \in L \vee (a,y) \in U))$,
-*  $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in L \wedge (a,y) \in U) \implies x \lt y)$.
+*  lower bound: $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in L$,
+*  upper bound: $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in U$,
+*  downward closedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, ((x \lt y \wedge (a,y) \in L) \implies (a,x) \in L)$,
+*  upward closedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in U \wedge x \lt y) \implies (a,y) \in U)$,
+*  locatedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies ((a,x) \in L \vee (a,y) \in U))$,
+*  separation: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in L \wedge (a,y) \in U) \implies x \lt y)$.
 
 An ordered field object $R$ in $\mathcal{E}$ is _Dedekind complete_ if, given any object $\Gamma$ of $\mathcal{E}$ and any Dedekind cut $(L,U)$ in $R$ parametrised by $\Gamma$, there exists a morphism $x\colon \Gamma \to R$ such that
 $$ L = \{ (a,b)\colon \Gamma \times R \;|\; b \lt x(a) \} ,$$
@@ -65,7 +65,11 @@ This morphism is in fact unique.
 =--
 +-- {: .proof}
 ###### Proof
-...
+Suppose that $x, x'\colon \Gamma \to R$ both satisfy the required properties, and consider $x \# x'$, which is a subobject of $\Gamma$.  By the strong tightness of $\lt$, $x \# x'$ is contained in (factors through) $x \lt x' \vee x' \lt x$, which is the [[union]] of $x \lt x'$ and $x' \lt x$.
+
+Now consider $x \lt x'$, and let $a$ be a [[generalised element]] of $\Gamma$.  If $a$ belongs to (factors through) $x \lt x'$, or equivalently $(x(a), x'(a))$ belongs to $\lt$, it follows that $(a,x(a))$ belongs to $U$.  Thus, $(x(a), x(a))$ also belongs to $\lt$, or equivalently $a$ belongs to $x \lt x$.  By the strong irrelexivity of $\lt$, this is contained in $x \# x$; by the irrelexivity of $\#$, this is contained in $\bot$ (as a subobject of $\Gamma$).  Since every $a$ that belongs to $x \lt x'$ belongs to $\bot$, $x \lt x'$ is contained in (and so equals as a subobject) $\bot$.
+
+Similarly (either by swapping $x$ with $x'$ or by using $L$ instead of $U$), $x' \lt x$ is also $\bot$.  Therefore, $x \# x'$ is $\bot$.  By the tightness of $\#$, $x = x'$.
 =--
 
 In the definition of a Heyting field object, all of the axioms except the last are [[geometric logic|geometric]] and therefore make sense in any [[geometric category]].
@@ -192,7 +196,7 @@ It is also possible to define the notion of a [[Cauchy real number]] object and 
 
 * [[natural number]], [[natural numbers object]]
 
-* [[real number]], **real numbers object]]**
+* [[real number]], **real numbers object**
 
 
 ## References
