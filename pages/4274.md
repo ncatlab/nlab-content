@@ -5,8 +5,9 @@
 
 ## Idea
 
-The universal [[elliptic genus|elliptic]] [[genus]] is a morphism $\phi_2 : \Omega_\bullet^{SO} \otimes \mathbb{C} \to M_\bullet(\Gamma_1(2)) \simeq \mathbb{C}[\delta, \epsilon]$ from the complexified [[cobordism ring]].
+The _Witten geneus_ is a [[genus]] for [[string structure]]-[[cobordism]]s with values in [[topological modular form]]s.
 
+The universal [[elliptic genus|elliptic]] [[genus]] is a morphism $\phi_2 : \Omega_\bullet^{SO} \otimes \mathbb{C} \to M_\bullet(\Gamma_1(2)) \simeq \mathbb{C}[\delta, \epsilon]$ from the complexified [[cobordism ring]].
 [[Edward Witten]] argued that the value of the elliptic genus on $X$ can be understood as the $S^1$-[[equivariant cohomology|equivariant]] [[index]] of a [[Dirac operator]] on a [[loop space]] $\mathcal{L} X$.
 
 As such it can be understood as the [[partition function]] of a an $N=1$ $d=2$ super[[CFT]] (the "[[heterotic string]]"). Formalizations of this construction exist both in [[AQFT]]-type and in [[FQFT]]-type [[quantum field theory]]:
@@ -19,6 +20,13 @@ As such it can be understood as the [[partition function]] of a an $N=1$ $d=2$ s
 
   (...)
 
+This can be refined to a morphism of [[ring spectra]]
+
+$$
+ \sigma : MString \to tmf
+$$
+
+from the [[string cobordism ring]] to the [[tmf]]-spectrum.
 
 
 ## References
@@ -42,6 +50,10 @@ The original reference on the Witten genus is
 A useful introduction and survey can be found in
 
 * [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
+
+A discussion of the refinement of the Witten genus to a morphism of ring spectra is in remark 1.4 of
+
+* [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller and Lurie)_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.5130v1.pdf)).
 
 Other references include
 
