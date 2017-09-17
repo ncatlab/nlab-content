@@ -1,0 +1,7 @@
+
+
+An [[extensional type theory]] system.
+
+## References
+
+* _[PRL Project](http://www.nuprl.org/)_ .
