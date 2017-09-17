@@ -34,23 +34,20 @@
 
 * [[Hamiltonian action]], [[moment map]]
 
+* [[symplectic reduction]], [[BRST-BV formalism]]
+
 * [[isotropic submanifold]], [[Lagrangian submanifold]], [[polarization]]
 
-## Constructions
+
+## Classical mechanics and quantization
 
 * [[Hamiltonian mechanics]]
 
-* [[BV-BRST formalism]]
-
-* [[AKSZ sigma-model]]
-
-## Quantization
-
 * [[quantization]]
 
-* [[deformation quantization]]
+  [[deformation quantization]], 
 
-* **[[geometric quantization]]**, [[higher geometric quantization]]
+  **[[geometric quantization]]**, [[higher geometric quantization]]
 
   * [[geometric quantization of symplectic groupoids]]
 
