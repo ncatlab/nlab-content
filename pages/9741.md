@@ -95,11 +95,15 @@ Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/st
 
 * Nan-Kuo Ho, Chiu-Chu Melissa Liu, _On the Connectedness of Moduli Spaces of Flat Connections over Compact Surfaces_, Canad. J. Math. 56(2004), 1228-1236 ([publisher](https://cms.math.ca/10.4153/CJM-2004-053-3))
 
-Reviews and lecture notes include
+Reviews and lecture notes include, for the case of flat connections
 
 * Remi Janner, _Notes on the moduli space of flat connections_, 2005 ([pdf](http://www.remijanner.ch/pdf/notes_connections.pdf))
 
 * Daan Michiels, _Moduli spaces of flat connections_, Master Thesis Leuven 2013 ([pdf](http://www.staff.science.uu.nl/~Schat001/Daan_thesis.pdf))
+
+and for the case of general and [[logarithmic connections]]
+
+* {#BiswasMunoz} Indranil Biswas, V.Munoz, _Moduli spaces of connections on a Riemann surface_  ([pdf](http://www.mat.ucm.es/~vmunozve/Moduli.pdf))
 
 For more references see at _[[Hitchin connection]]_.
 
