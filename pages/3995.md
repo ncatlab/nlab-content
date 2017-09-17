@@ -3,7 +3,7 @@ The term **signature** refers to a number of quite different notions in mathemat
 
 * [[signature of a permutation]], 
 
-* signature of a diagonal matrix or quadratic form 
+* [[signature of a quadratic form]]
 
 * [[signature (in logic)]]
 
