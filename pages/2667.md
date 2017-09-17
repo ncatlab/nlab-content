@@ -11,19 +11,53 @@ $$F: FinVect_{\mathbb{C}} \to FinVect_{\mathbb{C}}$$
 
 on the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(V)$ is obtained by taking a [[tensor power]] of $V$, say $V^{\otimes n}$, and then picking out the subspace that transforms according to a particular [[irreducible representation]] of the [[symmetric group]] $S_n$, which acts on $V^{\otimes n}$ by permuting the tensor factors.  
 
-The irreducible representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so a Schur functor of this sort is named by a Young diagram.  This is the beginning of a long and fascinating story connecting Schur functors with other objects that are named by Young diagrams: for example, elementary [[symmetric function|symmetric functions]] and [[cohomology]] classes on $BGL$, the classifying space for [[vector bundles]].  
+The irreducible complex representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so Schur functors of this sort are usually described with the help of Young diagrams.   An $n$-box Young diagram is simply a handy notation for a way of writing $n$ as a sum of natural numbers written in decreasing order.  For example, this 17-box Young diagram:
 
-More generally, any finite direct sum of the Schur functors described above may be called a Schur functor.  This gives a category of Schur functors and natural transformations between them.  Since the coproduct of all the symmetric groups $S_n$ is equivalent to the groupoid of finite sets and bijections, say $\mathbb{P}$, it is not surprising that this category of Schur functors is equivalent to the functor category
++-- {: #Young style="text-align:center"}
+<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <desc>Young diagram (5,4,4,2,1,1)</desc>
+ <g>
+  <title>Layer 1</title>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="30" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="50" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+  <rect x="70" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_4"/>
+  <rect x="90" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_5"/>
+  <rect x="10" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_6"/>
+  <rect x="30" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_7"/>
+  <rect x="50" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_8"/>
+  <rect x="70" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_9"/>
+  <rect x="10" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_10"/>
+  <rect x="30" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_11"/>
+  <rect x="50" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_12"/>
+  <rect x="70" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_13"/>
+  <rect x="10" y="70" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_14"/>
+  <rect x="30" y="70" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_15"/>
+  <rect x="10" y="90" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_16"/>
+  <rect x="10" y="110" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_17"/>
+ </g>
+</svg>
+=--
 
-$$  [\mathbb{P}, FinVect_{\mathbb{C}}] \, , $$
+describes the partition of $17$ as $5 + 4 + 4 + 2 + 1 + 1$.  However, it also can be used to construct an irreducible complex representation of the permutation group $S_{17}$, and thus a Schur functor.
 
-This category could be called the 'category of finite-dimensional complex representations of the groupoid of finite sets', or the 'category of finite-dimensional linear [[species]]'.  
+This is the beginning of a long and fascinating story connecting Schur functors with other objects that are named by Young diagrams: for example, elementary [[symmetric function|symmetric functions]] and [[cohomology]] classes on $BGL$, the classifying space for [[vector bundles]].  However, it is not really necessary to understand Young diagrams to begin understanding Schur functors.  As we shall see, one can go quite far simply noting that each irreducible representation of $S_n$ gives a functor from $Vect_{\mathbb{C}}$ to itself, as we have described.
 
-The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category of Schur functors
+More generally, any finite direct sum of such functors is also called a **Schur functor**.  There is a category $Schur_{\mathbb{C}}$ with these Schur functors as objects and natural transformations between them as morphisms.  Since the coproduct of all the symmetric groups $S_n$ is equivalent to the groupoid of finite sets and bijections, say $\mathbb{P}$, it is not surprising that
 
-$$  [\mathbb{P}, FinVect_{\mathbb{C}}] \, , $$
+$$ Schur_{\mathbb{C}} \simeq [\mathbb{P}, FinVect_{\mathbb{C}}] \, , $$
 
-is of this sort.  But, it is also [[semisimple abelian category|semisimple]]: indeed, every Schur functor is a finite direct sum of 'irreducible' Schur functors, which correspond to Young diagrams.
+where the the right-hand expression standard for the category with 
+
+* functors $f: \mathbb{P} \to FinVect_{\mathbb{C}}$ as objects
+
+* natural transformations between these as morphisms.
+
+This category could be called the 'category of finite-dimensional complex representations of the groupoid of finite sets', but following the work of Joyal we shall call it the 'category of linear [[species]]'.  
+
+The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category $Schur$
+has all these features.  But it is also [[semisimple abelian category|semisimple]]: indeed, every Schur functor is a finite direct sum of 'irreducible' Schur functors, which correspond to Young diagrams.
 
 The category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets --- and since product distributes over disjoint union, $\mathbb{P}$ is a [[rig category]].  This is all reflected in the category of Schur functors.
 
@@ -68,6 +102,8 @@ Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. 
 
 Henceforth we shall use $C$ to stand for any symmetric monoidal Cauchy-complete $k$-linear category.  To illustrate the full breadth of this generalization, here are a few examples:
 
+* the category $FinVect_k$ of finite-dimensional vector spaces over $k$
+
 * the category of [[representation|representations]] of any [[group]] on finite-dimensional vector spaces over $k$
 
 * the category of finite-dimensional [[super vector space|super vector spaces]], [[graded vector space|super vector spaces]] or [[chain complexes]] of vector spaces over $k$
@@ -78,19 +114,19 @@ Henceforth we shall use $C$ to stand for any symmetric monoidal Cauchy-complete 
 
 * the category of [[coherent sheaves]] of vector spaces over any algebraic variety (or scheme or algebraic stack) over $k$
 
-These examples can be hybridized, and thus multiply indefinitely: for example, we could take coherent sheaves of representations of some algebraic supergroup on super-vector spaces, etc..  
+These examples can be hybridized, and thus they multiply indefinitely: for example, we could take coherent sheaves of representations of some algebraic supergroup on finite-dimensional chain complexes of super-vector spaces, etc..  
 
-Recall that the [[group algebra]] $k[S_n]$ decomposes as a direct sum of matrix algebras 
+Recall that by Maschke's theorem, for any finite group $G$, the [[group algebra]] $k[G]$ decomposes as a direct sum of matrix algebras 
 
 $$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
 
-where $\lambda$ ranges over isomorphism classes of irreducible representations of $S_n$, $V_\lambda$ is any representation chosen from its isomorphism class, and the $\hom$ here is the hom of underlying vector spaces. In more concrete terms, these representations $V_\lambda$ are labelled by $n$-box [[Young diagram|Young diagrams]].   At the level of $S_n$-representations, we have
+where $\lambda$ ranges over isomorphism classes of irreducible representations of $G$.   The identity elements of these matrix algebras $hom(V_\lambda, V_\lambda)$ thus correspond to certain special elements of $k[G]$.   Clearly these are [[idempotent]]:
 
-$$k[S_n] \cong \bigoplus_{\nu} V_{\nu}$$ 
+$$ p_\lambda^2 = p_\lambda $$
 
-where this time $\nu$ ranges over $n$-box [[Young tableau]]x, and $V_\nu$ represents the irreducible subrepresentation of $k[S_n]$ attached to $\nu$.  
+We are particularly interested in the case $G = S_n$.  In this case, there is one idempotent $p_\lambda \in k[S_n]$ for each $n$-box Young diagram.  An explicit formula for it is well-known However, one of the charms of our treatment is that we do _not need detailed facts about the representation theory of $S_n$ to define and study Schur functors_.
 
-This group algebra lives as a [[monoid]] in the symmetric monoidal category $FinVect_k$. We would also like to interpret it as living in $C$, by "change of base" from $FinVect_k$ to $C$. 
+The group algebra $k[S_n]$ lives as a [[monoid]] in the symmetric monoidal category $FinVect_k$. We would also like to interpret it as living in $C$, by "change of base" from $FinVect_k$ to $C$.  For this we proceed as follows.
 
 ### Change of base ###
 
@@ -122,13 +158,15 @@ $i: FinVect_k \to C$, up to symmetric monoidal linear isomorphism.
 
 (In the case where $C$ has arbitrary coproducts, one can think of $i: FinVect_k \to C$ as a piece of the functor $Vect_k \to C$ which is left adjoint to the lax monoidal functor $\hom(I, -): C \to Vect_k$. There is some general categorical lore that such left adjoints in the 2-category of (symmetric) monoidal categories and lax symmetric monoidal functors are automatically strong monoidal, and this is a case in point.) 
 
-The symmetric monoidal functor $i$ therefore maps the group algebra $k[S_n]$, as a [[monoid]] in the monoidal category $FinVect_k$, to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  It also maps each of the Young tableau representations $V_\nu$, as a module over $k[S_n]$ in $FinVect_k$, to a corresponding module over the monoid $k[S_n]$ in $C$, which we again denote by $V_\nu$. 
+The symmetric monoidal functor $i$ therefore maps the group algebra $k[S_n]$, as a [[monoid]] in the monoidal category $FinVect_k$, to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.
+
+How can we intepret the idempo
 
 ### Modules over a bimonoid ###
 
-Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a cocommutative [[bialgebra]] --- or in fancier language, a cocommutative [[bimonoid]] in the symmetric monoidal category $FinVect_k$.  Since $i : FinVect_k \to C$ is a symmetric monoidal functor, this means that $i$ carries $k[S_n]$ to a cocommutative bimonoid in $C$.  As noted above, we call bimonoid by the same name, $k[S_n]$.
+Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a [[bialgebra]] --- or in fancier language, a  [[bimonoid]] in the symmetric monoidal category $FinVect_k$.  Since $i : FinVect_k \to C$ is a symmetric monoidal functor, this means that $i$ carries $k[S_n]$ to a cocommutative bimonoid in $C$.  As noted above, we call bimonoid by the same name, $k[S_n]$.
 
-The category of modules over a cocommutative bimonoid is a symmetric monoidal category. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
+The category of modules over a bimonoid is a monoidal category. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
 
 $$\delta: k[S_n] \to k[S_n] \otimes k[S_n],$$
 
@@ -140,15 +178,13 @@ where $\sigma$ is a symmetry isomorphism and $\alpha_V$, $\alpha_W$ are the acti
 
 ### Definition of Schur functors on $C$ ###
 
-Now we consider a particular case of tensor product representations. If $X$ is an object of $C$, the symmetric group $S_n$ has a representation on $X^{\otimes n}$. (Indeed, for each $\sigma \in S_n$, there is a corresponding symmetry isomorphism $X^{\otimes n} \to X^{\otimes n}$. From this one may construct an action 
+Now we consider a particular case of tensor product representations. If $X$ is an object of $C$, the symmetric group $S_n$ has a representation on $X^{\otimes n}$.  Indeed, for each $\sigma \in S_n$, there is a corresponding symmetry isomorphism $X^{\otimes n} \to X^{\otimes n}$.  From this one may construct an action 
 
 $$k[S_n] \otimes X^{\otimes n} \cong \bigoplus_{\sigma \in S_n} I \otimes X^{\otimes n} \to X^{\otimes n}$$ 
 
-which is the required representation.) So, if $V_\nu$ is a Young tableau representation of $k[S_n]$ in $C$, we obtain a tensor product representation 
+which is the required representation.  
 
-$$V_\nu \otimes X^{\otimes n}$$ 
-
-of $k[S_n]$ in $C$. 
+Next, note that 
 
 Consider next the **averaging operator** $e = \frac1{n!} \sum_{\sigma \in S_n} \sigma$: 
 
