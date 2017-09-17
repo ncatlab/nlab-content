@@ -21,3 +21,4 @@ A kind of [[spectral sequence]].
 
 * Nobuaki Yagita, _Applications of the Atiyah-Hirzebruch spectral sequences for motivic cobordisms_ ([pdf](http://www.math.uiuc.edu/K-theory/0627/ah.pdf))
 
+[[!redirects Atiyah-Hirzebruch spectral sequence]]
