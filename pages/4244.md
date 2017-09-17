@@ -19,6 +19,14 @@ Note that $c_1(X) = 0$ implies in general that the canonical bundle is *topologi
 The language used in this article is implicitly analytic, rather than algebraic. Is this OK? Or should I make this explicit?
 =--
 
+## Generalized Definition
+
+A Calabi-Yau variety can be described algebraically as a smooth proper variety $X$ of dimension $n$ over a field $k$ (not necessarily algebraically closed and not necessarily of characteristic $0$) in which $\omega_X=\wedge^n\Omega^1\simeq \mathcal{O}_X$ and also $H^j(X, \mathcal{O}_X)=0$ for all $1\leq j \leq n-1$.
+
+If the base field is $\mathbb{C}$, then one can form the analyticification of $X$ and obtain a compact manifold that satisfies the first given definition.
+
+
+
 ## Related concepts
 
 * [[Calabi-Yau object]]
