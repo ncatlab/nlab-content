@@ -47,6 +47,8 @@ In terms of this the **principle of induction** is equivalent to saying that the
 
 ## Related concepts
 
+* [[deduction]]
+
 * [[inductive type]]
 
 ## References
