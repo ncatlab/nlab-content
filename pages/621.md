@@ -28,11 +28,11 @@ $$
      \\
      a^* &\otimes& a
      \\
-     \;\;\;\downarrow^{Id_{a^*}} && \;\;\downarrow^f
+     \downarrow^{\mathrlap{Id_{a^*}}} && \;\;\downarrow^f
      \\
      a^* &\otimes& a
      \\
-     & \downarrow^{b_{a^*, a}} 
+     & \downarrow^{\mathrlap{b_{a^*, a}}} 
      \\
      a &\otimes& a^*
      \\
@@ -111,9 +111,9 @@ where we inserted the normalization factor $\frac{1}{2}$.
 
 ## References
 
-* Joyal, Street, and Verity, _Traced Monoidal Categories_  
+* [[Andre Joyal]], [[Ross Street]], and [[Dominic Verity]], _Traced Monoidal Categories_  
 * Dold, Albrecht and Puppe, Dieter, _Duality, trace, and transfer_
-* Peter Selinger, _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf)), Section 5
+* [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf)), Section 5
 
 For partial trace, particularly its application to quantum mechanics, see:
 
