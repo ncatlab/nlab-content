@@ -1,11 +1,51 @@
-*Haskell* is a purely [[fuctional programming language|functional programming]] [[language|language]]. It is named after [[Haskell Brooks Curry]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+*Haskell* is a [[type theory|typed]] [[functional programming language]]. It is named after [[Haskell Brooks Curry]].
+
+## Properties
+
+### Category-theoretic properties
 
 There is a [[category]] $\mathbf{Haskell}$ whose objects are Haskell [[type|types]] and whose morphisms are Haskell functions.
 
+Haskell is famous for its use of  [[monads (in computer science)]] acting on this category.
+
+## Related entries
+
+Languages similar to Haskell but refining it from plain [[type theory]] to [[dependent type theory]] include
+
+* [[Coq]] and [[Agda]]
+
 ## References
+
+### General
 
 * Haskell, language and library specification, [wiki](http://www.haskell.org/haskellwiki/Language_and_library_specification)
 
 * haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Haskell)
 
+### Mathematics in Haskell
+ {#ReferencesMathematicsInHaskell}
+
+The use of Haskell in [[mathematics]] is discussed in the following references.
+
+* haskellwiki, _[Haskell and mathematics](http://www.haskell.org/haskellwiki/Haskell_and_mathematics)_
+
 * category theory, in haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Category_theory)
+
+* Jan van Eijck, _[The Haskell Road to Logic, Maths and Programming](homepages.cwi.nl/~jve/HR/)_
