@@ -31,7 +31,7 @@ But in full [[derived geometry]] this setup is further generalized: instead of c
 
 $$
   ((T Alg^{\Delta^{op}})^\Delta)^{op} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\to}
-  [C_{\infty}^{op}, sSet]
+  [C^{op}, sSet]
   \,,
 $$
 
