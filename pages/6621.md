@@ -10,6 +10,6 @@
 
 * David Edwards, _Lectures on index theory I_, [pdf](http://www.math.uga.edu/~davide/Lectures_on_Index_Theory__Lecture_I_Operator_Theory_and_Topology.pdf), 
 _Lectures on index theory II_, [pdf](http://www.math.uga.edu/~davide/Lectures_on_Index_Theory__Lecture_II_Index_Theory_for_Toeplitz_Operators.pdf), _The Index Program for K-Theory with Local Coefficients_, [pdf](http://www.math.uga.edu/~davide/The_Index_Program_for_K-Theory_with_Local_Coefficients.pdf)
-
+* [[Masaki Kashiwara]], Pierre Schapira, _Hochschild homology and microlocal Euler classes_, [arxiv/1203.4869](http://arxiv.org/abs/1203.4869)
 
 [[!redirects index theorem]]
