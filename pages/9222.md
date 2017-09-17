@@ -67,6 +67,8 @@ One can define the [[integration]] against a fixed chosen [[measure]], but more 
 
 * [[canonical Hilbert-space of half-densities]]
 
+* [[Verdier duality]]
+
 [[!include square roots of line bundles - table]]
 
 
