@@ -57,7 +57,7 @@ So in particular a Cisinski model structure always exists.
 ### On presheaf toposes
  {#OnPresheafToposes}
 
-We discuss how on a [[presheaf topos]] equipped with a suitable notion of [[interval objects]] Cisinski model structures can be characterized fairly explicitly. 
+We discuss how on a [[presheaf topos]] equipped with a suitable notion of [[interval objects]] Cisinski model structures can be characterized fairly explicitly. After some preliminaries, the main statement is theorem \ref{ModelStructureFromHomotopicalStructure} below. 
 
 (This follows section 1.3 of [Cisinski 06](#Cisinski06)).
 
@@ -402,6 +402,89 @@ $$
 $$
 
 is a pullback. So the statement follows with remark \ref{PullbackOfMonosAndUnions}.
+
+=--
+
++-- {: .num_example #SegmentObject}
+###### Example
+
+Let $I \in PSh(A)$ be any object equipped with two points (global sections) $\partial^0, \partial^1 : * \to I$ which are disjoint in that
+
+$$
+  \array{
+    \emptyset &\to& *
+    \\
+    \downarrow && \downarrow^{\mathrlap{\partial^0}}
+    \\
+    * &\stackrel{\partial^1}{\to}&
+  }
+$$
+
+is a [[pullback]] square. This induces a functorial sylinder by the assignment
+
+$$
+  X \mapsto I \times X
+  \,,
+$$
+
+where on the right we have the cartesian product.
+
+This defines an _elementary homotopical datum_ in the sense of def. \ref{ElementaryHomotopicalDatum}.
+
+=--
+
+([Cisinski 06, example 1.3.8](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+The interval commutes with colimits as these and the product are computed objectwise, and products in [[Set]] commute with colimits. More abstractly: by the [[Giraud theorem]] valid in the [[presheaf topos]] $PSh(A)$ we have "[[universal colimits]]": they are preserved by pullback, and in particular by cartesian product.
+
+Similarly, the second axiom of def. \ref{ElementaryHomotopicalDatum} holds because [[limits]] commute over each other.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $I := \Omega$ be the [[subobject classifier]] in the [[presheaf topos]] $PSh(A)$. This is the presheaf which to an object $U$ of $A$ assigns the set of [[subobjects]] of the [[representable functor]] given by $U$ (the [[sieves]] on $U$)
+
+$$
+  \Omega : U \mapsto Sub(U)
+$$
+
+and which to a morphism $f : U_1 \to U_2$ assigns the [[pullback]] functor $f^* : Sub(U_2) \to Sub(U_1)$.
+
+Let then 
+
+$$
+  \partial^0, \partial^1 := \top, \bot: * \to \Omega
+$$
+
+be the morphisms that classify [[top]] and [[bottom]], respectively, the terminal and the initial subobject of the [[terminal object]].
+
+This is a segment object in the sens of example \ref{SegmentObject} (the "[[Bill Lawvere|Lawvere]]-segment").
+
+=--
+
+([Cisinski 06, example 1.3.9](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+That the two points are separeted, in that 
+
+$$
+  \array{
+    \emptyset $\to$ *
+    \\
+    \downarrow && \downarrow^{\mathrlap{\top}}
+    \\
+    * &\stackrel{\bot}{\to}&
+  }
+$$
+
+is a pullback, is the defining property of the [[subobject classifier]].
 
 =--
 
