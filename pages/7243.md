@@ -90,14 +90,22 @@ The [[group of units]] of the ring of adeles is called the group of [[ideles]].
 
 * [[Z-infinity-module]] 
 
+* [[p-adic homotopy]]
+
 * [[ℓ-adic cohomology]]
 
+* [[p-adic geometry]]
+
 ## References
+
+Introductions and surveys include
+
+* Bernard Le Stum, _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_ talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
+
 
 * [[Hendrik Lenstra]], _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
  {#Lenstra}
  
-
 
 [[!redirects p-adic integer]]
 [[!redirects p-adic integers]]
