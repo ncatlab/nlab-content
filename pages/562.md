@@ -203,6 +203,8 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 
 * **Grothendieck fibration**, [[two-sided fibration]]
 
+* [[n-fibration]]
+
 * [[Cartesian fibration]]
 
 ## References 
