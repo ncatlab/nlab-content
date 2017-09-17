@@ -11,12 +11,12 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The generalization of the notion of [[monomorphism]] from [[category theory]] to [[(∞,1)-category]] theory.
+The notion of _monomorphism in an $(\infty,1)$-category_ is the generalization of the notion of [[monomorphism]] from [[category theory]] to [[(∞,1)-category]] theory. It is the special case of the notion of [[n-monomorphisms]] for $n = 1$. In an [[(∞,1)-topos]] every morphism factors by an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] (1-epimorphism) followed by a monomorphism through its [[n-image|1-image]].
 
 The dual concept is that of an [[epimorphism in an (∞,1)-category]].
 
