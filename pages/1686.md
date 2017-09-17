@@ -512,6 +512,12 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 ### List of examples
  {#ListOfExamples}
 
+#### Lurie spectral sequences
+
+[[!include Lurie spectral sequence -- table]]
+
+#### More
+
 The following list of examples orders the various classes of spectral sequences by special cases: items further to the right are special cases of items further to the left.
 
 * ***[[spectral sequence of a filtered complex]]*** (approximate [[chain homology]] by higher-order [[relative homology]] in the presence of a [[filtered object|filtering]])
@@ -601,7 +607,7 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[van Kampen spectral sequence]] for calculating the homotopy of a wedge of spaces.
 
-
+* [[slice spectral sequence]]
 
 ## Properties
 
