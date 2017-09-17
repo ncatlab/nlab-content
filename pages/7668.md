@@ -1,6 +1,6 @@
 Let $k$ be a fixed field. Consider associative $k$-algebra $A$ and its category of right modules $Mod_A$.
 
-Recall that a monomorphism $f:M\to N$ in $Mod_A$-modules is __pure__ if after tensoring with any left $A$-module $L$ gives a mono $M\otimes_A L\stackrel{f\otimes L}\to N\otimes_A L$. A module $M$ in $Mod_A$ is __pure-injective__ if every pure mono $M\to N$ splits. 
+Recall that a monomorphism $f:M\to N$ in $Mod_A$-modules is __pure__ if after tensoring with any left $A$-module $L$ gives a mono $M\otimes_A L\stackrel{f\otimes L}\to N\otimes_A L$. A module $M$ in $Mod_A$ is __pure-injective__ if every pure mono $M\to N$ splits. This is clearly a weaker property than being an [[injective object]].
 
 Given an associative algebra $A$, its __Ziegler spectrum__ $Zsp(A)$ is the topological space whose points are the isomorphism classes $[M]$ of indecomposable
 pure-injective $A$-modules $M$ and the topology is defined in terms of pp-formulas (or finite matrices) over $A$. Here pp stands for "positive primitive in the usual language for $A$-modules"
@@ -17,3 +17,4 @@ There are applications to the spectra of theories of modules.
 * Mike Prest, [slides](http://www.slideshare.net/guest9ab010/zieglers-spectrum)
 * Mike Prest, Topological and Geometric aspects of the Ziegler Spectrum (1998) 
 * Lorna Gregory, Thesis, [pdf](http://www.maths.manchester.ac.uk/~mprest/GregoryThesis.pdf)
+* Mike Prest, _Purity, spectra and localisation_, Enc. of Math. and its Appl. __121__, Camb. Univ. Press 2009 
