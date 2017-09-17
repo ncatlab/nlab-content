@@ -41,7 +41,11 @@ and
 
   * [[chain homotopy]]
 
-* [[chain homology and cohomology]], 
+* [[chain homology and cohomology]]
+
+  * [[cochain on a simplicial set|simplicial homology]], [[singular homology]]
+
+  * [[generalized homology]]
 
 * [[exact sequence]], 
 
