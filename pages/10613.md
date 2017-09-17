@@ -1,0 +1,1 @@
+A __near-field__ is an algebraic structure with two associative binary algebraic structures similar to a division ring (skewfield) but with only one sided distributivity law (conventionally, usually right distributivity).
