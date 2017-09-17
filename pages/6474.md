@@ -27,7 +27,7 @@ For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separat
 
 * If $Pic_{X/S}$ is representable by a scheme, then by [[descent theory]] for sheaves it is representable by the same scheme in all the topologies listed above. In general, representability gives representability in a finer topology (of the ones listed).
 
-* If $Pic_{X/S}$ is representable then a universal sheaf $\mathcal{P}$ on $X\times Pic_{X/S}$ is called a Poincare sheaf. It is universal in the following sense: if $T\to S$ and $\mathcal{L}$ is invertible on $X_T$, then there is a unique $h:T\to Pic_{X/S}$ such that for some $\mathcal{N}$ invertible on $T$ we get $\mathcal{L}\simeq (1\times h)^*\mathcal{P}\otimes f_T^*\mathcal{N}$.
+* If $Pic_{X/S}$ is representable then a universal sheaf $\mathcal{P}$ on $X\times Pic_{X/S}$ is called a [[Poincaré sheaf]]. It is universal in the following sense: if $T\to S$ and $\mathcal{L}$ is invertible on $X_T$, then there is a unique $h:T\to Pic_{X/S}$ such that for some $\mathcal{N}$ invertible on $T$ we get $\mathcal{L}\simeq (1\times h)^*\mathcal{P}\otimes f_T^*\mathcal{N}$.
 
 * If $f$ is (Zariski) [[projective]], [[flat morphism|flat]] with [[integral scheme|integral]] geometric fibers then $Pic_{X/S, et}$ is representable by a [[separated scheme|separated]] and [[morphism of finite type|locally of finite type]] scheme over $S$.
 
