@@ -1,5 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatically generated table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea 
