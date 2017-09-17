@@ -40,7 +40,7 @@ $$
 
 **Definition**
 
-The **[[Chern character]]** of $\nabla$ is the inhomogeneous differential form
+The **[[Chern character]]** of $\nabla$ is the inhomogenous [[curvature characteristic form]] 
 
 $$
  ch(\nabla) := \sum_{j \in \mathbb{N}}
