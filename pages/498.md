@@ -1,7 +1,7 @@
+
 # Local rings
 * table of contents
 {: toc}
-
 
 ## Definitions
 
@@ -15,7 +15,7 @@ Here are a few equivalent ways to phrase the combined condition:
 * Whenever a sum of products is invertible, for at least one of the summands, all of its multiplicands are invertible.
 * The non-invertible elements form an [[ideal]].  (Unlike the previous clauses, this requires [[excluded middle]] to be equivalent.)
 
-The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field.  (This quotient can also be taken constructively, where one mods out by an anti-ideal.)
+The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field.  (This quotient can also be taken constructively, where one mods out by an [[anti-ideal]].)
 
 
 ## In geometry
