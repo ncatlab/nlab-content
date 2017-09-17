@@ -235,6 +235,10 @@ This is shown in ([BashirVelebil](#BashirVelebil)).
 
 * The unital [[ring]]s form a mono-reflective subcategory of possibly nonunital rings; the reflector formally adjoins an [[identity element]].
 
++-- {: .query}
+I doubt this example, because adjoining unit and then forgetting it is not a idempotent operation
+=--
+
 * The [[category of sheaves]] on a [[site]] $S$ is a reflective subcategory of the category of presheaves on $S$; the reflector is called _[[sheafification]]_. In fact, categories of sheaves are precisely those accessible reflective subcategories, def. \ref{AccessibleReflection},  of presheaf categories for which the reflector is left [[exact functor|exact]]. This makes the inclusion functor precisely a [[geometric inclusion]] of [[toposes]].
 
 * A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [[concrete site]] is a reflective subcategory.
