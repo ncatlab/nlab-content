@@ -14,7 +14,7 @@ be the usual underlying or forgetful functor, with left adjoint $F: C \to C^T$, 
 
 The situation with regard to colimits is more complicated. It is not generally true that if $C$ is cocomplete, then $C^T$ is also. In this article we collect some partial results which address these issues. 
 
-## Reflexive coequalizers and cocompletness
+## Reflexive coequalizers and cocompleteness
 
 A simple but basic fact is the following. Suppose $J$ is a small category, and suppose that the monad $T$ preserves colimits over $J$, that is, suppose that for every $F: J \to C$ the canonical map 
 
