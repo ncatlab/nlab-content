@@ -28,7 +28,7 @@ If $C$ is small and $D$ is [[locally small category|locally small]], then $[C,D]
 
 Even if $C$ and $D$ are locally small, if $C$ is not small, then $[C,D]$ will usually not be locally small.
 
-As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then $C$ must be [[essentially small category|essentially small]]; see [Fryed & Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html).
+As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then $C$ must be [[essentially small category|essentially small]]; see [Freyd & Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html).
 
 
 [[!redirects functor category]]
