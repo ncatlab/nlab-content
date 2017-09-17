@@ -38,7 +38,7 @@ In all four of the above, edges are interpreted as *unordered* pairs.  If we ins
 *  A __directed graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2 \setminus \Delta_V$;
 *  a __directed multigraph__ consists of $V$, $E$, and a function $d: E \to V^2 \setminus \Delta_V$;
 *  a __directed loop graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2$;
-*  a __directed pseudograph__ consists of $V$, $E$, and a function $d: E \to V^2$.  These are commonly used in [[category theory]]; see [[digraph]] and [[quiver]].
+*  a __directed pseudograph__ consists of $V$, $E$, and a function $d: E \to V^2$.  These are commonly used in [[category theory]]; see [[quiver]].
 
 The same terminological ambiguities as above apply here as well, and they can be resolved in the same way, including using 'simple directed graph' for a directed graph if necessary.  One can also use 'undirected' in place of 'directed' to emphasise that the previous definitions apply instead of these.
 
