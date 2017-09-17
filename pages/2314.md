@@ -88,4 +88,6 @@ Characterization of higher Deligne-Mumford stacks (see [[generalized scheme]]) a
 
 * [[Jacob Lurie]], _Representability theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf))
 
+* {#Carchedi13}[[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_ , arXiv1312.2204 (2013). ([pdf](http://arxiv.org/pdf/1312.2204v1.pdf))
+
 [[!redirects Deligne-Mumford stacks]]
