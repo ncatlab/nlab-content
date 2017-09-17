@@ -157,6 +157,7 @@ When $N$ is [[finite set|finite]], these spaces are all the same, being just the
 The various [[direct sums of Banach spaces]] follow the sequence spaces $l^p$ for $1 \leq p \leq \infty$.
 
 The [[Riesz representation theorems]] give many nice results for the [[dual vector space|dual spaces]] of the sequence spaces:
+
 *  the dual of $c_0$ is $l^1$,
 *  the dual of $l^p$ is $l^q$ for $p + q = p q$ and $1 \lt p , q \lt \infty$,
 *  the dual of $l^1$ is $l^\infty$,
