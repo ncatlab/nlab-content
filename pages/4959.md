@@ -3,4 +3,6 @@
 
 category: people
 
-[[!redirects David  Carchedi]]
+[[!redirects David Carchedi]]
+
+[[!redirects Dave Carchedi]]
