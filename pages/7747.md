@@ -56,7 +56,7 @@ Every 3-[[dimension|dimensional]] [[manifold]] with [[spin structure]] admits a 
 +-- {: .proof}
 ###### Proof
 
-That a 3-manifold $X$  has [[spin structure]] means that we have a [[reduction of the structure group]] of the tangent bundle to the [[spin group]], and hence the tangent bundle is classified by a map $X \to B Spin(3)$. But $Spin(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B SO(3)$ has vanishing homotopy groups below degree 4 and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
+That a 3-manifold $X$  has [[spin structure]] means that we have a [[reduction of the structure group]] of the tangent bundle to the [[spin group]], and hence the tangent bundle is classified by a map $X \to B Spin(3)$. But $Spin(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B Spin(3)$ has vanishing homotopy groups below degree 4 and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
 
 =--
 
