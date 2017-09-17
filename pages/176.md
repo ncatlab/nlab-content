@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -370,6 +370,8 @@ Witt class.
 ## Related concepts
 
 * [[conformal structure]], [[moduli space of conformal structures]], [[Teichmüller theory]]
+
+* [[conformal anomaly]]
 
 * [[rational conformal field theory]]
 
