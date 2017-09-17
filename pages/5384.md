@@ -35,6 +35,8 @@ In this convention
 
 Etc.
 
+Note that this convention does *not* apply to the *names* of pages; see [Naming conventions](/nlab/show/HowTo#naming).  That also means that when writing pages using this convention, one must be sure to use the appropriate "pipelinks," such as `[[(infinity,1)-topos|topos]]`.
+
 
 category: meta
 
