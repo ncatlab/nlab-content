@@ -735,7 +735,7 @@ A proof that good simplicial spaces are proper is implicit in the proof of lemma
 
 A generalization of the statement that good implies proper to other [[topological concrete categories]] and a discussion of the geometric realization of $W G \to \bar W G$ for $G$ a [[simplicial topological group]]  is in 
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#RobertsStevenson">web</a>)
 {#RobertsStevenson}
 
 Comments on the relation between properness and cofibrancy in the [[Reedy model structure]] on $[\Delta^{op}, Set]$ are made in 
