@@ -488,7 +488,7 @@ We say that
 
 * $Red$ is the **[[reduction modality]]**.
 
-* $\mathbf{\Pi}_{inf}$ is the **[[infinitesimal shape modality]]**.
+* $\mathbf{\Pi}_{inf}$ or $&#643;_{inf}$ is the **[[infinitesimal shape modality]]**.
 
 * $\flat_{inf}$ is the **[[infinitesimal flat modality]]**.
 
@@ -957,6 +957,40 @@ $$
 is an [[equivalence in an (∞,1)-category|equivalence]]. As such it is in particular an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
 =--
+
+#### Infinitesimal $\mathbb{A}^1$-homotopy
+ {#InfinitesimalA1Homotopy}
+
++-- {: .num_defn }
+###### Definition
+
+A set of objects $\{D_\alpha \in \mathbf{H}_{th}\}_\alpha$
+is said to **exhibit the differential structure** or 
+**exhibit the infinitesimal thickening** if the 
+[[localization of an (∞,1)-category|localization]] 
+
+$$
+  L_{\{D_\alpha\}_\alpha} \mathbf{H}_{th}
+  \stackrel{\leftarrow}{\hookrightarrow}
+  \mathbf{H}_{th}
+$$
+
+of $\mathbf{H}_{th}$
+at the morphisms of the form $D_\alpha \times X \to X$
+is exhibited by the [[infinitesimal shape modality]] $&#643;_{inf}$.
+
+=--
+
++-- {: .num_Remark }
+###### Remark
+
+This is the [[infinitesimal cohesion|infinitesimal]] 
+analog of the notion of objects exhibiting [[cohesion]],
+see at [structures in cohesion -- A1-homotopy and the continuum](#cohesive+(infinity,1)-topos+--+structures#A1HomotopyContinuum).
+
+=--
+
+For more see at _[[Lie differentiation]]_.
 
 #### Structure sheaves
  {#StructureSheaves}
