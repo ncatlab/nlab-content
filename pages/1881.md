@@ -16,7 +16,7 @@
 
 ## Idea
 
-Given a [[set]] $S$, the __free monoid__ on $S$ is the set $S^*$ of all __lists__ (finite [[sequences]]) of elements of $S$, made into a monoid using __concatenation__.  The [[free functor]] from [[Set]] to [[Mon]] takes $S$ to $S^*$.
+Given a [[set]] $S$, the __free [[monoid]]__ on $S$ is the set $S^*$ of all __lists__ (finite [[sequences]]) of elements of $S$, made into a monoid using __concatenation__.  The [[free functor]] from [[Set]] to [[Mon]] takes $S$ to $S^*$.
 
 
 ## Definitions
