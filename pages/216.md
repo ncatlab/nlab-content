@@ -20,31 +20,111 @@
 
 ## Definition
 
-The **category algebra** $k[C]$ over a [[ground field]] $k$ of a small [[category]] $C$ is the [[vector space]] whose basis is  the morphisms of $C$, where the product of two morphisms $f$ and $g$ is defined to be their composite if [[composable pair|composable]], and $0$ otherwise:
-$$
-  f \cdot g := \left\lbrace
-    \array{
-      g \circ f & if composable
-      \\
-      0 & otherwise
-    }
-  \right.
- \,.
-$$ 
++-- {: .num_defn #CategoryAlgebra}
+###### Definition
 
-## Remarks
+Let $\mathcal{C}$ be a [[small category]] and let $R$ be a [[ring]].
 
-If the category $C$ is a [[groupoid]] with a single object, which may be canonically identified with a group $G$, then the category algebra coincides with the familiar [[group algebra]] of $G$: 
+The **category algebra** or **[[convolution algebra]]** $R[\mathcal{C}]$ of $\mathcal{C}$ over $R$ is the $R$-[[associative algebra|algebra]]
+
+* whose underlying $R$-[[module]] is the [[free module]] $R[\mathcal{C}_1]$ over the set of [[morphisms]] of $\mathcal{C}$;
+
+* whose product operation is defined on [[basis]]-elements $f,g \in \mathcal{C}_1 \hookrightarrow R[\mathcal{C}]$ to be their [[composition]] if they are composable and zero otherwise:
+
+  $$
+    f \cdot g := \left\lbrace
+      \array{
+        g \circ f & if\;composable
+        \\
+        0 & otherwise
+      }
+    \right.
+   \,.
+  $$ 
+
+=--
+
++-- {: .num_remark #AsConvolutionAlgebra}
+###### Remark
+
+We may identify elements in $R[\mathcal{C}_1]$ with [[functions]] $\mathcal{C}_1 \to R$ with the property that they are non-vanishing only on finitely many elements. Under this identification for $\phi_1, \phi_2$ two such functions, their product in $R[\mathcal{C}]$ is given by the formula
+
 $$
- k[C] = k[G]
+  \phi_1 \cdot \phi_2
+  \;
+   \colon
+  \;
+  f \mapsto
+  \sum_{f_2 \circ f_1 = f}
+  \phi_2(f_2)
+  \cdot
+  \phi_1(f_1)   
+  \,,
+$$
+
+where $f,f_1,f_2 \in \mathcal{C}_1$. In particular if $\mathcal{C}$ is a [[groupoid]] so that every [[morphisms]] $f$ has an [[inverse]] $f^{-1}$ then this is equivalently
+
+$$
+  \phi_1 \cdot \phi_2
+  \;
+   \colon
+  \;
+  f \mapsto
+  =
+  \sum_{g \in \mathcal{C}_1}
+  \phi_2(f \circ g^{-1})
+  \cdot
+  \phi_1(g) 
   \,.
 $$
 
-## Weak colimit interpretation {#WeakColimit}
+This expresses [[convolution]] of functions.
 
-Apparently for $C$ a [[groupoid]] the 
-category algebra of $C$ is the [[weak limit|weak colimit]] over $C$ of the functor $C \to Vect\text{-}Mod$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+$\mathcal{C} = \mathbf{B}G$ is the [[delooping]] [[groupoid]] of a [[discrete group]] $G$ (the groupoid with a single object and $G$ as its set of morphisms), then def. \ref{CategoryAlgebra} reduces to that of the [[group algebra]] of $G$: 
+$$
+  R[\mathbf{B}G] \simeq R[G]
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #ForLieGroupoids}
+###### Remark
+
+If $\mathcal{C}$ is a groupoid with extra [[geometry|geometric]] structure, then there are natural variants of the above definition.
+
+Notably if $\mathcal{C}$ is a [[Lie groupoid]] then there is a variant where the functions in remark \ref{AsConvolutionAlgebra} are taken to be [[smooth functions]] and where the convolution [[sum]] is replaced by an [[integration]]. In order for this to make sense one needs to consider in fact functions with values in half-[[densities]] over the [[manifold]] $\mathcal{C}_1$.
+
+More generally, for a [[bundle gerbe]] over a Lie groupoid $\mathcal{C}$, hence a multiplicative [[line bundle]] over $\mathcal{C}_1$, one can consider a convolution product on [[sections]] of this line bundle tensored with half-densities.
+
+For a careful discussion of these Lie-theoretic variants see ([EH](#EH)).
+
+=--
+
+
+## Equivalent characterizations
+
+We discuss equivalent characterizations of category algebras/groupoid algebras that are useful in certain context
+
+* [As a weak colimit over a constant 2Vect-valued functor
+](#WeakColimit)
+
+* [In terms of composition of spans](#InTermsOfCompositionOfSpans)
+
+### As a weak colimit over a constant $2Vect$-valued functor
+ {#WeakColimit}
+
+Apparently for $\mathcal{C}$ a [[groupoid]] the 
+category algebra of $C$ is the [[weak limit|weak colimit]] over $\mathcal{C}$ of the functor $\mathcal{C} \to Vect\text{-}Mod$
 constant on the ground field algebra.
+
+This statement is for instance in ([FHLT, section 8.4](#FHLT)).
 
 The 2-cell in the universal co-cone corresponding
 to the morphism $f \in C$ is the $k\text{-}k[C]$-bimodule
@@ -53,15 +133,13 @@ by $f \in k[C]$ from the left.
 
 This description should be compared with the analogous description of the [[action groupoid]] by a weak colimit. One sees that the groupoid algebra is a linear incarnation of the action groupoid in some sense.
 
-This statement is for instance of great relevance (while very secretly hidden underneath the surface) in section 8.4 of 
-
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv](http://arxiv.org/abs/0905.0731))
 
 
 
-## Span composition interpretation 
+### In terms of composition of spans
+ {#InTermsOfCompositionOfSpans}
 
-The category algebra of a category $C$ is a special case of a general [[arrow theory|arrow-theoretic]] construction that appears in [[quantization]] and in the theory of [[bi-brane]]s. 
+The category algebra of a category $C$ is a special case of a general construction of [[spans]] (see also at _[[bi-brane]]_). 
 
 In order not to get distracted by inessential technicalities, consider the case of a finite [[category]] $C$, i.e. an [[internal category]] in [[FinSet]]. This is a [[span]]
 $$
@@ -222,9 +300,7 @@ $$
 $$
 This is indeed the product in the category algebra.
 
-### References on this arrow-theoretic picture
-
-The claim is that this way of looking at category algebras realizes them as a puny special case of a bigger story which involves [[bi-brane]]s as morphisms between $n$-bundles/$(n-1)$-gerbes which live on spaces connected by correspondence spaces. This is related to a bunch of things,  such as T-duality, Fourier-Mukai transformations and other issues of quantization. A description of this perspective is in
+Looking at category algebras realizes them as a puny special case of a bigger story which involves [[bi-brane]]s as morphisms between $n$-bundles/$(n-1)$-gerbes which live on spaces connected by correspondence spaces. This is related to a bunch of things,  such as T-duality, Fourier-Mukai transformations and other issues of quantization. A description of this perspective is in
 
 * [[schreiber:Nonabelian cocycles and their quantum symmetries]].
 
@@ -235,106 +311,19 @@ This is related to observations such as described here:
 
 * Urs Schreiber, [_QFT of Charged n-Particle: T-Duality_](http://golem.ph.utexas.edu/category/2007/02/qft_of_charged_nparticle_tdual.html)
 
+## References
 
-###Discussion: Terminological Nitpicking
+The [[homotopy colimit]]-interpretation of category algebras over discrete categories is discussed in
 
-I use $k[S]$ to stand for the free vector space on the set $S$.  This is compatible with the notation $k[G]$ for group algebra of $G$.  Urs' notation $k[C]$ for the category algebra is also compatible, but in a different way.  
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv](http://arxiv.org/abs/0905.0731))
+ {#FHLT}
 
-Why is my notation better?  First, because I don't like the clunky notation $span_k(C)$ for the free vector space on the set $S$.   Second, because the equation $k[B G] = k[G]$ is inconsistent unless Urs is finally willing to admit that $B G = G$. <img src = "http://math.ucr.edu/home/baez/emoticons/tongue2.gif" alt = ""/>
+A careful discussion of convolution algebras of [[Lie groupoids]] is in 
 
-So what would _I_ call the category algebra of $C$?  I guess $k[C_1]$ or $k[Mor(C)]$.  You might complain that <i>this</i> notation is clunky, and I'd see your point. However, it's a fact that whenever the category algebra is important, its representation on $k[C_0] = k[Ob(C)]$ also tends to be important --- so I think the benefits of a notation that handles both structures outweigh the disadvantages of a slight clunkiness. -- [[John Baez|John]] 
+* [[Eli Hawkins]], _A groupoid approach to quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
+  {#EH}
 
-_[[Urs Schreiber|Urs]] says_: It is good that you said this, because we need to talk about this: I am puzzled by your attitude towards $\mathbf{B}G$ vs $G$. It is not the least a remark in your lecture notes with Mike that it is important to _distinguish_ between a $k$-tuply monoidal structure and the corresponding $k$-tuply degenerate category, even though there is a map identifying them. The issue appears here for instance when discussing the universal $G$-bundle in its groupoid-incarnation. It is 
-$$
-  G \to \mathbf{E}G \to \mathbf{B}G
-$$
-(where $\mathbf{E}G = G//G$ is the action groupoid of $G$ acting on itself). On the left we crucially have $G$ as a monoidal 0-category, on the right as a once-degenerate 1-category. In your notation you cannot even _write down_ the universal $G$-bundle! ;-)
 
-Or take the important difference between group representations and group 2-algebras, the former being functors $\mathbf{B}G \to Vect$, the latter functors $G \to Vect$. This is important all over the place, as you know better than me.
-
-Or take an abelian group $A$ and a codomain like $2Vect$. Then there are 3 different things we can sensibly consider, namely 2-functors
-
-$$
-  A \to 2Vect
-$$
-$$
-  \mathbf{B}A \to 2Vect
-$$
-$$
-  \mathbf{B}^2A \to 2Vect
-  \,.
-$$
-All of this is different. All of this is needed. The first one is the group 3-algebra of $A$. The second is pseudo-representations of the group $A$. The third is representations of the 2-group $\mathbf{B}A$. We have notation to distinguish this, and we should use it.
-
-Finally, writing $\mathbf{B}G$ for the 1-object $n$-groupoid version of an $n$-monoid $G$ makes notation behave nicely with respect to nerves, because then realization bars $|\cdot|$ simply commute with the $B$s in the game: $|\mathbf{B}G| = B|G|$.  I think this makes for instance your theorem with Danny appear in a prettier way.
-
-This behaviour under nerves shows also that, generally, writing $\mathbf{B}G$ gives the right intuition for what an expression means. For instance, what's the "geometric" reason that a group representation is an arrow $\rho : \mathbf{B}G \to Vect$? It's because this is, literally, equivalently thought of as the corresponding classifying map of the vector bundle on $\mathbf{B}G$ which is $\rho$-associated to the universal $G$-bundle:
-
-the $\rho$-associated vector bundle to the universal $G$-bundle is, in its groupoid incarnations,
-$$
-  \array{
-    V
-    \\
-    \downarrow
-    \\
-    V//G
-    \\
-    \downarrow
-    \\
-    \mathbf{B}G
-  }
-  \,,
-$$
-where $V$ is the vector space that $\rho$ is representing on, and this is classified by the representation $\rho : \mathbf{B}G \to Vect$ in that this is the pullback of the universal $Vect$-bundle
-$$
-  \array{
-    V//G
-    &\to&
-    Vect_*
-    \\
-    \downarrow && \downarrow 
-    \\
-    \mathbf{B}G
-    &\stackrel{\rho}{\to}&
-    Vect
-  }
-  \,,
-$$
-
-In summary, I think it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identified is actually equal.
-
-For instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives. 
-
-_Toby says_: John said:
->I use $k[S]$ to stand for the free vector space on the set $S$.  This is compatible with the notation $k[G]$ for group algebra of $G$.  Urs' notation $k[C]$ for the category algebra is also compatible, but in a different way.
-Wait, are you claiming that $k[S]$ and $k[C]$ are incompatible? I disagree! Just as a [[set]] may be seen as a [[discrete category]], so a vector space (or [[module]]) may be seen as an algebra where all multiplication is zero. (This is well known in the theory of [[Lie n-algebroid]]s, where a vector space is a twice monoidal Lie 2-algebroid, that is a commutative Lie algebra.) Then $k[S] = k[D S]$ (where $D S$ is the discrete category on $S$), just as $k[B G] = k[G]$.
-
-_[[Mike Shulman|Mike]] says_: Urs, I'm definitely with you about $G$ and $B G$, for all the reasons that you give and more.  (For instance, in classical homotopy theory, it is essential to distinguish between the two, for similar reasons.)  I'm not sure exactly what remark you're referring to in "n-categories and cohomology," but it's possible that it can be blamed on me rather than John.  In particular, anything in section 5 is my fault.
-
-_Toby_: John, I\'m afraid that, despite the compatibility of $k[S]$ and $k[C]$, on the general issue (as at [[action]]), Urs and Mike have convinced me too.
-
-_[[John Baez|John]] says_: Okay, fine.  I personally find it tiresome to use a notation that distinguishes between groups and one-object groupoids.  To me, having 'light notation', with a minimum of symbols, is incredibly important.  Every extra symbol makes my work look more complicated, reduces how many people will read it, and distracts attention from the actual ideas.  So, I don't want to write $B G$ unless I really need to.  For example, I agree with Urs that if I'm simultaneously discussing functors 
-$$
-  A \to 2Vect
-$$
-$$
-  \mathbf{B}A \to 2Vect
-$$
-and
-$$
-  \mathbf{B}^2A \to 2Vect
-$$
-then I need to carefully distinguish between these.  (I actually use $A[n]$ to mean the $\infty$-category or chain complex with the abelian group $A$ as $n$-morphisms; this is pretty standard in homological algebra.)  But if in some passage of text I'm only taking about a functor like 
-$$ \mathbf{B}^2A \to 2Vect$$
-I prefer to say "think of $A$ as a 2-category with only one object and one morphism", and then write this functor as $A \to 2Vect$, to avoid polluting the page with tons of $B^2$'s.  
-
-This probably isn't worth arguing about.  Some people prefer logically precise notation, while other people (like me) are always focused on maximizing readership.  These are different goals.  My ideal math paper would be mainly words with just a few equations per page, because that's the most fun to read.  But I don't expect everyone else to agree.
-
-While we're nitpicking: do we really want the product $f\cdot g$ of morphisms $f$ and $g$ in the category algebra to equal $g \circ f$?  This seems designed to trip people up.
-
-_[[Mike Shulman|Mike]]_: Here's another argument I just thought of, although it's still along the lines of "logically precise" so given what you just said, I guess it's unlikely to convince you.  What we are discussing is, in general, a functor from [[k-tuply monoidal n-category|k-tuply monoidal n-categories]] to $(k-1)$-tuply monoidal $(n+1)$-categories.  The delooping hypothesis says that it's an equivalence onto its image (at least as long as "0-tuply monoidal" means "pointed"), so from that point of view it's natural to want to leave it nameless and think of its domain as a subcategory of its codomain.
-
-However, there is also another functor from $k$-tuply monoidal $n$-categories to $(k-1)$-tuply monoidal $(n+1)$-categories which adds identity $(n+1)$-cells and forgets one level of monoidal structure.  This one is not in general an equivalence onto its image.  But in the particular case $k=n=\omega$, in which case the domain and codomain of these functors are _both_ the category of stably monoidal $\omega$-categories, it is the _second_ functor that is the identity functor, not the first one.
 
 [[!redirects category algebras]]
 [[!redirects groupoid algebra]]
