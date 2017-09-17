@@ -1,16 +1,29 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
+## Idea
+
 Let $G$ be a [[locally compact space|locally compact]] Hausdorff [[abelian group|abelian]] [[topological group]] with [[Haar measure|invariant (= Haar) measure]] $\mu$. Then for each $f\in L_1(G,\mu)$, define its __Fourier transform__ $\hat{f}$ as a function on its [[Pontrjagin dual]] group $\hat{G}$ given by
 
 $$
 \hat{f}(\chi) = \int_G f(x) \widebar{\chi(x)} d\mu(x),\,\,\,\chi\in\hat{G}.
 $$
 
+
 The Fourier transform of $f\in L_1(G,\mu)$ is always continuous and bounded on $\hat{G}$; the transform of the [[convolution]] of two functions is the product of the transforms of each of the functions separately.
 
-In the classical case of __Fourier series__, where $G=\mathbb{Z}$ (the additive group of [[integer]]s) and $\hat{G}=S^1$ (the [[circle group]]), the Fourier transform restricts to a unitary operator between the [[Hilbert spaces]] $L_2(S^1,d t)$ and $l_2(\mathbb{Z})$ and the Fourier coefficients are the numbers 
+
+In the classical case of __Fourier series__, where $G=\mathbb{Z}$ (the additive group of [[integers]]) and $\hat{G}=S^1$ (the [[circle group]]), the Fourier transform restricts to a unitary operator between the [[Hilbert spaces]] $L_2(S^1,d t)$ and $l_2(\mathbb{Z})$ and the Fourier coefficients are the numbers 
 
 $$c_n := \hat{f}(\chi_n) = \int_0^1 f(t) e^{-2\pi i n t} d t,$$
 
 for $n\in\mathbb{Z}$, where the functions $\chi_n(t)= e^{2\pi i n t}$ form an orthonormal basis of $L_2(S^1,d t)$. The Fourier transform $\hat{\chi_n}$ is then viewed as the  $\mathbb{Z}$-series $\delta_n$ which in the $n$-th place has $1$ and elsewhere $0$. The Fourier transform replaces the operator of differentiation $d/d t$ by the operator of multiplication by the series $\{2\pi i n\}_{n\in\mathbb{Z}}$.
+
+### 
 
 In general, if $G$ is a [[compact space|compact]] abelian group (whose Pontrjagin dual is [[discrete space|discrete]]), one can normalize the invariant measure by $\mu(G)=1$ and $\hat{\mu}(X)=card(X)$ for $X\subset\hat{G}$. Then the Fourier transform restricts to a unitary operator from $L_2(X,\mu)$ to $L_2(\hat{G},\hat{\mu})$. 
 
@@ -19,9 +32,12 @@ $$\hat{f}(\lambda)=\int_{-\infty}^\infty f(x) e^{-2\pi i\lambda x} d x.$$
 It is usually defined as a linear automorphism of the [[Schwarz space]] $S(\mathbb{R})\to S(\mathbb{R})$; there is also an appropriate extension to the space of [[distribution]]s $S'(\mathbb{R})$ by $\langle \hat{f},\phi\rangle := \langle f, \hat{\phi}\rangle$ where $f\in S'(\mathbb{R})$ and $\phi\in S(\mathbb{R})$. The Fourier transform and the inverse Fourier transform are continuous, mutually inverse operators $S'(\mathbb{R})\to S'(\mathbb{R})$. 
 There is also a unitary operator on $L_2(\mathbb{R},d x)$ which when restricted to $L_2(\mathbb{R},d x)\cap L_1(\mathbb{R},dx)$ agrees with the Fourier transform. 
 
-The study of the Fourier transform is the main subject of [[Fourier analysis]] and, together with its generalizations like wavelet transform, of [[harmonic analysis]]. Regarding that, with an appropriate choice of functional spaces, the Fourier transform has an inverse, each function can be represented as a Fourier inverse of some function, which amounts to a decomposition into an integral over a Haar measure along some basis. THus the function gets *analysed* into *harmomics*. 
+The study of the Fourier transform is the main subject of [[Fourier analysis]] and, together with its generalizations like wavelet transform, of [[harmonic analysis]]. Regarding that, with an appropriate choice of functional spaces, the Fourier transform has an inverse, each function can be represented as a Fourier inverse of some function, which amounts to a decomposition into an integral over a Haar measure along some basis. Thus the function gets *analysed* into *harmomics*. 
+
 
 For noncommutative topological groups, instead of continuous characters one should consider [[irreducible representation|irreducible]] unitary [[representation]]s, which makes the subject much more difficult. There are also generalizations in [[noncommutative geometry]], see [[quantum group Fourier transform]].   
+
+## References
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
 
@@ -29,3 +45,7 @@ category: analysis
 [[!redirects Fourier series]]
 [[!redirects Fourier integral]]
 [[!redirects Fourier analysis]]
+
+[[!redirects Fourier mode]]
+[[!redirects Fourier modes]]
+
