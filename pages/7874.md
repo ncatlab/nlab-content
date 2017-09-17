@@ -34,9 +34,7 @@ $$
   \sigma \;\colon\; M String \longrightarrow tmf
 $$
 
-of [[E-∞ rings]], from the [[String structure]]-[[Thom spectrum]] to [[tmf]].
-
-This is refinement of the [[Witten genus]] (see there for more)
+of [[E-∞ rings]], from the [[String structure]]-[[Thom spectrum]] to [[tmf]]  This is refinement of the [[Witten genus]] (see there for more)
 
 $$
   w \;\colon\; \Omega^{String,rat}_\bullet \longrightarrow MF_\bullet
@@ -52,6 +50,9 @@ $$
 For this reason the string orientation of [[tmf]] is also referred to as the "topological Witten genus".
 
 All this is due to ([Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01), [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)).
+
+See the Idea-section at _[[tmf]]_ and at _[[Witten genus]]_ for more background.
+
 
 ## Related concepts
 
