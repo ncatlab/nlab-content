@@ -18,7 +18,7 @@ As a preliminary step, consider the [[category]] $Comp Bool Alg$ of [[complete b
 
 By one definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a [[complete measure space]] $X$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $\mathcal{M}/\mathcal{N}$ of [[measurable subsets]] of $X$ modulo [[null subsets]].  Note that the measure on $X$ is irrelevant except to specify the null subsets.  In this way, $Meas Loc$ becomes [[equivalence of categories|equivalent]] to the category $Loc Meas$ of [[localisable measurable spaces]].
 
-By another definition, a complete boolean algebra $L$ is a __measurable locale__ if ....
+By another definition, a complete boolean algebra $L$ is a __measurable locale__ if [...](http://mathoverflow.net/questions/71259/which-complete-boolean-algebras-arise-as-the-algebras-of-projections-of-commutati).
 
 By yet another definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a commutative $W^*$-[[W-star-algebra|algebra]] $A$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $Proj(A)$ of [[projection operator]]s in $A$; see [[idempotent operator]] for a construction of $Proj(A)$.  In this way, $Meas Loc$ becomes [[dual equivalence|dual]] to the category $Comm W^* Alg$ of commutative $W^*$-algebras.
 
@@ -31,7 +31,7 @@ For purposes of [[constructive mathematics]], [[Toby Bartels|I]] suspect that it
 
 To do [[measure theory]], it's important to know how to interpret the [[real line]] with the [[Borel sets]] as measurable.  This is actually a little tricky, because [[Lebesgue measure]] is not complete on the Borel sets, and passing to the Lebesgue sets gives a different measurable space.
 
-...
+[...](http://mathoverflow.net/questions/31603/why-do-probabilists-take-random-variables-to-be-borel-and-not-lebesgue-measurab/31724#31724)
 
 
 ## Measures on measurable locales
