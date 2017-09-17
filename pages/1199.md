@@ -11,7 +11,7 @@ A (binary) [[relation]] $\prec$ on a [[set]] $S$ is called _well-founded_ if it 
 ## Definition
 
 Given a [[subset]] $A$ of $S$, suppose that $A$ has the property that, given any element $x$ of $S$, if
-$$ \forall (t: S),\; t \prec x \Rightarrow t \in A ,$$
+$$ \forall (t\colon S),\; t \prec x \Rightarrow t \in A ,$$
 then $x \in A$.  Such an $A$ may be called a _$\prec$-inductive subset_ of $S$.  The relation $\prec$ is __well-founded__ if the only $\prec$-inductive subset of $S$ is $S$ itself.
 
 Note that this is precisely what is necessary to validate induction over $\prec$: if we can show that a statement is true of $x\in S$ whenever it is true of everything $\prec$-below $x$, then it must be true of everything in $S$.  In the presence of [[excluded middle]] it is equivalent to other commonly stated definitions; see "alternative formulations" below.
@@ -42,11 +42,12 @@ Lemma (1) is essentially Fermat\'s method of _infinite descent_.  Lemma (2) is t
 
 However, neither of these is acceptable in [[constructive mathematics]], since both lemmas require the principle of [[excluded middle]] to prove one direction.  The nonexistence of infinite descending sequences is too weak to allow proofs by induction (except for special forms of $A$), although it is sufficient to establish the [[Burali-Forti paradox]].  On the other hand, the requirement that every inhabited subset have a minimal element is too strong to ever be established (except for degenerate cases of $S$).  When necessary, we call a relation with the property of Lemma (2) **classically well-founded**.
 
+
 ## Coalgebraic formulation 
 
-Many inductive or recursive notions may also be packaged in coalgebraic terms. For the concept of well-founded relation, first observe that a binary relation $\prec$ on a set $X$ is the same as a coalgebra structure $\theta: X \to P(X)$ for the covariant power-set endofunctor on $Set$, where $y \prec x$ if and only if $y \in \theta(x)$. 
+Many inductive or recursive notions may also be packaged in [[coalgebra|coalgebraic]] terms. For the concept of well-founded relation, first observe that a binary relation $\prec$ on a set $X$ is the same as a coalgebra structure $\theta\colon X \to P(X)$ for the covariant [[power-set]] endofunctor on $Set$, where $y \prec x$ if and only if $y \in \theta(x)$. 
 
-In this language, a subset $i: U \hookrightarrow X$ is $\prec$-inductive, or $\theta$-inductive, if in the pullback 
+In this language, a [[subset]] $i\colon U \hookrightarrow X$ is $\prec$-inductive, or $\theta$-inductive, if in the [[pullback]]
 
 $$\array{
 H & \stackrel{j}{\to} & X \\ 
@@ -54,21 +55,22 @@ H & \stackrel{j}{\to} & X \\
 P U & \underset{P i}{\to} & P X
 }$$ 
 
-the map $j$ factors through $i$. (Note that $j$ is necessarily monic, since $P$ preserves monos.) Unpacking this a bit: for any $x \in X$, if $\theta(x) = V$ belongs to $P U$, that is if $\theta(x) \subseteq U$, then $x \in U$. This says the same thing as $\forall_{x: X} (\forall_{y: X} y \prec x \Rightarrow y \in U) \Rightarrow x \in U$. 
+the map $j$ factors through $i$. (Note that $j$ is necessarily [[monomorphism|monic]], since $P$ preserves monos.) Unpacking this a bit: for any $x \in X$, if $\theta(x) = V$ belongs to $P U$, that is if $\theta(x) \subseteq U$, then $x \in U$. This says the same thing as $\forall_{x\colon X} (\forall_{y\colon X} y \prec x \Rightarrow y \in U) \Rightarrow x \in U$. 
 
 Then, as usual, the $P$-coalgebra $(X, \theta)$ is well-founded if every $\theta$-inductive subset $U \hookrightarrow X$ is all of $X$. 
 
-Other relevant notions may also be packaged; for example, the $P$-coalgebra $X$ is extensional if $\theta: X \to P X$ is monic. See also [[well-founded coalgebra]]. 
+Other relevant notions may also be packaged; for example, the $P$-coalgebra $X$ is [[extensional relation|extensional]] if $\theta\colon X \to P X$ is monic. See also [[well-founded coalgebra]]. 
+
 
 ## Simulations
 
-Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, a [[function]] $f: S \to T$ is a __simulation__ of $S$ in $T$ if
+Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, a [[function]] $f\colon S \to T$ is a __simulation__ of $S$ in $T$ if
 1.  $f(x) \prec f(y)$ whenever $x \prec y$ and
-1.  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
+2.  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
 Then sets so equipped form a [[category]] with simulations as [[morphisms]].  See [[extensional relation]] for more uses of simulations.
 
-In coalgebraic language, a simulation $S \to T$ is simply a $P$-coalgebra homomorphism $f: S \to T$. Condition 1., that $f$ is merely $\prec$-preserving, translates to the condition that $f$ is a lax coalgebra map in the sense of there being an inclusion 
+In coalgebraic language, a simulation $S \to T$ is simply a $P$-coalgebra homomorphism $f\colon S \to T$. Condition (1), that $f$ is merely $\prec$-preserving, translates to the condition that $f$ is a [[lax coalgebra]] map in the sense of there being an inclusion 
 
 $$\array{
 X & \stackrel{\theta_X}{\to} & P X \\
