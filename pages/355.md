@@ -50,9 +50,12 @@ Or we define an __$n$-groupoid__ abstractly as an [[n-truncated object of an (in
 
 ### As Kan complexes
 
-A general model for [[∞-groupoid]]s are [[Kan complex]]es. In this context an  $n$-groupoid is a $(n+1)$-[[coskeletal]] Kan complex, i.e. a Kan complex in which every $k$-sphere $\partial \Delta^{k+1}$ for $k \geq n+1$ has a unique filler.
+A general model for [[∞-groupoid]]s are [[Kan complex]]es. In this context an  $n$-groupoid in the general sense is modeled by a Kan complex all whose [[homotopy group]]s vanish in degree $k \gt n$. In this generality one also speaks of a [[homotopy n-type]]. 
 
-If we only demand these sphere-fillers to exist, not necessarily uniquely, then we get [[∞-groupoid]]s _equivalent_ to $n$-groupoids, i.e. [[homotopy n-type]]s.
+Every such $n$-type is equivalent to a "small" model, an $(n+1)$-[[coskeletal]] Kan complex: one in which every $k$-sphere $\partial \Delta^{k+1}$ for $k \geq n+1$ has a _unique_ filler.
+
+Even a bit smaller than this is a Kan complex that is an $n$-[[hypergroupoid]], where in addition to these spheres also the [[horn]] fillers in degree $n+1$ are unique.
+
 
 [[!redirects n-groupoid]]
 [[!redirects n-groupoids]]
