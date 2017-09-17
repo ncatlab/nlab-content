@@ -35,14 +35,17 @@ see at _[[Mackey functor]]_
 
 ### Relation to spectra with $G$-action
 
-(e.g. [Carlsson 92, p. 14](#Carlsson92))
+(e.g. [Carlsson 92, p. 14](#Carlsson92), [GreenleesMay, p.16](#GreenleesMay))
 
  
 ## References
 
-A survey is in
+Surveys and introductions include
 
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
+
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
 
 For more references see at _[[equivariant stable homotopy theory]]_.
 
