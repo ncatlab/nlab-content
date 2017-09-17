@@ -805,7 +805,7 @@ as well as specifying
   that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
   on them.
 
-The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions are consist with our interpretation of them as sets of $k$-morphisms and source- and target maps between these, in that for instance it enforces that the 1-morphisms between which a 2-morphisms goes suitably go between coinciding objects. These are called the [[simplicial identities]].
+The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions are consistent with our interpretation of them as sets of $k$-morphisms and source and target maps between these, in that for instance it enforces that the 1-morphisms between which a 2-morphisms goes suitably go between coinciding objects. These are called the [[simplicial identities]].
 
 But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
 
@@ -852,7 +852,7 @@ $$
 
 A simplicial set where for all such $(f,g)$ such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
 
-For the purpose of describing [[groupoid]]al compostion, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
+For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
 
 $$
   \Lambda^2[2] = \left\{
@@ -885,7 +885,7 @@ $$
   \,.
 $$
 
-Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a compositon operation with inverses in $K$. 
+Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
 
 In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[2-morphism]]s, which means that we can find the relevant [[associahedron]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that it turns out that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
 
@@ -904,9 +904,9 @@ $$
   \,.
 $$
 
-The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the simplicial set with $N(C)_k$ precisely the set of sequence of $n$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
+The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the simplicial set with $N(C)_k$ precisely the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
 
-But we need a bit more than just bare [[∞-groupoid]]s. In generalization to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to rember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k$-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
+But we need a bit more than just bare [[∞-groupoid]]s. In generalizating to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to remember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k$-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
 
 This data of $U$-families arranges itself into a [[presheaf]] with values in Kan complexes
 
@@ -916,7 +916,7 @@ $$
 
 hence with values in simplicial sets. This is equivalently a [[simplicial presheaf]] of sets. The [[functor category]] $[C^{op}, sSet]$ on the [[opposite category]] of the category of test objects $C$ serves as a model for the [[(∞,1)-category]] of $\infty$-groupoids with $C$-structure.
 
-While there are no [[higher morphism]]s in this functor 1-category that could for instance witness that two $\infty$-groupoids are not [[isomorphic]], but still [[equivalence of categories|equivalent]], it turns out that all one needs in order to reconstruct _all_ these higher morphisms (up to equivalence!) is just the information of wich morphisms of simplicial presheaves would become invertible if we were keeping track of higher morphism. These would-be invertible morphisms are called _weak equivalences_ and denoted $K_1 \stackrel{\simeq}{\to} K_2$. 
+While there are no [[higher morphism]]s in this functor 1-category that could for instance witness that two $\infty$-groupoids are not [[isomorphic]], but still [[equivalence of categories|equivalent]], it turns out that all one needs in order to reconstruct _all_ these higher morphisms (up to equivalence!) is just the information of which morphisms of simplicial presheaves would become invertible if we were keeping track of higher morphism. These would-be invertible morphisms are called _weak equivalences_ and denoted $K_1 \stackrel{\simeq}{\to} K_2$. 
 
 For common choices of $C$ there is a well-understood way to define the weak equivalences $W \subset mor [C^{op}, sSet]$, and equipped with this information the category of simplicial presheaves becomes a _[[category with weak equivalences]]_ . There is a well-developed but somewhat intricate theory of how exactly this 1-cagtegorical data models the full higher category of structured groupoids that we are after, but for our purposes we essentially only need to work inside the [[category of fibrant objects]] of a [[model category]] structure [[model structure on simplicial presheaves|on simplicial presheaves]], which in practice amounts to the fact that we use the following three basic constructions:
 
@@ -956,7 +956,7 @@ For common choices of $C$ there is a well-understood way to define the weak equi
   
 The [[principal ∞-bundle]]s that we wish to model are already the main and simplest example of the application of these three items: 
 
-Consider an object $\mathbf{B}G \in [C^{op}, sSet]$ which is an $\infty$-groupoid with a single object, so that we may think of it as the [[delooping]] of an [[∞-group]] $G$, let $*$ be the point and $* \to \mathbf{B}G$ the unique inclusion map. The _good replacmement_ of this inclusion morphism is the $G$-[[universal principal ∞-bundle]] $\mathbf{E}G \to \mathbf{B}G$ gives by the pullback diagram
+Consider an object $\mathbf{B}G \in [C^{op}, sSet]$ which is an $\infty$-groupoid with a single object, so that we may think of it as the [[delooping]] of an [[∞-group]] $G$, let $*$ be the point and $* \to \mathbf{B}G$ the unique inclusion map. The _good replacement_ of this inclusion morphism is the $G$-[[universal principal ∞-bundle]] $\mathbf{E}G \to \mathbf{B}G$ gives by the pullback diagram
   
 $$
   \array{ 
@@ -993,7 +993,7 @@ $$
   }
 $$
 
-we call the [[principal ∞-bundle]] $P \to X$ classified by the coycle.
+we call the [[principal ∞-bundle]] $P \to X$ classified by the cocycle.
 
 It is now evident that our discussion of ordinary smooth principal bundles [above](#PrincipalBundles) is the special case of this for $\mathbf{B}G$ the [[nerve]] of the one-object groupoid associated with the ordinary group $G$.
 
@@ -1071,7 +1071,7 @@ $$
   \,.
 $$
 
-In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-stack (on [[CartSp]]) or $\infty$-prestack (on [[Diff]]) $G TrivBund(-)$ of _trivial_ $G$-principal bundles, and of $\mathbf{B}G_{conn}$ cortespondingly as trivial $G$-principal bundles with (non-trivial) connection $G TrivBund_{\nabla}(- )$. In this sense the statement that $\infty$-connections are cocycles with coefficients in some $\mathbf{B}G_{conn}$ is a tautology. The real questions are therefore:
+In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-stack (on [[CartSp]]) or $\infty$-prestack (on [[Diff]]) $G TrivBund(-)$ of _trivial_ $G$-principal bundles, and of $\mathbf{B}G_{conn}$ correspondingly as trivial $G$-principal bundles with (non-trivial) connection $G TrivBund_{\nabla}(- )$. In this sense the statement that $\infty$-connections are cocycles with coefficients in some $\mathbf{B}G_{conn}$ is a tautology. The real questions are therefore:
 
 1. What is $\mathbf{B}G_{conn}$ in concrete formulas?
 
@@ -1080,7 +1080,7 @@ In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-
 A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]]. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close. What we describe is a generalization of the concept of [[parallel transport]] to [[higher parallel transport]]. As we shall see, this is naturally expressed in terms of [[∞-anafunctor]]s out of [[path n-groupoid]]s. This reflects how the full abstract theory arises in the context of an [[∞-connected (∞,1)-topos]] that comes canonically with a notion of [[schreiber:path ∞-groupoid]]s.
 
 
-We being below the discussion of $\infty$-connection by reviewing the classical theory of [[connection on a bundle]] in a way that will make its generalization to higher connections relatively straightforward:
+Below we begin the discussion of $\infty$-connection by reviewing the classical theory of [[connection on a bundle]] in a way that will make its generalization to higher connections relatively straightforward:
 
 * [Connections on principal bundles](#ConnectionOnPrincipalBundle).
 
@@ -1088,7 +1088,7 @@ In an analogous way we can then describe certain classes of [[connections on a 2
 
 * [Connections on 2-bundles](#ConnectionOn2Bundle).
 
-With that in hand we then revisit the discussion of connections on ordinary bundles: by associating to each bundle with connection its corresponding _curvature 2-bundle with connection_ , we obtain a more refined description of connections on bundles, one that is naturally adapted to the construction of [[curvature characteristic form]]s in the [[Chern-Weil homomorphism]]:
+With that in hand we then revisit the discussion of connections on ordinary bundles. By associating to each bundle with connection its corresponding _curvature 2-bundle with connection_ we obtain a more refined description of connections on bundles, one that is naturally adapted to the construction of [[curvature characteristic form]]s in the [[Chern-Weil homomorphism]]:
 
 * [Curvature characteristics of 1-bundles](#CurvatureCharacteristicsI).
 
@@ -1104,7 +1104,7 @@ The combination of these two aspects yields naturally an explicit model for the 
 
 * [The ∞-Chern-Weil homomorphism](#ChernWeilHomomorphism)
 
-Taken together, these cnstructions allow us to express a good deal of the general $\infty$-Chern-Weil theory with classical tools. As an example, we describe how the classical Cech-Deligne cocycle construction of the refined [[Chern-Weil homomorphism]] (by [BrylinskiMacLaughlin](#BrylinskiMacLaughlin)) drops out from these constructions:
+Taken together, these constructions allow us to express a good deal of the general $\infty$-Chern-Weil theory with classical tools. As an example, we describe how the classical Cech-Deligne cocycle construction of the refined [[Chern-Weil homomorphism]] (by [BrylinskiMacLaughlin](#BrylinskiMacLaughlin)) drops out from these constructions:
 
 * [Example: The Chern-Simons circle 3-bundle](#ChernSimons3Bund).
 
@@ -1119,11 +1119,11 @@ There are different equivalent definitions of the classical notion of a connecti
 
 For $X$ a [[smooth manifold]] let $[I,X]$ be the space of smooth maps $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say a $U$-parameterized smooth family of points in $[I,X]$ is a smooth map $U \times I \to X$.
 
-Say a path $\gamma \in [I,X]$ has _sitting instants_ if it is constant in a neightbourhood of the boundary $\partial I$. Let $[I,P]_{si} \subset [I,P]$ be the subset of paths with sitting instants. 
+Say a path $\gamma \in [I,X]$ has _sitting instants_ if it is constant in a neighbourhood of the boundary $\partial I$. Let $[I,P]_{si} \subset [I,P]$ be the subset of paths with sitting instants. 
 
 Let $[I,X]_{si}^{th} \subset [I,X]_{si}$ be the set of equivalence classes where two paths are regarded as equivalent  if they are cobounded by a smooth [[thin homotopy]].
 
-Say a $U$-parameterized smooth family of points in $[I,X]_{si}{th}$ is one that comes from a $U$-family of representatives in $[I,X]_{si}$.
+Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that comes from a $U$-family of representatives in $[I,X]_{si}$.
 
 The **path groupoid** $\mathbf{P}_1(X)$ is the groupoid
 
@@ -1133,7 +1133,7 @@ $$
 
 with source and target maps given by endpoint evaluation and composition given by concatenation along any orientation preserving isomorphism $[0,1] \to [0,2]$.
 
-This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth path. We regard it as a groupoid-valued presheaf
+This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth paths. We regard it as a groupoid-valued presheaf
 
 $$
   \mathbf{P}_1(X) : U \mapsto (Diff(U \times I, X)_{si}^{th} \stackrel{\to}{\to} Diff(U,X) )
@@ -1142,9 +1142,9 @@ $$
 
 =--
 
-A smooth functor $\mathbf{P}_1(X) \to \mathbf{B}G$ sends each (thin-homotopy class of a) path to an element of the group $G$, such that compotite paths map to products of group elements and such that $U$-families of smooth induce smooth maps $U \to G$ of elements. 
+A smooth functor $\mathbf{P}_1(X) \to \mathbf{B}G$ sends each (thin-homotopy class of a) path to an element of the group $G$, such that composite paths map to products of group elements and such that $U$-families of smooth paths induce smooth maps $U \to G$ of elements. 
 
-Suppose $A \in \Omega^1(X, \mathfrak{g})$ is a [[Lie-algebra valued 1-form]] on $X$ with valued in the [[Lie algebra]] $\mathfrak{g}$ of $G$. Then the classical notion of [[parallel transport]] induces such a functor
+Suppose $A \in \Omega^1(X, \mathfrak{g})$ is a [[Lie-algebra valued 1-form]] on $X$ with values in the [[Lie algebra]] $\mathfrak{g}$ of $G$. Then the classical notion of [[parallel transport]] induces such a functor
 
 $$
    tra_A : \mathbf{P}_1(X) \to \mathbf{B}G
@@ -1171,7 +1171,7 @@ where on the right we have the [[groupoid of Lie-algebra valued 1-forms]]: objec
 
 =--
 
-This is equivalence is natural in $X$, so that we obtain another smooth groupoid
+This equivalence is natural in $X$, so that we obtain another smooth groupoid
 
 $$
   \mathbf{B}G_{diff} : U \mapsto [CartSp^{op}, Grpd](\mathbf{P}_1(-), \mathbf{B}G)
@@ -1215,7 +1215,7 @@ Write $\mathbf{\Pi}_1(X)$ for the smooth groupoid defined as $\mathbf{P}_1(X)$, 
 The above restricts to a natural equivalence
 
 $$
-  [CartSp^{op}, Grpd](\mathbf{P}_1(X), \mathbf{B}G)
+  [CartSp^{op}, Grpd](\mathbf{\Pi}_1(X), \mathbf{B}G)
   \simeq
   \mathbf{\flat}\mathbf{B}G
   \,,
@@ -1678,7 +1678,7 @@ is precisely a choice of _pseudo-connection_ on a [[nLab:Cech cohomology|Cech-co
 There is, at this point, _no_ condition on the compatibility of these 1-forms on double intersections $U_i \cap U_j$. Therefore the term "pseudo-connection". 
 
 
-As we shall discuss below in the section [∞-Lie algebra valued connectons](#LieConnections), we can find a natural morphism 
+As we shall discuss below in the section [∞-Lie algebra valued connections](#LieConnections), we can find a natural morphism 
 
 $$
   ch_G : \mathbf{B}_{diff}G \to (\mathbf{\Pi}\mathbf{B}G)\otimes \mathbb{R} \simeq \prod_i \mathbf{B}^{n_i}\mathbb{R}
