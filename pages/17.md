@@ -601,4 +601,8 @@ Here are some useful specifics:
 
 * [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
 
+* [Hi Res Wallpaper](http://hireswallpaper.org/)
+
+* [Angry Birds Game Online](http://hireswallpaper.org/)
+
 category: meta
