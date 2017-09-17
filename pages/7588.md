@@ -17,7 +17,7 @@
 
 Pointless topology is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  Note that pointless topology *has* points, but they are not fundamental; and a particular [[space]] may well have no points and yet be far from [[empty space|empty]].  (A pointless space is still a set with [[extra stuff]], of course, as long as there is such a thing as a [[functor]] mapping a space to its set of points.)
 
-In [[locale theory]], for example, one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion.  In [[formal topology]], one studies a set of *[[base for a topology|basic]]* open subspaces (with the extra structure of a [[posite]] with [[positivity predicate|positivity]], although in fact the [[isomorphisms]] of formal topologies need not even respect these underlying sets).
+In [[locale theory]], for example, one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion.  In [[formal topology]], one studies a set of *[[base for a topology|basic]]* open subspaces (with the extra structure of a [[posite]] with [[positivity predicate|positivity]], although in fact the [[isomorphisms]] of formal spaces need not even respect these underlying sets).
 
 
 ## References
