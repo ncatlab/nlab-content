@@ -1327,3 +1327,6 @@ Exposition is at
 [[!redirects cohesive ∞-groupoids]]
 [[!redirects cohesive infinity-groupoid]]
 [[!redirects cohesive infinity-groupoids]]
+
+[[!redirects cohesive homotopy theory]]
+[[!redirects cohesive homotopy theories]]
