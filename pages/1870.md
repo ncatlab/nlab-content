@@ -172,6 +172,10 @@ An original article is
 
 which discusses twists of $KO$ and $KU$ over some $X$ by elements in $H^0(X,\mathbb{Z}_2) \times H^1(X,\mathbb{Z}_2) \times H^3(X, \mathbb{Z})$.
 
+The formulation in terms of sections of Fredholm bundles seems to go back to 
+
+* [[Jonathan Rosenberg]], _Continuous-trace algebras from the bundle theoretic point of view_ , J. Austral. Math. Soc. Ser. A 47 (1989), no. 3, 368-381. 
+
 A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ is in
 
 * [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_ ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054))
