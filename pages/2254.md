@@ -18,7 +18,7 @@ Much more general are formal group schemes from
 
 __Formal group schemes__ are simply the group objects in a category of [[formal schemes]]; however usually only the case of the formal spectra of complete $k$-algebras is considered; this category is equivalent to the category of complete cocommutative $k$-[[Hopf algebras]]. For a generalization over [[operads]] see
 
-* B. Fresse, _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998. 
+* [[Benoit Fresse]], _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998, [doi](http://dx.doi.org/10.1006/jabr.1997.7280) 
 
 Formal geometry is closely related also to the *rigid* [[analytic geometry]].
 
