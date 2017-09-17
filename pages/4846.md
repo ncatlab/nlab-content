@@ -9,6 +9,10 @@
 =--
 =--
 
+**supergravity Lie 6-algebra** $\to$ [[supergravity Lie 3-algebra]] $\to$ [[super Poincaré Lie algebra]]
+
+***
+
 #Contents#
 * table of contents
 {:toc}
@@ -44,6 +48,11 @@ $$
 
 
 (...)
+
+## Applications
+
+The maximal 11-dimensional [[supergravity]] is [[schreiber:∞-Chern-Simons theory]] for a degree 11 [[Chern-Simons element]] in $\mathfrak{sugra}_6$.
+See [[D'Auria-Fre formulation of supergravity]] for details.
 
 ## References
 
