@@ -63,7 +63,7 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 * Lecture 16 _The Landweber exact functor theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture16.pdf))
 
-* Lecture 17 _Phanton maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf))
+* Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf))
 
 * Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
 
@@ -158,7 +158,7 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 * [[Landweber exact functor theorem]]
 
-## Lecture 17 _Phanton maps_ 
+## Lecture 17 _Phantom maps_ 
 
 * [[phantom maps]]
 
