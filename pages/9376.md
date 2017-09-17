@@ -1,8 +1,11 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-We discuss the refinement of the traditional notion of _[[Atiyah Lie groupoids]]_ (the [[Lie groupoids]] which are the [[Lie integration]] of [[Atiyah Lie algebroids]] of $G$-[[principal bundles]]) from [[differential geometry]] to [[higher differential geometry]] and generally to [[higher geometry]].
+We discuss a refinement of the traditional notion of _[[Atiyah Lie groupoids]]_ (the [[Lie groupoids]] which are the [[Lie integration]] of [[Atiyah Lie algebroids]] of $G$-[[principal bundles]]) from [[differential geometry]] to [[higher differential geometry]] and generally to [[higher geometry]].
 
 Briefly, for $G$ an [[∞-group]] in an [[(∞,1)-topos]] and $P \to X$ a $G$-[[principal ∞-bundle]], its _higher Atiyah groupoid_ is the [[groupoid object in an (∞,1)-category|groupoid object]] $At(P)$ such that the
 
@@ -14,13 +17,15 @@ In these vague words this is precisely the same description as for the tradition
 
 Besides generalizing the traditional definition to [[homotopy theory]], the notion of higher Atiyah groupoids also generalizes from [[concrete objects]] such as [[Lie groups]] to general objects in an [[(∞,1)-topos]] (general [[(∞,1)-stacks]], not necessarily "supported on points"), notably to _[[moduli ∞-stacks]]_ for [[cocycles]] in [[differential cohomology]]. For instance if we assume that the ambient [[(∞,1)-topos]] $\mathbf{H}$ is [[cohesive (∞,1)-topos|cohesive]] and consider $\mathbb{G} \in \mathrm{Grp}(\mathbf{H})$  a _[[sylleptic ∞-group]]_, then there is the [[moduli ∞-stack]] $\mathbf{B}\mathbb{G}_{\mathrm{conn}}$ of _$\mathbb{G}$-[[princical ∞-connections]]_ and this is itself again a [[group object in an (∞,1)-category|group object]]. 
 A $(\mathbf{B}\mathbb{G}_{\mathrm{conn}})$-[[principal ∞-bundle]] is equivalently a $(\mathbf{B}^2\mathbb{G})$-[[principal ∞-connection]] "without cruving". For instance if $\mathbb{G} = U(1)$ is the [[circle group]] in [[smooth ∞-groupoids]], then 
-$\mathbf{B}(\mathbf{B}\mathbb{G}_{\mathrm{conn}})$ classifies [[circle 2-bundle with connection]] without 2-form part: in parts of the literazire this is known as "[[bundle gerbes]] with connevitve structure but without curving".
+$\mathbf{B}(\mathbf{B}\mathbb{G}_{\mathrm{conn}})$ classifies [[circle 2-bundle with connection]] without 2-form part: in parts of the literazire this is known as "[[bundle gerbes]] with connevitve structure but without [[curving]]".
 
-So the general definition considered here Assigns a higher Atiyah groupoid to a "bundle gerbe with connective structure but no curving". It turns out that this is the _[[Courant 2-groupoid]]_ which [[Lie integration|Lie integrates]] the [[standard Courant Lie 2-algebroid]] traditionally induced by this data.
+So the general definition considered here Assigns a higher Atiyah groupoid to a "bundle gerbe with connective structure but no [[curving]]". It turns out that this is the _[[Courant 2-groupoid]]_ which [[Lie integration|Lie integrates]] the [[standard Courant Lie 2-algebroid]] traditionally induced by this data.
 
-The  notion of higher Atiyah groupoids is more general still: the definition does not really require that the object fed into the construction is a plain [[principal ∞-bundle]]. It could for notably be a genuine [[principal ∞-connection]] (hence "_with_ curving"). We show below that the corresponding higher Atiyah groupoid is that groupoid object whose [[∞-group of bisections]] is the [[quantomorphism n-group]] of the principal $\infty$-connection regarded as a [[prequantum n-bundle]].
+The  notion of higher Atiyah groupoids is more general still: the definition does not really require that the object fed into the construction is a plain [[principal ∞-bundle]]. It could for notably be a genuine [[principal ∞-connection]] (hence "_with_ [[curving]]"). We show below that the corresponding higher Atiyah groupoid is that groupoid object whose [[∞-group of bisections]] is the [[quantomorphism n-group]] of the principal $\infty$-connection regarded as a [[prequantum n-bundle]].
 
-In summary, the [[higher geometry|higher geometric]] generalization of the notion of Atiyah groupoids unifies all three of the traditional notion of [[Atiyah groupoid]], of [[Courant 2-groupoid]] and of [[quantomorphism group]] and refines each of these to [[higher geometry]].
+In summary, the [[higher geometry|higher geometric]] generalization of the notion of Atiyah groupoids unifies all three of the traditional notion of [[Atiyah groupoid]], of [[Courant 2-groupoid]] and of [[quantomorphism group]] and refines each of these to [[higher geometry]]:
+
+[[!include higher Atiyah groupoid - table]]
 
 ## Definition
 
@@ -44,7 +49,7 @@ $$
 
 This is a refined version of one of the [[Giraud-Rezk-Lurie axioms]] characterizing [[(∞,1)-topos]], discussed at _[[groupoid object in an (∞,1)-category]]_.
 
-+-- {: .num_remark}
++-- {: .num_remark }
 ###### Remark
 
 In terms of traditional terminology in the literature on [[topological stacks]]/[[differentiable stacks]] etc, this says that a groupoid object in $\mathbf{H}$ is equivalently an object $X \in \mathbf{H}$ which is equipped with an [[atlas]] $X_0 \to X$.
@@ -91,7 +96,7 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #AtiyahGroupoidIsCechNerve}
 ###### Remark
 
 By the discussion at _[[1-image]]_, the 1-image projection of any morphism $f \colon X \to Y$ in an [[(∞,1)-topos]] is equivalently given as the canonical map given by the [[(∞,1)-colimit]] over the [[Cech nerve]]
@@ -101,19 +106,152 @@ $$
   \,.
 $$
 
-This means that regarded as an object of $Grpd(\mathbf{H})$, the Atiyah groupoid $At(P)$ _is_ simply the [[Cech nerve]] of the classifying map.
+This means that regarded as an object of $Grpd(\mathbf{H})$, the Atiyah groupoid $At(P)$ _is_ simply the [[Cech nerve]] of the classifying map. This means that the definition of Atiyah groupoids in [[higher geometry]] is much more fundamental than in traditional [[geometry]]. 
 
 =--
+
+## Properties
+
+### Equivalence of Atiyah-groupoid bisections to slice automorphisms
+
+(...)
+
+### Sequences of inclusions of differential Atiyah groupoids
+
+(...)
 
 
 ## Examples
 
 ### The traditional Atiyah Lie groupoid
 
-We discuss how the traditional notion of [[Atiyah groupoids]] in traditional [[differential geometry]] is a special case of highet Atiyah groupoids as discussed here.
+We discuss how the traditional notion of [[Atiyah Lie groupoids]] in traditional [[differential geometry]] is a special case of higher Atiyah groupoids of def. \ref{HigherAtiyahGroupoid}.
+
+To set this up we take the ambient [[(∞,1)-topos]] to be 
+
+$\mathbf{H} \coloneqq$ [[Smooth∞Grpd]] and make use of the canonical embeddings
+
+[[SmthMfd]] $\hookrightarrow$ [[diffeological space|DiffeologicalSpace]] $\hookrightarrow$ [[smooth spaces|SmoothSpace]] $\hookrightarrow$ [[Smooth∞Grpd]],
+
+and 
+
+[[Lie groupoid|LieGrpd]] $\simeq$ [[differentiable stack]] $\hookrightarrow$ [[Smooth∞Grpd]]
+
+which are understood in the following.
+
++-- {: .num_prop }
+###### Proposition
+
+For $G$ a [[Lie group]], $X$ a [[smooth manifold]] and $P \to X$ a $G$-[[principal bundle]], the traditional [[Atiyah Lie groupoid]] of $P$ is equivalent to that of def. \ref{HigherAtiyahGroupoid}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write $g \colon X \to \mathbf{B}G$ for the classifying map of $P \to X$, by prop. \ref{ClassificationOfGPrincipalBundles}. 
+
+By remark \ref{AtiyahGroupoidIsCechNerve} the higher Atiyah groupoid $At(P)$ is simply the [[Cech nerve]] of this map. Since $G$ and $X$ and hence $P$ are all [[truncated object in an (infinity,1)-category|0-truncated objects]], hence $\mathbf{B}G$ a [[1-truncated]] object, this Cech nerve is [[coskeleton|2-coskeletal]] and hence is sufficient to consider the first three degrees. By definition these are
+
+$$
+  At(P)
+  \simeq
+  \left(
+    X \underset{\mathbf{B}G}{\times}X \underset{\mathbf{B}G}{\times}X 
+      \stackrel{\to}{\stackrel{\to}{\to}} 
+    X \underset{\mathbf{B}G}{\times}X
+      \stackrel{\to}{\to}
+    X 
+  \right)
+  \,,
+$$ 
+
+where $X \underset{\mathbf{B}G}{\times}X $ denotes the [[homotopy fiber product]] of $g$ with itself, and so forth. To see what this object is, pick any $U \in $ [[CartSp]], and observe that 
+
+$$
+  \mathbf{H}(U, X\underset{\mathbf{B}G}{\times}X )
+  \simeq
+  \mathbf{H}(U,X) \underset{\mathbf{H}(U,\mathbf{B}G)}{\times} \mathbf{H}(U,X)
+$$
+
+(using that the [[(∞,1)-categorical hom]]-[[(∞,1)-functor]] $\mathbf{H}(U,-)$ preserves [[(∞,1)-limits]]) is equivalently the [[set]] of [[triples]] consisting of two [[smooth functions]] $\phi_1, \phi_2 \colon X$ and a [[gauge transformation]] between the [[pullback|pulled-back bundles]] $\eta \colon \phi_1^* P \to \phi_2^* P$ on $U$.
+
+Since $U$ is topologically [[contractible topological space|contractible]], and hence every $G$-[[principal bundle]] over $U$ admits a [[section]], every such triple induces a [[function]], in fact a [[bijection]], from the set of lifts $\hat \phi_1 \colon U \to P$ of $\phi_1$ to the set of lifts $\hat \phi_2 \colon U \to P$ which are $C^\infty(U,G)$-equivariant. By $G$-equivariant every pair consisting of a single lift $\hat \phi_1$ and its image $\eta(\hat \phi_1)$ already uniquely determes $\eta$. Therefore the above set of triples is [[natural isomorphism|naturally isomorphic]] to the set of [[smooth functions]] $U \to P \times_G P \coloneqq (P \times P)/_{diag} G$. This is precisely the [[smooth manifold]] of [[morphisms]] of the traditional [[Atiyah Lie groupoid]]. Since this is true for all $U \in $ [[CartSp]] and [[natural transformation|naturally]] so, and since [[CartSp]] is a [[site]] of definition of [[Smooth∞Grpd]] it follows by the [[(∞,1)-Yoneda lemma]] (which in the present cases reduces to the ordinary [[Yoneda lemma]]), we have a [[natural equivalence]]
+
+$$
+  X \underset{\mathbf{B}G}{\times} X 
+  \simeq 
+  P \times_G P
+  \,.
+$$
+
+In this manner it is immediate to check that this identification respects all the structure maps, and hence the above Cech nerve is indeed identified as the [[simplicial manifold]] which is the [[nerve]] of the traditional [[Atiyah Lie groupoid]] $(P \times_G P \stackrel{\to}{\to} X)$.
+
+=--
+
+### The traditional Courant Lie 2-algebroid
 
 
+Let
+
+$$
+  \nabla_1 \colon X \to \mathbf{B}(\mathbf{B}U(1)_{conn})
+$$
+
+be the map modulating [[circle 2-bundle with connection]] but "without [[curving]]". Then then higher Atiyah groupoid of th $(\mathbf{B}U(1)_{conn})$-[[principal 2-bundle]] classified by this map has as higher Atiyah groupoid the corresponding _[[Courant Lie 2-groupoid]]_: the object which is the [[Lie integration]] of the traditional [[Courant Lie 2-algebroid]] associated with $\nabla_1$.
+
+To see we observe that the corresponding [[∞-group of bisections|2-group of bisections]] is
+
+$$
+  \mathbf{Aut}_{\mathbf{H}}(\nabla_1)
+  \coloneqq
+  \underset{\mathbf{B}(\mathbf{B}U(1)_{conn})}{\prod}
+  \mathbf{Aut}_{/\mathbf{B}(\mathbf{B}U(1)_{conn})}(\nabla_1)
+  \,.
+$$
+
+This has as objects [[diagrams]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+     X &&\underoverset{\simeq}{\phi}{\to}&& X
+     \\
+     & {}_{\mathllap{\nabla_1}}\searrow &\swArrow_\eta& \swarrow_{\mathrlap{\nabla_1}}
+     \\
+     && \mathbf{B}(\mathbf{B}U(1)_{conn})
+  }
+  \,,
+$$
+
+hece equivalently pairs consisting of a [[diffeomorphism]] $\phi \colon X \to X$ and a [[gauge transformation]] (of 2-connections without [[curving]])
+
+$$
+  \eta 
+    \;\colon \;
+  \phi^* \nabla_1 \to \nabla_1
+  \,.
+$$
+
+The morphisms are accordingly the suitable [[natural transformations]] of these diagrams.
+
+This is precisely the 2-group of "bundle gerbe symmetries" of $\nabla_1$ which is studient in ([Collier](#Collier)). With this identification the main result there is the above claim.
+
+### The traditional quantomorphism group
+
+... [[quantomorphism group]]...
+
+### The quantomorphism $n$-groups
+
+... [[quantomorphism n-groups]]...
+
+## References
+
+The above identification of higher Atiyah groupoids of "bundle gerbes with connective structure but without [[curving]]" with those [[Lie integration|Lie integrating]] the corresponding [[standard Courant Lie 2-algebroid]] is directly implied (under the above translations) by the main result in 
+
+* [[Braxton Collier]], _Infinitesimal Symmetries of Dixmier-Douady Gerbes_ ([arXiv:1108.1525](http://arxiv.org/abs/1108.1525))
+ {#Collier}
 
 
+[[!redirects higher Atiyah groupoids]]
 
 
