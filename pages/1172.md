@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _Cauchy space_ is a generalisation of a [[metric space]] with a bare minimum of structure for the concepts of _[[Cauchy sequence]]_, _[[Cauchy-continuous map]]_, and _[[Cauchy completion]]_ to make sense.  Topologically (that is, up to [[continuous maps]]), any Cauchy space is a [[convergence space]], but not much more than that.
+A _Cauchy space_ is a generalisation of a [[metric space]] with a bare minimum of structure for the concepts of _[[Cauchy net]]_(A generalization of _[[Cauchy sequence]]_), _[[Cauchy-continuous map]]_, and _[[Cauchy completion]]_ to make sense.  Topologically (that is, up to [[continuous maps]]), any Cauchy space is a [[convergence space]], but not much more than that.
 
 
 ## Definitions
