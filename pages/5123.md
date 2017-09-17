@@ -89,6 +89,13 @@ $$
 
 ## Properties
 
+The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
+
+* R. Brown, _The twisted Eilenberg-Zilber theorem_. Simposio di Topologia (Messina, 1964), Edizioni Oderisi, Gubbio (1965), 33--37. 
+[pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf)
+
+which has been a foundation of the subject of Homological Perturbation Theory. The homotopies play a key role in the formulae and calculations.  
+
 +-- {: .un_prop}
 ###### Proposition
 
