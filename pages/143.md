@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+
 #Contents#
 * tic
 {:toc}
