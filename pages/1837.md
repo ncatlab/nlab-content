@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -42,7 +42,7 @@ The group $G$ in these examples is called the [[gauge group]] of the theory.
 
 The above examples of gauge fields consisted of cocycles in degree-$1$ [[differential cohomology]].
 
-More generally, a _higher gauge theory_ is a [[quantum field 
+More generally, a _[[higher gauge theory]]_ is a [[quantum field 
 theory]] whose field configurations are cocycles in more general [[differential cohomology]], for instance higher degree [[Deligne cohomology|Deligne cocycles]] or more generally cocycles in other differential refinements, such as in differential [[K-theory]].
 
 This generalization does contain experimentally visible physics such as
