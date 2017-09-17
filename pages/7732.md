@@ -68,6 +68,12 @@ This is the twisted $\infty$-bundle classified by $\sigma$
 
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
+## References
+
+Section I 4.3 in 
+
+* [[schreiber:Principal ∞-bundles -- theory, presentations and applications]]
+
 [[!redirects twisted ∞-bundle]]
 
 
