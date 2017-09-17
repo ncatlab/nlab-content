@@ -197,47 +197,30 @@ In particular in light of their generalization to nerves of higher categories, d
   In particular, when $A = G$ is a discrete group, then the [[geometric realization]] $|N(\mathbf{B} G)|$ of the nerve of $\mathbf{B}G$ is the [[classifying space|classifying]] [[topological space]] $ \cdots \simeq B G$ for $G$-[[principal bundles]].
 
 
-#### Properties of the nerve of a category ####
+#### Properties of the nerve of a category {#PropNerveCat}
+
+The following lists some characteristic properties of simplicial sets that are nerves of categories.
 
 +-- {: .un_prop}
 ###### Proposition
 
-A [[simplicial set]] $S$ is the nerve of a locally small category $C$ if and only if all the commuting squares
-
-$$
-  \array{
-    S_{n+m} &\stackrel{\cdots \circ d_0 \circ d_0}{\to}& S_m
-    \\
-    {}^{\cdots d_{n+m-1}\circ d_{n+m}}\downarrow && \downarrow
-    \\
-    S_n &\stackrel{d_0 \circ \cdots d_0}{\to}& S_0
-  }
-$$
-
-are [[pullback]] diagrams.
+A [[simplicial set]] is the nerve of a category precisely if all _inner_ [[horn]]s have _unique_ fillers.
 
 =--
 
-Unwrapping this definition inductively in $(n+m)$, this says that a simplicial set is the nerve of a category if and only if all its cells in degree $\geq 2$ are unique compositors, associators, pentagonators, etc of composition of 1-morphisms. No non-trivial such structure cells appear and no further higher cells appear.
+See [[inner fibration]] for details on this.
 
-This characterization of categories in terms of nerves directly leads to the model of [[(∞,1)-category]] in terms of [[complete Segal spaces]] by replacing in the above discussion sets by [[topological spaces]] (or something similar, like [[Kan complexes]]) and pullbacks by [[homotopy pullback|homotopy pullbacks]].
 
 +-- {: .un_prop}
 ###### Proposition
 
-The nerve functor
-
-$$
-  N : Cat \to SSet
-$$
-
-is a [[full and faithful functor]].
+The nerve $N(C)$ of a category is [[coskeleton|2-coskeletal]].
 
 =--
 
-So  [[functors]] between [[locally small category|locally small categories]] are in bijections with morphisms of [[simplicial sets]] between their nerves.
+Hence all [[horn]] inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ have unique fillers for $n \gt 3$, and all boundary inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ have unique fillers for $n \heq 3$.
 
-
+Here the point as compared to the previous statements is that in particular all the outer horns have fillers for $n \gt 3$.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -300,24 +283,49 @@ $$
 It is in this sense that a simplicial set that is a [[Kan complex]] but which does not necessarily have the above pullback property that makes it a nerve of an ordinary groupoid models an [[∞-groupoid]].
 
 
-+-- {: .un_prop}
-###### Proposition
-
-A simplicial set is the nerve of a category precisely if all _inner_ horns have _unique_ fillers.
-
-=--
-
-See [[inner fibration]] for details on this.
 
 
 +-- {: .un_prop}
 ###### Proposition
 
-The nerve $N(C)$ of a category is [[coskeleton|2-coskeletal]], hence all [[horn]] inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ have unique fillers for $n \gt 3$.
+The nerve functor
+
+$$
+  N : Cat \to SSet
+$$
+
+is a [[full and faithful functor]].
 
 =--
 
-Here the point as compared to the previous statements is that in particular all the outer horns have fillers for $n \gt 3$.
+So  [[functors]] between [[locally small category|locally small categories]] are in [[bijection]] with morphisms of [[simplicial sets]] between their nerves.
+
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+A [[simplicial set]] $S$ is the nerve of a locally small category $C$ if and only if all the commuting squares
+
+$$
+  \array{
+    S_{n+m} &\stackrel{\cdots \circ d_0 \circ d_0}{\to}& S_m
+    \\
+    {}^{\cdots d_{n+m-1}\circ d_{n+m}}\downarrow && \downarrow
+    \\
+    S_n &\stackrel{d_0 \circ \cdots d_0}{\to}& S_0
+  }
+$$
+
+are [[pullback]] diagrams.
+
+=--
+
+Unwrapping this definition inductively in $(n+m)$, this says that a simplicial set is the nerve of a category if and only if all its cells in degree $\geq 2$ are unique compositors, associators, pentagonators, etc of composition of 1-morphisms. No non-trivial such structure cells appear and no further higher cells appear.
+
+This characterization of categories in terms of nerves directly leads to the model of [[(∞,1)-category]] in terms of [[complete Segal spaces]] by replacing in the above discussion sets by [[topological spaces]] (or something similar, like [[Kan complexes]]) and pullbacks by [[homotopy pullback|homotopy pullbacks]].
+
 
 
 ### Nerve of a 2-category ###
@@ -369,7 +377,7 @@ W. G. Dwyer, D. M. Kan, Singular functors and realization functors, Nederl. Akad
 
 * [Isbell 1960] J. R. Isbell, Adequate subcategories, Illinois J. Math. 4, 541--552 (1960)
 
-* [Leinster 2004] [[Tom Leinster]], Higher operads, higher categories, London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
+* [[Tom Leinster]], _Higher operads, higher categories_ , London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
 
 * [Street 1987] [[Ross Street]], The algebra of oriented simplexes,
 J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.
