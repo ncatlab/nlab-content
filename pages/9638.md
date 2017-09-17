@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Type theory
+#### Constructivism, Realizability, Computability
 +-- {: .hide}
-[[!include type theory - contents]]
+[[!include constructivism - contents]]
 =--
 #### Physics
 +-- {: .hide}
@@ -46,6 +46,8 @@ There are arguments that a good formal context for quantum computing is (via [[c
 * [[quantum Hall effect]], [[Chern-Simons theory]].
 
 * [[superoperator]]
+
+* [[computable physics]]
 
 ## References
 
