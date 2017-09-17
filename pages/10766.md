@@ -1,0 +1,28 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $k \in \mathbb{Z}$, the _$k$-stem_ of the [[homotopy groups of spheres]] is the collection of [[homotopy groups]] of the form $\pi_{n+k}(S^n)$ for all $n \in \mathbb{N}$, together with the [[suspension]] maps between them.
+
+For $n \gt k + 1$ these groups stabilize and yield the [[stable homotopy groups of spheres]].
+
+## References
+
+* [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
+
+
+[[!redirects stems]]
+
+[[!redirects k-stem]]
+[[!redirects k-stems]]
+
+[[!redirects stable stem]]
+[[!redirects stable stems]]
+
+[[!redirects stable k-stem]]
+[[!redirects stable k-stems]]
+
+
