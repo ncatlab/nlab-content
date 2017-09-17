@@ -265,6 +265,39 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 See [[model structure for L-∞ algebras]].
 
+### Relation to dg-Lie algebras
+
+Every [[dg-Lie algebra]] is in an evident way an $L_\infty$-algebra. Dg-Lie algebras are precisely those $L_\infty$-algebras for which all $n$-ary brackets for $n \gt 2$ are trivial. These may be thought of as the _strict_ $L_\infty$-algebras: those for which the [[Jacobi identity]] holds on the nose and all its possible higher coherences are trivial.
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $k$ be a [[field]] of [[characteristic]] 0 and write $L_\infty Alg_k$ for the [[category]] of $L\infty$-algebras over $k$. 
+
+Then every object of $L_\infty Alg_k$ is [[quasi-isomorphism|quasi-isomorphic]] to a [[dg-Lie algebra]].
+
+Moreover, one can find a functorial replacement: there is a [[functor]]
+
+$$
+  W : L_\infty Alg_k \to L_\infty Alg_k
+$$
+
+such that for each $\mathfrak{g} \in L_\infty Alg_k$ 
+
+1. $W(\mathfrak{k})$ is a [[dg-Lie algebra]];
+
+1. there is a [[quasi-isomorphism]]
+
+   $$
+     \mathfrak{g} \stackrel{\simeq}{\to}
+     W(\mathfrak{g})
+     \,.
+   $$
+
+=--
+
+This appears for instance as ([KrizMay, cor. 1.6](#KrizMay)).
+
 ### Relation to $\infty$-Lie groupoids
 
 In generalization to how a [[Lie algebra]] integrates to a [[Lie group]], $L_\infty$-algebras integrate to [[∞-Lie group]]s.
@@ -297,11 +330,16 @@ A quick web entry is:
 
 * Marilyn Daily, [$L_\infty$-structures](http://www.aei.mpg.de/~md/hl.html).
 
+A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
+
+* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
+ {#KrizMay}
+
 See also for instance section 3.1 of:
 
 * [[Alberto Cattaneo]], [[Florian Schätz]], _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
 
-The standard reference for Lie 2-algebras is:
+A detailed reference for Lie 2-algebras is:
 
 * [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
 
