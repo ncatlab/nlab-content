@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _local net of observables_ is the assignment associated to a [[quantum field theory]] of [[algebra]]s of local [[observables]] to pieces of [[spacetime]].
+A _local net of observables_ is the assignment associated to a [[quantum field theory]] of [[algebra]]s of [[local quantum field theory|local]] [[observables]] to pieces of [[spacetime]].
 
 In the context of [[AQFT]] the structure of local nets is used as the very axiomatization of what a quantum field theory is (as opposed to the context of [[FQFT]], where instead the [[state]]-propagation is used as the basic axiom).
 
@@ -69,7 +69,7 @@ such that whenever $X_1 \coprod X_2 \hookrightarrow X$ is a causal embedding, de
 +-- {: .num_remark}
 ###### Remark
 
-The locality [[axiom]] encodes the the physical property known as [[Einstein-causality]] or micro-causality, which states that physical effects do not propagate faster that the speed of light.
+The [[local quantum field theory|locality]] [[axiom]] encodes the the physical property known as _[[Einstein-causality]]_ or _micro-causality_, which states that physical effects do not propagate faster that the speed of light.
 
 =--
 
