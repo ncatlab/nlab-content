@@ -4,9 +4,9 @@ See [www.jmilne.org](http://www.jmilne.org)
 
 ## Some publications
 
-* _Etale cohomology_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
+* _[[Étale Cohomology]]_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
 
-* _Lectures on etale cohomology_, [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf)
+* _[[Lectures on Étale Cohomology]]_  ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
 
 ## Related entries
 
@@ -14,7 +14,10 @@ See [www.jmilne.org](http://www.jmilne.org)
 
 * [[ℓ-adic cohomology]]
 
+* [[Weil conjecture]]
 
 category:people
 
 [[!redirects J. Milne]]
+
+[[!redirects Milne]]
