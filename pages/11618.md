@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What has come to be called _Homotopy Type System_ ("HTS") is a [[dependent type theory]] which extends the [[syntax]] of [[homotopy type theory]] by including in addition to the [[intensional identity type]] -- which is the hallmark of the [[homotopy theory]]-aspect -- again an extensional identity type. As a result, HTS is something like the [[syntax]] for certain [[homotopical categories]] with [[fibrations]], where one may explicitly distinguish between [[fibrant types]] and non-fibrant types.
+
+In other words, where default [[homotopy type theory]] has [[categorical semantics]] (see at _[[relation between category theory and type theory]]_) in suitable [[type-theoretic model categories]] but in such a way that only the [[(infinity,1)-category]] [[presentable (infinity,1)-category|presented]] by that really matters, in HTS one adds explicit control over the presenting model category (or other kind of fibration category), thus breaking the $(\infty,1)$-categorical "[[principle of equivalence]]" but providing more tools for handling the presentation.
+
+The proposal of HTS by [[Vladimir Voevodsky]] was motivated to a large extent by the technical difficulties encountered in formalizing [[semisimplicial types]] in default [[homotopy type theory]] (HoTT). This problem comes precisely from the fact that HoTT is really the [[internal language]] of some [[(infinity,1)-topos]] and hence defining [[simplicial objects]] or similar here means to speak of [[simplicial objects in an (infinity,1)-category]], which means that the [[simplicial identities]] hold only up to [[coherence|coherent]] higher [[homotopy]]. The problem of syntactically encoding the infinite amount of this [[coherence]] data remains unsolved to date. For [[semisimplicial types]] the difficulties greatly reduce (since the evident iterated [[dependent type]]-definition of a semisimplicial type is automatically interpreted by a [[Reedy model structure|Reedy]]-[[fibrant object]] in the given [[type-theoretic model category]], which takes care of all the homotopy coherence by the power of [[model category]] theory, see at _[[internal (infinity,1)-category]]_ for more on this) but technical problems remain even in formulating the plain 1-categorical [[simplicial identities]] to all degrees.
+
+In HTS this problem is dealt with by re-introducing an [[extensional identity type]] which allows the would-be homotopy type theory to explicitly talk about simplicial _identity_ not in an [[(infinity,1)-category]] but in a 1-[[category]].
+
+Of course the payoff is that the re-introduction of extensional identity types re-introduces the problems of [[extensional type theory]] (undecidable type checking) that [[intensional type theory]] and in particular its "completion" to [[homotopy type theory]] was praised for as solving. Where [[homotopy type theory]] is genuinely an [[internal language]] for [[homotopy theory]] ("[[synthetic homotopy theory]]"!), HTS is a language for non-homotopy theory that is geared towards _presenting_ homotopy theory by [[homotopical categories]].
+
+## References
+
+Details and references are at
+
+* [[homotopytypetheory:HomePage|Homotopy Type Theory Wiki]], _[[homotopytypetheory:Homotopy Type System]]_
+
+[[!redirects HTS]]
