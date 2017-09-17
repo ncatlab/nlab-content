@@ -2,7 +2,7 @@ A [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|
 
 For a point-based notion of space such as a [[topological space]], a closed subspace is the same thing as a __closed subset__.
 
-In [[locale]] theory, every open $U$ in the locale defines a closed subspace which is given by the [[nucleus]]
+In [[locale]] theory, every open $U$ in the locale defines a closed subspace which is given by the __closed [[nucleus]]__
 $$ j_{U'}\colon V \mapsto U \cup V .$$
 The idea is that this subspace is the part of $X$ which does not involve $U$ (hence the notation $U'$, or any other notation for a [[complement]]), and we may identify $V$ with $U \cup V$ when we are looking only away from $U$.
 
@@ -18,3 +18,5 @@ The idea is that this subspace is the part of $X$ which does not involve $U$ (he
 
 [[!redirects closed sublocale]]
 [[!redirects closed sublocales]]
+[[!redirects closed nucleus]]
+[[!redirects closed nuclei]]
