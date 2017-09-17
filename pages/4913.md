@@ -15,3 +15,4 @@ philosophy of mathematics, history of logic and analytic philosophy. For the 'n-
 category: people
 
 [[!redirects Steven Awodey]]
+[[!redirects SteveAwodey]]
