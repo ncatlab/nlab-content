@@ -432,6 +432,8 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 
 [[!include orientations in higher quantization - table]]
 
+[[!include string theory and cohomology theory -- table]]
+
 
 ## References 
 
