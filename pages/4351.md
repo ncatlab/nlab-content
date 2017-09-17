@@ -23,12 +23,13 @@ A **hyperring** is a non-empty [[set]] $R$ equipped with a hyper-addition $+ : R
 
 1. $0 \neq 1$.
 
+We can form many examples of hyperrings by quotienting a ring $R$ by a subgroup $G \subset R^{\times}$ of its multiplicative group. 
+
 A **morphism of hyperrings** is a map $f : R_1 \to R_2$ such that
 
 1. $\forall a,b \in R_1 : f(a + b) \subset f(a) + f(b)$;
 
 1. $\forall a,b\in R_1 : f(a \cdot b) = f(a) \cdot f(b)$.
-
 
 A **hyperfield** is a hyperring for which $(R - \{0\}, \cdot)$ is a [[group]].
 
