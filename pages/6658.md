@@ -13,7 +13,14 @@
 * table of contents
 {: toc}
 
-## Definition
+## Idea
+
+Given a [[fibered category]], a morphism along which the induced comparison functor between the category of the descent data and the codomain fiber is fully faithful (equivalence of categories) is said to be a descent morphism (resp. effective descent morphism). 
+
+
+## The case of codomain fibration 
+
+### Definition
 
 Let $C$ be a [[category]] with [[pullbacks]].  For any [[morphism]] $p\colon A\to B$, we have an [[internal category]] $ker(p)$ defined by $A\times_B A \rightrightarrows A$ (the [[kernel pair]] of $p$).  The category of [[descent data]] for $p$ is the category $C^{ker(p)}$ (the "[[descent object]]") of internal diagrams on this internal category.  Explicitly, an object of $C^{ker(p)}$ is a morphism $C\to A$ together with an action $A\times_B C \to C$ satisfying suitable axioms.
 
@@ -24,19 +31,7 @@ The evident internal functor $ker(p) \to B$ (viewing $B$ as a [[discrete categor
 
 It is a little unfortunate that the more important notion of *effective descent* has the longer name, but it seems unwise to try to change it (although the [[Elephant]] uses "pre-descent" and "descent").
 
-
-### Relation to other concepts
-
-In general, [[descent]] is about higher [[sheaf]] conditions (i.e. [[stack]] conditions).  In this language, saying that $p$ is an effective descent morphism says that the [[codomain fibration]] of $C$ is a stack (that is, a [[2-sheaf]]) for the singleton covering family $p$.  Similarly, $p$ is a descent morphism iff the codomain fibration is a pre-stack (that is, a 2-separated 2-presheaf) for $p$.
-
-More generally, we may use the terms "descent morphism" and "effective descent morphism" relativized to any [[fibration]] or [[indexed category]] rather than the codomain fibration.
-
-We can also, of course, generalize to higher categories: an [[n-category]] with pullbacks has an analogue of a "codomain fibration", and we can ask for stack conditions on it.  This is most common in the case of [[(infinity,1)-categories]]; see the page [[descent]] for more information and links.
-
-Descent can also be rephrased in terms of the [[monadicity theorem]]; see [[monadic descent]].
-
-
-## Properties
+### Properties
 
 Let $C$ be a category with pullbacks.
 
@@ -56,6 +51,15 @@ Effective descent morphisms are closed under pullback and composition.
 
 See ([ST](#ST)) and ([RST](#RST)) for proofs.
 
+## General case
+
+In general, [[descent]] is about higher [[sheaf]] conditions (i.e. [[stack]] conditions).  In this language, saying that $p$ is an effective descent morphism says that the [[codomain fibration]] of $C$ is a stack (that is, a [[2-sheaf]]) for the singleton covering family $p$.  Similarly, $p$ is a descent morphism iff the codomain fibration is a pre-stack (that is, a 2-separated 2-presheaf) for $p$.
+
+More generally, we may use the terms "descent morphism" and "effective descent morphism" relativized to any [[fibration]] or [[indexed category]] rather than the codomain fibration.
+
+We can also, of course, generalize to higher categories: an [[n-category]] with pullbacks has an analogue of a "codomain fibration", and we can ask for stack conditions on it.  This is most common in the case of [[(infinity,1)-categories]]; see the page [[descent]] for more information and links.
+
+Descent can also be rephrased in terms of the [[monadicity theorem]]; see [[monadic descent]].
 
 ## Examples
 
@@ -99,10 +103,10 @@ Of course, there are also many effective descent morphisms relative to fibration
 
 ## References
 
-* Sobral and [[Walter Tholen|Tholen]], "Effective descent morphisms and effective equivalence relations", *Category Theory 1991*, CMS Conference Proceedings vol. 13 (1992), 421--433
+* M. Sobral, [[Walter Tholen|W. Tholen]], _Effective descent morphisms and effective equivalence relations_, Category Theory 1991, CMS Conference Proceedings __13__ (1992), 421--433
  {#ST}
 
-* Reiterman and Sobral and [[Walter Tholen|Tholen]], "Composites of effective descent maps", *Cahiers* 34 (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
+* J. Reiterman, M. Sobral, [[Walter Tholen|W. Tholen]], _Composites of effective descent maps_, Cahiers __34__ (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
  {#RST}
 
 [[!redirects descent morphism]]
