@@ -138,7 +138,7 @@ and in section 3 of
 
 there leading over to the notion of [[Theta space]].
 
-The groupoidal version $\tide \Theta$ is discussed in
+The groupoidal version $\tilde \Theta$ is discussed in
 
 * [[Dimitri Ara]], _The groupoidal analogue $\tilde \Theta$ to Joyal's category $\Theta$ is a test category_ ([arXiv:1012.4319](http://arxiv.org/abs/1012.4319))
 
