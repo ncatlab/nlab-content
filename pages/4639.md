@@ -16,7 +16,7 @@
 
 ## Over an algebraic theory
 
-We discuss here how in the context of [[space]]s modeled on duals of algebras over an [[algebraic theory]] $T$, there is a canonical space $\mathbb{A}_T$ which generalizes the [[real line]] $\mathbb{R}$. 
+We discuss here how in the context of [[space]]s modeled on duals of [[algebra over a Lawvere theory|algebras over]] an [[algebraic theory]] $T$, there is a canonical space $\mathbb{A}_T$ which generalizes the [[real line]] $\mathbb{R}$. 
 
 ### Definition
 
@@ -80,7 +80,7 @@ $$
   \mathbb{G}_T \in Ab(Sh(C))
 $$
 
-for this group object induced by $\mathcal{A}_T$.
+for this group object on $\mathbb{A}_T$.
 
 =--
 
