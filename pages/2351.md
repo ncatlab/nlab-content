@@ -232,3 +232,4 @@ $$(B(a, b \otimes c) \to (B \times B)(\langle a, a \rangle, \langle b, c \rangle
 
 [Been sitting on this for weeks doing nothing; will return to it soon.]  
 
+[[!redirects cartesian bicategories]]
