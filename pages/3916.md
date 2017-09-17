@@ -82,7 +82,7 @@ By the fact that the space of [[tubular neighbourhood]]s (see there for details)
 
 * [[Thom isomorphism]]
 
-* [[fiber integration]]
+[[!include generalized fiber integration synonyms - table]]
 
 ## References
 
@@ -93,7 +93,9 @@ An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Ko
 More details are in 
 
 * [[Ralph Cohen]], [[John Klein]], _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
-* Victor P. Snaith, _Stable homotopy around the arf-Kervaire invariant_, Birkhauser 2009
+
+* [[Victor Snaith]], _Stable homotopy around the arf-Kervaire invariant_, Birkhauser 2009
+
 [[!redirects Pontryagin-Thom construction]]
 [[!redirects Pontryagin-Thom collaps map]]
 [[!redirects Pontrjagin-Thom collaps map]]
@@ -105,3 +107,5 @@ More details are in
 [[!redirects Thom collaps maps]]
 
 [[!redirects Thom collapse]]
+
+[[!redirects Pontryagin-Thom collapse map]]
