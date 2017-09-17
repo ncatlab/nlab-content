@@ -340,7 +340,7 @@ Dirac's quantization argument appeared in
 
 * P.A.M. Dirac _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
-
+* [Differential Forms in Electromagnetic Theory](http://eceformsweb.groups.et.byu.net/forms-home.html)
 
 #Discussion#
 
@@ -398,3 +398,13 @@ What this means is the the electromagnetic properties of matter can be interpret
 It would be nice to see the importance of the Hodge star amplified a bit.
 
 [[Bruce Bartlett]]: I agree with Eric on the importance of the Hodge star in electromagnetic properties of matter. For one thing, this is now borne out in the whole field of cloaking! See for instance section 2.1 and appendix A of [this paper](http://arxiv.org/abs/cond-mat/0607418). There was a fantastic reference on this (supplementing Eric's appendix in his thesis) which I came across on the net somewhere, some kind of dissertation/write-up about differential forms and electromagnetic properties of matter. I wish I could find it again. To summarize: the "differential forms" / "Hodge star" picture of electromagnetism is the most convenient way to understand the "D" and "H" fields as well. 
+
+[[Eric]]: Hi Bruce. I'm guessing you might be talking about either Karl Warnick or Fernando Teixeira. Both are good friends of mine from grad school. I added a reference above to some of Karl's old stuff:
+
+* [Differential Forms in Electromagnetic Theory](http://eceformsweb.groups.et.byu.net/forms-home.html)
+
+The cloaking stuff is interesting. When I was in grad school, it was known how to "perfectly absorb" electromagnetics waves for sources inside a close surface, but it was thought to be impossible to perfectly absorb electromagnetic wave for a source outside a closed surface, which is what one probably means when they talk about "cloaking". I'm skeptical, but open.
+
+I would be remiss not to mention an unofficial mentor of mine, i.e. someone whose work I've always admired greatly, Alain Bossavit. It could very well have been some of his earlier papers you're thinking about.
+
+By the way, Bruce, after glancing at that paper, you might find a comment I recently made at the n-Forum [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1034&Focus=7775#Comment_7775) interesting. In grad school, I simulated a 1-dimensional event horizon as a potential boundary condition for electromagnetic simulations. It is pretty fun :) I don't think it is a secret that you can map various solutions of Einstein's field equations to analogous electromagnetic media in flat Minkowski space. The analogy between geometry and media is deeper than the attention it receives would suggest.
