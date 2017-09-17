@@ -4,7 +4,7 @@
 
 ## Definition
 
-A **valuation ring** is an [[integral domain]] $O$ such that, for every nonzero element $x$ in its [[field of fractions]] $K$, either $x \in O$ or $x^{-1} \in O$. 
+A **valuation ring** is a commutative [[integral domain]] $O$ such that, for every nonzero element $x$ in its [[field of fractions]] $K$, either $x \in O$ or $x^{-1} \in O$. 
 
 +-- {: .un_prop}
 ######Proposition 
@@ -16,9 +16,9 @@ A valuation ring $O$ is a [[local ring]].
 Suppose $x$, $y$ are nonzero non-invertible elements of $O$. Either $x/y$ or $y/x$ belongs to $O$, say $x/y$. Then $(x+y)/y$ belongs to $O$ as well. If $x+y$ were a unit of $O$, it would follow that $1/y$ belongs to $O$, i.e., both $y$ and $1/y$ belong to $O$, so that $y$ is a unit of $O$, contradiction. It follows that non-unit elements of $O$ are closed under addition. It is also clear that if $x$ is a non-unit element of $O$ and $y$ is any element of $O$, then $x y$ is a non-unit element of $O$. Therefore the non-units form an ideal of $O$, clearly the unique maximal ideal of $O$. 
 =--
 
-### Germs of definable functions
+### Example: germs of definable functions
 
-Local rings often arise as stalks of sheaves of real of complex-valued functions, and some of the more interesting examples of valuation rings arise by taking germs of functions at an "ideal" point, for example at an ultrafilter or infinite point where the functions are not formally defined. Examples such as these are often rich sources of rings and fields with _infinitesimal elements_. The following example should give the flavor of this phenomenon. 
+Local rings often arise as stalks of sheaves of real or complex-valued functions, and similarly, some of the more interesting examples of valuation rings arise by considering germs of functions at an "ideal" point, for example at an ultrafilter or infinite point where the functions are not formally defined. Examples such as these are often rich sources of rings and fields with _infinitesimal elements_. The following example should give the flavor of this phenomenon. 
 
 Consider the class of all functions $\mathbb{R} \to \mathbb{R}$ which can be defined by a first-order formula, starting with the basic operations 
 $+, -, \cdot, \exp$, any constant $a \in \mathbb{R}$, and the relations $\lt$ and $=$. This is an enormous class of functions: it includes the logarithm function and any function which can be built from polynomials, exponentials, and logarithms using the four basic arithmetic operations and composition, and also implicitly defined functions such as: 
@@ -64,7 +64,7 @@ where $v(x)$ is the coset $x O^*$ if $x \in K^*$, and $v(0) = 0$. The codomain b
 
 1. $v$ is surjective. 
 
-### A value group of definable germs 
+### Example: rates of growth
 
 Let us return to our earlier example of a valuation ring $O$, consisting of germs of bounded functions which are first-order definable in the theory of the reals as ordered field with exponentiation. Two "numbers" $[f]$, $[g]$ have the same coset, $[f]O^* = [g]O^*$, if both $[f/g]$ and $[g/f]$ are bounded. But this is precisely to say $f$ is $O(g)$ and $g$ is $O(f)$. 
 
@@ -125,6 +125,16 @@ Much more could be added here...
 
 ## Generalized power series 
 
-There is a very general construction which takes as input an arbitrary field $k$ and a totally ordered group $G$, and produces as output a valuation ring whose units are identified with nonzero elements of $k$ and whose value group $K^*/k^*$ is naturally identified with $G$. This is the ring of Hahn series. 
+There is a very general construction which takes as input an arbitrary field $k$ and a totally ordered abelian group $G$, and produces as output a valuation ring whose value group is naturally identified with $G$. This is the ring of _Hahn series_. 
 
++-- {: .un_def}
+######Definition 
+The ring of **Hahn series** with value group $G$, denoted $k[x^G]$, is the ring of functions $f: G \to k$ such that $\{x \in G: f(x) \neq 0\}$ is a well-ordered subset of $G$. Addition is defined pointwise, and multiplication is defined by convolution product: 
+$$(f \cdot g)(x) = \sum_{y+z = x in G} f(y)g(z)$$
+The **valuation** $v(f)$ is the least $x \in G$ for which $f(x) \neq 0$. 
+=-- 
 
++-- {: .un_thm}
+######Theorem 
+The ring $k[x^G]$ is a field. If $k$ is algebraically closed, then $k[x^G]$ is algebraically closed provided that $G$ is [[divisible group|divisible]]. 
+=-- 
