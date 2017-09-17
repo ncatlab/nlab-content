@@ -23,7 +23,7 @@ As we will explain in more detail below, [[representable functor|representable p
 
 $$i: C \to \bar{C}$$ 
 
-and we say the $V$-category $C$ is **Cauchy-complete** if this emebedding is an equivalence. We work through a few examples in the following section. 
+and we say the $V$-category $C$ is **Cauchy-complete** if this embedding is an equivalence. We work through a few examples in the following section. 
 
 # Examples #
 
