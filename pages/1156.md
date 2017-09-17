@@ -70,6 +70,9 @@ Notice however that there is ambiguity in what precisely one may mean by an $\in
 
 * [[(∞,n)-sheaf]]
 
+[[!include homotopy n-types - table]]
+
+
 ## References
 
 Section 6.2.2 in 
