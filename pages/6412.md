@@ -1,0 +1,37 @@
+Let $\mathbf{Z}$ be the [[ring]] of [[integer]]s and for every $q\neq 0$, $q\mathbf{Z}$ its ideal consisting of all integer multiples of $q$, and $\mathbf{Z}/q\mathbf{Z}$ the corresponding quotient, the ring of residues mod $q$.
+
+Let now $p\in \mathbf{Z}_+$ be a [[prime number]]. Then for any two positive integers $n\geq m$ there is an inclusion $p^m \mathbf{Z}\subset p^n\mathbf{Z}$ which induces the canonical homomorphism of quotients $\phi_{n,m}:\mathbf{Z}/p^n\mathbf{Z}\to \mathbf{Z}/p^m\mathbf{Z}$. These homomorphism for all pairs $n\geq m$ form a family closed under composition, and in fact a category, which is in fact a poset, and moreover a directed system of (commutative unital) rings. The __ring of $p$-adic integers__ $\mathbf{Z}_p$ is the (inverse) [[limit]] of this directed system (inside the category of rings). Regarding that the rings in the system are finite, it is clear that the underlying set of $\mathbf{Z}_p$ has a natural topology as a profinite (Stone) space and it is in particular a [[compact space|compact]] [[Hausdorff topological space|Hausdorff topological ring]]. More concretely, $\mathbf{Z}_p$ is the closed (hence compact) subspace of the cartesian product $\prod_{n} \mathbf{Z}/p^n\mathbf{Z}$ of discrete topological spaces $\mathbf{Z}/p^n\mathbf{Z}$ (which is by the [[Tihonov theorem]] compact Hausdorff) consisting of [[thread]]s, i.e. sequences of the form $x = (...,x_n,...,x_2,x_1)$ with $x_n\in p^n\mathbf{Z}$ and satisfying $\phi_{n,m}(x_n) = x_m$.
+
+The kernel of the projection $pr_n: \mathbf{Z}_p\to\mathbf{Z}/p^n\mathbf{Z}$, $x\mapsto x_n$ to the $n$-th component (which is the corresponding projection of the limiting cone) is $p^n\mathbf{Z}_p\subset\mathbf{Z}_p$, i.e. the sequence
+
+$$
+0 \longrightarrow \mathbf{Z}_p\stackrel{p^n}\longrightarrow \mathbf{Z}_p\longrightarrow p^n\mathbf{Z} \longrightarrow 0
+$$
+
+is an exact sequence of abelian groups, hence also $\mathbf{Z}_p/p^n\mathbf{Z}_p\cong \mathbf{Z}/p^n\mathbf{Z}$.
+
+An element $u$ in $\mathbf{Z}_p$ is invertible (and called a $p$-adic unit) iff $u$ is not divisible by $p$. 
+
+Let $U\subset\mathbf{Z}_p$ be the group of all invertible elements in $\mathbf{Z}_p$. Then _every element $x\in \mathbf{Z}_p$ can be uniquely written as $s= up^n$ with $n\geq 0$ and $u\in U$_. The correspondence $x\mapsto n$ defines a [[discrete valuation]] $v_p:\mathbf{Z}_p\to \mathbf{Z}\cup\{\infty\}$ called the $p$-adic valuation and $n$ is said to be the $p$-adic valuation of $x$. Of course, $v_p(0)=\infty$ as required by the axioms of valuation. The metric induced by the valuation is (up to equivalence) given by
+
+$$
+d(x,y) = e^{-v_p(x-y)},
+$$
+
+ring $\mathbf{Z}_p$ is a complete metric space in that metric, and $\mathbf{Z}$ is dense in it.
+
+The __field of $p$-adic numbers__ $\mathbf{Q}_p$ is the [[field of fractions]] of $\mathbf{Z}_p$. The $p$-adic valuation $v_p$ extends to a discrete valuation, also denoted $v_p$ on $\mathbf{Q}_p$. Indeed, it is still true for all $x\in \mathbf{Q}_p$ that they can be uniquely written in the form $p^n u$ where $u\in U$ (the same group $U$ as before), but now one needs to allow $n\in \mathbf{Z}$. One defines the metric on $\mathbf{Q}_p$ by the same formula as for $\mathbf{Z}_p$. It appears that $\mathbf{Q}_p$ is a [[complete field]] (in particular locally compact Hausdorff) and that $\mathbf{Z}_p$ is an *open* subring. 
+
+The distance $d$ satisfies the "utrametric" inequality
+
+$$
+d(x,y) \leq sup\{d(x,y),d(y,z)\}
+$$
+
+* J. P. Serre, _A course in arithmetic_, Grad. Texts in Math. __7__, Springer 1973
+
+[[!redirects p-adic integer]]
+[[!redirects p-adic]]
+[[!redirects p-adic numbers]]
+[[!redirects p-adic field]]
+[[!redirects p-adic valuation]]
