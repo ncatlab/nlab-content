@@ -357,7 +357,7 @@ An important question to ask of the various definitions of continuously differen
 
 +-- {: .num_lemma #lemchain}
 ###### Lemma
-Let $E$, $F$, $G$ be LCTVS, let $U \subseteq E$ and $V \subseteq F$ be open sets, let $\Lambda$ and $\Lambda'$ be convergence structures on $\mathcal{L}(E,F)$ and $\mathcal{L}{E,G)$ respectively.
+Let $E$, $F$, $G$ be LCTVS, let $U \subseteq E$ and $V \subseteq F$ be open sets, let $\Lambda$ and $\Lambda'$ be convergence structures on $\mathcal{L}(E,F)$ and $\mathcal{L}(E,G)$ respectively.
 
 Assume that the composition map:
 
@@ -370,7 +370,7 @@ is continuous.
 Let $f \colon U \to F$ and $g \colon V \to G$ be functions with $f(U) \subseteq V$.  Suppose that $f$ is of class $C^1_\Lambda$ and $g$ of class $C^1_k$.  Then $g \circ f$ is of class $C^1_{\Lambda'}$.
 =--
 
-+-- {: .num_corollary $corchain}
++-- {: .num_cor #corchain}
 ###### Corollary
 The chain rule holds for each of $C^1_c$, $C^1_{q b}$, $C^1_\Pi$, $C^1_\Delta$, $C^1_\Theta$.
 
