@@ -30,4 +30,10 @@ There is a [[model category]] structure on the [[category]] of topological opera
 
 * the [[little k-cubes operad]] is naturally a topological operad
 
+## Related concepts
+
+* **topological operad**
+
+* [[dg-operad]]
+
 [[!redirects topological operads]]
