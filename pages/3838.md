@@ -27,7 +27,7 @@ A [[quasi-category]] $C$ is **essentially $\kappa$-small** for some [[regular ca
 
 1. the collection of [[equivalence in a quasi-category|equivalence classes]] in $C$ is $\kappa$-small;
 
-2. for every morphism $f : x \to y$ in $C$ the [[simplicial homotopy group|homotopy sets]] of the [[hom-object in a quasi-category|hom ∞-groupoid]] at $f$ --  $\pi_i(Hom^R(x,y),f)$ -- are $\kappa$-small.
+2. for every morphism $f : x \to y$ in $C$ the [[simplicial homotopy group|homotopy sets]] of the [[hom-object in a quasi-category|hom ∞-groupoid]] at $f$ (that is, the  sets $\pi_i(Hom^R(x,y),f)$) are $\kappa$-small.
 
 $C$ is **essentially small** if it is essentially $\kappa$-small for some small [[regular cardinal]] $\kappa$ (in other words if the smallness conditions above hold absolutely).
 =--
