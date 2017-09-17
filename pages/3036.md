@@ -17,6 +17,15 @@ A separable space is [[first-countable space|first-countable]] iff it is is also
 Many results in [[analysis]] are easiest for separable spaces.  This is particularly true if one wishes to avoid using strong forms of the [[axiom of choice]] or to be [[predicative mathematics|predicative]] over the natural numbers.
 
 
+## Related concepts
+
+* [[first-countable topological space]]
+* [[second-countable topological space]]
+* **separable space**
+
+* [[Hausdorff topological space]]
+
+
 [[!redirects separable space]]
 [[!redirects separable spaces]]
 
