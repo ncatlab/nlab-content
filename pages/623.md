@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _Moore complex_ of a [[simplicial group]] -- better known in its normalized version as the **normalized chains complex** -- is a [[chain complex]] whose [[differential]] is built from the face maps of the simplicial group.
+The _Moore complex_ of a [[simplicial group]] -- also known in its normalized version as the **complex of normalized chains** -- is a [[chain complex]] whose [[differential]] is built from the face maps of the simplicial group.
 
 The operation of forming the Moore complex of chains of a [[simplicial group]] is one part of the [[Dold-Kan correspondence]] that relates [[simplicial object|simplicial]] (abelian) [[group]]s and [[chain complex]]es.
 
@@ -57,7 +57,7 @@ Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex 
 +-- {: .un_def}
 ###### Remark
 
-Equivalently one can take the  joint kernel of all but the $n$-face map and take that remaining (alternating) face map $(-1)^n d_n^n$ to be the differential.
+Equivalently one can take the  joint kernel of all but the $n$-face map and take that remaining  face map,  $d_n^n$, to be the differential.
 
 =--
 
