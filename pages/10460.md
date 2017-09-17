@@ -12,3 +12,4 @@ The _Walker-Wang model_ is a [[model (in theoretical physics)]] which is a [[4d 
 
 * [[Kevin Walker]], [[Zhenghan Wang]], _(3+1)-TQFTs and Topological Insulators_ ([arXiv:1104.2632](http://arxiv.org/abs/1104.2632))
 
+* C.W. von Keyserlingk, F. J. Burnell, Steven H. Simon,  Three-dimensional topological lattice models with surface anyons ([arXiv:1208.5128] (http://arxiv.org/abs/1208.5128))
