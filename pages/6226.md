@@ -1,9 +1,42 @@
 
-This entry is about the article
+This page provides links related to
 
 * [[Jacob Lurie]], _Quasi-Coherent Sheaves and Tannaka Duality Theorems
 _ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VIII.pdf))
 
-On [[quasi-coherent sheaves]] and [[Tannaka duality for geometric stacks]] in the context of [[derived algebraic geometry]] over [[E-infinity ring]]s.
+On [[quasi-coherent sheaves]] and [[Tannaka duality for geometric stacks]] in the context of [[derived algebraic geometry]] over [[E-infinity rings]] -- [[E-∞ geometry]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## 1. Generalities on spectral Deligne-Mumford stacks
+
+## 2. Quasi-coherent sheaves
+
+### 2.1 Sheaves on a spectrally ringed $\infty$-topos
+
+### 2.2 Module geometries
+
+### 2.3 Quasi-coherent sheaves
+
+### 2.4 Quasi-affine spectral Deligne-Mumford stacks
+
+### 2.5 Pullbacks and pushforwards of quasi-coherent sheaves
+
+* [[Grothendieck context]] [[six operations]]
+
+### 2.6 Local properties of quasi-coherent sheaves
+
+### 2.7 Quasi-coherent sheaves on a functor
+
+## 3. Geometric stacks and Tannaka duality
+
+## 4. Coaffine stacks
+
+## 5. Tannaka duality for generalized algebraic gerbes
+
+
+
 
 category: reference
