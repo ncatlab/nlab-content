@@ -1,6 +1,8 @@
-The __boolean domain__ or __boolean field__ $\mathbb{B}$ is a $2$-element set, say $\mathbb{B} = \{ 0, 1 \}$ or $\mathbb{B} = \{ \bot, \top \}$, whose elements may be interpreted as [[bits]] or [[truth values]].  Note that $\mathbb{B}$ is the set of *all* [[truth values]] in [[classical logic]], but this cannot be assumed in all logics.  If we think of $\mathbb{B}$ as a [[pointed set]] equipped with the true element, then there is an [[generalized the|effectively unique]] boolean domain.
+The __boolean domain__ or __boolean field__ $\mathbb{B}$ is a $2$-element set, say $\mathbb{B} = \{ 0, 1 \}$ or $\mathbb{B} = \{ \bot, \top \}$, whose elements may be interpreted as [[truth values]].  Note that $\mathbb{B}$ is the set of *all* [[truth values]] in [[classical logic]], but this cannot be assumed in all logics.  If we think of $\mathbb{B}$ as a [[pointed set]] equipped with the true element, then there is an [[generalized the|effectively unique]] boolean domain.
 
 A __boolean variable__ $x$ is a variable that takes its value in a boolean domain, as $x \in \mathbb{B}$.  If this variable depends on parameters, then it is (or defines) a [[Boolean-valued function]], that is a [[function]] whose target is $\mathbb{B}$.
+
+An [[element]] of $\mathbb{B}$ is a __binary digit__, or __bit__.  As a unit of [[information]], a bit is $\ln 2$, since there are $2$ bits.
 
 
 ## As a boolean algebra or ring
@@ -15,3 +17,8 @@ Note that the term 'boolean field' (or just 'field', depending on the context) i
 [[!redirects boolean field]]
 [[!redirects Boolean fields]]
 [[!redirects boolean fields]]
+
+[[!redirects binary digit]]
+[[!redirects binary digits]]
+[[!redirects bit]]
+[[!redirects bits]]
