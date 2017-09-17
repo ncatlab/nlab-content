@@ -1,0 +1,22 @@
+[[!redirects extended superspacetime]]
+[[!redirects extended superspacetime]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+As opposed to ordinary [[Minkowski spacetime]], [[super Minkowski spacetime]] has, when regarded as the [[super translation Lie algebra]], exceptional [[cocycles]]. The [[super L-infinity algebra]] extensions classified by these serve as _extended super-spacetimes_ which are [[target spaces]] for super $p$-[[branes]].
+
+## Related concepts
+
+[[!include local and global geometry - table]]
+
+## References
+
+* [[D'Auria-Fre formulation of supergravity]]
+
+* [[schreiber:The brane bouquet]]
+
+[[!redirects extended super-spacetime]]
