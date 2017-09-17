@@ -125,3 +125,5 @@ category: foundational axiom
 [[!redirects presentation axiom]]
 [[!redirects PAx]]
 [[!redirects COSHEP]]
+[[!redirects coshep]]
+
