@@ -52,11 +52,13 @@ The definition is entirely analogous to the [[model structure on sSet-categories
 
 ## Related concepts
 
+* [[model structure on dg-operads]]
+
 * [[model structure on dg-algebras over an operad]]
 
-* [[model structure on dg-algebras]]
+  * [[model structure on dg-algebras]]
 
-* **model structure on dg-categories**
+  * **model structure on dg-categories**
 
 ## References
 
