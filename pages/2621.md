@@ -100,3 +100,6 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 [[!redirects Feynman perturbation series]]
 [[!redirects perturbation series]]
+
+[[!redirects Feynman diagram]]
+[[!redirects Feynman diagrams]]
