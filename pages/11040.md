@@ -1,3 +1,3 @@
 
 
-* see at _[[axiom of separation]]_
+* see at _[[comprehension]]_
