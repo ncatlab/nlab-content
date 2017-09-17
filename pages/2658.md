@@ -9,6 +9,8 @@
 
 * [[gerbe]]
 
+* [[braided monoidal 2-category]]
+
 * [[differential forms in synthetic differential geometry]]
 
 * [[display of a p-divisible group]]
