@@ -156,7 +156,7 @@ This suggests that more fundamental than the subgroups of a Galois group $G$ are
 
 #### Free modules 
 
-Let $A$ be a [[ring]] and $N$ a [[module]] over $A$. 
+Let $A$ be a commutative [[ring]] and $N$ a [[module]] over $A$. 
 
 A collection of elements $(w_i)_{i \in I}$ of $N$ is called a [[basis]] of $N$ (over $A$) if for every $x \in N$ there is a unique collection $(a_i)_{i \in I}$ of elements of $A$ such that $a_i = 0$ for all but finitely many $i \in I$ and $x = \sum_{i \in I} a_i w_i$. 
 
