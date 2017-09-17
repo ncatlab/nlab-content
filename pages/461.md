@@ -34,7 +34,7 @@ Endless debates (as seen for example at sci.math) about the meaning of $0^0$ are
 
 In [[set theory]] as a [[foundation of mathematics]], the existence of the empty set is often taken as an axiom, the __axiom of the null set__.  Actually, this axiom can be written in such a simple way that the name seems unmotivated:
 
-+-- {: .num_axiom}
++-- {: .un_defn}
 ###### Axiom (null set)
 
 There exists a set.
