@@ -665,7 +665,7 @@ Write $\mathbf{B}G \in Smooth \infty Grpd$ for the corresponding
 [[delooping]] object.
 
 
-+-- {: .un_prop }
++-- {: .un_prop #DeloopedLieGroup}
 ###### Proposition
 
 A fibrant presentation of the [[delooping]] object $\mathbf{B}G$
@@ -675,11 +675,16 @@ is given by the [[simplicial presheaf]] that is the [[nerve]]
 of the one-object [[Lie groupoid]]
 
 $$
-  (G \stackrel{\to}{\to} * ) 
+  \mathbf{B}G_c := (G \stackrel{\to}{\to} * ) 
 $$
 
 regarded as a [[simplicial manifold]] and canonically embedded into 
-simplicial presheaves.
+simplicial presheaves:
+
+$$
+  \mathbf{B}G_c : U \mapsto N(C^\infty(U,G) \stackrel{\to}{\to} *)
+  \,.
+$$
 
 =--
 
@@ -1726,6 +1731,82 @@ The inclusion $U(1)_{const}[n] \to U(1)[n]$ is not yet a fibration. But by a bas
  
 =--
 
+#### With coefficients in $\mathbf{B}G$ for $G$ a Lie group {#LieGroupFlatCoefficients}
+
+Let $G$ be a [[Lie group]] regarded as a [[0-truncated]] [[∞-group]]
+in $Smooth \infty Grpd$. Write $\mathfrak{g}$ for its [[Lie algebra]].
+Write $\mathbf{B}G \in Smooth \infty Grpd$ for its [[delooping]].
+Recall the fibrant presentation 
+$\mathbf{B}G_c \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ from 
+[above](#DeloopedLieGroup).
+
+
++-- {: .un_prop #LieGroupFibrantFlatInclusion}
+###### Proposition
+
+The object 
+$\mathbf{\flat}\mathbf{B}G \in Smooth \infty Grpd$ has a fibrant 
+presentation $\mathbf{\flat} \mathbf{B}G_{c} \in [CartSp^{op}, sSet]_{proj,loc}$ given by the [[groupoid of Lie-algebra valued forms]]
+
+$$
+  \mathbf{\flat}\mathbf{B}G _{c}
+  =
+  N
+  \left(
+    C^\infty(-,G)\times \Omega^1_{flat}(-,\mathfrak{g}) 
+   \stackrel{
+   \overset{Ad_{p_1}(p_2)+ p_1^{-1} d p_1}{\to}}{\underset{p_2}{\to}} \Omega^1_{flat}(-,\mathfrak{g})
+  \right)
+$$
+
+and this is such that the canonical morphism 
+$\mathbf{\flat} \mathbf{B}G \to \mathbf{B}G$ is presented by the canonical 
+morphism of simplicial presheaves 
+$\mathbf{\flat}\mathbf{B}G_{c} \to \mathbf{B}G_{c}$ which is a fibration
+in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This means that a $U$-parameterized family of objects of 
+$\mathbf{\flat}\mathbf{B}G_{c}$ is given by a 
+[[Lie-algebra valued 1-form]] $A \in \Omega^1(U)\otimes \mathfrak{g}$ whose [[curvature]] 2-form $F_A = d_{dR} A + [A ,\wedge A]  = 0$ vanishes,  
+and a $U$-parameterized family of morphisms $g : A \to A'$ is given by a smooth function $g \in C^\infty(U,G)$ such that $A' = Ad_g A + g^{-1} d g$, where $Ad_g A = g^{-1} A g$ is the [[adjoint action]] of $G$ on its 
+[[Lie algebra]], and where $g^{-1} d g := g^* \theta$ is the pullback of the [[Maurer-Cartan form]] on $G$ along $g$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[∞-cohesive site]] we have that 
+$\mathbf{\flat} \mathbf{B}G$ is presented by the simplicial presheaf
+that is constant on the [[nerve]] of the one-object [[groupoid]]
+$$
+  G_{disc} \stackrel{\to}{\to} *
+  \,,
+$$
+for the [[discrete group]] underlying the [[Lie group]] $G$.
+The canonical morphism of that into $\mathbf{B}G_c$ is however 
+not a fibration.
+
+We claim that the canonical inclusion
+$N(G_{disc}\stackrel{\to}{\t}) \to \mathbf{\flat} \mathbf{B}G_{c}$
+factors the inclusion into $\mathbf{B}G_c$ by a weak equivalence followed
+by a global fibration.
+
+To see the weak equivalence, notice that it is objectwise an [[equivalence of groupoids]]: it is [[essentially surjective functor|essentially surjective]] since every flat $\mathfrak{g}$-valued 1-form on the [[contractible]] $\mathbb{R}^n$ is of the form $g d g^{-1}$ for some function $g : \mathbb{R}^n \to G$ (let $g(x) = P \exp(\int_{0}^x) A$ be the [[parallel transport]] of $A$ along any path from the origin to $x$). Since the [[gauge transformation]] [[automorphism]] of the trivial $\mathfrak{g}$-valued 1-form are precisely given by the constant $G$-valued functions, this is also objectwise a [[full and faithful functor]]. 
+
+Similarly one sees that the map $\mathbf{\flat}\mathbf{B}G_c \to \mathbf{B}G$ is a fibration.
+
+Finally we need to show that $\mathbf{\flat}\mathbf{B}G_c$ is fibrant in $[CartSp^{op}, sSet]_{proj,loc}$. This can be seen by observing that this sheaf is the coefficient object that in [[Cech cohomology]] computes $G$-[[principal bundle]]s with flat [[connection on a bundle|connection]] and then reasoning as above: every $G$-principal bundle with flat connection 
+on a [[Cartesian space]] is equivalent to a trivial $G$-principal bundle whose connection is given by a globally defined $\mathfrak{g}$-valued 1-form. Morphisms between these are precisely $G$-valued functions that act on the 1-forms by gauge transformations as in the [[groupoid of Lie-algebra valued forms]].
+
+=--
+
+
 
 ### de Rham cohomology {#StrucDeRham}
 
@@ -1752,7 +1833,7 @@ truncated [[de Rham complex]] of sheaves of abelian groups of
 
 $$
   \mathbf{\flat}_{dR}\mathbf{B}^n U(1)_{chn}
-  =
+  :=
   \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{chn}
   :=
   \Xi[\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2(-) \stackrel{d_{dR}}{\to}\cdots \to \Omega^{n-1}(-) \stackrel{d_{dR}}{\to}\Omega^n_{cl}(-)]
@@ -2224,84 +2305,22 @@ Finally the same argument that above showed that no nontrivial automorphisms of 
 
 
 
-#### With coefficients in $\mathbf{B}G$ for a Lie group $G$
+#### With coefficients in $\mathbf{B}G$ for a Lie group $G$ {#LieGroupDeRhamCoefficients}
 
-For $G$ an ordinary [[Lie group]], we give a concrete representative for the smooth $\infty$-groupoid $\mathbf{\flat} \mathbf{B}G = Disc \Gamma \mathbf{B}G$ in terms of [[Lie algebra]]-valued [[differential form]]s.
-
-
-Let $\Xi : CrsdCplx \to KanCplx$ now denote the inclusion of [[crossed complex]]es into all [[Kan complex]]es/[[∞-groupoid]]s. 
+Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for its 
+[[Lie algebra]] 
 
 +-- {: .un_prop }
 ###### Proposition
 
-The $\infty$-Lie groupoid $\mathbf{\flat}\mathbf{B}G \in \infty LieGrpd$ has a fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ given by
+The object $\mathbf{\flat}_{dR}\mathbf{B}G \in Smooth \infty Grpd$
+has a fibrant presentation in $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ 
+by the [[sheaf]] 
+$\mathbf{\flat}\mathbf{B}G_c = \Omega^1_{flat}(-, \mathfrak{g})$ of 
+[[groupoid of Lie-algebra valued forms|flat Lie-algebra valued forms]]
 
 $$
-  \mathbf{\flat}\mathbf{B}G 
-  =
-  \Xi[C^\infty(-,G)\times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{
-   \overset{Ad_{p_1}(p_2)+ p_1^{-1} d p_1}{\to}}{\underset{p_2}{\to}} \Omega^1_{flat}(-,\mathfrak{g})]
-  \,,
-$$
-
-where $\mathfrak{g}$ is the [[nLab:Lie algebra]] of $G$. 
-
-This is the [[groupoid of Lie-algebra valued forms]] restricted to flat forms.
-
-=--
-
-In other words, a $U = \mathbb{R}^n$-parameterized family of objects of $\mathbf{\flat}\mathbf{B}G$ is given by a [[Lie-algebra valued 1-form]] $A \in \Omega^1(U)\otimes \mathfrak{g}$ whose [[curvature]] 2orm $F_A = d_{dR} A + [A ,\wedge A]  = 0$ vanishes,  and a $U$-parameterized family of morphisms $g : A \to A'$ is given by a smooth function $g \in C^\infty(U,G)$ such that $A' = Ad_g A + g^{-1} d g$, where $Ad_g A = g^{-1} A g$ is the adjoint action of $G$ on its Lie algebra, and where $g^{-1} d g := g^* \theta$ is the pullback of the [[Maurer-Cartan form]] on $G$ along $g$.
-
-+-- {: .proof}
-###### Proof
-
-By the above discussion we have that the object in question is
-
-$$
-  \mathbb{L}LConst \circ \mathbb{R}\Gamma \mathbf{B}G
-  \,,
-$$
-
-the image of $\mathbf{B}G$ under the right [[derived functor]] of 
-[[global section]]s and the left derived functor of 
-[[constant ∞-stack]]s. But since $\mathbf{B}G$ is fibrant 
-in $[CartSp^{op}, sSet_{Quillen}]_{proj,cov}$ and every object
-in $sSet_{Quillen}$ is cofibrant, this is simply
-
-$$
-  \cdots = Lconst \circ \Gamma \mathbf{B}G
-  =
-  N( const G \stackrel{\to}{\to} *)
-  \,.
-$$
-
-So first we have to show that this is equivalent to the [[nLab:groupoid of Lie-algebra valued forms|Lie groupoid of flat Lie-algebra valued 1-forms]].
-There is an evident morphism
-
-$$
-  N( const G \stackrel{\to}{\to} *) 
-  \to
-  N( G \times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{\to}{\to} 
-  \Omega^1_{flat}(-,\mathfrak{g}))
-$$
-
-that sends the single object to the trivial 1-form. We claim that this is objectwise an equivalence of groupoids: it is [[essentially surjective functor|essentially surjective]] since every flat $\mathfrak{g}$-valued 1-form on the [[contractible]] $\mathbb{R}^n$ is of the form $g d g^{-1}$ for some function $g : \mathbb{R}^n \to G$ (let $g(x) = P \exp(\int_{0}^x) A$ be the [[parallel transport]] of $A$ along any path from the origin to $x$). Since the gauge automorphism of the trivial $\mathfrak{g}$-valued 1-form are precisely given by the constant $G$-valued functions, this is also objectwise a [[full and faithful functor]]. 
-
-Finally we need to show that $N( G \times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{\to}{\to} \Omega^1_{flat}(-,\mathfrak{g}))$ is fibrant in $[CartSp^{op}, sSet]_{proj,cov}$. This can be seen by observing that this sheaf is the coefficient object that in [[Cech cohomology]] computes $G$-[[principal bundle]]s with flat [[connection on a bundle|connection]] and then reasoning as above: every $G$-principal bundle with flat connection is equivalent to a trivial $G$-principal bundle whose connection is given by a globally defined $\mathfrak{g}$-valued 1-form. Morphisms between these are precisely $G$-valued functions that act on the 1-forms by gauge transformations as in the [[groupoid of Lie-algebra valued forms]].
-
-=--
-
-A detailed discussion of how this arises concretely from the formula
-$[\mathbf{\Pi}_1(-), \mathbf{B}G]$ for the [[nLab:right adjoint]] of $\mathbf{\Pi} = LConst \circ \Pi$ and how it is the coefficient object for smooth flat $G$-principal bundles is in [SchrWalI](http://arxiv.org/abs/0705.0452).
-
-+-- {: .un_cor }
-###### Corollary
-
-The object 
-$\mathbf{\flat}_{dR}\mathbf{B}G $
-of <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">flat intrinsic de Rham coefficients</a> of $\mathbf{B}G$ is represented in $[CartSp^{op}, sSet]$ by the 0-[[truncated]] [[sheaf]] of flat $\mathfrak{g}$-valued forms
-
-$$
+  \mathbf{\flat}\mathbf{}
   U \mapsto \Omega^1_{flat}(U,\mathfrak{g})
   \,.
 $$
@@ -2311,32 +2330,26 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The diagram
+By a [proposition above](#LieGroupFibrantFlatInclusion) we have a
+fibration $\mathbf{\flat}\mathbf{B}G_c \to \mathbf{B}G$
+in $[CartSp_{smooth}^{op}, sSet]_{proj}$ modeling the canonical 
+inclusion $\magthbf{\flat}\mathbf{B}G \to \mathbf{B}G$. Therefore
+we may get a presentation for the defining [[(∞,1)-pullback]]
 
 $$
-  \array{
-     \Omega^1_{flat}(-,\mathfrak{g}) 
-     &\to&
-     \Xi[C^\infty(-,G)\times \Omega^1_{flat}(-,G) \stackrel{\to}{\to} \Omega^1_{flat}(-,\mathfrak{g})]
-     \\
-     \downarrow && \downarrow
-     \\
-     {*} &\to& \Xi[C^\infty(-,G) \stackrel{\to}{\to} *]
-  }
+  \mathbf{\flat}_{dR}\mathbf{B}G  := * \times_{\mathbf{B}G} \mathbf{\flat} \mathbf{B}G
 $$
 
-is a [[pullback]] diagram in $[CartSp^{op}, sSet]_{proj}$ with all objects fibrant and the right vertical morphism being a fibration. Therefore this is a [[homotopy pullback]]. By the above statements and since [[∞-stackification]] preserves finite [[limit]]s, this also models the [[limit in a quasi-category|(∞,1)-pullback]]
+in $Smooth \infty Grpd$ by the ordinary [[pullback]]
 
 $$
-  \array{
-    \mathbf{\flat}_{dR} \mathbf{B}G &\to& \mathbf{\flat} \mathbf{B}G
-    \\
-    \downarrow && \downarrow
-    \\
-    * &\to& \mathbf{B}G
-  }
-  \,.
+  \mathbf{\flat}_{dR}\mathbf{B}G _c 
+  \simeq * \times_{\mathbf{B}G_c} \mathbf{\flat} \mathbf{B}G_c
 $$
+
+in $[CartSp^{op}, sSet]_{proj}$.
+
+The resulting simplicial presheaf is fibrant in $[CartSp^{op}, sSet]_{proj,loc}$ because it is a [[sheaf]].
 
 =--
 
@@ -2344,46 +2357,51 @@ $$
 +-- {: .un_remark }
 ###### Remark
 
-Writing $T U$ for the [[tangent Lie algebroid]] of $U$ the flat de Rham object of $\mathbf{B}G$ may be also be written as
+Writing $T U$ for the [[tangent Lie algebroid]] of $U$ 
+we may equivalently write
 
 $$
-  \mathbf{\flat}_{dR} \mathbf{B}G : U \mapsto Hom(T U, \mathfrak{g})
+  \mathbf{\flat}_{dR} \mathbf{B}G_ : U \mapsto Hom(T U, \mathfrak{g})
   \,,
 $$ 
 
 where on the right we have the set of morphisms of [[Lie algebroid]]s. Equivalently in terms of [[Chevalley-Eilenberg algebra]]s this is 
 
 $$
-  \mathbf{\flat}_{dR} \mathbf{B}G : 
+  \mathbf{\flat}_{dR} \mathbf{B}G_c : 
   U \mapsto Hom_{dgAlg}(CE(\mathfrak{g}),(\Omega^\bullet(U), d_{dR}))
   \,,
 $$ 
 
 =--
 
-So far we have discussed the object $\mathbf{\flat}_{dR}\mathbf{B}G$ for $G$ a [[Lie group]]. By the general logic of intrinsic ∞-Lie algebroids the object $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}G$ is the intrinsic incarnation  in $\infty LieGrpd$ of the [[Lie algebra]] $\mathfrak{g}$, defined to be the $(\infty,1)$-pushout
+
++-- {: .un_prop }
+###### Corollary
+
+For $X \in $ [[SmoothMfd]] $\hookrightarrow Smooth \infty Grpd$ we find
+the intrinsic de Rham cohomology set
 
 $$
-  \array{
-    \mathbf{\flat}_{dR}\mathbf{B}G  &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{\Pi} \mathbf{\flat}_{dR} \mathbf{B}G
-    &\to&
-    \mathbf{\Pi}_{dR} \mathbf{B}G
-  } 
-  \,.
+  H^1_{dR, Smooth}(X, G)
+  :=
+  \pi_0 Smooth \infty Grpd(X, \mathbf{\flat}_{dR} \mathbf{B}G)
+  \simeq
+  \Omega^1_{flat}(X, \mathfrak{g})
 $$
 
-There are some issues here with finding the right cofibrant replacement of this diagram that computes the correct $(\infty,1)$-pushout by an ordinary pushout in $[CartSp^{op}, sSet]$. We describe now some ordinary such pushout, and discuss its relation to the proper $(\infty,1)$-pushout later.
+is the set of smooth flat $\mathfrak{g}$-valued differential forms on $X$.
 
-
+=--
 
 #### With coefficients in $\mathbf{B}G$ for $G$ a strict 2-group
 
 
+
 We work out, following the [general definition](#CoeffsLieAlgForms) the coefficient object for [[2-groupoid of Lie 2-algebra valued forms|Lie 2-algabra valued forms]] $\mathbf{\flat}_{dR} \mathbf{B}[G_2\to G_1]$ for $(G_2 \to G_1)$ a Lie [[crossed module]].
+
+Let $\Xi : CrsdCplx \to KanCplx$ now denote the inclusion of [[crossed complex]]es into all [[Kan complex]]es/[[∞-groupoid]]s.
+
 
 Write $[\mathfrak{g}_2 \stackrel{\delta_*}{\to} \mathfrak{g}_1]$ for the corresponding [[differential crossed module]] with action $\alpha_* : \mathfrak{g}_1 \to der(\mathfrak{g}_2)$ corresponding to the Lie [[strict 2-group]] [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$ with action $\alpha : G_1 \to Aut(G_2)$. 
 
@@ -2741,6 +2759,15 @@ The above statement says that its
 _[[geometric homotopy groups in an (infinity,1)-topos|geometric homotopy groups]]_ vanish .
 
 =--
+
+#### For $\mathfrak{g}$ a Lie algebra
+
+(...) see [[Lie integration]] (...)
+
+#### For $\mathfrak{g} = b^n \mathfrak{u}(1)$
+
+(...) see [[Lie integration]] (...)
+
 
 #### de Rham coefficients {#DifferentialCoefficientsOfLieInt}
 
