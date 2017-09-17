@@ -46,3 +46,6 @@ A cardinal $\kappa$ is inaccessible precisely when the $\kappa$th level $V_\kapp
 [[!redirects inaccessible cardinals]]
 [[!redirects weakly inaccessible cardinal]]
 [[!redirects weakly inaccessible cardinals]]
+
+[[!redirects strong inaccessible cardinal]]
+[[!redirects strong inaccessible cardinals]]
