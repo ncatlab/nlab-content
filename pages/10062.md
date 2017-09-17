@@ -28,9 +28,13 @@ Definition 2.2 in
 
 * [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_ ([arXiv:0908.2843](http://arxiv.org/abs/0908.2843))
 
-Constructon 1.3.1.6 in 
+Construction 1.3.1.6 in 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+
+In the following paper, the definition of the dg-nerve is extended to [[A-infinity categories]], and it is proved that the dg-nerve maps [[pretriangulated dg-categories]] to [[stable (∞,1)-categories]].
+
+* Giovanni Faonte, _Simplicial nerve of an A-infinity category_, [arXiv:1312.2127](http://arxiv.org/abs/1312.2127v1).
 
 [[!redirects dg-nerves]]
 [[!redirects nerve of a dg-category]]
