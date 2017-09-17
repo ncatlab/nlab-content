@@ -1,2 +1,1 @@
-
-See [[regular logic]].
+&lt; [[logic of regular categories]]
