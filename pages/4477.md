@@ -274,7 +274,11 @@ section 2.2 of the textbook
 
 or
 
-* _Projective modules, Presentatins and resolutions_ ([pdf](http://livetoad.org/Courses/Documents/8875/Notes/presentations_and_resolutions.pdf))
+* _Projective modules, Presentations and resolutions_ ([pdf](http://livetoad.org/Courses/Documents/8875/Notes/presentations_and_resolutions.pdf))
+
+or
+
+* Thomas Lam, chpater 6 ([pdf](http://www.math.lsa.umich.edu/~tfylam/Math221/6.pdf))
 
 Original articles include
 
