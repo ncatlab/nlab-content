@@ -82,7 +82,7 @@ Consider
 
 * that is closed under the Poisson bracket
 
-  $\{I,I\} \subset$
+  $\{I,I\} \subset I$
 
   (one says we have _first class constraint_ or that 0-locus of $I$ is _coisotropic_)
 
@@ -145,7 +145,7 @@ $$
   \,,
 $$
 
-where $v$ is a [[graded vector space]] in non-positive degree and $Sym(V)$ is its symmetric [[tensor algebra]]: the [[Koszul-Tate resolution]] of $C^\infty(X)/I$.
+where $V$ is a [[graded vector space]] in non-positive degree and $Sym(V)$ is its symmetric [[tensor algebra]]: the [[Koszul-Tate resolution]] of $C^\infty(X)/I$.
 
 Then on
 
@@ -176,16 +176,16 @@ the **BRST-BV charge** such that
 * the [[cochain cohomology]] is
 
   $$
-    H^0(A \otimes S(V) \otimes S(V^*), d = \{\Omega, 0\}) = A/I
+    H^0(A \otimes S(V) \otimes S(V^*), d = \{\Omega, -\}) = A/I
     \;
   $$
 
   $$
-    H^{\lt 0}(A \otimes S(V) \otimes S(V^*), d = \{\Omega, 0\}) = 0
+    H^{\lt 0}(A \otimes S(V) \otimes S(V^*), d = \{\Omega, -\}) = 0
     \;
   $$
 
-  (which says that this is in non-positivbe degree a resolution of the constraint locus $A/I$)
+  (which says that this is in non-positive degree a resolution of the constraint locus $A/I$)
 
 * If $I$ is a regular ideal (meaing that $V$ can be chosen to be concentrated in degree 1) or the vanishing ideal of a coisotropic submanifold, then the cohomology in positive degree 
 
@@ -209,13 +209,15 @@ the **BRST-BV charge** such that
 ## Lagrangian BV
  {#LagrangianBV}
 
-Given an action functional $S : C \to \mathbb{R}$, the derived manifold of Lagrangian BV is constructed by extending $S$ to an element $S^{BV} \in \mathcal{X}^\bullet(C)$ of the algebra of [[multivector field]]s ("antifields") of $C$, such that 
+Given a non-degenerate action functional $S : C \to \mathbb{R}$ (i.e., one that does not possess gauge symmetries), the derived manifold of Lagrangian BV is constructed by extending $S$ to an element $S^{BV} \in \mathcal{X}^\bullet(C)$ of the algebra of [[multivector field]]s ("antifields") of $C$, such that 
 
 $$
   (S^{BV},S^{BV}) = 0
 $$
 
 (the "master equation") with respect to the [[Schouten bracket]] $(-,-) : \mathcal{X}^\bullet(X) \otimes \mathcal{X}^\bullet(C) \to\mathcal{X}^\bullet(C)$ (the "anti-bracket") and then considering the formal dual of the [[dg-algebra]] $(\mathcal{X}^\bullet(C), d = (S^{BV},-))$.
+
+When the action $S$ is degenerate, the BV complex has to be extended further.
 
 The central theorem says that formal integration in this dg-manifold over [[Lagrangian submanifold]]s with respect to the Schouten bracket regarded as an odd Poisson bracket is independent of the choice of Lagrangian submanifold precisely due to the equation $(S,S) = 0$.
 
