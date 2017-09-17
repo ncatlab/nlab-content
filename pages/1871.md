@@ -60,6 +60,8 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
   * [[QED]], [[QCD]]
 
+* [[self-dual Yang-Mills theory]]
+
 * [[super Yang-Mills theory]]
 
 * [[S-duality]], [[Montonen-Olive duality]]
