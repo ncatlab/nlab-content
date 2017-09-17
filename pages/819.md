@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -99,7 +98,7 @@ $$
 Above we have seen that the aciton of $C$ on $S$ sends every element in this fiber product, which is a pair
 
 $$
-  (s \in \rho(S) \subset S, (c \stackrel{f}{\to} d) \in Mor(C))
+  (s \in \rho(c) \subset S, (c \stackrel{f}{\to} d) \in Mor(C))
 $$
 
 to an element $\rho(f)(s) \in \rho(d)$. So this is a map of sets $\rho : S {}_\lambda \times_s C \to S$. But a special such map, in that it satisfies a couple of conditions. One condition is that $s \in \rho(c)$ is taken to $\rho(d)$ by $f : c \to d$. This can be encoded by saying that $\rho$ extends to a morphism of [[span]]s from the pullback span above back to $S$:
