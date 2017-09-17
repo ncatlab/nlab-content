@@ -101,6 +101,10 @@ Based on this fact, one obtains an effective approximation to a given more funda
 (...)
 
 
+## Related concepts
+
+* [[effective action]]
+
 ## References
 
 The modern picture of effective low-energy QFT goes back to 
