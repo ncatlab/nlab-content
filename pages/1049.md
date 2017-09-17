@@ -44,3 +44,13 @@ _Todd_: Late to this discussion, but I agree with Mike and Zoran that 'bimorphis
 =--
 
 [[!redirects bimorphisms]]
+[[!redirects bimonic]]
+[[!redirects bimonics]]
+[[!redirects bimono]]
+[[!redirects bimonos]]
+[[!redirects bimonomorphisms]]
+[[!redirects bimonomorphism]]
+[[!redirects monic epi]]
+[[!redirects monic epis]]
+[[!redirects monic epic]]
+[[!redirects monic epics]]
