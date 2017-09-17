@@ -41,6 +41,12 @@ This is due to ([BarwickSchommer-Pries](#BarwickSchommer-Pries)).
 
 ## Related concepts
 
+* [[Pos]]
+
+* [[Set]]
+
+* [[Grpd]], [[∞Grpd]]
+
 * [[Cat]], [[Operad]]
 
 * [[2Cat]]
