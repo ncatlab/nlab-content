@@ -23,7 +23,7 @@ In an [[abelian category]] $C$, every [[morphism]] between simple objects is eit
 
 *  For $G$ a [[group]] and $Rep(G)$ its category of [[representations]], the simple objects are the [[irreducible representations]].
 
-*  A [[simple ring]] is *not* a simple object in [[Ring]] (which doesn\'t have a zero object anyway); instead it is a ring $R$ that is a simple in its category of [[bimodules]].
+*  A [[simple ring]] is *not* a simple object in [[Ring]] (which doesn\'t have a zero object anyway); instead it is a ring $R$ that is simple in its category of [[bimodules]].
 
 *  A [[simple Lie algebra]] is a simple object in [[LieAlg]] that *also* is not [[abelian Lie algebra|abelian]].  As an abelian Lie algebra is simply a [[vector space]], the only simple object of $Lie Alg$ that is not accepted as a simple Lie algebra is the $1$-dimensional Lie algebra.
 
