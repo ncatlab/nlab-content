@@ -188,6 +188,12 @@ See [[infinity-representation]].
 
 * **$n$-vector space**, [[n-vector bundle]], 
 
+* [[algebra]], [[module]]
+
+* [[bialgebra]],  [[2-module]]
+
+* [[trialgebra]], [[3-module]]
+
 ## References
 
 The notion of $n$-vector spaces is (defined for $n = 2$ and sketched recursively for greater $n$) in 
