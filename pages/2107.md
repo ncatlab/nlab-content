@@ -123,7 +123,7 @@ For $n=1$ there is a natural projection $Der(\mathfrak{g},M)\to HL^1(\mathfrak{g
 The Leibniz operad is quadratic. The Koszul dual of the Leibniz operad is called the operad of dual Leibniz algebras. A __dual Leibniz algebra__ (in $Vec$) is a nonassociative algebra with a product satisfying 
 
 $$
-(xy)z = x(zy + yz),
+(x y) z = x (z y + y z),
 $$
 
 It is of course natural to consider also dg-algebras over a dg-version of the operad of dual Leibniz algebras. 
