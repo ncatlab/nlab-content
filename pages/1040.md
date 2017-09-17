@@ -1,3 +1,5 @@
+## Definition 
+
 An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a category $C$ such that one (hence all) of the following equivalent statements are true:
 
 1. $\mu: T T \to T$ is a [[natural transformation|natural isomorphism]]. 
@@ -41,27 +43,101 @@ In the language of [[stuff, structure, property]], an idempotent monad may be sa
 
 If $T$ is idempotent, then it follows in particular that an object of $C$ admits at most one structure of $T$-algebra, that this happens precisely when the  unit $\eta_X\colon X\to T X$ is an isomorphism, and in this case the $T$-algebra structure map is $\eta_X^{-1}\colon T X \to X$.  However, it is possible to have a non-idempotent monad for which any object of $C$ admits at most one structure of $T$-algebra, in which case $T$ can be said to equip objects of $C$ with [[property-like structure]]; an easy example is the monad on [[semigroups]] whose algebras are [[monoids]].
 
+## Algebras of an idempotent monad 
 
-# The associated idempotent monad of a monad # 
++-- {: .un_thm}
+######Proposition 
+Let $(M, \eta, \mu)$ be an idempotent monad on a category $E$. The following conditions on an object $e$ of $E$ are equivalent: 
 
-Let $C$ be a category with [[equalizers]], and let $(T: C \to C, \mu, \eta)$ be a monad on $C$. There is an associated idempotent monad $T'$ which at the functor level is obtained as the equalizer 
+1. The object $e$ carries an $M$-algebra structure. 
 
-$$T' \overset{e}{\to} T \stackrel{\overset{\eta T}{\to}}{\underset{T \eta}{\to}} T T$$ 
+1. The unit $\eta e: e \to M e$ is a split monomorphism. 
 
-The map $\eta: 1_C \to T$ equalizes the pair of maps $\eta T$, $T \eta$, so it factors as $e \circ u$ for some unique map $u: 1_C \to T'$. This defines the unit of the monad $T'$. 
+1. The unit $\eta e$ is an isomorphism. 
 
-A diagram chase shows that the composite 
+(It follows from 3. that there is at most one algebra structure on $e$, given by $\xi = (\eta e)^{-1}: M e \to e$.) 
+=-- 
 
-$$T' T' \overset{e e}{\to} T T \overset{\mu}{\to} T$$ 
++-- {: .proof} 
+###### Proof 
+The implication 1. $\Rightarrow$ 2. is immediate. Next, if $\xi: M e \to e$ is any retraction of $\eta e$, we have both $\xi \circ \eta e = 1_e$ and 
+$$\array{
+\eta e \circ \xi & = & (R L \xi)(\eta R L e) & & \text{naturality of}\, \eta \\
+ & = & (R L \xi)(R L \eta e) & & \text{see definitions above} \\
+ & = & R L(\xi \circ \eta e) & & \text{functoriality} \\
+ & = & 1_{R L e} & & 
+}$$
+so 2. implies 3. Finally, if $\eta e$ is an isomorphism, put $\xi = (\eta e)^{-1}$. Then $\xi \circ \eta e = 1_e$ (unit condition), and the associativity condition for $\xi$, 
 
-equalizes the pair of maps $\eta T$, $T \eta$; therefore $\mu \circ e e$ factors as $e \circ \mu'$ for some unique map $\mu': T' T' \to T'$. This defines the multiplication of the monad $T'$. By construction, $e: T' \to T$ is a map which preserves the monad structure. 
+$$\xi \circ \mu e = \xi \circ R L \xi,$$
 
-A result due to Fakir is that the monad $T'$ is idempotent in the sense given above. In fact, if $C$ has equalizers, then the category of idempotent monads on $C$ is a [[coreflective subcategory]] of the category of monads on $C$, meaning that the [[full embedding]] 
+follows by inverting the naturality equation $\eta R L e \circ \eta e = R L \eta e \circ \eta e$. Thus 3. implies 1. 
+=-- 
 
-$$i: IdemMonad_C \hookrightarrow Monad_C$$ 
+## The associated idempotent monad of a monad # 
 
-has a [[right adjoint]] given by the associated idempotent monad construction. 
- 
++-- {: .un_thm}
+######Theorem (Fakir) 
+Let $C$ be a complete, well-powered category, and let $M: C \to C$ be a monad with unit $u: 1 \to M$ and multiplication $m: M M \to M$. Then there is a universal idempotent monad, giving a right adjoint to 
+
+$$IdempotentMonad(C) \hookrightarrow Monad(C)$$ 
+=-- 
+
++-- {: .proof} 
+######Proof
+Given a monad $M$, define a functor $M'$ as the equalizer $M u$ and $u M$:  
+
+$$M' \hookrightarrow M \stackrel{\overset{u M}{\to}}{\underset{M u}{\to}} M M.$$ 
+
+This $M'$ acquires a monad structure. It might not be an idempotent monad (although it will be if $M$ is left exact). However we can apply the process again, and continue transfinitely. Define $M_0 = M$, and if $M_\alpha$ has been defined, put $M_{\alpha+1} = M_{\alpha}'$; at limit ordinals $\beta$, define $M_\beta$ to be the inverse limit of the chain 
+
+$$\ldots \hookrightarrow M_{\alpha} \hookrightarrow \ldots \hookrightarrow M$$
+
+where $\alpha$ ranges over ordinals less than $\beta$. This defines the monad $M_\alpha$ inductively; below, we let $u_\alpha$ denote the unit of this monad. 
+
+Since $C$ is well-powered (i.e., since each object has only a small number of subobjects), the large limit 
+
+$$E(M)(c) = \underset{\alpha \in Ord}{\lim} M_\alpha(c)$$ 
+
+exists for each $c$. Hence the large limit $E(M) = \underset{\alpha \in Ord}{\lim} M_\alpha$ exists as an endofunctor. The underlying functor 
+
+$$Monad(C) \to Endo(C)$$ 
+
+reflects limits (irrespective of size), so $E = E(M)$ acquires a monad structure defined by the limit. Let $\eta: 1 \to E$ be the unit and $\mu: E E \to E$ the multiplication of $E$. For each $\alpha$, there is a monad map $\pi_\alpha: E \to M_\alpha$ defined by the limit projection. 
+
+* **Claim:** $E$ is idempotent. 
+
+For this it suffices to check that $\eta E = E \eta: E \to E E$. This may be checked objectwise. So fix an object $c$, and for that particular $c$, choose $\alpha$ so large that $\pi_\alpha (c): E(c) \to M_\alpha(c)$ and $\pi_\alpha E(c): E E(c) \to M_{\alpha} E(c)$ are isomorphisms. In particular, $\pi_\alpha \pi_\alpha(c): E E (c) \to M_\alpha M_\alpha(c)$ is invertible. 
+
+Now $u_\alpha M_\alpha(c) = M_{\alpha} u_{\alpha} c$, since $\pi_\alpha: E \to M_\alpha$ factors through the equalizer $M_{\alpha + 1} \hookrightarrow M_\alpha$. Because $\pi_\alpha$ is a monad morphism, we have 
+
+$$\array{
+\eta E(c) & = & (\pi_\alpha \pi_\alpha (c))^{-1} (u_\alpha M_\alpha(c))\pi_\alpha(c) \\
+       & = & (\pi_\alpha \pi_\alpha (c))^{-1} (M_\alpha u_\alpha(c))\pi_\alpha(c) \\
+       & = & E \eta(c)
+}$$
+
+as required. 
+
+Finally we must check that $M \mapsto E(M)$ satisfies the appropriate universal property. Suppose $T$ is an idempotent monad with unit $v$, and let $\phi: T \to M$ be a monad map. We define $T \to M_\alpha$ by induction: given $\phi_\alpha: T \to M_\alpha$, we have 
+
+$$(u_\alpha M_\alpha)\phi_\alpha = \phi_\alpha \phi_\alpha (v T) = \phi_\alpha \phi_\alpha (T v) = (M_\alpha u_{\alpha})\phi_\alpha$$ 
+
+so that $\phi_{\alpha}$ factors uniquely through the inclusion $M_{\alpha + 1} \hookrightarrow M_\alpha$. This defines $\phi_{\alpha + 1}: T \to M_{\alpha + 1}$; this is a monad map. The definition of $\phi_\alpha$ at limit ordinals, where $M_\alpha$ is a limit monad, is clear. Hence $T \to M$ factors (uniquely) through the inclusion $E(M) \hookrightarrow M$, as was to be shown.  
+=-- 
+
+### Examples 
+
+Let $A$ be a commutative ring, and let $f: A \to B$ be a flat (commutative) $A$-algebra. Then the forgetful functor 
+
+$$f^\ast = Ab^f: Ab^B \to Ab^A$$ 
+
+from $B$-modules to $A$-modules has a left exact left adjoint $f_! = B \otimes_A -$. The induced monad $f^\ast f_!$ on the category of $B$-modules preserves equalizers, and so its associated idempotent monad $T$ may be formed by taking the equalizer 
+
+$$T(M) \to B \otimes_A M \stackrel{\overset{f^\ast f_! \eta M}{\to}}{\underset{\eta f^\ast f_! M}{\to}} B \otimes_A B \otimes_A M$$ 
+
+(To be continued. This example is based on how Joyal and Tierney introduce effective descent for commutative ring homomorphisms, in An Extension of the Galois Theory of Grothendieck. I would like to consult that before going further -- Todd.) 
+
 +--{: .query}
 [[Mike Shulman]]: How about some examples of monads and their associated idempotent monads?
 
