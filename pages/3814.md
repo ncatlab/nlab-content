@@ -70,13 +70,17 @@ There are various other variations, too.
 
 ## Related concepts
 
-* [[technicolor]]
+* [[technicolor]], [[supersymmetry]]
 
 * [[Grand Unified Theory]]
+
+* [[LHC]]
 
 * [[MSSM]]
 
   * [[G2-MSSM]]
+
+* [[phenomenology]], [[hierarchy problem]]
 
 * [[standard model of cosmology]]
 
