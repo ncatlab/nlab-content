@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## In inner product spaces
@@ -52,4 +52,12 @@ A pair $(E,M)$ such that $E^\perp = M$ and $E = {}^\perp M$ is sometimes called 
 
   This problem is related to the problem of [[localization]]. Suppose $\Sigma^\perp$ is indeed a [[reflective subcategory]]; let $r: C \to \Sigma^\perp$ be the reflector (the [[left adjoint]] to the inclusion $i: \Sigma^\perp \to C$). 
 
+## Related concepts
+
+[[!include (co)isotropic subspaces - table]]
+
+
 [[!redirects orthogonal]]
+
+[[!redirects orthogonal complement]]
+[[!redirects orthogonal complements]]
