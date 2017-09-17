@@ -213,6 +213,7 @@ More generally, for any algebraic notion of weak $n$-category, there is a corres
 
 
 ## Application in functorial QFT
+ {#ApplicationsInQFT}
 
 For instance in [[FQFT]] one models $n$-dimensional [[topological quantum field theories]] as [[(∞,n)-functor]]s on a flavor of an [[(∞,n)-category of cobordisms]]
 
