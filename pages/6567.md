@@ -33,6 +33,8 @@ Often this is considered (only) for $n = 3$, which is the case pertaining to rig
  
     * [[moment of inertia]]
 
+* [[solid state physics]]
+
 ## References
 
 A general introduction is in section 1.1d of 
@@ -67,3 +69,4 @@ Discussion of ([[geometric quantization|geometric]]) [[quantization]] of rigid b
 
 [[!redirects rigid body]] 
 [[!redirects rigid bodies]] 
+
