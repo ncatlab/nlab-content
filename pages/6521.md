@@ -2,3 +2,5 @@
 * [website](http://www3.imperial.ac.uk/people/s.donaldson)
 
 category: people
+
+[[!redirects S. Donaldson]]
