@@ -35,7 +35,17 @@ One way to arrive at cohesive homotopy type theory is to start with the external
 
 We discuss the formulation in [[homotopy type theory]] of the [internal axioms](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InternalDefinition) on a [[cohesive (∞,1)-topos]].
 
-The axioms add to [[homotopy type theory]] two [[idempotent monad|idempotent]] [[monads (in computer science)|(co)monads]] called $\sharp$ ("sharp") and $\flat$ ("flat") and $\Pi$, together with a compatibility condition between them. Hence one may regard cohesive homotopy type theory as a flavor of _[[modal type theory]]_ with [[modalities]] $(\Pi \dashv \flat \dashv \sharp)$.
+Cohesive homotopy type theory is a [[modal type theory]] which ads to [[homotopy type theory]] an [[adjoint triple]] of [[modalities]]
+
+$$
+  &#643; \dashv \flat \dashv \sharp
+$$
+
+called 
+
+* [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]],
+
+where $&#643;$ and $\sharp$ are [[idempotent monad|idempotent]] [[monads (in computer science)|monadss]] and where $\flat$ is an idempotent [[comonad]], subject to some compatibility condition.
 
 ### A) Codiscrete objects
 
