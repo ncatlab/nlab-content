@@ -156,6 +156,9 @@ The corresponding table has been called the **brane scan**
 
 * [[D-brane]]
 
+[[!include field theory with boundaries and defects - table]]
+
+
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
 
