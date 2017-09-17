@@ -121,6 +121,8 @@ Moreover, for the case that $\mathbf{Fields}$ is a [[Deligne-Mumford stack]] (in
 
 Therefore it may be generally useful to refer to the process of quantization as discussed here as _[[motive|motivic]] [[quantization]]_. 
 
+In view of this, notice that in the context of _[[formal deformation quantization]]_ (which is roughly an infinitesimal ("[[formal geometry|formal]]") approximation to [[geometric quantization]] as considered here) it is known that a [[quotient]] of the [[motivic Galois group]] (namely the [[Grothendieck-Teichmüller group]]) acts on the space of choices of [[formal deformation quantization]] of a [[Poisson manifold]]. (For details and pointers on this see at _[formal deformation quantization -- Motivic Galois group action on the space of quantizations](deformation%20quantization#MotivicGaloisGroup)_).
+
 
 ### The holographic aspect
  {#TheHolographicAspect}
