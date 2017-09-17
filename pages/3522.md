@@ -306,6 +306,8 @@ Geom. Topol. 7 (2003), 645--711 [journal](http://www.msp.warwick.ac.uk/gt/2003/0
 
 * Gregory Arone and Michael Ching, _Operads And Chain Rules For The Calculus Of Functors_, [preprint](http://www.math.uga.edu/~mching/Work/chain-rule-spaces-final.pdf)
 
+* Arone and Kankaanrinta in [The Goodwillie tower of the identity is a logarithm](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306)
+
 A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable (∞,1)-categories]] is in
 
 * [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_, [section 5](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf#page=159)
