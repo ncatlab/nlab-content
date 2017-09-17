@@ -1,11 +1,30 @@
 
-## Related concepts
+#Contents#
+*  table of contents
+{:toc}
 
-* [[covering space]]
+## Idea
+
+
+A "branched" or "ramified" covering spaces is much like a plain [[covering space]], only that over isolated points in the base space -- called the _branch point_ or _ramification points_ -- sheets of the covering may merge.
+
+
+The archetypical examples in [[complex analysis]] and here the most archetypical example of all is the [[graph of a function|graph]] of (any choice of) the  [[square root]] function on the [[complex plane]], which is a double cover away from the point at the origin, but including the origin it is a branched double cover with branch point that origin
+
+[[Isbell duality|Dually]] branching is reflected in [[rings of functions]] by [[ramification of ideals]].
+
+Notably under the [[function field analogy]] one may also understand [[ramification of ideals]] in [[number fields]] as encoding branched coverings ("over Spec([[F1]])")
 
 ## Examples
 
 * [[branched cover of Riemann sphere]]
+
+* [[ramified extension]]
+
+## Related concepts
+
+* [[covering space]]
+
 
 ## References
 
@@ -18,3 +37,12 @@
 
 [[!redirects branched covering space]]
 [[!redirects branched covering spaces]]
+
+[[!redirects ramified cover]]
+[[!redirects ramified covers]]
+
+[[!redirects ramification]]
+[[!redirects ramifications]]
+
+[[!redirects branch point]]
+[[!redirects branch points]]
