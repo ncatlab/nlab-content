@@ -80,3 +80,10 @@ See at _[[operator algebras]]_.
 [[!redirects representation of a C-star algebra]]
 [[!redirects representations of a C-star algebra]]
 [[!redirects representations of C-star algebras]]
+
+[[!redirects C-star representation]]
+[[!redirects C-star representations]]
+
+[[!redirects C*-representation]]
+[[!redirects C*-representations]]
+
