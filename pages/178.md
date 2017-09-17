@@ -3690,7 +3690,28 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We first observe that the statement in degree $n+1$ would be easy to prove if we did not have to pass to a cofibrant [[resolution]] of $\mathbf{B}^n U(1)$ for computing the [[derived hom-space]] in the projectve [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,cov}$. For then we would compute, using the [above](#DifferentialBnU1) fibrant model for $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$
+Since both domain and codomain are abelian, it will be sufficient to demonstrate the statement for $n = 1$, $k$ arbitrary, and for $k = 1$, $n$ arbitrary. All other combinations of $n$ and $k$ are then implied by repeatedly using the [[delooping]]/[[loop space object|looping]] [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Sigma \dashv \Omega)$  on abelian objects in
+
+$$
+  \begin{aligned}
+    \mathbf{H}(\mathbf{B}^n U(1), \mathbf{\flat}_{dR} \mathbf{B}^{k}U(1))
+    &
+    \simeq
+    \mathbf{H}(\mathbf{B}^n U(1), \Omega \mathbf{\flat}_{dR} \mathbf{B}^{k+1}U(1))   
+    \\
+    & \simeq
+    \mathbf{H}(\Sigma \mathbf{B}^n U(1), \Omega \mathbf{\flat}_{dR} \mathbf{B}^{k+1}U(1))   
+    \\
+    & \simeq
+    \mathbf{H}(\mathbf{B}^{n+1} U(1), \Omega \mathbf{\flat}_{dR} \mathbf{B}^{k+1}U(1))   
+  \end{aligned}
+  \,.
+$$
+
+Here we use that since $\mathbf{\flat}_{dR}$ is a [[right adjoint]], it commutes with forming [[loop space object]]s.
+
+The main work is involved in establishing the statement for $k = n+1 = 2$, which we now spell out.
+We note that this would be easy to prove if we did not have to pass to a cofibrant [[resolution]] of $\mathbf{B}^n U(1)$ for computing the [[derived hom-space]] in the projectve [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,cov}$. For then we would compute, using the [above](#DifferentialBnU1) fibrant model for $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$
 
 $$
   \begin{aligned}
@@ -3735,7 +3756,7 @@ $$
 
 where the coproduct ranges over all sequences of morphisms of representables $U_i \in CartSp$ into $A_k$. And face and degeneracy maps are the evident ones. 
 
-As a warmup, we discuss this first for $\mathbf{B}^1 U(1)$. Write $Q(\mathbf{B}^1 U(1)) \stackrel{\simeq}{\to} \mathbf{B}^n U(1)$ for the above cofibrant replacement. 
+So we prove now that the computation of $\mathbf{H}(\mathbf{B}U(1), \mathbf{\flat}_{dR}\mathbf{B}^2 U(1))$ does reduce to this computation. Write $Q(\mathbf{B}^1 U(1)) \stackrel{\simeq}{\to} \mathbf{B}^n U(1)$ for the above cofibrant replacement. 
 
 Then a morphism $Q(\mathbf{B} U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))$ is a collection of horizontal morphisms in the diagram
 
@@ -3918,11 +3939,11 @@ $$
   \,.
 $$
 
-The same kind of argument as above shows that for $k \geq 2$ cocycles $Q(\mathbf{B}U(1)) \to \mathbf{\flat}_{dR}\mathbf{B}^k U(1)$ have underlying them sheaf morphisms $C^\infty(-,U(1)) \to \Omega^{k-1}(-)$. But all these are necessarily trivial, due to the fact that $U(1)$ is 1-dimensional. Finally the same argument that above showed that no nontrivial automorphisms of certain cocycles exist shows that no nontrivial morphisms $Q(\mathbf{B} U(1)) \to \mathbf{\flat}_{dR} \mathbf{B}U(1)$ exist.
+The same kind of argument as above shows that for $k \geq 2$ cocycles $Q(\mathbf{B}U(1)) \to \mathbf{\flat}_{dR}\mathbf{B}^k U(1)$ have underlying them sheaf morphisms $C^\infty(-,U(1)) \to \Omega^{k-1}(-)$. But all these are necessarily trivial, due to the fact that $U(1)$ is 1-dimensional. This establishes the theorem for $n=1$ and arbitrary $k$.
 
-This establishes the theorem for the de Rham cohomology of $\mathbf{B} U(1)$. We now need to argue that for $\mathbf{B}^n U(1)$ with $n \gt 1$ the analogous reasoning applies
 
-(...) 
+Finally the same argument that above showed that no nontrivial automorphisms of certain cocycles exist shows the theorem for $k=1$ and arbitrary $n \geq 1$, namely that no nontrivial morphisms $Q(\mathbf{B}^n  U(1)) \to \mathbf{\flat}_{dR} \mathbf{B}U(1)$ exist: such are given by a collection of 1-forms $\lamba_U \in \Omega^1(U)$ for all $U$, satisfyine for all possible maps $f : U_0 \to U_1$ the relation $\lambda_{U_0} = f^* \lambda_{U_1}$. If $\lambda_{U}$ does not vanish for all $U$, one can always find some $f$ for which this is not satisfied.  
+
 
 =--
 
