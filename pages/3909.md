@@ -96,6 +96,8 @@ where
 
 * [[Schubert calculus]]
 
+* [[celestial sphere]], [[quadric]], [[Klein quadric]]
+
 ## References
 
 ### General
@@ -113,6 +115,8 @@ The relation to [[self-dual Yang-Mills theory]] is due to
  {#Ward77}
 
 Introductions and surveys include
+
+* Fedja Hadrovich, _Twistor primer_ ([html](http://users.ox.ac.uk/~tweb/00004/), [pdf](http://henry.pha.jhu.edu/twistors.pdf))
 
 * Paul Bair, _Introduction to twistors_ ([pdf](http://www.math.jussieu.fr/~helein/encyclopaedia/baird-twistors.pdf))
 
