@@ -117,7 +117,7 @@ Let $S$ be a set whose elements
 are called the _semaphores_. Each semaphore _s_ is associated with an _arity_ that 
 is an integer $\alpha_s\geq 2$. We suppose that for each integer $\alpha  \geq 2$, there exist 
 infinitely many semaphores whose arity is $\alpha$. The only instructions are ${P}(s)$ 
-and ${V}(s)$, where $s$ is some semaphore. The terms, $P$, of the language, called _processes_, are the 
+and ${V}(s)$, where $s$ is some semaphore. The terms, $\mathbb{P}$, of the language, called _processes_, are the 
 finite sequences of instructions. When $\mathbb{P}$ is a process and $j$, an integer less or 
 equal to the length of $\mathbb{P}$, we denote by $\mathbb{P}(j )$ the $j^{th}$ instruction of the process, 
 in particular $\mathbb{P}(1)$ is the first instruction. 
