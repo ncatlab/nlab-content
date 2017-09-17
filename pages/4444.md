@@ -1,7 +1,7 @@
 
 ## Idea
 
-What is sometimes called __Rehren duality__ is relation between [[local nets of observables]] and their restriction to a boundary. It was originally claimed to be a formalization of a toy model of [[AdS/CFT]] duality, but in that context field theories are not simply restricted to their boundaries (instead [[state]]s are mapped to [[correlator]]s).
+What is sometimes called __Rehren duality__ is a relation between [[local nets of observables]] and their restriction to a boundary. It was originally claimed to be a formalization of a toy model of [[AdS/CFT]] duality, but in that context field theories are not simply restricted to their boundaries (instead [[state]]s are mapped to [[correlator]]s).
 
 ## References
 
