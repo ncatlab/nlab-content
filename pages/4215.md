@@ -38,6 +38,14 @@ Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each othe
 
 * If every vertical arrow in some double category $D$ has a right conjoint, then the functor $f\mapsto g$ is a [[pseudofunctor]] $V D^{op}\to H D$ from the vertical 2-category to the horizontal one, which is the identity on objects, and locally fully faithful by the mate correspondence.  If every vertical arrow also has a companion, then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
 
+## References
+
+* [[Marco Grandis]] and [[Robert Pare]], *Adjoints for double categories*
+
+* [[Robert Dawson]] and [[Robert Pare]] and [[Dorette Pronk]], *The Span construction*, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html).
+
+* [[Michael Shulman]], *Framed bicategories and monoidal fibrations*, [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
+
 
 [[!redirects conjunction]]
 [[!redirects conjunctions]]
