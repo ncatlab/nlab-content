@@ -1,0 +1,6 @@
+
+The higher analog of an [[(∞,1)-sheaf]].
+
+[[!redirects (∞,2)-sheaf]]
+[[!redirects (∞,2)-sheaves]]
+[[!redirects (infinity,2)-sheaves]]
