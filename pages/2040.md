@@ -16,25 +16,59 @@
 #Contents#
 * table of contents
 {:toc}
+
+
 ## Idea
 
+Quite generally, the term _Mackey functor_ refers to an [[additive functor]] from a ([[subcategory]] of) a [[category of correspondences]] (in a [[disjunctive category]] $\mathcal{C}$) to possibly any other [[additive category]] which however usually is the "base" abelian category. More generally the term now refers to the fairly obvious [[homotopy theory|homotopy theoretic]] or [[higher category theory|higher categorical]] refinements of this concept.
 
-A _Mackey functor_ with values in [[spectra]] ("spectral Mackey functor") is an [[(∞,1)-functor]] on a suitable  [[(∞,1)-category of correspondences]] 
-$Corr_1^{eff}(\mathcal{C}) \hookrightarrow Corr_1(\mathcal{C})$ which sends [[coproducts]] to [[smash product]]. (This is similar to the concept of [[sheaf with transfer]].)
+Therefore the concept of Mackey functors is similar to that of [[sheaves with transfer]] and as such appears (implicitly) in the discussion of [[motives]] (explicitly e.g. in [Kahn-Yamazaki 11, section 2](#KahnYamazaki11), where $\mathcal{C}$ is a category of suitable [[schemes]]).
+
+The concept was however introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). In that context it first received its full [[(∞,1)-category]]-theoretic forumation and discussion ([Barwick 14](#Barwick14)).
+
+## Definition
+
+We follow the modern account in ([Barwick 14](#Barwick14)).
+
+Let $\mathcal{C}$ be a [[disjunctive (∞,1)-category]] and write $Corr_1(\mathcal{C})^\otimes$ for the [[(∞,1)-category of correspondences]] in $\mathcal{C}$, regarded as a [[symmetric monoidal (∞,1)-category]] with respect to its [[coproduct]] (which is a [[biproduct]] by disjunctiveness of $\mathcal{C}$).
+
+Write $\mathcal{C} = $[[Spectra]]${}^\otimes$ for the [[(∞,1)-category of spectra]] regarded as a [[symmetric monoidal (∞,1)-category]] with respect to the [[smash product of spectra]].  More generally $\mathcal{A}$ could be any [[symmetric monoidal (∞,1)-category|symmetric monoidal]} [[stable (∞,1)-category]]
+
+Then a (spectral) _Mackey functor_ on $\mathcal{C}$ is a [[monoidal (∞,1)-functor]] of the form
+
 
 $$
-  S \;\colon\; Corr_1^{eff}(\mathcal{C}) \longrightarrow Spectra
+  S \;\colon\; Corr_1(\mathcal{C})^\otimes \longrightarrow \mathcal{A}^{otimes}
+  \,.
 $$
 
-For $G$ a [[finite group]] and $\mathcal{C}= G Set$ its category of [[permutation representations]], then $S$ is a genuine [[G-spectrum]] ([Guillou-May 11](#GuillouMay11)).
- So in this case the [[homotopy theory]] of spectral Mackey functors is a presentation for [[equivariant stable homotopy theory]] ([Guillou-May 11](#GuillouMay11), [Barwick 14](#Barwick14)).
+Notice that this means that $S$ is in particular
 
-For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](#Barwick14)) to that of Mackey functors as originally defined in ([Dress 71](#Dress71)).
 
-## Properties
+1. a covariant [[(∞,1)-functor]] $(-)_\ast \colon\mathcal{C} \to \mathcal{A}$;
 
-### Relation to genuine $G$-spectra
+1. a contravariant [[(∞,1)-functor]], hence  $(-)^\ast \colon\mathcal{C}^{op} \to \mathcal{A}$;
 
+1. satisfying the [[Beck-Chevalley condition]].
+
+(More generally one may specify suitably chosen sub-$(\infty,1)$-categories $\mathcal{C}^\dagger, \mathcal{C}_\dagger \subset \mathcal{C}$ and restrict $Corr_1$ to [[correspondences]] whose left leg is in $\mathcal{C}_\dagger$ and whose right leg is in $\mathcal{C}^\dagger$ ([Barwick 14, section 5](#Barwick14)).)
+
+## Examples
+
+### Dress' Mackey functors
+
+For $\mathcal{A}$ taken to be (the [[derived category]]) of an [[abelian category]] (or better: postcomposed with a [[homological functor]] ) this definition reduces ([Barwick 14](#Barwick14)) to that of Mackey functors as originally defined in ([Dress 71](#Dress71)).
+
+
+### Genuine equivariant spectra
+
+For $G$ a [[finite group]] let $\mathcal{C}= G Set$ be its category of [[permutation representations]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ ()possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here.
+
+Then Mackey functors on $\mathcal{C}$ are equivalently  genuine [[G-spectra]] ([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)).
+
+
+(...)
+ 
 For $E$ a [[genuine G-spectrum]] then the corresponding Mackey functor us given by the assignment
 
 $$
@@ -46,11 +80,12 @@ where on the right we have the $G$-equivariant [[mapping spectrum]] from the (eq
 
 (...)
 
+
 ## References
 
 The original article is
 
-* {#Dress71} A. W. M. Dress, _Notes on the theory of representations of finite groups. Part I: The Burnside ring of a finite group and some AGN-applications, Bielefeld, 1971, 
+* {#Dress71} A. W. M. Dress, _Notes on the theory of representations of finite groups. Part I: The Burnside ring of a finite group and some AGN-applications, Bielefeld_, 1971, 
 
 Reviews and surveys include
 
@@ -76,13 +111,16 @@ See also
 
 * Elango Panchadcharam, _Categories of Mackey Functors_, PhD thesis, Macquarie Univ. 2006
 
-
-A comprehensive construction of equivariant stable homotopy theory in terms of [[Mackey functors]] is in the series
+A comprehensive construction of [[equivariant stable homotopy theory]] in terms of [[Mackey functors]] is in the series
 
 * {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
 
   _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+
+Application of Mackey functors to the theory of [[motives]] includes
+
+* {#KahnYamazaki11} [[Bruno Kahn]], Takao Yamazaki, _Voevodsky's motives and Weil reciprocity_, Duke Mathematical Journal 162, 14 (2013) 2751-2796 ([arXiv:1108.2764](http://arxiv.org/abs/1108.2764))
 
 [[!redirects Mackey functors]]
