@@ -19,7 +19,9 @@
 
 ## Idea
 
-The _disjoint union_ is a [[coproduct]] in [[Set]], the category of [[sets]].
+The _disjoint union_ is a [[coproduct]] in [[Set]], the category of [[sets]]. 
+
+In a general [[category]] [[coproducts]] need not have the expected disjointness property of those in [[Set]]. If they do they are called _[[disjoint coproducts]]_. 
 
 
 ## Definition
