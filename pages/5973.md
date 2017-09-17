@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]].
+
+## Related concepts
+
+* [[type theory]], [[logic]]
+
+* **2-type theory**, [[2-logic]]
+
+* [[(∞,1)-type theory]], [[(∞,1)-logic]]
+
+
+## References
+
+2-categorical type theory is discussed in chapter 7 of 
+
+* [[Daniel Licata]], _Dependently Typed Programming
+with Domain-Specific Logics_ PhD Thesis (2011) ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
+
+A more encompassing discussion of 2-categorical logic is being developed at
+
+* [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
