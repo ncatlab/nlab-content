@@ -11,12 +11,14 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A _local system_  -- which is short for _local system of coefficients for cohomology_ -- is a [[locally constant sheaf]]. Cohomology with coefficients in a local system is the corresponding [[sheaf cohomology]].
+A _local system_  -- which is short for _local system of [[coefficients]] for [[cohomology]]_ -- is a system of coefficients for [[twisted cohomology]].
+
+Often this is presented or taken to be presented by a [[locally constant sheaf]]. Then cohomology with coefficients in a local system is the corresponding [[sheaf cohomology]].
 
 More generally, we say a _local system_ is a [[locally constant stack]], ... and eventually a [[locally constant ∞-stack]].
 
@@ -169,7 +171,7 @@ $D_X$-[[D-module|modules]] and local systems on $X$.
 
   * D. Sullivan, _Infinitesimal computations in topology_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
-
+* [[twisted cohomology]], [[local coefficient bundle]], [[twisted infinity-bundle]]
 
 
 
@@ -214,5 +216,9 @@ A clear-sighted description of locally constant $(n-1)$-stacks / $n$-local syste
 for [[locally constant stack]]s on [[topological space]]s. The above formulation is pretty much the evident generalization of this to general [[(∞,1)-topos]]es.
 
 [[!redirects local systems]]
+
+[[!redirects local system of coefficients]]
+[[!redirects local systems of coefficients]]
+
 
 [[!redirects cohomology with a local system of coefficients]]
