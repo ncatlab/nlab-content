@@ -42,15 +42,15 @@ It is difficult to make this distinction without the $\epsilon$.  It is not impo
 
 The extent to which Cauchy anticipated modern epsilontics is debated.  For arugments pro and contra (respectively), see:
 
-*  Judith Grabiner (1983). Who Gave You the Epsilon? Cauchy and the Origins of Rigorous Calculus. The American Mathematical Monthly 90 (3). [pdf](http://www.maa.org/pubs/Calc_articles/ma002.pdf).
+*  Judith Grabiner (1983). Who Gave You the Epsilon? Cauchy and the Origins of Rigorous Calculus. The American Mathematical Monthly 90:3 (1983). [pdf](http://www.maa.org/pubs/Calc_articles/ma002.pdf).
    {#Grabiner1983}
 
-*  Piotr Blaszczyk, Mikhail G. Katz, David Sherry (2012). Ten Misconceptions from the History of Analysis and Their Debunking. [arXiv](http://arxiv.org/abs/1202.4153).
+*  Piotr Blaszczyk, Mikhail G. Katz, David Sherry (2012). Ten Misconceptions from the History of Analysis and Their Debunking. [arXiv](http://arxiv.org/abs/1202.4153). Foundations of Science 18:1 (2013), 43--74. [doi](http://dx.doi.org/10.1007/s10699-012-9285-8).
    {#BKS2012}
 
 On Bolzano, this looks promising, but I have not read it:
 
-*  Paul Rusnock (2000).  Bolzano\'s Philosophy and the Emergence of Modern Mathematics.  Rodopi 2000.
+*  Paul Rusnock (2000).  Bolzano\'s Philosophy and the Emergence of Modern Mathematics.  Rodopi (2000).
    {#Rusnock2000}
 
 
