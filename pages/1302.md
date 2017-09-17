@@ -179,8 +179,8 @@ $X$, as defined above.
 We now explain the above statement in detail and thereby prove it.
 
 Let $C = $[[Ring]]${}^{op}$ be the category of (commutative, unital) [[ring]]s.
-For $R$ a [[ring]] write $Spec R$ for it regarded as an object of $R^{op}$.
-For $Spec f = f^{op} : Spec(S) \to Spec(R)$ a morphism in $Ring^{op}$ corresponding to the map $f : R \to S$ of commutative rings.
+For $R$ a [[ring]] write $Spec R$ for it regarded as an object of $C$.
+Write $Spec f = f^{op} : Spec(S) \to Spec(R)$ for the morphism in $Ring^{op}$ corresponding to the map $f : R \to S$ of commutative rings.
 
 Consider the [[2-category]] of (pre)[[stack]]s on 
 $C$. The canonical [[module]] [[bifibration]] $p : Mod \to Ring$ of the category of modules over all rings is the bifibration whose fibered part corresponds to the (pre)stack $QC \in [C^{op},Cat]$ given on objects by 
@@ -337,7 +337,7 @@ definition in the above section [As sheaves on Aff/X](#AsSheaves). Conversely, e
 By the equivalence between [[pseudofunctor]]s $Ring \to Cat$
 and [[Grothendieck fibration]]s $F \to Ring^{op}$ induced by the
 [[Grothendieck construction]], the above may equivalently be
-reformualted as follows.
+reformulated as follows.
 
 
 Recall from the discussion at [[Grothendieck fibration]] that the equivalence in question is between the following two [[bicategory|bicategories]]:
