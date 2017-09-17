@@ -25,3 +25,5 @@ where $S$ is a [[set]] and $|U|$ is the [[set]] $|U| := Hom_C({*}, U)$ of points
 Categories of concrete sheaves, with special attention to sheaves on [[Diff]], i.e. to [[diffeological space]]s, are discussed in detail in 
 
 * [[John Baez]], [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
+
+[[!redirects concrete sheaves]]
