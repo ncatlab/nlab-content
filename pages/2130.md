@@ -74,18 +74,18 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-The vector fields in the image of the exact 1-forms under the isomorphism, remark \ref{TangentCotangentIsomorphism}, are called **Hamiltonian vector fields**.
+The vector fields in the image of the exact 1-forms under the isomorphism, remark \ref{TangentCotangentIsomorphism}, are called **[[Hamiltonian vector fields]]**.
 
 =--
 
-This means that for $H \in C^\infty(X)$ a [[smooth function]] and $d H$ its differential 1-form, the corresponding Hamiltonian vector field $v_H \in \Gamma(T X)$ is the unique vector field such that
+This means that for $H \in C^\infty(X)$ a [[smooth function]] and $d H$ its differential 1-form, the corresponding [[Hamiltonian vector field]] $v_H \in \Gamma(T X)$ is the unique vector field such that
 
 $$
   d H = \omega(v_H, -)
   \,
 $$
 
-Equivalently, for $\phi \mathbb{R}^{2n} \to X$ a [[coordinate chart]] of $X$ and $\phi^*\omega = \omega_{i j} d x^i \wedge d x^j$ the symplectic form on this patch, the Hamiltonian vector field $v_H$ is
+Equivalently, for $\phi \mathbb{R}^{2n} \to X$ a [[coordinate chart]] of $X$ and $\phi^*\omega = \omega_{i j} d x^i \wedge d x^j$ the symplectic form on this patch, the [[Hamiltonian vector field]] $v_H$ is
 
 $$
   v_H =  \frac{\partial H}{\partial x^i} (\omega^{-1})^{i j} \partial_j
@@ -100,7 +100,7 @@ $$
 ###### Proposition
 
 For $(X, \omega)$ a symplectic manifold, the [[vector field]]s
-$v \in \Gamma(T X)$ that generate [[diffeomorphism]]s that preserve the symplectic structure are precisely the locally Hamiltonian vector fields.
+$v \in \Gamma(T X)$ that generate [[diffeomorphism]]s that preserve the symplectic structure are precisely the locally [[Hamiltonian vector fields]].
 
 =--
 
@@ -183,5 +183,3 @@ The generalization of the notion of symplectic manifolds to [[dg-geometry]] is s
 
 [[!redirects symplectic structure]]
 
-[[!redirects Hamiltonian vector field]]
-[[!redirects Hamiltonian vector fields]]
