@@ -29,6 +29,10 @@ Dually, for non-negatively graded chain complexes of abelian groups there is a m
 
 ## Properties
 
+### Relation to syzygies
+
+(...) [[syzygy]] (---)
+
 ### Relation to axioms of choice 
 
 For ordinary [[modules]] $M$ over a [[ring]] $R$, a standard way of constructing a projective resolution of $M$ is to construct a 
