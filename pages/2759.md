@@ -1,4 +1,3 @@
-[[!redirects syntax - semantics duality]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -14,14 +13,14 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 There is a [[duality]] between [[syntax]] and [[semantics]].
+
 
 ## Related concepts
 
@@ -30,6 +29,7 @@ There is a [[duality]] between [[syntax]] and [[semantics]].
 * [[computational trinitarianism]]
 
 * [[Stone duality]]
+
 
 ## References
 
@@ -41,4 +41,10 @@ For [[geometric logic]]:
 
 * Henrik Forssell, _Topological representation of geometric theories_,  [arxiv/1109.0699](http://arxiv.org/abs/1109.0699)
 
+
+[[!redirects syntax-semantics duality]]
+[[!redirects syntax-semantix duality]]
+[[!redirects syntax–semantics duality]]
+[[!redirects syntax--semantics duality]]
+[[!redirects syntax - semantics duality]]
 [[!redirects duality of syntax and semantics]]
