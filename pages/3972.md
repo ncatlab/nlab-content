@@ -1,0 +1,24 @@
+#Contents#
+* the following line creates the automatic table of contents
+{:toc}
+
+
+## Idea ##
+The Cauchy principal value is a way to assign finite values to divergent integrals, as such it can be regarded as a toy example of [[renormalization]].
+
+## Abstract ##
+...
+
+## Definition ##
+...
+
+## Examples ##
+...
+
+## References ##
+
+* Wikipedia: [Cauchy principal value](http://en.wikipedia.org/wiki/Cauchy_principal_value)
+
+and
+
+* Wikipedia: [Hadamard principal value](http://en.wikipedia.org/wiki/Hadamard_finite_part_integral)
