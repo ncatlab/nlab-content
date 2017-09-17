@@ -1,5 +1,12 @@
 
-* [website](http://www.andrew.cmu.edu/user/awodey/)
+Steve Awodey is a professor at Oxford interested in category theory, logic, 
+philosophy of mathematics, history of logic and analytic philosophy. For n-community one should point out his recent work on homotopical ideas in type theory.
+
+* [website](http://www.andrew.cmu.edu/user/awodey)
+
+* _From Sets to Types to Categories to Sets_ [pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stcsFinal.pdf)
+
+* _Homotopy theory and type theory_, 2010, [pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf)
 
 category: people
 
