@@ -31,7 +31,19 @@ A [[ringed topos]] $(X, \mathcal{O}_X)$ with [[point of a topos|enough points]] 
 
 =--
 
-More generally
+This is a special case of the following equivalent definitions: 
+
++-- {: .num_defn #InTermsOfGeometricTheory}
+###### Definition 
+
+A **locally ringed topos** is a topos equipped with a commutative ring object (see [[ringed topos]]) that in addition satisfies the axioms 
+
+* $(0 = 1) \vdash false$ 
+* $x + y = 1 \vdash \exists_z (x z = 1) \vee \exists_z (y z = 1)$ 
+
+(note these are axioms for a [[geometric theory]], interpreted according to [[Kripke-Joyal semantics]] in a topos). 
+
+=--
 
 +-- {: .num_defn #InTermsOfClassifyingTopos}
 ###### Definition
