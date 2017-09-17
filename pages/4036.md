@@ -212,3 +212,6 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 [[!redirects good cover]]
 [[!redirects good covers]]
 [[!redirects good open covers]]
+
+[[!redirects good covering]]
+[[!redirects good coverings]]
