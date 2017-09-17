@@ -25,7 +25,7 @@ There are at least two things that are called _quantum anomalies_ in the context
 
 * **anomalous action functional**: the [[action functional]] (in [[path integral|path integral quantization]]) is not a globally well defined [[function]], but instead a [[section]] of a [[line bundle]] on [[configuration space]];
 
-* **anomalous symmetry**: a symmetry of the [[action functional]] does not extend to a symmetry of the exponentiated action times the path integral measure; or equivalently the [[action]] of a group on classical [[phase space]] is not preserved by [[deformation quantization]].
+* **anomalous symmetry** (gauge anomaly): a symmetry of the [[action functional]] does not extend to a symmetry of the exponentiated action times the path integral measure; or equivalently the [[action]] of a group on classical [[phase space]] is not preserved by [[deformation quantization]].
 
 ## Definition
 
@@ -51,7 +51,33 @@ For the moment see [[Green-Schwarz mechanism]] for more.
 
 ### Anomalous symmetry
 
-...
+Let 
+
+$$
+  S : C \to \mathbb{R}
+$$
+
+be a (well defined) [[nLab:action functional]]. Write $P$ for its resolved [[covariant phase space]] in [[dg-geometry]] and 
+
+$$
+  S^{BV} : P \to \mathbb{R}
+$$
+
+for the BV-action functional, both as given by [[BRST-BV formalism]].
+
+If the action functional is local (comes from a [[Lagrangian]] on [[jet space]]) the [[covariant phase space]] $P$ a priori only carries a [[presymplectic structure]]. But by BV-theory there exists an equivalent (homotopical) derived action functional $S_\Psi^{BV} : P \to \mathbb{R}$ such that $S_\Psi^{BV}$ does induce a genuine [[symplectic structure]] on the [[derived geometry|derived]] space $P$.
+
+For ordinary [[Poisson manifold]]s and hence [[symplectic manifold]]s [[Maxim Kontsevich]]'s theorem says that their [[deformation quantization]] always exist. But if $S$ is the [[action functional]] of a [[gauge theory]] then $P$ is in general a nontrivial derived [[infinity-Lie algebroid]] (its function algebra has "ghosts" and "ghosts of ghost": the [[Chevalley-Eilenberg algebra]] generators) and the theorem does not apply. Instead, there is a theorem (...) that the quantization of the derived symplectic space $P$ exists only if the first and second [[infinity-Lie algebroid cohomology]] of $P$ vanishes:
+
+These two cohomology groups 
+
+$$
+ Anom_{gauge} = H^1(CE(P)) \oplus H^2(CE(P))
+$$
+
+are called the **gauge anomaly** of the system. Only if they vanish does the [[quantization]] of the [[gauge theory]] encoded by $S$ exist.
+
+More concretely, the function algebra on $P$ is a graded-commutative [[dg-algebra]] equipped with a graded Poisson bracket $\{-,-\}_{BV}$ and an element $Q \in C^\infty(P)$ (the BV-BRST charge) whose [[Hamiltonian vector field]] is the [[derivation]] that is the [[differential]] of the dg-algebra $C^\infty(X)$. If the gauge anomaly does not vanish, then, while the deformation quantization of the graded algebra $C^\infty(P)$ to a non commutative graded algebra with commutator $[-,-]$ will exist, it may happen that the image $\hat Q$ of $Q$ under the quantization no longer satisfies $[\hat Q,\hat Q] = 2 \hat Q^2$. Therefore the [[derivation]] $[\hat Q,-]$ will not define a [[differential]] and therefore the quantization of the graded-commutative [[dg-algebra]] $C^\infty(P)$ will only be a noncommutative algebra, not a non-commutative dg-algebra, hence will not be functions on a non-commutative space in [[derived geometry]].
 
 ## Examples
 
@@ -59,7 +85,7 @@ For the moment see [[Green-Schwarz mechanism]] for more.
 
 #### Spinning particles and super-branes 
 
-The [[sigma-model]] for a [[supersymmetry|supersymmetric]] fundamental brane on a target space $X$ has an anomaly coming from the nontriviality of Pfaffian line bundles associated with the fermioninc fields on the worldvolume. These anomalies disappear (i.e. these bundles are trivializable) when the structure group of the [[tangent bundle]] of $X$ has a sufficiently high lift through the [[Whitehead tower]] of $O(n)$.
+The [[sigma-model]] for a [[supersymmetry|supersymmetric]] fundamental [[brane]] on a target space $X$ has an anomaly coming from the nontriviality of [[Pfaffian line bundle]]s associated with the [[fermion]]ic fields on the worldvolume. These anomalies disappear (i.e. these bundles are trivializable) when the structure group of the [[tangent bundle]] of $X$ has a sufficiently high lift through the [[Whitehead tower]] of $O(n)$.
 
 * **Spin structure** the worldline anomaly for the spinning particle/superparticle vanishes when $X$ has [[Spin structure]] 
 
