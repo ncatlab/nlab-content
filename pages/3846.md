@@ -76,6 +76,8 @@ In any composition algebra, we may define a **conjugation** operator by
 
 $$\bar{v} = 2\langle v, e \rangle e - v$$
 
+Observe that $\bar{v} = v$ just when $v$ is a scalar multiple of the identity. By analogy with the classical case (composition algebras over $\mathbb{R}$), such elements will be called "real". 
+
 The next few propositions develop properties of conjugation. 
 
 +-- {: .un_prop}
@@ -130,8 +132,10 @@ $$\langle \bar{u}\bar{v}, w \rangle = \langle \bar{v}, u w \rangle = \langle \ba
 using involution and unitarity. The result follows from nondegeneracy of the form. 
 =-- 
 
-+-- {: un.prop}
-######Proposition (Reality) 
+By the involution and anti-automorphism properties, we see that $\bar{v}v$ is fixed under conjugation: is "real". Better yet, 
+
++-- {: .un_prop}
+######Proposition (Reality)
 $\bar{u} \cdot (u v) = N(u)v$. 
 =-- 
 
@@ -158,9 +162,9 @@ so that every element $u$ of a composition algebra satisfies a quadratic equatio
 
 $$u^2 - 2\langle u, e \rangle u + N(u)e = 0.$$ 
 
-This has as further consequence the fact that an algebra admits at most one norm making it a composition algebra (because the minimal monic polynomial of an element $u$ in a finite-dimensional algebra is uniquely determined, and the norm would be retrieved as the uniquely determined constant coefficient). 
+This has as further consequence the fact that an algebra admits at most one norm making it a composition algebra (because the minimal monic polynomial of an element $u$ in a finite-dimensional algebra is uniquely determined; the norm of an element would the uniquely determined constant coefficient of its minimal polynomial). 
 
-A final corollary of the "Reality" proposition is 
+A final corollary of **"Reality"** is 
 
 +-- {: .un_prop} 
 ######Proposition (Alternative law) 
@@ -170,16 +174,88 @@ $u \cdot (u v) = u^2 \cdot v$ and $u \cdot v^2 = (u v) \cdot v$.
 
 +-- {: .proof} 
 ######Proof 
-By reality, and because $u$ is a linear combination of $\bar{u}$ and $e$. 
+We have $w(u v) = (w u)v$ if $w$ is either $e$ or $\bar{u}$, and $u$ is a linear combination of $e$ and $\bar{u}$. The other equation is proven similarly.
 =--
 
 ## Cayley-Dickson doubling construction
 
-We begin with a simple observation: let $V$ be a vector space with a nondegenerate bilinear form and let $W$ be a subspace such that the form on $V$ restricts to a nondegenerate form on $W$. Then 
+We begin with a simple observation: 
+
++-- {: .un_prop}
+######Proposition
+Let $V$ be a finite-dimensional vector space with a nondegenerate bilinear form, and let $W$ be a subspace such that the form on $V$ restricts to a nondegenerate form on $W$. Then 
 
 $$V = W \oplus W^\perp$$ 
 
-and the form on $V$ restricts to a nondegenerate form on $W$. 
+and the form on $V$ restricts to a nondegenerate form on $W^\perp$. 
+=--
+
++-- {: .proof}
+######Proof
+The fact that $W \cap W^\perp = \{0\}$ is immediate from nondegeneracy of the form on $W$, and that $W + W^\perp = V$ follows from this and a simple dimension count ($dim(W^\perp) = dim((V/W)^*) = dim(V/W)$ and $dim(V) = dim(W) + dim(V/W)$). For the second assertion, we know that for $v \in W^\perp$, the map $\langle v, - \rangle |_W: W \to k$ is zero; if also $\langle v, - \rangle |_{W^\perp}: W^\perp \to k$ is zero, then $\langle v, - \rangle: V \to k$ is zero because $V = W + W^\perp$, and $v = 0$ follows from nondegeneracy of the form on $V$. 
+=-- 
+
+Thus, given a composition algebra $V$ and a composition subalgebra $W$ of $V$ (that is, a subspace closed under identity and multiplication, such that the norm on $V$ restricts to a nondegenerate form on $W$), the proposition shows there exists $\alpha \in W^\perp$ such that $N(\alpha) \neq 0$. This $\alpha$ is invertible, so $\alpha \cdot W$ has the same dimension as $W$. Moreover, for all $v, w \in W$ we have 
+
+$$\langle \alpha v, w \rangle = \langle \alpha, w \bar{v} \rangle = 0$$ 
+
+so that, by nondegeneracy of the form on $W$, $\alpha \cdot W \cap W = \{0\}$. Indeed, $\alpha W$ is orthogonal to $W$. It follows that $W + \alpha W$ has double the dimension of $W$. 
+
+Now let us fix such an $\alpha$, and put $\lambda = N(\alpha)$. 
+
++-- {: .un_prop}
+######Proposition
+For elements $u, v, w, x \in W$, 
+
+$$\langle u + \alpha v, w + \alpha x \rangle = \langle u, w \rangle + \lambda \langle v, x \rangle.$$ 
+=--
+
++-- {: .proof}
+######Proof
+This follows from the identities 
+
+$$\langle u, \alpha x \rangle = \langle u \bar{x}, \alpha \rangle = 0 \qquad \langle \alpha v, w \rangle = \langle \alpha, w \bar{v} \rangle = 0 \qquad \langle \alpha v, \alpha x \rangle = N(\alpha)\langle v, x \rangle$$ 
+
+plus bilinearity of the form. 
+=--
+
+Consequently, if $\langle u + \alpha v, w \rangle = 0$ for all $w \in W$, we must have $u = 0$, and if $\langle u + \alpha v, \alpha x \rangle = 0$ for all $x \in W$, then $v = 0$. It follows that the form on $V$, when restricted to $W + \alpha W$, is nondegenerate. 
+
+Now we want to show that the double $W + \alpha W$ is closed under multiplication, hence forms a composition subalgebra. It follows immediately from all this that $dim(V)$ is a power of 2, and in fact we will see later that the only possible dimensions are 1, 2, 4, and 8. Indeed, the structure of composition algebras is very tightly constrained. 
+
++-- {: .un_prop}
+######Proposition (Conjugation on the double)
+We have $\widebar{u + \alpha v} = \bar{u} - \alpha v$. Consequently, $\alpha v = - \widebar{\alpha v} = - \bar{v} \bar{\alpha} = \bar{v} \alpha$, and $\widebar{\alpha} = -\alpha$.  
+=--
+
++-- {: .proof} 
+######Proof
+$\widebar{\alpha v} = 2\langle \alpha v, e \rangle e - \alpha v = -\alpha v$. 
+=--
+
++-- {: .un_thm}
+######Theorem (Closure under multiplication)
+For all $u, v, w, x \in W$, $(u + \alpha v)(w + \alpha x) = (u w - \lambda x v) + \alpha (w v + \bar{u} x)$.
+=--
+
++-- {: .proof}
+######Proof
+For all $y \in V$, we have the following sets of equations, using the previous proposition (Conj), the Exchange identity (Ex), and other identities frequently observed above (unlabeled as such). 
+
+$$\langle u (\alpha x), y \rangle = \langle \alpha x, \bar{u} y \rangle \stackrel{Ex}{=} 0 - \langle \alpha y, \bar{u} x \rangle = \langle y, \alpha (\bar{u} x) \rangle = \langle \alpha (\bar{u} x), y \rangle$$ 
+
+[ ]
+
+$$\langle (\alpha v)w, y \rangle = \langle \alpha v, y \bar{w} \rangle \stackrel{Conj}{=} \langle \bar{v} \alpha, y \bar{w} \rangle \stackrel{Ex}{=} 0 - \langle \bar{v}\bar{w}, y \alpha \rangle = \langle (\bar{v}\bar{w})\alpha, y \rangle = \langle \widebar{w v} \alpha, y \rangle \stackrel{Conj}{=} \langle \alpha (w v), y \rangle$$
+
+[ ] 
+
+$$\langle (\alpha v)(\alpha x), y \rangle \stackrel{Conj}{=} -\langle \alpha v, y (\alpha x) \rangle \stackrel{Ex}{=} 0 + \langle \alpha (\alpha x), y v \rangle \stackrel{Conj}{=} -\langle \alpha x, \alpha (y v) \rangle = -\lambda \langle x, y v \rangle = \langle -\lambda x\bar{v}, y \rangle$$
+
+These identities, combined with nondegeneracy of the form, give the result. 
+=--
+
+
 
 ## References
 
