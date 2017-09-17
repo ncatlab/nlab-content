@@ -27,7 +27,7 @@ Over the [[complex numbers]] the _$j$-invariant_ is a [[modular function]] on th
 
 ### Over the complex numbers
 
-Over the [[complex numbers]],  with $G_{2k}$ the [[Eisenstein series]] and with
+Over the [[complex numbers]],  with $G_{2k}$ the [[Eisenstein series]] and with 
 
 $$
   g_2 \coloneqq 60 G_4
@@ -37,11 +37,13 @@ $$
   g_3 \coloneqq 140 G_6
 $$
 
+and the [[discriminant]]
+
 $$
   \Delta \coloneqq g_2^3 - 27 g_3^2
 $$
 
-then the j-invariant is
+then the _$j$-invariant_ is
 
 $$
   j = 1728 \frac{g_2^3}{\Delta}
