@@ -1,9 +1,9 @@
-__Iwasawa polynomial__ is a number theoretic analogue of the [[Alexander polynomial]]. 
+As a construction in [[Iwasawa theory]], the __Iwasawa polynomial__ is a number theoretic analogue of the [[Alexander polynomial]]. 
 
-Relation between Alexander polynomial
-and Lefschetz (spectral) zeta function
-as analogous to the relation between Iwasawa polynomial
-and p-adic analytic zeta function. See chapter 12 in
+The relation between the Alexander polynomial
+and the Lefschetz (spectral) zeta function
+is analogous to that between the Iwasawa polynomial
+and the p-adic analytic zeta function. See chapter 12 in
 
 * Masanori Morishita, _Knots and primes: an introduction to arithmetic topology_, Springer 2012
 
