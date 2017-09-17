@@ -24,12 +24,71 @@ The analogs for the [[unitary group]] are the [[Chern class]]es.
 
 ## Definition
 
-The universal Pontryagin [[characteristic classes]] on the [[classifying space]] $B O(n)$ are, up to a sign, the pullbacks of the [[Chern class]]es along the inclusion 
+The universal Pontryagin [[characteristic classes]] $P_k$ on the [[classifying space]] $B O(n)$ are, up to a sign, the pullbacks of the [[Chern classes]] $c_{2k}$ along the [[complexification]] inclusion 
 
 $$
   B O(n) \to B U(n)
   \,.
 $$
+
+## Properties
+
+### As generating universal characteristic classes
+
+The [[cohomology ring]] $H^\bullet(B SO(2n+1), \mathbb{Z})$
+is the [[polynomial ring]] on  all Pontryagin classes
+$\{P_i\}_{i = 1}^n$.
+
+The [[cohomology ring]] $H^\bullet(B SO(2n), \mathbb{Z})$
+is the [[quotient]] of the [[polynomial ring]] on  Pontryagin classes
+$P_i$ and the [[Euler class]] $\chi$ by the relation $\chi^2 = P_n$.
+
+### Further relation to Chern classes
+ {#FurtherRelationToChernClasses}
+
+Under the other canonical map
+
+$$
+  j \;\colon\; B U(n) \to BO(2n)
+$$
+
+one has 
+
+$$
+  j^\ast(P_k) = \sum_{a + b = 2 k} (-1)^{a+k} c_a c_b
+$$
+
+and
+
+$$
+  j^\ast(\chi) = c_n
+  \,.
+$$
+
+### Splitting principle and Chern roots
+ {#SplittingPrincipleAndChernRoots}
+
+Under the inclusion
+
+$$
+  i \;\colon\; U(1)^n \hookrightarrow U(n) \to O(2n)
+$$
+
+of the [[maximal torus]] one has that 
+
+$$
+  (B i)^\ast(P_k) = \sigma_k(x_1, \cdots, x_n)^2
+$$
+
+and
+
+$$
+  (B i)^\ast(\chi) = \sigma_n(x_1, \cdots, x_n)
+$$
+
+where the $x_i \in H^\bullet(B U(1)^n, \mathbb{Z})$ are the "[[Chern roots]]". 
+
+See at _[Chern class - Properties -- Splitting principle and Chern roots](Chern%20class#SplittingPrinciple)_ and at _[splitting principle - Examples - Real vector bundles](splitting+principle#RealVectorBundles)_ for more.
 
 ## Trivializations and structures
 
