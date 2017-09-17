@@ -25,7 +25,7 @@ The notion of $(\infty,1)$-category of $(\infty,1)$-sheaves is the generalizatio
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #CategoryOfSheaves}
 ###### Definition
 
 An **$(\infty,1)$-category of $(\infty,1)$-sheaves** is a [[reflective sub-(∞,1)-category]] 
@@ -35,55 +35,60 @@ $$
   PSh(C)
 $$
 
-of an [[(∞,1)-category of (∞,1)-presheaves]] such that 
+of an [[(∞,1)-category of (∞,1)-presheaves]] such that the following equivalent conditions hold
 
 * $L$ is a [[topological localization]];
 
-* equivalently: there is the structure of an [[(∞,1)-site]] on $C$ such that the objects of $Sh(C)$ are precisely those [[(∞,1)-presheaves]] $A$ that are [[local object]]s with respect to the _covering_ [[monomorphism in an (∞,1)-category|monomorphisms]] $p : U \to j(c)$ in $PSh(C)$ in that
+* there is the structure of an [[(∞,1)-site]] on $C$ such that the objects of $Sh(C)$ are precisely those [[(∞,1)-presheaves]] $A$ that are [[local objects]] with respect to the _covering_ [[monomorphism in an (∞,1)-category|monomorphisms]] $p : U \to j(c)$ in $PSh(C)$ in that
 
-  $$
+  \[
+   \label{DescentCondition}
     A(c) \simeq PSh(j(c),A) \stackrel{PSh(p,A)}{\to} PSh(U,A)
-  $$
+  \]
 
   is an [[(∞,1)-equivalence]] in [[∞Grpd]]. 
-
-  This is the [[descent]] condition and the presheaves satisfying it are the
-  **[[(∞,1)-sheaves]]** .
-  
-  Typically $U$ here is the [[Cech nerve]] 
-
-  $$
-    C(\{U_i\}) = \lim_{\to_{[n]}} U_{i_0, \cdots U_{i_n}}
-  $$ 
-
-  of a [[covering]] family $\{U_i \to c\}$ 
-  (where the colimit is the [[limit in a quasi-category|(∞,1)-categorical colimit]] or [[homotopy colimit]]) so that the above [[descent]] condition becomes 
-
-  $$
-    A(c) \simeq PSh(\lim_\to U_\cdots, A)
-   \simeq
-    \lim_{\leftarrow} A(U_\cdots)
-   =
-   \lim_{\leftarrow}
-   \left(
-      \cdots
-      \stackrel{\to}{\stackrel{\to}{\to}}
-      \prod_{i,j} A(U_i) \times_{A(c)} A(U_j) 
-      \stackrel{\to}{\to}\prod_i A(U_i)
-   \right)
-   \,.
-  $$
 
 =--
 
 This is [[Higher Topos Theory|HTT, def. 6.2.2.6]].
 
-An $(\infty,1)$-category of $(\infty,1)$-sheaves is an [[(∞,1)-topos]].
+An $(\infty,1)$-category of $(\infty,1)$-sheaves is an **[[(∞,1)-topos]]**.
+
++-- {: .num_remark}
+###### Remark
+
+Equivalence (eq:DescentCondition) is the _[[descent]]_ condition and the presheaves satisfying it are the **[[(∞,1)-sheaves]]** .
+  
+Typically $U$ here is the [[Cech nerve]] 
+
+$$
+  C(\{U_i\}) = \lim_{\to_{[n]}} U_{i_0, \cdots U_{i_n}}
+$$ 
+
+of a [[covering]] family $\{U_i \to c\}$ 
+(where the colimit is the [[limit in a quasi-category|(∞,1)-categorical colimit]] or [[homotopy colimit]]) so that the above [[descent]] condition becomes 
+
+$$
+  A(c) \simeq PSh(\lim_\to U_\cdots, A)
+ \simeq
+  \lim_{\leftarrow} A(U_\cdots)
+ =
+ \lim_{\leftarrow}
+ \left(
+    \cdots
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    \prod_{i,j} A(U_i) \times_{A(c)} A(U_j) 
+    \stackrel{\to}{\to}\prod_i A(U_i)
+ \right)
+ \,.
+$$
+
+=--
 
 
 ## Terminology
 
-Sometimes [[(∞,1)-sheaves]] are called **[[∞-stack]]**s, though sometimes the latter term is reserved for [[hypercomplete]] $(\infty,1)$-sheaves.
+Sometimes [[(∞,1)-sheaves]] are called **[[∞-stacks]]**, though sometimes the latter term is reserved for [[hypercomplete]] $(\infty,1)$-sheaves.
 
 The [[(n,1)-category|(n,1)-categorical]] counting is
 
@@ -102,12 +107,12 @@ The [[(n,1)-category|(n,1)-categorical]] counting is
 
 ### Localizations and Grothendieck topology {#LocAndTopology}
 
-We reproduce the proof that the two definitions above really are equivalent.
+We reproduce the proof that the two characterization in def. \ref{CategoryOfSheaves} above are indeed equivalent.
  
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
-For $C$ an [[(∞,1)-site]], the full [[sub-(∞,1)-category]] of $PSh(C)$ on [[local object]]s with respect to the covering monomorphisms in $PSh(C)$ is indeed a [[topological localization]], and hence $Sh(C)$ is indeed an exact [[reflective sub-(∞,1)-category]] of $PSh(C)$ and hence an [[(∞,1)-topos]]. 
+For $C$ an [[(∞,1)-site]], the full [[sub-(∞,1)-category]] of $PSh(C)$ on [[local objects]] with respect to the covering monomorphisms in $PSh(C)$ is indeed a [[topological localization]], and hence $Sh(C)$ is indeed an exact [[reflective sub-(∞,1)-category]] of $PSh(C)$ and hence an [[(∞,1)-topos]]. 
 
 =--
 
@@ -116,13 +121,14 @@ This is [[Higher Topos Theory|HTT, Prop. 6.2.2.7]]
 +-- {: .proof}
 ###### Proof sketch (in progress...)
 
-We must prove that the sheafification functor $L:PSh(C)\to Sh(C)$ preserves finite limits. To do so we give an explicit construction of $L$. Given a presheaf $F\in PSh(C)$, define a new presheaf $F^+$ by the formula
+We must prove that the [[(∞,1)-sheafification]] functor $L \colon PSh(C)\to Sh(C)$ preserves [[finite (∞,1)-limits]]. To do so we give an explicit construction of $L$. Given a presheaf $F\in PSh(C)$, define a new presheaf $F^+$ by the formula
 
 $$F^+(c)={\lim_{\rightarrow}}_U {\lim_{\leftarrow}}_{u\in U} F(u)$$
 
-where the colimit is taken over all covering sieves $U$ of $c$; this is called the _plus construction_. It defines a functor $PSh(C)\to PSh(C)$ and there is an obvious morphism $F\to F^+$ natural in $F$.
+where the colimit is taken over all covering sieves $U$ of $c$; this is called the _[[plus construction]]_. It defines a functor $PSh(C)\to PSh(C)$ and there is an obvious morphism $F\to F^+$ natural in $F$.
 
-It is clear that the construction $F\mapsto F^+$ preserves finite limits, since filtered colimits do, and it is easy to see that the map $F\to F^+$ becomes an equivalence in $Sh(C)$. Given an ordinal $\alpha$, let $F^{(\alpha)}$ be the $\alpha$-iteration of the plus construction applied to the presheaf $F$. Then the functor $F\mapsto F^{(\alpha)}$ preserves finite limits and the canonical map $F\to F^{(\alpha)}$ becomes an equivalence in $Sh(C)$. In particular, if $F^{(\alpha)}$ is a sheaf, then $F^{(\alpha)}\simeq L(F)$. Thus, it suffices to show that there exists an ordinal $\alpha$ such that, for every $F\in PSh(C)$, $F^{(\alpha)}$ is a sheaf.
+It is clear that the construction $F\mapsto F^+$ preserves 
+[[finite (∞,1)-limits]], since [[filtered (∞,1)-colimits]] do, and it is easy to see that the map $F\to F^+$ becomes an [[equivalence in an (∞,1)-category|equivalence]] in $Sh(C)$. Given an [[ordinal]] $\alpha$, let $F^{(\alpha)}$ be the $\alpha$-iteration of the [[plus construction]] applied to the presheaf $F$. Then the functor $F\mapsto F^{(\alpha)}$ preserves finite limits and the canonical map $F\to F^{(\alpha)}$ becomes an equivalence in $Sh(C)$. In particular, if $F^{(\alpha)}$ is a sheaf, then $F^{(\alpha)}\simeq L(F)$. Thus, it suffices to show that there exists an ordinal $\alpha$ such that, for every $F\in PSh(C)$, $F^{(\alpha)}$ is a sheaf.
 
 Fix $c\in C$ and a covering sieve $U$ of $C$. Given a presheaf $G\in PSh(C/c)$, we define an auxiliary presheaf $Match(U,G)\in PSh(C/c)$ by the formula
 
@@ -160,7 +166,7 @@ This _almost_ means that $F^{(\omega)}$ is a sheaf. The problem is that the filt
 
 $$ {\lim_{\rightarrow}}_{\alpha \lt \omega} Match(U,F^{(\alpha)}|_{C/c})(c) \to \Match(U,F^{(\omega)}|_{C/c})(c) $$
 
-need not be an equivalence. To solve this problem, we choose a cardinal $\kappa$ such that for every $c\in C$ and every covering sieve $U$ of $c$, the functor $Match(U,(-)|_{C/c})(c):Psh(C)\to \infty Grpd$ preserves $\kappa$-filtered colimits. This is possible because $C$ is small and each of these functors, being the composition of the restriction functor $PSh(C)\to PSh(U)$ and the limit functor $PSh(U)\to\infty Grpd$, has a left adjoint and is therefore accessible (see [[HTT|HTT Prop. 5.4.7.7]]). Then the above map with $\omega$ replaced by $\kappa$ is an equivalence. For every ordinal $\alpha\lt\kappa$, applying the above to $F^{(\alpha)}$ shows that
+need not be an equivalence. To solve this problem, we choose a cardinal $\kappa$ such that for every $c\in C$ and every covering sieve $U$ of $c$, the functor $Match(U,(-)|_{C/c})(c):Psh(C)\to \infty Grpd$ preserves $\kappa$-filtered colimits. This is possible because $C$ is small and each of these functors, being the composition of the restriction functor $PSh(C)\to PSh(U)$ and the limit functor $PSh(U)\to\infty Grpd$, has a [[left adjoint|left]] [[adjoint (∞,1)-functor]] and is therefore accessible (see [[HTT|HTT Prop. 5.4.7.7]]). Then the above map with $\omega$ replaced by $\kappa$ is an equivalence. For every ordinal $\alpha\lt\kappa$, applying the above to $F^{(\alpha)}$ shows that
 
 $$ F^{(\alpha+\omega)}(c)\stackrel{\sim}{\to} {\lim_{\rightarrow}}_{n\to\infty} Match(U,F^{(\alpha+n)}|_{C/c})(c),$$
 
@@ -170,7 +176,7 @@ Since $\kappa$ is a limit ordinal, we deduce that $F^{(\kappa)}$ is a sheaf by c
 
 And conversely:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(equivalence of site structures and categories of sheaves)**
 
@@ -180,7 +186,7 @@ For $C$ a [[small (∞,1)-category]], there is a bijective correspondence betwee
 
 This is [[Higher Topos Theory|HTT, prop. 6.2.2.9]].
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 For $C$ a small [[(∞,1)-site]] and $Sh(C) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} PSh(C)$ the corressponding reflective inclusion of [[(∞,1)-sheaves]] into [[(∞,1)-presheaves]] on $C$ we have that the image under $L$ of a sub-$(\infty,1)$-functor  $p : U \to j(c)$ of a [[representable functor|representable]] $j(c)$ is covering precisely if $L(p)$ is an equivalence.
@@ -286,7 +292,7 @@ So far this establishes that evry topological localization of $PSh(C)$ is a loca
 
 We discuss how $(\infty,1)$-sheaves over a [[paracompact topological space]] are equivalent to topological spaces [[overcategory|over]] $X$. This the analogue of the 1-categorical statement that [[sheaves]] on $X$ are equivalent to [[etale space]]s over $X$: an etale space over $X$ is one whose [[fiber]]s are [[discrete topological space]], hence 0-[[truncated]] spaces. Then [[n-category]] analogy has [[homotopy n-type]]s as fibers. 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $Y \to X$ a [[morphism]] in [[Top]], and $U \in Op(X)$ an [[open subset]] of $X$, write
@@ -313,7 +319,7 @@ form $U$ times the topological $k$-[[simplex]] $\Delta^k$ into $Y$, that are [[s
 
 This is a relative version of the [[singular simplicial complex]] functor.
 
-+-- {: .un_prop #OverTopModelStructure}
++-- {: .num_prop #OverTopModelStructure}
 ###### Proposition
 
 Let $(X, \mathcal{B})$ be a [[topological space]] equipped with a [[base for the topology]] $\mathcal{B}$.
@@ -326,7 +332,7 @@ This is [[Higher Topos Theory|HTT, prop 7.1.2.1]].
 
 Write $(Top/X)^\circ$ for the [[(∞,1)-category]] [[locally presentable (∞,1)-category|presented]] by this model structure.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $X$ be a [[paracompact topological space]] and write as usual $Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))$ for the $(\infty,1)$-category of $(\infty,1)$-sheaves on the [[category of open subsets]] of $X$; equipped with the canonical structure of a [[site]].
@@ -363,7 +369,7 @@ See [[Higher Topos Theory|HTT, item 1) of section 6.5.4]].
 For $X,Y$ two $(\infty,1)$-toposes, write $Geom(X,Y) \subset Func(X,Y)$ for the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that are [[geometric morphism]]s.
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 For $C$ an [[essentially small (∞,1)-category|small]] [[(n,1)-category]] equipped with the structure of an [[(∞,1)-site]] and for $Y$ an [[(∞,1)-topos]], the [[truncated|truncation functor]]
@@ -387,7 +393,7 @@ See also [[n-localic (∞,1)-topos]].
 #### Compact generation
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $X$ be a [[coherent topological space]] and let $Op(X)$ be its [[category of open subsets]] with the standard structure of an [[(∞,1)-site]].
@@ -436,7 +442,7 @@ $$
   \,.
 $$
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 If $X$ is a [[paracompact space]], then these two definitins of [[nonabelian cohomology]] of $X$ with [[constant ∞-stack|constant coefficients]] $A \in \infty Grpd$ agree:
