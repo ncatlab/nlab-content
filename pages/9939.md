@@ -208,7 +208,7 @@ For $p$ a [[prime number]] write $\mathbb{Z}_{(p)}$ for the  [[localization of a
 +-- {: .num_example #pLocalization}
 ###### Example
 
-The Bousfiled localization at the [[Moore spectrum]] $S \mathbb{Z}_{(p)}$ is [[p-localization]]. 
+The Bousfield localization at the [[Moore spectrum]] $S \mathbb{Z}_{(p)}$ is [[p-localization]]. 
 
 =--
 
