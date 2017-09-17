@@ -27,7 +27,7 @@ The correct notions of _[[regular 2-category|regularity]] and [[exact 2-category
 
 One way to express the idea is that in an [[n-category]], every [[object]] is [[internal logic|internally]] a $(n-1)$-category; exactness says that conversely every "internal $(n-1)$-category" is represented by an object.  When $n=1$, an "internal 0-category" means an internal _equivalence relation_; thus exactness for 1-categories says that every equivalence relation is a kernel (i.e. is represented by some object).  Thus, we need to find a good notion of "[[internal category|internal 1-category]]" in a 2-category.
 
-Of course, there is an obvious notion of an internal category in a 2-category, as a straightforward generalization of [[internal category|internal categories]] in a 1-category.  But internal categories in [[Cat]] are [[double category|double categories]], so we need to somehow cut down the double categories to those that really represent honest 1-categories.  These are the _2-congruences_.
+Of course, there is an obvious notion of an internal category in a 2-category, as a straightforward generalization of [[internal category|internal categories]] in a 1-category.  But internal categories in [[Cat]] are [[double categories]], so we need to somehow cut down the [[double categories]] to those that really represent honest [[1-categories]].  These are the _2-congruences_.
 
 
 ## Definition 
@@ -106,26 +106,35 @@ Actually, homwise-discreteness is not necessary for this result, but we include 
 
 +--{: .proof}
 ###### Proof
-We consider the case $K=Cat$; the general case follows because all the notions are defined representably.   A homwise-discrete category in $Cat$ is, essentially, a double category whose horizontal 2-category is homwise-discrete (hence equivalent to a 1-category).  We say "essentially" because the pullbacks and diagrams only commute up to isomorphism, but up to equivalence we may replace $D_1\to D_0\times D_0$ by an [[nLab:isofibration|isofibration]], obtaining a (pseudo) double category in the usual sense.  Now the key is to compare both properties to a third: the existence of a [[nLab:companion pair|companion]] for any vertical arrow.
+We consider the case $K=Cat$; the general case follows because all the notions are defined representably.   A homwise-discrete category in $Cat$ is, essentially, a [[double category]] whose horizontal 2-category is homwise-discrete (hence equivalent to a [[1-category]]).  We say "essentially" because the pullbacks and diagrams only commute up to isomorphism, but up to equivalence we may replace $D_1\to D_0\times D_0$ by an [[isofibration]], obtaining a (pseudo) double category in the usual sense.  Now the key is to compare both properties to a third: the existence of a [[companion pair|companion]] for any vertical arrow.
 
-Suppose first that $D_0 \leftarrow D_1 \to D_0$ is a two-sided fibration.  Then for any (vertical) arrow $f:x\to y$ in $D_0$ we have cartesian and opcartesian morphisms (squares) in $D_1$:
+Suppose first that $D_0 \leftarrow D_1 \to D_0$ is a two-sided fibration.  Then for any (vertical) arrow $f:x\to y$ in $D_0$ we have [[cartesian morphism|cartesian]] and [[opcartesian morphisms]] (squares) in $D_1$:
+
 \[
-\array{x & \overset{id}{\to} & x & \qquad &
-  x & \overset{f_1}{\to} & y' \\
-  \cong \downarrow & opcart & \downarrow f & \qquad &
-  f \downarrow & cart & \downarrow \cong\\
-  x' & \overset{f_2}{\to} & y & \qquad &
-  y & \overset{id}{\to} & y}
+  \array{
+     x & \overset{id}{\to} & x 
+       & \qquad  &
+     x & \overset{f_1}{\to} & y' 
+     \\
+      {}^{\mathllap{\cong}}\downarrow & opcart &  \downarrow^{\mathrlap{f}} 
+       & \qquad  &
+     {}^{\mathllap{f}}\downarrow & cart &  \downarrow^{\mathrlap{\cong}}
+     \\
+     x' & \overset{f_2}{\to} & y 
+      & \qquad &
+    y & \overset{id}{\to} & y
+  }
 \]
+
 The vertical arrows marked as isomorphisms are so by one of the axioms for a two-sided fibration.  Moreover, the final compatibility axiom for a 2-sided fibration says that the square
 \[
 \array{ x & \overset{f_1}{\to} & y'\\
   \cong \downarrow & & \downarrow\cong \\
   x' & \overset{f_2}{\to} & y,}
 \]
-induced by factoring the horizontal identity square of $f$ through these cartesian and opcartesian squares, must be an isomorphism.  We can then show that $f_1$ (or equivalently $f_2$) is a companion for $f$ just as in Theorem 4.1 [here][#Shulman07].  Conversely, from a companion pair we can show that $D_0 \leftarrow D_1 \to D_0$ is a two-sided fibration just as as in [loc cit][#Shulman07].
+induced by factoring the horizontal identity square of $f$ through these cartesian and opcartesian squares, must be an isomorphism.  We can then show that $f_1$ (or equivalently $f_2$) is a [[companion pair|companion]] for $f$ just as in ([Shulman 07, theorem 4.1](#Shulman07)).  Conversely, from a [[companion pair]] we can show that $D_0 \leftarrow D_1 \to D_0$ is a two-sided fibration just as as in [loc cit](#Shulman07).
 
-The equivalence between the existence of companions and the existence of a functor from the kernel of $D_0$ is essentially found in ([Fiore 06][#Fiore06]), although stated only for the "edge-symmetric" case.  In their language, a kernel $ker(A)$ is the double category $\Box A$ of commutative squares in $A$, and a functor $ker(D_0)\to D$ which is the identity on $D_0$ is a _thin structure_ on $D$.  In one direction, clearly $ker(D_0)$ has companions, and this property is preserved by any functor $ker(D_0)\to D$.  In the other direction, sending any vertical arrow to its horizontal companion is easily checked to define a functor $ker(D_0)\to D$.
+The equivalence between the existence of companions and the existence of a functor from the kernel of $D_0$ is essentially found in ([Fiore 06](#Fiore06)), although stated only for the "edge-symmetric" case.  In their language, a kernel $ker(A)$ is the double category $\Box A$ of commutative squares in $A$, and a functor $ker(D_0)\to D$ which is the identity on $D_0$ is a _thin structure_ on $D$.  In one direction, clearly $ker(D_0)$ has companions, and this property is preserved by any functor $ker(D_0)\to D$.  In the other direction, sending any vertical arrow to its horizontal companion is easily checked to define a functor $ker(D_0)\to D$.
 
 =--
 
@@ -217,10 +226,11 @@ The opposite of a homwise-discrete category is again a homwise-discrete category
 ### In $Grpd$
  {#ExamplesInGrpd}
 
+> Under construction.
+
 Let $K :=$ [[Grpd]] be the 2-category of [[groupoids]].
 
-+--{: .num_prop}
-###### Proposition
+We would like to see that the following statement is true:
 
 The [[2-category]] of 2-congruences in $Grpd$ is [[equivalence of 2-categories|equivalent]] to the 2-category [[Cat]] of [[small categories]].
 
@@ -231,10 +241,7 @@ $$
   \,.
 $$
 
-=--
-
-+--{: .proof}
-###### Proof
+Let's check:
 
 For $C$ a [[small category]], construct a 2-congruence $\mathbb{C}$ in $Grpd$ as follows.
 
@@ -255,7 +262,7 @@ $$
 
 (Here we are using the canonical embedding $\Delta \hookrightarrow Cat$ of the [[simplex category]].)
 
-This is clearly a [[faithful functor]]. Moreover, every morphism in [[Grpd]] is trivially a [[conservative morphism]]. Therefore $\mathbb{C}$ is a hom-wise discrete category internal to $Grpd$.
+This is clearly a [[faithful functor]]. Moreover, every morphism in [[Grpd]] is trivially a [[conservative morphism]]. So $\mathbb{C}_1 \to \mathbb{C}_0 \times \mathbb{C}_0$ is a [[discrete morphism]] in [[Grpd]]. 
 
 Since [[Grpd]] is a [[(2,1)-category]], the [[2-pullbacks]] in [[Grpd]] are [[homotopy pullbacks]]. Using that $(s,t)$ is (under the [[right adjoint]] [[nerve]] embedding $N : Grpd \hookrightarrow sSet$) a [[Kan fibration]] (by direct inspection, but also as a special case of standard facts about the [[model structure on simplicial sets]]), the object of composable morphisms is found to be 
 
@@ -279,6 +286,9 @@ $$
   \,.
 $$
 
+This is clearly [[associativity|associative]] and [[unitality|unital]] and hence makes $\mathbb{C}$ a hom-wise discrete category, def. \ref{HomWiseDiscreteInternalCategory}, internal to $Grpd$.
+
+
 Observe next (for instance using the discussion and examples at [[homotopy pullback]], see also _[[path object]]_) that 
 
 $$
@@ -287,7 +297,9 @@ $$
   \,.
 $$
 
-Therefore there is an evident [[internal functor]] $ker(\mathbb{C}_0) \to \mathbb{C}$ given by the inclusion
+Notice that up to [[equivalence of categories|equivalence of groupoids]], this is just the [[diagonal]] $\Delta : \mathbb{C}_0 \to \mathbb{C}_0 \times \mathbb{C}_0$.
+
+Therefore there is an evident [[internal functor]] $ker(\mathbb{C}_0) \to \mathbb{C}$, which on the first equivalent incarnation of $ker(\mathbb{C}_0)$ given by the inclusion
 
 $$
   ker(\mathbb{C}_0) 
@@ -297,25 +309,18 @@ $$
   Core(C)^{\Delta[1]} 
   \hookrightarrow 
   Core(C^{\Delta[1]})
-  \,.
+  \,,
 $$
 
+but which in the second version above simply reproduces the [[identity-assigning morphism]] of the internal category $\mathbb{C}$.
 
-It follows that $\mathbb{C}$ is indeed a 2-congruence.
+It follows that $\mathbb{C}$ is indeed a 2-congruence, def. \ref{2Congruence}.
 
 Conversely, given a 2-congruence $\mathbb{C}$ in $Grpd$, define a category $C$ as follows:
 
-* the objects of $C$ are those of the groupoid $\mathbb{C}_0$;
-
-* the morphisms of $C$ are the objects of the groupoid $\mathbb{C}_1$;
-
-* the composition map in $C$ is the object part of the composition functor in $\mathbb{C}$.
-
-One checks that these two constructions yield a pair of 2-functors that exhibit the desired [[equivalence of 2-categories]].
 
 (...)
 
-=--
 
 +--{: .num_remark}
 ###### Remark
