@@ -312,6 +312,8 @@ There are important standard functors from $\Delta$ to other categories which _[
 
   * [[cell category]]
 
+  * [[Segal's category]]
+
 * [[simplicial set]]
 
 * [[augmented simplicial set]]
