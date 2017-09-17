@@ -203,9 +203,11 @@ and we have
 
 ### Spectral sequence of a filtered complex
 
-(...)
+_Included from [[spectral sequence of a filtered complex|this page]]._
 
-[[filtered complex]]
+[[!include spectral sequence of a filtered complex]]
+
+_End of inclusion_
 
 #### Spectral sequence of a double complex
 
@@ -214,6 +216,7 @@ A [[double complex]] is naturally filtered in two ways: by columns and by rows. 
 (...)
 
 ### Exact couples
+{: #exact_couples}
 
 An exact couple is an exact sequence of three arrows among two objects
 
