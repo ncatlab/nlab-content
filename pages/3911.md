@@ -124,11 +124,15 @@ $$
 taking values in the coefficients of the given cohomology theory. Note that in this case $\Sigma^n B_+=S^n$, and this hints to a relationship between the Thom-Pontryagin construction and [[Spanier-Whitehead duality]]. And indeed [[Atiyah duality]] gives a homotopy equivalence between the [[Thom spectrum]] of the stable normal bundle of $E$ and the Spanier-Whitehead dual of $E$.
 ...
 
-### In ordinary differential cohomology
+### In differential cohomology
 
 See
 
-* [[fiber integration in ordinary differential cohomology]]
+* [[fiber integration in differential cohomology]]
+
+  * [[fiber integration in ordinary differential cohomology]]
+
+  * [[fiber integration in differential K-theory]]
 
 ## References
 
