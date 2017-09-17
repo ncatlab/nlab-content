@@ -82,29 +82,16 @@ is an isomorphism.  Moreover, by considering colimits of the Yoneda embedding $B
 $$ \int^{a\in A} C(u(a),c) \times B(b,f(a)) \to D(v(b), g(c)) $$
 is an isomorphism.
 
-So far, this argument works to describe the exact squares in arbitrary [[enriched categories]], or more generally in any [[2-category equipped with proarrows]] where we have a sensible notion of profunctor that describes to the notion of pointwise Kan extension under consideration.  However, in the Set-based case, we can go further.  Given the construction of coequalizers in [[Set]], the above condition means that
-
-1. For any morphism $\varphi\colon v(b) \to g(c)$ in $D$, there exists an $a\in A$ and morphisms $\alpha\colon u(a) \to c$ and $\beta\colon b\to f(a)$ such that $g(\alpha) \circ v(\beta) = \varphi$, and
-
-2. For any $(a,\alpha,\beta)$ and $(a',\alpha',\beta')$ as above with $g(\alpha) \circ v(\beta) = g(\alpha') \circ v(\beta')$, there is a [[zigzag]] of arrows connecting $a$ to $a'$ and rendering the evident zigzag of triangles commutative.
-
-
-+-- {: .query}
-The condition above seems wrong, one symptom being that it does not mention the 2-cell $v f \to g u$ at all. If so, a few things below are probably also wrong. Here is a tentative corrected version:
-
-[...] the above condition means that, calling $\psi \colon g u \to v f$ the given 2-cell, we have
+So far, this argument works to describe the exact squares in arbitrary [[enriched categories]], or more generally in any [[2-category equipped with proarrows]] where we have a sensible notion of profunctor that describes to the notion of pointwise Kan extension under consideration.  However, in the Set-based case, we can go further.  Given the construction of coequalizers in [[Set]], the above condition means that, calling $\psi \colon g u \to v f$ the given 2-cell, we have
 
 1. For any morphism $\varphi\colon v(b) \to g(c)$ in $D$, there exists an $a\in A$ and morphisms $\alpha\colon u(a) \to c$ and $\beta\colon b\to f(a)$ such that $g(\alpha) \circ \psi_a \circ v(\beta) = \varphi$, and
 
 2. For any $(a,\alpha,\beta)$ and $(a',\alpha',\beta')$ as above with $g(\alpha) \circ \psi_a \circ v(\beta) = g(\alpha') \circ \psi_{a'} \circ v(\beta')$, there is a [[zigzag]] of arrows connecting $a$ to $a'$ and rendering the evident induced diagram commutative.
 
 
-=--
-
-
 We can state this equivalently as follows.  Given $b\in B$ and $c\in C$, define $(b/A/c)$ to be the category whose objects are triples $(a,\alpha,\beta)$ with $\alpha\colon u(a) \to c$ and $\beta\colon b\to f(a)$, and whose morphisms are morphisms $a\to a'$ making two triangles commute.  There is a functor
 $$(b/A/c) \to D(v(b),g(c))$$
-(considering the latter [[homset]] as a [[discrete category]]) which sends $(a,\alpha,\beta)$ to the composite $g(\alpha) \circ v(\beta)$, and the square is exact just when this functor is a bijection on [[connected component]]s.
+(considering the latter [[homset]] as a [[discrete category]]) which sends $(a,\alpha,\beta)$ to the composite $g(\alpha) \circ \psi_a \circ v(\beta)$, and the square is exact just when this functor is a bijection on [[connected component]]s.
 
 #### Examples
 
