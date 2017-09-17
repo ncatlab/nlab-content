@@ -437,7 +437,7 @@ for all $x, y, z$ in $X$. (The associativity and identity axioms are here superf
 
 $$d_X(x, y) \geq d_Y(f(x), f(y))$$ 
 
-for all $x, y$ in $X$ (again, preservation of composition and of identities is superfluous here), so that $V$-functors are [[short maps]] between vector spaces (Lipschitz maps with constant at most $1$). Finally, a $V$-enriched transformation $f \to g: X \to Y$ in this case boils down to an instance of a property: that 
+for all $x, y$ in $X$ (again, preservation of composition and of identities is superfluous here), so that $V$-functors are [[short maps]] between metric spaces (Lipschitz maps with constant at most $1$). Finally, a $V$-enriched transformation $f \to g: X \to Y$ in this case boils down to an instance of a property: that 
 
 $$0 \geq d_Y(f(x), g(x))$$ 
 
