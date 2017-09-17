@@ -184,6 +184,9 @@ Factorization algebras have some similarity with
 
 * [[chiral algebra]], [[vertex operator algebra]]
 
+* [[nonabelian Poincaré duality]]
+  
+
 [[!include Isbell duality - table]]
 
 
