@@ -129,9 +129,9 @@ $$
   \,.
 $$
 
-This is [exaple 3, page 50](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf) of
+This is [example 3, page 50](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf) of
 
-* Morel, Voevosky, _$A^1$-homtopy theory of schemes_ ([pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
+* [[F. Morel]], [[V. Voevodsky]], _$A^1$-homotopy theory of schemes_ ([pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
 
 
 ## In more general model categories
