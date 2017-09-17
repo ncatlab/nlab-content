@@ -21,3 +21,10 @@ In slightly more detail, a finite simple group is one of the following
 The original 'proof' fills 500 journal articles. An updated, self-contained proof is in the process of being written, and it is estimated that it will be 5000 pages long. As of 2008 six volumes had been published, out of an expected 11.
 
 For now see the [Wikipedia page](http://en.wikipedia.org/wiki/Classification_of_finite_simple_groups).
+
+An original conceptual insight into the classification
+of finite groups from the point of algebraic geometry (involving embeddings into algebraic groups) has been recently achieved in an [award](http://newsinfo.iu.edu/news/page/normal/23661.html)-winning article
+
+* Michael J. Larsen, Richard Pink, _Finite subgroups of algebraic groups_, J. Amer. Math. Soc. 24 (2011), 1105-1158 [doi](http://dx.doi.org/10.1090/S0894-0347-2011-00695-4)
+
+category: algebra
