@@ -1,25 +1,21 @@
 
-
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Higher category theory
-+--{: .hide}
++-- {: .hide}
 [[!include higher category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -29,9 +25,10 @@
 
 The tools of [[category theory]] and [[higher category theory]] serve to organize other structures. There is a plethora of applications that have proven to be much more transparent when employing the [[nPOV]]. Higher category theory has helped foster entire new fields of study that would have been difficult to conceive otherwise. This page lists and discusses examples.
 
+
 ## Examples
 
-The following is a (incomplete) list of examples of topics for which the $n$POV has proven to be a useful perspective. 
+The following is a (incomplete) list of examples of topics for which higher category their has proven to be useful.
 
 
 ### In geometry
@@ -196,12 +193,3 @@ The local aspects of 2-dimensional conforma field theory are governed by [[verte
 ### In your favorite topic here
 
 ...
-
-
-category: meta
-
-[[!redirects n-point of view]]
-[[!redirects n-category point of view]]
-[[!redirects n-categorial point of view]]
-[[!redirects n-categorical point of view]]
-[[!redirects n-category-theoretic point of view]]
