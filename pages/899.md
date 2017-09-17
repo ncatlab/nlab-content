@@ -42,7 +42,7 @@ Since $f$ is a homomorphism, it follows immediately from cancellation that $f(U)
 
 $$x y^{-1} \in U \Rightarrow f(x) f(y)^{-1} = f(x y^{-1}) \in V$$ 
 
-which is to say $x \sim_U y \Rightarrow f(x) \sim_V f(y)$. Hence $f$ is uniformly continuous with respect to the left uniformities. By similar reasoning, $f$ is uniformly continuous with respect to the right uniformities.
+in other words such that $x \sim_U y \Rightarrow f(x) \sim_V f(y)$. Hence $f$ is uniformly continuous with respect to the left uniformities. By similar reasoning, $f$ is uniformly continuous with respect to the right uniformities.
 =--
 
 
