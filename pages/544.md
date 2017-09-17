@@ -157,6 +157,10 @@ Classical articles on $A_\infty$-algebra in topological spaces are
 * [[Michael Boardman]] and [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological spaces_ , Lect. Notes Math. 347 (1973).
 {#BoardmanVogt}
 
+A brief survey is in section 1.8 of
+
+* [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
+
 
 [[!redirects A-infinity-algebras]]
 [[!redirects A-infinity algebra]]
