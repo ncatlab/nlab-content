@@ -510,6 +510,25 @@ This is discussed for instance in ([Costello, section 15](#Costello)).
 
 ## Quantum Chern-Simons theory
 
+### The Reshetikhin-Turaev construction and its equivalence to geometric quantization
+ {#RTConstructionAndEquivalenceToGeometricQuantization}
+
+The [[Reshetikhin-Turaev model]] of [[3d TQFT]] had 
+traditionally been expected to be quantized Chern-Simons theory.
+A proof if this requires showing that the RT-constuction is 
+equivalent to the result of the [[geometric quantization]]
+from [above](#GeometricQuantization).
+
+The proof of this is not entirely spelled out in the literature, 
+but all the ingredients seem to be known, involving 
+results such as ([Andersen 12](#Andersen12)).
+
+For more see at _[[quantization of Chern-Simons theory]]_.
+
+See also the MathOverflow-discussion _[Why hasn't anyone proved that the two standard approaches to quantizing Chern-Simons theory are equivalent?](http://mathoverflow.net/questions/86792/why-hasnt-anyone-proved-that-the-two-standard-approaches-to-quantizing-chern-si)_.
+
+
+
 ### Observables: knot polynomials
 
 The [[Wilson line]]-[[observable]]s in quantum Chern-Simons theory are
@@ -836,7 +855,7 @@ and in section 3.3 of
 Discussion that relates the geometric quantization of $G$-Chern-Simons theory to the [[Reshetikhin-Turaev construction]] of a 3d-[[TQFT]] from the [[modular tensor category]] induced by $G$ is in 
 
 * [[Jørgen Andersen]], _A geometric formula for the Witten-Reshetikhin-Turaev Quantum Invariants and some applications_ ([arXiv:1206.2785](http://arxiv.org/abs/1206.2785))
- {#Andersen}
+ {#Andersen12}
 
 and references cited there.
 
