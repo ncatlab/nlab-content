@@ -173,6 +173,8 @@ This is [StrSp, lemma 2.6.17](#LurieStructured)
 
 * [[n-localic 2-topos]]
 
+* [[n-types cover]]
+
 
 ## References
 
