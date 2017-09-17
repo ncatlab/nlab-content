@@ -31,10 +31,8 @@ The term 'generator' is more ambiguous because of the use of 'generators' as in 
 ###### Definition
 
 An [[object]] $S \in \mathcal{C}$ of a [[category]] $\mathcal{C}$ is called a __separator__ or a __generator__ or a __separating object__ or a __generating object__, or is said to __separate morphisms__ if:
-* for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if
-  * for every morphism $e\colon S \to X$,
-  * $u \circ f = u \circ g$,
-* then $f = g$.
+
+* for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if for every morphism $e\colon S \to X$, $f\circ e = g\circ e$, then $f = g$.
 =--
 
 Assuming that $\mathcal{C}$ is [[locally small|locally small category]], we have equivalently say that $S$ is a separator if the [[hom functor]] $Hom(S,-) \colon \mathcal{C} \to $ [[Set]] is [[faithful functor|faithful]].
