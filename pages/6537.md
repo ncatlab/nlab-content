@@ -55,11 +55,18 @@
 
     * [[differential K-theory]]
 
-  * [[fivebrane]]
+  * [[NS5-brane]]
+
+    * [[Khovanov homology]]
+
+  * [[M2-brane]]
+
+    * [[ABJM theory]], [[BLG model]]
+
+  * [[M5-brane]]
 
     * [[6d (2,0)-supersymmetric QFT]]
 
-  * [[M2-brane]]
 
 ### Topological strings
 
