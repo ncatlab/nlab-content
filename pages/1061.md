@@ -1,10 +1,23 @@
-The term **pre-additive category** may be synonymous to [[Ab-enriched category]], or it may be mean an $Ab$-enriched category with a [[zero object]]. 
+# Preadditive categories
+* table of contents
+{: toc}
 
-It is used the first way for instance in section 8 of Kashiwara--Schapira: [[Categories and Sheaves]].
+## Definition
 
-#Remarks#
+A **pre-additive category** is an [[Ab-enriched category]] with a [[zero object]].
+
+
+## Terminology
+
+The term 'pre-additive category' is often used for *any* $Ab$-enriched category, for example in section 8 of Kashiwara--Schapira _[[Categories and Sheaves]]_.
+
+
+## Remarks
 
 * Pre-additive categories are part of a sequence of [[additive and abelian categories]].
 
 
 [[!redirects preadditive category]]
+[[!redirects preadditive categories]]
+[[!redirects pre-additive category]]
+[[!redirects pre-additive categories]]
