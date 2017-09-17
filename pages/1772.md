@@ -41,7 +41,7 @@ A **[[concrete site]]** is a [[site]] $C$ with a [[terminal object]] $*$ such th
 1. for every [[coverage|covering family]] $\{f_i : U_i \to U\}$ in $C$ the morphism 
 
    $$
-     \{ \coprod_i Hom_C(*,f) : \coprod_i Hom_C(*, U_i) \to Hom_C(*, U) \}
+      \coprod_i Hom_C(*,f) : \coprod_i Hom_C(*, U_i) \to Hom_C(*, U) 
    $$
 
    is [[surjective]].
@@ -54,7 +54,7 @@ $$
   \tilde F_U : F(U) \to Hom_{Set}(Hom_C(*,U), F(*)) 
 $$
 
-for the [[adjunct]] of the restricion map
+for the [[adjunct]] of the restriction map
 
 $$
   F(U) \times Hom_C(*,U) \to F(*)
@@ -132,7 +132,7 @@ on concrete sheaves is a [[quasitopos]].
 
 Categories of concrete sheaves, with special attention to sheaves on [[CartSp]], i.e. to [[diffeological space]]s, are discussed in detail in 
 
-* [[John Baez]], [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
+* [[John Baez]], [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_, to appear in Trans. Amer. Math. Soc. ([arXiv](http://arxiv.org/abs/0807.1704))
 
 [[!redirects concrete sheaves]]
 [[!redirects concrete presheaf]]
