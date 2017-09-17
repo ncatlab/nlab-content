@@ -14,3 +14,5 @@ completely positive maps. [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.p
 [[!redirects autonomous monoidal category]]
 [[!redirects autonomous category]]
 [[!redirects compact closed categories]]
+[[!redirects autonomous monoidal categories]]
+[[!redirects autonomous categories]]
