@@ -2503,14 +2503,16 @@ $$
 
 =--
 
-For $\mathfrak{g}$ an ordinary [[Lie algebra]] it is an ancient (see <a href="http://ncatlab.org/nlab/show/Chern-Weil%20theory#History">Chern-Weil theory -- history</a>) but important and simple observation that dg-algebra morphisms  $\Omega^\bullet(\Delta^k) \leftarrow CE(\mathfrak{g})$ are in natural bijection with [[Lie-algebra valued 1-form]]s that are _flat_ in that their [[curvature]] 2-forms vanish: the 1-form itself determines precisely a morphism of the underlying [[graded algebra]]s, and the respect for the differentials is exactly the flatness condition. It is this elementary but important observation that [historically](#http://ncatlab.org/nlab/show/Chern-Weil+theory#History) led [[Eli Cartan]] to [[Cartan calculus]] and the algebraic formulation of [[Chern-Weil theory]].
+For $\mathfrak{g}$ an ordinary [[Lie algebra]] it is an ancient (see <a href="http://ncatlab.org/nlab/show/Chern-Weil%20theory#History">Chern-Weil theory -- history</a>) 
+and simple but important observation that dg-algebra morphisms  $\Omega^\bullet(\Delta^k) \leftarrow CE(\mathfrak{g})$ are in natural bijection with [[Lie-algebra valued 1-form]]s that are _flat_ in that their [[curvature]] 2-forms vanish: the 1-form itself determines precisely a morphism of the underlying [[graded algebra]]s, and the respect for the differentials is exactly the flatness condition. It is this elementary but similarly important observation that [historically](#http://ncatlab.org/nlab/show/Chern-Weil+theory#History) led [[Eli Cartan]] to [[Cartan calculus]] and the algebraic formulation of [[Chern-Weil theory]].
 
 One finds that it makes good sense to generally, for $\mathfrak{g}$ any [[∞-Lie algebra]] or even [[∞-Lie algebroid]], think of $Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^k))$ as the set of [[∞-Lie algebroid valued differential forms]] whose curvature forms (generally a whole tower of them) vanishes.
 
 +-- {: .un_proposition}
 ###### Proposition
 
-Let $G$ be the [[simply-connected]] [[Lie group]] integrating $\mathfrak{g}$ according to [[Lie's three theorems]] and  $\mathbf{B}G \in [CartSp^{op}, Grpd]$ its [[delooping]] [[Lie groupoid]] regarded as a [[groupoid]]-valued [[presheaf]] on [[CartSp]]. Write $\tau_1(-)$ for the operation that quotients out 2-morphisms in a simplicial presheaf to obtain a presheaf of groupoids. 
+Let $G$ be the [[simply-connected]] [[Lie group]] integrating $\mathfrak{g}$ according to [[Lie's three theorems]] and  $\mathbf{B}G \in [CartSp^{op}, Grpd]$ its [[delooping]] [[Lie groupoid]] regarded as a [[groupoid]]-valued [[presheaf]] on [[CartSp]]. Write $\tau_1(-)$ for the 
+[[truncated|truncation]] operation that quotients out [[2-morphism]]s in a simplicial presheaf to obtain a presheaf of groupoids. 
 
 We have an [[isomorphism]]
 
@@ -2598,7 +2600,7 @@ Precomposing this -- as indicated on the left of the diagram -- with another $\i
 
 * on each $V_i \cap V_j \cap V_k \cap V_l$ a a smooth family  $\hat g_{i j k l} : (V_i \cap V_j \cap V_k \cap V_l) \times \Delta^3 \to G$ of 3-balls interpolating between these disks.
 
-On this datat the morphism $\int_{\Delta^\bullet} \exp(\mu)$ acts by sending each 3-cell to the number
+On this data the morphism $\int_{\Delta^\bullet} \exp(\mu)$ acts by sending each 3-cell to the number
 
 $$
   \hat g_{i j k l} \mapsto \int_{\Delta^3} \hat g_{i j k l}^* \mu
@@ -2621,7 +2623,9 @@ The [[Cech cohomology]] cocycle obtained this way is the first [[Pontryagin clas
 
 This follows by observing that the composition of [[∞-anafunctor]]s as spelled out in components above is verbatim the construction of Cech cocycles for the first Pontryagin class as given in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>). We may think of this as the classifying map for the [[Chern-Simons circle 3-bundle]] corresponding to the $G$-bundle classified by $g$.
 
-These authors prove that this is indeed the claimed class by refining this $U(1)$-cocycle to [[Deligne cohomology]] and computing its [[curvature]] 4-form. As we proceed now, we will see that this refinement, too, is obtained as a composition of $\infty$-anafunctors for cocycles of bundles with connection. 
+In (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>) this was shown by refining this $U(1)$-cocycle to [[Deligne cohomology]] and computing its [[curvature]] 4-form. As we proceed now, we will see that this refinement, too, is obtained as a composition of $\infty$-anafunctors for cocycles of bundles with connection. 
+
+
 
 ### Curvature characteristics and Chern-Simons forms {#CurvCharAndCS}
 
@@ -2638,6 +2642,10 @@ $$
   & {}^{\mathllap{\nabla_{ps}}}\nearrow & \downarrow^{\mathrlap{\simeq}} 
   \\
   C(U) &\stackrel{g}{\to}& \mathbf{B}G &&& transition\;function
+  \\
+   \downarrow^{\mathrlap{\simeq}}
+  \\
+  X
   }
   \,.
 $$
@@ -2649,18 +2657,28 @@ For that purpose notice that another classical dg-algebra associated with $\math
 +-- {: .un_lemma}
 ###### Fact
 
-The [[Weil algebra]] $W(\mathfrak{g})$ is characterized by the fact that dg-algebra homomorphisms $W(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with arbitrary, not-necessarily flat, $\mathfrak{g}$-valued forms. In other words, $W(\mathfrak{g})$ is -- up to [[isomorphism]] -- [[generalized the|the]] [[free functor|free]] [[dg-algebra]] on the [[graded vector space]] $\mathfrak{g}$:
+The [[Weil algebra]] $\mathrm{W}(\mathfrak{g})$ 
+is the free dg-algebra on the graded vector space $\mathfrak{g}^*$, meaning that there is a [[natural isomorphism]] 
 
 $$
-  Hom_{dgAlg}(W(V^*), A) \simeq Hom_{Vect_\mathbb{Z}}(V^*, A)
+  \mathrm{Hom}_{\mathrm{dgAlg}}(W(\mathfrak{g}), A) \simeq \mathrm{Hom}_{\mathrm{Vect}_{\mathbb{Z}}}(\mathfrak{g}^*, A)
+  \,,
+$$
+
+which is singled out among the isomorphism class of dg-algebras with this property by the
+fact that the projection of [[graded vector space]]s $\mathfrak{g}^* \oplus \mathfrak{g}^*[1] \to \mathfrak{g}^*$
+extends to a [[dg-algebra]] homomorphism 
+
+$$
+  CE(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : i^*
   \,.
 $$
 
 =--
 
-(Notice that the other dg-algebras that we are dealing with are [[semi-free dga]]s in that only their underlying [[graded algebra]] is free, but not the differential). 
+(Notice that general the dg-algebras that we are dealing with are [[semi-free dga]]s in that only their underlying [[graded algebra]] is free, but not the differential). 
 
-The most obvious realization of the free dg-algebra on $\mathfrak{g}^*$ is $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ equipped with the differential that is precisely the degree shift isomorphism $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ extended as a [[derivation]]. This is not the Weil algebra on the nose, but is isomorphic to it. The differential of the Weil algebra on $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ is given on the unshifted generators by the sum of the CE-differential with the shift isomorphism
+The most obvious realization of the free dg-algebra on $\mathfrak{g}^*$ is $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ equipped with the differential that is precisely the degree shift isomorphism $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ extended as a [[derivation]]. This is not the Weil algebra on the nose, but is of course isomorphic to it. The differential of the Weil algebra on $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ is given on the unshifted generators by the sum of the CE-differential with the shift isomorphism
 
 $$
   d_{W(\mathfrak{g})}|_{\mathfrak{g}^*} = d_{CE(\mathfrak{g})} + \sigma
@@ -2669,25 +2687,17 @@ $$
 
 This uniquely fixes the differential on the shifted generators -- a phenomenon known (at least after mapping this to differential forms, as we discuss below) as the [[Bianchi identity]].
 
-The special property of this incarnation of the free dg-algebra on $\mathfrak{g}^*$ is that it makes the canonical dg-algebra homomorphism  
-
-$$
-  CE(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : i^*
-$$
-
-manifest as the map that is the identity on the unshifted generators and zero on the shifted generators. 
-
-Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in the fashion of $\exp(\mathfrak{g})$.
-
+Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in diagrammatic fashion.
 
 +-- {: .un_lemma}
 ###### Observation
 
-The presheaf $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ is isomorphic to
+For $G$ a [[simply connected]] [[Lie group]], the presheaf $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ is isomorphic to
 
 $$
   \mathbf{B}G_{diff}  =
   \tau_1
+  \left(
   \exp(\mathfrak{g})_{diff}
    :
    (U,[k]) \mapsto 
@@ -2704,6 +2714,7 @@ $$
         W(\mathfrak{g})
       }
     \right\} 
+    \right)
   \,
 $$
 
