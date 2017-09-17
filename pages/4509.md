@@ -1,13 +1,61 @@
-Consider a (possibly structured) category $A$ in which one has some standard notion of a chain complex and of acyclic chain complex, e.g. [[abelian category]], or [[semiabelian category]]. 
 
-Given an object $M$ in $A$ one can consider it also as a complex concentrated at zero. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+In a [[homotopical category]] $C$, a _resolution_ of an object $X$ is another object $\hat X$ equipped with a weak equivalence $\hat X \to X$ or $X \to \hat X$ such that $\hat X$ has certain nice properties that $X$ lacks.
+
+## In a model category
+
+If $C$ is a [[model category]] then the most important resolutions are _cofibrant resolutions_ and _fibrant resolutions_ .
+
+A **fibrant resolution of $X$ is a fibrant object $\hat X$ equipped with a weak equivalence into it
+
+$$
+  X \stackrel{\simeq}{\to} \hat X \to \gt *
+  \,.
+$$
+
+A **cofibrant resolution** of $X$ is a cofibrant object $\hat X$ equipped with a weak equivalence out of it
+
+$$
+  \emptyset \hookrightarow \hat X \stackrel{\simeq}{\to} X
+  \,.
+$$
+
+Notice that the factorization axioms of a [[model category]] ensure that such resolutions always exist.
+
+Of course for the notion of fibrant resolution to make sense, also the ambient structure of a [[category of fibrant objects]] works. For cofibrant resolutions a [[Waldhausen category]] does the job, etc.
+
+
+
+## In chain complexes
+
+If $C$ is a category of [[chain complex]]es in a suitable (possibly structured) [[abelian category]] or [[semiabelian category]] $A$ then one can in particular consider resolutions of ordinary objects of $A$ -- regarded as a chain complex concentrated in degree 0 - by chain complexes of $A$.
 
 A _resolution_ is an acyclic nonpositive complex $P_\cdot$ which coaugments $M$ or an acyclic nonnegative complex $I^\cdot$ which augments $M$, i.e. it is equipped with a map of complexes $P_\cdot \to M$ or a map of complexes $M\to I^\cdot$.
  
-If each object $P_n$ is a projective object then  $P_\cdot \to M$ is a projective resolution, and if each $I^n$ is an injective object then $M\to I^\cdot$ is an injective resolution. 
+If each object $P_n$ is a [[projective object]] then  $P_\cdot \to M$ is a **projective resolution** , and if each $I^n$ is an [[injective object]] then $M\to I^\cdot$ is an **injective resolution** . These are fibrant and cofibrant resolutions in the suitable [[model structure on chain complexes]].
 
 There are further generalizations like unbounded resolutions etc.
+
+[[!redirects fibrant resolution]]
+[[!redirects cofibrant resolution]]
+
 
 [[!redirects projective resolution]]
 [[!redirects injective resolution]]
 [[!redirects resolutions]]
+
