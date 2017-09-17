@@ -836,11 +836,13 @@ More discussion of this is in
 
 * {#WittenJeffrey} [[Edward Witten]] (lecture notes by Lisa Jeffrey), _New results in Chern-Simons theory_, pages 81 onwards  in: [[Simon Donaldson]], C. Thomas (eds.) _Geometry of low dimensional manifolds 2: Symplectic manifolds and Jones-Witten theory_ (1989) ([pdf](http://cs5538.userapi.com/u11728334/docs/06f79688de6f/S_K_Donaldson_Geometry_of_LowDimensional_Ma.pdf))
  
-
 * {#AxelrodPietraWitten91} [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. 33 (1991), 787-902.  ([EUCLID](http://projecteuclid.org/euclid.jdg/1214446565))
  
-
 * [[Scott Axelrod]], _Geometric Quantization of Chern-Simons Gauge Theory_ PhD thesis (1991)
+
+and for the generalization to [[complex Lie groups]] in 
+
+* [[Edward Witten]], _Quantization of Chern-Simons gauge theory with complex gauge group_, Comm. Math. Phys. Volume 137, Number 1 (1991), 29-66. ([Euclid](http://projecteuclid.org/euclid.cmp/1104202513))
 
 The role of the [[metaplectic correction]] is studied in some detail in 
 
