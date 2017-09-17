@@ -70,3 +70,5 @@ Discussion specifically for [[fermions]] is in
 
 [[!redirects worldline theory]]
 
+[[!redirects worldline method]]
+[[!redirects worldline methods]]
