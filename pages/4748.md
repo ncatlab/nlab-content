@@ -129,7 +129,7 @@ $$
 
 ## In terms of parallel transport $n$-functors on $n$-paths
 
-At least in low categorical dimension one has the definition of the [[path n-groupoid]] $\mathbf{P}_n(X)$ of a smooth manifold, whose $n$-morphisms are [[thin-homotopy]]-classes of smooth functions $[0,1]^n \to X$. Parallel $n$-transport with only the $(n+1)$-curvature form possibly nontrivial and all the lower curvature degree 1- to $n$-forms nontrivial may be expressed in terms of smooth $n$-functors out of $\mathbf{P}_n$ ([SWI](#SWI), [SWII](#SWII), [MartinsPickenI](#MartinsPickenI), [MartinsPickenII](#MartinsPickenII)).
+At least in low categorical dimension one has the definition of the [[path n-groupoid]] $\mathbf{P}_n(X)$ of a smooth manifold, whose $n$-morphisms are [[thin homotopy]]-classes of smooth functions $[0,1]^n \to X$. Parallel $n$-transport with only the $(n+1)$-curvature form possibly nontrivial and all the lower curvature degree 1- to $n$-forms nontrivial may be expressed in terms of smooth $n$-functors out of $\mathbf{P}_n$ ([SWI](#SWI), [SWII](#SWII), [MartinsPickenI](#MartinsPickenI), [MartinsPickenII](#MartinsPickenII)).
 
 
 We work now concretely in the category $2DiffeoGrpd$ of [[2-groupoid]]s [[internalization|internal to]] the category of [[diffeological space]]s.
@@ -192,7 +192,7 @@ Using this we obtain a smooth function
 $$
   F_\Gamma : 
   \mathbb{R}^2 \stackrel{\Sigma_{\mathbb{R}}}{\to}
-  2Mor \mathbf{P}_2(\mathbb{R})
+  2Mor \mathbf{P}_2(\mathbb{R}^2)
   \stackrel{\Gamma_*}{\to}
   2Mor \mathbf{P}_2(\mathbb{X})
   \stackrel{F}{\to}
