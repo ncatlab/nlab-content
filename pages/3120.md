@@ -87,6 +87,8 @@ An [[(∞,1)-adjunction]] $(L \dashv R) \colon \mathcal{C} \leftrightarrow \math
 
 * [[monad]] / [[2-monad]]/ [[doctrine]] / **$(\infty,1)$-monad**
 
+  * [[idempotent (∞,1)-monad]]
+
   * [[modal type theory]]
 
 * [[operad]] / [[(∞,1)-operad]]
