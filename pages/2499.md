@@ -473,6 +473,8 @@ The analog of the gauge parameter is now $\epsilon$ in the decomposition
 $$
   \Omega^\bullet(U \times \Delta^{0|1}) 
   \leftarrow
+  CE(\mathfrak{g})
+  : 
   A_U + \epsilon \wedge d \theta
 $$
 
@@ -485,11 +487,11 @@ $$
 for possibly shifted transformations, and the horizontality condition
 
 $$
-  \frac{d}{d \theta} A_U = \nabla \epsion
+  \frac{d}{d \theta} A_U = \nabla \epsilon
   \,.
 $$
 
-This is the _rheonomy constraint_ . (Or -- more generally -- the constraint called such is the condition that $(F_A)_\theta$ is an algebraic expression in the $(F_A)|_{T U}$).
+This is the _rheonomy constraint_ . (Or -- more generally -- the constraint called such is the condition that $(F_A)_\theta$ is an algebraic expression in the $(F_A)|_{T U}$, see around (III.3.30)).
 
 
 ## Dynamics
