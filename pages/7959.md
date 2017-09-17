@@ -120,6 +120,8 @@ See for instance ([MRS 09](#MRS09)) and citations given there.
 
 Technical surveys on particle physics string phenomenology include
 
+* {#DouglasEtAl07} [[Michael Douglas]] et. al. (eds.), _[[String theory and the real world]]_, Les Houches  Session LXXXVII 2007
+
 * Hans Peter Nilles, _String phenomenology_ (2004) ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/1204desy.pdf))
 
 * Tatsuo Kobayashi, _String phenomenology_ ([pdf](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf))
