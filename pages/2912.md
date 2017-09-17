@@ -3,7 +3,7 @@
 
 ''On Sunday, 4 August, 2013, Daniel M. Kan died peacefully at his home in Newton, MA, surrounded by his family. It was his 86th birthday. There was a small burial service Monday afternoon.''
 
-''Dan received his Ph.D in 1955, and after short-term positions at Columbia, Princeton, and Hebrew University, he joined the Department of Mathematics at MIT in 1959, where he remained until his retirement in 1993. Dan continued to do mathematics until the last week of his life.""
+''Dan received his Ph.D in 1955, and after short-term positions at Columbia, Princeton, and Hebrew University, he joined the Department of Mathematics at MIT in 1959, where he remained until his retirement in 1993. Dan continued to do mathematics until the last week of his life."
 
 ''In his long career, Dan published more than 70 papers with 15 coauthors. His lifelong mathematical pursuit was abstract homotopy theory, and many of his ideas were so natural and flexible that they quickly became incorporated into the very fabric of algebraic topology. He supervised 15 Ph.D students (all of them at MIT), and he influenced many more through his unique seminar in algebraic topology, which today is known as the Kan Seminar.''
 
