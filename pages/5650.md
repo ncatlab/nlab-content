@@ -167,6 +167,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[∞-bimodule]]
 
+* [[bitensoring]]
+
 #### 4.3.2 Simplicial models for algebras and modules
 
 * [[model structure on modules over an algebra over an operad]]
