@@ -17,6 +17,8 @@ A __cartesian closed category__ (sometimes: __ccc__) is a category with finite [
 
 * Any [[topos]] or [[quasitopos]], such as [[Set]], is cartesian closed.
 
+  See also [[closed monoidal structure on presheaves]].
+
 * [[Cat]] is also cartesian closed.
 
 * Many [[nice category of spaces|nice categories of topological spaces]] are also cartesian closed, particularly the [[convenient category of topological spaces|convenient categories of spaces]].
