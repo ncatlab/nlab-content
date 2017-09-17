@@ -21,4 +21,4 @@
 
 * Solomon Feferman, _Typical ambiguity: Trying to have your cake and eat it too_
 
-
+* [Blog Post](http://golem.ph.utexas.edu/category/2012/12/universe_polymorphism_and_typi.html)
