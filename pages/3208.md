@@ -202,6 +202,8 @@ For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] si
 
 ## Related concepts
 
+* [[algebraic theory]], [[globular theory]]
+
 * [[type theory]]
 
 * [[theory of presheaf type]]
