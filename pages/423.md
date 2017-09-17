@@ -1,7 +1,7 @@
 [[!include contents]]
 
 
-This page is about topology as a **field of mathematics**.  For topology as a **[[stuff, structure, property|structure]]** on a [[set]], see [[topological space]].
+This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see [[topological space]].
 
 ***
 
