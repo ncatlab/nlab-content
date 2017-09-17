@@ -63,7 +63,7 @@ That the Selberg/Ruelle zeta function is equivalently an [[Euler product]] of [[
 
 That it is in particular the Euler product of characteristic polynomials of the [[monodromies]]/[[holonomies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a](#BunkeOlbrich94a)) for the odd-dimensional case.
 
-Notice that this is analogous to the standard definition of an [[Aring L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and a [[Galois representation]] as a [[flat connection]].
+Notice that this is analogous to the standard definition of an [[Artin L-function]] if one interprets a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and a [[Galois representation]] as a [[flat connection]].
 
 
 ### Function field analogy
