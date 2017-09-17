@@ -62,7 +62,7 @@ Butterfly between strict 2-groups have been introduced in
 
 * [[Behrang Noohi]], E. Aldrovandi, _Butterflies II: Torsors for 2-group stacks_,[arXiv](http://arxiv.org/abs/0910.1818)
 
-
+Notice that a "[[torsor]] over a [[2-group]] [[stack]]" is another term for [[principal 2-bundle]] ([[n-truncated object of an (infinity,1)-category|2-truncated]] [[principal ∞-bundle]]) in a [[(∞,1)-topos]] of [[∞-stack]]s over some [[site]].
 
 [[!redirects pappilon]]
 [[!redirects papillon]]
