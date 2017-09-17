@@ -104,11 +104,11 @@ This is called the **[[Alexandrov topology]]** on $P$.
 +-- {: .num_prop #UpIfFFAndPreservesLimits}
 ###### Proposition
 
-This construction naturally extends to a [[functor]]
+This construction naturally extends to a 
+[[full and faithful functor]].
 
 $Up : $ [[Poset]] $\to$ [[Top]] $\to$ [[Locale]].
 
-This functor is [[full and faithful functor|full and faithful]] and [[preserved limit|preserves]] [[limit]]s.
 
 =--
 
@@ -126,40 +126,7 @@ category of [[copresheaves]] on $P$.
 
 =--
 
-+-- {: .num_cor }
-###### Corollary
-
-The [[2-functor]]
-
-$[-,Set] : Poset \to $ [[Topos]]
-
-that sends $f : P \to Q$ to the [[geometric morphism]]
-
-$$  
-  [P, Set]
-  \stackrel{\overset{f^*}{\leftarrow}}{\underset{Ran_f}{\to}}
-  [Q,Set]
-$$
-
-preseves limits.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the above the functor factors as
-
-$$
-  [-,Set] : Poset \stackrel{Up}{\to} Locale \stackrel{Sh}{\to} Topos
-  \,.
-$$
-
-By prop. \ref{UpIfFFAndPreservesLimits} the first functor
-preserves limits. By [[localic reflection]] the second one
-does, too.
-
-=--
+For more see [[Alexandrov topology]].
 
 ## References
 
