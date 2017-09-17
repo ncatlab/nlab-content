@@ -33,12 +33,21 @@ If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full su
 
 ## Related concepts
 
-* [[full subcategory]]
+* [[subcategory]]
 
-* **full sub-2-category**, [[locally full sub-2-category]]
+  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
 
-* [[full sub-(∞,1)-category]]
+  * [[dense sub-site]]
 
+* [[sub-2-category]]
+
+  * **full sub-2-category**
+
+  * [[locally full sub-2-category]]
+
+* [[sub-(∞,1)-category]]
+
+  * [[reflective sub-(∞,1)-category]]
 
 [[!redirects full sub-2-categories]]
 
