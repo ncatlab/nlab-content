@@ -38,9 +38,13 @@ The [[philosophy]] of [[physics]].
 * [[Jeremy Butterfield]], _[Philosophy of physics: a short reading list](http://www.hps.cam.ac.uk/research/pp.html)_
   {##ButterfieldList}
 
+* [[Lawrence Sklar]], _Philosophy of Physics_, Oxford University Press (1992)
+
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
-* [[Gabriel Catren]] et al. (org.) _Philosophy of Mechanics: Mathematical Foundations_, Workshop Feb 12-14, 2014 ([website](http://phil.physico-math.gie.im), [poster](http://phil.physico-math.gie.im/static/PhilosophyofMechanics25size.jpg))
+* [[Gabriel Catren]] et al. (org.) _Philosophy of Mechanics: Mathematical Foundations_, Workshop Feb 12-14, 2014 ([website](http://phil.physico-math.gie.im), [poster](http://phil.physico-
+math.gie.im/static/PhilosophyofMechanics25size.jpg))
+
 
 
 ### Interpretation of quantum mechanics
