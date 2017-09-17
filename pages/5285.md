@@ -1,9 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
 {:toc}
 
+## Idea
+
+The ordinary [[homology]] of a [[topological space]] expressed in terms of the [[chain on a simplicial set|chains on]] its [[singular simplicial complex]].
 
 ## Definition
 
@@ -13,4 +29,11 @@ Its [[Moore complex]] $N_\bullet(\mathbb{Z}[Sing X]) \in Ch_\bullet^+$ is the **
 
 ## Properties
 
-Thus is the dual of [[singular cohomology]].
+The [[duality|dual]] notion is that of _[[singular cohomology]]_.
+
+## References
+
+Basics are around Application 1.1.4 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
