@@ -118,6 +118,9 @@ For $n \in \mathbb{N}$ the **blob $n$-category of $n$-dimensional [[cobordism]]s
 
 This is ([MorrisonWalker, example 6.2.6](#MorrisonWalker))).
 
+## Related concepts
+
+* [[blob homology]]
 
 ## References
 
