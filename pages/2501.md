@@ -1,6 +1,6 @@
-#Contents#
 
-* automatic table of contents goes here
+#Contents#
+* table of contents
 {:toc}
 
 #Idea#
@@ -43,3 +43,5 @@ If you had a physical system simulating ANY of these you would see its classical
 ## quantizaton of classical field theory ##
 
 When it was realized that fundamental physics is governed by [[quantum field theory]] it became clear that classical field theory of fundamental fields can only be an approximation to the corresponding [[quantum field theory]]. If we think of quantum field theory in terms of [[FQFT|functorial quantum field theory]], then the domains of the mapping spaces mentioned above are the [[cobordism]]s that this [[FQFT]] is a functor on. The [[quantization]] of classical field theories to [[quantum field theories]] is a major issue in theoretical and mathematical [[physics]] (see also [[renormalization]] and [[geometric quantization]]).
+
+[[!redirects classical field theories]]
