@@ -40,3 +40,7 @@ For instance
 
 
 [[!redirects LG-model]]
+[[!redirects LG-models]]
+
+
+[[!redirects Landau-Ginzburg models]]
