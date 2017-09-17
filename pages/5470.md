@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -24,4 +23,4 @@ The theorem is quoted with a proof in **The convenient setting of global analysi
 * [MR1471480](http://www.ams.org/mathscinet-getitem?mr=1471480)
 Kriegl, Andreas; Michor, Peter W.
 **The convenient setting of global analysis.**
-Mathematical Surveys and Monographs, 53. *American Mathematical Society, Providence, RI,* 1997. x+618 pp. ISBN: 0-8218-0780-3 
+Mathematical Surveys and Monographs, 53. *American Mathematical Society, Providence, RI,* 1997. x+618 pp. ISBN: 0-8218-0780-3 http://www.ams.org/publications/online-books/surv53-index 
