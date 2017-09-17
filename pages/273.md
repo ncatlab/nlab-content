@@ -217,7 +217,9 @@ For examples and discussion of this see
 
 * [[principal 3-bundle]], [[2-gerbe]]
 
-* [[principal ∞-bundle]], [[∞-gerbe]] .
+* [[principal ∞-bundle]], [[∞-gerbe]]
+
+* [[formes tordues]] .
 
 ## References
  {#References}
