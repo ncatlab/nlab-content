@@ -27,6 +27,12 @@
 
 * [[type II string theory]]
 
+  * [[type IIA string theory]]
+
+  * [[type IIB string theory]]
+
+    * [[F-theory]]
+
 * [[string field theory]]
 
 * [[duality in string theory]]
