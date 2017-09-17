@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -15,11 +15,13 @@ for $v \in H$ is positive.
 
 More generally:
 
-+-- {: .un_def}
++-- {: .un_defn}
 ###### Definition
 An element $A$ of an (abstract) [[C*-algebra]] is called **positive** if it is [[self-adjoint operator|self-adjoint]] and its [[spectrum of an operator|spectrum]] is contained in $[0, \infinity)$. 
 
 =--
+
+Here, 'positive' means positive semidefinite; see at [[inner product]] for the family of variations of this notion.  (The relevant inner product here is that associated with the quadratic form above: $v, w \mapsto \langle v, A w\rangle$.)
 
 
 ## Related concepts
@@ -30,4 +32,6 @@ An element $A$ of an (abstract) [[C*-algebra]] is called **positive** if it is [
 
 * [[quantum operation]]
 
+
+[[!redirects positive operator]]
 [[!redirects positive operators]]
