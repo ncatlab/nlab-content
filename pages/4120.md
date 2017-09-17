@@ -1,12 +1,21 @@
-There are different notions in mathematics called _basis_
+There are different notions in mathematics called _basis_.  Generally speaking, these fall into two classes:
 
+*  situations where the term _[[base]]_ is also used:
+   *  [[topological base]]
+   *  [[basis for a Grothendieck topology]],
+   *  etc ...;
 
-* [[base]] (for a [[topology]] on a [[set]] and related notions)
+*  the generating [[set]] of a [[free object]]:
+   *  [[basis of a free module]],
+   *  etc ....
 
-* [[basis for a topology]] (on a [[topological space]])
+Note that the plurals of 'basis' and 'base' are both spelt 'bases' (although their pronunciations differ).
 
-* [[basis for a Grothendieck topology]] (on a [[site]])
++-- {: .query}
+Suggestions:
 
-* [[basis of a free module]]
+*  Use the term 'base' for the former, reserving 'basis' only for the latter.
+*  Never link to 'bases' in the wiki, since we don\'t know how to redirect it.
 
-...
+---[[Toby Bartels]]
+=--
