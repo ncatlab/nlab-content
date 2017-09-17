@@ -1,0 +1,11 @@
+
+## Idea
+
+A [[condensate]] of [[bosons]]
+
+
+## References
+
+* Wikipedia, _[Bose-Einstein condensate](http://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate)_
+
+[[!redirects Bose-Einstein condensates]]
