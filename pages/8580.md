@@ -9460,7 +9460,7 @@ The classical field theory is the study of the _[[critical locus]]_ of the [[act
 
 Here we first discuss the traditional theory of classical equations of motion. Maybe the archetypical example is the [[geodesic equation]] which describes the [[trajectories]] of [[particles]] and of [[light]]. Standard examples of [[equations of motion]] for [[spacetime]] [[force]] [[field (physics)|fields]] are _[[Maxwell equations]]_ and _[[Einstein equations]]_, describing the classical [[dynamics]] of the [[electromagnetic field]] and [[gravity]], respectively.
 
-Then we reformulate this more abstractly in [[hgher geometry]]. This yields a notion of _[[derived critical loci]]_ of action functionals for which the _[[BV-BRST formalims]]_ is a model, a traditional machinery for handling [[covariant phase spaces]] while taking care of [[gauge symmetry]] and resolving singularities in the critical locus. 
+Then we reformulate this more abstractly in [[higher geometry]]. This yields a notion of _[[derived critical loci]]_ of action functionals for which the _[[BV-BRST formalism]]_ is a model, a traditional machinery for handling [[covariant phase spaces]] while taking care of [[gauge symmetry]] and resolving singularities in the critical locus. 
 
 Moreover, we discuss how, when interpreted in _[[extended prequantum field theory]]_, the equations of motion are just the [[codimension]]-0 piece of a tower of notions which in codimension 1 is the notion of _[[Lagrangian submanifolds]]_ of [[phase space]].
 
@@ -9608,7 +9608,7 @@ $$
   \;\colon\;
   [\Sigma, \mathbf{Fields}]_{\partial \Sigma}
   \to 
-  \mathcal{O}_{X}(\flat_{dR} \mathbf{B}G)
+  \mathcal{O}_{\Sigma}(\flat_{dR} \mathbf{B}G)
 $$
 
 in $Sh_{\mathbf{H}}(X)$,
@@ -9664,7 +9664,9 @@ In [[extended prequantum field theory]] we may, as discussed in _[Lagrangians an
 
 (...)
 
+* [[Lagrangian subspace]]
 
+(...)
 
 
 ### Syntax layer
