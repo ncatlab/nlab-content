@@ -79,6 +79,7 @@
 
 * [[logical morphism]]
 
+* [[cohesive topos|cohesive morphism]]
 
 ## Extra stuff, structure, properties
 
