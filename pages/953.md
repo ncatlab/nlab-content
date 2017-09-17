@@ -81,11 +81,11 @@ For $C$ a [[small category|small]] [[abelian category]] the [[category of chain 
 
 ## Waldhausen category of a small exact category ##
 
-For $C$ just a [[Quillen exact category]] with ambient [[abelian category]] $\hat C$ there is an anlogous, slightly more sophisticated construction of a Waldhausen category structure on $Ch^b(C)$:
+For $C$ just a [[Quillen exact category]] with ambient [[abelian category]] $\hat C$ there is an analogous, slightly more sophisticated construction of a Waldhausen category structure on $Ch^b(C)$:
 
 * weak equivalences are the morphisms that are [[quasi-isomorphism]]s when regarded as morphisms in $\hat C$;
 
-* the cofibrations are the degreewise _admissable morphisms_, i.e. those morphisms $A \to X$ such that the pushout $A \to X \to A/X$ computed in the ambiend [[abelian category]] $\hat C$ is in $C$.
+* the cofibrations are the degreewise _admissable morphisms_, i.e. those morphisms $A \to X$ such that the pushout $A \to X \to A/X$ computed in the ambient [[abelian category]] $\hat C$ is in $C$.
 
 # References #
 
