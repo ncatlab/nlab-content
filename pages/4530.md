@@ -19,7 +19,7 @@
 
 ## Idea
 
-In **complex geometry** one staudies _[[complex manifolds]]_ as a special case of how in general [[differential geometry]] one studies more generally [[smooth manifolds]].
+In **complex geometry** one studies _[[complex manifolds]]_ as a special case of how in general [[differential geometry]] one studies more generally [[smooth manifolds]].
 
 In _complex [[analytic geometry]]_ one studies, more generally, [[complex analytic spaces]].
 
