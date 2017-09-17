@@ -27,7 +27,7 @@ This is to be compared to and contrasted with for instance [[differential geomet
 
 The general formalization of the notion of [[space]] and hence, by the general lore of [[space and quantity]], that of [[sheaf]], [[stack]], [[∞-stack]] has originally been crucially inspired by [[Grothendieck]]'s work on algebraic geometry and is more recently being greatly revived and further extended by the developments in [[derived algebraic geometry]] by people like [[Bertrand Toen]] and [[Jacob Lurie]].
 
-In particular in [[Structured Spaces]] Lurie presents a general formalism of [[generalized scheme]]s that encompasses the [[space]]s studied in algebraic geometry and [[derived algebraic geometry]] just as well as ordinary [[manifold|smooth manifold]]s, [[derived smooth manifold]] and harmonizes with other axiomatizations such as in [[synthetic differential geometry]]: all of these [[space]] object are realized as special cases of [[structured (∞,1)-topos]]es, differing only in the choice of [[geometry (for structured (∞,1)-toposes)]] that they are modeled on.
+In particular in [[Structured Spaces]] Lurie presents a general formalism of [[generalized scheme]]s that encompasses the [[space]]s studied in algebraic geometry and [[derived algebraic geometry]] just as well as ordinary [[smooth manifold]]s, [[derived smooth manifold]] and harmonizes with other axiomatizations such as in [[synthetic differential geometry]]: all of these [[space]] object are realized as special cases of [[structured (∞,1)-topos]]es, differing only in the choice of [[geometry (for structured (∞,1)-toposes)]] that they are modeled on.
 
 From this perspective,
 
