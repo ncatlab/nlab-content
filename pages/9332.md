@@ -19,10 +19,39 @@ The generalization of the notion of [[tensor product of modules]] to [[∞-modul
 
 ## Definition
 
+We start by defining a collection of [[colored operad|colored]] [[symmetric operad]] $Tens^\otimes$ parameterized by the [[simplex category]] $\Delta$ such that for each $k$-[[simplex]] $[k] \in Delta$ the [[algebras over an operad]] over $Tens^\otimes_{[k]}$ are $(n+1)$-tuples of [[associative algebras]] $(A_i)$ together with a consecutive sequence of [[bimodules]] over these (the right algebra of every bimodule being the left algebra of the next one).
+
+The definition is a straightforward generalization of the of the [[operad for modules]] and the [[operad for bimodules]]. 
+
 +-- {: .num_defn }
 ###### Definition
 
-Write $Tens^\otimes$ for the category (...)
+Write $Tens^\otimes$ for the category (to be thought of as a family of [[categories of operators]] of [[symmetric operads]]) whose
+
+* [[objects]] are triples consisting of 
+
+  * an object $\langle n\rangle \in Assoc^\otimes$ of the [[category of operators]] of the [[associative operad]];
+
+  * an object $[k] \in \Delta$ of the [[simplex category]];
+
+  * two [[functions]] $c_-, c_+ \colon \langle n\rangle^\circ \to [k]$ such that for all $i in \langle n\rangle^\circ$ either $c_+(i) = c_-(i)$ or $c_+(i) = c_-(i) + 1$;
+
+* [[morphisms]] consist if
+
+  * a morphism $\alpha \colon \langle n\rangle \to \langle n'\rangle$ in $Assoc^\otimes$
+
+  * a morphism $\lambda \colon [k'] \to [k]$ in $\Delta$
+
+  such that (...)
+
+=--
+
+([Lurie, def. 4.3.4.1](#Lurie))
+
+We disuss how an object of this category is to be thought of as labeled with "algebra labels $\mathfrak{a_i}$" for vertices of a simplex, an "bimodule lables $\mathfrak{n}_{i, j}$" for edges of the simplex.
+
++-- {: .num_remark }
+###### Remark
 
 By construction there are [[forgetful functors]]
 
@@ -55,7 +84,7 @@ for the [[fiber product]] in [[sSet]].
 
 =--
 
-([Lurie, notation 4.3.4.15](#Lurie))
+([Lurie, notation 4.3.4.5, 4.3.4.15](#Lurie))
 
 +-- {: .num_prop #SegalConditionOfTens}
 ###### Proposition
