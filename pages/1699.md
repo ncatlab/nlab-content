@@ -93,3 +93,5 @@ Up-to-the-minute developments include [Hopkins and Lurie's proof](http://golem.p
 us to imagine a local notion of descent as was explained to me by [[David Ben-Zvi]]: using the derived non-transverse intersections, Schlessinger-[[Jim Stasheff|Stasheff]]-
 Deligne-Goldman-Millson theory should be viewed as descent for the inclusion of a [[point]] into a local formal space, with the neighborhood intersection being the [[geometric infinity-function theory|derived loop space of Ben-Zvi and Nadler]]. 
 
+
+category: people
