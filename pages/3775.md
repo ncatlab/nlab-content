@@ -91,6 +91,8 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Felix Klein]]
 
+* [[Steven Kleiman]]
+
 * [[David Knudson]]
 
 * [[Kunihiko Kodaira]]
