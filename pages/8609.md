@@ -127,5 +127,8 @@ and section IV of
 
 
 [[!redirects dependent sum]]
+[[!redirects dependent sums]]
+
 [[!redirects dependent coproduct]]
 [[!redirects dependent coproducts]]
+
