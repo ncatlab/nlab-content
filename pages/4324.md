@@ -70,9 +70,6 @@ So it is the homologically nontrivial parts of the chain complexes in negative d
 
 ## Properties
 
-### Connective cover
-
-Connective spectra form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra is called the _[[connective cover]]_ construction.
 
 ### Inclusion into all spectra
  {#InclusionIntoAllSpectra}
@@ -88,6 +85,10 @@ of the [[full sub-(∞,1)-category]] of connective spectra into the [[(∞,1)-ca
 These statements prolong to [[sheaves of spectra]].
 
 e.g. ([[Spectral Schemes|Lurie, "Spectral Schemes", example 1.23]])
+
+### Connective cover
+
+By the [above](#InclusionIntoAllSpectra), connective spectra form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra is called the _[[connective cover]]_ construction.
 
 
 ## Related concepts
