@@ -22,7 +22,7 @@ Beware that this property is pretty much unrelated to that of a functor being an
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -35,7 +35,7 @@ A [[functor]] $F : C \to D$ is **initial** if the [[opposite category|opposite]]
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $F : C \to D$ be a [[functor]]
@@ -89,7 +89,7 @@ The following conditions are equivalent.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $F : C \to D$ is final then $C$ is connected precisely if $D$ is.
@@ -97,7 +97,7 @@ If $F : C \to D$ is final then $C$ is connected precisely if $D$ is.
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
