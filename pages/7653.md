@@ -2133,7 +2133,7 @@ From the [[effective QFT]] of [[11-dimensional supergravity]] the bosonic massle
      \phi_{ga} : X \to \mathbf{B} E_8
    $$
 
-   and these fields must satisfy what in string theory literature is called the _flux quantization condition_, and what in _[[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 05]]_ is called an _[[differential integral Wu structure]]_, meaning that in [[cohomology]]
+   and these fields must satisfy what in string theory literature is called the _flux quantization condition_, and what in [Hopkins-Singer 05](#HopkinsSinger) is called an _[[differential integral Wu structure]]_, meaning that in [[cohomology]]
 
    $$
      [\phi_C]
@@ -2244,7 +2244,7 @@ which come with [[curvature]]/[[field strength]] forms
 
 * $H_i = d B_i + CS(\omega_i) - CS(A_i)$ ($B$-field strength shifted by the difference of the [[Chern-Simons forms]] of $A_i$ and $\omega_i$);
 
-satisfying the (twisted) [[Bianchi identities]] ([SSS](spring)))
+satisfying the (twisted) [[Bianchi identities]] ([SSSa](SSSa)))
 
 * $d_{dR} F_{A_i} + [A_i \wedge F_{A_i}] = 0$;
 
@@ -2307,7 +2307,7 @@ and exhibits $\phi_B$ as a genuine [[circle n-bundle with connection|circle 2-bu
 
 (...)
 
-## Further twists
+### Further twists
 
 There are various further twisted cohomological structures in string theory known or conjectured (for which possibly no smooth refinement has been constructed yet).
 
@@ -2316,6 +2316,20 @@ There are various further twisted cohomological structures in string theory know
 * twisted  [[Morava K-theory]] ([Sati-Westerland](#SatiWesterland)).
 
 * (...)
+
+
+## Outlook: geometric quantization of twisted fields
+
+So far we have considered [[configuration spaces]] of fields, refined to [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]]. The next step is to consider aspects of the [[quantization]] of these fields, at least as an [[effective quantum field theory]] (the full [[string theory]] being the corresponding [[UV-completion]]).
+
+By the [[holographic principle]] and specifically by [[AdS-CFT duality]], various of the twisted field configurations considered [above](#Examples) participate either in [[higher dimensional Chern-Simons theory]] or in the corresponding [[self-dual higher gauge theory]]. 
+
+For instance the [[supergravity C-field]], after [[Kaluza-Klein mechanism|compactification]] to [[dimension]] 7 in the context of [AdS7-CFT6](AdS-CFT#AdS7CFT6), has a [[TQFT|topological]] [[action functional]] given by the [secondary intersection pairing](intersection+pairing#SecondaryIntersectionPairing) [[higher dimensional Chern-Simons theory|7d Chern-Simons theory]] (or in fact, if quantum corrections are taken into account, a generalization of that to $String$-2-form fields [FSSb](#FSSb)).
+
+The [[geometric quantization]] of these higher CS theories yields canonical [[states]] in codimension 1, which by [[AdS-CFT]] are interpreted as parts of the [[partition function]] of [[self-dual higher gauge fields]].
+
+(...)
+
 
 
 ## General theory
@@ -2687,6 +2701,16 @@ The fundamental observation that background gauge fields in string theory are mo
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
 
 and literature referenced there. For this classical literature, notably on the example of _[[twisted K-theory|twisted]]_ and _[[differential K-theory|differential]] [[K-theory]]_, as well as on _[[orientifolds]]_, see the lists of references provided at these entries.
+
+The [[higher dimensional Chern-Simons theory|7d Chern-Simons theory]] that the [[supergravity C-field]] participates in, the relation of the flux quantization to the corresponding [[holographic principle|holographic]] description of the [[self-dual higher gauge field|self-dual]] field on the [[M5-brane]] has been discussed in 
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#Witten96}
+
+A precise mathematical formulation of the proposal made there is given in
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ {#HopkinsSinger}
 
 This page here originates in notes for an introductory lecture:
 
