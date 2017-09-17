@@ -1,5 +1,5 @@
 
-> this entry is about the notion of _genus_ in [[cohomology]]. For classication of [[surface]]s see [[genus of a surface]].
+> this entry is about the notion of _genus_ in [[cohomology]]. For classification of [[surface]]s see [[genus of a surface]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
