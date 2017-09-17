@@ -30,13 +30,13 @@ Let $V$ and $W$ be [[complete space|complete Hausdorff]] [[topological vector sp
 Given an element $c$ of $V$, consider the [[infinite series]]
 
 $$ 
-  \sum_k a_k(x - c) 
+  \sum_k a_k(x - c)^k
 $$
 
 (a [[power series]]).  Let $U$ be the [[interior]] of the set of $x$ such that this series converges in $W$; we call $U$ the __domain of convergence__ of the power series.  This series defines a [[function]] from $U$ to $W$; we are really interested in the case where $U$ is [[inhabited set|inhabited]], in which case it is a [[balanced neighbourhood]] of $c$ in $V$ (which is Proposition 5.3 of [Bochnak--Siciak](#BS)).
 
 Let $D$ be any [[subset]] of $V$ and $f$ any [[continuous function]] from $D$ to $W$.  This function $f$ is __analytic__ if, for every $c \in D$, there is a power series as above with inhabited domain of convergence $U$ such that
-$$ f(x) = \sum_k a_k(x - c) $$
+$$ f(x) = \sum_k a_k(x - c)^k $$
 for every $x$ in both $D$ and $U$.  (That $f$ is continuous follows automatically in many cases, including of course the finite-dimensional case.)
 
 
