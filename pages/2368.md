@@ -63,7 +63,7 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 
 ### Orthogonal spectra
 
-...
+* [[orthogonal spectrum]]
 
 ## Related concepts
 
@@ -110,8 +110,6 @@ See also
 [[!redirects S-modules]]
 [[!redirects symmetric spectrum]]
 [[!redirects symmetric spectra]]
-[[!redirects orthogonal spectrum]]
-[[!redirects orthogonal spectra]]
 
 [[!redirects smash product of spectra]]
 
