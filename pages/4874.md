@@ -1,8 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
 
-A useful way to visualise and manipulate knots is to project the knot onto a plane. A small change in the direction of projection will ensure that it is one-to-one except at the double points, called *crossings*, where the image curve of the knot crosses itself once transversely. At each crossing, so as to be able to recreate the original knot, the over-strand must be distinguished from the under-strand. This is usually done by creating a break in the strand going underneath.
+#Contents#
+* table of contents
+{:toc}
 
-###A few more details:
+
+## Idea
+
+A useful way to visualise and manipulate [[knot]]s is to project the knot onto a plane. A small change in the direction of projection will ensure that it is one-to-one except at the double points, called *crossings*, where the image curve of the knot crosses itself once transversely. At each crossing, so as to be able to recreate the original knot, the over-strand must be distinguished from the under-strand. This is usually done by creating a break in the strand going underneath.
+
+## Details
 
 A knot $K$ is usually specified by a projection to a plane.  Consider the parallel projection
 
@@ -16,10 +32,12 @@ A point $\mathbf{x}$ in the image $pK$ is called a *multiple point* if $p^{-1}(\
 
 A knot is in *regular position* with respect to $p$ if there are only double points and these are genuine crossings (i.e. no tangential touching occurs in the projected curve).
 
-### Fact:
+## Properties
 
 Any smooth or PL knot $K$ is equivalent under an arbitrarily small rotation of $\mathbf{R}^3$ to one in regular position with respect to $p$.
 
 A proof can be found in Crowell and Fox (page 7).
 
 Once given such a projection one can construct a diagram from it in the manner sketched out at the top of the page. 
+
+[[!redirects knot diagrams]]
