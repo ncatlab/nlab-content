@@ -257,7 +257,11 @@ which satisfies the evident action property.
 
 ([CJF, def. 2.3.3](#CJF))
 
+## Properties
 
+### Tannaka duality
+
+[[!redirects structure on algebras and their module categories - table]]
 
 ## References
 
