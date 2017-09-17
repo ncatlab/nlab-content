@@ -24,4 +24,6 @@ A point of view in [[philosophy]] and specifically in [[philosophy of mathematic
 
 * [[Barry Mazur]], _Mathematical Platonism and its Opposites_ ([pdf](http://www.math.harvard.edu/~mazur/papers/plato4.pdf))
 
+* Wikipedia, _[Philosophy of mathematics -- Platonism](http://en.wikipedia.org/wiki/Philosophy_of_mathematics#Platonism)_
+
 [[!redirects platonism]]
