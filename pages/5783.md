@@ -25,21 +25,72 @@ The notion subsumes and generalizes that of _bare_ [[super groups]], but not tha
 
 ## Definition
 
-Consider the category $SuperPoint$ of [[super point]]s as a  [[site]] with trivial [[coverage]].  
 
-We say that the [[(∞,1)-sheaf (∞,1)-topos]] over $SuperPoint$
++-- {: .num_defn #SuperInfinityGroupoids}
+###### Definition
+
+Let $SuperPoints$ be the [[category]] of [[super points]], regarded as a  [[site]] with trivial [[coverage]].  
+
+The [[(∞,1)-sheaf (∞,1)-topos]] over $SuperPoint$
 
 $$
   Super\infty Grpd := Sh_{(\infty,1)}(SuperPoint)
 $$
 
-is the [[(∞,1)-topos]] of **super $\infty$-groupoids**.
+we call the [[(∞,1)-topos]] of **super $\infty$-groupoids**.
+
+=--
 
 ## Properties
 
-### Cohesion
+### Infinitesimal cohesion
+ {#InfinitesimalCohesion}
 
-$Super\infty Grpd$ is a [[cohesive (∞,1)-topos]].
++-- {: .num_prop}
+###### Proposition
+
+The [[(∞,1)-topos]] $Super\infty Grpd$, def. \ref{SuperInfinityGroupoids}, is an [[infinitesimal cohesive (∞,1)-topos]] over [[∞Grpd]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Being an [[(∞,1)-category of (∞,1)-presheaves]] the constant $\infty$-presheaf [[(∞,1)-functor]] 
+
+$$
+  Disc \;\colon\; \infty Grpd \longrightarrow Super \infty Grpd
+$$
+
+has a [[left adjoint]] $\Pi$ given by forming [[(∞,1)-colimits]] and a [[right adjoint]] $\Gamma$ given by [[(∞,1)-limits]]. Since  the [[category]] $SuperPoints$ has a [[terminal object]] (the point $\mathbb{R}^{0|0}$) its [[opposite category]] has an [[initial object]] and so $\Gamma$ is just given by evaluation at that object. $\Gamma X \simeq X(\ast)$. 
+
+It follows that $\Gamma\circ Disc \simeq Id$ and hence (by the discussion at [[adjoint (∞,1)-functor]]) that $Disc$ is a [[full and faithful (∞,1)-functor]].
+
+Moreover, evaluation preserves [[(∞,1)-limits]] (since for [[(∞,1)-presheaves]] there are computed objectwise for each object of the [[site]]) and so by the [[adjoint (∞,1)-functor theorem]] there does exist a further [[right adjoint]] $coDisc \colon \infty Grpd \hookrightarrow Super \infty Grpd$. By the [[(∞,1)-Yoneda lemma]] and by [[adjoint (∞,1)-functor|adjointness]] this sends an [[∞-groupoid]] $X$ to the [[(∞,1)-presheaf]] given by
+
+$$
+  coDisc(X) 
+   \;\colon\;
+  \mathbb{R}^{0|q}
+  \;\mapsto\;
+  Super\infty Grpd(\mathbb{R}^{0|q}, coDisc(X))
+  \simeq
+  \infty Grpd(\Gamma(\mathbb{R}^{0|q}), X)
+  \,.
+$$
+
+Now the crucial aspect is that $\Gamma(\mathbb{R}^{0|q}) \simeq \ast$ for all $q \in \mathbb{N}$ since every [[superpoint]] has a unique [[global point]], this being the archetypical property of [[infinitesimally thickened points]]. So it follows that 
+
+$$
+  coDisc \simeq Disc
+$$
+
+and hence that $\Pi \simeq \Gamma$. Therefore $\Pi$ preserves in particular [[finite products]] so that $Super \infty Grpd$ is [[cohesion|cohesive]], but of course this shows now that it is in fact [[infinitesimal cohesion|infinitesimally cohesive]].
+
+=--
+
+### Relation to smooth super $\infty$-groupoids
 
 Let 
 
@@ -54,7 +105,9 @@ $$
   \end{aligned}
 $$
 
-be the [[(∞,1)-sheaf (∞,1)-topos]] of [[smooth super ∞-groupoid]]s. This is cohesive over the [[base topos]] $Super \infty Grpd$.
+be the [[(∞,1)-sheaf (∞,1)-topos]] of [[smooth super ∞-groupoids]]. This is cohesive over the [[base topos]] $Super \infty Grpd$.
+
+For more on this see at _[[smooth super ∞-groupoid]]_.
 
 ### Superalgebra
 
@@ -144,6 +197,7 @@ Here on the right we have [[vertical differential form]]s with respect to the pr
 ###### Note
 
 For $q \in \mathbb{N}$ write $\Lambda_q := C^\infty(\mathbb{R}^{0|q})$ for the [[Grassmann algebra]] on $q$-generators, being the global functions on the [[super point]] $\mathbb{R}^{0|q}$. 
+
 
 Over $\mathbb{R}^{0|q}$ the super Lie integration from def \ref{Exp} is the ordinary [[Lie integration]] of the ordinary [[L-∞ algebra]] $(\mathfrak{g} \otimes_k \Lambda_q)_{even}$
 
@@ -263,4 +317,3 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 [[!redirects super ∞-groups]]
 [[!redirects super infinity-group]]
 [[!redirects super infinity-groups]]
-
