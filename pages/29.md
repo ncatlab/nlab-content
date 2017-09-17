@@ -53,6 +53,23 @@ In [[n-category|higher categories]], isomorphisms generalise to [[equivalence]]s
   By definition of groupoid.
 
 
+## Related concepts
+
+* [[equality]]
+
+* **isomorphism**
+
+* [[equivalence]]
+
+* [[weak equivalence]]
+
+* [[homotopy equivalence]], [[weak homotopy equivalence]]
+
+* [[equivalence in an (∞,1)-category]]
+
+* [[equivalence of (∞,1)-categories]]
+
+
 [[!redirects isomorphic]]
 [[!redirects isomorphisms]]
 [[!redirects iso]]
