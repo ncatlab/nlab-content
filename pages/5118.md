@@ -88,54 +88,16 @@ This is proposition 3.16 in ([SchwedeShipley](#SchwedeShipley)).
 We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, an adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding categories of [[monoid]]s. In the following secton we discuss how this is itself a Quillen adjunction
 
 
-The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). While the left adjoint $L$ will not extend to monoids unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$:
+The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). While the left adjoint $L$ will not extend to monoids unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$.
 
-
-+-- {: .num_prop}
-###### Proposition
-
-Let $C$ be a [[monoidal category]] with colimits, write $Mon(C)$ for its category of [[monoid]]s and $U_C : Mon(C) \to C$ for the evident [[forgetful functor]]. This has a [[left adjoint]] $F_C : C \to Mon(C)$ where on an object $X \in C$ the underlying object of $F_C X$ is
+As described at [[category of monoids]], if $C$ has [[coproduct]]s, then we have a [[free functor]]/[[forgetful functor]] [[adjunction]]
 
 $$
-  U_C F_C X 
-  = 
-  \coprod_{n \in \mathbb{N}} X^{\otimes n}
-  = 
-  I_C \coprod X \coprod (X \otimes X) \coprod \cdots
-$$
-
-in $C$, with the monoidal structure given by tensor product/juxtaposition.
-
-
-=--
-
-+-- {: .proof}
-###### Proof 
-
-A morphism $f : F_C X \to A$ in $Mon(C)$ with components $f_k : X^{\otimes k} \to U_C A$ is entirely fixed by its component $\tilde f = f_1 : X \to U_C A$ on $X$, because by the homomorphism property and the special free nature of the product in $F_C X$
-
-$$
-  \array{
-    X^{\times k} \otimes X^{\otimes (n-k)} &\stackrel{f_k \otimes f_{n-k}}{\to}&
-    A \otimes A
-    \\
-    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\mu_A}}
-    \\
-    X^{\otimes n} &\stackrel{f_{n}}{\to}& A
-  }
-$$
-
-it follows that 
-
-$$
-  f_n :
-  X^{\otimes n} \stackrel{f_1^{\otimes n}}{\to} A^{\otimes n} \stackrel{\mu_A}{\to} A
+  (F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+   C
   \,.
 $$
 
-Conversely, every choice for $f_1$ extends to a morphism $f$ in $Mon(C)$ this way.
-
-=--
 
 +-- {: .num_prop #AdjunctionOnMonoids}
 ###### Proposition
