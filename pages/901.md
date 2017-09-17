@@ -19,7 +19,7 @@
 
 An **ind-object** of a category $C$ is a **formal [[filtered colimit]]** of objects of $C$.  The category of ind-objects of $C$ is written $ind$-$C$.
 
-Here, "ind" is short for "inductive system", as in the inductive systems used to define [[directed colimit]]s, and as contrasted with "pro" in the [[pro-object|dual notion]] for "projective system".
+Here, "ind" is short for "inductive system", as in the inductive systems used to define [[directed colimit]]s, and as contrasted with "pro" in the dual notion of [[pro-object]] corresponding to "projective system".
 
 Recalling the nature of [[filtered colimits]], this means that in particular chains of inclusions 
 
