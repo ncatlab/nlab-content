@@ -76,11 +76,13 @@
 
     * [[totally connected geometric morphism]]
 
-  * [[etale geometric morphism]]
+  * [[étale geometric morphism]]
 
   * [[open geometric morphism]]
 
-  * [[proper geometric morphism]]
+  * [[proper geometric morphism]], [[compact topos]]
+
+  * [[separated geometric morphism]], [[Hausdorff topos]]
 
   * [[local geometric morphism]]
 
