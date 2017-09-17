@@ -50,6 +50,7 @@ The description of the image of the $J$-homomorphism in the [[stable homotopy gr
 ### On groups
  {#OnGroups}
 
+
 +-- {: .num_defn #SphereAsCompactification}
 ###### Definition
 
@@ -244,13 +245,20 @@ Moreover,
 
 * for $n = 0 \;mod \;$ and $n = 1 \;mod \; 8$ and $n$ positive the J-homomorphism $\pi_n(J) \colon \pi_n(S O) \to \pi_n(\mathbb{S})$ is [[injection|injective]], hence its image is $\mathbb{Z}_2$, 
 
-* for $n = 3\; mod\; 8$ and $n = 7 \; mod \; 8$ hence for $n = 4 k -1$, the [[order of a group|order]] of the image is equal to the [[denominator]] of $B_{2k}/4k$, where $B_{2k}$ is the [[Bernoulli number]]
+* for $n = 3\; mod\; 8$ and $n = 7 \; mod \; 8$ hence for $n = 4 k -1$, the [[order of a group|order]] of the image is equal to the [[denominator]] of $B_{2k}/4k$ in its reduced form, where $B_{2k}$ is the [[Bernoulli number]]
 
 * for all other cases the image is necessarily zero.
 
 =--
 
-The characterization of the image is due to ([Adams 66](#Adams66), [Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)). That it is a direct summand of the codomain is proven for instance in ([Switzer 75, end of chapter 19](#Switzer75)). The statement of the theorem is recalled for instance as ([Ravenel, chapter 1, theorem 1.1.13](#RavenelCh1)). The proof is surveyed in ([Ravenel, chapter 5, section 3](#RavenelChapter5)).
+The characterization of the image is due to ([Adams 66](#Adams66), [Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)). 
+Specifically the identification of $J(\pi_{4n-1}(S O))$ is ([Adams 65a, theorem 3.7](#Adams65a) and the diract summand property is ([Adams 66, theorems 1.1-1.6.](#Adams66)).
+That the image is a direct summand of the codomain is proven for instance in ([Switzer 75, end of chapter 19](#Switzer75)). 
+
+A modern version of the proof, using methods from [[chromatic homotopy theory]], is surveyed in some detail in ([Lorman 13](#Lorman13)).
+
+The statement of the theorem is recalled for instance as ([Ravenel, chapter 1, theorem 1.1.13](#RavenelCh1)). 
+Another computation of the image of $J$ is in ([Ravenel, chapter 5, section 3](#RavenelChapter5)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -303,7 +311,7 @@ $$
   \,.
 $$
 
-The [[pasting]] composite with the [[homotopy pullback]] that witnesses the [[homotopy fiber]] of $1 - \psi^k$ induces via the [[universal propery]] of the [[loop space object]] a canonical map $fib(1-\psi^k) \longrightarrow H_p$:
+The [[pasting]] composite with the [[homotopy pullback]] that witnesses the [[homotopy fiber]] of $1 - \psi^k$ induces via the [[universal property]] of the [[loop space object]] a canonical map $fib(1-\psi^k) \longrightarrow H_p$:
 
 $$
   \array{
@@ -463,8 +471,10 @@ The analysis of the image of $J$ is due to
 * [[John Adams]], _On the groups $J(X)$ I_, Topology 2 (3) (1963) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-I.pdf))
 
 * [[John Adams]], _On the groups $J(X)$ II_, Topology 3 (2) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-II.pdf))
+ {#Adams65a}
 
 * [[John Adams]], _On the groups $J(X)$ III_, Topology 3 (3) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-III.pdf))
+ {#Adams65b}
 
 * [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
  {#Adams66}
