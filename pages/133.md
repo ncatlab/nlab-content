@@ -29,7 +29,7 @@ $$
 
 Note that a surjection $A \to B$ of sets can be regarded as a $B$-indexed [[family of sets]], while the existence of a section is equivalent to a choice of one element in each set of this family.  This reproduces the more classical form of the axiom of choice.
 
-When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A \to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
+When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any [[epimorphism]] $A \to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
 
 
 ## In other categories
