@@ -173,6 +173,11 @@ See also
 
 * H. J. Baues, _Homotopy types_, in  _Handbook of Algebraic Topology_, (edited by I.M. James), North Holland, 1995.
 
+* [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
+
+* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_
+
+
 * [[Julia Bergner]], _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239)).
 
 * [[William Dwyer]], _Homotopy theory and classifying spaces_, Copenhagen, June 2008 ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf))
@@ -191,6 +196,7 @@ and in
 
 * _Problems in homotopy theory_ ([wiki](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/HomePage))
  {#ProblemsInHomotopyTheoryWiki}
+
 
 
 [[!redirects Homotopy Theory]]
