@@ -214,7 +214,7 @@ Proceedings of the American Mathematical Society
 Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672))
 {#Ozols} 
 
-That an open subset $U \subseteq \mathbb{R}^4$ homeomorphic to $\mathbb{R}^4$ with the smooth structure inherited as an open submanifold of $\mathbb{R}^4$ might nevertheless be non-diffeomorphic to $\mathbb{R}^4$, see 
+That an open subset $U \subseteq \mathbb{R}^4$ homeomorphic to $\mathbb{R}^4$ equipped with the smooth structure inherited as an open submanifold of $\mathbb{R}^4$ might nevertheless be non-diffeomorphic to $\mathbb{R}^4$, see 
 
 * De Michelis, Stefano; Freedman, Michael H. (1992) "Uncountably many exotic $\mathbb{R}^4$'s in standard 4-space", J. Diff. Geom. 35, pp. 219-254.
 {#DeMFreed} 
