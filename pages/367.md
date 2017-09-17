@@ -145,6 +145,7 @@ $$
 
 * [[Segal condition]]
 
+* [[simplicial object in an (∞,1)-category]]
 
 ## References
 
