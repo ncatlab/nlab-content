@@ -29,6 +29,7 @@ These are spaces used in $G$-[[equivariant homotopy theory]].
 
 The collection of $G$-CW-complexes has a [[full sub-(infinity,1)-category|full embedding]] into the [[(infinity,1)-presheaves]] on the [[orbit category]] $Orb(G)$.  This is given by sending a $G$-CW complex, $Y$, to the presheaf sending $G/H$ to $Y^H$, the subspace of $Y$ fixed by $H$.
 
+See at _[[Elmendorf's theorem]]_.
 
 ## References
 
