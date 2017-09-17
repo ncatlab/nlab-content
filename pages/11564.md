@@ -125,7 +125,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-As discussed there (and as is discussed below) for $A \in \mathbf{T}H$ a [[cohesive homotopy type]] then we may think of $\Pi_{dR}\Omega A$ and of  $\flat_{dR} \Sigma A$  as being the [[de Rham complex]] with [[coefficients]] in $\Pi(\flat_{dR} \Sigma A)$, truncazed to negative degree and to non-negative degree, respectively; the canonical map
+As discussed there (and as is discussed below) for $A \in \mathbf{T}H$ a [[cohesive homotopy type]] then we may think of $\Pi_{dR}\Omega A$ and of  $\flat_{dR} \Sigma A$  as being the [[de Rham complex]] with [[coefficients]] in $\Pi(\flat_{dR} \Sigma A)$, truncated to negative degree and to non-negative degree, respectively; the canonical map
 
 $$
   \array{
@@ -194,7 +194,7 @@ By [[cohesion]] and [[stable (infinity,1)-category|stability]] we have the diagr
 
 $$
   \array{
-    \flat \hat E &\longrightarrow & \hat E &\stackrel{}{\longrightarrow}& \flat_{dR} \sigma \hat E
+    \flat \hat E &\longrightarrow & \hat E &\stackrel{}{\longrightarrow}& \flat_{dR} \Sigma \hat E
     \\
     \downarrow^{\mathrlap{\simeq}} && \downarrow && \downarrow
     \\
@@ -206,7 +206,7 @@ where both rows are [[homotopy fiber sequences]]. By [[cohesion]] the left verti
 
 =--
 
-The following propistion says that we may read prop. \ref{TheDifferentialFractureSquare} as saying that $\hat E$ arises from its [[Chern character]] relative to a choice of differential refinement of the "rationalization" $\Pi \flat_{dR} \hat E$.
+The following proposition says that we may read prop. \ref{TheDifferentialFractureSquare} as saying that $\hat E$ arises from its [[Chern character]] relative to a choice of differential refinement of the "rationalization" $\Pi \flat_{dR} \hat E$.
  
 +-- {: .num_prop}
 ###### Proposition
