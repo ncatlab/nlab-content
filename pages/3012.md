@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -88,6 +88,9 @@ The morphisms $h \in Hom_A((c_1, \cdots, c_n), d)$ of $A$ are recovered as the c
 
 Forming categories of operators is left 2-adjoint to forming _[[endomorphism operads]]_. For the moment, see there for more details.
 
+## Related concepts
+
+* The ([[syntactic category]] of) a (homogeneous) [[globular theory]] is the category of operators a [[globular operad]].
 
 
 ## References
