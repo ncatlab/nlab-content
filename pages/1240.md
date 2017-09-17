@@ -152,7 +152,7 @@ $(r(g_1)f)(x) = g_1\cdot f(g_1^{-1}\cdot x)$
 ### General abstract formulation in homotopy type theory
  {#GeneralAbtractDefinition}
 
-We formulate induction and coinduction of representations abstractly in [[homotopy type theory]].
+We formulate induction and coinduction of representations abstractly in [[homotopy type theory]]. (Hence the following is automatically the [[(∞,1)-category theory]]-version, which in parts is sometimes referred to as _[[cohomological induction]]_.)
 
 Let $\mathbf{H}$ be an ambient [[(∞,1)-topos]]. By the discussion at _[[∞-action]]_, for $G \in Grp(\mathbf{H})$ a [[group object in an (∞,1)-category|group object]] in $\mathbf{H}$, hence an [[∞-group]], the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ over its [[delooping]] is the [[(∞,1)-category]] of $G$-[[∞-actions]] 
 
