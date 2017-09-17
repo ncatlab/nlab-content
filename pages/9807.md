@@ -53,7 +53,7 @@ Let $X$ be a [[smooth manifold]], $G$ a [[Lie group]], and $\rho : X \times G \t
 Write
 
 $$
-  (\Omega^\bullet(G, \mathbb{h}^\ast[1])^G  
+  (\Omega^\bullet(G, \mathfrak{h}^\ast[1])^G  
   \hookrightarrow
   \Omega(G, \mathfrak{h}^\ast[1])
 $$
