@@ -1,3 +1,1 @@
-[[!redirects exponentiation]]
-
-see [[exponential object]]
+&lt; [[exponentiation]]
