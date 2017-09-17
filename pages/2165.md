@@ -47,3 +47,6 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 [[!redirects imaginary part]]
 [[!redirects real part]]
+
+[[!redirects imaginary parts]]
+[[!redirects real parts]]
