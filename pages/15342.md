@@ -4,7 +4,7 @@
 
 The _Beth definability theorem_ is a classical result in the [[model theory]] of [[first-order logic]]. 
 
-It is probably the oldest 'result' in model theory, as it goes back to _Alessando Padoa_ in 1900. The first proof for the case of predicate logic appeared in Beth (1953) whereas [[Alfred Tarski]] had treated the type-logical case in 1935. Modern proofs rely on the [[Robinson consistency theorem]] or the [[Craig interpolation theorem]].
+It is probably the oldest 'result' in model theory, as it goes back to _Alessandro Padoa_ in 1900. The first proof for the case of predicate logic appeared in Beth (1953) whereas [[Alfred Tarski]] had treated the type-logical case in 1935. Modern proofs rely on the [[Robinson consistency theorem]] or the [[Craig interpolation theorem]].
 
 ##Related Concepts
 
