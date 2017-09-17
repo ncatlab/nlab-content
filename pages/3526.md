@@ -1,4 +1,23 @@
-* [[Masaki Kashiwara]], Pierre Schapira, _Categories and Sheaves_, Springer (2000)
+Pierre Schapira is a french mathematician who developped [[algebraic analysis]] as a member of Sato's school, with main collaborator [[Masaki Kashiwara]]. Together, they developped microlocalization of sheaves and ind-sheaves, expanding Sato's groundbreaking ideas to a complete categorical toolbox to do analysis in a purely (ind)-sheaf theoretical setting.
+
+The theory of [[microlocalization]] of (ind)-sheaves was developped in the following works:
+
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Ind-sheaves, distributions and microlocalization_, describes the program.
+* [[Masaki Kashiwara]], [[Pierre Schapira]], [[Florian Ivorra]], [[Ingo Waschkies]] _Microlocalization of ind-sheaves_, gives the main results
+and proofs.
+* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a
+complete account of the theory.
+
+
+The two pedagogical books written with Kashiwara:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Sheaves on manifolds_, Springer
+(this book describes, among other topics, the author's theory of microlocalization of sheaves)
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Springer (2000)
+
+More on his work can be found on:
 
 * [homepage](http://people.math.jussieu.fr/~schapira)
 
