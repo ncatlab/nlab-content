@@ -51,7 +51,7 @@ A **category of fibrant objects** $\mathbf{C}$ is
 
 This data has to satisfy the following properties:
 
-* $C$ has finite [[product]]s;
+* $C$ has finite [[product]]s and pullbacks of fibrations;
 
 * $C$ has a [[terminal object]] ${*}$;
 
