@@ -69,6 +69,8 @@ Several classical examples of OFS $(E,M)$:
 
   * **orthogonal factorization system**
 
+  * [[reflective factorization system]]
+
 * [[factorization system in a 2-category]]
 
 * [[factorization system in an (∞,1)-category]]
