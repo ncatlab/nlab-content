@@ -87,7 +87,7 @@ Thus, while integration of $n$-pseudoforms is the most basic, integration of gen
 
 Note that, if $X$ is thought of a submanifold of itself, then it has a natural pseudoorientation that takes each local orientation to itself, and so we recover the original definition of integration of $n$-pseudoforms on $X$.  Also, if $X$ is an oriented manifold, then it may be viewed as an oriented submanifold of itself, giving a definition of integration of $n$-forms on $X$.
 
-To integrate on *unoriented* submanifolds of arbitrary dimension, use [[absolute differential forms]].
+To integrate on *unoriented* submanifolds of arbitrary dimension, use [[absolute differential forms]].  To integrate *nonlinear* differential forms, use [[cogerm differential forms]].
 
 
 ### Integration on more general domains
@@ -217,6 +217,8 @@ $$
 * [[cohomological integration]]
 
 * [[iterated integral]], [[parallel transport]], [[holonomy]]
+
+* [[absolute differential form]], [[cogerm differential form]]
 
 ## References
 
