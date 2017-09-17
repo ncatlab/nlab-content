@@ -1,0 +1,5 @@
+$ \mathbb{R}[x,y] / ( x^2 + y^2 - 1 ) $
+
+Given a group $G$ and subset $A \subset G$, define
+
+centralizer of A: $ Z_G(A) = \{ g \in G | g a = a g \forall a \in A \} $
