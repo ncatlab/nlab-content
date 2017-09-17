@@ -9,22 +9,35 @@ Classically, a **Schur functor** is a specific sort of [[functor]]
 
 $$F: FinVect_{\mathbb{C}} \to FinVect_{\mathbb{C}}$$ 
 
-on the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor of this sort that is algebraic on homsets: the homsets are vector spaces, and we demand that for any pair of objects $V, W \in FinVect_{\mathbb{C}}$ the functor
+on the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(V)$ is obtained by taking a [[tensor power]] of $V$, say $V^{\otimes n}$, and then picking out the subspace that transforms according to a particular [[irreducible representation]] of the [[symmetric group]] $S_n$, which acts on $V^{\otimes n}$ by permuting the tensor factors.  
 
-$$ F: hom(V,W) \to hom(F(V) , F(W)) $$
+The irreducible representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so a Schur functor of this sort is named by a Young diagram. This is the beginning of a long and fascinating story connecting Schur functors with other objects that are named by Young diagrams: for example, elementary [[symmetric function|symmetric functions]] and [[cohomology]] classes on BGL, the classifying space for [[vector bundles]].  
 
-is a polynomial function from the vector space 
-$hom(V,W)$ to the vector space $hom(F(V), F(W))$. 
+More generally, any finite direct sum of the Schur functors described above may be called a Schur functor.  This gives a category of Schur functors and natural transformations between them.  Since the coproduct of all the symmetric groups $S_n$ is equivalent to the groupoid of finite sets and bijections, say $FinSet^\times$, it is not surprising that this category of Schur functors is equivalent to the functor category
 
-+--{.query}
-[[Todd Trimble|Todd]]: I still think this is not quite right. For $F$ the exterior algebra construction, these maps are polynomial. But we have $F \cong \sum_n \Lambda^n$ which is not a finite direct sum of irreducible Schur functors. 
-=--
+$$  [FinSet^\times, FinVect_{\mathbb{C}}] \, , $$
 
-In more modern treatments, a Schur functor is a functor defined (in a [[polymorphism|polymorphic]] way) on [[module|modules]] over more general [[commutative ring]] $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
+This category could be called the 'category of finite-dimensional complex representations of the groupoid of finite sets', or the 'category of finite-dimensional linear [[species]]'.  
 
-$$F_R: Mod_R \to Mod_R$$ 
+The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category of Schur functors
 
-It turns out that much of the theory of Schur functors can be generalized even further, beyond module categories.  In this article, Todd Trimble and John Baez plan to explore the scope of such generality and --- we hope --- write a paper about what we find.
+$$  [FinSet^\times, FinVect_{\mathbb{C}}] \, , $$
+
+is of this sort.  But, it is also [[semisimple abelian category|semisimple]]: indeed, every Schur functor is a finite direct sum of 'irreducible' Schur functors, which correspond to Young diagrams.
+
+The category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $FinSet^\times$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets --- and since product distributes over disjoint union, $FinSet^\times$ is a [[rig category]].  This is all reflected in the category of Schur functors.
+
+On top of all this, it turns out that the composite of Schur functors is again a Schur functor.  In the classical literature this is called [[plethysm]].  This gives the category
+
+$$  [FinSet^\times, FinVect_{\mathbb{C}}] \, , $$
+
+yet another, perhaps unexpected monoidal structure.
+
+In more modern treatments, a Schur functor is a functor defined on [[module|modules]] over more general [[commutative ring]] $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
+
+$$F_R: Mod_R \to Mod_R  \, .$$ 
+
+And indeed, much of the theory of Schur functors can be generalized even further, to categories of [[group representations]], [[vector bundles]], [[coherent sheaves]] and the like.  In this article, Todd Trimble and John Baez plan to explore the scope of such generality and --- we hope --- write a paper about what we find.
 
 ## Examples ##
 
@@ -38,17 +51,11 @@ More representative examples of Schur functors include:
 
 * For each $k \geq 0$, the $k^{th}$ [[tensor power]] $V \mapsto V^{\otimes k}$ is a Schur functor. 
 
-* For each $k \geq 0$, the $k^{th}$ [[symmetric power]] $V \mapsto S^k(V)$ is a Schur functor. 
+* For each $k \geq 0$, the $k^{th}$ [[symmetric algebra|symmetric power]] $V \mapsto S^k(V)$ is a Schur functor. 
 
-* For each $k \geq 0$, the $k^{th}$ [[alternating power]] $V \mapsto \Lambda^k(V)$ is a Schur functor. 
+* For each $k \geq 0$, the $k^{th}$ [[exterior algebra|alternating power]] $V \mapsto \Lambda^k(V)$ is a Schur functor. 
 
-Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object|irreducible objects]], decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
-
-+--{.query} 
-
-We need to lead up to a proof that the above conceptual definition of Schur functor is actually _correct_, i.e., that it matches the usual definition given below. 
-
-=--
+Even though Schur functors do not respect the linear structure on homsets, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object|irreducible objects]], decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
 
 ## Schur functors associated with Young diagrams ##
 
@@ -102,9 +109,9 @@ This symmetric monoidal functor $i$ therefore maps the group algebra $k[S_n]$, a
 
 ### Modules over a bimonoid ###
 
-Furthermore, $k[S_n]$ is a [[bimonoid]] in $FinVect_k$, hence becomes a bimonoid when interpreted in $C$ (notice that in order to express this categorically, one needs the _symmetric_ monoidal structure and its preservation under the functor $i$). 
+Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a cocommutative [[bialgebra]] --- or in fancier language, a cocommutative [[bimonoid]] in the symmetric monoidal category $FinVect_k$.  Since $i : FinVect_k \to C$ is a symmetric monoidal category, this means that $i$ carries $k[S_n]$ to a commutative bimonoid in $C$.  As noted above, we call bimonoid by the same name, $k[S_n]$.
 
-The category of modules over a bimonoid is a monoidal category. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
+The category of modules over a cocommutative bimonoid is a symmetric monoidal category. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
 
 $$\delta: k[S_n] \to k[S_n] \otimes k[S_n],$$
 
@@ -141,7 +148,7 @@ We may now define the Schur functor $S_\nu$ on $C$ attached to a Young tableau $
 The **Schur functor** $S_\nu: C \to C$ is defined as follows. Given an object $X$ of $C$, $S_\nu(X)$ is the object of $S_n$-coinvariants $V_{\nu} \otimes_{S_n} X^{\otimes n}$. Given a morphism $f: X \to Y$ in $C$, $S_\nu(f)$ is the unique map $S_\nu(X) \to S_\nu(Y)$ such that 
 $$\array{
 V_\nu \otimes X^{\otimes n} & \to & S_\nu(X) \\
-1 \otimes f^{\otimes n} \downarrow & & \downarrow S_\nu(f) \\
+1 \otimes f^{\otimes n} \downarrow \; \; & & \downarrow S_\nu(f) \\
 V_\nu \otimes Y^{\otimes n} & \to & S_\nu(Y)
 }$$ 
 commutes, where the horizontal arrows are the coequalizer maps. 
@@ -149,7 +156,7 @@ commutes, where the horizontal arrows are the coequalizer maps.
 
 As we have constructed them, there is one such functor for each Young tableau.  However, different Young tableaux with the same underlying Young diagram give isomorphic representations of $S_n$ and thus naturally isomorphic Schur functors.  So, it is more typical to say there is one Schur functor $S_\lambda$ for each Young diagram $\lambda$.
 
-More generally we can define a Schur functor 
+More generally we can define a **Schur functor**
 
 $$  S_R : C \to C  $$
 
@@ -157,11 +164,9 @@ for any finite-dimensional representation $R$ of $S_n$, as follows.  We can writ
 
 $$  R = \bigoplus_i V_{\lambda_i}  $$
 
-and then define, for any object $x \in C$, 
+and then define 
 
-$$  S_R(-) = \bigoplus_i S_{\lambda_i}(-) \, .$$
-
-Using Schur's lemma, one can check that this construction extends uniquely to a functor (?). (Do we even need to say this at all?) 
+$$  S_R(-) = \bigoplus_i S_{\lambda_i}(-) \, .$$ 
 
 ## Schur functors as actions of the plethystic monoidal category ##
 
