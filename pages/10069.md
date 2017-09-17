@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _Kodeira vanishing theorem_ for [[complex geometry]] says that if $X$ is a [[Kähler manifold]] and $L$ a [[holomorphic line bundle]] on $X$ which is [[positive line bundle|positive]], then the [[abelian sheaf cohomology]] of $X$ with [[coefficients]] in the sheaf of [[sections]] of the [[tensor product]] 
+The _Kodaira vanishing theorem_ for [[complex geometry]] says that if $X$ is a [[Kähler manifold]] and $L$ a [[holomorphic line bundle]] on $X$ which is [[positive line bundle|positive]], then the [[abelian sheaf cohomology]] of $X$ with [[coefficients]] in the sheaf of [[sections]] of the [[tensor product]] 
 
 $$
   \Omega^{n,0}_X(L) \simeq L \otimes \Omega^{n,0}_X
