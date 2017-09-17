@@ -85,7 +85,9 @@ Y & \underset{\theta_Y}{\to} & P Y.
 
 Every well-founded relation is [[irreflexive relation|irreflexive]]; that is, $x \nprec x$.  Sometimes one wants a reflexive version $\preceq$ of a well-founded relation; let $x \preceq y$ if and only $x \prec y$ or $x = y$.  Then the requirement that $x$ be a minimal element of a subset $A$ states that $t \preceq x$ only if $t = x$.  But infinite descent or direct proof by induction still require $\prec$ rather than $\preceq$.
 
-A [[well-order|well order]] may be defined as a well-founded [[linear order]], or alternatively as a [[transitive relation|transitive]], [[extensional relation|extensional]], well-founded relation.
+A [[well-order|well order]] may be defined as a well-founded [[linear order]], or alternatively as a [[transitive relation|transitive]], [[extensional relation|extensional]], well-founded relation. 
+
+A [[well-quasi-order]] is a well-founded [[preorder]] (referring to the reflexive version of well-foundedness above) that in addition has no infinite [[antichain|antichains]]. 
 
 The [[axiom of foundation]] in material [[set theory]] states precisely that the membership relation $\in$ on the proper class of all [[pure sets]] is well-founded.  In structural set theory, accordingly, one uses well-founded relations in building structural models of well-founded pure sets.
 
