@@ -40,6 +40,14 @@ A **test category** is any small category $\mathcal{A}$ such that
 
 * ($\mathcal{A}$ is a "local test category") for every [[object]] $a$ in $\mathcal{A}$ require the [[overcategory]] $\mathcal{A}/a$ to be a weak test category. Thus for any category $D$ in $Cat$, $\epsilon_D : i_{\mathcal{A}/a}i_{\mathcal{A}/a}^* D \to D$ is an [[equivalence of categories]]. 
 
+A **strict test category** is a test category $\mathcal{A}$ such that
+
+* $i_{\mathcal{C}} : \mathcal{C}Set \to Cat$ preserves finite products up to weak equivalence, 
+
+or equivalently, such that
+
+* the induced functor $i_{\mathcal{C}*}:Ho(\mathcal{C}Set)\to Ho(Cat)$ preserves finite products.
+
 Then one proceeds with $\mathcal{A}$-sets.
 
 If $\mathcal{A}$ is a test category and $\mathcal{C}$ any small category whose classifying space is contractible (which may or may not be a test category itself), then their cartesian [[product]] $\mathcal{A}\times\mathcal{C}$ is a test category. 
