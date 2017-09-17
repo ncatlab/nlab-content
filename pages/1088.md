@@ -20,9 +20,9 @@ A _local isomorphism_ in a [[presheaf]] category $PSh(S)$ is a morphism that bec
 
 The collection of all local isomorphisms not only determines the [[Grothendieck topology]] but is precisely the collection of morphisms that are inverted when passing to sheaves. Hence local isomorphisms serve to understand [[sheaf|sheaves]] and [[sheafification]] in terms of the passage to a [[homotopy category]] of $PSh(S)$.
 
-This is discussed in more detail at [[category of sheaves]]:
+This is a particular case of the notion of [[reflective factorization system]], applied to the sheafification reflector.  It is discussed in more detail at [[category of sheaves]]:
 
-in terms of the discussion at [[geometric embedding]], local isomorphisms in $PSh(S)$ are precisely the [[calculus of fractions|multiplicative system]] $W$ that is sent to isomorphisms by the [[sheafification]] functor 
+In terms of the discussion at [[geometric embedding]], local isomorphisms in $PSh(S)$ are precisely the [[calculus of fractions|multiplicative system]] $W$ that is sent to isomorphisms by the [[sheafification]] functor 
 
 $$
   \bar{(-)} : PSh(S) \to Sh(S)
