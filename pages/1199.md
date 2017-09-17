@@ -35,18 +35,25 @@ While the definition above follows how a well-founded relation is generally *use
 
 2. The relation $\prec$ is __classically well-founded__ if every [[inhabited set|inhabited]] subset $A$ of $S$ has a member $x \in A$ such that no $t \in A$ satisfies $t \prec x$.  (Such an $x$ is called a _minimal_ element of $A$.)
 
-In [[classical mathematics]], both of these conditions are equivalent to being well-founded.  Constructively, we may prove that a well-founded relation has no infinite descent, but not the converse; and we may prove that a classically well-founded relation is well-founded, but not the converse.  (In fact, if there exists an [[inhabited subset|inhabited]] relation that is classically well-founded, then [[excluded middle]] follows.)  In [[predicative mathematics]], however, the definition of well-founded may be impossible to even state, and so either of these alternative definitions would be preferable (if classical logic is used).
+In [[classical mathematics]], both of these conditions are equivalent to being well-founded.  In constructive mathematics, we may prove that a well-founded relation has no infinite descent (see Proposition \ref{empty}), but not the converse, and that a classically well-founded relation is well-founded (see Proposition \ref{classical}), but not the converse.  
+
++-- {: .num_remark #LEM} 
+###### Remark 
+We note that classical well-foundedness is really too strong for constructive (i.e., intuitionistic) mathematics: if there exists an [[inhabited subset|inhabited]] relation that is classically well-founded, then [[excluded middle]] follows. (This holds true in any [[topos]]; for a proof, see [here](http://ncatlab.org/toddtrimble/published/classical+well-foundedness).) On the other hand, the infinite descent condition is too weak to be of much use in constructive mathematics. It is the inductive notion of well-foundedness that is just right. 
+=-- 
+
+Note however that in [[predicative mathematics]], the definition of well-founded may be impossible to even state, and so either of these alternative definitions would be preferable, provided classical logic is used.
 
 Even in constructive predicative mathematics, (1) is strong enough to establish the [[Burali-Forti paradox]] (when applied to [[linear orders]]).  In [[material set theory]], (2) is traditionally used to state the [[axiom of foundation]], although the impredicative definition could also be used as an axiom scheme (and must be in constructive versions).  In any case, either (1) or (2) is usually preferred by classical mathematicians as simpler. 
 
-We do have the following result, valid in intuitionistic mathematics: 
+To round out the discussion we prove the following two results, both valid in intuitionistic mathematics: 
 
-+-- {: .num_prop} 
++-- {: .num_prop #empty} 
 ###### Proposition 
 If $(X, \prec)$ is a well-founded relation and $A \subseteq X$ has no minimal element, then $A$ is empty. 
 =-- 
 
-This result makes it trivial to infer (under classical logic) that classical well-foundedness is a consequence of well-foundedness. 
+This result makes it trivial to infer (under classical logic) that classical well-foundedness is a consequence of well-foundedness. It also shows that well-foundedness rules out infinite descent (intuitionistically), since an infinite descent sequence has no minimal element. 
 
 +-- {: .proof} 
 ###### Proof 
@@ -57,6 +64,15 @@ So, suppose $z$ is an element such that $y \in U$ whenever $y \prec z$. We must 
 Thus $z \notin A$, and $y \prec z \Rightarrow y \in U \Rightarrow y \notin A$, so that $z \in U$. This completes the proof. 
 =-- 
 
++-- {: .num_prop #classical} 
+###### Proposition 
+In intuitionistic set theory, classical well-foundedness implies (inductive) well-foundedness. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $\prec$ be a classically well-founded relation on $X$, and let $U$ be an inductive subset. We must show that every element $x \in X$ belongs to $U$. Since $U$ is inductive, it suffices to show that every $u \prec x$ belongs to $U$, i.e. we may assume given a $u$ such that $u\prec x$ and show $u\in U$. But under this assumption we have that $\prec$ is inhabited, so according to Remark \ref{LEM}, the law of [[excluded middle]] follows and we might as well then argue classically. The argument is well-known but we include it for completeness: under classical well-foundedness, if an inductive subset $U$ is not the entirety of $X$, then the complement $\neg U$ has a minimal element $y$. In that case, $v \prec y$ implies $v \in \neg\neg U = U$, but then $y \in U$ since $U$ is inductive, contradiction. Hence $U = X$ and in particular $u \in U$, which is what we wanted. 
+=-- 
 
 ### Coalgebraic formulation 
 
