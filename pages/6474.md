@@ -55,6 +55,8 @@ The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]
 
 * [[Poincaré line bundle]]
 
+[[!include moduli of higher lines -- table]]
+
 
 ## References
 
