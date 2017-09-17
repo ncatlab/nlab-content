@@ -357,6 +357,8 @@ This section is at
 
   * **smooth $\infty$-groupoid**
 
+    * [[smooth 2-group]]
+
   * [[synthetic differential ∞-groupoid]]
 
 Smooth $\infty$-groupoids and related cohesive structures play a central role in the discussion at 
