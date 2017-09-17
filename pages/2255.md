@@ -75,4 +75,15 @@ Very nice! Is there a similar story worth telling for possibly infinite trees, c
 _Toby_:  Well-founded trees (and pure sets) may be defined recursively; ill-founded trees (and pure sets) may be defined corecursively; there is stuff about this at [[pure set]].  (Note that even a well-founded tree may be infinite, as long as some vertex has infinitely many branches out of it.)
 =--
 
+### As relational structures
+
+A _rooted tree_ can be defined as a [[relational structure]] and as such serves as a useful [[geometric models for modal logics|model]] in the context of [[modal logics]].  In this form it consists of a set of _nodes_, _vertices_ or whatever your preferred terminology is, and a binary relation, $S$, on $T$.  These are to satisfy the following:
+
+* the set $T$ contains a unique element $r$ called the **root**, such that, for all $t\in T$, $S^*r t$ holds, where $S^*$ is the reflexive-[[transitive closure]] of $S$;
+
+* if $t\in T$, and $t\neq r$, then there is a unique $t'\in T$ such that $S t' t$;
+
+* $S$ is **acyclic**, so for all $t\in T$, $\neg S^+ t t$, where $S^+$ is the [[transitive closure]] of $S$.
+
+This last property, of course, implies that $S$ is irreflexive.
 [[!redirects trees]]
