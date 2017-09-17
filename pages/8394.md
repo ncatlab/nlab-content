@@ -1,0 +1,21 @@
+
+## Idea
+
+A formal language ([[theory]]) for expressing [[programs]]. Used and studied in [[computer science]].
+
+## Examples
+
+### Types of programming languages
+
+* [[imperative programming]]
+
+* [[functional programming]]
+
+### Specific examples
+
+* [[Haskell]], [[Coq]], [[Agda]], [[NuPRL]], ....
+
+[[!redirects programming languages]] 
+
+
+ 
