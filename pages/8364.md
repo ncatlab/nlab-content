@@ -1,0 +1,8 @@
+
+## Idea
+
+A part of [[mathematical logic]]
+
+## References
+
+* Wikipedia, _[Proof theory](http://en.wikipedia.org/wiki/Proof_theory)_.
