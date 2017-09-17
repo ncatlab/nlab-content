@@ -45,8 +45,72 @@ There are a variety of [[model category]] structures that [[presentable (infinit
 (...)
 
 ### Suitable ambient contexts
+ {#SuitableAmbientContexts}
 
-(...)
+We introduce some conditions on an ambient $(\infty,1)$-category $\mathcal{C}$
+such that it admits a "good" theory of internal $(\infty,1)$-category objects.
+
+
+The following definition is the specialization of the notion termed _absolute distributor_ in [Lurie, def. 1.2.1, 1.3.3](#Lurie) to [[(∞,1)-toposes]].
+
++-- {: .num_defn}
+###### Definition
+
+Call an [[(∞,1)-topos]] $\mathbf{H}$ **well-suited for internalization** if 
+
+1. it is [[∞-connected (∞,1)-topos|∞-connected]],
+
+1. its [[codomain fibration]] is a [[canonical topology|canonical]] [[(∞,2)-sheaf]] over the [[discrete objects]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Spelled out, this definition says the following.
+
+The first condition says that the [[global section]] [[geometric morphism]] $(Disc \dashv \Gamma)$ admits an extra [[left adjoint]] $\Pi$
+
+$$
+  (\Pi \dashv \Disc \dashv \Gamma)
+  :
+  \mathbf{H}
+   \stackrel{\stackrel{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
+   \infty Grpd
+$$
+
+and that the [[inverse image]] $Disc$ is [[full and faithful]]. The corresponding [[full sub-(∞,1)-category]] is called that of _[[discrete objects]]_.
+
+The second condition says that the [[(∞,1)-functor]] 
+
+$$
+  \chi_{cod} : \infty Grpd^{op} \to CAT_{(\infty,1)}
+$$ 
+
+to the [[universe enlargement|very large]] [[(∞,1)-category of (∞,1)-categories]] which 
+[[(∞,1)-Grothendieck construction|classies]] the [[codomain fibration]] $cod : \mathbf{H}^I \to \mathbf{H}$ 
+restricted along $Disc$ to the [[discrete objects]], hence assigning to an [[∞-groupoid]] $S$ the [[over-(∞,1)-topos]]
+
+$$
+  \chi : S \mapsto \mathbf{H}_{/Disc(S)},
+$$
+
+satisfies [[descent]] with respect to the [[canonical topology]], hence that it preserves [[(∞,1)-limits]] (sends [[(∞,1)-colimits]] in [[∞Grpd]] to [[(∞,1)-limits]] in $\mathbf{H}$).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the terminology of ([Lurie](#Lurie)) this implies (but it much more special) that $Disc : \infty Grpd \to \mathbf{H}$ is an "absolute distributor":
+
+item 1) and 3) of ([Lurie, def. 1.2.1](#Lurie)) are automatically satisfied by assumption that $\mathbf{H}$ is an [[(∞,1)-topos]]. With this, item 2) of ([Lurie, def. 1.2.1](#Lurie)) and item 1) of ([Lurie, def. 1.3.3](#Lurie)) precisely encode [[∞-connected (∞,1)-topos|∞-connectedness]] (notice that by the [[adjoint (∞,1)-functor theorem]] for [[presentable (∞,1)-categories]] the condition that $Disc$ preserves [[(∞,1)-limits]] is equivalent to it having the further [[left adjoint]] $\Pi$).
+
+Finally notice that the version of item 4) of ([Lurie, def. 1.2.1](#Lurie)) available at time of this writing has a type: it is indeed $\mathbf{H}^{op} \to CAT_{(\infty,1)}$ that is supposed to preserve $\infty$-limits, not $\mathcal{H} \to CAT_{(\infty,1)}^{op}$. This is clear from comparing with the proof of the next statement there, which is ([Lurie, prop. 1.2.4](#Lurie)).
+
+=--
+
+
 
 ### Completeness
   {#Completeness}
