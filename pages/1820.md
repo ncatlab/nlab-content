@@ -456,7 +456,7 @@ Thereby $\lim_\to H \to \lim_\to G$ is in $rlp(I) \subset W$.
 
 ### Bousfield localization 
 
-Combinatorial model categories, lile [[cellular model category|cellular model categories]] have a good theory of [[Bousfield localization of model categories|Bousfield localizations]], at least if in addition they are left [[proper model category|proper]]. See [[Bousfield localization of model categories]] for more on this.
+Combinatorial model categories, like [[cellular model category|cellular model categories]] have a good theory of [[Bousfield localization of model categories|Bousfield localizations]], at least if in addition they are left [[proper model category|proper]]. See [[Bousfield localization of model categories]] for more on this.
 
 ## Examples 
 
