@@ -46,7 +46,7 @@ If the topos is a locally ringed topos, or moro generally a [[structured (∞,1)
 
 For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) and for $X \in \mathbf{H}$ an [[object]], the [[overcategory]] $\mathbf{H}_{/X}$ is also a topos ($(\infty,1)$-topos, etc). This is sometimes called the [[petit topos]] associated to $X \in \mathbf{H}$.
 
-The canonical projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ is part of an [[essential geometric morphism|essential]] (in fact, [[locally connected geometric morphism|locally connected]]) geometric morphism:
+The canonical projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ is part of an [[essential geometric morphism|essential]] (in fact, [[locally connected geometric morphism|locally connected]]/ [[locally ∞-connected (∞,1)-topos|locally ∞-connected]]) geometric morphism:
 
 $$
   \pi = (\pi_! \dashv \pi^* \dashv \pi_*) : 
