@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Thoughout let $R$ be some [[ring]]. Write $R$[[Mod]] for the [[category]] of [[module]] over $R$. Write $U R Mod \to$ [[Set]] for the [[forgetful functor]] that sends a module to its underlying [[set]].
+
++-- {: .num_defn}
+###### Definition
+
+For $i : K \hookrightarrow N$ a [[submodule]], the **quotient module** $\frac{N}{K}$ is the [[quotient group]] of the underlying groups, equipped with the $R$-[[action]] induced by that on $N$.
+
+=--
+
+## Properties
+
+### Equivalent characterizations
+
++-- {: .num_prop}
+###### Proposition
+
+The quotient module is equivalently the [[cokernel]] of the inclusion in $R$[[Mod]]
+
+$$
+  \frac{N}{K} \simeq coker(i)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The quotient module is equivalently the [[quotient object]] of the [[congruence]] $N \oplus K \to N \oplus N$ given by projection on the first factor and by addition in $N$.
+
+=--
+
+## Related concepts
+
+* [[quotient group]]
+
+[[!redirects  quotient modules]]
