@@ -2031,7 +2031,7 @@ $$
      &\stackrel{A_{vert}}{\leftarrow}&
      CE(\mathfrak{g})
      &&&
-     flat\;vertical\;form
+     transition\;function\;/\;Cech\;cocycle
      \\
      \uparrow && \uparrow
      \\
@@ -2061,7 +2061,7 @@ $$
      CE(\mathfrak{g})
      &\stackrel{\mu}{\leftarrow}&
      CE(b^k \mathbb{R})
-     & : \mu(A)
+     & : \mu(A_{vert})
      &&&
      characteristic\;class
      \\
