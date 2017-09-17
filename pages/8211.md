@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[string theory]] a given [[Riemann surface]] with punctures can usually be read in different ways as describing either [[closed strings]] or [[open strings]]. For instance the [[disk]]-diagram describes equivalently a process where a closed string disappears, or a process where an open string first appears and then disappears.
+
+Since closed string excitations induce [[gravity]] while open string excitations induce [[Yang-Mills fields]] as [[effective field theories]], this leads to a multitude of relations between these ordinary [[quantum field theories]], such as the [[KLT relations]] or the [[AdS/CFT correspondence]].
+
+## Related concepts
+
+* [[KLT relations]]
+
+* [[AdS/CFT correspondence]]
+
+* [[string theory results applied elsewhere]]
+
+## References
+
+* J. Khoury, [[Herman Verlinde]], _On Open/Closed String Duality_ ([arXiv:hep-th/0001056](http://arxiv.org/abs/hep-th/0001056))
+
+* Leonardo Rastelli, _Lectures on open/closed string duality_ ([pdf](http://www.sns.ias.edu/pitp/2004/IASrastelli.pdf))
