@@ -68,6 +68,11 @@ The original sources are
 
 * [[Alain Connes]], ...
 
+The mathematics of inclusions of __subfactors__ is giving very deep structural insights, see [[planar algebra]] and 
+
+* V. F. R. Jones, _Index for subfactors_, Invent. Math. __72__, I (I983); _A polynomial invariant for links via yon Neumann algebras_, Bull. AMS __12__, 103 (1985); _Hecke algebra representations of braid groups and link polynomials_, Ann. Math. __126__, 335 (1987)
+
+
 Lecture notes include
 
 * V.S. Sunder, _von Neumann algebras, $II_1$-factors, and their subfactors_ ([pdf](http://www.math.iitb.ac.in/seminar/archives/sunder_iitb3.pdf))
