@@ -101,3 +101,5 @@ What is called a [[derived category]] is the special case of the homotopy catego
 ## References
 
 See the references at [[model category]].
+
+[[!redirects homotopy categories]]
