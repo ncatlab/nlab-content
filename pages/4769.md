@@ -68,6 +68,9 @@ Let $M$ be [[Lie group]] and let $\mathfrak{g}$ be its [[Lie algebra]] $T_1 M$, 
 
 A __[[logarithm]]__ is a [[partial section]] of an exponential map.
 
+## Related concepts
+
+* [[Hamiltonian flow]]
 
 [[!redirects exponential map]]
 [[!redirects exponential maps]]
