@@ -271,6 +271,8 @@ If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally d
 
 * [[Bousfield lattice]], [[thick subcategory]], [[additive category]], 
 
+* [[exceptional collection]]
+
 * [[well-generated triangulated category]], [[compactly generated triangulated category]]
 
 * [[spectrum of a triangulated category]]
