@@ -11,5 +11,25 @@ This page collects some links related to the article
 
 on [[p-adic homotopy theory]].
 
+#Contents#
+* table of contents
+{:toc}
+
+## 2 $E_\infty$-Algebras in positive characteristic
+
+### 2.1 Norm maps
+
+### 2.2 Power operations on $E_\infty$-Algebras
+
+### 2.3 Finitely constructible sheaves
+
+* [[finitely constructible object]]
+
+### 2.4 A Universal coefficient theorem
+
+### 2.5 Compactness of relative cochain algebras
+
+### 2.6 Affine behaviour of $p$-constructible morphisms
+
 category: reference
 
