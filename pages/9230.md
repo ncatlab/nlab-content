@@ -32,15 +32,28 @@ Feynman graphs play a central role in [[perturbation theory]] in [[quantum field
 
 ## Related concepts
 
+* [[perturbation theory]]
+
+* [[perturbation series]]
+
+* [[scattering amplitude]], [[string scattering amplitude]]
+
+* [[path integral quantizaiton]]
+
 * [[worldline formalism]]
 
 ## References
+
+### General
 
 For traditional accounts see at 
 
 * Wikipedia, _[Feynman diagram](https://en.wikipedia.org/wiki/Feynman_diagram)_
 
-A clean derivation of the [[Feynman rules]] for finite-dimensional spaces of fields in terms of [[cochain cohomology]] of [[BV-complexes]] is in
+### In homological BV-quantization
+  {#ReferencesInHomologicalBVQuantization}
+
+A clean derivation of the [[Feynman rules]] for finite-dimensional spaces of fields in terms of [[quantization]] by passing to [[cochain cohomology]] of [[BV-complexes]] (see at _[BV-formalism -- Homological quantization](geometric%20quantization#AsIndexOfSpinCDiracOperator))_ is in
 
 * [[Owen Gwilliam]], [[Theo Johnson-Freyd]], _How to derive Feynman diagrams for finite-dimensional integrals directly from the BV formalism_ (2011) ([arXiv:1202.1554](http://arxiv.org/abs/1202.1554))
 
