@@ -523,6 +523,12 @@ We can remedy this by replacing in the definition of the descent $\infty$-catego
 *  [[multicategory]]
 *  [[premonoidal category]]
 
+higher versions
+
+* [[monoidal bicategory]]
+
+* [[monoidal (∞,1)-category]]
+
 
 [[!redirects monoidal category]]
 [[!redirects monoidal categories]]
