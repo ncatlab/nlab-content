@@ -26,15 +26,17 @@
 
 Let $(X, O_X)$ be a [[ringed space]].  In analogy with [[modules]] over a [[commutative ring]], one may study $(X, O_X)$ by studying the category $Mod(O_X)$ of [[sheaf of modules|sheaves of modules]] over $O_X$.  There is a [[symmetric monoidal model category|symmetric monoidal]] [[cofibrantly generated model category|cofibrantly generated]] [[model structure]] on $Mod(O_X)$.  The [[homotopy category]] with respect to this model structure, i.e. the [[derived category]] of $Mod(O_X)$, is a [[triangulated category]] $D(Mod(O_X))$ associated to $X$.  Here we discuss various interesting subcategories of $D(Mod(O_X))$.  In particular, the bounded derived category of coherent sheaves is an important invariant studied by the school of [[Bondal]], [[Orlov]] and others.  The triangulated category of perfect complexes is a very significant construction in [[noncommutative algebraic geometry]].
 
-## Derived category of quasi-coherent sheaves
+## Definitions
+
+### Derived category of quasi-coherent sheaves
 
 Recall that one has the [[full subcategory|full]] [[abelian category|abelian]] [[subcategory]] $QCoh(O_X) \subset Mod(O_X)$ of [[quasi-coherent sheaves]], which are the ones corresponding locally to [[modules]] over a [[ring]].  One gets a triangulated subcategory $D(QCoh(O_X)) \subset D(Mod(O_X))$.
 
-## Derived category of coherent sheaves
+### Derived category of coherent sheaves
 
 When $X$ is a [[noetherian scheme]], one has the full abelian subcategory $Coh(O_X) \subset QCoh(O_X)$ of [[coherent sheaves]]; these are the ones corresponding locally to [[finitely generated modules]].  Hence one gets the triangulated subcategory $D(Coh(O_X)) \subset D(QCoh(O_X))$.
 
-## Bounded derived category of coherent sheaves
+### Bounded derived category of coherent sheaves
 
 Let $X$ be a [[noetherian scheme]] and let $D^b(Coh(O_X))$ denote the [[bounded derived category]] of $Coh(O_X)$.
 
@@ -47,7 +49,7 @@ identifies $D^b(Coh(O_X))$ with the [[full subcategory]] of $D(Mod(O_X))$ of [[b
 
 See [(SGA 6, Exp. II, Corollaire 2.2.2.1)](#SGA6).
 
-## Triangulated category of perfect complexes
+### Triangulated category of perfect complexes
 
 Let $X$ be a [[ringed space]] and let $Pf(X) \subset D(Mod(O_X))$ denote the [[full subcategory]] of [[perfect complexes]] of $O_X$-[[modules]].  This is a [[triangulated subcategory]] that is contained in $D_{coh}(Mod(O_X)) \subset D(Mod(O_X))$, the full subcategory of complexes with [[coherent sheaf|coherent]] [[cohomology]].  It is stable under [[derived tensor product]], [[derived inverse image]], and [[derived direct image]] of [[proper morphisms]].
 
@@ -62,15 +64,35 @@ See [(SGA 6, Exp. I)](#SGA6).
 
 ## Derived equivalence
 
-The bounded derived category of coherent sheaves $D^b(Coh(O_X))$ is usually called simply the **derived category of $X$** and denoted $D(X)$.  It is an important invariant of $X$, which has been studied extensively by [[Mukai]], [[Bondal]]-[[Orlov]], and others.  There are several geometrically interesting examples of non-isomorphic [[varieties]] $X$ and $Y$ with $D(X) \simeq D(Y)$; for example, the derived category of an [[abelian variety]] $X$ is equivalent to the derived category of its dual $\hat{X}$.  In such cases one often says that $X$ and $Y$ are **derived equivalent**.  However, the derived category is not a weak invariant of $X$, indeed in some cases it is as strong as isomorphism; see [[Bondal-Orlov reconstruction theorem]].  In fact, the construction $X \mapsto D(X)$ seems to lose just enough information so that derived equivalence becomes a geometrically interesting invariant.  See 
+The bounded derived category of coherent sheaves $D^b(Coh(O_X))$ is usually called simply the **derived category of $X$** and denoted $D(X)$.  It is an important invariant of $X$, which has been studied extensively by [[Mukai]], [[Bondal]]-[[Orlov]], and others.
 
-## Derived categories and cohomology
+There are several geometrically interesting examples of non-isomorphic [[varieties]] $X$ and $Y$ with $D(X) \simeq D(Y)$; for example, the derived category of an [[abelian variety]] $X$ is equivalent to the derived category of its dual $\hat{X}$.  In such cases one often says that $X$ and $Y$ are **derived equivalent**.  However, the derived category is not a weak invariant of $X$, indeed in some cases it is as strong as isomorphism; see [[Bondal-Orlov reconstruction theorem]].  In fact, the construction $X \mapsto D(X)$ seems to lose just enough information so that derived equivalence becomes a geometrically interesting invariant.
 
-Let $X$ be a smooth projective variety over a field $K$.  [[Orlov]] has proved that the derived category $D(X)$ determines the [[Chow motive]] $M(X)$ up to [[Tate twists]].  See [(Orlov, 2005)](#Orlov2005).
+### Fourier-Mukai functors
 
-## Derived categories and additive invariants
++-- {: .num_thm}
+###### Theorem ([[Orlov]])
+Let $X$ and $Y$ be smooth projective [[varieties]] over a [[field]] $K$.  Let $F : D(X) \to D(Y)$ be a [[triangulated functor|triangulated]] [[fully faithful functor]].  There exists an object $E \in D(X \times Y)$ which is unique up to isomorphism and is such that $F$ is isomorphic to the [[Fourier-Mukai transform]] of $E$, that is the functor
+  $$ F \mapsto Rq_*(Lp^*(F) \otimes^L E)) $$
+where $p : X \times Y \to X$ and $q : X \times Y \to Y$ are the [[projections]].
+=--
 
-Let $X$ be a smooth projective variety over a field $K$.  The derived category $D(X)$ determines the [[noncommutative Chow motive]] $NM(X)$ up to isomorphism.  In particular, it determines all [[additive invariants]] like [[K-theory]] and [[Hochschild homology]].  See [(Yusufzai)](#Yusufzai).
+See [[Fourier-Mukai functor]] for details.
+
+### Derived invariants
+
+Let us say that a functor on the category of smooth projective [[varieties]] is a **derived invariant** if it maps derived equivalent varieties to isomorphic objects.
+
+* The [[canonical ring]] is a derived invariant [(Orlov 2003)](#OrlovSurvey).
+
+* [[Orlov]] has proved that for [[abelian varieties]], the functor $X \mapsto X \times \hat{X}$ is a derived invariant [(Orlov 2003)](#OrlovSurvey).
+
+* [[Rouquier]] has proved that the functor $X \mapsto Pic^0(X) \rtimes Aut^0(X)$ valued in [[algebraic groups]] is a derived invariant [(Rouquier 2010)](#Rouquier2010).  (Note that this a generalization of Orlov's result on abelian varieties above.)
+
+* [[Orlov]] has proved that the derived category $D(X)$ determines the rational [[Chow motive]] $M(X)$ up to [[Tate twists]].  Under a certain condition on the [[Fourier-Mukai functor|corresponding]] object $E \in D(X \times Y)$, this may be refined to derived invariance of the integral [[Chow motive]].  In particular the corresponding statements are true for any [[Weil cohomology theory]] (e.g. [[etale cohomology]], [[Betti cohomology]], [[de Rham cohomology]], etc.).  See [(Orlov, 2005)](#Orlov2005).
+
+* The derived category $D(X)$ determines the [[noncommutative Chow motive]] $NM(X)$ up to isomorphism.  In particular, it follows that all [[additive invariants]], like [[K-theory]] or [[Hochschild homology]], are derived invariants.  See [(Yusufzai)](#Yusufzai).
+
 
 ## Related concepts
 
@@ -95,6 +117,7 @@ For a summary of the results of [[Bondal]]-[[Orlov]], see
 For a detailed survey, see
 
 * [[Dmitri Orlov]], _Derived categories of coherent sheaves and equivalences between them_, Russian Math. Surveys, 58 (2003), 3, 89-172, [translation](http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf).
+ {#OrlovSurvey}
 
 On the relationship between derived categories and Chow motives, see
 
@@ -104,6 +127,10 @@ On the relationship between derived categories and Chow motives, see
 For some discussion of the above result and the relationship between derived categories and [[additive invariants]] see
 
 * [[Adeel Khan Yusufzai]], _Perfect correspondences and Chow motives_, master's thesis, 2013.  [arXiv](http://arxiv.org/abs/1310.0249).
+
+For the derived invariance of $Pic^0 \rtimes Aut^0$, see
+
+* [[Rouquier]], _Automorphismes, graduations et categories triangulees_, [arXiv](http://arxiv.org/abs/1008.1971).
 
 ### Triangulated category of perfect complexes
 
