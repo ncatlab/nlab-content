@@ -10,7 +10,7 @@ Compactly generated spaces form a [[convenient category of topological spaces]].
 
 ## Definitions 
 
-A [[continuous map]] $f:X\to Y$ of [[topological space]]s is __$k$-continuous__
+A function $f:X\to Y$ between [[topological space]]s is __$k$-continuous__
 if for all [[compact topological space|compact]] [[Hausdorff space]]s $C$ and continuous functions $t: C \to X$ the composite $f \circ t:C \to Y$ is continuous.
  
 The following conditions on a space $X$ are equivalent:
