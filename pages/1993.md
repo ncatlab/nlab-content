@@ -13,7 +13,9 @@ $$
 
 i.e. a [[2-functor]] -- in general a weak one.
 
-A _butterfly diagram_ is a way to describe such weak 2-functors in terms of morphisms between the ordinary [[group]]s appearing in the [[crossed module]]s corresponding to $G$ and $H$.
+A _butterfly diagram_ is a way to describe such weak 2-functors in terms of morphisms between the ordinary [[group]]s appearing in the [[crossed module]]s corresponding to $G$ and $H$. 
+
+There is a more general version describing weak morphisms among internal crossed modules in [[semi-abelian categories]].
 
 
 
@@ -63,6 +65,8 @@ Butterfly between strict 2-groups have been introduced in
 * [[Behrang Noohi]], E. Aldrovandi, _Butterflies II: Torsors for 2-group stacks_,[arXiv](http://arxiv.org/abs/0910.1818)
 
 Notice that a "[[torsor]] over a [[2-group]] [[stack]]" is another term for [[principal 2-bundle]] ([[n-truncated object of an (infinity,1)-category|2-truncated]] [[principal ∞-bundle]]) in a [[(∞,1)-topos]] of [[∞-stack]]s over some [[site]].
+
+* Omar Abbad, Sandra Mantovani, Giuseppe Metere, Enrico M. Vitale, _Butterflies in a semi-Abelian context_, [arxiv/1104.4275](http://arxiv.org/abs/1104.4275)
 
 [[!redirects pappilon]]
 [[!redirects papillon]]
