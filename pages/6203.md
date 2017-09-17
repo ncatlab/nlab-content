@@ -1,8 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 ### Monoidal prederivators
 
-Let $Dia$ be a suitable [[2-category]] of [[diagram]] shapes, as used to define [[derivators]].  The 2-category $PDer$ of prederivators is the [[functor category|functor]] 2-category $[Dia,CAT]$.  As such, it is a naturally [[cartesian monoidal category|cartesian]] [[monoidal 2-category]].
+Let $Dia$ be a suitable [[2-category]] of [[diagram]] shapes, as used to define [[derivators]].  The 2-category $PDer$ of prederivators is the [[functor category|functor]] 2-category $[Dia^{op},CAT]$.  As such, it is a naturally [[cartesian monoidal category|cartesian]] [[monoidal 2-category]].
 
 A **monoidal prederivator** is simply a [[pseudomonoid]] in $PDer$.  This is equivalent to saying that it is a pseudofunctor $Dia^{op} \to MonCat$, where $MonCat$ consists of [[monoidal categories]], strong [[monoidal functors]], and [[monoidal natural transformations]].  We may similarly define [[braided monoidal category|braided]] and [[symmetric monoidal category|symmetric]] monoidal prederivators.
 
