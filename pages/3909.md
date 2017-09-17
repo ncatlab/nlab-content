@@ -83,32 +83,73 @@ where
 
 ## Details
 
-### For 4d Minkowski space
+### Twistors for 4d Minkowski space
+ {#TwistorsFor4dMinkowskiSpacetime}
 
-By the [exceptional spin isomorphism](spin+group#ExceptionalIsomorphisms) 
+We discuss the original twistors for the description of [[physics]] in 4d 
+[[Minkowski spacetime]]. In summary, twistor space of 4d Minkowski space is the space of pairs consisting of a [[momentum]] vector and an [[angular momentum]] [[tensor]] subject to the constraint that the momentum is [[lightlike]] and of definite [[helicity]].
+
+The formulation is all motivated from the form that basic quantities of [[special relativity|special relativistic physics]] take when [[vectors]] are expressed in [[spinor]] coordinates via the [exceptional spin isomorphism](spin+group#ExceptionalIsomorphisms) 
 
 $$
   Spin(3,1) \simeq SL(2,\mathbb{C})
+  \,.
 $$
 
-one may identify points $(x^i) = (x^0, x^1, x^2, x^3)$ in [[Minkowski spacetime]] with [[Hermitean matrices]]
+Under this identification a chiral [[spinor]] $\kappa$ is represented just by a pair of [[complex numbers]] $\xi, \eta \in \mathbb{C}$ and one write
 
 $$
-  \left(x^{\alpha \beta}\right)
-  \coloneqq
-  (x^i \gamma_i^{\alpha \beta})
-  =
-  \tfrac{1}{\sqrt{2}}
+  \left(
+    \kappa^\alpha
+  \right)
+  = 
   \left(
     \array{
-       x^0 + x^3 & x^1 + i x^2
-       \\
-       x^1 - i x^2 & x^0 - x^3
+     \xi
+     \\
+     \eta
     }
   \right)
+  \,.
 $$
 
-(where $\gamma_i$ denote the generators of the [[Clifford algebra]] given by the [[Pauli matrices]]). This is such that the [[Lorentz metric]] [[norm]] is just the [[determinant]] of this [[matrix]]
+Moreover, via the non-degenerate bilinear pairing
+
+$$
+  \Gamma \;\colon\; S \otimes S \longrightarrow V
+$$
+
+given by the [[Clifford algebra]] (see at [[spin representation]] for details) one can express vectors
+
+$$
+  (x^i) = (x^0, x^1, x^2, x^3)
+$$ 
+
+in [[Minkowski spacetime]] as "bi-spinors" given by 2x2 [[Hermitean matrices]]
+
+$$
+  \begin{aligned}
+    \left(x^{\alpha \beta}\right)
+    & \coloneqq
+    (x^i \gamma_i^{\alpha \beta})
+    \\
+    & 
+    =
+    \tfrac{1}{\sqrt{2}}
+    \left(
+      \array{
+         x^0 + x^3 & x^1 + i x^2
+         \\
+         x^1 - i x^2 & x^0 - x^3
+      }
+    \right)
+  \end{aligned}
+  \,,
+$$
+
+where $\gamma_i$ denote the generators of the [[Clifford algebra]] given by the [[Pauli matrices]]. 
+
+This is such that the [[Lorentz metric]] [[norm]] is just the [[determinant]] of this [[matrix]]
 
 $$
   \Vert \left(x^i\right) \Vert 
@@ -117,20 +158,35 @@ $$
   \,.
 $$
 
-A rank-2 [[tensor]] (2-from) $(F_{i j})$ with $F_{i j} = - F_{j i}$ has spinorial expression of the simple form
+This spinorial re-expression of vectors turns out to yield very efficient expressions particularly for those kinds of terms that appear in the observed physics of massless chiral particles, such as they appear in the [[standard model of particle physics]]. 
+
+
+For instance a skew rank-2 [[tensor]] (2-from) $(F_{i j})$ with $F_{i j} = - F_{j i}$ (for instance the [[field strength]] of an [[electromagnetic field]]) has spinorial expression of the simple form
+
+$$
+  \begin{aligned}
+    F_{\alpha_1 \beta_1 \alpha_2 \beta_2}
+    & \coloneqq
+    F_{i_1 i_2} \gamma^{i_1}_{\alpha_1 \beta_1} \gamma^{i_2}_{\alpha_2 \beta_2}
+    \\
+    & = 
+    \phi_{\alpha_1 \alpha_2} \epsilon_{\beta_1 \beta_2}
+    + 
+    \psi_{\beta_1 \beta_2} \epsilon_{\alpha_1 \alpha_2}
+  \end{aligned}
+$$
+
+for complex numbers $(\phi_{\alpha_1 \alpha_2})$ and $(\psi_{\beta_1 \beta_2})$. Here if $F$ itself is a real-number valued, then $\psi$ is the [[complex conjugate]] of $\phi$ and hence any real 2-form is encoded equivalently by a bispinor $\phi$ via
 
 $$
   F_{\alpha_1 \beta_1 \alpha_2 \beta_2}
   \coloneqq
-  F_{i_1 i_2} \gamma^{i_1}_{\alpha_1 \beta_1} \gamma^{i_2}_{\alpha_2 \beta_2}
-  = 
   \phi_{\alpha_1 \alpha_2} \epsilon_{\beta_1 \beta_2}
   + 
-  \psi_{\beta_1 \beta_2} \epsilon_{\alpha_1 \alpha_2}
-  \,.
+  \overline{\phi}_{\beta_1 \beta_2} \epsilon_{\alpha_1 \alpha_2}
 $$
 
-Crucially its [[Hodge star|Hodge dual]] has the simple expression
+Crucially the [[Hodge star|Hodge dual]] of a 2-form has then the simple expression
 
 $$
   (\star F)_{\alpha_1 \beta_1 \alpha_2 \beta_2}
@@ -138,7 +194,65 @@ $$
   - i \phi_{\alpha_1 \alpha_2} \epsilon_{\beta_1 \beta_2}
   + 
   i \psi_{\beta_1 \beta_2} \epsilon_{\alpha_1 \alpha_2}  
+  \,,
 $$
+
+which is the first sign that [[self-dual Yang-Mills theory]] has a simpler expression in terms of such spinorial coordinates.
+
+Now for the description of an [[elementary particle]] one assigns the [[momentum]] 4-vector $(p^i)$ and its [[angular momentum]] [[tensor]] $(M^{i j})$. A **twistor** is effectively a pair of spinorial coordinates expression this data for _massless_ and _chiral_ particles.
+
+Here chiral means this: from combining the [[momentum]] and [[angular momentum]] one obtains the  [[Pauli-Lubanski vector]]
+
+$$
+  S_i \coloneqq \tfrac{1}{2} (\star M)_{i j} p^j
+$$
+
+and chiral particles satisfy 
+
+$$
+  S_i  = s p_i
+$$
+
+for some constant $s$. 
+
+A _twistor_ is a set of spinorial coordinates for encoding tensors $\left(\left(p^i\right), \left(M^{i j}\right)\right)$ which satisfy
+
+1. masslessness: $p^i p_i = 0$
+
+1. chirality $S_i = s p_i$.
+
+By the discussion at _[[celestial sphere]]_ we have that the first condition means equivalently that there is a single [[spinor]] $(\pi_\alpha)$ such that the spinorial expression for the momentum is
+
+$$
+  p_{\alpha \beta} = \pi_\alpha \overline{\pi}_\beta
+  \,.
+$$
+
+By the above discussion of 2-forms we know moreover that $M^{i j}$ is encoded by a bispinor $\mu_{\alpha \beta}$ and imposing the chirality constraint one finds, using the above formula for the Hodge dual, that its solutions are parameterized precisely by another spinor $(\omega_\alpha)$ via
+
+$$
+  \overline{\mu}_{\alpha \beta} = i \omega_{(\alpha} \overline{\pi}_{\beta)}
+$$
+
+(where the parenthesis denote symmetrization of indices).
+
+In summary then the possible momentum and angular momentum $(p^i, M^{i j})$ of massless chiral particles in 4d Minkowski spacetime is parameterized precisely by pair of spinors
+
+$$
+  Z = 
+  \left(
+    (\omega^\alpha), (\pi_\beta)
+  \right)
+  \in 
+  \mathbb{C}P^3
+$$
+
+modulo a global rescaling, hence by quadruples of complex numbers modulo global rescaling, hence by elements in the [[complex projective space]] $\mathbb{C}P^3$.
+
+These elements are Penrose's _twistors_.
+
+
+
 
 
 ## Related concepts
