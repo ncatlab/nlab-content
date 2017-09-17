@@ -28,8 +28,7 @@
 
     * [[(infinity,1)-sheaf]]
 
-
-
+category: sheaf theory
  
 
 
