@@ -26,19 +26,19 @@
 
 In fundamental [[physics]] the basic entities that are being described are called _fields_, as they appear in the terms _[[classical field theory]]_ and _[[quantum field theory]]_.
 
-The basic example that probably gives the whole concept is name is the [[electric field]] and the [[magnetic field]] in the [[theory (physics)|theory]] of [[electromagnetism]]: if we fix a [[coordinate chart]] of [[spacetime]], then the [[electromagnetic field]] splits into the [[electric field]] and the [[magnetic field]] which are both modeled by a _[[vector field]]_, traditionally denoted $\vec E$ and $\vec B$, respectively, on this coordinate chart. The value $\vec E(x)$ of the vector field at a given point of spacetime is a [[vector]] that expresses the magnitude and direction of the electric [[force]] that is excerted on an [[electric charge|electrically charged]] [[particle]] at $x$. 
+The basic example that probably gives the whole concept its name is the [[electric field]] and the [[magnetic field]] in the [[theory (physics)|theory]] of [[electromagnetism]]: if we fix a [[coordinate chart]] of [[spacetime]], then the [[electromagnetic field]] splits into the [[electric field]] and the [[magnetic field]] which are both modeled by a _[[vector field]]_, traditionally denoted $\vec E$ and $\vec B$, respectively, on this coordinate chart. The value $\vec E(x)$ of the vector field at a given point of spacetime is a [[vector]] that expresses the magnitude and direction of the electric [[force]] that is exerted on an [[electric charge|electrically charged]] [[particle]] at $x$. 
 
-But in general a _field_ in physics need not be a [[vector field]]. In fact more fundamentally, if we do not specify a [[coordinate chart]], then the [[electromagnetic field]] is not in fact represented by two fector field. Rather, its [[field strength]] is represented by a [[differential 2-form]] and the the whole field as such is a [[cocycle]] of degree-2 in [[ordinary differential cohomology]]: a [[circle n-bundle with connection|circle bundle with connection]].
+But in general a _field_ in physics need not be a [[vector field]]. In fact more fundamentally, if we do not specify a [[coordinate chart]], then the [[electromagnetic field]] is not in fact represented by two vector fields. Rather, its [[field strength]] is represented by a [[differential 2-form]] and the the whole field as such is a [[cocycle]] of degree-2 in [[ordinary differential cohomology]]: a [[circle n-bundle with connection|circle bundle with connection]].
 
 Similar statements hold for all [[forces]] of nature, such as the force of [[gravity]] and the [[weak nuclear force]] and [[strong nuclear force]]: a configuration of these is mathematically modeled by what mathematically are _[[tensor]] fields_ and [[connection on a bundle|connections]], hence one speaks of the _field of gravity_ etc.
 
 The [[electromagnetic field]] and the field of [[gravity]] are the physical fields that historically gave rise to what is now called _[[classical field theory]]_. But it turns out that fundamentally, in [[quantum physics]], also all [[matter]] in physics is constituted by fields in a similar sense. Specifically, where [[force]] fields in physics are usually [[connection on a bundle|connections on a bundle]], matter fields are [[sections]] of bundles. 
 
-Indeed, a standard proposals to formalize the notion of _physical field_ is to declare that a [[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$, and that a field configuration of the system is a [[section]] of this field bundle, see for instance the discussion at the beginning of _[[multisymplectic geometry]]_ for more on such field bundles. (Also connections can be encoded as sections of suitable bundles).
+Indeed, a standard proposal to formalize the notion of _physical field_ is to declare that a [[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$, and that a field configuration of the system is a [[section]] of this field bundle, see for instance the discussion at the beginning of _[[multisymplectic geometry]]_ for more on such field bundles. (Also connections can be encoded as sections of suitable bundles.)
 
 While this goes in the right direction, it cannot be quite the final answer:
 
-some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geomtric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a secton of any ordinary [[fiber bundle]]. For instance an accurate description of _[[magnetic charge]]_ (as discussed there) shows that it is represented by such a 2-connection.
+some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geometric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a secton of any ordinary [[fiber bundle]]. For instance an accurate description of _[[magnetic charge]]_ (as discussed there) shows that it is represented by such a 2-connection.
 
 Below we discuss a natural unified formulation of the notion of physical field in terms of [[higher geometry]] and spell out many examples.
 
@@ -93,7 +93,7 @@ In this context we say that
 
 * the [[dependent sum]] $X \coloneqq \underset{\mathbf{BgField}}{\sum} \Phi_X$ is the **[[worldvolume]]** or **[[spacetime]]**;
 
-* the morphsim $\Phi_X \;\colon\; X \to \mathbf{BgFields}$ is the **[[background field]]**;
+* the morphism $\Phi_X \;\colon\; X \to \mathbf{BgFields}$ is the **[[background field]]**;
 
 * the object $\mathbf{Fields}$ is the **[[moduli ∞-stack]] of fields**;
 
@@ -144,7 +144,7 @@ If one focuses on the [[critical locus]] of an [[action functional]] as above th
 
 If however one considers the [[quantization]] of an action functional as above, then one tends to speak of [[quantum fields]].
 
-But even this distinction is not uniform in the literature. For instance if $\mathbf{H}$ is something like the collection of [[smooth super ∞-groupoids]], then there are [[fermion]] fields (see the example [Fermions](#Fermions) below) that qualify as classical fields by all accounts above, but are often referred to as quantum fields only. (This is a related to a common mistake in some textbook, the false assertion that there is no [[classical field theory]] of fermion fields, originating in a misappreciation of [[supergeometry]].) 
+But even this distinction is not uniform in the literature. For instance if $\mathbf{H}$ is something like the collection of [[smooth super ∞-groupoids]], then there are [[fermion]] fields (see the example [Fermions](#Fermions) below) that qualify as classical fields by all accounts above, but are often referred to as quantum fields only. (This is a related to a common mistake in some textbooks, the false assertion that there is no [[classical field theory]] of fermion fields, originating in a misappreciation of [[supergeometry]].) 
 
 =--
 
