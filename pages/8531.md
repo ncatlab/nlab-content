@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[right adjoint]] to _[[restriction of scalars]]_. See at _[[extension of scalars]]_ for more.
+
+## References
+
+* H. Fausk, P. Hu, [[Peter May]], _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+
+
+[[!redirects coextensions of scalars]]
