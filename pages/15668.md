@@ -17,6 +17,10 @@ Reviews of the basic definition include
 
 * Wikipedia, _[Drinfeld module -- Shtuka](http://en.wikipedia.org/wiki/Drinfeld_module#Shtukas)_
 
+Definition 1 in 
+
+* {#ScholzeWeinstein14} [[Jared Weinstein]], notes from lecture by [[Peter Scholze]], _Peter Scholze's lectures on $p$-adic geometry_, MSRI 2014 ([pdf](http://math.bu.edu/people/jsweinst/Math274/ScholzeLectures.pdf))
+
 More conceptual discussion, in the context of the [[function field analogy]], is in 
 
 * {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
