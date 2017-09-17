@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The standard [[model (in theoretical physics)]] for the observed [[cosmology]]:
+
+an [[FRW spacetime]] with [[cosmological constant]] and cold [[dark matter]].
+
+## Related concepts
+
+* [[standard model of particle physics]]
+
+## References
+
+* Wikipedia, _[Lambda-CDM model](http://en.wikipedia.org/wiki/Lambda-CDM_model)_
+
