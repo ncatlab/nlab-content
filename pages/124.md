@@ -212,6 +212,8 @@ For various applications one uses toposes that have [[stuff, structure, property
 
   [[base topos]], [[indexed topos]] 
 
+  [[predicative topos]]
+
 * [[(∞,1)-topos]] 
 
   * [[(∞,1)-category of (∞,1)-sheaves]]
