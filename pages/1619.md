@@ -1,10 +1,15 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
-
+=--
+=--
+=--
 # Contents #
-
-* automatic table of contents
+* table of contents
 {:toc}
 
 A _string structure_ on a [[manifold]] is a higher version of a [[spin structure]]. A string structure on a [[manifold]]  with [[spin structure]] given by a [[Spin group]]-[[principal bundle]] to which the [[tangent bundle]] is [[associated bundle|associated]] is a lift $\hat g$ of the classifying map $g : X \to \mathcal{B} Spin(n)$ through the  third nontrivial step $\mathcal{B}String(n) \to \mathcal{B}String(n)$ in the [[Whitehead tower]] of $BO(n)$ to a [[String group]]-[[principal bundle]]:
@@ -219,6 +224,20 @@ This uses
       {*} &\to& B Spin
     }
   $$
+
+## Twisted and differential string structures
+
+The [[2-groupoid]] of string structures is the [[homotopy fiber]] of 
+
+$$
+  \frac{1}{2}p_1 : Top(X, \mathcal{B}Spin) \to Top(X, \mathcal{B}^4 \mathbb{Z})
+$$
+
+over the trivial cocycle. Followowing the general logic of [[twisted cohomology]] the 2-groupoids over a nontrivial cocycle $c : X \to \mathcal{B}^4 \mathbb{Z}$ may be thought of as that of _twisted_ string structures.
+
+The [[Pontryagin class]] $\frac{1}{2}p_1$ refines to the [[smooth first fractional Pontryagin class]] $\frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$. That leads to [[differential string structure]]s.
+
+(...)
 
 
 ## References ##
