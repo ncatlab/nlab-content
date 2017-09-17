@@ -159,3 +159,6 @@ See also
 
 
 [[!redirects D-modules]]
+
+[[!redirects twisted D-module]]
+[[!redirects twisted D-modules]]
