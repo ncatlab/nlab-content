@@ -55,6 +55,10 @@ This is an [[isomorphism]] at least for $G$ a [[compact topological group]] and 
 ## Theorems
  {#Theorems}
 
+### Green-Rosenberg-Julg theorem
+
+The Green-Rosenberg-Julg theorem identifies [[equivariant K-theory]] with the [[operator K-theory]] of [[crossed product algebras]].
+
 +-- {: .num_theorem #GreenJulgTheorem}
 ###### Theorem
 **(Green-Julg theorem)**
@@ -79,7 +83,7 @@ Let $G$ be a [[topological group]] acting on a [[C*-algebra]] $A$.
 
 =--
 
-([Green-Julg](#GreenJulg)). A [[KK-theory]]-proof is in ([Echterhoff, theorem 0.2](#Echterhoff)); a textbook account is in ([Blackadar, 20.2.7](#Blackadar)). See also around ([Land 13, prop. 41](#Land13)).
+This goes back to ([Green 82](#Green82)), ([Julg 81](#Julg81)). A [[KK-theory]]-proof is in ([Echterhoff, theorem 0.2](#Echterhoff)); a textbook account is in ([Blackadar, 11.7, 20.2.7](#Blackadar)). See also around ([Land 13, prop. 41](#Land13)).
 
 
 ## References
@@ -94,7 +98,7 @@ Introductions and surveys include
 
 * [[Paul Baum]], _The Baum-Connes conjecture, localisation of categories and quantum groups_, 2008 ([pdf](http://www.mimuw.edu.pl/~pwit/TOK/sem8/files/Baum_bcclcqg.pdf))
 
-Textbook discussion is in 
+Textbook discussion is in sections 11.7 and  20.2.7 of
 
 * [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
  {#Blackadar}
@@ -138,10 +142,18 @@ Proofs for some cases are in
 * [[Gennady Kasparov]], _Equivariant KK-theory and the Novikov conjecture_, Inventiones Mathematicae, vol. 91, p.147, 1988([web](http://adsabs.harvard.edu/abs/1988InMat..91..147K)) 
  {#Kasparov88}
 
-and the Green-Julg theorem is in 
+The "Green-Julg theorem" for commutative algebra and finite group is due to [[Michael Atiyah]], for commutative algebra and general group due to 
 
-* Green, Julg, ..
- {#GreenJulg}
+* P. Green, _Equivariant if-theory and crossed product C*- algebras_, pp.  337-338 in Operator algebras and applications (Kingston, Ont., 1980), vol. 1, edited 
+by R. V. Kadison, Proc. Sympos. Pure Math. 38, Amer. Math. Soc, Providence, 1982. 
+{#Green82}
+
+and the general case is due to an unpublished result by Green and [[Jonathan Rosenberg]] and independently due to 
+
+* P. Julg, _K-theorie equivariante et produits croises_, C. R. Acad. Sci.  Paris Ser. I Math. 292:13 1981, 629-632. 
+ {#Julg81}
+
+Further discussion is in
 
 * Siegfried Echterhoff, _The Green-Julg theorem_ [pdf](http://wwwmath.uni-muenster.de/u/paravici/Focused-Semester/lecturenotes/green-julg-Echterhoff.pdf)
  {#Echterhoff}
