@@ -362,6 +362,8 @@ See [[connection on a principal ∞-bundle]].
 
     * [[equivariant connection]]
 
+    * [[logarithmic connection]]
+
   * [[moduli space of connections]]
 
   * [[fiber bundles in physics]]
