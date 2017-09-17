@@ -54,6 +54,15 @@ More generally, one may start with construction with other objects that map to [
 For $R$ a [[commutative ring]], and $R$[[Mod]] its [[category of modules]] ([[projective modules]]), then $\mathcal{K}(R Mod)$ is Quillen's [[algebraic K-theory]] of $R$.
 More generally this reproduces the [[K-theory of a permutative category]] etc. ([Nikolaus 13, section 6](#Nikolaus13)).
 
+## Examples
+
+### On monoidal stacks
+
+Algebraic K-theory is traditionally applied to single [[symmetric monoidal (∞,1)-categories|symmetric monoidal]]/[[stable (∞,1)-category|stable]] [[(∞,1)-categories]], but to the extent that it is [[(∞,1)-functor|functorial]] it may just as well be applied to [[(∞,1)-sheaves]] with values in these.
+
+Notably, applied to the monoidal [[stack]] of [[vector bundles]] (with [[connection on a bundle|connection]]) on the [[site]] of [[smooth manifolds]], the [[K-theory of a symmetric monoidal (∞,1)-category|K-theory of a monoidal category]]-functor produces a [[sheaf of spectra]] which is a form of [[differential K-theory]] and whose [[geometric realization]] is the [[topological K-theory]] spectrum. For more on this see at _[differential cohomology hexagon -- Differential K-theory](differential%20cohomology%20diagram#DifferentialKTheory)_.
+
+
 
 ## Related concepts
 
