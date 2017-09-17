@@ -29,15 +29,17 @@ the standard [[absolute value]] ([[norm]]) on the [[rational numbers]] $\mathbb{
 
 In direct analogy with this:
 
-for $p$ a [[prime number]] and $\mathbb{Q}_p$ the corresponding [[non-archimedean field]] of [[p-adic rational numbers]], then the [[complete field|completion]] of any [[algebraic closure]] $\bar \mathbb{Q}_p$ is the field of complex $p$-adic numbers $\mathbb{C}_p$.
+for $p$ a [[prime number]] and $\mathbb{Q}_p$ the corresponding [[non-archimedean field]] of [[p-adic rational numbers]], then the [[complete field|completion]] of any [[algebraic closure]] $\bar \mathbb{Q}_p$ is the field of complex $p$-adic numbers $\mathbb{C}_p$. 
 
-See also at _[normed field -- relation to algebraic closure](http://ncatlab.org/nlab/show/normed+field#RelationToAlgebraicClosure)_.
+Notice that the completion of the algebraic closure of a [[normed field]] is still algebraically closed ([Bosch-Guntzer-Remmert 84, prop. 3.4.1.3](#BoschGuntzerRemmert84)). See also at _[normed field -- relation to algebraic closure](http://ncatlab.org/nlab/show/normed+field#RelationToAlgebraicClosure)_.
 
 ## References
 
 * L. C. Washington, _Introduction to Cyclotomic Fields_, Springer-Verlag, New York.
 
 * PlanetMath, _[complex p-adic numbers](http://planetmath.org/complexpadicnumbers)_
+
+* {#BoschGuntzerRemmert84} S. Bosch, U. Guntzer, and R. Remmert, _Non-Archimedean analysis_, Grundlehren der Mathematischen Wissenschaften, vol. 261, Springer-Verlag, Berlin, 1984.
 
 [[!redirects p-adic complex numbers]]
 
