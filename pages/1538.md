@@ -31,6 +31,16 @@ Therefore
 
 * the weight in the path integral over all $\phi$ for $n$-dimensional $X$ (i.e. in codimension 0) is the [[groupoid cardinality|groupoid measure]] of the [[functor category]] $[\Pi_1(X), \mathbf{B}G]$.
 
+##Finite Group Cohomology
+
+To understand Dijkgraaf-Witten theory, it may be helpful to take a step backwards and consider finite group cohomology.
+
+Here we have a finite (or discrete) group $G$, and a discrete abelian group $A$, and we want to define $H^n(G;A)$. A way of doing this is to realize everything topologically: from $G$ we build the classifying space $\mathcal{B}G$, and from $A$ the Eilenberg-MacLane space $\mathcal{B}^n A=K(A,n)$. Then we consider the space of maps $hom(\mathcal{B}G,\mathcal{B}^nA)$ (these are our cocycles) and take its $\pi_0$.
+
+This way we have a, in a certain sense familiar (topological spaces, continuous maps, homotopies,..), description of the set $H^n(G;A)$. The drawback is that the topological spaces involved here are "gigantic" (infinite dimensional CW-complexes), where we had started with a very "little" datum: a finite group. So one can wonder if there is a finite model for the above construction, and the homotopy hypotesis serves it on a silver plate. Namely, since $G$ is discrete, $\mathcal{B}G$ is a 1-type, and nothing but the topological realization of the delooping groupoid $\mathbf{B}G$ (boldface $B$ here); similarly $\mathcal{B}^n A$ is the topological realization of the $n$-groupoid $\mathbf{B}^n A$, and the space of cocycles is $hom(B G,B^n A)$. since $G$ is a finite group, $B G$ is a finite groupoid, and so $hom(B G,B^n A)$ is a finite set. This set is the finite model for $hom(\mathcal{B}G,\mathcal{B}^n A)$ we were looking for.
+
+To be continued...
+
 ## Remarks
 
 Dijkgraaf-Witten theiry is to be thought of as the finite group version of [[Chern-Simons theory]]. Chern-Simons theory looks formally just as the above, only that all finite $n$-groupoids appearing here are replaced by smooth $n$-groupoids ([[infinity-stack]]s on $Diff$).
@@ -61,7 +71,7 @@ Section 3 of
 
 proposes a general abstract nonsense way to construct [[path integral]] quantizations for finite group theories such as DW.
 
-For more on this see
+For more on this see the discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1046&Focus=8337#Comment_8337).
 
 ...
 
