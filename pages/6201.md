@@ -1558,6 +1558,7 @@ in $Smooth \infty Grpd$.
 
 
 #### With coefficients in $\mathbf{B}^n U(1)$ or $\mathbf{B}^n \mathbb{R}$
+ {#deRhamCoefficientsInBnU1}
 
 Let $\mathbf{B}^n U(1)$ be the circle Lie $(n+1)$-group, as 
 discussed [above](#CircleLienGroup). Recall the notation and 
@@ -2049,6 +2050,7 @@ Finally the same argument that above showed that no nontrivial automorphisms of 
 
 
 #### With coefficients in $\mathbf{B}G$ for a Lie group $G$ 
+ {#deRhamWithCoefficientsInBOfLieGroup}
 
 Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for its 
 [[Lie algebra]].
