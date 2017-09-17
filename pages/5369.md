@@ -15,7 +15,9 @@
 
 ## Idea
 
-A [[model category]] structure on the category of [[dg-categories]] that exhibits them as a presentation for [[stable (infinity,1)-categories]].
+The [[model structure on enriched categories]] gives in particular a model structure on dg-categories, called the _Dwyer-Kan model structure_, which is analogous to the usual [[model structure on sSet-categories]] which models [[(infinity,1)-categories]].
+
+There are interesting [[left Bousfield localizations]] of this model structure, called the _quasi-equiconic_ and _Morita_ model structures.  Here the [[fibrant objects]] are the [[pretriangulated dg-categories]], resp. [[idempotent complete category|idempotent complete]] [[pretriangulated dg-categories]].  In characteristic zero, the Morita model structure is known to present the [[(infinity,1)-category]] of linear [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)).
 
 ## Statement
 
