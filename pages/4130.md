@@ -5,7 +5,9 @@
 
 ## Idea
 
-**Subdivision** is a functorial process which takes as input some combinatorial notion of space (for example, a [[simplicial complex]] or [[simplicial set]]) and produces as output a more finely meshed space. 
+**Subdivision** is a usually functorial process which takes as input some combinatorial notion of space (for example, a [[simplicial complex]] or [[simplicial set]]) and produces as output a more finely meshed space. It is related to the notion of [[classical triangulation|classical subdivision]].
+
+
 
 ## Definition and Properties
 
@@ -42,6 +44,8 @@ Each of the four composite functors displayed on the left sides of these [[isomo
 ## Applications
 
 The functor $nerve \circ Face$ can be used to construct [[Kan fibrant replacement]]s in the [[model structure on simplicial sets]]. In that context it is usually called "$Ex$".
+
+This functorial subdivision corresponds to the classical [[barycentric subdivision]].  Other [[classical triangulation|classical subdivision]]s that are frequently encountered include the middle edge subdivision.  This latter is closely related to the [[ordinal subdivision]] of simplicial sets.
 
 
 [[!redirects subdivisions]]
