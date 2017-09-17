@@ -33,6 +33,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Chris Schommer-Pries]]
 * [[Claire Tomesch]]
 * [[Colin Tan]]
+* [[Dan Christensen]]
 * [[dan|Dan Lior]]
 * [[Daniel de França MTd2|Daniel de França]] [[Daniel de Fran?a MTd2|MTd2]]
 * [[Daniel Schäppi]]
