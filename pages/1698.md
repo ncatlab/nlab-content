@@ -319,6 +319,52 @@ $$
 
 The same logic -- even the same diagrams -- work for [[principal 2-bundles]] and generally for [[principal ∞-bundles]].
 
+### Action groupoids {#ActionGroupoid}
+
+Let $G$ be an [[∞-group]] in that $\mathbf{B}G$ is an [[∞-groupoid]] with a single object. An action of $G$ on an [[(∞,1)-category]] is an [[(∞,1)-functor]]
+
+$$
+  \rho : \mathbf{B}G \to (\infty,1)Cat
+$$
+
+to [[(∞,1)Cat]]. This takes the single object of $\mathbf{B}G$ to some $(\infty,1)$-category  $V$.
+
+The _[[action groupoid]]_ $V//G$ is the [[limit in a quasi-category|(∞,1)-categorical colimit]] over the action:
+
+$$
+  C//G := \lim_\to \rho
+  \,.
+$$
+
+By the result [described here](http://ncatlab.org/nlab/show/limit+in+a+quasi-category#WithValInooGrpd) this is, equivalent to the pullback of the "universal $(\infty,1)Cat$-bundle" $Z \to (\infty,1)Cat$, namely to the [[coCartesian fibration]]
+
+$$
+  \array{
+    V//G &\to& Z
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G &\stackrel{\rho}{\to}& (\infty,1)Grpd
+  }
+$$
+
+classified by $\rho$ under the [[(∞,1)-Grothendieck construction]]. We obtain a [[fiber sequence]] to the left by adjoining the $(\infty,1)$-categorical pullback along the point inclusion $* \to \mathbf{B}G$
+
+$$
+  \array{
+    V&\to& V//G &\to& Z
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\to& \mathbf{B}G &\stackrel{\rho}{\to}& (\infty,1)Grpd
+  }
+  \,.
+$$
+
+The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\infty,1)Cat$ over the $(\infty,1)$-category $C$, which is $V$ itself, as indicated.
+
+Notice that every fibration sequence $V \to V//G \to \mathbf{B}G$ with $V//G \to \mathbf{B}G$ a [[coCartesian fibration]] arises this way, up to equivalence.
+
 
 ### Integral versus real cohomology {#Integralreal}
 
