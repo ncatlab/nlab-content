@@ -1,0 +1,65 @@
+# Contents 
+* table of contents 
+{: toc} 
+
+## Introduction 
+
+This article is about structure on a closed interval of real numbers, generally taken to be $I = [0, 1]$, that is derivable from a [[coalgebra of an endofunctor|coalgebraic]] perspective. This topic was introduced by Freyd. 
+
+## Coalgebraic description of $I$ 
+
+For the moment we work classically, over the category $Set$. A _bipointed set_ is a [[cospan]] of the form 
+
+$$\array{
+1 & & & & 1 \\
+ & ^\mathllap{x_0} \searrow & & \swarrow^\mathrlap{x_1} & \\
+ & & X & & 
+}$$ 
+
+where $x_0$ and $x_1$ might coincide. There is a monoidal product on $Cospan(1, 1)$ given by cospan composition (formed by taking pushouts); this monoidal product is denoted $\vee$. The monoidal unit is a 1-element set with its unique bipointed structure. The category of such cospans or bipointed sets is denoted $Cos$. 
+
+Inside $Cos$ is the full subcategory of _two-pointed_ sets, where $x_0$ and $x_1$ are distinct. (N.B. When we go beyond the classical case, we need a more refined analysis involving notions of apartness, separation, etc.) Let $Twop$ be the category of two-pointed sets. The monoidal product $\vee$ restricts to a functor 
+
+$$\vee \colon Twop \times Twop \to Twop$$ 
+
+and one can define the square 
+
+$$sq = (Twop \stackrel{\Delta}{\to} Twop \times Twop \stackrel{\vee}{\to} Twop)$$ 
+
+A **$sq$-coalgebra** is a two-pointed set $X$ together with a map $\xi: X \to X \vee X$. An example is given by $I = [0, 1]$, where $I \vee I$ is identified with the interval $[0, 2]$ and the coalgebra structure $I \to I \vee I$ is identified with multiplication by $2$, $[0, 1] \to [0, 2]$. This map will be denoted $\alpha$. 
+
++-- {: .un_theorem} 
+###### Theorem (Freyd) 
+$(I, \alpha)$ is terminal in the category of $sq$-coalgebras. 
+=-- 
+
+## Corecursively defined operations on $I$ 
+
+We now define a number of operations on $I$. For $0 \leq x \leq 1$, define ${x \uparrow} \coloneqq \min(2 x, 1)$ and ${x \downarrow} \coloneqq \max(2 x - 1, 0)$. These give unary operations on $I$ which can also be defined as maps in $Cos$ using the coalgebra structure $\alpha$: 
+
+$$I \stackrel{{(-) \uparrow}}{\to} I = (I \stackrel{\alpha}{\to} I \vee I \stackrel{I \vee !}{\to} I \vee 1 \cong I)$$ 
+
+$$\,$$ 
+
+$$I \stackrel{{(-) \downarrow}}{\to} I  = (I \stackrel{\alpha}{\to} I \vee I \stackrel{! \vee I}{\to} 1 \vee I \cong I)$$ 
+
+We similarly define unary operations ${(-)\uparrow}$, ${(-) \downarrow}$ for any $sq$-coalgebra $(X, \xi)$. For any coalgebra $X$ and $x \in X$, either ${x \downarrow} = x_0$ or ${x \uparrow} = x_1$. Moreover, if $i_0 \colon X \to X \vee X$ and $i_1 \colon X \to X \vee X$ are the evident pushout inclusions, we have $\xi(x) = i_0({x \uparrow})$ if ${x \downarrow} = x_0$, and $\xi(x) = i_1({x \downarrow})$ if ${x \uparrow} = x_1$. This means that coalgebra structures can be recovered from algebraic structures consisting of two constants $x_0, x_1$ and two unary operations $\uparrow$, $\downarrow$, although we must consider a coherent but non-algebraic axiom 
+
+$$\vdash {x \uparrow} = x_1 or {x \downarrow} = x_0$$ 
+
+Next, we define meet and join operations on $I$, making it a lattice, by exploiting corecursion. A slick corecursive definition of the order $\leq$ is that $x \leq y$ 
+
+* if ${x \downarrow} = 0$ and ${x \uparrow} \leq {y \uparrow}$, or 
+
+* if ${y \uparrow} = 1$ and ${x \downarrow} \leq {y \downarrow}$. 
+
+If one prefers to work with operations, one could define the meet operation $\wedge \colon I \times I \to I$ by putting a suitable coalgebra structure on $I \times I$ and using terminality of the coalgebra $I$ to define $\wedge$ as a coalgebra map. A coalgebra structure 
+
+$$\xi \colon I \times I \to (I \times I) \vee (I \times I)$$ 
+
+which works is 
+
+* $\xi(x, y) = i_0({x \uparrow}, {y \uparrow})$ if ${x \downarrow} = 0$ or ${y \downarrow} = 0$; 
+
+* $\xi(x, y) = i_1({x \downarrow}, {y \downarrow})$ if ${x \uparrow} = 1 = {y \uparrow}$. 
+
