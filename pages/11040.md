@@ -23,7 +23,7 @@
 
 ## Idea
 
-In [[logic]], _comprehension_ is the passage from a [[predicate]] $P(x)$ on some [[set]] or [[type]] $X$ to the [[subset]] or [[subtype]] $\{ x \in X | P(x)\}$ of those [[elements]] of $X$ that satisfy $P$, often called the _extension_ of $P(x)$.
+In [[logic]], _comprehension_ is the passage from a [[predicate]] $P(x)$ on some [[set]] or [[type]] $X$ to the [[subset]] or [[subtype]] $\{ x \in X | P(x)\}$ of those [[elements]] of $X$ that satisfy $P$, often called the _[[extension (semantics)|extension]]_ of $P(x)$.
 
 
 ## Definition
@@ -36,7 +36,7 @@ This section describes [[Lawvere]]'s formulation ([Lawvere70, p. 12-13](#Lawvere
 
 Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E_X$ of $E$ has a [[terminal object]] $\top_X$.  For any [[morphism]] $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward $t_!{\top_Y}$.  This gives rise to a functor $im \colon B/X \to E_X$ for each $X$.  Then $E$ is said to _have comprehension_, or to satisfy the _comprehension schema_, if each image functor has a [[right adjoint]] $\{-\} \colon E_X \to B/X$.
 
-This means that for each $P \in E_X$ there is a morphism $i_P \colon \{ P \} \to X$ in $B$ such that there is a [[bijection]] between commuting triangles $t = i_P \circ t'$ in $B$ and morphisms $im t \to P$ in $E_X$.  Lawvere calls the morphism $\{P\} \to X$ the _extension_ of $P$, so that one could say that $E$ satisfies the comprehension schema if the extensions of all predicates exist.
+This means that for each $P \in E_X$ there is a morphism $i_P \colon \{ P \} \to X$ in $B$ such that there is a [[bijection]] between commuting triangles $t = i_P \circ t'$ in $B$ and morphisms $im t \to P$ in $E_X$.  Lawvere calls the morphism $\{P\} \to X$ the _[[extension (semantics)|extension]]_ of $P$, so that one could say that $E$ satisfies the comprehension schema if the extensions of all predicates exist.
 
 ### Jacobs' reformulation
 
@@ -58,7 +58,7 @@ More generally, the same construction works for the posets of subobjects in any 
 
 There is a functor $Cat_1^{op} \to CAT_1$, from the [[large category|large]] [[Cat|1-category of categories]] and functors to the '[[very large category|very large]]' 1-category of large categories and functors, that sends a category $C$ to the [[category of presheaves]] $[C^{op}, Set]$  on $C$, and a functor $F \colon C \to D$ to the pullback functor $F^* \colon [D^{op}, Set] \to [C^{op}, Set]$.  These pullback functors have left and right adjoints given by [[Kan extension]].
 
-[Lawvere 70](#Lawvere70) shows that this fibration has comprehension, with the extension of a presheaf given by its [[category of elements]] together with the canonical projection from this to the base category.
+[Lawvere 70](#Lawvere70) shows that this fibration has comprehension, with the [[extension (semantics)|extension]] of a presheaf given by its [[category of elements]] together with the canonical projection from this to the base category.
 
 
 ## References
