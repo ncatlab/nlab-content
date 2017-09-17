@@ -365,11 +365,11 @@ $$
   =
   \left\{
      \omega_0 + \omega_1 d t
-     |
-     \omega_1 \in F^1 L^1 [t], \omega_1 \in F^1 L^0 [t]
-     , 
+     |\quad 
+     \omega_1 \in F^1 L^1 [t],\quad \omega_1 \in F^1 L^0 [t]
+     , \quad 
      d_L \omega_0 + [\omega_1, \omega_1] = 0,
-     d_{dR} \omega_0 + [\omega_1, \omega_0] = 0
+     \quad d_{dR} \omega_0 + [\omega_1, \omega_0] = 0
   \right\} 
 $$
 
