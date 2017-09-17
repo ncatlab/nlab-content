@@ -50,3 +50,5 @@ $$
 * **curl**
 
 * [[divergence]]
+
+[[!redirects rotation of a vector field]]
