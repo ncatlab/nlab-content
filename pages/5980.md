@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+The notion of a _term_ is an ingredient in [[type theory]] and thus also in [[logic]].
+
+## Definition
+
+In the [[internal language]] of any [[category]] $C$, a [[morphism]]
+
+$$
+  f : B \to A
+$$
+
+is a _term_ $f(x)$ of _[[type]]_ $A$ where $x$ is a _free [[variable]]_ of _[[type]]_ $B$, which in [[type theory|type-theoretic]] symbols is given by
+
+$$ 
+  x\colon B \vdash f(x)\colon A
+  \,.
+$$
+
+[[!redirects terms]]
