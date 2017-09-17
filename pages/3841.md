@@ -4,7 +4,7 @@
 
 ## Definition
 
-A transfinite [[cardinal]] $\pi$ is a **regular cardinal** if it satisfies the following equivalent definitions:
+An infinite [[cardinal]] $\pi$ is a **regular cardinal** if it satisfies the following equivalent definitions:
 
 * no [[set]] of cardinality $\pi$ is the union of fewer than $\pi$ sets of cardinality less than $\pi$.  
 
@@ -19,12 +19,11 @@ A cardinal that is not regular is called **singular**.
 ### Regular cardinals
 
 
-* The first regular cardinal is $\aleph_0 = |\mathbb{N}|$: 
+* The first (infinite) regular cardinal is $\aleph_0 = |\mathbb{N}|$, because a set with cardinality less than $\aleph_0$ is a [[finite set]], and a finite union of finite sets is still a finite set.
 
-  because a set with cardinality less than $\aleph_0$ is a [[finite set]], and a finite union of finite sets is still a finite set. 
+* The [[successor]] of any infinite cardinal, such as $\aleph_1$, is a regular cardinal.  (This requires the [[axiom of choice]].)  In the case of $\aleph_1$, this means that a countable union of countable sets is countable.  Note that this implies that there exist arbitarily large regular cardinals: for any cardinal $\lambda$ there is a greater regular cardinal, namely $\lambda^+$.
 
-
-* The [[successor]] of any infinite cardinal, such as $\aleph_1$, is a regular cardinal.
+* Sometimes it is convenient to allow finite cardinals to be considered regular.  In this case, the finite regular cardinals are precisely $0$, $1$, and $2$.  For $0$ this is vacuous; for $1$ it is because the union of an empty set of empty sets is empty; and for $2$ it is because the union of a [[subsingleton]] set of subsingleton sets is again a subsingleton.
 
 
 ### Singular cardinals
