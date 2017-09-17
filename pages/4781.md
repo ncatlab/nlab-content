@@ -1,5 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 Let $\pi : P \to X$ be a [[bundle]] in the [[category]] [[Diff]] of [[smooth manifold]]s. A [[vector field]] $v \in \Gamma(P)$ is _vertical_ with respect to this bundle if it is in the [[kernel]] of the [[differential]] $d \pi : T P \to T X$.
 
+## Related concepts
+
+* [[parameterized index theorem]]
+
 [[!redirects vertical vector fields]]
+
+[[!redirects vertical vector]]
+[[!redirects vertical vectors]]
