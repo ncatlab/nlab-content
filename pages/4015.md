@@ -50,6 +50,7 @@ The fan theorem may be stated about *all* bars, not just the decidable ones.  Br
 In classical mathematics, the fan theorem is simply true.
 
 In constructive mathematics, the fan theorem is equivalent to any and all of the following statements:
+
 *  As a [[locale]], [[Cantor space]] has enough points (is [[topological locale|topological]]).
 *  As a [[topological space]], Cantor space is [[compact space|compact]].
 *  As a topological space, the (located Dedekind) [[unit interval]] is [[compact space|compact]] (the [[Heine-Borel theorem|Heine–Borel theorem]]).
@@ -64,12 +65,14 @@ In constructive mathematics, the fan theorem is equivalent to any and all of the
    *  the function $(x \mapsto 1/x)$ defined on $\dot{\mathbb{R}}^+$ is kontinuous.
 
 It follows from any of these statements:
+
 *  The [[bar theorem]] holds.
 *  As a locale, [[Baire space of irrational numbers|Baire space]] has enough points.
 *  Every pointwise-continuous function on Cantor space is uniformly continuous.
 *  Every pointwise-continuous function on the unit interval is uniformly continuous.
 
 I need to figure out how it relates to the various versions of [[Konig's lemma|König's Lemma]], as well as these statements (which are mutually equivalent):
+
 *  As a locale, the unit interval has enough points.
 *  As a locale, the [[real line]] (the [[locale of real numbers]]) has enough points.
 
