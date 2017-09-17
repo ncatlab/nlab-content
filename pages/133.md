@@ -128,6 +128,7 @@ In [[2-category theory]] one can consider the _[[michaelshulman:axiom of 2-choic
 category: foundational axiom
 
 [[!redirects axiom of choice]]
+[[!redirects axioms of choice]]
 [[!redirects Choice]]
 [[!redirects AC]]
 [[!redirects full choice]]
