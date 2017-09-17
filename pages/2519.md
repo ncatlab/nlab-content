@@ -91,7 +91,7 @@ from the [[category]] [[Diff]] of [[smooth manifold]]s into it, that takes the r
 
 In these _well adapted models_ ordinary [[differential geometry]] is therefore faithfully embedded. 
 
-For a list of examples of well adopted models see
+For a list of examples of well adapted models see
 
 * [[Models for Smooth Infinitesimal Analysis]].
 
