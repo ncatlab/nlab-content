@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -11,7 +21,17 @@ It says that the Chern-character of the push-forward of some $E$ is the push-for
 
 ## References
 
+For a general survey see
+
 * Wikipedia, _[Grothendieck-Riemann-Roch theorem](http://en.wikipedia.org/wiki/Grothendieck%E2%80%93Riemann%E2%80%93Roch_theorem)_
+
+The refinement to [[differential cohomology]], hence [[differential K-theory]],  is discussed in section 6.2 of 
+
+* [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](arxiv.org/pdf/1011.6663.pdf))
+
+Over [[algebraic stacks]] the GRR theorem is discussed in 
+
+* Roy Joshua, _Riemann-Roch for algebraic stacks_ ([pdf](http://www.math.osu.edu/~joshua.1/rr1.pdf))
 
 [[!redirects Riemann-Roch theorem]]
 
