@@ -1657,7 +1657,7 @@ It turns out that
 
 * there are  natural pairings between $HH_\bullet(\mathcal{O}(X), \mathcal{O}(X))$ and $HH^\bullet(\mathcal{O}(X), \mathcal{O}(X))$ that mimic the structure of the natural pairings between vector fields and differential forms on [[smooth manifold]].
 
-See ([TamarkinTsygan](#TamarkinTsygan)).
+See ([TamarkinTsygan](#TamarkinTsygan)) and see at _[[Kontsevich formality]]_.
 
 
 One way to understand or interpret this conceptually is to regard the [[derived loop space]] object of a 0-[[truncated]] object $X$ to consist of [[infinitesimal object|infinitesimal]] loops in $X$.
