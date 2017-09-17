@@ -5,8 +5,8 @@ We first need the following preparations:
 Let $\mathbf{T}$ be the [[zigzag category]].  We define the _categorical realization_ of a zigzag $t=(n,t_+,t_-)$ to be the category $[t]$ generated freely by the following [[quiver]] data:
 
 * $[t]$ has $n+1$ vertices $t_0,...,t_n$
-* If $i\in t_+$, there is an edge $x_{i-1}\to x_i$
-* If $i\in t_-$, there is an edge $x_i\to x_{i-1}$
+* If $i\in t_+$, there is an edge $t_{i-1}\to t_i$
+* If $i\in t_-$, there is an edge $t_i\to t_{i-1}$
 
 Let $C$ be a [[homotopical category]] with class of weak equivalences $W$.  Consider the functor category $Hom_{Cat}([t],C)$.  We define the category of _restricted_ $t$-zigzags $C^{t}$ to be the subcategory whose objects are zigzags $F$ such that all maps $F(t_i)\to F(t_{i-1})\in W$, and where morphisms are given by object-wise weak equivalences.  Finally, we define $C^t(X,Y)$ to be the full subcategory of $C^t$ spanned by those objects $F$ such that $F(t_0)=X$ and $F(t_n=Y)$.  
 
