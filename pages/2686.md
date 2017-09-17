@@ -119,6 +119,9 @@ When $X$ is [[simply connected topological space|simply connected]] such that $\
 
 Conversely, for every symplectic groupoid $\mathbf{X}$ there is a unique [[Poisson manifold]] structure on its manifold $\mathbf{X}_0$ of objects such that the [[codomain]] map $t \colon \mathbf{X}_1 \to \mathbf{X}_0$ is a [[homomorphism]] of [[Poisson manifolds]]. (For instance [Racaniere, theorem 6.3](#Racaniere)) One says also that $\mathbf{X}$ **integrates the Poisson manifold** $\mathbf{X}_0$.
 
+### Symplectic realization
+
+The source map of a symplectic groupoid over a Poisson manifold constitutes a _[[symplectic realization]]_ of this Poisson manifold, hence its canonical desingularization via [[Lie integration]]. See at _[[symplectic realization]]_ for more. 
 
 
 ### In geometric quantization of Poisson manifolds 
