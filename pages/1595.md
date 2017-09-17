@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -22,6 +21,10 @@ The [[suspension]] homomorphism $\sigma :\pi_{n+k}(S^n)\to \pi_{n+k+l}(S^{n+l})$
 In this statement, one can replace $S^n$ with any $(n-1)$-[[connected space]] $Y$ while replacing $S^{n+l}$ with the corresponding suspension $\Sigma^{l} Y$.
 
 This theorem justifies introducing the [[stable homotopy groups of spheres]] $\pi_k(S):=\pi_{n+k}(S^n)$, as well as  stable homotopy groups $\pi_k^S(Y) = \pi_{n+k}(\Sigma^n Y)$, both independent of $n$ where $n\gt k+1$. 
+
+## Relation to the Blakers-Massey theorem
+
+The Frudenthal suspension theorem is a special case of the [[Blakers-Massey theorem]].
 
 ## References
 
