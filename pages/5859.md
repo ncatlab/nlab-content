@@ -15,3 +15,4 @@
 category: people
 
 [[!redirects G. Felder]]
+[[!redirects Felder]]
