@@ -50,3 +50,5 @@ Papers about the application of [[microlocal analysis]]:
 [[!redirects AQFT on curved spacetime]]
 
 [[!redirects quantum field theory on curved spacetime]]
+
+[[!redirects AQFT on curved backgrounds]]
