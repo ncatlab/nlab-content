@@ -1,10 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
 [[!include manifolds and cobordisms - contents]]
-***
+=--
+#### Quantum field theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
-</div>
-
-
+=--
+=--
+=--
 
 
 >some material that should go here is, for some reason, still to some extent at [[generalized tangle hypothesis]]. You should go there to learn more. Better yet, you go there and then come back here to create a better entry on the cobordisms hypothesis.
