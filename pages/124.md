@@ -15,8 +15,15 @@
 =--
 
 
+* [[(0,1)-topos]]
 
+* **topos**
 
+* [[2-topos]]
+
+* [[(∞,1)-sheaf]] / [[∞-stack]]
+
+***
 
 
 # Contents #
