@@ -89,11 +89,12 @@ In [[physics]] differential cocycles model [[gauge theory|gauge fields]].
 
   * [[RR-field]] .
 
-For $c \in \bar \Gamma^\bullet(X)$ a differential cocycle representing a gauge, one says that
+For $c \in \bar \Gamma^\bullet(X)$ a differential cocycle representing a [[gauge field]], one says that
 
 * its image $F(c)$ in differential forms is the corresponding [[field strength]];
 
 * its image $cl(c)$ in non-differential cohomology is the "topological twist" of the [[gauge theory|gauge field]]. In special cases this can be identified with [[magnetic charge]].
+
 
 
 ### Detailed construction following Hopkins-Singer 
