@@ -26,7 +26,7 @@ A CW-complex is a topological spaces $X$ equipped with a sequence of spaces and 
 \[\label{CW1}\varnothing = X_{-1} \hookrightarrow X_0 \hookrightarrow X_1 \hookrightarrow \ldots \hookrightarrow X_n \hookrightarrow \ldots
 \]
 
-and a [[cocone]] making $X$ into its [[colimit]] (in [[Top]], or else in the category of [[compactly generated space]]s or many another [[nice category of spaces]]) where each space $X_n$ (called the $n$-skeleton of $X$) is the result of attaching copies of the $n$-disk $D^n = \{x \in \mathbb{R}^n: ||x|| \leq 1\}$ along their boundaries $S^{n-1} = \partial D^n$ to $X_{n-1}$. Specifically, $X_0$ (the 0-skeleton) is a discrete space, and each $X_n$ is a pushout in [[Top]] of a diagram of the form 
+and a [[cocone]] making $X$ into its [[colimit]] (in [[Top]], or else in the category of [[compactly generated space]]s or one of many other [[nice category of spaces|nice categories of spaces]]) where each space $X_n$ (called the $n$-skeleton of $X$) is the result of attaching copies of the $n$-disk $D^n = \{x \in \mathbb{R}^n: ||x|| \leq 1\}$ along their boundaries $S^{n-1} = \partial D^n$ to $X_{n-1}$. Specifically, $X_{-1}$ is the empty space, and each $X_n$ is a pushout in [[Top]] of a diagram of the form 
 
 $$X_{n-1} \stackrel{(f_i)}{\leftarrow} \coprod_{i \in I} S_{i}^{n-1} \stackrel{\coprod_i j_i}{\to} \coprod_{i \in I} D_{i}^n$$ 
 
