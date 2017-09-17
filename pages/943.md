@@ -161,7 +161,10 @@ Appreciation of the role of convenient categories was in full force by the early
 * Neil Strickland, The Category of CGWH Spaces. [(online article)](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
 {#NS}
 
+
 [[!redirects convenient category of topological spaces]]
 [[!redirects convenient categories of topological spaces]]
+[[!redirects conventient category of topological spaces]]
+
 [[!redirects convenient category of spaces]]
 [[!redirects convenient categories of spaces]]
