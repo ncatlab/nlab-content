@@ -1,7 +1,39 @@
-**Cartan geometry** is the common generalization of [[Riemannian geometry]], [[conformal geometry]] and [[Klein geometry]], which replaces the linear tangent spaces of the former with the more general homogeneous spaces of the latter. Intuitively, we are studying the geometry of a manifold by 'rolling' another manifold, the 'model geometry' on it. The model geometry may be any [[Klein geometry]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+**Cartan geometry** is a common generalization of [[Riemannian geometry]], [[conformal geometry]] and [[Klein geometry]], which generalizes the linear [[tangent spaces]] of the former to the more general [[homogeneous spaces]] of the latter. 
+
+Intuitively, Cartan geometry studies the geometry of a [[manifold]] by 'rolling' another manifold, the 'model geometry' on it. The model geometry may be any [[Klein geometry]].
 
 
-###References###
+## Related concepts
+
 * [[Cartan connection]]
+
+
+## References
+
+A standard textbook is
+
+* R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+
+
+See also
+
 * wikipedia: [Cartan connection](http://en.wikipedia.org/wiki/Cartan_connection)
+
 * The blog [discussion](http://golem.ph.utexas.edu/category/2007/07/derek_wise_on_cartan_geometry.html) of Derek Wise, [MacDowell-Mansouri gravity and Cartan geometry](http://arxiv.org/abs/gr-qc/0611154).
