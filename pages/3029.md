@@ -786,6 +786,9 @@ See also references of Dedecker listed [[zoranskoda:Paul Dedecker|here]].
 
 [[!redirects central extension]]
 [[!redirects central extensions]]
+[[!redirects central extension of groups]]
+[[!redirects central extensions of groups]]
 
 [[!redirects group extension]]
 [[!redirects group extensions]]
+
