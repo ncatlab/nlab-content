@@ -50,7 +50,7 @@ An **allegory** is a [[(1,2)-category]] $A$ equipped with an [[involution]] $(-)
 
 ## Maps, tabulations, and units
 
-A **map** in an allegory is a morphism that has a [[right adjoint]].
+A **map** in an allegory is a morphism that has a [[right adjoint]]. If $r \dashv s$, then $s = r^o$ (hint: use the modular law to show $r \dashv s \cap r^o$ and $r \cap s^o \dashv s$). 
 
 Any 2-category has a [[bicategory of maps]].  In an allegory, the ordering between maps is discrete, meaning that if $f \leq g$ then $f = g$.  Consequently, the bicategory of maps of an allegory is a [[category]].
 
