@@ -20,7 +20,13 @@ For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula hol
 
 If $G$ is an abelian group, $G$ is divisible if and only if it is an [[injective object]] in the the [[category]] [[Ab]] of [[abelian groups]] if and only if the [[hom functor]] $Hom(-,G)$ is [[exact functor|exact]].
 
+This characterization of the notion divisible group is discussed in [Tsit-YuenMoRi,Proposition 3.19] (#Tsit-YuenMoRi).
+
 
 ## Examples
 
 * The rationals $\mathbb{Q}$ and (more generally) the underlying abelian group of any $\mathbb{Q}$-[[vector space]] are divisible.
+
+## References
+
+* {#Tsit-YuenMoRi} Lam, Tsit-Yuen (1999), Lectures on modules and rings, Graduate Texts in Mathematics No. 189, Berlin, New York
