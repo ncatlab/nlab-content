@@ -1,4 +1,108 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+## Idea
+
+The _splitting principle_ in [[Chern-Weil theory]]/[[nonabelian cohomology]] is a method of turning a $G$-[[principal bundle]] for $G$ a [[compact Lie group]] into a [[torus]] bundle (hence _splitting_ it into [[line bundles]]) such that the [[universal characteristic classes]] of the original $G$-bundle may be computed in terms of the (generally simpler) classes of this torus bundle.
+
+## Statement
+
+Let $G$ be a [[connected topological space|connected]] [[compact Lie group]] and write $U(1)^n \simeq T \stackrel{i}{\hookrightarrow} G$ for its [[maximal torus]].
+
+Let $X$ be a [[connected topological space]] and $P \to X$ a $G$-[[principal bundle]] over $X$ [[classifying space|classified]] by a map $g \colon X \to B G$.
+
+Then consider the [[coset space]] $G/T$ and the $G/T$-[[fiber bundle]] $Y\to X$ [[associated bundle|associated]] to $P$, this is equivalently the [[homotopy pullback]] in the diagram
+
+$$
+  \array{
+    Y &\stackrel{(g_1,\cdots, g_n)}{\longrightarrow}& B T & \simeq B U(1)^n 
+    \\
+    \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{B i}}
+    \\
+    X &\stackrel{g}{\longrightarrow}& B G
+  }
+  \,.
+$$
+
+This diagram shows that the pullback of the $G$-principal bundle $P \to X$ along $p$ to $Y$ is equivalently a $T$-principal bundle splitting as [[circle group]]-principal bundles classified by $(g_1, \cdots, g_n)$. 
+
+That this is a useful splitting is the content of:
+
++-- {: .num_theorem #GeneralizedSplittingPrinciple}
+###### Theorem
+**(generalized splitting principle)**
+
+Let $R$ be a [[commutative ring]] in which a [[prime number]] $p$ is a [[unit]] if $H_\bullet(B G,\mathbb{Z})$ has a $p$-[[torsion subgroup]].
+
+Then
+
+1. The $H^\bullet(B G,R)$-module $H^\bullet(B T, R)$ (via $B i^\ast$) is [[free module|free]] on the cohomology of $G/T$:
+
+   $$
+     H^\bullet(B T,R)\simeq H^\bullet(B G,R) \otimes H^\bullet(G/T, R)
+     \,;
+   $$
+
+1. Analogously there is an isomorphism
+
+   $$
+     H^\bullet(Y,R) \simeq H^\bullet(X,R)\otimes H^\bullet(G/T,R)
+   $$
+
+   and hence $p^\ast$ is the canonical inclusion (and hence in particular is an [[injection]])
+   
+   $$
+     p^\ast \;\colon\;  H^\bullet(X,R)\hookrightarrow H^\bullet(Y,R)
+     \,.
+   $$
+
+=--
+
+In this general form this is due to ([May](#May)).
+
++-- {: .num_theorem}
+###### Remark
+
+Since the elements 
+
+$$
+  c \in H^\bullet(B G,R)
+$$ 
+
+are the [[universal characteristic classes]] of $G$-principal bundles with [[coefficients]] in $R$ (hence by [[Chern-Weil theory]] the [[invariant polynomials]] of the [[Lie algebra]] $\mathfrak{g}$ if $R$ has [[characteristic]]-0), theorem \ref{GeneralizedSplittingPrinciple}
+gives the following way to express the characteristic classes of $G$-principal bundles on $X$ by [[tuples]] 
+$$
+  (c_1^1, \cdots, c_1^n) \coloneqq (B i)^\ast c
+$$ 
+
+of characteristic classes -- hence [[first Chern class|first Chern classes]] -- of just circle bundles ([[line bundles]]):
+
+$$
+  p^\ast (c(P)) \simeq (g_1^\ast c_1^1, \cdots, g_n^\ast c_1^n)
+  \,.
+$$
+
+(Since $p^\ast$ is injective, this is a genuine characterization of $c(P)$).
+
+=--
+
+
 ## Related concepts
 
 * [[Snaith's theorem]]
@@ -7,7 +111,7 @@
 
 A good general account is in 
 
-* [[Peter May]], _A note on the splitting principle_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Split.pdf))
+* {#May} [[Peter May]], _A note on the splitting principle_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Split.pdf))
 
 Other reviews include
 
