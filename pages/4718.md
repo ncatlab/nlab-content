@@ -23,7 +23,7 @@ Historically, this was in fact the original meaning of "ring", and while mostly 
 +-- {: .num_remark}
 ###### Remark on terminology
 
-The term "non-unital ring" may be regarded as an example of the "[[red herring principle]]", as a non-unital ring is not a ring in the modern sense of the word. 
+The term "non-unital ring" may be regarded as an example of the "[[red herring principle]]", as a non-unital ring is not in general a ring in the modern sense of the word. 
 
 In [[Bourbaki|Bourbaki 6, chapter 1]] the term _pseudo-ring_ is used, but that convention has not become established.
 
@@ -56,6 +56,14 @@ More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in 
 A _nonuntial ring_ or _rng_ is a [[semigroup]] object in [[Ab]].
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+A non-unital ring may well contain an element that behaves as the [[identity]] element, i.e. it may be in the image of the [[forgetful functor]] from unital rings to nonunital rings. But if so, then this element is still not part of the defining data and in particular a [[homomorphism]] of non-unital rings need not to preserve whatever identity elements may happen to be present.
+
+=--
+
 
 ## Properties
 
@@ -186,6 +194,7 @@ In terms of [[arithmetic geometry]], the [[Isbell duality|formally dual]]  state
  {#References}
 
 ### Nonunital ring theory
+ {#ReferencesTheory}
 
 A survey of commutative rng theory is in 
 
@@ -198,6 +207,14 @@ Discussion of [[module]] theory over rngs is in
 Discussion of non-unital rings as [[augmentation ideals]] of augmented unital rings includes
 
 * {#Fresse06} [[Benoit Fresse]], _The Bar Complex of an E-infinity Algebra_, Adv. Math.  223 (2010), pages 2049-2096 ([arXiv:math/0601085](http://arxiv.org/abs/math/0601085))
+
+A definition of [[algebraic K-theory]] for nonunital rings is due to
+
+* {#Quillen} [[Daniel Quillen]], _$K_0$ for nonunital rings and Morita invariance_, J. Reine Angew. Math., 472:197-217, 1996.
+
+with further developments (in [[KK-theory]]) including
+
+* [[Snigdhayan Mahanta]], _Higher nonunital Quillen K'-theory, KK-dualities and applications to topological T-dualities_,  J. Geom. Phys., 61 (5), 875-889, 2011. ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
 
 ### Terminology
 
