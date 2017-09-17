@@ -57,7 +57,7 @@ In fact, the bar construction is the _universal_ resolution in the sense of
 
 ### For modules over an algebra
 
-Let $A$ be a commutative [[associative algebra]]s over some [[ring]] $k$. Write $A Mod$ for the category of [[connective]] [[chain complex]]esof [[module]]s over $A$.
+Let $A$ be a commutative [[associative algebra]]s over some [[ring]] $k$. Write $A Mod$ for the category of [[connective chain complex|connective]] [[chain complex]]es of [[module]]s over $A$.
 
 For $N$ a right module, also $N \otimes_k A$ is canonically a module. This construction extends to a functor
 
