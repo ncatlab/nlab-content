@@ -97,7 +97,7 @@ where the function of two variables $K( \dots ,\cdots)$ is called *integral kern
 
 ### Stochastic kernel
 
-Let $(\Omega_1,\mathfrak{A}_1)$, $(\Omega_2,\mathfrak{A}_2)$.
+Let $(\Omega_1,\mathfrak{A}_1)$ be a measure space, let $(\Omega_2,\mathfrak{A}_2)$ be a measurable space.
 
 A map $Q: \Omega_1\times \mathfrak{A}_2$ satisfying
 
@@ -107,7 +107,7 @@ A map $Q: \Omega_1\times \mathfrak{A}_2$ satisfying
 
 is called a *stochastic kernel* or *transition kernel* (or *Markov kernel* - which we avoid since it is confusing) *from $(\Omega_1,\mathfrak{A}_1)$ to $(\Omega_2,\mathfrak{A}_2)$.
 
-Then $Q$ induces a function between the classes of measures on $\Omega_1, \mathfrak{A}_1$ and on $\Omega_2, \mathfrak{A}_2$
+Then $Q$ induces a function between the classes of measures on $(\Omega_1, \mathfrak{A}_1)$ and on $(\Omega_2, \mathfrak{A}_2)$
 
 $$\overline{Q}:
 \begin{cases}
@@ -120,7 +120,11 @@ M(\Omega_2, \mathfrak{A}_2)
 (A\mapsto \int_{\Omega_1} Q(\omega, A)\mu(d\omega))
 \end{cases}$$
 
-The symbol $Q(\omega, A)$ is sometimes written as $Q(A|\omega)$ in optical proximity to a conditional probability.
+If $\mu$ is a probability measure, then so is $\overline{Q}(\mu)$. The symbol $Q(\omega, A)$ is sometimes written as $Q(A|\omega)$ in optical proximity to a conditional probability.
+
+The stochastic kernel is hence in particular an integral kernel.
+
+In a discrete stochastic process the transition function is a stochastic kernel (more precisely it is the function $\overline{Q}$ induced by a kernel $Q$).
 
 #### Coupling (Koppelung)
 
