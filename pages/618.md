@@ -65,7 +65,7 @@ Often [[site]]s are required to be [[small category|small]]; see [[large site]] 
 
 See [[sheaf]], of course, but it seems appropriate to briefly recall the concept here.  If $\{f_i:U_i\to U\}_{i\in I}$ is a family of coterminal morphisms, a [[presheaf]] $X:C^{op}\to Set$ is called a **sheaf** for this family if
 
-* For any collection of elements $x_i \in X(U_i)$ such that, whenever $g:V\to U_i$ and $h:V\to U_j$ are such that $f_i g = f_j h$, we have $X(g)(x_i) = X(f)(x_j)$, then there exists a unique $x\in X(U)$ such that $X(f_i)(x)=x_i$ for all $i$.
+* For any collection of elements $x_i \in X(U_i)$ such that, whenever $g:V\to U_i$ and $h:V\to U_j$ are such that $f_i g = f_j h$, we have $X(g)(x_i) = X(h)(x_j)$, then there exists a unique $x\in X(U)$ such that $X(f_i)(x)=x_i$ for all $i$.
 
 If $C$ is a site, a presheaf $X:C^{op}\to Set$ is called a **sheaf** on $C$ if it is a sheaf for every covering family in $C$.  We call a site $C$ **subcanonical** if every representable functor $C(-,c):C^{op}\to Set$ is a sheaf.
 
