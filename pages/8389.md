@@ -1,0 +1,35 @@
+##Idea
+
+
+Denotational semantics is based on the idea that programs and the 
+objects they manipulate are symbolic realizations of abstract mathematical 
+objects, for example, 
+
+*   strings of digits realize numbers, 
+
+and 
+
+*  function subprograms realize (approximate) mathematical functions. 
+
+The idea of denotational semantics is thus to associate an appropriate 
+mathematical object, such as a number, a tuple, or a function, with each 
+phrase of the language being used.
+
+A [[language]] will be defined syntactically by its specification. The decomposition of  phrases in a language into their subphrases is reflected in the abstract syntax of the programming language. A fundamental principle of denotational semantics is that the definition be compositional. 
+
+##Origins
+
+Denotational semantics originated in the work of [[Christopher Strachey]] and [[Dana Scott]] in the late 1960s
+
+
+## Related entries
+
+* [[domain theory]]
+
+##References
+
+* [Wikipedia article](http://en.wikipedia.org/wiki/Denotational_semantics)
+
+
+
+category: computer science
