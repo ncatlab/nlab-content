@@ -2,20 +2,48 @@
 
 A __Yetter-Drinfeld module__ over a $k$-[[bialgebra]] $B=(B,\Delta,\epsilon)$, (with [[Sweedler notation]] $\Delta(b) = \sum b_{(1)}\otimes b_{(2)}$), is a $k$-module which is simultaneously a $B$-module and a $B$-[[comodule]] with certain compatibility between the $B$-action and $B$-coaction. 
 
+##### Compatibility for left-right YD Modules
+
 The compatibility for a left $B$-module $B\otimes M\to M$, $b\otimes m\mapsto b\blacktriangleright m$, which is a right $B$-comodule 
-with respect to the coaction $\rho:M\to M\otimes B$, $\rho(m) = \sum m_{(0)}\otimes m_{(1)}$,
+with respect to the coaction $\rho:M\to M\otimes B$, $\rho(m) = \sum m_{[0]}\otimes m_{[1]}$,
 is the following
 $$
-\sum (b_{(1)}\blacktriangleright m_{(0)})\otimes b_{(2)} m_{(1)}
-= \sum (b_{(2)}\blacktriangleright m)_{(0)}
-\otimes (b_{(2)}\blacktriangleright m)_{(1)} b_{(1)}
+\sum (b_{(1)}\blacktriangleright m_{[0]})\otimes b_{(2)} m_{[1]}
+= \sum (b_{(2)}\blacktriangleright m)_{[0]}
+\otimes (b_{(2)}\blacktriangleright m)_{[1]} b_{(1)}
 $$
 or equivalently, if $B$ is a Hopf algebra with invertible antipode $S$ (or instead just with the
 [[skew-antipode]] denoted $S^{-1}$)
 $$
-\sum (b_{(2)}\blacktriangleright m_{(0)})\otimes b_{(3)} m_{(1)} S^{-1}(b_{(1)})
-= \sum (b\blacktriangleright m)_{(0)}
-\otimes (b\blacktriangleright m)_{(1)}
+\sum (b_{(2)}\blacktriangleright m_{[0]})\otimes b_{(3)} m_{[1]} S^{-1}(b_{(1)})
+= \sum (b\blacktriangleright m)_{[0]}
+\otimes (b\blacktriangleright m)_{[1]}
+$$
+
+##### Compatibility for left-left YD Modules
+
+$$
+b_{(1)} m_{[-1]}\otimes (b_{(1)}\blacktriangleright m_{[0]})
+=
+b_{(2)} (b_{(1)}\blacktriangleright m)_{[-1]} \otimes 
+(b_{(1)}\blacktriangleright m)_{[0]}
+$$
+
+##### Compatibility for right-left YD Modules
+
+$$
+m_{[0]}\blacktriangleleft b_{(1)}\otimes m_{[1]} b_{(2)}
+=
+(m\blacktriangleleft b_{(2)})_{[0]}\otimes 
+b_{(1)} (m\blacktriangleleft b_{(2)})_{[1]} 
+$$
+
+##### Compatibility for right-right YD Modules
+
+$$
+m_{[-1]}b_{(1)}\otimes (m_{[0]}\blacktriangleleft b_{(2)})
+=
+(m\blacktriangleleft b_{(2)})_{[-1]} b_{(1)} \otimes (m\blacktriangleleft b_{(2)})_{[0]}
 $$
 
 ### The category of Yetter-Drinfeld modules
