@@ -221,7 +221,7 @@ Suppose that $S$ is a [[regular scheme]]. Then there exists a motivic $\mathbb{P
 
 $$ KGL^{p,q}(X) = K_{2q-p}(X), $$
 
-where $K_*(X)$ are the [[algebraic K-theory]] of $X$ defined by [[Daniel Quillen|Quillen]]. In particular, $KGL$-cohomology is $(2,1)$-periodic: this is _Bott periodicity_ for algebraic K-theory.
+where $K_*(X)$ are the [[algebraic K-theory]] groups of $X$ defined by [[Daniel Quillen|Quillen]]. In particular, $KGL$-cohomology is $(2,1)$-periodic: this is _Bott periodicity_ for algebraic K-theory.
 
 The multiplicative structure of algebaric K-theory makes $KGL$ into a ring spectrum (up to homotopy), which comes from a unique structure of $E_\infty$-algebra (see [Naumann-Spitzweck-Ostvaer](#NSO11)).
 
