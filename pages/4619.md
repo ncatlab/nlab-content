@@ -49,11 +49,13 @@ $$n = deg_F E = rank_A B = rank_{A/\mathfrak{m}_A} B/\mathfrak{m}_A B = dim_{k_A
 
 where the last equation holds because $\mathfrak{m}_B^i/\mathfrak{m}_B^{i+1} \cong k_B$ as $k_B$-modules and therefore also as $k_A$-modules. In the case $A = K[ [x] ]$ where $k_A = K$, we have that $dim_{k_A} k_B = 1$ since $K$ is algebraically closed, and therefore $e = n$. In other words, $(x)B = \mathfrak{m}_B^n$, so we can write $x = u \pi^n$ where $\pi$ generates the maximal ideal of $B$ and $u$ is a unit of $B$. 
 
-The residue class $\bar{u} \in K$ has an $n^{th}$ root (again by algebraic closure); in fact a simple root since $char(K) = 0$. By [[Hensel's lemma]], this lifts to an $n^{th}$ root of $u$ in $B$. The element $u^{1/n} \pi$ is thus an $n^{th}$ root of $x$, and is a generator of the maximal ideal of $B$. Writing this element as $y = x^{1/n}$, the ring $K[ [y] ] = A[x^{1/n}] \hookrightarrow B$ is an $A$-submodule of full rank $n$, hence $K[ [y] ] = B$, as was to be shown. 
+The residue class $\bar{u} \in K$ has an $n^{th}$ root (again by algebraic closure); in fact a simple root since $char(K) = 0$. By [[Hensel's lemma]], this lifts to an $n^{th}$ root of $u$ in $B$. The element $u^{1/n} \pi$ is thus an $n^{th}$ root of $x$, and is a generator of the maximal ideal of $B$. Writing this element as $y = x^{1/n}$, the ring $K[ [y] ] = A[x^{1/n}] \hookrightarrow B$ is an $A$-submodule of full rank $n$ and integrally closed (being abstractly isomorphic to $A$, which is [[integral closure|integrally closed]] because it's a [[principal ideal domain]] and therefore a [[unique factorization domain]]), so that $K[ [y] ] = B$, as was to be shown. 
 =-- 
 
-
-
++-- {: .un_example} 
+###### Example 
+(Intend to solve for $y$ in $y^3 - x y + 1 = 0$ as a Puiseux series in $x$.) 
+=-- 
 
 ## References
 
