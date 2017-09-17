@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include quasi-category theory contents]]
 </div>
@@ -23,17 +22,19 @@ It is still true that a splitting of an idempotent in an $(\infty,1)$-category i
 
 ## Properties
 
+The following properties generalize those of idempotent-complete 1-categories.
+
 +-- {: .un_theorem}
 ###### Theorem
 
-An idempotent-complete $(\infty,1)$-category is an [[accessible (∞,1)-category]].
+A [[small (∞,1)-category]] is idempotent-complete if and only if it is [[accessible (∞,1)-category|accessible]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, section 5.5.6]].
+This is [[Higher Topos Theory|HTT, 5.5.3.6]].
 
 =--
 
