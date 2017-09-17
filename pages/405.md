@@ -1,5 +1,7 @@
+
+
 # The cube category
-* tic
+* table of contents
 {: toc}
 
 
@@ -32,14 +34,16 @@ These satisfy the cubical identities:
 > ... to be inserted ...
 
 
-## Variations
+### Variants
 
 The category of cubes described above has also been described as the _restricted category of cubes_ (see the [paper](http://www.emis.de/journals/TAC/volumes/11/8/11-08.pdf) by Grandis and Mauri). It may be augmented in several directions, at various levels of [[doctrine|doctrinal]] strength, as follows:
 
 > ... to be completed? ... 
 
 
-##Remarks##
+
+
+### Remarks
 
 * The cube category is used to define [[cubical set|cubical sets]].
 
@@ -51,5 +55,14 @@ The category of cubes described above has also been described as the _restricted
 
 * Among all [[geometric shapes for higher structures]] cubes are best suited for describing Gray-like [[tensor product|tensor products]] of higher structures: there is geometrically obvious way in which to combine the $n$-cube $[n]$ and the $m$-cube $[m]$ to the $(n+m)$-cube $[n] \otimes [m] := [n+m]$. This makes $\Box$ into a [[monoidal category]]. It also induces the canonical monoidal structure on [[cubical set|cubical sets]] and then on [[strict omega-category|strict omega-categories]]: the [[Crans-Gray tensor product]].
 
+## Properties
+
+### As a test category
+
+The cube category is a [[test category]]. Hence [[cubical sets]] model [[homotopy types]] (see also _[[model structure on cubical sets]]_). While it is not a [[strict test category]], it can be refined to the category of cubes with "[[connection on a cubical set|cube connection]]", which is. See _[[connection on a cubical set]]_ for more details.
+
+## Related concepts
+
+* [[simplex category]], [[globe category]]
 
 category: category
