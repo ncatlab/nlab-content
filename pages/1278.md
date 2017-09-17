@@ -427,7 +427,7 @@ and
 
   (discussed there for [[differential K-theory]]).
 
-A first systematic account characterizing and constructing stable differential cohomology in terms of [[homotopy fiber products]] of bare [[spectra]] with [[differental form]] data (which is really the homotopy-theoretic refinement of one of right square in the [[differential cohomology diagram]]) was given in
+A first systematic account characterizing and constructing stable differential cohomology in terms of [[homotopy fiber products]] of bare [[spectra]] with [[differential form]] data (which is really the homotopy-theoretic refinement of one of right square in the [[differential cohomology diagram]]) was given in
 
 * {#HopkinsSinger02} [[Mike Hopkins]] and [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv:math/0211216](http://arxiv.org/abs/math/0211216))
 
