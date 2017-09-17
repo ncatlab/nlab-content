@@ -124,6 +124,10 @@ There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
 
+## Related concepts
+
+* [[monadic functor]], [[comonadic functor]]
+
 ## References
 
 Canonical textbook references include 
