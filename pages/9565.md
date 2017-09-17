@@ -87,7 +87,9 @@ based on
 
 * [[Paul-Emile Paradan]], _Localization of the Riemann-Roch character_ ([arXiv:math/9911024](http://arxiv.org/abs/math/9911024))
 
+Discussion specifically for [[circle group]] [[actions]] is in 
 
+*  [[Ana Cannas da Silva]], [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_ ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
 
 [[!redirects geometric quantization conjecture]]
 [[!redirects quantization commutes with reduction]]
