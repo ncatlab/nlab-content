@@ -1,10 +1,31 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _absolute Galois group_ of a [[field]] $k$ is that of the [[field extension]] $k \hookrightarrow k_s$ which is the [[separable closure]] of $k$. When $k$ is a [[perfect field]] this is equivalently the Galois group of the [[algebraic closure]] $k \hookrightarrow \overline{k}$.
+
+## Definition
+
 +-- {: .num_defn}
 ###### Definition
-Let $k$ be a field. Let $k_s$ denote the separable closure of $k$. Then the [[Galois group]] $Gal(k\hookrightarrow k_s)$ of the extension $k\hookrightarrow k_s$ is called *absolute Galois group of $k$*.
 
-We have $Gal(K\hookrightarrow K_s)\simeq \pi_1(Spec\; K)$ is equivalent to the [[fundamental group]] of the [[scheme]] $Spec K$.
+Let $k$ be a [[field]]. Let $k_s$ denote the [[separable closure]] of $k$. Then the [[Galois group]] $Gal(k\hookrightarrow k_s)$ of the [[field extension]] $k\hookrightarrow k_s$ is called *absolute Galois group of $k$*.
 
 =--
+
+## Properties
+
++-- {: .num_remark}
+###### Remark
+
+By general [[Galois theory]]
+we have $Gal(K\hookrightarrow K_s)\simeq \pi_1(Spec\; K)$ is equivalent to the [[fundamental group]] of the [[spectrum of a commutative ring|spectrum]] [[scheme]] $Spec K$ 
+
+=--
+
 
 An instance of [[Grothendieck's Galois theory]] is the following:
 
@@ -37,3 +58,5 @@ However [[Belyi's theorem]] implies that there is a faithful action of $G_\mathb
 
 
 category: Galois theory
+
+[[!redirects absolute Galois theory]]
