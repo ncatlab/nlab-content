@@ -10,20 +10,18 @@
 =--
 
 #Contents#
-
-* automatic TOC goes here
+* table of contents
 {: toc}
 
 
 ## Idea {#Idea}
 
-A quasicoherent sheaf is a [[sheaf]] of [[module]]s  over the [[structure sheaf]] of a [[space]] that is _locally presentable_ in that it is locally the [[cokernel]] of a morphism of [[free module]]s.
+A _quasicoherent sheaf of modules_ (often just "quasicoherent sheaf", for short) is a [[sheaf of modules]]  over the [[structure sheaf]] of a [[ringed space]] that is _locally [[presentable module|presentable]]_ in that it is locally the [[cokernel]] of a morphism of [[free modules]].
 
-For comparison, recall that a [[vector bundle]] on a [[space]] may equivalently be encoded in terms of its [[sheaf]] of [[section]]s. This is a sheaf of [[module]]s over the [[structure sheaf]] $O$ of the space. But it is a very special such sheaf, notably it is a locally free sheaf of $O$-modules of finite rank.
+For comparison, by the [[Serre-Swan theorem]] a [[vector bundle]] on a suitable [[ringed space]] is equivalently encoded in its [[sheaf]] of [[sections]] which is even locally [[free module|free]] and [[projective module|projective]]. In this sense quasicoherent sheaves of modules are a generalization of [[vector bundles]].
+The [[category]] of vector bundles is too small to be closed under various natural operations like [[kernels]], [[direct images]] and alike. In particular, it is not an [[abelian category]]. The category of all $\mathcal{O}$-modules and especially its [[full subcategory]] of quasicoherent sheaves of $\mathcal{O}$-modules are better behaved in that respect.
 
-This extra condition makes the category of vector bundles too small to be closed under various natural operations like kernels, direct images and alike. In particular, it is not an [[abelian category]]. The category of all $O$-modules and specially its full subcategory of quasicoherent sheaves of $O$-modules are better in that respect. 
-
-There are several different but equivalent ways to define and think about quasicoherent sheaves. 
+There are several different but equivalent ways to define and think of quasicoherent sheaves. 
 
 A very concrete definition characterizes quasicoherent sheaves as those that are, while not locally free, locally the [[cokernel]] of a morphism of free module sheaves. This is the definition given in the section
 
