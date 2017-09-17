@@ -37,6 +37,11 @@ By the [[cobordism hypothesis]]-theorem, symmetric monoidal [[(∞,n)-functor]]s
 
 * In the [[symmetric monoidal (infinity,n)-category|symmetric monoidal (infinity,3)-category]] of [[monoidal categories]] and [[bimodule]] categories between them, the fully dualizable objects are (or at least contain) the [[fusion categories]]. See there for details.
 
+## Related concepts
+
+[[!include finite objects -- table]]
+
+
 ## References
 
 The definition appears around claim 2.3.19 of
