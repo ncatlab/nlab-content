@@ -349,6 +349,8 @@ Hence $C_f$ is a weak equivalence.
 
   * [[morphism of (∞,1)-operads]], [[fibration of (∞,1)-operads]]
 
+  * [[generalized (∞,1)-operad]], [[family of (∞,1)-operads]]
+
   * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
 
     * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
