@@ -152,7 +152,7 @@ where in each of the second and penultimate lines, we twice used the fact that $
 * A slightly higher-level rendition of the proof might look like this: 
 $$\array{
 R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \hom)) \\
- & \cong & R((X \times Y) \otimes_{\Delta \times \Delta} (\hom \times \hom) \\
+ & \cong & R((X \times Y) \otimes_{\Delta \times \Delta} (\hom \times \hom)) \\
  & \cong & (X \times Y) \otimes_{\Delta \times \Delta} R(\hom \times \hom) \\
  & \cong & (X \times Y) \otimes_{\Delta \times \Delta} (R(\hom) \times R(\hom)) \\
  & \cong & (X \otimes_{\Delta} R(\hom)) \times (Y \otimes_{\Delta} R(\hom)) \\
