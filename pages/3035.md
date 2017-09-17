@@ -62,6 +62,8 @@
 
   * [[Lie group]]
 
+    * [[simple Lie group]], [[semisimple Lie group]]
+
   * [[Lie 2-group]]
 
 ## ∞-Lie algebroids
@@ -76,6 +78,8 @@
 * [[L-∞-algebra]]
 
   * [[Lie algebra]]
+
+    * [[semisimple Lie algebra]], [[compact Lie algebra]]
 
   * [[Lie 2-algebra]]
 
@@ -101,6 +105,8 @@
   * [[Weil algebra]]
 
   * [[invariant polynomial]]
+
+    * [[Killing form]]
 
 * [[nonabelian Lie algebra cohomology]]
 
