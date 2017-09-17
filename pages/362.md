@@ -57,4 +57,8 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * F.A. Al-Agl, R. Brown and   R. Steiner, Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71-118.
 
+A general theory of lax tensor products, unifying Gray tensor products with the [[Crans-Gray tensor product]] is in 
+
+* [[Michael Batanin]], [[Denis-Charles Cisinski]], [[Mark Weber]], _Multitensor lifting and strictly unital higher category theory_ ([arXiv:1209.2776](http://arxiv.org/abs/1209.2776))
+
 [[!redirects Gray]]
