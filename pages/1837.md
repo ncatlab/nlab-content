@@ -171,6 +171,8 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[lattice gauge theory]]
 
+* [[Gribov ambiguity]]
+
 [[!include gauge field - table]]
 
 
