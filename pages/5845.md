@@ -18,7 +18,7 @@
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #Defn}
 ###### Definition
 
 An __adjoint triple__ of functors 
@@ -72,7 +72,9 @@ See [[adjoint monad]] for more.
 
 In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoint and comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right adjoint comonad.
 
-+-- {: .num_prop}
+### Fully faithful adjoint triples
+
++-- {: .num_prop #FullyFaithful}
 ###### Proposition
 
 For an adjoint triple $F\dashv G\dashv H$ we have that $F$ is [[full and faithful functor|fully faithful]] precisely if $H$ is fully faithful. 
@@ -94,6 +96,33 @@ Finally, by a standard fact about [[adjoint functor]]s (for instance (([Elephant
 
 =--
 
+This is often the case when $D$ is a category of "spaces" structured over $C$, where $F$ and $H$ construct "discrete" and "codiscrete" spaces respectively.
+
+For instance, if $G\colon D\to C$ is a [[topological concrete category]], then it has both a left and right adjoint which are fully faithful.  Not every fully faithful adjoint triple is a topological concrete category (among other things, $G$ need not be [[faithful functor|faithful]]), but they do exhibit certain similar phenomena.  In particular, we have the following.
+
++-- {: .num_prop #FinalLifts}
+###### Proposition
+Suppose $(F \dashv G \dashv H) \colon C \to D$ is an adjoint triple in which $F$ and $H$ are fully faithful, and suppose that $C$ is [[cocomplete category|cocomplete]].  Then $G$ admits [[final lift|final lifts]] for [[small category|small]] $G$-structured [[sinks]].
+=--
++-- {: .proof}
+###### Proof
+Let $\{U(S_i) \to X\}$ be a small sink, and consider the diagram in $C$ consisting of all the $S_i$, all the counits $\varepsilon\colon F U(S_i) \to S_i$ (where $F$ is the left adjoint of $U$), and all the images $F U(S_i) \to F(X)$ of the morphisms making up the sink.  The colimit of this diagram is preserved by $U$ (since it has a right adjoint as well).  But the image of the diagram consists essentially of just the sink itself (since $F$ is fully faithful, $U(\varepsilon)$ is an isomorphism), whose colimit is $X$; hence we have constructed a lifting of $X$ to $C$ (up to isomorphism).  It is easy to verify that this lifting has the correct universal property.
+=--
+
+Thus, we can talk about objects of $D$ having the [[weak structure]] or [[strong structure]] induced by any small collection of maps.
+
++-- {: .num_cor #Fibration}
+###### Corollary
+In the situation of Proposition \ref{FinalLifts}, $G$ is a ([[Street fibration|Street]]) [[Grothendieck fibration|opfibration]].  If it is also an [[isofibration]], then it is a Grothendieck opfibration.
+=--
++-- {: .proof}
+###### Proof
+A final lift of a singleton sink is precisely an opcartesian arrow.
+=--
+
+Dually, of course, if $C$ is complete, then $G$ admits initial lifts for small $G$-structured cosinks and is a fibration.
+
+In particular, the proposition and its corollary apply to a [[cohesive topos]], and (suitably categorified) to a [[cohesive (∞,1)-topos]].
 
 
 ## Examples
