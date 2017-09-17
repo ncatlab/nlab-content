@@ -306,9 +306,26 @@ The following is (or will eventually be) a linked list of keywords.
 
 ## 6. Algebraic structures on $\infty$-categories
 
+### 6.1 Endomorphism objects
+
+### 6.2 Monads and Barr-Beck theorem
+
 * [[(∞,1)-monad]]
 
 * [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
+
+#### 6.2.1 Split simplicial objects
+
+#### 6.2.2 The Barr-Beck theorem
+
+* [[Barr-Beck theorem]]
+
+#### 6.2.3 BiCartesian Fibrations
+
+#### 6.2.4 Descent and the Beck-Chevalley condition
+
+* [[higher monadic descent]]
+
 
 ## 7. The calculus of functors
 
