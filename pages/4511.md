@@ -111,6 +111,56 @@ $$
 
 For instance ([Weibel, theorem 2.7.2](#Weibel)).
 
+
+
+### Respect for direct sums and filtered colimits
+
++-- {: .num_prop}
+###### Proposition
+
+Each $Tor_n^R(-,N)$ resepects [[direct sums]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $S \in$ [[Set]] and let $\{N_s\}_{s \in S}$ be an $S$-family of $R$-[[modules]]. Observe that 
+
+1. if $\{(F_s)_\bullet\}_{s \in S}$ is an family of [[projective resolutions]], then their degreewise [[direct sum]] $(\oplus_{s \in S} F)_\bullet$ is a projective resolution of $\oplus_{s \in S} N_s$. 
+
+1. the tensor product functor distributes over direct sums (this is discussed at _[tensor product of modules -- monoidal category structure](module#MonoidalCategoryStructure)_)
+
+1. the [[chain homology]] functor preserves direct sums (this is discussed at _[chain homology - respect for direct sums](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)_).
+
+Using this we have
+
+$$
+  \begin{aligned}
+    Tor_n^R(\oplus_{s \in S} N_s, N)
+    & \simeq
+    H_n\left( \left(\oplus_{s \in S} F\right) \otimes  N  \right)
+    \\
+    & \simeq
+    H_n\left( \oplus_{s \in S} \left(F_s \otimes N \right)  \right)
+    \\
+    & \simeq \oplus_{s \in S} H_n( F_s \otimes N )
+    \\
+    & \simeq \oplus_{s \in S} Tor_n(N_s, N)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #TorPreservesFilteredColimits}
+###### Proposition
+
+Each $Tor_n^R(-,N)$ resepects [[filtered colimits]].
+
+=--
+
 ### Relation to torsion groups
  {#RelationToTorsionGroups}
 
@@ -129,13 +179,15 @@ for the **$p$-torsion subgroup** consisting of all those elements whose $p$-fold
 
 =--
 
+For $n \in \mathbb{N}$, write $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order]] $n$, as usual
+
 +-- {: .num_prop #TorOutOfCyclicGroup}
 ###### Proposition
 
-For $\mathbb{Z}/p\mathbb{Z}$ the [[cyclic group]] and $A \in $ [[Ab]] $\simeq \mathbb{Z}$[[Mod]] any [[abelian group]], we have an [[isomorphism]]
+For $p \in \mathbb{N}$ and $A \in $ [[Ab]] $\simeq \mathbb{Z}$[[Mod]] any [[abelian group]], we have an [[isomorphism]]
 
 $$
-  Tor_1^\mathbb{Z}(\mathbb{Z}/p\mathbb{Z}, A)
+  Tor_1^\mathbb{Z}(\mathbb{Z}_p, A)
   \simeq
   {}_p A
   \,.
@@ -150,14 +202,14 @@ The [[short exact sequence]]
 
 $$
   0 \to \mathbb{Z} \stackrel{\cdot p}{\to} \mathbb{Z} \stackrel{mod\, p}{\to}
-  \mathbb{Z}/p\mathbb{Z} \to 0
+  \mathbb{Z}_p \to 0
 $$
 
-constitutes a [[projective resolution]] (even a [[free resolution]]) of $\mathbb{Z}/p\mathbb{Z}$. Accordingly we have 
+constitutes a [[projective resolution]] (even a [[free resolution]]) of $\mathbb{Z}_p$. Accordingly we have 
 
 $$
   \begin{aligned}
-    Tor_1^\mathbb{Z}(\mathbb{Z}/p\mathbb{Z}, A)
+    Tor_1^\mathbb{Z}(\mathbb{Z}_p, A)
     &\simeq
     H_1( [\cdots\to 0 \to \mathbb{Z}\otimes A \stackrel{(\cdot p) \otimes A}{\to} \mathbb{Z} \otimes A )
     \\
@@ -205,7 +257,7 @@ For instance ([Weibel, prop. 3.1.2, prop. 3.1.3, cor. 3.1.5](#Weibel)).
 +-- {: .proof}
 ###### Proof
 
-Use that $Tor_1^\mathbb{Z}(-,A)$ preserves [[filtered colimits]], express the arguments above as filtered colimits over their finite subgroups, then apply prop. \ref{TorOutOfCyclicGroup}.
+Use that $Tor_1^\mathbb{Z}(-,A)$ preserves [[filtered colimits]], by prop. \ref{TorPreservesFilteredColimits}, express the arguments above as filtered colimits over their [[finite group|finite]] [[subgroups]], then apply prop. \ref{TorOutOfCyclicGroup}.
 
 =--
 
@@ -217,46 +269,6 @@ Analogous results fail, in general, for $\mathbb{Z}$ replaced by another ring $R
 
 =--
 
-### Respect for direct sums and filtered colimits
-
-+-- {: .num_prop}
-###### Proposition
-
-Each $Tor_n^R(-,N)$ resepects [[direct sums]].
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $S \in$ [[Set]] and let $\{N_s\}_{s \in S}$ be an $S$-family of $R$-[[modules]]. Observe that 
-
-1. if $\{(F_s)_\bullet\}_{s \in S}$ is an family of [[projective resolutions]], then their degreewise [[direct sum]] $(\oplus_{s \in S} F)_\bullet$ is a projective resolution of $\oplus_{s \in S} N_s$. 
-
-1. the tensor product functor distributes over direct sums (discussion at [tensor product of modules -- monoidal category structure](module#MonoidalCategoryStructure))
-
-1. the [[chain homology]] functor preserves direct sums (see at [chain homology - respect for direct sums](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)).
-
-Using this we have
-
-$$
-  \begin{aligned}
-    Tor_n^R(\oplus_{s \in S} N_n, N)
-    & \simeq
-    H_n\left( \left( \left(\oplus_{s \in S} F\right) \otimes  N \right)_\bullet \right)
-    \\
-    & \simeq
-    H_n\left( \oplus_{s \in S} \left(F_s \otimes N \right)_\bullet  \right)
-    \\
-    & \simeq \oplus_{s \in S} H_n( (F_s \otimes N)_\bullet )
-    \\
-    & \simeq \oplus_{s \in S} Tor_n(N_s, N)
-  \end{aligned}
-  \,.
-$$
-
-=--
 
 ### Symmetry in the two arguments
  {#SymmetryInTheTwoArguments}
@@ -278,7 +290,7 @@ We first give a proof for $R$ a [[principal ideal domain]] such as $\mathbb{Z}$.
 +-- {: .proof}
 ###### Proof
 
-Let $R$ be a [[principal ideal domain]] such as $\mathbb{Z}$ (in the latter case $R$[[Mod]]$\simeq$ [[Ab]]). Then by the discussion at [projective resolution -- length-1 resolutions](projective%20resolution#Lenght1ResolutionsOfAbelianGroups) there is always a [[short exact sequence]]
+Let $R$ be a [[principal ideal domain]] such as $\mathbb{Z}$ (in the latter case $R$[[Mod]]$\simeq$ [[Ab]]). Then by the discussion at _[projective resolution -- length-1 resolutions](projective%20resolution#Lenght1ResolutionsOfAbelianGroups)_ there is always a [[short exact sequence]]
 
 $$
   0 \to F_1 \to F_0 \to N \to 0
@@ -300,7 +312,7 @@ $$
   \,.
 $$
 
-To the last three terms we apply the natural [[braided monoidal category|symmetric braiding]] in $(R Mod, \otimes_R)$ isomorphism to get 
+To the last three terms we apply the natural [[braided monoidal category|symmetric braiding]] [[isomorphism]] in $(R Mod, \otimes_R)$  to get 
 
 $$
   \array{
