@@ -234,3 +234,6 @@ A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ su
 [[!redirects lifting property]]
 [[!redirects right lifting property]]
 [[!redirects left lifting property]]
+
+[[!redirects lifting problem]]
+[[!redirects lifting problems]]
