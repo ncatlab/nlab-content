@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An [[action functional]] for [[sigma model]]s with [[target space]] a [[pseudo-Riemannian manifold]].
+
+## Properties
+
+The Polyakov action is classically equivalent to the [[Nambu-Goto action]].
+
+## References
+
+The Polyakov action was introduced in 
+
+* A. M. Polyakov, 
+
+  _Quantum geometry of bosonic strings_ , Phys. Lett. B103 (1981) 207;
+
+
+  _Quantum geometry of fermionic strings_ , Phys. Lett. B103 (1981) 211
+
