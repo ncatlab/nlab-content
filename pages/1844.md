@@ -1,10 +1,31 @@
-__Euler numbers__ $E_n$, $n\geq 0$ are defined via the generating function
+
+Several numbers are named after [[Euler]].
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Euler's number 
+
+**Euler's number** is the [[irrational number]]
+
+$$
+  e := \sum_{n \in \mathbb{N}} \frac{1}{n!}
+  \,.
+$$
+
+This is the [[groupoid cardinality]] of the [[groupoid]] $core(FinSet)$, the [[core]] of [[FinSet]].
+
+
+## Euler numbers
+
+The **Euler numbers** $E_n$, $n\geq 0$ are a sequence of [[integer]]s defined via the generating function
 
 $$
 \frac{1}{ch t}= \frac{2}{e^t+e^{-t}} = \sum_{n\geq 0} E_n \frac{t^n}{n!}
 $$
-
-Do not mix them with [[Eulerian number]]s (forming a different, double sequence $A(n,k)$).
 
 All odd-numbered members of the sequence vanish: $E_{2k-1}=0$ for $k\in\mathbb{N}$. $E_0=1$, $E_2 = -1$, $E_4 = 5$, see [Euler number at wikipedia](http://en.wikipedia.org/wiki/Euler_number) for more and the [Abramowitz--Stegun handbook](http://en.wikipedia.org/wiki/Abramowitz_and_Stegunfor) for many Euler numbers. 
  
@@ -24,6 +45,16 @@ There is also a complementarity formula $E_n(1-x)=(-1)^n E_n(x)$.
 See e.g. Louis Comtet, __Advanced combinatorics__, D. Reifel Publ. Co., Dordrecht-Holland, Boston 1974 [djvu](http://ftp.filekeeper.org/download/acm/books/Comtet%20Louis%20-%20Advanced%20Combinatorics.djvu)
 
 
+## Eulerian numbers
+
+There are also **Eulerian numbers** (forming a different, double sequence $A(n,k)$).
+
+
+
 [[!redirects Euler polynomial]]
 [[!redirects Euler numbers]]
 [[!redirects Euler polynomials]]
+[[!redirects Euler's number]]
+
+[[!redirects Eulerian number]]
+[[!redirects Eulerian numbers]]
