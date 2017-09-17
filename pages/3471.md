@@ -21,7 +21,7 @@ The _global sections_ of a [[bundle]] are simply its [[sections]]. When bundles 
 
 ## Definition
 
-We start describing the more explit notions of global sections of bundles and then work our way towards the more abstract notions in terms of [[topos]] theory.
+We start describing the more explicit notions of global sections of bundles and then work our way towards the more abstract notions in terms of [[topos]] theory.
 
 
 ### Of bundles
@@ -34,7 +34,7 @@ $$
     \\
     & {}^{\mathllap{s}}\nearrow & \downarrow^{\mathrlap{p}}
     \\
-    B &\stackrel{Id}{\to}& B
+    B &\stackrel{id}{\to}& B
   }
   \,.
 $$
