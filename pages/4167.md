@@ -1,7 +1,7 @@
 
 > under construction
 
-> so far this are notes taken in talks by [[Ezra Getzler]]
+> so far these are notes taken in talks by [[Ezra Getzler]]
 
 #Contents#
 * automatic table of contents goes here
@@ -38,11 +38,12 @@ which is
 
 * bilinear
 
-* graded antisymmetric: $[x,y] = (-1)^{deg(x) deg(y)} [y,x]$
+* graded antisymmetric: $[x,y] = - (-1)^{deg(x) deg(y)} [y,x]$
 
 * satisfies the graded Jacobi identity $[x,[y,z]] = [[x,y],z] + (-1)^{deg(x) deg(y)} [y,[x,z]]$.
 
 * is graded Leibnitz: $d[x,y] = [d x,y] + (-1)^{deg(x)} [x, d y]$.
+(aka a graded derivation)
 
 **Note** If $deg(x)$ is odd, then $[x,x]$ need not vanish. (see also [[super Lie algebra]]).
 
@@ -56,8 +57,19 @@ $$
 
 a [[quasi-free dga]]. 
 
+(N.B. In full generality, read this as
+
+$$
+  CE(L) = ((\wedge^\bullet L[1])^*, \delta)
+$$
+and regard 
+$$
+ \wedge^\bullet L[1]
+$$
+as a graded commutative COalgebra.)
+
 The underlying graded algebra we may dually think of as functions on some 
-space, a **formal graded manifold**.
+space, a (so-called) **formal graded manifold**.
 
 The total differential 
 
@@ -65,7 +77,7 @@ $$
   \delta = \delta_1 + \delta_2
 $$
 
-where the first is $d$ and the second is the bracket $[-,-]^*$ extended as a 
+where the first is $d$ and the second is the dual of the bracket: $[-,-]^*$ extended as a 
 graded derivation.
 
 Being a [[derivation]], dually we may think of this as a [[vector field]]
@@ -75,12 +87,16 @@ on our formal smooth manifold. This is sometimes called an [[NQ-supermanifold]].
 
 An [[L-infinity algebra]] (see there) 
 of finite type  is the evident generalization of this
-inroduced by [[Jim Stasheff]] and [[Tom Lada]] in the early 1990s:
+inroduced by [[Jim Stasheff]] and [[Tom Lada]]
 
-it is a (degreewise finite dimensional) 
+what kind of link is needed here??
+
+ in the early 1990s:
+
+An [[L-infinity algebra]]  is equivalent to  ( in the degreewise finite dimensional case) a
 free graded-commutative algebra equipped with a differential of degree +1.
 
-Now the differential corresponds to a bunch of $n$-ary brackets. For $n = 1$ this is
+Now the differential corresponds to a sequence of $n$-ary brackets. For $n = 1$ this is
 the differential on the complex, for $n = 2$ this is the binary bracket from 
 above, and then there are higher brackets.
 
@@ -98,13 +114,13 @@ is due to Lada and Stasheff.
 
 We may also think of this as a morphism of [[NQ-supermanifold]]s.
 
-All this arose in this form probably most vivdly in [[BV-BRST formalism]].
+All this arose in this form probably most vivedly in the [[BFV-BRST formalism]] or in the [[BV-BRST formalism]].
 
 So in components such a morphism $f : L \to K$ of $L_\infty$-algebras 
 consists of $n$-ary maps
 
 $$
- f_k : L^{i_1} \otimes \cdots L^{i_k} \to M^{i_1 + \cdots + 1 - k}
+ f_k : L^{i_1} \otimes \cdots L^{i_k} \to K^{i_1 + \cdots + 1 - k}
 $$
 
 (where the shift in the indices is due to the numbering convention here only).
@@ -146,7 +162,7 @@ Let $C$ be a [[category]]. The axioms used here are the following.
 
    * it contains all [[isomorphism]]s;
 
-   * the [[pullback]] of a fibration is again a fibration.
+   * the [[pullback]] of a fibration is against a fibration.
 
    * the pullback of an acyclic fibrations is an acyclic fibration.
 
@@ -173,6 +189,8 @@ $$
 
 i.e. if $(x_i \in F^i L)$ then $\sum_{i=0}^\infty x_i$ exists
 
+something missing here
+
 $$
   [-,- , \dots ]_k
 $$
@@ -180,6 +198,8 @@ $$
 has filtration degree 0 if $k \gt 0$ or filtration degree 1 if $k = 0$.
 
 The differential $d x = [x]_1$ has the property 
+
+namely?
 
 Then $gr(d)$ is a  true differential $gr(L)$
 
@@ -197,7 +217,7 @@ So $gr(f_1)$ is a morphism of complexes from $gr(L)$ to $gr(N)$.
 **Definition** A morphism $f$ is a **weak equivalence** if $gr(f)$ is a 
 [[quasi-isomorphism]] of complexess.
 
-If is a **fibration** if $gr(f_1)$ is surjective. 
+It is a **fibration** if $gr(f_1)$ is surjective. 
 
 **Theorem** This defines the structure of 
 a (Getzler-version of a) [[category of fibrant objects]]
@@ -256,7 +276,7 @@ $$
 
 which is such that 
 
-1. for all $X$ the face meaps of $(P X)_\bullet$ are weak 
+1. for all $X$ the face maps of $(P X)_\bullet$ are weak 
 equivalences;
 
 1. $P$ preserves fibrations and acyclic fibrations;
@@ -275,9 +295,9 @@ $$
   P_k L = L \otimes_{compl} \Omega^\bullet(\Delta^k)
    =
    \lim_{\leftarrow} L \otimes \Omega / F^i L \otimes \Omega
-   \,.
+   \,,
 $$
-
+where $\otimes_{compl}$ denotes the completed tensor product, more commonly denoted $\hat \otimes$.
 
 **Remark**
 
@@ -305,7 +325,7 @@ $$
    \,.
 $$
 
-In the case of [[dg-Lie algebra]]s this is just the familiar Maurer-Cartan equation
+In the case of [[dg-Lie algebra]]s, this is just the familiar Maurer-Cartan equation
 $$
   d \omega + \frac{1}{2}[\omega, \omega] = 0
   \,.
@@ -313,7 +333,9 @@ $$
 
 We have that $C(*. P_k X)$ is a functor from $C$ to the category of [[Kan complex]]es.
 
-For the category of Kan complexes it is the identity functor.
+Should that be $C(*, P_k X)$?
+
+For the category of Kan complexes, it is the identity functor.
 
 For filtered $L_\infty$-algebras it gives
 
@@ -337,7 +359,7 @@ $$
   \,.
 $$
 
-If $L$ is a [dg-Lie algebra]], then 
+If $L$ is a [[dg-Lie algebra]], then 
 
 $$
   MC_1(L)
@@ -388,7 +410,11 @@ $$
   MC(L) \simeq \{\omega \in MC(M) | h \omega = 0\}
 $$
 
-See Kuranishi's article in Annals to see where the motivation for all this comes from.
+See Kuranishi's article in Annals
+
+citation please and how much does **all** refer to??
+
+ to see where the motivation for all this comes from.
 
 **Example** Consider the space of Schouten Lie algebras
 
@@ -473,7 +499,11 @@ $$
   \stackrel{h}{\to} M
 $$
 
-between filtered complex-like things, satisfying some conditions.
+between filtered complex-like things,
+
+meaning?? more general or complex with additional structure??
+
+ satisfying some conditions.
 
 We can arrange this such that $h$ imposes a certain gauge condition on $L$, or something
 
@@ -526,11 +556,15 @@ $$
 
 This would make the construction even smaller.
 
+What's the problem?
+
+
+
 If $L$ is abelian, then this is the [[Eilenberg-MacLane space]] which features in the [[Dold-Kan correspondence]].
 
 This is true if one takes care of some things. This is part of the above "terrible proof".
 
-Because one can proove that using explicit Eilenberg-MacLane's homotopies that proove the [[Eilenberg-Zilber theorem]] in terms of [[cochain on a simplicial set|simplicial cochains]] we have an equivalence
+Because one can prove that using explicit Eilenberg-MacLane's homotopies that proove the [[Eilenberg-Zilber theorem]] in terms of [[cochain on a simplicial set|simplicial cochains]] we have an equivalence
 
 $$
   MC(
@@ -547,4 +581,8 @@ The discussion of the Deligne groupoid (the $\infty$-groupoid "integrating" an $
 
 * [[Ezra Getzler]], _Lie theory for nilpotent L-infinity algebras_ ([arXiv:0404003](http://arxiv.org/abs/math/0404003))
 
-> A reference for the main point above seems not to be available yet, but I'll check.
+> A reference for the main point 
+
+namely??
+
+above seems not to be available yet, but I'll check.
