@@ -42,17 +42,7 @@ The name derives from the fact that the other two comonents are identified in [[
 
 ## Related concepts
 
-* [[boson]]
-
-  * [[gauge boson]]
-
-    * [[photon]], [[gluon]], [[graviton]]
-
-* [[fermion]] 
-
-  * [[electron]], [[quark]],
-
-  * **gravitino**, [[gaugino]] , [[dilatino]]
+[[!include fields and quanta - table]]
 
 
 [[!redirects gravitinos]]
