@@ -96,70 +96,8 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 
 * [[ribbon graph]]
 
-## Discussion ## {#talk}
+* [[hypergraph]]
 
-Obsolete discussion may also be found in the History at [Version 24](http://ncatlab.org/nlab/revision/graph/24).
-
-
-_Toby_:  OK, I\'ve completely redone the page above; [this](http://ncatlab.org/nlab/revision/graph/24) is how it looked before.  In particular, I am defining things case by case, rather than choice by choice ($8$ cases, rather than $3$ choices with $2$ options each).  Feedback please!
-
-(One obvious possibility is that the best style of definition is a mixture of the two previous styles: doing undirected and directed graphs separately, but in each case listing the two choices ---loops or no loops, multiple edges or no multiple edges--- as I had done before.)
-
-[[Eric]]: Ugh. I see that quite some discussion went on here and I'm late to the party. This page is not beautiful nor remotely $n$-categorical in my opinion. We already had a page that I was very happy with on [[directed graphs]].
-
-Isn't there some way to state very simply:
-
->A **graph** is a functor...
-
-Here is a humble attempt...
-
-+-- {: .un_defn}
-###### Definition
-
-An **abstract graph** $X$ is a [[category]] with
-
-* one object $X_0$, called the object of _vertices_;
-
-* one object $X_1$, called the object of _edges_;
-
-* one morphism $e : X_1 \to ???$, called
-the _???_;
-
-* together with identity morphisms.
-
-A **graph** is a [[functor]] $G: X\to$ [[Set]].
-
-More generally, a **graph [[internalization|in]] a category $C$** is a [[functor]] $G : X \to C$.
-=--
-
-_Toby_:  First, it depends on what kind of 'graph' you mean.
-
-Let\'s take a simple undirected graph.  Then the answer is no, since the definition of a simple graph is not (despite the name) as simple as the definition of digraph (directed pseudograph).  Whereas a digraph consists of just $V$, $E$, and $d: E \to V^2$, a simple graph consists of $V$, $E$, and an injection $d: E \to \left({V \atop 2}\right)$.  The two problems here are: how do you say that $d$ is an injection? and how do you describe a function $E \to \left({V \atop 2}\right)$ in terms of functions among $V$ and $E$?  (A map $E \to V^2$ can be done; that\'s the same as two maps $E \to V$.)  You can describe these things more internally, of course (say by replacing 'injective function' with '[[monomorphism]]'), but there\'s no category $X$ such that a simple graph is precisely a functor from $X$ to $Set$.
-
-In fact, the *only* kind of graph above that can be defined as a functor from $X$ to $Set$ for some fixed 'abstract general' category $X$ is directed pseudograph, the kind of graph discussed at [[digraph]].  Between that, and the fact that every strict category has an underlying digraph, it\'s no surprise that this is the sort of graph that category theorists like.  But it\'s not the sort of graph that graph theorists like so much!
-
-It would be worth discussing what sort of graphs can be internalised in what sort of categories.  Those graphs that allow loops are easier; I think that I can do them!  For the graphs without loops, I haven\'t even decided what\'s the best way to phrase the definition in [[constructive mathematics]].  (Luckily it doesn\'t matter for finite graphs.)
-
-_Roger Witte_ says
-
-A looped directed graph is a set with a set with a binary relation.
-A looped graph is a set with symmetric binary relation.
-A directed graph is a set with an irreflexive binary relation.
-A graph is a set with a symmetric irreflexive binary relation.
-
-In each case this yields the correct definition of morphism and isomorphism
-
-_Toby_:  But what is the definition of morphism for a set equipped with an irreflexive relation?  In many more structured examples (such as [[linear orders]] and [[apartness relations]]), at least, it is a function that *reflects* the relation instead of one that *preserves* the relation.
-
-_Long time lurker, first time writer_: I don't think of a graph as a set with binary relation so much as I think of it as a "set with an adjacency structure." If one views graphs as adjacency lists, as a computer scientist would say, then the correct definition of morphism becomes obvious. (That said, I don't know how well this generalizes to multigraphs -- I tend to do actual graph theory and therefore work with simple graphs 99.9% of the time.)
-
-All this makes me wonder if an approach along the following lines is possible: Define directed graphs in the broadest sense, as functors from the two-object, two-nontrivial-morphism category to the category of sets. As combinatorial objects, the obvious functor from the category of digraphs to the category of graphs is in fact a functor. Is there some analogous operation on the functor category of digraphs? (Apologies if some of the above doesn't make much sense, I'm writing this on way too little sleep.)
-
-_Toby_:  I don\'t know the difference between 'a set with a (certain kind of) binary relation' and 'a set with an adjacency structure', at least not if an adjacency structure is a certain kind of binary relation.  (Although it might be a good idea to say something like that in the Idea section.)  Which defintion of morphism is obviously correct to you?
-
-_Long time lurker_: I'm talking about the definition of graph homomorphism that graph theorists use, which I think agrees with the one given here at least for simple undirected graphs. And as for "binary relation" vs. "adjacency structure," I don't think there's any real mathematical difference, but it can pay off to think of a (directed loop) graph as a function $V \rightarrow 2^V$ rather than a subset of $V \times V$.
-
-Obviously there are some issues with this; for one thing, I don't see an obvious way to abstract this in a category that doesn't have a subobject classifier. But philosophically, I'd like to propose that the key property of graphs is that their edges don't carry any information except for incidence -- so, e.g., when we take a category and forget about how arrows compose, we get a digraph. And this suggests that we should have some way of defining a graph without any reference to edges. 
 
 [[!redirects undirected graph]]
 [[!redirects graph theory]]
