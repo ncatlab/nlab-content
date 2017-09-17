@@ -52,6 +52,10 @@ See the definition at [[pseudofunctor]], and let the [[natural isomorphisms]] in
 
   A general discussion of lax-oplax functors is in section 2.1 there.
 
++--{.query}
+Isn't it odd not to require any extra condition at all on the coherence morphisms? I would have expected a definition where they are required to be split mono, or perhaps to require that the codomain be a subobject of the domain. Is there a name for something like that?
+=--
+
 
 [[!redirects oplax functor]]
 [[!redirects lax n-functor]]
