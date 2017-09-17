@@ -1,0 +1,6 @@
+
+* [webpage](http://www.th.physik.uni-bonn.de/People/werner/)
+
+* [wikipedia entry](http://de.wikipedia.org/wiki/Werner_Nahm)
+
+category: people
