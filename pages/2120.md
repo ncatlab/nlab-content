@@ -48,6 +48,10 @@ Also, when a property is not always preserved it is useful to label those maps w
 3. The image of an closed set need not be closed; a continuous map for which this is true is said to be an __[[closed map]]__.  (Technically, an open map is any function with just this property.)
 4. A continuous map of topological spaces which is invertible as a function of sets is a __[[homeomorphism]]__ if the [[inverse function]] is a continuous map as well.
 
+## Related concepts
+
+* [[uniformly continuous map]]
+
 
 [[!redirects continuous map]]
 [[!redirects continuous maps]]
