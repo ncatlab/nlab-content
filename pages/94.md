@@ -19,7 +19,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea ##
@@ -233,6 +233,8 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 * The [[horizontal categorification]] of $L_\infty$-algebras are $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
 
 * An $L_\infty$-algebra with only $D_n$ non-vanishing is called an **[[n-Lie algebra]]** -- to be distinguished from a _Lie $n$-algebra_ ! However, in large parts of the literature $n$-Lie algebras are considered for which $D_n$ is _not_ of the required homogeneous degree in the grading, or in which no grading is considered in the first place. Such $n$-Lie algebras are not special examples of $L_\infty$-algebras, then. For more see [[n-Lie algebra]].
+
+* An $L_\infty$-alghebra internal to [[super vector space]]s is a [[super L-∞ algebra]].
 
 ### Concrete examples
 
