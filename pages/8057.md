@@ -40,12 +40,12 @@ When "programming" in any of these systems, a fixed-point combinator serves as a
 one generally calls the function being defined inside of its own body.  This is not possible for a combinator or a lambda-term to do directly, but it can be implemented using a fixed-point combinator.  One first defines a "generator" which takes "the function to call recursively" as an additional argument:
 
     def genfact(f : nat -> nat)(n:nat) : nat = {
-     if (n == 0) {
-       return 1
-     } else {
-       return n * f(n-1)
-     }
-   }
+      if (n == 0) {
+        return 1
+      } else {
+        return n * f(n-1)
+      }
+    }
 
 and then "closes the loop" by applying the fixed-point combinator.  That is, we [[currying|curry]] `genfact` to view it as an endofunction of `nat -> nat` (a "functional") and then construct its fixed point, 
 
