@@ -111,8 +111,9 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 ## References
 
-* [[Jacob Lurie]], _[[Formal moduli problems]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Formal moduli problems]]_
+ 
 
+* [[Jacob Lurie]] _Moduli problems for ring spectra_ ICM 2010 proceedings contribution [pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf)
 
 [[!redirects formal moduli problems]]
