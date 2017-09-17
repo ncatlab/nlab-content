@@ -1,15 +1,71 @@
 
+> under construction
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The generalization of the concept of [[Jacobian variety]] to higher dimensional [[algebraic varieties]].
+
+
+## Examples
+
+### Of elliptic curves
+
+... [[moduli space of flat connections]]... [[Hitchin connection]]... [[modular functor]]... [[WZW model]]...
+
+### Of Calabi-Yau 3-folds
+
+A review of intermediate Jacobians of [[Calabi-Yau varieties]] of ([[complex manifold|complex]]) [[dimension]] 3 is in ([Baarsma 11, section 2](#Baarsma11)).
+
+The (real) dimensional of the intermediate Jacobian of a CY3 $X$ is 
+
+$$
+  dim (J(X)) = 2(+ h^{1,2})
+$$
+
+(e.g. [Baarsma 11, (2.21)](#Baarsma11))
+
+Hence the intermediate Jacobian of a rigid CY3 (with $h^{1,2} = 0$) is an [[elliptic curve]] (e.g. [BKNPP 09, (1.8)](#BKNPP09)).
+
+### $n = 3$: supergravity C-field
+
+For the moment see at _[[7d Chern-Simons theory]]_ and at _[[M5-brane]]_.
+
+### $n = 3$: type II 3-form 
+
+For the [[RR-field]] component in degree 4 of [[type IIA superstring theory]]: ([Morrison 95](#Morrison95))
+
 
 ## Related concepts
 
 [[!include moduli of higher lines -- table]]
 
+
 ## References
+
+### General
 
 * Wikipedia, _[Intermediate Jacobian](http://en.wikipedia.org/wiki/Intermediate_Jacobian)_
 
+### For Calabi-Yau 3-folds
+
 * C. Herbert Clemens, [[Phillip Griffith]], _The intermediate Jacobian of the cubic threefold_, Annals of Mathematics Second Series, Vol. 95, No. 2 (Mar., 1972), pp. 281-356 ([JSTOR](http://www.jstor.org/stable/1970801))
 
+
+
+
 * [[Claire Voisin]] ([pdf](http://www.math.polytechnique.fr/~voisin/Articlesweb/griffithsgroup.pdf))
+
+Applications in [[string theory]]:
+
+
+* {#Morrison95} [[David Morrison]], section 4 of _Mirror Symmetry and the Type II String_, Nucl.Phys.Proc.Suppl. 46 (1996) 146-155 ([arXiv:hep-th/9512016](http://arxiv.org/abs/hep-th/9512016))
+
+* {#BKNPP09} Ling Bao, Axel Kleinschmidt, Bengt E. W. Nilsson, Daniel Persson, Boris Pioline, _Instanton Corrections to the Universal Hypermultiplet and Automorphic Forms on SU(2,1)_, Commun. Num. Theor. Phys. 4 (1), 187-266 (2010) ([arXiv:0909.4299](http://arxiv.org/abs/0909.4299))
+
+* {#Baarsma11} A. Baarsma, _The hypermultiplet moduli space of compactified type IIA string theory_, Master Thesis, Utrecht 2011 ([web](http://dspace.library.uu.nl/handle/1874/203182))
 
 [[!redirects intermediate Jacobians]]
