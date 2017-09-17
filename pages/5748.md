@@ -2,12 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Differential geometry
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
+
+
+
 
 #Contents#
 * table of contents
