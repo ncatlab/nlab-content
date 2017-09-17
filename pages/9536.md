@@ -1,24 +1,23 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-Given a [[manifold]] $X$, there is a [[Hilbert space]] $L^2(X)$ whose elements are square-[[integration|integrable]] [[half-densities]] on $X$, and whose [[inner product]] is given by [[tensor product|tensoring]] two half-densities to an actual [[density]] and then [[integration|integrating]] that over $X$.
+Given a [[manifold]] $X$, there is a [[Hilbert space]] $L^2(X)$ whose elements are square-[[integration of differential forms|integrable]] [[half-densities]] on $X$, and whose [[inner product]] is given by [[tensor product|tensoring]] two half-densities to an actual [[density]] and then [[integration of differential forms|integrating]] that over $X$.
 
-This Hilbert space is often called the _canonical Hilbert space_ of $X$, in contrast with the [[L-2-spaces]] $L^2(X,\mu)$ of $\mu$-[[Lebesgue integral|Lebesgue integrable]] [[functions]] for every choice of [[Lebesgue measure]] $\mu$ on $X$.
+This Hilbert space is often called the _canonical Hilbert space_ of $X$, in contrast with the [[L-2-spaces]] $L^2(X,\mu)$ of $\mu$-[[integrable function|integrable]] [[functions]] for every choice of [[measure]] $\mu$ on $X$.
 
 The notion of canonical Hilbert spaces originates in the context of [[geometric quantization]] in ([Guillemin-Sternberg](#GuilleminSternberg)). It directly corresponds to the "canonical" construction of [[groupoid convolution algebras]] (see there for details) from sections of half-density bundles without choice of a [[Haar measure]]. 
 
@@ -42,6 +41,6 @@ Applications in [[operator algebra]] theory appear in
 
 
 [[!redirects canonical Hilbert space of half-densities]]
-
+[[!redirects canonical Hilbert spaces of half-densities]]
 [[!redirects canonical Hilbert-space of half-densities]]
 [[!redirects canonical Hilbert-spaces of half-densities]]
