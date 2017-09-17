@@ -320,6 +320,8 @@ $$
 
 * [[Jacobian matrix]], [[Hessian matrix]], [[extremum]]
 
+* [[pullback of differential forms]]
+
 [[!redirects derivative]] 
 [[!redirects derivatives]] 
 
