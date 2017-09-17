@@ -118,7 +118,7 @@ Notice well the two assumptions that were made to make this argument work:
 
 ## Related concepts 
 
-* [[moduli]]
+* [[moduli]], [[moduli problem]], [[moduli stack]]
 
 * [[representable functor]]
 * [[classifying space]], [[classifying stack]], [[classifying topos]]
