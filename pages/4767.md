@@ -18,7 +18,7 @@ The Lie groups $\mathbb{R}$ and $\mathbb{R}^+$ are in fact [[isomorphic]].  In f
 
 The real logarithms are handily defined using the [[Riemann integral]] as follows:
 \[ \label{integrals} \array {
-   \ln x & \coloneqq \int_1^x \frac{1}{x} ;\\
+   \ln x & \coloneqq \int_1^x \frac{1}{t} ;\\
    \log_b x & \coloneqq \frac{\ln x}{\ln b} .\\
 } \]
 Note that $\ln$ is itself a logarithm, the __natural logarithm__, whose base is $\mathrm{e} = 2.71828182845\ldots$.  (The exponential map may similarly be defined as an infinite series, but I\'ll leave that for its own article.)
@@ -46,11 +46,11 @@ with one such homomorphism for each complex number $w$, and these homomorphisms 
 
 So we have these surjections (the __complex [[exponential map]]__ $z \mapsto e^{w z}$, for $w \ne 0$), which are [[regular epimorphisms]] but not [[split epimorphisms]].  However, while they have no [[sections]] (being not split), they have quite a few [[partial section]]s, and the [[domains]] of the [[maximal partial function|maximal]] partial sections are precisely the [[connected space|connected]] [[simply connected space|simply connected]] [[open subspace|open]] [[dense subspace|dense]] subspaces $R$ of $\mathbb{C}^*$.  A __complex logarithm with exponential base $w$ on $R$__ is this $R$-defined section of the complex exponential map $z \mapsto e^{w z}$. Supposing $R$ given, we denote this by $\log_{[w]}$ (but please note that in the context of real logarithms, this would ordinarily be denoted $\log_b$ where $b = e^w$). 
 
-If $1 \in R$, then a complex natural logarithm on $R$ may be defined using the [[contour integral]] with the same formula (eq:integrals) as for the real natural logarithm.  We merely insist that the integral be done along a contour within the region $R$.  (Since $R$ is connected, there is such a contour; since $R$ is simply connected and $x \mapsto 1/x$ is [[holomorphic map|holomorphic]], the result is unique.)  Note that if $x \in \mathbb{R}^+ \subseteq R$, then the real and complex natural logarithms of $x$ will be equal. 
+If $1 \in R$, then a complex natural logarithm on $R$ may be defined using the [[contour integral]] with the same formula (eq:integrals) as for the real natural logarithm.  We merely insist that the integral be done along a contour within the region $R$.  (Since $R$ is connected, there is such a contour; since $R$ is simply connected and $t \mapsto 1/t$ is [[holomorphic map|holomorphic]], the result is unique.)  Note that if $x \in \mathbb{R}^+ \subseteq R$, then the real and complex natural logarithms of $x$ will be equal. 
 
 The natural exponential map is [[periodic function|periodic]] (with period $2 \pi \mathrm{i}$), and it is possible to add any multiple of this period to the natural logarithm of any $x \ne 1$ by suitably changing the region $R$.  We then obtain the most general notion of maximally-defined complex logarithm with any base by using the formulas
 $$ \array {
-   \ln x & \coloneqq \ln a + \int_a^x \frac{1}{x} ,\\
+   \ln x & \coloneqq \ln a + \int_a^x \frac{1}{t} ,\\
    \log_{[w]} x & \coloneqq \frac{\ln x}{w} ;\\
 } \]
 where for $\ln a$ we use any solution to $e^{\ln a} = a$.
