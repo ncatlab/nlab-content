@@ -12,7 +12,7 @@ A uniform structure or uniformity on a set $X$ consists of a collection of globa
 
 ## Definitions
 
-The definition described above is based on [[entourages]] and is most commonly seen today.  There is an equivalent (but less directly generalisable) definition based on [[uniform cover]]s.
+The definition described above is based on [[entourages]]; it was the original one published in [[Bourbaki]] and is still most commonly seen today.  There is an equivalent (but less directly generalisable) definition based on [[uniform cover]]s.  The relationship with [[gauge spaces]] (defined below) also allows for another definition.
 
 
 ### Entourage uniformities
