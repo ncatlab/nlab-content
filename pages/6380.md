@@ -71,7 +71,7 @@ Let $X$ be an [[algebraic variety]] [[proper morphism|proper]] over an [[algebra
 
 A sufficient condition for $\Phi_X^k$ to be [[prorepresentable functor|pro-representable]] by a [[formal group]] is that $\Phi_X^{k-1}$ is [[formally smooth morphism|formally smooth]].
 
-In particular if $dim H^{k-1}(X,\mathcal{O}_X) = 0$ then $\Phi^{k-1}(X)$ vanishes, hence is trivially formally smooth, hence $\Phi^r(X)$ is representable
+In particular if $dim H^{k-1}(X,\mathcal{O}_X) = 0$ then $\Phi^{k-1}(X)$ vanishes, hence is trivially formally smooth, hence $\Phi^k(X)$ is representable
 
 =--
 
