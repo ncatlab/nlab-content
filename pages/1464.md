@@ -45,7 +45,7 @@ In fact, $C$ is a [[filtered category]] if and only if this is true for all fini
 
 ## Sifted colimits commute with finite products
 
-Similarly to the example of filtered limits, for $C$ a small [[sifted category]], the functor $colim_C : [C,Set] \to Set$ commutes with finite limits. In fact, this is usually taken to be the definition of a [[sifted category]], and then a theorem of Gabriel and Ulmer characterizes sifted categories as those for which the diagonal functor $C \to C \times C$ is a [[final functor]].
+Similarly to the example of filtered limits, for $C$ a small [[sifted category]], the functor $colim_C : [C,Set] \to Set$ commutes with finite products. In fact, this is usually taken to be the definition of a [[sifted category]], and then a theorem of Gabriel and Ulmer characterizes sifted categories as those for which the diagonal functor $C \to C \times C$ is a [[final functor]].
 
 ## Taking orbits under the action of a finite group commutes with cofiltered limits
 
