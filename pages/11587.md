@@ -2,10 +2,9 @@
 
 ## References
 
-* {#Spivak98} [[Arnaud Spiwak]], section 5 of _A dissection of L_, Logical Methods in Computer Science  1998 [pdf](http://assert-false.net/arnaud/papers/A%20dissection%20of%20L.pdf)
+* {#Spiwack14} [[Arnaud Spiwack]], section 5 of _A dissection of L_, preprint [pdf](http://assert-false.net/arnaud/papers/A%20dissection%20of%20L.pdf)
 
 * Wikipedia, _[System L](http://en.wikipedia.org/wiki/System_L)_
-
 
 
 [[!redirects System L]]
