@@ -1,0 +1,3 @@
+[website](http://www.algeo.math.uni-erlangen.de/staff/schaumann-gregor)
+
+category: people
