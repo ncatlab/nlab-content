@@ -1474,7 +1474,7 @@ An analysis of the interdependency of the axioms on a cohesive topos is in
 
 Discussion of "sufficient cohesion" is in 
 
-* [[Matías Menni]], _Continuous Cohesion over sets_ ([pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
+* {#Menni14} [[Matías Menni]], _Continuous Cohesion over sets_ ([pdf](https://sites.google.com/site/matiasmenni/continuityOverSets12.pdf?attredirects=0))
 
 A good deal of the structure of cohesive toposes is also considered in 
 
