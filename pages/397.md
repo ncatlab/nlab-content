@@ -47,6 +47,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Dmitri Pavlov]]
 * [[Domenico Fiorenza]]
 * [[Edmund Harriss]]
+* [[Eduardo Ochs]]
 * [[Emily Riehl]]
 * [[Eric Forgy]]
 * [[Eric Katerman]]
