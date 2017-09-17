@@ -45,7 +45,13 @@
 
 * [[hypercomplete (∞,1)-topos]]
 
+  * [[hypercomplete object]]
+
+  * [[Whitehead theorem]]
+
 * [[structured (∞,1)-topos]]
+
+  * [[geometry (for structured (∞,1)-toposes)]]
 
 * [[locally n-connected (n,1)-topos]]
 
