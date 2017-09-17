@@ -169,13 +169,20 @@ $$
 
 where
 
-* $Bord_n^S$ is a [[cobordism category|category of n-dimensional cobordisms]] that are equipped with some [[structure]] $S$: 
+* $Bord_n^S$ is a [[cobordism category|category of n-dimensional cobordisms]] that are equipped with some [[structure]] $S$; 
 
   * its [[object]]s are $(n-1)$-[[dimension]]al [[topological manifold]]s;
 
   * its [[morphism]]s are [[isomorphism class]]es of $n$-[[dimension]]al [[cobordism]]s between such manifolds
 
   * and all manifolds are equipped with _$S$-[[structure]]_ . For instance $S$ could be _[[Riemannian structure]]_ . Then we would call $Z$ a [[Euclidean quantum field theory]] (confusingly). If $S$ is "no structure" then we call $Z$ a [[topological quantum field theory]].
+
+  * the [[monoidal category]]-structure is given by [[disjoint union]] of manifolds
+
+    $$
+      \Sigma_1 \otimes \Sigma_2 := \Sigma_1 \coprod \Sigma_2    
+      \,;
+    $$
 
 * $\mathcal{C}$ is some [[symmetric monoidal category]].
 
@@ -185,7 +192,22 @@ We think of data as follows:
 
 * the [[object]] $Z(\Sigma)$ that $Z$ assigns to any $(n-1)$-manifold $\Sigma$ is to be thought of as the _[[space]] of all possible [[state]]s_ over the space $\Sigma$ of a the physical system to be modeled;
 
+* so $\mathcal{C}$ is the category of [[n-vector space]]s among which the _spaces of [[state]]s_ of the quantum theory can be picked;
+
 * the [[morphism]] $Z(\hat \Sigma) : Z(\Sigma_{in}) \to Z(\Sigma_{out})$ that $\Sigma$ assigns to any [[cobordism]] $\hat \Sigma$ with incoming [[boundary]] $\Sigma_{in}$ and outgoing boundary $\Sigma_{out}$ is the [[propagator]] along $\hat \Sigma$: it maps every state $\psi \in Z(\Sigma_{in})$ of the system over $\Sigma_{in}$ to the state $Z(\Psi) \in \Sigma_{out}$ that is the result of the evolution of $\psi$ along $\hat \Sigma$ by the _dynamics_ of the system. Or conversely: the action of $Z$ encodes what this dynamics is supposed to be.
+
+Notice that since $Z$ is required to be a symmetric monoidal functor it sends disjoint unions of manifolds to [[tensor product]]s
+
+$$
+  F(\Sigma_1 \coprod \Sigma_2) \simeq Z(\Sigma_1) \otimes Z(\Sigma_2)
+  \,.
+$$
+
+Moreover, for $\hat \Sigma$ a closed [[cobordism]], hence a morphism $\emptyset \stackrel{\hat \Sigma}{\to} \emptyset$ from the [[empty set|empty]] manifold to itself, we have that
+
+* $Z(\emptyset) = \mathbf{1}$ is the tensor unit of $\mathcal{C}$;
+
+* $Z(\hat \Sigma)  \in End(\mathbb{1})$ is an [[endomorphism]] of this tensor unit, a _number_ as seen internal to $\mathcal{C}$ -- this is the _invariant_ associated to $\hat \Sigma$ by $Z$, called the [[partition function]] of $Z$ over $\hat \Sigma$. We can think of $Z$ as being a rule for computing such invariants by building them up from smaller pieces. This is the _locaity_ of quantum field theory.
 
 #### Examples
  {#ExpositionQFTExamples}
@@ -331,11 +353,12 @@ We interpret this data as follows:
 
  of this [[natural transformation]] on a trajectory $\gamma \in Conf_{\hat \Sigma}$ going from a configuration $\gamma|_{in}$ to a configuration $\gamma|_{out}$ is a morphism in $\mathcal{C}$ that maps the internal states of the ingoing configuration $\gamma|_{\Sigma_1}$ to the internal states of the outgoing configuration $\gamma|_{\Sigma_2}$. This evolution of internal states encodes the _classical dynamics_ of the system.
  
+Notice that this way a classical field theory is taken to be a special case of a [quantum field theory](#ExpositionQuantumFieldTheory), where the codomain of the symmetric monoidal functor is of the special form $Span(Grpd, \mathcal{C})$. For more on this see [[classical field theory as quantum field theory]].
 
 ### Quantization
  {#ExpositionQuantization}
 
-We assume now that $\mathcal{C}$ has [[colimit]]s and in fact [[biproduct|bilimits]].
+We assume now that $\mathcal{C}$ has [[colimit]]s and in fact [[biproduct]]s.
 
 Then for every [[functor]] $\phi : K \to \mathcal{C}$ the [[colimit]] 
 
@@ -343,7 +366,7 @@ $$
   \int^{K} \phi \in \mathcal{C}
 $$
 
-exists, and this construction extends to a [[functor]]
+exists, and (using the existence of [[biproduct]]s) this construction extends to a [[functor]]
 
 $$
   \int : Span(Grpd, \mathcal{C}) \to \mathcal{C}
