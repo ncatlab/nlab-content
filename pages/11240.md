@@ -15,7 +15,11 @@
 
 ## Idea
 
-A concept of [[computation]] assuming computable operations more powerful than in traditional [[computability]] (more powerful that [[partial recursive functions]] and [[computable function (analysis)|computable functions in computable analysis]]).
+A concept of [[computation]] assuming computable operations more powerful than in traditional [[computability]] (more powerful than [[partial recursive functions]] and [[computable function (analysis)|computable functions in computable analysis]]).
+
+For instance a Turing machine that could not just run forever, but actually process an infinite number of steps "in finite time" would be a hypercomputer.
+
+It has been argued that there are [[spacetimes]] -- see at _[[Malament–Hogarth spacetime]]_ -- which are such that they allow [[trajectories]] on which a computer could travel indefinitely together with spacetime points at which an observer could observe the whole infinite history of the computer in finite time. If this indeed were physically realizable it would to some extent contradict the [[physical Church-Turing thesis]], which asserts that no physical process can realize a computer more powerful than a Turing machine.
 
 ## Related concepts
 
@@ -29,4 +33,8 @@ A concept of [[computation]] assuming computable operations more powerful than i
 
 * Stanford Encyclopedia of Philosophy, section 4.3 of _[Computation in Physical Systems](http://plato.stanford.edu/entries/computation-physicalsystems/#EvePhySysCom)_
 
+* discussion [Can somebody explain this to me?: The computability of the laws of physics and hypercomputation](http://lesswrong.com/lw/h9c/can_somebody_explain_this_to_me_the_computability/)
+
 [[!redirects hypercomputations]]
+
+[[!redirects hypercomputability]]
