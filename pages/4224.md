@@ -38,7 +38,7 @@ If $T$ is a [[Lawvere theory]] on $Set$, we can talk about *Stone $T$-algebras*,
 However it is false for some $T$, such as:
 
 * the theory of $\mathbb{N}$-sets, i.e. sets equipped with an endomorphism
-* the theory of [[Jonsson-Tarski algebras]]
+* the theory of [[Jónsson-Tarski algebras]]
 * the theory of [[lattices]]
 
 All of these can be found in chapter VI of Johnstone's book cited below.
@@ -55,3 +55,5 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 [[!redirects profinite algebras]]
 [[!redirects Stone algebras]]
 [[!redirects Stone topological algebras]]
+[[!redirects Stone representation theorem]]
+[[!redirects Stone's representation theorem]]
