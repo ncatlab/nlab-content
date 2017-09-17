@@ -141,15 +141,7 @@ between the corresponding [[delooping|delooped]] [[2-groupoid]]s. Expressing thi
 
     $$\pi_1(F) \stackrel{\pi_1(i)}{\longrightarrow} \pi_1(E)$$ 
 
-    and if $a$ is a loop in $E$
-based at $f_0$, and $b$ a loop in $F$ based at $f_0$, then the composite path
-corresponding to $a b a^{-1}$ is [[homotopy|homotopic]] to one wholly within $F$.  To see
-this, note that $p(a b a^{-1})$ is [[null homotopic loop|null homotopic]].  Pick a [[homotopy]] in $B$
-between it and the constant map, then lift that homotopy back up to $E$ to one 
-starting at $a b a^{-1}$.  This homotopy is the required one and its other end
-gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusing paths and 
-their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a 
-crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group]]s is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
+    and if $a$ is a loop in $E$ based at $f_0$, and $b$ a loop in $F$ based at $f_0$, then the composite path corresponding to $a b a^{-1}$ is [[homotopy|homotopic]] to one wholly within $F$.  To see this, note that $p(a b a^{-1})$ is [[null homotopic loop|null homotopic]].  Pick a [[homotopy]] in $B$ between it and the constant map, then lift that homotopy back up to $E$ to one starting at $a b a^{-1}$.  This homotopy is the required one and its other end gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusing paths and their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group]]s is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
 
 * A particular case of this last example can be obtained from the inclusion of a subspace $A\to X$ into a pointed space $(X,x_0)$, (where we assume $x_0\in A$).  We can replace this inclusion by  a homotopic fibration, $\overline{A}\to X$ in 'the standard way', and then find that the fundamental group of its fibre is $\pi_2(X,A,x_0)$. 
 
