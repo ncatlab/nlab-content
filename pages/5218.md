@@ -43,6 +43,10 @@ and a [[category of fibrant objects]] approach in
 
 * [[Otgonbayar Uuye]], _Homotopy theory for $C^*$-algebras_, [arxiv/1011.2926](http://arxiv.org/abs/1011.2926)
 
+In fact, Baues fibration category structure has been constructed in 1997, not only on the category of $C^\ast$-algebras but on a wider class of similar categories:
+
+* Kasper K. S. Andersen, Jesper Grodal, _A Baues fibration category structure on Banach and $C^\ast$-algebras_, [pdf](http://www.math.ku.dk/~jg/papers/fibcat.pdf)
+
 See at _[[homotopical structure on C*-algebras]]_.
 
 The [[derived category]]/[[triangulated category]] approach to operator algebras is introduced in  
