@@ -351,6 +351,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.2.5.1]].
 
 A large class of examples of $(\infty,1)$-adjunctions arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunctions]] between [[simplicial model category|simplicial model categories]].
 
+
 We want to produce Cartesian/coCartesian fibration $K \to \Delta[1]$ from a given [[sSet]]-[[enriched category theory|enriched]] adjunction. For that first consider the following characterization
 
 +-- {: .num_lemma}
@@ -510,7 +511,11 @@ Section 5.2 in
 
 A study of adjoint functors between [[quasi-categories]] is given in
 
-* [[Emily Riehl]], [[Dominic Verity]] _The 2-category theory of quasi-categories_ ([arXiv](http://arxiv.org/abs/1306.5144)), _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv](http://arxiv.org/abs/1310.8279))
+* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_ ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144)), 
+
+and further discussion, including also that of [[(infinity,1)-monads]] is in 
+
+* [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
 
 [[!redirects adjoint (∞,1)-functor]]
 [[!redirects adjoint (infinity,1)-functors]]
