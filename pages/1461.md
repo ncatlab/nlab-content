@@ -1,10 +1,18 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A _strict morphism_ is a [[morphism]] for which the notion of [[image]] and [[coimage]] coincide.
 
-#Definition#
 
-## in a category with limits and colimits ##
+Compare with [[strict epimorphism]].
+
+## Definition
+
+### In a category with limits and colimits 
 
 Let $C$ be a category with finite [[limits]] and [[colimits]]. Let $f : c \to d$ be a [[morphism]] in $C$.
 
@@ -45,13 +53,12 @@ $$
 
 The morphism $f$ is called a **strict morphism** if $u$ is an [[isomorphism]].
 
-#Remarks#
 
-* Compare with [[strict epimorphism]].
 
-#Examples#
+## Examples
 
-Examples of categories in which every morphism is strict include
+Examples of categories in which _every_ morphism is strict include
+
 * [[Set]];
 * the category $Mod(R)$ of [[modules]] over a [[ring]] $R$;
 * the category $PSh(C) = [C^{op},Set]$ of [[presheaf|presheaves]] on any [[small category]] $C$;
