@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -23,7 +23,7 @@ The notion of  _reflective $(\infty,1)$-subcategory_ is the generalization of th
 
 ### Reflective sub-$(\infty,1)$-category
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 **(local objects, local equivalences)**
 
@@ -61,7 +61,7 @@ may be understood as exhibiting a [[localization of an (∞,1)-category|localiza
 One finds, as discussed [below](#Properties), that reflective subcategories may be entirely characterized by the class of morphisms that the localization functor $Loc : C \to C$ sends to weak equivalences.
 
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 **(local objects, local equivalences)**
 
@@ -88,7 +88,7 @@ Let $S \subset Mor(C)$ be a class of morphisms.
 
 Notice that the class of $S$-equivalences always contains $S$ itself. Hence passing from a collection $S$ to its class $\bar S$ of $S$-equivalences is a kind of saturation procedure. This is formalized by the following definition, whose justification is given by the propositions [below](#Properties).
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 **(strongly saturated class of morphisms)**
 
@@ -116,7 +116,7 @@ The smallest strongly saturated class of morphism in $C$ is that containing only
 
 Of importance are the strongly saturated classes arising as follows.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 
@@ -128,7 +128,7 @@ In particular the class of morphisms in $C$ sent to equivalences by $F$ is stron
 =--
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 The class of $S_0$-[[local equivalence]]s for $S_0$ any class of morphisms is strongly saturated.
@@ -150,18 +150,20 @@ In the following this language of local morphisms is used to characterize reflec
 ## Properties {#Properties}
 
 ### Characterization of reflectors
+ {#CharacterizationOfReflectors}
 
 The following proposition characterizes the _reflectors_ of a reflective $(\infty,1)$-subcategory. (You can read this proposition as an evident statement on the characterization of adjoints, but maybe as a preparation for the proofs to come there is some value in looking at its concrete proof in this special case of an $(\infty,1)$-adjunction.)
  
-+-- {: .un_lemma}
++-- {: .num_lemma #UniversalityOfReflectionCounit}
 ###### Lemma
+**(universality of reflection counit)**
 
 Let $C$ be an [[(∞,1)-category]] and $D \hookrightarrow C$ a full [[sub-(∞,1)-category]]. Then this inclusion has a left [[adjoint (∞,1)-functor]] precisely if 
 
-* for every object $c \in C$ there is a _localization_ or _reflection_ : a morphism $f : c \to d$ such that $d \in D$ and such that for all $e \in D$ we have that 
+* for every object $c \in C$ there is a _localization_ or _reflection_ : a morphism $f : c \to \bar c$ such that $\bar c \in D\hookrightarrow C$ and such that for all $e \in D \hookrightarrow C$ we have that 
 
   $$
-    Hom_C(f,e) : Hom_C(d,e) \to Hom_C(c,e)
+    Hom_C(f,e) : Hom_C(\bar c,e) \to Hom_C(c,e)
   $$
 
   is an equivalence (of [[∞-groupoid]]s).
@@ -210,7 +212,7 @@ being an equivalence. This way the reflectors are identified precisely with the 
 
 The following proposition asserts that localizations are entirely determined by the corresponding [[local object]]s.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let 
@@ -314,7 +316,7 @@ By the above we know now that the vertical morphisms here are also $S$-local. It
 The following proposition characterizes when a reflective subcategory of an [[accessible (∞,1)-category]] $C$ is accessible
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be an [[accessible (∞,1)-category]] and 
@@ -351,7 +353,7 @@ Above is discussed that every reflective subcategory is the localization at the 
 One can turn this around and define or construct reflective $(\infty,1)$-subcategories by specifying collections of local morphisms.
 
 
-+-- {: .un_prop #LocalizationProposition}
++-- {: .num_prop #LocalizationProposition}
 ###### Proposition
 **(localization proposition)**
 
@@ -381,7 +383,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.4.15]].
 The main ingredient in the proof of this assertion is the following lemma, whose proof we give below in [Proof of the localization lemma](#ProofOfLocalization).
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(localization lemma)**
 
@@ -435,7 +437,7 @@ Since every reflector is in $S$ and the reflectors are the units of the reflecti
 
 We here spell out the proof of 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(localization lemma)**
 
@@ -562,7 +564,7 @@ Recall also that by the above results, a reflective subcategory is characterized
 
 The following propositions say how the property that $L$ preserves finite limits is characterized by pullback-stability properties of $S$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(recognition of exact localization, I)**
 
@@ -771,7 +773,7 @@ To see this, notice that it has a left inverse $y \times_{L y} y \to y$, given b
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(recognition of exact localizations, II)**
 
@@ -841,7 +843,7 @@ If $C$ has a [[terminal object in a quasi-category|terminal object]], then the f
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 let $p : C_1 \to C_0$ be a [[coCartesian fibration]] and $D_0 \stackrel{\leftarrow}{\hookrightarrow} C_0$ a reflective $(\infty,1)$-subcategory of the base. 
