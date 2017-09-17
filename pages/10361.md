@@ -1,19 +1,17 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -31,9 +29,11 @@ There have been various attempts to construct such hidden variable theories. How
 
 These theorems are
 
-* [[Bell's inequalities]] ([Bell 64](#Bell64))
+* [[Bell's inequalities]] ([Bell 64](#Bell64));
 
-* the [[Kochen-Specker theorem]] ([Kochen-Specker 68](#KochenSpecker68));
+* the [[Kochen-Specker theorem]] ([Kochen-Specker 68](#KochenSpecker68)).
+
+One well-developed attempt to construct a hidden variable theory is [[Bohmian mechanics]]; this makes hidden variables out of the entire [[wavefunction]] and violates the assumption of [[locality]].
 
 
 ## Related concepts
@@ -42,8 +42,8 @@ These theorems are
 
 * [[Kochen-Specker theorem]]
 
-## References
 
+## References
 
 * [[John Bell]], _On the Einstein Podolsky Rosen paradox_, Physics 1, 195, 1964 ([pdf](http://www.drchinese.com/David/Bell_Compact.pdf))
   {#Bell64}
@@ -51,11 +51,11 @@ These theorems are
 * [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_ 1968 , Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf).
   {#KochenSpecker68}
 
-
 * Wikipedia, _[Hidden variable theory](http://en.wikipedia.org/wiki/Hidden_variable_theory)_
 
-[[!redirects hidden variable theories]]
 
+[[!redirects hidden variable theory]]
+[[!redirects hidden variable theories]]
 
 [[!redirects hidden variable]]
 [[!redirects hidden variables]]
