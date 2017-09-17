@@ -53,3 +53,6 @@ A [[holographic principle|holographic]] description of type II by [[higher dimen
 [[!redirects type II superstring]]
 
 [[!redirects type II supergravity]]
+
+[[!redirects type IIA string theory]]
+[[!redirects type IIB string theory]]
