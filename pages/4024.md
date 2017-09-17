@@ -27,7 +27,7 @@ If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to b
 
 * If $X$ is any [[topological space]], there is a bornology consisting of all [[precompact subset]]s of $X$ (subsets whose closure is compact).  Any [[continuous map]] is bounded with respect to this choice of bornology. 
 
-* If $X$ is any [[metric space]], there is a bornology where a set is bounded if it is contained in some open [[ball]]. Any [[Lipschitz map]] is bounded with respect to this choice of bornology. 
+* If $X$ is any [[metric space]], there is a bornology where a set is bounded if it is contained in some open [[ball]]. Any [[Lipschitz map]] is bounded with respect to this choice of bornology.  A metric space is __bounded__ if it\'s a bounded subspace of itself.
 
 * For [[linear operators]] between [[bornological spaces]], a map is continuous if and only if it is bounded. 
 
@@ -40,8 +40,13 @@ If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to b
 
 [[!redirects bounded subset]]
 [[!redirects bounded subsets]]
+[[!redirects bounded subspace]]
+[[!redirects bounded subspaces]]
 [[!redirects bounded set]]
 [[!redirects bounded sets]]
+
+[[!redirects bounded space]]
+[[!redirects bounded spaces]]
 
 [[!redirects bounded map]]
 [[!redirects bounded maps]]
