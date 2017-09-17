@@ -1826,6 +1826,126 @@ By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \s
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+We have 
+
+$$
+  Lie \circ Lie \simeq Lie \circ \Sigma \circ \Omega
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe that for all $A \in */\mathbf{H}$
+
+$$
+  \mathbf{\flat} \mathbf{\flat}_{dR} A \simeq *
+$$
+
+and dually for all $X \in \mathbf{H}$
+
+$$
+  \mathbf{\Pi} \mathbf{\Pi}_{dR} X \simeq *
+  \,.
+$$
+
+The first follows with using that 
+
+* \mathbf{\flat} is a [[right adjoint]] and hence preserves [[(∞,1)-pullback]]s;
+
+* $\mathbf{\flat} \mathbf{\flat} := Disc \Gamma Disc \Gamma \simeq Disc \Gamma =: \mathbf{\flat}$ by the fact that $Disc$ is a 
+  [[full and faithful (∞,1)-functor]]; 
+
+* the counit $\mathbf{\flat} \mathbf{\flat} A \to \mathbf{\flagt} A$ is equivalent to the identity, by the zig-zag-identity of the adjunction
+
+by computing
+
+$$
+  \begin{aligned}
+    \mathbf{\flat} \mathbf{\flat}_{dR} A
+    \\
+    & 
+    * \times_{\mathbf{\flat}A} \mathbf{\flat}\mathbf{\flat}A
+    \\
+    & \simeq 
+    * \times_{\mathbf{\flat}A} \mathbf{\flat}A
+    \\
+    & \simeq *
+ \end{aligned} 
+ \,,
+$$
+
+using that the [[(∞,1)-pullback]] of an [[equivalence in an (∞,1)-category|equivalence]] is an equivalence.
+
+The second follows dually.
+
+From this we deduce that
+
+$$
+  \mathbf{\flat}_{dR} \circ \mathbf{\flat}_{dR} 
+  \simeq \mathbf{\flat}_{dR} \circ \Omega
+  \,.
+$$
+
+by computing for all $A \in \mathbf{H}$
+
+$$
+  \begin{aligned}
+    \mathbf{\flat}_{dR} \circ \mathbf{\flat}_{dR} A
+    & \simeq 
+    * \times_{\mathbf{\flat}_{dR} A} \mathbf{\flat}\mathbf{\flat}_{dR} A
+    \\
+    & \simeq
+    * \times_{\mathbf{\flat}_{dR} A} *
+    \\
+    & \simeq
+    \mathbr{\flat}_{dR}( * \times_A * )
+    \\
+    & \simeq \mathbf{\flat}_{dR} \Omega A
+  \end{aligned}
+  \,.
+$$
+
+Finally to obtain $Lie \circ Lie$ we do one more computation of this sort, using that $Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) and is a [[left adjoint]] (with right adjoint given by $\mathbf{\flat}_{dR} \mathbf{\Pi}_{dR}$):
+
+$$
+  \begin{aligned}
+    Lie Lie A 
+    & \simeq 
+    Lie \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} A
+    \\
+    & \simeq
+    * \coprod_{Lie \mathbf{\flat}_{dR} A} \mathbf{\Pi} \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\flat}_{dR} A
+    \\
+    & \simeq 
+    * \coprod_{Lie \mathbf{\flat}_{dR} A} *    
+    \\
+    & \simeq 
+    * \coprod_{\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\flat}_{dR} A} *
+    \\
+    & \simeq 
+    * \coprod_{\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \Omega A} *   
+    \\
+    & \simeq
+    * \coprod_{Lie \Omega A} *   
+    \\
+    & \simeq
+    Lie ( * \coprod_{\Omega A} * )
+    \\
+    & \simeq
+    Lie \Sigma \Omega A  
+  \end{aligned} 
+  \,.
+$$
+
+=--
+
+
 We shall also write
 
 $$
@@ -1838,6 +1958,7 @@ $$
   \mathbf{B}\mathfrak{g} \to \mathbf{B}G
   \,.
 $$
+
 
 
 +-- {: .un_prop #LieValuesofDeRham}
