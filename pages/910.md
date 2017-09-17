@@ -46,6 +46,8 @@ is a homeomorphism (not just a $k$-homeomorphism).
 [[Zoran Škoda]]: I do not understand the remark. I mean if the domain is k-space then by the characterization above continuous is the same as k-continuous. Thus if both domain and codomain are continuous then homeo is the same as k-homeo. I assume that even in noHausdorff case, the test-open topology for $X$ and $Y$ k-spaces gives a k-space and that the cartesian product has the correction for the k-spaces. 
 
 [[Todd Trimble]]: That may be just the point: that the domain is not necessarily a $k$-space. I have to admit that I haven't worked through the details of this exposition, but one thing I tripped over is the fact that we're dealing with _all_ topological spaces $X$, $Y$, not just $k$-spaces. 
+
+[[Mike Shulman]]: But any topological space is isomorphic in $k\Top$ to its $k$-ification, right?  So $k\Top$ might as well be defined to consist of $k$-spaces and continuous maps.
 =--
 
 The topology on $k\Top(X,Y)$ that is used here is the test-open
@@ -57,7 +59,9 @@ It follows that the category of $k$-spaces and continuous maps is also cartesian
 
 ## Kaonization
 
-Let us consider for the moment only the categories $Haus$ of Hausdorff and $kHaus$ of Hausdorff k-spaces. Then the tautological inclusion $kHaus\subset Haus$ has a right adjoint $k$ sometimes (e.g. by [[M M Postnikov]]) also called **kaonization**. This functor is constructed as follows $k(X)=X$ as a set and $k(X)$ has as new closed sets those sets whose intersection with old compacts in $X$ is closed in old topology on $X$. Then $k(X)$ has all the same closed sets and possibly more, hence all the old open sets and possibly more. In particular, the identity map $id:k(X)\to X$ is continuous. The mapping spaces $kHaus(X,Y)=k(Top(X,Y))$ where $Top(X,Y)$ is the standard mapping space in the sense of compact-open topology. Similarly, the categorical product in $kHaus$ is the kaonification of the usual (Tyhonov) product. Then $kHaus$ is [[cartesian closed category|cartesian closed]]. See G. Whitehead's _Elements of homotopy theory_, for more details.  
+Let us consider for the moment only the categories $Haus$ of Hausdorff and $kHaus$ of Hausdorff k-spaces. Then the tautological inclusion $kHaus\subset Haus$ has a right adjoint $k$ sometimes (e.g. by [[M M Postnikov]]) also called **kaonization** and sometimes (e.g. by [[Peter May]]) $k$-ification.  This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more. In particular, the identity map $id:k(X)\to X$ is continuous.
+
+We can identify the mapping spaces $kHaus(X,Y)=k(Top(X,Y))$, where $Top(X,Y)$ is the standard mapping space in the sense of compact-open topology. Similarly, the categorical product in $kHaus$ is the kaonification of the usual (Tyhonov) product. Then $kHaus$ is [[cartesian closed category|cartesian closed]]. See G. Whitehead's _Elements of homotopy theory_, for more details.  
 
 ## Local cartesian closure 
 
@@ -76,6 +80,8 @@ $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
 [[Mike Shulman]]: What precisely does "get an exponential law" mean?  Do you mean that $k Top/B$ is cartesian closed if $B$ is $T_0$?
 
 _Toby_:  Hopefully that is explained in the new article.
+
+_Mike_: Which new article?  [[exponential law for spaces]]?  That page doesn't talk about fibered exponentials at all.
 =--
 
 
