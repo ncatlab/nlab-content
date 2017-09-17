@@ -15,6 +15,12 @@ An almost [[holomorphic differential form]] with certain [[logarithm|logarithmic
 
 ## References
 
+The brief idea is well described in 
+
+* {#Pottharst} Pottharst, _Logarithmic structures on schemes_ ([pdf](http://math.bu.edu/people/potthars/writings/log.str.pdf))
+
+Further details are discussed in
+
 * {#Ogus01} [[Arthur Ogus]], Chapter IV of _Lectures on logarithmic algebraic geometry_, TeXed notes, 2001, [pdf](http://math.berkeley.edu/~ogus/preprints/log_book/logbook.pdf)
 
 * [[Arthur Ogus]], slides 31 ff in _Logarithmic geometry_, talk slides 2009 ([pdf](http://math.berkeley.edu/~ogus/preprints/colloqhandout.pdf))
