@@ -74,6 +74,8 @@ See at _[[super line 2-bundle]]_.
 
 * [[line bundle]]
 
+* [[holomorphic line 2-bundle]]
+
 * [[line n-bundle]]
 
 * [[line n-bundle with connection]]
