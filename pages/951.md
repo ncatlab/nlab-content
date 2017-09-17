@@ -69,7 +69,14 @@ $$
 
 This is discussed for instance as ([Awodey, prop. 7.31](#Awodey)). For the generalization to all sets see at _[Set -- Properties -- Opposite category and Boolean algebras](Set#OppositeCategory)_. See at _[[Stone duality]]_ for more on this.
 
-## Related cncepts
++-- {: .num_remark}
+###### Remark
+
+In constructive mathematics, for any flavor of _[[finite set|finite]]_, $\mathcal{P}$ defines an equivalence of $FinSet$ with the opposite category of that of those [[complete lattice|complete]] [[atom|atomic]] [[Heyting algebras]] whose set of atomic elements is finite (in the same sense as in the definition of $FinSet$).
+
+=--
+
+## Related concepts
 
 * [[permutation category]]
 
