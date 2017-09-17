@@ -1,6 +1,6 @@
 ### What this page is for ###
 
-This Sandbox is specifically for mucking about with SVGs.  The point is that these [offset printing](http://www.foxypropaganda.com/offset-printing/) pictures can get rather large (particularly if automatically generated - does anyone write their own?).  A Sandbox, such as [[Sandbox|this one]] is for trying things out.  Usually those are little things, such as getting the correct syntax for something, so if the Sandbox gets really big and takes ages to load and resubmit, it gets difficult to try out lots of little changes.  One SVG, such as my original one, can easily swamp the 'box.  However, as I've found out, getting SVGs to work in Instiki can take a little tweaking so this 'box is for that.
+This Sandbox is specifically for mucking about with SVGs.  The point is that these pictures can get rather large (particularly if automatically generated - does anyone write their own?).  A Sandbox, such as [[Sandbox|this one]] is for trying things out.  Usually those are little things, such as getting the correct syntax for something, so if the Sandbox gets really big and takes ages to load and resubmit, it gets difficult to try out lots of little changes.  One SVG, such as my original one, can easily swamp the 'box.  However, as I've found out, getting SVGs to work in Instiki can take a little tweaking so this 'box is for that.
 
 One shouldn't leave an SVG here for long.  I don't think that there's much to be learnt from looking through someone else's SVG code (unlike in the original [[Sandbox]] where it can be useful to scan through and see how something is done).  Rather, you should muck about with your SVG, get it right, and then transfer it across to the requisite page.
 
@@ -41,7 +41,7 @@ One method that would solve a lot of that would be to have the SVGs as external 
 
 Another thing is that exported files can often contain a lot of "junk" (cafeful examination of my picture will reveal that it uses 5 decimal places; perhaps slightly over-accurate).  Some way of automatically trimming this down would be helpful.
 
-I think it's okay to add another step into your scheme, between the export and copying into Instiki, but it needs to be an easy one, say a script that modifies things a little to be acceptable to Instiki.  However, what that needs to do will only become apparent with a little [morales vs maidana](http://www.moralesvsmaidana.co.cc/) experimentation.
+I think it's okay to add another step into your scheme, between the export and copying into Instiki, but it needs to be an easy one, say a script that modifies things a little to be acceptable to Instiki.  However, what that needs to do will only become apparent with a little experimentation.
 
 [[Andrew Stacey]]
 
@@ -96,7 +96,7 @@ _Toby_:  Here\'s the diagram again, but *without* the SVG code in the edit box, 
 
 _Bruce_: The files I received from Olivier Binda, which includes a nice comprehensive test suite of how his patch to htlatex (which changes ordinary text in SVG into foreignobject tags) performs, are available here: [[LD_Svg_Tests_files.zip|LD@Svg@Tests_files:file]]
 
-These three diagrams are testing re-use of SVG code.  The arrowheads are reused from diagram to diagram.  The first picture defines the arrowhead once and then reuses it for each of the [dfw printing company](http://www.foxypropaganda.com/services/) arrows.  The second picture does not define the arrowhead so must get it from the first picture.  The third picture also does not define the arrowhead but refers to the arrowhead from the picture in the [[Inclusion Sandbox]].  As can be seen, it works.  One thing to test would be to have different arrowheads here and in the [[Inclusion Sandbox]] but with the same name and see which one gets used (my guess would be the definition closest above where it is used).
+These three diagrams are testing re-use of SVG code.  The arrowheads are reused from diagram to diagram.  The first picture defines the arrowhead once and then reuses it for each of the  arrows.  The second picture does not define the arrowhead so must get it from the first picture.  The third picture also does not define the arrowhead but refers to the arrowhead from the picture in the [[Inclusion Sandbox]].  As can be seen, it works.  One thing to test would be to have different arrowheads here and in the [[Inclusion Sandbox]] but with the same name and see which one gets used (my guess would be the definition closest above where it is used).
 
 (removed; see [revision 12](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/12)) 
 
