@@ -285,8 +285,7 @@ A gentle introduction with examples is the booklet
 
 It is possible to use hyperfunctions as an introduction to generalized functions for physicists and engineers with a minimal background in complex analysis, see
 
-* Urs Graf: _Introduction to hyperfunctions and their integral transforms_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05662238&format=complete))
-
+* Urs Graf: _Introduction to hyperfunctions and their integral transforms_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05662238&format=complete) [pdf](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B_dBawvWxGGQODUyNDhjNzktNjM3Mi00NzM0LTg4ZDYtMWIzNGIwNWZkMzdi&hl=en_US)
 category: analysis
 [[!redirects hyperfunction]]
 [[!redirects hyperfunctions]]
