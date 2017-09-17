@@ -54,3 +54,9 @@ This construction could however break the left exactness condition. However, $E$
 for some context see 
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
+
+or this [blog entry](http://math.ucr.edu/home/baez/week150.html)
+
+# References:
+
+[[Daniel Quillen]]: [On the formal group laws of unoriented and complex cobordism theory](http://projecteuclid.org/euclid.bams/1183530915), Bull. Amer. Math. Soc. Volume 75, Number 6 (1969), 1293-1298. 
