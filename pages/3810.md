@@ -11,13 +11,15 @@ Entries on combinatorics and on various combinatorial objects in $n$Lab include:
 * [[graph]], [[quiver]]
 * [[matroid]], [[oriented matroid]]
 * [[permutation]]
-* [[symmetric function]], [[Schur functor]], [[Schur function]]
+* [[symmetric function]], [[noncommutative symmetric function]]
+* [[Schur functor]], [[Schur function]], [[plethysm]]
 * (combinatorial) [[species]]
 * [[game theory]]
+* [[combinatorial representation theory]]
 
 [[!redirects combinatorial]]
 [[!redirects combinatorialist]]
 
 ## References
 
-Richard P. Stanley, Enumerative combinatorics, vol.1 ([pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
+* Richard P. Stanley, _Enumerative combinatorics_, vol.1 ([pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
