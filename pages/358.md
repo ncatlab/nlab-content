@@ -231,3 +231,6 @@ Use of the word "stable" here also creates confusion with its other meanings (se
 _Toby_:  Hopefully John will admit that saying 'stable' instead of 'stably monoidal' (or 'stably groupal') was a slip of the tongue ... pen ... fingers.  I\'m used to 'stably monoidal', and I don\'t think that it should cause confusion ---if used in full.  Also, I think there\'s some historical confusion about 'symmetric monoidal $2$-category' or maybe 'symmetric monoidal $3$-category' that 'stably monoidal' isn\'t subject to, although that\'s a bit parochial.
 
 =--
+
+
+[[!redirects k-tuply monoidal n-categories]]
