@@ -4,11 +4,33 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 =--
 
 
-***
-| closed piece of [[spacetime]] of [[dimension]] $0 \leq k \leq n$ |  [[prequantum field theory]] | [[prequantum n-bundle|prequantum (n-k)-bundle]] | [[geometric quantization]] | [[space of states|space of (n-k)-states]] |
-|--|--|--|--|--|
-| [[closed manifold]] of [[dimension]] $0 \leq k \leq n$ | $\stackrel{local\;prequantum\;field\;theory}{\mapsto}$ | [[circle n-bundle with connection|circle (n-k)-bundle with connection]] on [[moduli stack]] of [[field (physics)|field configurations]] | $\stackrel{polarized\; sections}{\mapsto}$ | [[n-vector space|(n-k)-vector space of states]] | 
-| $\Sigma_k$ | $\mapsto$ | $\exp(2 \pi i \int_{\Sigma_k}[\Sigma_k,\mathbf{L}]) : [\Sigma_k, \mathbf{Fields}] \to \mathbf{B}^{n-k} U(1)_{conn}$ | $\mapsto$ | $Z(\Sigma_{n-k})$ |
+
+
+$$
+  \array{
+    \mathbf{H} \coloneqq
+    & Sh_\infty(\mathcal{C})
+    &
+    \stackrel{
+      \overset{\infty-stackif.}{\leftarrow}
+    }{
+      \hookrightarrow
+    }
+  &
+  PSh_\infty(\mathcal{C})
+  \\
+  & \uparrow^{\mathrlap{\simeq}} && \uparrow^{\mathrlap{\simeq}}
+  \\
+  & L_{lwhe} Func(\mathcal{C}^{op}, sSet)
+  &
+  \stackrel{
+    \overset{\mathbb{L} id}{\leftarrow}
+   }{
+     \underset{\mathbb{R} id}{\rightarrow}
+  }&
+  L_{whe} Func(\mathcal{C}^{op}, sSet)
+  }
+$$
 
 
 ***
