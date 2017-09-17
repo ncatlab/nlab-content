@@ -142,7 +142,7 @@ This is [BergerMoerdijk, theorem 2.1](#BergerMoerdiskAlgebras), following ([Berg
 
 ### Rectificaction of algebras
 
-Recall the notion of resolutions of operads and of the _Boardman-Vogt resolution_ $W(H,P)$ from [[model structure on operads]].
+Recall the notion of resolutions of operads and of the _[[Boardman-Vogt resolution]]_ $W(H,P)$ from [[model structure on operads]].
 
 We now discuss conditions under which model categories of algebras over a resolved operad is Quillen equivalent to that over the original operad.
 
