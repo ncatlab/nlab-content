@@ -28,7 +28,7 @@ So as a slogan we have that
 
 =--
 
-In fact, the combinatoriality condition is a bit stronger than that, as it requires even that _every_ object is small and is the colimit over a small set of generating objects. If one instead just has that the domains of the generating cofibrations are [[small object]]s, then we have a [[cellular model category]].
+In fact, the combinatoriality condition is a bit stronger than that, as it requires even that _every_ object is small and is the colimit over a small set of generating objects. 
 
 There exist large classes of model categories that either are combinatorial or, if not, are [[Quillen equivalence|Quillen equivalent]] to ones that are. See the list of examples below.
 
