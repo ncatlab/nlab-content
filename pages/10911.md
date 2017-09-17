@@ -1,0 +1,51 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[KK-compactification]] of [[D=10 super Yang-Mills theory]] all the way to the point yields a [[theory (physics)|theory]] whose [[field (physics)|fields]] are simply elements of the gauge [[Lie algebra]] $\mathfrak{g}$, hence [[matrices]] for a [[matrix Lie algebra]]. This [[model (physics)|physics]] is called the _IKKT matrix model_.
+
+It has been argued that for $\mathfrak{g} = \mathfrak{su}(N)$ for large $N$, this model captures aspects of [[non-perturbative field theory|non-perturbative]] [[type IIB string theory]] (see also at _[[M-theory]]_). Therefore this is also called the _IIB matrix model_ (in contast to the [[BFSS matrix model]] in [[type IIA string theory]]).
+
+## Related concepts
+
+* [[BFSS matrix model]]
+
+## References
+
+The original articles are
+
+* N. Ishibashi, H. Kawai, Y. Kitazawa, A. Tsuchiya, _A Large-N Reduced Model as Superstring_, Nucl.Phys. B498 (1997) 467-491 ([arXiv:hep-th/9612115](http://arxiv.org/abs/hep-th/9612115))
+
+* H. Aoki, S. Iso, H. Kawai, Y. Kitazawa, T. Tada, A. Tsuchiya, _IIB Matrix Model_, Prog.Theor.Phys.Suppl.134:47-83,1999 ([arXiv:hep-th/9908038](http://arxiv.org/abs/hep-th/9908038))
+
+Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geometry]] is recovered as the [[perturbation theory]] around classical solutions of the IKKT model are in 
+
+* H. Aoki, N. Ishibashi, S. Iso, H. Kawai, Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
+
+* Tatsuo Azeyanagi, Masanori Hanada, Tomoyoshi Hirata, _On Matrix Model Formulations of Noncommutative Yang-Mills Theories_, Phys.Rev.D78:105017,2008 ([arXiv:0806.3252](http://arxiv.org/abs/0806.3252))
+
+Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] IKKT model are in 
+
+* M. Fukuma, H. Kawai, Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
+
+* Daiji Ennyu, Hiroshi Kawabe, Naohito Nakazawa, _Note on a Closed String Field Theory from Bosonic IIB Matrix Model_, JHEP 0301 (2003) 025 ([arXiv:hep-th/0212044](http://arxiv.org/abs/hep-th/0212044))
+
+Possibilities of generalizing the IKKT model from [[Lie algebras]] to [[Lie 2-algebras]] are explored in 
+
+* Patricia Ritter, [[Christian Sämann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
+
+
+[[!redirects IIB matrix model]]
