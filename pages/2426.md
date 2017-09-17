@@ -47,5 +47,7 @@ See also [[pseudo-Riemannian manifold]]
 
 * [[hyperbolic manifold]]
 
+* [[analytic torsion]]
+
 [[!redirects Riemannian manifolds]]
 [[!redirects Riemannian structure]]
