@@ -103,6 +103,8 @@ This latter is actually a special case of a general situation.  If $T$ is a (2-)
 * [[continuous algebra]]
 * [[free cocompletion]]
 
+* [[lax-idempotent 2-adjunction]]
+
 ## References
 
 * [[Max Kelly]], [[Steve Lack]], _On property-like structures_, TAC 3(9), 1997.
