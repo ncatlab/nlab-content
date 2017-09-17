@@ -44,7 +44,7 @@ Recall the notation $LTop(\mathcal{G})$ for the [[(∞,1)-category]] of $\mathca
 
 ### Affine $\mathcal{G}$-schemes 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem ( [[Structured Spaces|StSp]] 2.1.1 )
 
 There is a pair of [[adjoint (∞,1)-functor]]s
@@ -61,7 +61,7 @@ with $\mathbf{Spec}_{\mathcal{G}_0}^{\mathcal{G}}$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark ( [[Structured Spaces|StSp]] p. 38 )
 
 There is a canonical morphism
@@ -76,7 +76,7 @@ $$
 =--
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition ( affine $\mathcal{G}$-scheme, [[Structured Spaces|StSp]] 2.3.9)
 
 Write $\mathbf{Spec}^{\mathcal{G}}$ for the [[(∞,1)-functor]]
@@ -99,7 +99,7 @@ A $\mathcal{G}$-[[structured (∞,1)-topos]] in the image of this functor is an 
 
 ### $\mathcal{G}$-Schemes 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (geometric scheme, [[Structured Spaces|StSp]] 2.3.9)
 
 Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]].
@@ -123,7 +123,7 @@ such that
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (pregeometric scheme, [[Structured Spaces|StSp]], 3.4.6)
 
 
@@ -150,7 +150,7 @@ We think of the objects of $\Tau$ as the _smooth_ test spaces -- for instance th
 
 The idea is that a _smooth_ $\mathcal{G}$-scheme is a $\mathcal{G}$-structured space that is locally not only equivalent to objects in $\mathcal{G}$, but even to the very nice -- "smooth" -- objects in $\mathcal{Tau}$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition ( smooth $\mathcal{G}$-scheme, [[Structured Spaces|StSp]] 3.5.6)
 
 With an envelope $\Tau \hookrightarrow \mathcal{G}$ fixed, a $\mathcal{G}$-scheme is called **smooth** if there the affine schemes $\mathbf{Spec}^{\mathcal{G}} A_i$ appearing in its definition may be chosen with $A_i$ in the image of the includion $\tau \hookrightarrow \mathcal{G}$.
@@ -171,7 +171,7 @@ See the discussion at [[derived Deligne-Mumford stack]] for how ordinary [[Delig
 
 #### Derived schemes
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (derived scheme, [[Structured Spaces]], 4.2.8)
 
 Let $k$ be a commutative ring. Recall the pregoemtry $\mathcal{T}_{Zar}(k)$.
@@ -180,9 +180,14 @@ A **[[derived scheme]]** over $k$ is a $\mathcal{T}_{Zar}(k)$-scheme.
 
 =--
 
+#### Derived smooth manifolds 
+
+* [[derived smooth manifold]].
+
+
 #### Derived Deligne-Mumford stacks
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (derived Deligne-Mumford stack, [[Structured Spaces]], 4.3.19)
 
 
@@ -203,10 +208,8 @@ An indication of some details is in
 
 * [[Paul Goerss]], _[[Topological Algebraic Geometry - A Workshop]]_
 
-##### Derived smooth manifolds 
+See at _[[E-∞ scheme]]_ and _[[E-∞ geometry]]_.
 
-
-* [[derived smooth manifold]].
 
 
 ## Related concepts
