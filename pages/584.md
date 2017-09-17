@@ -122,6 +122,15 @@ $$
 
 to some symmetric monoidal $\infty$-groupoid $S$ is a [[genus]].
 
+## Related concepts
+
+* [[cobordism]], [[extended cobordism]]
+
+* [[category of cobordisms]]
+
+* **(∞,n)-category of cobordisms**
+
+* [[cobordism hypothesis]]
 
 
 ## References
@@ -132,14 +141,13 @@ A specific realization of this idea in terms of [[(∞,n)-category]] modeled as 
 
 In that article a proof of the [[cobordism hypothesis]] is indicated.
 
-A detailed construction of the [[(n,r)-category|(2,2)-category]] of cobordisms is
+A detailed construction of the [[(n,r)-category|(2,2)-category]] of 2-dimensional cobordisms is
 
 * [[Chris Schommer-Pries]], [[2-category of 2-dimensional cobordisms]] .
 
 For a discussion of the relation of $Bord_{(\infty,\infty)}$ to the [[Thom spectrum]] and the [[cobordism ring]] see also
 
 * [[John Francis]], _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
-
 
 Other discussions of higher categories of cobordisms are
 
