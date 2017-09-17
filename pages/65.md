@@ -23,7 +23,7 @@
 
 In general, **canonical model structures** are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed), which are intended to capture the correct "categorical" theory of these categories.
 
-Canonical model structures are sometimes called "folk" model structures, but the appropriateness of this term is very [questionable](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=649&page=1#Item_3), especially in the cases $n \gt 1$.  Other alternatives are 'endogenous', 'standard', 'natural', and 'categorical'.
+Canonical model structures are sometimes called "folk" model structures, but the appropriateness of this term is very [questionable](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=649&page=1#Item_3), especially in the cases $n \gt 1$.  Other alternatives are 'endogenous', 'standard', 'natural', and 'categorical'.
 
 While ultimately the collection of all [[n-category|n-categories]] should form an $(n+1)$-category, restricting that to just invertible higher morphisms will yield an [[(n,r)-category|(n+1,1)-category]], and thus in particular an [[(∞,1)-category]].  It is this (∞,1)-category which is intended to be [[presentable (infinity,1)-category|presented]] by a canonical model structure.  In particular, the [[weak equivalences]] in a canonical model structure should be the [[equivalence of categories|category-theoretic equivalences]].  
 
