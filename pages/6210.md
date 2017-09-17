@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
 =--
 =--
 
@@ -19,18 +23,6 @@
 The definition of [[differential cohomology]], is a special case of the definition of [[twisted cohomology]] (see [[cohesive (infinity,1)-topos -- structures]] for more on this).
 It is natural to iterate these constructions and consider twists by differential cohomology classes. Following ([SSSIII](#SSSIII)) one can speak of _twisted differential $\mathbf{c}$-structures_ .
 
-These appear in various guises in the [[background gauge field]]s of  [[string theory]] application. Below we discuss the following
-special cases and applications.
-
-* Higher differential spin structures 
-
-  * [[differential string structure]]
-
-  * [[supergravity C-field]]
-
-  * [[differential fivebrane structure]]
-
-* [[differential T-duality]]
 
 ## Definition
 
@@ -65,21 +57,37 @@ $$
 
 =--
 
+## Examples
+
+Twisted differential $\mathbf{c}$-structures appear in various guises in the [[background gauge field]]s of  [[string theory]] application. 
+
+* Higher differential spin structures 
+
+  * [[differential string structure]]
+
+  * [[supergravity C-field]]
+
+  * [[differential fivebrane structure]]
+
+* [[differential T-duality]]
+
+
+
 ## References
 
 The notion was conceived of in 
 
-* H. Sati, U. Schreiber, J. Stasheff, _Twisted differential string- and fivebrane structures_
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_
   {#SSSIII}
 
 in terms of [[L-∞ algebra]]ic data. The full formalization in cohesive $\infty$-toposes is due to
 
-* D. Fiorenza, U. Schreiber, J. Stasheff, _[[schreiber:Cech cocycles for differential characteristic classes]]_
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_
  {#FSS}
 
 A general account is in section 4.2 of 
 
-* U. Schreiber, _[[schreiber:differential cohomology in a cohesive topos]]_
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 [[!redirects twisted differential c-structures]]
 
