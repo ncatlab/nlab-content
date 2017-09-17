@@ -1,5 +1,7 @@
 
-Joost Nuiten is a Master student of mathematics and physics at Utrecht University.
+Joost Nuiten is a PhD student in mathematics at Nijmegen University.
+
+He did his Master in mathematics and physics at Utrecht University.
 
 ## Texts
 
