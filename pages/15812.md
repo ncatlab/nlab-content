@@ -1,19 +1,49 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 The text
 
 * [[Lord Kelvin]],
 
   _On Vortex Atoms_
 
-  Proceedings of the Royal Society of Edinburgh, Vol. VI, 1867, pp. 94-105.
+  Proceedings of the Royal Society of Edinburgh, Vol. VI, pp. 94-105.
+
+  1867
 
   ([web](http://zapatopi.net/kelvin/papers/on_vortex_atoms.html))
 
-presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundamentally [[vortices]] in some [[spacetime]]-filling substance.
+presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundamentally [[vortices]] in some [[spacetime]]-filling substance (the "aether").
 
 Review and discussion includes
 
 * Samuel Lomonaco, _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_ [pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf)
+
+As a literal theory of [[physics]] the vortex atom hypothesis was soon rejected. But it made [[Peter Tait]] start thinking about classification of [[knots]], which eventually led to modern [[knot theory]] in [[mathematics]]. Moreover, faint shadows of Kelvin's original idea have been argued to be visible in [[string theory]] -- and the failure of the vortex atom theory has been used to warn of too much hope into string theory.
+
+It is however striking that the modern concept of [[baryogenesis]] via the [[chiral anomaly]] and its sensitivity to [[instantons]] is not too far away from Kelvin's intuition.
+
+To play this out in the most pronounced scenario, consider, for the sake of it, a [[no boundary proposal|Hartle-Hawking no-boundary spacetime]] carrying $N$ [[Yang-Mills instantons]]. Notice that an [[instanton]] is in a precise sense the modern higher dimensional and [[gauge theory|gauge theoretic]] version of what Kelvin knew as a fluid [[vortex]].
+
+Then the non-[[conservation law]] of the [[baryon]] [[conserved current]] due to the [[chiral anomaly]] says precisely the following: the net baryon number in the early universe is an steadily increasing number -- this is the modern mechanism of [[baryogenesis]] -- such that as one approachs the asymptotically late time after the "[[Big Bang]]" this number converges onto the integer $N$, the number of instantons.
+
+Hence while in the modern picture of baryogenesis via [[gauge anomaly]] an [[elementary particle]] is not literally identified with an instanton, nevertheless each instanton induces precisely one net [[baryon]].
+
+(If one doesnt want to consider a [[no boundary proposal|Hartle-Hawking-type]] Euclidean no-boundary spacetime but instead a [[globally hyperbolic spacetime]] then the conclusion still holds, just not relative to vanishing baryon number at the "south pole" of the cosmic 4-spehere, but relative to the net baryon  number at any chosen spatial reference slice. )
+
+
 
 category: reference
 
