@@ -50,7 +50,7 @@ Coherent logic (including sequents, as above) is the [[internal logic]] of a [[c
 
 * The theory of a [[total order]] is coherent, though also not algebraic.  The theory of a [[partial order]] is [[essentially algebraic theory|essentially algebraic]], but the totality axiom $\vdash_{x,y} (x\le y) \vee (y\le x)$ is coherent but not essentially algebraic.
 
-* The theory of a [[linear order]] is (seemingly) not coherent: the "connectedness" axiom $(x\nless y), (y\nless x) \vdash (x=y)$ is not coherent since negation is not allowed in coherent formulas.  We can express one outer negation, however, as in the irreflexivity axiom $(x\lt x)\vdash \bot$. 
+* The theory of a [[linear order]] is (seemingly) not coherent if we use the "connectedness" axiom $(x\nless y), (y\nless x) \vdash (x=y)$, which is not coherent since negation is not allowed in coherent formulas.  We can express one outer negation, however, as in the irreflexivity axiom $(x\lt x)\vdash \bot$. Another solution is to use the "trichotomy" axiom $\top \vdash (x=y) \vee (x\lt y) \vee (y\lt x)$ instead, in order to get an axiomatisation of "coherent" linear orderings.
 
 ## Properties
 
