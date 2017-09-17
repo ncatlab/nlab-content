@@ -57,6 +57,11 @@ Discussion of a  [[Blakers-Massey theorem]] for $E_\infty$-rings is in
 * Michael Ching, [[John Harper]], _Higher homotopy excision and Blakers-Massey theorems for structured ring spectra_ ([arXiv:1402.4775](http://arxiv.org/abs/1402.4775))
 
 
+In [[K(n)-local stable homotopy theory]]:
+
+* [[Michael Hopkins]], _$K(1)$-local $E_\infty$-Ring spectra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/knlocal.pdf))
+
+
 [[!redirects E-∞ ring]]
 [[!redirects E-infinity ring]]
 [[!redirects E-∞-ring]]
