@@ -16,7 +16,7 @@
 
 ## Idea 
 
-The [[probability amplitude]] for a process of scattering of [[fundamental particles]] or [[fundamental strings]] off each other. The collection of scattering amplitudes forms the [[S-matrix]]. 
+The [[probability amplitude]] for a process of [[scattering]] of [[fundamental particles]] or [[fundamental strings]] off each other. The collection of scattering amplitudes forms the _[[S-matrix]]_. 
 
 ## Related concepts
 
