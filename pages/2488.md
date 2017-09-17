@@ -222,6 +222,16 @@ For $C$ an $(\infty,1)$-category and $k \geq -2$, the full [[sub-(∞,1)-categor
 
 This is [[Higher Topos Theory|HTT, prop. 5.5.6.5]].
 
++-- {: .un_prop}
+###### Proposition
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the [[class]] of $n$-truncated morphisms in $\mathbf{H}$ forms the right class in a [[orthogonal factorization system in an (∞,1)-category]]. The left class is that of [[n-connected]] morphisms in $\mathbf{H}$.
+
+=--
+
+This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A construction of the factorization in terms of a [[model category]] [[presentable (∞,1)-category|presentation]] is in ([Rezk, prop. 8.5](#Rezk)).
+
+
 
 
 ## Truncation 
@@ -545,7 +555,9 @@ Moreover, by the fact discussed at <a href="http://ncatlab.org/nlab/show/adjoint
 
 =--
 
+## Related concepts
 
+* **$n$-truncated morphism** / [[n-connected]] morphism
 
 ## References
 
@@ -553,7 +565,13 @@ The discussion of truncated objects in an $(\infty,1)$-category is in section 5.
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-The discussion of categorical [[homotopy groups in an (∞,1)-topos]] is in section 6.5.1.
+The discussion of categorical [[homotopy groups in an (∞,1)-topos]] is in 
+section 6.5.1.
+
+A discussion in terms of [[model category]] [[presentable (∞,1)-category|presentations]] is in section 7 of
+
+* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+
 
 A classical article that amplifies the expression of Postnikov towers in terms of [[coskeleton]]s is
 
