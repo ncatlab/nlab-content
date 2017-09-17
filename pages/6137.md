@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The basic definition of a [[smooth manifold]] is as a space locally modeled on a finite-dimensional [[Cartesian space]]. This can be generalized to a notion of smooth manifolds locally modeled on infinite-dimensional [[topological vector spaces]]. Typical examples of these are [[mapping spaces]] between finite-dimensional manifolds, such as [[loop space]]s.
+
+## Related concepts
+
+* [[Frechet manifold]]
+
+* [[manifold structure of mapping spaces]]
+
+
+[[!redirects infinite dimensional smooth manifolds]]
+
+[[!redirects infinite dimensional manifold]]
+[[!redirects infinite dimensional manifolds]]
+
+[[!redirects infinite-dimensional manifold]]
+[[!redirects infinite-dimensional manifolds]]
+[[!redirects infinite-dimensional smooth manifold]]
+[[!redirects infinite-dimensional smooth manifolds]]
