@@ -15,7 +15,7 @@
 
 ## Idea
 
-Where _[[cohomology]]_ classifies [[cocycles]] on a space $X$ with coefficients in some object $A$, _relative cohomology_ for a map of spaces $Y \to X$ classifies cocycles on $X$ that satisfy some condition when pulled back to $Y$, such as being trivializable there.
+Where _[[cohomology]]_ classifies [[cocycles]] on an [[object]] $X$ with [[coefficients]] in some object $A$, _relative cohomology_ for a map morphism $Y \to X$ classifies cocycles on $X$ that satisfy some condition when pulled back to $Y$, such as being trivializable there. Or rather: cocycles _equipped_ with some [[structure]] on their pullback to $Y$, such as a trivialization.
 
 ## Definition
 
