@@ -1,3 +1,16 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
 # Duoidal categories
 
 * table of contents
@@ -5,11 +18,11 @@
 
 ## Idea
 
-A *duoidal category* is a category with two [[monoidal category|monoidal structures]] which [[interchange law|interchange]] laxly.
+A *duoidal category* is a [[category]] with two [[monoidal category|monoidal structures]] which [[interchange law|interchange]] laxly.
 
 ## Definition
 
-A **duoidal category**, or **2-monoidal category**, is a [[pseudomonoid]] in the 2-category $MonCat_l$ of [[monoidal categories]] and [[lax monoidal functors]].  Thus it is a monoidal category, say $(C,\diamond,I)$, together with an additional monoidal structure $(C,\star,J)$ such that $\star:C\times C\to C$ and $J:1\to C$ are lax monoidal functors with respect to $(\diamond,I)$ and the coherence axioms of $(C,\diamond,I)$ are monoidal transformations with respect to $(\diamond,I)$.  The laxity of $\star$ consists of transformations
+A **duoidal category**, or **2-monoidal category**, is a [[pseudomonoid]] in the [[2-category]] $MonCat_l$ of [[monoidal categories]] and [[lax monoidal functors]].  Thus it is a monoidal category, say $(C,\diamond,I)$, together with an additional monoidal structure $(C,\star,J)$ such that $\star:C\times C\to C$ and $J:1\to C$ are [[lax monoidal functors]] with respect to $(\diamond,I)$ and the [[coherence]] axioms of $(C,\diamond,I)$ are [[monoidal natural transformations]] with respect to $(\diamond,I)$.  The laxity of $\star$ consists of [[natural transformations]]
 $$ (A\star B) \diamond (C\star D) \to (A\diamond C) \star (B\diamond D) $$
 and
 $$ I\to I\star I $$
@@ -17,7 +30,7 @@ while the laxity of $J$ consists of transformations
 $$ J\diamond J \to J $$
 and
 $$ I \to J. $$
-There are then various axioms, which in particular say that $J$ is a $\diamond$-monoid and $I$ is a $\star$-comonoid.
+There are then various axioms, which in particular say that $J$ is a $\diamond$-[[monoid]] and $I$ is a $\star$-[[comonoid]].
 
 It is equivalent to ask that $(C,\diamond,I)$ is a pseudomonoid structure on $(C,\star,J)$ in the 2-category $MonCat_c$ of monoidal categories and *colax* monoidal functors.
 
@@ -53,9 +66,9 @@ as well as the dual composite.  If this map is an isomorphism, the duoidal categ
 
 In a duoidal category $C$, the category $Mon_\diamond(C)$ of [[monoid]] objects with respect to $\diamond$ is again a monoidal category under the $\star$ product.  Specifically, if $A$ and $B$ are $\diamond$-monoids, then the multiplication of $A\star B$ is 
 $$ (A\star B) \diamond (A\star B) \to (A\diamond A) \star (B\diamond B) \to A\star B.$$
-We define a **bimonoid** in $C$ to be a [[comonoid]] in the monoidal category $(\Mon_\diamond(C),\star)$.  An equivalent definition is obtained by considering $\diamond$-monoids in the category of $\star$-comonoids.
+We define a **[[bimonoid]]** in $C$ to be a [[comonoid]] in the monoidal category $(\Mon_\diamond(C),\star)$.  An equivalent definition is obtained by considering $\diamond$-monoids in the category of $\star$-comonoids.
 
-Of course, if $C$ is braided, this reduces to the usual definition of [[bimonoid]] in a braided monoidal category.
+Of course, if $C$ is [[braided monoidal category|braided]], this reduces to the usual definition of [[bimonoid]] in a braided monoidal category.
 
 A nontrivially duoidal example is that a bimonoid with respect to the duoidal structure on functorial factorizations described above is precisely an [[algebraic weak factorization system]].
 
@@ -116,6 +129,9 @@ We say that $M$ is **commutative** if $id_M$ and $id_M$ commute.
 
 In a braided monoidal category regarded as a normal duoidal one, this reduces to the usual notion of [[commutative monoid]] object.  On the other hand, in the endofunctor-like examples above, it results in the notion of [[commutative monad]] or [[commutative theory]].
 
+## Related concepts
+
+* [[bimonoidal category]]
 
 ## References
 
