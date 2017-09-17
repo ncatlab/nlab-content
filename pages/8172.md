@@ -637,9 +637,12 @@ See the [references below](#ReferencesHopfAlgebroidStructure).
 
 * [[Adams-Novikov spectral sequence]]
 
-* [[May spectral sequence]]
+* [[May spectral sequence]], [[chromatic spectral sequence]]
 
 * [[Steenrod algebra]]
+
+[[!include Lurie spectral sequences -- table]]
+
 
 ## References
 
