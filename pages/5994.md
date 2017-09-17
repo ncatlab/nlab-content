@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 =--
 =--
 
