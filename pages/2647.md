@@ -21,13 +21,21 @@
 
 A __tensor category__ is a [[category]] equipped with an operation similar to the [[tensor product]] in [[Ab]].
 
-The precise definition associated with the term "tensor category" varies somewhat in the literatur.
+The precise definition associated with the term "tensor category" varies somewhat in the literature.
 
 It may mean:
+
 *  any [[monoidal category]],
-*  specifically a [[symmetric monoidal category]] (and then a __quasitensor category__ is a [[braided monoidal category]]),
-*  an [[additive category|additive]] (symmetric) monoidal category,
+
+*  a [[symmetric monoidal category]] (and then a __quasitensor category__ is a [[braided monoidal category]]),
+
 *  an [[Ab-enriched category|Ab-enriched]] or [[Vect]]-enriched (symmetric) monoidal category.
+
+*  an [[additive category|additive]] (symmetric) monoidal category, so that the tensor preserves finite direct sums, 
+
+* an [[abelian category|abelian]] (symmetric) monoidal category, in which the tensor preserves finite colimits in separate arguments, 
+
+* an abelian (symmetric) monoidal category with [[dual objects]]. 
 
 ## Related concepts
 
