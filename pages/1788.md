@@ -8,10 +8,9 @@ $\underoverset{a}{b}{\to}$
 
 ***
 
-#Contents#
+# Contents
 * toc
-{:toc}
-
+{: toc}
 
 ## You don't see the next symbols displayed properly: $\mathbf{B}G$ ## {: #BecauseOfThisAnchor}
 
@@ -24,7 +23,11 @@ You don't see the next symbols displayed properly: $\mathbf{B}G$
 
 Right?
 
+(I can see these ones.  And I saw the first one twice: once badly, once correctly.  ---Toby)
+
 ## Is there lots of vertical whitespace here $\mathfrak{ggg}$ ??? ##
+
+(Yes on Windows, no on Unix (both with Firefox).  ---Toby)
 
 ## Breakpoint ##
 
@@ -289,7 +292,7 @@ To add a floating TOC to a new page, in such a way that it will be automatically
 </pre>
 
 If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` 
-=--
+
 
 category: meta
 
