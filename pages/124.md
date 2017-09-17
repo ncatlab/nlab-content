@@ -203,6 +203,8 @@ For various applications one uses toposes that have [[stuff, structure, property
 
 * **topos**
 
+  [[base topos]], [[indexed topos]] 
+
 * [[2-topos]]
 
 * [[(∞,1)-sheaf]] / [[∞-stack]]
