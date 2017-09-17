@@ -386,7 +386,7 @@ is a model for the [[classifying space]] of reduced K-theory.
 
 ### Spectrum 
 
-Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-theory is represented by a [[spectrum]]: the [[K-theory spectrum]].
+Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-theory is represented by a [[spectrum]]: the _[[K-theory spectrum]]_.
 
 The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topological $K$-theory is modeled in particular by the space $Fred$ of [[Fredholm operator]]s.
 
@@ -441,3 +441,5 @@ Relations to [[algebraic K-theory]] are discussed in
 
 * [[Jonathan Rosenberg]], _Comparison Between Algebraic and Topological K-Theory for Banach Algebras and $C^*$-Algebras_, ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
  {#Rosenberg}
+
+[[!redirects complex K-theory]]
