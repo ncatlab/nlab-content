@@ -14,7 +14,7 @@
 
 ***
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -22,7 +22,7 @@
 
 In an _algebraic definition_ of [[(n,r)-categories]] [[composition]] of [[higher morphism]]s is a genuine algebraic operation. As opposed to a _geometric model_ where composites are only guaranteed to exist, in an algebraic model there is prescription for finding these composites.
 
-These choice may be given in an elementary way as binary composition operations as in an ordinary [category]], or the composition operation may be controled by sophisticated algebraic structures such as [[operad]]s that, while keeping track of all specified composites, may allow large of possible composition operations.
+These choice may be given in an elementary way as binary composition operations as in an ordinary [[category]], or the composition operation may be controled by sophisticated algebraic structures such as [[operad]]s that, while keeping track of all specified composites, may allow large of possible composition operations.
 
 The composition operation in an algebraic model for an $(n,r)$-category are subject to [[associativity]]  [[coherence law]]s. On the geometric size these reflect the fact that the spaces of possible choices of composites are contractible.
 
