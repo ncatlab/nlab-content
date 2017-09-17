@@ -19,6 +19,10 @@ In _compactly supported cohomology_ [[cocycles]] and [[coboundaries]] on some [[
 
 ## References
 
+### General
+
+* [[James Milne]], section 18 of _[[Lectures on Étale Cohomology]]_
+
 ### Compactly supported de Rham cohomology
 
 Discussion of compactly supported [[de Rham cohomology]] includes for instance the following.
