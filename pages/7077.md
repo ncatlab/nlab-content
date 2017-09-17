@@ -44,9 +44,11 @@ is a [[Quillen adjunction]].
 
 ## Examples
 
-Any [[right proper model category]] which is locally cartesian closed and in which the cofibrations are the [[monomorphisms]] is a locally cartesian closed model category.  This includes the classical [[model structure on simplicial sets]], as well as the [[injective model structure|injective]] [[global model structure on simplicial presheaves]].
+Any [[right proper model category]] which is locally cartesian closed and in which the cofibrations are the [[monomorphisms]] is a locally cartesian closed model category.  This includes the classical [[model structure on simplicial sets]], as well as the [[injective model structure|injective]] [[global model structure on simplicial presheaves]].  More generally, it includes any right proper [[Cisinski model structure]].
 
+## Versus locally cartesian closed $(\infty,1)$-categories
 
+It is easy to see that the $(\infty,1)$-category presented by a locally cartesian closed model category is itself [[locally cartesian closed (infinity,1)-category|locally cartesian closed]].  Conversely, any [[locally presentable (infinity,1)-category|locally presentable]] locally cartesian closed $(\infty,1)$-category can be presented by some right proper Cisinski model category, which is therefore a locally cartesian closed model category; see [[locally cartesian closed (infinity,1)-category]] for the proof.
 
 ## Applications
 
