@@ -9,15 +9,15 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 In [[type theory]], a **display map** is a [[morphism]] $p\colon B\to A$ in a [[category]] which represents a [[dependent type]] under some [[categorical semantics]] of type theory valued in that category.  
 
-That is, $B$ represents a [[type]] dependent on a [[variable]] of type $A$, usually written syntactically as $x:A \vdash B(x):Type$.  The intended intuition is that $B(x)$ is the [[fiber]] of the map $p$ over $x\in A$.
+That is, $B$ represents a [[type]] dependent on a [[variable]] of type $A$, usually written syntactically as $x\colon A \vdash B(x)\colon Type$.  The intended intuition is that $B(x)$ is the [[fiber]] of the map $p$ over $x\colon A$.
 
 More specifically, the [[syntactic category]] of a type theory is naturally equipped with a class of maps called "display maps" which come from its type dependencies, while [[models]] for such a [[theory]] can be studied in any other category equipped with a suitable class of maps called "display maps."  By the [usual](type%20theory#CategoricalSemantics) [[adjunction]], such models are then equivalent to functors out of the syntactic category which preserve the relevant structure, including the display maps.
 
@@ -28,6 +28,7 @@ Sometimes all maps are display maps.  This happens particularly in
 
 In the context of _[[homotopy type theory]]_ display maps are [[fibrations]], for instance in a [[type-theoretic model category]].
 
+
 ## Definition
 
 +-- {: .num_defn #CategoryWithDisplays}
@@ -35,19 +36,31 @@ In the context of _[[homotopy type theory]]_ display maps are [[fibrations]], fo
 
 For $\mathcal{C}$ a [[category]], a [[class]] $D \subset Mor(\mathcal{C})$ of [[morphisms]] of $\mathcal{C}$ is called a **class of displays** if 
 
-1. All [[pullbacks]] of elements of $D$ exists.
+* All [[pullbacks]] of elements of $D$ exist and belong to $D$.
+=--
 
-1. The composition of an element in $D$ with an [[isomorphism]] gives another element in $D$.
+It follows automatically that the [[full subcategory]] on $D$ of the [[arrow category]] $\Arr(\mathcal{C})$ is [[replete subcategory|replete]]; in other words, the [[property]] of $\mathcal{C}$-morphisms given by membership in $D$ is not [[evil]].
 
 
-An **interpetation** or [[model]] of a category with class of displays $(\mathcal{C}, D)$ is another category with displays $(\mathcal{C}', D')$ and a  [[functor]]
++-- {: .num_defn #closed}
+###### Definition
 
+Often (which simplifies matters) $D$ is __closed under composition__:
+
+1. Every [[identity morphism]] (and hence every [[isomorphism]]) belongs to $D$.
+
+2. The [[composite]] of a [[composable pair]] of elements of $D$ belongs to $D$.
+=--
+
+
++-- {: .num_defn #interpretation}
+###### Definition
+
+An __interpretation__ or __[[model]]__ of a category with class of displays $(\mathcal{C}, D)$ in another category with displays $(\mathcal{C}', D')$ is a  [[functor]]
 $$
-  S : \mathcal{C} \to \mathcal{C}'
+  S\colon \mathcal{C} \to \mathcal{C}'
 $$
-
 which preserves display maps and their pullbacks.
-
 =--
 
 This appears as ([Taylor, def. 8.3.2](#Taylor)).
@@ -60,22 +73,29 @@ This appears as ([Taylor, def. 8.3.2](#Taylor)).
 
 Examples of categories with displays, def. \ref{CategoryWithDisplays}, include
 
-1. A category $\mathcal{C}$ a catgory with finite [[products]] and $D$ the class of call product [[projections]] $X \times A \to X$.
+1. One extreme: any category with the class of all morphisms.
 
-1. A topos $\mathcal{C}$ equipped with its class of [[monomorphisms]].
+2. Another extreme: any category with the empty class of no morphisms.
 
-1. (...) 
+3. Modifying (2) for an extreme case closed under composition: any category with the class of [[isomorphisms]].
 
+4. A category $\mathcal{C}$ with finite [[products]] and $D$ the class of product [[projections]] $X \times A \to X$.
+
+5. A [[locally cartesian category]] $\mathcal{C}$ (such as a [[topos]]) equipped with its class of [[monomorphisms]].
+
+6. (...) 
 =--
 
 ([Taylor, example 8.3.6](#Taylor))
+
 
 ## References
 
 Section 8.3 in 
 
 * [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_
- {#Taylor}
+  {#Taylor}
+
 
 [[!redirects display map]]
 [[!redirects display maps]]
