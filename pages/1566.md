@@ -1,4 +1,3 @@
-[[!redirects abelian monoid]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -34,6 +33,17 @@ Alternatively, just as a [[monoid]] can be seen as a [[category]] with one objec
 
 * [[cocommutative comonoid]]
 
+* [[symmetric monoidal category]]
+
+* [[E-infinity algebra]]
+
+
 [[!redirects abelian monoids]]
 [[!redirects commutative monoid]]
 [[!redirects commutative monoids]]
+
+[[!redirects abelian monoid]]
+
+[[!redirects commutative monoid object]]
+[[!redirects commutative monoid objects]]
+
