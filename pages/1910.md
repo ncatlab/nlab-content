@@ -41,3 +41,9 @@ this is the **S-construction** of the  **Waldhausen [[K-theory]] spectrum** of $
 The Waldhausen S-construction is recalled for instance in section 1 of 
 
 * Paul D. Mitchener, _Symmetric Waldhausen K-theory spectra of topological categories_ ([pdf](http://bib.mathematics.dk/unzip.php?filename=DMF-2001-05-001-v1.pdf.gz))
+
+A combinatorial construction of symmetries due Nadler has a relation to the S-construction in a special case:
+
+* David Nadler, _Cyclic symmetries of $A_n$-quiver representations_, [arxiv/1306.0070](http://arxiv.org/abs/1306.0070)
+
+> This short note contains a combinatorial construction of symmetries arising in symplectic geometry (partially wrapped or infinitesimal Fukaya categories), algebraic geometry (derived categories of singularities), and K-theory (Waldhausen's S-construction). Our specific motivation (in the spirit of expectations of Kontsevich, and to be taken up in general elsewhere) is a combinatorial construction of quantizations of Lagrangian skeleta (equivalent to microlocal sheaves in their many guises). We explain here the one dimensional case of ribbon graphs where the main result of this paper gives an immediate solution. 
