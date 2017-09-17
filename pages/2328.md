@@ -1,6 +1,7 @@
 <div class="rightHandSide toc">
-[[!include category theory - contents]]
+[[!include topos theory - contents]]
 </div>
+
 
 
 The notion of $(0,1)$-topos is that of [[topos]] in the context of [[(0,1)-category]] theory (see [[(n,r)-category]]).
