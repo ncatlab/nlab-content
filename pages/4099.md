@@ -19,11 +19,15 @@
 
 ## Definition
 
-A morphism $f\colon A\to B$ in a [[2-category]] $K$ is called **discrete** if it is representably [[faithful morphism|faithful]] and [[conservative morphism|conservative]], i.e. if for any $X$ the induced functor
-$$ K(X,A) \to K(X,B) $$
+A [[morphism]] $f\colon A\to B$ in a [[2-category]] $K$ is called **discrete** if it is representably [[faithful morphism|faithful]] and [[conservative morphism|conservative]], i.e. if for any [[object]] $X$ the [[hom functor|induced]] [[functor]]
+
+$$ 
+  K(X,A) \to K(X,B) 
+$$
+
 is [[faithful functor|faithful]] and [[conservative functor|conservative]].
 
-An object $A$ is called a **discrete object** if for any $X$, the category $K(X,A)$ is ([[equivalence of categories|equivalent to]]) a [[discrete category]], i.e. a [[set]].  If $K$ has a ([[2-limit|2-]])[[terminal object]] $1$, this is equivalent to saying that the unique map $A\to 1$ is a discrete morphism.
+An object $A$ is called a **[[discrete object]]** if for any $X$, the category $K(X,A)$ is ([[equivalence of categories|equivalent to]]) a [[discrete category]], i.e. a [[set]].  If $K$ has a ([[2-limit|2-]])[[terminal object]] $1$, this is equivalent to saying that the unique map $A\to 1$ is a discrete morphism.
 
 
 ### Caveat
