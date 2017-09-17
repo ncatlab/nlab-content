@@ -9,9 +9,11 @@
 
 ## Relation to 2d (2,0)-superconformal QFT
 
-The chiral de Rham complex of $X$ arises as the [[quantum observables]] of a [[2d (2,0)-superconformal QFT]] [[sigma-model]] with [[target space]] $X$.
+The chiral de Rham complex of $X$ arises as the [[quantum observables]] of the [[topological twist|topologically twisted]] [[2d (2,0)-superconformal QFT]] [[sigma-model]] with [[target space]] $X$.
 
-Under suitable geometric conditions (a version of [[string structure]]) the local chiral de Rham complexes glue together to a [[sheaf of vertex operator algebras]].
+Under suitable geometric conditions (a version of [[string structure]]) the local chiral de Rham complexes glue together to a [[sheaf of vertex operator algebras]] and serves to compute the [[Witten genus]].
+
+(...)
 
 ## Related concepts
 
