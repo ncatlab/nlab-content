@@ -57,6 +57,9 @@ But that is about my impression of "(extensional identity) type" not "extensiona
 
 Only the intensional, but not the extensional, [[Martin-Löf type theory]] is [[decidable]].  See _[[intensional type theory]]_ for more on this.
 
+## Examples
+
+* [[NuPRL]]
 
 ## References
 
