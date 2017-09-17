@@ -36,16 +36,15 @@ Finite topological spaces have the same _[[weak homotopy equivalence|weak]]_ [[h
 
 This is due to [McCord](#McCord). 
 
-+-- {: .num_example}
-###### Example
-
++-- {: .proof}
+###### Proof (sketch) 
 If $\mathbf{2}$ is [[Sierpinski space]] (two points $0$, $1$ and three opens $\emptyset$, $\{1\}$, and $\{0, 1\}$), then the continuous map $I = [0, 1] \to \mathbf{2}$ taking $0$ to $0$ and $t \gt 0$ to $1$ is a weak homotopy equivalence. 
 
 For any finite topological space $X$ with specialization order $\mathcal{O}(X)$, the topological [[interval]] map $I \to \mathbf{2}$ induces a weak homotopy equivalence $B\mathcal{O}(X) \to X$: 
 
 $$B\mathcal{O}(X) = \int^{[n] \in \Delta} Cat([n], \mathcal{O}(X)) \cdot Int([n], I) \to \int^{[n] \in \Delta} Cat([n], \mathcal{O}(X)) \cdot Int([n], \mathbf{2}) \cong X$$ 
 
-(where we implicitly identify $\Delta^{op}$ with the category $Int$ of finite intervals with distinct top and bottom). 
+(where we implicitly identify $\Delta^{op}$ with the category $Int$ of finite intervals with distinct top and bottom). The isomorphism on the right says that any finite topological space can be constructed by gluing together copies of Sierpinski space, in exactly the same way that any preorder can be constructed by gluing together copies of the preorder $\{0 \leq 1\}$. 
 
 On the other hand, any finite simplicial complex $X$ is homotopy equivalent to its [[barycentric subdivision]], which is the [[geometric realization]] of the [[poset]] of simplices ordered by inclusion. Thus finite posets model the weak homotopy types of finite simplicial complexes. 
 
