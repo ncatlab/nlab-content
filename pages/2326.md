@@ -38,9 +38,11 @@ Then the 2-category $LocTopos$ is [[equivalence of categories|equivalent]] to th
 
 ## Examples
 
-Every [[Grothendieck topos]] that is a [[category of sheaves]] on (the [[category of open subsets]] of) a [[topological space]] is localic. 
+* Obviously, every [[Grothendieck topos]] that is a [[category of sheaves]] on (the [[category of open subsets]] of) a [[topological space]] is localic. 
 
-Many familiar toposes $E$, even when they are not localic, can be covered by a localic slice $E/X$ ("covered" means the unique map $X \to 1$ is an epi). For example, if $G$ is a group, then $E = Set^G$ is not itself localic, but it has a localic slice $Set^G/G \simeq Set$ that covers it. Such toposes have been dubbed _etendu_ (see Lawvere's 1976 monograph Variable Sets, Etendu, and Variable Structure in Topoi). 
+* Every [[sheaf topos]] over a [[posite]] is localic. (See there for details.)
+
+Many familiar toposes $E$, even when they are not localic, can be covered by a localic [[over topos|slice]] $E/X$ ("covered" means the unique map $X \to 1$ is an epi). For example, if $G$ is a group, then $E = Set^G$ is not itself localic, but it has a localic slice $Set^G/G \simeq Set$ that covers it. Such toposes have been dubbed _etendu_ (see Lawvere's 1976 monograph Variable Sets, Etendu, and Variable Structure in Topoi). 
 
 A significant result due to Joyal and Tierney is that for any Grothendieck topos $E$, there exists an open surjection $F \to E$ where $F$ is localic. This fact is reproduced in Mac Lane and Moerdijk's text _Sheaves in Geometry and Logic_ (section IX.9), where the localic cover taken is the _Diaconescu cover_ of $E$. 
 
