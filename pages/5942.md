@@ -1,0 +1,54 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## For schemes
+
+A morphism $f : X \to Y$ of [[scheme]]s is **locally of finite type** if
+
+* for every [[open cover]] $\{U_i \to Y\}$ by [[affine scheme]]s, $U_i \simeq Spec B_i$;
+
+* and every cover $\{U_{i j_i} \to X\}$ by affine schemes $U_{i j_i} = A_{i j_i}$, fitting into a [[commuting diagram]] (this always exists, see [[coverage]])
+
+  $$
+    \array{
+      U_{i j_i} &\to& U_i
+      \\
+      \downarrow && \downarrow
+      \\
+      X &\stackrel{f}{\to}& Y
+    }
+  $$
+
+  for all $i,j$, 
+
+we have that the morhism of algebras $B_i \to A_{i j}$ formally dual to $U_{i j} \to U_i$ exhibits $A_{i j}$ as a finitely generated [[associative algebra|algebra]] over $B_i$.
+
+If for fixed $i$ the $j_i$ range only over a [[finite set]], then the morphism is said to be of **finite type**.
+
+## Related concepts
+
+* [[morphism of finite presentation]]
+
+[[!redirects locally of finite type]]
+[[!redirects finite type]]
+
+[[!redirects morphisms of finite type]]
+
+[[!redirects morphism locally of finite type]]
+[[!redirects morphisms locally of finite type]]
+
+[[!redirects finite type morphism]]
+[[!redirects finite type morphisms]]
