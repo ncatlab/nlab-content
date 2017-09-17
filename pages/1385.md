@@ -21,7 +21,7 @@
 
 ## Idea
 
-$Pr(\infty,1)Cat$ is the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and colimit-preserving [[(∞,1)-functor]]s between them.
+$Pr(\infty,1)Cat$ is the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and colimit-preserving [[(∞,1)-functor]]s between them ([[Lawvere distribution]]s).
 
 
 Recall that a [[presentable (∞,1)-category]] is a [[localization of an (∞,1)-category|localization]] of a [[(∞,1)-category of (∞,1)-presheaves]]. In particular it has all small [[colimit]]s. An [[(∞,1)-functor]] $C \times D \to E$ from the cartesian product of two presentable $(\infty,1)$-categories is _bilinear_ if it respects colimits in both variables.
@@ -74,7 +74,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.3.13]] together with [[Higher Topos
 
 In some context -- such as for instance in the context of [[geometric ∞-function theory]] -- it makes good sense to think of $Pr(\infty,1)Cat$ as a model for an $(\infty,1)$-category of "$\infty$-vector spaces":
 
-Here a small $(\infty,1)$-category $S$ is to be thought of as a _basis_ and the locally presentable $(\infty,1)$-category $C \hookrightarrow PSh_{(\infty,1)}(C)$ as the $\infty$-vector space spanned by this basis. The colimits in $C$ play the role of addition of vectors and the fact that morphisms in $Pr(\infty,1)Cat$ are colimit-presserving means that they play  the role of _linear_ maps between vector spaces.
+Here a small $(\infty,1)$-category $S$ is to be thought of as a _basis_ and the locally presentable $(\infty,1)$-category $C \hookrightarrow PSh_{(\infty,1)}(C)$ as the $\infty$-vector space spanned by this basis. The colimits in $C$ play the role of addition of vectors and the fact that morphisms in $Pr(\infty,1)Cat$ are colimit-presserving means that they play  the role of _linear_ maps between vector spaces. This is described also at [[Lawvere distribution]].
 
 The monoidal product $\otimes : Pr(\infty,1)Cat \times Pr(\infty,1)Cat \to Pr(\infty,1)Cat$ plays the role of the [[tensor product]] of vector spaces, with a morphism out of $C \otimes D$ being a bilinear morphism out of $C \times D$, and the fact that $Pr(\infty,1)Cat$ is closed monoidal reflects the fact that [[Vect]] is closed monoidal. 
 
