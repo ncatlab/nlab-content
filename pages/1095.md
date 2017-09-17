@@ -471,6 +471,10 @@ Detailed discussion of this [[model category]] presentation is at
 
 * [[models for infinity-stack (infinity,1)-toposes|models for (infinity,1)-category of (infinity,1)-sheaves]] .
 
+## Related concepts
+
+* [[geometric homotopy type theory]]
+
 ## References
 
 The study of simplicial presheaves apparently goes back to 
