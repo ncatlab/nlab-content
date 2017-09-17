@@ -38,6 +38,10 @@ $$
 
 This perspective generalizes to the notion of [[outer automorphism ∞-group]].
 
+## Examples
+
+The connected components of the [[subgroup]] of outer automorphisms of the a [[super Poincaré group]] which fixes the underlying [[Poincaré group]] is known as the _[[R-symmetry group]]_ in [[supersymmetry]].
+
 ## Related concepts
 
 * [[group]], [[∞-group]],
