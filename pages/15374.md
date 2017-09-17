@@ -1,5 +1,6 @@
 
 |  [[algebra|algebraic structure]] | [[group]] | [[ring]]  | [[field]] | [[vector space]]  |  [[associative algebra|algebra]] | 
 |---|-----------|-----------|-------------------|--------------|---|
-| [[norm]]  | [[normed group]]  | [[normed ring]] | [[normed field]], [[valued field]] | [[normed vector space]] |  [[normed algebra]]  | 
-| [[complete space|completeness]]  | [[complete normed group]] | [[Banach ring]] | [[complete normed field]] | [[Banach vector space]] | [[Banach algebra]] |  
+| (submultiplicative) [[norm]]  | [[normed group]]  | [[normed ring]] | [[normed field]]  | [[normed vector space]] |  [[normed algebra]]  | 
+| multiplicative [[norm]] ([[absolute value]]/[[valuation]]) |  |   | [[valued field]] |  |  |
+| [[complete space|completeness]]  | [[complete normed group]] | [[Banach ring]] | [[complete field]] | [[Banach vector space]] | [[Banach algebra]] |  
