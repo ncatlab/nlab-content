@@ -33,3 +33,6 @@ For commutative $k$-algebras a discussion is for instance around theorem 9.1.2 i
 
 
 [[!redirects smooth schemes]]
+
+[[!redirects smooth variety]]
+[[!redirects smooth varieties]]
