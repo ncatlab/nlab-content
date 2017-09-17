@@ -709,9 +709,18 @@ In the case that $G=GL(\infty;\mathbb{C})$, the compatibility of the trace with 
 
 ## Related concepts
 
-* [[loop space object]] / [[delooping]]
+* [[loop space object]], **free loop space object**,
 
-* **free loop space object** / [[derived loop space]]
+  * [[delooping]]
+
+  * [[loop space]], [[free loop space]], [[derived loop space]]
+
+
+* [[suspension object]]
+
+  * [[suspension]]
+
+
 
 
 
