@@ -14,31 +14,25 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea ## 
 
-There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic. 
+There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic. All these notions of cohomology are special cases of -- and in many instances special concrete _models_ for -- the following general idea:
 
-The claim is all these notions of cohomology are special cases of -- and in many instances special concrete _models_ for -- the following general idea:
-
-Cohomology is something associated to a given [[(∞,1)-topos]] $\mathbf{H}$. For $X, A$ two objects of $\mathbf{H}$, the **cohomology of $X$ with coefficients in $A$** is the set of connected components of the [[∞-groupoid]] of morphisms from $X$ to $A$ in $\mathbf{H}$:
+Cohomology is something associated to a given [[(∞,1)-topos]] $\mathbf{H}$. For $X, A$ two objects of $\mathbf{H}$, the **cohomology of $X$ with coefficients in $A$** is the set of connected components of the [[derived hom-space|hom ∞-groupoid]] of morphisms from $X$ to $A$ in $\mathbf{H}$:
 
 $$
   H(X,A) := \pi_0 \mathbf{H}(X,A)
   \,.
 $$
 
+This captures the generality of what traditionally would be called 
+_[[equivariant cohomology|equvariant]] [[non-abelian cohomology|non-abelian]] [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[sheaf cohomology|sheaf]] [[hypercohomology]]_ over a [[site]] (or rather [[(∞,1)-site]]) of definition of  $\mathbf{H}$.
 
-+-- {: .standout}
-
-**Slogan.**
-
-Thousands of definitions of notions of cohomology and its variants. From the [[nPOV]], just a single concept: an [[derived hom space|∞-categorical hom-space]] in an [[(∞,1)-topos]]. 
-
-=--
+For $A = \mathbf{B}G$ a [[pointed object|pointed]] [[connected object in an (∞,1)-topos|connected object]], hence the [[delooping]] of an [[∞-group]] $G$ the cohomology $H^1(X,G) := H(X, \mathbf{B}G)$ classifies $G$-[[principal ∞-bundles]] in $\mathbf{H}$ over $X$. If $G = \mathbf{Aut}(V)$ is the [[automorphism ∞-group]] of some object $V$, then this classifies equivalently $V$-[[fiber ∞-bundles]]. Moreover, the full [[cocycle]] [[∞-groupoid]] $\mathbf{H}(X, \mathbf{B}G)$ is [[natural equivalence|naturally]] [[equivalence in an (∞,1)-category|equivalent]] to the $\infty$-groupoid $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$.
 
 A non-technical introduction to some concepts in cohomology from this perspective is at 
 
@@ -52,13 +46,13 @@ gives a tour through the zoo of cohomology theories traditionally known, indicat
 
 * [Definition](#Definition)
 
-gives the very general formal definition and discusses very general properties of and constructions in cohomology theory, such as the terminology of _[[cocycle]]s_ and _coboundaries_ of _[[principal ∞-bundle|objects classified]]_ by cohomology, of _[[characteristic class]]es_ of these objects, of [[Postnikov tower in an (infinity,1)-category|Postnikov towers]] and [[Whitehead tower in an (infinity,1)-topos|Whitehead towers]], and so on. In particular the section
+gives the general formal definition and discusses general properties of and constructions in cohomology theory, such as the terminology of _[[cocycles]]_ and _coboundaries_ of _[[principal ∞-bundle|objects classified]]_ by cohomology, of _[[characteristic classes]]_ of these objects, of [[Postnikov tower in an (infinity,1)-category|Postnikov towers]] and [[Whitehead tower in an (infinity,1)-topos|Whitehead towers]], and so on. In particular the section
 
 * [Extra structure on cohomology](#ExtraStruc)
 
 describes additional [[stuff, structure, property]] that may be present for certain choices of coefficient objects -- such as _gradings_ , [[cohomology group]]- and ring-structures -- and aspects of which are in different parts of the traditional literature often _required_ (differently) on cohomology.
 
-The straightforward definition of cohomology in terms of mapping spaces in an [[(∞,1)-topos]] has some slight, but similarly straightforward, variants, notably that of _twisted cohomology_ (which includes other cases such as [[differential cohomology]]) and of [[equivariant cohomology]] (with its different flavors such as Borel-equivariant and [[Bredon cohomology]]). These are discussed in the section
+The straightforward definition of cohomology in terms of mapping spaces in an [[(∞,1)-topos]] has some slight, but similarly straightforward, variants, notably that of _[[twisted cohomology]]_ (which includes other cases such as [[differential cohomology]]) and of [[equivariant cohomology]] (with its different flavors such as Borel-equivariant and [[Bredon cohomology]]). These are discussed in the section
 
 * [Variants](#Variants)
 
@@ -69,7 +63,7 @@ before the next main section
 then starts going through concrete examples in detail. The reader uneasy with the abstract generality of our perspective is advised to skip ahead to this section and find from a long list of examples discussed his or her favorite 
 traditional notion of cohomology and how it fits into the general structure. 
 
-Finally we discuss _why_ the notion of cohomology is related to that of [[(∞,1)-topos]]es in 
+Finally we discuss _why_ the notion of cohomology is related to that of [[(∞,1)-toposes]] in 
 
 * [Relation to (∞,1)-topos theory](#ToposTheory) .
 
@@ -81,14 +75,15 @@ in the light of fully fledged [[(∞,1)-topos|(∞,1)-topos theory]], of which i
 
 * [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ , section I.4
 
-by noticing that the constructions on [[simplicial object]]s in [[topos]]es used there secretly precisely compute the [[derived hom-space|(∞,1)-categorical hom-objects]] of an [[(∞,1)-topos]] as presented by the [[model structure on simplicial sheaves]] on the underlying site.
+by noticing that the constructions on [[simplicial objects]] in [[toposes]] used there secretly precisely compute the [[derived hom-space|(∞,1)-categorical hom-objects]] of an [[(∞,1)-topos]] as presented by the [[model structure on simplicial sheaves]] on the underlying site.
 
 This and a list of other releated references and historical developments is given at
 
 * [References](#References).
 
 
-## Tour through notions of cohomology {#Overview}
+## Tour through notions of cohomology 
+ {#Overview}
 
 The statement of the above slogan is well familiar for the special case that $\mathbf{H} = $ [[Top]] is the [[(∞,1)-topos]] of [[topological space]]s. In this context for instance for $A := K(\mathbb{Z}, n)$ an [[Eilenberg-MacLane space]], we have that for $X$ any topological space that
 
@@ -782,12 +777,13 @@ But this list of properties is essentially that of the <a href="http://ncatlab.o
 
 
 
-## History and references {#References}
+## History and references 
+ {#References}
 
 
-The general perspective on cohomology was essentially established 35 years ago in
+The general perspective on cohomology was essentially established in
 
-* [[Kenneth Brown]], [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]] 
+* [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_ (1973)
 
 and apparently known in one form or other before that.
 
@@ -815,20 +811,20 @@ $$
 
 in the [[homotopy category]] of [[∞-groupoid]]-valued [[sheaves]].
 
-The only fundamental new addition to this insight that is available now and wasn't available 35 years ago is that 
+The only fundamental new addition to this insight that is available now and was not available in 1973 is that 
 
 
 * These categories $H = Ho_{SSh}$ are precisely the [[homotopy category of an (infinity,1)-category|hom-wise decategorification]] of [[(∞,1)-category of (∞,1)-sheaves]] otherwise known as the [[(∞,1)-topoi]] of [[∞-stacks]].
 
 
-This is propositon 6.5.2.1 in [[Jacob Lurie]]'s [[Higher Topos Theory]] and builds on the fundamental work by K. Brown, Joyal and Jardine and others on the 
+This is propositon 6.5.2.1 in [[Jacob Lurie]]'s _[[Higher Topos Theory]]_ and builds on the fundamental work by K. Brown, Joyal and Jardine and others on the 
 [[model structure on simplicial presheaves]].
 
 For a _motivation_ of these definitions from the point of view of cohomology as a homotopy hom-set of $\infty$-stacks see for instance the introductory pages of
 
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)) .
 
-The general abstract picture of cohomology as connected components of mapping spaces in [[(∞,1)-topos]]es is the topic of section 7.2.2 of
+The general abstract picture of cohomology as connected components of mapping spaces in [[(∞,1)-toposes]] is the topic of section 7.2.2 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
@@ -839,6 +835,10 @@ $$
 $$
 
 (definition 7.2.2.14).
+
+A comprehensive account of the full non-abelian case and its classification of $G$-[[principal ∞-bundles]], $G$-[[∞-gerbes]] and the corresponding [[twisted cohomology]] is in 
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ (2012)
 
 Another reference with a  discussion of cohomology in the general sense discussed above, using tools of [[model category]] theory for [[simplicial object]]s, is
 
