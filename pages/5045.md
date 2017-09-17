@@ -29,6 +29,8 @@
 
   (suh as the [[supergravity Lie 3-algebra]], the [[supergravity Lie 6-algebra]])
 
+  * [[Chern-Simons gravity]]
+
   * Chern-Simons-[[supergravity]]
 
 * **For [[symplectic Lie n-algebroid]] targets**
