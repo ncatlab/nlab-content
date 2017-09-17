@@ -4,3 +4,5 @@ There are several notions that go by the name _projection_.
 * In [[category theory]] the component morphisms out of a (categorical) [[product]], and sometimes more generally any [[limit]] are often called projections. In fact, in old literature the filtered [[diagram]]s of spaces or algebraic systems (usually in fact indexed by a codirected set) were called projective systems, inverse systems or projective spectra. 
 
 * In [[linear algebra]] an [[idempotent]] linear [[operator]] $P:V\to V$ is called a projection onto its [[image]]. In [[functional analysis]], one sometimes requires additionally that this idempotent is in fact [[self-adjoint operator|self-adjoint]]. 
+
+[[!redirects projections]]
