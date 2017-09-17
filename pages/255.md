@@ -156,7 +156,7 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
   * [[idempotent monad]]
 
-  * [[monad (in programming theory)]], [[Lawvere-Tierney topology]]
+  * [[monad (in computer science)]], [[Lawvere-Tierney topology]]
 
 * [[operad]] / [[(∞,1)-operad]]
 
