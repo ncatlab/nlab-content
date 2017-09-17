@@ -485,7 +485,11 @@ A detailed discussion of the axiomatization of differential stable cohomology is
 
 Based on this Dan Freed interpreted large classes of gauge fields in [[physics]] in terms of differential stable cohomology in 
 
-* [[Dan Freed]], _Dirac Charge Quantization and Generalized Differential Cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+
+A survey is also in
+
+* [[Alessandro Valentino]], _Differential cohomology and quantum gauge fields_ ([pdf](http://www.uni-math.gwdg.de/sandro/seminarGoett.pdf))
 
 The differential refinement of K-theory was and is studied in a series of articles by Bunke and Schick. See for instance
 
@@ -494,6 +498,7 @@ The differential refinement of K-theory was and is studied in a series of articl
 and many more...
 
 * [[James Simons]], [[Dennis Sullivan]], _The Mayer-Vietoris Property in Differential Cohomology_ ([arXiv:1010.3300](http://arxiv.org/abs/1010.3300))
+
 
 ## Lectures and talks ##
 
