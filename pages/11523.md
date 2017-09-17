@@ -1,0 +1,6 @@
+
+**[[cohomology]] in the presence of [[∞-group]] $G$ [[∞-action]]**:
+
+| [[Borel equivariant cohomology]] |  $\leftarrow$ | general ([[Bredon cohomology|Bredon]]) [[equivariant cohomology]] | $\rightarrow$ | non-equivariant [[cohomology]] with [[homotopy fixed point]] [[coefficients]]  |
+|---|---|---|---|---|
+| $\mathbf{H}(X_G, A)$ |  trivial [[∞-action|action]] on [[coefficients]] $A$ | $[X,A]^G$ | trivial [[∞-action|action]] on domain space $X$ |  $\mathbf{H}(X, A^G)$ |
