@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,7 +53,7 @@ Inside the moduli stack of formal groups sit, in that order, that of [[cubic cur
 
 ## Related concepts
 
-* [[moduli stack of elliptic curves]]
+[[!include moduli stack of curves -- table]]
 
 ## References
 
