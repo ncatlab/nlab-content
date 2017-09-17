@@ -72,6 +72,8 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 * [[polydisc]]
 
+* [[p-adic complex number]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 
