@@ -43,7 +43,7 @@ For 2-dimensional cobordisms with closed boundary HCFT has been considered in
 
 A detailed treatment in $d = 2$ involving arbitrary sets of [[brane]]s is in section 2 of 
 
-* [[Sander Kuipers]], _String topology operations_ MSc thesis (2011)
+* [[Sander Kupers]], _String topology operations_ MSc thesis (2011)
 
 [[!redirects HCFT]]
 [[!redirects HCFTs]]
