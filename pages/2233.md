@@ -163,6 +163,11 @@ Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/st
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
 
+For TQFTs appearing in [[solid state physics]] in the context of [[topological order]]:
+
+* {#FreedMoore12} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]] to classify free fermion gapped phases with symmetry)
+
+* {#Freed14} [[Daniel Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
 
 
 
