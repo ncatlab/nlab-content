@@ -25,9 +25,15 @@
 
 In terms of [[KK-theory]], the $K$-homology of a [[C*-algebra]] $A$ is $KK(A,\mathbb{C})$.
 
-## Examples
+## Presentations
 
-### Dirac operators
+There are various useful ways to present K-homology classes.
+
+### By geometric cycles
+
+See at _[[Baum-Douglas geometric cycle]]_.
+
+### By Fredholm modules and Dirac operators
 
 Let $(X,g)$ be a [[Riemannian manifold]]. Let 
 
