@@ -38,6 +38,13 @@ A prominent example is [[Georg Hegel]]'s [[natural philosophy]] as expressed in 
 
 > ([[David Corfield]], [forum comment, June 2013](http://nforum.mathforge.org/discussion/4973/synthetic-quantum-field-theory/?Focus=40500#Comment_40500))
 
+## Related concepts
+
+* [[idealism]]
+
+  * objective idealism
+
+  * [[subjective idealism]]
 
 ## References
 
