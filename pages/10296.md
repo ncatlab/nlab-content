@@ -120,6 +120,9 @@ Quite detailed treatment of duality of gebras is in
 * Susan Montgomery, _Hopf algebras and their actions on rings_, AMS 1994, 240 pp.
 * Shahn Majid, _Foundations of quantum group theory_, Cambridge Univ. Press
 
+Duality of dg-algebras vs. dg-coalgebras is studied recently in great detail in
+
+* Matthieu Anel, [[André Joyal]], _Sweedler Theory for (co)algebras and the bar-cobar constructions_, 260 pp. [arxiv/1309.6952](http://arxiv.org/abs/1309.6952); cf. also Boston 2012 [slides](http://thales.math.uqam.ca/~anelm/mat/doc/boston.pdf)
 
 [[!redirects dual gebra]]
 [[!redirects dual gebras]]
