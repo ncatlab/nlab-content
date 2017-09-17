@@ -75,11 +75,9 @@ In [[homotopy type theory]], this can be formalized as a [[higher inductive type
 
 The topological circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]]. 
 
-The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s. Equivalently, the circle is the [[Eilenberg-Mac Lane space]] $K({\mathbb{Z}},1)$. Equivalently, the loop space $\Omega S^1$ of the circle is the free group ${\mathbb{Z}}$ on one generator. A proof of this in [[homotopy type theory]] is in [Shulman P1S1](#ShulmanP1S1).
+The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s. Equivalently, the circle is the [[Eilenberg-Mac Lane space]] $K({\mathbb{Z}},1)$. Explicitly, the first [[homotopy group]] $\pi_1(S^1)$ is the [[integer]]s $\mathbb{Z}$. But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]). This can be deduced from the result that the loop space $\Omega S^1$ of the circle is the group ${\mathbb{Z}}$ of integers and that $S^1$ is path-connected. A proof of this in [[homotopy type theory]] is in [Shulman P1S1](#ShulmanP1S1).
 
-This result that $\Omega S^1\simeq {\mathbb{Z}}$ encodes all (except the zeroth) [[homotopy group]]s of the circle. Explicitly, the first [[homotopy group]] $\pi_1(S^1)$ is the [[integer]]s $\mathbb{Z}$. But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]).
-
-The fact that $\Omega S^1\simeq {\mathbb{Z}}$ holds in a general [[Grothendieck (∞,1)-topos]]. In fact, more generally, for $X$ a pointed object of a [[Grothendieck (∞,1)-topos]] ${\mathcal{H}}$, there is a natural equivalence between the [[suspension object]] $\Sigma X$ and the classifying space $ B{\mathbb{Z}}\wedge X$. In particular, when $X$ is specifically the 0-truncated two-point space $S^0$, looping gives $\Omega S^1\simeq {\mathbb{Z}}$, as required.
+The result that $S^1\simeq K({\mathbb{Z}},1)$ holds in a general [[Grothendieck (∞,1)-topos]]. In fact, more generally, for $X$ a pointed object of a [[Grothendieck (∞,1)-topos]] ${\mathcal{H}}$, there is a natural equivalence between the [[suspension object]] $\Sigma X$ and the classifying space $ B{\mathbb{Z}}\wedge X$. In particular, when $X$ is specifically the 0-truncated two-point space $S^0$, we get $S^1\simeq K({\mathbb{Z}},1)$.
 
  
 
