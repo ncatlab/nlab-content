@@ -4,7 +4,7 @@
 
 The _partition function_ is a certain assignment that may be extracted from a [[quantum field theory]]. It the quantum field theory $Z$ is presented as an [[FQFT]] that is a [[functor]] on a category of $d$-dimensional [[cobordism]]s, then the partition function is the assignment of $d$-dimensional [[torus|tori]] $T$ to the valued $Z(T)$ assigned to these by the QFT.
 
-By the axioms of functoriality and symmetric monoidalness of a QFT, this means that the partition functoin is the [[trace]] over the value of the QFT in the cylinder obtained by cutting the torus open.
+By the axioms of functoriality and symmetric monoidalness of a QFT, this means that the partition function is the [[trace]] over the value of the QFT in the cylinder obtained by cutting the torus open.
 
 This is where the partition function originally derives its name from: typically for QFTs on _[[Riemannian metric|Riemannian]]_ [[cobordism]]s the  value of the QFT on a cylinder of _length_ $t$ is a linear [[operator]] of the form $\exp(- t H)$ for some operator $H$.
 
