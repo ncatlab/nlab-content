@@ -189,14 +189,21 @@ Introductions to HoTT are at
   {#Voevodsky}
 
 ### Code
+ {#Code}
 
-* [[Vladimir Voevodsky]], _Foundations_ ([GitHub](https://github.com/vladimirias/Foundations/))
+The basic [[Coq]]-code that sets up homotopy type theory:
+
+* _HoTT-Coq code_ ([[HoTT-Coq-code.pdf:file]]) 
+
+More is in the repositories of various authors:
 
 * [[Andrej Bauer]], ([GitHub](https://github.com/andrejbauer/Homotopy))
 
 * [[Peter LeFanu Lumsdaine]], ([GitHub](https://github.com/peterlefanulumsdaine/Oberwolfach-explorations))
 
 * [[Mike Shulman]], _Higher inductive types_ ([GitHub](https://github.com/HoTT/HoTT/tree/master/Coq/HIT))
+
+* [[Vladimir Voevodsky]], _Foundations_ ([GitHub](https://github.com/vladimirias/Foundations/))
 
 
 [[!redirects homotopy type theory]]
