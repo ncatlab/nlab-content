@@ -68,7 +68,7 @@ Many web sites "support" LaTeX by running it through a script which converts LaT
 
 ### I want to help out with the software, what can I do?
 
-See [this discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1112).
+See [this discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1112).
 
 
 ## HTML, XML, etc.
@@ -113,7 +113,7 @@ Seriously, if about a specific page then put it on that page in a query block:
     How do I prove the Riemannian Hypothesis?
     =--
 
-If about the _n_-Lab then try the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
+If about the _n_-Lab then try the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
 
 If about something mathematical then try to convince [[John Baez|John]], [[Urs Schreiber|Urs]], or [[David Corfield|David]] to start a blog entry on the _n_-Category Caf&eacute; about it.
 
@@ -142,7 +142,7 @@ The _n_-Lab has a spam filter that checks your IP against a blacklist.  The blac
 
 ### I got "Internal application error" when doing something.
 
-Sometimes something doesn't work quite right with the software and it bails out.  If you think that you were doing something that should work, please log the error message at the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  The more information that you log, the easier it is for us to debug.  Useful information is: your IP, the time and date, and the URL that you were trying to access.
+Sometimes something doesn't work quite right with the software and it bails out.  If you think that you were doing something that should work, please log the error message at the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  The more information that you log, the easier it is for us to debug.  Useful information is: your IP, the time and date, and the URL that you were trying to access.
 
 There is actually more information contained in the HTML source of the error message ("view source"): some errors can be down to malformed input when editing a page and that can help you fix it yourself.
 
