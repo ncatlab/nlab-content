@@ -93,6 +93,9 @@ provided the Hamiltonian is time-independent.
 
 * [[Hamiltonian form]]
 
+[[!include geometric quantization extensions - table]]
+
+
 [[!redirects Hamiltonian]]
 [[!redirects hamiltonian]]
 [[!redirects Hamiltonians]]
