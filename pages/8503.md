@@ -26,11 +26,18 @@ Either sentence alone seems perfectly reasonable, and could meaningfully be said
 
 ## Examples
 
+### From logic and foundations
+
 * [[Russell's paradox]]
 
 * [[Burali-Forti's paradox]]
 
 * [[Cantor's paradox]]
+
+
+### From natural science
+
+* [[hole paradox]]
 
 
 [[!redirects paradox]]
