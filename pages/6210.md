@@ -66,7 +66,11 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
 
 * Higher differential spin structures 
 
+  * [[orthogonal structure]] / [[Riemannian metric]]; see the discussion at _[[vielbein]]_ . 
+
   * [[twisted spin structure]], [[differential spin structure]]
+
+  * [[twisted spin^c-structure]]
 
   * [[twisted differential string structure]]
 
