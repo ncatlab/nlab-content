@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+By the general discussion at _[[equivariant K-theory]]_, given a suitable [[topological group]] $G$ with an [[action]] on a [[topological space]] $X$ there is a canonical map
+
+$$
+  K_G(X) \to K_G^{Bor}(X) \simeq K_G(X \times E G) \simeq K(X//G)
+$$
+
+from the [[equivariant K-theory]] of $X$ to the ordinary [[topological K-theory]] of the [[homotopy quotient]] ([[Borel construction]]).
+
+While this map is never an [[isomorphism]] unless $G$ is the trivial group, the _Atiyah-Segal completion theorem_ says that this map exhibits $K(X//G)$ as the completion of the ring $K_G(X)$ at the [[augmentation ideal]] of the [[representation ring]] of $G$.
+
+## Related concepts
+
+* [[Baum-Connes conjecture]], [[Green-Julg theorem]]
+
+## References
+
+The original article is
+
+* [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([Euclid](http://projecteuclid.org/euclid.jdg/1214428815))
+
+Reviews and surveys include
+
+* [[Ulrik Buchholtz]], _The Atiyah-Segal completion theorem_, Master Thesis 2008 ([pdf](http://www.math.ku.dk/~jg/students/buchholtz.ms.2008.pdf))
+
+* Wikipedia, _[Atiyah-Segal completion theorem](http://en.wikipedia.org/wiki/Atiyah%E2%80%93Segal_completion_theorem)_
+
