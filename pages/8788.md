@@ -58,14 +58,20 @@ and the last section of
 
 * _Stable complex and $Spin^c$-structures_ ([[StableComplexSpinC.pdf:file]])
 
+A detailed analysis of psuh-forward quantization of general [[presymplectic manifolds]] is in 
+
+* Ana Canas da Silva, [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_ ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
+
+A suggestion that geometric push-forward quantization is best understood to proceed to taked values in [[KK-theory]] is in 
+
+* [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
+
+* [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
+ {#Bos}
+
 Discussion of push-forward not over manifold but over [[moduli stacks]] as relevant in [[Chern-Simons theory]] is in section 3 of 
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
-
-Further developments are in
-
-* Ana Cannas Da Silva, Yael Karshon, and Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_, Trans. Amer. Math. Society 352(2) (1999), 525-552. ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
- {#DaSilva}
 
 
 * [[Shay Fuchs]], _$Spin^{\mathbb{C}}$-quantization, prequantization and cutting_ Ph.D. thesis, University of Toronto (2008) ([pdf](https://tspace.library.utoronto.ca/bitstream/1807/11205/1/Fuchs_Shay_Z_200806_PhD_thesis.pdf))
