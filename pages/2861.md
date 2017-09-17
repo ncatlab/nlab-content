@@ -1,8 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-***
-[[!include model category theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 
