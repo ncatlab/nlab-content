@@ -67,7 +67,7 @@ Such a differential string structure over a [[smooth manifold]] $X$ is character
 
 1. a [[connection on a bundle|connection]] $\nabla$ on a [[Spin group|Spin]]-[[principal bundle]] on $X$;
 
-1. a choice of trivial [[circle n-bundle with connection|circle 3-bundle]] with connection $(0, C_3)$, hence a differential 3-form $C_3 \in \Omega^3(X)$;
+1. a choice of trivial [[circle n-bundle with connection|circle 3-bundle]] with connection $(0, H_3)$, hence a differential 3-form $H_3 \in \Omega^3(X)$;
 
 1. a choice of [[equivalence in an (∞,1)-category|equivalence]] $\lambda$ of the [[Chern-Simons circle 3-bundle]] with connection $\frac{1}{2}\hat\mathbf{p}_1(\nabla)$ of $\nabla$ with this chosen 3-bundle
 
@@ -77,14 +77,14 @@ Such a differential string structure over a [[smooth manifold]] $X$ is character
     \,.
   $$
 
-More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \mathbf{p}_1$ over arbitrary circle 3-bundles with connection $\hat \mathcal{G}_4 \in \mathbf{H}_{diff}^4(X, \mathbf{B}^3 U(1))$ and hence replace $(0,C_3)$ in the above with $\hat \mathcal{G}_4$. According to the general notion of [[twisted cohomology]], these may be thought of as **twisted differential string structures**, where the class $[\mathcal{G}_4] \in H^4_{diff}(X)$ is the twist.
+More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \mathbf{p}_1$ over arbitrary circle 3-bundles with connection $\hat \mathcal{G}_4 \in \mathbf{H}_{diff}^4(X, \mathbf{B}^3 U(1))$ and hence replace $(0,H_3)$ in the above with $\hat \mathcal{G}_4$. According to the general notion of [[twisted cohomology]], these may be thought of as **twisted differential string structures**, where the class $[\mathcal{G}_4] \in H^4_{diff}(X)$ is the twist.
 
 
 ## Definition {#Definition}
 
 We will assume that the reader is familiar with basics of the discussion at [[Smooth∞Grpd]]. We often write $\mathbf{H} := Smooth \infty Grpd$ for short.
 
-Let $Spin(n) \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] be the [[Spin group]], for some $n \in \mathbb{N}$, regarded as a [[Lie group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. We shall notationally suppress the $n$ in the following. Write $\mathbf{B}Spin$ for its [[delooping]] of $Spin$ in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). 
+Let $Spin(n) \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] be the [[Spin group]], for some $n \in \mathbb{N}$, regarded as a [[Lie group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. We shall notationally suppress the $n$ in the following. Write $\mathbf{B}Spin$ for the [[delooping]] of $Spin$ in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). 
 Let moreover $\mathbf{B}^2 U(1) \in Smooth \infty Grpd$ be the <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie 3-group</a> and $\mathbf{B}^3 U(1)$ its [[delooping]].
 
 At [[Chern-Weil theory in Smooth∞Grpd]] the following statement is proven ([FSS](#FSS)).
@@ -416,7 +416,7 @@ $$
 +-- {: .un_remark }
 ###### Remark
 
-Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus making it well-adapted to genuine (as opposed to pseudo-)connections.
+Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus exhibiting the modified $c$ as an [[invariant polynomial]].
 
 =--
 
@@ -455,27 +455,93 @@ of $\exp(\mu,cs)$ in $[CartSp^{op}, sSet]_{proj}$, where the first morphism is a
 +-- {: .proof}
 ###### Proof
 
-We discuss that the first morphismm is an equivalence. Clearly it is injective on homotopy groups: if a sphere of $A$-data cannot be filled, then also adding the $(B,C,H)$-data does not yield a filler. So we need to check that it is also surjective on homtoopy groups: if the $A$-data can be filled, then also the corresponding $(B,C,H)$-data has a filler. Since $C$ is horizontal it is already extended. We may extend $B$ in any smooth way to $U \times \Delta^k$ (for instance by rescaling it smoothly to zero at the center of the $k$-simplex) and then take th equation $d B = CS(A)+ C  - H$ to define the extension of $H$. Its curvature is then $d CS(A) = \langle F_A \wedge F_A\rangle$ and hence horizontal by the assumption that we already have a filler of $A$-data.
+We discuss that the first morphism is an equivalence. Clearly it is injective on homotopy groups: if a sphere of $A$-data cannot be filled, then also adding the $(B,C,H)$-data does not yield a filler. So we need to check that it is also surjective on homtoopy groups: if the $A$-data can be filled, then also the corresponding $(B,C,H)$-data has a filler. Since $C$ is horizontal it is already extended. We may extend $B$ in any smooth way to $U \times \Delta^k$ (for instance by rescaling it smoothly to zero at the center of the $k$-simplex) and then take th equation $d B = CS(A)+ C  - H$ to define the extension of $H$. Its curvature is then $d CS(A) = \langle F_A \wedge F_A\rangle$ and hence horizontal by the assumption that we already have a filler of $A$-data.
 
-We now check that the second morphism is a fibration. 
+We now check that the second morphism is a fibration. It is itself the composite
 
-We had already seen [above](#BareFibration) that we can fill the vertical form components.
-To get a full lift to the differential coefficients we need to extend this construction from vertical forms to connection forms.
+$$
+  \mathbf{cosk}_{3} \exp(b \mathbb{R} \to \mathfrak{g}_\mu)_{ChW}
+  \to 
+  \exp(b^2 \mathbb{R})_{ChW}/\mathbb{Z}
+  \stackrel{\int_{\Delta^\bullet}}{\to}
+  \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_{ChW,ch}
+  \,.
+$$
 
-The morphism takes tuples $(A,B,C,K)$ of functions and forms on $U \times \Delta^k$ to the [[fiber integration]] $\int_{\Delta^k} K$.
+Here the second morphism is a degreewise surjection of simplicial abelian groups, hence a degreewise surjection under the [[normalized chain complex]] functor, hence is itself already a projective fibration. Therefore it is sufficient to show that the first morphism here is a fibration.
 
-In degree 0, the fibrancy condition demands that every 3-form $H$ is in the image. Clearly a preimage is $(A = 0, B = 0, C = 0, H)$.
+In degree $k = 0$ to $k = 3$ the lifting problems
 
-In degree 1, we have given a $2$-form $H' \in \Omega^{2}(U \times [0,1]^{k})$ together with forms $(A,B,C,H)$ on $U$. We need to extend the latter over the interval such that $C$ is horizontal (that fixes it uniquely as being constant along the interval), that $\langle F_A \wedge F_A\rangle$ and $d H$ are horizontal and such that the [[fiber integration]] $\int_{[0,1]^k} H = H'$.
+$$
+  \array{
+     \Lambda[k]_i 
+       &\to & 
+      \exp(b\mathbb{R} \to \mathfrak{g}_{\mu})_{smp,ChW}(U)
+      \\
+      \downarrow && \downarrow
+      \\
+      \Delta[k] 
+        &\to&
+      \exp(b^2 \mathbb{R})_{smp,ChW}/\mathbb{Z}(U)
+  }
+$$
 
-Pick a smooth smoothing function $q : [0,1] \to [0,1]$. Extend $A$ constantly. Extend $B$ as $B + K' \wedge q$. Define then $H$ by the equation $d B = CS(A) + C - H$.
+may all be equivalently reformulated as lifting against a [[cylinder]] $D^k \hookrightarrow D^k \times [0,1]$ by using the sitting instants of all forms.
 
-In degree 3 and 4 we extend first $B$ as already discussed [above](#BareFibration) and then again define $H$ by $d B = - CS(A) - C + H$. 
+We have then a 3-form $H \in \Omega^3_{si}(U \times D^{k-1}\times [0,1])$ and differential form data $(A,B,C)$ on $U \times D^{k-1}$ given. We may always extend $A$ along the cylinder direction $[0,1]$ (its vertical part is equivalently a based smooth function to $Spin$ which we may extend constantly). $C$  has to be horizontal so is already constantly extended along the cylinder.
 
-This has horizontal curvature because $d CS(A)$ is already horizontal.
+We can then use the kind of formula that proves the [[Poincare lemma]] to extend $B$. Let $\Psi : (D^k \times [0,1]) \times [0,1] \to (D^k  \times [0,1])$ be a smooth contraction. Then while $d(H - CS(A) - C)$ may be non-vaishing, by horizonatlity of their [[curvature characteristic form]]s we still have that $\iota_{\partial_t} \Psi_t^* d(H - CS(A) - C)$ vanishes (since the contraction vanishes).
 
-In degree 2 we have a similar argument.
+Therefore the 2-form
 
+$$
+  \tilde B := \int_{[0,1]} \iota_{\partial_t} \Psi_t^*(H - CS(A)-C)
+$$
+
+satisfies $d \tilde B = (H - CS(A) - C)$. It may howver not coincide with our given $B$ at $t = 0$. But the difference $B - \tilde B|_{t = 0}$ is a closed form on the left boundary of the cylinder. We may find some closed 2-form on the other boundary such that the integral around the boundary vanishes. Then the argument from the proof of the [[Lie integration]] of the [[line Lie n-algebra]] applies and we find an extension $\lambda$ to a closed 2-form on the interior. The sum
+
+$$
+  \hat B := \tilde B + \lambda
+$$
+
+then still satisfies $d \hat B = H - CS(A) - C$ and it coincides with $B$ on the left boundary.
+
+Notice that here $\tilde B$ indeed has sitting instants: since $H$, $CS(A)$ and $C$ have sitting instants they are constant on their value at the boundary in a neighbourhood perpendicular to the boundary, which means for these 3-forms in the degrees $\leq 3$ that they _vanish_ in a neighbourhood of the boundary, hence that the above integral is towards the boundary over a vanishing integrand.
+
+In degree 4 the nature of the lifting problem 
+
+$$
+  \array{
+  \Lambda[4]_i &\to& \mathbf{cosk}_3\exp(b\mathbb{R} \to \mathfrak{g}_\mu)(U)
+  \\
+  \downarrow && \downarrow
+  \\
+  \Delta[4] &\to& \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_{ChW,ch}
+  }
+$$
+
+starts out differently, due to the presence of $\mathbf{cosk}_3$, but it then ends up amounting to the same kind of argument:
+
+We have four funtions $U \to \mathbb{R}/\mathbb{Z}$ which we may realize as the [[fiber integration]] of a 3-form $H$ on $U \times (\partial \Delta[4] \setminus \delta_i \Delta[3])$,
+and we have a lift to $(A,B,C, H)$-data on $U \times (\partial \Delta[4]\setminus \delta_i(\Delta[3]))$ (the boundary of the 4-simplex minus one of its 3-simplex faces). 
+
+We observe that we can 
+
+* always extend $H$ smoothly to the remaining 3-face such that its [[fiber integration]] there reproduces the signed difference of the four given functions corresponding to the other faces (choose any smooth 3-form with sitting instants and with non-vanishing integral and rescale smoothly);
+
+* fill the $A$-data horizonatlly due to the fact that $\pi_2 (Spin) = 0$. 
+
+* the $C$-form is already horizontal, hence already filled. 
+
+Moreover, by the fact that the 2-form $B$ already is defined on all of $\partial \Delta[4] \setminus \delta_i(\Delta[3])$ its fiber integral over the boundary $\partial \Delta[3]$ coincides with the fiber integral of $H - CS(A) - C$ over $\partial Delta[4] \setminus \delta_i (\Delta[3])$). But by the fact that we have lifted $H$ and the fact that $\mu(A_{vert}) = CS(A)|_{\Delta^3}$ is an integral cocycle, it follows that this equals the fiber integral of $H - CS(A)$ over the remaining face.
+
+Use then as above the vertical Poincare lemma-formula to find $\tilde B$ on $U \times \Delta^3$ with sitting instants that satisfies the equation $d B = H - CS(A) - C$ there. Then extend the closed difference $B - \tilde B|_{0}$ to a closed smooth 2-form on $\Delta^3$. As before, the difference
+
+$$
+  \hat B := \tilde B  + \lambda
+$$
+
+is an extension of $B$ that constitutes a lift.
 
 =--
 
