@@ -20,6 +20,7 @@
 
 A [[vector bundle]] over a [[Riemann surface]] is called _stable_ (resp. _semistable_) if the ratio of its degree and its [[rank]] is bigger (resp. bigger or equal) than this ratio for any of its subbundles. 
 
+This means that it is a [[stable point]] under the action of [[automorphisms]].
 
 ## Properties
 
