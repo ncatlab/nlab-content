@@ -192,15 +192,84 @@ and the
 
 
 #### Characterization as Hodge-trivial Deligne cohomology
+ {#CharacterizationAsHodgeTrivialDeligneCohomology}
 
-A theorem due to [[Pierre Deligne]] says that this $J^k(\Sigma)$ is characterised as being the [[fiber]] of a canonical map from ([[complex analytic geometry|complex analytic]]) [[Deligne cohomology]] to the $k$th [[Hodge filtration]] of [[integral cohomology]]: we have a [[short exact sequence]]
+A theorem due to [[Pierre Deligne]] says that this $J^k(\Sigma)$ is characterised as being the [[fiber]] of a canonical map from ([[complex analytic geometry|complex analytic]]) [[Deligne cohomology]] to the $k$th [[Hodge filtration]] of [[integral cohomology]]. 
+
+
++-- {: .num_defn #HodgeCohomologyClasses}
+###### Definition
+
+The group $Hdg^{k+1}(\Sigma)$ of _Hodge cohomology classes_ is the subgroup of $\mathbb{Z}(k+1)$-cohomology classes whose image in complex cohomology is in the $(k+1)$st stage of the [[Hodge filtration]], hence the group sitting in a [[pullback]] diagram
 
 $$
-  0 \to J^k(\Sigma)\to H^{2k}(\Sigma, \mathbb{Z}(k)_{D}) \to Hdg^k(\Sigma) \to 0
+  \array{
+     Hdg^{k+1}(\Sigma) 
+       &\longrightarrow& 
+     F^{k+1} H^{2k+2}(\Sigma,\mathbb{C})
+     \\
+     \downarrow && \downarrow
+     \\
+     H^{2k+2}(\Sigma,\mathbb{Z}(k+1))
+       &\longrightarrow&
+     H^{2k+2}(\Sigma,\mathbb{C})
+  }
   \,.
 $$
 
+=--
+
+The following says this in a [[complex analytic geometry|complex analytic]]-way that generalizes:
+
++-- {: .num_prop}
+###### Proposition
+
+Equivalently the Hodge cohomology classes of def. \ref{HodgeCohomologyClasses} are given by the [[pullback]]
+
+$$
+  \array{
+     Hdg^{k+1}(\Sigma) 
+       &\longrightarrow& 
+     H^{2k+2}(\Sigma, (0 \to \Omega^{k+1} \stackrel{\partial}{\to} \cdots))
+     \\
+     \downarrow && \downarrow
+     \\
+     H^{2k+2}(\Sigma,\mathbb{Z}(k+1))
+       &\longrightarrow&
+     H^{2k+2}(\Sigma,\mathbb{C})
+  }
+  \,,
+$$
+
+where now in the top right we have the [[abelian sheaf cohomology|abelian sheaf]] [[hypercohomology]] with [[coefficients]] in the [[holomorphic differential form]] [[de Rham complex]], truncated as indicated.
+
+=--
+
+([Esnault-Viehweg 88, section 7.8](#EsnaultViehweg88))
+
++-- {: .num_theorem}
+###### Theorem
+**(Deligne)**
+
+As an [[abelian group]] the intermediate Jacobian $J^k(\Sigma)$, def. \ref{PlainIJacobian}, is characterized by fitting into the [[short exact sequence]]
+
+$$
+  0 \to J^{k+1}(\Sigma)\to H^{2k+2}(\Sigma, \mathbb{Z}(k+1)_{D}) \to Hdg^{k+1}(\Sigma) \to 0
+  \,.
+$$
+
+=--
+
 This statement appears as ([Esnault-Viehweg 88, (7.9)](#EsnaultViehweg88)) with the arguments going into it appearing on p.55, 57 there.
+
+
++-- {: .proof}
+###### Proof
+
+Use prop. \ref{ReplacingHodgeFiltrationQuotientByHolomorphicConnections} and the [characteristic long exact sequences](ordinary%20differential%20cohomology#CurvatureAndCharClass) of [[ordinary differential cohomology]].
+
+=--
+
 
 
 #### The Griffith complex structure
