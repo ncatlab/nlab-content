@@ -246,7 +246,7 @@ By the [[universal property]], the rigidification is exactly $Pic_X$, so in this
 
 ## References
 
-* [[Dan Abramovich]], Alessio Corti, and [[Angelo Vistoli]] <a href="http://arxiv.org/abs/math/0106211">Twisted Bundles and Admissible Covers</a>
+* [[Dan Abramovich]], Alessio Corti, and [[Angelo Vistoli]], _Twisted Bundles and Admissible Covers_ ([arXiv:0106211](http://arxiv.org/abs/math/0106211))
  {#ACV}
 
 * Matthieu Romagny. <a href="http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.mmj/1114021093">Group Actions on Stacks and Applications</a>
