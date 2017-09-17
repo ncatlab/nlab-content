@@ -94,6 +94,10 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 ## Related concepts
 
+* [[duality in string theory]]
+
+  * [[T-duality]], [[S-duality]], [[U-duality]]
+
 [[!include table of branes]]
 
 ## References
