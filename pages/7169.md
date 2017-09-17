@@ -41,4 +41,9 @@ $$
 
 For the case that the cohomology in question is [[ordinary differential cohomology]], the [[diagonal]] of the intersection pairing is the [[action functional]] of abelian [[higher dimensional Chern-Simons theory]].
 
+## Related concepts
+
+[[!include quadratic invariants - table]]
+
+
 [[!redirects intersection pairings]]
