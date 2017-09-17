@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -32,6 +32,8 @@ In the [[internal logic]] of a [[category]], [[type]]s are given by [[object]]s 
 
 We think of $T$ as the analogue of the "set" of possible values of variables $t$ and of $\phi$ as being the subset on those $t$ for which the statement $\phi(t)$ is [[true]].
 
+
+[[!redirects predicate]]
 [[!redirects predicates]]
 [[!redirects proposition]]
 [[!redirects propositions]]
