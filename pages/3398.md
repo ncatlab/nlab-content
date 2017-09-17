@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include infinity-limits - contents]]
 </div>
@@ -37,7 +36,7 @@ Let $I$ be the [[discrete category]] $\mathbf{2}$, so that $J$ picks out two obj
 A functor that preserves all small limits in $C$ that exist is called a __[[continuous functor]]__.  Usually this term is only used when $C$ has all small limits, i.e. is a [[complete category]].
 
 
-## Preserveration of weighted limits
+## Preservation of weighted limits
 
 Analogously, an [[enriched functor]] between [[enriched categories]] may preserve [[weighted limits]].  Are there any tricky points that we should mention?
 
