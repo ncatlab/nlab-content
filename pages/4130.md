@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -43,14 +54,17 @@ The simplicial complex which is the 2-simplex has as its poset of simplices the 
 We can now define the barycentric subdivision of a [[simplicial set]] as follows.  [Recall](/nlab/show/simplicial+complex#vsSSet) that we can make any simplicial complex into a simplicial set.  If we do this for the standard $n$-simplex, which as a simplicial complex is the set $([n],P([n])$ for $[n] = \{0,1,\dots,n\}$, then we get the standard $n$-simplex simplicial set $\Delta^n$.  We can then define the subdivision of $\Delta^n$, as a simplicial set, to be the simplicial set corresponding to its simplicial-complex subdivision.  Finally, we can make this functorial on maps between standard simplices, and left [[Kan extension|Kan extend]] to a [[cocontinuous functor|cocontinuous]] endofunctor of $SSet$.
 
 
-
-
 ## Applications
 
 By construction (or the [[adjoint functor theorem]]), the subdivision functor $Sd$ on simplicial sets has a [[right adjoint]], called $Ex$.  A countably infinite iteration of $Ex$, called $Ex^\infty$, can be used to construct [[Kan fibrant replacement]]s in the [[model structure on simplicial sets]].
 
 This functorial subdivision corresponds to the classical [[barycentric subdivision]].  Other [[classical triangulation|classical subdivision]]s that are frequently encountered include the middle edge subdivision.  This latter is closely related to the [[ordinal subdivision]] of simplicial sets.
 
+## Properties
+
+### Relation to category of simplices
+
+The subdivision f a simplicial set is equivalently given by the [[full subcategory]] of its [[category of simplices]] on the non-degenerate simplices. The inclusion is a [[homotopy cofibal funcotr]] (see there for details).
 
 [[!redirects subdivisions]]
 [[!redirects barycentric subdivision]]
