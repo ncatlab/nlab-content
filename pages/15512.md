@@ -1,3 +1,3 @@
-Shasha menunduk. Mimi menoleh sekilas ke arah Shasha. Lengan Shasha ditamparnya.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1719" >Jordan 3.5 gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1719]Jordan 3.5 gold[/url]
+Ain menarik muncung Donald Ducknya.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=60" >Nike Air Structure Triax 91 gold sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=60]Nike Air Structure Triax 91 gold sale[/url]
