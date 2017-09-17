@@ -1,0 +1,61 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $A$ a [[von Neumann algebra]] write $A'$ for its [[commutant]] in the ambient algebra $B(\mathcal{H})$ of [[bounded operator]]s.
+
++-- {: .un_defn}
+###### Definition
+
+A von Neumann algebra $A$ is called a **factor** if its [[center]] is trivial
+
+$$
+  Z(A) := A \cap A' = \mathbb{C}1
+  \,.
+$$
+
+Equivalently: if $A$ and $A'$ generate $B(\mathcal{H})$.
+
+=--
+
+Every von Neumann algebra may be written as a direct integral over factors. 
+
+
+## Classification
+
+
+### Type I
+
+### Type II
+
+### Type III
+
+
+
+## References
+
+The original sources are
+
+* Murray, [[John von Neumann]], ...
+
+* [[Alain Connes]], ...
+
+Lecture notes include
+
+* V.S. Sunder, _von Neumann algebras, $II_1$-factors, and their subfactors_ ([pdf](http://www.math.iitb.ac.in/seminar/archives/sunder_iitb3.pdf))
+
+
+[[!redirects von Neumann algebra factors]]
