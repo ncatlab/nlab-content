@@ -248,6 +248,12 @@ For more on this see
 * [[quantum mechanics in terms of †-compact categories]].
 
 
+## Examples
+
+* [[harmonic oscillator]]
+
+* [[quantum lattice system]]
+
 ## Related concepts
 
 * [[classical mechanics]]
