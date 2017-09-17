@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
 This entry is about the text 
 
 * [[Jacob Lurie]], _Derived Algebraic Geometry I: Stable $\infty$-Categories_, ([arXiv](http://www.arXiv.org/abs/math.CT/0608228), [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf))
