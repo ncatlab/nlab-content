@@ -1,2 +1,2 @@
-Nike
- <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso123.html" title="BIRKENSTOCK">BIRKENSTOCK</a>
+There are many fashion brands that are outrageously popular throughout the global community. These top fashion brands are a desire of all the new kids on the block in the contemporary-era. The generations of yore were not as much infatuated with branded merchandise as the present one. The present generation is of the view that in order to look trendy and fashionable they have to stud themselves with      the labels of top clothing brands.
+ <a href="http://www.quantifyingoutsourcingbenefits.com/uggaustraliasales.asp?cheap=products-c53.html" title="UGG Kids&amp;Baby">UGG Kids&amp;Baby</a>
