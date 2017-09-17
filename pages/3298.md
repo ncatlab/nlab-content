@@ -1801,6 +1801,8 @@ The next statement is known as the [[Deligne conjecture]].
 ###### Remark
 **(Deligne conjecture)**
 
+Some historical comments on the [[Deligne conjecture]].
+ 
 Historically it was first found that there is the structure of a [[Gerstenhaber algebra]] on $HH^\bullet(A,A)$.  By ([Cohen](#Cohen)) it was known that Gerstenhaber algebras arise as the [[homology]] of [[E2-algebra]]s in [[chain complex]]s. In a letter in 1993 Deligne wondered whether the Gerstenhaber structure on the Hochschild cohomology $HH^\bullet(A,A)$ lifts to an [[E2-algebra]]-structure on the cochain complex $C^\bullet(A,A)$.
 
 In [GerstenhaberVoronov (1994)](#GerstenhaberVoronov) a resolution of the Gerstenhaber algebra structure was given, but the relationship to $E_2$-algebras remaind unclear.
