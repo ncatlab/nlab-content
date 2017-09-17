@@ -3,11 +3,17 @@
 
 * [[stable homotopy theory]]
 
+* [[proper homotopy theory]]
+
 ## Definitions
 
 * [[homotopy]]
 
 * [[homotopy group]]
+
+* [[Pi-algebra]]
+
+* [[spherical object and Pi(A)-algebra]]
 
 * * [[homotopy coherent category theory]]
 
@@ -26,6 +32,8 @@
 * [[(∞,1)-category]]
 
   * [[homotopy category of an (∞,1)-category]]
+
+* [[Brown Grossman homotopy group]]
 
 ## Paths and cylinders ##
 
@@ -58,5 +66,7 @@
 * [[homotopy hypothesis]]-theorem
 
 * [[higher homotopy van Kampen theorem]]
+
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/homotopy+-+contents)</div>
