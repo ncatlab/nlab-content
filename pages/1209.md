@@ -64,11 +64,11 @@ There is also a more subtle notion also called Hopf monad in
 
 * R. Wisbauer, B. Mesablishvili, Bimonads and Hopf monads on categories, [arXiv:0710.1163](http://arxiv.org/abs/0710.1163)
 
-In some of these generalized cases, one does not have a good notion of of antipode, so that the difference between bimonoids and Hopf monoids has to be stated in different terms.  A similar case is in the case of [[Hopf algebroid]]s and bialgebroids where there are natural general notions not involving antipodes:
+In some of these generalized cases, one does not have a good notion of of antipode, so that the difference between bimonoids and Hopf monoids has to be stated in different terms.  A similar case is in the case of [[Hopf algebroid]]s over a noncommutative base:
 
 * [[Brian Day]], [[Ross Street]], _Monoidal bicategories and Hopf algebroids_, Advances in Mathematics, 129, 1 (1997) 99--157 
 
-* [[Gabi Böhm]], _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math., 239, Dekker, New York, 2005; [math.QA/0301169](http://arxiv.org/abs/math.QA/0301169)
+* [[Gabi Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806); _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math., 239, Dekker, New York, 2005; [math.QA/0301169](http://arxiv.org/abs/math.QA/0301169)
 
 
 [[!redirects bimonoid]]
