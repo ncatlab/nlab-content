@@ -32,3 +32,5 @@ The theory of [[2-topos]]es, generalizing [[topos theory]] from [[category theor
 ## References
 
 The analog of the [[Elephant]] for 2-topos theory still needs to be written.
+
+For some speculations and further references, see [[michaelshulman:2-categorical logic|this page]].
