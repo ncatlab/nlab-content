@@ -1,0 +1,12 @@
+
+## Related concepts
+
+[[!include special holonomy table]]
+
+
+## References
+
+(...)
+
+[[!redirects Spin(7) manifold]]
+
