@@ -24,6 +24,7 @@ A bisimplicial set is a [[bisimplicial object]] in [[Set]].
 ## Properties
 
 ### Diagonal
+ {#Diagonal}
 
 +-- {: .num_defn }
 ###### Definition
@@ -67,15 +68,10 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
-
-* Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
+This is for instance exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) [Goerss-Jardine](#GoerssJardine). For a derivation see the examples at _[[homotopy colimit]]_.
 
 
-=--
 
 +-- {: .num_prop }
 ###### Proposition
