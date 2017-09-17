@@ -1008,7 +1008,7 @@ both specific ones as well as classes of examples constructed in a certan way.
 
 Let $\mathbf{H}$ be an cohesive $(\infty,1)$-topos.
 
-Let $D$ be a small [[diagram]] [[(∞,1)-category]] with [[initial object in an (∞,1)-category|initial object]] $\bottom$ and [[terminal object in an (∞,1)-category|terminal object]] $\top$. Write
+Let $D$ be a small [[diagram]] [[category]] with [[initial object]] $\bottom$ and [[terminal object]] $\top$. Write
 
 $$
   (\bottom \dashv p \dashv \top)
@@ -1017,7 +1017,7 @@ $$
   *
 $$
 
-for the triple of [[adjoint (∞,1)-functors]] given by including $\bottom$ and $\top$.
+for the [[adjoint triple]] given by including $\bottom$ and $\top$.
 
 Then the [[(∞,1)-category of (∞,1)-functors|(∞,1)-functor category]] $\mathbf{H}^D$ is again a cohesive $(\infty,1)$-topos, the [[adjoint quadruple]] being the composite
 
@@ -1027,8 +1027,10 @@ $$
   \mathbf{H}
    \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\hookleftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\hookleftarrow}}}}
   \infty Grpd
-  \,.
+  \,,
 $$
+
+where the [[adjoint quadruple]] on the left is that induced under [[(∞,1)-Kan extension]] from $(\bottom \dashv p \dashv \top)$.
 
 =--
 
