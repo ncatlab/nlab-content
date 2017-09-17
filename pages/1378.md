@@ -140,6 +140,11 @@ The "higher algebra" embodied by [[commutative ring spectrum|commutative ring sp
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
+  * _[[Commutative Algebra]]_
+
+  * _[[Noncommutative Algebra]]_
+
+  * _[[Deformation Theory]]_
 
 See also 
 
