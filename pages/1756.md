@@ -9,7 +9,7 @@
 
 ## Idea
 
-Quillen adjunctions are one convenient notion of morphism between [[model category|model categories]].  They present [[adjoint (∞,1)-functor]] between the [[(∞,1)-category|(∞,1)-categories]] [[presentable (infinity,1)-category|presented]] by the model categories.
+Quillen adjunctions are one convenient notion of morphism between [[model category|model categories]].  They present [[adjoint (∞,1)-functor]]s between the [[(∞,1)-category|(∞,1)-categories]] [[presentable (infinity,1)-category|presented]] by the model categories.
 
 
 ## Definition 
@@ -17,7 +17,7 @@ Quillen adjunctions are one convenient notion of morphism between [[model catego
 For $C$ and $D$ two [[model category|model categories]], a pair $(L,R)$
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\overset{R}{\to}}
+  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
   D
 $$
 
@@ -74,7 +74,7 @@ Of particzular interest are [[SSet]]-[[enriched category theory|enriched]] adjun
 Let $C$ and $D$ be [[simplicial model categories]] and let 
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\overset{R}{\to}} D 
+  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D 
 $$
 
 be an [[sSet]]-[[enriched category theory|enriched]] [[adjunction]] whose underlying ordinary adjunction is a Quillen adjunction. Let $C^\circ$ and $D^\circ$ be the [[(∞,1)-categories]] presented by $C$ and $D$ (the [[Kan complex]]-enriched full [[sSet]]-subcategories on fibrant-cofibrant objects). Then the Quillen adjunction lifts to a pair of [[adjoint (∞,1)-functor]]s 
@@ -104,7 +104,7 @@ The following proposition states conditions undeer which a Quillen adjunction ma
 The underlying [[adjunction]] of an [[SSet]]-[[enriched category theory|enriched]]-[[adjunction]] 
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\overset{R}{\to}}
+  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
   D
 $$
 
