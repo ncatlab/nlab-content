@@ -15,6 +15,8 @@ Nothing here yet. But we have:
 
 ## Related concepts
 
+* [[symbol of a differential operator]]
+
 * [[index of a differential operator]]
 
 * [[D-module]]
