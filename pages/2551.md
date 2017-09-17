@@ -1,10 +1,17 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
 [[!include homotopy - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Homotopy localisation#
 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -13,16 +20,10 @@
 Given a [[site]] $C$ equipped with an [[interval object]] ${*}\amalg {*} \stackrel{[i_0, i_1]}{\to}I$ the **homotopy localization** of an [[(∞,1)-category of (∞,1)-sheaves]] $Sh_\infty(C)$ on $C$ is the [[localization of an (∞,1)-category|(∞,1)-categorical localization]] of $Sh_\infty(C)$ at the morphisms of the form
 
 $$
-  X \stackrel{Id \times i_0}{\to} X \times I
+  X \times I \to X
   \,.
 $$
 
-+--{: .query}
-[[David Roberts]]: From what I understand of the work on $A^1$ homotopy, the localisation is of morphisms of the form $X \times I \to X$.
-
-[[Urs Schreiber]]: but should that make a difference?
-
-=--
 
 
 ##Examples
