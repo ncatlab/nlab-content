@@ -8,11 +8,11 @@ This page means to provide non-technical motivation for the notion of _[[cohesio
 
 ## Motivation
 
-A notion of _[[cohesion]]_ on a collection $\mathbf{H}$ of [[spaces]] is supposed to be a means to specify how [[points]] in any space $X \in \mathbf{H}$ "hang together" or "cohere", analogous to how water molecuses in a droplet of whater are held together by [cohesion (in the sens of chemistry)](http://en.wikipedia.org/wiki/Cohesion_%28chemistry%29). 
+A notion of _[[cohesion]]_ on a collection $\mathbf{H}$ of [[spaces]] is supposed to be a means to specify how [[points]] in any space $X \in \mathbf{H}$ "hang together" or "cohere", analogous to how water molecules in a droplet of water are held together by [cohesion (in the sens of chemistry)](http://en.wikipedia.org/wiki/Cohesion_%28chemistry%29). 
 
 A basic example arises for [[topological spaces]] or [[manifolds]]: here the "droplet of water" is an _[[open ball]]_ of points. Indeed, one of the central examples of cohesive spaces is that of [[smooth spaces]] and these are spaces characterized by the fact that they can be _probed_ by smooth open balls (in the sense described at _[[motivation for sheaves, cohomology and higher stacks]]_), such that these smooth open balls are the _basic_ "cohesive droplets" out of which any smooth space is built (this roughly in the sense of [[topological base|basis of a topology]], but a bit more generally than that).
 
-That intuition should be evident enough. The question is which formal axioms capture this droplet-intuition accurately and efficiently. The crucial insight of [[Bill Lawvere]] (see the references at _[[cohesive topos]]_) was that a rather minmalistic set of axioms already does the job:
+That intuition should be evident enough. The question is which formal axioms capture this droplet-intuition accurately and efficiently. The crucial insight of [[Bill Lawvere]] (see the references at _[[cohesive topos]]_) was that a rather minimalistic set of axioms already does the job:
 
 1. there has to be an assignment $\Pi : \mathbf{H} \to Set$ that sends every cohesive space $X$ to its _set of cohesively [[connected components]]_. For instance a single open ball as above, a basic droplet, is sent to the set $\{*\}$ with a single element.
 
@@ -22,7 +22,7 @@ That intuition should be evident enough. The question is which formal axioms cap
 
     * or, at the opposite extreme, we regard all the elements in $S$ as being cohesively connected, hence regard all of $S$ itself as one single big cohesive droplet. We write $coDisc(X)$ for $S$ regarded as a cohesive space this way, because in the context of [[Euclidean-topological infinity-groupoid|topological cohesion]] this is the [[codiscrete space]] on the given set.
 
-1. The collection of discrete and codiscrete cohesive spaces should sit nicely inside the collection of all cohesive spaces, essentially in just the obvious way that one intuitivey expects. For instance cohesive maps between two discretely cohesive spaces should be simply maps between the underlying sets, and so on.
+1. The collection of discrete and codiscrete cohesive spaces should sit nicely inside the collection of all cohesive spaces, essentially in just the obvious way that one intuitively expects. For instance cohesive maps between two discretely cohesive spaces should be simply maps between the underlying sets, and so on.
 
    In particular the notion of "discrete" exhibited by the collection of discrete objects has indeed to be compatible with the notion of "cohesive" as seen by that map $\Pi$ above. This is just the evident consistency condition: for instance if $Disc(S)$ is a set regarded as a discrete cohesive space, then $\Pi(Disc(S))$, which is supposed to be its set of cohesively connected points, should be just $S$ itself, since no point in $Disc(S)$ is supposed to be cohesively connected to any other.  
 
