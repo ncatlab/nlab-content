@@ -1,4 +1,11 @@
-#Idea#
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
 
 A _directed space_ is a [[topological space]] $X$ in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead these $k$-dimensional _paths_ may have a _direction_ .
 
@@ -37,7 +44,7 @@ By the way, if there are different notions of directed space, then we can move t
 
 
 
-## homotopy-theoretic perspective
+### Homotopy-theoretic perspective
 
 From a [[homotopy theory|homotopy theoretic]] perspective one would wish that notions of directed spaces serve to generalize the [[homotopy hypothesis]] -- which identifies ordinary (undirected) [[topological space]]s with [[∞-groupoid]]s, i.e. with [[(∞,0)-category|(∞,0)-categories]] -- to a more general context where [[(∞,0)-category|(∞,0)-categories]] are generalized to [[(∞,n)-category|(∞,r)-categories]] with $r \gt 0$: 
 
@@ -57,7 +64,7 @@ See [[(n,r)-category]] for more on that.
 
 
 
-#Definition#
+## Definition
 
 A **directed topological space** or **d-space** is pair $(X, d X)$ consisting of a [[topological space]] $X$ and a subset $d X \subset C([0,1],X)$ of continuous maps from the interval into $X$ -- called _directed paths_ or d-paths -- satisfying the following conditions:
 
@@ -79,7 +86,7 @@ A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a 
 
 * Any [[pospace]] $X$ gives rise to a directed space by taking the directed paths to be, well, directed paths, i.e. continuous order-preserving maps from $I_d$ to $X$.
 
-#Remarks#
+## Remarks
 
 * If we can equip directed spaces with an internal hom, then a directed space with at least one directed path should be a strictly directed object in the category of directed spaces, with respect to the standard directed interval as the [[interval object]], while an ordinary topological space regarded as a directed space should be an [[undirected object]].
 
@@ -92,7 +99,7 @@ _Toby_: I don\'t think that you need internal homs and all that.  But see my edi
 
 =--
 
-#References#
+## References
 
 The above definition is from
 
@@ -111,7 +118,7 @@ Further references atre given in [[directed homotopy theory]].
 
 
 
-#Discussion#
+## Discussion
 
 * See also the discussion at the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=84).
 
