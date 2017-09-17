@@ -1,0 +1,29 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A space of [[sections]] is like a [[mapping space]], but relative to a base. 
+
+## Related concepts
+
+* [[dependent product]]
+
+* [[twisted cohomology]]
+
+[[!redirects spaces of sections]]
