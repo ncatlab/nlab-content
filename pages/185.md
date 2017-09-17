@@ -17,7 +17,7 @@
 
 ## Idea
 
-A **smooth algebra** or **$C^\infty$-ring** is an [[algebra]] $A$ over the reals $\mathbb{R}$ for which not only the product operation $\cdot : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ lifts to the algebra product $A \times A \to A$, but for which _every smooth map_ $f : \mathbb{R}^n \to \mathbb{R}^m$ ([[morphism]] in [[Diff]]) lifts to a smooth map $A(f) : A^n \to A^m$ in a compatible way. 
+A **smooth algebra** or **$C^\infty$-ring** is an [[algebra]] $A$ over the reals $\mathbb{R}$ for which not only the product operation $\cdot : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ lifts to the algebra product $A \times A \to A$, but for which _every smooth map_ $f : \mathbb{R}^n \to \mathbb{R}^m$ ([[morphism]] in [[Diff]]) lifts to a map $A(f) : A^n \to A^m$ in a compatible way. 
 
 In short this means that $A$ is 
 
