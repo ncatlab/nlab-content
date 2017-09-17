@@ -27,7 +27,7 @@ This entry is about the article
 
   in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010)
 
-  ([arXiv](http://arxiv.org/abs/0905.0731))
+  ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
 
 on a 
 
