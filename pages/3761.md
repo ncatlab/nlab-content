@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 
@@ -50,7 +50,11 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 * [[monoidal category]]
 
-* **monoidal bicategory**
+* **monoidal 2-category**
+
+  * [[sylleptic monoidal 2-category]], [[symmetric monoidal 2-category]]
+
+  * [[3-group]]
 
 * [[monoidal (∞,1)-category]]
 
@@ -91,3 +95,5 @@ Slightly different definitions of these various structures can be found in the f
 [[!redirects braided monoidal bicategories]]
 [[!redirects sylleptic monoidal bicategories]]
 [[!redirects symmetric monoidal bicategories]]
+
+[[!redirects monoidal 2-category]]
