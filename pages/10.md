@@ -6,11 +6,17 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Yoneda lemma
++--{: .hide}
+[[!include Yoneda lemma - contents]]
+=--
 =--
 =--
 
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## The idea 
@@ -453,6 +459,17 @@ $$
 $$
 
 we should expect there to be a topos analog of the total space, $E G$, for the classifying space. This analog is the *generic G-torsor*, which is an internal $G$-torsor in the topos $Set^G$.  The important aspect of the space $E G$ is that as a principal $G$-bundle over $\mathcal{B} G$, it is a *universal element*, i.e. the natural transformation $Hom(X, \mathcal{B}G) \to G Bdl(X)$ that it induces (by the [[Yoneda lemma]]) is the isomorphism which exhibits $\mathcal{B}G$ as the object representing the functor $X \mapsto G Bdl(X)$.  For the same Yoneda reasons, the classifying topos $Sh(C_T)$ of any geometric theory $T$ comes with a *generic $T$-model*, which is a $T$-model in $Sh(C_T)$ which represents the functor $E \mapsto T Mod(E)$ in the same way.  For $T$ = the theory of $G$-torsors, this generic model is the generic $G$-torsor.
+
+## Related concepts
+
+* [[representable functor]]
+
+* [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+* [[universal principal bundle]], [[universal principal infinity-bundle]]
+
+* [[classifying morphism]]
+
 
 
 ## References ##
