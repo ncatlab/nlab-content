@@ -14,6 +14,20 @@
 =--
 =--
 
+* [[∞-Lie algebroid valued differential forms]]
+
+* [[connection on an ∞-bundle]]
+
+* [[curvature]]
+
+* **Bianchi identity**
+
+* [[curvature characteristic form]]
+
+* [[Chern-Simons form]]
+
+***
+
 
 #Contents#
 * automatic table of contents goes here
@@ -25,7 +39,8 @@ The _Bianchi identity_ is a [[differential equation]] satisfied by [[curvature]]
 
 It can be thought of as generalizing the equation $d (d A) = 0$ for a real-valued [[differential form|1-form]] $A$ to higher degree and nonabelian forms. 
 
-Generally it applies to [[schreiber:∞-Lie algebroid valued differential forms]].
+
+Generally it applies to the [[curvature]] of [[∞-Lie algebroid valued differential forms]].
 
 ## Definition
 
@@ -114,13 +129,38 @@ This is the Bianchi identity.
 
 ### For curvature of $\infty$-Lie algebra valued forms.
 
-Let now $\mathfrak{g}$ be an arbitrary [[L-∞-algebra]] and $W(\mathfrak{g})$ is [[Weil algebra]]. Then a collection of $\mathfrak{g}$-valued differential forms is a [[dg-algebra]] morphism
+Let now $\mathfrak{g}$ be an arbitrary [[∞-Lie-algebra]] and $W(\mathfrak{g})$ its [[Weil algebra]]. Then a collection of [[∞-Lie algebra valued differential forms]] is a [[dg-algebra]] morphism
 
 $$
-  \Omega^\bullet(U) \leftarrow W(\mathfrak{g})   
+  \Omega^\bullet(U) \leftarrow W(\mathfrak{g}) : A  
   ,.
 $$
 
-As before, this is fixed by its value on the unshifted generators of $W(\mathfrak{g})$, and this defines the $\mathfrak{g}$-valued connection forms. The image of the shifted generators are the corresponding [[curvature]] forms. The respect for the differential in $W(\mathfrak{g})$ of these is their Bianchi identity.
+It [[curvature]] is the composite of morphism of [[graded vector space]]
 
-For the moment see: [[schreiber:curvature of ∞-Lie algebroid valued differential forms]].
+$$
+  \Omega^\bullet(U)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{F_{(-)}}{\leftarrow}
+  \mathfrak{g}^*[1]
+  :
+  F_A
+  \,.
+$$
+
+Since $A$ is a [[homomorphism]] of [[dg-algebra]]s, this satisfies
+
+$$
+  d_{dR} F_A  + A(d_{W(\mathfrak{g})}(-)) = 0
+  \,.
+$$
+
+This identity is the **Bianchi identity for $\infty$-Lie algebra valued forms**.
+
+## References
+
+The Bianchi identity for [[∞-Lie algebroid valued differential forms]] is discussed in 
+
+* SSSI, (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+
