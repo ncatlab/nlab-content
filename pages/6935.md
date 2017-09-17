@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
