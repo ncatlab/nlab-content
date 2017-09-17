@@ -1,0 +1,42 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[stack]] $\mathcal{S}$ over a [[site]] $\mathcal{C}$. One often wants to rigidify (kill off a flat subgroup of the [[inertia orbifold|inertia]]) in order to realize the stack as a [[gerbe]] over an [[algebraic space]].
+
+### Definition
+
+Let $X$ be a [[scheme]]. Let $\mathcal{S}\to X$ be an [[algebraic stack]] fibered in groupoids over $X$. Let $H$ be a finitely presented, [[separated morphism|separated]], [[group scheme]] over $X$ such that for each $\xi\in\mathcal{S}(T)$ there is an embedding $H(T)\to Aut_T(\xi)$ compatible with pullback.
+
+In other words, $H$ is a [[substack]] of the [[inertia orbifold|inertia]] $\mathcal{I}$. It follows that $H$ must be [[abelian group|abelian]] (because $H(T)$ lies in the center of $Aut_T(\xi)$). The condition on $H$ is trivially satisfied whenever $\mathcal{S}$ is banded by $H$.
+
+Define the $H$-rigidification of $\mathcal{S}$ to be $\mathcal{S}^H$. 
+
+Theorem ([A-C-V, 5.1.5]): The space $\mathcal{S}^H$ exists such that there is a [[formally smooth morphism|smooth]] surjective finitely presented morphism of stacks $\mathcal{S}\to \mathcal{S}^H$ satisfying the following:
+
+1. For any $\xi\in \mathcal{S}(T)$ with image $\eta\in \mathcal{S}^H(T)$, we have $H(T)$ lies in the kernel of $Aut_T(\xi)\to Aut_T(\eta)$.
+2. The map $\mathcal{S}\to \mathcal{S}^H$ is universal with respect to stack morphisms satisfying (1).
+3. If $T$ is the spectrum of an algebraically closed field, then $Aut_T(\eta)=Aut_T(\xi)/H(T)$.
+4. A moduli space for $\mathcal{S}$ is also a moduli space for $\mathcal{S}^H$.
+
+and if $\mathcal{S}$ is a [[Deligne-Mumford stack]], then $\mathcal{S}^H$ is also a Deligne-Mumford stack and $\mathcal{S}\to \mathcal{S}^H$ is [[formally etale morphism|etale]].
+
+
+
+## Examples
+
+The standard example is the $\mathbb{G}_m$-rigidification of the [[Picard scheme|Picard stack]]. Suppose $X/k$ is an irreducible [[variety]] over a [[field]]. One can say that the failure of the Picard stack, $\mathcal{Pic}_X$ to be representable comes from the fact that objects in fiber categories have automorphisms by the multiplicative group, so we would like to kill this group.
+
+As pointed out in [[Picard scheme]], the relative Picard scheme is the [[sheafification]] of $\mathcal{Pic}_X$ and [[representable]]. Moreover $\mathcal{Pic}_X\to Pic_X$ is a $\mathbb{G}_m$-gerbe, so $\mathbb{G}_m$ satisfies the conditions to rigidify. 
+
+By the universal property, the rigidification is exactly $Pic_X$, so in this case we see that the sheafification and the rigidification by the inertia are the same.
+
+
+## References
+
+* Dan Abramovich, Alessio Corti, and Angelo Visotli. <a href="http://arxiv.org/abs/math/0106211">Twisted Bundles and Admissible Covers</a>
+ {#ACV}
+
+* Matthieu Romagny. <a href="http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.mmj/1114021093">Group Actions on Stacks and Applications</a>
