@@ -1,0 +1,22 @@
+
+## Contents
+* table of contents
+{:toc}
+
+## Idea
+
+Serre duality in [[complex analytic geometry]] is the duality induced by the [[Hodge star operator]] on the [[Dolbeault complex]]. This generalizes to suitable non-singular [[projective algebraic varieties]].
+
+## Related concepts
+
+* [[Poincaré duality]]
+
+## References
+
+* Wikipedia, _[Serre duality](http://en.wikipedia.org/wiki/Serre_duality)_
+
+
+In [[complex analytic geometry]]: 
+
+* {#Huybrechts04} [[Daniel Huybrechts]] around prop. 4.1.15 of _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
+
