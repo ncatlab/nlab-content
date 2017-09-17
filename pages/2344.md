@@ -110,7 +110,7 @@ We now describe an "omnibus" theorem which is the main thing enabling us to comp
 For any functor $u\colon I\to J$ in $Dia$, we say it is a $D$-**equivalence** if the induced transformation $(\pi_I)_! (\pi_I)^* \to (\pi_J)_!(\pi_J)^*$ is an isomorphism, where $\pi_I\colon I\to *$ is the projection to the [[terminal category]], and similarly for $\pi_J$.  This means that homotopy colimits of *constant* diagrams of shapes $I$ and $J$ are equivalent.  By the [[Yoneda lemma]], this is equivalent to saying that
 $$ D(*)((\pi_J)_!(\pi_J)^* X , Y) \to D(*)((\pi_I)_!(\pi_I)^* X , Y)$$
 is an isomorphism for all $X,Y\in D(*)$, and by adjunction this is equivalent to saying that
-$$ D(*)((\pi_J)^* X , (\pi_J)^*Y) \to D(*)((\pi_I)^* X , (\pi_I)^*Y)$$
+$$ D(J)((\pi_J)^* X , (\pi_J)^*Y) \to D(I)((\pi_I)^* X , (\pi_I)^*Y)$$
 is an isomorphism---i.e. that $u^*$ is fully faithful when restricted to the image of $\pi_J^*$.  In particular, if $u^*$ is fully faithful, then $u$ is a $D$-equivalence.
 
 In a representable derivator (i.e. in ordinary category theory), the colimit of a constant diagram of shape $I$ is a [[copower]] with the set of connected components of $I$.  Thus, in a representable derivator, any functor that induces an isomorphism on sets of connected components will be a $D$-equivalence, and the converse is true as long as the category in question is not a [[preorder]].
