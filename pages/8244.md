@@ -23,14 +23,14 @@ Although there is an asymmetry in \eqref{Cstarfunctional} (in the relative place
 
 ## Justification
 
-If we take the formal dual of everything in the definition above, then $A$ becomes a [[Banach *-algebra]] and $\lambda\colon K \to A$ becomes (multiplication of scalars by) an element $x$ of $A$.  The formal dual of the composite \eqref{Cstarfunctional} is (multiplication of scalars by) the element $x^* x$.  The requirement that the norm of this be exactly the square of the norm of $x$ is the $C^*$-identity that defines a $C^*$-[[C-star-algebra|algebra]].
+If we take the formal dual of everything in the definition above, then $A$ becomes a [[Banach *-algebra]] and $\lambda\colon K \to A$ becomes (multiplication of scalars by) an element $x$ of $A$.  The formal dual of the composite \eqref{Cstarfunctional} is (multiplication of scalars by) the element $x^* x$.  The requirement that the norm of this be exactly the square of the norm of $x$ is the $B^*$-identity that defines a $C^*$-[[C-star-algebra|algebra]].
 
 So the definition of $C^*$-coalgebra dualises *everything* in the definition of $C^*$-algebra, down to using [[coelement]]s (in this case linear functionals) instead of [[elements]].
 
 
 ## Dual $W^*$-algebras
 
-In general, the [[dual in a closed category|dual]] of a [[coalgebra]] is an [[algebra]], in any [[closed monoidal category]].  In particular, the [[dual vector space|dual]] of a [[Banach coalgebra]] is a [[Banach algebra]].  The involution $*$ gets along with this just fine; the dual of a [[Banach *-coalgebra]] is a [[Banach *-algebra]].  Finally, the linear functional in \eqref{Cstarfunctional} becomes the element in the $C^*$-identity for the dual, so the dual of a $C^*$-coalgebra is a $C^*$-[[C-star-algebra|algebra]].
+In general, the [[dual in a closed category|dual]] of a [[coalgebra]] is an [[algebra]], in any [[closed monoidal category]].  In particular, the [[dual vector space|dual]] of a [[Banach coalgebra]] is a [[Banach algebra]].  The involution $*$ gets along with this just fine; the dual of a [[Banach *-coalgebra]] is a [[Banach *-algebra]].  Finally, the linear functional in \eqref{Cstarfunctional} becomes the element in the $B^*$-identity for the dual, so the dual of a $C^*$-coalgebra is a $C^*$-[[C-star-algebra|algebra]].
 
 But we have more!  If $A$ is a $C^*$-coalgebra, then (as we\'ve just seen) $A^*$ is a $C^*$-algebra; but since $A^*$ has a [[predual]] $A$, this means that $A^*$ is actually a $W^*$-[[W-star-algebra|algebra]] as well.
 
