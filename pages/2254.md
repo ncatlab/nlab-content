@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include formal geometry -- contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -73,9 +77,13 @@ For instance ([Lurie 10, lecture 12, corollary 3](#Lurie10)).
 
 * [[formal multiplicative group]]
 
-* [[Lubin-Tate formal group]]
+* [[Artin-Mazur formal group]] of an [[algebraic variety]],
 
-* [[Artin-Mazur formal group]]
+  * [[formal Picard group]],
+
+  * [[formal Brauer group]]
+
+* [[Lubin-Tate formal group]]
 
 * [[Honda formal group]]
 
