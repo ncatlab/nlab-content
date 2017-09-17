@@ -292,7 +292,7 @@ This is ([Lurie, theorem 2.4.26](#Lurie)).
 If in  def. \ref{CatOfCobordismsWithXIStructure} one chooses $X = B SO(n) \times Y$ for any topological space $Y$, and $\xi$ the [[pullback]] of the canonical vector bundle bundle on $B SO$ to $B SO \times Y$, then an $(\infty,n)$-functor $Bord^{X}_n \to C$ is similar to what Turaev calls an [[HQFT]] over $Y$.
 
 
-### For cobordisms with singuarities (boundaries/branes and defects/domain walls)
+### For cobordisms with singularities (boundaries/branes and defects/domain walls)
  {#ForCobordismsWithSingularities}
 
 There is a vast generalization of the plain $(\infty,n)$-category of cobordisms (with topological structure) considered above given by allowing the [[cobordisms]] to be equipped with various types of [[singularities]] ([Lurie 09, Definition Sketch 4.3.2](#Lurie)).
