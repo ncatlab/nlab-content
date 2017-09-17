@@ -1,9 +1,17 @@
+In this exposition we will follow the book listed below in writing crossed modules with operations on the right. Thus a [[crossed module]] is in the first instance a morphism $\mu: M \to  P$ of groups together with an operation the group $P$ on the right of the group $M$ written $(m,p) \mapsto
+m^p$, satisfying the following two axioms:  
 
-The notion of _free crossed module_ was developed by J.H.C. Whitehead in the period 1941-1949 to model algebraically the structure of the second relative homotopy group  
-of an adjunction space $\pi_2(A \cup \{e^2_\lambda\}_{\lambda \in \Lambda},A,x)$ considered as a crossed module over $\pi_1(A,x)$. 
+CM1) $ \mu (m^p)= p(\mu m)p^{-1}$; 
 
-It can also be considered as arising from the notion of a resolution for a group, by analogy with resolutions for modules, but in a nonabelian framework. So in combinatorial group theory 
-we consider a presentation $\cal P= \langle X \mid R \rangle$ of a group $G$. Thus $X$ is a set of generators of the group $G$ and $R$ is a set of relators, that is, $R$ is a subset of $F(X)$, the free group on the set $X$. So we have an  epimorphism $\phi: F(X) \to G$ with kernel $N$, say, a normal subgroup of $F(X)$, and $N$ is the normal closure of $R$ in $F(X)$. All this reflect the fact that if $\phi (u) =1$, where $u \in F(X)$, then 
+CM2) $mnm^{-1} = n^{\mu m} $; 
+
+for all $m,n \in M, p \in P$. 
+
+
+The notion of _free crossed module_ was developed by J.H.C. Whitehead in the period 1941-1949 to model algebraically the structure of the second relative homotopy group  of an adjunction space 
+$\pi_2(A \cup \{e^2_\lambda\}_{\lambda \in \Lambda},A,x)$ considered as a crossed module over $\pi_1(A,x)$. 
+
+It can also be considered as arising from the notion of a resolution for a group, by analogy with resolutions for modules, but in a nonabelian framework. So in combinatorial group theory we consider a presentation $\cal P= \langle X \mid R \rangle$ of a group $G$. Thus $X$ is a set of generators of the group $G$ and $R$ is a set of relators, that is, $R$ is a subset of $F(X)$, the free group on the set $X$. So we have an  epimorphism $\phi: F(X) \to G$ with kernel $N$, say, a normal subgroup of $F(X)$, and $N$ is the normal closure of $R$ in $F(X)$. All this reflect the fact that if $\phi (u) =1$, where $u \in F(X)$, then 
 $\phi (pup^{-1} ) = 1$ for all $p \in F(X)$. 
 
 Let  $P=F(X)$, and write $\langle R\rangle^P$ for the normal closure of the set $R$ in $P$. The elements of $\langle R\rangle^P$ are all _consequences_ of
@@ -17,8 +25,7 @@ $p_{i} \in P$ and $m \geq 1$, and $u^p = pup^{-1}$. An important point is that i
 $\phi \colon P \to Q$ is any morphism of groups  such that $\phi
 (R)=\{1\} $, then $\phi (\langle R\rangle^P) =\{1\}$, since Ker $
 \phi$ is normal. Thus $\phi$ factors as $P \to P/\langle R\rangle^P
-\to Q$ where the first morphism is the
-quotient morphism. 
+\to Q$ where the first morphism is the quotient morphism. 
 
 It is also convenient to allow for repeated relators, which, as we shall see, corresponds to attaching several cells by the same map. So we replace the subset $R$ of $P=F(X)$ by a function $\omega: R \to P$. 
 
@@ -50,9 +57,11 @@ to the  pushout of pairs of spaces defining the based pair $(A \cup \{e^2_\lambd
 where $S$ is now any group; the crossed module $M \to P$ then gives the fundamental crossed module of the pair $(A \cup CY,A,x)$ determined by a map $f: Y \to A$ and where $S=\pi_1(Y,y)$. Note that $(A \cup CY,A)$  arises in a pushout diagram of the form 
 $$\begin{matrix}(Y,Y)&\to & (A,A) \\ \downarrow&& \downarrow \\ (CY,Y) &\to& (A \cup CY,A)\end{matrix}$$
 
-This generalisation of Whitehead's theorem on free crossed modules was discovered as a consequence of the 2-dimensional Seifert-van Kampen Theorem. It has been used to give explicit computations of the crossed module $\pi_2(A \cup CY,A,x)\to \pi_1(A,x)$ in the case the map $Y \to A$ is the map of classifying spaces $BG \to BP$ induced by a morphism $\phi: G \to P$ of groups. It may also be proved that if $G,P$ are finite groups, so also is the group $M$. This gives impetus to calculations, and some of these are best done with a computer.
+This generalisation of Whitehead's theorem on free crossed modules was discovered as a consequence of the 2-dimensional Seifert-van Kampen Theorem. It has been used to give explicit computations of the crossed module $\pi_2(A \cup CY,A,x)\to \pi_1(A,x)$ in the case the map $Y \to A$ is the map of classifying spaces $ BG \to BP $ induced by a morphism $\phi: G \to P$ of groups. It may also be proved that if $G,P$ are finite groups, so also is the group $M$. This gives impetus to calculations, and some of these are best done with a computer.
 
 For more information on these topics see Part I of the book on "Nonabelian algebraic topology" listed below. 
+
+It is convenient to generalise the above to crossed modules over groupoids, to model the situation of attaching cells at different points. So we assume given $\mu: M \to P$ where $M,P$ are groupoids, $\mu$ is the identity on objects, $M$ is a union of groups $M(x), x \in P_0 = Ob(P)$ and the operation of $P$ on $M$ is such that if $p \in P(x,y), m \in M(x)$, then $m^p \in M(y)$, with the obvious axioms. 
 
 
 
