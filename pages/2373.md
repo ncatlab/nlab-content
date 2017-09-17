@@ -122,9 +122,11 @@
 
 * [[2-limit]]
 
-* [[limit in a quasi-category|(∞,1)-limit]]
-
 * [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
+
+* [[(∞,1)-Kan extension]]
+
+  * [[limit in a quasi-category|(∞,1)-limit]]
 
 * [[(∞,1)-Grothendieck construction]]
 
