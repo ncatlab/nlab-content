@@ -52,6 +52,17 @@ An object in this category is a [[presheaf]]. See there for more details.
 
 * A [[geometric embedding|sub-topos]] of a category of presheaves is a [[Grothendieck topos]]: a [[category of sheaves]] (see there for details).
 
+### Characterization
+
++-- {: .num_thm}
+###### Theorem 
+
+A category $E$ is equivalent to a presheaf topos if and only if it is cocomplete, [[atomic category|atomic]], and [[regular category|regular]]. 
+
+=-- 
+
+This is due to [[Marta Bunge]].
+
 ### Cartesian closed monoidal structure
 
 As every [[topos]], a category of presheaves is a [[cartesian monoidal category|cartesian]] [[closed monoidal category]].
