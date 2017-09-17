@@ -3,9 +3,9 @@
 </div>
 
 
-This entry is about the article
+This entry is about the series of articles
 
-* [[Hisham Sati]], _Geometric and topological structures related to M-branes_ ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020))
+* [[Hisham Sati]], _Geometric and topological structures related to M-branes_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part II: Twisted $String$ and $String^c$ structures ([arxiv/1007.5419](http://arxiv.org/abs/1007.5419)); part III: Twisted higher structures ([http://arxiv.org/abs/1008.1755](http://arxiv.org/abs/1008.1755))
 
 This is not only a good survey but it has a nice bibliography. The main plan of this entry is to build a hyperlinked bibliography of the above article, for easy access to the resources at one place!
 
@@ -18,7 +18,7 @@ This is not only a good survey but it has a nice bibliography. The main plan of 
 We consider the topological and geometric structures associated with cohomological and homological objects in [[string theory|M-theory]]. For the latter, we have M2-branes and M5-branes, the analysis of which requires the underlying [[spacetime]] to admit a [[String structure]] and a [[Fivebrane structure]], respectively. For the former, we study how the fields in M-theory are associated with the above structures, with [[L-infinity algebra|homotopy algebras]], with [[twisted cohomology]], and with [[cohomology|generalized cohomology]]. We also explain how the corresponding charges should take values in [[topological modular form]]s. We survey background material and related results in the process.
 
 
-## Bibliography
+## Bibliography of part I
 
 
 {AKMW} [[Orlando Alvarez]], T. P. Killingback, M. L. Mangano, and P. Windey,
