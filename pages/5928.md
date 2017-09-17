@@ -38,7 +38,7 @@ A family of morphisms $\{Spec A_i \to Spec R\}$ in $CRing^{op}$ is a Zariski-[[c
 +-- {: .num_remark}
 ###### Remark
 
-Geometricall, one may think of
+Geometrically, one may think of
 
 * $r_i$ as a function on the [[space]] $Spec R$;
 
@@ -70,15 +70,16 @@ The Zariski coverage is [[subcanonical coverage|subcanoncial]].
 +-- {: .un_prop}
 ###### Proposition
 
-Then 
 
 * $CRing_{fp}^{op}$ is the [[syntactic category]] of the [[cartesian theory]] of commutative rings;
 
 * $CRing_{fp}^{op}$ equipped with the Zariski topology is the [[syntactic site]] of the [[geometric theory]] of [[local ring]]s.
 
-Hence the big Zariski topos, def. \ref{ZariskiTopos}, is the [[classifying topos]] for local rings.
+Hence 
 
-A [[locally ringed topos]] is equivalently a topos $\mathcal{E}$ equipped with a [[geometric morphism]] into the big Zariski topos.
+* the big Zariski topos, def. \ref{ZariskiTopos}, is the [[classifying topos]] for [[local ring]]s.
+
+* a [[locally ringed topos]] is equivalently a topos $\mathcal{E}$ equipped with a [[geometric morphism]] into the big Zariski topos.
 
 =--
 
@@ -93,6 +94,12 @@ See [[classifying topos]] and [[locally ringed topos]] for more details on this.
 Examples A2.1.11(f) and D3.1.11 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+Section VIII.6 of 
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
 
 [[!redirects Zariski topology]]
 [[!redirects Zariski topos]]
