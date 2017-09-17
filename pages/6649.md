@@ -40,6 +40,18 @@ It is an open question whether the second condition is implied by the first in g
 
 Finally, $\mathcal{X}$ is **saturated** if it is its own saturation.
 
+### The conical case
+
+When $V=Set$, we frequently discuss only *conical* limits, i.e. limits whose weight $\Phi\colon D\to Set$ is the constant functor $\Delta_D 1$ at the terminal set.  These give the classical notion of [[limit]] in a [[category]].
+
+In this case, we may consider instead classes $\mathcal{J}$ of small categories; we write $\Delta_{\mathcal{J}}$ for the class of weights $\{ \Delta_C 1 | C \in \mathcal{J}\}$.  We say that a category $D$ lies in the **saturation** of $\mathcal{J}$ if the weight $\Delta_D 1$ lies in the saturation of $\Delta_{\mathcal{J}}$, and that $\mathcal{J}$ is **saturated** if it is its own saturation.
+
+Note that in practically all cases, the saturation of $\Delta_{\mathcal{J}}$ will contain weights that are not of the form $\Delta_D 1$.  Moreover, even when $V=Set$ there are nontrivial saturated classes of *weights* that do not contain any nontrivial *conical* weights, such as the saturation of the weight for "cartesian squares" $A\times A$.
+
+However, for conical weights the answer to the above open question is known to be affirmative.  On the one hand, if $\mathcal{X}$ is a class of $Set$-weights such that every $\mathcal{X}$-complete category is also $\Delta_D 1$-complete, then every $\mathcal{X}$-continuous funtor is also $\Delta_D 1$-continuous.  See [AK](#AK) for a proof of this.
+
+On the other hand, if $\mathcal{J}$ is a class of $Set$-categories and $\Phi$ is a $Set$-weight such that every $\Delta_{\mathcal{J}}$-complete category is also $\Phi$-complete, then every $\Delta_{\mathcal{J}}$-continuous functor is also $\Phi$-continuous.  In fact, this is still true if instead of $\Delta_{\mathcal{J}}$ we consider a class of weights all of which take only nonempty sets as values.  See [KP](#KP) for a proof of this.
+
 ## Characterization
 
 The main theorem of [AK](#AK) (which introduced the notion under the name "closure") is the following.
@@ -51,13 +63,13 @@ $\Phi\colon D\to V$ lies in the saturation of $\mathcal{X}$ if and only if it li
 
 ## Examples
 
-The following examples are all for $V=Set$:
+The following examples are all for $V=Set$, restricted to the conical case.
 
 * The class of small [[products]] is saturated, as is the class of finite products.  The latter is the saturation of the finite class containing only [[terminal objects]] and binary products.
 
-* The class of [[finite limits]] is saturated.  It is the saturation of the finite class containing only terminal objects and [[pullbacks]], and also the saturation of the class containing only finite products and [[equalizers]].
+* The class of [[L-finite limits]] is saturated; it is the saturation of the class of [[finite limits]].  It is also the saturation of the finite class containing only terminal objects and [[pullbacks]], and the saturation of the class containing only finite products and [[equalizers]].
 
-* The class of [[connected limits]] is saturated.  It is the saturation of the class consisting of [[wide pullbacks]] and equalizers.  Similarly, the class of finite connected limits is the saturation of the finite class of pullbacks and equalizers.  See also [[pullback]] and [[wide pullback]] for their saturations.
+* The class of [[connected limits]] is saturated.  It is the saturation of the class consisting of [[wide pullbacks]] and equalizers.  Similarly, the class of L-finite connected limits is the saturation of the finite class of pullbacks and equalizers.  See also [[pullback]] and [[wide pullback]] for their saturations.
 
 There are also interesting examples for other $V$.
 
@@ -65,7 +77,11 @@ There are also interesting examples for other $V$.
 
 * When $V=F$ is the category of [[fully faithful functors]], so that a $V$-category is an [[F-category]], the class of $w$-[[rigged weight|rigged weights]] is saturated (for any of $w=p$, $l$, or $c$ denoting pseudo, lax, or colax).
 
+* For any $V$, the class of [[absolute colimits]] is saturated.  When $V=Set$, this is the saturation of the [[split idempotent|splitting of idempotents]].
+
 It is also worth mentioning some non-examples.
+
+* For $V=Set$, the class of [[finite limits]] is not saturated; its saturation is the class of [[L-finite limits]].
 
 * For $V=Cat$, the class of [[strict pseudo-limits]] is not saturated; it does not even contain the representables.  (The same is true for strict lax limits.)  It is unclear precisely what its saturation looks like.
 
@@ -74,6 +90,10 @@ It is also worth mentioning some non-examples.
 
 * Albert and [[Max Kelly|Kelly]], "The closure of a class of limits", J. Pure. App. Alg. 51 (1988), 1--17
  {#AK}
+
+* [[Max Kelly]] and [[Robert Paré]], "A note on the Albert-Kelly paper 'The closure of a class of limits'", JPAA 51 (1988), 19--25
+ {#KP}
+
 
 [[!redirects saturated class of limits]]
 [[!redirects saturated classes of limits]]
