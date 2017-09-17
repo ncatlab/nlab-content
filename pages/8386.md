@@ -1,4 +1,18 @@
-# Polymorphism
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+# Polymorphism#
+* table of contents
+{:toc}
 
 In [[computer science]], **polymorphism** refers to the ability to define more than one [[function]] with the same name.  One usually distinguishes two types of polymorphism: *ad hoc polymorphism* and *parametric polymorphism*.
 
