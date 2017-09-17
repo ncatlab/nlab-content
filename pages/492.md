@@ -225,10 +225,10 @@ the condition $p(x) = p(y)$ and $\partial_i x = \partial_i y$ implies for all $k
 
 ## Properties
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
-The morphisms $f : X \to Y$ of Kan complexes that are both Kan fibrations as well as [[model structure on simplicial sets|weak equivalences]] in that they induce isomorphisms on all [[simplicial homotopy groups]] (i.e. the __acyclic fibrations__ of Kan complexes) are precisely the morphisms that have the [[weak factorization system|right lifting property]] with respect to all [[boundary of a simplex|boundary inclusions]] $\partial \Delta^n \hookrightarrow \Delta^n$:
+The [[acyclic Kan fibrations]] morphisms $f : X \to Y$ of Kan complexes that are both Kan fibrations as well as [[model structure on simplicial sets|weak equivalences]] in that they induce isomorphisms on all [[simplicial homotopy groups]] (i.e. the __[[acyclic fibrations]]__ of Kan complexes) are precisely the morphisms that have the [[weak factorization system|right lifting property]] with respect to all [[boundary of a simplex|boundary inclusions]] $\partial \Delta^n \hookrightarrow \Delta^n$:
   $$
     \array{
       \partial \Delta[n] &\to& X
@@ -251,7 +251,7 @@ A proof is in chapter I of
 
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 Kan fibrations and acyclic Kan fibrations are both stable under [[pullback]].
@@ -265,7 +265,7 @@ Because every class of morphisms defined by a [[weak factorization system|right 
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 From this it follows readily that [[Kan complexes]] form a Brownian [[category of fibrant objects]].
 =--
@@ -273,7 +273,7 @@ From this it follows readily that [[Kan complexes]] form a Brownian [[category o
 
 Let $C, D$ be ordinary [[nLab:groupoid|groupoids]] and $N(C)$, $N(D)$ their ordinary [[nLab:nerve|nerves]]. We'd like to show in detail that 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 A [[nLab:functor|functor]] $F : C \to D$ is 
@@ -373,6 +373,8 @@ We check successively what this means for increasing $n$:
 ## Related concepts
 
 * **Kan fibration**, [[anodyne morphism]]
+
+  * [[acyclic Kan fibration]]
 
 * [[right/left Kan fibration]], [[right/left anodyne map]]
 
