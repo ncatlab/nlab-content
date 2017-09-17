@@ -2,6 +2,6 @@
 
 * interview in [Notices AMS](http://www.ams.org/notices/200702/fea-sato-2.pdf)
 
-* [wikipedia]((http://en.wikipedia.org/wiki/Mikio_Sato) 
+* [wikipedia](http://en.wikipedia.org/wiki/Mikio_Sato) 
 
 category:people 
