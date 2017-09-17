@@ -47,7 +47,7 @@ The same holds true for [[subcategories]] such as
 
 * [[Diff]] -- paracompact [[smooth manifold]]s;
 
-* [[CartSp]] -- [[Cartesian space]].
+* [[CartSp]] -- [[Cartesian space]]s.
 
 
 =--
