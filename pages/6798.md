@@ -23,11 +23,15 @@
 
 A  [[supersymmetry|supersymmetric]] extension of plain [[Yang-Mills theory]].
 
-## Properties
+## Properties of 4d SYM
 
 ### Holography
 
 $N=4$ $d=4$ SYM is supposed to be related under the [[AdS/CFT correspondence]] to [[type II superstring theory]] [[Kaluza-Klein mechanism|compactified]] on a 5-[[sphere]] to an asymptotically [[anti de Sitter spacetime]].
+
+### Topological twists
+
+There is a topological twist of 4d SYM to a [[TQFT]] -- the [[Kapustin-Witten TQFT]]. Its [[S-duality]] is supposed to contain [[geometric Langlands duality]] as a special case.
 
 ## Related concepts
 
