@@ -1,4 +1,6 @@
 
+> This entry is about the notion of "limit" in [[category theory]]. For the notion of the same name in [[analysis]] and [[topology]] see at _[[limit of a sequence]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
