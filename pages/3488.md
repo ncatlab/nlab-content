@@ -116,9 +116,9 @@ $$
 In this case we call for $X \in \mathbf{H}$ the [[n-groupoid]] $\Pi_n(X)$ the **fundamental $n$-groupoid** of $X$. See [[homotopy groups in an (∞,1)-topos]].
 
 
-## Locally contractible $(\infty,1)$-topos {#InfCase}
+## Locally ∞-connected $(\infty,1)$-topos {#InfCase}
 
-A locally $n$-connected $(n,1)$-topos for $n = \infty$ we call a **locally contractible $(\infty,1)$-topos**. 
+A locally $n$-connected $(n,1)$-topos for $n = \infty$ we call a **locally ∞-connected $(\infty,1)$-topos**. 
 
 In this case $\Pi = \Pi_\infty$ is the [[schreiber:homotopy ∞-groupoid]] functor.
 
@@ -131,9 +131,9 @@ This proposition gives a large supply of examples.
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a [[site]] with **geometrically contractible objects**, meaning that all constant [[simplicial presheaf|simplicial presheaves]] satisfy [[descent]] on objects of $C$.
+Let $C$ be a [[site]] whose [[Grothendieck topology]] is generated from a given [[coverage]] of [[covering]] families,  such that its objects are **geometrically contractible**, meaning that all constant [[simplicial presheaf|simplicial presheaves]] satisfy [[descent]] on objects of $C$ with respect to these generating covering families.
 
-Then $\mathbf{H} = Sh_{(\infty,1)}(C)$ is a locally contractible $(\infty,1)$-topos.
+Then the corresponding [[(∞,1)-category of (∞,1)-sheaves]] $\mathbf{H} = Sh_{(\infty,1)}(C)$ is a locally $\infty$-connected $(\infty,1)$-topos.
 
 =--
 
@@ -165,22 +165,22 @@ For a more exhaustive list of extra structures see
 
 * [[schreiber:structures in an (∞,1)-topos]].
 
-### Locally contractible and contractible {#Contractible}
+### Locally $\infty$-connected and $\infty$-connected {#Contractible}
 
 
-By anlogy with the situation for locally connected and connected toposes discussed [above](#Connected), we may say
+By anlogy with the situation for locally connected and [[connected topos]]es discussed [above](#Connected), we may say
 
 +-- {: .un_def}
 ###### Definition
 
-A locally contractible $(\infty,1)$-topos $\mathbf{H}$ is **contractible** if $LConst : \infty Grpd \to \mathbf{H}$ is a [[full and faithful (∞,1)-functor]].
+A locally $\infty$-connected $(\infty,1)$-topos $\mathbf{H}$ is **$\infty$-conneczted** if $LConst : \infty Grpd \to \mathbf{H}$ is a [[full and faithful (∞,1)-functor]].
 
 =--
 
 +-- {: .un_lemma}
 ###### Observation
 
-A contractible $(\infty,1)$-topos has the _shape_ of the point, in the sense of [[shape of an (∞,1)-topos]].
+An $\infty$-connected $(\infty,1)$-topos has the _shape_ of the point, in the sense of [[shape of an (∞,1)-topos]].
 
 =--
 
@@ -198,17 +198,17 @@ By definition of [[shape of an (∞,1)-topos]] this means that $\mathbf{H}$ has 
 
 =--
 
-Notice also that for a locally contractible $(\infty,1)-topos$ that is also a congtractible $(\infty,1)$-topos the $(\infty,1)$-adjunction
+Notice also that for a locally $\infty$-connected $(\infty,1)-topos$ that is also an $\infty$-connected $(\infty,1)$-topos the $(\infty,1)$-adjunction
 
 $$
   \infty Grpd \stackrel{\overset{\Pi}{\leftarrow}}{\hookrightarrow} \mathbf{H}
 $$
 
-exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. We may think then of [[∞Grpd]] as being the [[localization of an (∞,1)-category|localization]] of $E$ at those morphisms that induce equivalences on geometric realizations, hence isomorphisms on geometric [[homotopy groups in an (∞,1)-topos]].
+exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. We may think then of [[∞Grpd]] as being the [[localization of an (∞,1)-category|localization]] of $E$ at those morphisms that induce equivalences on <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal">intrinsic geometric realizations</a>, hence isomorphisms on _geometric_ [[homotopy groups in an (∞,1)-topos]].
 
 
 
-**Examples.** All the locally connected $(\infty,1)$-toposes on sites with geometrically contractible objects given by the proposition [above](#LocallyContractibleExamples) are also contractible.
+**Examples.** All the locally connected $(\infty,1)$-toposes on sites with geometrically contractible objects given by the proposition [above](#LocallyContractibleExamples) are also $\infty$-connected.
 
 
 [[!redirects locally n-connected (∞,1)-topos]]
