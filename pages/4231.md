@@ -85,7 +85,7 @@ This is ([Cisinski 06, def. 1.3.1](#Cisinski06)).
 
 In the following, let $J : PSh(A) \to Cyl(A)$ be a choice of functorial cylinder object.
 
-+-- {: .num_defn}
++-- {: .num_defn #ElementaryJHomotopy}
 ###### Definition
 
 For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say an **elementary $J$-homotopy** $f \Rightarrow g$ from $f$ to $g$ is [[left homotopy]] from $f$ to $g$ with respect to the chosen cylinder object $J$, hence a morphism $\eta : I \otimes X \to Y$ fitting into a diagram
@@ -609,14 +609,16 @@ With the classes of morphisms as in def. \ref{ModelStructureMorphismsFromHomotop
 
 ([Cisinski 06, theorem 1.3.22](#Cisinski06)).
 
-+-- {: .num_prop }
++-- {: .num_prop #HomotopyCatIsFullSubcatgOfJHo}
 ###### Proposition
 
-The [[homotopy category]] of this model category is [[equivalence of categories|equivalent]] to the [[full subcategory]] of the $J$-homotopy category, def. \ref{JHomotopyCategory}, on the fibrant objects
+The [[homotopy category]] of $(PSh(A), W)$ is (up to [[equivalence of categories|equivalence]]) the [[full subcategory]] of $Ho_J$, def. \ref{JHomotopyCategory}, on the fibrant objects.
 
 =--
 
-Before coming to the proof of this statement, the following two statements say that the terminology introduced so far is indeed consistent with the meaning of this theorem.
+([Cisinski 06, 1.3.23](#Cisinski06)).
+
+Before coming to the proof of the theorem, the following two statements say that the terminology introduced so far is indeed consistent with the meaning of this theorem.
 
 +-- {: .num_prop #AcyclicFibrationsAreAcyclicFibrations}
 ###### Proposition
@@ -770,30 +772,253 @@ So by lemma \ref{PropertiesOfAnodyneExtensions} with $q$ also $p$ is an acyclic 
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
 
-The [[homotopy category]] of $(PSh(A), W)$ is (up to [[equivalence of categories|equivalence]]) the [[full subcategory]] of $Ho_J$, def. \ref{JHomotopyCategory}, on the fibrant objects.
+
++-- {: .num_remark }
+###### Remark
+
+Lemma \ref{SectionsOfAcyclicFibrationsAreDefRetracts} directly implies the lifting axioms in the model category. 
+
+So it only remains to demonstrate the [[model category]] lifting axioms.
 
 =--
 
-([Cisinski 06, 1.3.23](#Cisinski06)).
+([Cisinski 06, remark 1.3.28](#Cisinski06)).
+
++-- {: .num_lemma }
+###### Lemma
+
+Every morphism admits a factorization into an anodyne extension, followed by a morphism having the right lifting property against anodyne extensions.
+
+=--
+
+([Cisinski 06, remark 1.3.29](#Cisinski06)).
 
 +-- {: .proof}
 ###### Proof
 
-By definition and by the [[Yoneda lemma]], every weak equivalence becomes an isomorphism in the full subcategory of $Ho_J$ on the fibrant objects. Moreover, by prop. \ref{PropertiesOfAnodyneExtensions} the [[small object argument]] provides a functorial fibrant replacement $P : PSh(A) \to PSh(A)$. 
-
-Therefore for $F : PSh(A) \to \mathcal{C}$ a functor that inverts weak equivalences, there is a unique functor $Ho_J^{fib} \to \mathcal{C}$ which sends $X$ to $P(F(X))$, such that ... with the [[natural isomorphism]] given by
-
-$$
-  F(X) \stackrel{F(X \to P(X))}{\to} F(P(X))
-$$
-
+By the [[small object argument]], in view of prop. \ref{PropertiesOfAnodyneExtensions}.
 
 =--
 
++-- {: .num_lemma #ElementaryJHomotopyIntoFibIsEquivRel}
+###### Lemma
 
+If $T \in PSh(A)$ is fibrant, then for any $K \in PSh(A)$ elementary $J$-homotopy, def. \ref{ElementaryJHomotopy} is already an equivalence relation on $Hom_{PSh(A)}(K,T)$ and coincides with $J$-homotopy.
+
+=--
+
+([Cisinski 06, lemma 1.3.30](#Cisinski06)).
+
++-- {: .num_prop }
+###### Proposition
+
+Every anodyne extension is a weak equivalence
+
+=--
+
+([Cisinski 06, lemma 1.3.31](#Cisinski06)).
+
+
++-- {: .proof}
+###### Proof
+
+For $j : K \to L$ an anodyne extension and $T$ a fibrant object, we need to show that 
+
+$$
+  Ho_J(j,T) :  Ho_J(L,T) \to Ho_J(K,T)
+$$
+
+is a bijection. 
+
+It is surjective by the defining lifting property, which provides $\sigma$ in 
+
+$$
+  \array{
+    K &\stackrel{}{\to}& T
+    \\
+    \downarrow^{\mathrlap{j}}
+    & \nearrow_{\mathrlap{\sigma}}
+    \\
+    L
+  }
+  \,.
+$$
+
+To see injectivity, let $l_0, l_1 : K \to T$ be two morphisms such that $l_0 \circ j$ and $l_1 \circ j$ coincide in $Ho_J$. By lemma \ref{ElementaryJHomotopyIntoFibIsEquivRel} this is the case precisely if there is an elementary $J$-homotopy $h : I \otimes K \to T$ relating them. This induces the horizontal morphism in the diagram
+
+$$
+  \array{
+    (I \otimes K) \cup ((\partial I) \otimes L)
+    &\stackrel{(h,(l_0,l_1))}{\to}&
+    T
+    \\
+    \downarrow & \nearrow_{\mathrlap{\eta}}
+    \\
+    I \otimes K
+  }
+  \,,
+$$
+
+where the left morphism is anodyne, by the second clause of def. \ref{AnodyneExtensions}, so that the lift denoted $\eta$ exists. This lift exhibits a $J$-homotopy $l_0 \Rightarrow l_1$, hence shows that $l_0$ was already equal to $l_1$ in $Ho_J$, hence that $j^*$ is injective.
+
+=--
+
++-- {: .num_lemma }
+###### Lemma
+
+A morphism between fibrant objects is a weak equivalence precisely if it is a $J$-homotopy equivalence, def. \ref{JHomotopyEquivalence}. 
+
+=--
+
+([Cisinski 06, lemma 1.3.32](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+Is is clear that $J$-homotopy is sufficient. Conversely, let $f : X \to Y$ be a weak equivalence between fibrant objects. Write $Ho_J^{fib} \hookrightarrow Ho_J$ for the [[full subcategory]] of $Ho_J$, def. \ref{JHomotopyEquivalence} on the fibrant objects. The localization $Q(f)$ is by definition in $Ho_J^{fib}$ and for all objects $T \in Ho_J^{fib}$ the morphism $Ho_J^{fib}(Q(f), T)$ is an [[isomorphism]]. By the [[Yoneda lemma]], therefore, $Q(f)$ itself is an isomorphism in $Ho_J^{fib}$, hence also in $Ho_J$, hence is a weak equivalence.
+
+=--
+
++-- {: .num_lemma }
+###### Lemma
+
+If a morphism has the [[right lifting property]] against anodyne extensions, then it is an acyclic fibration precisely if it is the dual of a [[strong deformation retract]].
+
+=--
+
+([Cisinski 06, lemma 1.3.33](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+That the former implies the latter was the statement of lemma \ref{SectionsOfAcyclicFibrationsAreDefRetracts}. Conversely...
+
+=--
+
++-- {: .num_lemma }
+###### Lemma
+
+A morphism into a fibrant object with [[right lifting property]] against anodyne extensions is a weak equivalence precisely if it is an acyclic fibration.
+
+=--
+
+([Cisinski 06, lemma 1.3.34](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+That's a little bit of work...
+
+=--
+
++-- {: .num_cor }
+###### Corollary
+
+A cofibration into a fibrant object is a weak equivalence precisely if it is an anodyne extension.
+
+=--
+
+([Cisinski 06, cor 1.3.35](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+A cofibration is a weak equivalence precisely if it has the [[left lifting property]] against morphisms into a fibrant object that have the right lifting property against anodyne extensions.
+
+=--
+
+([Cisinski 06, prop.  1.3.36](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
++-- {: .num_cor }
+###### Corollary
+
+The acyclic cofibrations are stable under [[transfinite composition]] and [[pushouts]]
+
+=--
+
+([Cisinski 06, cor.  1.3.37](#Cisinski06)).
+
++-- {: .num_lemma }
+###### Lemma
+
+Every [[strong deformation retract]] is an anodyne extension.
+
+=--
+
+([Cisinski 06, cor.  1.3.38](#Cisinski06)).
+
++-- {: .num_lemma }
+###### Lemma
+
+Every anodyne extension between fibrant objects is a [[strong deformation retract]].
+
+=--
+
+([Cisinski 06, lemma  1.3.39](#Cisinski06)).
+
+
++-- {: .num_prop }
+###### Proposition
+
+Pour tout cardinal assez grand $\alpha$, si on pose $\beta = 2^\alpha$, pour toute cofibration triviale $i : C \to D$, et pour tout [[subobject|sous-objet]] $\beta$-accessible $J$ de $D$, il
+existe un sous-objet $\beta$-accessible $K$ de $D$, qui contient $J$, tel que l'inclusion canonique $C \cap K  \to K$ soit une 
+cofibration triviale.
+
+=--
+
+([Cisinski 06, prop.  1.3.40](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+Three pages of work...
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+There exists a set of generating acyclic cofibrations.
+
+=--
+
+([Cisinski 06, prop.  1.3.42](#Cisinski06)).
+
+
++-- {: .num_cor #FactorizationAcyclicCofibFib}
+###### Corollary
+
+There is a functorial factorization of every morphism into an acyclic cofibration followed by a fibration.
+
+=--
+
+([Cisinski 06, cor.  1.3.43](#Cisinski06)).
+
+
++-- {: .proof}
+###### Proof
+**of theorem \ref{ModelStructureFromHomotopicalStructure}**
+
+Lifting by lemma xyz and abc.
+
+Factorization by lemma abc and cor. \ref{FactorizationAcyclicCofibFib}.
+
+=--
 
 
 ## Examples
