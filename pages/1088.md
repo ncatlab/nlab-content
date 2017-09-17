@@ -54,7 +54,7 @@ $$
     U &\to& X
   }
 $$
-along any morphism $U \to X is a local isomorphism.
+along any morphism $U \to X$ is a local isomorphism.
 
 
 #Relation to Grothendieck topologies#
