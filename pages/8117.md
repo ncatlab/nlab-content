@@ -132,3 +132,5 @@ Remarks about refinements to correspondences of smooth $\infty$-groupoids in the
  {#SyntheticQFT}
 
 [[!redirects stable symplectic category]]
+
+[[!redirects symplectic category]]
