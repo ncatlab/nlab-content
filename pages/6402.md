@@ -33,6 +33,8 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 
 ### Part 1: Classical fields and Supersymmetry
 
+* [[classical field theory]]
+
 * [[supersymmetry]]
 
 
@@ -62,6 +64,7 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 
 ##### Chapter 5. $\sigma$-Models and coupled gauge theories
 
+* [[sigma-model]]
 
 ##### Chapter 6. Topoligical terms
 
@@ -93,13 +96,20 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 
 ##### Lecture 1. Point varticles and strings
 
+* [[particle]]
+
+* [[string]]
+
 ##### Lecture 2. Spectrum of the free bosonic string
 
 ##### Lecture 3. String amplitudes and moduli space of curves
 
 ##### Lecture 4. Fadeev-Popov Ghost -- BRST Quantization
 
+* [[BV-BRST formalism]]
+
 ##### Lecture 5. Moduli dependence of determinants and Green functions
+
 
 ##### Lecture 6. Strings on general manifolds
 
@@ -112,6 +122,8 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 * [[heterotic string theory]]
 
 ##### Lecture 9. Superstring perturbation theory
+
+* [[perturbation theory]]
 
 ##### Lecture 10. Supersymmetry and supergravity
 
@@ -171,6 +183,8 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 ##### Lecture 1. Compactifications to dimension four
 
 * [[Kaluza-Klein mechanism]]
+
+* [[spontaneous symmetry breaking]]
 
 ##### Lecture 2. Supersymmetry and Calabi-Yau manifolds
 
