@@ -1734,60 +1734,118 @@ After discussing some generalities of these higher unitary-twisted connected cov
 #### Fermionic anomalies cancelled by differential twists
  {#Anomalies}
 
-Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory. A nice account of that is given in ([Freed](#Freed)). 
-
-(...)
-
-> under construction, check again tomorrow
+Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory, following ([Freed](#Freed)). We add some stacky aspects to that and explain why.
 
 
-first: higher gauge fields are elements in the set of cohomology classes: gauge equivalence classes
+Gauge theory starts maybe with Maxwell aroung 1850, who discovered, in modern language, that the [[field strength]] of the [[electromagnetic field]] on [[spacetime]] is encoded in a closed [[differential form|differential 2-form]] $F \in \Omega^2_{cl}(X)$.
 
-then: need to refine this to a [[groupoid]] where gauge fields are the [[objects]] and [[gauge transformations]] are the [[morphisms]] -- reasons: 
+Then in the 1930s Dirac's [famous argument](electromagnetic+field#ChargeQuantization) showed that more precisely -- in the absence of, or outside of the [[support of]] [[magnetic charge]] [[current]] -- this 2-form is the [[curvature]] of a [[circle group]]-[[principal bundle]] [[connection on a bundle|with connection]], a 2-cocycle $\hat F$ in [[ordinary differential cohomology]].
 
-Dirac's [famous argument](electromagnetic+field#ChargeQuantization) that leads to the observation that the [[electromagnetic field]] is modeled by a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]] only works in the absence of or outside of the [[support]] of [[magnetic charge]]. Because the [[Maxwell equations]] are
+The [[Maxwell equations]] that the electromagnetic field has to satisfy are
 
-* $d F = J_{mag}$ ([[magnetic charge]] [[current]])
+1. $d_{dR} F = J_{mag}$ ([[magnetic charge]] [[current]])
 
-* $d \star F = J_{el}$ ([[electric charge]] [[current]])
+1. $d_{dR} \star F = J_{el}$ ([[electric charge]] [[current]])
 
-and the first can be true for $F$ the [[curvature]] of a [[line bundle]] only if $J_{mag} = 0$.
+where "$\star$" is the [[Hodge star operator]] for the given [[pseudo-Riemannian metric|pseudo]] [[Riemannian metric]] (the field of [[gravity]]) on $X$.
+
+The first one equation the _kinematic_ constraint. For $J_{mag} = 0$ it just expresses part of the fact that $\hat F$ is a differential cocycle, so it is satisfied by all kinematic field configurations, meaning: by all points in the off-shell [[moduli stack]] $[X, \mathbf{B}U(1)_{conn}]$. 
+
+The second is _dynamics_, being the [[equations of motion]] of the system. The configurations that satisfy this form the [[covariant phase space]]
+$P \hookrightarrow [X, \mathbf{B}U(1)_{conn}]$ of the theory. For our purposes here this will not concern us.
 
 While for phenomenologically observed electromagnetism it is consistent to assume that $J_{mag} = 0$, this is not the case for general theories, notably not for [[heterotic supergravity]], as we discuss in a moment. There, 
 
 * $J^{NS5}_{mag} = \langle F_\omega \wedge F_\omega\rangle -\langle F_A \wedge F_A\rangle$
 
-is non-vanishing. So one needs to find another way to refine $d F  = J_{mag}$ to differential cohomology:
+is non-vanishing. So one needs to find another way to refine $d F  = J_{mag}$ to differential cohomology.
 
-interpret it as a morphism in the groupoid of differential cocycles
+The following observation for how Dirac's famous argument is improved so that the [[support]] of the [[magnetic current]] has not to be removed from the discussion is due to ([Freed](#Freed)).
+
+Consider not just the _set_ 
 
 $$
-  0 \stackrel{\hat F}{\to} \hat J_{mag}
+  H^2_{diff}(X) \coloneqq \tau_0 \mathbf{H}(X, \mathbf{B}U(1)_{conn})
+$$ 
+
+of differential cohomology classes in degree 2 on $X$, but the 1-groupoid 
+
+$$
+  \mathcal{H}^{n+1}_{diff}(X) \coloneqq 
+   \tau_1 \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})
+$$ 
+
+whose 
+
+* [[objects]] are [[cocycles]] in degree-$(n+1)$ differential cohomology: [[circle n-group]]-[[principal n-bundles with connection]];
+
+* [[morphisms]] are equivalence classes of [[gauge transformations]] between these.
+
+For instance if differential cohomology is modeled by the [[Deligne complex]] with [[differential]] $D = d_{dR} \pm \delta$, then a morphism $\hat \alpha : \hat F_1 \to \hat F_2$ in $\mathcal{H}_{diff}^3(X)$ is a Deligne [[coboundary]] $D \hat \alpha = \hat F_2 - \hat F_1$. 
+
+A morphism
+
+$$
+  0 \to \hat F
+$$
+
+in $\mathcal{H}^{n+1}_{diff}$ is a _flat section_ of the corresponding circle $n$-bundle, while a morphim
+
+$$
+  \omega \to \hat F
+$$
+
+for some $\omega \in \Omega^n(X)$ is a possibly non-flat section. 
+
+Using this, we may improve the definition of the electromagnetic field on $X$: take it to be a _morphism_:
+
+$$
+  \hat \mathbf{c} \stackrel{\hat F}{\to} c_{mag}
   \,.
 $$
 
-If differential cohomology is modeled by the [[Deligne complex]] with differential $D$, then a morphism $\hat \alpha : \hat F_1 \to \hat F_2$ is a [[coboundary]] $D \hat \alpha = \hat F_2 - \hat F_1$. Hence the above says that 
+$$
+  D (g_{i j}, A_i)
+  = 
+  ((\delta g)_{i j k}, A_j - A_i + d_{dR} log g_{i j}, d_{dR} A_i)
+  = 
+  ( \lambda_{i j k}, \alpha_{i j}, \beta_i + c_{mag} )
+$$
+
+so with $F \coloneqq d A_i + \beta_i = c_{mag}$ the twisted curvature, we have the first Maxwell equation
 
 $$
-  D \hat F = \hat J_{mag}
+  d_{dR} F = J_{mag}
+  \,.
 $$
 
-So for fixed $\hat J_{mag}$ the electromagnetic field is such a $\hat F$. But what is then a gauge transformation? Clearly, for this we need the 2-groupoid of differential cocycles, to next say that a gauge transformation is a [[2-morphism]]
+
+But what is then a gauge transformation? Clearly, for this we need the 2-groupoid of differential cocycles
+
+$$
+  \tau_2 \mathbf{H}(X, \mathbf{B}^n U(1)_{conn})
+  \,,
+$$
+
+to next say that a gauge transformation is a [[2-morphism]]
 
 $$
   \array{
     & \nearrow \searrow^{\mathrlap{\hat F_1}}
     \\
-    0 &\Downarrow^{\hat \alpha}& \hat J_{mag}
+    \hat \matbf{c} &\Downarrow^{\hat \alpha}& J_{mag}
     \\
     & \searrow \nearrow_{\mathrlap{\hat F_2}}
   }
   \,.
 $$
 
-other reason to consider this groupoid: needed in order to construct the [[quadratic refinement]] of the [[secondary intersection pairing]] that defines the partition function of [[self-dual higher gauge theory]] ([Hopkins-Singer](#HopkinsSinger))
+(other reason to consider this groupoid: needed in order to construct the [[quadratic refinement]] of the [[secondary intersection pairing]] that defines the partition function of [[self-dual higher gauge theory]] ([Hopkins-Singer](#HopkinsSinger)))
 
-What, furthermore, if we want to consider [[quantization]] of this gauge theory? We need a smooth refinement, for the following reasons
+
+We also need a parameterized (notably: smoothly parameterized) refinement, for the following reasons
+
+1. The magnetic twist $\hat \mathbf{c}$ will depend on other field configurations that induce magnetic charge. So the question is not so much to solve the above equation, but _where_ it has solutions.
 
 1. We need the [[BRST complex]] of the gauge fields. Claim: for ordinary gauge theory this is the [[Lie algebroid]] of the smooth version $[X, \mathbf{B}G_{conn}]$. Similarly for higher gauge theory it is the [[L-infinity algebroid]].
 
