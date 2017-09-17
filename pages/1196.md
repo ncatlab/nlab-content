@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
@@ -45,3 +45,4 @@ functions $\mathbb{N} \to \mathbb{N}$ is concerned.
 [[!redirects intuitionistic logic]]
 [[!redirects Intuitionistic logic]]
 [[!redirects constructive logic]]
+[[!redirects constructivist logic]]
