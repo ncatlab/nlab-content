@@ -17,11 +17,11 @@
 
 ## Definition
 
-A **basis** of a [[free module|free]] $R$-[[module]] $M$ (possibly a [[vector space]], see [[basis of a vector space]]) is a linear [[isomorphism]] $B\colon M \to \oplus_{i\in I}R$.
+A **basis** of a [[free module|free]] $R$-[[module]] $M$ (possibly a [[vector space]], see [[basis of a vector space]]) is a linear [[isomorphism]] $B\colon M \to \oplus_{i\in I}R$ to a [[direct sum]] of copies of the ring $R$, regarded as a module over itself.
 
 We see how this is equivalent to the classical definition of a basis as a linearly independent spanning set:
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 A basis for a free $R$-module $M$ determines a unique generating set for $M$ of [[linear independence|linearly independent]] elements of $M$. 
