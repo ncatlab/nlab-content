@@ -37,6 +37,8 @@ Note that a *strong* opmonoidal functor --in which the morphisms $\phi$ are requ
 
 * **oplax monoidal functor**
 
+* [[bilax monoidal functor]]
+
 * [[Frobenius monoidal functor]]
 
 
