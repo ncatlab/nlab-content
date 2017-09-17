@@ -28,6 +28,8 @@ The  generalization of [[symplectic reduction]] from [[symplectic manifolds]] to
 
 * [[gauge reduction]], [[symplectic reduction]], [[Poisson reduction]], [[BV-BRST formalism]]
 
+* [[quantization commutes with reduction]]
+
 ## References
 
 * Francesco Bottacin, _A Marsden-Weinstein reduction for presymplectic manifolds_  ([pdf](http://www.math.unipd.it/~bottacin/papers/presympred.pdf))
