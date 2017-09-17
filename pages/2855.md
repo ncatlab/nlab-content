@@ -9,6 +9,6 @@ Related $n$Lab entries: [[ionad]], [[small object argument]], [[identity type we
 
 * [[Benno van den Berg]], Richard Garner, *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
 
- * R. Garner, _Ionads: a generalisation of the notion of topological space_, ([web](http://www.dpmms.cam.ac.uk/~rhgg2/Ionads/Ionads.html), [arXiv](http://arxiv.org/abs/0912.1415))
+ * R. Garner, _Ionads: a generalisation of the notion of topological space_,  [arXiv](http://arxiv.org/abs/0912.1415))
 
 category: people
