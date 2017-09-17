@@ -62,7 +62,7 @@ See at _[References - Models](#ReferencesModels)_ below.
 ### Models in heterotic string theory
  {#HeteroticStandardModels}
 
-These models follow the historically original and hence oldest strategy of finding semi-realitsic models in string theory: one considers a [[Kaluza-Klein compactification]] of [[heterotic string theory]]/[[heterotic supergravity]] on a [[closed manifold]] of dimension 6 with a non-trivial [[gauge field]] configuration on it. By choosing different values of the [[holonomy]] of this gauge field around non-trivial [[singular homology|singular 1-cycles]] in the compact space (usually referred to as "[[Wilson lines]]" in this context) one obtains different [[effective quantum field theory|effective physics]] in the remainind 4-dimensional space.
+The models in [[heterotic string theory]] follow the historically original and hence oldest strategy of finding semi-realitsic [[GUT]] models in string theory (see ([Witten 02](#Witten02)) for a brief list of motivations for these models): one considers a [[Kaluza-Klein compactification]] of [[heterotic string theory]]/[[heterotic supergravity]] on a [[closed manifold]] of dimension 6 with a non-trivial [[gauge field]] configuration on it. By choosing different values of the [[holonomy]] of this gauge field around non-trivial [[singular homology|singular 1-cycles]] in the compact space (usually referred to as "[[Wilson lines]]" in this context) one obtains different [[effective quantum field theory|effective physics]] in the remainind 4-dimensional space.
 
 Since most of string model building was aimed for reproducing the minimally [[supersymmetry|supersymmetric]] exension of the [[standard model of particle physics]], these approaches usually take that compact 6-manifold to be a complex 3-dimensional [[Calabi-Yau manifold]].
 
@@ -154,6 +154,10 @@ The "bottom-up approach" to string model building is attributed to
 
 The origin of all [[heterotic string theory]] models and the "top down approach" of string model building is ([CHSW 85](#CHSW85))
 
+A brief review of motivations for [[GUT]] models in heterotic string theory is in 
+
+* [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
+ {#Witten02}
 
 The following articles are usually regarded as the first semi-realistic approximations to the [[MSSM]] realized in [[heterotic string theory]]:
 
