@@ -9,5 +9,8 @@ In [[quantum field theory]] a _correlator_ is an assignment of [[probability amp
 
 * [[n-point function]]
 
+[[!include holographic principle -- table]]
+
+
 [[!redirects correlation function]]
 [[!redirects correlation functions]]
