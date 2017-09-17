@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _local quotient stack_ is a _[[stack]]_ with a suitable [[atlas]] by [[quotient stacks]].
+
+## References
+
+In
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part I of _[[Loop Groups and Twisted K-Theory]]_ . 
+
+the [[groupoid K-theory]] of local quotient stacks is discussed.
+
+[[!redirects local quotient stacks]]
