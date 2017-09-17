@@ -149,6 +149,10 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 
 * A [[cobordism]] $\Sigma$ from $\Sigma_{in}$ to $\Sigma_{out}$ is an example of a cospan $\Sigma_{in} \to \Sigma \leftarrow \Sigma_{out}$ in the category of [[smooth manifold]]s. However, composition of cobordisms is not quite the pushpout-composition of these cospans: to make the composition be a [[smooth manifold]] again some extra technical aspects must be added ("collars").
 
+* In [[prequantum field theory]] (see there for details), spans of [[stacks]] model [[trajectories]] of [[field (physics)|fields]].
+
+* The [[category of Chow motives]] has as [[morphisms]] [[equivalence classes]] of [[linear combinations]] of spans of [[smooth variety|smooth]] [[projective varieties]].
+
 
 ## Related concepts
 
