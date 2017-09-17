@@ -85,8 +85,17 @@ JHEP02(2004)070
 * Subir Mukhopadhyay, Koushik Ray, _Seiberg duality as derived equivalence for some quiver gauge theories_ Journal of High Energy Physics Volume 2004 JHEP02(2004) 
 
 ### For exceptional gauge groups
+ {#ExamplesForExceptionalGaugeGroups}
+
+Seiberg duality for [[gauge group]]s which are [[exceptional Lie group]]s:
 
 * [[Jacques Distler]], Andreas Karch, _$N=1$ Dualities for Exceptional Gauge Groups and Quantum Global Symmetries_ ([arXiv:hep-th/9611088](http://arxiv.org/abs/hep-th/9611088))
+
+
+But see
+
+* Peter Cho, _Moduli in Exceptional SUSY Gauge Theories_ ([arXiv:hep-th/9712116](http://arxiv.org/abs/hep-th/9712116))
+
 
 ### Duality cascade
 
