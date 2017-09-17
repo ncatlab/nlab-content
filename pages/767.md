@@ -18,7 +18,7 @@
 Often [[site]]s are required to be [[small category|small categories]].  If not, if one has a _large site_,  there are complications.
 
 
-Many of the good properties of [[sheaf|sheaves]] depend on such smallness.  To begin with, even the category of sheaves may have to be extra-large, but there are other issues, such as:
+Many of the good properties of [[sheaf|sheaves]] depend on such smallness.  To begin with, even the category of sheaves may have to be [[very large category|extra-large]], but there are other issues, such as:
 
 * the existence of [[sheafification]],
 * the existence of [[colimit|colimits]] in the category of sheaves,
