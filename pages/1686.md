@@ -140,7 +140,8 @@ If $(E_r)$ collapses at $r$, then it converges to $H^\bullet$ with $H^n$ being t
 
 ## Examples
 
-### First quadrant spectral sequence {#FirstQuadrant}
+### First quadrant spectral sequence 
+ {#FirstQuadrant}
 
 +-- {: .num_defn}
 ###### Definition
@@ -208,11 +209,13 @@ If a cochain complex $C^\bullet$ is given a filtration $F^\star C^\bullet$, ther
 
 A filtration $F$ also gives rise to a graded object $Gr(F)$, whose grades are the successive level inclusion cokernels.  Generically, the operations of grading and homology do not commute: $Gr(F^* H^\bullet(C)) \neq H^\bullet (Gr(F^\star) C)$.
 
-As explained more fully at _[[spectral sequence of a filtered complex]]_, there is a spectral sequence associated to a filtered complex $F^\star C^\bullet$, passing through $H^\bullet (Gr(F^\star) C)$ in the page $E_{(1)}$ and which in good cases converges to $Gr(F^* H^\bullet(C))$.
+There is a spectral sequence associated to a filtered complex $F^\star C^\bullet$, passing through $H^\bullet (Gr(F^\star) C)$ in the page $E_{(1)}$ and which in good cases converges to $Gr(F^* H^\bullet(C))$.
+
+This is discussed at _[[spectral sequence of a filtered complex]]_
 
 #### Spectral sequence of a double complex
 
-A [[double complex]] is naturally filtered in two ways: by columns and by rows. By the above this gives two different spectral sequences associated with it.
+The [[total complex]] of a [[double complex]] is naturally filtered in two ways: by columns and by rows. By the above this gives two different spectral sequences associated computing the cohomology of a double complex from the cohomologies of its rows and columns.
 
 (...)
 
@@ -413,7 +416,7 @@ A standard textbook reference is chapter 5 of
 * [[Charles Weibel]], _An introduction to homological algebra_ Cambridge studies in advanced mathematics 38 (1994)
 {#Weibel}
 
-Review of standard definitions and facts about spectral sequences include
+Reviews of standard definitions and facts about spectral sequences include
 
 * [[Hal Schenck]], _Chapter 9: Cohomology and spectral sequences_ ([pdf](http://www.math.uiuc.edu/~schenck/tapp.pdf))
 
