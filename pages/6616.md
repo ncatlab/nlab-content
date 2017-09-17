@@ -538,3 +538,5 @@ Some ingredients for the geometric quantization of symplectic Lie $n$-algebroids
 
 [[!redirects geometric quantization of symplectic ∞-groupoids]]
 [[!redirects geometric quantization of symplectic infinity-groupoids]]
+
+[[!redirects higher geometric quantization]]
