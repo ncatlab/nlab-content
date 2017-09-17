@@ -9,9 +9,15 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-In one sense of the term, a _framing_ of a [[manifold]] is a choice of trivialization of its [[tangent bundle]], hence a choice of [[section]] of the corresponding [[frame bundle]].
+In one sense of the term, a _framing_ of a [[manifold]] is a choice of trivialization of its [[tangent bundle]], hence a choice of [[section]] of the corresponding [[frame bundle]]. 
+
+A manifold that admits a framing is also called a **parallelizable manifold**. A manifold equipped with a framing is also called a **parallelized manifold**.
 
 More generally, one means by a _framing_ not a trivialization of the tangent bundle itself, but
 
@@ -22,7 +28,60 @@ More generally, one means by a _framing_ not a trivialization of the tangent bun
 
 Accordingly, a _framed cobordism_ is a [[cobordism]] equipped with a framing on the underlying manifold.
 
+## Examples
+
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[Lie group]] is a parallelizable manifold.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Every non-zero [[invariant vector field]] on the Lie group provides an everywhere non-vanishing section of the tangent bundle.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[orientation|orientable]] 3-[[dimension|dimensional]] [[manifold]] admits a framing.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That a 3-manifold $X$  is orientable means that we have a [[reduction of the structure group]] of the tangent bundle to the [[special orthogonal group]], and hence the tangent bundle is classified by a map $X \to B SO(3)$. But since $SO(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B SO(3)$ has vanishing homotopy groups below degree 4 and hence every moprhism out of a 3-dimensional manifold into it is homotopically constant.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+The $n$-[[spheres]] that admit a framing are precisely only
+
+* the 1-sphere $S^1$, the [[circle]] underlying the [[circle group]]
+
+* the 3-sphere $S^3$, underlying the [[special unitary group]] $SU(2)$;
+
+* the 7-sphere $S^7$.
+
+=--
+
+## Related concepts
+
+* [[2-framing]]
+
 [[!redirects framed manifolds]]
 
 [[!redirects framed cobordism]]
 [[!redirects framed cobordisms]]
+
+[[!redirects parallelizable manifold]]
+[[!redirects parallelized manifold]]
+[[!redirects parallelizable manifolds]]
+[[!redirects parallelized manifolds]]
