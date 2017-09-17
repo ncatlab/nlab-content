@@ -82,4 +82,8 @@ which is a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suit
 
 ## Related entries
 
+* [[Weinstein symplectic category]]
+
 * [[Lagrangian correspondences and category-valued TFT]].
+
+[[!redirects Lagrangian correspondences]]
