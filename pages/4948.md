@@ -6,7 +6,13 @@
 ## Idea
 
 One can possibly enlarge the [[simplex category]] to a one of the several interesting categories in homological algebra like [[cycle category]] of Connes and the skeletal category of finite sets.
-Such examples can be founded axiomatically as kind of extensions of the simplex category by a group with special properties. The resulting notion is a __skew-simplicial group__ (synonym: crossed simplicial group): the presheaves on a skew-simplicial group are skew-simplicial sets of the corresponding kind. In addition to cyclic and symmetric simplicial sets other important applications are dihedral and quaternionic sets/homology (cf. Loday [MR89e:18024](http://www.ams.org/mathscinet-getitem?mr=89e:18024)). The formalism has been found by Krasauskas and a bit later and independently also by Fiedorowicz and Loday.
+Such examples can be founded axiomatically as kind of extensions of the simplex category by a group with special properties. The resulting notion is a __skew-simplicial group__ (synonym: crossed simplicial group): the presheaves on a skew-simplicial group are skew-simplicial sets of the corresponding kind. In addition to cyclic and symmetric simplicial sets other important applications are [[dihedral set|dihedral]] and [[quaternionic  set|quaternionic]] sets/homology (cf. Loday [MR89e:18024](http://www.ams.org/mathscinet-getitem?mr=89e:18024)). The formalism has been found by Krasauskas and a bit later and independently also by Fiedorowicz and Loday.
+
+##Related Lab entries
+
+* [[cyclic set]]
+
+
 
 ## References
 
