@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 =--
 =--
 
@@ -198,7 +202,9 @@ Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]
 
 ## Related concepts
 
-* [[measurable locale]]
+* The [[locale]]-version of the notion of measurable space is the notion of _[[measurable locale]]_.
+
+* In the context of [[fiber integration]] in [[generalized cohomology]], the analog of a measure is an [[orientation in generalized cohomology]].
 
 
 
