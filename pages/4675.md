@@ -19,7 +19,7 @@
 
 ## Idea
 
-Where a [[string structure]] is a trivialization of a class in [[integral cohomology]], a _differential string structure_ is the trivialization of this class refined to [[ordinary differential cohomology]]:
+Where a [[string structure]] is a trivialization of a class in [[integral cohomology]], a _differential string structure_ or _geometric string structure_ is the trivialization of this class refined to [[ordinary differential cohomology]]:
 
 the first fractional [[Pontryagin class]] 
 
@@ -897,3 +897,8 @@ in section 4.2.
 
 [[!redirects differential string-structure]]
 [[!redirects differential string-structures]]
+
+[[!redirects geometric string structure]]
+[[!redirects geometric string structures]]
+[[!redirects geometric string-structure]]
+[[!redirects geometric string-structures]]
