@@ -5,6 +5,7 @@ A scheme $X$ is quasi-separated if the morphism $X\o Spec\, \mathbf{Z}$ is quasi
 * MathOverflow [why-does-finitely-presented-imply-quasi-separated](http://mathoverflow.net/questions/36737/why-does-finitely-presented-imply-quasi-separated)
 * [[Daniel Murfet]], _Concentrated schemes_, [pdf](http://therisingsea.org/notes/ConcentratedSchemes.pdf), an expositional digest from EGA
 
+category: algebraic geometry
 [[!redirects quasiseparated morphism]]
 [[!redirects quasiseparated scheme]]
 [[!redirects quasi-separated schemes]]
