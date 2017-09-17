@@ -16,7 +16,9 @@
 
 ## Idea
 
-The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the [[classifying topos]] for the [[theory of objects]], sometimes called the "object classifier". This is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]]  and maybe better called in full the _classifying topos for the theory of objects_.
+The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the [[classifying topos]] for the [[theory of objects]], sometimes called the "object classifier".[^fine]
+
+[^fine]: This is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]]  and maybe better called in full the _classifying topos for the theory of objects_.
 
 For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$. The _generic object_ $U$ is the inclusion $FinSet\hookrightarrow Set$.[^fine]
 
@@ -62,6 +64,8 @@ What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Bl
 
 
 * [[Peter Johnstone]], section D3.2 in _[[Sketches of an Elephant]]_
+
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]]: _[[Sheaves in Geometry and Logic]]_, Springer Heidelberg 1994. (sec.VIII.4)
 
 * [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
 
