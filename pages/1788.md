@@ -47,7 +47,7 @@ Theorem \ref{a} refers to A, Theorem \ref{c} to C, and Theorem \ref{f} to F.
 
 ***
 
-Hmmm... This was fixed *days ago*. But not here, apparently.
+Hmmm... This was fixed *days ago*. But not here, apparently.  Pathetic ...
 
 category: meta
 
