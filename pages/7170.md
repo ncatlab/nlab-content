@@ -62,7 +62,15 @@ $$
 
 =--
 
-e.g. [Milnor-Stasheff 74, p. 131-133](#MilnorStasheff74)
+(e.g. [Milnor-Stasheff 74, p. 131-133](#MilnorStasheff74))
+
+
++-- {: .num_remark }
+###### Remark
+
+In other words this says that the lifts of Wu classes to [[integral cohomology]] ([[integral Wu structures]]) are _[[characteristic element of a bilinear form|characteristic elements]]_ of the [[intersection product]] on integral cohomology, inducing [[quadratic refinements]].
+
+=--
 
 ## Properties
 
