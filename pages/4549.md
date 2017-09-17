@@ -24,6 +24,10 @@ $$
 
 in the [[automorphism group]] of the [[fiber]] $P_{x_0}$ of the bundle. This is the **holonomy** of $\nabla$ around $\gamma$.
 
+Fixing a connection $\nabla$ and a point $x \in X$ the collection of all elements $hol_\nabla(\gamma)$ for all loops $\gamma$ based at $x$ forms a subgroup of $G$, called the [[holonomy group]].
+
+If the [[Levi-Civita connection]] on a [[Riemannian manifold]] $(X,g)$ has a holonomy group that is a proper subgroup of the [[special orthogonal group]] one says that $(X,g)$ is a manifold with [[special holonomy]]. (More precise would be: "with special holonomy group for the Levi-Civita connection".)
+
 ## Properties
 
 Proposition. If on a smooth principal bundle $P\to X$ there is a connection $\nabla$ whose holonomy group is $G$ then the structure group can be reduced to $G$. 
@@ -58,5 +62,18 @@ We may think of $Id + \Ad_{tra_\nabla(\gamma)}(F_A(\phi))$ as being the holonomy
 ## Higher holonomy
 
 The [[higher parallel transport|higher]] holonomy of [[circle n-bundles with connection]] is given by [[fiber integration in ordinary differential cohomology]].
+
+## Related concepts
+
+* [[connection on a bundle]], [[connection on a 2-bundle]], [[connection on an infinity-bundle]]
+
+* [[parallel transport]], [[higher parallel transport]]
+
+* **holonomy**
+
+  * [[holonomy group]]
+
+  * [[special holonomy]]
+
 
 [[!redirects holonomies]]
