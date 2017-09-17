@@ -190,19 +190,142 @@ This generalizes the action functional of ordinary [[Chern-Simons theory]] to ge
 
 ## Examples {#Examples}
 
-### On semisimple Lie algebra-- Standard Chern-Simons action functional
+### On semisimple Lie algebra-- Standard Chern-Simons action functional {#StandardCS}
 
-For $\mathfrak{g}$ a [[semisimple Lie algebra]], $\langle - \rangle$ the [[Killing form]] and $\mu = \langle -,[-,-]\rangle$ the corresponding cocycle, the above reproduces the classical Chern-Simons 3-form
+Let $\mathfrak{g}$ be a [[semisimple Lie algebra]]. For the following computations, choose a [[basis]] $\{t^a\}$ of $\mathfrak{g}^*$ and let $\{r^a\}$ denotes the corresponding degree-shifted basis of $\mathfrak{g}^*[1]$. 
+
+Notice that in terms of this the differential of the CE-algebra is
 
 $$
-  CS(A) = \langle A \wedge d A\rangle + c \langle A \wedge [A \wedge A]\rangle 
+  d_{CE(\mathfrak{g})} : t^a \mapsto -\frac{1}{2}C^a{}_{b c}t^b \wedge t^c
+$$
+
+and that of the Weil algebra
+
+$$
+  d_{W(\mathfrak{g})} : t^a \mapsto -\frac{1}{2}C^a{}_{b c}t^b \wedge t^c
+  + r^a
+$$
+
+and
+
+$$
+  d_{W(\mathfrak{g})} : r^a \mapsto  -C^a{}_{b c} t^b \wedge r^c
   \,.
 $$
+
+Let $P_{a b} r^a \wedge r^b \in W(\mathfrak{g})$ be the [[Killing form]] invariant polynomial. This being invariant
+
+$$
+  d_{W(\mathfrak{g})} P_{a b} r^a \wedge r^b 
+  =
+  2 P_{a b} C^{a}{}_{d e} t^d \wedge r^e \wedge r^b = 0
+$$
+
+is equivalent to the fact that the coefficients
+
+$$
+  C_{a b c} := P_{a a'}C^{a'}{}_{b c}
+$$
+
+are skew-symmetric in $a$ and $b$, and therefore skew in all three indices.
+
+
++-- {: .un_prop}
+###### Proposition
+
+A Chern-Simons element for the [[Killing form]] invariant polynomial $ \langle -, - \rangle = P(-,-)$ is
+
+$$
+  \begin{aligned}
+    cs &=
+    P_{a b} t^a \wedge (d_{W(\mathfrak{g})} t^b) 
+    + 
+    \frac{1}{3} P_{a a'}C^{a'}{}_{b c} t^a \wedge t^b \wedge t^c 
+    \\
+    & =
+    P_{a b} t^a \wedge r^b
+    -
+    \frac{1}{6} 
+    P_{a a'}C^{a'}{}_{b c} t^a \wedge t^b \wedge t^c 
+  \end{aligned}
+  \,.
+$$
+
+In particular the Killing form $\langle -,-\rangle$ is in transgression with the degree 3-cocycle
+
+$$
+  \mu = -\frac{1}{6}\langle -,[-,-]\rangle
+  \,.
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute 
+
+$$
+  \begin{aligned}
+    d_{W(\mathfrak{g})}
+    \left(
+       P_{a b} t^a \wedge r^b
+       +
+       \frac{1}{2}P_{a a'}C^{a'}{}_{b c} t^a \wedge t^b \wedge t^c        
+    \right)
+    & = 
+      P_{a b} r^a \wedge r^b
+      \\
+      & -\frac{1}{2} P_{a b} C^a{}_{d e} t^d \wedge t^e \wedge r^b
+      \\
+      & + P_{a b} C^b{}_{d e} t^a \wedge t^d \wedge r^e
+      \\
+      & - \frac{3}{6} 
+       P_{a a'}C^{a'}{}_{b c} t^a \wedge t^b \wedge r^c        
+      \\
+      & =
+      P_{a b} r^a \wedge r^b
+      \\
+      & + \frac{1}{2}C_{a b c} t^a \wedge t^b \wedge r^c
+      \\
+      & - \frac{1}{2} 
+       C_{a b c} t^a \wedge t^b \wedge r^c        
+      \\
+      & = P_{a b } r^a \wedge r^b
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+Under a [[Lie algebra-valued form]]
+
+$$
+  \Omega^\bullet(X) \stackrel{}{\leftarrow} W(\mathfrak{g}) : A
+$$
+
+this Chern-Simons element is sent to
+
+$$
+  cs(A) = P_{a b} A^a \wedge d A^b + \frac{1}{3} C_{a b c} A^a \wedge A^b \wedge A^c
+  \,.
+$$
+
+If $\mathfrak{g}$ is a [[matrix Lie algebra]] then the Killing form is the [[trace]] and this is equivalently
+
+$$
+  cs(A) = tr(A \wedge d A) + \frac{2}{3} tr(A \wedge A \wedge A)
+  \,.
+$$
+
+This is a familiar form of the standard [[Chern-Simons form]] in degree 3.
 
 For $\Sigma$ a 3-[[dimensional]] [[smooth manifold]] the corresponding [[action functional]] $S_{CS} : \Omega^1(\Sigma, \mathfrak{g}) \to \mathbb{R}$
 
 $$
-  S_{CS} : A \mapsto \int_\Sigma CS(A)
+  S_{CS} : A \mapsto \int_\Sigma cs(A)
 $$
 
 is the standard action functional of [[Chern-Simons theory]].
