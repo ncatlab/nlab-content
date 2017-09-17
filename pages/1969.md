@@ -363,8 +363,13 @@ and in sections 16, 17 of
 [[!redirects (∞,1)-categorial hom-space]]
 [[!redirects (infinity,1)-categorial hom space]]
 [[!redirects (∞,1)-categorial hom space]]
+
 [[!redirects derived hom space]]
 [[!redirects derived hom-space]]
+[[!redirects derived hom spaces]]
+[[!redirects derived hom-spaces]]
+
+
 [[!redirects hom-∞-groupoid]]
 [[!redirects hom-infinity-groupoid]]
 [[!redirects hom-(∞,0)-category]]
