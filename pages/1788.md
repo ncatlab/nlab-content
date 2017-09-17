@@ -4,6 +4,7 @@ a: b.
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
 
+
 ***
 
 $\underoverset{a}{b}{\to}$
@@ -397,6 +398,7 @@ If you want to include multiple contents pages, you can repeat the four lines fr
 
 category: meta
 
+[[!redirects sandbox]]
 [[!redirects Symbol Sandbox]]
 [[!redirects sandbox905234]]
 [[!redirects testing]]
