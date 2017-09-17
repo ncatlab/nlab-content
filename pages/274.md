@@ -61,6 +61,12 @@ that encodes the composition operation in the Segal category $X$.
 
 =--
 
+## Related concepts
+
+
+[[!include table - models for (infinity,1)-operads]]
+
+
 ## References
 
 Segal categories were defined in 1974 (implicitly) by [[Graeme Segal]]. They were named Segal categories first by [[William Dwyer]], [[Daniel Kan]], [[Jeff Smith]] in 1989. 
