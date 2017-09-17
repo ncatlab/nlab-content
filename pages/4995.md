@@ -413,6 +413,8 @@ Moreover, if $\mathbf{H}, \mathbf{B}$ both have a [[terminal object in an (∞,1
 ### Formulation in homotopy type theory
   {#DefinitionInHomotopyTypeTheory}
 
+> Warning. The following is currently not quite correct, some internal homs need to be replaced by external homs.
+
 We state the above [internal definition](#InternalDefinition) of a cohesive $(\infty,1)$-topos in the formal language of [[homotopy type theory]]. For [[Coq]]-implementations see the [references below](#ReferencesInHoTT).
 
     Require Import Homotopy Utf8.
