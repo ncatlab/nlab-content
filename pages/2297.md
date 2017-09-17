@@ -1,4 +1,9 @@
-* [website](http://www.math.uiuc.edu/~ganter/)
-
-
+* [homepage](http://www.ms.unimelb.edu.au/~nganter), [uni personel data](http://www.ms.unimelb.edu.au/Personnel/profile.php?PC_id=662)
+* _Stringy power operations in Tate K-theory_, [math.AT/0701565](http://arxiv.org/abs/math/0701565) 
+* _Inner products of 2-representations_, [http://arxiv.org/abs/1110.1711](http://arxiv.org/abs/1110.1711)
+* _Hecke operators in equivariant elliptic cohomology and generalized moonshine_, [arxiv/0706.2898](http://arxiv.org/abs/0706.2898) 
+* Nora Ganter, [[Mikhail Kapranov]], _Representation and character theory in 2-categories_, Adv. Math. __217__ (2008), no. 5, 2268-2300, [math.AT/0602510](http://arxiv.org/abs/math/0602510); _Symmetric and exterior powers of categories_, [arxiv/1110.4753](http://arxiv.org/abs/1110.4753)
+* _Orbifold genera, product formulas and power operations_, Adv. Math. __205__ (2006), no. 1, 84-133 (revised Ph. D. Thesis) [math.AT/0407021](http://arxiv.org/abs/math/0407021) 
+* N. Ganter, M. Ando, C. French, _The Jacobi orientation adn the two-variable elliptic genus_, Algebraic and Geometric Topology __8__, 493-539, 2008, [math.AG/0605554](http://arxiv.org/abs/math/0605554)
+* _Smash products of E(1)-local spectra at an odd prime_, Cah. Topol. Geom. Differ. Categ. __48__ (2007), no.1, 3-54, [math.CT/0410589](http://arxiv.org/abs/math/0410589)
 category: people
