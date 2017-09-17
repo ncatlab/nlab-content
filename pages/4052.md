@@ -124,6 +124,8 @@ For literature on [[internal categories]] in [[1-toposes]] see at _[[2-sheaf]]_.
 
 * **2-topos**, [[(∞,2)-topos]]
 
+  * [[elementary theory of the 2-category of categories]] ([[ETCC]])
+
   * [[n-localic 2-topos]]
 
 * [[n-topos]]
