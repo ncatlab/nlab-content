@@ -1,35 +1,33 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Geometry
-+--{: .hide}
++-- {: .hide}
 [[!include higher geometry - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
-_Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s equipped with their canonical [[Riemannian metric]] structure. In fact, Euclidean geometry can be regarded as the _local model_ for [[Riemannian geometry]], in some sense
+_Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These spaces come equipped with a canonical [[Riemannian metric]], and Euclidean geometry can be regarded as the _local model_ for [[Riemannian geometry]], in some sense.
+
 
 ## Properties
 
 * [[pentagon decagon hexagon identity]]
 
 
-
 ## Related concepts
-
 
   local model           |     global geometry
 ------------------------|--------------------------
@@ -37,4 +35,5 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s equipped w
   [[Klein geometry]]    |    [[Cartan geometry]]
 
 
+[[!redirects Euclidean geometry]]
 [[!redirects Euclidean geometries]]
