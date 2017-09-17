@@ -59,6 +59,8 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 * [[absolute value]], [[phase]]
 
+* [[complex plane]], [[complex projective space]], [[Riemann sphere]]
+
 * [[complex vector space]]
 
   * [[complex line]]
@@ -81,7 +83,14 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 [[!redirects complex numbers]]
 [[!redirects complex number system]]
+
+
 [[!redirects complex conjugation]]
+[[!redirects complex conjugations]]
+
+[[!redirects complex conjugate]]
+[[!redirects complex conjugates]]
+
 [[!redirects complex plane]]
 
 [[!redirects imaginary part]]
@@ -89,6 +98,7 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 [[!redirects imaginary parts]]
 [[!redirects real parts]]
+
 
 
 
