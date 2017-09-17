@@ -1,7 +1,8 @@
 <div class="rightHandSide toc" markdown="1">
 [[!include (infinity,1)-topos - contents]]
+***
+[[!include quasi-category theory contents]]
 </div>
-
 
 #Contents#
 * automatic table of contents goes here
