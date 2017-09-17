@@ -63,13 +63,8 @@ Conversely, the notion of coherent category may be understood as a [[categorific
 ### Completion
 
 
+The [[completely distributive lattice|completely distributive]] [[algebraic lattices]] (the [[frames of opens]] of [[Alexandroff locales]] ) form a [[reflective subcategory]] of that of all distributive lattices. The reflector is called _[[canonical extension]]_.
 
-
-## Related concepts
-
-* [[completely distributive lattice]]
-
-A notion of extension of distributive lattices to [[completely distributive lattices]] is  _[[canonical extension]]_.
 
 
 [[!redirects distributive lattices]]
