@@ -30,7 +30,7 @@
 | flavor of type theory  | $\;$equivalent to$\;$ | flavor of category theory | |
 |--|--|--|--|
 [[intuitionistic propositional logic]]/[[simply-typed lambda calculus]] | | [[cartesian closed category]] | |
-[[multiplicative intuitionistic linear logic]] | | [[symmetric monoidal closed category]] | | 
+[[multiplicative intuitionistic linear logic]] | | symmetric [[closed monoidal category]] | | 
 [[classical linear logic]] | | [[star-autonomous category ]] | |
 |[[first-order logic]] |  | [[hyperdoctrine]] | ([Seely 1984a](#SeelyA)) |
 |[[Martin-Löf dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
