@@ -68,7 +68,7 @@ In summary, this means:
 
 +-- {: .standout}
 
-The foundational characteristics of [[quantum physics]] are encoded in notions of [[function]]s on the [[algebra of observables]] $A$ which are _[[homomorphisms]]_ only _commutative-subalgebra-wise_ .
+The foundational characteristics of [[quantum physics]] are encoded in notions of [[functions]] on the [[algebra of observables]] $A$ which are linear and positive only _commutative-subalgebra-wise_ .
 
 =--
 
