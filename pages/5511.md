@@ -15,6 +15,7 @@
 * table of contents
 {:toc}
 
+
 ## Definition
 
 +-- {: .num_def}
@@ -37,6 +38,10 @@ This appears below [[Higher Topos Theory|HTT, cor. 6.2.3.5]] for $C$ a [[(∞,1)
 
 
 ## Properties
+
+### Factorization
+
+In an [[(∞,1)-topos]] the effective epis are the [[n-epimorphisms]] for $n = 1$ sitting in the [[(n-epi, n-mono) factorization system]] for $n = 1$ with the [[monomorphism in an (∞,1)-category]], factoring every morphism through its [[1-image]].
 
 ### Stability
 
