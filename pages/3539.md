@@ -53,6 +53,7 @@ I think it would be nice to have pages about all the different coherence theorem
 * [[coherence theorem for closed symmetric monoidal categories]]
 * [coherence theorem for bicategories](/nlab/show/bicategory#Coherence)
 * [coherence theorem for tricategories](/nlab/show/tricategory#Coherence)
+* [[coherence theorem for bicategories with finite limits]]
 
 
 ## General frameworks for coherence theorems
@@ -81,9 +82,6 @@ See [[operad]].
 
 See [[club]].
 
-+--{: .query}
-[[Mike Shulman]]: I would be wary of putting too much focus on clubs here.  There are lots of ways to present solutions to the first sort of coherence problem, corresponding to all the different ways to describe general algebraic structures: monads, clubs, operads, multicategories, props, etc.  We can certainly have a page on [[club]]s that describes their applications to coherence theorems, but I'd rather have this page talk more generally about coherence theorems and have links to other pages about specific coherence theorems or general methods for proving them.
-=--
 
 ## References
 
