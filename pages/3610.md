@@ -250,7 +250,7 @@ exhibts $\mathbf{L}$ as a [[reflective (∞,1)-subcategory]] of $\mathbf{H}$.
 This appears as [To06, cor 2.2.3](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=44).
 
 
-#### The well-adapted rational structure
+#### The well-adapted rational structure {#ToenWellAdapt}
 
 +-- {: .un_prop }
 ###### Proposition
