@@ -15,9 +15,9 @@
 
 ## Idea
 
-For a [[category]] $C$, its _opposite category_ $C^{op}$ is the category obtained by formally reversing the direction of all its [[morphism]]s (while retaining their original composition law).
+For a [[category]] $C$, its _opposite category_ $C^{op}$ is the category obtained by formally reversing the direction of all its [[morphisms]] (while retaining their original composition law).
 
-Categories generalize (are a [[horizontal categorification]]) of [[monoid]]s, [[group]]s and [[algebra]]s and forming the opposite category corresponds to forming the opposite of a group, of a monoid, of an algebra.
+Categories generalize (are a [[horizontal categorification]] of) [[monoids]], [[groups]] and [[algebras]], and forming the opposite category corresponds to forming the opposite of a group, of a monoid, of an algebra.
 
 
 
@@ -25,9 +25,9 @@ Categories generalize (are a [[horizontal categorification]]) of [[monoid]]s, [[
 
 ### In category theory
 
-For $C$ a [[category]] $C$, the **opposite category** $C^{op}$ has the same [[object]]s as $C$, but a [[morphism]] $f : x \to y$ in $C^{op}$ is the same as a morphism $f : y \to x$ in $C$, and a composite of morphisms $g f$ in $C^{op}$ is defined to be the composite $f g$ in $C$.
+For $C$ a [[category]] $C$, the **opposite category** $C^{op}$ has the same [[objects]] as $C$, but a [[morphism]] $f : x \to y$ in $C^{op}$ is the same as a morphism $f : y \to x$ in $C$, and a composite of morphisms $g f$ in $C^{op}$ is defined to be the composite $f g$ in $C$.
 
-More precisely, $C_0$ and $C_1$ are, respectively, the collections of [[object]]s and of [[morphism]]s of $C$, and if the structure maps of $C$ are
+More precisely, $C_0$ and $C_1$ are, respectively, the collections of [[objects]] and of [[morphisms]] of $C$, and if the structure maps of $C$ are
 
 * source and target: $s_C,t_C : C_1 \to C_0$
 
@@ -104,6 +104,8 @@ $$
 
 The unit maps $j_a : I \to C^{op}(a,a)$ are those of $C$ under the identification $C^{op}(a,a) = C(a,a)$.
 
+Note that the [[braiding]] of $V$ is used in defining composition for $C^{op}$.  So, we cannot define the opposite of a $V$-enriched category if $V$ is merely a [[monoidal category]], though $V$-enriched categories still make perfect sense in this case.  If $V$ is a [[braided monoidal category]] there are (at least) two ways to define $C^{op}$.  If $V$ is [[symmetric monoidal category]] these two ways coincide.
+
 ### In higher category theory
 
 See
@@ -171,6 +173,8 @@ $$
   (C^{op})^{op} = C
   \,.
 $$
+
+This is also true for $V$-enriched categories when $V$ is symmetric monoidal, but not when $V$ is merely braided.
 
 ### Co-algebraic structures
 
