@@ -3,19 +3,25 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition
+## Idea
 
-A **diagram** in a [[category]] $C$ is simply a [[functor]] $F: J \to C$. 
+In general, a diagram is the same thing as a [[functor]], and sometimes it\'s helpful to work in that generality.  However, we often use the term 'diagram' for something that we can actually see on the page, in which case we mean a functor whose from the [[free category]] on a finite [[quiver]].
 
-The category $J$ is called the **shape** or **index category** of the diagram, and is typically understood to be a [[small category]]. 
 
-One speaks of such functors as diagrams for instance 
+## Definitions
 
-* when the [[limit]] or [[colimit]] over the functor is considered. This is then  often called the limit or colimit of the corresponding diagram. 
+Let $C$ be a [[category]].
 
-* when _commuting diagrams_ are considered: a **[[commuting diagram]]** in $C$ is a diagram for which $J$ is a [[poset]]. 
+If $J$ is also a category, then a __diagram__ in $C$ of shape $J$ is simply a [[functor]] $D\colon J \to C$.
 
-  So a commuting diagram is a diagram where every two morphisms in $C$ that are assigned to any pair of _parallel morphisms in $J$_ (i.e. with same source and target in $J$) are equal. 
+If $J$ is a [[directed graph]], the a __diagram__ in $C$ of shape $J$ is a functor $D\colon F(J) \to C$, or equivalently a graph morphism $\bar{D}\colon J \to U(C)$.  Here $F\colon Graph \to Cat$ and $U\colon Cat \to Graph$ are [[adjoint functors]].
+
+In either case, $J$ may be called the __shape__, __scheme__, or __index__ category or graph.
+
+A diagram __[[commutative diagram]]__ if it factors (up to [[natural isomorphism]]) through a [[poset]].  So a commuting diagram is a diagram where every two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.
+
+In addition to commutative diagrams, one speaks of functors as diagrams when the [[limit]] or [[colimit]] over the functor is considered. This is then often called the limit or colimit of the corresponding diagram.
+
 
 ## Examples
 
