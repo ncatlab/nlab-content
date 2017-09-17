@@ -68,6 +68,8 @@ By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence
 
   * **type II string theory**
 
+    [[Diaconescu-Moore-Witten anomaly]]
+
     [[type II geometry]]
  
     4d [[super Yang-Mills theory]]
