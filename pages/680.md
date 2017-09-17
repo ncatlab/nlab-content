@@ -579,7 +579,7 @@ gives seven equivalent categories with the equivalences all expressing  nonabeli
 
 The relation of these with the abelian version is given in 
 
-* Brown, R. and Higgins, P.~J., _Cubical abelian groups with connections are equivalent to   chain complexes_. Homology Homotopy Appl. 5~(1) (2003) 49--52. 
+* Brown, R. and Higgins, P. J., _Cubical abelian groups with connections are equivalent to   chain complexes_. Homology Homotopy Appl. 5 (1) (2003) 49--52. 
 
 The discussion of Dold--Kan in the general context of [[semi-abelian category|semi-abelian categories]] is in
 
