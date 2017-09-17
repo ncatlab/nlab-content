@@ -162,9 +162,9 @@ This is discussed at
 ## References
 {#References}
 
-The idea of axiomaizing [[differential geometry]] using [[topos]] theory originates in 
+The idea of axiomatizing [[differential geometry]] using [[topos]] theory originates in 
 
-* [[Bill Lawvere]], _Categorical dynamics_, lecture (1967)
+* [[Bill Lawvere]], _Categorical dynamics_, lecture  (Chicago 1967) ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
 
 The first model for the axioms presented there served to demonstrate that the theory is non-empty, but was hard to work with. Much of the later work was concerned with refining the model-building. For instance
 
@@ -174,11 +174,12 @@ These models are constructed in terms of [[sheaf]] [[topos]]es on the category o
 
 Transcipts or notes of further talks by Bill Lawvere on the subject are
 
-* [[Bill Lawvere]], _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+* [[Bill Lawvere]], _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([[LawvereToposesOfLawsOfMotions.pdf:file]])
 
   (on the description of [[differential equation]]s in terms of synthetic differential geometry)
 
-* [[Bill Lawvere]], _Outline of synthetic differential geometry_ , seminar notes (1998) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/SDG_Outline.pdf))
+* [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998) ([[LawvereSDGOutline.pdf:file]])
+
 
 See also
 
@@ -204,7 +205,6 @@ focuses on concrete constructions of well-adapted models using the technology of
 Another textbook is
 
 * R. Lavendhomme, _Basic concepts of synthetic differential geometry_, Kluwer, Dordrecht (1996)
-
 
 ### Expositions
 
