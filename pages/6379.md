@@ -5,14 +5,14 @@
 
 ## Idea 
 
-In number theory, the quadratic reciprocity law determines a precise relationship between the truth of $p R q$ and the truth of $q R p$, where $p R q$ is the [[relation]] on odd primes: "$p$ is a square modulo $q$". 
+In [[number theory]], the quadratic reciprocity law determines a precise relationship between the truth of $p R q$ and the truth of $q R p$, where $p R q$ is this [[binary relation]] on odd [[prime numbers]]: "$p$ is a square [[modular arithmetic|modulo]] $q$". 
 
 The law of quadratic reciprocity is a celebrated result due to [[Gauss]]; the ideas required to prove it helped to inaugurate modern [[number theory]]. It is today largely considered within the context of [[class field theory]], involving how [[prime number|primes]] decompose in [[Galois extension|abelian extensions]] of [[number fields]]. 
 
 
 ## Statement 
 
-For $p \geq 1$ an odd [[prime number]], and for any [[integer]] $a$, define the __Legendre symbol __ (or quadratic reciprocity symbol) $\left(\frac{a}{p}\right)$ to be the unique element in $\{-1, 0, 1\}$ for which 
+For $p \geq 1$ an odd [[prime number]], and for any [[integer]] $a$, define the __Legendre symbol__ (or _quadratic reciprocity symbol_) $\left(\frac{a}{p}\right)$ to be the unique element in $\{-1, 0, 1\}$ for which 
 
 $$
 \left(\frac{a}{p}\right) \equiv a^{\frac{p-1}{2}} \; mod \; p
@@ -43,14 +43,14 @@ The case for odd primes $p$, $q$ can be restated as:
 
 * if $p,q \equiv 3 \; mod \; 4$ then  $\left(\frac{p}{q}\right) = -\left(\frac{q}{p}\right)$
 
-The law of quadratic reciprocity was first fully proven by [Gauss](#Gauss), although special cases were proven by Fermat (who effectively realized when $-1$ was a square modulo $p$ based on his [[two squares theorem]] -- well before Legendre introduced his eponymous symbol), and Euler (who proved the case for $q = 2$). 
+The law of quadratic reciprocity was first fully proven by [Gauss](#Gauss), although special cases were proven by [[Fermat]] (who effectively realized when $-1$ was a square modulo $p$ based on his [[two squares theorem]] -- well before Legendre introduced his eponymous symbol), and [[Euler]] (who proved the case for $q = 2$). 
 
 None of these early authors were in full possession of modern notations such as the congruence symbol or the Legendre symbol, which greatly economize the amount of thought needed to prove this theorem. Recognition of quadratic reciprocity was likely rooted in empirical observations, for example the study of periods of expansions of $1/q$ in base $p$ (source?). 
 
 
 ## Sample classroom application 
 
-Consider the problem of computing the length of the period of $1/65537$ in its decimal expansion. This period is the same as the least positive exponent $n$ such that $10^n \equiv 1 \; mod \; 65537$, and is a divisor of $65536$ (thus, a power of $2$). Indeed, note that $65537$ is a [[Fermat prime]] $2^{2^4} + 1$. 
+Consider the problem of computing the length of the period of $1/65537$ in its decimal expansion. This period is the same as the least positive exponent $n$ such that $10^n \equiv 1 \; mod \; 65537$, and is a divisor of $65536$ (thus, a power of $2$). Indeed, $65537$ is a [[Fermat prime]]: $2^{2^4} + 1$. 
 
 The period is a proper divisor of $65536$ if and only if $10$ is a square modulo $p = 65537$, leading one to contemplate 
 
@@ -70,7 +70,7 @@ There are today several hundred published proofs of the quadratic reciprocity la
 
 ### Proof via Gauss sums 
 
-This proof, following [Lang](#Lang) (pp. 76-78), is middling in sophistication but at least indicates the relevance of [[cyclotomic extension]]s of the rationals $\mathbb{Q}$ and [[quadratic extension]]s therein. Let $p$ be a fixed odd prime, and let $\zeta$ be a primitive $p^{th}$ [[root of unity]]. Using the Legendre symbol, we introduce a particular [[character]] sum called a **Gauss sum**, 
+This proof, following [Lang](#Lang) (pp. 76--78), is middling in sophistication but at least indicates the relevance of [[cyclotomic extension]]s of the rationals $\mathbb{Q}$ and [[quadratic extension]]s therein. Let $p$ be a fixed odd prime, and let $\zeta$ be a primitive $p^{th}$ [[root of unity]]. Using the Legendre symbol, we introduce a particular [[character]] sum called a **[[Gauss sum]]**, 
 
 $$S \coloneqq \sum_a \left(\frac{a}{p}\right) \zeta^a,$$
 
@@ -249,3 +249,5 @@ As mentioned earlier, quadratic reciprocity law is due to Gauss and is the first
 
 [[!redirects quadratic reciprocity]]
 [[!redirects quadratic reciprocity law]]
+[[!redirects Legendre symbol]]
+[[!redirects Legendre symbols]]
