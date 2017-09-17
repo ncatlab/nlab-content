@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Monoidal categories
-+--{: .hide}
++-- {: .hide}
 [[!include monoidal categories - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -70,6 +70,11 @@ For more on this see
 * [[quantum mechanics in terms of †-compact categories]].
 
 
+## Relation to Hilbert spaces
+
+The category of [[Hilbert spaces]] (over the [[complex numbers]]) with finite [[dimension]] is a standard example of a $\dagger$-compact category.  This example is [[completeness theorem|complete]] for [[equation]]s in the language of $\dagger$-compact categories; see [Selinger 2012](#Selinger2012).
+
+
 ## References
 
 The concept was introduced in 
@@ -78,8 +83,13 @@ The concept was introduced in
 
 See also:
 
-* Peter Selinger, Dagger compact closed categories and completely positive maps, in _Proceedings of the 3rd International Workshop on Quantum Programming Languages_ (QPL 2005), ENTCS 170 (2007), 139--163. 
+* Peter Selinger (2007), Dagger compact closed categories and completely positive maps, in _Proceedings of the 3rd International Workshop on Quantum Programming Languages_ (QPL 2005), ENTCS 170 (2007), 139--163. 
 ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
+
+For completeness of finite-dimensional Hilbert spaces:
+
+*  Peter Selinger (2012), Finite dimensional Hilbert spaces are complete for dagger compact closed categories, [arXiv](http://arxiv.org/abs/1207.6972).
+   {#Selinger2012}
 
 
 [[!redirects dagger compact category]]
