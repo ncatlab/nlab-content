@@ -194,6 +194,8 @@ Hence (...)
 
 * [[conservation law]]
 
+* [[chiral anomaly]]
+
 * [[classical observable]]
 
 * [[Noether theorem]]
