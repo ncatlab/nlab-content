@@ -89,6 +89,12 @@ This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. M
 
 ### Covariant phase space
 
+A standard textbook reference is chapter 17.1 of 
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_ , Princeton University Press 1992. xxviii+520 pp.
+
+In the following we give a commented list of references following the hostorical development.
+
 It seems that there have been two independent lines of development,
 somewhat independent of each other, but also with some
 crosspollination along the way. One stream [(P)](#ViaPoissonStructure) was concerned with the
