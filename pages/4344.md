@@ -46,7 +46,11 @@ The $C^\ast$-[[representation category]] of a weak [[Hopf C-star-algebra]] (see 
 
 ## Related concepts
 
+* [[star-category]], [[dagger-category]]
+
 * [[spaceoid]]
+
+* [[KK-theory]]
 
 [[!redirects C-star-category]]
 [[!redirects C-star-categories]]
