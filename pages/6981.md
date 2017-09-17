@@ -24,4 +24,4 @@
    [[completely presented set]]  | [[discrete object]]/[[0-truncated object]]    |  [[h-level 2]]-[[type]]/[[preset]]/[[h-set]]
    [[set]]  |  [[groupoid object in an (infinity,1)-category|internal 0-groupoid]]   | [[Bishop set]]/[[setoid]]
  [[universe]] | [[object classifier]] | [[type of types]] 
- [[monad]] | [[monad]] | [[monad (in computer science)]]
+ [[modality]] | [[monad]] | [[modal type theory]], [[monad (in computer science)]]
