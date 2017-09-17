@@ -141,11 +141,17 @@ A trivial class of examples is:
 
 * Every topos is cohesive over itself.
 
-In the following we describe more interesting examples
+In the following we describe more interesting examples.
 
 ### Sites of cohesion {#SitesOfCohesion}
 
-We define extra [[stuff, structure, property|property]] on a [[site]] such that the [[sheaf topos]] over $C$ is cohesive over [[Set]] and the [[(∞,1)-sheaf (∞,1)-topos]] over it is cohesive over [[∞Grpd]].
+We define extra [[stuff, structure, property|property]] on a [[site]] $C$ such that 
+
+* the [[sheaf topos]] over $C$ is cohesive over [[Set]];
+
+* the [[(∞,1)-sheaf (∞,1)-topos]] over $C$ is cohesive over [[∞Grpd]];
+
+* and generally the [[(n,1)-topos]] over $C$ is cohesive over [[nGrpd]].
 
 {#SiteOfCohesion}
 +-- {: .un_def}
@@ -184,7 +190,7 @@ A **site of cohesion** over [[Set]] is
 +-- {: .un_remark}
 ###### Remark
 
-These definition are supposed to model the following ideas:
+This definition are supposed to model the following ideas:
 
 * since the site is concrete, every object $U$ has an underlying set of points $Hom_C(*,U)$. We may think of each $U$  as specifying one way in which there can be cohesion on this underlying set of points;
 
@@ -230,6 +236,17 @@ That $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using that a [
 Let $C$ be [site of cohesion](#SiteOfCohesion). Then the [[(∞,1)-sheaf (∞,1)-topos]] $(\infty,1)Sh(C)$ is cohesive. 
 
 =--
+
+Since the [[(n,1)-topos]] over a site for any $n \in \mathbb{N}$ arises as the full [[sub-(∞,1)-category]] of the $(\infty,1)$-topos on the $n$-[[truncated object]]s and since the definition of cohesive $(n,1)$-topos is compatible with such truncation, it follows that
+
++-- {: .un_corollary}
+###### Corollary
+
+Let $C$ be [site of cohesion](#SiteOfCohesion). Then for all $n \in \mathbb{N}$ the [[(n,1)-topos]] $(n,1)Sh(C)$ is cohesive. 
+
+=--
+
+
 
 We prove this in a sequence of propositions, checking the conditions item-by-item. The general strategy is that we [[presentable (∞,1)-category|present]] the [[(∞,1)-categories]] in terms of [[combinatorial simplicial model categories]] as reviewed at [[models for ∞-stack (∞,1)-toposes]]. Specifically, we use the left [[Bousfield localization of model categories|Bousfield localization]] $[C^{op}, sSet]_{proj,loc}$ of the  projective [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{proj}$ at the [[Cech nerve]] projections $C(U) \to U$ to model the [[topological localization]] / Cech localization
 
@@ -546,18 +563,52 @@ $$
 is the [[homotopy limit]] over some cosimplicial diagram. Take that diagram to be
 
 $$
+  sSet({C(\Gamma(U) \to *)},S)
+  =
   \left(
-    S^{\Gamma(U)}
+    sSet(\Gamma(U),S)
     \stackrel{\to}{\to}
-    S^{\Gamma(U) \times \Gamma(U)}
+    sSet(\Gamma(U) \times \Gamma(U), S)
     \stackrel{\to}{\stackrel{\to}{\to}}
-    S^{\Gamma(U) \times \Gamma(U) \times \Gamma(U)}
+    sSet(\Gamma(U) \times \Gamma(U) \times \Gamma(U), S)
     \cdots
   \right)
   \,.
 $$
 
-This is fibrant in the [[Reedy model structure]] on [[cosimplicial object]]s, hence its [[homotopy limit]] is its ordinary [[limit]]. That is indeed $S$.
+We claim that this is fibrant in the [[Reedy model structure]] on [[cosimplicial object]]s in $sSet_{Quillen}$: in degree $k$ the map into the matching  object is
+
+$$
+  sSet(\Gamma(U)^k, S) \to 
+  \lim_{\leftarrow_i} sSet(\Gamma(U)^i, S)
+  =
+  sSet(\lim_{\to_i} \Gamma(U)^i, S)
+  \,.
+$$ 
+
+Since $S$ is fibrant in $sSet_{Quillen}$ and using that
+$sSet_{Quillen}$ is a [[simplicial model category]], we have that this
+is a fibration if
+
+$$
+  \lim_{\to_i} \Gamma(U)^i \to \Gamma(U)^k
+$$
+
+is a coffibration. But this is the inclusion 
+into all $k$-tuples of elements of $U$ of those $k$-tuples for which 
+an entry repeats. So this is a monomorphism, hence a cofibration.
+
+Therefore the [[homotopy limit]] over $sSet({C(\Gamma(U) \to *)},S)$
+is the ordinary limit, which is
+
+$$
+  \lim_{\leftarrow_k} sSet(\Gamma(U)^k, S)
+  =
+  sSet(\lim_{\to_k} \Gamma(U)^k, S)
+  = sSet(*, S)
+  = S
+  \,.
+$$
 
 =--
 
