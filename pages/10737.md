@@ -1,20 +1,58 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+### Of an abelian group
+
+For $A$ an [[abelian group]] (or [[commutative ring]]) and $p$ a [[prime number]], the _$p$-completion_ of $A$ is the [[limit]]
+
+$$
+  A_p^\wedge \coloneqq \underset{\leftarrow}{\lim} A/(p^n A)
+  \,.
+$$
+
+(e.g. [May Ponto, 10.1.1](#MayPonto))
+
+A is called _$p$-complete_ if the canonical [[homomorphism]] $A \to A_p^\wedge$ is an [[isomorphism]]
+
+### Of a homotopy type
+
+(...) ([e.g. May-Ponto, 10.2](#MayPonto))
+
+## Examples
+
+For $A = \mathbb{Z}$ the [[integers]], the $p$-completion is the [[p-adic integers]]. (Notice that here traditionally one writes $\mathbb{Z}_p = \mathbb{Z}_p^\wedge$.)  
+
+More generally, if $A$ is [[finitely generated object|finitely generated]], then $A_p^\wedge \simeq A\otimes \mathbb{Z}_p$. (e.g. [May Ponto, p. 154](#MayPonto))
 
 ## Related concepts
 
 * [[p-adic integers]]
 
-* [[completion of a ring]]
+* [[completion of a ring]], [[analytic completion of a ring]]
 
 * [[p-localization]]
 
 * [[p-adic homotopy theory]]
 
+* [[fracture theorem]]
+
 ## References
 
-For [[spectra]], e.g.
+
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
+
+* {#MayPonto} [[Peter May]], [[Kate Ponto]], chapters 7 and 8 of _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
 * [[Doug Ravenel]], chapter 2, def. 2.1.14 _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 [[!redirects p-completions]]
 
+[[!redirects p-complete ring]]
+[[!redirects p-complete rings]]
+
+[[!redirects p-complete homotopy type]]
+[[!redirects p-complete homotopy types]]
