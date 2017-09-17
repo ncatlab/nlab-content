@@ -70,7 +70,7 @@ There is a standard way to _[[presentable (∞,1)-category|present]]_ all this s
 
 A concise overview of the constructions and definitions just outlined above is in
 
-* J. F. Jardine, _Motivic spaces and the motivic stable category_ 
+* [[Rick Jardine]], _Motivic spaces and the motivic stable category_ 
   ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf))
 
 More details on the [[Nisnevich site]], the [[model structure on simplicial presheaves]] on it and its [[homotopy localization]] to [[A1-homotopy theory]] is in [section 3](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=60) of
