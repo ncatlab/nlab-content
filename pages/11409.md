@@ -1,0 +1,34 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _compactness theorem_ is one of the basic results of _[[model theory]]_ about the characterization of [[models]] over [[first-order theories]].
+
+## Related concepts
+
+
+* [[Löwenheim-Skolem theorem]]
+
+* [[Skolem's paradox]]
+
+
+## References
+
+* Wikipedia, _[compactness theorem](https://en.wikipedia.org/wiki/Compactness_theorem)_
+
+
