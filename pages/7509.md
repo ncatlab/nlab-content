@@ -61,7 +61,7 @@ p\colon \sum_{x\colon A} B(x) \qquad x\colon A, y\colon B(x) \vdash c\colon C((x
 
 We need a term $c$ in the context of two variables of types $A$ and $B$, and the destructor or match "binds those variables" to the two components of $p$.  Note that the "ordered pair" $(x,y)$ in the destructor is just a part of the syntax; it is not an instance of the *constructor* ordered pair.
 
-Now we have [[beta reduction]] rule:
+Now we have the [[beta reduction]] rule:
 
 $$ let (x,y) = (a,b) \,in c \;\to_\beta\; c[a/x, b/y] $$
 
@@ -85,7 +85,7 @@ Arguably, negatively defined products should be naturally expressed as [[coinduc
 
 ### Positive versus negative
 
-In ordinary "nonlinear" type theory, the positive and negative dependent sum types are equivalent, just as in the case of product types.  They manifestly have the same constructor, while we can define the eliminators in terms of each other as follows:
+In ordinary "nonlinear" type theory, the positive and negative dependent sum types are equivalent, just as in the case of [[product types]].  They manifestly have the same constructor, while we can define the eliminators in terms of each other as follows:
 
 $$
 \begin{aligned}
@@ -97,7 +97,7 @@ $$
 
 The computation rules then also correspond, just as for [[product types]].
 
-Note that in order to recover the important *dependent* eliminator for the positive product type from the eliminators for the negative product type, we need the latter to satisfy the $\eta$-conversion rule so as to make the above definition well-typed.  Thus, in a type theory without definitional $\eta$-conversion (such as Coq), the positive presentation is better.
+Also just as for product types, in order to recover the important *dependent* eliminator for the positive product type from the eliminators for the negative product type, we need the latter to satisfy the $\eta$-conversion rule so as to make the above definition well-typed.  By inserting a transport, we can make do with a [propositional](/nlab/show/eta-conversion#Propositional) $\eta$-conversion, which is also provable from the dependent eliminator.
 
 One might expect that in "dependent linear type theory" the positive and negative dependent sums would become different.  However, the meaning of the quoted phrase is unclear.
 
