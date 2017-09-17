@@ -163,6 +163,7 @@ Discussion of [[11-dimensional supergravity]] in a form that exhibits the higher
 
 * {#HohmSamtleben13} Olaf Hohm, [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
 
+
 ### In various dimensions
 
 The case of $SL(3,\mathbb{Z}) \times SL(2,\mathbb{Z})$ in [[8d supergravity]] is discussed in 
@@ -189,7 +190,7 @@ The case of [[E9]] is discussed in
 
 * {#EHKNT07} [[François Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An E9 multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
 
-The case of [[E10]] is discussed in 
+The case of [[E10]] is discussed for [[boson|bosonic]] degrees of freedom in 
 
 * [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a 'small tension expansion' of M
 theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267));
@@ -197,7 +198,15 @@ theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
 041 (2004) ([arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101))
 
-and that of [[E11]] in 
+and for fermionic degrees of freedom in [[supergravity|supersymmetric]] [[quantum cosmology]] in 
+
+* {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
+
+More recent review includes
+
+* {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
+
+The case of of [[E11]] is discussed in 
 
 * [[Peter West]], _$E_{11}$ and M-theory_, Class. Quant. Grav. 18, 4443 (2001) ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081)).
 
