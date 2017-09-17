@@ -12,7 +12,7 @@
 
 * D. Ben-Zvi, J. Francis, D. Nadler, _Integral transforms and Drinfeld centers in derived algebraic geometry_, [arXiv:0805.0157](http://arxiv.org/abs/0805.0157), Jour. Amer. Math. Soc. 2010, [doi](http://dx.doi.org/10.1090/S0894-0347-10-00669-7)
 
-* David Ben-Zvi, David Nadler, _Loop Spaces and Langlands Parameters_ ([arXiv](http://arxiv.org/abs/0706.0322))
+* David Ben-Zvi, David Nadler, _Loop spaces and Langlands parameters_ ([arXiv](http://arxiv.org/abs/0706.0322))
 
 * D. Ben-Zvi, D. Nadler, _Loop spaces and connections_,
 [arxiv/1002.3636](http://arxiv.org/abs/1002.3636)
@@ -24,3 +24,5 @@
 * D. Ben-Zvi has given many interesting answers to [http://mathoverflow.net](MathOverflow) questions, and a list can be found at [MO user page:David Ben-Zvi](http://mathoverflow.net/users/582/david-ben-zvi).
 
 category: people
+
+[[!redirects D. Ben-Zvi]]
