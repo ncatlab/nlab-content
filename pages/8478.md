@@ -1,0 +1,125 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Sequent#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In formal [[logic]] a _sequent_ is an expression in the metalanguage 
+which is a string of symbols of the form
+
+$$
+  Ctxt \vdash Jdgmt
+$$
+
+where 
+
+1. $Ctxt$ are symbols indicating a logical [[context]], 
+
+1. $Jdgmt$ are symbols indicating a [[judgement]] 
+
+1. the **turnstile**-symbol "$\vdash$" is supposed to be a formal reflection of a statement like
+
+   " $Ctxt$ yields $Jdgmt$."
+
+   or
+
+   "In $Ctxt$ the $Jdgmt$ can be proven."
+
+   or
+
+   "$Ctxt$, con-sequent-ly $Jdgmt$."
+
+   Or similar. 
+
+
+There are several systems of formal logic with several specific implementations of this idea. See for instance 
+
+* [[sequent calculus]]
+
+* [[dependent type theory]]
+
+(...)
+
+## Formalizations
+
+### In homotopy type theory
+
+Under the [[categorical semantics]] of [[homotopy type theory]]
+sequents in the type theory pretty accurately corrsepond to 
+[[morphisms]] in the [[(∞,1)-topos]]. We indicate how this works, for type declarations, the for terms of [[dependent types]].
+
+Let $\mathb{H}$ be an [[(∞,1)-topos]]. Write $Type \in \mathbf{H}$ for the [[universe in a topos|internal universe]] of  [[small objects]] of $\mathbf{H}$, called the _[[object classifier]]_. 
+
+This is defined as the [[representable functor|representing object]]
+for the [[core]] of the [[small object|small]] [[codomain fibration]], exhibited by an  [[equivalence of ∞-groupoids]]
+
+$$
+  name
+  :
+  Core(\mathbf{H}_{/X})^{small} \stackrel{\simeq}{\to} \mathbf{H}(X,Type)
+  \,.
+$$
+
+This equivalence sends an $X$-family $(E \to X) \in \mathbf{H}_{/X}$ to its "name", denoted
+
+$$
+  X \stackrel{\vdash E}{\to} Type
+  \,,
+$$
+
+which is the morphism characterized by fitting into an
+[[(∞,1)-pullback|∞-pullback]] square of the form
+
+$$
+  \array{
+     E &\to& \widehat{Type}
+     \\
+     \downarrow &\swArrow& \downarrow
+     \\
+     X &\underset{\vdash E}{\to}& Type
+  }
+  \,,
+$$
+
+If here we simply replace, notationally, the arrow "$\to$" by the turnstile "$\vdash$", display a generic [[generalized element]] $x$ of $X$ and then write $E(x)$ to highlight the dependence of the [[fibers]] of $E$ on $x$ in $X$, then the symbols "$X \stackrel{\vdash E}{\to} Type$" become the 
+sequent "$x : X \vdash E(x) : Type$" 
+
+This sequent is the [[syntax]] of which the morphism is the [[categorical semantics]]. In summary, we have a notational correspondence 
+
+Similarly, if $X \stackrel{t}{\to}_X E$
+is a [[section]] of $E$ over $X$, hence 
+a [[generalized element]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/X}$,
+then by replacing the arrow-symbol by a
+ turnstile-symbol we get "$x : X \vdash t(x) : E(x)$".
+This is the sequent for the [[term]] $t$ of the [[dependent type]] $E$.
+
+In summary we have under the [[relation between category theory and type theory]] the notational correspondence:
+
+**morphisms to sequents.**
+
+
+| $\,$ | [[types]] | [[terms]] |
+|--|--|--|
+| [[(∞,1)-topos theory|∞-topos theory]] | $\;\;\;\;X \stackrel{\vdash \;\;\;\;E}{\to} \;\;\Type$ | $\;\;\;\;X \stackrel{\vdash \;\;\;t}{\to} {}_X \;\;E$ |
+|[[homotopy type theory]] | $x : X \vdash E(x) : Type$ | $x : X \vdash t(x) : E(x) $ |
+
+
+[[!redirects sequents]]
+
+[[!redirects turnstile]]
