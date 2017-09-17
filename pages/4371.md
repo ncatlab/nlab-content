@@ -112,7 +112,7 @@ In a presheaf topos (on a small category) the notions of *$\neg\neg$-topology* a
 
 ## In higher topos theory
 
-In a [[predicative topos|predicative]] context, the double negation modality is equivalent to the [[n-truncation modality]] for $n = -1$.
+[[classical logic|Classically]] the double negation modality is equivalent to the [[n-truncation modality]] for $n = -1$. See also at _[[bracket type]]_.
 
 ## References
 
