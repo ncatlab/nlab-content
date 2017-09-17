@@ -3,7 +3,13 @@
 
 * [[formally étale morphism|formally étale]] ([[formally smooth morphism|formally smooth]], [[formally unramified morphism|formally unramified]])
 
+* [[étale topos]]
+
 * [[étale ∞-groupoid]]
+
+axiomatization in **[[differential cohesion]]**
+
+* [[reduction modality]] $\dashv$ [[infinitesimal shape modality]]
 
 
 in **[[topology]]**
@@ -20,9 +26,11 @@ in **[[differential geometry]]**
 
 in **[[algebraic geometry]]**
 
-* [[étale morphism of schemes]]
+* [[étale morphism of schemes]], [[formally étale morphism of schemes]]
 
-* [[étale site]], [[étale (∞,1)-site]] 
+* [[étale site]], [[pro-étale site]], [[étale (∞,1)-site]] 
 
-* [[étale cohomology]]
+* [[Deligne-Mumford stack]]
+
+* [[étale cohomology]], [[pro-étale cohomology]], [[ℓ-adic cohomology]]
 
