@@ -7,7 +7,7 @@ This terminology is used by Borceux and Janeldize in their book on [[Galois Theo
 
 The Chevalley fundamental group $Aut(p)= Aut(E,p)$ is defined only for connected spaces $B$ which admit a universal covering map $p: E\to B$ with connected $E$, and, of course, depends on it, but again, different $p$ produce isomorphic groups.''
 
-The term_ algebriac fundamental group_ is also sometimes used for this, although more usually that term is reserved for Grothendieck's fundamental group of  a scheme.
+The term _ algebraic fundamental group_ is also sometimes used for this, although more usually that term is reserved for Grothendieck's fundamental group of  a scheme.
 
 
 ##References
