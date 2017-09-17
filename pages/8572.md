@@ -39,12 +39,13 @@ $$
 
 =--
 
-### Long exact sequence
+### Long exact sequences
 
 +-- {: .num_prop #RelativeHomologyLongExactSequence}
 ###### Proposition
 
-Relative homology sits in a [[long exact sequence]]
+Let $A \hookrightarrow X$. The corresponding 
+relative homology sits in a [[long exact sequence]] of the form
 
 $$
   \cdots
@@ -67,7 +68,38 @@ $$
 
 =--
 
-By definition and using the [[homology long exact sequence]] induced by a [[short exact sequence]] of chain complexes.
++-- {: .proof}
+###### Proof
+
+By definition and using the [[homology long exact sequence]] induced by the [[short exact sequence]] $0 \to A \stackrel{i}{\hookrightarrow} X \to coker(i) \to $ of chain complexes.
+
+=--
++-- {: .num_prop #RelativeTripleHomologyLongExactSequence}
+###### Proposition
+
+Let $B \hookrightarrow A \hookrightarrow X$ be a sequence of two inclusions. Then there is a [[long exact sequence]] of relative homology groups of the form
+
+$$
+  \cdots \to H_n(A |B) \to H_n(X | B) \to H_n(X |A ) \to H_{n-1}(A | B) \to \cdots
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that we have a [[short exact sequence]] of chain complexes
+
+$$
+  0 \to A/B \to X/B \to X/A \to 0
+  \,.
+$$
+
+The corresponding [[homology long exact sequence]] is the long exact sequence in question.
+
+=--
+
 
 ## Examples
 
