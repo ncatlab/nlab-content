@@ -73,6 +73,27 @@ with a review in the broader context of [[factorization algebras of observables]
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
 
+### As string diagrams (morphisms in monoidal categories)
+ {#AsStringDiagrams}
+
+It has been observed that Feynman diagrams, notably in [[gauge theory]],
+are in particular [[string diagrams]] (in the sense of [[category theory]],
+not here in any sense of [[string theory]]!) in the given 
+[[category of representations]]: the edges are labelled by
+[[particle]] [[species]], hence by [[Wigner classification]]
+by [[irreps]], and the vertices are labeled by representation
+[[homomorphisms]] ("[[intertwiners]]") which, indeed, label the
+[[interaction]] of particles in the Feynman diagram.
+
+A review of this formulation is in 
+
+* [[John Baez]], [[Aaron Lauda]], _A Prehistory of n-Categorical Physics_, Deep beauty, 13-128, Cambridge Univ. Press, Cambridge, 2011 ([arXiv:0908.2469](http://arxiv.org/abs/0908.2469))
+
+Moreover, one may think of [[string diagrams]] in [[monoidal categories]] as being the [[categorical semantics]] for [[proof nets]] (see there for more) in [[linear logic]]. Under this
+identification then Feynman diagrams are [[proof nets]]. This is discussed in
+
+* [[Richard Blute]], [[Prakash Panangaden]], _Proof nets as formal Feynman diagrams_ ([pdf](http://www.indiana.edu/~iulg/qliqc/phi.pdf))
+
 [[!redirects Feynman diagrams]]
 
 [[!redirects Feynman rule]]
