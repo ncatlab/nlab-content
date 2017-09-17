@@ -83,7 +83,7 @@ where $f$ is a $L$-coalgebra and $g$ is an $R$-algebra, the functorial factoriza
 
 * The right class of a AWFS is closed under any limits that exist in $K^{2}$, because the forgetful functor to the underlying category of arrows creates all limits which exist. Note that it does not follow that the right class of the underlying WFS is closed under limits in the arrow category, because first, it is possible that some elements of the right class will not have an $R$-algebra structure, and second, not every map in the arrow category between $R$-algebras is necessarily an $R$-algebra map.
 
-* Algebras for the monad of a NWFS can be composed canonically, as can the coalgebras for the comonad. The composition law for the algebras uses the comultiplication natural transformation, and dually for the coalgebras.
+* Algebras for the monad of an AWFS can be composed canonically, as can the coalgebras for the comonad. The composition law for the algebras uses the comultiplication natural transformation, and dually for the coalgebras.
 
 * A AWFS $(L,R)$ on $K$ induces a levelwise AWFS on any diagram category $K^A$. Note that its underlying WFS will not be similarly "levelwise". (Indeed, a WFS does not typically induce a levelwise WFS on a diagram category.)
 
