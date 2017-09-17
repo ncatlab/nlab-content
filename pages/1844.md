@@ -3,20 +3,20 @@ Several numbers are named after [[Euler]].
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Euler's number 
 
-**Euler's number** is the [[irrational number]]
+**Euler's number** is the [[irrational number]] typically denoted "[[e]]" and defined by the [[series]]
 
 $$
   e := \sum_{n \in \mathbb{N}} \frac{1}{n!}
   \,.
 $$
 
-This is the [[groupoid cardinality]] of the [[groupoid]] $core(FinSet)$, the [[core]] of [[FinSet]].
+This happens to also be the [[groupoid cardinality]] of the [[groupoid]] $core(FinSet)$, the [[core]] of [[FinSet]].
 
 
 ## Euler numbers
