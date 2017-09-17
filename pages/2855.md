@@ -1,7 +1,7 @@
 
 * [website](http://www.dpmms.cam.ac.uk/~rhgg2/)
 
-Related $n$Lab entries: [[ionad]], [[small object argument]]
+Related $n$Lab entries: [[ionad]], [[small object argument]], [[identity type weak factorization system]]
 
 * R. Garner, _Cofibrantly generated natural weak factorisation systems_, [arXiv:math.CT/0702290](http://arXiv.org/abs/math.CT/0702290).
 
