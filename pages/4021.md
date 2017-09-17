@@ -13,7 +13,8 @@
 
 ## Idea ##
 
-Probability theory is concerned with mathematical models of random phenomena. 
+Probability theory is concerned with mathematical models of phenomena that exhibit _randomness_ , or more generally phenomena about which one has incomplete information.
+
 
 Its central mathematical model is based mostly on [[measure theory]]. So from a pure mathematical viewpoint probability theory today could be characterized as the study of [[measurable space]]s with a finite volume normalized to $1$. 
 
