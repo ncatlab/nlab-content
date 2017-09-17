@@ -51,7 +51,7 @@ See [(SGA 6, Exp. II, Corollaire 2.2.2.1)](#SGA6).
 
 ### Triangulated category of perfect complexes
 
-Let $X$ be a [[ringed space]] and let $Pf(X) \subset D(Mod(O_X))$ denote the [[full subcategory]] of [[perfect complexes]] of $O_X$-[[modules]].  This is a [[triangulated subcategory]] that is contained in $D_{coh}(Mod(O_X)) \subset D(Mod(O_X))$, the full subcategory of complexes with [[coherent sheaf|coherent]] [[cohomology]].  It is stable under [[derived tensor product]], [[derived inverse image]], and [[derived direct image]] of [[proper morphisms]].
+Let $X$ be a [[ringed space]] and let $Pf(X) \subset D(Mod(O_X))$ denote the [[full subcategory]] of [[perfect complexes]] of $O_X$-[[modules]].  This is a [[triangulated subcategory]] that is contained in $D_{coh}(Mod(O_X)) \subset D(Mod(O_X))$, the full subcategory of complexes with [[coherent cohomology]].  It is stable under [[derived tensor product]], [[derived inverse image]], and [[derived direct image]] of [[proper morphisms]].
 
 +-- {: .num_prop}
 ###### Proposition
