@@ -1,4 +1,24 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,6 +41,12 @@ $$
 $$
 
 Here the action of $\overline{\partial} + \overline{\partial}^\ast$ on $\Omega^{0,\bullet}$ is the canonical one. For the action on $\sqrt{\Omega^{n,0}}$ choose any [[line bundle with connection|connection]] $\nabla$ on this line bundle. Then on a local [[coordinate patch]] the action is given by differentiating along a coordinate vector, multiplying with the corresponding Clifford element and projecting on the antiholomorphic part, then summing this over all coordinate vectors (e.g. [Friedrich 97, p. 79](#Friedrich97)).
+
+## Properties
+
+### Index and genus
+
+The [[index]] is the [[Todd genus]] (see there).
 
 ## Related concepts
 
