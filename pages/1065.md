@@ -58,4 +58,4 @@ One of the most refined 1-categorical approximations to the context in which suc
 
 * [[Alexander Beilinson]], _Introduction to homological algebra_ (handwritten notes, summer 2007, pdf) [lec1](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-1.pdf), [lec2](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-2.pdf), [lec3](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-3.pdf), [lec4](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-4.pdf)
 
-* [[Ieke Moerdijk]], _Notes on homological algebra_, course notes, [pdf](www.staff.science.uu.nl/~lukac101/homalg2007.pdf) (classical treatment, without derived categories)
+* [[Ieke Moerdijk]], _Notes on homological algebra_, course notes, ([pdf](http://www.staff.science.uu.nl/~lukac101/homalg2007.pdf)) (classical treatment, without derived categories)
