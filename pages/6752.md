@@ -29,11 +29,15 @@ There is now a deep analogue for function fields, the [[geometric Langlands prog
 
 ## References
 
-A good survey is in 
+Surveys include
 
 * Mark Goresky, _Langlands' conjectures for physicists_ ([pdf](http://www.math.ias.edu/~goresky/pdf/Physicists.pdf))
 
-(which however, despite the title, has nothing in it that is particularly related to physics).
+(which however, despite the title, has nothing in it that is particularly related to physics)
+
+and
+
+* {#Frenkel09} [[Edward Frenkel]], _Gauge Theory and Langlands Duality_ ([arXiv:0906.2747](http://arxiv.org/abs/0906.2747))
 
 See also
 
