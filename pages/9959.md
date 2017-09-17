@@ -32,4 +32,6 @@ See at _[[Dirac charge quantization]]_.
 
 * [[Yang monopole]]
 
+* [[fiber bundles in physics]]
+
 [[!redirects Dirac monopoles]]
