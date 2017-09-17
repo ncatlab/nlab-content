@@ -1,0 +1,11 @@
+
+## Related entries
+
+* [[pole]]
+
+## References
+
+* Wikipedia, _[Residue (complex analysis)](http://en.wikipedia.org/wiki/Residue_(complex_analysis))_
+
+[[!redirects residues]]
+
