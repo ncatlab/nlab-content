@@ -18,7 +18,7 @@
 
 
 
-> This page originates in notes prepared for a talk "Fractures, Ideles and the Differential Hexagon" at _[CUNY workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, New York, 2014.
+> This page originates in notes prepared for a talk "Fractures, Ideles and the Differential Hexagon" at _[CUNY workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, New York, August 2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1806/))
 
 #Contents#
 * table of contents
@@ -566,11 +566,11 @@ To that end, consider again first an example
 +-- {: .num_example #ComplexAnalyticDifferentialCohesion}
 ###### Example
 
-Let $S_{reduced} \hookrightarrow S \longrightarrow S_{infinitesimal}$ be one of the following [[fiber sequences]] of sites
+Let $S_{reduced} \hookrightarrow S \longleftarrow S_{infinitesimal}$ be one of the following cospans of [[sites]]
 
-* $SmoothMfd \hookrightarrow FormalSmoothMfd \longrightarrow FormalPts$ 
+* $SmoothMfd \hookrightarrow FormalSmoothMfd \longleftarrow FormalPts$ 
 
-* $ComplexAnalyticMfd \hookrightarrow FormalComplexAnalyticMfd \longrightarrow FormalPts$ 
+* $ComplexAnalyticMfd \hookrightarrow FormalComplexAnalyticMfd \longleftarrow FormalPts$ 
 
 where $FormalPts$ is the site of [[infinitesimally thickened points]] with the trivial topology;
  
