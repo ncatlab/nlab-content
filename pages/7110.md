@@ -21,9 +21,6 @@ Branched $n$-manifolds arise for instance as [[quotients]] of [[foliations]].
 
 ## Definition
 
-+-- {: .num_defn}
-###### Definition
-
 Let $X$ be a [[metrizable space]] with
 
 : 1) a collection $\{U_i\}$ of [[closed subsets]] of $X$
@@ -42,7 +39,6 @@ such that
 
 Then $X$ is called **branched n-manifold of class $C^k$**.
 
-=--
 
 This appears as [Williams, def. 1.0 ns](#Williams).
 
