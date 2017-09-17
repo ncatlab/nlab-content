@@ -2,22 +2,26 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-An __$H$-space__ is a [[magma]] in the [[homotopy category]] of [[topological space]]s [[Ho(Top)]], or in the homotopy category category $Ho(Top)_*$ of pointed spaces,  which has a [[unit]] up to [[homotopy]]. An $H$-space is an __$H$-monoid__ if the product of the magma is [[associativity|associative]] up to homotopy, and an __$H$-group__ if it has also an inverse up to homotopy.
+An __$H$-space__ is a [[magma]] in the [[homotopy category]] of [[topological space]]s [[Ho(Top)]], or in the homotopy category category $Ho(Top)_*$ of pointed spaces,  which has a [[unit]] up to [[homotopy]]. 
+An **$H$-monoid** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. Moreover a [[group object]] in [[Ho(Top)]] is an __$H$-group__ and so an $H$-monoid is an $H$-group if has also a [[inverses]] up to homotopy.
 
-Notice that the homotopies for units, associativity etc. are only required to exist for an H-space, not required to satisfy any [[coherence]] conditions. An $H$-monoid for which these homotopies are _coherent_ is instead called an _[[A-infinity space]]_.
+Notice that here the homotopies for units, associativity etc. are only required to _exist_ for an H-space, not required to be equipped with higher [[coherence|coherent]] homotopies. An $H$-monoid equipped with such higher homotopies  is instead called an _[[A-infinity space]]_.
 
 A better name for an $H$-space would be $H$-[[unitoid]], but it is rarely used. The $H$ stands for [[Heinz Hopf]], and reflects the sad fact that the natural name 'homotopy group' was [[homotopy group|already occupied]]; Hopf and A. Borel found necessary algebraic conditions for a space to admit an $H$-space structure.
 
@@ -29,21 +33,27 @@ Good question. Postnikov in his 1980-s course of homotopy theory, talks about in
 Thanks, that\'s something to start with at least.  ---Toby
 =--
 
-The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$. There are dual notions of $H$-counitoid (or $H'$-space, or [[co-H-space]]), $H$-comonoid (or $H'$-monoid) and $H$-[[cogroup]] (or $H'$-group) having co-operations with the usual identities up to homotopy. The main example of an $H$-cogroup in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. 
+There are dual notions of $H$-counitoid (or $H'$-space, or [[co-H-space]]), $H$-comonoid (or $H'$-monoid) and $H$-[[cogroup]] (or $H'$-group) having co-operations with the usual identities up to homotopy. 
 
-If $K$ is an $H$-group then for any topological space $X$, the set of homotopy classes $[X,K]$ has a natural group structure in the strict sense; analogously if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
+## Examples
+
+The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$, which however is naturall even an [[A-infinity space]]. 
+
+The main example of an $H$-cogroup in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. 
+
+If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy classes]] $[X,K]$ has a natural group structure in the strict sense; analogously if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
 
 If an $H$-space is equivalent to a [[delooping|deloopable one]], then it is a [[groupoid object in an (infinity,1)-category|group object in the (∞,1)-category]] [[Top]]. In other words, in that case, the associativity and other axioms hold up to **coherent homotopy**. 
 
-For more details see 
-
-* [[loop space]].
+For more details see at [[loop space]].
 
 ## Properties
 
 ### Relation to $A_\infty$-spaces
 
-Given an [[A-∞ space]] in the [[(∞,1)-category]] [[∞Grpd]]/[[Top]], its image in the corresponding [[homotopy category of an (∞,1)-category]] [[Ho(Top)]] in an $H$-space. Conversely, refining an H-space to a genuine $A_\infty$-space means lifting the structure of a [[monoid object in an (∞,1)-catgegory]] from the [[homotopy category of an (∞,1)-category|homotopy category]] [[Ho(Top)]] to the genuine [[(∞,1)-category]] [[∞Grpd]]/[[Top]].
+Given an [[A-∞ space]] in the [[(∞,1)-category]] [[∞Grpd]]/[[Top]], its image in the corresponding [[homotopy category of an (∞,1)-category]] [[Ho(Top)]] in an $H$-space. Conversely, refining an H-space to a genuine $A_\infty$-space means lifting the structure of a [[monoid object in an (∞,1)-category]] from the [[homotopy category of an (∞,1)-category|homotopy category]] [[Ho(Top)]] to the genuine [[(∞,1)-category]] [[∞Grpd]]/[[Top]].
+
+Further discussion of this is also at _[loop space -- Homotopy associative strructure](loop+space#AInfinityStructure)_
 
 ## References
 
