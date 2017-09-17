@@ -1,6 +1,6 @@
-Herman Stel is looking for a PhD position.
+Herman Stel is a student of mathematics and Gabriele Vezzosi in Florence.
 
-He wrote his master thesis
+His master's thesis is
 
 * H. S., _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras -- with Applications to ∞-Lie Theory]]_ (2010)
 
