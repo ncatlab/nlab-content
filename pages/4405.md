@@ -29,7 +29,7 @@ $$\{(x_1, \ldots, x_n): \exists_y R(x_1, \ldots, x_n, y)\}$$
 
 is also definable by a Boolean combination of atomic formulas; hence the existential quantifier can be eliminated. 
 
-From here, it may be shown that the theory of ordered fields is *decidable*: that each sentence in the theory is provably true or provably false. Similarly, the theory of the ordered field of real numbers is decidable, and as special cases we have that 
+From here, it may be shown that the theory of real closed fields is *decidable*: that each sentence in the theory is provably true or provably false. In fact, a real closed field is elementarily equivalent to the ordered field of real numbers, and so the theory of the real numbers (as ordered field) is decidable. As special cases, we have that 
 
 * Euclidean geometry is decidable. 
 
