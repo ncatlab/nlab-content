@@ -23,14 +23,6 @@ However, for tables you can also use the [PHP Markdown Extra](http://michelf.com
 
 See the [[HowTo]]
 
-### My reference cites the wrong theorem
-
-If you want to use references with numbered theorems and the like then there has to be a reference for _every_ numbered theorem.
-
-Specifically, if you want to reference a particular theorem then every previous numbered theorem has to have a label otherwise the counters are not synchronised.
-
-(This is an unfortunate but necessary consequence of being able to easily add new theorem-like environments via CSS.)
-
 ### My math doesn't look like math
 
 One of the notable ways in which itex differs from latex is that in itex's math mode, a string of letters without spaces in between is interpreted as a single identifier.  This has the advantage that you can invent new identifiers without needing to use `\operatorname` or `\DeclareMathOperator`, but it means that when you _don't_ want a string of letters interpreted that way you need to put spaces in between.  For example, `$sin(x)$` produces $sin(x)$ which is probably what you want, but `$h=gf$` produces $h=gf$, whereas you probably wanted to write `$h=g f$` to get $h=g f$. On the other hand, you can (and, for the sake of the LaTeX output, probably should) use `$\sin(x)$`, etc.
