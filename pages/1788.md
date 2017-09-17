@@ -4,6 +4,20 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+### Numbered equations
+
+This is the first equation (ever)
+
+\[
+  1+1 = 2 \label{first}
+  \,.
+\]
+
+What you have just witnessed was equation number.. \eqref{first}.
+
+
+### Numbered lists
+
 <p>Here is an ordered list:</p>
 <ol><li>Here is the first item.</li>
 <li>Here is the second item.</li></ol>
