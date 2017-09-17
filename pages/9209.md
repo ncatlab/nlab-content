@@ -89,3 +89,6 @@ the Deligne tensor product is discussed in [lecture 9](http://ocw.mit.edu/course
 
 [[!redirects tensor product of abelian categories]]
 
+[[!redirects Deligne tensor product]]
+[[!redirects Deligne tensor products]]
+
