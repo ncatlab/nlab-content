@@ -52,6 +52,11 @@ In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinar
 
 * [[Moritz Groth]], _A short course on infinity-categories_, [pdf](http://www.math.ru.nl/~mgroth/preprints/groth_scinfinity.pdf).
 
+Discussion of a  [[Blakers-Massey theorem]] for $E_\infty$-rings is in 
+
+* Michael Ching, [[John Harper]], _Higher homotopy excision and Blakers-Massey theorems for structured ring spectra_ ([arXiv:1402.4775](http://arxiv.org/abs/1402.4775))
+
+
 [[!redirects E-∞ ring]]
 [[!redirects E-infinity ring]]
 [[!redirects E-∞-ring]]
