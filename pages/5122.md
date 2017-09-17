@@ -20,6 +20,10 @@ Let $C : sAb \to Ch_\bullet^+$ be the chains/[[Moore complex]] functor of the [[
 
 Let $(sAb, \otimes)$ be the standard [[monoidal category]] structure given degreewise by the [[tensor product]] on [[Ab]] and let $(Ch_\bullet^+, \otimes)$ be the standard monoidal structure on the [[category of chain complexes]].
 
+
++-- {: .un_defn}
+###### Definition
+
 For $A,B \in sAb$ two abelian [[simplicial group]]s, the **Alexander-Whitney map** is the [[natural transformation]] on [[chain complex]]es
 
 $$
@@ -29,19 +33,37 @@ $$
 defined on two $n$-simplices $a \in A_n$ and $b \in B_n$ by
 
 $$
-  \Delta_{A,B} : a \otimes b \mapsto \oplus_{p + q = n} \tilde (d^p a) \otimes (d^q_0 b)
+  \Delta_{A,B} : a \otimes b \mapsto \oplus_{p + q = n}  (\tilde d^p a) \otimes (d^q_0 b)
   \,,
 $$
 
-where (...)
+where the _front face map_ $\tilde d^p$ is that induced by
 
-This restricts to the normalized chains complex
+$$
+  [p] \to [p+q] : i \mapsto i
+$$
+
+and the _back face_ $d^q_0$ map is that induced by
+
+$$
+  [p] \to [p+q] : i \mapsto i+p
+  \,.
+$$
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+
+This AW map restricts to the normalized chains complex
 
 $$
   \Delta_{A,B} :  N(A \otimes B) \to N(A) \otimes N(B)
   \,.
 $$
 
+=--
 
 ## Properties
 
