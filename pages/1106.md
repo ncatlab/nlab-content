@@ -13,7 +13,7 @@ This entry collects hyperlinks related to the textbook
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], 
 
-  _Sheaves in Geometry and Logic_
+  _Sheaves in Geometry and Logic -- A first introduction to topos theory_
 
   Springer Verlag, 1992
 
