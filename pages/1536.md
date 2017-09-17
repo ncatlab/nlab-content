@@ -352,7 +352,7 @@ $$
 
 has a [[left adjoint|left]] and a [[right adjoint|right]] [[adjoint functor]].
 
-Restricted to [[Grothendieck fibration]]s and [[fibrations in groupoids]], both of these exhibit the above equivalences as an [[adjoint equivalence]]s. Notice that much of the traditional literature discusses (just) the right adjoint. 
+Restricted to [[Grothendieck fibration]]s and [[fibrations in groupoids]], both of these exhibit the above equivalences as [[adjoint equivalence]]s. Notice that much of the traditional literature discusses (just) the right adjoint. 
 
 #### The left adjoint
 
@@ -537,7 +537,7 @@ For more details see
 
 ## Warning on terminology ##
 
-The term 'Grothendieck Construction' is applied in the literature to at least two very different constructions (and as [[Alexander Grothendieck|Grothendieck]] introduced so many new ideas and constructions to mathematics, perhaps there are others!). One concerns the construction of a [[fibered category]] from a [[pseudofunctor]] and will be treated in more detail in the entry on [[Grothendieck fibration]].  The other referes to constructing the [[Grothendieck group]] is  in the context of [[K-theory]] from isomorphism classes of vector bundles on a space by the introduction of formal inverses, 'virtual bundles'.  This constructs an Abelian group from the semi-group of isomorphism classes.
+The term 'Grothendieck Construction' is applied in the literature to at least two very different constructions (and as [[Alexander Grothendieck|Grothendieck]] introduced so many new ideas and constructions to mathematics, perhaps there are others!). One concerns the construction of a [[fibered category]] from a [[pseudofunctor]] and will be treated in more detail in the entry on [[Grothendieck fibration]].  The other refers to constructing the [[Grothendieck group]] is  in the context of [[K-theory]] from isomorphism classes of vector bundles on a space by the introduction of formal inverses, 'virtual bundles'.  This constructs an Abelian group from the semi-group of isomorphism classes.
 
 
 ## Examples
