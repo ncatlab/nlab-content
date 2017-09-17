@@ -44,7 +44,7 @@ $$
 [[commuting diagram|commute]], hence such that all the [[equations]]
 
 $$
-  f_n \circ d^V_n = d^V_{n+1} \circ f_{n+1}
+  f_n \circ d^V_n = d^W_{n} \circ f_{n+1}
 $$
 
 hold.
