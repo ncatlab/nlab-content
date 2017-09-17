@@ -7,11 +7,18 @@
 
 The part of the [[complex plane]] of [[positive number|positive]] imaginary part.
 
+$\mathfrak{H}$
+
+
 ## Related concepts
 
-* [[modular form]]
+* [[Möbius group]]
+
+* [[modular form]], [[automorphic form]]
 
 * [[Siegel upper half-space]]
+
+* [[moduli space of elliptic curves]], [[moduli space of Riemann surfaces]]
 
 ## References
 
