@@ -10,7 +10,7 @@ Recall that the data of a first-order hyperdoctrine $T$ consists of a category o
 
 $$Pred_T: C_{T}^{op} \to HeytAlg$$ 
 
-to the category of Heyting algebras, satisfying suitable properties (including quantifiers, i.e., left and right adjoints to "pullback maps" $Pred_T(f)$)[^fine]. If $H$ is a Heyting algebra, we let ${|H|}$ denote the underlying set. 
+to the category of Heyting algebras, satisfying suitable properties (including quantifiers, i.e., left and right adjoints to "pullback maps" $Pred_T(f)$)[^fine]. We often abbreviate $Pred_T(f)$ to $f^\ast$, calling it a _pullback map_. If $H$ is a Heyting algebra, we let ${|H|}$ denote the underlying set. 
 
 +-- {: .num_def}
 ###### Definition 
@@ -27,9 +27,14 @@ The $in_c$ are called _generic predicates_. In particular, put $P = P 1$ and $in
 
 $$\hom(-, P^c) \cong \hom(-, P) \circ (c \times -)^{op} \to {|Pred_T|} \circ (c \times -)^{op} = Pred_T(c \times -)$$ 
 
-and in this way the single generic predicate $(P, in)$ can be used to generate an entire tripos structure, where the generic predicate over $c$ is $(P^c, Pred_T(eval)(in))$, i.e., the generic predicate over $c$ is obtained by pulling back along the [[evaluation]] map $eval_c \colon c \times P^c \to P$. (This need not reproduce the original tripos structure, but the resulting tripos structure may be compared with the original tripos structure in both directions: there are maps $P c \to P^c$ and $P^c \to P c$, with the generic predicates in the triposes pulling back to each other along these maps).  
+and in this way the single generic predicate $(P, in)$ can be used to generate a generic predicate over $c$, as $(P^c, in_c = (eval_c)^\ast(in))$, i.e., the generic predicate over $c$ is obtained by pulling back along the [[evaluation]] map $eval_c \colon c \times P^c \to P$. (N.B.: this need not reproduce the original generic predicates, but the resulting tripos structure may be compared with the original tripos structure in both directions: there are maps $P c \to P^c$ and $P^c \to P c$, with the generic predicates in the two triposes pulling back to each other along these maps).  
 
 In practice, the category $C_T$ will indeed often be cartesian closed (frequently taking $C_T = Set$ in fact), and triposes are frequently formed in the manner just described, starting with a generic predicate over $1$ and pulling it back along the maps $eval_c$ to get a generic predicate over any $c$. 
+
++-- {: .num_rem}
+###### Remark 
+The surjective natural transformation defining the suitably generic predicate in a tripos of course induces a [[preorder]] (but not necessarily [[poset|posetal]]) structure on each $Hom_{C_T}(Y, X)$, the posetal reflection of which gives the Heyting algebra $P(Y)$. Accordingly, we can specify a tripos with category of terms $C_T$ by specifying an object $X \in Ob(C_T)$ and putting [[Heyting prealgebra]] structure on $Hom_{C_T}(-, X)$ in such a way as to yield all the first-order hyperdoctrine structure, with the identity morphism on $X$ playing the role of the suitably generic predicate.
+=-- 
 
 ## Examples 
 
@@ -50,6 +55,8 @@ preserves the preorder structure. Now define $Pred_T(X)$ to be the poset obtaine
 $$\hom_{Set}(-, P(A)) \to {|Pred_T|}$$ 
 and thus we obtain a tripos, called the _realizability tripos_ associated with the PCA $A$. 
 {#PCA}
+
+In the case where $A$ is [[Kleene's first algebra]] (the PCA whose elements are natural numbers taken as codes for computer programs taking natural number input and producing natural number output if they halt, with obvious application partial function), this is also called the [[effective topos]].
 
 ## From triposes to toposes 
 
@@ -79,7 +86,7 @@ Before we undertake a conceptual analysis of this theorem, it might be good to r
 
 ### Relation to $H$-valued sets
 
-Consider the tripos $T = T_H$ obtained from a complete Heyting algebra $H$ (example 2 above), or more exactly the bicategory of relations obtained from this. Let us describe explicitly the bicategory obtained by splitting the PERs: 
+Consider the tripos $T = T_H$ obtained from a complete Heyting algebra $H$ ([example 2](#Heyt)), or more exactly the bicategory of relations obtained from this. Let us describe explicitly the bicategory obtained by splitting the PERs: 
 
 * An object in the PER-splitting completion in this case is a set $X$ together with a function $e \colon X \times X \to H$ which is symmetric and transitive in the sense described above. This boils down to having, for all elements $x, y, z \in X$,  
 $$e(x, y) = e(y, x)$$ 
@@ -128,22 +135,37 @@ Thus totality of $r \colon X \to Y$ is equivalent to
 For a complete Heyting algebra $H$, the category of $H$-valued sets and functional relations between $H$-valued sets is equivalent to the topos of [[sheaf|sheaves]] on $H$. 
 =-- 
 
-Compare the description by Walters of sheaves over $H$ as certain types of Cauchy-complete categories enriched in a bicategory. 
+Thus all [[localic topos|localic toposes]] arise as toposes of $H$-valued sets, where $H$ is the Heyting algebra of subobjects of $1$. 
 
+Compare the description by Walters of sheaves over $H$ as certain types of Cauchy-complete categories enriched in a bicategory. Notice that in that description, the homs are symmetric ($\hom(x, y) = \hom(y, x)$), so that the Cauchy completion or idempotent-splitting completion is the same as the completion by splitting symmetric idempotents. 
 
++-- {: .num_rem}
+###### Remark 
+The triposes over $Set$ of this form are precisely those for which the preorder imposed on $Hom_{Set}(X, P) \simeq P^X$ is the straightforward $X$-ary product of the preorder imposed on $Hom_{Set}(1, P) \simeq P$, where $P$ is the carrier of the generic predicate; in all other cases, the former is a finer-grained preorder than the latter. Thus, in some sense, triposes over $Set$ are a generalization of the notion of "complete Heyting algebra" taking advantage of the ability to use preorder rather than poset structure to allow for a weakening of the condition of completeness. 
 
+An example taking advantage of this generalization is given by [realizability triposes](#PCA). See also [[realizability]]. 
+=-- 
 
-The surjective natural transformation defining the suitably generic predicate in a tripos of course induces a [[preorder]] (but not necessarily [[poset]]al) structure on each $Hom_{C_T}(Y, X)$, the [[poset]]al reflection of which gives the Heyting algebra $P(Y)$. Accordingly, we can specify a tripos with category of terms $C_T$ by specifying an object $X \in Ob(C_T)$ and putting [[Heyting prealgebra]] structure on $Hom_{C_T}(-, X)$ in such a way as to yield all the first-order hyperdoctrine structure, with the identity morphism on $X$ playing the role of the suitably generic predicate.
+## Relation to exact completion 
 
-Particularly important is the case of triposes whose category of terms is [[Set]] (henceforth, "triposes over $Set$"). Every [[complete Heyting algebra]] $H$ gives rise to a tripos over $Set$, taking the predicate functor to be $I \mapsto H^I$, with the structure of $H$ providing all the adjoints required for the first-order hyperdoctrine structure. The category of partial equivalence relations for such a tripos will in fact be the category of [[sheaves]] over the [[locale]] whose [[frame]] is given by $H$ (the presentation of [[localic topoi]] in terms of $H$-valued partial equivalence relations is due to [[Higgs]]). The triposes over $Set$ of this form are precisely those for which the preorder imposed on $Hom_{Set}(Y, X) \simeq X^Y$ is the straightforward $Y$-ary product of the preorder imposed on $Hom_{Set}(1, X) \simeq X$, where $X$ is the carrier of the suitably generic predicate; in all other cases, the former is a finer-grained preorder than the latter. Thus, in some sense, triposes over $Set$ are a generalization of the notion of "complete Heyting algebra" taking advantage of the ability to use preorder rather than poset structure to allow for a weakening of the condition of completeness.
+As stated above, the topos obtained from a tripos can be described as the category of PERs in the bicategory of relations, and functional relations between them. In different language, the bicategory of PERs or symmetric idempotents and relations between them is a [[power allegory]], and the process of passing to functional relations is just the standard process of passing from power allegories to toposes. 
 
-An example taking advantage of this generalization is given by [[realizability]]: for any [[partial combinatory algebra]] A,  
+The process of splitting symmetric idempotents in the bicategory of relations can be analyzed into two steps, the first related to taking a regular completion, and the second to taking an [[exact completion]] of a regular category. More exactly, they are analogues on the allegorical side of these two types of completion. 
 
-This turns out to provide Heyting prealgebra structure on $P(A)^I$, and, furthermore, even the requisite adjoints to reindexing to equip $P(A)$ as the carrier of the suitably generic predicate of a tripos over $Set$. This is the realizability tripos for $A$, and its category of partial equivalence relations is the realizability topos for $A$. In the case where $A$ is [[Kleene's first algebra]] (the PCA whose elements are natural numbers taken as codes for computer programs taking natural number input and producing natural number output if they halt, with obvious application partial function), this is also called the [[effective topos]].
+The two steps are as follows, starting with a bicategory of relations (or perhaps preferably a [[framed bicategory]] of relations). Splitting symmetric idempotents can be obtained by  
+
+* First splitting the coreflexive morphisms ($r \colon X \to X$ is coreflexive if $r \leq 1_X$). This results in a tabular bicategory of relations or a [[allegory|unitary tabular allegory]], which is essentially the same as obtaining a regular category. 
+
+* Then, in the unitary tabular allegory, split equivalence relations. In allegorical language, this results in an effective (unitary tabular) allegory (Freyd-Scedrov, page 213); on the categorical side, it means we pass from a regular category $C$ to its [[regular and exact completions|exact completion]] $C_{ex/reg}$. 
+
 
 ##References##
 * Andrew M. Pitts, _The theory of [[tripos]]es_, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
 * Andrew M. Pitts, _Tripos theory in retrospect_, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/tritr/tritr.pdf)
+* Peter Freyd and Andre Scedrov, _Categories, Allegories_, North-Holland 1990.
+
+
+
 [[!redirects triposes]] 
 
 [^fine]: In fact one may "quantify" along any term = morphism in the base category $C_T$, i.e., each $Pred_T(f)$ has a left adjoint and a right adjoint, merely if we assume this of the projection maps and if we assume an appropriate [Frobenius law](http://ncatlab.org/nlab/show/Frobenius+reciprocity#frobenius_laws_and_frobenius_reciprocity_11), as one generally does for first-order hyperdoctrines. However, the status of corresponding Beck-Chevalley conditions for pullback diagrams in $C_T$ is another matter; the original treatment by Pitts assumed more than is actually necessary. Namely, it was assumed that $C_T$ is finitely complete and the Beck-Chevalley condition holds for _all_ pullbacks in $C_T$. In actuality, for tripos theory, it is enough to assume Beck-Chevalley only for certain pullbacks which exist by virtue of the finite product structure of $C_T$.
