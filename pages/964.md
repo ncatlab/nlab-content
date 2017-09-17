@@ -3,17 +3,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -30,9 +30,9 @@ A **frame** $\mathcal{O}$ is
 
 * that has 
 
-  * all small [[coproduct]]s, called [[join|joins]] $\wedge$
+  * all small [[coproduct]]s, called [[join|joins]] $\bigvee$
 
-  * all [[finite limit]]s, called [[meet|meets]] $\vee$
+  * all [[finite limit]]s, called [[meet|meets]] $\wedge$
 
 * and which satisfies the _infinite distributive law_:
 
