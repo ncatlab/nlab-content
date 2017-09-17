@@ -27,7 +27,7 @@ But it turns out that there is a more abstract, more [[sheaf and topos theory|sh
 
 and in more details in the section
 
-* [Definition on sheaves over Add](AsSheavesII).
+* [Definition as sheaves over Aff](#AsSheavesII).
 
 The tensoring operation appearing here is that defining the pullback operations in the [[stack]] that classifies the canonical [[bifibration]] $Mod \to CRing$ of [[module]]s over rings. In view of this, one finds that this definition, in turn, is equivalent to a very fundamental definition:
 
