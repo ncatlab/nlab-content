@@ -31,7 +31,7 @@ A suitable generalization serves a similar purpose in the homotopy theory of [[r
 
 A functor of small categories $i \colon C \to D$ is a **Dwyer map** if it is a [[sieve]] and factors as a composite of $f \colon C \to C'$ and $j \colon C' \to D$ such that
 
-* $f$ admits a deformation retraction, i.e. a functor $r \colon C' \to C$ such that $r i = \id_C$ toghether with a natural transformation $h \colon i r \to \id_{C'}$ such that $h i = \id_i$,
+* $f$ admits a deformation retraction, i.e. a functor $r \colon C' \to C$ such that $r f = \id_C$ toghether with a natural transformation $h \colon f r \to \id_{C'}$ such that $h f = \id_f$,
 * $j$ is a [[cosieve]].
 
 In the original definition $r$ was assumed to be a right adjoint of $f$. The definition above is due to Cisinski who called this more general notion a **pseudo-Dwyer map**. Cisinski's definition is now considered more useful and hence usually called by the simpler name "Dwyer map".
