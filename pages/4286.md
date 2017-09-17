@@ -57,7 +57,7 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 ## Related concepts
 
-* [[black brane]]
+* [[black brane]], [[black holes in string theory]]
 
 * [[Kerr spacetime]]
 
