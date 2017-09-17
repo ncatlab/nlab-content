@@ -36,7 +36,7 @@ written in the [[internal language]] of $\mathcal{E}$.  Then $R$ is a (Heyting) 
 
 A (linearly) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equipped with a binary relation $\lt$ such that the following axioms hold:
 *  strong [[irreflexive relation|irreflexivity]]: $\forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies x \# y)$,
-*  strong [[tight relation|tightness]]: $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies (x \lt y \vee y \lt x))$,
+*  strong [[connected relation|connectedness]]: $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies (x \lt y \vee y \lt x))$,
 *  [[transitive relation|transitivity]]: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge y \lt z) \implies x \lt z)$,
 *  respecting addition: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \lt y \implies x + z \lt y + z)$,
 *  respecting multiplication: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge 0 \lt z) \implies x \cdot z \lt y \cdot z)$.
@@ -65,14 +65,28 @@ This morphism is in fact unique.
 =--
 +-- {: .proof}
 ###### Proof
-Suppose that $x, x'\colon \Gamma \to R$ both satisfy the required properties, and consider $x \# x'$, which is a subobject of $\Gamma$.  By the strong tightness of $\lt$, $x \# x'$ is contained in (factors through) $x \lt x' \vee x' \lt x$, which is the [[union]] of $x \lt x'$ and $x' \lt x$.
 
-Now consider $x \lt x'$, and let $a$ be a [[generalised element]] of $\Gamma$.  If $a$ belongs to (factors through) $x \lt x'$, or equivalently $(x(a), x'(a))$ belongs to $\lt$, it follows that $(a,x(a))$ belongs to $U$.  Thus, $(x(a), x(a))$ also belongs to $\lt$, or equivalently $a$ belongs to $x \lt x$.  By the strong irrelexivity of $\lt$, this is contained in $x \# x$; by the irrelexivity of $\#$, this is contained in $\bot$ (as a subobject of $\Gamma$).  Since every $a$ that belongs to $x \lt x'$ belongs to $\bot$, $x \lt x'$ is contained in (and so equals as a subobject) $\bot$.
+Here is an explicit 'external' proof:
 
-Similarly (either by swapping $x$ with $x'$ or by using $L$ instead of $U$), $x' \lt x$ is also $\bot$.  Therefore, $x \# x'$ is $\bot$.  By the tightness of $\#$, $x = x'$.
+Suppose that $x, x'\colon \Gamma \to R$ both satisfy the required properties, and consider $x \# x'$, which is a subobject of $\Gamma$.  By the strong connectedness of $\lt$, $x \# x'$ is contained in (factors through) $x \lt x' \vee x' \lt x$, which is the [[union]] of $x \lt x'$ and $x' \lt x$.
+
+Now consider $x \lt x'$, and let $a$ be a [[generalised element]] of $\Gamma$.  If $a$ belongs to (factors through) $x \lt x'$, or equivalently $(x(a), x'(a))$ belongs to $\lt$, it follows that $(a,x(a))$ belongs to $L$.  Thus, $(x(a), x(a))$ also belongs to $\lt$, or equivalently $a$ belongs to $x \lt x$.  By the strong irreflexivity of $\lt$, this is contained in $x \# x$; by the irreflexivity of $\#$, this is contained in $\bot$ (as a subobject of $\Gamma$).  Since every $a$ that belongs to $x \lt x'$ belongs to $\bot$, $x \lt x'$ is contained in (and so equals as a subobject) $\bot$.
+
+Similarly (either by swapping $x$ with $x'$ or by using $U$ instead of $L$), $x' \lt x$ is also $\bot$.  Therefore, $x \# x'$ is $\bot$.  By the tightness of $\#$, $x = x'$.
+=--
++-- {: .proof}
+###### Proof
+
+Here is an 'internal' proof, to be interpreted in the [[stack semantics]] of $\mathcal{E}$:
+
+Suppose that $x, x'\colon R$ both satisfy the required properties, and suppose that $x \# x'$.  By the strong connectedness of $\lt$, $x \lt x'$ or $x' \lt x$.
+
+Now suppose that $x \lt x'$.  It follows that $x$ belongs to $L$, so $x \lt x$.  By the strong irreflexivity of $\lt$, $x \# x$; by the irreflexivity of $\#$, we have a contradiction.
+
+Similarly (either by swapping $x$ with $x'$ or by using $U$ instead of $L$), $x' \lt x$ is also false.  Therefore, $x \# x'$ is false.  By the tightness of $\#$, $x = x'$.
 =--
 
-In the definition of a Heyting field object, all of the axioms except the last are [[geometric logic|geometric]] and therefore make sense in any [[geometric category]].
+In the definition of a Heyting field object, all of the axioms except the last are [[coherent logic|coherent]] and therefore make sense in any [[coherent category]].
 +-- {: .un_thm}
 ###### Theorem
 An object satisfying all but the last axiom of a field object is precisely a [[local ring]] object (so in particular an RNO is a local ring object).
@@ -92,10 +106,10 @@ If $R$ and $R'$ are both RNOs in a Heyting category $\mathcal{E}$, then there is
 ...
 =--
 
-Any Heyting category with an RNO must also have a [[natural numbers object]] (NNO).  Thus in a topos, or in more general categories as in the other constructions below, the existence of an RNO is equivalent to the existence of an NNO.
+Any [[infinitary coherent category|geometric]] Heyting category or [[topos]] with an RNO must also have a [[natural numbers object]] (NNO).  The argument is impredicative, so as far as I can tell, there may even be a $\Pi$-[[pretopos]] with an RNO but no NNO (although I don't know an example).  In a topos on the other hand, in light of the constructions below, the existence of an RNO is equivalent to the existence of an NNO.
 +-- {: .un_thm}
 ###### Theorem
-If $R$ is an RNO in a Heyting category, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and $({-}) + 1\colon N \to N$.
+If $R$ is an RNO in an infinitary Heyting category, then there is unique subobject $N$ of $R$ that is both a sub-[[rig]] object of $R$ and an NNO under the operations $0\colon \mathbf{1} \to N$ and $({-}) + 1\colon N \to N$.
 =--
 +-- {: .proof}
 ###### Proof
@@ -205,7 +219,6 @@ It is also possible to define the notion of a [[Cauchy real number]] object and 
   {#MM94}
 
 
-[[!redirects real numbers object]]
 [[!redirects real numbers objects]]
 [[!redirects real number object]]
 [[!redirects real number objects]]
