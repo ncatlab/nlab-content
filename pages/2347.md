@@ -225,7 +225,7 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
 ## Related concepts
 
-* [[mechanics]]
+* [[mechanics]], [[Poisson manifold]], [[symplectic manifold]], [[contact manifold]]
 
 * [[semiclassical approximation]]
 
@@ -235,9 +235,10 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
 * [[quantum field theory]]: [[FQFT]], [[AQFT]]
 
+* [[generating function in classical mechanics]], 
+
 ## References
 
-* $n$Lab: [[generating function in classical mechanics]], [[symplectic manifold]], [[contact manifold]], [[Poisson manifold]]
 
 Classical textbooks include
 
@@ -246,6 +247,11 @@ Classical textbooks include
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
 
 * Lev Landau, Lifschitz, _Classical mechanics_, vol. I of the [[Landau-Lifschitz|Course of theoretical physics]]
+
+Discussion aimed at mathematicians includes
+
+* [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://www.math.uga.edu/~shifrin/Spivak_physics.pdf))
+
 
 Discussion with an eye also towards [[quantum mechanics]] is in
 
