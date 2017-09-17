@@ -40,6 +40,7 @@ $$
   \,.
 $$
 
+See [[looping and delooping]].
 
 ## Definition
 
