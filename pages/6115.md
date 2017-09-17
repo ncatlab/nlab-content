@@ -15,7 +15,7 @@
 * table of contents
 {:toc}
 
-# Idea
+## Idea
 
 A [[bundle]] of [[spectra]].
 
@@ -24,6 +24,7 @@ A [[bundle]] of [[spectra]].
 In [[twisted cohomology]].
 
 ## References
+ {#References}
 
 The comprehensive textbook on the matter is
 
