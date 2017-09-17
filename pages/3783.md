@@ -97,6 +97,61 @@ Both $\partial_t$ and $\partial_{\phi}$ are [[Killing vector field]]s, expressin
 
 Kerr spacetime is **asymptotically flat**, that is the Kerr metric approximates the Minkowski metric for large $r$.
 
+### Boyer-Lindquist Blocks ###
+The Boyer-Lindquist coordinates are defined on a subset of $\mathbb{R}^2 \times \mathcal{S}^2$ with $t, r$ defined on a copy of $\mathbb{R}$ respectively (actually $r$ is not supposed to take negative values, this definition is for convenience only). There are three subsets where the coordinates fail:
+
+1. The **horizon H** where $\triangle = 0$.
+
+2. The **ring singularity $\Sigma$** where $\rho^2 = 0$
+
+3. The **axis A** where $\sin(\theta) = 0$.
+
+
+
++-- {: .un_def}
+###### Definition
+The **Boyer-Lindquist blocks I, II, III** are the following open subsets of $\mathbb{R}^2 \times \mathcal{S}^2 - \Sigma$:
+
+1. For slow Kerr, there are two horizons at $r_{\pm}$,
+$$
+I: r \gt r_+ 
+$$
+
+$$
+II: r_- \lt r \lt r_+ 
+$$
+
+$$
+III: r \lt r_- 
+$$
+
+2. For extreme Kerr, there is a single horizon at $r = m$,
+$$
+I: r \gt m
+$$
+
+$$
+III: r \lt m
+$$
+3. For fast Kerr, there is no horizon and $\mathbb{R}^2 \times \mathcal{S}^2 - \Sigma$ can be considered as one block I = III.
+=--
+
+Block I is also called the **Kerr exterior** and can be visualized as close to the Newtonian concept of space and time with a central force field.
+
++-- {: .un_theorem}
+###### Theorem
+**Causality of I and II**
+The Boyer-Lindquist blocks I and II are causal.
+=--
+
+For a definition of causality see [[spacetime]].
+
++-- {: .un_theorem}
+###### Theorem
+**Noncausality of III**
+The Boyer-Lindquist block III is vicious, that is for any two events $p, q$ in III there is a timelike future-pointing curve in III from p to q.
+=--
+
 ## Examples ##
 ...
 
