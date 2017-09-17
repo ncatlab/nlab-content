@@ -959,6 +959,11 @@ Generalization of such [[correspondence]]-presentation to [[equivariant KK-theor
 
 * [[Heath Emerson]], [[Ralf Meyer]], _Bivariant K-theory via correspondences_, Adv. Math. 225 (2010), 2883-2919 ([arXiv:0812.4949](http://arxiv.org/abs/0812.4949))
 
+based on 
+
+* [[Heath Emerson]], [[Ralf Meyer]] _Equivariant embedding theorems and topological index maps_, Adv. Math. 225 (2010), 2840-2882 ([arXiv:0908.1465](http://arxiv.org/abs/0908.1465))
+ {#EmersonMeyer09}
+
 * [[Heath Emerson]], [[Ralf Meyer]], _Dualities in equivariant Kasparov theory_ ([arXiv:0711.0025](http://arxiv.org/abs/0711.0025))
 
 based on technical aspects of the construction of pushforward along and comoposition of equivariant correspondences in
