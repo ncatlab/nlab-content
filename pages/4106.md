@@ -15,16 +15,16 @@
 
 
 
-* [[category theory]]
 
-* **2-category theory**
+#Contents#
+* table of contents
+{:toc}
 
-* [[(∞,1)-category theory]]
-
-* [[higher category theory]]
-
-***
-
-
+## Idea
 
 **2-category theory** is the study of [[2-categories]].  It is the "first new level" in [[higher category theory]].
+
+## Related concepts
+
+[[!include table of category theories]]
+
