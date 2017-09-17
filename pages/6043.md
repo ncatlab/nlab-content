@@ -118,7 +118,12 @@ This is a semi-norm on $V$.
 
 * [[metric]]
 
-* [[normed group]], [[normed ring]], [[normed algebra]]
+* [[normed group]], [[Banach group]]
+
+* [[normed ring]], [[Banach ring]] 
+
+* [[normed algebra]], [[Banach algbra]]
+
 
 ## References
 
