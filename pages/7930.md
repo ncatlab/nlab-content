@@ -66,15 +66,19 @@ The above irreducible complex representations admit a [[quaternionic structure]]
 
 * [[unitary representation of the super Poincaré group]]
 
+* [[charge conjugation matrix]]
+
 * [[metaplectic representation]]
 
 ## References
 
 * Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
 
-For [[Lorentzian manifold|Lorentzian]] signatuie, Lecture 3 of 
+For [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[supersymmetry]] in [[QFT]], see 
 
-* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
+* [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
+
+* [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
 [[!redirects spin representations]]
 
@@ -83,23 +87,23 @@ For [[Lorentzian manifold|Lorentzian]] signatuie, Lecture 3 of
 
 [[!redirects Weyl spinor]]
 [[!redirects Weyl spinors]]
-[[!redireczts Weyl representation]]
-[[!redireczts Weyl representations]]
+[[!redirects Weyl representation]]
+[[!redirects Weyl representations]]
 
 [[!redirects Dirac spinor]]
 [[!redirects Dirac spinors]]
-[[!redireczts Dirac representation]]
-[[!redireczts Dirac representations]]
+[[!redirects Dirac representation]]
+[[!redirects Dirac representations]]
 
 [[!redirects Majorana spinor]]
 [[!redirects Majorana spinors]]
-[[!redireczts Majorana representation]]
-[[!redireczts Majorana representations]]
+[[!redirects Majorana representation]]
+[[!redirects Majorana representations]]
 
 [[!redirects Majorana-Weyl spinor]]
 [[!redirects Majorana-Weyl spinors]]
-[[!redireczts Majorana-Weyl representation]]
-[[!redireczts Majorana-Weyl representations]]
+[[!redirects Majorana-Weyl representation]]
+[[!redirects Majorana-Weyl representations]]
 
 
 
