@@ -25,7 +25,7 @@
 
 ## Idea
 
-A _simplicial enriched category_ is a [[category]] with a [[simplicial set]] of [[morphism]]s between any two objects. 
+A _simplicially enriched category_ is a [[category]] with a [[simplicial set]] of [[morphism]]s between any two objects. 
 
 One may think of the 1-cells in a hom-simplicial set as a [[2-morphism]], the 2-cells as a [[3-morphism]] and generally a $(k-1)$-cell as a [[k-morphism]]. Therefore simplicially enriched categories may serves as models for [[∞-categories]]. Precisely which notion of $\infty$-category depends on which extra [[stuff, structure, property|structure and property]] one imposes.
 
