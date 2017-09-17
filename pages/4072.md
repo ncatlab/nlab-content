@@ -1,7 +1,14 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -20,6 +27,23 @@ A [[category]] that has all finite limits is called a [[finitely complete catego
 
 A [[functor]] that preserves finite limits is called [[left exact functor]], a _lex_ functor, a _cartesian_ functor, or a _finitely continuous_ functor.   The 2-category of finitely complete categories, left exact functors and natural transformations is called [[Lex]].
 
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+A [[category]] that has all 
+
+* binary [[product]]s
+
+* [[equalizer]]s
+
+also has all finite limits.
+
+=--
+
+This is analogous to how a category with _all_ small products and equalizers has all small [[limit]]s.
 
 [[!redirects finite limits]]
 
