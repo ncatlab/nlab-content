@@ -58,5 +58,18 @@ If $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]] whose [[inte
 * a [[groupoid object in an (∞,1)-category]] is a category object all of whose [[morphisms]] are [[equivalences]] under composition.
 
 
+## Related concepts
+
+* [[simplicial object]]
+
+  * [[simplicial set]]
+
+* [[semi-simplicial object]]
+
+  * [[semisimplicial set]]
+
+* [[simplicial homotopy theory]]
+
+
 [[!redirects simplicial objects in an (∞,1)-category]]
 [[!redirects simplicial objects in an (infinity,1)-category]]
