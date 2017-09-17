@@ -52,6 +52,8 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 
 * [[bracket type]]
 
+* [[h-proposition]]
+
 [[!redirects proposition]]
 [[!redirects propositions]]
 
