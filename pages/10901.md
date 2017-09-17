@@ -283,3 +283,6 @@ Systems of Nets_ ([pdf](http://www.imn.htwk-leipzig.de/WST2013/papers/paper_16.p
 
 [[!redirects linear homotopy type]]
 [[!redirects linear homotopy types]]
+
+[[!redirects linear type]]
+[[!redirects linear types]]
