@@ -1,23 +1,37 @@
 
-# Integrals
+# Integrals and integration
 * table of contents
 {: toc}
 
 ## Idea
 
-A __sum__ $\sum_{s \in S} a_s$ is defined over a domain $S$ which is, as a rule, a _discrete_ set. This set is also typically fixed in the sense that no subdivision is assumed in its definition, except sometimes for convergence purposes. Thus a general sum takes two arguments: a set $S$ and a function on $S$ and ouputs a value. In the case of sum of an infinite series the order may matter as the limiting procedure is taken into account.
+
+#### Generalizing sum
+
+A __sum__ $\sum_{s \in S} a_s$ is defined over a domain $S$ which is, as a rule, a _discrete_ set. This set is also typically fixed in the sense that no subdivision is assumed in its definition, except sometimes for convergence purposes. Thus a general sum takes two arguments: a set $S$ and a function on $S$ and outputs a value. In the case of sum of an infinite series the order may matter as the limiting procedure is taken into account.
 
 An __integral__ is a generalization of a sum where the domain is typically not a discrete set, but some mathematical object, which may be (typically not in a single fixed way, but in many possible ways) approximated or split into pieces.
-The function to be integrated over the range, is some objects which is thought of
+The function to be integrated over the range, 
+is some object which is thought of
 as living over the range, some sort of a cocycle or a distribution. 
 The basic property from the integral is that it should behave nicely (typically additively in some sense) with respect to combining its values on pieces in the range and that, for a reasonable set of subdivisions the result should be the same (sometimes after passing to a limit). 
 
 For a fixed range, integral is typically an operator/functional on a set/space of allowed objects over the range.  
 
+__Integration__ in most narrow sense is a process involved in defining or computing integrals.
 
-## Zoo of integrals 
+#### Integration as opposite to differentiation
 
-See also [[integration]] and [[measure theory]]. 
+Many integrals are supposed to be inverse to differentiation procedures of various kinds. Indeed, if integral is a generalization of a sum, then a difference between two partial sums is a value to be added at a step of summation, and its generalization is some sort of differentiation. Of course, the initial value has to be determined as the differentiation gives just a step of the addition.
+
+#### Solving differential equations and constraints
+
+In some cases, one solves a differential equation by reducing it to a relation of the form $d F = g$ and then $F = \int g$. One says that the equation is
+solvable in quadratures. Thus the integration is used in examples of solving differential equations and differential relations, hence finding objects satisfying some differential constraints is often also considered a sort of integration. For example, finding integral curves of vector fields and more generally finding integral submanifolds of distributions, is also called an integration. In this vain, also a Lie group is a global object which integrates a Lie algebra (indeed, infinitesimally this reduces to solving the Maurer-Cartan equations). For resolving differential relations there are solvability conditions/obstructions/constraints which are often of cohomological nature. There is sometimes a relation to [[rational homotopy theory]].
+
+## Zoo of integrals and concepts of integration 
+
+See also [[measure theory]] (and [[measurable space]], [[measure space]]) which is a basis for many kinds of integrals, especially the [[Lebesgue integral]]. 
 
 Basic kinds of integrals in (super)analysis: the [[Danielli integral]], the [[Riemann integral]], the [[Lebesgue integral]], the [[Berezin integral]], [[line integrals]].
 
@@ -35,6 +49,33 @@ A special topic includes some infinite-dimensional versions including the well-d
 
 The basic problem with the path integral comes from the fact that there is no translation-invariant [[Lebesgue measure]] on an infinite-dimensional real vector space with a finite nonzero value on the unit ball.
 
+* [[fiber integration]]
 
-[[!redirects integral]]
+* in [[differential geometry]]
+
+  *  [[differential form]]s are involved in integration over differentiable manifolds; more generally, one can integrate currents (cf. [[geometric measure theory]]
+
+*  in [[supergeometry]]
+
+   * [[Berezin integral]]
+  
+   * [[integration over supermanifolds]]
+* [[path integral]]
+* [[Lie integration]] (the name comes from its relation to the integration of
+differential equations and finding integral curves of 
+vector fields and flows)
+
+* stratified versions related to Grothendieck rings and valuations:
+[[Euler integration]], [[motivic integration]]
+
+## References
+
+(...)
+
+A proof of the [[Riesz representation theorem]] in [[constructive mathematics]] is given in
+
+* [[Thierry Coquand]], [[Bas Spitters]], _Integrals and Valuations_, Logic and Analysis (2009) 1(3) p.1-22, [arXiv:0808.1522](http://arxiv.org/abs/0808.1522), [doi](http://dx.doi.org/10.4115/jla.2009.1.3)
+
+[[!redirects integration]]
 [[!redirects integrals]]
+
