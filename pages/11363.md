@@ -5,7 +5,7 @@
 
 ## Statement
 
-Let $B$ be the [[unit ball]] of a [[separable space|separable]] [[Hilbert space]] over the [[real number|real]] or [[complex number|numbers]]. Then the [[inner product|scalar product]], $\langle \cdot, \cdot \rangle : B \times B \to \mathbb{C}$ has the following special property:
+Let $B$ be the [[unit ball]] of a [[separable space|separable]] [[Hilbert space]] over the [[real number|real]] or [[complex number|numbers]]. Then the [[inner product|scalar product]], $\langle\cdot,\cdot\rangle : B \times B \to \mathbb{C}$ has the following special property:
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -15,7 +15,7 @@ There exist [[infinite sequence|sequences]] $f_n,g_n: B \to \mathbb{C}$ of [[nor
 * $\sum_n \sup_B \left| f_n \right| \sup_B \left| g_n \right| &lt; \infty$
 =--
 
-In other words, $\langle \cdot, \cdot \rangle$, as a [[function of two variables]], is an element of the [[projective tensor product]] $C(B) {\displaystyle\hat{\otimes}} C(B)$. Its [[projective tensor norm]] is known as __Grothendieck's constant__. The precise value of this constant is different in the real and complex case, and neither one is known exactly.
+In other words, $\langle\cdot,\cdot\rangle$, as a [[function of two variables]], is an element of the [[projective tensor product]] $C(B) {\displaystyle\hat{\otimes}} C(B)$. Its [[projective tensor norm]] is known as __Grothendieck's constant__. The precise value of this constant is different in the real and complex case, and neither one is known exactly.
 
 
 ## References
