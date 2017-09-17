@@ -1,5 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+## Idea
+
 A _dual adjunction_ between [[category|categories]] $C$ and $D$ is an [[adjoint functor|adjunction]] between the [[opposite category]] $C^{op}$ of $C$ and $D$.
 
 The concept arises in the context of [[duality]].
 
-Dual adjunctions between [[concrete category|concrete categories]] may be represented by [[dualizing object]]s.
+Dual adjunctions between [[concrete category|concrete categories]] may be represented by [[dualizing objects]].
+
+Dual adjunctions between [[posets]] are also called _[[Galois connections]]_.
+
+
+[[!redirects dual adjunctions]]
