@@ -107,6 +107,15 @@ This is theorem 5.1 in
 > There are more and similar characterizations along these lines. Hopefully we can eventually fill them in here.
 
 
+## Generalisations
+
+Of course, one can generalise real numbers to [[complex number]]s and other kinds of [[hypercomplex number]]s.
+
+The [[extended real number]]s include $\pm\infty$ as well as the ordinary (or _bounded_) real numbers.  [[lower real|Lower reals]], [[upper reals]], and [[MacNeille real number|MacNeille reals]] are important variations in [[constructive mathematics]], although with [[excluded middle]] they are (at least if bounded) the same as ordinary real numbers.
+
+[[surreal number|Surreal numbers]] and the [[hyperreal number]]s of [[nonstandard analysis]] are two ways to include [[infinite number|infinite]] and [[infinitesimal number|infinitesimal]] versions of real numbers.
+
+
 [[!redirects real number]]
 [[!redirects real numbers]]
 [[!redirects real line]]
