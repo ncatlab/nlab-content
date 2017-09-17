@@ -3330,6 +3330,7 @@ Moreover $i_*$ is necessarily a [[full and faithful (∞,1)-functor]].
 +-- {: .proof}
 ###### Proof
 
+By essential uniqueness of th [[global section]] [[geometric morphism]]:
 In both cases the [[direct image]] functor has as [[left adjoint]]
 that preserves the [[terminal object]]. Therefore
 
@@ -3564,7 +3565,8 @@ $$
 is a weak equivalence, hence that $i^* F$ is locally fibrant.
 
 To see that $(-) \circ p$ preserves locally fibrant objects, we apply the analogous reasoning after observing that its [[left adjoint]] $(-)\circ i$ preserves all [[limit]]s and [[colimit]]s of [[simplicial presheaves]] (as these are computed objectwise) and by observing that for 
-$\{\mathbf{U}_i \stackrel{p_i}{\to} \mathbf{U}\}$ we have that its image under $(-) \circ i$ is its image under $p$, by the [[Yoneda lemma]]:
+$\{\mathbf{U}_i \stackrel{p_i}{\to} \mathbf{U}\}$ 
+a covering family in $C_{th}$ we have that its image under $(-) \circ i$ is its image under $p$, by the [[Yoneda lemma]]:
 
 $$
   \begin{aligned}
@@ -3845,6 +3847,47 @@ $$
 that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] on $\mathfrak{a}$, hence as the [infinitesimal path inclusion](#InfinitesimalPathsAndReduction) for $\mathfrak{a}$.
 
 =--
+
++-- {: .un_prop}
+###### Proposition
+
+An infinitesimal cohesive $\infty$-groupoid
+is both geometrically contractible and has as underlying discrete $\infty$-groupoid the point:
+
+* $\Pi X \simeq *$
+
+* $\Gamma X \simeq {*}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is implied by the fact that 
+both $i_!$ as well as $i_*$ are full and faithful. This means that
+if $\mathbf{\Pi}_{\mathrm{inf}}(X) \simeq *$ then already $i^* X = \Pi_{\mathrm{inf}}(X) \simeq *$.
+Since $\Pi_{\mathbf{H}_{\mathrm{th}}} \simeq \Pi_{\mathbf{H}} \Pi_{\mathrm{inf}}$ and 
+$\Pi_{\mathbf{H}}$ preserves the terminal object by cohesiveness, this implies the first claim.
+ 
+The second statement follows by 
+$$
+  \begin{aligned}
+    \Gamma X & \simeq \mathbf{H}_{\mathrm{th}}(*,X)
+     \\
+     & \simeq \mathbf{H}_{\mathrm{th}}(\mathbf{Red}*, X)
+     \\
+     & \simeq \mathbf{H}_{\mathrm{th}}(*, \mathbf{\Pi}_{\mathrm{inf}}(X))
+     \\
+     & \simeq \mathbf{H}_{\mathrm{th}}(*,*)
+     \\
+     & \simeq *
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 
 +-- {: .un_prop}
 ###### Observation
