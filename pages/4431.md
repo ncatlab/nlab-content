@@ -3,3 +3,5 @@ Marcelo Aguiar works on categories, higher categorical structures, and their app
 * Marcelo Aguiar and Swapneel Mahajan, _Monoidal Functors, Species and Hopf Algebras_, to be published by Cambridge U. Press.  ([web](http://www.math.tamu.edu/~maguiar/a.pdf))
 
 See also Aguiar's ([website](http://www.math.tamu.edu/~maguiar/)).
+
+category: people
