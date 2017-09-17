@@ -48,7 +48,9 @@ __Formal group schemes__ are simply the [[group object]]s in a category of [[for
 
 For a generalization over [[operads]] see ([Fresse](#Fresse)).
 
+## Examples
 
+* [[Artin-Mazur formal group]]
 
 
 ## Related concepts
@@ -64,7 +66,7 @@ Formal geometry is closely related also to the *rigid* [[analytic geometry]].
 
 ## References
 
-* [[Alexander Grothendieck]] et al. SGA III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
+* [[Alexander Grothendieck]] et al. [[SGA]] III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
  {#Grothendieck}
 
 * [[Benoit Fresse]], _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998, [doi](http://dx.doi.org/10.1006/jabr.1997.7280) 
