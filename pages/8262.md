@@ -38,35 +38,107 @@ $$
 ###### Definition
 
 
-This is the _free abelian group functor_.
+This is the _free abelian group functor_. For $S \in $ [[Set]], the **free abelian group** $\mathbb{Z}[S] \in $ [[Ab]] is the [[free object]] on $S$ with respect to this free/forgetful adjunction.
 
 =--
 
-This means explicitly the following.
+Explicit descriptions of free abelian groups are discussed [below](#Properties).
 
-+-- {: .num_defn}
+
+## Properties
+ {#Properties}
+
+### In terms of formal linear combinations
+
++-- {: .num_defn #FormalLinearCombination}
 ###### Definition
 
-For $S \in $ [[Set]], the __free abelian group__ $\mathbb{Z}[S]$ is the group of formal linear combinations of elements of $S$:
+A **formal linear combination** of elements of a set $S$ is 
+a [[function]] 
 
 $$
-  \mathbb{Z}[S]
+  a : S \to \mathbb{Z}
+$$
+such that only finitely many of the values $a_s \in \mathbb{Z}$ are non-zero.
+
+Identifying an element $s \in S$ with the function
+$S \to \mathbb{Z}$ which sends $s$ to $1 \in \mathbb{Z}$ and all other elements to 0, this is written as
+
+$$
+  a = \sum_{s \in S} a_s \cdot s
+  \,.
+$$
+
+In this expression one calls $a_s \in \mathbb{Z}$ the [[coefficient]] of $s$ in the formal linear combination.
+
+=--
+
++-- {: .num_defn #GroupOfFormalLinearCombinations}
+###### Definition
+
+For $S \in $ [[Set]], the __group of formal linear combinations__ $\mathbb{Z}[S]$ is the 
+[[group]] whose underlying [[set]] is that of formal linear combinations, 
+def. \ref{FormalLinearCombination}, and whose group operation is 
+the pointwise addition in $\mathbb{Z}$:
+
+$$
+  (\sum_{s \in S} a_s \cdot s)
+  + 
+  (\sum_{s \in S} b_s \cdot s)
   =
-  \{
-     \sum_{i \in I} n_1 s_{i_1}
-     |
-     I \in FinSet, s_{i_j} \in S 
-  \}
+  \sum_{s \in S} (a_s + b_s) \cdot s
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The free abelian group on $S \in Set$ is, up to [[isomorphism]], the 
+group of formal linear combinations, def. \ref{GroupOfFormalLinearCombinations}, on $S$.
+
+=--
+
+
+### In terms of direct sums
+
++-- {: .num_defn}
+###### Proposition
+
+For $S$ a set, the free abelian group $\mathbb{Z}[S]$ is the [[direct sum]] in [[Ab]] of ${|S|}$-copies of $\mathbb{Z}$ with itself:
+
+$$
+  \mathbb{Z}[S] \simeq \oplus_{s \in S} \mathbb{Z}
   \,.
 $$
 
 =--
 
 
+
+### Relation to formal linear combinations with coefficients
+
+The definition \ref{FormalLinearCombination}
+of formal linear combinations makes sense with 
+[[coefficients]] in any [[abelian group]] $A$, not necessarily the
+integers.
+
+$$
+  A[S] \coloneqq \mathbb{Z}[S] \otimes A
+  \,.
+$$
+
+
 ## Examples
 
 * The free abelian group on the [[singular simplicial complex]] of a [[topological space]] $X$ consists of the [[singular chains]] on $X$.
 
+* For $R$ a ring and $S$ a set, the [[tensor product of abelian groups]]
+  $\mathbb{Z}[S] \otimes R$ is the [[free module]] over $R$ on the [[basis]] $S$. If $R = k$ is a [[field]], then this is the [[vector space]] over $k$ with basis $S$.
+
+* For $R$ a ring, the [[tensor product of abelian groups]]  $\mathbb{Z}[\mathbb{N}]\otimes R$ is the abelian group underlying the [[ring]] of [[polynomials]] over $R$.
+ 
 
 ## Related concepts
 
