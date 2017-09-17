@@ -27,6 +27,8 @@ The notion of $(\infty,1)$-monad is the [[vertical categorification]] of that of
 
 * [[monad]] / [[2-monad]]/ [[doctrine]] / **$(\infty,1)$-monad**
 
+  * [[modal type theory]]
+
 * [[operad]] / [[(∞,1)-operad]]
 
 
@@ -38,3 +40,6 @@ A related entry is [[higher monadic descent]]. For a comprehensive treatment of 
 
 
 [[!redirects (∞,1)-monad]]
+
+[[!redirects (infinity,1)-monads]]
+[[!redirects (∞,1)-monads]]
