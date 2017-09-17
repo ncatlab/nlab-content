@@ -1000,7 +1000,9 @@ This section is at
 We list examples of cohesive $(\infty,1)$-toposes,
 both specific ones as well as classes of examples constructed in a certan way.
 
-### Cohesive diagrams in a cohesive $(\infty,1)$-topos
+### Cohesive diagram $(\infty,1)$-toposes
+
+#### Cohesive diagrams in a cohesive $(\infty,1)$-topos
  {#CohesiveDiagramToposes}
 
 +-- {: .num_prop}
@@ -1061,6 +1063,43 @@ For $\mathbf{H} = $ [[∞Grpd]] ("discrete cohesion", see [below](#DiscreteInfin
 
 =--
 
+#### Simplicial objects in a cohesive $(\infty,1)$-topos
+ {#SimplicialObjctsInACohesiveTopos}
+
+For $\mathbf{H}$ a cohesive $(\infty.1)$-topos its [[category of simplicial objects|(∞,1)-category of simplicial objects]] $\mathbf{H}^{\Delta^{op}}$ is cohesive over $\mathbf{H}$
+
+$$
+  \mathbf{H}^{Delta^{op}}
+  \stackrel{\Pi_I}{\stackrel{}{\stackrel{Disc_I}{\stackrel{\overset{\Gamma_I}{\to}}{\underset{coDisc_I}{\leftarrow}}}}}
+  \mathbf{H}
+  \,.
+$$
+
+Here
+
+* $\Pi_I$ sends a [[simplicial object]] to the [[homotopy colimit]] over its components, hence to its "[[geometric realization]]" as seen in $\mathbf{H}$.
+
+* $\Gamma_I$ evaluates on the 0-simplex;
+
+* $Disc_I$ sends an object in $\mathbf{H}$ to the simplicial object which is simplicially constant on $A$.
+
+Hence cohesion of $\mathbf{H}^{\Delta^{op}}$ relative to $\mathbf{H}$ expresses the existence of a discrete and directed notion of path. 
+
+Notice that there is an inclusion
+
+$$
+  Grpd(\mathbf{H})
+  \hookrightarrow
+  Cat(\mathbf{H})
+  \hookrightarrow
+  \mathbf{H}^{\Delta^{op}}
+$$
+
+of the [[groupoid object in an (∞,1)-category|groupoid objects]] internal to $\mathbf{H}$ and of the [[category object in an (∞,1)-category|category objects]] internal to $\mathbf{H}$ inside $\mathbf{H}^{\Delta^{op}}$.
+
+Here $\mathbf{H}^{\Delta^{op}}$ is also the [[classifying topos]] for [[linear intervals]]. Its [[homotopy type theory]] [[internal language]] is equipped with an interval [[type]]. 
+
+For more see at _[[simplicial object in an (∞,1)-category]]_.
 
 ### Over $\infty$-Cohesive sites of definition
 
