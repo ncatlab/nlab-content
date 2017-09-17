@@ -102,6 +102,7 @@ A textbook discussion (slightly modified) is in section 1.6 of the book
 Further explanations and references are collected at
 
 * [AMS entry on associahedra](http://www.ams.org/featurecolumn/archive/associahedra.html)
+* [[Alexander Postnikov]], _Permutohedra, associahedra and beyond_, [math.CO/0507163](http://arxiv.org/abs/math/0507163) [pdf](http://math.mit.edu/~apost/papers/permutohedron.pdf)
 
-
+category: combinatorics
 [[!redirects associahedra]]
