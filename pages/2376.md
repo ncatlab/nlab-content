@@ -1,4 +1,8 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 [[physics|Physical]] bodies interact. The effects of binary interactions between point particles are known to be summarizable in vector quantities called __forces__ applied to any body in an interaction; namely the forces on one body from each of several other bodies add up as [[vector|vectors]] and such vector sum of forces on the body is proportional to the acceleration of the body (hence [[Newton's laws|Newton's second law]] $F = m a$ is *not* a definition of force but a real law).
@@ -14,7 +18,13 @@ In nuclei there are also effective forces which are not of vector but of [[tenso
 
 ## Related concepts
 
+* [[gauge field]]
+
 * [[Lorentz force]]
+
+* [[gravity]], [[weak nuclear force]], [[strong nuclear force]]
+
+* [[matter]]
 
 [[!redirects force]]
 [[!redirects forces]]
