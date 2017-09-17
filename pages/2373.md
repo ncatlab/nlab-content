@@ -139,6 +139,8 @@
  
 * [[k-tuply monoidal n-category]]
 
+* [[cosmic cube]]
+
 * [[stable (∞,1)-category]]
 
 * [[(∞,1)-topos]]
