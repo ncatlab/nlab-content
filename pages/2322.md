@@ -16,7 +16,7 @@
 
 A crucial ingredient in a [[topos]] is a [[subobject classifier]]. That this has to do with [[subobjects]] turns out to the a coincidence of low dimensions. As discussed at [[stuff, structure, property]], the classifying objects in [[higher topos theory]] classify more general morphisms.
 
-When one passes all the way to $\infty$-toposes, there should be objects that classify _all_ morphisms. This is made precise in the context of [[(∞,1)-topos]] [[higher topos theory|theory]].
+When one passes all the way to $\infty$-toposes, there should be objects that classify _all_ morphisms, subject to some bound on size. This is made precise in the context of [[(∞,1)-topos]] [[higher topos theory|theory]].
 
 One way to characterize an [[(∞,1)-topos]] is as 
 
@@ -29,6 +29,8 @@ One way to characterize an [[(∞,1)-topos]] is as
 This statement is originally due to [[Charles Rezk]]. It is reproduced as theorem 6.1.6.8 in
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+
+In terms of [[homotopy type theory]] these object classifiers are _[[types of types]]_.
 
 ## Details
 
