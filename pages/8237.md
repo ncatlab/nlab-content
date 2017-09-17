@@ -1,0 +1,20 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _[[lattice in a vector space]]_ is called _integral_ if the canonical [[inner product]] of all pairs of lattice vectors is is [[integer]] number.
+
+## Related concepts
+
+* [[modular integral lattice]]
+
+## References
+
+* A. E. Brouwer, _Lattices_, Course notes (2002) ([pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf))
+
+[[!redirects integral lattices]]
+
