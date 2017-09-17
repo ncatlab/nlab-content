@@ -59,7 +59,7 @@ The derivation of the fact that the Kalb-Ramond field that is locally given by a
 
 * **classical background** The [[field strength]] 3-form $H \in \Omega^3(X)$ is required to be closed, $d H_3 = 0$.
 
-* **quantum coupling** The gauge interaction with the quantum string is required to yield a well-defined surface holomomy in $U(1)$ from locally integrating the 2-forms $B_i \in \Omega^2(U_2)$ with $d B_i = H|_{U_i}$ over its 2-dimensional trajectory.
+* **quantum coupling** The gauge interaction with the quantum string is required to yield a well-defined surface holonomy in $U(1)$ from locally integrating the 2-forms $B_i \in \Omega^2(U_2)$ with $d B_i = H|_{U_i}$ over its 2-dimensional trajectory.
 
 
   $$
