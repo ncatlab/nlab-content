@@ -118,6 +118,12 @@ See at _[[spin^c-structure]]_ for more.
 |--|--|--|
 [[complex structure]] | [[Hermitian structure]] | [[Kähler structure]] |
 
+## Related concepts
+
+* [[real structure]]
+
+* [[quaternionic structure]]
+
 ## References
 
 A discussion of deformations of complex structures is in
