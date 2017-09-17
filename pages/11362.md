@@ -411,6 +411,8 @@ Now, just because a real number has an expansion as a continued fraction, that d
 
 * A. Ya. Khinchin, _Continued fractions_, U. Chicago Press 1964. 
 
+* Ilan Vardi, _Continued fractions from Euclid to the present day_, unpublished manuscript ([web](http://chronomaitre.org/ContinuedFractions.pdf))
+
 * [[Louis Kauffman]] and Sofia Lambropoulou, _On the classification of rational tangles_, arXiv ([web](http://arxiv.org/pdf/math/0311499.pdf)). 
  {#KL} 
 
