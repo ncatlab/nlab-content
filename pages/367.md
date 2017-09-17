@@ -21,7 +21,7 @@
 
 ## Idea
 
-A simplicial object $X$ in a [[category]] $C$ is a collection $\{X_n\}_{n \in \mathbb{N}}$ of [[objects]] in $C$ that behave as if $X_n$ were an $n$-dimensional [[simplex]] [[internalization|internal to]] $C$. 
+A _simplicial object_ $X$ in a [[category]] $C$ is an _[[simplicial set]]_ [[internalization|internal]] to $C$: a collection $\{X_n\}_{n \in \mathbb{N}}$ of [[objects]] in $C$ that behave as if $X_n$ were a collection of $n$-dimensional [[simplices]] [[internalization|internal to]] $C$ equipped with maps between these space that assign faces and degenerate simplices.
 
 
 ## Definition
