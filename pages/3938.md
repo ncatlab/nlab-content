@@ -1,10 +1,14 @@
 _Under Construction - The following material needs the blessing of an expert._
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 Transgression is a tool in algebraic topology to transfer cohomology classes from one space to another without needing a morphism between them.  Rather, one has a third space with morphisms to each of the two spaces.  Of course, not just _any_ third space will do.
 
-The set up is as follows.  We have two topological spaces, $X$ and $Y$, and a [[generalised cohomology theory]] $E^*(-)$.  We want to be able to transfer (_transgress_) $E^*$-classes from $X$ to $Y$.  We find a third space, $Z$, which has morphisms to both $X$ and $Y$.  We usually write this in the following way:
+The set up is as follows.  We have two topological spaces, $X$ and $Y$, and a [[generalised cohomology theory]] $E^*(-)$.  We want to be able to transfer ( _transgress_ ) $E^*$-classes from $X$ to $Y$.  We find a third space, $Z$, which has morphisms to both $X$ and $Y$.  We usually write this in the following way:
 
 $$
 \begin{matrix}
@@ -16,22 +20,36 @@ $$
 
 (Note to self: replace with SVG, write $f \colon Z \to X$ and $g \colon Z \to Y$.)
 
+An important example is that where we have some parameter space $\Sigma$ (for instance the circle $\Sigma = S^1$) and set $Z = \Sigma \times [\Sigma,X]$,  the [[product]] of $\Sigma$ with the [[internal hom|mapping space]] $[\Sigma,X]$ of maps from $X$ to $Y$ (for instance the [[loop space]] of $X$). Then the morphism on the right is taken to be evaluation and the morphism on the left is projection onto the mapping space $[\Sigma,X]$:
+
+$$
+  \array{
+    \Sigma \times [\Sigma, X] &\stackrel{ev}{\to}& X
+    \\
+    \downarrow^{\mathrlap{p_2}}
+    \\
+    [\Sigma,X]
+  }
+  \,.
+$$
+
+This setup induces **transgression to mapping spaces** in the following.
+
 Now we apply the generalised cohomology theory to this diagram.  As it is a cohomology theory, the arrows reverse.  We have part of our route from $E^*(X)$ to $E^*(Y)$, namely from $E^*(X)$ to $E^*(Z)$.  However, the way from $E^*(Y)$ to $E^*(Z)$ is blocked: it is a one-way street and we want to go the _wrong_ way.
 
 However, under certain special circumstances, cohomology theories admit push-forward maps.  That is, if $g \colon Z \to Y$ is particularly nice, there is a map $g_! \colon E^*(Z) \to E^*(Y)$.  The notation $g_!$ (pronounced "g shriek") has the explanation that it is a surprise that there is a map in this direction[^shriek].
-Note that the push-forward map, $g_! \colon E^*(Z) \to E^*(Y)$, often results in a change of degree.
+Note that the push-forward map, $g_! \colon E^*(Z) \to E^*(Y)$, often results in a change of degree. This is described at [[fiber integration]] and [[Pontrjagin-Thom collaps map]].
 
 [^shriek]: To the best of [[Andrew Stacey|my]] knowledge, this remark is attributable to [[Ralph Cohen]].
 
 Thus the key to transgression is to understand the conditions where the map $g \colon Z \to Y$ admits a push-forward map.  The simplest case is where $Z$ is a product space, $Y \times W$, and $W$ is [[orientable]] for the generalised cohomology theory $E^*(-)$.  This means that $W$ has a fundamental class in $E^*(W)$ and evaluation on this class gives a morphism $E^*(Y \times W) \to E^*(Y)$.
 
-+-- {: .query}
-[[Andrew Stacey]] Need to look up more on when push-forwards exist.  This is all tied in with umkehr maps and the Thom-Pontrijagin construction so need to add links to those as well.
-=--
+
+## Examples
 
 ### Transgression in de Rham Cohomology ###
 
-With a cohomology theory that has a good geometric model, such as de Rham cohomology, there is often a similar geometric model for the push-forward map.  In the case of de Rham cohomology, it goes by the name of _integration along the fibres_.
+With a cohomology theory that has a good geometric model, such as [[de Rham cohomology]], there is often a similar geometric model for the push-forward map.  In the case of de Rham cohomology, it goes by the name of _[[fiber integration|integration along the fibres]]_.
 
 Using the notation above, with the simple case of $Z = Y \times W$, we have the formula
 
