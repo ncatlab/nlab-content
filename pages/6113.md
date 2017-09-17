@@ -24,6 +24,8 @@ $$
 
 ## Properties
 
+### Relation to looping and stabilization
+
 As an [[infinity-functor]] $\Sigma^\infty\colon Top_* \to Spec$ the suspension spectrum functor exhibits the [[stabilization]] of [[Top]].
 
 $$
@@ -32,6 +34,10 @@ $$
   Spec
 $$
 
+
+### Recognition and diagonals
+
+(...)
 
 ## References
 
