@@ -61,7 +61,7 @@ A _primitive recursive function_ is a function that belongs to the smallest clas
 
 Clearly the primitive recursive functions are a subclass of partial recursive functions. Notice that primitive recursive functions are not merely partial functions, but actual (*total*) functions. 
 
-Both the class of partial recursive functions and the class of primitive recursive functions yield [[Lawvere theories]], where a morphism $k \to 1$ of the Lawvere theory is a function $\mathbb{N}^k \to \mathbb{N}$ belonging to the class. 
+Both the class of partial recursive functions and the class of primitive recursive functions yield [[Lawvere theories]] $Th(Comp)$ and $Th(PrimRec)$, where a morphism $k \to 1$ of the Lawvere theory is a function $\mathbb{N}^k \to \mathbb{N}$ belonging to the class. 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -91,15 +91,42 @@ and similarly with the sum replaced by a product. It follows that primitive recu
 $$Q(y, \mathbf{z}) = \forall_{0 \leq x \lt y} R(x, y, \mathbf{z}) \coloneqq \bigwedge_{x=0}^{y-1} R(x, y, \mathbf{z})$$ 
 since $\chi_Q(y, \mathbf{z}) = \prod_{x=0}^{y-1} \chi_R(x, y, \mathbf{z})$. 
 
-1. (Bounded least number operator) If $R(x, y, \mathbf{z})$ is a primitive recursive relation, then the function $f(y, \mathbf{z})$ defined to be "least $x$ such that $R(x, y, \mathbf{z})$ if such $x$ exists, else $y$" is primitive recursive. Indeed, 
-$$f(y, \mathbf{z}) = [\sum_{x=0}^{y-1} (x \cdot \chi_R(x, y, \mathbf{z}) \cdot (\prod_{w=0}^{x-1} \chi_{\neg R}(w, y, \mathbf{z}))] + y \cdot \prod_{x=0}^{y-1} \chi_{\neg R}(x, y, \mathbf{z}).$$  
+1. (Bounded least choice operator) If $R(x, y, \mathbf{z})$ is a primitive recursive relation, then the function $f(y, \mathbf{z})$ defined to be "the least $x \lt y$ such that $R(x, y, \mathbf{z})$ if such $x$ exists, else $y$" is primitive recursive. Indeed, 
+$$f(y, \mathbf{z}) = [\sum_{x=0}^{y-1} (x \cdot \chi_R(x, y, \mathbf{z}) \cdot (\prod_{w=0}^{x-1} \chi_{\neg R}(w, y, \mathbf{z}))] + y \cdot \prod_{x=0}^{y-1} \chi_{\neg R}(x, y, \mathbf{z}).$$ 
+This principle can be extended: if $g, h$ are primitive recursive, then we can similarly define $f(y, \mathbf{z})$ to be "the least $x \lt g(y)$ such that $R(x, y, \mathbf{z}$ if such $x$ exists, else $h(y)$". 
 
+1. There is an isomorphism $\mathbb{N}^2 \to \mathbb{N}$ in the Lawvere theory $Th(PrimRec)$, i.e., there is a primitive recursive function $f: \mathbb{N}^2 \to \mathbb{N}$ with a primitive recursive inverse $g: \mathbb{N} \to \mathbb{N}^2$. The function $f$ can be taken to be 
+$$f: (m, n) \mapsto \binom{m+n+1}{2} + n$$ 
+and the function $g$ can be described as taking $m$ to the pair 
+$$(a \stackrel{\bullet}{-} (y+2), m - \binom{a \stackrel{\bullet}{-} 1}{2})$$ 
+where $a$ is the least element such that $\binom{a}{2} \gt m$. By the aforementioned properties, this $g$ is manifestly primitive recursive. 
 
-(To be continued.) 
+As a consequence, there exist primitive recursive [[isomorphisms]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$. Since partial/primitive recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial/primitive recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $\mathbb{N} \to 1$ or $1 \to \mathbb{N}$ is recursive.) 
 
-There exist primitive recursive mutually inverse [[bijections]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$; since partial/primitive recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial/primitive recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $\mathbb{N} \to 1$ or $1 \to \mathbb{N}$ is recursive.) 
++-- {: .num_remark} 
+###### Remark 
+It is not true however that the forgetful functor $Th(PrimRec) \to Set$ reflects isomorphisms, i.e., it is not true that every primitive recursive bijection possesses a primitive recursive inverse. See example \ref{inverse} below, or see an example given on MathOverflow by [Joel David Hamkins](#JDH). 
+=-- 
 
-For instance, the map $\mathbb{N}^2 \to \mathbb{N}$ defined by (to be continued). 
++-- {: .num_remark} 
+###### Remark 
+The preceding remark also indicates that it is not always true that if a graph of a function is a primitive recursive relation, then the function itself is primitive recursive. (For example, the graph of the Ackermann function is a primitive recursive relation.) However, we do have a sample theorem as follows. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+If a graph of a function $f$ is a primitive recursive relation, and if $f \leq g$ for some primitive recursive $g$, then $f$ is itself primitive recursive. 
+=-- 
+
+The proof can be roughly expressed as follows: if $R(x, y)$ is the functional computable relation, then let $f(x)$ be the least $y \leq g(x)$ such that $R(x, y)$. The bounded least choice property shows that $f(x)$ is primitive recursive. 
+
+The point hovering in the background is that there are some computable functions which grow faster (in fact, much much much faster) than any primitive recursive function. This underscores the important role of the minimization axiom for partial recursive functions, which allows unboundedly large searches to take place. More on this later. 
+
+However, it is good to have some idea of the scope of primitive recursive functions and what they can compute. Some examples: 
+
+* The function $f(n) = p_n$, the $n^{th}$ prime, is primitive recursive. 
+
+(to be continued) 
 
 
 ## The Ackermann function 
