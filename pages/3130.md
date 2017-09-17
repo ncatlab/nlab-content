@@ -107,6 +107,13 @@ that defines the Chern-character map is induced by a canonical cocycle on the [[
 
 This is described for instance in section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of Hopkins-Singer [[Quadratic Functions in Geometry, Topology,and M-Theory]].
 
+## Properties
+
+### Push-forward
+
+The behaviour of the Chern-character under push-forward
+along [[proper maps]] is described by the [[Grothendieck-Riemann-Roch theorem]].
+
 ## References
 
 Section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of
