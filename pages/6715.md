@@ -55,7 +55,7 @@ $$
 
 ## Examples
 
-* When $A=\mathbb{Z}$, the equivalence $\mathbf{B}^{n+1}\mathbb{Z}\cong \mathbf{B}^n U(1)$ (which holds in ambient contexts such as $\mathbf{H} = $ [[ETop∞Grpd]] or [[Smooth∞Grpd]]) identifies the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n+1}\mathbb{Z}$ with the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n} U(1)$ induced by the inclusion of the subgroup of $m$-th roots of unity into $U(1)$. This identifies the Bockstein homomorphism $\beta_m: H^n(X;\mathbb{Z}_m)\to H^{n+1}(X;\mathbb{Z})$ with the natural homomorphism 
+* When $A=\mathbb{Z}$, the equivalence $\vert \mathbf{B}^{n+1}\mathbb{Z} \vert \cong \vert \mathbf{B}^n U(1)\vert$ (which holds in ambient contexts such as $\mathbf{H} = $ [[ETop∞Grpd]] or [[Smooth∞Grpd]] under [[geometric realization]] $\vert - \vert : ETop \infty Grpd \stackrel{\Pi}{\to} \infty Grpd \stackrel{\simeq}{\to} Top$) identifies the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n+1}\mathbb{Z}$ with the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n} U(1)$ induced by the inclusion of the subgroup of $m$-th roots of unity into $U(1)$. This identifies the Bockstein homomorphism $\beta_m: H^n(X;\mathbb{Z}_m)\to H^{n+1}(X;\mathbb{Z})$ with the natural homomorphism 
 $H^n(X;\mathbb{Z}_m)\to H^{n}(X;U(1))$.
 
 * The Bockstein homomorphism $\beta$ for the sequence $\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z} \stackrel{}{\to} \mathbb{Z}_2$ serves to defined [[integral Stiefel-Whitney class]]es $W_{n+1} := \beta w_n$ in degree $n+1$ from $\mathbb{Z}_2$-valued [[Stiefel-Whitney class]]es in degree $n$.
