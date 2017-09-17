@@ -1,0 +1,19 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+=--
+=--
+
+
+...[[coherent state]] in [[geometric quantization]]...
+
+## References
+
+* William D. Kirwin, _Coherent States in Geometric Quantization_ ([arXiv:0502026](http://arxiv.org/abs/math/0502026))
+
+* Anatol Odzijewicz, _Coherent State Method in Geometric Quantization_, in Twenty Years of BialowiezA: a mathematical anthology, Aspects of Differential Geometric Methods in Physics_ (pp 47-78) 
+
