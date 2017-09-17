@@ -98,6 +98,8 @@ This is famously due to ([CattaneoFelder](#CattaneoFelder)), following a constru
 
 ## References
 
+### General
+
 The Poisson sigma model was first considered in 
 
 * [[Noriaki Ikeda]], _Two-dimensional gravity and nonlinear gauge theory_ , Ann.Phys.235(1994) 435- 464, [hep-th/9312059].
@@ -147,5 +149,9 @@ The study of [[brane]]s in the Poisson sigma-model is started in
 * Damien Calaque, [[Giovanni Felder]], Carlo A. Rossi, _Deformation quantization with generators and relations_ ([arXiv:0911.4377](http://arxiv.org/abs/0911.4377))
 
 * Andrea Ferrario, _Poisson Sigma Model with branes and hyperelliptic Riemann surfaces_ ([arXiv:0709.0635](http://arxiv.org/abs/0709.0635))
+
+### Recent developments
+
+* Francesco Bonechi, [[Alberto Cattaneo]], [[Pavel Mnev]], _The Poisson sigma model on closed surfaces_ ([arXiv:1110.4850](http://arxiv.org/abs/1110.4850))
 
 [[!redirects Poisson sigma model]]
