@@ -56,4 +56,4 @@ Also note, to a tensored, triangulated category, one may associate a [[Bousfield
 
 * Amnon Neeman, _The connection between the $K$-theory localization theorem of Thomason, Trobaugh and Yao and the smashing subcategories of Bousfield and Ravenel_ ([pdf](http://archive.numdam.org/article/ASENS_1992_4_25_5_547_0.pdf))
 
-[[!redirects Bousfield localization of a triangualated category]]
+[[!redirects Bousfield localization of a triangulated category]]
