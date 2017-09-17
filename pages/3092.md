@@ -30,7 +30,7 @@ A cellular set that satisfies the cellular [[Segal condition]] is an [[omega-cat
 
 ### Model category strucuture
 
-There is a [[model category]] structure on presheaves on $\Theta_n$ which models [[(∞,n)-categories]]. See at _[[model structure on cellular sets]]_.
+There is a [[model category]] structure on presheaves on $\Theta_n$ which models [[(∞,n)-categories]]. See at _[[model structure on cellular sets]]_ and at _[[n-quasicategory]]_.
 
 ## Related concepts
 
