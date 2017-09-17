@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 ## Definition
 
 A [[morphism]] $f\colon A\to B$ in a [[2-category]] $K$ is said to be **(representably) faithful** if for all objects $X$, the induced [[functor]]
