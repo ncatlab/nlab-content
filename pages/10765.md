@@ -9,11 +9,15 @@ For $p$ a [[prime number]], a [[group]] is _$p$-primary_ if each of its elements
 
 (Also called _primary group_ a _$p$-group_, but NO relation to _[[n-group]]_.)
 
-## Related concepts
+## Properties
 
 ### Relation to finite abelian group
 
 Every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups.
+
+## Examples
+
+* for the primary components of the [[stable homotopy groups of spheres]] see at _[homotopy groups of spheres -- Table](homotopy+groups+of+spheres#Tables)_.
 
 ## Related concepts
 
@@ -30,5 +34,5 @@ Every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups.
 [[!redirects primary group]]
 [[!redirects primary groups]]
 
-[[!redirects p-primary comoponent]]
-[[!redirects p-primary comoponents]]
+[[!redirects p-primary component]]
+[[!redirects p-primary components]]
