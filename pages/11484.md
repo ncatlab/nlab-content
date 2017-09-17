@@ -13,11 +13,16 @@ For nodal [[cubic curve]] (over some base) is (see at _[ellitpic curve -- Nodal 
 
 ## Properties of the nodal cubic
 
+
 ### Compactified moduli stack of elliptic curves and the Tate curve
 
 The nodal [[cubic curve]] is not an [[elliptic curve]], as it is singular, but adding it to the [[moduli stack of elliptic curves]] $\mathcal{M}_{ell}$ produces the [[Deligne-Mumford compactification|compactification]] $\mathcal{M}_{\overline{ell}}$ which is often relevant.
 
 The [[formal neighbourhood]] of the nodal curve in $\mathcal{M}_{\overline{ell}}$ is the [[Tate curve]].
+
+### Formal group and height
+
+The [[formal group]] associated with a nodal cubic curve is of [[height of a formal group|height]] 1.  Indeed, passing to the point of the nodal curve in $\mathcal{M}_{\overline{ell}}$ connects [[elliptic cohomology]] (of [[chromatic level]] 1) to [[topological K-theory]] (of chromatic level 1). For more on this see at _[[moduli stack of tori]]_ and at _[tmf -- Properties -- Maps to K-theory and to Tate K-theory](tmf#MapToTateKTheory)_.
 
 ## Related concepts
 
