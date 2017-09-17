@@ -1,24 +1,31 @@
 
 **[[category object in an (∞,1)-category]]**, [[groupoid object in an (infinity,1)-category|groupoid object]]
 
-[[complete Segal space object]], [[complete Segal space]], 
+## In a 1-category
+
+* [[internal category]], [[internal groupoid]]
+
+* [[internal profunctor]]
+
+## In [[∞Grpd]]
+
+* [[Segal space]], [[complete Segal space]], 
+
+* [[reduced Segal space]]
+
+## In $Cat(Cat(\cdots Cat(\infty Grpd)))$
+
+* [[higher Segal space]]
+
+* [[n-fold complete Segal space]]
+
+* [[Theta space]]
 
 
 ## Model category presentations
 
 * [[model structure for complete Segal spaces]]
 
-## Low dimensional cases
-
-* [[internal category]], [[internal groupoid]]
-
-* [[internal profunctor]]
-
-## Iterated higher dimensional cases
-
-* [[higher Segal space]]
-
-* [[n-fold complete Segal space]], [[Theta space]]
 
 ## Operadic case
 
