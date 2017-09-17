@@ -203,6 +203,9 @@ The notion of local net in the context of [[conformal field theory]] is a [[conf
 
       * [[net of C-star systems]] ([[global gauge group]] [[actions]])
 
+
+      * [[cohomology of local net of observables]]
+
       * [[factorization algebra]], [[chiral algebra]], [[topological chiral homology]], [[blob complex]].
 
   * [[FQFT]]
