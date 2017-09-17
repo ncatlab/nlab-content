@@ -25,7 +25,7 @@ For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small cat
 
 * a [[weak equivalence]] if it is an [[equivalence of categories]], or equivalently if it is [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]].
 
-* a [[cofibration]] if it is injective on objects.
+* a [[cofibration]] if it is injective on objects, i.e. an [[isocofibration]].
 
 * a [[fibration]] if it is an [[isofibration]].
 
