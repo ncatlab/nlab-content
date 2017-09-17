@@ -1,3 +1,9 @@
+# Logical disjunction
+* table of contents
+{: toc}
+
+## Definitions
+
 In [[logic]], logical disjunction is the [[join]] in the [[poset]] of [[truth values]].
 
 Assuming that (as in [[classical logic]]) the only truth values are true ($T$) and false ($F$), then the disjunction $p \vee q$ of the truth values $p$ and $q$ may be defined by a truth table:
@@ -7,15 +13,45 @@ Assuming that (as in [[classical logic]]) the only truth values are true ($T$) a
 |$T$|$T$| |$T$|
 |$T$|$F$| |$T$|
 |$F$|$T$| |$T$|
-|$F$|$F$| |$T$|
+|$F$|$F$| |$F$|
 
 That is, $p \wedge q$ is true if and only if at least one of $p$ and $q$ is true.  Disjunction also exists in nearly every non-classical logic.
 
 More generally, if $p$ and $q$ are any two [[relations]] on the same domain, then we define their disjunction pointwise, thinking of a relation as a [[function]] to truth values.  If instead we think of a relation as a [[subset]] of its domain, then disjunction becomes [[union]].
 
+
+## Remarks
+
 Disjunction as defined above is sometimes called __inclusive disjunction__ to distinguish it from [[exclusive disjunction]], where *exactly* one of $p$ and $q$ must be true.
 
+Disjunction is [[de Morgan dual]] to [[logical conjunction|conjunction]].
+
 Like any join, disjunction is an associative operation, so we can take the disjunction of any finite positive whole number of truth values; the disjunction is true if and only if at least one of the various truth values is true.  Disjunction also has an [[identity element]], which is the [[falsity|false]] truth value.  Some logics allow a notion of infinitary disjunction.  Indexed disjunction is [[existential quantification]].
+
+
+## Rules of inference
+
+The [[rule of inference|rules of inference]] for disjunction in [[sequent calculus]] are dual to those for [[logical conjunction|conjunction]]:
+$$ \begin {gathered}
+   \frac { \Gamma , p , \Delta \vdash \Sigma ; \; \Gamma , q , \Delta \vdash \Sigma } { \Gamma , p \vee q , \Delta \vdash \Sigma } \; \text {left additive} \\
+   \frac { \Gamma \vdash \Delta , p , \Sigma } { \Gamma \vdash \Delta , p \vee q , \Sigma } \; \text {right additive 0} \\
+   \frac { \Gamma \vdash \Delta , q , \Sigma } { \Gamma \vdash \Delta , p \vee q , \Sigma } \; \text {right additive 1} \\
+\end {gathered} $$
+
+Equivalently, we can use the following rules with weakened contexts:
+$$ \begin {gathered}
+   \frac { \Gamma , p \vdash \Delta ; \; q , \Sigma \vdash \Pi } { \Gamma , p \vee q , \Sigma \vdash \Delta , \Pi } \; \text {left multiplicative} \\
+   \frac { \Gamma \vdash \Delta , p , q , \Sigma } { \Gamma \vdash \Delta , p \vee q , \Sigma } \text {right multiplicative} \\
+\end {gathered} $$
+
+The rules above are written so as to remain valid in logics without the [[exchange rule]].  In [[linear logic]], the first batch of sequent rules apply to additive disjunction (interpret $p \vee q$ in these rules as $p \oplus q$), while the second batch of rules apply to multiplicative disjunction (interpret $p \vee q$ in those rules as $p \parr q$).
+
+The [[natural deduction]] rules for disjunction are a little more complicated than those for conjunction:
+$$ \begin {gathered}
+   \frac { \Gamma , p \vdash r ; \; \Gamma , q \vdash r } { \Gamma , p \vee q \vdash r } \; \text {elimination} \\
+   \frac { \Gamma \vdash p } { \Gamma \vdash p \vee q } \; \text {introduction 0} \\
+   \frac { \Gamma \vdash q } { \Gamma \vdash p \vee q } \; \text {introduction 1} \\
+\end {gathered} $$
 
 
 [[!redirects disjunction]]
