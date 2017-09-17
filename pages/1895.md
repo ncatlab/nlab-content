@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 **Hecke algebra** is a term for a class of [[algebras]]. They often appear as convolution algebras or as double coset spaces. For p-adic algebraic groups Hecke algebras often play a role similar a Lie algebra plays in the  complex case (the Lie algebra still exists, but is too small).
 
 Typically the term refers to an algebra which is the [[endomorphisms]] of a [[permutation representation]] of a [[topological group]], though some liberties have been taken with this definition, and often the term means some modification of such an algebra.
