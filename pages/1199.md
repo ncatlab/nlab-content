@@ -50,11 +50,11 @@ This result makes it trivial to infer (under classical logic) that classical wel
 
 +-- {: .proof} 
 ###### Proof 
-Let $U = \{u \in X: u \notin A\; \wedge \; (\forall x: X),\; x \prec u \Rightarrow x \notin U\}$. Clearly $U \cap A = \emptyset$. We show $U$ is inductive, so that under well-foundedness $U = X$ and $A = X \cap A = U \cap A = \emptyset$, as desired. 
+Let $U = \{u \in X: u \notin A\; \wedge \; (\forall x: X),\; x \prec u \Rightarrow x \notin A\}$. Clearly $U \cap A = \emptyset$. We show $U$ is inductive, so that under well-foundedness $U = X$ and $A = X \cap A = U \cap A = \emptyset$, as desired. 
 
 So, suppose $z$ is an element such that $y \in U$ whenever $y \prec z$. We must show $z \in U$. Claim: $z \notin A$. For if $z \in A$, then $z$ would be a minimal element of $A$ (as $y \prec z \Rightarrow y \in U \Rightarrow y \notin A$). But this negates the assumption that $A$ has no minimal element. 
 
-Thus $z \notin A$, and $y \prec z \Rightarrow y \in Y \Rightarrow y \notin A$, so that $z \in U$. This completes the proof. 
+Thus $z \notin A$, and $y \prec z \Rightarrow y \in U \Rightarrow y \notin A$, so that $z \in U$. This completes the proof. 
 =-- 
 
 
