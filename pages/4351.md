@@ -30,7 +30,7 @@ A **morphism of hyperrings** is a map $f : R_1 \to R_2$ such that
 1. $\forall a,b\in R_1 : f(a \cdot b) = f(a) \cdot f(b)$.
 
 
-A **hyperfield** is a hyperring for which $(R - \{0\}, \cdot)$ is [[group]].
+A **hyperfield** is a hyperring for which $(R - \{0\}, \cdot)$ is a [[group]].
 
 ## Examples
 
@@ -61,7 +61,7 @@ Let $\mathbf{S} = \{0,1,-1\}$ be the hyperfield with multiplication induced from
 
 * $1 + -1 = \{-1, 0, 1\}$.
 
-This we may think of as being the hyperring of [[integer]]s moduo the relation "is positive or negative or 0": think of $1$ as being any positive integer, $0$ as being the integer $0$ and $-1$ as being any negative integer. Then the hyper-addition law above encodes how the signature of integers behaves under addition.
+This we may think of as being the hyperring of [[integer]]s modulo the relation "is positive or negative or 0": think of $1$ as being any positive integer, $0$ as being the integer $0$ and $-1$ as being any negative integer. Then the hyper-addition law above encodes how the signature of integers behaves under addition.
 
 **Proposition**
 
