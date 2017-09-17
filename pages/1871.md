@@ -86,9 +86,16 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 * [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) [pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF)
 
+See also the references at _[[QCD]]_, _[[gauge theory]]_, and _[[super Yang-Mills theory]]_.
+
 For the relation to [[instanton Floer homology]] see also
 
 * [[Simon Donaldson]], _Floer homology groups in Yang-Mills theory_ Cambridge University Press (2002) ([pdf](http://catdir.loc.gov/catdir/samples/cam031/2001035888.pdf))
+
+For the relation to [[Tamagawa numbers]] see
+
+* Aravind Asok, Brent Doran, Frances Kirwan, _Yang-Mills theory and Tamagawa numbers_ ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
+
 
 ### Classical solutions
 
