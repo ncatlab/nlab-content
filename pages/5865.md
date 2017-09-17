@@ -1188,10 +1188,10 @@ is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ 
 
 
 
-### Geometric homotopy and Galois theory 
+### Geometric homotopy  
  {#Homotopy}
 
-We discuss canonical internal realizations of the notions of [[homotopy group]], [[local system]] and [[Galois theory]] in $\mathbf{H}$.
+We discuss canonical internal realizations of the notions of [[geometric homotopy groups in an (infinity,1)-topos]] and [[local systems]] 
 
 
 +-- {: .num_defn}
@@ -1339,6 +1339,13 @@ $$
 and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$.
 
 =--
+
+
+### Galois theory
+ {#GaloisTheory}
+
+We discuss a canonical internal notion of
+[[Galois theory]] in $\mathbf{H}$.
 
 
 +-- {: .num_defn}
