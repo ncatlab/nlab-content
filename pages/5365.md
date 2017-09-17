@@ -50,3 +50,6 @@ A discussion in the context of [[algebraic model categories]] is in
 
 [[!redirects relative cell complex]]
 [[!redirects relative cell complexes]]
+
+[[!redirects cellular complex]]
+[[!redirects cellular complexes]]
