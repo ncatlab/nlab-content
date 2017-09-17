@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[proposition]] $\phi$ is a _contradiction_ if assuming it there is a [[proof]] of [[false]], hence if the [[hypothetical judgement]]
+
+$$
+ \phi \vdash \bot
+$$
+
+is valid.
+
+A system of [[formal logic]] that proves a contradiction is called [[inconsistency|inconsistent]].
+
+## Related concepts
+
+* [[Russell's paradox]]
+
