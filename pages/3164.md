@@ -62,6 +62,10 @@ $$
 
 * [[arithmetic jet space]]
 
+* [[higher arithmetic geometry]]
+
+* [[E-∞ arithmetic geometry]]
+
 ## References
 
 Textbook accounts include
