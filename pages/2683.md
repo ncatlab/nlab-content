@@ -23,10 +23,31 @@ For $d-1 \in \mathbb{N}$, $d$-[[dimension]]al _Minkowski space_ is the [[Lorentz
 
 This is naturally a [[spacetime]].
 
+## Properties
+
++-- {: .num_theorem}
+###### Theorem
+
+Minkowski spacetimes is a [[gravitational stability|stable]] solution of the vacuum [[Einstein equations]].
+
+=--
+
+This is due to ([ChristodoulouKlainerman 1993](#ChristodoulouKlainerman)).
+
 ## Related entries
 
-* [[super Minkowski space]]
+* [[spacetime]]
 
+  * [[super Minkowski space]]
+
+  * [[Schwarzschild spacetime]]
+
+## References
+
+Gravitational stability of Minkowski space is proven in
+
+* Demetrios Christodoulou, Sergiu Klainerman, _The global nonlinear stability of the Minkowski space_ Princeton University Press (1993)
+  {#ChristodoulouKlainerman}
 
 [[!redirects Minkowski space]]
 [[!redirects Minkowski spacetime]]
