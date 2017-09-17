@@ -14,7 +14,7 @@ However, $Set$ can be characterized uniquely by the addition of non-elementary c
 
 +-- {: .un_theorem}
 ###### Theorem
-Let $S$ be a [[locally small category|locally small]] model of ETCS; the following are equivalent.
+Let $S$ be a [[locally small category|locally small]], well-pointed topos (such as a locally small model of ETCS); the following are equivalent.
 
 1. $S$ is equivalent either to $Set$ or to the category of sets in some [[Grothendieck universe]].
 2. $S$ admits all coproducts indexed by its own [[homsets]].
@@ -44,7 +44,7 @@ We show as in the theorem that $\Gamma$ is a full inclusion.  Cocompleteness of 
 
 For injectivity, we need to show that if $j_x=j_y$, then $x=y$.  If $x\neq y$, then since coproducts in a topos are [[disjoint coproduct|disjoint]], the pullback of $j_x$ and $j_y$ is the initial object $0$.  But since $j_x=j_y$, their pullback is also $1$.  By well-pointedness, $0$ is not isomorphic to $1$, so by contradiction, $x=y$.
 
-For surjectivity, we need to show that any map $k\colon 1\to \coprod_X 1$ is equal to $j_x$ for some $x$.  Now for each $x$, the pullback of $k$ and $j_x$ is a [subobject of 1](http://ncatlab.org/nlab/show/subterminal+object), call it $U_x$.  Since a well-pointed topos is [[two-valued topos|two-valued]], every $U_x$ must be $0$ unless some $U_x$ is $1$.  Since coproducts in a topos are [[pullback stability|stable under pullback]], $1 = \coprod_X U_x$.  But then if $U_x=0$ for every $x$, we would have $1 = \coprod_X 0 = 0$, contradicting well-pointedness.  Thus there must be an $x$ with $U_x=1$, which implies that $k=j_x$.
+For surjectivity, we need to show that any map $k\colon 1\to \coprod_X 1$ is equal to $j_x$ for some $x$.  Now for each $x$, the pullback of $k$ and $j_x$ is a [[subterminal object|subobject of 1]], call it $U_x$.  Since a well-pointed topos is [[two-valued topos|two-valued]], every $U_x$ must be $0$ unless some $U_x$ is $1$.  Since coproducts in a topos are [[pullback stability|stable under pullback]], $1 = \coprod_X U_x$.  But then if $U_x=0$ for every $x$, we would have $1 = \coprod_X 0 = 0$, contradicting well-pointedness.  Thus there must be an $x$ with $U_x=1$, which implies that $k=j_x$.
 =--
 
 
