@@ -209,7 +209,7 @@ Note that a query block should be less permanent than the rest of the page; once
 
 If you want to ask a question of a specific person, then you can place a query block on their user page (which is just a page whose title is their name). You should be able to find all user pages [here](http://ncatlab.org/nlab/list/people).
 
-If your comment or question is more general than a specific page or person, then try the [n-Forum](http://n/~stacey/Mathforge/nForum/).  Previous discussions have been on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).  These previous discussions should not be added to but you may find your question answered there.  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]].  As this is a Wiki, if you find an answer to your question and feel it should be added to one of those then do so.
+If your comment or question is more general than a specific page or person, then try the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  Previous discussions have been on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).  These previous discussions should not be added to but you may find your question answered there.  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]].  As this is a Wiki, if you find an answer to your question and feel it should be added to one of those then do so.
 
 ##How to make a standout box##
 
