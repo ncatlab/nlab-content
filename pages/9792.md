@@ -29,7 +29,7 @@ Let us remind ourselves of the situation in finite dimensions.
 A function $f \colon \mathbb{R}^m \supseteq U \to \mathbb{R}^n$, where $U$ is open, is said to be **continuously differentiable**, or of class $C^1$, if there is a continuous map $D f \colon U \to \mathcal{L}(\mathbb{R}^m, \mathbb{R}^n)$ with the property that for each $x \in U$ and $h \in \mathbb{R}^m$ then
 
 $$
-\lim_{t \to 0} \frac{f(x + t h) - f(x) - D f(x)h}{{|t|}} = 0
+\lim_{t \to 0} \frac{f(x + t h) - f(x) - t D f(x)h}{t} = 0
 $$
 =--
 
