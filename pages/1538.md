@@ -227,7 +227,7 @@ Section 3 of
 
 proposes a general abstract nonsense way to construct [[path integral]] quantizations for finite group theories such as DW.
 
-For more on this see the discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1046&Focus=8337#Comment_8337).
+For more on this see the discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/nForum/comments.php?DiscussionID=1046&Focus=8337#Comment_8337).
 
 ...
 
