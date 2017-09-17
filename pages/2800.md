@@ -1,14 +1,14 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
+
+## Idea
+
+The [[simplex category]] may be regarded as the category of all linear [[directed graphs]]. The _tree category_ generalizes this to directed rooted [[trees]].
 
 
-## Idea ##
-
-The [[simplex category]] may be regarded as the category of all linear directed graphs. The _tree category_ generalizes this to directed rooted trees.
-
-## Definition ##
+## Definition
 
 The objects of $\Omega$ are non-empty non-planar [[trees]] with specified root. 
 
@@ -16,10 +16,15 @@ Each such tree may naturally be regarded as specifying an (colored) [[operad]] w
 
 As such, $\Omega$ is by construction a full subcategory of that of [[operads]].,
 
-## Dendroidal sets ##
+
+## Dendroidal sets
 
 A [[presheaf]] on $\Omega$ is a [[dendroidal set]], a generalization of a [[simplicial set]].
 
-## References ##
+
+## References
 
 See the references at [[dendroidal set]].
+
+
+[[!redirects tree category]]
