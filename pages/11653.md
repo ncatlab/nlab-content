@@ -1,5 +1,5 @@
 
-[[divisor (algebraic geometry)]]
+For the moment see at [[divisor (algebraic geometry)]]
 
 ## References
 
