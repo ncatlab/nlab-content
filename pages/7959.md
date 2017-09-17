@@ -126,8 +126,8 @@ Technical surveys on particle physics string phenomenology include
 
 * [[Washington Taylor]], _TASI Lectures on Supergravity and String Vacua in Various Dimensions_ ([arXiv:1104.2051](http://arxiv.org/abs/1104.2051))
 
-* Bobby Samir Acharya, [[Gordon Kane]], Piyush Kumar, _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
- {#AKK12}
+* {#AKK12} Bobby Samir Acharya, [[Gordon Kane]], Piyush Kumar, _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
+ 
 
 Technical surveys on cosmological string phenomenology include
 
