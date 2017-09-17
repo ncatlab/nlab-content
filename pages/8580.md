@@ -1,4 +1,7 @@
 
+> This page is growing incrementally as a lecture series proceeds...
+
+***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -82,6 +85,10 @@ Two major axiomatizations of [[quantum theory]] are known, namely
 
    * [[2-spectral triples]] and [[string]] [[sigma-models]]
 
+   * [[Reshetikhin-Turaev construction]] for 3d [[TQFT]]
+
+   * [[FFRS-formalism|FRS-construction]] of 2d [[CFT]] from this via [[holography]]
+
    * [[extended topological quantum field theories]]
   
 
@@ -94,6 +101,8 @@ Two major axiomatizations of [[quantum theory]] are known, namely
    * [[Bohr toposes]], [[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]
 
    * [[factorization algebras]], [[factorization homology]], [[topological chiral homology]], 
+
+(For an attempt at a survey of the state of the art as of 2011 see the collection ([Sati-Schreiber](#SatiSchreiber))).
 
 But all fundamental [[quantum field theories]] observed in (or conjectured to underly) nature arise by a process called _[[quantization]]_ from structures in [[differential geometry]] (or are induced via a mechanism called the [[holographic principle]] from such that do). 
 
@@ -204,7 +213,7 @@ In particlar, in [[intensional type theory]] we find the [[gauge group]] of a ho
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
 |  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
-| Given a type $X$, there is a group $G$ of ways that $X$ is equivalent to itself. | $X \colon Type \;\vdash \; (X \stackrel{\simeq}{\to} X ) \colon Type $ | A [[loop space object]] $ \array{ G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{X}} \\ * &\stackrel{X}{\to} & Type }  $ | A [[∞-group|smooth ∞-group]]. | _[n-groups](#NGroups)_ |
+| Given a type $X$, there is (the underlying space) of a group $G$ of ways that $X$ is equivalent to itself. | $X \colon Type \;\vdash \; (X \stackrel{\simeq}{\to} X ) \colon Type $ | A [[loop space object]] $ \array{ G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{X}} \\ * &\stackrel{X}{\to} & Type }  $ | A [[∞-group|smooth ∞-group]]. | _[n-groups](#NGroups)_ |
 | Given a function between collections of things $X$ and $Y$, and given a thing $y$, there is its preimage-up-to-equivalence. | $\left( f \colon \left(X\to Y\right)\right), \left(y \colon Y\right) \;\vdash\; \sum_{x \colon X} \left(f\left(x\right) \simeq y\right) $ | A  [[(infinity,1)-pullback|homotopy pullback]] $\array{ X \times_{Y} \{y \} &\to& X \\ \downarrow &\swArrow& \downarrow^{\mathrlap{f}} \\ {*} &\underset{y}{\to}&  Y } $  | The [[homotopy fiber]] of a [[homomorphism]] of [[smooth infinity-stack|smooth moduli stacks]]. | |
 
 Suppose then that we have such a map between collections of gauge fields 
@@ -4657,7 +4666,7 @@ Another introductory discussion along the above lines of aspects in [[gravity]] 
 * [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, ESI (2012)
 
 
-### Differential Forms
+### Differential forms and parallel transport
 
 The relation between differential 1-forms and smooth incremental path measures as used above is discussed in 
 
@@ -4666,4 +4675,18 @@ The relation between differential 1-forms and smooth incremental path measures a
 
 For a commented list of related literature see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references#HistConnAsParTrans).
 
+### Mathematical quantum field theory
 
+A textbook (really a collection of lecture notes) on [[quantum field theory]] and [[string theory]] that tries to present material as conceptually precise as possible is
+
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
+[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.   _[[Quantum Fields and StringsQuantum Fields and Strings, A course for mathematicians]]_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+A collection trying to summarize the state of the art of the formalization of [[QFT]] by [[FQFT]] and [[AQFT]] is 
+
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, volume 83 AMS (2011)
+ {#SatiSchreiber}
+
+### Further
+
+(...)
