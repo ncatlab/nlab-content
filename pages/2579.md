@@ -15,7 +15,7 @@
 
 ## Definition
 
-A __group scheme__ is a [[group object]] in the category of [[schemes]]; in particular a group scheme is a [[group functor]]. As explained at [[group object]] there are two equivalent ways of realizing this.
+A __group scheme__ is a [[group object]] in the category of [[schemes]] (or in a category of some schemes as for instance that of schemes over a fixed base scheme); in particular a group scheme is a [[group functor]]. As explained at [[group object]] there are two equivalent ways of realizing this.
 
 One way is to define it as a functor $G:C Ring\to Set$ equipped with a transformation $m:G\times G\to G$ satisfying the properties spelled out at [[group object]].
 
@@ -27,23 +27,35 @@ Grothendieck emphasized the study of schemes over a fixed base scheme. Following
 $$
 G: (Sch /X)^{op} \to Grp
 $$
+
+A **morphism of group schemes** $f:G\to H$ is a morphism of schemes that is a group homomorphism on any choice of values of points. This is more easily stated by saying that a morphism of group schemes must be a [[natural transformation]] between the [[functor of points]]; i.e. $f$ is required to be a natural transformation of functors with values in the category $Grp$ of groups (instead of with values in Set); an equivalent way to state this is that $f$ needs to satisfy $f m=m(f\times f)$ if $m:G\times G\to G$ denotes the group law on $G$.
+
 ## Generalizations
 
-This construction generalizes to [[ind-object|ind-schemes]] as for example [[formal scheme|formal schemes]] to that of a [[formal group scheme]].
+This construction generalizes to [[ind-object|ind-schemes]] (as for example [[formal scheme|formal schemes]]) to that of a [[formal group scheme]].
 
 ## Examples
 
 * For a field $k$ the terminal $k$-scheme $Sp_k k$ is a group scheme in a unique way.
 
-* Given any group $G$, one can form the constant group scheme $G_X$ over $X$. 
+* Given any group $G$, one can form the [[constant group scheme]] $G_X$ over $X$. 
 
-* Every [[algebraic group]] is in particular a group scheme.
+* [[etale group scheme]]
 
-* The functor $\mu:=\mathbb{G}_m$ is a group scheme given by $\mathbb{G}_m(S)=\Gamma(S, \mathcal{O}_S)^\times$. A scheme is sent to the invertible elements of its global functions.
 
-* The functor $\alpha:=\mathbb{G}_a$ is a group scheme given by $\mathbb{G}_a(S)=\Gamma(S, \mathcal{O}_S)$ the additive group of the ring of global functions.
+* The functor $\mu:=\mathbb{G}_m$ is a group scheme given by $\mathbb{G}_m(S)=\Gamma(S, \mathcal{O}_S)^\times$. A scheme is sent to the invertible elements of its global functions. This group scheme is called *the multiplicative group scheme*.
+
+* [[diagonalizable group scheme]]. Note that the multiplicative group scheme is diagonalizable.
+
+* [[multiplicative group scheme]] also called *group scheme of multiplicative type*. Every diagonalizable group scheme is in particular of multiplicative type.
+
+* Group schemes can be constructed by [[restriction of scalars]].
+
+* The functor $\alpha:=\mathbb{G}_a$ is a group scheme given by $\mathbb{G}_a(S)=\Gamma(S, \mathcal{O}_S)$ the additive group of the ring of global functions. This group scheme is called *the additive group scheme*.
 
 * the kernel of any group scheme morphism is a group scheme.
+
+* Every [[algebraic group]] is in particular a group scheme.
 
 In context of [[p-divisible group|p-divisible groups]] the kernels of the $k$-group scheme morphisms
 
@@ -63,11 +75,6 @@ x&\to &x^{p^r}
 
 denoted by $\mu_n$ giving the group scheme of $n$-th root of unity  and $\alpha_p$ giving the group scheme of $p^n$-nilpotent elements are of particular interest.
 
-## Morphisms
-
-A morphism of group schemes $G\to H$ is a morphism of schemes that is a group homomorphism on any choice of values of points. This is more easily stated by saying that a morphism of group schemes must be a [[natural transformation]] between the functor of points.
-
-
 ## Cartier dual
 
 See also [[Cartier duality]].
@@ -81,7 +88,9 @@ For example, $\alpha_p^D\simeq \alpha_p$.
 
 * M. Artin, J. E. Bertin, M. Demazure, P. Gabriel, A. Grothendieck, M. Raynaud, J.-P. Serre, _Schemas en groupes_, i.e. SGA III-1, III-2, III-3
 
-* M. Demazure, [[Pierre Gabriel|P. Gabriel]], _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970
+* Michel Demazure, [[Pierre Gabriel|P. Gabriel]], _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970
+
+* Michel [[Demazure, lectures on p-divisible groups]] [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
 * W. Waterhouse, _Introduction to affine group schemes_, GTM 66, Springer 1979. 
 
