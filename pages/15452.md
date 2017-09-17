@@ -1,3 +1,3 @@
-??Ibu cakap nak makan ambil sendiri. Kalau tak suka suruh mak baru buat,?? beritahu Khairizal pula.
- <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=6" >retro Jordan Prime Flight Mujeres Blanco</a>
-[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=6]retro Jordan Prime Flight Mujeres Blanco[/url]
+Kini baru Qistina mengerti.Dia melepaskan satu keluhan yang berat.Wajah ayahnya dipandang dengan pandangan yang lesu.
+ <a href="http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=305" >NIKE Mercurial Vapor IX Gym/Rojo</a>
+[url=http://www.martinjennings.com/ES.asp?Espana-NikeMercurialBaratas=305]NIKE Mercurial Vapor IX Gym/Rojo[/url]
