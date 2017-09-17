@@ -6,3 +6,4 @@ category: people
 
 [[!redirects Gonçalo Tabuada]]
 [[!redirects G. Tabuada]]
+[[!redirects Tabuada]]
