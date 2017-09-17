@@ -60,6 +60,8 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 * [[augmented algebra]]
 
+* [[unitisation of C*-algebras]]
+
 * [[differential algebra]]
 
 * [[differential graded algebra]], [[A-infinity algebra]]
