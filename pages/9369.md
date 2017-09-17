@@ -56,6 +56,11 @@ Every non-[[compact topological space|compact]] [[Riemann surface]] is a Stein m
 
 A Stein manifold is necessarily a non-[[compact topological space]].
 
+### Good covers by Stein manifolds
+ {#GoodCoversBySteinManifolds}
+
+Every [[complex manifold]] admits a [[good cover]] by Stein manifolds, in the sense that all finite non-empty intersections of the cover are Stein manifolds (e.g. [Maddock, lemma 3.2.8](#Maddock)).
+
 ### Cohomology
  {#Cohomology}
 
@@ -122,6 +127,9 @@ Reviews include
 
 * [[eom]], _[Stein space](http://www.encyclopediaofmath.org/index.php/Stein_space)_
 
+* {#Maddock} Zachary Maddock, _Dolbeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
+
+
 Texbook accounts include
 
 * {#GrauertRemmert04} [[Hans Grauert]], [[Reinhold Remmert]], _Theory of Stein Spaces_, Springer-Verlag, Berlin Heidelberg, 2004.
@@ -144,5 +152,4 @@ As a [[site]] for [[higher complex analytic geometry]] the category of Stein man
 
 [[!redirects Stein domain]]
 [[!redirects Stein domains]]
-
 
