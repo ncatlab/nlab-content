@@ -67,13 +67,14 @@ For more see my home pages
 
 * _[at MathOverflow](http://mathoverflow.net/users/381/urs-schreiber)_ 
 
-* _[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)
-
 * _[at PhysicsOverflow](http://www.physicsoverflow.org/user/Urs+Schreiber)_
+
+* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_.
+
+* _[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)
 
 * _[at Philosophy.SE](http://philosophy.stackexchange.com/users/5473/urs-schreiber)_
 
-* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_.
 
 ## copyright statement
  {#CopyrightStatement}
