@@ -27,6 +27,41 @@ E & \stackrel{g}{\to} & F \\
 V^2 & \underset{f^2}{\to} & W^2
 }$$ 
 
-and such may be factored according to a [[ternary factorization system]], first by factoring through a pullback as follows: 
+and such may be factored according to a [[ternary factorization system]], first by factoring through a pullback square on the right (as follows): 
 
+$$\array{
+E & \to & P & \hookrightarrow & F \\
+\downarrow & & \downarrow & & \downarrow \\
+V^2 & \twoheadrightarrow & I^2 & \hookrightarrow & W^2
+}$$ 
+
+and then by factoring $E \to P$ into an epi followed by a mono: 
+
+$$\array{
+E & \twoheadrightarrow & J & \hookrightarrow & P \\
+\downarrow & & \downarrow & & \downarrow \\
+V^2 & \twoheadrightarrow & I^2 & \underset{id}{\to} & I^2.
+}$$ 
+
+This factorization means one first contracts edges, then one adds edges, and then one adds new vertices and edges which connect to the new vertices. The latter two processes provide a factorization in the class of monos in the category of directed graphs (and hence also in the category of simple graphs). 
+
+Hence we can say that $H$ is a graph minor of $G$ if there exists a cospan 
+
+$$\array{
+G & \twoheadrightarrow & G' \\
+ & & \uparrow^\mathrlap{mono} \\
+ & & H
+}$$ 
+
+and the graph minor relation is evidently transitive by taking the pushout square, as follows,  
+
+$$\array{
+G & \twoheadrightarrow & G' & \twoheadrightarrow & G'' \\
+ & &  ^\mathllap{mono} \uparrow & & \uparrow^\mathrlap{mono} \\
+ & & H & \twoheadrightarrow & H' \\
+ & & & & \uparrow^\mathrlap{mono} \\
+ & & & & J
+}$$
+
+using the fact that in a topos such as $Set^{\bullet \stackrel{\to}{\to} \bullet}$, the pushout of a mono along an arrow is a mono, and also that the inclusion of simple graphs into directed graphs reflects pushouts and monos. 
 
