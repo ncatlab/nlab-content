@@ -43,6 +43,10 @@ The [[symplectic groupoid]] [[Lie integration|integrating]] the Lie-Poisson stru
 
 The [[symplectic leaves]] of the Lie-Poisson structure on $\mathfrak{g}^*$ are the [[coadjoint orbits]].
 
+## Related concepts
+
+* [[moment map]]
+
 ## References
 
 The notion of Lie-Poisson structures was originally found by [[Sophus Lie]] and then rediscovered by Berezin and by [[Alexander Kirillov]], [[Bertram Kostant]] and [[Jean-Marie Souriau]]. 
