@@ -134,7 +134,7 @@ $$
   \,.
 $$
 
-Here $\Delta$ is called the **discriminant**.  
+Here $\Delta$ is called the **[[discriminant]]**.  
 
 Finally let
 
