@@ -1,7 +1,7 @@
 
 There are at least two Alexander Rosenbergs (and one [[Jonathan Rosenberg]]) in mathematics: 
 
-* algebraist Alex (Alexander) Rosenberg (1926-2007) known from [[Hochschild-Kostant-Rosenberg theorem]] an many other articles in [[algebra]] (cf. [notices](http://www.spelman.edu/~colm/alexnotices.html))
+* algebraist Alex (Alexander) Rosenberg (1926-2007) known from [[Hochschild-Kostant-Rosenberg theorem]] and many other articles in [[algebra]] (cf. [notices](http://www.spelman.edu/~colm/alexnotices.html))
 
 * Alexander L. Rosenberg (or Sasha Rosenberg) currently a professor at [Kansas State University](http://www.math.ksu.edu).  
 
