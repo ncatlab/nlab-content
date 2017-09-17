@@ -149,6 +149,7 @@ from the subposet of $I \times I$ on pairs of elements $i \leq j$, such that
 
 1. for each $n \in I$, $F(n,n) \simeq 0$ is the [[zero object]];
 
+
 1. for all $i \leq j \leq k$ the induced [[diagram]]
 
    $$
@@ -258,6 +259,7 @@ $$
   d_n \circ d_{n+1} = 0
 $$
 
+
 is the [[zero morphism]] in the [[triangulated category]] $Ho(\mathcal{C})$.
 
 =--
@@ -284,7 +286,7 @@ $$
 $$
 
 where the squares labeled "c" are (co-)cartesian ([[homotopy pushouts]]). 
-By the [[universal property]] of the pushout applied to the [[cocone]] given by the defining [[homotopy pushout]] of the [[suspension]]
+Notice that the [[homotopy pushout]] of the outermost [[span]] gives the [[suspension]]
 
 $$
   \array{
@@ -294,26 +296,90 @@ $$
      \\
      0 &\longrightarrow& \Sigma F(n-2,n)
   }
-$$
-
-we obtain maps $F(n-1, n+1) \to \Sigma F(n-2,n)$ and $F(n, n+1) \to \Sigma F(n-2,n)$ fitting into a diagram of the form
-
-$$
-  \array{
-    F(n-1, n+1) && \longrightarrow && 0
-    \\
-    \downarrow  & \searrow && \swarrow & \downarrow
-    \\
-    && \Sigma F(n-2,n)
-    \\
-    \downarrow  & \nearrow && \searrow & \downarrow    
-    \\
-    F(n,n+1) && \underset{\delta_n}{\longrightarrow} && \Sigma F(n-1,n)
-  }
   \,.
 $$
 
-In particular this is a factorization of $\delta_n$ through $\Sigma F(n-2,n)$:
+Therefore we have two paths of morphisms of span diagrams, the first is
+
+$$
+  \left(
+    \array{
+       F(n-2,n) &\to& F(n-2,n+1)
+       \\
+       \downarrow 
+       \\
+       0 
+    }
+  \right)
+  \to
+  \left(
+    \array{
+       F(n-2,n) &\to& 0
+       \\
+       \downarrow
+       \\
+       0 
+    }
+  \right)
+  \to
+  \left(
+    \array{
+       F(n-1,n) &\to& 0
+       \\
+       \downarrow
+       \\
+       0 
+    }
+  \right)
+$$
+
+which gives on [[homotopy pushouts]]
+
+$$
+  F(n,n+1) \longrightarrow \Sigma F(n-2,n) \longrightarrow \Sigma F(n-1,n)
+$$
+
+and the second is
+
+$$
+  \left(
+    \array{
+       F(n-2,n) &\to& F(n-2,n+1)
+       \\
+       \downarrow 
+       \\
+       0 
+    }
+  \right)
+  \to
+  \left(
+    \array{
+       F(n-1,n) &\to& F(n-1,n+1)
+       \\
+       \downarrow
+       \\
+       0 
+    }
+  \right)
+  \to
+  \left(
+    \array{
+       F(n-1,n) &\to& 0
+       \\
+       \downarrow
+       \\
+       0 
+    }
+  \right)
+$$
+
+which on homotopy pushouts is
+
+$$
+  F(n,n+1) \stackrel{\simeq}{\longrightarrow} F(n,n+1) \stackrel{\delta_n}{\longrightarrow} \Sigma F(n-1,n)
+$$
+
+(all by the [[pasting law]]). By the commutativity of the original pasting diagram these two paths are equivalent. Therefore on homotopy pushouts this exhibits a factorization of $\delta_n$ through $\Sigma F(n-2,n)$:
 
 $$
   \array{
@@ -326,7 +392,7 @@ $$
   \,.
 $$
 
-Pasting this in turn to the homotopy pushout that defines $\Sigma \delta_{n-1}$
+Pasting this to the homotopy pushout that defines $\Sigma \delta_{n-1}$
 
 $$
   \array{
@@ -418,11 +484,11 @@ This is [[Higher Algebra|Higher Algebra, lemma 1.2.2.4]].
 
 The inverse functor can be described informally as follows: 
 
-given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by the [[homotopy cofiber]]
+given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by taking each entry $X(n,n+r)$ to be given by the [[homotopy cofiber]] of $X_n \to X_{n+r}$
 
 $$ X(n, n+r) = \operatorname{cofib}(X_n\to X_{n+r})$$
 
-making the square
+because that makes the squares
 
 $$
   \array{
@@ -434,7 +500,7 @@ $$
   }
 $$
 
-be a [[homotopy pushout]].
+be [[homotopy pushout]] squares.
 
 Dually:
 
@@ -493,7 +559,6 @@ This exact couple gives rise in the usual way to a spectral sequence.
 ###### Remark
 
 Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding $\mathbb{Z}$-complex, according to prop. \ref{ChainComplexesFromFilteredObjects}.
-
 Then for all $i \leq j \leq k$ there is a [[long exact sequence of homotopy groups]] in $\mathcal{A}$ of the form
 
 $$
@@ -514,7 +579,7 @@ $$
 +-- {: .num_defn #TheSpectralSequence}
 ###### Definition
 
-Define for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E_r^{p,q} \in \mathcal{A}$ by the canonical [epi-mono factorization](abelian+category#FactorizationOfMorphisms)
+Define for $p,q \in \mathbb{Z}$ and $r \geq 1$ an object $E_r^{p,q} \in \mathcal{A}$ by the canonical [epi-mono factorization](abelian+category#FactorizationOfMorphisms)
 
 $$
     \pi_{p+q} X(p-r,p)
@@ -530,7 +595,7 @@ $$
   d_r \;\colon\; E_r^{p,q} \to E_r^{p-r, q+r-1}
 $$
 
-to be the restriction (the [[image]] on morphisms) of the [[connecting homomorphism]] in the [[long exact sequence of homotopy groups]]
+to be the restriction (the [[image]] on morphisms) of the [[connecting homomorphism]] 
 
 $$
   \array{
@@ -550,8 +615,11 @@ $$
   }
 $$
 
-from the [[long exact sequence of homotopy groups]] of remark \ref{LongExactSequencesOfHomotopyGroups}, for the case  
-$i=p-2r$, $j=p-r$, and $k=p$ on the left and $i = p - r - 1$, $j = p-1$ and $k = p + r -1$ on the right.
+in the [[long exact sequence of homotopy groups]] of remark \ref{LongExactSequencesOfHomotopyGroups},
+
+* on the left for the case $(i \leq j \leq k) = (p-2r \leq p - r \leq p)$
+
+* on the right for the case $(i \leq j \leq k) = (p - r - 1 \leq p - 1 \leq p + r - 1)$.
 
 
 =--
@@ -562,10 +630,20 @@ $i=p-2r$, $j=p-r$, and $k=p$ on the left and $i = p - r - 1$, $j = p-1$ and $k =
 For $r = 1$ in def. \ref{TheSpectralSequence} we have
 
 $$
-  E_1^{p,q} = \pi_{p+q} X(p-1,p) = \pi_{q} C_{p} 
+  \begin{aligned}
+    E_1^{p,q}  
+      & \simeq 
+    \pi_{p+q} X(p-1,p) 
+      \\
+      & \simeq
+    \pi_{q} (\Sigma^{-p} X(p-1,p)) 
+      \\
+      & \simeq 
+    \pi_{q} (C_{p}) 
+  \end{aligned}
 $$
 
-where $C_p$ on the right is the $p$th element in the [[chain complex]]
+where $C_p$ is the $p$th element in the [[chain complex]]
 associated with $X(\bullet,\bullet)$ 
 according to def. \ref{ChanComplexInducedFromZComplex}.
 
@@ -804,6 +882,7 @@ The $E$-based [[Adams spectral sequence]] that approximates homotopy classes of 
 The general theory is set up in section 1.2.2 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_.
+
 
 The case of the derived category of an arbitrary abelian category is discussed in details in Chapter VIII of
 
