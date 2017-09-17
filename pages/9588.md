@@ -43,7 +43,15 @@ Not to be confused with [[C*-algebra]]-[[E-theory]].
 
 ## References
 
-* [[Jacob Lurie]], _Morava E-theory and Morava K-theory_ Lecture notes, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
+Relevant background lecture notes include
+
+* [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+
+and more specifically see lectures 22, 24 of 
+
+* [[Jacob Lurie]], _Chromatic homotopy theory_ Lecture notes, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
+
+Discussion of [[twisted cohomology|twists]] of Morava E-theory is in 
 
 * [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
  {#SatiWesterland11}
