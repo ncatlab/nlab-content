@@ -27,30 +27,15 @@ For the moment this page will mostly list pointers with brief comments to other 
 * table of contents
 {:toc}
 
-## The perspective from slice categories
 
-What is called _[[dependent type theory]]_ is an alternative (equivalent) formulation of [[category theory]], or rather of the theory of [[locally cartesian closed categories]], those for which each [[slice category]] is a [[locally cartesian closed category]]. This is discussed in detail at
 
-* _[[relation between type theory and category theory]]_.
+## Basic dictionary for the internal language
 
-Therefore, from the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ are regarded systematically via the collection of their [[slice categories]] (their "[[hyperdoctrines]]"). If $\mathcal{C}$ is a [[locally cartesian closed category]] then every [[morphism]] $f : X \to Y$ in $\mathcal{C}$ induces an [[adjoint triple]] of functors between the corresponding slice categories
+Starting from ([[(infinity,1)-category theory|homotopy]]) [[category theory]], 
+the corresponding ([[homotopy type theory|homotopy]]) [[type theory]] is simply a formal language for denoting familiar constructions, as indicated in the following table.
 
-+-- {: bluebox}
-###### 
 
-([[dependent sum]] $\dashv$ [[base change]] $\dashv$ [[dependent product]]) = $(\sum_f \dashv f^* \dashv \prod_f) : \mathcal{C}_{/X} \to \mathcal{C}_{/Y}$.
-
-=--
-
-Many familiar constructions are usefully expressed entirely in terms of these [[adjoint triples]]. For instance the [[internal hom]] in a slice category. 
-
-While this is in principle clear/well known, the systematic use of the base change adjoint triple enforced by type theory turns out to lead to various elegant constructions that have not found much attention before, and which can be useful in applications.
-
-## Dictionary
-
-Under the above equivalence, type theory has its own terminology for standard constructions in category theory. The following lists some or most of them. In itself this is just terminology, but the point is that using this terminology is suggestive of useful constructions, to be discussed in the following.
-
-|  [[category theory]] | [[type theory]] |
+|  ([[(infinity,1)-category theory|homotopy]]) [[category theory]] | ([[homotopy type theory|homotopy]]) [[type theory]] |
 |----------------------|------------------|
 |  [[semantics]]       | [[syntax]] |
 | [[object]] $X$ | [[type]] $x : X$ |
@@ -65,8 +50,46 @@ Under the above equivalence, type theory has its own terminology for standard co
 | [[direct image]] of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[universal quantifier]] $y : Y \vdash \underset{x \in f^{-1}(y)}{\forall} \phi(x) : Type$ |
 | [[truncated object of an (infinity,1)-category|(-1)-truncation]] of postcomposition of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[existential quantifier]] $y : Y \vdash \underset{x \in f^{-1}(y)}{\exists} \phi(x) $ |
 
+The symbols in the right column may be formally manipulated according to the rules of _[[type theory]]_.
+For the case of ordinary categories, this table defines a [[functor]] 
 
+$$
+  Lang : LocallyCartesianClosedCategories \to DependentTypeTheories
+$$
 
+from _[[locally cartesian closed categories]]_ to _[[dependent type theories]]_ that sends each category to its _[[internal language]]_. 
+
+The important fact is that
+
++-- {: .num_theorem }
+###### Theorem
+
+The functor $Lang$ is an [[equivalence of categories]].
+
+=--
+
+This is discussed at _[[relation between type theory and category theory]]_. So the (dependent) type theory is just an equivalent way of talking about a (locally cartesian closed category).  
+
+For the case of [[(∞,1)-categories]]/[[homotopy theories]] that we are interested in here in there remain some things to be fully worked out, but it is clear that we get an analogous construction
+
+$$
+  Lang : LocallyCartesianClosed(\infty,1)Categories \to HomotopyTypeTheory
+$$
+
+from [[locally cartesian closed (∞,1)-categories]] to [[homotopy type theory]] which is expected to be an [[equivalence of (∞,1)-categories]].
+
+As the above table shows, from the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ are regarded systematically via the collection of their [[slice categories]] (their associated "[[hyperdoctrines]]"). If $\mathcal{C}$ is a [[locally cartesian closed category]] then every [[morphism]] $f : X \to Y$ in $\mathcal{C}$ induces an [[adjoint triple]] of functors between the corresponding slice categories
+
++-- {: bluebox}
+###### 
+
+([[dependent sum]] $\dashv$ [[base change]] $\dashv$ [[dependent product]]) = $(\sum_f \dashv f^* \dashv \prod_f) : \mathcal{C}_{/X} \to \mathcal{C}_{/Y}$.
+
+=--
+
+Many familiar constructions are usefully expressed entirely in terms of these [[adjoint triples]]. For instance the [[internal hom]] in a slice category. 
+
+While this is in principle clear/well known, the systematic use of the base change adjoint triple enforced by type theory turns out to lead to various elegant constructions that have not found much attention before, and which can be useful in applications.
 
 ## Homotopy pullbacks
 
@@ -89,9 +112,18 @@ The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type t
 
 | [[category theory]] | [[type theory]] |
 |----|----|
-| object $X$ is [[(-2)-truncated]]/[[contractible]] | [[isContr]]$(X) = \sum_{x : X} \prod_{y : X} (x = Y)$ |
+| object $X$ is [[(-2)-truncated]]/[[contractible]] | [[isContr]]$(X) = \sum_{x : X} \prod_{y : X} (x = y)$ |
 | morphism $X$ is [[(-2)-truncated]]/[[equivalence in an (infinity,1)-category|equivalence]] | [[isEquiv]]$(f) \coloneqq \prod_{x : {X}} isContr(hfiber(f,x) $ |
  
++-- {: .num_remark }
+###### Remark
+
+In the [[(∞,1)-category]] [[∞Grpd]] it is true that a morphism $f : X \to Y$ is an equivalence precisely if for all global points $y : * \to Y$ the corresponding homotopy fiber of $f$ is contractible. The same simple statement is not available _in the "external" logic_ for a general [[(∞,1)-category]], simply because there an object $Y$ may not even have enough global points (it may be non-trivial and have no global point). 
+
+The above is useful in that it says that _in the [[internal logic]]_ of the $(\infty,1)$-category, the simple statement familiar form [[∞Grpd]] is true generally, after all. 
+
+=--
+
 
 
 ## Induction in homotopy theory
@@ -101,6 +133,13 @@ The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type t
 * [[inductive type]], [[higher inductive type]]
 
 (...)
+
+## Detecting $n$-connectedness
+
+| [[category theory]] | [[type theory]] |
+|--|--|
+| [[n-connected object of an (infinity,1)-topos|(-1)-connected object]]/ [[inhabited object]] $X$ | $isInhab(X) \coloneqq ...$ |
+| [[n-connected object of an (infinity,1)-topos|(-1)-connected morphism]]/ [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $f : X \to Y$ | $\prod_{y : Y} isInhab(\sum_{x : X} (f(x) = y))$ |
 
 ## Homotopy pushouts
 
