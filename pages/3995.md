@@ -3,3 +3,7 @@
 * signature of a permutation, 
 
 * signature of a diagonal matrix or quadratic form 
+
+* [[signature|signature in logic]]
+
+* etc....
