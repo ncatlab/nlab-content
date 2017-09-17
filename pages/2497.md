@@ -32,7 +32,7 @@ There are two definitions.  The second is more general, and is homotopy equivale
 
 ### First definition
 
-* Start with a linear [[n-category]] $C$ with [[strong duality]] (e.g. [[pivotal 2-category]]) and an $n$-[[manifold]] $M$.
+* Start with a linear [[n-category]] $C$ with [[strong duality]] -- a [[blob n-category]] -- (e.g. [[pivotal 2-category]]) and an $n$-[[manifold]] $M$.
 
 * Define $B_0(M)$ to be finite linear combinations of 
   "$C$-[[string diagram]]s" drawn on $M$.
@@ -69,7 +69,8 @@ It should be closely related to
 
 A preprint is here:
 
-* [[Scott Morrison]] and [[Kevin Walker]], _The blob complex_, [arxiv/1009.5025](http://arxiv.org/abs/1009.5025) (version at homepage: [pdf](http://canyon23.net/math/blob1.pdf); [website](http://tqft.net/blobs))  
+* [[Scott Morrison]], [[Kevin Walker]], _The blob complex_, ([arxiv/1009.5025](http://arxiv.org/abs/1009.5025)) ([website](http://tqft.net/blobs))  
+{#MorrisonWalker}
 
 Notes from talks can be found [here](http://canyon23.net/math/talks) and [here](http://tqft.net/UCR-blobs1).
 
