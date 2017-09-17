@@ -1,4 +1,6 @@
 
 * [webpage](http://www.math.polytechnique.fr/~voisin/)
 
+* [Wikipedia](http://en.wikipedia.org/wiki/Claire_Voisin)
+
 category: people
