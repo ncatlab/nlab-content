@@ -19,6 +19,8 @@ An _orbifold_ is a [[differentiable stack]] which may be [[presented stack|prese
 
 An orbifold is traditionally defined as a topological space equipped with an _orbifold structure_, which is in turn an equivalence class of _orbifold atlases_. An orbifold is locally a stack quotient of a [[smooth manifold]] by a finite group. Every orbifold is globally a quotient of a smooth manifold by an action of finite-dimensional [[Lie group]] with finite stabilizers in each point (the construction uses the frame bundle). The word orbifold is invented by Thurston, while the original name was V-manifold (Satake), and was taken in a more restrictive sense, assuming that the actions of finite groups on the charts are always effective. Nowdays we call such orbifolds _effective_ and those which are global quotients by a finite group _global quotient orbifolds_.  
 
+
+
 ## (Co)homology
 
 It has been noticed that the topological invariants of the underlying topological space of an orbifold as a topological space with an orbifold structure are not appropriate, but have to be corrected leading to orbifold Euler characteristics, orbifold cohomology etc. One of the constructions which is useful in this respect is the inertia orbifold (the inertia stack of the original orbifold) which gives rise to "twisted sectors" in Hilbert space of a quantum field theory on the orbifold, and also to twisted sectors in the appropriate cohomology spaces. A further generalization gives multitwisted sectors. 
@@ -26,6 +28,10 @@ It has been noticed that the topological invariants of the underlying topologica
 ## Algebraic orbifolds
 
 There is also a notion of finite stabilizers in [[algebraic geometry]]. A singular variety is called an (algebraic) _orbifold_ if it has only so-called _orbifold singularities_.
+
+## Examples
+
+* [[inertia orbifold]]
 
 ## Related concepts
 
