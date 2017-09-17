@@ -76,6 +76,8 @@ which is a homomorphism of [[Poisson manifolds]]. This is called the **[[moment 
 
 * [[moment map]]
 
+* [[symplectic quotient]]
+
 ## References
 
 The issue of having maps to extensions, infinitesimally and integrally, is made explicit in prop. 2.4.10 of
