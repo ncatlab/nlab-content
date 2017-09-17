@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Landau-Ginzburg model_ (LG-model) is a certain 2-[[dimension]]al [[TQFT]] related to the [[A-model]] and the [[B-model]].
+
+(...)
+
+[[D-brane]]s in the LG-model are not given by [[chain complex]]es of [[quasicoherent sheaves]] as in the [[B-model]], but by [[twisted complexes]].
+
+(...)
+
+
+## Related concepts
+
+* [[curved dg-algebra]]
+
+## References
+
+For instance
+
+* [[Anton Kapustin]], Yi Li, _D-Branes in Landau-Ginzburg Models and Algebraic Geometry_ ([arXiv:hep-th/0210296](http://arxiv.org/abs/hep-th/0210296))
+
+
+[[!redirects LG-model]]
