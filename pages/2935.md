@@ -86,6 +86,12 @@ See also
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_ ,
 Lett. Math. Phys. 56, 163--179 (2001) [math.QA/0102108](http://arxiv.org/abs/math/0102108).
 
+The interpretation in terms of [[infinity-Chern-Weil theory]] is discussed in
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_ (2011)
+
+
+
 ### With branes {#LitWithBranes}
 
 The study of [[brane]]s in the Poisson sigma-model is started in 
