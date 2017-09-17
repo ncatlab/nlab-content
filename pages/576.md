@@ -92,6 +92,12 @@ The concept was introduced in
 * [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_, in _Proceedings of the 19th IEEE conference on Logic in Computer Science_ (LiCS'04), IEEE Computer Science Press, 2004. ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
  {#AbramskyCoecke04}
 
+with an expanded version in 
+
+* [[Samson Abramsky]], [[Bob Coecke]], _Categorical quantum mechanics_, in _Handbook of Quantum Logic and Quantum Structures vol II_, Elsevier, 2008 ([arXiv:0808.1023](http://arxiv.org/abs/0808.1023))
+ {#AbramskyCoecke08}
+
+
 under the name "strongly compact" and used for [[finite quantum mechanics in terms of dagger-compact categories]].
 The topic was taken up
 
