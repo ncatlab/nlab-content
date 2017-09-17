@@ -25,6 +25,10 @@ Here a [[section]] of the [[prequantum line bundle]] is what is physics ia calle
 
   * [[wave function]]
 
+* [[superposition]], [[quantum interference]]
+
+* [[entanglement]]
+
 * [[quantum operator (in geometric quantization)]]
 
 [[!include Isbell duality - table]]
