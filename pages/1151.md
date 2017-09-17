@@ -14,7 +14,7 @@
 
 
 #Contents#
-* table of contents
+* automatic table of contents goes here
 {:toc}
 
 
@@ -239,6 +239,28 @@ $$
 $$
 
 This means that all the non-positive degree cohomology identifies with the [[simplicial homotopy group|homotopy group]]s of the [[∞-groupoid]] $\mathbf{H}(X,A)$. 
+
+##### Bigrading 
+ {#BiGrading}
+
+If the underlying [[topos]] of $\mathbf{H}$ is a [[lined topos]], the [[line object]] $\mathbb{A}$ canonically comes with its [multiplicative group object](http://ncatlab.org/nlab/show/line+object#MultiplicativeGroup) $\mathbb{G}_m := \mathbb{A}^\times \hookrightarrow \mathbb{A}$.
+
+In this case there are then two different notions of [[spheres]]:
+
+* the **categorical 1-sphere** (or simplicial loop ) $S^1 = \Delta^1/\partial \Delta^1$;
+
+* the **geometric sphere** $\mathbb{G}_m$.
+
+The notion of [[loop space object]] and of [[delooping]] have _geometric_ analogs in this case and so a second integer grading is induced on cohomology, now coming from the geometric loops.
+Both gradings may be considered at once, which makes the cohomology theory bigraded:
+
+$$
+  H^{-p,-q}(X,A) := \pi_0 \mathbf{H}(X, \Omega^p \Omega^q_I A)
+  \,.
+$$
+
+This bigrading is traditionally considered in [[motivic cohomology]] where the line object is that of [[A1-homotopy theory]], but the general construction depends only on the presence and choice of an [[interval object]].
+
 
 ##### Exotic grading
 
