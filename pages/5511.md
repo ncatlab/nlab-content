@@ -121,6 +121,7 @@ This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.15]].
 
 * [[regular epimorphism in an (∞,1)-category]]
 
+* [[n-connected object in an (∞,1)-category]]
 
 ## References
 
