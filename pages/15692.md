@@ -33,12 +33,17 @@ where the integral would naively be over all of $\mathbb{R}^4$, which is of cour
 Several methods are considered for _[[regularization (physics)|regularizing]]_, hence making sense of it as a finite expression. One of these is [[zeta function regularization]] (also "analytic regularization/renormalization" [Speer 71](#Speer71)). Here one notices that the [[zeta function of an elliptic differential operator|zeta function]] of the [[wave operator]]/[[Laplace operator]] $H = \mathbf{p}^2 + m^2$ is well-defined for $\Re(s) \gt 1$ by the naive [[trace]]
 
 $$
-  \zeta_H(s)\coloneqq Tr( H^{-s} )
+  \hat \zeta_H(s)\coloneqq Tr_{reg}( H^{-s} )
 $$
 
-and defined from there by [[analytic continuation]] on allmost all of the [[complex plane]]. The [[special values of L-functions|special value]] at $s = 1$ (or its [[principal value]]) is the regularized Feynman propagator. See ([BCEMZ 03, section 2.4.2](#BCEMZ03)). 
+and defined from there by [[analytic continuation]] on allmost all of the [[complex plane]]. The [[special values of L-functions|special value]] at $s = 1$ (or its [[principal value]]) is the regularized Feynman propagator. See ([BCEMZ 03, section 2.4.2](#BCEMZ03)).  For the example of the above basic Feynman propagator see e.g. [Grozin 05, section 2.1](#Grozin05)
 
-For the example of the above basic Feynman propagator see e.g. [Grozin 05, section 2.1](#Grozin05)
+Representing the (completed) [[zeta function]] here are the [[Mellin transform]] of some [[theta function]] -- which in the present case is the [[partition function]] $t\mapsto Tr_{reg} \exp(-t H)$ of the [[worldline formalism]] of the given theory, is what in the physics literature is known as the [[Schwinger parameter]]-formulation
+
+$$
+  Tr_{reg} H^{-s} = \int_0^\infty t^{s-1} Tr\, \exp(-t H)\,d t
+  \,.
+$$
 
 
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
