@@ -67,7 +67,7 @@ Thus, in a presheaf category, any [[retract]] of a representable functor is tiny
 +-- {: .num_prop}
 ###### Proposition
 
-The tiny objects in a [[presheaf category]] are precisely the [[retract]]s of [[representable functor]].  
+The tiny objects in a [[presheaf category]] are precisely the [[retract]]s of [[representable functor]]s.  
 
 =--
 
