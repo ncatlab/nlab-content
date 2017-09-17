@@ -85,6 +85,27 @@ There is also the notion of
 of a topological space or manifold. This is a priori an independent notion of cover, but for the standard [[Grothendieck topologies]] on [[Top]], [[Diff]], etc. the projection $\{\hat X \to X\}$ from a covering space is a covering family.
 
 
+## Related concepts
+
+* [[descent]]
+
+  * **cover**
+
+  * [[cohomological descent]]
+
+  * [[descent morphism]]
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+* [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
+
+
 
 [[!redirects covers]]
 [[!redirects covering family]]
