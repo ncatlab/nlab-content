@@ -357,7 +357,7 @@ Very similar constructions and statement then appeared in
 
 and, building on that, in example 1.8 of
 
-* [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www-math.univ-paris13.fr/~cisinski/lcmodcat3.pdf))
+* [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/lcmodcat3.pdf)
 
 
 Notably the article by [[Pietro Polesello]] and [[Ingo Waschkies]] makes fully explicit the observation that _locally_ constant $n$-stacks are precisely the sections of the _constant_ $(n+1)$-stack on the $(n+1)$-groupoid $n Grpd$. This is a key observation for bringing the full power of the adjunction $(\Pi \dashv LConst)$ into the picture, as we do here.
