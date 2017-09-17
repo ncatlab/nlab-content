@@ -14,13 +14,18 @@ $$
 
 and contains all but six of the other 25 [[sporadic finite simple groups]] as [[subquotient]]s. 
 
-In a famous paper 
+The Monster group was predicted to exist by Bernd Fischer and Robert Griess in 1973, as a [[simple group]] containing the [[Fischer groups]] and some other sporadic simple groups as subquotients. Subsequent work by Fischer, Conway, Norton and Thompson estimated the order of $M$ and discovered other properties and subgroups, assuming that it existed. In a famous paper 
 
 * Griess, _The Friendly Giant_ , Inventiones (1982)
 
-the existence of the largest simple sporadic group was proved. The author constructs "by hand" a non-associative but commutative algebra of dimension 196883, and showed that the [[automorphism group]] of this algebra is the conjectured friendly giant/monster simple group. The name "Friendly Giant" for the Monster did not take on.
+Greiss proved the existence of the largest simple sporadic group. The author constructs "by hand" a non-associative but commutative algebra of dimension 196883, and showed that the [[automorphism group]] of this algebra is the conjectured friendly giant/monster simple group. The name "Friendly Giant" for the Monster did not take on.
 
 After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman and/or Borcherds showed that the Griess algebra is just the degree 2 part of the infinite dimensional [[Moonshine vertex algebra]].
+
+
++--{: .query}
+[[David Roberts]]: wasn't there some discussion on the cafe about the sporadic groups potentially being part of more systematic families of weaker structures? (monoids or something) If there are any references in that discussion they could perhaps be pulled in here and at [[classification of finite simple groups]] and/or [[sporadic finite simple group]].
+=--
 
 See also [[Moonshine]].
 
