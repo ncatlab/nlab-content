@@ -51,7 +51,7 @@ The [[weak equivalences]] in $\Theta_n Sp_k^{fib}$ are then (by the standard res
 
 ## Definition 
 
-For $J$ a [[category]], write $\Theta J$ for the [[categorical wreath product]] over the [[simplex category]] $\Delta$ [Ber05](http://arxiv1.library.cornell.edu/abs/math/0512575).
+For $J$ a [[category]], write $\Theta J$ for the [[categorical wreath product]] over the [[simplex category]] $\Delta$ [Ber05](http://arxiv.org/abs/math/0512575).
 
 Then with $\Theta_0 := {*}$ we have inductively
 
