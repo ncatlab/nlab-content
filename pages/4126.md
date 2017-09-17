@@ -74,7 +74,7 @@ If a valuation _did_ exist and was restricted to a commutative sub-algebra of op
 ###### Definition
 **(category of contexts)**
 
-Let $\mathcal{V}(\mathcal{H})$ be the [[category]] (a [[poset]]) whose
+Let $\mathcal{V}(\mathcal{H})$ be a [[category]] (the [[semilattice of commutative subalgebras]] of the algebra $B(\mathcal{H})$ of [[bounded operato]]s) whose
 
 * [[object]]s are _commutative_ [[von Neumann algebra|von Neumann subalgebras]] $V \subset B(\mathcal{H})$;
 
