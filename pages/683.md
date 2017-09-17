@@ -886,14 +886,15 @@ This appears as theorem 1.5 in
 
 The classical reference is 
 
-* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.  Springer LNM 304.  
+* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_, Springer LNM __304__, (see in particular chapter XI).
 
-see in particular chapter XI.
-
-An inroduction is 
+An introduction is 
 
 * [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://www.uoregon.edu/~ddugger/hocolim.pdf))
 
+A general overview via universal properties is in the [[George Maltsiniotis]]' 2008 Sevilla lectures, particularly in lec. I:
+
+I, localizers, [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_I_Localizers.pdf); II, model categories,  [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_II_Model_Categories.pdf); III, derivators, [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf): IV, summary on derivators [pdf](http://people.math.jussieu.fr/~maltsin/Seville/Summary_on_Derivators.pdf)
 
 * Wojciech Chacholski and Jerome Scherer, _Homotopy theory of diagrams_ ([arXiv](http://arxiv.org/abs/math.AT/0110316)) 
 
@@ -915,7 +916,7 @@ Other references are
 
 * Dwyer, Hirschhorn, Kan, Smith, _Homotopy limit functors in model categories and homotopical categories_.  Defines global homotopy limits in homotopical categories and computes them using local constructions.
 
-* Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).  Constructs and compares local and global weighted homotopy limits in enriched homotopical categories.
+* Michael Shulman, _Homotopy limits and colimits and enriched homotopy theory_, [math.CT/0610194](http://arxiv.org/abs/math/0610194).  Constructs and compares local and global weighted homotopy limits in enriched homotopical categories. (a query on this paper is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=354&Focus=21275#Comment_21275))
 
 * Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)  Proves that homotopy limits in a 2-category with its natural model structure coincide with 2-categorical [[strict 2-limit|pseudo-limits]], and hence give [[2-limit]]s.
 
@@ -924,14 +925,7 @@ Other references are
 * Andre Hirschowitz, Carlos Simpson.  [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
 
 
-+--{.query}
-[[Tim Porter|Tim]]  Mike, are you intending to treat the case of when the domain category, $D$ is the above, is enriched as well? This would handle the example of homotopy limts of homotopy coherent diagrams, both in Vogt's sense and in the simplicially enriched case looked at by Bourn and Cordier. This would also allow the $G$ in one of the examples to be a simplicial or topological group, or to be (?) and A-infinity category. (Some of those examples may be already dealt with in others of the entries as different people classify things in different ways.)
 
-Perhaps some of the more classical referencs, Vogt, Bousfield-Kan etc. might be included for completeness.
-
-[[Mike Shulman|Mike]]: Yes, certainly; my paper referenced above deals with the case when $D$ is enriched as well.  There are cofibrancy technicalities, of course.  I'm not against including the classical references, although I find them fairly impenetrable myself.
-
-=--
 
 [[!redirects homotopy limits]]
 [[!redirects homotopy colimit]]
