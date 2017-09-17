@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 This name is used for the [[fundamental group]] of a [[scheme]], as defined by [[Grothendieck]] in [[SGA1]].
 
 ##Definition
