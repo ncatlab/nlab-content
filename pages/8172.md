@@ -19,7 +19,9 @@
 
 ## Idea
 
-The _Adams spectral sequence_ is a type of [[spectral sequences]] used for computations  in [[stable homotopy theory]]. It is a variant of the [[Serre spectral sequence]] obtained by restricting attention to the stable range of [[cohomology]] with [[coefficients]] in $\mathbb{Z}/p\mathbb{Z}$.
+The _Adams spectral sequence_ is a type of [[spectral sequences]] used for computations  in [[stable homotopy theory]]. It computes the [[homotopy groups]] of a [[spectrum]] from its [[homology]]/[[cohomology]], as [[modules]]/[[comodules]] over its [[cohomology operations]].
+
+It is a variant of the [[Serre spectral sequence]] obtained by restricting attention to the stable range of [[cohomology]] with [[coefficients]] in $\mathbb{Z}/p\mathbb{Z}$.
 
 The Adams spectral sequence is further refined by the _[[Adams-Novikov spectral sequence]]_ by replacing [[ordinary cohomology]] modulo $p$ by [[complex cobordism cohomology theory]].
 
