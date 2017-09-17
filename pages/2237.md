@@ -177,6 +177,10 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 
 For more see at _[[equivariant stable homotopy theory]]_ and _[[global equivariant stable homotopy theory]]_.
 
+## Examples
+
+* $\mathbb{Z}_2$-equivariant cohomology theories: [[KR-theory]], [[MR-theory]]
+
 ## Related concepts
 
 * [[equivariance]], [[equivariant structure]]
@@ -247,3 +251,6 @@ Equivariant degree-2 $U(1)$-[[Lie group cohomology]] is discussed in
 [[!redirects equivariant spectrum]]
 [[!redirects naive G-spectrum]]
 [[!redirects genuine G-spectrum]]
+
+[[!redirects equivariant cohomology theory]]
+[[!redirects equivariant cohomology theories]]
