@@ -107,7 +107,7 @@ However, there are other sorts of completions in mathematics, such as:
 
 *  'The' [[algebraic closure]] of a [[field]] is unique up to isomorphism, but the isomorphism is not unique.
 *  Every [[model theory|model]] of a [[first-order theory]] may be interpreted as giving a completion of that theory (but not one with a recursively enumerable axiomatisation); every statement that true in the model is an axiom of the complete theory.  However, this is far from unique.
-*  An [[ultrapower]] of a structure may be viewed as an elementary completion, as descried by [[Terry Tao]] in [a blog post](http://terrytao.wordpress.com/2010/11/27/nonstandard-analysis-as-a-completion-of-standard-analysis/).
+*  An [[ultrapower]] of a structure may be viewed as an elementary completion (see [[elementary embedding]]), as described by [[Terry Tao]] in [a blog post](http://terrytao.wordpress.com/2010/11/27/nonstandard-analysis-as-a-completion-of-standard-analysis/).
 
 
 [[!redirects completion]]
