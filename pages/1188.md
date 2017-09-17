@@ -14,7 +14,7 @@ The notion of **accessible $(\infty,1)$-category** is the generalization of the 
 
 It is a means to handle $(\infty,1)$-categories that are not [[essentially small (∞,1)-category|essentially small]] in terms of small data.
 
-An _accessible_ $(\infty,1)$-category is one which may be [[large category|large]], but can entirely be _accessed_ as an $(\infty,1)$-category of "conglomerates of objects" in a small $(\infty,1)$-category -- precisely: that it is a category of $\kappa$-small [[ind-object]]s in the some small $(\infty,1)$-category $C$.
+An _accessible_ $(\infty,1)$-category is one which may be [[large category|large]], but can entirely be _accessed_ as an $(\infty,1)$-category of "conglomerates of objects" in a small $(\infty,1)$-category -- precisely: that it is a category of $\kappa$-small [[ind-object]]s in some small $(\infty,1)$-category $C$.
 
 
 ## Definition ##
