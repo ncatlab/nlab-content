@@ -97,5 +97,5 @@ whence we infer that ${|S_1 + T|}$ is a multiple of $8$, and we have reached a c
 
 ## References 
 
-* Igor Frankel, James Leposky, and Arne Meurman, _Vertex Operator Algebras and the Monster_, Academic Press 1988. 
+* Igor Frankel, James Lepowsky, and Arne Meurman, _Vertex Operator Algebras and the Monster_, Academic Press 1988. 
 {#FLM} 
