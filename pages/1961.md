@@ -173,7 +173,7 @@ A textbook account of tangent bundles in the context of [[synthetic differential
 
 Further discussion of axiomatizations in this context is in
 
-*  [[J.R.B. Cockett]], [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_ (2012) ([pdf](http://geoff.reluctantm.com/publications/sman2.pdf))
+*  [[J.R.B. Cockett]], [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_ (2012) ([pdf](http://www.mta.ca/~gcruttwell/publications/sman3.pdf))
  {#CockettCruttwell}
 
 Discussion for [[diffeological spaces]] is in 
