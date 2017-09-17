@@ -11,16 +11,44 @@ A fruitful approach to mathematical theory is what might be called "inter-geomet
 
 This is of practical concern for instance in the [[Langlands program]], where it is an open problem how the methods and insights which are deeply on the side of [[complex analytic geometry]], such as involving [[mirror symmetry]], might have incarnations on the [[arithmetic geometry]]-side. And vice-versa, the complex-analytic version of the conjecture was obtained by educated guessing via analogy from the arithmetic side in the first place, but this guesswork has been questioned ([[Problems in the theory of automorphic forms -- 45 years later|Langlands 14]]). Both of these issue would be resolved if one had an "inter-geometric" from which the correspondence both in [[arithmetic geometry]] and in [[complex-analytic geometry]] would both follow by restriction.
 
-Another example, which maybe hasn't been duly recognized as such yet, is the construction of the refined [[Witten genus]] in the guise of the [[string orientation of tmf]]: here what is initially a concept in [[complex analytic geometry|complex analytic]] ([[supergeometry|super]]-)geometry is constructed by passage (via the construction of [[tmf]]) to the [[moduli stack of elliptic curves]] all the way down in [[arithmetic geometry]], and in fact then via the [[fracture theorems]] by its [[base change|base changes]] to [[p-adic geometry]] and to [[rational homotopy theory]] (and further to [[K(n)-local stable homotopy theory]]). There is thus a kind of [[p-adic string theory]] appearing here, which is however not of the kind that existing literature with such title would shed any light on. The construction is a ground-breaking accomplishment in [[algebraic topology]], but at least in view of the origin of the [[Witten genus]] in [[string theory]] it maybe raises more questions than it solves: from the perspective of physics the Witten genis is but the first example of a tower of similar phenomena, the next instance being the [[partition function]] of the [[M5-brane]] and then that of 10d [[string theory]] itself (see e.g. at _[[self-dual higher gauge theory]]_).  Finding the higher analog of the [[string orientation of tmf]] for these cases is as desirable as it would seem to be intractable without some more inter-geometric theory to guide one.
+Another example, which maybe hasn't been duly recognized as such yet, is the construction of the refined [[Witten genus]] in the guise of the [[string orientation of tmf]]: here what is initially a concept in [[complex analytic geometry|complex analytic]] ([[supergeometry|super]]-)geometry is constructed by passage (via the construction of [[tmf]]) to the [[moduli stack of elliptic curves]] all the way down in [[arithmetic geometry]], and in fact then via the [[fracture theorems]] by its [[base change|base changes]] to [[p-adic geometry]] and to [[rational homotopy theory]] (and further to [[K(n)-local stable homotopy theory]]). There is thus a kind of [[p-adic string theory]] appearing here, which is however not of the kind that existing literature with such title would shed any light on. 
 
+**[[quantization of 3d Chern-Simons theory]]**
+
+| [[geometry]] |  [[worldvolume]]  |  moduli of [[field (physics)|fields]] | moduli of [[polarizations]]  |
+|------|----------|------------|---------|
+| [[differential geometry]] |  [[worldsheet]] | [[moduli stack of bundles]] |  |
+| [[complex analytic geometry]] | [[complex curve]]  |  [[Jacobian]]/moduli of [[stable vector bundle|(semi-)stable bundles]]  |  [[moduli stack of Riemann surfaces]] |   
+| [[arithmetic geometry]] |  [[arithmetic curve]]   | [[geometric Langlands correspondence|geometric Langlands]]/[[Tamagawa measures]] | [[moduli stack of curves]] |  
+
+The construction is a ground-breaking accomplishment in [[algebraic topology]], but at least in view of the origin of the [[Witten genus]] in [[string theory]] it maybe raises more questions than it solves: from the perspective of physics the Witten genis is but the first example of a tower of similar phenomena, the next instance being the [[partition function]] of the [[M5-brane]] and then that of 10d [[string theory]] itself (see e.g. at _[[self-dual higher gauge theory]]_).  
+
+| $k$ | $(4k+3)d$ [[higher dimensional Chern-Simons theory]] | form [[theta characteristics]] $\to$ | $(4k+2)d$ [[self-dual higher gauge theory]] |
+|----|--------------|-----------|------------------|
+| 0  | [[3d Chern-Simons theory]] |   |  [[WZW-model|chiral WZW-string]]/[[modular functor]]/[[equivariant elliptic cohomology]] |
+| 1  | [[7d Chern-Simons theory]] |  |  self-2-2form on [[M5-brane]] |
+| 2  | [[11d Chern-Simons theory]] |  | [[RR-fields]] in [[type II string theory]] |
+
+In all of these higher dimensional cases the inter-geometric aspect appears. For before one assigns an [[elliptic cohomology theory]] to [[worldsheets]] equipped with polarization structure, but it is only the arithmetic cases of [[supersingular elliptic curves]] which contribute, similarly in the higher case it is the [[Artin-Mazur formal groups]] in positive [[characteristic]] which contribute at the given height.
+
+
+Finding the higher analog of the [[string orientation of tmf]] for these cases higher dimensional cases (in "[[Calabi-Yau cohomology]]" or similar) is as desirable as it would seem to be intractable without some more inter-geometric theory to guide one.
 Here we will not present solutions to these rather deep questions. But we do want to discuss something that looks like steps in the right direction.
 
 Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, spherical and hyperbolic geometry. The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
+
+Differential cohesion is a geometric homotopy theory hence a context for [[higher geometry]] $\mathb{H}$ which is equipped with an extra structure that axiomatically encodes that the [[homotopy types]] in $\mathbf{H}$ may have [[infinitesimal object|infinitesimal extension]]. 
+
+| $\mathbf{H}_{reduced}$ | $\hookrightarrow$ | $\mathbf{H}$ | $\longrightarrow$ |  $\mathbf{H}_{infinitesimal}$  |
+|---------|---|-------------------|---|------------------|
+| [[moduli ∞-stacks]] |  | [[synthetic differential ∞-groupoids]] |  |  [[formal moduli problems]] |
 
 We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele class group]] etc. have structural analogs in any context of [[differential cohesion]]. We show that specifically in the context of [[complex analytic infinity-groupoid|complex analytic cohesion]] these reproduce the correct analogs of the arithmetic concepts as predicted by the [[function field analogy -- table|function field analogy table]].
 
 
 ## Fracture squares
+
+### In arithmetic geometry
 
 Suppose one studies [[loop spaces]], say the [[Witten genus]]. Then one studies the [[moduli stack of elliptic curves]] $\bar\mathcal{M}_{ell}$. If one is sambitious and considers not just [[modular forms]] but [[topological modular forms]] here, then this is to be taken over [[Spec(Z)]], hence is the stack of solutions of the [[Weierstrass equation]] 
 
@@ -31,13 +59,13 @@ $$
 
 This stack may be hard to analyze. A common approach is to consider elliptic curves over the [[rational numbers]] and over the [[p-adic integers]] and re-built the general case from this.
 
-* p-adic integers
 
-* integral adeles
 
-* adeles
 
-* ...
+| [[curve]] | ring of global functions | [[ring of functions]] on a point | [[formal power series]] around a point |   |
+|----|----|-----|-----|----|
+| [[Spec(Z)]] | $\mathbb{Z}$  |  $\mathbb{F}_p$ ([[finite field]]) | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $= \underset{\leftarrow}{\lim}( \cdots \to \mathbb{Z}/(p^2)\to \mathbb{Z}/(p) )$  |
+| $\mathbb{C}$ ([[complex plane]]) | entire [[holomorphic functions]]  | $\mathbb{C}_x$ | $\mathbb{C}[ [ t_x ] ]$ |
 
 This underlies the following fact
 
@@ -67,7 +95,7 @@ in [[CRing]] which is both a [[pullback]] as well as a [[pushout]] square.
 
 (...)
 
-## Ideles
+### In homotopy theory
 
 (...)
 
@@ -164,6 +192,25 @@ We write
 * $\Pi_{rel} \dashv \flat_{rel} \dashv \sharp_{rel}$ for the corresponding modalities of the cohesion of $\mathbf{H}$ over $\mathbf{H}_{inf}$.
 
 =--
+
+1. [[cohesion]]
+
+   * [[shape modality]] $\Pi$ creates [[geometric realization]]/[[classifying spaces]];
+
+   * [[flat modality]] $\flat$ creates underlying point sets/moduli for [[flat connections]]/[[local systems]];
+
+   * [[sharp modality]] $\sharp$ induces [[moduli stacks]] for non-flat connections
+
+1. [[infinitesimal cohesion]]
+
+   * $\flat_{rel}$ creates collection of [[formal disks]]
+
+1. [[differential cohesion]]
+
+   * [[infinitesimal shape modality]] $\Pi_{inf}$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
+
+
+
 
 The main reason why we are interested in cohesion in the present context is that every cohesive stable homotopy type is canonically decomposed into two [[fracture squares]], which we are going to relate to traditional fracture squares and to idelic structures.
 
