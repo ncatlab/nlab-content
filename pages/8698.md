@@ -1,0 +1,22 @@
+### Several notions of formal geometry
+
+Formal geometry is a highly overloaded term in mathematics, used in number of conceptually similar ways, usually meaning that we work in setup in which some crucial details of geometry or analysis are not present or satisfied, e.g.
+
+* we work with functions on "manifolds" but the functions do not necessarily converge,
+we work with geometry based on on topological algebras of [[formal power series]]; this is the formal geometry of Grothendieck school and the main notion is that of a [[formal scheme]]
+
+* Gelfand's formal geometry: study infinitedimensional manifolds of [[jet space]]s and related objects coming from usual differential geometry, geometry of formal differential operators, study of related objects from homological algebra, including 
+Gelfand's [[formal manifold]] (homological vector field)
+
+* we talk about neighborhoods,or localizations, morphisms of spaces, but not about spectra and points (a part of noncommutative geometry is done in such style) -- this is sometimes called "pseudogeometry"
+
+### Gelfand's formal geometry
+
+
+See MathOverflow: [formal-geometry](http://mathoverflow.net/questions/6057/formal-geometry)
+
+* [[Israel Gelfand]], [[David Kazhdan]], _Certain questions of differential geometry and the computation of the cohomologies of the Lie algebras of vector fields_
+
+### Formal noncommutative symplectic geometry of Kontsevich
+
+* [[Maxim Kontsevich]], _Formal (non)-commutative symplectic geometry_, The Gelfand Mathematical. Seminars, 1990-1992, Ed. L.Corwin, I.Gelfand, J.Lepowsky, Birkhauser 1993, 173-187, [pdf](http://193.51.104.7/~maxim/TEXTS/Formal%20non-commutative%20symplectic%20geometry.pdf)
