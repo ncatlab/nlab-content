@@ -203,7 +203,12 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[group]], [[group object]]
 
-* **ring**, [[ring object]], [[E-∞ ring]]
+* **ring**, [[E-∞ ring]]
+
+  * [[ring object]]
+ 
+    * [[topological ring]]
+
 
 * [[affine scheme]]
 
