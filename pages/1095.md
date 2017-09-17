@@ -6,13 +6,17 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
 =--
 =--
 
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
