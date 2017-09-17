@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Geoffrey_Chew)
+
+## Related $n$Lab entries
+
+* [[S-matrix]]
+
+category: people
