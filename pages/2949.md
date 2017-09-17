@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -89,7 +100,9 @@ where the mapping space $Map_*$ for based spaces is the subspace of the usual ma
 
 It appears that $\theta_*$ is again one-to-one and continuous, and it is bijective if $X$ is locally compact Hausdorff. If $Y$ is also Hausdorff then $\theta_*$ is a homeomorphism. 
 
-## Reference 
+## Related concepts
+
+## References
 
 * M. Escardo and R. Heckmann, [Topologies of spaces of continuous functions](http://www.cs.bham.ac.uk/~mhe/papers/newyork.pdf), 2001. 
 
