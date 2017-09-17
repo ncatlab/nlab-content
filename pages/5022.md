@@ -36,7 +36,7 @@ A _frame_ for $\mathcal{L}_\omega(n)$ is a $(n+1)$-tuple $\mathfrak{F} = (W,\{R_
 
 
 ## Models in Modal Logics ## 
-To give the standard (geometric) semantics of modal logics one needs the models adn these will be discussed in the entry [[geometric models for  modal logics]] and the companion [[algebraic models for  modal logics]].
+To give the standard (geometric) semantics of modal logics one needs the models and these will be discussed in the entry [[geometric models for  modal logics]] and the companion [[algebraic models for  modal logics]].
  
 
 
