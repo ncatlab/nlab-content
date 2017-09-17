@@ -1,25 +1,23 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Definition
 
-A [[topological vector space]] is __locally convex__ if it has a base of topology consisting of convex open subsets.  Equivalently, it is a vector space equipped with a [[gauge space|gauge]] consisting of [[seminormed vector space|seminorms]].  As with other topological vector spaces, a locally convex space (LCS) is often assumed to be [[Hausdorff space]].
+A [[topological vector space]] is __locally convex__ if it has a [[base of its topology]] consisting of [[convex subsets|convex]] [[open subsets]].  Equivalently, it is a vector space equipped with a [[gauge space|gauge]] consisting of [[seminormed vector space|seminorms]].  As with other topological vector spaces, a locally convex space (LCS or LCTVS) is often assumed to be [[Hausdorff space|Hausdorff]].
 
-Locally convex (topological vector) spaces are the standard setup for much of the contemporary [[functional analysis]]. 
+Locally convex (topological vector) spaces are the standard setup for much of contemporary [[functional analysis]]. 
 
 
 ## Properties
@@ -30,17 +28,21 @@ One reason why locally convex TVS are important is that lots of (continuous!) [[
 
 The collections of functionals on a LCTVS is used in a way analogous to the collection of coordinate projections $pr_i:\mathbb{R}^n\to \mathbb{R}$. For example, curves in a LCTVS over the reals can be composed with functionals to arrive at a collection of functions $\mathbb{R} \to \mathbb{R}$ which are analogous to the 'components' of the curve.
 
-In one respect, a locally convex TVS is a [[nice space]] in that there are enough co-probes by maps to the base field.
+In one respect, a locally convex TVS is a [[nice topological space]] in that there are enough co-probes by maps to the base field.
+
 
 ### Diagram of properties
 
 [[!include diagram of LCTVS properties]]
 
+
 ## References
 
 * J. L. Taylor, _Notes on locally convex topological vector spaces_ (1995) ([pdf](http://www.math.utah.edu/~taylor/LCS.pdf))
 
+
 category: analysis
+
 [[!redirects locally convex]]
 [[!redirects locally convex spaces]]
 [[!redirects locally convex vector space]]
@@ -48,5 +50,17 @@ category: analysis
 [[!redirects locally convex topological vector space]]
 [[!redirects locally convex topological vector spaces]]
 [[!redirects locally convex TVS]]
+[[!redirects locally convex TVSs]]
+[[!redirects locally convex TVSes]]
 [[!redirects LCS]]
+[[!redirects LCSs]]
+[[!redirects LCSes]]
 [[!redirects LCTVS]]
+[[!redirects LCTVSs]]
+[[!redirects LCTVSes]]
+
+[[!redirects locally convex Hausdorff space]]
+[[!redirects locally convex Hausdorff spaces]]
+[[!redirects Hausdorff locally convex space]]
+[[!redirects Hausdorff locally convex spaces]]
+[[!redirects hausdorff locally convex space]]
