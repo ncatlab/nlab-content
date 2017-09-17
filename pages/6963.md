@@ -12,7 +12,7 @@ A [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-categ
 
 ## Definitions
 
-Let $\mathcal{M}$ be the [[cartesian monoidal category]] whose [[objects]] are [[injections]] ([[monomorphisms]] in the [[category of sets]]) and whose [[morphisms]] are [[commutative squares]].  Then a ([[locally small category|locally small]]) __$\mathcal{M}$-category__ is simply a [[category enriched]] over $\mathcal{M}$.
+Let $\mathcal{M}$ be the [[cartesian monoidal category]] whose [[objects]] are [[injections]] ([[monomorphisms]] in the [[category of sets]]) and whose [[morphisms]] are [[commutative squares]].  Then a ([[locally small category|locally small]]) __$\mathcal{M}$-category__ is simply a [[category enriched]] over $\mathcal{M}$. In other words, where the hom-objects are pairs of sets $(T, L)$ where $T \subseteq L$. 
 
 In more detail, an __$\mathcal{M}$-category__ consists of the following data:
 * a [[class]] of __[[objects]]__;
@@ -26,7 +26,13 @@ In more detail, an __$\mathcal{M}$-category__ consists of the following data:
 
 Equivalently, an __$\mathcal{M}$-category__ is a [[category]] of objects and __loose__ morphisms together with a [[wide subcategory]] of __tight__ morphisms.
 
-Note that the "underlying ordinary category" of an $\mathcal{M}$-category, in the usual sense that that phrase is used in [[enriched category]] theory, is its category of *tight* morphisms.  Nevertheless, it is frequently also useful to think of the category of loose morphisms as a sort of "underlying ordinary category" of an $\mathcal{M}$-category.
+Note that the "underlying ordinary category" of an $\mathcal{M}$-category, in the usual sense that that phrase is used in [[enriched category]] theory, is its category of *tight* morphisms, since the monoidal unit of $\mathcal{M}$ is the pair $(1, 1)$, and we have 
+
+$$\hom_{\mathcal{M}}((1, 1), (T, L)) \cong T.$$  
+
+Nevertheless, it is frequently also useful to think of the category of loose morphisms as a sort of "underlying ordinary category" of an $\mathcal{M}$-category. This is effected by the monoidal change-of-base functor $\hom_{\mathcal{M}}((0, 1), -): \mathcal{M} \to Set$, where we have 
+
+$$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$ 
 
 
 ## Examples
