@@ -30,7 +30,7 @@ More in detail:
 
 * The two main sources of examples for action functionals that are anomalous are
 
-  * the standard action functional for chiral fermions 
+  * the standard [[fermionic action functional]] (see there for details) for chiral fermions 
 
     * this is a section of the [[Pfaffian line bundle]] for the 
       [[Dirac operator]]
