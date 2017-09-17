@@ -52,6 +52,10 @@ The complex $Y_1\to P\to X_0$ is called the NE-SW complex, and $X_1\to P\to Y_0$
 
 If to the above definition added the property that the SE-NW sequence $Y_1\to P\to X_0$ is _exact_ in that it is a (nonabelian in general) [[group extension]], this is called a [[butterfly]]. See there for more details.
 
++-- {: .query}
+Alex asks: Is there any relation between a [[profunctor]] and a Crossed Profunctor? Just as one could look at a [[crossed module]] as a [[module]] with "twisted multiplication" (according to the crossed module page), is there some analogous "twisting" of a profunctor to obtain a crossed profunctor?
+=--
+
 ## References
 
 This notion appeared in
