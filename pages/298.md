@@ -138,6 +138,13 @@ More recently Huang's student [[Liang Kong]] has been developing these results f
 
 * [[Liang Kong]], _Open-closed field algebras_ Commun. Math. Physics. 280, 207-261 (2008), [math.QA/0610293](http://arxiv.org/abs/math/0610293).
 
+### As factorization algebras 
+
+Discussion of vertex operator algebras as [[factorization algebras of observables]] is in section 6.3 and section 6.5 of 
+
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ {#Gwilliam}
+
 ### Relation to modular tensor categories
 
 * [[Yi-Zhi Huang]], _Vertex operator algebras, the Verlinde conjecture and modular tensor categories_ ([arXiv:math/0412261](http://arxiv.org/abs/math/0412261))
