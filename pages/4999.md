@@ -23,24 +23,26 @@
 
 
 ## Idea
+ {#Idea}
 
-The term _modal logic_ refers to an enrichment of standard formal [[logic]] where the standard operations ([[and]], [[or]], [[not]], and perhaps [[universal quantifier|forall]], etc.) are accompanied by certain extra operations -- called _modal operators_ and often denoted by "$\Box$" or similar -- such that for $p$ any [[proposition]] the expression $\Box p$ is a new proposition whose interpretation is roughly as "$p$ holds (only) in some _mode_" or "$p$ holds (only) _in a certain way_", such as: "$p$ is _possibly_ true", "$p$ will _eventually become_ true", "$p$ is _believed_ to be true", etc. 
+The term _modal logic_ refers to an enrichment of standard formal [[logic]] where the standard operations ([[and]], [[or]], [[not]], and perhaps [[universal quantifier|forall]], etc.) are accompanied by certain extra operations -- called _modal operators_ and often denoted by "$\diamond$" and "$\Box$" or similar -- such that for $p$ any [[proposition]] the expression $\Box p$ is a new proposition whose interpretation is roughly as "$p$ holds (only) in some _mode_" or "$p$ holds (only) _in a certain way_", such as: "$p$ is _possibly_ true", "$p$ will _eventually become_ true", "$p$ is _believed_ to be true", etc. 
 
 There is no established axiom set that an operator on propositions has to satisfy to count as a _modal operator_. As a result, for instance in the preface of ([Blackburn-deRijke-Venema](#BlackburnDeRijkeVenema)) et al.) it says
 
 >_'Ask three modal logicians what modal logic is, and you are likely to get at least three different answers'_.
 
-Hence there is a good bit of flexibility in the notion _modal logic_, as shown by the list of examples below. But often the modal operators are in fact [[monad (in computer science)|(co)monads]] on the universe of propositions. For more on this see at _[modal type theory -- Relation to monads](modal%20type%20theory#RelationToMonads)_.
+Hence there is a good bit of flexibility in the notion _modal logic_, as shown by the list of examples below. But often the modal operators are in fact [[monad (in computer science)|(co)monads]] on the [[type of propositions|universe of propositions]], see below at _[modal type theory -- Relation to monads](modal%20type%20theory#RelationToMonads)_. This has an evident generalization to _[[modal type theory]]_ concerned with [[type theory|type theories]] equipped with [[monad (in computer science)|(co)monads]] on their [[type of types|type universe]]. Hence with this more restrictive (co)monadic definition of modal operators, modal logic is the counterpart in _[[computational trinitarianism]]_ to [[category theory]] making use of [[closure operator]] [[monads]] and to [[computer science]] with [[monads in computer science]].
 
-The classic example of a modal logic is a system, called _[[S4 modal logic]]_, that aims to model the idea of propositions being "possibly true" or "necessarily true". 
+The archetypical example of a modal logic is a system, called _[[S4 modal logic]]_ (which happens to be co-monadic), that aims to model the idea of propositions being "possibly true" or "necessarily true".  We list and discuss further examples of modal logic in more detail below in _[Examples](#Examples)_. 
 
-We list and discuss examples of modal logic in more detail below in _[Examples](#Examples)_. 
+A good survey of the standard ingredients of modern modal logic is in _[SEP - Modern Origins of Modal Logic](#SEPModernOrigins)_.
 
 Modal logics have [[semantics]] in terms of sets with [[relations]], called _[[Kripke frames]]_ in the context of modal logic.  For instance, [[temporal logic|temporal logics]] have [[posets]] as [[models]].
 
 
 
 ## Definition
+ {#Definition}
 
 ### Modal Languages
 {#modal+language}
@@ -244,7 +246,11 @@ General texts on modal logics include
 
 * [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
 
+* Stanford Encyclopedia of Philosophy, _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_
+ {#SEPModernOrigins}
+
 * Stanford Encyclopedia of Philosophy, _[modal logic](http://plato.stanford.edu/entries/logic-modal/)_ 
+ {#SEPModalLogic}
 
 A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
 
