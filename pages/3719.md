@@ -43,9 +43,13 @@ For a more comprehensive account of the theory see also chapters 8 and 12-18 of
 
 * [[category of chain complexes]]
 
-**Exercise 1.1.2** [homology is functorial](http://ncatlab.org/nlab/show/chain+map#OnHomology)
+**Exercise 1.1.2** [homology is functorial](chain+map#OnHomology)
+
+**Exercise 1.1.3** [exact sequences of chain complexes are split](split+exact+sequence#OfVectorSpaces)
 
 **Exercise 1.1.4** [[internal hom of chain complexes]]
+
+**Exercise 1.1.5** [exactness and weak nullity](exact+sequence#ExactnessAndQuasiIsomorphisms)
 
 **Definition 1.1.2** [[quasi-isomorphism]]
 
@@ -53,6 +57,8 @@ For a more comprehensive account of the theory see also chapters 8 and 12-18 of
 [[cochain complex]], [[bounded chain complex]]
 
 **Application 1.1.3** [[chain on a simplicial set]], [[simplicial homology]]
+
+**Exercise 1.17** [simplicial homology of the tetrahedron](simplicial+homology#OfTetrahedon)
 
 **Application 1.1.4** [[singular homology]]
 
@@ -70,9 +76,13 @@ For a more comprehensive account of the theory see also chapters 8 and 12-18 of
 
     * [[additive functor]]
 
+**Exercise 1.2.1** [homology respects direct product](chain+homology+and+cohomology#ChainHomologyRespectsDirectProduct)
+
 **Definition 1.2.1** [[kernel]], [[cokernel]]
 
 * [[quotient]]
+
+**Exercise 1.2.2** [in an abelian category kernels/cokernels are the monos/epis](Mod#RModIsAbelian)
 
 * [[double complex]]
 
