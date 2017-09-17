@@ -1,0 +1,8 @@
+
+* [webpage](http://wwwmath.uni-muenster.de/persdb/show_perspage.php?id=73)
+
+## related $n$Lab enties
+
+* [[rigid analytic geometry]]
+
+category: people
