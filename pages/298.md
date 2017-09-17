@@ -4,7 +4,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 The usual definition of _vertex operator algebra_ is long and unenlightning. But due to work by Huang and Kong it is known now that vertex operator algebras are nothing but certain [[FQFT]]s (see also [[CFT]]):
 
@@ -18,7 +18,11 @@ $$
 
 such that its component $V_1$ is a holomorphic function on the moduli space of conformal punctured spheres.
 
-#References#
+## Examples
+
+* [[Moonshine]]
+
+## References
 
 The original article with the interpretation of vertex operator algebras as holomorphic algebras over the holomorphic punctured sphere operad is
 
