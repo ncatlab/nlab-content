@@ -6,8 +6,17 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
 =--
 =--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Definitions
 
@@ -15,7 +24,7 @@ There are several things that one might mean by a "(possibly [[weak homotopy equ
 
 1. A [[geometric morphism]] that induces an [[equivalence]] of the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]], or more generally of [[shape of an (∞,1)-topos|shapes]].
 
-1. A geometric morphism which induces an [[isomorphism]] on all [[cohomology]] with [[local coefficients]].
+1. A geometric morphism which induces an [[isomorphism]] on all [[cohomology]] with [[constant coefficients]].
 
 1. A geometric morphism which has an inverse up to "homotopy" in the classical sense of a map $E\times [0,1]\to F$, where since $E$ and $F$ are toposes, we have to incarnate $[0,1]$ as the topos $Sh([0,1])$.
 
