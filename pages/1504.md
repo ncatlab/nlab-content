@@ -112,4 +112,18 @@ Surveys are in
 
 See also _[[higher category theory and physics]]_ .
 
+#### For Yang-Mills theory
+
+Discussion of the [[L-infinity algebra]] structure in the [[Yang-Mills theory]] that appears to lowest order in open string field theory is for instance in
+
+* [[Anton Zeitlin]], 
+
+  _Homotopy Lie Superalgebra in Yang-Mills Theory_ ([arXiv:0708.1773](http://arxiv.org/abs/0708.1773))
+
+  _BV Yang-Mills as a Homotopy Chern-Simons via SFT_ ([arXiv:0709.1411](http://arxiv.org/abs/0709.1411))
+
+  _SFT-inspired Algebraic Structures in Gauge Theories_ ([arXiv:0711.3843](http://arxiv.org/abs/0711.3843))
+
+  _Conformal Field Theory and Algebraic Structure of Gauge Theory_ ([arXiv:0812.1840](http://arxiv.org/abs/0812.1840))
+
 [[!redirects String field theory]]
