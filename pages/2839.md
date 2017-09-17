@@ -18,21 +18,38 @@
 
 ## Idea
 
-In [[algebraic topology]] and [[homotopy theory]], a **cocylinder** is a dual construction to a [[cylinder]].  However, it is more commonly called a [[path space]]  $X^I$ or a [[path object]].
+In [[algebraic topology]] and [[homotopy theory]], a **cocylinder** is a dual construction to a [[cylinder]].  However, it is more commonly called a [[path space]]  $X^I$ or a [[path space object]].
 
 Similarly, the **mapping cocylinder**, which is dual to the [[mapping cylinder]], is equally called the **mapping path space** or **mapping path fibration**.  It provides a canonical way to factor any map as a [[homotopy equivalence]] followed by a [[fibration]].
 
+
 ## Definition
 
-For a [[topological space]] $X$, its **cocylinder** is simply the path space $X^{[0,1]}$.  More generally, in a [[cartesian closed category]] with an [[interval object]] $I$, the **cocylinder** of an object $X$ is the [[exponential object]] $X^I$.  Even more generally, in a [[model category]] the **cocylinder** of any object is the [[path object]] --- the factorization of the [[diagonal morphism]] $X\to X\times X$ as an [[acyclic cofibration]] followed by a [[fibration]].
+For a [[topological space]] $X$, its **cocylinder** is simply the path space $X^{[0,1]}$.  More generally, in a [[cartesian closed category]] with an [[interval object]] $I$, the **cocylinder** of an object $X$ is the [[exponential object]] $X^I$.  Even more generally, in a [[model category]] the **cocylinder** of any object is the [[path space object]] --- the factorization of the [[diagonal morphism]] $X\to X\times X$ as an [[acyclic cofibration]] followed by a [[fibration]].
 
-In any of these cases, given a [[morphism]] $f\colon X\to Y$, its **mapping cocylinder** (or **mapping path space** or **mapping path fibration**) is the [[pullback]]
+In any of these cases: 
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[morphism]] $f\colon X\to Y$, its **mapping cocylinder** (or **mapping path space** or **mapping path fibration**) is the [[pullback]]
 $$\array{
 Cocyl(f)&\to& X\\
 \downarrow&&\downarrow f \\
 Y^I&\stackrel{ev_0}{\to}&Y
 }$$
-where $Y^I$ is the cocylinder.  The mapping cocylinder is sometimes denoted $M_f Y$ or $N f$.
+where $Y^I$ is the cocylinder. 
+
+=--
+
+The mapping cocylinder is sometimes denoted $M_f Y$ or $N f$.
+
++-- {: .num_remark }
+###### Remark
+
+If we interchange $ev_0$ and $ev_1$ then we have an upside-down version of a cylinder, sometimes called inverse (or inverted) mapping cocylinder; but usually it is clear just from the context which version is used.  They are homotopy equivalent, so usually it does not matter.
+
+=--
 
 ## Examples
 
@@ -42,21 +59,21 @@ where $Y^I$ is the cocylinder.  The mapping cocylinder is sometimes denoted $M_f
 
 ## Applications
 
-* For a usage see [[Hurewicz connection]].
+* The mapping cocylinder is the central ingredient in the [[factorization lemma]].
 
-* In Brown's theory of [[higher stack]]s via categories of fibred objects, mapping cocylinders take a role of total spaces of a relative version of [[universal bundle|universal principal bundles]] associated to a map $f$; the projection of such a bundle is the composition $Cocyl(f)\to Y^I\stackrel{ev_1}\to Y$.  Note that the other leg $ev_1$ is used here. 
+* One usage is discussed at _[[Hurewicz connection]]_.
 
 * The mapping path fibration is used in the construction of the [[Strøm model structure]] on topological spaces.
 
 * The [[homotopy fiber]] can be constructed as the strict [[fiber]] of the mapping cocylinder.
 
-## Remarks
 
-* If we interchange $ev_0$ and $ev_1$ then we have an upside-down version of a cylinder, sometimes called inverse (or inverted) mapping cocylinder; but usually it is clear just from the context which version is used.  They are homotopy equivalent, so usually it does not matter.
 
 ## References
 
-* George Whitehead in his old book "Elements of homotopy theory" uses the terminology *mapping path space*.
+* [[George Whitehead]],  _Elements of homotopy theory_ 
+
+(This uses the terminology *mapping path space*.)
 
 [[!redirects cocylinder]]
 [[!redirects cocylinders]]
