@@ -1,0 +1,1 @@
+In a [[dagger-category]], a morphism $f : x \to y$ is said to be **unitary** if it is invertible and its inverse is its dagger $f^\dagger : y \to x$.  For more details, see the entry [[dagger-category]].
