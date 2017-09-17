@@ -71,6 +71,8 @@
 
   * [[etale geometric morphism]]
 
+  * [[open geometric morphism]]
+
   * [[local geometric morphism]]
 
   * [[bounded geometric morphism]]
@@ -82,7 +84,6 @@
   * [[hyperconnected geometric morphism]]
 
   * [[cohesive topos]] 
-
 
 * [[logical morphism]]
 
