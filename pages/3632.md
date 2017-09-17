@@ -107,11 +107,11 @@ Discussion of this can be found for instance in
 
 ## Relation to other concepts
 
-At least if the ambient $(\infty,1)$-category is a [[locally contractible (∞,1)-topos]] $\mathbf{H}$, so that there is a notion of structured [[schreiber:path ∞-groupoid]]-functor $\mathbf{\Pi} : \mathbf{H} \to \mathbf{H}$, the [[homotopy fiber]]s of the morphisms $X \to \mathbf{\Pi}_n(X)$ into the Postnikov tower of $\mathbf{\Pi}(X)$ form the
+* At least if the ambient $(\infty,1)$-category is a [[locally contractible (∞,1)-topos]] $\mathbf{H}$, so that there is a notion of structured [[schreiber:path ∞-groupoid]]-functor $\mathbf{\Pi} : \mathbf{H} \to \mathbf{H}$, the [[homotopy fiber]]s of the morphisms $X \to \mathbf{\Pi}_n(X)$ into the Postnikov tower of $\mathbf{\Pi}(X)$ form the
 
-* [[Whitehead tower in an (∞,1)-topos|Whitehead tower in the (∞,1)-topos]] $\mathbf{H}$ of the object $X$.
+  * [[Whitehead tower in an (∞,1)-topos|Whitehead tower in the (∞,1)-topos]] $\mathbf{H}$ of the object $X$.
 
-
+* In the context of [[nonabelian cohomology]] in [[(∞,1)-topos]]es the fact that we have Postnikov towers has been called the [[Whitehead principle of nonabelian cohomology]].
 
 
 [[!redirects Postnikov tower in an (∞,1)-category]]
