@@ -1,7 +1,17 @@
-<div class="rightHandSide toc">
-[[!include synthetic differential geometry - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
 
 This entry is about the book
 
