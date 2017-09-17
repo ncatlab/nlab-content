@@ -1,0 +1,70 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra is called the _[[connective cover]]_ construction.
+
+The analogous statement holds true for [[module spectra]] and for [[algebra spectra]] ([Baker-Richter 05](#BakerRichter05), [Lurie, prop. 8.1.3.13](#Lurie))
+
+## Related concepts
+
+* [[n-connected object of an (infinity,1)-topos]]
+
+## References
+
+* {#BakerRichter05} [[Andrew Baker]], [[Birgit Richter]], _Uniqueness of $E_\infty$-structures for connective covers_ ([arXiv:math/0506422v2](http://arxiv.org/abs/math/0506422))
+
+
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+
+[[!redirects connective covers]]
+
