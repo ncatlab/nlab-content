@@ -257,6 +257,14 @@ to the [[category]] [[Poset]] of [[posets]]: for $f : A \to B$ a homomorphism we
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+By standard properties of [[C-star algebra]]s (see [here](http://ncatlab.org/nlab/show/C-star-algebra#General)), this 
+image $im(f|_C)$ is simply the set-theoretic image $f(C)$.
+
+=--
+
 Notice the following fact about [[Alexandrov space]]s:
 
 +-- {: .num_prop }
