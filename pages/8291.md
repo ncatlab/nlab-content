@@ -24,6 +24,13 @@ This is the dual notion of a _[[projective module]]_. For the moment see there f
 
 ## Related concepts
 
-* [[injective resolution]]
+* [[projective object]], [[projective presentation]], [[projective resolution]]
+
+  * [[projective module]]
+
+* [[injective object]], [[injective presentation]], [[injective resolution]]
+
+  * **injective module**
 
 [[!redirects injective modules]]
+
