@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -216,6 +227,11 @@ and so on, with the correct result being the limit of this sequence -- if one de
 
 This is called a **path-ordered integral**. The "P" in the above formula is short for "path ordering". Possibly this notation originates in [[physics]] where the above is known as the [[Dyson formula]]. 
 
+## Higher parallel transport
+
+The notion of [[connection on a bundle]] generalizes to that of [[connection on a 2-bundle]]. [[connection on a 3-bundle]] and generally to that of [[connection on an ∞-bundle]]. The come with a notion of _higher parallel transport_ over manifolds of dimension greater than 1.
+
+See [[higher parallel transport]] for details.
 
 ## References
 
