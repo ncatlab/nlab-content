@@ -1001,6 +1001,62 @@ $$
 
 =--
 
+So far we have discussed the object $\mathbf{\flat}_{dR}\mathbf{B}G$ for $G$ a [[Lie group]]. By the general logic of <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#IntrinsicLieAlgebroids">intrinsic ∞-Lie algebroids</a> the object $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}G$ is the intrinsic incarnation  in $\infty LieGrpd$ of the [[Lie algebra]] $\mathfrak{g}$, defined to be the $(\infty,1)$-pushout
+
+$$
+  \array{
+    \mathbf{\flat}_{dR}\mathbf{B}G  &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi} \mathbf{\flat}_{dR} \mathbf{B}G
+    &\to&
+    \mathbf{\Pi}_{dR} \mathbf{B}G
+  } 
+  \,.
+$$
+
+There are some issues here with finding the right cofibrant replacement of this diagram that computes the correct $(\infty,1)$-pushout by an ordinary pushout in $[CartSp^{op}, sSet]$. We describe now some ordinary such pushout, and discuss its relation to the proper $(\infty,1)$-pushout later.
+
++-- {: .un_prop }
+###### Proposition
+
+For $X : CartSp^{op} \to Set$ a sheaf, write
+
+$$
+  {\tilde \mathbf{\Pi}}(X) : U \mapsto 
+  Hom(U \times \Delta^\bullet_{Diff}, X)
+$$
+
+for the simplicial presheaf of paths in $X$. (By the discussion at [[schreiber:path ∞-groupoid]] this is constructed similar to the path model for $\mathbf{\Pi}(X)$, but without any cofibrant replacement thrown in.)
+
+Then the pushout
+
+$$
+  \array{
+    \mathbf{\flat}_{dR} \mathbf{B}G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}\mathbf{\flat}_{dR} \mathbf{B}G &\to&
+    \exp(\mathfrak{g})
+  }
+$$
+
+is the presheaf
+
+$$
+  \exp(\mathfrak{a}) : 
+  U \mapsto 
+  Hom_{dgAlg}(CE(\mathfrak{g}), C^\infty(U)\otimes \Omega^1(\Delta^\bullet_{diff}))
+  \,.
+$$
+
+=--
+
+For more discussion of this and its relevance, see the section [Lie integrated ∞-Lie groupoids](#LieIntegrated) below.
+
+
 ##### The canonical form on $G$ {#CanonicalFormOnLieGroup}
 
 The following proposition asserts that the abstract $(\infty,1)$-topos-theoretic definition of the canonical $\mathfrak{g}$-valued form on an $\infty$-Lie group $G$ given [above](#CanonicalForm) reduces indeed to the ordinary notion of [[Maurer-Cartan form]] when $G$ is an ordinary [[Lie group]].
