@@ -16,10 +16,10 @@
 
 ## Definition
 
-A __simple Lie algebra__ is a [[Lie algebra]] $L$ such that:
+A __simple Lie algebra__ is a [[Lie algebra]] $\mathfrak{g}$ such that:
 
-*  $L$ is not [[abelian Lie algebra|abelian]], and
-*  the only [[proper ideal]] of $L$ is the zero ideal.
+*  $\mathfrak{g}$ is not [[abelian Lie algebra|abelian]], and
+*  the only [[proper ideal]] of $\mathfrak{g}$ is the zero ideal.
 
 Equivalently, a simple Lie algebra is a [[simple object]] of [[LieAlg]] that *also* is nonabelian.  Note that there are only two abelian Lie algebras whose only proper ideal is the zero ideal: the [[trivial Lie algebra]] (which is not a simple object in $Lie Alg$ either, since the zero ideal is not proper either) and the [[line]] (which is a simple object in $Lie Alg$ but is still not considered a simple Lie algebra).
 
