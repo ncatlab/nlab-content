@@ -51,19 +51,9 @@ There are various further conditions that can be imposed on a geometric morphism
 
 * If $f_!$ can be made into an $E$-[[indexed functor]] and $f^*$ satisfies some extra conditions, the geometric morphism $f$ is a [[locally connected geometric morphism]] (see there for details).
 
-* If $f_!$ preserves finite [[product]]s then $f$ is called **connected surjective**.
+* If $f_!$ preserves finite [[products]] then $f$ is called **connected surjective**.
 
-* If $f_!$ preserves finite [[product]]s and moreover there is a further functor $f^! : F \to E$ which is  [[right adjoint]] $(f_* \dashv f^!)$ and [[full and faithful functor|full and faithful]], i.e. if we have a sequence of adjunctions
-
-  $$
-    (f_! \dashv f^* \dashv f_* \dashv f^!)
-  $$
-
-  with full and faithful $f^!$ then the geometric morphism $f$ is called **[[local geometric morphism]]**.
-
-  In this case in particular $F \stackrel{\overset{p_*}{\leftarrow}}{\underset{p^!}{\hookrightarrow}} E$
-
-  is a [[geometric embedding]] and hence makes $F$ a subtopos of $E$.
+* If in addition to the above $f$ is a [[local geometric morphism]] in that there is a further functor $f^! : F \to E$ which is  [[right adjoint]] $(f_* \dashv f^!)$ and [[full and faithful functor|full and faithful]] then the geometric morphism $f$ is called **[[cohesive topos|cohesive]]**.
 
 =--
 
