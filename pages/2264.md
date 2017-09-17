@@ -1,10 +1,15 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Definition 
+
 A __Mal'cev operation__ on a [[set]] $X$ is a ternary operation, a [[function]]
 
 $$ t:X\times X\times X\to X,\,\,\,(x,y,z)\mapsto t(x,y,z) ,$$
 
 which satisfies the identities $t(x,x,z)=z$ and $t(x,z,z)=x$.
 An important motivating example is the operation $t$ of a [[heap]]. 
-
 
 An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev operation. An algebraic theory is Mal'cev iff one of the following equivalent statements is true:
 
@@ -16,15 +21,74 @@ An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev 
 
 Statement (i) is one of the motivations to introduce the notion of [[Mal'cev category]]. 
 
-
 A __Mal'cev variety__ is the category of $T$-algebras for a Mal'cev theory $T$, thought of as a [[variety of algebras]]. 
 
-+--{: .query}
-[[Mike Shulman]]: Surely you mean a [[variety of algebras]], rather than an algebraic variety?
+## Proofs of equivalence 
 
-_Toby_:  Yeah, I\'m always doing that!
+If $R \hookrightarrow X \times Y$ is a binary relation on sets, write $R(x, y)$ to say that $(x, y) \in R$. If $X$, $Y$ are $T$-algebras, then $R$ is an internal relation in $T$-$Alg$ if the conditions $R(x_1, y_1) \wedge \ldots \wedge R(x_n, y_n)$, and $\theta(x_1, \ldots, x_n) = x$, $\theta(y_1, \ldots, y_n) = y$ for any $n$-ary operation $\theta$ of $T$, jointly imply $R(x, y)$. 
+
+The set-theoretic composite of two internal relations in $T$-$Alg$ is also an internal relation, and the equality relation is always internal, so we may (and will) apply ordinary set-theoretic reasoning in our proofs below. 
+
++-- {: .un_prop}
+######Proposition 1
+If $T$ is a Mal'cev theory, then any internal reflexive relation in $T$-$Alg$ is an internal equivalence relation. 
 =--
 
++-- {: .proof}
+######Proof
+If $t$ is a Mal'cev operation and $R$ is any internal reflexive relation on a $T$-algebra $X$, then $R$ is transitive because given $R(x, y) \wedge R(y, z)$, we infer $R(x, y) \wedge R(y, y) \wedge R(y, z)$, and this together with $t(x, y, y) = x$ and $t(y, y, z) = z$ gives $R(x, z)$ since $R$ is internal. Also $R$ is symmetric, because if $R(x, y)$, we infer $R(x, x) \wedge R(x, y) \wedge R(y, y)$, which together with $t(x, x, y) = y$ and $t(x, y, y) = x$ gives $R(y, x)$. 
+=-- 
+
++-- {: .un_prop}
+######Proposition 2
+If every internal reflexive relation is an internal equivalence relation, then the composite of any two internal equivalence relations is also an internal equivalence relation. 
+=--
+
++-- {: .proof} 
+######Proof
+The hypothesis is that internal reflexive relations and internal equivalence relations coincide. But (internal) reflexive relations are 
+clearly closed under composition: $\Delta = \Delta \circ \Delta \subseteq R \circ S$.  
+=-- 
+
++-- {: .un_prop}
+######Proposition 3
+If internal equivalence relations are closed under composition, then composition of internal equivalence relations is commutative. 
+=--
+
++-- {: .proof}
+######Proof 
+If $R$ and $S$ are equivalence relations and so is $S \circ R$, then 
+$$S \circ R = (S \circ R)^{op} = R^{op} \circ S^{op} = R \circ S,$$
+as desired. 
+=--
+
++-- {: .un_prop}
+######Proposition 4
+If composition of internal equivalence relations in $T$-$Alg$ is commutative, then the theory $T$ has a Mal'cev operation $t$. 
+=--
+
++-- {: .proof} 
+######Proof
+According to the yoga of (Lawvere) [[Lawvere theory|algebraic theories]], $n$-ary operations are identified with elements of $F(n)$, the free $T$-algebra on $n$ generators (more precisely, the Lawvere theory is the category opposite to the category of finitely generated free $T$-algebras). Thus we must exhibit a suitable element $t$ of $F(3)$. 
+
+Let $x, y, z$ be the generators of $F(3)$, and let $a, b$ be the generators of $F(2)$. Let $\phi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ and $y$ to $a$ and $z$ to $b$, and let $\psi$ be the unique algebra map $F(3) \to F(2)$ taking $x$ to $a$ and $y$ and $z$ to $b$. An operation $t \in F(3)$ is Mal'cev precisely when 
+
+$$\phi(t) = b \qquad \psi(t) = a$$ 
+
+Let $R$ be the equivalence relation on $F(3)$ given by the kernel pair of $\phi$, and let $S$ be the kernel pair of $\psi$. Then $R(x, y)$ and $S(y, z)$, so $(S \circ R)(x, z)$. Then, since composition of equivalence relations is assumed commutative, $(R \circ S)(x, z)$. This means there exists $t$ such that $S(x, t)$ and $R(t, z)$, or that $\psi(x) = \psi(t)$ and $\phi(t) = \phi(z)$. This completes the proof. 
+=--
+
+## Examples 
+
+* The theory of [[group]]s, where $t(x, y, z) = x y^{-1} z$, is Mal'cev. 
+
+* The theory of [[Heyting algebra]]s, where 
+$$t(x, y, z) = ((z \Rightarrow y) \Rightarrow x) \wedge ((x \Rightarrow y) \Rightarrow z),$$
+is Mal'cev. 
+
+* If $T$ is Mal'cev, and if $T \to T'$ is a morphism of algebraic theories, then $T'$ is Mal'cev. From this point of view, the theory of groups is Mal'cev because the theory of heaps is Mal'cev, and the theory of Heyting algebras is Mal'cev because the theory of [[cartesian closed category|cartesian closed]] [[meet-semilattice]]s is Mal'cev. 
+
+See also [[Mal'cev category]]. 
 
 ## References
 
