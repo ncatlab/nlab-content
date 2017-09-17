@@ -46,3 +46,9 @@ An introductory textbook on [[homotopy type theory]] and its use as a [[foundati
 
 
 category: reference
+
+[[!redirects HoTT Book]]
+[[!redirects The HoTT Book]]
+[[!redirects HoTT book]]
+[[!redirects The HoTT book]]
+[[!redirects the HoTT book]]
