@@ -33,7 +33,7 @@ The _monoid axiom_ is an extra condition on a [[monoidal model category]] that h
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 We say a [[monoidal model category]] satisfies the **monoid axiom** if every morphism that is obtained as a [[transfinite composition]] of [[pushout]]s of [[tensor product]]s of acyclic fibrations with any object is a weak equivalence.
@@ -44,7 +44,7 @@ This appears as [SchwedeShipley, def. 3.3.](#SchwedeShipley).
 
 ## Properties 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 Let $C$ be a 
@@ -61,7 +61,7 @@ Then if the monoid axiom hold for the set of generating acyclic cofibrations it 
 
 This is ([SchwedeShipley, lemma 3.5](#SchwedeShipley)).
 
-+-- {: .un_theorem #ExistenceOfModelstructureOnMonoids}
++-- {: .num_theorem #ExistenceOfModelstructureOnMonoids}
 ###### Theorem
 
 If a [[monoidal model category]] satisfies the monoid axiom and 
@@ -78,7 +78,7 @@ This is part of ([SchwedeShipley, theorem 4.1](#SchwedeShipley)).
 
 ## Examples
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Monoidal model categories thatt satisfy the monoid axiom (as well as the other conditions sufficient for the [above theorem](#ExistenceOfModelstructureOnMonoids) on the existence of transferred model structures on categories of monoids) include
