@@ -66,19 +66,30 @@ Special kinds of relations from $A$ to $B$ include:
 
 * [[functional relations]],
 * [[entire relations]],
-* [[equivalence relations]].
+* [[one-to-one relation]]s,
+* [[onto relation]]s.
 
-A [[function]] can be seen as a binary relation that is both functional and entire.
+Combinations of the above properties of binary relations produce:
+* [[functions]],
+* [[partial functions]],
+* [[injections]],
+* [[surjections]],
+* [[bijections]].
 
-Special kinds of binary relations on $A$ additionally include:
+Special kinds of binary relations on $A$ (so from $A$ to itself) additionally include:
+
 * [[reflexive relation|reflexive]] and [[irreflexive relation|irreflexive]] relations;
 * [[symmetric relation|symmetric]], [[antisymmetric relation|antisymmetric]], and [[asymmetric relation|asymmetric]] relations;
-* [[transitive relation]]s and [[comparison]]s;
-* left and right [[euclidean relation]]s;
+* [[transitive relations]] and [[comparisons]];
+* left and right [[euclidean relations]];
 * [[total relation|total]] and [[connected relation|connected]] relations;
 * [[extensional relation|extensional]] and [[well-founded relation|well-founded]] relations.
 
-Combinations of the above properties of binary relations produce [[equivalence relation]]s, [[apartness relation]]s, and the various kinds of [[order]]s.
+Combinations of the above properties of binary relations produce:
+* [[equivalence relations]],
+* [[partial equivalence relations]],
+* [[apartness relations]],
+* the various kinds of [[orders]] (which see).
 
 
 ### The $2$-poset of binary relations
@@ -100,7 +111,7 @@ As a [[function]] may be seen as a functional, entire relation, so the category 
 
 Most of the preceding makes sense in any [[category]] with enough [[products]]; giving rise to [[internal relation|internal relations]], for instance _[[congruences]]_ in the case of internal equivalence relations. 
 
-Probably the trickiest bit is the definition of [[composition]] of binary relations, so not every category with [[finite products]] has an [[allegory]] of relations.  In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [[regular category|regular]].  It can then be recovered from this allegory by looking at the functional and entire relations.
+Probably the trickiest bit is the definition of [[composition]] of binary relations, so not every category with [[finite products]] has an [[allegory]] of relations.  In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [[regular category|regular]].  It can then be recovered from this allegory by looking at the functional entire relations.
 
 
 [[!redirects relation]]
