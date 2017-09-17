@@ -71,7 +71,7 @@ $$
   \,.
 $$
 
-(Really on the left we have the $\infty$-groupoidification of that [[∞-category]], but since $Bord_{(\infty,\infty)}$ has duals for [[k-morphism]]s for _all_ $k$, it should already be an $\infty$-groupoid).
+Really on the left we have the $\infty$-groupoidification of that [[∞-category]], but since $Bord_{(\infty,\infty)}$ has duals for [[k-morphism]]s for _all_ $k$, it is already itself an $\infty$-groupoid: the [[Thom spectrum]]. See ([Francis](#Francis)).
 
 Hence the cobordism ring in degree $n$ is the [[decategorification]] of the $n$-fold [[loop space object|looping]] of the $\infty$-category of cobordisms.
 
@@ -86,8 +86,9 @@ An useful review of the central definitions and theorems about the cobordism rin
 A discussion of its relation to the Thom spectrum and the [[(∞,n)-category of cobordisms]] for $n = \infty$ is in
 
 * [[John Francis]], _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
+ {#Francis}
 
-On [[fibered cobordsism groups]]:
+On [[fibered cobordism groups]]:
 
 * Astey, Greenberg, Micha, Pastor, _Some fibered cobordisms groups are not finitely generated_ ([pdf](http://www.ams.org/journals/proc/1988-104-01/S0002-9939-1988-0958093-3/S0002-9939-1988-0958093-3.pdf))
 
