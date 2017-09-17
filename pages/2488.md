@@ -237,31 +237,63 @@ If $X \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-trunca
 
 ### In $\infty Grpd$ and in $Top$ {#InInfGrpd}
 
-An object in [[∞Grpd]] is $n$-truncated precisely if it is an [[n-groupoid]].
+An object in [[∞Grpd]] is $n$-truncated precisely if it is an [[n-groupoid]]. To some extent this is so by definition. Equivalently, an object in [[Top]] is $n$-truncated if it is (in the equivalence class of) a [[homotopy n-type]].
 
-Equivalently, an object in [[Top]] is $n$-truncated if it is (in the equivalence class of) a [[homotopy n-type]].
-
-When [[∞-groupoid]]s are modeled as [[Kan complex]]es, then an object $X \in \infty Grpd$ is $n$-truncated precisely if it is [[coskeleton|n-coskeletal]]. 
-
-> the following needs to be checked and better supported
-
-The truncation adjunction
+So we have for $n \in \mathbb{N}$ a [[reflective sub-(∞,1)-category]]
 
 $$
-  \infty Grpd_{\leq n} \stackrel{\overset{\tau_{\leq n}}{\leftarrow}}{\hookrightarrow}
+  n Grpd \stackrel{\overset{\tau_{\leq n}}{\leftarrow}}{\hookrightarrow}
   \infty Grpd
+  \,.
 $$
 
-is modeled by the [[simplicial skeleton|simplicial coskeleton]] operation
+
+
++-- {: .un_lemma}
+###### Observation
+
+If we model the [[(∞,1)-category]] [[∞Grpd]] as the [[Kan complex]]-[[enriched category]]/fibrant [[simplicial category]] $KanCplx \subset $ [[sSet]] of [[Kan complex]]es, then the truncation adjunction
 
 $$
+  (\tau_{\leq n } \dashv i)
+  :
+  n Grpd \stackrel{\overset{\tau_{\leq n}}{\leftarrow}}{\hookrightarrow}
+  \infty Grpd
+  \,.
+$$
+
+is modeled by the [[simplicial skeleton|simplicial coskeleton]] [[sSet]]-enriched adjunction
+
+$$
+  (tr_{n+1} \dashv cosk_{n+1})
+  :
   KanCplx_{n+1} \stackrel{\overset{tr_{n+1}}{\leftarrow}}{\underset{cosk_{n+1}}{\to}}
   KanCplx
+  \,,
 $$
 
-on $KanCplx \subset$ [[sSet]].
+where $KanCplx_{n+1}$ is the subcategory of $[\Delta^{op}_{\leq n+1}, Set]$ on those truncated simplicial sets that are truncations of Kan complexes, regarded as a Kan-complex-enriched category by the embedding via $cosk_{n+1}$.
 
-The map $X \to \tau_{\leq n} X$ is the unit of the [[coskeleton]] $X \to \mathbf{cosk}_{n+1} X$.
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Notice that every [[Kan complex]] $X$ which is $n$-truncated is homotopy equivalent to one in the image of $cosk_{n+1}$, namely to $cosk_{n+1} tr_{n+1} X$, because by one of the [properties](http://ncatlab.org/nlab/show/simplicial+skeleton#Truncation) of $cosk_{n+1}$ we have that the unit 
+
+$$
+  X \to cosk_{n+1} tr_{n+1} X
+$$
+
+induces isomorphisms on homotopy groups $\pi_k$ for $k \leq n$.  
+
+This shows that $KanCplx_{n+1}$ is indeed a full [[sub-(∞,1)-category]] of $KanCplx$ on $n$-truncated objects  
+
+Moreover, by the fact discussed at <a href="http://ncatlab.org/nlab/show/adjoint+(infinity%2C1)-functor#SimplicialAndDerived">Simplicial and derived adjunctions</a> at [[adjoint (∞,1)-functor]] we have that the [[sSet]]-enriched adjunction $(tr_{n+1} \dashv cosk_{n+1})$ on $KanCplx$ indeed presents a pair of [[adjoint (∞,1)-functor]]s on [[∞Grpd]]. So $tr_{n+1} : KanCplx \to KanCplx$ indeed presents the [[left adjoint]] $\tau_{\leq} : \infty Grpd \to n Grpd$ to the inclusion $n Grpd \hookrightarrow \infty Grpd$.
+
+=--
+
 
 
 ## References
