@@ -317,6 +317,11 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[supersymmetric quantum mechanics]]
 
+  * [[quantum logic]], [[quantum computing]]
+
+    * [[linear logic]], [[linear type theory]]
+
+  * [[finite quantum mechanics in terms of dagger-compact categories]]
 
 * [[quantum field theory]]
 
