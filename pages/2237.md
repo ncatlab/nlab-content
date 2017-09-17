@@ -250,9 +250,6 @@ Equivariant degree-2 $U(1)$-[[Lie group cohomology]] is discussed in
 
 
 [[!redirects Borel cohomology]]
-[[!redirects equivariant spectrum]]
-[[!redirects naive G-spectrum]]
-[[!redirects genuine G-spectrum]]
 
 [[!redirects equivariant cohomology theory]]
 [[!redirects equivariant cohomology theories]]
