@@ -303,6 +303,8 @@ For more details see [[semilattice of commutative subalgebras]].
 
 * [[Jordan-Lie-Banach algebra]]
 
+* [[Alfsen-Shultz theorem]]
+
 ## References
 
 *  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_. ([web](http://www.math.ntnu.no/~hanche/joa/))
@@ -315,3 +317,5 @@ _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams
 Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 
 1999.
 {#Koecher}
+
+[[!redirects Jordan algebras]]
