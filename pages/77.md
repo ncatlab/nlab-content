@@ -112,6 +112,18 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 * [[super Poincare Lie algebra]]
 
 
+## Related concepts
+
+* **Lie algebra**,  [[Lie group]]
+
+* [[Lie 2-algebra]], [[Lie 2-group]]
+
+* [[L-∞ algebra]], [[smooth ∞-group]]
+
+* [[Lie algebroid]], [[Lie groupoid]]
+
+* [[L-∞ algebroid]], [[smooth ∞-groupoid]]
+
 
 ## References
 
