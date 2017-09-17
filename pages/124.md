@@ -171,12 +171,16 @@ For various applications one uses toposes that have [[stuff, structure, property
 
 ## References {#References}
 
-Introductions include 
+### Introductions
+
+Introductions to [[topos theory]] include 
 
 * [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
 
 * [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010)
 
+
+### Textbooks
 
 A standard textbook is
 
@@ -198,6 +202,32 @@ There is also
 
 * R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983).
 
+
+
+
+
+
+A gentle basic introduction is 
+
+* [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
+
+A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+
+
+A survey is in
+
+* [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
+
+
+### Course notes
+
+* [[Ieke Moerdijk]], [[Jaap van Oosten]], _Topos theory_ Master Class notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf))
+
+### History
+
+* [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825))
 
 
 [[!redirects topos]]
