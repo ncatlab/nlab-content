@@ -42,7 +42,7 @@ We can also use [[higher category theory|higher categories]] instead of mere cat
 
 The idea of the [[large category]] $SET$ as the universe of mathematics has an analogue in pre-category-theoretic [[material set theory]].  The __von Neumann universe__ $V$ is the [[proper class]] of all [[axiom of foundation|well-founded]] [[pure sets]].
 
-More explicitly: for every [[ordinal number]] $\alpha$, we have a [[set]] $V_\alpha$ (the von Neumman universe of __rank__ $\alpha$), defined [[recursion|recursively]] using the operations of [[power set]] and (material) [[union]] as
+More explicitly: for every [[ordinal number]] $\alpha$, we have a [[set]] $V_\alpha$ (the von Neumann universe of __rank__ $\alpha$), defined [[recursion|recursively]] using the operations of [[power set]] and (material) [[union]] as
 $$ V_\alpha \coloneqq \bigcup_{\beta \lt \alpha} \mathcal{P}V_\beta .$$
 Then $V$ itself is the union of all of the $V_\alpha$.
 
