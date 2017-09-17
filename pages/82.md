@@ -1,8 +1,4 @@
 <div class="rightHandSide toc">
-[[!include mathematicscontents]]
-***
-[[!include category theory - contents]]
-***
 [[!include topos theory - contents]]
 </div>
 
