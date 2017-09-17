@@ -23,6 +23,8 @@ The nontrivial apsect of the definition of algebraic Kan complexes is that they 
 
 ## Definition
 
+
+
 An **algebraic Kan complex** is a [[Kan complex]] equipped with a _choice_ of [[horn]] fillers for all horns.
 
 A morphism of algebraic Kan complexes is a morphism of the underlying Kan complexes that sends chosen fillers to chosen fillers.
@@ -36,6 +38,8 @@ A slight variant of this definition is that of a [[simplicial T-complex]].
 
 ## Properties
 
+### Monadicity
+
 The category $Alg Kan$ is the category of algebras over a [[monad]]
 
 $$
@@ -43,7 +47,11 @@ $$
   \,.
 $$
 
-([Nikolaus, section 2.2](#Nikolaus)) This means that algebraic Kan complexes are formally an _algebraic model_ for higher categories.
+This means that algebraic Kan complexes are formally an _algebraic model_ for higher categories.
+
+See [[model structure on algebraic fibrant objects]] for details.
+
+### Homomtopy hypothesis-theorem
 
 The [[homotopy hypothesis]] is true for algebraic Kan complexes: 
 
@@ -56,7 +64,9 @@ $$
   \,,
 $$
 
-to the standard [[model structure on topological spaces]], where the [[left adjoint]] $|-|$ is [[geometric realization]] of the underlying Kan complexes and $\Pi_\infty$ is a version of the [[fundamental ∞-groupoid]]-functor with values in algebraic Kan complexes. ([Nikolaus, section 3.3](#Nikolaus))
+to the standard [[model structure on topological spaces]], where the [[left adjoint]] $|-|$ is [[geometric realization]] of the underlying Kan complexes and $\Pi_\infty$ is a version of the [[fundamental ∞-groupoid]]-functor with values in algebraic Kan complexes. 
+
+See <a href="http://ncatlab.org/nlab/show/homotopy+hypothesis#ForKanComplexes">homotopy hypothesis -- for algebraic Kan complexes</a> for details.
 
 ## References
 
