@@ -13,21 +13,45 @@ In [[quantum mechanics]], the _Kochen-Specker theorem_ -- developed in 1967 by [
 
 ## Kochen-Specker theorem
 
-Let $\mathbb{H}$ be a separable complex Hilbert space and $\Sigma$ be a collection of observables.  We define $\mu: \Sigma \to \mathbb{R}$ to be a map that assigns a definite value to an observable.  Consider the following two "properties" of $\mu$: 
++-- {: .un_defn}
+###### Definition
 
-* Property 1: The values of the observables are well-determined at any time, i.e. $\mu$ is a total map. 
+Let _A_ be a physical quantity represented by a self-adjoint operator $\hat{A}$ on the Hilbert space $\mathcal{H}$ of the system.  A**valuation** is defined to be a real-valued function $\lambda$ on the set of all bounded, self-adjoint operators.  This function has the following two properties:
 
-* Property 2: If $U_{0}, U_{1}, U_{2} \in \Sigma$ are compatible then, $U_{2} = U_{0} + U_{1} \longrightarrow \mu(U_{2}) = \mu(U_{0}) + \mu(U_{1})$ (the **sum rule**) and $U_{2} = U_{0}U_{1} \longrightarrow \mu(U_{2}) = \mu(U_{0})\mu(U_{1})$ (the **product rule**).
+1. the value $\lambda(\hat{A})$ belongs to the spectrum of $\hat{A}$; and
 
-**Theorem** _Let $\mathbb{H}$ be a separable Hilbert space of dimension at least 3.  Then there exists a collection of observables $\Sigma$ such that Properties 1 and 2 cannot hold simultaneously._
+2. the [[functional composition principle]] (FUNC) holds, i.e. $\lambda(\hat{B})=h(\lambda(\hat{A}))$, for any pair of self-adjoint operators $\hat{A}$, $\hat{B}$ such that $\hat{B}=h(\hat{A})$ for some real-valued function, _h_.
 
-+--{: .query}
-[[Ian Durham]]: Should I have worded this more in line with how Isham presents it in the classical sense so we have more continuity with the next section?
 =--
+
+Note that is $\hat{A}_{1}$ and $\hat{A}_{2}$ commute, it follows from the spectral theorem that there exists an operator $\hat{C}$ and functions $h_{1}$ and $h_{2}$ such that $\hat{A}_{1}=h_{1}(\hat{C})$ and $\hat{A}_{2}=h_{2}(\hat{C})$.  It follows from FUNC that
+
+$$
+  \lambda(\hat{A}_{1} + \hat{A}_{2}) = \lambda(\hat{A}_{1}) + \lambda(\hat{A}_{2})
+$$
+
+and
+
+$$
+  \lambda(\hat{A}_{1}\hat{A}_{2})=\lambda(\hat{A}_{1})\lambda(\hat{A}_{2}).
+$$
+
++-- {: .un_theorem}
+###### Kochen-Specker theorem 
+
+No valuations exist if dim($\mathcal{H}$)>2.
+
+=--
+
+### Consequences
+
+If a valuation _did_ exist and was restricted to a commutative sub-algebra of operators, it would be an element of the [[spectrum]] of the algebra.  Since such elements _do_ exist, valuations must exist on any commutative sub-algebra of operator but not on the _non_-commutative algebra, $\mathcal{B}(\mathcal{H})$, of all bounded operators.  Isham calls these valuations _local_.
 
 ## Sheaf-theoretic interpretation
 
-Isham has shown that the Kochen-Specker theorem is equivalent to the statement that there the spectral presheaf has no global elements.
+Isham has shown that the Kochen-Specker theorem is equivalent to the statement that the spectral presheaf has no global elements.
+
+## Contextuality
 
 ## References
 
