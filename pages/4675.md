@@ -500,7 +500,7 @@ $$
   \tilde B := \int_{[0,1]} \iota_{\partial_t} \Psi_t^*(H - CS(A)-C)
 $$
 
-satisfies $d \tilde B = (H - CS(A) - C)$. It may howver not coincide with our given $B$ at $t = 0$. But the difference $B - \tilde B|_{t = 0}$ is a closed form on the left boundary of the cylinder. We may find some closed 2-form on the other boundary such that the integral around the boundary vanishes. Then the argument from the proof of the [[Lie integration]] of the [[line Lie n-algebra]] applies and we find an extension $\lambda$ to a closed 2-form on the interior. The sum
+satisfies $d \tilde B = (H - CS(A) - C)$. It may however not coincide with our given $B$ at $t = 0$. But the difference $B - \tilde B|_{t = 0}$ is a closed form on the left boundary of the cylinder. We may find some closed 2-form on the other boundary such that the integral around the boundary vanishes. Then the argument from the proof of the [[Lie integration]] of the [[line Lie n-algebra]] applies and we find an extension $\lambda$ to a closed 2-form on the interior. The sum
 
 $$
   \hat B := \tilde B + \lambda
@@ -524,7 +524,7 @@ $$
 
 starts out differently, due to the presence of $\mathbf{cosk}_3$, but it then ends up amounting to the same kind of argument:
 
-We have four funtions $U \to \mathbb{R}/\mathbb{Z}$ which we may realize as the [[fiber integration]] of a 3-form $H$ on $U \times (\partial \Delta[4] \setminus \delta_i \Delta[3])$,
+We have four functions $U \to \mathbb{R}/\mathbb{Z}$ which we may realize as the [[fiber integration]] of a 3-form $H$ on $U \times (\partial \Delta[4] \setminus \delta_i \Delta[3])$,
 and we have a lift to $(A,B,C, H)$-data on $U \times (\partial \Delta[4]\setminus \delta_i(\Delta[3]))$ (the boundary of the 4-simplex minus one of its 3-simplex faces). 
 
 We observe that we can 
