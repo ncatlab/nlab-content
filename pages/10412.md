@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[scattering amplitudes]] in [[Yang-Mills theory]] are traditionally expressed as sums of tendentially very many [[Feynman diagrams]], which in turn are [[integrals]] over certain [[algebraic functions]]. At least in  highly [[supersymmetry|supersymmetric]] versions of [[Yang-Mills theory]] such as [[N=4 D=4 super Yang-Mills theory]] this can be expressed more efficiently as fewer [[integrals]] of some integrand over some [[domain]] of certain convex [[polyhedra]] inside a [[positive Grassmanian]] (which is an infinite dimensional space related to the study of the phenomenon of [[total positivity]]). Therefore this has been called the _amplituhedron_ ([Arkani-Hamed & Trnka13](#ArkaniHameTrnka13)).
+The [[scattering amplitudes]] in [[Yang-Mills theory]] are traditionally expressed as sums of tendentially very many [[Feynman diagrams]], which in turn are [[integrals]] over certain [[algebraic functions]]. At least in  highly [[supersymmetry|supersymmetric]] versions of [[Yang-Mills theory]] such as [[N=4 D=4 super Yang-Mills theory]] this can be expressed more efficiently (see [Dixon 13](#Dixon13) for a review of the general method) as fewer [[integrals]] of some integrand over some [[domain]] of certain convex [[polyhedra]] inside a [[positive Grassmanian]] (which is an infinite dimensional space related to the study of the phenomenon of [[total positivity]]). Therefore this has been called the _amplituhedron_ ([Arkani-Hamed & Trnka13](#ArkaniHameTrnka13)).
 
 In slightly more detail, the scattering amplitudes in [[N=4 D=4 super Yang-Mills theory]] can be given as functions of  $4n$ real variables, the [[momenta]] of $n$ scattering [[particles]], and at loop number $\ell$ they are given by $4 \ell$-fold integrals of [[algebraic functions]] of $4n+4 \ell$ real variables. (When $\ell=0$, then ([ABCGPT 12, sections 16.4](#ABCGPT12)) claims that all the [[Galois conjugates]] of the [[algebraic function]] occur symmetrically; so that one indeed has [[rational functions]].)
 
@@ -29,7 +29,12 @@ See also at [[motives in physics]]
 
 ## References
 
-For a good general introduction of the background see
+A review of the history and background is in 
+
+* [[Lance Dixon]], _Calculuating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+ {#Dixon13}
+
+For a good more technical general introduction of the background see
 
 * Henriette Elvang, Yu-tin Huang, _Scattering Amplitudes_ ([arXiv:1308.1697](http://arxiv.org/abs/1308.1697))
 
