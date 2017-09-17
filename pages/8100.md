@@ -165,7 +165,7 @@ Lecture notes along these lines are in _[Lagrangians and Action functionals -- 3
 
 * _[[geometry of physics]]_ .
 
-The [[KK-theory]]-description of the FEW anomaly used above is discussed in 
+The [[KK-theory]]-description of the FEK anomaly used above is discussed in 
 
 * [[Joost Nuiten]], Master thesis, 2013
  {#Nuiten}
