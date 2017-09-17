@@ -33,6 +33,8 @@ Commutative monoids with [[homomorphisms]] between them form a _[[category of co
 
 ## Related concepts
 
+* [[CMon]]
+
 * [[category of monoids]]
 
 * [[cocommutative comonoid]]
