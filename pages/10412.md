@@ -17,7 +17,7 @@
 
 The [[scattering amplitudes]] in [[Yang-Mills theory]] are traditionally expressed as sums of tendentially very many [[Feynman diagrams]], which in turn are [[integrals]] over certain [[algebraic functions]]. At least in  highly [[supersymmetry|supersymmetric]] versions of [[Yang-Mills theory]] such as [[N=4 D=4 super Yang-Mills theory]] this can be expressed more efficiently as fewer [[integrals]] of some integrand over some [[domain]] of certain convex [[polyhedra]] inside a [[positive Grassmanian]] (which is an infinite dimensional space related to the study of the phenomenon of [[total positivity]]). Therefore this has been called the _amplituhedron_ ([Arkani-Hamed & Trnka13](#ArkaniHameTrnka13)).
 
-In slightly more detail, the scattering amplitudes in [[N=4 D=4 super Yang-Mills theory]] can be given as functions of  $4n$ real variables, the [[momenta]] of $n$ scattering [[particles]], and at loop numer $\ell$ they are given by $4 \ell$-fold integrals of [[algebraic functions]] of $4n+4 \ell$ real variables. (When $\ell=0$, then ([ABCGPT 12, sections 16.4](#ABCGPT12)) claims that all the [[Galois conjugates]] of the [[algebraic function]] occur symmetrically; so that one indeed has [[rational functions]].)
+In slightly more detail, the scattering amplitudes in [[N=4 D=4 super Yang-Mills theory]] can be given as functions of  $4n$ real variables, the [[momenta]] of $n$ scattering [[particles]], and at loop number $\ell$ they are given by $4 \ell$-fold integrals of [[algebraic functions]] of $4n+4 \ell$ real variables. (When $\ell=0$, then ([ABCGPT 12, sections 16.4](#ABCGPT12)) claims that all the [[Galois conjugates]] of the [[algebraic function]] occur symmetrically; so that one indeed has [[rational functions]].)
 
 This formulation is typically a drastic improvement of computational complexity for fixed $k$ ([[helicity]]) and fixed $\ell$ (loop number) but variable $n$. The [[Feynman diagram]] description is exponential in $n$, while the complexity of the amplituhedron description grows much more mildly.
 
@@ -34,7 +34,7 @@ For a good general introduction of the background see
 * Henriette Elvang, Yu-tin Huang, _Scattering Amplitudes_ ([arXiv:1308.1697](http://arxiv.org/abs/1308.1697))
 
 
-For scattering amplitudes via the "amplituhedron" the integrand is disucssed in
+For scattering amplitudes via the "amplituhedron" the integrand is discussed in
 
 * [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, [[Alexander Goncharov|Alexander B. Goncharov]], [[Alexander Postnikov]], Jaroslav Trnka, _Scattering amplitudes and the positive Grassmannian_, [arxiv/1212.5605](http://arxiv.org/abs/1212.5605) 
  {#ABCGPT12}
@@ -52,7 +52,7 @@ Earlier lecture notes and announcements include
 
 Informed online discussion includes 
 
-* Logan Mainge on MathOverflow [here](http://mathoverflow.net/questions/142841/the-amplituhedron-minus-the-physics/143421#143421) 
+* Logan Maingi on MathOverflow [here](http://mathoverflow.net/questions/142841/the-amplituhedron-minus-the-physics/143421#143421) 
 
 * David Speyer [here](http://www.scottaaronson.com/blog/?p=1537#comment-88216)
 
