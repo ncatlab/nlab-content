@@ -45,7 +45,7 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 +-- {: .num_remark #1} 
 ###### Result
-The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
+The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ (i.e., the set-theoretic image with the subspace topology inherited from $Y$) is connected.
 =-- 
 
 +-- {: .num_remark #2} 
