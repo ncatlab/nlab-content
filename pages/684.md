@@ -33,6 +33,8 @@ $$
 
 ### Remarks
 
+Since $\mathbf{C}(X,-)$ commutes with homotopy limits, one has a natural homotopy equivalence $\Omega\mathbf{C}(X,Y)\simeq \mathbf{C}(X,\Omega Y)$, for any two objects $X$ and $Y$ in $\mathbf{C}$.
+
 See also 
 
 * [[fibration sequence]]
