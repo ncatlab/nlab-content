@@ -114,16 +114,16 @@ Let $\Delta_+ \hookrightarrow \Delta$ be the [[subcategory]] of the [[simplex ca
 For $G^\bullet \to H^\bullet$ a degreewise weak equivalence of [[strict 2-category|strict]] [[2-groupoid]]s, the resulting morphism of connected components of [restricted totalizations](#RestrictedTotalization)
 
 $$
-  \pi_0 rTot(G^\bullet) \to \pi_0 rTot(H^\bullet)
+  rTot(G^\bullet) \to rTot(H^\bullet)
 $$
 
-is an [[isomorphism]].
+is [[weak equivalence]].
 
 =--
 
-This is ([Prezma, corollary 6.2](#Prezma)).
+This is ([Prezma, theorem 6.1](#Prezma)).
 
-A similar statement also appeats as ([Yekutieli, theorem 2.4](#Yekutieli)), but it is necessary to use the restricted totalization instead of the ordinary totalization.
+(A similar statement also appears as ([Yekutieli, theorem 2.4](#Yekutieli)), but it is necessary to use the restricted totalization instead of the ordinary totalization.)
 
 
 ## References
