@@ -5,7 +5,7 @@
 
 ## Idea
 
-The notion of [[motives]] in algebraic geometry can be adapted to derived [[noncommutative geometry]]. Such a theory has been developed by [[Maxim Kontsevich]]. There is a remarkable observation that the [[category of Chow motives]] (after localizing at the [[Lefschetz motive]]) can be embedded into the category of noncommutative motives. More recently this direction has been systematically studied by Cisinski and Tabuada. 
+The notion of [[motives]] in algebraic geometry can be adapted to derived [[noncommutative geometry]]. The idea and the first version has been developed by [[Maxim Kontsevich]]. There is a remarkable observation that the [[category of Chow motives]] (after localizing at the [[Lefschetz motive]]) can be embedded into the category of Kontsevich's noncommutative motives. More recently this direction has been systematically studied by Cisinski and Tabuada. 
 
 There is another approach by [[Arne Ostvaer]].
 
@@ -79,12 +79,14 @@ A survey is in
 * [[Goncalo Tabuada]], _A guided tour through the garden of noncommutative motives_, ([arxiv1108.3787](http://arxiv.org/abs/1108.3787));
  {#Tabuada11} 
 
-Discussion of [[Maxim Kontsevich]]'s definition of noncommutative motives include
+Discussion of [[Maxim Kontsevich]]'s definition of 
+noncommutative motives include
 
-* [[Maxim Kontsevich]], _Noncommutative motives_, talk at the conference on Pierre Deligne's 61st birthday ([pdf notes](http://www.ihes.fr/~maxim/TEXTS/ncmotives+(Skoda+notes).pdf) by [[Zoran Skoda]])
+* [[Maxim Kontsevich]], _Noncommutative motives_, talk at the conference on Pierre Deligne's 61st birthday (<a href="http://www.ihes.fr/~maxim/TEXTS/ncmotives+(Skoda+notes).pdf">pdf</a> of part of the talk, notes by [[Zoran Skoda]])
 
-* [[Maxim Kontsevich]], _Geometry and Arithmetic - Non-commutative motives_, talk at  Institute for Advanced Study
-October 20, 2005 ([video](http://video.ias.edu/Geometry-and-Arithmetic-Kontsevich))
+* [[Maxim Kontsevich]], _Geometry and Arithmetic - Non-commutative motives_, talk at  Institute for Advanced Study October 20, 2005 ([video](http://video.ias.edu/Geometry-and-Arithmetic-Kontsevich))
+
+The following article has the treatment of $A_\infty$-categories representing smooth, proper, separated etc. noncommutative varieties, notions which are used in Kontsevich's approach to motives in the above talks. 
 
 * [[Ludmil Katzarkov]], [[Maxim Kontsevich]], [[Tony Pantev]], _Hodge theoretic aspects of mirror symmetry_, in [[Ron Donagi]] and [[Katrin Wendland]] (eds.) _From Hodge theory to integrability  and TQFT: $tt^\ast$-geometry_, Proceedings of Symposia in Pure Mathematics vol. 78 (2008), 87-174 ([arXiv:0806.0107](http://arxiv.org/abs/0806.0107))
 
