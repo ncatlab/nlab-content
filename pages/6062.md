@@ -62,7 +62,7 @@ See [Pridham](#Pridham)
 There is a [[Quillen equivalence]]
 
 $$
-  dgCoAlg(k) \simeq DG_{\matzhbb{Z}}Sp(k)
+  dgCoAlg(k) \simeq DG_{\mathbb{Z}}Sp(k)
   \,.
 $$
 
@@ -73,7 +73,7 @@ $$
 +-- {: .num_prop #RightProperness}
 ###### Proposition
 
-The model category $DG_{\matzhbb{Z}}Sp(k)$, def. \ref{DGSp}, is a [[right proper model category]].
+The model category $DG_{\mathbb{Z}}Sp(k)$, def. \ref{DGSp}, is a [[right proper model category]].
 
 =--
 
