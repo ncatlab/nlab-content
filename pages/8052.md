@@ -1,0 +1,1 @@
+* [Wikipedia page](http://en.wikipedia.org/wiki/Excision_theorem)
