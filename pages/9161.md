@@ -1,0 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+The [[waves]] of the [[electromagnetic field]] in [[vaccuum]] [[electromagnetism]] are called _light_ (at least those within a certain [[frequency range]]): light is electromagentic [[radiation]]. 
+
+The [[quanta]] of light are [[photons]].
+
