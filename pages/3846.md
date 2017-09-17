@@ -16,7 +16,7 @@ such that, putting $N(v) = \langle v, v \rangle$,
 
 * $N(u) N(v) = N(u v)$ (writing $u v$ for $u \cdot v$). 
 
-There are no assumptions on the multiplication such as associativity, commutativity, etc. Examples of composition algebras include the real numbers, the complex numbers, the quaternions, and the octonions. 
+There are no assumptions on the multiplication such as associativity, commutativity, etc. Examples of composition algebras include the real numbers, the complex numbers, the quaternions, the octonions, and the algebra of $2 \times 2$ matrices over a field. 
 
 Since $char(k) \neq 2$, we can recover the bilinear form from the norm by the formula 
 
@@ -76,13 +76,13 @@ In any composition algebra, we may define a **conjugation** operator by
 
 $$\bar{v} = 2\langle v, e \rangle e - v$$
 
-Observe that $\bar{v} = v$ just when $v$ is a scalar multiple of the identity. By analogy with the classical case (composition algebras over $\mathbb{R}$), such elements will be called "real". 
+Observe that $\bar{v} = v$ just when $v$ is a scalar multiple of the identity. By analogy with the classical case (composition algebras over $\mathbb{R}$), such elements will be called **real**. 
 
 The next few propositions develop properties of conjugation. 
 
 +-- {: .un_prop}
 ######Proposition (Adjointness)
-$\langle u v, w \rangle = \langle v, \bar{u}w \rangle$ and $\langle u v, w \rangle = \langle u, w\bar{v} \rangle$
+$\langle u v, w \rangle = \langle v, \bar{u}w \rangle$ and $\langle u v, w \rangle = \langle u, w\bar{v} \rangle$. $\langle w, u v \rangle = \langle \bar{u} w, v \rangle$ and $\langle w, u v \rangle = \langle w\bar{v}. u \rangle. 
 =-- 
 
 +-- {: .proof}
@@ -91,7 +91,7 @@ Put $x = e$ in the exchange identity to get the first equation in
 
 $$\langle u v, w \rangle = 2\langle u, w \rangle \langle v, e \rangle - \langle u, w v \rangle = \langle u, w(2\langle v, e\rangle e - v)\rangle = \langle u, w\bar{v} \rangle$$
 
-The other adjointness equation is proved similarly. 
+The second adjointness equation is proved similarly; the final two come from symmetry of the form.  
 =--
 
 +-- {: .un_prop} 
@@ -192,7 +192,7 @@ and the form on $V$ restricts to a nondegenerate form on $W^\perp$.
 
 +-- {: .proof}
 ######Proof
-The fact that $W \cap W^\perp = \{0\}$ is immediate from nondegeneracy of the form on $W$, and that $W + W^\perp = V$ follows from this and a simple dimension count ($dim(W^\perp) = dim((V/W)^*) = dim(V/W)$ and $dim(V) = dim(W) + dim(V/W)$). For the second assertion, we know that for $v \in W^\perp$, the map $\langle v, - \rangle |_W: W \to k$ is zero; if also $\langle v, - \rangle |_{W^\perp}: W^\perp \to k$ is zero, then $\langle v, - \rangle: V \to k$ is zero because $V = W + W^\perp$, and $v = 0$ follows from nondegeneracy of the form on $V$. 
+The fact that $W \cap W^\perp = \{0\}$ is immediate from nondegeneracy of the form on $W$, and that $W + W^\perp = V$ follows from this and the fact that $dim(W) + dim(W^\perp) = dim(V)$ (use $dim(W^\perp) = dim((V/W)^*) = dim(V/W)$ and $dim(V) = dim(W) + dim(V/W)$). For the second assertion, we know that for $v \in W^\perp$, the map $\langle v, - \rangle |_W: W \to k$ is zero; if also $\langle v, - \rangle |_{W^\perp}: W^\perp \to k$ is zero, then $\langle v, - \rangle: V \to k$ is zero because $V = W + W^\perp$, and $v = 0$ follows from nondegeneracy of the form on $V$. 
 =-- 
 
 Thus, given a composition algebra $V$ and a composition subalgebra $W$ of $V$ (that is, a subspace closed under identity and multiplication, such that the norm on $V$ restricts to a nondegenerate form on $W$), the proposition shows there exists $\alpha \in W^\perp$ such that $N(\alpha) \neq 0$. This $\alpha$ is invertible, so $\alpha \cdot W$ has the same dimension as $W$. Moreover, for all $v, w \in W$ we have 
@@ -212,7 +212,7 @@ $$\langle u + \alpha v, w + \alpha x \rangle = \langle u, w \rangle + \lambda \l
 
 +-- {: .proof}
 ######Proof
-This follows from the identities 
+This follows from the equations 
 
 $$\langle u, \alpha x \rangle = \langle u \bar{x}, \alpha \rangle = 0 \qquad \langle \alpha v, w \rangle = \langle \alpha, w \bar{v} \rangle = 0 \qquad \langle \alpha v, \alpha x \rangle = N(\alpha)\langle v, x \rangle$$ 
 
@@ -331,8 +331,7 @@ $$N(u + e) = N(u) + N(e) = -1 + 1 = 0$$
 which contradicts the assumption that all nonzero elements are invertible.
 =--
 
-Now let $V$ be a division composition algebra, with $V = W + \alpha W$, with $0 \neq \alpha \in W^\perp$. Put $j = \alpha/N(\alpha)^{1/2}$, so that 
-$N(j) = 1$, $j \perp W$, and $V = W + j W$. We have the following possibilities. 
+Now let $V$ be a division composition algebra, with $V = W + \alpha W$, where $0 \neq \alpha \in W^\perp$. Put $j = \alpha/N(\alpha)^{1/2}$, so that $N(j) = 1$, $j \perp W$, and $V = W + j W$. We have the following possibilities. 
 
 * $dim(V) = 2$. In that case $W$ is purely real and $V$ is a commutative field over $\mathbb{R}$ with $-j^2 = j\bar{j} = N(j) = 1$. This is of course the complex numbers, with 
 $$N(s + j t) = s^2 + t^2$$ 
@@ -352,7 +351,17 @@ Thus, we have established
 The only division composition algebras over $\mathbb{R}$ are the reals, complexes, quaternions, and octonions. 
 =-- 
 
+Now we turn to split composition algebras $V$. Suppose $V = W + \alpha W$, where $\alpha \in W^\perp$, $N(\alpha) \neq 0$. Put $j = \alpha/|N(\alpha)|^{1/2}$, so $|N(j)| = 1$, $V = W + j W$. We have the following possibilities. 
 
+* $dim(V) = 2$. In this case $N(j) = -1$ (else $V$ would be a division algebra, not a split composition algebra) and $j^2 = 1$ (we are now using $1$ to denote the identity). The elements 
+$$e_1 = \frac{1 + j}{2} \qquad e_2 = \frac{1-j}{2}$$ 
+are primitive idempotents, conjugate to one another, and $V \cong \mathbb{R} e_1 \oplus \mathbb{R} e_2$ as a product ring. The norm of an element $x e_1 + y e_2$ is $N(x e_1 + y e_2) = x y$. 
+
+* $dim(V) = 4$. Let $i$ be a pure imaginary of $W$, so $\bar{i} = -i$ and $|N(i)| = 1$. Here either $N(i) = -1$ ($W$ is split), or $N(i) = 1$ ($W$ is isomorphic to $\mathbb{C}$). In the second instance, $N(j) = -1$, else $V$ would be a division algebra, and we may replace $W$ by the split algebra $W' = \mathbb{R} + \mathbb{R} i j$ and still have $V = W' + j W'$. So without loss of generality we may assume $W$ is split; therefore, there is up to isomorphism only one split composition algebra of dimension 4. This is the algebra of $2 \times 2$ matrices $A$, for which $N(A) = det(A)$ and $W$ is embedded as the subalgebra of diagonal matrices; the element $j$ may be taken to be the matrix $A$ with $a_{11} = a_{22} = 0$, $a_{12} = a_{21} = 1$. The conjugate of a matrix $A$ is $\bar{A} = Tr(A)I - A$, which leads to the familiar formula for $det(A) A^{-1}$ when $A$ is invertible. 
+
+* $dim(V) = 8$. Again, by an argument similar to the one used for the case of dimension 4, we may assume a maximal proper composition subalgebra $W$ is split, and up to isomorphism there is only one split composition algebra of dimension 8. 
+
+## Moufang identities
 
 ## References
 
