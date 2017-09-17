@@ -24,12 +24,12 @@ There is also a similar concept of an [[oriented matroid]]; every oriented matro
 
 +-- {: .num_defn} 
 ###### Definition 
-A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $\mathbf{C}: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in \mathbf{C}(S \cup\{b\}) \cap \neg \mathbf{C}(S)$, then $b \in \mathbf{C}(S \cup\{a\}) \cap \neg \mathbf{C}(S)$. 
+A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $cl: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in cl(S \cup\{b\}) \cap \neg cl(S)$, then $b \in cl(S \cup\{a\}) \cap \neg cl(S)$. 
 =-- 
 
-Usually when combinatorialists speak of matroids as such, $X$ is taken to be a [[finite set]]. A typical example is $X$ some finite subset of a vector space $V$, taking $\mathbf{C}(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
+Usually when combinatorialists speak of matroids as such, $X$ is taken to be a [[finite set]]. A typical example is $X$ some finite subset of a vector space $V$, taking $cl(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
 
-Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $\mathbf{C}(T) \subset \mathbf{C}(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin \mathbf{C}(S\backslash \{x\})$ for every $x \in S$). Again under this definition, $S$ is a _basis_ if $\mathbf{C}(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $\mathbf{C}(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
+Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $cl(T) \subset cl(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin cl(S\backslash \{x\})$ for every $x \in S$). Again under this definition, $S$ is a _basis_ if $cl(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $cl(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
 
 +-- {: .num_prop #dim1} 
 ###### Proposition 
@@ -40,21 +40,21 @@ The cardinality of such a basis is called of course the _dimension_ of the matro
 
 +-- {: .proof} 
 ###### Proof 
-First, suppose $A$ is an independent set and $B$ is a finite basis, and suppose there are subsets $A_0 \subseteq A, B_0 \subseteq B$ such that $A_0 \cup B_0$ is a basis. We claim that for each $a \in A \backslash A_0$, there exists $b \in B_0$ such that $A_0 \cup \{a\} \cup (B_0 \backslash \{b\})$ is a basis. For, let $C \subseteq B_0$ be of minimum cardinality such that $a \in \mathbf{C}(A_0 \cup C)$; we know $C$ must be inhabited since $a \notin \mathbf{C}(A \backslash \{a\}) \supseteq \mathbf{C}(A_0)$; clearly $C \cap A_0 = \emptyset$. So let $b$ be an element of $C$. Since by minimality of $C$ we have  
+First, suppose $A$ is an independent set and $B$ is a finite basis, and suppose there are subsets $A_0 \subseteq A, B_0 \subseteq B$ such that $A_0 \cup B_0$ is a basis. We claim that for each $a \in A \backslash A_0$, there exists $b \in B_0$ such that $A_0 \cup \{a\} \cup (B_0 \backslash \{b\})$ is a basis. For, let $C \subseteq B_0$ be of minimum cardinality such that $a \in cl(A_0 \cup C)$; we know $C$ must be inhabited since $a \notin cl(A \backslash \{a\}) \supseteq cl(A_0)$; clearly $C \cap A_0 = \emptyset$. So let $b$ be an element of $C$. Since by minimality of $C$ we have  
 
-$$a \in \mathbf{C}(A_0 \cup (C \backslash \{b\}) \cup \{b\}) \cap \neg \mathbf{C}(A_0 \cup (C \backslash \{b\})),$$ 
+$$a \in cl(A_0 \cup (C \backslash \{b\}) \cup \{b\}) \cap \neg cl(A_0 \cup (C \backslash \{b\})),$$ 
 
-it follows from the exchange axiom that $b \in \mathbf{C}(A_0 \cup (C \backslash \{b\}) \cup \{a\})$. Thus $b \in \mathbf{C}(A_0 \cup (B_0 \backslash \{b\}) \cup \{a\})$, whence 
+it follows from the exchange axiom that $b \in cl(A_0 \cup (C \backslash \{b\}) \cup \{a\})$. Thus $b \in cl(A_0 \cup (B_0 \backslash \{b\}) \cup \{a\})$, whence 
 
-$$\mathbf{C}(A_0 \cup (B_0 \backslash \{b\}) \cup \{a\}) = \mathbf{C}(A_0 \cup B_0 \cup \{a\}) = X$$ 
+$$cl(A_0 \cup (B_0 \backslash \{b\}) \cup \{a\}) = cl(A_0 \cup B_0 \cup \{a\}) = X$$ 
 
 so that $D \coloneqq A_0 \cup (B_0 \backslash \{b\}) \cup \{a\}$ "spans" $X$. Also $D$ is independent: if $x \in D$ and $x \neq a$, then 
 
-$$\mathbf{C}(D \backslash \{x\}) \subseteq \mathbf{C}((A_0 \cup B_0) \backslash \{x\})$$ 
+$$cl(D \backslash \{x\}) \subseteq cl((A_0 \cup B_0) \backslash \{x\})$$ 
 
-with neither side containing $x$ since $A_0 \cup B_0$ is independent; whereas if $x = a$ and supposing to the contrary that $a \in \mathbf{C}(D \backslash \{a\}) = \mathbf{C}((A_0 \cup (B_0 \backslash \{b\}))$, we conclude $A_0 \cup (B \backslash \{b\})$ has the same span as $D$. Since $D$ already spans, $b \in \mathbf{C}(A_0 \cup (B_0 \backslash \{b\}))$, again impossible since $A_0 \cup B_0$ is independent. This proves the claim. 
+with neither side containing $x$ since $A_0 \cup B_0$ is independent; whereas if $x = a$ and supposing to the contrary that $a \in cl(D \backslash \{a\}) = cl((A_0 \cup (B_0 \backslash \{b\}))$, we conclude $A_0 \cup (B \backslash \{b\})$ has the same span as $D$. Since $D$ already spans, $b \in cl(A_0 \cup (B_0 \backslash \{b\}))$, again impossible since $A_0 \cup B_0$ is independent. This proves the claim. 
 
-Again assuming $A$ independent and $B$ is a finite basis, now we show that $card(A) \leq card(B)$, which will finish the proof. Let $n = card(B)$, and suppose on the contrary that there are distinct elements $a_1, \ldots, a_{n+1} \in A$. Set $A_0 = \emptyset$ and $B_0 = B$. Applying the claim above inductively, we have that $\{a_1, \ldots, a_i\} \cup (B \backslash \{b_1, \ldots, b_i\})$ is a basis for $1 \leq i \leq n$, so in particular $\{a_1, \ldots, a_n\}$ spans $X$. Hence $a_{n+1} \in \mathbf{C}(\{a_1, \ldots, a_{n}\})$, contradicting the independence of $A$. 
+Again assuming $A$ independent and $B$ is a finite basis, now we show that $card(A) \leq card(B)$, which will finish the proof. Let $n = card(B)$, and suppose on the contrary that there are distinct elements $a_1, \ldots, a_{n+1} \in A$. Set $A_0 = \emptyset$ and $B_0 = B$. Applying the claim above inductively, we have that $\{a_1, \ldots, a_i\} \cup (B \backslash \{b_1, \ldots, b_i\})$ is a basis for $1 \leq i \leq n$, so in particular $\{a_1, \ldots, a_n\}$ spans $X$. Hence $a_{n+1} \in cl(\{a_1, \ldots, a_{n}\})$, contradicting the independence of $A$. 
 =-- 
 
 ## Examples 
@@ -63,27 +63,29 @@ Vector spaces, algebraic closures, graphs, restrictions, localizations, ...
 
 ## Model-theoretic geometry 
 
-Essentially the very same notion arises in model theory, except instead of being called a matroid it is called a "geometry". It arises in the study of geometry of strongly minimal sets, with applications to stability theory (i.e., Shelah's classification theory). 
+Essentially the very same notion arises in model theory, except instead of being called a matroid it is called a "pregeometry" or "geometry", and in contrast to combinatorialists, model theorists usually mean _infinite_ matroids. The notion arises in the study of geometry of strongly minimal sets, with applications to stability theory (part of Shelah's classification theory). 
 
 +-- {: .num_defn} 
 ###### Definition 
-A _pregeometry_ is a (possibly infinite) matroid (given by a set $X$ equipped with a closure operator $\mathbf{C}$) that is _[[algebraic lattice|algebraic]]_: for all $S \subseteq X$, if $x \in \mathbf{C}(S)$ then $x \in \mathbf{C}(S_0)$ for some finite subset $S_0 \subseteq S$. A **geometry** is a pregeometry such that $\mathbf{C}(\emptyset) = \emptyset$ and $\mathbf{C}(\{x\}) = \{x\}$ for every $x \in X$. 
+A _pregeometry_ is a (possibly infinite) matroid (given by a set $X$ equipped with a closure operator $cl$) that is _finitary_: for all $S \subseteq X$, if $x \in cl(S)$ then $x \in cl(S_0)$ for some finite subset $S_0 \subseteq S$. A **geometry** is a pregeometry such that $cl(\emptyset) = \emptyset$ and $cl(\{x\}) = \{x\}$ for every $x \in X$. 
 =-- 
+
+(See also [[geometric stability theory]].) 
 
 The language of independence, spanning, and basis carry over as before. A maximal independent set spans (i.e., is a basis), and maximal independent sets exist according to [[axiom of choice|Zorn's lemma]]. Again we have a notion of dimension by the following proposition. 
 
 +-- {: .num_prop #welldefined} 
 ###### Proposition 
-In a pregeometry $(X, \mathbf{C})$, any two bases have the same cardinality. 
+In a pregeometry $(X, cl)$, any two bases have the same cardinality. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
 We already [proved this](#dim1) in the case where the pregeometry has a finite basis. Otherwise, if $A$ is independent and $B$ is an infinite basis, then 
 
-$$A = A \cap X = A \cap \bigcup_{B_0 \subseteq B\; finite} \mathbf{C}(B_0) = \bigcup_{B_0 \subseteq B\; finite} A \cap \mathbf{C}(B_0)$$ 
+$$A = A \cap X = A \cap \bigcup_{B_0 \subseteq B\; finite} cl(B_0) = \bigcup_{B_0 \subseteq B\; finite} A \cap cl(B_0)$$ 
 
-where the second equality follows from the algebraicity condition. Since each summand $A \cap \mathbf{C}(B_0)$ on the right is finite by independence of $A$, the union has cardinality bounded above by $card(B)$. From $card(A) \leq card(B)$ it follows that any two bases have the same cardinality. 
+where the second equality follows from the finitary condition. Since each summand $A \cap cl(B_0)$ has cardinality less than that of $B_0$ by independence of $A$ (noting that $B_0$ is a basis of $cl(B_0)$), the union on the right has cardinality bounded above by $card(B)$. From $card(A) \leq card(B)$ it follows that any two bases have the same cardinality. 
 =-- 
 
 
