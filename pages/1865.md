@@ -133,7 +133,9 @@ A construction of [[differential cobordism cohomology]] theory in terms of expli
 
 By tensoring this with the suitable ring, this also gives a model for differential K-theory, as well as for [[differential elliptic cohomology]].
 
+## The Hopkins-Singer model
 
+...
 
 
 ## Examples 
