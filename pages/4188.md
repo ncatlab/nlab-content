@@ -169,12 +169,10 @@ Given symplectic manifolds $(X_1, \omega_1)$ and $(X_2, \omega_2)$ and a [[sympl
 
 The notion originates somewhere around
 
-* [[Lars Hörmander]], _Fourier Integral Operators I._,
-Acta Math. 127 (1971)
+* [[Lars Hörmander]], _Fourier Integral Operators I._, Acta Math. __127__ (1971)
  {#Hoermander71}
 
-* [[Alan Weinstein]], _Symplectic manifolds and their lagrangian submanifolds_, Advances in Math. 6 (1971)
- {#Weinstein71}
+* [[Alan Weinstein]], _Symplectic manifolds and their lagrangian submanifolds_, Advances in Math. 6 (1971) <a href="http://dx.doi.org/10.1016/0001-8708(71)90020-X>doi</a> {#Weinstein71}
 
 The use of Lagrangian correspondences for encoding [[symplectomorphisms]] was further highlighted in 
 
