@@ -4,7 +4,7 @@
 
 ## Definition
 
-Let $k$ be a field with $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional vector space $V$ together with a 
+Let $k$ be a [[field]] with $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional [[vector space]] $V$ together with a 
 
 * A nondegenerate symmetric bilinear form $\langle , \rangle: V \otimes V \to k$, 
 
@@ -16,7 +16,7 @@ such that, putting $N(v) = \langle v, v \rangle$,
 
 * $N(u) N(v) = N(u v)$ (writing $u v$ for $u \cdot v$). 
 
-There are no assumptions on the multiplication such as associativity, commutativity, etc. Examples of composition algebras include the real numbers, the complex numbers, the quaternions, and the octonions. 
+There are no assumptions on the multiplication such as associativity, commutativity, etc. Examples of composition algebras include the [[real number]]s, the [[complex number]]s, the [[quaternion]]s, and the [[octonion]]s. 
 
 Since $char(k) \neq 2$, we can recover the bilinear form from the norm by the formula 
 
