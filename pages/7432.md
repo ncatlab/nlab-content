@@ -23,6 +23,15 @@ In [[constructive mathematics]], we require a more complicated definition of a [
 
 The [[singleton subsets]] are the atoms in a [[power set]].  Every power set is atomic, and in fact every atomic [[complete boolean algebra]] is (up to [[isomorphism]]) a power set.
 
+## Categorification 
+
+The result that an atomic complete Boolean algebra is isomorphic to a power set has a categorified analogue as follows. If $E$ is a locally small category, an [[tiny object|atomic object]] is an object $e$ such that $E(e, -)\colon E \to Set$ preserves all colimits that exist in $E$. Define a category $E$ to be **atomic** if it has a small [[generating set]] of atomic objects. 
+
++-- {: .un_thm}
+###### Theorem (Bunge)
+A category $E$ is equivalent to a presheaf topos if and only if it is cocomplete, atomic, and regular. 
+=-- 
+
 
 [[!redirects atom]]
 [[!redirects atoms]]
