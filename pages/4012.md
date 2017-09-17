@@ -65,7 +65,9 @@ Since $T$'s multiplication $\mu$ makes $T$ itself into a (generalized) $T$-algeb
 
 A different but equivalent condition is that there be a modification $d \colon T \eta \to \eta T$ such that $d \eta = 1$ and $\mu d = 1$; and given $\ell$ as above, $d$ is given by $\ell \circ T \eta$.
 
-Dually, for $T$ to be colax-idempotent, it is necessary and sufficient that:
+These various conditions can also be regarded as ways to say that the [[Eilenberg-Moore category|Eilenberg-Moore adjunction]] for $T$ is a [[lax-idempotent 2-adjunction]].  Thus, $T$ is a lax-idempotent 2-monad exactly when this 2-adjunction is lax-idempotent, and therefore also just when it is the 2-monad induced by *some* lax-idempotent 2-adjunction.
+
+Dually, for $T$ to be colax-idempotent, it is necessary and sufficient that any of the following hold.
 
 * For any $T$-algebra $a \colon T A \to A$ there is a 2-cell $\zeta_a \colon \eta_A \circ a \Rightarrow 1$ such that $(1,\zeta_a) \colon \eta_A \dashv a$.
 
@@ -85,7 +87,6 @@ To give a pseudo $T$-algebra structure on an object $A$ is equivalently to give 
 In particular, an object admits at most one pseudo $T$-algebra structure, up to unique isomorphism.  Thus, $T$-algebra structure is [[property-like structure]].
 
 In many cases it is interesting to consider the pseudo $T$-algebras for which the algebra structure $T A \to A$ has a further left adjoint, forming an [[adjoint triple]].  Algebras of this sort are sometimes called [[continuous algebras]].
-
 
 ## Examples
 
