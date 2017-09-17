@@ -13,13 +13,7 @@
 =--
 =--
 
-* [[∞-Lie algebra cocycle]]
 
-* [[Chern-Simons element]]
-
-* **invariant polynomial**
-
-***
 
 
 
@@ -409,6 +403,13 @@ See [[Killing form]], [[string Lie 2-algebra]].
 For $X$ a [[smooth manifold]], and invariant polynomial on the [[tangent Lie algebroid]] $\mathfrak{a} = T X$ is precisely a closed [[differential form]] on $X$.
 
 
+## Related concepts
+
+* [[∞-Lie algebra cocycle]]
+
+* [[Chern-Simons element]]
+
+* **invariant polynomial**
 
 
 
