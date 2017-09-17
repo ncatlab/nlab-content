@@ -76,6 +76,6 @@ Progress in Mathematics __270__ (2009) 311-354, [doi](http://dx,doi.org/10.1007/
 The following survey has discussion of context between the graph complex and [[Batalin-Vilkovisky formalism]]:
 
 * Jian Qiu, Maxim Zabzine, _Introduction to graded geometry, Batalin-Vilkovisky formalism and their applications_, [arxiv/1105.2680](http://arxiv.org/abs/1105.2680) 
-
+* Jian Qiu, Maxim Zabzine, _Knot weight systems from graded symplectic geometry_, [arxiv/1110.5234](http://arxiv.org/abs/1110.5234) 
 [[!redirects graph cohomology]]
 [[!redirects graph complex]]
