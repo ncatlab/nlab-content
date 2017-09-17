@@ -31,7 +31,7 @@ There are several different but equivalent formalizations of this idea:
 
 * as a __distribution (field) of horizontal subspaces__  -- an [[Ehresmann connection]] -- and via a __connection $1$-form__ which annihilates the distribution of horizontal subspaces. The connection in that sense induces a smooth version of [[Hurewicz connection]]. 
 
-The usual textbook convention is to say just connection for the distribution of horizontal subspaces, and the objects of the other three approaches one calls more specifically covariant derivative, connection $1$-form and parallel transport.
+The usual textbook convention is to say just connection for the distribution of horizontal subspaces, and the objects of the other three approaches one calls more specifically covariant derivative, connection $1$-form and [[parallel transport]].
 
 In the remainded of this Idea-section we discuss a bit more how to understand connections in terms of parallel transport.
 
@@ -85,7 +85,7 @@ from the [[path groupoid]] of $X$ to the [[Atiyah Lie groupoid]] of $P$ that is 
 
 **Terminology**
 
-The functor $tra$ is called the **parallel transport** of the connection. This terminology comes from looking at the orbits of all points in $P$ under $tra$ (i.e. from looking at the [[category of elements]] of $tra$): these trace out paths in $P$ sitting over paths in $X$ and one thinks of the image of a point $p \in P_x$ under $tra(\gamma)$ as the result of propagating $p$ parallel to these curves in $P$. 
+The functor $tra$ is called the **[[parallel transport]]** of the connection. This terminology comes from looking at the orbits of all points in $P$ under $tra$ (i.e. from looking at the [[category of elements]] of $tra$): these trace out paths in $P$ sitting over paths in $X$ and one thinks of the image of a point $p \in P_x$ under $tra(\gamma)$ as the result of propagating $p$ parallel to these curves in $P$. 
 
 **Flat connctions**
 
@@ -335,6 +335,5 @@ Basic facts about connections, such as the existence proof in terms of Cech cocy
 
 
 
-[[!redirects parallel transport]]
 [[!redirects connections on a bundle]]
 [[!redirects connections on bundles]]
