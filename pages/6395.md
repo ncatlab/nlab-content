@@ -7,6 +7,8 @@
 
 * [[string theory]]
 
-* [[spinning string]]
+* [[spinning string]], [[superstring]]
+
+* [[Dirac-Ramond operator]]
 
 category: people
