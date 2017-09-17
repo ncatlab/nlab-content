@@ -58,7 +58,7 @@ $$
 ###### Definition
 
 
-In a [[category]] [[zero morphism]]s (meaning: [[enriched category|enriched]] over the [[category of pointed sets]]), [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the zero morphism $0_{c,d}$.  
+In a [[category]] with [[zero morphism]]s (meaning: [[enriched category|enriched]] over the [[category of pointed sets]]), [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the zero morphism $0_{c,d}$.  
 
 =--
 
@@ -78,8 +78,8 @@ of the representable functor $hom(-,X)$ defined on objects by
 
 $$ (ker f)(Z) = ker(hom(Z,X)\to hom(Z,Y)). $$
 
-It follows that $ker f$ is also representable with representing object $Ker f$. One has to be careful with $Coker f$ which does not represent naive  $coker f$ defined as $(coker f)(Z) = coker(hom(Z,X)\to hom(Z,Y))$ in $Ab$,
-which is often not representable at all, but is rather defined by the double dualization using the kernel in $Ab$: $Coker f = (Ker f^{op})^{op}$.
+It follows that $ker f$ is also representable with representing object $Ker f$. One has to be careful with $Coker f$ which does not represent the functor naive  $coker f$ defined as $(coker f)(Z) = coker(hom(Z,X)\to hom(Z,Y))$ in $Ab$,
+which is often not representable at all.  Rather, $Coker f$ is defined by the double dualization using the kernel in $Ab$: $Coker f = (Ker f^{op})^{op}$.  This is the same as the dualization involved in defining any [[colimit]] from its corresponding [[limit]].
 
 ### In an $(\infty,1)$-category 
 
