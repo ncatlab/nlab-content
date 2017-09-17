@@ -52,3 +52,5 @@ category: reference
 [[!redirects HoTT book]]
 [[!redirects The HoTT book]]
 [[!redirects the HoTT book]]
+
+[[!redirects Homotopy Type Theory – Univalent Foundations of Mathematics]]
