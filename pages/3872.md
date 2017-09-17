@@ -1,0 +1,9 @@
+**Sir Michael Atiyah** is an English mathematician of Egyptian origin, a Fields' medalist, and Abel prize winner (with I. Singer). 
+
+* [wikipedia](http://en.wikipedia.org/wiki/Michael_Atiyah)
+
+category: people
+
+[[!redirects M. Atiyah]]
+[[!redirects Atiyah]]
+[[!redirects Sir Michael Atiyah]]
