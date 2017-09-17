@@ -1508,6 +1508,8 @@ for the class of circle 3-bundles that arise as differential refinements of degr
 
 * [[prequantum n-bundle]], [[quantomorphism n-group]]
 
+* [[Super Gerbes]]
+
 ## References
 
 A general picture of [[bundle n-gerbe]]s (with connection) as something very similar to th circle $n$-bundle with connection discussed here is in
