@@ -32,6 +32,9 @@ Russell's paradox is closely related to the [[liar paradox]] ("this sentence is 
 
 On the other hand, [[Cantor's paradox]] can be said to "[[beta-reduction|beta-reduce]]" to Russell's paradox when we apply [[Cantor's theorem]] to the supposed set of all sets.
 
+Also related:
+
+* [[Burali-Forti's paradox]]
 
 ## Resolutions
 
