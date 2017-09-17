@@ -277,7 +277,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Give a [[normal subgroup]] $K \hookrightarrow G$ the [[invariants]]-functor may be decomposed as a [[composition]] of the functor that forms $K$-invariants with that which forms $(G/K)$-invariants for the [[quotient group]]. This decomposition gives rise to a [[Grothendieck spectral sequence]] for the group cohomology. This is called the _[[Hichschild-Serre spectral sequence]]_.
+Give a [[normal subgroup]] $K \hookrightarrow G$ the [[invariants]]-functor may be decomposed as a [[composition]] of the functor that forms $K$-invariants with that which forms $(G/K)$-invariants for the [[quotient group]]. This decomposition gives rise to a [[Grothendieck spectral sequence]] for the group cohomology. This is called the _[[Hochschild-Serre spectral sequence]]_.
 
 =--
 
