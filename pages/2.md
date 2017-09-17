@@ -20,7 +20,8 @@
   * [[inbound citations|Inbound Citations]]
   * [Uploaded Files](http://ncatlab.org/nlab/file_list)
   * [[Sandbox|Sandbox]]
-  * [All Webs](http://ncatlab.org/web_list)
+[<span style="color:#008B26;font-weight:normal; text-decoration:none!important; background:none!important; text-decoration:none;">comparer forfait</span>](http://www.le-meilleur-forfait.com)
+  * [All Webs](http://ncatlab.org/web_list)[rio](http://releve-identite-operateur.fr)
 
 * [[math resources|Math Resources]]
 
