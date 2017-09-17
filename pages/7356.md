@@ -23,7 +23,7 @@ _F-theory_ is a toolbox for describing [[type IIB string theory]] -- _including_
 ### Relation to (or motivation from) 11d supergravity
  {#From11dSupergravity}
 
-The following line of argument shows why first compactifiying M-theory on a torus $S_1^A \times S_1^B$ to get tyoe IIA on a circle and then T-dualizing that circle to get type IIB indeed only dependends on the shape $\frac{R_A}{R_B}$ of the torus, but not on its other geometry.
+The following line of argument shows why first compactifying M-theory on a torus $S_1^A \times S_1^B$ to get type IIA on a circle and then T-dualizing that circle to get type IIB indeed only depends on the shape $\frac{R_A}{R_B}$ of the torus, but not on its other geometry.
 
 By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle $S^1_A$ -- to obtain [[type IIA supergravity]] -- and then applying [[T-duality]] along another circle $S^1_B$ to obtain [[type IIB supergravity]].
 
@@ -87,7 +87,7 @@ The [[duality between F-theory and heterotic string theory]]:
 
 F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)).
 
-More generally, heterotic string theory on an eliptically fibered Calabi-Yau $Z \to B$ of complex dimension $(n-1)$ is supposed to be equivalent $F$-theory on an $n$-dimensional $X\to B$ with elliptic K3-fibers.
+More generally, heterotic string theory on an elliptically fibered Calabi-Yau $Z \to B$ of complex dimension $(n-1)$ is supposed to be equivalent $F$-theory on an $n$-dimensional $X\to B$ with elliptic K3-fibers.
 
 A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]] is originally due to ([Friedman-Morgan-Witten 97](#FriedmanMorganWitten97)). A review of this is in ([Donagi 98](#Donagi98)).
 
@@ -168,7 +168,7 @@ The image of the [[supergravity C-field]] from [[11-dimensional supergravity]] t
 
 * {#KMW12} Sven Krause, Christoph Mayrhofer, [[Timo Weigand]], _Gauge Fluxes in F-theory and Type IIB Orientifolds_ (2012) ([arXiv:1202.3138](http://arxiv.org/abs/1202.3138))
 
-and with [[M5-brane]] [[instanton]] contrubitions:
+and with [[M5-brane]] [[instanton]] contributions:
 
 * Max Kerstan, [[Timo Weigand]], _Fluxed M5-instantons in F-theory_ ([arXiv:1205.4720](http://arxiv.org/abs/1205.4720))
 
