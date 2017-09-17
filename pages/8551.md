@@ -25,6 +25,14 @@ Krull dimension of the ring is $1$.
 
 [[!include function field analogy -- table]]
 
+## Related concepts
+
+* [[complex curve]]
+
+* [[arithmetic curve]]
+
+* [[moduli stack of curves]]
+
 ## References
 
 Related $n$Lab entries include [[moduli space of curves]], [[stable curve]], [[Jacobian variety]], [[Mordell conjecture]], [[Riemann surface]],
