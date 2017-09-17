@@ -6,7 +6,8 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
- [groupoid object -- equivalent characterizations](groupoid+object+in+an+(infinity,1%23-category#EquivalentCharacterizations)
+
+[[Lawvere-Tierney operator]]
 
 
 
