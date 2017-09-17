@@ -33,7 +33,7 @@ Beyond the speculative hypothetized role of [[string theory]] as a physical theo
 
 ## Examples
 
-The two basic theories that underly observed fundamental physics -- and which string theory unifies at least qualitatively and in [[perturbation theory]] -- are [[Yang-Mills theory]] and [[gravity|Einstein gravity]]/[[general relativity]]. 
+The two basic theories that underlie observed fundamental physics -- and which string theory unifies at least qualitatively and in [[perturbation theory]] -- are [[Yang-Mills theory]] and [[gravity|Einstein gravity]]/[[general relativity]]. 
 
 1. [Applications to Yang-Mills theory](#ApplicationsToYangMillsTheory)
 
