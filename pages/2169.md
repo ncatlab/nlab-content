@@ -51,6 +51,8 @@ A __normed field__ is a commutative normed division algebra; it follows from the
 
 ## Related concepts
 
+* [[Hopf invariant one]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 see [[division algebra and supersymmetry]]
