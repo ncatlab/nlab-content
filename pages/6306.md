@@ -1,0 +1,8 @@
+
+For $(X,g)$ a [[spacetime]] (a [[Lorentzian manifold]] equipped with time-orientation) and $x \in X$ a [[point]], 
+
+* the **future** of $X$ is the subset $J^+(x)$ of all points of $x$ connected to $x$ by a [[timelike]] or [[lightlike]] [[curve]] starting at $x$;
+
+* the **past** of $X$ is the subset $J^.(x)$ of all points of $x$ connected to $x$ by a [[timelike]] or [[lightlike]] [[curve]] ending at $x$.
+
+[[!redirects past]]
