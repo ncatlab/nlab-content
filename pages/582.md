@@ -57,25 +57,23 @@ B & \underset{i_2}{\to} & B +_A B
 
 exists and $i$ is the equalizer of the pair of coprojections $i_1, i_2: B \stackrel{\to}{\to} B +_A B$. Obviously effective monomorphisms are regular. 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ######Proposition
 In a category with [[finite limit]]s and [[finite colimit]]s, every regular monomorphism $i: A \to B$ is effective. 
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 Suppose $i: A \to B$ is the equalizer of a pair of morphisms $f, g: B \to C$, and with notation as above, let $j: E \to B$ be the equalizer of the pair of coprojections $i_1, i_2$. Since $f \circ i = g \circ i$, there exists a unique map $\phi: B +_A B \to C$ such that $\phi \circ i_1 = f$ and $\phi \circ i_2 = g$. Then, since 
 $$f j = \phi i_1 j = \phi i_2 j = g j$$ 
 and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique map $k: E \to A$ such that $j = i k$. Since $i_1 i = i_2 i$, there is a unique map $l: A \to E$ such that $i = j l$. The maps $k$, $l$ are mutually inverse. 
 =-- 
 
-{#RegEquEff}
-+-- {: .un_lemma}
+
++-- {: .num_lemma #RegEquEff}
 ###### Lemma
 In a [[category]] with [[equalizer]]s and [[cokernel pair]]s, a regular monomorphism is precisely an effective monomorphism.
 =--
-
-
 
 
 
@@ -85,31 +83,27 @@ In a [[category]] with [[equalizer]]s and [[cokernel pair]]s, a regular monomorp
 
 * Similarly, in [[Ab]], and more generally any [[abelian category]], every monomorphism is regular.
 
-+-- {: .un_prop}
-###### Proposition
-
++-- {: .num_prop}
+###### Proposition 
 In [[Top]], the monics are the injective functions, while the regular monos are the embeddings (that is, the injective functions whose sources have the [[induced topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphism]]s.
 =--
 
 +-- {: .proof}
-###### Proof
-
-Use the [above lemma](#RegEquEff).
+###### Proof 
+Use lemma \ref{RegEquEff}.
 
 If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the quotient topology on a disjoint sum). The equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the subspace topology. Since monos in $Set$ are regular, we get the function $i$ back with the subspace topology. This completes the proof. 
 =--
 
-+-- {: .un_prop}
-###### Proposition
-
++-- {: .num_prop}
+###### Proposition 
 In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular
 =--
 
 In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
 
 +-- {: .proof}
-###### Proof
-
+###### Proof 
 We follow [exercise 7H](http://katmat.math.uni-bremen.de/acc/acc.pdf#page=129) of ([AdamekHerrlichStrecker](#AdamekHerrlichStrecker)).
 
 Let $K \hookrightarrow H$ be a subgroup. We 
