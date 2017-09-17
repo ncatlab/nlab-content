@@ -16,6 +16,7 @@ See
 
 * [[quantum mechanical system]]
 
+* [[subsystem]]
 
 [[!redirects mechanical systems]]
 
