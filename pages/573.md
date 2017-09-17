@@ -1072,7 +1072,7 @@ and extra [[properties]] that it may enjoy.
 
   * [[n-fold complete Segal space]]
 
-  * [[Theta-space]], [[model structure on cellular sets]]
+  * [[Theta-space]], [[n-quasicategory]], [[model structure on cellular sets]]
 
   * [[symmetric monoidal (∞,n)-category]]
 
