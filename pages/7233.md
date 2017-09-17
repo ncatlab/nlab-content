@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[Riemannian manifold]] with [[special holonomy]] [[G2]].
+
+## References
+
+For the moment see _[[exceptional geometry]]_ for references.
+
+[[!redirects G2 manifolds]]
