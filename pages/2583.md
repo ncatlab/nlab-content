@@ -506,3 +506,5 @@ and in section 4.1 of
 [[!redirects String 2-group]]
 [[!redirects String Lie 2-group]]
 [[!redirects string Lie 2-group]]
+
+[[!redirects smooth string 2-group]]
