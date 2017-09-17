@@ -140,13 +140,15 @@ In particular, the proposition and its corollary apply to a [[cohesive topos]], 
 
 * An adjoint triple of functors among $A_\infty$- or [[triangulated functor]]s with certain additional structure is called **spherical** . See e.g. ([Anno](#Anno)). The main examples come from [[Serre functor]]s in a [[Calabi-Yau category]] context. 
 
+* A context of [[six operations]] $(f_! \dashv f^!)$, $(f^\ast \dashv f_\ast)$ induces an adjoint triple when either $f^! \simeq f^\ast$ or $f_! = f_\ast$. This is called a  _[[Wirthmüller context]]_ or a  _[[Grothendieck context]]_, respectively.
+
+
 ### Specific examples
 
 * Given any [[ring]] [[homomorphism]] $f^\circ: R\to S$ (in commutative case dual to an [[affine morphism]] $f: Spec S\to Spec R$ of [[affine schemes]]), there is an adjoint triple $f^*\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an [[extension of scalars]], $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its [[right adjoint]]. This triple is affine in the above sense.
 
 * If $T$ is a [[lax-idempotent 2-monad]], then a $T$-algebra $A$ has an adjunction $a : T A \rightleftarrows A : \eta_A$.  If this extends to an adjoint triple with a further left adjoint to $a$, then $A$ is called a [[continuous algebra]].
 
-* [[Wirthmüller context]]
 
 ## Related concepts
 
