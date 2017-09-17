@@ -72,13 +72,13 @@ A (small) **$V$-category** $C$ (or **$V$-enriched category** or **category enric
 
 * for each ordered pair $(a,b) \in Obj(C) \times Obj(C)$ of objects in $C$ an object $C(a,b) \in Obj(V)$ -- called the [[hom-object]] or _object of morphisms_ from $a$ to $b$;
 
-* for each ordered triple $(a,b,c)$ of objects of $V$ a morphism $\circ_{a,b,c} : C(b,c) \otimes C(a,b) \to C(a,c)$ in $V$ -- called the _composition morphism_;
+* for each ordered triple $(a,b,c)$ of objects of $C$ a morphism $\circ_{a,b,c} : C(b,c) \otimes C(a,b) \to C(a,c)$ in $V$ -- called the _composition morphism_;
 
-* for each object $a \in Obj(V)$ a morphism $j_a : I \to C(a,a)$ -- called the _identity [[global element|element]]_ 
+* for each object $a \in Obj(C)$ a morphism $j_a : I \to C(a,a)$ -- called the _identity [[global element|element]]_ 
 
 * such the following diagrams commute:
 
-for all $a,b,c,d \in Obj(V)$:
+for all $a,b,c,d \in Obj(C)$:
 
 $$
   \array{
