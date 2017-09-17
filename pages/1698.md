@@ -714,7 +714,7 @@ if
 
 $$
   \array{
-    A \times_B C &\to& B
+    A \times_C B &\to& B
     \\
     \downarrow && \downarrow^{\mathrlap{g}}
     \\
@@ -725,7 +725,7 @@ $$
 is an [[limit in a quasi-category|infinity-pullback]] diagram in $\mathbf{H}$, then it naturally induces a fiber sequence that starts out as
 
 $$
-  \Omega C \to A \times_B C \to A \times C
+  \Omega C \to A \times_C B \to A \times B
   \,.
 $$
 
