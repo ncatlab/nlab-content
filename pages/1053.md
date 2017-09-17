@@ -423,6 +423,11 @@ Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logic
 
 * Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
 
+Discussion for [[matrix factorization]] in [[Landau-Ginzburg models]] is in
+
+* {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
+
+
 Discussion of [[linear type theory]] without [[units]] is in 
 
 * [[Robin Houston]], _Linear Logic without Units_ ([arXiv:1305.2231](http://arxiv.org/abs/1305.2231))
