@@ -113,6 +113,9 @@ Now for any $C$, the terminal object of $\mathbf{Set}^C$ is the functor $\Delta 
 
 In the case that $C = \mathbf{B}G$ is the [[delooping]] [[groupoid]] of a [[group]] $G$, a functor $\rho : \mathbf{B}G \to Set$ is a [[permutation representation]] $V$ of $G$ and its category of elements is the corresponding [[action groupoid]] $V//G$.
 
+### Category of simplices
+
+For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]], the corresponding category of elements its called its _[[category of simplices]]_. See there for more. 
 
 ## Related concepts
 
