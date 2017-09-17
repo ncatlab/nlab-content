@@ -2617,6 +2617,12 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
   [[gauge field]]
 
+* [[BV-BRST formalism]]
+
+  * [[antifield]], 
+
+  * [[ghost]], [[antighost]]
+
 * [[extended Lagrangian]], [[prequantum n-bundle]], [[action functional]]
 
 * [[charge (physics)]]
