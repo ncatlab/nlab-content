@@ -238,3 +238,7 @@ and
 
 [[!redirects sub-object]]
 [[!redirects sub-objects]]
+
+[[!redirects subtype]]
+[[!redirects subtypes]]
+
