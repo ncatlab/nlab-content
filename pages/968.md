@@ -52,7 +52,7 @@ The [[category]] of cyclic sets, beting a [[presheaf category]] is a [[topos]], 
 
 * [[cyclic cohomology]]
 
-* [[symmetric set]], [[simplicial set]]
+* [[skew-simplicial set]], [[symmetric set]], [[simplicial set]]
 
 ## References
 
