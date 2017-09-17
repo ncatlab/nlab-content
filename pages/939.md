@@ -82,6 +82,10 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * More generally, [[factorization systems over a subcategory]] can be identified with distributive laws in [[Prof]].  Ordinary [[orthogonal factorization systems]] are a special case.  The latter can also be obtained by other weakenings; see for instance [this discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html).
 
+## Related concepts
+
+* [[distributivity for monoidal structures]]
+
 ##Literature##
 
 * H. Appelgate, [[Michael Barr]], J. Beck, [[Bill Lawvere]], 
