@@ -264,7 +264,7 @@ $$
 </svg>
 \end{svg}
 }\\
-f\cong g \cong [1] \Rightarrow f\star g \cong [3]
+f\cong g \cong [1] \Rightarrow f\star g \cong \Delta[3]
 \end{gathered}
 $$
 
