@@ -1,4 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -8,6 +28,25 @@
 Higher monadic descent is the generalization of the notion of [[monadic descent]] from [[category theory]] to [[higher category theory]]. It relates to the [[descent]] of [[∞-stack]]s as ordinary monad descent relates to [[stack]]s.
 
 See also [[cohomological descent]].
+
+## Related concepts
+
+* [[descent]]
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * **higher monadic descent**
+
+    * [[descent in noncommutative algebraic geometry]]
+
+* [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
+
 
 ## References
 
