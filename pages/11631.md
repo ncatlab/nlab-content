@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+This page collects links related to the textbook
+
+* [[Peter West]], 
+
+  _Introduction to Strings and Branes_, 
+
+  Cambridge University Press 2012
+
+on [[string theory]] and [[M-theory]].
+
+For related texts see at _[[books about string theory]]_
+
+#Contents#
+* table of contents
+{:toc}
+
+## ...
+
+## 17 Symmetries of string theory
+
+### 17.1 T-duality
+
+* [[T-duality]]
+
+### 17.3 S and U duality
+
+* [[S-duality]]
+
+* [[U-duality]]
+
+category: reference
