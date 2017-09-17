@@ -54,7 +54,7 @@ As such, it is an example of a [[functor category]].
 
 * One generally useful way to think of presheaves is in the sense of [[space and quantity]].
 
-* In the case where $S = Set$ and $C$ is [[small category|small]], an important general principle is that the presheaf category $[C^{op},Set]$ is the [[free cocompletion]] of $C$.  Intuitively, it is formed by taking $C$ and 'freely throwing in small colimits'.  The category $C$ is contained in $[C^{op},Set]$ via the [[Yoneda embedding]]
+* In the case where $S = Set$ and $C$ is [[small category|small]], an important general principle is that the presheaf category $[C^{op},Set]$ is the [[free cocompletion]] of $C$; see [[Yoneda extension]].  Intuitively, it is formed by taking $C$ and 'freely throwing in small colimits'.  The category $C$ is contained in $[C^{op},Set]$ via the [[Yoneda embedding]]
 $$ Y : C \to [C^{op},Set]$$
 The Yoneda embedding sends each object $c \in C$ to the presheaf
 $$ F(-) = hom(-, c) $$
@@ -230,6 +230,8 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 * [[(∞,1)-presheaf]]
  
 * [[(∞,n)-presheaf]]
+
+* [[Yoneda lemma]], [[Yoneda extension]]
 
 [[!redirects presheaves]]
 [[!redirects presheaf category]]
