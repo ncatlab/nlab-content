@@ -174,6 +174,9 @@ Factorization algebras have some similarity with
 
 * [[chiral algebra]], [[vertex operator algebra]]
 
+[[!include Isbell duality - table]]
+
+
 ## References
 
 This may be regarded as a slight variation on the concept _chiral algebra_ originally introduced by Beilinson and Drinfeld.
