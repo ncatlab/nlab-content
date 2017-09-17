@@ -175,6 +175,23 @@ Section [this](#secthis) is very useful.
 
 A [section](HomePage#software_requirements_7) on the home page.
 
+### Another Section ###
+{: .num_theorem #secthat}
+
+Section \ref{secthat} is pointless.
+
++-- {: .un_example}
+###### Examples ######
+Some examples
+=--
+
++-- {: .un_example}
+###### Examples ######
+1. Some examples
+1. Some examples
+1. Some examples
+=--
+
 
 category: meta
 
