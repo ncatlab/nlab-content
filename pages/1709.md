@@ -8,10 +8,9 @@
 
 ## Idea 
 
-For $f:\hat B \to B$ a morphism in an [[(∞,1)-topos]] $\mathbf{H}$,
-twisted cohomology at [[generalized element|stage]] $X$ is the fiber of $f$ over a given [[generalized element|element]] of $B$.
+Given a morphism $f : \hat B \to B$ in an [[(∞,1)-topos]] $\mathbf{H}$, regarded as exhibiting a [[characteristic class]] on $\hat B$ with values in $B$, the $f$-**twisted cohomology** at [[generalized element|stage]] $X$ is the fiber of $f$ over a given [[generalized element|element]] of $B$.
 
-This is such that if $f : \hat B \to *$ is the [[nLab:terminal object|terminal]] morphism, $f$-twisted cohomology is precisely the [[cohomology]] in $\mathbf{H}$ with coefficients in $\hat B$.
+This is such that if $f : \hat B \to *$ is the [[nLab:terminal object|terminal]] morphism, $f$-twisted cohomology is precisely the ordinary [[cohomology]] in $\mathbf{H}$ with coefficients in $\hat B$.
 
 ## Definition
 
@@ -25,7 +24,7 @@ For
 
 * $\mathbf{H}$ an [[(∞,1)-topos]];
 
-* $f:\hat B \to B$ a morphism in $\mathbf{H}$;
+* $f:\hat B \to B$ a morphism in $\mathbf{H}$ (a [[characteristic class]] on $\hat B$-cohomology);
 
 * $X\in \mathbf{H}$ an object of $\mathbf{H}$;
 
