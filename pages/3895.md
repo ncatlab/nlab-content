@@ -44,5 +44,9 @@ According to ([Morishita 09](arithmetic+topology#Morishita09)) the relation betw
 
 * A.A. Bytsenko, A.E. Goncalves, W. da Cruz, _Analytic Torsion on Hyperbolic Manifolds and the Semiclassical Approximation for Chern-Simons Theory_ ([arXiv:hep-th/9805187](http://arxiv.org/abs/hep-th/9805187))
 
+Review of the role played in the perturbative [[quantization of Chern-Simons theory]] includes
+
+* M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http:/Zwww.math.sunysb.edu/~myoung/CS.pdf))
+
 
 [[!redirects Ray-Singer torsion]]
