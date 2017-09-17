@@ -27,4 +27,10 @@ The spectral action has been proposed as an  [[action functional]] for describin
 
 ## References
 
+The notion of [[spectral triple]] and of spectral action was introduced in
+
+* [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_ ([arXiv:hep-th/9603053](http://arxiv.org/abs/hep-th/9603053))
+
+A discussion specifically of the spectral action is in
+
 * [[Ali Chamseddine]], [[Alain Connes]], _The Spectral Action Principle_ [arXiv:hep-th/9606001](http://arxiv.org/abs/hep-th/9606001),
