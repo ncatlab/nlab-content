@@ -24,7 +24,9 @@
 
 ## Idea 
 
-In [[homological algebra]], a central role is played by [[exact sequence]]s (originally of [[modules]]) and the fact that various [[functors]] preserve or destroy exactness of sequences to some extent gave vital information on those functors.
+A left/right _exact functor_ is a [[functor]] that preserves [[finite limits]]/finite [[colimits]]. 
+
+The term originates in [[homological algebra]], where a central role is played by [[exact sequences]] (originally of [[modules]], more generally in any [[abelian category]]) and the fact that various [[functors]] preserve or destroy exactness of sequences to some extent gave vital information on those functors.
 
 In this context, one says that an **exact functor** is one that preserves exact sequences.  However, many functors are only "exact on one side or the other".  For instance, for all modules $M$ and [[short exact sequences]] $0 \to A \to B \to C \to 0$  of modules (over some ring $R$), the sequence
 
@@ -32,19 +34,24 @@ $$0 \to Mod_R(M, A) \to Mod_R(M,B) \to Mod_R(M,C)$$
 
 is exact -- but note that there is no 0 on the right hand.  Thus $F(-) = Mod_R(M,-)$ converts an exact sequence into a _left_ exact sequence; such a functor is called a **left exact functor**.  Dually, one has **right exact functors**.
 
-It is easy to see that an [[additive functor]] between [[additive categories]] is left exact in this sense if and only if it preserves [[finite limits]].  Since merely preserving left exact sequences does not require a functor to be additive, in a non-additive context one defines a **left exact functor** to be one which preserves finite limits, and dually.
+It is easy to see that an [[additive functor]] between [[additive categories]] is left exact in this sense if and only if it preserves [[finite limits]].  
+
+Since merely preserving left exact sequences does not require a functor to be additive, in a non-additive context one defines a **left exact functor** to be one which preserves finite limits, and dually. Below we give the [general definition](#Definition) and then discuss the relation to the concept in homological algebra in the section [Properties - On abelian categories](#OnAbelianCategories).
 
 
-## Definition#
+## Definition
+ {#Definition}
 
 A [[functor]] between [[finitely complete categories]] is called __left exact__ (or [[flat functor|flat]]) if it preserves [[finite limits]].  Dually, a functor between finitely cocomplete categories is called __right exact__ if it preserves [[finite colimits]].  A functor is called __exact__ if it is both left and right exact.
 
 Specifically, [[Ab]]-[[enriched functor]]s between [[abelian categories]] are exact if they preserve [[exact sequence]]s.
 
+## Properties
 
-##Characterisations
 
-+-- {: .un_prop}
+### Characterisations
+
++-- {: .num_prop}
 ###### Proposition
 * A [[functor]] $F : C \to D$ between finitely cocomplete categories is right exact if and only if for all [[objects]] $d \in D$ the [[comma category]] $F/d$ is [[filtered category|filtered]].
 
@@ -53,7 +60,7 @@ Specifically, [[Ab]]-[[enriched functor]]s between [[abelian categories]] are ex
 
 In other language, this says that a functor between finitely complete categories is left exact if and only if it is (representably) [[flat functor|flat]].  Conversely, one can show that a representably flat functor preserves all finite limits that exist in its domain.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A functor between categories with finite limits preserves [[finite limit]]s if and only if:
@@ -79,7 +86,7 @@ is the equalizer of $F(f), F(g): F(c) \stackrel{\to}{\to} F(d)$, whenever $i: e 
  
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Terminology
 
 Some author use the term "left exact" when $C$ does not have all [[finite limits]], defining it to mean a [[flat functor]]. 
@@ -90,12 +97,13 @@ Left exact functors correspond to [[pro-representable functors]], provided some 
 
 =--
 
-## Properties
 
-### On abelian categories
+### On abelian categories / in homological algebra
+ {#OnAbelianCategories}
 
+In the context of [[homological algebra]], the notion of left/right exact functors is considered specifically in [[abelian categories]]. In this context the above formulation is equivalent formulated in terms of the behaviour of the functor on [[short exact sequences]]. We now discuss this case.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A functor $F : C \to D$ between [[abelian categories]] is left exact if and only if it preserves [[direct sums]] and [[kernels]]. 
@@ -104,7 +112,7 @@ A functor $F : C \to D$ between [[abelian categories]] is right exact if and onl
 
 =--
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 In particular for $0 \to A \to B \to C \to 0$ is an [[exact sequence]] in the abelian category $C$, we have that 
@@ -137,7 +145,21 @@ Also: if $F$ is exact then it preserves [[chain homology]].
 
 =--
 
++-- {: .proof}
+###### Proof
 
+We discuss the first case. The second is formally dual. The third combines the two cases.
+
+For the first case notice that $0 \to A \stackrel{i}{\to} B \stackrel{p}{\to} C \to 0$ being an [[exact sequence]] is equivalent to $i$ being a [[monomorphism]] and $p$ being an [[epimorphism]], hence to $0 \to A$ being the [[kernel]] of $i$, $i$ being the kernel of $p$ and $C \to 0$ being the [[cokernel]] of $p$. Since the functor $F$ is assumed to preserve this kernel-property, but not the cokernel property, it follows that $F(0) \to F(A)$ is the kernel of $F(A) \stackrel{F(i)}{\to} F(B)$, but not more than that. This means that
+
+$$
+  0 \to F(A) \to F(B) \to F(C)
+$$
+
+is an exact sequence, as claimed.
+
+
+=--
 
 
 
