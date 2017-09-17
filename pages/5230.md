@@ -19,7 +19,7 @@
 
 ## Idea
 
-What is called _Nambu mechanics_ is a generalization of the formulation of [[classical mechanics]] ([[prequantum geometry]]) via [[Poisson manifold|Poisson brackets]] to bracket-operations of arity $(n+1)$ higher than 2 -- the Nambu brackets --, with an "[[n-Lie algebra]]"-structure (see the discussion there for distinction with proper [[Lie n-algebras]]).
+What is called _Nambu mechanics_ is a generalization of the formulation of [[classical mechanics]] ([[prequantum geometry]]) via [[Poisson manifold|Poisson brackets]] to bracket-operations of arity $(n+1)$ higher than 2 -- the Nambu brackets --, with an "[[n-Lie algebra|(n+1)-Lie algebra]]"-structure (see the discussion there for distinction with proper [[Lie n-algebras]]).
 
 ## Examples
 
