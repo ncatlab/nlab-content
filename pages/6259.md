@@ -40,7 +40,9 @@ $$
   \,.
 $$
 
-With this duality constraint imposed, one speaks of _self-dual_ higher gauge fields. Their [[quantum field theory]] is more subtle than usual: first of all the above standard action functional now vanishes constantly. 
+With this duality constraint imposed, one speaks of **self-dual higher gauge fields** or **chiral higher gauge fields** or **higher gauge fields with self-dual curvature**. (These are a higher degree/dimensional generalization of what in [[Yang-Mills theory]] are called [[Yang-Mills instanton]] field configruations.)
+
+Their [[quantum field theory]] is more subtle than usual: first of all the above standard action functional now vanishes constantly. 
 
 But sense can be made of the theory of self-dual gauge fields by other means. Notably --  by a version of the [[holographic principle]] the -- [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] in dimension $4 k + 3$.
 
@@ -175,7 +177,12 @@ The chiral boson in 2d is discussed in detail in
 
 * [[Luis Alvarez-Gaumé]], J.-B. Bost, [[Greg Moore]], P. Nelson, [[Cumrun Vafa]], _Bosonization On Higher Genus Riemann Surfaces_, Commun. Math. Phys. 112 (1987) 503. (#GBMNV)
 
-A precise formulation of the phenomenon in terms of [[differential cohomology]] is given in
+A quick exposition of the basic idea is in
+
+* [[Jacques Distler]], _Actions for self-dual gauge fields_ ([blog](http://golem.ph.utexas.edu/~distler/blog/archives/000809.html))
+
+
+A precise formulation of the phenomenon in terms of [[ordinary differential cohomology]] is given in
 
 * [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], 
 
@@ -190,18 +197,18 @@ The idea of describing self-dual higher gauge theory by abelian Chern-Simons the
 
 * [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_ ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
 
-Motivated by this the [[differential cohomology]] of self-dual fields had been discussed in 
+Motivated by this the [[ordinary differential cohomology]] of self-dual fields had been discussed in 
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+The generalization of this to generalized [[differential cohomology]] is discussed from p. 26 on in
+
+* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_.
 
 More discussion of the general principle is in 
 
 * Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
  {#BelovMooreI}
-
-A quick exposition of the basic idea is in
-
-* [[Jacques Distler]], _Actions for self-dual gauge fields_ ([blog](http://golem.ph.utexas.edu/~distler/blog/archives/000809.html))
 
 The application of this to the description of 
 [[type II string theory]] in 10-dimensions to [[schreiber:infinity-Chern-Simons theory|11-dimensional Chern-Simons theory]] is in the followup 
@@ -219,6 +226,8 @@ Discussion of the [[conformal blocks]] of self-dual higher gauge theories is in
 
 * [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
 
+
+For the case of nonabelian self-dual 1-form gauge fields see the references at _[[Yang-Mills instanton]]_.
 
 [[!redirects self-dual higher gauge field]]
 [[!redirects self-dual higher gauge fields]]
