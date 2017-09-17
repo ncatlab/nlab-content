@@ -88,13 +88,21 @@ See [[(∞,2)-category]] for the moment.
 
 ## References
 
-A discussion of $sSet$-enriched categories as models for [[(∞,1)-categories]] with an emphasis on [[homotopy Kan extension]]s is in
+
+Simplicially enriched categories as models for $(\infty,1)$-categories are discussed in some detail in section A.3 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+Homotopy coherent category theory on $sSet$-categories is discussed in 
 
 * [[Jean-Marc Cordier]] [[Timothy Porter]], _Homotopy coherent category theory_  ([pdf](http://www.ams.org/journals/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
 
-Also section A.3 of 
+which describes resolutions of the simplicial functor categories between two simplicial categories and
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Michael Batanin]], _Homotopy coherent category theory and $A_\infty$-structures in monoidal categories_ ([pdf](http://dodo.pdmi.ras.ru/~topology/books/batanin.pdf))
+
+which shows that these resolved functor categories are in fact $sSet$-[[A-∞ categories]].
+
 
 [[!redirects simplicially enriched categories]]
 [[!redirects sSet-category]]
