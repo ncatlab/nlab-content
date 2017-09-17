@@ -15,7 +15,7 @@
 
 ## Definition
 
-The _Nambu-Goto action_ is an [[action functional]] for [[sigma-model]]s with [[target space]] a [[pseudo-Riemannian manifold]] $(X,g)$: it is simply the induced [[volume]] functional
+The _Nambu-Goto action_ is an [[action functional]] for [[sigma-model]]s with [[target space]] a ([[pseudo-Riemannian manifold|pseudo]]) [[Riemannian manifold]] $(X,g)$: it is the induced volume functional
 
 $$
   S_{NG} : (\Sigma \stackrel{\gamma}{\to} X) \mapsto \int_\Sigma dvol(\gamma^* g)
@@ -24,11 +24,13 @@ $$
 
 where $dvol(\gamma^* g)$ is the [[volume form]] of the pullback $\gamma^* g$ of the metric tensor from $X$ to $\Sigma$.
 
+
 This is classically equivalent (...) to the [[Polyakov action]].
 
 ## Applications
 
-The NG-action serves as the kinetic action functional for the [[relativistic particle]], the [[string]], and the corresponding higher dimensional [[sigma-model]]s.
+The NG-action serves as the kinetic [[action functional]] of the [[sigma-model]] that described a fundamental [[brane]] propagating on $X$. For 
+$dim \Sigma = 1$ this is the [[relativistic particle]], for $dim \Sigma = 2$ the [[string]], for $dim \Sigma = 3$ the [[membrane]].
 
 ## References
 
@@ -36,5 +38,5 @@ One [[string theory]] textbook that deals with the Nambu-Goto action in a bit mo
 
 * [[Barton Zwiebach]], _A first course in string theory_ , Cambridge (2009)
 
-[[!Nambu-Goto action functional]]
-[[!Nambu-Goto action functionals]]
+[[!redirects Nambu-Goto action functional]]
+[[!redirects Nambu-Goto action functionals]]
