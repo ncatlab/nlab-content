@@ -24,6 +24,8 @@ In the corresponding [[quantum field theory]], however, a state that is initiall
 
 * [[vacuum]], [[tachyon]]
 
+* [[Coleman-De Luccia instanton]]
+
 * [[landscape of string theory vacua]]
 
 
