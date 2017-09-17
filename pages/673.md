@@ -1,4 +1,4 @@
-<div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="600" width="400" src="http://ncatlab.org/davidroberts/files/DavidRoberts2012.jpg" alt="David Roberts - image (c) Peter Fisher, used with permission" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="600" width="400" src="http://ncatlab.org/davidroberts/files/DavidRoberts2012.jpg" alt="David Roberts - image (c) Peter Fisher, used with permission" title="David Roberts - image (c) Peter Fisher, used with permission"/></div>
 
 
 I'm a postdoctoral fellow at the [University of Adelaide](http://www.maths.adelaide.edu.au/). I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]].
@@ -8,7 +8,7 @@ If you need it, here is my email: david dot roberts (at symbol) adelaide dot edu
 
 ## Papers ##
 
-* _$Con(ZF+\neg WISC)$, [[notWISC2.pdf:file]], (2012).
+* _$Con(ZF+\neg WISC)$, [pdf](http://ncatlab.org/nlab/files/notWISC2.pdf), (2012).
 * _The universal simplicial bundle is a simplicial group_, [arXiv:1204.4886](http://arxiv.org/abs/1204.4886).
 * _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[Danny Stevenson]]. Submitted for publication.
 * _On the existence of bibundles_, to appear Proceedings of the London Mathematical Society, (available at [arXiv:math1102.4388/](http://arxiv.org/abs/1102.4388)), joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
