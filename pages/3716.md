@@ -1,4 +1,6 @@
-A **Poisson Lie group** (often written Poisson-Lie group) or Lie Poisson group is a [[group object]] in the category of [[Poisson manifolds]]. In other words the group product and inverse are smooth maps of Poisson manifolds where $G\times G$ has the product Poisson structure. 
+A **Poisson Lie group** (often written Poisson-Lie group) or Lie Poisson group $G$ is a [[ Lie group]] and a [[Poisson manifolds]], the two structures being compatible such that the group product is a smooth map of Poisson manifolds where $G\times G$ has the product Poisson structure. 
+
+**Warning**: the inverse map is NOT a Poisson map unless G has the trivial Poisson structure, in fact it is an anti-Poisson map.
 
 If $H$ is any (finite dimensional) Lie group then the dual $(T_e H)^*$ of its [[tangent Lie algebra]] has a canonical bracket introduced by Kirillov which makes it into a Poisson Lie group. To this aim one identifies $(T_e H)^*$ with its own tangent space $T_u (T_e H)^*$ and interprets the differential $df$ of a function $f:(T_e H)^*\to \mathbb{R}$ as a function $(T_e H)^*\to ((T_e H)^*)^*\cong T_e H$ where the finite dimensionality is used. Then Kirillov defines
 
