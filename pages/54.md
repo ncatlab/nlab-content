@@ -11,7 +11,7 @@ The best way to contact me is by sending me an email at <urs.schreiber@gmail.com
 
 ## my position {#myposition}
 
-I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathematical physics for four years at Hamburg University. Was based for a bit at <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am now on a postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht.
+I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathematical physics for four years at Hamburg University. Was based for a bit at <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and have a postdoc position in Prof. [[Ieke Moerdijk]]'s group since 2009, first in Utrecht and then the group moved to Nijmegen in 2012.
 
 ## my research {#myresearch}
 
