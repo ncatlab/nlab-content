@@ -21,6 +21,10 @@ An overview is in [chapter 4](http://cheng.staff.shef.ac.uk/guidebook/guidebook-
 
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher dimensional categories: an illistrated guidebook_ ([pdf](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
 
+and in chapter 7 of 
+
+* Tom Leinster, _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
+
 Opetopes were introduced here:
 
 * [[John Baez]] and [[James Dolan]], Higher-dimensional algebra
