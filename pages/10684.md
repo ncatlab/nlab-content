@@ -104,11 +104,28 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 * [[Adams resolution]]
 
+* [[inverse limit]]
 
 ### 2. The Adams spectral sequence based on a generalized homology theory
 
 
 ## Chapter 3. The Classical Adams Spectral Sequence
+
+### 1. The Steenrod algebra and some easy calculuation
+
+* [[Hopf algebra]] structure on [[Steenrod algebra]]
+
+* [[cobar complex]], [[cosimplicial object]]
+
+### 2. The May spectral sequence
+
+* [[May spectral sequence]]
+
+* [[Massey product]]
+
+### 4. Some general properties of $Ext$
+
+* [[periodicity theorem]]
 
 ## Chapter 4. $B P$-Theory and the Adams-Novikov Spectral Sequence 
 
@@ -124,7 +141,13 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ## Appendix 1. Hopf Algebras and Hopf Algebroids 
 
+* [[Hopf algebra]]
+
+* [[Hopf algebroid]]
+
 ## Appendix 2. Formal Group Laws
+
+* [[formal group law]]
 
 ## Appendix 3. Table of homotopy groups of spheres  
 
