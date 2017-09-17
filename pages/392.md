@@ -41,21 +41,16 @@ Some adjectives are almost universally used as "red herring adjectives," i.e. pl
 
 * Originally, [[n-category]] referred only to the strict version, so that a "weak $n$-category" was not an $n$-category.  Nowadays some people (including many authors of the nLab)  are trying to reverse this, so that $n$-category means the weak version, while the strict version needs an adjective added.  Likewise for related concepts such as [[2-limit]] and [[strict 2-limit]].
 
+Sometimes a red herring is only a red herring in degenerate case, perhaps only one case:
+
+* Fixing a [[natural number]] $n$, a [[homogeneous polynomial]] of degree $n$ is almost always a [[polynomial]] of degree $n$, but there is one exception: the [[zero]] polynomial has no degree (or is degree $-1$ or degree $-\infty$, depending on conventions), yet it is homogeneous of any degree.
+
 
 ## Non-examples
 
 Some uses of terminology are similar in some ways, but don't quite fall under the same category.  For instance, in a number of cases mathematicians working in a particular field tend to omit [[dichotomy between nice objects and nice categories|niceness]] adjectives, e.g.:
 
-* The generally accepted *definition* of a [[ring]] does not include commutativity, but in [[algebraic geometry]] and [[commutative algebra]] it is an almost universal convention that all rings are taken to be commutative.  However, almost every book concerning the subject announces its conventions early on.  A closely related niceness condition is taking all modules to be unital.
-  +-- {: .query}
-  But surely it is *not* universally agreed that modules by default need not be unital?  Heck, even rings were, once upon a time, not assumed to be unital.  But these days, I would assume that a ring and a module must be unital, while I would still not assume that a ring must be commutative.  ---Toby
-
-  Your first sentence has too many negations for me to parse.  But I would agree that nowadays by default both rings and modules are unital (especially, if rings are unital, then modules definitely must also be).  --Mike
-
-  My first sentence only had two negations!  If one\'s your limit, how do you manage to use intuitionistic logic?  In any case, here it is rephrased:
-  > But surely it is *sometimes* insisted that modules by default must be unital?
-  And that is a claim that you have agreed with, so you agree with me that taking all modules to be unital is *not* closely analogous to requiring all rings to be commutative.  ---Toby
-  =--
+* The generally accepted *definition* of a [[ring]] does not include commutativity, but in [[algebraic geometry]] and [[commutative algebra]] it is an almost universal convention that all rings are taken to be commutative.  However, almost every book concerning the subject announces its conventions early on.
 
 * Algebraic topologists usually work with a [[convenient category of topological spaces]] rather than the category of all [[topological spaces]], but usually they simply say "space" to mean an object of their chosen convenient category.  Some algebraic topologists (particularly of the MIT school) take this even further and say "space" to mean [[simplicial set]]. In the Chicago school, this is occasionally stretched even further, with "space" meaning [[spectrum]] (although this is arguably more of a joke than a common usage).
 
