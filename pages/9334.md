@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -18,7 +19,7 @@
 ## Definition
 
 
-### $(\infty,1)$-Category of $(\infty,1)$-Bimodules
+### $(\infty,1)$-Category of $(\infty,1)$-Bimodules and intertwiners
 
 Write $BMod^\otimes$ for the [[(∞,1)-category of operators]] of the [[(∞,1)-operad]] [[operad for bimodules]]. Write 
 
@@ -26,7 +27,7 @@ $$
   \iota_{\pm} \colon Assoc \to BMod
 $$
 
-for the two canonical inclusions of the [[associative operad]] (as discussed at [operad for bimodules - relation to the associative operad](#RelationToTheAssociativeOperad)).
+for the two canonical inclusions of the [[associative operad]] (as discussed at _[operad for bimodules - relation to the associative operad](#RelationToTheAssociativeOperad)_).
 
 +-- {: .num_defn #NotationForWeaklyBiEnrichedInfinityCategory}
 ###### Definition (Notation)
@@ -52,7 +53,9 @@ exhibit these as two [[planar (∞,1)-operads]].
 Finally write 
 
 $$
-  \mathcal{C} \colon \mathcal{C}^\otimes \underset{BMod^\otimes}{\times} \{\mathfrak{n}\}
+  \mathcal{C} 
+    \coloneqq 
+  \mathcal{C}^\otimes \underset{BMod^\otimes}{\times} \{\mathfrak{n}\}
 $$
 
 for the [[(∞,1)-category]] over the object labeled $\mathfrak{n}$.
@@ -64,7 +67,7 @@ for the [[(∞,1)-category]] over the object labeled $\mathfrak{n}$.
 +-- {: .num_remark }
 ###### Remark
 
-This exhibits $\mathcal{C}$ as equipped with [[weak tensoring]] over $\mathcal{C}_-$ and reverse weak enrichment over $\mathcal{C}_+$.
+This exhibits $\mathcal{C}$ as equipped with [[weak tensoring]] over $\mathcal{C}_-$ and reverse weak tensoring over $\mathcal{C}_+$.
 
 =--
 
@@ -211,7 +214,8 @@ Then there is an
 
 This is ([Lurie, def. 4.3.6.10, remark 4.3.6.11](#Lurie)).
 
-Morover, the [[horizontal composition]] of bimodules in this [[(∞,2)-category]] is indeed the relative tensor product
+Morover, the [[horizontal composition]] of bimodules in this [[(∞,2)-category]] is indeed the relative 
+[[tensor product of ∞-modules]]
 
 $$
   \circ_{A,B,C}
@@ -271,9 +275,8 @@ where
 
 =--
 
-This is ([Lurie, cor. 4.3.6.2](#Lurie)) specified to the case of ([Lurie, lemma 4.3.6.9](#Lurie)).
+This is ([Lurie, cor. 4.3.6.2](#Lurie)) specified to the case of ([Lurie, lemma 4.3.6.9](#Lurie)). Also ([Lurie, def. 4.3.4.19](#Lurie))
 
-(...)
 
 
 
