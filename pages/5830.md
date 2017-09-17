@@ -166,13 +166,6 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 ## References
  {#References}
 
-### General
-
-A blog serving as a base for the HoTT community is at
-
-* _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
- {#HoTTSite}
-
 ### Introductions
 
 Introductions to HoTT are at
@@ -187,6 +180,17 @@ Introductions to HoTT are at
 
 * [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#Voevodsky}
+
+
+### General
+
+A blog serving as a base for the HoTT community is at
+
+* _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
+ {#HoTTSite}
+
+* Michael Warren, _Homotopy theoretic aspects of constructive type theory_ PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+
 
 ### Code
  {#Code}
