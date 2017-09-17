@@ -13,6 +13,10 @@ $$
 \frac{\partial S}{\partial t} + H\left(t, x, \frac{\partial S}{\partial x}\right) = 0
 $$
 
+## Related concepts
+
+* [[Hamilton's equations]]
+
 ## References
 
 * [[eom]]: [Hamilton-Jacobi theory](http://www.encyclopediaofmath.org/index.php/Hamilton-Jacobi_theory)
