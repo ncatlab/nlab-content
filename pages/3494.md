@@ -195,8 +195,8 @@ If we think of hc diagrams as algebras over an operad, then this rectification i
 
 1.  A diagram indexed by the small category, $[2]$.
 
-$$
-\begin{svg}<svg width="167" height="103" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:math="http://www.w3.org/1998/Math/MathML" se:nonce="36876">
+<div style="width: 167px; margin: auto">
+<svg width="167" height="103" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:math="http://www.w3.org/1998/Math/MathML" se:nonce="36876">
  <g>
   <title>Layer 1</title>
   <foreignObject height="24" width="32" font-size="16" id="svg_36876_1" y="67" x="0">
@@ -321,8 +321,8 @@ $$
    <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
   </marker>
  </defs>
-</svg>\end{svg}
-$$
+</svg>
+</div>
 
 is h.c. if there is specified a homotopy 
 
