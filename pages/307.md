@@ -57,3 +57,5 @@ Some examples of terminal objects in notable categories follow:
 [[!redirects terminal object]]
 [[!redirects terminal objects]]
 [[!redirects terminal]]
+[[!redirects final object]]
+[[!redirects final objects]]
