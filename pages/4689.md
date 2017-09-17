@@ -24,7 +24,9 @@
 
 A theory of _quantum gravity_ is supposed to be a [[quantum field theory]] (QFT) -- or something similar -- that corresponds to the [[classical field theory]] of [[gravity]], possibly by [[quantization]].
 
-While the [[Einstein-Hilbert action]] (or any of its variants) that defines the dynamics of gravity makes perfect sense at low energies as the definition of an [[effective quantum field theory]] (see there for details), it cannot be a non-effective theory at arbitrary high energies: because it is not [[renormalization|renormalizable]]. 
+While the [[Einstein-Hilbert action]] (or any of its variants) that defines the dynamics of gravity makes perfect sense at low energies as the definition of an [[effective quantum field theory]] (see there for details), it is not expected to be a non-effective theory at arbitrary high energies, because it is not [[renormalization|renormalizable]]: all non-renormalizable QFTs that have appeared in practice turned out to be [[effective QFT]] approximations (see there) to renormalizable [[UV-completions]]. 
+
+The idea has been explored that gravity is simply to be regarded as a [[classical field theory]], but trying to couple such a classical field theory to a [[stress-energy tensor]] of a matter [[quantum field theory]] leads to conceptual problems that break the very foundation of what is known about theoretical physics. So this seems to be very unlikely. At the same time it is clear that present experiments cannot _directly_ probe the effects of that supposed [[UV-completion]] of Einstein-gravity.
 
 Approaches to a full quantization of gravity therefore roughly fall into two different strategies
 
