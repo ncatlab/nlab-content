@@ -21,6 +21,8 @@ A [[section]] of a spinor bundle is called a **spinor**.
 
 ## Related concepts
 
+* [[rotor]]
+
 * [[spinor]], [[spin representation]]
 
 A [[Dirac operator]] acts on [[section]]s of a spinor bundle.
