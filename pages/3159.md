@@ -58,6 +58,7 @@ $$
 ## Properties
 
 ### Submodules of free modules
+ {#SubmodulesOfFreeModules}
 
 Let $R$ be a [[ring]].
 
@@ -76,6 +77,21 @@ Assuming the [[axiom of choice]], the following are equivalent
 
 A proof is in ([Rotman, pages 650-651](#Rotman)).
 
++-- {: .num_remark }
+###### Remark
+
+For $R = \mathbb{Z}$ this is the [[Nielsen-Schreier theorem]].
+
+=--
+
++-- {: .num_cor }
+###### Corollary
+
+Assuming the [[axiom of choice]], over a ring $R$ which is a [[principal ideal domain]], every [[module]] has a [[projective resolution]] of length 1.
+
+=--
+
+See at [projective resolution -- Resolutions of length 1](projective+resolution#Lenght1ResolutionsOfAbelianGroups) for more.
 
 ## Related concepts
 
