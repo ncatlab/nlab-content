@@ -1,0 +1,183 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+## Definition
+
+### Preliminaries on $(\infty,1)$-operads and $(\infty,1)$-Algebras
+
+### $(\infty,1)$-Modules and -Bimodules
+
+### Tensor products of $(\infty,1)$-Bimodules
+
+
++-- {: .num_defn #NotationForTensS}
+###### Definition (Notation)
+
+Write $Tens^\otimes$ for the [[generalized (∞,1)-operad]]
+discussed at _[[tensor product of ∞-modules]]_.
+
+For $S \to \Delta^{op}$ an [[(∞,1)-functor]] (given as a map of simplicial sets from a [[quasi-category]] $S$ to the [[nerve]] of the [[simplex category]]), write
+
+$$
+  Tens^\otimes_{S} 
+   \coloneqq
+  Tens^\otimes \underset{\Delta^{op}}{\times} S
+$$ 
+
+for the [[fiber product]] in [[sSet]].
+
+Moreover, for $\mathcal{C}^\otimes \to Tens^\otimes_S$ a [[fibration]] in the [[model structure for quasi-categories]] which exhibits $\mathcal{C}^\otimes$ as an $S$-[[family of (∞,1)-operads]], write
+
+$$
+  Alg_S(\mathcal{C}) \hookrightarrow Fun_{Tens^\otimes_S}(Step_S, \mathcal{C}^\otimes)
+$$
+
+for the full [[sub-(∞,1)-category]] on those [[(∞,1)-functors]] which send inert morphisms to inert morphisms.
+
+=--
+
+([Lurie, notation 4.3.4.15](#Lurie))
+
+
+
+
+### The $(\infty,2)$-Category of $(\infty,1)$-algebras and -bimodules
+
+
+We discuss the generalization of the notion of bimodules to [[homotopy theory]], hence the generalization from [[category theory]] to [[(∞,1)-category theory]]. ([Lurie, section 4.3](#Lurie)).
+
+Let $\mathcal{C}$ be [[monoidal (∞,1)-category]] such that 
+
+1. it admits [[geometric realization]] of [[simplicial objects in an (∞,1)-category]] (hence a [[left adjoint|left]] [[adjoint (∞,1)-functor]] ${\vert-\vert} \colon \mathcal{C}^{\Delta^{op}} \to \mathcal{C}$ to the constant simplicial object functor), true notably when $\mathcal{C}$ is a [[presentable (∞,1)-category]];
+
+1. the [[tensor product]] $\otimes \colon \mathcal{C}\times \mathcal{C} \to \mathcal{C}$ preserves this geometric realization separately in each argument.
+
+
+Then there is an 
+[[(∞,2)-category]] $Mod(\mathcal{C})$ which given as an [[(∞,1)-category object]] internal to [[(∞,1)Cat]] has
+
+* $(\infty,1)$-category of objects
+
+  $$
+    Mod(\mathcal{C})_{[0]} \simeq Alg(\mathcal{C})
+  $$
+
+  the [[A-∞ algebras]] and [[∞-algebra]] [[homomorphisms]] in $\mathcal{C}$;
+
+* $(\infty,1)$-category of morphisms
+
+  $$
+    Mod(\mathcal{C})_{[1]} \simeq BMod(\mathcal{C})
+  $$
+
+  the $\infty$-bimodules and bimodule homomorphisms ([[intertwiners]]) in $\mathcal{C}$
+
+This is ([Lurie, def. 4.3.6.10, remark 4.3.6.11](#Lurie)).
+
+Morover, the [[horizontal composition]] of bimodules in this [[(∞,2)-category]] is indeed the relative tensor product
+
+$$
+  \circ_{A,B,C}
+  =
+  (-) \otimes_B (-)
+  \;\colon\;
+  {}_A Mod_{B} \times {}_{B}Mod_C \to {}_A Mod_C
+  \,.
+$$
+
+This is ([Lurie, lemma 4.3.6.9 (3)](#Lurie)).
+
+Here are some steps in the construction:
+
+
+The **idea** of the following constructions is this: 
+we start with a [[generalized (∞,1)-operad]] 
+$Tens^\otimes \to FinSet_* \times \Delta^{op}$ which is such that 
+the [[(∞,1)-algebras over an (∞,1)-operad]] over its fiber over $[k] \in \Delta^{op}$ is equivalently the collection of $(k+1)$-tuples of 
+[[A-∞ algebras]] in $\mathcal{C}$ together with a string of $k$ $\infty$-bimodules between them. Then we turn that into a [[simplicial object in an (∞,1)-category|simplicial object]] in [[(∞,1)Cat]]
+
+$$
+  Mod(\mathcal{C}) \in ((\infty,1)Cat)^{\Delta^{op}}
+  \,.
+$$
+
+This turns out to be an [[internal (∞,1)-category]] object in [[(∞,1)Cat]], hence an [[(∞,2)-category]] whose object of objects is the category $Alg(\mathcal{C})$ of [[A-∞ algebras]] and [[homomorphisms]] in $\mathcal{C}$ between them, and whose object of morphisms is the category $BMod(\mathcal{C})$ of $\infty$-bimodules and [[intertwiners]].
+
++-- {: .num_defn}
+###### Definition
+
+Define $Mod(\mathcal{C}) \to \Delta^{op}$ as the map of [[simplicial sets]] with the [[universal property]] that for every other map of simplicial set $K \to \Delta^{op}$ there is a canonical bijection
+
+$$
+  Hom_{sSet/\Delta^{op}}(K, Mod(\mathcal{C}))
+  \simeq
+  Alg_{Tens_K / Assoc}( \mathcal{C} )
+  \,,
+$$
+
+where 
+
+* on the left we have the hom-simplicial set in the [[slice category]]
+
+* on the right we have the [[(∞,1)-category]] of [[(∞,1)-algebras over an (∞,1)-operad]] given by lifts $\mathcal{A}$ in
+
+  $$
+    \array{
+       && \mathcal{C}^\otimes
+       \\
+       &{}^{\mathcal{A}}\nearrow& \downarrow
+       \\
+      Tens_K &\to& Assoc
+    }
+    \,.
+  $$
+
+=--
+
+This is ([Lurie, cor. 4.3.6.2](#Lurie)) specified to the case of ([Lurie, lemma 4.3.6.9](#Lurie)).
+
+(...)
+
+
+
+## References
+
+The general theory in terms of [[higher algebra]] of [[(∞,1)-operads]] is discussed in section 4.3 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+Specifically the homotopy theory of [[A-infinity bimodules]] is discussed in
+
+* Volodymyr Lyubashenko, Oleksandr Manzyuk, _A-infinity-bimodules and Serre A-infinity-functors_ ([arXiv:math/0701165](http://arxiv.org/abs/math/0701165))
+
+and section 5.4.1 of 
+
+* [[Boris Tsygan]], _Noncommutative calculus and operads_ in 
+Guillermo Cortinas (ed.) _Topics in Noncommutative geometry_, Clay Mathematics Proceedings volume 16
+
+
+[[!redirects (infinity,1)-bimodules]]
+
+
+[[!redirects ∞-bimodule]]
+[[!redirects ∞-bimodules]]
+[[!redirects (∞,1)-bimodule]]
+[[!redirects (∞,1)-bimodules]]
+
+
+[[!redirects infinity-bimodule]]
+[[!redirects infinity-bimodules]]
