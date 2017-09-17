@@ -197,7 +197,7 @@ The proof that open star-shaped regions are diffeomorphic to a ball appears as [
 * [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf)) 
 {#Ferus}
 
-It is a lengthy proof. [Apparently](http://mathoverflow.net/questions/4468/what-are-the-open-subsets-of-mathbbrn-that-are-diffeomorphic-to-mathbb) it is due to Stefan Born. 
+It is a lengthy proof, due to Stefan Born. 
 
 A simpler version of the proof apparently appears on page 60 of
 
