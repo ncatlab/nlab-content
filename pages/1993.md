@@ -53,6 +53,9 @@ Butterflies corresponds to weak functors between the corresponding $2$-[[2-group
 
 Under the correspondence between [[crossed module]]s and [[internal category|categories internal]] to [[Grp]], butterflies are precisely the saturated [[anafunctor|anafunctors]] internal to $Grp$, using the [[Grothendieck pretopology]] of surjective homomorphisms.
 
+In fact under the same correpondence, butterflies correspond to 
+locally representable [[profunctor|profunctors]], while split butterflies give representable profunctors. This extends to the intrinsic setting, where the base category is semi-abelian (see references below).
+
 
 ## References
 
