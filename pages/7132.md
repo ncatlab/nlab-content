@@ -5,7 +5,11 @@
 
 ## Idea
 
-In the context of [[analytic geometry]], a **polydisc** is a [[product]] of [[discs]].
+In the context of [[analytic geometry]], a **polydisc** is a [[product]] of [[discs]]: the [[analytic space]] which is [[Isbell duality|formally dual]] to the [[Tate algebra]] $T_n$ (for an $n$-dimensional polydisk).
+
+This is a basic [[analytic space]]. It is the analog in [[analytic geometry]] of the [[affine space]] $\mathbb{A}^n$ in [[algebraic geometry]]. 
+
+Every [[complex analytic space]] is [[covering|locally]] [[isomorphism|isomorphic]] to a polydisk.
 
 ## References
 
