@@ -513,6 +513,7 @@ $$
 $$
 
 ### Equivalence of super Lie algebra cohomology in both conventions
+ {#EquivalenceOfSuperLieAlgebraCohomology}
 
 The different choice of signs in the de Rham complex
 [above](#DifferentialFormsInSuperOddConvention) affects those
