@@ -29,9 +29,13 @@
 
 ## Constructions  ##
 
+* [[shape of an (∞,1)-topos|shape]]
+
 * [[cohomology]]
 
 * [[homotopy groups in an (∞,1)-topos|homotopy]]
+
+* [[rational homotopy theory in an (∞,1)-topos|rational homotopy]]
 
 [Edit this sidebar](/nlab/edit/%28infinity%2C1%29-topos+-+contents)
 
