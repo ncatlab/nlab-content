@@ -19,11 +19,11 @@ In its standard formulation, [[quantum physics]] is a probabilistic theory of na
 
 However, on very small scales classical mechanics predicts the _wrong_ events, while [[quantum mechanics]] and [[quantum field theory]] predicts the right [[probabilities]].
 
-On the other hand, it is well known that upon "coarse graining", which means after avraging over certain details, also classical mechanics induces a probabilistic theory of nature, namely [[statistical mechanics]]/[[thermodynamics]].
+On the other hand, it is well known that upon "coarse graining", which means after averaging over certain details, also classical mechanics induces a probabilistic theory of nature, namely [[statistical mechanics]]/[[thermodynamics]].
 
 Therefore it is natural to speculate that maybe also [[quantum physics]] is the [[statistical mechanics]] of a more refined theory of as yet unseen "degrees of freedom of nature" on small scales, which does predict events with certainty on very small scales, and which reduces to quantum mechanics on larger scales as one averages over these unseen new degrees of freedom.
 
-These "unseen degrees of freedom" are usually called _hidden variables_, and a [[theory (physics)|theory]] which is non-probabilistic but designed to reproduce [[quantum mechanics]] as its statistical coarse grained theory are called _hidden variable theories_.
+These "unseen degrees of freedom" are usually called _hidden variables_, and a [[theory (physics)|theory]] which is non-probabilistic but designed to reproduce [[quantum mechanics]] as its statistical coarse grained theory are called _hidden variable theories_. (These are hence one potential [[interpretation of quantum mechanics]].)
 
 There have been various attempts to construct such hidden variable theories. However, there are also [[theorems]] about the characteristic properties of [[quantum mechanics]] which assert (under some (natural) assumptions, of course) that there cannot be a hidden variable theory.
 
