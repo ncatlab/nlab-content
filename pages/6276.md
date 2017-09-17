@@ -14,6 +14,21 @@ term $1$.
 
 The [[free Lie algebra]] $L(X)$ naturally embeds in (the Lie algebra corresponding to the associative algebra) $A(X)\hookrightarrow \hat{A}(X)$; one defines $\hat{L}(X)$ as the closure of $L(X)$ in $\hat{A}(X)$. The exponential series and the makes sense in $\hat{A}(X)$; when restricted to $\hat{L}(X)$ it gives a bijection between $\hat{L}(X)$ and a closed subgroup of the Magnus group which is sometimes called the Hausdorff group $exp(\hat{L}(X))$.  
 
-__Hausdorff series__ is a series in the [[Malcev completion]] 
+__Hausdorff series__ $H(U,V)$ is an element $log(exp(U)exp(V))$ in $\hat{L}(\{U,V\})$. 
 
-* N. Bourbaki Lie groups and algebras, chapter II
+The specializations of the Hausdorff series 
+in Lie algebras which are not necessarily free are known as 
+the __Baker-Campbell-Hausdorff__ series and play the role in the corresponding BCH formula $exp(U)exp(V) = exp(H(U,V))$. 
+
+The BCH formula can be written in many ways, the most important which belong to Dynkin. The part which is linear in one of the variables involves [[Bernoulli number]]s.
+
+* [[N. Bourbaki]], _Lie groups and algebras_, chapter II
+* [[M M Postnikov]], Lectures on geometry, Semester V, Lie groups and algebras
+* E. B. Dynkin, _Calculation of the coeffients in the Campbell-Hausdorff formula_, Doklady Akad. Nauk SSSR (N.S.) 57, 323-326, (1947).
+
+cf. [[Malcev completion]] 
+
+* Anton Alekseev, Charles Torossian, _The Kashiwara-Vergne conjecture and Drinfeld's associators_, [pdf](http://www.math.jussieu.fr/~torossian/AT1.pdf)
+
+[[!redirects Baker-Campbell-Hausdorff series]]
+
