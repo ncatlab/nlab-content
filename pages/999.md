@@ -99,7 +99,8 @@ Compact objects in the derived categories of quasicoherent sheaves over a scheme
 In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]].  In general one should expect to instead preserve filtered colimits, as above.
 
 
-### Compact objects in Top 
+### Compact objects in $Top$
+ {#CompactObjectsInTop}
 
 Recall the above example of [[compact space|compact topological spaces]].  Notice that the statement which one might expect, that a topological space $X$ is [[compact space|compact]] if it is a compact object in [[Top]], is not quite right in general.
 
