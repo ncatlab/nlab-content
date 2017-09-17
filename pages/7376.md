@@ -55,11 +55,29 @@ The covering of $S_3$ is then $\mathfrak{H} =  \{H_1,H_1b,H_2,H_2a,H_2a^2\}$, an
 =--
 
 
-## Definition
+
++-- {: .un_defn}
+###### Definition
 
 A family, $\mathcal{H}$, of subgroups of $G$ is called __$n$-generating__ if the nerve, $N(\mathfrak{H})$, of the corresponding coset covering is [[n-connected space|(n-1)-connected]], i.e., $\pi_i N(\mathfrak{H}) = 0$ for $i\lt n$.
+=--
 
+Rephrasing and extending comments made earlier, we have 
++--{: .un_proposition}
+######Proposition
+There are isomorphisms:
 
+   (a) $\pi_0N(\mathfrak{H}) \cong G/\langle\bigcup H_j\rangle;$
+
+   (b) $\pi_1N(\mathfrak{H}) \cong Ker(\underset{\cap}{\sqcup} \mathcal{H}\to G).$
+=--
+
++-- {: .un_example}
+
+###### Examples continued
+
+Keeping in the case where $\mathcal{H} = \{H_1,H_2\}$, so two subgroups of $G$ then we have that $\underset{\cap}{\sqcup} \mathcal{H}\to G$ is an isomorphism if and only if $N( \mathfrak{H})$ is a [[tree]].  This gives one of the basic types of a [[graph of groups]].
+=--
 ## References
 
 * H. Abels and S. Holz, _Higher generation by subgroups_, J. Alg, 160, (1993), 311--341.
