@@ -3039,6 +3039,10 @@ $$
 
 which is such that a form $\omega$ is sent to a form which in a neighbourhood $(1-\epsilon,1]$ of $1 \in [0,1]$ is constant along $(1-\epsilon,1] \times U$ on the value $(0 , Id_{S^{n-1}})^* \omega$.
 
+(Notice that this step does not respect vertical forms.)
+
+Let now $0 \lt \epsilon \in \mathbb{R}$ some value such that the given forms $CE(\mathfrak{g}) \to \Omega^\bullet_{si}(D^k)$ are constant a distance $d \leq \epsilon$ from the boundary of the disk. Let $q : [0,\epsilon/2] \to [0,1]$ be given by multiplication by $1/(\epsilon/2)$ and $h : D_{1-\epsilon/2}^k \to D_1^n$ the injection of the $n$-disk of radius $1-\epsilon/2$ into the unit $n$-disk.
+
 We can then glue to the morphism
 
 $$
@@ -3046,23 +3050,27 @@ $$
   \Omega^\bullet(U \times S^{n-1})
   \to
   \Omega^\bullet(U \times [0,1] \times S^{n-1})
+  \stackrel{id \times q^* \times id}{\to_\simeq}
+  \Omega^\bullet(U \times [0,\epsilon/2] \times S^{n-1})   
 $$
 
-the morphism
+to the morphism
 
 $$
   CE(\mathfrak{g}) \to \Omega^\bullet(D^n)
   \to
   \Omega^\bullet(U \times \{1\} \times D^n)
+  \stackrel{h^*}{\to_\simeq}
+  \Omega^\bullet(U \times \{1\} \times D^n_{1-\epsilon/2})
 $$
 
-by smoothly identifying the union $[0,1] \times S^{n-1} \coprod_{S^{n-1}} D^n$ with another copy of $D^n$ (we glue a disk into an annulus to obtain a larger disk) to obtain in total a morphism
+by smoothly identifying the union $[0,\epsilon/2] \times S^{n-1} \coprod_{S^{n-1}} D^n_{1-\epsilon/2}$ with $D^n$ (we glue a disk into an annulus to obtain a new disk) to obtain in total a morphism
 
 $$
   CE(\mathfrak{g}) \to \Omega^\bullet(U \times D^n)
 $$
 
-with the desired properties.
+with the desired properties: at $u = 0$ the homotopy that we constructed is constant and the above construction hence restricts the forms to radius $\leq 1-\epsilon/2$ and then extends back to radius $\leq 1$ by the constant value that they had before. Away from 0 the homotopy in the rmaining $\epsilon/2$ bit smoothly interpolates to the boundary value.
 
 
 =--
