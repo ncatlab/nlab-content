@@ -56,6 +56,29 @@ This is the case precisely if $Maps_{hol}(-,X) \in Psh_\infty(SteinSp)$ satisfie
 
 ([Larusson 01, theorem 2.1](#Larusson01))
 
+## Examples
+
+### Multiplicative group and holomorphic line $n$-bundles
+
+The [[multiplicative group]] is a canonical [[∞-group]] object
+
+$$
+  \mathbb{G}_m \in Grp(\mathbb{C}Analytic\infty Grpd)
+$$
+
+given as an [[(∞,1)-presheaf]] by the assignment
+
+$$
+  \mathbb{G}_m \;\colon\; \Sigma \mapsto \mathcal{O}_\Sigma^\times
+$$
+
+that sends a [[Stein manifold]] to the additive [[abelian group]] of non-vanishing [[holomorphic functions]] on it.
+
+The [[delooping]] $\mathbf{B}\mathbb{G}_m$ is the universal [[moduli stack]] for [[holomorphic line bundles]] (the [[Picard stack]]) and the double delooping $\mathbf{B}^2 \mathbb{G}_m$ that for [[holomorphic line 2-bundles]] (the [[Brauer stack]]).
+
+## Related concepts
+
+* [[smooth ∞-groupoid]]
 
 ## References
 
