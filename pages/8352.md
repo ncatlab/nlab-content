@@ -34,7 +34,9 @@ For $R$ a [[ring]], every $R$-[[module]] admits a free resolution.
 
 =--
 
+## Examples
 
+* [[Adams resolution]]
 
 ## Related concepts
 
