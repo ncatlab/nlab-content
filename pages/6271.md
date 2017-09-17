@@ -16,7 +16,7 @@
 
 ## Idea
 
-Borel's theorme says that every [[power series]] is the [[Taylor series]] of some [[smooth function]]. In other words: for every collection of prescribed [[partial derivative]]s at some point, there is a smooth function having these as actual partial derivatives.
+Borel's theorem says that every [[power series]] is the [[Taylor series]] of some [[smooth function]]. In other words: for every collection of prescribed [[partial derivative]]s at some point, there is a smooth function having these as actual partial derivatives.
 
 ## Statement
 
