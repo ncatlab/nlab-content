@@ -77,6 +77,11 @@ $$
 
 its name.
 
+## Related concepts
+
+* [[K-theory spectrum]]
+
+* [[cohomology theory]]
 
 [[!redirects Eilenberg-MacLane spectrum]]
 [[!redirects Eilenberg--MacLane spectrum]]
