@@ -73,7 +73,7 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 * [[model structure for homotopy types]]
 
-* [[finite homotopy type]]
+* [[finite homotopy type]], [[homotopy type with finite homotopy groups]]
 
 * [[geometric homotopy type]]
 
