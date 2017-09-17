@@ -359,6 +359,14 @@ But [[inverse images]] can be nontrivial logical morphisms:
 Generally, a geometric morphism with logical inverse image is called an 
 [[atomic geometric morphism]]. See there for more details.
 
+### Structure preserved by geometric morphisms
+
+
+The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as "categories with finite limits that are well-powered indexed categories with respect to the canonical indexing over themselves". (...)
+
+This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14.
+
+
 ## Related concepts
 
 * [[logical morphism]]
