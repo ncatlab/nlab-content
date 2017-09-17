@@ -16,11 +16,14 @@ A useful survey of some of the topics discussed there is also in
 
 which is an exposition of Taylor's [[Abstract Stone Duality]].
 
+
 ## Related entries
 
 * [[Practical Foundations for Programming Languages]]
 
+
 category: reference
 
+[[!redirects Practical Foundations]]
 [[!redirects Practical Foundations of Mathematics]]
 [[!redirects PFM]]
