@@ -152,17 +152,17 @@ constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos
 
 This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
 
-### For principal bundles
+### For principal bundles {#PrincipalBund}
 
-#### Over bare groups
+#### Over bare groups {#BareGTor}
 
-For any (bare / discrete) [[group]] $G$, the presheaf topos
+For any (bare / discrete) [[group]] $G$, write $\mathbf{B}G$ for its [[delooping]] groupoid, the groupoid with a single object and $G$ as its endomorphisms. The presheaf topos
 
 $$
-  B G := G Set
+  G Set := PSh(\mathbf{B}G)
 $$
 
-of $G$-sets (objects are [[set]]s equipped with a $G$-[[action]], morphisms are $G$-equivariant maps between these) is the classifying topos for $G$-[[torsor]]s.
+of [[permutation representation]]s (objects are [[set]]s equipped with a $G$-[[action]], morphisms are $G$-equivariant maps between these) is the classifying topos for $G$-[[torsor]]s.
 
 For example, if $X$ is a [[topological space]], geometric morphisms from the [[sheaf topos]] $Sh(X)$ of [[sheaves]] on (the [[category of open subsets]] of) $X$ to $G Set$ are the same as $G$-[[principal bundle]]s over $X$
 
@@ -171,9 +171,21 @@ $$
   \,.
 $$
 
-For more details see [[Diaconescu's theorem]].
+This follows via [[Diaconescu's theorem]], which asserts that [[geometric morphism]]s $Sh(X) \to Sh(\mathbf{B}G)$ are equivalent to [[flat functor]]s
 
-#### Over topological groups
+$$
+  \mathbf{B}G \to Sh(X)
+  \,.
+$$
+
+Such a flat functor picks a single sheaf on $X$ and encodes a $G$-action on this sheaf such that this sheaf is the sheaf of [[section]]s of a $G$-[[principal bundle]] on $X$.
+
+
+#### In terms of geometric theories {#BareGTorGeomTheo}
+
+A [[geometric theory]] $T$ whose [[model]]s are $G$-torsors can be described as follows.  It has one sort, $X$, and one unary operation $g:X\to X$ for every element $g\in G$.  It has algebraic axioms $\top\vdash_x \;1(x) = x$ and $\top\vdash_x \;g(h(x)) = (g h)(x)$, which make $X$ into a $G$-set, and geometric axioms $\top \vdash\; \exists x \in X$ (inhabited-ness), $g(x) = x \;\vdash_x \;\bot$ for all $g\neq 1$ (freeness), and $\top\vdash_{x,y}\; \bigvee_{g\in G}\; g(x) = y$ (transitivity).
+
+#### Over topological groups {#TopGTor}
 
 If $G$ is a general [[topological group]] we have the  is a [[simplicial object|simplicial]] [[topological space]] $G^{\times \bullet}$. The category $Sh(G^{\times \bullet})$ of [[sheaves on a simplicial topological space|sheaves on this simplicial space]] is a topos. 
 
