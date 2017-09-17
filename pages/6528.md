@@ -51,7 +51,9 @@ $$
   \in H^4(X, \mathbb{Z})
 $$
 
-is called the **instanton number** of $\nabla$.
+is called the **instanton number** or the **instanton sector** of $\nabla$.
+
+Notice that therefore any connection, even if not self-dual, is in some instanton sector, as its underlying bundle has some second Chern class, meaning that it can be obtained from shifting a self-dual connection. The self-dual connections are a convenient choice of "base point" in each instanton sector.
 
 ## Properties
 
