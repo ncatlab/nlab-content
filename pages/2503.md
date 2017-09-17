@@ -122,7 +122,8 @@ This is proven in [BCSS](#BCSS).
 
 
 
-### As a homotopy fiber {#AsHomotopyFiber}
+### As a homotopy fiber 
+ {#AsHomotopyFiber}
 
 Up to equivalence, the string Lie 2-algebra is the [[homotopy fiber]] of the cocycle $\mu : \mathfrak{so}(n) \to \mathbf{b}^2 \mathfrak{u}(1)$, hence is the canonical $\mathbf{b} \mathfrak{u}(1)$-[[principal ∞-bundle]] over $\mathfrak{so}(n)$.
 
@@ -219,6 +220,12 @@ $$
 $$
 
 This is indeed a homotopy pushout even without resolving the point, because $CE(\mathfrak{string}) \leftarrow CE(\mathfrak{g})$ is already a cofibration, being the pushout of a cofibration by the above.
+
+### As the prequantum line 2-bundle of a Courant algebroid
+
+The [[delooping]] of a [[semisimple Lie algebra]] $\mathfrak{g}$ to a 1-object [[L-infinity algebroid]] $b \mathfrak{g}$ carries the [[Killing form]] as a quadratic bilinear [[invariant polynomial]] and is as such a [[symplectic Lie n-algebroid]] over the point for $n = 2$, hence a [[Courant Lie 2-algebroid]] over the point.
+
+As described at [[symplectic infinity-groupoid]] one can consider the higher analog of [[geometric quantization]] of these objects. This is again the homotopy fiber as [above](AsHomotopyFiber).
 
 ## Generalizations
 
