@@ -1,0 +1,30 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $A$ an [[abelian group]] and $(a,b) \in A \times A$ a pair of [[elements]], their **difference** is the element 
+
+$$
+ b - a \coloneqq b + a^{-1} \in A
+ \,.
+$$
+
+This is often considerd for the case that $A$ is the abelian group underlying a [[vector space]] $V$, which which case one typically denotes the elements instead as $(\vec x, \vec y) \in V \times V$ and their difference as
+
+$$
+  \vec y - \vec x \in V
+  \,.
+$$
+
+Specifically if $V = \mathbb{R}$ is the [[real line]] or the [[rational numbers]] of just the [[integers]], one just writes $y-x$. Etc.
+
+## Related concepts
+
+* A _[[derivative]]_ is a limiting ratio of differences.
+
+
+
+[[!redirects differences]]
