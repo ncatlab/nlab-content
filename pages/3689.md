@@ -129,7 +129,12 @@ Let $U : R Mod \to Set$ be the [[forgetful functor]] to the underlying sets.
 +-- {: .num_prop #RModHasZeroObject}
 ###### Proposition
 
-$R Mod$ has a [[zero object]], given by the 0-module, the trivial abelian group equipped with trivial $R$-action.
+$R Mod$ has a [[zero object]], given by the 0-module, the [[trivial group]] equipped with trivial $R$-action.
+
+=--
+
++-- {: .proof}
+###### Proof
 
 =--
 
@@ -224,6 +229,7 @@ Using prop. \ref{RModHasKernelsAndCokernels} this is directly checked on the und
 =--
 
 Now cor. \ref{RModIsAdditive} and prop. \ref{InRModMonosAreKernelOfTheirCokernel} imply theorem \ref{RModIsAbelian}, by definition.
+
 
 ## References
 
