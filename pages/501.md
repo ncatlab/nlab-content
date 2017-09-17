@@ -21,7 +21,7 @@ In [[constructive mathematics]], and internally to a [[topos]], a number of clas
 
 * A set is **subfinite** (or __$\tilde{B}$-finite__) if it admits an [[injection]] into some finite set $[n]$; that is, it is a [[subset]] of a finite set.
 
-* A set is **finitely indexed** (or **Kuratowski-finite**, **$K$-finite**, or even sometimes, confusingly, _subfinite_) if it admits a [[surjection]] from some finite set $[n]$; that is, it is a [[quotient set]] of a finite set.
+* A set is **finitely indexed** (or **[[Kuratowski finiteness|Kuratowski-finite]]**, **$K$-finite**, or even sometimes, confusingly, _subfinite_) if it admits a [[surjection]] from some finite set $[n]$; that is, it is a [[quotient set]] of a finite set.
 
 * A set is **subfinitely indexed** (or __Kuratowski-subfinite__ or **$\tilde{K}$-finite**) if it admits a surjection from a subfinite set, or equivalently admits an injection to a finitely indexed set; that is, it is a [[subquotient set]] of a finite set.
 
