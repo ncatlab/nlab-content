@@ -1,5 +1,24 @@
+
+
 ( _Shtuka_ is a Russian word colloquially meaning "thing".)
+
+
+## Related concepts
+
+* [[Rapoport-Zink space]]
+
 
 ##References
 
-* David Goss, [What is ... a Shtuka?](http://www.ams.org/notices/200301/what-is.pdf), Notices of the AMS 50(1), pp. 36-37.
+
+Reviews of the basic definition include
+
+* [[David Goss]], _[What is ... a Shtuka?](http://www.ams.org/notices/200301/what-is.pdf)_, Notices of the AMS 50(1), pp. 36-37.
+
+* Wikipedia, _[Drinfeld module -- Shtuka](http://en.wikipedia.org/wiki/Drinfeld_module#Shtukas)_
+
+More conceptial discussion, in the context of the [[function field analogy]], is in 
+
+* {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
+
+[[!redirects shtukas]]
