@@ -24,7 +24,9 @@ Now the categories of Banach spaces and Banachable spaces each possess notions o
 
 Put another way: as we (will) have defined it above, projectivity of a Banach space $P$ is stronger than merely asking that the functor $\operatorname{hom}(P,\cdot)$ preserves epimorphisms...
 
-
++--{: .query}
+[[David Roberts]]: I suppose it's about asking what you want to do with said projective objects - projective resolutions? Calculate some sort of cohomology? Know that every epimorphism (or analogous map - perhaps the quotient map of a ses?) to a projective object splits?
+=--
 
 ### Projective in which category? ###
 
