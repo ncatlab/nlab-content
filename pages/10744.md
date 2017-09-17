@@ -25,6 +25,12 @@ Specifically, the term is typically used for the particular presentation of [[E-
 
 In consequence people also speak for instance of _brave new Hopf algebroids_ when referring to the [[Hopf algebroids]] of (dual) $E$-[[Steenrod algebras]] for some [[ring spectrum]] $E$. See at _[Steenrod algebra -- Hopf algebroid structure](#Steenrod+algebra)_.
 
+## Related entries
+
+* [[higher algebra]], [[higher linear algebra]]
+
+* [[E-infinity geometry]]
+
 ## References
 
 Introductions and expositions include
