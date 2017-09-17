@@ -24,11 +24,35 @@ They relate to [[(∞,1)-adjunctions]] as [[monads]] relate to [[adjunctions]].
 
 ## Properties
 
+
+
+
 ### Homotopy coherence
  {#HomotopyCoherence}
 
 An [[(∞,1)-adjunction]] is uniquely determined already by its image in the
-[[homotopy 2-category]] ([Riehl-Verity 13, theorem 5.4.14](#RiehlVerity13)). This is not in general true for $(\infty,1)$-monads: these being [[monoids in an (∞,1)-category]] of [[endomorphisms]], they in general have relevant [[coherence]] data all the way up in degree. However, by the previous statement, those $(\infty,1)$-monads which arise from [[(∞,1)-adjunctions]] are determined by less coherence data ([Riehl-Verity 13, page 6](#RiehlVerity13)). This should justify the [[simplicial model category]]-theoretic discussion in ([Hess 10](#Hess10)) in [[(∞,1)-category theory]].
+[[homotopy 2-category]] ([Riehl-Verity 13, theorem 5.4.14](#RiehlVerity13)). This is not in general true for $(\infty,1)$-monads: these being [[monoids in an (∞,1)-category]] of [[endomorphisms]], they in general have relevant [[coherence]] data all the way up in degree. However, by the previous statement and theorem \ref{InfinityBarrBeckTheorem}, for $(\infty,1)$-monads given as arising from specified [[(∞,1)-adjunctions]] are determined by less (further) coherence data ([[Higher Algebra|Higher Algebra, remark 6.2.0.7, prop. 6.2.2.3]], [Riehl-Verity 13, page 6](#RiehlVerity13)). This should justify the [[simplicial model category]]-theoretic discussion in ([Hess 10](#Hess10)) in [[(∞,1)-category theory]].
+
+
+### Barr-Beck monadicity theorem
+ {#MonadicityTheorem}
+
++-- {: .num_theorem #InfinityBarrBeckTheorem}
+###### Theorem
+
+Let $(L \dashv R)$ a pair of [[adjoint (∞,1)-functors]] such that
+
+1. $R$ is a [[conservative (∞,1)-functor]];
+
+1. the [[domain]] [[(∞,1)-category]] of $R$ admits [[geometric realization]] ([[(∞,1)-colimit]]) of [[simplicial objects in an (∞,1)-category|simplicial objects]];
+
+1. and $R$ preserves these
+
+then for $T \coloneqq R \circ L$ the essentially unique $(\infty,1)$-endomorphism monad structure on the composite endofunctor, there is an [[equivalence of (∞,1)-categories]] identifying the [[domain]] of $R$ with the [[(∞,1)-category of algebras over an (∞,1)-monad]] over $T$ and $R$ itself as the canonical [[forgetful functor]].
+
+=--
+
+This appears as ([[Higher Algebra|Higher Algebra, theorem 6.2.0.6, theorem 6.2.2.5]], [Riehl-Verity 13, section 7](#RiehlVerity13))
 
 
 ## Related concepts
