@@ -1,10 +1,29 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#References#
+## Idea
 
-The fusion operation on Hilbert modules of [[von Neumann algebra]]s has been described in
+The operation called _Connes fusion_ (after [[Alain Connes]]) is a tensor product operation of [[Hilbert space]] [[bimodule]]s over [[von Neumann algebra]]s that adjusts the naive algebraic tensor product.
 
-* A. Connes, On the spatial theory of von Neumann algebras, J. of functional analysis 35 (1980) 153--164;
+## Applications
+
+Connes fusion is used to define fusion of positive energy representations of the [[loop group]] $\mathcal{L}S U(N)$ in
+
+* Antony Wassermann, _Operator algebras and conformal field theory III_ ([arXiv](http://arxiv.org/abs/math.OA/9806031)) .
+
+It is used in a proposal for a construction of [[string group]]-[[principal bundle]]s in the context of finding geometric models for [[elliptic cohomology]] in 
+
+* [[Stephan Stolz]] and [[Peter Teichner]], _What is an elliptic object?_ ([link](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf))
+
+
+
+## References
+
+The fusion operation on [[Hilbert space|Hilbert]] [[module]]s of [[von Neumann algebra]]s has been described in
+
+* [[Alain Connes]], _On the spatial theory of von Neumann algebras_ , J. of functional analysis 35 (1980) 153--164;
 
 and in 1983 studied further by V. Jones in context of subfactors. 
 
@@ -15,15 +34,4 @@ A useful review of Connes fusion observing some simplifications is
 An attempt to summarize that in a blog entry is [here](http://golem.ph.utexas.edu/string/archives/000718.html)
 
 R. M Brower and N. P. Landsman described a [[bicategory]] of von Neumann algebras, Connes' correspondences as morphisms and (bounded) intertwiners as 2-cells. They proved that the equivalence in that bicategory is the same as usual [[Morita equivalence]] of von Neumann algebras as studied by [[Mark Rieffel]] and others. 
-
-#Applications#
-
-Connes fusion is used to define fusion of positive energy representations of the [[loop group]] $\mathcal{L}S U(N)$ in
-
-* Antony Wassermann, _Operator algebras and conformal field theory III_ ([arXiv](http://arxiv.org/abs/math.OA/9806031)) .
-
-It is used to define [[elliptic cohomology]] in 
-
-* Stephan Stolz and Peter Teichner, _What is an elliptic object?_ ([link](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf))
-
 
