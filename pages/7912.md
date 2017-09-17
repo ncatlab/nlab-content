@@ -11,4 +11,6 @@
 
 * [[deformation quantization]]
 
+* [[Guillemin-Sternberg geometric quantization conjecture]]
+
 category: people
