@@ -33,6 +33,11 @@ In the definition of **quasibarreled** the barrels are replaced by sets that are
 In [[locally convex]] [[TVS]] which is a [[Baire space]] is barreled.
 =--
 
++-- {: .un_prop}
+###### Proposition
+A [[locally convex]] [[TVS]] is barreled iff its topology is the [[strong topology]].
+=--
+
 ## Examples ##
 Since all [[locally convex]] [[TVS]] that are [[Baire spaces]] are barreled, the examples naturally include [[Fréchet spaces]], [[Banach spaces]] and [[Hilbert spaces]].
 
