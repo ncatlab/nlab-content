@@ -6,6 +6,14 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
 =--
 =--
 
@@ -15,7 +23,7 @@
 
 ## Idea 
 
-Maxwell's equations for the [[electromagnetic field]] $F \in \Omega^2(X)$ on a $d$-dimensional [[Riemannian manifold|pseudo-Riemannian space]] $X$ in the presence of [[electric current]] $j_{el} \in \Omega^{d-1}(X)$ read
+Maxwell's equations for the [[electromagnetic field]] $F \in \Omega^2(X)$ on a $d$-dimensional [[spacetime]] $X$ in the presence of [[electric current]] $j_{el} \in \Omega^{d-1}(X)$ read
 
 $$
   d F = 0
@@ -41,9 +49,7 @@ The other thing is a more conceptual problem: the [[electromagnetic field|Dirac 
 
 Indeed, to circumvent dealing with this problem Dirac, in his original argument, has considered removing from $X$ the support of any magnetic charge density. 
 
-It was Dan Freed who discussed that the global description of the [[electromagnetic field]] does make sense even in the presence of electric current if one generalizes the model of a degree-$2$ [[differential cohomology|differential cocycle]] to that of a [[twisted cohomology|twisted]] cocycle.
-
-* [[Dan Freed]], _Dirac charge quantization and generalized differenbtial cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+It was [[Dan Freed]] in ([Freed](#Freed)) who discussed that the global description of the [[electromagnetic field]] does make sense even in the presence of electric current if one generalizes the model of a degree-$2$ [[ordinary differential cohomology|differential cocycle]] to that of a [[twisted cohomology|twisted]] cocycle.
 
 The magnetic current $3$-form $j_{mag}$ is then realized as the curvature characteristic $3$-form of a degree-$3$ cocycle in [[ordinary differential cohomology]] $\hat j_{mag}$, the [[electromagnetic field]] $F$ is the curvature characteristic $2$-form of a degree-$2$ [[twisted cohomology|twisted]] differential cocycle $\hat F$ and the equation
 
@@ -105,6 +111,13 @@ $$
 Comparing with the discussion at [[quantum anomaly]], it follows that the non-triviality of this $2$-cocycle is the _higher gauge theory anomaly_ of the ordinary action functional describing the coupling of electric charges to the [[electromagnetic field]] in the presense of magnetic charges.
 
 This phenomenon has traditionally been known somewhat implicitly in the context of the [[Green–Schwarz mechanism]].
+
+## References
+
+The interpretation of magnetic charge in terms of degree-3 cocycles in [[ordinary differential cohomology]] is in the introduction-section of
+
+* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+
 
 [[!redirects magnetic current]]
 [[!redirects magnetic charges]]
