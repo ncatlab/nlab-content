@@ -422,23 +422,37 @@ between a [[vector bundle]] $V \to X$ with [[structure group]] explicitly being 
 #### Moduli space of orthogonal structures: twisted cohomology
  {#ModuliSpaceOfOrhtogonalStructures}
 
-In order to understand the space of choices of vielbein fields on a given tangent bundle, hence the _[[moduli space]]_ or _[[moduli stack]]_ of [[orthogonal structures]]/[[Riemannian metrics]] on $X$, it is useful to first consider the [[homotopy fiber]] of the morphism $\mathbf{c} : \mathbf{B}O(n) \to \mathbf{B}GL(n)$. 
+We consider now the space of choices of vielbein fields on a given tangent bundle, hence the _[[moduli space]]_ or _[[moduli stack]]_ of [[orthogonal structures]]/[[Riemannian metrics]] on $X$.
 
-> We need some basics of _[[homotopy pullbacks]]_: a) to compute them by the [[factorization lemma]], b) that the [[derived hom-space]] functor $\mathbf{H}(X,-)$ preserves them, and c) (further below) we need that they satisfy the [[pasting law]].
+This is usefully discussed in terms of the [[homotopy fiber]] of the morphism $\mathbf{c} : \mathbf{B}O(n) \to \mathbf{B}GL(n)$. One finds that the homotopy fiber  is the [[coset]] $O(n) \backslash GL(n)$.
 
-One finds that the homotopy fiber  is the [[coset]] $O(n) \backslash GL(n)$. We may think of the [[fiber sequence]]
+This means that there is a diagram
 
 $$
-  \array{  
-    GL(n)/O(n) &\to& \mathbf{B} O(n)
-    \\
-    && \downarrow
-    \\
-    && \mathbf{B} GL(n)
+  \array{
+     GL(n)/O(n) &\to& \mathbf{B}O(n)
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow
+     \\
+     * &\to& \mathbf{B} GL(n)
   }
 $$
 
-as being a bundle in $\mathbf{H}$ over the [[moduli stack]] $\mathbf{B}GL(n)$ with typical fiber $GL(n)/O(n)$. It is  the smooth [[associated infinity-bundle|associated bundle]] to the smooth [[universal principal bundle|universal GL(n)-bundle]] induced by the canonical [[action]] of $GL(n)$ on $O(n)\backslash GL(n)$.
+in $\mathbf{H}$, and that $GL(n)/O(n)$ is [[universal property|universal]] with the property of sitting in such a diagram.
+
+We may think of this _[[fiber sequence]]_ as being a bundle in $\mathbf{H}$ over the [[moduli stack]] $\mathbf{B}GL(n)$ with typical fiber $GL(n)/O(n)$. As such, it is  the smooth [[associated infinity-bundle|associated bundle]] to the smooth [[universal principal bundle|universal GL(n)-bundle]] induced by the canonical [[action]] of $GL(n)$ on $O(n)\backslash GL(n)$.
+
+One basic properties of homotopy pullbacks is that they are preserved by forming [[derived hom-space|derived hom-spaces]] $\mathbf{H}(X,-)$ out of any other object $X$. This means that also
+
+$$
+  \array{
+     C^\infty(X,GL(n)/O(n)) &\to& \mathbf{H}(X,\mathbf{B}O(n))
+     &\to&
+     \mathbf{H}(X, \mathbf{B}GL(n))
+  }
+$$
+
+is a [[fiber sequence]]. This in turn says that orthogonal structures on $X$ such that the underlying tangent bundle is trivializable, are given by smooth functions into $GL(n)/O(n)$.
 
 This means that if the tangent bundle $T X$ is trivializable, then the coset space $O(n)\backslash GL(n)$ is the moduli space for vielbein fields on $T X$: 
 
