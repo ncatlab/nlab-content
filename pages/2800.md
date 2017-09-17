@@ -10,6 +10,10 @@ The [[simplex category]] may be regarded as the category of all linear [[directe
 
 ## Definition
 
+### Finite planar level tree
+
+(... ) see Berger
+
 ### Finite symmetric rooted trees
 
 We define the category $\Omega$ _finite symmetric rooted trees_.
@@ -27,7 +31,10 @@ A [[presheaf]] on $\Omega$ is a [[dendroidal set]], a generalization of a [[simp
 
 ## References
 
-See the references at [[dendroidal set]].
+
+* [[Clemens Berger]], _A cellular nerve for higher categories_, Advances in Mathematics 169, 118-175 (2002) ([pdf](http://math1.unice.fr/~cberger/nerve.pdf))
+
+* See the references at [[dendroidal set]].
 
 
 [[!redirects tree categories]]
