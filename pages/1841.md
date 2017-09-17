@@ -22,13 +22,19 @@ In the presence of [[magnetic charge]] the electromagnetic field is modeled by a
 
 The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]] is the [[Kalb-Ramond field]].
 
+## History
+
+...historical section eventually goes here..
+
+
+...electricity and magnetism were discovered independently, Maxwell's equations in classical vector analysis which allows the formulation as a tensor $F$ as below, and "magnetism is a consequence of electrostatics and covariance, hence the composite noun electromagnetism"...
+
+(...)
+
+
+
+
 ## Mathematical model from physical input
-
-+-- {: .query}
-[[Tim van Beek]]: How about a short historical section: electricity and magnetism were discovered independently, Maxwell's equations in classical vector analysis which allows the formulation as a tensor F as below, and "magnetism is a consequence of electrostatics and covariance, hence the composite noun electromagnetism"?
-
-[[Ian Durham]]: I'm all for it, but I doubt my opinion counts.  Nevertheless, I'd be willing to write a section on it.
-=-- 
 
 Physical experiment shows that the electromagnetic [[field strength]] on a pseudo-Riemannian spacetime $X$ has the following properties.
 
