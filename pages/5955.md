@@ -66,7 +66,7 @@ This presents a corresponding [[equivalence of (∞,1)-categories]]. If $R$ is a
 
 =--
 
-This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a Quillen equivalence is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). A direct description as an equivalence of $(\infty,1)$-categories appears as ([Lurie, theorem 7.1.2.13](#Lurie)).
+This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a Quillen equivalence is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). See also the discussion at _[[stable model categories]]_. A direct description as an equivalence of $(\infty,1)$-categories appears as ([Lurie, theorem 7.1.2.13](#Lurie)).
 
 
 
@@ -77,7 +77,10 @@ This is a stable version of the [[Dold-Kan correspondence]].
 
 =--
 
-See [[algebra spectrum]] for the corresponding statement for $H R$-algebra spectra and [[dg-algebra]]s.
+
+See at __[[algebra spectrum]]_ for the corresponding statement for $H R$-algebra spectra and [[dg-algebras]].
+
+
 
 +-- {: .num_example}
 ###### Example
