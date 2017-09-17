@@ -32,6 +32,13 @@ For $p = 1$ the **Green-Schwarz superstring** (at the center of attention in [[s
 
 ## Properties
 
+### Siegel- or $\kappa$-symmetry
+ {#KappaSymmetry}
+
+The naive Green-Schwarz-action produces "too many fermionic fields". This is due to an extra symmetry first discussed in ([Siegel 83](#Siegel83)) for the [[superparticle]] and in ([Siegel 84](#Siegel84)) for the [[superstring]] in 3-dimensions, and finally in ([GreenSchwarz 84](#GreenSchwarz)) for the critical superstring in 10-dimensions. This is also called **$\kappa$-symmetry**.
+
+### Dimensions
+
 The Green-Schwarz action functional of a $p$-brane propagating on an $d$-dimensional target spacetimes makes sense only for special combinations of $(p,d)$.
 
 
@@ -54,6 +61,8 @@ The corresponding table has been called the **brane scan**
 
 ## References 
 
+### General
+
 A canonical textbook reference is
 
 * [[Eric D'Hoker]], _String theory -- lecture 10: Supersymmetry and supergravity_ , in part 3 of
@@ -62,6 +71,7 @@ A canonical textbook reference is
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
+### Dimensions
 
 The "brane scan" table showing the consistent dimension pairs for the Green-Scharz action functional was depicted in
 
@@ -80,7 +90,16 @@ More along these lines is in
 See also [[division algebras and supersymmetry]].
 
 
+### $\kappa$-Symmetry
 
+* Warren Siegel, _Hidden Local Supersymmetry In The Supersymmetric Particle Action_ Phys. Lett. B 128, 397 (1983)
+  {#Siegel83}
+
+* Warren Siegel, _Light Cone Analysis Of Covariant Superstring_ , Nucl. Phys. B 236, 311 (1984).
+  {#Siegel84}
+
+* [[Michael Green]], [[John Schwarz]], _Covariant Description Of Superstrings_ , Phys. Lett. B 136, 367 (1984).
+ {#GreenSchwarz}
 
 [[!redirects Green-Schwarz string]]
 [[!redirects Green-Schwarz superstring]]
