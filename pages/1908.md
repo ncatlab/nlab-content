@@ -79,4 +79,10 @@ There may also be extra structure induced more directly on $K(C)$. For instance 
 
 ...
 
+
+[[!redirects decategorification]]
+[[!redirects decategorified]]
+[[!redirects decategorifies]]
+[[!redirects decategorify]]
+
 [[!redirects isomorphism class]]
