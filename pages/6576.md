@@ -58,4 +58,6 @@ page 89 (20 of 49) at
 
 [[!redirects left-invariant 1-form]]
 [[!redirects left-invariant 1-forms]]
+[[!redirects left invariant 1-form]]
+[[!redirects left invariant 1-forms]]
 
