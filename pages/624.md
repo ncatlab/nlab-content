@@ -109,7 +109,21 @@ See at _[KK-theory -- Poincare duality](http://ncatlab.org/nlab/show/KK-theory#P
 
 ### Properties
 
-Dualizable objects support a good abstract notion of [[trace]].
+Dualizable objects support a good abstract notion of [[trace]]. (...)
+
+
+
+## In a closed category
+
+In a [[closed category]] $(\mathcal{C}, [-,-], 1)$ the dual to an object $X \in \mathcal{C}$ is defined to be the [[internal hom]] into the [[unit object]]
+
+$$
+  \mathbb{D}X \coloneqq [X,1]
+  \,.
+$$
+
+If $\mathcal{C}$ is a [[compact closed category]] then $\mathbb{D}X$ is also a dual object to $X$ in the above monoidal sense.
+
 
 ## In a symmetric monoidal $(\infty,n)$-category
 
