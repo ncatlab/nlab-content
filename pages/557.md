@@ -27,3 +27,5 @@ is called an **algebra** or **model** of $T$ in $C$.  The category of algebras o
 ## References ##
 
 *  [[Steve Lack]], _[Composing PROPs](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html)_, [[TAC]] 13 (2004), No. 9, 147--163.
+
+[[!redirects PROPs]]
