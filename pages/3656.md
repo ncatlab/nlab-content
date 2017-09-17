@@ -3,15 +3,23 @@
 * automatic table of contents goes here
 {:toc}
 
+
++-- {: .query}
+Comment by [[Tim van Beek]]: There is possible overlap with [[projection measure]], and I'm not sure how to reconcile this.
+=--
+
 # Idea
-Spectral measures are an essential tool of [[functional analysis]] on [[Hilbert space]]s. Spectral measures are a projection-valued measures and are used to state various forms of [[spectral theorem]]s.
+Spectral measures are an essential tool of [[functional analysis]] on [[Hilbert space]]s. Spectral measures are projection-valued measures and are used to state various forms of [[spectral theorem]]s.
 
 In the following, let $\mathbb{H}$ be a [[Hilbert space]] and $\mathcal{B}(\mathcal{H})$ be the algebra of bounded linear operators on $\mathbb{H}$ and $\mathcal{P}(\mathcal{H})$ the orthogonal projections.
 
-##resolution of identity
+##real spectral measure##
+The following paragraphs will explain the concept of a spectral measure in the real case, this is sufficient if one is interested in [[spectral theorem]]s of selfadjoint operators only, and can also serve as a simple introduction to the general ideas.
+
+###resolution of identity###
 Do not confuse this concept with the "resolution of identity" in (real) [[differential geometry]].
 
-definition: A resolution of identity is a map $E: \mathbb{R} \to \mathcal{P}(\mathcal{H})$ satisfying the following conditions:
+definition: A resolution of the identity is a map $E: \mathbb{R} \to \mathcal{P}(\mathcal{H})$ satisfying the following conditions:
 
 1. (**monotony**): For $\lambda_1, \lambda_2 \in \mathbb{R}$ with $\lambda_1 \leq \lambda_2$ we have $E(\lambda_1) \leq E(\lambda_2)$. 
 
@@ -19,7 +27,37 @@ definition: A resolution of identity is a map $E: \mathbb{R} \to \mathcal{P}(\ma
 
 3. (**boundary condition**): $s-\lim_{\epsilon \to -\infty} E(\lambda) = 0$ and $s-\lim_{\epsilon \to \infty} E(\lambda) = \mathbb{1}$.
 
+If there is a finite $\mu \in \mathbb{R}$ such that $E_{\lambda} = 0$ for all $\lambda \leq \mu$ and $E_{\lambda} = \mathbb{1}$ for all $\lambda \geq \mu$, than the resolution is called **bounded**, otherwise **unbounded**.
 
+###spectral measure and spectral integral###
+Let E be a spectral resolution and $I$ be a bounded Intervall in $\mathbb{R}$. We define the spectral measure of $I$ with respect to $E$ as
+$$
+E(J):= \begin{cases}
+
+           E(y-) - E(x)  & \text{for }\quad I=(x,y) \\
+           E(y-) - E(x-) & \text{for }\quad I=[x,y) \\
+           E(y)  - E(x)  & \text{for }\quad I=(x,y] \\
+           E(y)  - E(x-) & \text{for }\quad I=[x,y] \\
+
+        \end{cases}
+$$
+
+This allows us to define the integral of a step function $u = \sum_{k=1}^{n} \alpha_k \chi_{I_k} $ with respect to E as
+
+$$
+\integral u(\lambda) dE(\lambda) := \sum_{k=1}^{n} \alpha_k E(I_k)
+$$
+
+The value of this integral is a bounded operator.
+
+As in conventional measure and integration theory, the integral can be extended from step functions to Borel-measurable functions. In this case one often used notation is
+$$
+E(u) = \integral u(\lambda) dE(\lambda)
+$$
+For general function $u, E(u)$ need not be a bounded operator of course, the domain of $E(u)$ is (theorem):
+$$
+D(E(u)) = \{ f \in \mathcal{H} : \int |u(\lambda)|^2 d\langle E(\lambda)f, f\rangle \lt \infty \}
+$$
 
 # Spectrum of Representations of Groups, the SNAG Theorem
 The SNAG theorem is necessary to explain the spectrum condition of the [[Haag-Kastler axioms]].
