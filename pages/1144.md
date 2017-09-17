@@ -39,8 +39,9 @@ Moreover, via the [[homotopy hypothesis]] the study of [[topological space]]s is
 
 * [[rational homotopy equivalence]]
 
-> ... weak equivalences those morphisms in [[Top]] that induce isomorphisms on [[rationalization|rationalized]] [[homotopy group]]s ... 
+* [[rational space]]
 
+* [[rationalization]]
 
 ### Lie theoretic models for rational homotopy types {#LieModels}
 
