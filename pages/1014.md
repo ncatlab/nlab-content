@@ -5,7 +5,7 @@
 
 ## Motivation
 
-In [[material set theory]], there is an intuitive conception of what a [[set]] is, which may be stated informally as follows: a set is a collection of sets.  Actually, it is possible to have [[urelemente]] in a material set theory, although the most common axiom systems do not allow this; in any case we can say that a *pure* set is a collection of pure sets.
+In [[material set theory]], there is an intuitive conception of what a [[set]] is, which may be stated informally as follows: a set is a collection of sets.  Actually, it is possible to have [[urelements]] in a material set theory (such as [[ZFA]]), although the most common axiom systems do not allow this; in any case we can say that a *pure* set is a collection of pure sets.
 
 The primary motivation for [[structural set theory]] is that this conception of a set is not needed in ordinary [[mathematics]]; it is sufficient to characterise the [[category of sets]] (although a structural set theory can also be described in ways other than category-theoretic).  However, material set theory is itself part of mathematics, and we may want to describe the material notion of a pure set in structural terms.
 
