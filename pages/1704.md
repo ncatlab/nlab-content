@@ -480,7 +480,7 @@ The statement is reproduced in section IV of
 For the simple case that 
 $G$ is [[group]],
 in which case $\rho_C$ necessarily takes values not
-just inweak equivalences but is isomorphisms of 
+just in weak equivalences but is isomorphisms of 
 simplicial sets, this says that
 $P \to X$ is a  $G$-principal $\infty$-bundle.
 In particular the _principality_
