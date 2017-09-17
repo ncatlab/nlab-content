@@ -136,6 +136,8 @@ $$
 
 ## Related concepts
 
+* [[symplectic category]]
+
 * [[span trace]]
 
 ## References
@@ -172,5 +174,19 @@ A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regar
 [[!redirects (∞,n)-categories of spans]]
 
 [[!redirects (infinity,n)-categories of spans]]
+
+[[!redirects (∞,n)-category of correspondences]]
+[[!redirects (∞,n)-categories of corespondences]]
+
+[[!redirects (infinity,n)-category of correspondences]]
+[[!redirects (infinity,n)-categories of correspondences]]
+
+[[!redirects (∞,1)-category of correspondences]]
+[[!redirects (∞,1)-categories of corespondences]]
+
+[[!redirects (infinity,1)-category of correspondences]]
+[[!redirects (infinity,1)-categories of correspondences]]
+
+
 
 [[!redirects Span]]
