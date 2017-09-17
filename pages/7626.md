@@ -31,6 +31,12 @@ In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species 
 
 * [[Jürg Fröhlich]], F. Gabbiani, _Braid statistics in local quantum theory_, Reviews in Mathematical Physics, Volume 2, Issue 03, pp. 251-353 (1990).
 
+Discussion of braid group statistics of [[string-localized quantum fields]] or similar 1-dimensional entities in dimension 2+1 was maybe first discussed in 
+
+* J. M. Leinaas and J. Myrheim, _On the Theory of Identical Particles_, Il Nuovo
+Cimento 37 b (1977), 1-23.
+
+
 [[!redirects anyon]]
 [[!redirects anyons]]
 
