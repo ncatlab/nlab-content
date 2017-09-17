@@ -188,7 +188,7 @@ coordinates the canonical $n+1$-form on $(J^1 E)^* \cong \Lambda_1^{n+1} T^* E$ 
 $$
           \alpha = P dQ + P^i_a dQ_i^a, 
 $$
-and the $n+2$ multisymplectic form is
+and the $n+2$ [[multisymplectic form]] is
 $$ 
 \omega = dP \wedge dQ + dP^i_a \wedge dQ_i^a.
 $$
@@ -320,7 +320,7 @@ This system of equations is a generalization of Hamilton's equations for the poi
 
 As explained above, the covariant phase space for the bosonic string is the dual jet bundle 
 $(J^1 E)^*$, and this space is equipped with a canonical 2-form $\alpha$ 
-whose exterior derivative $\omega = d \alpha$ is a multisymplectic 3-form.
+whose exterior derivative $\omega = d \alpha$ is a [[multisymplectic form|multisymplectic 3-form]].
 Using the isomorphism
 $$         (J^1 E)^* \cong  T \Sigma \otimes T^*X \times \mathbb{R} ,$$
 a point in $(J^1 E)^{*}$ gets coordinates $(q^i,u^a,p^{i}_{a},e)$. 
@@ -381,7 +381,7 @@ Which is different, but related...
 
 ## Survey of developments in the field {#SurveyDevelopments}
 
-There is in this sense a covariant form of the [[Legendre transformation]] which associates to every field variable as many conjugated momenta -- the multimomenta -- as there are space-time dimensions. These, together with the field variables, those of $n$-dimensional space-time, and an extra variable, the energy variable, span the multiphase space [1]. For a recent exposition on the differential geometry of this construction, see [2]. Multiphase space, together with a closed, nondegenerate differential $(n+1)$-form, the multisymplectic form, is an example of a multisymplectic manifold [3]. 
+There is in this sense a covariant form of the [[Legendre transformation]] which associates to every field variable as many conjugated momenta -- the multimomenta -- as there are space-time dimensions. These, together with the field variables, those of $n$-dimensional space-time, and an extra variable, the energy variable, span the multiphase space [1]. For a recent exposition on the differential geometry of this construction, see [2]. Multiphase space, together with a closed, nondegenerate differential $(n+1)$-form, the [[multisymplectic form]], is an example of a multisymplectic manifold [3]. 
 
 Among the achievements of the multisymplectic approach is a geometric formulation of the relation of infinitesimal symmetries and covariantly conserved quantities ([[Noether's theorem]]), see [4] for a recent review, and [5,6] for a clarification of the improvement techniques ("Belinfante-Rosenfeld formula") of the energy-momentum tensor in classical field theory. 
 
