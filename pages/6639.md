@@ -1,4 +1,9 @@
-There are several approaches using [[topos theory]] to formulate and study foundations of [[quantum mechanics]]. Some people say "quantum topos theory" what is abit unfortunate as it is not about some quantum analogue of a topos (while such an object may be desired, say in noncommutative geometry), but about using the usual topoi to model quantum mechanics. 
+
+> More details on the content of this entry are at _[[Bohr topos]]_.
+
+***
+
+There are several approaches using [[topos theory]] to formulate and study foundations of [[quantum mechanics]]. Some people say "quantum topos theory", which is however a bit unfortunate as it is not about some quantum analogue of a topos (while such an object may be desired, say in noncommutative geometry), but about using the usual topoi to model quantum mechanics. 
 
 The main proposal is from [[Chris Isham]] and his school, see [[higher category theory and physics]]. 
 
