@@ -32,7 +32,7 @@ A _frame_ for $\mathcal{L}_\omega(n)$ is a $(n+1)$-tuple $\mathfrak{F} = (W,\{R_
 
 
 
-(More to go here ... frames fo multimodal languages, and ones with unary and more general relations.)
+(More to go here ... frames with unary and more general relations.)
 
 
 ## Models in Modal Logics ## 
