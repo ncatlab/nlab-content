@@ -24,14 +24,34 @@ The definition of internal site is obvious and straightforward.
 +-- {: .num_defn}
 ###### Definition
 
-For $\mathcal{E}$ a [[topos]], an **internal site** in $\mathcal{E}$ is an [[internal category]] $\mathbb{C}$ equipped with an internal [[coverage]].
+For $\mathcal{E}$ a [[topos]], an **internal site** in $\mathcal{E}$ is an [[internal category]] $\mathbb{C} = C_1 \rightrightarrows C_0$ equipped with an internal [[coverage]].
 
 =--
 
 
-Spelled out in components, this means the following:
+Spelled out in components, this means the following (as in ([Johnstone](#Johnstone)), we shall only define _sifted_ coverages). First, we define the subobject $Sv(\mathbb{C}) \hookrightarrow PC_1$ of _sieves_, where a subobject $S \hookrightarrow C_1$ is a sieve if the composite
+$$
+S\times_{C_0} C_1 \to C_1\times_{C_0} C_1 \to C_1
+$$
+factors through $S$.
 
-(...)
+* First, an internal coverage is given by a span $C_0 \stackrel{b}{\leftarrow} T \stackrel{c}{\to} Sv(\mathbb{C})$
+
+* If $\in_{C_1} \stackrel{(n,e)}{\to} PC_1 \times C_1$ is the usual membership relation, then the square
+$$
+\array{
+T \times_{PC_1} \in_{C_1} & \stackrel{e pr_2}{\to} & C_1 \\
+{}^{pr_1}\downarrow   & {}                & \downarrow^{s} \\
+T                  & \stackrel{b}{\to} & C_0
+}
+$$
+commutes, where the pullback in the top left corner is of the map $\in_{C_1} \to PC_1$ along $T \to Sv(\mathbb{C}) \hookrightarrow PC_1$.
+
+* We then define the subobject $Q\hookrightarrow T\times_{C_0} C_1 \times_{C_0} T$ as
+$$
+  Q := \{(t',a,t) | ... \}
+$$
+(in the internal language). The composite $Q \hookrightarrow T\times_{C_0} C_1 \times_{C_0} T \stackrel{pr_{23}}{\to} C_1 \times_{C_0} T$ is required to be an epimorphism.
 
 ## Properties
 
