@@ -28,3 +28,6 @@ In [[string theory]] a [[spacetime]] [[landscape of string theory vacua|vaccuum]
   * [[dual heterotic string theory]]
 
   * [[landscape of string theory vacua]]
+
+[[!redirects heterotic superstring]]
+[[!redirects heterotic superstrings]]
