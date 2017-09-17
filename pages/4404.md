@@ -47,7 +47,7 @@ A more philosohphical discussion can be found in:
 
 Brans conjectured in the papers above, that exotic smoothness should be a source of an additional gravitational field (Brans conjecture). This conjecture was confirmed for compact 4-manifolds (using implicitly a mapping of basic classes):
 
-* [Torsten Asselmeyer[Torsten Asselmeyer-Maluga]] _Generation of source terms in general relativity by differential structures_ Class. Quant. Grav. 14, (1996), 749 - 758
+* [[Torsten Asselmeyer]] _Generation of source terms in general relativity by differential structures_ Class. Quant. Grav. 14, (1996), 749 - 758
 
 Using the invariant of L. Taylor [arXiv](http://de.arxiv.org/abs/math/9807143), Sladkowski confirmed the conjecture for the exotic ${\mathbb R}^4$ in:
 
@@ -135,7 +135,7 @@ A semi-classical approach to the functional integral is discussed here:
 
 * [[Christofer Duston]] _Exotic smoothness in 4 dimensions and semiclassical Euclidean quantum gravity_ [arxiv](http://arxiv.org/abs/0911.4068)
 
-A complete experssion for the state sum in [[quantum gravity]] for compact 4-amnifolds by inclusion of exotic smoothness using the knot surgery
+A complete expression for the state sum in [[quantum gravity]] for compact 4-amnifolds by inclusion of exotic smoothness using the knot surgery
 
 * [[Torsten Asselmeyer-Maluga]], _Exotic smoothness and quantum gravity_ , Class. Quantum Grav. 27 (2010) 165002. ([web](http://stacks.iop.org/0264-9381/27/165002)) or ([arXiv](http://arxiv.org/abs/1003.5506))
 
