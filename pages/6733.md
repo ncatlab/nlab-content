@@ -221,6 +221,8 @@ This condition reduces to the above one for the $B$-field under [[double dimensi
 
 * [[11-dimensional supergravity]], [[M-theory]]
 
+* [[supergravity Lie 6-algebra]], [[M-theory super Lie algebra]]
+
 [[!include gauge theory from AdS-CFT -- table]]
 
 [[!include table of branes]]
