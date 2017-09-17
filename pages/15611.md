@@ -1,0 +1,18 @@
+
+
+## Idea
+
+[[non-Euclidean geometry]] for positive curvature.
+
+## Related concepts
+
+| [[synthetic geometry]]  |
+|-------------------------|
+| [[Euclidean geometry]]  |
+| [[hyperbolic geometry]] |
+| [[elliptic geometry]]   |
+
+## References
+
+* Wikipedia, _[Elliptic geometry](http://en.wikipedia.org/wiki/Elliptic_geometry)_
+
