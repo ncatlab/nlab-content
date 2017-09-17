@@ -41,7 +41,7 @@ $$
   }
 $$
 
-such that each row and each column is a [[complex]] (the [[differentials]] square to 0: $\partial^v \circ \partial^v = 0$ and $\partial^h \circ \partial^h = 0$) and such that all the [[commuting diagram|squares commute]].
+such that each row and each column is a [[complex]] (the [[differentials]] square to 0: $\partial^v \circ \partial^v = 0$ and $\partial^h \circ \partial^h = 0$) and such that all the squares [[commuting diagram| commute]], or 'anti-commute' according to taste; (see below).
 
 This means that a **double complex** is a [[complex]] in a category of [[complexes]]. 
 
