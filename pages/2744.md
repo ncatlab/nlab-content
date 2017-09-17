@@ -482,7 +482,8 @@ A [[higher category theory|higher categorial]] interpretation of [[n-plectic geo
 
 * [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
 
-This builds a bridge to the notion of [[n-symplectic manifold]]s.
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+
 
 ### On quantization of multisymplectic geometry {#RefsonQuantization}
 
