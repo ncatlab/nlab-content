@@ -18,7 +18,7 @@
 
 ## Idea ##
 
-In [[physics]], **universality** is a "term of the art" which means the following:
+In [[physics]], **universality** is a term which means the following:
 
 +-- {: .standout}
 Under the proper conditions, different systems can exhibit the same behaviour, as measured by quantitative indices, if they meet the same qualitative criteria.  Sets of systems which are equivalent in this manner are known as **universality classes**.
