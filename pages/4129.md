@@ -1,10 +1,15 @@
+
+## Defintion
+
+### General
+
 In geometry, a **flag** is a chain of incidence relations, as for example between distinct linear subspaces 
 
 $$V_0 \subseteq V_1 \subseteq \ldots \subseteq V_n$$ 
 
 of a fixed vector space $V$, or between isotropic subspaces, etc. 
 
-## Flags of posets
+### Flags of posets
 
 Generally speaking, if $P$ is a [[poset]], a flag is a chain 
 
@@ -23,3 +28,8 @@ which sends a [[simplicial complex]] $(V, \Sigma)$ to $\Sigma$ (regarded as a po
 $$Flag \circ U: SimpComplex \to SimpComplex$$ 
 
 is called the [[subdivision]] functor, or, more exactly, the [[barycenter|barycentric subdivision]] functor.
+
+## Related concepts
+
+* [[flag variety]]
+
