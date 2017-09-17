@@ -62,6 +62,6 @@ and a discussion of the converse, that every rarional 2-d CT is obtained this wa
 
 An indication of how the FRS formalism follows from 3-dimensional [[Chern-Simons theory]] regarded as an [[extended topological quantum field theory]] [[QFT with defects|with defects]] and the [[holographic principle]] is in 
 
-* [[Anton Kapustin]], [[Natalia Saulina]], _ Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings in Symposia in Pure Mathematics, AMS, (2011)
+* [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings in Symposia in Pure Mathematics, AMS, (2011)
 
 [[!redirects FFRS formalism]]
