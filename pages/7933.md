@@ -197,6 +197,8 @@ $$
 
 But for any further nontrivial such autoequivalence in the slice we would need in particular a gauge transformation parameterized by $(2k+1)$-forms over test manifolds from $C \wedge d C$ to itself. But the only closed $2k$-forms that we can produce naturally from $C$ are multiples of $C \wedge C$. But these all vanish since $C$ is of odd degree $2k+1$.
 
+For $k = 1$ the total space of the [[prequantum circle n-bundle|prequantum circle 3-bundle]] of $U(1)$-Chern-Simons theory over the point is the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|moduli 2-stack]] of [[T-Duality and Differential K-Theory|differential T-duality structures]].
+
 #### Extended 3d $\mathrm{Spin}$-Chern-Simons theory
 
 * [[prequantum circle n-bundle|prequantum circle 3-bundle]]:
