@@ -205,6 +205,8 @@ _Toby_:  The idea of the free group on an abelian monoid is a very simple algebr
 
 [[Urs Schreiber]]: I copied that last paragraph of yours into the section above. I still think that many people will say "Grothendieck group" for this group completion. But maybe I am wrong and we should branch off another page on "free group completion".
 
+Colin Tan: I suggest branching off another page on "free group completion" and including the noncommutative case in there.
+
 =--
 
 # References #
