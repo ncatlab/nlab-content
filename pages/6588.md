@@ -63,6 +63,8 @@ exhibiting the Heisenberg Lie algebra as a [[subobject|sub]]-Lie algebra of that
 
 =--
 
+Namely, it is the sub-Lie algebra on the [[linear functions]] and the constant functions.
+
 +-- {: .proof}
 ###### Proof
 
@@ -174,9 +176,15 @@ which exhibits the Heisenberg Lie algebra as a [[subobject|sub]]-Lie algebra of 
 
 As for any [[Lie algebra]] one has [[Lie integration]] of the Heisenberg Lie algebra to a [[Lie group]]. This is called the _[[Heisenberg group]]_ (of the given [[symplectic vector space]]). 
 
+### Relation to the Weyl algebra
+
+
+In the case of standard [[symplectic form]] on the [[Cartesian space]] $\mathbf{R}^{2n}$, the 
+[[universal enveloping algebra]] of the Heisenberg Lie algebra is an [[associative algebra]] $\mathcal{U}(Heis(\mathbb{R}^{2n}))$. The [[quotient]] of this that identifies the [[center|central]] elements of the Heisenberg Lie algebra with multiples of the identity element is the _[[Weyl algebra]]_ on $n$ generators. 
+
 ### Relation to the Heisenberg double
 
-In the case of standard symplectic form on $\mathbf{R}^{2n}$, the enveloping algebra of the Heisenberg Lie algebra is an associative algebra. Adding one more central generator one gets (Heisenberg-)Weyl associative algebra. Given any Hopf algebra, one can define its [[Heisenberg double]], which generalized the Heisenberg-Weyl algebra, which corresponds to the case when the Hopf algebra is the polynomial 
+Given any [[Hopf algebra]], one can define its [[Heisenberg double]], which generalized the Heisenberg-Weyl algebra, which corresponds to the case when the Hopf algebra is the polynomial 
 algebra. 
 
 ## References
@@ -187,9 +195,13 @@ Lecture notes on standard material include
 
 * Teruji Thomas, _Geometric quantization II: Prequantization and the Heisenberg group_ ([pdf](http://www.maths.ed.ac.uk/~jthomas7/GeomQuant/Lecture2.pdf)), section 4 (relating to [[geometric quantization]])
 
-A [[categorification]] of the Heisenberg algebra appears in 
+A [[categorification]] of the Heisenberg algebra is considered in
 
 * [[Mikhail Khovanov]], _Heisenberg algebra and a graphical calculus_ ([arXiv:1009.3295](http://arxiv.org/abs/1009.3295))
+
+An $n$-fold categorification of the Lie algebra underlying the [[Poisson algebra]] (and hence including the Weil algebra) for all $n$ to a [[Lie n-algebra]] is considered in [[n-plectic geometry]],
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
 
 [[!redirects Heisenberg Lie algebras]]
 
