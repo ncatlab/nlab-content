@@ -375,6 +375,8 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 * [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
 
+  * [[globular theory]]
+
 * [[monad]] / [[(∞,1)-monad]]
 
 * [[operad]] / [[(∞,1)-operad]]
