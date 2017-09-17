@@ -37,7 +37,9 @@ But the precise meaning of the term _secondary characteristic class_ varies a li
 
 1. Using refined [[Chern-Weil theory]] the notions of [[curvature characteristic form]]s and their [[Chern-Simons form]]s are unified into the notion of cocycles in [[ordinary differential cohomology]]. The notion of [[Cheeger-Simons differential character]] was introduced to describe this unification, and it is has become tradition to call these differential characters themselves _secondary characteristic classes_ independently of whether the corresponding ordinary [[characteristic class]]/[[curvature characteristic form]] vanishes or not (for instance ([DupontKamber](#Kamber), [Karlsson](#Karlsson)). More descriptively, this case is maybe better referred to as a _[[differential characteristic class]]_ . See there for more details.
 
+## Related concepts
 
+* [[Chern-Simons invariant]]
 
 
 ## References
