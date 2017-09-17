@@ -24,6 +24,8 @@ See also [[moduli space of bundles]].
 
 * R. Donagi, _Spectral covers_, MSRI series 28, [pdf](http://www.msri.org/publications/books/Book28/files/donagi.pdf)
 
+* Tamas Hausel, _Global topology of the Hitchin system_, [arxiv/1102.1717](http://arxiv.org/abs/1102.1717)
+
 $n$POV to representation theoretic aspects in a special case is explored in 
 
 * David Nadler, _Springer theory via the Hitchin fibration_, [arxiv/0806.4566](http://arxiv.org/abs/0806.4566)
