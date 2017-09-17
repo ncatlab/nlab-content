@@ -17,13 +17,13 @@ A __Baire space__ is a [[topological space]] such that the [[intersection]] of a
 
 ## Examples
 
-*  Any [[complete metric space]] (or rather its [[forgetful functor|underlying]] topological space) is a Baire space.
+*  Any [[complete metric space]] (or rather its [[forgetful functor|underlying]] topological space, hence any completely metrizable topological space) is a Baire space.
 
 *  Any [[locally compact Hausdorff space]] is a Baire space. In fact, any [[G-delta set]] of a locally compact Hausdorff space is a Baire space under the [[subspace]] topology. 
 
 *  Any [[open subspace]] of a Baire space is also a Baire space. 
 
-*  As mentioned above, the space of [[irrational numbers]], or equivalently of [[infinite sequences]] of [[natural numbers]], is also known as 'Baire space'. It is a Baire space in the present sense (since it admits a complete metric), but not much should be made of the fact it has the same name.
+*  As mentioned above, the space of [[irrational numbers]], or equivalently of [[infinite sequences]] of [[natural numbers]], is also known as 'Baire space'.  It is a Baire space in the present sense (since it admits a complete metric), but not much should be made of the fact it has the same name.  (It is much more important that Baire space is a [[Polish space]] than that Baire space is a Baire space.  Of course, every Polish space is a Baire space too, so maybe it is important!)
 
 
 [[!redirects Baire space]]
