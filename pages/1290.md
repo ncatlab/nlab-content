@@ -14,3 +14,5 @@ The classes of topologizing subcategories, [[reflective subcategory|reflective]]
 [[Zoran Skoda]]: I am not completely sure anymore, but I think 
 it is from ring theory, where people looked at the localizations at topologizing categories. There exist some topologies on various sets of ideals like Jacobson topology, so it is something of that sort in the language of subcategories instead of the language of filters of ideals. I'll consult old references like Popescu, maybe I recall better. In any case it is pretty standard and has long history in usage: both classical and modern. No, it is not in Popescu...old related term is in fact talking about topologizing filters of ideals in a ring, so that must be the source...for example, the classical algebra by Faith, vol I, page 520 defines when the set of right ideals is topologizing. I am not good with that notion, but I can make  an entry with quotation to be improved later. 
 =--
+
+[[!redirects toologizing subcategories]]
