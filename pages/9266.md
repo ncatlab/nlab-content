@@ -1,5 +1,5 @@
 
-> under construction
+> under construction, notes related to material that will appear here later in detail, see [References](#References).
 
 
 +-- {: .rightHandSide}
@@ -24,7 +24,170 @@
 * table of contents
 {:toc}
 
-## Idea
+
+## Local 2d prequantum boundary field theory and KK-Quantization
+
+### **1)** Local 2d prequantum field theory
+
+ambient [[(∞,1)-topos]] $\mathbf{H} = $ [[Smooth∞Grpd]]. 
+
+We use in there mostly just the [[full sub-(∞,1)-category]]
+
+$$
+  DiffStack \hookrightarrow SmoothGrpd \hookrightarrow Smooth \infty Grpd
+$$
+
+of [[differentiable stacks]], i.e. the full subcategory on object that are presented by [[Lie groupoids]] but as [[coefficients]] at least we also need [[smooth infinity-groupoid|smooth 2-groupoids]].
+
+In particular, write $\mathbf{B}^2 U(1)$ for the [[smooth 2-groupoid]] which is the [[circle 3-group]]. 
+
+For $\mathbf{Fields} \in \mathbf{H}$ a [[moduli stack]] of [[field (physics)|fields]], we say that a map
+
+$$
+  \array{
+    \mathbf{Fields}
+    \\
+    \downarrow^{\mathrlap{exp(i S)}}
+    \\
+    \mathbf{B}^2 U(1)
+  }
+$$
+
+is a [[local action functional]]. 
+
+(More generally we consider [[smooth super ∞-groupoids]] and replace $\mathbf{B}^2 U(1)$ by the moduli stack of [[super 2-line bundles]].)
+
+Since this is necessarily a [[dualizable objects]] in the [[(∞,2)-category]] of [[(∞,n)-category of correspondences|correspondences]] $Corr_2(\mathbf{H}, \mathbf{B}^2 U(1))$ it induces by the [[cobordism theorem]] a **[[local prequantum field theory]]** given by a [[monoidal (∞,n)-functor|monoidal (∞,2)-functor]]
+
+$$
+  \array{      
+    && Corr_2(\mathbf{H},\mathbf{B}^2 U(1)) &\to& Corr_2(\mathbf{H}, KU Mod)
+    \\
+    & {}^{\mathllap{\exp(i S)}}\nearrow&  \downarrow
+    \\
+    Bord_n &\stackrel{\mathbf{Fields}}{\to}& Corr_2(\mathbf{H})
+  }
+$$
+
+Here we postcomposed with [[geometric realization]]
+
+$$
+  \mathbf{B}^2 U(1)
+  \to
+  {\vert \mathbf{B}^2 U(1)\vert}
+  \simeq
+  K(\mathbb{Z},3)
+  \to
+  B gl_1(KU)
+  \to
+  KU Mod
+  \,.
+$$
+
+### **2)** Local boundary 2d prequantum field theory
+
+Considering one marked boundary condition we have [[boundary field theory]] defined in addition to the data of $\exp(i S) \colon \mathbf{Fields} \to KU Mod$ by a morphisms in $Corr_2(\mathbf{H}, KU Mod)$ which as a [[diagram]] in $\mathbf{H}$ is of the form
+
+$$
+  \array{
+    && Q
+    \\
+    & \swarrow && \searrow^{\mathrlap{i}}
+    \\
+    \ast && \swArrow_{\mathrlap{\xi}} && \mathbf{Fields}
+    \\
+    & {}_{\mathllap{\mathbb{I}}}\searrow
+    &&
+    \swarrow_{\mathrlap{\exp(i S)}}
+  }
+  \,.
+$$
+
+This is the _[[boundary condition]]_.
+
+
+### **3)** Quantization in KK-Theory
+ {#QuantizationInKKTheory}
+
+We [[quantization|quantize]] by interpreting the [[path integral]] as [[push-forward in generalized cohomology]] in [[complex topological K-theory]] $KU$.
+
+Specifically we quantize a correspondence as above by applying the following procedure
+
+1. Decompose the correspondence explicitly as
+
+   $$
+     \array{
+       && Q
+       \\
+       & \swarrow && \searrow^{\mathrlap{i}}
+       \\
+       \ast &\swArrow_{\mathrlap{\xi}}& \downarrow^{\mathrlap{i^\ast \chi}}  && \mathbf{Fields}
+       \\
+       & {}_{\mathllap{\mathbb{I}}}\searrow
+       &&
+       \swarrow_{\mathrlap{\chi}}
+       \\
+       && KU Mod
+     }
+     \,.
+   $$
+
+
+1. Form [[twisted groupoid convolution algebras]] to produce a [[co-span]] of [[Hilbert bimodules]]
+
+
+   $$
+     \mathbb{C} \stackrel{\xi}{\to}
+     C_{i^\ast \chi}(Q)
+     \stackrel{i^\ast}{\leftarrow}
+     C_\chi(X)
+     \,.
+   $$
+
+   Regard this as a cospan in [[KK-theory]].
+
+1. Assume that the middle and right objects are [[dualizable objects]]. Choose a map in [[KK-theory]]
+
+   $$
+     Th(Q)
+     \colon
+     \left(C_{i^\ast \chi}\left(Q\right)\right)
+     \to
+    \left(C_{i^\ast \chi}\left(Q\right)\right)^{\vee}
+   $$
+
+   to the dual [[C*-algebra]]. (If this is an KK-[[equivalence]] then this is the [[Thom isomorphism]] in this context.)
+
+1. Consider the [[dual morphism]] to $i^\ast$, to be denoted
+
+   $$
+     i_! \;\colon\; 
+     \left(C_{i^\ast}\left(Q\right)\right)^{\vee}
+     \to
+     \left(C_\chi\left(X\right)\right)^\vee
+   $$
+
+   and then turn the above cospan into the following consecutive composite in [[KK-theory]]
+
+   $$
+     i_! Th\left(Q_{i^\ast \chi}\right) \xi
+     \colon
+     \mathbb{C}
+     \stackrel{\xi}{\to}
+     C_{i^\ast \chi}(Q)
+     \stackrel{Th}{\to}
+     (C_{i^\ast \chi}(Q))^\vee
+     \stackrel{i_!}{\to}
+     (C_{\chi}(X))^\vee
+     \,.
+   $$
+
+   This we regard as the quantization of the boundary correspondence.
+
+(...)
+ 
+
+## 2d Poisson Chern-Simons theory -- Idea
 
 ### General
 
@@ -590,3 +753,10 @@ In conclusion, up to equivalence the bimodule is $L^2(X)$ regarded as a $C(X)-\m
 
 (...)
 
+
+## References
+ {#References}
+
+These are notes related to material that will appear in Master thesis of [[Joost Nuiten]] and [[Stefan Bongers]].
+
+(...)
