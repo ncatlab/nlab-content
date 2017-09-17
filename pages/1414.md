@@ -164,7 +164,7 @@ $$
 $$
 
 
-Everything else, in higher dimensions, is degenerate, so $S[2](0,2)\cong \Delta[1]$. Sometimes it is useful to think of this 1-simplex as 'rewriting' the direct path to that via 1, all this happening in the free category on the underlying graph of the poset $[2]$. 
+Everything else, in higher dimensions, is degenerate, so $S[2](0,2)\cong \Delta[1]$. Sometimes it is useful to think of this 1-simplex as 'rewriting' the direct path to that via 1, all this happening in the free category on the underlying graph of the poset $[2]$. (The construction of $S[n]$ in general has a nice interpretation in terms of higher dimensional [[rewriting]]. This can be given using the language of [[polygraph]]s or [[computad]]s.)
 
 In this example there are no significant compositions. To see examples of those, you need to look at $n = 3$. In $S[3]$, the simplicial hom-sets $S[3](i,j)$ for $(i,j) \neq (0,3)$, can all be analysed by the same sort of argument to the above.  The new features occur in $S[3](0,3)$.  The vertices of this simplicial set are the subsets 
 corresponding to the direct path $0\to 3$ and then the three others. Rewriting the direct path can be done in two immediate ways, to go via the left or via the right route. Each of these can be 'rewritten' to give the longest path /  largest subset.  There is also, of course, an inclusion of the smallest to the largest of these, so that in total the poset here looks like:
