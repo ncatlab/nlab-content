@@ -17,8 +17,24 @@
 
 Given a [[group]] $G$ with [[subgroup]] $H \hookrightarrow G$ and a [[representation]] of $H$, there is canonically induced a representation of $G$: the _induced representation_.
 
+## Definition
 
-## Explanation
+We give an exposition of the 
+
+* [Traditional formulation](#TraditionalFormulation)
+
+of induced representations. Then we provide a 
+
+* [General abstract formulation in homotopy type theory](#GeneralAbtractDefinition)
+
+that refines the notion to [[∞-action|∞-representations]] of [[∞-groups]] equipped with any additional geometric structure.
+
+
+### Traditional formulation
+ {#TraditionalFormulation}
+
+#### Explanation
+ {#TraditionalFormulationExplanation}
 
 Suppose a [[Lie group]] $G$ acts smoothly and transitively on a [[smooth manifold]] $M$.  The [[stabilizer subgroup]] of a given point $x \in M$ is then a Lie subgroup $H \subseteq G$, and 
 
@@ -98,7 +114,8 @@ which is called the <b>induced representation</b> trick.
 
 
 
-## Detailed description
+#### Detailed description
+ {#TraditionalDetailed}
 
 Given a [[group]] $G$ with a subgroup $H$, and a [[representation]] $s$ of $H$ on a vector space $V$, we define a left [[action]] of $H$ on the [[product]] $G\times V$ by $h\cdot (g, v) = (g h^{-1}, s(h)v)$.  We write $[(g,v)]$ for the orbit, or equivalence class, that contains $(g,v)$.
 
@@ -130,6 +147,43 @@ We get a representation $r$ of $G$ on the vector space $\Gamma(E)$ of sections o
 
 $(r(g_1)f)(x) = g_1\cdot f(g_1^{-1}\cdot x)$
 
+
+
+### General abstract formulation in homotopy type theory
+ {#GeneralAbtractDefinition}
+
+We formulate induction and coinduction of representations abstractly in [[homotopy type theory]].
+
+Let $\mathbf{H}$ be an ambient [[(∞,1)-topos]]. By the discussion at _[[∞-action]]_, for $G \in Grp(\mathbf{H})$ a [[group object in an (∞,1)-category|group object]] in $\mathbf{H}$, hence an [[∞-group]], the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ over its [[delooping]] is the [[(∞,1)-category]] of $G$-[[∞-actions]] 
+
+$$
+  Act(G) \simeq \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+(A genuine _[[∞-representation]]/[[∞-module]]_ over $G$ may be taken to be a an abelian $\infty$-group object in $Act(G)$, but we can just as well work in the more general context of possibly non-linear representations, hence of actions.)
+
+Accordingly, for $f \colon H \to G$ a homomorphism of [[∞-groups]], hence for a morphism $\mathbf{B}f \colon \mathbf{B}H \to \mathbf{B}G$ of their [[deloopings]], there is the corresponding [[base change geometric morphism]]
+
+$$
+  (\sum_f \dashv f^* \dashv \prod_f)
+  \colon
+  Act(\mathbf{H})
+   \stackrel{\overset{\sum_f}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{\prod_f}{\to}}}
+  Act(\mathbf{H})
+  \,.
+$$
+
+Here
+
+* the [[inverse image]]/[[(∞,1)-pullback]] functor $f^*$ produces the "restricted" $\infty$-representations along $f$;
+
+* the [[dependent sum]] $\sum_f$ is the _induced representation_ ∞-functor;
+
+* the [[dependent product]] $\prod_f$ is the _coinduced representation_ ∞-functor.
+ 
+
+
 ## Properties
 
 ### Unitarity
@@ -138,7 +192,9 @@ $(r(g_1)f)(x) = g_1\cdot f(g_1^{-1}\cdot x)$
 Beware! The chain of reasoning in this subsection is not complete, and I'm not confident that it's entirely correct. I'm posting it half-finished in the hope that many hands will make lighter (and more accurate) work.
 =--
 
-In physics, one is often concerned with unitary representations, so we should make sure that a unitary representation of $H$ will induce a unitary representation of $G$.
+We discuss that [[unitary representations]] induce again unitary representations.
+
+(This is for instance relevant in applications to [[physics]], such as in the study of [[unitary representation of the Poincaré group]].)
 
 Let's say $V$ has an inner product, $\lang \cdot, \cdot \rang$, and $s$ is a unitary representation. We can define an inner product on $E_x$ by $\lang \lang p, q \rang \rang \equiv \lang \phi_g^{-1}(p), \phi_g^{-1}(q) \rang$. This definition is independent of our choice of $g$: if we chose $g h$ instead, we'd have
 
@@ -267,7 +323,7 @@ $$h\cdot f^*(w) = [(h,v)] = [(e,s(h)v)]$$
 $$i^*(h\cdot w) = \phi_e^{-1}([(e,s(h)v)]) = s(h)v = s(h) i^*(w)$$
 
 
-## Related issues
+## Related concepts
 
 * [[Bill Lawvere]] noted a structural similarity between induced representations and [[quantification]]. See blog [discussion](http://golem.ph.utexas.edu/category/2007/10/concrete_groups_and_axiomatic.html#c012917).
 
@@ -278,15 +334,23 @@ $$i^*(h\cdot w) = \phi_e^{-1}([(e,s(h)v)]) = s(h)v = s(h) i^*(w)$$
 
 ## References
 
-This blog entry contains related discussion:
+### Traditional formulation
 
-* John Baez, [Unitary Representations of the Poincare Group](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#comments)
+The [Traditional formulation](#TraditionalFormulation) above is in parts taken from 
 
-The above text is taken from these comments
+* [[Greg Egan]], _[Induced representations](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023252)_
 
-* Greg Egan _[Induced representations](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023252)_
+* [[John Baez]] _[Reply](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023258)_
 
-* John Baez _[Reply](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023258)_
+and related discussion is in
+
+* [[John Baez]], [Unitary Representations of the Poincare Group](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#comments)
+
+### General abstract formulation
+
+The [general abstract formulation](#GeneralAbtractDefinition) above is further discussed in sections 3.3.11-3.3.13 of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
 [[!redirects induced module]]
