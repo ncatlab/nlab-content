@@ -145,10 +145,10 @@ The "bottom-up approach" to string model building is attributed to
 
 ### Original articles
 
-* P. Candelas, G. T. Horowitz, [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B 258, 46 (1985)
+* [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B 258, 46 (1985)
  {#CHSW85}
  
-* Bobby Acharya, Edward Witten, _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
+* [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
  {#AW01}
 
 * [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hep-th/0509212](http://arxiv.org/abs/hep-th/0509212))
