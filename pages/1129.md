@@ -113,7 +113,7 @@ Let $R$ be a [[commutative ring]] and  $C = R Mod$ the category of $R$-[[module]
 **Proposition** (Baer's criterion)
 {#Baer}
 
-An object $N \in R Mod$ is injective precisely if for $I$ any left $R$-ideal regarded as an $R$-module, and morphism $g : I \to N$ in $C$ can be extended to all of $R$ along the inclusion $I \hookrightarrow R$.
+An object $N \in R Mod$ is injective precisely if for $I$ any left $R$-ideal regarded as an $R$-module, any morphism $g : I \to N$ in $C$ can be extended to all of $R$ along the inclusion $I \hookrightarrow R$.
 
 ### Injective abelian groups
 
