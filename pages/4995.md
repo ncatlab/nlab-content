@@ -36,7 +36,7 @@ The functor $\Gamma$ itself may be thought of as sending a cohesive [[∞-groupo
 
 Conversely, $Disc$ and $CoDisc$ send an $\infty$-groupoid $A$ either to the [[discrete space|discrete ∞-groupoid]] $Disc(A)$ with _discrete_ cohesive structure (for instance with [[discrete topology]]) or to the [[codiscrete space|codiscrete ∞-groupoid]] $Codisc(A)$ with the _codiscrete_ cohesive structure (for instance with [[codiscrete topology]]). 
 
-The existence of such a quadruple of adjoint $(\infty,1)$-functors alone implies a rich [[internalization|internal]] [[higher geometry]] in $\mathbf{H}$ that comes with its internal notion of [[Galois theory]], [[Lie theory]], [[differential cohomology]], [[Chern-Weil theory]]. 
+The existence of such an [[adjoint quadruple]] of adjoint $(\infty,1)$-functors alone implies a rich [[internalization|internal]] [[higher geometry]] in $\mathbf{H}$ that comes with its internal notion of [[Galois theory]], [[Lie theory]], [[differential cohomology]], [[Chern-Weil theory]]. 
 
 Examples of cohesive $(\infty,1)$-toposes include
 
@@ -60,7 +60,7 @@ An [[(∞,1)-topos]] $\mathbf{H}$ is **cohesive** if
 
 1. it is a [[local (∞,1)-topos]].
 
-This means equivalently: the [[global section]] [[(∞,1)-geometric morphism]] lifts to a quadruple of [[adjoint (∞,1)-functor]]s
+This means equivalently: the [[global section]] [[(∞,1)-geometric morphism]] lifts to an [[adjoint quadruple]] of [[adjoint (∞,1)-functor]]s
    
 $$
   (f_! \dashv f^* \dashv f_* \dashv f^!) : 
@@ -70,7 +70,7 @@ $$
   \;
 $$
 
-where $f_!$ preserves [[finite limit|finite]] [[(∞,1)-product]].
+where $f_!$ preserves [[finite limit|finite]] [[(∞,1)-product]]s.
 
 =--
 
@@ -1543,7 +1543,7 @@ In a cohesive $(\infty,1)$-topos $\mathbf{H}$, if $X$ is
 +-- {: .proof}
 ###### Proof
 
-Because of the triple of [[adjoint (∞,1)-functor]]s 
+Because of the [[adjoint triple]] of [[adjoint (∞,1)-functor]]s 
 $(\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma})$ we have for [[diagram]] $A : I \to \mathbf{H}$ that
 
 $$
@@ -3240,7 +3240,7 @@ $\mathbf{H}$.
 Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that 
 an **infinitesimal cohesive neighbourhood** of $\mathbf{H}$
 is another cohesive $(\infty,1)$-topos $\mathbf{H}_{th}$
-equipped with a quadruple of [[adjoint (∞,1)-functor]]s
+equipped with an  [[adjoint quadruple]] of [[adjoint (∞,1)-functor]]s
 
 $$
   (i_! \dashv i^* \dashv i_* \dashv i^!) : 
@@ -3658,7 +3658,7 @@ In the presence of [infinitesimal cohesion](#InfinitesimalCohesiveInfTopos) ther
 +-- {: .un_def #InfinitesimalPathsAndReduction}
 ###### Definition
 
-Define the triple of [[adjoint (∞,1)-functor]]s 
+Define the [[adjoint triple]] of [[adjoint (∞,1)-functor]]s corresponding to the [[adjoint quadruple]] $(i_! \dashv i^* \dashv i_* \dashv i^!)$:
 
 $$
  (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{dR})
@@ -3722,7 +3722,7 @@ $$
   i_! X \to i_* X
 $$
 
-is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+(discussed at [[adjoint quadruple]]) is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
 =--
 
@@ -4170,10 +4170,14 @@ The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected
 
 The observation that the further right adjoint $coDisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
 
-The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3 of 
+Several aspects of the discussion here are, more or less explicitly, in 
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
+
+For instance something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the 
+[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3.
+
 
 The characterization of infinitesimal extensions and formal smoothness by adjoint functors is considered in 
 
