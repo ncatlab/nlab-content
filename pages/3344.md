@@ -42,7 +42,7 @@ A **test category** is any small category $\mathcal{A}$ such that
 
 A **strict test category** is a test category $\mathcal{A}$ such that
 
-* $i_{\mathcal{C}} : \mathcal{C}Set \to Cat$ preserves finite products up to weak equivalence, 
+* $i_{\mathcal{C}} : \mathcal{C}Set \to Cat$ preserves [[finite products]] up to weak equivalence, 
 
 or equivalently, such that
 
@@ -77,6 +77,8 @@ Apart from the archeytpical example of the [[simplex category]] we have the foll
 ## Related concepts
 
 * [[direct category]]
+
+* [[basic localizer]]
 
 ## References
 
