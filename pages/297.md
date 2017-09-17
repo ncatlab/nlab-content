@@ -193,11 +193,13 @@ As usual, the problem of constructing FQFT becomes much more tractable when line
 
     * [[TQFT]], 
  
-      * [[extended topological quantum field theory]], [[0-dimensional TQFT]], [[HQFT]]
+      * [[extended topological quantum field theory]], [[0-dimensional TQFT]], [[3d TQFT]] [[4d TQFT]], [[HQFT]]
 
     * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
     * [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+  
 
 [[!include Isbell duality - table]]
 
