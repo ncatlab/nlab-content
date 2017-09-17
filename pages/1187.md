@@ -79,6 +79,8 @@ This is ([[Higher Topos Theory|HTT, cor. 5.3.4.15]]).
 
 * **compact object in an $(\infty,1)$-category**
 
+* [[relatively k-compact morphism in an (infinity,1)-category]]
+
 ## References
 
 The general definition appears as definition 5.3.4.5  in
