@@ -12,7 +12,7 @@ $$F : DiGraph \to Cat $$
 
 sending each directed graph to the [[free functor|free]] category on that graph.  A free category on a graph is called a [[quiver]].
 
-**A note on terminology:** in the context of graph theory, the term "directed graph" is often taken to mean that there is at most one edge from one vertex to another. In other words, a directed graph (or _digraph_) in that context can be identified with a set $V$ equipped with a binary relation (the edges are ordered pairs belonging to that relation). See also the article [[graph]].
+**A note on terminology:** in the context of graph theory, the term "directed graph" is often taken to mean that there is at most one edge from one vertex to another. In other words, a directed graph (or _digraph_) in that context can be identified with a set $V$ of vertices equipped with a binary relation (the edges are ordered pairs of vertices belonging to that relation). See also the article [[graph]].
 
 #Definition#
 
@@ -41,13 +41,13 @@ In the basic case $C = Set$, we call this category the category of [[presheaf|pr
 
 ### Nuts-and-bolts definitions 
 
-A directed graph $G$ consists of two sets $E$ (the set of _edges_ of $G$), $V$ (the set of _vertices_ of $G$) and two functions 
+A _directed graph_ $G$ consists of two sets $E$ (the set of _edges_ of $G$), $V$ (the set of _vertices_ of $G$) and two functions 
 
 $$s, t: E \stackrel{\to}{\to} V$$ 
 
 (the source and target functions). More generally, a _directed graph internal to a category_ (more simply, in a category) $C$ consists of two objects $E$, $V$ and two morphisms $s, t: E \to V$. 
 
-If $G = (E, V, s, t)$ and $G' = (E', V', s', t')$ are two directed graphs in a category $C$, a morphism $g: G \to G'$ is a pair of morphisms $g_0: V \to V'$, $g_1: E \to E'$ such that $s' \circ g_1 = g_0 \circ s$ and $t' \circ g_1 = g_0 \circ t$. 
+If $G = (E, V, s, t)$ and $G' = (E', V', s', t')$ are two directed graphs in a category $C$, a _morphism_ $g: G \to G'$ is a pair of morphisms $g_0: V \to V'$, $g_1: E \to E'$ such that $s' \circ g_1 = g_0 \circ s$ and $t' \circ g_1 = g_0 \circ t$. 
 
 #Remarks#
 
