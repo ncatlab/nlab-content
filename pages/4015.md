@@ -90,7 +90,7 @@ I should write down the classical proof (which uses [[excluded middle]] and some
 *  Thanks to Giovanni Curi on [constructive news](http://groups.google.com/group/constructivenews/browse_thread/thread/9d57fa99e67e8782).
 *  [Frank Waaldijk](http://www.fwaaldijk.nl/mathematics.html) pointed out exactly why point-wise analysis needs the fan theorem.
 
-I need to find and read this one:
+I need to read the relevant parts here:
 
 *  M. Fourman, R. Grayson, _Formal Spaces_. In: The L.E.J. Brouwer Centenary Symposium,  A.S. Troelstra and D. van Dalen, eds. North Holland (1982), pp. 107--122.
 
