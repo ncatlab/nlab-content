@@ -72,5 +72,6 @@ Lecture notes include
 
 * V.S. Sunder, _von Neumann algebras, $II_1$-factors, and their subfactors_ ([pdf](http://www.math.iitb.ac.in/seminar/archives/sunder_iitb3.pdf))
 
+* Hideki Kosaki, _Type III factors and index theory_ (1993) ([pdf](http://pages.uoregon.edu/njp/lec-f.pdf))
 
 [[!redirects von Neumann algebra factors]]
