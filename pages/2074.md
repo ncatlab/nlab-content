@@ -10,8 +10,8 @@
 
 ## Idea 
 
-The [[model category]] structure on the [[category]] $SSet^+/S$ of [[marked simplicial set]]s over a given [[simplicial set]] $S$ is a [[presentable (infinity,1)-category|presentation]] for the [[(∞,1)-category]] of [[cartesian fibration]]s over $S$.
-The fibrant objects of $SSet^+/S$ are the [[Cartesian fibration]]s over $S$ and the marked edges in the fibrant [[marked simplicial set]]s are the [[Cartesian morphism]]s.
+The [[model category]] structure on the [[category]] $SSet^+/S$ of [[marked simplicial set]]s over a given [[simplicial set]] $S$ is a [[presentable (infinity,1)-category|presentation]] for the [[(∞,1)-category]] of [[Cartesian fibration]]s over $S$.
+Every object is cofibrant and the fibrant objects of $SSet^+/S$ are precisely the [[Cartesian fibration]]s over $S$.
 
 Notably for $S = {*}$ this is a presentation of the [[(∞,1)-category of (∞,1)-categories]]: as a plain [[model category]] this is [[Quillen equivalence|Quillen equivalent]] to the [[model structure for quasi-categories]], but it is indeed an $sSet_{Quillen}$-[[enriched model category]] (i.e. enriched over the ordinary [[model structure on simplicial sets]] that models [[∞-groupoid]]s).
 
@@ -19,28 +19,106 @@ Notably for $S = {*}$ this is a presentation of the [[(∞,1)-category of (∞,1
 The $(\infty,1)$-categorical [[Grothendieck construction]] that exhibits the correspondence between [[Cartesian fibration]]s and [[(∞,1)-presheaf|(∞,1)-presheaves]] is in turn modeled by a [[Quillen equivalence]] between the model structure on marked simplicial over-sets and the projective [[global model structure on simplicial presheaves]].
 
 
-## Definition 
 
-### Marked simplicial over-sets 
 
-Let $S$ be a fixed [[simplicial set]]. Recall from the notation at [[marked simplicial set]] that $S^#$ denotes the maximally marked simplicial set of $S$ where all edges are marked edges.
+
+
+
+
+
+
+
+
+
+
+
+## Marked simplicial sets
+
+
+
+Marked simplicial sets are [[simplicial set]]s with a little bit of extra [[stuff, structure, property|structure]]: a marking that remembers which edges are supposed to be [[Cartesian morphism]]s. 
+
+
+### Definition 
+
++-- {: .un_def }
+###### Definition 
+
+
+A **marked simplicial set** is 
+
+* a pair $(S,E)$ consisting of 
+
+  * a [[simplicial set]] $S$ 
+
+  * and a subset $E \subset S_1$ of edges of $S$, called the _marked edges_, 
+
+* such that
+
+  * all degenerate edges are marked edges.
+
+A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \to S'$ of [[simplicial set]]s that carries marked edges to marked edges in that $f(E) \subset E'$.
+
+=--
+
++-- {: .un_def }
+###### Notation
+
+* The category of marked simplicial sets is denoted $sSet^+$.
+
+* for $S$ a [[simplicial set]] let
+
+  * $S^\flat$ or $S^{min}$ be the minimally marked simplicial set: only the degenerate edges are marked;
+
+  * $S^#$ or $S^{max}$ be the maximally marked simplicial set: every edges is marked.
+
+* for $p : X \to S$ a [[Cartesian fibration]] of [[simplicial set]]s let
+
+  * $X^\sharp$ or $X^{cart}$ be the cartesian marked simplicial set: precisely the $p$-[[cartesian morphism]]s are marked
+
+* For $X$ and $Y$ marked simplicial sets let
+
+  * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[internal hom]] $Y^X$
+
+  * $Map^#(X,Y)$ the simplicial set consisting of all simplices $ \sigma \in Map^\flat(X,Y)$ such that every edge of $\Sigma$ is a marked edge of $Y^X$.
+
+=--
+
+### Properties
+
++-- {: .un_prop }
+###### Proposition
+
+The category of marked simplicial sets is [[cartesian closed]]. 
+
+* The $n$-simplices of the internal hom $Y^X$ are simplicial maps $X \times \Delta^n \rightarrow Y$ such that when you restrict $X_1 \times \Delta_1^n \rightarrow Y_1$ to $E \times \Delta_0^n$ (where $E$ is the set of marked edges of $X$), this morphism factors through the marked edges of $Y$.
+
+* The marked edges of $Y^X$ are those simplicial maps $X \times \Delta^1 \rightarrow Y$ such that the restriction of $X_1 \times \Delta_1^1 \rightarrow Y_1$ to $E \times \Delta^1_1$ factors though the marked edges of $Y$. In the presence of the previous condition, this says that when you apply the homotopy $X \times \Delta^1 \rightarrow Y$ to a marked edge of $X$ paired with the identity at $[1]$, the result should be marked.
+
+There are functors 
+$$
+  \array{ 
+    & \stackrel{(-)^{\flat}}{\to} & 
+    \\ 
+    & \stackrel{(-)^{\flat}}{\leftarrow} & 
+    \\ 
+    sSet & \stackrel{(-)^{\sharp}}{\to} & sSet^+ 
+    \\ 
+    & \stackrel{(-)^{\sharp}}{\leftarrow} & 
+  }
+$$
  
-Write $SSet^+/S^#$ -- or $SSet^+/S$ for short -- for the [[over category]] of the category $Set^+$ of marked simplicial sets over $S^#$.
+with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
 
-Recall the notation from [[marked simplicial set]]. For $X$ and $Y$ in $SSet^+_S$ write $Map^\flat_S(X,Y) \subset Map^\flat(X,Y)$ and $Map^#_S(X,Y) \subset Map^#(X,Y)$ for the simplicial subsets of maps compatible with the maps to $S$, defined by the properties
+* The hom-objects $Map^#(X,Y) = (Y^X)^#$ make $sSet^+$ a 
+  [[[sSet]]-[[enriched category]].
 
-$$
-  Hom_{SSet}(K, Map^\flat(X,Y))
-  \simeq
-  Hom_{SSet^+}(K^\flat \times X, Y)
-$$
+=--
 
-$$
-  Hom_{SSet}(K, Map^#(X,Y))
-  \simeq
-  Hom_{SSet^+}(K^# \times X, Y)
-  \,.
-$$
+
+
+
+
 
 +-- {: .un_remark }
 ###### Remark (HTT, 3.1.4.5)
@@ -56,10 +134,11 @@ then one obtains an $sSet_{Joyal}$-[[enriched model category]] (enriched over th
 =--
 
 
+
 +-- {: .un_remark }
 ###### Remark (HTT, 3.1.3.1)
 
-For $(X \to S) \in SSet^+/S$ and $p : Y \to S$ a [[cartesian fibration]] we have
+For $(X \to S) \in SSet^+/S$ and $p : Y \to S$ a [[Cartesian fibration]] we have
 
 * $Map^\flat_S(X,Y^{cart})$ is a [[quasi-category]]
 
@@ -68,10 +147,12 @@ For $(X \to S) \in SSet^+/S$ and $p : Y \to S$ a [[cartesian fibration]] we have
 =--
 
 
+## Model structure on marked simplicial sets
 
-### The model structure 
 
-The **model structure on marked simplicial over-sets** $Set^+/S$ over $S \in SSet$ -- also called the **Cartesian model structure** since it models [[cartesian fibration]]s -- is defined as follows.
+### Definition
+
+The **model structure on marked simplicial over-sets** $Set^+/S$ over $S \in SSet$ -- also called the **Cartesian model structure** since it models [[Cartesian fibration]]s -- is defined as follows.
 
 
 +-- {: .un_def }
@@ -124,7 +205,7 @@ There is another such model structure, with [[Cartesian fibration]]s replaced ev
 
 
 
-## As a model for the $(\infty,1)$-category of $(\infty,1)$-categories
+### As a model for the $(\infty,1)$-category of $(\infty,1)$-categories
 
 The Joyal [[model structure for quasi-categories]] $sSet_{Joyal}$ is an [[enriched category]] enriched over itself. So it is _not_ a [[simplicial model category]] in the standard sense, which means $sSet_{Quillen}$-enriched.
 
@@ -132,9 +213,8 @@ Indeed, the full sSet-enriched subcategory $(sSet_{Joyal})^\circ$ on fibrant-cof
 
 The resulting [[(∞,1)-category]] should have a presentation by a [[simplicial model category]]. And the model structure on marked simplicial sets does accomplish this.
 
-## Details
+### Properties
 
-### Marked anodyne morphisms
 
 +-- {: .un_defn}
 ###### Definition ([[Higher Topos Theory|HTT, Def 3.1.1.1]])
@@ -197,9 +277,14 @@ Every morphism $f : X \to Y$ in $SSet^+/S$ whose underlying morphism in $SSet^+$
   
 ## References 
 
-section 3.1.3 of
+Marked simplicial sets are introduced in section 3.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-[[!redirects model structure for Cartesian fibrations]]
+The model structure on marked simplicial oversets is described in section 3.1.3
+
+
+[[!redirects marked simplicial set]]
+[[!redirects marked simplicial sets]]
 [[!redirects model structure for coCartesian fibrations]]
+[[!redirects model structure on marked simplicial over-sets]]
