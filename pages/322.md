@@ -337,11 +337,12 @@ See also related discussion at [[club]].
 
 ### Specific examples
 
+
+* [[endomorphism operad]]
+
 * [[associative operad]]
 
   * [[A-infinity operad]]
-
-* [[endomorphism operad]]
 
 * [[E-k operad]]
 
@@ -415,7 +416,7 @@ See
 
 The definition is originally due to
 
-* [[Peter May]], _The geometry of iterated loop spaces_
+* [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
 {#May}
 
 An earlier version was the notion of [[analyser]] (known usually by French version *analyseur* introduced in
