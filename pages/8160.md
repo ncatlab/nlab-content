@@ -1,6 +1,11 @@
 
 
+## Related concepts
+
+* [[computation]], [[programming language]]
+
 ## References
 
 * Wikipedia, _[Algorithm](http://en.wikipedia.org/wiki/Algorithm)_
 
+[[!redirects algorithms]]
