@@ -136,7 +136,7 @@ $$
    \coprod_{s \in S_1 \times S_2} *
 $$
 
-and it preserves [[equalizer]]s and therefore [[limit]]s. So it is let exact and we do have a geometric morphism.
+and it preserves [[equalizer]]s and therefore [[limit]]s. So it is left exact and we do have a geometric morphism.
 
 
 
