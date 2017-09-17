@@ -161,7 +161,33 @@ The functor that forms idempotent completion is the [[monad]] induced from the [
 
 ## Examples
 
-* [[category of Chow motives]]
+* [[category of Chow motives]] 
+
+### The category of smooth manifolds 
+
+By a "smooth manifold", we mean a finite-dimensional (paracompact, Hausdorff) $C^\infty$ [[manifold]] without boundary. Let $Man$ be the category of smooth manifolds and smooth maps, and let $i: Open \hookrightarrow Man$ be the full subcategory whose objects are open sets in finite-dimensional [[Euclidean spaces]]. 
+
++-- {: .num_theorem} 
+###### Theorem 
+The subcategory $i: Open \hookrightarrow Man$ exhibits $Man$ as an idempotent-splitting completion of $Open$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+By lemma \ref{def2}, it suffices to prove that 
+
+* Every smooth manifold is a smooth retract of an open set in Euclidean space; 
+
+* If $p : U \to U$ is a smooth idempotent on an open set $U \subseteq \mathbb{R}^n$, then the subset $Fix(p) \hookrightarrow U$ is an embedded submanifold. 
+
+For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case $U$ carries a structure of vector bundle over $M$ in such a way that the inclusion $M \hookrightarow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
+
+For the second statement, we construct a smooth atlas on $Fix(p)$. Let $x \in Fix(p)$, so that $p(x) = x$ and $p$ induces a linear map $D p{|_x} \colon T_x(p) \to T_x(p)$. 
+
+TO BE CONTINUED. 
+
+=--
+
 
 ## Related concepts
 
