@@ -19,7 +19,9 @@ In the 1980-s, [[Grothendieck]] in _Pursuing Stacks_ introduced test categories 
 
 ## Definition
 
-Given any small category $\mathcal{C}$, one considers $\mathcal{C}$-sets, i.e., contravariant [[functors]] from $\mathcal{C}$ to $Set$. Given an object $c\in C$, one considers the [[representable functor]] $Hom_{\mathcal{C}}(-,c)=:\Delta^c$. If $X:\mathcal{C}^{op} \to Set$ is a $\mathcal{C}$-set, the elements of $X(c)$ are called the $c$-cells. By the [[Yoneda lemma]], they correspond to the [[natural transformations]] $\Delta^c\to X$. 
+Given any small category $\mathcal{C}$, one considers $\mathcal{C}$-sets, hence [[presheaves]] on $\mathcal{C}$, hence [[contravariant functors]] from $\mathcal{C}$ to $Set$. 
+
+Given an [[object]] $c\in C$, one considers the [[representable functor]] $Hom_{\mathcal{C}}(-,c)=:\Delta^c$. If $X:\mathcal{C}^{op} \to Set$ is a $\mathcal{C}$-set, the elements of $X(c)$ are called the $c$-cells. By the [[Yoneda lemma]], they correspond to the [[natural transformations]] $\Delta^c\to X$. 
 
 Let the **cell category** of $X$, denoted $i_{\mathcal{C}} X$, be the full subcategory of the [[overcategory]] $\mathcal{C}Set/X$ whose objects are the transformations of the form $\Delta^c\to X$. The correspondence $X\mapsto i_{\mathcal{C}}X$ extends to a functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ which has a right adjoint $i_{\mathcal{C}}^*:Cat\to\mathcal{C}Set$ whose object part is given by the formula
 
@@ -47,6 +49,8 @@ If $\mathcal{A}$ is a test category and $\mathcal{C}$ any small category whose c
 ### Homotopy category
 
 The [[homotopy category]] of a [[category of presheaves]] over a test category, as a [[category with weak equivalences]] is equivalent to the standard homotopy category of [[homotopy theory]]: that of the category of [[simplicial sets]]/[[topological spaces]] with weak equivalences being [[weak homotopy equivalences]].
+
+In other words, presheaves over a test category are models for [[homotopy types]] of [[∞-groupoids]].
 
 ### Model category structure
 
@@ -106,3 +110,6 @@ The test category nature of the groupoidal [[Theta category]] is discussed in
 * [[Dimitri Ara]], _The groupoidal analogue $\tilde \Theta$ to Joyal's category $\Theta$ is a test category_ ([arXiv:1012.4319](http://arxiv.org/abs/1012.4319))
 
 [[!redirects test categories]]
+
+[[!redirects strict test category]]
+[[!redirects strict test categories]]
