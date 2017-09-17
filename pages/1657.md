@@ -62,18 +62,7 @@ It is sometimes stated (but in fact follows from the above) that:
 *  Finitary additivity:  $\mu(S \cup T) = \mu(S) + \mu(T)$ whenever $S$ and $T$ are disjoint.
 *  $\mu$ is increasing:  $\mu(A) \leq \mu(B)$ if $A \subseteq B$.
 
-The first of these conditions will follow for all of the generalised notions of measure below, but the others usually will not.
-
-+-- {: .query}
-[[Eric]]: Is there some nice "arrow theoretic" way to state the above? It seems to be screaming to be a functor or an internalization or something.
-
-[[Eric]]: The "products" $\bigcup$ and $\sum$ look like they should be "products" in two different categories. Is that silly?
-
-[[John Baez]]: $\bigcup$ is less like a "product" than a  "sum" --- also known as a [[coproduct]].  The collection of subsets of $X$ is a [[poset]], which is a kind of category, and the union of a bunch of subsets can be seen as their coproduct in this category.  Unfortunately I don't see a great way to understand the sum of real numbers as a coproduct!  So, I can't quite do what I think you're hoping for.
-
-_Toby_:  Well, they are still operations that make both $\Sigma$ and $\mathbf{R}^+$ into [[monoidal categories]]; since they\'re also posets, this makes them [[monoidal poset]]s.  We can talk about countable additivity using [[transfinite composition]].  I doubt that this adds much to the theory of measure spaces, but it points the way to some of the generalisation below, as well to possibilities for categorification.
-=--
-
+The first of these conditions will follow for all of the generalised notions of measure below, but the others usually will not. Related query discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2829&Focus=28141#Comment_28141).
 
 ### Generalisations
 
