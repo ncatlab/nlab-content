@@ -2736,7 +2736,7 @@ $$
 
 We unwind what this amounts to explicitly in terms of components. The elements of the simplicial presheaf $\exp(\mathfrak{g})_{conn}$ are sets of differential forms satisfying conditions, as follows:
 
-a $k$-cell in $\exp(\mathfrak{g})_{diff}$ parameterized by $U \in CartSp$ is
+a $k$-cell in $\exp(\mathfrak{g})_{conn}$ parameterized by $U \in CartSp$ is
 
 * a $\mathfrak{g}$-[[∞-Lie algebra valued differential form|valued differential form]] $A$ on $U \times \Delta^k$, which we may think of as the connection form on the total space of a bundle as in the definition of [[Ehresmann connection]];
 
