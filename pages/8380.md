@@ -15,13 +15,15 @@
 
 ## Idea
 
-In [[computer science]], a _monad_  is a map that 
+In [[computer science]], a _monad_ describes a "notion of computation".  Formally, it is a map that 
 
 * sends every [[type]] $X$ of some given [[programming language]] to a new type $T(X)$ (called the "type of $T$-computations with values in $X$");
 
 * equipped with a rule for composing two [[functions]] of the form $f : X \to T(Y)$ (called _[[Kleisli functions]]_) and $g : Y \to T(Z)$ to a function $bind(f,g) : X \to T (Z)$ (their [[Kleisli composition]]);
 
 * in a way that is [[associativity law|associative]] in the evident sense and [[unit law|unital]] with respect to a given unit function called $return_X : X \to T(X)$, to be thought of as taking a value to the trivial computation that simply returns that value.
+
+This is essentially the same structure as a [[monad]] in [[category theory]], but presented differently; see below for the precise relationship.
 
 ### For imperative programs in functional programming
 
