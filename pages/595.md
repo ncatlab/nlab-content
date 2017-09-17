@@ -36,7 +36,7 @@ The __nullary intersection__ of the subsets of $X$ is $X$ itself.  A __binary in
 
 * [[union]]
 
-* [[intersection product]]
+* [[intersection product]], [[intersection theory]]
 
 [[!redirects intersection]]
 [[!redirects intersections]]
