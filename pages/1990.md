@@ -75,7 +75,7 @@ According to section 3.2 of Andres Kock's book, the coboundary operator $d : \Om
 $$
   d\omega(x_0, x_1, \cdots, x_{k+1})
   :=
-  \sum_{i=0^{k+1}}
+  \sum_{i=0}^{k+1}
   \omega(x_1, \cdots , \hat{x_i}, \cdots, x_{k+1})
   \,,
 $$
