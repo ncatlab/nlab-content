@@ -303,3 +303,5 @@ The interpretation of the BV quantum master equation as a description of closed 
 
 
 [[!redirects BV-BRST complex]]
+
+[[!redirects BRST-BV formalism]]
