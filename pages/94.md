@@ -24,7 +24,7 @@
 
 ## Idea ##
 
-$L_\infty$-algebras are a [[vertical categorification]] of Lie algebras: in an $L_\infty$-algebra the Jacobi identity is allowed to hold (only) up to higher coherent homotopy. 
+$L_\infty$-algebras are a [[vertical categorification]] of Lie algebras: in an $L_\infty$-algebra the [[Jacobi identity]] is allowed to hold (only) up to higher coherent homotopy. 
 
 From another perspective: an $L_\infty$-algebra is a [[Lie ∞-algebroid]] with a single object.
 
@@ -40,10 +40,10 @@ $$
   l_n(\cdots) := [-,-, \cdots, -] : V^{\wedge n} \to V
 $$
 
-of degree -1, that satisfy a generalized Jacobi identity of the form
+of degree -1, that satisfy a generalized [[Jacobi identity]] of the form
 
 $$
-  \sum_{i+j = n} \sum_{\sigma \in Shuff(i,j)}
+  \sum_{i+j = n+1} \sum_{\sigma \in Shuff(i,j)}
   \pm l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)})
    , v_{\sigma(j+1)} , \cdots , v_{\sigma(n)}
   ) )
