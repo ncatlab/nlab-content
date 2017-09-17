@@ -62,3 +62,6 @@ That this is a symmetric monoidal structure is described in section  6 of
 
 [[!redirects (∞,1)-category of spectra]]
 [[!redirects (infinity,1)-category of spectra]]
+
+[[!redirects symmetric monoidal (∞,1)-category of spectra]]
+[[!redirects symmetric monoidal (infinity,1)-category of spectra]]
