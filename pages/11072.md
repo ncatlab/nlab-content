@@ -13,12 +13,42 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In full [[linear logic]]/[[linear type theory]] there is assumed a (co-)[[modality]] denoted "!", whose role is, roughly, to give linear types also a non-linear interpretation. This is also called the _exponential conjunction_ and is also known as the "of course"-modality and sometimes also as the "bang"-operation (for better or worse).
 
+## Categorical semantics
 
-For the moment see at _[dependent linear type theory -- The canonical co-modality](http://ncatlab.org/nlab/show/dependent+linear+type+theory#TheCanonicalComodality)_ for more.
+We discuss some aspects of the [[categorical semantics]] of the !-modality.
+
+### Fock space and Second quantization
+
+In [[categorical semantics]] if linear type theory the !-modality typically appears as a kind of [[Fock space]] construction. If one views [[linear logic]] as [[quantum logic]] (as discussed there), then this means that the !-modality produces free [[second quantization]].
+
+### Underlying adjunction
+
+As any [[comonad]], the !-modality may be realized as induced from an [[adjunction]]. For more on this see for the moment at _[dependent linear type theory -- The canonical co-modality](dependent+linear+type+theory#TheCanonicalComodality)_ for more.
+
+
+## References
+
+### General
+
+### Relation to Fock space construction
+
+The interpretation of the !-modality as a [[Fock space]] construction is discussed in the following articles.
+
+* {#BlutePanangadenSeely94} [[Richard Blute]], [[Prakash Panangaden]], [[R. A. G. Seely]], _Fock Space: A Model of Linear Exponential Types_ (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.6825))
+
+* {#Fiore07} [[Marcelo Fiore]], _Differential Structure in Models of Multiplicative Biadditive Intuitionistic Linear Logic_, Lecture Notes in Computer Science Volume 4583, 2007, pp 163-177 ([pdf](http://www.cl.cam.ac.uk/~mpf23/papers/Types/diff.pdf))
+
+* {#Vicary07} [[Jamie Vicary]], _A categorical framework for the quantum harmonic oscillator_ ([arXiv:0706.0711](http://arxiv.org/abs/0706.0711))
+
+  (in the context of [[finite quantum mechanics in terms of dagger-compact categories]])
 
 
 [[!redirects of course]]
