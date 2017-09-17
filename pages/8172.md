@@ -28,7 +28,7 @@ Working with the Adams spectral sequence tends to be fairly involved, as is clea
 A neat conceptual picture of what happens in the Adams spectral sequence has emerged long after its conception with the arrival of [[higher algebra]] in [[stable (infinity,1)-category|stable infinity-category theory]]. A nice, brief, illuminating modern (and funny) account of this is in ([Wilson 13](#Wilson13)), further details are in ([Lurie 10](#Lurie10)).
 
 
-## Motivation from Hurewicz theorem and Serre's spectral sequence
+## Motivation from Hurewicz theorem and Serre spectral sequence
  {#MotivationFromHurewiczTheoremAndSerreSpectralSequence}
 
 The Adams spectral sequence may be motivated from the strategy to 
@@ -154,66 +154,71 @@ $$
     \\
     \pi_\bullet(F_2) &\stackrel{\pi_\bullet(f_2)}{\longrightarrow}& \pi_\bullet(K_2)
     \\
-    \downarrow & \nwarrow^{\mathrlap{\pi_\bullet(\partial_2)}}
+    \downarrow & \nwarrow^{\mathrlap{\partial_2}}
     \\
     \pi_\bullet(F_1) &\stackrel{\pi_\bullet(f_1)}{\longrightarrow}& \pi_\bullet(K_1)
     \\
-    \downarrow & \nwarrow^{\mathrlap{\pi_\bullet(\partial_1)}}
+    \downarrow & \nwarrow^{\mathrlap{\partial_1}}
     \\
     \pi_\bullet(X) &\stackrel{\pi_\bullet(f_0)}{\longrightarrow}& \pi_\bullet(K_0)
   }
   \,,
 $$
 
-where the diagonal maps are the images of the [[connecting homomorphisms]] and hence decrease degree in $\pi_\bullet$ by one.
+where the diagonal maps are the [[connecting homomorphisms]] and hence decrease degree in $\pi_\bullet$ by one.
+The idea now is to compute the [[homotopy groups]] of $X$ from the decomposed information in this diagram as follows.
 
-The idea now is to compute the [[homotopy groups]] of $X$ from the decomposed information in this diagram as follows:
+First, by construction the homotopy groups $\pi_\bullet(K_s)$ are known, therefore we can identify elements 
 
-* by construction the homotopy groups $\pi_\bullet(K_s)$ are known;
+$$
+  \sigma \in \pi_\bullet(X)
+$$
 
-* so we identify an element $\sigma \in \pi_\bullet(X)$ from each element $f_s(\sigma_s) \in \pi_\bullet(K_s)$ which is in the image of an element $\sigma_s \in \pi_\bullet(X_s)$ of the map 
+if they come from elements 
 
-  $$
-    \pi_\bullet(X_s) \to \pi_\bullet(K_s)
-    \;
-  $$
+$$
+  \sigma_s \in \pi_\bullet(X_s)
+$$
 
-* by [[exact sequence|exactness]], an element in this image is in the [[kernel]] of
+whose image 
 
-  $$
-   \array{
-      \pi_\bullet(X_{s+1})
-      \\
-      & \nwarrow
-      \\
-      && \pi_\bullet(K_s)
-   }
-   \,
-  $$
+$$
+  \pi_\bullet(f_s)(\sigma_s) \in \pi_\bullet(K_s)
+$$
 
-  hence that its image $\kappa_{s+1}$ along this map vanishes,
-  and hence in particular that it is in the kernel of
+we understand. So the task is to understand the image of $\pi_\bullet(f_s)$ in $\pi_\bullet(K_s)$, for each $s$.
 
-  $$
-   \array{
-      \pi_\bullet(X_{s+1})
-      &
-       \stackrel{
-         \pi_\bullet(f_{s+1})
-       }{
-         \longrightarrow
-       }
-      &
-      \pi_\bullet(K_{s+1})
-      \\
-      & \nwarrow
-      \\
-       && \pi_\bullet(K_s)
-   }
-   \,;
-  $$
+By [[exact sequence|exactness]] an element $\kappa_s \in \pi_\bullet(K_s)$ is in this image if its image 
 
-* if indeed $\pi_\bullet(f_{s+1})(\kappa_{s+1}) = 0$ then again by [[exact sequence|exactness]] it came from an element $\sigma_{n+2} \in \pi_\bullet(X_{n+2})$.
+$$
+  \rho_{s+1} \coloneqq \partial(\kappa_s) \in \pi_{\bullet-1}(X_{s+1})
+$$
+
+vanishes. Now, by construction of the resolution, "evidence" for this is that $f_{s+1}(\partial(\kappa_s)) \in \pi_{\bullet-1}(K_{s+1})$ vanishes, which in turn by [[exact sequence|exactness]] means equivalently that $\partial(\kappa_s)$ is the image of an element  $\rho_{s+2} \in  \pi_{\bullet-1}(X_{s+2}) \to \pi_{\bullet-1}(X_{s+1})$. Now again "evidence" for $\rho_{s+2}$ to vanish is that its image $f_{s+2}(\rho(s+2))$ vanishes, which again means that it comes from an element $\rho_{s+3} \in  \pi_{\bullet-1}(X_{s+3}) \to \pi_{\bullet-1}(X_{s+2})$.
+
+Proceeding by [[induction]] this way, we find that accumulated "evidence" in homotopy groups of $K_\bullet$ for an element $\kappa_s$ to represent an element in $\pi_\bullet(X)$ is that its differential $\partial \kappa_s$ factors through all the $\pi_{\bullet-1}(X_{s+k}) \to \pi_{\bullet-1}(X_s)$. This in turn means that it factors through the [[inverse limit]] $\underset{\leftarrow}{\lim}_s \pi_{\bullet-1}(X_s)$.
+Such an element $\kappa_s$ with 
+
+$$
+  \partial \kappa_s \in \underset{\leftarrow}{\lim}_s \pi_{\bullet-1}(X_s) \to \pi_{\bullet-1}(X_{s+1})
+$$
+
+is called a _permanent cycle_.
+
+In good cases, the [[Adams resolution]] is indeed a [[resolution]] which means that  the [[inverse limit]] $\underset{\leftarrow}{\lim}_s X_s $ is in fact [[contractible]]. This means that all the "evidence" accumulated in a permanent cycle is indeed sufficient evidence to prove the existence of an element $\sigma_s \in \pi_\bullet(X_s)$ and hence of an element $\sigma \in \pi_\bullet(X)$.
+
+
+A trivial way for this to be the case is that the original $\sigma_s$ is itself in the image under $\partial$ of some element, in which case $\kappa_s = 0$ already all by itself. These elements are called _eventual boundaries_. Therefore if the Adams resolution is indeed a resolution the quotient group
+
+$$
+  \frac{permanent\;cycles}{eventual\;bounaries}
+$$
+
+gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral sequence computes.
+
+
+
+
 
 
 ## Definition
