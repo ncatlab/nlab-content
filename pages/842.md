@@ -316,6 +316,68 @@ This is [[Higher Topos Theory|HTT, lemma 5.5.2.3]]
 
 In other words, suppose that $\lim_x F(x,y)$ exists for all $y$ and $\lim_y F(x,y)$ exists for all $x$ and also that $\lim_y (\lim_x F(x,y))$ exists, then this object is also $\lim_x \lim_y F(x,y)$.
 
+### Limits in over-$(\infty,1)$-categories {#InOvercategories}
+
++-- {: .un_prop }
+###### Proposition
+
+For $C$ an $(\infty,1)$-category, $X : D \to C$ a diagram, $C/X$ the [[over-(∞,1)-category]] and $F : K \to C/X$ another diagram, we have that the limit $\lim_{\leftarrow} F$ in $C/X$ coincides with the limit $\lim_{\leftarrow} F/X$ in $C$. 
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+Modelling $C$ as a [[quasi-category]] we have that $C/X$ is given by the [[simplicial set]]
+
+$$
+  C/X : [n] \mapsto Hom_X([n] \star D, C) 
+  \,,
+$$
+
+where $\star$ denotes the [[join of simplicial sets]]. The limit $\lim_{\leftarrow} F$ is the initial object in $(C/X)/F$, which is the quasi-category given by the simplicial set
+
+$$
+  (C/X)/F : [n] \mapsto Hom_{F}( [n] \star K, C/X)
+  \,.
+$$
+
+Since the join preserves colimits of simplicial sets in both arguments, we can apply the [[co-Yoneda lemma]] to decompose $[n] \star K = {\lim_{\underset{{[r] \to [n]\star K}}{\to}}}  [r]$, use that the [[hom-functor]] sends colimits in the first argument to limits and obtain
+
+$$
+  \begin{aligned}
+     Hom([n] \star K, C/X) 
+     &\simeq
+     Hom( {\lim_{\to}}_r [r], C/X)
+     \\
+     & \simeq {\lim_{\leftarrow}}_r Hom([r], C/X)
+     \\
+     & \simeq {\lim_{\leftarrow}}_r Hom_F( [r] \star D, C )
+     \\
+     & \simeq  Hom_F({\lim_{\to}}_r ([r] \star D), C )
+     \\
+     & \simeq  Hom_F( ({\lim_{\to}}_r[r]) \star D, C )     
+     \\
+     & \simeq Hom_F(([n] \star K) \star D, C)
+     \\
+     & \simeq Hom_F([n] \star (K \star D), C)
+  \end{aligned}
+  \,.
+$$
+
+Here $Hom_F([r]\star D,C)$ is shorthand for the hom in the (ordinary) [[under category]] $sSet^{D/}$ from the canonical inclusion $D \to [r] \star D$ to $X : D \to C$. Notice that we use the 1-categorical analog of the statement that we are proving here when computing the colimit in this under-category as just the colimit in $sSet$. We also use that the [[join of simplicial sets]], being given by [[Day convolution]] is an associative tensor product.
+
+In conclusion we have an isomorphism of simplicial sets
+
+$$
+  (C/X)/F \simeq C/(X/F)
+$$
+
+and therefore the initial objects of these quasi-categories coincide on both sides. This shows that $\lim_{\leftarrow} F$ is computed as an initial object in $C/(X/F)$.
+
+=--
+
+
 ### Limits and colimits with values in $\infty Grpd$ {#WithValInooGrpd}
 
 Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulation in terms of the  [[universal fibration of (infinity,1)-categories]].
