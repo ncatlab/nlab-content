@@ -1,10 +1,14 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://owpdb.mfo.de/photoNormal?id=6852" alt="Jacob Lurie" /></div>
 
-
+Jacob Lurie is a mathematician at Harvard University.
 
 * [website](http://www.math.harvard.edu/~lurie/)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Jacob_Lurie)
+
+After an early interest in [[formal logic]] (see [Notices of the AMS vol 43, Number 7](http://www.ams.org/notices/199607/comm-conway.pdf)) Lurie indicated in [his PhD thesis](http://dspace.mit.edu/handle/1721.1/30144) how the [[moduli stack of elliptic curves]] together with the collection of [[elliptic cohomology]] [[spectra]] associated to each [[elliptic curve]] is naturally understood as a geometric object in a [[homotopy theory|homotopy theoretic]] refinement of [[algebraic geometry]] that has come to be known as [[derived algebraic geometry]]. He then embarked on a monumental work laying out detailed foundations of the subjects necessary for this statement, which is [[homotopy theory]] in its modern incarnations as [[higher category theory]], [[higher geometry]] in terms of [[higher topos theory]] and finally [[higher algebra]] in terms of [[(infinity,1)-operad|higher operads]], all in principle  very much along the lines originally developed by [[Alexander Grothendieck]] and his school for ordinary [[algebraic geometry]], but now considerably further refined to the general context of [[homotopy theory]]. While some developments in these topics had been available before, Lurie's comprehensive work has arguably led these subjects to an era of reinvigorated activity with a variety of further spin-offs. Among these most notable is maybe the formalization and proof of the [[cobordism hypothesis]], which lays [[monoidal (infinity,n)-category|higher monoidal category theoretic]] foundations for ([[extended topological quantum field theory|local, topological]]) [[quantum field theory]].
+
+
 
 #Contents#
 * table of contents
@@ -92,6 +96,7 @@ Survey on the general program
 
 
 The basic definitions of [[E-∞ geometry]] (spectral geometry) are in
+
 
 * [[Jacob Lurie]], _[[Spectral Schemes]]_
  {#Lurie}
