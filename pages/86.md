@@ -723,5 +723,7 @@ A standard textbook on the application of BRST-BV to [[gauge theory]] is
 
 [[!redirects symplectic reduction]]
 [[!redirects Poisson reduction]]
+[[!redirects symplectic quotient]]
+[[!redirects symplectic quotients]]
 
 [[!redirects antifield formalism]]
