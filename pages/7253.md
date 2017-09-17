@@ -1,3 +1,4 @@
+[[!redirects reduction of structure groups]]
 
 #Contents#
 * table of contents
@@ -11,7 +12,10 @@ For $G \to K$ a [[monomorphism]] of groups, a $G$-structure on a $K$-[[principal
 
 Alternatively, for $G \to K$ an [[epimorphism]] of groups, a $G$-structure on a $K$-[[principal bundle]] is a _lift_ of the structure group from $K$ to $G$.
 
-The distinction between epimorphism and monomorphism is, however, not quite "homotopy correct". For instance in the first steps of the [[Whitehead tower]] of the [[orthogonal group]]
++-- {: .num_remark #EpiMonoNonintrinsic}
+###### Remark
+
+The distinction between epimorphism and monomorphism, hence between reduction and lift of structure groups is, however, not quite "homotopy correct". For instance in the first steps of the [[Whitehead tower]] of the [[orthogonal group]]
 
 $$
   Spin(n) \to SO(n) \hookrightarrow O(n) (\hookrightarrow GL(n))
@@ -19,7 +23,9 @@ $$
 
 the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
 
+See ([NSS, section 4.3](#NSS)).
 
+=--
 
 ## Examples
  {#Examples}
@@ -48,7 +54,13 @@ the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
 
 * reduction of [[exceptional tangent bundle]] along $SU(7) \hookrightarrow E_{7(7)}$: [N=1 11d sugra compactification on ](exceptional+generalized+geometry#HigherSupersymmetry)
 
+## References
 
+In the generality of [[principal infinity-bundles]], reductions/lifts of structure groups are discused in section 4.3 of
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
+ {#NSS}
+ 
  
 [[!redirects lift of structure groups]]
 [[!redirects lift of the structure group]]
