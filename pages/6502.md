@@ -88,12 +88,7 @@ the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]].
 
   * [[higher parallel transport]]
 
- local model                |   global geometry
-----------------------------|----------------------------
- [[Klein geometry]]         |   _Cartan geometry_
- [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
- [[higher Klein geometry]]  |   [[higher Cartan geometry]]
-
+[[!include local and global geometry - table]]
 
 
 ## References
