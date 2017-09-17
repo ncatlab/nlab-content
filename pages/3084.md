@@ -13,4 +13,8 @@ Notice that being an equivariant sheaf is an additional structure on a sheaf, ra
 
 Note also that if "space" means [[topological space]] and $G$ is a [[topological group]] acting on the [[point]] $1$, then equivariant sheaves are just the same as continuous $G$-sets.  In particular, if $G$ is a discrete group, then equivariant sheaves are just the same as ordinary $G$-sets.
 
-Finally, observe that the definition of equivariant sheaf only depends on the action groupoid, and thus can be generalized to equivariant sheaves on any internal groupoid in the category of spaces.  If "space" means [[locale]], then every [[Grothendieck topos]] can be presented as the category of equivariant sheaves on some [[localic groupoid]].  This is a theorem of Joyal and Tierney, and can be found in chapter C5 of the [[Elephant]].
+Observe that the definition of equivariant sheaf only depends on the [[action groupoid]], and thus can be generalized to equivariant sheaves on any internal groupoid in the category of spaces.  If "space" means [[locale]], then every [[Grothendieck topos]] can be presented as the category of equivariant sheaves on some [[localic groupoid]].  This is a theorem of [[André Joyal]] and [[Miles Tierney]], and can be found in chapter C5 of the [[Elephant]].
+
+The appropriate notion of the "[[equivariant derived category]]" is in general not equal to the derived category of the [[abelian category]] of equivariant sheaves; one needs to resolve appropriately.  
+
+[[!redirects equivariant sheaves]]
