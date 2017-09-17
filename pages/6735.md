@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A model for the [[M2-brane]] with 16 manifest supercharges.
+
+## Related concepts
+
+* [[ABJM theory]]
+
+
+## References
+
+* J. Bagger, N. Lambert, Phys. Rev. D75, 045020 (2007). [hep-th/0611108]. J. Bagger,
+N. Lambert, Phys. Rev. D77, 065008 (2008). [arXiv:0711.0955].
+
+* A. Gustavsson, Nucl. Phys. B811, 66-76 (2009). [arXiv:0709.1260].
