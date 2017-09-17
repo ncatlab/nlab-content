@@ -27,6 +27,10 @@ The universal additive split-exact and homotopy-invariant [[localization]] of $C
 
 * [[noncommutative topology]]
 
+* [[homotopical structure on C*-algebras]], [[model structure on operator algebras]]
+
+  * [[KK-theory]], [[E-theory]]
+
 * [[AQFT]]
 
 category: category
