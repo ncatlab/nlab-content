@@ -60,7 +60,7 @@ and where
 
 * the horizontal morphisms are [[Quillen equivalence]]s
 
-* the vertical morphisms are [[homotopy full functor|homotopy full]] embeddings.
+* the vertical morphisms are [[reflective sub-(infinity,1)-category|homotopy full embeddings]].
 
 ## Definition
 
