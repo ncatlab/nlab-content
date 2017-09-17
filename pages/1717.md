@@ -18,7 +18,7 @@
 
 ## Idea
 
-The notion of strict 2-group a strict [[vertical categorification]] of that of [[group]].
+The notion of strict 2-group is a strict [[vertical categorification]] of that of [[group]].
 
 A strict 2-group is a [[group object]] [[internalization|internal]] to the [[category]] [[Grpd]] of [[groupoid]]s (regarded as an ordinary category, not as a [[2-category]]). 
 
