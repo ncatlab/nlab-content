@@ -18,7 +18,7 @@
 
 A **compact closed category**, or simply a **compact category**, is a [[symmetric monoidal category]] in which every object is [[dualizable object|dualizable]].
 
-In particular, a compact closed category is a [[closed monoidal category]], with the internal hom given by $[A,B] = A^* \otimes B$ (where $A^*$ is the dual of $A$).
+In particular, a compact closed category is a [[closed monoidal category]], with the [[internal hom]] given by $[A,B] = A^* \otimes B$ (where $A^*$ is the dual of $A$).
 
 More generally, if we drop the symmetry requirement, we obtain a [[rigid monoidal category]], a.k.a. an *autonomous category*.  Thus a compact category may also be called a **rigid symmetric monoidal category** or a **symmetric autonomous category**.  A maximally clear, but rather verbose, term would be a **symmetric monoidal category with duals for objects**.
 
