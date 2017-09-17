@@ -82,7 +82,7 @@ General statements seem not to be in the literature yet, but see [this MO discus
 *  In $C =$ [[∞Grpd]], for uncountable $\kappa$, the $\kappa$-compact objects are
    precisely the $\kappa$-[[essentially small ∞-groupoids]]. When $\kappa = \omega$,
    the compact objects in ∞Grpd are the retracts of the $\omega$-small ∞Grpds, i.e.,
-   i.e., the retracts of the finite CW-complexes. Not every such retract is equivalent
+    the retracts of the finite CW-complexes. Not every such retract is equivalent
    to a $\omega$-small ∞-groupoid; the vanishing of Wall's finiteness obstruction is
    a necessary and sufcient condition for such an equivalence to exist.
 
@@ -105,7 +105,7 @@ Compactness in presenting model categories of simplicial sheaves is discussed fo
 
 section 4 of 
 
-* Geoffrey Powell, _The adjunction between $\mathcal{H}(k)$ and $DM^{eff}_-(k)$_ (2001) ([pdf](http://www.math.univ-paris13.fr/~powell/documents/2001/adjoint.pdf))
+* [[Geoffrey Powell]], _The adjunction between $\mathcal{H}(k)$ and $DM^{eff}_-(k)$_ (2001) ([pdf](http://math.univ-angers.fr/~powell/documents/2001/adjoint.pdf))
   {#Powell}
 
 
