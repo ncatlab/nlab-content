@@ -10,7 +10,11 @@
  [[true]]                       |   [[terminal object]]/[[(-2)-truncated object]]  |  [[h-level 0]]-[[type]]/[[unit type]] 
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
  [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]]-[[type]]/[[h-prop]] 
- [[proof]]                      |  [[generalized element]]                  | [[program]]
+ [[proof]]                      |   [[generalized element]]                  | [[program]]
+ [[classical type theory]]      |   [[internal logic]]       |   [[classical type theory]], [[logic programming]]
+ [[cut rule]]                   |   [[composition]]                      |   [[substitution]]
+ [[cut elimination]]            |   [[counit]]           |   [[beta reduction]]
+ ?                              |   [[unit]]             |   [[eta conversion]]
  [[conjunction]]                |   [[product]]                   |  [[product type]]
  [[disjunction]]                |   [[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of)
  [[implication]]                |   [[internal hom]]                        |  [[function type]]
