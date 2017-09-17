@@ -19,7 +19,7 @@
 
 The notion of a _quasi-Hopf algebra_ generalizes this of a [[Hopf algebra]] by weakening the [[associativity]] [[coherence]] ([Drinfeld 89](#Drinfeld89)). 
 
-In particular, quasi-Hopf algebras may be obtained from ordinary Hopf algebras by twisting by Drinfel'd associator, i.e. a nonabelian [[bialgebra cocycle|bialgebra 3-cocycle]].
+In particular, quasi-Hopf algebras may be obtained from ordinary Hopf algebras by twisting by a [[Drinfeld associator]], i.e. a nonabelian [[bialgebra cocycle|bialgebra 3-cocycle]].
 
 ### Motivation from quantum field theory
 
