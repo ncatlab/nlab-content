@@ -289,6 +289,7 @@ that satisfy the action property. Such as presented under the [[Eilenberg-Watts 
 ## Properties
 
 ### Tannaka duality
+ {#TannakaDuality}
 
 [[!include structure on algebras and their module categories - table]]
 
