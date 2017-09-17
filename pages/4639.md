@@ -47,7 +47,7 @@ $$
 
 we have the free $T$-algebra $F_T(*) \in TAlg$ on a single generator.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The **$T$-line object** is 
@@ -60,7 +60,8 @@ $$
 =--
 
 
-### The group object
+### The additive group object
+ {#AdditiveGroupObject}
 
 For $\mathcal{Ab}$ the [[Lawvere theory]] of [[abelian group]]s, say that a morphism $ab\colon \mathcal{Ab} \to T$ of Lawvere theories is an **abelian Lawvere theory**. Algebras over abelian Lawvere theories have underlying abelian groups
 
@@ -71,7 +72,7 @@ $$
   \,.
 $$
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $T$ an abelian Lawvere theory, by its underlying abelian group we have that $\mathbb{A}_T$ inherits the structure of an abelian [[group object]] in $Sh(C)$. Write
@@ -84,9 +85,30 @@ for this group object on $\mathbb{A}_T$.
 
 =--
 
+### The multiplicative group object
+ {#MultiplicativeGroup}
+
+
++-- {: .num_defn}
+###### Definition
+
+For $\mathbb{A}_T$ a line object, write
+
+$$
+  (\mathbb{A}_T^\times \hookrightarrow \mathbb{A}_T)
+  \in Sh(C)
+$$
+
+be the maximal [[subobject]] of the line on those [[generalized element|elements]] that have [[inverses]] under the multiplication $\mathbb{A}_T \times \mathbb{A}_T \to \mathbb{A}_T$.
+
+This is called the **multiplicative group** of the line object, often denoted $\mathbb{G}_m$.
+
+=--
+
+
 ### Examples
 
-* For $T$ the theory of ordinary commutative [[associative algebra]]s over a [[ring]] $k$, we have that 
+* For $T$ the theory of ordinary commutative [[associative algebras]] over a [[ring]] $k$, we have that 
 
   * $\mathbb{A}_T = \mathbb{A}_R$ is what is the _[[affine line]]_ over $K$;
 
@@ -95,6 +117,8 @@ for this group object on $\mathbb{A}_T$.
   * $\mathbb{G}_a$ is the standard [[additive group]].
 
 * For $T \coloneqq Smooth \coloneqq$ [[CartSp]] the theory of [[smooth algebra]]s, we have that $\mathbb{A}_{Smooth} = \mathbb{R}$ is the [[real line]] regarded as a [[diffeological space]].
+
+  The additive group in this case the the additive [[Lie group]] of [[real numbers]]. The multiplicative group is the Lie group $\mathbb{R}^\times = \mathbb{R} - \{0\}$ of non-zero real numbers under multiplication.
 
 
 ### References
@@ -117,3 +141,6 @@ Given a [[monoidal category]] $C$, one may define a _line object in $C$_ to be a
 
 [[!redirects line]]
 [[!redirects lines]]
+
+[[!redirects multiplicative group]]
+[[!redirects additive group]]
