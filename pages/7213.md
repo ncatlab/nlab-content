@@ -1,0 +1,15 @@
+[[!redirects exceptional generalized geometry]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A variant of the idea of [[generalized complex geometry]], which instead of the inclusion $O(d)\times O(d) \to O(d,d)$ is controled by incusions into [[split real forms]] of [[exceptional Lie groups]] such as 
+$SU(8)/\mathbb{Z}_2 \to E_{7(7)}$. This serves to neatly encode [[U-duality]] groups in [[supergravity]].
+
+## References
+
+* Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+
