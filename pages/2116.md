@@ -19,6 +19,30 @@ Without choice, the existence and uniqueness of algebraic closures may fail; see
 *  _[The fundamental theorem of algebra: a constructive development without choice](http://math.fau.edu/Richman/HTML/DOCS.HTM)_ by [[Fred Richman]]
 
 
+## Classical invariants 
+
+Putting aside the concerns of constructive mathematics, and freely adopting the principle of the [[excluded middle]] and the [[axiom of choice]], algebraically closed fields are characterized (up to non-unique isomorphism) by just two cardinal invariants: 
+
++-- {: .num_theorem} 
+###### Theorem 
+Two algebraically closed fields $K, K'$ are isomorphic iff they have the same characteristic $p$ (the nonnegative generator of the [[kernel]] of the unique [[ring]] map $\mathbb{Z} \to K$) and the same [[transcendence degree]] (the [[cardinality]] of any maximal set of algebraically independent elements). 
+=-- 
+
+In outline, the proof is simple in structure. The "only if" statement is clear. For the "if" statement, $K$ contains a subring isomorphic to $\mathbb{Z}/(p)[S]$ where $S$ is a transcendence basis, and similarly $K'$ contains a subring isomorphic to $\mathbb{Z}/(p)[S']$. By hypothesis, there is a bijection $f: S \to S'$, which extends uniquely to an isomorphism of [[integral domains]] $\mathbb{Z}/(p)[S] \to \mathbb{Z}/(p)[S']$, which extends uniquely to an isomorphism of their fields of fractions $\mathbb{F}(S) \to \mathbb{F}(S')$. Then $K, K'$ are algebraic closures of these fields, and one applies a theorem that an isomorphism of fields $\mathbb{F}(S) \to \mathbb{F}(S')$ can be extended to an isomorphism $K \to K'$ of their algebraic closures. 
+
+The full details of such a proof carry some themes important in [[model theory]]: 
+
+* There is a notion of algebraic closure of a subset, 
+
+* There are prime models (algebraic closure of prime field $\mathbb{Z}/(p)$), 
+
+* There are notions of independence and basis, and well-defined degree or dimension, 
+
+* There are extensions of isomorphisms of independent sets to isomorphisms of their algebraic closures. 
+
+... 
+
+
 ## Related concepts
 
 * [[Galois group]]
