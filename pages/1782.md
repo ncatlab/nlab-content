@@ -227,5 +227,11 @@ The perspective of [[algebraic K-theory of a symmetric monoidal (∞,1)-category
 
 * {#GepnerGrothNikolaus13} [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_, [arXiv:1305.4550](http://arxiv.org/abs/1305.4550).
 
+### K-theory stacks
+
+The system of [[infinite loop spaces]] of the algebraic K-theory spectrum regarded as an [[∞-stack]] on the [[Nisnevich site]] and the [[principal ∞-bundles]] over it is considered in
+
+* {#Saito14} [[Sho Saito]], _Higher Tate central extensions via K-theory and infinity-topos theory_ ([arXiv:1405.0923](http://arxiv.org/abs/1405.0923))
+
 [[!redirects algebraic K-theory of a stable (∞,1)-category]]
 [[!redirects algebraic K-theory of a stable (infinity,1)-category]]
