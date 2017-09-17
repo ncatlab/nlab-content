@@ -211,6 +211,7 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 * [[simplicial set]], [[geometric realization]]
 
+* [[G-CW complex]]
 
 ## References
 
