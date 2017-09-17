@@ -106,9 +106,11 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 * $Span_1(C)$ is a [[dagger compact category]].
 
 
-## Generalizations ##
+## Related concepts
 
- See [[multispan]].
+* [[(∞,n)-category of spans]].
+
+* [[multispan]].
 
 ## References ##
 
@@ -121,3 +123,6 @@ which discusses how spans naturally capture crucial aspects of [[quantum field t
 [[!redirects spans]]
 [[!redirects correspondence]]
 [[!redirects correspondences]]
+
+[[!redirects category of spans]]
+[[!redirects categories of spans]]
