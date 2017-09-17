@@ -253,6 +253,8 @@ replaced by [[equivariant elliptic cohomology]] yields (aspects of) the [[repres
 
 * [[elliptic genus]], [[equivariant elliptic genus]]
 
+* [[SO orientation of elliptic cohomology]], [[spin orientation of elliptic cohomology]]
+
 * [[elliptic Chern character]]
 
 * [[equivariant elliptic cohomology]]
