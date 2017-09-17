@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -15,11 +19,11 @@
 
 
 
-This entry is about the book
+This entry collects links related to the book
 
-* [[Peter May|May]], Sigurdsson, _Parametrized Homotopy Theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+* [[Peter May|May]], Sigurdsson, _Parametrized Homotopy Theory_, MAS Mathematical Surveys and Monographs, vol. 132, 2006  ([webpage](http://www.ams.org/publications/authors/books/postpub/surv-132), [pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
-which discusses [[homotopy theory]] and [[cohomology]] over base spaces, hence in [[slice categories]] [[Top]]$/X$ for given topological base spaces $X$: the homotopy theory of [[parametrized spectra]]. 
+on [[parameterized stable homotopy theory]], hence on [[stable homotopy theory]] in [[slice (infinity,1)-toposes]] [[Top]]$/X$ for given topological base spaces $X$: the homotopy theory of [[parametrized spectra]]. 
 
 A survey is in the slides
 
@@ -35,5 +39,7 @@ A discussion of some of these issues using tools from [[(infinity,1)-category th
 See also
 
 * John Lind, _Bundles of spectra and algebraic K-theory_ ([arXiv:1304.5676](http://arxiv.org/abs/1304.5676))
+
+A general abstract context for parameterized spectra are [[tangent (infinity,1)-toposes]].
 
 category: reference
