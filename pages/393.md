@@ -1,6 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
 [[!include homotopy - contents]]
-</div>
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -46,6 +57,8 @@ Every homotopical category $C$ "presents" or "models" an [[(infinity,1)-category
 
 This definition is in paragraph 33 of
 
-* William G. Dwyer, Philip S. Hirschhorn, Daniel M. Kan, and Jeffrey H. Smith. _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of Mathematical Surveys and Monographs.
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
+  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
+and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
 [[!redirects homotopical categories]]
