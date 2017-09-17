@@ -38,7 +38,7 @@ There is a fairly evident notion of [[∞-algebra over an (∞,1)-operad]]s. Exa
 
 ## Definitions
 
-Two models for $(\infty,1)$-operads exist to date, one by [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]]--[[Ittay Weiss|Weiss]], the other by [[Jacob Lurie|Lurie]].
+Two models for $(\infty,1)$-operads exist to date, one by [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]]--[[Ittay Weiss|Weiss]], the other by [[Jacob Lurie|Lurie]]. It is expected though not yet entirely proved that the two are equivalent ([[Higher Algebra]], draft, Remark 2.0.0.8).
 
 The first one models $(\infty,1)$-operads as [[dendroidal set]]s in close analogy to (in fact as a generalization of how) [[simplicial set]]s model [[(∞,1)-category|(∞,1)-categories]].
 
