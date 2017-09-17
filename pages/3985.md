@@ -986,6 +986,10 @@ which is a reflective embedding. It exhibits localization at $A^1$-[[cohomology]
 This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 
 
+## Related concepts
+
+* [[idempotent (∞,1)-monad]]
+
 ## References
 
 The general theory is discussed in section 5.2.7 of
