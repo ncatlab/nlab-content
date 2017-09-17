@@ -49,6 +49,14 @@ This is ([BergerMoerdijk, theorem 2.6](#BergerMoerdijk)).
 
 * [[model structure on dg-modules]]
 
+## Related concepts
+
+* [[(∞,1)-operad]], [[model structure on operads]]
+
+  * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
+
+    * [[module over an algebra over an (∞,1)-operad]], **model structure on modules over an algebra over an operad**
+
 
 ## References
 
