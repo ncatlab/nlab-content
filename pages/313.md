@@ -53,16 +53,16 @@ Here $F\colon Quiv \to Cat$ denotes the [[free category]] on a quiver and $U\col
 
 * For either sort of diagram, $J$ may be called the __shape__, __scheme__, or __index__ category or graph.
 
-* Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessarily a [[subcategory]] of $C$, even if $J$ is itself a category.  This is because the functor $F$ could identify objects of $J$, thereby producing new potential composites which do not exist in $J$.  (Sometimes one talks about the "image" of a functor as a subcategory, but this really means the subcategory *generated* by the image in the literal objects-and-morphisms sense.)
+* Note that given a diagram $D:J\to C$, the image of the shape $J$ is not necessarily a [[subcategory]] of $C$, even if $J$ is itself taken to be a category.  This is because the functor $D$ could identify objects of $J$, thereby producing new potential composites which do not exist in $J$.  (Sometimes one talks about the "image" of a functor as a subcategory, but this really means the subcategory *generated* by the image in the literal objects-and-morphisms sense.)
 
 * $C$ must be a [[strict category]] to make sense of $U(C)$; however, $F(J)$ always makes sense.
 
 
 ## Commutative diagrams
 
-If $J$ is a category, then a diagram $J\to C$ is __[[commutative diagram|commutative]]__ if it factors through a [[preorder]].  Equivalently, a diagram of shape $J$ commutes iff any two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.
+If $J$ is a category, then a diagram $J\to C$ is __[[commutative diagram|commutative]]__ if it factors through a [[thin category]].  Equivalently, a diagram of shape $J$ commutes iff any two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.
 
-If $J$ is a quiver, as is more common when we speak about "commutative" diagrams, then a diagram of shape $J$ commutes if the functor $F(J) \to C$ factors through a preorder.  Equivalently, this means that given any two parallel *paths* of arbitrary finite length (including zero) in $J$, their images in $C$ have equal composites.
+If $J$ is a quiver, as is more common when we speak about "commutative" diagrams, then a diagram of shape $J$ commutes if the functor $F(J) \to C$ factors through a thin category.  Equivalently, this means that given any two parallel *paths* of arbitrary finite length (including zero) in $J$, their images in $C$ have equal composites.
 
 
 ## Examples
@@ -76,7 +76,7 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
   Specifying a diagram in $C$ whose shape is $\{*\}$ is the same as specifying a single [[object]] of $C$, the image of the unique object of $1$. (See [[global element]])
 
 
-* A diagram of the shape $\{a \to b\}$ in $C$ is the choice of any one [[morphism]] $F_{a b} : X_a \to X_b$ in $C$.
+* A diagram of the shape $\{a \to b\}$ in $C$ is the choice of any one [[morphism]] $D_{a b} : X_a \to X_b$ in $C$.
 
   Notice that strictly speaking this counts as a _commuting diagram_ , but is a degenerate case of a commuting diagram, since there is only a single morphism involved, which is necessarily equal to itself.
 
@@ -96,18 +96,18 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
     \right\}
   $$
 
-  is a **commuting square** in $C$: this is a choice of four (not necessarily distinct!) objects $X_a, X_b, X_{b'}, X_c$ in C, together with a choice of (not necessarily distinct) four morphisms $F_{a b} : X_a \to X_b$, $F_{b c} : X_b \to X_c$ and $F_{a b'} : X_a \to X_{b'}$, $F_{b' c} : X_{b'} \to X_c$ in $C$, such that the composite morphism $F_{b c}\circ F_{a b}$ equals the composite $F_{b' c}\circ F_{a b'}$.
+  is a **commuting square** in $C$: this is a choice of four (not necessarily distinct!) objects $X_a, X_b, X_{b'}, X_c$ in C, together with a choice of (not necessarily distinct) four morphisms $D_{a b} : X_a \to X_b$, $D_{b c} : X_b \to X_c$ and $D_{a b'} : X_a \to X_{b'}$, $D_{b' c} : X_{b'} \to X_c$ in $C$, such that the composite morphism $D_{b c}\circ D_{a b}$ equals the composite $D_{b' c}\circ D_{a b'}$.
 
   One typically "draws the diagram" as
 
   $$
       \array{
-         X_a &\stackrel{F_{a b}}{\to}& X_b
+         X_a &\stackrel{D_{a b}}{\to}& X_b
          \\
-         {}^{\mathllap{F_{a b'}}}\downarrow && 
-        \downarrow^{\mathrlap{F_{b c}}}
+         {}^{\mathllap{D_{a b'}}}\downarrow && 
+        \downarrow^{\mathrlap{D_{b c}}}
          \\
-         X_{b'} &\stackrel{F_{b' c}}{\to}& X_{c}
+         X_{b'} &\stackrel{D_{b' c}}{\to}& X_{c}
       }    
   $$
 
@@ -131,12 +131,12 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
 
   $$
       \array{
-         X_a &\stackrel{F_{a b}}{\to}& X_b
+         X_a &\stackrel{D_{a b}}{\to}& X_b
          \\
-         {}^{\mathllap{F_{a b'}}}\downarrow &\searrow^{\stackrel{F_{b c}\circ F_{a b}}{= F_{b' c}\circ F_{a b'}}}& 
-        \downarrow^{\mathrlap{F_{b c}}}
+         {}^{\mathllap{D_{a b'}}}\downarrow &\searrow^{\stackrel{D_{b c}\circ D_{a b}}{= D_{b' c}\circ D_{a b'}}}& 
+        \downarrow^{\mathrlap{D_{b c}}}
          \\
-         X_{b'} &\stackrel{F_{b' c}}{\to}& X_{c}
+         X_{b'} &\stackrel{D_{b' c}}{\to}& X_{c}
       }    
   $$
 
