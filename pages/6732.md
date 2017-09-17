@@ -1,3 +1,4 @@
+
 In theoretical physics, one often considers [[gauge theory]] models whose symmetries are groups of large matrices, e.g. $U(N)$ or $O(N)$. The limit of such theories for $N\to \infty$ has often remarkable properties and [[string theory|string-like]] features. 
 
 This limit is sometimes appearing in its own right, but sometimes it is just considered as an approximation for a system with fixed finite $N$. One of the features is that in the large N limit is that non-planar Feynman diagrams loose their importance and that the correlation functions satisfy certain decoupling/factorization rule. The behaviour is studied in terms of expansion in $1/N$ whose square has a simialr role to Planck constant in [[semiclassical approximation]] limit of quantum mechanics. 
@@ -16,4 +17,20 @@ This limit is sometimes appearing in its own right, but sometimes it is just con
 * G.T. Horowitz, H. Ooguri, Spectrum of large N gauge theory from supergravity, hep-th/9802116.
 * wikipedia [1/N expansion](http://en.wikipedia.org/wiki/1/N_expansion)
 
+
+[[!redirects large N limit]]
+[[!redirects large N limits]]
+[[!redirects large-N limit]]
+[[!redirects large-N limits]]
+[[!redirects large n limit]]
+[[!redirects large n limits]]
+[[!redirects large-n limit]]
+[[!redirects large-n limits]]
 [[!redirects large N expansion]]
+[[!redirects large N expansions]]
+[[!redirects large-N expansion]]
+[[!redirects large-N expansions]]
+[[!redirects large n expansion]]
+[[!redirects large n expansions]]
+[[!redirects large-n expansion]]
+[[!redirects large-n expansions]]
