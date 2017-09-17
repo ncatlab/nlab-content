@@ -502,7 +502,7 @@ $$
 $$
 
 
-#### Homotopy pullback of a point over a group / universal bundles
+#### Homotopy pullback of a point over a group / universal bundles {#GroupDeloop}
 
 As a special case of the above general example we get the following.
 
