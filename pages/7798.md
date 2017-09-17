@@ -53,7 +53,7 @@ The first statement remains true in higher dimensions over [[Kähler manifolds]]
 
 The function that sends a square root line bundle to the [[dimension]] of its space of [[holomorphic sections]] $mod \;2$ is a [[quadratic refinement]] of the [[intersection pairing]] on $H^1(X, \mathbb{Z}_2)$. 
 
---
+=--
 
 This is due to ([Atiyah, theorem 2](#Atiyah)). Re motivational survey in broader context of quadratic refinementes of the intersection pairing in higher dimensions in in ([Hopkins-Singer 02, section 2.1](#HopkinsSinger02)).
 
