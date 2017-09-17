@@ -37,12 +37,20 @@
 
       * [[homological mirror symmetry]]
 
+* FQFT and [[cohomology]]
+
   * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
   * [[(2,1)-dimensional Euclidean field theory]]
 
-* FQFT and [[cohomology]]
-
   * [[geometric models for tmf]]
+
+* [[holographic principle of higher category theory]]
+
+  * [[holographic principle]]
+
+  * [[AdS/CFT correspondence]]
+
+  * [[quantization via the A-model]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/functorial+quantum+field+theory+-+contents)</div>
