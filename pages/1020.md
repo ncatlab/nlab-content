@@ -47,6 +47,14 @@ Although it may not be immediately obvious, these definitions are all compatible
 Whenever $F$ is a left adjoint of $U$, we have that $U$ is a [[right adjoint]] of $F$.
 
 
+## Properties
+
+Left adjoint functors preserve
+
+* [[colimit]]s;
+
+* [[epimorphism]]s.
+
 ## Further remarks
 *  See [[Galois connection]] for left adjoints of monotone functions.
 *  See [[adjoint functor]] for left adjoints of functors.
