@@ -93,6 +93,24 @@ Hence in particular $(F \vdash U)$ is [[Quillen adjunction]] between these model
 
 ([Hinich97, theorem 4.1.1](#Hinich97))
 
+So this is in particular true for $\mathcal{O} = \widehat Lie$ the standard [[cofibrant resolution]] of the [[Lie operad]]. In this case $Alg(\widehat Lie) \simeq L_\infty Alg$ is the category of (unbounded) $L_\infty$-algebras and hence is equipped with a [[transferred model structure]] this way
+
+$$
+  L_\infty Alg(k)
+  \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  Ch_\bullet(k)
+  \,.
+$$
+
+Moreover, by the rectification result discussed at _[[model structure on dg-algebras over an operad]]_, the resolution map $\widehat Lie \stackrel{\simeq}{\to} Lie$ induces a [[Quillen equivalence]]
+
+$$
+  L_\infty Alg(k) \stackrel{\simeq}{\to} dgLieAlg(k)
+$$
+
+with the [[model structure on dg-Lie algebras]], similarly [[transferred model structure|transferred]] from the [[model structure on chain complexes]].
+
+
 
 ## Definitions as formal/infinitesimal $\infty$-stacks  
  {#DefinitionsAndQuillenEquivalences}
