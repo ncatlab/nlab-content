@@ -231,16 +231,7 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
 ## Related concepts
 
-* [[category theory]]
-
-* [[2-category theory]]
-
-* [[(∞,1)-category theory]]
-
-* **higher category theory**
-
-* [[Circuitoids]]
-
+[[!include table of category theories]]
 
 ## References
 
