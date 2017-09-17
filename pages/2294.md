@@ -9,9 +9,7 @@
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -54,17 +52,27 @@ It can now be proved that single-sorted categories, functors, and natural transf
 
 A [[monoid]] is a single-sorted category in which $s$ is a constant function (hence so is $t$, and they are equal).  This works up to [[isomorphism of categories]], not merely equivalence, so single-sorted categories may seem to be a more direct [[oidification]] of monoids than the usual categories.
 
+
 ### Internalization
 
 The usual definition of an [[internal category]] is two-sorted, but the one-sorted definition can also be interpreted [[internalization|internally]].  While the usual notion of internal category requires the [[ambient category]] only to have [[pullbacks]], the one-sorted version appears to require one to make sense of an "internal partial binary operation."  However, since in this case the domain of $\circ$ is specified explicitly in the definition, one can just require $\circ$ to be an ordinary morphism whose domain is the pullback of $s$ and $t$; thus only pullbacks are required for the single-sorted definition as well.
 
 It is easy to see that any internal two-sorted category gives an internal one-sorted category (consider the object of arrows).  The converse is true as long as the ambient category has [[split idempotents]], for then given an internal one-sorted category we can split either $s$ or $t$ to obtain an object of objects.  In general, however, the two concepts are not equivalent.
 
-### Generalization
 
-There exist similar single-sorted definitions of $n$-[[n-categories|categories]] and [[∞-categories]].
+### Generalizations
+
+There exist similar single-sorted definitions of $n$-[[n-categories|categories]] and [[∞-categories]].  The single sort in the definition of $n$-category is the set of $n$-morphisms, but you can also think of this as the union (over all $k \leq n$) of the sets of $k$-morphisms, as long as you identify each $k$-morphism (for $k \lt n$) with its identity $(k+1)$-morphism.  In the the definition of $\infty$-category, there is no notion of $\infty$-morphism to take care of everything at once, but the single sort can still be understood as this union (now over all $k$).
 
 
 ## References
 
 * _[[Categories Work]]_, I.1 and XII.5.
+
+
+[[!redirects single-sorted definition of category]]
+[[!redirects single-sorted definition of a category]]
+[[!redirects single-sorted definition of categories]]
+[[!redirects single-sorted definitions of category]]
+[[!redirects single-sorted definitions of a category]]
+[[!redirects single-sorted definitions of categories]]
