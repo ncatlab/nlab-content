@@ -42,7 +42,7 @@ Sometimes we also extend a character linearly to the free vector space on the se
 
 There is a different notion of an _infinitesimal character_ in [[Harish–Chandra theory]] and also a notion of the _formal character_.
 
-There are important formulas concerning characters in representation theory, like Weyl character formula, Kirillov character formula, Demazure character formula and so on.  There is also a formula for the [[induced character]] of an [[induced representation]].
+There are important formulas concerning characters in representation theory, like [[Weyl character formula]], Kirillov character formula, Demazure character formula and so on.  There is also a formula for the [[induced character]] of an [[induced representation]].
 
 ### Left and right characters on a ring over a ring
 
@@ -96,6 +96,12 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 Character rings of [[compact Lie groups]] are discussed in 
 
 * Masaru Tackeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan Volume 23, Number 4 (1971), 555-705 ([Euclid](http://projecteuclid.org/euclid.jmsj/1259849785))
+
+* Troels Roussauc Johanse, _Character Theory for Finite Groups and Compact Lie Groups_ [pdf](http://www.math.upb.de/~johansen/character-theory.pdf)
+
+Discussion in the more general context of [[equivariant cohomology|equivariant]] [[complex oriented cohomology theory]] is in
+
+* [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
 
 
 [[!redirects character]]
