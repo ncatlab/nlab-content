@@ -1,0 +1,48 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Differential geoemtry
++--{: .hide}
+[[!include differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[electromagnetism]], _Maxwell's equations_ state are the [[equations of motion]] for the electromagnetic [[field strength]] [[electric current]] and [[magnetic current]].
+
+For the moment see at _[electromagnetic field -- Maxwell's equations](http://ncatlab.org/nlab/show/electromagnetic+field#MaxwellEquations)_.
+
+## Related concepts
+
+* [[Kirchhoff's laws]]
+
+## References
+
+[[Maxwell's equations]] originate in
+
+* [[James Clerk Maxwell]], _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
+ {#Maxwell}
+
+Discussion in terms of [[differential forms]] is for instance in 
+
+* [[Theodore Frankel]], _Maxwell's equations_, The American Mathematical Monthly, Vol 81, No 4 (1974) ([pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D))
+
+
+[[!redirects Maxwell equation]]
+[[!redirects Maxwell's equation]]
+
+[[!redirects Maxwell equations]]
+[[!redirects Maxwell's equations]]
+
+
