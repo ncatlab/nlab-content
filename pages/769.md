@@ -8,7 +8,7 @@
 
 ## Idea
 
-The notion of _comma object_ or _comma square_ is a generalization of the notion of [[pullback]] or _pullbck square_ from [[category theory]] to [[2-category]] [[higher category theory|theory]].
+The notion of _comma object_ or _comma square_ is a generalization of the notion of [[pullback]] or _pullback square_ from [[category theory]] to [[2-category]] [[higher category theory|theory]].
 
 Where a [[pullback]] involves a [[commuting diagram|commuting square]], for a comma object this square is filled by a [[2-morphism]].
 
