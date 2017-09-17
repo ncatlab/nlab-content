@@ -93,14 +93,20 @@ More generally:
 If $\mathcal{E}$ is a subclass of epimorphisms, we say that $(S_a)_{(a\colon A)}$ is an _$\mathcal{E}$-separator_ or __$\mathcal{E}$-generator__ if each morphism $\varepsilon_X$ (as above) is in $\mathcal{E}$.
 =--
 
-Of particular importance is the notion of __strong separator__ or __strong generator__, which is obtained by taking $\mathcal{E}$ to be the class of [[strong epimorphism]]s.  This can be expressed equivalently, without requiring local smallness or the existence of coproducts, by saying that the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]].
+The weakest commonly-seen strengthed generator is an __extremal separator__.
 
-If we take $\mathcal{E}$ to be the class of [[extremal epimorphism]]s, we might call the resulting notion "extremal separator," but __dense separator__ or __dense generator__ is more standard. The reason is that the family $(S_a)_(a\colon A)$ is an extremal separating family if and only if the inclusion of the [[full subcategory]] on the objects $(S_a)_(a\colon A)$ is [[dense functor|dense]] (and this definition makes sense without assuming coproducts or local smallness).  This is the strongest sort of separator.
+Slightly stronger is a __strong separator__ or __strong generator__, which is obtained by taking $\mathcal{E}$ to be the class of [[strong epimorphism]]s.  This can be expressed equivalently, without requiring local smallness or the existence of coproducts, by saying that the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]]. Since strong epis are extremal, strong generators are extremal.
 
-If $C$ has [[pullbacks]], then extremal epis reduce to strong ones, and so extremal separators are necessarily strong. For this reason, some authors simply define "strong generator" to mean dense generator.
+WARNING: Confusingly, some authors use "strong generator" for what we call an __ extremal separator__. In a category with [[pullbacks]], extremal epis reduce to strong ones, and so extremal separators are necessarily strong, and the clash of terminology is resolved.
+
+Stronger still is a __regular generator__. Since regular epis are strong, regular generators are strong.
+
+Finally, the strongest sort of generator commonly seen is a __dense generator__. Dense generators don't fit into our scheme based on classes of epimorphisms, but they do admit a nice functorial definition: a full subcategory $\mathcal{G} \subset \mathcal{C}$ is dense if and only if the functor $\mathcal{C}(i_{\mathcal{G}}, -): \mathcal{C} \to [\mathcal{G}^{\mathrm{op}}, \mathrm{Set}]$ is full and faithful, where $i_{\mathcal{G}}: \mathcal{G} \to \mathcal{C}$ is the inclusion. That is to say, $\mathcal{G}$ is a dense generator if $i_{\mathcal{G}}$ is a [[dense functor]]. In a category with coproducts, every dense generator is regular: this can be seen by reformulating denseness in terms of canonical colimits and expressing the relevant colimit as a coequalizer of two coproducts.
 
 +-- {: .query}
 [[Daniel Schaeppi]] Something seems to be wrong here: strong epimorphisms are extremal, so the notion of extremal generator is weaker than the notion of strong generator. In general, not every strong separator / strong generator is ($Set$-)dense (take the free abelian group on one separator, for example).
+
+Tim Campion: I've attempted to fix these errors. Hopefully it's all right now.
 =--
 
 
