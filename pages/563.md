@@ -13,6 +13,16 @@
 =--
 =--
 
+* [[functor]]
+
+* [[2-functor]] / **pseudofunctor**
+
+* [[n-functor]]
+
+* [[(∞,1)-functor]]
+
+***
+
 # Pseudofunctors
 * table of contents
 {: toc}
