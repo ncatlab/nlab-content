@@ -14,3 +14,4 @@
 | [[triangular bialgebra]] | [[symmetric monoidal category]] with [[fiber functor]] |
 | [[quasitriangular Hopf algebra]] ([[quantum group]]) | [[rigid monoidal category|rigid]] [[braided monoidal category]] with [[fiber functor]] |
 | [[triangular Hopf algebra]] | [[rigid monoidal category|rigid]] [[symmetric monoidal category]] with [[fiber functor]] |
+| form [[Drinfeld double]] | form [[Drinfeld center]] |
