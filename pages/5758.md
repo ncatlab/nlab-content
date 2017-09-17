@@ -27,7 +27,15 @@ For $A$ a fixed dg-algebra, a dg-module is then a [[module]] in $Ch(\mathcal{A})
 
 ## References
 
+A general account is around section 11.2.5 of 
+
+* [[Benoit Fresse]], _Modules over operads and functors_ Springer Lecture Notes in Mathematics, (2009) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.159.5833&rep=rep1&type=pdf))
+{#Fresse}
+
+The [[homotopy category]] and [[triangulated category]] of dg-modules is discussed for instance also in
+
 * Joseph Bernstein, _DG-modules and equivariant cohomology_ ([pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/luntz_ESF/4-dg-modules-and-equivariant-cohomology.pdf)).
+
 
 [[!redirects category of dg-modules]]
 [[!redirects categories of dg-modules]]
