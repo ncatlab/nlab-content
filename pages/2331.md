@@ -186,6 +186,8 @@ Related $n$lab entries include [[cotangent complex]], [[derived algebraic geomet
 
 * M. Doubek, M. Markl, P. Zima, _Deformation theory (lecture notes)_, Archivum mathematicum __43__ (5), 2007, 333--371, [arXiv:0705.3719](http://arxiv.org/abs/0705.3719)
 
+  First three sections of this overview paper cover classical topics of deformation theory of associative algebras and necessary background material. We then analyze algebraic structures of the Hochschild cohomology and describe the relation between deformations and solutions of the corresponding Maurer-Cartan equation. In Section 6 we generalize the Maurer-Cartan equation to strongly homotopy Lie algebras and prove the homotopy invariance of the moduli space of solutions of this equation. In the last section we indicate the main ideas of Kontsevich's proof of the existence of deformation quantization of Poisson manifolds. 
+
 * [homepage](http://math.stanford.edu/~vakil/727) of Ravi Vakil's graduate Stanford class on deformation theory and moduli spaces
 
 * E. Sernesi, _An overview of classical deformation theory_, [pdf](http://www.iasbs.ac.ir/faculty/varsaie/sernesi.pdf)
