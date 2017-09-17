@@ -86,6 +86,10 @@ The functor $Cod$ [[(∞,1)-Grothendieck construction|classifies]] the [[codomai
 
 * [[(∞,1)-sheaf]] / [[∞-stack]]
 
+* **$(\infty,2)$-sheaf**
+
+* [[(∞,n)-sheaf]]
+
 ## References
 
 Section 6.1.3 of 
