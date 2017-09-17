@@ -85,6 +85,7 @@ A [[symplectic Lie n-algebroid|symplectic Lie 0-algebroid]] is simply a [[symple
 ### $n = 1$ -- Symplectic groupoids from Poisson Lie algebroids
  {#SymplecticGroupoidsFromPoissonLieAlgebroids}
 
+We discuss the [[Lie integration]] of [[Poisson Lie algebroids]] to [[symplectic groupoids]]. For more details and applications of this see at _[[extended geometric quantization of 2d Chern-Simons theory]]_.
 
 Let $\mathfrak{P}$ be the [[Poisson Lie algebroid]] corresponding to a [[Poisson manifold]] that comes from a [[symplectic manifold]] $(X,\omega)$.
 
