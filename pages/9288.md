@@ -9,7 +9,15 @@ This is a sub-entry of _[[geometry of physics]]_. See there for background and c
 
 ## **Modules**
 
-In the [previous section](geometry+of+physics#AssociatedNBundle) we have seen [[∞-actions]] of [[∞-groups]] on objects in the ambient [[(∞,1)-topos]]. Here we specialize this to an important class of cases and then generalize from [[∞-actions]] to $(\infty,n)$-actions for $n \in \mathbb{N}$. That special case is the one where all objects involved are required to be equipped with _additive structure_ (in generalization of the sense of [[abelian groups]] are) and where all actions are _linear_ (in generalization of the sense of abelian group [[homomorphisms]] hence  [[linear functions]]). Moreover, we equip groups with additional (linear) monoidal structure such as to become higher analogs of [[rings]]. Linear [[actions]] of a [[ring]] are called _[[modules]]_ and hence here we discuss modules and their higher analogs.
+In the [previous section](geometry+of+physics#AssociatedNBundle) we have seen [[∞-actions]] of [[∞-groups]] on objects in the ambient [[(∞,1)-topos]]. Here we specialize this to an important class of cases and then generalize from [[∞-actions]] to $(\infty,n)$-actions for $n \in \mathbb{N}$. That special case is the one where all objects involved are required to be equipped with _additive structure_ (in generalization of the sense in which [[abelian groups]] are additive) and where all actions are _linear_ (in generalization of the sense of abelian group [[homomorphisms]], hence  [[linear functions]]). Moreover, we equip groups with additional (linear) monoidal structure such as to become higher analogs of [[rings]]. Linear [[actions]] of a [[ring]] are called _[[modules]]_ and hence here we discuss modules and their higher analogs.
+
+Notice the different role of the "$(r,n)$" index:
+| $(r,n)$-ring | presentation  |
+|--|--|
+| [[ring]] = 1-ring = $(1,1)$-ring |  compatibly monoidal [[abelian group]] |
+| [[2-ring]] = $(2,2)$-ring | compatibly [[monoidal category]] |
+| commutative $(\infty,1)$-ring  | [[E-∞ ring]] = compatibly monoidal [[∞-group]] / [[spectrum]] | 
+| $(\infty,2)$-ring | compatibly [[monoidal (∞,1)-category]]
 
 A special case of modules are [[vector spaces]], which are the modules over a [[ring]] that is a [[field]]. For them the theory of modules is the theory of [[linear algebra]]. But as opposed to the notion of _[[ring]]_, the more specialized notion of _[[field]]_ has in general no natural or useful lift to [[higher category theory]]. Therefore we generally speak here of modules over rings and their higher analogs. But the reader who feels more at home with vector spaces may find it helpful to think of higher modules as being higher analogs of vector spaces.
 
@@ -19,13 +27,23 @@ We briefly disucss here some basics of ordinary [[linear algebra]] with an empha
 
 #### Physics motivation: Phases and superposition of states
 
-In [[quantum mechanics]]
+One key aspect of [[quantum mechanics]] over [[classical mechanics]] is that there is linear structure on [[quantum states]] (more precisely, the following applies to quantum states in the [[Schrödinger picture]] only, not to states in the sense of [[state on a C-star algebra]])
 
-* [[superposition principle]] says: [[quantum states]] form an additive [[abelian group]];
+* The **[[superposition principle]]** in quantum mechanics says that for $\psi_1$ and $\psi_2$ two [[quantum states]] also their sum $\psi_1 + \psi_2$ as well as their difference $\psi_1 - \psi_2$ is again a quantum state. Moreover there is a 0-state such that $\psi + 0 = \psi$ for all $\psi$. This means there is the structure of an additive [[abelian group]] on the set of quantum states
 
-* complex phases means: [[quantum states]] are acted on by [[complex numbers]].
+* Quantum states have **complex phases**. This means that for $\psi$ a quantum state and for $c \in \mathbb{C}$ a [[complex number]], there is a new quantum state $c \psi$ and this is such that for two such complex numbers $c_1(c_2 \psi) = (c_1 c_2) \psi$ and for two states $c(\psi_1 + \psi_2) = c \psi_1 + c \psi_2$.  
 
-Together: [[space of quantum states]] is a $\mathbb{C}$-[[module]] = $\mathbb{C}$-[[vector space]].
+Together this says that the additive group of quantum states is a [[module]] over the [[complex numbers]], equivalently that it is a [[complex vector space]].
+
+This linear structure is a crucial aspect of quanum theory. It is at the heart of phenomena such [[quantum interference]] and [[entanglement]]
+
+In macroscopic physics similar behaviour is known in [[wave mechanics]] for freely propagating waves. Not unrelated to this is the term _[[wave function]]_ for a quantum state. However, apart from this special sector linearity is not manifest in macoscopic physical phenomena. This is referred to as _[[decoherence]]_.
+
+But the linear structure of quantum theory goes further. Not only are the spaces of states generally modules over the complex numbers, but in each concrete case they arise from modules over the algebra of functions on [[phase space]], namely from [[sections]] of a [[prequantum line bundle]]. (...) Further still, the [[matter]] [[field (physics)|fields]] in [[prequantum field theory]] are sections of complex module bundles, hence of [[vector bundles]]. (...)
+
+It is this deep linear structure of quantum theory that shortly after its conception led for instance to the vast application of [[group]] [[representation theory]] which was unknown in classical physics. If a symmetry group acts on [[field (physics)|fields]] and is preserved by [[quantization]], then it still acts on the quantum states and does so in a linear way, hence the space of states forms a linear [[representation]] of the group. This relation goes so far that under natural assumptions _every_ representation of a group arises as the action of a group of symmetries on a quantum system (a relation known as the "[[orbit method]]" in [[geometric quantization]]). Deep results about abstract [[representation theory]] have been proven by considering systems [[quantum mechanics]] this way.
+
+Similar close relation hold between 2-dimensional quantum field theory and vector bundle theory. Much of [[K-theory]] has been understood by thinking of K-cohomology classes as charges for [[D-branes]] in [[string]] [[sigma-model]] [[quantum field theories]] (...).
 
 #### Modules
 
