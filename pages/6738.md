@@ -1,0 +1,22 @@
+## Definition 
+
+In [[classical mathematics]], a **well-quasi-order** is a [[preorder|quasi-order]] $(P, \leq)$ such that for any infinite sequence $x_i$ in $P$, there exist $i, j$ with $i \lt j$ and $x_i \leq x_j$. Another way of expressing this condition is: 
+
+* There are no infinite [[antichain|antichains]] in $P$: if $x_i$ is a sequence in $P$, then there exist some pair of elements $x_i$, $x_j$ that are comparable, i.e., either $x_i \leq x_j$ or $x_j \leq x_i$, and 
+
+* There is no strictly decreasing sequence in $P$: if $x_0 \geq x_1 \geq \ldots$ in $P$, then there exists $n$ such that $x_i \leq x_{i+1}$ for all $i \geq n$. 
+
+One motivation for this notion is given by the following theorem: 
+
++-- {: .un_thm} 
+###### Theorem 
+Let $(X, \leq)$ be a quasi-order (i.e., a [[preorder]]). Define a partial order on the power set $P(X)$ by $A \leq^+ B$ if $\forall_{a: A} \exists_{b: B} (a \leq b)$. Then $\leq^+$ is a [[well-founded relation]] if and only if $\leq$ is a well-quasi-ordering. 
+=-- 
+
+## Example 
+
+The collection of [[graph|finite simple graphs]] is well-quasi-ordered by the [[graph minor]] relation. This is the celebrated _Robertson-Seymour Graph Minor Theorem_. 
+
+## References 
+
+* [Wikipedia article](http://en.wikipedia.org/wiki/Well-quasi-ordering) 
