@@ -11,7 +11,7 @@
 
 PhD thesis:
 
-*  _Homotopy topoi and equivariant elliptic cohomology_
+*  _[[Homotopy topoi and equivariant elliptic cohomology]]_
 PhD thesis, University of Illinois at Urbana-Champaign, 2005. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.113.2632))
 
 on [[equivariant elliptic cohomology]] in [[(infinity,1)-topos]] theory.
