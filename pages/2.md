@@ -9,7 +9,7 @@
   * [[physics|Physics]]
   * [[philosophy|Philosophy]]
 
-* [[Community]]
+* $n$-[[Community]]
 
   * [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)
 
@@ -20,7 +20,8 @@
   * [[inbound citations|Inbound Citations]]
   * [[Uploaded Files]]
   * [[Sandbox|Sandbox]]
-  * [[math resources|Math Resources]]
   * [Wiki Webs](http://ncatlab.org/web_list)
+
+* [[math resources|Math Resources]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
