@@ -23,6 +23,12 @@
 
 Riemannian geometry studies [[smooth manifold]]s that are equipped with a [[Riemannian metric]]: [[Riemannian manifold]]s.
 
+## Related concepts
+
+  local model           |     global geometry
+------------------------|--------------------------
+ [[Euclidean geometry]] | [[Riemannian geometry]]
+  [[Klein geometry]]    |    [[Cartan geometry]]
 
 
 ## References
