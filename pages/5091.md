@@ -14,6 +14,8 @@
   * [[material set theory]]
 
     * [[ZFC]]
+    * [[ZFA]]
+
 
   * [[structural set theory]]
 
