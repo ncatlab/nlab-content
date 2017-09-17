@@ -63,9 +63,11 @@ In addition to the geometrically written titles under classical mechanics above,
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_, Cambridge Univ. Press
 
+* [[Chris Isham]], _[[Modern Differential Geometry for Physicists]]_
+
 * [[Klaas Landsman]], _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp.
 
-* Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
 * A. Cannas da Silva, A. Weinstein, _Geometric models for noncommutative algebras_, 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
 
