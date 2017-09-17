@@ -1,6 +1,6 @@
 **Under Construction**
 
-See [[Understanding Constructions in Set]]
+See [[Understanding constructions in Set]]
 
 ## Colimits
 
@@ -31,3 +31,5 @@ arbitrary (but small) [[coproducts]]
 #### Cofibred Products
 
 [[cofibered coproduct|cofibred coproducts]]
+
+[[!redirects Understanding Colimits in Set]]
