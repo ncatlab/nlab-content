@@ -454,11 +454,11 @@ as [[FQFT]] -- representations of [[conformal cobordism categories]] for cobordi
 
 * [[Graeme Segal]], 
 
-  _The definition of conformal field theory_ , in _Differential geometrical methods in theoretical physics_ (Como, 1987), NATO Adv. Sci. Inst. Ser. C Math. Phys. Sci., 250, Kluwer Acad. Publ., Dordrecht, (1988), 165-171
+  _The definition of conformal field theory_, in _Differential geometrical methods in theoretical physics_ (Como, 1987), NATO Adv. Sci. Inst. Ser. C Math. Phys. Sci., 250, Kluwer Acad. Publ., Dordrecht, (1988), 165-171 
 
   _Two-dimensional conformal field theories and modular functors_ , in _Proceedings of the IXth International Congress on Mathematical Physics_ , Swansea, 1988, Hilger, Bristol (1989) 22-37.
 
-  _The definition of conformal field theory_ , preprint, 1988; also in: _Topology, geometry and quantum field theory_ , ed. U. Tillmann, London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577.
+  _The definition of conformal field theory_ , preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ , London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577. ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
 
 See also
 
@@ -470,7 +470,7 @@ Tentative ideas about a refinement of this to _extended_ ([[2-functor|2-functori
 
 Useful related seminar notes are 
 
-* [[Daniel Evans]], _Conformal field theory seminar notes_ ([pdf](http://math.berkeley.edu/~devans/CFT.pdf))
+* Daniel Evans, _Conformal field theory seminar notes_ ([pdf](http://math.berkeley.edu/~devans/CFT.pdf))
 
 
 ### Formulation by algebra in modular tensor categories
