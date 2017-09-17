@@ -138,11 +138,23 @@ Here are some definitions of important terms. Unfortunately they are defined usi
 
 ### Quantum operators
 
-For $f$ a function on phase space, the corresponding
-quantum operator is 
+Let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
+[[prequantum line bundle]] $E \to X$ [[connection on a bundle|with connection]] for $\omega$. Write $\Gamma_X(E)$ for its space of smooth [[sections]], the _prequantum space of states_.
+
+
++-- {: .num_defn}
+###### Definition
+
+For $f \in C^\infty(X, \mathbb{C})$ a function on phase space, the corresponding **quantum operator** is the linear map
 
 $$
-  \hat f : \psi \mapsto -i \nabla_{v_f} \psi + f \psi
+  \hat f : \Gamma_X(E) \to \Gamma_X(E)
+$$
+
+given by
+
+$$
+  \psi \mapsto -i \nabla_{v_f} \psi + f \cdot \psi
   \,,
 $$
 
@@ -151,7 +163,13 @@ where
 * $v_f$ is the [[Hamiltonian vector field]]
 corresponding to $f$;
 
-* $\nabla_{v_f}$ is the [[covariant derivative]] along $v_f$.
+* $\nabla_{v_f} : \Gamma_X(E) \to \Gamma_X(E)$ is the [[covariant derivative]] of sections along $v_f$ for the given choice of prequantum connection;
+
+* $f \cdot (-) : \Gamma_X(E) \to \Gamma_X(E)$ is the operation of degreewise multiplication pf sections.
+
+=--
+
+
 
 
 ## Examples
