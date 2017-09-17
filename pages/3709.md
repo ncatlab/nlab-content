@@ -11,7 +11,7 @@ The theory of **meromorphic connections** is a modern viewpoint on a class of [[
 
 ### 1-Dimensional case
 
-Consider the field $\mathcal{K}$ of meromorphic functions in a neighborhood of $0\in \mathbb{C}$ with possible pole at $0$ and a finite dimensional $\mathcal{K}$-module $M$. A **meromorphic** connection at $x=0$ is an operator $\nabla:M\to M$ satisfying
+Consider the field $\mathcal{K}$ of meromorphic functions in a neighborhood of $0\in \mathbb{C}$ with possible pole at $0$ and a finite dimensional $\mathcal{K}$-module $M$. A **meromorphic** connection at $x=0$ is a $\mathbb{C}$-linear operator $\nabla:M\to M$ satisfying
 
 $$
 \nabla(fu) = \frac{df}{dx}u + f\nabla(u),\,\,\,\,f\in\mathcal{K}, u\in M
