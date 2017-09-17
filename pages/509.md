@@ -106,6 +106,8 @@ $A \to pt \stackrel{pt_B}{\to} B$.
 
 ## Related concepts
 
+* [[bi-pointed object]]
+
 * [[pointed type]]
 
 * [[smash product]]
