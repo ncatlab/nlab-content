@@ -166,8 +166,6 @@ Papers etc.:
 
 * R. Street, S. Lack, _The formal theory of monads II_, J. Pure Appl. Algebra __175__ (2002), No. 1-3, 243--265, (<a href="http://dx.doi.org/10.1016/S0022-4049(02)00137-8">doi</a>)
 
-* [[Francis Borceux|F. Borceux]], _Handbook of categorical algebra_,  vol. 2, Ch. 4 "Monads" 
-
 * H. Appelgate, M. Barr, J. Beck, F. W. Lawvere, F. E. J. Linton,
 E. Manes, M. Tierney, F. Ulmer, _Seminar on triples and categorical
 homology theory_, ETH 1966/67, edited by B.~Eckmann, LNM 80, Springer 1969. 
@@ -179,6 +177,8 @@ homology theory_, ETH 1966/67, edited by B.~Eckmann, LNM 80, Springer 1969.
 Books:
 
 * [[Michael Barr]], [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
+
+* [[Francis Borceux|F. Borceux]], _Handbook of categorical algebra_,  vol. 2, Ch. 4 "Monads" 
 
 [[!redirects monad]]
 [[!redirects monads]]
