@@ -47,6 +47,10 @@ There are many different definitions of $\infty$-categories, which may differ in
 
 For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
 
+The following is a short and introductory expository paper by Jacob Lurie that motivates $\infty$-categories using algebraic topology.
+
+* Jacob Lurie, [What is... an $\infty$-category?](http://www.ams.org/notices/200808/tx080800949p.pdf) in _Notices of the AMS_, September 2008.
+
 For a slightly more formal but still pathetically easy introduction, try:
 
 * John Baez, [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009), in
