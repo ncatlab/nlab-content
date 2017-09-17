@@ -56,7 +56,7 @@ $$
   C \mapsto G \wedge \star G
 $$
 
-is to be invariant. With the above this now implies that the components of $G$ annihiliated by $\iota_{11}$ is odd, because so is mixed component of the [[metric]] tensor.
+is to be invariant. With the above this now implies that the components of $G$ annihiliated by $\iota_{11}$ is odd, because so is the mixed component of the [[metric]] tensor.
 
 This finally implies that also the component of $C_3$ annihilated by $\iota_{11}$, is odd under the $\mathbb{Z}_2$-action. Therefore the restriction of $C_3$ to the orbifold fixed points has to vanish.
 
