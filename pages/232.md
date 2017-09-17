@@ -90,7 +90,7 @@ $$
      &&&& \downarrow^{Id_{C(c,d)\otimes \circ_{a,b,c}}}
      \\
      C(b,d)\otimes C(a,b)
-     &\stackrel{\circ_{a,b,c}}{\to}&
+     &\stackrel{\circ_{a,b,d}}{\to}&
        C(a,d)
      &\stackrel{\circ_{a,c,d}}{\leftarrow}&
      C(c,d) \otimes C(a,c)
