@@ -88,7 +88,7 @@ The terminal object $1$ is $\mathbf{M}$-cofibrant, i.e., the inclusion $0 \to 1$
 Let $C$ be any noninitial category; by a standard result of model category theory, there is an $\mathbf{M}$-cofibrant replacement $\tilde{C} \to C$, a weak equivalence such that $0 \to \tilde{C}$ is a cofibration. This $\tilde{C}$ is noninitial and therefore has $1$ as a retract; thus $1$ is $\mathbf{M}$-cofibrant since cofibrant objects are closed under retracts. 
 =-- 
 
-+-- {: .num_prop} 
++-- {: .num_prop #canonical} 
 ###### Proposition 
 Each acyclic $\mathbf{M}$-fibration is a canonical acyclic fibration. 
 =-- 
@@ -114,7 +114,7 @@ Every canonical cofibration is an $\mathbf{M}$-cofibration. Every $\mathbf{M}$-f
 
 +-- {: .proof} 
 ###### Proof 
-By the Galois connection induced by the lifting relation, the previous proposition implies that canonical cofibrations form a subset of $\mathbf{M}$-cofibrations, and therefore that canonical acyclic cofibrations are a subset of acyclic $\mathbf{M}$-cofibrations. Again by the Galois connection, this in turn implies that $\mathbf{M}$-fibrations form a subset of canonical fibrations. 
+By the Galois connection induced by the lifting relation, Proposition \ref{canonical} implies that canonical cofibrations form a subset of $\mathbf{M}$-cofibrations, and therefore that canonical acyclic cofibrations are a subset of acyclic $\mathbf{M}$-cofibrations. Again by the Galois connection, this in turn implies that $\mathbf{M}$-fibrations form a subset of canonical fibrations. 
 =-- 
 
 At this point, we would like to show conversely that every $\mathbf{M}$-cofibration is a canonical cofibration (i.e., is injective on objects); another appeal to Galois connections would then allow us to deduce that every canonical fibration is an $\mathbf{M}$-fibration, and we would be done. Let us suppose otherwise, that there exists an $\mathbf{M}$-cofibration that is not injective on objects, and derive a contradiction. 
@@ -162,12 +162,12 @@ The conclusion of Proposition \ref{key} now leads to a contradiction:
 
 +-- {: .num_prop} 
 ###### Proposition 
-If $K(2) \to 1$ is an acyclic $\mathbf{M}$-cofibration, then for any category $C$, every isomorphism of $C$ is an identity (which is absurd!). 
+If $K(2) \to 1$ is an acyclic $\mathbf{M}$-cofibration, then for any category $C$, every automorphism of $C$ is an identity (which is absurd!). 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-The object $C$ of $Cat$ has an $\mathbf{M}$-fibrant replacement $\hat{C}$ equivalent to $C$. For any isomorphism $\phi$ of $\hat{C}$, let $e: K(2) \to \hat{C}$ by the unique functor taking $0 \to 1$ in $K(2)$ to $\phi$. Then we have a commutative diagram 
+The object $C$ of $Cat$ has an $\mathbf{M}$-fibrant replacement $\hat{C}$ equivalent to $C$. For any isomorphism $\phi$ of $\hat{C}$, let $e: K(2) \to \hat{C}$ be the unique functor taking $0 \to 1$ in $K(2)$ to $\phi$. Then we have a commutative diagram 
 
 $$\array{
 K(2) & \stackrel{e}{\to} & \hat{C} \\ 
@@ -175,7 +175,7 @@ _\mathllap{acyc.\; cof.} \downarrow & & \downarrow _\mathrlap{fib.} \\
 1 & \to & 1
 }$$ 
 
-and the existence of a lift $1 \to \hat{C}$ filling in this diagram means that $\phi$ is an identity. 
+and the existence of a lift $1 \to \hat{C}$ filling in this diagram means that $\phi$ is an identity. In particular, every automorphism of $\hat{C}$ is an identity; since $C \simeq \hat{C}$, the same is true of $C$. 
 =-- 
 
 ### Without choice
