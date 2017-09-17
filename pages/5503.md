@@ -7,7 +7,12 @@
 
 On the one hand, there is [[internal language|syntax]].  On the other hand, there is [[structure|semantics]].  Model theory is (roughly) about the relations between the two.
 
-A model theory for a particular [[logic]] typically works within a given [[universe]], and specifies a notion of _structure for a language_, and a _definition of truth_.
+A model theory for a particular [[logic]] typically works within a given [[universe]], and specifies a notion of _structure for a language_, and a _definition of truth_. Logic is typically specified by language (function symbols, relations symbols and constants); formulas (formed from symbols, variables, Boolean operations and quantifiers). Language together with a choice of a set of formulas without free variables (viewed as axioms) is called a [[theory]]. A structure is an interpretation of a language $L$ via a given set $M$ together with interpretation of the symbols of the language. A __model__ of a theory $\mathcal{T}$ in the language $L$ is an $L$-structure which satisfies each formula in $\mathcal{T}$. 
+
+The two main problems of model theory are
+
+* classification of a given theory $\mathcal{T}$ in a language $L$
+* study the family of all definable sets of a structure $M$ of a language $L$
 
 In all memorable examples, the collection of structures for a language will form an interesting category, and the subcollection of those structures verifying a given collection $Th$ of propositions in the language are an interesting subcategory again.
 
