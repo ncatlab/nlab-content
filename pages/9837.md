@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
+
+
 This entry collects links for the book
 
 * [[Bruce Blackadar]], 
