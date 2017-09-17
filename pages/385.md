@@ -95,7 +95,12 @@ A collection of Crans's papers, including those on teisi, can be found here:
 
 * [Papers of Sjoerd Crans](http://home.tiscali.nl/secrans/papers/) 
 
-The most modern version, incorporating many new primitives is given in 
+The modern version, incorporating many new primitives is given in 
 
 * [[Richard Steiner]], _Omega-categories and chain complexes_, Homology, Homotopy and Applications 6(1) (2004), 175-200 ([journal](http://www.intlpress.com/hha/v6/n1/a12/), [pdf](http://www.intlpress.com/hha/v6/n1/a12/pdf))
  {#Steiner}
+
+A general theory of lax tensor products is in 
+
+* [[Michael Batanin]], [[Denis-Charles Cisinski]], [[Mark Weber]], _Multitensor lifting and strictly unital higher category theory_ ([arXiv:1209.2776](http://arxiv.org/abs/1209.2776))
+
