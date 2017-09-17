@@ -1,9 +1,33 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[physics]] of condensed [[matter]].
+
 ## Related concepts
 
 * [[Levin-Wen model]]
 
-* [AdS-CFT -- Relation to solid state physics](http://ncatlab.org/nlab/show/AdS-CFT#ToCondensedMatterPhysics)
+* [AdS-CFT -- Relation to solid state physics](AdS-CFT#ToCondensedMatterPhysics)
+
+* [[topological order]]
+
+* [[symmetry protected trivial order]]
+
 
 ## References
 
@@ -11,3 +35,5 @@
 
 
 [[!redirects condensed matter physics]]
+
+[[!redirects condensed matter]]
