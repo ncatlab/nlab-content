@@ -135,7 +135,7 @@ Another thing I'd like to try in CSS is to set Georga (a serif font) as the main
 
 _Urs says_: Bruce, I like the look of those query boxes. Graphical sophistication like that greatly improves the look-and-feel of the wiki.
 
-You should explain at some promint point of the wiki, probably at the [[HowTo]] page what people need to do to insert such gadgets. 
+You should explain at some promint point of the wiki, probably at the [[HowTo]] page what people need to do to insert such gadgets like [bet365](http://yourbookmaker.co.uk). 
 
 Concerning contributions by others: let's see how it develops. I'd really enjoy having several people contributing here, eventually. But on the other hand it is also maybe good if we as the hosts have a bit of time to produce some context here first. 
 
