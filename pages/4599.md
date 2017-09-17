@@ -1002,9 +1002,7 @@ Here and in the following we adopt for differential forms on simplices the follo
 
 * by $\Omega^\bullet(\Delta^n)$ we denote the complex of smooth differential forms on the standard smooth $n$-simplex with **sitting instants**: for every $k \in \mathbb{N}$ every $k$-face of $\Delta^n$ has a neighbourhood of its boundary such that the form restricted to that neighbourhood is constant in the direction perpendicular to that boundary.
 
-* for $U \in $ [[nLab:CartSp]] we write $\Omega^\bullet(U \times \Delta^n)$ for the complex $\Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^n)$.
-
-* for $U \in CartSp$ we write $C^\infty(U) \otimes \Omega^\bullet(\Delta^n)$ for the total complex with differential the de Rham differential on $\Delta^n$.
+* for $U \in CartSp$ we write $\Omega^\bullet(U \times \Delta^k)_{vert}$ for the complex of [[vertical differential form]]s with respect to the trivial simplex bundle $U \times \Delta^k \to U$.
 
 =--
 
@@ -1019,13 +1017,17 @@ $$
   \mathbf{cosk}_{n+1}
   (
   (U, [k]) \mapsto 
-   Hom_{dgAlg}(CE(b^{n-1}\mathbb{R}), C^\infty(U)\otimes\Omega^\bullet(\Delta^k ))
+   Hom_{dgAlg}(
+     CE(b^{n-1}\mathbb{R}), 
+     \Omega^\bullet(U \times \Delta^k)_{vert})
   )
   /\mathbf{B}^n \mathbb{Z}
   \,.
 $$
 
-Here $\mathbf{cosk}_{n+1}(-)$ is the [[nLab:simplicial skeleton|coskeleton]]-operation and the quotient is by constant $n$-forms $\omega \in \Omega^n_{cl}(\Delta^n)\otimes C^\infty(U)$ such that $\int_{\Delta^n}\omega \in \mathbb{Z}$.
+Here $CE(b^{n-1}\mathbb{R})$ is the [[Chevalley-Eilenberg algebra]] of $b^{n-1}\mathbb{R}$, which is simply the graded-commutative [[dg-algebra]] (over $\mathbb{R}$) on a single generator in degree $n$ with vanishing differential.
+
+Moreover, $\mathbf{cosk}_{n+1}(-)$ is the [[coskeleton]]-operation and the quotient is by constant $n$-forms $\omega \in \Omega^n_{cl}(U \times \Delta^k)_{vert}$ such that $\int_{\Delta^n}\omega \in \mathbb{Z}$.
 
 =--
 
@@ -1040,9 +1042,9 @@ $$
   (
   \cdots
   \to
-  \Omega^n_{cl}(\Delta^{n+1})\otimes C^\infty(-)/\sim
-  \stackrel{\sum_k (-1)^k \delta_k^* }{\to}
-  \Omega^n_{cl}(\Delta^{n})\otimes C^\infty(-)/\sim
+  \Omega^n_{cl}((-)\times \Delta^{n+1})_{vert}/\sim
+  \stackrel{\sum_k (-1)^k \partial_k^* }{\to}
+  \Omega^n_{cl}((-)\times \Delta^{n})_{vert}/\sim
   \to
   0 
   \to
@@ -1053,7 +1055,7 @@ $$
   \,,
 $$
 
-where $\delta_k : \Delta^n \to \Delta^{n+1}$ denotes the embedding of the $k$th face of the smooth $(n+1)$-[[nLab:simplex]].
+where $\partial_k : \Delta^n \to \Delta^{n+1}$ denotes the embedding of the $k$th face of the smooth $(n+1)$-[[simplex]].
 
 =--
 
@@ -1062,10 +1064,10 @@ Here and in the following we indicate the homologically trivial part of the norm
 +-- {: .un_lemma }
 ###### Observation
 
-The evident [[nLab:fiber integration]] of differential forms over simplices 
+The evident [[fiber integration]] of differential forms over simplices 
 
 $$
-  \int_{\Delta^n} : \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+  \int_{\Delta^n} : \Omega^\bullet(U \times \Delta^n)
    \to \Omega^\bullet(U)
 $$
 
@@ -1083,15 +1085,15 @@ in $[CartSp^{op}, sSet]_{proj}$, which is a weak equivalence.
 +-- {: .proof}
 ###### Proof
 
-By the [Dold-Kan](#DoldKan)-[[nLab:adjunction]] $(N_\bullet \dashv \Xi)$ and the above observation, it is sufficient to check that 
+By the [Dold-Kan](#DoldKan)-[[nLab:adjunction]] $(N_\bullet \dashv \Xi)$ and the above observation, it is sufficient to check that for each $U \in CartSp$
 
 $$
   \array{
     \cdots
     &\to&
-    \Omega^n_{cl}(\Delta^{n+1})\otimes C^\infty(-)/\sim
-    &\stackrel{\sum_k (-1)^k \delta_k^* }{\to}&
-    \Omega^n_{cl}(\Delta^{n})\otimes C^\infty(-)/\sim
+    \Omega^n_{cl}(U \times \Delta^{n+1})_{vert}/\sim
+    &\stackrel{\sum_k (-1)^k \partial_k^* }{\to}&
+    \Omega^n_{cl}(U \times \Delta^n)/\sim
     &\to&
     0 
     &\to&
@@ -1115,14 +1117,14 @@ $$
 
 is a chain complex morphism and a [[nLab:quasi-isomorphism]].
 
-To see that we have a chain map, let $\omega$ be a $U$-familiy of closed $n$-forms on $\Delta^{n+1}$. Then 
+To see that we have a chain map, let $\omega$ be a $U$-familiy of closed $n$-forms on $\Delta^{n+1}$. Then by [[Stokes' theorem]] we have
 
 $$
-  \int_{\Delta^n} \sum_k (-1)^k \delta_k^* \omega
+  \int_{\Delta^n} \sum_k (-1)^k \partial_k^* \omega
   =
-  \pm \int_{\partial \Delta^{n+1}} \omega
+  \int_{\partial \Delta^{n+1}} \omega
   =
-  \pm \int_{\Delta^{n+1}} d_{\Delta^n} \omega
+  \int_{\Delta^{n+1}} d_{\Delta^n} \omega
   =
   0
   \,.
@@ -1140,17 +1142,19 @@ Write $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp} \in [CartSp^{op}, sSet]
 $$
   \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp}
   :=
-  cosk_{n+1}
+  \mathbf{cosk}_{n+1}
   (
     (U,[k])
     \mapsto
     Hom_{dgAlg}(
       CE(b^{n-1}\mathbb{R}),
-      \Omega^{\bullet \geq 1}(U) \otimes \Omega^\bullet(\Delta^k)
+      \Omega^{\bullet \geq 1}(U) \otimes' \Omega^\bullet(\Delta^k)
     )
   )
-  \,.
+  \,,
 $$
+
+where on the right we have the subcomplex of $\Omega^\bullet(U \times \Delta^k)$ on those forms that are non-vanishing on some vector field tangent to $U$.
 
 =--
 
@@ -1164,16 +1168,16 @@ The homology sheaves of the corresponding sheaf of normalized chain complexes $N
 +-- {: .proof}
 ###### Proof
 
-For $k \leq (n-1)$ the chain differential $\sum_k (-1)^k \delta_k^*$ is onto: for $\omega \in \Omega^bullet(U\times \Delta^{k-1})$ closed and of degree $n$ there is $\lambda$ with $d \lambda = \omega$, consider the closed form
+For $k \lt (n-1)$ the chain differential $\sum_k (-1)^k \partial_k^*$ is onto: for $\omega \in \Omega^\bullet(U\times \Delta^{k-1})$ closed and of degree $n$ there is $\lambda$ with $d \lambda = \omega$, by the [[Poincare lemma]]. Consider the closed form
 
 $$
-  f(t_{k}) \wedge \omega  - d f(t_k) \wedge \lambda 
+  f(t^k) \wedge \omega  - d f(t^k) \wedge \lambda 
   \in
-  \Omega^bullet(U \times \Delta^{k})
+  \Omega^\bullet(U \times \Delta^{k})
   \,,
 $$
 
-where $f : [0,1] \to [0,1]$ is a smooth function non-increasing function with $f(0) = 1$ and $f(1) = 0$ and constant in a neighbourhood of the boundary of $[0,1]$, and where we use the standard coordinates of $\Delta^k = \{t_1 \leq t_2 \leq \cdots \leq t_k \} \subset \mathbb{R}^k$. By the fact that $\omega$ has sitting instants, this form is such that its restriction only to one face of $\Delta^{n-1}$ is non-vanishing, where it equals $\omega$. 
+where $t^k : \Delta^k \to \mathbb{R}$ is one of the standard coordinates, and where $f : [0,1] \to [0,1]$ is a smooth non-increasing function with $f(0) = 1$ and $f(1) = 0$ and constant in a neighbourhood of the boundary of $[0,1]$. By the fact that $\omega$ has sitting instants, this form is such that its restriction only to one face of $\Delta^{n-1}$ is non-vanishing, where it equals $\omega$. 
 
 This construction fails for $k = n$ because there it may happen that $\lambda$ has all legs along $\Delta^{n-1}$, such that the above construction is not guaranteed to land in $\Omega^{\bullet \geq 1}(U) \otimes \Omega^\bullet(\Delta^n)$. Therefore we pick up a nontrivial homology group in this degree.
 
@@ -1240,7 +1244,7 @@ $$
     \mapsto
    \left\{
      \array{
-        C^\infty(U)\otimes' \Omega^\bullet(\Delta^k)
+        \Omega^\bullet(U \times \Delta^k)
         &\leftarrow&
         CE(b^{n-1}\mathbb{R})
         \\
