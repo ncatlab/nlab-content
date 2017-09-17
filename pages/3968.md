@@ -16,11 +16,25 @@
 
 ## Definition
 
-A **number field** is a finite [[field extension]] of the [[field]] of [[rational numbers]], $\mathbb{Q}$, In other words, a field $k$ of [[characteristic zero]] such that under the field [[homomorphism]] $i: \mathbb{Q} \hookrightarrow k$, the field $k$ is a [[finite number|finite]]-[[dimension|dimensional]] [[vector space]] over $\mathbb{Q}$ with respect to the scalar multiplication [[action]] of $\mathbb{Q}$
+A **number field** is a [[finite number|finite]] [[field extension]] of the [[field]] of [[rational numbers]], $\mathbb{Q}$, In other words, a field $k$ of [[characteristic zero]] such that under the field [[homomorphism]] $i: \mathbb{Q} \hookrightarrow k$, the field $k$ is a [[finite number|finite]]-[[dimension|dimensional]] [[vector space]] over $\mathbb{Q}$ with respect to the scalar multiplication [[action]] of $\mathbb{Q}$
 
 $$\mathbb{Q} \otimes k \stackrel{i \otimes 1}{\to} k \otimes k \stackrel{mult}{\to} k$$
 
 on the underlying additive [[group]] of $k$. 
+
+## Examples
+
+* the [[rational numbers]] $\mathbb{Q}$;
+
+* the [[Gaussian numbers]] $\mathbb{Q}(i)$;
+
+* for certain $d$ the [[quadratic field]] $\mathbb{Q}(\sqrt{d})$;
+
+* the [[cyclotomic fields]] $\mathbb{Q}(\zeta_n)$
+
+Counterexamples:
+
+* the [[real numbers]] $\mathbb{R}$ and [[complex numbers]] $\mathbb{C}$ are **not** number fields, since, while being [[vector spaces]] over $\mathbb{Q}$, they are not [[finite number|finite]] [[dimension|dimensional]] as $\mathbb{Q}$-vector spaces.
 
 ## Applications
 
@@ -33,6 +47,8 @@ Number fields $k$ are examples of [[global field]]s, in fact they are the global
 ## Related concepts
 
 * [[algebraic curve]]
+
+* [[function field]]
 
 [[!redirects number fields]]
 
