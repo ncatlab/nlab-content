@@ -39,7 +39,7 @@ $$
   \,.
 $$
 
-Moreover the map that sends an commutative ring, hence an [[arithmetic variety]], to its $p$-formal power series in this sense is the construction of the [[ring of Witt vectors]] ($p$-typica Witt vectors if one fixes one prime, and "big Witt vectors" if one considers all at once) (e.g. [Hartl 06, section 1.1](#Hartl06)).
+Moreover the map that sends an commutative ring, hence an [[arithmetic variety]], to its $p$-formal power series in this sense is the construction of the [[ring of Witt vectors]] ($p$-typical Witt vectors if one fixes one prime, and "big Witt vectors" if one considers all at once) - see e.g. [Hartl 06, section 1.1](#Hartl06).
 
 The following definition says essentially this, but further sends the resulting space to [[F1]]-geometry in the sense of [[Borger's absolute geometry]]:
  
