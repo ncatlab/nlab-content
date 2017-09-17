@@ -5,10 +5,12 @@
 
 ## Definition
 
-For $f \colon X \to \mathbb{A}$ a [[function]], its _zero locus_ i the [[preimage]] $f^{-1}(0)$ of [[zero]].
+For $f \colon X \to \mathbb{A}$ a [[function]], its _zero locus_ i the [[preimage]] $f^{-1}(0)$ of [[zero]], hence the [[level set]] at 0.
 
 ## Related concepts
 
 * [[critical locus]]
+
+* [[moment map]], [[Hamiltonian]]
 
 [[!redirects zero loci]]
