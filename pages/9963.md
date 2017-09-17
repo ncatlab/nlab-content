@@ -110,9 +110,16 @@ with comments on the relation to [[nonunital algebras]].
 
 Fully general discussion in [[higher algebra]] is in 
 
-* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+* {#Lurie} [[Jacob Lurie]], section 5.2.3 in _[[Higher Algebra]]_
 
 [[!redirects augmented A-infinity-algebras]]
 
 [[!redirects augmented A-∞ algebra]]
 [[!redirects augmented A-∞ algebras]]
+
+[[!redirects augmented E-∞ algebra]]
+[[!redirects augmented E-∞ algebras]]
+
+[[!redirects augmented E-∞ ring]]
+[[!redirects augmented E-∞ rings]]
+
