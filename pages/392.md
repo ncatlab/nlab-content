@@ -23,8 +23,6 @@ Thus, "red herring" as used here is to be interpreted neutrally: it refers to a 
 
 * A [[manifold with boundary]] is not a [[manifold]].  This leads to the use of "manifold without boundary."
 
-* A nonassociative algebra is not an algebra in the usual sense used in [[linear algebra]], since algebras are by definition associative.  This leads to the technically redundant use of "[[associative algebra]]".  What\'s worse, a "nonassociative algebra" *might* happen to be associative; it just doesn\'t *have* to be!
-
 * Similarly, [[noncommutative geometry]] is really about _not necessarily commutative_ or _possibly non-commutative_ geometry. In fact, many tools developed in "non-commutative geometry" are also useful tools in ordinary commutative geometry.
 
 * A [[star-autonomous category|*-autonomous category]] is not an [[autonomous category]], but the reverse is almost true: a *symmetric* autonomous (a.k.a. [[compact closed category|compact closed]]) category is a fairly special case of a $*$-autonomous one.  This red herring is apparently an accident of history: at the time $*$-autonomous categories were invented, "autonomous category" was sometimes used to mean a [[closed monoidal category]], of which $*$-autonomous categories are indeed a special case, but nowadays that usage has mostly disappeared.
