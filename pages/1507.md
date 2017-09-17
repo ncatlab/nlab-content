@@ -1,8 +1,24 @@
-# Definition #
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition 
 
 A **split idempotent** in a [[category]] $C$ is a [[morphism]] $e: A \to A$ which has a [[retract]], meaning an [[object]] $B$ and morphisms $r: A \to B$ and $s: B \to A$ such that $s \circ r = e$ but $r \circ s = 1_B$.
 
-# Remarks #
+## Properties 
 
 * Any split idempotent is an [[idempotent]], since
    $$ e \circ e = (s \circ r) \circ (s \circ r) = s \circ (r \circ s) \circ r = s \circ 1_B \circ r = s \circ r = e .$$
