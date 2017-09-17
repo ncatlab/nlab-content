@@ -32,5 +32,13 @@ $$
 
 ## References
 
-See at _[[BV-BRST formalism]]_ for references.
+See at _[[BV-BRST formalism]]_ for general references.
 
+Discussion of the BV-operation in [[renormalization]] and [[effective field theory]] is in section 10.1 of
+
+* [[Kevin Costelli]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv:0706.1533](http://arxiv.org/abs/0706.1533))
+
+[[!redirects BV Laplacian]]
+
+[[!redirects BV operator]]
+[[!redirects BV-operator]]
