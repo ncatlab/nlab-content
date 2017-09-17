@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The fan theorem is one of the basic principles of [[intuitionism]] that make it more specific (even in mathematical practice, independent of any philosophical issues) than garden-variety [[constructive mathematics]].  In [[classical mathematics]], the fan theorem is true.
+The fan theorem is one of the basic principles of [[intuitionism]] that make it more specific (even in mathematical practice, independent of any philosophical issues) than garden-variety [[constructive mathematics]].  Its main use is to justify pointwise [[analysis]]; without it, one really needs [[locale theory]] instead.  In [[classical mathematics]], the fan theorem is true.
 
 
 ## Statement
@@ -22,7 +22,7 @@ We are interested in these three properties of $B$:
 
 A __bar__ is a barred subset $B$.
 
-+-- {.un_thm}
++-- {.un_theorem}
 ###### Fan Theorem
 
 Every decidable bar is uniform.
