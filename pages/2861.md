@@ -23,9 +23,9 @@
 ## Idea 
 
 
-The notion of _$\Theta_n$-space_ is one model for the notion of _[[(∞,n)-category]]_. A $\Theta_n$-space is may be thought of as a [[globe category|gobular]] $n$-category _up to coherent homotopy_, an globular $n$-category _[[internalization|internal]]_ to the [[(∞,1)-category]] [[∞Grpd]].
+The notion of _$\Theta_n$-space_ is one model for the notion of _[[(∞,n)-category]]_. A $\Theta_n$-space may be thought of as a [[globe category|globular]] $n$-category _up to coherent homotopy_, a globular $n$-category _[[internalization|internal]]_ to the [[(∞,1)-category]] [[∞Grpd]].
 
-Concretely, a _$\Theta_n$-space is a [[simplicial presheaf]] on the [[Theta category|Theta_n category]], a hence "[[cellular object|cellular space]]", that satisfies 
+Concretely, a _$\Theta_n$-space is a [[simplicial presheaf]] on the [[Theta category|Theta_n category]], hence a "[[cellular object|cellular space]]" that satisfies 
 
 1. the globular [[Segal condition]] as a [[weak homotopy equivalence]];
 
