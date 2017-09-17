@@ -44,4 +44,7 @@ In $\mathbf{H} = $ [[ETop∞Grpd]] the geometric realization of cohesive $\infty
 
   * [[geometric realization of categories|of categories]], [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], **of cohesive ∞-groupoids**
 
- 
+  * [[shape]]
+
+[[!redirects geometric realization in a locally ∞-connected (∞,1)-topos]]
+
