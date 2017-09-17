@@ -46,7 +46,7 @@ $$
   \,.
 $$
 
-In this case $\alpha$ is called a [[Hamiltonian]] $(n-1)$-form for $v$.
+In this case $\alpha$ is called a [[Hamiltonian form|Hamiltonian (n-1)-form]] for $v$.
 
 =--
 
