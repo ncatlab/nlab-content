@@ -32,11 +32,11 @@
 
 A **quality type** is a key concept in [[W. Lawvere]]'s axiomatic approach to [[cohesion]] which permits to analyze a [[space]] understood as a domain of _quantitative_ variation via its _qualitative_ aspects. This can be viewed as an [[axiom|axiomatisation]] of the commonly encountered situation in [[geometry]] or [[dynamics]] that problems permit (only) a qualitative analysis.
 
-A primary example for that kind of deferred analysis is the study of spaces via the [[homotopy category]]. So in broad a sense, quality types are intended as ingredients to a _synthetic homotopy theory_ where the (homotopy) contraction of a space (the collapsing of a cylinder/two idempotents) is extracted as essence of the concept of a spatial 'attribute'. 
+A primary example for that kind of deferred analysis is the study of [[topological spaces]] via the [[homotopy category]] (hence via the [[homotopy types]] which they represent). So in broad a sense, quality types are intended as ingredients to a _synthetic homotopy theory_ where the (homotopy) contraction of a space (the collapsing of a cylinder/two idempotents) is extracted as essence of the concept of a spatial 'attribute'. 
 
 Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a **quintessential localization**  in [Johnstone (1996)](#JS96).
 
-In typical (topos) cases these come as adjoint strings $\Pi\dashv\Delta\dashv\Gamma$ such that the [[connected components]] and the [[section|section functor]] coincide: $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]).
+In typical (topos) cases these come as [[adjoint triples|adjoint strings]] $\Pi\dashv\Delta\dashv\Gamma$ with $\Delta$ [[fully faithful functor|fully fiathful]] (hence: [[adjoint modalities]]) such that the [[connected components]] and the [[section|section functor]] coincide: $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]).
 
 Hence from a more geometrical point of view, a quality type is a particular simple kind of space with 'degenerate' components, or, if you prefer, a space with 'thick' points which in turn can be viewed as an _infinitesimal_ or 'minimal' vestige of cohesion: when a set is a space with no cohesion, a quality type is a space with _almost_ no cohesion. (For an elaboration of this perspective in the context of [[cohesive toposes]] see at [[infinitesimal cohesion]].)
 
