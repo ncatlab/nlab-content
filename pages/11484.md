@@ -1,18 +1,34 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An [[algebraic curve]] with a cirtain [[singular point of an algebraic variety]].
+A _nodal_  [[singular point of an algebraic variety|singularity]] of an [[algebraic curve]] is one of the form parameterized by the [[equation]] $x y = 0$. A _nodal curve_ is a curve with a nodel singularity.
+
+(e.g.[Hain 08, p. 45](#Hain08))
+
 
 ## The nodal cubic
 
 For nodal [[cubic curve]] (over some base) is (see at _[ellitpic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_ for notation and background) the solution to the [[Weierstrass equation]] for which the [[discriminant]] vanishes, but the modular invariant $c_4$ does not.
 
 ## Properties of the nodal cubic
-
 
 ### Compactified moduli stack of elliptic curves and the Tate curve
 
@@ -30,9 +46,15 @@ The [[formal group]] associated with a nodal cubic curve is of [[height of a for
 
 ## References
 
+Discussion over the [[complex numbers]] is in 
+
+* {#Hain08} Richard Hain, section 5.2 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
 
 [[!redirects nodal curves]]
 
 [[!redirects nodal cubic curve]]
 [[!redirects nodal cubic curves]]
+
+[[!redirects nodal cubic]]
+[[!redirects nodal cubics]]
