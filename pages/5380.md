@@ -64,6 +64,12 @@ The proof is spelled out at [[affine line]].
 
 (...)
 
+## Related concepts
+
+* [[projective variety]]
+
+* [[Grassmannian]]
+
 ## References
 
 An introduction to projective spaces over the theory of ordinary commutative rings is in
