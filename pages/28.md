@@ -70,7 +70,7 @@ _Toby_:  But there is still a free [[setoid]] (set equipped with an equivalence 
 
 ## As a 2-coskeletal Kan complex
 
-Groupoids $K$ are equivalent to 2-[[coskeletal]] [[Kan complex]]es $N(K)$ -- their [[nerve]]s. 
+Groupoids $K$ are equivalent to 1-[[hypergroupoid]]s, which are in particular 2-[[coskeletal]] [[Kan complex]]es $N(K)$ -- their [[nerve]]s. 
 
 The objects of the groupoids are the 0-[[simplices]] and the morphisms of the groupoid are the 1-simplices of the Kan complex. The [[composition]] operation $(f,g) \mapsto g \circ f $ in the grouopoid is encoded in the 2-simplices of the Kan complex
 
