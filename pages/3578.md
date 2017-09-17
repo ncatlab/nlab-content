@@ -299,6 +299,7 @@ This is a corollary of the characterization of left anodyne morphisms in [Proper
 
 
 ### As fibrations in $\infty$-groupoids
+ {#AsFibrationsInInfinityGroupoids}
 
 The notion of right fibration of quasi-categories generalizes the notion of [[category fibered in groupoids]]. This follows from the following properties.
 
