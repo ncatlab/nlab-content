@@ -88,6 +88,12 @@ Modern applications in connection to the [[field with one element]] are discusse
 * [[Alain Connes]], [[Caterina Consani]], _From monoids to hyperstructures: in search of an absolute arithmetic_ ([arXiv:1006.4810](http://uk.arxiv.org/abs/1006.4810))
 
 
+[[!redirects hyperring]]
 [[!redirects hyperrings]]
 [[!redirects hyper-ring]]
 [[!redirects hyper-rings]]
+
+[[!redirects hyperfield]]
+[[!redirects hyperfields]]
+[[!redirects hyper-field]]
+[[!redirects hyper-fields]]
