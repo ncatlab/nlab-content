@@ -30,7 +30,7 @@ By the dual [[Dold-Kan correspondence]] there is an [[equivalence of categories]
 Since [[Ab]] has all [[limit]]s and [[colimit]]s, the [[category of cosimplicial objects]] (as described there) $Ab^\Delta$ inherits canonically the structure of an [[sSet]]-[[enriched category]] which is [[power]]ed and [[copower]]ed. 
 
 Write $Ab^\Delta_{proj}$ for the model structure that is induced by the dual [[Dold-Kan correspondence]] $Ab^\Delta \simeq Ch^\bullet_+(Ab)$ from the [[model structure on cochain complexes]] whose fibrations are the _degreewise surjections_ (and weak equivalences the usual [[quasi-isomorphism]]s). This is described in detail <a href="http://ncatlab.org/nlab/show/model+structure+on+chain+complexes#CochainNonNegProj">here</a>.
-So this induces the model structure $Ab^\Delta_{proj}$ whose fibrationns are also the degreewise surjections in $Ab$ (using that the [[Moore complex|normalized cochain complex]]-functor preserves surjections.) 
+So this induces the model structure $Ab^\Delta_{proj}$ whose fibrations are also the degreewise surjections in $Ab$ (using that the [[Moore complex|normalized cochain complex]]-functor preserves surjections.) 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -51,7 +51,7 @@ $$
   k : X^{C'} \to X^C \times_{Y^C} Y^{C'}
 $$ 
 
-induced by the [[power]]ing $(-)^(-) : Ab^\Delta \times sSet \to Ab^\Delta$ is a fibration, which is acyclic if $i$ or $j$ is.
+induced by the [[power]]ing $(-)^{(-)} : Ab^\Delta \times sSet \to Ab^\Delta$ is a fibration, which is acyclic if $i$ or $j$ is.
 
 That $k$ is a fibration is easily checked. To see acyclicity we first notice the following 
 
