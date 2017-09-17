@@ -1,3 +1,4 @@
+[[!redirects Weil homomorphism]]
 
 <div class="rightHandSide toc">
 [[!include infinity-Lie theory - contents]]
@@ -80,4 +81,6 @@ So this kind of diagram may be thought of as inducing the Weil-homomorphism mapp
 
 (...)
 
-[[!redirects Chern-Weil homomorphism]]
+## References
+
+See [[Chern-Weil theory]].
