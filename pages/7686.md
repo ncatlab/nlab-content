@@ -63,5 +63,5 @@ This extension splits if $k$ is perfect.
 
 +-- {: .num_defn}
 ###### Definition
-A (not necessarily commutative) connected formal $k$-group $G=Spf A$ is said to be *of finite type* if $A$ s noetherian. The *dimension of $G$* is defined to be the [[Krull dimension]] of $A$.
+A (not necessarily commutative) connected formal $k$-group $G=Spf A$ is said to be *of finite type* if $A$ is noetherian. The *dimension of $G$* is defined to be the [[Krull dimension]] of $A$.
 =--
