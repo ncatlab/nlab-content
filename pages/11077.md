@@ -69,6 +69,24 @@ For $X$ pointed [[connected]], hence $X \simeq B G$ the [[delooping]] of an [[�
 =--
 
 
+### Logarithms of twists of generalized cohomology
+
+Let $E$ be an [[E-∞ ring]] and write $GL_1(E)$ for its [[abelian ∞-group|abelian]] [[∞-group of units]]  and $gl_1(E)$ for the corresponding [[connective spectrum]]. 
+
+Via the [[Bousfield-Kuhn functor]] there are [[natural equivalences]] between the $K(n)$-localizations of $gl_1(E)$ and $E$ itself. 
+
+$$
+  L_{K(n)} gl_1(E) \simeq L_{K(n)} E
+  \,.
+$$
+
+Composed with the [[Bousfield localization of spectra|localization map]] itself, this yields [[logarithmic cohomology operations]]
+
+$$
+  gl_1(E) \longrightarrow L_{K(n)} gl_1E \stackrel{\simeq}{\to} L_{K(n)}E
+  \,.
+$$
+
 
 ## Related concepts
 
