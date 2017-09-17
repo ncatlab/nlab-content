@@ -53,7 +53,7 @@ Categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ a
 
 A functor with a weak inverse is necessarily essentially surjective and fully faithful; the converse is equivalent to the axiom of choice.  Thus any strong equivalence becomes a weak equivalence in which $X$ is taken to be either $C$ or $D$ (or even built symmetrically out of $C$ and $D$ if you\'re so inclined); a weak equivalence becomes a strong equivalence using the axiom of choice to find weak inverses and composing across $X$.
 
-If you think of $Cat$ as the model category of categories and functors with the [[folk model structure]], then this is the usual notion of [[weak equivalence]] in a model category.
+If you think of $Cat$ as the model category of categories and functors with the [[canonical model structure]], then this is the usual notion of [[weak equivalence]] in a model category.
 
 
 ## Anaequivalence ##
