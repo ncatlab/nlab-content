@@ -351,7 +351,26 @@ of $f$ to $C$.
 +-- {: .num_prop #ToposCharacterizationOfAlgebraHomomorphisms}
 ###### Proposition
 
-For $A, B \in C^\ast Alg$,  morphisms $Bohr(B) \to Bohr(A)$ in $C^\ast Top$ for which the underlying geometric morphism has an extra right adjoint are in bijection with [[function]]s
+For $A, B \in C^\ast Alg$,  morphisms $f : Bohr(B) \to Bohr(A)$ in $C^\ast Top$ for which 
+
+1. the underlying geometric morphism has an extra right adjoint 
+
+1. for all $C_1 \hookrightarrow C_2$ in $\mathcal{C}(A)$ 
+   the [[natural transformation|naturality]] diagram
+
+   $$
+     \array{
+       \underline{A}(C_1) &\to& (f_* \underline{B})(C_1) 
+       \\
+       \downarrow && \downarrow
+       \\
+       \underline{A}(C_2) &\to& (f_* \underline{B})(C_2)      
+     }
+   $$
+
+   is a [[pullback]]
+
+are in bijection with [[function]]s
 
 $$
   f : A \to B
@@ -373,7 +392,7 @@ $$
 $$
 
 that induces functors between toposes as in the above proof.
-Finally the fact that $f$ is a morphisms of $C^\ast$-toposes implies 
+Then the fact $f$ is a morphisms of $C^\ast$-toposes implies 
 algebra homomorphisms
 
 $$
@@ -382,7 +401,33 @@ $$
 
 natural in $C \in \mathcal{C}(A)$.
 
-> wait, I need to add an argument that $f_C(C) = f(C)$...
+Since
+
+$$
+  \array{
+    \underline{A}(C_1) &\stackrel{}{\to}& (f_* \underline{B})(C_1) 
+    \\
+    \downarrow && \downarrow
+    \\
+    \underline{A}(C_2) &\stackrel{}{\to}& 
+    (f_* \underline{B})(C_2)      
+  }
+$$
+
+and hence
+
+$$
+  \array{
+    C_1 &\stackrel{f_{C_1}}{\to}& f(C_1) 
+    \\
+    \downarrow && \downarrow
+    \\
+    C_2 &\stackrel{f_{C_2}}{\to}& 
+    f(C_2)      
+  }
+$$
+
+is a pullback, it follows that $f(C)$ is indeed the image under $f_C$ of $C$.
 
 =--
 
@@ -607,7 +652,7 @@ Write $C(\mathbb{R})$ for the $C^\ast$-algebra of continuous complex functions o
 +-- {: .num_prop }
 ###### Proposition
 
-Morphisms $Bohr(A) \to Bohr(C(\mathbb{R}))$ with an extra right adjoint to the underlying geometric morphism are in bijection to the observables on $A$.
+Morphisms $Bohr(A) \to Bohr(C(\mathbb{R}))$ with an extra right adjoint to the underlying geometric morphism and local transformations of ring objects are in bijection to the observables on $A$.
 
 =--
 
