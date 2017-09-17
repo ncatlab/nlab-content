@@ -39,7 +39,7 @@ Let $A$ be a [[Banach space]], typically over the [[real numbers]], but potentia
 +-- {: .num_defn}
 ###### Definition
 
-The Banach space $A$ becomes a __Jordan--Banach algebra__ if it is equipped with a [[binary operation]] $A \times A \to A$, often written infix as $\circ$, satisfying these identities:
+The Banach space $A$ becomes a __Jordan--Banach algebra__ if it is equipped with a [[binary operation]] $A \times A \to A$, called the _Jordan multiplication_ and often written infix as $\circ$, satisfying these identities:
 
 * [[short map|shortness]]: ${\|x \circ y\|} \leq {\|x\|} {\|y\|}$,
 * [[bilinear map|bilinearity]]: $(a x + y) \circ (b u + v) = a b (x \circ u) + a (x \circ v) + b (y \circ u) + y \circ v$,
@@ -52,43 +52,40 @@ For motivation of the first two, see [[Banach algebra]]; for motivation of the l
 +-- {: .num_defn}
 ###### Definition
 
-The Jordan--Banach algebra $A$ is a __Jordan--Banach $*$-algebra__ if it is additionally equipped with a [[unary operation]] $A \to A$, often written postfix superscript as $*$, satisfying these identities:
+The Jordan--Banach algebra $A$ is __unital__ if the Jordan multiplication has an [[identity element]], usually denoted $1$:
 
-* [[semilinear operator|semilinearity]]: $(a x + y)^* = \overline{a} x^* + y^*$ (which is simple [[linear operator|linearity]] over the real numbers),
-* [[multiplicative operator|multiplicativity]]: $(x \circ y)^* = x^* \circ y^*$,
-* [[involution]]: $(x^*)^* = x$,
-* [[isometry]]: ${\|x^*\|} = {\|x\|}$.
+* $1 \circ x = x$,
+* $x \circ 1 = x$.
 =--
-
-Isometry follows already from shortness of the involution (${\|x^*\|} \leq {\|x\|}$).  Mutliplicativity is equivalent to anti-multiplicativity ($(x \circ y)^* = y^* \circ x^*$) because of commutativity of the multiplication.  For motivation of these, see [[Banach star-algebra]].
 
 +-- {: .num_defn}
 ###### Definition
 
-The Jordan--Banach algebra $A$ is a __$JB$-algebra__ if it additionally satisfies these identities:
+The Jordan--Banach algebra $A$ is a __$JB$-algebra__ if it satisfies these identities:
 
 * $B$-identity: ${\|x \circ x\|} = {\|x\|^2}$,
 * positivity: ${\|x \circ x\|} \leq {\|x \circ x + y \circ y\|}$.
 =--
 
-Shortness of the multiplication follows from the $B$-identity (via the [[polarization identities]] and the triangle identity), so it may be left out a direct definition of $JB$-algebras.
+Shortness of the multiplication follows from the $B$-identity (via the [[polarization identities]] and the triangle identity), so it may be left out of a direct definition of $JB$-algebras.  (Compare the analogous result for $C^*$-[[C-star-algebra|algebras]].)
 
 +-- {: .num_defn}
 ###### Definition
 
-The Jordan--Banach $*$-algebra $A$ is a __$JB^*$-algebra__ if it satisfies the additional identities required of a $JB$-algebra and the following identity:
-
-* triple-product identity: ${\|x^* \circ (x \circ x) - (x^* \circ x) \circ x - x \circ (x^* \circ x)\|} = {\|x\|^3}$
+The $JB$-algebra $A$ is a __$JBW$-algebra__ if it is unital and if its [[underlying]] Banach space has a [[predual]] $A_*$.
 =--
 
-Shortness of the involution follows from the triple-product identity (check this, and explain why it is written thus), so may be left out of a direct definition of $JB^*$-algebras.
+See [[von Neumann algebra]] for motivation of the predual.
 
-(more to come)
+
+## Properties
+
+Coming ... but basically, $JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algebras have nicer properties like those of von Neumann algebras.
 
 
 ## References
 
-Most of what -appears-_will appear_ here is from
+Most of what appears here is from
 
 * [Jordan operator algebra](https://en.wikipedia.org/wiki/Jordan_operator_algebra) on the English Wikipedia;
 
