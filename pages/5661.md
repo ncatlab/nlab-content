@@ -33,3 +33,5 @@ If the functors happen to be just 1-functors, then a natural equivalence  is a [
 * **natural equivalence**
 
 (...)
+
+[[!redirects natural equivalences]]
