@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -22,7 +21,7 @@ $$
   \,.
 $$
 
-A crucial difference between the groupoid object $\mathcal{G}$ in $C$ and the geometric stack $X$ is that the equivalence class of the stack in general contains _more_ (geometric) stacks than there are groupoid objects internally equivalent to $\mathcal{G}$: two groupoid objects with equivalent geometric stacks are called **Morita equivalent** groupoid objects. 
+A crucial difference between the groupoid object $\mathcal{G}$ in $C$ and the geometric stack $X$ is that the [[equivalence class]] of the stack in general contains _more_ (geometric) stacks than there are groupoid objects internally equivalent to $\mathcal{G}$: two groupoid objects with equivalent geometric stacks are called **Morita equivalent** groupoid objects. 
 
 ## Special cases
 
