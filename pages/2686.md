@@ -6,13 +6,17 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
 =--
 =--
 
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -83,6 +87,8 @@ The following blog discussion should eventually be copied here:
 ## Related concepts
 
 * [[symplectic Lie n-algebroid]]
+
+* [[symplectic infinity-groupoid]]
 
 ## References
 
