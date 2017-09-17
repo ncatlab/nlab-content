@@ -129,7 +129,11 @@ The characterization of ordinary [[compact space|compact]] [[smooth manifold]]s 
 
 ### Relation to physics 
 
-A discussion for how triples arise as point particle limits of [[vertex operator algebra]]s for 2d [[CFT]]s:
+A general introduction to and discussion of spectral triples with an eye on [[quantum mechanics]], [[quantum field theory]] and [[string theory]] is in
+
+* [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132))
+
+A dettailed derivation for how spectral triples arise as point particle limits of [[vertex operator algebra]]s for 2d [[CFT]]s:
 
 * [[Daniel Roggenkamp]], [[Katrin Wendland]], _Limits and Degenerations of Unitary Conformal Field Theories_ ([arXiv:hep-th/0308143](http://arxiv.org/abs/hep-th/0308143))
 
