@@ -45,6 +45,7 @@
 
 * [[quasitopos]]
 
+
 ## Topos morphisms
 
 * [[geometric morphism]]
@@ -62,6 +63,8 @@
 * [[locally connected topos]]
 
 * [[connected topos]]
+
+* [[localic topos]]
 
 ## Cohomology and homotopy
 
