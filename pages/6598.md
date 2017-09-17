@@ -22,6 +22,10 @@
 
   * [[Courant Lie 2-algebroid]]
 
+* [[symplectic infinity-groupoid]]
+
+  * [[symplectic groupoid]]
+
 * [[symplectomorphism]]
 
 * [[Hamiltonian vector field]]
