@@ -9,9 +9,9 @@
 
 #Idea#
 
-A _triangulated category_ is a [[category]] that behaves like the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category]]. Indeed, most examples of triangulated categories that arise in practice appear this way. 
+A _triangulated category_ is a [[category]] that behaves like the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category]]. Indeed, most examples of triangulated categories that arise in practice appear this way, and in fact often from [[stable model categories]].
 
-Therefore, all the structure and properties of a triangulated category is best understood as a 1-categorical shadow of the corresponding properties of [[stable (infinity,1)-category|stable (infinity,1)-categories]], which are in fact simpler and more natural. 
+Therefore, all the structure and properties of a triangulated category is best understood as a 1-categorical shadow of the corresponding properties of [[stable (infinity,1)-category|stable (infinity,1)-categories]], which are more natural and correct.  Triangulated categories are sometimes sufficient, and can be easier to work with since they are only 1-categorical rather than higher-categorical, but often one needs more information than is present in the triangulated category, usually relating to homotopy limits and colimits.  An intermediate notion, which contains a good deal of this information, is a [[derivator]].
 
 #Definition#
 
