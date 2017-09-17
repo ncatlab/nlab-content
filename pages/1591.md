@@ -1,5 +1,3 @@
-[[!redirects discrete space]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -10,13 +8,15 @@
 =--
 =--
 
-
+# Discrete objects
 * table of contents
 {: toc}
 
 ## Idea
 
-A __discrete space__ is, in general, an object of a [[concrete category]] $Sp$ of spaces that is [[free functor|free]] on its own underlying set.  More generally, the notion can be applied relative to any [[forgetful functor]].  
+A __discrete space__ is, in general, an object of a [[concrete category]] $Sp$ of spaces that is [[free functor|free]] on its own underlying set.  More generally, the notion can be applied relative to any [[forgetful functor]].
+
+**Note:** *This page is about the "cohesive" or "topological" notion of discreteness.  In [[2-category theory]] the term "discrete object" is also often used for [[n-truncated object|0-truncated objects]].  For this usage, see [[discrete morphism]].*
 
 ## Definition
 
