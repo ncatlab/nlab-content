@@ -20,15 +20,17 @@
 
 ## Idea
 
-The _de Rham complex_  $\Omega^\bullet(X)$ of a [[space]] $X$ is the [[cochain complex]] that in degree $n$ has the [[differential form]]s (which may mean: [[Kähler differential form]]s) of degree $n$, and whose [[differential]] is the **de Rham differential** or **exterior derivative**.
+The _de Rham complex_  (named after [[Georges de Rham]]) $\Omega^\bullet(X)$ of a [[space]] $X$ is the [[cochain complex]] that in degree $n$ has the [[differential form]]s (which may mean: [[Kähler differential form]]s) of degree $n$, and whose [[differential]] is the **de Rham differential** or **exterior derivative**.
 
-(named after [[Georges de Rham]])
+As $X$ varies this constitutes an [[abelian sheaf]] of complexes.
+
 
 ## For smooth manifolds
 
-The **de Rham complex** of a [[smooth manifold]] is the [[cochain complex]] which in degree $n \in \mathbb{N}$ has the [[vector space]] $\Omega^n(X)$ of degree-$n$ [[differential forms]] on $X$. The coboundary map is the deRham _[[exterior derivative]]_. The [[chain cohomology|cohomology]] of the de Rham complex is __de Rham cohomology__. 
+The **de Rham complex** of a [[smooth manifold]] is the [[cochain complex]] which in degree $n \in \mathbb{N}$ has the [[vector space]] $\Omega^n(X)$ of degree-$n$ [[differential forms]] on $X$. The coboundary map is the deRham _[[exterior derivative]]_. The [[chain cohomology|cohomology]] of the de Rham complex is __de Rham cohomology__. Under the [[wedge product]], the deRham complex becomes a [[differential graded algebra]]. This may be regarded as the [[Chevalley–Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ of $X$.
 
-Under the [[wedge product]], the deRham complex becomes a [[differential graded algebra]]. This may be regarded as the [[Chevalley–Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ of $X$.
+The corresponding [[abelian sheaf]] in this case defines a [[smooth spectrum]] via the [[stable Dold-Kan correspondence]], see at _[smooth spectrum -- Examples -- De Rham spectra](smooth+spectrum#ExamplesDeRhamSpectra)_.
+
 
 ## For algebraic objects
 
@@ -42,9 +44,15 @@ For [[analytic space]]s
 
 ## Properties
 
+### Basic theorems
+
 * [[Poincare lemma]] 
 
 * [[de Rham theorem]]
+
+### Relation to Deligne complex
+
+See at _[[Deligne complex]]_
 
 ## Related concepts
 
