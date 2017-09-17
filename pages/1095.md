@@ -298,6 +298,71 @@ So far this establishes that evry topological localization of $PSh(C)$ is a loca
 
 =--
 
+
+### Over paracompact topological spaces {#OverParacompactSpaces}
+
+We discuss how $(\infty,1)$-sheaves over a [[paracompact topological space]] are equivalent to topological spaces [[overcategory|over]] $X$. This the analogue of the 1-categorical statement that [[sheaves]] on $X$ are equivalent to [[etale space]]s over $X$: an etale space over $X$ is one whose [[fiber]]s are [[discrete topological space]], hence 0-[[truncated]] spaces. Then [[n-category]] analogy has [[homotopy n-type]]s as fibers. 
+
++-- {: .un_def}
+###### Definition
+
+For $Y \to X$ a [[morphism]] in [[Top]], and $U \in Op(X)$ an [[open subset]] of $X$, write
+
+$$
+  Sing_X(Y,U) := Hom_X(U \times \Delta^\bullet, X)
+$$
+
+for the [[simplicial set]] (in fact a [[Kan complex]]) of [[continuous map]]s
+
+$$
+  \array{
+    U \times \Delta^k && \to && Y
+    \\
+    & \searrow && \swarrow
+    \\
+    && X
+  }
+$$
+
+form $U$ times the topological $k$-[[simplex]] $\Delta^k$ into $Y$, that are [[section]]s of $Y \to X$.
+
+=--
+
+This is a relative version of the [[singular simplicial complex]] functor.
+
++-- {: .un_prop #OverTopModelStructure}
+###### Proposition
+
+Let $(X, \mathcal{B})$ be a [[topological space]] equipped with a [[base for the topology]] $\mathcal{B}$.
+
+There is a [[model category]] structure on the [[over category]] $Top/X$ with weak equivalences and fibration precisely those morphisms $Y \to Z$ over $X$ such that for each $U \in \mathcal{B}$ the induced morphism $Sing_X(Y,U) \to Sing_X(Z,U)$ is a weak equivalence or fibration, respectively, in the standar [[model structure on simplicial sets]].
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop 7.1.2.1]].
+
+Write $(Top/X)^\circ$ for the [[(∞,1)-category]] [[locally presentable (∞,1)-category|presented]] by this model structure.
+
++-- {: .un_prop}
+###### Proposition
+
+Let $X$ be a [[paracompact topological space]] and write as usual $Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))$ for the $(\infty,1)$-category of $(\infty,1)$-sheaves on the [[category of open subsets]] of $X$; equipped with the canonical structure of a [[site]].
+
+Let $\mathcal{B}$ be the set of **$F_\sigma$-open subsets** of $X$. This are those [[open subset]]s that are countable unions of [[closed subset]]s, equivalently the 0-sets of [[continuous function]]s $X \to [0,1]$.
+
+Let $Top/X^\circ$ be the corresponding $(\infty,1)$-categoty according to the [above proposition](#OverTopModelStructure). Then $Sing_X(-,-)$ constitutes  an [[equivalence of (∞,1)-categories]]
+
+$$
+  Top/X^\circ \simeq Sh_{(\infty,1)}(X)
+  \,.
+$$
+
+
+=--
+
+
+This is [[Higher Topos Theory|HTT, corollary 7.1.4.4]].
+
 ### Difference to more general $(\infty,1)$-toposes {#DiffToOthers}
 
 The [[(∞,1)-topos]]es that are $(\infty,1)$-categories of sheaves, i.e. that arise by [[topological localization]] from an [[(∞,1)-category of (∞,1)-presheaves]], enjoy  a number of special properties over other classes of $(\infty,1)$-toposes, such as notably [[hypercomplete (∞,1)-topos]]es.
@@ -333,7 +398,6 @@ is an [[equivalence in a quasi-category|equivalence]] (of [[(∞,1)-categories]]
 This is [[Higher Topos Theory|HTT, lemma 6.4.5.6]].
 
 See also [[n-localic (∞,1)-topos]].
-
 
 
 
