@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Monoidal categories
++-- {: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+## Definition
+
++-- {: .num_defn #InvertibleObject}
+###### Definition
+
+In a [[monoidal category]], a [[dualizable object]] $A$ for which the structure unit/counit maps between $A \otimes A^\ast$ ($A^\ast \otimes A$) and the [[unit object]] are [[isomorphisms]] is called an _[[invertible object]]_.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A [[monoidal category]] in which all objects are invertible is called a _[[Picard groupoid]]_ or _[[2-group]]_.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+In terms of [[linear type theory]] one might speak of _invertible [[types]]_.
+
+=--
+
+[[!redirects invertible objects]]
+
+[[!redirects invertible type]]
+[[!redirects invertible types]]
