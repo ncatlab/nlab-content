@@ -865,28 +865,87 @@ inside $\mathbf{H}$ we call the **[[concrete (∞,1)-sheaf|concrete]] objects** 
 =--
 
 
-### Geometry and structure sheaves
+### Geometry and structure sheaves {#GeometryAndStructureSheaves}
 
-For $\kappa$ a [[regular cardinal]] let $\mathcal{G} \hookrightarrow \mathbf{H}$ be the [[sub-(∞,1)-category]] obtained from the full subcategory on concrete objects on $\kappa$-[[small (infinity,1)-category|small]] $\infty$-groupoids by completion under finite limits in $\mathbf{H}$. By construction then $\mathcal{G}$ is a [[small (∞,1)-category]] (...) and the inclusion $\mathcal{G} \to \mathbf{H}$ preserves finite limits. Equip $\mathcal{G}$ with the structure of a [[geometry (for structured (∞,1)-toposes)]] by taking the admissible maps to be the [[monomorphism in an (infinity,1)-category|monomorphisms]] and the coverings $\{U_i \to U\}$ by admissible maps those families for which $\coprod_i U_i \to U$ is a [[regular epimorphism]].
++-- {: .un_def}
+###### Definition
 
-For every object $X \in \mathbf{H}$ we have the [[over-(∞,1)-topos]] $\mathbf{H}/X$. This becomes canonically a $\mathcal{G}$-[[structured (∞,1)-topos]] by taking the [[structure sheaf]] to be the composite
-
-$$
-  \mathcal{O}_X : \mathcal{G} \hookrightarrow \mathbf{H} \stackrel{X^*}{\to} \mathbf{H}/X
-  \,,
-$$
-
-where $X^*$ is the [[inverse image]] functor (in particular preserving finite limits) of the [[étale geometric morphism]]
+Fix an uncountable [[regular cardinal]] $\kappa$. Let 
 
 $$
-  (X_! \dashv X^* \dashv X_*) 
-   : 
-  \mathbf{H}/X \stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}
-  \mathbf{H}
-  \,.
+  \mathcal{G} \hookrightarrow Conc(\mathbf{H}) \hookrightarrow \mathbf{H}
+$$ 
+
+be the full [[sub-(∞,1)-category]] of [concrete objects](#ConcreteObjects) whose underlying $\infty$-groupoid is a $\kappa$-[[small (infinity,1)-category|small ∞-groupoid]]. 
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+We equip $\mathcal{G}$ with the canonical structure of a [[geometry (for structured (infinity,1)-toposes)|geometry]]:
+
+* the _admissible morphisms_ are the [[monomorphism in an (infinity,1)-category|monomorphisms]];
+
+* a family $\{U_i \to U\}$ of monomorphisms is a [[covering]] if the induced morphism out of the coproduct
+
+  $$
+    \coprod_i U_i \to U
+  $$
+
+  is an [[effective epimorphism]] in $\mathbf{H}$;
+
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+This definition indeed makes $\mathcal{G}$ a [[geometry for structured (infinity,1)-toposes|geometry]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the $\kappa$-bound $\mathcal{G}$ is a [[small (∞,1)-category]].
+
+Monomorphisms are pullback-stable and satisfy 2-out-of-3, hence do form an admissibility structure. 
+
+The quasi-$(\infty,1)$-topos $Conc(\mathbf{H})$ has all finite $(\infty,1)$-limits (...) and these are preserved by the right adjoint inclusion $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$.
+
+A covering family in $\mathcal{G}$ goes to an effective epimorphism by definition. Effective epimorphisms are stable under pullback in $\mathcal{G}$ because that pullback coincides with the pullback in $\mathbf{H}$ where the statement holds due to [[universal colimits]] of the $(\infty,1)$-topos.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+
+For every object $X \in \mathbf{H}$ define the functor
+
+$$
+  \mathcal{O}_X : \mathcal{G} \hookrightarrow \mathbf{H}
+   \stackrel{X^*}{\to} \mathbf{H}/X
 $$
 
+from $\mathbf{G}$ to the [[over-(∞,1)-topos]] over $X$, where $X^*$ is the [[inverse image]] functor of the corresponding [[étale geometric morphism]].
 
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+This makes $\mathbf{H}/X$ a $\mathcal{G}$-[[structured (∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $X^*$, being an inverse image, preserves finite limits and since it preserves effective epimorphisms, by [[universal colimits]].
+
+=--
 
 ### Infinitesimal objects: $\infty$-Lie algebroids {#InfinitesimalObjects}
 
