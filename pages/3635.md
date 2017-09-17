@@ -184,6 +184,6 @@ These notes, or at least the first few chapters of them, acted as course notes f
 * 12 More simplicial constructions!
 
 category: reference
-
+[[!redirects crossed menagerie]]
 
 [[!redirects Crossed Menagerie]]
