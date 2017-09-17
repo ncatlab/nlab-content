@@ -276,7 +276,6 @@ $$
   \,.
 $$
 
-
 =--
 
 +-- {: .proof}
@@ -554,6 +553,45 @@ Notice that there is a canonical map $c : X \to \mathbf{B} \pi_1(X)$, the one th
 
 Then **$A$-cohomology with local coefficients** on $X$ is nothing but the $c$-twisted $A$-cohomology of $X$ in the above sense.
 
+#### Effective computation of cohomology with local coefficients
+
+By _effective_, we mean involving as much as possible only calculations within finite dimensional linear algebra. For definiteness, we work in the smooth context and require the locally constant sheaf $\mathcal{A}$ to have stalks of finite dimensional vector spaces over a field $k$ ($\mathbb{R}$ or $\mathbb{C}$). Let $X$ be a connected $n$-dimensional manifold. The sheaf $\mathcal{A}$ can then be seen as the sheaf of germs of locally constant sections of a vector bundle $A\to X$ endowed with a flat connection $\nabla$. The fibers of $A$ are isomorphic with the stalks of $\mathcal{A}$, all of which are isomorphic to some finite dimensional vector space $\bar{A}$. Let $\tilde{X} \to X$ denote the universal cover of $X$ and $\pi = \pi_1(X)$ its fundamental group. It is well known that $\pi$ acts by [[deck transformation]] diffeomorphisms on $\tilde{X}$ and also induces a [[holonomy]] representation $\rho\colon \pi \to \mathbf{Aut}(\bar{A})$ on $\bar{A}$.
+
+Consider the vector bundles $\Lambda^p X \otimes_X A$, where $\Lambda^p X$ is the bundle of differential $p$-forms, with $\Omega^p_A(-)$ denoting the sheaf of its sections (differential forms _twisted_ by $A$). Let $d_\nabla \colon \Omega^p_A \to \Omega^{p+1}_A$ denote the correspondingly twisted de Rham differential, defined by the property that
+\[ d_\nabla(\omega \otimes a) = d\omega \otimes a + (-1)^{|\omega|} \omega \wedge \nabla a , \]
+where $d$ is the ordinary de Rham differential, $\nabla a$ is seen as a section of $\Lambda^i X \otimes_X A$, and with the wedge operation acting in the obvious way. The complex of sheafs $(\Omega^\bullet_A(-),d_\nabla)$ is then a [[soft|soft sheaf]] resolution of the sheaf $\mathcal{A}$ of locally constant sections of $A$. Its cohomology $H^p(X;A,\nabla) = H^p(\Omega^\bullet_A(X),d_\nabla)$ is then isomorphic to the sheaf cohomology of $X$ with coefficients in the locally constant sheaf $\mathcal{A}$, $H^p(X,\mathcal{A}) \simeq H^p(X;A,\nabla)$.
+
+Now, the bundle $A\to X$ and the connection $\nabla$ both pull back to the universal covering space $\tilde{X}$, that is to $\tilde{A} \to X$ and $\tilde{\nabla}$. Since now $\tilde{X}$ is simply connected, we can globally trivialize this bundle as $\tilde{A} \simeq \tilde{X} \times \bar{A}$ and $\tilde{\nabla}$ to the trivial connection thereon. Similarly, the structure of the sheaf of twisted differential forms can be simplified to $\Omega^p_{\tilde{A}}(-) \simeq \Omega^p(-) \otimes \bar{A}$, with the action of the twisted de Rham differential given by $d_{\tilde{\nabla}} (\omega \otimes \bar{a}) = d\omega \otimes \bar{a}$. This observation allows us to conclude that, on the universal covering space, we have the isomorphism $H^p(\tilde{X}; \tilde{A},\tilde{\nabla}) \simeq H^p(\tilde{X}) \otimes \bar{A}$, where $H^p(\tilde{X})$ denotes the ordinary de Rham cohomology.
+
+The pull back along a deck transformation diffeomorphism, induces a linear action of $\pi$ on forms $\Omega^p(\tilde{X})$. Combined with the holonomy representation of $\pi$ on $\bar{A}$, this defines a representation of $\pi$ on $\Omega^p_{\tilde{A}}(X)$. Let $\Omega^p_{\tilde{A}}(\tilde{X})^\pi \subseteq \Omega^p_{\tilde{A}}$ denote the subspace of twisted forms that is invariant under the action of $\pi$. It is not hard to notice the isomorphism of complexes $(\Omega^\bullet_\tilde{A}(\tilde{X})^\pi, d_{\tilde{\nabla}}) \simeq (\Omega^\bullet_A(X), d_\nabla)$ and hence of their cohomologies, $H^p(X; A,\nabla) \simeq H^p(\Omega^\bullet_{\tilde{A}}(\tilde{X})^\pi, d_{\tilde{\nabla}})$. Furthermore, the action of $\pi$ on $\Omega^p_{\tilde{A}}(\tilde{X})$ commutes with the differential $d_{\tilde{\nabla}}$ and hence induces an action on $H^p(\tilde{X}; \tilde{A},\tilde{\nabla}) \simeq H^p(\tilde{X}) \otimes \bar{A}$, where $\pi$ also acts in the obvious and compatible way on each tensor factor. Let $(H^p(\tilde{X})\otimes \bar{A})^\pi$ denote the corresponding $\pi$-invariant subspace.
+
++-- {: .num_prop}
+###### Proposition
+
+Suppose that there exists a decomposition $\Omega^p_{\tilde{A}}(\tilde{X}) \simeq \Omega^p_{\tilde{A}}(\tilde{X})^\pi \oplus \Omega^p_{\tilde{A}}(\tilde{X})^{\hat{\pi}}$ as representations of $\pi$, with $\Omega^p_{\tilde{A}}(\tilde{X})^{\hat{\pi}}$ having no $\pi$-invariant subspace. Then we have the following isomorphism for each $p$: $H^p(X,\mathcal{A}) \simeq (H^p(\tilde{X})\otimes \bar{A})^\pi$.
+
+=--
+
+Whether the decomposition hypothesis actually holds may depend on the properties of the group $\pi$. For instance, it does hold if $\pi$ is compact (finite, in particular). Other cases, have to be examined individually.
+
++-- {: .proof}
+###### Proof
+
+Start with the short exact sequence of complexes
+\[ 0 \to \Omega^\bullet_{\tilde{A}}(\tilde{X})^\pi
+  \to \Omega^\bullet_{\tilde{A}}(\tilde{X})
+  \to \Omega^\bullet_{\tilde{A}}(\tilde{X})^{\hat{\pi}}
+  \to 0 . \]
+The corresponding long exact sequence in cohomology is equivalent to the short exact sequences
+\[ 0 \to H^p(X,\mathcal{A})
+  \to H^p(\tilde{X}) \otimes \bar{A}
+  \to H^p(\Omega^\bullet_{\tilde{A}}(\tilde{X})^{\hat{\pi}}, d_{\tilde{\nabla}})
+  \to 0 \]
+for each value of $p$. The reason that all the connecting maps in the long exact sequence are zero is representation theoretic, since all the relevant maps are $\pi$-equivariant. Since, $H^{p+1}(X,\mathcal{A})$ carries a trivial representation by $\pi$, while the $H^p(\Omega^\bullet_{\tilde{A}}(\tilde{X})^{\hat{\pi}}, d_{\tilde{\nabla}})$ representation has no $\pi$-invariant subspace, by [[Schur's lemma]], the only equivariant map from the latter to the former is zero. From the same observation, we easily see that the inclusion of $H^p(X,\mathcal{A})$ must coincide with the $\pi$-invariant subspace $(H^p(\tilde{X}) \otimes \bar{A})^\pi$.
+
+=--
+
+The above result can be seen as an effective way to compute the sheaf cohomology groups $H^p(X,\mathcal{A})$ since all it requires is the knowledge of the following finite dimensional representations of the fundamental group $\pi = \pi_1(X)$: the deck transformations on the de Rham cohomology $H^k(\tilde{X})$ of the covering space, and the holonomy representation on a typical stalk $\bar{A}$ of the locally constant sheaf $\mathcal{A}$. Obtaining the invariant subspace of their tensor product can then be done using usual representation theory methods, which involve only finite dimensional linear algebra. Unfortunately, it appears that the requirement that $\pi$ is finite is rather important for the argument. It is not entirely clearly how to proceed if, for instance $\pi = \mathbb{Z}$ or is non-abelian and infinite.
 
 ## Related entries
 
