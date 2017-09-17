@@ -77,7 +77,13 @@ We get a 'Proper category' and an associated 'proper homotopy category', which w
 ###Germs at $\infty$###
 Although a proper map $f: X\to Y$ will induce a continuous $\varepsilon(f)$, on the end spaces, it is clear that $f$ does not need to be defined on the whole of $X$ for this to work, as $\varepsilon$ encodes behaviour 'out towards $\infty$'.  This leads to the notion of a 'germ at $\infty$'.
 
-Suppose $X$ is locally compact Hausdorff and $A\subset X$. The inclusion $j: A\to X$ is 'cofinal' if the closure of $W\setminus A$ is compact.  Note that a cofinal inclusion is proper and induces an isomorphism $\varepsilon(A)\cong \varepsilon(X)$.  Let $\Sigma$ be the class of all cofinal inclusions in $Proper$ and let $Proper_\infty = Proper[\Sigma^{-1}]$, the category obtained by formally inverting the cofinal inclusions. 
+Suppose $X$ is locally compact Hausdorff and $A\subset X$. The inclusion $j: A\to X$ is 'cofinal' if the closure of $W\setminus A$ is compact. 
+
++--{: .query}
+[[David Roberts]]: Typo here, but I can't figure out what $W\setminus A$ should be. My guess is $X \setminus A$.
+=--
+
+Note that a cofinal inclusion is proper and induces an isomorphism $\varepsilon(A)\cong \varepsilon(X)$.  Let $\Sigma$ be the class of all cofinal inclusions in $Proper$ and let $Proper_\infty = Proper[\Sigma^{-1}]$, the category obtained by formally inverting the cofinal inclusions. 
 
 ####Definition#### 
 
