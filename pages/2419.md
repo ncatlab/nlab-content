@@ -72,6 +72,10 @@ is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular for
 
 ### Relation to the elliptic genus
 
+Write $\Gamma_0(2) \hookrightarrow SL_2(\mathbb{Z})$ for the [[subgroup]] of the [[modular group]] on those elements $\left(\array{a & b \\ c & d}\right)$ for which $c = 0\, mod\, 2$.
+
+A modular function for $\Gamma_0(2)$ is a [[meromorphic function]] on the [[upper half plane]] which transforms as a modular form under the action of $\Gamma_0(2) \hookrightarrow SL_2(\mathbb{Z})$. Write $MF_\bullet(\Gamma_0(2))$ for the ring of these.
+
 There is a natural isomorphism
 
 $$
@@ -80,7 +84,9 @@ $$
 
 (see at [[elliptic genus]]) for the notation.
 
-([Landweber-Ravenel-Stong 93, theorem 1.5](#LandweberRavenelStong93))
+
+
+([Landweber-Ravenel-Stong 93, theorem 1.5 and sections 5.3, 5.8](#LandweberRavenelStong93))
 
 ## Examples
 
@@ -94,9 +100,13 @@ $$
 
 * [[topological modular form]], [[tmf]]
 
-## Links and references
+## References
 
-Lecture notes include
+Textbook accounts include
+
+* N. Koblitz, _Introduction to Elliptic Curves and Modular Forms_, Graduate Texts in Math, vol. 97, Springer-Verlag, 1984, 1993 (2nd ed.).
+
+Lecture notes and reviews include
 
 * [[Charles Rezk]], section 10 of [pdf](http://www.math.uiuc.edu/~rezk/512-spr2001-notes.pdf)
 
@@ -104,12 +114,15 @@ Lecture notes include
 
 * [[Nora Ganter]], _[Topological modular forms literature list](http://www.ms.unimelb.edu.au/~nganter/talbot/index.html)_
 
+* Wikipedia, _[Modular form](http://en.wikipedia.org/wiki/Modular_form)_
 
-Original discussion in the context of [[elliptic genera]] includes
+Original discussion in the context of [[elliptic genera]] and [[elliptic cohomology]] includes
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
-* wikipedia: [modular form](http://en.wikipedia.org/wiki/Modular_form)
+* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([[LandweberEllipticModular.pdf:file]])
+
+
 
 [[!redirects modular forms]]
 
