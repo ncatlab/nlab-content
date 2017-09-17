@@ -79,7 +79,7 @@ Topological $string^c$-structures were introduced in
 
 * Qingtao Chen, Fei Han, Weiping Zhang, _Generalized Witten Genus and Vanishing Theorems_ ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
-and discussed in the context of [[string theory]] in 
+as structures that make the generalized [[Witten genus]] take values in integral [[modular forms]], and discussed explicitly in the context of [[string theory]] in 
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]] II: Twisted $String$ and $String^c$ structures_, J. Australian Math. Soc. 90 (2011), 93-108 ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419))
 
