@@ -1,6 +1,6 @@
 
 
-> There are two different concepts called _Weil algebra_ . This entry is about the notion of Weil algebra in [[Lie theory]]. For the other notion see [[infinitesimally thickened point]].
+> There are two different concepts called _Weil algebra_. This entry is about the notion of Weil algebra in [[Lie theory]]. For the other notion see [[infinitesimally thickened point]].
 
 ***
 
@@ -25,7 +25,7 @@
 
 The notion of _Weil algebra_ is ordinarily defined for a [[Lie algebra]] $\mathfrak{g}$. It may be understood as the [[Chevalley-Eilenberg algebra]] of the tangent [[Lie 2-algebra]] $T \mathfrak{g}$ or $inn(\mathfrak{g})$ of $\mathfrak{g}$, generalizing the notion of [[tangent Lie algebroid]] $T X$ from a 0-[[truncated]] Lie algebroid $X$ (a [[smooth manifold]]) to the one-obeject [[Lie algebroid]] $\mathfrak{g}$.
 
-Generally, for every [[Lie-∞-algebroid]] $\mathfrak{a}$ one may define the corresponding tangent Lie-$\infty$-algebroid $T \mathfrak{a}$ , whose Chevalley-Eilenberg algebra may be called the Weil algebra of $\mathfrak{a}$:
+Generally, for every [[Lie-∞-algebroid]] $\mathfrak{a}$ one may define the corresponding tangent Lie-$\infty$-algebroid $T \mathfrak{a}$, whose Chevalley-Eilenberg algebra may be called the Weil algebra of $\mathfrak{a}$:
 
 $$
   W(\mathfrak{a})
@@ -49,7 +49,7 @@ Let $\mathfrak{g}$ be a finite-dimensional [[Lie algebra]]. The **Weil algebra**
 
 * equipped with a [[derivation]] $d : W(\mathfrak{g}) \to W(\mathfrak{g})$ that makes this a [[dg-algebra]], defined by the fact that on $\mathfrak{g}^*$ it acts as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ plus the degree shift morphism $\mathfrak{g}^* \to \mathfrak{g}^*$.
 
-This Weil algebra has trivial [[chain homology and cohomology|cohomology]] everywher (except in degree 0 of course) and sits in a sequence
+This Weil algebra has trivial [[chain homology and cohomology|cohomology]] everywhere (except in degree 0 of course) and sits in a sequence
 
 $$
   CE(\mathfrak{g}) \leftarrow W(\mathfrak{g})
