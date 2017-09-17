@@ -16,7 +16,41 @@
 
 ## Idea
 
-The [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], the higher [[chromatic homotopy theory|chromatic]] analogue of [[equivariant K-theory]].
+Equivariant elliptic cohomology is, or is supposed to be, an [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], the higher [[chromatic homotopy theory|chromatic]] analogue of [[equivariant K-theory]].
+
+As usual in [[equivariant cohomology]], there is a "naive" version and refinements thereof, and typically it is these refinements that one is really interested in. The usual motivation of these from [[algebraic topology]]/[[homotopy theory]] are indicated below in
+
+* _[Motivation from algebraic topology](#MotivationFromAlgebraicTopology)_
+
+Despite that motivation, the precise nature of the resulting "genuine" equivariant elliptic cohomology may tend to seem a bit mysterious and also a bit baroque in its technical ingredients, some of which may appear a bit unexpected in the literature. A clear conceptual picture of what equivariant elliptic cohomology is about is obtained by regarding it as encoding aspects of low dimemsional [[quantum field theory]], this is indicated below in 
+
+* _[Interpretation in quantum field theory](#InterpretationInQuantumFieldTheory)_
+
+### Motivation from algebraic topology
+ {#MotivationFromAlgebraicTopology}
+
+Given any [[cohomology theory]] $E$ which may be evaluated on arbitrary [[topological spaces]], then for $G$ a [[compact Lie group]] the "naive" $G$-[[equivariant cohomology|equivariant E-cohomology]] of the point is the $E$-cohomology of the [[classifying space]] $B G$ of $G$ (which is equivalently the [[delooping]] of $G$ regarded as an [[∞-group]], see at _[[∞-action]]_ for how that encodes actions on structures above it):
+
+$$
+  E_G^\bullet(\ast)_{naive} \coloneqq E^\bullet(B G)
+  \,.
+$$
+
+In a discussion in the context of [[geometric homotopy theory]] it is clear what is "naive" about this definition: since $G$ has geometric structure of which $B G$ remembers only the underlying [[homotopy theory]], one would instead want to use the [[smooth stack]] $\mathbf{B}G$ (the [[moduli stack]] of $G$-[[principal bundle]]), then somehow make good sense of $\mathbf{E}^\bullet(\mathbf{B}G)$ where now $\mathbf{E}$ is some [[sheaf of spectra]] and then declare this to be the actual $G$-equivariant $E$-cohomology.
+
+The traditional argument however proceeds as follows: if $E$ is a [[complex oriented cohomology theory]] then (essentially by definition) for $G = U(1)$ the [[circle group]]then  $E^\bullet(B U(1)) \simeq E^\bullet(\ast)[ [ c_1^E ] ]$  is a [[formal power series]] which one may think of as the [[algebra of functions]] on the [[formal geometry]] [[neighbourhood]] of a point in some larger [[space]] $M_{S^1}$. Based on this one may want to consider an $E$-[[(∞,1)-module bundle|∞-line bundle]] over the full space $M_{S^1}$ and takes the genuine $E$-equivariant cohomology to be the [[global sections]] of that.
+
+This is the point of view that had been advanced in ....
+
+More generally then genuine $G$-equivariant elliptic cohomology should assign to every $G$-action on some [[space]] $X$ a sheaf $\mathcal{F}$ of algebras over the $G$-equivariant cohomology of the point, and then the $G$-equivariant elliptic cohomology of $X$ should be the global sections of this. This is the kind of perspective of ...
+
+While this can be made to work, it remains maybe unclear what these spaces $M_G$ "mean" and what makes them related to equivariance and elliptic cohomology. That is considerably clarified by regarding elliptic cohomology as the [[coefficients]] for  [[motivic quantization|cohomological quantization]] of 3d and 2d [[quantum field theory]].
+ 
+
+### Interpretation in Quantum field theory
+ {#InterpretationInQuantumFieldTheory}
+
+
 
 ## Definition 
 
