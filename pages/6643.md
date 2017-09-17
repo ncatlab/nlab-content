@@ -13,6 +13,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A **flexible limit** is a [[strict 2-limit]] whose [[weighted limit|weight]] is [[cofibrant object|cofibrant]].  This implies that flexible limits are also non-strict [[2-limits]].
@@ -25,7 +29,7 @@ Let $D$ be a small [[strict 2-category]].  Write $[D,Cat]$ for the strict 2-cate
 $$ [D,Cat] \to Ps(D,Cat) $$
 (as a [[wide subcategory]]) has a strict [[left adjoint]] $Q$, which is the [[pseudo morphism classifier]] for an appropriate [[strict 2-monad]].  Therefore, for any functor $\Phi \colon D\to Cat$, we have $Q\Phi \colon D\to Cat$ such that pseudonatural transformations $\Phi \to \Psi$ are in natural bijection with strict 2-natural transformations $Q\Phi \to \Psi$.
 
-The counit of this adjunction is a canonical strict 2-natural transformation $q\colon Q\Phi \to \Phi$.  We say that $\Phi$ is **flexible** if this transformation has a [[section]] in $[D,Cat]$.
+The [[counit of an adjunction|counit]] of this adjunction is a canonical strict 2-natural transformation $q\colon Q\Phi \to \Phi$.  We say that $\Phi$ is **flexible** if this transformation has a [[section]] in $[D,Cat]$.
 
 ## Examples
 
