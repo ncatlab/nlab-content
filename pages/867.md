@@ -38,13 +38,17 @@ A poset is precisely a [[proset]] satisfying the extra condition that
 $x \leq y \leq x$ implies that $x = y$. 
 
 ### As a category with extra properties 
+ {#AsACategoryWithExtraProperties}
 
 A poset can be understood as a [[category]] with [[extra property]].
 
 A __poset__ is a [[category]] such that:
 
 * for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$
-* if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$, then $x = y$.
+
+* hence if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$, then $x = y$.
+
+This says that a poset is a _[[(0,1)-category]]_ .
 
 Equivalently, we may define a poset to be a [[skeleton|skeletal category]] [[thin category]], or equivalently a skeletal [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
 
