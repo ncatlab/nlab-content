@@ -33,7 +33,7 @@ Currying can be read as a characterization of the [[internal hom]] $Hom(b,c)$ an
 
 ## Definition #
 
-A symmetric [[monoidal category]] $C$ is **closed** if for all objects $b \in C_0$ the functor $ - \otimes b : C \to C$ has a [[adjoint functor|right adjoint]] functor $[b,-] : C \to C$.
+A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** if for all objects $b \in C_0$ the functor $ - \otimes b : C \to C$ has a [[adjoint functor|right adjoint]] functor $[b,-] : C \to C$.
 
 This means that for all $a,b,c \in C_0$ we have a bijection
 
@@ -96,6 +96,8 @@ See also the article
 
 on the concept of closed categories.
 
+[[!redirects closed symmetric monoidal category]]
+[[!redirects closed symmetric monoidal categories]]
 [[!redirects monoidal closed category]]
 [[!redirects closed monoidal categories]]
 [[!redirects monoidal closed categories]]
