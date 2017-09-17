@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
 #Contemts#
 * table of contents
 {:toc}
@@ -20,6 +34,10 @@ This is based on the fact that in certain dimensions, [[spin group]] [[represent
 
 ...
 
+
+## Applications 
+
+The structure of the [[normed division algebra]]s governs the existence of super-[[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]]. By the [[D'Auria-Fre formulation of supergravity]] the [[∞-Lie algebra valued forms]] with values in these constitute the field content of (11-dimensional) [[supergravity]].
 
 ## References
 
