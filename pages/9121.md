@@ -21,7 +21,7 @@
 
 ## Idea
 
-In a context of [[synthetic differential geometry]]/[[differential cohesion]] the _reducton modality_ characterizes [[reduced objects]].
+In a context of [[synthetic differential geometry]]/[[differential cohesion]] the _reduction modality_ characterizes [[reduced objects]].
 
 ## Definition
 
