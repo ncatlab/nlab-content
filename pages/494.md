@@ -252,7 +252,7 @@ For more on this see
 
 ### in terms of Kan extensions/liftings
 
-Given $L \colon C \to D$, we have that it has a [[right adjoint]] $R\colon D \to C$ precisely if the [[left Kan extension]] $Lan_L 1_C$ of the [[identity]] along $L$ exists and is [[absolute colimit|absolute]], in which case
+Given $L \colon C \to D$, we have that it has a [[right adjoint]] $R\colon D \to C$ precisely if the [[left Kan extension]] $Lan_L 1_C$ of the [[identity]] along $L$ exists and is [absolute](/nlab/show/Kan+extension#AbsoluteKanExtension), in which case
 
 $$
   R \simeq \mathop{Lan}_L 1_C
