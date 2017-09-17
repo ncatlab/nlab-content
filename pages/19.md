@@ -82,7 +82,7 @@ $$
 +-- {: .un_remark}
 ###### Examples ####
 
-The archetypical example of a category is the category [[Set]] of [[set]]s and [function]]s between sets. 
+The archetypical example of a category is the category [[Set]] of [[set]]s and [[function]]s between sets. 
 
 The classical examples of categories are [[concrete category|concrete categories]] whose [[object]]s are [[stuff, structure, property|sets with extra structure]] and whose [[morphism]]s are structure preserving functions of sets, such as [[Top]], [[Grp]], [[Vect]].  These are the examples from which the term _category_ derives: these categories literally _categorize_ mathematical structures by packing structures of the same _type_ (same category) and structure preserving mappings between them into a single whole structure, a category.
 
@@ -109,9 +109,9 @@ However, the [[category|categories]] of category theory are way more general tha
 +-- {: .un_remark}
 ###### The basic trinity of concepts ####
 
-Category theory refledcts on itself. Categories are about collections of morphisms. And there are evident morphisms between categories: [[functor]]s. And there are evident morphisms between functors: [[natural transformation]]s.
+Category theory reflects on itself. Categories are about collections of morphisms. And there are evident morphisms between categories: [[functor]]s. And there are evident morphisms between functors: [[natural transformation]]s.
 
-This trinicty of concepts
+This trinity of concepts
 
 1. [[category]]
 
@@ -151,7 +151,7 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 +-- {: .un_remark}
 ###### The $n$-POV ####
 
-The vast applicability and expressiveness of category theory leads to the observation that most structures in mathematics are best understood from a category theoretic or higher cstegory theoretic viewpoint. This is the [[nPOV]].
+The vast applicability and expressiveness of category theory leads to the observation that most structures in mathematics are best understood from a category theoretic or higher category theoretic viewpoint. This is the [[nPOV]].
 
 =--
 
