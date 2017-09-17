@@ -21,6 +21,7 @@ A  _biholomorphic function_ is a [[holomorphic function]] between complex manifo
 ## Properties
 
 ### Between complex manifolds
+ {#BetweenComplexManifolds}
 
 Any non-constant [[surjection|surjective]] [[holomorphic map]] between [[connected topological space|connected]] [[compact topological space|compact]] [[complex manifolds]] of equal [[dimension]] is a ramified finite-sheet [[covering space|covering]]. If this map is in particular [[bijection|bijective]], then there is only one sheet, and thus it is a biholomorphism.
 
@@ -28,7 +29,7 @@ Any non-constant [[surjection|surjective]] [[holomorphic map]] between [[connect
 
 ## References
 
-* Eric Bedford, _What is... a Biholomorphic Mapping_, Notices of the AMS,volume 59, number 6 ([pdf](http://www.ams.org/notices/201206/rtx120600812p.pdf))
+* {#Bedford} Eric Bedford, _What is... a Biholomorphic Mapping_, Notices of the AMS,volume 59, number 6 ([pdf](http://www.ams.org/notices/201206/rtx120600812p.pdf))
 
 [[!redirects biholomorphic functions]]
 
