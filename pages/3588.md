@@ -14,6 +14,16 @@
 
 [[!include types and logic - table]]
 
+# Variants
+
+* [[type theory]], [[internal logic]]
+
+* [[2-type theory]], [[michaelshulman:2-categorical logic]]
+
+* [[homotopy type theory]], [[internal logic of an (∞,1)-topos]]
+
+* [[directed homotopy type theory]]
+
 # Models
 
 * [[display map]]
