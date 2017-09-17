@@ -84,7 +84,7 @@ $$
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A category has equalizers if it has [[product]]s and [[pullback]]s.
@@ -123,6 +123,11 @@ $$
 $$
 
 One checks that the vertical morphism $eq(f,g) \to S$ equalizes $f$ and $g$ and that it does so universally.
+=--
+
++-- {: .num_prop}
+###### Proposition
+If a category has products and equalizers, then it has [[limits]]; see there.
 =--
 
 
