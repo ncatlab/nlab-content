@@ -2,8 +2,8 @@
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
 
-***
 
+$\phi(x) \wedge F(x,\phi(x)) = \phi(x) \wedge F(x,\top) \forall \phi:X \rightarrow \Sigma, F:X \times \Sigma \rightarrow \Sigma$
 
 Introduction 
 
