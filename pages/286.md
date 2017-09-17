@@ -21,8 +21,7 @@
 
 Sensible reasoning in [[mathematics]] in general, and in higher structures such as ([[higher category theory|higher]]) [[category theory]], [[homotopy type theory]], etc., should be invariant under the respective notion of _[[equivalence]]_. This is an issue whenever some structure is _[[generators and relations|presented]]_ by other structures, since the notion of equivalence of the presentation can be finer than that of the notion being presented. 
 
-For instance, a [[category]] can be presented by a [[simplicial set]], but [[isomorphism]] of simplicial sets is much finer than [[equivalence of categories|equivalences]] of their corresponding categories. It is a _mistake_ to mix up these two levels and, for instance, assign to a category properties that are shared only by _some_ of the simplicial sets representing it, say, by distinguishing between [[isomorphism|isomorphic]] objects. This _breaks the equivalence invariance_.
-
+For instance, a [[category]] can be presented by a [[simplicial set]], but [[isomorphism]] of simplicial sets is much finer than [[equivalence of categories|equivalences]] of their corresponding categories. It is generally a _mistake_ to mix up these two levels and, for instance, assign to a category properties that are shared only by _some_ of the simplicial sets representing it, say, by distinguishing between [[isomorphism|isomorphic]] objects. This _breaks the equivalence invariance_.  (However, see [below](/nlab/show/principle+of+equivalence#Breaking).)
 
 The ideas here generalize in many directions.  For example, not only properties, but also constructions involving categories and functors, can fail to preserve equivalences.  
 
@@ -32,6 +31,8 @@ The ideas here generalize in many directions.  For example, not only properties,
 * [[Michael Makkai]] proposed  the _Principle of Isomorphism_, "all grammatically correct properties of objects of a fixed category are to be invariant under isomorphism", in his [paper](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.lnl/1235415906) "Towards a categorical foundation of mathematics", in Johann A. Makowsky, Elena V. Ravve, eds., Logic Colloquium '95: Proceedings of the Annual European Summer Meeting of the Association of Symbolic Logic, held in Haifa, Israel, August 9-18, 1995 (Berlin: Springer-Verlag, 1998), 153-190. People who are uneasy about using emotionally charged words can fall back on this phrase.
 
 * [[Peter Aczel]] mentioned a similar concept, the _Structure Identity Principle_, "isomorphic structures have the same structural properties" in Oberwolfach [report 52/2011](www.mfo.de/document/1145/OWR_2011_52.pdf). This seems a priori a little weaker to [[David Roberts|me]], but if we demand that objects should be seen as only having structural properties (as opposed to the category of [[ZF]]-[[sets]]), then we look like we get back the Principle of Isomorphism.
+
+* A very precise way of stating this idea is encapsulated in [[Vladimir Voevodsky]]'s [[univalence axiom]], which is a fundamental part of [[homotopy type theory]] as a [[foundation]] for mathematics.  By identifying equivalences/isomorphisms with inhabitants of an [[identity type]], it ensures that all properties and structure which can be expressed within the formal [[type theory]] are invariant under such.
 
 * Floating around the web (and maybe the $n$Lab) is the idea of half-jokingly referring to a breaking of equivalence invariance as "evil". This is probably meant as a pedagogical way of amplifying that it is to be avoided.
 
@@ -60,10 +61,11 @@ However, these are not commonly used foundations.  Therefore, category theory is
 
 
 ## How to break equivalence-invariance
+{#Breaking}
 
 > Or: just because it looks equivalence-respecting doesn\'t mean that it really is
 
-Just as we can make use of [[basis|bases]] in [[linear algebra]], so we may make use of [[strict categories]] to discuss [[category theory]].  Philosophically, the concept of strict category is not in itself a breaking of equivalence-invariance; what is is to say that $Set$ (and other well-known categories such as [[Grp]], etc) are strict categories.  Mathematically, strict categories form a $1$-[[1-groupoid|groupoid]] $Str Cat_\sim$ that is different from the $2$-[[2-groupoid|groupoid]] $Cat_\sim$, but there is still a canonical [[pseudo functor]] from $Str Cat_\sim$ to $Cat_\sim$ that we may find useful.
+Just as we can make use of [[basis|bases]] in [[linear algebra]], so we may make use of [[strict categories]] to discuss [[category theory]].  Philosophically, the concept of strict category is not in itself a breaking of equivalence-invariance; what does break equivalence-invariance is to say that $Set$ (and other well-known categories such as [[Grp]], etc) *are* strict categories.  Mathematically, strict categories form a $1$-[[1-groupoid|groupoid]] $Str Cat_\sim$ that is different from the $2$-[[2-groupoid|groupoid]] $Cat_\sim$, but there is still a canonical [[pseudo functor]] from $Str Cat_\sim$ to $Cat_\sim$ that we may find useful.
 
 Much as the [[axiom of choice]] tells us that every vector space has a basis, so the global axiom of choice tells us that every category may be given the structure of a strict category.  Then we can use this extra structure (in either case), as long as we prove that the result is independent of the structure chosen.  Even if we don\'t wish to accept the axiom of choice, we can still prove a theorem about those vector spaces that have bases or those categories that can be given a strict structure.
 
@@ -88,9 +90,9 @@ The most common source of of breaking of equivalence-invariance is a statement t
 
 It does not break equivalence-invariance to state that two [[morphisms]] are equal, given a common [[source]] and [[target]]; this is because a [[hom-set]] is a [[set]], where equality is meaningful.  However, it violates the principle of equivalence to state that two morphisms are equal if the source and target are *not* given, because this includes the claim that their sources (which are objects) are equal, and similarly for the targets.
 
-It violates the principle of equivalence to state that two morphisms in a $2$-[[2-category|category]] are equal, because these morphisms are objects in a [[hom-category]], but does not violate the principle of equivalence to state that that two $2$-moprhisms are equal, given a common source and target.  And so on.  In an $\infty$-[[infinity-category|category]], *every* claim of equality break equivalence-invariance.
+It violates the principle of equivalence to state that two morphisms in a $2$-[[2-category|category]] are equal, because these morphisms are objects in a [[hom-category]], but does not violate the principle of equivalence to state that that two $2$-morphisms are equal, given a common source and target.  And so on.  In an $\infty$-[[infinity-category|category]], *every* claim of equality break equivalence-invariance.
 
-Defining higher categorial structures using such equalities violating equivalence-invariance tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[Gray-category]] and [[model category]] for examples of this in action.
+Defining higher categorial structures using such equalities violating equivalence-invariance tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[bicategory]], [[Gray-category]], and [[model category]] for examples of this in action.
 
 
 ### Principle of equivalence in quantum theory {#daggers}
