@@ -9,17 +9,7 @@
 =--
 =--
 
-* [[object]]
 
-* [[morphism]]
-
-* [[2-morphism]]
-
-* [[3-morphism]]
-
-* **k-morphism**
-
-***
 
 
 # Higher morphisms ($k$-morphisms)
@@ -64,6 +54,19 @@ Also note that every $k$-morphism has $k + 1$ identity $(k+1)$-morphisms, which 
 
 ---[[Toby Bartels]]
 =--
+
+## Related concepts
+
+* [[object]]
+
+* [[morphism]]
+
+* [[2-morphism]]
+
+* [[3-morphism]]
+
+* **k-morphism**
+
 
 
 [[!redirects higher morphism]]
