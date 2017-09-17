@@ -30,7 +30,7 @@
 
 * [[Fell's theorem]]
 
-#### Euklidean QFT
+#### Euclidean QFT
 
 * [[Osterwalder-Schrader theorem]]
 
