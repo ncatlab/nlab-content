@@ -55,6 +55,8 @@ Since full [[2d CFTs]] are what is relevant in [[string theory]], where these co
 
 * [[holographic principle]]
 
+* [[local-global principle]]
+
 ## References
 
 The construction and the proof of the classification result is originally described in the series of articles
@@ -114,4 +116,6 @@ and a discussion of the converse, that every rarional 2-d CT is obtained this wa
 [[!redirects FFRS-formalism]]
 
 [[!redirects FRS-formalism]]
+
+[[!redirects FRS-theorem]]
 
