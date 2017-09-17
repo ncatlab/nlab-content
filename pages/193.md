@@ -140,7 +140,7 @@ $$
   \quad = \quad C \stackrel{L}{\to} D
 $$
 
-variously called the _[[triangle identities]]_ or the _zig-zag identities_.  We call $L$ the **[[left adjoint]]** (of $R$) and $R$ the **[[right adjoint]]** (of $L$).  We call $\eta$ the [[unit]] and $\epsilon$ the [[counit]] of the adjunction.
+variously called the _[[triangle identities]]_ or the _zig-zag identities_.  We call $L$ the **[[left adjoint]]** (of $R$) and $R$ the **[[right adjoint]]** (of $L$).  We call $\eta$ the [[unit of the adjunction]] and $\epsilon$ the [[counit of the adjunction]].
 
 When interpreted in the prototypical 2-category [[Cat]], $C$ and $D$ are [[categories]], $L$ and $R$ are [[functors]], and $\eta$ and $\epsilon$ are [[natural transformations]].  In this case (which was of course the first to be defined) there are a number of equivalent definitions of an adjunction, which can be found on the page [[adjoint functor]].  Conversely, the definition in any 2-category can be obtained by [[internalization]] from the definition in $\Cat$.
 
