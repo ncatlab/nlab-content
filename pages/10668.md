@@ -10,8 +10,14 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
