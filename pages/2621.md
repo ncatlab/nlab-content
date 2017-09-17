@@ -84,7 +84,7 @@ Further developments along these lines are then
 Commun. Math. Phys. 219:5-30 (2001) ([arXiv:hep-th/0001129](http://xxx.uni-augsburg.de/abs/hep-th/0001129))
 
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_,
-Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/ps/hep-th/0101079)) 
+Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079)) 
 
 (relation to [[deformation quantization]])
 
@@ -92,7 +92,7 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 (relation to [[renormalization]])
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_, Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/ps/hep-th/9807078)). 
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_, Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
 
 (relation to [[gauge theory]] and [[QED]])
 
