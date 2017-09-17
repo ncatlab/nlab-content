@@ -90,12 +90,12 @@ $$
 \begin{matrix}
 0\overset{f}{\longrightarrow}1\\
 \\
-0'\overset{g}{\longrightarrow}1'
+0'\underset{g}{\longrightarrow}1'
 \end{matrix}
 \overset{\quad f\star g\quad}{\longrightarrow}
 \array{\arrayopts{\rowalign{center}} 
 \begin{svg}
-<svg width="95" height="96" xmlns="http://www.w3.org/2000/svg" se:nonce="91144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+<svg width="96" height="116" xmlns="http://www.w3.org/2000/svg" se:nonce="91144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
   <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw1" viewBox="0 0 10 10">
@@ -105,24 +105,34 @@ $$
    <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
   </marker>
  </defs>
- <g>
+ <g display="inline">
   <title>Layer 1</title>
-  <path d="m6.25,8l80.25,80.027077l-80.25,0.222923" id="svg_91144_7" fill="#000000" fill-opacity="0.25" stroke-width="2"/>
-  <rect x="6" y="8" width="80.75" height="80.249997" id="svg_91144_6" fill="#000000" stroke-width="2" fill-opacity="0.25"/>
-  <ellipse cx="86.25" cy="88.25" id="svg_91144_12" fill="#ffffff" stroke-width="2" rx="4.5" ry="7"/>
-  <ellipse cx="7.9375" cy="88.25" fill="#ffffff" stroke-width="2" rx="7.3125" ry="7.499999" id="svg_91144_11"/>
-  <ellipse cx="86.6875" cy="9.625" fill="#ffffff" stroke-width="2" rx="5.5625" ry="7" id="svg_91144_10"/>
-  <ellipse cx="6.6875" cy="9.5" id="svg_91144_1" fill="#ffffff" stroke-width="2" rx="5.5625" ry="6.75"/>
-  <polyline se:connector="svg_97259_2 svg_97259_16" id="svg_91144_3" points="15.5,88 48.5,88 81.5,88" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_91144_fw)"/>
-  <polyline se:connector="svg_97259_9 svg_97259_2" id="svg_91144_2" points="80,14.1935 47.75,47.4838 15.5,80.7742" stroke="#000000" stroke-width="2" fill="none" stroke-dasharray="2,2" marker-end="url(#se_arrow_91144_fw)"/>
-  <polyline se:connector="svg_97259_1 svg_97259_9" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="12,8 46,8 80,8" id="svg_97259_23"/>
-  <line x1="6" y1="16" x2="6" y2="80" id="svg_91144_4" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_91144_fw)"/>
-  <line x1="86.5" y1="16" x2="86.5" y2="79" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_91144_fw)" id="svg_91144_5"/>
-  <line x1="11" y1="13" x2="79.25" y2="80.875002" id="svg_91144_8" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_91144_fw)"/>
+  <rect x="6.375" y="19.875" width="80.75" height="80.249997" id="svg_91144_6" fill="#000000" stroke-width="2" fill-opacity="0.25"/>
+  <path d="m6.625,20.25l80.25,80.027077l-80.25,0.222923" id="svg_91144_7" fill="#000000" fill-opacity="0.15" stroke-width="2"/>
+  <ellipse cx="87.125" cy="99.874999" id="svg_91144_12" fill="#ffffff" stroke-width="2" rx="7.375" ry="7.625"/>
+  <ellipse cx="9.3125" cy="99.625" fill="#ffffff" stroke-width="2" rx="8.3125" ry="8.374999" id="svg_91144_11"/>
+  <ellipse cx="86.187501" cy="21.75" fill="#ffffff" stroke-width="2" rx="6.4375" ry="6.875" id="svg_91144_10"/>
+  <ellipse cx="7.0625" cy="21.75" id="svg_91144_1" fill="#ffffff" stroke-width="2" rx="5.5625" ry="6.75"/>
+  <polyline se:connector="svg_97259_9 svg_97259_2" id="svg_91144_2" points="79.2069,28 47.9784,60.0575 16.75,92.115" stroke="#000000" stroke-width="2" fill="none" stroke-dasharray="2,2" marker-end="url(#se_arrow_91144_fw)"/>
+  <polyline se:connector="svg_97259_1 svg_97259_9" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="12.375,19.75 45.125,19.75 77.875,19.75" id="svg_97259_23"/>
+  <line x1="6.375" y1="28.25" x2="6.375" y2="90" id="svg_91144_4" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_91144_fw)"/>
+  <line x1="86.875" y1="28.25" x2="86.875" y2="90" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_91144_fw)" id="svg_91144_5"/>
+  <line x1="11.375" y1="25.25" x2="80.250002" y2="93.999999" id="svg_91144_8" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_91144_fw)"/>
+  <foreignObject x="35" y="96.25" id="svg_91144_13" font-size="16" width="16" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mi>g</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">g</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line marker-end="url(#se_arrow_91144_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_91144_14" y2="100" x2="78" y1="100" x1="17.374999"/>
  </g>
  <g>
   <title>Layer 2</title>
-  <foreignObject id="svg_97259_2" height="16" width="14" font-size="16" y="80" x="1.5">
+  <foreignObject id="svg_97259_2" height="16" width="14" font-size="16" y="91.75" x="1.875">
    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -133,7 +143,7 @@ $$
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_97259_16" height="16" width="14" font-size="16" y="80" x="81.5">
+  <foreignObject id="svg_97259_16" height="16" width="14" font-size="16" y="91.75" x="81.875">
    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -144,7 +154,7 @@ $$
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_97259_9" height="16" width="12" font-size="16" y="0" x="80">
+  <foreignObject id="svg_97259_9" height="16" width="18" font-size="16" y="12" x="78">
    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -154,13 +164,23 @@ $$
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="16" width="12" font-size="16" id="svg_97259_1" y="0" x="0">
+  <foreignObject height="16" width="12" font-size="16" id="svg_97259_1" y="12" x="0">
    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
       <mn>0</mn>
      </mrow>
      <annotation encoding="application/x-tex">0</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="35" y="0" id="svg_91144_9" font-size="16" width="16" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">f</annotation>
     </semantics>
    </math>
   </foreignObject>
@@ -171,32 +191,35 @@ $$
 \cong
 \array{\arrayopts{\rowalign{center}} 
 \begin{svg}
-<svg width="108" height="110" xmlns="http://www.w3.org/2000/svg" se:nonce="22396" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="108" height="110" xmlns="http://www.w3.org/2000/svg" se:nonce="22396" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
-   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_22396_fw" viewBox="0 0 10 10">
+   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <path d="m3.875,49.25l33.375,53.125l63.125,-41.625l-62.75,-52.875l-33.75,41.375z" id="svg_4422_11" fill="#000000" stroke-width="2" stroke-dasharray="2,2" fill-opacity="0.25"/>
-  <ellipse cx="98" cy="63.375001" id="svg_22396_4" fill="#ffffff" stroke-width="2" rx="5.25" ry="11.125"/>
-  <path d="m3.875,49l33,52.625l1,-93.875" id="svg_4422_12" fill="#000000" fill-opacity="0.25" stroke-width="2" stroke-dasharray="2,2"/>
-  <ellipse cx="37.125" cy="102" id="svg_22396_3" fill="#ffffff" stroke-width="2" rx="8.625" ry="7.75"/>
-  <ellipse cx="4.625" cy="51" id="svg_22396_2" fill="#ffffff" stroke-width="2" rx="3.875" ry="7"/>
-  <ellipse cx="37.250001" cy="9.25" id="svg_22396_1" fill="#ffffff" stroke-width="2" rx="9.749999" ry="8.25"/>
-  <polyline se:connector="svg_4422_3 svg_4422_4" id="svg_4422_10" points="8,49.7481 50.1875,55.001 92.375,60.2539" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)" stroke-dasharray="2,2"/>
-  <polyline se:connector="svg_4422_1 svg_4422_3" id="svg_4422_9" points="31.2045,16 19.6022,30.1806 8,44.3611" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <polyline se:connector="svg_4422_4 svg_4422_2" id="svg_4422_8" points="92.375,66.4311 68.625,81.8125 44.875,97.1939" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <polyline se:connector="svg_4422_1 svg_4422_4" id="svg_4422_7" points="44.75,13.9521 68.5625,34.1999 92.375,54.4476" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <polyline se:connector="svg_4422_1 svg_4422_2" id="svg_4422_6" points="37.6758,16 37.3125,55.1875 36.9492,94.375" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <polyline se:connector="svg_4422_3 svg_4422_2" id="svg_4422_5" points="8,55.7139 19.9622,75.0444 31.9244,94.375" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <path fill-opacity="0.25" stroke-dasharray="2,2" stroke-width="2" fill="#000000" id="svg_4422_11" d="m3.8125,49.25l33.375,53.125l63.125,-41.625l-62.75,-52.875l-33.75,41.375z"/>
+  <ellipse ry="11.125" rx="5.25" stroke-width="2" fill="#ffffff" id="svg_22396_4" cy="63.375001" cx="98"/>
+  <path stroke-dasharray="2,2" stroke-width="2" fill-opacity="0.15" fill="#000000" id="svg_4422_12" d="m3.875,49.0625l35.25,55.75l0.25,-97.25"/>
+  <ellipse ry="7.75" rx="10.90625" stroke-width="2" fill="#ffffff" id="svg_22396_3" cy="102.125" cx="38.90625"/>
+  <ellipse ry="7" rx="4.5" stroke-width="2" fill="#ffffff" id="svg_22396_2" cy="51" cx="5.25"/>
+  <ellipse ry="8.25" rx="9.749999" stroke-width="2" fill="#ffffff" id="svg_22396_1" cy="9.25" cx="37.250001"/>
+  <line marker-end="url(#se_arrow_22396_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_22396_6" y2="93.875" x2="32.062498" y1="56.750001" x1="8.375"/>
+  <line marker-end="url(#se_arrow_22396_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_22396_8" y2="95.250001" x2="48.062501" y1="65.875" x1="92.75"/>
+  <line marker-end="url(#se_arrow_22396_fw)" fill="none" stroke-dasharray="2,2" stroke-width="2" stroke="#000000" id="svg_22396_9" y2="61" x2="91" y1="51.5" x1="10.000001"/>
+  <line marker-end="url(#se_arrow_22396_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_22396_5" y2="92.375" x2="39.375" y1="17.625" x1="39.5"/>
+  <line marker-end="url(#se_arrow_22396_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_22396_10" y2="43.249999" x2="8.249999" y1="16.25" x1="31.5"/>
+  <line marker-end="url(#se_arrow_22396_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_22396_11" y2="53.999999" x2="92.999999" y1="14" x1="45"/>
  </g>
  <g>
   <title>Layer 2</title>
-  <foreignObject y="0" x="30.75" id="svg_4422_1" font-size="16" width="14" height="16">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="16" width="14" font-size="16" id="svg_4422_1" x="30.75" y="0">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
       <mn>0</mn>
@@ -205,8 +228,8 @@ $$
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="92.375" y="53.25" id="svg_4422_4" font-size="16" width="16" height="16">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="16" width="16" font-size="16" id="svg_4422_4" y="52" x="92.375">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
       <mn>1</mn>
@@ -216,8 +239,8 @@ $$
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="28.875" y="94.375" id="svg_4422_2" font-size="16" width="16" height="16">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="16" width="16" font-size="16" id="svg_4422_2" y="94.375" x="33.25">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
       <mn>0</mn>
@@ -227,8 +250,8 @@ $$
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="0" y="41.25" id="svg_4422_3" font-size="16" width="8" height="16">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="16" width="8" font-size="16" id="svg_4422_3" y="41.25" x="0">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
       <mn>1</mn>
