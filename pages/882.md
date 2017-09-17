@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
 A (binary) [[relation]] $\sim$ on a set $A$ is __transitive__ if in every chain of $3$ pairwise related elements, the first and last elements are also related:
 $$\forall (x, y, z: A),\; x \sim y \;\wedge\; y \sim z \;\Rightarrow\; x \sim z$$
 which generalises from $3$ to any finite, positive number of elements.
