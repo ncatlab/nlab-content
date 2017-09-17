@@ -84,6 +84,12 @@ The [[sheaf topos]] over this [[site]] is the [[big topos]] version of the  **Za
 
 ## Properties
 
+### Points
+
+The [[maximal ideal]] in $R$ correspond precisely to the [[closed subset|closed]] points of the [[prime spectrum]] $Spec(R)$ in the Zariski topology.
+
+### As a site
+
 +-- {: .num_prop}
 ###### Proposition
 
