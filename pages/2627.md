@@ -181,7 +181,7 @@ $$
 
 =--
 
-([CJF, proof of prop 2.3.9](#CJF)).
+This is the [[Eilenberg-Watts theorem]]. 
 
   
 +-- {: .num_defn #2RingAsCompatiblyMonoidalPresentableCategory}
