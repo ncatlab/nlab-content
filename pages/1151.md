@@ -200,7 +200,7 @@ $$
   c_n : H(X,A) \to H(X,E_n)
 $$
 
-that sends each $A$-cocycle $g$ to its **characteristic class** $c_n(g)$. Typically, for $P \to X$ is the [[principal ∞-bundle]] clasified by $g$ one speaks of the characteristic class $c_n(P)$ of this principal $\infty$-bundle.
+that sends each $A$-cocycle $g$ to its **characteristic class** $c_n(g)$. Typically, for $P \to X$, the [[principal ∞-bundle]] classified by $g$, one speaks of the characteristic class $c_n(P)$ of this principal $\infty$-bundle.
 
 
 ### Extra structure on cohomology {#ExtraStruc}
@@ -337,12 +337,12 @@ For the moment see
 
 #### Differential cohomology
 
-A special type [[characteristic class]] is the [[Chern character]].
+A special type of [[characteristic class]] is the [[Chern character]].
 The [[twisted cohomology]] with respect to the Chern character is **differential cohomology**.
 
 * [[differential cohomology|differential abelian cohomology]] 
 
-* [schreiber:schreiber:differential cohomology in an (∞,1)-topos]]
+* [[schreiber:differential cohomology in an (∞,1)-topos]]
 
 #### Equivariant cohomology
 
@@ -479,7 +479,7 @@ The archetypical example for [[nonabelian cohomology]] theory is the [[(∞,1)-t
 
   * K-theory is cohomology with coefficients in the [[K-theory spectrum]]
 
-  * elliptic cohomology is somehow subsumes by cohomology with coefficients in [[tmf]].
+  * elliptic cohomology is somehow subsumed by cohomology with coefficients in [[tmf]].
 
 
 > some left-over material, to be merged...
@@ -689,7 +689,7 @@ the [[free loop space object]] $\mathcal{L}X$ and the corresponding $S^1$-[[equi
 
 [[K-theory]] in its general form of [[algebraic K-theory]] is a way of turning a [[stable (∞,1)-category]] (which may be the [[derived category]] induced by an [[abelian category]] or [[Quillen exact category]]) into a [[spectrum]].
 
-Accordingly, an [[∞-stack]] with values in srable $(\infty,1)$-categories induces a spectrum valued $\infty$-stack after passing to its K-theory. Homming objects $X$ into these spectrum-valued $\infty$-stacks then produces the corresponding **K-cohomology** of $X$.
+Accordingly, an [[∞-stack]] with values in stable $(\infty,1)$-categories induces a spectrum valued $\infty$-stack after passing to its K-theory. Homming objects $X$ into these spectrum-valued $\infty$-stacks then produces the corresponding **K-cohomology** of $X$.
 
 This, too, goes back all the way to [[BrownAHT]], where in the second part the homotopy categories of spectrum-valued $\infty$-stacks is considered.
 
@@ -758,7 +758,7 @@ In the literature there is a _naive_ definition of Lie group cohomology and and 
 
 Apart from there being cocycles and coboundaries, in order to speak of _cohomology_ we tend to require these to do something: namely to classify something.
 
-Cocycles on some object $X$ do come with a notion of clasification of certain structures over $X$ in $(\infty)$-topos, as described in detail at [[principal ∞-bundle]]. As discussed in the proof there, for that classification to work, however, one needs 
+Cocycles on some object $X$ do come with a notion of classification of certain structures over $X$ in a $(\infty, 1)$-topos, as described in detail at [[principal ∞-bundle]]. As discussed in the proof there, for that classification to work, however, one needs 
 
 * [[pullback]]s, 
 
@@ -799,7 +799,7 @@ This article establishes that
 
 * all [[generalized (Eilenberg-Steenrod) cohomology]] 
 
-  * with simple things like [[Eilenberg-MacLane spectrum|ordinary cohomology]] and more intricate things like [[K-theory spectrum|K-theory]] and [[tmf]]), 
+  * with simple things like [[Eilenberg-MacLane spectrum|ordinary cohomology]] and more intricate things like [[K-theory spectrum|K-theory]] and [[tmf]], 
 
 * as well as [[nonabelian cohomology]] 
 
