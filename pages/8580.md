@@ -197,65 +197,6 @@ $$
 
 * [[Euler-Lagrange equations]]
 
-## Integration 
-
-$\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
-
-[[integration of differential forms]] is map of smooth spaces
-
-$$
-  \int_{\Sigma} : [\Sigma, \Omega^n(-)] \to \Omega^{n-k}(-)
-$$
-
-over a [[coordinate chart]] $U$ this sends
-
-$$
-  \int_{\Sigma, U} : \Omega^n(\Sigma\times U) \to \Omega^{n-k}(U)
-  \,.
-$$
-
-## Transgression
-
-[[transgression]] of [[differential forms]] to [[mapping space]] is the composite
-
-$$
-  \int_\Sigma [\Sigma,-]
-  : 
-  \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
-$$
-
-$$
-  (X \stackrel{\omega}{\to} \Omega^n(-)) \in \Omega^n(X)
-$$
-
-to
-
-$$
-  \int_{\Sigma} [\Sigma,\omega]
-   :
-  [\Sigma, X] \stackrel{[\Sigma, \omega]}{\to}  \Omega^{n-k}(-)
-$$
-
-for instance [[action functional]] for [[electron]] in [[electromagnetic field]] $A$ is $S_{em} = \int_{S^1} [S^1, A]$
-
-$$
-  \int_{S^1} [S^1, A]
-  : 
-  [S^1, X]
-    \stackrel{[S^1, A]}{\to}
-  [S^1 , \Omega^1]
-    \stackrel{\int_{S^1}}{\to}
-  \Omega^0(-)
-  = 
-  \mathbb{R}
-$$
-
-variation gives [[Lorentz force]]
-
-
-* [[Stokes theorem]]
-
-
 ## Smooth groupoids
 
 $$
@@ -343,6 +284,7 @@ $$
 
 where the left horizontal morphisms are [[weak equivalences]]
 and the right square is a [[pullback]]
+
 ## Smooth manifolds
 
 
@@ -485,8 +427,6 @@ $$
 $$
 
 
-
-
 ## Riemannian geometry
 
 [[reduction of the structure group]] along
@@ -509,6 +449,67 @@ at each point
 example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
 
 [[Einstein-Maxwell theory]]
+
+## Integration 
+
+$\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
+
+[[integration of differential forms]] is map of smooth spaces
+
+$$
+  \int_{\Sigma} : [\Sigma, \Omega^n(-)] \to \Omega^{n-k}(-)
+$$
+
+over a [[coordinate chart]] $U$ this sends
+
+$$
+  \int_{\Sigma, U} : \Omega^n(\Sigma\times U) \to \Omega^{n-k}(U)
+  \,.
+$$
+
+## Transgression
+
+[[transgression]] of [[differential forms]] to [[mapping space]] is the composite
+
+$$
+  \int_\Sigma [\Sigma,-]
+  : 
+  \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
+$$
+
+$$
+  (X \stackrel{\omega}{\to} \Omega^n(-)) \in \Omega^n(X)
+$$
+
+to
+
+$$
+  \int_{\Sigma} [\Sigma,\omega]
+   :
+  [\Sigma, X] \stackrel{[\Sigma, \omega]}{\to}  \Omega^{n-k}(-)
+$$
+
+for instance [[action functional]] for [[electron]] in [[electromagnetic field]] $A$ is $S_{em} = \int_{S^1} [S^1, A]$
+
+$$
+  \int_{S^1} [S^1, A]
+  : 
+  [S^1, X]
+    \stackrel{[S^1, A]}{\to}
+  [S^1 , \Omega^1]
+    \stackrel{\int_{S^1}}{\to}
+  \Omega^0(-)
+  = 
+  \mathbb{R}
+$$
+
+variation gives [[Lorentz force]]
+
+
+* [[Stokes theorem]]
+
+
+
 
 ## Circle-principal connections
 
