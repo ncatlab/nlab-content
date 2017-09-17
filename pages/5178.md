@@ -96,7 +96,7 @@ Combining these previous examples we get
 +-- {: .num_example #CartesianFunctorIndexing}
 ###### Example
 
-For $F : \mathcal{S} \to \mathcal{C}$ a functor and $\mathcal{C}$ a [[cartesian category]], there is the $\mathcal{S}$-indexed category $F^* \mathbb{C}$ given by
+For $F : \mathcal{S} \to \mathcal{C}$ a functor and $\mathcal{C}$ a [[finitely complete category]], there is the $\mathcal{S}$-indexed category $F^* \mathbb{C}$ given by
 
 * $(F^* \mathbb{C})^I = \mathcal{C}/F(I)$.
 
@@ -122,7 +122,7 @@ $$
 $$ 
 
 be a pair of [[adjoint functor]]s between 
-[[cartesian categories|categories with finite limits]]. Then $R$ extends to an $\mathcal{S}$-indexed functor
+[[finitely complete categories]]. Then $R$ extends to an $\mathcal{S}$-indexed functor
 
 $$
   \mathbb{R} : \mathbb{C} \to \mathbb{S}
