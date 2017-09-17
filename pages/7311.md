@@ -1,9 +1,15 @@
+[[!redirects Pi-closed morphism]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Cohesive $\infty$-Toposes
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
+=--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
 =--
 =--
 =--
@@ -84,6 +90,7 @@ If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham sp
 
 ## Related entries
 
+* $\Pi$ modality $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 * [differential cohesion - cotangent bundles](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CotangentBundles)
 
