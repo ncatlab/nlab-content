@@ -49,9 +49,11 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 
 * A [[vector field]] is a ranl $(1,0)$-tensor field.
 
-* A [[Riemannian metric]] is a symmetric rank $(2,0)$-tensor.
+* A [[Riemannian metric]] is a symmetric rank $(0,2)$-tensor.
 
 * A [[differential form]] of  degree $n$ is a skew-symmetric rank $(0,n)$-tensor.
+
+* A [[Poisson tensor]] is a skew-symmetric tensor of rank $(2,0)$.
 
 
 ## Related concepts
