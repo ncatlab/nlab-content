@@ -448,7 +448,7 @@ The corresponding statement for [[links]] and link diagram is also true.
 
 Because of this, we can hope to use the Reidemeister moves to verify invariance of a potential [[link invariant]]. For instance, as none of the moves alters the number of components of a link diagram, the number of components is an isotopy invariant (which is not at all surprising!) We can conclude that the Hopf link and the Borromean rings are not isotopic. 
 
-A deeper observation is the [[linking number]] is a link invariant, for which see that entry.
+A deeper observation is that the [[linking number]] is a link invariant, for which see that entry.
 
 (Other instances of this sort of argument will get put here later on.)
 
