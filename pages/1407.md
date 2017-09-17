@@ -84,9 +84,10 @@ An article summarizing information about [[cohomology|cohomological]] models for
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_
 
-An book trying to summarize the state of the art of capturing mathematical structures fundamental to the definition of perturbative string theory is
+A book trying to summarize the state of the art of capturing mathematical structures fundamental to the definition of perturbative string theory is
 
 * [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
+See also [[books about string theory]].
 
 [[!redirects superstring theory]]
