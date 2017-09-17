@@ -555,9 +555,9 @@ Keeping that in mind, we do list some special cases and special classes of examp
   $$
     (Lan_p \dashv p^* \dashv Ran_p)
     :=
-    (p_1 \dashv p^* \dashv p*) : 
+    (p_! \dashv p^* \dashv p^!) : 
     [K,C]
-     \stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^*}{\leftarrow}}{\underset{p_*}{\to}}}
+     \stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^*}{\leftarrow}}{\underset{p^!}{\to}}}
     [K',C]
     \,.
   $$
