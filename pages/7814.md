@@ -1,0 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The term "support" means different things in different parts of mathematics:
+
+### In analysis and cohomology
+
+Given $f : X \to A$ some quantity (a [[function]] or more generally some [[cocycle]]) and for $A$ a [[pointed object]] with the point playing the role of a [[zero]] [[generalized element|element]], the _support_ of $f$ is the [[subobject]] of $X$ on which $f$ is non-zero.
+
+### In topos theory and type theory
+
+support = [[n-truncated object in an (infinity,1)-category|(-1)-truncation]]
+
+## Related concepts
+
+* [[compact support]]
+
+* [[compactly supported cohomology]]
+
