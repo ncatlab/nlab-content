@@ -21,6 +21,8 @@
 
 The universal [[elliptic cohomology]] [[cohomology theory|cohomology]] called [[tmf]] may be realized (after [[local spectrum|localization]] at some primes) as the [[homotopy fixed points]] of an [[∞-action]] of the [[modular group]] modulo a [[congruence subgroup]] in direct analogy to how [[KO-theory]] arises as the $\mathbb{Z}_2$-homotopy fixed points of [[KU-theory]] ([Mahowald-Rezk 09](#MahowaldRezk09), [Lawson-Naumann 12](#LawsonNaumann12), [Hill-Lawson 13](#HillLawson13)).
 
+### General
+
 The way this works is roughly indicated in the following table:
 
 [[!include moduli stack of curves -- table]]
@@ -30,7 +32,7 @@ For [[K-theory]] this relation induces the $\mathbb{Z}_2$-[[equivariant cohomolo
 This hasn't been studied much yet (or not at all), but there is some motivation for this from [[string theory]] (see [below](#MotivationFromStringTheory)) and in this context a relevance of modular equivariant elliptic cohomology theory has been conjectured in ([Kriz-Sati 05](#KrizSati05)).
 
 
-## Motivation from string theory
+### Motivation from string theory
  {#MotivationFromStringTheory}
 
 A relevant role of some modular equivariant elliptic cohomology theory in [[string theory]] has been conjectured in ([Kriz-Sati 05](#KrizSati05)):
@@ -41,6 +43,106 @@ Next, there are various hints ([Kriz-Sati 04a](#KrizSati04a), [Kriz-Sati 04b](#K
 [[elliptic cohomology]] ([Sati 10](#Sati10))).
 
 Finally, the [[M-theory]]-lift of [[type II string theory]] is (or is naturally identified as) _[[F-theory]]_, which describes the [[axio-dilaton]] of the type II string [[vacua]] including the [[modular group|modular]] [[S-duality]]/[[U-duality]] acting on this as an [[elliptic fibration]] over [[spacetime]] (whose [[monodromy]] "homology invariant" is hence an $SL_2(\mathbb{Z})$-[[local system]]). It is hence natural to suspect that the combined [[worldsheet]]/[[target space]] $\mathbb{Z}_2$-equivariance of [[orientifold]] [[type II superstring]] backgrounds which is captured by [[KR-theory]] lifts in [[F-theory]] to some combined worldsheet/target space [[modular group]]-action. This is excatly what would be captured by modular invariant $tmf$ as indicated above, and and it is what is conjectured in ([Kriz-Sati 05](#KrizSati05)).
+
+
+## Definition
+ {#Definition}
+
+Write $\hat {\mathbb{Z}}$ for the [[profinite completion of the integers]].
+
+Write 
+
+$$
+  G \coloneqq SL_2(\hat {\mathbb{Z}})
+$$
+
+for the [[special linear group]] in [[dimension]] 2 with [[coefficients]] in $\hat{\mathbb{Z}}$.
+
+Write
+
+$$
+  p \;\colon\; SL_2(\mathbb{Z}) \longrightarrow G
+$$
+
+for the canonical projection from (the $\mathbb{Z}_2$-[[central extension]] $SL_2(\mathbb{Z}) \to PSL_2(\mathbb{Z})$ of) the [[modular group]].
+
+For $n \in \mathbb{N}$ any [[natural number]] write
+
+$$
+  p_n \;\colon\; G \longrightarrow SL_2(\mathbb{Z}/n\mathbb{Z})
+$$
+
+for the corresponding [[projection]] to [[coefficients]] in the [[cyclic group]] of [[order of a group|order]] $n$.
+
+Notice that for $\Gamma \hookrightarrow SL_2(\mathbb{Z}/n\mathbb{Z})$ then its [[preimage]] under $p_n$ is a "profinite [[congruence subgroup]]".
+
+The following is a variant of the [[orbit category]] of $G$ which remembers the stage $n$ and consists only of orbits of the form of such [[congruence subgroups]].
+
++-- {: .num_defn #LevelledOrbitCategory}
+###### Definition
+
+Write $\widetilde{Orb}_{SL_2(\hat{\mathbb{Z}})}$
+for the [[category]] whose
+
+* [[objects]] are [[pairs]] $(n,\Gamma)$ with $n \in \mathbb{N}$ a [[natural number]] and $\Gamma \hookrightarrow SL_2(\mathbb{Z}/n\mathbb{Z})$ a [[subgroup]];
+
+* [[morphisms]] are  given by
+
+  $$
+    Hom((n_1,\Gamma_1), (n_2,\Gamma_2))
+    \coloneqq
+    \left\{
+      \array{
+        Hom_G(G/(p_{n_1}^{-1}(\Gamma_1)), G/(p_{n_2}^{-1}(\Gamma_2)))
+        & if \; n'|n
+        \\
+        \emptyset & otherwise
+      }
+    \right.
+    \,.
+  $$
+
+=--
+
+This is ([Hill-Lawson 13, def. 3.15](#HillLawson13)).
+
++-- {: .num_theorem #TheEquivariantConstruction}
+###### Theorem 
+
+It is possible to apply a [[Goerss-Hopkins-Miller theorem]] to the [[Deligne-Mumford compactification|compactified]] [[moduli stacks]] of [[elliptic curves with level-n structure]] $\mathcal{M}_{\overline{ell}}[n]$ after [[localization of a spectrum|localization]] at $n$, such that taking [[global sections]] produces a [[functor]]
+
+$$
+  Tmf
+  \;\colon\;
+  \widetilde{Orb}_{SL_2(\hat{\mathbb{Z}})}
+  \longrightarrow
+  CRing_\infty
+$$
+
+from the "levelled [[orbit category]]" of def. \ref{LevelledOrbitCategory}
+to [[E-∞ rings]] which is such that
+
+1. $Tmf(1)\simeq $ [[Tmf]];
+
+1. for every [[normal subgroup]]  $K \hookrightarrow \Gamma$ there is an [[equivalence]]
+
+   $$
+     Tmf(K)  \simeq Tmf(\Gamma)^{(\Gamma/K)} 
+   $$
+
+   between the value on $K$ and the $\Gamma/K$-[[homotopy fixed points]] of the value on $\Gamma$.
+
+=--
+
+This is part of ([Hill-Lawson 13, theorem 9.1](#HillLawson13)).
+
++-- {: .num_remark}
+###### Remark
+
+For each $n\in \mathbb{N}$ theorem \ref{TheEquivariantConstruction} gives a genuine $SL_2(\mathbb{Z}/n\mathbb{Z})$-[[equivariant cohomology]] refinement of [[Tmf]]$[\frac{1}{n}]$.
+In total $Tmf(-)$ defines a "levelled" kind of genuine $SL_2(\hat {\mathbb{Z}})$-[[equivariant cohomology]] version of [[Tmf]].
+
+=--
 
 ## Related concepts
 
