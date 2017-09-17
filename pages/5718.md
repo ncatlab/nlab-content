@@ -135,6 +135,8 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 * [[metric jet]]
 
+* [[h-principle]]
+
 [[!include infinitesimal and local - table]]
 
 ## References
