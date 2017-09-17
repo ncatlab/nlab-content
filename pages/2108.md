@@ -4,6 +4,10 @@
 ###Context###
 #### Physics
 +--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
 =--
 #### Symplectic geometry
