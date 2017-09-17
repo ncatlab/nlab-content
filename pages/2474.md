@@ -267,10 +267,14 @@ A characterizations of injections of commutative sub-$C^*$-algebras -- hence of 
 
 * [[Chris Heunen]], _Characterizations of categories of commutative $C^*$-algebras_ ([arXiv:1106.5942](http://arxiv.org/abs/1106.5942))
 
-Properties of the [[category]] of $C^\ast$-algebras are discussed in 
+General properties of the [[category]] of $C^\ast$-algebras are discussed in 
 
 * [[Ralf Meyer]], _Categorical aspects of bivariant K-theory_, ([arXiv:math/0702145](http://arxiv.org/abs/math/0702145))
  {#Meyer}
+
+Specifically [[pullback]] and [[pushout]] of $C^\ast$-algebras is discussed in 
+
+* Gerd Petersen, _Pullback and pushout constructions in $C^\ast$-algebra theory_ ([pdf](http://www.math.ru.nl/~mueger/ped2.pdf))
 
 
 The [[homotopy theory]] of $C^\ast$-algebras (a [[category of fibrant objects]]-structure on $C^\ast Alg$) is discussed in
