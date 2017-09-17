@@ -25,6 +25,31 @@ The **elementary theory of the 2-category of categories**, or _ETCC_ for short, 
 
 The set of axioms proposed could be thought of as a first step toward refining or [[categorification|categorifying]] the _elementary theory of the category of sets_ ([[ETCS]]). Where the latter axiomatizes a [[base topos]], a fully satisfactory future form of ETCC would axiomatize a base [[2-topos]].
 
+## Idea
+In a broad sense, **elementary theory of the category of categories**, or _ETCC_for short, is an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]].
+
+Historically, the first attempt to formulate such a system of axioms has been undertaken by [[William Lawvere|F. W. Lawvere]] in his dissertation in 1963 and a subsequent publication (Lawvere 1966) and is this system that is sometimes referred to as _the_ ETCC. In the following we will discuss it and the subsequent attempts to repair its technical flaws under this heading in the next [section](#ETCC).
+
+Taking into account that the intuitively given category of categories is a 2-category, from an n-categorical perspective one would prefer to axiomatize CAT directly as a 2-category and the resulting _elementary theory of the 2-category of categories_, or **ET2CC**, is the subject of section(#ET2CC).
+
+### ETCC: Lawvere (1966) and beyond. {#ETCC}
+
+In his 1963 dissertation launched a life-time project to replace membership based mathematics by more invariant concepts in order to arrive at a renewal of analysis and geometry adapted for the needs of modern (continuum) physics. 
+
+The text takes issue with set-theoretic notions at various levels, e.g. redefining [[adjoint functors]] via [[comma categories]] in order to avoid reference to Hom-sets, but the most radical step is the attempt at a first-order axiomatization of the category of categories that he proposes to bypass set-theory completely as a foundational level.
+
+The system of axiom that he proposes in a more elaborate form in 1966 is layered in three parts:
+
+* The _elementary theory of abstract categories_ (ETAC) has besides equality three primitive predicates for domain, codomain, and composition and as axioms the usual axioms for identity, associativity etc.
+
+* The _basic theory_ adds axioms for **1**, **2** and various exactness properties among which is existence of exponentials. This permits then to define e.g. sets as discrete objects $A$ with $A^1\cong A^2$. The last axiom of the basic theory tries to express the _density-adequacy_ of the simple categories like **1** etc. within the metacategory.
+
+* The _stronger theory_ then adds two further axioms to the basic theory concerning existence of completions and an 'inaccessible' category (p.18).
+
+
+
+### ET2CC{#ET2CC}
+
 ## Related Pages
 
 * [[ETCS]]
