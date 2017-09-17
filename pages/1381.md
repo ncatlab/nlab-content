@@ -92,6 +92,13 @@ There is a functor $\varphi : \Delta^{op} \to FinSet_*$ such that the [[monoidal
 
 
 ## Examples
+ {#Examples}
+
+### Classes of examples
+
+* [[cartesian monoidal (∞,1)-category]]
+
+### Specific examples
 
 * [[stable (infinity,1)-category of spectra]]
 
@@ -133,7 +140,3 @@ and definition 2.0.0.7 in
 [[!redirects symmetric monoidal (∞,1)-category]]
 [[!redirects symmetric monoidal (∞,1)-categories]]
 
-[[!redirects cartesian monoidal (∞,1)-category]]
-[[!redirects cartesian monoidal (∞,1)-categories]]
-[[!redirects cartesian monoidal (infinity,1)-category]]
-[[!redirects cartesian monoidal (infinity,1)-categories]]
