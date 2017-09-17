@@ -35,4 +35,5 @@ For $1\leq p \leq \infty$, and $k\geq 1$ the **Sobolev space** $W^k_p = W^k_p(\O
 
 * G. Wilkin, _Sobolev spaces on Euclidean space_, Liber Mathematicae 2011,  [link](http://math.colorado.edu/libermath/repositorium/article.php?doc=4)
 
+category: analysis
 [[!redirects Sobolev spaces]]
