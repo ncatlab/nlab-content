@@ -88,7 +88,7 @@ This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03
 +-- {: .num_cor}
 ###### Corollary
 
-For $\mathcal{D} = \mathbf{H}$ am [[(∞,1)-topos]], then for all $n \in \mathbb{N}$ we have that
+For $\mathcal{D} = \mathbf{H}$ an [[(∞,1)-topos]], then for all $n \in \mathbb{N}$ we have that
 
 $$
   Exc^n(\mathcal{C}, \mathbf{H}) \in (\infty,1)Topos
@@ -114,6 +114,7 @@ Hence one might refer to the tower of toposes
 $$
   \cdots \to J^n \mathbf{H} \to \cdots \to J^2 \mathbf{H} \to T \mathbf{H} \to \mathbf{H}
 $$
+
 
 with 
 
@@ -159,6 +160,7 @@ A [[model category]] presentation of $\infty$-categories of $n$-excisive functor
 
 [[!redirects n-excisive (infinity,1)-functor]]
 [[!redirects n-excisive (infinity,1)-functors]]
+
 
 [[!redirects n-excisive functor]]
 [[!redirects n-excisive functors]]
