@@ -317,7 +317,7 @@ from the [[stable (∞,1)-category]] of $A$-modules to the [[stabilization]] of 
 
 ### Modules over higher and generalized algebras
 
-There is a notion of [[algebra over an operad]]. The corresponding notion of modules is descrived at [[module over an algebra over an operad]].
+There is a notion of [[algebra over an operad]]. The corresponding notion of modules is described at [[module over an algebra over an operad]].
 
 ### Vector bundles and sheaves of modules
 
