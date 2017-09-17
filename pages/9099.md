@@ -279,6 +279,7 @@ The precise formulation of this functional in terms of [[differential cohomology
  {#HopkinsSinger}
 
 ### Nonabelian theories
+ {#ReferencesNonabelianTheories}
 
 In 
 
