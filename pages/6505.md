@@ -178,10 +178,13 @@ Further developments are in
 * W. Crawley-Boevey, _Geometry of the moment map for representations of
 quivers_, Compositio Math. __126__ (2001), no. 3, 257-293.
 
-
 See also
 
 * wikipedia, _[moment map](http://en.wikipedia.org/wiki/Moment_map)_
+
+Moment maps in [[higher geometry]], [[schreiber:Higher geometric prequantum theory]], are discussed in 
+
+* [[Yael Fregier]], [[Chris Rogers]], [[Marco Zambon]], _Homotopy moment maps_ ([arXiv:1304.2051](http://arxiv.org/abs/1304.2051))
 
 ### Relation to symplectic reduction
 
