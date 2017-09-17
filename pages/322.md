@@ -9,13 +9,7 @@
 =--
 =--
 
-* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
-* [[monad]] / [[(∞,1)-monad]]
-
-* **operad** / [[(∞,1)-operad]]
-
-***
 
 
 
@@ -32,10 +26,12 @@ Actually the notion of operad (and allied notions such as [[PROP]], [[club]], [[
 
 ## The rough definition 
 
-The original definition is due to J.P. May and was given in his book _The Geometry of Iterated Loop Spaces_. Since the detailed definition is available from many sources, we will just sketch May's definition; in the section following this, we give a more detailed higher-level description which generalizes in a number of directions. 
+The original definition is due to [[Peter May]] and was given in his book ([The Geometry of Iterated Loop Spaces](#May)). Since the detailed definition is available from many sources, we will just sketch May's definition; in the section following this, we give a more detailed higher-level description which generalizes in a number of directions. 
+
+### Plain operads {#PedestrianDefOperad}
 
 Let $V$ be a [[symmetric monoidal category]]. A 
-(_permutative_ or _symmetric_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the natural numbers $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
+(_permutative_ or _symmetric_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the [[natural number]]s $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
 
 * Right actions of [[symmetric group]]s $\rho_n: S_n \to \hom(F(n), F(n))$; 
 * A _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
@@ -63,9 +59,48 @@ where $\sigma$ acts on the big tensor product on the left by permuting tensor fa
 
 The associativity condition will be left for others to fill in. 
 
+### Coloured operads {#PedestrianDefColouredOperad}
+
+There is an evident generalization of the above where we allow the operad to have several [[object]]s -- called _colours_ is operad theory. This models algebraic structures where elements of different _types_ may be fed into $n$-ary operations.
+
+Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** is 
+
+* for each $n \in \mathbb{N}$ and each $(n+1)$-tuple $(c_1, \cdots c_n, c)$ an object $P(c_1, \cdots, c_n;c) \in V$;
+
+* for each $c \in C$ a morphism $1_c : I \to P(c;c)$ in $V$ -- the _identity_ on $c$; 
+
+* for each $(n+1)$-tuple $(c_1, \cdots, c_n, c)$ and $n$ other tuples
+
+  $(d_{1,1}, \cdots, d_{1,k_1}), \cdots, (d_{n,1}, \cdots, d_{n,k_n})$
+
+  a morphism
+
+  $$
+    P(c_1, \cdots, c_n; c) \otimes P(d_{1,1}, \cdots, d_{1,k_1}; c_1)
+    \otimes \cdots \otimes P(d_{n,1}, \cdots, d_{n,k_n}; c_n)
+    \to 
+    P(d_{1,1}, \cdots, d_{n,k_n}, c)
+  $$
+
+  the _compoosition_ operation;
+
+* for all $n$, all tuples, and each [[permutation]] $\sigma$ in the [[symmetric group]] $\Sigma_n$ a morphism
+
+  $$
+    \sigma^* : P(c_1, \cdots, c_n;c) \to P(c_{\sigma(1)}, \cdots, \sigma(n);c)
+  $$
+
+* subject to the conditions that
+
+  * the $\sigma$s form a [[representation]] of $\Sigma_n$;
+
+  * the composition operation is satisfies [[associativity]] and [[unitality]] in the obvious way;
+
+  * and is $\Sigma_n$ equivariant in the evident way.
+
 ### Algebras 
 
-An _[[algebra over an operad|algebra]]_ over an operad $F$ in $V$ is just a semantics for interpreting the $F(n)$ as objects of actual $n$-ary operations on an object $v$. That is, an $F$-algebra structure on an object $v$ in $V$ consists of a collection of maps 
+An _[[algebra over an operad]]_  $F$ in $V$ is just a semantics for interpreting the $F(n)$ as objects of actual $n$-ary operations on an object $v$. That is, an $F$-algebra structure on an object $v$ in $V$ consists of a collection of maps 
 
 $$F(n) \otimes v^{\otimes n} \to v$$ 
 
@@ -79,7 +114,7 @@ Perhaps the quickest way to define it is to suppose that $V$ is symmetric monoid
 
 $$R \to \hom(A, A)$$ 
 
-where the hom here is an internal hom of abelian groups, called an _endomorphism ring_, so there is such a thing as an _endomorphism operad_ attached to any object $v$ in a symmetric monoidal closed category, and an $F$-algebra over an operad $F$ is the same thing as an operad morphism 
+where the hom here is an internal hom of abelian groups, called an _[[endomorphism ring]]_, so there is such a thing as an _[[endomorphism operad]]_ attached to any object $v$ in a symmetric monoidal closed category, and an $F$-algebra over an operad $F$ is the same thing as an operad morphism 
 
 $$F \to \hom(v^{\otimes \bullet}, v)$$ 
 
@@ -384,11 +419,21 @@ See
 * [[model structure on operads]].
 
 
+## Related concepts
+
+* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* **operad** / [[(∞,1)-operad]]
+
+
 ## References
 
 The definition is originally due to
 
 * [[Peter May]], _The geometry of iterated loop spaces_
+{#May}
 
 An earlier version was the notion of [[analyser]] (known usually by French version *analyseur* introduced in
 
@@ -403,3 +448,9 @@ Monographs:
 * V.A. Smirnov, _Simplicial and operad methods in algebraic topology_
 
 [[!redirects operads]]
+
+[[!redirects coloured operad]]
+[[!redirects coloured operads]]
+
+[[!redirects colored operad]]
+[[!redirects colored operads]]
