@@ -20,7 +20,7 @@ For **inner derivation Lie 2-algebra** $inn(\mathfrak{g})$ of a [[Lie algebra]] 
 
 * the [[dg-Lie algebra]] of contractions $\iota_x$ and inner derivations $\mathcal{L}_x = [d_{CE},x]$ acting on the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$;
 
-* the [[differential crossed module]] $(\mathfrak{g} \stackrek{Id}{\to} \mathfrak{g})$ with the action being the [[adjoint action]] of $\mathfrak{g}$ on itself;
+* the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$ with the action being the [[adjoint action]] of $\mathfrak{g}$ on itself;
 
 * the dual of the [[Weil algebra]] $W(\mathfrak{g})$.
 
