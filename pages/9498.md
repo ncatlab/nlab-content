@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Richard_Brauer)
+
+category: people
+
+## related entries
+
+* [[Brauer group]]
+
+[[!redirects Brauer]]
