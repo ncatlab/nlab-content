@@ -517,7 +517,7 @@ The induced structure of a [[category of fibrant objects]] on $L_\infty Alg$ und
 
 1. [[weak equivalences]] are precisely the maps that are [[quasi-isomorphisms]] on the underlying chain complexes;
 
-1. [[fibrations]] are precisely the maps that are [[surjections]] on the undelying chain complexes.
+1. [[fibrations]] include in particular the maps that are surjections on the underlying chain complexes.
 
 
 =--
@@ -525,7 +525,7 @@ The induced structure of a [[category of fibrant objects]] on $L_\infty Alg$ und
 +-- {: .proof}
 ###### Proof
 
-The first statement is proven in the proof of ([Pridham, prop. 4.4.2](#Pridham)), the second follows with ([Pridham, def. 4.34](#Pridham)) and the existence of the model structure on $dgFormalSpaces$.
+The first statement is proven in the proof of ([Pridham, prop. 4.42](#Pridham)), the second follows by ([Pridham, def. 4.34](#Pridham)) with the existence of the model structure on $dgFormalSpaces$.
 
 =--
 
@@ -567,7 +567,7 @@ $$
   dgFormalSpace \to dgCoCAlg_k
 $$
 
-given by sending an object in $Pro(dgArticCAlg_k)^{op} \coloneqq dgForalSpace$, hence an [[dg-algebra]] $A$, to its dual dg-coalgebra $A^*$,
+given by sending an object in $Pro(dgArticCAlg_k)^{op} \coloneqq dgFormalSpace$, hence an [[dg-algebra]] $A$, to its dual dg-coalgebra $A^*$,
 is the [[left adjoint]] part of a [[Quillen equivalence]] between the model structure on $dgFormalSpace$, prop. \ref{ModelStructureOnDgFormalSpace}, and the [[model structure on dg-coalgebras]], prop. \ref{ModelStructureOnCocommutativeDGCoalgebras}.
 
 =--
