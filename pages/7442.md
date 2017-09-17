@@ -31,4 +31,7 @@ An [[(∞,2)-category]] of [[(∞,2)-sheaves]]. The joint higher generalization 
 
 * [[(∞,n)-topos]]
 
+[[!redirects (infinity,2)-toposes]]
+
 [[!redirects (∞,2)-topos]]
+[[!redirects (∞,2)-toposes]]
