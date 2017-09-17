@@ -33,7 +33,7 @@ There are several different but equivalent formalizations of this idea:
 
 The usual textbook convention is to say just connection for the distribution of horizontal subspaces, and the objects of the other three approaches one calls more specifically covariant derivative, connection $1$-form and [[parallel transport]].
 
-In the remainded of this Idea-section we discuss a bit more how to understand connections in terms of parallel transport.
+In the remainder of this Idea-section we discuss a bit more how to understand connections in terms of parallel transport.
 
 Given a smooth [[bundle]] $P \to X$, for instance a $G$-[[principal bundle]] or a [[vector bundle]], a _connection_ on $P$ is a prescription to associate with each path
 
