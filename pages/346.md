@@ -1,5 +1,5 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -13,6 +13,7 @@ This object is often denoted $hom(a,b)$ or $[a,b]$ or similar and often addresse
 A familiar kind of closed categories are [[closed monoidal category|closed monoidal categories]]. However, there is also a definition of **closed category** that does not require the category to already be monoidal.  A monoidal structure $\otimes$, if it exists, can then be universally characterized as a _left_ adjoint to the internal-hom, dual to the above characterization of internal-homs as right adjoints to $\otimes$.  See Eilenberg-Kelly, referenced below.
 
 While this is less fashionable, in some cases it is more obvious what the correct internal-homs are than what the correct tensor product is, so the latter was originally defined as an adjoint to the former.  This is the case for the [[Gray tensor product]] and was probably the case for [[abelian group]]s as well.
+
 
 ## Definition
 
@@ -65,8 +66,8 @@ sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given her
 
 * Any [[multicategory]] which has a unit, i.e. an object $I$ such that $C(;Y) \cong C(I;Y)$ naturally, and is closed in the sense that for any $Y,Z$ there is an object $[Y,Z]$ with natural isomorphisms $C(X_1,\dots,X_n,Y;Z) \cong C(X_1,\dots,X_n; [Y,Z])$, gives rise to a closed category.  Conversely, from any closed category we can construct a multicategory of this sort, by defining the multimaps as $C(X_1,\dots,X_n; Z) = C(X_1, [X_2,\dots,[X_n,Z]])$.  Thus closed categories are essentially equivalent to closed unital multicategories.
 
-## Properties
 
+## Properties
 
 ### Embedding into closed monoidal categories {#EmbedIntoCloseMon}
 
@@ -82,7 +83,7 @@ Since the notion of closed category involves a contravariant functor and extrana
 
 Closed categories were first defined here:
 
-* [[Samuel Eilenberg]] and [[Max Kelly]], [_Closed categories_](http://ifile.it/j2eybms/closed.categories.pdf).  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).  (Please don\'t put a link to unauthorised copies here, since this may put the nLab, whose servers are located within the United States, at legal liability.  See [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2048).)
 
 They were shown to be equivalent to closed unital [[multicategories]] here:
 
@@ -95,4 +96,5 @@ LaPlaza's theorem on embedding closed categories in closed monoidal categories i
 * Miguel LaPlaza, [_Embedding of Closed Categories Into Monoidal Closed Categories_](http://www.jstor.org/pss/1997823), Trans. AMS, Vol. 233 (1977). 
 
 
+[[!redirects closed category]]
 [[!redirects closed categories]]
