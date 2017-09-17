@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -6,8 +7,17 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Gravity
++--{: .hide}
+[[!include gravity - contents]]
 =--
 =--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
