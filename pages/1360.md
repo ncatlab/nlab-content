@@ -385,11 +385,7 @@ $\,$
 
 Now we discuss that $(\lim_\to \dashv const): C \to [\Delta^{op}, C]_{proj,S}$ 
 is a [[Quillen equivalence]].
-First observe that $const : C \to [\Delta^{op}, C]_{proj}$ is clearly a right Quillen functor, hence we have a Quillen adjunction on the unlocalized structure. Since both structures are left proper and combinatorial, 
-for this to descent to a Quillen equivalence on the localized
-structure it is sufficient, by an argument such as [here](simplicial+Quillen+adjunction#Recognition) (???), 
-that $const A$ is $S$-local for all $A \in C$. This is clearly the case,
-by the above.
+First observe that on the global model structure $const : C \to [\Delta^{op}, C]_{proj}$ is clearly a right Quillen functor, hence we have a Quillen adjunction on the unlocalized structure. Moreover, by the above, $const$ takes fibrant objects to fibrant objects. Hence...
 
 So we do have a Quillen adjunction. To see that this is a Quillen equivalence,
 it is sufficient to show that for $A \in [\Delta^{op}, C]_{proj}$ cofibrant
