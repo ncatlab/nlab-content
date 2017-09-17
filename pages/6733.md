@@ -221,11 +221,7 @@ This condition reduces to the above one for the $B$-field under [[double dimensi
 
 * [[11-dimensional supergravity]], [[M-theory]]
 
-* [[M2-brane]]
-
-* [[M9-brane]]
-
-* [[topological M5-brane]]
+[[!include gauge theory from AdS-CFT -- table]]
 
 [[!include table of branes]]
 
