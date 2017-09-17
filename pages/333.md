@@ -79,6 +79,11 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[Alain Connes]], _A walk in the non-commutative garden_ ([arXiv:math/0601054](http://arxiv.org/abs/math/0601054))
 
+With a view towards [[motives in physics]]:
+
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+
 ### Very early sources and schools
 
 There are many sources of noncommutative spaces, e.g. [[quantization]] in [[physics]] (Snyder studied an interesting noncommutative space in the late 1940s). It has been often noticed, since Gel'fand--Neimark's work (see [[Gelfand spectrum]]), that many geometric notions for commutative [[Banach algebra]]s are interesting in the noncommutative case; among early enthusiasts one could mention [[Irving Segal]]; Semadeni's monograph on Banach spaces of continuous maps also predates the sudden expansion of the field in the late 1970s when [[Alain Connes]] ([web site](http://www.alainconnes.org/)) brought about a whole revolution in mathematics using the framework of noncommutative geometry based on [[operator algebra]]s, and boosted by the discovery of cyclic (co)homology by Connes and Boris Tsygan and its connection to [[K-theory]]. 
