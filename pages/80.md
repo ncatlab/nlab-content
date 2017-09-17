@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
 # Philosophy
 * table of contents
 {: toc}
@@ -60,6 +70,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 
 ### Books
+
+* [[Hegel]], _Wissenschaft der Logik_ ( _[[Science of Logic]]_ )
 
 * Michael D. Potter, _Set theory and its philosophy: a critical introduction_, Oxford Univ. Press 2004
 
