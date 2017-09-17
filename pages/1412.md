@@ -94,7 +94,7 @@ This is a general strategy that one can adopt: suppose I dream up a space but do
  
 * This transforms every element in $X(V)$ into an element in $X(U)$. To be fair, I should tell you at least what this transformation is!
  
-* So I'll do that: for every map of test spaces $f : U \to V$ that you hand me, I return you a map of sets that I denote $X(\phi) : X(V) \to X(U)$, which indicates how $V$-probes of $X$ turn into $U$-probes when you precompose them with $\phi : U \to V$.
+* So I'll do that: for every map of test spaces $f : U \to V$ that you hand me, I return you a map of sets that I denote $X(f) : X(V) \to X(U)$, which indicates how $V$-probes of $X$ turn into $U$-probes when you precompose them with $f : U \to V$.
 
 Do you need still more information to guess my space $X$? It turns out that: no, this information is enough!
 
