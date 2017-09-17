@@ -1,0 +1,11 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Jean-Marie_Souriau)
+
+## Related entries
+
+* [[geometric quantization]]
+
+  * [[quantomorphism group]]
+
+* [[diffeological space]]
+
