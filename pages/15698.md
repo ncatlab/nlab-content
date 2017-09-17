@@ -1,0 +1,11 @@
+
+
+* [webpage](http://www.science.unitn.it/~moretti/home.html)
+
+## related $n$Lab entries
+
+* [[quantum field theory]]
+
+* [[zeta function regularization]]
+
+category: people
