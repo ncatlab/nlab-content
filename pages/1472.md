@@ -445,6 +445,8 @@ This means that Connes' [[spectral triple]] whose particle spectrum reproduces t
 
 * [[motives in physics]]
 
+* [[model theory and physics]]
+
 ## References
 
 We list various references related to higher category  theory and fundamental physics.
