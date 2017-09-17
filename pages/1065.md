@@ -53,8 +53,18 @@ There are variants of the tools of homological algebra that can also be applied 
 [[!include homological algebra - contents]]
 
 ## References ##
+ {#References}
+
+The following lists references on homological algebra:
+
+* [General](#ReferencesGeneral)
+
+* [Lecture notes and course notes](#LectureNotes)
+
+* [History](#ReferencesHistory)
 
 ### General
+ {#ReferencesGeneral}
 
 Classical historical accounts include
 
@@ -100,7 +110,9 @@ A discussion in the context of [[constructive mathematics]] is in
 
 * Julio Rubio, Francis Sergeraert, _Constructive homological algebra and applications_ ([arXiv:1208.3816](http://arxiv.org/abs/1208.3816))
 
+
 ### Lecture notes and course notes
+ {#LectureNotes}
 
 * [[Alexander Beilinson]], _Introduction to homological algebra_ (handwritten notes, summer 2007, pdf) [lec1](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-1.pdf), [lec2](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-2.pdf), [lec3](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-3.pdf), [lec4](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-4.pdf)
 
@@ -116,6 +128,7 @@ A discussion in the context of [[constructive mathematics]] is in
 
 
 ### History
+ {#ReferencesHistory}
 
 * [[Charles Weibel]], _A history of homological algebra_, [dvi](http://www.math.rutgers.edu/~weibel/HA-history.dvi)
 
