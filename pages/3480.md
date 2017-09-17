@@ -499,6 +499,7 @@ The Tannaka-type reconstruction in quantum field theory see [[Doplicher-Roberts 
 
 Tannaka duality in the context of [[(∞,1)-category theory]] is discussed in
 
-* [[James Wallbridge]], _Higher Tannaka duality_ , PhD thesis, Adelaide (2011)
+* [[James Wallbridge]], _Higher Tannaka duality_ , PhD thesis, Adelaide/Toulouse (2011) ([Adelaide University repository](http://digital.library.adelaide.edu.au/dspace/bitstream/2440/69436/1/02whole.pdf), [arXiv:1204.5787](http://arxiv.org/abs/1204.5787))
+
 
 [[!redirects Tannaka reconstruction]]
