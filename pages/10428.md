@@ -35,9 +35,20 @@ In his *Allgemeine Erkenntnislehre* (1918), Moritz Schlick relies heavily on the
 
 A central issue between these accounts is that the more you press on the constitutive function of coordinating principles, the more it seems that the entities referred to by physics owe their characteristics to our conceptual framing rather than to how things are in themselves.
 
-##Bohrification
+## In quantum mechanics
+ 
+
+### Bohrification
 
 The idea of _[[Bohr toposes]]_ might be regarded as an attempt to formalize coordination for [[observables]] in [[quantum mechanics]]. There the idea is roughly that to a [[quantum mechanical system]] one assigns a [[topos]] (the "[[Bohr topos]]") such that the (or some of the) [[propositions]] in the [[internal logic]] of this topos match propositions about [[observables]] of the [[physical system]].
+
+
+### Relation to interpretation of QM
+ {#RelationToInterpretationOfQM}
+
+Coordination is different from -- in fact somewhat orthogonal to -- [[interpretation of quantum mechanics]]. For instance a coordination in [[quantum mechanics]] involves relating [[self-adjoint operators]] to certain [[experiments]]. Given this coordination, the theory assigns [[expectation values]] for the outcomes of the experiment, but it does not necessarily offer an "interpretation why" these propbabilities are predicted.
+
+On the other hand, it might be that a good formulation of the coordination process makes the need/desire for interpretations diminish. This was argued by ([Tanona 10](#Tanona10)).
 
 
 
@@ -48,3 +59,6 @@ The idea of _[[Bohr toposes]]_ might be regarded as an attempt to formalize coor
 * Thomas Ryckman, _Conditio sine qua non? Zuordnung in the Early Epistemologies of Cassirer and Schlick_, Synthese Vol. 88, No. 1 (Jul., 1991), pp. 57-95
 
 * Moritz Schlick, _Allgemeine Erkenntnislehre_, 1918
+
+* [[Scott Tanona]], _Theory, coordination, and empirical meaning in modern physics_, in Michael Friedman, Mary Domski and Michael Dickson (eds.), _Discourse on a New Method: Reinvigorating the Marriage of History and Philosophy of Science_. Open Court (2010)
+  {#Tanona10}
