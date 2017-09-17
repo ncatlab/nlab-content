@@ -44,7 +44,7 @@ The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the follow
 
 * For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
 
-* For every cofibrant object $c\in C$, the composite $c \to R(L(c)) \to R(L(c)^{fib})$ is a weak equivalence in $C$, and for every fibrant object $d\in D$, the composite $L(R(d)^{cof}) \to L(R(d)) \to d$ is a weak equivalence in $D$, where $(-)^{fib}$ and $(-)^{cof}$ denote fibrant and cofibrant [[resolution]]s, respectively.
+* For every cofibrant object $c\in C$, the composite $c \to R(L(c)) \to R(L(c)^{fib})$ is a weak equivalence in $C$, and for every fibrant object $d\in D$, the composite $L(R(d)^{cof}) \to L(R(d)) \to d$ is a weak equivalence in $D$, where $(-)^{fib}$ and $(-)^{cof}$ denote fibrant and cofibrant [[resolutions]], respectively.
 
 ## Properties
 
