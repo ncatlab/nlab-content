@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[type theory]] the _unit type_ is the [[type]] with a unique [[term]].
+In [[type theory]] the _unit type_ is the [[type]] with a unique [[term]].  It is the special case of a [[product type]] with no factors. 
 
 In a [[model]] by [[categorical semantics]], this is a [[terminal object]]. In [[set theory]], it is a [[singleton]].
 
@@ -27,3 +27,5 @@ In a [[model]] by [[categorical semantics]], this is a [[terminal object]]. In [
 
 [[!redirects unit type]]
 [[!redirects unit types]]
+[[!redirects trivial type]]
+[[!redirects trivial types]]
