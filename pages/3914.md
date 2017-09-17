@@ -276,7 +276,7 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 
 * [[K-orientation]]
 
-* [[string orientation of tmf]]
+* [[sigma-orientation]], [[string orientation of tmf]]
 
 * For string orientation of vector bundle the construction is supposed to be given by forming free fermion [[local net]]-bundle. See [[Andre Henriques]]' website.
 
