@@ -1,5 +1,7 @@
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://qph.is.quoracdn.net/main-thumb-38770669-200-dytxvyjxkubghswliwmwavdsixlbzegq.jpeg" alt="Sanath Devalapurkar" /></div>
 I work on mathematical physics. I am interested in TQFTs. More specifically, I am interested in the application of Chern-Simons theory to quantum gravity. I am also interested in an extended TQFT formalism of quantum gravity, and hence am interested in [Chern-Simons as an extended TQFT](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended). I sometimes dab into plain general relativity (no quantum!) in the context of twistor theory, too (just for the fun of it).
+
+See [[Cobordisms as Presheaves]], the page containing my ideas and notes.
 <br><br><br><br>
 ##Websites##
 
