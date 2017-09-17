@@ -1,6 +1,8 @@
 
 * [website](http://people.maths.ox.ac.uk/joyce), [publications](http://people.maths.ox.ac.uk/joyce/publ.html)
 
+* Dominic Joyce, Yinan Song, _A theory of generalized [[Donaldson-Thomas invariants]]_, [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
+
 ## related $n$Lab entries
 
 * [[C-infinity-ring]], [[special Lagrangian submanifold]], [[Donaldson-Thomas invariant]]
