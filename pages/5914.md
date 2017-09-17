@@ -20,7 +20,7 @@ Regular logic is the [[internal logic]] of [[regular categories]].  Its logical 
 
 ## Related concepts
 
-* [[cartesian category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+* [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
 
 * [[regular category]], [[regular functor]], **regular logic**, [[regular theory]], [[regular coverage]], [[regular topos]]
 
