@@ -19,7 +19,7 @@ A [[site]] is **locally $\infty$-connected** if it has properties that ensure th
 
 ## Definition
 
-> For the moment the content to be moved here is at [[(∞,1)-cohesive site]].
+(...)
 
 ## Related concepts
 
