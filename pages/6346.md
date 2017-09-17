@@ -8,3 +8,6 @@ In [[quantum field theory]] a _correlator_ is an assignment of [[probability amp
 ## Related concepts
 
 * [[n-point function]]
+
+[[!redirects correlation function]]
+[[!redirects correlation functions]]
