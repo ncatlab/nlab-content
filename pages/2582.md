@@ -126,7 +126,7 @@ A good notion of geometric [[homotopy groups in an (∞,1)-topos]] exist in a [[
 
 The classical notion of Whitehead tower is reviewed for instance as  example 4.20 in
 
-* [[Alan Hatcher]], _Algebraic Topology_ ([pdf](http://www.math.cornell.edu/~hatcher/AT/AT.pdf))
+* [[Allen Hatcher]], _Algebraic Topology_ ([pdf](http://www.math.cornell.edu/~hatcher/AT/AT.pdf))
 
 A more detailed useful discussion happens to be in section 2.A, starting on p. 11 of 
 
