@@ -235,6 +235,9 @@ A formalization of Kaluza-Klein compactification in [[perturbation theory]] form
 * [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
  {#Costello11}
 
+An elementary exposition of the geometry behind the Kaluza-Klein mechanism (the idea that geodesics on the gauge bundle project to curved trajectories on the base manifold) can be found in this talk:
+
+* [[Bruce Bartlett]], [The geometry of force](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf). 
 
 [[!redirects Kaluza-Klein theory]]
 
@@ -266,4 +269,3 @@ A formalization of Kaluza-Klein compactification in [[perturbation theory]] form
 
 [[!redirects KK mechanism]]
 [[!redirects KK mechanisms]]
-
