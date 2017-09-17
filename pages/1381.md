@@ -80,6 +80,11 @@ There is a functor $\varphi : \Delta^{op} \to FinSet_*$ such that the [[monoidal
 * [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
 
 
+## Commutative $\infty$-monoids
+
+See [[commutative monoid in a symmetric monoidal (∞,1)-category]].
+
+
 ## Related concepts
 
 * [[monoidal category]], [[monoidal (∞,1)-category]]
