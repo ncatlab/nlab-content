@@ -16,7 +16,7 @@
 ## Definition
 
 Following the patterns of [[k-morphism]]s in a [[category]] or [[higher category]] it makes sense to say
-**0-morphism** for an _[[object]]_ of that category.
+**$0$-morphism** for an _[[object]]_ of that category.
 
 ## Related concepts
 
