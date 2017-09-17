@@ -25,7 +25,7 @@ _Twistor space_ in the original sense of ([Penrose 67](#Penrose67)) is a [[compl
 
 This _Penrose transform_ is exhibited by a [[correspondence]] of [[coset spaces]]/[[flag varieties]]/[[Grassmannians]] which is a special case of general such [[correspondences]] as they are studied in [[Schubert calculus]], [[geometric representation theory]], [[parabolic geometry]]. Therefore one can consider "generalized twistors" to be elements of certain [[flag varieties]] and "generalized Penrose transforms" to be those induced by the relevant [[correspondences]]. ([Baston-Eastwood 89](#BastonEastwood89), [Cap 01](#Cap01)). 
 
-In this generality given a [[semisimple Lie group]] $G$ and two [[parabolic subgroups]] $P_1$ and $P_2$ with [[intersection]] $P_1 \cap P_2$, then the _twistor correspondence_ is the [[correspondence]] (see at [Schubert calculus -- Correspondences](http://ncatlab.org/nlab/show/Schubert+calculus#Correspondences)) of the form
+In this generality given a [[semisimple Lie group]] $G$ and two [[parabolic subgroups]] $P_1$ and $P_2$ with [[intersection]] $P_1 \cap P_2$, then the _twistor correspondence_ is the [[correspondence]] (see alsoat [Schubert calculus -- Correspondences](http://ncatlab.org/nlab/show/Schubert+calculus#Correspondences) and at _[[horocycle correspondence]]_) of the form
 
 $$
   \array{
