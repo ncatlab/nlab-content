@@ -119,5 +119,12 @@ Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
 
 * P.S. Howe, [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
 
+### Relation to extended TQFT
+
+Relation to [[extended TQFT]] is discussed in
+
+* [[Dan Freed]], _[[4-3-2 8-7-6]]_
+
+
 [[!redirects 6d (2,0)-susy QFT]]
 [[!redirects 6d (2,0)-superconformal QFT]]
