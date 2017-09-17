@@ -176,6 +176,13 @@ The bracket $\{-,-\}$ makes $C^\infty(X)$ a [[Poisson algebra]].
 
 =--
 
+
+## Examples
+
+* every [[Kähler manifold]] is canonically also a symplectic manifold;
+
+* the [[critical locus]] over any [[local action functional]] becomes a symplectic manifold after dividing out symmetries: the reduced [[phase space]].
+
 ## Related concepts
 
 
