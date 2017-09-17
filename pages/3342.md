@@ -21,7 +21,7 @@
 
 ## Idea
 
-The Haag--Kastler axioms (sometimes also called Araki--Haag--Kastler axioms) try to define in a mathematically precise way the notion of [[quantum field theory]] (QFT), by axiomatizing how its local _algebras of observables_ should behave. 
+The Haag--Kastler axioms (sometimes also called Araki--Haag--Kastler axioms) try to define in a mathematically precise way the notion of [[quantum field theory]] (QFT), by axiomatizing how its [[local nets of observables]] should behave. 
 
 The approch to quantum field theory based on these axioms is often called [[AQFT]]: _algebraic quantum field theory_ .
 
