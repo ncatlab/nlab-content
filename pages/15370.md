@@ -52,7 +52,7 @@ e.g ([Berkovich 09, def. 1.2.1](#Berkovich09))
 +-- {: .num_remark}
 ###### Remark
 
-One might also define a normed ring to be a [[commutative monoid]] [[internalization|internal]] to the [[monoidal category]] $NGrp$ of [[normed groups]].  If the morphisms in $NGrp$ are taken to be the [[short map|short]] group homomorphisms, then this reproduces the definition above.  If (as is often seen) the morphisms are generalized to [[bounded map|bounded]] group homomrophisms, then this generalizes the third clause in def. \ref{NormedCommutativeRing}
+One might also define a normed ring to be a [[commutative monoid]] [[internalization|internal]] to the [[monoidal category]] $NGrp$ of [[normed groups]].  If the morphisms in $NGrp$ are taken to be the [[short map|short]] group homomorphisms and the [[projective cross norm]] is used on the tensor product, then this reproduces the definition above.  If (as is often seen) the morphisms are generalized to [[bounded map|bounded]] group homomrophisms, then this generalizes the third clause in def. \ref{NormedCommutativeRing}
 to 
 
 * there is $C \in \mathbb{R}_{\gt 0}$ such that for all $f,g \in R$
@@ -80,7 +80,6 @@ $$
 $$
 
 Notice that even if $R$ if the norm on $R$ is multiplicative (is an [[absolute value]]) that on $Mat_n(R)$ is not in general. If $R$ is a [[Banach ring]], then so is $Mat_n(R)$.
-
 =--
 
 (e.g. [Jarden 11](#Jarden11)).
