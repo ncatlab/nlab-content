@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[equivariant cohomology|equivariant]] version of [[de Rham cohomology]].
+
+## Properties
+
+### Models
+
+Various different [[dg-algebras]] are used to model equivariant de Rham cohomology, known as 
+
+* the _Cartan model_
+
+* the _Kalkman model_
+
+## Related concepts
+
+* [[gauged WZW model]]
+
+## References
+
+The Cartan model is reviewed and another model is constructed in
+
+* Jaap Kalkman, _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132](http://arxiv.org/abs/hep-th/9308132))
+
