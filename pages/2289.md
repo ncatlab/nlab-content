@@ -23,7 +23,8 @@
 
 This entry is about the text
 
-* [[Jacob Lurie]], _A Survey of Elliptic Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
+* [[Jacob Lurie]], _A Survey of Elliptic Cohomology_, Algebraic Topology
+Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
 
 It 
 
@@ -224,9 +225,7 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 ## equivariant elliptic cohomology {#equivariantellipticcohomology}
 
-
-...
-
+* [[equivariant elliptic cohomology]]
 
 
 # Contents {#Contents}
@@ -317,6 +316,7 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 ### 5.1 2-Equivariant Elliptic Cohomology
 
+* [[equivariant elliptic cohomology]]
 
 ### 5.2 Loop Group Representations
 
@@ -346,4 +346,3 @@ An introduction to and survey of the [[Goerss-Hopkins-Miller-Lurie theorem]] is 
 which has grown out of
 
 * [[Topological Algebraic Geometry - A Workshop]].
-
