@@ -84,6 +84,8 @@ Here is a review on this topic:
 
   * [[Grand Unified Theory]], [[MSSM]]
 
+* [string theory FAQ - Does string theory make predictions?](string+theory+FAQ#HowDoesStringTheoryMakePredictions)
+
 ## References
 
 Some general thoughts on what a [[moduli space]] of 2d CFTs should be are in 
