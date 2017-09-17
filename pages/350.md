@@ -6,9 +6,9 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
-#### Type theory
+#### Modalities, Closure and Reflection
 +-- {: .hide}
-[[!include type theory - contents]]
+[[!include modalities - contents]]
 =--
 =--
 =--
@@ -120,7 +120,7 @@ Specifically, given any [[subobject]] inclusion $X \hookrightarrow Y$ in $E$, co
 +-- {: .num_defn #TheClosureOperator}
 ###### Definition
 
-The **closure operator** induced by $j$ is the [[natural transformation|transformation]]
+The **[[closure operator]]** induced by $j$ is the [[natural transformation|transformation]]
 
 $$
   \overline{(-)}_X : Sub(X) \to Sub(X)
@@ -350,7 +350,7 @@ This appears as ([Johnstone, lemma A4.3.2](#Johnstone)).
 +-- {: .num_defn }
 ###### Definition
 
-A family of functors $Sub(X) \to Sub(X)$ for all objects $X$ that commutes with [[change of base]] is called a **universal closure operation**.
+A family of functors $Sub(X) \to Sub(X)$ for all objects $X$ that commutes with [[change of base]] is called a **[[universal closure operation]]**.
 
 =--
 
