@@ -331,7 +331,7 @@ The application of this to the description of type II [[string theory]] in 10-di
 
 ### Aspects of Chern-Simons/conformal-blocks in AdS/CFT
 
-* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
  {#Witten98}
 
 
