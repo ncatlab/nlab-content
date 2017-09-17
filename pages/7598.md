@@ -26,7 +26,7 @@ A functor/diagram $X : \mathcal{D} \to \mathcal{C}$ is a **projectively cofibran
 
 =--
 
-This means that a [[diagram]] $X :\mathcal{D}\to \mathcal{C}$ is projectively cofibrant precisely if the inclusion $\emptyset \to F$ of the [[initial object|initial]] diagram has the [[left lifting property]] with respect to [[natural transformations]] of diagrams
+This means that a [[diagram]] $X :\mathcal{D}\to \mathcal{C}$ is projectively cofibrant precisely if the inclusion $\emptyset \to X$ of the [[initial object|initial]] diagram has the [[left lifting property]] with respect to [[natural transformations]] of diagrams
 
 $$
   (A \stackrel{p}{\to} B) : \mathcal{C} \to \mathcal{D}
