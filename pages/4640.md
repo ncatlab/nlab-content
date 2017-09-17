@@ -42,6 +42,7 @@ Here the [[free functor|free]] $T$-algebra on a single generator $F_T(*)$ is the
 
 
 ### Multiplicative group
+ {#MultiplicativeGroup}
 
 The multiplicative [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **multiplicative group** -- is the [[group scheme]] denoted $\mathbb{G}_m$
 
