@@ -1,1 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 The __centralizer__ of a subset $S$ of a [[group]] $G$ is the set $C_G(S)$ of all elements $c\in G$ such that $c s=s c$ for all $s\in S$.  It is the largest [[subgroup]] $H$ of $G$ containing $S$ such that $S$ is in the [[center]] of $H$.  The centralizer of a subset is clearly a subgroup of its [[normalizer]], as fixing the set $g H=H g$ is a weaker requirement than $g h=h g$ for all $h\in H$.
+
+## Related concepts
+
+* [[stabilizer subgroup]]
+
+* [[normalizer subgroup]]
+
+[[!redirects centralizers]]
+
+[[!redirects centralizer subgroup]]
+[[!redirects centralizer subgroups]]
