@@ -1,0 +1,21 @@
+
+# Structural rules
+* table of contents
+{: toc}
+
+## Idea
+
+The _structural rules_ of a [[logic]] are those rules which make no reference to logical operators but only to the unstructured [[premise]]s of a [[deduction]].
+
+
+## Examples
+
+* the [[weakening rule]],
+* the [[contraction rule]],
+* the [[exchange rule]],
+* the [[identity rule]],
+* the [[cut rule]].
+
+
+[[!redirects structural rule]]
+[[!redirects structural rules]]
