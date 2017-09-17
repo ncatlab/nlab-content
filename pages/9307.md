@@ -35,6 +35,8 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 
 ## Related concepts
 
+* [[higher Lie theory]]
+
 * [[higher prequantum geometry]]
 
 
