@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+* **algebraic theory** / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
+
+***
+
+
 # Algebraic theories
 * tic
 {: toc}
