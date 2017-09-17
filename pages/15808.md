@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-The method is used notably to exhibit "[[duality in physics|duality]]" between $S_A$ and $S_B$ of one form or another, in particular [[electric-magnetic duality]]. (See e.g. [Mia-Ohta 03](#MiaOhta03)).
+The method is used notably to exhibit "[[duality in physics|duality]]" between $S_A$ and $S_B$ of one form or another, in particular [[electric-magnetic duality]]. (See e.g. [Miao-Ohta 03](#MiaOhta03)).
 
 Beware that some authors also speak of _master actions_ instead of _parent actions_ in this context, but there is not relation to "master actions" in the sense of [[BV-BRST formalism]] (except, of course, that both are [[action functionals]] of some sort). 
 
