@@ -1,4 +1,4 @@
-
+frecal
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -94,7 +94,7 @@ in prop. \ref{LocalizationCofiber} exhibit the [[localization of an (infinity,1)
 
 ### At Moore spectra of abelian groups
 
-An basic special case of $E$-localization of spectra is given by $E = S A$ the [[Moore spectrum]] of an [[abelian group]] $A$. For $A = \mathbb{Z}_{(p)}$ this is [[p-localization]] and for $A = \mathbb{F}_p$ this is [[p-completion]], see examples \ref{pLocalization} and \ref{pCompletion} below for more.
+A basic special case of $E$-localization of spectra is given for $E = S A$ the [[Moore spectrum]] of an [[abelian group]] $A$ ([Bousfield 79, section 2](#Bousfield79)). For $A = \mathbb{Z}_{(p)}$ this is [[p-localization]] and for $A = \mathbb{F}_p$ this is [[p-completion]], see examples \ref{pLocalization} and \ref{pCompletion} below for more.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -116,11 +116,11 @@ For $A_1$ and $A_2$ two [[abelian groups]] then the following are equivalent
 
 =--
 
-recalled e.g. in ([VanKoughnett 13, prop. 4.2](#VanKoughnett13)).
+([Bousfield 79, prop. 2.3](#Bousfield79)) recalled e.g. in ([VanKoughnett 13, prop. 4.2](#VanKoughnett13)).
 
 This means that given an abelian group $A$ then 
 
-* either $A$ is torsion, then 
+* either $A$ is not torsion, then 
 
   $$
     L_{S A} \simeq L_{S \mathbb{Z}[I^{-1}]}
@@ -136,7 +136,7 @@ This means that given an abelian group $A$ then
    \,,
   $$
 
-  where the [[direct sum]] is over all [[cyclic groups]] of order $q$ for $q$ a prime not invertible in $A$.
+  where the [[direct sum]] is over all [[cyclic groups]] of order $q$, for $q$ a prime not invertible in $A$.
 
 
 
@@ -195,15 +195,18 @@ Under suitable condition the second map here is indeed an [[equivalence]], in wh
 +-- {: .num_example}
 ###### Example
 
-Bousfield locaization at the [[Moore spectrum]]/[[Eilenberg-MacLane spectrum]] $S \mathbb{Q}\simeq H\mathbb{Q}$ of the [[rational numbers]] is [[rationalization]] to [[rational homotopy theory]].
+Bousfield localization at the [[Moore spectrum]]/[[Eilenberg-MacLane spectrum]] $S \mathbb{Q}\simeq H\mathbb{Q}$ of the [[rational numbers]] is [[rationalization]] to [[rational homotopy theory]].
 
 =--
 
+
+
 ([Bauer 11, example 1.7](#Bauer11))
+
 
 ### $p$-Localization
 
-For $p$ a [[prime number]] write $\mathbb{Z}_{(p)}$ for the  [[localization of a ring|localization]] of the [[integers]] _at_ $(p)$,  for the ring of integers with all primes _except_ $p$ inverted. The subring of the [[rational numbers]] with denominator not divisible by $p$.
+For $p$ a [[prime number]] write $\mathbb{Z}_{(p)}$ for the  [[localization of a ring|localization]] of the [[integers]] _at_ $(p)$,  for the ring of integers [[localization of a ring|localized at]] $p$, hence with all primes _except_ $p$ inverted; equivalently the subring of the [[rational numbers]] with denominator not divisible by $p$.
 
 +-- {: .num_example #pLocalization}
 ###### Example
@@ -212,7 +215,24 @@ The Bousfield localization at the [[Moore spectrum]] $S \mathbb{Z}_{(p)}$ is [[p
 
 =--
 
-E.g. ([Bauer 11, example 1.7](#Bauer11)). See at _[[localization of a space]]_ for details in this.
+(#Bousfield79))) ([Bauer 11, example 1.7](#Bauer11)). See at _[[localization of a space]]_ for details in this.
+
++-- {: .num_prop #pLocalizationIsSmashing}
+###### Proposition
+
+$p$-localization is a [[smashing localization]]:
+
+$$
+  L_{S \mathbb{Z}_{(p)}} X
+  \simeq
+  S \mathbb{Z}_{(p)} \wedge X
+  \,.
+$$
+
+=--
+
+([Bousfield 79, prop. 2.4](#Bousfield79)) recalled e.g. as ([van Koughnett 13, prop. 4.3](#VanKoughnett13)).
+
 
 ### $p$-Completion
 
@@ -225,6 +245,65 @@ $$
 
 for the [[cyclic group]]/[[finite field]] of [[order of a group|order]] $p$.
 
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+  \mathbb{Z}/p^\infty \coloneqq (\mathbb{Z}[p^{-1}])/\mathbb{Z}
+$$
+
+for the [[localization of a ring|localization]] of the [[integers]] away from $p$ followed by the quotient by $\mathbb{Z}$.
+
+=--
+
+e.g. ([Bousfield 79, p. 6](#Bousfield79))
+
++-- {: .num_remark}
+###### Remark
+
+The [[short exact sequence]] of [[abelian groups]]
+
+$$
+  0 \to \mathbb{Z} \longrightarrow \mathbb{Z}[p^{-1}] \longrightarrow \mathbb{Z}/p^\infty \to 0
+$$
+
+induces the [[homotopy fiber sequence]] (in [[spectra]]) of [[Moore spectra]]
+
+$$
+  \Omega S(\mathbb{Z}/p^\infty) \longrightarrow S\mathbb{Z} \longrightarrow S(\mathbb{Z}[p^{-1}])
+ \,.
+$$
+
+As in [Bousfield 79, p. 6](#Bousfield79) one also writes
+
+$$
+  S^{-1} (\mathbb{Z}/p^\infty)
+  \coloneqq 
+  \Omega S(\mathbb{Z}/p^\infty)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The localization of spectra at the [[Moore spectrum]] $S\mathbb{F}_p$ is given by the [[mapping spectrum]] out of $S^{-1} \mathbb{Z}/p^\infty$:
+
+$$
+  L_{S \mathbb{F}_p} X
+  \simeq
+  [\Omega S \mathbb{Z}/p^\infty, X]
+  \,.
+$$
+
+=--
+
+([Bousfield 79, prop. 2.5](#Bousfield79))
 
 +-- {: .num_example}
 ###### Example
@@ -291,8 +370,8 @@ Lecture notes include
 
 Lecture notes in the general context of [[higher algebra]]/[[stable homotopy theory]] include
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes (2010) ([web](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
- {#LurieLecture}
+* {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes (2010) ([web](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
+ 
 
 Discussion specifically of [[K(n)-local spectra]] includes
 
