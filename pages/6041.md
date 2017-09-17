@@ -43,7 +43,7 @@ A [[curve]] $\gamma : \mathbb{R} \to X$ is called _timelike_  or _lightlike_ or 
 
 * [[future cone]]
 
-* [[Lorentzian spacetime]]
+* [[Lorentzian spacetime]], [[Lorentian geometry]]
 
 
 [[!redirects timelike]]
