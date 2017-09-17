@@ -9,7 +9,7 @@
 =--
 =--
 
-# Mathematics resources
+# Resources in mathematics, physics and philosophy
 
 We keep these lists:
 
@@ -26,7 +26,7 @@ web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-w
 * [MathOnline](http://mathonline.andreaferretti.it/) is dedicated to collecting free mathematics resources, like books, lecture notes, videos and more. Using reviews, votes, and a tagging system, all this material is kept organized. (No DNS entry as of 2012-07-14.)
 
 
-## Related entries 
+## Related specific entries 
 
 * **mathematics resources**
 
