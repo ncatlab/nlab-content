@@ -1,0 +1,16 @@
+author: AnonymousCoward
+company: 
+title: Klein-Gordon equation
+subtitle: 
+slide_theme: default
+slide_footer: 
+slide_subfooter: 
+
+:category: S5-slideshow
+
+Klein-Gordon equation
+==============
+
+My First Slide
+-----------------
+$w/x^c$
