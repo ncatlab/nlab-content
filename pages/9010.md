@@ -151,7 +151,7 @@ First, the $\mathbb{K}$-algebras in the topos of supergeometry are externally th
 
 With this the statement is a straightforward generalization of the discussion at  _[superalgebra -- Picard 2-groupoid](super+algebra#Picard2Groupoid)_ from superalgebras over $\mathbb{C}$ to those over $C^\infty(\mathbb{R}^p, \mathbb{C})$.
 
-While the invertible ordinary $\mathbb{C}^\infty(\mathbb{R})$-algebras are equivalent to that algebra itself (hence there is only one, up to equivalence); the invertible superalgebras are equivalent either to the ground field or to the complex [[Clifford algebra]] $Cl_1(\mathbb{C})$ (hence there are two, up to equivalence, the two elements in the [[Brauer gorup]] $\mathbb{Z}_2 = \pi_0(2\mathbf{sLine})$ ). Similarly for the invertible bimodules. Finally the inverticle intertwiners are pointwise $\mathbb{C}^\times$.
+While the invertible ordinary $\mathbb{C}^\infty(\mathbb{R})$-algebras are equivalent to that algebra itself (hence there is only one, up to equivalence); the invertible superalgebras are equivalent either to the ground field or to the complex [[Clifford algebra]] $Cl_1(\mathbb{C})$ (hence there are two, up to equivalence, the two elements in the [[Brauer group]] $\mathbb{Z}_2 = \pi_0(2\mathbf{sLine})$ ). Similarly for the invertible bimodules. Finally the inverticle intertwiners are pointwise $\mathbb{C}^\times$.
 
 =--
 
@@ -164,7 +164,7 @@ $$
   \mathbf{B}^2 \mathbb{C}^\times \simeq 2\mathbf{Line} \to 2\mathbf{sLine}
 $$
 
-in [[SmoothSuper∞Grpd]] (a [[n-monomorphism|2-monomorphism]]) from the [[moduli ∞-stack|moduli 2-stack]] of $\mathbb{C}^\times$-[[principal 2-bundles]]/[[bundle gerbes]], which picks the "ordinary" super 2-line bundle (as opposed to its "superpartner"), ignores the odd auto-[[gauge tranformations]] of that and keeps all the [[higher gauge transformations]].
+in [[SmoothSuper∞Grpd]] (a [[n-monomorphism|2-monomorphism]]) from the [[moduli ∞-stack|moduli 2-stack]] of $\mathbb{C}^\times$-[[principal 2-bundles]]/[[bundle gerbes]], which picks the "ordinary" super 2-line bundle (as opposed to its "superpartner"), ignores the odd auto-[[gauge transformations]] of that and keeps all the [[higher gauge transformations]].
 
 =--
 
