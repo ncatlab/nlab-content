@@ -1484,7 +1484,7 @@ The same argument holds true for $R$ any [[principal ideal domain]].
 
 Let $G \in \mathbb{Z} Mod \simeq$ [[Ab]] be an [[abelian group]].
 
-We discuss projective resolutions of $G$ that are well-adapted to computation of the [[group cohomology]] of $G$ and hence of the [[group extensions]] of $G$.
+We discuss projective resolutions of $G$ that are well-adapted to computation of the [[group cohomology]] of $G$ and hence of the [abelian group extensions](group+extension#PropertiesAbelianGroupExtensions) of $G$.
 
 +-- {: .num_defn #ProjectiveResolutionThatGivesGroupCocycles}
 ###### Definition
@@ -1517,7 +1517,7 @@ $$
   \,,
 $$
 
-where now $+_G : G \times G \to G$ denotes the addition (group operation) in the abelian group $G$, which the sum $\sum$ on the right forms [[formal linear combinations]], hence is the group operation in the [[free abelian group]] $F(U(A)^n)$.
+where now $+_G : G \times G \to G$ denotes the addition (group operation) in the abelian group $G$, while the sum $\sum$ on the right forms [[formal linear combinations]], hence is the group operation in the [[free abelian group]] $F(U(A)^n)$.
 
 =--
 
@@ -1615,6 +1615,8 @@ $$
 between the first [[Ext]]-group of $G$ with [[coefficients]] in $A$ and the degree-2 [[group cohomology]] group of $G$ with coefficients in $A$.
 
 =--
+
+> There is something wrong here. We are supposed to get just abelian extensions classified by symmetric 2-cocycles...
 
 +-- {: .proof}
 ###### Proof
