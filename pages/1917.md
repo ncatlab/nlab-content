@@ -137,7 +137,9 @@ connected space, J. Knot Theory and its Ramifications, 9 (2000), 855--864.
 in Dimension 1 + 1, J. Knot Theory and its Ramifications, 12 (2003) 287--317 (previously 
 available as [arXiv:math.QA/0105018](http://arxiv.org/abs/math.QA/0105018)). 
 
-* T.Porter and V. Turaev, Formal Homotopy Quantum Field Theories, I: Formal Maps and Crossed $C$-algebras, Journal of Homotopy and Related Structures 3(1), 2008, 113--159. ([arXiv:math.QA/0512032](http://arxiv.org/abs/math.QA/0512032)).
+* [[T. Porter]] and V. Turaev, Formal Homotopy Quantum Field Theories, I: Formal Maps and Crossed $C$-algebras, Journal of Homotopy and Related Structures 3(1), 2008, 113--159. ([arXiv:math.QA/0512032](http://arxiv.org/abs/math.QA/0512032)).
+
+* [[T. Porter]], Formal Homotopy Quantum Field Theories II: Simplicial Formal Maps, in Cont. Math. 431, p. 375 - 404 (Streetfest volume: Categories in Algebra, Geometry and Mathematical Physics - edited by A. Davydov, M. Batanin, and M. Johnson, S. Lack, and A. Neeman) ([arXiv:math.QA/0512034](http://arxiv.org/abs/math.QA/0512034))
 
 A treatment of HQFTs that includes some details of the links with TQFTs is given in [[HQFT-XMenagerie.pdf|HQFTs meet the Menagerie:file]], which is a set of notes prepared by [[Tim Porter]] for a school and workshop in Lisbon, Feb. 2011.
 
