@@ -62,6 +62,10 @@ In the classical examples, the multiplicative groups $\mathbb{R}^+$ and $\mathbb
 This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie algebra]].  Then we have an [[exponential map]] $\exp\colon \mathfrak{g} \to G$, which is [[surjection|surjective]] under certain conditions (most famously when $G$ is [[connected space|connected]] and [[compact space|compact]], but also in the classical cases, even though $G$ is not compact).  More generally, given any [[automorphism]] $\phi$ of $\mathfrak{g}$, we have a map $x \mapsto \exp(\phi(x))$, which is a [[homomorphism]] of Lie groups.  Any [[local section]] of this map may be called a __logarithm base $\phi$__ on $G$; any local section of $\exp$ itself may be called a __natural logarithm__ on $G$.
 
 
+## Related concepts
+
+* [[logarithmic cohomology operation]]
+
 [[!redirects logarithm]]
 [[!redirects logarithms]]
 [[!redirects logarithmic]]
