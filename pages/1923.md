@@ -5,3 +5,7 @@ In fact, a symmetric monoidal functor is the same as a [[braided monoidal functo
 It would be good to include the actual definition.  It can be found in, for example,
 
 * [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
+
+
+[[!redirects symmetric monoidal functor]]
+[[!redirects symmetric monoidal functors]]
