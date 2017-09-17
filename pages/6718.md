@@ -25,6 +25,11 @@ Although we have given this definition relative to an observer, we can reverse t
 
 Theoretically, the observer outside an event horizon will observe [[Bekenstein-Hawking entropy]] at the horizon and [[Hawking radiation]] from it.  In the case of an observer accelerating to remain outside a future light cone, this is the [[Unruh effect]].
 
+## Related concepts
+
+* [[observable universe]]
+
+* [[generalized second law of thermodynamics]]
 
 ## References
 
