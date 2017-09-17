@@ -187,6 +187,10 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
 * The category of [[bornological set|bornological sets]]. 
 
+* The category of [[monomorphisms]] between sets (morphisms being commutative squares) is a Grothendieck quasitopos of $\neg \neg$-separated objects in the topos $Set^\to$ of presheaves on the [[interval category]]. 
+
+* The category of assemblies of a [[partial combinatory algebra]]. 
+
 * As a super-large example, the category of Spanier's [[quasi-topological space|quasi-topological spaces]], the category of concrete sheaves on the category of compact Hausdorff spaces with the finite covering topology. 
 
 ## Related concept
