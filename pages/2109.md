@@ -1,6 +1,15 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
 [[!include 2-category theory - contents]]
-</div>
+=--
+=--
+=--
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -26,11 +35,13 @@ There are several not-quite-equivalent ways to describe this extra structure.  O
 
 
 ## Definitions ##
+ {#Definitions}
 
 There are several equivalent ways to define proarrow equipments on a 2-category.
 
 ### Definition as a 2-functor
-
+ {#DefinitionAsA2Functor}
+ 
 Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ with proarrows**.
 
 * A 2-category $M$, whose arrows are called *proarrows*.
