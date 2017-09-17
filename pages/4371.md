@@ -22,6 +22,7 @@ In [[logic]], double negation is the operation from $P$ to $\neg{\neg{P}}$, wher
 
 In [[classical logic]], the double negation of any [[truth value]] or [[proposition]] is itself.  More abstractly, double negation is the [[identity function]] on any [[boolean algebra]].
 
+
 In [[intuitionistic logic]], double negation is weaker than the identity.  That is, we have $P \Rightarrow \neg{\neg{P}}$ but not conversely.  In [[paraconsistent logic]], it is the other way around.  More abstractly, this holds in any [[Heyting algebra]] (intuitionistic) or its dual (paraconsistent).
 
 In [[linear logic]], double negation is the identity again, although linear logic also has notions of intuitionistic negation and paraconsistent negation which act as above.
@@ -61,7 +62,7 @@ This is called the **[[double negation topology]]**.
 
 ### Properties
 
-+-- {: .num_prop }
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathcal{E}$ a [[sheaf topos]], the sheaf topos 
@@ -76,7 +77,7 @@ is a [[Boolean topos]].
 
 This appears as [MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk).
 
-+-- {: .num_prop }
++-- {: .num_prop}
 ###### Proposition
 
 For every [[prsheaf topos]] $[C^{op}, Set]$ the double negation topology coincides with the [[dense topology]].
@@ -84,7 +85,7 @@ For every [[prsheaf topos]] $[C^{op}, Set]$ the double negation topology coincid
 
 This appears as [MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk).
 
-+-- {: .num_prop }
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be a [[poset]]. Then the double negation sheaf topos
@@ -98,8 +99,13 @@ satisfies the [[axiom of choice]].
 
 This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).
 
++-- {: .num_prop}
+###### Proposition
 
-## Referemces
+In a presheaf topos (on a small category) the notions of *$\neg\neg$-topology* and that of *[[dense topology]]* coincide.
+=--
+
+## References
 
 Section VI of
 
