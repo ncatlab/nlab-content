@@ -1,0 +1,32 @@
+[[!redirects gauge theory from AdS7-CFT6 -- table]]
+
+| **[[gauge theory]] induced via [[AdS7-CFT6]]** |
+|--|
+| [[11d supergravity]]/[[M-theory]] |
+| $\;\;\;\;\downarrow$ [[Kaluza-Klein compactification]] on $S^4$ |
+| [[7-dimensional supergravity]] |
+| $\;\;\;\;\downarrow$ topological sector |
+| [[7-dimensional Chern-Simons theory]] |
+| $\;\;\;\;\downarrow $ [[AdS-CFT|AdS7-CFT6 holographic duality]] |
+| [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] with [[CFT|conformal invariance]] |
+| $\;\;\;\; \downarrow$ [[KK-compactification]] on [[Riemann surface]] |
+| [[N=2 D=4 super Yang-Mills theory]] with [[S-duality]] invariance; [[AGT correspondence]] |
+| $\;\;\;\;\; \downarrow$ [[topological twist]] |
+| [[topologically twisted N=2 D=4 super Yang-Mills theory]] |
+| $\;\;\;\; \downarrow$ [[KK-compactification]] on [[Riemann surface]] |
+| [[A-model]] on $Bun_G$, [[Donaldson theory]] |
+
+$\,$
+
+| **[[gauge theory]] induced via [[AdS5-CFT4]]** |
+|--|
+| [[type II string theory]] |
+| $\;\;\;\;\downarrow$ [[Kaluza-Klein compactification]] on $S^5$ |
+| $\;\;\;\; \downarrow$ topological sector |
+| [[5-dimensional Chern-Simons theory]] |
+| $\;\;\;\;\downarrow $ [[AdS-CFT|AdS5-CFT4 holographic duality]] |
+| [[N=4 D=4 super Yang-Mills theory]] |
+| $\;\;\;\;\; \downarrow$ [[topological twist]] |
+| [[topologically twisted N=4 D=4 super Yang-Mills theory]] |
+| $\;\;\;\; \downarrow$ [[KK-compactification]] on [[Riemann surface]] |
+| [[A-model]] on $Bun_G$ and [[B-model]] on $Log_G$, [[geometric Langlands correspondence]] |
