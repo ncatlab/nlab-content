@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
 =--
 =--
 
