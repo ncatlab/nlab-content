@@ -127,7 +127,7 @@ $\mathcal{M}(\mathcal{O}) := \{F(\Psi(f)) | f$ is a real test function with supp
 
 ## Examples
 
-## Neutral Real (uncharged) Scalar Field
+### Neutral Real (uncharged) Scalar Field
 A neutral real quantum scalar field on Minkowski spacetime $M$ with mass parameter $m \gt 0$ can be defined as follows:
 
 +-- {: .un_def}
