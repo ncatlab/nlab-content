@@ -2,3 +2,5 @@
 * [wikipedia entry](http://www.phys.washington.edu/users/strasslr/)
 
 category: people
+
+[[!redirects Matt Strassler]]
