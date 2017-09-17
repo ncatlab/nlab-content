@@ -261,6 +261,8 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 
 * [[differential orientation]]
 
+* [[(infinity,1)-vector bundle]]
+
 ## References
 
 A comprehesive account is in 
