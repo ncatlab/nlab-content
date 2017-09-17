@@ -129,6 +129,7 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 * [[fermionic path integral]]
 
+* [[principle of extremal action]]
 
 ## References {#References}
 
