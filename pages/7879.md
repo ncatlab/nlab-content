@@ -25,11 +25,16 @@ There is a [[category]] $\mathbf{Haskell}$ whose objects are Haskell [[type|type
 
 Haskell is famous for its use of  [[monads (in computer science)]] acting on this category.
 
-## Related entries
+
+### Similar and related software
 
 Languages similar to Haskell but refining it from plain [[type theory]] to [[dependent type theory]] include
 
 * [[Coq]] and [[Agda]]
+
+A wiki platform based on Haskell, running texmath
+
+* [gitit](http://gitit.net) 
 
 ## References
 
@@ -37,7 +42,7 @@ Languages similar to Haskell but refining it from plain [[type theory]] to [[dep
 
 * Haskell, language and library specification, [wiki](http://www.haskell.org/haskellwiki/Language_and_library_specification)
 
-* haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Haskell)
+* [haskellwiki](http://www.haskell.org/haskellwiki/Haskell), [haskell platform](http://www.haskell.org/platform) 
 
 ### Mathematics in Haskell
  {#ReferencesMathematicsInHaskell}
@@ -48,4 +53,4 @@ The use of Haskell in [[mathematics]] is discussed in the following references.
 
 * category theory, in haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Category_theory)
 
-* Jan van Eijck, _[The Haskell Road to Logic, Maths and Programming](homepages.cwi.nl/~jve/HR/)_
+* Jan van Eijck, _[The Haskell Road to Logic, Maths and Programming](homepages.cwi.nl/~jve/HR)_
