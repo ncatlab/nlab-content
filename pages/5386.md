@@ -41,7 +41,9 @@ The discussion in ([BarwickSchommer-Pries](#BarwickSchommer-Pries)) shows that e
 
 The [[automorphism ∞-group]] of $(\infty,n)Cat$ is equivalent to $(\mathbb{Z}_2)^n$.
 
-This is due to ([BarwickSchommer-Pries](#BarwickSchommer-Pries)).
+This is due to ([Barwick & Schommer-Pries](#BarwickSchommer-Pries)).
+
+(See also at _[[duality]]_.)
 
 ## Related concepts
 
@@ -63,5 +65,7 @@ This is due to ([BarwickSchommer-Pries](#BarwickSchommer-Pries)).
 
 * [[Clark Barwick]], [[Chris Schommer-Pries]], _On the uniticity of the homotopy theory of higher categories_ ([pdf](http://dl.dropbox.com/u/8165870/Unicity.pdf))
  {#BarwickSchommer-Pries}
+
+[[!redirects InfinityCommaNCat]]
 
 category: category
