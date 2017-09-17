@@ -52,8 +52,9 @@ We originally designed this place as as an adjunct to the [$n$-Category Caf&eacu
 ## Discussions
  {#Discussion}
 
-While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). We inform ourselves about latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5). Have a look around there. 
+While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). We inform ourselves about latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5) and discuss these edits there.
 
+If you do contribute to the $n$Lab, you are strongly encouraged to similarly drop a short note there about what you have done -- or maybe just about what you plan to do or even what you would like others to do. See _[[nlabmeta:Welcome to the nForum]]_ for more information.
 
 ## Contributing to the $n$Lab
  {#Contributing}
