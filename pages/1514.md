@@ -1,8 +1,22 @@
 
-<div class="rightHandSide toc">
-[[!include physicscontents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
 
 > under construction
 
@@ -31,12 +45,13 @@ The central impact of the idea of the path integral however is in its applicatio
 
 Notably the [[Feynman perturbation series]] summing over [[Feynman graphs]] is motivated as one way to make sense of the path integral in quantum field theory and in practice usually serves as a _definition_ of the perturbative path integral.
 
+## Examples
 
-## Path integral in quantum mechanics
+### In quantum mechanics
 
 A simple form of the path integral is realized in [[quantum mechanics]], where it was originally dreamed up by [[Richard Feynman]] and then made precise using the [[Feynman-Kac formula]].  Most calculations in practice are still done using [[perturbation theory]].
 
-The [[Schrodinger equation|Schrödinger equation]] says that the rate at which the phase of an energy eigenvector rotates is proportional to its energy:
+The [[Schrödinger equation]] says that the rate at which the phase of an energy eigenvector rotates is proportional to its energy:
 \[ i \hbar \frac{d}{dt} \psi = H \psi. \]
 Therefore, the probability that the system evolves to the final state $\psi_F$ after evolving for time $t$ from the initial state $\psi_I$ is
 \[ \langle \psi_F|e^{-iHt}|\psi_I\rangle.\]
@@ -124,12 +139,9 @@ Modern precise formulations of path integral technology for [[quantum mechanics]
 
 This discusses the path integral for the [[sigma-model]] given by a particle propagating on a  [[Riemannian manifold]] and charged under a [[gauge field]] given by a [[connection on a bundle]].
 
-
-+--{.query}
-Zoran: usually the QUADRATIC Hamiltonians are the ones for which the integral is well understood in several approaches; and of course many cases corresponding to the exactly solvable models. 
-=--
-
 * Dana Fine, Stephen Sawin, _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_ ([arXiv:0705.0638](http://arxiv.org/abs/0705.0638))
+
+(Usually the quadratic Hamiltonians are the ones for which the integral is well understood in several approaches; and of course many cases corresponding to the exactly solvable models. )
 
 Other references on mathematical aspects of path integrals include
 
@@ -139,7 +151,11 @@ _Mathematical theory of Feynman path integrals. An introduction_ ([ZMATH](href="
 * [[Pierre Cartier]], [[Cecile DeWitt-Morette]], _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
 ormat=complete))
 
-* [[Edward Witten]], _A new look at the path integral of quantum mechanics_, [arxiv/1009.6032](http://arxiv.org/abs/1009.6032)
+* [[Edward Witten]], _A new look at the path integral of quantum mechanics_, ([arxiv/1009.6032](http://arxiv.org/abs/1009.6032))
+
+Lecture notes on [[quantum field theory]], emphasizing mathematics of the Euclidean path integrals and the relation to statistical physics are at
+
+* [[AJ Tolland]], _[Wilsonian QFT for Mathematicians](http://www.math.sunysb.edu/~ajt/Teaching/560spring2011/)_ 
 
 MathOverflow questions: [mathematics-of-path-integral-state-of-the-art](http://mathoverflow.net/questions/19495/mathematics-of-path-integral-state-of-the-art),[path-integrals-outside-qft](http://mathoverflow.net/questions/20393/path-integrals-outside-qft), [doing-geometry-using-feynman-path-integral](http://mathoverflow.net/questions/19490/doing-geometry-using-feynman-path-integral), [path-integrals-localisation](http://mathoverflow.net/questions/17577/path-integrals-localisation), [finite-dimensional-feynman-integrals](http://mathoverflow.net/questions/31966/finite-dimensional-feynman-integrals), [the-mathematical-theory-of-feynman-integrals](http://mathoverflow.net/questions/24823/the-mathematical-theory-of-feynman-integrals)
 
