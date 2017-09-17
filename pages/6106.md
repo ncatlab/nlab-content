@@ -177,6 +177,8 @@ This appears for instance as ([Segal, prop. 4.2](#Segal)).
 
 * [[caloron correspondence]]
 
+* [[equivariant elliptic cohomology]]
+
 
 ## References
 
