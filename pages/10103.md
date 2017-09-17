@@ -55,7 +55,7 @@ There is a canonical isomorphism
 $$x \otimes 0 + x \otimes y \to x \otimes (0 + y)$$ 
 and thus a canonical isomorphism 
 $$\phi: x \otimes 0 + x \otimes y \to x \otimes y$$ 
-whose restriction along the coproduct inclusion $x \otimes y \to x \otimes 0 + x \otimes y$ is the identity $1_{x \otimes y}$. Let $k: x \otimes 0 \to y$ be the restriction of $\phi$ along the other coproduct inclusion. Then $\phi$ induces an evident bijection 
+whose restriction along the coproduct inclusion $x \otimes y \to x \otimes 0 + x \otimes y$ is the identity $1_{x \otimes y}$. Let $k: x \otimes 0 \to x \otimes y$ be the restriction of $\phi$ along the other coproduct inclusion. Then $\phi$ induces an evident bijection 
 $$\hom(x \otimes y, y) \stackrel{\langle [k], id \rangle}{\to} \hom(x \otimes 0, y) \times \hom(x \otimes y, y).$$ 
 Since $\hom(x \otimes y, y)$ is inhabited for all $x, y$ (with the help of some map $x \to I$, there is some map $x \otimes y \to I \otimes y \cong y$), this forces $\hom(x \otimes 0, y)$ to be a singleton for any $y$, so that $x \otimes 0$ is initial. 
 =-- 
