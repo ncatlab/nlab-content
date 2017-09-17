@@ -28,7 +28,7 @@ a [[topological space]] $R$ equipped with the structure of a [[ring]] on its und
 Similarly a _topological field_ is a topological ring whose underlying ring is in fact a [[field]] and a [[topological algebra]] is a topological ring under a base topological ring (a topological [[associative algebra]]). 
 
 +-- {: .query} 
-Shouldn't we demand that negation be continuous in a topological ring and reciprocation be continuous in a topological field? Or do these somehow follow automatically from the continuity of addition and multiplication? -Sridhar Ramesh
+Shouldn't we demand that reciprocation be continuous in a topological field? Or does this somehow follow automatically? -Sridhar Ramesh
 =-- 
 
 
