@@ -52,7 +52,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.8.10]].
 
 There are various [[model category]] [[presentable (∞,1)-category|presentations]] of $Alg_{(\infty,1)}(C) \hookrightarrow PSh_{(\infty,1)}(C^{op})$.
 
-Recalll that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C^{op})$ itself is modeled by the [[model structure on simplicial presheaves]]
+Recall that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C^{op})$ itself is modeled by the [[model structure on simplicial presheaves]]
 
 $$
   PSh_{(\infty,1)}(C^{op})
@@ -163,7 +163,7 @@ The [[model category]] [[presentable (infinity,1)-category|presentations]] of $(
 
 * [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_ ([math/0003065](http://arxiv.org/abs/math/0003065)) ,
 
-where it is shwon that every such model is [[Quillen equivalence|Quillen equivalent]] to a left [[proper model category]]. The article uses a mondaic definition of $(\infty,1)$-algebras.
+where it is shown that every such model is [[Quillen equivalence|Quillen equivalent]] to a left [[proper model category]]. The article uses a monadic definition of $(\infty,1)$-algebras.
 
 [[!redirects (infinity,1)-algebraic theory]]
 [[!redirects (infinity,1)-algebraic theories]]
