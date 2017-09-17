@@ -74,7 +74,7 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 For introductions to Knot Theory,
 
- * [[R. H. Crowell]] and [[R.H. Fox]], Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
+ * [[R. H. Crowell]] and [[R. H. Fox]], Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
 
  * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
