@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
 #### Manifolds and Cobordisms
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
@@ -13,8 +17,9 @@
 =--
 =--
 
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -102,7 +107,14 @@ This, then, is a model for the [[(∞,n)-category]] of extended $n$-dimensional 
 There is a definition of a [[blob n-category]] of $n$-cobordisms. See there for more details.
 
 
-## Properties {#Properties}
+## Properties 
+ {#Properties}
+
+### Adjoints
+
+$Bord_n$ is an [[(∞,n)-category with all adjoints]].
+
+### Relation to Thom spectrum
 
 For $n \to \infty$ we have that $Bord_{(\infty,\infty)}$ is the [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]] ($\simeq$ [[infinite loop space]]) $\Omega^\infty M O$ that underlies the [[Thom spectrum]].
 
