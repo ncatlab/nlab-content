@@ -412,3 +412,5 @@ See the section _[Concrete constructions](http://ncatlab.org/nlab/show/homotopy+
 For instance page 4 of
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_ .
+
+[[!redirects ken brown's lemma]]
