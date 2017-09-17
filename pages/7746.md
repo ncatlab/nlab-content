@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Factorization homology_  is a notion of [[homology theory]] for [[framed manifold|framed]] $n$-[[dimension|dimensional]] [[manifolds]] with coefficients in [[En-algebras]] due to ([Francis](#Francis)). It is similar in spirit to _[[factorization algebras]]_, _[[blob homology]]_ and _[[topological chiral homology]]_. In fact the definition of factorization homotopy turns out to be equivalent to that of topological chiral topology ([Francis b](#Francisb)).
+_Factorization homology_  is a notion of [[homology theory]] for [[framed manifold|framed]] $n$-[[dimension|dimensional]] [[manifolds]] with coefficients in [[En-algebras]] due to ([Francis](#Francis)). It is similar in spirit to _[[factorization algebras]]_, _[[blob homology]]_ and _[[topological chiral homology]]_. In fact the definition of factorization homology turns out to be equivalent to that of topological chiral topology ([Francis b](#Francisb)).
 
 
 ## References
