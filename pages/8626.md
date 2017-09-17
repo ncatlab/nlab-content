@@ -1,0 +1,23 @@
+
++--{: .un_theorem}
+###### Theorem
+**(Power)**
+Any [[bicategory]] with finite [[2-limit|bilimits]] is [[equivalence of bicategories|equivalent]] to a [[strict 2-category]] with finite [[flexible limits]].
+=--
++--{: .proof}
+###### Proof
+Let $K$ be a bicategory with finite bilimits, let $K \hookrightarrow [K^{op},Cat]$ be its [[Yoneda embedding for bicategories|Yoneda embedding]], and let $K'$ be the closure of $K$ in $[K^{op},Cat]$ under finite flexible limits.  Since $Cat$ is a strict 2-category with finite flexible limits, so is $[K^{op},Cat]$.  And since $K$ has finite bilimits, and these are preserved by its Yoneda embedding, while flexible limits are in particular bilimits, every object of $K'$ is equivalent to an object of $K$.  Thus, $K\simeq K'$.
+=--
+
+[[!redirects coherence theorem for bicategories with finite 2-limits]]
+[[!redirects coherence theorem for bicategories with finite bilimits]]
+[[!redirects coherence theorem for bicategories with finite limits]]
+[[!redirects coherence for bicategories with finite 2-limits]]
+[[!redirects coherence for bicategories with finite bilimits]]
+[[!redirects coherence for bicategories with finite limits]]
+[[!redirects coherence theorem for 2-categories with finite 2-limits]]
+[[!redirects coherence theorem for 2-categories with finite bilimits]]
+[[!redirects coherence theorem for 2-categories with finite limits]]
+[[!redirects coherence for 2-categories with finite 2-limits]]
+[[!redirects coherence for 2-categories with finite bilimits]]
+[[!redirects coherence for 2-categories with finite limits]]
