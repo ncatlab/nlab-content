@@ -138,3 +138,6 @@ and the smooth fivebrane 6-group was indicated. The latter is discussed in more 
 
 [[!redirects fivebrane Lie 6-group]]
 [[!redirects Fivebrane Lie 6-group]]
+
+[[!redirects smooth fivebrane 6-group]]
+
