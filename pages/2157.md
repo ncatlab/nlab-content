@@ -108,7 +108,7 @@ For instance a [[manifold]] is a [[topological space]] that is locally isomorphi
 
 Similarly, in [[algebraic geometry]] a [[scheme]] is locally isomorphic to an [[affine scheme]].
 
-Therefore there are attempts to axiomatize properties of categories of affine spaces for the purpose of using these as model spaces for more complicated geometries. One such axiomatization is the notion of [[geometry (for structured (∞,1)-toposes)]]. and in particular that of [presgeometry](http://ncatlab.org/nlab/show/geometry+(for+structured+(infinity%2C1)-toposes)#pregeometry_13).
+Therefore there are attempts to axiomatize properties of categories of affine spaces for the purpose of using these as model spaces for more complicated geometries. One such axiomatization is the notion of [[geometry (for structured (∞,1)-toposes)]]. and in particular that of [pregeometry](/nlab/show/geometry+(for+structured+(infinity%2C1%29-toposes%29#Pregeometry).
 
 
 [[!redirects affine spaces]]
