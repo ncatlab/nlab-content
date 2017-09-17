@@ -1,6 +1,15 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The [[van Kampen theorem]] involves the [[fundamental groupoid]] of a space. In the homotopy van Kampen theorem one uses fundamental $\infty$-groupoids.
+
 This theorem for [[filtered space]]s involves the fundamental [[crossed complex]] $\Pi X_*$ of a [[filtered space]] $X_*$, and the notion of [[connected filtered space]].
 
-# Statement # 
+## Statement 
 
 Suppose $X_*$ is a filtered space and $X$ is the union of the interiors of sets $U^i$, $i \in I$. Let $U^i_*$ be the filtered space given by the intersections $U^i \cap X_n$ for $n \geq 0$. If $d=(i,j) \in I^2$ we write $U^d$ for $U^i \cap U^j$. We then have a coequaliser diagram of filtered spaces 
 
@@ -13,7 +22,7 @@ If the filtered spaces $U^f_*$ are [[connected filtered space]]s for all finite 
 1. (Iso) The fundamental [[crossed complex]] functor $\Pi$ takes the above coequaliser diagram of filtered spaces to a coequaliser diagram of crossed complexes.
 =--
 
-# Remarks #
+## Remarks 
 
 * Note that because $\Pi$ uses groupoids, it obviously takes disjoint unions $\bigsqcup$ of filtered spaces into disjoint unions (= coproducts) $\bigsqcup$ of crossed complexes. 
 
@@ -27,3 +36,4 @@ Here is one application in dimension 2 not easily obtainable by traditional alge
 
 
 [[!redirects Higher Homotopy van Kampen Theorem]]
+[[!redirects higher homotopy van Kampen Theorem]]
