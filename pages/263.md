@@ -43,10 +43,13 @@ Often categories with weak equivalences are equipped with further extra [[struct
 
 * In a [[category of fibrant objects]] there are additional auxiliary morphisms called fibrations.
 
-* In a [[Waldhausen category]] there are additional auxiliary morphisms called cofibrations.
+* In a [[Waldhausen category]] there are additional auxiliary morphisms called [[cofibrations]].
 
 * In a [[model category]] there are both of these additional auxiliary classes of morphisms with special interrelation between them.
 
+Other variants include
+
+* [[Cartan-Eilenberg category]], ...
 
 ## Additional conditions
 
