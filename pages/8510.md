@@ -29,3 +29,9 @@ If there is more than one [[disjunction|disjunctively]] connected consequent, th
 
 [[!redirects consequents]]
 
+[[!redirects consequence]]
+[[!redirects consequences]]
+
+[[!redirects conclusion]]
+[[!redirects conclusions]]
+
