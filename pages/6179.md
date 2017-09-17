@@ -71,18 +71,18 @@ Moreover, Witten has suggested that this S-duality secretly drives a host of oth
 
 In [[string theory]], S-duality is supposed to apply to whole string theories and make [[type II string theory]] be S-dual to itself and make  [[heterotic string theory]] be S-dual to [[type I string theory]].
 
-#### Type IIB S-dualty
+#### Type IIB S-duality
  {#InTypeIIB}
 
-[[type IIB string theory]] is obtained by [[KK-compactification]] of [[M-theory]] on a [[torus]] undle and [[T-duality|T-dualizing]] one of the torus cycles. This perspective -- referred to as [[F-theory]] -- exibits the [[axio-dilaton]] of type IIB string theory as the fiber of an [[elliptic fibration]] (essentially the torus bundle that M-theory was compactified on ([Johnson 97](#Johnson97))).
+[[Type IIB string theory]] is obtained by [[KK-compactification]] of [[M-theory]] on a [[torus]] bundle and [[T-duality|T-dualizing]] one of the torus cycles. This perspective -- referred to as [[F-theory]] -- exhibits the [[axio-dilaton]] of type IIB string theory as the fiber of an [[elliptic fibration]] (essentially the torus bundle that M-theory was compactified on ([Johnson 97](#Johnson97))).
 
-The [[modular group]] acts on this [[elliptic fibration]], and this is S-duality for type IIB-strings. In particular the transformation $\tau \mapsto - \frac{1}{\tau}$ inverts the typeII coupling constant.  See at _[[F-theory]]_ for more.
+The [[modular group]] acts on this [[elliptic fibration]], and this is S-duality for type IIB-strings. In particular the transformation $\tau \mapsto - \frac{1}{\tau}$ inverts the type II coupling constant.  See at _[[F-theory]]_ for more.
 
-The typeIIB [[F1-string]] and the [[D1-brane]] appear by [[double dimensional reduction]] from the [[M2-brane]] wrapping (either) one of the two cycles of the compactifying torus, S-duality mixes these strings by the evident [[modular group]] action on the $(p,q)\in \mathbb{Z}^2$ labels of the [[(p,q)-strings]].
+The type IIB [[F1-string]] and the [[D1-brane]] appear by [[double dimensional reduction]] from the [[M2-brane]] wrapping (either) one of the two cycles of the compactifying torus. S-duality mixes these strings by the evident [[modular group]] action on the $(p,q)\in \mathbb{Z}^2$ labels of the [[(p,q)-strings]].
 
-Similarly the [[D5-brane]] and the [[NS5-brane]] are the [[double dimensional reduction]] of the [[M5-brane]] wrapping one of the two cycles of the compactifying torus, and hence the S-duality modular group also acts on $(p,q)$-5-branes, echanging them.
+Similarly the [[D5-brane]] and the [[NS5-brane]] are the [[double dimensional reduction]] of the [[M5-brane]] wrapping one of the two cycles of the compactifying torus, and hence the S-duality modular group also acts on $(p,q)$-5-branes, exchanging them.
 
-Finally the [[D3-brane]] is instead the [[double dimensional reduction]] of the [[M5-brane]] wrapping _both_ compactifying dimensions. Accordingly the worldvolume theory of the D3, which is [[super Yang-Mills theory]] in $d= 4$ has an S-self-duality. That is supposed to be the [[Montonen-Olive duality]] discussed above, which is thereby unified with type IIB S-duality. 
+Finally, the [[D3-brane]] is instead the [[double dimensional reduction]] of the [[M5-brane]], wrapping _both_ compactifying dimensions. Accordingly the worldvolume theory of the D3, which is [[super Yang-Mills theory]] in $d = 4$ has an S-self-duality. That is supposed to be the [[Montonen-Olive duality]] discussed above, which is thereby unified with type IIB S-duality. 
 
 In ([KrizSati 05](#KrizSati05)) it was conjectured that the right mathematical framework to capture type IIB S-duality is [[modular equivariant elliptic cohomology]].
 
