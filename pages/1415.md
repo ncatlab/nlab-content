@@ -402,5 +402,3 @@ category: meta
 
 [[!redirects Sandbox > SVG]]
 [[!redirects SVG Sandbox]]
-
-
