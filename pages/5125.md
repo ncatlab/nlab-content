@@ -23,9 +23,9 @@ $${\left\|\phi\right\|} = \{\psi \mid \vdash_\Lambda \phi\leftrightarrow \psi\},
  
 with the operations 
 
-*  $||\phi|| + ||\psi|| = ||\phi \vee \psi||$;
+*  ${\left\|\phi\right\|} + {\left\|\psi\right\|} = {\left\|\phi \vee \psi\right\|}$;
 
-*  $||\phi|| \cdot ||\psi||= ||\phi \wedge \psi||$;
+*  ${\left\|\phi\right\|} \cdot {\left\|\psi\right\|}= {\left\|\phi \wedge \psi\right\|}||||$;
 
 *  $||\phi||^- = ||\neg\phi||$;
  
