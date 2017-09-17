@@ -16,9 +16,9 @@
 
 ## Idea
 
-A _cellular set_ is a [[presheaf]] on the [[cell category]] ([[Theta-category]], disk category), analogous to how a [[simplicial set]] is a presheaf on the [[simplex category]].
+A _cellular set_ is a [[presheaf]] on the [[Theta-category]] (also called cell category or (Joyal's) disk category), analogous to how a [[simplicial set]] is a presheaf on the [[simplex category]].
 
-Cellular sets provide one approach to [[higher category theory|higher categories]] and abstract study of [[homotopy n-type|homotopy type]]s, for example in Joyal's approach to higher [[quasi-category|quasicategories]], which are a variety of [[(∞,n)-category|(∞,n)-categories]]. 
+Cellular sets provide one approach to [[higher category theory|higher categories]] and abstract study of [[homotopy n-type|homotopy type]]s, for example in Joyal's approach to higher [[quasi-category|quasicategories]], which are a variety of [[(∞,n)-category|(∞,n)-categories]] (for $n=1$). 
 
 One detailed development of a model of [[(∞,n)-category|(∞,n)-categories]] in terms of presheaves on disk categories is the notion of [[Theta space]].
 
@@ -54,4 +54,3 @@ A sketch of some of related combinatorics "on open boxes and prisms" is in one o
 [[!redirects cellular sets]]
 [[!redirects cellular object]]
 [[!redirects cellular objects]]
-
