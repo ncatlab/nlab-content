@@ -124,7 +124,7 @@ Similar statements hold in [[stable homotopy theory]] for [[spectra]], in which 
 
 For $p$ a [[prime number]] write
 
-* $L_p$ for [[Bousfield localization of spectra]] at the [[Moore spectrum]] $S \mathbb{F}_p}$, hence for [[p-completion]] $(-)_p^\wedge$;
+* $L_p$ for [[Bousfield localization of spectra]] at the [[Moore spectrum]] $S \mathbb{F}_p$, hence for [[p-completion]] $(-)_p^\wedge$;
 
 * $L_{\mathbb{Q}}$ for the [[Bousfield localization of spectra]] at the [[Moore spectrum]]/[[Eilenberg-MacLane spectrum]] $S \mathbb{Q} \simeq H \mathbb{Q}$, hence for [[rationalization]].
 
@@ -162,7 +162,7 @@ More generally
 +-- {: .num_prop #ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
 ###### Proposition
 
-Let $S (\mathbb{Q}/\mathbb{Z}) = \vee_p S \mathbb{F}_p$, then the product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at
+Since $S (\mathbb{Q}/\mathbb{Z}) = \vee_p S \mathbb{F}_p$, then the product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at
 
 $$
   \prod_p L_p X
