@@ -9,40 +9,92 @@
 =--
 =--
 
-# Contents
+# Localization of a space
 * table of contents
 {: toc}
 
 ## Idea
 
-### $\mathbb{Z}[p^{-1}]$-local, local away from $p$ and $\mathbb{Z}/p\mathbb{Z}$-acyclic
+The **localization of a space** or spectrum with respect to some [[primes]] is a homotopical analogue of the notion of [[localization of a commutative ring]], specifically the ring $\mathbb{Z}$ of integers, with respect to some primes.  In good cases, at least, this localization acts on the homotopy and/or homology groups as algebraic localization.  (For spaces, there are multiple inequivalent notions of localization, although all agree on [[nilpotent spaces]].)
 
-For $p$ a [[prime number]], a [[topological space]]/[[homotopy type]] or [[spectrum]] $X$ is called equivalently **$\mathbb{Z}[p^{-1}]$-local** or **localized away from $p$**  or else **$\mathbb{Z}/p\mathbb{Z}$-acyclic** if 
+Localization in this sense is closely related to [[Bousfield localization]].  The localization of spectra is a [[Bousfield localization of spectra]], while one of the constructions of localization of spaces is a Bousfield localization of model categories.  The present notion of localization should not be confused with the [[completion of a space]], which is a different sort of Bousfield localization.
 
-* its [[homotopy groups]] admit the [[structure]] of [[modules]] over the [[localization of a ring|localized away from p]] ring of [[integers]]  $\mathbb{Z}[p^{-1}]$;
+## Preliminaries
 
-equivalently:
+### Sets of primes
 
-* are such that the [[tensor product]] with the $p$-[[cyclic group]] vanishes: $\pi_\bullet(X) \otimes \mathbb{Z}/p\mathbb{Z} \simeq 0$.
+For all of this page, let $T$ be a set of primes, with $\neg T$ the set of primes not in $T$.  The most important cases are:
 
+* $T = \{p\}$ for a prime $p$.  In this case, $T$-localization will be **localization at $p$** or **$p$-localization**.
 
-### $\mathbb{Z}/p\mathbb{Z}$-local and $p$-complete
+* $T = \neg \{p\}$, the set of all primes except $p$.  In this case, $T$-localization will be **localization away from $p$**.
 
-A [[spectrum]] $X$ is **$\mathbb{Z}/p\mathbb{Z}$-local** if every map $Y \to X$ out of a $\mathbb{Z}/p\mathbb{Z}$-acyclic $Y$ is [[null homotopy|null homotopic]].
+* $T = \emptyset$.  In this caes, $T$-localization will be **rationalization**.
 
-The _$\mathbb{Z}/p\mathbb{Z}$-localization_ is the [[localization]] that makes the $\mathbb{Z}/p\mathbb{Z}$-local homotopy types/spectra be the [[local objects]].  This is the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p\mathbb{Z}$. 
+In general, let $\mathbb{Z}_T$ denote the ring of integers [[localization of a commutative ring|localized]] by inverting all primes in $\neg T$, i.e. the subring of $\mathbb{Q}$ whose denominators are products of primes in $\neg T$.  Thus, $\mathbb{Z}_\emptyset = \mathbb{Q}$ while $\mathbb{Z}_{\neg\{p\}} = \mathbb{Z}[\frac{1}{p}]$, and $\mathbb{Z}_{\{p\}} = \mathbb{Z}_{(p)}$ is the integers localized at the [[prime ideal]] $(p)$.
 
-This $\mathbb{Z}/p\mathbb{Z}$-localization is _$p$-[[p-completion|completion]]_.
+Note that the analogous theory of the [[completion of a space]] involves the [[cyclic groups]] $\mathbb{Z}/p\mathbb{Z}$ (sometimes written $\mathbb{F}_p$) and/or the [[p-adic integers]] $\mathbb{Z}_p$ insteaf of $\mathbb{Z}_T$.
 
-(e.g. [May-Ponto, example 19.2.3](#MayPonto) [Lurie, example 8](#Lurie))
+### Local groups
 
+A [[group]] $G$ is said to be **$T$-local** if the $p^{th}$ power map $G\to G$ is a bijection for all $p\in \neg T$.
 
-### $\mathbb{Z}_{(p)}$-local and  local at $p$ 
+If $G$ is [[abelian group|abelian]], then this map is a group homomorphism and is  generally written additively as multiplication by $p$.  In this case the following are equivalent:
 
-Conversely, with $\mathbb{Z}_{(p)}$ the ring of integers [[localization of a ring|localized at]] $p$, hence with all primes except $p$ inverted, then localization of spaces/spectra at $p$ is similarly localization by $H \mathbb{Z}_{(p)}$
+* $G$ is $T$-local.
 
-(e.g. [Sullivan 70, def. 2.1](#Sullivan70), [May-Ponto 5.2 and example 19.2.3](#MayPonto)).
+* $G$ admits a structure of $\mathbb{Z}_T$-[[module]] (necessarily unique).
 
+* The [[tensor product]] $G\otimes \mathbb{Z}/p\mathbb{Z}$ with the [[cyclic group]] of order $p$ is equal to zero for all $p\in\neg T$.
+
+The second characterization implies that $T$-local abelian groups are [[reflective subcategory|reflective]] in [[Ab]]: the reflection is the [[extension of scalars]] functor $(\mathbb{Z}_T \otimes -)$.  In fact, $T$-local nonabelian groups are also reflective in [[Grp]], but the construction is less pretty.
+
+## Definitions
+
+### Localization of spectra
+
+A [[spectrum]] $X$ is called **$T$-local** (or $\mathbb{Z}_T$-local, if there is potential for confusion) if its [[homotopy groups]] are $T$-local abelian groups.
+
+The **$T$-localization** of a spectrum is its reflection into $T$-local spectra.  This can be constructed as the [[Bousfield localization of spectra]] with respect to the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}_T$.  It can also be constructed as a [[Bousfield localization of model categories]] where we invert the maps that induce an isomorphism on [[generalized homology]] with coefficients in $H \mathbb{Z}_T$; these are called **$\mathbb{Z}_T$-homology isomorphisms**.
+
++-- {: .un_remark}
+###### Remark
+A $\neg\{p\}$-local spectrum is also called **$\mathbb{Z}/p\mathbb{Z}$-acyclic**.  According to the general theory of [[Bousfield localization of spectra]], they are "dual" to the "$\mathbb{Z}/p\mathbb{Z}$-local spectra", in the sense that $X$ is $\mathbb{Z}/p\mathbb{Z}$-local if every map $Y \to X$ out of a $\mathbb{Z}/p\mathbb{Z}$-acyclic $Y$ is [[null homotopy|null homotopic]].  $\mathbb{Z}/p\mathbb{Z}$-local spectra are also known as *$p$-complete* spectra, and are the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p\mathbb{Z}$.  See [May-Ponto, example 19.2.3](#MayPonto) [Lurie, example 8](#Lurie).
+=--
+
+### Localization of nilpotent spaces
+
+The presence of the nonabelian group $\pi_1$ makes the theory of localization of unstable spaces more subtle than that of spectra.  If spaces are [[simply connected]], of course, then this is not a problem.  More generally, it suffices to consider [[simple spaces]]: those where $\pi_1$ is abelian and acts trivially on the higher homotopy groups.  Even more generally, it suffices to consider [[nilpotent spaces]], whose definition is more complicated; the reader is encouraged to think about simple or even simply connected spaces.
+
+For a nilpotent space $Z$, the following conditions are equivalent.  When they hold, we say that $Z$ is **$T$-local**.  (See [May-Ponto, Theorem 6.1.1](#MayPonto).)
+
+1. Whenever $X\to Y$ induces an isomorphism on homology with $\mathbb{Z}_T$-coefficients, the induced map $[Y,Z] \to [X,Z]$ is a bijection.
+
+2. Each [[homotopy group]] $\pi_n(Z)$ is a $T$-local group.
+
+3. Each [[homology group]] $H_n(Z,\mathbb{Z})$ is a $T$-local group.
+
+For a general nilpotent space $X$, the following properties of a map $\phi:X\to Y$, with $Y$ nilpotent and $T$-local, are equivalent.  Such a map exists and is unique up to homotopy, and we call it the **$T$-localization** of $X$ at $T$.  (See [May-Ponto, Theorem 6.1.2](#MayPonto).)
+
+1. The induced map $[Y,Z] \to [X,Z]$ is a bijection for all $T$-local nilpotent spaces $Z$.
+
+2. $\phi$ induces an isomorphism on homology with $\mathbb{Z}_T$-coefficients.
+
+3. The induced map $\pi_n(X) \to \pi_n(Y)$ is an algebraic $T$-localization for all $n$.
+
+4. The induced map $H_n(X,\mathbb{Z}) \to H_n(Y,\mathbb{Z})$ is an algebraic $T$-localization for all $n$.
+
+### Localization of non-nilpotent spaces
+
+For non-nilpotent spaces, there are multiple inequivalent definitions of localization.  For instance:
+
+* One can do a [[Bousfield localization of model categories]] with respect to the class of $\mathbb{Z}_T$-homology equivalences.
+
+* One can construct a [[totalization]] of the [[cosimplicial object]] induced by the "free simplicial $\mathbb{Z}_T$-module" monad.  This construction is due to [Bousfield-Kan](#BousfieldKan72).
+
+* One can do a [[Bousfield localization of model categories]] with respect to the maps $p:S^1\to S^1$ for all $p\in \neg T$.  This construction is due to [Casacuberta-Peschke](#CasacubertaPeschke).
+
+In most or all cases, it is not clear how to characterize the non-nilpotent local spaces homotopically or homologically, see e.g. [May-Ponto, Remark 19.3.11](#MayPonto).  On the other hand, one can of course state (one of) the above definitions of "$T$-local space" even in the non-nilpotent case, as is done by [Sullivan](#Sullivan70), but it is not clear whether a corresponding "localization" exists.
 
 ## Properties
 
@@ -72,11 +124,13 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 ## References
 
 
-* {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
+* {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springe ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
 * {#MayPonto} [[Peter May]], [[Kate Ponto]], _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
+
+* {#CasacubertaPeschke} Carles Casacuberta and Georg Peschke, _Localizing with respect to self maps of the circle_ ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cpes.pdf)).
 
 
 * {#Lurie} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
