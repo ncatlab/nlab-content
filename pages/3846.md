@@ -4,7 +4,7 @@
 
 ## Definition
 
-Let $k$ be a [[field]] with $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional [[vector space]] $V$ together with a 
+Let $k$ be a field with $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional vector space $V$ together with a 
 
 * A nondegenerate symmetric bilinear form $\langle , \rangle: V \otimes V \to k$, 
 
@@ -16,7 +16,7 @@ such that, putting $N(v) = \langle v, v \rangle$,
 
 * $N(u) N(v) = N(u v)$ (writing $u v$ for $u \cdot v$). 
 
-There are no assumptions on the multiplication such as associativity, commutativity, etc. Examples of composition algebras include the [[real number]]s, the [[complex number]]s, the [[quaternion]]s, and the [[octonion]]s. 
+There are no assumptions on the multiplication such as associativity, commutativity, etc. Examples of composition algebras include the real numbers, the complex numbers, the quaternions, and the octonions. 
 
 Since $char(k) \neq 2$, we can recover the bilinear form from the norm by the formula 
 
@@ -27,6 +27,8 @@ Since the bilinear form is nondegenerate, we may infer $u = v$ whenever
 $$\langle u, w \rangle = \langle v, w \rangle$$
 
 and this will be frequently used in the sequel. 
+
+Also since the form is nondegenerate, there exists $v \in V$ such that $N(v) \neq 0$. From $N(v) = N(e v) = N(e)N(v)$, it follows that $N(e) = 1$. 
 
 ## Basic identities
 
@@ -85,7 +87,9 @@ $\langle u v, w \rangle = \langle v, \bar{u}w \rangle$ and $\langle u v, w \rang
 ######Proof
 Put $x = e$ in the exchange identity to get the first equation in 
 
-$$\langle u v, w \rangle = 2\langle u, w \rangle \langle v, 1 \rangle - \langle u, w v \rangle = \langle u, w(2\langle v, e\rangle e - v)\rangle = \langle u, w\bar{v} \rangle$$
+$$\langle u v, w \rangle = 2\langle u, w \rangle \langle v, e \rangle - \langle u, w v \rangle = \langle u, w(2\langle v, e\rangle e - v)\rangle = \langle u, w\bar{v} \rangle$$
+
+The other adjointness equation is proved similarly. 
 =--
 
 +-- {: .un_prop} 
@@ -126,7 +130,56 @@ $$\langle \bar{u}\bar{v}, w \rangle = \langle \bar{v}, u w \rangle = \langle \ba
 using involution and unitarity. The result follows from nondegeneracy of the form. 
 =-- 
 
++-- {: un.prop}
+######Proposition (Reality) 
+$\bar{u} \cdot (u v) = N(u)v$. 
+=-- 
+
++-- {: .proof}
+######Proof 
+For all $w$, 
+
+$$\langle \bar{u}\cdot (u v), w \rangle = \langle u v, u w \rangle = N(u)\langle v, w \rangle = \langle N(u)v, w \rangle$$ 
+
+and the result follows from nondegeneracy. 
+=--
+
+This last result has several interesting corollaries. Putting $v = e$, we see that 
+
+* $N(u) \neq 0$ implies $u$ is invertible, with $u^{-1} = \bar{u}/N(u)$. 
+
+* $N(u) = 0$ implies $u$ is a zero divisor, with $\bar{u} u = 0$. 
+
+In either case, we have from $\bar{u} = 2\langle u, e \rangle e - u$ the identity 
+
+$$\bar{u} u = (2\langle u, e \rangle e - u)u = N(u)e$$ 
+
+so that every element $u$ of a composition algebra satisfies a quadratic equation 
+
+$$u^2 - 2\langle u, e \rangle u + N(u)e = 0.$$ 
+
+This has as further consequence the fact that an algebra admits at most one norm making it a composition algebra (because the minimal monic polynomial of an element $u$ in a finite-dimensional algebra is uniquely determined, and the norm would be retrieved as the uniquely determined constant coefficient). 
+
+A final corollary of the "Reality" proposition is 
+
++-- {: .un_prop} 
+######Proposition (Alternative law) 
+
+$u \cdot (u v) = u^2 \cdot v$ and $u \cdot v^2 = (u v) \cdot v$. 
+=--
+
++-- {: .proof} 
+######Proof 
+By reality, and because $u$ is a linear combination of $\bar{u}$ and $e$. 
+=--
+
 ## Cayley-Dickson doubling construction
+
+We begin with a simple observation: let $V$ be a vector space with a nondegenerate bilinear form and let $W$ be a subspace such that the form on $V$ restricts to a nondegenerate form on $W$. Then 
+
+$$V = W \oplus W^\perp$$ 
+
+and the form on $V$ restricts to a nondegenerate form on $W$. 
 
 ## References
 
