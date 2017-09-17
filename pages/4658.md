@@ -1,4 +1,3 @@
-[[!redirects diffeological n-groupoid]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,7 +9,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -23,4 +22,10 @@ If we regard Lie groupoids as special cases of [[stack]]s on [[Diff]], then diff
 
 ## Examples
 
-* The [[path groupoid]] of a smooth manifold (and of course of a diffeological space) $X$ is a diffeological groupoid.
+* The [[path groupoid]] of a smooth manifold (and indeed of a diffeological space) $X$ is a diffeological groupoid.
+
+
+[[!redirects diffeological groupoid]]
+[[!redirects diffeological groupoids]]
+[[!redirects diffeological n-groupoid]]
+[[!redirects diffeological n-groupoids]]
