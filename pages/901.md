@@ -99,6 +99,8 @@ $$
 with $D$ a [[filtered category]].
 =--
 
+The functors $C^{op}\to Set$ belonging to $ind\text{-}C$ under this definition --- those which are filtered colimits of representables --- have an equivalent characterization as the [[flat functors]]: those which "would preserve all finite colimits if $C$ had them".  In particular, if $C$ has finite colimits, then $ind\text{-}C$ consists exactly of the finitely cocontinuous presheaves.
+
 +-- {: .num_defn}
 ###### Definition
 
