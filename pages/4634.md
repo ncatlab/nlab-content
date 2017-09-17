@@ -117,13 +117,14 @@ $$
 
 hence by the [[non-connective algebraic K-theory]] of the [[Deligne tensor product]] of the two categories. 
 
-Thinking of these as categories of [[quasicoherent sheaves]] on some spaces (by definition in [[noncommutative algebraic geometry]]), this are $\mathbb{K}$-cocycles on the product correspondence space.
+Thinking of these as categories of [[quasicoherent sheaves]] on some spaces (by definition in [[noncommutative algebraic geometry]]), this are $\mathbb{K}$-cocycles on the product [[correspondence]] space.
 
 (...)
 
 ### Relation to Chow motives
+ {#RelationToChowMotives}
 
-The relation between ordinary [[Chow motives]] and noncommutative Chow motives is recalled as theorem 4.6 in ([Tabuada 11](#Tabuada11)). For more see [Tabuada 11 ChowNCG](#Tabuada11Chow)
+The category of ordinary [[Chow motives]], after factoizing out the actiojn of the [[Tate motive]] essentially sits inside that of noncommutative Chow motives. This is recalled as  ([Tabuada 11, theorem 4.6](#Tabuada11)). For more see ([Tabuada 11 ChowNCG](#Tabuada11Chow)).
 
 ### Relation to KK-theory
 
@@ -203,8 +204,7 @@ See also
 
   _Products, multiplicative Chern characters, and finite coefficients via Non-commutative motives_, [arxiv/1101.0731](http://arxiv.org/abs/1101.0731);  
 
-* [[Goncalo Tabuada]], _Chow motives versus non-commutative motives_ ([arxiv/1103.0200](http://arxiv.org/abs/1103.0200)
- {#Tabuada11Chow})
+* {#Tabuada11Chow} [[Goncalo Tabuada]], _Chow motives versus non-commutative motives_ ([arxiv/1103.0200](http://arxiv.org/abs/1103.0200)
 
 * [[Goncalo Tabuada]],  _Galois descent of additive invariants_, [arxiv/1301.1928](http://arxiv.org/abs/1301.1928)
 
