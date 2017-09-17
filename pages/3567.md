@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Definition
 
-By $Ho(Top)$ one means a [[homotopy category]] of [[Top]] with respect to [[category with weak equivalences|weak equivalences]] given 
+By $Ho(Top)$ one denotes the [[category]] which is the [[homotopy category]] of [[Top]] with respect to [[category with weak equivalences|weak equivalences]] given 
 
 * either by [[homotopy equivalence]]s -- $Ho(Top)_{he}$.
 
