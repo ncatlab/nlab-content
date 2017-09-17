@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Orbit method_ (or _Kirillov's method_, or _method of coadjoint orbits_) is a method in [[geometric representation theory]] concerned with identifying [[unitary representations]] of [[Lie groups]] with the canonical $G$-[[actions]] on spaces of [[sections]] of certain [[line bundles]] over [[coadjoint orbits]] of the Lie group. In terms of [[quantum physics]] this realizes $G$-representations as action of [[global gauge groups]] on [[quantum states]] under [[geometric quantization]].
+The _Orbit method_ (or _Kirillov's method_, or _method of coadjoint orbits_) is a method in [[geometric representation theory]] concerned with identifying [[unitary representations]] of [[Lie groups]] with the canonical $G$-[[actions]] on spaces of [[sections]] of certain [[line bundles]] over [[coadjoint orbits]] of the Lie group. In terms of [[quantum physics]] this realizes $G$-[[representations]] as actions of [[global gauge groups]] of [[quantum operators]] on [[spaces of quantum states]] under _[[geometric quantization]]_.
 
 More in detail, the dual $\mathfrak{g}^*$ of a (say finite-dimensional real) [[Lie algebra]] has a canonical structure of a [[Poisson manifold]] -- its _[[Lie-Poisson structure]]_ --, namely for any $a\in \mathfrak{g}^*$, 
 
@@ -933,7 +933,11 @@ A program of applying the orbit method to real nilpotent orbits of real semisimp
 
 Discussion of the orbit method in terms of [[equivariant K-theory]] and [[Dirac induction]] is in 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part II, section 1 of _[[Loop Groups and Twisted K-Theory]]_.
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part II, section 1 of _[[Loop Groups and Twisted K-Theory]]_
+ {#HFT}
+
+* [[Peter Hochs]], section 2.2 of _Quantisation of presymplectic manifolds, K-theory and group representations_ ([arXiv:1211.0107](http://arxiv.org/abs/1211.0107))
+ {#Hochs12}
 
 
 Generalization to [[supergeometry]] is discussed in:
