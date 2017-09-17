@@ -10,10 +10,12 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-## Idea 
+## Of chain complexes
+
+### Idea 
 
 Under the [[Dold-Kan correspondence]] [[∞-groupoids]] with strict abelian group structure (modeled by [[Kan complexes]] that are [[simplicial object|simplicial]] abelian groups) are identified with non-negatively graded [[chain complexes]] of abelian groups
 
@@ -38,7 +40,7 @@ Of course historically the development of concepts was precisely the oppposite: 
 But conceptually it is useful to understand homology as a special kind of [[homotopy]]. This is maybe most vivid in the [[duality|dual]] picture: [[cohomology]] derives its name from that fact that [[chain homology and cohomology]] are dual concepts. But later generalizations of [[cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] and further to [[nonabelian cohomology]] showed that the restricted notion of homology is an insufficient dual model for cohomology: what cohomology is really dual to is the more general concept of [[homotopy]].  More on this is at [[cohomotopy]] and [[Eckmann-Hilton duality]].
 
 
-## Definition
+### Definition
 
 The category of abelian groups is in particular an [[abelian category]].
 We can define [[chain complexes]] and their homology in any [[abelian category]] $C$. 
@@ -94,7 +96,7 @@ $$
 
 * If $H_n(V) \simeq 0$ then one says that the complex $V$ is [[exact sequence|exact]] in degree $n$.
 
-## Examples 
+### Examples 
 
 In the special case that $C$ is the category of abelian groups, or of vector spaces, this definition reduces to the more familiar simpler statement:
 
@@ -102,6 +104,26 @@ the $n$-th homology group of the [[chain complex]] $V_\bullet$ is the quotient g
 
 $$
   H_n(V) = ker(\partial_n) / im(\partial_{n+1})
+  \,.
+$$
+
+## Generalized homology
+
+By the [[Brown representability theorem]] every [[spectrum]] $A$ induces a [[generalized (Eilenberg-Steenrod) cohomology]] theory, and dually a **generalized homology theory**.
+
+For $X$ a [[topological space]] and $A$ a [[spectrum]], the generalized homology of spectrum of $X$ with coefficients in $E$ is 
+
+$$
+  X \smash A := \Sigma^\infty(X)\smash A
+  \,,
+$$
+
+where on the right we have the [[smash product of spectra]] with the [[suspension spectrum]] of $X$ and on the left we abbreviate this to the [[(∞,1)-tensoring]] of [[Spec]] over [[Top]].
+
+The corresponding [[homology group]]s are the [[homotopy group]]s of this spectrum:
+
+$$
+  E_n(X,A) := \pi_n(X \wedge A) := [\Sigma^n S, X \wedge A ]
   \,.
 $$
 
