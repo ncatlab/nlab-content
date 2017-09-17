@@ -52,7 +52,7 @@ The unique irreducible Dirac representation in the odd dimension $d+1$ is, as a 
 
 One may ask in which dimensions $d$ the above complex representation admit a [[real structure]] or a [[quaternionic structure]].
 
-Real spinor representations are also called _Majorana_ representations. 
+Real spinor representations are also called _Majorana representations_, and an element of a real/Majorana spin representation is also called a _Majorana spinor_. On a Majorana representation $S$ there is a non-vanishing symmetric and $Spin(d-1,1)$-invariant [[bilinear form]] $S \otimes S \longrightarrow \mathbb{R}^d$, projectively unique if $S$ is [[irreducible representation|irreducible]]. This serves as the odd-odd [[Lie bracket]] in the [[super Lie algebra]] called the [[super Poincaré Lie algebra]] [[Lie algebra extension|extension]] of the ordinary [[Poincaré Lie algebra]] induced by $S$. This is "[[supersymmetry]]" in [[physics]].
 
 The above irreducible complex representations admit a [[real structure]] for $d = 1,2,3 \, mod \, 8$. 
 
