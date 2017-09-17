@@ -1,6 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -92,3 +107,6 @@ $$ \array {
 [[!redirects symmetric powers]]
 [[!redirects symmetric tensor power]]
 [[!redirects symmetric tensor powers]]
+
+[[!redirects symmetric product]]
+[[!redirects symmetric products]]
