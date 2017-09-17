@@ -1,3 +1,8 @@
+[[!redirects I.3, open- and closed subfunctors; schemes]]
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
 For a $k$-functor $X\in coPsh(M_k)$ and $E\subseteq O(X)=M_k(X,O_k)$ a set of functions on $X$, Definition in [[k-ring]], we define
 
 $$V(E)(R):=\{x\in X(R) | f\in E, f(x)=0\}$$
