@@ -91,3 +91,5 @@ $$
 It follows from the [[Yoneda lemma]] that the functor $Y$ is [[full and faithful functor|full and faithful]]. It is also [[limit]] preserving (= [[continuous functor]]), but does in general not preserve [[colimit]]s. 
 
 The Yoneda embedding of a [[small category]] $S$ into the category of [[presheaf|presheaves]] on $S$ gives a [[free cocompletion]] of $S$.
+
+If the Yoneda embedding of a category has a [[left adjoint]], then that category is called a _[[total category]]_ .
