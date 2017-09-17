@@ -34,6 +34,10 @@ If $n$ is a positive natural number, then the characteristic of $\mathbb{N}/n = 
 For $n = 0$, $\mathbb{N}/0 = \mathbb{N}$, $\mathbb{Z}/0 = \mathbb{Z}$, and the prime field $\mathbb{F}_0 = \mathbb{Q}$ (the field of [[rational numbers]]) are no longer all the same, but they still all have characteristic $0$.  Every [[ordered field]] has characteristic $0$.  The [[real numbers]] and [[complex numbers]] each form fields of characteristic $0$.
 
 
+## Related concepts
+
+* [[freshman's dream]]
+
 [[!redirects characteristic]]
 [[!redirects characteristics]]
 [[!redirects characteristic of a field]]
