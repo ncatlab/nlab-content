@@ -226,6 +226,13 @@ $$
 
 See at _[FinSet -- Properties -- Opposite category](FinSet#OppositeCategory)_. See at _[[Stone duality]]_ for more.
 
+## Related concepts
+
+* [[opposite 2-category]]
+
+* [[opposite model category]]
+
+* [[opposite (infinity,1)-category]]
 
 ## References
 
