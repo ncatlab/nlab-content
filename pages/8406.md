@@ -70,9 +70,7 @@ This is the special case of [[Einstein-Yang-Mills theory]] for the [[gauge group
 
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
-* [[standard model of particle physics]]
-
-* [[standard model of cosmology]]
+[[!include standard model of fundamental physics - table]]
 
 
 
