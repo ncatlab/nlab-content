@@ -17,7 +17,6 @@
 * table of contents
 {: toc}
 
-
 ## Definition
 
 Let $(X,g)$ be a [[Riemannian manifold]] and $f \in C^\infty(X)$ a [[function]].
@@ -46,6 +45,14 @@ $$
 
 where $vol_g$ is the [[volume form]] and $\star_g$ is the [[Hodge star operator]] induced by $g$.  (The result is independent of [[orientation]], which can be made explicit by interpreting both $vol$ and $\star$ as valued in [[pseudoforms]].)
 
+Alternatively, the gradient of a scalar field $A$ in some point $x\in M$ is calculated (or alternatively defined) by the integral formula 
+
+$$
+grad A = lim_{vol D\to 0} \frac{1}{vol D} \oint_{\partial D} \vec{n} A d S
+$$
+
+where $D$ runs over the domains with smooth boundary $\partial D$ containing point $x$ and $\vec{n}$ is the unit vector of outer normal to the surface $S$. The formula does not depend on the shape of boundaries taken in limiting process, so one can typically take a coordinate chart and balls with decreasing radius in this particular coordinate chart. 
+
 
 ## Example
 
@@ -64,6 +71,8 @@ In many classical applications of the gradient in [[vector analysis]], the Riema
 
 
 ## Related concepts
+
+* [[nabla]]
 
 * **gradient**
 
