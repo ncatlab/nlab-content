@@ -104,6 +104,6 @@ Therefore the condition that the invariant polynomial is $n$-plectic amounts to 
 
 Discussion of what here we call "higher symplectic geometry over Lie 0-algebroids" ([[multisymplectic geometry]]) is in 
 
-* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis ([arXiv](http://arxiv.org/abs/1106.4068)).
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068)).
 
 For more references see [[multisymplectic geometry]].
