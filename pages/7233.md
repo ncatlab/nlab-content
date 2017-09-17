@@ -15,8 +15,64 @@
 
 ## Idea
 
-A [[Riemannian manifold]] with [[special holonomy]] [[G2]].
+A _$G_2$-structure_ on a [[manifold]] of [[dimension]] 7 is a choice of [[reduction of the structure group]] of the [[tangent bundle]] along the inclusion of [[G2]] into $GL(7)$.
 
+Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the canonical [[differential n-form|differential 3-form]] on $\mathbb{R}^7$, a $G_2$ structre is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
+
+A _$G_2$-manifold_ is a manifold equipped with an "integrable" or "parallel" $G_2$-structure. This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
+
+$G_2$-manifolds may be understood as 7-dimensional analogs of real 6-dimensional [[Calabi-Yau manifolds]].
+
+## Definition
+
++-- {: .num_defn #G2Structure}
+###### Definition
+
+For $X$ a [[smooth manifold]] of [[dimension]] $7$ a **$G_2$-structure** on $X$ is a choice of [[differential n-form|differential 3-form]] $\omega \in \Omega^3(X)$ such that there is an [[atlas]] over which this 3-form  locally identifies with the _[associative 3-form](G2#Definition)_ on the [[Cartesian space]] $\mathbb{R}^7$.
+
+Equivalently, this is a choice of [[reduction of the structure group]] of the [[tangent bundle]] along the inclusion
+
+$$
+  G_2 \hookrightarrow GL(7)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #CanonicalRiemannianMetric}
+###### Remark
+
+A $G_2$-structure in particular implies an [[orthogonal structure]], hence a [[Riemannian metric]].
+
+
+=--
+
++-- {: .num_defn #G2manifold}
+###### Definition
+
+A manifold equipped with a $G_2$-structure $\omega$, def. \ref{G2Structure}, is called a **$G_2$-manifold** if $\omega$ is "parallel" or "integrable" in that 
+
+1. $d \omega = 0$ 
+
+1. $d \star \omega = 0$
+
+(where $d$ is the [[de Rham differential]] and $\star$ is the [[Hodge star operator]] of the canonical [[Riemannian metric]] of remark \ref{CanonicalRiemannianMetric}).
+
+=--
+
+For instance ([Joyce, p. 4](#Joyce)).
+
+
+The [[holonomy]] of the [[Levi-Civita connection]] on a $G_2$-manifold is contained in $G_2$.
+
+## Properties
+
++-- {: .num_prop }
+###### Proposition
+
+A 7-manifold admits a $G_2$-structure, def. \ref{G2Structure}, precisely if it admits a [[spin structure]].
+
+=--
 
 ## Applications
 
@@ -32,11 +88,20 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 * [[generalized G2-manifold]]
 
+* [[Calabi-Yau manifold]]
+
 * [[exceptional generalized geometry]]
 
 ## References
 
 ### General
+
+[[compact topological space|Compact]] $G_2$-manifolds were first found in 
+
+* [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
+ {#Joyce}
+
+* [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
 
 Surveys include
 
@@ -44,13 +109,17 @@ Surveys include
 
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
 
+The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is discussed explicitly in 
+
+* A. Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_
+ {#Ibort}
 
 For more see the references at _[[exceptional geometry]]_.
 
  
 ### Application in supergravity
 
-The following references discuss the role of $G_2$-manifolds in [[11-dimensional supergravity]].
+The following references discuss the role of $G_2$-manifolds in [[M-theory on G2-manifolds]]:
 
 * [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
  {#Duff}
@@ -62,3 +131,8 @@ A survey of the corresponding [[string phenomenology]] is in
 [[!redirects G2 manifolds]]
 [[!redirects G2-manifold]]
 [[!redirects G2-manifolds]]
+
+[[!redirects G2 structure]]
+[[!redirects G2-structure]]
+[[!redirects G2 structures]]
+[[!redirects G2-structures]]
