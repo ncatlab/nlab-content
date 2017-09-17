@@ -65,15 +65,29 @@ If $I\subset A$ is an ideal, then the **relative cyclic homology** groups $HC_n(
 
 ## References
 
-* [[Boris Tsygan]], [[Boris Feigin]],  _[[Additive K-theory]]_, in LNM 1289 (1987), edited by Yu. I. Manin, pp. 67--209, seminar 1984-1986 in Moscow), [MR89a:18017](http://www.ams.org/mathscinet-getitem?mr=923136)
+The complex for cyclic homology was considered by [[Alain Connes]] and [[Boris Tsygan]] around 1981, 1982. 
+
+A standard textbook is
 
 * [[J-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. __301__, Springer, 2nd ed.
 
+Quick lectures notes are in
+
+* [[D. Kaledin]], _Tokyo lectures "Homological methods in non-commutative geometry"_, ([pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf)), ([TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex)); and related but different [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul)
+
+A survey is in
+
 * [[Masoud Khalkhali]], _A short survey of cyclic cohomology_, [arxiv/1008.1212](http://arxiv.org/abs/1008.1212)
+
+
+An influential original reference is 
+
+* [[Boris Tsygan]], [[Boris Feigin]],  _[[Additive K-theory]]_, in LNM 1289 (1987), edited by Yu. I. Manin, pp. 67--209, seminar 1984-1986 in Moscow), [MR89a:18017](http://www.ams.org/mathscinet-getitem?mr=923136)
+
+In the discu
 
 * [[Alain Connes]], _Noncommutative geometry_, Acad. Press 1994, 661 p. [PDF](http://www.alainconnes.org/docs/book94bigpdf.pdf) 
 
-* [[D. Kaledin]], _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex); and related but different [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul)
 
 * [[D. Kaledin]], _Cyclic homology with coefficients_, [math.KT/0702068](http://arxiv.org/abs/math.KT/0702068), to appear in Yu. Manin's 70th anniversary volume.
 
