@@ -1,4 +1,5 @@
 
+> much of this material is currently being reorganized at [[Smooth∞Grpd]]
 
 
 +-- {: .rightHandSide}
@@ -1197,13 +1198,6 @@ In terms of the underlying $\infty$-Lie algebra valued local connection data, i.
 (...)
 
 
-## Related entries
-
-* [[schreiber:differential cohomology in an (∞,1)-topos -- survey]]
-
-* [[∞-Chern-Weil theory introduction]]
-
-* **$\infty$-Chern-Weil theory**
 
 
 ## References
