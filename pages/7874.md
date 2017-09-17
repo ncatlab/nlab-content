@@ -62,6 +62,7 @@ See the Idea-section at _[[tmf]]_ and at _[[Witten genus]]_ for more background.
 
 * [[logarithmic cohomology operation]]
 
+[[!include genera and partition functions - table]]
 
 ## References
 
