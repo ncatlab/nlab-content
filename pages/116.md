@@ -250,8 +250,11 @@ For more see [[counterexamples in algebra]].
 
   * [[group extension]]
 
+  * [[normed group]], [[bornological group]]
 
-  * [[topological group]], [[Lie group]], [[loop group]], 
+  * [[topological group]], [[Lie group]], 
+
+  * [[loop group]]
 
 * [[ring]], [[ring object]]
 
