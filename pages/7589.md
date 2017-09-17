@@ -1,5 +1,20 @@
 
+Bill Thurston was an American mathematician who made important contributions to the theory of [[orbifold]]s and to [[geometric group theory]].
+
+
+
+
 * [wikipedia entry](http://en.wikipedia.org/wiki/William_Thurston)
+
+
+
+##Obituary
+
+* [AMS](http://www.ams.org/news?news_id=1602)
+
+##St Andrew's History entry:
+
+* [Thurston](http://www-history.mcs.st-and.ac.uk/Biographies/Thurston.html)
 
 category: people
 [[!redirects Bill Thurston]]
