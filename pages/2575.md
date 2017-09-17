@@ -355,6 +355,7 @@ $$
 
 The result is a [[circle n-bundle with connection|circle (3-k)-bundle with connection]] over the smooth moduli stack of Chern-Simons fields on $\Sigma_k$.  We explain now how, as $k$-varies, there [[transgression|transgressions]] of the differential characteristic map $\mathbf{c}_{conn}$ constitute [[prequantum circle n-bundle|prequantum circle (3-k)-bundles]] for an [[higher geometric quantization]] of Chern-Simons theory, as indicated in the following table.
 
+
 | [[codimension]] $k= $ |  |  [[prequantum circle n-bundle|prequantum circle (3-k)-bundle]]
 |--|--|--|
 | 3 | [[differential string structure|differentially refined]] [[first fractional Pontryagin class]] ([[level (Chern-Simons theory)]]) | $\mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$ |
@@ -833,18 +834,18 @@ The original method of quantization of Chern-Simons theory used already in ([Wit
 
 More discussion of this is in 
 
-* [[Edward Witten]] (lecture notes by Lisa Jeffrey), _New results in Chern-Simons theory_, pages 81 onwards  in: S. Donaldson, C. Thomas (eds.) _Geometry of low dimensional manifolds 2: Symplectic manifolds and Jones-Witten theory_ (1989) ([pdf](http://cs5538.userapi.com/u11728334/docs/06f79688de6f/S_K_Donaldson_Geometry_of_LowDimensional_Ma.pdf))
- {#WittenJeffrey}
+* {#WittenJeffrey} [[Edward Witten]] (lecture notes by Lisa Jeffrey), _New results in Chern-Simons theory_, pages 81 onwards  in: [[Simon Donaldson]], C. Thomas (eds.) _Geometry of low dimensional manifolds 2: Symplectic manifolds and Jones-Witten theory_ (1989) ([pdf](http://cs5538.userapi.com/u11728334/docs/06f79688de6f/S_K_Donaldson_Geometry_of_LowDimensional_Ma.pdf))
+ 
 
-* [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. 33 (1991), 787-902.  ([EUCLID](http://projecteuclid.org/euclid.jdg/1214446565))
- {#AxelrodPietraWitten91}
+* {#AxelrodPietraWitten91} [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. 33 (1991), 787-902.  ([EUCLID](http://projecteuclid.org/euclid.jdg/1214446565))
+ 
 
 * [[Scott Axelrod]], _Geometric Quantization of Chern-Simons Gauge Theory_ PhD thesis (1991)
 
 The role of the [[metaplectic correction]] is studied in some detail in 
 
-* Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
- {#ScheinostSchottenloher96}
+* {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
+ 
 
 Decent expositions are for instance in 
 
@@ -856,15 +857,15 @@ and in section 3.3 of
 
 Discussion that relates the geometric quantization of $G$-Chern-Simons theory to the [[Reshetikhin-Turaev construction]] of a 3d-[[TQFT]] from the [[modular tensor category]] induced by $G$ is in 
 
-* [[Jørgen Andersen]], _A geometric formula for the Witten-Reshetikhin-Turaev Quantum Invariants and some applications_ ([arXiv:1206.2785](http://arxiv.org/abs/1206.2785))
- {#Andersen12}
+* {#Andersen12} [[Jørgen Andersen]], _A geometric formula for the Witten-Reshetikhin-Turaev Quantum Invariants and some applications_ ([arXiv:1206.2785](http://arxiv.org/abs/1206.2785))
+ 
 
 and references cited there.
 
 Discussion in terms of [[geometric quantization by push-forward]] is in 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
- {#FreedHopkinsTeleman}
+* {#FreedHopkinsTeleman} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
+ 
 
 The "[[prequantum circle n-bundle|prequantum circle 3-bundle]]" in codimension 3, was constructed in 
 
@@ -873,8 +874,8 @@ The "[[prequantum circle n-bundle|prequantum circle 3-bundle]]" in codimension 3
 
 and in codimension 2 ([[Wess-Zumino-Witten model]]) implicitly in 
 
-* [[Alan Carey]], [[Stuart Johnson]], [[Michael Murray]], [[Danny Stevenson]], [[Bai-Ling Wang]], _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_, Commun.Math.Phys. 259 (2005) 577-613 ([arXiv:math/0410013](http://arxiv.org/abs/math/0410013))
- {#CJMSW}
+* {#CJMSW} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], [[Danny Stevenson]], [[Bai-Ling Wang]], _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_, Commun.Math.Phys. 259 (2005) 577-613 ([arXiv:math/0410013](http://arxiv.org/abs/math/0410013))
+ 
 
 #### Hamiltonian quantization
 
@@ -986,4 +987,3 @@ Computations of flat Chern-Simons/[[Dijkgraaf-Witten theory]] [[action functiona
 [[!redirects Chern-Simons functional]]
 
 [[!redirects Chern-Simons field theory]]
-
