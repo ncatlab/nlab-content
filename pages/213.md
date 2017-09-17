@@ -43,7 +43,7 @@ $CartSp_{lin}$ for the category whose objects are [[Cartesian space]]s regarded 
 
 ### As a small category of objects with a basis
 
-A [[Cartesian space]] carries a lot of structure, for instance [[CartSp]] may be naturally regarded as a [[full subcategory]] of the category $C$
+A [[Cartesian space]] carries a lot of structure, for instance [[CartSp]] may be naturally regarded as a [[full subcategory]] of the category $C$, for $C$ (any one of) the category of
 
 *  [[vector spaces]],
 *  [[affine spaces]],
@@ -158,6 +158,7 @@ Equipped with the above [[coverage]]-structure,  [[open map]]-structure and [[La
 (...)
 
 
+
 ## Related concepts
 
 A development of [[differential geometry]] as as geometry modeled on $CartSp$ is discussed, with an eye towards applications in [[physics]], in _[[geometry of physics]]_.
@@ -178,9 +179,7 @@ $CartSp$ is discussed as an example of a "cartesian differential category".
 
 There are various slight variations of the category $CartSp$ (many of them [[equivalence of categories|equivalent]]) that one can consider without changing its basic properties as a category of test spaces for [[generalized smooth spaces]]. A different choice that enjoys some popularity in the literature is the category of open (contractible) subsets of Euclidean spaces. For more references on this see [[diffeological space]].
 
-The [[site]] $CartSp_{synthdiff}$ of [[formal smooth manifold|infinitesimally thickened]] Cartesian spaces is known as the site for the [[Cahiers topos]]. It is considered 
-
-in detal in section 5 of
+The [[site]] $CartSp_{synthdiff}$ of [[formal smooth manifold|infinitesimally thickened]] Cartesian spaces is known as the site for the [[Cahiers topos]]. It is considered in detail in section 5 of
 
 * [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0))
 
