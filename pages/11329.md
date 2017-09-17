@@ -1,0 +1,8 @@
+
+* [webpage](http://www.maths.ed.ac.uk/~igordon/)
+
+## related $n$Lab entires
+
+* [[affine Lie algebra]]
+
+category: people
