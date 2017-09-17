@@ -86,6 +86,10 @@ One may further ask for an enlargement which inherits whatever additional struct
 
 * [[inter-universal Teichmüller theory]]
 
+## Related concepts
+
+* [[universe polymorphism]]
+
 ## References
 
 * Sections 2.6 and 3.11--3.12 of [Basic Concepts of Enriched Category](http://tac.mta.ca/tac/reprints/articles/10/tr10abs.html).
