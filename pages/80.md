@@ -54,6 +54,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * [[logic]], [[reasoning]]
 
+* [[philosophy of mathematics]]
+
 * [[objective idealism]]
 
 ## References and links
