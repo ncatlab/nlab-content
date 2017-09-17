@@ -102,8 +102,10 @@ Equivalences (resp. cores) in an allegory are precisely those symmetric idempote
 ([[Sketches of an Elephant|Johnstone, B 1.1.9, p.248-249]])
 
 ## Properties
+ {#Properties}
 
 ### Algebras for an idempotent monad and Localization
+ {#AlgebrasForAnIdempotentMonad}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -144,12 +146,25 @@ follows by inverting the naturality equation $\eta M e \circ \eta e = M \eta e \
 +-- {: .num_remark}
 ###### Remark
 
-This means that the [[Eilenberg-Moore category]] of an [[idempotent monad]] is equivalently the [[reflective subcategory]] whose embedding-reflection [[adjunction]] gives the idempotent monad.
+This means that the [[Eilenberg-Moore category]] of an [[idempotent monad]] is equivalently the [[reflective subcategory]] (a "[[localization]]" of the ambient category) whose embedding-reflection [[adjunction]] gives the idempotent monad.
 
 =--
 
 See also ([Borceux, volume 2, corollary 4.2.4](#Borceux)).
 
++-- {: .num_remark}
+###### Remark
+
+Hence [[duality|dually]] the co-algebras over an idempotent [[comonad]] form a [[coreflective subcategory]], hence a "co-localization" of the ambient category.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In [[modal type theory]] one thinks of a (idempotent) (co-)monad as a (co-)[[modal operator]] and of its algebras as (co-)[[modal types]]. In this terminology the above says that categories of (co-)modal types are precisely the (co-)reflective [[localizations]] of the ambient type system.
+
+=--
 
 ### The associated idempotent monad of a monad
 
