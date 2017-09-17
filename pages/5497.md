@@ -1,4 +1,4 @@
-[_A Categorical Manifesto_]( http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.362 ) is a paper written by [[Joseph Goguen]], encouraging the use of category theory in computer science. To quote from his introduction:
+[_A Categorical Manifesto_]( http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.362 ) is an article  written by [[Joseph Goguen]], encouraging the use of category theory in computer science. To quote from his introduction:
 
 > This paper tries to explain why category theory is useful in computing science. The
 > basic answer is that computing science is a young field that is growing rapidly, is
@@ -63,7 +63,7 @@
 
 ### Reference ###
 
-[[Joseph A. Goguen]], _A Categorical Manifesto_. In _Mathematical Structures in Computer Science_, Vol. 1, No. 1. (1991), pp. 49-67
+[[Joseph A. Goguen]], _A Categorical Manifesto_. In _Mathematical Structures in Computer Science_, Vol. 1, No. 1. (1991), pp. 49-67 [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.362&rep=rep1&type=pdf) [ps](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.362&rep=rep1&type=ps)
 
 ### Link ###
 
