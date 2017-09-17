@@ -148,13 +148,13 @@ $$
 The first point of passing to a [[higher category theory]]-refinement of this situation is that it allows to refine, in turn, these morphism of cohomology _sets_ to morphism
 
 $$
-  \frac{1}{2} p_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
+  \frac{1}{2} p_1 : H(X, \mathbf{B}Spin) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
 $$
 
 and
 
 $$
-  \frac{1}{2} \hat p_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
+  \frac{1}{2} \hat p_1 : H(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
 
 of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth homomorphisms between these. Similarly $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[n-groupoid|4-groupoid]] whose objects are smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>-[[principal ∞-bundles|principal 3-bundles]], while $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ is accordingly the [[n-groupoid|4-groupoid]] whose objects are  [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are homomorphisms between these, whose 2-morphisms are higher homotopies between those, and to forth. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components.
@@ -184,7 +184,7 @@ $$
      \\
      \downarrow &\swArrow_\simeq& \downarrow
      \\
-     \mathbf{H}(X,\mathbf{B}G) 
+     H(X,\mathbf{B}G) 
      &\stackrel{\frac{1}{2}\hat p_1}{\to}&
      \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
   }
@@ -211,7 +211,7 @@ the next topological characteristic class is the second fractional [[Pontryagin 
 we may obtain a refinement
 
 $$
-  \frac{1}{6}\hat p_2 : \mathbf{H}(-\mathbf{B}String) \to 
+  \frac{1}{6}\hat p_2 : H(-\mathbf{B}String) \to 
   \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
 $$
 
@@ -226,8 +226,8 @@ $$
     \downarrow &\swArrow_{\simeq}& \downarrow+
     \\
     \mathbf{H}(X, \mathbf{B}String) 
-    &\stackrel{\frac{1}{6}\hat p_2}{\to}&
-    \mathbf{H}_{diff}(X, \mathbf{B}^7 U(1))
+    &\stackrel{\frac{1}{6}p_2}{\to}&
+    \mathbf{H}(X, \mathbf{B}^7 U(1))
   }
 $$
 
@@ -239,7 +239,7 @@ $$
     \\
     \downarrow &\swArrow_{\simeq}& \downarrow+
     \\
-    \mathbf{H}(X, \mathbf{B}String) 
+    H(X, \mathbf{B}String) 
     &\stackrel{\frac{1}{6}\hat \hat p_2}{\to}&
     \mathbf{H}_{diff}(X, \mathbf{B}^7 U(1))
   }
