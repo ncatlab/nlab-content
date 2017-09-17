@@ -1,7 +1,26 @@
-_Ab_ is the [[category]] of [[abelian group|abelian groups]].  So, it has abelian groups as [[object|objects]] and group homomorphisms between these as [[morphism|morphisms]].
 
-$Ab$ can be made into a [[monoidal category]] in several ways, the most notable involving [[direct sum]] and [[tensor product]] of abelian groups.  A [[monoid]] [[internalization|internal to]] $(Ab, \otimes)$ is a [[ring]], while a monoid in $(Ab, \oplus)$ is just an abelian group (since $\oplus$ is the [[coproduct]] in $Ab$, so every object has a unique monoid structure with respect to it).
+#Contents#
+* table of contents
+{:toc}
 
-Categories enriched over $Ab$ are called [[additive category|pre-additive categories]] or sometimes just additive categories.  If they satisfy an extra exactness condition they are called [[abelian category|abelian categories]].
+## Definition
+
+_Ab_ is the [[category]] of [[abelian group|abelian groups]]: it has abelian groups as [[object|objects]] and [[group homomorphisms]] between these as [[morphism|morphisms]].
+
+## Properties
+
+### Monoidal structure
+
+$Ab$ can be made into a [[monoidal category]] in several ways, the most notable involving [[direct sum]] $\oplus$ and [[tensor product of abelian groups]] $\otimes$.  
+
+A [[monoid]] [[internalization|internal to]] $(Ab, \otimes)$ is a [[ring]], while a monoid in $(Ab, \oplus)$ is just an abelian group (since $\oplus$ is the [[coproduct]] in $Ab$, so every object has a unique monoid structure with respect to it).
+
+### Enrichment over $Ab$
+
+Categories enriched over $Ab$ are called [[additive category|pre-additive categories]] or sometimes just additive categories.  If they satisfy an extra exactness condition they are called [[abelian category|abelian categories]]. See at _[[additive and abelian categories]]_.
+
+## Related entries
+
+* The analog of $Ab$  in [[homotopy theory]] is the category of [[spectra]].
 
 category: category
