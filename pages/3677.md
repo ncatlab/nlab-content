@@ -17,6 +17,10 @@ The general discussion is in parts is based on the unfinished but useful notes
 
 In particular this 
 
+* shows that and how the projective model structure on simplicial presheaves on $C$ is something like the free completion of $C$ under [[homotopy colimit]]s. This is the model-category theoretic analog of the fact that the [[(∞,1)-category of (∞,1)-presheaves]] on $C$ is the  
+  [[free (∞,1)-cocompletion]] of $C$;
+
+
 * announces the statement of **[Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem)** which states that every [[combinatorial model category]] arises as the [[Bousfield localization of model categories|left Bousfield localization]] of the projective [[global model structure on simplicial presheaves]]. The full proof of this is in the companion article
 
   * Daniel Dugger, _[[Combinatorial model categories have presentations]]_ 
