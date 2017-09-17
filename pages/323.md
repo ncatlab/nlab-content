@@ -37,7 +37,9 @@ $$
 
 the 'pullback' of this diagram is the subset $X \subseteq A \times B$ consisting of pairs $(a,b)$ such that $f(a) = g(b)$.  
 
-This construction comes up, for example, when $A$ and $B$ are [[fiber bundle]]s over $C$: then $X$ as defined above is the [[product]] of $A$ and $B$ in the category of fiber bundles over $C$.  For this reason, a pullback is sometimes called a [[fibered product]].
+This construction comes up, for example, when $A$ and $B$ are [[fiber bundle]]s over $C$: then $X$ as defined above is the [[product]] of $A$ and $B$ in the category of fiber bundles over $C$.  For this reason, a pullback is sometimes called a __fibered product__ (or _fiber product_ or _fibre product_).
+
+In this case, the fiber of $A \times_C B$ over a [[generalized element|(generalized)]] element $x$ of $C$ is the ordinary [[product]] of the fibers of $A$ and $B$ over $x$.  In other words, the fiber product is the product taken fiber-wise.  Of course, the fiber of $A$ at the generalized element $x\colon I \to C$ is itself a fibre product $I \times_C A$; the terminology depends on your point of view.
 
 Note that there are maps $p_A : X \to A$, $p_B : X \to B$ sending any $(a,b) \in X$ to $a$ and $b$, respectively.  These maps make this [[commuting diagram|square commute]]:
 
@@ -233,6 +235,8 @@ The [[saturated class of limits|saturation]] of the class of pullbacks is the cl
 
 * [[fiber product]], [[base change]]
 
+* [[wide pullback]]
+
 * [[lax pullback]], [[comma object]]
 
 * [[(∞,1)-pullback]], [[homotopy pullback]]
@@ -244,5 +248,14 @@ The [[saturated class of limits|saturation]] of the class of pullbacks is the cl
 
 [[!redirects pullbacks]]
 [[!redirects pullback square]]
-
 [[!redirects pullback diagram]]
+[[!redirects pullback squares]]
+[[!redirects pullback diagrams]]
+[[!redirects fiber product]]
+[[!redirects fiber products]]
+[[!redirects fibre product]]
+[[!redirects fibre products]]
+[[!redirects fibered product]]
+[[!redirects fibered products]]
+[[!redirects fibred product]]
+[[!redirects fibred products]]
