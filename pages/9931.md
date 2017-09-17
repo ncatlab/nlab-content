@@ -1,0 +1,108 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $R$ be a [[commutative ring]] and fix 
+
+$$
+  f(x,y) \in R [ [ x,y ] ]
+$$ 
+
+a [[formal group law]] over $R$. 
+
+
+
++-- {: .num_defn}
+###### Definition
+
+For every $n \in \mathbb{N}$ the **$n$-series** of $f$ 
+
+$$
+  [n](t) \in R[ [ t ] ] 
+$$
+
+is defined [[recursion|recursively]] by
+
+1. if $n = 0$ then $[n](t) = 0$;
+
+1. if $n \gt 0$ then $[n](t) = f([n-1](t),t)$.
+
+=--
+
+
+Now fix $p \in \mathbb{N}$ a [[prime number]], 
+
++-- {: .num_defn}
+###### Definition
+
+Write $v_n$ for the [[coefficient]] of $t^{p^n}$ in the $p$-series $[p]$ of $f$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Say that $f$
+
+* has **height** $\geq n$ if $v_i = 0$ for $i \lt n$;
+
+* has **height exactly** $n$ if it has height $\geq n$ and $v_n \in R$ is invertible.
+
+=--
+
+For instance ([Lurie 10, lecture 12, def. 13](#Lurie10)).
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+For $f(x,y) = x + y + x y$ the [[formal multiplicative group]] the $n$-series is 
+
+$$
+  [n](t) = (1+t)^n - 1
+  \,.
+$$
+
+If $p = 0$ in $R$ then 
+
+$$
+  [p](t) = (1+t)^p - 1 = t^p
+$$ 
+
+and thus $f$ has height exactly 1.
+
+=--
+
+For instance ([Lurie 10, lecture 12, example 16](#Lurie10)).
+
+
+
+## Related pages
+
+* [[chromatic homotopy theory]]
+
+* [[Morava K-theory]]
+
+## References
+
+Lecture 12 of
+
+* [[Jacob Lurie]], _Chromatic Homotopy Theory_, Lecture series (2010) ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+ {#Lurie10}
+
+
+[[!redirects height of a formal group law]]
