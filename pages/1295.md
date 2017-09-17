@@ -5,7 +5,7 @@
 
 ## Idea
 
-The concept of [[cartesian product]] makes sense for any family of sets, while the category-theoretic [[product]] makes sense for any family of objects.  In each case, however, the family is indexed by a [[set]]; how can we get a purely category-theoretic product indexed by an object?
+The concept of [[cartesian product]] makes sense for any [[family of sets]], while the category-theoretic [[product]] makes sense for any family of objects.  In each case, however, the family is indexed by a [[set]]; how can we get a purely category-theoretic product indexed by an object?
 
 First we need to describe a family of objects indexed by an object; it\'s common to interpret this as a [[bundle]], that is an arbitrary morphism $g: B \to A$.  (In [[Set]], $A$ would be the index set of the family, and the [[fiber]] of the bundle over an element $x$ of $A$ would be the set indexed by $x$.  Conversely, given a family of sets, $B$ can be constructed as its [[disjoint union]].)
 
