@@ -123,7 +123,7 @@ The **$T$-localization** of a spectrum is its [[reflective sub-(infinity,1)-cate
 +-- {: .num_remark}
 ###### Remark
 
-The $T$-localization, def. \ref{TLocalSpectrum}, may be constructed as the [[Bousfield localization of spectra]] with respect to the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}_T$.  
+The $T$-localization, def. \ref{TLocalSpectrum}, may be constructed as the [[Bousfield localization of spectra]] with respect to the [[Moore spectrum]] $S(\mathbb{Z}_T)$ (e.g. [Bauer 11, Example 1.7](#Bauer11)).
 
 It can also be constructed as a [[Bousfield localization of model categories]] where we invert the maps that induce an isomorphism on [[generalized homology]] with [[coefficients]] in $H \mathbb{Z}_T$; these are called **$\mathbb{Z}_T$-homology isomorphisms**. See at _[[homology localization]]_.
 
@@ -176,7 +176,7 @@ One can of course state the other two characterizations of "$T$-local space" fro
 
 A $\neg\{p\}$-local spectrum is also called **$\mathbb{Z}/p\mathbb{Z}$-acyclic**.  According to the general theory of [[Bousfield localization of spectra]], they are "dual" to the "$\mathbb{Z}/p\mathbb{Z}$-local spectra", in the sense that $X$ is $\mathbb{Z}/p\mathbb{Z}$-local if every map $Y \to X$ out of a $\mathbb{Z}/p\mathbb{Z}$-acyclic $Y$ is [[null homotopy|null homotopic]].  
 
-$\mathbb{Z}/p\mathbb{Z}$-local spectra are also known as *$p$-complete* spectra, and are the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}/p\mathbb{Z}$.  
+$\mathbb{Z}/p\mathbb{Z}$-local spectra are also known as *$p$-complete* spectra, and are the [[Bousfield localization of spectra]] at the [[Moore spectrum]] $S \mathbb{Z}/p\mathbb{Z}$ (e.g. [Bauer 11, Example 1.7](#Bauer11)).  
 
 This is a consequence of the [[mod p Whitehead theorem]].
 
@@ -249,6 +249,8 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 
 * {#Lurie} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
+
+* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
 See also
 
