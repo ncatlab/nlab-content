@@ -134,6 +134,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[M2-brane]], [[M5-brane]]
 
+[[!include table of branes]]
 
 ## References
 
