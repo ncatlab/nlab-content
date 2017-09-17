@@ -1,0 +1,9 @@
+
+
+For $n \in \mathbb{N}$ a [[natural number]] a _prime factor_ is a [[prime number]] $p \in \mathbb{N}$ which divides $n$, hence such that there is $k \in \mathbb{N}$ with $k \cdot p = n$.
+
+## Related concepts
+
+* [[coprime integers]]
+
+[[!redirects prime factors]]
