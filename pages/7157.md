@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
 =--
 =--
 
@@ -48,7 +52,7 @@ are [[weak equivalences]].
 
 ## References
 
-* [[Jacob Lurie]], _$(\infty,2)$-categories and the Goddwillie calculus I_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
+* [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus I_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
   {#Lurie}
 
 The notion of 2-Segal space above is due to [[Mikhail Kapranov]] and Tobias Dyckerhoff.
