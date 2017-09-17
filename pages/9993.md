@@ -1,0 +1,6 @@
+
+| [[partition function]] in QFT | [[genus]] in [[cohomology theory]] |
+|---|---|
+| [[spinning particle]] | [[K-theory]] [[index]] |
+| [[type II superstring]] | [[elliptic genus]] |
+| [[heterotic string]] | [[Witten genus]] |
