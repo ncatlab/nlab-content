@@ -40,7 +40,7 @@ that satisfies
 
 * **positivity** for all $a \in A$ we have $\rho(a^2) \geq 0$.
 
-This is essentially the definition of [[quantum state]], but formulate for commutative algebras and and over the [[real number]]s.
+This is essentially the definition of [[quantum state]], but formulated for commutative algebras and over the [[real number]]s.
 
 If we take $A$ to be a $*$-[[star-algebra|algebra]] over the [[complex numbers]], then we may take $\rho$ to be a $\mathbb{C}$-linear function from $A$ to $\mathbb{C}$ instead.
 
