@@ -21,7 +21,7 @@ Specifically, in [[quantum field theory]] Wick rotation is a method for identify
 
 In some special cases Wick rotation has been rigorously understood and takes the form of a theorem. Notably the _[[Osterwalder-Schrader theorem]]_ gives a precise meaning to Wick rotation for quantum field theory on [[Minkowski spacetime]] formalized by the [[axioms]] of [[AQFT]].
 
-However, Wick rotation is sometimes also appealed to in situations where the assumtopins that theorems like this make use of are evidently violated. For instance it has been appealed to a lot in an approach to [[quantum gravity]] often known as "Euclidean quantum gravity", where however by definition the assumption of global spacetime translation invariance is manifestly violated. In such context the exact meaning of Wick rotation remains mysterious, but on the other hand on this basis some subtle relations between quantum mechanics and thermodynamics such as the [[Bekenstein-Hawking entropy]] find elegant explanations at the leval of manipulations of formulas, at least. 
+However, Wick rotation is sometimes also appealed to in situations where the assumptions of theorems like this are evidently violated. For instance, it has been appealed to a lot in an approach to [[quantum gravity]] often known as "Euclidean quantum gravity", where, however, by definition the assumption of global spacetime translation invariance is manifestly violated. In such a context the exact meaning of Wick rotation remains mysterious, and yet on this basis some subtle relations between quantum mechanics and thermodynamics, such as the [[Bekenstein-Hawking entropy]], find elegant explanations, at least at the level of the manipulation of formulas. 
 
 ### Example
 
