@@ -31,48 +31,56 @@ where $\otimes = \times$ is the standard [[cartesian product]] of sets.  This [[
 Currying can be read as a characterization of the [[internal hom]] $Hom(b,c)$ and is the basis for the following definition.
 
 
-## Definition #
+## Definition 
+
+### Symmetric closed monoidal category
 
 A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** if for all objects $b \in C_0$ the functor $ - \otimes b : C \to C$ has a [[adjoint functor|right adjoint]] functor $[b,-] : C \to C$.
 
-This means that for all $a,b,c \in C_0$ we have a bijection
+This means that for all $a,b,c \in C_0$ we have a [[natural bijection]]
 
 $$
   Hom_C(a \otimes b, c) \simeq Hom_C(a, [b,c])
+  \,,
 $$
 
 natural in all arguments.
 
 The object $[b,c]$ is called the **[[internal hom]]** of $b$ and $c$. This is commonly also denoted by lower case $hom(b,c)$ (and then often underlined).
 
-If the monoidal structure of $C$ is [[cartesian monoidal category|cartesian]], then $C$ is called **cartesian closed**.  In this case the internal hom is often called an **exponential** and written $c^b$.
+### Cartesian closed monoidal category
 
-If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functors, and either one or both may have an adjoint.  The terminology here is less standard, but many people use **left closed**, **right closed**, and **biclosed**.
+If the monoidal structure of $C$ is [[cartesian monoidal category|cartesian]] (and so in particular [[symmetric monoidal category|symmetric monoidal]]), then $C$ is called **cartesian closed**.  In this case the internal hom is often called an **[[exponential object]]** and written $c^b$.
 
+### Left-, right- and bi-closed monoidal category
+
+If $C$ is [[monoidal category|monoidal]] not necessarily [[symmetric monoidal category|symmetric]], then left and right [[tensor product]] $-\otimes b$ and $b\otimes -$ may be non-equivalent functors, and either one or both may have an adjoint.  The terminology here is less standard, but many people use **left closed**, **right closed**, and **biclosed** monoidal category to indicate, respectively, that the left tensor product, the right tensor product functors or both have [[right adjoints]].
+
+(So in particular a symmetric closed monoidal category is automatically biclosed.)
 
 ## Examples ##
 
- * The tautological example is the category [[Set]] of sets: the collection of maps between any two sets is itself a set.  More generally, any [[topos]] is cartesian closed.
+ * The tautological example is the category [[Set]] of sets with its [[Cartesian poduct]]: the collection of functions between any two sets is itself a set -- the [[function set]].  More generally, any [[topos]] is cartesian closed monoidal.
 
- * The category of abelian groups is closed: for any two abelian groups $A, B$ the set of homomorphisms $A \to B$ carries (pointwise defined) abelian group structure. 
+ * The category [[Ab]] of [[abelian groups]] with its [[tensor product of abelian groups]] is closed: for any two abelian groups $A, B$ the set of homomorphisms $A \to B$ carries (pointwise defined) abelian group structure. 
 
 * A [[discrete category|discrete]] monoidal category (i.e., a [[monoid]]) is left closed iff it is right closed iff every object has an inverse (i.e., it is a [[group]]).
 
- * Certain [[nice category of spaces|nice categories]] of topological spaces are cartesian closed: for any two nice enough topological spaces $X$, $Y$ the set of continuous maps $X \to Y$ can be equipped with a topology to become a nice topological space itself.
+* Certain [[nice category of spaces|nice categories]] of [[topological spaces]] are cartesian closed: for any two nice enough topological spaces $X$, $Y$ the set of continuous maps $X \to Y$ can be equipped with a topology to become a nice topological space itself.
 
- * Certain nice categories of _based_  topological spaces are closed symmetric monoidal.  The monoidal structure is the [[smash product]] and the internal-hom is the set of basepoint-preserving maps with topology induced from the space of unbased ones.
+* Certain nice categories of _[[pointed object|pointed/based]]_  topological spaces are closed symmetric monoidal.  The monoidal structure is the [[smash product]] and the internal-hom is the set of basepoint-preserving maps with topology induced from the space of unbased ones.
 
- * The category [[Cat]] is cartesian closed: the internal-hom is the [[functor category]] of functors and natural transformations.
+* The category [[Cat]] is cartesian closed: the internal-hom is the [[functor category]] of functors and natural transformations.
 
- * The category $2 Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed symmetric monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
+* The category $2 Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed symmetric monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
 
- * The category of strict $\omega$-[[strict omega-category|categories]] is also biclosed monoidal, under the [[Crans-Gray tensor product]].
+* The category of strict $\omega$-[[strict omega-category|categories]] is also biclosed monoidal, under the [[Crans-Gray tensor product]].
 
- * If $M$ is a monoidal category and $Set^{M^{op}}$ is endowed with the tensor product given by the induced [[Day convolution]] product, then $Set^{M^{op}}$ is biclosed monoidal. 
+* If $M$ is a monoidal category and $Set^{M^{op}}$ is endowed with the tensor product given by the induced [[Day convolution]] product, then the [[category of presheaves]] $Set^{M^{op}}$ is biclosed monoidal. 
 
- * The category of [[species]], with the monoidal structure given by substitution product of species, is closed monoidal (each functor $- \circ G$ admits a right adjoint) but not biclosed monoidal. 
+* The category of [[species]], with the monoidal structure given by substitution product of species, is closed monoidal (each functor $- \circ G$ admits a right adjoint) but not biclosed monoidal. 
 
- * The category of [[modules]] over any [[Hopf monoid]] in a closed monoidal category, or more generally algebras for any [[Hopf monad]], is again a closed monoidal category.  In particular, the category of modules over any [[group object]] in a [[cartesian closed category]] is (cartesian) closed monoidal.
+* The category of [[modules]] over any [[Hopf monoid]] in a closed monoidal category, or more generally algebras for any [[Hopf monad]], is again a closed monoidal category.  In particular, the category of modules over any [[group object]] in a [[cartesian closed category]] is (cartesian) closed monoidal. For more on this phenomenon see at _[[Tannaka duality]]_.
 
 
 ### Functor categories
@@ -109,6 +117,14 @@ Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting t
 
 ##References#
 
+Original articles studying monoidal biclosed categories are
+
+* {#Lambek68} [[Joachim Lambek]], _Deductive systems and categories_, Mathematical Systems Theory 2 (1968), 287-318. 
+ 
+* {#Lambek69} [[Joachim Lambek]], _Deductive systems and categories II_, Lecture Notes in Math. 86, Springer-Verlag (1969), 76-122. 
+
+For more historical development see at _[linear type theory -- History of linear categorical semantics](linear+type+theory#HistoryCategoricalSemantics)_.
+
 In [[enriched category theory]] the enriching category is taken to be closed monoidal. Accordingly the standard textbook on enriched category theory
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_, section 1.5, ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)) 
@@ -119,7 +135,7 @@ See also the article
 
 * [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
 
-on the concept of closed categories.
+on the concept of [[closed categories]].
 
 [[!redirects closed symmetric monoidal category]]
 [[!redirects closed symmetric monoidal categories]]
@@ -134,3 +150,6 @@ on the concept of closed categories.
 [[!redirects right closed monoidal categories]]
 [[!redirects closed symmetric monoidal structure]]
 [[!redirects closed monoidal structure]]
+
+[[!redirects monoidal biclosed category]]
+[[!redirects monoidal biclosed categories]]
