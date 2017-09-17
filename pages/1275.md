@@ -27,7 +27,7 @@ coalgebras then $D$ is a left $D$- right $C$-bicomodule
 via $\Delta_D$ and $(\id \otimes \pi) \circ \Delta_D$
 respectively, hence $\mathrm{Ind}^D_C := D \Box^C -$
 is a functor from left $C$- to left
-$D$-comodules called the [[induced representation|induction]] from $C$ to $D$. 
+$D$-comodules called the [[induced comodule|induction]] functor for left comodules from $C$ to $D$. 
 
 Cotensor products in [[noncommutative geometry]] appear in the role of space of sections of a associated vector bundles of [[quantum principal bundle]]s (which in affine case correspond to [[Hopf-Galois extension]]s). See e.g.
 
