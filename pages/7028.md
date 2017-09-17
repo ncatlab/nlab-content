@@ -138,11 +138,15 @@ See for instance ([Blau, around p. 35](#Blau))
 
 See the references at [[geometric quantization]].
 
-Relevant lecture notes include
+Standard facts are recalled for instance around p. 35 of
 
 * [[Matthias Blau]], _Symplectic Geometry and Geometric Quantization_ ([[BlauGeometricQuantization.pdf:file]])
  {#Blau}
 
+Computation of quantum observables by [[index]] maps in [[equivariant K-theory]] is in (see specifically around p. 8 and 9)
+
+
+* [[Michèle Vergne]], _Geometric quantization and equivariant cohomology_ ([pdf](http://www.math.jussieu.fr/~vergne/pageperso/articles/CONGEURO.pdf))
 
 [[!redirects quantum observables]]
 
