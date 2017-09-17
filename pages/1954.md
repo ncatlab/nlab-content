@@ -133,11 +133,11 @@ $$
 
 ### In terms of distributions
 
-Given a smooth bundle $\pi: E\to X$ with typical fiber $F$ (e.g. a smooth vectir bundle or a smooth principal $G$-bundle), there is a well defined vector subbundle $V E\subset T E$ over $E$ such that $V_p$ consists of the  tangent vectors $v_p$ such that $(T_p \pi)(v_p) = 0$. A __smooth distribution (field) of horizontal subspaces__ is a choice of a vector subspace $H_p E\subset T_p E$ for every $p$ such that 
+Given a smooth bundle $\pi: E\to X$ with typical fiber $F$ (e.g. a smooth vector bundle or a smooth principal $G$-bundle), there is a well defined vector subbundle $V E\subset T E$ over $E$ such that $V_p$ consists of the  tangent vectors $v_p$ such that $(T_p \pi)(v_p) = 0$. A __smooth distribution (field) of horizontal subspaces__ is a choice of a vector subspace $H_p E\subset T_p E$ for every $p$ such that 
 
 E1. (complementarity) $T_u E \: = \: H_u E \oplus V_u E$
 
-E2. $p\mapsto H_p E$ is smooth. That means that in the unique decomposition of any smooth vector field $X$ on $E$ into vector fields $X^H \in \Gamma(H_u E)$ and $X^V \in \Gamma(V_u E)$ such that $X = X^H + X^V$ the vector field $X^H$ is smooth (or equivalently $X^V$ is smooth, or equivalently both) as a section of $T E$ (there exist yet several other equivalent formulations of the smooothness criterium).
+E2. $p\mapsto H_p E$ is smooth. That means that in the unique decomposition of any smooth vector field $X$ on $E$ into vector fields $X^H \in \Gamma(H_u E)$ and $X^V \in \Gamma(V_u E)$ such that $X = X^H + X^V$ the vector field $X^H$ is smooth (or equivalently $X^V$ is smooth, or equivalently both) as a section of $T E$ (there exist yet several other equivalent formulations of the smooothness criterion).
 
 An Ehresmann connection describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $\pi : P \to X$ (for $G$ some [[Lie group]]) in terms of a distribution of horizontal subspaces $H \subset T P$ which is a subbundle of the [[tangent bundle]] of $P$ complementary at each point to the vertical tangent bundle to the fiber. More precisely, an __Ehresmann connection__ on a principal $G$-bundle $\pi:P\to X$ is a smooth distribution of horizontal subspaces $p\mapsto H_p P$ which is __equivariant__:
 
