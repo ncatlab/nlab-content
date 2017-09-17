@@ -25,7 +25,7 @@ Phrased in this way, nilpotency is an inductive [[predicate]] on the class of gr
 
 +-- {: .un_defn}
 ###### Definition
-The set of **central series** for of group $G$ is defined [[inductive definition|inductively]] by the following clauses:
+The set of **central series** for a group $G$ is defined [[inductive definition|inductively]] by the following clauses:
 
 1. The trivial group $1$ has a specified central series, called the "trivial" one.
 
