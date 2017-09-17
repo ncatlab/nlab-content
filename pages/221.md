@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 _This is Part III of an exposition by [[Todd Trimble]] on [[ETCS]]_.
 
 See also 
@@ -5,6 +17,9 @@ See also
 * Part I.  [[Trimble on ETCS I|ZFC and ETCS]]
 
 * Part II.  [[Trimble on ETCS II|ETCS: Internalizing the logic]]
+
+
+***
 
 +--{.query}
 **Editing help wanted**
