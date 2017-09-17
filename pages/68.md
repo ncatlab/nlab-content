@@ -69,8 +69,7 @@ It is however more special than that. The general 1-truncated concrete [[smooth 
 
 ## References
 
-* [[Kai Behrend]], [[Ping Xu]], _Differentiable Stacks and Gerbes_
-([arXiv](http://arxiv.org/abs/arXiv:math/0605694))
+* [[Kai Behrend]], [[Ping Xu]], _Differentiable Stacks and Gerbes_ J. Symplectic Geom. Volume 9, Number 3 (2011), 285-341. ([arXiv:math/0605694](http://arxiv.org/abs/arXiv:math/0605694))
 
 * [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~mat903/preprints/heinloth.pdf))
 
