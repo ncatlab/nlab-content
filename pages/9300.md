@@ -1,0 +1,10 @@
+
+**Examples of sequences of infinitesimal and local structures**
+
+| first order [[infinitesimal object|infinitesimal]]  |  $\subset$ | [[formal geometry|formal]] = arbitrary order infinitesimal | $\subset$ |  local = [[stalk]]wise | $\subset$ | finite  |
+|--|--|--|--|--|--|--|
+|  | $\leftarrow$ **[[differentiation]]** |  | **[[integration]]** $\to$  |  |  | |
+| [[derivative]] | |  [[Taylor series]] | | [[germ]] | | [[smooth function]] | 
+| [[tangent vector]] | | [[jet]] | | [[germ]] of [[curve]] | | [[curve]] | 
+| [[Lie algebra]] |  | [[formal group]] |  |  [[local Lie group]] | | [[Lie group]] | 
+| [[Poisson manifold]] |  | [[formal deformation quantization]] | | local strict deformation quantization | | [[strict deformation quantization]] |
