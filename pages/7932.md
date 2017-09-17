@@ -739,6 +739,10 @@ For $G$ and $A$ 0-truncated groups, $A$ an [[abelian group]] with $G$-[[module]]
 
 * [[associated bundle]], [[associated ∞-bundle]]
 
+* [[induced representation]]
+
+* [[group cohomology]]
+
 
 ## References
 
