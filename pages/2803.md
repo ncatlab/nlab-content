@@ -67,3 +67,7 @@ We then simply verify that these isomorphisms are the components of an (invertib
 
 [[!redirects bicategorical Yoneda lemma]]
 [[!redirects 2-Yoneda lemma]]
+
+[[!redirects Yoneda embedding for bicategories]]
+[[!redirects bicategorical Yoneda embedding]]
+[[!redirects 2-Yoneda embedding]]
