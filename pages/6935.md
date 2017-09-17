@@ -32,11 +32,11 @@ This has the usual meaning in ordinary [[category theory]]. In applications to [
 
 ## Definition
 
-There are two _equivalent_ ways of defining the [[judgement]] rules for inductive types. The first describes elimination on [[dependent types]] over the given type. This is the formalization of the notion of [[induction]], and discussed below in 
+There are two _equivalent_ ways of defining the [[judgement]] rules for inductive types. The first describes [[term elimination|elimination]] on [[dependent types]] over the given type. This is the formalization of the notion of [[induction]], and discussed below in 
 
 * [Induction: dependent elimination, computation](#InductionRules).
 
-The second describes elimination on absolute types. This is the formalization of the notion of [[recursion]], and discussed below
+The second describes [[term elimination|elimination]] on absolute types. This is the formalization of the notion of [[recursion]], and discussed below
 
 * [Recursion: elimination, computation](#RecursionRules)
 
@@ -639,7 +639,11 @@ A very basic introduction to the concept, with an eye towards explaining [[ident
 
 * [[Mike Shulman]], _Induction on equality_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/induction.pdf))
 
-Expositions (with an eye towards [[higher inductive types]]) include
+See also
+
+* Michael Abbott, [[Thorsten Altenkirch]], [[Neil Ghani]], _Inductive Types for Free -- Representing nested inductive types using W-types_ ([pdf](http://www.cs.nott.ac.uk/~txa/talks/icalp-slides.pdf))
+
+Expositions with an eye towards [[higher inductive types]] include
 
 * [[Mike Shulman]], _Homotopy type theory IV_ ([web](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html))
 
