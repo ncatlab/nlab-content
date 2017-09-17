@@ -113,7 +113,7 @@ which is
 
 1. $Spin(V)$-equivariant.
 
-This allows to form the [[super Poincaré Lie algebra]] in each of these cases. See there and see _[SpinorBilinearForms](#Spinor BilinearForms)_ below for more.
+This allows to form the [[super Poincaré Lie algebra]] in each of these cases. See there and see _[Spinor bilinear forms](#SpinorBilinearForms)_ below for more.
 
 =--
 
