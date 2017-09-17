@@ -597,9 +597,15 @@ A review is in
 * [[Richard Szabo]], _D-branes and bivariant K-theory_ ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
  {#Szabo}
 
+### Smooth refinement and spectral triple
+
+Discussion of KK-theory for [[spectral triples]] is discussed in
+
+* [[Bram Mesland]], _Spectral triples and KK-theory: A survey_ ([arXiv:1304.3802](http://arxiv.org/abs/1304.3802))
+
 ### Algebraic KK-theory
 
-Algebraic analogues of Kasparov K-theory are developed in
+Analogues of Kasparov K-theory in the spirit of [[algebraic K-theory]] are developed in
 
 * [[Grigory Garkusha]], _Algebraic Kasparov K-theory. I_, [pdf](http://maths.swan.ac.uk/staff/gg/papers/AlgKasparov11.pdf), _II_, [pdf](http://front.math.ucdavis.edu/1206.0178);
 Universal bivariant algebraic K-theories, J. Homotopy Relat. Struct. 8(1) (2013), 67-116 [pdf](http://maths.swan.ac.uk/staff/gg/papers/homotopyuniv.pdf)
