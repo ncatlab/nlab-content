@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -70,7 +69,7 @@ $$
   \,.
 $$
 
-Such [[quadratic refinement]] turns out to be given for $k = 0$ by a [[Spin structure]] and for $k =1$ by a [[Wu structure]] (and the latter case is the actual example of interest in ([Witten 96](#Witten96))). This is what the central theorem of ([[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]) establishes rigorously.
+Such [[quadratic refinement]] turns out to be given for $k = 0$ by a [[Spin structure]] (leading to "[[Spin Chern-Simons theory]]") and for $k =1$ by a [[Wu structure]] (and the latter case is the actual example of interest in ([Witten 96](#Witten96))). This is what the central theorem of ([[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]) establishes rigorously.
 
 One notices now that while the self-dual $(4k+2)$-dimensional gauge field theory thus itself is not a [[Lagrangian quantum field theory]], it arises [[holographic principle|holographically]] form a field theory in dimension $4k+3$ that is, namely the [[intersection pairing]] above is the [[Lagrangian]] for [[higher dimensional Chern-Simons theory]] and the [[holomorphic line bundle]] which it gives rise to on the [[intermediate Jacobian]], is the [[prequantum line bundle]] of Chern-Simons theory, whose holomorphic sections are its [[quantum states]] (see at _[[quantization of Chern-Simons theory]]_). From this perspective the [[square root]] [[quadratic refinement]] is the [[metaplectic correction]] in the [[geometric quantization]] of Chern-Simobs theory.
 
