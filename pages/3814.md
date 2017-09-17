@@ -6,19 +6,69 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea
-The standard model of particle physics is a model of three of the fundamental forces of physics in the language of [[quantum field theory]], in particular it is a [[gauge theory]]. Although there are several approaches to formulate a mathematically precise definition of what a [[quantum field theory]] is, there is no rigorous formulation (yet) that comprises the whole standard model. 
+## Idea
 
-#References
-For a dictionary (work in progress) of the language of mathematicians and physicists see:
+The **standard model of particle physics** is a [[quantum field theory]] that describes the _fundamental particles_ currently experimentally known, containing 
+
+* electrons, neutrinos, quarks and other [[fermion]]s, 
+
+as well as three of the four _fundamental forces_ as currently known, which, somewhat roughly, are
+
+* the force of [[electromagnetism]], the weak and the strong nuclear force.
+
+The main ingredient missing from the standard model is the [[quantum physics|quantum]] version of the field of [[gravity]]. For decades, a large part of theoretical physics has been absorbed with attempts to understand how this last of the known fundamental forces might fit into the picture.
+
+As a [[quantum field theory]], the standard model is in particular a [[Yang-Mills theory|Yang-Mills]] [[gauge theory]]. Although there are several approaches to formulate a mathematically precise definition of what a [[quantum field theory]] is, there is no rigorous formulation (yet) that comprises the whole standard model. 
+
+## Variations and generalizations
+
+There is a plethora of attempts and suggestions for variations and generalizations of the standard model into models that are conceptually more satisfying from the point of view of models in theoretical physics. 
+
+### Kaluza-Klein theory
+
+Shortly after the conception of [[general relativity]], it was observed by Kaluza and Klein that the force of [[gravity]] alone may effectively appear -- if considered on a [[spacetime]] that is a [[bundle]] whose [[fiber]] has a tiny volume (as meaured by the [[Riemannian metric]]) -- as the field of gravity coupled to [[gauge field]]s on the base of the bundle.
+
+The huge conceptual simplification that this observation suggested had excited theoreticians early on, but a problem of Kaluza-Klein models is that not only does the "compactified" theory of gravity as if by magic emulate [[gauge field]]s, but it also always contains further scalar fields that are _not_ experimentally observed. 
+
+For that reason interest in Kaluza-Klein theories had decreased in the middle of the last century. Physics departments saw a major revival of the idea when [[string theory]] (see below) gained interest, since that theory necessarily exhibits a Kaluza-Klein mechanism. Incidentally, the problem of the spurious fields -- the moduli -- was still present in this approach. For more on this see the entry [[landscape of string theory vacua]].
+
+
+### GUTs
+
+One of the oldest studies of variations of the standard model is the investigation of [[GUT|grand unified theories]] (GUTs), which are [[Yang-Mills theory|Yang-Mills theories]] that instead of the standard model gauge group have a bigger gauge group which is however a [[simple group]].
+
+### Noncommutative geometry
+
+A wide-spread perception is that some of the conceptual problems with the standard model point to the fact that some basic assumption of 20th century physics on the nature of reality is too oversimplified. In approaches of [[noncommutative geometry]] one postulates that modeling  [[spacetime]] as a smooth [[manifold]] is an oversimplification that makes itself felt when the quantization of the force of [[gravity]] becomes relevant.
+
+In a class of "noncommutative" generalizations of the standard model, spacetime is therefore replaced more generally by a [[spectral triple]] that models a possibly "noncommutative space". One of the more successful approaches in this direction is the Connes-Lott-Chamseddine model. This effectively is a Kaluza-Klein theory (see above), but with the crucual difference that the fiber in the KK-picture is a highly non-classical non-commutative space, whose classical dimension is that of a point, but whose intrinsic dimension is 6. (This is incidentally the same value of the internal dimension as suggest by [[string theory]].)
+
+For more on this see
+
+* [[Urs Schreiber]], _Connes on Spectral Geometry of the Standard Model_ ([part I](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of.html), [part II](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_1.html) [part III](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_2.html), [part IV](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_3.html)) 
+
+
+
+### String theory
+
+A more drastic theoretical modifications to the standard model is proposed in the context of [[string theory]], where the entire concept of [[quantum field theory]] is proposed to be refined by something else. As opposed to GUTs, this approach at least suggests a way in which also the fourth remaining force field of [[gravity]] could be incorporated into the picture.
+
+
+
+There are various other variations, too.
+
+
+## References
+
+For an $n$Lab dictionary (work in progress) of the language of mathematicians and physicists see:
 
 * [[domenicofiorenza:The standard model]]
-
-* Wikipedia on the [standard model] (http://en.wikipedia.org/wiki/Standard_Model)
 
 There are tons of textbooks about the standard model, so any recommendation is hopelessly biased.
 The following textbook is a short and relativly easy introduction that nevertheless covers a lot of ground:
 
 * Cottingham, W. Noel; Greenwood, Derek A.: _An introduction to the standard model of particle physics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
 
-For further references see [[quantum field theory]].
+For further references see [[quantum field theory]] and the Wikipedia entry
+
+* Wikipedia on the [standard model] (http://en.wikipedia.org/wiki/Standard_Model)
