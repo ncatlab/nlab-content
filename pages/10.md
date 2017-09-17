@@ -124,7 +124,7 @@ As a special case of the above, any presheaf topos, i.e. any topos of the form $
 
 ### For cover-preserving flat functors on a site
 
-Another way of viewing any Grothendieck topos $E$ as a classifynig topos is to start with a small [[site]] of definition for it.  Any such site gives rise to a [[geometric theory]] called the theory of [[cover-preserving functor|cover-preserving]] flat functors on that site.  The classifying topos of this theory is again $E$.
+Another way of viewing any Grothendieck topos $E$ as a classifying topos is to start with a small [[site]] of definition for it.  Any such site gives rise to a [[geometric theory]] called the theory of [[cover-preserving functor|cover-preserving]] flat functors on that site.  The classifying topos of this theory is again $E$.
 
 Moreover, for any object $X$ of $E$, there is a small site of definition
 for $E$ which includes $X$, and thus for which $X$ is (part of) the universal object.  
@@ -189,7 +189,7 @@ Such a flat functor picks a single sheaf on $X$ and encodes a $G$-action on this
 Let $G$ be a (bare, discrete) group, write $\mathcal{B}G \in $ [[Top]] for the ordinary [[classifying space]] and $\mathbf{B}G \in $ [[Grpd]] the one-object groupoid version of $G$. There is a canonical [[geometric morphism]]s
 
 $$
-  PSh(\mathbf{B}C)
+  PSh(\mathbf{B}G)
   \to
   Sh(\mathcal{B}G)
   \,.
