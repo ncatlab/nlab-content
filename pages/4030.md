@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc} 
 
 ## Idea
@@ -37,7 +37,7 @@ have analogs for [[topos]]es and [[(∞,1)-topos]]es
 ## Definition
 
 
-+-- {: .un_def #ConnectedObject}
++-- {: .num_defn #ConnectedObject}
 ###### Definition
 
 An object $A$ in a [[topos]] $\mathcal{E}$ is called a **[[connected object]]** if the [[hom-functor]] $\mathcal{E}(A, -)$ preserves finite [[coproduct]]s. 
@@ -46,7 +46,7 @@ Equivalently, an object $A$ is connected if it is nonempty (non[[initial object|
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A [[Grothendieck topos]] $\mathcal{E}$ is called a **locally connected topos** if every object $A \in \mathcal{E}$ is a [[coproduct]] of connected objects $\{A_i\}_{i \in I}$, $A = \coprod_{i \in I} A_i$.  
@@ -76,7 +76,7 @@ This is the **connected component functor**. It generalises the functor, also de
 
 The following proposition asserts that the existence of $\Pi_0$ already characterizes locally connected toposes.
 
-+-- {: .un_prop #LocalConnectednessByEssentialGeometricMorphism}
++-- {: .num_prop #LocalConnectednessByEssentialGeometricMorphism}
 ###### Proposition
 
 A [[Grothendieck topos]] $\mathcal{E}$ is locally connected precisely if the [[global section]] [[geometric morphism]] $\Gamma : \mathcal{E} \to Set$ is an [[essential geometric morphism]] $(\Pi_0 \dashv L Const \dashv \Gamma) : \mathcal{E} \to Set$. 
@@ -178,7 +178,7 @@ However, this doesn't mean that essential geometric morphisms are the "relative"
 
 ### Equivalent conditions
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $C$ and $C$ [[cartesian closed categories]], a [[functor]] $F : C \to D$ that preserves [[product]]s is called a **[[cartesian closed functor]]** if the canonical [[natural transformation]]
@@ -192,7 +192,7 @@ $$
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[cartesian closed functor]] precisely if $\mathcal{E}$ is a locally connected topos.
@@ -207,9 +207,10 @@ The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[car
 A [[topos]] $E$ is called a [[connected topos]] if the [[left adjoint]] $L Const : Set \to E$ is a [[full and faithful functor]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
-If $\Gamma \colon E\to Set$ is a locally connected topos, then it is also a [[connected topos]] --- in that $L Const$ is full and faithful --- if and only if the left adjoint $\Pi_0$ of $L Const$ preserves the terminal object.
+If $\Gamma \colon E\to Set$ is a locally connected topos, then it is also a [[connected topos]] --- in that $L Const$ is full and faithful --- if and only if the [[left adjoint]] $\Pi_0$ of $L Const$ preserves the 
+[[terminal object]].
 =--
 
 This is ([Johnstone, C3.3.3](#Johnstone)).
