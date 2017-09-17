@@ -57,6 +57,10 @@ $A_\infty$-modules, etc.
 
 (...)
 
+## Related concepts
+
+* [[model structure on modules over an algebra over an operad]]
+
 
 ## References
 
