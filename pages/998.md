@@ -81,3 +81,5 @@ version of the degeneration of Hodge-to-de Rham [[spectral sequence]], conjectur
 * L. Katzarkov, [[Maxim Kontsevich|M. Kontsevich]], T. Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
 
 * D. Kaledin, _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex)
+
+* MathOverflow, [Theories of Noncommutative Geometry](http://mathoverflow.net/questions/10512/theories-of-noncommutative-geometry)
