@@ -69,6 +69,8 @@ Further references include:
 
 * C.R. Graham, [[Edward Witten]], _Conformal anomaly of submanifold observables in AdS/CFT correspondence_, [hepth/9901021](http://arxiv.org/abs/hep-th/9901021).
 
+* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
+
 [[!redirects AdS/CFT]][[!redirects AdS/CFT correspondence]][[!redirects AdS-CFT correspondence]]
 
 [[!redirects AdS-CFT correspondence]]
