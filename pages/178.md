@@ -893,7 +893,7 @@ $$
 
 satisfying on $U_i \cap U_j \cap U_k$ the cocycle condition $g_{i j} g_{j k} = g_{i k}$.
 
-From this we can compute the [[homotopy fiber]] of $g : C(\{U_i\}) \to \mathbf{B}G$ by forming the ordinaty [[pullback]] of the fibrant replacement $\mathbf{E}G \to \mathbf{B}G$ of the point inclusion $* \to \mathbf{B}G$, where $\mathb{E}G = \mathbf{B}G^{I} \times_{\mathbf{B}G} *$ is the smooth groupoid
+From this we can compute the [[homotopy fiber]] of $g : C(\{U_i\}) \to \mathbf{B}G$ by forming the ordinary [[pullback]] of the fibrant replacement $\mathbf{E}G \to \mathbf{B}G$ of the point inclusion $* \to \mathbf{B}G$, where $\mathb{E}G = \mathbf{B}G^{I} \times_{\mathbf{B}G} *$ is the smooth groupoid
 
 $$
   \mathbf{E}G
