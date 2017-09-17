@@ -87,8 +87,8 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 ## References
 
-* Michiel Hazewinkel, Formal Groups and Applications
+* Michiel Hazewinkel, Formal Groups and Applications, [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
 
-* Michel Demazure, Lectures on $p$-Divisible Groups
+* Michel [[Demazure, lectures on p-divisible groups]]
  
 
