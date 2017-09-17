@@ -30,9 +30,13 @@ An [[equivalence relation]] is precisely a congruence in [[Set]].
 The eponymous example is congruence modulo $n$ (for a fixed [[natural number]] $n$), which is a congruence on $\mathbf{N}$ in the category of [[rig]]s.
 
 
-## Remarks
+## Related pages
 
-A [[Mal'cev category]] is a [[finitely complete category]] in which every internal relation satisfying reflexivity is thereby actually a congruence.
+* The notions of [[regular category]] and [[exact category]] can naturally be formulated in terms of congruences.  A "higher arity" version, corresponding to [[coherent categories]] and [[pretoposes]] is discussed at [[familial regularity and exactness]].
+
+* A [[Mal'cev category]] is a [[finitely complete category]] in which every internal relation satisfying reflexivity is thereby actually a congruence.
+
+* [[higher category theory|Higher-categorical]] generalizations are that of a [[2-congruence]] and of a [[groupoid object in an (∞,1)-category]].
 
 
 [[!redirects congruences]]
