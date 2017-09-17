@@ -514,6 +514,8 @@ This is due to ([Fiorenza-Rogers-Schreiber 13, section 6.2.1](#FiorenzaRogersSch
 
 * [[string group]], [[string 2-group]], [[string structure]], [[twisted string structure]]
 
+* [[T-duality 2-group]]
+
 * [[string^c 2-group]]
 
 * [[fivebrane group]], [[fivebrane 6-group]]
