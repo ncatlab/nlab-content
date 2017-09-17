@@ -256,6 +256,11 @@ An overview with a collection of references is
 
 * _Connections on vector bundles and the Gauss-Bonnet theorem_ ([pdf](http://www.supermanifold.com/connections.pdf))
 
+A classical textbook reference is
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+
 Some standard monographs are
 
 * [[Johan Louis Dupont]], _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, Aarhus, 2003, 115 pp. [pdf](http://www.johno.dk/mathematics/fiberbundlestryk.pdf)
