@@ -37,7 +37,6 @@ The following is a list of properties of and pertaining to sequentially compact 
 
 
 2. For a [[metric space]], the notions of sequential compactness and compactness coincide.
-3. A topological space $X$ is sequentially compact if and only if $\mathbb{R} \times X$ has the _tube property_.  That is, that a neighbourhood of $\{0\} \times X$ necessarily contains a subset of the form $(-\epsilon, \epsilon) \times X$.
 
 [[!redirects sequential compactness]]
 [[!redirects sequentially compact space]]
