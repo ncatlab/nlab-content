@@ -74,6 +74,9 @@ A preprint is here:
 
 Notes from talks can be found [here](http://canyon23.net/math/talks) and [here](http://tqft.net/UCR-blobs1).
 
+*[i want to sell my diamond](http://www.iwanttosellmydiamond.net/)
+*[attract women](http://www.promaxpheromonelabs.com/)
+
 Some notes appeared in the context of the
 
 * [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
