@@ -24,6 +24,12 @@ A [[Riemannian manifold]] with [[special holonomy]] [[G2]].
 
 In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]]/[[M-theory]] on $G_2$-manifolds (see for instance [Duff](#Duff)) can have attractive phenomenological properties, see for instance the _[[G2-MSSM]]_. 
 
+## Related concepts
+
+* [[G2]]
+
+* [[M-theory on G2-manifolds]], [[G2-MSSM]]
+
 ## References
 
 ### General
