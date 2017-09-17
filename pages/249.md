@@ -21,5 +21,14 @@ is a [[2-limit|pullback]] in [[Cat]].
 
 More generally, a morphism $f:C\to D$ in any [[2-category]] $K$ is called **pseudomonic** if the corresponding square is a pullback, or equivalently if $K(X,C)\to K(X,D)$ is a pseudomonic functor for any $X$.  See [[pseudomonic morphism]].
 
++--{.query}
+An interesting example of the notion appears in the context of Joyal's species of structures.
+
+A species is a functor from the category $Bij$ of finite sets and bijections to $Set$, and the functors that are obtained by taking left Kan extensions of species along the embedding $I:Bij \to Set$ are called _analytic functors_. Now taking left Kan extensions along $I$ is pseudomonic, and this implies that the coefficients of an analytic functor are unique up to isomorphism.
+
+I think that in a sense pseudomonic functors are precisely the functors for which it makes sense to say that $A$ is uniquely determined by $FA$ up to isomorphism (although we do not really need faithfulnes for this, bijectivity on isos suffices).
+=--
+
+
 
 [[!redirects pseudomonic functors]]
