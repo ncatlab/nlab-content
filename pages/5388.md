@@ -15,7 +15,7 @@
 
 ## Definition
 
-The _Lorentz group_ is the [[orthogonal group]] for an invariant [[bilinear form]] of signature $(-+++\cdots)$, $O(n,1)$.
+The _Lorentz group_ is the [[orthogonal group]] for an invariant [[bilinear form]] of signature $(-+++\cdots)$, $O(n,1)$.  In special relativity it acts as the group of symmetries of [[Minkowski spacetime]] preserving a chosen basepoint.
 
 ## Related concepts
 
