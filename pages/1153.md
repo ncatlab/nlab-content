@@ -1,3 +1,1 @@
-
-
-See [[stable (infinity,1)-category]]
+&lt; [[stable (infinity,1)-topos]]
