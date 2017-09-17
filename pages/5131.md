@@ -15,8 +15,27 @@
 
 This page describes aspects of the combinatorics of [[product]]s of [[simplicial set]]s.
 
+## Properties
 
-## Shuffles and products of simplices
+For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
+for $\mu = (\mu_1, \mu_2, \cdots, \mu_q)$ a sequence of natural numbers in $\{0, \cdots p+q\}$, write
+
+$$
+  s_\mu : X_p \to X_{p+q}
+$$
+
+for the map dual to (...)
+
+
++-- {: .un_prop}
+###### Proposition
+
+The non-degenerate simplices in the [[product]] $\Delta[p] \times\Delta[q]$ are precisely those of the form $(s_\mu x , s_\nu y)$ for $(\mu,\nu)$ a $(p,q)$-[[shuffle]] and $x, y$ non-degenerate simplices in $\Delta[p]$ and $\Delta[q]$, respectively.
+
+=--
+
+
+## Exposition: Shuffles and products of simplices
 
 [[shuffle|Shuffles]] are interesting combinatorial structures but the reason why they come into many constructions in [[homotopy theory]] and [[higher category theory]] is because of their relationship with the structure of [[product]]s.
 
