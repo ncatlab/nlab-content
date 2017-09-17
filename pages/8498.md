@@ -77,7 +77,9 @@ and the right midpoint operation is defined by
 $$r = (I \stackrel{i_1}{\to} I \vee I \stackrel{\alpha^{-1}}{\to} I).$$
 
 
+## References 
 
+* Peter Freyd, Reality Check, post to the categories list, July 31, 2000 ([web](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/msg00200.html)) 
 
 
 [[!redirects real coalgebra]]
