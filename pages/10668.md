@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -14,5 +25,13 @@ An [[E-∞ scheme]] in this sense is a [[structured (∞,1)-topos]] in $E_\infty
 
 ## Refereces
 
+The basic definitions are in
+
 * [[Jacob Lurie]], _[[Spectral Schemes]]_
  {#Lurie}
+
+Further properties are discussed in 
+
+* [[Jacob Lurie]], _[[Representability theorems]]_
+
+[[!redirects E-infinity geometry]]
