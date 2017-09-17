@@ -930,7 +930,23 @@ are weak equivalences. This is the case precisely if $X_n \to X_0$ is a weak equ
 
 Now for the equivalence to the second item.
 
-(...)
+By [[Joyal-Tierney calculus]] the morphisms in question are of the form
+
+$$
+  (\Lambda^k[n] \to \Delta[n]) \bar \times (\partial \Omega[T] \to \Omega[T])
+  \,.
+$$
+
+Since the [[horn]] inclusions generate the acyclic monomorphisms, a morphism $X \to *$ that has right lifting against this set also has right lifting against
+
+$$
+  (\Delta[0] \to \Delta[n]) \bar \times (\partial \Omega[T] \to \Omega[T])
+  \,.
+$$
+
+This in turn means that $X_n \to X_0$ has the right lifting property against the tree boundary inclusions. Since these are the generating cofibration in the [[model structure on dendroidal sets]], this implies that $X_n \to X_0$ is an equivalence. So this shows that the second item implies the first.
+
+For the converse, it is sufficient to see that all the morphisms in the set are acyclic cofibrations in the locally constant model structure. (...)
 
 =--
 
