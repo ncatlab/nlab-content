@@ -39,7 +39,7 @@ The original source is:
 
 * Peter Gabriel and Friedrich Ulmer, _Lokal Praesentierbare Kategorien_, Springer Lecture Notes in Mathematics **221**, Berlin, 1971. 
 
-For some nice general treatments of Gabriel--Ulmer duality and its generalizations, see:
+For some nice general treatments of Gabriel--Ulmer duality and its generalizations to other [[doctrine|doctrines]], see:
 
 * C. Centazzo and E. M. Vitale, A duality relative to a limit doctrine.  ([web](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf))
 
