@@ -194,7 +194,7 @@ See also [[deformation theory]] and references therein.
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ section 8.8.
 
-* [[Gabrielle Vezzosi]], _A note on the cotangent complex in derived algebraic geometry_, [arxiv/1008.0601](http://arxiv.org/abs/1008.0601)
+* [[Gabriele Vezzosi]], _A note on the cotangent complex in derived algebraic geometry_, [arxiv/1008.0601](http://arxiv.org/abs/1008.0601)
 
 A short exposition (from the point of view of [[formal schemes]]) is in
 
