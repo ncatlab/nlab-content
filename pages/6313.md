@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Huzihiro_Araki)
+
+## related $n$Lab entries
+
+* [[AQFT]], [[Haag-Kastler axioms]]
+
+* [[relative entropy]]
+
+category: people
