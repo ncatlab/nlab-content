@@ -30,7 +30,45 @@ More generally there is a notion of _[[orthogonal group of an inner product spac
 The analog for complex Hilbert spaces is the [[unitary group]].
 
 
-## Whitehead tower and higher orientation structures
+## Properties
+
+### Homotopy groups
+ {#HomotopyGroups}
+
+The [[homotopy groups]] of $O(n)$ are for $k \in \mathbb{N}$ and for sufficiently large $n$ ("stable range") are
+
+$$
+  \array{
+     \pi_{8k+0}(O) & = \mathbb{Z}_2
+     \\
+     \pi_{8k+1}(O) & = \mathbb{Z}_2
+     \\
+     \pi_{8k+2}(O) & = 0
+     \\
+     \pi_{8k+3}(O) & = \mathbb{Z}
+     \\
+     \pi_{8k+4}(O) & = 0
+     \\
+     \pi_{8k+5}(O) & = 0
+     \\
+     \pi_{8k+6}(O) & = 0
+     \\
+     \pi_{8k+7}(O) & = \mathbb{Z}
+  }
+  \,.
+$$
+
+In the unstable range for low $n$ they instead start out as follows (e.g. [Abanov 09, A.1.1.3.2](#Abanov09)).
+
+| $G$ | $\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ |
+|--|--|--|--|--|--|--|--|--|--|
+| $SO(2)$ | $\mathbb{Z}$ |  0 | 0 |0 |0 |0 |0 |0 |0 |
+| $SO(3)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{12}$ | $\mathbb{Z}_{2}$ | $\mathbb{Z}_{2}$ | $\mathbb{Z}_{3}$ |
+| $SO(4)$ | $\mathbb{Z}_{2}$ | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{12} \oplus \mathbb{Z}_{12}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{3} \oplus \mathbb{Z}_{3}$ |
+| $SO(5)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 |
+
+
+### Whitehead tower and higher orientation structures
 
 The [[Whitehead tower]] of the orthogonal group plays an important role in applications related to [[quantum physics]]. 
 
@@ -68,5 +106,9 @@ Examples of sporadic (exceptional) [[isogenies]] from [[spin groups]] onto ortho
 
 * [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_, July 2013 ([pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf))
 
+The [[homotopy groups]] of $O(n)$ are listed for instance in 
+
+* Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf))
+  {#Abanov09}
 
 [[!redirects orthogonal groups]]
