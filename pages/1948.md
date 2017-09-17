@@ -27,7 +27,7 @@ In the special case that $C = $ [[SSet]] is the standard [[model structure on si
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #ProjectiveAndInjectiveStructure}
 ###### Definition
 
 For $C$ a [[combinatorial model category]] (or, in the projective case, merely cofibrantly generated) and $D$ a [[small category]] there exists the following two (combinatorial) model category structures on the [[functor category]] $[D,C]$:
@@ -44,11 +44,20 @@ More generally, if $C$ is in addition a [[simplicial model category]] and $D$ a 
 
 ## Properties
 
+In all of the following, let $\mathbf{S}$ be an [[excellent model category]]. The standard example is the [[model structure on simplicial sets]], $sSet_{Quillen}$. 
+
+Let $D$ (and $D_1$, $D_2$, ...) be a [[combinatorial model category|combinatorial]] $\mathbf{S}$-[[enriched model category]].
+
+Moreover, $C$ in the following is assumed to be either an ordinary [[small category]], or, more generally, it is a small $\mathbf{S}$-[[enriched category]].
+
+If $\mathbf{S} = $ [[sSet]]${}_{Quillen}$ and $C$ is an ordinary small category, then then model structures discussed here are instances of the [[model structure on simplicial presheaves]]. If $C$ is itself $sSet$-enriched, then they are instances of the [[model structure on sSet-enriched presheaves]].
+
+### General 
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ a [[combinatorial model category]] and $D$ a [[small category]] the projective and injective structures $[D,C]_{proj}$ and $[D,C]_{inj}$ 
+The projective and injective structures $[D,C]_{proj}$ and $[D,C]_{inj}$, def. \ref{ProjectiveAndInjectiveStructure}
 
 * are indeed [[model category]] structures;
 
@@ -56,7 +65,7 @@ For $C$ a [[combinatorial model category]] and $D$ a [[small category]] the proj
 
 * are right or left [[proper model categories]] if $C$ is right or left proper, respectively.
 
-* are [[simplicial model categories]] if $C$ is a [[simplicial model category]], with respect to the [[sSet]]-[[enriched category|enrichment]] for which the [[sSet]]-[[copower|tensoring]] is objectwise that of $C$.
+* are $\mathbf{S}$-[[enriched model categories]] (e.g.[[simplicial model categories]]) with respect to the [[sSet]]-[[enriched category|enrichment]] for which the [[sSet]]-[[copower|tensoring]] is objectwise that of $C$.
 
 =--
 
@@ -68,6 +77,8 @@ The statement about properness appears as [[Higher Topos Theory|HTT, remark A.2.
 +-- {: .num_prop}
 ###### Proposition
 
+
+Let $C$ be an ordinary [[small category]].
 
 The cofibrations in $[C, A]_{proj}$ are generated from (i.e. are the [[weakly saturated class of morphisms]] defined by) the morphisms of the form
 
@@ -109,65 +120,81 @@ $$
 
 =--
 
+### Functoriality in domain and codomain
+
 +-- {: .num_prop #QuillenFunctorialityInCodomain}
 ###### Proposition
-
 
 The functor model structures depend [[Quillen adjunction|Quillen-functorially]] on their [[codomain]], in that for
 
 $$
-  C_1 \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} C_2
+  D_1 \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D_2
 $$
 
-a [[Quillen adjunction]] between [[combinatorial model categories]], composition induces [[Quillen adjunction]]s
+a $\mathbf{S}$-[[enriched Quillen adjunction]] between [[combinatorial model categories|combinatorial]] $\mathbf{S}$-[[enriched model categories]], postcomposition induces $\mathbf{S}$-[[enriched Quillen adjunctions]]
 
 $$
-  [D,C_1]_{proj} \stackrel{\overset{[D,L]}{\leftarrow}}{\underset{[D,R]}{\to}} [D,C_2]_{proj}  
+  [C,D_1]_{proj} \stackrel{\overset{[C,L]}{\leftarrow}}{\underset{[C,R]}{\to}} [C,D_2]_{proj}  
 $$
 
 and
 
 $$
-  [D,C_1]_{inj} \stackrel{\overset{[D,L]}{\leftarrow}}{\underset{[D,R]}{\to}} [D,C_2]_{inj}  
+  [C,D_1]_{inj} \stackrel{\overset{[C,L]}{\leftarrow}}{\underset{[C,R]}{\to}} [C,D_2]_{inj}  
   \,.
 $$
 
-Moreover, if $(L \dashv R)$ is a [[Quillen equivalence]], then so is $([D,L] \dashv [D,R])$.
+Moreover, if $(L \dashv R)$ is a [[Quillen equivalence]], then so is $([C,L] \dashv [C,R])$.
 
 =--
 
-This is ([Lurie, remark A.2.8.6](#Lurie)).
+For the case that $C$ is a small category this is ([Lurie, remark A.2.8.6](#Lurie)), for the enriched case this is ([Lurie, prop. A.3.3.6](#Lurie)).
 
+
+
+The Quillen-functoriality on the domain is more asymmetric. 
 
 +-- {: .num_prop}
 ###### Proposition
 
+For $p : C_1 \to C_2$ a functor between small categories or an $\mathbf{S}$-[[enriched functor]] between $\mathbf{S}$-[[enriched categories]], let 
 
-If $(L \dashv R)$ is [[sSet]]-enriched, then so is $([D,L] \dashv [D,R])$.
+$$
+  (p_! \dashv p^* \dashv p_*) :  [C_2,D] 
+  \stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^*}{\to}}{\underset{p_*}{\leftarrow}}}
+ [C_1,D]
+$$ 
 
-The Quillen-functoriality on the domain is more asymmetric: for $p : D_1 \to D_2$ a morphism of small categories, and $p^* = [p,C] : [D_2,C] \to [D_1,C]$, we have [[Quillen adjunction]]s
+be the [[adjoint triple]] where $p^*$ is precomposition with $p$ and where $p_!$ and $p_*$ are left and right [[Kan extension]] along $p$, respectively.
+
+Then we have [[Quillen adjunctions]]
 
 $$
   (p_! \dashv p^*) :
-  [D_1,C]_{proj} \stackrel{\overset{p_!}{\to}}{\underset{p^*}{\leftarrow}}
-  [D_2,C]_{proj}
+  [C_1,D]_{proj} \stackrel{\overset{p_!}{\to}}{\underset{p^*}{\leftarrow}}
+  [C_2,D]_{proj}
 $$
 
 and
 
 $$
   (p^* \dashv p_*) :
-  [D_1,C]_{inj} \stackrel{\overset{p^*}{\leftarrow}}{\underset{p_*}{\to}}
-  [D_2,C]_{inj}
+  [C_1,D]_{inj} \stackrel{\overset{p^*}{\leftarrow}}{\underset{p_*}{\to}}
+  [C_2,D]_{inj}
   \,.
 $$
 
-In the $sSet$-enriched case, if $p : D_1 \to D_2$ is an equivalence in the [[model structure on sSet-categories]], then these two Quillen adjunctions are both [[Quillen equivalence]]s.
 
 =--
 
+For $C$ not enriched this appears as ([Lurie, prop. A.2.8.7](#Lurie)), for the enriched case it appears as ([Lurie, prop. A.3.3.7](#Lurie)).
 
++-- {: .num_remark } 
+###### Remark
 
+In the $sSet$-enriched case, if $p : D_1 \to D_2$ is an [[weak equivalence]] in the [[model structure on sSet-categories]], then these two Quillen adjunctions are both [[Quillen equivalence]]s.
+
+=--
 
 +-- {: .num_prop #PresentationOfInfinityFunctors} 
 ###### Proposition
@@ -176,14 +203,10 @@ For $C$ a [[combinatorial simplicial model category]], the [[(∞,1)-category]] 
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 See [[(∞,1)-category of (∞,1)-functors]] for details.
 
-=--
 
-## Relation to homotopy Kan extensions/limits/colimits
+### Relation to homotopy Kan extensions/limits/colimits
 
 Often functors $D \to C$ are thought of as [[diagram]]s in the model category $C$, and one is interested in obtaining their [[homotopy limit]] or [[homotopy colimit]] or, generally, for $p : D \to D'$ any functor, their left and right [[homotopy Kan extension]].
 
