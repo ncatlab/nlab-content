@@ -1,0 +1,6 @@
+
+
+An [[(infinity,1)-functor]] between [[(2,1)-categories]].
+
+[[!redirects (2,1)-functors]]
+
