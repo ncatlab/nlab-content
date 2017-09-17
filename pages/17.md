@@ -317,6 +317,25 @@ since this will indicate to everyone looking just at your source code what the c
 
 It is also important that the section headings not contain anything that shouldn't go in the table of contents.  Whilst formatting is allowed, wiki-links are not (since then the entry in the table of contents would be double linked).
 
+## How to add a floating table of contents
+
+Many pages include a "floating table of contents" at the top right-hand side with links to other pages on similar topics.  The lists of related pages are separate pages with names such as [[category theory - contents]]; if you want to create a new one, look at the syntax of existing ones.
+
+To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the page (without the space before `!include`):
+
+     +-- {: .rightHandSide}
+     +-- {: .toc .clickDown tabindex="0"}
+     ### Context
+     #### Category Theory
+     +-- {: .hide}
+     [[ !include category theory - contents]]
+     =--
+     =--
+     =--
+
+If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` through the first `=--` line.
+
+
 ## How to draw commutative diagrams and pictures {#diagrams}
 
 The itex syntax accepted by the nlab doesn't understand the syntax of any diagram-drawing package akin to xypic or tikz.  (Many of us would love to improve matters; see the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=2), and chime in if you have any suggestions.)  At present there are basically three ways to make diagrams: hack it together with arrays, include an image file, or include SVG.
