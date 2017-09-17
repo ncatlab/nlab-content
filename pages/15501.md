@@ -1,3 +1,3 @@
-Those results match an earlier Manpower study of more than 28,000 employers in 25 countries. The 2007 report revealed that only 14% of employers had strategies to recruit older workers and only 21% had developed retention policies. There were exceptions. Encouraged by government legislation and incentive programs, companies in Japan and Singapore were far ahead of employers in other countries in trying to keep older workers.
- <a href="http://www.cluff.co.uk/RayBannnewstyle-2014.asp?newstyle=ray-ban-3483-sunglasses-outlet-216.html" >Ray Ban 3483 Sunglasses</a>
-[url=http://www.cluff.co.uk/RayBannnewstyle-2014.asp?newstyle=ray-ban-3483-sunglasses-outlet-216.html]Ray Ban 3483 Sunglasses[/url]
+Thanks to mobile devices, remote conferencing technology and an increasingly global workforce, "people are spending 40% to 50% of their time at their desk," Lister said.
+ <a href="http://www.enterpriseict.co.uk/christianlouboutinonlinesalle.asp?onlinesale=yves-saint-laurent-womens-boots-c-1_4.html" >Women's Boots</a>
+[url=http://www.enterpriseict.co.uk/christianlouboutinonlinesalle.asp?onlinesale=yves-saint-laurent-womens-boots-c-1_4.html]Women's Boots[/url]
