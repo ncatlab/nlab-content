@@ -58,10 +58,11 @@ One purpose (or at least: one goal) of the $n$Lab is to help make information wi
 
 If you wish to make use of content obtained from the $n$Lab, you are free and encouraged to do so, while properly acknowledging and/or citing your source. If you want to be sure that an $n$Lab page which you cite always contains precisely the same information, you can point to a specific version number of a page, found by clicking on the _history_ button at the bottom of any page.
 
-Conversely, if you contribute material to the $n$Lab, you should be aware that others may use it or, in fact, edit it. In the first case you trust that they will cite your contributions properly, in the second that they respect it and only improve on it. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
+Conversely, if you contribute material to the $n$Lab, you are making it publically available and should be aware that others may use it (whatever you decide to do with it elsewhere) or, in fact, edit it. In the first case you trust that they will cite your contributions properly, in the second that they respect it and only improve on it. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
 Usually this works well. If there is need for discussion, the 
 [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
+
 
 ## Software requirements
  {#SoftwareRequirements}
