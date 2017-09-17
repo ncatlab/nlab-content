@@ -1,4 +1,7 @@
-[[!redirects model (in particle physics)]]
+
+For different notions of the same name, see at _[[model]]_.
+
+***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -24,6 +27,12 @@ The _[[standard model of particle physics]]_ is, by default, the currently best 
 
 Despite the success of this model, it is conceptually unsatisfactory in many ways and it is clear that it can be a roughly accurate description of reality not high above the currently experimentally available [[energy]]-scales. Therefore [[phenomenology|phenomenologists]] still "build" plenty of other models that refine the standard model in one way or other, being compatible with the present data, but making various other predictions for what should be observed at higher energies.
 
+It is generally understood that models are approximations to reality. The proverbial saying goes:
+
+> Every model is wrong. But some models are useful.
+
+
+
 ## Examples
 
 ### In particle physics
@@ -47,3 +56,5 @@ Despite the success of this model, it is conceptually unsatisfactory in many way
 * [[landscape of string theory vacua]]
 
 [[!redirects model (in particle phyiscs)]]
+
+[[!redirects model (in particle physics)]]
