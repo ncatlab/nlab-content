@@ -12,7 +12,7 @@ A __proper class__ is a class that is not a [[set]].  So now we have to define '
 
 A __proper class__ is a class whose [[cardinal number]] is not the cardinal number of any set.  This is a less [[evil]] version of the previous definition; however, in some foundations these are actually equivalent.
 
-A __proper class__ is a collection that can be put in [[bijection]] with the class of all [[ordinal number|ordinals]].
+A __proper class__ is a collection that can be put in [[bijection]] with the class of all [[ordinal number|ordinals]], __Ord__.
 
 A __class__ is a collection of [[set]]s.  Here the bubble is moved to 'collection', but we will be able to pop that bubble below.  Also we might want to allow the members of a proper class to be other than sets; certainly it is true, however, that a __pure class__ is a collection of [[pure set]]s.
 
