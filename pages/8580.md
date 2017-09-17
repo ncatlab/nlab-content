@@ -50,27 +50,27 @@ In fact we introduce smooth manifolds only after we introduce _[[smooth groupoid
 
 We discuss each topic below in three stages, in three _layers_. 
 
-1. The first layer, called **Layer Mod**, deals with concrete explicit  constructions as familiar from traditional textbooks on differential geometry and physics. This layer is supposed to be readable and useful all in itself and the reader who feels that this is all he or she wants to see can stick to this and ignore the other layers. In particular, while _Layer Mod_ does invoke the basic notion of a _[[category]]_ and of a _[[functor]]_ -- which are as simple as the notions of [[group]] or [[associative algebra|algebra]] --, it does not use any actual _[[category theory]]_. 
+1. The first layer, called the **Model Layer **, deals with concrete explicit  constructions as familiar from traditional textbooks on differential geometry and physics. This layer is supposed to be readable and useful all in itself and the reader who feels that this is all he or she wants to see can stick to this and ignore the other layers. In particular, while the _Model Layer_ does invoke the basic notion of a _[[category]]_ and of a _[[functor]]_ -- which are as simple as the notions of [[group]] or [[associative algebra|algebra]] --, it does not use any actual _[[category theory]]_. 
  {#LayerMod}
 
-1. The second layer, called **Layer Sem**, makes explicit the ([[(infinity,1)-category theory|higher]]) [[category theory]] and ([[(infinity,1)-topos theory|higher]]) [[topos theory]] at work in the background. This puts the concrete constructions of _Layer Mod_ into a more general context and helps to see certain organizational patterns that underlie the seemingly different phenomena. It provides some powerful theorems which _Layer Mod_ is secretly benefitting from. For instance this layer gives a systematic rule for generalizing everything at the beginning in _Layer Mod_ from ordinary [[differential geometry]] to what is called  _[[supergeometry]]_, which is the context in which [[fermion|fermionic]] [[particles]] are formalized: the [[matter]] constituents of the [[observable universe]].
+1. The second layer, called **Semantic Layer**, makes explicit the ([[(infinity,1)-category theory|higher]]) [[category theory]] and ([[(infinity,1)-topos theory|higher]]) [[topos theory]] at work in the background. This puts the concrete constructions of the _Model Layer_ into a more general context and helps to see certain organizational patterns that underlie the seemingly different phenomena. It provides some powerful theorems which the _Model Layer_ is secretly benefitting from. For instance this layer gives a systematic rule for generalizing everything at the beginning in _Model Layer_ from ordinary [[differential geometry]] to what is called  _[[supergeometry]]_, which is the context in which [[fermion|fermionic]] [[particles]] are formalized: the [[matter]] constituents of the [[observable universe]].
  {#LayerSem}
 
-1. The third layer, called **Layer Syn**, makes explicit the expression of these phenomena in the [[logical framework|formal]] [[internal language]] of the [[topos]] of [[smooth spaces]] -- which is _[[dependent type theory|dependent]] [[type theory]]_ -- and of the [[(infinity,1)-topos|higher topos]] of [[smooth infinity-groupoid|smooth higher groupoids]] -- which is _[[homotopy type theory]]_. This makes more transparent various constructions in ([[(infinity,1)-topos theory|higher]]) [[topos theory]] used in _Layer Sem_, and in fact it provides 
+1. The third layer, called **Syntactic Layer**, makes explicit the expression of these phenomena in the [[logical framework|formal]] [[internal language]] of the [[topos]] of [[smooth spaces]] -- which is _[[dependent type theory|dependent]] [[type theory]]_ -- and of the [[(infinity,1)-topos|higher topos]] of [[smooth infinity-groupoid|smooth higher groupoids]] -- which is _[[homotopy type theory]]_. This makes more transparent various constructions in ([[(infinity,1)-topos theory|higher]]) [[topos theory]] used in _Semantic Layer_, and in fact it provides 
 a [[categorical semantics|natural construction principle]] for objects in a (higher) topos that model some intended _meaning_, which is precisely what [[mathematical physics]] is about.
 This is meant for readers who enjoy seeing fundamental physics _naturally_ rooted in genuinely fundamental mathematics, in _[[natural deduction]]_, as it were. Everybody else should ignore this.
  {#LayerSyn}
  
 **The three layers**
 
-* **Layer Mod** -- [[concrete particular]]: [[models]]
+* **Model Layer** -- [[concrete particular]]: [[models]]
 
-* **Layer Sem** -- [[concrete general]]: [[categorical semantics]] in [[(infinity,1)-topos theory|higher]] [[topos theory]]
+* **Semantics Layer** -- [[concrete general]]: [[categorical semantics]] in [[(infinity,1)-topos theory|higher]] [[topos theory]]
 
-* **Layer Syn** -- [[abstract general]]: [[syntax]] in [[homotopy type theory|homotopy]]-[[type theory]]
+* **Santactic Layer** -- [[abstract general]]: [[syntax]] in [[homotopy type theory|homotopy]]-[[type theory]]
 
 
-The tables in the following _[The full story in a few formal words](#TabulatedIndex)_ provide an index to the central themes of the following text. Whereas the exposition below is organized to start each topic with the discussion of its concrete [[models]] in a [Mod Layer](#LayerMod), then pass to a general abstract semantics in a [Sem Layer](#LayerSem) and then finally to the abstract formal syntax in a [Syn Layer](#LayerMod), this table indicates how this passage to abstract syntax usefully reflects back onto the concrete theory: 
+The tables in the following _[The full story in a few formal words](#TabulatedIndex)_ provide an index to the central themes of the following text. Whereas the exposition below is organized to start each topic with the discussion of its concrete [[models]] in a [Model layer](#LayerMod), then pass to a general abstract semantics in a [Semantics Layer](#LayerSem) and then finally to the abstract formal syntax in a [Syntactic Layer](#LayerMod), this table indicates how this passage to abstract syntax usefully reflects back onto the concrete theory: 
 
 The leftmost column of the tables formulate concepts in terms of ordinary language. The second column translates that ordinary language fairly directly to formal language of ([[homotopy type theory|homotopy]]) [[type theory]]. The third column then interprets these formal syntactical expressions as [[universal constructions]] in a ([[(infinity,1)-topos|higher]], [[cohesive (infinity,1)-topos|cohesive]]) [[topos]] by the rules of [[categorical semantics]].
 The fourth colum finally indicates what this universal construction amounts to when concretely realized in the model given by [[smooth spaces]] and [[smooth ∞-groupoids]]. Finally the rightmost column points to the chapter below that discusses the given construcion.
@@ -351,7 +351,7 @@ Every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypi
 
 Here we discuss the central aspects of the nature of such abstract coordinate systems in themselves. At this point these are not yet coordinate systems _on_ some other space. That is instead the topic of the next section _[Smooth spaces](#SmoothSpaces)_.
 
-### Layer Mod
+### Model Layer
  {#CoordinateSystemsLayerMod}
 
 In this [Mod Layer ](#LayerMod) we discuss the [[concrete particulars]] of _[[coordinate systems]]_: the [[continuum]] [[real line]] $\mathbb{R}$, the [[Cartesian spaces]] $\mathbb{R}^n$ formed from it and the [[smooth functions]] between these.
@@ -385,7 +385,7 @@ For instance in _[[p-adic physics]]_ one explores the hypothesis that the releva
 For the time being all this remains speculation and differential geometry based on the [[continuum]] [[real line]] remains the context of all fundamental [[model (in theoretical physics)|model building]] in physics related to observed [[phenomenology]]. Often it is argued that these speculations are necessitated by the very nature of [[quantum theory]] applied to [[gravity]]. But, at least so far, such statements are not actually supported by the standard theory of [[quantization]]:
 we discuss below in _[Geometric quantization](GeometricQuantization)_ how not just [[classical physics]] but also [[quantum theory]], in the best modern version available, is entirely rooted in differential geometry based on the [[continuum]] [[real line]].
 
-This is the motivation for studying models of physics in geometry modeled on the [[continuum]] [[real line]]. On the other hand, in all of what follows our discussion is set up such as to be _maximally independent_ of this specific choice (this is what _[[topos theory]]_ accomplishes for us, discussed below _[Smooth spaces -- Layer Sem](#SmoothSpacesLayerSem)_). If we do desire to consider another choice of archetypical spaces for the geometry of physics we can simply "change the [[site]]", as discussed [below](#SmoothSpacesLayerSem) and many of the constructions, propositions and theorems in the following will continue to hold. This is notably what we do below in _[Supergeometric coordinate systems](#SupergeometricCoordinateSystems)_ when we generalize the present discussion to a flavor of differential geometry that also formalizes the notion of [[fermion]] [[particles]]: "differential [[supergeometry]]."
+This is the motivation for studying models of physics in geometry modeled on the [[continuum]] [[real line]]. On the other hand, in all of what follows our discussion is set up such as to be _maximally independent_ of this specific choice (this is what _[[topos theory]]_ accomplishes for us, discussed below _[Smooth spaces -- Semantic Layer](#SmoothSpacesLayerSem)_). If we do desire to consider another choice of archetypical spaces for the geometry of physics we can simply "change the [[site]]", as discussed [below](#SmoothSpacesLayerSem) and many of the constructions, propositions and theorems in the following will continue to hold. This is notably what we do below in _[Supergeometric coordinate systems](#SupergeometricCoordinateSystems)_ when we generalize the present discussion to a flavor of differential geometry that also formalizes the notion of [[fermion]] [[particles]]: "differential [[supergeometry]]."
 
 
 #### Cartesian spaces and smooth functions
@@ -593,7 +593,7 @@ Or maybe better put: what makes smooth functions special is that the first of th
 (...)
 
 
-### Layer Sem
+### Semantic Layer
  {#CoordinateSystemsLayerSem}
 
 In this [Sem Layer](#LayerSem) we discuss the [[concrete general]] aspects of _abstract [[coordinate systems]]_, def. \ref{CartesianSpacesAndSmoothFunctions}: the fact that they naturally form: 
@@ -931,7 +931,7 @@ The [[Grothendieck topology]] induced on [[CartSp]] by the differentially good o
 +-- {: .num_remark}
 ###### Remark
 
-This means that for every sheaf-theoretic construction to follow we can just as well consider the Grothendieck topology of open covers on $CartSp$. The sheaves of the open cover topology are the same as those of the good open cover coverage. But the latter is (more) useful for several computational purposes in the following. It is the _good_ open cover coverage that makes manifest, below, that sheaves on $CartSp$ form a [[locally connected topos]] and in consequence then a [[cohesive topos]]. This kind of argument becomes all the more pronounced as we pass [further below](#SmoothnGroupoids) to [[(∞,1)-sheaves]] on [[CartSp]]. This will be discussed in _[Smooth n-groupoids -- Layer Sem -- Local Infinity-Connectedness](#InfinityConnectednessOfSmoothInfinityGrpd) below.
+This means that for every sheaf-theoretic construction to follow we can just as well consider the Grothendieck topology of open covers on $CartSp$. The sheaves of the open cover topology are the same as those of the good open cover coverage. But the latter is (more) useful for several computational purposes in the following. It is the _good_ open cover coverage that makes manifest, below, that sheaves on $CartSp$ form a [[locally connected topos]] and in consequence then a [[cohesive topos]]. This kind of argument becomes all the more pronounced as we pass [further below](#SmoothnGroupoids) to [[(∞,1)-sheaves]] on [[CartSp]]. This will be discussed in _[Smooth n-groupoids -- Semantic Layer -- Local Infinity-Connectedness](#InfinityConnectednessOfSmoothInfinityGrpd) below.
 
 =--
 
@@ -947,7 +947,7 @@ This means that for every sheaf-theoretic construction to follow we can just as 
 (...)
 
 
-### Layer Syn
+### Syntactic Layer
  {#CoordinateSystemsLayerSyn}
 
 In this [Syn Layer](#LayerSyn) we discuss the [[abstract generals]] of _abstract [[coordinate systems]]_, def. \ref{CartesianSpacesAndSmoothFunctions}: the [[internal language]] of a category with [[products]], which is _[[type theory]]_ with _[[product types]]_.
@@ -1234,7 +1234,7 @@ $\,$
 [[!include dependent sum natural deduction - table]]
 
 
-Below in [Smooth spaces - Layer Syn](#SmoothSpacesLayerSyn) we complete this dictionary to one between [[dependent type theory]] with [[dependent products]] and [[toposes]].
+Below in [Smooth spaces - Syntactic Layer](#SmoothSpacesLayerSyn) we complete this dictionary to one between [[dependent type theory]] with [[dependent products]] and [[toposes]].
 
 
 ## **Smooth spaces**
@@ -1245,10 +1245,10 @@ In the section _[Coordinate systems](#CoordinateSystems)_ we have set up the arc
 In the [Sem Layer](SmoothSpacesLayerSem) we discuss smooth spaces as a _[[topos]]_ and in fact as a _[[cohesive topos]]_. This is essentially the stage on which all of the fellowing developments take place. Or rather, the refinement of this to a _[[(infinity,1)-topos|higher topos]]_ is, which we discuss further below in the chapter _[Smooth ∞-Groupoids](#SmoothnGroupoids)_.
 
 
-### Layer Mod
+### Model Layer
  {#SmoothSpacesLayerMod}
 
-In this [Layer Mod](#LayerMod) we discuss concretely the definition of [[smooth spaces]] and of  [[homomorphisms]] between them,  together with basic examples and properties.
+In this [Model Layer](#LayerMod) we discuss concretely the definition of [[smooth spaces]] and of  [[homomorphisms]] between them,  together with basic examples and properties.
 
 #### Plots of smooth spaces and their gluing
  {#PlotsOfSmoothSpacesAndTheirGluing}
@@ -1395,7 +1395,7 @@ $$
 
 We may think of a [[smooth space]] as being a kind of [[space]] whose _local models_ (in the general sense discussed at _[[geometry]]_) are [[Cartesian spaces]]: 
 
-while definition \ref{SmoothSpace} explicitly says that a smooth space is something that is _consistently probeable_ by such local models; by a [[category theory|general abstract]] fact -- which we discuss in more detail below in _[Smooth Spaces - Layer Sem](#SmoothSpacesLayerSem)_  -- that is sometimes called the [[co-Yoneda lemma]] it follows in fact that smooth spaces are precisely the objects that are obtained by 
+while definition \ref{SmoothSpace} explicitly says that a smooth space is something that is _consistently probeable_ by such local models; by a [[category theory|general abstract]] fact -- which we discuss in more detail below in _[Smooth Spaces - Semantic Layer](#SmoothSpacesLayerSem)_  -- that is sometimes called the [[co-Yoneda lemma]] it follows in fact that smooth spaces are precisely the objects that are obtained by 
 _gluing coordinate systems_ together.
 
 For instance we will see that two open 2-balls $\mathbb{R}^2 \simeq D^2$ along a common rim yields the smooth space version of the [[sphere]] $S^2$, a basic example of a [[smooth manifold]]. But before we examine such explicit constructions, we discuss here for the moment more general properties of smooth spaces. The reader instead wishing to see more of these concrete examples at this point should jump ahead to _[Smooth Spaces - Outlook](#SmoothSpacesOutlook)_.
@@ -1713,7 +1713,7 @@ for every smooth space $K$.
 +-- {: .proof}
 ###### Proof
 
-With a bit of work this is straightforward to check explicitly by unwinding the definitions. It follows however from [[category theory|general abstract]] results once we realize that $[-,-]$ is of course the _[[internal hom]]_ of smooth spaces. This we come to below in _[Smooth spaces - Layer Sem](#SmoothSpacesLayerSem)_.
+With a bit of work this is straightforward to check explicitly by unwinding the definitions. It follows however from [[category theory|general abstract]] results once we realize that $[-,-]$ is of course the _[[internal hom]]_ of smooth spaces. This we come to below in _[Smooth spaces - Semantic Layer](#SmoothSpacesLayerSem)_.
 
 =--
 
@@ -1727,9 +1727,9 @@ We will therefore also say that $[\Sigma,X]$ is the **smooth [[moduli space]]** 
 
 =--
 
-First interesting examples of such smooth moduli spaces are discussed in _[Differential forms -- Layer Mod](#DifferentialFormsLayerMod)_ below. Many more interesting examples follow once we pass from smooth 0-types to smooth $n$-types below in _[Smooth n-groupoids](#SmoothnGroupoids)_. 
+First interesting examples of such smooth moduli spaces are discussed in _[Differential forms -- Model Layer](#DifferentialFormsLayerMod)_ below. Many more interesting examples follow once we pass from smooth 0-types to smooth $n$-types below in _[Smooth n-groupoids](#SmoothnGroupoids)_. 
 
-We will see many more examples of smooth moduli spaces, starting below in _[Differential forms - Layer Mod](#DifferentialFormsLayerMod)_.
+We will see many more examples of smooth moduli spaces, starting below in _[Differential forms - Model Layer](#DifferentialFormsLayerMod)_.
 
 +-- {: .num_prop #UnderlyingSetOfSmoothMappingSpace}
 ###### Proposition
@@ -1851,10 +1851,10 @@ $\{$[[smooth groupoids]]$\}$
 
 
 
-### Layer Sem
+### Semantic Layer
  {#SmoothSpacesLayerSem}
 
-In this [Layer Sem]{#LayerSem} we mention some basic definitions of [[topos theory]] and discuss the [[topos]] formed by the [[smooth spaces]] defined in [Smooth Spaces - Mayer Mod](#SmoothSpacesLayerMod).
+In this [Semantic Layer]{#LayerSem} we mention some basic definitions of [[topos theory]] and discuss the [[topos]] formed by the [[smooth spaces]] defined in [Smooth Spaces - Mayer Mod](#SmoothSpacesLayerMod).
 
 #### Toposes
  {#Toposes}
@@ -1942,7 +1942,7 @@ An [[elementary topos]] is
 
 =--
 
-The first of these says that the [[internal language]] is [[dependent type theory]] with [[dependent sum types]] and [[dependent product types]], the second says that its has a [[type of propositions]]. This we turn to in [Smooth Spaces - Layer Syn](#SmoothSpacesLayerSyn) below.
+The first of these says that the [[internal language]] is [[dependent type theory]] with [[dependent sum types]] and [[dependent product types]], the second says that its has a [[type of propositions]]. This we turn to in [Smooth Spaces - Syntactic Layer](#SmoothSpacesLayerSyn) below.
 
 #### Subobjects
  {#Subobjects}
@@ -1996,7 +1996,7 @@ The [[sheaf topos]], def. \ref{SheafToposAsSubtopos}, of [[smooth spaces]] enjoy
 
 * a [[local topos]]
 
-* a [[cohesive topos]]. This we discuss in the remainder of this [Layer Sem](#LayerSem).
+* a [[cohesive topos]]. This we discuss in the remainder of this [Semantic Layer](#LayerSem).
 
 
 ##### Connectedness 
@@ -2224,10 +2224,10 @@ where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed cat
 
 
 
-### Layer Syn
+### Syntactic Layer
  {#SmoothSpacesLayerSyn}
 
-In this [Layer Syn](#LayerSyn) we discuss the two further aspects that the [[internal language]] of a [[topos]] adds to the internal language of a just a category with [[finite products]] (which is the [[dependent type theory|dependent]] [[type theory]] with [[unit type]] and [[product type]] discussed in _[Coordinate systems - Layer Syn](#CoordinateSystemsLayerSyn)): [[dependent product types]] and a [[type of propositions]].
+In this [Syntactic Layer](#LayerSyn) we discuss the two further aspects that the [[internal language]] of a [[topos]] adds to the internal language of a just a category with [[finite products]] (which is the [[dependent type theory|dependent]] [[type theory]] with [[unit type]] and [[product type]] discussed in _[Coordinate systems - Syntactic Layer](#CoordinateSystemsLayerSyn)): [[dependent product types]] and a [[type of propositions]].
 
 [[dependent type theory]] $\leftrightarrow$ [[locally cartesian closed category]]
 
@@ -2330,14 +2330,14 @@ For the [[unit of an adjunction|unit]] of the $(\Gamma \vdash coDisc)$-[[adjunct
  {#DifferentialForms}
 
 
-We introduce the standard concept of _[[nLab:differential forms]]_ in _[Layer Mod](#DifferentialFormsLayerMod)_, adding to the traditional discussion a precise version of the statement that differential forms are equivalently "incremental smooth $n$-dimensional measures", which accurately captures the role that they play in [[physics]], notably in [[local action functionals]].
+We introduce the standard concept of _[[nLab:differential forms]]_ in _[Model Layer](#DifferentialFormsLayerMod)_, adding to the traditional discussion a precise version of the statement that differential forms are equivalently "incremental smooth $n$-dimensional measures", which accurately captures the role that they play in [[physics]], notably in [[local action functionals]].
 
-We define differential forms on general smooth spaces seamlessly in terms of the smooth [[moduli space]] $\Omega^\in \in Smooth0Type$ of differential forms. This has the special property that it is, for $n \geq 1$, a _non-[[concrete object|concrete]]_ smooth space. In _[Layer Sem](#DifferentialFormsLayerSem)_ below we take this as occasion to discuss the notion of [[concrete objects]] in a [[local topos]], such as the topos of smooth spaces. We show how the _concretification_ of the smooth mapping space $[X,\Omega^n]$ for any smooth space $X$ is the _smooth (moduli) space of differential forms on $X$_. Below in _[Action functionals for Chern-Simons type gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ the theory of _concretification_ in a local topos is a central ingredient in the _canonical existence_ of certain [[nLab:action functionals]].
+We define differential forms on general smooth spaces seamlessly in terms of the smooth [[moduli space]] $\Omega^\in \in Smooth0Type$ of differential forms. This has the special property that it is, for $n \geq 1$, a _non-[[concrete object|concrete]]_ smooth space. In _[Semantic Layer](#DifferentialFormsLayerSem)_ below we take this as occasion to discuss the notion of [[concrete objects]] in a [[local topos]], such as the topos of smooth spaces. We show how the _concretification_ of the smooth mapping space $[X,\Omega^n]$ for any smooth space $X$ is the _smooth (moduli) space of differential forms on $X$_. Below in _[Action functionals for Chern-Simons type gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ the theory of _concretification_ in a local topos is a central ingredient in the _canonical existence_ of certain [[nLab:action functionals]].
 
-The process of concretification involves the general abstract notion of _[[image|images]]_. The type-theory of this notion we discuss in [Layer Syn](#DifferentialFormsLayerSyn) here.
+The process of concretification involves the general abstract notion of _[[image|images]]_. The type-theory of this notion we discuss in [Syntactic Layer](#DifferentialFormsLayerSyn) here.
 
 
-### Layer Mod
+### Model Layer
  {#DifferentialFormsLayerMod}
 
 We have seen above in _[The continuum real (world-)line](TheContinuumRealWorldLine)_ that that [[real line]] $\mathbb{R}$ is the basic [[kinematics|kinematical structure]] in the [[differential geometry]] of [[physics]]. Notably the smooth [[path spaces]] $[\mathbb{R}, X]$ from example \ref{SmoothPathSpace} are to be thought of as the smooth spaces of _trajectories_ (for instance of some [[particle]]) in a [[smooth space]] $X$, hence of smooth maps $\mathbb{R} \to X$.
@@ -2752,7 +2752,7 @@ This statement is of course in a way a big tautology. Nevertheless it is a very 
 
 
 
-### Layer Sem
+### Semantic Layer
  {#DifferentialFormsLayerSem}
 
 #### Concrete smooth spaces
@@ -2920,7 +2920,7 @@ Under this function all components of differential forms with a "leg along" $\ma
 
 =--
 
-### Layer Syn
+### Syntactic Layer
  {#DifferentialFormsLayerSyn}
 
 #### Images
@@ -3013,7 +3013,7 @@ $$
   \,.
 $$
 
-### Layer Mod
+### Model Layer
  {#DifferentiationLayerMod}
 
 We discuss 
@@ -3677,7 +3677,7 @@ We call this the category of **[[infinitesimally thickened points]]**.
 * [[jet bundle]]
 
 
-### Layer Sem
+### Semantic Layer
  {#DifferentiationLayerSem}
 
 #### Synthetic differential geometry
@@ -4090,7 +4090,7 @@ If $X, Y \in $ [[SmoothMfd]] $\hookrightarrow$ $\mathbf{H} \stackrel{i_!}{\to} \
 
 
 
-### Layer Syn
+### Syntactic Layer
 
 #### Differentially cohesive homotopy type theory
 
@@ -4102,7 +4102,7 @@ If $X, Y \in $ [[SmoothMfd]] $\hookrightarrow$ $\mathbf{H} \stackrel{i_!}{\to} \
  {#SmoothGroupoids}
 
 
-### Layer Mod
+### Model Layer
 
 
 #### Gauge transformations in electromagnetism
@@ -4296,7 +4296,7 @@ $$
 
 ([SchreiberWaldorf](#SchreiberWaldorf)).
 
-### Layer Sem
+### Semantic Layer
 
 #### $\infty$-Toposes
 
@@ -4325,7 +4325,7 @@ $$
 
 #### Cohesion of the $\infty$-topos of smooth $\ingfty$-groupoids
 
-### Layer Syn
+### Syntactic Layer
 
 #### Identity types
  {#IdentityTypes}
@@ -4361,7 +4361,7 @@ $$
 ## **Principal bundles**
  {#PrincipalBundles}
 
-### Layer Mod
+### Model Layer
 
 any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
   
@@ -4418,19 +4418,19 @@ $$
 where the left horizontal morphisms are [[weak equivalences]]
 and the right square is a [[pullback]]
 
-### Layer Sem
+### Semantic Layer
 
 * [[homotopy fiber]]
 
 * [[homotopy colimit]]
 
-### Layer Syn
+### Syntactic Layer
 
 * [[connected type]]
 
 ## **Actions and representations**
 
-### Layer Mod
+### Model Layer
 
 * [[action]], [[∞-action]]
 
@@ -4444,11 +4444,11 @@ and the right square is a [[pullback]]
     }
   $$
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
@@ -4456,11 +4456,11 @@ and the right square is a [[pullback]]
 ## **Associated $n$-bundles**
  {#AssociatedNBundle}
 
-### Layer Mod
+### Model Layer
 
 (...)
 
-### Layer Sem
+### Semantic Layer
 
 #### $\infty$-Actions
  {#HigherActions}
@@ -4495,18 +4495,18 @@ $$
   }
 $$
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **Smooth manifolds**
  {#SmoothManifolds}
 
-### Layer Mod
+### Model Layer
 
 A [[smooth manifold]] of [[dimension]] $n$ 
 
@@ -4589,11 +4589,11 @@ Formulated as [[smooth groupoids]]
 
   whose objects are the points in the atlas, with morphisms identifying lifts of a point in $X$ to different charts of the atlas;
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 
 ## **Tangent bundle**
@@ -4621,17 +4621,17 @@ where
 
 A [[natural transformation|transformation]] of smooth functors $\lambda_1 \Rightarrow \lambda_2 : C(\{U_i\}) \to \mathbf{B} GL(n)$ is precisely a [[coboundary]] between two such cocycles.
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **$G$-Structure**
 
-### Layer Mod
+### Model Layer
 
 $$
   \mathbf{B}G \to \mathbf{B}K
@@ -4661,17 +4661,17 @@ $$
   }
 $$
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 
 ## **Riemannian geometry**
  {#RiemannianGeometry}
 
-### Layer Mod
+### Model Layer
 
 [[reduction of the structure group]] along
 
@@ -4694,17 +4694,17 @@ example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
 
 [[Einstein-Maxwell theory]]
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **Integration**
 
-### Layer Mod
+### Model Layer
 
 $\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
 
@@ -4721,17 +4721,17 @@ $$
   \,.
 $$
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **Transgression of differential forms**
 
-### Layer Mod
+### Model Layer
 
 [[transgression]] of [[differential forms]] to [[mapping space]] is the composite
 
@@ -4773,11 +4773,11 @@ variation gives [[Lorentz force]]
 * [[Stokes theorem]]
 
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
@@ -4787,11 +4787,11 @@ variation gives [[Lorentz force]]
 ## **$\infty$-Groups**
  {#NGroups}
 
-### Layer Mod
+### Model Layer
 
 (...)
 
-### Layer Sem
+### Semantic Layer
 
 * [[infinity-group]]
 
@@ -4799,22 +4799,22 @@ variation gives [[Lorentz force]]
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **Principal $\infty$-bundles**
  {#PrincipalNBundles}
 
-### Layer Mod
+### Model Layer
 
 (...)
 
-### Layer Sem
+### Semantic Layer
 
 * [[principal infinity-bundle]]
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
@@ -4822,11 +4822,11 @@ variation gives [[Lorentz force]]
 ## **Flat connections**
  {#FlatConnections}
 
-### Layer Mod
+### Model Layer
 
 (...)
 
-### Layer Sem
+### Semantic Layer
 
 +-- {: .num_defn #FlatCohesiveConnection}
 ###### Definition
@@ -4916,7 +4916,7 @@ $$
   ConstantPaths_{X} \colon X \to \Pi(X)
 $$
 
-### Layer Syn
+### Syntactic Layer
 
 $$
   \mathbf{B}G \colon Type
@@ -4927,7 +4927,7 @@ $$
 ## **de Rham Coefficients**
  {#deRhamCoefficients}
 
-### Layer Mod
+### Model Layer
 
 #### Lie-algebra valued differential 1-forms
 
@@ -5000,7 +5000,7 @@ $$
  \,.
 $$
 
-### Layer Sem
+### Semantic Layer
 
 #### De Rham coefficient objects
 
@@ -5089,7 +5089,7 @@ $$
 
 This is discussed at _[smooth ∞-groupoid - structures - de Rham coefficients for the circle n-groups](smooth+infinity-groupoid+--+structures#deRhamCoefficientsInBnU1)_.
 
-### Layer Syn
+### Syntactic Layer
 
 $$
   \begin{aligned}
@@ -5106,7 +5106,7 @@ $$
  {#MaurerCartanForms}
 
 
-### Layer Mod
+### Model Layer
  {#MaurerCartanLayerMod}
 
 #### Maurer-Cartan form on a Lie group
@@ -5136,7 +5136,7 @@ $$
 
 
 
-### Layer Sem
+### Semantic Layer
 
 #### Maurer-Cartan form on a cohesive $\infty$-group
 
@@ -5211,14 +5211,14 @@ $$
 
 sends a circle $n$-bundle to the curvature of a pseudo-connection on it.
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **Circle-principal connections**
  {#CirclePrincipalConnections}
 
-### Layer Mod
+### Model Layer
 
 [[Dirac charge quantization]] says that the
 [[electromagnetic field]] is only locally in general a map
@@ -5286,7 +5286,7 @@ $$
   A' = A + \mathbf{d} log \lambda
 $$
 
-### Layer Sem
+### Semantic Layer
 
 
 set 
@@ -5311,7 +5311,7 @@ $$
 
 presented by [[ordinary differential cohomomology]]
 
-### Layer Syn
+### Syntactic Layer
 
 
 $$
@@ -5330,7 +5330,7 @@ $$
 ## **First Chern class**
 
 
-### Layer Mod
+### Model Layer
 * [[magnetic charge]], [[first Chern class]]
 
 $$
@@ -5358,17 +5358,17 @@ $$
   H^2(X, \mathbb{Z})
 $$
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 
 ## **Circle-principal $n$-connection**
  {#CirclePrincipalNConnections}
 
-### Layer Mod
+### Model Layer
 
 * [[Deligne complex]]
 
@@ -5384,33 +5384,33 @@ $$
     \mathbf{B}^{n-k}U(1)_{conn}
   $$
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **Action functionals for Chern-Simons-type gauge theories**
  {#ActionFunctionalsForChernSimonsTypeGaugeTheories}
 
-### Layer Mod
+### Model Layer
 
 (...)
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **Abelian Chern-Simons theory**
  {#AbelianChernSimonsTheory}
 
-### Layer Mod
+### Model Layer
 
 * [[higher dimensional Chern-Simons theory]]
 
@@ -5435,17 +5435,17 @@ $$
 $$
 
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## **Principal connections**
 
-### Layer Mod
+### Model Layer
 
 * [[connection on a bundle]] $\mathbf{B}G_{conn}$
 
@@ -5456,18 +5456,18 @@ $$
 
 * [[Yang-Mills instanton]] number = [[second Chern class]]
 
-### Layer Sem
+### Semantic Layer
 
 (...)
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
 ## Associated bundles
  {#AssociatedBundles}
 
-### Layer Mod
+### Model Layer
 
 #### Associated vector bundle
 
@@ -5505,12 +5505,12 @@ $$
   }
 $$
 
-### Layer Sem
+### Semantic Layer
 
 
 * [[associated infinity-bundle]]
 
-### Layer Syn
+### Syntactic Layer
 
 
 ## **Covariant derivative**
@@ -5563,7 +5563,7 @@ $$
 ## **Supergeometric coordinate systems**
  {#SupergeometricCoordinateSystems}
 
-### Layer Mod
+### Model Layer
 
 The premise in [The continuum real world line](#TheContinuumRealWorldLine) is now refined to
 
@@ -5576,13 +5576,13 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 * [[supermanifold]]
 
-### Layer Sem
+### Semantic Layer
 
 * [[super infinity-groupoid]]
 
 * [[smooth super infinity-groupoid]]
 
-### Layer Syn
+### Syntactic Layer
 
 (...)
 
