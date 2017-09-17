@@ -51,6 +51,8 @@ From this perspective, a regular cardinal is a [[full subcategory]] of $Set$ tha
 
 Note that if we require only conditions (1&4) on $Set_{\lt\kappa}$, then (even classically), $\{1\}$ is an acceptable (and finite) regular collection of cardinals, even though it is not actually of the form $Set_{\lt\kappa}$ for any cardinal number $\kappa$.
 
+In the absence of the axiom of choice, it is not clear that there exist arbitrarily large regular cardinals.  Thus in weaker foundations, regular cardinals (or "regular sets of cardinals") can be regarded as a [[large cardinal]] property.  The statement that *there exist arbitrarily large regular cardinals* is sometimes called the *Regular Extension Axiom*.
+
 
 ## Examples
 
@@ -65,8 +67,13 @@ Note that if we require only conditions (1&4) on $Set_{\lt\kappa}$, then (even c
 
 * $\aleph_\omega = \bigcup_{n\in \mathbb{N}} \aleph_n$ is singular, more or less by definition, since $\aleph_n\lt\aleph_\omega$ and ${|\mathbb{N}|} = \aleph_0 \lt\aleph_\omega$.
 
+* More generally, any limit cardinal that can be "written down by hand" must be singular, since if it were regular then it would be [[weakly inaccessible cardinal|weakly inaccessible]], and the existence of weakly inaccessible cardinals cannot be proven in [[ZFC]] (if ZFC is consistent).
+
 
 [[!redirects regular cardinal]]
 [[!redirects regular cardinals]]
 [[!redirects singular cardinal]]
 [[!redirects singular cardinals]]
+[[!redirects regular extension axiom]]
+[[!redirects Regular Extension Axiom]]
+[[!redirects REA]]
