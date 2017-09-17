@@ -1,0 +1,12 @@
+Given an [[action]] $G\times X\to X$ of a [[group]] $G$ on a set $X$, for every element $x \in X$,  the __stabilizer subgroup__ of x (also called the __isotropy group__ of $x$) is the set of all elements in $G$ that leave $x$ fixed:
+
+
+
+$$Stab_G(x) = \{g \in G \mid g\circ x = x\}.$$
+
+
+
+
+[[!redirects stabilizer]]
+[[!redirects stabiliser]]
+[[!redirects stabiliser subgroup]]
