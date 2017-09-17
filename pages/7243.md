@@ -95,6 +95,8 @@ The [[group of units]] of the ring of adeles is called the group of [[ideles]].
 
 * [[Z-infinity-module]] 
 
+* [[p-completion]]
+
 * [[p-adic homotopy]]
 
 * [[ℓ-adic cohomology]]
