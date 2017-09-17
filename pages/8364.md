@@ -1,7 +1,19 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A part of [[mathematical logic]]
+A part of [[mathematical logic]] concerned with the notion of [[proof]].
+
+## Related concepts
+
+* [[type theory]]
+
+* [[second order arithmetic]], [[elementary function arithmetic]]
+
+* [[proof management system]]
 
 ## References
 
