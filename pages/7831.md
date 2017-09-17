@@ -3,6 +3,14 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Given a [[field extension]] one can consider the corresponding automorphism group.  The main statement of [[Galois theory]] is that, when the [[field extension]] is Galois, this [[group]] is called the Galois group and its [[subgroup]]s correspond to subextensions of the [[field extension]].
+
+In [[algebraic geometry]], [[Grothendieck]] defined an analogue of the Galois group called the [[etale fundamental group]] of a connected [[scheme]].
+
+Even more generally there is an analogue of the Galois group in [[stable homotopy theory]].  In fact one can define the Galois group of any [[presentable (infinity,1)-category|presentable]] [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[stable (infinity,1)-category]], and there is an analogue of the [[Galois theory|Galois correspondence]].  In particular one gets a Galois group associated to an [[E-infinity ring spectrum]].  One recovers the Galois group of a [[scheme]] as the Galois group of its [[derived category of quasi-coherent sheaves]].
+
 ## Definition
 
 +-- {: .num_defn}
@@ -27,6 +35,12 @@ If the scheme, moreover, is a [[group scheme]] (i.e. endowed with a group struct
 * [[Galois theory]]
 
 * [[motivic Galois group]]
+
+## References
+
+For the Galois group in [[stable homotopy theory]], see
+
+* [[Akhil Mathew]], The Galois group of a stable homotopy theory, [arXiv](http://arxiv.org/abs/1404.2156).
 
 [[!redirects Galois groups]]
 
