@@ -1,5 +1,7 @@
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -20,5 +22,8 @@ There is also the closely related but in general different notion of an [[indeco
 A representation that has proper nontrivial subrepresentations but can not be decomposed into a [[direct sum]] of such representations is indecomposable but still reducible.
 
 
-[[!redirects irrep]]
 [[!redirects irreducible representations]]
+
+[[!redirects irrep]]
+[[!redirects irreps]]
+
