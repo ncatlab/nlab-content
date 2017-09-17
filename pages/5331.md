@@ -51,5 +51,9 @@ The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad
 
 ## References
 
-* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]])) 
+For discussion in the context of [[perturbation theory|perturbative]] [[quantum field theory]] see
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]]), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf)) 
+
+and for further references along these lines see at _[[factorization algebra]]_.
 
