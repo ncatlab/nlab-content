@@ -93,7 +93,12 @@ See at _[[global equivariant homotopy theory]]_.
 
 * [[Bredon cohomology]]
 
-##References
+## Related concepts
+
+[[!include equivariant homotopy theory -- table]]
+
+
+## References
 
 A very general setting for the use of orbit categories is described in
 
