@@ -116,8 +116,8 @@ $$
 There is no virtue in distinguishing between one-element sets, so we might as
 well write $1$ instead of $\{y\}$; then the inclusion $\{y\} \hookrightarrow Y$ becomes
 the map $1 \to Y$ picking out $y \in Y$, and we have a pullback square
-\[
-\begin{diagram}
+$$
+  \array{
 f^{-1}\{y\}       &\stackrel{!}{\to} &1      
 \\
 \downarrow                  &       &\downarrow y \\
@@ -125,30 +125,30 @@ X                       &\stackrel{f}{\to} &Y}
   \,.
 $$
 
-Next consider characteristic functions of subsets.  Fix a two-element set $2 =
-\{`t', `f'}$ (_true_ and _false_).  Then for any set $X$, the subsets of $X$
+Next consider characteristic functions of subsets.  Fix a two-element set 
+$2 =\{t, f\}$ ( _true_ and _false_).  Then for any set $X$, the subsets of $X$
 are in bijective correspondence with the functions $X \to 2$.  In one
 direction, given a subset $A \subseteq X$, the corresponding function $\chi_A\colon X
 \to 2$ is defined by
-\[
+$$
 \chi_A(x)
 =
 \begin{cases}
 \tr     &\text{if } x \in A     \\
-\fa     &\text{if } x \not\in A
+\fa     &\text{if } x \notin A
 \end{cases}
-\]
+$$
 ($x \in X$).  In the other, given a function $\chi\colon X \to 2$, the
-corresponding subset of $X$ is $\chi^{-1}\{$`t'$}$.  To say that this latter
-process $\chi \mapsto \chi^{-1}\{$`t'$\}$ is a bijection is to say that for all
+corresponding subset of $X$ is $\chi^{-1}\{t\}$.  To say that this latter
+process $\chi \mapsto \chi^{-1}\{t\}$ is a bijection is to say that for all
 $A \subseteq X$, there is a unique function $\chi\colon X \to 2$ such that $A =
-\chi^{-1}\{$`t'$}$.  In other words: for all $A \subseteq X$, there is a unique
+\chi^{-1}\{t\}$.  In other words: for all $A \subseteq X$, there is a unique
 function $\chi\colon X \to 2$ such that
-\[
-\begin{diagram}
-A       \stackrel{!}{\to} &1
+$$
+  \array{
+A   &    \stackrel{!}{\to} &1
 \\
-\downarrow  &               &\downarrow {\tt t}
+\downarrow  &               &\downarrow t
 \\
 X       &\stackrel{\chi}{\to}      &2}
   \,.
