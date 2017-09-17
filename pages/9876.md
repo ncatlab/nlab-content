@@ -1,0 +1,13 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[spontaneous symmetry breaking]] of the [[electroweak field]] via the [[Higgs mechanism]] in the [[standard model of particle physics]]
+
+## References
+
+* S. Dawson, _Introduction to Electroweak Symmetry Breaking_, Lectures given at the 1998 Summer School in High Energy Physics and Cosmology, Trieste, Italy, June 29-uly 17, 1998 ([arXiv:hepph/9901280](http://arxiv.org/abs/hepph/9901280))
+
