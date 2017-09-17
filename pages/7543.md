@@ -56,11 +56,11 @@ $$
   X : \Delta^{op} \to \mathcal{C}
 $$
 
-is said to satisfy the **Segal condition** if it sends the [[colimits]] in the [[simplex category]] to [[limits]], hence if 
+is said to satisfy the **Segal condition** if it sends the [[colimits]] in the [[simplex category]] to [[limits]], hence if the [[Segal maps]] exhibit [[equivalences]]
 
 $$
   X_n 
-   \simeq 
+   \stackrel{\simeq}{\longrightarrow}
   \underbrace{
     X_1 \times_{X_0} \cdots \times_{X_0} X_1
   }_{n\; factors}
