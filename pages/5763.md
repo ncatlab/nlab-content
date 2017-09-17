@@ -1,3 +1,4 @@
+[[!redirects Bohrification]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -38,7 +39,7 @@ The discussion below proceeds in the following steps (following ([Nuiten11](#Nui
 
    This discusses the Bohr topos incarnation of a [[quantum mechanical system]] -- the topos-theoretic quantum [[phase space]] -- and its [[functor]]iality.
 
-1. [Kinematics on a Bohr topos](#KinematicsOnBohrTopos)
+1. [Kinematics in a Bohr topos](#KinematicsOnBohrTopos)
 
    This discusses how the classical [[kinematics]] [[internalization|internal to]] a Bohr topos is the external quantum kinematics of the underlying quantum mechanical system.
 
@@ -46,12 +47,14 @@ The discussion below proceeds in the following steps (following ([Nuiten11](#Nui
 
    This discusses how the [[presheaves]] of Bohr toposes obtained by applying Bohrification to a [[local net of observables]] of a [[quantum field theory]].
 
+
 ## Bohr topos of a quantum mechanical system
  {#BohrToposOfQMSystem}
 
-### Definition
 
-#### $C^*$-algebras
+We discuss the definitions and some basic properties of Bohr toposes: certain [[ringed topos]]es -- in fact [[ringed spaces]] -- associated with any (possibly non-commutative) algebra. We formulate the construction for [[C-star algebra]]s, since this is the standard model for [[quantum mechanical system]]s, but actually much of it does not depend on either the [[topology]] or the [[star-algebra]] structure until we come to the discussion of the [kinematics in a Bohr topos](KinematicsOnBohrTopos) below.
+
+### $C^*$-algebras
 
 +-- {: .num_defn}
 ###### Definition
@@ -121,7 +124,7 @@ for its set of [[normal operator]]s. This is naturally a [partial C-star algebra
 =--
 
 
-#### The Bohr site
+### The Bohr site
  {#BohrSite}
 
 +-- {: .num_defn #PosetOfCommutativeSubalgebras}
@@ -205,7 +208,7 @@ for the subcategories of $C^* Alg$ on the monomorphisms and on the commutativity
 =--
 
 
-#### The Bohr topos
+### The Bohr topos
  {#BohrTopos}
 
 
@@ -305,12 +308,16 @@ $$
 =--
 
 
-## Kinematics on a Bohr topos
+## Kinematics in a Bohr topos
  {#KinematicsOnBohrTopos}
 
 
+### The phase space
 
-### The internal phase space locale
+The idea is is that for $A \in C^* Alg$, the Bohr topos 
+$Bohr(A) = (Sh(Alex(\mathcal{C}(A))), \underline{A}) \in C^* TopSpace \subset C^* Topos$ _is_ the corresponding quantum [[phase space]].  More precisely, we may think of the internal commutative $C^*$-algebra $\underline{A} \in Bohr(A)$ as the [[Isbell duality|formal dual]] to the quantum phase space.
+
+The following discussion makes this precise by exhibiting this formal dual as an [[internal locale]]. Since $Bohr(A)$ is a spatial topos, this internal locale is in fact an ordinary [[topological space]] [[bundle]] $\Sigma \to Alex \mathcal{C}(A)$ over the [[Alexandrov space]] $Alex \mathcal{C}(A)$.
 
 +-- {: .num_defn #TheInternalLocale}
 ###### Definition
@@ -407,7 +414,7 @@ with the relative topology inherited from $\Sigma_A$.
 
 This appears as ([HLSW, theorem 1](#HLSW)).
 
-### Properties of the internal locale
+#### Properties of the internal locale
 
 +-- {: .num_prop #BohrificationDependsOnNormalElementsOnly}
 ###### Proposition
@@ -480,6 +487,24 @@ $$
 This is effectively the functoriality of the internal [[constructive Gelfand duality]] applied to the [above observation](#FunctorToRingedToposes). The statement appears as ([vdBergHeunen, theorem 35](#vdBergHeunen)). 
 
 
+### The observables
+
+()...
+
+$$
+  a : Bohr(A) \to Bohr(C(\mathbb{R}))
+$$
+
+(...)
+
+
+### The states
+
+sections of $\mathbb{R}$-moduled toposes of
+
+$$
+  Bohr(A) \to (Sh(Alex \mathcal{C}(A)), \mathbb{R})
+$$
 
 
 ## (Pre-)Sheaf of Bohr toposes of a quantum field theory
