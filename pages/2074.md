@@ -673,3 +673,5 @@ The model structure on marked simplicial oversets is described in section 3.1.3
 [[!redirects model structure for coCartesian fibrations]]
 [[!redirects model structure on marked simplicial over-sets]]
 [[!redirects model structure on marked simplicial oversets]]
+
+[[!redirects model structure on marked simplicial sets]]
