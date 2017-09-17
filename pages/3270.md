@@ -15,16 +15,18 @@ Surely, one often works at the derived level. An adaptation of the  notion of st
 
 We should also mention the related wall crossing in [[representation theory]]. Symmetries related to Weyl groups, Weyl chambers and chamber walls are involved (what is sometimes also in BPS setup above, see the paper by Cheng and Verlinde below). A priori wall crossing functors in representation theory (introduced in 1970s by Russian school, Gelfand, Bernstein etc.) are about certain functors which in take as input an infinite-dimensional representation, tensor it with finite-dimensional and look for certain pieces in the decomposition, where the business of chamber walls is crucial. Cf. A. [[Beilinson]], [[Victor Ginzburg|V. Ginzburg]], _Wall-crossing functors and $D$-modules_, Representation Theory __3__ (electronic), 1--31 (1999) [pdf](http://www.ams.org/ert/1999-003-01/S1088-4165-99-00063-1/S1088-4165-99-00063-1.pdf).
 
-## Conferences, seminars and related $n$lab pages
+## Conferences and seminars
+
+* (future) [[Kontsevich]] in Aarhus, August 2010, [master class on wall crossing](http://www.qgm.au.dk/events/wall-crossing); we will keep a [[wall crossing in Aarhus|nlab page]] on it
 
 * (past) [Focus Week on New Invariants and Wall Crossing](http://member.ipmu.jp/domenico.orlando/FocusInvariants.html), May 18-22, 2009, Kashiwa Campus of the University of Tokyo
 
-* (future) [Wall-crossing in Mathematics and Physics](http://www.math.uiuc.edu/wallcrossing), May 24-28, 2010,
+* (past) [Wall-crossing in Mathematics and Physics](http://www.math.uiuc.edu/wallcrossing), May 24-28, 2010,
 Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * Description of seminar on stability conditions and Stokes factors in Bonn, [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
 
-## Literature
+## Literature and related web pages
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
 
