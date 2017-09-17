@@ -9,22 +9,6 @@
 =--
 =--
 
-* [[0-category]], [[0,1]-category]], [[Set]]
-
-* [[category]]
-
-* [[2-category]], [[bicategory]]
-
-* [[3-category]], [[tricategory]]
-
-* [[4-category]], [[tetracategory]]
-
-* [[n-category]]
-
-* **$(n,r)$-category**
-
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -185,3 +169,22 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 
 * The [[Charles Rezk]]-model structure for [[Theta space]]s models general $(n,r)$-categories.
 [[!redirects (n,r)-categories]]
+
+
+## Related concepts
+
+* [[0-category]], [[0,1]-category]], [[Set]]
+
+* [[category]]
+
+* [[2-category]], [[bicategory]]
+
+* [[3-category]], [[tricategory]]
+
+* [[4-category]], [[tetracategory]]
+
+* [[n-category]]
+
+* **$(n,r)$-category**
+
+
