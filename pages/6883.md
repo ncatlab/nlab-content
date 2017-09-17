@@ -1,0 +1,56 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+By the general mechanism of [[schreiber:∞-Chern-Simons theory]] there is a Chern-Simons action functional associated to the first [[Chern class]], or rather to the corresponding [[invariant polynomial]], which is simply the [[trace]] map on the [[unitary Lie algebra]]
+
+$$
+  tr : \mathfrak{u}(n) \to \mathbb{R}
+  \,.
+$$
+
+This yields an [[action functional]] for a 1-dimensional [[QFT]] as follows:
+
+The [[configuration space]] over a 1-dimensional $\Sigma$ is the [[groupoid of Lie algebra valued 1-forms]] $\Omega^1(\Sigma, \mathfrak{u})$. After identifying $\Sigma \subset \mathbb{R}$ this may be identified with the space of $\mathfrak{u}(n)$-valued functions.
+
+The action functional is simply the [[trace]] operation
+
+$$
+  S_{CS}(\phi) = \int_\Sigma tr(\phi)
+  \,.
+$$
+
+## Applications
+
+Degenerate as this situation is, it can be useful to regard the [[trace]] as a Chern-Simons action functional. 
+
+* Arguments for a role in large $N$ gauge theory are in ([Nair 06](#Nair)). 
+
+* The _[[spectral action]]_  is of this form.
+
+## References
+
+* V.P. Nair, _The Matrix Chern-Simons One-form as a Universal Chern-Simons Theory_ ([arXiv:hep-th/0605007](http://arxiv.org/abs/hep-th/0605007))
+  {#Nair}
+
