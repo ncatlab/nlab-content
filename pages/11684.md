@@ -1,0 +1,10 @@
+
+## Idea
+
+The _Newlander-Nirenberg theorem_ states that an [[almost complex structure]] comes from a [[complex structure]] precisely if its [[Nijenhuis tensor]] vanishes.
+
+## References
+
+Reviews include
+
+* Ben McMillan, _The Newlander-Nirenbeg theorem_ ([[McMillanNNTheorem.pdf:file]])
