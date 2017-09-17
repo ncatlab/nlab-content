@@ -1,0 +1,1 @@
+A **projective module** is a [[projective object]] in the category of $R$-module for some ring $R$.  A module is projective if and only if it is a [[direct summand]] of a [[free module]].
