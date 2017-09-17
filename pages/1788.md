@@ -10,19 +10,25 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
-|  | **[[general abstract]]** | **[[general concrete]]** | **[[concrete particular]]** | |
-| There is. | $\vdash$ | A [[(∞,1)-topos|higher]] [[topos]] $\mathbf{H}$ | $\mathbf{H} = $ [[Smooth∞Grpd]] |  |
-| There is a thing $x$ of type $X$. | $\vdash\; x \colon X$ | $\left(* \stackrel{x}{\to} X\right) \in Mor(\mathbf{H})$ | A point in a [[moduli stack]]. | |
-| There is a type $X$ of things $x$. | $\vdash\; X \colon Type$ | $* \stackrel{\vdash X}{\to} Obj$ | A point in the [[object classifier]], the [[moduli stack]] of all [[small object|small]] moduli stacks. |   |
-| Given a thing $x$ of type $X$ there is a thing $a(x)$ of type $A(x).$ | $x \colon X\;\vdash\; a(x) \colon A(x)$ | $\left(\array{ X &&\stackrel{a}{\to}&& A \\ & {}_{\mathllap{id}}\searrow &\swArrow& \swarrow_{} \\ && X }\right) \in \mathbf{H}_{/X}$ | An $X$-family  in a moduli stack over $X$. |  |
-|  There is the collection of all things $a(x)$ for all $x$. | $\vdash\; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type$ | $\array{ \mathbf{H}_{/X} &\stackrel{X_!}{\to} & \mathbf{H} \\ (A \to X) &\mapsto& A \in \mathbf{H}} $ | | |
-| There is a thing $t$ in the collection of all things $a(x)$ for all $x$. | $\vdash\; t \colon \sum_{x \colon X} A(x)$ |  $*\stackrel{t}{\to} A$ | A point in the moduli stack $A$ over $X$. | |
-| There is an assignment $f$ of an $a(x)$ to each $x$. | $\vdash \; f \colon \prod_{x \colon X} A(x)$. | $* \stackrel{f}{\to} [X,A]_X$  | | |   
-| There is a proof $p$ that it is true that there is $x$ of type $X$. | $ \vdash \;  p \colon [X] $ | $* \stackrel{p}{\to}\tau_{-1}(X)$ |  |  |
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
+| There is... | $\vdash \ldots$ | We speak in the context of a ([[(∞,1)-topos|higher]]) [[topos]] $\mathbf{H}$, a _place where things may be_. | $\mathbf{H} = $ [[Smooth∞Grpd]], [[SynthDiff∞Grpd]], [[SmoothSuper∞Grpd]], ... | _[Smooth spaces](#SmoothSpaces)_ and _[Smooth homotopy types](#SmoothnGroupoids)_  |
+| There is a thing $x$ of type $X$. | $\vdash\; x \colon X$ | an [[element]] $\left(* \stackrel{x}{\to} X\right) \in Mor(\mathbf{H})$ | A point in a [[moduli stack]]. | _[Judgements about types and terms](#Judgments)_ |
+| There is a type $X$ of things $x$. | $\vdash\; X \colon Type$ | an [[element]] $(* \stackrel{\vdash X}{\to} Obj) \in Mor(\mathbf{H})$ in the [[small object|small]]-[[object classifier]] $Obj$  | A point in the [[moduli stack]] of all [[small object|small]] moduli stacks. | _[Judgements about types and terms](#Judgments)_  |
+| Given a thing $x$ of type $X$ there is a thing $a(x)$ of type $A(x).$ | $x \colon X\;\vdash\; a(x) \colon A(x)$ | an [[element]] in the [[slice (infinity,1)-topos|slice topos]] $\left(\array{ X &&\stackrel{a}{\to}&& A \\ & {}_{\mathllap{id}}\searrow &\swArrow& \swarrow_{} \\ && X }\right) \in \mathbf{H}_{/X}$ | An $X$-family  in a moduli stack over $X$. | _[Slice categories](#SliceCategories)_ and _[Slice toposes](#SliceToposes)_ and _[Slice ∞-Toposes](#SlicedInfinityToposes)_ |
+|  There is the collection of all things $a(x)$ for all $x$. | $\vdash\; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type$ | [[dependent sum]]/[[left adjoint]] to [[product]]: $\array{ \mathbf{H}_{/X} &\stackrel{X_!}{\to} & \mathbf{H} \\ (A \to X) &\mapsto& A \in \mathbf{H}} $ |  | _[Natural deduction rules for dependent sum types](#DependentSumTypes)_ |
+| There is a thing $t$ in the collection of all things $a(x)$ for all $x$. | $\vdash\; t \colon \sum_{x \colon X} A(x)$ |  $*\stackrel{t}{\to} A$ | A point in the moduli stack $A$ over $X$. | |  
+| There is an assignment $f$ of an $a(x)$ to each $x$. | $\vdash \; f \colon \prod_{x \colon X} A(x)$. | [[element]] in the [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$  | [[point]] in the smooth relative [[mapping space]] of smooth [[sections]]  | _[Natural deduction rules for dependent product types](#NaturalDeductionForDependentProduct)_ |   
+| There is the collection of assignments of an $a(x)$ to each $x$. | $\vdash\; \left( \prod_{x \colon X} A\left(x\right) \right) \colon Type$ | [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$ | smooth relative [[mapping space]] of smooth [[sections]] |  |
+| In particular, there is the collection of such assignments when $A$ does not depend on $x$, the collection of _functions_ from $X$ to $A$. |  $\vdash \; \left(X \to A\right) \coloneqq \left(\prod_{x \colon X} A\right) \colon Type$ | [[internal hom]]  |  |  |
+| There is a proof $p$ that it is true that there is $x$ of type $X$. | $ \vdash \;  p \colon [X] $ | [[element]] of the [[truncated object of an (infinity,1)-topos|(-1)-truncation]] $* \stackrel{p}{\to}\tau_{-1}(X)$ |  | _[Subobjects](#Subobjects)_ |
 | There is a proof $p$ that it is true that there is an $a(x)$ for some $x$. | $\vdash\; p \colon \left(\exists_{x \colon X} A\left(x\right) \right) \coloneqq \left[ \sum_{x \colon X} A\left(x\right)\right]$ | | |  |
-| There is an equivalence $e$ between $x$ and $x'$. | $\array{\vdash \; e \colon (x \simeq x') \\ or \\ \vdash \; e \colon (x \rightsquigarrow x') }$ | | |  |
-| Given $x,x'$, there is the collection of between $x$ and $x'$ equivalent. | $x,x' \colon X \;\vdash \; \left(x \simeq x'\right) \colon Type$. | |  | |
-| Given $x,x'$, there is the collection of proofs that it is true that $x$ and $x'$ are equivalent. | $x,x' \colon X \;\vdash \; [x \simeq x'] \colon Type$. | | | |
+
+
+| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
+|--|--|--|--|--|
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
+| Given a type $X$, there is a group $G$ of ways that $X$ is equivalent to itself. | $X \colon Type \;\vdash \; (X \stackrel{\simeq}{\to} X ) \colon Type $ | $ \array{ G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{X}} \\ * &\stackrel{X}{\to} & Type }  $ | [[∞-group|cohesive ∞-group]] | _[n-groups](#NGroups)_ |
+| Given a function between collections of things, there is over each thing in the codomain the preimage up to equivalence in the domain. | $\left( f \colon \left(X\to Y\right)\right), \left(y \colon Y\right) \;\vdash\; \sum_{x \colon X} \left(f\left(x\right) \simeq y\right) $ |  [[homotopy fiber]] $\array{ X \times_{Y} \{y \} &\to& X \\ \downarrow && \downarrow^{\mathrlap{f}} \\ {*} &\underset{y}{\to}&  Y } $  |  | |
 
 
 
@@ -36,6 +42,16 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 | A $G$-representation is a thing $V$ on which group elements act. | $\array{* \colon \mathbf{B}G \;\vdash\; V(*) \colon Type \\  or\;with\;more;emphasis: \\  (*,*',g) \colon \sum_{*,*' \colon \mathbf{B}G} (*\rightsquigarrow *') \;\vdash\; V(* \stackrel{g}{\rightsquigarrow} *') \colon Type }$  | $\array{V &\to& V\sslash G \\&& \downarrow^{\overline{\rho}} \\ && \mathbf{B}G }$  | [[∞-action]] and its universal $\rho$-[[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]] | [Higher actions](#HigherActions) |
 | The $G$-principal bundle $P$ classified by $g \colon X \to \mathbf{B}G$ is over each point $x$ of $X$ the collection of identifications of the fiber $g(x)$ with $G$| $* \colon \mathbf{B}G \;\vdash\; P \coloneqq  \sum_{x \colon X} (g(x) \simeq *) $ | $\array{P &\to& X \\ \downarrow &\swArrow& \downarrow \\ * &\to& \mathbf{B}G}$ |  [[principal ∞-bundle]] | _[Principal ∞-bundles](#PrincipalNBundles)_ |
 | A section $\sigma$ of an associated bundle is an equivariant map from the principal bundle to the representation space. | $\sigma \colon \prod_{* \colon \mathbf{B}G} \left(P \to V\right)  $ | $\array{ X &&\stackrel{\sigma}{\to}&& V \\ & \searrow &\swArrow& \swarrow \\ && \mathbf{B}G}$  |  [[sections]] of [[associated infinity-bundle|associated]] $V$-[[fiber ∞-bundles]] | | 
+
+| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
+|--|--|--|--|--|
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
+| Given a cohesive homotopy type $X$, there is the _decohesed_ homotopy type $\sharp X$ in which all separate points are collected to one cohesive blob. | $x\colon X \;\vdash\; \sharp X \colon Type$ | [[codiscrete object]] | [[codiscrete space]] | _[Locality of the topos of smooth spaces](#LocalSmooth0Type)_ |
+| Given a cohesive homotopy type, there is the cohesive function that maps it to it decohesed collection of points. | $x \colon X \;\vdash\;  DeCohese \colon \left( X \to \sharp X\right)$ | | |  |
+| Given a cohesive homotopy type $X$, there is its _concretification_, the collection of all its points with their inherited cohesive structure. | $X \colon Type \;\vdash\; \sum_{x' \colon \sharp X} \exists_{x \colon X} \left(x' \simeq DeCohese\left(x\right)\right) $  | [[∞-image]] of $DeCohese$ | Families in the [[moduli stack]] are supported on points. | _[Concrete smooth spaces](##ConcreteObjects)_ |
+| Given a cohesive homotopy type $A$, there is another _decohesed_ homotopy type $\flat A$ in which all separate points are regarded as their own cohesive blobs. |  $A \colon \sharp Type \;\vdash\; \flat A \colon \sharp Type$ | [[discrete object]]  | for 0-truncated $A$: [[discrete space]], for connected $A$: [[moduli stack]] for [[connection on an infinity-bundle|flat ∞-connections]] | _[Flat connections](#FlatConnections)_ |
+| Given a cohesive homotopy type $A$, there is a cohesive function from its discrete collection of points.  | $A \colon \sharp Type \;\vdash\; UnderlyingBundle_A \colon \flat A \to A $  | [[counit of an adjunction|counit]] | map from [[connection on an ∞-bundle|flat connections]] to underlying [[principal ∞-bundles]] |  |
+
 
 **Structures expressible in [[cohesive homotopy type theory]]**, adding the [[modal logic|modalities]] $(\flat \vdash \sharp)$:
 
