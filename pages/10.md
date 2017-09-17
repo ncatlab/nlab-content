@@ -171,7 +171,7 @@ This appears as ([Johnstone, cor. C2.3.9](#Johnstone)).
 
 ## Examples 
 
-We list and discuss explit examples of classifying toposes.
+We list and discuss explicit examples of classifying toposes.
 
 ### For objects
 
@@ -205,11 +205,13 @@ The discussion above for groups can be repeated verbatim for rings, since they t
 * $(x \leq y) \wedge (y \leq x) \vdash (x = y)$ 
 * $\vdash (x \leq y) \vee (y \leq x)$ 
 * $\vdash (0 \leq x) \wedge (x \leq 1)$ 
-* $(0 = 1) \vdash false$
+* $(0 = 1) \vdash false$ 
+
+(Joyal calls this a **strict** linear interval; by removing the hypothesis of distinct top and bottom, one arrives at a weaker notion he calls "linear interval". Linear intervals in this sense are classified by the topos $Set^{\Delta_{a}^{op}}$, where $\Delta_a$, sometimes called the algebraist's Delta or the augmented [[simplex category]], is the category of all finite ordinals including the empty one.) 
 
 ### For local rings
 
-The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.  A **local ring** is a model of the geometric theory of commutative unital rings in which one adds the axioms 
+The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.  A **local ring** is a model of the geometric theory of commutative unital rings subject to the extra axioms 
 
 * $(0 = 1) \vdash false$ 
 * $x + y = 1 \vdash \exists_z (x z = 1) \vee \exists_z (y z = 1)$ 
