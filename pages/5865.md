@@ -2109,7 +2109,6 @@ $$
 
 =--
 
-A formalization of this in [[homotopy type theory]] is given in ([Brunerie](#BrunerieCohesiveHoTTFolder)).
 
 +-- {: .num_prop #DeRhamAdjunction}
 ###### Proposition
@@ -2787,7 +2786,6 @@ We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
 
 =--
 
-A formalization of this in [[homotopy type theory]] is given in ([Brunerie](#BrunerieCohesiveHoTTFolder)).
 
 
 +-- {: .num_note}
@@ -3736,12 +3734,11 @@ The above list of structures in any cohesive $(\infty,1)$-topos is the topic of 
 
 ### Formulation in homotopy type theory
 
-Formalizations of some structures in cohesive $(\infty,1)$-toposes in terms of [[homotopy type theory]] -- _cohesive homotopy type theory_ -- are (in [[Coq]]-notation) in 
+For formalizations of some structures in cohesive $(\infty,1)$-toposes in terms of [[homotopy type theory]] see _[[cohesive homotopy type theory]].
 
-* [[Guillaume Brunerie]], _[HoTT/Coq/Cohesion](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Cohesion)_
-  {#BrunerieCohesiveHoTTFolder}
 
 
 
 [[!redirects cohesive (∞,1)-topos -- structures]]
 
+[[!redirects structures in a cohesive (∞,1)-topos]]
