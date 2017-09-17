@@ -641,6 +641,8 @@ See the [references below](#ReferencesHopfAlgebroidStructure).
 
 * [[Steenrod algebra]]
 
+* [[descent spectral sequence]]
+
 [[!include Lurie spectral sequences -- table]]
 
 
