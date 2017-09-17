@@ -86,6 +86,9 @@ $$
   \,.
 $$
 
+## Related concepts
+
+* The symbol map may be thought of as a special case of a _[[symbol of a differential operator]]_. See there for more.
 
 ## References
 
