@@ -37,9 +37,35 @@ Externally this is a _$V$-fiber $\infty$-bundle_.
 
 See at _[[associated ∞-bundle]]_ for more.
 
+## Example
+
+A fiber $\infty$-bundle whose typical fiber $V$ is a pointed [[connected object in an (∞,1)-topos|connected object]], hence a [[delooping]] $\mathbf{B}G$ of an [[∞-group]] $G$
+
+$$
+  V \simeq \mathbf{B}G
+$$
+
+is a _$G$-[[∞-gerbe]]_.
+
 ## Properties
 
 Every $V$-fiber $\infty$-bundle is the [[associated ∞-bundle]] to an [[automorphism ∞-group]]-[[principal ∞-bundle]].
+
+## Related concepts
+
+* [[associated ∞-bundle]], [[principal ∞-bundle]]
+
+* [[∞-gerbe]]
+
+* [[local coefficient ∞-bundle]]
+
+## References
+
+See the references at _[[associated ∞-bundle]]_. 
+
+The explicit general definition appears as def. 4.1 in part I of
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal infinity-bundles]]_
 
 [[!redirects fiber ∞-bundle]]
 [[!redirects fiber ∞-bundles]]
