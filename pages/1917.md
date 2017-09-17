@@ -1,13 +1,36 @@
 
-####Assumptions and general conventions####
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+A **homotopy quantum field theory** is a [[TQFT]] on cobordisms with extra topological structure: a [[representation]] of a [[cobordism category]] of [[cobordism]]s that are equipped with the extra [[stuff, structure, property|structure]] of a [[continuous function]] into a fixed [[topological space]] $X$. 
+
+## Assumptions and general conventions##
 
 Fix an integer $n \geq 0$ and a field, $K$. All vector spaces will be tacitly assumed to be finite dimensional.  In general $K$ can be replaced by a commutative ring merely by replacing finite dimensional vector spaces by projective $K$-modules of finite type, but we will not do this here.
 
-###A Bit of History###
+## A Bit of History 
 
 HQFTs were introduced in 1999 by [[Vladimir Turaev]] for 2-dimensional [[manifold]]s.  He extended them to 3-dimensional ones the following year. At about the same time, Brightwell and Turner (1999) looked at what they called the [[homotopy]] surface category and its [[representation]]s. There are two viewpoints which interact and complement each other. Turaev's seems to be to see HQFTs as an extension of the tool kit for studying [[manifold]]s given by [[TQFT]]s, whilst in Brightwell and Turner's,  it is the 'background space', which is probed by the surfaces in the sense of [[sigma-model]]s.
 
-###Idea###
+## Idea 
+
 The idea of Turaev was to extend the basic ideas of [[TQFTs]] from $n$-dimensional manifolds and [[cobordism]]s between them, to manifolds with a simple bit of [[stuff, structure, property|extra structure]] given by a continuous map to a [[sigma-model|background space]], $B$.
 
 The [[category]] of $B$-[[manifold]]s and $B$-[[cobordism]]s:
@@ -45,14 +68,14 @@ We can glue $B$-cobordisms along their boundaries, or more generally, along a $B
 
 The detailed structure of $B$-[[cobordism]]s and the resulting category $\mathbf{HCobord}(n,B)$ is given in the Appendix to the paper by Rodriques, (see references), at least in the important case of differentiable $B$-manifolds.  This category is a [[monoidal category]] with strict duals.
 
-##Homotopy Quantum Field Theories##
+##Homotopy Quantum Field Theories 
 
 ##Definition (Categorical form)##
 A **homotopy quantum field theory** is  a [[symmetric monoidal functor]] from $\mathbf{HCobord}(n,B)$  to the category, [[Vect]] , of finite dimensional vector spaces over the [[field]] $K$. 
 
 However let us also give here a more basic definition of a homotopy quantum field theory.
 
-##Less categorical definition of HQFTs##
+## Less categorical definition of HQFTs
 
  A **$(n + 1)$-dimensional homotopy quantum field theory**, $\tau$, with background $B$  assigns 
 
@@ -81,14 +104,15 @@ $\tau( 1_{(X,g)}) = 1_{\tau(X,g)}.$
 
 1.  For $B$-cobordisms $(W,F) : (X,g) \to (Y,h)$ and $(V,G) : (X^\prime,g^\prime) \to (Y^\prime,h^\prime)$ and $(P,J): \emptyset \to \emptyset$, some fairly obvious diagrams are commutative.
 
-##Discussion##
+## Discussion
+
 *  These axioms are slightly different from those given in the original paper of Turaev in 1999.  The really significant difference is in axiom 4, which is weaker than as originally formulated, where any $B$-cobordism structure on $I \times X$ was considered as trivial.  The effect of this change is important as it is now the case that the HQFT is determined by the $(n+1)$-type of $B$, cf. Rodrigues (2003). 
 
 * With the revised version of the axioms, it becomes possible to attempt to classify HQFTs with a given $n$ and $B$. Turaev did this in the original paper with $n = 2$ and $B$ an [[Eilenberg-MacLane space]], $K(G,1)$.  The results of Brightwell and Turner essentially gave the solution for $B$ a $K(A,2)$.
 
 
 
-### References### 
+##  References
 
 *  V. Turaev, Homotopy field theory in dimension 2 and group-algebras, preprint arXiv: 
 [arXiv:math.QA/9910010](http://arxiv.org/abs/math.QA/9910010)
