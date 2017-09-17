@@ -219,6 +219,8 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 
 ## Related concepts
 
+* [[modal hyperdoctrine]]
+
 * [[modal type theory]]
 
 * [[algebraic model for modal logic]]
