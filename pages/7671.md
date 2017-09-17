@@ -149,8 +149,12 @@ From now on ''$k$-group'' will mean by default ''commutative $k$-group'' and the
 
 ## chapter V: $p$-adic cohomology of abelian varieties
 
+[[V, p-adic cohomology of abelian varieties]]
+
 ### 1. abelian varieties, known facts
 
 ### 2. points of finite order and endomorphisms
 
 ### 3. structure of the $p$-divisible group $A(p)$
+
+[[V.3, structure of the p-divisible group A(p)]]
