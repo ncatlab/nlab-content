@@ -27,7 +27,15 @@ $$
   \frac{deg(E)}{rank(E)}
 $$
 
-between the fractions of degree and [[rank]] of the vector bundles holds.
+between the fractions of [[degree of a coherent sheaf|degree]] and [[rank]] of the vector bundles holds.
+
+see e.g. ([Huybrechts-Lehn 96, def. 1.2.4, def. 1.2.12, lemma 1.2.13](#HuybrechtsLehn96))
+
+## Examples
+
+Every [[line bundle]] is stanle. The [[extension]] of a degree-0 line bundle by a degree-1 line bundle is stable
+
+e.g. ([Huybrechts-Lehn 96, example 1.2.10](#HuybrechtsLehn96))
 
 ## Properties
 
