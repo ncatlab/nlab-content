@@ -65,6 +65,9 @@ However, parametric polymorphism makes sense and is very useful even in language
 
 * [[logical relations]]
 
+## References
+
+* [[Robert Atkey]], [[Neil Ghani]] and Patricia Johann, _A Relationally Parametric Model of Dependent Type Theory_, In Proceedings of the 41st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2014). 2014. ([web](http://bentnib.org/dtt-parametricity.html))
 
 [[!redirects polymorphism]]
 [[!redirects ad hoc polymorphism]]
