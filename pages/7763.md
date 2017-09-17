@@ -44,6 +44,10 @@ motivated by considerations in
 
 * [[Edward Witten]], _On flux quantization in M-theory and the effective action_ ([arXiv:hep-th/9609122v2](http://arxiv.org/abs/hep-th/9609122v2))
 
+A [[smooth infinity-groupoid|smooth stack]] refinement is considered in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] _[[schreiber:The moduli 3-stack of the C-field]]_
+
 [[!redirects integral Wu structures]]
 [[!redirects differential integral Wu structure]]
 [[!redirects differential integral Wu structures]]
