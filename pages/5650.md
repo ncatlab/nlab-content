@@ -8,15 +8,16 @@
 =--
 =--
 
-This entry is about the book
+This entry collects links related to the book
 
-* [[Jacob Lurie]], _Higher Algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/higheralgebra.pdf))
+* [[Jacob Lurie]], _Higher Algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/HigherAlgebra.pdf))
 
 on [[higher algebra]].
 
 
-This book lays the basis of [[categorical algebra]] -- the study of the trinity [[Lawvere theory|algebra]], [[monad]]s, [[operad]]s -- in the context of [[(∞,1)-category theory]]: [[(∞,1)-algebraic theory|(∞,1)-algebras]], [[(∞,1)-monad]]s, [[(∞,1)-operad]]s.
+This book lays the basis of [[categorical algebra]] -- the study of the trinity [[Lawvere theory|algebra]], [[monads]], [[operads]] -- in the context of [[(∞,1)-category theory]]: [[(∞,1)-algebraic theory|(∞,1)-algebras]], [[(∞,1)-monad]]s, [[(∞,1)-operad]]s.
 
+In particular it discusses the analogs of [[abelian groups]] and [[commutative rings]], namely [[abelian ∞-groups]], [[spectra]] and [[E-∞ rings]].
 
 #Contents#
 * table of contents
@@ -26,11 +27,88 @@ The following is (or will eventually be) a linked list of keywords.
 
 ## 1. Stable $\infty$-categories
 
+### 1.1 Foundations
+
+#### 1.1.1 Stability
+
 * [[stable (∞,1)-category]]
 
   * [[stabilization]]
 
-  * [[triangulated category]]
+
+#### 1.1.2 The homotopy category of a stable $\infty$-category
+
+* [[triangulated category]]
+
+#### 1.1.3 Closure properties of stable $\infty$-categories
+
+#### 1.1.4 Exact functors
+
+* [[exact (∞,1)-functor]]
+
+
+### 1.2 Stable $\infty$-categories and homological algebra
+
+* [[homological algebra]]
+
+#### 1.2.1 t-Structures on stable $\infty$-categories
+
+#### 1.2.2 Filtered objects and spectral sequences
+
+* [[spectral sequence]]
+
+#### 1.2.3 The Dold-Kan correspondence
+
+* [[Dold-Kan correspondence]]
+
+#### 1.2.4 The $\infty$-categorical Dold-Kan correspondence
+
+### 1.3 Homological algebra and derived categories
+
+#### 1.3.1 Nerves of differential graded categories
+
+* [[dg-nerve]]
+
+#### 1.3.2 Derived $\infty$-categories
+
+* [[derived category]]
+
+#### 1.3.3 The universal property of $\mathcal{D}^-(\mathcal{A})$
+
+#### 1.3.4 Inverting Quasi-isomorphisms
+
+#### 1.3.5 Grothendieck abelian categories
+
+* [[Grothendieck category]]
+
+#### 1.3.6 Complexes of injective objects
+
+* [[injective object]]
+
+* [[chain complex]]
+
+### 1.4 Spectra and stabilization
+
+#### 1.4.1 The Brown representability theorem
+
+* [[Brown representability theorem]]
+
+#### 1.4.2 Spectrum objects
+
+* [[spectrum object]]
+
+#### 1.4.3 The $\infty$-category of spectra
+
+* [[(∞,1)-category of spectra]]
+
+#### 1.4.4 Presentable stable $\infty$-categories
+
+* [[presentable (∞,1)-category]]
+
+* [[stable (∞,1)-category]]
+
+
+
 
 
 ## 2. $\infty$-Operads
