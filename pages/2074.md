@@ -1,6 +1,8 @@
 
 <div class="rightHandSide toc">
 [[!include model category theory - contents]]
+***
+[[!include quasi-category theory contents]]
 </div>
 
 
