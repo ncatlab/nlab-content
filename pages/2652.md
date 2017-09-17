@@ -130,6 +130,9 @@ However, there are other sorts of completions in mathematics, such as:
 
 * [[completion monad]]
 
+* [[completion of a ring]]
+
+* [[analytic completion]]
 
 [[!redirects completion]]
 [[!redirects completions]]
