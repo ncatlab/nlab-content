@@ -101,7 +101,7 @@ where $Core(Func(\Delta^n,C))$ denotes the maximal [[Kan complex]] inside the [[
 +-- {: .un_defn}
 ###### Definition 
 
-Let $C$ be a [[stable (∞,1)-category]]. Then its **Waldhausen K-theory $\mathbf{K}(C)$ is given by the the diagonal simplicial set
+Let $C$ be a [[stable (∞,1)-category]]. Then its **Waldhausen K-theory $\mathbf{K}(C)$ is given by the diagonal simplicial set
 
 $$
   \mathbf{K}(C) = diag C_{\bullet, \bullet}
