@@ -45,8 +45,8 @@ The following is Theorem 2.3 in [CHK](#CHK).
 ###### Theorem
 Let $(E',M')$ be the reflective interior of $(E,M)$.  Then:
 
-1. $f\in E'$ precisely when there exists a $g\in E$ such that $f g \in E$.
-1. $(E,M)$ is reflective precisely when $f g\in E$ and $g\in E$ together imply $f\in E$.
+1. $f\in E'$ precisely when there exists a $g\in E$ such that $g f \in E$.
+1. $(E,M)$ is reflective precisely when $g f\in E$ and $g\in E$ together imply $f\in E$.
 =--
 +-- {: .proof}
 ###### Proof
@@ -69,6 +69,26 @@ Suppose that $C$ is finitely complete and $M$-complete for some factorization sy
 ###### Proof
 This follows directly from [this theorem](/nlab/show/M-complete+category#OFSFromAdjunction) applied to the reflection adjunction.
 =--
+
+The following is a consequence of Theorems 4.1 and 4.3 from [CHK](#CHK).
+
++-- {: .un_theorem}
+###### Theorem
+Suppose that $C$ is finitely complete and that $(E,M)$ is a reflective prefactorization system on $C$ such that $E$-morphisms are stable under pullback along $M$-morphisms.  Then $(E,M)$ is a factorization system.
+=--
++-- {: .proof}
+###### Proof
+Write $\ell$ for the corresponding reflection.  Now given $f\colon A\to B$, let $m$ be the pullback of $\ell(f)$ along $\eta_B\colon B \to \ell B$:
+$$\array{ Y & \overset{g}{\to} & \ell A \\
+  ^m \downarrow & & \downarrow^{\ell(f)}\\
+  B & \underset{\eta_B}{\to} & \ell B}$$
+By closure properties of prefactorization systems, any morphism in $M/1$ lies in $M$, so in particular $\ell(f)\in M$.  Since $M$ is stable under pullback (being, again, the right class of a prefactorization system), we have $m\in M$.
+
+But $f$ factors through $m$, by the universal property of the pullback applied to the naturality square for $\eta$ at $f$.  Thus we have $f = m e$ and it suffices to show $e\in E$.  However, we also have $g e = \eta_A$, where $\eta_A\in E$ by definition, and $g\in E$ by assumption (being the pullback of $\eta_B\in E$ along $\ell(f)\in M$).  By the characterization theorem above, since $(E,M)$ is reflective this implies $e\in E$, as desired.
+=--
+
+A reflection satisfying the condition of the preceeding theorem is called **semi-left-exact**.  It is shown in Theorem 4.3 of [CHK](#CHK) that this condition is equivalent to the reflector $\ell$ preserving pullbacks of $M$-morphisms.  (Saying that $E$-morphisms are stable under *all* pullbacks is equivalent to saying that $\ell$ preserves all pullbacks, hence all finite limits---i.e. it is left-exact.  Thus the terminology "semi-left-exact" for the weaker assumption.)
+
 
 ### Relation to localizations
 
@@ -103,3 +123,5 @@ On the other hand, many commonly encountered factorization systems are not refle
 [[!redirects coreflective prefactorization systems]]
 [[!redirects reflective interior]]
 [[!redirects coreflective closure]]
+[[!redirects semi-left-exact reflection]]
+[[!redirects semi-left-exact reflections]]
