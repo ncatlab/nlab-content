@@ -277,6 +277,190 @@ This is in II.1.5 of
 
 ## Unbounded dg-algebras {#Unbounded}
 
+We discuss now the case of unbounded dg-algebras. For these there is no longer the [[monoidal Dold-Kan correspondence]] available. Instead, these can be understood as arising naturally as function $\infty$-algebras in the [[derived geometry|derived]] [[dg-geometry]] over formal duals of bounded dg-algebras.
+
+### Gradings and conventions {#GradingsAndConventions}
+
+In [[derived geometry]] two categorical gradings interact: a [[cohesive (∞,1)-topos|cohesive]] $\infty$-groupoid $X$ has a space of [[k-morphism]]s $X_k$ for all non-negative $k$, and each such has itself a _[[simplicial T-algebra]]_ of functions with a component in each non-positive degree. But the directions of the face maps are opposite. We recall the grading situation from [[function algebras on ∞-stacks]].
+
+Functions on a bare $\infty$-groupoid $K$, modeled as a [[simplicial set]], form a [[cosimplicial algebra]] $\mathcal{O}(K)$, which under the [[monoidal Dold-Kan correspondence]] identifies with a cochain [[dg-algebra]] (meaning: with positively graded differential) in non-negative degree
+
+$$
+  \left(
+    \array{
+        \vdots
+       \\
+       \downarrow \downarrow \downarrow \downarrow      
+        \\
+        K_2
+       \\
+       \downarrow^{\partial_0} \downarrow^{\partial_1} \downarrow^{\partial_2}
+       \\
+       K_1
+       \\
+       \downarrow^{\partial_0} \downarrow^{\partial_1}
+       \\
+       K_0
+     }
+  \right)
+   \;\;\;\;\;
+   \stackrel{\mathcal{O}}{\mapsto}
+   \;\;\;\;\;
+  \left(
+  \array{
+    \vdots
+    \\
+    \uparrow \uparrow \uparrow \uparrow   
+    \\
+    \mathcal{O}(K_2)
+    \\
+    \uparrow^{\partial_0^*} \uparrow^{\partial_1^*} \uparrow^{\partial_2^*}
+    \\
+    \mathcal{O}(K_1)
+    \\
+    \uparrow^{\partial_0^*} \uparrow^{\partial_1^*}
+    \\
+    \mathcal{O}(K_0)
+  }
+  \right)
+   \;\;\;\;\;
+  \stackrel{\sim}{\leftrightarrow}
+   \;\;\;\;\;
+  \left(
+    \array{
+     \cdots
+     \\
+     \uparrow^{\mathrlap{\sum_i (-1)^i \partial_i^*}}
+     \\
+     A_2
+     \\
+     \uparrow^{\mathrlap{\sum_i (-1)^i \partial_i^*}}
+     \\
+     A_1
+     \\
+     \uparrow^{\mathrlap{\sum_i (-1)^i \partial_i^*}}
+     \\
+     A_0
+     \\
+     \uparrow
+     \\
+     0
+     \\
+     \uparrow
+     \\
+     0
+     \\
+     \uparrow
+     \\
+     \vdots
+   }
+  \right)
+  \,.
+$$
+
+On the other hand, a representable $X$ has itself a _[[simplicial T-algebra]]_ of functions, which under the monoidal Dold-Kan correspondence also identifies with a cochain dg-algebra, but then necessarily in non-positive degree to match with the above convention. So we write
+
+$$
+  \mathcal{O}(X)
+   \;\;\;\;\;
+  =
+   \;\;\;\;\;
+  \left(
+   \array{
+     \mathcal{O}(X)_0
+     \\
+     \uparrow \uparrow
+     \\
+     \mathcal{O}(X)_{-1}
+     \\
+     \uparrow \uparrow \uparrow
+     \\
+     \mathcal{O}(X)_{-2}
+     \\
+     \uparrow \uparrow \uparrow \uparrow
+     \\
+     \vdots
+   }
+  \right)
+   \;\;\;\;\;
+  \stackrel{\sim}{\leftrightarrow}
+   \;\;\;\;\;
+  \left(
+    \array{
+        \vdots
+        \\
+        \uparrow
+        \\
+        0
+        \\
+        \uparrow
+        \\
+        0
+        \\
+        \uparrow
+        \\
+       \mathcal{O}(X)_0
+       \\
+       \uparrow
+       \\
+       \mathcal{O}(X)_{-1}
+       \\
+       \uparrow
+       \\
+       \mathcal{O}(X)_{-2}
+       \\
+       \uparrow
+       \\
+       \vdots
+    }
+  \right)
+  \,.
+$$
+
+Taking this together, for $X_\bullet$ a general [[∞-stack]], its function algebra is generally an _unbounded_ cochain dg-algebra with mixed contributions as above, the simplicial degrees contributing in the positive direction, and the homological resolution degrees in the negative direction:
+
+$$
+  \mathcal{O}(X_\bullet)
+   \;\;\;\;\;
+   =
+   \;\;\;\;\;
+  \left(
+     \array{
+        \vdots
+        \\
+        \uparrow
+        \\
+        \bigoplus_{k-p = q} \mathcal{O}(X_k)_{-p}
+        \\
+        \uparrow
+        \\
+        \vdots
+        \\
+        \uparrow^d
+        \\
+        \mathcal{O}(X_1)_0 \oplus \mathcal{O}(X_2)_{-1} \oplus 
+          \mathcal{O}(X_3)_{-2} \oplus \cdots
+        \\
+        \uparrow^{d}
+        \\
+        \mathcal{O}(X_0)_0 \oplus \mathcal{O}(X_1)_{-1} \oplus 
+          \mathcal{O}(X_2)_{-2} \oplus \cdots
+        \\
+        \uparrow^{d}
+        \\
+        \mathcal{O}(X_0)_{-1} \oplus \mathcal{O}(X_1)_{-2} \oplus 
+          \mathcal{O}(X_2)_{-3}\oplus \cdots       
+        \\
+        \uparrow^{d}
+        \\
+        \vdots
+     }
+  \right)
+  \,.
+$$ 
+
+
+
 ### Definition
 
 
@@ -387,7 +571,7 @@ This follows ([BousfieldGugenheim, prop. 5.3](#BousfieldGugenheim)). See also th
 +-- {: .un_prop }
 ###### Proposition
 
-For $A \in cdgAlg$ cofibant, $cdgAlg_k(A,B)$ is the correct [[derived hom-space]]
+For $A \in cdgAlg$ cofibrant, $cdgAlg_k(A,B)$ is the correct [[derived hom-space]]
 
 
 $$
@@ -399,7 +583,6 @@ $$
 
 =--
 
-> The following proof needs to be scrutinized.
 
 +-- {: .proof}
 ###### Proof
@@ -441,10 +624,33 @@ is a fibration. But this follows from the fact that $\Omega^\bullet_{poly} : sSe
 We discuss a concrete model for the $(\infty,1)$-copowering of 
 $(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of the ordinary [[copowering]] of the [[category of chain complexes]] $Ch^\bullet(k)$ over [[sSet]].
 
++-- {: .un_definition}
+###### Definition
+
+Define a [[functor]]
+
+$$  
+  CC : sSet \times cdgAlg \to cdgAl
+$$
+
+by setting for $A \in cdgAlg$ and $Y \in sSet$ degreewise finite
+
+$$
+  CC(Y,A)^n := \bigoplus_{k \geq 0} (A^{\otimes_k |Y_k| })_{n+k}
+$$
+
+with the obvious value on differentials. Then left Kan extend to 
+all simplicial sets. (...)
+
+=--
+
+This appears as ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)).
+
+
 +-- {: .un_prop}
 ###### Proposition
 
-The [[(∞,1)-limit|(∞,1)-copowering]] of $(dgcAlg_k)^\circ$ over [[∞Grpd]] is modeled by the ordinary [[copowering]] of the underlying [[category of chain complexes]] over [[sSet]].
+The [[(∞,1)-limit|(∞,1)-copowering]] of $(dgcAlg_k)^\circ$ over [[∞Grpd]] is modeled by the [[derived functor]] of $CC$.
 
 =--
 
@@ -538,8 +744,6 @@ $$
 
 =--
 
-Here is a rough writeup of the proof, to be polished:
-
 +-- {: .proof}
 ###### Proof
 
@@ -553,8 +757,8 @@ $$
    \infty Grpd(S, (dgcAlg_{k}^{op})^\circ(Spec A, Spec B))
 $$
 
-natural in $B$. Consider a cofibrant model of $B$, which we denote by the same symbol. The we compute (1-categorically)
-
+natural in $B$. Consider a cofibrant model of $B$, which we denote by the same symbol. The we compute with 1-categorical [[end]]/[[coend]] calculus
+ 
 $$
   \begin{aligned}
     sSet(S, cdgAlg_k^{op}(Spec A,Spec B))
@@ -590,9 +794,9 @@ $$
   \,,
 $$
 
-where all steps are isomorphisms and the dot denotes the ordinary 1-categorical [[copower]]ing of the category $cdgAlg^{op}$ over $Set$. In the last step we are using that the tensor product commutes with finite limits of dg-algebras. (This is where the finiteness assumption is needed). 
+where all steps are [[isomorphism]]s and the dot denotes the ordinary 1-categorical [[copower]]ing of the 1-category $cdgAlg^{op}$ over [[Set]]. In the last step we are using that the [[tensor product]] commutes with finite limits of dg-algebras. (This is where the finiteness assumption is needed). 
 
-Now we use that by Eilenberg-Zilber etc. pp. (see for instance Hess, page 12) we have a quasi-isomorphism
+Now we use that $\Omega^\bullet_{poly}$ preserves [[product]]s up to [[quasi-isomorphism]] (as discussed <a href="http://nlab.mathforge.org/nlab/show/differential+forms+on+simplices#Properties">here</a>)
 
 $$
   \Omega^\bullet_{poly}(S \times \Delta[r])
@@ -611,7 +815,7 @@ $$
   \,.
 $$
 
-This being natural in $B$, this proves the claim. 
+Since all this is [[natural transformation|natural]] in $B$, this proves the claim. 
 
 =--
 
