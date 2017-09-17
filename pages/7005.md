@@ -257,9 +257,15 @@ A discussion of univalence in [[categories of presheaves]] over an [[inverse cat
 
 * [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
 
-The computational interpretation of univalence is discussed in 
+The computational interpretation of univalence / [[canonicity]] is discussed in 
 
-* _The computational interpretation of HoTT (in 2D)_ ([video](http://video.ias.edu/stream&ref=1674))
+* [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf))
+
+* [[Robert Harper]], [[Daniel Licata]], _Canonicity for 2-dimensional type theory_ (2011) ([pdf](http://www.cs.cmu.edu/~rwh/papers/2dtt-can/paper.pdf))
+
+* [[Daniel Licata]] _The computational interpretation of HoTT (in 2D)_, talk at [[UF-IAS-2012]]  ([video](http://video.ias.edu/stream&ref=1674))
+
+* Simon Huber (with [[Thierry Coquand]]), _Towards a computational justification of the Axiom of Univalence_ , talk at _TYPES 2011_ ([pdf](http://www.cse.chalmers.se/~simonhu/slides/types11.pdf))
 
 Univalence is claimed to be established in all [[(infinity,1)-toposes]], their presentations by [[type-theoretic model categories]] as well as further cases of [[locally cartesian closed (infinity,1)-categories]] in
 
