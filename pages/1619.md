@@ -207,11 +207,11 @@ Given a [[spin structure]] $S : X \to \mathbf{B} Spin(n)$ we say that the **stri
 +-- {: .num_prop #ChoicesOfSpinStructures}
 ###### Observation
 
-The choices of string structures extending a given spin structure $S$ 
+The space of choices of string structures extending a given spin structure $S$ are as follows
 
 * if $[\frac{1}{2}\mathbf{p}_1(S)] \neq 0$ it is empty: $String_S(X) \simeq \emptyset$;
 
-* $[\frac{1}{2}\mathbf{p}_1(S)] = 0$ it is $String_S(X) \simeq \mathbf{H}(X, \mathbf{B}^2 U(1))$.
+* if $[\frac{1}{2}\mathbf{p}_1(S)] = 0$ it is $String_S(X) \simeq \mathbf{H}(X, \mathbf{B}^2 U(1))$.
 
   In particular the set of [[equivalence class]]es of string structures lifting $S$ is the [[cohomology]] set 
 
