@@ -1,4 +1,6 @@
 <div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+***
 [[!include cohomology - contents]]
 </div>
 
@@ -167,3 +169,9 @@ and, building on that, in example 1.8 of
 
 
 [[!redirects locally constant ∞-stack]]
+[[!redirects locally constant (∞,1)-sheaf]]
+
+[[!redirects locally constant ∞-stacks]]
+[[!redirects locally constant (∞,1)-sheaves]]
+
+
