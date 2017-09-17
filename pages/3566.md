@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -25,7 +24,7 @@ $$
   C(X,f) : C(X,Y) \to C(X,Z)
 $$
 
-of [[∞-groupoid]]s is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $C(X,Y)$ as a [[direct sum]]mand of $C(X,Z)$.
+of [[∞-groupoid]]s is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $C(X,Y)$ as a factor in a  [[coproduct]] decomposition of $C(X,Z)$.
 
 So if $C(X,Y) = \coprod_i C(X,Y)_{i \in \pi_0(C(X,Y))}$ and $C(X,Z) = \coprod_{j \in \pi_0((C(X,Z))} C(X,Z)_j$ is the decomposition into connected components, then there is an injective function
 
@@ -48,6 +47,9 @@ This is [[poset|partially ordered]] under inclusion.
 
 **Proposition** If $C$ is a [[presentable (∞,1)-category]], then $Sub(Z)$ is a small [[set]]. ([[Higher Topos Theory|HTT, prop 6.2.1.4]])
 
+## Related pages
+
+The notion of monomorphism in an $(\infty,1)$-category can also be characterized in its underlying homotopy [[derivator]]; see [[monomorphism in a derivator]].
 
 ## References
 
