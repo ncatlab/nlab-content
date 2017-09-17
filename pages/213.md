@@ -2,11 +2,11 @@
 
 By $CartSp$ we denote the category
 
-* whose objects are the [[cartesian spaces]] $\mathbb{R}^n$, $n \in \mathbb{N}$, equipped with their standard smooth structure;
+* whose objects are the [[cartesian spaces]] $\mathbb{R}^n$, $n \in \mathbb{N}$ -- the [[real line]] to its $n$th cartesian power -- equipped with their standard smooth structure;
 
 * whose morphisms are all smooth (infinitely differentiable) maps between these spaces.
 
-So $CartSp$ is the full subcategory of [[Diff]] consisting of the spaces for $\mathbb{R}^n$ for $n \in \mathbb{N}$.
+So $CartSp$ is in particular the full [[subcategory]] of [[Diff]] consisting of the spaces for $\mathbb{R}^n$ for $n \in \mathbb{N}$.
 
 
 #Remarks#
