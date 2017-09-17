@@ -116,6 +116,11 @@ See at
 
 * [[higher differential geometry applied to plain differential geometry]]
 
+### In differential cohomology
+ {#InDifferentialCohomology}
+
+[[cohesion]] on [[(∞,1)-toposes]] solves the [Simons-Sullivan question](differential%20cohomology%20diagram#SimonsSullivan07) characterization on the characterization of [[generalized (Eilenberg-Steenrod) cohomology|generalized (Eilenberg-Steenrod-type)]] [[differential cohomology]]. See at _[[differential cohomology hexagon]]_ for details.
+
 ### In deformation theory {#DeformationTheory}
 
 In deformation theory it was early on recognized that for a good theory the notion of [[Kähler differential]]s has to be generalized to the notion of [[cotangent complex]]. With the advent of the study of derived [[moduli space]]s, such as the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli space of derived elliptic curves]], this needed to be further generalized to notions of cotangent complexes not just of [[ring]]s, but of [[E-∞-ring]]s. 
