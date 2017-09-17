@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Karl_Stein_(mathematician))
+
+## related $n$Lab entries
+
+* [[Stein manifold]]
+
+category: people
