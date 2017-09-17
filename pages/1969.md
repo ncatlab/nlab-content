@@ -98,6 +98,10 @@ $$
 
 =--
 
+The weak equivalences 
+$Mor_C(\Gamma^\bullet X, R Y) \stackrel{\simeq}{\to} diag Mor_C(\Gamma^\bullet X, \Lambda_\bullet Y) \stackrel{\simeq}{\leftarrow} Mor_C(Q X, \Lambda_\bullet Y)$ appear also as ([Hovey, prop. 5.4.7](#Hovey)).
+
+    
 ## Details 
 
 ### Enriched homs between cofibrant/fibrant objects {#EnrichedHomsCofToFib}
@@ -275,13 +279,21 @@ that is homotopic to our $C(X,f)$. Therefore this is also a weak equivalence.
 
 ## References 
 
+For some original references by [[William Dwyer]] and [[Dan Kan]]  see  [[simplicial localization]].
+
 A useful quick review of the interrelation of the various constructions of derived hom spaces is page 14, 15 of
 
-* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+* [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
 where the above diagram is taken from.
 
-The definition in terms of simplicial and fibrant/cofibrant resolutions is described in detail in sections 16, 17 of
+
+The definition in terms of simplicial and fibrant/cofibrant resolutions is described in detail in section 5 of
+
+* [[Mark Hovey]], _Model categories_ ([ps](http://math.unice.fr/~brunov/SecretPassage/Hovey-Model%20Categories.ps))
+{#Hovey}
+
+and in sections 16, 17 of
 
 * Hirschhorn, _Model categories and their localization_ .
 
