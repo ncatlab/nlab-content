@@ -223,12 +223,11 @@ A concrete description of separafication appears on page 43 of
 * [[Angelo Vistoli]], _Notes on Grothendieck topologies,
 fibered categories and descent theory_ ([pdf](http://homepage.sns.it/vistoli/descent.pdf#Page=43))
 
-
+category: sheaf theory
 [[!redirects monopresheaf]]
 [[!redirects separated presheaves]]
 [[!redirects separated object]]
 [[!redirects separated objects]]
-
 [[!redirects biseparated presheaf]]
 [[!redirects biseparated presheaves]]
 [[!redirects biseparated object]]
