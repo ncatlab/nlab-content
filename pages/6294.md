@@ -20,9 +20,11 @@
 
 ## Idea
 
-For $C$ a [[category]] with [[finite limit]]s, a _ring object_ in $C$ is a [[ring]] [[internalization|internal]] to $C$.
+For $C$ a [[category]] with [[finite limit]]s, an __internal ring__ or a __ring object__ in $C$ is an [[internalization]] to the category $C$ of a notion of a [[ring]].
 
-This is an [[abelian group|abelian]] [[group object]] equipped with the structure of a [[monoid|monoid object]] internal to abelian group objects internal to $C$.
+This is a [[monoid|monoid object]] internal to the category of  [[abelian group|abelian]] [[group object]]s internal to $C$.
+
+It can be defined in more general symmetric monoidal categories as the corresponding module over a ring operad. 
 
 ## Examples
 
