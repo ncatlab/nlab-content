@@ -69,7 +69,7 @@ Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, 
 
 Then sets so equipped form a [[category]] with simulations as [[morphisms]].  See [[extensional relation]] for more uses of simulations.
 
-In coalgebraic language, a simulation $S \to T$ is simply a $P$-coalgebra homomorphism $f\colon S \to T$. Condition (1), that $f$ is merely $\prec$-preserving, translates to the condition that $f$ is a [[lax coalgebra]] map in the sense of there being an inclusion 
+In coalgebraic language, a simulation $S \to T$ is simply a $P$-coalgebra homomorphism $f\colon S \to T$. Condition (1), that $f$ is merely $\prec$-preserving, translates to the condition that $f$ is a [[colax morphism]] of coalgebras, in the sense that there is an inclusion 
 
 $$\array{
 X & \stackrel{\theta_X}{\to} & P X \\
