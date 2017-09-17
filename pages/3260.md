@@ -19,7 +19,9 @@
 
 ## Idea
 
-Equivariant homotopy theory is [[homotopy theory]] for the case that a [[group]] $G$ [[action|acts]] on all the [[topological space]]s  or other objects involved, hence the homotopy theory of [[G-spaces]].
+Equivariant homotopy theory is [[homotopy theory]] for the case that a [[group]] $G$ [[action|acts]] on all the [[topological space]]s  or other objects involved, hence the homotopy theory of [[topological G-spaces]].
+
+(Beware that this is crucially different from (namely "finer" and "more geometric" than) the homotopy theory of the [[∞-actions]] of the underlying [[homotopy type]] [[∞-group]] of $G$, and this is so even when $G$ is a [[discrete group]], see [below](#RelationToInfinityActions)).
 
 The union of $G$-equivariant homotopy theories as $G$ is allowed to vary is _[[global equivariant homotopy theory]]_.
 
@@ -279,8 +281,9 @@ By ([Rezk 14](#Rezk14)) $G Top$ is also the [[base (∞,1)-topos]] of the [[cohe
 The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ is the [[equivariant stable homotopy theory]] of [[spectra with G-action]] ("[[naive G-spectra]]").
 
 ### Relation to ∞-Actions (fine and coarse equivariance)
+ {#RelationToInfinityActions}
 
-For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometrically discrete]]) the homotopy theory of [[G-spaces]] which enters [[Elmendorf's theorem]] is different (finer) than the standard homotopy theory of $G$-[[∞-actions]], which is presented by the [[Borel model structure]] (see there for more).
+For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometrically discrete]]) the homotopy theory of [[G-spaces]] which enters [[Elmendorf's theorem]] is different (finer) than the standard homotopy theory of $G$-[[∞-actions]], which is presented by the [[Borel model structure]] (see there for more, and see ([Guillou](#Guillou))).
 
 ## Examples
 
