@@ -358,7 +358,31 @@ The [[homotopy category]] of [[cat-n-group]]s is equivalent to that of [[pointed
 This is proven in ([Loday](#Loday)).
 
 
+### For Segal-groupoids
 
++-- {: .un_prop}
+###### Proposition
+
+
+There is realization/singular complex [[adjunction]]
+
+$$
+  (|-| \dashv sSing) : Top \to SegalGrpd 
+$$
+
+for [[Segal groupoid]]s, 
+
+
+Its unit is an equivalence of [[Segal categories]] and its counit a [[weak homotopy equivalence]] of topological spaces.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is lemma 6.3.21 and corollary 6.3.24 in ([Pellissier](#Pellissier))
+
+=--
 
 ## References
 
@@ -374,6 +398,9 @@ The homotopy hypothesis for [[algebraic Kan complex]]es is established and discu
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
 {#Nikolaus}
 
+The homotopy hypothesis for [[Segal groupoid]]s is formulated in section 6.3.4 of
+
+* Regis Pellissier, _Weak enriched categories - Categories enrichies faibles_ PhD Thesis (2002) ([arXiv:math/0308246](http://arxiv.org/abs/math/0308246))
 
 Models of homotopy $n$-types by $Cat^n$-groups are discussed in
 
