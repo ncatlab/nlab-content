@@ -1,0 +1,1 @@
+A $n$-dimensional $k$-[[variety]] $M$ is __rational__ if there is a [[birational map]] $M\to P^n_k$ to the projective space. 
