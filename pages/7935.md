@@ -39,4 +39,6 @@
 
 * [[orbit method]]
 
+* [[Borel-Weil theorem]], [[Borel-Weil-Bott theorem]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/geometric+quantization+-+contents)</div>
