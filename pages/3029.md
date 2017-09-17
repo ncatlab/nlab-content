@@ -106,7 +106,7 @@ Conversely, this $\mathbf{B}H \to \mathbf{B}^2 A$ is the [[cocycle]] that classi
 +-- {: .un_prop}
 ###### Prosition
 
-For $A \stackrel{i}{\to} \hat G \stackrel{p}{\to} G$ a group extension, we have that $p : \hat G \to G$ is an $A$-[[torsor]] over $G$ with  the [[action]] of $A$ on $\hat G$ is defined by
+For $A \stackrel{i}{\to} \hat G \stackrel{p}{\to} G$ a group extension, we have that $p : \hat G \to G$ is an $A$-[[torsor]] over $G$ where  the [[action]] of $A$ on $\hat G$ is defined by
 
 $$  
   \rho : A \times \hat G \stackrel{(i,Id)}{\to} \hat G \times \hat G \stackrel{\cdot}{\to} \hat G
