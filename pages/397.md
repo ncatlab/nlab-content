@@ -89,6 +89,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Kevin Lin]]
 * [[Kevin Walker]]
 * [[Konrad Waldorf]]
+* [[Kurt TeKolste]]
 * [[Lars Kindler]]
 * [[lieven lebruyn|Lieven Le Bruyn]]
 * [[Maarten Bergvelt]]
