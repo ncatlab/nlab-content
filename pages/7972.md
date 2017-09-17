@@ -1,0 +1,6 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Andr%C3%A9_Weil)
+
+category: people
+
+[[!redirects Andre Weil]]
