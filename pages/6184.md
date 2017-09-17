@@ -1,0 +1,5 @@
+
+
+## References
+
+Dowker, On Verlinde's formula for the dimensions of vector bundles on moduli spaces  ([web](http://iopscience.iop.org/0305-4470/25/9/033))
