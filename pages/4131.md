@@ -29,11 +29,13 @@ and then the more general case of bases
 +-- {: .num_defn}
 ###### Definition
 
-For $X$ a [[topological space]], a __[[base]]__ or __basis__ for the topology of $X$ is a collection of [[open subsets]] -- called __basic open subsets__ or __generating open subsets__ -- such that every open subset is a [[union]] of basic ones.
+For $X = (X,\tau)$ a [[topological space]], a __[[base]]__ or __basis__ for (or "of") the topology of $X$ is a collection $\mathcal{U}\subset \tau$ of [[open subsets]] -- called __basic open subsets__ or __generating open subsets__ -- such that every open subset is a [[union]] of basic ones. A __subbase of topology__ of $X$ is a collection $S\subser $\tau$ of open subsets such that all finite intersections of sets belong to $S$ is a base of topology of $(X,\tau)$.
 
 =--
 
+
 +-- {: .num_remark}
+
 ###### Remark
 
 If one thinks of the topology on $X$ as being encoded in the standard [[Grothendieck topology]] that it induces on its [[category of open subsets]] $Op(X)$, then a base for the topology induces a _[[coverage]]_ on $Op(X)$, whose covering families are the open covers by basic open subsets, which generates this Grothendieck topology.
@@ -41,6 +43,8 @@ If one thinks of the topology on $X$ as being encoded in the standard [[Grothend
 This connects to the more general definition \ref{BasisForGrothendieckTopology} below.
 
 =--
+
+Definition. Let $(X,\tau)$ be a topological space and $x\in X$ a point. A __base of neighborhoods__ of $x$ in $(X,\tau)$ or a __fundamental system of neighborhoods__ of $X$ is a family $B\subset \tau$ of neighborhoods of $x$ such that for any neighborhood $U\ni x$ there is a neighborhood $b\ni x$ such that $b\in B$ and $b\subset U$. Some also say (local base of topology at $x$). The minimal cardinality of a base of neighborhoods at $x$ is called a character of $(X,\tau)$ at $x$, and the supremum of characters at all point is a character of $(X,\tau)$. If it is countable we say that the topological space satisfies the first axiom of separability. 
 
 ### For sites / Grothendieck topologies
  {#ForSites}
@@ -103,6 +107,8 @@ For instance a base for the topology on the [[real line]] is given by the collec
 
 
 [[!redirects base for a topology]]
+[[!redirects subbase of a topology]]
+[[!redirects subbase for a topology]]
 [[!redirects basis for a topology]]
 [[!redirects bases for a topology]]
 [[!redirects base for the topology]]
