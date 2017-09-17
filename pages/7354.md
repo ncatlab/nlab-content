@@ -54,7 +54,7 @@ There is also
 | | [[F1-brane]] in [[type IIA supergravity|IIA sugra]] | $\leftarrow$[[S-duality]]$\rightarrow$ | [[black string]] in [[type IIA supergravity|type IIA sugra]] |
 | [[F-theory|F-reduction]] | $\updownarrow$ [[T-duality]] on $S^1$ |  |  |
 | | [[F1-brane]] in [[type IIB supergravity|IIB sugra]] | $\leftarrow$[[S-duality]]$\rightarrow$ | [[D1-brane]] in [[type IIB supergravity|10d IIB sugra]] |
-| | | $\searrow$ [[U-duality]] | $\updownarrow$ [[T-duality]] on $T^2$ |
+| | | [[!include SVG short nwsearrow]] [[U-duality]] | $\updownarrow$ [[T-duality]] on $T^2$ |
 | | [[D3-brane]] in [[type II supergravity|IIB sugra]] |  $\leftarrow$[[S-duality]]$\rightarrow$ |
  [[D3-brane]] in [[type II supergravity|IIB sugra]] |
 ## References
