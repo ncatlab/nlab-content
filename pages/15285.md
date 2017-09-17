@@ -1,0 +1,14 @@
+
+
+| [[number field]]  |  [[function field]]  |
+|-------------------|----------------------|
+| $\mathbb{Z}$ ([[integers]]) | $k[t]$ ([[polynomial ring]]) |
+| $\mathbb{G}$ ([[rational numbers]]) | $k(t)$ ([[Laurent polynomials]])  |
+| $\mathbb{Q}_p$ ([[p-adic numbers]]) | $k((t))$ ([[Laurent series]]) |
+| $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[field extension]]) | [[function field]] of an [[algebraic curve]] over $k$ | 
+| [[spectrum of a commutative ring|spectrum]] with archimedean valuation [[places]] | $X$ |
+
+
+* [[Barry Mazur]], [[Andrew Wiles]], _Analogies between function fields and number fields_, American Journal of Mathematics Vol. 105, No. 2 (Apr., 1983), pp. 507-521 ([JStor](http://www.jstor.org/stable/2374266))
+
+* [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
