@@ -1,4 +1,9 @@
 
+##Idea
 
+Cellular homology is a very efficient tool for computing the homology groups of 
+CW complexes, based on degree calculations. It uses the combinatorial structure of a CW-complex to define, first a complex of celluar chains and then the corresponding [[homology]]. (There is a related cellular cohomology.)  The cellular homology of a CW-complex is isomorphic to its [[singular homology]].
 
-See at _[[simplicial homology]]_.
+##References
+
+*  [[Alan Hatcher]], [Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/AT.pdf), Cambridge Univ. Press 2002, starting p. 139
