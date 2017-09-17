@@ -947,15 +947,19 @@ The proposition now follows with the above observation that $\Pi$ preserves all 
 
 ### Paths and geometric Postnikov towers {#Paths}
 
+The [above](#Homotopy) construction of the 
+[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of objects in $\mathbf{H}$ as an object in  [[∞Grpd]] may be reflected back into $\mathbf{H}$, where it gives a notion of homotopy [[path n-groupoid]]s and a geometric notion of [[Postnikov tower]]s of objects in $\mathbf{H}$.
+
 +-- {: .un_def}
 ###### Definition
 
-Define the composite [[adjoint (∞,1)-functor]]s
+For $\mathbf{H}$ a [[locally ∞-connected (∞,1)-topos]]
+define the composite [[adjoint (∞,1)-functor]]s
 
 $$
-  (\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma}) 
+  (\mathbf{\Pi} \dashv \mathbf{\flat}) 
   :=
-  (Disc \Pi \dashv Disc \Gamma \dashv CoDisc \Gamma)
+  (Disc \Pi \dashv Disc \Gamma)
   : 
   \mathbf{H}
    \to 
@@ -964,6 +968,7 @@ $$
 $$
 
 =--
+
 
 We say
 
@@ -1002,14 +1007,46 @@ $$
   \mathbf{H}
 $$
 
-is the **[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|path n-groupoid]]** functor. 
+is the **homotopy [[path n-groupoid]]** functor. 
+
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma}) 
+  :=
+  (Disc \Pi \dashv Disc \Gamma \dashv CoDisc \Gamma)
+  : 
+  \mathbf{H}
+   \to 
+  \mathbf{H}
+  \,.
+$$
+
++-- {: .un_lemma}
+###### Observation
+
+If $\mathbf{H}$ is cohesive, then $\mathbf{\flat}$ has a [[right adjoint]] $\mathbf{\Gamma}$
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma}) 
+  :=
+  (Disc \Pi \dashv Disc \Gamma \dashv coDisc \Gamma)
+  : 
+  \mathbf{H}
+     \stackrel{\overset{\mathbf{\Pi}}{\to}}{\stackrel{\overset{\mathbf{\flat}}{\leftarrow}}{\underset{\mathbf{\Gamma}}{\to}}}
+  \mathbf{H}
+  \,.
+$$
+
+and this makes $\mathbf{H}$ be $\infty$-connected and locally $\infty$-connected over itself.
+
+=--
 
 
 +-- {: .un_def}
-###### Definiion
+###### Definition
 
 For $X \in \mathbf{H}$ we say that the **geometric Postnikov tower**
-of X$ is the [[Postnikov tower in an (∞,1)-category]] of $\mathbf{\Pi}(X)$:
+of $X$ is the [[Postnikov tower in an (∞,1)-category]] of $\mathbf{\Pi}(X)$:
 
 $$
   \mathbf{\Pi}(X) \to \cdots
