@@ -7,6 +7,8 @@
 
 * [[isomorphism]], [[weak equivalence]], [[homotopy equivalence]], [[weak homotopy equivalence]], [[equivalence in an (∞,1)-category]]
 
+* [[natural equivalence]], [[natural isomorphism]]
+
 * [[gauge equivalence]]
 
 * **Examples.** 
