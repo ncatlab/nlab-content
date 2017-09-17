@@ -72,10 +72,12 @@ is evidently left exact, hence $(f^* f_*) CoAlg(\mathcal{E})$ is a topos of coal
 
 =--
 
-## References
+## References and links
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
  {#MacLaneMoerdijk}
+
+Note also that the modules over a *commutative* [[finitary algebraic theory]] in $Set$ has properties very close to the properties of a Grothendieck topos, in fact only one axiom has to be modified. This is one of the themes of the theory of [[vectoid]]s of [[Nikolai Durov]].
 
 [[!redirects topos of coalgebras over a comonad]]
 
