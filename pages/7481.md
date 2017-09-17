@@ -210,7 +210,7 @@ and in section B2.3 of
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
 
-In these references internal presheaves are introduced in components as in the [explicit definition](#ExplicitDefinition) above. The equivalence to the [abstract formulation](#InTermsOf2Sheaves) above, in terms of morphisms between 2-sheaves, follows for instance with ([Johnstone, lemma 2.3.13](#Johnstone)).
+In these references internal presheaves are introduced in components as in the [explicit definition](#ExplicitDefinition) above. The equivalence to the [abstract formulation](#InTermsOf2Sheaves) above, in terms of morphisms between 2-sheaves, follows for instance with ([Johnstone, lemma B.2.3.13](#Johnstone)).
 
 [[!redirects internal sheaves]]
 
