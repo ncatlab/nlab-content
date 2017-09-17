@@ -1,3 +1,36 @@
+
+# Null and full sets
+* table of contents
+{: toc}
+
+
+## Idea
+
+In [[measure theory]], a null set is a [[subset]] of a [[measure space]] (or [[measurable space]]) that is so small that it can be neglected: it might as well be the [[empty subset]]; its measure is [[zero]].  Similarly, a full set is a subset that is so large that it might as well be the [[improper subset]] (the entire space).
+
+Traditionally, full sets are not usually referred to explicitly; in [[classical mathematics]], they are simply the [[complements]] of null sets.  However, they are often referred to implicitly through such terminology as 'almost everywhere'.  Also, in [[constructive mathematics]], full sets are more fundamental than null sets; they are not simply the complements of the latter.
+
+
+## Definitions
+
+The definitions depend on the context.
+
+
+### In a measure space
+
+In a traditional [[measure space]], we have an abstract [[set]] $X$, a $\sigma$-[[sigma-algebra|algebra]] (or similar structure) $\mathcal{M}$ consisting of the [[measurable subsets]] of $X$, and a [[measure]] $\mu$ mapping each measurable set $A$ to a [[real number]] (or similar quantity) $\mu(A)$, the measure of $A$.
+
+A measurable subset $B$ of $X$ is __full__ if, given any measurable set $A$, $\mu(B \cap A) = \mu(A)$; an arbitrary subset of $X$ is __full__ if it\'s a [[superset]] of a full measurable set.  [[de Morgan duality|Dually]], a measurable set $B$ is __null__ if, given any measurable set $A$, $\mu(B \cup A) = \mu(A)$; an arbitrary subset of $X$ is __null__ if it\'s a [[subset]] of a null measurable set.
+
+Some equivalent characterisations:
+*  A measurable set $B$ is null iff $\mu(C) = 0$ for every measurable subset of $B$.
+*  If $\mu$ is a [[positive measure]], then a measurable set $B$ is null iff $\mu(B) = 0$.
+*  If $\mu$ is a [[finite measure]] with total measure $I$, then a measurable set $B$ is full iff $\mu(C) = I$ for every measurable superset of $B$.
+*  If $\mu$ is both positive and finite (so a [[probability measure]] up to rescaling), then a measurable set $B$ is full iff $\mu(B) = I$.
+
+...
+
+
 [[!redirects null set]]
 [[!redirects null sets]]
 [[!redirects null subset]]
