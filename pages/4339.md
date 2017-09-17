@@ -11,6 +11,9 @@ Examples include:
 *  The [[trivial ring]] is not a [[field]].
 *  The [[zero object]] is not a [[simple object]] (which is the trope-namer).
 *  The [[empty space]] is not a [[connected space]] (although one can argue about this, depending on the definition of "connected").
+   +-- {: .query}
+   Well yeah, that\'s the point, one can argue about *all* of these!
+   =--
 *  The [[improper ideal]] is not a [[maximal ideal]] or a [[prime ideal]].
 *  The [[improper filter]] is not an [[ultrafilter]].
 
