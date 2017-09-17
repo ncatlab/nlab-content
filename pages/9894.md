@@ -1,0 +1,6 @@
+
+* [webpage](http://www.cs.mcgill.ca/~patrick/)
+* [wikipedia entry](http://en.wikipedia.org/wiki/Patrick_Hayden_%28scientist%29)
+
+category: people
+
