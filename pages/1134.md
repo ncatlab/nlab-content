@@ -220,8 +220,6 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 ## Related concepts
 
-* [[NQ-supermanifold]]
-
 * [[integration over supermanifolds]]
 
 * [[super vector bundle]] 
@@ -229,6 +227,9 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 * [[superconnection]]
 
 * [[superdifferential form]]
+
+* [[NQ-supermanifold]]
+
 
 ## References
 
@@ -300,3 +301,5 @@ The site of formal duals not just to [[Grassmann algebra]]s but to all super-[[i
 There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra]]s rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]].  
 
 [[!redirects super manifold]]
+
+[[!redirects supermanifolds]]
