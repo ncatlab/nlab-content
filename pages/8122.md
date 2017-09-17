@@ -106,6 +106,23 @@ Actually, this would all be simpler if Propostion \ref{topbot} applied to *arbit
 
 Of course, any cross norm $\chi$ on $V$ and $W$ allows us to form the Banach space $V {\displaystyle\hat{\otimes}_\chi} W$, which may reasonably be called a __tensor product__ of $V$ and $W$; that\'s why we care.
 
+## Schmidt Decomposition
+
+The *Schmidt decomposition* is a way of expressing a pure state in the tensor product of two Hilbert spaces in terms of states of the two components:
+
++-- {: .num_theorem}
+###### Theorem [Nielsen and Chuang Theorem 2.7](#NielsenChuang)
+Let $A$ and $B$ be finite-dimensional Hilbert spaces.  Let $|\psi\rangle$ be a [[pure state]] of $A \otimes B$.  Then there exist [[orthonormal]] families $\{ |i_A \rangle \}_i$ in $A$ and $\{ |i_B \rangle \}_i$ in $B$, and non-negative real numbers $\lambda_i$, such that
+\[ |\psi\rangle = \sum_i \lambda_i |i_A \rangle \otimes |i_B\rangle \]
+and $\sum_i \lambda_i^2 = 1$.
+=--
+
+The numbers $\lambda_i$ are called the *Schmidt co-efficients* of $|\psi\rangle$, and the families $\{ |i_A\rangle \}$ and $\{ |i_B\rangle \}$ the *Schmidt bases* for $A$ and $B$.
+
++-- {: .num_defn}
+###### Definition
+The *Schmidt number* of $|\psi\rangle$ is the number of non-zero Schmidt coefficients of $|\psi\rangle$.
+=--
 
 ## Foundational issues
 
@@ -114,7 +131,9 @@ We need the [[Hahn–Banach theorem]] for $\epsilon$ to be a cross norm; but $\s
 
 ## References
 
-I got pretty much all of my facts from Wikipedia:
+* M. Nielsen and I. Chuang.  /Quantum Computation and Quantum Information/.  Cambridge University Press.  2000.  {#NielsenChuang}
+
+Many facts taken from Wikipedia:
 
 * [Topological tensor product](https://en.wikipedia.org/wiki/Topological_tensor_product) (which also discusses tensor products of [[locally convex spaces]]),
 * [Tensor product of Hilbert spaces](https://en.wikipedia.org/wiki/Tensor_product_of_Hilbert_spaces).
