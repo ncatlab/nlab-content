@@ -266,7 +266,13 @@ For more on this see
 
 ## References
 
-* Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics - 3A a functional integral point of view]] 
+A list of scripts and lecture notes is at
+
+* Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
+
+Some standard references include
+
+* Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics - a functional integral point of view]] 
 
 * Movshev's course has mathematically nice references: [link](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html); and [here](http://www.math.columbia.edu/~woit/qftnotes1.pdf) is a link to Woit's list of more physical tradition references. 
 
@@ -292,6 +298,8 @@ The generalization of this kind of discussion to [[quantum field theory]] is
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved backgrounds_ , in  [[Christian Bär]], [[Klaus Fredenhagen]], (eds.) _Quantum field theory on curved spacetime_ , Lecture notes in physics, Springer (2009)
   {#BrunettiFredenhagen}
+
+For more along these lines see the references at [[AQFT]].
 
 [[!redirects quantum physics]]
 [[!redirects quantum theory]]
