@@ -140,7 +140,7 @@ which is a [[contradiction]].
 
 A corollary of this result is an important result in its own right, the **normal basis heorem**. 
 
-(Will write this out later. I am puzzled that all the proofs I've so far looked at involve determinants. What happened to the battle cry, "Down with determinanats!"?) 
+(Will write this out later. I am puzzled that all the proofs I've so far looked at involve determinants. What happened to the battle cry, "Down with determinants!"?) 
 
 ## Related concepts
 
@@ -148,11 +148,12 @@ A corollary of this result is an important result in its own right, the **normal
 
 ## References
 
-(...)
+e.g.
+
+* [[Günter Tamme]], section II 4.3 of _[[Introduction to Étale Cohomology]]_
 
 
 [[!redirects Hilbert Theorem 90]]
 [[!redirects Hilbert theorem 90]]
 
 [[!redirects Hilbert's theorem 90]]
-
