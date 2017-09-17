@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[standard model of cosmology]], which involves an [[FRW model]] of [[spacetime]] on [[cosmology|cosmological scales]],is a solution to [[Einstein's equations]] which is undefined ("has a singularity") a finite time in the past of any co-moving observer. Since from that point on the model describes an expanding [[observable universe]] this singularity has -- originally jokingly and then the term stuck -- been called the "big bang".
+
+## Related concepts
+
+* [[cosmology]]
+
+* [[FRW model]]
+
+* [[standard model of cosmology]]
+
+* [[cosmic inflation]]
+
+* [[observable universe]]
+
