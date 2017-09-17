@@ -163,5 +163,5 @@ There is actually more information contained in the HTML source of the error mes
 category:meta
 
 +-- {: .query}
-What is the copying license for nlab content?  It would be great if there was a formal GFDL or CC-BY-SA license, so that people could transfer content between the nlab and Wikipedia.  Lots of useful cross-pollination could take place that way. 
+What is the copying license for nlab content?  It would be great if there was a formal GFDL [Virginia reckless driving](http://www.andrewflusche.com/) or CC-BY-SA license, so that people could transfer content between the nlab and Wikipedia.  Lots of useful cross-pollination could take place that way. 
 =--
