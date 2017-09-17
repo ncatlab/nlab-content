@@ -1,0 +1,24 @@
+[[!redirects Jocelyn Ireson-Paine]]
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://cseweb.ucsd.edu/~goguen/images/jgoguen.jpg" alt="Photo of Joseph Goguen" /></div>
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Contents### {: .clickToReveal}
+###Contents### {: .clickToHide tabindex="0"}
++--{: .hide}
+[[!include contents]]
+=--
+=--
+=--
+
+Computer scientist and applied category theorist, 28th June 1941 &ndash; 3rd July 2006. His theoretical work includes the algebraic theory of abstract data types, initial model semantics, institutions, order sorted algebra, parameterized programming, database integration, hidden algebra, [[sheaf semantics|sheaf semantics of interacting objects]], and algebraic semiotics. Very important to computer science was his r&ocirc;le in founding algebraic specification, including abstract data types, modules and module composition, and the OBJ language family. 
+
+## References ##
+
+[ Goguen's Web site at UCSD ]( http://cseweb.ucsd.edu/~goguen/ )
+
+[ Wikipedia entry for _Joseph Goguen_ ]( http://en.wikipedia.org/wiki/Joseph_Goguen )
+
+[ _In memoriam_ ]( http://homepage.mac.com/fiadeiroj/jose/IFIP-WG1.3/goguen.html ). By the [ IFIP Working Group WG1.3 on Foundations of System Specification ]( http://homepage.mac.com/fiadeiroj/jose/IFIP-WG1.3/index.html ).
+
+category: people
