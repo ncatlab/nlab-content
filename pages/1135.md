@@ -25,6 +25,9 @@ The axioms of a _semi-abelian_ category are supposed to capture the properties o
 _Toby_:  The category of unital rings and unitary ring homomorphisms has no zero object.
 
 [[Mike Shulman|Mike]]: Ah, right.  Is it protomodular?  I think I will understand this definition better from some non-examples that violate each clause individually.
+
+[[arsmath|walt]]: It is protomodular.  This follows from the main theorem of _Characterization of Protomodular Varieties of Universal Algebra_ by Bourn and Janelidze.  By that theorem any variety that contains a group will be protomodular.  Unital rings only fail to be semiabelian for the trivial reason that ideals aren't subrings.
+
 =--
 
 
@@ -143,7 +146,7 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * [[George Janelidze]], L&aacute;szl&oacute; M&aacute;rki, [[Walter Tholen]], _Semi-abelian categories_, J. Pure Appl. Alg. __168__, 2-3 (2002) 367-386, <a href="http://dx.doi.org/10.1016/S0022-4049(01)00103-7">doi</a>
 
-* [[Dominique Bourn], [[Francis Borceux]], [[Mal'cev, protomodular, homological and semi-abelian categories]], Kluwer 2004.
+* [[Dominique Bourn]], [[Francis Borceux]], [[Mal'cev, protomodular, homological and semi-abelian categories]], Kluwer 2004.
 
 * Tim Van der Linden, _Homology and homotopy in semi-abelian categories_, [math/0607100](http://arxiv.org/abs/math/0607100).
 
