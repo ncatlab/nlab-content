@@ -21,7 +21,7 @@ A **symplectomorphism** from a [[symplectic manifold]] $(M,\omega)$ to a symplec
 
 ### Auto-symplectomorphisms
 
-The symplectomorphisms from a [[symplectic manifold]] $(X, \omega)$ to itself form an infinite-dimensional [[Lie group]]. Its [[Lie algebra]] is that of [[symplectic vector fields]]: those vector fields $v \Gamma(T X)$ such that their [[Lie derivative]] preserves the [[symplectic form]]
+The symplectomorphisms from a [[symplectic manifold]] $(X, \omega)$ to itself form an infinite-dimensional [[Lie group]], the _[[symplectomorphism group]]_. Its [[Lie algebra]] is that of [[symplectic vector fields]]: those vector fields $v \Gamma(T X)$ such that their [[Lie derivative]] preserves the [[symplectic form]]
 
 $$
   \mathcal{L}_v \omega = 0
