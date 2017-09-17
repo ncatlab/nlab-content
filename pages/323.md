@@ -89,11 +89,11 @@ $$
 
 there is a unique function $h: Y \to X$ such that 
 
-$$ q_A h = p_A $$
+$$ p_A h = q_A $$
 
 and
 
-$$ q_B h = p_B .$$
+$$ p_B h = q_B .$$
 
 Since this universal property expresses the concept of pullback purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[limit]].
 
