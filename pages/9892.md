@@ -79,7 +79,7 @@ Other contributions to the issue include the following
 
 * Samir D. Mathur, David Turton, Comments on black holes I: The possibility of complementarity 2012, [arXiv:1208.2005](http://arxiv.org/abs/1208.2005)
 
-* Samir D. Mathur, The information paradox: A pedagogical introduction 2009, [arXiv:0909.1038](http://arxiv.org/abs/arXiv:0909.1038])
+* Samir D. Mathur, The information paradox: A pedagogical introduction 2009, [arXiv:0909.1038](http://arxiv.org/abs/arXiv:0909.1038)
 
 [[!redirects Firewall problem]]
 [[!redirects firewall problem]]
