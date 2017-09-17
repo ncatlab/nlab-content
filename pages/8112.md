@@ -1,4 +1,18 @@
 
-* related entries: [[modular form]], [[topological automorphic form]]
+## Related entries
+
+* [[modular form]], [[topological automorphic form]]
+
+* [[Langlands duality]]
+
+## References
+
 * Nolan Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
 [[!redirects automorphic forms]]
+
+The relatin between [[string theory]] on [[Riemann surfaces]] and automorphic forms was first highlighted in
+
+* {#Witten88} [[Edward Witten]], _Quantum field theory, Grassmannians, and algebraic curves_, Comm. Math. Phys. Volume 113, Number 4 (1988), 529-700 ([Euclid](http://projecteuclid.org/euclid.cmp/1104160350))
+
+[[!redirects automorphic forms]]
+
