@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc} 
 
 ## Definition
@@ -23,12 +23,15 @@ A **[[split epimorphism]]** is a morphism that *has* a section; a **[[split mono
 
 ## Sections of bundles and sheaves
 
-If one thinks of $f : A \to B$ as a [[bundle]] then its sections are sometimes called [[global section]]s. This leads to a notion of global sections of [[sheaves]] and further of objects in a general [[topos]]. See 
+If one thinks of $f : A \to B$ as a [[bundle]] then its sections are sometimes called [[global sections]]. This leads to a notion of global sections of [[sheaves]] and further of objects in a general [[topos]]. See 
 
 * [[global section]]
 
 for more on this.
 
+## Related concepts
+
+* [[flat section]]
 
 [[!redirects sections]]
 [[!redirects cross section]]
