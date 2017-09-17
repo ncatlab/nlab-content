@@ -423,3 +423,5 @@ Secton 2.4.7 of
 
 [[!redirects codomain opfibration]]
 [[!redirects codomain opfibrations]]
+[[!redirects self-indexing]]
+[[!redirects self-indexing of a category]]
