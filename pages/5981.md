@@ -9,18 +9,32 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-### In categorical semantics
+In [[logic]], a variable is a symbol that stands for an arbitrary instantiation of some given [[type]] (although in single-typed theories the type is trivial).  Thus, every variable of type $T$ is a [[term]] of type $T$ (although typically there are other terms).
+
+Logicians have developed several ways to precisely specify what variables are and how to keep track of them, and the only thing more annoyingly pedantic than learning one of these is translating between different ones.
+
+
+## Free and bound variables
+
+If we keep track of [[context]], every introduction of a variable changes the context.  Thus, whatever [[terms]] of [[type]] $T$ there may (or may not) be in a given context $\Gamma$, in the context $(\Gamma, x\colon T)$ ---which is $\Gamma$ extended by a __free variable__ $x$ of type $T$--- there is (at least) one more term of type $T$, and that term is $x$ itself.
+
+Conversely, we may be able to take a term $a$ in the context $(\Gamma, x\colon T)$ and apply some operation $f$ to it to create a term $f(a)$ (possibly of a different type) in the context $\Gamma$; then any appearances of the variable $x$ in the term $a$ have become __bound variables__ in the term $f(a)$.  That is, the appearances of $x$ are bound by the operator $f$, and $x$ has no meaning outside of its scope.
+
+So for example, if (say in something simple like [[Peano arithmetic]], supplemented with the abbreviations used in practice) I write $2x$, this is a term (for a natural number) in a context with a free variable $x$, whereas if I write $3 \sum_{x=0}^4 2x + 5$, this is a term (also for a natural number) in a context with no free variables; here, $x$ is bound.  The variable $x$ has a meaning after the operator $\sum_{x=0}^4$ (whose notation also specifies the variable that will have a meaning inside it) and before the plus sign (which, following the standard order of operations, marks the end of the scope of $\sum_{x=0}^4$) but has no meaning outside of that (where the $3$ and $5$ are, or even where the $0$ and $4$ are).  And indeed, the ultimate meaning of $2x$ depends on what $x$ is, but the ultimate meaning of $3 \sum_{x=0}^4 2x + 5$ is simply $65$.
+
+
+## In categorical semantics
 
 In the [[internal language]] of a [[category]] $\mathcal{C}$ a [[morphism]]
 
 $$
-  f : B \to A
+  f\colon B \to A
 $$
 
 
@@ -50,7 +64,7 @@ $$
   \,.
 $$
 
-A free variable becomes a **bound variabl** after application of a [[quantifier]]: for instance the image of $f : P \to X$ under [[base change]]
+A free variable becomes a **bound variable** after application of a [[quantifier]]: for instance the image of $f\colon P \to X$ under [[base change]]
 
 $$
   \mathcal{C}_{/A} \stackrel{\to}{\stackrel{\leftarrow}{\to}}
@@ -60,18 +74,19 @@ $$
 represents, for the [[left adjoint]] the [[type]] 
 
 $$
-  \exists x : X , P(x)
+  \exists x\colon X , P(x)
 $$
 
 ([[existential quantifier]]), and the the [[right adjoint]] the type
 
 $$
-  \forall x : X , P(x)
+  \forall x\colon X , P(x)
 $$
 
 ([[universal quantifier]]) in which now $x$ is a _bound variable_.
 
 
+[[!redirects variable]]
 [[!redirects variables]]
 
 [[!redirects free variable]]
@@ -79,4 +94,3 @@ $$
 
 [[!redirects bound variable]]
 [[!redirects bound variables]]
-
