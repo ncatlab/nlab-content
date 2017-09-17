@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In [[quantum physics]] the _no-cloing theorem_ is the statement that one cannot produce two copies of an arbitrary given [[quantum state]].
+
+Formally, when quantum physics is axiomatized by [[quantum logic]] in the guise of [[linear logic]]/[[linear type theory]], this is the very "linearity" of this logic, the absence of a [[diagonal]] map in the [[categorical semantics]] given by non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal categories]].
+
+## References
+
+* Wikipedia, _[No-cloning theorem](http://en.wikipedia.org/wiki/No-cloning_theorem)_
