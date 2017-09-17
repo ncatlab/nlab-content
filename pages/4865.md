@@ -28,6 +28,29 @@ $N=1$ [[supergravity]] in $d = 11$.
 
 > for the moment see the respective section at [[D'Auria-Fre formulation of supergravity]]
 
+## The action functional
+
+(...)
+
+### Kinetic terms
+
+(...)
+
+### The higher Chern-Simons terms
+
+$$
+  \frac{1}{6} 
+  \left(
+    C \wedge G \wedge G
+    -
+    C \wedge
+    \frac{1}{8}
+    \left(
+      p_2 + \frac{1}{4}p_1^2 
+    \right)
+  \right)
+$$
+
 ## Related concepts
 
 * [[supergravity]]
