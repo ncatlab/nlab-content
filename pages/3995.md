@@ -13,3 +13,6 @@ The term **signature** refers to a number of quite different notions in mathemat
 * etc....
 
 [[!redirects signature (disambiguation)]]
+
+
+category: disambiguation
