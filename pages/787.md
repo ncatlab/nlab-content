@@ -240,9 +240,7 @@ hence an embedding of the [[quantomorphism n-group]] into the $n$-[[group of bis
 
 ## Related concepts
 
-* [[higher Courant Lie algebroid]]
-
-  * [[higher Courant groupoid]]
+[[!include higher Atiyah groupoid - table]]
 
 * [[symplectic Lie n-algebroid]]
 
