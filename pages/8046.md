@@ -1,17 +1,17 @@
-In this exposition we will follow the book listed below in writing crossed modules with operations on the right. Thus a [[crossed module]] is in the first instance a morphism $\mu: M \to  P$ of groups together with an operation the group $P$ on the right of the group $M$ written $(m,p) \mapsto
+In this exposition we will follow the book listed below in writing crossed modules with operations on the right. Thus a [[crossed module]] is in the first instance a morphism $\mu: M \to  P$ of groups together with an operation of the group $P$ on the right of the group $M$ written $(m,p) \mapsto
 m^p$, satisfying the following two axioms:  
 
 CM1) $ \mu (m^p)= p(\mu m)p^{-1}$; 
 
-CM2) $mnm^{-1} = n^{\mu m} $; 
+CM2) $ mnm^{-1} = n^{\mu m} $; 
 
 for all $m,n \in M, p \in P$. 
 
 
 The notion of _free crossed module_ was developed by J.H.C. Whitehead in the period 1941-1949 to model algebraically the structure of the second relative homotopy group  of an adjunction space 
-$\pi_2(A \cup \{e^2_\lambda\}_{\lambda \in \Lambda},A,x)$ considered as a crossed module over $\pi_1(A,x)$. 
+$\pi_2(A \cup \{e^2_\lambda\}_{\lambda \in \Lambda},A,x)$ considered as a crossed module over $\pi_1(A,x)$. This work is also related to independent work of Peiffer and Reidemeister on Identities among relations. 
 
-It can also be considered as arising from the notion of a resolution for a group, by analogy with resolutions for modules, but in a nonabelian framework. So in combinatorial group theory we consider a presentation $\cal P= \langle X \mid R \rangle$ of a group $G$. Thus $X$ is a set of generators of the group $G$ and $R$ is a set of relators, that is, $R$ is a subset of $F(X)$, the free group on the set $X$. So we have an  epimorphism $\phi: F(X) \to G$ with kernel $N$, say, a normal subgroup of $F(X)$, and $N$ is the normal closure of $R$ in $F(X)$. All this reflect the fact that if $\phi (u) =1$, where $u \in F(X)$, then 
+It can also be considered as arising from the notion of a resolution for a group, by analogy with resolutions for modules, but in a nonabelian framework. So in combinatorial group theory we consider a presentation $ \langle X \mid R \rangle $ of a group $G$. Thus $X$ is a set of generators of the group $G$ and $R$ is a set of relators, that is, $R$ is a subset of $F(X)$, the free group on the set $X$. So we have an  epimorphism $\phi: F(X) \to G$ with kernel $N$, say, a normal subgroup of $F(X)$, and $N$ is the normal closure of $R$ in $F(X)$. All this reflect the fact that if $\phi (u) =1$, where $u \in F(X)$, then 
 $\phi (pup^{-1} ) = 1$ for all $p \in F(X)$. 
 
 Let  $P=F(X)$, and write $\langle R\rangle^P$ for the normal closure of the set $R$ in $P$. The elements of $\langle R\rangle^P$ are all _consequences_ of
