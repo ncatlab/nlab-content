@@ -20,9 +20,13 @@ Let $X$ be a [[differentiable manifold]] (or similar sort of space), and let $p$
 
 +-- {: .num_defn}
 ###### Definition
+
 An __absolute $p$-form__ $\omega$ on $X$ is a function that assigns a scalar $\omega_c(v_1,\ldots,v_p)$ to a point $c$ in $X$ and a $p$-[[tuple]] $(v_1,\ldots,v_p)$ of [[tangent vectors]] at $S$ that satisfies the following conditions:
+
 1.  Fixing $c$, $\omega_c({-})$ shall be [[uniformly continuous map|continuous]].
+
 2.  The $p$-tuple $(v_1,\ldots,v_n)$ shall be [[linearly independent subset|linearly independent]] if $\omega_c(v_1,\ldots,v_p) \ne 0$ (so although $\omega_c$ is not linear, we may still call it [[alternating form|alternating]]).
+
 3.  Fix a $p$-dimensional subspace $S$ of the tangent space at $c$ and an orientation $o$ of $S$.  Now given a linearly independent $p$-tuple $(v_1,\ldots,v_p)$ from $S$ (that is a [[basis]] of $S$), let $\omega_c(v_1,\ldots,v_p)_S^o$ be $\pm\omega_c(v_1,\ldots,v_p)$ according to whether the orientation of $S$ induced by the $v_i$ matches $o$, and extend this by continuity to all $p$-tuples from $S$ (which must be unique and exists by 1&2).  The resulting function $\omega_c({-})_S^o$ shall be [[multilinear form|multilinear]] (and so also alternating, by 2).
 =--
 
@@ -40,9 +44,11 @@ Given an absolute $p$-form $\omega$, its __[[absolute value]]__ ${|\omega|}$ is 
 $$ {|\omega|}_c(v_1,\ldots,v_n) \coloneqq {|\omega_c(v_1,\ldots,v_n)|} .$$
 If we start with a $p$-form $\omega$, then the same definition defines a positive absolute $p$-form ${|\omega|}$.  If we start with a $p$-pseudoform $\omega$, then essentially the same definition still works; we use either orientation to evalute $\omega$ with the same result.  Note that ${|\omega|}$ is continuous if $\omega$ is.  However, we may *not* conclude that ${|\omega|}$ is differentiable even if $\omega$ is smooth.  On the other hand, ${|\omega|}$ inherits differentiability properties from $\omega$ wherever $\omega \ne 0$.  (Even then, however, we cannot inherit analyticity.)
 
-Given an absolute $p$-form $\omega$ and a $0$-form (a scalar field) $f$, their __product__ $f \omega$ is an absolute $p$-form.  We define $f\omega$ as follows:
+Given two absolute $p$-forms $\omega$ and $\eta$, their __sum__ $\omega + \eta$ is an absolute $p$-form:
+$$ (\omega + \eta)_c(v_1,\ldots,v_p) \coloneqq \omega_c(v_1,\ldots,v_p) + \eta_c(v_1,\ldots,v_p) .$$
+Given an absolute $p$-form $\omega$ and a scalar field $f$, their __product__ $f \omega$ is an absolute $p$-form:
 $$ (f \omega)_c(v_1,\ldots,v_n) \coloneqq f(c) \omega_c(v_1,\ldots,v_n) .$$
-For the moment, we decline to define products of absolute forms of aribtrary rank.
+In this way, the space of absolute $p$-forms is a [[module]] over the [[associative algebra|algebra]] of scalar fields.  For the moment, we decline to define products of absolute forms of aribtrary rank.
 
 Given an absolute $p$-form $\omega$ on $X$, a manifold $U$, and a [[continuously differentiable map]] $R\colon U \to X$, the __pullback__ $R^*\omega$ is an absolute $p$-form on $U$:
 $$ (R^*\omega)_c(v_1,\ldots,v_n) \coloneqq \omega_{R(c)}(R_*v_1,\ldots,R_*v_n) .$$
@@ -61,11 +67,11 @@ Examples of absolute forms from classical differential geometry include:
 
 *  Absolute $n$-forms on an $n$-[[dimensional]] manifold are the same as $n$-pseudoforms (and hence the same as [[absolutely continuous measure|absolutely continuous]] [[Radon measures]]).
 
-*  In [[complex analysis]], ${|\mathrm{d}z|}$ is an absolute $1$-form sometimes used in [[contour integration]].
+*  In [[complex analysis]], ${|\mathrm{d}z|}$ is an absolute $1$-form sometimes used in [[contour integration]].  This literally is the absolute value of the differential of the identity map $z$.
 
-*  The [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\mathbf{x}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Neither $\mathrm{d}s$ nor $\mathrm{d}\mathbf{x}$ (in general) is actually the differential of anything, but $\mathrm{d}\mathbf{x}$ is the canonical [[tangent vector|vector]]-valued $1$-form (which, on a [[Cartesian space]], really is the differential of the [[identity map]] $\mathbf{x}$), and we really can use the metric to take the magnitude of such a form to get an absolute $1$-form.
+*  More generally, the [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\mathbf{x}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Neither $\mathrm{d}s$ nor $\mathrm{d}\mathbf{x}$ (in general) is actually the differential of anything, but $\mathrm{d}\mathbf{x}$ is the canonical [[tangent vector|vector]]-valued $1$-form (which, on a [[Cartesian space]], really is the differential of the [[identity map]] $\mathbf{x}$), and we really can use the metric to take the norm of such a form to get an absolute $1$-form.
 
-*  Similarly, the [[surface area]] element on a Riemannian manifold is an absolute $2$-form (and we can continue into higher dimensions, although the classical [[volume element]] in $\mathbb{R}^3$ is already covered as a $3$-pseudoform).
+*  Similarly, the [[surface area]] element on a Riemannian manifold is an absolute $2$-form, and we can continue into higher dimensions (although the classical [[volume element]] in $\mathbb{R}^3$ is already covered as a $3$-pseudoform).
 
 
 ## References
