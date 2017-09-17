@@ -181,3 +181,4 @@ Analogous results for [[Lorentzian manifold]]s are discussed in
 
 
 [[!redirects injectivity radius]]
+[[!redirects convexity radius]]
