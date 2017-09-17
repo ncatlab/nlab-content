@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
 # Exactness properties
 * table of contents
 {: toc}
@@ -18,7 +32,7 @@ Exactness properties of a functor refer to preservation of limits or colimits of
   * An [[exact category]] has [[quotient object|quotients]] of [[congruences]] that are stable under pullback.
   * A [[coherent category]] is regular and has finite [[unions]] of [[subobjects]] that are stable under pullback.
   * A [[pretopos]] is coherent and also extensive (see below).
-  * A [[Grothendieck topos]] is an infinitary-pretopos that also has a [[generating set]].  Toposes play a universal role for lex colimits; see Garner-Lack.
+  * A [[Grothendieck topos]] is an infinitary-pretopos that also has a [[generating set]].  Toposes play a universal role for lex colimits; see [Garner-Lack](#GarnerLack).
 
 * An [[extensive category]] has [[coproducts]] that are disjoint and stable under pullback.
 
@@ -36,7 +50,8 @@ Exactness properties of a functor refer to preservation of limits or colimits of
 
 ## References
 
-* [[Richard Garner]] and [[Steve Lack]], *Lex colimits* ([arXiv](http://arxiv.org/abs/1107.0778))
+* [[Richard Garner]] and [[Steve Lack]], *Lex colimits* ([arXiv:1107.0778](http://arxiv.org/abs/1107.0778))
+ {#GarnerLack}
 
 [[!redirects exactness properties]]
 [[!redirects exactness properties of categories]]
