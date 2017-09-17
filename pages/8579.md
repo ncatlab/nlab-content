@@ -1,14 +1,15 @@
 
-In [[dependent type theory]], a _dependent term_ is a [[term]] 
+In [[type theory]], a _term in context_ is a [[term]] such as
 
 $$
   a \colon A \; \vdash \; b(a) \colon B(a)
 $$
 
-of a [[dependent type]]
+which may involve free variables from some [[context]] (here, $a:A$).  In [[dependent type theory]], the [[type]] of a term in context may also depend on the same context, such as
 
 $$
   a \colon A \;\vdash \; B(a) \colon Type
   \,.
 $$
 
+[[!redirects terms in context]]
