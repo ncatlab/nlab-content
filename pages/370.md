@@ -56,8 +56,8 @@ Quasi-isomorphisms are also called, more descriptively, **homology isomorphisms*
 ### Relation to chain homology type
  {#RelationToChainHomologyType}
 
-+-- {: .num_defn #ReflexiveAndTransitiveButNotSymmetric}
-###### Definition
++-- {: .num_prop #ReflexiveAndTransitiveButNotSymmetric}
+###### Proposition
 
 The [[relation]] "There exists a quasi-isomorphism from $C_\bullet$ to $D_\bullet$." is a [[reflexive relation|reflexive]] and [[transitive relation]], but it is not a [[symmetric relation]].
 
