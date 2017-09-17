@@ -36,3 +36,5 @@ See [[E-∞ algebra]]
 
 [[!redirects E2-algebra]]
 [[!redirects E2-algebras]]
+
+[[!redirects Ek-algebra]]
