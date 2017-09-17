@@ -1,8 +1,25 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-***
+=--
+#### Differential-graded objects
++--{: .hide}
 [[!include differential graded objects - contents]]
-</div>
+=--
+=--
+=--
+
+* [[crossed complex]] $\Leftarrow$ [[crossed module]] $\Rightarrow$ [[2-crossed module]]
+
+* **dg-Lie algebra** $\Leftarrow$ [[differential crossed module]] $\Rightarrow$ [[differential 2-crossed module]]
+
+
+
 
 
 #Contents#
