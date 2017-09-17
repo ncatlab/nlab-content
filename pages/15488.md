@@ -1,3 +1,3 @@
-Horrified zoo keepers at the Shendiaoshan Wild Animal Natural Reserve Area, in Rongcheng, Shandong, China, intervened and immediately took newborn calf elephant Zhuangzhuang away from his mother. They went to treat his injuries, and two hours later, thinking that what transpired earlier between the mother and elephant son could have been just an accident, returned the little calf elephant to his mother.
- <a href="http://www.curoindia.com/Coachhandbagcharming.asp?charming=Holiday-c-89.html" >Holiday</a>
-[url=http://www.curoindia.com/Coachhandbagcharming.asp?charming=Holiday-c-89.html]Holiday[/url]
+The top ten U.S. power utilities by demand side management investment, as rated by Zpryme, are:
+ <a href="http://www.artifexassociates.com/Coachhandbagcharming.asp?charming=Poppy-c-65.html" >Poppy</a>
+[url=http://www.artifexassociates.com/Coachhandbagcharming.asp?charming=Poppy-c-65.html]Poppy[/url]
