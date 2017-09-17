@@ -1,7 +1,7 @@
 Larry Siebenmann is a Canadian born mathematician who is based at Orsay (Paris sud). He is best known for his work in geometric topology. 
 
 
-* [English Wikipedia poage](http://en.wikipedia.org/wiki/Laurent_C._Siebenmann)
+* [English Wikipedia page](http://en.wikipedia.org/wiki/Laurent_C._Siebenmann)
 
 * [Equipe de Topologie et Dynamique (Orsay)](http://www.math.u-psud.fr/topodyn/accueil.php)
 
