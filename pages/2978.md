@@ -84,8 +84,12 @@ Every precompact uniform space is totally bounded; using Definition \ref{slick},
 [[!redirects totally bounded spaces]]
 [[!redirects totally bounded metric space]]
 [[!redirects totally bounded metric spaces]]
+[[!redirects totally bounded gauge space]]
+[[!redirects totally bounded gauge spaces]]
 [[!redirects totally bounded uniform space]]
 [[!redirects totally bounded uniform spaces]]
+[[!redirects totally bounded uniformity]]
+[[!redirects totally bounded uniformities]]
 
 [[!redirects precompact space]]
 [[!redirects precompact spaces]]
