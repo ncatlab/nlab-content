@@ -39,9 +39,11 @@ commutes.
 
 One may also say that $W$ is a **right Ore system** in $C$ (although this is potentially confusing since the Ore condition is only part of the definition), or that $(C,W)$ **admits a category of right fractions**.  If $(C^{op}, W^{op})$ admits a calculus of right fractions, we say that $(C,W)$ admits a **calculus of left fractions**.  Unfortunately there is no uniformity regarding the choice of 'left' versus 'right;' some authors use 'left' where we use 'right' and vice versa.
 
+### Additional conditions
+
 It is common to assume additional closure conditions on $W$ which make no difference to the localization.  For example, one often assumes that $W$ contains all isomorphisms in $C$.  One can also assume the [[2-out-of-3 property]] (so that $(C,W)$ is a [[category with weak equivalences]]) or the stronger [[2-out-of-6 property]] (so that $(C,W)$ is a [[homotopical category]]).  Note that the 2-out-of-3 property includes closure under composition, and the 2-out-of-6 property together with containment of all identities implies containment of all isomorphisms.
 
-In the presence of either sort of calculus of fractions, the 2-out-of-6 property is equivalent to _saturation_ of $W$, i.e. that any morphism in $C$ which becomes an isomorphism in $C[W^{-1}]$ is already in $W$.  Therefore, in this case we may equivalently call $(C,W)$ _saturated_.  See 7.1.20 of [[Categories and Sheaves]], in which a pair $(C,W)$ admitting a calculus of left fractions is called a _right multiplicative system_. 
+In the presence of either sort of calculus of fractions, the 2-out-of-6 property is equivalent to _saturation_ of $W$, i.e. that any morphism in $C$ which becomes an isomorphism in $C[W^{-1}]$ is already in $W$.  Therefore, in this case we may equivalently call $(C,W)$ _saturated_.  See [[2-out-of-6 property]] for a proof, taken from 7.1.20 of [[Categories and Sheaves]] (where a pair $(C,W)$ admitting a calculus of left fractions is called a _right multiplicative system_). 
 
 
 ## Construction of the localization ##
