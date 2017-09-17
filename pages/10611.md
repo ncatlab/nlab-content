@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -11,6 +25,9 @@ Formalized as an [[idempotent monad]]/[[comonad]]. Also _[[closure operator]]_, 
 
 Gives the name to _[[modal logic]]_, _[[modal type theory]]_.
 
+## Related concepts
+
+* [[adjoint modality]]
 
 ## References
 
