@@ -2841,6 +2841,7 @@ $$
 (...)
 
 ## **Smooth manifolds**
+ {#SmoothManifolds}
 
 ### Layer Mod
 
