@@ -197,6 +197,8 @@ Explicit models of $E_\infty$-operads include
 
 * [[L-∞ operad]]
 
+* [[factorization algebra]]
+
 
 ## References
 
