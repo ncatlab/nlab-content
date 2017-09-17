@@ -117,9 +117,9 @@ If possible, use or modify the counterexample to isomorphism to show how choice 
 
 ### Weak equivalence {#WeakEquivalence}
 
-Two strict categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ and strict functors $F\colon X \to D$ and $G\colon X \to C$ that are [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  In this case, we say that $F$ is a __weak equivalence__ from $X$ to $D$ (so $G$ is an equivalence from $X$ to $C$) and call the [[span]] $(X,F,G)$ a __weak equivalence__ between $C$ and $D$.
+Two categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ and functors $F\colon X \to D$ and $G\colon X \to C$ that are [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  In this case, we say that $F$ is a __weak equivalence__ from $X$ to $D$ (so $G$ is a weak equivalence from $X$ to $C$) and call the [[span]] $(X,F,G)$ a __weak equivalence__ between $C$ and $D$.  (It is not entirely trivial to check that such spans can be composed, but they can be.)
 
-A functor with a weak inverse is necessarily essentially surjective and fully faithful; the converse is equivalent to the axiom of choice.  Thus any strong equivalence becomes a weak equivalence in which $X$ is taken to be either $C$ or $D$ (or even built symmetrically out of $C$ and $D$ if you\'re so inclined); a weak equivalence becomes a strong equivalence using the axiom of choice to find weak inverses and composing across $X$.
+A strict functor with a weak inverse is necessarily essentially surjective and fully faithful; the converse is equivalent to the axiom of choice.  Thus any strong equivalence becomes a weak equivalence in which $X$ is taken to be either $C$ or $D$ (or even built symmetrically out of $C$ and $D$ if you\'re so inclined); a weak equivalence becomes a strong equivalence using the axiom of choice to find weak inverses and composing across $X$.
 
 If you think of $Cat$ as the model category of categories and functors with the [[canonical model structure]], then this is the usual notion of [[weak equivalence]] in a model category.
 
@@ -132,7 +132,7 @@ Any strict functor is an anafunctor, so any strong equivalence is an anaequivale
 
 If you think of $Cat$ as the [[bicategory]] of categories, anafunctors, and [[ananatural transformation]]s, then this is the usual notion of [[equivalence]] in a $2$-category.  It\'s fairly straightforward to turn any discussion of functors and strong equivalences in a context where the axiom of choice is assumed into a discussion of anafunctors and anaequivalences in a more general context.
 
-We can also regard the $2$-category $Cat$ above as obtained from the $2$-category $Str Cat$ of categories, functors, and natural transformations using [[homotopy theory]] by "formally inverting" the weak equivalences.
+We can also regard the $2$-category $Cat$ above as obtained from the $2$-category $Str Cat$ of strict categories, strict functors, and natural transformations by formally inverting the weak equivalences as in [[homotopy theory]].
 
 
 ### Remarks
@@ -169,9 +169,9 @@ In particular, one expects (although a proof depends on the exact definition and
 
 If we use too strict a notion of $n$-functor, then we will not get the correct notion of equivalence; if we use weak $n$-functors but not anafunctors, then we will get the correct notion of equivalence only if the axiom of choice holds, although again this can be corrected by moving to a span.  Note that even strict $n$-categories need weak $n$-functors to get the correct notion of equivalence between them!
 
-For example, assuming choice, a [[strict 2-functor]] between strict $2$-categories is an equivalence in $Bicat$ if and only if it is essentially (up to equivalence) surjective on objects, locally essentially surjective, and [[locally fully faithful 2-functor|locally fully faithful]]. However, its weak inverse may not be a _strict_ $2$-functor and the equivalence transformations need not be strictly 2-natural.  Thus, it need not be an equivalence in the [[strict 3-category]] $Str 2 Cat$ of 2-categories, strict 2-functors, and strict 2-natural transformations, or even in the [[semi-strict 3-category]] $Gray$ of strict 2-categories, strict 2-functors, and pseudonatural transformations.
+For example, assuming choice, a [[strict 2-functor]] between strict $2$-categories is an equivalence in $Bicat$ if and only if it is essentially (up to equivalence) surjective on objects, locally essentially surjective, and [[locally fully faithful 2-functor|locally fully faithful]]. However, its weak inverse may not be a _strict_ $2$-functor, and even if it is, the equivalence transformations need not be strictly $2$-natural.  Thus, it need not be an equivalence in the [[strict 3-category]] $Str 2 Cat$ of $2$-categories, strict $2$-functors, and strict $2$-natural transformations, or even in the [[semi-strict 3-category]] $Gray$ of strict $2$-categories, strict $2$-functors, and pseudonatural transformations.
 
-As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricategory]] of $Gray$ by formally inverting all such weak equivalences.  Note that even with the axiom of choice, $Bicat$ is *not* equivalent (as a tricategory) to $Gray$, even though by the coherence theorem for tricategories it is equivalent to *some* Gray-category; see [here](http://arxiv.org/abs/math/0612299).
+As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricategory]] of $Gray$ by formally inverting all such weak equivalences.  Note that even with the axiom of choice, $Bicat$ is *not* equivalent (as a tricategory) to $Gray$, even though by the coherence theorem for tricategories it is equivalent to *some* $Gray$-category; see [here](http://arxiv.org/abs/math/0612299).
 
 
 ## Related concepts
