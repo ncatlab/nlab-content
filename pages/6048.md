@@ -28,6 +28,10 @@ more confidence in the idea, by identifying the corresponding degrees
 of freedom in a special case.
 
 
+## Properties
+
+In some situations stacks of M2-branes are accurately described by [[ABJM theory]].
+
 ## Related concepts
 
 * [[string theory]]
