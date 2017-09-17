@@ -62,7 +62,14 @@ So far string field theory is defined in terms of an [[action functional]]. So, 
 
 ### The interaction terms
 
-The unrestricted [[configuration space]] of string field theory is the [[BRST complex]] of the closed ([[superstring|super]]-)[[string]]. We shall write $\mathfrak{g}$ for that. 
+The unrestricted [[configuration space]] of string field theory is the subcomplex of the [[BRST complex]] of the closed ([[superstring|super]]-)[[string]], regarded as a $\mathbb{N}$-[[graded vector space]] with respect to the ghost number grading, on those elements $\Psi$ that satisfy
+
+1. $(b_0 - \bar b_0) \Psi = 0$;
+
+1. $(L_0 - \bar L_0) \Psi = 0$ ("level matching condition"),
+
+
+We shall write $\mathfrak{g}$ for this graded vector space. See ([Markl, section 1](#Markl))
 
 This is equipped for each $k \in \mathbb{N}$ with a $k$-ary operation
 
@@ -79,12 +86,13 @@ $$
 
 These operations are graded-symmetric: for all $\{\Psi_j\}$ of homogeneous degree $deg \Psi_j$ and for all $0 \leq i \lt k$ we have
 
-$$
+\[
+  \label{GradedSymmetrykBracket}
   [\Psi_1 , \cdots, \Psi_i, \Psi_{i+1}, \cdots, \Psi_k]_k
   =
   (-1)^{(deg \Psi_i)(deg \Psi_{i+1})}
   [\Psi_1 , \cdots, \Psi_{i+1}, \Psi_{i}, \cdots, \Psi_k]_k .
-$$
+\]
 
 ([Zwiebach, (4.4)](#Zwiebach)).
 
@@ -94,41 +102,67 @@ $$
   \langle -,- \rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{C}
 $$
 
-coming from the [[Hilbert space]] inner product of string states. This satisfies for all $\Psi_1, \Psi_2$ of homogeneous degree the relation
+coming from the [[Hilbert space]] inner product of string states ([Zwiebach (2.60)](#Zwiebach)). This is non-degenerate on elements $\Psi$ which are annihilated by the [[BRST complex|ghost]] operator 
 
 $$
+  b_0^- := b_0 - \bar b_0
+$$
+
+in that for all $A \in \mathfrak{g}$ with  $b_0^- A = 0$ we have
+
+\[
+  \label{NonDegeneracyOfInnerProduct}
+  (\forall B \in \mathfrak{g} \,:\,
+  \langle A,B\rangle = 0)
+  \Rightarrow
+  A = 0  
+  \,.
+\]
+
+This is ([Zwiebach, (2.61)](#Zwiebach)).
+
+
+This satisfies for all $\Psi_1, \Psi_2$ of homogeneous degree the relation
+
+\[
+  \label{GradedSymmetryBilinearPairing}
   \langle \Psi_1 , \psi_2 \rangle
   = 
   (-1)^{(deg \Psi_1 + 1) (deg \Psi_2 + 1)}
   \langle \Psi_2, \Psi_1 \rangle
-$$
+\]
 
 ([Zwiebach, (2.50)](#Zwiebach)).
 
 
 From this one constructs the $(n+1)$-point functions
 
-$$
+\[
+  \label{CorrelationFunctions}
   \{ \Psi_0, \Psi_1, \cdots, \Psi_k \}
   :=
   \langle \Psi_0, [\Psi_1, \cdots, \Psi_k]_k \rangle
   \,.
-$$
+\]
 
 These are still graded-symmetric in all arguments: for all $\{\Psi_j\}$ of homogeneous degree $deg \Psi_j$ and all $0 \leq i \lt k$ we have
 
-$$
+\[
+  \label{GradedSymmetrykPointFunction}
   \{\Psi_0, \cdots, \Psi_i, \Psi_{i+1}, \cdots, \Psi_k\}
   = 
   (-1)^{(deg \Psi_i)(deg \Psi_{i+1})}
   \{\Psi_0, \cdots, \Psi_{i+1}, \Psi_{i}, \cdots, \Psi_k\}
   \,.
-$$
+\]
 
 ([Zwiebach, (4.36)](#Zwiebach)).
 
 
 ### The action functional
+
++-- {: .num_defn #LabelConfigurationSpace}
+###### Definition
 
 The proper [[configuration space]] of string field theory is the sub-complex of the [[BRST complex]] of the closed ([[superstring|super]]-)[[string]] on those elements $\Psi$ for which
 
@@ -138,11 +172,13 @@ The proper [[configuration space]] of string field theory is the sub-complex of 
 
 1. $\vert \Psi \rangle^\dagger = - (\langle \Psi \vert)$ ("reality");
 
-1. $\vert \Psi$ is Grassmann even (...define...)
+1. $\vert \Psi\rangle$ is Grassmann even (...define...)
 
-1. $ghostnumber \vert \Psi \rangle = 2$. 
+1. $ghostnumber \vert \Psi \rangle = 2$ (...define...)
 
-([Zwiebach, (3.9)](#Zwiebach))
+=--
+
+This is ([Zwiebach, (3.9)](#Zwiebach))
 
 
 The _[[action functional]]_ of closed string field theory is 
@@ -164,7 +200,7 @@ Since $[-]_1 = d_{BRST}$ is the [[BRST complex|BRST operator]] this starts out a
 $$
   S : \Psi 
   = 
-  \frac{1}{2}\langle \Psi d_{BRST} \Psi \rangle
+  \frac{1}{2}\langle \Psi , d_{BRST} \Psi \rangle
   + 
   \frac{1}{3} \langle \Psi, [\Psi, \Psi]_2\rangle
   + 
@@ -174,7 +210,137 @@ $$
 
 ### As an $\infty$-Chern-Simons theory
 
-One finds that $(\mathfrak{g}, \{[-,\cdots,-]_k\})$ is an [[L-infinity algebra]] (see the references [below](ReferencesHomotopyAlgebra)) equipped with an [[invariant polynomial]] $\langle -,-\rangle$. 
+The above action functional for closed string field theory turns out to have a general abstract meaning in [[higher category theory]]/[[homotopy theory]].
+
++-- {: .num_prop}
+###### Proposition
+
+The string [[BRST complex]] equipped with its $k$-ary interaction genus-0 interaction vertices  
+
+$$
+  (\mathfrak{g}, \{[-,\cdots,-]_k\})
+$$ 
+
+is an [[L-∞ algebra]].
+
+=--
+
+This is ([Zwiebach, (4.12)](#Zwiebach)). For more details on the $L_\infty$-structure see _[References -- Relation to L-∞- and A-∞-algebra](ReferencesHomotopyAlgebra))_ .
+
++-- {: .num_prop}
+###### Proposition
+
+The inner product $\langle -,-\rangle$ is a non-degenerate [[invariant polynomial]] on this $L_\infty$-algebra. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For simplicity of notation we discuss this as if $\mathfrak{g}$ were finite-dimensional. The argument for the infinite-dimensional case follows analogously.
+
+Let $\{t_a\}$ be a [[basis]] of $\mathfrak{g}$ with dual basis $\{t^a\}$. Then the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ is generated from the $\{t^a\}$ with [[differential]] given by
+
+$$
+  d_{CE(\mathfrak{g})} 
+   : 
+  t^a
+  \mapsto
+  -
+  \sum_{k = 1}^\infty
+  \frac{1}{k!} [t_{a_1}, \cdots, t_{a_k}]_k \,\,
+  t^{a_1} \wedge \cdots \wedge t^{a_k}
+  \,.
+$$
+
+The [[Weil algebra]] $W(\mathfrak{g})$ is similarly generated from $\{t^a, r^a\}$ with differential
+
+$$
+  d_{W(\mathfrak{g})} 
+   : 
+  t^a
+  \mapsto
+  -
+  \sum_{k = 1}^\infty
+  \frac{1}{k!} [t_{a_1}, \cdots, t_{a_k}] \,\,
+  t^{a_1} \wedge \cdots \wedge t^{a_k}
+  + r^a
+  \,.
+$$
+
+Write
+
+$$
+  P_{a b} := \langle t_a, t_b\rangle
+$$
+
+for the components of the bilinear pairing in this basis. By (eq:GradedSymmetryBilinearPairing) it follows that we can indeed regard
+
+$$
+  P_{a b} r^a \wedge r^b
+  \in W(\mathfrak{g})
+$$
+
+as an element in the [[Weil algebra]] (since $deg r^a = deg t^a + 1$).
+
+Therefore to see that this is an [[invariant polynomial]] it remains to check that it is $d_W$-closed. To see this, first introduce the notation
+
+$$
+  C_{a_0, \cdots, a_k} :=
+  \{t_{a_0}, \cdots, t_{a_k}\}
+$$
+
+for the components of the $(k+1)$-point function (eq:CorrelationFunctions). Then compute
+
+$$
+  \begin{aligned}
+     d_{W(\mathfrak{g})} P_{a b } r^a \wedge r^b
+     & = 
+     2 P_{a b} r^a \wedge 
+     \left(
+        \sum_{k = 1}^\infty
+        [t_{a_1}, \cdots, t_{a_k}]
+        \,
+        r^{a_1} \wedge t^{a_2}\wedge \cdots \wedge t^{a_k}
+     \right)
+     \\
+     & = 
+     2 \sum_{k = 1}^\infty
+     C_{a_0, a_1, \cdots, a_k}
+     \,
+     r^{a_0} \wedge r^{a_1} \wedge t^{a_2} \wedge \cdots \wedge t^{a_k}
+     \\
+     & = 
+     0
+  \end{aligned}
+  \,.
+$$
+
+Here the expressions vanish term-by-term due to the symmetry properties (eq:GradedSymmetrykPointFunction): by first switching the factors in the wedge product and then relabelling the indices we obtain
+
+$$
+  \begin{aligned}
+  C_{a_0,  a_1, \cdots, a_k} r^{a_0} \wedge r^{a_1}
+  &= 
+  (-1)^{(deg t_{a_0} + 1)(deg t_{a_1} + 1) + (deg t_{a_0})(deg t_{a_1})}
+  C_{a_0,  a_1, \cdots, a_k} r^{a_0} \wedge r^{a_1}
+  \\
+  & = 
+  (-1)^{deg t_{a_0}  + deg t_{a_1} + 1}
+  C_{a_0,  a_1, \cdots, a_k} r^{a_0} \wedge r^{a_1}
+  \\
+  & =
+  (-1)
+  C_{a_0,  a_1, \cdots, a_k} r^{a_0} \wedge r^{a_1}
+  \end{aligned}
+  \,,
+$$
+
+where in the last step we used the constraints on degrees given by def. \ref{LabelConfigurationSpace}.
+
+This shows that $\langle-,-\rangle$ is an invariant polynomial. The non-degeneracy is due to (eq:NonDegeneracyOfInnerProduct).
+
+=--
 
 From the discussion at [[Chern-Simons element]] in the section [Canonical Chern-Simons element](http://ncatlab.org/nlab/show/Chern-Simons+element#CanonicalChernSimonsElement) we have that the [[Lagrangian]] of the [[schreiber:infinity-Chern-Simons theory]] defined by the data $(\mathfrak{g}, \langle \rangle)$ is
 
@@ -233,6 +399,7 @@ Discussion of the mathematical aspects is in
 * [[Jim Stasheff]], _Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli space_ Talk given at the _Conference on Topics in Geometry and Physics_ (1992) ([arXiv:hep-th/9304061](http://arxiv.org/abs/hep-th/9304061))
 
 * [[Martin Markl]], _Loop Homotopy Algebras in Closed String Field Theory_ (1997) ([arXiv:hep-th/9711045](http://arxiv.org/abs/hep-th/9711045))
+ {#Markl}
 
 * [[Alessandro Tomasiello]], _A-infinity structure and superpotentials_ ([arXiv:hep-th/0107195](http://arxiv.org/abs/hep-th/0107195))
 
