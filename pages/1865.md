@@ -19,7 +19,7 @@ There are various different models that differ in the concrete realization of th
 
 This section discusses the model presented in
 
-* James Simon, Dennis Sullivan, _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
+* [[James Simon]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
 
 More details will eventually be at
 
@@ -29,6 +29,7 @@ More details will eventually be at
 
 In the Simons-Sullivan model cocycles in differential K-theory are represented by ordinary [[vector bundle]]s [[connection on a bundle|with connection]]. The crucial ingredient is that two connections on a vector bundle are taken to be the same representative of a differential K-cocycle if they are related by a [[concordance]] such that the corresponding [[Chern-Simons form]] is exact.
 
+### Details
 
 Let $V \to X$ be a complex [[vector bundle]] with [[connection on a bundle|connection]] $\nabla$ and [[curvature]] 2-form
 
@@ -108,7 +109,11 @@ Moreover...
 
 ## The Bunke-Schick model 
 
+### Idea
+
 [[Uli Bunke]] and [[Thomas Schick]] developed in a series of articles a differential-geometric cocycle model of differential K-theory where cocycles are given by smooth families of [[Dirac operator]]s.
+
+### References
 
 The basic article is
 
@@ -124,7 +129,7 @@ The [[equivariant cohomology]] version of this is in
 
 A construction of [[differential cobordism cohomology]] theory in terms of explicit geoimetric cocycles is in
 
-* [[Ulrich Bunke]], [[Thomas Schick]], [[Ingo Schroeder]], [[Moritz Wiethaup]] _Landweber exact formal group laws and smooth cohomology theories_ ([arXiv:0711.1134](http://arxiv.org/abs/0711.1134))
+* [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schroeder, Moritz Wiethaup _Landweber exact formal group laws and smooth cohomology theories_ ([arXiv:0711.1134](http://arxiv.org/abs/0711.1134))
 
 By tensoring this with the suitable ring, this also gives a model for differential K-theory, as well as for [[differential elliptic cohomology]].
 
