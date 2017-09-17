@@ -119,6 +119,12 @@ $$
 =--
 
 
+### Thom spaces
+
+For $X$ a [[compact topological space]] and $V \to X$
+a [[vector bundle]], then the ([[homotopy type]] of the) one-point compactification of 
+the total space $V$ is the [[Thom space]] of $V$, equivalent to $D(V)/S(V)$.
+
 ## Related concepts
 
 * [[Thom space]]
