@@ -108,7 +108,7 @@ Notice well the two assumptions that were made to make this argument work:
 
 ## Examples
 
-* [[moduli space of complex structures]]
+* [[moduli space of complex structures]], [[moduli space of conformal structures]]
 
 * [[moduli space of Riemannian metrics]]
 
