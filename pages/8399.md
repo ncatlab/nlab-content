@@ -35,7 +35,52 @@ The idea of general covariance has a long and convoluted history and the literat
 ## Formalization on homotopy type theory
  {#InHomotopyTypeTheory}
 
-(...)
+Let $\mathbf{H}$ be the ambient [[homotopy type theory]]/[[(∞,1)-topos]].
+(For standard applications in [[physics]] we have $\mathbf{H} = $ [[Smooth∞Grpd]] or [[SmoothSuper∞Grpd]] or similar.)
+
+For an [[object]] $\Sigma \in \mathbf{H}$ 
+supposed to represent the [[space]] underlying [[spacetime]] or the [[worldvolume]] of a [[model (in theoretical physics)]], write $\mathbf{Aut}(\Sigma) \in Grp(\mathbf{H})$ for its [[automorphism ∞-group]]. 
+
+In the standard [[categorical semantics|interpretation]] of the homotopy type theory in $\mathbf{H} = $ [[Smooth∞Grpd]] $\Sigma$ could be an ordinary [[smooth manifold]] or [[orbifold]], in particular, and then $\mathbf{Aut}(\Sigma) = \mathbf{\Diff}(\Sigma)$ is the [[diffeomorphism group]] of $\Sigma$, regarded as a [[diffeological space|diffeological]] [[group object]]. In view of this archetypical example we will in the following often say _[[diffeomorphism]]_ for short instead of _auto-equivalence in $\mathbf{H}$_ and similarly refer to $\mathbf{Aut}(\Sigma)$ loosely as the _diffeomorphism group_ of $\Sigma$. But even in the specifical model $\mathbf{H} = $ [[Smooth∞Grpd]]/[[SmoothSuper∞Grpd]], $\Sigma$ can be much more general than a [[smooth manifold]] or [[supermanifold]] or [[orbifold]]. 
+
+Write then $\mathbf{B} \mathbf{Aut}(\Sigma) \in \mathbf{H}$ for the [[delooping]] of the diffeomorphism group.
+By the discussion at _[[∞-action]]_, the [[context]] of this type
+
+$$
+  \mathbf{B} \mathbf{Aut}(\Sigma) \vdash \cdots
+  \,,
+$$
+
+hence the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$ is the context of objects in $\mathbf{H}$ equipped with $G$-[[∞-actions]] and with $G$-[[equivariance|equivariant]] [[morphisms]] between them
+
+$$
+  \mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}
+  \simeq
+  Act_{\mathbf{H}}(\mathbf{Aut}(\Sigma))
+  \,.
+$$
+
+Hence a [[type in context]] $\mathbf{B}\mathbf{Aut}(\Sigma)$ is a "generally covariant type" with respect to $\Sigma$ in the sense that it transforms consistently by equivalences under diffeomorphisms of $\Sigma$. Hence $\mathbf{B}\mathbf{Aut}(\Sigma)$ _is the [[context]] of general covariance_ with respect to $\Sigma$.
+
+In particular, $\Sigma$ itself is canonically equipped with the defining action of $\mathbf{Aut}(\Sigma)$ on it, exhibited by the universal  [[associated ∞-bundle|associated]] $\Sigma$-[[fiber ∞-bundle]]
+
+$$
+  \array{
+    \Sigma &\to& \Sigma \sslash \mathbf{Aut}(\Sigma)
+    \\
+    && \downarrow^{\overline{\rho_{\Sigma}}}
+    \\
+    && \mathbf{B} \mathbf{Aut}(\Sigma)
+  }
+  \,,
+$$
+
+where the total space $\Sigma \sslash \mathbf{Aut}(\Sigma) = \sum_{\mathbf{B}G} \rho_\Sigma$ is the [[homotopy quotient]] or [[action groupoid]]. Of $\Sigma$ by $\mathbf{Aut}(\Sigma)$. This is the type characterized by the fact that a [[function]] $f : U \to \Sigma \sslash \mathbf{Aut}(\Sigma)$ is a function to $\Sigma$ which is regarded as ([[gauge equivalence|gauge]]) [[equivalence|equivalent]] to another function to $\Sigma$ if both differ by a diffeomorphism of $\Sigma$.
+
+
+
+
+
 
 ## References
 
