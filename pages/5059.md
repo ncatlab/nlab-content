@@ -178,6 +178,8 @@ In the $D = 10$-row we see the critical [[superstring]] of [[string theory]] and
 its [[electric-magnetic duality|magnetic dual]], the [[NS5-brane]].
 The top row shows the [[M2-brane]] in [[11-dimensional supergravity]]. 
 
+Moving down and left the diagonals corresponds to _[[double dimensional reduction]]_.
+
 +-- {: .num_remark }
 ###### Remark
 
