@@ -20,7 +20,7 @@ The tropical rig is also called the [[min-plus algebra]]. There is a related rig
 
 ## Applications
 
-Apart from applications in [[tropical geometry]], the main-plus and max-plus algebras have extensive use in providing algebraic models for simple [[discrete event system]]s related to timed [[Petri nets]].
+Apart from applications in [[tropical geometry]], the min-plus and max-plus algebras have extensive use in providing algebraic models for simple [[discrete event system]]s related to timed [[Petri nets]].
 
 
 ## References
