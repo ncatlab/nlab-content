@@ -1,13 +1,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
+
 # Directed limits
 * automatic table of contents goes here
 {: toc}
@@ -59,11 +60,23 @@ This can be seen as a special case of the construction of an arbitrary limit out
 
 ## Examples
 
+Directed limits over the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]
+$$
+  \array{
+     && && \lim_{\leftarrow_n} X(n) &&
+     \\
+     && &\swarrow& \downarrow & \searrow&
+     \\
+     \cdots & \to & X(2) & \to  & X(1) & \to & X(0)
+  }
+$$
+are extremely common. Classical examples occur in the theory of [[Postnikov towers]] and also in the definition of the [[solenoids]].
+
 A [[ring]] $ K [ [ x ] ] $ of formal [[power series]] (for $K$ a [[field]]) is a projective limit of the rings $K[x]/x^n$ (for $n$ a [[natural number]]).  Here, $C$ is the category of rings, $I$ is the directed set of natural numbers, $A_i = K[x]/x^i$, and $f_{ij}: A_j \to A_i$ is induced by the quotient map $K[x] \to K[x]/x^i$ (which must be proved well defined on $K[x]/x^j$ for $i \leq j$).
 
 Similarly, a ring $\mathbf{Z}_p$ of $p$-[[adic integer]]s (for $p$ a [[prime number]]) is a projective limit of the rings $\mathbf{Z}/p^n$.
 
-A set of infinite [[sequence]]s is a projective limit of sets of finite sequences (which, at the level of [[set]]s, includes the above examples).
+A set of infinite [[sequences]] is a projective limit of sets of [[list|finite sequences]] (which, at the level of [[sets]], includes the above examples).
 
 
 [[!redirects directed limit]]
