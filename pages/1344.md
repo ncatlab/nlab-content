@@ -21,7 +21,7 @@
 
 For $X$ a [[simplicial set]] its _category of simplices_ is the [[category]] whose [[objects]] are the [[simplices]] _in_ $X$ and whose [[morphisms]] are maps between these, as simplices in $X$.
 
-In particular the [[subcategory]] on the non-degenerate simplices has a useful interpretation: it is the [[poset]] of subsimplex inclusions whose [[nerve]] is the [[barycentric subdivision]] of $X$, at least of every non-degenerate simplex in $X$ comes from a monomorphism $\Delta^n \to X$.
+In particular the [[subcategory]] on the non-degenerate simplices has a useful interpretation: it is the [[poset]] of subsimplex inclusions whose [[nerve]] is the [[barycentric subdivision]] of $X$, at least if every non-degenerate simplex in $X$ comes from a monomorphism $\Delta^n \to X$, as for a [[simplicial complex]].
 
 
 ## Definition
@@ -74,7 +74,7 @@ This is called the **category of non-degenerate simplices**.
 +-- {: .num_remark}
 ###### Remark
 
-If every non-degenerate simplex in $X$ comes from a [[monomorphsm]] $\Delta^n \to X$, then the [[nerve]] $N((\Delta \downarrow X)_{nondeg})$ is also called the **[[barycentric subdivision]]** of $X$.
+If every non-degenerate simplex in $X$ comes from a [[monomorphism]] $\Delta^n \to X$, then the [[nerve]] $N((\Delta \downarrow X)_{nondeg})$ is also called the **[[barycentric subdivision]]** of $X$.
 
 =--
 
