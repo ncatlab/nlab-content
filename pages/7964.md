@@ -1,0 +1,11 @@
+The Higgs field is a quantum field supposedly responsible for giving elementary particles their masses. The quanta of the Higgs field are [[Higgs bosons]].
+
+There is no lack of proposals for realizing the Higgs field in various big schemes of mathematical structures modelling physics. 
+
+For instance
+
+* in the [[technicolor]] model the Higgs field is not a fundamental particle but a compound of fermions. This realizes the Higgs effect entirely in ordinary [[gauge theory]]; 
+
+* in [[string theory]] (see _[[string phenomenology]]_) a Higgs can arise in all sorts of ways. Notably in "intersecting brane models" it arises from strings localized at intersecting points (for a typical kind of survey see for instance [around slide 33 here](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf#page=33)) 
+
+* in [[noncommutative geometry]] it has been [shown](http://ncatlab.org/nlab/show/standard+model+of+particle+physics#NCGeometry) that the Higgs may be modeled as a component of the gauge bosons assuming that the [[Kaluza-Klein mechanism|KK-reduction]] is over a certain non-commutative space of classical dimension 0.
