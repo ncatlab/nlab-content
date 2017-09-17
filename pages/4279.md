@@ -2,13 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### AQFT
-+--{: .hide}
-[[!include AQFT and operator algebra contents]]
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
 =--
 #### Functional analysis
 +--{: .hide}
 [[!include functional analysis - contents]]
+=--
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
