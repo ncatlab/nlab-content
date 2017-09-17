@@ -134,3 +134,6 @@ For instance
 * [[George Whitehead]], _Elements of homotopy theory_, chapter 1. 
 
 [[!redirects deformation retracts]]
+
+[[!redirects strong deformation retract]]
+[[!redirects strong deformation retracts]]
