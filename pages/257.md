@@ -11,7 +11,7 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
 A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a context for doing [[homotopy theory]].    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
 
@@ -34,7 +34,7 @@ In a model category the data of weak equivalences is accompanied by further auxi
 If the model category happens to be a [[combinatorial simplicial model category]] $\mathbf{A}$ it [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-category|category]] $\mathbf{A}^\circ$ in the form of a [[simplicially enriched category]] given by the full [[SSet]]-[[enriched category|enriched subcategory]] on objects that are both fibrant and cofibrant.
 
 
-#Definition#
+## Definition
 
 A **model structure** on a category $K$ consists of three distinguished classes of morphisms - the **cofibrations** $C$, the **fibrations** $F$, and the **weak equivalences** $W$ - satisfying the following two properties.
 
@@ -47,7 +47,7 @@ A **model category** is a complete and cocomplete category $K$ with a model stru
 One says that an object is **cofibrant** if the map $0\to X$ from the [[initial object]] is a cofibration, and **fibrant** if the map $X\to 1$ to the [[terminal object]] is a fibration.  Often, the fibrant and cofibrant objects are the ones one is "really" interested in, but the category consisting only of these is not well-behaved (as a 1-category).  The factorizations supply fibrant and cofibrant replacement functors which allow us to treat any object of the model category as a 'model' for its fibrant-cofibrant replacement.
 
 
-# Variants #
+## Variants 
 
 There are several notions of [[category with weak equivalences]] with similar but less structure than a full model category.
 
@@ -58,16 +58,16 @@ There are several notions of [[category with weak equivalences]] with similar bu
 There is also a slight variant of the full notion of model category by Thomason that is designed to make the [[global model structure on functors]] more naturally accessible: this is the notion of [[Thomason model category]].
 
 
-#Notes#
+## Notes
 
 * Some authors, notably Mark Hovey, require that the factorizations given by (ii) are actually _functorial_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
 
 * As a consequence of the above definition, the classes $C, F,$ and $W$ are all closed under retracts and composition and contain the isomorphisms of $K$. This is least obvious in the case of $W$. In the presence of functorial factorizations, it is easy to show that closure under retracts follows from (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
 
 
-#Examples#
+## Examples
 
-## Classical model structures
+### Classical model structures
 
 The archetypical model structures are the
 
@@ -85,7 +85,7 @@ In addition, there are also
 
 which encapsulate classical homological algebra, and are related to the [[model structure on simplicial sets]] by the [[Dold-Kan correspondence]].  In fact, Quillen's original definition of model categories was motivated by the analogy between homotopy theory and homological algebra.
 
-## Categorical model structures
+### Categorical model structures
 
 Of interest to category theorists is that many notions of [[higher category theory|higher categories]] come equipped with model structures, witnessing the fact that when retaining only invertible [[transfors]] between $n$-categories they should form an $(\infty,1)$-[[(infinity,1)-category|category]].  Many of these are called
 
@@ -110,7 +110,7 @@ which generalizes the Joyal model structure from [[(∞,1)-categories]] to [[(�
 
 There is also another class of model structures on categorical structures, often called [[Thomason model structure]]s (not to be confused with the notion of "Thomason model category").  In the "categorical" or "canonical" model structures, the weak equivalences are the categorical [[equivalences]], but in the Thomason model structures, the weak equivalences are those that induce weak homotopy equivalences of [[nerves]].  Thomason model structures are known to exist on 1-categories and 2-categories, at least, and are generally Quillen equivalent to the Quillen model structures on topological spaces and simplicial sets (via the nerve construction).
 
-## Parametrized model structures
+### Parametrized model structures
 
 The _parameterized_ version of the model structure on simplicial sets is a
 
@@ -119,7 +119,7 @@ The _parameterized_ version of the model structure on simplicial sets is a
 
 which serves as a [[models for infinity-stack (infinity,1)-toposes|model for ∞-stack (∞,1)-toposes]] (for [[hypercomplete (∞,1)-topos]]es, more precisely).
 
-## Functor and localized model structures
+### Functor and localized model structures
 
 Many model structures, including those for complete Segal spaces, simplicial presheaves, and diagram spectra, are constructed by starting with a model structure on a functor category, such as a
 
@@ -130,11 +130,14 @@ Many model structures, including those for complete Segal spaces, simplicial pre
 and applying a general technique called [[Bousfield localization]] which forces a certain class of morphisms to become weak equivalences.  It can also be thought of as forcing a certain class of objects to become fibrant.
 
 
-#References#
+## References
+
+* [[joyalscatlab:HomePage|Joyal's CatLab]], _[[joyalscatlab:Model categories]]_
 
 An introductory survey of some key concepts is in the set of slides
 
 * [[Peter May]], [[ModelCatPrimer.pdf:file]]
+
 
 There is an unpublished manuscript of Chris Reedy from around 1974 that's been circulating as an increasingly faded photocopy. It's been typed into LaTeX, and the author has given  [permission](http://www-math.mit.edu/~psh/#Other%20mathematics) for it to be posted on the net:
 
@@ -161,7 +164,7 @@ for errata and more.
 
 For yet another introduction to model categories, with an eye towards their use as [[presentable (infinity,1)-category|presentations]] of $(\infty,1)$-[[(infinity,1)-category|categories]] see Appendix A.2 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects model categories]]
