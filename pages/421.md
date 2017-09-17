@@ -15,22 +15,25 @@
 
 ## Idea
 
-The _cellular simplex_ is one of the basic [[geometric shapes for higher structures]]. 
+The _cellular simplex_ is one of the basic [[geometric shapes for higher structures]]. Variants of the same `shape archetype' exist in several settings, e.g., that of [[simplicial sets]], the topological /cellular one, and categorical contexts, plus others.
 
-## Definition
+## Definitions
  {#Definition}
+
+###Simplicial simplices
+
+For $n \in \mathbb{N}$, the standard _simplicial $n$-simplex_ $\Delta[n]$ is the [[simplicial set]] which is represented (as a [[presheaf]]) by the object $[n]$ in the [[simplex category]], so $\Delta[n]= \Delta(-,[n])$.
+
 
 ### Cellular (simplicial) simplex
  {#CellularSimplex}
-
-For $n \in \mathbb{N}$, the standard _simplicial $n$-simplex_ is the [[simplicial set]] which is represented (as a [[presheaf]]) by the object $[n]$ in the [[simplex category]].
 
 Likewise, there is a standard toplogical $n$-simplex, which is (more or less by definition) the [[geometric realization]] of the standard simplicial $n$-simplex.
 
 ### Topological simplex
  {#TopologicalSimplex}
 
-The _topological $n$-simplex_ $\Delta^n$ is a generalization of the standard filled _[[triangle]]_ in the plane, from [[dimension]] 2 to arbitrary. Each $\Delta^n$ is [[homeomorphism|homeomorphic]] to the closed $n$-[[ball]] $D^n$, but its defining [[embedding]] into a [[Cartesian space]] equips its [[boundary]] with its cellular decomposition into _faces_, generalizing the way that the triangle has three edges (which are 1-simplices) as faces, and three points (which are 0-simplices) as corners.
+The _topological $n$-simplex_ $\Delta^n$ is a generalization of the standard filled _[[triangle]]_ in the plane, from [[dimension]] 2 to arbitrary dimensions. Each $\Delta^n$ is [[homeomorphism|homeomorphic]] to the closed $n$-[[ball]] $D^n$, but its defining [[embedding]] into a [[Cartesian space]] equips its [[boundary]] with its cellular decomposition into _faces_, generalizing the way that the triangle has three edges (which are 1-simplices) as faces, and three points (which are 0-simplices) as corners.
 
 The topological $n$-simplex is naturally defined as a subspace of a
 [[Cartesian space]] given by some relation on its canonical 
@@ -42,7 +45,7 @@ $n$-simplices:
 
 * [Cartesian coordinates](#CartesianCoordinates)
 
-Each of these has its advantages and disadvantages, depending on aplication. But of course there is a simple coordinate transformation that exhibits an explicit [[homeomorphism]] between the two:
+Each of these has its advantages and disadvantages, depending on application, but of course there is a simple coordinate transformation that exhibits an explicit [[homeomorphism]] between the two:
 
 * [Transformation between Barycentric and Cartesian coordinates](#CoordinateTransformation).
 
