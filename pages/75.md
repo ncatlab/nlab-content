@@ -121,7 +121,7 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 * [[Paul Taylor]], _Practical Foundations of Mathematics_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
 
-
+* some old discussions from this page archived [here](http://nforum.mathforge.org/discussion/4172/foundation-of-mathematics/?Focus=33992#Comment_33992)
 
 
 
