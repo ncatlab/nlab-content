@@ -151,6 +151,39 @@ $$
   \,.
 $$
 
+#### Properties
+
+**Proposition**
+
+The [[simplicial homotopy group]]s of $filt_0 \Omega^n_{cl}(S \times \Delta^\bullet_{Diff})$ are 
+
+$$
+  \pi_k filt_0 \Omega^n_{cl}(S \times \Delta^\bullet_{Diff})
+  =
+  \left\{
+    \array{
+       \Omega^n_{cl}(S) & | k = 0
+       \\
+       0 & | k \gt 0
+    }
+  \right\}
+  \,.
+$$
+
+The homotopy groups of $Z^n(S \times\Delta^\bullet, \mathbb{R})$ are
+
+$$
+  \pi_k Z^n(S \times\Delta^\bullet, \mathbb{R})
+  = 
+  H^{n-k}(S)
+  \,.
+$$
+
+**Proof** This appears in [[Quadratic Functions in Geometry, Topology,and M-Theory|SopSin, p. 36]] based on corollary D,15 there.
+
+> This should mean that the first complex is equivalent to the _set_ of closed forms and the second to $sSet(Sing S, \mathcal{B}^n \mathbb{R})$. 
+
+
 #### Examples
 
 ##### Line bundles with connection
