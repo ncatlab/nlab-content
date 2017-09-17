@@ -60,7 +60,7 @@ where "[[FinSet]]" is the [[category]] of [[finite sets]], "$Ind$" stands for [[
 
 ### Stone spaces and profinite sets
 
-Note that a finite Stone space is necessarily discrete, and these correspond to the finite Boolean algebras, i.e. $FinSet \simeq FinStoneTop \simeq FinBool^{op}$.  However, since Boolean algebras form a [[locally finitely presentable category]], we have $Bool \simeq Ind(FinBool) \simeq Pro(FinSet)^{op}$ (see [[ind-object]] and [[pro-object]]).  In consequence, $StoneTop \simeq Pro(FinSet)$: i.e. [[Stone spaces]] are equivalent to *profinite sets*.
+Note that a finite [[Stone space]] is necessarily [[discrete space|discrete]], and these correspond to the finite Boolean algebras, i.e. $FinSet \simeq FinStoneTop \simeq FinBool^{op}$.  However, since Boolean algebras form a [[locally finitely presentable category]], we have $Bool \simeq Ind(FinBool) \simeq Pro(FinSet)^{op}$ (see [[ind-object]] and [[pro-object]]).  In consequence, $StoneTop \simeq Pro(FinSet)$: i.e. [[Stone spaces]] are equivalent to *[[profinite sets]]*, in this context then often called _[[profinite spaces]]_.
 
 
 ### Profinite algebras
