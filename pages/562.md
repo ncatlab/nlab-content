@@ -131,12 +131,22 @@ See [[two-sided fibration]] for more details.
 
 Note that a pseudofunctor $A^{op}\times B \to Cat$ can also be represented by an opfibration $E_1\to A^{op}\times B$ and by a fibration $E_2\to A\times B^{op}$, but there is no simple relationship between the three categories $E$, $E_1$, and $E_2$.
 
+### Multicategory version
+
+There is an analog for [[multicategories]]. See
+
+* [[fibration of multicategories]]
+
 
 ### Higher categorical versions 
 
 There is also a notion of fibration for 2-categories that has been studied by Hermida.  See [[n-fibration]] for a general version.
 
 For [[(∞,1)-category|(∞,1)-categories]] the notion of fibered category is modeled by the notion of [[Cartesian fibration]] of simplicial sets. The corresponding analog of the Grothendieck construction is discussed at [[(∞,1)-Grothendieck construction]].
+
+### Higher multicategory version
+
+* [[Cartesian fibration of dendroidal sets]]
 
 ## Alternate definitions
 
