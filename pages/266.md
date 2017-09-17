@@ -177,14 +177,14 @@ In particular, this means that if $C$ is [[small category|small] and $D$ is [[co
 If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above weighted limit may be re-expressed in terms of an [[end]] as
 
 $$
-  (Ran_p F)(c') \simeq \int_{c \in C} C'(c',p(c))\pitchfork F(c')
+  (Ran_p F)(c') \simeq \int_{c \in C} C'(c',p(c))\pitchfork F(c)
   \,.
 $$
 
 So in particular when $D = V$ this is
 
 $$
-  (Ran_p F)(c') \simeq \int_{c \in C} [C'(c',p(c)),F(c')]
+  (Ran_p F)(c') \simeq \int_{c \in C} [C'(c',p(c)),F(c)]
   \,.
 $$
 
@@ -192,7 +192,7 @@ $$
 Similarly, if $D$ is [[copower|tensored]] over $V$, then the left Kan extension is given by a [[coend]].
 
 $$
-  (Lan_p F)(c') \simeq \int^{c \in C} C'(p(c),c')\otimes F(c')
+  (Lan_p F)(c') \simeq \int^{c \in C} C'(p(c),c')\otimes F(c)
   \,.
 $$
 
