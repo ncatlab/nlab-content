@@ -90,6 +90,7 @@ This appears as ([HopkinsSinger, def. 2.9](#HopkinsSinger)).
 
 
 ### Fiber integration
+ {#FiberIntegration}
 
 Write $\mathbf{H}^n_{diff}(-)$ for the [[cocycle]] [[∞-groupoid]] of [[ordinary differential cohomology]]. For any choice of presentation, there is a fairly evident fiber integration of [[compact support|compactly supported]] [[cocycles]] along trivial [[Cartesian space]] bundles $Y \times \mathbb{R}^N \to Y$ over a [[compact space|compact]] $Y$:
 
