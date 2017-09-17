@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[entropy]] induced by [[entanglement]]
+
+## Related concepts
+
+* [[holographic entanglement entropy]]
+
+## References
+
+* Wikipedia, _[Entropy of entanglement](http://en.wikipedia.org/wiki/Entropy_of_entanglement)_
+
+[[!redirects entropy of entanglement]]
