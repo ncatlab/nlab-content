@@ -44,8 +44,11 @@ we may call $im(f) \hookrightarrow Y$ the **$\infty$-image** of $f$.
 ### Syntax in homotopy type theory
  {#SyntaxInHomotopyTypeTheory}
 
-Let the ambient [[(∞,1)-category]] be an [[(∞,1)-topos]]. Then its [[internal language]] is [[homotopy type theory]].
+Let the ambient [[(∞,1)-category]] be an [[(∞,1)-topos]] $\mathbf{H}$. Then its [[internal language]] is [[homotopy type theory]].
 We discuss the [[syntax]] of $\infty$-images in this theory.
+
++-- {: .num_prop #SyntaxOfInfinityImage}
+###### Proposition
 
 If 
 
@@ -53,15 +56,44 @@ $$
   a\colon A \;\vdash \; b(a) \colon B(a)
 $$
 
-is a [[dependent type]] whose [[categorical semantics]] is given by a [[morphism]] $A \stackrel{b}{\to} B$, then the $\infty$-image of that morphism is the categorical semantics of the type
+is a [[dependent type]] whose [[categorical semantics]] is given by a [[morphism]] $A \stackrel{b}{\to} B$ in $\mathbf{H}$, then the $\infty$-image of that morphism is the categorical semantics of the type
 
 $$
-  \sum_{a \colon A} \sum_{b' \colon B} [b' = b(a)]
+  \vdash \; 
+  \left(
+    \sum_{a \colon A} \sum_{b' \colon B} \left[b' = b\left(a\right)\right]
+  \right)
+  \colon Type
 $$
 
 given by the [[dependent sum]] over a [[substitution]] into the [[bracket type]] of an [[identity type]].
 
-If we allow ourselves to write the [[dependent sum]] either as the [[existential quantifier]] $\exists$ or as the extension formula $\{b \in B | \phi(b)\}$ then this reads
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe that by the rules for [[categorical semantics]] of [[identity types]] and [[substitution]] the interpretation of $(b' = b(a))$ in a suitable [[model category]] [[presentable (∞,1)-category|presenting]] $\mathbf{H}$ is as the [[pullback]] $\tilde A$ (see at _[[homotopy pullback]]_ for more details on this) in
+
+$$
+  \array{
+    \tilde A &\to& B^{I}
+    \\
+    \downarrow && \downarrow
+    \\
+    A \times B &\stackrel{(b,id_B)}{\to}& B \times B
+  }
+  \,,
+$$
+
+where all objects now denote [[fibrant object]] representatives of the given objects in the model category, and where the right morphism is the [[fibration]] out of a [[path space object]] for $B$. By the [[factorization lemma]] the composite $\tilde A \to A \times B \to B$ here is a [[fibration]] [[resolution]] of the original $A \stackrel{b}{\to} B$ and $\tilde A \to A \times B$ is a fibration resolution of $A \stackrel{(id_A,b)}{\to} A \times B$. Regarded in the [[slice category]] of the model category over $A \times B$ this now interprets the syntax $(b' = b(a))$ as an $A \times B$-[[dependent type]]. The interpretation of forming the [[bracket type]] of that is now precisely the [[n-truncated object in an (infinity,1)-category|(-1)-truncation]] of this morphism, which by the discussion there is the $\infty$-image $im_\infty(\tilde Q \to A \times B)$ regarded as an $A \times B$-dependent type. Finally the inerpretation of the two [[dependent sums]] is simply to regard $im_\infty(\tilde Q \to A)$ as an object in iteself (over the [[terminal object]]). And hence that is indeed the $\infty$-image of $im_\infty(A \stackrel{b}{\to} B) \simeq im_\infty(\tilde A \to B)$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+If we allow ourselves to write the [[dependent sum]] in prop. \ref{SyntaxOfInfinityImage} either as the [[existential quantifier]] $\exists$ or as the extension formula $\{b \in B | \phi(b)\}$ then this reads
 
 $$
   \left\{
@@ -70,6 +102,10 @@ $$
 $$
 
 which is manifestly the naive definition of [[image]].
+
+=--
+
+
 ## Examples
 
 ### Automorphisms
