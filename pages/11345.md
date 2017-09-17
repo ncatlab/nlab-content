@@ -34,6 +34,8 @@ The [[index]] of the [[large volume limit]] of the Dirac-Ramond operator is what
 
 * [[Dirac operator on smooth loop space]]
 
+[[!include genera and partition functions - table]]
+
 ## References
 
 The Dirac-Ramond operator ofriginates with the early beginning of [[superstring]] models, when they were still called _[[spinning strings]]_. See there for references.
