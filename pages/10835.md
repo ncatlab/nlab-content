@@ -30,7 +30,7 @@ $$
   \,.
 $$
 
-(See also at _[[Sweedler coring]]_ and at _[[Hopf algebroid]]_ for the same or similar constructions.)
+(See also at _[[Sweedler coring]]_ and at _[[commutative Hopf algebroid]]_ for the same or similar constructions.)
 
 ## Properties
 
