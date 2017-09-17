@@ -83,10 +83,6 @@
 
 * **[[quantum field theory|Quantum Field Theory]]**
 
-  * [[perturbative quantum field theory]]
-
-  * [[effective quantum field theory]]
-
   * Axiomatizations
 
     * [[AQFT|algebraic QFT]]
@@ -127,6 +123,10 @@
 
   * Tools
 
+    * [[perturbative quantum field theory]]
+
+    * [[effective quantum field theory]]
+
     * [[renormalization]]
 
     * [[BV-BRST formalism]]
@@ -145,6 +145,8 @@
 
       * [[Green-Schwarz mechanism]]
 
+    * [[spontaneously broken symmetry]]
+
     * [[Kaluza-Klein mechanism]]
 
   * Types of quantum field thories
@@ -157,13 +159,15 @@
 
       * [[Chern-Simons theory]]
 
-    * [[conformal field theory]]
-
     * [[TCFT]]
 
       * [[A-model]], [[B-model]]
 
       * [[homological mirror symmetry]]
+
+    * [[QFT with defects]]
+
+    * [[conformal field theory]]
 
     * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
@@ -175,8 +179,7 @@
  
     * [[gauge theory]]
       * [[field strength]]
-      * [[gauge transformation]]
-      * [[gauge fixing]]
+      * [[gauge group]], [[gauge transformation]], [[gauge fixing]]
       * examples
 
         * [[electromagnetic field]], [[QED]]
@@ -201,14 +204,23 @@
 
     * [[sigma-model]]
 
-      * [[relativistic particle]], [[superparticle]]
+      * [[particle]], [[relativistic particle]], [[fundamental particle]], [[spinning particle]], [[superparticle]]
+
+      * [[string]], [[spinning string]], [[superstring]]
+
+      * [[membrane]]
 
       * [[AKSZ theory]]
 
 * [[string theory|String Theory]]
 
-  * [[brane]], [[BPS-state]], [[Berkovits superstring]], [[orientifold]],
-    [[T-duality]], [[topological T-duality]]
+  * [[string]], [[spinning string]], [[superstring]], [[heterotic string]], [[type II superstring]], [[Berkovits superstring]]
+
+  * [[brane]], [[D-brane]]
+
+  * [[orbifold]], [[orientifold]],
+    
+  * [[T-duality]], [[topological T-duality]], [[differential T-duality]]
 
 * [[gnarly problems in physics|Gnarly problems in physics]]
 
