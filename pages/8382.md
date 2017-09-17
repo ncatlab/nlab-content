@@ -1,5 +1,5 @@
 
-**Abduction** is a process whereby one reasons to the truth of an explanation from its ability to account for what is observed. It is therefore sometimes also known as **inference to the best explanation**.
+**Abductive** [[reasoning]] is a process whereby one reasons to the truth of an explanation from its ability to account for what is observed. It is therefore sometimes also known as **inference to the best explanation**.
 
 [[Charles Peirce]], the originator of the term, illustrated the differences between [[deductive reasoning|deduction]], [[inductive reasoning|induction]], and abduction by the following example.
 
