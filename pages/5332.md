@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 #### Differential cohomology
 +--{: .hide}
 [[!include differential cohomology - contents]]
@@ -12,6 +16,9 @@
 =--
 =--
 =--
+
+
+
 
 #Contents#
 * table of contents
