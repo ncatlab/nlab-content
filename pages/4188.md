@@ -20,7 +20,7 @@ A _Lagrangian correspondence_ is a [[correspondence]] between two [[symplectic m
 ## Definition
  {#Definition}
 
-+-- {: .num_def}
++-- {: .num_defn}
 ###### Definition
 
 For $(X_j, \omega_j)$ two [[symplectic manifold]]s, a **Lagrangian correspondence** is a [[correspondence]] $Z \to X^-_0 \times X_1$ which is a  [[submanifold]] of $X^-_0 \times X_1$
@@ -42,7 +42,7 @@ where $\pi_i$ are the two projections out of the [[product]].
 
 =--
 
-+-- {: .num_def}
++-- {: .num_defn}
 ###### Definition
 
 The **composition** of two Lagrangian correspondences is
@@ -69,7 +69,7 @@ $$
     \\
     & {}^{\mathllap{i_1}}\swarrow && \searrow^{\mathrlap{i_2}}
     \\
-    X_1 && {}^{\mathllap{i_1^\ast \omega_1}}\downarrow^{\mathrlap{i_2^\ast \omega_2}} && X_2
+    X_1 && {i_1^\ast \omega_1 = i_2^\ast \omega_2} && X_2
     \\
     & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
     \\
