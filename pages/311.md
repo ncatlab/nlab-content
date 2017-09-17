@@ -210,7 +210,13 @@ _Toby_:  It\'s fine and fun to have a hierarchy of $n$-types (although $1$-types
 =--
 
 
+[[!redirects representable functor]]
 [[!redirects representable functors]]
+[[!redirects represented functor]]
+[[!redirects represented functors]]
 [[!redirects representable]]
+[[!redirects representables]]
 [[!redirects representable presheaf]]
+[[!redirects representable presheaves]]
 [[!redirects representing object]]
+[[!redirects representing objects]]
