@@ -1,3 +1,6 @@
+[For convenience we assume below that $M$ is a $G$-module, it does not in general have to be abelian and it suffices to have it a $G$-group.]
+
+
 Suppose $G$ is a [[group]] and $M$ a $G$-[[module]] and let $\delta : G \to M$ be a __derivation__. This means $\delta(g_1g_2) = \delta(g_1) +g_1\delta(g_2)$ for all $g_1, g_2 \in G$.  (Note: *not* $\delta(g_1)g_2 + g_1\delta(g_2)$ as for the other notion of [[derivation]].)
 
 For calculations, the following lemma is very valuable, although very simple to prove.
