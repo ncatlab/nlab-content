@@ -68,7 +68,7 @@ In case that you do feel that this is not an option and that you do need to cont
 ## Contributing to the $n$Lab
  {#Contributing}
 
-If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here [impotenza](http://www.bastaimpotenza.com) (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
+If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
 
 If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://nforum.mathforge.org/)!
 
