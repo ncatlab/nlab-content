@@ -10,5 +10,6 @@ A [[foliation]] consists of [[submanifolds]]. Each of them is called a _leaf_ of
 ## Related concepts
 
 * [[Bohr-Sommerfeld leaf]]
+* [[symplectic leaf]]
 
 [[!redirects leaves]]
