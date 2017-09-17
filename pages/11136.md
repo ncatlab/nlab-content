@@ -21,11 +21,15 @@ What is called the _maybe monad_ is a simple [[monad (in computer science)]] whi
 
 On the type system the [[maybe monad]] is the operation $X \mapsto X \coprod \ast$. 
 
-The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrightarrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$. This is then naturally interpreted as "no value returned", hence as indicating a "failure in computation".
+The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrightarrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$ -- it is a _[[partial function]]_. The latter case is naturally interpreted as "no value returned", hence as indicating a "failure in computation".
 
 ## Properties
 
 > under construction
+
+### Kleisli category
+
+The [[Kleisli category]] of the maybe monad is the category whose objects are the original objects, and whose morphisms are the [[partial functions]] in the original category.
 
 ### Relation to pointed objects
 
