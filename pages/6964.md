@@ -1,0 +1,26 @@
+
+# Uniformly continuous maps
+* table of contents
+{: toc}
+
+## Idea
+
+A [[continuous map]] $f$ between [[spaces]] $X$ and $Y$ has the property that $f$ maps nearby points to nearby points, which may be formalised by first picking one point, then considering how nearby you want the points to be, then picking another point sufficiently nearby.
+
+A uniformly continuous map $f$ is based on the same intuition but a different formalisation: first you pick how nearby you want the points to be, then you pick two points sufficiently nearby.  This results in a stronger criterion, definable in a less general context.
+
+
+## Definitions
+
+Let $X$ and $Y$ be [[uniform spaces]], each defined as a [[set]] equipped with a collection of [[entourages]].  A __uniformly continous map__ from $X$ to $Y$ is a [[function]] between their [[underyling set]]s such that, given any entourage $E$ on $Y$, there is an entourage $D$ on $X$ such that $f(a)$ and $f(b)$ are $E$-close in $Y$ whenever $a$ and $b$ are $D$-close in $X$:
+$$ \forall\, E\colon \mathcal{U}Y,\; \exists\, D\colon \mathcal{U}X,\; \forall\, a, b\colon X,\; a \approx_D b \;\Rightarrow\; f(a) \approx_E f(b) .$$
+A definition can also be given in terms of [[uniform covers]].  The definition with entourages extends immediately to [[quasiuniform spaces]], where we also have the option of considering an __antiuniformly continuous map__, in which $f(a) \approx_E f(b)$ whenever $b \approx_D a$.
+
+In the particular case [[metric spaces]], it is instructive to see this in elementary form:  Given metric spaces $X$ and $Y$, a __uniformly continuous map__ from $X$ to $Y$ is a function between their underlying sets such that, given any [[positive number]] $\epsilon$, there is a positive number $\delta$ such that the distance in $Y$ between $f(a)$ and $f(b)$ is less than $\epsilon$ whenever the distance in $X$ between $a$ and $b$ is less than $\delta$:
+$$ \forall\, \epsilon \gt 0,\; \exists\, \delta \gt 0,\; \forall\, a, b\colon X,\; d_X(a, b) \lt \delta \;\Rightarrow\; d_Y(a, b) \lt \epsilon .$$
+This is exactly like the definition of [[continuous map]] between metric spaces, except for the order of the quantifiers $\exists\, \delta$ and $\forall\, a$.
+
+
+## Properties
+
+Every uniformly continuous map between uniform spaces is [[continuous map|continuous]] (between the underlying [[topological spaces]]) and in fact [[Cauchy map|Cauchy continuous]] (between the underlying [[Cauchy spaces]]).  Also, every uniformly continuous or antiuniformly continuous map between quasiuniform spaces is Cauchy continuous.  Conversely, every [[short map|short]] or even [[Lipschitz map|Lipschitz]] map between metric spaces (or Lipschitz [[manifolds]]) is uniformly continuous.
