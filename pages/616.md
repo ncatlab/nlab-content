@@ -339,9 +339,9 @@ Another approach to model category structures in this area is by Kahl, who uses 
 *  Thomas Kahl, Relative directed homotopy theory of partially ordered spaces,
 Journal of Homotopy and Related Structures, Vol. 1(2006), No. 1, pp. 79-100,([JHRS](http://jhrs.rmi.acnet.ge/volumes/2006/n1a4/ )).
 
-Krzysztof Worytkiewicz and Peter Bubenik have given a model category structure for local pospaces:
+[[Krzysztof Worytkiewicz]] and [[Peter Bubenik]] have given a model category structure for local pospaces:
 
-*  P. Bubenik and K. Worytkiewicz, A model category structure for local po-spaces, Homology, Homotopy and Applications, Vol. 8 (2006), No. 1, pp.263-292. ([HHA](http://intlpress.com/HHA/v8/n1/a10/)).
+*  P. Bubenik and [[K. Worytkiewicz]], A model category structure for local po-spaces, Homology, Homotopy and Applications, Vol. 8 (2006), No. 1, pp.263-292. ([HHA](http://intlpress.com/HHA/v8/n1/a10/)).
 
 
 Further related references are
