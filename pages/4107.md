@@ -21,6 +21,8 @@
 
 * [[Yoneda lemma]]
 
+* [[enriched Yoneda lemma]]
+
 * [[co-Yoneda lemma]]
 
 * [[Yoneda reduction]]
