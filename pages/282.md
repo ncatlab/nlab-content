@@ -144,28 +144,28 @@ that are linear and respect the groupoid composition in the obvious way.
 
 ###### 7.1.v The fundamental crossed complex functor {#FundamentalCrossedComplex}
 
-The notion of [[fundamental groupoid]] of a [[topological space]] generalizes to a notion of [[fundamental ∞-groupoid]]. There is a strict version of this (which loses some information): the fundamental strict $\infty$-groupoid. In a [[filtered space]] $X_\bullet$ one can consider the variant where the [[k-morphism]]s of the fundamental $\infty$-groupoid are constrained to lie in $X_k$. The _fundamental crossed complex_ of a filtered space is the equivalent [[crossed complex]] incarnation of the fundamental strict $\infty$-groupoid of a filtered space.
+The notion of [[fundamental groupoid]] of a [[topological space]] generalizes to a notion of [[fundamental ∞-groupoid]]. There is a strict version of this (which loses some information): the fundamental strict $\infty$-groupoid. In a [[filtered space]] $X_*$ one can consider the variant where the [[k-morphism]]s of the fundamental $\infty$-groupoid are constrained to lie in $X_k$. The _fundamental crossed complex_ of a filtered space is the equivalent [[crossed complex]] incarnation of the fundamental strict $\infty$-groupoid of a filtered space.
 
 +-- {: .un_def}
 ###### Definition
-**(fundamental crossed complex)**
+**[[fundamental crossed complex]]**
 
 Let $X_\bullet$ be a [[filtered space]]. 
 
 Write $\Pi_1(X_1,X_0)$ for the subgroupoid of the [[fundamental groupoid]] $\Pi_1(X_1)$ of $X_1$ on objects that are in $X_0$.
 
-The **fundamental crossed complex** $\Pi X_\bullet$ of $X$ is the [[crossed complex]]
+The **fundamental crossed complex** $\Pi X_*$ of $X$ is the [[crossed complex]]
 
 with 
 
 $$
-  (\Pi X_\bullet)_1 = \Pi_1(X_1,X_0)
+  (\Pi X_*)_1 = \Pi_1(X_1,X_0)
 $$
 
 and
 
 $$
-  (\Pi X_\bullet)_n
+  (\Pi X_*)_n
   :=
   \coprod_{x \in X_0}
   \pi_n(X_n, X_{n-1}, x)
