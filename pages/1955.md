@@ -310,7 +310,7 @@ Now, suppose  $A=C^\infty(M)$ where $M$ is any smooth manifold.  Then elements o
 
 from the [[Hadamard lemma]] it follows that $Der(C^\infty(M)) = \Gamma(T M)$ is precisely the $C^\infty(X)$-module of [[vector field]]s on $X$, and [[differential form|1-forms]] are the $C^\infty(X)$-linear duals of vector fields, by definition.
 
-And in this case, one can show that any [[derivation]] $X: A \to M$ factors through $Omega^1(A)$ when $M$ is free, and in particular if $M=A$. 
+And in this case, one can show that any [[derivation]] $X: A \to M$ factors through $\Omega^1(A)$ when $M$ is free, and in particular if $M=A$. 
 
 We can expand on this remark as follows.  Quite generally, for any commutative algebra $A$ over a field $k$, we have
 
