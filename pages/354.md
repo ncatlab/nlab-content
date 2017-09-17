@@ -6,6 +6,10 @@
 
 A Kan complex is a [[geometric definition of higher category|geometric model]] of an $\infty$-[[infinity-groupoid|groupoid]] based on the [[geometric shapes for higher structures|shape]] modeled by the [[simplex category]].
 
+A Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all $k \in \mathbb{N}$, such that for all composable $k$-morphisms a composite does exist (not necessarily uniquely) and  such that all $k$-morphisms are invertible under this composition.
+
+In a Kan complex there are no _specified_ composites. But one may _choose_ out for all composable $k$-morphisms a composite and thus arrive at an [[algebraic definition of higher category|algebraic model]] for $\infty$-groupoids: [[algebraic Kan complex]]es.
+
 #Definition#
 
 A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, 
