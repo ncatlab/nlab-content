@@ -1,1 +1,3 @@
-* [website](http://adeel.ru)
+* [website](http://preschema.com)
+
+[[!redirects Adeel Khan]]
