@@ -165,6 +165,9 @@ This is the analogue of a [[descent]] condition for [[simplicial presheaves]].
 
 These definitions appear [here](http://math.northwestern.edu/~costello/factorization_public.html#[[Factorization%20algebra]]).
 
+## Examples
+
+* [[beta-gamma system]]
 
 ## Related concepts
 
@@ -185,7 +188,7 @@ Factorization algebras have some similarity with
 
 The notion of factorization algebra may be regarded as a slight variation on the concept _[[chiral algebra]]_ originally introduced in
 
- [[Alexander Beilinson]], [[Vladimir Drinfeld]],  _[[Chiral Algebras]]_.
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]],  _[[Chiral Algebras]]_.
 
 A definition formulated genuinely in  [[Higher Algebra]] appears in section 4.1 _Topological Chiral Homology_ of
 
