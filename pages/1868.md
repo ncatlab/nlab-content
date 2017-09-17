@@ -162,7 +162,7 @@ For $[\alpha] = 0$ the trivial twist, $[\alpha]$-twisted cohomology coincides wi
 $$
   H^1_{[\alpha] = 0}(X, \hat G)
   \simeq
-  H^_{Smooth}(X, \hat G)
+  H^1_{Smooth}(X, \hat G)
   \,.
 $$
 
