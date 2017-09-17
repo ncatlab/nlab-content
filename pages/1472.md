@@ -35,7 +35,7 @@ Physics is _dynamics_ in _spaces_ .
 
 [[higher topos theory|Higher topos theory]] provides the formalizations of this most fundamental aspect of physics.
 
-* A general context of **[[space]]s** is a [[big topos|big]] [[(∞,1)-topos]] $\mathbf{H}$. 
+* A general context for **[[space]]s** is a [[big topos|big]] [[(∞,1)-topos]] $\mathbf{H}$. 
 
 * A general context for **[[higher geometry|geometrical]] spaces** is a [[local (∞,1)-topos]].
 
@@ -151,7 +151,7 @@ We look at some aspects of the [above](#BasicStructures) general abstract story 
 
 The discovery of [[gauge theory]]  is effectively the discovery of [[groupoid]]s in fundamental physics. The notion of [[gauge transformation]] is close to synonymous to the notion [[isomorphism]] and more generally to _[[equivalence in an (∞,1)-category]]_ .
 
-Froma modern point of view, the mathematical model for a [[gauge field]] in physics is a [[cocycle]] in (nonabelian) [[differential cohomology]]: a [[principal bundle]] with [[connection on a bundle|connection]] and its higher analogs. These naturally do not form just a set, but a [[groupoid]] and generally an [[∞-groupoid]], whose morphisms are gauge transformations, and higher morphisms are gauge-of-gauge transformations. The development of [[differential cohomology]] has to a fair extent been motivated by and influenced by its application to fundamental theoretical physics in general and [[gauge theory]] in particular.  
+From a modern point of view, the mathematical model for a [[gauge field]] in physics is a [[cocycle]] in (nonabelian) [[differential cohomology]]: a [[principal bundle]] with [[connection on a bundle|connection]] and its higher analogs. These naturally do not form just a set, but a [[groupoid]] and generally an [[∞-groupoid]], whose morphisms are gauge transformations, and higher morphisms are gauge-of-gauge transformations. The development of [[differential cohomology]] has to a fair extent been motivated by and influenced by its application to fundamental theoretical physics in general and [[gauge theory]] in particular.  
 
 Around 1850 Maxwell realized that the [[field strength]] of the [[electromagnetic field]] is modeled by what today we call a closed [[differential form|differential 2-form]] on [[spacetime]]. In the 1930s Dirac observed that more precisely this 2-form is the [[curvature]] 2-form of a [[circle group|U(1)]]-[[principal bundle]] with [[connection on a bundle|connection]], hence that the electromagnetic field is modeled 
 by what today is called a degree 2-cocycle in _[[ordinary differential cohomology]]_ .
@@ -172,7 +172,7 @@ In the 1950s [[Yang-Mills theory]] identified the [[field strength]] of all the 
 It is noteworthy that already in this mathematical formulation of experimentally well-confirmed fundamental physics the seed of higher differential cohomology is hidden: Dirac had not only identified the [[electromagnetic field]] as a [[line bundle]] with connection, but he also correctly identified (rephrased in modern language) its underlying cohomological [[Chern class]] with the (physically hypothetical but formally inevitable) [[magnetic charge]] located in [[spacetime]]. But in order to make sense of this, he had to resort to removing the support of the magnetic charge density from the spacetime manifold, because Maxwell's equations imply that at the support of any magnetic charge the 2-form representing the [[field strength]] of the [[electromagnetic field]] is in fact _not_ closed and hence in particular _not_ the curvature 2-form of an ordinary connection on 
 an ordinary bundle.
 
-In ([Freed](#Freed)) this old argument was improved by refining the model for the electromagentic field one more step: 
+In ([Freed](#Freed)) this old argument was improved by refining the model for the electromagnetic field one more step: 
 [[Dan Freed]] notices that the charge current 3-form is itself to be regarded as a curvature, but for a connection on a [[circle n-bundle with connection|circle 2-bundle with connection]] -- also called a [[bundle gerbe]] -- , which is a cocycle in degree 3 [[ordinary differential cohomology]]. Accordingly, the [[electromagnetic field]] is fundamentally not quite a [[line bundle]], but a [[twisted bundle]] with connection, with the twist being the [[magnetic charge]] 3-cocycle. Freed shows that this perspective is inevitable for understanding the [[quantum anomaly]] of the [[action functional]] for [[electromagnetism]] is the presence of magnetic charge. 
 
 In summary, the experimentally verified models, to date, of fundamental physics are based on the notion of (twisted) $U(n)$-principal bundles with connection for the [[Yang-Mills field]] and $O(d,1)$-principal bundles with connection for the description of [[gravity]], hence on nonabelian differential cohomology in degree 2 (possibly with a degree-3 twist). 
