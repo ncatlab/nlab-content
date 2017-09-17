@@ -16,9 +16,14 @@
 
 ## Idea
 
+Just as [[cat-1-group]]s (i) give models for connected [[homotopy 2-type]]s, (ii) are equivalent to [[crossed modules]], or [[2-group]]s,and are an algebraic encoding of [[internal category|internal categories]] within the category [[Grp]] of groups, so it is not surprising that higher dimensional analogues encode higher order homotopy information. This gives one the abstract definition:
+
+##Abstract definition
+
 A _$cat^n$-group_ is a strict [[n-fold category]] [[internal category|internal]] to [[Grp]]. 
 
-Regarding a [[group]] as a [[groupoid]] with a single object, this is the same as an [[n-fold category|(n+1)-fold groupoid]] in which in one direction all morphisms are [[endomorphism]]s.
+
+Regarding a [[group]] as a [[groupoid]] with a single object, this is the same as an [[n-fold category|(n+1)-fold groupoid]] in which in one direction all morphisms are [[endomorphism]]s and there is corresponding notion of cat^n$-groupoid.
 
 As with the cases $n=1$ and 2, there is a neat purely group theoretic definition of these objects.
 
