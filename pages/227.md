@@ -212,6 +212,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * **ring**, [[E-∞ ring]]
 
+  * [[commutative ring]], [[commutative algebra]]
+
   * [[ring object]]
  
     * [[topological ring]]
