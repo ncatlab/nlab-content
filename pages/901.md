@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc} 
 
 ## Idea 
@@ -99,8 +99,12 @@ $$
 with $D$ a [[filtered category]].
 =--
 
-**Remark**
++-- {: .num_defn}
+###### Definition
+
 Given that $[C^{op},Set]$ is the [[free cocompletion]] of $C$, $ind$-$C$ defined in this way is its "free cocompletion under filtered colimits."
+
+=--
 
 To compare with the first definition, notice that indeed the formula for the [[hom-set]]s is reproduced:
 
