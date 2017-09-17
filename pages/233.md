@@ -315,6 +315,10 @@ from the [[stable (∞,1)-category]] of $A$-modules to the [[stabilization]] of 
 
 ## Related concepts
 
+### Modules over higher and generalized algebras
+
+There is a notion of [[algebra over an operad]]. The corresponding notion of modules is descrived at [[module over an algebra over an operad]].
+
 ### Vector bundles and sheaves of modules
 
 A [[vector space]] is a [[vector bundle]] over the [[point]]. For every [[vector bundle]] $E \to X$ over a [[space]] $X$, its collection $\Gamma(E)$ of [[section]]s is a module over the monoid/ring of functions on $X$. When $X$ is a [[ringed space]], $\Gamma(X)$ is usefully thought of as a [[sheaf]] of modules over the [[structure sheaf]] of $X$:
