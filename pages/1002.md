@@ -86,7 +86,7 @@ in $Set^{Fin}$ used in the codensity monad description of ultrafilters.
 
 ### Ultrafilters via other algebraic theories 
 
-There are other descriptions of ultrafilters, based on [$k$-biased Boolean algebras](http://ncatlab.org/nlab/show/Boolean+algebra#biased_boolean_algebras_9). Recall the proposition there: 
+There are other descriptions of ultrafilters, based on [$k$-valued Post algebras](http://ncatlab.org/nlab/show/Boolean+algebra#valued_post_algebras_9). Recall the proposition there: 
 
 * Let $M_k$ be the monoid of endofunctions on a $k$-element set, for a finite set of cardinality $k \geq 3$. The forgetful functor $U_k: BoolAlg \to M_k\text{-}Set$ is full and faithful. 
 
@@ -104,9 +104,9 @@ $$\beta(X) \to M_3\text{-}Set(3^X, 3)$$
 
 is a natural bijection, giving us another way of viewing ultrafilters on $X$, this time involving only _unary_ operations. 
 
-This is of course another codensity monad description in disguise; here it is induced by the full inclusion 
+This is of course another codensity monad description in disguise; this time the codensity monad is induced by the full inclusion 
 
-$$M_3 \to Set$$ 
+$$B M_3 \to Set$$ 
 
 of the category of endofunctions on the 3-element set into the category of sets. The results of this section say that the ultrafilter monad is the codensity monad for this particular inclusion. 
 
