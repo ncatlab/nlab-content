@@ -1,4 +1,19 @@
-# $Cart Sp$
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+# Contents
 * table of contents
 {: toc}
 
@@ -17,6 +32,7 @@ By $CartSp$ we denote the [[category]]
 * whose [[morphism]]s are all [[smooth functions]] between these spaces.
 
 So $CartSp$ may be thought of as the [[full subcategory]] of [[Diff]] on the [[smooth manifold]]s of the form $\mathbb{R}^n$ for $n \in \mathbb{N}$.
+
 
 Some variants of this are of interest:
 
@@ -104,7 +120,7 @@ following the original article
 
 With an eye towards [[Frölicher space]]s the site is also considered in section 5 of 
 
-* [[Hirokazu Nishimura]], _Beyond the Regnant Philosophy of Manifolds_ ([arXiv:0912.0827](http://arxiv.org/abs/0912.0827))
+* Hirokazu Nishimura, _Beyond the Regnant Philosophy of Manifolds_ ([arXiv:0912.0827](http://arxiv.org/abs/0912.0827))
 
 
 category: category
