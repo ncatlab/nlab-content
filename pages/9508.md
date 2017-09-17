@@ -1,5 +1,2 @@
 
-* [webpage](http://www.math.toronto.edu/mein/)
-
-category: people
-
+[[Eckhard Meinrenken]]
