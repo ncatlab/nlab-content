@@ -26,7 +26,9 @@ The [[Mitchell–Bénabou language]] of a [[topos]] is a [[higher-order logic|hi
 
 * [[semantics]]
 
-  * [[stack semantics]]
+* [[stack semantics]]
+
+* A Kripke model is the special case of a presheaf topos over a poset.
 
 
 ## References
@@ -39,10 +41,10 @@ section VI.6 of
 
 Lecture notes include
 
-* [[Ieke Moerdijk]],  [[Jaap van Oosten]], _Topos theory_, lecture notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf))
+* [[Ieke Moerdijk]],  [[Jaap van Oosten]], _Topos theory_, lecture notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)) (page 58 and following)
 
-(page 58 and following)
-
+[[!redirects Kripke model]]
+[[!redirects Kripke models]]
 
 [[!redirects Kripke-Joyal semantics]]
 [[!redirects Kripke–Joyal semantics]]
