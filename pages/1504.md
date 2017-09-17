@@ -54,8 +54,11 @@ The shortcoming of the current development of string field theory can probably b
 
 Closed string field theory is governed by an [[L-infinity algebra]] of interactions, open string field theory by an [[A-infinity algebra]] and open-closed string field theory by a mixture of both: an [[open-closed homotopy algebra]].
 
+## Bosonic open string field theory
 
-## Definition
+(...)
+
+## Bosononic closed string field theory
 
 So far string field theory is defined in terms of an [[action functional]]. So, strictly speaking, it is defined as a [[classical field theory]]. The corresponding [[BV-BRST formalism|quantum master action]] is known, but apart from that not much detail about the [[quantization]] of this action has been considered in the literature.
 
@@ -367,6 +370,11 @@ $$
 $$
 
 for $A$ a $\mathfrak{g}$-[[infinity-Lie algebroid valued differential form|valued differential form]] on some $\Sigma$. So the closed string field theory action looks like that of $\infty$-Chern-Simons theory over an odd-graded $\Sigma$.
+
+
+## Superstring field theory
+
+For the moment see _[[WZW-type superstring field theory]]_ .
 
 
 ## References
