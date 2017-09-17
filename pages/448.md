@@ -100,6 +100,10 @@ As an important step:
 
 (These statements should actually be treated as conjectures for the moment until I write out careful proofs. The basic technique is subdivision.) 
 
+#### Buildings
+
+An important class of simplicial complexes is provided by the notion of [[building]], due to Jacques Tits. More generally, many simplicial complexes are built from [[flag|flags]] in posets. 
+
 ## References
 
 A standard textbook reference is
