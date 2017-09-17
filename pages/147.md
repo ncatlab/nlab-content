@@ -390,8 +390,9 @@ Other classes of sites are listed in the following.
 
 * The sites that define the [[higher geometry|geometry]] called [[algebraic geometry]] are site structures on categories of formal duals of [[commutative ring]]s or commutative [[associative algebra]]s
 
-  * [[fppf site]], [[fpqc site]], [[etale site]], [[Zariski site]] [[crystalline site]], 
-    etc.
+  * [[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ [[Nisnevich site]] $\to$ [[Zariski site]]
+
+    [[crystalline site]]
 
 
 
