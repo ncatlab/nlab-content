@@ -1,4 +1,4 @@
-The material previously on this page referred to [the Online Encylcopedia of Integer Sequences](http://www.research.att.com/~njas/sequences/?q=Awbrey)
+The material previously on this page referred to the [Online Encyclopedia of Integer Sequences Wiki](http://oeis.org/wiki/Riffs_and_Rotes)
 
 [[!redirects Riffs & Rotes]]
 [[!redirects riffs & rotes]]
