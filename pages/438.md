@@ -30,7 +30,7 @@ I have also put the start of a brief discussion of the relationships between the
 ###List of Goodies!!###
 Please go to [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) for downloads and more details.
 
-* _The Menagerie_: a set of notes on crossed modules, higher dimensional analogues, simplicial techniques, homotopy coherence, and non-Abelian cohomology of various sorts. This version consists of 10 chapter. It will be updated periodically.
+* _The [[Menagerie]]_: a set of notes on crossed modules, higher dimensional analogues, simplicial techniques, homotopy coherence, and non-Abelian cohomology of various sorts. This version consists of 10 chapter. It will be updated periodically.
 
 * _Abstract Homotopy Theory: The Interaction of Category Theory and Homotopy 
 theory_ This article is an expanded version of notes for a series of lectures given at the _Corso estivo Categorie e Topologia_ in 1991.
