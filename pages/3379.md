@@ -29,6 +29,8 @@ Note that if an idempotent adjunction is [[monadic adjunction|monadic]], then (u
 
 * Any adjunction between [[posets]] is idempotent.  This is a central fact in the theory of [[Galois connections]].  Thus, in a sense, *non-idempotent* adjunctions are an important new idea arising by the "groupoidal" form of [[vertical categorification]].
 
+* More generally, an adjunction in which the [[full image]] of either functor is a poset must be idempotent.  This follows from conditions 4, 5, 9, and 10 above.  This fact arises when constructing [[generalized kernel]]s.
+
 * The "frame of opens" and "space of points" functors between [[topological spaces]] and [[locales]] form an idempotent adjunction.  The resulting equivalence of categories is between [[sober spaces]] (which are reflective in [[Top]]) and spatial locales (which are coreflective in [[Loc]]).
 
 * For any [[topological space]] $X$, there is an idempotent adjunction between the category $[O(X)^{\op}, Set]$ of [[presheaves]] on $X$ and the category $Top/X$ of spaces over $X$ (the right adjoint gives the presheaf of [[sections]] of a space over $X$).  The resulting equivalence of categories is between [[sheaves]] in the modern sense of presheaves satisfying [[descent]], and sheaves in the original sense as [[étalé spaces]].  See [this blog post](http://golem.ph.utexas.edu/category/2010/02/sheaves_do_not_belong_to_algeb.html).
