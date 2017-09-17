@@ -29,7 +29,7 @@
 
 ## Idea
 
-This page describes a proposal for a formalization of the concept of [[quantization]] (from  [[local prequantum field theory]] to [[local quantum field theory]]) formulated in terms of [[cohomology]] in [[higher differential geometry]], specifically in [[cohesive (∞,1)-toposes]].
+This page describes a proposal for a formalization of the concept of [[quantization]] -- supposedly a natural process that turns  the [[higher geometry|higher geometric]] data of a [[local prequantum field theory]] into the [[higher algebra|higher algebraic]] data of a [[local quantum field theory]] -- formulated in terms of [[cohomology]] in [[higher differential geometry]], specifically in [[cohesive (∞,1)-toposes]].
 
 The fundamental observation here is that is natural to 
 
@@ -39,7 +39,30 @@ The fundamental observation here is that is natural to
 
 1. (**path integral**) -- identify the [[path integral]] [[quantization]]/[[partition function]] of these local action functionals on spaces of trajectories as the [[path integral as a pull-push transform|pull-push operation]]  in [[twisted cohomology|twisted]] $E$-[[cohomology theory]] through these correspondences.
 
-This perspective has many precursors, listed in the [references below](#RelatedWorkOnTheIdeaOfMotivicQuantization). What is described here might be thought of as a proposal for a coherent general and natural formulation, in the spirit of "[[schreiber:Synthetic Quantum Field Theory]]" formulated in the [[higher differential geometry]] of [[cohesive (∞,1)-toposes]].
+This perspective has many precursors, listed in the [references below](#RelatedWorkOnTheIdeaOfMotivicQuantization). What is described here might be thought of as a proposal for a coherent, general and natural formulation, in the spirit of "[[schreiber:Synthetic Quantum Field Theory]]" formulated in the [[higher differential geometry]] of [[cohesive (∞,1)-toposes]].
+
+Before looking at the details, we indicate some of the characteristic aspects of _motivic quantization_:
+
+* _[The motivic aspect](#TheMotivicAspect)_;
+
+* _[The holographic aspect](#TheHolographicAspect)_
+
+* _[Anomalies and orientation](#AnomaliesAndOrientation)_
+
+Then in the main part of the text we first lay out the basic definitions of _motivic quantization_ in 
+
+* _[General theory](#GeneralTheory)_;
+
+then we consider realizations of this theory in various
+
+* _[Models](#Models)_;
+
+and then we discuss a list of examples in 
+
+* _[Examples](#Examples)_.
+
+### The motivic aspect
+ {#TheMotivicAspect}
 
 As our title indicates, it may be useful to note the analogy of the structures considered here to structures in [[motivic cohomology]] and in [[six operations]]-yoga: a [[correspondence]] 
 
@@ -74,17 +97,30 @@ $$
 
 Since this process is analogous to how [[Chow motives]] induce cocycles in [[motivic cohomology]] (an observation which for $E = $ [[K-theory spectrum|KU]] was amplified in ([Connes-Skandalis 84](#ConnesSkandalis84), [Connes-Consani-Marcolli 05](#ConnesConsaniMarcolli05))) it may be useful to refer to this process as _[[motive|motivic]] quantization_. Just as the idea of a category of [[motives]] is to constitute a "linearization" or "abelianization" of a category of [[spaces]], so [[quantization]] is a process that sends (non-linear) spaces of field configurations to linear [[spaces of quantum states]]. This linearization by which [[quantum states]] may be added as elements of an [[abelian group]] encodes the [[superposition principle]] and hence [[quantum interference]], the hallmark of [[quantum physics]].
 
-In the following we first lay out the basic definitions of _motivic quantization_ in 
+### The holographic aspect
+ {#TheHolographicAspect}
 
-* _[General theory](#GeneralTheory)_
+A priori, motivic quantization applies to _[[topological field theory]]_. However, we consider it in the full generality that includes [[boundary field theory]] (field theory with [[branes]]) and generally [[defect field theory]] (field theory with [[domain walls]] of arbitrary codimension). This induces boundary effects which are not purely topological but encode "physical" field theories.
 
-then we consider realizations of this theory in various
+Concretely, for $Z \colon Bord_n(def)^\otimes \to \mathcal{C}^\otimes$ an topological [[local field theory]] which includes a boundary condition encoded by a generator $(\emptyset \stackrel{\partial}{\to} \ast) \in Mor_1(Bord_n(def))$, then crossing with this yields an $(n-1)$-dimensional field theory $Z((-)\times (\partial))$, the corresponding [[boundary field theory]]. This however now depends on choices of [[orientations in generalized cohomology]] that go along with defining a boundary component for $Z$, and these choices constitute geometric data.
 
-* _[Models](#Models)_
+For instance for $Z$ 3-dimensional [[Chern-Simons theory]], the relevant choice of orientation is induced by a choice of [[conformal structure]] on the boundary and so the boundary theory is a non-topological [[conformal field theory]]. (For details on this see at _[[AdS3-CFT2 and CS-WZW correspondence]]_.)
 
-and then we discuss a list of examples in 
+In [[physics]] this general kind of relation between $n$-dimensional topological field theories and $(n-1)$-dimensional non-topological field theories on their boundary is has come to be known as the _[[holographic principle]]_.  See there for more background.
 
-* _[Examples](#Examples)_
+
+
+### Anomalies and orientation
+ {#AnomaliesAndOrientation}
+
+
+We see that the motivic quantization operation over a [[cohomology theory]] $E$ depends on the existence of and the choice of [[orientation in generalized cohomology|orientation in E-cohomology]]. The conditions that such an orientation exist in the first place turns out to be what in physics are known as the [[quantum anomaly cancellation]] conditions.
+
+| [[theory (physics)|physical theory]] | [[cohomology theory]] |
+| [[quantum anomaly]] | [[obstruction]] to [[orientation in generalized cohomology|orientation]] for [[push-forward in generalized cohomology|push-forward]] |
+
+(...) 
+
 
 ## General theory
  {#GeneralTheory}
@@ -976,6 +1012,9 @@ and then fully explicitly in
 
 * [[Dan Freed]], _Twisted K-theory and the Verlinde ring_, Andrejewski lecture ([pdf slides](http://www.ma.utexas.edu/users/dafr/Andrejewski%20Lectures.html))
 
+Detailed discussion along these lines of a pull-push quantization over [[KU]] of a 2-dimensional [[Chern-Simons theory]]-like [[gauge theory]] is in 
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
 
 
 The proposal that the natural codomain for geometric quantization is [[KK-theory]] is due to 
