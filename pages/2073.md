@@ -27,7 +27,7 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 
 # Notation #
 
-* The category of marked simplicial sets is denoted $Set^+$.
+* The category of marked simplicial sets is denoted $sSet^+$.
 
 * for $S$ a [[simplicial set]] let
 
@@ -44,6 +44,20 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
   * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[internal hom]] $Y^X$
 
   * $Map^#(X,Y)$ the simplicial set consisting of all simplices $ \sigma \in Map^\flat(X,Y)$ such that every edge of $\Sigma$ is a marked edge of $Y^X$.
+
+# Enrichment #
+
+The category of marked simplicial sets is [[cartesian closed]]. 
+
+* The $n$-simplices of the internal hom $Y^X$ are simplicial maps $X \times \Delta^n \rightarrow Y$ such that when you restrict $X_1 \times \Delta_1^n \rightarrow Y_1$ to $E \times \Delta_0^n$ (where $E$ is the set of marked edges of $X$), this morphism factors through the marked edges of $Y$.
+
+* The marked edges of $Y^X$ are those simplicial maps $X \times \Delta^1 \rightarrow Y$ such that the restriction of $X_1 \times \Delta_1^1 \rightarrow Y_1$ to $E \times \Delta^1_1$ factors though the marked edges of $Y$. In the presence of the previous condition, this says that when you apply the homotopy $X \times \Delta^1 \rightarrow Y$ to a marked edge of $X$ paired with the identity at $[1]$, the result should be marked.
+
+There are functors 
+$$\array{ & \stackrel{(-)^{\flat}}{\rightarrow} & \\ & \stackrel{(-)^{\flat}}{\leftarrow} & \\ sSet & \stackrel{(-)^{\sharp}}{\rightarrow} & sSet^+ \\ & \stackrel{(-)^{\sharp}}{\leftarrow} & \array}$$
+ with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
+
+*The hom-objects $Map^#(X,Y) = (Y^X)^#$ make $sSet^+$ a simplicial category.
 
 # Applications #
 
