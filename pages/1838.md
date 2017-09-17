@@ -21,6 +21,10 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 ## Related concepts
 
+* [[electromagnetic radiation]]
+
+  * [[light]]
+
 * [[Dirac charge quantization]]
 
 * [[Einstein-Maxwell theory]]
