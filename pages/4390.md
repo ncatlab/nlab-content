@@ -17,7 +17,7 @@ Often TAGs are easier to understand than arbitrary topological groups, because n
 
 ## Applications
 
-TAGs are important in [[analysis]].  For example, every [[topological vector space]] (TVS) is a TAG, and much of the theory of TVSs can be generalised to TAGs.
+TAGs are important in [[analysis]].  For example, every [[topological vector space]] (TVS) is a TAG, and much of the theory of TVSs can be generalised to TAGs.  See also [[G-norm]].
 
 
 ## References
