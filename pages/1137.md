@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -5,15 +10,16 @@
 
 ## Idea 
 
-Pairs of adjoint functors between the categories of sheaves appear in varius setups, e.g. geometric morphisms of topoi, abelian categories of quasicoherent sheaves on schemes, bounded derived categories of coherent sheaves on varieties. 
-
-For example, the [[right adjoint]] part $f_*$ of any [[geometric morphism]] 
+The [[right adjoint]] part $f_*$ of any [[geometric morphism]] 
 
 $$  
   (f^* \dashv f_*) \;\; : E_1  \leftrightarrows E_2
 $$
 
 of [[topos]]es is called a **direct image**.
+
+Moe generally, pairs of [[adjoint functor]]s between the [[categories of sheaves]] appear in various other setups apart from [[geometric morphism]]s of [[topoi]], for instance on [[abelian categories]] of [[quasicoherent sheaves]], bounded [[derived categories]] of [[coherent sheaves]] and the term _direct image_ is used for the right adjoint part of these, too.
+
 
 Specifically for [[Grothendieck topos]]es:
 a [[site|morphism of sites]] $f : X \to Y$ induces a [[geometric morphism]] of [[Grothendieck topos]]es
@@ -33,6 +39,9 @@ between the [[category of sheaves|categories of sheaves]] on the sites, with
 * $p_*$ the **direct image**
 
 * and $p^*$ its [[left adjoint]]: the [[inverse image]].
+
+
+
 
 ## Definition
 
