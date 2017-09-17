@@ -123,27 +123,76 @@ such that
 This is [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
 
 
-+-- {: .num_remark }
-###### Remark
++-- {: .num_defn #ChanComplexInducedFromZComplex}
+###### Definition
 
 Given a $\mathbb{Z}$-chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableInfinityCategory}, 
-setting
+define a [[sequential diagram]] in the [[homotopy category of an (infinity,1)-category|homotopy category]] 
 
 $$
-  C_n \coloneqq \Sigma^{-n} F(n,n+1)
+  C_\bullet
+  \;\colon\;
+  (\mathbb{Z}, \leq)
+    \longrightarrow
+  Ho(\mathcal{C})
 $$
 
-and defining a [[differential]] induced from the [[connecting homomorphisms]] of the defining [[homotopy fiber sequences]]
+by setting
+
+$$
+  C_n \coloneqq \Sigma^{-n} F(n,n+1) \in Ho(\mathcal{C})
+$$
+
+and taken
+
+$$
+  d_n \;\colon\; C_n \longrightarrow C_{n-1}
+$$
+
+to be the [[connecting homomorphisms]] of the defining [[homotopy fiber sequences]]
 
 $$
   F(n-1,n) \to F(n-1, n+1) \to F(n,n+1)
+  \,,
 $$
 
-yields an ordinary [[chain complex]] $C_\bullet$ in the [[homotopy category of an (∞,1)-category|homotopy category]].
+hence the $n$-fold [[suspension]] of the moprhism $\delta_n$  in the [[pasting]] of [[homotopy pushouts]]
+
+$$
+  \array{
+    F(n-1,n) &\longrightarrow& F(n-1,n+1) &\to& 0
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    0 &\longrightarrow& F(n,n+1) &\stackrel{\delta_n}{\longrightarrow}& \Sigma F(n-1,n)
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The sequence $C_\bullet$ in def. \ref{ChanComplexInducedFromZComplex} is a [[chain complex]] in that the $d_\bullet$ are [[differentials]] hence in that for all $n \in \mathbb{Z}$ we have
+
+$$
+  d_n \circ d_{n+1} = 0
+$$
+
+in $Ho(\mathcal{C})$.
 
 =--
 
 ([[Higher Algebra|Higher Algebra, remark 1.2.2.3]])
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
 
 +-- {: .num_prop #ChainComplexesFromFilteredObjects}
 ###### Proposition
