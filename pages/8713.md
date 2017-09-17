@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[manifold]] is called **closed** if it is 
+
+1. [[compact topological space|compact]];
+
+1. without [[boundary]].
+
+## Related concepts
+
+* [[manifold with boundary]]
+
+[[!redirects closed manifolds]]
+
