@@ -5,7 +5,7 @@
 
 ## Definition ##
 
-Given a $k$-[[bialgebra]] $H$, and a left [[Hopf action]] $\triangleright$ of $H$ on a $k$-algebra $A$, one defines the **crossed product algebra** $A\sharp H$ (in [[Hopf algebra]] literature also called the **smash product algebra**) as the $k$-algebra whose underlying vector space is $A\otimes H$ and the product is given by
+Given a $k$-[[bialgebra]] $H$, and a left [[Hopf action]] $\triangleright$ of $H$ on a $k$-algebra $A$, one defines the **crossed product algebra** $A\sharp H$ (in [[Hopf algebra]] literature also called the **smash product algebra** or Hopf smash product; distinguish from the rather different [[smash product]] in topology) as the $k$-algebra whose underlying vector space is $A\otimes H$ and the product is given by
 
 $$
 (a\otimes h)(a'\otimes h') =
@@ -75,6 +75,5 @@ $$\tau(h,k) = \sum f^{-1}(h_{(1)})[h_{(2)}\triangleright f^{-1}(k_{(1)})]\sigma(
 The isomorphism $i$ is then given by
 $$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
 
-
-
+[[!redirects Hopf smash product]]
 [[!redirects smash product algebra]]
