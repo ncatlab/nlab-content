@@ -65,6 +65,10 @@ In QM, the state of a quantum system is a normalized vector of a given complex (
 
 #### $L^2$ standard representation
 
+### aspects of quantum information theory
+TODO
+(please mention [Gleason's theorem] (/nlab/show/von+Neumann+algebra#GleasonsTheorem))
+
 ### In FQFT
 
 #### States as rays in Hilbert spaces
@@ -85,6 +89,8 @@ To get to the Hilbert space picture of quantum mechanics one needs to employ the
 +--{: .query}
 [[Tim van Beek]]: One (short) remark per reference what it's about would be nice.
 =--
+
+### aspects of quantum information theory
 
 * C.A. Fuchs, _QBism, the Perimeter of Quantum Bayesianism_ ([pdf](http://arxiv.org/abs/1003.5209)).
 
