@@ -13,7 +13,10 @@ A __cartesian monoidal category__ is a [[monoidal category]] whose monoidal stru
 
 A cartesian monoidal category which is also [[closed monoidal category|closed]] is called a [[cartesian closed category]].
 
-Any category with finite products can be considered as a cartesian monoidal category (as long as we have either (1) a specified product for each pair of objects, (2) a global [[axiom of choice]], or (3) we allow the monoidal product to be an [[anafunctor]]).  Note that the term __cartesian category__ usually means a category with finite products but can also mean a [[finitely complete category]].
+Any category with finite products can be considered as a cartesian monoidal category (as long as we have either (1) a specified product for each pair of objects, (2) a global [[axiom of choice]], or (3) we allow the monoidal product to be an [[anafunctor]]).
+
+The term __cartesian category__ usually means a category with finite products but can also mean a [[finitely complete category]], so we avoid that term.
+
 
 ## Properties
 
@@ -44,7 +47,7 @@ $$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\
 respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.)
 
 
-
-[[!redirects cartesian categories]]
 [[!redirects cartesian category]]
+[[!redirects cartesian categories]]
+[[!redirects cartesian monoidal category]]
 [[!redirects cartesian monoidal categories]]
