@@ -283,9 +283,7 @@ $$
 
 ### Fundamental geometric $\infty$-categories {#FundGeomInftCat}
 
-Let $C$ be a category with finite [[limit]]s and an interval object $ {*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*}$ 
-
- in $C$, where ${*}$ denotes the [[terminal object]].
+Let $C$ be a category with finite [[limit]]s and (plain) interval object $ {*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*}$, where ${*}$ denotes the [[terminal object]].
 
 This may or may not come with further structures and properties as discussed in the definitions above. For the following however no more than that is neceesray.
 
