@@ -232,10 +232,13 @@ For the [[superstring]] a variant is needed.
 
 See around ([DFM II, supposition 3.6](#DistlerFreedMooreII)) for relation to the above.
 
+## Related concepts
+
+* [[KR-theory]]
 
 ## References
 
-A definition and study of orientifold [[bundle gerbe]]s, modeling the [[Kalb-Ramond field]], is in
+A definition and study of orientifold [[bundle gerbes]], modeling the [[B-field]] [[background gauge field|background]] for the [[bosonic string]], is in
 
 * [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
  {#Jandl}
