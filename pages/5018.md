@@ -25,9 +25,9 @@
 
 ## Idea
 
-A _holonomy groupoid_ is a [[groupoid]] naturally associated with a [[foliation]]. 
+A _holonomy groupoid_ is a ([[topological groupoid|topological]]/[[Lie groupoid|Lie]]-)[[groupoid]] naturally associated with a [[foliation]] $\mathcal{F}$ of a [[manifold]] $X$. It is in some sense the smallest de-singularization of the [[leaf space]] [[quotient]] $X/\mathcal{F}$ of the foliation, which is in general not itself a manifold. Every [[foliation groupoid]] of $\mathcal{F}$ has this de-singularization property, but the holonomy groupoid is minimal with this property, in some sense.
 
-Given a (Riemannian) [[foliation]] $F$ on a manifold $X$, the _holonomy groupoid_ of $F$ has as objects the points of $X$. Given points $x,y$ on the same leaf, a morphism between them is the equivalence class of a path in the leaf from $x$ to $y$, where two paths are identified if they induce the same [[germ]] of a holonomy transformation on a small transversal subspace between their endpoints. If $x$ any $y$ are not on the same leaf, then there is no morphism between them.
+Explicitly, given a (Riemannian) [[foliation]] $F$ on a manifold $X$, the _holonomy groupoid_ of $F$ has as objects the points of $X$. Given points $x,y$ on the same leaf, a morphism between them is the equivalence class of a path in the leaf from $x$ to $y$, where two paths are identified if they induce the same [[germ]] of a holonomy transformation on a small transversal subspace between their endpoints. If $x$ any $y$ are not on the same leaf, then there is no morphism between them.
 
 This is naturally a [[topological groupoid]] and a [[Lie groupoid]] if done right.
 
