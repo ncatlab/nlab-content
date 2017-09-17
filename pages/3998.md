@@ -26,7 +26,7 @@ $$
 
 etc.  In each case we could have said $\text{even}\;n \ge 0$ or $\text{odd}\;n \ge 0$, since the coefficients kill off the terms in which $n$ is smaller than the index---the coefficients are the unique simplest expressions that do that.
 
-* Each of these symmetric function of $(\theta_1,\theta_2,\theta_3,\dots)$.
+* Each of these is a symmetric function of $\theta_1,\theta_2,\theta_3,\dots$.
 
 * 0 is an identity element for each of these, i.e. we have $f_k(0,\theta_2,\theta_3,\theta_4,\dots) = f_k(\theta_2,\theta_3,\theta_4,\dots)$.
 
