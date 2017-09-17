@@ -6,15 +6,15 @@
 * automatic table of contents goes here
 {:toc}
 
-#Unitary operators
+## Unitary operators
 
-A unitary operator $U$ is a bounded linear operator $U: \mathcal{H} \to \mathcal{H}$ on a [[Hilbert space]] $\mathcal{H}$ that satisfies
+A **unitary operator** $U$ is a bounded linear operator $U: \mathcal{H} \to \mathcal{H}$ on a [[Hilbert space]] $\mathcal{H}$ that satisfies
 
 $U^{*}U=U U^{*}=I$
 
 where $U^{*}$ is the [[adjoint]] of $U$ and $I$ is the identity operator.  This property is equivalent to saying that the range of $U$ is dense and that $U$ preserves the inner product $\langle \cdot,\cdot\rangle$ on the Hilbert space.  An operator is unitary if and only if $U^{-1}=U^{*}$.
 
-Unitary operators are the automorphisms of Hilbert spaces since they preserve the basic structure of the space, e.g. the topology.  The group of all unitary operators from a given Hilbert space to itself is sometimes called the _Hilbert group_ of $H$ and is denoted Hilb($H$).
+Unitary operators are the [[automorphism]]s of Hilbert spaces since they preserve the basic structure of the space, e.g. the topology.  The group of all unitary operators from a given Hilbert space to itself is sometimes called the _Hilbert group_ of $H$ and is denoted Hilb($H$).
 
 +--{: .query}
 [[Ian Durham]]: It seems that, given the similarity to the category of [[quantum channels]], these should form a subcategory of $Vect_{\mathbb{C}}$.  Anybody else agree?
