@@ -296,3 +296,6 @@ Section 1.2.9 of
 [[!redirects over (infinity,1)-categories]]
 
 [[!redirects over quasi-category]]
+
+[[!redirects slice-(∞,1)-category]]
+[[!redirects slice-(∞,1)-categories]]
