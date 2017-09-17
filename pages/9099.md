@@ -28,7 +28,16 @@ The case of [[higher dimensional Chern-Simons theory]] in [[dimension]] 7.
 
 ## Examples
 
+We discuss
+
+1. [Abelian 7d CS theory](#AbelianTheory) of an abelian 3-form connection;
+
+1. [7d p2 theory on String 2-connections](#OnString2Connections)
+
+1. [2-species cup-product theory on a G2 manifold](#TwoSpeciesCupProductTheoryOnG2Manifold)
+
 ### Abelian theory
+ {#AbelianTheory}
 
 A basic 7d [[higher dimensional Chern-Simons theory]] is the abelian theory, whose [[extended Lagrangian]] $\mathbf{L}$ is the [[diagonal]] of the [[cup product in ordinary differential cohomology]] 
 
@@ -65,10 +74,14 @@ $$
   \phi \;\colon\; \Sigma_7 \to \mathbf{B}^3 U(1)_{conn}
 $$
 
-here is a [[circle n-bundle with connection|circle 3-bundle with connection]]. In the special case that the underlying [[circle 3-group]] [[principal 3-bundle]] is trivializable and trivialized, this is equivalently a [[differential 3-form]] $C \in \Omega^3(\Sigma_7)$ and the above [[action functional]] takes this to the simple explression
+here is a [[circle n-bundle with connection|circle 3-bundle with connection]]. In the special case that the underlying [[circle 3-group]] [[principal 3-bundle]] is trivializable and trivialized, this is equivalently a [[differential 3-form]] $C \in \Omega^3(\Sigma_7)$ and the above [[action functional]] takes this to the simple expression
 
 $$
-  C \mapsto \exp\left(2 \pi i \int_{\Sigma_7}  C \wedge d C\right)
+  C 
+   \mapsto 
+  \exp\left(
+     2 \pi i \int_{\Sigma_7}  C \wedge d C
+  \right)
   \in U(1)
   \,,
 $$
@@ -83,6 +96,7 @@ By the argument in ([Witten98](#Witten98)) the above relation holds when we inte
 The nonabelian 7d action functional this obtained contains the following two examples as summands.
 
 ### Nonabelain $p_2$ theory on String 2-connections 
+ {#OnString2Connections}
 
 The [[second fractional Pontryagin class]] 
 
@@ -101,7 +115,7 @@ $$
   \,.
 $$
 
-where the domain is the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|moduli 2-stack]] of [[String 2-group]] [[connection on a 2-bundle|principal 2-connections]] (see at _[[differential string structure]]_ for more).
+where the domain is the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|moduli 2-stack]] of [[String 2-group]] [[connection on a 2-bundle|principal 2-connections]] (see at _[[differential string structure]]_ for more). This modulates the [[Chern-Simons circle 7-bundle]] with connection on $\mathbf{B}String_{conn}$.
 
 The [[transgression]] of this to codimension 0 yields an [[action functional]]
 
@@ -118,19 +132,177 @@ $$
 
 on string 2-connection fields. This is part of the quantum-corrected and flux-quantized extended action functional of the [[supergravity C-field]] in [[11-dimensional supergravity]] by the analysis in ([FSSII](#FSSII)).
 
-### On a $G_2$ manifold
 
-(...)
+
+### Two-species cup-product theory on a $G_2$ manifold
+ {#TwoSpeciesCupProductTheoryOnG2Manifold}
+
+For $X$ a [[G2-manifold]] with characteristic [[differential forms]] 
+
+$$
+  \omega_3 \in \Omega^3(X)
+$$ 
+
+and 
+
+$$
+  \omega_4 = \star \omega_3\in \Omega^4(X)
+$$
+
+and for $G$ a simply connected compact [[semisimple Lie group]] with [[invariant polynomial]] $\langle -,-\rangle$, consider the [[action functional]] on the space of $\mathfrak{g}$-[[Lie algebra valued 1-forms]] $A$ given by the [[integration of differential forms]]
+
+$$
+  A 
+    \mapsto 
+  \exp\left(
+    2 \pi i\int_{X} \omega_4 \wedge CS\left(A\right)
+  \right)
+  \,,
+$$
+
+where $CS(A) \in \Omega^3(X)$ is the [[Chern-Simons form]] of $A$. This, or some suitable globalization of this, has been considered as an [[action functional]] for 7-dimensional Chern-Simons-type theory in ([Donaldson-Thomas](#DonaldsonThomas)) and ([Baulieu-Losev-Nekrasov](#BaulieuLosevNekrasov)). This appears as an action functional in [[topological M-theory]] ([deBoer et al](#deBoerEtAl)).
+
+To refine this to an [[extended Lagrangian]] and then fully globalize the action functional we can ask for a [[higher geometric quantization|higher geometric prequantization]] of $\omega_4$, regarded as a [[n-plectic structure]], by a [[prequantum n-bundle|prequantum 3-bundle]] $\hat \mathbf{G}_2$
+
+$$
+  \array{
+   && \mathbf{B}^3 U(1)_{\mathrm{conn}}
+   \\
+   & {}^{\mathllap{\hat \mathbf{G}_2}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}
+   \\
+    X
+   &\stackrel{\omega_4}{\to}&
+   \Omega^4_{cl}
+  }
+  \,,
+$$ 
+
+where $\mathbf{B}^3 U(1)_{conn} \in $ [[Smooth∞Grpd]] is the smooth [[moduli ∞-stack]] of [[circle n-bundle with connection|circle 3-bundles with connection]]. 
+
+If moreover we write
+
+$$
+  \hat \mathbf{c} \;:\;
+  \mathbf{B}G_{conn}
+  \to 
+  \mathbf{B}^3 U(1)_{conn} 
+$$
+
+for the universal differential characteristic map which is the [[Lie integration]] of $\langle-,-\rangle$ (as discussed at _[[differential string structure]]_), hence the [[extended Lagrangian]] for ordinary [[3d Chern-Simons theory|3d]] $G$-[[Chern-Simons theory]], then an [[extended Lagrangian]] for the above [[action functional]] is given by the [[cup product in ordinary differential cohomology]]
+
+$$
+  X 
+  \times
+  \mathbf{B}G_{conn}
+  \stackrel{(\hat \mathbf{G}_2, \hat \mathbf{c})}{\to}
+  \mathbf{B}^3 U(1)_{conn}
+  \times
+  \mathbf{B}^3 U(1)_{conn}
+  \stackrel{\hat \cup}{\to}
+  \mathbf{B}^7 U(1)_{conn}
+  \,.
+$$
+
+(This is an cup product extended Lagrangian of the kind considered in ([FSSIII](#FSSIII)).)
+
+Notice that if we let $\hat \mathbf{G}_2(\mathbb{R}^7)$ be a [[higher geometric quantization|higher geometric prequantization]] of the [[Hodge dual]] $\omega_4^0 : \mathbb{R}^7 \to \Omega^4_{cl}$ of the [[associative 3-form]] on the [[Cartesian space]] $\mathbb{R}^7$, hence a lift in
+
+$$
+  \array{ 
+    && \mathbf{B}^3 U(1)_{conn}
+    \\
+    & {}^{\mathllap{\hat \mathbf{G}_2(\mathbb{R}^7)}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    \mathbb{R}^7 &\stackrel{\omega_4^0}{\to}& \Omega^4_{cl}
+  }
+  \,,
+$$
+
+and if we write 
+
+$$
+  \mathbf{Heis}(\hat \mathbf{G}_2(\mathbb{R}^7))
+  \subset
+  \mathbf{QuantMorph}(\hat \mathbf{G}_2(\mathbb{R}^7))
+  \in 
+  Grpd(Smooth\infty Grpd)
+$$
+
+for the corresponding [[Heisenberg ∞-group]] (the sub-[[∞-group]] of the [[quantomorphism ∞-group]] on the transformation that covers [[Hamiltonian n-plectomorphisms]] which are [[linear maps]]]), hence so that the canonical extension map is
+
+$$
+  \mathbf{Heis}(\hat \mathbf{G}_2(\mathbb{R}^7))
+  \to 
+  G_2
+  \to 
+  O(7)
+  \,,
+$$
+
+then a [[higher geometric quantization|higher prequantization]] of $\omega_4 \in \Omega^4_{cl}$ is equivalently a [[lift of the structure group]] $\hat \tau_X$ of the [[tangent bundle]] $\tau_X$ through this [[∞-group extension]]
+
+$$
+  \array{
+    && \mathbf{B}\mathbf{Heis}(\hat \mathbf{G}_2(\mathbb{R}^7))
+    \\
+    & {}^{\mathllap{\hat \tau_X}}\nearrow & \downarrow
+    \\
+    X 
+    &\stackrel{\tau_X}{\to}&
+    \mathbf{B}GL(7)
+  }
+  \,.
+$$
+
+In fact, such a lift is _in particural_ a [[G2-manifold]] structure on $X$: the intermediate lift 
+
+$$
+  \array{
+    && \mathbf{B}G_2
+    \\
+    & {}^{\mathllap{\tilde \tau_X}}\nearrow & \downarrow
+    \\
+    X 
+    &\stackrel{\tau_X}{\to}&
+    \mathbf{B}GL(7)
+  }
+$$
+
+is a [[G2-structure]] and then the further lift
+
+$$
+  \array{
+    && \mathbf{B}\mathbf{Heis}(\hat \mathbf{G}_2(\mathbb{R}^7))
+    \\
+    & {}^{\mathllap{\hat \tau_X}}\nearrow & \downarrow
+    \\
+    X 
+    &\stackrel{\tilde\tau_X}{\to}&
+    \mathbf{B}G_2
+  }
+$$
+
+in imposes a [[higher geometric quantization|higher prequantization]] of the form $\omega_4 \in \Omega^4(X)$ this defined, which _in particular_ says that $\omega_4$ is closed, hence defines an "integral $G_2$-structure", hence a [[G2-manifold]] structure.
+
+Finally notice that the prequantization lift to [[differential cohomology]] is entirely demanded by the interpretation of $\omega_4$ as the curvature of the [[supergravity C-field]] in interpretations of this setup in [[topological M-theory]] or generally the [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]] on a 4-[[sphere]] down to $X$.
 
 ## Related concepts
+
+* [[schreiber:∞-Chern-Simons theory]]
 
 * [[higher dimensional Chern-Simons theory]]
 
   * [[1d Chern-Simons theory]]
 
-  * [[Chern-Simons theory]]
+  * [[2d Chern-Simons theory]]
+
+  * [[3d Chern-Simons theory]]
+
+  * [[4d Chern-Simons theory]]
 
   * [[5d Chern-Simons theory]]
+
+  * [[6d Chern-Simons theory]]
 
   * **7d Chern-Simons theory**
 
@@ -170,12 +342,14 @@ The Chern-Simons type action functionals $A \mapsto \int_X CS(A) \wedge \omega_4
 and around (3.23) of
 
 * L. Baulieu, A. Losev, [[Nikita Nekrasov]], _Chern-Simons and Twisted Supersymmetry in Higher Dimensions_, Nucl.Phys. B522 (1998) 82-104 ([arXiv:hep-th/9707174](http://arxiv.org/abs/hep-th/9707174))
+ {#BaulieuLosevNekrasov}
 
 
 
 In 
 
 * [[Jan de Boer]], Paul de Medeiros, Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
+ {#deBoerEtAl}
 
 this is put into the context of [[topological M-theory]] (see around equation (2) in the introduction).
 
@@ -192,6 +366,7 @@ the 7d Chern-Simons action obtained by [[Kaluza-Klein reduction|compactifying]] 
 Further discussion of [[extended Lagrangians]] for 7d CS theories is in 
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
+ {#FSSIII}
 
 [[!redirects 7-dimensional Chern-Simons theory]]
 [[!redirects 7d Chern-Simons theories]]
