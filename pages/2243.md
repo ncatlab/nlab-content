@@ -6,9 +6,13 @@
 
 * [[characteristic class]]
 
+* [[fibration sequence]]
+
 ### special and general types ###
 
 * [[chain homology and cohomology|cochain cohomology]]
+
+* [[singular cohomology]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
