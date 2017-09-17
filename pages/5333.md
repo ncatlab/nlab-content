@@ -45,6 +45,8 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
     * [[dual heterotic string theory]]
 
+    * [[Witten genus]], [[(2,1)-dimensional Euclidean field theories and tmf]]
+
   * [[type II string theory]]
 
   * [[landscape of string theory vacua]]
@@ -94,7 +96,7 @@ Compactified on an [[elliptic curve]] or, more generally, [[elliptic fibration]]
 
 The basis of this story is discussed in 
 
-* [[Robert Friedman]], [[John Morgan]], [[Edward Witten]], _Vector Bundles And F Theory_ ([arXiv:hep-th/9701162](http://arxiv.org/abs/hep-th/9701162))
+* Robert Friedman, [[John Morgan]], [[Edward Witten]], _Vector Bundles And F-Theory_ ([arXiv:hep-th/9701162](http://arxiv.org/abs/hep-th/9701162))
 
 A more formal discussion is in 
 
