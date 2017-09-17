@@ -90,6 +90,13 @@ if there is a homeomorphism from $X$ to $Y$, then there is also a diffeomorphism
 
 See the corollary on p. 2 of ([Munkres](#Munkres)).
 
+## Related concepts
+
+* [[diffeomorphism group]]
+
+* [[coordinate transformation]]
+
+* [[general covariance]]
 
 ## References
 
