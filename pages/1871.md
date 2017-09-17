@@ -42,3 +42,6 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 [[!redirects Yang--Mills theory]]
 [[!redirects Yang–Mills theory]]
+
+[[!redirects Yang-Mills action]]
+[[!redirects Yang-Mills action functional]]
