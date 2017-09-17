@@ -6,12 +6,17 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
