@@ -9,13 +9,6 @@
 =--
 =--
 
-* [[algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
-
-* [[monad]] / [[(∞,1)-monad]]
-
-* [[operad]] / [[(∞,1)-operad]]
-
-***
 
 # Contents
 * automatic table of contents goes here
@@ -380,6 +373,14 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 =--
 
+
+## Related concepts
+
+* [[algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
 
 
 
