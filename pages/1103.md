@@ -21,7 +21,7 @@
 
 ### Abstract definition
 
-A __dg-algebra__, or __[[differential graded algebra]]__, is a [[monoid]] in the [[symmetric monoidal category]] of (possibly unbounded) [[chain complex]]es or [[]cochain complex]es with its standard structure of a [[monoidal category]]. 
+A __dg-algebra__, or __[[differential graded algebra]]__, is a [[monoid]] in the [[symmetric monoidal category]] of (possibly unbounded) [[chain complex]]es or [[cochain complex]]es with its standard structure of a [[monoidal category]]. 
 
 For the case of chain complexes we also speak of **chain algebras**.
 
@@ -47,7 +47,7 @@ This implies that a dg-algebra is, more concretely, a graded algebra $A$ equippe
 
 * $d\circ d = 0$
 
-* for $a \in A$ homogeneous of degree $k$, the element $d a$ is of degree $k+1$ (for monoids in cochain complexes) of of degree $k-1$ (for monoids in chain complexes)
+* for $a \in A$ homogeneous of degree $k$, the element $d a$ is of degree $k+1$ (for monoids in cochain complexes) or of degree $k-1$ (for monoids in chain complexes)
 
 * for all $a,b \in A$ with $a$ homogeneous of degree k the **graded Leibniz rule** holds
 
