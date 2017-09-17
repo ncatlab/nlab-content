@@ -129,7 +129,7 @@ To see that the functor is full, we need to show that a map of sets $f : X \to Y
 +-- {: .un_remark}
 ###### Remark
 
-The proof shows that we could restrict attention to the full sub.site $CartSp_{dim \leq 1} \subset CartSp$ on the objects $\mathbb{R}^0$ and $\mathbb{R}^1$ and still have a full and faithful embedding
+The proof shows that we could restrict attention to the full sub-site $CartSp_{dim \leq 1} \subset CartSp$ on the objects $\mathbb{R}^0$ and $\mathbb{R}^1$ and still have a full and faithful embedding
 
 $$
   Diff \hookrightarrow Sh(CartSp_{dim \leq 1})
@@ -273,6 +273,7 @@ $$
   (L Const \dashv \Gamma \dashv CoDisc)
   :
   Sh(CartSp) \stackrel{\overset{L Const}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoDisc}{\leftarrow}}} 
+  Set
 $$
 
 =--
