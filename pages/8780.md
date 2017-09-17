@@ -51,7 +51,7 @@ This induces
 
 * the [[character lattice]] $\mathfrak{h}_{\mathbb{Z}}^\ast = Hom(T, \mathbb{C}^\times)$;
 
-* the [[cocharacter lattice]] $\mathfrak{h}_{\mathbb{C}} = Hom(\mathbb{C}^\times, T)$.
+* the [[cocharacter lattice]] $\mathfrak{h}_{\mathbb{Z}} = Hom(\mathbb{C}^\times, T)$.
 
 * a _[[standard parabolic subgroup]]_ of $G$ is a subgroup $P_J$ including $B$ such that $G/P$ is a [[projective variety]];
 
@@ -80,11 +80,11 @@ This induces
 * into the [[Schubert varieties]]
 
   $$
-    X_W = \overline{B w B} \subset G/B
+    X_w \coloneqq \overline{B w B} \subset G/B
   $$
 
   $$
-    X_u^J = \overline{B u P_J} \subset G/P_J
+    X_u^J \coloneqq \overline{B u P_J} \subset G/P_J
     \,.
   $$
 
