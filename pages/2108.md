@@ -912,6 +912,10 @@ leads to invariants for 3-[[manifolds]].([Witten 89](#Witten)).
 
 See at _[[quantization of Chern-Simons theory]]_ for more.
 
+### Quantization of loop groups / of the WZW model
+
+See at _[[quantization of loop groups]]_.
+
 ### Quantization in Gromov-Witten theory
 
 Geometric quantization appears in [[Gromov-Witten theory]].
