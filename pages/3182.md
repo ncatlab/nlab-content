@@ -325,7 +325,10 @@ By the general properties of [[cohesive (∞,1)-topos]]es with an [[∞-cohesive
 
 We discuss the realization of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] in $ETop \inft Grpd$.
 
-+-- {: .un_prop #FundGroupoidOfParacompact}
+#### Geometric realization
+ {#GeometricRealization}
+
++-- {: .num_prop #FundGroupoidOfParacompact}
 ###### Proposition
 
 Let $X$ be a [[paracompact topological space]] such that that $X$ admits a [[good open cover]] by [[open ball]]s (for instance a [[paracompact manifold]]). 
@@ -368,7 +371,7 @@ Using the [[equivalence of categories]] $[CartSp^{op}, sSet] \simeq [\Delta^{op}
 The classical [[nerve theorem]] asserts that this implies the claim.
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We may regard [[Top]] itself as a [[cohesive (∞,1)-topos]]. $(\Pi_{Top}\dashv Disc_{Top} \dashv \Gamma_{Top} \dashv coDisc_{Top}) Top \stackrel{\simeq}{\to} \infty Grpd$. This is discussed at [[discrete ∞-groupoid]].
@@ -455,6 +458,93 @@ $$
 $$
 
 By the discussion at [[geometric realization of simplicial topological spaces]], this maps to the [[homotopy colimit]] of the simplicial topological space $X_\bullet$, which is just its geometric realizaiton if it is proper. 
+=--
+
+#### Presentation of the path $\infty$-groupoid
+ {#PresentationOfPathGroupoid}
+
+In the [above](GeometricRealization) constructions of $\mathbf{\Pi}(X)$ the actual paths are not explicit. We discuss here presentations of $\mathbf{\Pi}(X)$ in terms of actual paths.
+
+Notice that by prop. \ref{FundGroupoidOfParacompact} we have
+
++-- {: .num_prop #DiscretePathGroupoid}
+###### Proposition
+
+Let $X$ be a a paracompact topological space, regarded as an object of $ETop\infty Grpd$. Then $\mathbf{\Pi}(X)$ is presented by the constant simplicial presheaf
+
+$$
+  Disc Sing(X) 
+   : 
+  (U,[k]) 
+    \mapsto 
+  Hom_{Top}(\Delta^k, X)
+  \,.
+$$
+
+=--
+
+Possibly more natural would seem to look at the topological Kan complex that remembers the topology on the spaces of paths:
+
++-- {: .num_defn }
+###### Definition
+
+For $X$ a paracompact topological space, define the simplicial presheaf
+
+$$
+  \mathbf{Sing} X  
+  : 
+  (U,[k])
+  \mapsto 
+  Hom_{Top}(U \times \Delta^k, X)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Also $\mathbf{Sing} X$ is a presentation of $\mathbf{\Pi}(X)$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the [[Cartesian space]] $U$ is [[Hausdorff space|Hausdorff]] and [[locally compact space|locally compact]], it is [[exponentiable object|exponentiable]] (see [[exponential law for topological spaces]].) Therefore we have an isomorphism
+
+$$
+  \mathbf{Sing}(X)(U)
+  :=
+  Hom_{Top}(U \times \Delta^\bullet , X)
+  =
+  Hom_{Top}(\Delta^\bullet, X^U)
+  =:
+  Sing X^U
+  \,.
+$$
+
+But since $U$ is also [[contractible space|contractible]] the canonical inclusion 
+
+$$
+  Sing X \to Sing X^U
+$$
+
+is a [[homotopy equivalence]]. Hence
+
+$$  
+  Disc Sing X \to \mathbf{Sing} X
+$$
+
+is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$. This implies the claim with prop. \ref{DiscretePathGroupoid}.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Typically one is interested in mapping out of $\mathbf{\Pi}(X)$. While it is clear that $Disc Sing X$ is cofibrant in $[CartSp^{op}, sSet]_{proj,loc}$, it is harder to determine the necessary [[resolution]]s of $\mathbf{Sing}X$.
+
 =--
 
 
