@@ -47,7 +47,11 @@ $$
 
 where we refer to degrees as indicated in the bottom row.
 
-The _Beilinson-Deligne product_ is the morphism of [[chain complex]]es
++-- {: .num_defn}
+###### Definition
+
+The _Beilinson-Deligne product_ is the morphism of [[chain complexes]]
+of [[sheaves]]
 
 $$
   \cup 
@@ -65,15 +69,17 @@ $$
   \alpha \cup \beta :=
   \left\{
     \array{
-    \alpha \wedge \beta = \alpha \beta & if deg(\alpha) = 0
+    \alpha \wedge \beta = \alpha \beta & if\,deg(\alpha) = 0
     \\
-    \alpha \wedge d_{dR}\beta & if deg(\alpha) \gt 0 and deg(\beta) = q+1
+    \alpha \wedge d_{dR}\beta & if\,deg(\alpha) \gt 0\,and\,deg(\beta) = q+1
     \\
     0 & otherwise
     }
   \right.
   \,.
 $$
+
+=--
 
 ## Applications
 
