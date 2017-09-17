@@ -57,6 +57,14 @@ is precisely the [[mapping path space]] construction, which is one way to factor
 
 * These are sometimes called **weak equivalences**, but there is nothing [[weak equivalence|weak]] about them (in particular, they always have homotopy inverses).
 
+
+## References
+
+An introduction to equivalence in homotopy type theory is in 
+
+* [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
+
+
 [[!redirects equivalence in homotopy type theory]]
 [[!redirects equivalences in homotopy type theory]]
 [[!redirects equivalence in type theory]]
