@@ -128,7 +128,7 @@ This statement and its proof remain valid in [[homotopy theory]]. More in detail
 
 ### Relation to exponential objects / internal homs
 
-As a special case of the above one obtaines [[exponential objects]]/[[internal homs]].
+As a special case of the above one obtains [[exponential objects]]/[[internal homs]].
 
 Let $\mathcal{C}$ have a [[terminal object]] $* \in \mathcal{C}$. Let $X \in \mathcal{C}$ be any object and let $X \colon X \to *$ be the terminal morphism.
 
