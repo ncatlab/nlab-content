@@ -26,11 +26,17 @@ A [[geometric morphism]] $ (f^* \dashv f_*) : F \underoverset{f_*}{f^*}{\leftrig
 
 1. For every $A\in E$, the functor $f^* \colon E/A \to F/f^*A$ is [[cartesian closed functor|cartesian closed]].
 
-1. For any morphism $h\colon A\to B$ in $E$, the canonically defined transformation $f^* \circ \Pi_h \to \Pi_{f^*h} \circ f^*$ is an [[isomorphism]].
+1. $f^*$ commutes with [[dependent products]] -- For any morphism $h\colon A\to B$ in $E$, the canonically defined [[natural transformation]] $f^* \circ \Pi_h \to \Pi_{f^*h} \circ f^*$ is an [[isomorphism]].
 
 ## Properties
 
-If $f$ is locally connected, then it makes sense to think of the left adjoint $f_!$ as assigning to an object of $F$ its "set of connected components" in $E$.  In particular, if $f$ is locally connected, then it is moreover [[connected geometric morphism|connected]] if and only if $f_!$ preserves the terminal object.  However, not every connected geometric morphism is locally connected.
+### Relation to connectedness
+
+If $f$ is locally connected, then it makes sense to think of the left adjoint $f_!$ as assigning to an object of $F$ its "set of connected components" in $E$.  In particular, if $f$ is locally connected, then it is moreover [[connected geometric morphism|connected]] if and only if $f_!$ preserves the [[terminal object]].  However, not every connected geometric morphism is locally connected.
+
+### Coreflectivity
+
+Locally connected toposes are [[coreflective subcategory|coreflective]] in [[Topos]]. See ([Funk](#Funk)).
 
 ## Examples
 
@@ -40,9 +46,17 @@ If $f$ is locally connected, then it makes sense to think of the left adjoint $f
 
 ## References
 
-Section C3.3 of
+The canonical textbook reference is section C3.3 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+Further references include
+
+
+* J. Funk, _The locally connected coclosure of a Grothendieck topos_, Journal of Pure and Applied Algebra Volume 137, Issue 1, 7 (1999), Pages 17-27 
+  {#Funk}
+
+* [[Ieke Moerdijk]], [[Gavin Wraith]], _Connectedd and locally connected toposes are path connected_ ([JSTOR](http://www.jstor.org/stable/2000067))
 
 
 [[!redirects locally connected geometric morphisms]]
