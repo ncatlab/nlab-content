@@ -128,10 +128,10 @@ Appreciation of the role of convenient categories was in full force by the early
 * [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis (part A), Oxford University, 1961 [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/rbthesisptA.pdf)
 {#Brown61}
 
-* [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math. (2) 14 (1963), 303--319.
+* [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/tentopologies.pdf)
 {#Brown63}
 
-* [[Ronnie Brown]], Function spaces and product topologies,  Quart. J. Math. (2) 15 (1964), 238--250.
+* [[Ronnie Brown]], Function spaces and product topologies,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](http://www.bangor.ac.uk/~mas010/functionspaces.pdf)
 {#Brown64}
 
 * [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
