@@ -85,7 +85,7 @@ The "if" direction of this is easy, since $u\colon \emptyset \to B$ is always a 
 Conversely, if $D$ is pointed and $u$ is a sieve, then by Lemma \ref{SieveRel}, $u_*$ identifies $D(A)$ with $D(B,B\setminus A)$.  But by Theorem \ref{RelRefl}, the inclusion $D(B,B\setminus A)\hookrightarrow D(B)$ has a right adjoint.  The other case is dual.
 =--
 
-The functors $u^!$ and $u^?$ are sometimes referred to as *extraordinary* and *co-extraordinary inverse image* functors.  Our proof shows that $u^? = p_! v_*$, where $v$ and $p$ are respectively the inclusion of $B$ in the codirected mapping cylinder $M u$ and its projection to $p$.
+The functors $u^!$ and $u^?$ are sometimes referred to as *extraordinary* and *co-extraordinary inverse image* functors.  Our proof shows that $u^? = u^* p_! v_*$, where $v$ and $p$ are respectively the inclusion of $B$ in the codirected mapping cylinder of $B\setminus A \hookrightarrow B$, and its projection to $B$.
 
 In the literature, the existence of these functors is often taken as the definition of when a derivator is pointed.  The equivalence of the two definitions is a "super-difficult" excercise in [Maltsionitis' notes](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf).
 
@@ -107,6 +107,20 @@ $$ D 1 \overset{d_!}{\to} D \Gamma^{op} \overset{bcd_*}{\to} D \square \overset{
 where $\Gamma^{op}$ is the full subcategory of $\square$ on $\{b,c,d\}$, and it can equivalently be given as the composite
 $$ D 1 = D(1,\emptyset) \overset{(d,\emptyset)_*}{\to} D(\square,bc) \overset{(a,\emptyset)^*}{\to} D(1,\emptyset) = D 1.$$
 The description in terms of relative diagram categories makes it clear that $\Sigma \dashv \Omega$.
+
+We can also describe $\Sigma$ and $\Omega$ in terms of the extraordinary inverse image functors.  Since the square
+$$ \array{ \Gamma & \to & \Gamma \\
+^r\downarrow & & \downarrow^{abc}\\
+* & \underset{d}{\to} & \square}$$
+is homotopy exact, the composite $d^* abc_!$ in our first definition is the same as $r_!$.  The other functor $a_*$ can in turn be decomposed as a composite $ab_* s_*$, where $s\colon * \to I$ is the inclusion of $s$ into the interval category $(s\to t)$, and $ab\colon I\to \Gamma$ is the inclusion into $\{a,b\}$.
+
+Therefore we have $\Sigma \cong r_! ab_* s_*$.  But $\Gamma$ can be identified with $M s$ and $ab$ with the inclusion $u\colon I \hookrightarrow M s$, while $r$ factors as $M s \overset{p}{\to} I \overset{q}{\to} *$ so that $r_! \cong q_! p_!$.  But finally, the square
+$$\array{* & \overset{t}{\to} & I\\
+\downarrow & & \downarrow^q\\
+*& \to & *}$$
+is homotopy exact, so $q_! \cong t^*$ and thus
+$$\Sigma \cong t^* p_! u_* s_* \cong t^? s_*.$$
+Dually, we can identify $\Omega \cong s^! t_!$, from which it again follows directly that $\Sigma \dashv \Omega$.
 
 
 ## The pointed reflection
