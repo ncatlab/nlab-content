@@ -1,4 +1,11 @@
 
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+***
+[[!include topology - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
