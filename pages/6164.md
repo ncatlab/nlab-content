@@ -21,6 +21,8 @@ For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordin
 
 * [[bivariant cohomology]]
 
+* [[Bousfield equivalence]]
+
 ## References
 
 Original articles include
