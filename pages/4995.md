@@ -161,6 +161,8 @@ The [[coshape of an (∞,1)-topos]] $\mathbf{H}$ is the underlying $\infty$-grou
 
 A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
 
+The order is roughly by additional axioms needed for the
+structure to exist. The first few exist in every $(\infty,1)$-topos, then there are several that need only local and some that also need global $\infty$-connectivity, and finally there are some that also need $\infty$-locality.
 
 ### $\infty$-Groups {#InfinGroups}
 
@@ -170,53 +172,444 @@ $$
   G := \Omega \mathbf{B}G
 $$
 
+defined as the [[(∞,1)-pullback]]
+
+
+$$
+  \array{
+    G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{B}G
+  }
+$$
+
 is the [[∞-group]] of which $\mathbf{B}G$ is the [[delooping]] object.
 
 
 ### Cohomology and principal $\infty$-bundles {#Cohomology}
 
-Every [[(∞,1)-topos]] comes with its intrinsic notion of [[cohomology]]. 
+There is an intrinsic notion of [[cohomology]] and [[principal ∞-bundles]] in any [[(∞,1)-topos]] $\mathbf{H}.$
 
-A [[morphism]] $g : X \to A$ is a [[cocycle]] on $X$ with coefficients in $A$. The [[hom ∞-groupoid]] $\mathbf{H}(X,A)$ is the _cocycle $\infty$-groupoid_ . Its [[connected component]]s are the $A$-cohomology classes of $X$
++-- {: .un_def}
+###### Definition
+
+For $X,A \in \mathbf{H}$ two [[object]]s, we say that
 
 $$
   H(X,A) := \pi_0 \mathbf{H}(X,A)
+$$
+
+is the **[[cohomology]] set** of $X$ with coefficients in $A$. If $A = G$ is an  [[∞-group]] we write
+
+$$
+  H^1(X,G) := \pi_0 \mathbf{H}(X, \mathbf{B}G)
+$$
+
+for cohomology with coefficients in its [[delooping]]. Generally, if  $K \in \mathbf{H}$ has a $p$-fold [[delooping]], we write
+
+$$
+  H^p(X,K) := \pi_0 \mathbf{H}(X, \mathbf{B}^p K)
   \,.
 $$
 
-If $A$ admits an $p$-fold [[delooping]] we write
+=--
+
+In the context of cohomology on $X$ wth coefficients in $A$ we we say that
+
+* the hom-space $\mathbf{H}(X,A)$ is the **cocycle $\infty$-groupoid**;
+
+* a [[morphism]] $g : X \to A$ is a [[cocycle]];
+
+* a [[2-morphism]] : $g \Rightarrow h$ is a [[coboundary]] between cocycles.
+
+* a morphism $c : A \to B$ represents the [[characteristic class]]
+
+  $$
+    [c] : H(-,A) \to H(-,B)
+    \,.
+  $$
+
+
++-- {: .un_def}
+###### Definition
+
+
+For every morphism $c : \mathbf{B}G \to \mathbf{B}H \in \mathbf{H}$ define the **long [[fiber sequence]] to the left**
 
 $$
-  H^p(X,A) := \pi_0 \mathbf{H}(X, \mathbf{B}^n A)
+   \cdots 
+   \to 
+   \Omega G
+  \to 
+  \Omega H 
+   \to 
+   F
+    \to 
+   G 
+     \to  
+   H 
+     \to 
+    \mathbf{B} F 
+     \to 
+    \mathbf{B}G
+      \stackrel{c}{\to} 
+   \mathbf{B}H
+$$
+
+to be the given by the consecutive [[pasting]] diagrams of [[(∞,1)-pullback]]s
+
+$$
+  \array{
+      \vdots && \vdots
+      \\
+      \Omega H &\to& G &\to& *
+      \\
+      \downarrow &&\downarrow && \downarrow 
+      \\
+     * &\to& H &\to& \mathbf{B}F &\to& *
+      \\
+     &&\downarrow && \downarrow && \downarrow
+     \\
+     && * &\to& \mathbf{B}G & \stackrel{c}{\to} & \mathbf{B}H
+  }
   \,.
 $$
+
+=--
 
 +-- {: .un_prop}
 ###### Proposition
 
-We have that $\mathbf{H}(X,\mathbf{B}G)$ classifies $G$-[[principal ∞-bundle]]s on $X$.
+* The long fiber sequence to the left of $c : \mathbf{B}G \to \mathbf{B}H$ becomes constant on the point after $n$ iterations if $H$ is $n$-[[truncated]]. 
+
+
+* For every object $X \in \mathbf{H}$ we have a long [[exact sequence]] of [[pointed set]]s
+
+
+  $$  
+    \cdots \to H^0(X,G) \to H^0(X,H) \to H^1(X,F) \to H^1(X,G) \to H^1(X,H)
+   \,.
+  $$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Define the $G$ principal $\infty$-bundle $P \to X$ corresponding to a [[cocycle]] $g : X \to \mathbf{B}G$ as its [[homotopy fiber]]
+The first statement follows from the observation that a 
+[[loop space object]] $\Omega_x A$ is a fiber of the [[free loop space object]] $\mathcal{L} A$
+and that this may equivalently be computed by the 
+[[(∞,1)-powering]] $A^{S^1}$, where $S^1 \in Top \simeq \infty Grpd$ is the [[circle]]. (See [[Hochschild cohomology]] for details.)
+
+The second statement follows by observing that the 
+$\infty$-hom-functor $\mathbf{H}(X,-)$ preserves all 
+[[(∞,1)-limit]]s, so that we have [[(∞,1)-pullback]]s
+
+$$ 
+  \array{
+    \mathbf{H}(X,F) &\to &*
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}(X,G) &\to& \mathbf{H}(X,H)
+  }
+$$
+
+etc. in [[∞Grpd]] at each stage of the fiber sequence. The statement then follows with the familiar [[long exact sequence]] for [[homotopy group]]s in [[Top]] $\simeq$ [[∞Grpd]].
+
+=--
+
+To every cocycle $g : X \to \mathbf{B}G$ is canonically associated its [[homotopy fiber]] $P \to X$, the [[(∞,1)-pullback]]
 
 $$
   \array{
-    P &\to& *
+    P &\to& {*}
     \\
     \downarrow && \downarrow
     \\
     X &\stackrel{g}{\to}& \mathbf{B}G
+    \,.
   }
   \,.
 $$
 
-The claim follows using that in an [[(∞,1)-topos]] we have [[universal colimits]] and all [[groupoid object in an (∞,1)-category|groupoid objects]] are effective. A detailed discussion is at [[principal ∞-bundle]]. 
+We discuss now that $P$ canonically has the structure of a $G$-[[principal ∞-bundle]] and that $\mathbf{B}G$ is the [[fine moduli space]] for $G$-principal $\infty$-bundles.
+
+
++-- {: .un_defn}
+###### Definition
+**(principal $G$-action)**
+
+Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A **principal [[action]]** of $G$ on an object $P \in \mathbf{H}$ is 
+a [[groupoid object in an (∞,1)-category|groupoid object in the (∞,1)-topos]] $P//G$ that sits over $*//G$ in that we have a 
+  morphism of [[simplicial object|simplicial diagram]]s $\Delta^{op} \to \mathbf{H}$
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    P \times G \times G
+    &\stackrel{(p_2, p_3)}{\to}& G \times G
+    \\
+   \downarrow\downarrow\downarrow 
+    && \downarrow\downarrow\downarrow
+    \\
+    P \times G
+    &\stackrel{p_2}{\to}& G
+    \\
+    \downarrow\downarrow && \downarrow\downarrow
+    \\
+    P &\stackrel{}{\to}& {*}
+  }
+$$
+
+in $\mathbf{H}$.
+
+We say that the [[(∞,1)-colimit]]
+
+$$
+  X : \lim_\to (P//G : \Delta^{op} \to \mathbf{H})
+$$
+
+is the **base space** defined by this action.
 
 =--
+
+We may thinkl of $P//G$ as the **[[action groupoid]]** of the $G$-action on $P$. For us it _defines_ this $G$-action.
+
+
++-- {: .un_prop}
+###### Proposition
+
+The $G$-principal action as defined above satisfies the 
+**principality condition** in that we have an equivalence of
+groupoid objects
+
+ $$
+   \array{
+     \vdots && \vdots
+     \\
+     P \times_X P \times_X P
+     &\stackrel{\simeq}{\to}& 
+     P \times G \times G
+     \\
+    \downarrow\downarrow\downarrow 
+     && \downarrow\downarrow\downarrow
+     \\
+     P \times_X P
+     &\stackrel{\simeq}{\to}& 
+     P \times G
+     \\
+     \downarrow\downarrow && \downarrow\downarrow
+     \\
+     P &\stackrel{\simeq}{\to}& P
+   }
+   \,.
+ $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This principality condition asserts that the groupoid object $P//G$ is [[groupoid object in an (infinity,1)-category|effective]]. By [[(∞,1)-topos|Giraud's axioms characterizing (∞,1)-toposes]], every groupoid object in $\mathbf{H}$ is effective.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $X \to \mathbf{B}G$ any morphism, its [[homotopy fiber]] $P \to X$
+is canonically equipped with a principal $G$-action with base space $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above we need to show that we have a morphism of simplicial diagrams
+
+$$
+  \array{
+    \vdots && \vdots && \vdots
+    \\
+    P \times_X P \times_X P 
+    &\stackrel{\simeq}{\to}& P \times G \times G
+    &\to& G \times G
+    \\
+    \downarrow\downarrow\downarrow
+    && 
+   \downarrow\downarrow\downarrow 
+    && \downarrow\downarrow\downarrow
+    \\
+    P \times_X P &\stackrel{\simeq}{\to}& P \times G
+    &\stackrel{p_2}{\to}& G
+    \\
+    \downarrow\downarrow
+    && \downarrow\downarrow && \downarrow\downarrow
+    \\
+    P &\stackrel{=}{\to}& P &\stackrel{}{\to}& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X &\stackrel{=}{\to}& X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,,
+$$
+
+where the left horizontal morphissms are equivalences, as indicated. We proceed by induction through the height of this diagram.
+
+The defining [[(∞,1)-pullback]] square for $P \times_X P$ is 
+
+$$
+  \array{
+    P \times_X P &\to& P
+    \\
+    \downarrow && \downarrow
+    \\
+    P &\to& X
+  }
+$$
+
+To compute this, we may attach the defining $(\infty,1)$-pullback square of $P$ to obtain the [[pasting]] diagram
+
+$$
+  \array{
+    P \times_X P &\to& P &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    P &\to& X &\to& \mathbf{B}G
+    \,.
+  }
+$$
+
+and use the [pasting law for pullbacks](http://ncatlab.org/nlab/show/pullback#Pasting), to conclude that $P \times_X P$ is the pullback
+
+$$
+  \array{
+    P \times_X P &\to& &\to& {*}
+    \\
+    \downarrow && && \downarrow
+    \\
+    P &\to& X &\to& \mathbf{B}G
+    \,.
+  }
+$$
+
+By defnition of $P$ as the homotopy fiber of $X \to \mathbf{B}G$, the lower horizontal morphism is equivbalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also equivalent to the pullback
+
+$$
+  \array{
+    P \times_X P &\to& &\to& {*}
+    \\
+    \downarrow && && \downarrow
+    \\
+    P &\to& {*} &\to& \mathbf{B}G
+    \,.
+  }
+$$
+
+This finally may be computed as the pasting of two pullbacks
+
+$$
+  \array{
+    P \times_X P &\simeq& P \times G &\to& G &\to& {*}
+    \\
+    &&\downarrow && \downarrow && \downarrow
+    \\
+    &&P &\to& {*} &\to& \mathbf{B}G
+    \,.
+  }
+$$
+
+of which the one on the right is the defining one for $G$ and the remaining one on the left is just an [[(∞,1)-product]].  
+
+Proceeding by induction from this case we find analogousy that $P^{\times_X^{n+1}} \simeq P \times G^{\times_n}$: suppose this has been shown for $(n-1)$, then the defining pullback square for $P^{\times_X^{n+1}}$ is
+
+$$
+  \array{
+    P \times_X P^{\times_X^n}
+    &\to&
+    P
+    \\
+    \downarrow && \downarrow
+    \\
+    P^{\times_X^n}&\to& X
+  }
+  \,.
+$$
+
+We may again paste this to obtain
+
+$$
+  \array{
+    P \times_X P^{\times_X^n}
+    &\to&
+    P
+    &\to&
+    *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    P^{\times_X^n}&\to& X &\to& \mathbf{B}G
+  }
+$$
+
+and use from the previous induction step that
+
+$$
+  (P^{\times_X^n} \to X \to \mathbf{B}G) 
+  \simeq
+  (P^{\times_X^n} \to * \to \mathbf{B}G)
+$$
+
+to conclude the induction step with the same arguments as before.
+
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+We say a $G$-principal action of $G$ on $P$ over $X$ is a 
+$G$-[[principal ∞-bundle]] if the colimit over $P//G \to *//G$
+produces a pullback square: the bottom square in 
+
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    P \times G \times G
+    &\to& G \times G
+    \\
+   \downarrow\downarrow\downarrow 
+    && \downarrow\downarrow\downarrow
+    \\
+    P \times G
+    &\stackrel{p_2}{\to}& G
+    \\
+    \downarrow\downarrow && \downarrow\downarrow
+    \\
+    P &\stackrel{}{\to}& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    X = \lim_\to (P \times G^\bullet) &\stackrel{g}{\to}& 
+   \mathbf{B}G = \lim_\to( G^\bullet)
+  }
+  \,.
+$$
+
+
+=--
+
+
+
 
 ### Concordance {#Concordance}
 
@@ -1938,7 +2331,12 @@ The observation that the further right adjoint $Codisc$ in a [[local (∞,1)-top
 
 A pdf-version of some of the material here is at
 
-* [[schreiber:differential cohomology in a cohesive topos]].
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
+
+A commented list of related references is at
+
+* [[schreiber:differential cohomology in an (∞,1)-topos -- references
+  |differential cohomology in a cohesive topos -- references]]
 
 Some discussion is at
 
@@ -1947,6 +2345,7 @@ Some discussion is at
   _Cohesive $\infty$-Toposes_ ([blog entry](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html))
 
   _Structures in a Cohesive $\infty$-Topos_ ([blog entry](http://golem.ph.utexas.edu/category/2010/11/structures_in_a_cohesive_topos.html))
+
 
 [[!redirects cohesive (∞,1)-topos]]
 
