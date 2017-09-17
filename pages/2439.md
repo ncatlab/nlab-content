@@ -16,6 +16,8 @@
 ## Idea
  {#Idea}
 
+### Basic idea
+
 In the general sense, _superalgebra_ is the study of ([[higher algebra|higher]]) [[algebra]] 
 
 * [[internalization|internal]] to the [[symmetric monoidal category]] of $\mathbb{Z}_2$-[[graded vector spaces]] ([[super vector spaces]]);
@@ -25,6 +27,23 @@ equivalently
 * over the [[base topos]] on [[superpoints]].
 
 More specifically, an _associative superalgebra_ is an [[associative algebra]] in the context of superalgebra. As in the ordinary case, this is often just called _a superalgebra_ , too.
+
+
+In the following we first discuss
+
+* _[Associatvive superalgebras](#AssociativeSuperalgebras)_
+
+as [[monoids]] in the [[symmetric monoidal category]] of [[super vector spaces]]. Then we pass to the perspective of
+
+* _[Algebra in the topos over superpoints](#AlgebraOverSuperpoints)_
+
+and consider systematically [[algebra]] in the [[sheaf topos]] over the [[site]] of [[superpoint]]s and show how this reproduces and generalizes the previous notions.
+
+See ([Sachse](#Sachse)) and the references at _[[super ∞-groupoid]]_ for some history of the topos-theoretic perspective on superalgebra.
+
+
+### Abstract idea
+ {#AbstractIdea}
 
 Superalgebra is [[universal property|universal]] in the following sense. The crucial super-grading rule (the "Koszul sign rule") 
 
@@ -40,19 +59,19 @@ in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] 
 | meaning: | degree | [[boson]]/[[fermion]] super-degree | [[spin geometry|spin]] | [[string geometry|string]] | $-$ | $-$ | ? | ? | $\cdots$ |
 | [[free construction|free object]] on single [[generators and relations|generator]]: | [[abelian group]] | [[abelian 2-group]] | [[abelian 3-group]] | [[abelian 4-group]] |  |  | [[abelian 7-group]] | [[abelian ∞-group|abelian 8-group]] | [[abelian ∞-group]] | 
 
++-- {: .num_remark}
+###### Remark
 
-In the following we first discuss
+That $\mathbb{Z}_{24}$ in degree 3 here coresponds to [[string structure]]/[[string geometry]] is witnessed by many occurences of this number in this context. Maybe the most direct one concerning [[supergeometry]] is the $24$ factor in the periodicity of "2-Clifford algebras" in their incarnation as objects in the [[3-category of fermionic conformal nets]].
 
-* _[Associatvive superalgebras](#AssociativeSuperalgebras)_
+=--
 
-as [[monoids]] in the [[symmetric monoidal category]] of [[super vector spaces]]. Then we pass to the perspective of
++-- {: .num_remark}
+###### Remark
 
-* _[Algebra in the topos over superpoints](#AlgebraOverSuperpoints)_
+Extrapolating from the pattern, the question mark entries _might_ be filled by [[Fivebrane 6-group]] [[Fivebrane structure|structure]] corresponding to [[Green-Schwarz action functional|super 5-branes]] ([[NS-5-brane]]/[[M5-brane]].
 
-and consider systematically [[algebra]] in the [[sheaf topos]] over the [[site]] of [[superpoint]]s and show how this reproduces and generalizes the previous notions.
-
-See ([Sachse](#Sachse)) and the references at _[[super ∞-groupoid]]_ for some history of the topos-theoretic perspective on superalgebra.
-
+=--
 
 ## Associative superalgebras
  {#AssociativeSuperalgebras}
@@ -258,7 +277,7 @@ We discuss the [[Picard 3-group]] of $2sVect \simeq sAlg$, def. \ref{AlgWithBimo
 +-- {: .num_theorem #AzumayaAreCentralSimple}
 ###### Theorem
 
-A superalgebra is invertible/Azumaya, def. \ref{Azumaya} precisely if it is finite dimensional and central simple, def. \ref{CentralSimple}.
+A superalgebra is invertible/Azumaya, def. \ref{Azumaya}, precisely if it is finite dimensional and central simple, def. \ref{CentralSimple}.
 
 =--
 
