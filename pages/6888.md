@@ -5,4 +5,8 @@ in homotopy theory.
 *  [departmental homepage](http://www.philo.umontreal.ca/personnel/professeur/marquis-jean-pierre/)
 
 
+His publications include:
+
+*  _From a Geometrical Point of View: A Study of the History and Philosophy of Category Theory_, Springer, 2008
+
 category: people
