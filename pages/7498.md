@@ -57,6 +57,10 @@ If this is set up in a sufficiently nice category of topological spaces, then, b
 
 If $G$ is the topological category associated to the group $G$, then a $G$-space is precisely a Top-enriched functor $G\to Top$ in a similar fashion to the fact that an  R-module is an Ab-enriched functor. If $X$ is a $G$-space, the ordinary quotient $X/G$ is the colimit of the diagram associated to $X$ and the Borel construction is (a model of) the homotopy colimit of that diagram. This is a reason for calling the Borel construction homotopy quotient in some contexts.
 
+## Related concepts
+
+* [[Borel-equivariant cohomology]]
+
 ## References
 
 The nature of the Borel construction as the geometric realization of the action groupoid is mentioned for instance in 
