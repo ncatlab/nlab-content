@@ -4,9 +4,9 @@ Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was o
 
 
 ##References
-* G. Brady, T. Trimble (2000a). A Categorical Interpretation of C. S. Peirce's Propositional Logic Alpha. Journal of Pure and Applied Algebra 149 (2000): 213-239
-* G. Brady, T. Trimble (2000b). A String Diagram Calculus for Predicate Logic and C. S. Peirce's System Beta. Preprint. ([ps](http://people.cs.uchicago.edu/~brady/beta98.ps))
-* K. Ponto and M. Shulman, Duality and traces in indexed monoidal categories, ([web](http://www.math.ucsd.edu/~mshulman/papers/indexed-color.pdf))
+* [[Geraldine Brady]] and [[Todd Trimble]] (2000a). A Categorical Interpretation of C. S. Peirce's Propositional Logic Alpha. Journal of Pure and Applied Algebra 149 (2000): 213-239
+* [[Geraldine Brady]] and [[Todd Trimble]] (2000b). A String Diagram Calculus for Predicate Logic and C. S. Peirce's System Beta. Preprint. ([ps](http://people.cs.uchicago.edu/~brady/beta98.ps))
+* [[Kate Ponto]] and [[Mike Shulman]], Duality and traces in indexed monoidal categories, ([web](http://www.math.ucsd.edu/~mshulman/papers/indexed-color.pdf))
 {#PontoShul}
 
 [[!redirects C.S. Peirce]]
