@@ -339,6 +339,8 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
 * **2-group**, [[crossed module]], [[differential crossed module]]
 
+  * [[braided 2-group]]
+
 * [[3-group]], [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
 
 * [[n-group]]
