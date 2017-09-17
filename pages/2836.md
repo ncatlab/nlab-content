@@ -1,7 +1,21 @@
-<div class="rightHandSide toc">
-[[!include stable homotopy theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Stable homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -34,3 +48,16 @@ This concept is dual to that of [[loop space object]].
 
 * In [[Top]], this is the ordinary [[suspension]] of a space.
 
+## Related concepts
+
+* [[loop space object]], [[free loop space object]],
+
+  * [[delooping]]
+
+  * [[loop space]], [[free loop space]], [[derived loop space]]
+
+* **suspension object**
+
+  * [[suspension]]
+
+[[!redirects suspension objects]]
