@@ -85,6 +85,8 @@ This is due to Bass and Papp. See ([Lam, Theorem 3.46](#Lam)).
 ### Existence of enough injectives
  {#ExistenceOfEnoughInjectives}
 
+We discuss that in the presence of the [[axiom of choice]] at least, the category $R$[[Mod]] has _[[injective object|enough injectives]]_ in that every module is a [[submodule]] of an injective one. We first consider this for $R = \mathbb{Z}$. We do assume prop. \ref{InjectiveAbelianGroupIsDivisibleGroup}, which may be proven using [[Baer's criterion]]. 
+
 +-- {: .num_prop #AbHasEnoughInjectives}
 ###### Proposition
 
@@ -130,60 +132,88 @@ for $R$ a [[ring]], the category $R$[[Mod]] has [[injective object|enough inject
 
 =--
 
+The proof uses the following lemma.
+
+Write $U\colon R Mod \to Ab$ for the [[forgetful functor]] that forgets the $R$-module structure on a module $N$ and just remembers the underlying abelian group $U(N)$. 
+
++-- {: .num_lemma #CoextensionOfScalarsForRModToZMod}
+###### Lemma
+
+The [[functor]] $U\colon R Mod \to Ab$ has a [[right adjoint]] 
+
+$$
+  R_* : Ab \to R Mod
+$$
+
+given by sending an [[abelian group]] $A$ to the abelian group
+
+$$
+  U(R_*(A)) \coloneqq Ab(U(R),A)
+$$
+
+equipped with the $R$-[[module]] struture by which for $r \in R$ an element $(U(R) \stackrel{f}{\to} A) \in U(R_*(A))$ is sent to the element $r f$ given by
+
+$$
+  r f : r' \mapsto f(r' \cdot r)
+  \,.
+$$ 
+
+This is called the **[[coextension of scalars]]** along the ring homomorphism $\mathbb{Z} \to R$.
+
+The [[unit of an adjunction|unit]] of the $(U \dash R_*)$ [[adjunction]]
+
+$$
+  \epsilon_N : N \to R_*(U(N))
+$$
+
+is the $R$-module homomorphism
+
+$$
+  \epsilon_N : N \to Hom_{Ab}(U(R), U(N))
+$$
+
+given on $n \in N$ by
+
+$$
+  j(n) : r \mapsto r n
+  \,.
+$$
+
+=--
+
 +-- {: .proof} 
 ###### Proof 
-
-Write $U\colon R Mod \to Ab$ for the [[forgetful functor]] that forgets the $R$-module structure on a module $N$ and just remembers the underlying abelian group. 
-
-An [[category theory|abstract]] argument proceeds as follows:
-
-Observe that the [[forgetful functor]] $U$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $\mathbb{R}$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]], and so its right adjoint $R_*$ preserves injective objects.  Thus given any $R$-module $M$, we can embed $U(M)$ in an injective abelian group $I$, and then $M$ embeds in $R_*(I)$.
-
-More concretely:
+**of prop. \ref{ModEnoughInjectives}**
 
 Let $N \in R Mod$. We need to find a monomorphism $N \to \tilde N$ such that $\tilde N$ is an injective $R$-module.
 
-We need two constructions.
 
-1. By prop. \ref{AbHasEnoughInjectives} the exists a monomorphism
-
-   $$
-     i \colon U(N) \hookrightarrow D
-   $$
-
-   of the underlying abelian group into an injective abelian group $D$.
-
-1. Regard the [[abelian group]] $Hom_{Ab}(U(R), U(N))$ as an $R$-module by letting $r' \in R$ act on a [[linear map]] $f : U(R) \to U(N)$ by $f \mapsto r' f$ with
-
-   $$
-     r' f : r \mapsto  f(r r') 
-     \,.
-   $$
-
-   With this the linear map
-
-   $$
-     j : N \to Hom_{Ab}(U(R), U(N))
-   $$
-
-   given on $n \in N$ by
-
-   $$
-     j(n) : r \mapsto r n
-   $$
-
-   is fact an $R$-module homomorphism. And it is a [[monomorphism]].
-
-Now
+By prop. \ref{AbHasEnoughInjectives} there exists a monomorphism
 
 $$
-  N \stackrel{j}{\to} Hom_{Ab}(U(R), U(N)) \stackrel{Hom_{Ab}(U(R),i)}{\to}
+  i \colon U(N) \hookrightarrow D
+$$
+
+of the underlying abelian group into an injective abelian group $D$.
+
+
+Now consider the composite
+
+$$
+  N \stackrel{\eta_N}{\to} R_*(U(N)) \stackrel{R_*(i)}{\to} R_*(D)
+$$
+
+with $R_*$ and $\eta_N$ from lemma \ref{CoextensionOfScalarsForRModToZMod}. On the underlying abelian groups this is
+
+$$
+  U(N) \stackrel{U(\eta_N)}{\to} Hom_{Ab}(U(R), U(N)) \stackrel{Hom_{Ab}(U(R),i)}{\to}
   Hom_{Ab}(U(R),U(D))
+  \,.
 $$
 
-is a monomorphism. Therefore it is now sufficient to see that $Hom_{Ab}(U(R), U(D))$ is an injective $R$-module.
+Hence this is monomorphism. Therefore it is now sufficient to see that $Hom_{Ab}(U(R), U(D))$ is an injective $R$-module.
 
-This follows from the existence of an [[isomorphism]] 
+This follows from the existence of the [[adjunction]] [[isomorphism]] given by lemma \ref{CoextensionOfScalarsForRModToZMod}
 
 $$
   Hom_{Ab}(U(K),U(D))
@@ -191,13 +221,28 @@ $$
   Hom_{R Mod}(K, Hom_{Ab}(U(R), U(D)))
 $$
 
-[[natural isomorphism|natural]] in $K \in R Mod$ and from the injectivity of $D \in Ab$. This expresses the fact that [[coextension of scalars]] is the [[right adjoint]]
+[[natural isomorphism|natural]] in $K \in R Mod$ and from the injectivity of $D \in Ab$. 
 
 $$
-  R_*(A) = Hom_{Ab}(U(R), A) \in R Mod
+  \array{
+      U(K) &\to& D
+      \\
+      \downarrow & \nearrow
+      \\
+      U(L)
+  }
+  \;\;\;\;\;
+  \leftrightarrow
+  \;\;\;\;\;
+  \array{
+      K &\to& R_*D
+      \\
+      \downarrow & \nearrow
+      \\
+      L
+  }
+  \,.
 $$
-
-to the [[forgetful functor]] $U$.
 
 =--
 
