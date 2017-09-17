@@ -57,7 +57,7 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[first order formulation of gravity]]
 
-  * [[Plebanski formulation of gravity]], [[gravity as a BF-theory], [[teleparallel gravity]]
+  * [[Plebanski formulation of gravity]], [[gravity as a BF-theory]], [[teleparallel gravity]]
 
   * [[Chern-Simons gravity]]
 
@@ -73,6 +73,10 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
   * [[generalized second law of thermodynamics]]
 
 * [[cosmology]]
+
+  * [[standard model of cosmology]]
+
+* [[MOND]]
 
 ## References
 
