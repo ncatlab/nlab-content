@@ -17,11 +17,14 @@ The commutative version is classical, and there is an extensive literature.
 A nonsymmetric version is due Lu and a similar version is later studied by Xu 
 
 *  Jiang-Hua Lu, _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__, 1 (1996) pp. 47-70, [q-alg/9505024](http://arxiv.org/abs/q-alg/9505024), [MR95e:16037](http://www.ams.org/mathscinet-getitem?mr=95e:16037), [doi](http://dx.doi.org/10.1142/S0129167X96000050)
-* Ping Xu, Quantum groupoids, Commun. Math. Phys., 216:539581, 2001.
-Modern concept over noncommutative base is in two formally different formalisms, but the concepts are equivalent: 
+* [[Ping Xu]], _Quantum groupoids_, Commun. Math. Phys., 216:539581, 2001, [q-alg/9905192](http://arxiv.org/abs/math/9905192), [doi](http://dx.doi.org/10.1007/s002200000334); _Quantum groupoids and deformation quantization_, [q-alg/9708020](http://arxiv.org/abs/q-alg/9708020), _Quantum groupoids associated to universal dynamical R-matrice_, [q-alg/9811172](http://arxiv.org/abs/math/9811172)
+* blog discussion at [[Theoretical Atlas](http://theoreticalatlas.wordpress.com/2009/03/18/a-note-on-quantum-groupoids/)
+
+The modern concept over noncommutative base is discovered in two formally different formalisms, but the two concepts are equivalent: 
  
-* B. Day, [[R. Street]], _Monoidal bicategories and Hopf algebroids_, Advances in Mathematics __129__, 1 (1997) 99--157 
+* [[B. Day]], [[R. Street]], _Monoidal bicategories and Hopf algebroids_, Advances in Mathematics __129__, 1 (1997) 99--157 
 
 * [[G. Böhm]], _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math. __239__, Dekker, New York, 2005; <a href="http://arxiv.org/abs/math.QA/0301169"> math.QA/0301169 </a>
+* [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
 
 [[!redirects Hopf algebroids]]
