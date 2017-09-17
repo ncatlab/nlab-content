@@ -94,6 +94,8 @@ The affine line without its origin, $\mathbb{A}^1 - \{0\}$ comes canonically wit
 
 * [[isogeny]]
 
+* [[form of an algebraic group]]
+
 ## References
 
 The standard references are 
