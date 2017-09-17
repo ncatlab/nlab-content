@@ -69,9 +69,11 @@ $$ \array {
 } $$
 (where $U$ [[forgetful functor|forgets]] the point).
 
+This example can also be done starting with an arbitrary pointed topological space and letting $U$ take the [[connected component]] of the point.  Of course, this example really lives in [[∞ Grpd]] and so we could start with a (pointed, maybe connected) [[simplicial set]], [[Kan complex]], etc.
 =--
 
 For more discussion of this see at _[[singular homology]]_ the section _[Relation to homotopy groups](singular%20homology#RelationToHomotopyGroups)_.
+
 
 #### Free abelian groups
 
