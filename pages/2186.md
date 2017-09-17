@@ -29,7 +29,7 @@ $$
 
 of real numbers.
 
-We write $f\sim_F g$ if the set $\{i\in\mathbb{N}|f(i)=g(i)\}$ belongs to $F$; these are precisely the sequences which are equal almost everywhere with respect to the associated measure. The relation $\sim_F$ is an [[equivalence relation] and ${}^*\mathbb{R} := \mathbb{R}^{\mathbb{N}}/{\sim_F}$ is a __nonstandard extension__ of $\mathbb{R}$, whose elements are sometimes called **hyperreal numbers**. 
+We write $f\sim_F g$ if the set $\{i\in\mathbb{N}|f(i)=g(i)\}$ belongs to $F$; these are precisely the sequences which are equal almost everywhere with respect to the associated measure. The relation $\sim_F$ is an [[equivalence relation]] and ${}^*\mathbb{R} := \mathbb{R}^{\mathbb{N}}/{\sim_F}$ is a __nonstandard extension__ of $\mathbb{R}$, whose elements are sometimes called **hyperreal numbers**. 
 
 (This is a special case of the [[ultraproduct]] construction in [[model theory]].  In fact, we could have started with an ultrafilter on any set, not just $\mathbb{N}$.  Such more general ultraproducts are necessary in order to obtain more refined models of nonstandard analysis satisfying stronger "saturation" principles.)
 
