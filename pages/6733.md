@@ -115,7 +115,7 @@ $$
 (see [[differential string structure]] for the definition of the differential refinement $\hat \mathbf{\lambda} = \frac{1}{2}\hat \mathbf{p}_1$),
 where, note, we have included a global factor of 2, which is now possible due to the inclusion of the integral lift of the Wu class.
 
-Notice that where the [[equations of motion]] of the original [[action functional]] are $\hat a = 0$, those of this shifted one are $\hat a = - \frac{1}{2}\hat \mathbf{\lambda}$. By comparison with the [[Maxwell equations]] one therefore also calls $-\frac{1}{2}\lambda$ here a _background [[charge]]_ for the 7-d Chern-Simons theory.
+Notice that where the [[equations of motion]] of the original [[action functional]] are $\hat a = 0$, those of this shifted one are $\hat a = - \frac{1}{2}\hat \mathbf{\lambda}$. One may therefor calls $-\frac{1}{2}\lambda$ here a _background [[charge]]_ for the 7-d Chern-Simons theory.
 
 This is now indeed a [[quadratic refinement]] of the [[intersection pairing]]:
 
@@ -165,6 +165,53 @@ In terms of [[twisted differential c-structures]] we may summarize the outcome o
 
 _The divisibility of the action functional requires a $2(G_4 - a)$-[[twisted Wu structure]] in $\mathbb{Z}/2$-cohomology. Its lift to integral cohomology is the $2(G_4 - a)$-[[twisted differential string structure]] known as the "Witten quantization condition" on the [[supergravity C-field]]_.
 
+### Resctriction of the supergravity $C$-field
+ {#RestrictionOfTheCField}
+
+We discuss the conditions on the 
+restriction of the [[supergravity C-field]] on the ambient 
+[[11-dimensional supergravity]] [[spacetime]] to the M5-brane.
+
+This is similar to the analogous situation in [[type II string theory]].
+The the [[Freed-Witten anomaly cancellation]] condition demands that
+the restriction of the [[B-field]] $\hat H_3 \hat H^3(X)$ 
+on spacetime $X$ to an 
+[[orientation|oriented]] [[D-brane]] $Q \hookrightarrow X$ has
+to trivialize, up to [[torsion]], relative to the integral 
+[[Stiefel-Whitney class]] $W_3 = \beta(w_2)$, where
+$\beta$ is the [[Bockstein homomorphism]] induced from the 
+[[short exact sequence]] $\mathbb{Z} \stackrel{\cdot 2}{\to}
+\mathbb{Z} \to \mathbb{Z}_2$:
+
+$$
+  H_3|_Q \simeq W_3
+  \,,
+$$
+
+thus defining a [[twisted spin^c-structure]] on the [[D-brane]].
+
+The analog of this for the M5-brane is discussed in 
+([Witten00, section 5](#Witten2000)). There it is argued that
+there is a class 
+
+$$
+  \theta \in H^3(Q, U(1))
+$$
+
+on the 5-brane such that under the [[Bockstein homomorphism]]
+$\beta'$ induced by the [[short exact sequence]]
+$\mathbb{Z} \to \mathbb{R} \to U(1)$ we have for the
+[[supergravity C-field]] $\hat G \in \hat H^4(X)$ the condition
+
+$$
+  G|_Q = \beta'(\theta)
+  \,.
+$$
+
+By the [above](#7dCSDual) quantization condition, this may also be thought of
+as witnessing a [[twisted string structure]] on the 5-brane ([Sati](#Sati10)).
+
+This condition reduces to the above one for the $B$-field under [[double dimensional reduction]] on the circle.
 
 ## Related concepts
 
@@ -245,6 +292,13 @@ A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 * A. J. Nurmagambetov, I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
 
 ### More on the algebraic topology
+
+* [[Edward Witten]], _Duality relations among topological effects in string theory_, J. High Energy Phys. 0005 (2000)
+031 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+ {#Witten2000}
+
+* [[Hisham Sati]], _Geometric and topological structures related to M-branes II: Twisted String and String^c structures_ ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419))
+ {#Sati10}
 
 * [[Hisham Sati]], _Twisted topological structures related to M-branes II: Twisted $Wu$ and $Wu^c$ structures_ ([arXiv:1109.4461](http://arxiv.org/abs/1109.4461))
  {#Sati}
