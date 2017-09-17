@@ -38,7 +38,7 @@ such that
 
 1. it induces an [[isomorphism]] $K(n)_\ast X \longrightarrow K(n)_\ast X$
 
-1. for $k \neq l$ the induced map $K(n)_\ast X \longrightarrow K(l)_\ast X$ is nilpotent.
+1. for $k \neq l$ the induced map $K(l)_\ast X \longrightarrow K(l)_\ast X$ is nilpotent.
 
 The periodicity theorem says: 
 
