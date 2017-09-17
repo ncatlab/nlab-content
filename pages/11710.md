@@ -1,4 +1,15 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,6 +24,10 @@ A _maximal ideal_ is an [[ideal]] which is maximal among [[proper ideals]].
 ### Relation to points in the spectrum
 
 Maximal ideals in the [[spectrum of a commutative ring]] $Spec(R)$ correspond precisely to the [[closed subset|closed]] points in the [[Zariski topology]] on $Spec(R)$.
+
+## Related concepts
+
+* [[residue field]]
 
 ## References
 
