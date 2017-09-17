@@ -46,6 +46,6 @@ $$
 ## Related concepts
 
 * [[spectral sequence of a filtered complex]]
-
+* [[associated graded ring]] (or algebra)
 [[!redirects associated graded]]
 [[!redirects associated graded objects]]
