@@ -194,6 +194,10 @@ def. \ref{FunctorsOfFunctionAlgebras}.
 
 Gelfand duality makes sense in [[constructive mathematics]] hence [[internalization|internal]] to any [[topos]]: see [[constructive Gelfand duality theorem]].
 
+### By horizontal categorification
+
+Gelfand duality can be extended by [[horizontal categorification]] to define the notion of [[spaceoid|spaceoids]] as formal duals of commutative $C^*$-[[C-star-category|categories]].
+
 ## Related concepts
 
 * [[Isbell duality]]
