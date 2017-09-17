@@ -1,6 +1,6 @@
-Microlocalization is a tool invented by Mikio Sato to study linear partial differential equations (as a part of his [[algebraic analysis]] program) not only locally in space but also locally in momentum variable. It is a purely algebraic theory that was also continued in parallel by analysts, like Hormander, giving the domain of [[microlocal analysis]].
+Microlocalization is a tool invented by [[Mikio Sato]] to study linear [[partial differential equations]] (as a part of his [[algebraic analysis]] program) not only locally in space but also locally in momentum variable. It is a purely algebraic theory that was also continued in parallel by analysts, like Hormander, giving the domain of [[microlocal analysis]].
 
-Sato's theory of microlocalization was first described in the setting of D-modules:
+Sato's theory of microlocalization was first described in the setting of [[D-modules]]:
 
 * [[M. Kashiwara]], Kawai, Kimura: foundations of algebraic analysis.
 
