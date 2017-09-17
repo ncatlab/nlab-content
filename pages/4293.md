@@ -5,7 +5,13 @@
 
 ## Defintion
 
-For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$, its **Taylor series** (at 0) is the [[power series]]
+For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$ and $c$ a [[real number]], its **Taylor series** at $c$ is the [[power series]]
+
+$$
+  \sum_{n = 0}^\infty \frac{1}{n!} f^{(n)}(c) (x-c)^n
+$$
+
+For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$, its **Mac Laurin series** is its Taylor series at [[zero]]:
 
 $$
   \sum_{n = 0}^\infty \frac{1}{n!} f^{(n)}(0) x^n
@@ -42,4 +48,9 @@ The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analys
 
 =--
 
+
+[[!redirects Taylor series]]
 [[!redirects Taylor series expansion]]
+[[!redirects Mac Laurin series]]
+[[!redirects MacLaurin series]]
+[[!redirects Maclaurin series]]
