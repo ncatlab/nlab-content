@@ -23,6 +23,12 @@ A [[topological space]] $X$ is said to be __locally contractible__ if it has a [
 
 Sometimes one requires just that the inclusions $U \to X$ are [[null-homotopic map]]s. This might be called **semi-locally contractible**.
 
++-- {: .un_remark}
+###### Remark
+
+One could also consider a basis of open sets such that the opens $U$ have (just) trivial [[homotopy group]]s, but this does not seem to crop up in practice.
+=--
+
 +-- {: .un_defn}
 ###### Definition
 
@@ -31,12 +37,6 @@ A [[locale]] $X$ is __locally contractible__ if, viewing a locale as a $(0,1)$-[
 
 +-- {: .query}
 Is this right?  Do these two definitions correspond in that a [[sober space]] or [[topological locale]] is locally contractible as a topological space iff it\'s locally contractible as a locale?  ---Toby
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-One could also consider a basis of open sets such that the opens $U$ have (just) trivial [[homotopy group]]s, but this does not seem to crop up in practice.
 =--
 
 
