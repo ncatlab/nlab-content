@@ -1461,18 +1461,18 @@ In ([Witten 96](http://ncatlab.org/nlab/show/7d+Chern-Simons+theory#WittenI)) th
 
 In ([Fiorenza-Sati-Schreiber 12a](#FSS12a), [Fiorenza-Sati-Schreiber 12b](#FSS12b)) the bosonic but _non-abelian_ quantum correction to the [[7d Chern-Simons theory]] induced by 11d Sugra is considered, and refined to a [[local action functional]] along the lines considered here. Therefore by ([Witten 98](#Witten98)) the corresponding [[schreiber:∞-Wess-Zumino-Witten theory]] should be the bosonic and nonabelian part of the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] [[worldvolume]].
 
-To see this, what one needs is eveidently a general formalization of [[holography]] for [[local prequantum field theory]] as these. How are [[schreiber:∞-Wess-Zumino-Witten theory]]-models higher holographic boundaries of [[schreiber:∞-Chern-Simons theory]]?
+To see this, what one needs is evidently a general formalization of [[holography]] for [[local prequantum field theory]] as these. How are [[schreiber:∞-Wess-Zumino-Witten theory]]-models higher holographic boundaries of [[schreiber:∞-Chern-Simons theory]]?
 
 At the level of [[local prequantum field theory]] this is answered in ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)):
 
 $$
-  \mu \colon \mathbb{g} \longrightarrow \mathbb{R}[n]
+  \mu \;\colon\; \mathfrak{g} \longrightarrow \mathbb{R}[n]
 $$
 
 be a [[super L-∞ algebra]] [[L-∞ cocycle]]. Let 
 
 $$
-  \mathbf{c} \colon \mathbf{B}G \longrightarrow \mathbf{B}^{n+1}(\mathbb{R}/\Gamma)
+  \mathbf{c} \;\colon\; \mathbf{B}G \longrightarrow \mathbf{B}^{n+1}(\mathbb{R}/\Gamma)
 $$
 
 be its [[Lie integration]] in [[smooth super ∞-groupoids]], according to ([Fiorenza-Schreiber-Stasheff 10](#FiorenzaSchreiberStasheff10)). 
