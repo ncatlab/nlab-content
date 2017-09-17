@@ -24,6 +24,8 @@ $$
 
 * [[associated graded object]]
 
+* [[stratification]]
+
 [[!redirects filtered objects]]
 
 [[!redirects filtration]]
