@@ -62,6 +62,8 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 * [[nonassociative algebra]]
 
+* [[nonunital algebra]]
+
 * [[finitely generated algebra]], [[finitely presented algebra]]
 
 * [[power-associative algebra]]
