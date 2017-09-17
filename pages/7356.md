@@ -91,6 +91,11 @@ The original article is
 
 * [[Cumrun Vafa]], _Evidence for F-theory_, Nucl.Phys.B469:403-418,1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
 
+An early survey of its relation to [[M-theory]] with [[M5-branes]] is in 
+
+* {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
+
+
 Lecture notes include
 
 * Timo Weigand, _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
