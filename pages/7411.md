@@ -133,7 +133,11 @@ T X \otimes T Y & \stackrel{u \otimes T u}{\to} & T T X \otimes T T Y & \stackre
 which completes the proof. 
 =-- 
 
-=-- 
+
+## References
+
+* {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ ([arXiv:1205.0101](http://arxiv.org/abs/1205.0101))
+
 
 
 [[!redirects monoidal monads]]
