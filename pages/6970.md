@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[type theory]] a _function type_ $X \to Y$ for two [[types]] $X,Y$ is the [[type]] of maps from $X$ to $Y$. 
+
+In [[models]] this is an [[exponential object]]. In [[Set]] it is a [[function set]]
+
+## Related concepts
+
+[[!include notions of type]].
+
+[[!redirects function types]]
+
