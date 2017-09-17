@@ -1,3 +1,23 @@
+[[!redirects Pontrjagin-Thom collapse map]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Related concepts
+
+* [[fiber integration]]
 
 ## References
 
@@ -8,3 +28,4 @@ An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Ko
 More details are in 
 
 * [[Ralph Cohen]], [[John Klein]], _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
+
