@@ -28,4 +28,13 @@ Here $W = Eig(\sigma,1) \hookrightarrow V$ is the [[eigenspace]] of $\sigma$ for
 
 * [[quaternionic structure]]
 
+* [[KR-theory]]
+
+## References
+
+More generally in [[spectral geometry]] (via [[spectral triples]]) and [[KR-theory]]:
+
+* {#Connes95} [[Alain Connes]], definition 3 of _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+
+
 [[!redirects real structures]]
