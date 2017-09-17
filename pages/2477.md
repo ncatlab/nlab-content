@@ -121,3 +121,6 @@ Geometric stacks over the site of schemes modeled on [[smooth loci]] is in secti
  
 
 [[!redirects geometric stack]]
+[[!redirects geometric stacks]]
+[[!redirects presentable stack]]
+[[!redirects presentable stacks]]
