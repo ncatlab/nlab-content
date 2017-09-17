@@ -9,19 +9,6 @@
 =--
 =--
 
-* **groupoid**
-
-* [[2-groupoid]]
-
-* [[3-groupoid]]
-
-* [[n-groupoid]]
-
-* [[∞-groupoid]]
-
-
-***
-
 #Contents#
 * table of contents
 {:toc}
@@ -58,7 +45,7 @@ A groupoid $G$ is _connected_, or _transitive_,  if $G(x,y)$ is nonempty for all
 
 1. More generally, if we choose some subset $S$, of the points of a space $X$, then we have a [[full subcategory|full subgroupoid]] of $\Pi_1(X)$ containing only those points in $S$, denoted $\Pi_1(X,S)$.  This can result in much more manageable groupoids; for instance $\Pi_1([0,1],\{0,1\}) $ is the groupoid $I$ considered above, while $\Pi_1([0,1])$ has uncountably many objects (but is equivalent to $I$).
 
-1. If $\Gamma$ is a [[directed graph]] or [[quiver]], then the free groupoid $F(\Gamma)$ is well defined. It is the left [[adjoint functor]] to the [[forgetful functor]] from groupoids to directed graphs. This shows an advantage of groupoids: the notion of _free equivalence relation_ or _free action groupoid_ does not make sense. But we can still talk of a presentation of an equivalence relation or action groupoid by generators and relations, by considering presentations of groupoids instead. 
+1. If $\Gamma$ is a [[directed graph]] or [[quiver]], then the free groupoid $F(\Gamma)$ is well defined. It is the left [[adjoint functor]] to the [[forgetful functor]] from groupoids to directed graphs. This shows an advantage of groupoids: the notion of _free equivalence relation_ or _free action groupoid_ does not make sense. But we can still talk of a presentation of an equivalence relation or action groupoid by [[generators and relations]], by considering presentations of groupoids instead. 
 
 1. The paper by Zivljevic listed below gives examples of groupoids used in combinatorics. 
 
