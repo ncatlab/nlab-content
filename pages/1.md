@@ -44,10 +44,21 @@ We all make notes as we read papers, read books and doodle on pads of paper. The
 
 =--
 
+[teler](http://katamutiarabijak.netai.net/) netai
+[minum](http://bentor.pressku.com/) pressyou
+[ballo](http://infonews.site90.net/) infonews
+[kemarin](http://mutiarabijak.wordpress.com/) mutiarabijak
+[sore](http://lucubro.blogspot.com/) blogspot
+
 For more see [[About]].
 
 We originally designed this place as as an adjunct to the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), but it\'s more independent now. 
 
+[lianli](http://yawan.blogdetik.com/) blogdetik
+[kampret](http://lucubanget.inilahkita.com/) lucubanget
+[insane](http://deyong.dagdigdug.com/) dagdigdug
+[kambing](http://id4download.blog.com/) downloadblog
+[tonduw](http://kanduyung.wordpress.com/) wordpress
 
 ## Discussions
  {#Discussion}
@@ -59,6 +70,14 @@ While we work on the $n$Lab, we talk to each other on the [nForum](http://www.ma
  {#Contributing}
 
 If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
+
+[dialah](http://deyong.abatasa.com/) abatasa
+[anna la di ita](http://kandu.webnode.com/) webnode
+[kossi](http://wockee.weebly.com/index.html) wockee
+[ridwanaz](http://deyong.posterous.com/) posterous
+[puyeng](http://deyongbp.bravejournal.com/index.php) bravenet
+[dianlow](http://kandu.webs.com/) websin
+[tangngana](http://deyong.livejournal.com/) uberjournal)
 
 If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)!
 
