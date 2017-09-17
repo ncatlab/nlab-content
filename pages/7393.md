@@ -23,7 +23,94 @@
 
 The [[operad|operadic]] analog of the [[model structure for Segal categories]].
 
+## Definition
+
+Write $\Omega$ for the [[tree category]], the [[site]] for [[dendroidal sets]].
+Write $\eta$ for the tree with a single edge and no vertices.
+Write 
+
+$$
+  sdSet := [\Omega^{op}, sSet]
+$$ 
+
+for the category of [[simplicial presheaves]] on the tree category -- _simplicial dendroidal sets_ or _dendroidal simplicial sets_.
+
++-- {: .num_defn }
+###### Definition
+
+A **Segal pre-operad** $X$ is a simplicial dendroidal set such that $X(\eta)$ is a [[discrete object|discrete]] [[simplicial set]] (a plain set). Write
+
+$$
+  SegalPreOperad \hookrightarrow [\Omega^{op}, sSet]
+$$
+
+for the [[full subcategory]] on the Segal pre-operads.
+
+=--
+
+This is ([Cisinski-Moerdijk, def. 7.1](#CisinskiMoerdijk)).
+
+
++-- {: .num_prop }
+###### Obervation
+
+The inclusion has a left and right adjoint
+
+$$
+  sdSet 
+  \stackrel{\overset{\gamma_!}{\to}}{\stackrel{\overset{\gamma^*}{\leftarrow}}{\underset{\gamma_*}{\to}}}
+  SegalPreOperad
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #NormalMonomorphism}
+###### Definition
+
+Say a morphism $f$ in $SegalPreOperad$ is a _normal monomorphism_ precisely if $\gamma^*(f)$ is degreewise a normal morphisms of [[dendroidal sets]] (see there for details).
+
+=--
+
++-- {: .num_defn #SegalWeakEquivalence}
+###### Definition
+
+Say a morphism $f$ in $SegalPreOperad$ is a _Segal weak equivalence_ precisely if $\gamma^*(f)$ is a weak equivalence in the [[model structure for dendroidal complete Segal spaces]].
+
+=--
+
+
++-- {: .num_defn #WeakEquivalencesAndFibrations}
+###### Definition
+
+Call a morphism in $SegalPreOperad$
+
+* a weak equivalence precisely if it is a Segal weak equivalence, def. \ref{SegalWeakEquivalence};
+
+* a cofibration if it is a normal monomorphism, def. \ref{NormalMonomorphism}.
+
+=--
+
+
 ## Properties
+
+### Of the model structure itself
+
++-- {: .num_theorem}
+###### Theorem
+
+The structures in  def. \ref{WeakEquivalencesAndFibrations} 
+make the category $SegalPreOperad$ a [[model category]] which is
+
+* [[cofibrantly generated model category|cofibrantly generated]];
+
+* [[left proper model category|left proper]].
+
+=--
+
+This is ([Cisinski-Moerdijk, theorem 8.13](#CisinskiMoerdijk)).
+
 
 ### Relation to other model structures
 
