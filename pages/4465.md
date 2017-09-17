@@ -39,9 +39,13 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
 
 * gravitational entropy
 
-  * **Bekenstein-Hawing entropy**
+  * **Bekenstein-Hawking entropy**
 
   * [[generalized second law of thermodynamics]]
+
+  * [[black holes in string theory]]
+
+  * [[holographic entanglement entropy]]
 
 ## References
 
