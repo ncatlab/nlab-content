@@ -1,0 +1,32 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+[[twisted cohomology|twisted]] [[differential cohomology]]
+
+## Examples
+
+* [[twisted differential K-theory]]
+
+## References
+
+A definition in terms of [[smooth spectra]] (such as discussed at _[[differential cohomology diagram]]_) is due to
+
+* [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_ ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231))
+
+For discussion of twisted differential cohomology as the intrinsic [[cohomology]]_ of [[tangent cohesive (∞,1)-topos|Goodwillie-tangent spaces of cohesive (∞,1)-topos]]_ see there.
+
+[[!redirects differential twisted cohomology]]
