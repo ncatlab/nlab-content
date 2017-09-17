@@ -1,0 +1,12 @@
+The Euler beta function has been defined by [[Euler]] around 1730 by the so called Euler beta integral
+
+$$
+B(x,y) = \int_0^1 t^{x-1} (1-t)^{y-1} d t = \frac{\Gamma(x)\Gamma(y)}{\Gamma(x+y)},\,\,\,\,\,\,Re x\gt 0, \,\,\,\,Re y \gt 0,
+$$
+
+which can be expressed in terms of the gamma function as stated. 
+
+A multidimensional generalization is the [[Selberg integral]]. 
+
+* G. E. Andrews, R. Askey, R. Roy, _Special functions_, Enc. of Math. and its Appl. (1999)
+[[!redirects Euler's beta function]]
