@@ -191,7 +191,7 @@ which for $U \in $ [[SmthMfd]] a smooth test manifold sends $n$-connections on $
 
 To see this, observe that 
 
-1. by definition $\mathbf{H}(U, [\Sigma_k, \mathbf{B}^n U(1)_{conn}]) \simeq \mathbf{H}(U \times \Sigma_k, \mathbf{B}^n U(1))$;
+1. by definition $\mathbf{H}(U, [\Sigma_k, \mathbf{B}^n U(1)_{conn}]) \simeq \mathbf{H}(U \times \Sigma_k, \mathbf{B}^n U(1)_{conn})$;
 
 1. if $\{U_i \to \Sigma_k\}$ is a fixed [[good open cover]] of $\Sigma_k$, then $\{U \times U_i \to U \times \Sigma_k\}$ is also a good open cover, for every $U \in $ [[CartSp]];
 
