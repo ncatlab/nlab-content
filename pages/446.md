@@ -38,6 +38,8 @@ An **allegory** is a [[(1,2)-category]] $A$ equipped with an [[involution]] $(-)
 
 A **map** in an allegory is a morphism that has a [[right adjoint]].
 
+Any 2-category has a [[bicategory of maps]].  In an allegory, the ordering between maps is discrete, meaning that if $f \leq g$ then $f = g$.  Consequently, the bicategory of maps of an allegory is a [[category]].
+
 A **tabulation** of a morphism $\phi$ is a pair of maps $f,g$ such that $\phi = g^o f$ and $f^o f \cap g^o g = 1$.  An allegory is **tabular** if every morphism has a tabulation, and **pretabular** if every morphism is contained in one that has a tabulation.
 
 Every [[regular category]], and indeed every [[locally regular category]], has a tabular allegory of internal binary relations.  Conversely, by restricting to the morphisms with left adjoints ("maps") in a tabular allegory, we obtain a locally regular category.  These constructions are inverse, so tabular allegories are equivalent to locally regular categories.
@@ -51,7 +53,7 @@ Thus, regular categories are equivalent to unital (or unitary) tabular allegorie
 
 ## Division allegories and power allegories
 
-A **distributive allegory** is an allegory whose hom-posets have finite joins that are preserved by composition.  Thus a distributive allegory is locally a [[lattice]].
+A **distributive allegory** is an allegory whose hom-posets have finite joins that are preserved by composition.  Thus a distributive allegory is locally a [[lattice]].  The category of maps in a unitary tabular distributive allegory is a [[pre-logos]], and conversely the bicategory of relations in a pre-logos is a unitary tabular distributive allegory.
 
 A **division allegory** is a distributive allegory in which composition on one (and therefore the other) side has a right adjoint (left or right division). That is: given $r \colon A \to B$ and $s \colon A \to C$, there exists $r/s \colon B \to C$ such that
 
@@ -119,13 +121,13 @@ Let $T$ be a [[regular theory]].  There is then an allegory $\mathcal{A}_T$ give
 * the objects are finite strings of [[sorts]] of $T$;
 * a morphism $\vec X \to \vec Y$ is a predicate $P(\vec x, \vec y)$ of sort $\vec X, \vec Y$ (or rather a provable-equivalence class of such predicates);
 * the identity $\vec X \to \vec X$ is (named by) $x_1 = x_1 \wedge x_2 = x_2 \wedge \cdots \wedge x_n = x_n$;
-* the composite of $R \colon \vec X \to \vec Y$ and $S \colon Y \to \vec X$ is named by $\exists \vec y. R(\vec x, \vec y) \wedge S(\vec y \vec z)$.
+* the composite of $R \colon \vec X \to \vec Y$ and $S \colon Y \to \vec X$ is named by $\exists \vec y. R(\vec x, \vec y) \wedge S(\vec y, \vec z)$.
 
 That $\mathcal{A}_T$ is an allegory is B.311 in [Freyd--Scedrov](#FreydScedrov); that it is in fact unitary and pre-tabular is B.312.
 
 Further structure on $T$ gives rise to further structure on $\mathcal{A}_T$ (B.313): if $T$ is a [[coherent theory|coherent]], [[first-order theory|first-order]] or [[higher-order logic|higher-order]] theory, then $\mathcal{A}_T$ will be a distributive, division or power allegory respectively.
 
-Every pre-tabular allegory has a tabular completion, given by splitting its coreflexive morphisms (i.e. those endomorphisms $R$ such that $R \subset id$).  The coreflexive splitting of $\mathcal{A}_T$ is precisely the [[syntactic category]] of $T$.
+Every pre-tabular allegory has a tabular completion, given by splitting its coreflexive morphisms (i.e. those endomorphisms $R$ such that $R \subset id$).  The category of maps in the coreflexive splitting of $\mathcal{A}_T$ is precisely the [[syntactic category]] of $T$.
 
 ### The existential quantifier
 
@@ -156,7 +158,7 @@ $$
   s r \cap p_2 p_1^o
   & = (s r p_1 \cap p_2) p_1^o & \text{modular law} \\
   & = (s r p_1 \cap p_2 \cap p_2) p_1^o \\
-  & \leq (s(r p_1 \cap s^o p_2) \cap p_2) p_1^o & \text{mod.} \\
+  & \leq (s(r p_1 \cap s^o p_2) \cap p_2) p_1^o & \text{modular law} \\
   & \leq (\top_{Y Z} (r p_1 \cap s^o p_2) \cap p_2) p_1^o
 \end{aligned}
 $$
@@ -165,15 +167,24 @@ In the other direction, we have
 $$
 \begin{aligned}
   (\top_{Y Z} (r p_1 \cap s^o p_2) \cap p_2) p_1^o
-  & \leq (\top_{Y Z} s^o (s r p_1 \cap p_2) \cap p_2) p_1^o &   \text{mod.} \\
-  & \leq (\top_{Y Y} (s r p_1 \cap p_2) \cap p_2) p_1^o \\
-  & = (p_2 (p_1^o s r p_1 \cap p_1^o p_2) \cap p_2) p_1^o \\
-  & = p_2 (p_1^o s r p_1 \cap p_1^o p_2 \cap p_2^o p_2) p_1^o \\
-  & = p_2 (p_1^o s r p_1 \cap (p_1^o \cap p_2^o) p_2) p_1^o \\
-  & = p_2 (p_1^o s r p_1 \cap \Delta p_2) p_1^o & \text{see below} \\
-  & = p_2 \Delta (\Delta^o p_1^o s r p_1 \cap p_2) p_1^o \\
-  & = (s r p_1 \cap p_2) p_1^o \\
+  & \leq (\top_{Y Z} s^o (s r p_1 \cap p_2) \cap p_2) p_1^o 
+& \text{modular law} \\
+  & \leq (\top_{Y Y} (s r p_1 \cap p_2) \cap p_2) p_1^o
+& \top_{Y Z} s^0 \leq \top_{Y Y}\\
+  & = (p_2 (p_1^o s r p_1 \cap p_1^o p_2) \cap p_2) p_1^o 
+& \top{Y Y} = p_2 p_1^o \\
+  & = p_2 (p_1^o s r p_1 \cap p_1^o p_2 \cap p_2^o p_2) p_1^o
+& \text{modular law} \\
+  & = p_2 (p_1^o s r p_1 \cap (p_1^o \cap p_2^o) p_2) p_1^o
+& \text{maps distribute} \\
+  & = p_2 (p_1^o s r p_1 \cap \Delta p_2) p_1^o
+& \text{see below} \\
+  & = p_2 \Delta (\Delta^o p_1^o s r p_1 \cap p_2) p_1^o
+& \text{modular law} \\
+  & = (s r p_1 \cap p_2) p_1^o 
+& p_1 \Delta = p_2 \Delta = id \\
   & = s r \cap p_2 p_1^o
+& \text{modular law}
 \end{aligned}
 $$
 and we are back to where we started.  In the fourth-last step we used the fact that if $p_1, p_2 \colon Z \times Z \to Z$ are the projections, then $p_1 \cap p_2 = \Delta^o$.  It suffices to show that $\Delta \dashv p_1 \cap p_2$; the unit inequality is actually an equality (since $\Delta$ is always monic):
