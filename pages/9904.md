@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Victor_Pavlovich_Maslov)
+
+## Related entries
+
+* [[Maslov index]]
+
+category: people
