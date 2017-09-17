@@ -1,0 +1,4 @@
+
+The founder of the science of [[physics]] and of [[differential calculus]].
+
+category: people
