@@ -33,10 +33,15 @@ and
 
   * [[homology]] 
 
+* [[category of chain complexes]]
+
   * [[chain complex]]
 
-    * [[category of chain complexes]]
-    * [[chain homology and cohomology]], 
+  * [[chain map]], [[quasi-isomorphism]]
+
+  * [[chain homotopy]]
+
+* [[chain homology and cohomology]], 
 
 * [[exact sequence]], 
 
@@ -72,7 +77,7 @@ and
 
   * [[spectral sequence of a filtered complex]]
 
-    * [[spectral sequence of a double complex]]
+  * [[spectral sequence of a double complex]]
 
   * [[Grothendieck spectral sequence]]
 
