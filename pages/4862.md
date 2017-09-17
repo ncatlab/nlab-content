@@ -103,7 +103,7 @@ Generally, the $n$-torus is $(S^1)^n$.
 
 A formalization in [[homotopy type theory]], along with a proof that $\pi_1(S^1) \simeq \mathbb{Z}$, can be found in
 
-* [[Dan Licata]] and [[Mike Shulman]], *Calculating the Fundamental Group of the Circle in Homotopy Type Theory*, [arXiv](http://arxiv.org/abs/1301.3443)
+* [[Dan Licata]] and [[Mike Shulman]], *Calculating the Fundamental Group of the Circle in Homotopy Type Theory* ([arXiv:1301.3443](http://arxiv.org/abs/1301.3443))
 
 The proof is formalized therein using the [[Agda]] [[proof assistant]].  See also
 
