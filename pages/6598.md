@@ -28,7 +28,7 @@
 
 * [[symplectomorphism]]
 
-* [[Hamiltonian vector field]]
+  * [[symplectic vector field]], [[Hamiltonian vector field]]
 
   * [[symplectic gradient]]
 
