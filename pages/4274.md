@@ -278,6 +278,8 @@ Surveys include
 
 * [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
 
+* {#Cheng13} Miranda Cheng, section 9 of _Mathematical tools for string theorists_, lecture notes 2013 ([pdf](http://www.math.jussieu.fr/~chengm/lecture_notes/Thalys_School.pdf))
+
 Further discussion of the [[Jacobi form]]-property of the Witten genus is in
 
 * {#AndoFrenchGanter08} [[Matthew Ando]], Christopher French, [[Nora Ganter]], _The Jacobi orientation and the two-variable elliptic genus_, Algebraic and Geometric Topology 8 (2008) p. 493-539 ([pdf](http://www.msp.warwick.ac.uk/agt/2008/08-01/agt-2008-08-016s.pdf))
