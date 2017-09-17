@@ -58,13 +58,15 @@ The [[Narasimhan–Seshadri theorem]] identifies [[moduli spaces]] of stable vec
 
 ## References
 
+Related items: [[Harder-Narasimhan filtration]], [[moduli space]]
+
 The notion was introduced in 
 
 * [[David Mumford]], _Geometric invariant theory_, Ergebnisse Math. Vol 34 Springer (1965)
 
 and
 
-* F. Takemoto, _Stable vector bundles on algebraic surfaces_, Nagoya Math. J.  47 (1973) and 52 (1973) ([Euclid](http://projecteuclid.org/euclid.nmj/1118794885))
+* F. Takemoto, _Stable vector bundles on algebraic surfaces_, Nagoya Math. J.  47 (1972) 29-48 ([euclid](http://projecteuclid.org/euclid.nmj/1118798682)); _II_, 52 (1973) ([euclid](http://projecteuclid.org/euclid.nmj/1118794885))
 
 A textbook account is in
 
