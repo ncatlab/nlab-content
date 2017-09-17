@@ -168,11 +168,8 @@ The paper of Artin and Mazur is
 [[!redirects higher van Kampen theorem]]
 
 [[!redirects higher homotopy van Kampen theorem]]
-[[!redirects higher homotopy van Kampen theorem]]
-
 
 [[!redirects higher van Kampen theorems]]
 [[!redirects Higher van Kampen Theorem]]
 [[!redirects Higher van Kampen Theorems]]
-[[!redirects higher homotopy van Kampen theorem]]
 [[!redirects higher homotopy van Kampen theorems]]
