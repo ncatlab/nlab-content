@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 In the paper **Differentiability of a function and of its compositions with functions of one variable**, Jan Boman proves the following theorem:
 
 +-- {: .num_theorem}
