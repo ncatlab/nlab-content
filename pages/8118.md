@@ -16,4 +16,11 @@ A _Yangian_ is a certain [[quantum group]] that arises naturally in [[integrable
 
 * [[Vassili Gorbounov]], R. Rimanyi, V. Tarasov, A. Varchenko, _Cohomology of the cotangent bundle of a flag variety as a Yangian Bethe algebra_ ([arXiv:1204.5138](http://arxiv.org/abs/1204.5138))
 
+In
+
+* [[Kevin Costello]], _Supersymmetric gauge theory and the Yangian_ ([arXiv:1303.2632](http://arxiv.org/abs/1303.2632))
+
+is discussed that the holomorphically [[topological twist|twisted]] [[N=1 D=4 super Yang-Mills theory]] is controled by the [[Yangian]] in analogy to how [[Chern-Simons theory]] is controled by a [[quantum group]].
+
+
 [[!redirects Yangians]]
