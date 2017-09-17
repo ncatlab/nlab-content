@@ -371,6 +371,10 @@ This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. M
 
 ## References
 
+A a popular introduction to the notion of phase space with some comments on the history of the concept are in
+
+* David Nolte, _The tangled tale of phase space_, PhysicsToday (April 2010) ([pdf](http://www.physics.purdue.edu/nlo/NoltePT10.pdf))
+
 ### Covariant phase space
 
 A standard textbook reference is chapter 17.1 of 
