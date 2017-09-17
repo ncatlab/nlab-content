@@ -36,6 +36,7 @@ The terminology 'evil' was originally intended as a joke and has not been used i
 
 * [[Michael Makkai]] proposed [independently?] the _Principle of Isomorphism_, "all grammatically correct properties of objects of a fixed category are to be invariant under isomorphism", in his [paper](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.lnl/1235415906) "Towards a categorical foundation of mathematics", in Johann A. Makowsky, Elena V. Ravve, eds., Logic Colloquium '95: Proceedings of the Annual European Summer Meeting of the Association of Symbolic Logic, held in Haifa, Israel, August 9-18, 1995 (Berlin: Springer-Verlag, 1998), 153-190. People who are uneasy about using emotionally charged words can fall back on this phrase.
 
+* [[Peter Aczel]] mentioned a similar concept, the _Structure Identity Principle_, "isomorphic structures have the same structural properties" in Oberwolfach [report 52/2011](www.mfo.de/document/1145/OWR_2011_52.pdf). This seems a priori a little weaker to [[David Roberts|me]], but if we demand that objects should be seen as only having structural properties (as opposed to the category of [[ZF]]-[[sets]]), then we look like we get back the Principle of Isomorphism.
 
 *  'kosher' in place of 'non-evil'.  One could then say 'treif' or 'treyf' instead of 'evil', but this word is less well-known so probably 'non-kosher' would be easier to understand.
 
