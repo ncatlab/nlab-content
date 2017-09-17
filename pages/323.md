@@ -188,12 +188,12 @@ There are three commuting squares: the two inner ones and the outer one.
 +-- {: .un_prop}
 ###### Proposition
 
-If any two of these three squares are pullback squares, then so is the third.
+Suppose the right-hand inner square is a pullback: then the left-hand one is a pullback if and only if the outer square is.
 
 =--
 
 +-- {: .proof}
-_Proof_.  Pasting a morphism into $a$ with the outer square gives rise to a function from morphisms into $a$ to commuting squares over the bottom and right edges of the diagram.  This function factors through the set of squares over the cospan in the left-hand inner square, by way of pasting with the left and right squares in turn.  All three squares are pullbacks iff the functions are isomorphisms, which by the 2-out-of-3 property is true if any two of them are, i.e. if any two of the squares are pullbacks.
+_Proof_.  Pasting a morphism $x \to a$ with the outer square gives rise to a commuting square over the (composite) bottom and right edges of the diagram.  The square over the cospan in the left-hand inner square arising from $x \to a$ includes a morphism into $b$, which if $b$ is a pullback induces the same commuting square over $d \to e \to f$ and $c \to d$.  So one square is universal iff the other is.
 =--
 
 
