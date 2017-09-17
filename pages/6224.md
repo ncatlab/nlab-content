@@ -56,7 +56,7 @@ Proofs about nilpotent groups are often most naturally phrased using induction o
 
 If we interpret the same defining clauses of nilpotent groups and central series [[coinductive definition|coinductively]] rather than inductively, we obtain notions that might be called *co-nilpotent groups* and *central streams* ("stream" being the standard name for the coinductive counterpart of a list).  Explicitly, a central stream is a descending countable sequence of normal subgroups, such that each successive quotient is central in the corresponding quotient of the whole group, that may or may not ever terminate with the trivial group.
 
-In fact, *every* group admits some central stream and hence is co-nilpotent.  Two canonical central streams associated to any group are its  [[lower central series]] and its [[upper central series]].  Despite the names, these two central streams are actually central series (i.e. they terminate at the trivial group) if and only if the group is nilpotent.
+In fact, *every* group admits some central stream and hence is co-nilpotent.  Two canonical central streams associated to any group are its  [[lower central series]] and its upper central series (for now see [Wikipedia](http://en.wikipedia.org/wiki/Central_series#Upper_central_series)). Despite the names, these two central streams are actually central series (i.e. they terminate at the trivial group) if and only if the group is nilpotent.
 
 
 ### $\mathcal{A}$-nilpotent $\pi$-groups
