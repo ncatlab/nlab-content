@@ -21,7 +21,7 @@
 
 A **Grothendieck pretopology** or **basis for a Grothendieck topology** is a collection of families of [[morphism]]s in a [[category]] which can be considered as [[cover|covers]].  
 
-Every Grothendieck pretopology genrates a Grothendieck topology. Different pretopologies may give rise to the same topology.
+Every Grothendieck pretopology generates a Grothendieck topology. Different pretopologies may give rise to the same topology.
 
 An even weaker notion than a Grothendieck pretopology, which also generates a Grothendieck toplogy, is a [[coverage]].  A Grothendieck pretopology can be defined as a coverage that also satisfies a couple of extra saturation conditions.
 
@@ -35,7 +35,7 @@ An even weaker notion than a Grothendieck pretopology, which also generates a Gr
 
 Let $C$ be a [[category]] with [[pullback]]s. A **Grothendieck pretopology** or **basis (for a [[Grothendieck topology]])** on $C$ is an assignment to each [[object]] $U$ of $C$ of a collection of families $\{U_i \to U\}$ of morphisms, called **[[covering]] families** such that
 
-1. _isomorphisms cover_ -- every family consistsing of a single [[isomorphism]] $\{V \stackrel{\cong}{\to}U\}$ is a covering family;
+1. _isomorphisms cover_ -- every family consisting of a single [[isomorphism]] $\{V \stackrel{\cong}{\to}U\}$ is a covering family;
 
 1. _stability axiom_ -- the collection of covering families is stable under [[pullback]]: if $\{U_i \to U\}$ is a covering family and $f : V \to U$ is any morphism in $C$, then $\{f^* U_i \to V\}$ is a covering family;
 
