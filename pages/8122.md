@@ -18,7 +18,7 @@ Let $V$ and $W$ be [[Banach spaces]], and let $V \otimes W$ be their [[tensor pr
 Every element of $V \otimes W$ may be written (in many different ways) as a formal [[linear combination]] of formal products of elements of $V$ and $W$:
 $$ \sum_i \alpha_i v_i w_i .$$
 Let the __projective cross norm__ ${\|x\|_\pi}$ of an element $x$ of $V \otimes W$ be
-$$ {\|x\|_\pi} \coloneqq \inf \{ \sum_i {|\alpha_i|} {\|v_i\|} {\|w_i\|} \;|\; x = \sum_i \alpha_i v_i w_i \} .$$
+$$ {\|x\|_\pi} \coloneqq \inf \{ \sum_i {|\alpha_i|} {\|v_i\|_V} {\|w_i\|_W} \;|\; x = \sum_i \alpha_i v_i w_i \} .$$
 Then __projective tensor product__ $V \hat{\otimes}_\pi W$ of $V$ and $W$ is the completion of $V \otimes W$ under the projective cross norm.
 =--
 
@@ -26,7 +26,7 @@ Then __projective tensor product__ $V \hat{\otimes}_\pi W$ of $V$ and $W$ is the
 ###### Definition (injective tensor product)
 
 If $\lambda$ and $\mu$ are [[linear functionals]] on $V$ and $W$ (respectively), then $\lambda \otimes \mu$ is a linear functional on $V \otimes W$.  Let the __injective cross norm__ ${\|x\|_\epsilon}$ of an element $x$ of $V \otimes W$ be
-$$ {\|x\|_\epsilon} \coloneqq \sup \{ (\lambda \otimes \mu)x \;|\; {\|\lambda\|}, {\|\mu\|} \leq 1 \} .$$
+$$ {\|x\|_\epsilon} \coloneqq \sup \{ {|(\lambda \otimes \mu)x|} \;|\; {\|\lambda\|_{V^*}}, {\|\mu\|_{W^*}} \leq 1 \} .$$
 Then __injective tensor product__ $V \hat{\otimes}_\epsilon W$ of $V$ and $W$ is the completion of $V \otimes W$ under the injective cross norm.
 =--
 
@@ -38,16 +38,83 @@ $$ \langle{v_1 w_1, v_2 w_2}\rangle \coloneqq \langle{v_1, v_2}\rangle \langle{w
 and extend by linearity.  We write the norm of an element $x$ of the [[inner product space]] $V \otimes W$ as ${\|x\|_\sigma}$.  Then the __tensor product__ $V \hat{\otimes}_\sigma W$ of the Hilbert spaces $V$ and $W$ is the completion of $V \otimes W$ under this norm (or inner product).
 =--
 
+
+## Cross norms
+
+Besides the specific norms defined above, we can define axioms of a reasonable norm on $V \otimes W$.
+
++-- {: .num_defn}
+###### Definition (cross norm)
+
+A __cross norm__ on $V$ and $W$ is *any* [[norm]] $\chi$ on $V \otimes W$ such that:
+
+*  ${\|v \otimes w\|_\chi} = {\|v\|_V} {\|w\|_W}$ for any elements $v$ and $w$ of $V$ and $W$ (respectively);
+*  ${\|\lambda \otimes \mu\|_{\chi^*}} = {\|\lambda\|_{V^*}} {\|\mu\|_{W^*}}$ for any [[bounded operator|bounded]] [[linear functionals]] $\lambda$ and $\mu$ on $V$ and $W$ (respectively).
+=--
+
 +-- {: .num_defn}
 ###### Definition (uniform cross norm)
 
-...
+A __uniform cross norm__ is an operation that takes two Banach spaces and returns a norm on their algebraic tensor product, [[natural transformation|naturally]] in the two spaces.  Equivalently, it\'s a [[functor]] $\chi\colon Ban \times Ban \to NVect$ that makes the following diagram commute (or fills it with a [[natural isomorphism]]):
+$$ \array { Ban \times Ban   & \overset{\chi}\rightarrow     & NVect \\
+            \downarrow       &                               & \downarrow \\
+            Vect \times Vect & \underset{\otimes}\rightarrow & Vect
+} $$
 =--
+
+A uniform cross norm is obviously desirable from the [[nPOV]], but does it meet the analysts\' needs for a cross norm?  Yes:
+
++-- {: .num_prop}
+###### Proposition
+
+A uniform cross norm assigns a cross norm to any two Banach spaces.
+=--
+
+The specific cross norms from the previous section qualify as much as possible:
+
++-- {: .num_prop}
+###### Proposition
+
+The projective and injective cross norms are uniform cross norms (and hence are in fact cross norms).  The norm on the algebraic tensor product of two Hilbert spaces is also a cross norm.
+=--
+
+As far as I can tell, the Hilbert-space cross norm $\sigma$ doesn\'t apply to arbitrary Banach spaces, so it doesn\'t define a uniform cross norm as defined above; however, it does define a functor on $Hilb \times Hilb$, so it\'s as uniform as could be expected.
+
+Looking only at the general theory of cross norms, the projective and injective cross norms appear naturally:
+
++-- {: .num_prop #topbot}
+###### Proposition
+
+If $\chi$ is any uniform cross norm, $V$ and $W$ are any Banach spaces, and $x$ is any element of $V \otimes W$, then
+$$ {\|x\|_\epsilon} \leq {\|x\|_\chi} \leq {\|x\|_\pi} .$$
+=--
+
+That is, we have a [[poset]] of uniform cross norms, and the projective and injective cross norms are (respectively) the [[top]] and [[bottom]] of this poset.
+
+Although $\sigma$ is not a uniform cross norm, it relates to $\epsilon$ and $\pi$ in the same way:
+
++-- {: .num_prop}
+###### Proposition
+
+If $V$ and $W$ are Hilbert spaces and $x$ is an element of $V \otimes W$, then
+$$ {\|x\|_\epsilon} \leq {\|x\|_\sigma} \leq {\|x\|_\pi} .$$
+=--
+
++-- {: .query}
+Actually, this would all be simpler if Propostion \ref{topbot} applied to *arbitrary* cross norms and not just uniform ones.  Perhaps it does.  Or perhaps $\sigma$ extends to a uniform cross norm on all of $Ban$; that would also make things simpler.  I don\'t know.
+=--
+
+Of course, any cross norm $\chi$ on $V$ and $W$ allows us to form the Banach space $V \hat{\otimes}_\chi W$, which may reasonably be called a __tensor product__ of $V$ and $W$; that\'s why we care.
+
+
+## Foundational issues
+
+We need the [[Hahn–Banach theorem]] for $\epsilon$ to be a cross norm; but $\sigma$ and $\pi$ work regardless.  Possibly some of the other propositions rely on some other form of the [[axiom of choice]]; I haven\'t seen their proofs.
 
 
 ## References
 
-Here\'s Wikipedia:
+I got pretty much all of my facts from Wikipedia:
 
 * [Topological tensor product](https://en.wikipedia.org/wiki/Topological_tensor_product) (which also discusses tensor products of [[locally convex spaces]]),
 * [Tensor product of Hilbert spaces](https://en.wikipedia.org/wiki/Tensor_product_of_Hilbert_spaces).
@@ -72,4 +139,3 @@ Here\'s Wikipedia:
 [[!redirects injective tensor products of a Banach space]]
 [[!redirects injective tensor product of Banach spaces]]
 [[!redirects injective tensor products of Banach spaces]]
-
