@@ -1,0 +1,30 @@
+The __associative Yang-Baxter equation__ (AYBE) is an associative analogue of the [[classical Yang-Baxter equation]]. If $A$ is a $k$-algebra then, in Leningrad notation, the AYBE for a matrix $r\in A\otimes A$ is the condition
+
+$$
+r_{1 3} r_{1 2} - r_{1 2} r_{2 3} + r_{2 3} r_{1 3} = 0
+$$
+
+If $r = \sum a_i\otimes b_i$, then the operator $P:A\to A$ given by
+
+$$
+P(x) = \sum a_i x b_i
+$$
+
+is a Rota-Baxter operator of weight $0$, i.e. $(A,P)$ is a [[Rota-Baxter algebra]] of weight $\lambda = 0$. 
+
+The skew-symmetric solutions ($r_{1 2} = - r_{2 1}$) of AYBE give rise to 
+
+* an algebra with the trace quadratic Poisson bracket
+* double Poisson structures on a free associative algebra
+* an anti-Frobenius associative subalgebra of a matrix algebra
+
+### Literature
+
+* [[Marcelo Aguiar]], _Infinitesimal Hopf algebras_,  Contemporary Mathematics, 267 (2000) 1-29; _Pre-Poisson algebras_, Lett. Math. Phys. 54 (2000) 263-277, [doi](http://dx.doi.org/10.1023/A:1010818119040); _On the associative analog of Lie bialgebras_,  Journal of Algebra __244__ (2001, 492-532, [open access pdf](http://www.sciencedirect.com/science/article/pii/S0021869301988775/pdf?md5=322e83568195266edf53989698f3ae78&pid=1-s2.0-S0021869301988775-main.pdf)
+* Chengming Bai, Li Guo, Xiang Ni, _$\mathcal{O}$-operators on associative algebras and associative Yang-Baxter equations_, Pacific J. Math. __256__ (2012) 257-289, [arxiv/0910.3261](http://arxiv.org/abs/0910.3261)
+* Travis Schedler, _Poisson algebras and Yang-Baxter equations_, [math.QA/0612493](http://arxiv.org/abs/math.QA/0612493)
+* V. Sokolov, _Classification of constant solutions for associative Yang-Baxter on $gl(3)$_, [arxiv/1212.6421](http://arxiv.org/abs/1212.6421)
+* A. Odesskii, V. Rubtsov, V. Sokolov, _Double Poisson brackets on free associative algebras_, [arxiv/1208.2935](http://arxiv.org/abs/1208.2935)
+
+category: algebra, physics
+[[!redirects AYBE]]
