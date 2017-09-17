@@ -147,6 +147,8 @@ $$
 
 * [[augmentation]], [[augmentation ideal]]
 
+* [[augmented algebra]]
+
 
 [[!redirects augmented simplicial set]]
 [[!redirects augmented simplicial sets]]
