@@ -72,6 +72,8 @@ The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]
 
 * [[Albanese variety]]
 
+* [[Prym variety]]
+
 [[!include moduli of higher lines -- table]]
 
 
