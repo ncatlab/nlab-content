@@ -181,6 +181,8 @@ The content of this section is at
 
   * [[background gauge field]]
 
+  * [[genus]]
+
 * [[brane]]
 
   * [[particle]], [[superparticle]]
