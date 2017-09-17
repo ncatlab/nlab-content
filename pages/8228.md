@@ -1,0 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A flavor of [[group theory]].
+
+## References
+
+* Wikipedia, _[Geometric group theory](http://en.wikipedia.org/wiki/Geometric_group_theory)_
