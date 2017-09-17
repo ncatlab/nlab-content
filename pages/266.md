@@ -294,7 +294,7 @@ We say that a Kan extension $Lan_p F$ is *preserved* by a functor $G$ if the com
 ### Pointwise or strong Kan extensions 
  {#Pointwise}
 
-If the [[codomain]] category $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be constructed, over each object ("point") of the domain category $C'$ out of these: Kan extensions that admit this form are called _pointwise_ .
+If the [[codomain]] category $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be constructed, over each object ("point") of the domain category $C'$ out of these: Kan extensions that admit this form are called _pointwise_. (Reviews include ([Riehl, I 1.3](#Riehl))).
 
 The notion of pointwise Kan extensions deserves to be discussed in the general context of [[enriched category theory]], which we do below. The reader may want to skip ahead to the section
 
@@ -312,7 +312,7 @@ In the case that the codomain category is [[tensoring|(co)tensored]] these may b
 
 First, here is a characterization that doesn't rely on any computational framework:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A Kan extension, def. \ref{LocalKanExtension}, is called __pointwise__ if and only if it is [preserved](#Preservation) by all [[representable functor]]s.
@@ -805,19 +805,20 @@ This means that whether or not Kan extension corresponds geometrically to pushfo
 
 Textbook sources include 
 
-section 3.7 of
+* [[Francis Borceux]], section 3.7 of _[[Handbook of Categorical Algebra]] I_
+ 
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]] I_
-
-section 2.3 in 
-
-* Kashiwara and Shapira, _[[Categories and Sheaves]]_
+* Kashiwara and Shapira, section 2.3 in _[[Categories and Sheaves]]_
 
 The book
 
 * [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_
 
 has a famous treatment of Kan extensions with a statement: "The notion of Kan extensions subsumes all the other fundamental concepts in category theory".  Of course, many other fundamental concepts of category theory can also be regarded as subsuming all the others.
+
+Lecture notes with an eye towards applications in [[homotopy theory]] include
+
+* {#Riehl} [[Emily Riehl]], _Categorical homotopy theory_ ([pdf](http://www.math.harvard.edu/~eriehl/cathtpy.pdf), [web](http://www.math.harvard.edu/~eriehl/266x/))
 
 For Kan extensions in the context of [[enriched category theory]] see
 
