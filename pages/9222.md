@@ -65,6 +65,8 @@ One can define the [[integration]] against a fixed chosen [[measure]], but more 
 
 * [[canonical bundle]], [[determinant line bundle]]
 
+* [[canonical Hilbert-space of half-densities]]
+
 [[!include square roots of line bundles - table]]
 
 
