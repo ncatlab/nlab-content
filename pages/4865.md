@@ -173,10 +173,17 @@ A classification of symmetric solutions is discussed in
 
 ### Topology and anomaly cancellation
 
+Discussin of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] in 11D supergravity includes the following articles.
+
 * [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_ ([arXiv:hep-th/9609122](http://arxiv.org/abs/hep-th/9609122))
  {#Witten96}
 
 See also the relevant references at _[[M5-brane]]_.
+
+* [[Dan Freed]], _Two nontrivial index theorems in odd dimensions_ ([arXiv:dg-ga/9601005](http://arxiv.org/abs/dg-ga/9601005))
+
+* Adel Bilal, Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_ ([arXiv:hep-th/0307152](http://arxiv.org/abs/hep-th/0307152))
+
 
 ### Description by exceptional generalized geometry
 
