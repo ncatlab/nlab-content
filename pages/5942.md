@@ -34,7 +34,7 @@ A morphism $f : X \to Y$ of [[scheme]]s is **locally of finite type** if
 
   for all $i,j$, 
 
-we have that the morhism of algebras $B_i \to A_{i j}$ formally dual to $U_{i j} \to U_i$ exhibits $A_{i j}$ as a finitely generated [[associative algebra|algebra]] over $B_i$.
+we have that the morphism of algebras $B_i \to A_{i j}$ formally dual to $U_{i j} \to U_i$ exhibits $A_{i j}$ as a finitely generated [[associative algebra|algebra]] over $B_i$.
 
 If for fixed $i$ the $j_i$ range only over a [[finite set]], then the morphism is said to be of **finite type**.
 
