@@ -32,6 +32,13 @@ and the canonical operator method_, Nauka, Moscow, 1978.
 
 * Richard J. Szabo, _Equivariant cohomology and localization of path integrals_, Lecture Notes in Physics, N.S. Monographs __63__. Springer  2000. xii+315 pp. (early version: _Equivariant localization of path integrals_, [hep-th/9608068](http://arxiv.org/abs/hep-th/9608068))
 
+For the semiclassical method in [[superstring theory]] see 
+
+* J. Maldacena, G. Moore, N. Seiberg, D. Shih, _Exact vs. semiclassical target space of the minimal string_, [hep-th/0408039](http://arxiv.org/abs/hep-th/0408039)
+
+* K. Hori, A. Iqbal, C. Vafa, _D-Branes and mirror symmetry_, [hep-th/0005247](http://arxiv.org/abs/hep-th/0005247) 
+
+
 [[!redirects quasiclassical approximation]]
 [[!redirects quasi-classical approximation]]
 [[!redirects semiclassical expansion]]
