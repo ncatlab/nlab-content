@@ -1,9 +1,12 @@
 
+
 ## Related concepts
 
 * [[singular point of a curve]]
 
 * [[differential form with logarithmic singularities]]
+
+* [[Picard-Lefschetz theory]]
 
 ## References
 
