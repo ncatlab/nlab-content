@@ -21,6 +21,20 @@ A [[smooth function]] $f : X \to Y$ between two [[smooth manifold]]s is a **loca
 
 * for each point $x \in X$ the [[derivative]] $d f : T_x X \to T_{f(x)} Y$ is an [[isomorphism]] of [[tangent space|tangent]] [[vector space]]s;
 
+* the canonical diagram
+
+  $$
+    \array{
+       T X &\stackrel{d f}{\to}& T Y
+       \\
+       \downarrow && \downarrow
+       \\
+       X &\stackrel{f}{\to}& Y
+    }
+  $$
+
+  (with the [[differential]] between the [[tangent bundles]]) on top is a [[pullback]];
+
 * for each point $x \in X$ there exists an [[open subset]] $x \in U \subset X$ such that
 
   1. the [[image]] $f(U)$ is an [[open subset]] in $Y$;
