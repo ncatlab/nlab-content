@@ -10,7 +10,7 @@ An analytic function is a function that may be given by a [[power series]].
 
 ## Definitions
 
-Let $V$ and $W$ be [[complete space|complete Hausdorff]] [[topological vector spaces]], let $W$ be [[locally convex space|locally convext]], let $c$ be an [[element]] of $V$, and let $(a_1,a_1,a_2,\ldots)$ be an [[infinite sequence]] of [[homogeneous operator]]s from $V$ to $W$.
+Let $V$ and $W$ be [[complete space|complete Hausdorff]] [[topological vector spaces]], let $W$ be [[locally convex space|locally convex]], let $c$ be an [[element]] of $V$, and let $(a_1,a_1,a_2,\ldots)$ be an [[infinite sequence]] of [[homogeneous operator]]s from $V$ to $W$.
 
 Given an element $x$ of $V$, consider the [[infinite series]]
 $$ \sum_k a_k(x - c) $$
