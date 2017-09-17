@@ -22,7 +22,7 @@
 An _integral transform_ on [[function]]s is a [[linear map]] between functions on [[space]]s $X$, $Y$ encoded by a function $K$ on the [[product]] space $X \times Y$ and given by a formula of the type
 
 $$
-  (function f on X) \mapsto
+  (function\;f\;on\;X) \mapsto
   \left(y \mapsto
   \int_{X} f(x) K(x,y) \right)
   \,,
@@ -47,12 +47,15 @@ Special cases of such [[categorification|categorified]] integral transforms are 
 
 ## Examples
 
-The simplest example is [[matrix multiplication]], which corresponds to the case where $X$ and $Y$ are [[discrete space]]s.
+* The simplest example is [[matrix multiplication]], which corresponds to the case where $X$ and $Y$ are [[discrete space]]s.
 
-Standard examples involving genuine [[functional analysis]] are for instance the [[Fourier transform]] or the [[Laplace transform]].
+* Standard examples involving genuine [[functional analysis]] are for instance the [[Fourier transform]] or the [[Laplace transform]].
 
-Also the [[path integral]] in [[quantum mechanics]] and [[quantum field theory]] is supposed to be a class of examples of an integral kernel.
+* Also the [[path integral]] in [[quantum mechanics]] and [[quantum field theory]] is supposed to be a class of examples of an integral kernel.
 
+* [[Fourier-Mukai transform]]
+
+* [[Penrose transform]]
 
 [[!redirects integral transforms]]
 
