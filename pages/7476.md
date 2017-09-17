@@ -1,21 +1,25 @@
 
-**[[(0,1)-category theory]]**, [[logic]]
+**[[(0,1)-category theory]]**, [[logic]], [[order theory]]
 
-**[[(0,1)-category]]**, [[poset]]
+**[[(0,1)-category]]**, [[proset]], [[poset]]
 
-* [[meet]], [[join]], 
+* [[lattice]], [[semilattice]]
 
-* [[lattice]]
+  * [[top]], [[true]], 
 
-  * [[true]], [[false]]
+  * [[bottom]], [[false]]
 
   * [[implication]]
 
-  * [[logical conjunction]], [[and]], 
+  * [[meet]], [[logical conjunction]], [[and]]
   
-  * [[logical disjunction]], [[or]]
+  * [[join]], [[logical disjunction]], [[or]]
 
-  * [[lattice of subobjects]]
+* [[lattice of subobjects]]
+
+* [[complete lattice]], [[algebraic lattice]]
+
+* [[distributive lattice]],  [[completely distributive lattice]], [[canonical extension]]
 
 **[[(0,1)-topos]]**
 
@@ -23,3 +27,6 @@
 
 * [[frame]], [[locale]]
 
+## Theorems
+
+* [[Stone duality]]
