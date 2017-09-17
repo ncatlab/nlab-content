@@ -1,5 +1,6 @@
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea 
@@ -165,6 +166,11 @@ As mentioned above, the $p$-[[adic number|adic numbers]] for various [[prime num
 Finally, one can consider points on a [[noncommutative geometry|noncommutative]] line instead of the usual _commutative numbers_.
 
 So in summary, this page is about the _real, finite, located, standard, analytic, infinite-precision, $0$-adic, characteristic-$0$, commutative numbers_.
+
+## Related concepts
+
+* [[real numbers object]]
+
 
  
 [[!redirects real number]]
