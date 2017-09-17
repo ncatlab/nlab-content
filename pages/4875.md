@@ -32,9 +32,15 @@ $$
 
 where $W$ is a [[module]] of finite rank over $R$ and consisting of nilpotent elements in the algebra $A$.
 
-**Terminology.** An algebra $A$ of this form is also called a **Weil algebra**. Notice that this is unrelated to the notion of Weil algebra in [[Lie theory]]. For more on that, see [[Weil algebra]]. 
++-- {: .num_defn}
+###### Remark
+**on terminology** 
 
-Over more general base fields, this is called an [[Artin algebra]].
+In the literature on [[synthetic differential geometry]] an algebra $A$ of this form is also called a **Weil algebra**. Notice that this is unrelated to the notion of Weil algebra in [[Lie theory]]. For more on that, see [[Weil algebra]]. 
+
+Over more general base fields, this is called an **[[Artin algebra]]**.
+
+=--
 
 ## Examples
 
