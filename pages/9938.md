@@ -52,7 +52,22 @@ The [[formal group law]] of Brown-Peterson cohomology theory is [[universal prop
 
 (...)
 
+### Relation to Adams-Novikov spectral sequence
 
+The $p$-component of the $E^2$-term of the [[Adams-Novikov spectral sequence]] for the [[sphere spectrum]], hence the one converging to the 
+[[stable homotopy groups of spheres]] $\pi_\ast(\mathbb{S})$ is
+
+$$
+  Ext_{BP_\ast(BP)}(BP_\ast, BP_\ast)
+  \,.
+$$
+
+recalled e.g. as [Ravenel, theorem 1.4.2](#Ravenel)
+
+
+## Related concepts
+
+* [[Morava E-theory]]
 
 ## References
 
@@ -64,7 +79,7 @@ The original article is
 
 A textbook account is in section 4 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)) of
 
-* [[Doug Ravenel]], _Complex cobordism and stable homotopy groups of spheres_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
  {#Ravenel}
 
 The truncated version is discussed in
