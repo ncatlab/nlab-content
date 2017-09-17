@@ -25,7 +25,8 @@ An [[orthogonal factorization system]] $(E,M)$ on a [[category]] $C$ with [[pull
 
 ## Properties
 
-For a general (orthogonal) factorization system $(E,M)$, the factorizations show that the full inclusion $M/x \to C/x$ (where $M/x$ consists of morphisms in $M$ with [[target]] $x$) has a left adjoint.  The factorization system is stable if and only if these left adjoints form an [[indexed functor]] --- that is, they commute with the pullback functors $f^* \colon C/y \to C/x$.
+For a general (orthogonal) factorization system $(E,M)$, the factorizations show that the [[full subcategory|full inclusion]] $M/x \to C/x$ (where $M/x$ consists of morphisms in $M$ with [[target]] $x$) has a 
+[[left adjoint]].  The factorization system is stable if and only if these left adjoints form an [[indexed functor]] --- that is, they commute with the [[base change|pullback functors]] $f^* \colon C/y \to C/x$.
 
 A [[reflective factorization system]] on a finitely complete category is stable if and only if its corresponding [[reflector]] preserves [[finite limits]].  A stable reflective factorization system is sometimes called **local**.
 
