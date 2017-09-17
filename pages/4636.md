@@ -35,8 +35,7 @@
 
 There is a general abstract [[adjunction]] $(\mathcal{O} \dashv Spec)$ between [[presheaves]] and [[copresheaves]] over a [[category]].
 
-This is sometimes known as _Isbell [[duality]]_ .
- .
+This is sometimes known as _Isbell conjugation_ .
 
 ## Definition
 
@@ -447,7 +446,14 @@ for the moment see [[function algebras on ∞-stacks]]
 
 ## References
 
-Isbell duality for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of duals of [[dg-algebra]]s is discussed around page 32 of
+Isbell conjugation is reviewed on [page 17](#http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=17) of 
+
+* [[Bill Lawvere]], _Taking categories seriously_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf))
+
+Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of duals of [[dg-algebra]]s is discussed around page 32 of
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
 {#Ben-ZviNadler}
+
+
+[[!redirects Isbell duality]]
