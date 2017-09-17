@@ -431,9 +431,22 @@ $$
   \,.
 $$
 
+The $(G \dashv \bar W)$-[[unit of an adjunction|unit]] and counit are weak equivalences:
+
+$$
+  X \stackrel{\simeq}{\to} \bar W G X
+$$
+
+$$
+  G \bar W G \stackrel{\simeq}{\to} G
+  \,.
+$$
+
+
 =--
 
 This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
+
 
 ## Related concepts
 
