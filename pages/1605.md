@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Doctrines
 * table of contents
 {: toc}
@@ -23,6 +34,14 @@ A number of people, starting with Lawvere, have defined "doctrine" to mean [[2-m
 In particular, the morphisms between such theories are not all representable by morphisms of monads.  For instance, there is a morphism of theories from the theory of commutative rings to the theory of abelian groups which sends a ring to its multiplicative group of units, but this is not induced by any morphism of monads because it does not preserve the underlying set.  Likewise, not all "morphisms of doctrines" are representable by morphisms of 2-monads.
 
 (other possible definitions...?)
+
+## Related concepts
+
+* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[2-monad]]/ **doctrine** / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
 
 
 ## References
