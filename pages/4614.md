@@ -490,9 +490,7 @@ We discuss aspects of [[principal ∞-bundle]]s equipped with topological [[cohe
 
 Let $G$ be a [[simplicial topological group]]. 
 
-Recall from the discussion at [[universal principal ∞-bundle]] that $\mathbf{E}G \to \mathbf{B}G$ is presented by the morphism of [[simplicial topological space]]s $W G \to \bar W G$.
-
-Recall from [[simplicial topological group]] the following
+Recall from the discussion at [[universal principal ∞-bundle]] that $\mathbf{E}G \to \mathbf{B}G$ is presented by the morphism of [[simplicial topological space]]s $W G \to \bar W G$. Recall also from [[simplicial topological group]] the following statement.
 
 +-- {: .num_def}
 ###### Definition
