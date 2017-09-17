@@ -1,6 +1,6 @@
-This entry is about the article
+This entry records the article
 
-* [[Stephan Stolz]], [[Peter Teichner]], _What is an elliptic object?_ ([pdf](http://web.me.com/teichner/Math/Reading_files/Elliptic-Objects.pdf))
+* [[Stephan Stolz]], [[Peter Teichner]], _What is an elliptic object?_ in _Topology, geometry and quantum field theory_ , London Math. Soc. LNS 308, Cambridge Univ. Press (2004), 247-343. ([pdf](http://web.me.com/teichner/Math/Reading_files/Elliptic-Objects.pdf))
 
 on [[geometric models for elliptic cohomology]] with speculations about the formalization of 2-dimensional [[CFT]] as an extended ([[2-functor]]ial) [[FQFT]]. 
 
