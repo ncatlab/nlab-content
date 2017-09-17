@@ -10,55 +10,175 @@
 =--
 
 #Contents#
-* automatic toc goes here
+* table of contents
 {:toc}
 
+## Idea
 
-## Definitions
+A _filtered colimit_ is a suitable category such as [[Set]] is a [[colimit]] of shape such that it commutes with all [[finite limit]]s.
+
+
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
 
 A __filtered colimit__ or **finitely filtered colimit** is a [[colimit]] of a [[functor]] $F\colon D \to C$ where $D$ is a [[filtered category]].  
 
 For $\kappa$ a [[cardinal number|regular cardinal]] a **$\kappa$-filtered colimit** is one over a $\kappa$-filtered category.
 
 
-Similarly, a __cofiltered limit__ is a [[limit]] of a functor $F\colon D \to C$ where $D$ is a [[cofiltered category]], or equivalently of a [[contravariant functor]] $F\colon D \to C$ (that is a functor $F\colon D^{op} \to C$) where $D$ is a filtered category.  A cofiltered limit may also be called a __filtered limit__ (although this can be unclear); the respective terms __filtered [[direct limit]]__ and __filtered [[inverse limit]]__ are also popular.
+Similarly, a __cofiltered limit__ is a [[limit]] of a functor $F\colon D \to C$ where $D$ is a [[cofiltered category]], or equivalently of a [[contravariant functor]] $F\colon D \to C$ (that is a functor $F\colon D^{op} \to C$) where $D$ is a filtered category.  
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+A cofiltered limit may also be called a __filtered limit__ (although this can be unclear); the respective terms __filtered [[direct limit]]__ and __filtered [[inverse limit]]__ are also popular.
+
+=--
+
+A [[functor]] that preserves all finitely filtered colimits is called a _[[finitary functor]]_ .
 
 
-A [[functor]] that preserves all finitely filtered colimits is called [[finitary functor|finitary]].
 
-## Description in Set, Grp, Top and alike
+## Properties 
+ {#Properties}
 
-Elements in filtered colimits in Set and Grp are given as classes of equivalences, so called [[germ]]s. Filtered limits in Set and Top are given as families of compatible elements, so called [[thread]]s.
+### General
+
++-- {: .num_remark}
+###### Remark
+
+For $C$ and $D$ two [[diagram]] categories and
+
+$$
+  F : C \times D \to Set
+$$
+
+a diagram, there is a canonical morphism
+
+$$
+  \lambda
+   :
+  {\lim_\to}_C {\lim_\leftarrow}_D F
+   \to 
+  {\lim_\leftarrow}_D {\lim_\to}_C  F
+$$
+
+from the [[colimit]] over $C$ of the [[limit]] over $D$ to the limit over $D$ of the colimit over $C$ of $F$:
+
+$\lambda$ is given by a [[cone]], whose components
+
+$$
+  \lambda_d : 
+    {\lim_\to}_C {\lim_\leftarrow}_D F
+     \to
+    {\lim_\to}_C  F(-,d)
+$$
+
+are in turn given by a [[cocone]] with components
+
+$$
+  (\lambda_d)_c : 
+    {\lim_\leftarrow}_D F(c,-)
+     \to
+    {\lim_\to}_C  F(-,d)
+   \,.
+$$
+
+This finally take to have as components
+
+$$
+    {\lim_\leftarrow}_D F(c,d)
+     \to   
+       F(c,d)
+     \to
+    {\lim_\to}_C  F(c,d)
+  \,.
+$$
+
+One checks that this indeed makes all the components be natural and makes the origina morphism exist.
+
+Notice that in general $\lambda$ is _not_ an [[isomorphism]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+We say the [[limit]] ${\lim_\leftarrow}_D F(-,-)$ **[[commuting limit|commutes]]** with the colimit ${\lim_\to}_C F(-,-)$ is the morphism $\lambda$ above is an [[isomorphism]]
+
+$$
+  {\lim_\to}_C {\lim_\leftarrow}_D F
+   \stackrel{\simeq}{\to}
+  {\lim_\leftarrow}_D {\lim_\to}_C  F
+  \,.
+$$
 
 
-## Properties {#properties}
+=--
 
-One of the reasons filtered colimits are important is that in [[Set]], filtered colimits commute with [[finite limit]]s (and in fact, the filtered colimits can be characterized as precisely those colimits that commute with all [[finite limit]]s in $Set$).  
+
+
++-- {: .num_prop}
+###### Propositon
+
+In [[Set]], filtered colimits commute with [[finite limit]]s.
+
+In fact, [[filtered categories]] $C$ are precisely those shapes of [[diagram]] categories such that colimits over them commute with all finite limits.
+
+=--
+
+A detailed components proof of the first part is in [Borceux, theorem I2.13.4](#Borceux).
 
 For more on this see also [[limits and colimits by example]].
 
-Filtered colimits are also important in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  See also [[pro-object]] and [[ind-object]].
 
 According to 1.5 and 1.21 in [[LPAC]], a category has $\kappa$-[[directed colimits]] precisely if it has $\kappa$-filtered ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones. A proof of this result, following Adamek & Rosicky, may be found [[theorem:directed colimits imply filtered colimits|here]]. 
 
 The fact that directed colimits suffice to obtain all filtered ones may be regarded as a convenience similar to the fact that all [[colimits]] can be constructed from [[coproducts]] and [[coequalizers]].  Of course, a [[duality|dual]] result holds for [[codirected limits]].
 
-### Flat functors and points of presheaf toposes ###
+### Flat functors and points of presheaf toposes 
 
-Let $C$ be a small category. Recall that a functor $F: C \to Set$ is **[[flat functor|flat]]** if it is a filtered colimit of [[representable functor]]s. 
+Let $C$ be a small category. A functor $F: C \to Set$ is **[[flat functor|flat]]** if it is a filtered colimit of [[representable functor]]s. 
 
-Equivalently, a "module" $F: C \to Set$ is flat if and only if the [[tensor product]] 
+Equivalently, a [[module]] $F: C \to Set$ is flat if and only if the [[tensor product]] 
 
 $$- \otimes_C F: Set^{C^{op}} \to Set$$ 
 
-is left exact. One may prove as a corollary that if $C$ is [[finitely complete category|finitely complete]], $F$ is flat if and only if it is [[left exact functor|left exact]] (preserves finite limits). Since this tensor product is automatically a left adjoint, we have the following basic result: 
+is [[left exact functor|left exact]]. One may prove as a corollary that if $C$ is [[finitely complete category|finitely complete]], $F$ is flat if and only if it is [[left exact functor|left exact]] (preserves finite limits). Since this tensor product is automatically a left adjoint, we have the following basic result: 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ######Proposition 
-For $C$ a small category, the category of "points" of $Set^{C^{op}}$ (i.e., geometric morphisms $Set \to Set^{C^{op}}$ and natural transformations between them) is equivalent to the category of flat modules on $C$. 
+
+For $C$ a [[small category]], the category of [[point of a topos|topos points]] of the [[presheaf topos]] $Set^{C^{op}}$ (i.e., [[geometric morphism]]s $Set \to Set^{C^{op}}$ and natural transformations between them) is equivalent to the category of flat modules on $C$. 
+
 =-- 
 
-(More was/is to be written here, including an application to geometric realization, relation to Diaconescu's theorem, and perhaps more.) 
+### Description in Set, Grp, Top and alike
+
+Elements in filtered colimits in [[Set]] and [[Grp]] are given as classes of equivalences, so called [[germ]]s. Filtered limits in [[Set]] and [[Top]] are given as families of compatible elements, so called [[thread]]s.
+
+
+### More
+
+(More was/is to be written here, including an application to [[geometric realization]], relation to [[Diaconescu's theorem]], and perhaps more.) 
+
+## Applications
+
+Filtered colimits are also important in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  See also [[pro-object]] and [[ind-object]].
+
+
+## References
+
+Section 2.13 in part I of 
+
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_
+  {#Borceux}
+
 
 [[!redirects cofiltered limit]]
 [[!redirects filtered colimit]]
