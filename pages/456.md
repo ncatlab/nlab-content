@@ -360,11 +360,12 @@ Generally, a geometric morphism with logical inverse image is called an
 [[atomic geometric morphism]]. See there for more details.
 
 ### Structure preserved by geometric morphisms
+ {#StructurePreserved}
 
 
-The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as "categories with finite limits that are well-powered indexed categories with respect to the canonical indexing over themselves". (...)
+The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as _categories with [[finite limit]]s that are <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">well-powered</a> [[indexed categories]] with respect to the canonical indexing over themselves.
 
-This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14.
+This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14. See at [[indexed category]] the section <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">Well-poweredness</a>.
 
 
 ## Related concepts
