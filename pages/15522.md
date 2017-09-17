@@ -16,12 +16,14 @@
 
 ## Definition
 
-A _[[branched cover]] of the [[Riemann sphere]]_ $\mathbb{C}P^1$ is a [[compact topological space|compact]] [[connected topological space|connected]] [[Riemann surface]] $\Sigma$ equipped with a non-[[constant functionionconstant]] [[holomorphic function]]
+A _[[branched cover]] of the [[Riemann sphere]]_ $\mathbb{C}P^1$ is a [[compact topological space|compact]] [[connected topological space|connected]] [[Riemann surface]] $\Sigma$ equipped with a non-[[constant function|constant]] [[holomorphic function]]
 
 $$
-  \Sigma \longrightarrow \mathbb{C}P^1
+ \phi: \Sigma \longrightarrow \mathbb{C}P^1
   \,.
-$$
+$$ 
+
+If we think of $\Sigma$ as retrievable from its field of [[meromorphic functions]], then each such map $\phi$ is dual to a [[field]] extension $\mathbb{C}(t) \hookrightarrow Func(\Sigma)$; this is an _algebraic_ field extension. The dual map $\phi$ is [[surjective map|surjective]], and restricts to a [[covering space]] projection after removing finitely many points of ramification of $\phi$. 
 
 ## Properties
 
