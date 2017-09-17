@@ -21,7 +21,7 @@ See also [[terminal coalgebra]].
 
 * $X \to F(X) = D(X)$, the set of probability distributions on $X$: Markov chain on $X$.
 * $X \to F(X) = P(X)$, the powerset on $X$: Binary relation on $X$.
-* $X \to F(X) = X^A \times B$: Deterministic automaton.
+* $X \to F(X) = X^A \times B$: [[deterministic automaton]].
 * $X \to F(X) = P(X^A \times B)$: Nondeterministic automaton.
 * $X \to F(X) = A \times X \times X$, for a set of labels $A$: Labelled binary tree.
 
