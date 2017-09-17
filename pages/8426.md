@@ -46,4 +46,10 @@ An analogue in number theory is Iwasawa polynomial. Cf. for number theoretic ana
 * Masanori Morishita, Knots and primes: an introduction to arithmetic topology, Springer 2012, chapter 12
 * Ken-ichi Sugiyama, _The properties of an L-function from a geometric point of view_, 2007 [pdf](http://geoquant2007.mi.ras.ru/sugiyama.pdf); _A topological $\mathrm{L}$ -function for a threefold_, 2004 [pdf](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1376-12.pdf); _An analog of the Iwasawa conjecture for a compact hyperbolic threefold_, [math.GT/0606010](http://arxiv.org/abs/math/0606010)
 * {#Sikora01} Adam S. Sikora, _Analogies between group actions on 3-manifolds and number fields_, [arXiv:0107210](http://arxiv.org/abs/math/0107210)
+
+
+[[!redirects Alexander polynomials]]
+
 category:knot theory
+
+
