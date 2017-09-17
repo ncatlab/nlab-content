@@ -20,6 +20,10 @@
 +--{: .hide}
 [[!include noncommutative geometry - contents]]
 =--
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
 =--
 =--
 
