@@ -18,6 +18,8 @@
 
     * [[quasi-category]]
 
+      * [[algebraic quasi-category]]
+
     * [[simplicially enriched category]]
 
     * [[complete Segal space]]
@@ -27,6 +29,10 @@
   * [[(∞,0)-category]]/[[∞-groupoid]]
 
     * [[Kan complex]]
+
+      * [[algebraic Kan complex]]
+
+      * [[simplicial T-complex]]
 
   * [[n-category]] = (n,n)-category
 
