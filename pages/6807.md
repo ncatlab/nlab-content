@@ -35,3 +35,7 @@ A review of further developments is in
 
 * [[David Berenstein]], _Classical dynamics and thermalization in holographic matrix models_, talk at Leiden, October 2012 ([pdf](http://www.lorentzcenter.nl/lc/web/2012/514/presentations/Berenstein.pdf))
 
+
+Relation to the [[6d (2,0)-supersymmetric QFT]]:
+
+* Micha Berkooz, Moshe Rozali, Nathan Seiberg, _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
