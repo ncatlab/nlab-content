@@ -855,6 +855,10 @@ Now choose any point $x : {*} \to X$ of the base space as on the left of the dia
 
 =--
 
+### $\infty$-Gerbes
+  {#InftyGerbe}
+
+For the moment see the discussion at _[[∞-gerbe]]_ . 
 
 ### Twisted cohomology
  {#TwistedCohomology}
