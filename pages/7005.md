@@ -218,6 +218,10 @@ An exposition is at
 
 * [[Mike Shulman]], _Homotopy type theory, IV_ ([blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html))
 
+An accessible account of Voevodsky's proof that the universal [[Kan fibration]] in [[simplicial sets]] is univalent is at
+
+* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], _Univalence in simplicial sets_, [arXiv](http://arxiv.org/abs/1203.2553)
+
 The [[HoTT]]-[[Coq]] code is at
 
 * _[HoTT/Coq/Univalence.v](https://github.com/HoTT/HoTT/blob/master/Coq/Univalence.v)_
