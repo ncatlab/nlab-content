@@ -57,6 +57,8 @@ For a bounded operator $A: H\to K$ between Hilbert spaces define the Hermitean c
 * Reed, M.; Simon, B.: _Methods of modern mathematical physics_. Volume 1, Functional Analysis 
 * Walter Rudin, _Functional analysis_
 
+[[!redirects selfadjoint operator]]
+[[!redirects selfadjoint operators]]
 
 [[!redirects self-adjoint]]
 [[!redirects self-adjoint element]]
