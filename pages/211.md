@@ -1,4 +1,4 @@
-[[!redirects Elisabeth Constantine]]
+
 # The Anonymous Coward
 * table of contents
 {: toc}
@@ -22,3 +22,4 @@ category: meta
 [[!redirects sandboxfan]]
 [[!redirects typoHunter]]
 [[!redirects Spelling freak]]
+[[!redirects Elisabeth Constantine]]
