@@ -1,10 +1,16 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
 [[!include homotopy - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 # Idea #
@@ -91,7 +97,7 @@ For $C$ just a [[Quillen exact category]] with ambient [[abelian category]] $\ha
 
 Waldhausen categories are discussed with an eye towards their application in the computation of [[Grothendieck group]]s in [chapter 2](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.II.pdf) of
 
-* Charles Weibel, _The K-book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
+* [[Charles Weibel]], _The K-book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
 
 
 [[!redirects Waldhausen categories]]
