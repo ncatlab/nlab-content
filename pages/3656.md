@@ -16,10 +16,11 @@ $$
      \mathcal{U}(g) = \int \lt g, \chi\gt \mathcal{P}(d\chi) \qquad \forall g \in \mathcal{G}
 $$
  =--
-The integral is norm convergent.
+The equality holds in the weak sense, i.e. the integral converges in the weak operator topology.
 The **spectrum** of $\mathcal{U}(\mathcal{G})$, denoted by $spec\mathcal{U}(\mathcal{G})$, is defined to be the support of this spectral measure $\mathcal{P}$.
 
 ## References
 
 The theorem \ref{specmeasure} is theorem 4.44 in the following classic book:
-* Folland, Gerald B.: A course in abstract harmonic analysis. CRC Press 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0857.43001&format=complete))
+
+* Folland, Gerald B.: A course in abstract harmonic analysis. CRC Press 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0857.43001&format=complete)).
