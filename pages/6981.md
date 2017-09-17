@@ -9,7 +9,7 @@
 --------------------------------|-------------------------------------------|--------------------------------
  [[true]]                       |   [[terminal object]]/[[(-2)-truncated object]]  |  [[h-level 0]]-[[type]]/[[unit type]] 
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
- [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]]-[[type]]/[[h-prop]] 
+ [[proposition]]                |   [[(-1)-truncated object]] | [[h-proposition]], [[mere proposition]] 
  [[proof]]                      |   [[generalized element]]                  | [[program]]
  [[cut rule]]                   |   [[composition]]                         |   [[substitution]]
  [[cut elimination]] for [[implication]]           |   [[counit]] for hom-tensor adjunction           |   [[beta reduction]]
