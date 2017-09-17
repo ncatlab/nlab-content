@@ -30,7 +30,7 @@ $$
 
 for the canonical projection from the [[free module]] over $R$ on $n$ generators to $N$, which takes these generators to their image in $N$. 
 
-The **module of syzygies** is the [[kernel]] of this morphism. This being a [[submodule]] of a [[free module]] it is itself free and hence the resulting [[exact sequence]] looks like
+The **module of syzygies** is the [[kernel]] of this morphism. This being a [[submodule]] of a [[free module]] it is itself free under suitable conditions on $R$, and hence the resulting [[exact sequence]] looks like
 
 $$
   R^{n_1} \to R^{n} \to N
