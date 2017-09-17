@@ -60,6 +60,12 @@ If we regard sets as [[discrete categories]], then a **function** is a [[functor
 
 See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow.net/questions/63265/what-are-maps-between-proper-classes)
 
+## Related concepts
+
+* [[continuous function]], [[smooth function]]
+
+* [[fixed point]]
+
 [[!redirects function]]
 [[!redirects functions]]
 
