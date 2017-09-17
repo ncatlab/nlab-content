@@ -103,3 +103,5 @@ See also for instance section 2.7 of
 
 [[!redirects pullback of functions]]
 [[!redirects pullback of a function]]
+
+[[!redirects pullback form]]
