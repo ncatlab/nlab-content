@@ -1,6 +1,23 @@
-This is a subentry of _[[sheaf]]_.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+This is a subentry of _[[sheaf]]_ about the _plus-construction on presheaves_. For other constructions called _[[plus construction]]_, see there.
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
+ {#Idea}
 
 The _plus construction_ $(-)^+ : PSh(C) \to PSh(C)$ on presheaves over a [[site]] $C$ is an operation that replaces a [[presheaf]] via [[local isomorphisms]] first by a [[separated presheaf]] and then by a [[sheaf]].
 
@@ -10,12 +27,21 @@ $$
   \,.
 $$
 
+Notice that in terms of [[n-truncated]] morphisms, if presheaf is
+
+* separated precisely if every [[descent morphism]] is [[(-1)-truncated]], namely a [[monomorphism]];
+
+* a sheaf precisely if every [[descent morphism]] is [[(-2)-truncated]], namely an [[equivalence]].
+
+In the context of [[(n,1)-topos]] theory, therefore, the plus-construction is applied $(n+1)$-times in a row. The second but last step makes an [[(infinity,1)-presheaf|(n,1)-presheaf]] into a [[prestack|separated infinity-stack]] and then the last step into an actual [[(infinity,1)-sheaf|(n,1)-sheaf]]. (See [Lurie, section 6.5.3](#Lurie).)
+
 ## Definition
+
 
 +-- {: .num_defn #PlusConstruction}
 ###### Definition
 
-Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^{op}\to Set$ be a functor. Then the _plus construction (functor)_ $+$ reps. the _plus construction_ $A^+$ _of_ $A$ is defined by one of following equivalent descriptions:
+Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^{op}\to Set$ be a functor. Then the _plus construction (functor)_ $(-)^+ : PSh(C) \to PSh(C)$, resp. the _plus construction_ $A^+$ _of_ $A \in PSh(C)$ is defined by one of following equivalent descriptions:
 
 1. $A^+:U\mapsto colim_{(R\to U)\in J(U)}A(R)$ where $J(U)$ denotes the poset of $J$-covering [[sieve|sieves]] on $U$.
 
@@ -43,8 +69,26 @@ Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^
 
 =--
 
+## Related concepts
+
+* [[sheafification]]
+
+* [[(∞,1)-sheafification]] / [[∞-stackification]] 
+
+
+
 ## References
 
-[[Peter Johnstone]], Sketches of an [[Elephant]] - a topos theory compendium, Section C.2.2, proof of proposition 2.2.6, p.551
+A standard textbook reference in the context of 1-[[topos theory]] is:
+
+* [[Peter Johnstone]], _[[Sketches of an elephant]] - a topos theory compendium_, Section C.2.2, proof of proposition 2.2.6, p.551
+
+Remarks on the plus-construction in [[(infinity,1)-topos theory]] is in section 6.5.3 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 
+[[!redirects plus-construction on presheaves]]
+[[!redirects plus constructions on presheaves]]
+[[!redirects plus-constructions on presheaves]]
