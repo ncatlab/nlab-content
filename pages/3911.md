@@ -14,6 +14,8 @@
 
 Fiber integration is a process that sends [[cohomology]] classes on a [[bundle]] $E \to B$ of [[manifold]]s to cohomology classes on the base $B$ of the bundle, by _evaluating them on each fiber_ in some sense. This sense is such that if the cohomology in question is [[de Rham cohomology]] then fiber integration is ordinary [[integration]] of [[differential form]]s over the fibers. Generally, the fiber integration over a bundle of $k$-dimensional fibers reduces the degree of the cohomology class by $k$.
 
+Composing pullback of cohomology classes with fiber integration yields the notion of [[transgression]].
+
 ## Definition
 
 
