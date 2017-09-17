@@ -156,6 +156,7 @@ The corresponding table has been called the **brane scan**
 
 * [[D-brane]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
 
 
