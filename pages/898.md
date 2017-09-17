@@ -52,6 +52,14 @@ More generally, if $\kappa$ is a [[regular cardinal]], then a **$\kappa$-filtere
 * A [[product]] of filtered categories is filtered.
 
 
+## Related concepts
+
+* [[sifted category]], [[sifted (∞,1)-category]]
+
+* **filtered category**, [[filtered (∞,1)-category]]
+
+* [[filtered colimit]]
+
 [[!redirects filtered categories]]
 [[!redirects cofiltered category]]
 [[!redirects cofiltered categories]]
