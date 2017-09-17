@@ -2,7 +2,10 @@
 [[!include infinity-limits - contents]]
 ***
 [[!include category theory - contents]]
+***
+[[!include enriched category theory contents]]
 </div>
+
 
 
 #Contents#
