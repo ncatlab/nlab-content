@@ -139,13 +139,24 @@ Another notion of "presentable category" is that of an [[equationally presentabl
 
 
 ## Properties
+ {#Properties}
 
-+-- {: .num_lemma #LeftCosetsDisjoint}
++-- {: .num_lemma}
 ###### Lemma
 
 Categories of models of finitary [[essentially algebraic theories]] are precisely equivalent to locally finitely presentable categories. 
+
 =--
 
++-- {: .num_lemma }
+###### Lemma
+
+A [[slice category]] of a locally presentable category
+is again locally presentable.
+
+=--
+
+This appears for instance as ([CentazzoRosickyVitale, remark 3](CentazzoRosickyVitale))
 
 ## Examples and applications
 
@@ -251,6 +262,11 @@ The definition is due to
 The standard textbook is
 
 * [[Jiri Adamek]], [[Jiri Rosicky]], _[[Locally presentable and accessible categories]]_
+
+More details are in 
+
+* C. Centazzo, [[Jiri Rosicky]], [[Enrico Vitale]], _A characterization of locally $\mathbb{D}$-presentable categories_ ([pdf](http://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf))
+ {#CentazzoRosickyVitale}
 
 Some further discussion is in 
 
