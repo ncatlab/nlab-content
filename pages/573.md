@@ -50,7 +50,7 @@ see also at _[[n-category]]_
 
 ### Via $\infty$-enrichment
 
-* [[enriched (∞,n)-category]]
+* [[enriched (∞,1)-category]]
 
 * [[Segal n-category]]
 
