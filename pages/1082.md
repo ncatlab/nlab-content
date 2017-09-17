@@ -37,3 +37,5 @@ More concretely, the boundary operator on a chain complex is called a _different
 
 The archetypical example that gives the concept its name is the differential in the [[de Rham complex]] $\Omega^\bullet(X)$ of a [[smooth manifold]] $X$, which is given by actual [[differentiation]] of [[smooth function]]s and [[differential form]]s. See also [[differential calculus]].
 
+[[!redirects differentials]]
+
