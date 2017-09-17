@@ -1,3 +1,3 @@
-Bagaimana aku harus hidup dalam keadaan seperti ini?
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2216" >Nike Air Max BW VT red uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=2216]Nike Air Max BW VT red uk[/url]
+Jadi bosan jugak bila kadang-kadang aku pulak kena jadi kakak pada kakak aku jugak. Hmm. Tak best la sebab aku expect aku ada kakak yang aku boleh wat rujukan tapi terbalik pulak jadinya.
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=432" >Air Max R4 orange sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=432]Air Max R4 orange sale[/url]
