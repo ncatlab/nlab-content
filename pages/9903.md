@@ -1,0 +1,16 @@
+
+## Related concepts
+
+* [[coupling constant]]
+
+* [[minimal coupling]]
+
+* [[standard model of particle physics]]
+
+* [[spinors in Yang-Mills theory]]
+
+## References
+
+* Wikipedia, _[Yukawa interactions](http://en.wikipedia.org/wiki/Yukawa_interaction)_
+
+[[!redirects Yukawa couplings]]
