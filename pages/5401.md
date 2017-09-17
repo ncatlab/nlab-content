@@ -26,6 +26,15 @@ Entries discussing aspects of _cohesion_ include the following
 
 [[!include cohesion - table]]
 
+**Examples**
+
+* [[discrete ∞-groupoids|discrete cohesion]]
+
+* [[Euclidean-topological ∞-groupoids|continuous cohesions]]
+
+* [[smooth ∞-groupoid|smooth cohesion]]
+
+* [[smooth super ∞-groupoid|supergeometric cohesion]]
 
 
 
