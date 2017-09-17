@@ -38,7 +38,7 @@ $$
 Write $\otimes$ for the [[Boardman-Vogt tensor product]] on [[dendroidal sets]] (see there for details).
 
 
-+-- {: .num_defn}
++-- {: .num_defn #ModelStructures}
 ###### Definition
 
 Let $dsSet_{genReedy} := [\Omega^{op}, sSet]$ be the category of [[dendroidal set|dendroidal]] [[simplicial sets]], equipped with the [[generalized Reedy model structure]] induced from the [[generalized Reedy category]] $\Omega$.
@@ -191,7 +191,7 @@ By general properties of [[Bousfield localization of model categories|left Bousf
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #WeakEquivalencesAreFullyFaithfulEssentiallySurjective}
 ###### Proposition
 
 A morphism $f : X \to Y$ of dendroidal Segal spaces is a weak equivalence in $[\Omega^{op}, sSet]_{Segal}$ precisely if it is
@@ -237,16 +237,14 @@ is an effective epimorphism, and similarly for $Y$. If now $f$ is fully faithful
 
 =--
 
-### Fibrations and Cofibrations
-
-First some standard technical preliminaries.
+### Basic technical properties
 
 As for any category of [[simplicial presheaves]] we have
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_remark #TensoringAndEnrichment}
+###### Remark
 
-$[\Omega^{op}, sSet]$ is canonically [[tensoring|tensored]], [[cotensoring|cotensored]] and [[enriched category|enriched]] over [[sSet]].
+The category $[\Omega^{op}, sSet]$ is canonically [[tensoring|tensored]], [[cotensoring|cotensored]] and [[enriched category|enriched]] over [[sSet]].
 
 The [[tensoring]] is given by the degreewise [[cartesian product]] in [[sSet]]:
 
@@ -258,7 +256,7 @@ $$
   \,.
 $$
 
-For $X \in dSet$ a dendroidal set, the [[hom object]] functor
+For $X \in dSet$ a dendroidal set, the [[hom object]] functor restricted along $dSet \hookrightarrow [\Omega^{op}, sSet]$
 
 $$
   X^{(-)} : dSet^{op} \to sSet
@@ -267,7 +265,7 @@ $$
 is the essentially unique [[limit]]-preserving functor such that for all $T \in \Omega$
 
 $$
-  X^{(\Omega[T])} = X(T)
+  X^{\Omega[T]} = X(T)
   \,.
 $$
 
@@ -281,7 +279,7 @@ We will often write "$\times$" also for the tensoring "$\cdot$".
 The essential uniqueness in the last clause follows, because by the [[co-Yoneda lemma]] every [[dendroidal set]] $S$ may be written as a [[colimit]] over its cells
 
 $$
-  S =_{iso} {\lim_{\to}}_{\Omega[T] \to S} \Omega[T]
+  S =_{iso} {\lim_{\to}}_{(\Omega[T] \to S)} \Omega[T]
   \,.
 $$
 
@@ -290,24 +288,103 @@ Therefore
 $$
   X^S
   = 
-  {\lim_\leftarrow}_{\Omega[T] \to S} X(T)
+  {\lim_\leftarrow}_{(\Omega[T] \to S)} X(T)
   \,.
 $$
 
-
 =--
 
-
-+-- {: .num_prop}
++-- {: .num_prop #latching}
 ###### Proposition
 
-A morphism $f : X \to Y$ in $[\Delta^{op}, sSet]_{gReedy}$ is a fibration,
-precisely if for all [[trees]] $T \in \Omega$
+For $X \in [\Omega^{op}, sSet]$, and $T \in \Omega$, the _matching object_ of $X$ at $T$ (in the sense of [[generalized Reedy model structure]]) is 
+
+$$
+  Match_T X = X^{\partial \Omega[T]}
+  \,.
+$$
+
+For $f : X \to Y$ a morphism,
+the _relative matching morphism_ 
+
+$$
+  X(T) \to Match_T X \times_{Match_T Y} Y(T)
+$$ 
+
+is the universal morphism induced from the commutativity of the diagram
+
+$$
+  \array{
+     X^{\Omega[T]} &\stackrel{f^{\Omega[T]}}{\to}& Y^{\Omega[T]}
+     \\
+     \downarrow && \downarrow
+     \\
+     X^{\partial \Omega[T]} &\stackrel{f^{\partial \Omega[T]}}{\to}& Y^{\partial \Omega[T]}     
+  }
+  \,.
+$$
 
 =--
 
++-- {: .proof}
+###### Proof
 
-+-- {: .num_prop}
+By definition
+
+$$
+  Match_T X = {\lim_{\leftarrow}}_{(T' \hookrightarrow T)} X(T')
+  \,,
+$$
+
+where the limit is over faces of $T$. By remark \ref{TensoringAndEnrichment} this is 
+
+$$
+  \cdots \simeq X^{({\lim_\to}_{(T' \hookrightarrow T)} \Omega[T'])}
+  \,.
+$$
+
+By the discussion at _[[dendroidal set]]_, the exponent is the boundary of the tree $T$.
+
+Similarly one finds that the morphism $X(T) \to Match_T X$ is 
+
+$$
+  X^{\partial \Omega[T] \hookrightarrow \Omega[T]} 
+  : 
+  X^{\Omega[T]} \to X^{\partial \Omega[T]}
+  \,.
+$$
+
+=--
+
+### Fibrations and Cofibrations
+
+
++-- {: .num_prop #FibrationsInGenReedy}
+###### Proposition
+
+A morphism $f : X \to Y$ in $[\Delta^{op}, sSet]_{gReedy}$ is a fibration or acyclic fibration,
+precisely if for all [[trees]] $T \in \Omega$, the morphism of [[hom objects]]
+
+$$
+  X^{\Omega[T]}
+  \to 
+  X^{\partial \Omega[T]}
+   \times_{Y^{\partial \Omega{T}}}
+  Y^{\Omega[T]}
+$$
+
+is a [[Kan fibration]] or [[weak homotopy equivalence|acyclic]] Kan fibration, respectively.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of _[[generalized Reedy model structure]]_ and using prop. \ref{latching}.
+
+=--
+
++-- {: .num_prop #CofibrantlyGenerated}
 ###### Proposition
 
 The [[generalized Reedy model structure]] $[\Omega^{op}, sSet]_{gReeedy}$ is a [[cofibrantly generated model category]] with set of generating cofibrations 
@@ -331,7 +408,7 @@ The statement is ([Cisinski-Moerdijk, prop. 5.2](#CisinskiMoerdijk)). The follow
 +-- {: .proof}
 ###### Proof
 
-By the general definition of [[generalized Reedy model structure]] we have that
+By prop. \ref{FibrationsInGenReedy} we have that
 a morphism $f : X \to Y$ in $[\Omega^{op}, sSet]_{gReedy}$ is a fibration or acyclic fibration precisely if for all [[trees]] $T$ the canonical morphism
 
 $$
