@@ -722,7 +722,7 @@ For uses of Kan extension in the study of [[algebra over a Lawvere theory|algebr
 
 Preservation of certain limits by left Kan extended functors is discussed in 
 
-* [[Fracis Borceux]], [[Brian Day]], _On product-preserving Kan extension_, Bulletin of the Australian Mathematical Society, Vol 17 (1977), 247-255 ([pdf](http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ17_02%2FS0004972700010455a.pdf&code=e8c9ebb215a55a0891f4e05f6aebbcf2))
+* [[Francis Borceux]], [[Brian Day]], _On product-preserving Kan extension_, Bulletin of the Australian Mathematical Society, Vol 17 (1977), 247-255 ([pdf](http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ17_02%2FS0004972700010455a.pdf&code=e8c9ebb215a55a0891f4e05f6aebbcf2))
   {#BorceuxDay}
 
 * Panagis Karazeris, Grigoris Protsonis, _Left Kan extensions preserving finite products_ ([pdf](http://www.math.upatras.gr/~pkarazer/publications/topsift.pdf))
