@@ -1,5 +1,5 @@
 
-* [website](http://www.math.ias.edu/~clarkbar/)
+* [website](http://math.mit.edu/~clarkbar/index.html)
 
 # related $n$Lab entries #
 
