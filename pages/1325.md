@@ -9,10 +9,37 @@
 
 ## Definition 
 
-An **algebra over an [[operad]]** is a [[category over an operad]] which has a single [[object]].
+Let $M$ be a [[closed monoidal category|closed symmetric monoidal category]] with monoidal unit $I$, and let $X$ be any object. There is a canonical or tautological [[operad]] $Op(X)$ whose $n^{th}$ component is the internal hom $M(X^{\otimes n}, X)$; the operad identity is the map 
+
+$$1_X: I \to M(X, X)$$ 
+
+and the operad multiplication is given by the composite 
+
+$$\array{
+M(X^{\otimes k}, X) \otimes M(X^{\otimes n_1}, X) \otimes \ldots \otimes M(X^{\otimes n_k}, X) & \stackrel{1 \otimes func_\otimes}{\to} & M(X^{\otimes k}, X) \otimes M(X^{\otimes n_1 + \ldots + n_k}, X^{\otimes k}) \\ 
+ & \stackrel{comp}{\to} & M(X^{\otimes n_1 + \ldots + n_k}, X)
+}$$
+
+Let $O$ be any operad in $M$. An **algebra over** $O$ is an object $X$ equipped with an operad map $\xi: O \to Op(X)$. Alternatively, the data of an $O$-algebra is given by a sequence of maps 
+
+$$O(k) \otimes X^{\otimes k} \to X$$ 
+
+which specifies an action of $O$ via finitary operations on $X$, with compatibility conditions between the operad multiplication and the structure of plugging in $k$ finitary operations on $X$ into a $k$-ary operation (and compatibility with actions by permutations). 
+
+An _algebra over an [[operad]]_ can equivalently be defined as a [[category over an operad]] which has a single [[object]].
+
+If $M$ is cocomplete, then an operad in $M$ may be defined as a monoid in the symmetric monoidal category $(M^{\mathbb{P}^{op}}, \circ)$ of permutation representations in $M$, aka [[species]] in $M$, with respect to the substitution product $\circ$. There is an [[actegory]] structure 
+$M^{\mathbb{P}^{op}} \times M \to M$ which arises by restriction of the monoidal product $\circ$ if we consider $M$ as fully embedded in $M^{\mathbb{P}^{op}}$: 
+
+$$i: M \to M^{\mathbb{P}^{op}}: X \mapsto (n \mapsto \delta_{n 0} \cdot X)$$ 
+
+(interpret $X$ as concentrated in the 0-ary or "constants" component), so that an operad $O$ induces a [[monad]] $\hat{O}$ on $M$ via the actegory structure. As a functor, the monad may be defined by a coend formula 
+
+$$\hat{O}(X) = \int^{k \in \mathbb{P}} O(k) \otimes X^{\otimes k}$$ 
+
+An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$. 
 
 **Remark** If $C$ is the [[symmetric monoidal category|symmetric monoidal]] [[enriched category|enriching category]], $O$ the $C$-enriched operad in question, and $A \in Obj(C)$ is the single [[hom-object]] of the [[category over an operad|O-category]] with single object, it makes sense to write $\mathbf{B}A$ for that $O$-category. Compare the discussion at [[monoid]] and [[group]], which are special cases of this.
-
 
 ## Examples
 
