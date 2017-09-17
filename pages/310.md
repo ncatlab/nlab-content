@@ -216,6 +216,10 @@ $$(\neg \neg a) \wedge (\neg b) \wedge (a \Rightarrow b) \leq (\neg \neg a) \wed
 whence $(\neg \neg a) \wedge (\neg b) \leq \neg (a \Rightarrow b)$, which completes the proof. 
 =-- 
 
+* **Remark:** It follows from this lemma that double negation on a Heyting algebra $\neg \neg \colon L \to L$ preserves implication, since 
+$$\neg \neg(a \Rightarrow b) = \neg ((\neg \neg a) \wedge (\neg b)) = 0^{(\neg \neg a) \wedge (\neg b)} = (\neg \neg b)^{(\neg \neg a)} = (\neg \neg a) \Rightarrow (\neg \neg b).$$ 
+This is important for the [[double negation translation]]. 
+
 +-- {: .proof} 
 ###### Proof of theorem 2
 In a Heyting algebra $H$, the elements $0$ and $1$ are clearly complemented. If $x$ and $y$ are complemented, then so is $x \wedge y$ since 
