@@ -5,7 +5,7 @@
 
 ## Idea 
 
-A **hyperring** is like a [[ring]] not with an underlying [[abelian group]] but an underlying [[hypergroup]].
+A **hyperring** is like a [[ring]] not with an underlying [[abelian group]] but an underlying [[canonical hypergroup]].
 
 This means that in a hyperring $R$ addition is a multi-valued operation.
 
@@ -19,7 +19,7 @@ A **hyperring** is a non-empty [[set]] $R$ equipped with a hyper-addition $+ : R
 
 1. $\forall r,s \in R : r(s+t) = r s + r t and (s + t) r = s r + t r$;
 
-1. $\forall r \in R : r \cdot 0 = 0 \cdot R = 0$;
+1. $\forall r \in R : r \cdot 0 = 0 \cdot r = 0$;
 
 1. $0 \neq 1$.
 
