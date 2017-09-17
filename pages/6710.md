@@ -119,12 +119,12 @@ $$
   \end{aligned}
 $$
 
-where in the second line the action is the diagonal action induced from the two canonical embeddings of subgroups $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$
+where in the second line the [[action]] is the diagonal action induced from the two canonical embeddings of [[subgroups]] $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$
 and $\mathbb{Z}_2 \hookrightarrow U(1)$.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #SpinCAsHomotopyFiberProductW2C1}
 ###### Proposition
 
 We have a [[homotopy pullback]] diagram
@@ -133,7 +133,7 @@ $$
   \array{
      \mathbf{B} Spin^c &\to& \mathbf{B}U(1)
      \\
-     \downarrow && \downarrow^{\mathrlap{c_1 mod 2}}
+     \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1 mod 2}}
      \\
      \mathbf{B} SO &\stackrel{w_2}{\to}&
      \mathbf{B}^2 \mathbb{Z}_2 
@@ -236,7 +236,43 @@ which is the original definition.
 
 ### From almost complex structures
 
-An [[almost complex structure]] canonically induces a $Spin^c$-structure (...)
+An [[almost complex structure]] canonically induces a $Spin^c$-structure:
+
++-- {: .num_prop}
+###### Proposition
+
+For all $n \in \mathbb{N}$ we have a homotopy-[[commuting diagram]]
+
+$$
+  \array{
+    \mathbf{B}U(n) &\to& \mathbf{B}U(1)
+    \\
+    \downarrow && \downarrow^{\mathrlap{\mathbf{c_1} mod 2}}
+    \\
+    \mathbf{B}SU(2n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2\mathbb{Z}_2
+  }
+  \,,
+$$
+
+where the vertical morphism is the canonical morphism induced from the identification of real vector spaces $\mathbb{C} \to \mathbb{R}^2$, and where the top morphism is the canonical projection $\mathbf{B}U(n) \to \mathbf{B}U(1)$ (induced from $U(n)$ being the [[semidirect product group]] $U(n) \simeq SU(n) \rtimes U(1)$).
+
+=--
+
+By prop. \ref{SpinCAsHomotopyFiberProductW2C1} this induces a canonical morphism
+
+$$  
+  k \colon \mathbf{B}U(n) \to \mathbf{B}Spin^c
+$$
+
+and this is the universal morphism from almost complex structures:
+
+For $c \colon X \to \mathbf{B}U(n)$ modulating an [[almost complex structure]]/[[complex vector bundle]] over $X$, the composite
+
+$$
+  k c \colon X \stackrel{c}{\to} \mathbf{B}U(n) \stackrel{k}{\to} \mathbf{B}Spin^c
+$$
+
+is the corresponding $Spin^c$-structure.
 
 ## Related concepts
 
