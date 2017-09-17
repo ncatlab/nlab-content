@@ -145,6 +145,10 @@ The original textbook reference is
 
 * [[Richard Feynman]], A. R. Hibbs, , _Quantum Mechanics and Path Integrals_ , New York: McGraw-Hill, (1965)
 
+Comprehensive lecture notes include
+
+* R. Rosenfelder, _Path Integrals in Quantum Physics_ ([arXiv:1209.1315](http://arxiv.org/abs/1209.1315))
+
 Modern precise formulations of path integral technology for [[quantum mechanics]] can be found for instance in
 
 * [[Christian Bär]], [[Frank Pfäffle]], _Path integrals on manifolds by finite dimensional approximation_,  J. reine angew. Math., (2008), 625: 29-57. ([arXiv:math.AP/0703272](http://arxiv.org/abs/math.AP/0703272))
