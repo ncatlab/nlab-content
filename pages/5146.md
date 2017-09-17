@@ -79,7 +79,7 @@ The [[Whitehead products]] include
 
    * $[\xi,a] = {}^\xi a - a$, where ${}^\xi a$ is the result of the $A_1$-action of $\xi \in A_1$ on $a\in A_r$, $r\gt 1$; similarly for a right action;
 
-   * the commutators $[a,b] = aba^{-1]b^{-1}$, for $a,b \in A_1$.
+   * the commutators $[a,b] = aba^{-1}b^{-1}$, for $a,b \in A_1$.
 
 ## The homotopy $\Pi$-algebra of a pointed topological space.
 
