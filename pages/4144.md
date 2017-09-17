@@ -1,0 +1,24 @@
+
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+_Syntomic cohomology_ is the [[abelian sheaf cohomology]] of the _syntomic site_ of a a [[scheme]].
+
+It is closely related to the [[crystalline cohomology]] of that scheme.
+
+## References
+
+The syntomic site was introduced in
+
+* [[Jean-Marc Fontaine]] and [[William Messing]], _$p$-Adic periods and $p$-adic etale cohomology_ ([pdf](http://www.ams.org/publications/online-books/conm67-conm67-ch4.pdf))
+
+Further developments are in
+
+* [[Amnon Besser]], _Syntomic regulators and $p$-adic integration I: rigid syntomic regulators_ ([pdf](http://www.math.uiuc.edu/K-theory/0298/reg.pdf))
