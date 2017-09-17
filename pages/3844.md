@@ -173,9 +173,16 @@ These  were considered for the discussion of [[derived smooth manifold]]s in
 * [[David Spivak]], _Derived smooth manifolds_ ([arXiv:0810.5174](http://arxiv.org/abs/0810.5174))
 
 
+### Homotopy $T$-algebras
+
+For $T$ an ordinary Lawvere theory, there is also a model category structure on ordinary functors $T \to sSet$ that preserve the products only up to weak equivalence. Such functors are called [[homotopy T-algebra]]s.
+
+This model structure is equivalent to that on simplicial algebras (see [[homotopy T-algebra]] for details) but has the advantage that it is a left [[proper model category]].
+
 ### Simplicial theories
 
 There is a notion of _simplicial algebraic theory_ that captures some class of $(\infty,1)$-algebraic theories. For the moment see section 4 of ([Rezk](#Rezk))
+
 
 ## Related concepts
 
