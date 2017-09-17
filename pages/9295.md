@@ -1,0 +1,12 @@
+
+
+
+[[interference]] of [[wave functions]]
+
+## Related concepts
+
+* [[superposition]]
+
+* [[entanglement]]
+
+[[!redirects quantum interferences]]
