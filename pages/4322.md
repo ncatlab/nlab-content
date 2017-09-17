@@ -29,6 +29,12 @@
 
     * [[genus]]
 
+## Genera and invariants
+
+* [[signature genus]], [[Kervaire invariant]]
+
+* [[A-hat genus]], [[Witten genus]]
+
 ## Theorem
 
 * [[Thom's transversality theorem]]
