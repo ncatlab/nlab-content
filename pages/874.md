@@ -1,7 +1,10 @@
-#Contents#
+
+# Contents
 * automatic table of contents goes here
 {:toc}
 
+
+## Idea
 
 In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set]], the category of [[sets]].
 
@@ -34,5 +37,7 @@ Given a set $A$, the cartesian product of the unary family $(A)$ may be identifi
 The cartesian product of the empty family $()$ is the [[point]], a set whose only element is the __empty tuple__ $()$; we often call this set $1$ (or $\pt$, when we\'re Urs) and write its element as $*$.
 
 
+[[!redirects cartesian product]]
 [[!redirects cartesian products]]
 [[!redirects Cartesian product]]
+[[!redirects Cartesian products]]
