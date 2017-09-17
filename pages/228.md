@@ -17,7 +17,7 @@
 
 ## Idea
 
-An apartness relation is a [[binary relation]] that, instead of saying when two things are the same (as an [[equivalence relation]]), states when two things are different.
+An apartness relation is a [[binary relation]] that, instead of saying when two things are the same (as an [[equivalence relation]]), states when two things are different -- an [[inequality relation]].
 
 Apartness relations are most used in [[constructive mathematics]]; in [[classical mathematics]], equivalence relations can take their place (mediated by [[negation]]).
 
@@ -46,6 +46,7 @@ Of course, nobody but a category-theorist would use the above as a *definition* 
 The [[negation]] of an apartness relation is an equivalence relation. (The converse of this is equivalent to [[excluded middle]].) An apartness relation is __tight__ (see [[connected relation]]) if this equivalence relation is [[equality]]; any apartness relation defines a tight apartness relation on the [[quotient set]]. A tight apartness relation, also called an __inequality__, is often written $\ne$ instead of $\#$, but keep in mind that $\ne$ is not the negation of $=$; rather, $=$ is the negation of $\ne$. (So inequality, when it exists, is more basic than equality.)
 
 If $S$ and $T$ are both sets equipped with apartness relations, then a [[function]] $f\colon S \to T$ is __[[strongly extensional function|strongly extensional]]__ if $x \# y$ whenever $f(x) \# f(y)$; that is, $f$ reflects apartness. The strongly extensional functions are precisely the [[enriched functors]] between $TV^\op$-enriched groupoids, so they are the correct morphisms. (Note that there is no nontrivial notion of enriched [[natural isomorphism]], at least not when the apartness in $T$ is tight.)
+
 
 
 ## The category of inequality spaces
@@ -108,6 +109,11 @@ The various subsets that appear in algebra (such as [[ideals]] and [[cosets]]) b
 
 [[prime ideal|Prime ideals]] are even more interesting. A two-sided antiideal $A$ (so also satisfying that $y \in A$ whenever $x y \in A$) is _antiprime_ if $1 \in A$ and $x y \in A$ whenever $x, y \in A$. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [[integral domain]] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
 
+## Related concepts
+
+* [[inequality relation]]
+
+  * [[denial inequality]]
 
 ## References
 
