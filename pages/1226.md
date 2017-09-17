@@ -70,6 +70,8 @@ For $C$ a filtered $(\infty,1)$-category, the [[diagonal]] [[(∞,1)-functor]] $
 
 * [[directed set]], [[filtered category]], **filtered (∞,1)-category**
 
+* [[filtered homotopy colimit]]
+
 ## Reference
 
 Section 5.3.1 of
