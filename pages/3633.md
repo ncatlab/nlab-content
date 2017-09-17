@@ -8,19 +8,19 @@
 
 ## Idea
 
-Wick rotation is a method for finding a solution to a problem in Minkowski space from the solution to a related problem in Euclidean space.  It is motivated by the observation that the Minkowski metric (with the -1,1,1,1 convention) and the four-dimensional Euclidean metric are equivalent if the time components of either are allowed to have imaginary values.
+Wick rotation is a method for finding a solution to a problem in Minkowski space from the solution to a related problem in Euclidean space.  It is motivated by the observation that the Minkowski metric (with the $-1,1,1,1$ convention) and the four-dimensional Euclidean metric are equivalent if the time components of either are allowed to have imaginary values.
 
 ### Example
 
-Consider the Minkowski metric with the -1,1,1,1 convention for the tensor:
+Consider the Minkowski metric with the $-1,1,1,1$ convention for the tensor:
 
-$ds^{2}= -(dt)^{2} + (dx)^{2} + (dy)^{2} + (dz)^{2}$
+$d s^{2}= -(d t)^{2} + (d x)^{2} + (d y)^{2} + (d z)^{2}$
 
 and the four-dimensional Euclidean metric:
 
-$ds^{2}= d\tau^{2} + (dx)^{2} + (dy)^{2} + (dz)^{2}$.
+$d s^{2}= d \tau^{2} + (d x)^{2} + (d y)^{2} + (d z)^{2}$.
 
-Notice that if $d t=i\cdot d\tau$, the two are equivalent.
+Notice that if $d t = i\cdot d \tau$, the two are equivalent.
 
 ## Method
 
