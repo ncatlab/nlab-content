@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Cayley form_ is a cirtain [[differential n-form|differential 4-form]] on the [[Cartesian space]] $\mathbb{R}^8$.
+The _Cayley form_ is a certain [[differential n-form|differential 4-form]] on the [[Cartesian space|real 8-dimensional space]] $\mathbb{R}^8$.
 
 ## Related concepts
 
