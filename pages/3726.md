@@ -12,7 +12,7 @@
 
 An **$n$-connected object** is an object all whose [[homotopy group]]s _equal to or below_ degree $n$ are trivial.
 
-More precisely, and object in an [[∞-stack]] [[(∞,1)-topos]] is $n$-truncated if its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] equal to or below degree $n$ are trivial.
+More precisely, an object in an [[∞-stack]] [[(∞,1)-topos]] is $n$-connected if its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] equal to or below degree $n$ are trivial.
 
 The complementary notion is that of an [[n-truncated object of an (∞,1)-category]].
 
@@ -24,7 +24,7 @@ The [[Whitehead tower]] construction produces $n$-connected objects.
 +-- {: .un_defn}
 ###### Definition
 
-An object $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called**$n$-connected** for $n \in \mathbb{N}$ if
+An object $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected** for $n \in \mathbb{N}$ if
 
 * the [[terminal object|terminal]] morphism $X \to *$ is an [[effective epimorphism]];
 
