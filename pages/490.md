@@ -28,9 +28,9 @@ In the presence of COSHEP (and the base assumption that $Set$ forms a [[W-pretop
 2. The axiom of [[countable choice]] (CC), 
 
 3. Projectivity of the [[singleton]] (the [[terminal object]]) $1$. 
+=-- 
 
 Note that we normally assume (3), which is always true *[[internalization|internally]]* in any pretopos, so one normally says that DC and CC simply follow from COSHEP.  (Equivalently, internal DC and internal CC follow from internal COSHEP.)
-=-- 
 
 +-- {: .proof}
 ######Proof 
