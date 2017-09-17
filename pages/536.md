@@ -35,6 +35,10 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 *  [[matrix theory|Matrix Theories]]
 *  [[bimodel|Bimodels]]
 
+## In higher category theory
+
+* [[(∞,1)-algebraic theory]]
+
 
 ## References
 
