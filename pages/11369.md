@@ -1,5 +1,17 @@
 
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
 This page is to record links related to
 
 * [[David Ben-Zvi]],
@@ -10,7 +22,7 @@ This page is to record links related to
 
   ([pdf slides](https://people.maths.ox.ac.uk/tillmann/ASPECTSbenzvi.pdf))
 
-on ([[geometric representation theory|geometric]]) [[representation theory]] reflected in and incarnated as low-dimensional [[extended TQFT|extended]] [[gauge field theory]] and specifically on formalizations of [[geometric Langlands duality]] in terms of 2-dimensional [[QFT]] motivated from [[KK-compactification|compactification]] of [[N=4 D=4 super Yang-Mills theory]].
+on ([[geometric representation theory|geometric]]) [[representation theory]] reflected in and incarnated as low-dimensional [[extended TQFT|extended]] [[gauge field theory]], some relevant [[categorification]] in [[D-geometry]] (e. g. the [[Hecke category]]) and specifically on formalizations of [[geometric Langlands duality]] in terms of 2-dimensional [[QFT]] motivated from [[KK-compactification|compactification]] of [[N=4 D=4 super Yang-Mills theory]].
 
 
 
