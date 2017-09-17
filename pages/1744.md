@@ -33,17 +33,19 @@ $$
 
 called the $n$-**coskeleton**.
 
-The $n$-skeleton produces a simplicial set that is freely filled with degenerate simplices above degree $n$.
-
 $$
   ( sk_n \dashv tr_n \dashv cosk_n) \;\;
    :
    \;\;
    sSet_{\leq n}
-   \stackrel{\overset{sk_n}{\to}}{\stackrel{\overset{tr_n}{\leftarrow}}{\overset{cosk_n}{\to}}}
+   \stackrel{\overset{sk_n}{\to}}{\stackrel{\overset{tr_n}{\leftarrow}}{\underset{cosk_n}{\to}}}
    sSet
   \,.
 $$
+
+
+The $n$-skeleton produces a simplicial set that is freely filled with degenerate simplices above degree $n$.
+
 
 
 Write
