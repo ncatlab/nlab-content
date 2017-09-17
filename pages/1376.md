@@ -74,6 +74,12 @@ An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic 
 [[!redirects monoid object in an (infinity,1)-category]]
 [[!redirects monoid in a monoidal (infinity,1)-category]]
 [[!redirects monoid in a monoidal (∞,1)-category]]
+
+[[!redirects monoid object in a monoidal (infinity,1)-category]]
+[[!redirects monoid objects in a monoidal (infinity,1)-category]]
+[[!redirects monoid object in a monoidal (∞,1)-category]]
+[[!redirects monoid objects in a monoidal (∞,1)-category]]
+
 [[!redirects algebra in an (∞,1)-category]]
 [[!redirects monoid in an (∞,1)-category]]
 [[!redirects monoid in an (infinity,1)-category]]
@@ -82,3 +88,4 @@ An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic 
 [[!redirects ∞-monoids]]
 [[!redirects infinity-monoid]]
 [[!redirects infinity-monoids]]
+
