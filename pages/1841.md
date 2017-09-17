@@ -28,7 +28,7 @@ This may be realized in particular equivalently by
 
 * a degree 2 [[Deligne cohomology|Deligne cocycle]] on $X$.
 
-In the presence of [[magnetic charge]] the electromagnetic field is modeled by a coycle in differential [[twisted cohomology]], where the twist is given by the differential 3-cocycle that models the [[magnetic current]].
+In the presence of [[magnetic charge]] the electromagnetic field is modeled by a cocycle in differential [[twisted cohomology]], where the twist is given by the differential 3-cocycle that models the [[magnetic current]].
 
 The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]] is the [[Kalb-Ramond field]].
 
