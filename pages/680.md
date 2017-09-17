@@ -595,7 +595,7 @@ This remarkable article, which appeared shortly after the work by Dold and Puppe
 
 A standard modern textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
 
-* [[Paul Goerss]], [[Rick Jardine]], _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
  {#GoerssJardine}
 
 Similar material is in section 4.6 of 
