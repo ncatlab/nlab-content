@@ -83,20 +83,67 @@ We can then iterate, obtaining the following hierarchy of differentiability.  Be
 ### Symmetry of higher derivatives
 
 If $f:U\to \mathbb{R}^m$ is twice differentiable with $U\subseteq \mathbb{R}^n$, its second derivative
-$$d^2 f : U \to L(\mathbb{R}^n,L(\mathbb{R}^n,\mathbb{R}^m)) \cong Bilin(\mathbb{R}^n,\mathbb{R}^n;\mathbb{R}^m)$$
-is a function from $U$ into the space of [[bilinear maps]] from $\mathbb{R}^n\times \mathbb{R}^n$ to $\mathbb{R}^m$.  In general, it need not be *symmetric*, i.e. $d^2 f_x(v,w)$ may not equal $d^2f_x(w,v)$.  In terms of partial derivatives, this means that the *mixed partials* $\frac{\partial^2 f}{\partial x_i \partial x_j}$ and $\frac{\partial^2 f}{\partial x_j \partial x_i}$ may not be equal; see below for a counterexample.
+$$d(d f) : U \to L(\mathbb{R}^n,L(\mathbb{R}^n,\mathbb{R}^m)) \cong Bilin(\mathbb{R}^n,\mathbb{R}^n;\mathbb{R}^m)$$
+is a function from $U$ into the space of [[bilinear maps]] from $\mathbb{R}^n\times \mathbb{R}^n$ to $\mathbb{R}^m$.
 
-It is true, however, that if $f$ is twice *continuously* differentiable, then $d^2f$ is a *symmetric* bilinear map, and the mixed partials are equal.
++-- {: .un_theorem}
+###### Theorem
+If $f:U\to \mathbb{R}^m$ is twice differentiable, then its second derivative $d(d f)$ lands in the space of *symmetric* bilinear maps, i.e. for any $x\in U$ and $v,w\in \mathbb{R}^n$ we have
+$$ d(d f)_x(v,w) = d(d f)_x(w,v). $$
+=--
++-- {: .proof}
+###### Proof
+It suffices to assume $m=1$; otherwise we just consider it componentwise.  Define a function $g:\mathbb{R}\to \mathbb{R}$ by
+$$ g(\xi) = f(x+\xi v+w) - f(x+\xi v). $$
+Then by the chain rule, $g$ is differentiable and
+$$
+\begin{aligned}
+  g'(\xi) &= d f_{x+\xi v+w}(v) -  d f_{x+\xi v}(v)\\
+  &= \Big(d f_{x+\xi v+w}(v) - d f_{x}(v)\Big) - \Big(d f_{x+\xi v}(v) - d f_x(v)\Big)\\
+  &= d(d f)_{x}(v,\xi v + w) + E_1 |v|\,|\xi v + w| - d(d f)_x(v,\xi v) - E_2 |v|\,|\xi v|\\
+  &= d(d f)_x(v,w) + E |v|\, (|v|+|w|)
+\end{aligned}
+$$
+where $E_1, E_2, E \to 0$ as $(v,w)\to 0$.  Now the [[mean value theorem]] tells us that for some $\xi\in(0,1)$ we have
+$$
+\begin{aligned}
+  f(x+v+w) - f(x+v) - f(x+w) + f(x)
+  &= g(1) - g(0)\\
+  &= g'(\xi)\\
+  &= d(d f)_x(v,w) + E (|v|+|w|)^2.
+\end{aligned}
+$$
+But the "second-order difference" $f(x+v+w) - f(x+v) - f(x+w) + f(x)$ is manifestly symmetric in $v$ and $w$, so we have
+$$ d(d f)_x(v,w) - d(d f)_x(w,v) = E (|v|+|w|)^2 $$
+where $\lim_{(v,w)\to 0} E = 0$.  But bilinearity of the LHS then implies that it is identically zero.
+=--
 
-### Strong higher differentiability
+The components of the bilinear map $d(d f)$ are the second-order partial derivatives $\frac{\partial^2 f}{\partial x_i \partial x_j}$ of $f$.  Thus, this theorem says that if $f$ is twice differentiable, then the *mixed partials* are equal,
+$$\frac{\partial^2 f}{\partial x_i \partial x_j} = \frac{\partial^2 f}{\partial x_j \partial x_i}.$$
 
-It is possible to define a notion of higher differentiability that implies symmetry of the mixed partials but does not require their continuity.  Given a function $f:U \to \mathbb{R}^m$ which is differentiable in a neighborhood of $x$, say that $f$ is **strongly twice differentiable** at $x$ if there is a bilinear map $\partial^2 f_x : \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^m$ such that
+The second-order partial derivatives may *exist* without the mixed partials being equal; see below for a counterexample.  However, the theorem shows that if we require $f$ to actually be twice differentiable rather than merely having second-order partial derivatives, then this cannot happen.
 
-$$f(x+v+w) - f(x+v) - f(x+w) + f(x) = \partial^2 f_x(v,w) + E(v,w) {|v|}{|w|} $$
+In particular, we have the following corollary, which is more commonly found in textbooks.
 
-where $\lim_{v,w\to 0} E(v,w) = 0$.  The usual proof of symmetry of the mixed partials shows that if $f$ is $C^2$ in a neighborhood of $x$, then it is strongly twice differentiable at $x$.  On the other hand, since the LHS of the equation above is manifestly symmetric in $v$ and $w$, it follows that if $f$ is strongly twice differentiable at $x$ then the bilinear map $\partial^2 f_x$ is also symmetric.  It's easy to see that its matrix consists of the second partial derivatives of $f$, so this implies the mixed partials are symmetric.
++-- {: .un_cor}
+###### Corollary
+If $f$ has first and second-order partial derivatives, and the latter are continuous in a neighborhood of $x$, then the mixed partial derivatives are equal,
+$$\frac{\partial^2 f}{\partial x_i \partial x_j} = \frac{\partial^2 f}{\partial x_j \partial x_i}.$$
+=--
++-- {: .proof}
+###### Proof
+Continuity of the second-order partials implies that the first-order partials are differentiable, and hence so is the differential $d f$.
+=--
 
-Finally, as explained [here](http://mathoverflow.net/a/165733/49), if $f$ is differentiable in a neighborhood of $x$ and strongly twice differentiable at $x$, then it is in fact twice differentiable at $x$ in the sense that $d f: U \to L (\mathbb{R}^n,\mathbb{R}^m)$ is differentiable at $x$, with derivative $\partial^2 f_x$.  It suffices to show that each coordinate of $d f$ is differentiable, so let $w=\delta e_i$, with $e_i$ a unit basis vector and $\delta$ a real number $\neq 0$.  Then we have
+### A direct definition of the second derivative
+
+Note that the proof of the theorem implies that if $f$ is twice differentiable at $x$, then there exists a bilinear map $\partial^2 f_x : \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^m$ such that
+
+$$f(x+v+w) - f(x+v) - f(x+w) + f(x) = \partial^2 f_x(v,w) + E(v,w) ({|v|+|w|})^2 $$
+
+where $\lim_{v,w\to 0} E(v,w) = 0$.  This is a condition that makes sense as a condition on an arbitrary $f$ without assuming differentiability. and if it holds, then the bilinear map $\partial^2 f_x$ must be symmetric.
+
+Moreover, as explained [here](http://mathoverflow.net/a/165733/49), if $f$ is differentiable in a neighborhood of $x$ and satisfies this condition at $x$, then it is in fact twice differentiable at $x$.  To see this, it suffices to show that each coordinate of $d f$ is differentiable, so let $w=\delta e_i$, with $e_i$ a unit basis vector and $\delta$ a real number $\neq 0$.  Then we have
 
 $$ E(v,\delta e_i) = \frac{f(x+v+\delta e_i) - f(x+v) - f(x+\delta e_i) + f(x) - \partial^2 f_x(v,\delta w)}{{|v|}{\delta}}$$
 
@@ -106,34 +153,38 @@ $$ \lim_{\delta \to 0} E(v,\delta e_i) = \frac{d f_{x+v}(e_i) - d f_x(e_i) - \pa
 
 Now take the limit as $v\to 0$; on the left we get $0$ by assumption, so the function $y\mapsto d f_y(e_i)$ is differentiable at $x$ with derivative $\partial^2 f_x(-,e_i)$.  Thus, $d f$ is differentiable at $x$.
 
-### Extra-strong higher differentiability and the chain rule
+On the other hand, this condition by itself does not even imply that $f$ is continuous.  For instance, if $f$ is a $\mathbb{Q}$-linear map $\mathbb{R}\to \mathbb{R}$, then the second-order difference $f(x+v+w) - f(x+v) - f(x+w) + f(x)$ is identically zero.
 
-The condition $f(x+v+w) - f(x+v) - f(x+w) + f(x) = \partial^2 f_x(v,w) + E(v,w) {|v|}{|w|}$ does not, however, imply that $f$ is differentiable or even continuous at $x$.  For instance, it is satisfied by any $\mathbb{Q}$-linear (or even $\mathbb{Z}$-linear) map $\mathbb{R}\to \mathbb{R}$, since then the LHS vanishes identically.  However, by strengthening it a bit we can incorporate single differentiability as well.
+### Higher differentiability on tangent spaces and the chain rule
 
-Say that $f$ is **extra-strongly twice differentiable** at $x$ if there exists a linear map $d f_x : \mathbb{R}^n \to \mathbb{R}^m$ and a bilinear map $\partial^2 f_x : \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^m$ such that
+Let $f:\mathbb{R}^n\to \mathbb{R}$ be differentiable.  Instead of asking whether $d f : U \to L(\mathbb{R}^n,\mathbb{R})$ is differentiable, we can ask whether its exponential transpose $d f : U\times \mathbb{R}^n \to \mathbb{R}$ is differentiable.  (Note that $U\times \mathbb{R}^n$ is the [[tangent bundle]] of $U\subseteq \mathbb{R}^n$.)  This amounts to asking that for $x\in U$ and $v\in \mathbb{R}^n$, we have
+$$ d f_{x+w}(v+h) - d f_x(v) = d^2 f_{(x,v)}(w,h) + E(|w|+|h|) $$
+for a linear map $d^2 f_{(x,v)}:\mathbb{R}^{2n} \to \mathbb{R}$, where $\lim_{(w,h)\to 0} E = 0$.  Setting $h=0$, we see that this implies that $d f : U \to L(\mathbb{R}^n,\mathbb{R})$ is differentiable, with differential $d(d f)_x = d^2 f_{(x,v)}(w,0)$ for any $v$.  And setting $w=0$, we obtain $d f_x(h) = d^2 f_{(x,v)}(0,h)$ for any $v$.  Thus, we can write
+$$ d^2 f_{(x,v)}(w,h) = \partial^2 f_x(v,w) + d f_x(h) $$
+where $\partial^2 f_x$ is the symmetric bilinear map from the previous section.  Conversely, if $f$ is twice differentiable, then using linearity and continuity of $d f$ it is easy to see that the above condition holds.
+
+Therefore, these two kinds of twice-differentiability of $f$ are equivalent as *conditions* on $f$, but the resulting *second differential* is different.  In the second case, we get
+
+$$d^2f = \partial^2 f + d f = \sum_{i,j} \frac{\partial^2f}{\partial x_i \partial x_j} d x_i \, d x_j + \sum_i \frac{\partial f}{\partial x_i} d^2 x_i. $$
+
+rather than merely the first term $\sum_{i,j} \frac{\partial^2f}{\partial x_i \partial x_j} d x_i \, d x_j$.  There are two advantages to the second approach (asking that $d f : U\times \mathbb{R}^n \to \mathbb{R}$ be differentiable).
+
+Firstly, we can reformulate it in terms of $f$ by asking that there exists a linear map $d f_x : \mathbb{R}^n \to \mathbb{R}^m$ and a bilinear map $\partial^2 f_x : \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^m$ such that
 
 $$f(x+v+w+h) - f(x+v) - f(x+w) + f(x) = \partial^2 f_x(v,w) + d f_x(h) + E(v,w,h) \sqrt{{|v|}^2{|w|}^2 + {|h|}^2}.$$
 
-where $\lim_{v,w,h \to 0} E(v,w,h) = 0$.  Setting $v=w=0$ in this equation, we find that $f$ is differentiable at $x$ with derivative $d f_x$.  And setting $h=0$, we find that $f$ is strongly twice differentiable at $x$ in the above sense.  It seems that it might not be differentiable in a neighborhood of $x$, but if it is, then the above argument shows that it is also twice differentiable at $x$ in the usual sense.
-
-Moreover, we can still say that that if $f$ is $C^2$ in a neighborhood of $x$, then it is extra-strongly twice differentiable at $x$.  For then we can write
-
+where $\lim_{v,w,h \to 0} E(v,w,h) = 0$.  This holds if $f$ is twice differentiable, for then we can write
 $$
 \begin{aligned}
   f(x+v+w+h) &= f(x+v+w) + d f_{x+v+w}(h) + E {|h|}\\
   &= f(x+v+w) + d f_x(h) + d(d f)_x(v+w,h) + E {|v+w|}{|h|} + E{|h|}
 \end{aligned}
 $$
+and $d(d f)_x(v+w,h)$ can also be incorporated into the error term.  Of course, setting $h=0$ we obtain the characterization of twice-differentiability from the previous section.  But setting $v=w=0$, we find that $f$ is differentiable at $x$ with derivative $d f_x$.  So here we have a direct characterization of the second derivative which also implies that the first derivative exists (although it seems that it doesn't imply differentiability in a neighborhood of $x$, so that the resulting "second derivative" may not actually be the derivative of the first derivative).
 
-and $d(d f)_x(v+w,h)$ can also be incorporated into the error term.
+Secondly, the virtue of a second differential incorporating the first derivatives is that like the first differential $d f$, but unlike the bilinear map $\partial^2 f$, it satisfies [[Cauchy's invariant rule]].  This means that we can express the [[chain rule]] for second differentials of composite maps simply by substitution: if $y = f(u)$ and $u = g(x)$, then finding $d^2 y$ in terms of $d u$ and $d^2 u$, and $d u$ and $d^2 u$ in terms of $d x$ and $d^2 x$, and substituting, gives the correct expression for $d^2 y$ in terms of $d x$ and $d^2 x$.
 
-This may seem like a somewhat *ad hoc* modification.  However, the formal sum $\partial^2 f_x + d f_x$ is what should be regarded as the **second differential** of $f$.  We write it like this:
-
-$$d^2f = \partial^2 f + d f = \sum_{i,j} \frac{\partial^2f}{\partial x_i \partial x_j} d x_i \, d x_j + \sum_i \frac{\partial f}{\partial x_i} d^2 x_i. $$
-
-The virtue of this expression is that like the first differential $d f$, but unlike the bilinear map $\partial^2 f$, it satisfies [[Cauchy's invariant rule]].  This means that we can express the [[chain rule]] for second differentials of composite maps simply by substitution: if $y = f(u)$ and $u = g(x)$, then finding $d^2 y$ in terms of $d u$ and $d^2 u$, and $d u$ and $d^2 u$ in terms of $d x$ and $d^2 x$, and substituting, gives the correct expression for $d^2 y$ in terms of $d x$ and $d^2 x$.
-
-In fact, this can be proven using the definition of extra-strong twice differentiability, in essentially exactly the same way that we prove the ordinary chain rule for first derivatives.  We sketch the proof, omitting the explicit error terms.  We can write
+In fact, this can be proven using the above direct characterization of the second differential, in essentially exactly the same way that we prove the ordinary chain rule for first derivatives.  We sketch the proof, omitting the explicit error terms.  We can write
 
 $$g(f(x+v+w+h)) - g(f(x+v)) - g(f(x+w)) + g(f(x)) $$
 
@@ -195,13 +246,13 @@ Similarly, in two dimensions we can consider functions such as
 $$ f(x,y) = (x^2+y^2)\sin(\frac{1}{\sqrt{x^2+y^2}}).$$
 together with $f(0,0) = 0$.  This is smooth away from $0$, and once differentiable at $0$, even in the strong sense that it is well-approximated by a linear function near $0$.  However, its derivative is not continuous at $0$.  In particular, this shows that the converse of the theorem "if the partial derivatives exist and are continuous at a point, then the function is differentiable there" fails.
 
-### Symmetry of the second derivative
+### Symmetry of the second partial derivatives
 
 The function $f:\mathbb{R}^2 \to \mathbb{R}$ defined by 
 
 $$ f(x,y) = \frac{xy(x^2-y^2)}{x^2+y^2}$$
 
-plus $f(0,0) = 0$, has partial derivatives $\frac{\partial^2f}{\partial x \partial y}$ and $\frac{\partial^2f}{\partial y \partial x}$ that both exist but are not equal at $(0,0)$ (nor are they continuous at $(0,0)$).
+plus $f(0,0) = 0$, has partial derivatives $\frac{\partial^2f}{\partial x \partial y}$ and $\frac{\partial^2f}{\partial y \partial x}$ that both exist but are not equal at $(0,0)$ (nor are they continuous at $(0,0)$).  Therefore, by the theorem proven above, it is not twice differentiable at $(0,0)$.
 
 ### Twice differentiability versus quadratic approximation
 
@@ -219,7 +270,7 @@ In some contexts, it is useful to say that functions such as these have "pointwi
 
 $$ \lim_{x\to a} \frac{f(x) - p(x)}{(x-a)^k} = 0. $$
 
-In this case, the pointwise $k^{th}$ derivative is $f^{(k)}_{pt}(a) = p^{(k)}(a)$.  Thus we would say that while $ f(x) = x^3 \sin(1/x) $ does not have a second derivative at $0$, it does have a *pointwise* second derivative at $0$, and $f''_{pt}(0) = 0$.  See e.g. [this MSE answer](http://math.stackexchange.com/a/160383/91608).
+In this case, the pointwise $k^{th}$ derivative is $f^{(k)}_{pt}(a) = p^{(k)}(a)$.  Thus we would say that while $ f(x) = x^3 \sin(1/x) $ does not have a second derivative at $0$, it does have a *pointwise* second derivative at $0$, and $f_{pt}''(0) = 0$.  See e.g. [this MSE answer](http://math.stackexchange.com/a/160383/91608).
 
 ### The second derivative as a quadratic form
 
