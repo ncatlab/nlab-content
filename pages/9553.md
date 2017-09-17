@@ -163,7 +163,11 @@ Further discussion is in
 
 * Walther Paravicini, _A generalised Green-Julg theorem for proper groupoids and Banach algebras_, ([arXiv:0902.4365](http://arxiv.org/abs/0902.4365))
 
-* [pdf](http://www.mmas.univ-metz.fr/~gnc/bibliographie/HarmonicAnalysis/LafforgueICM.pdf)
+* V. Lafforgue, [pdf](http://www.mmas.univ-metz.fr/~gnc/bibliographie/HarmonicAnalysis/LafforgueICM.pdf)
+
+A modification of the Baum-Connes conjecture with coefficient where many counterexamples (to the  conjecture with coefficients) are eliminated is in
+
+* [[Paul Baum]], Erik Guentner, Rufus Willett, _Expanders, exact crossed products, and the Baum-Connes conjecture_, [arxiv/1311.2343](http://arxiv.org/abs/1311.2343)
 
 Discussion in terms of [[localization]]/[[homotopy theory]] is in 
 
