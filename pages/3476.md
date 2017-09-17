@@ -77,6 +77,8 @@ Note also that in [[intensional type theory]], a W-type is only an initial algeb
 
 * [[M-type]]
 
+* [[predicative topos]]
+
 [[!include notions of type]]
 
 ## References
