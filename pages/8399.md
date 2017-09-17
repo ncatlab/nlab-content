@@ -422,7 +422,7 @@ $$
 for the delooping of the inclusion of the [[maximal compact subgroup]], the [[orthogonal group]] $O(n)$. Then the [[moduli stack]] of [[vielbein]] fields /  [[Riemannian metrics]] on $\Sigma$ is
 
 $$
-  [T \Sigma, \mathbf{orth}] \in \mathbf{H}_{/\mathbf{B}GL(n)}
+  \vdash \prod_{* : \mathbf{B}GL(n)} T \Sigma \to \mathbf{orth} : Type
   \,.
 $$
 
@@ -442,14 +442,15 @@ By the above general fact this yields the configuration space
 $$
   \mathbf{Conf}
   \coloneqq
-  \sum_{\mathbf{B}\mathbf{Aut}(T \Sigma)} [T \Sigma \sslash \mathbf{Aut}(T \Sigma), \mathbf{orth}]_{\mathbf{B} Aut(T \Sigma)}
-  \simeq
-  [T \Sigma, \mathbf{orth}] \sslash \mathbf{Aut}(T \Sigma)
-  \in \mathbf{H}
+  \vdash
+   \sum_{\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)}
+   \prod_{* : \mathbf{B}GL(n)}
+   T \Sigma \to \mathbf{orth}
+   : Type
   \,,
 $$
 
-which is the integrated BRST complex of Einstein gravity field configurations modulo diffeomorphism ghosts: the [[smooth infinity-groupoid|smooth groupoid]] whose 
+which is the integrated [[BRST complex]] of Einstein gravity field configurations modulo diffeomorphism ghosts: the [[smooth infinity-groupoid|smooth groupoid]] whose 
 
 * [[objects]] are [[vielbein]] fields $e$ on $X$;
 
