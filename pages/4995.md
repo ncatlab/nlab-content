@@ -1169,7 +1169,9 @@ See also
 
   * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
 
-* [[local topos]] / [[local (∞,1)-topos]].
+* [[local topos]] / [[local (∞,1)-topos]]
+  
+  * [[Pi modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 * [[cohesive topos]] / **cohesive (∞,1)-topos**
 
