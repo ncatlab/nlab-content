@@ -1,6 +1,6 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://nlab.mathforge.org/schreiber/files/atfields.jpg" alt="Urs Schreiber at Fields Institute" /></div>
 
-#Contents#
+#contents#
 * table of contents
 {:toc}
 
