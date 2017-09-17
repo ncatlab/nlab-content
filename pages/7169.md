@@ -9,10 +9,13 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-For $X$ a space of [[dimension]] $2k$ and $H^k(X)$ a [[cohomology group]] on a space $X$ equipped with [[orientation in generalized cohomology|H-orientation]] in degree $k$ with coefficients in some $A$, the **intersection pairing** on cohomology is the map
+For $X$ a [[space]] of [[dimension]] $2k$ and $H^k(X)$ a [[cohomology group]] on a space $X$ equipped with [[orientation in generalized cohomology|H-orientation]] in degree $k$ with coefficients in some $A$, the **intersection pairing** on [[cohomology]] is the map
 
 $$
   H^k(X) \times H^k(X) \to A
@@ -31,5 +34,11 @@ $$
   \cup : H^k(X) \times H^k(X) \to H^{2k}(X)
   \,.
 $$
+
+## Examples
+
+### Higher dimensional Chern-Simons theories
+
+For the case that the cohomology in question is [[ordinary differential cohomology]], the [[diagonal]] of the intersection pairing is the [[action functional]] of abelian [[higher dimensional Chern-Simons theory]].
 
 [[!redirects intersection pairings]]
