@@ -383,7 +383,45 @@ $$
 
 By the above argument $U^*$ has a [[left adjoint]] (the left [[Kan extension]] along $U$) hence itself preserves all [[limit]]s. 
 
-It then suffices to observe that by the fact that $f$ preserves finite limits we have that the categories $(d/f)^{op}$ are [[filtered categories]]. Then by the fact (see there) that [[filtered colimit]]s commute with finite limits, it follows that also $\lim_\to$ preserves finite limits, and hence $(f_! -)(d)$ does. Since colimits of presheaves are computed objectwise, this shows that $f_!$ preserves finite limits.
+It then suffices to observe (see below) that by the fact that $f$ preserves finite limits we have that the categories $(d/f)^{op}$ are [[filtered categories]]. Then by the fact (see there) that [[filtered colimit]]s commute with finite limits, it follows that also $\lim_\to$ preserves finite limits, and hence $(f_! -)(d)$ does. Since colimits of presheaves are computed objectwise, this shows that $f_!$ preserves finite limits. This completes the proof.
+
+Here is an explicit desciption of the filteredness of the [[comma category]] $(d/f)^{op}$ for any object $f$.
+
+We check the axioms on a [[filtered category]]:
+
+* _non-emptiness_ : There is an object in $(d/f)^{op}$: since $f$ by assumption preserves the [[terminal object]],  take the terminal morphism $(d \to f(*) = *)$;
+
+* _connectedness_ : for any two objects $(d \stackrel{h_1}{\to} f(c_1))$ and $(d \stackrel{h_2}{\to} f(c_2))$ form the [[product]] $c_1 \times c_2$ and use that $f$ preserves this to produce the object $(d \stackrel{f(h_1), f(h_2)}{\to} f(c_1) \times f(c_2) \simeq f(c_1 \times c_2))$. Then the image under $f$ of the two projections provides the required [[span]]
+
+  $$
+    \array{
+      && d
+      \\
+      & {}^{\mathllap{f(h_1)}}\swarrow & \downarrow^{(f(h_1),f(h_2))} & \searrow^{\mathrlap{f(h_2)}} 
+      \\
+      f(c_1) &\stackrel{f(p_1)}{\leftarrow}&
+      f(c_1 \times c_2)
+      &   
+      \stackrel{f(p_2)}{\to}
+      & f(c_2)
+    }
+    \,.
+  $$
+
+* finally, for 
+
+  $$
+    \array{
+       && d
+       \\
+       & \swarrow && \searrow
+       \\
+       f(c_1) && \stackrel{\overset{h_1}{\to}}{\underset{h_2}{\to}}& & f(c_2)
+    }
+  $$
+
+  two [[parallel morphism]], let $eq(h_1,h_2)$ be the [[equalizer]] of the underlying morphism in $C$. Since $f$ preserves equalizers we have an object $(d \to f(eq(h_1,h_2)))$ and a morphism to $(d \to f(c_1))$ that equalizes the above two morphisms.
+
 
 =--
 
