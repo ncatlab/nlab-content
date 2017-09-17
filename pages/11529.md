@@ -3,7 +3,7 @@
 
 ## some writings
 
-* _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 1913
+* _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
 
 
 ## related $n$Lab entries
