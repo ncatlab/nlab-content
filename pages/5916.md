@@ -17,12 +17,12 @@
 ## Definition
 
 
-_Cartesian logic_ or _finite limit logic_ is the [[internal logic]] of [[cartesian categories]].
+_Cartesian logic_ or _finite limit logic_ is the [[internal logic]] of [[finitely complete categories]] (which the [[Elephant]] calls [[cartesian categories]]).
 
 
 ## Related concepts
 
-* [[cartesian category]], [[cartesian functor]], **cartesian logic**, [[cartesian theory]]
+* [[finitely complete category]], [[cartesian functor]], **cartesian logic**, [[cartesian theory]]
 
 * [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
 
