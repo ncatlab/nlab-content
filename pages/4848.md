@@ -142,9 +142,9 @@ is
 
 The [[curvature]] 2-form $(T, R)$ consists of
 
-* the [[torsion]] $T$;
+* the [[torsion of a metric connection|torsion]] $T = d E + [\Omega \wedge E]$;
 
-* the ordinary curvature 2-form $R$.
+* the [[Riemannian curvature]] $R = d \Omega + [\Omega \wedge \Omega]$.
 
 If the torsion vanishes, then $\Omega$ is a [[Levi-Civita connection]] for the [[metric]] $E^a \otimes E^b \eta_{a b}$ defined by $E$.
 
