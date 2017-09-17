@@ -18,13 +18,13 @@
 For $X$ a [[smooth manifold]], $E \to X$ a [[vector bundle]] and $D : \Gamma(E) \to \Gamma(E)$ a [[differential operator]] on [[sections]] of $E$, its **symbol** is the bundle morphism
 
 $$
-   \sigma(D) : T^* X \times_X E \to E
+   \sigma(D) \;:\; T^* X \times_X E \to E
 $$
 
-given at any point $x \in X$ on an cotangent vector being the restriction of a [[section]] $\mathbf{d}f \in \Gamma(T^* X)$ of the [[cotangent bundle]] being the [[de Rham differential]] of a [[smooth function]] by
+given at any point $x \in X$ on a [[cotangent bundle|cotangent vector]] of the form $(\mathbf{d}f)_x \in \Gamma(T^* X)_x$ by
 
 $$
-  \sigma(D)_x \colon \mathbf{d}f_x \mapsto [D,f]_x
+  \sigma(D)_x \;\colon\; \mathbf{d}f_x \mapsto [D,f]_x
   \,,
 $$
 
