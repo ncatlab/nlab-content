@@ -109,7 +109,7 @@ for all $0 \lt i \lt 2 j$.
 
 The operations were first defined in 
 
-* [[Norman Steenrod]], _Products of cocyles and extensions of mappings_, Annals of mathematics (1947)
+* [[Norman Steenrod]], _Products of cocycles and extensions of mappings_, Annals of mathematics (1947)
 
 The axiomatic definition appears in
 
