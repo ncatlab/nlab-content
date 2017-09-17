@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -25,16 +24,20 @@ For $n \in \mathbb{N}$ a [[natural number]], write $\mathbb{R}^n$ for the [[Cart
 
 * an [[open subset]] is precisely a subset such that contains an [[open ball]] around each of its points;
 
-* it is the [[product topology]] induced from the standard topology on the [[real line]]
-
+* it is the [[product topology]] induced from the standard topology on the [[real line]].
 =--
+
 
 ## Properties 
 
 +-- {: .un_prop}
 ###### Proposition
 
-Two [[Cartesian space]]s $\mathbb{R}^k$ and $\mathbb{R}^l$ are [[homeomorphic]] precisely if $k = l$. 
-
+Two [[Cartesian space]]s $\mathbb{R}^k$ and $\mathbb{R}^l$ (with the Euclidean topology) are [[homeomorphic]] precisely if $k = l$. 
 =--
 
+A proof of this statement was an early success of [[algebraic topology]].
+
+
+[[!redirects Euclidean topology]]
+[[!redirects Euclidean topologies]]
