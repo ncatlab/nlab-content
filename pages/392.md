@@ -28,6 +28,7 @@ Thus, "red herring" as used here is to be interpreted neutrally: it refers to a 
 
 * A [[linearly distributive category]] has essentially nothing to do with a [[distributive category]].
 
+* If a [[localizer]] refers to a class of maps in a [[presheaf category]], as it sometimes does, then a [[basic localizer]], being a class of maps in [[Cat]], is not a localizer.
 
 [[!redirects red herring]]
 [[!redirects red herring principle]]
