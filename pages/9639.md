@@ -26,9 +26,14 @@ In terms of [[Berry phase]] and Chern numbers in
 
 * Joseph E. Avron, Daniel Osadchy, Ruedi Seiler, _A Topological look at the quantum Hall effect_, Physics Today __56__:8, [doi](http://dx.doi.org/10.1063/1.1611351)
 
-Relation to [[Pfaffian]] state is illuminated in 
+Relation to non-abelian Statistics (and eventually connection to braiding, modular tensor categories, and [[topological quantum computing]] followed) was made initially in 
 
 * [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B(1991)362 [pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
+
+For a more recent discussion of these connections see
+
+* Chetan Nayak, Steven H. Simon, Ady Stern, [[Michael Freedman]], Sankar Das Sarma, Non-Abelian Anyons and Topological Quantum Computation, ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
+
 
 category: physics
 [[!redirects quantum Hall effect]]
