@@ -1,4 +1,13 @@
-A *Galois module* is a $G$-module for a [[Galois group]] $G$; i.e. it is an abelian group on which a Galois group acts in a way compatible with the abelian group structure.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A *Galois module* $V$ is a $G$-[[module]] for a [[Galois group]] $G$; i.e. it is an abelian group on which a Galois group acts in a way compatible with the abelian group structure.
+
+If $V$ is a _[[vector space]]_ then this is a [[linear representation]] of $G$ and one speaks of _[[Galois representation]]_.
 
 The category of $G$-modules is equivalent to the category of [[module|modules]] over the [[group algebra|group ring]] $\mathbb{Z}[G]$.
 
@@ -83,3 +92,13 @@ More specifically, given $\sigma\in Gal(k\hookrightarrow k_s)$ it acts on the $X
 
 Note that since we have a equivalence $T_l A\simeq H_{et}^1(A_{k_s}, \mathbb{Z}_l)^\vee$, we have that the [[Tate module|l-adic Tate module]] is a special case of the $l$-adic cohomology.
 =--
+
+## Related concepts
+
+* [[class field theory]]
+
+## References
+
+* Wikipedia, _[Galois module](http://en.wikipedia.org/wiki/Galois_module)_
+
+[[!redirects Galois modules]]
