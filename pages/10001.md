@@ -51,6 +51,34 @@ $$
 
 For [[N=2 D=4 super Yang-Mills theory]] the twisting follows the same idea, but is a little but more intricate ([Witten 11, section 5.1.1](#Witten11))
 
+## Formalization
+ {#Formalization}
+
+A formalization of the topological twisting in the framework of [[perturbation theory|perturbative]] [[BV-quantization]] of field theory via [[factorization algebras]] of local [[quantum observables]] is proposed in ([Costello 11, section 15, 16, ...](#Costello11)).
+
+The definition there essentially amounts to saying that a choice of topological twisting is a choice of [[action]] of the [[semidirect product]] [[supergroup]]
+
+$$
+  \mathbb{G}_m \ltimes \Pi \mathbb{G}_{ad}
+$$
+
+of the [[multiplicative group]] acting on the odd-shifted [[additive group]] via the given [[super Poincare Lie algebra]]. 
+
+We notice that this group is the [automorphism group of the odd line](odd+line#TheAutomorphismSuperGroup)
+
+$$
+  \mathbf{Aut}(\mathbb{R}^{0|1}) \simeq \mathbb{G}_m \ltimes \Pi \mathbb{G}_{ad}
+$$
+
+for which it is well known that an [[action]] of it is equivalent to a choice of [[differential]] $Q$ and corresponding grading. 
+
+This chosen differential $Q$ among the supersymmetry generators in the [[super Poincare Lie algebra]] is the choice of what in the physics literature is called the twisting "BRST operator".
+
+The twisted theory itself is then defined to be given by the [[factorization algebra]] of observables which is essentially the [[homotopy fixed points]] of this $\mathbf{Aut}(\mathbb{R}^{0|1})$-[[infinity-action]].
+
+
+
+
 ## Related concepts
 
 * [[N=1 D=4 super Yang-Mills theory]]
@@ -105,6 +133,7 @@ For more on this see the references listed at _[N=2 D=4 super Yang-Mills theory 
 More mathematically formalized discussion of topologically twisted supersymmetric theories in the framework of [[BV-BRST formalism]] [[perturbation theory]] (and with an eye towards the [[factorization algebra]] formulation) is from section 15 on in
 
 * [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+ {#Costello11}
 
 See also
 
