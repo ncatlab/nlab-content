@@ -5,6 +5,8 @@
 
 ## Idea
 
+$p$-completion is to [[p-adic homotopy theory]] as [[rationalization]] is to [[rational homotopy theory]].
+
 ### Of an abelian group
 
 For $A$ an [[abelian group]] (or [[commutative ring]]) and $p$ a [[prime number]], the _$p$-completion_ of $A$ is the [[limit]]
@@ -24,6 +26,10 @@ $A$ is called _$p$-complete_ if the canonical [[homomorphism]] $A \to A_p^\wedge
 
 $p$-Completion of a space/spectrum is equivalently $\mathbb{Z}/p\mathbb{Z}$-localization, see at _[[localization of a space]]_ [this remark](localization+of+a+space#RelationToCompletion).
 
+## Properties
+
+The _[[fracture theorem]]_ says that under mild conditions a (stable) homotopy type decomposes into its [[rationalization]] and its $p$-completions.
+
 ## Examples
 
 For $A = \mathbb{Z}$ the [[integers]], the $p$-completion is the [[p-adic integers]]. (Notice that here traditionally one writes $\mathbb{Z}_p = \mathbb{Z}_p^\wedge$.)  
@@ -41,6 +47,8 @@ More generally, if $A$ is [[finitely generated object|finitely generated]], then
 * [[p-adic homotopy theory]]
 
 * [[fracture theorem]]
+
+* [[nilpotent homotopy type]], [[finite homotopy type]]
 
 ## References
 
