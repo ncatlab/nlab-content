@@ -24,20 +24,8 @@ The _quarlk_ is one of the fundamental [[particles]]/[[matter]] [[field (physics
 
 ## Related concepts
 
-[[force]] [[gauge field]]
 
-* [[graviton]]
+[[!include fields and quanta - table]]
 
-* [[photon]]
-
-* [[gluon]]
-
-[[matter]]
-
-* [[electron]]
-
-* [[quark]]
-
-* [[neutrino]]
 
 [[!redirects quarks]]
