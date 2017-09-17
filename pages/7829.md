@@ -14,11 +14,44 @@ $$
 
 If the operator is an [[elliptic differential operator]] then this is a [[holomorphic function]] in $s$ for large $\Re(s)$. One defines $\eta$ on the rest of the [[complex plane]] by [[analytic continuation]].
 
-If in addition the operator happens to have only positive [[eigenvalues]], then the above is the [[zeta function of an elliptic differential operator]]. 
-
 The _eta invariant_ of the operator finally is $\eta(0)$.
 
 (e.g. [Richardson, first page](#Richardson))
+
+The eta function may be understood as related to the [[zeta function of an elliptic differential operator]] $H$ by passing to a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-like square root $D$ of $H$, see [below](RelationToTheZetaFunction).
+
+(Notice that if $D$ itself happens to have only positive [[eigenvalues]], then its eta function already is on the notre the [[zeta function of an elliptic differential operator]].)
+
+## Properties
+
+### Relation to the zeta function
+ {#RelationToTheZetaFunction}
+
+Let $D$ be a [[self-adjoint operator]] such that
+
+1. its eta function $\eta(s)$ is defined and [[analytic function|analytic]] at $s= 0$;
+
+1. for $c \in I \subset \mathbb{R}$ in an interval such that no $-c$ is an [[eigenvalue]] of $D$ such that both the eta series $\eta_{D+c}$ and the [[zeta function of an elliptic differential operator|zeta function]] series $\zeta_{(D+c)^2}((s+1)/2)$ have a common lower bound $s \gt B$ for the values on wich the series converges
+
+then 
+
+$$
+  \frac{d}{d c} \eta_{D+c}(s) = s \zeta_{(D + c)^2}((s+1)/2)
+  \,,
+$$
+
+where on the left we have the [[zeta function of an elliptic differential operator]] for $(D+c)^2$.
+
+(e.g. [Richardson prop. 2](#Richardson)).
+
+In particular this means that under the above assumptions the [[functional determinant]] of $D^2$ is given by
+
+$$
+  det (D^2) 
+   = 
+  \exp( \frac{\partial}{\partial s}\frac{\partial}{\partial c} \eta_{D}(0))
+  \,.
+$$
 
 ## Related concepts
 
