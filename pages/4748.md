@@ -250,7 +250,11 @@ $$
   \,.
 $$
 
-Using [[Hadamard's lemma]] and the fact that by constructon $\tau$ has vanishing 0th and 1st order differentials at the origin it follows that this is indeed a [[smooth function]].
+Using [[Hadamard's lemma]] and the fact that by constructon $\tau$ has vanishing 0th and 1st order differentials at the origin it follows that this is indeed a [[smooth function]]. 
+
+
+**Remark** Since $Z \subset \mathbb{R}^3$ is a [[closed subset]] we have by the [[Tietze extension theorem]] a smooth extension $g$ to all of $\mathbb{R}^3$. If we later consider derivatives of $g$ at the boundary of $Z$ we think of them as being the corresponding derivatives of this extension. But for ease of notation we shall not make this extension explicit.
+
 
 We want to similarly factor the smooth family of bigons $[0,1]^3 \to 2Mor(\mathbf{P}_2(X))$ given by
 
@@ -275,7 +279,9 @@ $$
   \,.
 $$
 
-As before using Hadamard's lemma this is a sequence of smooth functions. Under the hom-adjunction it corresponds to a factorization of $G_\Gamma : [0,1]^3 \to 2 Mor(\mathbf{P}_2(X))$ into
+As before using Hadamard's lemma this is a sequence of smooth functions. To make this qualify as a family of bigons (which are maps from the square that are constant in a [[neighbourhood]] of the left and right boundary of the square) furthermore precompose this with a suitable smooth function $[0,1]^2 \to [0,1]^2$ that realizes a square-shaped bigon.
+
+Under the hom-adjunction it corresponds to a factorization of $G_\Gamma : [0,1]^3 \to 2 Mor(\mathbf{P}_2(X))$ into
 
 $$
  G_\Gamma :  [0,1]^3 \stackrel{f}{\to} Z \to 2 Mor(\mathbf{P}_2(X))
