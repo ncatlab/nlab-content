@@ -44,7 +44,7 @@ A **$V$-enriched model category** is
 The last two conditions here are equivalent to the fact that the [[copower]]
 
 $$
-  \otimes : C \times V \to X
+  \otimes : C \times V \to C
 $$
 
 is a [[Quillen bifunctor]].
