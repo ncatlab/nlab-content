@@ -266,7 +266,7 @@ where $\triangle := \delta \circ \mathrm{d}: \Omega^k(M) \to \Omega^{k}(M)$ is t
 ###### Example
 **(Charged particle in an  electromagnetic field, e.g. a $\pi^{-}$-meson)**
 
-Let $P$ be a $U(1)$-principal bundle over $M$. A _field of charge $n \in \Z$_ is a field for $P$ of matter type $(\C,h,\rho_n,f)$, where $\rho_n: U(1) \times \C \to \C$ is defined by $\rho_n(z,z') := z^nz'$  and $f(z) := -\frac{1}{2}m^2|z|^2$. The action functional is
+Let $P$ be a $U(1)$-principal bundle over $M$. A _field of charge $n \in \Z$_ is a field for $P$ of matter type $(\C,h,\rho_n,f)$, where $\rho_n: U(1) \times \C \to \C$ is defined by $\rho_n(z,z') := z^n z'$  and $f(z) := -\frac{1}{2}m^2|z|^2$. The action functional is
 $$
 S(\omega,\phi) =\frac{1}{2} \int_M  \| \mathrm{D}^{\omega}\phi \|^2 +\star m^{2} \| \phi \| ^2\text{.}
 $$
@@ -561,7 +561,7 @@ $$
 ###### Definition
 **(Spinor in an electromagnetic field)**
 
-Here, $\rho_{SM}: Spin(p,q) \to \mathrm{Gl}(V)$ is some representation, and $\rho_P: \ueins \to \mathrm{Gl}(V)$ is given by complex multiplication with $z^{n}$, where $n\in \Z$ is the charge of the spinor. Obviously $\rho_{SM}$ and $\rho_P$ commute. The Euler-Lagrange equation is
+Here, $\rho_{SM}: Spin(p,q) \to \mathrm{Gl}(V)$ is some representation, and $\rho_P: U(1) \to \mathrm{Gl}(V)$ is given by complex multiplication with $z^{n}$, where $n\in \Z$ is the charge of the spinor. Obviously $\rho_{SM}$ and $\rho_P$ commute. The Euler-Lagrange equation is
 $$
 D^{\omega}\psi + im\psi = 0\text{.}
 $$
