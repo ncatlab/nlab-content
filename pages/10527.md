@@ -78,3 +78,5 @@ By [[Goodwillie calculus]], [[(∞,1)-functors]] to Goodwillie-differentiable $(
 
 [[!redirects Goodwillie-differentiable (infinity,1)-categories]]
 [[!redirects Goodwillie-differentiable (infinity,1)-category]]
+
+[[!redirects Goodwillie-differentiable (∞,1)-category]]
