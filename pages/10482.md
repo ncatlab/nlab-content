@@ -218,6 +218,112 @@ $$
   \,.
 $$
 
+### Presheaves on superpoints
+
+Write $Superpoint$ for the [[category]] of [[superpoints]], the [[opposite category]] of that of real finitely-generated [[Grassmann algebras]]. We list the terms with crucial signs that appear when regarding [[superalgebra]] as algebra [[internalization|internal]] to the [[presheaf topos]] over [[superpoints]] (see at _[[super infinity-groupoid]]_ for background).
+
+Given a [[super Lie algebra]] $\mathfrak{g}$, for each [[superpoint]] $\mathbb{R}^{0|q}$ write
+
+$$
+  \mathbb{g}(\mathbb{R}^{0|q})
+  \coloneqq
+  \left(
+   \mathfrak{g}\otimes C^\infty(\mathbb{R}^{0|q})
+  \right)_{even}
+  \in Vect_{\mathbb{R}}
+$$
+
+for the [[vector space]] which is the even-degree part of the [[tensor product]] of the underlying [[vector spaces]] of $\mathfrak{g}$ and of the [[Grassmann algebra]] $C^\infty(\mathbb{R}^{0|q})$.
+
+Here if $\{e_a, \psi_\alpha\}$ is a [[basis]] for $\mathfrak{g}$ with $\{e_a\}$ a basis for $\mathfrak{g}_{even}$ and $\{\psi_\alpha\}$ a basis for $\mathfrak{g}_{odd}$, and if we write $\{\epsilon^i\}_{i = 1}^q$ for the generators of $C^\infty(\mathbb{R}^{0|q})$, then $\mathbb{g}(\mathbb{R}^{0|q})$ is generated from elements of the form
+
+$$
+  e_a, \; e_a \epsilon^{i_1} \epsilon^{i_2},\;
+  e_a \epsilon^{i_1} \epsilon^{i_2} \epsilon^{i_3} \epsilon^{i_4}
+  ,\;
+  \cdots
+$$
+
+and
+
+$$
+  \psi_\alpha \epsilon^{i_1} ,\;
+  \psi_\alpha \epsilon^{i_1} \epsilon^{i_2} \epsilon^{i_3} 
+  ,\;
+  \cdots
+  \,.
+$$
+
+The [[Lie bracket]] on the ordinary vector space $\mathfrak{g}(\mathbb{R}^{0|q})$ is defined on elements 
+
+$$
+  x_i \kappa_i \in 
+  \left(
+   \mathfrak{g}\otimes C^\infty(\mathbb{R}^{0|q})
+  \right)_{even}
+$$ 
+
+by the formula
+
+$$
+  [ x_1 \kappa_1 , x_2 \kappa_2]_{\mathfrak{g}(\mathbb{R}^{0|q})} 
+  \coloneqq
+  [x_1, x_2]_{\mathfrak{g}} \kappa_1 \kappa_2
+  \,.
+$$
+
+Some examples:
+
+$$
+  [e_{a_1}, e_{a_2}]_{\mathfrak{g}(\mathbb{R}^{0|q})}
+  = 
+  [e_{a_1}, e_{a_2}]_{\mathfrak{g}}
+$$
+
+$$
+  [e_{a}, \psi_{\alpha} \epsilon^1]_{\mathfrak{g}(\mathbb{R}^{0|q})}
+  = 
+  [e_{a}, \psi_{\alpha}]_{\mathfrak{g}} \epsilon^1
+$$
+
+$$
+  [\psi_{\alpha} \epsilon^1, e_a]_{\mathfrak{g}(\mathbb{R}^{0|q})}
+  = 
+  [\psi_{\alpha}, e_a]_{\mathfrak{g}} \epsilon^1
+$$
+
+From this and from the ordinary skew-symmetry of the [[Lie bracket]] in $\mathfrak{g}(\mathbb{R}^{0|q})$ follows that also in the [[super Lie algebra]] we have 
+
+$$
+  [e_a, \psi_{\alpha}] = - [\psi_{\alpha}, e_a]_{\mathfrak{g}}
+  \,.
+$$
+
+Next, from
+
+$$
+  [\psi_{\alpha_1} \epsilon^1, \psi_{\alpha_2} \epsilon^2]_{\mathfrak{g}(\mathbb{R}^{0|q})}
+  = 
+  [\psi_{\alpha_1}, \psi_{\alpha_2}]_{\mathfrak{g}} \epsilon^1 \epsilon^2
+$$
+
+$$
+  [\psi_{\alpha_2} \epsilon^2, \psi_{\alpha_1} \epsilon^1]_{\mathfrak{g}(\mathbb{R}^{0|q})}
+  = 
+  [\psi_{\alpha_2}, \psi_{\alpha_1}]_{\mathfrak{g}} \epsilon^2 \epsilon^1
+$$
+
+and the fact that $\epsilon^1  \epsilon^2 = - \epsilon^2  \epsilon^1$ it follows that in the [[super Lie algebra]]
+
+$$
+  [\psi_{\alpha_1}, \psi_{\alpha_2}]_{\mathfrak{g}}
+  =
+  +
+  [\psi_{\alpha_2}, \psi_{\alpha_1}]_{\mathfrak{g}}
+  \,.
+$$
+
+
 ## References
 
 
