@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
