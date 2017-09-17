@@ -54,7 +54,7 @@ A result of Eilenberg and Nakayama that any [[separable algebra]] over a field $
 
 A separable algebra is said to be **strongly separable** if there exists a separability idempotent $p$ that is **symmetric**, meaning
 $$ p = \sum_{i=1}^n a_i \otimes b_i = \sum_{i=1}^n b_i \otimes a_i $$
-Any strongly separable algebra can be made into a [[Frobenius algebra|special Frobenius algebra]] in a unique way.
+An algebra is strongly separable if and only if it can be made into a [[Frobenius algebra|special Frobenius algebra]].  When this can be done, it can be done in a unique way.
 
 There is an equivalent characterization of strongly separable algebras which makes this fact clearer.  Any element $a$ of an associative unital algebra gives a left multiplication map 
 $$ \array{ 
