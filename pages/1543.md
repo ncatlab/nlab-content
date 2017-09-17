@@ -81,7 +81,7 @@ This indicates the more fundamental way to _define_ $G$-principal bundles in the
 Recall that for every [[group]] there is the the one-object [[groupoid]] $\mathbf{B}G$. Under the [[Yoneda embedding]] this [[representable functor|represents]] a [[simplicial presheaf|prestack]]. Write $\bar{\mathbf{B}G}$ for the corresponding [[stack]] obtained by [[(infinity,1)-sheafification|stackification]]. This is our $G Bund(-)$
 
 $$
-  G Bund(-) = \bar{\mathbf{B} G}
+  G Bund(-) = \bar{\mathbf{B} G}(-)
   \,.
 $$
 
