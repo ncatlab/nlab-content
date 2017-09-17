@@ -20,7 +20,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -172,6 +172,8 @@ The corresponding table has been called the **[[brane scan]]**
 ## References 
 
 ### General
+
+* [[Greg Moore]], _What is... a brane?_, Notices of the AMS vol 52, no. 2 ([pdf](http://www.ams.org/notices/200502/what-is.pdf))
 
 * Joan Simon, _Brane Effective Actions, Kappa-Symmetry and Applications_ ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
 
