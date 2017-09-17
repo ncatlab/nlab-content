@@ -16,11 +16,14 @@
 
 ## Idea
 
-In [[logic]] a _universal closure operator_ is a [[monad]]/[[comonad]] on all [[subobject lattices]]  which is compatible with [[pullback]]/[[substitution]]/[[context extension]]. Often one requires an [[idempotent monad]] (or idempotent comonad).
 
-If there is a [[subobject classifier]] then such is given by a [[monad]]/[[comonad]] on that, $\Diamond \colon \Omega \to \Omega$, see the discussion below.
+In [[logic]] a _closure operator_ is a [[monad]]/[[comonad]] on a [[subobject lattice]] (of some [[object]] in some [[category]]). Often one requires an [[idempotent monad]] (or idempotent comonad). The collection of subobjects that are taken by this operator to itself (the _[[modal types]]_) form the corresponding _closure_.
 
-More generally, in [[type theory]] with a [[type of types]] $\Omega$, a universal closure or _[[modal type theory|modality]]_ is an [[idempotent monad]] on $\Omega$, as above.
+If one considers a [[hyperdoctrine]] of subobject lattices, hence a collection of them parameterized over a [[category of contexts]] and equipped with [[pullback]]/[[substitution]]/[[context extension]], then a _universal closure operator_ or _[[modality]]_ is one acting on each of the slices and being compatible with the pullback operation.
+
+If there is moreover a [[subobject classifier]] $\Omega$ (hence if that hyperdoctrine is the collection of [[slice categories]] of a [[topos]]) then a universal closure operator is represented by a single [[monad]]/[[comonad]] on that subobject classifier, $\Diamond \colon \Omega \to \Omega$, see the discussion below.
+
+Instead of [[subobjects]] one may consider more generally closures acting on the full [[slice categories]]. This promotes the corresponding _[[modal logic]]_ to _[[modal type theory]]_.
 
 
 ## Definition
