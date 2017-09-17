@@ -179,6 +179,7 @@ This appears for instance as ([Segal, prop. 4.2](#Segal)).
 
 * [[equivariant elliptic cohomology]]
 
+* [[Kac character formula]]
 
 ## References
 
