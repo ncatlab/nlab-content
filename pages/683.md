@@ -294,6 +294,17 @@ Since higher categorical limits are generally defined as representing objects fo
 
 On the other hand, we may also consider a category $C$ enriched over $n$-categories with a _larger_ class of weak equivalences than just the $n$-categorical equivalences.  Then $C$ presents an $n$-category (its "homotopy $n$-category") obtained by formally turing these weak equivalences into $n$-categorical equivalences.  Homotopy limits in $C$ with this homotopical structure should then present $n$-limits in its homotopy $n$-category.  In the case $n=(\infty,1)$ this is also essentially in Lurie's book; for other values of $n$ it may not be in the literature.
 
+## Homotopy limits versus limits in the homotopy category
+
+It is important to note that homotopy limits and limits in the [[homotopy category]] are, in general, incomparable.  A homotopy limit need not be a limit in the homotopy category, while a limit in the homotopy category need not be a homotopy limit.
+
+It is generally true that homotopy *products* (and coproducts) are also products and coproducts in the homotopy category.  Some other homotopy limits induce the corresponding notion of [[weak limit]] in the homotopy category; for instance, homotopy pullbacks become weak pullbacks in the homotopy category.  However, even this is not true for all types of homotopy limit.
+
+On the other hand, homotopy categories do not *usually* have many limits and colimits at all (aside from products and coproducts).  An explicit proof that $Ho(Cat)$ does not have pullbacks can be found [here](/nlab/show/Ho%28Cat%29#OtherLimits).
+But even if a homotopy category *does* happen to have limits and colimits, these need not be the same as homotopy limits.
+
+For instance, every [[chain complex]] over a [[field]] $k$ is quasi-isomorphic to its [[homology]], regarded as a chain complex with zero differentials; and between chain complexes of the latter form, quasi-isomorphisms are just isomorphisms.  Thus, the homotopy category of chain complexes over $k$ is equivalent to the category of graded $k$-vector-spaces.  This is complete and cocomplete as a category, but its limits and colimits are not the same as the homotopy limits and colimits arising from its presentation as the homotopy category of chain complexes.  In particular, chain complexes are a [[stable (infinity,1)-category]], so every homotopy pullback square is also a homotopy pushout square and vice versa; but nothing of the sort is true in graded vector spaces as a 1-category.
+
 
 ## Examples 
 
