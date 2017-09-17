@@ -20,3 +20,7 @@ Formally, $f \colon S^1 \to \mathbb{R}^3$ has a **(simple) double point** at $x 
 Singular knots are an important piece of the theory of [[Vassiliev finite type invariants]] of knots.
 
 category: knot theory
+
+[[!redirects singular knots]]
+[[!redirects Singular knot]]
+[[!redirects Singular knots]]
