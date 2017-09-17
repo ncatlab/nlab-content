@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+At an Oberwolfach workshop in 2011 on [[homotopy type theory]], [[Andrej Bauer]] and [[Peter LeFanu Lumsdaine]] created a tutorial that walks the reader through the proof that the [[univalence axiom]] implies [[functional extensionality]], formalized entirely in [[Coq]]-proof assistant code.
+
+For a pdf-version of the tutorial see
+
+* [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _A Coq proof that Univalence Axioms implies Functional Extensionality_ (2011) ([[BauerLumsdaineUnivalence.pdf:file]]).
+
+In order to follow the proof explicitly in [[Coq]]-itself, download the accompanying source files here:
+
+* [https://github.com/andrejbauer/Homotopy/tree/master/OberwolfachTutorial](https://github.com/andrejbauer/Homotopy/tree/master/OberwolfachTutorial)
+
+and feed them into your [[Coq]]. See the README file there for further hints.
+
+category: reference
