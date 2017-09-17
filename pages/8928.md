@@ -28,10 +28,35 @@ Now, if the configuration has a sufficient amount of [[supersymmetry]] preserved
 
 The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. For these configurations one may compute the number of quantum microstates of open strings attached to them, hence the corresponding [[entropy]]. By the above reasoning this may then be compared to the [[Bekenstein-Hawking entropy]] of the corresponding (supersymmetric) black hole. And indeed there results match.
 
+## Related concepts
+
+* [[black hole]]
+
+* [[black string]]
+
+* [[black membrane]]
+
+* [[black fivebrane]]
+
+[[!include table of branes]]
+
+
 ## References
+
+The original computations are due to
+
+* [[Ashoke Sen]], _Extremal black holes and elementary string states_ ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
+
+* [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_ ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
+
+* [[Curtis Callan]], [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_ ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
+
+A review is in 
+
+* Joao Gomes, _Joao Gomes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
 
 Recent developments include
 
-* Oleg Lunin, Samir D. Mathur, _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
+* Oleg Lunin, [[Samir Mathur]], _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
 
 [[!redirects black hole in string theory]]
