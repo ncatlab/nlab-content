@@ -1,7 +1,17 @@
+
 Joachim Lambek (usually called Jim) is a mathematician, logician, language theoretician, ..., who is based in McGill university.
 
 * [wikipedia page](http://en.wikipedia.org/wiki/Joachim_Lambek)
 
+
+## Related entries
+
+* [[lambda-calculus]]
+* (probably others)
+
+
 category: people
 
+[[!redirects Joachim Lambek]]
 [[!redirects Jim Lambek]]
+[[!redirects Lambek]]
