@@ -6,9 +6,9 @@ Similarly, one can consider the conditions on morphisms in other geometric situa
 
 A __proper morphism of [[scheme]]s__ is by a definition a morphism $f:X\to Y$ of finite type which is [[separated morphism|separated]] and universally closed. There is a classical valuative criterion of properness due Chevalley. See Hartshorne or EGA for more details. A short overview on proper morphisms is also at [wikipedia](http://en.wikipedia.org/wiki/Proper_morphism).
 
-We say that a scheme $X$ is proper if the canonical map $X \to \operatorname{Spec} \mathbb{Z}$ is proper. 
+We say that a scheme $X$ is __proper__ if the canonical map $X \to \operatorname{Spec} \mathbb{Z}$ is proper. 
 
-Proper schemes are analogous to compact topological spaces. This is one reason why one uses the terminology "quasi-compact" when referring to schemes whose underlying topological space is compact.
+Proper schemes are analogous to [[compact topological spaces]]. This is one reason why one uses the terminology "quasi-compact" when referring to schemes whose underlying topological space is compact.
 
 The base change formulas for cohomology for proper and for smooth morphisms of schemes motivated Grothendieck (in Pursuing stacks) to define abstract proper and smooth functors in the setting of [[fibered categories]]; this is further expanded on in an article 
 
@@ -18,7 +18,13 @@ The base change formulas for cohomology for proper and for smooth morphisms of s
 
 
 
-[[!redirects proper morphism]]
-[[!redirects proper functor]]
+[[!redirects proper map]]
 [[!redirects proper maps]]
+
+[[!redirects proper morphism]]
 [[!redirects proper morphisms]]
+[[!redirects proper scheme]]
+[[!redirects proper schemes]]
+
+[[!redirects proper functor]]
+[[!redirects proper functors]]
