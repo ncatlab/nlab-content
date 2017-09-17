@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[differential cohomology]]-refinement of _ordinary [[integral cohomology]]_ -- in other words of the [[nLab:cohomology theory]] represented by the [[nLab:Eilenberg-MacLane spectrum]] $K(-,\mathbb{Z})$ of the additive [[nLab:abelian group]] of [[nLab:integer]]s -- is well known to be modeled by
+[[ordinary differential cohomology|Ordinary differential cohomology]] is well known to be modeled by
 
 1. [[Cheeger-Simons differential character]]s;
 
