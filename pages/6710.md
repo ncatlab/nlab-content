@@ -336,3 +336,13 @@ See also
 [[!redirects spin-c structures]]
 [[!redirects Spin-c structure]]
 [[!redirects Spin-c structures]]
+
+[[!redirects spin^c-structure]]
+[[!redirects spin^c-structures]]
+[[!redirects Spin^c-structure]]
+[[!redirects Spin^c-structures]]
+[[!redirects spin-c-structure]]
+[[!redirects spin-c-structures]]
+[[!redirects Spin-c-structure]]
+[[!redirects Spin-c-structures]]
+
