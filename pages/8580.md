@@ -2728,7 +2728,7 @@ We now extend the notion of [[derivatives]] and [[de Rham differentials]] from [
 
 Recall from def. \ref{DifferentialnFormOnSmoothSpace} that the set of differential $n$-forms on a [[smooth space]] $X$ is $\Omega^n(X) \coloneqq Hom(X, \Omega^n)$. 
 
-+-- {: .num_defn}
++-- {: .num_defn #DeRhamDifferentialOverSmoothSpaces}
 ###### Definition
 
 For $X \in Smooth0Type$ a smooth space and $n \in \mathbb{N}$, the **[[de Rham differential]]** on $n$-forms over $X$ is the [[function]]
@@ -2849,7 +2849,8 @@ $$
   S \colon [ I, X] \to \mathbb{R}
 $$
 
-variation is 
+its _[[variational calculus|variation]]_ is its de Rham differential, 
+by def. \ref{DeRhamDifferentialOverSmoothSpaces} 
 
 $$
   \mathbf{d}S \colon [I,X] \stackrel{S}{\to} \mathbb{R} \stackrel{\mathbf{d}}{\to} \Omega^1_{cl}
@@ -3466,16 +3467,92 @@ $$
 
 ### Layer Sem
 
-$$
-  \frac{\Pi(X) \to \mathbf{B}G}{X \to \flat \mathbf{B}G}
-$$
++-- {: .num_defn #FlatCohesiveConnection}
+###### Definition
+
+For $G \in Grp(\mathbf{H})$ and $X \in \mathbf{H}$ a **flat $G$-connection** $\nabla$ on $X$ is a morphism
 
 $$
-  ConstantPaths_{X} \colon X \to \Pi(X)
+  \nabla \colon X \to \flat \mathbf{B}G
+  \,.
 $$
+
+We write
+
+$$
+  \mathbf{H}_{flat}(X, \mathbf{B}G)
+  \coloneqq 
+  \mathbf{H}(X, \flat \mathbf{B}G)
+$$
+
+and accordingly
+
+$$
+  H^1_{flat}{X, G} \coloneqq \pi_0 \mathbf{H}_{flat}(X,G)
+$$
+
+for the [[cohomology]] of $X \in \mathbf{H}$ **with flat coefficients**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By adjunction,
+
+$$
+  \frac{X \stackrel{\nabla}{\to} \flat \mathbf{B}G}{\Pi(X) \stackrel{transport(\nabla)}{\to} \mathbf{B}G}
+$$
+
+a flat $G$-connection is equivalently a morphism 
+
+$$
+  transport(\nabla) \colon \Pi(X) \to \mathbf{B}G
+  \,.
+$$
+
+Since $\Pi(X)$ is the [[fundamtal infinity-groupoid]] of $X$, this manifestly encodes the [[higher parallel transport]] of the flat connection.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write
 
 $$
   UnderlyingBundle_{\mathbf{B}G} \colon \flat \mathbf{B}G \to \mathbf{B}G
+$$
+
+for the $(Disc \vdash \Gamma)$-[[unit of an adjunction|counit]]-
+
+=--
+
+
++-- {: .num_defn #UnderlyingBundleOfFlatConnection}
+###### Definition
+
+For $\nabla \colon X \to \flat \mathbf{B}G$ the [[composition|composite]]
+
+$$
+  UnderlyBundle(\nabla) 
+   \colon 
+  X 
+    \stackrel{\nabla}{\to} 
+  \flat\mathbf{B}G
+    \stackrel{UnderlyingBundle_{\mathbf{B}G}}{\to}
+  \mathbf{B}G
+$$
+
+modulates a $G$-[[principal ∞-bundle]] on $X$, by def. \ref{spring}. This we call the **underlying $G$-principal bundle** of $\nabla$.
+
+=--
+
+
+
+
+$$
+  ConstantPaths_{X} \colon X \to \Pi(X)
 $$
 
 ### Layer Syn
@@ -3493,11 +3570,17 @@ $$
 
 #### Lie-algebra valued differential 1-forms
 
-For $G$ a [[Lie group]]
++-- {: .num_defn #SheafOfLieAlgebraValuedForms}
+###### Definition
+
+Let $G$ be a [[Lie group]], and write $\mathfrak{g}$ for its [[Lie algebra]]. The set of [[Lie algebra valued differential 1-forms]] is the [[tensor product]]
 
 $$
   \Omega^1(U,\mathfrak{g}) = \Omega^1(U) \otimes_{\mathbb{R}} \mathfrak{g}
+  \,.
 $$
+
+flat forms:
 
 $$
   \Omega^1_{flat}(U, \mathfrak{g}) = 
@@ -3507,6 +3590,10 @@ $$
   \right\}
   \,.
 $$
+
+=--
+
+(...)
 
 This is a [[smooth space]]
 
@@ -3554,20 +3641,92 @@ $$
 
 ### Layer Sem
 
+#### De Rham coefficient objects
 
-For $G \in Gpr(\mathbf{H})$
++-- {: .num_defn #deRhamCoefficientObject}
+###### Definition
+
+
+For $G \in Gpr(\mathbf{H})$, its **de Rham coefficient object**
+is the [[homotopy pullback]]
+
+$$
+  \flat_{dR} \mathbf{B}G \coloneqq \flat \mathbf{B}G \times_{\mathbf{B}G} * 
+$$
+
+in
 
 $$
   \array{
-     \flat_{dR} \mathbf{B}G &\to& \flat \mathbf{B}G
+     \flat_{dR} \mathbf{B}G &\stackrel{UnderlyingConnection}{\to}& \flat \mathbf{B}G
      \\
-     \downarrow &pb& \downarrow
+     \downarrow &pb& \downarrow^{\mathrlap{UnderlyingBundle}}
      \\
      * &\to& \mathbf{B}G
   }
+  \,.
 $$
 
+=--
 
++-- {: .num_remark}
+###### Remark
+
+This pullback diagram expresses that [[generalized element|elements]] of $\flat_{dR}\mathbf{B}G$ are flat $G$-connections $\nabla \colon X \to \flat \mathbf{B}G$, def. \ref{FlatCohesiveConnection} equipped with a trivialization of their underlying $G$-principal bundle, def. \ref{UnderlyingBundleOfFlatConnection}.
+
+=--
+
+
+#### Recovering smooth differential forms from cohesive de Rham coefficients
+ {#OrdinaryDifferentialFormsFromSmoothCohesion}
+
+Let $\mathbf{H} = $ [[Smooth∞Grpd]]. All [[smooth manifolds]] and sheaves on smooth manifolds etc. in the following are canonically regarded as objects in this $\mathbf{H} = Sh_\infty(CartSp)$.
+
++-- {: .num_prop}
+###### Proposition
+
+For $G$ a [[Lie group]], the de Rham coefficient object $\flat_{dR}\mathbf{B}G$, def. \ref{deRhamCoefficientObject} of its [[delooping]] is given by the [[sheaf]] of flat [[Lie algebra valued differential 1-forms]] $\Omega^1_{flat}(-,\mathfrak{g})$, def. \ref{SheafOfLieAlgebraValuedForms}, for $\mathfrak{g}$ the [[Lie algebra]] of $G$:
+
+$$
+  \flat_{dR}\mathbf{B}G \simeq \Omega^1_{flat}(-,\mathfrak{g})
+  \,.
+$$
+
+=--
+
+This is disucssed at _[smooth ∞-groupoid - structures - de Rham coefficients for BG with G a Lie group](smooth+infinity-groupoid+--+structures#deRhamWithCoefficientsInBOfLieGroup)_.
+
+Write $U(1)$ for the [[circle group]] regared as a [[Lie group]] in the standard way.
+
++-- {: .num_prop}
+###### Proposition
+
+For $n \in \mathbb{N}$, the de Rham coefficient object $\flat_{dR}\mathbf{B}^n U(1)$, def. \ref{deRhamCoefficientObject}, of the $n$-fold [[delooping]] of $U(1)$ is given by the image under the [[Dold-Kan correspondence]] 
+
+$$
+  DK \colon : Sh(CartSp, Ch_\bullet) \to Sh(CartSp, sSet)
+  \to L_{lwhe} Sh(CartSp, sSet) \simeq \mathbf{H}
+$$ 
+
+of the truncated [[de Rham complex]] of sheaves of differential forms, 
+
+$$
+  \begin{aligned}
+   \flat_{dR}\mathbf{B}^n U(1)
+   &\simeq
+   \flat_{dR} \mathbf{B}^n \mathbb{R}
+   \\
+   & \simeq
+   DK[\Omega^1(-) \stackrel{\mathbf{d}}{\to} \cdots \stackrel{\mathbf{d}}{\to} \Omega^n_{cl}(-)]
+    \\ 
+   & \simeq DK[\Omega^1_{cl}(-) \to 0 \to  \cdots \to 0]
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+This is discussed at _[smooth ∞-groupoid - structures - de Rham coefficients for the circle n-groups](smooth+infinity-groupoid+--+structures#deRhamCoefficientsInBnU1)_.
 
 ### Layer Syn
 
@@ -3583,9 +3742,11 @@ $$
 $$
 
 ## **Maurer-Cartan forms**
+ {#MaurerCartanForms}
 
 
 ### Layer Mod
+ {#MaurerCartanLayerMod}
 
 #### Maurer-Cartan form on a Lie group
  {#MaurerCartanFormOnLieGroup}
@@ -3641,6 +3802,21 @@ This is the [[Maurer-Cartan form]] on $G$
 $$
   \theta \colon G \to \flat_{dR} \mathbf{B}G
 $$
+
+#### Maurer-Cartan forms on smooth $\infty$-groups
+
++-- {: .num_prop}
+###### Proposition
+
+For $G$ a [[Lie group]] canonically regarded  in $\mathbf{H} = $[[Smooth∞Grpd]] the general abstract morphism
+
+$$
+  \theta_G \colon G \to \flat_{dR}\mathbf{B}G
+$$
+
+is by prop. \ref{spring}.
+
+=--
 
 #### Universal curvature characteristic forms
 
