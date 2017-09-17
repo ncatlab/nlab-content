@@ -37,7 +37,7 @@ where
 
 1. $Succedent$ are symbols indicating [[judgements]] called the _[[succedents]]_ or (if it is just a single judgement) the _[[consequent]]_
 
-1. the **consequence sign** or **turnstile**-symbol "$\vdash$" expresses that $Jdgmt$ is a _consequence_ of $Ctxt$
+1. the **consequence sign** or **turnstile**-symbol "$\vdash$" expresses that $Succedent$ is a _consequence_ of $Antecedent$:
 
    " $Antecedent$ yields $Succedent$."
 
@@ -53,7 +53,7 @@ where
 
 Historically the "consequence" here was early on transmuted to "sequenz" ([Gentzen](#Gentzen)) and then later to "sequent". See the section _[History](#History)_ below.
 
-In systems of [[formal logic]] such as [[natural deduction]]/[[type theory]] such sequents express rules for explicit _symbol manipulation_ admitted in the system rather than formal implications _within_ the system, which instead are expressed by [[terms]] of [[function type]] $t : \phi \to \psi$. But the [[term introduction rule]] for terms of function types say that given one, one is allowed to get the other.
+In systems of [[formal logic]] such as [[natural deduction]]/[[type theory]] such sequents express rules for explicit _symbol manipulation_ admitted in the system rather than formal [[implications]] _within_ the system. The latter instead are expressed by [[terms]] of [[function type]] $t : \phi \to \psi$. But the [[term introduction rule]] for terms of function types say that given one, one is allowed to get the other.
 
 Typically one allows a list of expressions on both sides of the turnstile-symbols as in
 
@@ -67,13 +67,13 @@ $$
   \vec Antec \vdash \vec Succ
 $$
 
-in which case on the left a [[conjunction]] of the [[antecedents]] and on the right a [[disjunction]] is [[succedents]] is understood, as in
+in which case on the left a [[conjunction]] of the [[antecedents]] and on the right a [[disjunction]] of [[succedents]] is understood, as in
 
 "If $Antec_1$ and $Antec_2$... are given then one of $Succ_1, \cdots, Succ_l$ is a consequence".
 
 An **[[intuitionistic logic|intuitionistic]] sequent** has at most one succedent, which is then called the **[[consequent]]**.  Often "intuitionistic sequent" is used to mean one with *exactly* one succedent, although technically it would make more sense to call those [[minimal logic|minimal]] sequents.
 
-Another variant is that in some frameworks the [[antecedent]] and [[succedent]] displayed are required to be [[propositions]] and the [[context]] [[free variables]] are instead displayed beneath the turnstile as in 
+Another variant is that in some frameworks the [[antecedent]] and [[succedent]] displayed are required to be [[propositions]] and the [[free variables]] of the [[context]] are instead displayed beneath the turnstile as in 
 
 $$
   \vec \phi(x)\, true \vdash_{\vec x} \vec \psi(x) \, true
@@ -83,7 +83,7 @@ $$
 If the framework regards [[propositions as types]] then this is the same as writing
 
 $$
-  \vect x. \vec \phi(x) \vdash \vec \psi(x)
+  \vec x. \vec \phi(x) \vdash \vec \psi(x)
   \,.
 $$
 
