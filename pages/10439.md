@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Time_ is what passes along a [[time-like curve]].
+_Time_ is what passes along a [[time-like curve]]. The [[pseudo-Riemannian manifold|pseudo-Riemannian]] [[volume]] of a piece of such curve is the _proper time_.
 
 ## Related concepts
 
@@ -25,3 +25,8 @@ _Time_ is what passes along a [[time-like curve]].
 
 * [[mass]]
 
+## References
+
+* Wikipedia, _[Proper time](http://en.wikipedia.org/wiki/Proper_time)_
+
+[[!redirects proper time]]
