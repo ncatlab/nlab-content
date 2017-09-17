@@ -47,3 +47,5 @@ Mathematically, special relativity is essentially the theory of [[Minkowski spac
 
 
 [[!redirects special relativity theory]]
+
+[[!redirects theory of special relativity]]
