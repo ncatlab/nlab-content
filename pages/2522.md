@@ -124,13 +124,15 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
   * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
-* [[2d SCFT]]
+* [[SCFT]] 
 
-* [[spinning string]] [[superstring]]
+  * [[2d SCFT]]
 
-  * [[heterotic string]], [[type II superstring]]
+    * [[spinning string]] [[superstring]]
 
-  * [[(2,1)-dimensional Euclidean field theories and tmf]]
+    * [[heterotic string]], [[type II superstring]]
+
+    * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
 
 ## History
