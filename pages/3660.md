@@ -25,6 +25,8 @@ Finally, a direct category can also be thought of as a [[categorification]] of t
 
 ## Definition
 
+### Standard definition
+
 A category $D$ is a **direct category** if the following *equivalent* conditions are satisfied.
 
 * $D$ contains no infinite descending chains of nonidentity morphisms $\cdots \to\cdot \to\cdot\to\cdot$ (including cycles of length $\gt 0$).
@@ -35,6 +37,7 @@ A category $D$ is a **direct category** if the following *equivalent* conditions
 In particular, a [[poset]] is a direct category just when its strict order relation $\lt$ is well-founded.  Thus, direct categories can be seen as a categorification of well-founded relations.
 
 If $D^{op}$ is a direct category, then we say that $D$ is an **inverse category**.
+
 
 ### Direct versus one-way categories
 
@@ -56,11 +59,7 @@ An infinite category can be one-way and skeletal without being direct or inverse
 
 However, a category can be inverse without having finite fan-out.  Let $S$ be an infinite set and consider the poset $S \cup \{\infty\}$, with $S$ having the discrete ordering (no nonidentity arrows) and $\infty$ being less than every element of $S$.  This does not have finite fan-out, since $\infty$ is the source of infinitely many distinct arrows, but it is inverse, since there are clearly no chains of nonidentity arrows of length $\gt 1$.
 
-## Model structures
-
-Every direct category (and every inverse category) is in particular a [[Reedy category]], in fact an _[[elegant Reedy category]]_. Therefore whenever $M$ is a [[model category]] there is a [[Reedy model structure]] on $M^D$.  In the case of direct and inverse categories, these model structures are even easier to describe, since either the latching or the matching objects are degenerate.
-
-## Allowing automorphisms
+### Allowing automorphisms
 
 Some categories of geometric shapes, such as the [[tree category]] $\Omega$ and the [[cycle category]] $\Lambda$, include automorphisms of their objects.  By analogy with the notion of [[generalized Reedy category]], we can define $D$ to be a **generalized direct category** by replacing "identity" with "isomorphism" in the above definition.  Thereby we obtain the following equivalent conditions for $D$ to be a generalized direct category.
 
@@ -73,7 +72,19 @@ Of course, $\Omega$ and $\Lambda$ are not generalized direct categories themselv
 
 * If $R$ is any generalized Reedy category, then $R_+$ is a generalized direct category.
 
+## Properties
+
+### Model structures
+
+Every direct category (and every inverse category) is in particular a [[Reedy category]], in fact an _[[elegant Reedy category]]_. Therefore whenever $M$ is a [[model category]] there is a [[Reedy model structure]] on $M^D$.  In the case of direct and inverse categories, these model structures are even easier to describe, since either the latching or the matching objects are degenerate.
+
+
+
 ## Examples
+
+### Inside the simplex category
+
+The [[wide subcategory]] $\Delta_+$ of the [[simplex category]] on the injective map (the co-face maps) is direct. Its [[presheaves]] are [[semi-simplicial objects]]/[[semi-simplicial sets]] as opposed to [[simplicial objects]]/[[simplicial sets]].
 
 ### The direct category of corollas
 
@@ -108,6 +119,8 @@ This subcategory of $Corolla$ is usually *not* full, however.  In particular, fo
 ## Related concepts
 
 * [[test category]]
+
+* [[filtered category]], [[sifted category]]
 
 ## References
 
