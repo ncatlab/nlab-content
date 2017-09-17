@@ -5,26 +5,26 @@
 
 ## Idea
 
-The property that **$n$-types cover** is a property of a [[higher category theory|higher category]], or an axiom in its corresponding [[internal logic]], which says roughly that every object is [[cover|covered]] by one that is [[truncated object|truncated]] at some level.
+The property that **$n$-types cover** is a property of a [[higher category theory|higher category]], or an [[axiom]] in its corresponding [[internal logic]], which says roughly that every [[object]] is [[cover|covered]] by one that is [[truncated object|truncated]] at some level.
 
 ## In a higher category
 
-A higher category is said to satisfy the (external) property that **$n$-types cover**, or to have **enough $n$-types**, if for every object $X$ there exists an $n$-[[truncated object]] $Y$ and an [[effective epimorphism|effective epimorphism in an (∞,1)-category]] $Y\to X$.  When $n=0$ one also says that **sets cover** or that there are **enough sets**.
+A [[n-category|higher category]] is said to satisfy the (external) property that **$n$-types cover**, or to have **enough $n$-types**, if for every [[object]] $X$ there exists an $n$-[[truncated object]] $Y$ and an [[effective epimorphism|effective epimorphism in an (∞,1)-category]] $Y\to X$.  When $n=0$ one also says that **[[h-set|sets]] cover** or that there are **enough sets**.
 
-Usually the category in question is some sort of [[topos]] or [[higher topos]], or at least a [[pretopos]] of an appropriate sort.  In this case, the property that $n$-types cover means that the subcategory of $n$-truncated objects is "generating" in an appropriate sense.
+Usually the category in question is some sort of [[topos]] or [[higher topos]], or at least a [[pretopos]] of an appropriate sort.  In this case, the property that $n$-types cover means that the [[subcategory]] of $n$-[[truncated objects]] is "generating" in an appropriate sense.
 
-When $n=-1$, however, having enough $n$-types in this sense is not really a useful notion, because $(-1)$-truncated objects ([[subterminal objects]]) are not closed under coproducts.  In this case a better condition is that all maps out of subterminal objects are jointly effective epimorphic.
+When $n=-1$, however, having enough $n$-types in this sense is not really a useful notion, because $(-1)$-truncated objects ([[subterminal objects]]) are not closed under [[coproducts]].  In this case a better condition is that all maps out of subterminal objects are jointly [[effective epimorphism|effective epimorphic]].
 
 ### Examples
 
-If $n\gt 0$, then any [[n-localic (∞,1)-topos]] has enough $(n-1)$-types, since every object is surjected onto by a coproduct of representables which are $n$-truncated.  The converse seems plausible as well.
+If $n\gt 0$, then any [[n-localic (∞,1)-topos]] has enough $(n-1)$-types, since every object is surjected onto by a coproduct of [[representable functor|representables]] which are $n$-truncated.  The converse seems plausible as well.
 
-A specific example of a higher topos in which sets do not cover is the slice $(\infty,1)$-topos $\infty Gpd / \mathbf{B}^2 \mathbb{Z}$, which is equivalently the topos of actions of the $\infty$-group $\mathbf{B} \mathbb{Z}$.  From this second perspective, a 1-truncated object of this topos is a groupoid together with an automorphism of its identity functor, i.e. an element of its [[center]], and a morphism of such is a functor that respects these central elements.  Such an object is 0-truncated if it is essentially discrete, in which case its center is also trivial; thus the 0-truncated objects are just ordinary sets.  However, since functors must respect the central elements, there can be no surjective map from a 0-truncated object to a 1-truncated one whose chosen central element is nontrivial.
+A specific example of a higher topos in which sets do not cover is the [[slice (∞,1)-topos]] $\infty Gpd / \mathbf{B}^2 \mathbb{Z}$ of [[∞Grpd]] over the double [[delooping]]/[[suspension]] of the group of [[integers]], which is equivalently the topos of [[∞-actions]] of the [[∞-group]] ([[2-group]]) $\mathbf{B} \mathbb{Z}$.  From this second perspective, a 1-truncated object of this topos is a [[groupoid]] (1-groupoid) together with an [[automorphism]] of its [[identity]] [[functor]], i.e. an element of its [[center]], and a morphism of such is a functor that respects these central elements.  Such an object is 0-truncated if it is essentially discrete, in which case its center is also trivial; thus the 0-truncated objects are just ordinary sets.  However, since functors must respect the central elements, there can be no surjective map from a 0-truncated object to a 1-truncated one whose chosen central element is nontrivial.
 
 
 ## In homotopy type theory
 
-In [[homotopy type theory]], the (internal) axiom of **$n$-types cover** or **enough $n$-types** says that for any type $X$ there [[merely]] exists an $n$-type $Y$ and a surjection (i.e. a $(-1)$-connected map) $Y\to X$.  In symbols:
+In [[homotopy type theory]], the (internal) axiom of **$n$-types cover** or **enough $n$-types** says that for any type $X$ there [[merely]] exists an $n$-type $Y$ and a surjection (i.e. a [[n-epimorphism|(-1)-connected map]]) $Y\to X$.  In symbols:
 
 $$ \prod_{(X:Type)} {\Vert \sum_{(Y:n Type)} \sum_{(f:Y\to X)} surj(f) \Vert }$$
 
@@ -33,7 +33,7 @@ where $\Vert-\Vert$ denotes the $(-1)$-truncation.
 
 ### In models
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 If an $(\infty,1)$-topos satisfies the external property that $n$-types cover, then its internal type theory satisfies the internal axiom that $n$-types cover.
 =--
@@ -57,7 +57,7 @@ The internal axiom that sets cover is related to some forms of the [[axiom of ch
 
 Then we have
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 $AC_\infty \Leftrightarrow (AC_0$ and sets cover).
 =--
@@ -67,6 +67,12 @@ This is a theorem inside homotopy type theory, and likewise for its proof.  Clea
 
 Conversely, suppose $AC_0$ and sets cover, and let $X\to Z$ be a surjection with codomain a set.  Then there merely exists a set $Y$ and a surjection $Y\to X$, and the composite surjection $Y\to X\to Z$ merely has a section by $AC_0$.  The composite of this section with $Y\to X$ is a section of $X\to Z$.
 =--
+
+## Related concepts
+
+* [[cover]]
+
+* [[atlas]]
 
 category: foundational axiom
 
