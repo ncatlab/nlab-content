@@ -113,13 +113,59 @@ The $n$th stage of the Whitehead tower of $X$ is also the cofibrant replacement 
 
 ### Whitehead tower of the orthogonal group 
 
-The Whitehead tower of the [[orthogonal group]] $O(n)$ starts out as
+The Whitehead tower of the [[classifying space]]/[[delooping]] of the [[orthogonal group]] $O(n)$ starts out as
 
 $$
-   \cdots \to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to O(n)
+  \array{
+    & Whitehead tower
+    \\
+    &\vdots
+    \\
+    & B Fivebrane &\to& \cdots &\to& *
+    \\
+    & \downarrow && && \downarrow
+    \\
+    second frac Pontr. class & B String &\to& \cdots &\stackrel{\tfrac{1}{6}p_2}{\to}&  B^8 \mathbb{Z}
+    &\to& * 
+    \\
+    & \downarrow && && \downarrow && \downarrow
+    \\
+    first frac Pontr. class & B Spin && && &\stackrel{\tfrac{1}{2}p_1}{\to}& B^4 \mathbb{Z} &\to & * 
+    \\
+    & \downarrow && && \downarrow && \downarrow && \downarrow
+    \\
+    second SW class & B S O 
+    &\to&
+    \cdots
+    &\to&
+    &\to&
+    & \stackrel{w_2}{\to} &
+    \mathbf{B}^2 \mathbb{Z}_2
+    &\to&
+    *
+    \\
+    & \downarrow && && \downarrow && \downarrow &&  \downarrow && \downarrow
+    \\
+    first SW class & B O 
+    &\to&
+    \cdots
+    &\to&
+    \tau_{\leq 8 } B O
+    &\to&
+    \tau_{\leq 4 } B O
+    &\to&
+    \tau_{\leq 2 } B O
+    &\stackrel{w_1}{\to}&
+    \tau_{\leq 1 } B O
+    \simeq
+    B \mathbb{Z}_2
+    &
+    Postnikov  tower
+  }
 $$
 
-where the terms are
+
+where the stages are the deloopings of
 
 ...
 $\to$
@@ -132,6 +178,51 @@ $\to$
 [[special orthogonal group]]
 $\to$
 [[orthogonal group]]
+
+and where the obstruction classes are the [[universal characteristic classes]]
+
+* [[first Stiefel-Whitney class]] $w_1$
+
+* [[second Stiefel-Whitney class]] $w_2$
+
+* [[Pontryagin class|first fractional Pontryagin class]] $\tfrac{1}{2}p_1$
+
+* [[Pontryagin class|second fractional Pontryagin class]] $\tfrac{1}{6}p_2$
+
+In summary, more concisely, the tower is
+
+$$
+  \array{
+    \vdots
+    \\
+    \downarrow
+    \\
+    B Fivebrane
+    \\
+    \downarrow
+    \\
+    B String &\stackrel{\tfrac{1}{6}p_2}{\to}& B^7 U(1) & \simeq B^8 \mathbb{Z}
+    \\
+    \downarrow
+    \\
+    B Spin &\stackrel{\tfrac{1}{2}p_1}{\to}& B^3 U(1) & \simeq B^4 \mathbb{Z}
+    \\
+    \downarrow
+    \\
+    B SO &\stackrel{w_2}{\to}& B^2 \mathbb{Z}_2
+    \\
+    \downarrow
+    \\
+    B O &\stackrel{w_1}{\to}& B \mathbb{Z}_2
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    B GL
+  }
+  \,,
+$$
+
+where each "hook" is a [[fiber sequence]].
 
 ## Whitehead tower in general $(\infty,1)$-toposes
 
