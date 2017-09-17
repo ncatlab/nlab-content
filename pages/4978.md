@@ -18,4 +18,4 @@
 
 The [[(n,1)-category|(n+1,1)-category]] **$n Grpd$** is the collection of all [[n-groupoid]]s. It is the full [[sub-(∞,1)-category]] on the $n$-[[truncated]] objects in [[∞Grpd]].
 
-category: categories
+category: category
