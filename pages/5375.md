@@ -29,16 +29,18 @@ Grothendieck also conjectured the existence of higher-dimensional anabelian vari
 
 ##Related entries
 
-* [[child's drawing]]/ Dessins d'enfant.  
-
-* [[profinite completion]]
-
 * [[algebraic fundamental group]] also called the 'geometric fundamental 
 group' by Grothendieck.
 
+* [[child's drawing]]/ Dessins d'enfant.  
+
 * [[inter-universal Teichmüller theory]]
 
-* [[Grothendieck-Teichmüller group]]. 
+* [[profinite completion]]
+
+* [[Grothendieck-Teichmüller group]]
+
+* [[section conjecture]]
 
 
 ##References
