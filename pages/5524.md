@@ -103,7 +103,6 @@ $$
  ( i_! \dashv i^* \dashv i_* \dashv i^! )
   :
   Smooth \infty Grpd
-  :
   \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
   SynthDiff \infty Grpd
   \,,
