@@ -242,7 +242,7 @@ Choose moreover a [[metaplectic correction]] of $\mathcal{P}$. This defines the 
 
 Let now $(L,\nabla)$ be a [[prequantum line bundle]] for $(X,\omega)$.
 
-+-- {: .num_defn }
++-- {: .num_defn #PolarizedQuantumStates}
 ###### Definition
 
 The [[space of quantum states]] of the prequantum bundle defined by the choice of [[Kähler polarization]] $\mathcal{P}$ and [[metaplectic correction]] $\sqrt{\Omega \mathcal{P}}$ is the space of [[sections]] of the [[tensor product]] $L \otimes \sqrt{\Omega \mathcal{P}}$ which are [[covariant derivative]] covariantly constant with respect to $\nabla$ along $\overline{\mathcal{P}}$ and square integrable with respect to the induced [[integration]] over $X/\overline{\mathcal{P}}$:
@@ -270,7 +270,47 @@ For instance ([Bates-Weinstein, def. 7.17](#BatesWeinstein)).
 #### Quantum state space as Euler characteristic of prequantum sheaf cohomology
  {#EulerCharacteristicOfSheafCohomology}
 
-(...)
+Let $(X,\omega)$ be a _[[compact topological space]]_ [[symplectic manifold]], $L_\omega$ a [[prequantum line bundle]], $\mathcal{P}$ a [[Kähler polarization]] and $\sqrt{\Omega^{0,n}}$ a [[metaplectic correction]].
+
++-- {: .num_defn #EulerQuantumStates}
+###### Definition
+
+The coresponding Euler quantum Hilbert space  is the [[virtual vector space]]
+
+$$
+  \mathcal{H}_{Euler}
+  \coloneqq
+  \oplus_{k = 0}^{n} (-1)^k \, H^{0,k}(X,L_\omega \otimes \sqrt{\Omega^{0,n}})
+  \,,
+$$
+
+which is the alternating [[direct sum]] of the [[Dolbault cohomology]] space of $X$ with [[coefficients]] in the [[holomorphic line bundle]] $L_\omega \otimes \sqrt{\Omega^{0,n}}$. 
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The [[Kodaira vanishing theorem]] asserts that if $L_\omega \sqrt{\Omega^{0,n}}^{-1}$ is [[positive line bundle]] 
+then all the higher [[cohomology groups]] in the above expression vanish. Therefore in this case the definition coincides with that vai polarizations in def. \ref{PolarizedQuantumStates} above.
+
+$$
+  \left(
+    L_\omega \otimes \sqrt{\Omega^{0,n}}^{-1}
+    \;
+    positive
+  \right)
+  \Rightarrow
+  \left(
+    \mathcal{H}_{pol} \simeq \mathcal{H}_{Euler}
+  \right)
+  \,.
+$$
+
+=--
+
+
 
 #### Quantum state space as index of Dolbeault-Dirac operator
  {#IndexOfDolbeaultDiracOperator}
