@@ -29,6 +29,12 @@ $$
 
 $Tens^\otimes_{[k]}$
 
+| [[Lie groups]] | [[Heisenberg group]] | $\hookrightarrow$ | [[quantomorphism group]] | $\hookrightarrow$ |   | $\hookrightarrow$  | [[gauge group]]  | 
+|--|--|--|--|--|--|--|--|
+| [[Lie algebras]] | [[Heisenberg Lie algebra]] | $\hookrightarrow$ | [[Poisson Lie algebra]] | $\hookrightarrow$ |  | $\hookrightarrow$ |  twisted [[vector fields]] |
+
+
+
 $\underset{Tens^\otimes_{\{1\}}}{\coprod}$
 
 $$
