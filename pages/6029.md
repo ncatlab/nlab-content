@@ -10,7 +10,7 @@
 =--
 
 
-* [[relativistic particle]], [[spinning particle]], [[super particle]]
+* [[relativistic particle]], [[spinning particle]], [[superparticle]]
 
 * [[fundamental particle]]
 
