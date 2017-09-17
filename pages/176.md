@@ -22,7 +22,7 @@
 
 Recall that a [[TQFT]] is an [[FQFT]] defined on the $(\infty,n)$-[[(infinity,n)-category of cobordisms|category of cobordisms]] whose morphisms are plain cobordisms and diffeomorphisms between these.
 
-In a _conformal_ quantum field theory the cobordisms are equipped with a [[conformal structure]] (a [[Riemannian metric]] structure modulo pointwise rescaling).
+In a _conformal_ quantum field theory the cobordisms are equipped with a [[conformal structure]] (a [[Riemannian metric]] structure modulo pointwise rescaling): _[[conformal cobordisms]]_.
 
 A conformal field theory (CFT) is accordingly a functor on such a richer category of conformal [[cobordism]]s.
 
@@ -504,3 +504,6 @@ _ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foun
 
 [[!redirects 2-dimensional conformal field theory]]
 [[!redirects 2-dimensional conformal field theories]]
+
+[[!redirects 2d conformal field theory]]
+[[!redirects 2d conformal field theories]]
