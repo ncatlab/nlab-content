@@ -35,6 +35,9 @@ In [[differential geometry]] these appear as [[moduli spaces]] of [[flat infinit
 
 Let $\Sigma$ be a [[projective variety|projective]] [[smooth variety|smooth]] [[complex variety]] (see at _[[GAGA]]_). 
 
++-- {: .num_defn #PlainIJacobian}
+###### Definition
+
 For $k \in \mathbb{N}$ the _$k$th intermediate Jacobian_ of $\Sigma$ is, as a [[real manifold]], the [[quotient]]
 
 $$
@@ -45,48 +48,140 @@ $$
 
 of the [[ordinary cohomology|ordinary]] [[cohomology groups]] of $X$ with [[coefficients]] in the [[abelian groups]] of [[real numbers]] and of [[integers]], respectively, induced by the canonical inclusion $\mathbb{Z} \hookrightarrow \mathbb{R}$.
 
+=--
+
 Here $H^{2k+1}(\Sigma,\mathbb{R})$ is naturally a [[vector space]] over the [[real numbers]] and this is what induces the [[smooth manifold]]-structure on the quotient. 
 
 For eventually equipping this with the structure of a [[complex manifold]] one realizes this as the quotient of the [[complex vector space]] of cohomology with complex coefficients as follows:
 
-Notice that a real [[differential form]] 
++-- {: .num_remark}
+###### Remark
+
+A real [[differential form]] 
 
 $$
   \alpha \in \Omega^{2k+1}_{\mathbb{R}}(\Sigma)
 $$
 
-is, by the [[Hodge theorem]], a sum of complex differential forms in homogeneous [[Dolbeault complex|Dolbeaut bidegree]] of the kind
+is, by the [[Hodge theorem]], a sum of complex differential forms in homogeneous [[Dolbeault complex|Dolbeaut bidegree]] of the form
 
 $$
-  \alpha = \alpha^{2k+1,0}+ \alpha^{2k,1} + \cdots + \overline{\alpha^{1,2k}} + \overline{\alpha^{0,2k+1}}
-  \,.
+  \alpha 
+    = 
+   \alpha^{2k+1,0}+ \alpha^{2k,1} 
+     + 
+     \cdots 
+      + 
+     \alpha^{k+1,k}
+      +
+     \overline{\alpha^{k+1,k}} 
+     + 
+     \cdots
+     +
+     \overline{\alpha^{2k,1}} + \overline{\alpha^{2k+1,1}}
+  \,,
 $$
 
-It follows with the [[de Rham theorem]] that there is a canonical [[isomorphism]] of real vector spaces
+where
 
 $$
-  H^{2k+1}(\Sigma, \mathbb{R}) \simeq H^{2k+1}(\Sigma,\mathbb{C})/(F^{k+1} H^{2k+1}(\Sigma))
+  \overline{(-)} \colon \Omega^{p,q}(\Sigma)\longrightarrow \Omega^{q,p}(\Sigma)
+$$
+
+is the [[antilinear function]] on complex differential forms given by [[complex conjugation]].
+
+=--
+
+It follows with the [[de Rham theorem]] that:
+
++-- {: .num_prop #AsQuotientByHodgeFiltering}
+###### Proposition
+
+There is a canonical [[isomorphism]] of real vector spaces
+
+$$
+  H^{2k+1}(\Sigma, \mathbb{R}) 
+   \simeq 
+  H^{2k+1}(\Sigma,\mathbb{C})/(F^{k+1} H^{2k+1}(\Sigma,\mathbb{C}))
  \,,
 $$
 
 where 
 
 $$
-  F^{k+1} H^{2k+1}(\Sigma) \coloneqq \underset{p \geq k}{\oplus} H^{p,2k+1-p}(\Sigma)
+  F^{k+1} H^{2k+1}(\Sigma,\mathbb{C}) \coloneqq \underset{p \geq k+1}{\oplus} H^{p,2k+1-p}(\Sigma)
 $$
 
-is the $k$th stage in the [[Hodge filtration]] of $H^{2k+1}(\Sigma,\mathbb{C})$. 
+is the $(k+1)$st stage in the [[Hodge filtration]] of $H^{2k+1}(\Sigma,\mathbb{C})$. 
 
-Hence an equivalent way to write the intermediate Jacobian (still asa realmanifold) as the quotient of the real manfifold underlying a complex vector space is
+=--
+
+Hence an equivalent way to write the intermediate Jacobian (still as a realmanifold) as the quotient of the real manifold underlying a complex vector space is the following:
+
++-- {: .num_prop}
+###### Proposition
+
+The intermediate Jacobian of def. \ref{PlainIJacobian} is equivalently
 
 $$
   J^{k+1}(\Sigma)
    \simeq 
-   H^{2k+1}(\Sigma,\mathbb{C})/(F^{k+1} H^{2k+1}(\Sigma) \oplus H^{2k+1}(\Sigma,\mathbb{Z}))
+   H^{2k+1}(\Sigma,\mathbb{C})
+   /
+  (F^{k+1} H^{2k+1}(\Sigma, \mathbb{C}) \oplus H^{2k+1}(\Sigma,\mathbb{Z}))
   \,.
 $$
 
-There are two canonical way to equip $H^{2k+1}(\Sigma,\mathbb{C})$, and hence the above quotient, with the structure of a [[complex manifold]]. Sometimes these agree, but in general they do not, and hence they go by different names,the 
+=--
+
+Yet one more reformulation is useful when properly working in [[complex analytic geometry]]/[[GAGA]]:
+
++-- {: .num_defn #ModuliOfHolomorphickConnections}
+###### Definition
+
+Write $(\mathbf{B}^k \mathbb{G}_a)_{conn}$ for the chain complex of sheaves on the complex analytic site which assigns the truncated [[de Rham complex]] of [[holomorphic differential forms]]
+
+$$
+  (\mathbf{B}^k \mathbb{G}_a)_{conn}
+  \coloneqq
+  \left(
+    \mathcal{O}
+     \stackrel{\partial }{\to}
+    \Omega^{1}
+      \stackrel{\partial}{\to}
+      \cdots
+      \stackrel{\partial}{\to}
+    \Omega^{k}
+  \right)
+$$
+
+regarded as sitting in degrees $k$ to 0.
+
+=--
+
+e.g. ([Esnault-Viehweg 88, top of p. 14](#EsnaultViehweg88))
+
++-- {: .num_prop #ReplacingHodgeFiltrationQuotientByHolomorphicConnections}
+###### Proposition
+
+The quotient in prop. \ref{AsQuotientByHodgeFiltering}
+is equivalently the [[abelian sheaf cohomology|abelian sheaf]] 
+[[hypercohomology]] with [[coefficients]]
+in $\mathbf{B}^{2k}\mathbb{G}_a$ of def. \ref{ModuliOfHolomorphickConnections}:
+
+$$
+  H^{2k+1}(\Sigma,\mathbb{C})/F^{k+1} H^{2k+1}(\Sigma, \mathbb{C})
+  \simeq
+  [\Sigma, \mathbf{B}^k(\mathbf{B}^k \mathbb{G}_a)_conn) ]
+  \,.
+$$
+
+=--
+
+e.g. ([Esnault-Viehweg 88, 2.5 b)](#EsnaultViehweg88)).
+
+
+There are two canonical ways to equip $H^{2k+1}(\Sigma,\mathbb{C})$, and hence the above quotient, with the structure of a [[complex manifold]]. Sometimes these agree, but in general they do not, and hence they go by different names,the 
 
 * [Griffith intermediate Jacobian](#GriffithIntermediateJacobian)
 
