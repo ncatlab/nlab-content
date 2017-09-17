@@ -28,6 +28,8 @@ Basic facts about smooth functions are
 
 * the [[Hadamard lemma]]
 
+* [[Borel's theorem]]
+
 * the [[Tietze extension theorem]]
 
 * the [[Steenrod-Wockel approximation theorem]]
