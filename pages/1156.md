@@ -10,6 +10,13 @@
 =--
 =--
 
+* [[sheaf]]
+
+* [[2-sheaf]] / [[stack]]
+
+* **$(\infty,1)$-sheaf** / [[∞-stack]]
+
+***
 
 #Contents#
 * automatic table of contents goes here
