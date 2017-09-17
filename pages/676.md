@@ -173,6 +173,7 @@
       * [[field strength]]
       * [[gauge fixing]]
       * examples
+
         * [[electromagnetic field]]
           * [[electric charge]]
           * [[magnetic charge]]
