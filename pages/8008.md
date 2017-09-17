@@ -1,3 +1,4 @@
+[[!redirects C-star algebraic deformation quantization]]
 
 
 +-- {: .rightHandSide}
