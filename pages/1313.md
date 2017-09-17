@@ -86,7 +86,7 @@ When the natural numbers are embedding into larger [[rig]]s or [[ring]]s, the op
 
 * In [[Top]] (the category of _all_ topological spaces), the exponentiable spaces are precisely the [[core-compact spaces]].  In particular, this includes [[locally compact Hausdorff space]]s.  However, most [[nice category of spaces|nice categories of spaces]] are cartesian closed, so that all objects are exponentiable; note that usually the cartesian product in such categories has a slightly different topology than it does in $Top$.
 
-* There are similar characterizations of exponentiable [[locale]]s and [[topos]]es.
+* There are similar characterizations of exponentiable [[locales]] (see [[locally compact locale]] and [[continuous poset]] and (in the 2-categorical sense) [[toposes]] (see [[metastably locally compact locale]] and [[continuous category]]).
 
 * In [[algebraic set theory]] one often assumes that only small objects (and morphisms) are exponentiable.  This is  analogous to how in material [[set theory] one can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.
 
