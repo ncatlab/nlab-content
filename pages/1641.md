@@ -41,7 +41,7 @@ The dual concept could be called a _cotopological category_.  However, this is n
 
 Both of these results (faithfulness and self-duality) depend on the fact that we have allowed the family $\{S_i\}$ to be potentially *large*.  Counterexamples are easy to find.  For instance, if $C$ is a large category with all (small) products, then the functor $C \to 1$ to the [[terminal category]] satisfies the above lifting property for small families $\{S_i\}$.  However, it need not satisfy the dual property (unless $C$ also has all small coproducts) nor need it be faithful.
 
-It also follows that $U$ is a [[Grothendieck fibration|fibration]] and opfibration, in the weakened bicategorical sense of Street.  One also often assumes in the definition $U(T) = X$ and that $g$ is the [[identity morphism]], which in particular makes $U$ into a fibration in the original sense of Grothendieck.  This is a bit [[evil]], but it is convenient and satisfied in almost all examples, and any example not satisfying it is equivalent to one which does (via fibrant replacement by an [[isofibration]]).
+It also follows that $U$ is a [[Street fibration|fibration]] and opfibration, in the weakened bicategorical sense of Street.  One also often assumes in the definition $U(T) = X$ and that $g$ is the [[identity morphism]], which in particular makes $U$ into a fibration in the original sense of Grothendieck.  This is a bit [[evil]], but it is convenient and satisfied in almost all examples, and any example not satisfying it is equivalent to one which does (via fibrant replacement by an [[isofibration]]).
 
 
 ## Examples
@@ -71,9 +71,13 @@ It also follows that $U$ is a [[Grothendieck fibration|fibration]] and opfibrati
 
 *  If $D$ is [[complete category|complete]] or [[cocomplete category|cocomplete]], then so is $C$.
 
+* If $D$ is [[total category|total]] or cototal, then so is $C$; see [[solid functor]].
+
 * If $D$ is [[mono-complete category|mono-complete]] or epi-cocomplete, then so is $C$.
 
 *  If $D$ is [[well-powered category|well-powered]] or co-well-powered, then so is $C$.
+
+* If $D$ has a [[factorization structure for sinks]] $(E,M)$, then $C$ has one $(E',M')$, where $M'$ is the collection of morphisms in $C$ lying over $M$-morphisms in $D$, and $E'$ the collection of *final* sinks in $C$ lying over $E$-sinks in $D$.  This generalizes the lifting of [[orthogonal factorization systems]] along [[Grothendieck fibrations]].
 
 *  If $D$ is [[concrete category|concrete]], then so is $C$.  More generally, if $D$ has a [[generator]], then $C$ is concrete over $D$.
 
