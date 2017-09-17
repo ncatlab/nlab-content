@@ -16,7 +16,7 @@
 
 ## Idea
 
-_Diaconescu's theorem_ asserts that any [[presheaf topos]] is the [[classifying topos]] for [[flat functor]]s on its [[site]].
+_Diaconescu's theorem_ asserts that any [[presheaf topos]] is the [[classifying topos]] for [[internally flat functor]]s on its [[site]].
 
 Often a special case of this is considered, which assrts that for every [[topological space]] $X$ and [[discrete group]] $G$ there is an [[equivalence of categories]]
  
@@ -43,7 +43,7 @@ $$
   FlatFunc(C, \mathcal{E}) \hookrightarrow [C, \mathcal{E}]
 $$
 
-for the [[full subcategory]] of the [[functor category]] on the [[flat functor]].
+for the [[full subcategory]] of the [[functor category]] on the [[internally flat functor]].
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -57,7 +57,7 @@ $$
   FlatFunc(C, \mathcal{E})
 $$
 
-between the category of [[geometric morphism]]s $f : \mathcal{E} \to PSh(C)$ and the category of [[flat functor]]s $C \to \mathcal{E}$.
+between the category of [[geometric morphism]]s $f : \mathcal{E} \to PSh(C)$ and the category of [[internally flat functor]]s $C \to \mathcal{E}$.
 
 This equivalence takes $f$ to the composite
 
@@ -75,7 +75,7 @@ See for instance ([Johnstone, theorem B3.2.7](#Johnstone)).
 +-- {: .num_remark}
 ###### Remark
 
-If $C$ is a [[finitely complete category]] we may think of it as the [[syntactic category]] and in fact the [[syntactic site]] of an [[essentially algebraic theory]] $\mathbb{T}_C$.  A [[flat functor]] $C \to \mathcal{E}$ is then precisely a [[finite limit]] preserving functor, hence is precisely a $\mathbb{T}$-[[model]] in $\mathcal{E}$. 
+If $C$ is a [[finitely complete category]] we may think of it as the [[syntactic category]] and in fact the [[syntactic site]] of an [[essentially algebraic theory]] $\mathbb{T}_C$.  An [[internally flat functor]] $C \to \mathcal{E}$ is then precisely a [[finite limit]] preserving functor, hence is precisely a $\mathbb{T}$-[[model]] in $\mathcal{E}$. 
 
 Therefore the above theorem says in this case that there is an [[equivalence of categories]]
 
@@ -96,9 +96,9 @@ This says that $PSh(C)$ is the [[classifying topos]] for $\mathbb{T}_C$.
 
 If $G$ is a [[discrete group]] and $C = \mathbf{B}G$ is its [[delooping]] [[groupoid]], $PSh(C) \simeq [\mathbf{B}G, Set]$ is the category of [[permutation representation]]s of $G$, also called the [[classifying topos]] of $G$.
 
-In this case a flat functor $ C = \mathbf{B}G \to \mathcal{E}$ may be identified with a $G$-[[torsor]] object in $\mathcal{E}$. 
+In this case an internally flat functor $ C = \mathbf{B}G \to \mathcal{E}$ may be identified with a $G$-[[torsor]] object in $\mathcal{E}$. 
 
-For this reason one sees in the literature sometimes the term "torsor" for flat functors out of any category $C$. It is however not so clear in which sense this terminology is helpful in cases where $C$ is not a delooping groupoid or at least _some_ groupoid.
+For this reason one sees in the literature sometimes the term "torsor" for internally flat functors out of any category $C$. It is however not so clear in which sense this terminology is helpful in cases where $C$ is not a delooping groupoid or at least _some_ groupoid.
 
 =--
 
