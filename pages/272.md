@@ -73,6 +73,10 @@ Sheaves are used explicitly in:
 
 * [[spin-statistics theorem]]
 
+## Properties
+
+Generically the algebra of a relativistic AQFT turns out to be a ([[generalized the|the]]) hypefinite type $III_1$ [[von Neumann algebra factor]]. See ([Yngvason](#Yngvason))
+
 
 ## Related concepts
 
@@ -175,6 +179,10 @@ A relation to [[FQFT]] is discussed in
 
 * [[Urs Schreiber]], _AQFT from $n$-functorial QFT_ , Comm. Math. Phys., Volume 291, Issue 2, pp.357-401 ([pdf](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf))
 
+The role of [[von Neumann algebra factor]]s is discussed in
+
+* J. Yngvason, _The role of type III factors in quantum field theory_ ([arXiv:math-ph/0411058](http://arxiv.org/abs/math-ph/0411058))
+ {#Yngvason}
 
 [[!redirects algebraic quantum field theory]]
 [[!redirects algebraic quantum field theories]]
