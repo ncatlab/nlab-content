@@ -5,11 +5,27 @@
 
 ## Idea
 
-A **function** is a [[homomorphism]] of [[set]]s. Functions are the [[morphism]]s in the [[category]] [[Set]].
+A **function** is a [[homomorphism]] of [[set]]s.  A function from a set $A$ to a set $B$ is determined by giving, for each element of $A$, a specified element of $B$.  The process of passing from elements of $A$ to elements of $B$ is called [[function application]].  The set $A$ is called the [[domain]] of $f$, and $B$ is called its [[codomain]].
 
 A function is sometimes called a __total function__ to distinguish it from a [[partial function]].
 
-See [[set theory]] for more details.
+
+## Categorical perspective
+
+Functions are the [[morphisms]] in the [[category]] [[Set]].  Since Set is [[cartesian closed category|cartesian closed]], they can also be regarded as elements of the [[exponential object]], namely a [[function set]].
+
+
+## Foundations
+
+The formal definition of a function depends on the [[foundations]] chosen.
+
+* In [[material set theory]], a function $f$ is often defined to be a set of [[ordered pairs]] such that for every $x$, there is at most one $y$ such that $(x,y)\in f$.  The [[domain]] of $f$ is then the set of all $x$ for which there exists some such $y$.  This definition is not entirely satisfactory since it does not determine the codomain (since not every element of the codomain may be in the [[image]]); thus to be completely precise it is better to define a function to be an ordered triple $(f,A,B)$ where $A$ is the domain and $B$ the codomain.
+
+* In [[structural set theory]], the role of functions depends on the particular axiomatization chosen.  In [[ETCS]], functions are among the undefined things, whereas in [[SEAR]], functions are defined to be particular relations (which in turn are undefined things).
+
+* In [[type theory]], functions are simply [[terms]] belonging to [[function types]].
+
+See [[set theory]] and [[type theory]] for more details.
 
 
 ## As morphisms of discrete categories
