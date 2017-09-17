@@ -57,4 +57,5 @@ An entirely strict algebraic model for 3-groupoids (which no longer models all [
 
 * [[Carlos Simpson]], _Homotopy types of strict 3-groupoids_  ([arXiv](http://arxiv.org/abs/math/9810059))
 
-[[!redirects 3-grouopoids]] 
+[[!redirects 3-groupoids]]
+ 
