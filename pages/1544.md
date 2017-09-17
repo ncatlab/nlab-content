@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -310,7 +310,7 @@ $$
 
 ### Connections on the tangent bundle 
 
-Connections on [[tangent bundle]]s are also called [[affine connection]]s.
+Connections on [[tangent bundle]]s are also called [[affine connection]]s, or [[Levi-Civita connection]]s.
 
 They play a central role for instance on [[Riemannian manifold]]s and [[pseudo-Riemannian metric|pseudo-Riemannian manifold]]s. From the end of the 19th century and the beginning of the 20th centure originates a language to talk about these in terms of [[Christoffel symbol]]s. 
 
@@ -353,6 +353,13 @@ See [[connection on a principal ∞-bundle]].
 
 * [[connection on an ∞-bundle]]
 
+* **parallel transport**, [[higher parallel transport]]
+
+* [[holonomy]]
+
+  * [[holonomy group]]
+
+  * [[special holonomy]]
 
 
 
