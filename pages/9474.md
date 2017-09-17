@@ -1,0 +1,11 @@
+### Idea
+
+Cerf wall crossing is certain path which is crossing a codimension one wall in Morse theory.
+
+### References
+
+See a lecture by Daniel Freed [pdf](http://www.ma.utexas.edu/users/dafr/M392C/Notes/lecture23.pdf)
+
+About a different concept of wall crossing phenomenon see [[wall crossing]]. 
+
+category: geometry
