@@ -38,7 +38,7 @@ the stable $(\infty,1)$-category of spectra is described in section 9 of
 
 * [[Jacob Lurie]], [[Stable Infinity-Categories]] .
 
-It monoidal structure is described in section 4.2
+Its monoidal structure is described in section 4.2
 
 * [[Jacob Lurie]], [[higher algebra|Noncommutative algebra]].
 
