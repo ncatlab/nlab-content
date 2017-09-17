@@ -16,7 +16,7 @@
 |   | $\mathbb{A}_{\mathbb{Q}} = \underset{p\; place}{\prod^\prime}\mathbb{Q}_p$ ([[ring of adeles]])  | $\mathbb{A}_{\mathbb{F}_q((t))}$  ( [adeles of function field](ring%20of%20adeles#ForAGlobalField) ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} \mathbb{C}((t-x))$ ([[restricted product]] of holomorphic functions on all punctured formal disks, finitely of which do not extend to the unpunctured disks) |
 |   | $\mathbb{I}_{\mathbb{Q}} = GL_1(\mathbb{A}_{\mathbb{Q}})$ ([[group of ideles]])  | $\mathbb{I}_{\mathbb{F}_q((t))}$  ( [[group of ideles|ideles of function field]] ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} GL_1(\mathbb{C}((t-x)))$   |
 | **branched covering curves**  |  |  |  |
-|   | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
+|   | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a possibly [[ramified]] [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
 |   | $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
 |   | $Spec_{an}(\mathcal{O}_K) \to Spec(\mathbb{Z})$ ([[spectrum of a commutative ring|spectrum]] with archimedean [[places]])   | $\Sigma$ ([[arithmetic curve]]) |   $\Sigma \to \mathbb{C}P^1$ ([[complex curve]] being [[branched cover of Riemann sphere]])  |
 |   | [[genus of a number field]] |  [[genus of an algebraic curve]] | [[genus of a surface]] | 
