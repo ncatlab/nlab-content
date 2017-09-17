@@ -15,7 +15,7 @@
 
 ## In linear algebra
 
-In [[linear algebra]] over a [[field]] $k$, the _line_ is the field $k$ regarded as a [[vector space]] over itself. More generally, _a line_ is a vector space [[isomorphic]] to this, i.e. any 1-dimensional $k$-vector space.
+In [[linear algebra]] over a [[field]] $k$, the __line__ is the field $k$ regarded as a [[vector space]] over itself. More generally, _a line_ is a vector space [[isomorphic]] to this, i.e. any 1-dimensional $k$-vector space.
 
 The [[real line]] $\mathbb{R}$ models the naive intuition of the geometric line in [[Euclidean geometry]].
 
