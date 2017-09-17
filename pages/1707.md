@@ -208,8 +208,14 @@ of $\mathbb{Z}[G]$-[[modules]]. Let
 $$
   Hom_{\mathbb{Z}[G]Mod}(F_\bullet, A)
   = 
-  \letf[
-    Hom_{\mathbb{Z}[G]Mod}(F_0, A) \stackrel{d^0}{\to} Hom_{\mathbb{Z}[G]Mod}(F_1,A) \stackrel{d^1}{\to} Hom_{\mathbb{Z}[G]Mod}(F_2,A) \stackrel{d^2}{\to} \to \cdots
+  \left[
+    Hom_{\mathbb{Z}[G]Mod}(F_0, A) 
+      \stackrel{d^0}{\to} 
+    Hom_{\mathbb{Z}[G]Mod}(F_1,A) 
+      \stackrel{d^1}{\to} 
+    Hom_{\mathbb{Z}[G]Mod}(F_2,A) 
+      \stackrel{d^2}{\to} 
+      \cdots
   \right]
 $$
 
@@ -226,32 +232,31 @@ $$
 
 =--
 
-### Special cases: Simplicial constructions and explicit formulas in low degree
+
+
+## Special aspects and special cases
+
+The fully general definition [above](#InHomotopyTypeTheory) subsumes various cases that are not always discussed on the same footing in traditional literature. For emphasis we highlight these special cases separately.
+
+* [Simplicial constructions and explicit formulas in low degree](#InLowDegree)
+
+* [Structured group cohomology](#StructuredCohomology)
+
+* [Nonabelian group cohomology](#NonabelianGroupCohomology)
+
+
+### Simplicial constructions and explicit formulas in low degree
  {#InLowDegree}
 
-For the case of ordinary abelian group cohomology, the context of [[strict omega-groupoid]]s is in principle fully sufficient, since the domain object $\mathbf{B}G$ in that case is a 1-[[groupoid]], clearly a strict [[infinity-groupoid]], as are the abelian coefficient $n$-groupoids $\mathbf{B}^n K$, manifestly so as images of [[crossed complex]]es under the equivalence of crossed complexes with [[strict omega-groupoid]]s.
 
-So one possibility is to model $Ho_{\infty Grpd}$ in this case as the [[homotopy category]] induced by the 
-[[model structure on strict omega-groupoids]].
+For $G$ a [[discrete group]], its group cohomology is defined in [[Disc∞Grpd]] which is [[presentable (∞,1)-category|presented]] by the standard [[model structure on simplicial sets]], $Disc\infty Grpd \simeq L_{whe} sSet$.
 
-This is, more or less implicitly, the route taken in chapter 12 of
+A [[cofibrant object|cofibrant]] presentation of the [[delooping]] $\mathbf{B}G$ in the standard [[bar construction]]
 
-* [[Ronnie Brown]], Phil Higgins, R. Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/%7Emas010/pdffiles/rbrsbookb-e040609.pdf), [web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
-
-Since every $\infty$-groupoid is fibrant, this model category category of strict $\infty$-groupoids is in fact a [[category of fibrant objects]] and hence the [[hom-set]]s in its [[homotopy category]] may be computed as [[colimit]]s over $\infty$-[[anafunctor]]s, namely 
 
 $$
-  H(\mathbf{B}G, \mathbf{B}^n K)
-  =
-  colim_{Y \stackrel{\sim}{\twoheadrightarrow} \mathbf{B}G} Hom(Y,\mathbf{B}^n K)
-$$
-
-where the colimit is over all strict $\omega$-groupoids $Y$ with $Y  \stackrel{\sim}{\twoheadrightarrow} \mathbf{B}G$ an acyclic fibration, which here is a [[k-surjective functor]] for all $k$.
-
-On the other hand, since also the full model structure is around, this colimit localizes on the cofibrant replacement $Y = F(N(\mathbf{B}G))$ of $\mathbf{B}G$. But this is nothing but the free strict $\omega$-groupoid on the [[nerve]] of $\mathbf{B}G$, which is the usual bar resolution of $G$ (see the discusson at [[nerve]]):
-
-$$
-  N (\mathbf{B}G) = 
+  \overline{W}G
+  = 
   \left(
     \cdots \to G \times G \times G
     \stackrel{\to}{\stackrel{\to}{\to}}
@@ -261,14 +266,24 @@ $$
     \to 
     {*}
   \right)
+  \,,
 $$
 
-This is of course nothing but the incarnation of $\mathbf{B}G$ as an object in the category of _weak_ [[infinity-groupoid]]s modeled as [[Kan complex]]es.
+which is equivalently the [[nerve]] of the [[groupoid]] $*\sslash G$.
 
-For instance the 2-cells in $N(\mathbf{B}G)$ are of the form
+For $A$ a discrete [[abelian group]], then the image $\Xi A[n]\in sSet$ under the [[Dold-Kan correspondence]] is a [[fibrant object|fibrant]] representative of the $n$-fold [[delooping]] $\mathbf{B}^n A$. Accordingly then (by the general discussion at _[[derived hom-space]]_), the gorup cohomology is 
 
 $$
-  N(\mathbf{B}G)_2 
+  H^n_{Grpd}(G,A) \simeq \pi_0 sSet(\overline{W}G, \Xi A[n])
+  \,,
+$$
+
+where on the right we have the set of homomorphisms of [[simplicial sets]] modulo [[simplicial homotopy]].
+
+For low values of $n$ it is useful and easily possible to describe these simplicial maps explicitly. Notice that the 2-[[simplices]] in $\overline{W}G$ are
+
+$$
+  (\overline{W}G)_2
   =
   \left\{
   \left.
@@ -286,12 +301,10 @@ $$
   \,,
 $$
 
-where the diagram indicates what the face maps on $N (\mathbf{B}G) = G \times G$ are.
-
-Accordingly, the 3-cells look like
+and the 3-simplices are 
 
 $$
-  N(\mathbf{B}G)_3
+  (\overline{W}G)_3
   =
   \left\{
   \left.
@@ -322,21 +335,12 @@ $$
   \,.
 $$
 
-The free strict $\omega$-groupoid on $N(\mathbf{B}G)$ has as $n$-morphisms the free $n$-groupoids generated from one $n$-[[oriental]] per such $n$-simplex in $N(\mathbf{B}G)$. 
-
-In chapter 12 of Brown-Higgins-Sivera group cocycles are computed as morphisms out of this cofibrant replacement $F(N(\mathbf{B}G))$ of the ordinary 1-groupoid $\mathbf{B}G$ in the category of [[strict omega-groupoid]]s. (Or rather, there the equivalent [[crossed complex]]es) are used.
-
-Alternatively, we can pass along the inclusion 
-$$
-  Str \omega Grpd \hookrightarrow \infty Grpd \hookrightarrow SSet
-$$
-of strict $\infty$-groupoids into all $\infty$-groupoids modeled as [[Kan complex]]es and compute the homotopy classes of morphisms there. Every [[Kan complex]] is already cofibrant (while of course still also being fibrant), so once the situation is interpreted in [[SSet]] we can compute group cohomology in terms of ordinary morphisms $N(\mathbf{B}G) \to N(\mathbf{B}^n K)$ without having to resolve further, without having to resort to [[anafunctor]]s etc. Of course it is the [[nerve]] operation involved both in forming the cofibrant replacement in $Str \infty Grpd$ as well as in passing to $SSet$ that accomplishes the required resolutions in either case.
-
+Using this we can explicitly describe group [[cocycles]] and [[coboundaries]] in low degree:
 
 #### Degree-$1$ group cohomology 
 
-A degree-one group cocycle $c$, $[c] \in H^1_{Grp}(G,K)$
-is just a [[functor]] $c : \mathbf{B}G \to \mathbf{B}K$. This is a group homomorphism $G \to K$.
+A degree-one group cocycle $c$, $[c] \in H^1_{Grp}(G,A)$
+is just [[group homomorphism]] $G \to A$ -- a [[character]] of $G$.
 
 #### Degree-$2$ group cohomology 
 
@@ -450,15 +454,7 @@ $$
 
 This expresses the commutativity of the above tetrahedra. And it is indeed the ordinary formula for a cocycle in degree-2 [[group cohomology]].
 
-## Special aspects and special cases
-
-The fully general definition [above](#InHomotopyTypeTheory) subsumes various cases that in much of the traditional literature are discussed separately from "standard" group cohomology. For emphasis we highlight these special cases separately.
-
-* [Structured group cohomology](#StructuredCohomology)
-
-* [Nonabelian group cohomology](#NonabelianGroupCohomology)
-
-### Structured group cohomology 
+### Structured group cohomology (topological groups and Lie groups)
  {#StructuredCohomology}
 
 If the groups in question are not plain groups ([[group object]]s internal to [[Set]]) but groups with extra structure, such as [[topological group]]s or [[Lie group]]s, then their cohomology has to be understood in the corresponding natural context.
@@ -473,11 +469,9 @@ $$
 
 to a simplicial object $N (\mathbf{B}^n A)$.
 
-This is what is described above. But this does **not** in general give the right answer for structured groups:
+This is what is described [above](#InLowDegree) for _[[discrete groups]]_. But this does **not** in general give the right answer for structured groups: while the [[simplicial set]] $\overline{W}G = G^{\times^\bullet}$ is [[cofibrant object|cofibrant]] in the relevant model category presenting the ambient [[(∞,1)-topos]] [[Disc∞Grpd]], for $G$ a structured group the [[simplicial object]] given by the same formula is not in general already cofibrant. It needs to be further resolved, instead.
 
-namely [[cohomology]] is really about homotopy classes of maps in the suitable ambient [[(∞,1)-topos]]. For plain groups as in the above entry, we are working in the $(\infty,1)$-topos [[∞Grpd]]. That may be modeled by the standard [[model structure on simplicial sets]]. In that model structure, all objects a cofibrant and [[Kan complex]]es are fibrant. That means all objects we are dealing with here are both cofibrant and fibrant, and hence the simplicial set of maps between them is the cofrrect [[derived hom-space]] between these objects.
-
-But this changes as we consider groups with extra structure. For a [[Lie group]] $G$, the object
+Specifically, for a [[Lie group]] $G$, the object
 
 $$
   \left(
@@ -487,34 +481,11 @@ $$
 
 has to be considered as an [[Lie ∞-groupoid]]: an object in the [[model structure on simplicial presheaves]] over a [[site]] such as [[Diff]] or [[CartSp]]. As such it is in general **not** both cofibrant and fibrant. To that extent plain morphisms out of this object do **not** compute the correct [[derived hom-space]]s. Instead, the right definition of structured group cohomology uses the correct fibrant and cofibrant replacements.
 
-#### Topological group cohomology
+Doing requires more work. This is discussed at 
 
-In
+* _[[Lie group cohomology]]_
 
-* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
-
-$n$-cocycles on a topological group $G$ with values in a topological abelian group $A$ are considered as continuous maps $G^{\times n}\to A$ (p. 3 ).
-
-A definition in terms of [[derived functor|Ext-functor]]s and comparison with the naive definition is in 
-
-* David Wigner, _Algebraic cohomology of topological groups_ Transactions of the American Mathematical Society, volume 178 (1973)([pdf](http://egg.epfl.ch/~nmonod/bonn/Wigner_1973.pdf))
-
-A classical reference that considers the cohomology of Lie groups as topological spaces is
-
-* [[Armand Borel]], _Homology and cohomology of compact connected Lie groups_ ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1063923/pdf/pnas01596-0040.pdf))
-
-A corrected definition of topological group cohomology has been given by Segal
-
-* [[Graeme Segal]], _Cohomology of topological groups_ In Symposia Mathematica, Vol. IV (INDAM, Rome, 1968/69), pages 377{387. Academic Press, London, (1970).
-
-* [[Graeme Segal]], _A classifying space of a topological group in the sense of Gel'fand-Fuks. Funkcional. Anal. i Prilozen.,
-9(2):48{50, (1975).
-
-See also [[Lie group cohomology]].
-
-#### Lie group cohomology {#LieGroupcohomology}
-
-The content of this subsection is at [[Lie group cohomology]].
+See below at _[References - For structured groups](#ReferencesOnStructuredGroupCohomology)_ for pointers to the literature.
 
 ### Nonabelian group cohomology
  {#NonabelianGroupCohomology}
@@ -626,11 +597,11 @@ An introduction to group cohmology of a group $G$ as the cohomology of the [[cla
 
 * _Advanced course on classifying spaces and cohomology of groups_ ([ps](www-irma.u-strasbg.fr/~henn/notes.ps))
 
-Aspects of the general point of view on group cohomology is described for instance in chaper 12 of
+Discussion of the cohomology of [[discrete groups]] with abelian coefficients in terms of [[crossed modules]] instead of [[chain complexes]] (an intermediate step in the [[Dold-Kan correspondence]]) is in chapter 12 of
 
 * R. Brown, P. Higgins, R. Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/%7Emas010/pdffiles/rbrsbookb-e040609.pdf), [web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
 
-Cohomology of [[simplicial group]]s is discussed for instance in
+Cohomology of [[simplicial groups]] is discussed for instance in
 
 * Sebastian Thomas, _On the second cohomology group of a simplicial group_ ([pdf](http://www.math.rwth-aachen.de/~Sebastian.Thomas/publications/Thomas_On_the_second_cohomology_group_of_a_simplicial_group.pdf))
 
@@ -647,9 +618,36 @@ For a conceptual discussion of nonabelian group cohomology see
 
 * [[John Baez]], [[Mike Shulman]], _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420))
 
-Group cocycles classify [[group extension]]s. This is often discussed only for 2-cocycles and extensions by ordinary groups. Higher cocycles classify extensions by [[2-group]]s and further by [[infinity-group]]s. In the context of [[crossed complex]]es, which are models for _strict_ $\infty$-groups, this is discussed for instance in
+Group cocycles classify [[group extensions]]. This is often discussed only for 2-cocycles and extensions by ordinary groups. Higher cocycles classify extensions by [[2-group]]s and further by [[infinity-groups]]. In the context of [[crossed complexes]], which are models for _strict_ $\infty$-groups, this is discussed for instance in
 
 * [[Johannes Huebschmann]], _Crossed $n$-fold extensions and group cohomology_ ([web](http://dx.doi.org/10.1007/BF02566688))
+
+
+### On structured group cohomology
+ {#ReferencesOnStructuredGroupCohomology}
+
+In
+
+* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
+
+$n$-cocycles on a topological group $G$ with values in a topological abelian group $A$ are considered as continuous maps $G^{\times n}\to A$ (p. 3 ).
+
+A definition in terms of [[derived functor|Ext-functors]] and comparison with the naive definition is in 
+
+* David Wigner, _Algebraic cohomology of topological groups_ Transactions of the American Mathematical Society, volume 178 (1973)([pdf](http://egg.epfl.ch/~nmonod/bonn/Wigner_1973.pdf))
+
+A classical reference that considers the cohomology of Lie groups as topological spaces is
+
+* [[Armand Borel]], _Homology and cohomology of compact connected Lie groups_ ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1063923/pdf/pnas01596-0040.pdf))
+
+A corrected definition of topological group cohomology has been given by Segal
+
+* [[Graeme Segal]], _Cohomology of topological groups_ In Symposia Mathematica, Vol. IV (INDAM, Rome, 1968/69), pages 377{387. Academic Press, London, (1970).
+
+* [[Graeme Segal]], _A classifying space of a topological group in the sense of Gel'fand-Fuks. Funkcional. Anal. i Prilozen.,
+9(2):48{50, (1975).
+
+
 
 ### On various topological groups
  {#OnTopologicalGroups}
