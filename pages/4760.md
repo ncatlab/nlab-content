@@ -61,7 +61,7 @@ Any [[strict 2-category]] determines both a 'bicategory' in the above sense (sin
 {#Duskin}
 
 * V. Blanco, M. Bullejos, E. Faro, A Full and faithful Nerve for 2-categories, Applied 
-Categorical Structures, Vol 13-3, 223-233, 2005.
+Categorical Structures, Vol 13-3, 223-233, 2005. (see also [arxiv](http://arxiv.org/abs/math/0406615)
 
 [[!redirects bicategory nerve]]
 [[!redirects nerve of bicategories]]
