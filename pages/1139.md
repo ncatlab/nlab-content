@@ -84,3 +84,5 @@ $$
 For instance section 17.6 of 
 
 * Kashiwara, Schapira, _[[Categories and Sheaves]]_
+
+* [[Stacks Project]], [Tag 00VC](http://stacks.math.columbia.edu/tag/00VC) and [Tag 00XF](http://stacks.math.columbia.edu/tag/00XF).
