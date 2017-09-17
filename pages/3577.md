@@ -31,7 +31,7 @@ The definition of $(\infty,1)$-sites parallels that of 1-categorical [[site]]s c
 
 +-- {: .un_defn}
 ###### Definition
-**($(\infty,1)$Grothendieck topology)**
+**($(\infty,1)$-Grothendieck topology)**
 
 A **[[sieve]] in** an [[(∞,1)-category]] $C$ is a full [[sub-(∞,1)-category]] $D \subset C$ which is closed under precomposition with morphisms in $C$.
 
@@ -186,7 +186,7 @@ If $(\infty,1)$-categories are [[presentable (∞,1)-category|presented]] by [[m
 
   * [[model site]], [[simplicial site]]
 
-* [[internal site]] / [[internal (ininity,1)-site]]
+* [[internal site]] / [[internal (infinity,1)-site]]
 
 ## References
 
