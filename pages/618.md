@@ -41,9 +41,9 @@ $$
   \array{
     V_i &\stackrel{\exists}{\to}& U_j
     \\
-    \downarrow && \downarrow
+    \downarrow^{h_j} && \downarrow^{f_i}
     \\
-    V &\underset{\forall }{\to}& U
+    V &\underset{\forall g}{\to}& U
   }
   \,.
 $$
@@ -102,6 +102,7 @@ The collection of covering families can be "closed up" under a number of conveni
 
 
 ### Grothendieck coverages 
+
 
 Grothendieck originally considered only coverages that are closed under some or all of the above saturation conditions.  
 
