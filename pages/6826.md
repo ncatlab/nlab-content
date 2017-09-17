@@ -1,0 +1,23 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
+
+Theories of [[supergravity]] may contain a [[gauge field]] ([[connection on a bundle]]).
+
+For many cases gauged supergravity theories are obtained by dimensional reduction from [[11-dimensional supergravity]] or [[type II supergravity]], which themselves do not contain a gauge field. This appears in the reduction by the [[Kaluza-Klein mechanism]].
