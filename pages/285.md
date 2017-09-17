@@ -6,8 +6,16 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
 =--
 =--
+=--
+
+
+
+
 
 #Contents#
 * table of contents
