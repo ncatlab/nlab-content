@@ -696,9 +696,6 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 [[!redirects n-truncated object]]
 [[!redirects n-truncated objects]]
 
-[[!redirects truncated object]]
-[[!redirects truncated objects]]
-
 [[!redirects n-truncation]]
 [[!redirects n-truncations]]
 
