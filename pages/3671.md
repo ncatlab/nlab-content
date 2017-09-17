@@ -23,17 +23,16 @@ We consider the topological and geometric structures associated with cohomologic
 
 {AKMW} [[Orlando Alvarez]], T. P. Killingback, M. L. Mangano, and P. Windey,
 _String theory and loop space index theorems_,
-Commun. Math. Phys. __111__ (1987) 1-10.
+Commun. Math. Phys. __111__ (1987) 1-10, [euclid](http://projecteuclid.org/euclid.cmp/1104159462), [MR0896755](http://www.ams.org/mathscinet-getitem?mr=0896755)
 
 {ASi}
 [[Orlando Alvarez]] and I. M. Singer, _Beyond the elliptic genus_,
 Nuclear Phys. __B 633__ (2002) 309-344,
 [arXiv:hep-th/0104199](http://arxiv.org/abs/hep-th/0104199).
 
-{And} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_, Trans. AMS __352__ (2000) 5619--5666.
+{And} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_, Trans. AMS __352__ (2000) 5619--5666, [doi](http://dx.doi.org/10.1090/S0002-9947-00-02412-0).
 
-{Atwist} [[Matthew Ando]], [[Andrew Blumberg]], and [[David Gepner]], _Twists of K-theory and TMF_,
-to appear in Proc. Symp. Pure Math.
+{Atwist} [[Matthew Ando]], [[Andrew Blumberg]], and [[David Gepner]], _Twists of K-theory and TMF_, [arxiv/1002.3004](http://arxiv.org/abs/1002.3004), to appear in Proc. Symp. Pure Math.
 
 {AHR}
 [[Matthew Ando]], [[Mike Hopkins]], and [[Charles Rezk]], _Multiplicative orientations of KO-theory and of the spectrum of topological modular forms_,
