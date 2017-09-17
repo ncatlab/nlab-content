@@ -31,7 +31,7 @@ As the domains of the operations are given by the solutions to equations, they m
 
 ## Definition
 
-As alluded to above, the most concide and elegant definition is through category theory.  The traditional definition is this:
+As alluded to above, the most concise and elegant definition is through category theory.  The traditional definition is this:
 
 +-- {: .un_def}
 ######Definition 
