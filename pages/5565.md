@@ -93,6 +93,12 @@ and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Qui
 
 =--
 
+## Related concepts
+
+* [[canonical model structure on Cat]]
+
+* **canonical model structure on $Grpd$**
+
 ## References
 
 This model category structure appears originally in
