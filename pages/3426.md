@@ -7,4 +7,6 @@
 
 * [[C-infinity-ring]], [[special Lagrangian submanifold]], [[Donaldson-Thomas invariant]]
 
+Warning: distinguish from mathematician David Joyce who worked on knot theory and [[quandle]]s (and invented the terminology "quandle")
+
 category: people
