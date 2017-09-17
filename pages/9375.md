@@ -1,0 +1,8 @@
+
+* [webpage](http://www-thphys.physics.ox.ac.uk/people/JohnCardy/)
+
+## Related entries
+
+* [[conformal field theory]]
+
+category: people
