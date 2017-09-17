@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 #### Bundles
 +-- {: .hide}
 [[!include bundles - contents]]
@@ -34,13 +38,15 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 ## References
 
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
 
 * [pdf](http://verbit.ru/MATH/TALKS/Israel/kahler-3.pdf)
 
 
-
+[[!redirects spinor bundles]]
 
 [[!redirects spinor]]
 [[!redirects spinors]]
