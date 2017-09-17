@@ -353,6 +353,7 @@ and appears in the [[Adams spectral sequence]].
 
 ## Related concepts
 
+* [[Amitsur complex]]
 
 * [[descent]]
 
