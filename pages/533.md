@@ -1,4 +1,16 @@
-A _strict $n$-category_ is a [[strict omega-category]] all whose $k$-morphisms for $k \gt n$ are identities.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+A _strict $n$-category_ is a [[strict omega-category]] all whose [[k-morphism]]s for $k \gt n$ are identities.
 
 The category $n Cat$ of strict $n$-categories can also be defined inductively by
 
