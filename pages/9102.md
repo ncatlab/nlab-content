@@ -46,6 +46,8 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
   * **2d Chern-Simons theory**
 
+    * [[2d TQFT]]
+
   * [[3d Chern-Simons theory]]
 
     * [[2d Wess-Zumino-Witten theory]]
