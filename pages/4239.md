@@ -106,7 +106,7 @@ such that
 
 ## Properties
 
-Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This is where they get there name from, because these TCFTs in turn may be constructed from [[sigma-model]]s whose targets ar [[Calabi-Yau space]]s.
+Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This is where they get there name from, because first examples of TCFTs were in turn constructed from [[sigma-model]]s whose targets are [[Calabi-Yau space]]s.
 
 ## References
 
