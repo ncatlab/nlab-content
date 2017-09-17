@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $a,b \in \mathbb{N}$ two positive [[natural numbers]], their **least common multiple** $LCM(a,b) \in \mathbb{N}$ is the smallest natural number that is divisible by both $a$ and $b$, i.e. such that there exist $n_a, n_n \in \mathbb{N}$ with $n_a \cdot a = n_b \cdot b = LCM(a,b)$.
+
+## Related concepts
+
+* [[greatest common divisor]]
+
+[[!redirects smallest common multiple]]
+[[!redirects lowest common multiple]]
+
