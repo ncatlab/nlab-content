@@ -47,9 +47,9 @@ $$
 
 sends a [[spin group]]-[[principal bundle]] $P$ to its corresponding [[Chern-Simons circle 3-bundle]] $\frac{1}{2}\mathbf{p}_1(P)$.
  
-A choice of trivialization of $\frac{1}{2}p_1(P)$ is a [[string structure]]. The [[2-groupoid]] of smooth string structures is the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1$.
+A choice of trivialization of $\frac{1}{2}p_1(P)$ is a [[string structure]]. The [[2-groupoid]] of smooth string structures is the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1$ over the trivial [[circle n-bundle with connection|circle 3-bundle]].
 
-By [[Chern-Weil theory in Smooth∞Grpd]] this morphism may be further refined to a morphism $\frac{1}{2}\hat \mathbf{p}_1$ that lands in [[ordinary differential cohomology]] 
+By [[Chern-Weil theory in Smooth∞Grpd]] this morphism may be further refined to a [[differential characteristic class]] $\frac{1}{2}\hat \mathbf{p}_1$ that lands in the [[ordinary differential cohomology]] 
 $\mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))$, 
 classifying [[circle n-bundle with connection|circle 3-bundles with connection]]
 
@@ -61,34 +61,33 @@ $$
   \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
 
-The [[2-groupoid]] of **differential string structures** is the [[homotopy fiber]] of this refinement $\frac{1}{2}\hat \mathbf{p}_1$.
+The [[2-groupoid]] of **differential string structures** is the [[homotopy fiber]] of this refinement $\frac{1}{2}\hat \mathbf{p}_1$ over the [[circle n-bundle with connection|trivial circle 3-bundle with trivial connection]] or more generally over the trivial circle 3-bundles with possibly non-trivial connection
 
-Such a differential string structure is represented by a tuple consisting of
+Such a differential string structure over a [[smooth manifold]] $X$ is characterized by a tuple consisting of
 
-* a [[connection on a bundle|connection]] $\nabla$ on a $Spin$-[[principal bundle]];
+1. a [[connection on a bundle|connection]] $\nabla$ on a [[Spin group|Spin]]-[[principal bundle]] on $X$;
 
-* a choice of trivial [[circle n-bundle with connection|circle 3-bundle]] with connection $(0, C)$;
+1. a choice of trivial [[circle n-bundle with connection|circle 3-bundle]] with connection $(0, C_3)$, hence a differential 3-form $C_3 \in \Omega^3(X)$;
 
-* a choice of equivalence $\lambda$ of the [[Chern-Simons circle 3-bundle]] with connection $\frac{1}{2}\hat\mathbf{p}_1(\nabla)$ of $\nabla$ with this chosen 3-bundle
+1. a choice of [[equivalence in an (∞,1)-category|equivalence]] $\lambda$ of the [[Chern-Simons circle 3-bundle]] with connection $\frac{1}{2}\hat\mathbf{p}_1(\nabla)$ of $\nabla$ with this chosen 3-bundle
 
   $$
     \lambda : \frac{1}{2}\hat \mathbf{p}_1(\nabla) \stackrel{\simeq}{\to}
-    (0,C)
+    (0,C_3)
     \,.
   $$
 
-More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \mathbf{p}_1$ over arbitrary circle 3-bundles with connection. According to the general notion of [[twisted cohomology]], these may be thought of as **twisted differential string structures**, where the twist is the class of cocycle over which one computes the homotopy fiber.
+More generally, one can consider the [[homotopy fiber]]s of $\frac{1}{2}\hat \mathbf{p}_1$ over arbitrary circle 3-bundles with connection $\hat \mathcal{G}_4 \in \mathbf{H}_{diff}^4(X, \mathbf{B}^3 U(1))$ and hence replace $(0,C_3)$ in the above with $\hat \mathcal{G}_4$. According to the general notion of [[twisted cohomology]], these may be thought of as **twisted differential string structures**, where the class $[\mathcal{G}_3] \in H^4_{diff}(X)$ is the twist.
 
 
 ## Definition {#Definition}
 
-We assume the reader is familiar with basics of the discussion at [[Smooth∞Grpd]]. We often write $\mathbf{H} := Smooth \infty Grpd$ for short.
+We will assume that the reader is familiar with basics of the discussion at [[Smooth∞Grpd]]. We often write $\mathbf{H} := Smooth \infty Grpd$ for short.
 
-Let $Spin \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] be the [[Spin group]], regarded as a [[Lie group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. Write $\mathbf{B}G$ for its [[delooping]] in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). 
+Let $Spin(n) \in $ [[SmoothMfd]] $\hookrightarrow$ [[Smooth∞Grpd]] be the [[Spin group]], for some $n \in \mathbb{N}$, regarded as a [[Lie group]] and thus canonically as an [[∞-group]] object in [[Smooth∞Grpd]]. We shall notationally suppress the $n$ in the following. Write $\mathbf{B}Spin$ for its [[delooping]] of $Spin$ in [[Smooth∞Grpd]]. (See the discussion <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#LieGroups">here</a>). 
+Let moreover $\mathbf{B}^2 U(1) \in Smooth \infty Grpd$ be the <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie 3-group</a> and $\mathbf{B}^3 U(1)$ its [[delooping]].
 
-Let $\mathbf{B}^2 U(1) \in Smooth \infty Grpd$ be the <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie 3-group</a> and $\mathbf{B}^3$ its [[delooping]].
-
-At [[Chern-Weil theory in Smooth∞Grpd]] the following statement is proven 
+At [[Chern-Weil theory in Smooth∞Grpd]] the following statement is proven ([FSS](#FSS)).
 
 +-- {: .un_prop }
 ###### Proposition
@@ -96,10 +95,10 @@ At [[Chern-Weil theory in Smooth∞Grpd]] the following statement is proven
 The image under [[Lie integration]] of the canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]]
 
 $$
-  \mu : \mathfrak{so} \to b^2 \mathbb{R}
+  \mu = \langle -,[-,-]\rangle : \mathfrak{so} \to b^2 \mathbb{R}
 $$
 
-on the [[semisimple Lie algebra]] of the [[Spin group]] -- the [[special orthogonal Lie algebra]] -- is a morphism in [[Smooth∞Grpd]] of the form
+on the [[semisimple Lie algebra]] $\mathfrak{so}$ of the [[Spin group]] -- the [[special orthogonal Lie algebra]] -- is a morphism in [[Smooth∞Grpd]] of the form
 
 $$
   \frac{1}{2} \mathbf{p}_1 : 
@@ -108,14 +107,13 @@ $$
   \mathbf{B}^3 U(1)
 $$
 
-whose image under the <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological%20infinity-groupoid#GeometricHomotopy">the fundamental ∞-groupoid (∞,1)-functor/ geometric realization</a> $\Pi : Smooth \infty Grpd \to \infty Grpd$ is the ordinary fractional [[Pontryagin class]]
+whose image under the <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological%20infinity-groupoid#GeometricHomotopy">the fundamental ∞-groupoid (∞,1)-functor/ geometric realization</a> $\Pi : Smooth \infty Grpd \to $ [[∞Grpd]] is the ordinary fractional [[Pontryagin class]]
 
 $$
   \frac{1}{2}p_1 : B Spin \to B^4 \mathbb{Z}
-  \,.
 $$
 
-Moreover, the corresponding <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#ChernWeilTheory">refined differential characteristic class</a> 
+in [[Top]]. Moreover, the corresponding <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#ChernWeilTheory">refined differential characteristic class</a> 
 
 $$
   \frac{1}{2}\hat \mathbf{p}_1 : 
@@ -128,14 +126,13 @@ is in [[cohomology]] the corresponding refined [[Chern-Weil homomorphism]]
 
 $$
   [\frac{1}{2}\hat \mathbf{p}_1] : 
-  H^1_{Smooth}(X,Spin) \to H_{diff}^3(X)
+  H^1_{Smooth}(X,Spin) \to H_{diff}^4(X)
 $$
 
-with values in [[ordinary differential cohomology]] that corresponds to the [[Killing form]] [[invariant polynomial]] on $\mathfrak{so}$.
+with values in [[ordinary differential cohomology]] that corresponds to the [[Killing form]] [[invariant polynomial]] $\langle - , - \rangle $ on $\mathfrak{so}$.
 
 
 =--
-
 
 +-- {: .un_def #DifferentialStringStructure}
 ###### Definition
@@ -157,7 +154,7 @@ $$
   \,,
 $$
 
-where the right vertical morphism picks one (any) point  in each [[connected component]] of the [[cocycle]] [[∞-groupoid]] $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ (the [[homotopy type]] of the [[(∞,1)-pullback]] is independent of this choice).
+where the right vertical morphism is a choice of (any) one point in each [[connected component]] (differential cohomology class) of the [[cocycle]] [[∞-groupoid]] $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ (the [[homotopy type]] of the [[(∞,1)-pullback]] is independent of this choice).
 
 =--
 
@@ -165,8 +162,7 @@ where the right vertical morphism picks one (any) point  in each [[connected com
 +-- {: .un_remark }
 ###### Remark
 
-In terms of just the underlying [[L-∞ algebra]] valued local connection data this has been considered in ([SSSIII](#SSSIII)), as we shall discuss [below](#ChernWeilTheory).
-
+In terms of local [[∞-Lie algebra valued differential forms]] data this has been considered in ([SSSIII](#SSSIII)), as we shall discuss [below](#ChernWeilTheory).
 For the case where the twist is given by globally defined 3-forms, i.e. by  trivial 2-gerbes with connection, essentially this definition, explicitly modeled on [[bundle 2-gerbe]]s, has been given in ([Waldorf](#Waldorf)).
 
 =--
@@ -177,7 +173,7 @@ For the case where the twist is given by globally defined 3-forms, i.e. by  triv
 
 We use the [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-topos]] [[Smooth∞Grpd]] (as described there) by the local [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ to give an explicit construction of twisted differential string structures in terms of [[Cech cohomology|Cech]]-cocycles with coefficients in [[∞-Lie algebra valued differential forms]].
 
-Recall the following fact from [[Chern-Weil theory in Smooth∞Grpd]]
+Recall the following fact from [[Chern-Weil theory in Smooth∞Grpd]] ([FSS](#FSS)).
 
 +-- {: .un_prop }
 ###### Proposition
@@ -485,7 +481,7 @@ $$
 $$
 
 in [[dgAlg]], subject to some horizontality constraints.
-The components of this are over each $U_i$ collection of differential forms of the following structure
+The components of this are over each $U_i$ a collection of differential forms of the following structure
 
 $$
   \left(
@@ -510,7 +506,7 @@ $$
        \\
        b & \mapsto B
        \\
-       c & \mapsto \nabla  B
+       c & \mapsto H_3
        \\
        k & \mapsto C_3
        \\
@@ -522,19 +518,19 @@ $$
     \array{  
        t^a =& C^a{}_{b c} t^b \wedge t^c + r^a
        \\
-       d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
+       c = & d b - cs + k     
        \\
-       d b =& cs + c - k
+       d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
        \\
        d c =& l - \langle -,-\rangle
        \\
        d k =& l
     }
   \right)
-  \,,
+  \,.
 $$
 
-where we indicate on the right the generators and their relation in $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ and on the left their images and the images of the relations which are first the definitions of the [[curvature]]s themselves and then the [[Bianchi identities]] satisfied by these.
+Here we are indicating on the right the generators and their relation in $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ and on the left their images and the images of the relations in $\Omega^\bullet(U_i)$.   This are first the definitions of the [[curvature]]s themselves and then the [[Bianchi identities]] satisfied by these.
 
 ### The Green-Schwarz mechanism in heterotic supergravity
 
@@ -579,6 +575,7 @@ The full Cech-Deligne cocycles induced by this (but not yet the homotopy fibers 
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cocycles for differential characteristic classes_ (
 <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+%28%E2%88%9E%2C1%29-topos+--+references#FSS">web</a>)
+{#FSS}
 
 A comprehensive discussion is at
 
