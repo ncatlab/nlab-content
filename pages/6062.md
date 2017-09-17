@@ -734,7 +734,7 @@ A useful summary of that paper is given in the [notes](http://poisson.phc.unipi.
 
 A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras and hence [∞-Lie algebra extensions](infinity-Lie+algebra+cohomology#Extensions)) is in section 3.1 of
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _$L_\infty$-algebras of local observables from higher prequantum bundles_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
  {#FiorenzaRogersSchreiber13}
 
 
