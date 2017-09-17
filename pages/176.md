@@ -359,6 +359,8 @@ Witt class.
 
 ## Examples
 
+* [[Ising model]]
+
 * [[WZW model]]
 
 * [[6d (2,0)-supersymmetric QFT]]
