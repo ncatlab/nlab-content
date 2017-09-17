@@ -268,6 +268,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ### D1 First-order categorical logic
 
+
 #### D1.1 First-order languages
 
 * [[signature]]
@@ -278,7 +279,25 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[context]]
 
+* [[axiom]]
+
 * [[theory]]
+
+  * [[algebraic theory]]
+
+  * [[propositional theory]]
+
+  * [[Horn theory]]
+
+  * [[regular theory]]
+
+  * [[coherent theory]]
+
+  * [[first-order theory]]
+
+  * [[geometric theory]]
+
+  * [[infinitary first-order theory]]
 
 #### D1.2 Categorical semantics
 
@@ -290,8 +309,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### D1.4 Syntactic categories
 
-* [[internal logic]] and [[context]]
-* [[classifying topos]]
+* [[syntactic category]]
+
 
 #### D1.5 Classical completeness
 
@@ -318,9 +337,10 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ### D3 Classifying toposes
 
+* [[classifying topos]]
+
 #### D3.1 Classifying toposes via syntactic sites
 
-* [[classifying topos]]
 
 ### D4 Higher-order logic
 
