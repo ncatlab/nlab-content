@@ -63,7 +63,7 @@ where $f_* : T\Sigma \to T\Sigma$ is the canonical map induced on the [[tangent 
 
 Say that two metrics $g_1, g_2$ are [[gauge transformation|gauge equivalent]] if there is a diffeomorphism $f$ such that $g_2 = f^* g_1$.  This is an [[equivalence relation]]. Write $Riem(\Sigma)/Diff(\Sigma)$ for the corresponding set of [[equivalence classes]]. 
 
-The statement of _general covariance_ is that the distinct configurations of the gravitational field form the set $Riem(\Sigma)/Diff(\Sigma)$. In particular, if $\Sigma$ is [[compact topological space|compact]], then the [[Einstein-Hilbert action]] functional which a-prior is defined on $Riem(\Sigma)$ descends to $Riem(\Sigma)/Diff(\Sigma)$
+The statement of _general covariance_ is that the distinct configurations of the gravitational field form the set $Riem(\Sigma)/Diff(\Sigma)$. In particular, if $\Sigma$ is [[compact topological space|compact]], then the [[Einstein-Hilbert action]] functional which *a priori* is defined on $Riem(\Sigma)$ descends to $Riem(\Sigma)/Diff(\Sigma)$
 
 $$
   S_{EH} : Riem(\Sigma)/Diff(\Sigma) \to \mathbb{R}
@@ -550,6 +550,7 @@ $$
 $$
 
 the [[automorphism ∞-group]] of the tangent bundle it to be formed in the [[context]] of $\mathbf{B}GL(n)$. By the discussion at _[[automorphism ∞-group]]_ the [[delooping]] $\mathbf{B}Aut(T \Sigma)$ is the [[∞-image]] of the name
+
 
 $$
   (* \stackrel{}{\to} Type) \in \mathbf{H}_{/\mathbf{B}GL(n)}
