@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -136,19 +137,26 @@ See also the article
 
 on the concept of [[closed categories]].
 
+
+[[!redirects closed monoidal category]]
+[[!redirects closed monoidal categories]]
+[[!redirects monoidal closed category]]
+[[!redirects monoidal closed categories]]
+[[!redirects closed monoidal structure]]
+[[!redirects closed monoidal structures]]
+
 [[!redirects closed symmetric monoidal category]]
 [[!redirects closed symmetric monoidal categories]]
-[[!redirects monoidal closed category]]
-[[!redirects closed monoidal categories]]
-[[!redirects monoidal closed categories]]
-[[!redirects biclosed monoidal category]]
-[[!redirects left closed monoidal category]]
-[[!redirects right closed monoidal category]]
-[[!redirects biclosed monoidal categories]]
-[[!redirects left closed monoidal categories]]
-[[!redirects right closed monoidal categories]]
+[[!redirects symmetric monoidal closed category]]
+[[!redirects symmetric monoidal closed categories]]
 [[!redirects closed symmetric monoidal structure]]
-[[!redirects closed monoidal structure]]
+[[!redirects closed symmetric monoidal structures]]
 
+[[!redirects biclosed monoidal category]]
+[[!redirects biclosed monoidal categories]]
 [[!redirects monoidal biclosed category]]
 [[!redirects monoidal biclosed categories]]
+[[!redirects left closed monoidal category]]
+[[!redirects left closed monoidal categories]]
+[[!redirects right closed monoidal category]]
+[[!redirects right closed monoidal categories]]
