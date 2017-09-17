@@ -15,7 +15,15 @@ The moduli stack of formal groups $\mathcal{M}_{FG}$ admits a natural [[stratifi
 
 The [[complex oriented cohomology theories]] associated to these [[formal groups]] by the [[Landweber exact functor theorem]] accordingly also inherit such an integer label, called _[[chromatic filtration]]_. Studying this is the topic of [[chromatic homotopy theory]].
 
-The [[stratum]] $\mathcal{M}_{FG}^n$ can be identified with the [[homotopy quotient]] $\overline{\mathbb{F}}_{\mathrm{p}_p}// \mathbb{G}$, where the [[group]] $\mathbb{G}$ is the _[[Morava stabilizer group]]_. ([Lurie 10, lect. 19](#LurieLect19))
+### Morava stabilizer group
+
+Write $\overline{\mathbb{F}_{\mathrm{p}}}$ for the [[algebraic closure]] of $\mathbb{F}_p$.
+
+The [[stratum]] $\mathcal{M}_{FG}^n$ can be identified with the [[homotopy quotient]] $Spec (\overline{\mathbb{F}}_{\mathrm{p}})// \mathbb{G}$, where the [[group]] $\mathbb{G}$ is the _Morava stabilizer group_. 
+
+This is ([Lurie 10, lect. 19, prop. 1](#LurieLect19)) See also the beginning of [Lurie 10, lect 21](#LurieLect21).
+
+### Deformation theory
 
 The [[deformation theory]] around these [[strata]] is [[Lubin-Tate theory]].
 
@@ -31,7 +39,6 @@ The [[deformation theory]] around these [[strata]] is [[Lubin-Tate theory]].
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 19 _Morava stabilizer groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture19.pdf))
  {#LurieLect19}
  
-
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 21 _Lubin-Tate theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf))
  {#LurieLect21}
 
