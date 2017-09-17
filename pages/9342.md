@@ -22,7 +22,7 @@ Full [[quantum field theory]] is sometimes called -- for emphasis and in contras
 
 A textbook account in the school of [[AQFT]] is in 
 
-* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 1913
+* [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
 
 
 [[!redirects non-perturbative QFT]]
