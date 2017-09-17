@@ -5,7 +5,7 @@
 
 ## Definitions
 
-Whiskering is  form of [[composition]] which acts on a [[functor]] and a [[natural transformation]] to produce a natural transformation, or more generally on a [[morphism]] and a $2$-[[2-morphism|morphism]] to produce a $2$-morphism.  If we identify a functor or morphism with its [[identity natural transformation]] or [[identity 2-morphism]], then whiskering is a special case of [[horizontal composition]], and composition of morphisms is a special case of whiskering.
+Whiskering is a form of [[composition]] which acts on a [[functor]] and a [[natural transformation]] to produce a natural transformation, or more generally on a [[morphism]] and a $2$-[[2-morphism|morphism]] to produce a $2$-morphism.  If we identify a functor or morphism with its [[identity natural transformation]] or [[identity 2-morphism]], then whiskering is a special case of [[horizontal composition]], and composition of morphisms is a special case of whiskering.
 
 In detail:
 
