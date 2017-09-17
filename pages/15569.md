@@ -47,7 +47,7 @@ A noteworthy example in this context is the construction of the refined [[Witten
 |------|----------|------------|---------|----|
 | [[differential geometry]] |  [[worldsheet]] | [[moduli stack of bundles]] |   |  |
 | [[complex analytic geometry]] | [[complex curve]]  |  [[Jacobian]]/moduli of [[stable vector bundle|(semi-)stable bundles]]  |  [[moduli stack of Riemann surfaces]] |  [[modular functor]], [[Witten genus]], ...  |
-| [[arithmetic geometry]] |  [[arithmetic curve]]   | [[Tamagawa measures]]...[[geometric Langlands correspondence|geometric Langlands]] | [[moduli stack of curves]] |  [[equivariant elliptic cohomology]], [[string orientation of tmf]], ...  |
+| [[arithmetic geometry]] |  [[arithmetic curve]]   | [[geometric Langlands correspondence|geometric Langlands]] (in particular [[Tamagawa measures]], etc.) | [[moduli stack of curves]] |  [[equivariant elliptic cohomology]], [[string orientation of tmf]], ...  |
 
 The construction of the bottom right items here is a ground-breaking accomplishment in [[algebraic topology]], but at least in view of the origin of the WZW-string and the [[Witten genus]] in [[string theory]] it maybe raises more questions than it solves: from the perspective of physics these are but the first example of a tower of higher dimensional [[brane]] phenomena, the next instance being the [[partition function]] of the [[M5-brane]] and then that of 10d [[string theory]] itself (see e.g. at _[[self-dual higher gauge theory]]_).  
 
