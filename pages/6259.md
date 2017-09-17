@@ -89,5 +89,12 @@ Discussion of the [[quantum anomaly]] of self-dual theories is in
 
 * Samuel Monnier, _The anomaly line bundle of the self-dual field theory_ ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
 
-[[!redirects self-diual higher gauge field]]
-[[!redirects self-diual higher gauge fields]]
+Discussion of the [[conformal block]]s of self-dual higher gauge theories is in 
+
+* [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
+
+
+[[!redirects self-dual higher gauge field]]
+[[!redirects self-dual higher gauge fields]]
+
+[[!redirects self-dual higher gauge theories]]
