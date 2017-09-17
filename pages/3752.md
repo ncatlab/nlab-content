@@ -52,7 +52,13 @@ A **semicategory** or **category without units** $C$ consists of
 
 People often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f : x \to y$; the latter two have the advantage of making clear which category is being discussed.  People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.
 
-## Example
+## Properties
+
+### Nerves and semi-simplicial sets
+
+The [[nerve]] of a semicategory is a [[semi-simplicial set]] which satisfies the [[Segal conditions]].
+
+## Examples
 
 Start with the category of metric spaces and short maps. An occasionally useful semicategory can be formed from it by considering the nonempty spaces and strictly contractive functions. 
 
@@ -69,9 +75,13 @@ The concept of semicategory has more or less evident analogs and generalizations
 
 For models of higher categories by [[simplicial set]]s, i.e. presehaves on the [[simplex category]] (such as [[Kan complex]]es, [[quasi-categories]], [[weak complicial set]]s)  the corresponding semi-category notion is obtained by discarding the degeneracy maps (which are the identity-assigning maps in the simplicial framework), i.e. by considering just presheaves on the subcategory $\Delta_+ \subset \Delta$ on injective morphisms (see the discuss of $\Delta_+$ at [[Reedy model structure]] for more details).
 
+Accordingly, there is the semi-category analog of a [[Segal space]], called a _[[semi-Segal space]]_.
+
 [[Simpson's conjecture]] says that every $\infty$-category has a model where all [[composition]] operations are strict and only the [[unit law]]s hold up to [[coherent]] homotopies. This would mean that the $\infty$-semicategory underlying any $\infty$-category can always be chosen to be strict.
 
 ## Related concepts
+
+* [[semi-simplicial set]]
 
 * [[semi-Segal space]]
 
