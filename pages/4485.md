@@ -10,19 +10,19 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
 
-A [[differentiable map]] $f : X \to Y$ between two [[manifold]]s is called a __submersion__ precisely if its [[differential]] $d f\colon T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x\colon T_x X \to T_{f(x)} Y$.
+A [[differentiable map]] $f : X \to Y$ between two _finite dimensional_ [[manifold]]s is called a __submersion__ precisely if its [[differential]] $d f\colon T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x\colon T_x X \to T_{f(x)} Y$.
 
-In terms of coordinates, the map $f$ is a submersion at a point $p\colon X$ if and only if there exists a coordinate chart on $X$ near $p$ and a coordinate chart on $Y$ near $f(p)$ relative to which $f$ is the projection $f(x_1,\ldots,x_n) = (x_1,\ldots,x_m)$.  This definition applies to non-differentiable maps, even between non-differentiable manifolds.
+In terms of coordinates, the map $f$ is a submersion at a point $p\colon X$ if and only if there exists a [[coordinate chart]] on $X$ near $p$ and a coordinate chart on $Y$ near $f(p)$ relative to which $f$ is the projection $f(x_1,\ldots,x_n) = (x_1,\ldots,x_m)$.  This definition applies to infinite-dimensional manifolds, to non-differentiable maps, even between non-differentiable manifolds.
 
 
 ## Properties
 
-While the [[category]] [[Diff]] of (finite dimensional) [[smooth manifold]]s does not have all [[pullback]]s,  the [[pullback]] along a submersion always exists. This is because a submersion is [[transverse maps|transversal]] to every other smooth map into its codomain.
+While the [[category]] [[Diff]] of (finite dimensional) [[smooth manifold]]s does not have all [[pullback]]s,  the [[pullback]] along a submersion always exists. This is because a submersion is [[transverse maps|transversal]] to every other smooth map into its codomain. Moreover, submersions are stable under pullback.
 
 The [[surjection|surjective]] submersions (that is the submersions that are also [[epimorphism]]s in [[Diff]]) are [[regular epimorphism]]s.
 
@@ -41,6 +41,12 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 
 * [[immersion]], **submersion**, [[local diffeomorphism]]
 
+
+## References
+
+For instance chapter XIV
+
+* [[Serge Lang]], _Fundamentals of differential geometry_ Springer (1991)
 
 [[!redirects submersion]]
 [[!redirects submersions]]
