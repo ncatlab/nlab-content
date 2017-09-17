@@ -219,7 +219,7 @@ such that $i_!$ is a [[full and faithful (∞,1)-functor]].
 +-- {: .proof}
 ###### Proof
 
-Since $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ is an <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#InfinitesimalNeighBourhoodSite">infinitesimally ∞-cohesive site</a> this follows with <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">a proposition</a> discussed at [[cohesive (∞,1)-topos]].
+Since $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ is an [infinitesimally ∞-cohesive site](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalNeighbourhoodFromInfinitesimalSite) this follows with [a proposition](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalNeighbourhoodFromInfinitesimalSite) discussed at _[[cohesive (infinity,1)-topos -- infinitesimal cohesion]]_.
 
 =--
 
