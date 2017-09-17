@@ -227,6 +227,8 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[dense subalgebra]], [[F-star-algebra]]
 
+* [[multiplier algebra]]
+
 * [[graded C*-algebra]]
 
 * [[tensor product of C*-algebras]]
