@@ -39,7 +39,7 @@ $$colim_J T \circ F \to T(colim_J F)$$
 
 is an [[isomorphism]]. 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ###### Proposition 
 Under these hypotheses, $U: C^T \to C$ reflects colimits over $J$. 
 =-- 
@@ -50,7 +50,7 @@ $$0 \to 1 \stackrel{\to}{\to} 0,$$
 
 and subject to the condition that the two composites from $0$ to $0$ are the identity. A colimit over $J$ is called a [[reflexive coequalizer]]. It frequently happens that a monad $T: C \to C$ preserves reflexive coequalizers; in this case, if $C$ has reflexive coequalizers, then so does $C^T$. 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ######Theorem 
 If $C$ is cocomplete and $C^T$ has reflexive coequalizers, then $C^T$ is cocomplete. 
 =-- 
@@ -74,7 +74,7 @@ $$d \to c + d \stackrel{\overset{(f, 1_d)}{\to}}{\underset{(g, 1_d)}{\to}} d$$
 where the first arrow is the coproduct coprojection. 
 =-- 
 
-+-- {: .un_cor}
++-- {: .num_corollary}
 ######Corollary 
 If $T$ is a monad on $Set$, then $Set^T$ is cocomplete. 
 =-- 
@@ -93,17 +93,29 @@ E & \stackrel{\overset{\pi_1}{\to}}{\underset{\pi_2}{\to}} & B & \to & Q}$$
 (the first two vertical arrows being algebra structure maps) is a coequalizer in $Set^T$. The last vertical arrow making the diagram commute gives $Q$ a $T$-algebra structure, and the split coequalizer in the bottom row is reflected in $Set^T$. 
 =-- 
 
-+-- {: .un_cor} 
++-- {: .num_corollary} 
 ###### Corollary 
 If $T$ is a monad on a complete and cocomplete category $C$ that preserves reflexive coequalizers, then $C^T$ is complete and cocomplete. 
 =-- 
 
 The hypotheses of the preceding corollary hold when $T$ is a monad on a complete, cocomplete, cartesian closed category that is induced from a finitary algebraic theory. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers.) 
 
+Here is a more difficult result given in [Toposes, Theories, and Triples](#BarrWells) (theorem 3.9, p. 267): 
+
++-- {: .num_prop} 
+###### Proposition 
+If $C$ has coequalizers and equalizers of arbitrary sets of parallel morphisms, and if a monad $T: C \to C$ preserves colimits of countable chains $\omega \to C$, then $C^T$ has coequalizers. 
+=-- 
+
++-- {: .num_corollary} 
+###### Corollary 
+If $C$ is complete and cocomplete and $T: C \to C$ preserves filtered colimits, then $C^T$ is complete and cocomplete. 
+=-- 
+
 ## Relatively free functors 
 
-+-- {: .un_thm} 
-######Theorem 
++-- {: .num_theorem} 
+###### Theorem 
 Suppose that $\theta: S \to T$ is a morphism of monads on $C$, and suppose that $C^T$ has coequalizers. Then the forgetful functor 
 
 $$C^\theta: C^T \to C^S$$ 
@@ -170,3 +182,9 @@ $$\array{
 
 as desired. This completes the proof. 
 =-- 
+
+## References 
+
+* [[Michael Barr]] and [[Charles Wells]], _Toposes, Theories, and Triples_, Reprints in Theory and Applications of Categories (2005), 1-289. ([online pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf)) 
+{#BarrWells}
+
