@@ -258,6 +258,22 @@ Now consider the free chain complex on $\Delta^n$...
 There are various generalizations and enhancements of the
 Dold--Kan correspondence.
 
+## Quillen equivalence of model categories {#ModelCatVersion}
+
+There are natural and standard [[model category]] structures on the categories involved in the Dold-Kan correspondence, and with respect to these the correspondence is a [[Quillen equivalence]].
+
+More in detail: 
+
+* the _projective_ [[model structure on chain complexes]] $Ch_\bullet$ has as weak equivalences the [[quasi-isomorphism]]s and as fibrations the chain maps that are degreewise surjections;
+
+* the _model structure on simplicial abelian groups_ has as weak equivalences and fibrations those of the underlying morphisms in [[sSet]] with respect to the standard [[model structure on simplicial sets]].
+
+Both functors of the Dold-Kan correspondence match these weak equivalences, fibrations and cofibrations to each other and hence form a [[Quillen equivalence]] of these model structures in two ways, with either one being the left or the right Quillen functor.
+
+This is summarized with further pointers to the literature in [section 4.1](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17) of 
+
+* Schwede, Shipley, _Equivalence of monoidal model categories_ ([pdf](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf))
+
 ## Monoidal version ##
 
 Both the category of simplicial abelian groups as well as the category of nonnegatively graded [[category of chain complexes|chain complexes]] of abelian groups carry a standard structure of a [[monoidal category]].  For simplicial abelian groups this is the levelwise or 'pointwise' tensor product
