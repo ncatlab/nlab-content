@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A system in [[formal logic]] is called _inconsistent_ if it admits a [[proof]] of [[false]]: a _[[contradiction]]_.
+
+Accordingly an [[axiom]] is called _inconsistent_ or to _lead to an inconsistency_ if adding it to an (implicitly understood) ambient logical system makes that system inconsistent.
+
+## Examples
+
+* [[Russell's paradox]]
+
+* [[Burali-Forti's paradox]]
+
+## Related concepts
+
+* [[paraconsistent logic]]
+
+[[!redirects inconsistencies]]
