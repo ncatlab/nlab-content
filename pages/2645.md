@@ -41,11 +41,15 @@ There is a [[noncommutative geometry|noncommutative]] analogue discussed in ([Al
 
 ## References
 
+An early original reference is
+
+* [[Shiing-shen Chern]], _Differential geometry of fiber bundles_ Proceedings of the International Congress of Mathematicians, Cambridge, Mass., 1950, vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952)
+
 An overview with a collection of references is
 
 * _Connections on vector bundles and the Gauss-Bonnet theorem_ ([pdf](http://www.supermanifold.com/connections.pdf))
 
-Some standard monograophs are
+Some standard monographs are
 
 * [[Johan Louis Dupont]], _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, Aarhus, 2003, 115 pp. [pdf](http://www.johno.dk/mathematics/fiberbundlestryk.pdf)
 
