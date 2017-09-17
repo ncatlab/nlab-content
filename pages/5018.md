@@ -22,69 +22,68 @@
 
 ## Idea
 
-A _holonomy groupoid_ is a ([[topological groupoid|topological]]/[[Lie groupoid|Lie]]-)[[groupoid]] naturally associated with a [[foliation]] $ \mathcal{F} $ of a [[manifold]] $ X $. It is, in some sense, the smallest de-singularization of the [[leaf space]] [[quotient]] $ X/\mathcal{F} $ of the foliation, which is, in general, not a manifold itself. Every [[foliation groupoid]] of $ \mathcal{F} $ has this de-singularization property, but the holonomy groupoid is, in some sense, minimal with respect to this property.
+A _holonomy groupoid_ is a ([[topological groupoid|topological]]/[[Lie groupoid|Lie]]-) [[groupoid]] naturally associated with a [[foliation]] $ \mathcal{F} $ of a [[manifold]] $ X $. It is, in some sense, the smallest de-singularization of the [[leaf space|leaf-space]] [[quotient]] $ X/\mathcal{F} $ of the foliation, which is, in general, not a manifold itself. Every [[foliation groupoid]] of $ \mathcal{F} $ has this de-singularization property, but the holonomy groupoid is, in some sense, minimal with respect to this property.
 
-Explicitly, given a (Riemannian) [[foliation]] $ F $ on a manifold $ X $, the _holonomy groupoid_ of $ F $ has as objects the points of $ X $. Given points $ x,y $ lying on the same leaf, a morphism between them is the equivalence class of a path in the leaf from $ x $ to $ y $, where two paths are identified if they induce the same [[germ]] of a holonomy transformation between small transversal subspaces at $ x $ and $ y $. If $ x $ and $ y $ are not on the same leaf, then there is no morphism between them.
+Explicitly, given a [[foliation]] $ \mathcal{F} $ on a manifold $ X $, the _holonomy groupoid_ of $ \mathcal{F} $ has as objects the points of $ X $. Given points $ x,y $ in the same leaf, a morphism between them is the equivalence class of a path in the leaf from $ x $ to $ y $, where two paths are identified if they induce the same [[germ]] of a holonomy transformation between small transversal sections through $ x $ and $ y $. If $ x $ and $ y $ are not in the same leaf, then there is no morphism between them.
 
 This is naturally a [[topological groupoid]] and a [[Lie groupoid]] if done right.
 
-The **monodromy groupoid** of the foliation is obtained from this by further dividing out [[homotopy]] between paths in a leaf.
+The **monodromy groupoid** of the foliation is obtained from this by further dividing out the [[homotopy]] between paths in a leaf.
 
 ## Definition
 
 ### Foliation Holonomy
 
-Let $ (X,\mathcal{F}) $ be a foliated manifold with $ q = codim(\mathcal{F}) $. Let $ L $ be a leaf of $ \mathcal{F} $; let $ x,y \in L $ be two points; and let $ S $ be a transversal section through $ x $ and $ T $ a transversal section through $ y $ (so $ S $ and $ T $ are sub-manifolds transversal to the leaves of $ \mathcal{F} $).
+Let $ (X,\mathcal{F}) $ be a foliated manifold with $ q = codim(\mathcal{F}) $. Let $ L $ be a leaf of $ \mathcal{F} $; let $ x,y \in L $ be two points; and let $ S $ and $ T $ be transversal sections through $ x $ and $ y $ respectively (i.e., $ S $ and $ T $ are sub-manifolds transversal to the leaves of $ \mathcal{F} $).
 
-To a path $ \gamma: [0,1] \to L $ from $ x $ to $ y $, associate the [[germ]] of a (partially defined) [[diffeomorphism]]
+To a path $ \gamma: [0,1] \to L $ from $ x $ to $ y $, we assign the [[germ]] of a (partially defined) [[diffeomorphism]]
 
 $$
 {hol^{S,T}}(\gamma): (S,x) \to (T,y),
 $$
 
-called the **holonomy** of the path $ \gamma $ with respect to $ S $ and $ T $, as follows.
+called the **holonomy transformation** of the path $ \gamma $ with respect to $ S $ and $ T $, as follows:
 
-If there exists a foliation chart $ U $ of $ \mathcal{F} $ that contains the whole path, then there exists an open [[neighbourhood]] $ A $ of $ x $ in $ S \cap U $ on which there is a unique smooth map $ f: A \to T $ satisfying the following conditions:
+If there exists a single foliation chart $ U $ of $ \mathcal{F} $ that contains the image of $ \gamma $, then there exists a sufficiently small open [[neighbourhood|neighborhood]] $ A $ of $ x $ in the space $ S \cap U $ for which there exists a unique smooth map $ f: A \to T $ satisfying the following conditions:
 
-1. $ f(x) = y $;
+* $ f(x) = y $;
 
-2. For every $ a \in A $, the point $ f(a) $ lies in the same plaque in $ U $ as $ a $. We can choose $ A $ sufficiently small so that $ f $ is an actual [[diffeomorphism]] onto its image. Then define $ {hol^{S,T}}(\gamma) $ to be the [[germ]] of this diffeomorphism at $ x $:
+* For every $ a \in A $, the point $ f(a) $ lies in the same plaque in $ U $ as $ a $. Observe that $ f $ is a [[diffeomorphism]] onto its image.
 
-$$
-{hol^{S,T}}(\gamma) {:=} {germ_{x}}(f) \,.
-$$
-
-In general, the path $ \gamma $ is not contained inside a single foliation chart $ U $, but as $ \gamma $ is compact, there exist finitely many foliation charts $ U_{1},\ldots,U_{n+1} $ and numbers $ t_{0},\ldots,t_{n+1} $ such that
-
-(i) $ 0 = t_{0} \le t_{1} \le \cdots \le t_{n} \le t_{n+1} = 1 $ and
-
-(ii) $ \gamma|_{[t_{i-1},t_{i}]} $ is contained in $ U_{i} $ for $ i = 1,\ldots,n+1 $.
-
-Next, choose transversal sections $ T_{i} $ to $ \mathcal{F} $ at $ \gamma(t_{i}) $ for $ i = 1,\ldots,n $ and define
+Then define $ {hol^{S,T}}(\gamma) $ to be the [[germ]] of this diffeomorphism at $ x $:
 
 $$
-      hol^{S,T}(\gamma) 
-{:=}
-      {hol^{T_{n-1},T}}(\gamma|_{[t_{n-1},t_{n}]})
-      \circ \cdots \circ
-      hol^{T_{1},T_{2}}(\gamma|_{[t_{1},t_{2}]})
-      \circ \cdots \circ 
-      hol^{S,T_{1}}(\gamma|_{[0,t_{1}]}) \,.
+{hol^{S,T}}(\gamma) \stackrel{def}{=} {germ_{x}}(f).
+$$
+
+In general, the image of $ \gamma $ is not contained inside any single foliation chart $ U $, but as it is a compact subspace of $ X $, there exist finitely many foliation charts $ U_{1},\ldots,U_{n+1} $ and numbers $ t_{0},\ldots,t_{n+1} $ such that
+
+* $ 0 = t_{0} \lt t_{1} \lt \cdots \lt t_{n} \lt t_{n+1} = 1 $ and
+
+* $ \gamma([t_{i-1},t_{i}]) $ is contained in $ U_{i} $ for $ i = 1,\ldots,n+1 $.
+
+Then arbitrarily choose transversal sections $ T_{i} $ through $ \gamma(t_{i}) $ for $ i = 1,\ldots,n $ and define
+
+$$
+{hol^{S,T}}(\gamma) \stackrel{def}{=}
+{hol^{T_{n},T}} \left( \gamma|_{[t_{n},t_{n+1}]} \right) \circ
+{hol^{T_{n-1},T_{n}}} \left( \gamma|_{[t_{n-1},t_{n}]} \right) \circ \cdots \circ
+{hol^{T_{1},T_{2}}} \left( \gamma|_{[t_{1},t_{2}]} \right) \circ
+{hol^{S,T_{1}}} \left( \gamma|_{[0,t_{1}]} \right).
 $$ 
 
-This definition is independent of the choice of the $ U_{i} $'s and the $ t_{i} $'s, and it only depends on the initial and final transversal sections $ S $ and $ T $.
+This definition is independent of the choice of $ U_{i} $'s, $ t_{i} $'s and $ T_{i} $'s. It only depends on the initial and final transversal sections $ S $ and $ T $.
 
 **Proposition**
 
-* Two homotopic paths with the same endpoints induce the same holonomy. The converse is not true: Two paths with the same endpoints inducing the same holonomy may not be homotopic.
+* Two homotopic paths with the same endpoints induce the same holonomy. (Note, however, that the converse is not true. Two paths with the same endpoints inducing the same holonomy may not be homotopic.)
 
 * If $ S,S' $ are two transversal sections through $ x $ and $ T,T' $ two transversal sections through $ y $, then
 
 $$
-   hol^{S',T'}(\gamma)
+hol^{S',T'}(\gamma)
 = 
-   {hol^{T,T'}}(const_{y})
-   \circ {hol^{S,T}}(\gamma) \circ {hol^{S',S}}(const_{x}) \,.
+{hol^{T,T'}}(const_{y}) \circ {hol^{S,T}}(\gamma) \circ {hol^{S',S}}(const_{x}).
 $$
 
 ### Holonomy Groupoid
