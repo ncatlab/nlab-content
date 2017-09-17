@@ -19,11 +19,16 @@
 
 ## Idea
 
-A _modality_ expresses a certain _mode_ (or "moment" as in [Hegel 12](#Hegel12)).
+A _modality_ in [[logic]]/[[type theory]] expresses a certain _mode_ (or "moment" as in [Hegel 12](#Hegel12)).
 
-Formalized as an [[idempotent monad]]/[[comonad]]. Also _[[closure operator]]_, _modal operator_.
+A _modal operator_ or _[[closure operator]]_ $\sharp$ is a map that sends [[types]] $X$ to new types $\sharp X$, satisfying some properties. 
 
-Gives the name to _[[modal logic]]_, _[[modal type theory]]_.
+The [[categorical semantics]] of these properties is that $\sharp$ is an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
+
+Equipping plain [[logic]]/[[type theory]] with such modal operators
+turns them into _[[modal logic]]_, _[[modal type theory]]_. See there for more details.
+
+This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman)).
 
 ## Examples
 
@@ -39,9 +44,13 @@ Gives the name to _[[modal logic]]_, _[[modal type theory]]_.
 
 ## Related concepts
 
+* [[monad (in computer science)]]
+
 * [[adjoint modality]]
 
+
 ## References
+ {#References}
 
 * [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
  {#Shulman}
