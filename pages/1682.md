@@ -67,6 +67,11 @@ $$
   \,.
 $$
 
+### Chromatic filtration
+
+[[!include chromatic tower examples - table]]
+
+
 ## Construction as the global sections of a derived structure sheaf {#Construction as global sections}
 
 There is a way to "construct" the tmf-spectrum as the [[E-∞ ring]] of [[global section]]s of a [[structured (∞,1)-topos]] whose underlying space is essentially the [[moduli stack]] of [[elliptic curve]]s. We sketch some main ideas of this construction.
