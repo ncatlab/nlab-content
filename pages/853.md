@@ -24,7 +24,11 @@ The notion of a _constant morphism_ in a [[category]] generalises the notion of 
 A _constant morphism_ in a [[category]] $\mathcal{C}$ is a [[morphism]] $c : B \to C$ with the property that for any morphisms $f,g : A \to B$ then $c \circ f = c \circ g$.
 =--
 
-It comes to the same thing to ask that the [[natural transformation]] $c_* \colon \mathcal{C}(-,B) \to \mathcal{C}(-,C)$ given by postcomposition with $c$ factor through the [[terminal object]] of the [[functor category]] $[\mathcal{C}^{\mathrm{op}}, \mathrm{Set}]$, which is the [[constant functor]] at the one-element set.  If $\mathcal{C}$ has a terminal object $T$ then it [[representable functor|represents]] this functor, and so (by [[Yoneda lemma|Yoneda's lemma]]) a morphism $c$ is constant in the above sense if and only if it factors through the terminal object $T$.
++-- {: .query}
+This was here but it's wrong; see the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2689).
+
+> It comes to the same thing to ask that the [[natural transformation]] $c_* \colon \mathcal{C}(-,B) \to \mathcal{C}(-,C)$ given by postcomposition with $c$ factor through the [[terminal object]] of the [[functor category]] $[\mathcal{C}^{\mathrm{op}}, \mathrm{Set}]$, which is the [[constant functor]] at the one-element set.  If $\mathcal{C}$ has a terminal object $T$ then it [[representable functor|represents]] this functor, and so (by [[Yoneda lemma|Yoneda's lemma]]) a morphism $c$ is constant in the above sense if and only if it factors through the terminal object $T$.
+=--
 
 ## Examples
 
