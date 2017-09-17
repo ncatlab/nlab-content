@@ -11,7 +11,7 @@
 
 * [[moduli space of flat connections]]
 
-* [[Narasimhan–Seshadri theorem]]
+* [[Narasimhan–Seshadri theorem]], [[Donaldson-Uhlenbeck-Yau theorem]], [[Kobayashi-Hitchin correspondence]]
 
 * [[moduli space of (higher) line bundles]]
 
