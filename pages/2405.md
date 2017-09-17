@@ -39,6 +39,8 @@ Arakelov complemented the algebraic geometry at finite primes with a holomorphic
 
 * [[Vojta's conjecture]]
 
+* [[global analytic geometry]]
+
 ## References 
 
 ### Introductions and surveys
