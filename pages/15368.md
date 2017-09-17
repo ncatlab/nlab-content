@@ -1,0 +1,6 @@
+
+
+One of the conditions in the definition of _[[metric]]_ and _[[norm]]_.
+
+[[!redirects triangle inequalities]]
+
