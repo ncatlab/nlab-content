@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition ##
@@ -37,6 +37,9 @@ equals the [[identity morphism]] on $X$.
 
 These can be a little more complicated; see [[quasigroup]] for some discussion of the one-object version.
 
+## Related concepts
+
+* [[weak inverse]]
 
 [[!redirects inverse]]
 [[!redirects inverses]]
