@@ -1,18 +1,14 @@
 
-* [website](http://homepage.sns.it/vistoli/)
+* [website](http://homepage.sns.it/vistoli)
 
 ## related $n$Lab entries
 
 * [[Grothendieck fibration]]
-
 * [[Grothendieck topology]]
-
 * [[stack]]
-
 * [[descent]]
-
 * [[FGA explained]]
+* [[descent along a torsor]]
 
 category: people
-
 [[!redirects A. Vistoli]]
