@@ -19,6 +19,8 @@ Quantum measurement is [[measurement]] in [[quantum mechanics]]. Due to traditio
 
 ## Related concepts
 
+* [[quantum fluctuation]]
+
 * [[decoherence]]
 
 * [[interpretation of quantum mechanics]]
