@@ -46,7 +46,7 @@ First of all:
 
 Second:
 
-{#Conjecture3} **Conjecture 3** This construction is supposed to behave well with respect to an analytic [[homomorphism]] ${}^L G \to {}^L G$ in that when changing the representation of ${}^L G$ by precomposition with this homomorphism one may find an accompanying change of Galois representation/automorphic representation such that the associated L-function remains invariant under these joint changes. This statement is what [[Robert Langlands]] calls _functoriality_ ([Gelbhart 84, conjecture 3 (page 31 (207))](#Gelbhart84))
+{#Conjecture3} **Conjecture 3** This construction is supposed to behave well with respect to an analytic [[homomorphism]] ${}^L G \to {}^L G^{'}$ in that when changing the representation of ${}^L G^{'}$ by precomposition with this homomorphism one may find an accompanying change of Galois representation/automorphic representation from $G$ to $G^{'}$ such that the associated L-function remains invariant under these joint changes. This statement is what [[Robert Langlands]] calls _functoriality_ ([Gelbhart 84, conjecture 3 (page 31 (207))](#Gelbhart84))
 
 
 In fact this last conjecture implies the previous two ([Gelbhart 84, (page 32 (208))](#Gelbhart84)).
