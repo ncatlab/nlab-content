@@ -102,3 +102,4 @@ See [[string 2-group]].
 
 
 [[!redirects automorphism 2-group]]
+[[!redirects 2-groups]]
