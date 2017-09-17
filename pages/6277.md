@@ -1,0 +1,3 @@
+John C. Baez, _The Bernoulli numbers_, 2003 notes, [pdf](http://math.ucr.edu/home/baez/qg-winter2004/bernoulli.pdf)
+
+[[!redirects Bernoulli numbers]]
