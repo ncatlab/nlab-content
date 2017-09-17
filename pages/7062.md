@@ -35,7 +35,9 @@ $$
 
 ## Properties
 
-Postulating an interval type in [[homotopy type theory]] implies [[function extensionality]]. ([Shulman](#Shulman)).
+* An interval type is provably [[contractible type|contractible]].  Conversely, any contractible type satisfies the rules of an interval type up to propositional equality.
+
+* On the other hand, postulating an interval type with *definitional* computation rules for `left` and `right` implies [[function extensionality]]. ([Shulman](#Shulman)).
 
 ## Related concepts
 
