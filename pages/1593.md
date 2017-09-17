@@ -29,6 +29,8 @@ An explicit models for [[B-fields]] for the [[bosonic string]]  on orientifolds 
 
 That for the [[superstring]] the B-field is more generally a cocycle with coefficients in the [[Picard infinity-group]] of [[complex K-theory]] ([[super line 2-bundles]]) and a detailed discussion of the orientifold version of this is ([Distler-Freed-Moore 09](#Precis), [Distler-Freed-Moore 10](#DistlerFreedMooreII)) with details in ([Freed 12](#Freed)).
 
+The quadratic pairing entering the [[11d Chern-Simons theory]] that governs the [[RR-field]] here as a [[self-dual higher gauge field]] is given in ([DFM 10, def. 6](#Precis)).
+
 ## Properties
 
 ### Lift to F-theory
@@ -109,4 +111,3 @@ Lifts of type II orientifolds to [[F-theory]] were first discussed in
 * {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
 
 [[!redirects orientifolds]]
-
