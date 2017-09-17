@@ -885,7 +885,7 @@ Realized objectwise as the $(n+1)$-[[simplicial skeleton|simplicial coskelton]].
 
 The underliny bare [[∞-groupoid]] $\Gamm \exp(\mathfrak{a) \in $ is the [[Sullivan construction]] on $CE(\mathfrak{a})$, familiar from [[rational homotopy theory]]. The fact that this construction may be thought of in terms of [[Lie integration]] was amplified in 
 
-* [[Ezra Getzlet]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv])
+* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv])
 
 
 There however only this bare $infty$-groupoid underlying the $\infty$-Lie groupoid $\exp(\mathfrak{a})$ is explicitly considered, the focus of the article being on the construciton of small equivalent models.
