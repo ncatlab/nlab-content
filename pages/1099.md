@@ -198,13 +198,20 @@ More on this is at [[(∞,1)-category of (∞,1)-presheaves]].
 
 ## Related concepts
 
+* [[function]]
+
 * [[functor]]
 
-* [[2-functor]] / [[pseudo-functor]]
+* [[2-functor]] / [[pseudofunctor]]
+
+  * [[monoidal functor]]
 
 * [[n-functor]]
 
-* **$(\infty,1)$-functor**
+* **(∞,1)-functor**
+
+* [[(∞,n)-functor]]
+
 
 
 ## References
