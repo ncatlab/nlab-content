@@ -68,6 +68,7 @@ $$
 
 ## Hi
 
+[[proper homotopy theory (unbroken copy)]]
 
 category: meta
 
