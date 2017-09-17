@@ -27,10 +27,12 @@ $$
   \,.
 $$
 
-By the properties listed there, if $C$ has all small [[(∞,1)-limit]]s then this is equivalent to
+For $\kappa = \omega$ we write just $Pro(C)$.
+
+By the properties listed there, if $C$ has all $\kappa$-small [[(∞,1)-limit]]s then this is equivalent to
 
 $$
-  \cdots \simeq Lex(C, \infty Grpd)^{op} \subset Func(C,\infty Grpd)^{op}
+  \cdots \simeq Lex_\kappa(C, \infty Grpd)^{op} \subset Func(C,\infty Grpd)^{op}
 $$
 
 the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve these limits.
