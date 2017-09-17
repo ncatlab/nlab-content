@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 #### Index theory
 +-- {: .hide}
 [[!include index theory - contents]]
@@ -128,6 +132,8 @@ If one thinks of $D^2$ as the time-evolution [[Hamiltonian]] of a system of [[su
 
 ## Related concepts
 
+* [[spin^c Dirac operator]]
+
 * [[index of a Dirac operator]]
 
 * [[Fredholm module]], [[K-homology]], [[KK-theory]]
@@ -136,7 +142,7 @@ If one thinks of $D^2$ as the time-evolution [[Hamiltonian]] of a system of [[su
 
 Textbooks include
 
-* H. Blaine Lawson Jr. , Marie-Louise Michelson, _Spin geometry_, Princeton Univ. Press 1989.
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
 * [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
  {#Friedrich97}
