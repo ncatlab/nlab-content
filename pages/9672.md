@@ -6,18 +6,22 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Foundations
+#### Relations
 +-- {: .hide}
-[[!include foundations - contents]]
+[[!include relations - contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+
+A _logical relation_ between [[sets]]/[[types]] equipped with extra (algebraic) [[structure]] is a [[relation]] that preserves this structure in the appropropriate way. Hence logical relations are to [[relations]] as [[homomorphisms]] between (algebraic) structure are to [[functions]] of the underlying sets/types. See for instance ([Hermida 13, section 2](#Hermida13)) for a quick survey.
 
 Formal reasoning is critical for building truly secure and reliable software, and one of the key techniques for establishing properties of software systems is that of logical relations ([Reynolds 83](#Reynolds83)). Logical relations can be used to prove i) properties of [[programs]], e.g., that they perform no illegal operations, satisfy certain security criteria, or are observationally equivalent to their compiled forms; ii) whole-language properties, e.g., that [[programming language|languages]] satisfy [[parametricity]], enforce information flow policies, or guarantee privacy; and iii) properties of implementations, e.g., compiler correctness. (from [Johann-Ghani](#JohannGhani)).
 
@@ -31,6 +35,10 @@ Logical relationn have maybe been introduced in
 
 * J. C. Reynolds, _Types, Abstraction and Parametric Polymorphism_ Information Processing 83(1) (1983), pp. 513-523.
   {#Reynolds83}
+
+A quick review is for instance in
+
+* {#Hermida13} [[Claudio Hermida]], Uday Reddy, E. Robinson, _Logical Relations and Parametricity - A Reynolds Programme for Category Theory and Programming Languages_, Electronic Notes in Theoretical Computer Science (2013) ([pdf](http://www.cs.bham.ac.uk/~udr/papers/logical-relations-and-parametricity.pdf))
 
 See also 
 
