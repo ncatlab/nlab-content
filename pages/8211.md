@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
 #### Gravity
 +--{: .hide}
 [[!include gravity contents]]
@@ -32,6 +36,8 @@ In [[string theory]] a given [[Riemann surface]] with punctures can usually be r
 Since closed string excitations induce [[gravity]] while open string excitations induce [[Yang-Mills fields]] as [[effective field theories]], this leads to a multitude of relations between these ordinary [[quantum field theories]], such as the [[KLT relations]] or the [[AdS/CFT correspondence]].
 
 ## Related concepts
+
+* [[duality in physics]]
 
 * [[KLT relations]]
 
