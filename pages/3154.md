@@ -55,5 +55,6 @@ MPIM1999-84, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=949), [ps](htt
 [[!redirects Sasha Rosenberg]]
 [[!redirects Sasha Rozenberg]]
 [[!redirects A. L. Rosenberg]]
+[[!redirects Rosenberg]]
 
 category: people
