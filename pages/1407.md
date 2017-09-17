@@ -136,7 +136,15 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
     * [[differential fivebrane structure]]
 
+  * [[Witten genus]], [[string orientation of tmf]]
+
 * [[type II string theory]]
+
+  * [[type II geometry]]
+
+  * [[elliptic ngenus]]
+
+  * [[Diaconescu-Moore-Witten anomaly]]
 
 * [[Kaluza-Klein mechanism]]
 
