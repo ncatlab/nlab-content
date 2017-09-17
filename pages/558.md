@@ -510,7 +510,19 @@ More literature on models of homotopy types by strict higher groupoids is at
 
 * [[Simona Paoli]], _Internal categorical structures in homotopical algebra_, to appear in _[[johnbaez:Towards Higher Categories]]_, eds. [[John Baez]] and [[Peter May]]  ([pdf](http://www.maths.mq.edu.au/~simonap/paoli_IMA.pdf))
 
+The first paper,  as its title suggests, has an emphasis on using higher groupoids for computation of homotopical invariants, in fact by applying higher homotopy van Kampen Theorems.  These theorems lead to algebraic colimit arguments in algebraic topology, implying  results, often nonabelian,  not obtainable by other methods. It is also remarkable that the precision of these results requires the use of strict structures, whereas the current emphasis in higher category theory is on non strict structures. 
+
 The homotopy theory of [[cubical set]]s is discussed in 
 
 * Jardine, _Model structure on cubical sets_ ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf))
 {#Jardine}
+
+* Maltsiniotis, G. La cat\'egorie cubique avec connexions est une cat\'egorie
+  test stricte. Homology, Homotopy Appl. 11~(2) (2009) 309--326.
+
+Cubical methods are also essential in 
+
+*  R. Brown, P.J. Higgins, R. Sivera,  _Nonabelian algebraic
+topology: filtered spaces, crossed complexes, cubical homotopy
+groupoids_, EMS Tracts in Mathematics Vol. 15, 703 pages. (August
+2011).
