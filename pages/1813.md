@@ -212,6 +212,12 @@ and the simplicially enriched model for [[(infinity,1)-category|(infinity,1)-cat
 
 * [[relation between quasi-categories and simplicial categories]].
 
+## Related concepts
+
+* [[geometric realization]]
+
+* [[totalization]]
+
 ## References 
 
 The notion of nerve and realization (not with these names yet) was introduced and proven to be an [[adjunction]] in section 3 of
