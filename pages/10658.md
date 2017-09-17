@@ -62,6 +62,11 @@ A survey of this and similar motivic phenomena in physics is in the appendix of
 
 * A. Rej, [[Matilde Marcolli]], _Motives, an introductory survey for physicists_ ([pdf](http://www.its.caltech.edu/~matilde/ObiMotivesSurveyFinal.pdf))
 
+and more is in
+
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+
 See also the lecture
 
 * [[Spencer Bloch]], _Dilogarithm motives appearing in physics_ ([video](http://blip.tv/pifagorov/spencer-bloch-dilogarithm-motives-arising-in-physics-3854827))
@@ -190,6 +195,22 @@ That [[D-brane charge]] and [[T-duality]] is naturally understood in terms of pu
 
 * [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys.13:497-552,2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
  {#BMRS2}
+
+
+The general analogy between such [[KK-theory]] cocycles and [[pure motives]] is noted explicitly in 
+
+* [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
+ {#ConnesConsaniMarcolli05}
+
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+This analogy is given a precise form in
+
+*  [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_, ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
+ {#Mahanta13}
+
+where it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from [[KK-theory]] to the category of [[noncommutative motives]], which is the category of [[dg-categories]] and dg-[[profunctors]] up to homotopy between them. This is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] of (the unitalization of) its underlying [[associative algebra]].
+
 
 Linearization of correspondences of [[discrete groupoid|geometrically discrete groupoids]] was considered in 
 
