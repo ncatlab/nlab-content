@@ -14,4 +14,4 @@ and monotonicity (for each $i$):
  
 if $\psi \to \chi \in \Lambda$ then $\Diamond_i \psi \to \Diamond_i \chi \in \Lambda$.  
 
-The smallest normal modal logic is [[the modal logic K(m)|K(m)]].
+The smallest normal modal logic with $m$ 'agents' is [[the logic K(m)|K(m)]]. (The diamonds correspond to the $M_i$ of that entry.)
