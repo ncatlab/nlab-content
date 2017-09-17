@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _[[algebraic K-theory]]_ $\mathcal{K}(\mathcal{C})$ of a _[[symmetric monoidal (∞,1)-category]]_ $\mathcal{C}$ is the [[generalized (Eilenberg-Steenrod) cohomlogy theory]] [[Brown representability theorem|represented]] by the [[∞-group completion]] of the [[commutative ∞-monoid]] which is the [[core]] of $\mathcal{C}$.
+The _[[algebraic K-theory]]_ $\mathcal{K}(\mathcal{C})$ of a _[[symmetric monoidal (∞,1)-category]]_ $\mathcal{C}$ is the [[generalized (Eilenberg-Steenrod) cohomology theory]] [[Brown representability theorem|represented]] by the [[∞-group completion]] of the [[commutative ∞-monoid]] which is the [[core]] of $\mathcal{C}$.
 
 This construction subsumes various other construction in [[algebraic K-theory]].
 
