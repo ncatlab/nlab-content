@@ -140,6 +140,8 @@ If one thinks of $D^2$ as the time-evolution [[Hamiltonian]] of a system of [[su
 
 * [[Lichnerowicz formula]]
 
+* [[Dirac-Ramond operator]]
+
 ## References
 
 Textbooks include
