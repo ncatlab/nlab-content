@@ -50,13 +50,25 @@ One well-developed attempt to construct a hidden variable theory is [[Bohmian me
 
 ## References
 
+Surveys include
+
+* Wikipedia, _[Hidden variable theory](http://en.wikipedia.org/wiki/Hidden_variable_theory)_
+
+The original article on [[Bell's theorem]] is
+
 * [[John Bell]], _On the Einstein Podolsky Rosen paradox_, Physics 1, 195, 1964 ([pdf](http://www.drchinese.com/David/Bell_Compact.pdf))
   {#Bell64}
+
+The original article on the [[Kochen-Specker theorem]] is
 
 * [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_ 1968 , Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf).
   {#KochenSpecker68}
 
-* Wikipedia, _[Hidden variable theory](http://en.wikipedia.org/wiki/Hidden_variable_theory)_
+Discussion of hidden variable theories in terms of [[quantum logic]] is in section 5 of 
+
+* Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
+Giuntini and Francesco Paoli, _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
+  {#CCGP09}
 
 
 [[!redirects hidden variable theory]]
