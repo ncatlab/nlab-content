@@ -91,3 +91,5 @@ The following articles have mostly been subsumed and expanded in the book [[High
   [[Tannaka duality for geometric stacks]] in this context
 
 category: people
+
+[[!redirects J. Lurie]]
