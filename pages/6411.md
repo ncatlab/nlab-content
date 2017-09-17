@@ -1,15 +1,16 @@
+
 +-- {: .un_def}
-######Definition 
-The ring of **Hahn series** with value group $G$, denoted $k[x^G]$, is the ring of functions $f: G \to k$ such that $\{x \in G: f(x) \neq 0\}$ is a well-ordered subset of $G$. Addition is defined pointwise, and multiplication is defined by convolution product: 
-$$(f \cdot g)(x) = \sum_{y+z = x in G} f(y)g(z)$$
+###### Definition
+The ring of **Hahn series** with [[value group]] $G$, denoted $k[x^G]$, is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is a [[well-ordered]] subset of $G$. Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
+$$(f \cdot g)(x) = \sum_{y+z = x \in G} f(y)g(z)$$
 The [[valuation ring|multiplicative valuation]] $v(f)$ is the least $x \in G$ for which $f(x) \neq 0$. 
 =-- 
 
-We obtain a valuation ring from this construction since a valuation ring determines and is determined by a valuation on a field.
+We obtain a [[valuation ring]] from this construction since a valuation ring determines and is determined by a valuation on a [[field]].
 
 +-- {: .un_thm}
-######Theorem 
-The ring $k[x^G]$ is a field. If $k$ is algebraically closed, then $k[x^G]$ is algebraically closed provided that $G$ is [[divisible group|divisible]]. 
+###### Theorem
+The ring $k[x^G]$ is a field. If $k$ is [[algebraically closed field|algebraically closed]], then $k[x^G]$ is algebraically closed provided that $G$ is [[divisible group|divisible]]. 
 =-- 
 
-As a corollary, if $G$ is divisible, $k[x^G]$ is real closed if $k$ is real closed. This is because the adjunction of a square root of $-1$ would make $k[x^G]$ algebraically closed, since this gives the same result as constructing the Hahn series over the algebraically closed field $k[\sqrt{-1}]$. 
+As a corollary, if $G$ is divisible, $k[x^G]$ is [[real closed field|real closed]] if $k$ is real closed. This is because the adjunction of a square root of $-1$ would make $k[x^G]$ algebraically closed, since this gives the same result as constructing the Hahn series over the algebraically closed field $k[\sqrt{-1}]$.
