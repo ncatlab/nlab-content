@@ -30,12 +30,12 @@ A bare interval object may be nothing more than such a diagram. If $C$ admits su
 
 Notably in a large class of applications the interval object in $C$ supposed to be the right structure to ensure 
 
-1. that there is an object $I$ in $C$ such that for every object $X$ of $C$ the [[internal hom|internal hom object]] $[I,X]$ exists and behaves like a [[path object]] for $X$;
+1. that there is an object $I$ in $C$ such that for every object $X$ of $C$ the [[internal hom|internal hom object]] $[I,X]$ exists and behaves like a [[path space object]] for $X$;
 
 2. that there is a notion of composition on these path objects which induces on $[I,X]$ a structure of a (higher) category internal to $C$: the [[fundamental category]] or [[fundamental groupoid]] of the object $X$, or rather its [[fundamental infinity-groupoid]].
 
 For instance the choice $C =$ [[Top]] and $I = [0,1]$ 
-should be an instance of a category with interval object, and the fundamental [[algebraic definition of higher category|algebraic]] [[n-groupoid] $\Pi_n(X)$ obtained for any topological space $X$ from this data should be the fundamental $n$-groupoid as a [[Trimble n-category]].
+should be an instance of a category with interval object, and the fundamental [[algebraic definition of higher category|algebraic]] [[n-groupoid]] $\Pi_n(X)$ obtained for any topological space $X$ from this data should be the fundamental $n$-groupoid as a [[Trimble n-category]].
 
 We give two very similar definitions that differ only in some extra assumptions. 
 
@@ -66,7 +66,7 @@ in $C$, with $I$ and $pt$ any two objects and $0$ and $1$ any two morphisms.
 +-- {: .un_defn}
 ###### Definition (cartesian interval object)
 
-If the [[category]] $C$ has finite [[limit]]s, then a plain interval object is a **cartesian interval object** if $pt = {*}$ is the [[terminal object]].
+If the [[category]] $C$ has finite [[limit]]s, then a plain interval object is called a **cartesian interval object** if $pt = {*}$ is the [[terminal object]].
 
 =--
 
@@ -76,66 +76,14 @@ Examples for the use of this notion are below in the section on geometric models
 
 If the ambient category $C$ is a [[homotopical category]],
 such as a [[model category]], there are natural 
-further conditions to put on an interval object
+further conditions to put on an interval object:
 
-
-#### Berger--Moerdijk segment object 
-
-
-In [section 4](http://arxiv.org/PS_cache/math/pdf/0502/0502155v2.pdf#page=11)
-of
-
-* Clemens Berger, [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ ([arXiv](http://arxiv.org/abs/math.AT/0502155))
-
-the following definition is given:
-
-Let $V$ be a [[monoidal model category]] and write $pt$ for the tensor unit in $V$ (not necessarily the terminal object). 
-
-A **segment** object $I$ in a [[monoidal model category]] $V$ is 
-
-* a factorization 
-
-  $$
-    pt \amalg pt \stackrel{[0 , 1]}{\to} 
-    I \stackrel{\epsilon}{\to} pt
-  $$
-
-  of the [[codiagonal morphism]]
-
-  $$
-    pt \amalg pt \stackrel{[Id , Id]}{\to} pt
-  $$ 
-
-  from the [[coproduct]] of $pt$ with itself that 
-  sends each component identically to $pt$.
-
-* together with an associative morphsim 
-
-  $$
-    \vee : I \otimes I \to I
-  $$ 
-
-  which has 0 as its _neutral_ and 1 as 
-  its _absorbing_ element, and for which 
-  $\epsilon$ is a counit.
-
-If $V$ is equipped with the structure of a [[model category]] then a segment object is an **interval** in $V$ if 
-
-$$
-  [0, 1]\colon pt \amalg pt \to I
-$$ 
-
-is a cofibration and $\epsilon : I \to pt$ a weak equivalence.
 
 
 #### Intervals for Trimble $\omega$-categories
  {#IntervalForTrimbledOmegaeCategories}
 
 The following definition is tentative. It arose from the discussion reproduced further below.
-
-The following definition of category with interval object aims to abstract this construction away from $V = $ [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]].
-
-
 
 A **category with interval object** is
 
@@ -190,6 +138,56 @@ of $n \in \mathbb{N}$ copies of the [[co-span]] $I$ with itself by pushout over 
    {}_{pt}[I, I^{\vee n}]_{pt}
    \,.
  $$
+
+#### Berger--Moerdijk segment object 
+
+
+In [section 4](http://arxiv.org/PS_cache/math/pdf/0502/0502155v2.pdf#page=11)
+of
+
+* Clemens Berger, [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ ([arXiv](http://arxiv.org/abs/math.AT/0502155))
+
+the following definition is given:
+
+Let $V$ be a [[monoidal model category]] and write $pt$ for the tensor unit in $V$ (not necessarily the terminal object). 
+
+A **segment** object $I$ in a [[monoidal model category]] $V$ is 
+
+* a factorization 
+
+  $$
+    pt \amalg pt \stackrel{[0 , 1]}{\to} 
+    I \stackrel{\epsilon}{\to} pt
+  $$
+
+  of the [[codiagonal morphism]]
+
+  $$
+    pt \amalg pt \stackrel{[Id , Id]}{\to} pt
+  $$ 
+
+  from the [[coproduct]] of $pt$ with itself that 
+  sends each component identically to $pt$.
+
+* together with an associative morphsim 
+
+  $$
+    \vee : I \otimes I \to I
+  $$ 
+
+  which has 0 as its _neutral_ and 1 as 
+  its _absorbing_ element, and for which 
+  $\epsilon$ is a counit.
+
+If $V$ is equipped with the structure of a [[model category]] then a segment object is an **interval** in $V$ if 
+
+$$
+  [0, 1]\colon pt \amalg pt \to I
+$$ 
+
+is a cofibration and $\epsilon : I \to pt$ a weak equivalence.
+
+
 
 ### In homtopy type theory
   {#InHomotopyTypeTheory}
@@ -369,6 +367,7 @@ as follows:
 =--
 
 
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -466,6 +465,7 @@ More on this in the following example section.
 
 Let $X = $ [[Top]] or $C = $ [[Diff]] be the category of [[topological space]]s
 or of [[manifold]]s.
+
 
 A standard choice of interval object in $C$ is $I = [0,1] \subset \mathbb{R}$
 with the obvious two boundary inclusions $0,1 : {*} \to [0,1]$.
