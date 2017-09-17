@@ -55,7 +55,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) For discussions about material (both maths and metas) here on the nLab.
 
-* Categories-List [archives](http://blog.gmane.org/gmane.science.mathematics.categories) (email discussion forum about category theory)
+* the [category theory mailing list](http://www.mta.ca/~cat-dist/) (email discussion forum about category theory) and [archives](http://blog.gmane.org/gmane.science.mathematics.categories)
+
 
 ### Collections
 
