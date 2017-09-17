@@ -1,0 +1,4 @@
+
+For $G$ a [[Lie group]], a $G$-manifold is a [[manifold]] with $G$-[[special holonomy]].
+
+[[!redirects G-manifolds]]
