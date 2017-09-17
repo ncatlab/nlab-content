@@ -181,6 +181,10 @@ A textbook account of (finitary) geometric logic can be found in
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
+A systematic introduction to topos theory and geometric logic can be found in the following draft of chapter of a book in progress by O. Caramello:
+
+* [[Olivia Caramello]], _Topos-theoretic background_ , ms. 2014. ([pdf](http://www.oliviacaramello.com/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf))
+
 For additional background on (finitary) geometric formulas consider:
 
 * Karel Stokkermans, [[Bill Lawvere]], and [[Steve Vickers]]: _Catlist discussion March 1999_ . ([link](http://comments.gmane.org/gmane.science.mathematics.categories/1058))
