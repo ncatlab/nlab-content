@@ -28,7 +28,7 @@
 
 ## Idea
 
-In [[quantum field theory]] the term _gravitino_ refers to the superpartner of the [[graviton]].
+In [[quantum field theory]] the term _gravitino_ refers to the [[supersymmetry|superpartner]] of the [[graviton]], a [[Rarita-Schwinger field]] of [[spin]] $3/2$ that appears in [[supergravity]].
 
 In [[supergravity]] a field configuration is a [[connection on a bundle|connection]] locally given by a  [[Lie algebra-valued form]]
 
