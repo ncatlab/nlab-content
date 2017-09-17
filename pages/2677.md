@@ -1,5 +1,5 @@
 
-#Contents#
+#F-un#
 * automatic table of contents goes here
 {:toc}
 
@@ -34,7 +34,8 @@ A survey of the various competing theories is
 * [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Fun with $\mathbf{F}_1$_, [arxiv/0806.2401](http://arxiv.org/abs/0806.2401)
 
 * [[Alain Connes]], Caterina Consani, _On the notion of geometry over $\F_1$_, [arxiv/0809.2926](http://arxiv.org/abs/0809.2926); _Schemes over $\F_1$ and zeta functions_, [arxiv/0903.2024](http://arxiv.org/abs/0903.2024); _Characteristic one, entropy and the absolute point _, [arxiv/0911.3537](http://arxiv.org/abs/0911.3537); _From monoids to hyperstructures: in search of an absolute arithmetic_, [](); _On the arithmetic of the BC-system_, [arxiv/1103.4672](http://arxiv.org/abs/1103.4672) 
-
+* [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv:
+1108.2874](http://arxiv.org/1108.2874)
 * Bora Yalkinoglu, _On Endomotives, Lambda-rings and Bost-Connes systems_,  With an appendix by Sergey Neshveyev, [arxiv/1105.5022](http://arxiv.org/abs/1105.5022)
 
 An approach in terms of [[Lambda-ring]]s is
@@ -42,3 +43,4 @@ An approach in terms of [[Lambda-ring]]s is
 * [[James Borger]], _Lambda-rings and the field with one element_, [arXiv/0906.3146](http://arxiv.org/abs/0906.3146)
 
 [[!redirects field of one element]]
+[[!redirects Fun]]
