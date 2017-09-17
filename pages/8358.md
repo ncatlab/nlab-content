@@ -15,7 +15,7 @@
 
 ## Idea 
 
-A realizability topos is a [[topos]] which embodies the [[realizability interpretation]] of [[intuitionistic mathematics|intuitionistic]] [[number theory]] (due to Kleene) as part of its [[internal logic]]. Realizability toposes form an important class of toposes that are not [[Grothendieck toposes]]. 
+A realizability topos is a [[topos]] which embodies the [[realizability interpretation]] of [[intuitionistic mathematics|intuitionistic]] [[number theory]] (due to Kleene) as part of its [[internal logic]]. Realizability toposes form an important class of toposes that are not [[Grothendieck toposes]], and don't even have a [[geometric morphism]] to [[Set]].
 
 The input datum for forming a realizability topos is a [[partial combinatory algebra]], or PCA. When the PCA is Kleene's first algebra, the resulting topos is called the [[effective topos]]. 
 
