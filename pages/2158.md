@@ -13,4 +13,7 @@ Using [[excluded middle]], we can say that, if $T$ is inhabited, then any consta
 See also [[constant morphism]].
 
 
+[[!redirects constant function]]
 [[!redirects constant functions]]
+[[!redirects constant map]]
+[[!redirects constant maps]]
