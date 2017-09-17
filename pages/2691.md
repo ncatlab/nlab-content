@@ -554,7 +554,7 @@ $$
 +-- {: .un_prop }
 ###### Proposition
 
-The functor $cdgAlg_k(-,-)$ satisfies the duall of the [[pushout-product axiom]]: for $i : A \to B$ any cofibration in $cdgAlg_k$ and $p : X \to Y$ any fibration, the canonical morphism
+The functor $cdgAlg_k(-,-)$ satisfies the dual of the [[pushout-product axiom]]: for $i : A \to B$ any cofibration in $cdgAlg_k$ and $p : X \to Y$ any fibration, the canonical morphism
 
 $$
   (i^*, p_*) : cdgalg_k(A,B) \to 
@@ -566,7 +566,7 @@ is a [[Kan fibration]], which is acyclic if $i$ or $p$ is.
 
 =--
 
-This follows ([BousfieldGugenheim, prop. 5.3](#BousfieldGugenheim)). See also the discussion at [[model structure on dg-algebras over an operad]].
+This follows the proof of ([BousfieldGugenheim, prop. 5.3](#BousfieldGugenheim)). See also the discussion at [[model structure on dg-algebras over an operad]].
 
 +-- {: .un_prop }
 ###### Proposition
@@ -622,7 +622,7 @@ is a fibration. But this follows from the fact that $\Omega^\bullet_{poly} : sSe
 #### Derived copowering over $sSet$ {#DerivedCopowering}
 
 We discuss a concrete model for the $(\infty,1)$-copowering of 
-$(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of the ordinary [[copowering]] of the [[category of chain complexes]] $Ch^\bullet(k)$ over [[sSet]].
+$(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of an operation of $cdgAlg_k$ over [[sSet]].
 
 +-- {: .un_definition}
 ###### Definition
@@ -630,7 +630,7 @@ $(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of the ordinary [[copowering]] of t
 Define a [[functor]]
 
 $$  
-  CC : sSet \times cdgAlg \to cdgAl
+  CC : sSet \times cdgAlg \to cdgAlg
 $$
 
 by setting for $A \in cdgAlg$ and $Y \in sSet$ degreewise finite
@@ -646,6 +646,126 @@ all simplicial sets. (...)
 
 This appears as ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)).
 
++-- {: .un_prop}
+###### Proposition
+
+Restricted to the [[subcategory]] $cAlg_k \hookrightarrow cdgAlg_k$ this operation is under the [[monoidal Dold-Kan correspondence]] the canonical [[copowering]] $sSet \times cAlg_k \to cAlg_k^{\Delta^{op}} \stackrel{N}{\to} cdgAlg$ induced by the fact that $cAlg_k$ has [[coproduct]]s.
+
+=--
+
+This follows from the fllowing basic fact, which we recall here in detail for completeness.
+
++-- {: .un_prop}
+###### Proposition
+
+In $CAlg_k$ the [[coproduct]] is given by the [[tensor product]] over $k$:
+
+$$
+  \left(
+  \array{
+    A 
+      &\stackrel{i_A}{\to}& 
+    A \coprod B 
+      &\stackrel{i_B}{\leftarrow}& 
+    B
+   }
+  \right)
+  \simeq
+  \left(
+    \array{
+      A 
+        &\stackrel{Id_A \otimes_k e_B}{\to}& 
+      A \otimes_k B 
+        & \stackrel{e_A \otimes Id_B}{\leftarrow}&
+      B
+   }
+  \right)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check the [[universal property]] of the coproduct: for $C \in CAlg_k$ and $f,g : A,B \to C$ two morphisms, we need to show that there is a unique morphism $(f,g) : A \otimes_k B \to C$  such that the diagram
+
+$$
+  \array{
+    A 
+     &\stackrel{Id_A \otimes e_B}{\to}&
+    A \otimes_k B
+     &\stackrel{e_A \otimes Id_B}{\leftarrow}&
+    B
+    \\
+    & {}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{(f,g)}} & \swarrow_{\mathrlap{g}} 
+    \\
+    && C
+  }
+$$
+
+commutes.
+For the left triangle to commute we need that $(f,g)$ sends elements of the form $(a,e_B)$ to $f(a)$. For the right triangle to commute we need that $(f,g)$ sends elements of the form $(e_A, b)$ to $g(b)$. Since every element of $A \otimes_k B$ is a product of two elements of this form
+
+$$
+  (a,b) = (a,e_B) \cdot (e_A, b)
+$$
+
+this already uniquely determines $(f,g)$ to be given on elements by the map
+
+$$
+  (a,b) \mapsto f(a) \cdot g(b)
+  \,.
+$$
+
+That this is indeed an $k$-algebra homomorphism follows from the fact that $f$ and $g$ are
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+For these derivations it is crucial that we are working with commutative algebras.
+
+=--
+
++-- {: .un_cor}
+###### Corollary
+
+We have that the tensoring of $A$ with the map of sets from two points to the single point
+
+$$
+  (* \coprod * \to *) \cdot A
+  \simeq
+  (
+    A \otimes_k A
+     \stackrel{\mu}{\to}
+    A
+  )
+$$
+
+is the product morphism on $A$. And that the tensoring with the map from the empty set to the point 
+
+$$
+  (\emptyset \to *)\cdot A
+  \simeq
+  (k \stackrel{e_A}{\to} A)
+$$
+
+is the unit morphism on $A$. Generally, for $f : S \to T$ any map of sets we have that the tensoring
+
+$$
+  (S \stackrel{f}{\to} T) \cdot A
+  =
+  A^{\otimes_k |S|}
+  \to
+  A^{\otimes_k |T|}
+$$
+
+is the morphism between [[tensor power]]s of $A$ of the cardinalities of $S$ and $T$, respectively, whose component over a copy of $A$ on the right corresponding to $t \in T$ is the iterated product $A^{\otimes_k |f^{-1}\{t\}|} \to A$ on as many tensor powers of $A$ as there are elements in the preimage of $t$ under $f$.
+
+=--
+
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -653,7 +773,6 @@ This appears as ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)).
 The [[(∞,1)-limit|(∞,1)-copowering]] of $(dgcAlg_k)^\circ$ over [[∞Grpd]] is modeled by the [[derived functor]] of $CC$.
 
 =--
-
 
 
 +-- {: .proof}
