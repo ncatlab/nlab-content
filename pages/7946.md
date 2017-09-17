@@ -39,6 +39,12 @@ The [[Lie algebra]] of the symplectomorphism group is that of [[symplectic vecto
 [[!redirects symplectomorphism groups]]
 
 [[!redirects Hamiltonian symplectomorphism group]]
+[[!redirects Hamiltonian symplectomorphism groups]]
 
 [[!redirects n-plectomorphism ∞-group]]
 [[!redirects n-plectomorphism infinity-group]]
+
+[[!redirects Hamiltonian symplectomorphism n-group]]
+[[!redirects Hamiltonian symplectomorphism n-groups]]
+
+
