@@ -26,7 +26,7 @@ In particular, a [[convenient category of topological spaces]] is, in the techni
 
 * The category $PsTop$ of [[pseudotopological space|pseudotopological spaces]] (also called Choquet spaces) is a quasitopos containing $Top$ as a full reflective subcategory.  In particular, $PsTop$ is [[locally cartesian closed category|locally cartesian closed]] (but not locally presentable).
 
-* In his paper _On a topological topos_, Peter Johnstone described a [[Grothendieck topos]] $E$ which contains the category of [[sequential space|sequential]] topological spaces as a full reflective subcategory which is closed under many colimits (including all those used to define [[CW complex|CW complexes]]).  Again, since $E$ is a Grothendieck topos, it is locally presentable and locally cartesian closed.  Moreover, the [[geometric realization]] and [[singular complex]] functors form a [[geometric morphism]] between $E$ and the category of [[simplicial set|simplicial sets]].  The "underlying set" functor $E\to Set$ is not [[faithful functor|faithful]], but it is faithful on the full subcategory of [[subsequential space|subsequential spaces]], which contain the sequential spaces and form a [[quasitopos]].
+* In his paper _On a topological topos_, Peter Johnstone described a [[Grothendieck topos]] $E$ which contains the category of [[sequential space|sequential]] topological spaces as a full reflective subcategory which is closed under many colimits (including all those used to define [[CW complex|CW complexes]]).  Again, since $E$ is a Grothendieck topos, it is locally presentable and locally cartesian closed.  Moreover, the [[geometric realization]] and [[singular complex]] functors form a [[geometric morphism]] between $E$ and the category of [[simplicial set|simplicial sets]].  The "underlying set" functor $E\to Set$ is not [[faithful functor|faithful]], but it is faithful on the full subcategory of [[subsequential space|subsequential spaces]], which contain the sequential spaces and form a [[quasitopos]].  See [[topological topos]].
 
 * On the other hand, the category of [[compact Hausdorff spaces]] is perfectly nice for some purposes. While neither cartesian closed nor locally presentable, it is on the other hand a [[pretopos]]. In this way it is both a category of [[nice topological spaces]] and a nice category of topological spaces, thus an exception proving the "rule" described at [[dichotomy between nice objects and nice categories]]. 
 
@@ -46,7 +46,7 @@ In particular, a [[convenient category of topological spaces]] is, in the techni
 
 * O. Wyler, _Lecture notes on topoi and quasitopoi_ (for pseudotopological spaces)
 
-* P. Johnstone, _On a topological topos_
+* [[Peter Johnstone]], _On a [[topological topos]]_
 
 
 [[!redirects nice categories of spaces]]
