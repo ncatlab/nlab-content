@@ -77,7 +77,9 @@ an **invariant polynomial** on $\mathfrak{a}$ is an elements $\langle - \rangle 
     \,;
   $$
 
-* it is closed in $W(\mathfrak{a})$ in that $d_{W(\mathfrak{a})} \langle - \rangle = 0$.
+* it is closed in $W(\mathfrak{a})$ in that $d_{W(\mathfrak{a})} \langle - \rangle = 0$
+
+   or more generally its differential is again in the shifted copy.
 
 =--
 
