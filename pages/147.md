@@ -149,6 +149,8 @@ where $f_*$ is the restriction of $f$ to sheaves.
 
 =--
 
+This appears for instance as ([Johnstone, lemma C2.2.3, cor. C2.2.4](#Johnstone)).
+
 +-- {: .proof}
 ###### Proof
 
@@ -225,7 +227,13 @@ $Lan_f X : d \mapsto {\lim_{\to}}((f^{op}/d) \to C^{op} \stackrel{X}{\to} Set)$ 
 +-- {: .num_prop #GeometricMorphismsOverCartesianSitesComesFromMorphismsOfSites}
 ###### Proposition
 
-Let $(\mathcal{C}, J)$ and $(\mathcal{D}, K)$ be [[cartesian site]]s such that $\mathcal{C}$ is a [[small category]], $\mathcal{D}$ is an [[essentially small category]] and the [[coverage]] $K$ is [[subcanonical coverage|subcanonical]]. 
+Let $(\mathcal{C}, J)$ and $(\mathcal{D}, K)$ be [[cartesian site]]s such that 
+
+* $\mathcal{C}$ is a [[small category]], 
+
+* $\mathcal{D}$ is a possibly [[large site]] but with a [[small category|small]] [[dense subsite]]  (an "essentially small site" in ([Johnstone, p. 548](#Johnstone)))
+
+* and the [[coverage]] $K$ is [[subcanonical coverage|subcanonical]]. 
 
 Then a [[geometric morphism]] of the corresponding [[sheaf toposes]]
 
