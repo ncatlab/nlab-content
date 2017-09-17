@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] _matter_ is [[bound states]] of [[fermion|fermionic]] [[particles]].
+
+This is in contrast to [[force]] [[gauge fields|fields]], whose [[quanta]] are [[bosons|bosonic]] [[particles]].
+
+In the [[standard model of particle physics]] all matter fields are [[sections]] of a [[spinor bundle]] on [[spacetime]] which is [[associated bundle|associated]] of a $U(1) \times SU(2) \times SU(3)$-[[principal bundle]].
+
+## Related concept
+
+* **matter**, [[energy]], [[force]], [[spacetime]]
+
+* [[dark matter]]
+
