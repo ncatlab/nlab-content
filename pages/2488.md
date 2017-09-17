@@ -660,19 +660,6 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
 
-[[!redirects truncated]]
-
-[[!redirects (-2)-truncated]]
-[[!redirects (-1)-truncated]]
-[[!redirects 0-truncated]]
-[[!redirects 1-truncated]]
-[[!redirects 2-truncated]]
-[[!redirects 3-truncated]]
-[[!redirects 4-truncated]]
-[[!redirects n-truncated]]
-[[!redirects k-truncated]]
-
-
 [[!redirects n-truncated object of an (infinity,1)-category]]
 [[!redirects n-truncated object of an (∞,1)-category]]
 [[!redirects n-truncated object in an (infinity,1)-category]]
@@ -692,12 +679,3 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 [[!redirects truncated object of an (∞,1)-topos]]
 [[!redirects truncated object in an (infinity,1)-topos]]
 [[!redirects truncated object in an (∞,1)-topos]]
-
-[[!redirects n-truncated object]]
-[[!redirects n-truncated objects]]
-
-[[!redirects n-truncation]]
-[[!redirects n-truncations]]
-
-[[!redirects truncation]]
-[[!redirects truncations]]
