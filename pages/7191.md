@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The notion of a  _compact toposes_ is the generalization to [[toposes]] of the notion of [[compact topological space]].
+
+## Definition
+
+A [[topos]] $\mathcal{F}$ over the [[base topos]] [[Set]] is called _compact_ is the [[global section]] functor $\Gamma : \mathcal{F} \to Set$ preserves [[directed colimit|directed]] [[unions]] of [[subobjects]] of the [[terminal object]].
+
+(...)
+
+## References
+
+* [[Ieke Moerdijk]], J.J.C. Vermeulen, _Proper maps of toposes_, American Mathematical Society (2000)
+
+[[!redirects compact toposes]]
+[[!redirects compact topoi]]
