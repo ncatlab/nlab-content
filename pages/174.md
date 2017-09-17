@@ -40,7 +40,7 @@ There are two fundamentally different concrete realizations of this somewhat vag
 
 #### In terms of the algebraic data of the QFT on the worldvolume
 
-An abstractly defined $n$-dimensional [[quantum field theory]] is a consistent assignment of [[state]]-space and correlators to $n$-dimensional [[cobordism]]s with certain structure (topological structure, conformal structure, Riemannian structure, etc. see [[FQFT]]/[[AQFT]]). In an _open-closed QFT_ the cobordisms are allowed to have boundaries. 
+An abstractly defined $n$-dimensional [[quantum field theory]] is, a consistent assignment of [[state]]-space and correlators to $n$-dimensional [[cobordisms]] with certain structure (topological structure, conformal structure, Riemannian structure, etc. see [[FQFT]]/[[AQFT]]). In an _open-closed QFT_ the cobordisms are allowed to have boundaries. See at _[[boundary field theory]]_ for more on this.
 
 In this abstract formulation of QFT a **brane** is a type of data assigned by the QFT to boundaries of cobordisms. 
 
