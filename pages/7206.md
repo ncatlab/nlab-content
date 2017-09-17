@@ -43,6 +43,8 @@ The maximally supersymmetric $N = 8$-version arises from [[type II supergravity]
 
 * **4-dimensional supergravity**
 
+  * [[M-theory on G2-manifolds]], [[G2-MSSM]]
+
 * [[3-dimensional supergravity]]
 
 
@@ -61,4 +63,8 @@ The maximally supersymmetric $N = 8$-version arises from [[type II supergravity]
 [[!redirects 4d supergravity]]
 
 [[!redirects N=8 d=4 supergravity]]
+
+[[!redirects N=1 d=4 supergravity]]
+[[!redirects N=1 D=4 supergravity]]
+
 
