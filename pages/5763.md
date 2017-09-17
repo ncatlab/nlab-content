@@ -242,14 +242,20 @@ for its set of [[normal operator]]s. This is naturally a [partial C-star algebra
 
 For $A$ a [partial C-star algebra](#PartialCStar) write $\mathcal{C}(A)$ for the [[poset]] of total (not partial) commutative sub [[C-star algebra]]s. We call this the [[poset of commutative subalgebras]].
 
-This extends to a functor
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+This construction extends to a functor
 
 $$
   \mathcal{C} : C^* Alg \to Poset
   \,.
 $$
 
-to the [[category]] [[Poset]] of [[posets]].
+to the [[category]] [[Poset]] of [[posets]]: for $f : A \to B$ a homomorphism we let $\mathcal{C}(f)$ be over any $C \in \mathcal{C}(A)$ be the [[image]] $im(f|_C) \in C^\ast Alg$ of the restriction of $f$ to $C$.
 
 =--
 
@@ -315,7 +321,7 @@ A morphism $f : A \to B$ in $C^* Alg$ is commutativity reflecting precisely if t
 $$
   (Alex \mathcal{C}(f) \dashv Alex R_f)
   Alex \mathcal{C}(A)
-   \stackrel{Alex R_f}{\underset{Alex \mathcal{C}(f)}{\to}}
+   \stackrel{\overset{Alex R_f}{\leftarrow}}{\underset{Alex \mathcal{C}(f)}{\to}}
   Alex \mathcal{C}(B)
   \,.
 $$
@@ -325,7 +331,7 @@ or equivalently
 $$
   (\mathcal{C}(f) \dashv R_f)
   \mathcal{C}(A)
-   \stackrel{R_f}{\underset{\mathcal{C}(f)}{\to}}
+   \stackrel{\overset{R_f}{\leftarrow}}{\underset{\mathcal{C}(f)}{\to}}
   \mathcal{C}(B)
   \,.
 $$
@@ -464,19 +470,19 @@ $$
   [\mathcal{C}(A), Set]
 $$
 
-equipped with the evident morphism of internal $C^*$-algebras
+(wher $Lan$ and $Ran$ denote left and right [[Kan extension]], respectively) equipped with the morphism of internal $C^*$-algebras
 
 $$
   \eta_f : \underline{A} \to f_* \underline{B}
 $$
 
-which over $C \in \mathcal{C}(A)$ is the restriction
+which over $C \in \mathcal{C}(A)$ is the restriction of $f$ to $C$ and [[corestriction]] to $\mathcal{C}(f)(C)$
 
 $$
-  f|_C : C \to f(C)
+  f|_C : C \to \mathcal{C}(f)()C
 $$
 
-of $f$ to $C$. 
+(to the $C^\ast$-completion of the algebraic image of $f|_C$).
 
 =--
 
