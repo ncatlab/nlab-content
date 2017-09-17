@@ -1,10 +1,18 @@
-Jet spaces are a generalization of a [[tangent space]]s. While a tangent vector is an equivalence class of [[germ]]s of curves with order 1 tangency at a given point in the target, jet spaces are equivalence classes of [[germ]]s of smooth maps with respect to (finite) order k tangency at some point in the target. 
+# Jet spaces
+* table of contents
+{: toc}
 
-### Origins### 
+## Idea
+
+Jet spaces are a generalization of a [[tangent space]]s. While a tangent vector is an [[equivalence class]] of [[germ]]s of curves with order-$1$ tangency at a given point in the target, jet spaces are equivalence classes of [[germ]]s of smooth maps with respect to (finite) order-$k$ tangency at some point in the target. 
+
+
+## Origins
 
 Jet bundles were first introduced by [[Charles Ehresmann]].
 
-### References### 
+
+## References
 
 * wikipedia: [jet](http://en.wikipedia.org/wiki/Jet_%28mathematics%29), [jet bundle](http://en.wikipedia.org/wiki/Jet_bundle)
 
@@ -16,4 +24,6 @@ Jet bundles were first introduced by [[Charles Ehresmann]].
 
 * D. J. Saunders, _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
+
+[[!redirects jet space]]
 [[!redirects jet spaces]]
