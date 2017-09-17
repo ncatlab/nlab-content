@@ -5,10 +5,10 @@
 
 ## Definitions
 
-Ideals show up both in [[ring]] theory and in [[lattice]] theory.  Actually, both of these can be slightly generalised:
+Ideals show up both in [[ring]] theory and in [[lattice]] theory.  We recall both of these below and look at some slight generalizations.
 
 
-### In rings and other rigs
+### In rings (and other rigs)
 
 A __left ideal__ in a [[ring]] (or even [[rig]]) $R$ is a [[subset]] $I$ of (the underlying set of) $R$ such that:
 *  $0 \in I$;
@@ -32,7 +32,7 @@ This generalises to:
 Notice that all three kinds of ideal are equivalent for a commutative ring.
 
 
-### In lattices and other prosets
+### In lattices (and other prosets)
 
 An __ideal__ in a [[lattice]] (or even [[preorder|proset]]) $L$ is a [[subset]] $I$ of (the underlying set of) $L$ such that:
 *  There is an element of $I$ (so that $I$ is [[inhabited set|inhabited]]);
@@ -54,19 +54,25 @@ The concept of ideal is dual to that of [[filter]].  A subset of $L$ that satisf
 
 ### In both at once
 
-A [[distributive lattice]] is both a lattice and a commutative rig; the two concepts of ideal are the same, as can be seen by comparing the definition for rigs to the last definition for lattices.
+There are some common situations where these two kinds of ideal might seem to clash but fortunately do not:
 
-A [[Boolean algebra]] is a rig in two different ways: as a distributive lattice and as a [[Boolean ring]].  Fortunately, these actually give the same concept of ideal.
+* A [[distributive lattice]] is both a lattice and a commutative rig; the two concepts of ideal are the same, as can be seen by comparing the definition for rigs to the last definition for lattices.
+
+* A [[Boolean algebra]] is a both a distributive lattice and a [[Boolean ring]]; again, the two concepts of ideal are the same (partly because the multiplication operators are the same, although there is still some checking to do regarding closure under addition).
+
+On the other hand, every poset is a poset in an [[opposite poset|opposite]] way, and this does *not* give the same concept of ideal; an ideal in one is a [[filter]] in the opposite one.  We are lucky that the convention for interpreting a Boolean ring as a lattice goes in the correct direction, or the two notions of ideal in a Boolean algebra would not match; or perhaps it is not a matter of luck, but the convention for which way to define ideals in a lattice was chosen precisely to match the conventions for Boolean algebras!
 
 
 ### In monoids
 
-There is a notion of ideal in a [[monoid]], or more generally in a [[monoid object]] in any [[monoidal category]] $C$, which generalises the notion of ideal in a ri(n)g or in a (semi)lattice.  That is, if $C$ is [[Ab]], then a monoid in $C$ is a [[ring]]; if $C$ is [[Ab Mon]], then a monoid in $C$ is a [[rig]]; and a [[semilattice]] is a commutative idempotent monoid in [[Set]].  See [[ideal in a monoid]].
+There is a notion of ideal in a [[monoid]] (or even [[semigroup]]), or more generally in a [[monoid object]] in any [[monoidal category]] $C$, which generalises the notion of ideal in a ri(n)g or in a (semi)lattice.  That is, if $C$ is [[Ab]], then a monoid in $C$ is a [[ring]]; if $C$ is [[Ab Mon]], then a monoid in $C$ is a [[rig]]; and a [[semilattice]] is a commutative idempotent monoid in [[Set]].  See [[ideal in a monoid]].
+
+This generalizes all of the above notions of ideal *except* for ideals in prosets that are not (possibly unbounded) join-semilattices.
 
 
 ### In categories
 
-More generally still, passing from monoids to their many-object version there is a notion of ideal in a [[category]]. This is usually called a _[[sieve]]_. See there.
+More generally still, passing from monoids to their many-object version there is a notion of ideal in a [[category]], called a _[[sieve]]_.  See there for details.
 
 
 ## Kinds of ideals
