@@ -113,6 +113,8 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 [[Urs Schreiber]]: there is one object of $QChan$ per element $n$ of the set of natural numbers, namely the vector space $Mat(n \times n, \mathbb{C})$. So $QChan$ has a _set_ of objects, namely $Obj(QChan) \simeq \mathbb{N}$ and hence is certainly a [[small category]]. (I don't know which commuting squares are meant.)
 
+[[Ian Durham]]: Yeah, the question on commutative squares was vague so let's not worry about it right now.  I would agree that, as defined, $QChan$ is small, though I'm not so sure about it necessarily being an endomorphism (unless I'm mis-interpreting Urs' comment).  For instance, a quantum channel can take as the input $L(\mathcal{H}_{A})\otimes C(X)$ (where $L(\mathcal{H}_{A})$ is the set of linear operators on the Hilbert space $\mathcal{H}_{A}$ and $C(X)$ is the set of continuous functions on some vector space $X$) and can spit out $L(\mathcal{H}_{B})$.  Physically this means it can take a quantum + classical input and give a quantum-only output.  This doesn't seem endomorphic to me (since we traditionally don't define the classical piece as being on a Hilbert space), at least on some level, but I could be wrong.
+
 =--
 
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
