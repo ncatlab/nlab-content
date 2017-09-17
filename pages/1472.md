@@ -25,7 +25,7 @@ This entry discusses fundamental physics from the [[nPOV]].
 * automatic table of contents goes here
 {:toc}
 
-## The basic stuctures {#BasicStructures}
+## The basic structures {#BasicStructures}
 
 We discuss the set of the scene of fundamental physics. 
 
