@@ -675,6 +675,12 @@ hence are [[internal categories in an (∞,1)-category]] in the [[(2,1)-category
 
 (...)
 
+## Related concepts
+
+* [[congruence]]
+
+* [[n-congruence]]
+
 ## References
 
 
