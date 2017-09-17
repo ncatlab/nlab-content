@@ -99,9 +99,140 @@ Another main theorem about $(\infty,1)$-toposes is that
 
 ## Properties
 
+### Closed monoidal structure {#ClosedMonoidalStructure}
+
++-- {: .un_prop}
+###### Proposition
+
+Every $(\infty,1)$-topos is a [[cartesian closed (∞,1)-category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the fact that every $(\infty,1)$-topos $\mathbf{H}$ has [[universal colimits]] it follows that for every object $X$ the [[(∞,1)-functor]]
+
+$$
+  X \times (-) : \mathbf{H} \to \mathbf{H}
+$$
+
+preserves all [[(∞,1)-colimit]]s. Since every $(\infty,1)$-topos is a [[locally presentable (∞,1)-category]] it follows with the [[adjoint (∞,1)-functor theorem]] that there is a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
+
+$$
+  (X \times (-) \dashv [X,-]) : \mathbf{H} \stackrel{\overset{X \times (-)}{\leftarrow}}{\underset{[X,-]}{\to}} \mathbf{H}
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an [[(∞,1)-site]] for $\mathbf{H}$ we have that the internal hom $[X,-]$ is given on $A \in \mathbf{H}$ by the [[(∞,1)-sheaf]]
+
+$$
+  [X,A] : U \mapsto \mathbf{H}(X \times L y(U), A)
+  \,,
+$$
+
+where $y : C \to \mathbf{H}$ is the [[(∞,1)-Yoneda embedding]] and $L : PSh_C \to \mathbf{H}$ denotes [[∞-stackification]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The argument is entirely analogous to that of the [[closed monoidal structure on sheaves]].
+
+We use the [[full and faithful (∞,1)-functor|full and faithful]] [[geometric embedding]] $(L \dashv i) : \mathbf{H} \hookrightarrow PSh_C$ and the [[(∞,1)-Yoneda lemma]] to find for all $U \in C$ the value
+
+$$
+  [X,A](U) \simeq PSh_C(y U, [X,A])
+$$
+
+and then the fact that [[∞-stackification]] $L$ is [[left adjoint]] to inclusion to get
+
+$$
+  \cdots \simeq \mathbf{H}(L y(U), [X,A])
+  \,.
+$$
+
+Then the defining adjunction $(X \times (-) \dashv [X,-])$ gives
+
+$$
+  \cdots \simeq \mathbf{H}(X \times L y(U) , A)
+  \,.
+$$
+
+
+=--
+
++-- {: .un_cor}
+###### Corollary
+
+Finite colimits may be taken out of the internal hom: For $I$ a finite $(\infty,1)$-category and $X : I \to \mathbf{H}$ a [[diagram]], we have for all $A \in \mathbf{H}$
+
+$$
+  [{\lim_\to}_i X_i, A]
+   \simeq
+  {\lim_\leftarrow}_i [X_i,A]
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above proposition we have
+
+$$
+  [{\lim_\to}_i X_i, A](U) 
+  \simeq
+  \mathbf{H}(({\lim_\to}_i X_i) \times L y(U), A)
+  \,.
+$$
+
+By [[universal colimits]] in $\mathbf{H}$ this is
+
+$$
+  \cdots \simeq
+  \mathbf{H}({\lim_\to}_i X_i \times L y(U), A)
+  \,.
+$$
+
+Using the fact that the [[hom-functor]] sends colimits in the first argument to limits this is
+
+$$
+  \cdots \simeq {\lim_\leftarrow}_i \mathbf{H}(X_i \times L y U, A)
+  \,.
+$$
+
+By the internal hom adjunction and Yoneda this is
+
+$$
+  \cdots \simeq {\lim_\leftarrow}_i [X_i, A](U)
+  \,.
+$$
+
+Since [[(∞,1)-limit]]s in the [[(∞,1)-category of (∞,1)-presheaves]] are computed objectwise, this is
+
+$$
+  \cdots \simeq ({\lim_\leftarrow}_i [X_i,A])(U) 
+  \,.
+$$
+
+Finally, because $L$ is a  [[left exact (∞,1)-functor]] this is also the [[(∞,1)-limit]] in $\mathbf{H}$.
+
+
+
+=--
+
 ### Over-$(\infty,1)$-toposes
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 For $\mathbf{H}$ an $(\infty,1)$-topos and $X \in \mathbf{H}$ an object, the [[over-(∞,1)-category]] $\mathbf{H}_{/X}$ is itself an $(\infty,1)$-topos -- an **[[over-(∞,1)-topos]]**. The projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ part of an  [[essential geometric morphism]]
 
@@ -111,6 +242,8 @@ $$
   \mathbf{H}
   \,.
 $$
+
+=--
 
 This is [[Higher Topos Theory|HTT, prop. 6.3.5.1]].
 
