@@ -39,7 +39,7 @@ Under the process of forming [[groupoid convolution algebras]] a good bit of com
 
 ### Connes' noncommutative geometry 
 
-A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. This is really "spectral" and possibly non-commutative [[Riemannian geomety]], where the metric structure on a possibly noncommutative "[[algebra of functions]]" is encoded by a structure called a _[[spectral triple]]_ (see there for more). 
+A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. This is really "spectral" and possibly non-commutative [[Riemannian geometry]], where the metric structure on a possibly noncommutative "[[algebra of functions]]" is encoded by a structure called a _[[spectral triple]]_ (see there for more). 
 
 The central ingredients in Connes' noncommutative geometry are
 
@@ -53,7 +53,7 @@ For that reason [[Alain Connes|Connes]]' noncommutative manifolds are well descr
 
 * Noncommutative measure spaces are represented by noncommutative von Neumann algebras. 
 
-In noncommutative geometry various homotopical and (co)homological invariants were introduced by large amount of improvization, similar to the beginnings of algebraic topology, but more recently there are few systematic approaches to homotopy theory emerging. See [[model structure on operator algebras]].
+In noncommutative geometry various homotopical and (co)homological invariants were introduced by large amount of improvisation, similar to the beginnings of algebraic topology, but more recently there are few systematic approaches to homotopy theory emerging. See [[model structure on operator algebras]].
 
 
 ## Related concepts
