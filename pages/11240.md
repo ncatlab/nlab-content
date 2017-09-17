@@ -1,0 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A concept of [[computation]] assuming computable operations more powerful than in traditional [[computability]] (more powerful that [[partial recursive functions]] and [[computable function (analysis)|computable functions in computable analysis]]).
+
+## References
+
+* Wikipedia, _[Hypercomputation](http://en.wikipedia.org/wiki/Hypercomputation)_
+
