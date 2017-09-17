@@ -98,6 +98,12 @@ By contrast, in a [[definitional set theory]], an equality relation is *structur
 
 * **equality**, [[equation]]
 
+* [[inequality]]
+
+  * [[denial inequality]] 
+  
+  * [[apartness relation]]
+
 * [[isomorphism]]
 
 * [[equivalence]]
