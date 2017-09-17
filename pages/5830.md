@@ -262,7 +262,7 @@ Introductions to the idea of homotopy type theory include
 
 * [[Michael Shulman]], _Homotopy type theory_ [I](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html), [II](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html), [III](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html), [IV](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html), [V](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_v.html), [VI](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html)
 
-* [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/))
+* [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://www.math.ias.edu/~mshulman/hottminicourse2012/))
 
 * [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#Voevodsky}
