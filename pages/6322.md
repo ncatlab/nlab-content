@@ -33,13 +33,17 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
       * [[quark]], [[gluon]]
 
+      * [[instanton in QCD]]
+
       * [[quark-gluon plasma]]
 
 * [[string theory results applied elsewhere]]
 
-## Referemces
+## References
 
 (...)
+
+Discussion of QCD [[perturbation theory]] includes
 
 * [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
 
