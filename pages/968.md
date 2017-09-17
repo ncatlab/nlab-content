@@ -46,7 +46,7 @@ in addition, $t_n^{n+1} = 1$
 
 ### As a classifying topos
 
-The [[category]] of cyclic sets, beting a [[presheaf category]] is a [[topos]], and hence is the [[classifying topos]] for some [[geometric theory]]. This turns out to be the theory of [[abstract circles]]. ([Moerdjik 96](#Moerdijk96)). Accordingly there is an [[infinity-action]] of the [[circle group]] on the [[geometric realization]] of a cyclic set (see also [Drinfeld 03](#Drinfeld03)).
+The [[category]] of cyclic sets, beting a [[presheaf category]] is a [[topos]], and hence is the [[classifying topos]] for some [[geometric theory]]. This turns out to be the theory of [[abstract circles]]. ([Moerdijk 96](#Moerdijk96)). Accordingly there is an [[infinity-action]] of the [[circle group]] on the [[geometric realization]] of a cyclic set (see also [Drinfeld 03](#Drinfeld03)).
 
 ## Related concepts
 
