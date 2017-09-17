@@ -79,7 +79,12 @@ $$
 
 =-- 
 
-Another way of stating this is that a Grothendieck topos is local if and only if the terminal object $1$ is [[connected object|connected]] and [[projective object|projective]] (since this means precisely that $\Gamma = \hom(1, -)$ preserves colimits, and therefore has a right adjoint by virtue of an [[adjoint functor theorem]]). Another term for this: we say $1$ is _[[tiny object|tiny]]_ ([[atomic object|atomic]]). 
++-- {: .num_remark}
+###### Remark
+
+Another way of stating this is that a Grothendieck topos is local if and only if the terminal object $1$ is [[connected object|connected]] and [[projective object|projective]] (since this means precisely that $\Gamma = \hom(1, -)$ preserves colimits, and therefore has a right adjoint by virtue of an [[adjoint functor theorem]]). Another term for this: we say $1$ is _[[tiny object|tiny]]_ ([[atomic object|atomic]]). Notice the similarity to the concept of _[[amazing right adjoint]]_ (the difference being that this is a right adjoint not to the external but to the [[internal hom]] out of 1.)
+
+=--
 
 ## Properties
 
