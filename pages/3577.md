@@ -10,7 +10,16 @@
 
 ## Idea
 
-The analog in [[(∞,1)-category]] theory of the notion of a [[site]] in ordinary [[category theory]].
+The structure of an $(\infty,1)$-site on an [[(∞,1)-category]] $C$ is precisely the data encoding an [[(∞,1)-category of (∞,1)-sheaves]] 
+
+$$
+  Sh(C) \hookrightarrow PSh(C)
+$$
+
+inside the [[(∞,1)-category of (∞,1)-presheaves]] on $C$.
+
+The notion is the analog in [[(∞,1)-category]] theory of the notion of a [[site]] in 1-[[category theory]].
+
 
 ## Definition
 
