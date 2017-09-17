@@ -86,7 +86,7 @@ An application in theory of stacks is in
 
 See also 
 
-* Ehlers, _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
+*[[Phil Ehlers|P. J. Ehlers]], _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
 University of Wales Bangor, available [[Ehlers-thesis.pdf|here:file]], (see also the reference below and the Tim Porter's [[Menagerie]] notes 
 
 
