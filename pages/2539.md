@@ -16,39 +16,47 @@
 
 ## Summary
 
-The Tietze extension theorem says that continuous functions extend from closed subsets of a [[normal space]] $X$ to the whole space $X$. There is another less well-known variant: smooth functions on _closed_ subdomains of a smooth manifold may always be extended.
+The _Tietze extension theorem_ says that [[continuous function]]s extend from [[closed subset]]s of a [[normal space]] $X$ to the whole space $X$. 
 
 
 ## Statement 
 
+### For topological spaces
 
-### In the category of smooth manifolds {#Manifolds}
 
 +-- {: .un_theorem}
 ###### Theorem
 
-For every closed subset $X \subset \mathbb{R}^n$ every smooth function $X \to \mathbb{R}$ has an extension to a smooth function $\mathbb{R}^n \to \mathbb{R}$
+For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subset]], there is for every [[continuous function]] $f : A \to \mathbb{R}$ to the [[real line]] a continuous function $F : X \to \mathbb{R}$ extending it, i.e. such that $F|_A = f$.
 
 =--
 
-One way to prove this is to use the fact that there is a [[full and faithful functor]]
-[[Diff]] $\to \mathbb{L}$ into the category of smooth loci, discussed in the next
-section. After using that fact the proof becomes trivial.
 
-
-### In the category of smooth loci {#SmoothLoci}
+### In the category of smooth manifolds and smooth loci {#Manifolds}
 
 Let $\mathbb{L} = (C^\infty Ring^{fin})^{op}$ be the category of [[smooth loci]],
 the [[opposite category]] of finitely generated [[generalized smooth algebra]]s.
 By the theorem discussed there, there is a [[full and faithful functor]]
 [[Diff]] $\hookrightarrow \mathbb{L}$.
 
++-- {: .un_def}
+###### Definition
+
 For $A = C^\infty(\mathbb{R}^n)/J$ and $B = C^\infty(\mathbb{R}^n)/I$
 with $I \subset J$ and $B \to A$ the projection of [[generalized smooth algebra]]s
 the corresponding [[monomorphism]] $\ell A \to \ell B$ in $\mathbb{L}$ 
-exhibits $\ell A$ as a 
-closed smooth sublocus of $\ell B$.
+exhibits $\ell A$ as a **closed smooth sublocus** of $\ell B$.
 
+=--
+
++-- {: .un_lemma}
+###### Lemma
+
+Let $X$ be a [[smooth manifold]] and let $\{g_i \in C^\infty(X)\}_{i = 1}^n$ be [[smooth function]]s that are independent in the sense that at each common zero point $x\in X$, $\forall i : g_i(x)= 0$ we have the [[derivative]] $(d g_i) : T_x X \to \mathbb{R}^n$ is a surjection, then the ideal $(g_1, \cdots, g_n)$ coincides with the ideal of functions that vanish on the zero-set of the $g_i$.
+
+=--
+
+This is lemma 2.1 in ([MoerdijkReyes](#MoerdijkReyes)).
 
 +-- {: .un_prop}
 ###### Proposition
@@ -61,7 +69,7 @@ extends to a morphism $\ell B \to R$
 
 =--
 
-
+This is prop. 1.6 in ([MoerdijkReyes](#MoerdijkReyes)).
 
 +-- {: .proof}
 ###### Proof
@@ -76,12 +84,11 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 =--
 
 
-So in the category $\mathbb{L}$ of [[smooth locus|smooth loci]] the extension theorem holds trivially. 
-
 
 
 ## References
 
-chapter I and II of
+The smooth version is discussed in  chapter I and II of
 
-* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
+{#MoerdijkReyes}
