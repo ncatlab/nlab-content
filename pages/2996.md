@@ -19,7 +19,7 @@ An **$A_\infty$-space** is an [[A-∞ algebra]] in [[Top]]. See there for more d
 
 ## Related concepts
 
-* [[E-∞ space]]
+[[!include k-monoidal table]]
 
 * [[model structure for dendroidal left fibrations]]
 
