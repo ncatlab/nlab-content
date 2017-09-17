@@ -35,7 +35,7 @@ are the globally [[Kan complex]]-valued (i.e. [[∞-groupoid]]-valued) presheave
 
 ## Related concepts
 
-* [[sheafification]]
+* [[sheafification]], [[plus-construction on presheaves]]
 
 * [[(∞,1)-sheafification]] / **∞-stackification** 
 
