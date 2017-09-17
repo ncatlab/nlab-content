@@ -20,7 +20,7 @@
 
 ## Idea
 
-The standard [[interval object]] in a [[category of chain complexes]] in $R$[[Mod]] is an "abelianization" of the standard simplicial interval, the 1-[[simplex]].
+The standard [[interval object]] in a [[category of chain complexes]] in $R$[[Mod]] is an "abelianization" of the standard simplicial interval, the 1-[[simplex]] and a model of the unit interval, $[0,1]$, with the evident cell decomposition.
 
 ## Definition
 
@@ -35,7 +35,7 @@ $$
   I_\bullet \in Ch_\bullet(\mathcal{A})
 $$
 
-isthe [[normalized chain complex]] of the [[chain on a simplicial set|simplicial chains]] on the simplicial 1-[[simplex]]:
+is the [[normalized chain complex]] of the [[chain on a simplicial set|simplicial chains]] on the simplicial 1-[[simplex]]:
 
 $$
   I_\bullet \coloneqq N_\bullet(C(\Delta[1]))
@@ -63,12 +63,12 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-A [[homotopy]] with respect to $I_\bullet$ is a 
-[[chain homotopy]]. 
+A [[homotopy]] with respect to $I_\bullet$ gives a 
+[[chain homotopy]] and conversely. 
 
 =--
 
-See there for more details.
+See the entry on [[chain homotopy]]  for more details.
 
 
 
