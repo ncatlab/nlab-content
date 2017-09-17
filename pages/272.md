@@ -76,19 +76,33 @@ Sheaves are used explicitly in:
 
 ## Related concepts
 
-* **AQFT**
+* [[quantum mechanics]], [[quantum field theory]]
 
-  * [[Haag-Kastler axioms]]
+  * **AQFT**
 
-  * [[local net of observables]]
+    * [[Haag-Kastler axioms]]
 
-* [[FQFT]]
+    * [[local net of observables]]
+
+  * [[FQFT]]
 
 ## References
+
+### Axioms
 
 The original article that introduced the [[Haag-Kastler axioms]] is
 
 * [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
+
+The generalization of the [[spacetime]] [[site]] from open in [[Minkowski space]] to more general and [[curvature|curved]] spacetimes is due to
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_ Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Backgrounds_ , Proceedings of the Kompaktkurs "Quantenfeldtheorie auf gekruemmten Raumzeiten" held at Universitaet Potsdam, Germany, in 8.-12.10.2007, organized by C. Baer and K. Fredenhagen
+
+See also _[[AQFT on curved spacetimes]]_ .
+
+### Textbooks
 
 Classical textbooks are
 
@@ -114,17 +128,39 @@ A classic of the trade is this one:
 
 * Bogolyubov, Logunov, Oksak, Todorov: _General principles of quantum field theory_ (Mathematical Physics and Applied Mathematics, 10. Dordrecht etc.: Kluwer Academic Publishers, 1990)
 
-The relation of AQFT to traditional topics of [[quantum field theory]] such as [[renormalization]] is discussed in
 
-* [[Romeo Brunetti]], Michael Duetsch, [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ ([arXiv](http://arxiv.org/abs/0901.2038))
+### Reviews
+
+Recent account of the principle of locality in AQFT from the point of view of traditional school
+
+* [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
+
+
+### Perturbation theory and renormalization
+ {#ReferencesPerturbationTheory}
+
+[[perturbation theory|Perturbation theory]] and [[renormalization]] in the context of AQFT and  is discussed in
+
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
+
+(relation to [[gauge theory]] and [[QED]])
+
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_
+Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079)) 
+
+(relation to [[deformation quantization]])
+
+* [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
+
+(relation to [[renormalization]])
+
+
+### Relation to functorial QFT
 
 A relation to [[FQFT]] is discussed in
 
 * [[Urs Schreiber]], _AQFT from $n$-functorial QFT_ , Comm. Math. Phys., Volume 291, Issue 2, pp.357-401 ([pdf](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf))
 
-Recent account of the principle of locality in AQFT from the point of view of traditional school
-
-* [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
 
 [[!redirects algebraic quantum field theory]]
 [[!redirects algebraic quantum field theories]]
