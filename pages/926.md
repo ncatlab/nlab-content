@@ -251,7 +251,7 @@ This is observed for instance in ([DwyerKan](#DwyerKan)). Also see [[coskeleton]
 #### Identification relative to skeleta
  {#IdentificationRelativeSkeleta}
 
-The following construction qotients out the relations encoded by the cells that are thrown in in the above construction, such as to make the maps in the Postnikov tower into [[Kan fibrations]].
+The following construction quotients out the relations encoded by the cells that are thrown in in the above construction, such as to make the maps in the Postnikov tower into [[Kan fibrations]].
 
 We first discuss the absolute tower  and then the relative version.
 
