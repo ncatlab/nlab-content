@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -12,7 +12,6 @@
 # Compact spaces
 * automatic table of contents goes here
 {: toc}
-
 
 ## Idea
 
@@ -60,10 +59,10 @@ As the union is the [[coproduct]] in the [[category of open subsets]] $Op(X)$, w
 The ambient space $X$ is a [[compact object]] in $Op(X)$.
 =--
 
-Compactness is equivalent to the condition of being "stably closed" (and it is this condition which suggests the correct notion of "proper map" in algebraic geometry and elsewhere):
+Compactness is equivalent to the condition of being "stably closed" (and it is this condition which suggests the correct notion of [[proper map]] in [[algebraic geometry]] and elsewhere):
 +-- {: .num_defn #projection}
 ###### Definition
-For any space $Y$, the projection map $X \times Y \to Y$ is closed.
+For any space $Y$, the projection map $X \times Y \to Y$ is [[closed map|closed]].
 =--
 
 Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction). 
@@ -87,13 +86,13 @@ A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 ## Standard Results
 
-* Assuming the axiom of choice, the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
+* Assuming the [[axiom of choice]], the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
 
 * The direct [[image]] of a compact subspace under a [[continuous map]] is compact. A topological space becomes a [[bornological set]] by taking the bounded sets to be subsets with compact closure, and under this bornology, every continuous function is a bounded map.  
 
 * A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
 
-One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness.
+One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness in locale theory.
 
 
 ## Terminology
@@ -105,16 +104,14 @@ But it is far from clear to me ([[Todd Trimble]]) that "quasicompact" is very we
 Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even when 'compact' is not used to imply Hausdorffness).
 
 
-[[!redirects compact topological space]]
-[[!redirects compact convergence space]]
-[[!redirects compact locale]]
+[[!redirects compact space]]
 [[!redirects compact spaces]]
+[[!redirects compact topological space]]
 [[!redirects compact topological spaces]]
+[[!redirects compact convergence space]]
 [[!redirects compact convergence spaces]]
+[[!redirects compact locale]]
 [[!redirects compact locales]]
 
 [[!redirects compact manifold]]
 [[!redirects compact manifolds]]
-
-
-[[!redirects compact]]
