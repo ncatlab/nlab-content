@@ -179,6 +179,9 @@ Of these the case $G = $ [[E8]] is the other one relevant in [[string theory]]: 
 
 $\cdots \to$ [[Fivebrane group]] $\to$ **string group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
 
+[[!include image of J -- table]]
+
+
 * [[string orientation of tmf]]
 
 [[!include table of orthogonal groups and related]]
