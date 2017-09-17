@@ -149,7 +149,8 @@ see [[Pfaffian]] for the moment
 ## Related entries
 
 * [[matrix]], [[linear algebra]], [[exterior algebra]], [[characteristic polynomial]]
-* [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]], [[resultant]], [[discriminant]]
+* [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]]
+* [[resultant]], [[discriminant]], [[hyperdeterminant]]
 * [[determinant line]], [[determinant line bundle]], [[Pfaffian line bundle]]
 
 ## References 
