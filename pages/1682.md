@@ -227,3 +227,5 @@ is in section 8 of
 
 
 [[!redirects TMF]]
+
+[[!redirects tmf spectrum]]
