@@ -13,7 +13,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 
@@ -21,10 +21,10 @@
 
 ## Idea
 
-$Pr(\infty,1)Cat$ is the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-preserving [[(∞,1)-functor]]s between them ([[Lawvere distribution]]s).
+$Pr(\infty,1)Cat$ is the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-preserving [[(∞,1)-functors]] between them ([[Lawvere distributions]]).
 
 
-Recall that a [[presentable (∞,1)-category]] is a [[localization of an (∞,1)-category|localization]] of a [[(∞,1)-category of (∞,1)-presheaves]]. In particular it has all small [[colimit]]s. An [[(∞,1)-functor]] $C \times D \to E$ from the cartesian product of two presentable $(\infty,1)$-categories is _bilinear_ if it respects colimits in both variables.
+Recall that a [[presentable (∞,1)-category]] is a [[localization of an (∞,1)-category|localization]] of a [[(∞,1)-category of (∞,1)-presheaves]]. In particular it has all small [[colimits]]. An [[(∞,1)-functor]] $C \times D \to E$ from the cartesian [[product]] of two presentable $(\infty,1)$-categories is _bilinear_ if it respects colimits in both variables.
 
 It turns out that there is a _universal_ such bilinear functor
 
@@ -35,7 +35,7 @@ $$
 
 which thereby defines a [[tensor product of presentable (∞,1)-categories]]. This defines a [[monoidal (infinity,1)-category|monoidal structure]] on presentable $(\infty,1)$-categories, which is in fact [[symmetric monoidal (infinity,1)-category|symmetric]]. 
 
-The collection $Pr(\infty,1)Cat$ of presentable $(\infty,1)$-cateories with colimit-preserving [[(∞,1)-functor]]s between them (i.e. with "*linear*" functors between them!), is an $(\infty,1)$-generalization of the category $Set Mod$ of ordinary categories and [[bimodule]]s or [[profunctor]]s, or [[distributor]]s between them. See [[distributor]] and in particular the discussion there about the equivalent reformulation in terms of colimit-preserving functors.
+The collection $Pr(\infty,1)Cat$ of presentable $(\infty,1)$-cateories with colimit-preserving [[(∞,1)-functors]] between them (i.e. with "*linear*" functors between them!), is an $(\infty,1)$-generalization of the category $Set Mod$ of ordinary categories and [[bimodules]] or [[profunctors]], or [[distributors]] between them. See [[distributor]] and in particular the discussion there about the equivalent reformulation in terms of colimit-preserving functors.
 
 Using $Pr(\infty,1)Cat$ with its notion of "linearity" one obtains a very general notion of $\infty$-linear algebra. This is described at [[geometric ∞-function theory]].
 
@@ -43,11 +43,11 @@ Using $Pr(\infty,1)Cat$ with its notion of "linearity" one obtains a very genera
 
 ### Unstable version
 
-Write $Pr(\infty,1)Cat_1$ for the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-categories]] whose
+Write $Pr(\infty,1)Cat_1$ for the [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-categories]] whose
 
 * objects are [[presentable (∞,1)-category|presentable (∞,1)-categories]];
 
-* morphisms are [[(∞,1)-colimit]]-preserving [[(∞,1)-functor]]s.
+* morphisms are [[(∞,1)-colimit]]-preserving [[(∞,1)-functors]].
 
 
 
@@ -62,7 +62,7 @@ The tensor unit of stable presentable $(\infty,1)$-categories is the [[stable (�
 
 ### Hom-objects
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
 For $C, D \in Pr(\infty,1)Cat$, let 
@@ -71,11 +71,11 @@ $$
   Func^L(C,D) \subset Func(C,D)
 $$
 
-be the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve all small [[(∞,1)-colimit]]s.
+be the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve all small [[(∞,1)-colimits]].
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For all $C,D$ we have that $Func^L(C,D)$ is itself locally presentable.
@@ -85,20 +85,21 @@ For all $C,D$ we have that $Func^L(C,D)$ is itself locally presentable.
 This is [[Higher Topos Theory|HTT, prop. 5.5.3.8]].
 
 ### Embedding into $(\infty,1)Cat$
+ {#EmbeddingIntoCat}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
-All small [[limit in a quasi-category|limits and colimits]] exists in $Pr(\infty,1)Cat$ and are preserved by the embedding $Pr(\infty,1)Cat \hookrightarrow $ [[(∞,1)Cat]].
+All small [[limit in a quasi-category|limits and colimits]] exists in $Pr(\infty,1)Cat$. The limits are preserved by the embedding $Pr(\infty,1)Cat \hookrightarrow $ [[(∞,1)Cat]].
 
 =--
 
-This is [[Higher Topos Theory|HTT, prop. 5.5.3.13]] together with [[Higher Topos Theory|HTT, theorem 5.5.3.18]].
+This is [[Higher Topos Theory|HTT, prop. 5.5.3.13]].
 
 
 ### Tensor product 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C_1, \cdots, C_n$ be a finite collection of locally presentable $(\infty,1)$-categories. There exists a locally presentable $(\infty,1)$-category $C_1 \otimes \cdots \otimes C_n$ and an [[(∞,1)-functor]] 
