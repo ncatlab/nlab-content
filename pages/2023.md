@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## In posets
 
@@ -118,10 +118,19 @@ See for instance [Geometric spaces and their homotopy types](http://ncatlab.org/
 
 * [[abstract circle]]
 
+
+[[!redirects interval]]
 [[!redirects intervals]]
+
 [[!redirects unit interval]]
+
 [[!redirects under-over category]]
 
 [[!redirects linear interval]]
 [[!redirects linear intervals]]
 
+[[!redirects open interval]]
+[[!redirects open intervals]]
+
+[[!redirects closed interval]]
+[[!redirects closed intervals]]
