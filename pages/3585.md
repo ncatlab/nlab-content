@@ -3,7 +3,7 @@
 {:toc}
 
 #Idea
-The theory of hyperfunctions, created by the Japanese school of Sato, [[Kashiwara]] et alt. is one of the many variants of the theory of generalized functions. Unlike the earlier theory of distributions of Schwarz et alt. it is not based on duals of some spaces of smooth functions but rather on boundary values of holomorphic functions. This allows usage of sheaf theory and includes Schwartz distributions as a special case. For example in Schwarz's theory apart from measures one has functions with discrete support which are linear combinations of finite derivatives of delta functions. Here one can allow things like the exponential of a differential operator applied to a delta function. So in a sense one has distributions of infinite order. 
+The theory of hyperfunctions, created by the Japanese school of [[Mikio Sato]], [[Masaki Kashiwara]] et al. is one of the many variants of the theory of [[generalized functions]]. Unlike the earlier theory of distributions of Schwarz et alt. it is not based on duals of some spaces of smooth functions but rather on boundary values of holomorphic functions. This allows usage of sheaf theory and includes Schwartz distributions as a special case. For example in Schwarz's theory apart from measures one has functions with discrete support which are linear combinations of finite derivatives of delta functions. Here one can allow things like the exponential of a differential operator applied to a delta function. So in a sense one has distributions of infinite order. 
 
 Hyperfunctions are a very useful tool in the study of [[D-modules]], holonomic systems of differential equations, and especially some aspects of [[symplectic geometry]] and [[harmonic analysis]] that are part of [[microlocal analysis]], especially [[algebraic microlocalization]]. 
 
@@ -41,7 +41,7 @@ A gentle introduction with examples is the booklet
 
 * K. Yosida, _Operational calculus. A theory of hyperfunctions_, Applied Mathematical Sciences, 55. Springer-Verlag, New York, 1984. x+170 pp.
 
-* Mikio Sato, _Theory of hyperfunctions I_, [pdf scan](http://repository.dl.itc.u-tokyo.ac.jp/dspace/bitstream/2261/6027/1/jfs080104.pdf)
+* [[Mikio Sato]], _Theory of hyperfunctions I_, [pdf scan](http://repository.dl.itc.u-tokyo.ac.jp/dspace/bitstream/2261/6027/1/jfs080104.pdf)
 
 * M. [[Kashiwara]],   T. Kawai,   T. Kimura,   "Foundation of algebraic analysis" , Princeton Univ. Press  (1986)  ((translated from the Japanese))
 
