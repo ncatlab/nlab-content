@@ -30,9 +30,16 @@ Now consider the [[field]] of [[complex numbers]]; these also form a [[Lie group
 
 However, $\mathbb{C}$ and $\mathbb{C}^*$ are *not* [[isomorphic]].  In fact, not only is there no isomorphism from $\mathbb{C}^*$ to $\mathbb{C}$; the only such [[homomorphism]] is the [[zero morphism]] $x \mapsto 0$.  (Essentially, this is because $\mathbb{C}$ is [[simply connected space|simply connected]] while $\mathbb{C}^*$ is not.)  On the other hand, we still have plenty of homomorphisms from $\mathbb{C}$ to $\mathbb{C}^*$, one for each nonzero complex number $b$, and these homomorphisms are [[surjections]] whenever $b \ne 1$.
 
-So we have these surjections (the __complex [[exponential map]] with base $b$__, for $b \ne 1$), which are [[regular epimorphisms]] but not [[split epimorphisms]].  However, while they have no [[sections]] (being not split), they have quite a few [[partial section]]s, and the [[domains]] of the [[maximal partial function|maximal]] partial sections are precisely the [[connected space|connected]] [[simply connected space|simply connected]] [[dense subspace|dense]] subspaces $R$ of $\mathbb{C}^*$.  The __complex logarithm with base $b$ on $R$__ is this $R$-defined section of the complex exponential map with base $b$.
+So we have these surjections (the __complex [[exponential map]] with base $b$__, for $b \ne 1$), which are [[regular epimorphisms]] but not [[split epimorphisms]].  However, while they have no [[sections]] (being not split), they have quite a few [[partial section]]s, and the [[domains]] of the [[maximal partial function|maximal]] partial sections are precisely the [[connected space|connected]] [[simply connected space|simply connected]] [[dense subspace|dense]] subspaces $R$ of $\mathbb{C}^*$.  A __complex logarithm with base $b$ on $R$__ is this $R$-defined section of the complex exponential map with base $b$.
 
-The complex logarithms are handily defined using the [[contour integral]] using the same formulas (eq:integrals) as for the real logarithms.  We merely insist that the integral be done along a contour within the region $R$.  (Since $R$ is connected, there is such a contour; since $R$ is simply connected and $x \mapsto 1/x$ is [[holomorphic map|holomorphic]], the result is unique.)  Note that if $x \in \mathbb{R}^+ \subseteq R$, then the real and complex logarithms of $x$ will be equal.
+If $1 \in R$, then a complex natural logarithm on $R$ may be defined using the [[contour integral]] with the same formula (eq:integrals) as for the real natural logarithm.  We merely insist that the integral be done along a contour within the region $R$.  (Since $R$ is connected, there is such a contour; since $R$ is simply connected and $x \mapsto 1/x$ is [[holomorphic map|holomorphic]], the result is unique.)  Note that if $x \in \mathbb{R}^+ \subseteq R$, then the real and complex natural logarithms of $x$ will be equal.
+
+The natural exponential map is [[periodic function|periodic]] (with period $2 \pi \mathrm{i}$), and it is possible to add any multiple of this period to the natural logarithm of any $x \ne 1$ by suitably changing the region $R$.  We then obtain the most general notion of maximally-defined complex logarithm with any base by using the formulas
+$$ \array {
+   \ln x & \coloneqq \ln a + \int_a^x \frac{1}{x} ,\\
+   \log_b x & \coloneqq \frac{\ln x}{\ln b} ;\\
+} \]
+where for $\ln a$ and $\ln b$ we use any previously defined natural complex logarithm.
 
 
 ### Logarithms and Lie groups
