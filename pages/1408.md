@@ -286,6 +286,78 @@ where $E LTop \to LTop$ is the [[coCartesian fibration]] associated by the [[(âˆ
 This is [[Structured Spaces|StrSp, def 1.4.8]]
 
 
+### The spectrum construction
+
+For $f : \mathcal{G} \to \mathcal{G}'$ a morphism of geometries, let
+
+$$
+  \mathcal{O}_{\mathcal{G}}^{\mathcal{G}'}
+  : 
+  Top(\mathcal{G}') \to Top(\mathcal{G})
+$$
+
+be the induced functor on categories of structured toposes.
+
++-- {: .un_theorem}
+###### Theorem
+
+This functor is a left [[adjoint (âˆž,1)-functor]]
+
+$$
+  (
+    \mathcal{O}_{\mathcal{G}}^{\mathcal{G}'}
+      \dashv
+    Spec_{\mathcal{G}^{\mathcal{G}'}})
+  )
+  : 
+  Top(\mathcal{G})
+  \stackrel{\overset{\mathcal{O}_{\mathcal{G}}^{\mathcal{G}'}
+}{\leftarrow}}{\underset{Spec_{\mathcal{G}}^{\mathcal{G}'}
+}{\to}}
+  Top(\mathcal{G}')
+  \,.
+$$
+
+=--
+
+This is ([Lurie, theorem 2.1.1](#Lurie)).
+
++-- {: .un_def}
+###### Definition
+
+For $\mathcal{G}$ a geometry, let $\mathcal{G}_0$ be the corresponding discrete geometry. We have a canonical morphism $\mathcal{G}_0 \to \mathcal{G}$.
+
+Write
+
+$$
+  Spec^{\mathcal{G}} 
+    : 
+  Pro(\mathcal{G})
+   \to 
+  Top(\mathcal{G}_0)
+   \stackrel{Spec_{\mathcal{G}_0}^{\math}}{\to}
+  Top(\mathcal{G})
+$$
+
+for the composite.
+
+=--
+
++-- {: .un_theorem}
+###### Theorem
+
+This fits into an adjunction
+
+$$
+  (\mathcal{O} \dashv Spec) : 
+  Pro \mathcal{G} \stackrel{\overset{}{\leftarrow}}{\underset{}{\to}}
+  Top(\mathcal{G})
+  \,.
+$$
+
+=--
+
+This is ([Lurie, theorem xyz](#Lurie)).
 
 
 ## Examples
@@ -530,7 +602,7 @@ The notion of structure $(\infty,1)$-toposes was introduced in
 The special case of "smoothly structured spaces" called [[derived smooth manifold]] is 
 discussed in 
 
-* David Spivak, _Derived smooth manifolds_ PhD thesis ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
+* [[David Spivak]], _Derived smooth manifolds_ PhD thesis ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
 
 
 
