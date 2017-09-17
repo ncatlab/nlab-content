@@ -98,6 +98,9 @@ See [[derivator]] for general references about derivators, and also [[pointed de
 
 * [[Denis-Charles Cisinski]] and Amnon Neeman, "Additivity for derivator K-theory", [MR](http://www.ams.org/mathscinet-getitem?mr=2382732)
 
+* Jens Franke, _Uniqueness theorems for certain triangulated categories with an Adams spectral sequence_, [K-theory archive](http://www.math.uiuc.edu/K-theory/0139/)
+
+
 [[!redirects stable derivators]]
 [[!redirects triangulated derivator]]
 [[!redirects triangulated derivators]]
