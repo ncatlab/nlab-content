@@ -11,4 +11,8 @@ Given an [[inner product space]], its **isotropic Grassmannian** is the space of
 
 * [[Grassmannian]]
 
+  * **isotropic Grassmannian**
+
+  * [[Lagrangian Grassmannian]]
+
 [[!redirects isotropic Grassmannians]]
