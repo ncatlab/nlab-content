@@ -24,7 +24,13 @@ For $n \in \mathbb{N}$, the **Haefliger groupoid** $\Gamma^n$ is the [[groupoid]
 
 ## Properties
 
+### Geometric structure
+
 This is naturally a [[topological groupoid]]. As such it is an [[étale groupoid]].
+
+### Classification of foliations
+
+The Haeflice groupoid classifies [[foliations]]. See at _[[Haefliger theorem]]_.
 
 ## References
 
