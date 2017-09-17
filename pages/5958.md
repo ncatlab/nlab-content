@@ -1,0 +1,4 @@
+
+* [website](http://directory.math.yale.edu/public_html/People/gjz2.html)
+
+category: people
