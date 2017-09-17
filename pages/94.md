@@ -443,6 +443,8 @@ and
 
   * [[derived L-∞ algebroid]]
 
+  * [[sheaf of L-∞ algebras]]
+
 ## References ##
 
 ### General
