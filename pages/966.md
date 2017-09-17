@@ -50,17 +50,71 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 +-- {: .un_theorem}
 ###### Theorem
 
-Some sufficient conditions for a limit-preseving functor $G : D \to C$ to be a right adjoint include:
+Sufficient conditions for a limit-preseving functor $G : D \to C$ to be a [[right adjoint]] include:
 
-* $D$ is [[complete category|complete]] and [[locally small category|locally small]], and $G$ satisfies the [[solution set condition]].  This is Freyd's original version, sometimes called the "General Adjoint Functor Theorem."
+* $D$ is [[complete category|complete]] and [[locally small category|locally small]], and $G$ satisfies the [[solution set condition]].  
 
-* $D$ is complete, locally small [[well-powered category|well-powered]], and has a [[small set|small]] [[cogenerating set]], and $C$ is [[locally small category|locally small]].  This is sometimes called the "Special Adjoint Functor Theorem."
+  This is Freyd's original version, sometimes called the "**General Adjoint Functor Theorem**".
+
+* $D$ is complete, locally small [[well-powered category|well-powered]], and has a [[small set|small]] [[cogenerating set]], and $C$ is [[locally small category|locally small]].  
+
+  This is sometimes called the "**Special Adjoint Functor Theorem**".
 
 * $D$ is [[total category|cototal]] and $C$ is locally small.
 
 =--
 
 In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $G$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $D$ has, while not all large limits, enough so that the theorem goes through; thus is this case $G$ must be already known to preserve [[large category|large]] limits as well.
+
+
++-- {: .proof}
+###### Proof
+
+Here is a sketch of the proof that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satifies the [[solution set condition]].
+
+From the discussion at <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">adjoint functors -- In terms of universal arrows</a> we have that the existence of the adjoint is equivalent to the existence for each $d \in D$ of an [[initial object]] $i_d : d \to R L d$ in the [[comma category]] $(d \downarrow R)$: an object such that for each $f : d' \to R d$ there is a unique $\tilde f$ such that 
+
+$$
+  \array{
+    && d 
+    \\
+    & {}^{\mathllap{i_d}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R L d &&\underset{R \tilde f}{\to}&& R d'
+    \\
+    \\
+    L d &&\underset{\tilde f}{\to}&& d'
+  }
+$$
+
+commutes.
+
+In terms of this the solution set condition says equivalent that there is a [[small set]] $S_d \subset Obj(d\downarrow R)$ such that for every object $f \in (d\downarrow R)$ there is a morphism $s \to f$ to it out of some $s \in S_d$.
+
+Using that $C$ has all limits and that $R$ preserves them it follows that $(d\downarow R)$ has all limits. Moreover, since $C$ is locally small so is $(d \downarrow R)$.
+
+Write $\mathcal{S}_d$ for the [[full subcategory]] of $(d\downarrow R)$ on the objects in $S_d$. By assumption on $S_d$ this is a [[small category]]. 
+
+Consider now the [[limit]] in $(d \downarrow R)$ over the inclusion
+
+$$
+  x_0 := \lim_{\leftarrow} (\mathcal{S} \hookrightarrow (d\downarrow R))
+  \,.
+$$
+
+This is almost the initial object that we need: let moreover 
+
+$$
+  x := \lim_{\leftarrow} ( \mathbf{B}End(x_0) \hookrightarrow  (d \downarrow R) )
+$$
+
+be limit over the inclusion of the 1-object category of [[endomorphism]]s on $x_0$. 
+
+This is an initial object in $(d \downarrow R)$.
+
+
+=--
+
 
 ## Examples {#Examples}
 
@@ -139,21 +193,19 @@ $$
   \,.
 $$
 
-## In higher category theory
+## Related concepts
 
-### For (∞,1)-categories
+* **adjoint functor theorem**
 
-[[Jacob Lurie]] proved an adjoint functor theorem for (∞,1)-categories (see section 5.5 of [[Higher Topos Theory]]:
-
-A functor between [[presentable (infinity,1)-category|presentable (∞,1)-categories]] has a [[right adjoint]] if and only if it preserves small [[colimit]]s, and has a [[left adjoint]] if and only if it is [[accessible (infinity,1)-category|accessible]] and preserves small [[limit]]s.
-
-
-
-* [[adjoint (infinity,1)-functor theorem]]
+* [[adjoint (∞,1)-functor theorem]]
 
 
 
 ## References
+
+A brief introductory discussion is around [theorem 5.4](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf#page=54) of
+
+* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
 
 A detailed expository survey is
 
