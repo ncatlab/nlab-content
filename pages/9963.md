@@ -20,6 +20,7 @@ The notion of _augmented $A_\infty$-algebra_ is the analogue in [[higher algebra
 ## Definition 
  {#Definition}
 
+
 Let $R$ be an [[E-∞ ring]] and $A$ an [[A-∞ algebra]] over $R$.
 
 +-- {: .num_defn}
@@ -40,6 +41,8 @@ $$
 In as far as one considers [[A-∞ algebras]] are presented by [[simplicial objects]] or similar, there might also be a (less intrinsic) notion of [[augmentation]] as in _[[augmented simplicial sets]]_. This is _not_ what the above defines.
 
 =--
+
+Fully generally, a definition of augmentation of [[∞-algebras over an (∞,1)-operad]] is in ([Lurie, def. 5.2.3.14](#Lurie)).
 
 ## Examples
 
@@ -103,8 +106,11 @@ and
 
 * {#Schwede01} [[Stefan Schwede]], section 7.8 of _Stable Homotopy of Algebraic Theories_, 2001 ([pdf](http://www.math.uni-bonn.de/people/schwede/stable.pdf))
 
-
 with comments on the relation to [[nonunital algebras]].
+
+Fully general discussion in [[higher algebra]] is in 
+
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
 
 [[!redirects augmented A-infinity-algebras]]
 
