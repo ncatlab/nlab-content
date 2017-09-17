@@ -64,7 +64,7 @@ This means that it is
   * the [[differential]] respects the brackets: for all $x \in \mathfrak{g}_0$ and $h \in \mathfrak{g}_1$ we have
 
     $$
-      \delta [x,h] = [x, \delta h]
+      \delta \alpha(x,h) = [x, \delta h]
     $$
     
 
