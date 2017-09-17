@@ -36,6 +36,8 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 ## Related entries
 
+* [[chiral fermion]]
+
 * [[particle]], [[matter]]
 
 * [[boson]], **fermion**, [[anyon]]
