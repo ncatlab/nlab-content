@@ -17,9 +17,11 @@
 
 ### In quantum field theory
 
-In [[quantum field theory]] an _instanton_ is a [[configuration space|field configuration]] with a "topological twist": not in the connected component of the trivial field configurations.
+In [[quantum field theory]] an _instanton_ is a [[configuration space|field configuration]] with a "topological twist": not in the connected component of the trivial field configurations. Specifically for [[gauge fields]] which mathematically are represented by [[principal connections]], an instanton is a nontrivial underlying [[principal bundle]] (or similarly non-trivial [[associated bundle|associated]] [[vector bundle]]).
 
 The term derives from the special case of instantons on a [[sphere]] but modeled as field configurations on a [[Euclidean space]] constrained to vanish asymptotically. These look like solutions localized in [[spacetime]]: "at an instant".
+
+Instantons enter the [[axial anomaly]]/[[chiral anomaly]] in the [[standard model of particle physics]] which is thought to be a source of [[baryogenesis]] in the early universe. Generally the [[QCD]] [[vacuum]] state is argued to consist of a [[superposition]] of all possible instanton sectors, see at _[[QCD instanton]]_.
 
 ### In string theory
 
