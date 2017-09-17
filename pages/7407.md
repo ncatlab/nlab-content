@@ -91,7 +91,7 @@ Accordingly, there is a coherent hyperdoctrine associated with any [[coherent th
 
 ## References
 
-* Dion Coumans, _Generalizing canonical extensions to the categorical setting_
+* Dion Coumans, _Generalizing canonical extensions to the categorical setting_ ([Arxiv](http://arxiv.org/abs/1204.3745))
  {#Coumans}
 
 [[!redirects coherent hyperdoctrines]]
