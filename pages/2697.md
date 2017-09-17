@@ -4,6 +4,7 @@
 </div>
 
 
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -12,7 +13,9 @@
 
 An [[(∞,1)-topos]] is **hypercomplete** if the [[Whitehead theorem]] is valid in it.
 
-Every [[∞-stack]] [[(∞,1)-topos]] has a [[hypercompletion]]. 
+Equivalently: if all its object are [[hypercomplete object]]s.
+
+Every [[∞-stack]] [[(∞,1)-topos]] has a [[hypercompletion]], the [[reflective sub-(∞,1)-category]] on its [[hypercomplete object]]s.
 
 ## Models
 
