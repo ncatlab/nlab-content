@@ -134,7 +134,11 @@ $$(f \cdot g)(x) = \sum_{y+z = x in G} f(y)g(z)$$
 The **valuation** $v(f)$ is the least $x \in G$ for which $f(x) \neq 0$. 
 =-- 
 
+We obtain a valuation ring from this construction since, as noted above, a valuation ring is essentially the same as a valuation on a field.
+
 +-- {: .un_thm}
 ######Theorem 
 The ring $k[x^G]$ is a field. If $k$ is algebraically closed, then $k[x^G]$ is algebraically closed provided that $G$ is [[divisible group|divisible]]. 
 =-- 
+
+As a corollary, if $G$ is divisible, $k[x^G]$ is real closed if $k$ is real closed. This is because the adjunction of a square root of $-1$ would make $k[x^G]$ algebraically closed, since this gives the same result as constructing the Hahn series over the algebraically closed field $k[\sqrt{-1}]$. 
