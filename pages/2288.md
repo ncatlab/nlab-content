@@ -34,6 +34,8 @@ A tool of major importance in stable homotopy theory and its application to [[hi
 
 * [[S-theory]]
 
+* [[stable (infinity,1)-category]]
+
 * [[parameterized homotopy theory]]
 
 * [[cohesive stable homotopy theory]]
@@ -49,7 +51,11 @@ When the spaces and spectra in question carry an [[infinity-action]] of a [[grou
 
 ## References
 
-An excellent general survey is
+A fun scan of the (pre-)history of the stable homotopy category is in 
+
+* [[Peter May]], _The hare and the hedgehog_, speech at [[Michael Boardman]]'s birthday meeting ([txt](http://hopf.math.purdue.edu/May/boardman.txt))
+
+An excellent general survey of modern stable homotopy theory is in
 
 * A. Elmendorf, [[Igor Kriz|I. Kriz]], [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
@@ -68,4 +74,3 @@ An account in terms of [[(∞,1)-category theory]] is in section 1 of
 Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
 
 * [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
-
