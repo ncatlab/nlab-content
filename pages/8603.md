@@ -2,6 +2,8 @@
 
 ## Master's thesis
 
+* [[Adeel Khan Yusufzai]], _On derived categories and noncommutative motives of varieties_, [arXiv](http://arxiv.org/abs/1401.7222).
+
 * [[Adeel Khan Yusufzai]], _Perfect correspondences and Chow motives_, master's thesis, 2013.  [arXiv](http://arxiv.org/abs/1310.0249).
 
 ## Related entries
