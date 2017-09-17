@@ -199,7 +199,9 @@ where
 
 These are action functionals that are well adapted to [[BV-BRST formalism]] and for which there is a [[quantization]] to a [[factorization algebra of observables]].
 
-Most of the fundamental [[theory (physics)|theories]] in [[physics]] are of this form, notably [[Yang-Mills theory]]. In particular also all theories of [[schreiber:infinity-Chern-Simons theory]]-type coming from binary [[invariant polynomials]] are perturbatively of this form, notably ordinary [[Chern-Simons theory]].
+Most of the fundamental [[theory (physics)|theories]] in [[physics]] are of this form, notably [[Yang-Mills theory]]. In particular also all theories of [[schreiber:infinity-Chern-Simons theory]]-type coming from binary [[invariant polynomials]] are perturbatively of this form, notably ordinary 3d [[Chern-Simons theory]]. 
+
+For a discussion of just the simple special case of 3d CS see ([Costello 11, chapter 5.4 and 5.14](#Costello11)).
 
 For comparison of the following with other renormalization schemes, see at ([Costello 07, section 1.7](#Costello)).
 
@@ -610,6 +612,7 @@ A review is in
 Discussion in the context of [[BV-BRST formalism]] is in
 
 * [[Kevin Costello]], _[[Renormalization and Effective Field Theory]]_ AMS (2011) ([publisher webpage](http://www.ams.org/publications/authors/books/postpub/surv-170))
+ {#Costello11}
 
 building on
 
