@@ -24,7 +24,9 @@ An analog of [[jet spaces]] in [[arithmetic geometry]].
 ## Definition
  {#Definition}
 
-Notice that, by the discussion there, the [[p-adic integers]] $\mathbb{Z}_p$ are the analog in [[arithmetic geometry]] of a [[formal power series]] ring (around the point $p \in$ [[Spec(Z)]]), hence their [[formal spectrum]] $Spf(\mathbb{Z}_p)$ is an incarnation in [[arithmetic geometry]] of an abstract [[formal disk]]. Therefore in the sense of [[synthetic differential geometry]] the $p$-[[formal neighbourhood]] of any [[arithmetic scheme]] $X$ around a global point $x \colon Spec(\mathbb{Z}) \to X$ is the space of lifts
+Notice that the [[p-adic integers]] $\mathbb{Z}_p$ are (by the discussion at [p-adic integer -- as formal power series](p-adic+integer#AsFormalNeighbourhoodOfPrime))  the analog in [[arithmetic geometry]] of a [[formal power series]] ring (around the point $p \in$ [[Spec(Z)]]), hence their [[formal spectrum]] $Spf(\mathbb{Z}_p)$ is an incarnation in [[arithmetic geometry]] of an abstract [[formal disk]]. 
+
+Therefore in the sense of [[synthetic differential geometry]] the $p$-[[formal neighbourhood]] of any [[arithmetic scheme]] $X$ around a global point $x \colon Spec(\mathbb{Z}) \to X$ is the space of lifts
 
 $$
   \array{
@@ -36,6 +38,8 @@ $$
   }
   \,.
 $$
+
+Moreover the map that sends an commutative ring, hence an [[arithmetic variety]], to its $p$-formal power series in this sense is the construction of the [[ring of Witt vectors]] ($p$-typica Witt vectors if one fixes one prime, and "big Witt vectors" if one considers all at once) (e.g. [Hartl 06, section 1.1](#Hartl06)).
 
 The following definition says essentially this, but further sends the resulting space to [[F1]]-geometry in the sense of [[Borger's absolute geometry]]:
  
@@ -63,9 +67,14 @@ Introduction and survey is in
 
 * {#Buium13} [[Alexandru Buium]], _Differential calculus with integers_ ([arXiv:1308.5194](http://arxiv.org/abs/1308.5194), [slighly differing pdf](http://www.math.unm.edu/~buium/statupdated.pdf))
 
+Discussion in the context of the [[function field analogy]] is in 
+
+* {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
+
 Discussion in the context of [[Borger's absolute geometry]] over [[F1]] is in 
 
 * {#Borger10} [[James Borger]],  _The basic geometry of Witt vectors, II: Spaces_ ([arXiv:1006.0092](http://arxiv.org/abs/1006.0092))
+
 
 
 [[!redirects arithmetic jet spaces]]
