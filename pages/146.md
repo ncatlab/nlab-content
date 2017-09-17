@@ -9,11 +9,17 @@
 
 #Definition#
 
-A **presheaf** on a category $C$ is nothing but a [[functor]]
+A **presheaf** on a [[category]] $C$ is a [[functor]]
+
 $$
  F : C^{op} \to Set
 $$
-where $C^{op}$ is the [[opposite category]] of $C$.  More generally, given any category $S$, an **$S$-valued presheaf** on $C$ is a functor 
+
+from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s.
+
+
+More generally, given any category $S$, an **$S$-valued presheaf** on $C$ is a functor 
+
 $$
   C^{op} \to S
 $$
@@ -28,7 +34,7 @@ As such, it is an example of a [[functor category]].
 
 #Remarks#
 
-* There are certain special contexts in which one calls  functors $F: C^{op} \to S$ 'presheaves' instead of just functors, namely: 
+* Speaking of functors as presheaves indicates operations that one wants to do apply to these functors, or certain properties that one wants to check.
 
   * when $S = Set$, and especially one is interested in the [[Yoneda embedding]] of a category $C$ into its presheaf category $[C^{op}, Set]$ for purposes of studying, for instance, [[limit]]s, [[colimit]]s, [[ind-object]]s, and [[pro-object]]s of $C$;
 
