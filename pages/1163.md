@@ -5,3 +5,5 @@ $$
 studied in the article
 
 * A. Dold, R. Thom, Quasifaserungen und unendliche symmetrische Produkte, Ann. Math. (2) 69 (1959), 239--281.
+
+The [[Meyer-Vietoris sequence]] for homology is a consequence of applying $\pi_*(-)$ to the homotopy pullback square resulting from the application of $\mathrm{Sym}^\infty$ to the homotopy pushout square formed by the inclusions of the intersection, $A \cap B$, of two subspaces $A$ and $B$ of a space $X$ into $A$ and $B$.
