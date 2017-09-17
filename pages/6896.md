@@ -1,7 +1,4 @@
-
-I am a [Diplom](http://de.wikipedia.org/wiki/Diplomarbeit) student of mathematics.
-
-As to the rest my interests are in [[categorical logic]], [[type theory|type theories]] and [[foundations]].
+My interests are in [[categorical logic]], [[type theory|type theories]] and [[foundations]].
 
 email: stephanspahn1atmedotcom
 category: people
