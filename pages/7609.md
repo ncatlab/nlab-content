@@ -22,10 +22,82 @@ For the moment see at _[[category of contexts]]_ for more details.
 
 ## Categorical semantics
 
+### Definition
 
 In the [[categorical semantics]] of [[type theory]], variable substitute is interpreted by [[pullback]] / [[base change]] along the morphism that interprets the term in question.
 
-(...)
+### Examples
+
+Let $\mathcal{C}$ be a suitable ambient [[category]] in which we are [[categorical semantics|interpreting]] [[logic]]/[[type theory]].
+
+Suppose $X$ any $Y$ are [[types]], hence interpreted as [[objects]] of $\mathcal{C}$. Then a [[term]] of [[function type]] $f : X \to Y$ is interpreted by a [[morphism]], going by the same symbols.
+
+Now a [[proposition]] about [[terms]] of [[type]] $Y$
+
+$$
+  y : Y \vdash P(y)
+$$
+
+is interpreted as a [[object]] of the [[slice category]] $\mathcal{C}_{/Y}$, specifically as a [[truncated object of an (infinity,1)-category|(-1)-truncated]] object if it is to be a [[proposition]], hence by a [[monomorphism]]
+
+$$
+  \array{
+    P 
+    \\
+    \downarrow
+    \\
+    Y
+  }
+  \,.
+$$
+
+For instance if $\mathcal{C} = $ [[Set]] then this is the inclusion of the [[subset]] of elements of $Y$ on which $P$ is true. And generally we may write
+
+$$
+  P = \{y : Y | isInhab(P(y)) \}
+  \,.
+$$
+
+Now finally the **substitution** of $f(x)$ for $y$ in $P$, hence the proposition 
+
+$$
+  \array{
+    P(f(-))
+    \\
+    \downarrow
+    \\
+    X
+  }  
+$$
+
+is interpreted as the [[pullback]]
+
+$$
+  \array{
+    P(f(-)) \coloneqq & f^* P &\to& P
+    \\
+    & \downarrow && \downarrow
+    \\
+    & X &\stackrel{f}{\to}& Y
+  }
+  \,.
+$$
+
+Notice that [[monomorphisms]] are preserved by pullback, so that this is indeed again the correct interpretation of a proposition.
+
+Specifically, if $X$ is the [[unit]] type it is interpreted as a [[terminal object]] of $\mathcal{C}$, and then the [[function]] $f$ is identified simply with a [[term]] $y_0 \coloneqq f(*) $. In this case the substitution is _evaluation_ of the proposition at $y_0$, the resulting monomorphism
+
+$$
+  \array{
+    P(y_0) &\to& P
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\stackrel{y_0}{\to}& Y
+  }
+$$
+
+over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 
 [[!redirects substitutions]]
 
