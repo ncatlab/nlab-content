@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 $\cdots \to$ [[Fivebrane group]] $\to$ **string group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
 
 
@@ -165,7 +181,7 @@ Of these the case $G = $ [[E8]] is the other one relevant in [[string theory]]: 
 ## References 
 
 
-Originally the String-group was just known by its generic name: with $\mathcal{B} O \langle 8 \rangle$ being the topologist's notation for the [[connected cover|7-connected]] of the [[delooping]] $\mathcal{B}O$ of the group $O$.
+Originally the String-group was just known by its generic name: with $\mathcal{B} O \langle 8 \rangle$ being the topologist's notation for the [[connected|7-connected]] of the [[delooping]] $\mathcal{B}O$ of the group $O$.
 
 When it was realized that lifts of the structure maps $X \to \mathcal{B}O$ of the [[tangent bundle]] of a [[manifold]] $X$ through the projection $\mathcal{B}O\langle 8 \rangle \to \mathcal{B}O$ -- now called a [[String structure]] -- play the same role in [[string theory]] as a [[Spin structure]] does in ordinary [[quantum mechanics]], the term _String group_ for $\Omega (\mathcal{B}O\langle 8 \rangle)$ was suggested.
 
