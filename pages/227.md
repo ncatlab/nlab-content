@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
@@ -94,6 +94,8 @@ Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]
 
 [[!redirects unital ring]]
 [[!redirects unital rings]]
+[[!redirects ring with identity]]
+[[!redirects rings with identity]]
 [[!redirects associative ring]]
 [[!redirects associative rings]]
 [[!redirects associative unital ring]]
