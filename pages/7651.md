@@ -15,7 +15,25 @@
 
 ## Idea
 
-### Generalizing sums
+_Integration_ is a process by which local data over a [[manifold]] or similar is _accumulated_ to an _integral_.
+
+In its simplest form, this is a limiting notion of the process of forming [[sums]], known then as _[[Riemann integration]]_ or _[[Lebesgue integration]]_, where the integration pairs a [[function]] on a space against a _[[measure]]_ which indicates, roughly, how much a local contribution of the function contributes to the whole accumulation process.
+Direct variants and refinements of this kind of integration is _[[integration of differential forms]]_ and similar.
+
+The integration of differential forms induces a more general notion of integration, namely [[integration in differential cohomology]] and hence [[integration in generalized cohomology]]. Here the choice of a [[measure]] is replaced by a choice of _[[orientation in generalized cohomology]]_.
+
+| analytic integration | cohomological integration |
+|--|--|
+| [[measure]] | [[orientation in generalized cohomology]] |
+| [[Lebesgue integration]], [[integration of differential forms|of differential forms]] | [[push-forward in generalized cohomology]]/[[fiber integration in differential cohomology|in differential cohomology]] |
+
+
+### Analytic integration
+ {#AnalyticIntegration}
+
+
+#### Generalizing sums
+ {#GeneralizingSums}
 
 A __[[sum]]__ $\sum_{s \in S} a_s$ is defined over a domain $S$ which is, as a rule, a _discrete_ set. This set is also typically fixed in the sense that no subdivision is assumed in its definition, except sometimes for convergence purposes. Thus a general sum takes two arguments: a set $S$ and a function on $S$ and outputs a value. In the case of sum of an infinite series the order may matter as the limiting procedure is taken into account.
 
@@ -30,18 +48,27 @@ For a fixed range, integral is typically an operator/functional on a set/space o
 __Integration__ in most narrow sense is a process involved in defining or computing integrals.
 
 
-### Integration as opposite to differentiation
+#### Integration as opposite to differentiation
 
 Many integrals are supposed to be inverse to differentiation procedures of various kinds. Indeed, if integral is a generalization of a sum, then a difference between two partial sums is a value to be added at a step of summation, and its generalization is some sort of [[differentiation]]. Of course, the initial value has to be determined as the differentiation gives just a step of the addition.
 
 
-### Solving differential equations and constraints
+#### Solving differential equations and constraints
 
 In some cases, one solves a differential equation by reducing it to a relation of the form $d F = g$ and then $F = \int g$. One says that the equation is
 solvable in quadratures. Thus the integration is used in examples of solving differential equations and differential relations, hence finding objects satisfying some differential constraints is often also considered a sort of integration. For example, finding integral curves of vector fields and more generally finding integral submanifolds of distributions, is also called an integration. In this vain, also a Lie group is a global object which integrates a Lie algebra (indeed, infinitesimally this reduces to solving the Maurer-Cartan equations). For resolving differential relations there are solvability conditions/obstructions/constraints which are often of cohomological nature. There is sometimes a relation to [[rational homotopy theory]].
 
+### Topological integration 
+ {#TopologicaIntegration}
+
+(...)
+
+* [[integration in generalized cohomology]]
+(...)
 
 ## Zoo of integrals and concepts of integration 
+
+We list a bunch more notions of integration. Should eventually be turned into something more coherent...
 
 See also [[measure theory]] (and [[measurable space]], [[measure space]]) which is a basis for many kinds of integrals, especially the [[Lebesgue integral]]. 
 
@@ -55,7 +82,6 @@ Some statements involving integrals include the [[Stokes theorem]].
 
 A special topic includes some infinite-dimensional versions including the well-defined [[Wiener integral]] and the more problematic [[path integral]], cf. also
 
-* [[exercise in groupoidification - the path integral]],
 * [[fermionic path integral]],
 * [[path integral as a pull-push transform]].
 
@@ -83,6 +109,8 @@ vector fields and flows)
 [[Euler integration]], [[motivic integration]]
 
 ## Related concepts
+
+* [[Lebesgue integration]]
 
 * [[integration of differential forms]]
 
