@@ -19,6 +19,7 @@
 
 
 ## Idea
+ {#Idea}
 
 Yang--Mills theory is a [[gauge theory]] on a given 4-[[dimensional]] ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian manifold|Riemannian]] [[manifold]] $X$ whose field is the [[Yang–Mills field]] -- a cocycle $\nabla \in \mathbf{H}(X,\bar \mathbf{B}U(n))$ in differential [[nonabelian cohomology]] represented by a [[vector bundle]] [[connection on a bundle|with connection]] -- and whose [[action functional]] is 
 
