@@ -21,3 +21,5 @@ There are many notions of _dimension_.  What they all have in common is that the
 
 [[!redirects dimension]]
 [[!redirects dimensions]]
+
+[[!redirects dimensional]]
