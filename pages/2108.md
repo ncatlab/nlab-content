@@ -742,8 +742,19 @@ This is the [[representation ring]] of $G$ and hence yields not just a [[Hilbert
 ## Properties
 
 ### Functorial dependence on choices
+ {#DependenceOnChoiceOfPolarization}
+
+* [[Knizhnik-Zamolodchikov connection]]
+
+* [[Hitchin connection]]
 
 * L. Charles, _Semi-classical properties of geometric quantization with metaplectic correction_ ([arXiv:math/0602168](http://arxiv.org/abs/math/0602168))
+
+Chapter 3 of
+
+* Lauridsen, _Aspects of quantum mathematics  -- Hitchin connections and the AJ conjecture_, PhD thesis Aarhus 2010 ([pdf](http://pure.au.dk/portal/files/41741925/imf_phd_2010_mrl.pdf))
+ {#Lauridsen10}
+
 
 ### Compatibility of quantization with symplectic reduction
 
