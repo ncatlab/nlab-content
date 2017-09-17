@@ -1,4 +1,19 @@
-There is just one __$(-2)$-groupoid__, namely the [[point]].  Compare the concepts of $(-1)$-[[(-1)-groupoid|groupoid]] (a [[truth value]]) and $0$-[[0-groupoid|groupoid]] (a [[set]]).  Compare also with $(-2)$-[[(-2)-category|category]] and $(-1)$-[[(-1)-poset|poset]], which mean the same thing for their own reasons.
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+A **(-2)-groupoid** is a [[n-truncated object of an (infinity,1)-category|(-2)-truncated object]] in [[∞Grpd]]. 
+
+There is, up to equivalnce, just one $(-2)$-groupoid, namely the [[point]].  
+
+
+
+## Remarks
+
+Compare the concepts of $(-1)$-[[(-1)-groupoid|groupoid]] (a [[truth value]]) and $0$-[[0-groupoid|groupoid]] (a [[set]]).  Compare also with $(-2)$-[[(-2)-category|category]] and $(-1)$-[[(-1)-poset|poset]], which mean the same thing for their own reasons.
 
 The point of $(-2)$-groupoids is that they complete some patterns in the [[periodic table]]s and complete the general concept of $n$-[[n-groupoid|groupoid]].  For example, there should be a $(-1)$-[[(-1)-groupoid|groupoid]] $(-2)\Grpd$ of $(-2)$-groupoids; a $(-1)$-groupoid is simply a truth value, and $(-2)\Grpd$ is the [[true]] truth value.
 
