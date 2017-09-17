@@ -74,16 +74,28 @@ $$
   \,.
 $$
 
-## Examples
+One finds the first few Wu as [[polynomials]] in the Stiefel-Whitney classes
 
-### For $Spin$-bundles
+* $v_1 = w_1$;
+
+* $v_2 = w_2 + w_1^2$
+
+* $v_3 = w_1 w_2$
+
+* $v_4 = w_4 + w_3 w_1 + w_2^2 + w_1^4$
+
+* $v_5 = w_4 w_1 + w_3 w_1^2 + w_2^2 w_1 + w_2 w_1^3$ 
+
+...
+
+### Relation to Pontryagin classes
 
 +-- {: .num_prop #InTermsOfPontryagin}
 ###### Proposition
 
 Let $X$ be an [[orientation|oriented]] [[manifold]] $T X : X \to  B SO(n)$ woth [[spin structure]] $\hat T X : X : B Spin(n)$. Then the following classes in [[integral cohomology]] classes of $X$ built from [[Pontryagin classes]] coincide with Wu-classes under mod-2- reduction $\mathbb{Z} \to \mathbb{Z}_2$ as indicated in the following list
 
-* $\nu_4 = \frac{1}{2}_1$
+* $\nu_4 = \frac{1}{2} p_1$
 
 * $\nu_8 = \frac{1}{8}(11 p_1^2  - 20 p_2)$
 
@@ -229,5 +241,11 @@ This is based on or motivated from observations in
 
 * [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
  {#Witten}
+
+More discussion of Wu classes in this physical context is in 
+
+* [[Hisham Sati]], _Twisted topological structures related to M-branes II: Twisted $Wu$ and $Wu^c$ structures_ ([arXiv:1109.4461](http://arxiv.org/abs/1109.4461))
+
+which also summarizes many standard properties of Wu classes.
 
 [[!redirects Wu classes]]
