@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _covariant phase space_ of a system in [[physics]] is the [[space]] of all of its solutions to its [[classical mechanics|classical equations of motion]], the space of _classical trajectories_ of the system.  Often one considers a parameterization of this by boundary data on choice a [[Cauchy surface]]. This parameterization is what traditionally is just called a "phase space". The "covariant" in "covariant phase space" is to indicated that it goes without any unnatural choices.
+The _covariant phase space_ of a system in [[physics]] is the [[space]] of all of its solutions to its [[classical mechanics|classical equations of motion]], the space of _classical trajectories_ of the system.  Often one considers a parameterization of this by boundary data or choice of a [[Cauchy surface]]. This parameterization is what traditionally is just called a "phase space". The "covariant" in "covariant phase space" is to indicated that it goes without any unnatural choices.
 
 For a system described by [[Lagrangian]] mechanics this comes canonically equipped with a [[presymplectic structure]]. A proper _phase space_ or _reduced phase space_ is a subspace or [[quotient space]] of the covariant phase space on which the presymplectic structure refines to a [[symplectic manifold|symplectic structure]] or [[Poisson manifold|Poisson strucure]]. 
 
@@ -80,7 +80,7 @@ $$
   \end{aligned}
 $$
 
-where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$, and where $EL(\phi)\delta\phi$ is a degree-$(1,dim X)$ and $\theta$ is a deggre-$(1, dim X - 1)$ element in the [[variational bicomplex]] (one variational form degree and, respectively, $dim X$ or $(dim X - 1)$-spacetime form degrees). On a local [[coordinate]] patch $\{x^i\}$ for $X$ this is 
+where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$, and where $EL(\phi)\delta\phi$ is a degree-$(1,dim X)$ and $\theta$ is a degree-$(1, dim X - 1)$ element in the [[variational bicomplex]] (one variational form degree and, respectively, $dim X$ or $(dim X - 1)$-spacetime form degrees). On a local [[coordinate]] patch $\{x^i\}$ for $X$ this is 
 
 $$
   \theta(\phi) 
