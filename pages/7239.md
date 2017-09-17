@@ -1,0 +1,38 @@
+[[!redirects compact group]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[topological group]] is called **compact** if its underlying [[topological space]] is a [[compact topological space]].
+
+## Related concepts
+
+* [[locally compact topological group]]
+
+* [[maximal compact subgroup]]
+
+* [[proper topological groupoid]]
+
+* [[compact Lie group]]
+
+
+[[!redirects compact groups]]
