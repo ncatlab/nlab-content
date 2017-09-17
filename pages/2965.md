@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category Theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatically generated table of contents
 {:toc}
