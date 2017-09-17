@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Ochanine genus]] lifts to a homomorphism of [[ring spectra]] $M Spin \to KO[ [q] ]$ from [[spin structure]] [[cobordism cohomology theory]] to [[Tate K-theory]].
+
+([Kreck-Stolz 93, lemma 5.8, lemma 5.4](#KreckStolz93))
+
+## Related concepts
+
+* [[Atiyah-Bott-Shapiro orientation]]
+
+* [[string orientation of tmf]]
+
+## References
+
+* {#KreckStolz93} [[Matthias Kreck]], [[Stefan Stolz]], _$HP^2$-bundles and elliptic homology_, Acta Math, 171 (1993) 231-261 ([[KreckStolzElliptic.pdf:file]])
+
+* {#Hovey95} [[Mark Hovey]], _Spin Bordism and Elliptic Homology_, Mathematische Zeitschrift 219, 163-170 1995 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.3277))
