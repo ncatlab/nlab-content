@@ -1043,6 +1043,10 @@ Some useful talk notes include
 
 * Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
 
+Discussion with an eye towards the [[philosophy of physics]] is in 
+
+* [[Gabriel Catren]], _Towards a Group-Theoretical Interpretation of Mechanics_ ([PhilSci Archive](http://philsci-archive.pitt.edu/10116/))
+
 ### Holographic quantization
 
 The geometric [[quantization via the A-model]] is discussed in 
