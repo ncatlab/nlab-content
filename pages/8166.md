@@ -1,5 +1,5 @@
 
-For different notions of the same name, see at _[[model]]_.
+> This entry is about the notion in [[physics]]. For the notion of _model_ in [[logic]] see at _[[model (logic)]]_.
 
 ***
 
@@ -21,7 +21,7 @@ For different notions of the same name, see at _[[model]]_.
 
 ### In particle physics
 
-In [[particle physics]] [[phenomenology]] a _model_ is the specification of a [[quantum field theory]] that reproduces aspects of the fundamental physics observed in [[particle accelerators]].
+In [[particle physics]] [[phenomenology]] a _model_ is the specification of a [[physical theory]], fundamentally of a [[quantum field theory]], that reproduces aspects [[phenomenology]], notably the fundamental physics observed in [[particle accelerators]].
 
 The _[[standard model of particle physics]]_ is, by default, the currently best model available, given the available experimental data. 
 
@@ -60,3 +60,5 @@ It is generally understood that models are approximations to reality. The prover
 [[!redirects model (in particle physics)]]
 
 [[!redirects models (in theoretical physics)]]
+
+[[!redirects model (physics)]]
