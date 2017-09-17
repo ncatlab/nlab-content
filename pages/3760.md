@@ -24,16 +24,22 @@ For a presentation, you give a set of generators $X$, so there will be an epimor
 
 ## Definition
 
-A  **presentation** of a group $G$ is a pair of sets, written $\langle X: R\rangle$ such that for $F=F(X)= \langle X\rangle =\langle X:\emptyset\rangle$ is the [[free group]] on the set of letters $X$ and $N$ the [[normal subgroup|normal closure]] of the set of relators $R$, there is  a specified isomorphism from $F/N$ to $G$.
-
-The specified isomorphism is often omitted, as usually the set $X$ of generators is chosen as a subset of the set of elements of $G$.  In this case, but the universal properties of free groups and quotients, there is a unique map $F\to G$ which restricts to the inclusion of $X$, and thereby at most one map $F/N \to G$ which does so; this map is then the one asserted to be an isomorphism.
-
-Sometimes it is convenient to proceed otherwise, however, and to give a specific function from a set $X$ to the set of elements of $G$.  This function then induces a group homomorphism from $F=\langle X\rangle$ to $G$, and if this is a surjection, then we can find some $N$ (generators for its kernel) to produce a presentation of $G$.
+A presentation of a group, $G$, is a coequalizer diagram $F R \rightrightarrows F X \twoheadrightarrow G$, where $FX$ is the free group on a set of *generators*, and $FR$ one on a set of *relations* (or *relators*, depending on how the relations are specified).
 
 
-## Examples
+This is not quite the usual `classical' form of the definition, so we will take it apart to show the relationship.
 
-*  $G$ a cyclic group of order $n$ has presentation $\langle a : a^n\rangle$.
+A  presentation is thus   given by a pair of sets, $X$ and $R$, written $\langle X: R\rangle$ such that setting $F=F(X)= \langle X\rangle =\langle X:\emptyset\rangle$ to be the [[free group]] on the set $X$ and $N$ the [[normal subgroup|normal closure]] of the set of relators $R$, there is a *specified* isomorphism from $F/N$ to $G$.
+
+The specified isomorphism is often omitted, as often the set $X$ of generators is chosen as a subset of the set of elements of $G$.  In this case, the universal properties of free groups and quotients, there is a unique map $F\to G$ which restricts to the inclusion of $X$, and thereby at most one map $F/N \to G$ which does so; this map is then the one asserted to be an isomorphism.
+
+
+In general it is necessary to proceed otherwise, however, and to give a specific function from a set $X$ to the set of elements of $G$.  This function then induces a group homomorphism from $F=\langle X\rangle$ to $G$, and if this is a surjection, then we can find some $N$ (generators for its kernel) to produce a presentation of $G$.  Without this extra data, certain of the manipulations of a group presntation look decidedly suspect, for instance a substitution which results in two copies of a generator being given. It is also much easier to work with morphisms of presentations if the full data is recorded.
+
+
+## Examples of presentations
+
+*  $G$ a cyclic group, $C_n$, of order $n$ has presentation $\langle a : a^n\rangle$.  There are many different functions from the (singleton) set of generators to  $C_n$ that will give a suitable presentation in the fuller sense.
 
 *  $S_3$ has a presentation $\langle a,b : a^3, b^2,(ab)^2 \rangle$.
 
