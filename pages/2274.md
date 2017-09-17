@@ -64,7 +64,7 @@ More recently, some partial generalizations were found in the purely algebraic f
 
 Related entries include [[deRham space]], [[crystal]], [[crystalline cohomology]]
 
-* A. Grothendieck, _Crystals and the de Rham cohomology of schemes_, p. 306--358 of _Dix exposes sur la cohomologie des schemas_, North Holland, Amsterdam, 1968.
+* A. Grothendieck, _Crystals and the de Rham cohomology of schemes_, p. 306--358 of _Dix exposes sur la cohomologie des schemas_, North Holland 1968, [Dix exp. pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/DixExp.pdf)
 
 * P. Berthelot,  A. Ogus, _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ISBN0-691-08218-9 
 
