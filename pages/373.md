@@ -35,5 +35,11 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 An ordinary  [[category]] has a [[nerve]] which is a [[simplicial set]]. For 2-categories one may consider their [[double nerve]] which is a [[bisimplicial set]].
 
 
+## References
+
+See also the references as [[bicategory]].
+
+* [[Ross Street]], _Encyclopedia article on 2-categories and bicategories_ ([pdf](http://www.maths.mq.edu.au/~street/Encyclopedia.pdf))
+
 
 [[!redirects 2-categories]]
