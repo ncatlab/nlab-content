@@ -50,7 +50,7 @@ Given such an adjunction isomorphism, $\eta$ and $\epsilon$ can be recovered as 
 
 #### Global definition
 
-A functor $L:C\to D$ has a right adjoint if and only if for all $d$, the [[presheaf]] $Hom_D(L(-),d):D^{op}\to Set$ is [[representable functor|representable]], i.e. there exists an object $R(d)$ and a natural isomorphism
+A functor $L:C\to D$ has a right adjoint if and only if for all $d$, the [[presheaf]] $Hom_D(L(-),d):C^{op}\to Set$ is [[representable functor|representable]], i.e. there exists an object $R(d)$ and a natural isomorphism
 $$Hom_D(L(-),d) \cong Hom_C(-,R(d)).$$
 There is then a unique way to define $R$ on arrows so as to make these isomorphisms natural in $d$ as well.
 
@@ -67,7 +67,7 @@ $$
 $$
 such that
 $$
-  \bar L : d \mapsto Hom_D(L(-),d) \in [D^{op}, Set]
+  \bar L : d \mapsto Hom_D(L(-),d) \in [C^{op}, Set]
   \,.
 $$
 If for all $d \in D$ this presheaf $\bar L(d)$ is [[representable functor|representable]], then it is functorially so in that there exists a functor $R : D \to C$ such that
@@ -83,7 +83,7 @@ This definition has the advantage that it yields useful information even if the 
 
 it may happen that
 $$
-  \bar L(d) := Hom_D(L(-),d) \in [D^{op}, Set]
+  \bar L(d) := Hom_D(L(-),d) \in [C^{op}, Set]
 $$
 is [[representable functor|representable]] for _some_ $d$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$, and in fact it can be viewed as a right adjoint to $L$ _relative to_ the inclusion of the full subcategory determined by those $d$s for which $\bar L(d)$ is representable; see [[relative adjoint functor]] for more.
 
