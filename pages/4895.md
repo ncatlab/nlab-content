@@ -356,6 +356,10 @@ A review is
 
 * R. Bousso, _The holographic principle_, Rev. Mod. Phys. __74__ (2002) 825-874, ([MR2003m:83048](http://www.ams.org/mathscinet-getitem?mr=1925130), [doi](http://link.aps.org/doi/10.1103/RevModPhys.74.825), [arXiv:hep-th/0203101](http://arxiv.org/abs/hep-th/0203101))
 
+See also
+
+* [Oxford Holography Group](http://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/oxford_holography_group/holography_seminar/group_members.html), _[Background materian for holography](http://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/oxford_holography_group/holography_seminar/material.html)_
+
 ### AdS/CFT
 
 See the references at [[AdS/CFT correspondence]].
