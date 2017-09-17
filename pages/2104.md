@@ -20,16 +20,16 @@ By _quantization_ is meant some process that
 
 1. reads in a system of [[classical mechanics]], or rather of _[[prequantum field theory|prequantum]]_ data in the form of an [[Lagrangian]]/[[action functional]] and or a [[phase space]] equipped with [[symplectic manifold|symplectic structure]]
 
-1. and returns a corresponing system of [[quantum mechanics]].
+1. and returns a corresponding system of [[quantum mechanics]].
 
 ### Motivation from classical mechanics and Lie theory
  {#MotivationFromClassicalMechanicsAndLieTheory}
 
 Quantization of course was and is motivated by experiment, hence by observation of the [[observable universe]]: it just so happens that [[quantum mechanics]] and [[quantum field theory]] correctly account for experimental observations where [[classical mechanics]] and [[classical field theory]] gives no answer or incorrect answers. A historically important example is the phenomenon called the "[[ultraviolet catastrophe]]", a [[paradox]] predicted by classical [[statistical mechanics]] which is _not_ observed in nature, and which is corrected by [[quantum mechanics]].
 
-But one may also ask, indepently of experimental input, if there are good formal mathemtical reasons and motivations to pass from [[classical mechanics]] to [[quantum mechanics]]. Could one have been led to [[quantum mechanics]] by just pondering the mathematical formalism of [[classical mechanics]]? (Hence more precisely: is there a natural _[[schreiber:Synthetic Quantum Field Theory]]_?)
+But one may also ask, independently of experimental input, if there are good formal mathematical reasons and motivations to pass from [[classical mechanics]] to [[quantum mechanics]]. Could one have been led to [[quantum mechanics]] by just pondering the mathematical formalism of [[classical mechanics]]? (Hence more precisely: is there a natural _[[schreiber:Synthetic Quantum Field Theory]]_?)
 
-The following spells out an argument to this extent. It will work for readers with a background in modern [[mathematics]], notably in [[Lie theory]], and with an understanding of the formalization of classical/prequantum mechanics in terms of [[symplectic geometry]]. 
+The following spells out an argument to this effect. It will work for readers with a background in modern [[mathematics]], notably in [[Lie theory]], and with an understanding of the formalization of classical/prequantum mechanics in terms of [[symplectic geometry]]. 
 
 So to briefly recall, a system of [[classical mechanics]]/[[prequantum field theory|prequantum mechanics]] is a [[phase space]], formalized as a [[symplectic manifold]] $(X, \omega)$. A symplectic manifold is in particular a [[Poisson manifold]], which means that the [[algebra of functions]] on [[phase space]] $X$, hence the algebra of _classical [[observables]]_, is canonically equipped with a compatible [[Lie bracket]]: the _[[Poisson bracket]]_. This Lie bracket is what controls [[dynamics]] in [[classical mechanics]]. For instance if $H \in C^\infty(X)$ is the function on [[phase space]] which is interpreted as assigning to each configuration of the system its [[energy]] -- the [[Hamiltonian]] function -- then the [[Poisson bracket]] with $H$ yields the [[infinitesimal object|infinitesimal]] time evolution of the system: the [[differential equation]] famous as [[Hamilton's equations]].
 
