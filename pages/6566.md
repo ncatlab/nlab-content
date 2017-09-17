@@ -1,2 +1,11 @@
-See [[Supergravity and Superstrings - A Geometric Perspective]]
+[[!redirects Supergravity and Superstrings - A Geometric Per]]
+Steiner systems are combinatorial objects with main applications in finite geometries and finite group theory. 
 
+Given positive integers $l,n,m$ a __Steiner system__ of type $S(l,n,m)$ is a pair of a set $S$ of cardinality $n$ and a set of subsets of $S$ of cardinality $m$, called blocks, such that every $l$-element subset of $S$ is in precisely one block. 
+
+Nontrivial Steiner systems occur for $1\lt l\lt n\lt m$. 
+
+Special cases are $S(2,3,n)$-s called __Steiner triple systems__ and $S(3,4,n)$-s called Steiner quadruple systems. 
+
+* Wikipedia: [Steiner system](http://en.wikipedia.org/wiki/Steiner_system)
+[[!redirects Steiner triple system]]
