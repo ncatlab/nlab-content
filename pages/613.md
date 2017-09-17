@@ -71,7 +71,7 @@ For other models of [[∞Grpd]] there are correspondingly other constructions:
 
 ### Strict versions
 
-One can consider [[strict ∞-groupoid]] versions of the fundamental $infty$-groupoid. These lose information about the [[homotopy type]] of the space, though, but are more tractable and may give in some applications all the information that one is interested in. 
+One can consider [[strict ∞-groupoid]] versions of the fundamental $\infty$-groupoid. These lose information about the [[homotopy type]] of the space, though, but are more tractable and may give in some applications all the information that one is interested in. 
 
 The study of strict fundamental $\infty$-groupoids have been pursued by [[Ronnie Brown]] and his school.
 
