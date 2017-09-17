@@ -3,13 +3,28 @@
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
 =--
 
+#Sandbox#
+
+* table of contents
+{: toc}
+
+## Subsection
+
+## Another Subsection
 
 ***
+
 
 |  | [[type theory]] | [[category theory]] |
 |--|--|--|
 |  | [[syntax]]                 | [[semantics]] |
-|  |  [[natural deduction]]     |  [[universal construction]] | 
+|  |  [[natural deduction]]     |  [[universal construction]] |
+|  | **[[dependent sum type]]** | **[[dependent sum]]** |
+
+|  | [[type theory]] | [[category theory]] |
+|--|--|--|
+|  | [[syntax]]                 | [[semantics]] |
+|  |  [[natural deduction]]     |  [[universal construction]] |
 |  | **[[dependent sum type]]** | **[[dependent sum]]** |
 
 
