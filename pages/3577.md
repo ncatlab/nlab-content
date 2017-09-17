@@ -31,7 +31,7 @@ The definition of $(\infty,1)$-sites parallels that of 1-categorical [[site]]s c
 
 A **[[sieve]] in** an [[(∞,1)-category]] $C$ is a full [[sub-(∞,1)-category]] $D \subset C$ which is closed under precomposition with morphisms in $C$.
 
-A **sieve on** an [[object]] $c \in C$ is a sieve in the [[over quasi-category|overvategory]] $C_{/c}$.
+A **sieve on** an [[object]] $c \in C$ is a sieve in the [[over quasi-category|overcategory]] $C_{/c}$.
 
 Equivalently, a sieve on $c$ is an equivalence class of [[monomorphism in an (infinity,1)-category|monomorphisms]]  $U \to j(c)$ in the [[(∞,1)-category of (∞,1)-presheaves]] $PSh(C)$, with $j : C \to PSh(C)$ the [[(∞,1)-Yoneda embedding]]. (See below for the proof of this equivalence).
 
@@ -41,7 +41,7 @@ A **[[Grothendieck topology]]** on the $(\infty,1)$-category $C$ is the specific
 
 1. _the trivial sieve covers_ -- For each object $c \in C$ the overcategory $C_{/c}$ regarded as a maximal subcategory of itself is a covering sieve on $c$. Equivalently: the monomorphism $Id : j(c) \to j(c)$ covers.
 
-1. _the pullback of a sieve covers_ -- If $S$ is a covering sieve on $c$ and $f : d \to c$ a morphism, then the pullback sieve $f^* S$ is a covering sieve on $d$. Equivbalently, the [[pullback]]
+1. _the pullback of a sieve covers_ -- If $S$ is a covering sieve on $c$ and $f : d \to c$ a morphism, then the pullback sieve $f^* S$ is a covering sieve on $d$. Equivalently, the [[pullback]]
 
    $$
      \array{  
@@ -102,7 +102,7 @@ First observe that equivalence classes of $(-1)$-[[truncated]] object of $PSh(C_
 
 An $(\infty,1)$-presheaf $F$ is $(-1)$-truncated if its value on any object is either the empty [[∞-groupoid]] $\emptyset$ or a [[contractible]] $\infty$-groupoid. The full subcategory of $C_{/c}$ on those objects on which $F$ takes a contractible value is evidently a sieve (because there is no morphism from a contractible to the empty $\infty$-groupoid). Conversely, given a sieve $S$ on $c$ we obtain a (-1)-truncated presheaf fixed by the demand that it takes the value $* = \Delta[0] \in \infty Grpd$ on those objects that are in $S$, and $\emptyset$ otherwise.
 
-Now, as described at <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#WithOvercategories">Interaction of presheaves and overvategories</a> we have an equivalence
+Now, as described at <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#WithOvercategories">Interaction of presheaves and overcategories</a> we have an equivalence
 
 $$
   PSh(C_{/c})
@@ -160,7 +160,7 @@ If [[(∞,1)-categories]] are incarnated as [[simplicially enriched categories]]
 
 * [[sSet-site]]
 
-If $(\infty,1)$-categories are [[presentable (∞,1)-category|presented]] by [[model categories]], then the notion of $(\infty,1)$-site apears as that of
+If $(\infty,1)$-categories are [[presentable (∞,1)-category|presented]] by [[model categories]], then the notion of $(\infty,1)$-site appears as that of
 
 * [[model site]].
 
