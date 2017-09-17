@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
 #### Foundations
 +--{: .hide}
 [[!include foundations - contents]]
