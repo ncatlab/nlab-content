@@ -60,9 +60,7 @@ The relation to [[T-duality]] was established in
 
 * Andrew Strominger, Shing-Tung Yau, Eric Zaslow, _Mirror Symmetry is T-Duality_, Nucl.Phys.B479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
 
-
 * C. Vafa, S-T. Yau editors, _Winter school on mirror symmetry, vector bundles, and Lagrangian submanifolds_, Harvard 1999, AMS, Intern. Press (includes A. Strominger, S-T. Yau, E. Zaslow, _Mirror symmetry is $T$-duality_  as pages  333--347; ). 
-
 
 * K. Hori, S. Katz, A. Klemm et al. _Mirror symmetry I_, AMS, Clay Math. Institute 2003.
 
@@ -72,11 +70,7 @@ The relation to [[T-duality]] was established in
 
 * Maxim Kontsevich, Yan Soibelman, _Homological mirror symmetry and torus fibrations_, [math.SG/0011041](http://arxiv.org/abs/math/0011041)
 
-* Yong-Geun Oh, Kenji Fukaya, _Floer homology in symplectic geometry and
-mirror symmetry_, Proc. ICM 2006, [pdf](http://www.math.wisc.edu/~oh/Oh-icm2006.pdf)
-
-
-
+* Yong-Geun Oh, Kenji Fukaya, _Floer homology in symplectic geometry and mirror symmetry_, Proc. ICM 2006, [pdf](http://www.math.wisc.edu/~oh/Oh-icm2006.pdf)
 
 * wikipedia: [mirror symmetry (string theory)](http://en.wikipedia.org/wiki/Mirror_symmetry_%28string_theory%29), [homological mirror symmetry](http://en.wikipedia.org/wiki/Homological_mirror_symmetry)
 
@@ -87,6 +81,8 @@ Here is a list with references that give complete proofs of homological mirror s
 * M. Abouzaid, I. Smith, _Homological mirror symmetry for the four-torus_ ([arXiv:0903.3065](http://arxiv.org/abs/0903.3065))
 
 * A. Polishchuk and E. Zaslow, _Categorical mirror symmetry: the elliptic curve_ , Adv. Theor. Math. Phys., 2:443470, 1998.
+
+* V. Golyshev, V. Lunts, D. Orlov, _Mirror symmetry for abelian varieties_, J. Algebraic Geom. __10__ (2001), no. 3, 433--496, [math.AG/9812003](http://arxiv.org/abs/math/9812003)
 
 * P. Seidel, _Homological mirror symmetry for the quartic surface_ ([arXiv:0310414](http://arxiv.org/abs/math/0310414))
 
