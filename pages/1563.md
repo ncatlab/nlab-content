@@ -242,3 +242,4 @@ category: people
 [[!redirects F. W. Lawvere]]
 [[!redirects F.W. Lawvere]]
 [[!redirects W. Lawvere]]
+[[!redirects F. William Lawvere]] 
