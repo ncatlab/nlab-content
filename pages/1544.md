@@ -13,15 +13,6 @@
 =--
 =--
 
-* **connection on a bundle**
-
-* [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
-
-* [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
-
-* [[connection on an ∞-bundle]]
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -140,17 +131,18 @@ $$
   \mathbf{P}_1(X) \to \mathbf{B}G
 $$
 
-encode in one step the $G$-bundle together with its parallel transport functor.
+encode in one step the $G$-bundle together with its [[parallel transport]] functor.
 
 This is described in great detail in the reference by Schreiber--Waldorf below.
 
-(...am running out of time... for more see [[schreiber:Differential Nonabelian Cohomology|here]])
-...
+(...am running out of time... )
 
 
 ## Definition {#Definition}
 
-Let $G$ be a [[Lie group]]. We recall briefly the following discussion of $G$-[[principal bundle]]s. Write
+Let $G$ be a [[Lie group]]. We recall briefly the following discussion of $G$-[[principal bundle]]s. For an in-depth discussion see [[Smooth∞Grpd]]. 
+
+Write
 
 $$
   \mathbf{B}G : U \mapsto ( Hom_{Diff}(U,G) \stackrel{\to}{\to} *)
@@ -158,9 +150,9 @@ $$
 
 for the [[functor]] that sends a [[Cartesian space]] $U$ to the [[delooping]] [[groupoid]] of the group of $G$-valued [[smooth function]]s on $U$: the groupoid with a single object and the [[group]] $Hom_{Diff}(U,G)$ of maps as its set of morphisms.
 
-This is a groupoid-valued [[sheaf]] on the [[site]] [[CartSp]] and in fact is a [[2-sheaf]]/[[stack]]. 
+This is a groupoid-valued [[sheaf]] on the [[site]] [[CartSp]]${}_{smooth}$ and in fact is a [[(2,1)-sheaf]]/[[stack]]. 
 
-For $X$ a [[paracompact space|paracompact]] [[smooth manifold]], we may also regard it as a [[2-sheaf]] on [[CartSp]] in an evident way.
+For $X$ a [[paracompact space|paracompact]] [[smooth manifold]], we may also regard it as a [[(2,1)-sheaf]] on [[CartSp]] in an evident way.
 
 +-- {: .un_prop}
 ###### Observation
@@ -171,16 +163,17 @@ $$
   \mathbf{H}(X,\mathbf{B}G) \simeq G Bund(X)
 $$
 
-taken in the [[2-topos]] of 2-sheaves on [[CartSp]].
+taken in the [[(2,1)-topos]] of [[(2,1)-sheaves]] on [[CartSp]]${}_{smooth}$.
 
 =---
 
-A detailed discussion of this is at [[∞-Lie groupoid]] in the section <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroups">on Lie groups</a>.
+A detailed discussion of this is at [[Smooth∞Grpd]] in the section <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroups">on Lie groups</a>.
 
 Now write $\mathfrak{g}$ for the [[Lie algebra]] of $\mathfrak{g}$. Then consider the functor
 
 $$
-  \bar \mathbf{B} G : U \to 
+  \mathbf{B} G_{conn} 
+  : U \mapsto 
   [\mathbf{P}_1(U),\mathbf{B}G]
   =
   \left\{
@@ -190,12 +183,12 @@ $$
   \right\}
 $$
 
-that sends a Cartesian space $U$ to the **[[groupoid of Lie-algebra valued 1-forms]]** over $U$. 
+that sends a [[Cartesian space]] $U$ to the **[[groupoid of Lie-algebra valued 1-forms]]** over $U$. 
 
-There is an evident morphism of 2-sheaves
+There is an evident morphism of [[(2,1)-sheaves]]
 
 $$
-  \bar \mathbf{B}G \to \mathbf{B}G
+  \mathbf{B}G_{conn} \to \mathbf{B}G
 $$
 
 that forgets the 1-forms on each object $U$.
@@ -204,11 +197,11 @@ that forgets the 1-forms on each object $U$.
 ###### Definition
 **(connection)**
 
-A **connection** on a $G$-[[principal bundle]] $g : X \to \mathbf{B}G$ is a lift $\nabla$ to $\bar \mathbf{B}G$
+A **connection** on a smooth $G$-[[principal bundle]] $g : X \to \mathbf{B}G$ is a lift $\nabla$ to $\mathbf{B}G_{conn}$
 
 $$
   \array{
-    && \bar \mathbf{B}G
+    && \mathbf{B}G_{conn}
     \\
     & {}^{\mathllap{\nabla}}\nearrow & \downarrow
     \\
@@ -220,17 +213,17 @@ $$
 The **groupoid of $G$-principal bundles with connection** on $X$ is
 
 $$
-  G Bund_\nabla(X) := Hom(X,\bar \mathbf{B}G)
+  G Bund_\nabla(X) := Hom(X,\mathbf{B}G_{conn})
   \,.
 $$
 
 =--
 
-Explicitly, a morphism $g : X \to \mathbf{B}G$ is a nonabelian [[Cech cohomology]] cocycle on $X$ with values in $G$:
+Explicitly, a morphism $g : X \to \mathbf{B}G$ is a nonabelian [[Cech cohomology]] [[cocycle]] on $X$ with values in $G$:
 
 1. a choice of [[good open cover]] $\{U_i \to X\}$ of $X$;
 
-1. a collection of functions $(g_{i j} \in C^\infty(U_i \cap U_j), G)$
+1. a collection of [[smooth function]]s $(g_{i j} \in C^\infty(U_i \cap U_j), G)$
 
 such that on $U_i \cap U_j \cap U_k$ the equation
 
@@ -238,7 +231,7 @@ such that on $U_i \cap U_j \cap U_k$ the equation
 
 holds.
 
-A lift $\nabla : X \to \bar \mathbf{B}G$ of this is in addition 
+A lift $\nabla : X \to \mathbf{B}G_{conn}$ of this is in addition 
 
 1. a choice of [[Lie-algebra valued 1-form]]s 
    $(A_i \in \Omega^1(U_i, \mathfrak{g}))$
@@ -260,7 +253,7 @@ holds, where on the right we have the pullback $g^* \theta$ of the [[Maurer-Cart
 Every $G$-principal bundle admits a connection. In other words, the forgetful functor
 
 $$
-  Hom(X,\bar \mathbf{B}G) \to Hom(X,\mathbf{B}G)
+  Hom(X, \bar \mathbf{B}G_{conn}) \to Hom(X,\mathbf{B}G)
 $$
 
 is an [[essentially surjective functor]].
@@ -331,6 +324,8 @@ In [[physics]] connections on bundles model [[gauge field]]s.
 
 * The field of [[gravity]] is encoded in a connection on the [[orthogonal group]]-principal bundle to which the [[tangent bundle]] is [[associated bundle|associated]].
 
+For more on this see [[higher category theory and physics]].
+
 ## Generalizations
 
 ### Superconnections 
@@ -348,13 +343,25 @@ When the notion of connection on a principal bundle is slightly coarsened, i.e. 
 See [[connection on a principal ∞-bundle]].
 
 
+## Related concepts
+
+* **connection on a bundle**
+
+* [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
+
+* [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
+
+* [[connection on an ∞-bundle]]
+
+
+
 
 ## References
 
 
 References for the description of connections in terms of their parallel transport are collected at 
 
-* [[Urs Schreiber]], _<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#HistConnAsParTrans">Differential cohomology in an (oo,1)-topos -- References -- Connections -- In terms of parallel transport</a>_
+* [[Urs Schreiber]], _<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#HistConnAsParTrans">differential cohomology in a cohesive topos -- References -- Connections -- In terms of parallel transport</a>_
 
 Basic facts about connections, such as the existence proof in terms of Cech cocycles, are collected in the brief lecture note
 
