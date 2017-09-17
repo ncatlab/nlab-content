@@ -432,6 +432,11 @@ This means that Connes' [[spectral triple]] whose particle spectrum reproduces t
 
 We list various references related to higher category  theory and fundamental physics.
 
+For general (formal) accounts of physics see also the references at [[books and reviews in mathematical physics]], such as 
+
+* [[Frédéric Paugam]], _[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf)_
+
+
 ### Introductions to category theory in physics {#CatsinPhysics}
 
 In 
@@ -635,7 +640,7 @@ This idea was further refined in
 
   The aim of this paper is to relate [[AQFT|algebraic quantum mechanics]] to [[topos theory]], so as to construct new foundations for [[quantum logic]] and quantum spaces. Motivated by Bohr's idea that the empirical content of quantum physics is accessible only through classical physics, we show how a [[C-star-algebra]] of [[observable]]s $A$ induces a [[topos]] $T(A)$ in which the amalgamation of all of its commutative subalgebras comprises a single commutative $C^*$-algebra. According to the [[constructive mathematics|constructive]] [[Gelfand duality]] theorem of Banaschewski and Mulvey, the latter has an internal spectrum $S(A)$ in $T(A)$, which in our approach plays the role of a quantum [[phase space]] of the system. Thus we associate a [[locale]] (which is the topos-theoretical notion of a space and which intrinsically carries the intuitionistic logical structure of a [[Heyting algebra]]) to a $C^*$-algebra (which is the noncommutative notion of a space). In this setting, [[state]]s on $A$ become [[probability measure]]s (more precisely, valuations) on $S(A)$, and self-adjoint elements of $A$ define continuous functions (more precisely, locale maps) from $S(A)$ to Scott's interval domain. Noting that open subsets of $S(A)$ correspond to propositions about the system, the pairing map that assigns a (generalized) [[truth value]] to a state and a proposition assumes an extremely simple categorical form. Formulated in this way, the quantum theory defined by $A$ is essentially turned into a classical theory, internal to the topos $T(A)$. 
 
-See [[semilattice of commutative subalgebras]] for more.
+See [[Bohrification]] for more.
 
 [[!redirects n-categorical physics]]
 
