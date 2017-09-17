@@ -105,11 +105,13 @@ _Sibirsk Mat. J._ **24** (1983), 89-104.
 
 ## Self-dual convex homogeneous cones ##
 
-Every finite-dimensional formally real Jordan algebra automatically has an [[identity]] element.  This lays the groundwork for an observation Max Koecher made in 1957-58.  Namely: the [[category]] of formally real Jordan algebras is [[equivalence of categories|equivalent]] to the category of self-dual convex homogeneous cones in finite-dimensional vector spaces (say $C \subset V$) equipped with a base point $p \in C$.  Here a cone $C \subset V$ is said to be **homogeneous** if it does not contain any straight lines and the group $GL(V)$ acts transitively on $V$.
+Every finite-dimensional formally real Jordan algebra automatically has an [[identity]] element.  This lays the groundwork for an observation Max Koecher made in 1957-58.  Namely: the [[category]] of formally real Jordan algebras is [[equivalence of categories|equivalent]] to the category of self-dual convex homogeneous cones in finite-dimensional vector spaces (say $C \subset V$) equipped with a base point $p \in C$.  Here an open cone $C \subset V$ is said to be **homogeneous** if it is **regular** (meaning it does not contain any straight lines) and the subgroup of $GL(V)$ that preserves $C$ acts transitively on $C$.  Every cone $C \subseteq V$ has a **dual** cone
+$$    C^* = \{ \ell \in V^* \colon \; \forall v \in C \; \ell(v) \gt 0 \} $$
+and a cone is **self-dual** if there is an isomorphism between $V$ and $V^*$ sending $C$ to $C^*$.
 
 Starting from a formally real Jordan algebra $J$, we get a self-dual convex homogeneous cone by taking $V = J$ and taking $C = \{x \in J: x \ge 0\}$.  As a basepoint we can take $p = 1$.  
 
-The relation between (mixed) [[state]]s and [[observable]]s is well-known in traditional quantum mechanics: a self-adjoint $n \times n$ complex matrix can be regarded as an 'observable', but a nonnegative matrix of this form with trace equal to 1 is called a **[[density matrix]]** and describes a 'state' of the corresponding quantum system.    Koecher's result sets up a close relation between states and observables for any form of quantum theory based on a finite-dimensional formally real Jordan algebra.  
+The relation between (mixed) [[state|states]] and [[observable|observables]] is well-known in traditional quantum mechanics: a self-adjoint $n \times n$ complex matrix can be regarded as an 'observable', but a nonnegative matrix of this form with trace equal to 1 is called a **[[density matrix]]** and describes a 'state' of the corresponding quantum system.    Koecher's result sets up a close relation between states and observables for any form of quantum theory based on a finite-dimensional formally real Jordan algebra.  
 
 In particular, the self-duality of the cone $C = \{x \in J: x \ge 0\}$ in a finite-dimensional formally real Jordan algebra $J$, says that we can identify nonnegative elements of $J$ with nonnegative linear functionals on $J$.   Any element of $J$ can be regarded as an observable, while a nonnegative linear functional on $J$ can be considered an 'unnormalized state', since a **[[state]]** is defined to be a [[linear functional]] 
 $$    \mu : J \to \mathbb{R} $$
@@ -121,5 +123,5 @@ that is **nonnegative** ($x \ge 0 \Rightarrow \mu(x) \ge 0$) and **normalized** 
 
 Kevin McCrimmon, Jordan algebras and their applications,
 _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams.org/bull/1978-84-04/S0002-990\
-4-1978-14503-0/home.html)) and ([Project Euclid website](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540925)
+4-1978-14503-0/home.html)) and ([Project Euclid website](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540925)).
 
