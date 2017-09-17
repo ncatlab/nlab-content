@@ -10,8 +10,13 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -22,6 +27,31 @@
 Traditional [[geometric quantization]] applies to [[symplectic manifold]]s but not to [[Poisson manifold]]s. However, every Poisson manifold can be regarded as a [[symplectic Lie n-algebroid]]: a [[Poisson Lie algebroid]]. This is symplectic, in [[higher symplectic geometry]]. Its [[Lie integration]] is a [[symplectic groupoid]].
 
 There is an generalization of the machinery of geometric quantization to [[symplectic groupoids]] which hence provides a geometric quantization of [[Poisson manifolds]].
+
+## Definition
+
+Given a [[symplectic groupoid]] $(X,\omega)$, the symplectic form defines a class in degree-3 [[de Rham cohomology]] $H_{dR}^3(X)$. 
+
+(Notice that, while this $\omega$ is typically expressed as a 2-form on $X_1$, this represents indeed a degree-3 cocycle in the [[simplicial de Rham complex]] of the [[nerve]] of $X$).
+
+We say that $\omega$ is _integral_ if it is in the image of the [[curvature]] map 
+
+$$
+  curv : H^2_{diff}(X,U(1)) \to H^3_{dR}(X)
+$$
+
+from the [[ordinary differential cohomology]] of $X$. If this is the case, we say that a lift $(\hat X, \nabla)$ of $\omega$ to $\mathbf{H}_{diff}(X, \mathbf{B}^2 U(1))$, hence to the [[2-groupoid]] of [[circle n-bundle with connection|circle 2-bundles with connection]] over $X$, is a **prequantum line bundle** for $(X,\omega)$.
+
+Notice that this traditional terminology is off by one: the underlying $\hat X \to X$ is a [[circle 2-group]]-[[principal 2-bundle]] on $X$.
+
+## Related concepts
+
+* [[symplectic manifold]], [[geometric quantization]]
+
+* [[Poisson Lie algebroid]] $\stackrel{\exp(-)}{\mapsto}$ [[symplectic groupoid]] $\stackrel{central extension}{\mapsto}$ **geometric quantization of symplectic groupoids**
+
+* [[symplectic Lie n-algebroid]] $\stackrel{\exp(-)}{\mapsto}$ [[symplectic ∞-groupoid]] $\stackrel{central extension}{\mapsto}$ [[geometric quantization of symplectic ∞-groupoids]]
+
 
 ## References
 
