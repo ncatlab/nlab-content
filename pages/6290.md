@@ -18,6 +18,8 @@ Many L-functions have mutually similar deep features like satisfaction of a func
 
 * [[S-duality]], [[automorphic form]], [[Langlands program]], 
 
+* [[automorphic L-function]]
+
 * [[Beilinson conjecture]]
 
 * [[motivic L-function]]
