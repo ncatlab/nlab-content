@@ -42,7 +42,7 @@ For Morel's theory see
 
 
 
-A reference to Quick's work is in 
+The initial reference to Quick's work is : 
 
  
 * G. Quick, _Profinite homotopy theory_[pdf](http://www.math.uiuc.edu/documenta/vol-13/17.pdf)
