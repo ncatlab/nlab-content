@@ -22,7 +22,9 @@
 
 * [[module]], [[equivariant object]]
 
-* [[bimodule]], [[Morita equivalence]], [[induced representation]]
+* [[bimodule]], [[Morita equivalence]]
+
+* [[induced representation]], [[Frobenius reciprocity]]
 
 * [[Hilbert space]], [[Banach space]], [[Fourier transform]], [[functional analysis]]
   
