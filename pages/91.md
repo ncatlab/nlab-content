@@ -33,7 +33,7 @@ They are one of the major [[geometric shapes for higher structures]]: if they sa
 +-- {: .num_defn}
 ###### Definition
 
-The **[[globe category]]** $\mathbb{G}$ is the [[category]] whose [[objects]] are the [[natural numbers]], denoted here $[n] \in \mathbb{N}$ and whose morphisms are [[generators and relations|generated]] from
+The **[[globe category]]** $\mathbb{G}$ is the [[category]] whose [[objects]] are the [[natural numbers]], denoted here $[n] \in \mathbb{N}$ (N.B. not to be confused with ordinals in any structural sense) and whose morphisms are [[generators and relations|generated]] from
 
 $$
   \sigma_n : [n] \to [n+1]
@@ -57,7 +57,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-A _globular set_, also called an _$\omega$-[[graph]]_ is a [[presheaf]] on $\mathbb{G}$. The [[category]] of globular sets is the [[category of presheaves]]
+A _globular set_, also called an *$\omega$-[[graph]]*, is a [[presheaf]] on $\mathbb{G}$. The [[category]] of globular sets is the [[category of presheaves]]
 
 $$
   gSet \coloneqq PSh(\mathbb{G})
@@ -69,13 +69,13 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This means that a globular set $X \in gSet$ is given by a collection of sets $\{X_n\}_{n \in \mathbb{N}}$, called the **sets of $n$-[[globes]]**, equipped with [[functions]]
+This means that a globular set $X \in gSet$ is given by a collection of sets $\{X_n\}_{n \in \mathbb{N}}$ (the **set of $n$-[[globes]]**) equipped with [[functions]]
 
 $$
   \{s_n,t_n \colon X_{n+1} \to X_n\}_{n \in \mathbb{N}}
 $$
 
-called the **$n$-target** and **$n$-source** maps (or similar), such that the **globular identities** hold: for all $n \in \mathbb{N}$
+called the **$n$-source** and **$n$-target** maps (or similar), such that the **globular identities** hold: for all $n \in \mathbb{N}$
 
 * $s_n \circ s_{n+1} = s_n \circ t_{n+1} $
 
@@ -86,8 +86,7 @@ called the **$n$-target** and **$n$-source** maps (or similar), such that the **
 +-- {: .num_remark}
 ###### Remark
 
-The globular identities ensure that
-two sequences of boundary maps
+The globular identities ensure that two sequences of boundary maps
 
 $$
   f_n \circ \cdots \circ f_{n+m-1} \circ f_{n+m} :
@@ -112,7 +111,7 @@ $$
     \,.
 $$
 
-For $S$ a globular set we may therefore write unambigously
+For $S$ a globular set we may therefore write unambiguously
 
 $$
   s_n, t_n : S_{n+m+1} \to S_n
@@ -121,8 +120,7 @@ $$
   i_n : S_n \to S_{n+m+1}  
 $$
 
-with $i_n, s_n, t_m$ the sequence of $m$
-consecutive identity-assigning, source or target maps, respectively.
+with $i_n, s_n, t_m$ the sequence of $m$ consecutive identity-assigning, source or target maps, respectively.
 
 =--
 
@@ -213,7 +211,7 @@ Note that a $1$-globular set is just a [[directed graph]], and a $0$-globular se
 
 * [[globular theory]], [[globular operad]]
 
-* Also related is the notion of [[computad]], which is similar to a globular set in some ways, but allows "formal composites" of $n$-cells to appear in the sources and targest of $(n+1)$-cells.
+* Also related is the notion of [[computad]], which is similar to a globular set in some ways, but allows "formal composites" of $n$-cells to appear in the sources and targets of $(n+1)$-cells.
 
 * [[simplicial object]]
 
