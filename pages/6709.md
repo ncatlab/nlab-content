@@ -88,15 +88,35 @@ $$
 $$
 
 ### Relation to Chern-classes
+ {#RelationToChernClasses}
 
-If $E_{\mathbb{C}}$ is a complex [[vector bundle]] and $E_{\mathbb{R}}$ is the underlying real bundle then the second Stiefel-Whitney class is given by the [[first Chern class]] mod 2
++-- {: .num_prop}
+###### Proposition
+
+If $E_{\mathbb{C}}$ is a complex [[vector bundle]]/ $U(n)$-[[principal bundle]] and $E_{\mathbb{R}}$ is the underlying real vector bundle / $O(2n)$-[[principal bundle]] then the second Stiefel-Whitney class is given by the [[first Chern class]] mod 2:
 
 $$ 
-  w2(E_{\mathbb{R}}) = c_1(E_{\mathbb{C}}) \; mod 2
+  w_2(E_{\mathbb{R}}) = c_1(E_{\mathbb{C}}) \; mod 2
   \,.
 $$
 
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+An [[almost complex structure]] on the  [[tangent bundle]] of a [[manifold]] induces a [[spin^c structure]]. 
+
+=--
+
+This is discussed at _[Spin^c-striucture -- From almost complex structures](spin^c+structure#FromAlmostComplexStructures)_.
+
++-- {: .num_remark}
+###### Remark
+
 More generally, the SW classes are then given by the [[Chern character]]. See for instance [Milnor-Stasheff, p. 171](#MilnorStasheff).
+
+=--
 
 ## Related concepts
 
