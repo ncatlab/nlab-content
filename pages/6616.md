@@ -80,7 +80,7 @@ We spell this out in some special cases.
 
 ### $n = 0$ -- Symplectic manifolds
 
-A [[symplectic Lie n-algebroid|symplectic Lie 0-algebroid]] is simply a [[symplectic mannifold]], and so is its [[Lie integration]].
+A [[symplectic Lie n-algebroid|symplectic Lie 0-algebroid]] is simply a [[symplectic manifold]], and so is its [[Lie integration]].
 
 ### $n = 1$ -- Symplectic groupoids from Poisson Lie algebroids
 
@@ -369,11 +369,27 @@ $$
 $$
 
 ## Hamiltonian vector fields on symplectic $n$-groupoids
+ {#HamiltonianVectorFields}
 
-+-- {: .num_defn}
+### Idea
+
+A [[Hamiltonian vector field]] on an ordinary [[symplectic manifold]] is a [[vector field]] $v$ whose contraction with the [[symplectic form]] yields an exact form
+
+$$
+  \iota_v \omega = d \alpha
+  \,.
+$$
+
+This definition generalizes verbatim to [[n-plectic geometry]]. 
+
+We observe [below](#OrdinaryHamiltonianVectorFields) that this condition is equivalent to the fact that the [[flow]] $\exp(v) : X \to X$ of $v$ preserves the connection on any [[prequantum line bundle]], up to homotopy (up to [[gauge transformation]]). In this form the definition has an immediate generalization to symplectic $n$-groupoids.
+
+### Definition
+
++-- {: .num_defn #HamiltonianVectorFieldsOnGrpd}
 ###### Definition
 
-Let $\omega : X \to \mathbf{\flat}_{dR} \mathbf{B}^{n+2} U(1)$ be a symplectic $n$-groupoid and let
+Let $\omega : X \to \mathbf{\flat}_{dR} \mathbf{B}^{n+2} U(1)$ be a symplectic $(n-1)$-groupoid and let
 
 $$
   \hat \omega
@@ -381,25 +397,30 @@ $$
   X \to  \mathbf{B}^{n+2} U(1)_{conn}
 $$
 
-be a [prequantization](#PrequantumBundles).
+be a [prequantization](#PrequantumBundles) [[circle n-bundle with connection]].
 
 Regard it as an object in the [[over-(∞,1)-topos]] $\mathbf{H}/\mathbf{B}^{n+2}U(1)_{conn}$.
 
 Then the internal [[automorphism ∞-group]]
 
 $$
-  \underline{Aut}_{\mathbf{H}/\mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)}(X)
+  \underline{Aut}_{\mathbf{H}/\mathbf{B}^{n+1}U(1)_{conn}}(X)
   \in \mathbf{H}
 $$
 
-of auto-equivalences that respect the [[connection on an infinity-bundle|∞-connection]] that refines $\omega$ we call the $\infty$-group of **Hamiltonian diffeomorphisms**  of $X$. Its [[∞-Lie algebra]] we call that of **Hamiltonian vector fields** on $X$.
+of auto-[[equivalence in an (infinity,1)-category|equivalences]] that respect the [[connection on an infinity-bundle|∞-connection]] that refines $\omega$ we call the $\infty$-group of **Hamiltonian diffeomorphisms**  of $X$. Its [[∞-Lie algebra]] we call that of **Hamiltonian vector fields** on $X$.
 
 =--
+
+### Examples
+
+#### Ordinary Hamiltonian vector fields
+ {#OrdinaryHamiltonianVectorFields}
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $\omega : X \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ an ordinary [[symplectic manifold]] regarded as a symplectic 0-groupoid, this definition reproduces the standard notion of [[Hamiltonian]] vector fields.
+For $\omega : X \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ an ordinary [[symplectic manifold]], regarded as a symplectic 0-groupoid, the general definition \ref{HamiltonianVectorFieldsOnGrpd} reproduces the standard notion of [[Hamiltonian vector fields]].
 
 =--
 
@@ -430,7 +451,7 @@ $$
   \,,
 $$
 
-where $\alpha(t) \in C^\infty(X)$. Differentiating this at 0 yiels the [[Lie derivative]]
+where $\alpha(t) \in C^\infty(X)$. Differentiating this at 0 yields the [[Lie derivative]]
 
 $$
   \mathcal{L}_v A = d \alpha'
@@ -454,7 +475,29 @@ $$
 
 This says that for $v$ to be Hamiltonian, its contraction with $\omega$ must be exact. This is precisely the definition of [[Hamiltonian vector field]]s. The corresponding [[Hamiltonian]] here is $\alpha'-\iota_v A$.
 
+In the general case that the prequantum [[circle n-bundle with connection]] is not trivial, we can present it by a [[Cech cohomology|Cech cocycle]] on the [[Cech nerve]] $C(P_* X \to X)$ of the based [[path space]] [[surjective submersion]] (regarding $P_* X$ as a [[diffeological space]] and choosing one base point per connected component, or else assuming without restriction that $X$ is connected).
+
+Any [[diffeomorphism]] $\phi = \exp(v) : X \to X$ lifts to a diffeomorphism $ P_*\phi : P_* X \to P_* X$ by setting $P_* \phi(\gamma) : (t \in [0,1]) \mapsto \exp(t v)(\gamma(t))$.
+
+So we get a diagram 
+
+$$
+  \array{
+     C(P_* \to X) &&\stackrel{P_*\phi}{\to} && C(P_* \to X)
+     \\
+     & {}_{\mathllap{\hat \omega}}\searrow 
+     &\swArrow_{\alpha}& 
+     \swarrow_{\mathrlap{\hat \omega}}
+     \\
+     && \mathbf{B} U(1)_{conn}
+  }
+$$
+
+of [[simplicial presheaves]]. Now the same argument as above applies on $P_* X$.
+
+
 =--
+
 
 ## Related concepts
 
@@ -477,6 +520,7 @@ Some ideas pointing to higher symplectic groupoids were indicated in
 Aspects of the relation to [[multisymplectic geometry]] are in
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ {#Rogers}
 
 
 A discuss of higher symplectic geometry in a general context is in section 4.3 of 
