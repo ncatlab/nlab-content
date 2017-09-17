@@ -25,6 +25,8 @@ This entry is about the article
  
   _Topological Quantum Field Theories from Compact Lie Groups_ 
 
+  in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010)
+
   ([arXiv](http://arxiv.org/abs/0905.0731))
 
 on a central topic in [[higher category theory and physics]]: the [[higher category theory|abstract higher categoretic]] conception of [[path integral]] [[quantization]] of classical [[action functional]]s to [[FQFT|extended quantum field theories]].
