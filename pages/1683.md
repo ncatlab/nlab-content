@@ -41,7 +41,7 @@ $$
 
 ### Homotopy fixed points and $KR$-theory
 
-[[complex conjugation|Complex conjugation]] on [[complex vecgtor bundles]] induces on the [[complex K-theory]] [[spectrum]] $KU$ an [[involution|involutive]] [[automorphism]]. [[KR-theory]] is the corresponding $\mathbb{Z}_2$-[[equivariant cohomology]] theory. 
+[[complex conjugation|Complex conjugation]] on [[complex vector bundles]] induces on the [[complex K-theory]] [[spectrum]] $KU$ an [[involution|involutive]] [[automorphism]]. [[KR-theory]] is the corresponding $\mathbb{Z}_2$-[[equivariant cohomology]] theory. 
 
 In particular, the [[homotopy fixed point]] of [[KU]] under this automorphism is [[KO]]
 
@@ -62,6 +62,8 @@ and this way where in complex K-theory one has [[KU]]-[[modules]] ([[∞-modules
 * [[tmf]]
 
 * [[cohomology theory]]
+
+* [[KO-theory]]
 
 [[!redirects KU]]
 [[!redirects KO]]
