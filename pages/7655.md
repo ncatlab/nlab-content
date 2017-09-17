@@ -1,0 +1,6 @@
+
+* [webpage](http://en.wikipedia.org/wiki/Witold_Hurewicz)
+
+category: people
+
+[[!redirects Hurewicz]]
