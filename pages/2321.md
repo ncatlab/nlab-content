@@ -81,3 +81,7 @@ ordinary notion of orientation described above.
 [[!redirects orientable]]
 
 [[!redirects oriented]]
+
+[[!redirects orientation structure]]
+[[!redirects orientation structures]]
+
