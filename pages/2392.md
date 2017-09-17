@@ -62,11 +62,81 @@ Every [[operad]] $A$ encodes and is encoded by its [[category of operators]] $C_
 
 In this approach an $(\infty,1)$-operad $C^\otimes$ is regarded as an [[(∞,1)-category]] $C$ -- the unary part of the $(\infty,1)$-operad to be described-- with extra structure that determines [[(∞,1)-functor]]s $C^{\times n} \to C$.
 
-This and the conditions on these are encoded in requiring that $C^\otimes$ is an $(\infty,1)$-functor $C^\otimes \to \Gamma$ over [[Segal's category]] $\Gamma$ of pointed finite sets, satisfying some conditions.
+This and the conditions on these are encoded in requiring that $C^\otimes$ is an $(\infty,1)$-functor $C^\otimes \to \Gamma$ over [[Segal Gamma category|Segal's category]] $\Gamma$ of pointed finite sets, satisfying some conditions.
 
 In particular, any [[symmetric monoidal (∞,1)-category]] yields an example of an $(\infty,1)$-operad in this sense.  In fact, symmetric monoidal $(\infty,1)$-categories can be *defined* as $(\infty,1)$-operads such that the functor $C^\otimes \to \Gamma$ is a [[coCartesian fibration]].  (For the moment, see [[monoidal (infinity,1)-category]] for more comments and references on higher operads in this context.)
 
 This is the approach described in ([LurieCommutative](#LurieCommutative))
+
+#### Basic definitions
+ {#BasicDefinitions}
+
++-- {: .num_defn}
+###### Definition
+
+For $\mathcal{O}$ a [[symmetric multicategory]], write $\mathcal{O}^\otimes \to FinSet_*$ for its [[category of operators]].
+
+Here $\mathcal{O}^\otimes$ is the [[category]] whose
+
+* [[objects]] are finite sequences of objects of $\mathcal{O}$;
+
+* [[morphisms]] $(X_1, \cdots, X_{n_1}) \to (Y_1, \cdots, Y_{n_2})$ are given by a morphism $\alpha \colon \langle n_1\rangle \to \langle n_2\rangle$ in $FinSet_*$ together with a collection of [[multimorphisms]]
+
+  $$
+    \left\{
+      \phi_j in \mathcal{O}\left( \left\{ X_i\right\}_{i \in \alpha^{-1}\left\{j\right\}} , Y_j \right)
+    \right\}_{1 \leq j \leq n}
+    \,.
+  $$
+
+The [[functor]] $p \colon \mathcal{O}^\otimes \to FinSet^{*/}$ is the evident [[forgetful functor]].
+
+=--
+
+([Lurie, construction 2.1.1.7](#Lurie))
+
+This motivates the following definition of the generalization of this situation to [[(∞,1)-category theory]].
+
+
++-- {: .num_defn}
+###### Definition
+
+A morphism in $FinSet^{*/}$ is called an 
+**[[inert morphism]]** if it is an [[injection]] on those elements that are not sent to the base point.
+
+A morphism in $FinSet^{*/}$ is called an **[[active morphism]]** if only the basepoint goes to the basepoint.
+
+=--
+
+([Lurie, def. 2.1.1.8](#Lurie))
+
++-- {: .num_defn #InfinityOperadByCategoryOfOperators}
+###### Definition
+
+The **$(\infty,1)$-category of operators of an $(\infty,1)$-operad** is a morphism
+
+$$
+  p \colon \mathcal{O}^\otimes \to FinSet^{*/}
+$$
+
+of [[quasi-categories]] such that the following conditions hold:
+
+1. For every [[inert morphism]] in $FinSet^{*/}$ and every [[object]] over it, there is a lift to a $p$-[[coCartesian morphism]] in $\mathcal{O}^\otimes$. 
+
+1. The coCartesian lifts of the inert projection morphisms induce an equivalence of [[derived hom-spaces]] in $\mathcal{O}^{\otimes}$ between maps into multiple object and the products of the maps into the separete objects.
+
+1. For every finite collection of objects there exists a multiobject which exhibits their sequence under the coCartesian projeciton maps.
+
+=--
+
+([Lurie, def. 2.1.1.10](#Lurie))
+
++-- {: .num_defn }
+###### Definition
+
+A [[morphism of (∞,1)-operads]] is a map between their [[(∞,1)-categories of operators]] over $FinSet^{*/}$ that preserves [[inert morphisms]].
+
+=--
 
 
 #### Model for $(\infty,1)$-categories of operators {#ModelForinfOpera}
@@ -121,29 +191,60 @@ There exists a
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This is prop 1.8 4 in
 
 * [[Jacob Lurie]], _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf))
 
 
+
+## Examples
+
+We list some examples of $(\infty,1)$-operads incarnated as their [[(∞,1)-categories of operators]] by def. \ref{InfinityOperadByCategoryOfOperators}.
+
++-- {: .num_example}
+###### Example
+
+The [[identity]] functor on $FinSet^{*/}$ exhibits an $(\infty.1)$-operad. This is the **[[commutative operad]]**
+
+$$
+  Comm^\otimes = FinSet^{*/} \stackrel{id}{\to} FinSet^{*/}
+  \,.
+$$
+
 =--
 
++-- {: .num_example}
+###### Example
 
-## Coherent $(\infty,1)$-operads
+The **[[associative operad]]** has $Assoc^\otimes$ the category which over $\{*\} \coprod [n]$ has the set of [[total orders]] on $n$ elements.
 
-See 
+=--
 
-* [[coherent (∞,1)-operad]].
++-- {: .num_example}
+###### Example
+
+The **[[operad for modules over an algebra]]** $LM$ has ...
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The **[[operad for bimodules over algebras]]** $BM$ has ...
+
+=--
+
+## Properties
 
 
-## Relation between the two definitions {#relation}
+### Relation between the two definitions 
+  {#relation}
 
 +-- {: .standout}
 
 At the time of this writing there is no discussion in "the literature" of the relation between the definition of $(\infty,1)$-operads in terms of dendroidal sets (Cisinski, Moerdijk, Weiss) and $(\infty,1)$-categories of operators (Lurie). The following are some tentative observations. - [[Urs Schreiber|Urs]]
+
+update: meanwhile this has been worked out by some people. Results should appear in preprint form soon.
 
 =--
 
@@ -361,6 +462,8 @@ Hence $C_f$ is a weak equivalence.
 
 * [[cohomology of operads]]
 
+
+
 ## References
 
 The formulation in terms of [[dendroidal sets]] is due to
@@ -388,6 +491,7 @@ and further discussed in
 Now in section 2 of the textbook
 
 * _[[Higher Algebra]]_
+ {#Lurie}
 
 
 [[!redirects (∞,1)-operad]]
