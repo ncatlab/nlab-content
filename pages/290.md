@@ -31,6 +31,10 @@ Ours is the age to figure this out.
 
 #References#
 
-For references see [[FQFT]] and [[AQFT]].
+A short introduction to different aspects of QFT usually covered in a first course is this:
+
+* Folland, Gerald B.: "Quantum field theory: A tourist guide for mathematicians." ([ZMAZH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
+
+For further references see [[FQFT]] and [[AQFT]].
 
 [[!redirects QFT]]
