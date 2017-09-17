@@ -20,7 +20,7 @@ Compare [[predicate logic]], or $1$st-order logic, and [[higher-order logic]].  
 
 A __propositional calculus__, also called __sentential calculus__, is simply a system for describing and working with propositional logic.  The precise form of such a calculus (and hence of the logic itself) depends on whether one is using [[classical logic]], [[intuitionistic logic]], [[linear logic]], etc; see those articles for details.
 
-## Related conceptos
+## Related concepts
 
 * **propositional logic** (0th order)
 
