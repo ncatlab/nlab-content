@@ -767,7 +767,7 @@ A detailed review and further refinements are discussed in section 4 of
 
 Aspects of the formulation in the context of [[BV-BRST formalism]] are discussed in ([Alekseev-Barmaz-Mnev](#AlekseevBarmazMnev)).
 
-Discussion of boundaries ([[branes]]) and suface [[QFT with defects|defects]] for Chern-Simons theory is in
+Discussion of _topological_ boundaries ([[branes]]) and suface [[QFT with defects|defects]] for Chern-Simons theory (as opposed to the non-topoligical [[WZW model]]-boundaries) is in
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
  {#KapustinSaulina11}
@@ -775,7 +775,7 @@ Discussion of boundaries ([[branes]]) and suface [[QFT with defects|defects]] fo
 * [[Anton Kapustin]], [[Natalia Saulina]], _Bicategories for boundary conditions and for surface defects in 3-d TFT_,  	Nucl.Phys.B845:393-435,2011 ([arXiv:1203.4568](http://arxiv.org/abs/1203.4568))
  {#KapustinSaulina12}
 
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Alessandro Valentino]], _Bicategories for boundary conditions and for surface defects in 3-d TFT_, 
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Alessandro Valentino]], _Bicategories for boundary conditions and for surface defects in 3-d TFT_ ([arXiv:1203.4568](http://arxiv.org/abs/1203.4568))
  {#FSV}
 
 ### Quantization
