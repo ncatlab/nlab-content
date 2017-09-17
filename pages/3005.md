@@ -124,6 +124,10 @@ There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
+There is also a 2-categorical approach using quasicategories in
+
+* [[Emily Riehl]], [[Dominic Verity]] _The 2-category theory of quasi-categories_ ([arXiv](http://arxiv.org/abs/1306.5144)), _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv](http://arxiv.org/abs/1310.8279))
+
 
 ## Related concepts
 
