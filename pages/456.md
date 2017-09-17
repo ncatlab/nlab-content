@@ -56,6 +56,141 @@ If moreover the [[inverse image]] $f^*$ has also a [[left adjoint]] $f_! : F \to
 **Remark.** Since [[Grothendieck topos|Grothendieck toposes]] satisfy the (dual) hypotheses of Freyd's special [[adjoint functor theorem]], any functor $f^*$ between Grothendieck toposes which preserves all small colimits must have a right adjoint.  Therefore, a geometric morphism between Grothendieck toposes could equivalently be defined as a functor preserving finite limits and all small colimits.
 
 
+## Properties
+
+### Relation to homomorphisms of locales
+ {#RelationToHomomorphismOfLocales}
+
+The definition of geometric morphisms may be motivated as being a [[categorification]] of the definition of morphisms of [[locale]]s.
+
+Recall that
+
++-- {: .num_defn #LocaleHomomorphisms}
+###### Definition
+
+A [[homomorphism]] of [[locale]]s 
+
+$$
+  f : X \to Y
+$$
+
+is dually a morphism of [[frame]]s (the "[[frame of opens|frames of open subsets]]" of $X$ and $Y$, respectively)
+
+$$
+  \mathcal{O}(X) \leftarrow \mathcal{O}(Y) : f^*
+  \,.
+$$
+
+This, in turn, is a [[functor]] (of [[posets]]) that
+
+1. preserves finite [[limit]]s (called [[meet]]s in this context);
+
+1. preserves arbitrary (small) [[colimit]]s (called [[join]]s in this context).
+
+=--
+
+Such a preservation of finite limits and arbitrary colimits is precisely what characterizes the [[inverse image]] part of a geometric morphism, and hence by the [[adjoint functor theorem]] already characterizes the full notion of geometric morphisms. Since a [[locale]] may equivalently be thought of as a [[(0,1)-topos]], this means that geometric morphisms are direct generalization of the notion of locale homorphisms to 1-toposes.
+
+The following says this in more precise fashion.
+
++-- {: .num_defn #DirectImageInducedByLocaleMorphism}
+###### Definition
+
+For $f : X \to Y$ a homomorphism of [[locale]]s, let
+
+$$
+  f_* : Sh(X) \to Sh(Y)
+$$
+
+be the functor between their [[sheaf topos]]es that sends a sheaf $F : \mathcal{O}(X)^{op} \to Set$ to the composite
+
+$$
+  f_* F : \mathcal{O}(Y)^{op} \stackrel{f^*}{\to}
+    \mathcal{O}(X)^{op} \stackrel{F}{\to}
+  Set
+  \,,
+$$
+
+where $f^*$ is the corresponding frame morphism as in def. \ref{LocaleHomomorphisms}.
+
+=--
+
++-- {: .num_prop}
+###### Propositon
+
+The functor $f_*$ in def. \ref{DirectImageInducedByLocaleMorphism} is the [[direct image]] part of a geometric morphism of sheaf toposes
+
+$$
+  (f^* \dashv f_*) : Sh(X) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+   Sh(Y)
+  \,.
+$$
+
+Moreover, the corresponding [[inverse image]] functor $f^*$ does restrict on [[representable functor|representable]]s to the frame morphism that we also denoted $f^*$.
+
+=--
+
+In ([Johnstone](#Johnstone)) this appears as lemma C1.4.1 and theorem C1.4.3.
+
++-- {: .proof}
+###### Proof
+
+Since a morphism of [[frame]]s is a morphism of [[site]]s, as discussed there, this follows from the corresponding propositions in the section <a href="http://nlab.mathforge.org/nlab/show/site#MorphismsOfSitesAndGeometricMorphisms">Morphisms of sites and geometric morphisms</a>.
+
+=--
+
++-- {: .num_prop}
+###### Propositon
+
+The construction $X \mapsto Sh(X)$ extends to a [[2-functor]]
+
+$$
+  Sh : Locale \hookrightarrow Topos
+$$
+
+from the [[category]] [[Locale]] of [[locales]] to the [[2-category]] [[Topos]] of [[topos]]es and geometric morphisms between them
+
+=--
+
+See also at [[locale]] the section <a href="http://nlab.mathforge.org/nlab/show/locale#RelationToToposes">relation to toposes</a>.
+
+### Relation to morphisms of sites
+
+See at [[site]] the section <a href="http://nlab.mathforge.org/nlab/show/site#MorphismsOfSitesAndGeometricMorphisms">Relation between geometric morphisms and morphisms of sites</a> .
+
+### Relation to logical morphisms
+
+
++-- {: .num_prop}
+###### Proposition
+
+Every geometric morphism whose [[direct image]] is a [[logical morphism]] is an [[equivalence of categories|equivalence]].
+
+=--
+
+This is a restatement of <a href="http://nlab.mathforge.org/nlab/show/logical+functor#LogicalMorphismsRightAdjointToCartesianFunctors">this proposition</a> at [[logical morphism]]. See there for a proof.
+
+But [[inverse images]] can be nontrivial logical morphisms:
+
++-- {: .num_prop}
+###### Proposition
+
+* The [[inverse image]] of an [[etale geometric morphism]] is a [[logical morphism]].
+
+=--
+
+Generally, a geometric morphism with logical inverse image is called an 
+[[atomic geometric morphism]]. See there for more details.
+
+### Structure preserved by geometric morphisms
+ {#StructurePreserved}
+
+
+The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as _categories with [[finite limit]]s that are <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">well-powered</a> [[indexed categories]] with respect to the canonical indexing over themselves.
+
+This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14. See at [[indexed category]] the section <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">Well-poweredness</a>.
+
+
 ## Special classes of geometric morphisms
 
 There are vrious extra properties of a geometric moprhisms that are relevant. 
@@ -333,39 +468,6 @@ The points $x \in X$ of the topological space $X$ are in canonical bijection wit
 
 =--
 
-## Properties
-
-### Relation to logical morphisms
-
-
-+-- {: .num_prop}
-###### Proposition
-
-Every geometric morphism whose [[direct image]] is a [[logical morphism]] is an [[equivalence of categories|equivalence]].
-
-=--
-
-This is a restatement of <a href="http://nlab.mathforge.org/nlab/show/logical+functor#LogicalMorphismsRightAdjointToCartesianFunctors">this proposition</a> at [[logical morphism]]. See there for a proof.
-
-But [[inverse images]] can be nontrivial logical morphisms:
-
-+-- {: .num_prop}
-###### Proposition
-
-* The [[inverse image]] of an [[etale geometric morphism]] is a [[logical morphism]].
-
-=--
-
-Generally, a geometric morphism with logical inverse image is called an 
-[[atomic geometric morphism]]. See there for more details.
-
-### Structure preserved by geometric morphisms
- {#StructurePreserved}
-
-
-The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as _categories with [[finite limit]]s that are <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">well-powered</a> [[indexed categories]] with respect to the canonical indexing over themselves.
-
-This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14. See at [[indexed category]] the section <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">Well-poweredness</a>.
 
 
 ## Related concepts
@@ -373,6 +475,8 @@ This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3
 * [[logical morphism]]
 
 * **geometric morphism**
+
+  * [[geometric logic]], [[geometric theory]]
 
 * [[(∞,1)-geometric morphism]]
 
