@@ -80,11 +80,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Art of Problem Solving](http://www.artofproblemsolving.com) -- math school problems, math olympiads, talent search -- features online forum with  subforums in other languages and [AoPS Resources](http://www.artofproblemsolving.com/Resources/index.php?) including [AoPSwiki](http://www.artofproblemsolving.com/Wiki/index.php/Main_Page), [LaTeX forum section](http://www.artofproblemsolving.com/Forum/viewforum.php?f=123) and [LaTeX guide](http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:About) included. 
 
 
-### Collections
-
-* [MathOnline](http://mathonline.andreaferretti.it/) is dedicated to collecting free mathematics resources, like books, lecture notes, videos and more. Using reviews, votes, and a tagging system, all this material is kept organized. (No DNS entry as of 2012-07-14.)
-
-
 ### Current Blogs
 
 * [Alasdair's Musings] (http://amca01.wordpress.com) Mainly (but not entirely) mathematics education and computer algebra systems.
