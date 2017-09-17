@@ -70,4 +70,3 @@ category: meta
 [[!redirects Home Page]]
 [[!redirects Homepage]]
 [[!redirects Home page]]
-
