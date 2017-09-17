@@ -125,7 +125,9 @@ The proof is almost embarrassingly simple.  Let $J$ be the join of $(-\infty,0)$
 This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
 
 
+[[!redirects the locale of real numbers]]
 [[!redirects locale of real numbers]]
 [[!redirects localic real numbers]]
 [[!redirects localic real number]]
+[[!redirects the localic real line]]
 [[!redirects localic real line]]
