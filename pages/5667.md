@@ -491,7 +491,7 @@ Some streamlining of the definitions appeared in
 
 A textbook account is in 
 
-* B. Blackadar, _K-theory for Operator Algebras_, 2nd ed. Cambridge University Press, Cambridge (1999)
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_, 2nd ed. Cambridge University Press, Cambridge (1999)
  {#Blackadar99}
 
 Introductions and surveys include
