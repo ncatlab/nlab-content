@@ -204,7 +204,7 @@ $$
   \,.
 $$
 
-By the discussion at _[Relative homology - long exact sequences](relative%20homology#LongExactSequences)_ this idunces a [[long exact sequence]] of the form
+By the discussion at _[Relative homology - long exact sequences](relative%20homology#LongExactSequences)_ this induces a [[long exact sequence]] of the form
 
 $$
   \cdots
