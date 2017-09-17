@@ -83,7 +83,8 @@ $$
 
 [[fig1.gif:pic]]
 
-$\hat{\otimes}$ in the same line with $$\hat\otimes$$, same line 
+$\hat{\otimes}$ in the same line with $\hat{x}$, $\hat { x }$ 
+$\hat {\otimes}$, $\hat{ \otimes}$, $\bar{\otimes}$ $\displaystyle{\hat{\otimes}}$
 
 $$
 \hat{\otimes}
