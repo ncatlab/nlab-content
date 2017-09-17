@@ -93,6 +93,8 @@ On [[quantum field theory]] and [[string theory]]:
 
 * Bernard F. Schutz, *Geometrical methods of mathematical physics* (elementary intro) 
 
+* Howard Georgi: _Lie Algebras in Particle Physics. From isospin to unified theories._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0505.00036&format=complete))
+
 * Eberhard Zeidler, *Quantum field theory. A bridge between mathematicians and physicists*. I: Basics in mathematics and physics. , II: Quantum electrodynamics
 
 * Charles Nash, *Differential topology and quantum field theory*, Acad. Press 1991.
@@ -147,6 +149,8 @@ The related subject of positive energy representations for loop groups is repres
 * N. N. Bogoliubov, A. A. Logunov, I. T. Todorov, *Introduction to axiomatic quantum field theory*, 1975
 
 * R. Haag, _Local quantum physics: fields, particles, algebras_, Springer 
+
+* Huzihiro Araki: _Mathematical theory of quantum fields._ Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
 
 * James Glimm, Arthur Jaffe, *Quantum physics: a functional integral point of view*, Springer
 
