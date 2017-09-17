@@ -489,7 +489,7 @@ In this way the [[moduli ∞-stack]] $\mathbf{Fields}$ of [[field (physics)|fiel
 
 Next we define the _[[dynamics]]_ by defining a [[local action functional]] which assigns to each [[trajectory]] a [[probability amplitude]] for that trajectory to be "physically realized".
 
-Traditionally, in non-localized [[prequantum field theory]], an (exponentiated) [[action functional]] is a map of the form $\mathbf{Fields}_{traj} \longrightarrow U(1)$. For instance for $\mathbf{Fields}_{traj} \coloneqq [S^1, X]$ the smooth [[loop space]] of a [[manifold]] $X$ that is equipped with a $U(1)$-[[principal connection]] $\nabla \colon X \to \mathbf{B}U(1)_{conn}$ (an [[electromagnetic field]]), then the [[holonomy]] [[functional]] $hol_\nabla \colon [S^1, X] \to U(1)$ is the [[interaction]] term for the [[charged particle]] [[sigma model]] [[field theory]] on $X$.
+Traditionally, in non-localized [[prequantum field theory]], an (exponentiated) [[action functional]] is a map of the form $\mathbf{Fields}_{traj} \longrightarrow U(1)$. For instance for $\mathbf{Fields}_{traj} \coloneqq [S^1, X]$ the smooth [[loop space]] of a [[manifold]] $X$ that is equipped with a $U(1)$-[[principal connection]] $\nabla \colon X \to \mathbf{B}U(1)_{conn}$ (an [[electromagnetic field]]), then the [[holonomy]] [[nonlinear functional|functional]] $hol_\nabla \colon [S^1, X] \to U(1)$ is the [[interaction]] term for the [[charged particle]] [[sigma model]] [[field theory]] on $X$.
 
 To see how this is axiomatized in _[[local field theory|local]]_ [[field theory]], notice that there is a [[homotopy fiber product]] [[diagram]] of the form
 
