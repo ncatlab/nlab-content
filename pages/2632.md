@@ -57,6 +57,8 @@ physics, part of quantum mechanics; it requires special limiting assumptions (th
 
 Zoran: Quantum physics includes all quantum phenomena, including experimental reality. Quantum mechanics is just the theoretical description at the fundamental level, like mechanics is of the classical physics. 
 
+[[Ian Durham]]: I agree, in principle, but I'm simply saying that not everyone interprets the term as such.
+
 ## Quantum mechanics in terms of $\dagger$-compact categories
 
 Many aspects of quantum mechanics and [[quantum computation]] depend only on the abstract properties of [[Hilb]] characterized by the fact that it is a [[†-compact category]]. 
