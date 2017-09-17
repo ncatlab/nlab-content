@@ -32,9 +32,9 @@ Precisely: in the model of [[∞-groupoid]]s given by [[Kan complex]]es $A$ is *
 
 It makes sense for the following to adopt the convention that $A$ is called 
 
-* _$(-1)$-truncated_ if it is empty or contractible
+* _$(-1)$-truncated_ if it is empty or contractible -- this is a [[(-1)-groupoid]].
 
-* $(-2)$-truncated if it is non-empty and contractible.
+* $(-2)$-truncated if it is non-empty and contractible -- this is a [[(-2)-groupoid]].
 
 (following [[Higher Topos Theory|HTT, p. 6]]).
 
