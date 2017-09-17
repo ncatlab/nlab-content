@@ -1,0 +1,63 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Forsuitable setups, there is a canonical [[homomorphism]] from [[algebraic K-theory]] to [[topological K-theory]] with given [[coefficients]].
+
+This usually goes just by "the comparison map". (e.g. [Rosenberg, theorem 2.1](#Rosenberg))
+
+## Statement
+
+### Formulation in cohesive homotopy-type theory
+
+Given a [[cohesive (infinity,1)-topos]} and a [[symmetric monoidal (∞,1)-category]] $V\in CMon_\infty(Cat_\infty(\mathbf{H}))$, [[internal (∞,1)-category|internal]] to $\mathbf{H}$ write
+
+$$
+  \mathcal{K}(V)\in Stab(\mathbf{H})\hookrightarrow T \mathbf{H}
+$$
+
+for its [[K-theory of a symmetric monoidal (∞,1)-category]] (formed locally and then [[∞-stackification|∞-stackified]]). This is a [[stable homotopy type]] in the [[tangent cohesive (∞,1)-topos]].
+
+The [[flat modality]] part $\flat \mathcal{K}(V)$ is the [[algebraic K-theory]] of $\flat V \in CMon_\infty(Cat_\infty)$. The [[shape modality]] part on the other hand is a "topological" version of this
+
+The [[points-to-pieces transform]] $\flat \to \Pi$ provides a canonical comparison map
+
+$$
+  \flat \mathcal{K}(V) \longrightarrow \Pi \mathcal{K}(V)
+  \,.
+$$
+
+For instance for $\mathbf{H}= $ [[Smooth∞Grpd]] and $V = \mathbf{Vect}^{\oplus}$ the [[stack]] of smooth [[vector bundles]] with [[direct sum]] monoidal structure, then $\flat \mathcal{K}(V)\simeq K \mathbb{C}$ is the [[algebraic K-theory]] of the [[complex numbers]] and $\Pi \mathcal{K}(V)\simeq $ [[KU]] is complex [[topological K-theory]].
+
+See at _[[differential cohomology diagram]]_ for more on thios 
+
+## References
+
+* {#Paluch} Michael Paluch, _Algebraic $K$-theory and topological spaces_ K-theory 0471 ([web](http://www.math.uiuc.edu/K-theory/0471/))
+
+
+* {#Rosenberg} [[Jonathan Rosenberg]], _Comparison between algebraic and topological K-theory for Banach algebras and $C^\ast$-algebras_   ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
+
+
+[[!redirects comparison between algebraic and topological K-theory]]
+[[!redirects comparison mapso between algebraic and topological K-theory]]
+
+[[!redirects comparison map between algebraic K-theory and topological K-theory]]
