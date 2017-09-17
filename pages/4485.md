@@ -5,13 +5,10 @@
 
 ## Definition
 
-A [[differentiable map]] $f : X \to Y$ between two [[manifold]]s is called a _submersion_ precisely if its [[differential]] $d f : T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x : T_x X \to T_{f(x)} Y$.
+A [[differentiable map]] $f : X \to Y$ between two [[manifold]]s is called a __submersion__ precisely if its [[differential]] $d f\colon T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x\colon T_x X \to T_{f(x)} Y$.
 
-It is also possible to write a definition that makes no reference to differentials and applies to non-differentiable maps, even between non-differentiable manifolds.
+In terms of coordinates, the map $f$ is a submersion at a point $p\colon X$ if and only if there exists a coordinate chart on $X$ near $p$ and a coordinate chart on $Y$ near $f(p)$ relative to which $f$ is the projection $f(x_1,\ldots,x_n) = (x_1,\ldots,x_m)$.  This definition applies to non-differentiable maps, even between non-differentiable manifolds.
 
-+-- {: .query}
-I think that I have a book by Lang with this in it; I\'ll add it when I find it.  ---Toby
-=--
 
 ## Properties
 
@@ -27,6 +24,8 @@ Surjective submersions form a singleton [[Grothendieck pretopology]] on [[Diff]]
 ## Variants
 
 The [[algebraic geometry]] analogue of a submersion is a [[smooth morphism]].
+
+The analogue between arbitrary [[topological spaces]] (not manifolds) is simply an [[open map]].
 
 
 [[!redirects submersion]]
