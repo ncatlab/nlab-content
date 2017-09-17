@@ -11,10 +11,11 @@ This page is an informal/speculative discussion of an alternative (yet hopefully
 
 I think I may have found a way to express this idea without resorting to non-standard morphism-like maps $x\to F(x)$ or cographs.
 
-The idea I'm trying to get at, I think can be encapsulated in the statement that a map $F:A\to B$ is a functor if for every morphism $f:x\to y$ in $A$, we have
-
++-- {: .standout}
+##Definition
+Given categories $A$ and $B$, a map $F:A\to B$ is a functor if for every morphism $f:x\to y$ in $A$
 $$F(f) F(x) = F(f(x)).$$
-
+=--
 Let's check...
 
 $$\array{
@@ -37,11 +38,7 @@ as required.
 
 Therefore, it seems to work.
 
-+-- {: .standout}
-###Definition
-Given categories $A$ and $B$, a map $F:A\to B$ is a functor if for every morphism $f:x\to y$ in $A$
-$$F(f) F(x) = F(f(x)).$$
-=--
+
 
 Note this is still essentially the same thing as conveyed in my earlier picture
 
