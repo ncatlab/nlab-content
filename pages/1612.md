@@ -1,3 +1,8 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea ##
 
 A _modular tensor category_ is roughly a [[category]] that encodes the _topological_ structure underlying a rational 2-dimensional [[conformal field theory]]. In other words, it is a basis-independent formulation of _Moore-Seiberg data_.
@@ -53,3 +58,5 @@ A **modular tensor category** is a [[category]] with the following long list of 
 section 2.1 of 
 
 * J. Fuchs, I. Runkel, C. Schweigert, _TFT construction of RCFT correlators I: partition functions_ ([arXiv](http://arxiv.org/abs/hep-th/0204148))
+
+[[!redirects modular tensor categories]]
