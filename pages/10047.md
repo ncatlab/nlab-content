@@ -9,15 +9,14 @@
 =--
 =--
 
-
 # Continuous categories
-
 * table of contents
 {: toc}
 
 ## Idea
 
 The notion of _continuous category_ is a [[categorification]] of the notion of _[[continuous poset]]_.
+
 
 ## Definition
 
@@ -30,13 +29,15 @@ A category $C$ with filtered colimits is a **continuous category** if $\colim: I
 
 If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Thus, a poset is a continuous category exactly when it is a [[continuous poset]].
 
+
 ## Examples
 
 * Any [[locally finitely presentable category]] is a continuous category.
 
-* A [[Grothendieck topos]] is a continuous category if and only if it is an [[exponentiable object]] in the 2-category of toposes.
+* A [[Grothendieck topos]] is a continuous category if and only if it is an [[exponentiable object]] in the 2-category of Grothendieck toposes and [[geometric morphisms]].
 
-  * If $X$ is a [[stably locally compact locale]] (or more generally a [[metastably locally compact locale]]), then $Sh(X)$ is continuous and hence exponentiable.  It does *not* suffice for $X$ to be locally compact (i.e. for its [[frame]] $O(X)$ of opens to be a continuous poset).
+  * If $X$ is a [[stably locally compact locale]] (or more generally a [[metastably locally compact locale]]), then $Sh(X)$ is continuous and hence exponentiable.  It does *not* suffice for $X$ to be locally compact (i.e. for its [[frame of opens]] to be a continuous poset).
+
 
 ## Wavy arrows
 
@@ -48,14 +49,18 @@ where $i$ is the [[adjunct]] of the identity $y = \colim \hat{y}$ (or of the ide
 
 However, if $\tilde{C}(x,y)$ denotes the set of wavy arrows, then the composition defines a map of [[profunctors]] $\tilde{C} \otimes_C \tilde{C} \to \tilde{C}$ which is in fact an isomorphism.  Combined with the map from wavy arrows to straight ones, this makes $\tilde{C}$ into an idempotent [[comonad]] on $C$ in the bicategory [[Prof]].
 
+
 ## Related pages
 
-* Continuous categories can be generalized to [[continuous algebras]] for a [[lax-idempotent 2-monad]].
+* Continuous categories can be generalized to [[continuous algebras]] for any [[lax-idempotent 2-monad]].
+
 
 ## References
 
 * [[Peter Johnstone]] and [[Andre Joyal]], *Continuous categories and exponentiable toposes*, JPAA 25 (1982), [doi (free PDF)](http://dx.doi.org/10.1016/0022-4049%2882%2990083-4)
 
+
+[[!redirects continuous category]]
 [[!redirects continuous categories]]
 [[!redirects wavy arrow]]
 [[!redirects wavy arrows]]
