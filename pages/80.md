@@ -91,6 +91,8 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 * John Baldwin, _Model theoretic perspectives on the philosophy of mathematics_, [pdf](http://homepages.math.uic.edu/~jbaldwin/pub/amstersh.pdf)
 * [[Yuri Manin|Yu. I. Manin]], _Mathematical knowledge: internal, social and cultural aspects_, [arXiv:math.HO/0703427](http://arxiv.org/abs/math.HO/0703427); _Georg Cantor and his heritage_, [arxiv/math.AG/0209244](http://arxiv.org/abs/math.AG/0209244); _Truth as value and duty: lessons of mathematics_, [arxiv/0805.4057](http://arxiv.org/abs/0805.4057)
 * M. G. Katz, E. Leichtnam, _Commuting and noncommuting infinitesimals_, Amer. Math. Monthly 120 (2013), no. 7, 631-641 [arxiv/1304.0583](http://arxiv.org/abs/1304.0583)
+* M. G. Katz, Thomas Mormann, _Infinitesimals as an issue in neo-Kantian philosophy of science_, [arxiv/1304.1027](http://arxiv.org/abs/1304.1027)
+
 
 ### Blog and forum discussions
 
