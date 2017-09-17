@@ -287,10 +287,22 @@ Some theorems in category theory are _[[folklore]]_.
  {#References}
 
 ### History
+ {#History}
 
-Category theory was introduced by [[Samuel Eilenberg]] and [[Saunders Mac Lane]] in the 1945 paper **General theory of natural equivalences**. The reason for introducing [[category|categories]] was to introduce [[functor]]s, and the reason for introducing functors was to introduce [[natural transformation]]s (more specifically natural equivalences) in order to define what _natural_ means in mathematics. 
+Category theory was introduced in
 
-The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
+
+* [[Samuel Eilenberg]], [[Saunders Mac Lane]], _General theory of natural equivalences, 1945 
+  {#EilenbergMaclane45}
+
+The reason for introducing [[category|categories]] was to introduce [[functors]], and the reason for introducing functors was to introduce [[natural transformations]] (more specifically natural equivalences) in order to define what _natural_ means in mathematics:
+
+> If topology were pubically defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
+
+> A better (albeit not perfect) description of topology is that it is the study of continuous maps; and category theory is likewise better described as the theory of functors. Both desciptions are logically inadmissible as initial definitions, but they more accurately reflect both the present and the historical motivations of the subjects. It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. (from [Freyd 64, page 1](#Freyd64))
+
+
+The paper [Eilenberg-Maclane 45](#EilenbergMaclane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
 
 
 ### Textbooks
@@ -321,6 +333,8 @@ The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topolo
 
 * [[Peter Freyd]] and Andre Scedrov, _[[Categories, Allegories]]_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
 
+* [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
+  {#Freyd64}
 
 #### Topos theory
 
