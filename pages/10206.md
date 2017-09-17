@@ -1,0 +1,22 @@
+
+#Contentens#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[twisted cohomology]] version of [[ordinary cohomology]].
+
+## Related concepts
+
+* [[twisted K-theory]]
+
+## References
+
+Reviews are for instance 
+
+section 2 of 
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
+
+
