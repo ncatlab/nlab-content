@@ -1,10 +1,23 @@
 
-the [[moduli space]] of [[conformal structures]]
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+a [[moduli space]] of [[conformal structures]]
+
+(Typically a [[moduli stack]] and typically an [[orbifold]]/[[Deligne mumford stack]].)
+
 
 ## Related concepts
 
 * [[moduli space of complex structures]]
 
 * [[Teichmüller theory]]
+
+## References
+
+See also the references at _[[moduli space of complex structures]]_.
 
 [[!redirects moduli spacs of conformal structures]]
