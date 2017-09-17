@@ -177,6 +177,7 @@ See at _[[Theta-space]]_.
 We discuss an equivalent formulation of the Segal condition in terms of notions in [[topos theory]]/[[(∞,1)-topos theory]]. This perspective for instance lends itself more to a formulation of Segal conditions in terms of the [[internal language]] of toposes.
 
 #### For simplicial objects and category objects
+ {#InTermsOfSheafConditionForSimplicialObjects}
 
 We characterize below in prop. \ref{CatAsPullback} the category of categories as the pullback of the [[topos]] of [[simplicial set]] along the inclusion of the topos of graphs into that of presheaves on finite linear graphs. 
 
