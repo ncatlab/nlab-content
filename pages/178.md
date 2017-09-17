@@ -693,12 +693,13 @@ $$
 
 The presheaf is clearly objectwise a [[Kan complex]], being objectwise
 the nerve of a groupoid. It satisfies [[descent]] along [[good open cover]]s
-$\{U_i \to \mathbb{R}^n\}$ of [[Cartesian space]]s, because the descent $\infty$-groupoid $[CartSp^{op}, sSet](C(\{U_i\}), \mathbf{B}G)$ is $G Bund(\mathbb{R}^n) \simeq G TrivBund(\mathbb{R}^n)$. 
+$\{U_i \to \mathbb{R}^n\}$ of [[Cartesian space]]s, because the [[descent]] $\infty$-groupoid $[CartSp^{op}, sSet](C(\{U_i\}), \mathbf{B}G)$ is $\cdots \simeq G Bund(\mathbb{R}^n) \simeq G TrivBund(\mathbb{R}^n)$: an object is a [[Cech cohomology|Cech]]
+1-cocycle with coefficients in $G$, a morphism a Cech coboundary, which yields the groupoid of $G$-[[principal bundle]]s over $U$, which for the [[Cartesian space]] $U$ is however equivalent to the groupoid of trivial $G$-bundles over $U$.
 
 To show that $\mathbf{B}G$ is indeed the [[delooping]] object of $G$
 it is sufficient (by the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#HomotopyLimits">model structure on simplicial presheaves -- homotopy limits</a>)
-to compute the [[homotopy pullback]] 
-$G \simeq * \times_{\mathbf{B}G} *$ in the global structure $[CartSp^{op}, sSet]_{proj}$.
+to compute the [[(∞,1)-pullback]] 
+$G \simeq * \times_{\mathbf{B}G} *$ in the global model structure $[CartSp^{op}, sSet]_{proj}$.
 
 This is accomplished by the ordinary [[pullback]] of the 
 fibrant replacement diagram 
@@ -707,7 +708,7 @@ $$
   \array{
     G &\to& N(G\times G \stackrel{\overset{p_1 \cdot p_2}{\to}}{\underset{p_1}{\to}} G)
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{p_2}}
     \\
     * &\to& N(G \stackrel{\to}{\to} *)
   }
@@ -1794,7 +1795,7 @@ The canonical morphism of that into $\mathbf{B}G_c$ is however
 not a fibration.
 
 We claim that the canonical inclusion
-$N(G_{disc}\stackrel{\to}{\t}) \to \mathbf{\flat} \mathbf{B}G_{c}$
+$N(G_{disc}\stackrel{\to}{\to}) \to \mathbf{\flat} \mathbf{B}G_{c}$
 factors the inclusion into $\mathbf{B}G_c$ by a weak equivalence followed
 by a global fibration.
 
@@ -2309,7 +2310,8 @@ Finally the same argument that above showed that no nontrivial automorphisms of 
 #### With coefficients in $\mathbf{B}G$ for a Lie group $G$ 
 
 Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for its 
-[[Lie algebra]] 
+[[Lie algebra]].
+
 
 +-- {: .un_prop #LieGroupDeRhamCoefficients}
 ###### Proposition
@@ -2321,7 +2323,8 @@ $\mathbf{\flat}\mathbf{B}G_c = \Omega^1_{flat}(-, \mathfrak{g})$ of
 [[groupoid of Lie-algebra valued forms|flat Lie-algebra valued forms]]
 
 $$
-  \mathbf{\flat}\mathbf{}
+  \mathbf{\flat}_{dR}\mathbf{B}G_c
+  :
   U \mapsto \Omega^1_{flat}(U,\mathfrak{g})
   \,.
 $$
@@ -2332,9 +2335,9 @@ $$
 ###### Proof
 
 By a [proposition above](#LieGroupFibrantFlatInclusion) we have a
-fibration $\mathbf{\flat}\mathbf{B}G_c \to \mathbf{B}G$
+fibration $\mathbf{\flat}\mathbf{B}G_c \to \mathbf{B}G_c$
 in $[CartSp_{smooth}^{op}, sSet]_{proj}$ modeling the canonical 
-inclusion $\magthbf{\flat}\mathbf{B}G \to \mathbf{B}G$. Therefore
+inclusion $\mathbf{\flat}\mathbf{B}G \to \mathbf{B}G$. Therefore
 we may get a presentation for the defining [[(∞,1)-pullback]]
 
 $$
@@ -2344,11 +2347,11 @@ $$
 in $Smooth \infty Grpd$ by the ordinary [[pullback]]
 
 $$
-  \mathbf{\flat}_{dR}\mathbf{B}G _c 
+  \mathbf{\flat}_{dR}\mathbf{B}G_c 
   \simeq * \times_{\mathbf{B}G_c} \mathbf{\flat} \mathbf{B}G_c
 $$
 
-in $[CartSp^{op}, sSet]_{proj}$.
+in $[CartSp^{op}, sSet]$.
 
 The resulting simplicial presheaf is fibrant in $[CartSp^{op}, sSet]_{proj,loc}$ because it is a [[sheaf]].
 
@@ -2377,7 +2380,7 @@ $$
 =--
 
 
-+-- {: .un_prop }
++-- {: .un_prop #LieGroupDeRhamCohomology}
 ###### Corollary
 
 For $X \in $ [[SmoothMfd]] $\hookrightarrow Smooth \infty Grpd$ we find
@@ -2518,10 +2521,13 @@ We discuss here the  <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infi
 +-- {: .un_def}
 ###### Definition
 
+Write [[dgAlg]] for the [[category]] of [[dg-algebra]]s over 
+the [[real number]]s $\mahbb{R}$.
+
 For $U \in $ [[CartSp]] and $n \in \mathbb{N}$, write
 $\Omega^\bullet(U \times \Delta^n)$ for the [[dg-algebra]] of smooth [[differential form]]s with sitting instants (...) on the simplex.
 
-Write $\Omega^\bullet_{vert}(U \times \Delta^n)$ for the sub-dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^n \to U$: the [[coequalizer]] 
+Write $\Omega^\bullet_{vert}(U \times \Delta^n)$ for the [[quotient]] dg-algebra of [[vertical differential form]]s with respect to the projection $p : U \times \Delta^n \to U$: the [[coequalizer]] 
 
 $$
   \Omega^\bullet(U)
@@ -2568,14 +2574,14 @@ The objects $\exp(\mathfrak{g})$ are [concrete objects](#StrucConcreteObjects).
 ###### Proof
 
 We claim that the object $\exp(\mathfrak{g})$
-is a [diffeological Kan complexes](#DiffeologicalKanComplex).
+is a [diffeological Kan complex](#DiffeologicalKanComplex).
 By [a proposition above](DiffeologicalKanComplexesAreConcrete) 
 this implies that it is concrete.
 
 To see this, first notice that for each $n \in \mathbb{N}$ the
-presheaf $\exp(\mathfrak{g})_n : CartSp_{smooth} \to Set$
+presheaf $\exp(\mathfrak{g})_n : CartSp_{smooth}^{op} \to Set$
 is indeed [[sheaf]]. This follows from the fact that 
-$\Omega^\bullet : CartSp_{smooth} \to Set$ is a sheaf.
+$\Omega^\bullet : CartSp_{smooth}^{op} \to Set$ is a sheaf.
 
 Moreover, by definition of [[vertical differential form]]s
 we have that [[dg-algebra]] homomorphisms 
@@ -3342,46 +3348,50 @@ That amounts to observing that every 1-form $\alpha \in \Omega^1(U)$ may be obta
 
 ### Maurer-Cartan forms and curvature characteristic forms {#StrucCurvatureForms}
 
+We discuss the 
+<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">intrinsic Maurer-Cartan and curvature characteristic forms</a> defined in any cohesive $(\infty,1)$-topos
+realized in $Smooth \infty Grpd$.
 
 #### The canonical form on a Lie group  {#CanonicalFormOnLieGroup}
 
-The following proposition asserts that the abstract $(\infty,1)$-topos-theoretic definition of the canonical $\mathfrak{g}$-valued form on an $\infty$-Lie group $G$ given [above](#CanonicalForm) reduces indeed to the ordinary notion of [[Maurer-Cartan form]] when $G$ is an ordinary [[Lie group]].
+Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for 
+its [[Lie algebra]].
 
-Recall from the [discussion of differential coefficients](#DiffCoeffsForLieGroup) above that the $\infty$-Lie groupoid $\mathbf{\flat}_{dR} \mathbf{B}G$ is modeled by the 0-truncated simplicial sheaf of flat $\mathfrak{g}$-valued forms.
 
 +-- {: .un_prop }
 ###### Proposition
 
-For $G$ a [[Lie group]], 
-the canonical morphism $G \to \mathbf{\flat}_{dR}\mathbf{B}G$ is modeled in $[CartSp^{op}, sSet]$ by the morphism of presheaves 
+Under the identification
 
 $$
-  Hom_{Diff}(-,G) \to \Omega^1_{flat}(-,\mathfrak{g})
+  Smooth \infty Grpd(X, \mathbf{\flat}_{dR}\mathbf{B}G)
+  \simeq
+  \Omega^1_{flat}(X,\mathfrak{g})
 $$
 
-given by
+from [the above proposition](#LieGroupDeRhamCohomology), for $X \in $ [[SmoothMfd]], we have that the canonical morphism
 
 $$
-  (g : U \to G) \mapsto (g^* \theta =: g^{-1} d g)
-  \,,
+  \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}G
 $$
 
-where $\theta$ is the [[Maurer-Cartan form]] on $G$.
+in $Smooth \infty Grpd$ corresponds to the 
+ordinary [[Maurer-Cartan form]] on $G$.
+
 
 =--
 
-**Remark.** By the general identification of differential forms on presheaves/[[diffeological space]]s, this morphism _is_ indeed the [[Maurer-Cartan form]] $\theta$ on $G$.
 
 +-- {: .proof}
 ###### Proof
 
-We need to compute the double [[(∞,1)-pullback]] diagram
+We compute the defining double [[(∞,1)-pullback]]
 
 $$
   \array{
     G &\to& *
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{\theta}}\downarrow && \downarrow
     \\
     \mathbf{\flat}_{dR} \mathbf{B}G &\to& \mathbf{\flat} \mathbf{B}G
     \\
@@ -3389,23 +3399,33 @@ $$
     \\
     * &\to& \mathbf{B}G
   }
-  \,.
 $$
 
-In the above [discussion of differential coefficients](#DiffCoeffsForLieGroup) we already modeled the lower $(\infty,1)$-pullback square by the ordinary pullback in $[CartSp^{op}, sSet]$ of the presheaf that assigns to $U$ the [[groupoid of Lie-algebra valued forms|groupoid of flat Lie-algebra valued forms]] on $U$:
+in $Smooth \infty Grpd$ as a [[homotopy pullback]]
+in $[CartSp_{smooth}^{op}, sSet]_{proj}$
+
+In the above [discussion of differential coefficients](#LieGroupDeRhamCoefficients) we already modeled the lower $(\infty,1)$-pullback square by the ordinary pullback 
 
 $$
-  \mathbf{\flat} \mathbf{B}G : U \mapsto 
-  \{
-     A \stackrel{g}{\to} Ad_g A + g^* \theta 
-     | A \in \Omega^1_{flat}(U,\mathfrak{g}), g \in C^\infty(U,G)
-  \}
-  \,.
+  \array{
+    \mathbf{\flat}_{dR}\mathbf{B}G_c
+      &\to&
+    \mathbf{\flat}\mathbf{B}G_c
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{B}G_c
+  }
 $$
 
-We need to form the [[homotopy pullback]] of the point in this -- which is the vanishing form $A = 0$. A standard fibrant replacement of $* \to \mathbf{\flat}\mathbf{B}G $ (as discussed at [[generalized universal bundle]]) for this is given by the presheaf 
+A standard fibration replacement of the point inclusion
+$* \to \mathbf{\flat}\mathbf{B}G $ is
+(as discussed at [[universal principal ∞-bundle]]) 
+given by replacing the point by the presheaf that assigns groupoids of the form
+
 
 $$
+  Q : 
   U \mapsto 
   \left\{
     \array{
@@ -3419,9 +3439,11 @@ $$
   \,,
 $$
 
-where on the right the commuting triangle in $\mathbf{\flat}_{dR}\mathbf{B}G (U)$ is a morphism from $(g_1,A_1)$ to $(g_2,A_2)$.
+where on the right the commuting triangle is in 
+$(\mathbf{\flat}_{dR}\mathbf{B}G_c)(U)$ and here regarded as a morphism from $(g_1,A_1)$ to $(g_2,A_2)$. And the fibration $Q \to \mathbf{\flat}\mathbf{B}G_c$ is given by projecting out the base of these triangles.
 
-The pullback of this along the above model for $\mathbf{\flat}_{dR}\mathbf{B}G \to \mathbf{\flat}\mathbf{B}G$ is the 0-truncated sheaf
+The pullback of this along
+$\mathbf{\flat}_{dR}\mathbf{B}G_c \to \mathbf{\flat}\mathbf{B}G_c$ is over each $U$  the restriction of the groupoid $Q(U)$ to its set of objects, hence is the [[sheaf]]
 
 $$
   U \mapsto 
@@ -3434,22 +3456,28 @@ $$
        g^* \theta
     }
   \right\}
+  \simeq 
+  C^\infty(U,G)
+  = G(U)
+  \,,
+$$
+
+equipped with the projection
+
+$$
+ t_U :  G \to \mathbf{\flat}_{dR} \mathbf{B}G_c
+$$
+
+given by
+
+$$
+  t_U : (g : U \to G) \mapsto g^* \theta
   \,.
 $$
 
-First of all we see that this is indeed weakly equivalent (indeed isomorphic) to $G$, as it sould be. But the point is that we see from the above pullback that the projection $G \to \mathbf{\flat}_{dR}\mathbf{B}G$ is modeled by the morphisms of presheaves
-
-
-$$
-  Hom_{Diff}(-,G) \to \Omega^1_{flat}(-,\mathfrak{g})
-$$
-
-which is the codomain evaluation of the above cone morphisms:
-
-$$
-  (0 \stackrel{g}{\to} g^* \theta) \mapsto (g^* \theta = g^{-1} d g)
-  \,.
-$$ 
+Under the [[Yoneda lemma]] (over [[SmoothMfd]]) this 
+identifies the morphism $t$ with the [[Maurer-Cartan form]]
+$\theta \in \Omega^1_{flat}(G,\mathfrak{g})$.
 
 =--
 
