@@ -5,14 +5,13 @@
 
 ## Idea
 
-The _Lazard_ [[ring]] is 
+The _Lazard ring__ is a [[commutative ring]] which is 
 
 * the universal [[coefficient]] [[ring]] for [[formal group laws]].
 
 and by [[Quillen's theorem on MU|Quillen's theorem]] also
 
 * the [[cohomology ring]] that the [[complex cobordism cohomology theory]] assigns to the point.
-
 
 
 ## Definition
