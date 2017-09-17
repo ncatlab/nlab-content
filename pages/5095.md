@@ -36,13 +36,15 @@ The existence of arbitrarily large supercompact cardinals implies the statement:
 
 Every absolute epireflective class of objects in a balanced accessible category is a small-orthogonality class. 
 
-In other words, if $L$ is a [[reflective subcategory|reflective]] [[localization]] functor on a [[balanced category|balanced]] [[accessible category]] such that the unit morphism $X \to L X$ is an [[epimorphism]] for all $X$ and the [[class]] of $L$-[[local object]]s is defined by an [[absolute formula]], then the existence of a suficciently large supercompact cardinal implies that $L is a localization with respect to some [[set]] of morphisms.
+In other words, if $L$ is a [[reflective subcategory|reflective]] [[localization]] functor on a [[balanced category|balanced]] [[accessible category]] such that the unit morphism $X \to L X$ is an [[epimorphism]] for all $X$ and the [[class]] of $L$-[[local object]]s is defined by an [[absolute formula]], then the existence of a suficciently large supercompact cardinal implies that $L$ is a localization with respect to some [[set]] of morphisms.
 
 =--
 
 This is in ([BagariaCasacubertaMathias](#BagariaCasacubertaMathias))
 
 > [[Urs Schreiber]]: I am being told in prvivate communication that the assumption of epis can actually be dropped. A refined result is due out soon.
+
+
 
 
 ## References
