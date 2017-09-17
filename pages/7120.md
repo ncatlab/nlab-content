@@ -21,7 +21,7 @@ where the following axioms are listed:
 
 (iii) $i^*\dashv i_*\dashv i^!$
 
-(iv) the unit $Id_{\mathcal{A}''\to i^! i_*}$ and the counit $i^* i_*\to Id_{\mathcal{A}'}$ are iso
+(iv) the unit $Id_{\mathcal{A}''}\to i^! i_*$ and the counit $i^* i_*\to Id_{\mathcal{A}'}$ are iso
 
 (v) the functor $i_*:\mathcal{A}'\to Ker(j_*)$ is an equivalence of categories.
 
