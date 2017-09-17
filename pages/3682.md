@@ -162,6 +162,8 @@ So $f_* \hat F$ here is a homotopy Kan extension as produced by the derived func
 
 ### Properties
 
+#### Derived-hom into a ho-Kan extension is a ho-Kan extention {#HomIntoKanExt}
+
 Recall that for $F : C \to A$ an ordinary [[functor]] between ordinary [[categories]], its ordinary [[limit]] $\lim_\leftarrow F$ is characterized by the fact that for every object $a \in A$ the set $Hom(a, \lim_\leftarrow F)$ is the limit in [[Set]] of the functor $C \to A \stackrel{Hom_A(a,-)}{\to} Set$. So all ordinary limits are determined by limits in [[Set]].
 
 The analogous statement here is that all homotopy limits are determined by homotopy limits in $sSet_{Quillen}$.
@@ -172,10 +174,10 @@ The analogous statement here is that all homotopy limits are determined by homot
 Let $F \in [C,A]$ and $G \in [C',A]$ be fibrant in the projective [[model structure on functors]]. Then a morphism $\eta : G \to f_* F$ exhibts $G$ as a homotopy right Kan extension of $F$ precisely if for each cofibrant $a \in A$ -- equivalently for each fibrant-cofibrant $a \in A$ -- the morphism
 
 $$  
-  \eta_a : A(a,G(-)) \to f_* A(a,F(-))
+  \eta_a : A(a,G(-)) \to  A(a, f_* F(-))
 $$
 
-exhibits $A(a,G(-))  \in [C',sSet]$ as a homotopy right Kan extension of $A(a,G(-)) \in [C,sSet]$.
+exhibits $A(a,G(-))  \in [C',sSet]$ as a homotopy right Kan extension of $A(a,F(-)) \in [C,sSet]$.
 
 =--
 
@@ -185,9 +187,59 @@ exhibits $A(a,G(-))  \in [C',sSet]$ as a homotopy right Kan extension of $A(a,G(
 
 This appears as [[Higher Topos Theory|HTT, prop. A.3.3.12]].
 
+First notice that a  replacement $F \stackrel{\simeq}{\to} \hat F$ in [C,A]_{inj} by a fibrant $\hat F$ induces a weak equivalence $A(a,F(-)) \to A(a,\hat F(-))$ for all cofibrant $a \in A$, since $F$ is assumed projectively fibrant and using the properties of [[derived hom-space]]s in an [[enriched model category]].
+
+Therefore we may assume without loss of generality that $F$ is already injectively fibrant. Then it also follows that for all cofibrant $a \in A $ we have that $A(a,F(-)) \in [C,sSet]_{inj}$ is fibrant: because $A(a,(-))$ having [[right lifting property]] against all acyclic cofibrations $H \to H'$ in $[C,sSet]_{inj}$ 
+
+$$
+  \array{
+    H &\to & A(a,F(-))
+    \\
+    \downarrow & \nearrow
+    \\
+    H'
+  }
+$$
+
+is equivalent, by the [[sSet]]-[[copower|tensor]]-adjunction in $A$, to $F$ itself having the right lifting property against the map from $A \cdot H : c \mapsto H(c)\cdot A$ to $H' \cdot A$
+
+$$
+  \array{
+    H\cdot a &\to & F
+    \\
+    \downarrow & \nearrow
+    \\
+    H'\cdot a
+  }
+  \,.
+$$
+
+But since tensoring in $A$ with [[sSet]] is a left [[Quillen bifunctor]] by definition of [[enriched model category]], we have that tensoring the cofibrant $a$ with an acyclic cofibration of simplicial sets produces an acaclic cofibration in $A$, so that $H \cdot a \to H'\cdot a$ is an acyclic cofibration in $[C,sSet]_{inj}$. But by the previous remark $F$ is (can assumed to be) injectively fibrant, hence the lift exists. Hence $A(a,F(-))$ is indeed injectively fibrant.
+
+With this in hand, we have now the following equivalent restatement of the claim:
+
+$\eta$ is a weak equivalence precisely if $\eta_a$ is for all cofibrant (or cofibrant and fibrant) $a$.
+
+The implication $(\eta we) \Rightarrow (\eta_a we)$ follows because in the [[enriched model category]] $A$, the functor $A(a,F(-))$ out of the cofibrant objectwise $a$ into the fibrant $F(-)$  preserves weak equivalences.
+
+Conversely, if $\eta_a: A(a,G(-)) \to A(a,f_* F(-))$ is a weak equivalence for all fibrant and cofibrant $a$, then for all $c \in C$ $\eta(c) : G(c) \to f_* F(c)$ is a weak equivalence for all $c \in C$ by the [[Yoneda lemma]], for instance in the $Ho(sSet)$-enriched [[homotopy category]] $Ho(A)$ of $A$: a morphism in $Ho(A)$ is an iso if homming all other objects into it produces an isomorphism.
+
+
 =--
 
-## In Kan-complex enriched categories
+
++-- {: .un_remark}
+###### Remark
+
+Notice that the statement makes sense in the full $sSet$-subcategory $A^\circ$ on fibrant-cofibrant objects of $A$, without needing any further mentioning on the model category structure on $A$, only that on $sSet_{Quillen}$ is involved. This allows to define homotopy Kan extensions in arbitrary Kan-complex enriched categories, which may or may not arise as $A^\circ$ for A a simplicial model category. This is discussed below.
+
+
+=--
+
+
+## In Kan-complex enriched categories {#InKanCplCat}
+
+We obtain a notion of homotopy Kan extension that does not depend on any model category structure or even on weak equivalences anymore, but takes place entirely just in Kan-complex enriched categories.
 
 ### Definition
 
@@ -200,19 +252,56 @@ Accordingly, this characterization makes sense for $A$ any locally fibrant $sSet
 ###### Definition
 
 For $A$ a [[Kan complex]]-[[enriched category]] and $f : C \to C'$ an [[enriched functor]] of small [[sSet]]-[[enriched categories]], 
-given $F \in [C,A]$ and $G \in [C',A]$ we say a morphism $\eta : G \to f_* F$, **exhibits $G$ as a homotopy right Kan extension** if for all $a \in A$ the morphis,
+given $F \in [C,A]$ and $G \in [C',A]$ we say a morphism $\eta : G \to f_* F$, **exhibits $G$ as a homotopy right Kan extension** if for all $a \in A$ the morphism
 
 $$  
-  \eta_a : A(a,G(-)) \to f_* A(a,F(-))
+  \eta_a : A(a,G(-)) \to  A(a,f_* F(-))
 $$
 
 exhibits $A(a,G(-)) : C' \to sSet_{Quillen}$ as a homotopy right Kan extension of $A(a,G(-)) : C \to sSet_{Quillen}$.
 
 =--
 
-### Properties
+### Homotopy limits and colimits {#Holims}
 
-Under the [[homotopy coherent nerve]], homotopy colimits in a Kan-complex enriched categories as defined above are [[limit in a quasi-category|quasi-categorical colimits]]:
+If the diagram category $C'$ is the terminal $sSet$-category, the left and right homotopy Kan extension along $f : C \to {*}$ is the [[homotopy limit]] and [[homotopy colimit]], respectively.
+
+#### Characterization in terms of hom-adjuncts
+
+In that case that we are homotopy Kan extending to the point, if $\eta : G \to f_* F$ exhibits a right homotopy Kan extension, $G \in A$ is  a single object of $A$ and by adjunction this corresponds to a [[natural transformation]] $f^* G = const G \to F$, whose components are a collection of morphisms
+
+$$
+  \{ \eta_c : G \to F(c) \}_{c \in C}
+$$
+
+in $A$. Then 
+
++-- {: .un_corollary}
+###### Corllary
+
+The fact that $\eta$ exhibits a right homotopy Kan extension is equivalent to the statement that for all $a \in A$ the morphism
+
+$$
+  A(a, G) \to \lim_{\leftarrow} A(a,F(-))
+$$
+
+induced by composing with the $\{\eta_c\}$ _exhibits $A(a,G)$ as a homotopy limit_  of $A(a,F(-))$ in $sSet_{Quillen}$, in the above sense.
+
+Since $\lim_{\leftarrow} A(a,F(-)) = [C,sSet](const a,F)$ is an isomorphissm, this in turn is equivalent to the statemeent that
+
+$$
+  A(a, G) \to [C,sSet](const a, F)
+$$
+
+exhibits that homotopy Kan extension.
+
+=--
+
+Analogously for homotopy colimits.
+
+#### Relation to quasi-categorical limits and colimits
+
+The above considerations can be used to show that under the [[homotopy coherent nerve]], homotopy colimits in a Kan-complex enriched categories as defined above are [[limit in a quasi-category|quasi-categorical colimits]]:
 
 +-- {: .un_prop}
 ###### Proposition
@@ -224,7 +313,7 @@ For $C$ and $A$ Kan-complex-enriched categories and $F \in [C,A]$, a morphism $\
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, theorem 4.2.4.1]].
+This is [[Higher Topos Theory|HTT, theorem 4.2.4.1]]. Some details on the proof are discussed at [[limit in a quasi-category]].
 
 =--
 
