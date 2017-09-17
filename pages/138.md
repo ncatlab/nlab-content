@@ -35,7 +35,7 @@ $$
 
 be the [[geometric embedding]] defining a [[sheaf topos]] $Sh(C)$ into a [[presheaf topos]] $PSh(C)$. 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A morphism
@@ -64,7 +64,7 @@ A hypercover that also satisfies a cofibrancy condition in the projective [[loca
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This is equivalent to saying that $f : Y \to X$ is a _local_ acyclic fibration: for all $U \in C$ and $n \in \mathbb{N}$ every lifting problem
@@ -110,7 +110,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If the [[topos]] $Sh(C)$ has [[point of a topos|enough points]] a morphism $f : Y \to X$ in $Sh(C)^{\Delta^{op}}$ is a hypercover if all its [[stalk]]s are acyclic [[Kan fibration]]s.
@@ -123,7 +123,7 @@ In some situations, we may be interested primarily in hypercovers that are built
 
 ## Examples
 
-+-- {: .un_examples}
++-- {: .num_example}
 ###### Example
 
 Consider the case that $X = const X_0$ is simplicially constant. Then the conditions on a morphism $Y \to X$ to be a hypercover is as follows.  
@@ -177,7 +177,7 @@ Consider the case that $X = const X_0$ is simplicially constant. Then the condit
 ## Properties
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $U = \{U_i \to X\}$ a [[cover]], the [[Cech nerve]] projection $C(U) \to X$ is a hypercover of height 0.
@@ -190,7 +190,7 @@ Let $f : Y \to X$ be a hypercover. We may regard this as an object in the [[over
 
 Forming in the sheaf topos the [[free functor|free]] abelian group on $f_n$ for each $n \in \mathbb{N}$, we obtain a simplicial abelian group object $\bar f \in Ab(Sh(C/X))^{\Delta}$. As such this has a [[Moore complex|normalized chain complex]] $N_\bullet(\bar f)$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $f : Y \to X$ a hypercover, the [[chain homology]] of $N(\bar f)$ vanishes in positive degree and is the group of [[integer]]s in degree 0, as an object in $Ab(Sh(C)(X)$:
@@ -213,7 +213,7 @@ $$
 
 The following theorem characterizes the [[∞-stack]]/[[(∞,1)-sheaf]]-condition for the [[presentable (∞,1)-category|presentation]] of an [[(∞,1)-topos]] by a [[local model structure on simplicial presheaves]] in terms of descent along hypercovers.
 
-+-- {: .un_prop}
++-- {: .num_theorem}
 ###### Theorem
 
 In the [[local model structure on simplicial presheaves]] $PSh(C)^{\Delta^{op}}$ an object is fibrant precisely if it is fibrant in the global [[model structure on simplicial presheaves]] and in addition satisfies [[descent]] along all hypercovers over representables that are degreewise [[coproduct]]s of representables.
@@ -224,7 +224,7 @@ This is the central theorem in ([DuggerHollanderIsaksen](#DuggerHollanderIsaksen
 
 The following theorem is a corollary of this theorem, using the discussion at [[abelian sheaf cohomology]]. But historically it predates the above theorem.
 
-+-- {: .un_prop}
++-- {: .num_theorem}
 ###### Theorem
 **(Verdier's hypercovering theorem)
 
@@ -239,6 +239,52 @@ by computing for each hypercover $Y \to X$ the [[cochain cohomology]] of the [[M
 =--
 
 A proof of this result in terms of the structure of a [[category of fibrant objects]] on the category of simplicial presheaves appears in ([Brown, section 3](#Brown)).
+
+
+
+### Over Verdier sites
+ {#OverVerdierSites}
+
+The following definitions and statements capture the fact that over certain nice [[site]]s it is sufficient to consider certain nice hypercovers. This is due to ([DuggerHollanderIsaksen, section 8](#DuggerHollanderIsaksen)).
+
++-- {: .num_defn}
+###### Definition
+
+A **[[Verdier site]]** is a [[small category]] with finite [[pullback]]s equipped with a [[basis for a Grothendieck topology]] such that the generating [[covering]] maps $U_i \to X$ all have the property that their [[diagonal]]
+
+$$
+  U_i \to U_i \times_X U_i
+$$
+
+is also a generating covering. We say that $U_i \to X$ is **basal**.
+
+=--
+
++-- {: .num_example}
+###### Examples
+
+It is sufficient that all the $U_i \to X$ are [[monomorphism]]s. 
+
+Examples include the standard [[open cover]]-topology on [[Top]]. 
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A **basal hypercover** over a [[Verdier site]] is a hypercover $U \to X$ such that for all $n \in \mathbb{N}$ the components of the maps into the matching object $U_n \to M U_n$ are basal maps, as above.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+Over a Verdier site, every hypercover may be refined by a split and basal hypercover.
+
+=--
+
+This is ([DuggerHollanderIsaksen, theorem 8.6](#DuggerHollanderIsaksen)).
+
 
 ## Reference
 
