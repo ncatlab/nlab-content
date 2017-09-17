@@ -39,11 +39,17 @@ Let $\pi \colon E \to M$ be a smooth vector bundle with finite dimensional fibre
 
 Moreover, in finite dimensions all orthogonal structures are equivalent in that there is a bundle isomorphism between any two.
 
-## Structure Groups
+## Properties
 
-In finite dimensions, to put an orthogonal structure on a vector bundle is to give a reduction of its structure group from the [[general linear group]] to the corresponding [[orthogonal group|orthogonal]] subgroup.  Thus the existence in general is equivalent to the fact that the inclusions $O(n) \to GL(n)$ and $U(n) \to GL(n)$ are [[homotopy equivalences]].  A similar statement can be made about the fact that any two orthogonal structures are equivalent.
+### Reduction of structure Groups
 
-## Infinite Dimensions
+#### In finite dimensions
+
+In finite dimensions, to put an orthogonal structure on a vector bundle is to give a [[reduction of structure groups|reduction of its structure group]] from the [[general linear group]] to the corresponding [[orthogonal group|orthogonal]] subgroup along the defining inclusion $O(n) \hookrightarrow GL(n)$.  Such a reduction is also known as a choice of _[[vielbein]]_.
+
+Thus the existence in general is equivalent to the fact that the inclusions $O(n) \to GL(n)$ and $U(n) \to GL(n)$ are [[homotopy equivalences]], as for the inclusion of any [[maximal compact subgroup]].  A similar statement can be made about the fact that any two orthogonal structures are equivalent.
+
+#### In infinite Dimensions
 
 The situation in infinite dimensions is more complicated due to the fact that there are more situations to consider.  In finite dimensions, any two orthogonal structures are equivalent, which stems from the fact that any two inner products define equivalent norms in finite dimensions.  In infinite dimensions, it is no longer true even that all [[locally convex topological vector spaces]] admit inner products, and when one does then it is highly unlikely that it will admit only one (up to equivalence).
 
@@ -67,7 +73,7 @@ and the classification of weak orthogonal structures is essentially a study of h
 
 ## Related concepts
 
-* [[vielbein]]
+A choice of orthognal structure on a [[manifold]] is also equivalently called a choice of _[[vielbein]]_. See there for more details.
 
 ## References
 
