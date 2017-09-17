@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[Yang-Mills theory]] an _[[instanton]]_ is a field configuration with non-vanishing second [[Chern class]] that minimizes the Yang-Mills energy.
+In $SU(n)$-[[Yang-Mills theory]] an _[[instanton]]_ is a field configuration with non-vanishing second [[Chern class]] that minimizes the Yang-Mills energy.
 
 
 ## Definition
