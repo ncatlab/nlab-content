@@ -1,0 +1,5 @@
+__Galois types__ are a generalization of types for [[abstract elementary class]]es with [[amalgamation property]].
+
+* [[Rami Grossberg]], _Classification theory for abstract elementary classes_ (section 6), Logic and Algebra, ed. Yi Zhang, Contemporary Mathematics __302__, AMS, (2002) 165--204, [pdf](http://www.math.cmu.edu/~rami/Rami-NBilgi.pdf) 
+* Rami Grossberg, Monica VanDieren, _Galois-stability for tame abstract elementary classes_, Journal of Mathematical Logic __6__, No. 1 (2006) 25--49, [pdf](http://www.math.cmu.edu/~rami/tame.pdf) 
+[[!redirects Galois types]]
