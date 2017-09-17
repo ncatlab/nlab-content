@@ -84,7 +84,8 @@ Morphisms...
 
 ## Examples
 
-### Presheaves on a $Q$-category
+### (Co)Presheaves on a $Q$-category
+ {#PresheafQCategory}
 
 The [[category of presheaves]] over any $Q$-category canonically inherits itself the structure of a Q-category. 
 
