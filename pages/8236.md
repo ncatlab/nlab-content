@@ -9,7 +9,7 @@
 
 ## Idea
 
-A _lattice in the [[Cartesian space]]_ $\mathbb{R}^n$ is a [[discrete group|discrete]] [[subgroup]] of the underlying [[abelian group]] which [[spans]] the whole space.
+A _lattice in the [[Cartesian space]]_ $\mathbb{R}^n$ is a [[discrete group|discrete]] [[subgroup]] (of the underlying [[topological group|topological]] [[abelian group]]) that [[spans]] $\mathbb{R}^n$ as a vector space over $\mathbb{R}$.
 
 ## Examples
 
