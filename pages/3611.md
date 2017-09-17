@@ -80,7 +80,32 @@ that factor the [[codiagonal]] on $I$ by a cofibration followed by a weak equiva
  
 =--
 
++-- {: .un_example}
+###### Examples
 
+Such cocommutative coalgebra intervals exist in
+
+* the [[model structure on topological spaces|model structure on compactly generated topological spaces]];
+
+* the [[model structure on simplicial sets]];
+
+* the [[model structure on symmetric spectra]].
+
+In
+
+* the [[model structure on chain complexes]] 
+
+there is a coalgebra interval.
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+Since the coalgebra interval in the [[category of chain complexes]] is not cocommutative, this case requires special discussion, as some of the statements below will not apply to it. For more on this case see [[model structure on dg-operads]].
+
+=--
 
 ### Model category structure
 
@@ -347,4 +372,8 @@ The induced model structures and their properties on [[algebras over operads]] a
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijkAlgebras}
 
+The [[model structure on dg-operads]] is discussed in
+
+* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+{#Hinich}
 
