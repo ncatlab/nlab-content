@@ -19,9 +19,11 @@
 
 ## Idea
 
+A graded algebra is an associative algebra with a labelling on its elements by elements of some monoid or group, and such that the multiplication in the algebra is reflected in the multiplication in the labelling group. 
+
 ## Definition
 
-Let $G$ be an [[abelian group]]. Often one takes by default $G = \mathbb{Z}$ the additive group of [[integer]]s.
+Let $G$ be a [[group]].  (Often $G$ will be abelian, and, in fact, one usually takes by default $G = \mathbb{Z}$ the additive group of [[integer]]s, in which case the actual group being used is omitted from the terminology and notation.)
 
 A **graded ring** is a [[ring]] $R$ equipped with a decomposition of the underlying [[abelian group]] as a [[direct sum]] $R = \oplus_{g \in G} R_g$ such that the product takes $R_{g} \times R_{g'} \to R_{g g'}$.
 
@@ -48,7 +50,11 @@ There is a [[natural isomorphism]] between
 
 =--
 
-The proof is speled out at [[affine line]] in the section <a href="http://nlab.mathforge.org/nlab/show/affine+line#Properties">Properties</a>.
+The proof is spelled out at [[affine line]] in the section <a href="http://nlab.mathforge.org/nlab/show/affine+line#Properties">Properties</a>.
+
+##Example with $G$ not necessarily abelian.
+
+Let $G$ be any (discrete) group and $k[G]$ its [[group algebra]]. This has a direct sum decomposition as an abelian group,
 
 [[!redirects graded algebras]]
 
