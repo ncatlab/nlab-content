@@ -25,6 +25,12 @@ For example, while so-called [[standard model of particle physics]] has inconsis
 
 * [[model (in particle physics)]]
 
+  * [[standard model of particle physics]]
+
+  * [[standard model of cosmology]]
+
+* [[hierarchy problem]]
+
 * [[LHC]]
 
 * [[string phenomenology]]
