@@ -48,6 +48,7 @@ But more generally, given for instance a [[K(n)-local spectrum|K(n)-localization
 
 In words this is summarized succintly as: _The Chern character is the [[shape modality|shape]] of the [[Maurer-Cartan form]]._
 
+In the context of [[algebraic K-theory]] Chern characters appear at _[[Beilinson regulators]]_.
 There are analogues in algebraic geometry (e.g. a Chern character between [[Chow groups]] and [[algebraic K-theory]]) and in [[noncommutative geometry]] (Chern-Connes character) where the role of usual cohomology is taken by some variant of cyclic cohomology.  
 
 ## Examples
@@ -123,7 +124,6 @@ For more on this see at _[[differential cohomology diagram]]_.
 The behaviour of the Chern-character under [[fiber integration in generalized cohomology]] along [[proper maps]] is described by the [[Grothendieck-Riemann-Roch theorem]].
 
 ## Related concepts
-
 
 * [[regulator]], [[Beilinson regulator]]
 
