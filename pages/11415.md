@@ -15,11 +15,11 @@
 {:toc}
 
 ##Idea##
-Given a [[homomorphism]] of [[commutative rings]] $\phi:R\to S$, we have an [[extension of scalars]] [[functor]] $-\otimes_R S:Mod_R\to Mod_S$. For a given $R$-[[module]] $M$, a _twisted form_ of $M$ is another $R$-module $M$ such that $M\otimes_R S$ is [[isomorphism|isomorphic]] to $M'\otimes_R S$.  It turns out that for a morphism of [[effective descent]], then isomorphism classes of twisted forms of a given $S$-module $N\cong M\otimes_R S$ are in [[bijection]] with the set of [[descent]] data on $N$! What's more, this set can be computed using [[nonabelian cohomology]]. 
+Given a [[homomorphism]] of [[commutative rings]] $\phi:R\to S$, we have an [[extension of scalars]] [[functor]] $-\otimes_R S:Mod_R\to Mod_S$. For a given $R$-[[module]] $M$, a _twisted form_ of $M$ is another $R$-module $M$ such that $M\otimes_R S$ is [[isomorphism|isomorphic]] to $M'\otimes_R S$.  It turns out that if $\phi$ is of [[effective descent]] for modules, then isomorphism classes of twisted forms of a given $S$-module $N\cong M\otimes_R S$ are in [[bijection]] with the set of [[descent]] data on $N$! What's more, this set can be computed using [[nonabelian cohomology]]. 
 
 ##History##
 
-Probably the most famous twisted form computation is [[Hilbert's Theorem 90]]. That theorem can be reinterpreted as saying that for a [[Galois extension]] of fields $K\to L$, and an $L$-[[vector space]] $W$, there is exactly one $K$-vector space $V$ such that $W\cong V\otimes_K L$. In that case, the relevant [[nonabelian cohomology]] has been reinterpreted to look like [[Galois cohomology]]. [[Serre]] discussed twisted forms at some length (though he just called them "forms of ____" where _____ was the module of interest) in his book _Corps Locaux_. 
+Probably the most famous twisted form computation is [[Hilbert's Theorem 90]]. That theorem can be reinterpreted as saying that for a [[Galois extension]] of fields $K\to L$, and an $L$-[[vector space]] $W$, there is exactly one $K$-vector space $V$ such that $W\cong V\otimes_K L$. In that case, the relevant [[nonabelian cohomology]] has been reinterpreted to look like [[Galois cohomology]]. [[Serre]] discussed twisted forms at some length (though he just called them "forms") in his book _Corps Locaux_. 
 
 
 [[!redirects twisted forms]]
