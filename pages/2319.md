@@ -515,6 +515,8 @@ where each "hook" is a [[fiber sequence]].
 
     [[spin^c structure]], [[twisted spin^c structure]]
 
+    [[Spin Chern-Simons theory]]
+
   * [[2-framing]]
 
   * [[string structure]], [[differential string structure]]
