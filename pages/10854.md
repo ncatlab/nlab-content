@@ -17,10 +17,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -68,7 +67,22 @@ More generally, for $\chi$ an $R$-[[(∞,1)-line bundle]] over $X$ then the corr
 * [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
  {#Lawvere86}
 
+
+[[!redirects intensive or extensive]]
+[[!redirects intensive or extensive quantity]]
+[[!redirects intensive or extensive quantities]]
+[[!redirects intensive and extensive]]
+[[!redirects intensive and extensive quantities]]
+[[!redirects extensive or intensive]]
+[[!redirects extensive or intensive quantity]]
+[[!redirects extensive or intensive quantities]]
 [[!redirects extensive and intensive]]
+[[!redirects extensive and intensive quantities]]
 
 [[!redirects intensive]]
+[[!redirects intensive quantity]]
+[[!redirects intensive quantities]]
+
 [[!redirects extensive]]
+[[!redirects extensive quantity]]
+[[!redirects extensive quantities]]
