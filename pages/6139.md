@@ -149,3 +149,4 @@ Section 5.1.3 of
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#LurieAlgebra}
 
+[[!redirects looping]]
