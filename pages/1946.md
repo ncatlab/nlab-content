@@ -7,19 +7,19 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
 A _Reedy model structure_ is a [[global model structure on functors]]:
 
 given a [[Reedy category]] $R$ and a [[model category]] $C$ the **Reedy model structure** is a [[model category]] structure on the [[functor category]] $[R,C] = Func(R,C)$.
 
-As opposed to the [[global model structure on functors|projective and injective model structure]] on functors this doe snot require any further structure on $C$, but instead makes a strong assumption on $R$.
+As opposed to the [[global model structure on functors|projective and injective model structure]] on functors this does not require any further structure on $C$, but instead makes a strong assumption on $R$.
 
 There is a refinement to a notion of $V$-[[enriched Reedy category]] such that if $C$ is a $V$-[[enriched model category]] -- in particular when it is a [[simplicial model category]] for $V = $ [[SSet]] -- the [[enriched functor category]] $[R,C]$ is itself a $V$-[[enriched model category]]. (Reference _Ang_ below.)
 
 
 
-In the case that 
+In the case that we do have extra assumptions on the codomain in that
 
 * $C$ a [[combinatorial simplicial model category]] 
 
@@ -27,11 +27,10 @@ In the case that
 
 * and with the [[Reedy category]] $R$ an ordinary category regarded as a [[SSet]]-[[enriched category]], 
 
-the [[(∞,1)-category]] $[R,C]^\circ$ [[presentable (∞,1)-category|presented]] by the enriched Reedy model structure on $[C,R]$ _should_ be the [[(∞,1)-category of (∞,1)-functors]] $Func_\infty(R,C^\circ)$.
+the Reedy model structure, having the same weak equivalences as the [[global model structure on functors]], presents similarly the [[(∞,1)-category of (∞,1)-functors]] $Func_\infty(R,C^\circ)$, from $C$ into the [[(∞,1)-category]] [[presentable (∞,1)-category|presented by]] $C$.
 
->That last statement here mainly since it would be the best way to describe the _idea_ behind Reedy model structures. This ought to be true, but I'll get back to this after checking something.
 
-#Definition#
+## Definition
 
 +-- {: .num_theorem #model}
 ###### Theorem
@@ -58,8 +57,7 @@ One then verifies that this defines a model structure; the details can be found 
 $$ L_r Z \amalg_{L_r X} X_r \to M_r Z \times_{M_r Y} Y_r$$
 in the appropriate way in $M$.
 
-
-# Remarks
+## Remarks
 
 * Any Reedy cofibration or fibration is, in particular, an objectwise one, but the converse does not generally hold.
 
@@ -71,16 +69,40 @@ in the appropriate way in $M$.
 
   For a detailed comparison of Reedy and global projective/injective model structures see around example A.2.9.22 in [[Higher Topos Theory|HTT]].
 
-
 * In addition to its existing for all $C$, another advantage of the Reedy structure is the explicit nature of its cofibrations, fibrations, and factorizations.
 
 * If $R$ admits more than one structure of Reedy category, then $C^R$ will have more than one Reedy model structure.  For instance, if $R = (\cdot\to\cdot)$ is the walking arrow, then we can regard it as either the ordinal $2$ or its opposite $2^{op}$, resulting in two different Reedy model structures on $C^2$.
 
 * For a general Reedy category $R$, the diagonal functor $C\to C^R$ need not be either a right or a left [[Quillen adjunction|Quillen functor]] (although, of course, it has left and right adjoints given by colimits and limits over $R$).  One can, however, characterize those Reedy categories for which one or the other is the case, and in this case one can construct [[homotopy limit|homotopy limits]] and colimits using the derived functors of these Quillen adjunctions.
 
-# Examples #
+## Properties {#Properties}
 
-## Arrow category ##
++-- {: .num_prop }
+###### Observation
+
+Let $C$ be a [[combinatorial model category]] and $R$ a [[Reedy category]].
+
+
+The identity functors provide left [[Quillen equivalence]]s
+
+$$
+  [R,C]_{proj} \stackrel{\simeq_{Quillen}}{\to}
+  [R,C]_{Reedy}
+  \stackrel{\simeq_{Quillen}}{\to}
+  [R,C]_{inj}
+  \,.
+$$
+
+
+=--
+
+See also [[Higher Topos Theory|HTT, remark A.2.9.23]]
+
+
+
+## Examples 
+
+### Arrow category 
 
 The simplest nontrivial example is obtained for 
 
@@ -163,7 +185,7 @@ that
 So in accord with the proposition above one finds that this Reedy model structure on $[I,C]$ coincides with the _injective_ [[global model structure on functors]] on $I$.
 
 
-## Tower category ##
+### Tower category 
 
 Let $R = \mathbb{N}^{op} = \{\cdots \to 2 \to 1 \to 0\}$ be the natural numbers regarded as a [[poset]] using the great-than  relation.
 
@@ -182,11 +204,11 @@ The analysis of the Reedy model structure on this involves just a repetition of 
 * the fibrant objects are the towers of fibrations on fibrant objects in $C$.
 
 
-# References #
+## References 
 
 A review of Reedy model structures is in section A.2.9 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]] .
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 The discussion of enriched Reedy model structures is in
 
