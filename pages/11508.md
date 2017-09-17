@@ -319,7 +319,7 @@ Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 
 * {#Bandos00} [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl.Phys.B599:197-227,2001 ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
 
-* {#Greicius09} Aaron Greicius, _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
+* {#Greicius09} [[Aaron Greicius]], _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
 
 
 [[!redirects modular equivariant tmf]]
