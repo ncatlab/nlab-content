@@ -1,8 +1,12 @@
+An [[abelian category]] is local if it has the smallest topologizing subcategory.
+
+An alternative description is the following.
+
 Recall the [[preorder]] $\succ$ on the collection of nonzero objects of an abelian category $A$. Namely, $M\succ N$ if $N$ is a [[subquotient]] of finitely many copies of $M$. In other words, $M\succ N$ if there exists a positive number $k$ and a subobject $U$ of a direct sum $\oplus_{i = 1}^k M$ of $k$ copies of $M$ and an epimorphism from $U$ to $N$.   
 
 A nonzero object $M$ of an [[abelian category]] $A$ is said to be __quasifinal__ if $M\succ N$ for any nonzero object $N$ of $A$. The quasifinal object clearly belongs to the [[spectrum of an abelian category|spectrum of the abelian category]] $A$. An abelian category is called __local__ if it has a quasifinal object. 
 
-Local abelian categories in the theory of noncommutative spectra (in the sense of [[noncommutative algebraic geometry]]) have a role similar to local rings in the theory of usual spectra of rings and in the theory of locally ringed spaces. Moreover there is a "center" functor from the category of topological spaces equipped with stacks of local categories to the locally (commutatively) ringed spaces. It is basically induced by the classical center construction which to a svelte abelian category attaches the ring of endomorphisms of the identical functor, thanks to the functoriality of that construction with respect to the localizations.  
+Local abelian categories in the theory of noncommutative spectra (in the sense of [[noncommutative algebraic geometry]]) have a role similar to local rings in the theory of usual spectra of rings and in the theory of locally ringed spaces. Moreover there is a "center" functor from the category of topological spaces equipped with stacks of local categories to the locally (commutatively) ringed spaces. It is basically induced by the construction of the [[center of abelian category]] which to an essentially small abelian category attaches the ring of endomorphisms of the identical functor, thanks to the functoriality of that construction with respect to the localizations.  
 
 * A. L. Rosenberg, _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3589) (mainly Lec. 1.6 around page 30)
 
