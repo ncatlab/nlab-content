@@ -10,10 +10,14 @@ and **counit** (or *evaluation*)
 $$e : A \otimes A^* \to I $$
 satisfying the 'triangle identities' familiar from the concept of [[adjunction]].
 
-If every object of $C$ has a left and right dual, then $C$ is called a [[rigid monoidal category]] or an [[autonomous monoidal category]].  If it is additionally symmetric, it is called a [[compact closed category]].
+If every object of $C$ has a left and right dual, then $C$ is called a [[rigid monoidal category]] or an [[autonomous monoidal category]].  If it is additionally symmetric, it is called a [[compact closed category]].  See [[category with duals]] for more discussion.
 
 Dualizable objects also support a good abstract notion of [[trace]].
 
 
 [[!redirects dual object]]
+[[!redirects dual objects]]
+[[!redirects dualizable object]]
 [[!redirects dualizable objects]]
+[[!redirects dualisable object]]
+[[!redirects dualisable objects]]
