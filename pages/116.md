@@ -240,6 +240,8 @@ For more see [[counterexamples in algebra]].
 
   * [[abelian group]], [[anabelian group]], 
 
+    * [[group completion]]
+
   * [[group commutator]], [[commutator subgroup]], [[abelianization]]
 
   * [[group character]]
