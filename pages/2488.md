@@ -160,6 +160,29 @@ $$
 
 is the [[Postnikov tower in an (∞,1)-category]] of $A$. See there for more details.
 
+
+## Properties
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an $(\infty,1)$-category and $k \geq -2$, the full [[sub-(∞,1)-category]] $\tau_{\leq k} C$ is stable under all [[limit in a quasi-category|limits]] in $C$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.6.5]].
+
+
++-- {: .proof}
+###### Proof
+
+...
+
+=--
+
+
+
 ## Examples
 
 ### In $\infty Grpd$ and in $Top$
