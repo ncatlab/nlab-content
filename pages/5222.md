@@ -12,3 +12,5 @@ The _Fourier-Mukai transform_ is a [[categorification|categorified]] [[integral 
 * Lutz Hille, Michel Von den Bergh, _Fourier-Mukai transforms_ ([arXiv](http://arxiv.org/abs/math/0402043))
 
 [[!redirects Fourier-Mukai transforms]]
+[[!redirects Fourier-Mukai functor]]
+[[!redirects Fourier-Mukai functors]]
