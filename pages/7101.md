@@ -18,7 +18,7 @@
 
 For $G$ a [[topological group]] there is a notion of $G$-[[principal bundles]] $P \to X$ over any [[topological space]] $X$. Under [[continuous maps]] $f : Y \to Y$ there is a notion of [[pullback]] of principal bundles $f^* : G Bund(Y) \to G Bund(X)$.
 
-A **universal $G$-principal bundle** is a $G$-principal bundle -- then denoted $E G \to B G$ -- is a $G$-principal bundle such that for every [[CW-complex]] $X$ the map
+A **universal $G$-principal bundle** is a $G$-principal bundle, which is usually written $E G \to B G$, such that for every [[CW-complex]] $X$ the map
 
 $$
   [X, B G] \to G Bund(X)/_\sim
