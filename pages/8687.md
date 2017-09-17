@@ -9,7 +9,7 @@
 =--
 =--
 
-An element $x\in C$ in a [[coalgebra]] (or, more generally [[coring]]) $(C,\Delta,\epsilon)$ is __primitive__ if $\Delta(x) = 1\otimes x + x\otimes 1$ and $\epsilon(x) = 0$. By Milnor-Moore theorem, for Hopf algebras over a filed of characteristics zero, the subspace of primitive elements generates a subalgebra which is isomorphic to the enveloping algebra of some Lie algebra. 
+An element $x\in C$ in a [[coalgebra]] (or, more generally [[coring]]) $(C,\Delta,\epsilon)$ is __primitive__ if $\Delta(x) = 1\otimes x + x\otimes 1$ and $\epsilon(x) = 0$. By Milnor-Moore theorem, for Hopf algebras over a field of characteristics zero, the subspace of primitive elements generates a subalgebra which is isomorphic to the enveloping algebra of some Lie algebra. 
 
 [[!redirects primitive element in a coalgebra]]
 
